@@ -1,13 +1,13 @@
 ---
-title: "Um FIFO með merkingu og efnislegt virði"
-description: "Fyrst inn, fyrst út (FIFO) er birgðalíkan þar sem fyrstu innhreyfingar eru úthreyfðar fyrst. Fjárhagslega uppfærð vandamál úr birgðum eru jöfnuð á móti fyrstu fjárhagslega uppfærðu móttöku í birgðir, byggt á fjárhagsdagsetningu birgðafærslu."
+title: Um FIFO með merkingu og efnislegt virði
+description: Fyrst inn, fyrst út (FIFO) er birgðalíkan þar sem fyrstu innhreyfingar eru úthreyfðar fyrst. Fjárhagslega uppfærð vandamál úr birgðum eru jöfnuð á móti fyrstu fjárhagslega uppfærðu móttöku í birgðir, byggt á fjárhagsdagsetningu birgðafærslu.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c24ce4dab179f439521c22e196b0b190821bc60f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2d3a6c412e497952c0c7f5b113990bbe693b0f22
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348826"
 ---
-
 # <a name="fifo-with-physical-value-and-marking"></a>Um FIFO með merkingu og efnislegt virði
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,7 @@ Nýja meðalkostnaðarverðið endurspeglar meðaltal fjárhagslega uppfærðu f
 - Birgðafærslur eru táknaðar með lóðréttum örvum.
 - Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
 - Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
-- Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
+- Fyrir ofan (eða fyrir neðan) Hvert Lóðrétt ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
 - Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
 - Birgðafærslugildi sem er ekki innan sviga bendir til þess að birgðafærslan sé fjárhagslega bókuð í birgðir.
 - Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
@@ -76,7 +75,7 @@ Ef reiturinn **Taka efnislegt virði með** er valinn fyrir vöru í skjámyndin
 -   1a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 10,00 USD á hverja.
 -   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 10,00 USD á hverja.
 -   2a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 20,00 USD á hverja.
--   2b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
+-   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
 -   3a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 25,00 USD á hverja.
 -   4a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 30,00 USD á hverja.
 -   4b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 30,00 USD á hverja.
@@ -92,7 +91,7 @@ Færsla 5b verður jöfnuð við innhreyfingarfærslu 1b. Það verður neikvæ�
 - Birgðafærslur eru táknaðar með lóðréttum örvum.
 - Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
 - Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
-- Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
+- Fyrir ofan (eða fyrir neðan) Hvert Lóðrétt ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
 - Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
 - Birgðafærslugildi sem er ekki innan sviga bendir til þess að birgðafærslan sé fjárhagslega bókuð í birgðir.
 - Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
@@ -106,7 +105,7 @@ Merking er aðferð sem gerir mögulegt að tengja eða merkja úthreyfingarfær
 -   1a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 10,00 USD á hverja.
 -   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 10,00 USD á hverja.
 -   2a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 20,00 USD á hverja.
--   2b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
+-   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
 -   3a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 25,00 USD á hverja.
 -   4a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 30,00 USD á hverja.
 -   4b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 30,00 USD á hverja.
@@ -122,14 +121,13 @@ Nýja meðalkostnaðarverðið sem er í gangi endurspeglar meðaltal fjárhagsl
 - Birgðafærslur eru táknaðar með lóðréttum örvum.
 - Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
 - Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
-- Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
+- Fyrir ofan (eða fyrir neðan) Hvert Lóðrétt ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
 - Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
 - Birgðafærslugildi sem er ekki innan sviga bendir til þess að birgðafærslan sé fjárhagslega bókuð í birgðir.
 - Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
 - Hver lóðrétt ör er merkt með raðkenni t.d. *1a*. Kennið gefur til kynna bókunarröð birgðafærslna á tímaásnum .
 - Birgðalokun eru sýndar með rauðri lóðréttri punktaðri línu og merkinu *birgðalokun*
 - Jöfnun sem er gerð af birgðalokun er táknuð með brotinni rauðri línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
-
 
 
 

@@ -1,14 +1,14 @@
 ---
-title: "Fá aðgang að forskoðunareiginleikar í Talent"
-description: "Þetta efnisatriði lýsir því hvernig stjórnandi getur virkjað forskoðunareiginleikana, og listar þá eiginleikar sem eru nú þegar virkjaðar fyrir forskoðun."
+title: Fá aðgang að forskoðunareiginleikar í Talent
+description: Þetta efnisatriði lýsir því hvernig stjórnandi getur virkjað forskoðunareiginleikana, og listar þá eiginleikar sem eru nú þegar virkjaðar fyrir forskoðun.
 author: rschloma
 manager: AnnBe
 ms.date: 04/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
 ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
-ms.contentlocale: is-is
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304825"
 ---
-
 # <a name="access-preview-features-in-talent"></a>Fá aðgang að forskoðunareiginleikar í Talent
 
 [!include[banner](../includes/banner.md)]
@@ -45,7 +44,7 @@ Sem hluti af samfelldri kynningu okkar á afkastagetu vöru, viljum við að vi�
 
 #### <a name="attract"></a>Laða að
 
-1. Skráðu þig inn á Microsoft Dynamics 365 fyrir Talent: Laða að.
+1. Skrá inn á Microsoft Dynamics 365 for Talent: Attract.
 2. Í **Uppsetning** valmyndinni (táknið fyrir gír) efst í hægra horninu skaltu velja **Stjórnunarstillingar**.
 3. Á **Eiginleikar stjórnun** flipann, skal velja valkosturinn við hliðina á **Forskoðunareiginleikar** þannig að það verður blár.
 4. Valfrjáls er hægt að stjórna einstökum eiginleikum með því að virkja/slökkva á tilteknum eiginleikum á þessari síðu.
@@ -92,4 +91,3 @@ Ekki hafa persónuupplýsingar innifaldar (allar upplýsingar sem þú gætir þ
 
 > [!TIP]
 > Vistaðu slóðina á þetta efnisatriði og skoðaðu oft aftur til að halda þér upplýstri/upplýstum um nýjar forskoðunareiginleikar þegar við gefum þá út.
-

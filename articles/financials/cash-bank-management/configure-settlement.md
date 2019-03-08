@@ -1,13 +1,13 @@
 ---
-title: "Skilgreina uppgjör"
-description: "Hvernig og hvenær færslur eru gerð upp getur verið flókin viðfangsefni, svo það er mikilvægt að þú skiljir og rétt skilgreinir færibreytur til að mæta þörfum fyrirtækis þíns. Þessa efnisatrðið lýsir færibreytunum sem eru notaðar til að jafna bæði viðskiptakröfur og viðskiptaskuldir."
+title: Skilgreina uppgjör
+description: Hvernig og hvenær færslur eru gerð upp getur verið flókin viðfangsefni, svo það er mikilvægt að þú skiljir og rétt skilgreinir færibreytur til að mæta þörfum fyrirtækis þíns. Þessa efnisatrðið lýsir færibreytunum sem eru notaðar til að jafna bæði viðskiptakröfur og viðskiptaskuldir.
 author: kweekley
 manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 66e2fdbf7038a2c15fb373d4f96cd6e6c4c87ea0
 ms.openlocfilehash: 1361bce94f6542112cf29e369f2238f211d0647e
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319271"
 ---
-
 # <a name="configure-settlement"></a>Skilgreina uppgjör
 
 [!include [banner](../includes/banner.md)]
@@ -68,4 +67,3 @@ Til að koma í veg fyrir fleiri bókhaldsfærslur, debet og kredit á sama fjá
 
 -   Fyrirtæki nota oft fastar víddir að núllfylla fjárhagsvídd sem er ekki krafist. Þetta er almennt raunin fyrir efnahagslykla, svo sem viðskiptakröfur/viðskiptaskuldir. Lykilskipulag er hægt að nota til að fylgjast ekki með fjárhagsvíddum sem eru venjulega núllfyllt.  Þú getur fjarlægt fjárhagsvíddina fyrir efnahagslykla sem kemur í veg fyrir nauðsyn þess að nota fasta víddir.
 -   Ef fyrirtækið þitt krefst ákveðinna fastra vídda á aðallykli viðskiptakrafa/viðskiptaskulda skaltu finna leið til að gera föstu víddina sjálfgefna á greiðslunni svo að fasta víddargildið sé geymt á lánardrottnafærslunni fyrir greiðsluna. Þetta mun gera kerfinu kleift að enduruppbyggja aðallykil viðskiptakrafa/viðskiptaskulda til að hafa með föstu víddargildin. Hægt er að skilgreina fasta víddargildið sem sjálfgefið á annaðhvort lánardrottnum eða heiti færslubókar fyrir greiðslubókina.
-

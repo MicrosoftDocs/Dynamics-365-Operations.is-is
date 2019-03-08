@@ -1,13 +1,13 @@
 ---
-title: "Áætlanagerð farms flutningsleiðir með mörgum stöðvun"
-description: "Þessi grein lýsir mismunandi einingunum sem eru notaðar til að áætla flutningsleiðir í Dynamics 365 for Finance and Operations."
+title: Áætlanagerð farms flutningsleiðir með mörgum stöðvun
+description: Þessi grein lýsir mismunandi einingunum sem er notuð til að áætla flutningsleiðir í Dynamics 365 for Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
 audience: Application User
 ms.reviewer: josaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36cb454477c0d296246c061d2573954a81c9efd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 16255e812773ed35c0e34ec26a8a689ea09632bd
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328310"
 ---
-
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Áætlanagerð farms flutningsleiðir með mörgum stöðvun
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir mismunandi einingunum sem eru notaðar til að áætla flutningsleiðir í Microsoft Dynamics 365 for Finance and Operations.
+Þessi grein lýsir mismunandi einingunum sem er notuð til að áætla flutningsleiðir í Microsoft Dynamics 365 for Finance and Operations.
 
 Hægt er að nota leiðaráætlanir  og leiðarleiðbeiningar fyrir flóknar flutningsleiðir sem hafa mörg stöðvar. Ef á að nota sömu leið reglulega hægt að setja upp áætlaðan leið.
 
@@ -51,7 +50,6 @@ Leiðarleiðbeiningar skilgreinir skilyrði fyrir samsvörun við hleðslu á á
 
 ## <a name="load-building-workbench"></a>Hlaða sniðmáti hleðslu
 Hleðsluáætlun vinnusvæði notar aðsetur viðskiptavinar og afhendingardagsetningar frá sölupöntunum og raðaðar leiðir sem eru tiltækar til að leggja til hleðslu. Sjálfgefið gildi úr leið eru færðar inn í vinnslusvæði. Hins vegar er hægt að velja „frá“ dagsetningu sem er fyrr en"frá"dagsetning á leiðinni. Þegar farmur er lagt til, afhendingaraðsetri og afhendingardagsetningu allar opnar sölupantanir athugað. Ef póstnúmer afhendingaraðseturs samsvarar póstnúmer stöðvar í áætlun um leið og ef afhendingardagsetningin er innan marka sem er valin fyrir forsendur, er sölupöntun stungið upp fyrir farminn. Einnig er tekið tillit til afkastagetu hleðslusniðmátsins. Einungis einn farm er lögð til í einu. Ef sölupöntun er ekki með, gæti þurft að nota annað hleðslusniðmát (t.d. farmsniðmát fyrir hærri vörubíl eða gám) eða áætla aukalegar afhendingar.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Samstarf lánardrottna við viðskiptavini"
-description: "Í þessu efnisatriði er því lýst hvernig hægt er að nota samstarf lánardrottna í Microsoft Dynamics 365 for Finance and Operations til að vinna með innkaupapantanir og fylgjast með vörusendingabirgðum."
+title: Samstarf lánardrottna við viðskiptavini
+description: Í þessu efnisatriði er því lýst hvernig hægt er að nota samstarf lánardrottna í Microsoft Dynamics 365 for Finance and Operations til að vinna með innkaupapantanir og fylgjast með vörusendingabirgðum.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
 audience: Application User
 ms.reviewer: josaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: bd3967da105b3cec4a722ee8e04fac13c798feec
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6ab1d60839131b3d4bb1782319754ba63d54cfd7
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342938"
 ---
-
 # <a name="vendor-collaboration-with-customers"></a>Samstarf lánardrottna með viðskiptavinum
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er því lýst hvernig hægt er að nota samstarf lánardrottna til að vinna með viðskiptavini í Microsoft Dynamics 365 for Finance and Operations. Söluaðilar geta lokið röð viðskiptaferla úr eftirfarandi vinnusvæðum:
+Þessi mál lýsir því hvernig hægt er að nota samstarf lánardrottna við viðskiptavini í Microsoft Dynamics 365 for Finance and Operations. Söluaðilar geta lokið röð viðskiptaferla úr eftirfarandi vinnusvæðum:
 
 - **Innkaupapöntunum svarað** - Fylgjast með og bregðast við innkaupapöntunum.
 - **Lánardrottinn tilboð** - Skoða beiðnir um tilboð (BUT) og svara þeim með því að færa inn tilboð.
@@ -144,4 +143,3 @@ Aðgengilegu upplýsingarnar eru nafn lánardrottins, aðsetur, tengslaupplýsin
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Stjórnun notenda samstarfs lánardrottna](manage-vendor-collaboration-users.md)
-

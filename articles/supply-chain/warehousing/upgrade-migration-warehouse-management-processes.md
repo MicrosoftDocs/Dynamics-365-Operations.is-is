@@ -1,13 +1,13 @@
 ---
-title: "Uppfæra vöruhúsakerfis úr Microsoft Dynamics AX 2012 í Finance and Operations"
-description: "Í þessu efnisatriði er að finna yfirlit yfir vörur og valkosti flutnings vöruhúsastjórnunar."
+title: Uppfæra vöruhúsakerfisferli úr Microsoft Dynamics AX 2012 í Finance and Operations
+description: Í þessu efnisatriði er að finna yfirlit yfir vörur og valkosti flutnings vöruhúsastjórnunar.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocationWHSProcessEnablement, WHSLocationProfile, InventTableStorageDimensionGroupChange, InventUpdateBlockedItem, WHSParameters, WHSReservationHierarchy, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,26 +18,25 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e0ff3a22b89ce22096198d2e1dd1ea9ed10239a9
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324469"
 ---
-
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Uppfæra vöruhúsakerfis úr Microsoft Dynamics AX 2012 í Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Uppfæra vöruhúsakerfisferli úr Microsoft Dynamics AX 2012 í Finance and Operations
 
 
 [!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir yfirlit yfir uppfærsluferlið frá Microsoft Dynamics AX 2012 R3, sem keyrir WMSII-eininguna, í Microsoft Dynamics 365 for Finance and Operations.
 
-Fjármál og Aðgerðum, ekki lengra styður í eldri **WMSII** kerfiseininguna úr Microsoft Dynamics AX 2012. Í staðinn er hægt að nota eininguna **Vöruhúsakerfi**. Í WMSII-einingunni var hægt að velja birgðavíddir staðsetningar og brettakennis fyrir fjárhagslegar birgðir, en þó er ekki hægt að nota birgðavíddir brettakennis fyrir fjárhagslegar birgðir í Finance and Operations.
+Finance and Operations styður ekki lengur eldri einingu **WMSII** frá Microsoft Dynamics AX 2012. Í staðinn er hægt að nota eininguna **Vöruhúsakerfi**. Í WMSII-einingunni var hægt að velja birgðavíddir staðsetningar og brettakennis fyrir fjárhagslegar birgðir, en þó er ekki hægt að nota birgðavíddir brettakennis fyrir fjárhagslegar birgðir í Finance and Operations.
 
 Við uppfærslu eru allar vörur sem tengjast geymsluvíddarflokki sem notar birgðavíddir brettakennis auðkenndar, merktar sem útilokaðar, og ekki unnið úr til uppfærslu.
 
-## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Uppfærsluferli Fjármál og Aðgerðum, AX 2012 R3 WMSII sé notuð
+## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Uppfærir í Finance and Operations þegar AX 2012 R3 WMSII er notað
 Eftir uppfærsluna geturðu notað nokkra valkosti í skjámyndinni **Breyta geymsluvíddarflokki fyrir vörur** til að opna vörur sem voru útlokaðar meðan á uppfærslu stóoð og síðan vinna úr færslum fyrir þessar vörur.
 
 ### <a name="enabling-items-in-finance-and-operations"></a>Virkjun á vörum í Fjármál og Aðgerðir
@@ -69,8 +68,8 @@ Til að opna vörurnar sem voru lokaðar á meðan á uppfærslu stendur, verðu
 
 1.  Stofna að minnsta kosti eina nýju staðsetningu reglu.
 2.  Smellt er á **Vöruhúsastjórnun**&gt;**Uppsetningu**&gt;**Gera vöruhúsið þjónustustýringar**&gt;**Leyfa uppsetningu vöruhússins**.
-3.  Á við **Leyfa uppsetningu vöruhússins** síðunni, bæta við vöruhús sem á að vera virkur. Hægt er að ljúka þessi skref á síðunni eða með því að nota samþætting við Microsoft Office.
-4.  Tengið forstillingu staðsetningu allra staðsetninga. Auðveldlega er hægt að ljúka þessu skrefi með Microsoft Office samþættingu af síðunni. Hægt er að flytja og flytja inn gögn eða nota gögn skattaðilinn vinnslu í [gagnastjórnun](../../dev-itpro/data-entities/data-entities.md).
+3.  Á við **Leyfa uppsetningu vöruhússins** síðunni, bæta við vöruhús sem á að vera virkur. Þú getur lokið þessu skrefi annaðhvort beint á síðunni eða með því að nota samþættinguna Microsoft Office.
+4.  Tengið forstillingu staðsetningu allra staðsetninga. Þú getur auðveldlega lokið þessu skrefi með því að nota Microsoft Office samþættinguna beint af síðunni. Hægt er að flytja og flytja inn gögn eða nota gögn skattaðilinn vinnslu í [gagnastjórnun](../../dev-itpro/data-entities/data-entities.md).
 5.  Villuleita breytingarnar. Hluti af villuleit í mismunandi fjarvistarkóðann heilleiki eiga sér stað. Hluti af stærri uppfærsluferlið vandamál koma upp þurfi leiðrétt uppruna innleiðingar. Í þessu tilfelli viðbótar gagnauppfærslu þarf.
 6.  Vinna breytingarnar.
 
@@ -81,7 +80,6 @@ Til að opna vörurnar sem voru lokaðar á meðan á uppfærslu stendur, verðu
 3.  Á við **Sendingarfrátekninga stigveldi** síðunni, tilgreinið nýja sendingarfrátekninga stigveldi samkvæmt geymslu vörunnar og rekja víddaflokka.
 4.  Stofna eitt eða fleiri einingar lotunúmerið sem innihalda að minnsta kosti sama einingar sem notaðar eru til í birgðaeiningum.
 5.  Smellt er á **Vöruhúsastjórnun**&gt;**Uppsetningu**&gt;**Gera vöruhúsið þjónustustýringar**&gt;**geymslu víddarflokk Breytingu vara**.
-6.  Á við **geymslu víddarflokk Breytingu vara** síðunni, bæta við vörunúmer víddaflokkunum geymslu og einingu flokka númeraraða. Hægt er að ljúka þessi skref á síðunni með því að nota samþætting við Microsoft Office eða með því að nota einingu vinnslu gagna í [gagnastjórnun](../../dev-itpro/data-entities/data-entities.md).
+6.  Á við **geymslu víddarflokk Breytingu vara** síðunni, bæta við vörunúmer víddaflokkunum geymslu og einingu flokka númeraraða. Þú getur lokið þessu skrefi beint á síðunni með því að nota Microsoft Office samþættinguna eða með því að nota gagnaeiningaferlið í [Gagnastjórnun](../../dev-itpro/data-entities/data-entities.md).
 7.  Villuleita breytingarnar. Hluti af villuleit í mismunandi fjarvistarkóðann heilleiki eiga sér stað. Hluti af stærri uppfærsluferlið vandamál koma upp þurfi leiðrétt uppruna innleiðingar. Í þessu tilfelli viðbótar gagnauppfærslu þarf.
 8.  Vinna breytingarnar. Uppfærsla á allar birgðavíddir getur framkvæmt á meðan. Hægt að fylgjast með framvindu með vinnslum runuverk.
-

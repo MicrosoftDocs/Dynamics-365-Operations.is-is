@@ -1,13 +1,13 @@
 ---
-title: "Breyta hólfum línuskilgreiningar"
-description: "Eftirfarandi grein lýsa upplýsingunum sem krafist er fyrir hvert hólf í línuskilgreiningu á fjárhagsskýrslu og útskýrir hvernig á að færa inn þær upplýsingar:"
+title: Breyta hólfum línuskilgreiningar
+description: 'Eftirfarandi grein lýsa upplýsingunum sem krafist er fyrir hvert hólf í línuskilgreiningu á fjárhagsskýrslu og útskýrir hvernig á að færa inn þær upplýsingar:'
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323641"
 ---
-
 # <a name="modify-row-definition-cells"></a>Breyta hólfum línuskilgreiningar
 
 [!include [banner](../includes/banner.md)]
@@ -387,7 +386,7 @@ Hægt er að takmarka línu við fyrirliggjandi bókarkóða. Línuskilgreiningi
 Sum bókhaldskerfi styðja reikningseigindir og færslueigindir í fjárhagsgögnum. Þessar eigindir virka eins og sýndarhlutar reikninga og geta flutt viðbótarupplýsingar um reikninginn eða færsluna. Þessi viðbótarupplýsingar gæti verið Kenni lykla, Kenni runu, póstnúmer, eða öðrum eigindum. Ef bókhaldskerfið sem unnið er með styður notkun eiginda er hægt að nota reikningseigindir eða færslueigindir sem línubreytingar í línuskilgreiningu. Frekari upplýsingar um hvernig á að hnekkja línuupplýsingum eru í Hnekkja dálkskilgreiningum fyrr í þessari grein.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Tilgreindu Tengill í fjárhagsvíddarhólf
-Hólfið **Tengill í fjárhagsvíddir** inniheldur tengla í fjárhagsgögn sem taka á með í hverri línu skýrslunnar. Þetta hólf inniheldur víddargildi en hægt er að tilgreina hólf í Microsoft Excel-vinnublaði í staðinn fyrir, eða til viðbótar við, hluta- eða víddargildi. Svarglugginn **Víddir** er opnaður með því að tvísmella á hólfið **Tengill í fjárhagsvíddir**.
+Hólfið **Tengill í fjárhagsvíddir** inniheldur tengla í fjárhagsgögn sem taka á með í hverri línu skýrslunnar. Þetta hólf inniheldur víddargildi en hægt er að tilgreina hólf í Microsoft Excel vinnublaði í staðinn fyrir, eða til viðbótar við, hluta- eða víddargildi. Svarglugginn **Víddir** er opnaður með því að tvísmella á hólfið **Tengill í fjárhagsvíddir**.
 
 > [!NOTE]
 > Report Designer getur ekki valið reikninga, víddir eða reiti úr Microsoft Dynamics ERP kerfinu sem nota eftirfarandi frátekin stafatákn: &, \*, \[, \], {, eða }. Ef tilgreina á upplýsingar fyrir röð sem er nú þegar í línuskilgreiningu skal bæta upplýsingunum við í hólfinu **Tengill í fjárhagsvíddir**. Ef bæta á við nýjum línum sem tengja í fjárhagsgögn skal nota svargluggann **Setja inn línur úr** til að stofna nýjar línur í skýrsluskilgreiningunni. Dálkheitið breytist eftir því hvernig dálkurinn er grunnstilltur, eins og sýnt er í eftirfarandi töflu.
@@ -456,10 +455,10 @@ Ef bæta á við eða draga peningaupphæðir í einum reikningi frá peningaupp
 | Draga frá svið hlutagilda                                                     | -Reikningur=\[1200:1205\]                                                                                       |
 | Draga frá svið hlutagilda sem innihalda algildisstafi                    | -Reikningur=\[120?:130?\]                                                                                       |
 
-Þótt hægt sé að breyta reikningum með beinum hætti er einnig hægt að nota svargluggann **Víddir** til að nota rétt snið á fjárhagslega gagnatengla. Hvert og eitt gildi getur innihaldið algildisstafi (? eða \*). Hinsvegar getur Report Designer ekki valið reikninga, vídd eða reiti úr Microsoft Dynamics ERP kerfinu sem nota eftirfarandi frátekin stafatákn: : &, \*, \[, \], {, eða }.
+Þótt hægt sé að breyta reikningum með beinum hætti er einnig hægt að nota svargluggann **Víddir** til að nota rétt snið á fjárhagslega gagnatengla. Hvert og eitt gildi getur innihaldið algildisstafi (? eða \*). Hins vegar getur Report Designer ekki valið reikninga, víddir eða reiti úr Microsoft Dynamics ERP kerfinu sem nota eftirfarandi frátekin stafatákn: &, \*, \[, \], {, eða }.
 
 > [!NOTE]
-> Til að draga á frá gildi verður að setja þau gildi innan sviga. Ef til dæmis er slegið inn **450?-(4509)** birtist það sem **+Reikningur=\[4509\]-reikningur=\[450?\]** og verið er að gefa Report Designer skipun um að draga upphæðina fyrir reikningshluta 4509 frá upphæðinni fyrir hvaða reikningshluta sem er sem byrjar á 450.
+> Ef draga á frá gildi verður að setja þau gildi innan sviga. Ef til dæmis er slegið inn **450?-(4509)** birtist það sem **+Reikningur=\[4509\]-reikningur=\[450?\]** og verið er að gefa Report Designer skipun um að draga upphæðina fyrir reikningshluta 4509 frá upphæðinni fyrir hvaða reikningshluta sem er sem byrjar á 450.
 
 ### <a name="add-or-subtract-accounts-from-other-accounts"></a>Reikningum bætt við eða þeir dregnir frá öðrum reikningum
 
@@ -533,4 +532,3 @@ Víddargildissamstæða er hópur víddargilda með tilteknu heiti. Í víddargi
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
-

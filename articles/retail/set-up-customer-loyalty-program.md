@@ -1,13 +1,13 @@
 ---
 title: Yfirlit yfir vildarkerfi
-description: "Í þessu efni er fjallað um vildarkerfi í Microsoft Dynamics 365 for Retail og samsvarandi uppsetningarþrepum til að hjálpa smásala auðveldlega að byrja með vildarkerfi sín."
+description: Í þessu efni er fjallað um vildarkerfi í Microsoft Dynamics 365 for Retail og samsvarandi uppsetningarþrepum til að hjálpa smásala auðveldlega að byrja með vildarkerfi sín.
 author: scott-tucker
 manager: AnnBe
-ms.date: 10/24/2018
+ms.date: 01/08/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: bb1a1ff28c846a35858df971e29bb7a551c8012a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: 09d4e46694e89b648981352f64da4a43ab1522e1
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320122"
 ---
-
 # <a name="loyalty-overview"></a>Yfirlit yfir vildarkerfi
 
 [!include [banner](includes/banner.md)]
 
-Vildarkerfi geta hjálpað til við að auka viðskiptavinar hollustu með því að umbuna viðskiptavinum fyrir samskipti þeirra við vörumerki smásala. Í Microsoft Dynamics 365 for Retail er hægt að setja upp einfalt eða flókið vildarkerfi sem gilda á milli lögaðila í hvaða smásölurás sem er. Í þessu efni er fjallað um vildarkerfi í Microsoft Dynamics 365 for Retail og samsvarandi uppsetningarþrepum til að hjálpa smásala auðveldlega að byrja með vildarkerfi sín.
+Vildarkerfi geta hjálpað til við að auka viðskiptavinar hollustu með því að umbuna viðskiptavinum fyrir samskipti þeirra við vörumerki smásala. Í Microsoft Dynamics 365 for Retail er hægt að setja upp einfalda eða flókið vildarkerfi sem gilda á milli lögaðila í hvaða smásölurás sem er. Í þessu efni er fjallað um vildarkerfi í Microsoft Dynamics 365 for Retail og samsvarandi uppsetningarþrepum til að hjálpa smásala auðveldlega að byrja með vildarkerfi sín.
 
 Þú getur sett upp vildarkerfi þannig að það innihaldi eftirfarandi eiginleika.
 
@@ -118,12 +117,29 @@ Smásala hefur nýja vildarkerfisvirkni sem hluti af útgáfu október 2018. Hve
 
     ![Punktar sem eru að renna út](./media/Expiring%20points.png "Skoða punkta sem eru að renna út")
     
-## <a name="upcoming-enhancements"></a>Væntanlegar viðbætur
 
-Eftirfarandi eiginleikar verða í boði í framtíðinni mánaðarlegar uppfærslur á Dynamics 365 for Retail.
-    
-- Viðskiptavinir vilja getað skoðað upplýsingar um vildarinneign á rásum sem snúa að neytendum. Á sama hátt er mikilvægt fyrir gjaldkera að skoða vildarpunktaferil viðskiptavinarins í MPOS/CPOS til að fljótt svara öllum fyrirspurnum frá viðskiptavininum. Í næstu mánaðarlegu útgáfu munu viðskiptavinir og gjaldkerar geta séð upplýsingar um vildarpunktaferil.
-- Margir smásalar geta aðeins umbunað með vildarpunktum, miðað við sölufærslur, en fleiri viðskiptavinamiðaðir smásalar vilja umbuna viðskiptavinum sínum fyrir hvers konar virk samskipti þeirra við vörumerkið. Til dæmis, þeir vilja umbuna fyrir að fylla út könnun á netinu, heimsækja verslun, líka við smásala á Facebook, tvíta um smásalann og fleira. Í framtíðinni munum við bæta við eiginleikanum að umbuna með vildarpunktum fyrir allar aðgerðir viðskiptavinarins. Til að gera það getur smásalinn skilgreint „Aðrar aðgerðir“ og skilgreint tekjureglur fyrir þessar aðgerðiri. Við munum einnig afhjúpa Retail-forritaskil fyrir smásala sem hægt er að kalla þegar aðgerð er skilgreind sem mun nota tekjuregluna til að umbuna áskildum vildarpunktum.
-- Til að virkja raunverulega smásöluupplifun á öllum rásum, munum við leyfa viðskiptavinum að vinna sér inn og innleysa vildarpunkta á öllum rásum.
-- Ókeypis eða afhending með afslætti er einn af mjög hvetjandi þáttum viðskiptavina til að kaupa á netinu. Til að gera smásala kleift að setja upp kynningartilboð á afhendingum munum við kynna nýja tegund kynningar þar sem smásalinn getur skilgreint viðmiðunarmörk, sem einu sinni uppfylltum, muni gera viðskiptavinum kleift að afsláttur eða ókeypis sendingarkostnaður.
+- Með útgáfunni 8.1.3 höfum við virkjað valkostinn „greiða með vildarpunktum“ í rás símavers. Til að virkja þennan möguleika skaltu búa til greiðslumáta fyrir vildarpunkta og tengja hana við símaverið. 
 
+>[!NOTE]
+> Vegna þess að vildargreiðslurnar eru settar upp sem kortagreiðslur verður þú að velja kort á síðunni **Kortauppsetning**. 
+
+![Uppsetning vildarkorts](./media/LoyaltyCardSetup.png "Uppsetning vildarkorts")
+
+Eftir að þetta er komið upp geta viðskiptavinir innleyst vildarpunktana í símaverinu. Að auki erum við að efla upplifun notenda enn frekar til að sýna „Upphæð sem fellur undir vildarpunkta", svo að notendur símaversins þurfi ekki að fletta á milli skjáa til að skoða vildarinneignina.
+
+- Margir smásalar umbuna aðeins vildarpunktum miðað við sölufærslur en fleiri viðskiptavinamiðaðir smásalar vilja umbuna viðskiptavinum sínum fyrir hvers konar virk samskipti þeirra við vörumerkið. Til dæmis vilja þeir umbuna fyrir að fylla út könnun á netinu, heimsækja verslun, líka við smásala á Facebook, tvíta um smásalann og fleira. Til að gera það getur smásalinn skilgreint hvaða fjölda sem er af „Önnur verkþáttargerð“ og skilgreint samsvarandi tekjureglur fyrir þessar aðgerðir. Einnig er til staðar API Retail-þjónn „PostNonTransactionalActivityLoyaltyPoints“ sem hægt er að hringja í þegar aðgerð er fundin sem ætti að umbuna viðskiptavinum með vildarpunktum. Þetta API gerir ráð fyrir auðkenni vildarkorts, auðkenni rásar og auðkenni annarrar verkþáttargerðar svo hægt sé að staðsetja viðskiptavininn sem ætti að fá umbun og til að finna út tekjuregluna fyrir verkþáttinn. 
+
+    Úthlutun punkta fyrir verkþætti sem tilheyra ekki færslum felur venjulega í sér tvö stór skref:
+    - Verkþáttur finnst sem ætti að umbuna.
+    - Úthlutun á viðeigandi punktum.
+
+    Fyrsta skrefið er utan við Microsoft Dynamics 365 for Retail, t.d. tvít um vörumerkið eða líka við vörumerkið á Facebook. Eftir að borið hefur verið kennsl á verkþáttinn geta smásalarnir hringt í ofangreindan API Retail-þjón og úthlutað vildarpunktum í rauntíma. Í slíkum tilvikum er engin þörf á yfirferð vegna þess að verkþáttur hefur átt sér stað og samsvarandi punktum á að úthluta. Hins vegar eru aðstæður þar sem smásali myndi vilja endurskoða skrárnar áður en punktum er úthlutað. Til dæmis hefur smásalinn sett upp vinnusmiðju í versluninni sem viðskiptavinirnir skrá sig í á vefsvæðinu eða öðrum forritum sem bjóða upp á viðburðarskráningu. Hins vegar eiga aðeins viðskiptavinir sem mæta að vinna sér inn vildarpunkta. Fyrir slíkar aðstæður, í 10.0 útgáfunni kynntum við gagnaeiningu sem heitir **Línur fyrir aðrar verkþáttargerðir vildarpunkta í smásölu**. Þessi gagnaeining gerir smásölum kleift að nota annaðhvort Ramma fyrir inn- og útflutning gagna (DIXF) eða OData API til að skrá verkþættina sem eiga að veita viðskiptavinum vildarpunkta. Gagnaeiningin geymir verkþættina í færslubók sem heitir **Vildarlínur fyrir aðra verkþætti** sem hægt er að nota til þess að yfirfara og breyta. Eftir að gögnin hafa verið yfirfarin getur tæknimaður annaðhvort bókað verkþáttarlínurnar handvirkt eða keyrt verk sem heitir **Vinna úr öðrum verkþáttargerðum fyrir vildarlínur** sem mun bóka allar óbókuðu verkþáttarlínurnar og úthluta punktunum til viðskiptavina samkvæmt tekjureglunum. Í ofangreindri atburðarás myndi forrit viðburðarskráningar hringja í Odata API til að senda upplýsingar um viðskiptavin til Dynamics 365 for Retail. Hins vegar getur tæknimaðurinn bókað verkþáttarlínurnar fyrir aðeins þessa viðskiptavini sem tóku þátt í vinnusmiðjunni og eytt verkþáttarlínunum hjá hinum viðskiptavinunum. 
+
+> [!NOTE]
+> Eins og er neyðir kerfið notendur til að setja upp númeraröð fyrir „aðrar verkþáttargerðir“, en það skref reynist ekki nauðsynlegt í framtíðarútgáfum. Til að setja upp númeraröð skal fara í **Samnýttar smásölufæribreytur > Númeraraðir** og velja númeraröð fyrir **Auðkenni fyrir vildarpunkta annarra verkþáttargerða**.
+
+- Til að bjóða upp á góða þjónustu við viðskiptavini og á áhrifaríkan hátt leysa fyrirspurnir viðskiptavina er mikilvægt að gjaldkerar hafi aðgang að öllum notandaupplýsingum viðskiptavinar. Með útgáfu 10.0 geta gjaldkerar séð upplýsingar um vildarpunktaferil ásamt tengdu vildarkerfi lagskiptar upplýsingar í POS.
+- Ókeypis eða afhending með afslætti er einn af mjög hvetjandi þáttum viðskiptavina til að kaupa á netinu. Til að gera smásala kleift að setja upp kynningartilboð á afhendingum með útgáfu 10.0, höfum við kynna nýja tegund kynningar þar sem ber heitið „Þröskuldarafsláttur afhendingar“ þar sem smásalinn getur skilgreint viðmiðunarmörk sem, þegar þeim er náð, munu gera viðskiptavinum kleift að fá afslátt á eða ókeypis sendingarkostnað. Til dæmis, eyða $35 fyrir ókeypis „Tveggja daga sendingu“ eða ókeypis „Tveggja daga sendingu“ fyrir alla vildarviðskiptavini. Þessir afslættir eru einungis notaðir fyrir sendingargjöld sem sett eru á pantanir. Vegna þess að söluaðili getur sett upp margar tegundir gjalda, t.d. meðhöndlun eða uppsetningu, þarf söluaðili að tilgreina hvaða gjald er litið á sem sendingargjald. Þessi grunnstilling ber heitið „Kóði sendingargjalds“ og er í boði í flipanum **Pantanir viðskiptavinar** á síðunni **Smásölufæribreytur**. Þessi afsláttur virðir alla núverandi staðlaða afsláttarmöguleika, t.d. að leyfa söluaðilum að takmarka þessa afslætti með afsláttarmiðum þannig að aðeins viðskiptavinir með afsláttarmiða geta fengið þessa afslætti. Einnig nýta þessir afslættir möguleika verðflokka til að ákvarða hæfi slíkra afslátta. Til dæmis getur smásali valið að keyra þessi kynningartilboð aðeins í netrásum og/eða yfir rásir fyrir tiltekna hópa viðskiptavinahópa, svo sem vildarvina. Eftir að pöntunarlínur með tilgreindan afhendingarmáta standast skilgreindan þröskuld, þá verður sendingarafsláttur notaður og dregur úr sendingargjaldi miðað við uppsetningu afsláttar. 
+
+> [!NOTE]
+> Ólíkt öðrum reglubundnum afsláttum, t.d. magni, einfalt, blanda og samsvara og þröskuldarafslættir, þá býr sendingarafsláttur ekki til afsláttarlínur. Breytingar á sendingargjaldi þarf að gera beint.

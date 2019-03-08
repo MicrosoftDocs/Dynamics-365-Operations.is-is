@@ -1,13 +1,13 @@
 ---
-title: "Mynda rafræn skjöl og uppfæra forritagögn með rafrænni skýrslugerð"
-description: "Hægt er að hanna snið fyrir rafræna skýrslugerð (ER) sem nota má í forritinu Finance and Operations til að búa til rafræn skjöl á útleið. Einnig er hægt að hanna rafræn skýrslugerðarsnið sem þátta rafræn skjöl á innleið og nota innihaldið í þeim skjölum til að uppfæra gögn í forritinu."
+title: Mynda rafræn skjöl og uppfæra forritagögn með rafrænni skýrslugerð
+description: Hægt er að hanna snið fyrir rafræna skýrslugerð (ER) sem nota má í forritinu Finance and Operations til að búa til rafræn skjöl á útleið. Einnig er hægt að hanna rafræn skýrslugerðarsnið sem þátta rafræn skjöl á innleið og nota innihaldið í þeim skjölum til að uppfæra gögn í forritinu.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Developer, IT Pro, Application user
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2a989b0000766478c71b243d7793b2fc8c4ece28
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 6bb2b2480b619a8aee72c2d65052ed419c9a7c7d
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349217"
 ---
-
 # <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Mynda rafræn skjöl og uppfæra forritagögn með rafrænni skýrslugerð
 
 [!include [banner](../includes/banner.md)]
@@ -42,4 +41,3 @@ Til að fá frekari upplýsingar um þessa aðgerð skaltu spila verkefnaleiðbe
 - [Stilling á gagnalíkani í rafrænni skýrslugerð: Intrastat (líkan)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Stilling líkansvörpunar í rafrænni skýrslugerð: Intrastat (vörpun)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Sniðsskilgreining í rafrænni skýrslugerð: Intrastat (snið)](https://go.microsoft.com/fwlink/?linkid=849038)
-

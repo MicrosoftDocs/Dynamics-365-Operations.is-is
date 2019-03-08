@@ -1,13 +1,13 @@
---- 
-title: "Stofna uppskriftir (aðeins febrúar 2016)"
-description: "Þetta verk einblínir á að búa til uppbygging uppskriftar fyrir fullunnin vara og hálfunnin vara."
+---
+title: Stofna uppskriftir (aðeins febrúar 2016)
+description: Þetta verk einblínir á að búa til uppbygging uppskriftar fyrir fullunnin vara og hálfunnin vara.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/07/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f132a3865b180a74d328ebc76ca29b2fc8aee85f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0cd8d9b90cffe2794b785b2bb391e21ae3b11cf7
-ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332542"
 ---
 # <a name="create-boms-february-2016-only"></a>Stofna uppskriftir (aðeins febrúar 2016)
 
@@ -96,5 +96,4 @@ ms.lasthandoff: 04/13/2018
 25. Lokið síðunni.
 26. Lokið síðunni.
 27. Lokið síðunni.
-
 

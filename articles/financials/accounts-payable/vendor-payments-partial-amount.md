@@ -1,13 +1,13 @@
 ---
-title: "Greiðslur lánardrottna fyrir hlutaupphæð"
-description: "Stundum þarf að framkvæma greiðslu til lánardrottins sem er minni en upphæð reiknings. Þessi skrá lýsir mismunandi valkosti fyrir meðhöndlun þessar aðstæður."
+title: Greiðslur lánardrottna fyrir hlutaupphæð
+description: Stundum þarf að framkvæma greiðslu til lánardrottins sem er minni en upphæð reiknings. Þessi skrá lýsir mismunandi valkosti fyrir meðhöndlun þessar aðstæður.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2644e0a27eff3e45ddcddb89c9aac9230190788f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d8c012d3e88f3f4fe2e60f1db59978e326c42681
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318903"
 ---
-
 # <a name="vendor-payments-for-a-partial-amount"></a>Greiðslur lánardrottins fyrir hlutaupphæð
 
 [!include [banner](../includes/banner.md)]
@@ -55,4 +54,3 @@ Til dæmis færðu 2 prósent staðgreiðsluafslátt ef reikningurinn er greiddu
 
 
 Frekari upplýsingar eru í [Yfirlit greiðslur lánardrottins](../cash-bank-management/tasks/vendor-payment-overview.md).
-

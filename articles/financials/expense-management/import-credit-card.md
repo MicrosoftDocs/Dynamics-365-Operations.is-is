@@ -1,13 +1,13 @@
 ---
-title: "Flytja inn og vinna með kreditkortafærslur"
-description: "Í þessu efnisatriði er útskýrt hvernig á að flytja inn og viðhalda kostnaðartengdum kreditkortafærslum. Hægt er að setja upp þessar færslur þannig að þær séu fluttar inn sjálfkrafa á endurteknum tíma, og einnig er hægt að flytja þær inn handvirkt eftir þörfum."
+title: Flytja inn og vinna með kreditkortafærslur
+description: Í þessu efnisatriði er útskýrt hvernig á að flytja inn og viðhalda kostnaðartengdum kreditkortafærslum. Hægt er að setja upp þessar færslur þannig að þær séu fluttar inn sjálfkrafa á endurteknum tíma, og einnig er hægt að flytja þær inn handvirkt eftir þörfum.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 9674cf495b7fdd40d8672580b9d10e9ebe626bb0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e640c9e44add5599be4a2e381b4ffd81f212889c
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322652"
 ---
-
 # <a name="import-and-maintain-credit-card-transactions"></a>Flytja inn og vinna með kreditkortafærslur
 
 [!include [banner](../includes/banner.md)]
@@ -53,4 +52,3 @@ Frekari upplýsingar um gagnaeiningar er að finna í [Gagnaeiningar](../../dev-
 Þegar samningi starfsmanns er sagt upp er AD DS (Active Directory Domain Services) reikningur hans er gerður óvirkur. Hins vegar gætu verið virkar kreditkortafærslur sem þarf samt að gjaldfæra og endurgreiða. Á síðunni **Kreditkortafærslur** er hægt að endurúthluta starfsmanni á allar kreditkortafærslur þar sem tengdum starfsmanni hefur verið sagt upp störfum.
 
 Veldu eina eða fleiri kreditkortafærslur og svo **Endurúthluta færslu**. Þú getur síðan valið annan starfsmann til að úthluta kreditkortafærslunum á. Eftir endurúthlutun kreditkortafærsluna er hægt að velja þær fyrir kostnaðarskýrslu og greiða hana með reglulegu ferli fyrir endurgreiðslu kostnaðarskýrslu.
-

@@ -1,13 +1,13 @@
 ---
-title: "Attract eiginleikar og færni"
-description: "Þetta efnisatriði lýsir þeim eiginleikum sem Attract veitir til að stjórna ferli við ráðningu nýrra starfsmanna."
+title: Attract eiginleikar og færni
+description: Þetta efnisatriði lýsir þeim eiginleikum sem Attract veitir til að stjórna ferli við ráðningu nýrra starfsmanna.
 author: rschloma
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
 ms.openlocfilehash: dd65def0006445da1a8d07577cf5ef05178c19bd
-ms.contentlocale: is-is
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304844"
 ---
 # <a name="attract-features-and-capabilities"></a>Attract eiginleikar og færni
 
@@ -46,4 +46,3 @@ Attract veitir aðgang að forskilgreindu ráðningarferli með fjórum grunnsti
 
 ## <a name="candidate-app"></a>Umsækjandaforrit
 Um leið og þeir hafa verið bættir við starf fá umsækjendur tölvupóst sem inniheldur tengil til að fá vefforritið. Forritið veitir upplýsingar um starf og er notað til að eiga samskipti við ráðningarteymið. Umsækjendur geta notað það til að leggja fram framboð sitt fyrir viðtöl.
-

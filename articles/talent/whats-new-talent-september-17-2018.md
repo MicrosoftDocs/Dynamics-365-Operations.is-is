@@ -1,31 +1,30 @@
 ---
-title: "Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (17. september 2018)"
-description: "Í þessu efnisatriði er lýst nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent Core HR."
+title: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (17. september 2018)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 1aae5797e37b846a38f957b02870e213da528a2d
 ms.openlocfilehash: 6586761fc62c13c701e8a8f61e15eedc66e2f751
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304859"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-17-2018"></a>Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (17. september 2018)
 
 [!include [banner](includes/banner.md)]
@@ -57,4 +56,3 @@ Verkvangsuppfærsla 18 er nú hluti af Talent-útgáfunni.
 ## <a name="bug-fixes"></a>Villuleiðréttingar
 
 Þessi útgáfa inniheldur nokkrar villuleiðréttingar í viðbót, þar á meðal tilvísanir í ACA, ADA, og I9 og verða nú aðeins gerðar virkar í bandarískum fyrirtækjum.
-

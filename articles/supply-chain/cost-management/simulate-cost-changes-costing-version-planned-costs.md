@@ -1,13 +1,13 @@
 ---
-title: "Herma kostnaðarbreytingu með útgáfu kostnaðarútreiknings fyrir áætlaðan kostnað"
-description: "Þessi grein útskýrir hvernig er hægt að herma eftir áhrifum kostnaðarbreytinga á útreiknaðan kostnað framleiddrar vöru með sérstakri kostnaðarútgáfu fyrir áætlaðan kostnað."
+title: Herma kostnaðarbreytingu með útgáfu kostnaðarútreiknings fyrir áætlaðan kostnað
+description: Þessi grein útskýrir hvernig er hægt að herma eftir áhrifum kostnaðarbreytinga á útreiknaðan kostnað framleiddrar vöru með sérstakri kostnaðarútgáfu fyrir áætlaðan kostnað.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3ef3cdb2ede2c30609db4addfc10b819629cdc64
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8d5b6354ee8c627014a6da675bb2a7b52db97348
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318880"
 ---
-
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Herma kostnaðarbreytingu með útgáfu kostnaðarútreiknings fyrir áætlaðan kostnað
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,6 @@ Eftirfarandi dæmi sýna notkun hermdra kostnaðarútgáfa til að herma eftir �
 -   Herma eftir kostnaðarbreytingu í reikniformúlu óbeins kostnaðar. Til dæmis gæti kostnaðarbreytingin endurspeglað viðbúna hækkun eða lækkun á framleiðslurekstrarkostnaði. Til að skilgreina breytinguna í reikniformúlu óbeins kostnaðar skal nota síðuna **uppsetning kostnaðarskjals** til að færa inn biðkostnaðarfærslu í hermdri kostnaðarútgáfu og til að villuleita og vista breytinguna.
 
 Eftir að hermdu kostnaðarbreytingarnar hafa verið færðar inn skal reikna út kostnað þeirra framleiddu vara sem verða fyrir mestum áhrifum af kostnaðarbreytingunum. Notið síðuna **Útreikningur** fyrir hermda kostnaðarútgáfu og tilgreinið þær völdu framleiddu vörur sem verða fyrir áhrifum af kostnaðarbreytingunum. Uppskriftarútreikningarnir eiga við um allar framleiddar vörur nema tilteknar vörur séu valdar. Einnig er hægt að nota valkost uppskriftarútreiknings fyrir uppfærslur „þar sem er notað“. Skoðið kostnaðarfærslur vara í hermdri kostnaðarútgáfu til að greina hvernig hermdar kostnaðarbreytingar höfðu áhrif á kostnað valdra framleiddra vara. Nota skal **vöruverð** síðu og **Reikna vörukostnað** síðu til að skoða og greina kostnaðinn.
-
 
 
 

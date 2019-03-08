@@ -1,31 +1,30 @@
 ---
-title: "Stofna vöruþörf fyrir þjónustupantanir"
-description: "Ef nauðsynlegt er að taka til ákveðnar vörur fyrir þjónustupöntunina, hægt er að stofna birgðavöruþörf fyrir hana."
+title: Stofna vöruþörf fyrir þjónustupantanir
+description: Ef nauðsynlegt er að taka til ákveðnar vörur fyrir þjónustupöntunina, hægt er að stofna birgðavöruþörf fyrir hana.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a5a730ae945af15c7bd4020c734bac971d8186e2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e76b0c636470a89ba2091363efe2f34eb3d58f88
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312210"
 ---
-
 # <a name="create-item-requirements-for-service-orders"></a>Stofna vöruþörf fyrir þjónustupantanir 
 
 [!include [banner](../includes/banner.md)]
@@ -71,6 +70,5 @@ Liður kröfur um þjónustu pantanir eru unnin í gegnum verkefni. Til að stof
 [Stofna þjónustupantanir sjálfkrafa](create-service-orders-automatically.md).
 
   
-
 
 

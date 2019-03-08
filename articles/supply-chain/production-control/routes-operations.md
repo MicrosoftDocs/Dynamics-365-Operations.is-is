@@ -1,13 +1,13 @@
 ---
-title: "Leiðir og aðgerðir"
-description: "Þessi efnisatriði gefur upplýsingar um leiðir og aðgerðir."
+title: Leiðir og aðgerðir
+description: Þessi efnisatriði gefur upplýsingar um leiðir og aðgerðir.
 author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMDesigner, BOMDesignerRouteVersion, Route, RouteInventProd, RouteOpr, RouteOprTable
 ms.author: sorenand
 audience: Application User
@@ -19,14 +19,13 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 417fd960a43ad3fd023ea0c4a17be735b69743de
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 95e7f5179ac88c0cd6b2336a914c2c527d37d57f
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333347"
 ---
-
 # <a name="routes-and-operations"></a>Leiðir og virkni
 
 [!include [banner](../includes/banner.md)]
@@ -36,7 +35,7 @@ ms.lasthandoff: 05/08/2018
 <a name="overview"></a>Yfirlit
 --------
 
-Leið lýsir þeirri röð aðgerða sem er krafist til að framleiða afurð eða afurðarafbrigði. Fyrir hverja aðgerð skilgreinir leiðin einnig rekstrartilföng sem krafist er, tímann sem er krafist til að setja upp og framkvæma aðgerðina og hvernig kostnaður er reiknaður. Hægt er að nota sömu leið til að útbúa margar afurðir eða hægt er að skilgreina einkvæma leið fyrir hverja afurð eða afurðarafbrigði. Jafnvel er hægt að hafa margar leiðir fyrir sömu afurð. Í þessu tilfelli er leiðin sem notuð er breytileg eftir þáttum eins og því magni sem framleiða þarf. Skilgreining á leið í Microsoft Dynamics 365 for Finance and Operations samanstendur af fjórum aðskildum einingum sem saman lýsa framleiðsluferlinu:
+Leið lýsir þeirri röð aðgerða sem er krafist til að framleiða afurð eða afurðarafbrigði. Fyrir hverja aðgerð skilgreinir leiðin einnig rekstrartilföng sem krafist er, tímann sem er krafist til að setja upp og framkvæma aðgerðina og hvernig kostnaður er reiknaður. Hægt er að nota sömu leið til að útbúa margar afurðir eða hægt er að skilgreina einkvæma leið fyrir hverja afurð eða afurðarafbrigði. Jafnvel er hægt að hafa margar leiðir fyrir sömu afurð. Í þessu tilfelli er leiðin sem notuð er breytileg eftir þáttum eins og því magni sem framleiða þarf. Skilgreining á leið í Microsoft Dynamics 365 for Finance and Operations samanstendur af fjórum aðskildum einingum sem lýsa framleiðsluferlinu saman:
 
 -   **Leið** – leið skilgreinir skipulag framleiðsluferlis. Með öðrum orðum, hún tilgreinir röð aðgerða.
 -   **Aðgerð** – aðgerð auðkennir nefnd skref í leiðinni, eins og **Samsetningu**. Sama aðgerð getur átt sér stað í mörgum leiðum og getur haft mismunandi aðgerðanúmer.
@@ -240,7 +239,6 @@ Ef þú tilgreininr ekki rekstrartilfang eða tilfangaflokkur sem hluta af tilfa
 [Tilfangageta](resource-capabilities.md)
 
 [Yfirlit yfir rafræna undirskrift](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
-
 
 
 

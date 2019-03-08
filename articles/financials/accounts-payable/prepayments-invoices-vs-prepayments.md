@@ -1,13 +1,13 @@
 ---
-title: "Fyrirframgreiðslureikningar samanborið við fyrirframgreiðslur"
-description: "Þetta efnisatriði lýsir og ber saman aðferðirnar tvær sem fyrirtæki geta notað fyrir fyrirframgreiðslu (fyrirframgreiðslur). Með annarri aðferðinni er stofnaður fyrirframgreiðslureikningur sem er tengdur innkaupapöntun. Með hinni aðferðinni eru stofnuð fylgiskjöl fyrirframgreiðslu með því að stofna færslur í færslubók og merkja þær sem fylgiskjöl fyrirframgreiðslna."
+title: Fyrirframgreiðslureikningar samanborið við fyrirframgreiðslur
+description: Þetta efnisatriði lýsir og ber saman aðferðirnar tvær sem fyrirtæki geta notað fyrir fyrirframgreiðslu (fyrirframgreiðslur). Með annarri aðferðinni er stofnaður fyrirframgreiðslureikningur sem er tengdur innkaupapöntun. Með hinni aðferðinni eru stofnuð fylgiskjöl fyrirframgreiðslu með því að stofna færslur í færslubók og merkja þær sem fylgiskjöl fyrirframgreiðslna.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c81045b72d15f4474d82040d7725740cff5eba91
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f30e375b759641875ed6a5a7d2f77132715c57
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310140"
 ---
-
 # <a name="prepayment-invoices-vs-prepayments"></a>Fyrirframgreiðslureikningar samanborið við fyrirframgreiðslur
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ Bókhaldsvenjur í mörgum löndum/svæðum krefjast þess að fyrirframgreiðsl
 3.  Stofnið greiðslubók og síðan að stofna nýja greiðslu.
 4.  Hægt er að merkja greiðsluna sem fyrirframgreiðslu. Ef greiðsla er merkt sem fyrirframgreiðsla, greiðslan er bókuð í fjárhagslyklana sem eru skilgreindar í bókunarreglu sem er sett upp í skrefum 1 og 2. Þar að auki eru skattar reiknaðir, ef greiðsla er merkt sem fyrirframgreiðsla. Sumar yfirvöld krefjast þess að skattar séu greiddir þegar fyrirframgreiðsla er skráð, jafn vel þó enginn sé reikningurinn.
 5.  Bókið fyrirframgreiðsluna
-6.  Valfrjálst: Hægt er að jafna fyrirframgreiðsla við innkaupapöntun eða sölupöntun áður en reikningurinn er stofnaður. Á sölupöntun eða innkaupapöntun síðuskal nota **Jafna færslur** á aðgerðasvæðinu.
+6.  Valfrjálst: Hægt er að jafna fyrirframgreiðsla við innkaupapöntun eða sölupöntun áður en reikningurinn er stofnaður. Á síðu sölupöntunar eða innkaupapöntunar skal nota **Jafna færslur** á aðgerðasvæðinu.
 7.  Skrá reikning eftir ap lánardrottinn skilar vörum eða þjónustu. Ef fyrirframgreiðsla er jöfnuð við innkaupapöntun eða sölupöntun í skrefi 6, er fyrirframgreiðsla sjálfkrafa jaöfnuð við reikning sem þú stofnaðir. Ef fyrirframgreiðsla er ekki jöfnuð við innkaupapöntun eða sölupöntun, geturðu jafnað handvirkt við reikninginn með því að nota **Jafna færslur** síðu viðskiptavinar eða lánardrottins. Upphæð fyrirframgreiðslu er síðan bakfærð úr tímabundna AP/AR fjárhagslykli. Þar að auki, ef skattar voru reiknuð eru þeir bakfærðar, vegna þess að reikningurinn hefur raunverulega skatta.
 
 ## <a name="overview-of-the-prepayment-invoicing-process"></a>Yfirlit yfir reikningsfærsluferli fyrirframgreiðslu
@@ -63,7 +62,6 @@ Fyrirframgreiðslureikningar er algengur viðskiptaháttur. Lánardrottinn gefur
 3.  Samræmingaraðili viðskiptaskulda skráir fyrirframgreiðslureikning gagnvart innkaupapöntun, og síðan er fyrirframgreiðslureikningur greiddur.
 4.  Eftir að lánardrottinn afhendir vörum eða þjónustu,  og tengdar reikningar lánardrottna hafa borist, beitir samræmingaraðili viðskiptaskulda upphæð fyrirframgreiðslu sem var þegar greidd gegn reikningnum.
 5.  Samræmingaraðili viðskiptaskulda greiðir og jafnar eftirstandandi upphæð reikningsins.
-
 
 
 

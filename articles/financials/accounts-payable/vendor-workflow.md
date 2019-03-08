@@ -1,13 +1,13 @@
 ---
-title: "Verkflæði lánardrottins"
-description: "Breyta lánardrottnaupplýsingum og nota verkflæði til að samþykkja þær."
+title: Verkflæði lánardrottins
+description: Breyta lánardrottnaupplýsingum og nota verkflæði til að samþykkja þær.
 author: mikefalkner
 manager: annbe
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Vendor
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 950a1852acf9f3e4747ce2d55738c0eb3a646897
-ms.contentlocale: is-is
-ms.lasthandoff: 08/31/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329690"
 ---
-
 # <a name="vendor-workflow"></a>Verkflæði lánardrottins
 
 [!include [banner](../includes/banner.md)]
@@ -61,5 +60,4 @@ Eftir að a.m.k. ein fyrirhuguð breyting hefur verið gerð birtast tveir flipa
 
     Stöðunni á síðunni er breytt í **Breytingar bíða samþykkis**.
 
-Vinnuflæði fylgir stöðluðu vinnsluferli í Microsoft Dynamics 365 for Finance and Operations. Samþykktaraðila er beint á síðuna **Lánardrottinn** þar sem hann eða hún getur yfirfarið breytingar á síðunni **Fyrirhugaðar breytingar** og síðan valið **Verkflæði \> Samþykkja** til að samþykkja verkflæðið. Þegar búið er að samþykkja allt eru reitirnir uppfærðir með gildunum sem lögð voru til.
-
+Verkflæðið fylgir venjulegu verkflæðisferli í Microsoft Dynamics 365 for Finance and Operations. Samþykktaraðila er beint á síðuna **Lánardrottinn** þar sem hann eða hún getur yfirfarið breytingar á síðunni **Fyrirhugaðar breytingar** og síðan valið **Verkflæði \> Samþykkja** til að samþykkja verkflæðið. Þegar búið er að samþykkja allt eru reitirnir uppfærðir með gildunum sem lögð voru til.

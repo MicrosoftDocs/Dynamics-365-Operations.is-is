@@ -1,32 +1,31 @@
 ---
-title: "Gantt-rit fyrir vinnsluröðun"
-description: "Framleiðendur geta stjórnað og hámarkað framleiðsluáætlanir með Gantt-ritum."
+title: Gantt-rit fyrir vinnsluröðun
+description: Framleiðendur geta stjórnað og hámarkað framleiðsluáætlanir með Gantt-ritum.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 301db69fce18c2ed32e201e7418e628ac57db543
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c3726038d9782891988e16cb98cf04cf47b7e66c
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335233"
 ---
-
 # <a name="gantt-chart-for-job-scheduling"></a>Gantt-rit fyrir vinnsluröðun
 
 [!include [banner](../includes/banner.md)]
@@ -160,5 +159,4 @@ Hægt er að opna gantt-línurit úr eftirfarandi síðum.
 [Sjónrænar áætlanir með Gantt-línuritum fyrir framleiðslu og runupantanir (myndskeið)](https://youtu.be/BtbuShkGj4I)
 
 [Sjónræn áætlun fyrir framleiðslu (sýniútgáfa)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
-
 

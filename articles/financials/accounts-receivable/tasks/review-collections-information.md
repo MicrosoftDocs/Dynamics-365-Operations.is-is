@@ -1,13 +1,13 @@
---- 
-title: "Fara yfir innheimtuupplýsingar"
-description: "Þetta ferli fer í gegnum hvernig á að fara yfir upplýsingar um innheimtu auk ýmsar uppsetningar valkostir og innheimtu færslur."
+---
+title: Fara yfir innheimtuupplýsingar
+description: Þetta ferli fer í gegnum hvernig á að fara yfir upplýsingar um innheimtu auk ýmsar uppsetningar valkostir og innheimtu færslur.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustCollectionsPool, SysQueryForm, CustCollectionsAgent, OMTeamSelectMemberDialog, CustVendReportInterval, CustParameters, CustAgingSnapshot, CustVendAgingBucketLookUp, CustCollectionsPoolsListPage, CustCollectionsContactPart, CustCollections
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 44d89d2bacc8f301a19bfd09d229809d492a55fb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: eb0866505702ec5d047b6c8f3f0657aae787bedc
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349102"
 ---
 # <a name="review-collections-information"></a>Fara yfir innheimtuupplýsingar
 
@@ -110,7 +110,7 @@ ms.lasthandoff: 09/29/2017
     * Velja skal skilgreiningu aldurstímabils Að sjálfgefnu er aldurstímabil sem tengist aldursgreiningarmynd fyrir viðskiptavin birt. Skilgreining aldurstímabils stjórnar aldurstímabili og upphæðum sem eru sýndar í upplýsingareitunum Aldursgreindar stöður og Lánaupplýsingar.  
     * Opna valmynd sem inniheldur eftirfarandi atriði: Fyrirtæki – Birta upphæðir í Aldursgreindar stöður og lánaupplýsingar Upplýsingakassa í bókhaldsgjaldmiðli lögaðila.    Viðskiptavinur – Birta upphæðir í Aldursgreindar stöður og lánaupplýsingar upplýsingareitunum í gjaldmiðli viðskiptavinar.  
     * Veljið eina eða fleiri lögaðila í aldursgreiningarmynd viðskiptavinar sem á að skoða upplýsingar um. Lögaðilar sem eru sýndar á lista var valinn þegar aldursgreiningarmynd var stofnuð.  
-    * Skoða yfirlit viðskiptavinar í Microsoft Excel-sniði. Hægt er að velja upphafsdagsetningu fyrir dagsetningasviðið færsla til að hafa með í uppgjörinu og ákveða hvort hafa eigi aðeins opnar færslur með eða bæði opnar og jöfnuðum færslum. Ef aldursgreiningarmynd inniheldur upplýsingar fyrir marga lögaðila, færslur eru hafðar með fyrir alla lögaðila.  
+    * Skoða yfirlit viðskiptavinar í Microsoft Excel sniði. Hægt er að velja upphafsdagsetningu fyrir dagsetningasviðið færsla til að hafa með í uppgjörinu og ákveða hvort hafa eigi aðeins opnar færslur með eða bæði opnar og jöfnuðum færslum. Ef aldursgreiningarmynd inniheldur upplýsingar fyrir marga lögaðila, færslur eru hafðar með fyrir alla lögaðila.  
     * Opna skjámyndina Skjöl, þar sem hægt er að stofna eða breyta skjöl eða athugasemdir.  
 7. Í aðgerðasvæðinu er smellt á miðla.
     * Opna Outlook, þar sem hægt er að senda tölvupóst skilaboð tengilið sem er tilgreint í svæðinu Tengilið. Ef tengiliður fyrir innheimtu er ekki tilgreint, er aðalaðsetur fyrir viðskiptamanninn notað. Ef aðaltengiliður er ekki tilgreint, tölvupóstskilaboð verður sent í fyrsta aðsetur skráð í Tengiliður skjámynd. Færslur sem eru valin eru hafðar með sem viðhengi. Viðhengið í Excel-sniði og inniheldur þrjár vinnublöðunum. Hægt er að tilgreina sem sniðmát fyrir tölvupóst fyrir skilaboð á tengiliðum viðskiptavinar í skjámyndinni færibreytur viðskiptakrafna.  
@@ -131,5 +131,4 @@ ms.lasthandoff: 09/29/2017
     * Velja innheimtumál sem úthlutað er til viðskiptavinar eða skiljið eftir autt. Ef máls er valinn eru aðeins færslur og verkþætti sem eru tengdar við málið birtast í þessari skjámynd.  
 8. Smellið á listann Sýna.
     * Veljið viðskiptavinalykil eða samþykkið sjálfgefnu færsluna. Að sjálfgefnu er í valinn reikning viðskiptavinar á síðu viðskiptavinalista eða í skjámyndinni sem þessi skjámynd var opnuð. Ef skjámyndin er opnuð úr listasíðunni eru viðskiptavinum í lista viðskiptavina sem eru teknar með í hópnum innheimtu sem er notuð á listasíðunni.  
-
 

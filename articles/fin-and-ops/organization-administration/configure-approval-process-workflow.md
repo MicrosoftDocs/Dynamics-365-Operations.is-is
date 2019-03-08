@@ -1,13 +1,13 @@
 ---
-title: "Grunnstilla samþykktarferli í verkflæði"
-description: "Notið eftirfarandi ferli til að stilla eiginleika fyrir samþykktarskref."
+title: Grunnstilla samþykktarferli í verkflæði
+description: Notið eftirfarandi ferli til að stilla eiginleika fyrir samþykktarskref.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 08641eaac31813a8bee3231118f8e2bf802ea3e1
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325642"
 ---
-
 # <a name="configure-approval-processes-in-a-workflow"></a>Grunnstilla samþykktarferli í verkflæði
 
 [!include [banner](../includes/banner.md)]
@@ -124,11 +123,11 @@ Hægt er að senda tilkynningar til fólks þegar skjal hefur verið samþykkt, 
     </tr>
     <tr>
     <td><strong>Notandi</strong></td>
-    <td>Sértækir notendur Microsoft Dynamics 365 for Finance and Operations</td>
+    <td>Tilteknir Microsoft Dynamics 365 for Finance and Operations notendur</td>
     <td>
     <ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
-    <li>Listinn <strong>Tiltækir notendur</strong>: inniheldur alla notendur í Microsoft Dynamics 365 for Finance and Operations. Veldu notendur til að senda tilkynningar til og færðu síðan þessa notendur í listann <strong>Valdir notendur</strong>.</li>
+    <li><strong>Tiltækir notendur</strong> listinn inniheldur alla notendur í Microsoft Dynamics 365 for Finance and Operations. Veldu notendur til að senda tilkynningar til og færðu síðan þessa notendur í listann <strong>Valdir notendur</strong>.</li>
     </ol>
     </td>
     </tr>
@@ -184,4 +183,3 @@ Samþykktarferli samanstendur af samþykktarskref. Ljúktu við eftirfarandi fer
 1. Tvísmellið samþykktarferlið í ritill verkflæðis. Verkflæðisritlinum birtir skref í samþykktarferlinu.
 2. Til að bæta við samþykktarskrefi, draga skrefið í **verkflæðiseiningar** á vinnusvæði.
 3. Til að skilgreina samþykktarskref, sjá [Skilgreina samþykktarskref](configure-approval-step-workflow.md).
-

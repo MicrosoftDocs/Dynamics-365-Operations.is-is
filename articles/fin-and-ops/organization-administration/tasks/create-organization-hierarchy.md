@@ -1,13 +1,13 @@
---- 
-title: "Stofna stigveldi fyrirtækis"
-description: "Notaðu eftirfarandi ferli til að stofna stigveldi fyrirtækis"
+---
+title: Stofna stigveldi fyrirtækis
+description: Notaðu eftirfarandi ferli til að stofna stigveldi fyrirtækis
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager, OMHierarchyPurposeAssociation, OMHierarchySelection, HierarchyDesigner
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 203a586b06a13a7c67f246384152d17627e22041
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 2aea56a549131745b2636392561176bf0f87097c
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308806"
 ---
 # <a name="create-an-organization-hierarchy"></a>Stofna stigveldi fyrirtækis
 
@@ -56,5 +56,4 @@ Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 2. Smella á Skoða stigveldi
     * Bæta við fleiri fyrirtæki eftir þörfum.  
     * Til að bæta við fyrirtæki, smelltu á breyta og síðan setja inn til að bæta við fyrirtæki.     Þegar gerðar eru breytingar er hægt drög að vista og/eða birta breytingarnar.  
-
 

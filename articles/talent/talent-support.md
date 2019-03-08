@@ -1,13 +1,13 @@
 ---
-title: "Fá stuðning fyrir Talent"
-description: "Í þessu efnisatriði er útskýrt hvernig hægt er fá aðstoð með Dynamics 365 for Talent."
+title: Fá aðstoð fyrir Talent
+description: Í þessu efnisatriði er útskýrt hvernig hægt er fá aðstoð með Dynamics 365 for Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
@@ -15,15 +15,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 1bf37d65cd8ce6a98fc2d2fb11ae9587cf6958a3
 ms.openlocfilehash: 9b2d7159b458b6f3b2cbb3271210c10ab486f496
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304917"
 ---
-
-# <a name="get-support-for-talent"></a>Fá stuðning fyrir Talent
+# <a name="get-support-for-talent"></a>Fá aðstoð fyrir Talent
 
 [!include [banner](includes/banner.md)]
 
@@ -55,4 +54,3 @@ Til að fá stuðning fyrir Attract and Onboard skal nota úrræðin í eftirfar
 | Tilkynna um vandamál                                                        | Veldu **?** táknnið í valmyndinni og veldu valkostina til að tilkynna um vandamál. Sláðu vandamálið inn í lýsinguna og láttu netfang fylgja með ef þú vilt fylgjast með málinu sem tilkynnt er um.                                                                                           |
 | Fáðu hjálp varðandi spurningar um leyfisveitingu Talent                         | Hafðu samband við samstarfsaðila þinn eða sölufulltrúa Microsoft.                                                                                                                                                                                                                                        |
 | Beiðni um nýja eiginleika og virkni innan Attract and Onboard | Smelltu á **?** táknið og veldu **Hugmyndir** eða notaðu eftirfarandi tengla til að skoða, leita, kjósa eða bæta við nýjum hugmyndum: [Attract](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract) eða [Onboard](https://powerusers.microsoft.com/t5/Ideas-for-Onboard/idb-p/Onboard). |
-

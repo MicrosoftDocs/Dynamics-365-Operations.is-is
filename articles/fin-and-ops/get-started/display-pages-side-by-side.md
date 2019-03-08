@@ -1,13 +1,13 @@
 ---
-title: "Birta síður hlið við hlið með því að nota „Opna í nýjum glugga“-eiginleikann"
-description: "Þessi grein útskýrir hvernig eigi að birta síður hlið við hlið í Microsoft Dynamics 365 for Finance and Operations."
+title: Birta síður hlið við hlið með því að nota „Opna í nýjum glugga“-eiginleikann
+description: Þessi grein útskýrir hvernig eigi að birta síður hlið við hlið í Microsoft Dynamics 365 for Finance and Operations.
 author: aneesmsft
 manager: AnnBe
 ms.date: 09/07/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: df9b091735a4971446c5b5d0e054076260040683
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 8e3ef29618f11b0f247999e3a24e54bff44bf51a
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330173"
 ---
-
 # <a name="show-pages-side-by-side-by-using-the-open-in-new-window-feature"></a>Birta síður hlið við hlið með því að nota „Opna í nýjum glugga“-eiginleikann
 
 [!include [banner](../includes/banner.md)]
@@ -50,4 +49,3 @@ Sumar síður eru með mörgum yfirlitum eins og hnitanetsyfirlit, hausyfirlit o
 **Opna í nýjum glugga** eiginleiki er aðeins tiltækur þegar fleiri en einn síða er opna í glugganum. Einnig sprettiglugga sjálfkrafa lokast þegar engar frekari síður eru opnar (þar er, þegar síðustu síðuna í glugganum er lokað). Finance and Operations lokar einnig opnum síðum þegar farið er á annað svæði í forritinu. Þess vegna ef sprettuglugga eru opnir og farið er  í annað svæði í forritinu, er sprettuglugga sjálfkrafa lokað því síðurnar í þeim gluggum var lokað af kerfinu.
 
 Efsta sláin í sprettiglugga birtir upplýsingar um fyrirtækið sem síðuna var opnuð í og er skrifvarin. Sprettugluggar treysta á aðal vafraglugga Finance and Operations. Ef aðalglugginn er lokaður eða endurnýjuð, allar opnar sprettuglugga mun verða eingöngu lesaðgangur. Þetta þýðir að er hægt að skoða upplýsingarnar í þessum gluggum, en er ekki hægt að eiga samskipti við þá.
-

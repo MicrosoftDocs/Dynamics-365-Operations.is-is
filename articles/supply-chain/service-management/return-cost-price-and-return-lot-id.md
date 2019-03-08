@@ -1,31 +1,30 @@
 ---
-title: "Kostnaðarverð skilavöru og lotukenni skila"
-description: "Þú gætir viljað að kostnaður skilavaranna jafngildi kostnaði varanna á þeim tíma þegar þú seldir vörurnar til viðskiptavinarins. Þú getur gert þetta með því að nota **Lotukenni skila**."
+title: Kostnaðarverð skilavöru og lotukenni skila
+description: Þú gætir viljað að kostnaður skilavaranna jafngildi kostnaði varanna á þeim tíma þegar þú seldir vörurnar til viðskiptavinarins. Þú getur gert þetta með því að nota **Lotukenni skila**.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/30/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 33cd3d50fe342ba12a17419f4e759c243a60b3e0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: aeba56128ab6c9ab7d244bdf153faba8e96069d6
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335141"
 ---
-
 # <a name="return-cost-price-and-return-lot-id"></a>Kostnaðarverð skilavöru og lotukenni skila        
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,7 @@ Að sjálfgefnu, þegar þú bætir vörum við skilapöntun, er vörunum skila�
 
 3.  Í skjámyndinni **Stofna skilapöntun** skaltu velja viðskiptavinalykil og smella síðan á **Í lagi**.
 
-4.  Í skjámyndinni **Skilapöntun - RMA-númer: %1, %2** skaltu velja vöru og síðan færa inn neikvætt magn í reitinn **Magn**.
+4.  Í skjámyndinni **Skilapöntun - RMA-númer: %2, %1** skaltu velja vöru og síðan færa inn neikvætt magn í reitinn **Magn**.
 
 5.  Smellið á flýtiflipa **Upplýsingar um línur**.
 
@@ -109,7 +108,6 @@ Að sjálfgefnu, þegar þú bætir vörum við skilapöntun, er vörunum skila�
 10. Í „Birgða- og vöruhúsakerfi“ skaltu nota skjámyndina **Lokun og leiðrétting** til að keyra ferlið **3. Loka**.
     
     Þessi aðgerð leiðréttir kostnaðinn á upprunalegu sölulínunni sem var verðlagður á -35,00 (5 stykki \* 7,00) í -30,00 (5 stykki \* 6,00). Þetta er vegna þess að birgðalíkanaflokkurinn notar fyrst inn, fyrst út (FIFO) og 6,00 á stykki er FIFO-kostnaðurinn frá fyrstu innkaupapöntun. Að auki leiðréttir aðgerðin kostnaðinn á sölulínu skila til að passa við kostnaðinn á stykki á upprunalegu sölulínunni. Þess vegna er kostnaður á skilalínu leiðréttur úr 35,00 í 30,00.
-
 
 
 

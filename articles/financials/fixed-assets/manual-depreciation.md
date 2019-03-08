@@ -1,13 +1,13 @@
 ---
 title: Handvirkar afskriftir
-description: "Þessi grein veitir yfirlit yfir handvirka afskriftaraðferð."
+description: Þessi grein veitir yfirlit yfir handvirka afskriftaraðferð.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 14e385e60e10146a0855a467af57a0a31fcc53bd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5081b3ff940167f305a6e17f97e246e5f8000185
-ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331001"
 ---
-
 # <a name="manual-depreciation"></a>Handvirkar afskriftir
 
 [!include [banner](../includes/banner.md)]
@@ -74,7 +73,6 @@ Ef valið er <strong>Tvisvar á ári</strong> í *<strong><em>Tímabilstíðni</
 | 31. desember | (11.000 – 1.000) × 50% = 5.000 |
 
 Samtala fyrir prósentutölurnar fyrir öll bilin þurfa ekki að vera 100. Hins vegar munu berast skilaboð ef gildið í **heildarprósenta** á síðunni **Afskriftaregluáætlanir eigna** er ekki **100**.
-
 
 
 

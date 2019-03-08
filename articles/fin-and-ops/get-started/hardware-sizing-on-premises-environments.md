@@ -1,30 +1,29 @@
 ---
-title: "Kröfur um vélbúnaðarþörf fyrir staðbundin umhverfi"
-description: "Þetta efnisatriði tilgreinir kröfur um vélbúnaðarþörf fyrir staðbundin umhverfi."
+title: Kröfur um vélbúnaðarþörf fyrir staðbundin umhverfi
+description: Þetta efnisatriði tilgreinir kröfur um vélbúnaðarþörf fyrir staðbundin umhverfi.
 author: kfend
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: d277bc4c4c815317bade8a04b9111232fb707086
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340730"
 ---
-
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Kröfur um vélbúnaðarþörf fyrir staðbundin umhverfi
 
 [!include [banner](../includes/banner.md)]
@@ -120,7 +119,7 @@ Fyrir AD FS stærðarþörf skal sjá [Fylgiskjöl fyrir afkastagetu þjóns AD
     - 1 til 4 runuþræðir í hverjum kjarna
     - Stærð byggð á framsetningu runuglugga
 
-- Athugaðu að AOS, gagnastjórnun og runa eru á sama hlutverki í Service Fabric. Þú þarft að gera ráð fyrir stærð þessara þriggju vinnuálaga samanlagðra, en ekki aðskilja þau eins og í Microsoft Dynamics AX 2012.
+- Athugaðu að AOS, gagnastjórnun og runa eru á sama hlutverki í Service Fabric. Þú þarft að stækka fyrir þessi þrjú vinnuálög samanlagt og ekki aðgreina þau eins og í Microsoft Dynamics AX 2012.
 - Sömu breytileikaþættir fyrir SQL þjóna eiga við hér.
 
 ### <a name="high-availability"></a>Mikill tiltækileiki
@@ -143,4 +142,3 @@ Orchestrator þjónustan er þjónustan sem hefur umsjón með þinni virkjun og
 ## <a name="virtualization-and-oversubscription"></a>Sýndaruppsetning og ofáskrift
 
 Mikilvæg þjónusta eins og AOS ætti að vera hýst á sýndarhýslum sem hafa sérstök tilföng til þess – kjarna, minni og disk.
-

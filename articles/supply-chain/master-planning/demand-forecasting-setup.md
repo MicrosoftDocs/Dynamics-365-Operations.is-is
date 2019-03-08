@@ -1,13 +1,13 @@
 ---
-title: "Uppsetning eftirspurnarspár"
-description: "Þetta efnisatriði lýsir uppsetningarverk sem þarf að framkvæma til að undirbúa eftirspurnarspár."
+title: Uppsetning eftirspurnarspár
+description: Þetta efnisatriði lýsir uppsetningarverk sem þarf að framkvæma til að undirbúa eftirspurnarspár.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanDefaultAlgorithmParameters, ReqDemPlanForecastParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 59fb8938720ce1634735dd728eee3874660a4289
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330449"
 ---
-
 # <a name="demand-forecasting-setup"></a>Uppsetning eftirspurnarspár
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,7 @@ Vara og víddir hennar verður að vera hluti af aðeins einum úthlutunarlykil 
 Til að bæta birgðahaldseining (SKU) við vöruúthlutunarlykil fara í **aðaláætlanagerð** &gt; **Uppsetningu** &gt; **eftirspurnarspár** &gt; **úthlutunarlykla Vöru**. Nota skal **Úthluta vörum** síðu til að úthluta vörum á úthlutunarlykil.
 
 ## <a name="intercompany-planning-groups"></a>Áætlunarhópar innan samstæðu
-Eftirspurnarspá myndar spár milli fyrirtækja. Í Microsoft Dynamics 365 for Finance and Operations eru fyrirtæki sem eru áætlaðar saman flokkuð í einn áætlunarhóp innan samstæðunnar. Til að tilgreina, per fyrirtæki, hvaða úthlutunarlykil vöru eigi að taka til greina fyrir eftirspurnarspá, skal tengja úthlutunarlykill vöru við áætlunarflokk meðlims innan samstæðu í áætlunarflokki með því að fara í **aðaláætlanagerð** &gt; **Uppsetningu** &gt; **áætlunarflokkar innan Samstæðu**. 
+Eftirspurnarspá myndar spár milli fyrirtækja. Í Microsoft Dynamics 365 for Finance and Operations, fyrirtæki sem eru áætluð saman eru flokkuð í einn áætlunarhóp innan samstæðunnar. Til að tilgreina, per fyrirtæki, hvaða úthlutunarlykil vöru eigi að taka til greina fyrir eftirspurnarspá, skal tengja úthlutunarlykill vöru við áætlunarflokk meðlims innan samstæðu í áætlunarflokki með því að fara í **aðaláætlanagerð** &gt; **Uppsetningu** &gt; **áætlunarflokkar innan Samstæðu**. 
 
 Að sjálfgefnu, ef engin úthlutunarlykla vöru er úthlutað til aðila áætlanahóps, innan samstæðu, er eftirspurnarspá reiknuð fyrir allar vörur sem er úthlutað til allra úthlutunarlykla vöru frá öllum fyrirtækjum Finance and Operations. Aukalegir Síunarvalkosti fyrir fyrirtæki og úthlutunarlykla vöru eru tiltækar í **Mynda tölfræðilega grunnlínuspá** síðu. 
 
@@ -86,7 +85,6 @@ Til að skoða færibreytur sem hægt er að skilgreina fyrir Finance and Operat
 [Mynda tölfræðilega grunnlínuspá](generate-statistical-baseline-forecast.md)
 
 [Gera handvirkar leiðréttingar á grunnlínuspánni](manual-adjustments-baseline-forecast.md)
-
 
 
 

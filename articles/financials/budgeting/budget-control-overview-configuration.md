@@ -1,13 +1,13 @@
 ---
-title: "Yfirlit fjárhagsáætlunarstýringar "
-description: "Þessi grein kynnir fjárhagsáætlunarstýringar og veitir upplýsingar um hjálp við að skilgreina fjárhagsáætlunarstýringu í Microsoft Dynamics 365 for Finance and Operations þannig að hægt er að stjórna fjármagni."
+title: 'Yfirlit fjárhagsáætlunarstýringar '
+description: Þessi grein kynnir fjárhagsáætlunarstýringar og veitir upplýsingar um hjálp við að skilgreina fjárhagsáætlunarstýringu í Microsoft Dynamics 365 for Finance and Operations þannig að hægt er að stjórna fjármagni.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4dbbbdf403c3e3f7c1bfa391cc32f80505098db9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e77760d6729b8faf3099590c60ea7673cfcb18ec
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308530"
 ---
-
-# <a name="budget-control-overview"></a>Yfirlit fjárhagsáætlunarstýringar 
+# <a name="budget-control-overview"></a>Yfirlit fjárhagsáætlunarstýringar
 
 [!include [banner](../includes/banner.md)]
 
@@ -35,7 +34,7 @@ ms.lasthandoff: 03/26/2018
 <a name="overview"></a>Yfirlit
 --------
 
-Fjárhagsáætlunarstýring í Microsoft Dynamics 365 for Finance and Operations styður við stýringu á fjárhagslegum tilföngum fyrirtækis með bókhaldslyklum, verkflæðum, notendahópum, upprunaskjölum og færslubókum, skilgreinanlegum útreikningum á tiltæku fjármagni, fjárhagsáætlunarferlum og þröskuldum. Þegar stýringar eru á sínum stað, getur fyrirtæki áætlað, mæla, stjórna og spá fyrir um hennar fjárhagslegar tilföng gegnum fjárhagsársins. 
+Fjárhagsáætlunarstýring í Microsoft Dynamics 365 for Finance and Operations styður stjórnun fjárhagslegra tilfanga fyrirtækis með bókhaldslykli, verkflæði, notendaflokkur, upprunaskjal og færslubók, skilgreinanlega sjóður, tiltækt útreikningur, ferli fjárhagsáætlunar, og mörk. Þegar stýringar eru á sínum stað, getur fyrirtæki áætlað, mæla, stjórna og spá fyrir um hennar fjárhagslegar tilföng gegnum fjárhagsársins. 
 
 Eftir að áætlanir hafa verið samþykktar í Finance and Operations er hægt að nota fjárhagsáætlanir til að búa til færslur í fjárhagsáætlunarskrá til að skrá útgjöld fjárhagsáætlunar fyrir fyrirtæki. Einnig er hægt að stofna eða flytja inn færslur í fjárhagsáætlunarskrá úr hugbúnaði þriðja aðila án þess að nota virkni fjárhagsáætlunargerðar. 
 
@@ -128,4 +127,3 @@ Eftir að kveikt hefur verið á fjárhagsáætlunarstýringu, notendur fá við
 Úr þessari síðu geta notendur kafað í **talnagögn fjárhagsáætlunarstýringar eftir tímabili** síðu til að skoða upplýsingar um framboð fjárhagsáætlunar og frátekningar á víddarsamsetningu fjárhagsáætlunarstýringar. Notendur geta einnig kafa í **talnagögn fjárhagsáætlunarstýringar** síðu til að skoða framboð á fjárhagsáætlun fyrir allar samsetningar fjárhagsvídda sem eru notaðar í fjárhagsáætlunarstýringu. 
 
 Ef fjárhagsáætlunarstýring er kveikt fyrir Innkaupapantanir, getur stjórnanda fjárhagsáætlunar notað vinnusvæðið **fjárhagsáætlun og spár** til að skoða biðröð fyrir biðröðinni allar óstaðfestar innkaupapantanir sem eru með viðvaranir frá athugun á fjárhagsáætlun og villuboð. Hafi stjórnanda fjárhagsáætlunar heimildir yfir fjárhagsáætlun skilgreindar hann getur staðfesta Innkaupapöntun beint í vinnusvæðið.    
-

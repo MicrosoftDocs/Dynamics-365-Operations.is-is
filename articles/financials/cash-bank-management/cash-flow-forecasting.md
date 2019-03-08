@@ -1,13 +1,13 @@
 ---
-title: "Sjóðstreymisspár"
-description: "Þetta efnisatriði gefur yfirlit yfir ferli sjóðstreymisspár. Það útskýrir einnig hvernig sjóðstreymisspá er samþætt við aðrar einingar í kerfinu."
+title: Sjóðstreymisspár
+description: Þetta efnisatriði gefur yfirlit yfir ferli sjóðstreymisspár. Það útskýrir einnig hvernig sjóðstreymisspá er samþætt við aðrar einingar í kerfinu.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 681817f2879034d65b53666a9d56ec00cc175ad8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9aefc79897d0abcee14c05f33516181b3eb05e55
-ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324492"
 ---
-
 # <a name="cash-flow-forecasting"></a>Sjóðstreymisspár
 
 [!include [banner](../includes/banner.md)]
@@ -129,7 +128,7 @@ Vinnusvæðið **Yfirlit yfir reiðufé – öll fyrirtæki** sýnir greiningar 
 
 Vinnusvæðið **Yfirlit yfir reiðufé – núverandi fyrirtæki** sýnir greiningar fyrir sjóðstreymisspá í skilgreindum bókhaldsgjaldmiðli fyrirtækisins. Bókhaldsgjaldmiðillinn sem er notaður fyrir greiningu er skilgreindur á síðunni **Fjárhagur**. Þetta vinnusvæði sýnir yfirlit yfir sjóðstreymisspár og stöðu bankareikninga núverandi fyrirtækis. Línurit yfir sjóðsinnstreymi og útstreymi gefur yfirlit yfir framtíðarhreyfingar lausafjár og stöðu í bókhaldsgjaldmiðli ásamt ítarlegum upplýsingum um spáðar færslur. Einnig má sjá spáðar gengisstöður.
 
-Nánari upplýsingar um verkfæri fyrir sjóðstreymisspár má fá í Power BI efnisatriðinu Yfirlit yfir reiðufé.
+Sjá flipann Tilvísunarstig Power BI fyrir frekari upplýsingar um framleiðslustig.
 
 Þar að auki er hægt að skoða gögn sjóðstreymisspár fyrir tiltekna lykla, pantanir og vörur á eftirfarandi síðum:
 
@@ -138,5 +137,4 @@ Nánari upplýsingar um verkfæri fyrir sjóðstreymisspár má fá í Power BI 
 - **Allar innkaupapantanir**: Á flipanum **Reikningur** skal velja **Sjóðstreymisspár** til að skoða spáð áhrif valdrar innkaupapöntunar á lausafé.
 - **Birgðaspá**: Velja **Sjóðstreymisspár** til að skoða komandi útstreymi lausafjár sem tengist birgðaspá valdrar vöru.
 - **Eftirspurnarspá**: Velja **Sjóðstreymisspár** til að skoða komandi útstreymi lausafjár sem tengist eftirspurnarspá valdrar vöru.
-
 

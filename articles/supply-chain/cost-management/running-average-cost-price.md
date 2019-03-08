@@ -1,13 +1,13 @@
 ---
-title: "Um keyrslu á meðalkostnaðarverði"
-description: "Birgðalokunarferlið jafnar úthreyfingafærslur við innhreyfingafærslur samkvæmt birgðamatsaðferð sem er valin í birgðalíkanaflokki vörunnar. Áður en birgðalokun er keyrð reiknar kerfið samt sem áður út hlaupandi meðalkostnaðarverð sem er í flestum tilvikum notað við bókun úthreyfingafærslna."
+title: Um keyrslu á meðalkostnaðarverði
+description: Birgðalokunarferlið jafnar úthreyfingafærslur við innhreyfingafærslur samkvæmt birgðamatsaðferð sem er valin í birgðalíkanaflokki vörunnar. Áður en birgðalokun er keyrð reiknar kerfið samt sem áður út hlaupandi meðalkostnaðarverð sem er í flestum tilvikum notað við bókun úthreyfingafærslna.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup, InventOnhandItem, InventTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e14f38baaef32c72761594147feca8d08651a050
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: aeb23f78d9bec93cf92214470e9ace3cd88b92c3
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312026"
 ---
-
 # <a name="running-average-cost-price"></a>Um keyrslu á meðalkostnaðarverði
 
 [!include [banner](../includes/banner.md)]
@@ -76,7 +75,6 @@ Samt sem áður, ef viðskiptalíkanið leyfir eftirfarandi venjur geta þær hj
 -   Ef *ekki* er valinn valkosturinn **Taka með efnislegt virði** fyrir vöru, skal hreinsa valkostinn **Fjárhagslega neikvæðar birgðir** á síðunni **Vörulíkanaflokkar**.
 
 Hafið einnig í huga að hámarksjöfnunin á efnislegu birgðavirði er takmörkuð af fjölda efnislegra færslna og mismun milli efnislegs og fjárhagslegs verðs. Svo lengi sem allar efnislegar færslur eru að lokum uppfærðar fjárhagslega getur efnislegt virði ekki hækkað óstjórnlega. Að lokum skal minnt á að mögnunaráhrifin minnka verulega þegar samanlagða jöfnunin dreifist á nokkur stykki í lagerbirgðum en ekki bara eitt.
-
 
 
 

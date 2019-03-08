@@ -1,13 +1,13 @@
 ---
-title: "Yfirlit áætlunar fjárhagsáætlunargerðar"
-description: "Þetta grein kynnir fjárhagsáætlunargerð og inniheldur upplýsingar til að hjálpa við að skilgreina fjárhagsáætlunargerð og setja upp ferli fjárhagsáætlunargerðar."
+title: Yfirlit áætlunar fjárhagsáætlunargerðar
+description: Þetta grein kynnir fjárhagsáætlunargerð og inniheldur upplýsingar til að hjálpa við að skilgreina fjárhagsáætlunargerð og setja upp ferli fjárhagsáætlunargerðar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8a262b5200c8071bec78ff6d3ed7976d4b2057ea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b008e70c7d834c6aacad7aef4987e60b12ed8a6d
-ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329920"
 ---
-
 # <a name="budget-planning-overview"></a>Yfirlit áætlunar fjárhagsáætlunargerðar
 
 [!include [banner](../includes/banner.md)]
@@ -37,7 +36,7 @@ ms.lasthandoff: 04/13/2018
 
 Þú framkvæmir Fjárhagsáætlunargerð við undirbúning áætlana sem fyrirtæki munu nota. Fyrirtæki getur skilgreint fjárhagsáætlunargerðar og sett síðan upp ferli fjárhagsáætlunargerðar til að uppfylla þeirra fyrirtækisreglur, ferlum og kröfur fyrir undirbúning fjárhagsáætlunar. 
 
-Þegar þú skilur hugtökin og orðalistann í Microsoft Dynamics 365 for Finance and Operations verður auðveldara fyrir þig að innleiða fjárhagsáætlunargerð í þínu fyrirtæki.
+Þegar þú skilur hugtök og sem eru notaðar í Microsoft Dynamics 365 for Finance and Operations, verður auðveldara fyrir þig að innleiða fjárhagsáætlunargerðar í þínu fyrirtæki.
 
 ### <a name="key-terms"></a>Lykilhugtök
 
@@ -58,7 +57,7 @@ Hægt er að nota fjárhagsáætlunargerðar til að framkvæma eftirfarandi ver
 -   Hægt er að sjálfvirkt beina fjárhagsáætlun, ásamt vinnublöðum, réttlætingarskjöl og önnur viðhengjum, til yfirferðar og samþykkis.
 -   Sameina margar fjárhagsáætlunargerðir úr neðri stigum fyrirtækis í einni yfirfjárhagsáætlunargerð á hærra stigi í fyrirtækinu. Einnig er hægt að þróa eina fjárhagsáætlunargerð á hærra stigi fyrirtækisins og úthluta fjárhagsáætlun á neðri stig fyrirtækisins.
 
-Fjárhagsáætlunargerð er samþætt með öðrum einingum Microsoft Dynamics 365 for Finance and Operations. Því er hægt að færa inn upplýsingar úr fyrri fjárhagsáætlanir, raunútgjöld, eignir og mannauður. Þar sem Fjárhagsáætlunargerð er einnig samþætt Microsoft Excel og Microsoft Word geturðu nota þessi tæki til að vinna með gögn fjárhagsáætlunargerðar. Til dæmis getur stjórnandi fjárhagsáætlunar flutt út deildabeiðni um fjárhagsáætlun í Excel vinnublað úr aðstæðum fjárhagsáætlunargerðar. Gögn hægt að greina, uppfært og charted í vinnublaðinu og birt svo aftur í línur fjárhagsáætlunargerðar.
+Fjárhagsáætlunargerð er samþætt með öðrum Microsoft Dynamics 365 for Finance and Operations einingum. Því er hægt að færa inn upplýsingar úr fyrri fjárhagsáætlanir, raunútgjöld, eignir og mannauður. Þar sem Fjárhagsáætlunargerð er einnig samþætt Microsoft Excel og Microsoft Word geturðu nota þessi tæki til að vinna með gögn fjárhagsáætlunargerðar. Til dæmis getur stjórnandi fjárhagsáætlunar flutt út deildabeiðni um fjárhagsáætlun í Excel vinnublað úr aðstæðum fjárhagsáætlunargerðar. Gögn hægt að greina, uppfært og charted í vinnublaðinu og birt svo aftur í línur fjárhagsáætlunargerðar.
 
 ## <a name="configuring-budget-planning"></a>Skilgreining fjárhagsáætlunargerðar
 **skilgreiningu fjárhagsáætlunargerðar** síða inniheldur flestar stillingar sem þarf til að setja upp fjárhagsáætlunargerð. Eftirfarandi kaflar lýsa sumar lykilþáttum sem ætti að íhuga þegar þú skilgreina fjárhagsáætlunargerðar. Þegar þú hefur lokið skilgreiningunni, seturðu upp ferli fjárhagsáætlunargerðar.
@@ -188,7 +187,6 @@ Síðasta skrefið er að virkja ferli fjárhagsáætlunargerðar á **Aðgerði
 Annað gagnlegt skipun í **Aðgerðir** valmyndinni er **Skoða stöðu ferlis fjárhagsáætlunar**. Þessi skipun sýnir myndrænt fjárhagsáætlunargerðir innan ferlis, með viðeigandi gögnum, eins og í verkflæðisstaða áætlunar, samantektir eftir upphæð og einingu og eins smells flettingu í fjárhagsáætlunargerðir sjálfar.
 
 [![Ferli fjárhagsáætlunargerðar](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
-
 
 
 

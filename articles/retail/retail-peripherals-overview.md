@@ -1,13 +1,13 @@
 ---
-title: "Retail-jaðarbúnaður"
-description: "Í þessu efnisatriði eru útskýrð hugtök sem tengjast jaðartæki smásölu."
+title: Retail-jaðarbúnaður
+description: Í þessu efnisatriði eru útskýrð hugtök sem tengjast jaðartæki smásölu.
 author: rubencdelgado
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 01/16/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: c2539af8a29b580a10002bc8648505d42c7b8456
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347860"
 ---
-
 # <a name="retail-peripherals"></a>Retail-jaðarbúnaður
 
 [!include [banner](includes/banner.md)]
@@ -46,7 +45,7 @@ Fletting: Smella á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning PO
 
 Modern POS er POS-forritið fyrir Microsoft Windows. Hægt er að nota það á stýrikerfi Windows 10 (OSs).
 
-### <a name="cloud-pos"></a>Cloud POS
+### <a name="cloud-pos"></a>Sölustaður í skýi
 
 Cloud POS er vafrabyggð útgáfa á Modern POS-forritinu sem hægt er að opna í vafra.
 
@@ -56,7 +55,7 @@ Modern POS fyrir iOS er iOS-byggð útgáfa á Modern POS-forritinu sem hægt er
 
 ### <a name="modern-pos-for-android"></a>Modern POS fyrir Android
 
-Modern POS fyrir Android er Android-byggð útgáfa af Modern POS-forriti sem hægt er að nota á Android-tæki.
+Modern POS fyrir Android er Android-byggð útgáfa á Modern POS-forritinu sem hægt er að virkja á Android-tækjum.
 
 ### <a name="pos-peripherals"></a>POS-jaðarbúnaður
 
@@ -117,9 +116,9 @@ Stuðningur við greiðslutæki er innleiddur gegnum greiðslutengi. Greiðslut�
 
 ### <a name="opos"></a>OPOS
 
-Til að tryggja að hægt sé að nota sem flestar tegundir búnaðar með Microsoft Dynamics 365 for Retail er OLE fyrir POS-iðnaðarstaðalinn aðalsmásölukerfi jaðarbúnaðar sem er stutt í Microsoft Dynamics 365 for Retail. OLE fyrir POS staðallinn var framleiddur af National Retail Federation (NRF), sem kemur á samskiptareglum víddarsamsetningar atvinnugrein staðlaða samskiptum fyrir jaðartæki smásölu. OPOS er víðnotuð innleiðing á OLE fyrir POS-staðlinum. Hann var þróaður í um miðjan tíunda áratuginn og hefur verið uppfærður nokkrum sinnum síðan. OPOS veitir uppbyggingu tækjaekils sem auðveldar samþættingu POS-vélbúnaðarregla við Windows-byggð POS-kerfi. OPOS-stýringar annast samskiptum milli samhæfanlegs vélbúnaðar og hugbúnaður POS. OPOS-stýring samanstendur af tveimur hlutum:
+Til að aðstoða við að tryggja að hægt sé að nota stærsta svið tækja með Microsoft Dynamics 365 for Retail, er OLE fyrir POS atvinnustaðallinn aðalsmásölukerfi jaðarbúnaðar sem er studdur í Microsoft Dynamics 365 for Retail. OLE fyrir POS staðallinn var framleiddur af National Retail Federation (NRF), sem kemur á samskiptareglum víddarsamsetningar atvinnugrein staðlaða samskiptum fyrir jaðartæki smásölu. OPOS er víðnotuð innleiðing á OLE fyrir POS-staðlinum. Hann var þróaður í um miðjan tíunda áratuginn og hefur verið uppfærður nokkrum sinnum síðan. OPOS veitir uppbyggingu tækjaekils sem auðveldar samþættingu POS-vélbúnaðarregla við Windows-byggð POS-kerfi. OPOS-stýringar annast samskiptum milli samhæfanlegs vélbúnaðar og hugbúnaður POS. OPOS-stýring samanstendur af tveimur hlutum:
 
-- **Stýringarhlutur** – Stýringarhlutur fyrir tækjaklasa (t.d. línubirting) veitir viðmót fyrir hugbúnaðarforritið. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) veitir staðlaðan listi eða samsafn af OPOS stýrihlutir sem eru þekkt sem almennir stýringarhlutir (CCOs). Almennir stýrihlutir (CCOs) eru notaðir til að prófa POS-íhluti í Microsoft Dynamics 365 for Retail. Þess vegna er prófun gagnleg til að tryggja að ef Microsoft Dynamics 365 for Retail styður tækjaklasa gegnum OPOS geti margar gerðir smásölutækja verið studdar, að því gefnu að framleiðandinn veiti þjónustuhlut sem er gerður fyrir OPOS. Ekki þarf að prófa sérstaklega hverja gerð tækis.
+- **Stýringarhlutur** – Stýringarhlutur fyrir tækjaklasa (t.d. línubirting) veitir viðmót fyrir hugbúnaðarforritið. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) veitir staðlaðan listi eða samsafn af OPOS stýrihlutir sem eru þekkt sem almennir stýringarhlutir (CCOs). CCOs eru notaðir til að prófa POS-íhluti Microsoft Dynamics 365 for Retail. Þess vegna hjálpar prófun til við að tryggja að ef Microsoft Dynamics 365 for Retail styður tækjaklasa gegnum OPOS, geta margar gerðir smásölutækja verið studdur að ví tilskildu að framleiðanda veitir þjónustuhlut sem er byggð á fyrir OPOS. Ekki þarf að prófa sérstaklega hverja gerð tækis.
 - **Þjónustuhlutur** – Þjónustuhlutur veitir samskipti milli Stýringar hlutur (CCO) og tæki. Yfirleitt er þjónustuhlutur fyrir tæki veittur af framleiðanda tækis. Hins vegar gæti í sumum tilfellum þurft að sækja þjónustuhlutinn frá vefsvæði framleiðanda. Til dæmis gæti nýrri þjónustuhlutur verið tiltækur. Til að finna aðsetur framleiðanda á vefsvæði skal sjá fylgigögn vélbúnaðarreglu.
 
 [![Stýringarhlutur og þjónustuhlutur](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)
@@ -127,7 +126,7 @@ Til að tryggja að hægt sé að nota sem flestar tegundir búnaðar með Micro
 Stuðningur fyrir OPOS-innleiðingu á OLE fyrir POS hjálpar til við að tryggja að ef tækjaframleiðendur og útgefendur POS innleiða staðalinn rétt geta POS-kerfi og studd tæki unnið saman, jafnvel þótt þau hafi ekki verið áður prófuð saman.
 
 > [!NOTE]
-> OPOS-stuðningur tryggir ekki samræmdan stuðning fyrir öll tæki með OPOS-reklum. Microsoft Dynamics 365 for Retail verður fyrst að styðja þá tækjagerð, eða klasa, í gegnum OPOS. Þar að auki eru þjónustuhlutir hugsanlega ekki alltaf uppfærðir með nýjustu útgáfu af CCOs. Það ætti einnig að hafa í huga að, almenna gæði þjónustuhluta eru breytileg.
+> OPOS-stuðningur tryggir ekki samræmdan stuðning fyrir öll tæki með OPOS-reklum. Microsoft Dynamics 365 for Retail verður fyrst að styðja þá tækjagerð eða klasa, gegnum OPOS. Þar að auki eru þjónustuhlutir hugsanlega ekki alltaf uppfærðir með nýjustu útgáfu af CCOs. Það ætti einnig að hafa í huga að, almenna gæði þjónustuhluta eru breytileg.
 
 ### <a name="windows"></a>Gluggar
 
@@ -137,7 +136,7 @@ Prentun á kvittun á POS er bestuð fyrir OPOS. OPOS hættir til að vera miki�
 - Tæki sem eru tengd gegnum prentara ("daisy-chained") virka hugsanlega ekki rétt þegar Windows-reklar eru notaðir. Til dæmis opnast peningaskúffa hugsanlega ekki eða prentari fylgiseðils virkar hugsanlega ekki eins og búist er við.
 - OPOS styður einnig yfirgripsmeiri safn af breytum sem tengjast kvittanaprentara smásölu, eins og prentun fylgiseðla eða klipping pappír.
 
-Ef OPOS-stýringar eru tiltækar fyrir Windows-prentara sem verið er að nota ætti prentarinn samt að virka með Microsoft Dynamics 365 for Retail.
+Ef OPOS-stýringar eru tiltækar fyrir Windows-prentara sem verið er að nota ætti prentara samt að virka rétt með Microsoft Dynamics 365 for Retail.
 
 ### <a name="universal-windows-platform"></a>Universal Windows Platform
 
@@ -191,7 +190,7 @@ Merki net fyrir tæki vélbúnaðarreglunni auðveldar að peningaskúffur, kvit
 
 Hægt er að tilgreina IP-tölur fyrir netjaðarbúnað á tveimur stöðum. Ef Modern POS Windows-biðlari notar eina samstæðu af netjaðartækja ætti að setja upp IP-tölur fyrir þau tæki með því að nota valkostinn **Grunnstilling IP-tölu** í Aðgerðarúðunni fyrir sjálfan afgreiðslukassann. Í tilviki nettækja sem verða samnýtt milli afgreiðslukassa er hægt að varpa vélbúnaðarreglu sem hefur nettæki úthlutað beint í samnýtta vélbúnaðarstöð. Til að úthluta IP-tölum, veljið þá vélbúnaðarstöð á síðunni **Smásöluverslanir** og nota síðan valkostinn **Grunnstilling IP-tölu** í hlutanum **Vélbúnaðarstöðvar** til að tilgreina nettæki sem eru úthlutaðar þeirri vélbúnaðarstöð. Fyrir vélbúnaðarstöðvar sem hafa aðeins nettæki, þarf ekki að virkja vélbúnaðarstöð sjálfa. Í þessu tilfelli er vélbúnaðarstöð smásölu aðeins áskilið til að flokka í raun netslóðartengd tæki eftir staðsetningu þeirra í smásöluverslunar.
 
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>Cloud POS, Modern POS fyrir iOS og Modern POS fyrir Android
+#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>Cloud POS, Modern POS for iOS, og Modern POS fyrir Android
 
 Rökin sem keyrir efnislega tengda og netléntengd jaðartæki eru geymd í vélbúnaðarstöð smásölu. Þess vegna fyrir alla biðlara POS nema Modern POS fyrir Windows vélbúnaðarstöð við IIS verður að vera virkjuð og virka til að virkja POS til samskipta við jaðartæki, óháð því hvort þau jaðartæki eru efnislega tengdir vélbúnaðarstöð eða sendur hann á neti.
 
@@ -203,7 +202,7 @@ Nánari upplýsingar er að finna í [Skilgreining og uppsetning vélbúnaðarst
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Uppsetning og skilgreining á Modern POS fyrir Windows
 
-Nánari upplýsingar er að finna í [Skilgreining og uppsetning á Retail Modern Pos](retail-modern-pos-device-activation.md).
+Nánari upplýsingar er að finna í [Retail Modern POS skilgreining og uppsetning](retail-modern-pos-device-activation.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>Uppsetning og skilgreining á OPOS-tæki
 
@@ -223,7 +222,7 @@ Eftirfarandi tafla sýnir grannfræði og virkjun aðstæður sem eru studdar.
 | Biðlari      | IPC vélbúnaðarstöð | IIS vélbúnaðarstöð |
 |-------------|----------------------|----------------------|
 | Windows-forrit | Já                  | Já                  |
-| Cloud POS   | Ekkert                   | Já                  |
+| Sölustaður í skýi   | Ekkert                   | Já                  |
 | Android     | Ekkert                   | Já                  |
 | iOS         | Ekkert                   | Já                  |
 
@@ -234,7 +233,7 @@ Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásöl
 | Biðlari      | IPC vélbúnaðarstöð | IIS vélbúnaðarstöð |
 |-------------|----------------------|----------------------|
 | Windows-forrit | Já                  | Já                  |
-| Cloud POS   | Ekkert                   | Já                  |
+| Sölustaður í skýi   | Ekkert                   | Já                  |
 | Android     | Ekkert                   | Já                  |
 | iOS         | Ekkert                   | Já                  |
 
@@ -296,7 +295,7 @@ Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásöl
 <ul>
 <li>OPOS</li>
 <li>Net
-<blockquote>[!NOTE] Aðeins er hægt að setja upp eina skúffu ef <strong>Nota samnýtta vakt</strong> er skilgreint í skúffu.</blockquote>
+<blockquote>ATHUGIÐ: Aðeins er hægt að setja upp eina skúffu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</blockquote>
 </li>
 </ul>
 </td>
@@ -307,7 +306,7 @@ Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásöl
 <ul>
 <li>OPOS</li>
 <li>Net
-<blockquote>[!NOTE] Aðeins er hægt að setja upp eina skúffu ef <strong>Nota samnýtta vakt</strong> er skilgreint í skúffu.</blockquote>
+<blockquote>ATHUGIÐ: Aðeins er hægt að setja upp eina skúffu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</blockquote>
 </li>
 </ul>
 </td>
@@ -375,7 +374,7 @@ Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásöl
 <ul>
 <li>OPOS</li>
 <li>Windows-rekill
-<blockquote>[!NOTE] Fyrir Windows prentara á neti verður notandi vélbúnaðarstöðvar að hafa heimild til að nota prentarann.</blockquote>
+<blockquote>ATHUGIÐ: Fyrir Windows prentara á neti verður notandi vélbúnaðarstöðvar að hafa heimild til að nota prentarann.</blockquote>
 </li>
 <li>Net</li>
 </ul>
@@ -405,7 +404,7 @@ Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásöl
 <ul>
 <li>OPOS</li>
 <li>Net
-<blockquote>[!NOTE] Aðeins er hægt að setja upp eina skúffu á vélbúnaðarreglu ef <strong>Nota samnýtta vakt</strong> er skilgreind í skúffu.</blockquote>
+<blockquote>ATHUGIÐ: Aðeins er hægt að setja upp eina skúffu á vélbúnaðarreglu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</blockquote>
 </li>
 </ul>
 </td>
@@ -470,7 +469,7 @@ Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásöl
 <ul>
 <li>OPOS</li>
 <li>Windows-rekill
-<blockquote>[!NOTE] Fyrir Windows prentara á neti verður notandi vélbúnaðarstöðvar að hafa heimild til að nota prentarann.</blockquote>
+<blockquote>ATHUGIÐ: Fyrir Windows prentara á neti verður notandi vélbúnaðarstöðvar að hafa heimild til að nota prentarann.</blockquote>
 </li>
 <li>Net</li>
 </ul>
@@ -492,7 +491,7 @@ Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásöl
 <ul>
 <li>OPOS</li>
 <li>Net
-<blockquote>[!NOTE] Aðeins er hægt að setja upp eina skúffu á vélbúnaðarreglu ef <strong>Nota samnýtta vakt</strong> er skilgreind í skúffu.</blockquote>
+<blockquote>ATHUGIÐ: Aðeins er hægt að setja upp eina skúffu á vélbúnaðarreglu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</blockquote>
 </li>
 </ul>
 </td>
@@ -564,7 +563,7 @@ Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [S
 5. Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
 6. Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
 7. Setja upp vélbúnaðarstöð. Nánari upplýsingar um hvernig á að setja upp vélbúnaðarstöð er að finna í [Uppsetningu og skilgreiningu á vélbúnaðarstöð smásölu](retail-hardware-station-configuration-installation.md).
-8. Setja upp og virkja Modern POS. Nánari upplýsingar um hvernig á að setja upp Modern POS er að finna í [Uppsetningu og skilgreiningu á Retail Modern POS](retail-modern-pos-device-activation.md).
+8. Setja upp og virkja Modern POS. Nánari upplýsingar um hvernig á að setja upp Modern POS er að finna í [Retail Modern POS Uppsetningu og skilgreining](retail-modern-pos-device-activation.md).
 9. Innskráning á Modern POS og veljið **Framkvæma aðgerðir utan skúffu**.
 10. Byrja á **Stjórna vélbúnaðarstöðvar** aðgerð.
 11. Smellið á **Stjórna**.
@@ -593,7 +592,7 @@ Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [S
 6. Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
 7. Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
 8. Setja upp vélbúnaðarstöð á hverri hýsitölvu sem sett er upp í skrefum 2 og 3. Nánari upplýsingar um hvernig á að setja upp vélbúnaðarstöð er að finna í [Uppsetningu og skilgreiningu á vélbúnaðarstöð smásölu](retail-hardware-station-configuration-installation.md).
-9. Setja upp og virkja Modern POS. Nánari upplýsingar um hvernig á að setja upp Modern POS er að finna í [Uppsetningu og skilgreiningu á Retail Modern POS](retail-modern-pos-device-activation.md).
+9. Setja upp og virkja Modern POS. Nánari upplýsingar um hvernig á að setja upp Modern POS er að finna í [Retail Modern POS Uppsetningu og skilgreining](retail-modern-pos-device-activation.md).
 10. Innskráning á Modern POS og veljið **Framkvæma aðgerðir utan skúffu**.
 11. Byrja á **Stjórna vélbúnaðarstöðvar** aðgerð.
 12. Smellið á **Stjórna**.
@@ -743,7 +742,6 @@ Eftirfarandi jaðartæki voru prófuð með því að nota sérhæfða (ekki sam
 | Epson        | TM-T88V  | OPOS      |                           |
 | Star         | TSP650II | OPOS      |                           |
 | Star         | TSP650II | Sérsniðinn    | Tengt gegnum netkerfi     |
-| Star         | TSP100   | OPOS      | Krefst TSP650II-rekla |
 | HP           | F7M67AA  | OPOS      | Rafhlöðu USB               |
 
 #### <a name="bar-code-scanner"></a>Strikamerkjaskanni
@@ -818,7 +816,6 @@ Eftirfarandi jaðartæki voru prófuð með því að nota samnýtta (ekki sérh
 | Epson        | TM-T88V  | OPOS      |                           |
 | Star         | TSP650II | OPOS      |                           |
 | Star         | TSP650II | Sérsniðinn    | Tengt gegnum netkerfi     |
-| Star         | TSP100   | OPOS      | Krefst TSP650II-rekla |
 | HP           | F7M67AA  | OPOS      | Rafhlöðu USB               |
 
 #### <a name="payment-terminal"></a>Greiðslustöð
@@ -845,7 +842,7 @@ Eftirfarandi jaðartæki voru prófuð með því að nota samnýtta (ekki sérh
 - Tölvan sem keyrir Modern POS treystir skírteini sem er notað er á tölvunni sem keyrir vélbúnaðarstöðina.
 
     - Til að sannreyna þessa uppsetningu í vefvafra skal fara á eftirfarandi slóð: `https://<Computer Name>:<Port Number>/HardwareStation/ping`.
-    - Þessi SLÓÐ notar ping-boð til að staðfesta að hægt sé að fara í tölvuna og vafrinn gefur til kynna hvort skírteininu sé treyst. (Til dæmis í Internet Explorer birtist lástáknið í aðseturslínunni. Þegar smellt er á þetta tákn staðfestir Internet Explorer hvort skírteininu sé treyst eins og stendur. Hægt er að setja skírteinið upp á staðbundnu tölvunni með því að skoða upplýsingar um skírteinið sem birtast.)
+    - Þessi SLÓÐ notar ping-boð til að staðfesta að hægt sé að fara í tölvuna og vafrinn gefur til kynna hvort skírteininu sé treyst. (Til dæmis birtist lástáknið í Internet Explorer á veffangastikunni. Þegar smellt er á þetta tákn staðfestir Internet Explorer hvort skírteininu sé treyst eins og stendur. Hægt er að setja skírteinið upp á staðbundnu tölvunni með því að skoða upplýsingar um skírteinið sem birtast.)
 
 - Á tölvunni sem keyrir vélbúnaðarstöðina er tengið sem verður notað af vélbúnaðarstöðinni opinn í eldvegg.
 - Vélbúnaðarstöðin hefur rétt sett upp upplýsingar söluaðila með verkfærinu Setja upp upplýsingar um söluaðila sem keyrist við lok uppsetningarforrits vélbúnaðarstöðvar.
@@ -894,4 +891,3 @@ Eftirfarandi jaðartæki voru prófuð með því að nota samnýtta (ekki sérh
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Smásölujaðarbúnaðarhermir](dev-itpro/retail-peripheral-simulator.md)
-

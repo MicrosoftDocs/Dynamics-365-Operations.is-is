@@ -1,13 +1,13 @@
---- 
-title: "Rafræn skýrslugerð Hlaða upp skilgreiningu í Lifecycle Services"
-description: "Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stofnað skilgreiningarsnið fyrir rafræna skýrslugerð (ER) og hlaða upp í Microsoft Lifecycle Services (LCS)."
+---
+title: Rafræn skýrslugerð Hlaða upp skilgreiningu í Lifecycle Services
+description: Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stofnað skilgreiningarsnið fyrir rafræna skýrslugerð (ER) og hlaða upp í Microsoft Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 19ae8820e5d4a798a5789e9632edb431fe9fede4
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335095"
 ---
 # <a name="er-upload-a-configuration-into-lifecycle-services"></a>Rafræn skýrslugerð Hlaða upp skilgreiningu í Lifecycle Services
 
@@ -93,6 +93,5 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þr
 10. Smellt er á Opin.
     * Velja lcs-gagnasafn og opna hana.  
     * Athugið að valin skilgreining er sýnd sem eign valins LCS verks.  
-    * Opna LCS með https://lcs.dynamics.com. Opna verkið sem var notuð áður til skráningar gagnasafns, opna 'eignasafni' þessa verks og útvíkka innihald eignagerðarinnar 'GER skilgreining' – upphlaðin skilgreining Rafrænnar skýrslugerðar verða tiltæk. Athugaðu að upphalaðri LCS skilgreiningu er hægt að flytja inn í annað tilvik af Microsoft Dynamics Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition ef veiturnar hafa aðgang að þessu LCS verkinu.  
-
+    * Opna LCS með https://lcs.dynamics.com. Opna verkið sem var notuð áður til skráningar gagnasafns, opna 'eignasafni' þessa verks og útvíkka innihald eignagerðarinnar 'GER skilgreining' – upphlaðin skilgreining Rafrænnar skýrslugerðar verða tiltæk. Athugaðu að upphalaðri LCS skilgreiningu er hægt að flytja inn í annað tilvik Microsoft Dynamics 365 for Finance and Operations Enterprise edition ef veiturnar hafa aðgang að þessu LCS verkinu.  
 

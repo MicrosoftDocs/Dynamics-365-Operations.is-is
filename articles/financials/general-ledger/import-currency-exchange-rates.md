@@ -1,13 +1,13 @@
 ---
-title: "Gengi innflutningsgjaldmiðils"
-description: "Ef lögaðili hefur móttekið reikningur í erlendum gjaldmiðli er nauðsynlegt að umreikna erlendan gjaldmiðil í staðbundinn gjaldmiðill. Þetta þýðir að nýjasta gengi mismunandi gjaldmiðla er áskilið. Þetta umfjöllunarefni veitir yfirlit yfir áskilið stillingar og ferli fyrir innflutningur tilvísana í gengi erlendra gjaldmiðla sem birt er á netinu af gengisveitum, svo sem Seðlabanki Evrópu og og Seðlabanki Rússlands."
+title: Gengi innflutningsgjaldmiðils
+description: Ef lögaðili hefur móttekið reikningur í erlendum gjaldmiðli er nauðsynlegt að umreikna erlendan gjaldmiðil í staðbundinn gjaldmiðill. Þetta þýðir að nýjasta gengi mismunandi gjaldmiðla er áskilið. Þetta umfjöllunarefni veitir yfirlit yfir áskilið stillingar og ferli fyrir innflutningur tilvísana í gengi erlendra gjaldmiðla sem birt er á netinu af gengisveitum, svo sem Seðlabanki Evrópu og og Seðlabanki Rússlands.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: edd72b48a640126577dd7a2add3a4891ae505fdf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: df07066371cb7d9c69976c9714b6d2fe456a0308
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333393"
 ---
-
 # <a name="import-currency-exchange-rates"></a>Gengi innflutningsgjaldmiðils
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ Eftirfarandi kaflar lýsa flæði upplýsinga sem er notað til að setja upp og
 | **Stofna nauðsynleg gjaldmiðilspör**    | This gátreitur stjórnar sjálfvirk stofnun gjaldmiðilspara, ef gjaldmiðill para sem eru flutt inn er ekki til. Þessi valkostur er hugsanlega ekki í boði fyrir einhverjar veitur.                                                                                                                                                                                               |
 | **Hnekkja fyrirliggjandi gengi**   | Þessi gátreitur stjórnar uppfærslu fyrirliggjandi gengis fyrir gjaldmiðilspar þegar gengi fyrir tiltekna dagsetningu er þegar til. Ef þessi gátreitur er ekki valinn verður gengi fyrir tilgreindar dagsetningar ekki flutt inn ef annað gengi er þegar til.                                                                                       |
 | **Koma í veg fyrir innflutning á þjóðhátíðardegi** | Þessi gátreitur stjórnar innflutningi á gengi fyrir dagsetningu sem er þjóðhátíðardagur. Til dæmis, ef þú velur þennan gátreit og notar Seðlabanki Evrópu sem gengisveitur mun kerfið ekki uppfæra gengið á þjóðhátíðardegi sem tengist núverandi lögaðila. Þessi valkostur er hugsanlega ekki í boði fyrir einhverjar veitur. |
-
 
 
 

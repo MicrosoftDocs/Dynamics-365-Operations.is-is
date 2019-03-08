@@ -1,13 +1,13 @@
 ---
-title: "Úthlutunaraðferð heildarkostnaðar"
-description: "Þetta efnisatriði veitir leiðbeiningar fyrir notkun á Heildarúthlutun kostnaðar (TCA). Heildarúthlutun kostnaðar er aðferð til að reikna kostnað á milli mælieiningar aðalformúluvöru fyrir runupöntun og aukaafurða sem skilgreindar eru fyrir formúluna."
+title: Úthlutunaraðferð heildarkostnaðar
+description: Þetta efnisatriði veitir leiðbeiningar fyrir notkun á Heildarúthlutun kostnaðar (TCA). Heildarúthlutun kostnaðar er aðferð til að reikna kostnað á milli mælieiningar aðalformúluvöru fyrir runupöntun og aukaafurða sem skilgreindar eru fyrir formúluna.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cda1c5251b81a3bb73d4d8703d7c3fa1ab4e9c16
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4f3d75411e8c99365f1aba8214c78e93b4741871
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341581"
 ---
-
 # <a name="total-cost-allocation-method"></a>Úthlutunaraðferð heildarkostnaðar
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ Hér eru nokkrar leiðbeiningar fyrir notkun heildarúthlutunar kostnaðar fyrir
 -   **Prósent** ─ Kostnaðarupphæðin er reiknuð sem prósenta af heildarkostnaði hráefnis sem er notað í framleiðslunni. Prósentugildi sem nota á við útreikning er slegið inn í svæðið.
 -   **Á röð** ─ Kostnaðarupphæðin er reiknuð sem upphæð á staðlaða runustærð framleiðslupöntunar. Þessi upphæð er óháð skráðu magni í framleiðslunni. Upphæðin sem nota á við útreikning er slegin inn í svæðið.
 -   **Á magn** ─ Kostnaðarupphæðin er reiknuð sem upphæð á skráð magn formúluvöru í framleiðslu. Upphæðin sem nota á við útreikning er slegin inn í svæðið.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "endurmat á erlendum gjaldmiðli fyrir fjárhag"
-description: "Í þessu efnisatriði gefur yfirlit yfir eftirfarandi ferli endurmat á erlendum gjaldmiðli fjárhags: uppsetningu keyra ferlið útreikning fyrir ferli og hvernig á að bakfæra færslur endurmat, ef þörf krefur."
+title: endurmat á erlendum gjaldmiðli fyrir fjárhag
+description: 'Í þessu efnisatriði gefur yfirlit yfir eftirfarandi ferli endurmat á erlendum gjaldmiðli fjárhags: uppsetningu keyra ferlið útreikning fyrir ferli og hvernig á að bakfæra færslur endurmat, ef þörf krefur.'
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bb04c5a9e7db1a6c6a8d8c7126bfa80208d1fd53
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f967854e9a39c7b2d76559744bbc1e16a53d7f6a
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315545"
 ---
-
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>endurmat á erlendum gjaldmiðli fyrir fjárhag
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ Eftirfarandi lykilfærslu er stofnuð.
 Ef nauðsynlegt er að bakfæra endurmatsfærsluna velja **Bakfæra færslu** hnappinn á **endurmat á Erlendum gjaldmiðli** síðu. Ný Erlendum gjaldmiðli endurmat söguleg færsla stofnuð til að viðhalda sögulegum endurskoðunarslóð þegar endurmatsins átti sér stað eða var bakfærð. 
 
 Hægt er að bakfæra Niðurstöður endurmat í rangri dagsetningaröð, en það gæti þurft að bakfæra einnig nýrra endurmat til að tryggja rétta stöðu fyrir hvern endurmetinn aðallykil. Bakfærslur geta orðið í rangri dagsetningaröð þar sem það er engin leið til að stjórna hvaða aðallyklar eru endurmetni og tíðni þegar endurmetnað. Til dæmis fyrirtæki gæti ákveðið að endurmeta þeirra reiðufé aðallykla ársfjórðungslega, en allar aðrar aðallykla mánaðarlega.
-
 
 
 

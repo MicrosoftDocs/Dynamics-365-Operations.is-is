@@ -1,13 +1,13 @@
 ---
-title: "Uppfæra fjárhagsáætlunargerð"
-description: "Það er verulegur mismunur á fjárhagsáætlunargerð milli Microsoft Dynamics AX 2012 og Microsoft Dynamics 365 for Finance and Operations. Sumir eiginleika voru ekki uppfærðir og þurfa þess vegna að vera stilltir aftur. Í þessu efnisatriði er útskýrt hvað verður að vera endurstillt og er einnig lýst nýjum aðgerðum sem ætti að líta á eftir að uppfærslu er lokið."
+title: Uppfæra fjárhagsáætlunargerð
+description: Það er verulegur mismunur á fjárhagsáætlunargerð milli Microsoft Dynamics AX 2012 og Microsoft Dynamics 365 for Finance and Operations. Sumir eiginleika voru ekki uppfærðir og þurfa þess vegna að vera stilltir aftur. Í þessu efnisatriði er útskýrt hvað verður að vera endurstillt og er einnig lýst nýjum aðgerðum sem ætti að líta á eftir að uppfærslu er lokið.
 author: ryansandness
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 3d57419ca5c59be185c87b869302b41bef05a3c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a39f516bb6d023ea18492ba3dfe721bd1127c60e
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342961"
 ---
-
 # <a name="upgrade-budget-planning"></a>Uppfæra fjárhagsáætlunargerð
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ Margar verulegar breytingar hafa verið gerðar í Fjárhagsáætlun fyrir Finan
 -   Skorðun á aðstæðum (Skilgreining fjárhagsáætlunargerðar)
 -   Sniðmát fyrir stigsreglur fjárhagsáætlunargerðar og sniðmát (Ferli fjárhagsáætlunargerðar)
 -   Fylkjasvæði fyrir vinnublaðssniðmát
--   Leiðsagnarforrit fyrir Microsoft Office Excel-fjárhagsáætlun
+-   Microsoft Excel-leiðsagnarforrit sniðmáts fyrir fjárhagsáætlun
 
 Ekki er hægt að uppfæra nokkur ný hugtök úr fyrri virkni. Þess vegna þarf að ljúka sumum endurstillingum vegna þessara nýju hugtaka. Eftirfarandi kaflar lýsa til hugtökunum sem hefur verið skipt út fyrir atriði í fyrri lista.
 
@@ -51,7 +50,7 @@ Dálkar eru nýtt hugtak sem kemur í stað hluta af Excel-sniðmáti og einnig 
 
 ### <a name="layouts"></a>Útlit
 
-Útlit eru nýtt hugtak sem koma í stað Excel-sniðmáts. Útlit innihalda dálka sem skilgreina hvaða áætlun eða raungögn og tímabil skuli birta. Útlit eru einnig samnýtt á milli biðlarans og Excel-innbótarinnar. Þar af leiðandi er upplifuninin þegar gögn eru færð inn eða skoðuð í Finance and Operations biðlara betri en í AX 2012. Til að færa inn gögn í Finance and Operations biðlara er ekki eingöngu takmarkað við að skoða og færa inn eitt dæmi í færsluskjá. Þess í stað gerir samanburðarskjár það mögulegt að skoða og slá inn upphæðir fyrir fjölda tímabila og lykla á sama tíma. Einnig er hægt að skilgreina útlit þannig að hægt er að færa inn og skoða gjaldmiðil, athugasemdir og önnur valfrjáls gögn. Útlit gera þér einnig kleift að skilgreina hvaða fjárhagsvíddir og lýsingarvíddir skuli birta. Útlit innihalda einnig skorður til að tilgreina hvaða dálka í sniðmáti er hægt að breyta og hvaða dálkar eigi að vera tiltækir í Excel. Þegar búið er að skilgreina útlit er sniðmát búið til fyrir það. Þessi sniðmát stofnar samsvarandi Excel sniðmátið. Síðan er hægt að breyta Excel sniðmátinu sem á að innihalda fleiri formúlur og snið og senda það aftur. Útlitum er svo úthlutað á hverja stigsreglu á síðunni **Ferli fjárhagsáætlunargerðar**. Þess vegna eru útlitum skipt út fyrir sniðmát, sem var úthlutað og notuð svipaðan hátt.
+Útlit eru nýtt hugtak sem koma í stað Excel-sniðmáts. Útlit innihalda dálka sem skilgreina hvaða áætlun eða raungögn og tímabil skuli birta. Útlit eru einnig samnýtt á milli biðlarans og Excel-innbótarinnar. Þar af leiðandi er upplifunin þegar gögn eru færð inn eða skoðuð í Finance and Operations biðlara betri en í AX 2012. Til að færa inn gögn í Finance and Operations biðlara er ekki eingöngu takmarkað við að skoða og færa inn eitt dæmi í færsluskjá. Þess í stað gerir samanburðarskjár það mögulegt að skoða og slá inn upphæðir fyrir fjölda tímabila og lykla á sama tíma. Einnig er hægt að skilgreina útlit þannig að hægt er að færa inn og skoða gjaldmiðil, athugasemdir og önnur valfrjáls gögn. Útlit gera þér einnig kleift að skilgreina hvaða fjárhagsvíddir og lýsingarvíddir skuli birta. Útlit innihalda einnig skorður til að tilgreina hvaða dálka í sniðmáti er hægt að breyta og hvaða dálkar eigi að vera tiltækir í Excel. Þegar búið er að skilgreina útlit er sniðmát búið til fyrir það. Þessi sniðmát stofnar samsvarandi Excel sniðmátið. Síðan er hægt að breyta Excel sniðmátinu sem á að innihalda fleiri formúlur og snið og senda það aftur. Útlitum er svo úthlutað á hverja stigsreglu á síðunni **Ferli fjárhagsáætlunargerðar**. Þess vegna eru útlitum skipt út fyrir sniðmát, sem var úthlutað og notuð svipaðan hátt.
 
 ### <a name="budget-planning-processes"></a>Ferli fjárhagsáætlunargerðar
 
@@ -160,7 +159,6 @@ Nokkrum gagnaeiningum hefur verið bætt við til að virkja skjót innleiðingu
 -   Forgangur fjárhagsáætlunargerðar
 -   Fjárhagsáætlunardálkar
 -   Fjárhagsáætlunarútlitseiningar
-
 
 
 

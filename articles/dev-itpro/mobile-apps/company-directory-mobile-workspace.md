@@ -1,13 +1,13 @@
 ---
-title: "Fartækjavinnusvæði fyrir skráasafn fyrirtækis"
-description: "Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæði fyrir skráasafn fyrirtækis, sem gerir notendum kleift að skoða og hafa samband við aðra starfsmenn í fyrirtækinu."
+title: Fartækjavinnusvæði fyrir skráasafn fyrirtækis
+description: Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæði fyrir skráasafn fyrirtækis, sem gerir notendum kleift að skoða og hafa samband við aðra starfsmenn í fyrirtækinu.
 author: jcart1106
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: 527d40452bcf52875e3f7b04d328110147417072
-ms.contentlocale: is-is
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308622"
 ---
-
 # <a name="company-directory-mobile-workspace"></a>Fartækjavinnusvæði fyrir skráasafn fyrirtækis
 
 [!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Skráasafn fyrirtækis**. Þetta vinnusvæði gerir notendum kleift að sjá og hafa samband við annað starfsfólk í fyrirtækinu.
 
-Þetta fartækjavinnusvæði má nota með fartækjaforritinu Microsoft Dynamics 365 for Unified Operations.
+Þetta fartækjavinnusvæði er hægt að nota með Microsoft Dynamics 365 fyrir Unified Operations Mobile.
 
 ## <a name="overview"></a>Yfirlit
 Fartækjavinnusvæðið **Skráasafn fyrirtækis** gerir notendum kleift að vinna eftirtalin verkefni:
@@ -58,7 +57,7 @@ Fartækjavinnusvæðið **Skráasafn fyrirtækis** gerir notendum kleift að vin
 </ul>
 </td>
 <td>Kerfisstjóri</td>
-<td>Ef Finance and Operations hefur ekki þegar verið innleitt í fyrirtækið skal sjá <a href="../deployment/deploy-demo-environment.md">Innleiða sýniútgáfuumhverfi</a>. Ef Talent hefur ekki þegar verið innleitt í fyrirtækið getur kerfisstjórinn fengið aðgang að prufuútgáfu á <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent vefsíðunni</a>.
+<td>Ef Finance and Operations hefur ekki þegar verið innleitt í fyrirtækið skal sjá <a href="../deployment/deploy-demo-environment.md">Innleiða sýniútgáfuumhverfi</a>.&#39; Ef Talent hefur ekki þegar verið innleitt í fyrirtækið getur kerfisstjórinn fengið aðgang að prufuútgáfu á <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent vefsíðunni</a>.&#39;
 </td>
 </tr>
 <tr class="even">
@@ -91,4 +90,3 @@ Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
 1.  Veljið vinnusvæðið **Skráasafn fyrirtækis** í fartækjaforritinu.
 2.  Í reitnum **Leit** skal færa inn skírnarnafn og föðurnafn starfsmanns, titil eða deild til að hefja leit.
 3.  Velja starfsmann. Síðan **Forstilling starfsmanns** birtist. Á meðal upplýsinga á þessari síðu eru skírnarnafn og föðurnafn starfsmanns, titill og deild.
-

@@ -1,13 +1,13 @@
 ---
-title: "Fartækjavinnusvæði fyrir Minn hópur"
-description: "Þetta efnisatriði gefur upplýsingar um fartækjavinnusvæði fyrir minn hóp sem leyfir stjórnendum að skoða beinar skýrslur þeirra og starfsfólks. Notendur geta einnig sent hrós til einstaklinga í skýrslukeðju sinni."
+title: Fartækjavinnusvæði fyrir Minn hópur
+description: Þetta efnisatriði gefur upplýsingar um fartækjavinnusvæði fyrir minn hóp sem leyfir stjórnendum að skoða beinar skýrslur þeirra og starfsfólks. Notendur geta einnig sent hrós til einstaklinga í skýrslukeðju sinni.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: fccbedea611228cc57531c89406f72a6664153c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d049c55a40761d0663e3d558b47b4840e5db9bf1
-ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346917"
 ---
-
 # <a name="my-team-mobile-workspace"></a>Fartækjavinnusvæði fyrir Minn hópur
 
 [!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Minn hópur**. Þessi vinnusvæði gerir stjórnendum kleift að skoða beinar skýrslur og starfsfólk. Þeir geta einnig sent hrós til einstaklinga í skýrslukeðju sinni.
 
-Þetta fartækjavinnusvæði er ætlað til notkunar með fartækjaforritinu Microsoft Dynamics 365 for Unified Operations.
+Þetta fartækjavinnusvæði er ætlað til að nota með Microsoft Dynamics 365 fyrir farsímaforritið Unified Operations Mobile.
 
 ## <a name="overview"></a>Yfirlit 
 Fartækjavinnusvæðið **Minn hópur** gerir stjórnendum kleift að vinna eftirtalin verkefni:
@@ -58,7 +57,7 @@ Fartækjavinnusvæðið **Minn hópur** gerir stjórnendum kleift að vinna efti
 </ul>
 </td>
 <td>Kerfisstjóri</td>
-<td>Ef Finance and Operations hefur ekki þegar verið innleitt í fyrirtækið skal sjá <a href="../deployment/deploy-demo-environment.md">Innleiða sýniútgáfuumhverfi</a>. Ef Talent hefur ekki þegar verið innleitt í fyrirtækið getur kerfisstjórinn fengið aðgang að prufuútgáfu á <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent vefsíðunni</a>.
+<td>Ef Finance and Operations hefur ekki þegar verið innleitt í fyrirtækið skal sjá <a href="../deployment/deploy-demo-environment.md">Innleiða sýniútgáfuumhverfi</a>.&#39; Ef Talent hefur ekki þegar verið innleitt í fyrirtækið getur kerfisstjórinn fengið aðgang að prufuútgáfu á <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent vefsíðunni</a>.&#39;
 </td>
 </tr>
 <tr class="even">
@@ -99,4 +98,3 @@ Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
 1.  Veldu **Senda hrós**. 
 1. Sláðu inn texta hróssins sem þú vilt senda. 
 1. Velja **Ekkert**.
-

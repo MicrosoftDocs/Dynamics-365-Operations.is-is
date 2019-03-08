@@ -1,13 +1,13 @@
 ---
-title: "Skjáútlit fyrir sölustað (POS)"
-description: "Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás fyrir Microsoft Dynamics 365 for Operations - Retail sölustaður (POS) upplifun."
+title: Skjáútlit fyrir sölustað (POS)
+description: Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás fyrir Microsoft Dynamics 365 for Retail sölustaður (POS) upplifun.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
-ms.contentlocale: is-is
-ms.lasthandoff: 11/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321893"
 ---
-
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Skjáútlit fyrir sölustað (POS)
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás fyrir Microsoft Dynamics 365 for Operations - Retail sölustaður (POS) upplifun.
+Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás fyrir Microsoft Dynamics 365 for Retail sölustaður (POS) upplifun.
 
 Hægt er að grunnstilla Smásölu POS notendaviðmótið (UI) með því að nota blöndu af sjónrænum forstillingum og skjáútliti sem eru úthlutað til verslunum, afgreiðslukassa og/eða notendum.
 
@@ -194,4 +193,3 @@ Hnappahnit hönnuður gerir þér kleift að grunnstilla hnappahnit sem hægt er
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Uppsetning útlitshönnunarbúnaðar Retail POS](install-pos-layout-designer.md)
-

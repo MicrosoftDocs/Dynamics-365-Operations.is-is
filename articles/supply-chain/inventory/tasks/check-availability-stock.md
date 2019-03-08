@@ -1,27 +1,27 @@
---- 
-title: "Athuga framboð birgðaframboð"
-description: "Þessi ferli sýnir hvernig athuga birgðir á lager og efnislegar lagerbirgðir fyrir ákveðið vörunúmer."
+---
+title: Athuga framboð birgðaframboð
+description: Þessi ferli sýnir hvernig athuga birgðir á lager og efnislegar lagerbirgðir fyrir ákveðið vörunúmer.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventOnHandItemListPage, SysQueryForm, InventDimParmFixed, InventSupply, DefaultDashboard, WHSInventPhysicalOnhand, WHSOnHand
 audience: Application User
-ms.reviewer: 
+ms.reviewer: ''
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 26a8f51eda1f4249862a23fa0103b7a144d974a1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 62338fe11c30781f264e626fad835a2ba9dca837
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337993"
 ---
 # <a name="check-the-availability-of-stock"></a>Athuga framboð birgðaframboð
 
@@ -67,5 +67,4 @@ ms.lasthandoff: 09/29/2017
 4. Smellt er á Sýna víddir.
 5. Smellið á „Í lagi“.
 6. Lokið síðunni.
-
 

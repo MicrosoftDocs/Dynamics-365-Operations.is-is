@@ -1,13 +1,13 @@
 ---
-title: "Verkefnastjórnun og bókhald"
-description: "Hægt er að nota virkni verkefnastjórnunar og bókhalds í mörgum atvinnugreinum til að veita þjónustu, framleiða vöru, eða ná ákveðinni niðurstöðu."
+title: Verkefnastjórnun og bókhald
+description: Hægt er að nota virkni verkefnastjórnunar og bókhalds í mörgum atvinnugreinum til að veita þjónustu, framleiða vöru, eða ná ákveðinni niðurstöðu.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c21587499a68143d403760ad32bea65948d7fbc9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: e927e45511c5e6c232457a76b2d1fab160fe0f5a
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311336"
 ---
-
 # <a name="project-management-and-accounting"></a>Verkefnastjórnun og bókhald
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ Hægt er að nota virkni verkefnastjórnunar og bókhalds í mörgum atvinnugrei
 
 [![Verk yfir atvinnugreinar](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Í símaveri er hægt að nota miða til að lýsa safni aðgerða sem eru nauðsynlegar til að leysa símtal. Ráðgjafarfyrirtæki, eins og stjórnunarfyrirtæki eða tækniráðgjafarfyrirtæki eða auglýsingarstofur, vísa í aðgerðir sínar sem verk. Í markaðssetningu táknar herferð safn vinnu sem verður að vera afhent. Í framleiðslu sem byggir á verki tengist framleiðslupöntun þeirri ólíku vinnu sem þarf að framkvæma til að frameiða sumar fullbúnar vörur. Sama hvaða nafni þau kallast, fela þessi verk í sér tilföng, áætlanir og kostnað, og virkni verkefnastjórnunar og bókhalds í Microsoft Dynamics 365 for Finance and Operations getur aðstoðað við áætlun, framkvæmd og greiningu á þessum verkum.
+Í símaveri er hægt að nota miða til að lýsa safni aðgerða sem eru nauðsynlegar til að leysa símtal. Ráðgjafarfyrirtæki, eins og stjórnunarfyrirtæki eða tækniráðgjafarfyrirtæki eða auglýsingarstofur, vísa í aðgerðir sínar sem verk. Í markaðssetningu táknar herferð safn vinnu sem verður að vera afhent. Í framleiðslu sem byggir á verki tengist framleiðslupöntun þeirri ólíku vinnu sem þarf að framkvæma til að frameiða sumar fullbúnar vörur. Sama hvaða nafni þau kallast, fela þessi verk í sér tilföng, áætlanir og kostnað og virkni verkefnastjórnunar og bókhalds í Microsoft Dynamics 365 for Finance and Operations getur aðstoðað við áætlun, framkvæmd og greiningu á þessum verkum.
 
 ## <a name="project-phases"></a>Áfangar verks
 Þrátt fyrir að eftirfarandi vinnsluflæði sé beint gegn ytri verkum eða verkum sem er lokið fyrir einn eða fleiri viðskiptavini, á virknin einnig við um innri verk sem eru aðeins kostnaðarverk. 
@@ -206,7 +205,7 @@ Hægt er að panta vörur úr birgðum fyrirtækisins til notkunar í verki. Ein
 
 Aðferð sem notuð er þegar vörur eru pantaðar fer eftir því hvaðan þær eru pantaðar:
 
--   Til að panta vörur úr birgðum fyrirtækis verður að færa pöntunina inn sem vöruþörf. Ef nota á síðuna **Vöruþarfir** er hægt að setja upp þarfir þannig að tekið sé á móti vörum sem hlutaafhendingum. Þess vegna er hægt sé að fresta notkun á vörumagni þar til að þörf er fyrir vörurnar.
+-   Til að panta vörur úr birgðum fyrirtækis verður að færa pöntunina inn sem vöruþörf. Ef nota á síðuna **Vöruþarfir** er hægt að setja upp þarfir þannig að tekið sé á móti vörum sem hlutaafhendingum. Þess vegna er hægt sé að fresta notkun á vörumagni þar til að þörf er fyrir vörurnar.
 -   Til að panta vörur frá ytri lánardrottni verður að stofna pöntunina sem innkaupapöntun á síðunni **Innkaupapöntun**.
 
 > [!NOTE] 
@@ -251,7 +250,7 @@ Eftirfarandi tafla lýsir aðferðum til að reikna út kostnað við að ljúka
 <tbody>
 <tr class="odd">
 <td>Heildarkostnaður - Raunverulegur</td>
-<td>Áætlaðan kostnað þarf að færa inn handvirkt. Þegar dálknum <strong>Heildarkostnaður</strong> eða <strong>Heildarmagn</strong> á síðunni <strong>Kostnaðarmat </strong>er lokið er raunkostnaður dreginn frá þeim samtölum sem notandi færði inn. Niðurstaðan er kostnaðurinn við að ljúka verkinu. Yfirleitt er framvinda kostnaðar ekki rakin samkvæmt, til dæmis, fjölda hóteldvala og fæðis sem eru skráðar á hverju tímabili. Í staðinn. Rakning er að öllu jöfnu byggð á samanburði við heildarupphæð áætlaðra klukkustunda. Þessi nálgun krefst ekki spárlíkans og heildarkostnaði eða heildarmagni má breyta handvirkt. Þegar gildi er fært inn í dálkinn <strong>Heildarkostnaður</strong> eða <strong>Heildarmagn</strong> ber Finance and Operations þetta gildi saman við eiginlegar færslur sem eru bókaðar á tímabilinu og lækkar síðan gildið í dálknum <strong>Ólokið magn</strong> eða <strong>Kostnaður við að ljúka</strong>.</td>
+<td>Áætlaðan kostnað þarf að færa inn handvirkt. Þegar dálknum <strong>Heildarkostnaður</strong> eða <strong>Heildarmagn</strong> á síðunni <strong>Kostnaðarmat </strong>er lokið er raunkostnaður dreginn frá þeim samtölum sem notandi færði inn. Niðurstaðan er kostnaðurinn við að ljúka verkinu. Yfirleitt er framvinda kostnaðar ekki rakin samkvæmt, til dæmis, fjölda hóteldvala og fæðis sem eru skráðar á hverju tímabili.&#39; Í staðinn. Rakning er að öllu jöfnu byggð á samanburði við heildarupphæð áætlaðra klukkustunda. Þessi nálgun krefst ekki spárlíkans og heildarkostnaði eða heildarmagni má breyta handvirkt.&#39; Þegar gildi er fært inn í dálkinn <strong>Heildarkostnaður</strong> eða <strong>Heildarmagn</strong> ber Finance and Operations þetta gildi saman við eiginlegar færslur sem eru bókaðar á tímabilinu og lækkar síðan gildið í dálknum <strong>Ólokið magn</strong> eða <strong>Kostnaður við að ljúka</strong>.</td>
 </tr>
 <tr class="even">
 <td>Samtala fjárhagsáætlunar - Raunveruleg</td>
@@ -301,7 +300,7 @@ Byggð á uppsetningu er hægt að spá fyrir sjóðinnstreymis fyrir valið ver
 -   **Verkdagsetning:** 5. mars, 2012.
 -   **Reikningsdagsetning:** 31. mars, 2012. Þessi dagsetning er ákvörðuð byggð á reikningatíðni. Í þessu dæmi er reikningatíðnin stillt á gildandi mánuð. Þess vegna eru allar færslur sem eru bókaðar í marsmánuði reikningsfærðar á síðasta degi mánaðarins.
 -   **Gjalddagi:** 14. Apríl 2012. Þessi dagsetning er ákvörðuð á grundvelli greiðsluskilmála sem voru sett fyrir verkið. Í þessu dæmi er valið greiðsluskilmála 14 daga. Því er 14 dögum bætt við reikningsdagsetninguna að bætast við gjalddaga á 14. apríl 2012.
--   **Áætluð greiðsludagsetning sölu:** 27. Apríl 2012. Þessi dagsetning er reiknuð með því að bæta við fjölda daga í reitinn **Almennir biðdagar** á síðunni **Færibreytur verkefnastjórnunar og bókhalds** við fjölda daga í reitnum **Stakir biðdagar** á síðunni **Verksamningar** og bæta síðan samtölunni við fjölda daga í reitnum **Gjalddagi**. Fyrir þetta dæmi er fært inn **3** í reitinn **Almennir biðdagar** og **10** í reitinn **Stakir biðminnisdagar**. Því er 13 dögum bætt við gjalddagann til að fá út greiðsludag sölu á 27. apríl 2012.
+-   **Áætluð greiðsludagsetning sölu:** 27. Apríl 2012. Þessi dagsetning er reiknuð með því að bæta við fjölda daga í reitinn **Almennir biðdagar** á síðunni **Færibreytur verkefnastjórnunar og bókhalds**  við fjölda daga í reitnum **Stakir biðdagar** á síðunni **Verksamningar** og bæta síðan samtölunni við fjölda daga í reitnum **Gjalddagi**. Fyrir þetta dæmi er fært inn **3** í reitinn **Almennir biðdagar** og **10** í reitinn **Stakir biðminnisdagar**. Því er 13 dögum bætt við gjalddagann til að fá út greiðsludag sölu á 27. apríl 2012.
 
 Almennir biðdagar geta annaðhvort skipt út stökum biðminnisdögum eða verið bætt við staða biðminnisdaga:
 
@@ -316,7 +315,7 @@ Raunverulegt sjóðstreymi er mjög svipað spám, en hægt er að hefja útreik
 
 -   **Reikningsdagsetning:** 2. mars, 2012.
 -   **Gjalddagi:** 16. Mars, 2012. Greiðsluskilmálar eru stilltir á 14 daga.
--   **Áætluð greiðsludagsetning sölu:** 29. mars 2012. Útreikningur felur í sér þrjár almenna biðdaga og 10 staða biðdaga.
+-   **Áætluð greiðsludagsetning sölu:** 29. mars 2012. Útreikningur felur í sér þrjár almenna biðdaga og 10 staka biðdaga.
 
 #### <a name="cost-forecasting"></a>Kostnaðarspár
 
@@ -441,4 +440,3 @@ Hægt er að stofna verkyfirlit til að skoða skyndimynd af framvindu verks. Þ
 -   **Notkun** – Upplýsingar um notkun á vinnustundum, vörum, útgjöldum og launafærslum.
 -   **Reikningur** – Upplýsingar um reikninga og reikningsfærslu á áfangareikning.
 -   **Tímataxti** – Tímataxtar fyrir tíma sem eru bókaðir á tekju- og kostnaðarlykla.
-

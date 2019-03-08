@@ -1,13 +1,13 @@
---- 
-title: "Setja upp fjárhagsbókunarflokkur fyrir virðisaukaskattur"
-description: "Vsk er reiknaður og bókaður á aðallykla sem eru tilgreindar í fjárhagsbókunarflokkur."
+---
+title: Setja upp fjárhagsbókunarflokkur fyrir virðisaukaskattur
+description: Vsk er reiknaður og bókaður á aðallykla sem eru tilgreindar í fjárhagsbókunarflokkur.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 15421da6f325dfee22a303e9fe83a0e72895fa08
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308346"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Setja upp fjárhagsbókunarflokkur fyrir virðisaukaskattur
 
@@ -48,5 +48,4 @@ Vsk er reiknaður og bókaður á aðallykla sem eru tilgreindar í fjárhagsbó
 11. Í svæðinu mál viðskiptavinar, Velja aðallykil til að bóka staðgreiðsluafslátt fyrir Vsk-kóða sem tengist þessum fjárhagsbókunarflokki 
     * Þetta er valfrjálst og ef enginn lykill er færður inn aðallykil á kóðum staðgreiðsluafsláttar verður notuð. Það getur verið gagnlegt að nota mismunandi, lykla eftir Fjárhagsbókunarflokkur ef notaður er bakfærðum vsk á valkost staðgreiðsluafsláttar á Vsk-flokka.  
 12. Smellið á „Vista“.
-
 

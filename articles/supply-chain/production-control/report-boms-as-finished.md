@@ -1,13 +1,13 @@
 ---
-title: "Skrá uppskriftir sem tilbúnar"
-description: "Þessi grein veitir upplýsingar um skráningu uppskrifta sem tilbúnar."
+title: Skrá uppskriftir sem tilbúnar
+description: Þessi grein veitir upplýsingar um skráningu uppskrifta sem tilbúnar.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMReportFinish, BOMReportFinishMax
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a80bda7dd469bc5c07ba0160e5e8c349ed2137fd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 92c594213eea8617d11b56be43e581a461830ba4
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340983"
 ---
-
 # <a name="report-boms-as-finished"></a>Skrá uppskriftir sem tilbúnar
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,6 @@ Eins og fyrri taflan sýnir, telst aðeins vörunúmer COMP afdregið í færslu
 | 1     | RM          | -1       |
 
 Í þessu tilfelli eru tvö stykki á lager fyrir vörunúmer COMP tekin til greina. Hins vegar þar sem þörf er á þremur stykki af vörunúmer FG, er einu stykki af vörunúmer RM einnig nauðsynlegt til að búa til einu viðbótar stykki af COMP.
-
 
 
 

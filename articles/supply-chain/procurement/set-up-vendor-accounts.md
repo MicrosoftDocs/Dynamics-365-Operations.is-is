@@ -1,13 +1,13 @@
 ---
-title: "Setja upp lánardrottnalykla"
-description: "Þetta efnisatriði lýsir gerðir upplýsinga sem þarf að tilgreina þegar þú stofnar nýjan lykil lánardrottins."
+title: Setja upp lánardrottnalykla
+description: Þetta efnisatriði lýsir gerðir upplýsinga sem þarf að tilgreina þegar þú stofnar nýjan lykil lánardrottins.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7653b01a8d5b80d3026a04d9979906d9ddae5d27
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4a20fca7420e7bd546e29278b40046d69a81aac6
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329138"
 ---
-
 # <a name="set-up-vendor-accounts"></a>Setja upp lánardrottnalykla
 
 [!include [banner](../includes/banner.md)]
@@ -67,7 +66,7 @@ Hægt er að stofna tengiliði lánardrottins frá grunni. Einnig er hægt að a
 
 Ekki er hægt að eyða færslu tengiliðar ef vísað er til tengiliðs í skjali. Í staðinn er hægt að óvirkja tengiliðinn.  
 
-Hægt er að bæta við tengiliðum lánardrottins við persónulega tengiliði í Microsoft Office 365. Hins vegar verður fyrst að setja upp samstillingu milli Finance and Operations og Office 365 í bæði samstillingu Microsoft Exchange Server og uppsetningarleiðsögn Microsoft Outlook.
+Hægt er að bæta við tengiliðum lánardrottins við persónulega tengiliði í Microsoft Office 365. Hins vegar verður fyrst að setja upp samstillingu milli Finance and Operations og Office 365 og Microsoft Exchange Server í bæði samstillingu og uppsetningarleiðsögn Microsoft Outlook.
 
 ## <a name="vendors-in-different-legal-entities"></a>Lánardrottnar í öðrum lögaðilum
 Ef lánardrottinn er skráð aðeins fyrir einn lögaðila í fyrirtækinu, og aðrir lögaðilar þurfa að skrá sama lánardrottin, er hægt að nota **Bæta lánardrottni við annan lögaðila** síðu til að skilgreina lánardrottinn til að geta átt viðskipti við annan lögaðila. Þú verður að velja lánardrottnaflokk, gjaldmiðill, biðstöðu fyrir lánardrottinn í völdum lögaðila.  
@@ -116,7 +115,6 @@ Ef þú þarft að framkvæma greiðslur inn á bankareikning lánardrottins er 
 Hægt er að tilgreina sjálfgefnir lyklar sem birtast sjálfkrafa í færslubækur fyrir reikning lánardrottins fyrir tilgreindan lánardrottin. Þessi virkni getur komið að gagni ef þú greiðir yfirleitt fyrir sömu gerðir vara eða þjónustu frá sama lánardrottni með tímanum. Þegar tilgreindur er sjálfgefinn lykill, er fljótlegt og hagkvæmt að slá inn færslur í reikningsbók. Sjálfgefnir lyklar sem þú tilgreinir eru ekki notuð fyrir innkaupapantanir eða fyrir reikninga lánardrottins sem eru færðar inn í **lánardrottinsreikning** síðu.  
 
 Þú velur sjálfgefna lykla á **uppsetning sjálfgefins lykils** síðu, sem hægt er að opna úr **Reiknings** flipanum í færslu lánardrottins. Lyklar sem valdir eru hér birtist í síaða lista yfir reikninga fyrir lykil lánardrottins þegar þú slærð inn færslu í færslubók. Hægt er að setja einn af lyklunum sem sjálfgefinn lykil.
-
 
 
 

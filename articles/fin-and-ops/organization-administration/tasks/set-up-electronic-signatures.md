@@ -1,13 +1,13 @@
---- 
-title: "Uppsetning rafrænna undirskrifta"
-description: "Notaðu þetta ferli til að setja upp rafrænar undirskriftir."
+---
+title: Uppsetning rafrænna undirskrifta
+description: Notaðu þetta ferli til að setja upp rafrænar undirskriftir.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysConfiguration, SIGParameters, SIGReasonCode, SIGProcSetup
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: eb6bf529b1e94d598e219482f182140402f2928a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 11fee0b2358e6a2b84c221f8eb06e32c888e5f44
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318581"
 ---
 # <a name="set-up-electronic-signatures"></a>Uppsetning rafrænna undirskrifta
 
@@ -77,5 +77,4 @@ Notaðu þetta ferli til að setja upp rafrænar undirskriftir. Rafræn undirskr
     * Tilgreindu hvenær undirskrift er nauðsynleg.     Velja Alltaf ef undirskriftar er krafist þegar gögn í reitnum breytast.     Velja Aðeins ef undirskriftar er krafist við ákveðin skilyrði. Ef Aðeins, verður einnig að velja einn af eftirfarandi valkostum: Þegar færsla er færð inn, Þegar færsla er uppfærð eða þegar færslu er eytt.  
 10. Smellið á „Vista“.
 11. Lokið síðunni.
-
 

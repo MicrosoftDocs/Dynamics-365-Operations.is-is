@@ -1,13 +1,13 @@
---- 
-title: "Stofna aðallykil"
-description: "Þessar verkefnaleiðbeiningar fara í gegnum hvernig aðallykli er bætt við fyrirliggjandi bókhaldslykla."
+---
+title: Stofna aðallykil
+description: Þessar verkefnaleiðbeiningar fara í gegnum hvernig aðallykli er bætt við fyrirliggjandi bókhaldslykla.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MainAccount, CompanyInfoList
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5fd332121bae2be55ada39b33e5f381096c9b74d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: db813353eef97375451e78320d6d14de74292309
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331576"
 ---
 # <a name="create-a-main-account"></a>Stofna aðallykil
 
@@ -53,5 +53,4 @@ ms.lasthandoff: 09/29/2017
 20. Í listanum skal smella á tengilinn í valinni línu.
 21. Í reitnum Umreikningsgerð gjaldmiðils skal velja aðferð til að reikna út gengi fyrir lykilinn.
 22. Lokið síðunni.
-
 

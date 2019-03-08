@@ -1,13 +1,13 @@
---- 
-title: "Velja skilgreiningar gagnalíkans þegar snið er búið til"
-description: "Til að ljúka þessum skrefum í ferlinu verður fyrst að ljúka við ferlið Rafræn skýrslugerð Stofna skilgreiningarveitu og merkja hana sem virka."
+---
+title: Velja skilgreiningar gagnalíkans þegar snið er búið til
+description: Til að ljúka þessum skrefum í ferlinu verður fyrst að ljúka við ferlið Rafræn skýrslugerð Stofna skilgreiningarveitu og merkja hana sem virka.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: dc357db8acbdb98741a694a8a9d3c0c0625c50e4
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334497"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>Velja skilgreiningar gagnalíkans þegar snið er búið til
 
@@ -81,7 +81,7 @@ Til að ljúka þessum skrefum í ferlinu verður fyrst að ljúka við ferlið 
     * Nota hönnuður Rafræn skýrslugerð til að tilgreina líkan varpanir fyrir þau atriði rótar sem er krafist.  
 2. Smellið á Hönnuður.
     * Herma eftir stillingum valinna líkan varpanir fyrir valin rótaratriði líkans.  
-3. Í trénu skal velja „Dynamics 365 for Operations\Tafla færslur“.
+3. Í trénu skal velja 'Dynamics 365 for Operations\Table records'.
 4. Smella á bæta Við rót.
 5. Í svæðið Heiti, færðu inn „Fjárhagur“.
 6. Í reitnum Tafla skal færa inn ‚LedgerJournalTrans‘.
@@ -98,5 +98,4 @@ Til að ljúka þessum skrefum í ferlinu verður fyrst að ljúka við ferlið 
 4. Í reitinn Skilgreining Gagnalíkans skal slá inn eða velja gildi.
     * Athugið að aðeins eitt rótaratriði er tiltækt til vörpunar yfir í gagnaveitu forritsins. Þegar að minnsta kosti ein vörpun líkans er lögð fram, er aðeins hægt að velja þau rótaratriði líkansins sem er varpað yfir í gagnaveitu forritsins, sem skilgreiningu líkans um leið og sniði Rafræn skýrslugerð er bætt við.   
 5. Lokið síðunni.
-
 

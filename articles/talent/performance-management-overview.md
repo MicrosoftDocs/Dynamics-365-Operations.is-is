@@ -1,13 +1,13 @@
 ---
-title: "Árangursstjórnun"
-description: "Frammistöðustjórnun ferli leyfir starfsmenn skrá og ræða um frammistöðu með yfirmaður. Í staðin, yfirmaður getur gefið athugasemdir og leiðbeiningar til starfsmaður."
+title: Árangursstjórnun
+description: Frammistöðustjórnun ferli leyfir starfsmenn skrá og ræða um frammistöðu með yfirmaður. Í staðin, yfirmaður getur gefið athugasemdir og leiðbeiningar til starfsmaður.
 author: mikefalkner
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 67da25514edc6b27f8478a7b317f6690720ab592
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: e7621b4c1358d1ecd6ff1c9ce2f1de08766a4bf6
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304786"
 ---
-
 # <a name="performance-management"></a>Árangursstjórnun
 
 [!include [banner](includes/banner.md)]
@@ -56,9 +55,9 @@ Til eru tvær útgáfur af frammistöðubókum: útgáfa starfsmanns, sem hægt 
 
 Einnig er hægt að tengja frammistöðubók við ytri vefsvæði með því að geyma skráarslóðina af því svæði. Ef færslubók is tengt við markmið eða frammistaða umsagnir, hægt er að einnig tengja það við einn eða fleiri af þeim. Þegar frammistöðubók er opnuð í **MSS** síðu getur þú slegið inn sömu upplýsingarnar sem þú slóst inn fyrir færslubók starfsmanns. Auk þess getur þú tilgreint starfsmann sem færslubók et stofnuð fyrir. Þú getur valið að deila færslubók yfirmanns með starfsmönnum.
 
-### <a name="praise"></a>Hrós
+### <a name="send-feedback"></a>Senda svörun
 
-Frammistöðubókin inniheldur auka eiginleika sem kallast Hrós. Þegar smellt er á **Senda hrós** er hægt að velja starfsmann og senda endurgjöf á þann starfsmann í tölvupósti. Skilaboðin eru send til starfsmannsins sem verið er að hrósa, yfirmanns starfsmannsins, starfsmannsins sem sendir hrósið og yfirmanns þess starfsmanns. Færsla í frammistöðubók er stofnuð fyrir hvern einstakling sem fær hrós.
+Frammistöðubókin inniheldur auka eiginleika sem kallast Endurgjöf. Þegar smellt er á **Senda endurgjöf** er hægt að velja starfsmann og senda endurgjöf á þann starfsmann í tölvupósti. Skilaboðin eru send til starfsmannsins sem tekur á móti endurgjöfinni, yfirmanns starfsmannsins, starfsmannsins sem sendir endurgjöfina og yfirmanns þess starfsmanns. Færsla í frammistöðubók er stofnuð fyrir hvern einstakling sem fær endurgjöfina.
 
 ## <a name="goals"></a>Markmið
 **Frammistöðumarkmið** síðan hjálpar þér að fylgjast með markmiðunum sem þú og yfirmaðurinn stofnuðu fyrir þig. Hægt er að stofna eins marga markmið og þú villt, og þessi markmið geta náð yfir mismunandi tímabil og frammistöðu umsögn. Einnig er hægt að stofna einföld eða flókin markmið, allt eftir magni upplýsinga sem þú vilt færa inn um markmiðið. Markmiða er ekki krafist fyrir frammistöðu umsögn. 
@@ -151,7 +150,6 @@ Upprunagerðir frammistöðubókar útskýra hvar frammistöðubækur koma frá.
 ### <a name="review-types"></a>Gerðir yfirferðar
 
 Frammistöðurýni gerð hjálpar þér að stjórna hegðun endurskoðunar. Hægt er að gera verkflæði virka eða óvirka fyrir yfirferð. Ef umsögn ekki nota verkflæði, þú getur skilgreint sjálfgefna stöðu sem verður notuð þegar umsögn er stofnuð. Þú getur einnig ákveðið hvort starfsmaður, yfirmaður eða bæði verði krafist að staðfesting umsögn.
-
 
 
 

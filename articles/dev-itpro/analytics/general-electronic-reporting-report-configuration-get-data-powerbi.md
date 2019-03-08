@@ -1,13 +1,13 @@
 ---
-title: "Skilgreina rafræna skýrslugerð (ER) til að draga gögn inn í Power BI"
-description: "Þetta efnisatriði útskýrir hvernig nota skal skilgreiningar í rafrænni skýrslugerð (ER) til að sjá um flutning gagna úr tilviki Finance and Operations í Power BI-þjónustu."
+title: Skilgreina rafræna skýrslugerð (ER) til að draga gögn inn í Power BI
+description: Þessu efnisatriði útskýrir hvernig nota skal skilgreiningu Rafræna skýrslugerðar (ER) til að sjá um flutning gagna úr tilviki Finance and Operations til Power BI-þjónustu.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,31 +17,30 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e2d3c03a75fd03dfd3a96a181eff20f934546ec4
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335785"
 ---
-
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Skilgreina rafræna skýrslugerð (ER) til að draga gögn inn í Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig nota skal skilgreiningar í rafrænni skýrslugerð (ER) til að sjá um flutning gagna úr tilviki Finance and Operations í Power BI-þjónustu. Sem dæmi, notar þessa efnisatriðis intrastat-færslur sem viðskiptagögn sem verður að flytja. Myndræn útfærsla á korti Power BI notar þessi gögn intrastat-færslu til að birta greiningu á aðgerðum fyrirtækis varðandi inn- og útflutning á Power BI-skýrslu.
+Þessu efnisatriði útskýrir hvernig nota skal skilgreiningu Rafræna skýrslugerðar (ER) til að sjá um flutning gagna úr tilviki Finance and Operations til Power BI-þjónustu. Sem dæmi, notar þessa efnisatriðis intrastat-færslur sem viðskiptagögn sem verður að flytja. Myndræn útfærsla á korti Power BI notar þessi gögn intrastat-færslu til að birta greiningu á aðgerðum fyrirtækis varðandi inn- og útflutning á Power BI-skýrslu.
 
 ## <a name="overview"></a>Yfirlit
 
-Microsoft Power BI er safn af þjónustu við hugbúnaðar, forritum og tengi sem vinna saman að því að breyta utanaðkomandi gögn í heildstæða, sjónrænar, og gagnvirka innsýn. Rafræn skýrslugerð (ER) gerir notendum Microsoft Dynamics 365 for Finance and Operations kleift að skilgreina gagnagjafa auðveldlega og sjá um flutning gagna úr Finance and Operations yfir í Power BI. Gögn eru flutt sem skrár á sniði OpenXML (Microsoft Excel vinnubók skrá) vinnublaði. Fluttar skrárnar eru vistaðar í Microsoft SharePoint Server sem hefur verið skilgreindur fyrir þess háttar tilgang. Vistaðar skrár eru notaðar í Power BI til að gera skýrslur sem innihalda sjóræna birtingu (töflur gröf, varpanir og svo framvegis). Power BI skýrslum er deilt með Power BI notendum og þær eru opnaðar á mælaborðum Power BI og á Finance and Operations síðum. Efnisatriðið útskýrir eftirfarandi Verkhlutar:
+Microsoft Power BI er safn af þjónustu við hugbúnaðar, forritum og tengi sem vinna saman að því að breyta utanaðkomandi gögn í heildstæða, sjónrænar, og gagnvirka innsýn. Rafræna skýrslugerð (ER) gerir notendum Microsoft Dynamics 365 for Finance and Operations kleift að skilgreina gagnagjafa auðveldlega og sjá um flutning gagna úr Finance and Operations yfir í Power BI. Gögn eru flutt sem skrár á sniði OpenXML (Microsoft Excel vinnubókarskrá) vinnublaði. Fluttar skrárnar eru vistaðar í Microsoft SharePoint Server sem hefur verið skilgreindur fyrir þess háttar tilgang. Vistaðar skrár eru notaðar í Power BI til að gera skýrslur sem innihalda sjóræna birtingu (töflur gröf, varpanir og svo framvegis). Power BI skýrslum er deilt með Power BI notendum og þær eru opnaðar í Power BI-yfirlitum og á síðum Finance and Operations. Efnisatriðið útskýrir eftirfarandi Verkhlutar:
 
 - Skilgreina Finance and Operations.
 - Undirbúðu ER sniðsskilgreiningu þína fyrir móttöku gagna úr Finance and Operations.
 - Skilgreina umhverfi Rafræn skýrslugerðar til að flytja gögn í Power BI.
 - Nota flutt gögn til að stofna Power BI-skýrsla.
-- Gera skýrslu Power BI aðgengilega í Finance and Operations.
+- Gerðu Power BI-skýrsluna aðgengilega í Finance and Operations.
 
-## <a name="prerequisites"></a>Frumskilyrði
+## <a name="prerequisites"></a>Forkröfur
 Til að ljúka dæminu í þessu efnisatriði þarftu að hafa eftirfarandi aðgang:
 
 - Aðgangur að Finance and Operations fyrir eitt af eftirtöldum hlutverkum:
@@ -50,8 +49,8 @@ Til að ljúka dæminu í þessu efnisatriði þarftu að hafa eftirfarandi aðg
     - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
     - Kerfisstjóri
 
-- Aðgangur að SharePoint Server sem er skilgreindur til notkunar með Finance and Operations.
-- Aðgangi að Power BI-ramma
+- Aðgangur að tilviki SharePoint Server sem er grunnstillt til notkunar með Finance and Operations.
+- Aðgangur að Power BI-rammanum
 
 ## <a name="configure-document-management-parameters"></a>Skilgreina færibreytur skjalastjórnunar
 1. Á **Færibreytur skjalastjórnunar** síðunni, skilgreina aðgangur að SharePoint Server sem verður notuð í fyrirtækinu sem þú ert skráður inn í (DEMF í þessu dæmi).
@@ -59,8 +58,8 @@ Til að ljúka dæminu í þessu efnisatriði þarftu að hafa eftirfarandi aðg
 
     [![Síðan Færibreytur skjalastjórnunar](./media/ger-power-bi-sharepoint-server-setting-1024x369.png)](./media/ger-power-bi-sharepoint-server-setting.png)
 
-3. Opna skilgreinda SharePoint-svæði. Stofna nýja möppu þar sem Rafræn skýrslugerð mun vista Excel-skrár sem hafa viðskiptagögn sem Power BI-skýrslur krefjast sem uppruna gagnasafna Power BI.
-4. Í Finance and Operations á síðunni **Skjalagerðir** skaltu stofna nýja skjalagerð sem verður notuð til að fá aðgang að SharePoint-möppu sem þú varst að stofna. Færið inn **Skrá** í á **Flokk** svæðinu og **SharePoint** í á **Staðsetningu** svæðinu og færa svo inn aðsetur SharePoint-möppu.
+3. Opnið skilgreinda SharePoint svæðið. Stofna nýja möppu þar sem Rafræn skýrslugerð mun vista Excel-skrár sem hafa viðskiptagögn sem Power BI-skýrslur krefjast sem uppruna gagnasafna Power BI.
+4. Í Finance and Operations á í **Skjalagerðir** síðunni, stofna nýja gerð skjala sem verða notaðir til að fá aðgang að SharePoint-möppu sem nýverið var stofnuð. Færið inn **Skrá** í **Hópur** svæðinu og **SharePoint** í **Staðsetningu** svæðinu og færa svo inn aðsetur SharePoint-möppu.
 
     [![Síðan Gerðir skjala](./media/ger-power-bi-sharepoint-document-type-1024x485.png)](./media/ger-power-bi-sharepoint-document-type.png)
 
@@ -113,7 +112,7 @@ Eftirfarandi niðurstaða úttaks er mynduð. Skráin er með heitinu **upplýsi
 ## <a name="configure-the-er-destination"></a>Skilgreina áfangastað Rafræn skýrslugerðar
 Þú verður að Skilgreina ramma rafrænnar skýrslugerðar til að senda niðurstaða úttaks nýrrar skilgreiningar sniðs rafrænnar skýrslugarðar á sérstakan hátt.
 
-- Senda þarf niðurstöður úttaks í möppu hins valda SharePoint-þjóns.
+- Senda þarf niðurstöður úttaks í möppu hins valda SharePoint Server.
 - Hver keyrsla skilgreiningarsniðs þarf að stofna nýja útgáfu sama Excel-skrá.
 
 Á síðunni **Rafræn skýrslugerð** (**Fyrirtækisstjórnun** &gt; **Rafræn skýrslugerð**) er smellt á atriðið **Viðtökustaður rafrænnar skýrslugerðar** og bætt við nýjum viðtökustað. Í **Tilvísun** svæðinu, veljið **Aðgerðir Innflutnings / útflutnings** skilgreiningarsnið sem stofnaðar voru áður. Fylgið eftirfarandi skrefum til að bæta við nýrri færslu fyrir áfangastað skrár fyrir tilvísunina.
@@ -134,7 +133,7 @@ Smellið á **Stillingar** hnappinn fyrir nýja færslu áfangastaðar. Síðan,
 
 3. Veljið lokna útgáfu skilgreiningarinnar **aðgerðir Innflutnings / útflutnings** og smelltu svo á **Keyra**. Athugið að skilgreindur áfangastaður notaður fyrir niðurstöður úttaks sem er mynduð í Excel-sniði.
 4. Setja **runuvinnslu** valkosturinn að **Já** til að keyra þessa skýrslu í fjarveruham.
-5. Smellið á **Endurtekningar** til að áætla nauðsynlegar endurtekningar í framkvæmdar þessarar runu. Endurtekningin tilgreinir hversu oft uppfærð gögn verða flutt úr Finance and Operations yfir í Power BI.
+5. Smellið á **Endurtekningar** til að áætla nauðsynlegar endurtekningar í framkvæmdar þessarar runu. Endurtekningin tilgreinir hversu oft uppfærð gögn verða fluttar úr Finance and Operations yfir í Power BI.
 
     [![Svargluggi rafrænna skýrslufæribreyta](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png)
 
@@ -142,11 +141,11 @@ Smellið á **Stillingar** hnappinn fyrir nýja færslu áfangastaðar. Síðan,
 
     [![Síða runuvinnslu](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png)
 
-7. Þegar þessi vinnsla er keyrð í fyrsta sinn, stofnar áfangastað nýja Excel-skrá sem hefur skilgreinda heiti í völdu SharePoint-möppunni . Hvert síðari skipti sem vinnslan er keyrð, stofnar áfangastaðurinn nýja útgáfu Excel-skráarinnar.
+7. Þegar þessi vinnsla er keyrð í fyrsta sinn, stofnar áfangastað nýja excel-skrá sem hefur skilgreinda heiti í völdu SharePoint-möppunni . Hvert síðari skipti sem vinnslan er keyrð, stofnar áfangastaðurinn nýja útgáfu Excel-skráarinnar.
 
     [![Ný útgáfa Excel-skrár](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
-## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>Stofna Power BI-gagnasafns með því að nota niðurstöðu úttaks sniðs rafrænnar skýrslugerðar.
+## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>Stofna Power BI-gagnasafn með því að nota niðurstöðu úttaks sniðs rafrænnar skýrslugerðar
 1. Innskráning í Power BI og annaðhvort opna fyrirliggjandi Power BI-flokk (vinnusvæði) eða stofnið nýjan flokk. Annaðhvort smella á **Bæta við** undir **Skrár** í **Flytja inn eða tengjast gögnum** hlutanum eða smella á plúsmerkið (**+**) við hliðina á **Gagnasöfn** í vinstri glugganum.
 
     [![Gagnasafn stofnað](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png)
@@ -160,10 +159,10 @@ Smellið á **Stillingar** hnappinn fyrir nýja færslu áfangastaðar. Síðan,
 
     [![Gagnasafn á yfirliti](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png)
 
-5. Skilgreina uppfærsluáætlun fyrir þessa gagnasafnið sem á að láta uppfæra reglubundið. Reglulegar uppfærslur virkja notkun nýrra viðskiptagagna sem koma úr Finance and Operations í gegnum reglubundna keyrslu skýrslu rafrænnar skýrslugerðar, í gegnum nýjar útgáfur af Excel-skránni sem er stofnuð á SharePoint Server.
+5. Skilgreina uppfærsluáætlun fyrir þessa gagnasafnið sem á að láta uppfæra reglubundið. Reglulegar uppfærslur virkja notkun nýtt viðskiptagögn sem koma úr Finance and Operations gegnum reglubundna keyrslu skýrslu rafrænnar skýrslugerðar gegnum nýjar útgáfur af Excel-skráin sem eru stofnuð á SharePoint-þjóni.
 
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Stofna Power BI skýrslu með því að nota nýja gagnasafnið.
-1. Smellið á Power BI gagnasafnið **Upplýsingar um inn- og útflutning** sem var stofnað.
+1. Smellið á **Upplýsingar um inn- og útflutning** Power BI gagnasafnið sem var stofnað.
 2. Skilgreinið myndrænu framsetninguna. Veljið til dæmis á **Útfyllt korti** myndræn útfærsla, og skilgreina sem hér segir:
 
     - Úthluta skal **CountryOrigin** svæði gagnasafns til **Staðsetningu** svæðinu í myndræn útfærsla korts.
@@ -184,12 +183,12 @@ Smellið á **Stillingar** hnappinn fyrir nýja færslu áfangastaðar. Síðan,
 
     [![Uppfært kort](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
-## <a name="access-power-bi-report-in-finance-and-operations"></a>Gera skýrslu Power BI aðgengilega í Finance and Operations.
+## <a name="access-power-bi-report-in-finance-and-operations"></a>Aðgangur að Power BI-skýrslu í Finance and Operations
 Setja upp samþættingu á milli Finance and Operations og Power BI. Nánari upplýsingar, sjá [Skilgreining samþættingar Power BI fyrir vinnusvæði](configure-power-bi-integration.md).
 
 1. Á vinnusvæðissíðunni **Rafræn skýrslugerð** sem styður samþættingu Power BI (**Fyrirtækisstjórnun** &gt; **Vinnusvæði** &gt; **Vinnusvæði rafrænnar skýrslugerðar**) skal smella á **Valkostir** &gt; **Opna skýrslulista**.
-2. Velja skal Power BI-skýrsluna **upplýsingar um Innflutning og útflutning** sem þú stofnaðir, til að sýna þá skýrslu sem aðgerðaratriði á valinni síðu.
-3. Smelltu á aðgerðaratriði til að opna Finance and Operations síðuna sem sýnir skýrsluna sem þú hannaðir í Power BI.
+2. Velja skal **Upplýsingar um Innflutning og útflutning** Power BI skýrsluna sem þú stofnaðir, til að sýna þá skýrslu sem aðgerðaratriði á valinni síðu.
+3. Smellt er á vöru til að opna Finance and Operations síðu sem sýnir skýrslan sem þú hannaðir í Power BI.
 
     [![Skýrsla með upplýsingum um innflutning og útflutning](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
@@ -198,4 +197,3 @@ Setja upp samþættingu á milli Finance and Operations og Power BI. Nánari upp
 [Viðtökustaðir rafrænnar skýrslugerðar](electronic-reporting-destinations.md)
 
 [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
-

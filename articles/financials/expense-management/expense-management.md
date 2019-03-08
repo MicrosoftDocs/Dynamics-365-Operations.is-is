@@ -1,13 +1,13 @@
 ---
-title: "Útgjaldastýring"
-description: "Nota skal Kostnaðarstýring til að stofna samþætt verkflæði þar sem hægt er að vista greiðslumáta, flytja inn kreditkortafærslur og rekja féð sem starfsmenn eyða þegar þeir leggja út vegna fyrirtækisins."
+title: Útgjaldastýring
+description: Nota skal Kostnaðarstýring til að stofna samþætt verkflæði þar sem hægt er að vista greiðslumáta, flytja inn kreditkortafærslur og rekja féð sem starfsmenn eyða þegar þeir leggja út vegna fyrirtækisins.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1cd637f1b74056db89520b762255d03afa3855ba
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1e075a7f114efdea1d9cc62cf302eaaba63c7ba0
-ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313406"
 ---
-
 # <a name="expense-management"></a>Útgjaldastýring
 
 [!include [banner](../includes/banner.md)]
@@ -38,23 +37,22 @@ Nota skal Kostnaðarstýring til að stofna samþætt verkflæði þar sem hægt
 
 #### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
 
-Á [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
+Á [Microsoft Dynamics 365-leiðarvísinum](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
 
 #### <a name="blogs"></a>Blogg
 
-Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) er að finna umfjöllun, fréttir og aðrar upplýsingar um Viðskiptakröfur og aðrar hugbúnaðarlausnir.
+Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) er að finna umfjöllun, fréttir og aðrar upplýsingar um viðskiptakröfur og aðrar lausnir.
 
-Á [bloggi afurðateymis Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) er að finna fjölmörg umfjöllunarefni um Viðskiptakröfur. Sumar þessara færslna voru skrifaðar um eldri útgáfu Viðskiptakrafna, en sömu hugtök eiga enn við. og ferlin eru svipuð í nýjustu útgáfunni.
+Það eru margar færslur um viðskiptakröfur á bloggsíðu afurðateymisins fyrir [Microsoft Dynamics AX ](https://blogs.msdn.microsoft.com/dax/). Sumar þessara færslna voru skrifaðar um eldri útgáfu Viðskiptakrafna, en sömu hugtök eiga enn við. og ferlin eru svipuð í nýjustu útgáfunni.
 
-[Blogg Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir Microsoft Dynamics-samstarfsaðilum aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika MBS Operations á einum stað.
+Blogg [Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir samstarfsaðilum Microsoft Dynamics aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika MBS Operations á einum stað.
 
 #### <a name="task-guides"></a>Verkleiðbeiningar
 Frekari hjálp er í boði sem verkleiðbeiningar í Finance and Operations. Smellið á hnappinn Hjálp á hvaða síðu sem er til að fá aðgang að verkleiðbeiningum.
 
-#### <a name="videos"></a>Myndbönd
+#### <a name="videos"></a>Myndskeið
 
-Kynntu þér kennslumyndbönd sem eru aðgengileg á [YouuTube-rás Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 YouTube-rásinni ](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 
 

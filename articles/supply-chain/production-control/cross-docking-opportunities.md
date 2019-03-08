@@ -1,13 +1,13 @@
 ---
-title: "Dreifing frá dreifingarstöð frá framleiðslupöntunum í úthlið"
-description: "Þetta efnisatriði lýsir ferlinu við að dreifa efni frá dreifingarstöð sem er skráð sem fullunnið úr framleiðslulínu til flutningsúthliðs."
+title: Dreifing frá dreifingarstöð frá framleiðslupöntunum í úthlið
+description: Þetta efnisatriði lýsir ferlinu við að dreifa efni frá dreifingarstöð sem er skráð sem fullunnið úr framleiðslulínu til flutningsúthliðs.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSCrossDockOpportunityPolicy
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8691bb6702028070810a1503add33985de5ede3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 62194012cfbe101d19e9de3254afb004da79a562
-ms.contentlocale: is-is
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329023"
 ---
-
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Dreifing frá dreifingarstöð frá framleiðslupöntunum í úthlið
 
 [!include [banner](../includes/banner.md)]
@@ -39,13 +38,13 @@ Dreifing frá dreifingarstöð úr framleiðslu í úthliðsstaðsetningu á vi�
 
 Sé ekki tafarlaus eftirspurn eftir afurð, verður að setja hana í vöruhúsastaðsetningu á framleiðslustað. Þetta ferli er einnig nefnt *tækifærisdreifing frá dreifingarstöð*, sem segir að ef það er þörf á að senda afurðina, ætti að nota þetta tækifæri í stað þess að ganga frá vörunni í innri geymslu.
 
-Eftirfarandi dæmi sýnir þrjú afbrigði flæðis sem hefst við lok framleiðslulínu (2).
+Eftirfarandi dæmi sýnir þrjú afbrigði af flæði sem byrjar í lok framleiðslulínu (2).
 
-Afurð er skráð sem fullunnin við staðsetningu framleiðsluúttaks (3) og starfsmaður á lyftara sækir brettið á þessari staðsetningu (3).
+ Afurð er tilkynnt sem lokið hjá staðsetningu framleiðslufrálags (3) og starfsmaður á lyftara mun sækja brettið á þessum stað (3).
 
--   Sé verkþáttur áætlaður (6) til að flytja afurðina úr framleiðslu (1) í dreifingarstöð (7), er bílstjóra leiðbeint af kerfinu þannig að hann setji brettið við útkeyrsluhurð (4).
--   Ef tengivagni er þegar úthlutað við útkeyrsluhurð er bílstjóra sagt að setja afurðina beint í tengivagninn.
--   Ef það er enginn áætlaður verkþáttur til að flytja afurðina er starfsmanni á lyftara sagt að setja afurðina til geymslu í vöruhúsi innanhúss (5).
+-   Ef fyrirhuguð virkni er til staðar (6) til að flytja afurðina frá framleiðslu (1) til dreifingarstöðvar (7), þá mun kerfið segja vörubílstjóranum að setja brettið við útskotsstaðsetningu (4).
+-   Ef eftirvagni hefur þegar verið úthlutuð staðsetningin, þá verður vörubílstjóranum sagt að hlaða afurðinni beint á eftirvagninn.
+-   Ef ekki er fyrirhuguð aðgerð til að flytja afurðina verður starfsmaður lyftarans sagt að koma afurðinni fyrir á staðsetningu í innra vöruhúsi (5).
 
 [![tækifærisdreifing frá dreifingarstöð](./media/scenario1.png)](./media/scenario1.png)
 
@@ -102,23 +101,23 @@ Stefna fyrir dreifingu frá dreifingarstöð segir til um stefnu fyrir forgangsr
 3.  Stofna vinnureglu. Farðu á síðuna **Vinnureglur** og stofnaðu nýja vinnureglu sem heitir **Dreifing frá dreifingarstöð L0101**.
 4.  Settu upp hleðslur þannig að þær séu stofnaðar sjálfkrafa fyrir flutningspantanir. Í vöruhúsafæribreytum eru hleðslur stilltar þannig að þær séu stofnaðar sjálfkrafa þegar flutningspantanir eru stofnaðar. Hleðsla er forsenda þess að flutningspöntun sé gerð gjaldgeng fyrir dreifingu frá dreifingarstöð.
 5.  Setja upp hleðsluvörpun vöru. Farðu á síðuna **Hleðsluvörpun vöru** og settu upp staðlað hleðslusniðmát fyrir vöruhópinn **CarAudio**. Þessi vörpun setur hleðslusniðmátið sjálfkrafa á hleðsluna þegar flutningspöntunin er stofnuð.
-6.  Stofna flutningspöntun Stofnaðu flutningspöntun fyrir vörunúmer L0101. Magn = 20.
+6.  Stofna flutningspöntun Búðu til flutningspöntun fyrir vörunúmer L0101. Magn = 20.
 7.  Losaðu flutningspöntunina úr vinnusvæði hleðsluáætlunar. Veldu valmyndaratriðið fyrir vinnusvæði hleðsluáætlunar á flipanum **Senda** og á valmyndinni **Losun** í hleðslulínu skaltu velja **Losa í vörugeymslu**. Bylgjulína af gerðinni **Flutningsútgáfa** er nú til fyrir flutningspöntunina.
 8.  Stofna framleiðslupöntun Farðu á listasíðuna **Framleiðslupöntun** og stofnaðu framleiðslupöntun fyrir afurð L0101. Magn = 20. Áætlaðu og settu framleiðslupöntunina í gang. Athugaðu að reiturinn **Bóka tiltektarlistann nú** er áfram stilltur á **Nei**.
-9.  Skrá sem tilbúið úr fartæki. Farðu í gátt fartækisins og veldu valmyndaratriðið **Bóka sem tilbúið og ganga frá**. Skráðu nú sem fullunnið L0101 úr lófatækinu. Magn = 10. Athugaðu að frágangsstaðsetning er **BAYDOOR**. Þessa staðsetningu er hægt að finna í staðsetningarleiðbeiningunum **Flutningsútgáfa** fyrir verkbeiðnigerðina **Frágangur**. Athugaðu einnig að verk af gerðinni **Flutningsútgáfa** hefur verið stofnað og því lokið. Farðu í upplýsingar um verk flutningspöntunar til að staðfesta verkið.
+9.  Skrá sem tilbúið úr fartæki. Farðu í gátt fartækisins og veldu valmyndaratriðið **Bóka sem tilbúið og ganga frá**. Skráðu nú sem fullunnið L0101 úr lófatækinu. Magn = 10. Athugaðu að frágangsstaðsetning er **BAYDOOR**. Þessa staðsetningu er hægt að finna í staðsetningarleiðbeiningunum **Flutningsútgáfa** fyrir verkbeiðnigerðina **Frágangur**. Athugaðu einnig að verk af gerðinni **Flutningsútgáfa** hefur verið stofnuð og lokið við. Farðu í upplýsingar um verk flutningspöntunar til að staðfesta verkið.
 10. Tilkynntu nú um 10 stykki til viðbótar úr farsímanum. Athugaðu að frágangsstaðsetning aftur er **BAYDOOR**. Athugaðu einnig að nýtt verk af gerðinni **Flutningsútgáfa** hefur verið stofnað fyrir 10 stykki.
-11. Prófaðu nú að setja 20 stykki í viðbót í gang í framleiðslupöntun og prófaðu að skrá 20 ea sem fullunnin með því að nota lófatækið. Í þetta sinn er staðsetningin **LP 001** lögð til sem frágangsstaðsetning. Þessi staðsetning er fundin út frá staðsetningarleiðbeiningunum **Frágangur á fullunnum vörum**. Þessar staðsetningarleiðbeiningar eru notaðar vegna þess að ekkert tækifæri til dreifingar frá dreifingarstöð er til staðar. Flutningspöntunin fyrir LP-001 var algjörlega uppfyllt með tveimur dreifingaraðgerðum frá dreifingarstöð í 9. og 10. skrefi. Athugið að verk af gerðinni **Frágangur á fullunnum vörum** var stofnað og unnið.
+11. Reyndu nú að byrja með 20 stykkjum meira í framleiðslupöntuninni og reyndu síðan að tilkynna 20 ea sem búið með því að nota handbúnaðinn. Í þetta sinn er staðsetningin **LP 001** lögð til sem frágangsstaðsetning. Þessi staðsetning er fundin út frá staðsetningarleiðbeiningunum **Frágangur á fullunnum vörum**. Þessar staðsetningarleiðbeiningar eru notaðar vegna þess að ekkert tækifæri til dreifingar frá dreifingarstöð er til staðar. Flutningspöntunin fyrir LP-001 var algjörlega uppfyllt með tveimur dreifingaraðgerðum frá dreifingarstöð í 9. og 10. skrefi. Athugið að verk af gerðinni **Frágangur á fullunnum vörum** var stofnað og unnið.
 
 #### <a name="scenario-2---cross-docking-from-production-to-transfer-orders-with-an-appointment-schedule"></a>Dæmi 2 - Dreifing frá dreifingarstöð frá framleiðslu í flutningspantanir með verkröðun.
 
-Þegar afurð er skráð sem fullunnin í framleiðslulínu er hún flutt að útkeyrsluhurðarstaðsetningu sem er skilgreind með verkröðun fyrir útkeyrsluhurðarstaðsetningar. Nota USMF fyrirtækis.
+Eftir að afurð hefur verið tilkynnt sem lokið við framleiðslulínuna er hún flutt á staðsetningu útskots, sem er auðkennt með tímabókun fyrir staðsetningar útskots. Nota USMF fyrirtækis.
 
 1.  Breyta um stefnu fyrir dreifingu frá dreifingarstöð. Breyttu um stefnu fyrir dreifingu frá dreifingarstöð sem þú stofnaðir í dæmi 1 með því að velja gátreitinn **Eftirspurn eftir dreifingu frá dreifingarstöð þarfnast staðsetningar**.
 2.  Stofna nýja flutningspöntun.
 3.  Opnaðu **Vinnusvæði hleðsluáætlunar**.
 4.  Úr vinnusvæði hleðsluáætlunar skaltu fara í hlutann **Hleðslur** og velja **Verkröðun** í valmyndinni **Flutningur** til að stofna nýja verkröðun. Athugaðu að verkröðun hefur tilvísun í flutningspöntunina í reitnum **Pöntunarnúmer**. Í reitnum **Áætluð upphafsdagsetning/tími staðsetningar** er hægt að stilla dagsetningu og verkröðun. Þessi dagsetning og tími verða svo notuð þegar eftirspurn um dreifingu frá dreifingarstöð er forgangsraðað í dreifingarstöðvarferlinu. Sú dagsetning og tími sem þú setur í þennan reit mun uppfæra reitinn **Áætluð dagsetning og tími á sendingu hleðslu** fyrir samsvarandi hleðslu. Staðsetningin á flýtiflipanum **Sendingarupplýsingar** ákvarðar staðsetninguna sem flutningspöntunin er send frá.
 5.  Losaðu á vöruhúsið á **Vinnusvæði hleðsluáætlunar**.
-6.  Stofnaðu framleiðslupöntun fyrir vörunúmer **L0101** og settu stöðuna á **Hafið**, með magninu 20.
+6.  Búðu til framleiðslupöntun fyrir vörunúmer **L0101** og stilltu stöðuna á **Hafið** með magn upp á 20.
 7.  Skrá sem tilbúið úr fartæki.
 8.  Farðu í gátt fartækisins og veldu valmyndaratriðið **Bóka sem tilbúið og ganga frá**.
 9.  Skráðu vörunúmerið **L0101** sem fullunnið úr lófatækinu. Athugaðu að frágangsstaðsetning er nú **BAYDOOR 2**. Þessa staðsetningu er hægt að finna frá verkröðuninni í stað staðsetningarleiðbeininganna **Flutningsinnhreyfing**.
@@ -126,6 +125,5 @@ Stefna fyrir dreifingu frá dreifingarstöð segir til um stefnu fyrir forgangsr
 ### <a name="additional-information"></a>Viðbótarupplýsingar
 
 -   Dæmið um dreifingu úr dreifingarstöð er stutt fyrir rað- og runuvinnslu, þar sem bæði víddir fyrir runu- og raðnúmer eru skilgreindar með staðsetningum fyrir ofan og neðan í frátektarstigveldi. 
-
 
 

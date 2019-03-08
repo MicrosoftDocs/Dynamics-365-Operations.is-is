@@ -1,32 +1,31 @@
 ---
-title: "Úthlutunargrunnar"
-description: "Í þessu efnisatriði er að finna upplýsingar um úthlutunargrunna. Úthlutunargrunnar eru lykilþættir í kostnaðarbókhaldi og eru að mestu notaðir til að úthluta rekstrarkostnaði."
+title: Úthlutunargrunnar
+description: Í þessu efnisatriði er að finna upplýsingar um úthlutunargrunna. Úthlutunargrunnar eru lykilþættir í kostnaðarbókhaldi og eru að mestu notaðir til að úthluta rekstrarkostnaði.
 author: AndersGirke
 manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimensionMember
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 223174
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 92824cf0fb5ad361090d8dccfd64353d2c16317c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 63f39a6c06a0c6b5df901f7aa4235aab3c4ac06e
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311681"
 ---
-
 # <a name="allocation-bases"></a>Úthlutunargrunnar 
 
 [!include [banner](../includes/banner.md)]
@@ -430,5 +429,4 @@ Hér er dæmi um kostnaðardreifingarreglu ef formúlu úthlutunargrunns fyrir f
 |    CC001    |     Mannauður      | 1,837.50  | (1.837,50 ÷ 18.162,50) × upphæð  |
 |    CC002    |     FI      | 3,075.00  | (3.075,00 ÷ 18.162,50) × upphæð  |
 |    CC003    |     Upplýsingatækni      | 13,250.00 | (13.250,00 ÷ 18.162,50) × upphæð |
-
 

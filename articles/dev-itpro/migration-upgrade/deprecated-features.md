@@ -1,13 +1,13 @@
 ---
-title: "Eiginleikar sem hafa verið fjarlægðir eða úreltir"
-description: "Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir."
+title: Eiginleikar sem hafa verið fjarlægðir eða úreltir
+description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir.
 author: sericks007
 manager: AnnBe
 ms.date: 12/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
-ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
-ms.contentlocale: is-is
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329253"
 ---
-
 # <a name="removed-or-deprecated-features"></a>Fjarlægðir eða úreltir eiginleikar
 
 [!include [banner](../includes/banner.md)]
@@ -37,7 +36,7 @@ ms.lasthandoff: 12/04/2018
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð. 
 
 > [!Note]
-> Frá og með útgáfu Microsoft Dynamics 365 for Finance and Operations, júlí 2017 með verkvangsuppfærslu 8, eru uppsetningargerðir merktar út frá sérhverjum eiginleika sem hefur verið fjarlægður eða úreltur. Allar fyrri útgáfur sem nefndar eru í þessu efnisatriði studdu aðeins dreifingar til skýjanna.
+> Frá og með útgáfu Dynamics 365 for Finance and Operations, júlí 2017 með verkvangsuppfærslu 8, eru uppsetningargerðir merktar út frá sérhverjum eiginleika sem hefur verið fjarlægður eða úreltur. Allar fyrri útgáfur sem nefndar eru í þessu efnisatriði studdu aðeins dreifingar til skýjanna.
 
 > [!Note]
 > Ítarlegar upplýsingar um hluti í Finance and Operations má finna í [Tæknileg tilvísunarskjöl](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu Finance and Operations.
@@ -64,7 +63,7 @@ Eiginleiki til að stilla .txt- og .xml-skráarsnið yfirlýsinga.
 | **Skipt út fyrir aðra eiginleika?**   | Já. |
 | **Afurðasvæði sem haft er áhrif á**         | Fjárhagur |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Fjarlægt frá og með Dynamics 365 for Finance and Operations 8.1 með verkvangsuppfærslu 20. |
+| **Staða**                         | Fjarlægð frá og með Dynamics 365 for Finance and Operations 8.1. með verkvangsuppfærslu 20. |
 
 ### <a name="financial-reports-generator-for-russia"></a>Fjárhagsskýrslugerðarforrit fyrir Rússland
 Verkfæri til að setja upp gagnasöfnun fyrir bókhald og skattaskýrslur og flytja út gögn í XLS- og DOC-skýrslusniðmát. Virkir hlutar: Flytja út gögn í XLS- og DOC-skýrslusniðmát, fyrirspurnir, föst skilyrði eru fjarlægð. 
@@ -75,7 +74,7 @@ Verkfæri til að setja upp gagnasöfnun fyrir bókhald og skattaskýrslur og fl
 | **Skipt út fyrir aðra eiginleika?**   | Já. Notandaviðmót fyrir uppsetningu á fjárhagsskýrslum ætti að nota til að setja upp gagnasöfnunarreglur með fjárhagslyklum eða skattskrám. Flytja út gögn í ýmisar skáargerðir, föst skilyrði og fyrirspurnir eins og gagnasöfnunarreglur ættu að vera stilltar í rafrænni skýrslugerð. |
 | **Afurðasvæði sem haft er áhrif á**         | Fjárhagur. |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Fjarlægt frá og með Dynamics 365 for Finance and Operations 8.1 með verkvangsuppfærslu 20. |
+| **Staða**                         | Fjarlægð frá og með Dynamics 365 for Finance and Operations 8.1. með verkvangsuppfærslu 20. |
 
 ### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Samþætting við ytri þjónustuveitendur við að senda rafræna skýrslugerð í gegnum samskiptarásir fyrir Rússland
 Eiginleiki flytur út myndaðar rafrænar skrár yfirlýsinga í möppu til frekari sendingar til opinberra veitenda rafrænna skýrslugerða auk þess að flytja inn stöðu til baka.
@@ -86,7 +85,7 @@ Eiginleiki flytur út myndaðar rafrænar skrár yfirlýsinga í möppu til frek
 | **Skipt út fyrir aðra eiginleika?**   | Já.  |
 | **Afurðasvæði sem haft er áhrif á**         | Fjárhagur, Skattur |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Fjarlægt frá og með Dynamics 365 for Finance and Operations 8.1 með verkvangsuppfærslu 20. |
+| **Staða**                         | Fjarlægð frá og með Dynamics 365 for Finance and Operations 8.1. með verkvangsuppfærslu 20. |
 
 
 ### <a name="profit-tax-register-wizard"></a>Leiðsagnarforrit fyrir skattskrá hagnaðar
@@ -95,10 +94,10 @@ Eiginleiki til að búa til sniðmát fyrir nýjar skattskrár hagnaðar. Þessi
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Eiginleiki er ekki samhæfur við stækkunarhæfnislíkan Dynamics 365 for Finance and Operations. |
-| **Skipt út fyrir aðra eiginleika?**   | Númer |
+| **Skipt út fyrir aðra eiginleika?**   | Ekkert |
 | **Afurðasvæði sem haft er áhrif á**         | Skattur |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Fjarlægt frá og með Dynamics 365 for Finance and Operations 8.1 með verkvangsuppfærslu 20. |
+| **Staða**                         | Fjarlægð frá og með Dynamics 365 for Finance and Operations 8.1. með verkvangsuppfærslu 20. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 með verkvangsuppfærslu 15
@@ -106,7 +105,7 @@ Engir eiginleikar hafa verið fjarlægðir eða úreltir með þessari útgáfu.
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 með verkvangsuppfærslu 12
 
-### <a name="personalized-product-recommendations"></a>Sérsniðiðnar vöruráðleggingar 
+### <a name="personalized-product-recommendations"></a>Sérsniðnar afurðaráðleggingar 
 Frá og með 15. febrúar, 2018, munu smásalar ekki lengur geta birt sérsniðnar vöruráðleggingar á sölustaðartæki. Nánari upplýsingar eru í [Sérsniðnar vöruráðleggingar](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
 
 |   |  |
@@ -141,12 +140,12 @@ Möguleikinn á að kynna sérsniðnar aðgerðir sem notaðar eru í ER-tjánin
 | **Staða**                       | Úrelt: Valmyndaratriði þessara tveggja skýrslna hafa verið fjarlægðar í útgáfu 7.3. Kóðann fyrir skýrslurnar er samt sem áður enn að finna í afurðinni. Áætlað er að fjarlægja kóðann í framtíðarútgáfu. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Power BI efnispakkar eru tiltækar á AppSource
-Efnispakkarnir **Kostnaðarstjórnun**, **Fjárhagsleg frammistaða** og **Afköst smásölurásar** sem eru í boði á [Microsoft AppSource](https://appsource.microsoft.com) síðuna, eru úreltir vegna uppfærslur á vöru í Microsoft Power BI. Kerfisstjórnunareyðublöð sem notuð eru til að dreifa þessum efnispökkum til PowerBI.com eru einnig úreltir í Finance and Operations.
+Efnispakkarnir **Kostnaðarstjórnun**, **Fjárhagsleg frammistaða** og **Retail Channel Performance** sem eru í boði á [Microsoft AppSource](https://appsource.microsoft.com) síunni , eru úreltir vegna uppfærslur á vöru í Microsoft Power BI. Kerfisstjórnunareyðublöð sem notuð eru til að dreifa þessum efnispökkum til PowerBI.com eru einnig úreltir í Finance and Operations.
 
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Vöruuppfærslur í Microsoft Power BI. |
-| **Skipt út fyrir aðra eiginleika?**   | Efnispakkarnir **Kostnaðarstjórnun**, **Fjárhagsleg frammistaða** og **Afköst smásölurásar**, sem eru í boði á [AppSource](https://appsource.microsoft.com) síða, er skipt út fyrir greiningarforrit sem leyfa lausnasamþættingu á gagnagrunni stigi. Frekari upplýsingar um greiningarforrit, sjá [Innfellt Power BI í vinnusvæði](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Skipt út fyrir aðra eiginleika?**   | Efnispakkarnir **Kostnaðarstjórnun**, **Fjárhagsleg frammistaða** og **Retail channel performance**, sem eru í boði á [AppSource](https://appsource.microsoft.com) síða, er skipt út fyrir greiningarforrit sem leyfa lausnasamþættingu á gagnagrunni stigi. Frekari upplýsingar um greiningarforrit, sjá [Innfellt Power BI í vinnusvæði](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Afurðasvæði sem haft er áhrif á**         | Kostnaðarstjórnun, Fjármál og Smásala                                                                                               |
 | **Dreifingarvalkostur**              | Einungis ský (Samþætting við PowerBI.com er ekki studd við dreifingu á staðnum.)                                                                                                            |
 | **Staða**                         | Úrelt: Tímarammi markmiðs um að fjarlægja virknina er Q2 2018.    |
@@ -211,7 +210,7 @@ Notendur geta sótt þetta frá ríkisstjórnargáttinni.
 
 ## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
 
-### <a name="personalized-product-recommendations"></a>Sérsniðiðnar vöruráðleggingar 
+### <a name="personalized-product-recommendations"></a>Sérsniðnar afurðaráðleggingar 
 Frá og með 15. febrúar, 2018, munu smásalar ekki lengur geta birt sérsniðnar vöruráðleggingar á sölustaðartæki. Nánari upplýsingar eru í [Sérsniðnar vöruráðleggingar](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
 
 |   |  |
@@ -244,7 +243,7 @@ Vöruhús fjarskiptatæki portal (WMDP) var sjálfstæður þáttur sem var gert
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Afrituð virkni.       |
-| **Skipt út fyrir aðra eiginleika?**   | Já. Þessari aðgerð hefur verið skipt út fyrir Finance and Operations - Warehousing. Sjá frekari upplýsingar um uppsetningu og forkröfur [sett Upp og skilgreina Microsoft Dynamics 365 til Finance and Operations - Warehousing](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Skipt út fyrir aðra eiginleika?**   | Já. Þessari aðgerð hefur verið skipt út fyrir Finance and Operations - Warehousing. Nánari upplýsingar um uppsetningu og skilyrði er að finna í [Setja upp og skilgreina Microsoft Dynamics 365 for Finance and Operations - Vöruhús](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
 | **Afurðasvæði sem haft er áhrif á**         | Vöruhúsastjórnun, flutningsstjórnun     |
 | **Dreifingarvalkostur**              | Vöruhús fjarskiptatæki portal (WMDP) var sjálfstæður þáttur sem var gert ráð fyrir verslunarsvæðis á sjálfnýtingu.               |
 | **Staða**                         | Úrelt: Tímarammi markmiðs um að fjarlægja virknina er Q4 2019.   |
@@ -574,7 +573,7 @@ Tvö snið fyrir útflutning á greiðslum eru tiltækar fyrir Finnland. LM02 (F
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Vöruhúsakerfi II-lausn (WMS II) sem var tiltækt í virkni tvíteknu kerfiseininga **Birgðastjórnunar** sem er í **vöruhúsakerfinu** sem var gefin út í Microsoft Dynamics AX 2012 R3.                                                                         |
-| **Skipt út fyrir aðra eiginleika?**   | **Vöruhúsakerfinu** sem var gefið út í AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8 og Dynamics AX 2012 R3 CU9 kemur í stað virkni vöruhúsakerfis II. Nýja kerfið hefur fleiri ítarlegar aðgerðir og sveigjanlegri vöruhúsakerfisferli en vöruhúsakerfi II. |
+| **Skipt út fyrir aðra eiginleika?**   | **Vöruhúsakerfinu** sem var gefið út í AX 2012 R3, AX 2012, Microsoft Dynamics AX R3 CU8 og Dynamics AX 2012 R3 CU9 kemur í stað virkni vöruhúsakerfis II. Nýja kerfið hefur fleiri ítarlegar aðgerðir og sveigjanlegri vöruhúsakerfisferli en vöruhúsakerfi II. |
 | **Afurðasvæði sem haft er áhrif á**         | Birgðastjórnun, sölu og markaðssetningu, innkaup og uppruni   |
 | **Staða**                         | Fjarlægt frá og með Dynamics 365 for Operations útgáfu 1611.    |
 
@@ -587,7 +586,7 @@ Mannauður, launaupplýsingar
 | **Ástæða úreldingar/fjarlægingar** | Lítil notkun                                                           |
 | **Skipt út fyrir aðra eiginleika?**   | Númer                                                                  |
 | **Afurðasvæði sem haft er áhrif á**         | Mannauður                                                     |
-| **Staða**                         | Fjarlægt frá og með Dynamics 365 for Operations útgáfu 1611 |
+| **Staða**                         | Fjarlægð frá og með Dynamics 365 for Operations útgáfu 1611 |
 
 ### <a name="workflow-for-creating-goals"></a>Verkflæði til að stofna markmið
 
@@ -685,7 +684,7 @@ Uppsetning fyrirspurnir um viðskiptatalnagögn sem geta auðveldað greiningu �
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Eldri nálgun á viðskiptagreind (BI), Lítil notkun viðskiptavina og takmörkuðum eiginleikum. |
-| **Skipt út fyrir aðra eiginleika?**   | Ný Lausnir fyrir BI fyrir þessa útgáfu af Dynamics AX.                                      |
+| **Skipt út fyrir aðra eiginleika?**   | Ný Lausnir fyrir BI fyrir þessa útgáfu af Dynamics AX                                      |
 | **Afurðasvæði sem haft er áhrif á**         | Innkaup og uppruni, viðskiptaskuldir, sala og markaðssetning, viðskiptakröfur         |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.                                                               |
 
@@ -720,7 +719,7 @@ Samræmismiðstöðinni var Enterprise Portal-setur til að hafa umsjón með kr
 
 ### <a name="connector-for-microsoft-dynamics"></a>Tengill fyrir Microsoft Dynamics
 
-Þessa verkfæris var notuð til að samþætta lykilgögn úr Microsoft Dynamics CRM í Microsoft Dynamics ERP forritin.
+Þetta verkfæri var notað til að samþætta lykilgögn úr Microsoft Dynamics CRM í Microsoft Dynamics ERP forritin.
 
 |   |  |
 |------------|--------------------|
@@ -767,7 +766,7 @@ Samræmismiðstöðinni var Enterprise Portal-setur til að hafa umsjón með kr
 
 ### <a name="data-partitions"></a>Deildaskiptingar gagna
 
-Gögn deildaskiptingar veita röklegt aðskilnaðinn gagna í gagnagrunn Microsoft Dynamics AX.
+Deildaskiptingar gagna veita rökréttan aðskilnað gagna í Microsoft Dynamics AX gagnagrunninum.
 
 |   |  |
 |------------|--------------------|
@@ -779,11 +778,11 @@ Gögn deildaskiptingar veita röklegt aðskilnaðinn gagna í gagnagrunn Microso
 
 ### <a name="database-and-file-share-storage-for-attachments"></a>Gagnagrunnur og geymsla fyrir samnýttar skár fyrir viðhengi
 
-Microsoft Dynamics AX 2012 leyfð geymsla viðhengja í gagnagrunninum og samnýttum skrám. Báðir valkostirnir eru ekki lengur studdir.
+Microsoft Dynamics AX 2012 leyfði geymslu á viðhengjum í gagnagrunninum og í skráasamnýtingu. Báðir valkostirnir eru ekki lengur studdir.
 
 |   |  |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Geymsla samnýttra skráa er ekki lengur studd því umhverfi í skýi geta ekki átt samskipti við staðbundnar samnýttar skrár. Gagnagrunnsgeymsla hefur verið gerð úrelt og í staðinn er komin Azure Blob geymsla. Azure Blob geymsla er sambærileg við geymslu í gagnagrunninum, þar sem aðeins er hægt að fá aðgang að skjölum í gegnum biðlaraskjámyndir Dynamics 365 for Finance and Operations. Þessu fylgir sá viðbótarkostur að bjóða upp á geymslu sem hefur ekki neikvæð áhrif á afköst gagnagrunnsins. Blob geymsla er sjálfgefið geymslukerfi fyrir Skjalastjórnum og virkar tafarlaust. |
+| **Ástæða úreldingar/fjarlægingar** | Geymsla samnýttra skráa er ekki lengur studd því umhverfi í skýi geta ekki átt samskipti við staðbundnar samnýttar skrár. Gagnagrunnsgeymsla hefur verið gerð úrelt og í staðinn er komin Azure Blob geymsla. Azure Blob-geymsla jafngildir geymslu í gagnagrunninum, úr því að aðeins er hægt að nálgast skjöl í gegnum Dynamics 365 for Finance and Operations eyðublöð viðskiptavinar. Þessu fylgir sá viðbótarkostur að bjóða upp á geymslu sem hefur ekki neikvæð áhrif á afköst gagnagrunnsins. Blob geymsla er sjálfgefið geymslukerfi fyrir Skjalastjórnum og virkar tafarlaust. |
 | **Skipt út fyrir aðra eiginleika?**   | Gagnagrunnsgeymsla hefur verið gerð úrelt og í staðinn er komin Azure Blob geymsla.   |
 | **Afurðasvæði sem haft er áhrif á**         | Allar einingar  |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.   |
@@ -794,14 +793,14 @@ Microsoft Dynamics AX 2012 leyfð geymsla viðhengja í gagnagrunninum og samný
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Engin Notkun á þessari virkni fannst. |
 | **Skipt út fyrir aðra eiginleika?**   | Númer                                     |
-| **Afurðasvæði sem haft er áhrif á**         | Tími og mæting                    |
+| **Afurðasvæði sem haft er áhrif á**         | Tími og viðvera                    |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.         |
 
 ### <a name="desktop-client"></a>Fjartengingarforrit
 
 |   |  |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Dynamics AX biðlarann Hefur verið endurhönnuð til að auka notkunargetu yfir marga vettvanga og tæki.                      |
+| **Ástæða úreldingar/fjarlægingar** | Dynamics AX biðlarinn hefur verið endurhannaður til að auka notkunargetu yfir marga verkvanga og tæki.                      |
 | **Skipt út fyrir aðra eiginleika?**   | Nýr vefbiðlari er byggð á lýsigögnum skjáborðsmyndar og forritunarlíkans sem hefur verið breytt til að veita ríkulegan vefvettvang. |
 | **Afurðasvæði sem haft er áhrif á**         | Allar einingar  |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.   |
@@ -814,7 +813,7 @@ Microsoft Dynamics AX 2012 leyfð geymsla viðhengja í gagnagrunninum og samný
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Bein gagnagrunns tengingarnar krefst minna öryggis samskiptareglu og var fyrst og fremst notuð til að ná hæsta stig afköst. Vegna frammistöðu og öryggi endurbætur sem hafa orðið í Dynamics 365 fyrir Finance and Operations, býr aðgerðin nú til fleiri vandamál en lausnir. |
 | **Skipt út fyrir aðra eiginleika?**   | Nei. Aðeins stöðluðum Retail-þjónn samskipti eru studd núna.  |
-| **Afurðasvæði sem haft er áhrif á**         | Channel DB/Retail Modern POS   |
+| **Afurðasvæði sem haft er áhrif á**         | Gagnagrunnur rásarRetail Modern POS   |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.  |
 
 ### <a name="dutch-swift-mt940"></a>Hollenska SWIFT MT940
@@ -860,7 +859,7 @@ Microsoft Dynamics AX 2012 leyfð geymsla viðhengja í gagnagrunninum og samný
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Skjámynd ActiveX og stjórntæki hýsils með umsjón byggjast á afskrifaða fjartengiforritinu. |
-| **Skipt út fyrir aðra eiginleika?**   | Umfangsmikill Rammi fjárhagsáætlunarstýringar styður uppbyggingu nýja stýringar sem er byggt á HTML, CSS og JavaScript og er fyrsta flokks stýring í Microsoft Visual Studio Tooling umhverfinu. |
+| **Skipt út fyrir aðra eiginleika?**   | Umfangsmikill Rammi fjárhagsáætlunarstýringar styður uppbyggingu nýja stýringar sem er byggt á HTML, CSS og JavaScript og er fyrsta flokks stýring í Visual Studio Tooling umhverfinu. |
 | **Afurðasvæði sem haft er áhrif á**         | Allar einingar     |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.       |
 
@@ -917,8 +916,8 @@ Skýrslur sem innihalda eftirfarandi valmyndaratriði hafa verið fjarlægð: **
 
 |   |  |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Skýrslur fyrir Microsoft SQL Server Reporting Services (SSRS) hefur verið skipt út fyrir eiginleika Management Reporter og sjálfgefnar skýrslur. |
-| **Skipt út fyrir aðra eiginleika?**   | Management Reporter (merktur **fjárhagsskýrslugerð** í þessari útgáfu af Dynamics AX)    |
+| **Ástæða úreldingar/fjarlægingar** | Skýrslur fyrir Financial Microsoft SQL Server Reporting Services (SSRS) hefur verið skipt út fyrir eiginleika Management Reporter og sjálfgefnar skýrslur. |
+| **Skipt út fyrir aðra eiginleika?**   | Management Reporter (merktur **Fjárhagsskýrslugerð** í núverandi útgáfu af Dynamics AX)    |
 | **Afurðasvæði sem haft er áhrif á**         | Fjárhagur   |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.   |
 
@@ -975,12 +974,12 @@ Microsoft Dynamics AX 2012 vann úr óinnleysta virðisaukaskattinum (VSK) með 
 | **Afurðasvæði sem haft er áhrif á**         | Skattur   |
 | **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika. |
 
-### <a name="microsoft-outlook-integration"></a>Microsoft Outlook-samþætting
+### <a name="microsoft-outlook-integration"></a>Samþætting Microsoft Outlook
 
 
 |   |  |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Aðgerðinni hefur verið skipt út fyrir samþættingu Microsoft Exchange Server. |
+| **Ástæða úreldingar/fjarlægingar** | Aðgerðinni hefur verið skipt út fyrir Microsoft Exchange Server samþættingu. |
 | **Skipt út fyrir aðra eiginleika?**   | Já                                                                            |
 | **Afurðasvæði sem haft er áhrif á**         | Sala og markaðsstarf                                                            |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.                                                 |
@@ -1026,7 +1025,7 @@ Vörusamsetning (Product builder) var notaður til að setja saman á lifandi h�
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þessi útgáfu af Dynamics AX styður ekki merkingabreytingar á keyrslutíma. |
 | **Skipt út fyrir aðra eiginleika?**   | Númer                                                                            |
-| **Afurðasvæði sem haft er áhrif á**         | Afurðarupplýsingastjórnun                                                |
+| **Afurðasvæði sem haft er áhrif á**         | Vöruupplýsingastjórnun                                                |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.                                                |
 
 ### <a name="retail-server-connectivity-using-http"></a>Tengigeta Retail-þjóns athuguð
@@ -1075,7 +1074,7 @@ Sites Services gerir þér kleift að búa til vefsíður sem framlengja viðski
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Hönnun á eiginleikanum getur ekki verið studd í nýrri skýjahögun. |
 | **Skipt út fyrir aðra eiginleika?**   | Azure Machine Learning stefna eftirspurnarspár                           |
-| **Afurðasvæði sem haft er áhrif á**         | Aðaláætlanagerð                                                              |
+| **Afurðasvæði sem haft er áhrif á**         | Áætlanagerð                                                              |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.                                               |
 
 ### <a name="vendor-invoice-pool-excluding-posting-details"></a>Reikningahópur lánardrottins án bókunarupplýsinga
@@ -1124,8 +1123,7 @@ Windows 8 spjaldtölvuforrit veittu aðgerðir fyrir kostnaðarfærslu og -samþ
 |                                                 |                                                                                                          |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | <strong>Ástæða úreldingar/fjarlægingar</strong> |                         Aðgerðinni hefur verið skipt út fyrir aðra eiginleika.                         |
-|  <strong>Skipt út fyrir aðra eiginleika?</strong>  | Management Reporter (merktur <strong>fjárhagsskýrslugerð</strong> í þessari útgáfu af Dynamics AX) |
+|  <strong>Skipt út fyrir aðra eiginleika?</strong>  | Management Reporter (merktur <strong>Fjárhagsskýrslugerð</strong> í núverandi útgáfu af Dynamics AX) |
 |     <strong>Afurðasvæði sem haft er áhrif á</strong>     |                                              Fjárhagur                                              |
 |             <strong>Staða</strong>             |                                      Fjarlægt frá og með Dynamics AX 2012                                      |
-
 

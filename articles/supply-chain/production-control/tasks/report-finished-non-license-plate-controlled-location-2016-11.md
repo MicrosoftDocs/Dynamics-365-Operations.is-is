@@ -1,13 +1,13 @@
---- 
-title: "Skrá sem lokið í ekki númeraplötustýrð staðsetningu (Notkun, maí 2016)"
-description: "Þessi verkefnaleiðbeiningar sýnir dæmi um skýrslugerð sem lokið á staðsetningu sem ekki – númeraplötustýrð."
+---
+title: Skrá sem lokið í ekki númeraplötustýrð staðsetningu (Notkun, maí 2016)
+description: Þessi verkefnaleiðbeiningar sýnir dæmi um skýrslugerð sem lokið á staðsetningu sem ekki – númeraplötustýrð.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrResourceGroup, ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdParmCostEstimation, ProdParmStartUp, ProdParmReportFinished, WHSWorkTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,18 +17,18 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4da6868a2184a76c435efe824f4670504e1134e7
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344548"
 ---
 # <a name="report-as-finished-to-a-non-license-plate-controlled-location--application-may-2016"></a>Skrá sem lokið í ekki númeraplötustýrð staðsetningu (Notkun, maí 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi verkefnaleiðbeiningar sýnir dæmi um skýrslugerð sem lokið á staðsetningu sem ekki – númeraplötustýrð. Gildandi vinnureglu er skilyrði fyrir þetta verk. Fyrri verkefnaleiðbeiningar sýna uppsetningu vinnureglu. Þessi leiðarvísi fyrir verk krefst Dynamics AX forritið 7.0.1 eða síðar.
+Þessi verkefnaleiðbeiningar sýnir dæmi um skýrslugerð sem lokið á staðsetningu sem ekki – númeraplötustýrð. Gildandi vinnureglu er skilyrði fyrir þetta verk. Fyrri verkefnaleiðbeiningar sýna uppsetningu vinnureglu. Þessi leiðarvísi fyrir verk krefst AX forrit 7.0.1 eða síðar.
 
 
 
@@ -61,5 +61,4 @@ ms.lasthandoff: 10/16/2018
 17. Í aðgerðasvæðinu er smellt á vöruhús.
 18. Smellt er á Upplýsingar um vinnu
     * Þegar framleiðslupöntunin var skráð sem lokið, engin vinna var mynduð fyrir frágangur. Þetta gerist vegna þess að vinna regla er skilgreind sem kemur í veg fyrir vinnu búnar til þegar afurð L0101 er skráð sem lokið á staðsetningu 001.  
-
 

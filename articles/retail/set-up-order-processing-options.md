@@ -1,13 +1,13 @@
 ---
-title: "Setja upp símaversrásir"
-description: "Þetta efnisatriði veitir upplýsingar um hvernig á að vinna úr pöntunum fyrir símaver með því að nota Microsoft Dynamics 365 for Retail."
+title: Setja upp símaversrásir
+description: Þetta efnisatriði veitir upplýsingar um hvernig á að vinna úr pöntunum fyrir símaver með því að nota Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCROrderParameters, MCRSalesTableOrderHistory, SalesOrderProcessingWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 0bfbb763b8ded2a0ce90b66eb686379b1dc92a6d
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334842"
 ---
-
 # <a name="set-up-call-center-channels"></a>Setja upp símaversrásir
 
 [!include [banner](includes/banner.md)]
@@ -80,4 +79,3 @@ Sjálfgefið er að kveikt sé á flaggi **Smásölu** á sölupöntunarhaus fyr
 Notendur sem eru ekki tengdir við rás símavers nota staðlaða eiginleika pöntunarfærslu í Microsoft Dynamics 365 for Finance and Operations. Pantanir sem þessir notendur færa inn í gegnum skjámynd sölupöntunarfærslu verða ekki kerfisbundið auðkenndar sem Retail pantanir. Þar að auki munu pantanirnar sem þessir notendur hafa fært inn ekki heyra undir neinar úrvinnslureglur pöntunarloka, smásöluverðlagningu eða aðrar villuprófanir á pöntun sem hægt er að skilgreina í grunnstillingum símaversrásar eða kerfisfæribreytum símavers.
 
 Þegar stillingu á rás símavers og skilgreiningu á rásarnotendum er lokið, til að hjálpa að tryggja æskilega kerfishegðun, skal ganga úr skugga um að allar nauðsynlegar færibreytur símavers séu skilgreindar í **Retail** \> **Uppsetning rásar** \> **Uppsetning símavers** \> **Færibreytur símavers**. Tryggja skal að tengdar númeraraðir séu einnig skilgreindar.
-

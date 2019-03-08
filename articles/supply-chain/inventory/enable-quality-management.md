@@ -1,13 +1,13 @@
 ---
-title: "Yfirlit yfir gæðastjórnun"
-description: "Þetta efnisatriði lýsir því hvernig hægt er að nota gæðastjórnun í Microsoft Dynamics 365 for Finance and Operations til að bæta gæði afurða innan aðfangakeðju þinnar."
+title: Yfirlit yfir gæðastjórnun
+description: Þessi grein lýsir því hvernig hægt er að nota gæðastjórnun í Microsoft Dynamics 365 for Finance and Operations til að bæta gæði afurða innan aðfangakeðju þinnar.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1630d13437d7e930fdf32ed5fdc61fc62bc33817
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 79b3127f726a08cc24c20145b5ad9969157a899c
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338315"
 ---
-
 # <a name="quality-management-overview"></a>Yfirlit yfir gæðastjórnun
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig hægt er að nota gæðastjórnun í Microsoft Dynamics 365 for Finance and Operations til að bæta gæði afurða innan aðfangakeðju þinnar.
+Þessi grein lýsir því hvernig hægt er að nota gæðastjórnun í Microsoft Dynamics 365 for Finance and Operations til að bæta gæði afurða innan aðfangakeðju þinnar.
 
 Gæðastjórnun getur hjálpað við að stjórna biðtíma þegar ósamkvæmar afurðir eru meðhöndlaðar, óháð uppruna þeirra. Þar sem greiningargerðir eru tengdar leiðréttingaskýrslum getur Microsoft Dynamics 365 for Finance and Operations raðað verk til að leiðrétta vandamál og komið í veg fyrir þau verði endurtekin.
 
@@ -260,7 +259,7 @@ Eftirfarandi tafla veitir frekari upplýsingar um hvernig hægt er að mynda gæ
 <tr>
 <td>Biðgeymslupöntun</td>
 <td>Á undan eða eftir biðgeymslupöntunin er skráð sem lokið eða lokið</td>
-<td>Ekki er hægt að mynda gæðapantanir sem krefjast eyðileggingarprófana. Gert er ráð fyrir að virkni biðgeymslupöntunar annist ráðstöfun á efni sem er eyðilagt.</td>
+<td>Ekki er hægt að mynda gæðapantanir sem krefjast eyðileggingarprófana.&#39; Gert er ráð fyrir að virkni biðgeymslupöntunar annist ráðstöfun á efni sem er eyðilagt.&#39;</td>
 <td>Þörf á gæðapöntun getur verið vegna tiltekins svæðis, vöru eða lánardrottins eða samsetningu þessara skilyrða.</td>
 <td>Gæðapöntun sem er stofnuð handvirkt og vísar í biðgeymslupöntun getur notað upplýsingar úr gæðatengingafærslu, til dæmis úrtaksáætlun til prófunar.</td>
 </tr>
@@ -290,7 +289,7 @@ Eftirfarandi tafla veitir frekari upplýsingar um hvernig hægt er að mynda gæ
 <td>Ekki er hægt að mynda gæðapöntun sjálfkrafa fyrir færslu í birgðabók eða fyrir flutningspantanafærslur.</td>
 <td></td>
 <td></td>
-<td>Gæðapöntun verður að vera stofnuð handvirkt fyrir birgðamagn vöru. Efnislegra lagerbirgða er krafist.</td>
+<td>Gæðapöntun verður að vera stofnuð handvirkt fyrir birgðamagn vöru.&#39; Efnislegra lagerbirgða er krafist.</td>
 </tr>
 </tbody>
 </table>
@@ -338,7 +337,7 @@ Gæðatengingu verður að skilgreina fyrir hvert afbrigði viðskiptaferlis sem
 </tr>
 <tr class="even">
 <td>Vörugæðaflokkar</td>
-<td>Notaðu þessa síðu til að setja upp, breyta og skoða vörur sem er úthlutað á gæðaflokk eða gæðaflokka sem eru tengdir vöru. Gæðaflokkur stendur fyrir sameiginlegar prófunarkröfur fyrir vörur. Þegar búið er að skilgreina kröfur fyrir prófun á síðunni <strong>Prófunarflokkar</strong> er hægt að skilgreina reglur fyrir sjálfvirka myndun gæðapantana. Til að einfalda ferlið eru ekki skilgreindar reglur fyrir stakar vörur. Þess í stað eru skilgreindar reglur fyrir gæðaflokk, með því að nota síðuna <strong>Gæðatengingar</strong>. Einnig er hægt að nota síðuna <strong>Vörur gæðaflokka</strong> fyrir valinn gæðaflokk til að úthluta viðeigandi vörum á þeim flokki. Einnig er hægt að nota síðuna <strong>Vörur gæðaflokka</strong> fyrir valda vöru til að úthluta viðeigandi gæðaflokkum á vöruna.</td>
+<td>Notaðu þessa síðu til að setja upp, breyta og skoða vörur sem er úthlutað á gæðaflokk eða gæðaflokka sem eru tengdir vöru. Gæðaflokkur stendur fyrir sameiginlegar prófunarkröfur fyrir vörur. Þegar búið er að skilgreina kröfur fyrir prófun á síðunni <strong>Prófunarflokkar</strong> er hægt að skilgreina reglur fyrir sjálfvirka myndun gæðapantana. Til að einfalda ferlið eru ekki skilgreindar reglur fyrir stakar vörur.&#39; Þess í stað eru skilgreindar reglur fyrir gæðaflokk, með því að nota síðuna <strong>Gæðatengingar</strong>. Einnig er hægt að nota síðuna <strong>Vörur gæðaflokka</strong> fyrir valinn gæðaflokk til að úthluta viðeigandi vörum á þeim flokki. Einnig er hægt að nota síðuna <strong>Vörur gæðaflokka</strong> fyrir valda vöru til að úthluta viðeigandi gæðaflokkum á vöruna.</td>
 <td>Framleiðslufyrirtæki kaupir ýmislegt hráefni sem eru með sömu prófunarkröfur fyrir væntanlegt eftirlit. Fyrirtækið skilgreinir gæðaflokk og úthlutar síðan vörunúmerum sem eru tengd hráefnum á þann flokk. Síðar kaupir fyrirtækið nýja gerð hráefnis sem er með sömu prófunarkröfur. Í stað þess að setja upp ný skilyrði um prófanir fyrir nýtt efni bætir við fyrirtækið vörunúmeri fyrir nýtt efni fyrirliggjandi gæðaflokk. Sama framleiðslufyrirtæki framleiðir einnig vörur sem eru með sömu prófunarkröfur í framleiðslu og sendir vörur með sömu kröfur fyrir framkvæmd prófana fyrir sendingu. Fyrirtækið skilgreinir tvo viðbótargæðaflokka og úthlutar síðan viðeigandi vörunúmerum í hvern gæðaflokk.</td>
 </tr>
 <tr class="odd">
@@ -362,4 +361,3 @@ Gæðatengingu verður að skilgreina fyrir hvert afbrigði viðskiptaferlis sem
 [Gæðastjórnunarferli](quality-management-processes.md)
 
 [Virkja stjórnun ósamkvæmni](enable-nonconformance-management.md)
-

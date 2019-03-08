@@ -1,13 +1,13 @@
 ---
-title: "Vöruhúsakerfi"
-description: "Vöruhúsastjórnun er notuð til að fylgjast með og gera ferli vöruhúsa sjálfvirk."
+title: Vöruhúsakerfi
+description: Vöruhúsastjórnun er notuð til að fylgjast með og gera ferli vöruhúsa sjálfvirk.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSParameters
 audience: Application User
 ms.reviewer: josaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7c9613070e077bced4b272b136985de5f4ddbdd0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: fc039b3c35c9ff8f40bf671e523104031c598171
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335256"
 ---
 # <a name="warehouse-management"></a>Vöruhúsakerfi
 
 [!include [banner](../includes/banner.md)]
 
-Eining vöruhúsakerfis fyrir Dynamics 365 for Finance and Operations gerir þér kleift að stjórna ferlum vöruhús í framleiðslu, dreifingu og smásölufyrirtækjum. Þessi eining hefur marga eiginleika til að styðja að fullu við vöruhúsið hvenær sem er. Vörustjórnun er að fullu samþætt við önnur viðskiptaferli í Finance and Operations, svo sem flutning, framleiðslu, gæðaeftirlit, kaup, flutning, sölu og ávöxtun.
+Vöruhúsakerfiseiningin fyrir Dynamics 365 for Finance and Operations gerir kleift að stjórna ferlum vöruhús í framleiðslu, dreifingu og smásölufyrirtækjum. Þessi eining hefur marga eiginleika til að styðja að fullu við vöruhúsið hvenær sem er. Vörustjórnun er að fullu samþætt við önnur viðskiptaferli í Finance and Operations, svo sem flutning, framleiðslu, gæðaeftirlit, kaup, flutning, sölu og ávöxtun.
 
 ## <a name="get-started"></a>Byrja
 Til að byrja að vinna með vöruhúsastjórnun þarf að ljúka uppsetningu almennra vöruhúsafæribreyta til að styðja við viðskiptaferli fyrirtækis þíns.
@@ -66,12 +66,11 @@ Til að byrja að vinna með vöruhúsastjórnun þarf að ljúka uppsetningu al
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 ### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
-Á [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi.
+Á [Microsoft Dynamics 365-leiðarvísinum](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi.
 
 ### <a name="blogs"></a>Blogg
 Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog) má finna umfjöllun, fréttir og aðrar upplýsingar um Vöruhúsastjórnun og aðrar lausnir.
 
 
  
-
 

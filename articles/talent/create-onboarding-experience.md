@@ -1,13 +1,13 @@
 ---
-title: "Búa til kynningar fyrir nýliða"
-description: "Þegar nýliðakynningar eru vel gerðar hjálpar það nýjum starfsmönnum að fá það á tilfinninguna að þeir tilheyri nýjum fyrirtækjum."
+title: Búa til kynningar fyrir nýliða
+description: Þegar nýliðakynningar eru vel gerðar hjálpar það nýjum starfsmönnum að fá það á tilfinninguna að þeir tilheyri nýjum fyrirtækjum.
 author: tbisaacs
-manager: 
+manager: ''
 ms.date: 11/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable
 audience: Application User
 ms.reviewer: rschloma
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: tbisaacs
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
+ms.openlocfilehash: 0dbc3247e1a5a8134184c8fe98fa8692fbf27c94
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 54caf2648766053ec5a662f48bd50a1ec9b8911a
-ms.contentlocale: is-is
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304809"
 ---
-
 # <a name="create-an-engaging-onboarding-experience"></a>Búa til kynningar fyrir nýliða
 
 [!include [banner](includes/banner.md)]
@@ -90,5 +89,4 @@ Skilgreindu 30, 60 og 90 daga markmið fyrir nýjustu liðsmenn þína. Þegar m
 - Er ánægja að aukast meðal nýliða? 
 
 Mældu etta og gerður úrbætur með hverjum nýjum starfsmanni.
-
 

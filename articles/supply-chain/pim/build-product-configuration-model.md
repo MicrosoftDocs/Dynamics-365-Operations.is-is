@@ -1,13 +1,13 @@
 ---
-title: "Bygging afbrigðalíkans afurðar"
-description: "Þörf á að skilgreina vörur í sérstökum kröfum er verði reglan frekar en undantekning í fyrirtæki til fyrirtækis og viðskiptaferli í consumer vensl."
+title: Bygging afbrigðalíkans afurðar
+description: Þörf á að skilgreina vörur í sérstökum kröfum er verði reglan frekar en undantekning í fyrirtæki til fyrirtækis og viðskiptaferli í consumer vensl.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 60a901ce9e87571b2d199a49af2cddbd72fc5808
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2bfaf16cde329909c167d1ad402e08619bdcd5a2
-ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327459"
 ---
-
 # <a name="build-a-product-configuration-model"></a>Bygging afbrigðalíkans afurðar
 
 [!include [banner](../includes/banner.md)]
@@ -71,7 +70,7 @@ Töfluskorður geta verið notandaskilgreindar eða kerfisskilgreindar.
 
 Notandaskilgreind töfluskorða er byggð á notanda. Notandi velur samsetningu eigindagerðir dálka í töflunni stendur og færir gildi úr lénum valinna eigindagerða til að mynda línur í töfluskorðunni.  
 
-Kerfisskilgreind töfluskorða er skilgreind með því að velja hvaða töflu í Microsoft Dynamics 365 for Finance and Operations á að nota sem tilvísun og velja svo svæði úr þessari töflu til að mynda dálka í skorðunni. Línur töfluskorðunnar eru línurnar í Finance and Operations töflu sem eru til staðar við skilgreiningu.  
+Kerfisskilgreind töfluskorða er skilgreind með því að velja hvaða Microsoft Dynamics 365 for Finance and Operations tafla á að nota sem tilvísun og velja svo svæði úr þessari töflu til að mynda dálka í skorðunni. Línur töfluskorðunnar eru línurnar í Finance and Operations töflu sem eru til staðar við skilgreiningu.  
 
 Töfluskorða er innifalin í afbrigðalíkani afurðar með því að vísa í skilgreiningu töfluskorðu og vörpun viðeigandi eiginda í líkanið í dálkum í töfluskorðunni.
 
@@ -158,7 +157,6 @@ Tilgangur skilgreiningarinnar er að stofna vöruvíddasamsetning einkvæmrar v�
 ### <a name="multiple-sites-and-intercompany"></a>Mörg svæði og innan samstæðu
 
 Ef afbrigði verður að framkvæma á svæði, eða jafnvel fyrirtæki, sem er önnur en svæði eða fyrirtækið þar sem framleiðslan mun eiga sér stað, Uppskrift og leið stofnuð fyrir og setja starfsstöð birgi supplying fyrirtæki. Afurðarafbrigðið verða losaðar fyrirtækja sem taka þátt í birgðakeðjunni.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Fjárhagsjafnanir"
-description: "Þetta efnisatriði útskýrir hvernig á að nota síðu fjárhagsjafnana til að jafna fjárhagsfærslur og bakfærslur."
+title: Fjárhagsjafnanir
+description: Þetta efnisatriði útskýrir hvernig á að nota síðu fjárhagsjafnana til að jafna fjárhagsfærslur og bakfærslur.
 author: mikefalkner
 manager: aolson
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerTransSettlement
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
+ms.openlocfilehash: b02a1a066913c9959e9a55e78789e5ff1a175c56
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
-ms.openlocfilehash: ec659a53c187b1bdfd81565d6e2f20a59e08834c
-ms.contentlocale: is-is
-ms.lasthandoff: 10/12/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308484"
 ---
-
 # <a name="ledger-settlements"></a>Fjárhagsjafnanir
 
 [!include [banner](../includes/banner.md)]
@@ -76,4 +75,3 @@ Til að jafn fjárhagsfærslur skaltu fylgja þessum skrefum.
 ## <a name="update-the-list-of-accounts-that-are-included-in-the-list-of-transactions"></a>Uppfærðu lista yfir reikninga sem eru í listanum yfir færslur
 
 Veldu **Lyklar fjárhagsuppgjörs** til að opna svarglugga þar sem þú getur breytt reikningum sem eru innifalin í listanum yfir færslur. Veldu **Nýr** til að bæta við nýjum reikningum á listann. Þessi listi er notaður til að sía lista yfir færslur sem birtast á **Fjárhagsuppgjör** síðu.
-

@@ -1,13 +1,13 @@
 ---
-title: "Verðherming"
-description: "Þessi grein gefur upplýsingar um verðhermingu fyrir tilboð. Verðherming hjálpar til við að meta áhrif frádráttar á söluverð í framtíðinni í tilboðsferlinu, áður en staðfest er sérstakt verð."
+title: Verðherming
+description: Þessi grein gefur upplýsingar um verðhermingu fyrir tilboð. Verðherming hjálpar til við að meta áhrif frádráttar á söluverð í framtíðinni í tilboðsferlinu, áður en staðfest er sérstakt verð.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesQuotationPriceSimulation
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0369c1a4bbc893a86cf14bd59a2d28a7bbca15c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6df840de688975b9fa11b866361d88a730426bd0
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316534"
 ---
-
 # <a name="price-simulation"></a>Verðherming
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ Til að tryggja að afslættir og verð séu rétt reiknuð þarf að sýna vark
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Gerð afsláttar í viðskiptasamningum
 
-Viðskiptasamningar í Microsoft Dynamics 365 for Finance and Operations geta haft fjórar gerðir verðafsláttar. Hægt er að setja þessa afslætti upp fyrir mismunandi vörur, viðskiptavini eða verðflokka og hægt er að takmarka þá við dagsetningar. Til að forðast vitlausa útreikninga þarf að íhuga viðskiptasamninga þegar verðherming er keyrð. Hér eru Fjórar afsláttargerðir í viðskiptasamningum:
+Viðskiptasamningum í Microsoft Dynamics 365 for Finance and Operations getur haft fjórar gerðir verðafsláttar. Hægt er að setja þessa afslætti upp fyrir mismunandi vörur, viðskiptavini eða verðflokka og hægt er að takmarka þá við dagsetningar. Til að forðast vitlausa útreikninga þarf að íhuga viðskiptasamninga þegar verðherming er keyrð. Hér eru Fjórar afsláttargerðir í viðskiptasamningum:
 
 -   **Söluverð** - Hægt er að tilgreina aðskilin söluverð fyrir tilteknar vörur. Þegar tilboðslínur eru stofnaðar leitar forritið að réttu söluverði fyrir vöru og flytur það í tilboðslínur. Þess vegna hefur viðskiptasamningur með þessi gerð afsláttar ekki áhrif á verðhermingu. Söluverð sem er notað í tilboðslínunni endurspeglar viðskiptasamning.
 -   **Línuafsláttur** – Sérstakan afslátt eru tilgreindar fyrir vörur eftir magni sem er pantað. Línuupphæðir eru yfirleitt lækkaðar af línuafsláttur áður en verðherming er keyrð. Þess vegna hefur viðskiptasamningur með þessi gerð afsláttar áhrif á verðhermingu.
@@ -143,7 +142,6 @@ Verðhermir er keyrður og notaður er 10 prósent heildarafsláttur á BR-12 ei
 | Nýtt heildarframlegðarstig                      | \[(302,88 – 184,96) ÷ 302,88\] × 100    | 38,93%   |
 
 Verðhermirinn hefur eingöngu áhrif á línuna þar sem hann er notaður á og dregur úr samtölu þeirrar línu.
-
 
 
 

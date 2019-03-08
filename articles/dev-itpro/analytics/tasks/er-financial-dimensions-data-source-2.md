@@ -1,13 +1,13 @@
---- 
-title: "Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 2 - líkanavörpun)"
-description: "Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt líkan rafrænnar skýrslugerðar (ER) svo það noti fjárhagsvíddir sem gagnaveitu fyrir rafrænar skýrslur."
+---
+title: Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 2 - líkanavörpun)
+description: Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt líkan rafrænnar skýrslugerðar (ER) svo það noti fjárhagsvíddir sem gagnaveitu fyrir rafrænar skýrslur.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 92efd6a0b36471286c292a80542b81cd14a8eff3
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319593"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2-model-mapping"></a>Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 2: líkanavörpun)
 
@@ -43,7 +43,7 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í á “R
 8. Í reitnum lýsing skal færa inn 'gagnakortalagning vídda'.
 9. Smellið á „Vista“.
 10. Smellið á Hönnuður.
-11. Í trénu skal velja „Dynamics 365 for Operations\Tafla“.
+11. Í trénu skal velja „Dynamics 365 for Operations\Table“.
 12. Smella á bæta Við rót.
 13. Í reitnum Heiti skal færa inn ‚Fyrirtæki‘.
 14. Í reitinn Tafla skal færa inn ‚CompanyInfo‘.
@@ -59,7 +59,7 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í á “R
 21. Veljið Já í svæðinu Biðja um aðallykil.
     * Stilltu 'Biðja um aðallykil' á Já til að leyfa notendum að velja aðallykilinn sem hluta af listanum yfir víddir.   Ef stillt er á Nei, verður aðallykilinn ekki teknar með á lista yfir víddir og valkosturinn "Er aðallykill skylda" er virkjaður. Ef "Er aðallykill áskilinn' er stilltur á já skal hafa aðallykillinn með í lista yfir víddir óháð vali notanda.  
 22. Smellið á „Í lagi“.
-23. Í trénu skal velja „Dynamics 365 for Operations\Tafla færslur“.
+23. Í trénu skal velja 'Dynamics 365 for Operations\Table records'.
 24. Smella á bæta Við rót.
 25. Í svæðið Heiti, færðu inn 'LedgerJournal'.
 26. Velja skal Já í reitnum Óska eftir fyrirspurn.
@@ -143,5 +143,4 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í á “R
 3. Smellið á „Breyta stöðu“.
 4. Smelltu á Ljúka.
 5. Smellið á „Í lagi“.
-
 

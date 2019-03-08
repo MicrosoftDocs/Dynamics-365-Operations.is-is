@@ -1,13 +1,13 @@
 ---
-title: "Hvað er nýtt eða breytt í Dynamics AX 7.0 (febrúar 2016)"
-description: "Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum Microsoft Dynamics AX 7.0. Útgáfan inniheldur bæði eiginleika verkvangs og forrits og var gefið út í Febrúar 2016 ."
+title: Hvað er nýtt eða breytt í Dynamics AX 7.0 (febrúar 2016)
+description: Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum Microsoft Dynamics AX 7.0. Útgáfan inniheldur bæði eiginleika verkvangs og forrits og var gefið út í Febrúar 2016 .
 author: sericks007
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334888"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Hvað er nýtt eða breytt í Dynamics AX 7.0 (febrúar 2016)
 
 [!include [banner](../includes/banner.md)]
@@ -111,18 +110,18 @@ ms.lasthandoff: 12/18/2018
 </tbody>
 </table>
 
-## <a name="developer"></a>Þróunaraðili
+## <a name="developer"></a>Forritari
 
 | Hvað hægt er að gera? | Dynamics AX 2012 | Dynamics AX 7.0 | Hví er þetta mikilvægt? |
 |------------------|------------------|-----------------|------------------------|
-| Stofna vefbyggt lausnir í skýinu sem eru aðgengilegar á mörgum tæki. | Ekki tiltækt | Gildandi útgáfu af Dynamics AX er byggð á nýja biðlara á vefnum og biðlararamma. | Hægt er að veita notendum þínum lausnir af næstu kynslóð. |
-| Notaðu Microsoft Visual Studio til að þróa lausnir. | Microsoft MorphX er aðal þróunarumhverfið, en sum þróun á sér stað í Visual Studio. | Visual Studio er eina þróunarumhverfið. | Hún heldur í vel þekkt AX 2012 hugtök og aðlagar þær áreynslulaust að Visual Studio ramma og viðmiðum. Það virkjar staðlaða samvirkni með öðrum .NET -tungumálum og verk. |
+| Stofna vefbyggt lausnir í skýinu sem eru aðgengilegar á mörgum tæki. | Ekki tiltækt | Gildandi útgáfu af Dynamics AX er byggð á nýjum biðlara á vefnum og biðlararamma. | Hægt er að veita notendum þínum lausnir af næstu kynslóð. |
+| Notaðu Microsoft Visual Studio til að þróa lausnir. | Microsoft MorphX er aðal þróunarumhverfið, en sum þróun á sér stað í Visual Studio. | Visual Studio er eina þróunarumhverfið. | Hún heldur í vel þekkt Dynamics AX 2012 hugtök og aðlagar þær áreynslulaust að Visual Studio ramma og viðmiðum. Það virkjar staðlaða samvirkni með öðrum .NET -tungumálum og verk. |
 | Compile Common Intermediate Language (CIL) fyrir alla eiginleika. | X ++ er tekinn saman í p-kóða. | Hinn nýji X ++ þýðandi myndar CIL fyrir alla eiginleika. CIL er sama millitungumál sem er notað af öðrum .NET tungumálum. | CIL er hraðvirkara, getur á hagkvæman hátt vísað til klasar í stýrðum gagnvirkum tenglasöfnum (DLLs) og er hægt að keyra á stórum verkfæragrunni .NET veita. |
 | Hafðu með skýrslur viðskiptagreindar (BI) og sjónræna birtingu í Microsoft Dynamics AX biðlaranum. | Ekki tiltækt | Stofna mjög frumlega og flæðandi sjónrænar myndbirtingar. | Slíkt veitir innsýn í betri ákvarðanatöku sem byggist á viðskiptagreind. |
-| Samþætting með Microsoft Office. | Ekki tiltækt | Ný geta er m.a. Excel Data Connector forritið, **Vinnubókarhönnuður** síðan, Flytja út API og skjalastjórnun. | Hægt er að stofna framleiðnilausnir fyrir endanotendur þína. |
+| Samþætt við Microsoft Office. | Ekki tiltækt | Ný geta er m.a. Excel Data Connector forritið, **Vinnubókarhönnuður** síðan, Flytja út API og skjalastjórnun. | Hægt er að stofna framleiðnilausnir fyrir endanotendur þína. |
 | Gera sjálfvirka byggingu, prófun og notkun. | Tiltækur að hluta til | Virkja grannfræði Developer með því að nota sýndarvél Developer og Build. Skilgreindu sjálfvirkt sýndarvél Vm til að uppgötva, byggja kerfiseiningar frá Visual Studio Online (VSO), og keyra prófanir. C\# og X ++ kerfisþýðingu og tilvísanir eru studd. | Það eykur framleiðni hönnuðu með því að draga úr kostnaði og vinnu fyrir prófun og villuleit. |
 | Sérstillt með yfirlögum og viðbótum. | Viðbætur eru ekki tiltækar. | Þessi útgáfa af Dynamics AX er með nýtt sérstillingarkerfi. | Hægt er að sérstillt upprunakóði og lýsigögn líkanaeininga sem eru send af Microsoft eða þriðja aðili Microsoft samstarfsaðila. |
-| Byggja nýja stýringar og viðmótseiningar með því að nota X ++ og nútímalega vefumgjörð. | Sérstillt stýringar treysta á ytri ramma eins og Microsoft ActiveX og Windows Presentation Foundation (WPF). | Það er auðveldara að byggja stýringar í þessari útgáfu. Hægt er að nota X ++ rammanum fyrir hegðun forrits og viðskiptarök, og HTML/JavaScript-byggð biðlara býður upp á nútímalegar sjónræna birtingu.. | Stýringar þínar má hanna til að líta út og hegða sér rétt eins Dynamics Ax út-úr-kassanum (OOB) stýringar. |
+| Byggja nýja stýringar og viðmótseiningar með því að nota X ++ og nútímalega vefumgjörð. | Sérstillt stýringar treysta á ytri ramma eins og Microsoft ActiveX og Windows Presentation Foundation (WPF). | Það er auðveldara að byggja stýringar í þessari útgáfu. Hægt er að nota X ++ rammanum fyrir hegðun forrits og viðskiptarök, og HTML/JavaScript-byggð biðlara býður upp á nútímalegar sjónræna birtingu.. | Stýringar þínar má hanna til að líta út og hegða sér rétt eins Dynamics AX út-úr-kassanum (OOB) stýringar. |
 | Meta og stilla afköst með því að nota ný tæki. | PerfSDK, Data Expansion Toolkit, Trace Parser WEb app, og PerfTimer eru ekki tiltæk. | PerfSDK, Data Expansion Toolkit, Trace Parser Web app, og PerfTimer eru ný. | Hugbúnaðarþróunarpakki (SDK) gerir það mögulegt að prófa og villuleita öll mikilvæg viðskiptaferli fyrir afköst prófunarkeyrslu fyrir einn notanda og, ef við á, fjölda notenda. Gagnaútvíkkun verkfærapakkinn gerir mögulegt að útvíkka öll afkastaprófanir sem þarf að hafa aðalgagna og færslugögn rétt útvíkkuð. Rakningarþáttari gerir kleift að villuleita afkastapróf fyrir einn notanda eða keyrslu fyrir fjölda notanda. PerfTimer gerir kleift að sjá hvort einhver fyrirspurn eða eitthvert tiltekið aðferðarkall veldur vandamálum með afköst. Þess vegna er þarf ekki að framkvæma rakningu og greina allt í smáatriðum. |
 | Sýna uppfæranleg ásýnd með því að nota OData. | Ekki tiltækt | Gildandi útgáfu af Dynamics AX kynnir í almenna OData endastöð þjónustu sem gerir aðgang að Dynamics AX gögnum virkan á samhæfðan hátt á milli breiðu sviði biðlara. | Þitt lausnir getur átt samskipti við RESTful þjónustur, samnýta gögn á hátt þannig að þau má uppgötva, og virkja breiða samþættingu með því að nota HTTP stafla samskiptareglu. |
 | Nýta business connector til að heimila viðskiptarök og til að styðja samþættingar umhverfi. | Business connector er hægt að hringja inn í X ++ kóða úr stýrðum kóða. Við mælum með því að þú notir business connector aðeins til að heimila viðskiptarök í C\#, ekki fyrir samþættingaraðstæður. | Business connector er ekki studd lengur. Hönnunarkröfur ákvarðast af því að X ++ er þýddur í stýrðan kóða. Þess vegna interop er auðveldari. Samþættingarsviðsmyndir eru uppfylltar með því að nota OData. | Ekki er hægt að nota business connector áfram. |
@@ -207,20 +206,20 @@ ms.lasthandoff: 12/18/2018
 <td>Neytendum fjárhagsskýrslna geta notað mismunandi síur fyrir víddir, dagsetningar, eiginleika og sviðsmyndir án þess að krefjast uppfærslur fyrir skýrsluhannanir.</td>
 </tr>
 <tr>
-<td>Skoða fjárhagsskýrslur (Management Reporter ) í Microsoft Dynamics AX biðlara.</td>
+<td>Skoða fjárhagsskýrslur (Management Reporter) í Microsoft Dynamics AX biðlara.</td>
 <td>Aðskilin vefbiðlari var notað til að skoða skýrslur úr Management Reporter.</td>
 <td>Hægt er að nálgast alla fjárhagsskýrslur í Dynamics AX biðlara. Notandi velur skýrslu til að skoða og skýrslan er birt í biðlaranum.</td>
 <td>Hægt er að skoða fjárhagsskýrslur núna án þess að þurfa að fá aðgang að mismunandi biðlara/forritsins.</td>
 </tr>
 <tr>
-<td>Prenta fjárhagsskýrslur (Management Reporter ) úr Microsoft Dynamics AX biðlara.</td>
+<td>Prenta fjárhagsskýrslur (Management Reporter) úr Microsoft Dynamics AX biðlara.</td>
 <td>Prentun skýrslu myndi nota prentvalkosti vafrans til að prenta og prentar aðeins það sem notandinn getur séð á skjánum.</td>
 <td>Notandinn getur valið upplýsingastig og uppsetningu síðu fyrir skýrslu með því að nota valkostinn Prenta í fjárhagsskýrslu í Dynamics AX biðlara.</td>
 <td>Prantaðar skýrslur eru prentaðar á hátt sem notendur búast við frekar en að prenta af vefsíðu.</td>
 </tr><tr>
-<td>Greina fjárhagsleg gögn með því að nota „Fylgjast með fjárhagslegri frammistöðu“ (Monitor financial performance) efni fyrir Power BI.</td>
+<td>Greina fjárhagsleg gögn með því að nota "fylgjast Með fjárhagslega frammistöðu“ (Monitor financial performance) Power BI efni.</td>
 <td>Ekki tiltækt</td>
-<td>Á PowerBI.com, veljið <strong>Sækja Gögn</strong>, og því næst velja <strong>Dynamics AX – Fjárhagslega frammistöðu</strong> efnispakka. Færið inn Vefslóð fyrir Dynamics AX endastöðina til að sjá gögnendurspeglast á yfirliti.</td>
+<td>Á PowerBI.com, veljið <strong>Sækja Gögn</strong>, og því næst velja <strong>Dynamics AX – Fjárhagslega frammistöðu</strong> efnispakka. Færið inn Vefslóð fyrir Dynamics AX endastöðina til að sjá gögn birtast á yfirliti.</td>
 <td>Með þremur eða fjórum smellir, getur fyrirtæki virkja Power BI yfirlit sem inniheldur mikilvægt fjárhagsgögn. Efni má sérstilla af fyrirtæki.</td>
 </tr>
 <tr>
@@ -277,7 +276,7 @@ ms.lasthandoff: 12/18/2018
 <tr>
 <td>Fáðu aðgang að biðlara hvar og hvenær sem er.</td>
 <td>AX 2012 biðlara biðlaraforrits veitir heildarsafn skjámyndum, en það er hægt að keyra aðeins í tölvum sem keyra Microsoft Windows og krefst uppsetningar. Útstöðvarþjónn er oft notað með biðlaraforrits til að virkja aðgang yfir víðsvæðisnet (WAN). Vefbiðlari Enterprise Portal veitir safn færri skjámynda.</td>
-<td>Tveir AX 2012 biðlara hefur verið skipt út fyrir einn, vefbiðlari sem byggir á stöðlum sem veitir heildarsafn virkni biðlaraforritssins ásamt umfangi Enterprise Portal biðlara .</td>
+<td>Tveimur AX 2012 biðlurum hefur verið skipt út fyrir einn, vefbiðlari sem byggir á stöðlum sem veitir heildarsafn virkni biðlaraforritssins ásamt umfangi Enterprise Portal biðlara.</td>
 <td>Það kemur í veg fyrir að þróunarvinna sé skipt á milli tveggja UI vettvanga. Með því að nota staðlaða vefþjónustu viðmót, það er óþarfi að vera með útstöðvarþjón..</td>
 </tr>
 <tr>
@@ -300,7 +299,7 @@ ms.lasthandoff: 12/18/2018
 </tr>
 <tr>
 <td>Notið mynstur fyrir bætta þróunarupplifun á skjámyndum.</td>
-<td>Skjámyndasniðmát voru tiltæk sem byrjunarreitir fyrir þróun skjámynda í AX 2012 á grundvelli skjámyndarstíl. Skjámyndin athugun á stíl, sem er valfrjáls viðbót, veitti upplýsingar um hvernig skjámynd var frábrugðin tilsvarandi sniðmáti.</td>
+<td>Skjámyndasniðmát voru tiltæk sem byrjunarreitir fyrir þróun skjámynda í AX 2012 á grundvelli skjámyndarstíls. Skjámyndin athugun á stíl, sem er valfrjáls viðbót, veitti upplýsingar um hvernig skjámynd var frábrugðin tilsvarandi sniðmáti.</td>
 <td>Í núverandi útgáfu Dynamics AX hafa verið kynntar til leiks mynstur skjámyndar. Mynstur Skjámyndar standa fyrir samsetningu skjámyndasniðmáta og athugun á stíl skjámyndar sem eru kyrfilega samþætt við þróunarupplifun. Mynstur hafa verið skilgreindar á stigi skjámyndar (eins og AX 2012) með viðbótar undirmynstrum sem eru núna tiltæk á stigi hóps og flipasíðu.</td>
 <td>Skjámyndir sem halda sig við mynstur hafa marga kosti þar á meðal samræmt notendaviðmótinu, einfaldari þróunarupplifun, einfaldari uppfærsluslóð skjámyndar, og aukið öryggi í gagnvirkni útlits skjámyndar.</td>
 </tr>
@@ -322,7 +321,7 @@ ms.lasthandoff: 12/18/2018
 <tr>
 <td>Fáðu Aðgang að leiðsögn fyrir ferli (verkefnaleiðbeiningar) og hugtökum með því að smella á <strong>Hjálp</strong>.</td>
 <td>AX 2012 hjálparkerfi vísar til í HTML efnis sem vistaðar eru á staðbundna vefþjóninn. Viðskiptavinur og söluaðilar getur búið til þeirra eigin Hjálp.</td>
-<td>Hjálparkerfi í gildandi útgáfu af Dynamics AX birtir verkefnaleiðbeiningar sem eru geymdar í Microsoft Dynamics Lifecycle Services (LCS) BPM. Hjálparkerfið birtir einnig efni frá Microsoft skráarsíðunni. Frekari upplýsingar eru í <a href="help-overview.md" data-raw-source="[Dynamics AX Help - Getting Started](help-overview.md)">Dynamics AX Help - Hafist handa</a> og <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides available (February 2016)](new-task-guides-available-february-2016.md)">Nýjar verkefnaleiðbeiningar tiltækar (febrúar 2016)</a>.</td>
+<td>Hjálparkerfi í gildandi útgáfu af Dynamics AX birtir verkefnaleiðbeiningar sem eru geymdar í Microsoft Dynamics Lifecycle Services (LCS) BPM. Hjálparkerfið birtir einnig efni frá Microsoft skráarsíðunni. Frekari upplýsingar eru í <a href="help-overview.md" data-raw-source="[Dynamics AX Help - Getting Started](help-overview.md)">Dynamics AX Hjálp - Hafist handa</a> og <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides available (February 2016)](new-task-guides-available-february-2016.md)">Nýjar verkefnaleiðbeiningar tiltækar (febrúar 2016)</a>.</td>
 <td>Verkefnaleiðbeiningar gefa leiðsögn, gagnvirka reynslu sem fer með þig í gegnum þrep í verki eða viðskiptaferli. Hægt er að sækja og sérsníða verkefnaleiðbeiningar sem Microsoft veitir. Þetta efnisatriði veitir hraðari og sveigjanlegri leið til að stofna, afhenda og uppfæra fylgiskjal afurðar. Því hjálpar það að tryggja að þú hafir aðgang að nýjustu tækniupplýsingunum.</td>
 </tr>
 </tbody>
@@ -392,7 +391,7 @@ ms.lasthandoff: 12/18/2018
 <td>Skoða starfsmenn eftir fyrirtæki.</td>
 <td>Þetta er handvirk ferli sem er framkvæmd í gegnum síun.</td>
 <td>Listar starfsmanna og verktaka eru sjálfkrafa síaðir af fyrirtækinu sem þú ert skráður inn í.</td>
-<td>Hún veitir síað yfirlit yfir starfsmenn sem eru ráðnir í fyrirtækinu sem maður er innskráður í. Fyrir ósíað yfirlit yfir alla starfsmenn og verktaka, þá er starfsmannalistinn enn tiltækur. Í þessari útgáfu Dynamics ax, breytir kerfið ekki fyrirtæki á grunni starfsmannsins sem er valin í listanum.</td>
+<td>Hún veitir síað yfirlit yfir starfsmenn sem eru ráðnir í fyrirtækinu sem maður er innskráður í. Fyrir ósíað yfirlit yfir alla starfsmenn og verktaka, þá er starfsmannalistinn enn tiltækur. Í þessari útgáfu Dynamics AX, breytir kerfið ekki fyrirtæki á grunni starfsmannsins sem er valin í listanum.</td>
 </tr>
 <tr>
 <td>Uppfæra námskeiðsþátttakandalistann.</td>
@@ -427,7 +426,7 @@ Engum nýjum eiginleikum hefur verið bætt við.
 <tbody>
 <tr>
 <td>Skilgreina og mynda rafræn skjöl til að uppfylla lögboðnar kröfur í ýmsum löndum/svæðum.</td>
-<td>Rafræn skjöl eru harðkóðuð í X ++ eða sem Extensible Stylesheet Language Transformations (Xslt). Allar leiðréttingar sniðs krefjast þróunarvinna . Aðgang að gögnum og snið eru ekki einangrað. Uppsetning Leiðrétts sniðs krefst nýrri Microsoft Dynamics AX bráðabótarpakka sem hnekkir fyrirliggjandi sniði. Sérstillt breytingar á hverju sniði verður að tengja handvirkt við upprunakóða nýrrar Microsoft Dynamics AX bráðabótarpakka .</td>
+<td>Rafræn skjöl eru harðkóðuð í X ++ eða sem Extensible Stylesheet Language Transformations (Xslt). Allar leiðréttingar sniðs krefjast þróunarvinna . Aðgang að gögnum og snið eru ekki einangrað. Uppsetning Leiðrétts sniðs krefst nýrri Microsoft Dynamics AX bráðabótarpakka sem hnekkir fyrirliggjandi sniði. Sérstillt breytingar á hverju sniði verður að tengja handvirkt við upprunakóða nýrrar Microsoft Dynamics AX bráðabótarpakka.</td>
 <td>Rafrænnar Skýrslugerðar (ER) er ný verkfæri fyrir skilgreiningu og myndun rafræn skjöl sem beinast að viðskiptanotanda frekar en forritara. Rafræn skýrslugerð gerir kleift að setja upp gagnalíkan sem tengjast ákveðnum lénum og eru óháð Microsoft Dynamics AX gagnagrunninum sem gagnaveitur fyrir skjalasnið. Viðskiptanotandagetur skilgreina þessi snið byggt á þessum gagnalíkönum tengdum ákveðnum lénum (til dæmis, fyrir greiðslur, intrastat-skýrslur eða skattaskýrslur). Notandi skilgreinir sniðin með því að nota einfaldar sjónræn verkfæri sem eru svipaðar Excel. ER (rafræn skýrslugerð) styður núna myndun rafrænna skjala í texta, XML, og skrársniðmátin Excel. Þessi skjöl má mynda samtímis og pakka í zip-skrár. Gagnalíkön og snið styðja útgáfuupplýsingar. Útgáfur sniðs getur haft gildistímabil. Hvert gagnalíkan eða sniðsútgáfu er geymt í sér skilgreiningu og þeim dreift til viðskiptaaðilum og viðskiptavinum í gegnum LCS. Viðskiptaaðilar og viðskiptavinir geta sérsníða gagnalíkön og snið Microsoft, og stofna sína eigin. ER vistar skilgreiningarbreytingar samstarfsaðila og viðskiptavina sem delta í Microsoft skilgreiningar, sem einfaldar uppfærslur í nýjar útgáfur af Microsoft skilgreiningar. Með því að nota LCS geta samstarfsaðila einnig samnýtt þeirra gagnalíkan og sniðskilgreiningar með öðrum samstarfsaðila og viðskiptavina, sem geta sérsníða og deila þeim. Delta sérsnið og auðveld uppfærslu er studd gegnum allt sérsniðskeðjuna.</td>
 <td>ER einfaldar stofnun, viðhald og uppfærslu rafræna skjalasnið til að uppfylla lögboðnar kröfur í ýmsum löndum/svæðum. ER gerir ferli að stofna eða breyta rafræna skjalasnið hraðar og auðveldari. Þessar breytingar geta viðskiptanotendur gert í stað forritara. ER gerir hraðar og auðvelda viðskiptaaðilum og viðskiptavinum að uppfæra þeirra sniðsforstillingar í nýjar útgáfur af sniðin sem eru gefnar út af Microsoft eða öðrum viðskiptaaðilum. ER veitir eina almenna leið (gegnum LCS) fyrir Microsoft og samstarfsaðila til að dreifa skilgreiningar rafræna skjals á aðra samstarfsaðila og viðskiptavina. ER auðveldar einnig samstarfsaðilum og viðskiptavinum að sérsníða, uppfærslu og dreifa rafrænt skjal-snið fyrir kröfur tiltekins fyrirtækis síns.</td>
 </tr>
@@ -500,7 +499,7 @@ Engum nýjum eiginleikum hefur verið bætt við.
 <tr>
 <td>(ESB) greiðslutilkynning, þáttökuathugasemd og eftirlitsskýrslur fyrir greiðslur.</td>
 <td>Allar Þessar skýrslur eru innleiddar og SSRS-skýrslur.</td>
-<td>Þessar skýrslur hafa verið innleiddar sem sem Opna XML-sniðmát sem nota á í Microsoft Excel.</td>
+<td>Þessar skýrslur hafa verið innleiddar sem Opna XML-sniðmát sem nota á í Microsoft Excel.</td>
 <td>Skilgreiningar fyrir Rafræn greiðsla innihalda uppsetningu greiðsluskrársniðs og sniðmát. Þetta gerir notendum kleift að fá allar fríðindi og frelsi í sérsníðingu skýrslna með því að rafræna skýrslugerð.</td>
 </tr>
 <tr>
@@ -559,7 +558,7 @@ Engum nýjum eiginleikum hefur verið bætt við.
 |------------------|------------------|-----------------|------------------------|
 | Nota skal **undirbúningi innkaupapöntunar** vinnusvæði til að fá skjótt innlit í stöðu innkaupapantanir sem er verið að undirbúa. | Ekki stutt | Vinnusvæðið **Undirbúningur innkaupapöntunar** veitir yfirlit yfir pantanir frá þeim tíma þegar þær eru stofnaðar sem drög og eru raktar, gegnum stöðu verkflæðissamþykkis og áfram til staðfestingar. | Innkaupadeild fyrirtækisins þarf ekki lengur að leita að upplýsingum úr margar síður en hagnast nú á yfirlit sem vinnusvæðið veitir . |
 | Nota skal **móttöku og eftirfylgni innkaupapöntunar** vinnusvæði til að fá skjótt innlit í innkaupapöntunum sem bíða móttöku, til að aðstoða við eftirfylgni. | Ekki stutt | **Móttöku og eftirfylgni innkaupapöntunar** vinnusvæði veitir yfirlit yfir staðfestar innkaupapantanir sem bíða sendingar eða innhreyfingar. Vinnusvæðið inniheldur lista yfir innhreyfingar sem komnar eru framyfir á tíma og innhreyfingar í bið til að aðstoða við fyrirbyggjandi yfirferð og eftirfylgni af birgi. Vinnusvæðið er einnig með lista yfir innkaupapantanir sem komuskráningu hefur verið gerð fyrir í vöruhúsi, til að aðstoða við að tryggja að móttöku er bókuð. Innkaupapöntun sem hefur ekki enn verið sendar eru einnig tiltækar til skoðunar. | Innkaupadeild hagnast af yfirlit sem vinnusvæðið veitir. Viðeigandi upplýsingar eru tekin saman í til handleiðslu við eftirfylgni og auka framleiðni. |
-| Senda Innkaupapantanir fyrir staðfestingu á gátt lánardrottins  sem er hýst í Dynamics AX-biðlaranum. Láta lánardrottins staðfesta eða hafna. | Ekki stutt | Viðmót gáttar lánardrottins heimilar lánardrottna að fá innkaupapantanir til að staðfesta eða hafna. Þetta leyfir einnig lánardrottins til að sjá yfirlit yfir allar staðfestar innkaupapantanir fyrir lykil. Innkaupaaðili getur sent innkaupapöntun sem krefst staðfestingar hjá lánardrottins. Lánardrottinn þarf að vera skráður Microsoft Azure Active Directory (Azure AD)-notandi í AX, vera tengiliður lánardrottins og hafa sérstakan öryggishlutverk. | Innkaupadeild fyrirtækisins hagnast á því að draga úr pappírsnotkun og handvirkt fylgjast með svör á innkaupapöntunum, þar sem flæði beint inn í kerfið. Að vera með einn uppruna sannleikans dregur úr misskilningi milli viðskiptavinar og lánardrottins. |
+| Senda Innkaupapantanir fyrir staðfestingu á gátt lánardrottins sem er hýst í Dynamics AX-biðlaranum. Láta lánardrottins staðfesta eða hafna. | Ekki stutt | Viðmót gáttar lánardrottins heimilar lánardrottna að fá innkaupapantanir til að staðfesta eða hafna. Þetta leyfir einnig lánardrottins til að sjá yfirlit yfir allar staðfestar innkaupapantanir fyrir lykil. Innkaupaaðili getur sent innkaupapöntun sem krefst staðfestingar hjá lánardrottins. Lánardrottinn þarf að vera skráður Microsoft Azure Active Directory (Azure AD) notandi í Dynamics AX, vera tengiliður lánardrottins og hafa sérstakan öryggishlutverk. | Innkaupadeild fyrirtækisins hagnast á því að draga úr pappírsnotkun og handvirkt fylgjast með svör á innkaupapöntunum, þar sem flæði beint inn í kerfið. Að vera með einn uppruna sannleikans dregur úr misskilningi milli viðskiptavinar og lánardrottins. |
 
 ## <a name="projects"></a>Verk
 
@@ -668,7 +667,7 @@ Microsoft Azure-hýst HQ Retail býður upp á miðstýrðar stjórnun á og hei
 <td>Innflutningur/flytja út gögn með því að nota gagnaeiningar.</td>
 <td>AX 2012 styður út-úr-boxinu Microsoft Dynamics Retail Management System (RMS) yfirfærslu gegnum gagnarammann fyrir Inn-og Útflutning.</td>
 <td>Gagnaeiningar smásölu hafa verið útvíkkaðar til að styðja öll sniðmát og tilvísunargögn sem tengjast smásölu. Það er einnig aukinn stuðning fyrir gagnaeiningar þvert á allar lausnir Dynamics AX.</td>
-<td>Gagnaeiningar leyfa viðskiptavinum að gera innflutning og útflutning gagna á grunni lýsigagna. Einingar OData leyfa einnig viðskiptavini a‘ samþætta Dynamics AX við forrit þriðja aðila .</td>
+<td>Gagnaeiningar leyfa viðskiptavinum að gera innflutning og útflutning gagna á grunni lýsigagna. Einingar OData leyfa einnig viðskiptavini a‘ samþætta Dynamics AX við forrit þriðja aðila.</td>
 </tr>
 <tr>
 <td>Framkvæma snjalla greiningu með BI skýrslur frá Microsoft Dynamics AX og biðlara Sölustaðar.</td>
@@ -677,9 +676,9 @@ Microsoft Azure-hýst HQ Retail býður upp á miðstýrðar stjórnun á og hei
 <td>Þessar skýrslur láta viðskiptavini hafa fleiri BI til að spá fyrir um leitni, afhjúpa innsýn, og starfa á stanslausum hámarksafköstum.</td>
 </tr>
 <tr>
-<td>Greina sölugögn smásölurásar með því að nota Power BI-efnið „Fylgjast með Retail Channel Performance“.</td>
+<td>Greina sölugögn smásölurásar með því að nota "fylgjast Með frammistöðu smásölurásar“ Power BI efni.</td>
 <td>Ekki tiltækt</td>
-<td>Á PowerBI.com, veljið <strong>Sækja Gögn</strong>, og því næst velja <strong>Dynamics AX – frammistaða smásölurásar</strong> efnispakka. Færið inn Vefslóð fyrir Dynamics AX endastöðina til að sjá gögnendurspeglast á yfirliti.</td>
+<td>Á PowerBI.com, veljið <strong>Sækja Gögn</strong>, og því næst velja <strong>Dynamics AX – frammistaða smásölurásar</strong> efnispakka. Færið inn Vefslóð fyrir Dynamics AX endastöðina til að sjá gögn birtast á yfirliti.</td>
 <td>Með þremur eða fjórum smellir, getur fyrirtæki virkja Power BI yfirlit sem inniheldur mikilvægt fjárhagsgögn. Efni má sérstilla af fyrirtæki. Þar að auki geta notendur haft með Power BI yfirlitsreiti í þeirra sérsniðinn vinnusvæða í Dynamics AX þannig að geti síðan séð greiningarupplýsingar í fljótu bragði.</td>
 </tr>
 <tr>
@@ -735,15 +734,15 @@ Retail Server og gagnastjórnun gerir kleift neytendum og fyrirtæki að stofna 
 </tr>
 <tr>
 <td>Flytja gögn milli bakskrifstofu Microsoft Dynamics AX og smásölurása með notkun Commerce Data Exchange.</td>
-<td>Commerce Data Exchange er kerfi sem flytur gögn milli Microsoft Dynamics AX og smásölurása, eins og netverslanir eða hefðbundnar verslanir. Frekari upplýsingar eru í <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
+<td>Commerce Data Exchange er kerfi sem flytur gögn milli Microsoft Dynamics AX og smásölurása, eins og netverslanir eða hefðbundnar verslanir. Frekari upplýsingar er að finna í <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
 <td>Það er virknitvístæða með Microsoft Dynamics AX 2012 CU8. Athugið hins vegar eftirfarandi upplýsingar:
 <ul>
-<li>Commerce Data Exchange hefur verið endurhönnuð fyrir skýinu.</li>
+<li>Commerce Data Exchange hefur verið endurhannað fyrir skýið.</li>
 <li>Async þjónusta notar beinan aðgang að gagnagrunni í gagnagrunn rásar.</li>
 <li>Commerce Data Exchange: Real-time Service er hýst sem sérsniðna þjónustu Microsoft Dynamics AX.</li>
 <li>MPOS stjórnar samstilling á milli ótengdan gagnagrunn og Retail-Þjóns.</li>
 </ul></td>
-<td>Commerce Data Exchange hefur verið endurhönnuð fyrir vettvang skýsins. Það heldur áfram að stjórna flutningum gagna milli Microsoft Dynamics AX og smásölurása, eins og netverslanir eða hefðbundnar verslanir.</td>
+<td>Commerce Data Exchange hefur verið endurhannað fyrir vettvang skýsins. Það heldur áfram að stjórna flutningum gagna milli Microsoft Dynamics AX og smásölurása, eins og netverslanir eða hefðbundnar verslanir.</td>
 </tr>
 <tr>
 <td>Styður plug and play, hálf-samþætt milli-rásar greiðsluvinnslu með notkun greiðslu SDK.</td>
@@ -754,15 +753,15 @@ Retail Server og gagnastjórnun gerir kleift neytendum og fyrirtæki að stofna 
 <li>Síða til að samþykkja greiðslu</li>
 <li>Jaðarbúnaðarstuðning við LS5300 og MX925 sem sýniskóða í Retail SDK</li>
 </ul></td>
-<td>Þesso útgáfu af Dynamics AX styður allar fyrirliggjandi Microsoft Dynamics AX Retail 2012 kredit/debet-kort aðgerðir og fjórum nýja viðbætur.</td>
+<td>Þessi útgáfu af Dynamics AX styður allar fyrirliggjandi Microsoft Dynamics AX fyrir Retail 2012 kredit/debet-kort aðgerðir og fjórum nýja viðbætur.</td>
 <td>Það leyfir viðskiptavini að vinna kredit/debet kortafærslur fyrir greiðslur.</td>
 </tr>
 <tr>
-<td>Virkja tæki með því að nota a Microsoft lykill (Azure Active Directory [Azure AD]).</td>
+<td>Virkja tæki með því að nota a Microsoft lykill (Microsoft Azure Active Directory (Azure AD)).</td>
 <td>Ekki tiltækt</td>
 <td>Eftirfarandi aðgerðir eru veittar:
 <ul>
-<li>Aukið öryggi með Azure AD virkjun fyrir í skýið</li>
+<li>Aukið öryggi með Azure AD virkjun fyrir í skýið.</li>
 <li>Aukið öryggi fyrir táknastjórnun</li>
 <li>Aukinn áreiðanleika, úrræðaleit og villuskilaboð meðan á virkjun stendur</li>
 <li>Einfölduð stjórnunarverkefni upplýsingatækni sem tengjast virkjun</li>
@@ -770,7 +769,7 @@ Retail Server og gagnastjórnun gerir kleift neytendum og fyrirtæki að stofna 
 </ul></td>
 <td>Það veitir eftirfarandi ávinning:
 <ul>
-<li>Öryggi er bætt með Azure AD og tækjatákn/Kenni (RS símtöl sem nota tákn, notandatengdum geymsla forrita)</li>
+<li>Öryggi er bætt með Azure AD og tækjatákn/Kenni (RS símtöl sem nota tákn, notandatengdum geymsla forrita).</li>
 <li>Það stöðvar óheimilaða notkun fjartengda notkun MPOS (múrsteinstæki).</li>
 <li>Það rekur MPOS tæki fyrir PCI samræmi.</li>
 <li>Það kortleggur efnisleg tæki á viðskiptaeiningar (afgreiðslukassa) með því að nota tákn tækis.</li>
@@ -786,7 +785,7 @@ Retail Server og gagnastjórnun gerir kleift neytendum og fyrirtæki að stofna 
 <li>Styður upphleðslu myndar og skoða úr síðum einingar (<strong>Afurðir</strong>, <strong>Vörulista</strong>og svo framvegis) með því að tengja mynd úr safni og upphleðslu myndar úr á skjáborði.</li>
 <li>Betrumbæta the myndir fyrir smámynd, sérstillt stærð, og upprunalega mynd.</li>
 <li>Fjöldatengja einingar með því að nota sniðmát og vinnslur í bakgrunni fyrir fjöltengingar.</li>
-<li>Microsoft Excel-samþættingu hnekkir takmörkun eigindarflokks fyrir heitavenjur og forskilgreindar slóðir.</li>
+<li>Microsoft Excel-samþætting hnekkir takmörkun eigindarflokks fyrir heitavenjur og forskilgreindar slóðir.</li>
 <li>Styðja myndir sem ekki eru á netinu og tryggja myndir fyrir persónugreinanlegar upplýsingar (PII) efni, t.d. smásöluhýstar myndir starfsmaður og viðskiptavinur .</li>
 </ul></td>
 <td><ul>
@@ -839,13 +838,13 @@ Smásala býður upp á frábæra fartækja upplifun hvar sem er, hvenær sem er
 <ul>
 <li>Virkjun tækis með því að nota AAD</li>
 <li>Góð svörun í hönnun útlits</li>
-<li>Stuðningur fyrir Internet Explorer og Edge og Chrome vafri</li>
+<li>Stuðningur fyrir Edge, Internet Explorer og Chrome vafra.</li>
 </ul></td>
 <td>Hún veitir POS vefforrit hefur virkni sem er ekki samhæf MPOS og sem hægt er að nota á milli vettvanga og vöfrum án uppsetningarkostnaðar.</td>
 </tr>
 <tr>
 <td>Samþætta með efnisstýringarkerfum til að búa til omni-rásar e-commerce vefsíðu.</td>
-<td>Microsoft SharePoint og búðarglugga þriðja aðila eru studd.</td>
+<td>Microsoft SharePoint og búðargluggar þriðja aðila eru studd.</td>
 <td>E-commerce verkvangur er veittur sem styður búðarglugga þriðja aðila. Vettvangurinn felur í sér eftirfarandi:
 <ul>
 <li>Ríkulegt API fyrir neytanda</li>
@@ -959,14 +958,14 @@ Lifecycle Services (LCS) býður upp á safn þjónustu sem viðskiptaaðilar og
 </ul>
 Til staðar er bætt "lágsnertingar" uppsetning á íhlut biðlara í gegnum sjálfsafgreiðsluuppsetningu:
 <ul>
-<li>Retail Modern POS</li>
+<li>Retail Modern POS.</li>
 <li>Vélbúnaðarstöð smásölu</li>
 <li>Stuðningur fyrir upphleðslu og dreifingu sérsniðna pakka gegnum uppsetningar sjálfsafgreiðslu</li>
 </ul></td>
 <td>Virkjunarþjónustur skýs veita eftirfarandi ávinning:
 <ul>
 <li>Miklu minni virkjunarvinna og flækjustig fyrir Retail HQ íhluti</li>
-<li>Innbyggt uppsetning í Microsoft Azure opið ský</li>
+<li>Innbyggð uppsetning í Microsoft Azure opið ský.</li>
 <li>Bætt uppsetning sjálfsafgreiðslu fyrir íhluta í verslun til að gera skilgreiningu auðveldari og snjallari</li>
 </ul></td>
 </tr>
@@ -1034,4 +1033,3 @@ Engum nýjum eiginleikum hefur verið bætt við.
 [Nýjungar eða breytingar](whats-new-changed.md)
 
 [Nýtt verk tiltæk leiðbeiningar (Febrúar 2016)](new-task-guides-available-february-2016.md)
-

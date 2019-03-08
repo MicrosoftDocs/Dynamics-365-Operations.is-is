@@ -1,13 +1,13 @@
 ---
-title: "Heimasíða Innkaupa og aðfanga"
-description: "Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng sem eru tiltæk fyrir „Innkaup og aðföng“."
+title: Heimasíða Innkaupa og aðfanga
+description: Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng sem eru tiltæk fyrir „Innkaup og aðföng“.
 author: mkirknel
 manager: AnnBe
 ms.date: 09/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 091b50c26cf596fc03e42f60fc662b8d1f25f06b
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338591"
 ---
-
 # <a name="procurement-and-sourcing-home-page"></a>Heimasíða Innkaupa og aðfanga
 
 [!include [banner](../includes/banner.md)]
@@ -55,12 +54,12 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 -   [Samstarf lánardrottna við ytri lánardrottna](vendor-collaboration-work-external-vendors.md)
 -   [Samstarf lánardrottna við viðskiptavini](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Stjórna notendum fyrir samstarf lánardrottna](manage-vendor-collaboration-users.md)
--   [Setja upp og viðhalda samstarf lánardrottna](set-up-maintain-vendor-collaboration.md)
+-   [Uppsetning og viðhald samstarfs lánardrottna](set-up-maintain-vendor-collaboration.md)
 -   [Dæmi um forskrift fyrir vörusendingabirgðir á innleið fyrir Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(hvítbók)
 -   [Fylgjast með vörusendingabirgðum með samstarfi lánardrottna](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
--   [Samstarf við lánardrottna með því að nota gátt lánardrottins](collaborate-vendors-vendor-portal.md)  (febrúar 2016 og maí 2016 útgáfur Dynamics eingöngu)
+-   [Samstarf við lánardrottna með því að nota Gátt Lánardrottins](collaborate-vendors-vendor-portal.md) (einungis febrúar 2016 og maí 2016 útgáfur Dynamics AX)
 -   [Skilgreining á öryggi fyrir notendur gáttar lánardrottins](configure-security-vendor-portal-users.md) (2016 og maí 2016 útgáfur Finance and Operations eingöngu)
--   [Vinnusvæði fartækis fyrir samstarf við lánardrottna fyrir Microsoft Dynamics 365 for Finance and Operations forrit](vendor-collaboration-mobile-workspace.md)
+-   [Fartækjavinnusvæði samstarfs lánardrottna fyrir Microsoft Dynamics 365 for Finance and Operations forrit](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Innkaupastjórnun afurða
 -   [Innkaupavörulistar](procurement-catalogs.md)
@@ -102,7 +101,6 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 -   [Skilgreina viðskiptaferli verkflæði fyrir innkaupabeiðnir](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (hvítbók)
 -   [Innkaupareglur](purchase-policies.md)
 -   [Búa til innkaupastefnu](tasks/create-purchasing-policies.md)
-
 
 
 

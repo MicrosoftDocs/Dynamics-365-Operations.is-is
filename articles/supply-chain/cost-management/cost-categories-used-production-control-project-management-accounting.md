@@ -1,13 +1,13 @@
 ---
-title: "Um kostnaðartegundir notaðar í bókhaldi Framleiðslustýringar og Verkefnastjórnunar."
-description: "Sumar gerðir framleiðslu geta átt við um mat á verktíma og skýrslur. Þessi grein veitir upplýsingar um kostnaðarflokka sem verður að skilgreina fyrir þessar gerðir framleiðsluvinnu fyrir framleiðslu og verk."
+title: Um kostnaðartegundir notaðar í bókhaldi Framleiðslustýringar og Verkefnastjórnunar.
+description: Sumar gerðir framleiðslu geta átt við um mat á verktíma og skýrslur. Þessi grein veitir upplýsingar um kostnaðarflokka sem verður að skilgreina fyrir þessar gerðir framleiðsluvinnu fyrir framleiðslu og verk.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjCategory
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cab4629740e92f9075b7afc7a5d228b2e01c4664
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d641ce950aed87b0cf6763fc9dae67ef47268b8d
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326033"
 ---
-
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Um kostnaðartegundir notaðar í bókhaldi Framleiðslustýringar og Verkefnastjórnunar.
 
 [!include [banner](../includes/banner.md)]
@@ -42,7 +41,6 @@ Sumar gerðir framleiðslu geta átt við um mat á verktíma og skýrslur. Í �
 -   Yfirleitt eru fjárhagslyklarnir sem tengjast kostnaði og sölu skilgreindir fyrir tegundarflokkinn sem er tengdur kostnaðartegundinni. Hins vegar er hægt að skilgreina tiltekna lykla fyrir stakar kostnaðartegundir.
 
 Viðbótarhnappar á síðunni **Kostnaðartegundir** gefa aðgang að verktengdum upplýsingum um valda kostnaðartegund. T.d. er hægt að skoða verktengdar upplýsingar, skilgreina starfsmenn eða verk, skilgreina tímakostnað og söluverð og skoða skýrslur.
-
 
 
 

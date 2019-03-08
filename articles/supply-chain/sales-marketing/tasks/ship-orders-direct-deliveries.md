@@ -1,13 +1,13 @@
---- 
+---
 title: Senda pantanir sem beinar afhendingar
-description: "Þetta ferli sýnir hvernig á að búa til beina afhendingu fyrir sölupöntun."
+description: Þetta ferli sýnir hvernig á að búa til beina afhendingu fyrir sölupöntun.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchEditLines, PurchTableReferences, MCRDropShipWorkbench
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5cd68aa1c15672c702db887c08ecf9b3d63f2618
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f674de4877dd2d6e6f1ff02f16a68cb4805d9864
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339281"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Senda pantanir sem beinar afhendingar
 
@@ -102,5 +102,4 @@ ms.lasthandoff: 09/29/2017
 14. Smellt er á Stofna beinar afhendingar
 15. Smellið á staðfestarflipann
     * Þegar búið er að stofna pöntun fyrir beina afhendingu er það sjálfkrafa flutt í flipann Staðfestingu. Hægt er að velja að staðfesta pöntunina beint úr þessari síðu. Þegar innkaupin er að staðfesta það sjálfkrafa færist í flipanum Afhendingar, þar sem hægt er að skrá móttöku hans.  
-
 

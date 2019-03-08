@@ -1,13 +1,13 @@
 ---
-title: "Setja upp vöruúrval"
-description: "Þessi grein lýsir því hvað vöruúrval er og útskýrir hvernig á að setja upp vöruúrval í Microsoft Dynamics 365 for Retail."
+title: Setja upp vöruúrval
+description: Þessi grein lýsir því hvað vöruúrval er og útskýrir hvernig á að setja upp vöruúrval í Microsoft Dynamics 365 for Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,15 +19,14 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: a9578a0784d4f4fbfca27ec4093a3f61d1068a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 91713a4492ad82520f7dde611c17a5ea168ed80d
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314970"
 ---
-
-# <a name="set-up-assortments"></a>Uppsetning vöruúrvals
+# <a name="set-up-assortments"></a>Setja upp úrval
 
 [!include [banner](includes/banner.md)]
 
@@ -56,4 +55,3 @@ Eftir að forkröfur er lokið er hægt að stofna úrval og úthluta á smásö
 2. Veljið smásölurása eða hástigs flokka af smásölurása sem úrvalið á við.
 3. Bæta afurðaflokka, stakar afurðir eða afurðarafbrigði við úrvali. Hægt er að taka með allar vörur í tiltekinni tegund, eða hægt er að útiloka valdar afurðir úr tegund sem er tekin með í úrvalið.
 4. Birta vöruúrval verkraðari smásöluúrvals er keyrður sjálfkrafa þegar úrval er birt. Þetta ferli myndar lista yfir afurðir. Síðan þegar þessu ferli er lokið verða þessar afurðir tiltækar til smásölurása sem er tengdur við úrvalið. Ef breytingar eru gerðar á úrval sem hefur verið birt eða á smásölurás sem úrvalinu er úthlutað á, þarf að uppfæra úrvalinu. Hægt er að keyra verkraðari smásöluúrvals sem runuvinnslu til að uppfæra úrvalinu þegar breytingar eru gerðar.
-

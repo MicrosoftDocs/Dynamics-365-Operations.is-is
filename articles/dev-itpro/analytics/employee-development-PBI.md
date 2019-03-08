@@ -1,13 +1,13 @@
 ---
-title: "Þróun starfsmanns efni Power BI"
-description: "Þetta efnisatriði lýsir efni þróunar starfsmanns í Power BI."
+title: Starfsmannaþróun Power BI efni
+description: Þetta efnisatriði lýsir starfsmannaþróun Power BI efni.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Talent
@@ -15,22 +15,21 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347170"
 ---
-
-# <a name="employee-development-power-bi-content"></a>Þróun starfsmanns efni Power BI
+# <a name="employee-development-power-bi-content"></a>Starfsmannaþróun Power BI efni
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir efni **þróunar starfsmanns** í Microsoft Power BI.
+Þetta efnisatriði lýsir **Starfsmannaþróun** Microsoft Power BI efni.
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðir með í Power BI-efni
-Skýrslur sem fylgja í efni **Þróun starfsmanns** í Power BI hafa bæði myndrit og töflur sem innihalda viðbótarupplýsingar. Eftirfarandi tafla lýsir skýrslunum.
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðar með í Power BI efni
+Skýrslur sem eru hafðar með í **Starfsmannaþróun** Power BI efni hafa bæði gröf og töflur sem innihalda viðbótarupplýsingar. Eftirfarandi tafla lýsir skýrslunum.
 
 | Skýrsla                        | Innihald |
 |-------------------------------|----------|
@@ -70,4 +69,3 @@ Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á
 | Hæfnigreining starfsmanns  | Vottun, stig, dagsetning stigs og hæfni                                                                    | Nafn starfsmanns, hæfni |
 | Afköst              | Mat, lýsing og matslíkan                                                                      | Núverandi starfsmaður, núverandi staða, starfsmannaleitni, æskileg hæfni starfs, fyrri stöðuúthlutun, stöðuleitni starfsmaður sem er hættur |
 | Hæfni                    | Hæfni, gerð hæfni og mat                                                                              | Hæfnigreining starfsmanns, æskileg hæfni starfs |
-

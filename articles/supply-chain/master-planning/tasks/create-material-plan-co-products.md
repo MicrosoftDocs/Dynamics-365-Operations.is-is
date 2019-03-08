@@ -1,13 +1,13 @@
---- 
-title: "Stofna efnisáætlun fyrir aukaafurðir."
-description: "Framleiðslustjóri áætlar efnisþarfir fyrir vörur sem eru aukaafurðir formúlu."
+---
+title: Stofna efnisáætlun fyrir aukaafurðir.
+description: Framleiðslustjóri áætlar efnisþarfir fyrir vörur sem eru aukaafurðir formúlu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, SalesOrderProcessingWorkspace, SalesCreateOrder, SalesTable, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, ReqTransPo
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 2958f1e5c2e8a0cfa9cc6312f688d3b11b8e013c
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337142"
 ---
 # <a name="create-a-material-plan-for-co-products"></a>Stofna efnisáætlun fyrir aukaafurðir.
 
@@ -110,5 +110,4 @@ Framleiðslustjóri áætlar efnisþarfir fyrir vörur sem eru aukaafurðir form
 18. Fara í Aðaláætlunargerð > Uppsetning > Færibreytur áætlanagerðar.
 19. Veljið Nei í reitnum Slökkva á öllum ferlum áætlanagerðar.
 20. Lokið síðunni.
-
 

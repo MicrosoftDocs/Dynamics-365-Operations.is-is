@@ -1,13 +1,13 @@
 ---
-title: "Yfirlit yfir „Innkaupabeiðni“"
-description: "Þetta efnisatriði lýsir verkflæði innkaupabeiðna og þeim mismunandi stöðum sem innkaupabeiðni getur verið með."
+title: Yfirlit yfir „Innkaupabeiðni“
+description: Þetta efnisatriði lýsir verkflæði innkaupabeiðna og þeim mismunandi stöðum sem innkaupabeiðni getur verið með.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f279474d4a1e2f76e810b0df80c8d91171352c17
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 942693ed3d2d54c6e973e5d3f86454b195f0fdee
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309841"
 ---
-
 # <a name="purchase-requisition-overview"></a>Yfirlit yfir „Innkaupabeiðni“
 
 [!include [banner](../includes/banner.md)]
@@ -69,7 +68,7 @@ Heildarstaða innkaupabeiðninnar ræðst af stöðu innkaupabeiðnilínanna. Þ
 <tr class="odd">
 <td>Drög</td>
 <td>Drög</td>
-<td>Innkaupabeiðni og innkaupabeiðnilínan hafa verið stofnaðar, en þær hafa ekki verið sendar til endurskoðunar. Innkaupabeiðnir og innkaupabeiðnilínur með stöðuna <strong>Drög</strong> er hægt að breyta. Innkaupabeiðni eða innkaupabeiðnilína hefur einnig stöðuna <strong>Drög</strong> ef hún hefur verið afturkölluð en hefur ekki verið send aftur til skoðunar. <strong>Ábending:</strong> Hægt er að senda eða afturkalla innkaupabeiðni í skjalastigi. Hins vegar er ekki hægt að senda eða afturkalla eina línu innkaupabeiðni.</td>
+<td>Innkaupabeiðni og innkaupabeiðnilínan hafa verið stofnaðar, en þær hafa ekki verið sent til endurskoðunar.&#39; Innkaupabeiðnir og innkaupabeiðnilínur með stöðuna <strong>Drög</strong> er hægt að breyta. Innkaupabeiðni eða innkaupapöntunarlína hefur einnig stöðuna <strong>Drög</strong> ef hún hefur verið afturkölluð en hefur ekki verið send aftur til skoðunar.&#39; <strong>Ábending:</strong> Hægt er að senda eða afturkalla innkaupabeiðni í skjalastigi. Hins vegar er ekki hægt að senda eða afturkalla eina línu innkaupabeiðni.&#39;</td>
 </tr>
 <tr class="even">
 <td>Í skoðun</td>
@@ -99,7 +98,7 @@ Ef innkaupabeiðnilína sem hefur verið hafnað er endursend hefst endurskoðun
 <td>Allar innkaupabeiðnilínur hafa lokið við endurskoðunarferli og engin endurskoðunarferli eru eftir fyrir innkaupabeiðnina.
 <ul>
 <li><strong>Samþykkt</strong> – Endurskoðunarferli fyrir línu innkaupabeiðni hefur verið lokið og línan er samþykkt.</li>
-<li><strong>Hætt við</strong> – Innkaupabeiðnilína var samþykkt, en hún var afturkölluð þar sem hennar er ekki lengur þörf. Aðeins er hægt að afturkalla innkaupabeiðnilínur sem hafa verið samþykkiar.</li>
+<li><strong>Hætt við</strong> – Innkaupabeiðnilína var samþykkt, en hún var afturkölluð þar sem hennar er ekki lengur þörf.&#39; Aðeins er hægt að afturkalla innkaupabeiðnilínur sem hafa verið samþykkiar.</li>
 <li><strong>Lokað</strong> – Innkaupabeiðnilínan var samþykkt og skjöl hafa verið mynduð, samkvæmt tilgangi beiðninnar.
 <ul>
 <li>Ef tilgangur beiðninnar er notkun hefur innkaupapöntun verið mynduð fyrir innkaupabeiðnilínuna.</li>
@@ -125,7 +124,7 @@ Ef innkaupabeiðnilína sem hefur verið hafnað er endursend hefst endurskoðun
 <li>Ef tilgangur beiðninnar er notkun hefur innkaupapöntun verið mynduð fyrir innkaupabeiðnilínuna.</li>
 <li>Ef tilgangur beiðninnar er áfylling hafa eitt eða fleiri uppfyllingarskjöl verið mynduð.</li>
 </ul></li>
-<li><strong>Hætt við</strong> – Innkaupabeiðnilína var samþykkt, en hún var afturkölluð þar sem hennar er ekki lengur þörf. Aðeins er hægt að afturkalla innkaupabeiðnilínur sem hafa verið samþykkiar.</li>
+<li><strong>Hætt við</strong> – Innkaupabeiðnilína var samþykkt, en hún var afturkölluð þar sem hennar er ekki lengur þörf.&#39; Aðeins er hægt að afturkalla innkaupabeiðnilínur sem hafa verið samþykkiar.</li>
 </ul>
 <strong>Ábending:</strong> Sé er ekki lengur þörf á vöru á línu innkaupabeiðni sem hefur verið lokað, verður að hætta við línu uppfyllingar skjalinu sem var mynduð fyrir línu innkaupabeiðninnar.</td>
 </tr>
@@ -142,7 +141,7 @@ Tilgangur beiðni gera ferli uppfyllingar á innkaupabeiðni sveigjanlegri. Þeg
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Beiðnir sem hafa notkunartilgang
 
-Innkaupabeiðni sem hefur tilgang notkunar stendur fyrir eftirspurn eftir vörur eða þjónustu sem á að nota innan kerfis af fyrirtækinu. Eftirspurnar sem er stofnuð af þessari gerð innkaupabeiðni uppfylltar alltaf með innkaupapöntun. Ef Microsoft Dynamics 365 for Finance and Operations er sett upp til að stofna innkaupapantanir sjákfkrafa eru innkaupapantanir stofnaðar eftir að innkaupabeiðnin er samþykkt.
+Innkaupabeiðni sem hefur tilgang notkunar stendur fyrir eftirspurn eftir vörur eða þjónustu sem á að nota innan kerfis af fyrirtækinu. Eftirspurnar sem er stofnuð af þessari gerð innkaupabeiðni uppfylltar alltaf með innkaupapöntun. Ef Microsoft Dynamics 365 for Finance and Operations er sjálfvirkt sett upp til að stofna innkaupapantanir, eru innkaupapantanir stofnaðar eftir að innkaupabeiðnin er samþykkt.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Beiðnir sem hafa málefnið áfyllingu
 
@@ -198,7 +197,6 @@ Til að sameina samþykktar innkaupabeiðnilínur, skal fylgja þessum skrefum:
 [Stofna innkaupabeiðni fyrir notkun (verkleiðbeiningar)](tasks/create-requisition-consumption.md)
 
 [Verkflæði innkaupabeiðni](purchase-requisitions-workflow.md)
-
 
 
 

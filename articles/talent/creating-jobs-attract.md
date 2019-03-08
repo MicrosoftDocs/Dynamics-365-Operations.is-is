@@ -1,37 +1,36 @@
 ---
-title: "Búðu til, samþykkja og auglýsa störf í Attract"
-description: "Þetta umræðuefni lýsir grunnatriðum starfa í Attract. Það útskýrir einnig hvernig á að búa til starf."
+title: Búðu til, samþykkja og auglýsa störf í Attract
+description: Þetta umræðuefni lýsir grunnatriðum starfa í Attract. Það útskýrir einnig hvernig á að búa til starf.
 author: josaw
 manager: AnnBe
 ms.date: 12/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
 ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.contentlocale: is-is
-ms.lasthandoff: 12/23/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304865"
 ---
-
 # <a name="create-approve-and-post-jobs-in-attract"></a>Búðu til, samþykkja og auglýsa störf í Attract
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir grunnatriðum starfa í Microsoft Dynamics 365 for Talent: Attract. Það útskýrir einnig hvernig á að búa til starf.
+Þetta umræðuefni lýsir grunnatriðum verks í Microsoft Dynamics 365 for Talent: Attract. Það útskýrir einnig hvernig á að búa til starf.
 
 ## <a name="job-creation"></a>Starf búið til
 
@@ -169,4 +168,3 @@ Fylgdu þessum skrefum til að búa til starf.
 
 13. Til að virkja starfið skaltu velja **Virkja**.
 14. Til að auglýsa starf, farðu til **Starfsauglýsingar** og veldu síðan **Auglýsa núna** á síðu Talent Careers eða LinkedIn.
-

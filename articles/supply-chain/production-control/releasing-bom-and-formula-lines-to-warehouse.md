@@ -1,13 +1,13 @@
 ---
-title: "Losa uppskriftar- og formúlulínur í vöruhúsið"
-description: "Þetta efnisatriði lýsir ferlinu fyrir losun hráefnis fyrir uppskriftar- og formúlulína í vöruhúsið."
+title: Losa uppskriftar- og formúlulínur í vöruhúsið
+description: Þetta efnisatriði lýsir ferlinu fyrir losun hráefnis fyrir uppskriftar- og formúlulína í vöruhúsið.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: josaw
@@ -16,15 +16,14 @@ ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 8ccdb71f49652d6cca6ced2e9e9764d9ad0fffd8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 2bccabb033f5ba142b145e69930ce516aad596f2
-ms.contentlocale: is-is
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343145"
 ---
-
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Losa uppskriftar- og formúlulínur í vöruhúsið
 
 [!include [banner](../includes/banner.md)]
@@ -99,4 +98,3 @@ Til að fá snögga sýnikennslu um losun hraéfna í hlutfalli við magn fullun
     Einingarnar sem eru tiltækar eru skilgreindar í kenni einingaröðunarflokks fullunnu vörunnar.
 
     Til dæmis hefur fullunnin vara eftirfarandi einingaumreikning á milli punda (lbs.) og bretti (PL): 1 PL = 100 pund. Til að stofna framleiðslupöntun fyrir 10.000 pund. af fullunnu vörunni, getur þú losað hráefni fyrir fjölda bretti sem þú áætlar að framleiða. Veldu **PL** sem eininguna og veldu síðan samsvarandi númer í **Magn** reitnum.
-

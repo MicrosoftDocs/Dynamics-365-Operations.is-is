@@ -1,32 +1,31 @@
 ---
-title: "Uppfletting birgða á sölustað (POS)"
-description: "Þetta efnisatriði lýsir þeim valkostum sem eru í boði til að skoða birgðaupplýsingar á sölustað (POS)."
+title: Uppfletting birgða á sölustað (POS)
+description: Þetta efnisatriði lýsir þeim valkostum sem eru í boði til að skoða birgðaupplýsingar á sölustað (POS).
 author: ashishmsft
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314418"
 ---
-
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>Uppfletting birgða á sölustað (POS)
 
 [!include [banner](includes/banner.md)]
@@ -116,4 +115,3 @@ Eftirfarandi tafla veitir frekari upplýsingar um viðbótaraðgerðir sem eru �
 | Framboð         | Sýna ATP-upplýsingar fyrir valdar samsetningar afbrigða fyrir valda staðsetningu. |
 | Sýna allar staðsetningar   | Skiptu yfir í staðlað uppflettingaryfirlit birgða og auðkenndu upplýsingar um birgðaframboð á vöruafbrigðinu yfir allar verslanir í flokki verslanastaðsetjara og einnig í dreifingarmiðstöðvum af gerðinni **Staðall/Sjálfgefið**. |
 | Skoða upplýsingar um afurð | Beindu notandanum á síðuna **Afurðarupplýsingar** á tengdu afurðarsniðmáti. |
-

@@ -1,13 +1,13 @@
 ---
-title: "Heimasíða fyrir Dynamics 365 for Unified Operations-farsímaforrit"
-description: "Þetta efnisatriði lýsir Microsoft Dynamics 365 for Unified Operations fartækjaforritinu og veitir tengla á tilföng sem geta hjálpað til við að taka það upp í fyrirtæki."
+title: Heimasíða fyrir Dynamics 365 for Unified Operations-farsímaforrit
+description: Þessi efnisgrein lýsir Microsoft Dynamics 365 for Unified Operations Mobile forritinu og veitir tengla á tilföng sem geta hjálpað til við að taka það upp í fyrirtæki þínu.
 author: sericks007
 manager: AnnBe
 ms.date: 10/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,29 +17,28 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.translationtype: HT
-ms.sourcegitcommit: 3e9ec83e2cecdf8a7ec4ce3db1a80a310fe07255
 ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
-ms.contentlocale: is-is
-ms.lasthandoff: 10/26/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321387"
 ---
-
 # <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a>Heimasíða fyrir Dynamics 365 for Unified Operations-farsímaforrit
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir Microsoft Dynamics 365 for Unified Operations fartækjaforritinu og veitir tengla á tilföng sem geta hjálpað til við að taka það upp í fyrirtæki.
+Þessi efnisgrein lýsir Microsoft Dynamics 365 for Unified Operations Mobile forritinu og veitir tengla á tilföng sem geta hjálpað til við að taka það upp í fyrirtæki þínu.
 
 > [!NOTE]
-> Fartækjaforritið hét áður *Microsoft Dynamics 365 for Finance and Operations*.
+> Farsímaforritið hét áður *Microsoft Dynamics 365 for Finance and Operations*.
 
 <a name="overview"></a>Yfirlit
 --------
 
 Fartækjaforritið gerir fyrirtæki þínu kleift að gera viðskiptaferla aðgengilega á fartækjum. Eftir að upplýsingatæknistjóri þinn opnar vinnusvæði á fartækjum fyrir fyrirtækið, geta notendur skráð sig inn í forritið og strax byrjað að keyra viðskiptaferli úr þeirra fartækjum. Fartækjaforritið er með eftirfarandi eiginleika, sem geta hjálpað við að auka framleiðni:
 
-- Notendur geta skoðað, breytt og brugðist við viðskiptagögnin, jafnvel þótt netsamband fartækja þeirra sé óreglulegt eða ekkert. Þegar tæki tengist neti á ný hlaðast upp upplýsingar um aðgerðir, sem gerðar voru utan nets, sjálfvirkt með Dynamics 365 for Finance and Operations.
+- Notendur geta skoðað, breytt og brugðist við viðskiptagögnin, jafnvel þótt netsamband fartækja þeirra sé óreglulegt eða ekkert. Þegar tæki tengist neti á ný hlaðast upplýsingar um aðgerðir, sem gerðar voru utan nets, upp sjálfvirkt með Dynamics 365 for Finance and Operations.
 - Upplýsingatæknistjóri eða forritarar geta byggja og birtið fartækja vinnusvæði sem hefur verið sniðið að þeirra fyrirtæki. Farsímaforritið notar fyrirliggjandi kóða eigna þinna. Þess vegna þarf ekki að færa aftur inn villuleitaraðferðir, viðskiptagrunninn eða öryggis samskipan.
 - Upplýsingatæknistjórar eða forritarar geta auðveldlega hannað fartækjavinnusvæði með því að nota benda-og-smella verkfærið sem er í vefbiðlaranum.
 - Upplýsingatæknistjórar eða forritarar geta einnig hámarka notkun vinnusvæða utan nets með því að nota Business viðskiptagrunn umgjörðina. Þar sem gögn heldur áfram að vinna þegar tæki er utan nets, eru þín farsímaforrit áfram virk og auðug, jafnvel þó ekki tæki hafa tengingu við fasta net.
@@ -85,12 +84,12 @@ Eftirfarandi tafla inniheldur tengla á tilföng sem geta hjálpað til við að
 <td>1</td>
 <td>Kerfisstjóri</td>
 <td>Innleiða Finance and Operations í þitt fyrirtæki.</td>
-<td><ul><li>Ef þú hefur ekki enn notað útgáfu af Microsoft Dynamics 365 skaltu sjá <a href="../deployment/deploy-demo-environment.md">Virkja sýniútgáfuumhverfi</a>.</li><li>Lista yfir fartækjavinnusvæði sem hægt er að nota má sjá á <a href="mobile-workspaces-released.md">Fartækjavinnusvæði, nýlega útgefin</a>.</li></ul></td>
+<td><ul><li>Ef þú hefur ekki enn notað útgáfu af &#39;Microsoft Dynamics 365 skaltu sjá <a href="../deployment/deploy-demo-environment.md">Virkja sýniútgáfuumhverfi</a>.</li><li>Lista yfir fartækjavinnusvæði sem hægt er að nota má sjá á <a href="mobile-workspaces-released.md">Fartækjavinnusvæði, nýlega útgefin</a>.</li></ul></td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td>Kerfisstjóri</td>
-<td><strong>Ef þú notar Microsoft Dynamics 365 for Operations útgáfu 1611:</strong> Sæktu og settu upp KBs sem gera kleift að nota fartækjavinnusvæði sem Microsoft útvegar.</td>
+<td><strong>Ef þú &#39; ert að nota Microsoft Dynamics 365 for Operations útgáfu 1611:</strong> Sæktu og settu upp KBs sem gera kleift að nota fartækja vinnusvæði sem eru veitt af Microsoft.</td>
 <td>Sjáðu eftirfarandi efnisatriði til að fá frekari upplýsingar:
 <ul>
 
@@ -120,7 +119,7 @@ Eftirfarandi tafla inniheldur tengla á tilföng sem geta hjálpað til við að
 <td>5</td>
 <td>ÓHS</td>
 <td>Stofna virkjanlegan pakka sem inniheldur sérsniðin fartækja vinnusvæði og hala pakkanum upp í Microsoft Dynamics Lifecycle Services (LCS).</td>
-<td><a href="../deployment/create-apply-deployable-package.md">Mynda virkjanlegan pakka</a></td>
+<td><a href="../deployment/create-apply-deployable-package.md">Virkjanlegur pakki búinn til</a></td>
 </tr>
 <tr class="even">
 <td>6</td>
@@ -153,4 +152,3 @@ Eftirfarandi tafla inniheldur tengla á tilföng sem geta hjálpað til við að
 </tr>
 </tbody>
 </table>
-

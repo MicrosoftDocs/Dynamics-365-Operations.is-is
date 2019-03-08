@@ -1,13 +1,13 @@
 ---
-title: "Uppfærsla staðalkostnaðar fyrir nýja framleidda vöru"
-description: "Þessi skrá veitir leiðbeiningar um uppfærslu á stöðluðum kostnaði fyrir nýja framleidda vöru."
+title: Uppfærsla staðalkostnaðar fyrir nýja framleidda vöru
+description: Þessi skrá veitir leiðbeiningar um uppfærslu á stöðluðum kostnaði fyrir nýja framleidda vöru.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc8725bcab61fa20a4c35a83473b00e54cf0bf28
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1cfb04a98f7d01f7766bea97157ca3c44c51e326
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325504"
 ---
-
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Uppfærsla staðalkostnaðar fyrir nýja framleidda vöru
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,6 @@ Ef bæta á við nýjum framleiðsluvörum í gegnum fryst tímabil, skal fylgja
 5.  Notið síðuna **Uppsetning kostnaðarútgáfu** til að breyta lokunarflaggiu til að heimila virkjun á biðkostnaðarfærslum í seinni kostnaðarútgáfunni.
 6.  Notið síðuna **Virkja verð** (sem er opnuð úr síðunni **Viðhald kostnaðarútgáfu**) til að virkja allar biðkostnaðarfærslur í seinni kostnaðarútgáfunni. Einnig er hægt að virkja kostnaðarfærslur í bið fyrir stakar vörur með því að smella á hnappinn **Virkja** á síðunni **Vöruverð**.
 7.  Notið síðuna **Uppsetning kostnaðarútgáfu**til þess að breyta lokunarflöggum í síðari kostnaðarútgáfunni og koma í veg fyrir frekara gagnaviðhald. Lokunarreglurnar hindra færslu nýs kostnaðar í bið og virkjun kostnaðar í bið.
-
 
 
 

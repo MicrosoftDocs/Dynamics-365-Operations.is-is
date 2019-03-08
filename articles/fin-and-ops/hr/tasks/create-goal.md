@@ -1,13 +1,13 @@
---- 
-title: "Búa til markmið"
-description: "Hægt er að stofna markmið, bæta verkþætti við markmið, rekja mælingar og tengja markmið við fyrir yfirferð."
+---
+title: Búa til markmið
+description: Hægt er að stofna markmið, bæta verkþætti við markmið, rekja mælingar og tengja markmið við fyrir yfirferð.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: e3f3bc01113099c5b28f10e702ebf981e26c196a
-ms.contentlocale: is-is
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350712"
 ---
 # <a name="create-a-goal"></a>Búa til markmið
 
@@ -59,5 +59,4 @@ Hægt er að stofna markmið, bæta verkþætti við markmið, rekja mælingar o
     * Oft eru markmið þau sömu eða svipuð fyrir hópmeðlimi eða alla starfsmenn.     MA-kerfisstjóri eða stjórnandi þinn getur að stofna markmiðasnið fyrir þau markmið. Hægt er að bæta við markmiði úr sniðmáti og aðlaga það síðan til að passa við tímalínur.  
     * Oft eru nokkur markmið sem eru þau sömu eða svipuð fyrir hópmeðlimi eða alla starfsmenn.     MA-kerfisstjóri eða stjórnandi þinn getur stofnað markmiðsflokka sem innihalda eitt eða fleiri markmiðasniðmát. Hægt er að bæta við markmiði úr markmiðsflokki og aðlaga það til að passa við tímalínur.  
     * Þegar yfirferð er stofnað er hægt að bæta við markmiðum við yfirferðina. Skoðið leiðarvísi fyrir verkefnaleiðbeiningar til að sjá hvernig hægt er að bæta markmiðum við yfirferðir.  
-
 

@@ -1,13 +1,13 @@
 ---
 title: Hanna spurningarlista
-description: "Þetta efnisatriði lýsir ferlinu við stofnun spurningalista. Fyrsta skrefið er að hanna spurningalista. Þegar spurningalisti er hannaður þarf ekki aðeins að skrifa spurningar og svör, heldur einnig að stofna skipulag sem leyfir að svör séu skráð og sett upp í töflu."
+description: Þetta efnisatriði lýsir ferlinu við stofnun spurningalista. Fyrsta skrefið er að hanna spurningalista. Þegar spurningalisti er hannaður þarf ekki aðeins að skrifa spurningar og svör, heldur einnig að stofna skipulag sem leyfir að svör séu skráð og sett upp í töflu.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: cd13fa1c424d1769b356d90012b187a77473473d
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304850"
 ---
-
 # <a name="design-questionnaires"></a>Hanna spurningarlista
 
 [!include [banner](includes/banner.md)]
@@ -94,7 +93,7 @@ Númeraraðakóðar eru notaðir til að skipuleggja spurningar og svör. Samkv�
 Þú ættir að skilgreina allar færibreytur áður en þú byrjar að stofna gögnin þín. Hægt er að breyta færibreytustillingum spurningalista hvenær sem er.
 
 ## <a name="questionnaire-components"></a>Íhlutir spurningalista
-Spurningalistar snúast um þrjú aðalatriði: svarflokka sem innihalda svör fyrir spurningar með mörgum svarmöguleikum, spurningar og spurningalistann sjálfan. Einnig er hægt að flokka spurningar í spurningalista í niðurstöðuflokk. Niðurstöðuflokkar gera kleift að flokka spurningar og veita frekari greiningu á spurningalistanum. 
+Spurningalistar snúast um þrjú aðalatriði: svarflokka sem innihalda svör fyrir spurningar með mörgum svarmöguleikum, spurningar og spurningalistann sjálfan. Einnig er hægt að flokka spurningar í spurningalista í niðurstöðuflokk. Niðurstöðuflokkar gera kleift að flokka spurningar og veita frekari greiningu á spurningalistanum. 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -160,7 +159,7 @@ Aðalsíðan sem er notuð til að setja upp spurningalista er síðan **Spurnin
 -   Eyða og bæta við spurningum.
 -   Gera breytingar á niðurstöðuflokki og raðnúmeri. 
 
-**Viðvörun:** Farið varlega þegar breytingar eru gerðar á spurningalistum sem þegar hefur verið svarað. Breytingar geta dregið úr nákvæmni upplýsinga og þess vegna gert þær að lélegum grunni fyrir mat. Betra getur verið að útbúa nýja spurningu en að breyta spurningu sem þegar hefur verið svarað.
+**Viðvörun:** Farið varlega þegar breytingar eru gerðar á spurningalistum sem þegar hefur verið svarað. Breytingar geta dregið úr nákvæmni upplýsinga og þess vegna gert þær að lélegum grunni fyrir mat. Betra getur verið að útbúa nýja spurningu en að breyta spurningu sem þegar hefur verið svarað.
 
 Í spurningalista er ekki hægt að eyða eftirfarandi gerðum spurninga:
 
@@ -238,5 +237,4 @@ Einnig er hægt að setja upp spurningalista þannig að ef svarandi velur svar 
 [Dreifa og ljúka°spurningalista](distribute-questionnaires.md)
 
 [Skoða og meta niðurstöður spurningalista](evaluate-questionnaire-results.md)
-
 

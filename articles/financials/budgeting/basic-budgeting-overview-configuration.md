@@ -1,13 +1,13 @@
 ---
-title: "Yfirlit fjárhagsáætlunar"
-description: "Næstum hvert einasta fyrirtæki sem notar virknina Financials í Microsoft Dynamics 365 for Finance and Operations verður að geta stofnað skýrslur um fjárhagsáætlun samanborið við raunvirði. Í þessari grein er farið yfir nauðsynlegar lágmarksstillingar til að hægt sé að stofna áætlanir í Finance and Operations eða hlaða þeim úr forriti óháðs aðila."
+title: Yfirlit fjárhagsáætlunar
+description: Næstum öll fyrirtæki sem nota virknina Fjármál í Microsoft Dynamics 365 for Finance and Operations munu geta stofnað skýrslur með áætlun á móti raunvirði. Í þessari grein er farið yfir nauðsynlegar lágmarksstillingar til að hægt sé að stofna áætlanir í Finance and Operations eða hlaða þeim úr forriti óháðs aðila.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 01b7970119b9abb26570c19162e159dd05496168
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1d768ee6d2244a237972f7183f27a60b93eea819
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332312"
 ---
-
 # <a name="budgeting-overview"></a>Yfirlit fjárhagsáætlunar 
 
 [!include [banner](../includes/banner.md)]
 
-Næstum hvert einasta fyrirtæki sem notar virknina Financials í Microsoft Dynamics 365 for Finance and Operations verður að geta stofnað skýrslur um fjárhagsáætlun samanborið við raunvirði. Í þessari grein er farið yfir nauðsynlegar lágmarksstillingar til að hægt sé að stofna áætlanir í Finance and Operations eða hlaða þeim úr forriti óháðs aðila.
+Næstum öll fyrirtæki sem nota virknina Fjármál í Microsoft Dynamics 365 for Finance and Operations munu geta stofnað skýrslur með áætlun á móti raunvirði. Í þessari grein er farið yfir nauðsynlegar lágmarksstillingar til að hægt sé að stofna áætlanir í Finance and Operations eða hlaða þeim úr forriti óháðs aðila.
 
 <a name="overview"></a>Yfirlit
 --------
@@ -40,7 +39,7 @@ Samþykkt fjárhagsáætlun fyrir lögaðila er viðhaldið í skjalinu sem kall
 Það eru margar aðferðir til að stofna færslur í fjárhagsáætlunarskrá í Finance and Operations:
 
 -   Færa handvirkt inn upplýsingar um skjal á **færslur fjárhagsáætlunarskrár** síðu.
--   Nota Microsoft Excel sniðmát sem hægt er að opna með því að smella á **Opna í Excel** hnappinn á **færslur fjárhagsáætlunarskrár** síðunni.
+-   Nota Microsoft Excel sniðmát sem hægt er að opna með því að smella á **Opna í Excel** hnappinn á í **færslur fjárhagsáætlunarskrár** síðu.
 -   Nota skal **færslur fjárhagsáætlunarlykils** gagnaeiningu í gagnastjórnun til að flytja inn færslur fjárhagsáætlunarskrár. Ætti að íhuga að nota þennan greiðslumáta og kveikja á **Byggt á safni** **vinnslu** færibreytu þegar þarf að flytja margar fjárhagsáætlunarfærslur inn í kerfið.
 -   Ef fyrirtækið notar aðgerðir fjárhagsáætlunargerðar til að útbúa fjárhagsáætlunargögn, er hægt að nota í **Mynda færslu í fjárhagsáætlunarskráa** reglubundna vinnslu.
 
@@ -80,7 +79,6 @@ Fjárhagsáætlunarstjóri getur farið yfir gildandi stöðu í fjárhagsáætl
 **Raun samanb. v. áætlun** fyrirspurnarsíðu gerir það mögulegt að kafa í upplýsingar um fjárhagsáætlun borinn saman við raunupphæðir. Veljið línu á fyrirspurnarsíðu og smellið síðan á **stöður Tímabils** til að sjá fjárhagsáætlun og raunupphæðir dreifast yfir fjárhagstímabil. Í **færslur fjárhagsáætlunarskrár** síða gefur köfun í upplýsingar um upphæð fjárhagsáætlunar í færslu fjárhagsáætlunarskrár. **færslur í Almennri færslubók** síðu opnar fjárhagsfærslur sem eru hafðar með í útreiknaða upphæð **Rauntölur** . 
 
 Fyrirtækið sem er að nota virkni Fjárhagsáætlunargerðar getur stofnað og nota *fjárhagsáætlunarspár*í á **fjárhagsáætlanir og spár** vinnusvæði.
-
 
 
 

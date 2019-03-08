@@ -1,32 +1,31 @@
 ---
-title: "Fundið með LinkedIn ráðningaraðila"
-description: "Þetta efnisatriði veitir upplýsingar um að vélnám til að fá ráðleggingar um störf og umsækjendur."
+title: Fundið með LinkedIn ráðningaraðila
+description: Þetta efnisatriði veitir upplýsingar um að vélnám til að fá ráðleggingar um störf og umsækjendur.
 author: josaw
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
 ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
-ms.contentlocale: is-is
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304791"
 ---
-
 # <a name="sourcing-with-linkedin-recruiter"></a>Fundið með LinkedIn ráðningaraðila
 [!include[banner](../includes/banner.md)]
 
@@ -65,7 +64,7 @@ Til að ljúka næsta skrefi þarftu að hafa stjórnandaréttindi á LinkedIn R
 
 Attract-kerfið verður skráð með nokkrum valkostum sem hægt er að kveikja á.
 
-9. Ef þú vilt aðeins virkja útflutning með einum smell fyrir **IN-ATS-vísirinn** og **In-ATS Profile græjuna** skaltu velja **Aðgangur að fyrirtækinu**. Ef þú vilt virkja alla aðgangseiginleika að fyrirtækinu auk InMail-ferils, athugasemdaferils og InMail forstillingaraðgang, veldu **Aðgangur á samningsstigi**.
+9. Ef þú vilt aðeins virkja útflutning með einum smell fyrir **IN-ATS-vísirinn** og **In-ATS Profile græjuna** skaltu velja **Aðgangur að fyrirtækinu**. Ef þú vilt virkja alla aðgangseiginleika að fyrirtækinu auk InMail-ferils, athugasemdaferils og InMail-forstillingaraðgang, veldu **Aðgangur á samningsstigi**.
 
 10. Kveiktu á viðkomandi aðgangsstigi frá LinkedIn Recruiter **Admin-ATS** stillingunum.
 
@@ -125,11 +124,11 @@ Með því að nota LinkedIn recruiter getur þú fylgst með því hvort umsæk
 > [!NOTE]
 > Umsækjandi og umsóknargögn verða samstillt við LinkedIn Recruiter ef umsækjandi komst ekki yfir viðfangsstigið.
 
-### <a name="inmail-history"></a>InMail ferill
+### <a name="inmail-history"></a>InMail saga
 
-LinkedIn InMail-ferillinn er fáanlegur með aðgangi að samningi við LinkedIn Recruiter. Þegar það er virkt er hægt að skoða allan InMail-ferilinn þinn með umsækjanda. Þú getur líka séð hverjir aðrir í fyrirtækinu hafa skipst á InMail með umsækjanda, en þú getur ekki skoðað skilaboðin á milli þeirra.
+LinkedIn InMail ferill er fáanlegur með aðgangi að samningi við LinkedIn Recruiter. Þegar það er virkt er hægt að skoða allan InMail-ferilinn þinn með umsækjanda. Þú getur líka séð hverjir aðrir í fyrirtækinu hafa skipst á InMail með umsækjanda, en þú getur ekki skoðað skilaboðin á milli þeirra.
 
-Til að skoða InMail-ferilinn skaltu fara í forstillingar umsækjanda, fara á **LinkedIn** flipann og flettu neðst á síðunni til að skoða ferilinn. Hægt er að skoða InMail feril ef þú hefur átt í umræðum við umsækjandann. Skilaboðin frá InMail verða samstillt við Attract á nokkurra klukkutíma fresti.
+Til að skoða InMail ferilinn skaltu fara í forstillingar umsækjanda, fara á **LinkedIn** flipann og fletta að neðst á síðunni til að skoða ferilinn. Hægt er að skoða InMail feril ef þú hefur átt í umræðum við umsækjandann. Skilaboðin frá InMail verða samstillt við Attract á nokkurra klukkutíma fresti.
 
 ### <a name="notes-history"></a>Athugasemdaferill 
 
@@ -137,9 +136,8 @@ LinkedIn athugasemdaferill er fáanlegur með aðgangi að samningi við LinkedI
 
 Til að skoða athugasemdaferilinn skaltu fara í forstillingar umsækjanda, fara á **LinkedIn** flipann og fletta að neðst á síðunni til að skoða ferilinn. Þú getur skoðað allar athugasemdir um umsækjanda frá LinkedIn Recruiter.
 
-### <a name="inmail-stub-profile"></a>Inmail stutt forstilling
+### <a name="inmail-stub-profile"></a>InMail stutt forstilling
 
 InMail stutt forstilling er fáanlegur með aðgangi að samningi við LinkedIn Recruiter. Ef umsækjendur samþykkja að deila LinkedIn forstillingum sínum með einhverjum notanda í fyrirtækinu þínu, getur þú fylgst með umsækjendum í Attract og ný umsækjendafærsla verður búin til fyrir hvern umsækjanda. Hægt er að skoða netfang umsækjanda ef hann er þegar til staðar í kerfinu með netfang eða hann hefur kosið að deila netfanginu með ráðningaraðilanum.
 
 Til að skoða lista yfir umsækjendur farðu í **Hæfileikasöfn** til að sjá LinkedIn hæfileikasafn búið til af kerfinu. Þessi hæfileikasafn inniheldur lista yfir umsækjendur og stutta forstillingu þeirra sem var fengin frá LinkedIn, sem sýnir umsækjanda fornafn og eftirnafn. Tölvupóstkenni umsækjandans verður birt ef umsækjandi hafði valið að deila netfanginu sínu.
-

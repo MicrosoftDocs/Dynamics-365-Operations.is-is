@@ -1,13 +1,13 @@
 ---
-title: "Skipuleggja fyrirtækjastigveldi"
-description: "Áður en að setja upp fyrirtæki og stigveldi fyrirtækis skaltu ganga úr skugga um að þú skiljir hvernig best er að setja upp fyrirtækið."
+title: Skipuleggja fyrirtækjastigveldi
+description: Áður en að setja upp fyrirtæki og stigveldi fyrirtækis skaltu ganga úr skugga um að þú skiljir hvernig best er að setja upp fyrirtækið.
 author: sericks007
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
 ms.reviewer: sericks
@@ -18,23 +18,22 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 633d85333a510cec9cee2721e6e2330a47b6c78c
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331990"
 ---
-
 # <a name="plan-your-organizational-hierarchy"></a>Skipuleggja fyrirtækjastigveldi
 
 [!include [banner](../includes/banner.md)]
 
-Áður en þú setur upp fyrirtæki og stigveldi fyrirtækis í Microsoft Dynamics 365 for Finance and Operations skaltu áætla hvernig fyrirtækjalíkanið þitt verður. Fyrirtækjalíkan hefur töluverð áhrif á innleiðingu á Finance and Operations og í viðskiptaferlum.
+Áður en að setja upp fyrirtæki og stigveldi fyrirtækis í Microsoft Dynamics 365 for Finance and Operations, ganga úr skugga um að þú skipuleggir hvernig fyrirtækið mun þróast. Fyrirtækjalíkan hefur töluverð áhrif á innleiðingu á Finance and Operations og í viðskiptaferlum.
 
 Stigveldi fyrirtækis standa fyrir vensl á milli fyrirtækja sem eru saman í rekstri. Þess vegna er mikilvægasta tillit þegar þú líkans fyrirtæki skipulag fyrirtækisins. Mælt er með því að skilgreina skipulag fyrirtækis sem er byggð á svörun frá executives og aðalbókara stjórnendur úr virkum svæðum, s.s. fjármál og bókhaldi, mannauður, aðgerðir, innkaup og sala og markaðsstarf.
 
-Þegar þú skipuleggur stigveldi er einnig mikilvægt að huga að tengslum milli stigveldiskipulags og fjárhagsvídda. Þú getur sett upp mörg fyrirtækisstigveldi til að birta mismunandi ásýndir fyrirtækis þíns. Með því að nota fjárhagsvíddir er hægt að stofna skýrslur byggðar á þessum yfirlitum. Stofnaðu, í samvinnu við Dynamics 365 for Finance and Operations samstarfsaðilannn, stigveldi sem lýtur að skýrslugjöf, lögbundinni og innan fyrirtækisins.
+Þegar þú skipuleggur stigveldi er einnig mikilvægt að huga að tengslum milli stigveldiskipulags og fjárhagsvídda. Þú getur sett upp mörg fyrirtækisstigveldi til að birta mismunandi ásýndir fyrirtækis þíns. Með því að nota fjárhagsvíddir er hægt að stofna skýrslur byggðar á þessum yfirlitum. Starfaðu með þínum Microsoft Dynamics 365 for Finance and Operations samstarfsaðila til að stofna stigveldi sem lýtur bæði að fyrirtækislegum og lögboðnum skýrslugerðarþörfum.
 
 > [!NOTE]
 > Þó að þú getir notað fjárhagsvíddir til að tákna lögaðila án þess að stofna lögaðila í Finance and Operations, eru fjárhagsvíddir ekki hannaðar til að takast á við reksturs- eða viðskiptaþarfir lögaðila. Eiginlekin millieiningabókhalds í Finance and Operations er hannaður til að eiga aðeins við bókhaldsfærslur sem eru stofnaðar fyrir hverja færslu.
@@ -168,7 +167,7 @@ Rekstrareiningar nota landssamhengi yfirlögaðila. Rekstrareiningar í sama lö
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Ef fyrirtækið er með líkan sem lögaðili
 
-Hægt er að stofna flestar lögboðnar skýrslur fyrir lönd/svæði sem eru studd í Finance and Operations. Sjá upplýsingar um hvaða skýrslur eru tiltækar fyrir hvert land/svæði í [Microsoft Dynamics Staðfærslugátt](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) fyrir Finance and Operations. (CustomerSource innskráningar er krafist.)
+Hægt er að stofna flestar lögboðnar skýrslur fyrir lönd/svæði sem eru studd í Finance and Operations. Sjá upplýsingar um hvaða skýrslur eru tiltækar fyrir hvert land/svæði í [ Microsoft Dynamics Staðfærslugátt](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) fyrir Finance and Operations. (CustomerSource innskráningar er krafist.)
 
 > [!NOTE]
 > Í Finance and Operations gerir bókunarlag kleift að gera leiðréttingarfærslur á móðurfyrirtæki sem notar annan bókhaldsstaðal en dótturfyrirtæki. Til dæmis, fyrir fyrirtæki sem notar almennt samþykkt bókhaldsvenjum í Bretland (UK GAAP), er hægt að gera leiðréttingarfærslur í bókunarlag. Hægt er að sameina þessar færslur inn móðurfyrirtækis sem samþykkt notar almennt reikningsskilareglur (samþykktum Bókhaldsreglum) í Bandaríkjunum. Leiðréttingarfærslur sem hafa ekki áhrif á samþykktum Bókhaldsreglum UK skýrslugerð.
@@ -243,4 +242,3 @@ Ekki þarf að breyta fyrirtæki til að nálgast gögn frá mörgum rekstrarein
 - Áður en þú mótar helstu atburðarásir endurskipulagningar þarf að nota öruggar gildisdagsetningar stigveldisins til að framkvæma áhrifagreiningu og staðfestingarpróf.
 - Nota ham fyrir drög til að breyta stigveldi áður en ný útgáfa er birt í vinnsluumhverfi.
 - Takmarka fjölda fólks sem hefur leyfi til að bæta við eða fjarlægja stofnanir frá stigveldi í framleiðsluumhverfi. Lægri tala minnkar hættuna sem á dýrum mistökum og gera verður leiðréttingar.
-

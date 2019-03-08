@@ -1,13 +1,13 @@
 ---
-title: "Rekja þóknanir í sölustað (POS) með notkun söluflokka"
-description: "Það er algengur háttur smásölu til að rekja sölu eftir samstarfsmanni sem vann með viðskiptavininum — veitti aðstoð, setti upp söluviðauka, krosssölu og vann færsluna."
+title: Rekja þóknanir í sölustað (POS) með notkun söluflokka
+description: Það er algengur háttur smásölu til að rekja sölu eftir samstarfsmanni sem vann með viðskiptavininum — veitti aðstoð, setti upp söluviðauka, krosssölu og vann færsluna.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: ed4f9b3055e164600827b62d57b7a5068edb3b1a
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325113"
 ---
-
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Rekja þóknanir í sölustað (POS) með notkun söluflokka
 
 [!include [banner](includes/banner.md)]
@@ -89,4 +88,3 @@ POS gerir notendum kleift að skilgreina hnappahnit sem eru höfð með í útli
 ## <a name="calculating-commissions"></a>Útreikningur á þóknun
 
 Þóknun er reiknuð fyrir starfsmenn í tilgreindum söluflokkum við bókun uppgjörs eða bókun sölupöntunar. Upphæð þóknunar er ákvörðuð samkvæmt þóknunarhluta starfsmanns, eins og skilgreint er í söluflokki og stillingum útreikninga fyrir tengda þóknun fyrir viðskiptavin og/eða afurðir í færslunni.
-

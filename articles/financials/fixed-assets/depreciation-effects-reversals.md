@@ -1,13 +1,13 @@
 ---
-title: "Áhrif afskrifta með bakfærslum"
-description: "Þessi grein fjallar hugsanlega afleiðingar af því að bakfæra eignafærslu."
+title: Áhrif afskrifta með bakfærslum
+description: Þessi grein fjallar hugsanlega afleiðingar af því að bakfæra eignafærslu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d624fa998329680d9fa471fa325f6fcfd3920c6a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fbef7cb9a9fb18809dff96d4a44454d0dc6a31fc
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320145"
 ---
-
 # <a name="depreciation-effects-with-reversals"></a>Áhrif afskrifta með bakfærslum
 
 [!include [banner](../includes/banner.md)]
@@ -94,7 +93,6 @@ Afskrift er er höfð of lítil sem nemur 16,95 (983,62 - 966,67).
 --------
 
 [Afskriftir eigna](fixed-asset-depreciation.md)
-
 
 
 

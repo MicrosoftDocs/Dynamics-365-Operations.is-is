@@ -1,13 +1,13 @@
 ---
 title: Setja upp netverslanir
-description: "Þessi grein veitir upplýsingar um netverslanir í smásölu og hvernig setja skal þær upp í Microsoft Dynamics 365 for Retail."
+description: Þessi grein gefur upplýsingar um netverslanir í smásölu og hvernig setja skal þær upp í Microsoft Dynamics 365 for Retail.
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelManagementWorkspace, RetailOnlineStoreList
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 2b736b5e5ce5b5b384181a73c72bbb89b072a284
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324929"
 ---
-
 # <a name="set-up-online-stores"></a>Setja upp netverslanir
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein veitir upplýsingar um netverslanir í smásölu og hvernig setja skal þær upp í Microsoft Dynamics 365 for Retail.
+Þessi grein gefur upplýsingar um netverslanir í smásölu og hvernig setja skal þær upp í Microsoft Dynamics 365 for Retail.
 
-Dynamics 365 for Retail styður margar smásölurásir. Meðal þessara smásölurásir eru netverslanir, símaver, og smásöluverslanir (einnig kallað hefðbundnar verslanir). Netverslun gefur smásölum viðveru á netinu svo að viðskipavinir þeirra geti keypt afurðir úr netverslun þeirra til viðbótar við smásöluverslanir þeirra. Ef Viðskiptamenn kaupa afurðir úr netverslun geta þeir fengið þær sendar til sín eða sótt þær í staðbundna verslun. Þú stofnar netverslun í Dynamics 365 for Retail-biðlaranum. Þessi netverslun er síðan birt til netverslunar þriðja aðila sem er samþætt við Dynamics 365 for Retail. Netverslun þriðja aðila gegnir hlutverki búðarglugga (UI) fyrir netverslunina og veitt val um stjórnkerfi viðskiptavinar (CMS) og UI getu. Nokkrar samþættingar af þessari gerð eru tiltækar fyrir Dynamics 365 for Retail. Eiginleikar sem eru tilgreindar fyrir netverslunina stýrir atferli netverslunarinnar. Til dæmis skilgreinirðu tegundastigveldi yfirlitsflokks Dynamics 365 for Retail og úthlutar því á netverslun. Þegar netverslun er birt fyrir netverslun þriðja aðila, er tegundastigveldi yfirlitsflokks birt í netútgáfu verslunarinnar. Kaupendur nota síðan tegundastigveldi yfirlitsflokks til að fletta upp netverslunina og til að leita að afurðum. Til að stofna netverslun, verður að setja upp íhluti sem á að leyfa færslur sem vinna á fyrir verslunina. Til dæmis, þarf að bæta úrvali, nota eigindir og setja upp greiðsluhætti og sendingarmáta. Einnig er hægt að tilgreina verð, kynningartilboð, afslætti, viðskiptasamninga og sendingu greiðsluskilmála sem eiga við netverslun. Eftir að netverslunin hefur verið birt á netverslun þriðja aðila er hægt að stofna smásöluvörulista fyrir netverslunina. Afurðir í vörulistanum verða afurðaskráningar í netversluninni. Þegar sá sem verslar kaupir afurðir úr netverslun, eru tiltækar birgðir uppfærð og samstillt í á biðlaranum. Einnig eru sölupantanir myndaðar fyrir innkaup og send til biðlara fyrir pöntunarupplýsingum og vinnslu.
+Dynamics 365 for Retail styður margar smásölurásir. Meðal þessara smásölurásir eru netverslanir, símaver, og smásöluverslanir (einnig kallað hefðbundnar verslanir). Netverslun gefur smásölum viðveru á netinu svo að viðskipavinir þeirra geti keypt afurðir úr netverslun þeirra til viðbótar við smásöluverslanir þeirra. Ef Viðskiptamenn kaupa afurðir úr netverslun geta þeir fengið þær sendar til sín eða sótt þær í staðbundna verslun. Stofna netverslun í Dynamics 365 for Retail  biðlara. Þessi netverslun er síðan birt til netverslunar þriðja aðila sem er samþætt við Dynamics 365 for Retail. Netverslun þriðja aðila gegnir hlutverki búðarglugga (UI) fyrir netverslunina og veitt val um stjórnkerfi viðskiptavinar (CMS) og UI getu. Nokkrar samþættingar af þessari gerð eru tiltækar fyrir Dynamics 365 for Retail. Eiginleikar sem eru tilgreindar fyrir netverslunina stýrir atferli netverslunarinnar. Til dæmis skilgreina tegundastigveldi yfirlitsflokks í Dynamics 365 for Retail og úthluta því á netverslun. Þegar netverslun er birt fyrir netverslun þriðja aðila, er tegundastigveldi yfirlitsflokks birt í netútgáfu verslunarinnar. Kaupendur nota síðan tegundastigveldi yfirlitsflokks til að fletta upp netverslunina og til að leita að afurðum. Til að stofna netverslun, verður að setja upp íhluti sem á að leyfa færslur sem vinna á fyrir verslunina. Til dæmis, þarf að bæta úrvali, nota eigindir og setja upp greiðsluhætti og sendingarmáta. Einnig er hægt að tilgreina verð, kynningartilboð, afslætti, viðskiptasamninga og sendingu greiðsluskilmála sem eiga við netverslun. Eftir að netverslunin hefur verið birt á netverslun þriðja aðila er hægt að stofna smásöluvörulista fyrir netverslunina. Afurðir í vörulistanum verða afurðaskráningar í netversluninni. Þegar sá sem verslar kaupir afurðir úr netverslun, eru tiltækar birgðir uppfærð og samstillt í á biðlaranum. Einnig eru sölupantanir myndaðar fyrir innkaup og send til biðlara fyrir pöntunarupplýsingum og vinnslu.
 
 ## <a name="set-up-an-online-store"></a>Uppsetning netverslunar
 
@@ -60,4 +59,3 @@ Til að setja upp netverslun, Það verður að ljúka eftirfarandi verkum:
 ## <a name="organization-hierarchies"></a>Stigveldi fyrirtækis
 
 stigveldi fyrirtækis er Notað fyrir uppbyggingu smásölurása. Stigveldi fyrirtækis standa fyrir vensl á milli fyrirtækja sem þú ert með saman í rekstri. Þegar settar eru upp netverslanir er hægt að bæta þeim við stigveldi fyrirtækis. Verslanir samnýta gögn sem er notað fyrir úrval áfyllingar og skýrslugerð. Þegar stofnað er stigveldi fyrirtækis, er málefni úthlutað til þess. Málefni gefur til kynna hvernig stigveldi er notað í uppbyggingu business. Hægt er að stofna eitt stigveldi fyrirtækis fyrir verslunaraðgerðir þínar og nota það stigveldi úrval, áfyllingar og skýrslugerð. Einnig er hægt að stofna sérstakt stigveldi fyrirtækis fyrir hvern tilgang. Einnig er hægt að stofna mörg stigveldi sem hafa sama tilgangi og úthluta aðskilinni rás til hvers og eins. Ef ætlunin er að birta vörulista smásölu á netverslun, ætti að lágmarki að bæta netverslanir við stigveldi fyrirtækis fyrir úrval. Afurðir í vörulista eru valdar úr úrvali afurða sem eru úthlutað til netverslana. Þegar vörulistinn er birtur ber birtingu ferli gildisdagsetninga fyrir úrval sem tengdur er við netverslun með afurðir sem eru í vörulista til að ákvarða hvaða vörur skulu vera tiltækar í netversluninni.
-

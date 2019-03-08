@@ -1,13 +1,13 @@
---- 
-title: "Vinnutímasniðmát stofnuð"
-description: "Sniðmát vinnutíma skilgreina vinnustundir yfir vikuna og eru notaðir til að mynda vinnutíma fyrir tímabil."
+---
+title: Vinnutímasniðmát stofnuð
+description: Sniðmát vinnutíma skilgreina vinnustundir yfir vikuna og eru notaðir til að mynda vinnutíma fyrir tímabil.
 author: sorenva
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WorkTimeTable, WorkTimeCopyDayDialog
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 46c1e871133b51105386ac3b647432d0c36a6998
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2df37747601618fc3d45734152a05aedd39500a6
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322767"
 ---
 # <a name="create-working-time-templates"></a>Vinnutímasniðmát stofnuð
 
@@ -78,5 +78,4 @@ Sniðmát vinnutíma skilgreina vinnustundir yfir vikuna og eru notaðir til að
 2. Velja skal Já í svæði Lokað fyrir afhendingu.
 3. Stækka Sunnudagur hluti.
 4. Velja skal Já í svæði Lokað fyrir afhendingu.
-
 

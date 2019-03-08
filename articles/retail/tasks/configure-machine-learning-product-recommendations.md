@@ -1,13 +1,13 @@
---- 
+---
 title: " Skilgreina ráðleggingar um afurðir sem byggir á vélnámi"
-description: "Þetta ferli endurnýjar gögnin í einingaverslun sem er notuð af machine-learning kerfinu sem knýr ráðleggingar um vörur, og virkjar svo ráðleggingar vöru á biðlurum Sölustaðar."
+description: Þetta ferli endurnýjar gögnin í einingaverslun sem er notuð af machine-learning kerfinu sem knýr ráðleggingar um vörur, og virkjar svo ráðleggingar vöru á biðlurum Sölustaðar.
 author: ashishmsft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BIMeasurementDeployManagementEntityStore, RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 700af913f18e23c66db53a92033def06818af1ec
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 277ffb879b80fe57deeaa2b52c1543baaf820274
-ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348527"
 ---
 # <a name="configure-machine-learning-powered-product-recommendations"></a> Skilgreina ráðleggingar um afurðir sem byggir á vélnámi
 
@@ -41,5 +41,4 @@ ms.lasthandoff: 02/07/2018
     * Ef tekið er við skilaboðin "ekki tókst að sækja ráðleggingarlíkön", er þar vegna þess að þú uppfærðir einingaverslun mjög nýlega og kerfið hefur hugsanlega ekki lokið því að samhæfa nýju gögnin. Bíða 2-3 tímar og reyna aftur.  
 9. Smellið á „Vista“.
 10. Lokið síðunni.
-
 

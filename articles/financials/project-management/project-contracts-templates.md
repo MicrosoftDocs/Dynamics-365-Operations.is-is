@@ -1,13 +1,13 @@
 ---
-title: "Samstilla verksamninga og verk beint frá Project Service Automation við Finance and Operations"
-description: "Þetta efnisatriði fjallar um sniðmátið og undirliggjandi verk sem notuð eru til að samstilla rauntölur verksamninga og verk beint úr Microsoft Dynamics 365 for Project Service Automation við Microsoft Dynamics 365 for Finance and Operations."
+title: Samstilla verksamninga og verk beint frá Project Service Automation við Finance and Operations
+description: Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla verksamninga og verk beint frá Microsoft Dynamics 365 for Project Service Automation til Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,22 +17,21 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.contentlocale: is-is
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312118"
 ---
-
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Samstilla verksamninga og verk beint frá Project Service Automation við Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efnisatriði fjallar um sniðmátið og undirliggjandi verk sem notuð eru til að samstilla rauntölur verksamninga og verk beint úr Microsoft Dynamics 365 for Project Service Automation við Microsoft Dynamics 365 for Finance and Operations.
+Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla verksamninga og verk beint frá Microsoft Dynamics 365 for Project Service Automation til Microsoft Dynamics 365 for Finance and Operations.
 
 > [!NOTE] 
-> Ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.0, verður þú að setja upp KB 4074835.
+> Ef þú notar Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3.0, verður þú að setja upp KB 4074835.
 
 ## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a>Gagnaflæði fyrir Project Service Automation til Finance and Operations
 
@@ -135,4 +134,3 @@ Eftirfarandi skýringarmyndir sýna dæmi um vörpunarsniðmát í gagnasamþæt
 [![Kortlagning sniðmáts](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
 [![Kortlagning sniðmáts](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
-

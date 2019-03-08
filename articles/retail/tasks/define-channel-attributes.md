@@ -1,13 +1,13 @@
---- 
+---
 title: " Skilgreina eigindir rásar"
-description: "Bættu í rásina með því að bæta við rás og afurðaeigindir."
+description: Bættu í rásina með því að bæta við rás og afurðaeigindir.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailInternalOrganization, EcoResAttributeGroup, EcoResAttributeGroupAttribute, RetailAddChannelItems, RetailCatalogProductAttributeValue, RetailMedia
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5115cc0a902fc23f943700c245fbf08cdb10060c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 06bccae2908255db8b41816f243eb57194b4c11f
-ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343697"
 ---
 # <a name="define-channel-attributes"></a> Skilgreina eigindir rásar
 
@@ -71,5 +71,4 @@ Bættu í rásina með því að bæta við rás og afurðaeigindir. Bæta verð
     * Eftir að birta gögn verða tilbúnar fyrir samstillingu við töflurnar rásar. Ef ekki að birta verður breytt gögn ekki samstillt með töflum rásar.  
 33. Smellið á „Í lagi“.
 34. Smellið á „Vista“.
-
 

@@ -1,32 +1,31 @@
 ---
-title: "Heimasíða kostnaðarstjórnunar"
-description: "Kostnaðarstjórnun leyfir notanda að sjá um mat og bókahald á hráefnum, hálfunnum vörum, fullunnum vörum og eignum í vinnslu."
+title: Heimasíða kostnaðarstjórnunar
+description: Kostnaðarstjórnun leyfir notanda að sjá um mat og bókahald á hráefnum, hálfunnum vörum, fullunnum vörum og eignum í vinnslu.
 author: AndersGirke
 manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fd94ae4c5ea855139fd1c41060de7db455ffab06
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: b1513e5a7cb3a19fd3743a5aac8efd211aa02ce8
-ms.contentlocale: is-is
-ms.lasthandoff: 02/21/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333945"
 ---
-
 # <a name="cost-management-home-page"></a>Heimasíða kostnaðarstjórnunar
 
 [!include [banner](../includes/banner.md)]
@@ -46,13 +45,13 @@ Hægt er að komast í birgðabókhald og bókhald framleiðslu í gegnum vinnus
 
 Bókhald framleiðslu leyfir notanda að sjá um [Kostnaðaraðferð vinnupöntunar](production-order-cost-analysis.md) í framleiðslu- og runupöntunum ásamt [Bakfærslukostnaðaraðferð](backflush-costing.md) í lean-framleiðslu.
 
-[Power BI-efni kostnaðarstjórnunar](../../dev-itpro/analytics/cost-management-content-pack.md) veitir rekstrarfélagi innsýn í birgðir og birgðir fyrir verk í vinnslu (VÍV) og hvernig kostnaður flæðir í gegnum þær eftir flokki yfir tíma. Upplýsingarnar er einnig hægt að nota sem ítarlega viðbót við fjárhagsskýrslu
+[Kostnaðarstjórnun Power BI-efni](../../dev-itpro/analytics/cost-management-content-pack.md) veitir rekstrarfélagi innsýn í birgðir og birgðir fyrir verk í vinnslu (VÍV) og hvernig kostnaður flæðir í gegnum þær eftir flokki yfir tíma. Upplýsingarnar er einnig hægt að nota sem ítarlega viðbót við fjárhagsskýrslu
 
 ### <a name="additional-resources"></a>Frekari upplýsingar
 
 #### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
 
-Á [Microsoft Dynamics 365 leiðarvísir](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
+Á [Microsoft Dynamics 365-leiðarvísinum](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
 
 #### <a name="white-paper"></a>Hvítbók
 [Útreikningur uppskriftar með notkun kostnaðarskjals](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) lýsir því hvernig á að setja upp kostnaðarskjal sem nær yfir efni og framleiðslu og hvernig uppsetningin hefur áhrif á niðurstöður útreiknings á uppskrift. Til að útskýra betur efnisatriðin þá útvegar hann heildstæð dæmi og gögn sem sýna fram á áhrif hinna ýmsu stillinga og skilgreininga. Ekki er ætlast til þess að notandinn fylgi öllum þessum dæmum vegna þess að þetta skjal veitir ekki nægar upplýsingar til að skilgreina þau. Engu að síður getur notandi með grunnþekkingu prófað að spila verkleiðbeiningarnar í þeirri röð sem þær eru útlistaðar hér fyrir neðan. Notið vitneskjuna sem fæst með lestri þessa skjals til að gera greiningu uppskriftaútreiknings. 
@@ -71,5 +70,4 @@ Finna má skoðanir, fréttir og aðrar upplýsingar um kostnaðarstjórnun á [
 
 #### <a name="task-guides"></a>Verkleiðbeiningar
 Frekari hjálp er í boði sem verkleiðbeiningar í Finance and Operations. Smellið á hnappinn Hjálp á hvaða síðu sem er til að fá aðgang að verkleiðbeiningum.
-
 

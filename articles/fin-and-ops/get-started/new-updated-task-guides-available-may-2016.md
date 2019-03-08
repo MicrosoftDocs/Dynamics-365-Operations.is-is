@@ -1,13 +1,13 @@
 ---
-title: "Nýjar eða uppfærðar verkefnaleiðbeiningar (Maí 2016)"
-description: "Þetta málefni sýnir nýjar eða uppfærðar verkefnaleiðbeiningar sem voru gefnar út fyrir Microsoft (ágúst 2016 - öll tungumál) Unified Library for Microsoft Dynamics AX. Engin ný Safn hafist handa var losuð."
+title: Nýjar eða uppfærðar verkefnaleiðbeiningar (Maí 2016)
+description: Þetta málefni sýnir nýjar eða uppfærðar verkefnaleiðbeiningar sem voru gefnar út fyrir Microsoft (ágúst 2016 - öll tungumál) Unified Library for Microsoft Dynamics AX. Engin ný Safn hafist handa var losuð.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: cf12f2dfb62645fc5d6886ef429441c48982d484
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341351"
 ---
-
 # <a name="new-or-updated-task-guides-may-2016"></a>Nýjar eða uppfærðar verkefnaleiðbeiningar (Maí 2016)
 
 [!include [banner](../includes/banner.md)]
@@ -42,7 +41,7 @@ ms.lasthandoff: 12/18/2018
 
 | BPM-lína                                                                 | Land/svæði                    |
 |--------------------------------------------------------------------------|-----------------------------------|
-| Flytja inn rafræna reikningsfærslu OIOUBL                                       | Danmörk                           |
+| Setja upp rafræna OIOUBL-reikningsfærslu                                       | Danmörk                           |
 | EUR-00002 Mynda ESB intrastat-skattaskýrslu                           | Evrópu                            |
 | EUR-00002 Flytja færslur í intrastat                         | Evrópu                            |
 | FR-00004 Uppfæra greiðslumáta viðskiptavinar                            | Evrópu                            |
@@ -195,4 +194,3 @@ ms.lasthandoff: 12/18/2018
 [Nýjar eða uppfærðar verkefnaleiðbeiningar (ágúst 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Nýjar eða uppfærðar verkefnaleiðbeiningar (nóvember 2016)](new-task-guides-november-2016.md)
-

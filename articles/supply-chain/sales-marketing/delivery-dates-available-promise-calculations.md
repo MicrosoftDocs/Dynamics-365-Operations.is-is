@@ -1,13 +1,13 @@
 ---
-title: "Pöntun lofað"
-description: "Þessi grein gefur upplýsingar um það þegar pöntun er lofað Pöntun lofað hjálpar þér lofa áreiðanlegum afhendingartíma til viðskiptavina þinna og gefur þér sveigjanleika þannig að þú getur staðið við þessar dagsetningar."
+title: Pöntun lofað
+description: Þessi grein gefur upplýsingar um það þegar pöntun er lofað Pöntun lofað hjálpar þér lofa áreiðanlegum afhendingartíma til viðskiptavina þinna og gefur þér sveigjanleika þannig að þú getur staðið við þessar dagsetningar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesATP, SalesAvailableDlvDates
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ad70e94521fdb8c6d3f9a76a84aa9da5759fcf89
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 039bc5c572d204d9fa3e10a9f33cb4f4eb00b31c
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312348"
 ---
-
 # <a name="order-promising"></a>Pöntun lofað
 
 [!include [banner](../includes/banner.md)]
@@ -71,7 +70,6 @@ Stofna sölupöntunarlínu fyrir afurðina og færa inn **150** sem magn.
 Þar sem stýring fyrir afhendingardagsetningu er aðferðin ATP , eru ATP gögnin reiknuð til að finna fyrstu hugsanlegu sendingardagsetningu. Byggt á stillingum, er tekið tillit til seinkaðar innkaupapöntunar og sölupöntunar, og atp-magnið sem fæst út úr þessu fyrir gildandi dagsetningu er 0. Á Morgun, þegar búist er við að seinkaðar innkaupapöntun sé móttekin, er atp-magnið reiknað sem meira en 0 (í þessu tilfelli er hann reiknaður sem 125). Hins vegar 10 dögum frá núna, þegar viðbótar innkaupapöntun upp á 100 stykki er búist við að vera móttekin, verður atp-magn meira en 150.  
 
 Þess vegna sendingardagsetningin er stillt á 10 daga frá núna, samkvæmt atp-útreikningi. Þess vegna er viðskiptavin sem bað um magnið sagt að hægt er að afhenda 10 dögum frá nú.
-
 
 
 

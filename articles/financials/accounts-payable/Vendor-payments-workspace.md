@@ -1,35 +1,34 @@
 ---
-title: "Vinnusvæði greiðslna lánardrottna"
-description: "Þetta efnisatriði veitir upplýsingar um lánardrottnagreiðslu á fartækjavinnusvæði. Vinnusvæði greiðslur Lánardrottins sýnir upplýsingar sem tengjast vinnslu greiðslur til lánardrottna."
+title: Vinnusvæði greiðslna lánardrottna
+description: Þetta efnisatriði veitir upplýsingar um lánardrottnagreiðslu á fartækjavinnusvæði. Vinnusvæði greiðslur Lánardrottins sýnir upplýsingar sem tengjast vinnslu greiðslur til lánardrottna.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymentWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 03fd290f8ad780e740a8fe6552c7a64c44b65a67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: fa8ddf52d34c3662e120509156ab0b343bb4cc16
-ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346112"
 ---
-
 # <a name="vendor-payments-workspace"></a>Vinnusvæði greiðslna lánardrottna
 
 [!include [banner](../includes/banner.md)]
 
-Vinnusvæði **Greiðslur Lánardrottins** sýnir upplýsingar sem tengjast vinnslu greiðslur til lánardrottna. Í þessu vinnusvæði er yfirlitið **Mín vinna** og síðan **Greiningar**. Í **Mínar vinnu** skoða sýnir samantekt tiles hnitanet færslu lánardrottins og tengdar lánardrottnaupplýsingum. Síðan **Greiningar** notar virkni Microsoft Power BI til að birta myndræna framsetningu á lánardrottnagreiðslum.
+Vinnusvæði **Greiðslur Lánardrottins** sýnir upplýsingar sem tengjast vinnslu greiðslur til lánardrottna. Í þessu vinnusvæði er yfirlitið **Mín vinna** og síðan **Greiningar**. Í **Mínar vinnu** skoða sýnir samantekt tiles hnitanet færslu lánardrottins og tengdar lánardrottnaupplýsingum. Síðan **Greiningar** notar getu Microsoft Power BI til að sýna myndefni sem tengjast stöðum greiðslum lánardrottna.
 
 ## <a name="my-work-view"></a>Skoða Mína vinnu
 
@@ -69,5 +68,4 @@ Eftirfarandi tafla sýnir sýnigögn sem eru tiltæk á hverri skýrslusíðu.
 |         Greiðsluverkflæði          |                                                                                <ul><li>Verkflæðistilvik lánardrottnagreiðslna</li><li>Verkflæðistilvik lánardrottnagreiðslna eftir samþykktaraðila</li><li>Verkflæðistilvik lánardrottnagreiðslna eftir fyrirtæki</li><li>Meðaltal daga í verkflæði eftir samþykkjanda</li></ul>                                                                                |
 |    Staða lánardrottins/viðskiptavinar     |                                                                                                                   <ul><li>Staða lánardrottins/viðskiptavinar</li><li>Staða lánardrottins/viðskiptavinar eftir fyrirtæki</li><li>Upplýsingar um stöðu lánardrottins/viðskiptavinar</li></ul>                                                                                                                    |
 |    Reikningar með greiðslubið     |                                                                                         <ul><li>Reikningar með greiðslubið</li><li>Reikningar með upplýsingar um greiðslubið</li><li>Reikningar með greiðslubið eftir fyrirtæki</li><li>Reikningar með greiðslubið eftir lánardrottnahóp</li></ul>                                                                                          |
-
 

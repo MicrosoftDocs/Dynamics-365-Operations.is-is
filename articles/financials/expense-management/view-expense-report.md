@@ -1,13 +1,13 @@
 ---
-title: "Skoða kostnaðarskýrslu frá fjárhag eða innkaupum og aðföngum"
-description: "Í þessu efnisatriði er útskýrt hvernig á að skoða upprunalegu kostnaðarskýrsluna sem færsla kom fyrir á."
+title: Skoða kostnaðarskýrslu frá fjárhag eða innkaupum og aðföngum
+description: Í þessu efnisatriði er útskýrt hvernig á að skoða upprunalegu kostnaðarskýrsluna sem færsla kom fyrir á.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e88af5a815803d20cf97f21f6ae50bcf98539b83
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 6397ca01ef100b6149c70a335ce854bc0439aff2
-ms.contentlocale: is-is
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316396"
 ---
-
 # <a name="view-an-expense-report"></a>Skoða kostnaðarskýrslu
 
 [!include [banner](../includes/banner.md)]
@@ -35,4 +34,3 @@ Fyrir kostnaðarskýrslur er hægt að kafa niður frá færslu til upprunalegu 
 Til að kafa niður í upprunalega kostnaðarskýrslu sem færsla kemur fyrir á skal velja færsluna og svo velja **Upprunalegt skjal**.
 
 Þegar einstaka færslur eru skoðaðar er einnig hægt að skoða önnur viðbótargögn sem fylgja færslu. Til dæmis er hægt fyrir sundurliðaðan hótelkostnað að skoða ítarlegan lista yfir kostnað eins og netaðgang, símtöl og herbergisþjónustu.
-

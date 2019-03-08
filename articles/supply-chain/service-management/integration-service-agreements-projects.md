@@ -1,31 +1,30 @@
 ---
-title: "Samþætting fyrir þjónustusamninga og verk"
-description: "Þegar unnið er með þjónustusamninga og þjónustusamningslínur eru notuð gögn sem sett eru upp í svæðunum í „Verkefnastjórnun og bókhald“."
+title: Samþætting fyrir þjónustusamninga og verk
+description: Þegar unnið er með þjónustusamninga og þjónustusamningslínur eru notuð gögn sem sett eru upp í svæðunum í „Verkefnastjórnun og bókhald“.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6bd2fb1f54a3decb77f019db6b2016cebdcaddb9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9f2640eae299411d633c68795bc16883dbb5eeaf
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323204"
 ---
-
 # <a name="integration-for-service-agreements-and-projects"></a>Samþætting fyrir þjónustusamninga og verk 
 
 [!include [banner](../includes/banner.md)]
@@ -79,7 +78,6 @@ Einnig er hægt að virkja reitina **Upphafstími** og **Lokatími** í flipanum
 
 > [!NOTE]
 > <P>Veldu heiti færslubókar fyrir þjónustupöntunina í reitnum <STRONG>Klst</STRONG> í flipanum <STRONG>Færslubækur</STRONG> í skjámyndinni <STRONG>Færibreytur þjónustustjórnunar</STRONG>.</P>
-
 
 
 

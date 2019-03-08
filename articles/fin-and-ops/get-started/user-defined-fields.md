@@ -1,13 +1,13 @@
 ---
-title: "Stofna og vinna með sérstillt svæði"
-description: "Þetta efnisatriði sýnir hvernig Microsoft Dynamics 365 for Finance and Operations gerir sumum notendum kleift að búa til sérsniðin svæði til að laga forritið að sínum viðskiptum."
+title: Stofna og vinna með sérstillt svæði
+description: Þetta efnisatriði sýnir hvernig Microsoft Dynamics 365 for Finance and Operations gerir sumum notendum kleift að búa til sérsniðin svæði til að laga forritið að sínum viðskiptum.
 author: jasongre
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
 ms.reviewer: sericks
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 18402579789c17de7b46dd7a013b3b6327ea5d4f
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348021"
 ---
-
 # <a name="create-and-work-with-custom-fields"></a>Stofna og vinna með sérstillt svæði
 
 [!include [banner](../includes/banner.md)]
 
-Þótt Microsoft Dynamics 365 for Finance and Operations veiti víðtækt úrval svæða út fyrir kassann til að stjórna fjölmörgum viðskiptaferlum, er stundum þörf fyrir fyrirtæki til að fylgjast með viðbótarupplýsingum í kerfinu. Til að mæta þessari þörf leyfir Finance and Operations þér að búa til sérsniðin svæði til að laga forritið að þínum viðskiptum, að því tilskildu að þú hafir heimild fyrir eiginleikanum.
+Þótt Microsoft Microsoft Dynamics 365 for Finance and Operations veiti víðtækt úrval svæða út fyrir kassann til að stjórna fjölmörgum viðskiptaferlum, er stundum þörf fyrir fyrirtæki til að fylgjast með viðbótarupplýsingum í kerfinu. Til að mæta þessari þörf leyfir Finance and Operations þér að búa til sérsniðin svæði til að laga forritið að þínum viðskiptum, að því tilskildu að þú hafir heimild fyrir eiginleikanum.
 
 Möguleikinn til að bæta við sérstilltum svæðum er í boði í verkvangsuppfærslu 13 og síðar.
 
@@ -160,4 +159,3 @@ Til að vernda kerfið, getur aðeins kerfisstjóri stofnað sérstillt svæði.
 - Taflan getur ekki víkkað út aðra töflu.
 - Ekki er hægt að merkja töfluna sem kerfistöflu.
 - Taflan getur ekki verið tímabundin tafla.
-

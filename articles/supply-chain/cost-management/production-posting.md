@@ -1,13 +1,13 @@
 ---
-title: "Framleiðslubókun"
-description: "Þessi grein gefur upplýsingar um mismunandi tegundir bókana í framleiðsluferlinu."
+title: Framleiðslubókun
+description: Þessi grein gefur upplýsingar um mismunandi tegundir bókana í framleiðsluferlinu.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventItemGroup, ProjCategory, WrkCtrResourceGroup, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0b44d57fe89ef7ae3def835865e4da80c260f907
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 413bf76b40ec1e6d00322605900a71f163c9396c
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332404"
 ---
-
 # <a name="production-posting"></a>Framleiðslubókun
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,6 @@ Tíminn sem starfsmenn nota í framleiðsluvinnslu er skráð í færslubók lei
 -   **Framleiðsluflokkar** – Notið fjárhagslykla sem eru sett upp í framleiðsluflokkum fyrir bæði efni og tímanotkun. Framleiðsluflokkarnir eru tengdir við útgefnar afurðir og afritaðir í framleiðslupantanir þegar þessar pantanir eru stofnaðar. Bókun á framleiðslupantanir  mun svo fylgja framleiðsluflokkum sem eru tengdir við framleiðslupöntunina.
 
 **Athugasemd** Ef staðlaða aðferðin til að reikna út kostnað við tilbúna vöru var notuð, endurspegla lokafærslurnar það. Ef það er mismunur á raunkostnaði og útreiknuðum kostnaði með notkun stöðluðu aðferðarinnar, er mismunurinn bókaður á lykilinn sem sýnir hagnað eða tap.
-
 
 
 

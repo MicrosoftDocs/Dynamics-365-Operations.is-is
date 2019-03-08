@@ -1,13 +1,13 @@
---- 
-title: "Afrita formúlu"
-description: "Þetta ferli leggur áherslu á stofnun formúlu sem inniheldur sömu efni og fyrirliggjandi formúla, en með minniháttar breytingum."
+---
+title: Afrita formúlu
+description: Þetta ferli leggur áherslu á stofnun formúlu sem inniheldur sömu efni og fyrirliggjandi formúla, en með minniháttar breytingum.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dd87ded3bcc20b94fae723424d9cc6b94049a1a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 036bd9f592ca584afad9d4b9b7a49a9787076056
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312440"
 ---
 # <a name="copy-a-formula"></a>Afrita formúlu
 
@@ -64,5 +64,4 @@ ms.lasthandoff: 09/29/2017
 4. Í listanum skal smella á tengilinn í valinni línu.
 5. Smellið á Velja.
 6. Smellið á „Í lagi“.
-
 

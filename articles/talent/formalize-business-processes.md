@@ -1,13 +1,13 @@
 ---
-title: "Gera viðskiptaferli formleg"
-description: "Þetta efnisatriði útskýrir hvernig hægt er að nota eiginleikann Viðskiptaferli til að búa til sniðmát viðskiptaferlis, fyrir ferli sem ljúka verður innan fyrirtækisins."
+title: Gera viðskiptaferli formleg
+description: Þetta efnisatriði útskýrir hvernig hægt er að nota eiginleikann Viðskiptaferli til að búa til sniðmát viðskiptaferlis, fyrir ferli sem ljúka verður innan fyrirtækisins.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 01/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: PersonnelBusinessProcessGenericWorkspace, BusinessProcessGenericTemplateListpage, BusinessProcessGenericMyTemplates, BusinessProcessGroupAssignment
 audience: Application User
 ms.reviewer: rschloma
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShielaS
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: ee4035f3156a91faecdecba45289dbb1ca6e947a
 ms.openlocfilehash: fd538677d897c1e7d3103cd714c688373aab8d29
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304901"
 ---
 # <a name="formalize-business-processes"></a>Gera viðskiptaferli formleg
 
@@ -74,5 +74,4 @@ Til að búa til eða afrita sniðmát viðskiptaferlis, eða til að hefja við
 - Veldu **Byrja ferli** til að hefja valið viðskiptaferli, úthluta verkþáttum og reikna skiladaga.
 
 Til að skoða virk ferli og tengda verkþætti, skal opna **Viðskiptaferli** vinnusvæðið.
-
 

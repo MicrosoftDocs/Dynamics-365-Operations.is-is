@@ -1,13 +1,13 @@
 ---
-title: "Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði"
-description: "Sjálfgefið pöntunarstillingar skilgreina svæði og vöruhús þar sem afurðir verða upprunnin frá eða geymdar, í lágmarks, hámarks, margar og staðlaðs magns sem verða notuð fyrir viðskipti eða birgðastjórnun, afhendingartíma, stöðvunarflagg, og aðferðina pöntun lofað."
+title: Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði
+description: Sjálfgefið pöntunarstillingar skilgreina svæði og vöruhús þar sem afurðir verða upprunnin frá eða geymdar, í lágmarks, hámarks, margar og staðlaðs magns sem verða notuð fyrir viðskipti eða birgðastjórnun, afhendingartíma, stöðvunarflagg, og aðferðina pöntun lofað.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventItemOrderSetup
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: b7c36553c9ad5bf4b061285d617be85ce77d0fcd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: d0e8d1ac8b775f9c728d6bfa6ba219dd889bf8a2
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326378"
 ---
-
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði
 
 [!include [banner](../includes/banner.md)]
 
 [!include [retail name](../includes/retail-name.md)]
 
-Sjálfgefnar pöntunarstillingar í Microsoft Dynamics 365 for Finance and Operations skilgreina svæði og vöruhús þar sem afurðir verða teknar frá eða geymdar í lágmarks, hámarks, margvíslegu og staðalmagni sem verður notað fyrir viðskipti eða birgðastjórnun, afhendingartíma, stöðvunarflagg og aðferð lofaðrar pöntunar. Sjálfgefnar pöntunarstillingar eru notaðar þegar innkaupapantanir, sölupantanir, flutningspantanir, birgðabókum eru stofnaðar, og við aðaláætlanagerð til að mynda áætluð pöntun. Sjálfgefnar pöntunarstillingar geta verið tengdar ákveðnum vörum, svæðum, afurðarafbrigðum, eða afurðarvíddum.
+Sjálfgefið pöntunarstillingar í Microsoft Dynamics 365 for Finance and Operations skilgreina svæði og vöruhús þar sem afurðir verða upprunnin frá eða geymdar, í lágmarks, hámarks, margar og staðlaðs magns sem verða notuð fyrir viðskipti eða birgðastjórnun, afhendingartíma, stöðvunarflagg, og aðferðina pöntun lofað. Sjálfgefnar pöntunarstillingar eru notaðar þegar innkaupapantanir, sölupantanir, flutningspantanir, birgðabókum eru stofnaðar, og við aðaláætlanagerð til að mynda áætluð pöntun. Sjálfgefnar pöntunarstillingar geta verið tengdar ákveðnum vörum, svæðum, afurðarafbrigðum, eða afurðarvíddum.
 
 Þú getur skilgreinir sjálfgefnar pöntunarstillingar á **Sjálfgefnar pöntunarstillingar** síðu. Til að opna þessa síðu farið í **Vöruupplýsingastjórnun** &gt; **Afurðir** &gt; **Losaðar afurðir** &gt; **Velja losaða afurð** &gt; á **Áætlun** eða **Stjórna birgðum** Aðgerðarrúða &gt; **Pöntunarstillingar** &gt; **Sjálfgefnar pöntunarstillingar**.
 
@@ -170,7 +169,6 @@ Ef reglukerfið fyrir sjálfgefnar pöntunarstillingar er of óþjált, þá er 
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
 Vægi í þessu tilfelli er ekki mikilvægt í raun, þannig að hægt er að velja að fela það. Þessa lausn leiðir mögulega til vandamáls varðandi viðhalds. Hins vegar er gott að viltu íhuga að nota uppsetningu þú ert að íhuga að samþætta við Product Lifecycle Management (PLM)-kerfi.
-
 
 
 

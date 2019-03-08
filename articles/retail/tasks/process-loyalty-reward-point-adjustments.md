@@ -1,13 +1,13 @@
---- 
+---
 title: " Vinna úr leiðréttingum á vildarkerfispunktum"
-description: "Þetta ferli sýnir hvernig til að fletta upp upplýsingar um vildarkort og leiðrétta vildarpunkta."
+description: Þetta ferli sýnir hvernig til að fletta upp upplýsingar um vildarkort og leiðrétta vildarpunkta.
 author: scott-tucker
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailLoyaltyCards, RetailLoyaltyCardRewardPointTrans, RetailLoyaltyCardRewardPointAdjustment, RetailAffiliationLookup
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 85aaa82bf56d55c69f39bab49682c79f51247251
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2bfb5095c1db2a5ab9fb528d08d979ec850543fc
-ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346158"
 ---
 # <a name="process-loyalty-reward-point-adjustments"></a> Vinna úr leiðréttingum á vildarkerfispunktum
 
@@ -49,5 +49,4 @@ ms.lasthandoff: 02/07/2018
     * Vanalega á þessum tímapunkti er á endurnýja síðu til að sjá niðurstöður vildarpunkts leiðréttingu punkta í flipanum yfirlit Vildarpunkts. En ef verið er að keyra þetta sem leiðarvísi fyrir verk, ekki endurnýja núna því sé það gert, stöðvast leiðarvísi fyrir verk.  
 15. Smellt er á kortafærslur
 16. Lokið síðunni.
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Reikna út tillögur um kanban-magn"
-description: "Þetta ferli leggur áherslu á besta kanban-stærð og magn fyrir tiltekna kanban-reglu með því að nota útreikning kanban-magns."
+---
+title: Reikna út tillögur um kanban-magn
+description: Þetta ferli leggur áherslu á besta kanban-stærð og magn fyrir tiltekna kanban-reglu með því að nota útreikning kanban-magns.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 540dd32c5da5859ef5e69f55d6806eada90bc840
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a817dbc02890d863f68c5bf2a6cc11b9a5328060
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348987"
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>Reikna út tillögur um kanban-magn
 
@@ -84,5 +84,4 @@ ms.lasthandoff: 09/29/2017
     * Athugið að þetta er sjálfgefið magn sem fært var inn í útreikningi kanban-magns.  
     * Athugið að þetta er fast kanban-magn 4 úr útreikningi kanban-magns.  
 5. Smellt er á flipann ListPanel.
-
 

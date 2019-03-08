@@ -1,13 +1,13 @@
 ---
-title: "Grunnstilla afhendingarmáta og gjöld í símaveri"
-description: "Þetta efni lýsir því hvernig á að setja upp afhendingarmáta og gjöld fyrir símaverspöntun í Microsoft Dynamics 365 for Retail."
+title: Grunnstilla afhendingarmáta og gjöld í símaveri
+description: Þetta efni lýsir því hvernig á að setja upp afhendingarmáta og gjöld fyrir símaverspöntun í Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
-ms.openlocfilehash: ebc8ee52da7d10ca18147684a0190e52a495ad5a
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328425"
 ---
-
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Grunnstilla afhendingarmáta og gjöld í símaveri
 
 [!INCLUDE [banner](includes/banner.md)]
@@ -96,4 +95,3 @@ Ef þú vilt geturðu tengt flýtikóðann við hvaða afhendingarmáta sem þú
 Til dæmis, fyrir pantanir sem verða fluttar með flugi næsta dag, verður að tiltekt að eiga sér stað í vörugeymslunni fyrir klukkan 13:00 á hverjum degi. Í þessu tilfelli er hægt að búa til flýtikóða og þessi kóða er hægt að tengja við allar gerðir afhendingarmáta fyrir næsta dag, sem eru grunnstilltar í kerfinu. Þegar vörugeymsla býr til tiltektarbylgju má nota viðeigandi flýtikóða í **Flýta** reitnum sem afmörkun, þannig að tiltekt er aðeins keyrð fyrir pantanir sem hafa afhendingarmáta sem tengist þeim kóða.
 
 Að auki, þegar símaverspöntun er færð inn, er hægt að beita flýtikóðanum handvirkt annaðhvort í sölupöntunarhaus eða í einstaka sölupöntunarlínu. Líkt og áður, hægt er að nota kóðann til flokkunar eða skýrslugerðar. Stundum þarf að meðhöndla pöntun gætilega vegna vandamáls í þjónustudeild. Í þessu tilviki er hægt að beita tilteknum flýtikóða á pöntunarhausinn eða línurnar til að hjálpa til við að auðkenna og forgangsraða pöntuninni á meðan uppfyllingarferlinu stendur.
-

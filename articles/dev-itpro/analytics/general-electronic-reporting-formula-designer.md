@@ -1,13 +1,13 @@
 ---
-title: "Formúluhönnuður í rafrænni skýrslugerð (ER)"
-description: "Þessi Umfjöllunarefni útskýrir hvernig nota á formúluhönnuður í Rafræna skýrslugerð (ER)."
+title: Formúluhönnuður í rafrænni skýrslugerð (ER)
+description: Þessi Umfjöllunarefni útskýrir hvernig nota á formúluhönnuður í Rafræna skýrslugerð (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 10/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
 ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.contentlocale: is-is
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331277"
 ---
-
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formúluhönnuður í rafrænni skýrslugerð (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -626,7 +625,7 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 <li>Finance and Operations merki SYS18389 sem hefur eftirfarandi texta:
 <ul>
 <li><strong>Fyrir tungumál EN-US:</strong> &quot;Customer %1 is stopped for %2.&quot;</li>
-<li><strong>Fyrir tungumál DE:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
+<li><strong>Fyrir tungumálið DE:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
 <p>Hér er formúlunnar sem hægt er að hanna:</p>
@@ -731,7 +730,7 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 | FA\_BALANCE (kóði eignar, kóði virðislíkans, skýrslugjafarár, reikningsskiladagur) | Skila tilbúnum gagnageymi með stöðu eignar. Uppgjörsárið verður að vera tilgreint sem tölusetningargildi á **AssetYear** í Finance and Operations. | **FA\_SUM ("COMP-000001", "Núverandi", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** skilar tilbúnum gagnageymi fyrir stöðu eignar **"COMP-000001"** sem hefur **"Núverandi"** gildislíkan á núverandi setudagsetningu Finance and Operations. |
 | TABLENAME2ID (strengur) | Skila heiltöluframsetningu af töfluauðkenni fyrir tilgreint töfluheiti. | **TABLENAME2ID ("Intrastat")** skilar **1510**. |
 | ISVALIDCHARACTERISO7064 (strengur) | Skila Boolean gildi **TRUE** þegar tilgreindur strengur táknar gildan alþjóðlegan bankareikning (IBAN). Annars skila Boolean gildi **FALSE**. | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** skilar **SATT**. **ISVALIDCHARACTERISO7064 ("AT61")** skilar **RANGT**. |
-| NUMSEQVALUE (númeraraðarkóði, umfang, umfangskenni) | Skila nýmynduðu gildi númeraraðar, byggt á tilgreindum númeraraðarkóða, umfangi og umfangskenni. Umfangið verður að tilgreina sem gildi **ERExpressionNumberSequenceScopeType** tölusetningarinnar (**Samnýtt**, **Lögaðili** eða **Fyrirtæki**). Fyrir **Samnýtt**, tilgreindu tóman streng sem umfangskenni. Fyrir umfang **Fyrirtækis** og **Lögaðila**, tilgreindu fyrirtækjakóðann og umfangskennið. Fyrir umfang **Fyrirtækis** og **Lögaðila**, ef tilgreindur er tómur strengur sem umfangskennið, er núverandi fyrirtækjakóði notaður. | Þú skilgreinir eftirfarandi gagnagjafa í líkanavörpun þinni:<ul><li>**enumScope** (**Dynamics 365 for Operations gerð** tölusetningar), sem vísar til **ERExpressionNumberSequenceScopeType** tölusetningarinnar</li><li>**NumSeq** (**Gerðin reiknaður** reitur), sem inniheldur tjáningu **NUMSEQVALUE („Gene\_1“, enumScope.Company, ““)**</li></ul>Þegar **NumSeq** gagnaveitan er kölluð skilar hún nýmynduðu gildi **Gene\_1** númeraröðarinnar sem hefur verið skilgreint fyrir fyrirtækið sem leggur til samhengið sem ER-sniði er keyrt undir. |
+| NUMSEQVALUE (númeraraðarkóði, umfang, umfangskenni) | Skila nýmynduðu gildi númeraraðar, byggt á tilgreindum númeraraðarkóða, umfangi og umfangskenni. Umfangið verður að tilgreina sem gildi **ERExpressionNumberSequenceScopeType** tölusetningarinnar (**Samnýtt**, **Lögaðili** eða **Fyrirtæki**). Fyrir **Samnýtt**, tilgreindu tóman streng sem umfangskenni. Fyrir umfang **Fyrirtækis** og **Lögaðila**, tilgreindu fyrirtækjakóðann og umfangskennið. Fyrir umfang **Fyrirtækis** og **Lögaðila**, ef tilgreindur er tómur strengur sem umfangskennið, er núverandi fyrirtækjakóði notaður. | Þú skilgreinir eftirfarandi gagnagjafa í líkanavörpun þinni:<ul><li>**enumScope** (**Dynamics 365 for Operations tölusetning** gerð), sem vísar til **ERExpressionNumberSequenceScopeType** tölusetningarinnar</li><li>**NumSeq** (**Gerðin reiknaður** reitur), sem inniheldur tjáningu **NUMSEQVALUE („Gene\_1“, enumScope.Company, ““)**</li></ul>Þegar **NumSeq** gagnaveitan er kölluð skilar hún nýmynduðu gildi **Gene\_1** númeraröðarinnar sem hefur verið skilgreint fyrir fyrirtækið sem leggur til samhengið sem ER-sniði er keyrt undir. |
 | NUMSEQVALUE (númeraraðarkóði) | Skila nýmynduðu gildi númeraraðar, byggt á tilgreindu númeraröðinni, umfangi **Fyrirtæki**, og (sem umfangskenni) kóði fyrirtækisins sem leggur til samhengið sem er ER-snið er keyrt undir. | Þú skilgreinir eftirfarandi gagnaveitu með vörpun líkansins: **NumSeq** (**Gerð reiknaðs** reits). Þessi gagnaveita inniheldur tjáninguna **NUMSEQVALUE („Gene\_1“)**. Þegar **NumSeq** gagnaveitan er kölluð skilar hún nýmynduðu gildi **Gene\_1** númeraröðarinnar sem hefur verið skilgreint fyrir fyrirtækið sem leggur til samhengið sem ER-sniði er keyrt undir. |
 | NUMSEQVALUE (færslukenni númeraraðar) | Skila nýmynduðu gildi númeraraðar, byggt á tilgreindu færslukenni númeraraðar. | Þú skilgreinir eftirfarandi gagnagjafa í líkanavörpun þinni:<ul><li>**LedgerParms** (**Gerð** töflu), sem vísar til LedgerParameters töflunnar</li><li>**NumSeq** (**Gerð reiknaðs** reits), sem inniheldur tjáninguna **NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)**</li></ul>Þegar **NumSeq** gagnaveitan er kölluð skilar hún nýmynduðu gildi númeraraðarinnar sem hefur verið skilgreint í fjárhagsfæribreytum fyrir fyrirtækið sem leggur til samhengið sem ER-sniði er keyrt undir. Þessi númeraröð auðkennir færslubókina á einkvæman hátt og vinnur sem lotunúmer sem tengir færslurnar saman. |
 
@@ -743,4 +742,3 @@ Rafræn skýrslugerð styður möguleikann á að útvíkka listann yfir aðger�
 
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Útvíkka listann yfir aðgerðir Rafrænnar skýrslugerðar](general-electronic-reporting-formulas-list-extension.md)
-

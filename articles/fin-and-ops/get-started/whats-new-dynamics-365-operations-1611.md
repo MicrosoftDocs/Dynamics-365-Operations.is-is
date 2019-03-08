@@ -1,13 +1,13 @@
 ---
-title: "Hvað er nýtt eða breytt í Dynamics 365 for Operations útgáfu 1611 (Nóvember 2016)"
-description: "Í þessu efnisatriði er lýst nýjum eða breyttum eiginleikum í Dynamics 365 for Operations, útgáfu 1611."
+title: Hvað er nýtt eða breytt í Dynamics 365 for Operations útgáfu 1611 (Nóvember 2016)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 for Operations útgáfu 1611.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7e907813323ef6b1c8b83675be75456f5844fa0a
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339074"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Hvað er nýtt eða breytt í Dynamics 365 for Operations útgáfu 1611 (Nóvember 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er lýst nýjum eða breyttum eiginleikum í Dynamics 365 for Operations, útgáfu 1611.
+Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 for Operations útgáfu 1611.
 
 ## <a name="cost-accounting"></a>Kostnaðarbókhald
 
@@ -43,7 +42,7 @@ ms.lasthandoff: 12/18/2018
 <tbody>
 <tr>
 <td>Skilgreina víddir kostnaðareiningar og flytja inn víddarstök kostnaðareiningar.</td>
-<td>Kostnaðareiningar eru notaðar í kostnaðarbókhaldi til að flokka kostnað og skjalfæra kostnaðarflæði. Aðalkostnaðareiningar eru fluttar inn annaðhvort með því að nota gagnatengi Microsoft Dynamics 365 for Operations til að sækja aðallykla beint úr Aðgerðum, eða með því að nota almennt gagnatengi þar sem aðallyklar eru sóttir með Microsoft Excel sækja úr annari gerð upprunakerfis. Þegar aðallyklar hafa verið fluttir inn í kostnaðarbókhald eru þeir notaðir sem víddarstök kostnaðareiningar. Aukakostnaðareiningar eru notandaskilgreindur og eru notaðar í úthlutanir til að skjalfæra kostnaðarflæði.</td>
+<td>Kostnaðareiningar eru notaðar í kostnaðarbókhaldi til að flokka kostnað og skjalfæra kostnaðarflæði. Aðalkostnaðareiningar eru fluttar inn annaðhvort með því að nota gagnatengi Microsoft Dynamics 365 for Operations til að sækja aðallykla beint úr Aðgerðum, eða með því að nota almennt gagnatengi þar sem aðallyklar eru sóttir með Microsoft Excel til að sækja úr annarri gerð upprunakerfis. Þegar aðallyklar hafa verið fluttir inn í kostnaðarbókhald eru þeir notaðir sem víddarstök kostnaðareiningar. Aukakostnaðareiningar eru notandaskilgreindur og eru notaðar í úthlutanir til að skjalfæra kostnaðarflæði.</td>
 </tr>
 <tr>
 <td>Varpa víddum kostnaðareiningar</td>
@@ -101,7 +100,7 @@ ms.lasthandoff: 12/18/2018
 </tr>
 <tr>
 <td>Stofna skýrslur með því að nota Excel.
-<blockquote>[!NOTE] Það verður að keyra Microsoft Excel 2016.</blockquote>
+<blockquote>[!NOTE] Þú verður að keyra Microsoft Excel 2016.</blockquote>
 </td>
 <td>Hægt er að flytja út gögn kostnaðarbókhalds beint í Excel gegnum gagnaeiningar og nota Microsoft PivotTable til að stofna skýrslur.</td>
 </tr>
@@ -621,7 +620,7 @@ ms.lasthandoff: 12/18/2018
 | Það sem hægt er að gera | Hvers vegna er þetta mikilvægt? |
 |-----------------|-----------------------|
 | Grunnstilla ER skýrslur til að setja inn gögn, á nokkrum sniðum, úr geymslu Skjalastjórnunar í rafræn skilaboð sem eru mynduð. | Grunnstilltu ER skýrslur til að setja gögn inn í rafræn boð sem eru mynduð úr geymslu Skjalastjórnunar. Þar af leiðandi er hægt að bæta fylgiskjölum viðskiptaskjals við rafræn skilaboð sem eru mynduð fyrir það skjal, í samræmi við lagalegar kröfur. Eins og stendur er hægt að bæta þessum viðhengjum við á MIME-sniði við XML-skilaboð sem eru mynduð. Einnig er hægt að bæta við viðhengjum á Base64-sniði við tvíundakerfis skilaboð sem eru mynduð. |
-| Skilgreindu ER-skýrslur til að mynda rafræn skjöl á Excel-, Microsoft Word- eða PDF-sniði. | Eina skilgreining gerir ER-skýrslum kleift að mynda rafræn skjöl á þremur mismunandi sniðum: OpenXML-vinnublaðiði (Excel), Word og XML-gagnaeyðublöðum (XFDF) (PDF). Notendur geta valið snið með því að bæta við sniðasniðmáti við ER-skýrslu sem Excel-, Word- eða PDF-skjal. |
+| Skilgreindu ER-skýrslur til að mynda rafræn skjöl á Excel-, Microsoft Word eða PDF-sniði. | Eina skilgreining gerir ER-skýrslum kleift að mynda rafræn skjöl á þremur mismunandi sniðum: OpenXML-vinnublaðiði (Excel), Word og XML-gagnaeyðublöðum (XFDF) (PDF). Notendur geta valið snið með því að bæta við sniðasniðmáti við ER-skýrslu sem Excel-, Word- eða PDF-skjal. |
 | Grunnstilltu ER-skýrslur til að setja gögn inn í síðuhausa og síðufætur rafrænna skjala sem eru mynduð í vinnublaði OpenXML og til að stjórna síðuskilum. | ER-skýrslur geta sett viðskiptagögn inn í síðuhausa og síðufætur og einnig stýrt því hvar síðuskil eru gerð. Þess vegna geta skýrslur stutt fasta efri og neðri hluta fyrir síður í rafræn skjölum sem eru mynduð. Þær geta einnig stutt tiltekið síðuvíxl þessara skjala, þannig að þau samræmist lagaskilyrðum. |
 | Skilgreindu áfangastað ER-skýrslna þannig að úttak sé sent sem tölvupóstur og þannig að hægt sé að nota viðskiptagögn og viðskiptagrunninn sem ER-rök (segðir) til að tilgreina á keyrslutíma hvaða netfang eigi að nota. | Áður þegar ER-áfangastaður var skilgreindur, var hægt að skilgreina tölvupóstfang viðtakanda á á hönnunarstigi. Nú er hægt að skilgreina segð á ER-sniði. Síðan er hægt að velja þessa segð á áfangastað sem uppruna tölvupóstfangs fyrir hverja skilgreiningu sniðs og hvern úttaksíhlut (möppu eða skrá) sérstaklega. Þegar ER-skýrsla er í gangi er þess vegna hægt að póstsenda hverja skrá sem er mynduð til mismunandi viðtakanda og hægt er að skilgreina tölvupóstfang samkvæmt ER-rökum og viðskiptagögnum. |
 | Skilgreindu áfangastað ER-skýrslna þannig að úttakið sé sent í Microsoft SharePoint-möppu sem annaðhvort ný nefnd skrá eða í nýja útgáfu af fyrirliggjandi skrá og þannig er hægt að nota viðskiptagögn í Microsoft Power BI-ramma sem annaðhvort gagnasafn eða skýrslu. | Þegar ER-skýrslur eru skilgreindar er nú auðveldlega (án kóðunar) hægt að undirbúa umbeðin viðskiptagögn svo að hægt sé að nota þau af ramma Power BI. Þegar þessar ER-skýrslur eru keyrðar er hægt að veita ramma Power BI með viðkomandi viðskiptagögnum og/eða Excel-skýrslum sem þegar eru tiltækar. Ef þú raðar skýrslukeyrslum í reglubundinn ham er hægt að koma á áætluðum sendingum á viðskiptagögnum úr Dynamics 365 for Operations í Power BI til að styðja uppfærsluáætlun á Power BI-skýrslum. |
@@ -657,7 +656,7 @@ ms.lasthandoff: 12/18/2018
 </tr>
 <tr>
 <td>Myndaðu jákvæðar greiðsluskrár fyrir launaávísanir.</td>
-<td>Það er ný viðbót við jákvæða launavirkni reiðufjár og bankastjórnunar fyrir launagreiðslur. Aðskildum valmyndaratriðum hefur verið bætt við í gegnum kjarnaferli til að virkja einangraða skilgreiningu sem er tiltekin í launum. Virkni er sú sama og kjarnauppsetning jákvæðu aðgerðinni sem var losuð í Microsoft Dynamics AX útgáfa forrits 7.0.1 (Maí 2016). Vegna þessa nafnauka eru launagögn alveg einangruð frá afgangnum af jákvæðu færslunum. Þessi aðgreining tryggir að einungis notendur launaskráar fá aðgang að og sjá gögn sem tengjast launaskrá.</td>
+<td>Það er ný viðbót við jákvæða launavirkni reiðufjár og bankastjórnunar fyrir launagreiðslur. Aðskildum valmyndaratriðum hefur verið bætt við í gegnum kjarnaferli til að virkja einangraða skilgreiningu sem er tiltekin í launum. Virkni er sú sama og kjarnauppsetning jákvæðu aðgerðinni sem var losuð í Microsoft Dynamics AX útgáfu forrits 7.0.1 (maí 2016). Vegna þessa nafnauka eru launagögn alveg einangruð frá afgangnum af jákvæðu færslunum. Þessi aðgreining tryggir að einungis notendur launaskráar fá aðgang að og sjá gögn sem tengjast launaskrá.</td>
 </tr>
 <tr>
 <td>Flyttu inn tekjuyfirlitslínur úr ytri uppruna með því að nota nýja gagnaeiningu tekjuyfirlitslínu.</td>
@@ -717,7 +716,7 @@ ms.lasthandoff: 12/18/2018
 | Það sem hægt er að gera | Hvers vegna er þetta mikilvægt? |
 |-----------------|-----------------------|
 | Notaðu Valið síðar þegar verið er að bóka reikningstillögu í runu. | Bókhaldarar verks geta sett upp runuvinnslu til að sækja reikningstillögur sjálfkrafa fyrir bókun, ef þær tillögur uppfylla skilyrðin sem eru tilgreind í runuvinnslunni. Þessi eiginleiki endurbætir sjálfvirkni við bókun reiknings, þar sem runuvinnslan getur keyrt stöðugt og tekur sjálfkrafa upp tillögur fyrir bókun. |
-| Búa til greiningar í Power BI desktop. | Efni viðskiptaupplýsinga (BI) fyrir verktengd og tilfangatengd gögn má auðveldlega stofna í Power BI desktop. |
+| Búa til greiningar í Power BI skjáborði. | Efni viðskiptaupplýsinga (BI) fyrir verktengd og tilfangatengd gögn má auðveldlega stofna í Power BI skjáborði. |
 | Notaðu fyrirframgreiðslur pöntun í innkaupapöntun og hafðu þær réttar í matsferli  verkefnisins. | Fyrir innkaupapantanir verks verða fyrirframgreiðslur að vera unnar áður en hægt að losa sumar greiðslur til lánardrottna. Þessir fyrirframgreiðslureikningar birtast núna í verkmati/skráningarferli fyrir verk af gerðinni **Fast verð**. |
 | Fá aðgang að og stjórna kostnaði og áætluðum tekjum og vöruþörfum, beint úr sundurliðun verkþátta verks (WBS). | Hægt er að stjórna kostnaðarmati, tekjumati og vöruþörfum fyrir tiltekin WBS-verk í upplýsingaglugganum fyrir það verk í WBS yfirliti áætlana. |
 | Sækja fjármögnunaraðila á þóknunarbækur. | Ef samningur fyrir verk inniheldur marga fjármögnunaraðila er hægt að velja einn tiltekinn fjármögnunaraðila þegar gjöldin eru bókuð. Ef ekki er valinn ákveðinn fjármögnunaraðili eru fjármögnunarreglur sem tilgreindar eru í samningnum notaðar til að úthluta þóknun. |
@@ -764,7 +763,7 @@ Snurðulaus viðskipti omni-rásar vísar til stjórnunar og vinnslu pantana í 
 
 | Það sem hægt er að gera | Hvers vegna er þetta mikilvægt? |
 |-----------------|-----------------------|
-| Skoða leiðbeiningar sérsniðinnar afurðar á mörgum snertipunktum á sölustað (POS) til að ákvarða hvaða viðskiptavinur gæti haft áhuga á grundvelli innkaupaferla viðskiptavina, vara á óskalista og vara sem aðrir viðskiptavinir keyptu á netinu og í verslunum í verslunarhúsnæði | Fyrir smásala með stóra vörulista hjálpa sérsniðnar ráðleggingar viðskiptavinum með afurðaleit og virkja starfsmenn verslunarinnar með snjallri biðlaraþjónustu. Með því að sýna afurðir sem miðast við áhugamál viðskiptavinarins og innkaupavenjur geta vöruráðleggingar aðstoðað smásala við viðbótarsölu og hægt er að auka varðveislu viðskiptavina. Í Microsoft Dynamics 365 for Operations - Retail eru vöruráðleggingar keyrðar af vitsmunaþjónustu og Microsoft Azure forritun vélar. |
+| Skoða leiðbeiningar sérsniðinnar afurðar á mörgum snertipunktum á sölustað (POS) til að ákvarða hvaða viðskiptavinur gæti haft áhuga á grundvelli innkaupaferla viðskiptavina, vara á óskalista og vara sem aðrir viðskiptavinir keyptu á netinu og í verslunum í verslunarhúsnæði | Fyrir smásala með stóra vörulista hjálpa sérsniðnar ráðleggingar viðskiptavinum með afurðaleit og virkja starfsmenn verslunarinnar með snjallri biðlaraþjónustu. Með því að sýna afurðir sem miðast við áhugamál viðskiptavinarins og innkaupavenjur geta vöruráðleggingar aðstoðað smásala við viðbótarsölu og hægt er að auka varðveislu viðskiptavina. Í Microsoft Dynamics 365 for Retail eru vöruráðleggingar keyrðar af vitsmunaþjónustu og Microsoft Azure vélnámi. |
 
 ### <a name="pos-task-recorder"></a>Verkskráning sölustaðar
 
@@ -795,7 +794,7 @@ Verslunarkerfið er uppsetningarval fyrir smásala sem hjálpar til við að key
 |-----------------|-----------------------|
 | Smásali hleður niður sjálfsafgreiðslu uppsetningarforriti verslunarkerfisins af síðu gagnagrunns rásar í Dynamics AX HQ og hleður niður í skilgreiningarskránni. | Smásalinn getur snurðulaust sótt sjálfsafgreiðslupakka. |
 | Smásalinn setur upp verslunarkerfið með sjálfsafgreiðslu uppsetningarforritinu. | Smásaliinn getur sett upp verslunarkerfið með sjálfsafgreiðslupakkanum. |
-| Tæknistjóri stillir verslunarkerfið Dynamic 365 for Operations (gagnagrunnsrás, rásarforstilling, verslun og virkjanlegir pakkar). | Tæknistjóri getur skilgreint verslunarkerfið auðveldlega og skilvirkt. |
+| Tæknistjóri stillir verslunarkerfið Dynamics 365 for Operations (gagnagrunnsrás, rásarforstilling, verslun og virkjanlegir pakkar). | Tæknistjóri getur skilgreint verslunarkerfið auðveldlega og skilvirkt. |
 | Smásali keyrir Retail Modern POS í verslunarhúsnæðinu og getur gert rauntíma aðgerðir, eins og gefa út gjafakort þegar tenging er til staðar. | Smásalinn getur framkvæmt rauntíma aðgerðir úr verslunarkerfinu þegar tenging er til staðar. |
 | Smásali getur samstillt gögn úr verslunarkerfinu við höfuðstöðvar þegar tenging er til staðar. | Smásalinn getur samstillt við verslunarkerfi þegar tenging er til staðar. |
 | Smásali getur átt örugg samskipti á milli verslunarkerfisins og höfuðstöðva. | Smásalinn getur átt örugg samskipti úr verslunarkerfinu þegar tenging er til staðar. |
@@ -828,7 +827,7 @@ Eins og stendur er Retail Modern POS aðeins tiltækt sem Windows 8.1 forrit fyr
 | Gera lánardrottnum mögulegt að bregðast við hverri innkaupalínu og leggja til breytingar. | Í sumum tilfellum vilja lánardrottnar samþykkja sumar innkaupapöntunarlínur en hafna öðrum. Lánardrottnar geta nú sérstaklega stjórnað innkaupapöntunarlínum. Hægt er að hafna hverri einustu línu, samþykkja hana eða samþykkja með breytingum. Til dæmis geta lánardrottnar breytt afhendingardagsetningu, skipt afhendingu og magni eða stungið upp á annarri vöru. |
 | Gera lánardrottnum mögulegt að stjórna upplýsingum um tengilið. | Lánardrottnar geta viðhaldið upplýsingum um tengilið um fyrirtæki þeirra. Þessar upplýsingar innihalda nöfn, tölvupóstaðsetur og símanúmer. Aðgangur að þessari aðgerð er veittur með sérnýttu öryggishlutverki. |
 | Deila skjölum sem tengjast innkaupapöntunum með lánardrottna. | Þegar samnýta þarf skjal með lánardrottni, s.s. skjal um þarfir, er handhægt að tengja skjalið við viðeigandi innkaupapöntun. Lánardrottinn getur síðan deilt athugasemdum og viðhengjum með viðskiptavinum með því að tengja skjalið við svar hans eða hennar við innkaupapöntun. Skjalastjórnun er undirliggjandi stuðningsrammi og aðeins er hægt að deila athugasemdum og viðhengjum sem eru flokkuð sem „ytri“ með lánardrottnum. |
-| Ráðstafa nýjum notendum lánardrottins. | Ef lánardrottnarnir nota viðmót samvinnusvæðis lánardrottins hafa þeir snurðulausa leið til að biðja um nýja notendareikninga þegar nýir tengiliðir þarfnast aðgangs að samvinnusvæði lánardrottins. Sérfræðingar í innkaupum geta sent inn beiðni um notendareikning tengiliðs við fyrirtæki lánardrottins. Tengiliður lánardrottins sem er þegar notandi á samvinnusvæði lánardrottins getur líka sent þessa gerð beiðni. Þessi beiðni býr að lokum til nýjan notanda í Dynamics 365 for Operations sem er með öryggishlutverk tiltekins lánardrottins. Það auðveldar einnig beiðni til gáttar Microsoft Azure B2B um að ráðstafa notanda nýjum notandareikningi Azure Active Directory (Azure AD). Lánardrottnar geta einnig beðið um að tilgreindir lánardrottnalyklar notanda séu gerðir óvirkir eða að öryggishlutverkum sé breytt. |
+| Ráðstafa nýjum notendum lánardrottins. | Ef lánardrottnarnir nota viðmót samvinnusvæðis lánardrottins hafa þeir snurðulausa leið til að biðja um nýja notendareikninga þegar nýir tengiliðir þarfnast aðgangs að samvinnusvæði lánardrottins. Sérfræðingar í innkaupum geta sent inn beiðni um notendareikning tengiliðs við fyrirtæki lánardrottins. Tengiliður lánardrottins sem er þegar notandi á samvinnusvæði lánardrottins getur líka sent þessa gerð beiðni. Þessi beiðni býr að lokum til nýjan notanda í Dynamics 365 for Operations sem er með öryggishlutverk tiltekins lánardrottins. Það auðveldar einnig beiðni til gáttar Azure AD B2B um að ráðstafa notanda nýjum Microsoft Azure (Azure Active Directory) notandareikningi. Lánardrottnar geta einnig beðið um að tilgreindir lánardrottnalyklar notanda séu gerðir óvirkir eða að öryggishlutverkum sé breytt. |
 | Fræðast nánar um stuðning við samstarf lánardrottna í Dynamics 365 for Operations. | Nánari upplýsingar um samstarf lánardrottna er að finna á [Samvinnusvæði lánardrottins við ytri lánardrottna](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md), [Samvinnusvæði lánardrottins við viðskiptavini](../../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md), [Stjórna notendum samvinnusvæðis lánardrottins](../../supply-chain/procurement/manage-vendor-collaboration-users.md), [Setja upp og viðhalda samvinnusvæði lánardrottins](../../supply-chain/procurement/set-up-maintain-vendor-collaboration.md) og [Reikningsfærsluvinnusvæði lánardrottins](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). |
 
 ### <a name="intercompany-order-processing"></a>Vinnsla samstæðusölupöntunar
@@ -946,4 +945,3 @@ Eins og stendur er Retail Modern POS aðeins tiltækt sem Windows 8.1 forrit fyr
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Nýjungar eða breytingar](whats-new-changed.md)
-

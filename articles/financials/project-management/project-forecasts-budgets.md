@@ -1,13 +1,13 @@
 ---
-title: "Verkspár og fjárhagsáætlanir"
-description: "Hægt er að hafa umsjón með og stjórna verkum í Microsoft Dynamics 365 for Finance and Operations með verkspám og fjárhagsáætlunum verks."
+title: Verkspár og fjárhagsáætlanir
+description: hægt er að hafa umsjón með og stjórna verkum í Microsoft Dynamics 365 for Finance and Operations með verkspám og fjárhagsáætlunum verks.
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 530a2717427c540d80509c4862e6fb8ea7c5694a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e31a013d6bf33b92b02bd9645a19380ba07f4a05
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310393"
 ---
-
 # <a name="project-forecasts-and-budgets"></a>Verkspár og fjárhagsáætlanir
 
 [!include [banner](../includes/banner.md)]
 
-Tvær leiðir eru til að hafa umsjón með og stjórna verkum í Microsoft Dynamics 365 for Finance and Operations: verkspár og fjárhagsáætlanir verks. 
+Microsoft Dynamics 365 for Finance and Operations veitir tvær leiðir eru til að hafa umsjón með og stjórna verkum: verkspár og fjárhagsáætlanir verks. 
 
 Hægt er að nota verkspá ef fyrirtækið hefur rekstraráætlanagerðar sjónarhorn og áherslu á tekjur og kostnaður sem er afleidd af tilteknar færslur. Hins vegar, ef fyrirtæki þitt leggur frekari áherslu á fjárhagslegar upphæðir, hægt er að nota fjárhagsáætlanir. 
 
@@ -80,7 +79,6 @@ Fjárhagsáætlanir verks eru sjálfkrafa tengdar tveimur spálíkönum, einu fy
 Spárlíkön hafa stigveldi í einu lagi. Þetta þýðir að hver verkspá verður að vera tengd við eitt spálíkan.
 
 Ef þú notar verkspá getur þú auðkennt líkön sem undirlíkön. Síðan er hægt að stofna spá eftir deild, tímabili eða svæði. Til dæmis er hægt að stofna spálíkan fyrir ár og stofna síðan undirlíkön fyrir norðaustur-, suðaustur-, norðvestur- og suðvesturspásvæði fyrir upplýsingar sem eru sendar frá þeim svæðum. Með því að velja aðra valkosti í skýrslum í boði er hægt að skoða upplýsingar um heildarspá eða undirlíkanið.
-
 
 
 

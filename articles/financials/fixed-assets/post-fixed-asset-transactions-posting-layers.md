@@ -1,13 +1,13 @@
 ---
-title: "Bóka eignafærslur í bókunalög"
-description: "Þessi grein gefur yfirlit yfir virkni bókunarlags fyrir eignafærslur."
+title: Bóka eignafærslur í bókunalög
+description: Þessi grein gefur yfirlit yfir virkni bókunarlags fyrir eignafærslur.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 22feb15a1891c57576a5809f4ff3f4d089c6dfa4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b210bddf640dff2d65e2aec63a18c27acebdc5a8
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323342"
 ---
-
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Bóka eignafærslur í bókunalög
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,6 @@ Hægt er að tilnefna fjárhagsreikninga sem færslur eigna eru bókaðar í á 
 > Með því að nota afleidd bækur er mögulegt að bóka færslur á mismunandi bókunarlög á sama tíma. Færslur aðalbókar eru stofnaðar í færslubók með bókunarlagi sem samsvarar bókunarlagi bókar. Á meðan á bókun stendur, eru færslur afleidda bóka bókaðar á þau bókunarlög sem tilheyra þeim.
 
 Nánari upplýsingar eru í [Afleiddar bækur](derived-books.md) og [Bókað í afleiddar bækur](post-derived-value-models.md).
-
 
 
 

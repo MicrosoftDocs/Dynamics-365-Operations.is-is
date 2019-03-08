@@ -1,13 +1,13 @@
 ---
-title: "Listasíða með færslum viðskiptavinar"
-description: "Þetta efnisatriði veitir upplýsingar um listasíðu með viðskiptavinafærslum fyrir Microsoft Dynamics 365 for Finance and Operations."
+title: Listasíða með færslum viðskiptavinar
+description: Þetta efnisatriði veitir upplýsingar um listasíðu með viðskiptavinafærslum fyrir Microsoft Dynamics 365 for Finance and Operations.
 author: mikefalkner
 manager: aolson
 ms.date: 08/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
+ms.openlocfilehash: b9936a66cc8c8abb24601dae91dcfca77e4f58a4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
-ms.openlocfilehash: 1b359939c867ba0a0c14859c83f0560afe6ba5be
-ms.contentlocale: is-is
-ms.lasthandoff: 10/12/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341696"
 ---
-
 # <a name="customer-transactions-list-page"></a>Listasíða með færslum viðskiptavinar
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ ms.lasthandoff: 10/12/2018
 
 4. Í svarglugganum er hægt að framkvæma ýmis verk. Veldu eitt eða fleiri fylgiskjöl og veldu síðan einn af eftirfarandi hnöppum:
 
-    - **Skoða tengt** - Allar greiðslubókarfærslur sem voru búnar til í greiðslubókinni sem tengjast völdu skjali. Þar að auki birtast öll uppgjör sem tengjast þessum greiðslum. Við skoðun á tengdum greiðslum breytist merkið á þessum hnappi í **Skoða uppgjör**. Veldu **Skoða uppgjör** til að sýna aðeins færslurnar sem sýndar voru þegar þú opnaðir fyrst svargluggann **Skoða uppgjör**.
+    - **Skoða tengt** - Sýna allar greiðslubókarfærslur og færslubókarfærslur fyrir viðskiptavininn sem var búinn til í færslubókunum þar sem skjölin sem sýnd eru í listanum voru búin til. Til dæmis, ef greiðsla er sýnd, birtast allar greiðslur í greiðslubókinni þar sem hún var búin til. Ef reikningur eða greiðsla er sýnd og hún var búin til í almennri færslubók, þá birtast öll skjölin í almennu færslubókinni þar sem hún var búin til. Öll uppgjör sem tengjast skjalalista eru einnig sýnd. Við skoðun á tengdum greiðslum breytist merkið á þessum hnappi í **Skoða uppgjör**. Veldu **Skoða uppgjör** til að sýna aðeins færslurnar sem sýndar voru þegar þú opnaðir fyrst svargluggann **Skoða uppgjör**.
     - **Skoða feril** - Skoða uppgjörsferli fyrir fylgiskjölin. Veldu **Loka** til að loka svarglugganum.
     - **Skoða bókhald** - Sýna öll fylgiskjöl sem tengjast völdum skjölum. Veldu **Loka** til að loka svarglugganum.
     - **Flytja út** - Flyttu út valin fylgiskjöl í Microsoft Excel.
@@ -98,4 +97,3 @@ Hver reitur hefur mismunandi áhrif á færsluna þegar þú breytir honum:
 - **Breyta skilmálum staðgreiðsluafsláttar** - Staðgreiðsluafsláttum er breytt samkvæmt grunndagsetningu og skilmálum staðgreiðsluafsláttar.
 
 Þegar þú hefur lokið við breytingar á greiðslustillingum skaltu velja **Loka** til að vista breytingarnar.
-

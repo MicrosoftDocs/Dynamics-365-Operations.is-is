@@ -1,13 +1,13 @@
 ---
-title: "Skilgreining verkflæðiseiginleika"
-description: "Þetta efnisatriði útskýrir hvernig skilgreina á mismunandi eiginleika verkflæðis."
+title: Skilgreining verkflæðiseiginleika
+description: Þetta efnisatriði útskýrir hvernig skilgreina á mismunandi eiginleika verkflæðis.
 author: sericks007
 manager: AnnBe
 ms.date: 07/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 576ce368b2a8672aa39116eb0cc6e3d3f2a06bb3
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328471"
 ---
-
 # <a name="configure-workflow-properties"></a>Skilgreining verkflæðiseiginleika
 
 [!include [banner](../includes/banner.md)]
@@ -184,4 +183,3 @@ Til að færa inn athugasemdir um þær breytingar sem þú hefur gert á verkfl
 2. Í svæðinu **færa Inn athugasemdir um verkflæðið** , færið inn athugasemdir.
 3. Farðu aftur yfir Athugasemdir þitt. Þegar búið er að bæta við athugasemd er ekki hægt að breyta henni.
 4. Smellið á **Bæta við** til að bæta athugasemdir við **ferill Athugasemda** svæði.
-

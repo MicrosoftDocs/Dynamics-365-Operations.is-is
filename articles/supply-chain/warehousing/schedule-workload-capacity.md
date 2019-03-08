@@ -1,13 +1,13 @@
 ---
-title: "Tímasetja afkastagetu vinnuálags"
-description: "Í þessu efnisatriði er útskýrt hvernig á að setja upp og raða vinnuálagsgetu starfsfólks í vöruhúsi eða fyrir heilt vöruhús."
+title: Tímasetja afkastagetu vinnuálags
+description: Í þessu efnisatriði er útskýrt hvernig á að setja upp og raða vinnuálagsgetu starfsfólks í vöruhúsi eða fyrir heilt vöruhús.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSWorkloadCapacity
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: 1b1334dcba7d12f2da301f70e21a08fceb88e2b4
-ms.contentlocale: is-is
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317293"
 ---
-
 # <a name="schedule-workload-capacity"></a>Tímasetja afkastagetu vinnuálags
 
 [!include[banner](../includes/banner.md)]
@@ -81,4 +80,3 @@ Ef þessar upplýsingar eru ekki tilgreindar á réttan hátt, færðu skilaboð
 3. Í reitnum **Gerð pöntunar** skal velja **Áætlað og staðfest**, **Áætlað** eða **Staðfest** til að tilgreina gerð pantana sem á að spá fyrir í skýrslunni.
 4. Í reitnum **Álagsgerðir** skal velja álagsgerð til að tilgreina hvort spá ætti fyrir um afkastagetu vinnuálags fyrir rúmmál og þyngd.
 5. Í reitnum **Afkastageta vinnuálags** skal velja uppsetningu á afkastagetu vinnuálags.
-

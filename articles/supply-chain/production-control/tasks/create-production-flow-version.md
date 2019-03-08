@@ -1,13 +1,13 @@
---- 
-title: "Stofna útgáfu framleiðsluflæðis"
-description: "Þetta ferli sýnir hvernig ný útgáfa framleiðsluflæðis er stofnuð."
+---
+title: Stofna útgáfu framleiðsluflæðis
+description: Þetta ferli sýnir hvernig ný útgáfa framleiðsluflæðis er stofnuð.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9a76e5bb6f63f793e4644c2ccf70cef21785ff10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8903e618a35e66742b5c2ebcb5b6f0da3853fcaf
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320674"
 ---
 # <a name="create-a-production-flow-version"></a>Stofna útgáfu framleiðsluflæðis
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir hvernig ný útgáfa framleiðsluflæðis er stofnuð. Fyrir þetta ferli verður að skilgreina framleiðslufæribreytur fyrir lean-framleiðslu og mælieiningar fyrir klasatíma. Einnig þarf að skilgreina virðisstraum og framleiðsluflokk. Frekari upplýsingar um framleiðsluflæði og aðgerðir í lean-framleiðslu má sjá í hvítblöð um Lean-framleiðslu í Microsoft Dynamics AX. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+Þetta ferli sýnir hvernig ný útgáfa framleiðsluflæðis er stofnuð. Fyrir þetta ferli verður að skilgreina framleiðslufæribreytur fyrir lean-framleiðslu og mælieiningar fyrir klasatíma. Einnig þarf að skilgreina virðisstraum og framleiðsluflokk. Frekari upplýsingar um framleiðsluflæði og aðgerðir í lean-framleiðslu má sjá í hvítblöð um Lean-framleiðslu fyrir Microsoft Dynamics AX. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
 
 ## <a name="create-a-production-flow"></a>Stofna framleiðsluflæði
@@ -63,5 +63,4 @@ ms.lasthandoff: 11/03/2017
 12. Í reitinn Tímabil fyrir rauntíma ferlis (dagar) skal slá inn númer.
     * Færið inn fjölda daga á tímabili fyrir raunferlistíma. Tímabil fyrir raunferlistíma er sá fjöldi daga sem vinnslum er safnað saman úr raunverulega mínútu til baka til að reikna raunferlistíma. Gildinu er hægt að breyta hvenær sem er og er aðeins notað fyrir útreikning á tímum raunferlistíma.  
 13. Smellið á „Vista“.
-
 

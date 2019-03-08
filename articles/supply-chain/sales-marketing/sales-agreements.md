@@ -1,13 +1,13 @@
 ---
-title: "Sölusamningar"
-description: "Í þessu efnisatriði er að finna upplýsingar um sölusamninga. Sölusamning er samningur sem bindur viðskiptavin til að kaupa vörur í ákveðnu magni eða ákveðna upphæð yfir tíma í skiptum fyrir for sérstakt verð og afslætti."
+title: Sölusamningar
+description: Í þessu efnisatriði er að finna upplýsingar um sölusamninga. Sölusamning er samningur sem bindur viðskiptavin til að kaupa vörur í ákveðnu magni eða ákveðna upphæð yfir tíma í skiptum fyrir for sérstakt verð og afslætti.
 author: omulvad
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f4ab396d06383e3d6fc7bfab2e01f1afe4aa8fc4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4db47f445fe820e65389799ddcb6ea4a99949178
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309519"
 ---
-
 # <a name="sales-agreements"></a>Sölusamningar
 
 [!include [banner](../includes/banner.md)]
@@ -100,7 +99,7 @@ Ef hefur verið stofnað (losað) sölupöntun gagnvart sölusamning, sum svæð
 | Magn                                                          | Ef tilgreina á magn sem er hærri en magnið sem er tilgreint á sölusamningslína þar sem **Hámark er tryggt** gátreiturinn er valinn, biður skilaboðagluggi um að vista breyttar magn. Smellið á **Já** til að fjarlægja hlekkinn í sölusamningslínuna og endurreikna verð. Smellið á **Nei** til að fjarlægja hlekkinn í sölusamningslínuna án þess að endurreikna verð.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Skila vöru sem var pöntuð úr sölusamningi
-Þegar viðskiptamaður skilar afurð sem hefur verið pöntuð úr sölusamningi, getur Microsoft Dynamics 365 for Finance and Operations fundið og uppfært sjálfkrafa tengda ráðstöfun sölusamnings til að endurspegla breytingar á magni eða upphæð. Með því að stofna vöruskilapöntun byggða á upprunalegu sölupöntuninni sem er tengd við sölusamning,staðfestir þú tengsl milli sölusamnings, ráðstöfunar sölusamnings, sölusamningslína og reiknings vöruskilapöntunar.  
+Þegar viðskiptamaður skilar afurð sem var pöntuð frá sölusamningi, getur Microsoft Dynamics 365 for Finance and Operations fundið og uppfært sjálfkrafa tengda sölusamninga sem eru til ráðstöfunar til að endurspegla breytingar á magni eða upphæð. Með því að stofna vöruskilapöntun byggða á upprunalegu sölupöntuninni sem er tengd við sölusamning,staðfestir þú tengsl milli sölusamnings, ráðstöfunar sölusamnings, sölusamningslína og reiknings vöruskilapöntunar.  
 
 Ef ekki á að draga frá skilavörumagnið úr ráðstöfun sölusamnings er hægt að nota stýringuna **fjarlægja hlekk** í síðunni **skilapöntun** til að fjarlægja tengingu milli skilapöntunar og ráðstöfunar sölusamnings . Ef þú þarft að endurstofna tengil síðar, er smellt á **stofna tengil**.  
 
@@ -111,7 +110,6 @@ Ef ekki á að draga frá skilavörumagnið úr ráðstöfun sölusamnings er h�
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Fjárhagsvíddir í sölusamningum
 Hægt er að afrita fjárhagsvíddir í annað hvort skjalhausa eða í einstakar línur sölusamnings. Hægt er að breyta víddum á samningshaus eða samningslínu hvenær sem er. Í þessu tilfelli eru víddir svo sjálfkrafa afritaðar í útgáfuhaus eða losunarlínu úttektarpöntunar.
-
 
 
 

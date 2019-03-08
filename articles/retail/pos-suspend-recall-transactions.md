@@ -1,13 +1,13 @@
 ---
-title: "Gera hlé á og halda áfram með færslu á sölustaðnum (POS)"
-description: "Þetta efnisatriði útskýrir hvernig notendur geta gert hlé á færslum í vinnslu og síðan haldið áfram með þær seinna eða á öðrum afgreiðslukassa með því að nota Microsoft Dynamics 365 for Retail."
+title: Gera hlé á og halda áfram með færslu á sölustaðnum (POS)
+description: Þetta efnisatriði útskýrir hvernig notendur geta gert hlé á færslum í vinnslu og síðan haldið áfram með þær seinna eða á öðrum afgreiðslukassa með því að nota Microsoft Dynamics 365 for Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: ffb04609318c7de4b9ef729a8e03a7f9395806b8
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333899"
 ---
-
 # <a name="suspend-and-resume-transactions-in-the-point-of-sale-pos"></a>Gera hlé á og halda áfram með færslur á sölustaðnum (POS)
 
 [!include [banner](includes/banner.md)]
@@ -83,4 +82,3 @@ Til að auðveldlega endurheimta frestaða færslu skal skanna strikamerkið á 
 ### <a name="void-a-suspended-transaction"></a>Ógilda frestaða færslu
 
 Hægt er að ógilda frestaðar færslur annaðhvort með því að endurheimta færsluna og framkvæma síðan aðgerðina **Ógilda færslu** eða með því að velja færsluna í listanum **Endurheimta færslu** og velja **Ógilda** á forritastikunni. Að öðrum kosti er hægt að stilla verslunina til að biðja notendur um ógilda frestaðar færslur þegar þeir loka vaktinni.
-

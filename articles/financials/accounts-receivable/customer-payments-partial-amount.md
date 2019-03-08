@@ -1,13 +1,13 @@
 ---
-title: "greiðsla viðskiptavinar fyrir hlutaupphæð"
-description: "Stundum gera viðskiptavinur greiðslu sem er minni en upphæð reiknings. Þessi skrá lýsir mismunandi valkosti fyrir meðhöndlun þessar aðstæður. Valkostirnir sem eru tiltækir fyrir þig fara eftir viðskiptaþörfum og skilgreiningum fyrirtækisins."
+title: greiðsla viðskiptavinar fyrir hlutaupphæð
+description: Stundum gera viðskiptavinur greiðslu sem er minni en upphæð reiknings. Þessi skrá lýsir mismunandi valkosti fyrir meðhöndlun þessar aðstæður. Valkostirnir sem eru tiltækir fyrir þig fara eftir viðskiptaþörfum og skilgreiningum fyrirtækisins.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPaymEntry
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 510fda7bf35e459e0da5595b083e041bb708c873
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 6b7494a05392cbee70e6d5883bae0295e8b55ac9
-ms.contentlocale: is-is
-ms.lasthandoff: 01/17/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341374"
 ---
-
 # <a name="customer-payments-for-a-partial-amount"></a>greiðsla viðskiptavinar fyrir hlutaupphæð
 
 [!include [banner](../includes/banner.md)]
@@ -61,4 +60,3 @@ Viðskiptavinir gæti reitt fram hlutagreiðslu þar sem eftirstöðvar upphæð
 
 
 Frekari upplýsingar eru í [Innborgun greiðslur viðskiptavina](tasks/deposit-customer-payments.md).
-

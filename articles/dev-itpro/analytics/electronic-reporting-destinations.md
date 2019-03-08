@@ -1,13 +1,13 @@
 ---
-title: "Áfangastaðir rafrænnar skýrslugerðar (ER)"
-description: "Hægt er að skilgreina áfangastað inn fyrir hverja skilgreiningarsnið Rafrænnar skýrslugerðar (ER) og íhlut úttaks þess (möppu eða í skrá). Notendur sem fá viðeigandi aðgangsheimildir geta einnig breytt stillingar fyrir áfangastað á keyrslutíma. Þessi skrá útskýrir áfangastaðastjórnun rafrænnar skýrslugerðar, gerðir áfangastaða sem eru studdar, og öryggisatriði."
+title: Áfangastaðir rafrænnar skýrslugerðar (ER)
+description: Hægt er að skilgreina áfangastað inn fyrir hverja skilgreiningarsnið Rafrænnar skýrslugerðar (ER) og íhlut úttaks þess (möppu eða í skrá). Notendur sem fá viðeigandi aðgangsheimildir geta einnig breytt stillingar fyrir áfangastað á keyrslutíma. Þessi skrá útskýrir áfangastaðastjórnun rafrænnar skýrslugerðar, gerðir áfangastaða sem eru studdar, og öryggisatriði.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 301dccaf154c3c12bcc4d611a147cdef03b8f851
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314924"
 ---
-
 # <a name="electronic-reporting-er-destinations"></a>Áfangastaðir rafrænnar skýrslugerðar (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -35,9 +34,9 @@ Hægt er að skilgreina áfangastað inn fyrir hverja skilgreiningarsnið Rafræ
 Rafræn skýrslugerð (ER) skilgreiningar sniðs innihalda yfirleitt minnst einn frálagsíhlut: skrá. Skilgreiningar innihalda yfirleitt margar frálagsíhluti skráa af mismunandi gerðum (t.d. XML, TXT eða XLSX) sem eru flokkaðar í annað hvort í einni möppu eða margar möppur. Stjórnun áfangastaðar Rafrænnar skýrslugerðar gerir kleift að forstilla hvað gerist þegar hver íhlutur er keyrður. Að sjálfgefnu þegar afbrigði er keyrð, sér notandi svarglugga sem er hægt að nota til að vista eða opna skrána. Sama hegðun er einnig notuð þegar þú flytur inn skilgreiningu rafrænnar skýrslugerðar og skilgreinir ekki tilteknu áfangastaði fyrir hana. Eftir á ákvörðunarstað hefur verið stofnuð fyrir aðal frálagsíhlut, hnekkir sá ákvörðunarstað sjálfgefinni hegðun og möppu eða skráin er send samkvæmt stillingum áfangastaðar.
 
 ## <a name="availability-and-general-prerequisites"></a>Framboð og almenn skilyrði
-Áfangastaðir rafrænnar skýrslugerðar er ekki tiltæk í Microsoft Dynamics AX 7,0 (Febrúar 2016). Þess vegna verður að setja upp Microsoft Dynamics 365 for Operations útgáfu 1611 (nóvember 2016 útgáfu) til að nota allar aðgerðir sem er lýst í þessu efnisatriði. Einnig er hægt að setja upp einn af eftirfarandi skilyrðum. Hins vegar þarftu að athuga að þessir valkostir veita meira takmarkað rafræna skýrslugerð viðtökustaður upplifun.
+Áfangastaðir rafrænnar skýrslugerðar eru ekki tiltækir í Microsoft Dynamics AX útgáfu 7.0 (febrúar 2016). Þess vegna verður að setja upp Microsoft Dynamics 365 for Operations útgáfu 1611 (nóvember 2016) til að nota allar aðgerðir sem er lýst í þessu efnisatriði. Einnig er hægt að setja upp einn af eftirfarandi skilyrðum. Hins vegar þarftu að athuga að þessir valkostir veita meira takmarkað rafræna skýrslugerð viðtökustaður upplifun.
 
-- Microsoft Dynamics AX útgáfa forrits 7.0.1 (May 2016)
+- Microsoft Dynamics AX-forrit, útgáfa 7.0.1 (maí 2016)
 - Stjórnun áfangastaður fyrir rafræna skýrslugerð [bráðabót forrits](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
 Hægt er að setja upp áfangastaði aðeins fyrir skilgreiningar rafrænnar skýrslugerðar sem hafa verið fluttar inn, og fyrir sniðin sem eru tiltækir í **skilgreiningar rafrænnar skýrslugerðar** síðu.
@@ -94,7 +93,7 @@ Notaðu þessa gerð tölvupósts ef skilgreiningin sem þú notar er með hnút
 
 ### <a name="archive-destination"></a>áfangastaður skjalasafns
 
-Hægt er að nota þennan valkost til að senda frálag annað hvort á Microsoft SharePoint-möppu eða Microsoft Azure Geymslu. Stilla **Virkt** á **Já** til að senda frálag á áfangastað sem er skilgreind með völdu skjalagerðina. einungis gerð skjals þar sem flokksins er stillt á **Skrá** eru tiltækar til vals. Hægt er að Skilgreina gerðir skjala í **fyrirtækisstjórnun** &gt; **Skjalastjórnun** &gt; **Skjalagerðir**. Skilgreining fyrir áfangastaði rafrænnar skýrslugerðar er sú sama og skilgreiningin fyrir skjalastjórnunarkerfið.
+Hægt er að nota þennan valkost til að senda frálag annað hvort á Microsoft SharePoint-möppu eða Microsoft Microsoft Azure Geymslu. Stilla **Virkt** á **Já** til að senda frálag á áfangastað sem er skilgreind með völdu skjalagerðina. einungis gerð skjals þar sem flokksins er stillt á **Skrá** eru tiltækar til vals. Hægt er að Skilgreina gerðir skjala í **fyrirtækisstjórnun** &gt; **Skjalastjórnun** &gt; **Skjalagerðir**. Skilgreining fyrir áfangastaði rafrænnar skýrslugerðar er sú sama og skilgreiningin fyrir skjalastjórnunarkerfið.
 
 [![Síðan Gerðir skjala](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg)
 
@@ -105,9 +104,9 @@ Staðsetning ákvarðar hvar skráin er vistuð. Eftir að áfangastaður **skja
 
 #### <a name="sharepoint"></a>SharePoint
 
-Hægt er að vista skrá í möppu merktu SharePoint. Hægt er að Tilgreina sjálfgefinn þjón SharePoint á **fyrirtækisstjórnun** &gt; **Skjalastjórnun** &gt; **Færibreytur skjalastjórnunar**á í **SharePoint** flipanum. Eftir að SharePoint-möppu er skilgreint er hægt að velja það sem möppu þar sem frálag rafrænnar skýrslugerðar verður vistuð fyrir skráargerðina.
+Hægt er að vista skrá í möppu merktu SharePoint. Hægt er að skilgreina sjálfgefinn SharePoint þjón í **Fyrirtækisstjórnun** &gt; **Skjalastjórnun** &gt; **Færibreytur skjalastjórnunar** í flipanum **SharePoint**. Eftir að SharePoint mappan er skilgreind er hægt að velja hana sem möppu þar sem frálag rafrænnar skýrslugerðar verður vistað fyrir skjalagerðina.
 
-[![Val á SharePoint-möppu](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg)
+[![Val á SharePoint möppu](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg)
 
 #### <a name="azure-storage"></a>Azure-geymsla
 
@@ -121,9 +120,9 @@ Ef **Virkt** er stillt á **Já** birtist opinn eða vistaður svargluggi þegar
 
 Ef **Virkt** er stillt á **Já**, er forskoðun á frálagi stofnuð. Hægt er að skoða sumar skáargerðir, t.d. XML, TXT, eða .PDF, dirbeint í glugga vafrans. Fyrir aðrar skráargerðir eins og Microsoft Excel eða Word er þjónustan Microsoft Office Online notuð.
 
-### <a name="power-bi-destination"></a>Áfangastaður Power BI
+### <a name="power-bi-destination"></a>Power BI áfangastaður
 
-Stilltu **Virkt** á **Já** til að nota skilgreiningu Rafræna skýrslugerðar til að sjá um flutning gagna úr tilviki Finance and Operations til Microsoft Power BI-þjónustu. Fluttar skrárnar eru vistaðar í tilviki Microsoft SharePoint Server sem verður að vera skilgreint fyrir þess háttar tilgang. Nánari upplýsingar er að finna í [Nota skilgreiningu rafrænnar skýrslugerðar til að láta Power BI fá gögn úr Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+Stilltu **Virkt** á **Já** til að nota skilgreiningu Rafræna skýrslugerðar til að sjá um flutning gagna úr tilviki Finance and Operations til Microsoft Power BI-þjónustu. Fluttar skrárnar eru vistaðar í tilviki Microsoft SharePoint Server sem verður að vera skilgreint fyrir þess háttar tilgang. [Nota skilgreiningu rafrænnar skýrslugerðar til að láta Power BI fá gögn úr Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
 > [!TIP]
 > Til Að hnekkja sjálfgefna hegðun (sem sagt svarglugganum fyrir skilgreiningu), er hægt að stofna tilvísun áfangastaðar og áfangastað skráar fyrir aðalfrálagsíhlutinn, og óvirkja svo alla áfangastaði.
@@ -158,11 +157,10 @@ Nei. Sjálfgefna Azure Blob geymslan sem er skilgreind og notað fyrir skjalastj
 
 Athugið að formúlur eru sérstaklega ætlaðar fyrir skilgreiningu rafrænnar skýrslugerðar. Dæmi: Ef ISO 20022 skilgreining millifærslu fjármuna er notuð, **'$PaymentsForCoveringLetter'. Creditor.Identification.SourceID** eða **líkan. Payments.Creditor.Identification.SourceID** til að fá lykill lánardrottins sem er tengd.
 
-### <a name="one-of-my-format-configurations-contains-multiple-files-that-are-group-into-one-folder-for-example-folder1-contains-file1-file2-and-file3-how-do-i-set-up-destinations-so-that-folder1zip-isnt-created-at-all-file1-is-sent-by-email-file2-is-sent-to-sharepoint-and-i-can-open-file3-immediately-after-the-configuration-is-run"></a>Einn af mínar skilgreiningar sniðs inniheldur margar skrár sem eru flokkaðar í einni möppu (t.d. Folder1 inniheldur File1, File2 og File3). Hvernig set ég upp áfangastaði þannig að Folder1.zip var ekki stofnuð yfir höfuð, File1 er send með tölvupósti, File2 er sent til SharePoint og ég get opnað File3 strax eftir skilgreining eer keyrð?
+### <a name="one-of-my-format-configurations-contains-multiple-files-that-are-group-into-one-folder-for-example-folder1-contains-file1-file2-and-file3-how-do-i-set-up-destinations-so-that-folder1zip-isnt-created-at-all-file1-is-sent-by-email-file2-is-sent-to-sharepoint-and-i-can-open-file3-immediately-after-the-configuration-is-run"></a>Einn af mínar skilgreiningar sniðs inniheldur margar skrár sem eru flokkaðar í einni möppu (t.d. Folder1 inniheldur File1, File2 og File3). Hvernig set ég upp áfangastaði þannig að Folder1.zip var ekki stofnuð yfir höfuð, File1 er send með tölvupósti, File2 er sent til SharePoint og ég get opnað File3 strax eftir skilgreining er keyrð?
 
 Skilyrðið er skal snið verður að vera tiltæk í skilgreiningum rafrænnar skýrslugerðar. Ef þú ert með sniðið þitt, skal opna sem **áfangastað Rafræn skýrslugerðar** síðunni og stofna ný tilvísun í þessa skilgreiningu. Síðan verður að hafa fjóra áfangastaði skráa , ein fyrir hvern frálagsíhlut. Stofna fyrsta ákvörðunarstað skrár , gefa því heiti eins og **Möppu**, og veljið skrárnafn sem táknar möppu í þinni skilgreiningu. Smellið á **Stillingar**, og gangið úr skugga um að allar áfangastaði eru óvirkir. Fyrir þessa áfangasta skrár, verður mappan ekki stofnuð. Að sjálfgefnu, vegna tengsla stigveldis milli skrár og yfirskipaðra mappa, munu skrárnar verða hegða sér á sama hátt. Með öðrum orðum þeir ekki verða sendir neitt. Til að hnekkja þeirri sjálfgefinni hegðun, verður að stofna þrjá fleiri áfangastaði skrár , einn fyrir hverja skrá. Í stillingum áfangastaðar fyrir hverja, þarf að virkja ákvörðunarstað sem á að senda skrána á.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
-

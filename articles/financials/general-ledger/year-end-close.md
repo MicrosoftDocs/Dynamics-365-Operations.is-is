@@ -1,13 +1,13 @@
 ---
-title: "Árslokalokun"
-description: "Þetta efnisatriði lýsir áskilinni uppsetningu og skrefum til að keyra lokun árslokaferlis fjárhags."
+title: Árslokalokun
+description: Þetta efnisatriði lýsir áskilinni uppsetningu og skrefum til að keyra lokun árslokaferlis fjárhags.
 author: kweekley
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9ec2316dd259cd12a5cab187b08dbd17ca100572
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bf9d0a6ab0fcf7d6f5a31813d68f0bd452ce1019
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347883"
 ---
-
 # <a name="year-end-close"></a>Árslokalokun
 
 [!include [banner](../includes/banner.md)]
@@ -86,7 +85,6 @@ Ef óskað er að bakfæra fyrri árslokalokun fyrir valið fjárhagsár, skal s
 Ferlið Árslokalokunin er sjálfgefið keyrt í runuham. Bestu starfsvenjur eru að keyra ferlið í runustillingu til að leyfa notanda að fara aftur í aðrar aðgerðir. Þegar ferli árslokalokunar er lokið verður **Dagsetning síðustu árslokalokunar** uppfært með dagsetningu lotu.
 
 Fyrir nánari upplýsingar, sjá [Loka fjárhag í lok tímabils](close-general-ledger-at-period-end.md) og [Loka reikningsárinu](tasks/close-fiscal-year.md).
-
 
 
 
