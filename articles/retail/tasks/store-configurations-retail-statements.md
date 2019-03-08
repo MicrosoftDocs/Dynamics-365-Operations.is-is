@@ -1,13 +1,13 @@
---- 
+---
 title: " Skilgreiningar verslunar fyrir smásöluyfirlit"
-description: "Þetta ferli fer í gegnum skilgreiningar fyrir smásöluverslun sem hafa áhrif á hvernig smásöluuppgjör eru stofnuð og bókuð."
+description: Þetta ferli fer í gegnum skilgreiningar fyrir smásöluverslun sem hafa áhrif á hvernig smásöluuppgjör eru stofnuð og bókuð.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
@@ -17,35 +17,34 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9fddeb8434d916df1613d61da88110dec8fb4465
-ms.contentlocale: is-is
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354714"
 ---
-# <a name="store-configurations-for-retail-statements"></a><span data-ttu-id="d982f-103"> Skilgreiningar verslunar fyrir smásöluyfirlit</span><span class="sxs-lookup"><span data-stu-id="d982f-103">Store configurations for Retail statements</span></span>
+# <a name="store-configurations-for-retail-statements"></a><span data-ttu-id="3dfec-103"> Skilgreiningar verslunar fyrir smásöluyfirlit</span><span class="sxs-lookup"><span data-stu-id="3dfec-103">Store configurations for Retail statements</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="d982f-104">Þetta ferli fer í gegnum skilgreiningar fyrir smásöluverslun sem hafa áhrif á hvernig smásöluuppgjör eru stofnuð og bókuð.</span><span class="sxs-lookup"><span data-stu-id="d982f-104">This procedure walks through configurations for the Retail store that affect how Retail statements get created and posted.</span></span> <span data-ttu-id="d982f-105">Fjárhagsvíddir í smásöluverslunum eru til umfjöllunar í öðru ferli.</span><span class="sxs-lookup"><span data-stu-id="d982f-105">Financial dimensions on Retail stores are covered in another procedure.</span></span> <span data-ttu-id="d982f-106">Þessi aðferð notar sýnigögn USRT fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="d982f-106">This procedure uses the USRT demo company.</span></span>
+<span data-ttu-id="3dfec-104">Þetta ferli fer í gegnum skilgreiningar fyrir smásöluverslun sem hafa áhrif á hvernig smásöluuppgjör eru stofnuð og bókuð.</span><span class="sxs-lookup"><span data-stu-id="3dfec-104">This procedure walks through configurations for the Retail store that affect how Retail statements get created and posted.</span></span> <span data-ttu-id="3dfec-105">Fjárhagsvíddir í smásöluverslunum eru til umfjöllunar í öðru ferli.</span><span class="sxs-lookup"><span data-stu-id="3dfec-105">Financial dimensions on Retail stores are covered in another procedure.</span></span> <span data-ttu-id="3dfec-106">Þessi aðferð notar sýnigögn USRT fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="3dfec-106">This procedure uses the USRT demo company.</span></span>
 
-1. <span data-ttu-id="d982f-107">Fara í Smásölu og viðskipti > rásir > smásöluverslanir > allar smásöluverslanir.</span><span class="sxs-lookup"><span data-stu-id="d982f-107">Go to Retail and commerce > Channels > Retail stores > All retail stores.</span></span>
-2. <span data-ttu-id="d982f-108">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="d982f-108">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="d982f-109">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="d982f-109">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="d982f-110">Stillingar í hlutanum Uppgjör/lokun hafa áhrif á stofnun yfirlits, villuleit og bókun fyrir verslunina.</span><span class="sxs-lookup"><span data-stu-id="d982f-110">The settings in the Statement/closing section affect the statement creation, validation, and posting for the store.</span></span>  <span data-ttu-id="d982f-111">Opna hlutann Uppgjör/lokun.</span><span class="sxs-lookup"><span data-stu-id="d982f-111">Open the Statement/closing section.</span></span>  
-    * <span data-ttu-id="d982f-112">Veljið aðferðina sem á að nota til að flokka línur yfirlits eftir.</span><span class="sxs-lookup"><span data-stu-id="d982f-112">Select the method you want to use to to group the statement lines by.</span></span>  
-    * <span data-ttu-id="d982f-113">Veljið "Já" eigi aðeins að stofnað eitt uppgjör á dag þegar stofnað er yfirlits frá runuvinnslu stofnunar uppgjörs.</span><span class="sxs-lookup"><span data-stu-id="d982f-113">Select "Yes" if there should only be one statement created per day when creating statements from the statement creation batch job.</span></span>  
-    * <span data-ttu-id="d982f-114">útreikningssvæði fyrir talning skiptimyntar tilgreinir hvort talning skiptimyntar eigi að leggja saman eða hvort nota eigi það síðasta .</span><span class="sxs-lookup"><span data-stu-id="d982f-114">The Tender declaration calculation field defines whether tender declarations should be added together or if the last one should be used.</span></span>  
-    * <span data-ttu-id="d982f-115">Veljið fjárhagslykil til að bóka sléttunarmun í.</span><span class="sxs-lookup"><span data-stu-id="d982f-115">Select the ledger account to post rounding differences into.</span></span>  
-    * <span data-ttu-id="d982f-116">Í svæðið Hámark sléttunarmismunar er hægt að færa inn hæstan leyfilegan sléttunarmismun.</span><span class="sxs-lookup"><span data-stu-id="d982f-116">In the Maximum rounding difference field, you can enter the maximum rounding difference allowed.</span></span>  
-    * <span data-ttu-id="d982f-117">Í bókunarsvæðinu, er hægt að færa inn hámarkssamtala hámarksbókunarmismun leyfð fyrir yfirlit.</span><span class="sxs-lookup"><span data-stu-id="d982f-117">In the Posting field, you can enter the maximum total posting difference allowed for a statement.</span></span>  
-    * <span data-ttu-id="d982f-118">Í svæðið Vakt er hægt að færa inn hámarks heildarmismunur á vakt innan yfirlits.</span><span class="sxs-lookup"><span data-stu-id="d982f-118">In the Shift field, you can enter the maximum total difference within a shift in a statement.</span></span>  
-    * <span data-ttu-id="d982f-119">Í svæðið færsla, er hægt að færa inn hámarks heildarmismunur í uppgjörslínu.</span><span class="sxs-lookup"><span data-stu-id="d982f-119">In the Transaction field, you can enter the maximum total difference in a statement line.</span></span>  
-    * <span data-ttu-id="d982f-120">Í svæðið aðferð Lokunar er hægt að skilgreina hvort færslur sem verða teknar með í uppgjör ætti að vera hluti af lokuð vakt eða hvort þau má hafa með í færslur innan marka skilgreinda dagsetning/tími.</span><span class="sxs-lookup"><span data-stu-id="d982f-120">In the Closing method field, you can define whether transactions that will be included in a statement should be part of a closed shift or if they can be any transactions within the defined date/time range.</span></span>  
-    * <span data-ttu-id="d982f-121">Í reitnum Lok viðskiptadags , er hægt að færa inn tíma ef bóka eigi færslur eftir miðnætti með fyrri dag.</span><span class="sxs-lookup"><span data-stu-id="d982f-121">In the End of business day field, you can enter a time if transactions that happen after midnight should be posted with the previous day.</span></span>  
-    * <span data-ttu-id="d982f-122">Veljið "Já" ef bóka eigi færslur eftir miðnætti sem hluti af fyrri dag.</span><span class="sxs-lookup"><span data-stu-id="d982f-122">Select "Yes" if transactions that happen after midnight should be posted as part of the previous day.</span></span>  
-    * <span data-ttu-id="d982f-123">Veljið "Já" til að fá yfirlit sem stofnuð voru fyrir hverja uppgjörsaðferð sem var skilgreind.</span><span class="sxs-lookup"><span data-stu-id="d982f-123">Select "Yes" to get statements created for each statement method defined.</span></span> <span data-ttu-id="d982f-124">Þetta getur verið gagnlegt ef afköst við bókun þarf að vera endurbætt fyrir verslana með margar færslur, þar sem það stofnar mörg minni yfirlit sem má vinna samhliða.</span><span class="sxs-lookup"><span data-stu-id="d982f-124">This can be useful if the performance of the posting needs to be improved for stores with high transaction volumes since it will create many smaller statements that can be processed in parallel.</span></span>  
-    * <span data-ttu-id="d982f-125">Í svæðinu Sjálfgefinn viðskiptavin hægt er að velja viðskiptavinalykillinn sem á að nota fyrir sölu til viðskiptavina sem koma af götunni.</span><span class="sxs-lookup"><span data-stu-id="d982f-125">In the Default customer field, you can select the customer account to use for sales to walk-in customers.</span></span>  
-
+1. <span data-ttu-id="3dfec-107">Fara í Smásölu og viðskipti > rásir > smásöluverslanir > allar smásöluverslanir.</span><span class="sxs-lookup"><span data-stu-id="3dfec-107">Go to Retail and commerce > Channels > Retail stores > All retail stores.</span></span>
+2. <span data-ttu-id="3dfec-108">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="3dfec-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="3dfec-109">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="3dfec-109">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="3dfec-110">Stillingar í hlutanum Uppgjör/lokun hafa áhrif á stofnun yfirlits, villuleit og bókun fyrir verslunina.</span><span class="sxs-lookup"><span data-stu-id="3dfec-110">The settings in the Statement/closing section affect the statement creation, validation, and posting for the store.</span></span>  <span data-ttu-id="3dfec-111">Opna hlutann Uppgjör/lokun.</span><span class="sxs-lookup"><span data-stu-id="3dfec-111">Open the Statement/closing section.</span></span>  
+    * <span data-ttu-id="3dfec-112">Veljið aðferðina sem á að nota til að flokka línur yfirlits eftir.</span><span class="sxs-lookup"><span data-stu-id="3dfec-112">Select the method you want to use to to group the statement lines by.</span></span>  
+    * <span data-ttu-id="3dfec-113">Veljið "Já" eigi aðeins að stofnað eitt uppgjör á dag þegar stofnað er yfirlits frá runuvinnslu stofnunar uppgjörs.</span><span class="sxs-lookup"><span data-stu-id="3dfec-113">Select "Yes" if there should only be one statement created per day when creating statements from the statement creation batch job.</span></span>  
+    * <span data-ttu-id="3dfec-114">útreikningssvæði fyrir talning skiptimyntar tilgreinir hvort talning skiptimyntar eigi að leggja saman eða hvort nota eigi það síðasta .</span><span class="sxs-lookup"><span data-stu-id="3dfec-114">The Tender declaration calculation field defines whether tender declarations should be added together or if the last one should be used.</span></span>  
+    * <span data-ttu-id="3dfec-115">Veljið fjárhagslykil til að bóka sléttunarmun í.</span><span class="sxs-lookup"><span data-stu-id="3dfec-115">Select the ledger account to post rounding differences into.</span></span>  
+    * <span data-ttu-id="3dfec-116">Í svæðið Hámark sléttunarmismunar er hægt að færa inn hæstan leyfilegan sléttunarmismun.</span><span class="sxs-lookup"><span data-stu-id="3dfec-116">In the Maximum rounding difference field, you can enter the maximum rounding difference allowed.</span></span>  
+    * <span data-ttu-id="3dfec-117">Í bókunarsvæðinu, er hægt að færa inn hámarkssamtala hámarksbókunarmismun leyfð fyrir yfirlit.</span><span class="sxs-lookup"><span data-stu-id="3dfec-117">In the Posting field, you can enter the maximum total posting difference allowed for a statement.</span></span>  
+    * <span data-ttu-id="3dfec-118">Í svæðið Vakt er hægt að færa inn hámarks heildarmismunur á vakt innan yfirlits.</span><span class="sxs-lookup"><span data-stu-id="3dfec-118">In the Shift field, you can enter the maximum total difference within a shift in a statement.</span></span>  
+    * <span data-ttu-id="3dfec-119">Í svæðið færsla, er hægt að færa inn hámarks heildarmismunur í uppgjörslínu.</span><span class="sxs-lookup"><span data-stu-id="3dfec-119">In the Transaction field, you can enter the maximum total difference in a statement line.</span></span>  
+    * <span data-ttu-id="3dfec-120">Í svæðið aðferð Lokunar er hægt að skilgreina hvort færslur sem verða teknar með í uppgjör ætti að vera hluti af lokuð vakt eða hvort þau má hafa með í færslur innan marka skilgreinda dagsetning/tími.</span><span class="sxs-lookup"><span data-stu-id="3dfec-120">In the Closing method field, you can define whether transactions that will be included in a statement should be part of a closed shift or if they can be any transactions within the defined date/time range.</span></span>  
+    * <span data-ttu-id="3dfec-121">Í reitnum Lok viðskiptadags , er hægt að færa inn tíma ef bóka eigi færslur eftir miðnætti með fyrri dag.</span><span class="sxs-lookup"><span data-stu-id="3dfec-121">In the End of business day field, you can enter a time if transactions that happen after midnight should be posted with the previous day.</span></span>  
+    * <span data-ttu-id="3dfec-122">Veljið "Já" ef bóka eigi færslur eftir miðnætti sem hluti af fyrri dag.</span><span class="sxs-lookup"><span data-stu-id="3dfec-122">Select "Yes" if transactions that happen after midnight should be posted as part of the previous day.</span></span>  
+    * <span data-ttu-id="3dfec-123">Veljið "Já" til að fá yfirlit sem stofnuð voru fyrir hverja uppgjörsaðferð sem var skilgreind.</span><span class="sxs-lookup"><span data-stu-id="3dfec-123">Select "Yes" to get statements created for each statement method defined.</span></span> <span data-ttu-id="3dfec-124">Þetta getur verið gagnlegt ef afköst við bókun þarf að vera endurbætt fyrir verslana með margar færslur, þar sem það stofnar mörg minni yfirlit sem má vinna samhliða.</span><span class="sxs-lookup"><span data-stu-id="3dfec-124">This can be useful if the performance of the posting needs to be improved for stores with high transaction volumes since it will create many smaller statements that can be processed in parallel.</span></span>  
+    * <span data-ttu-id="3dfec-125">Í svæðinu Sjálfgefinn viðskiptavin hægt er að velja viðskiptavinalykillinn sem á að nota fyrir sölu til viðskiptavina sem koma af götunni.</span><span class="sxs-lookup"><span data-stu-id="3dfec-125">In the Default customer field, you can select the customer account to use for sales to walk-in customers.</span></span>  
 

@@ -1,13 +1,13 @@
---- 
-title: "Bakfæra stöðu kanban-vinnslu"
-description: "Þetta ferli leggur áherslu á skipti aftur rangt staða kanban-vinnsla."
+---
+title: Bakfæra stöðu kanban-vinnslu
+description: Þetta ferli leggur áherslu á skipti aftur rangt staða kanban-vinnsla.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardWorkCell, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,42 +17,41 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 27874f89cede151b52b869fa0d58e320d548e6d3
-ms.contentlocale: is-is
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352092"
 ---
-# <a name="revert-kanban-job-status"></a><span data-ttu-id="5d102-103">Bakfæra stöðu kanban-vinnslu</span><span class="sxs-lookup"><span data-stu-id="5d102-103">Revert kanban job status</span></span>
+# <a name="revert-kanban-job-status"></a><span data-ttu-id="a6e70-103">Bakfæra stöðu kanban-vinnslu</span><span class="sxs-lookup"><span data-stu-id="a6e70-103">Revert kanban job status</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="5d102-104">Þetta ferli leggur áherslu á skipti aftur rangt staða kanban-vinnsla.</span><span class="sxs-lookup"><span data-stu-id="5d102-104">This procedure focuses on reverting an incorrect kanban job status.</span></span> <span data-ttu-id="5d102-105">Þetta er gagnlegt í tilfellum starfsmaður á vél uppfærir röng vinnslu eða stillir ranga stöðu fyrir mistök.</span><span class="sxs-lookup"><span data-stu-id="5d102-105">This is useful in case the machine operator updates the wrong job, or sets the wrong status by mistake.</span></span> <span data-ttu-id="5d102-106">Í þessu ferli kanban-vinnsla er skráð sem undirbjó fyrir mistök og stöðu hefur verið snúa aftur.</span><span class="sxs-lookup"><span data-stu-id="5d102-106">In this procedure, a kanban job is registered as prepared by mistake, and the status is reverted.</span></span> <span data-ttu-id="5d102-107">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="5d102-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="5d102-108">Þetta ferli er ætluð fyrir verkstæðisstjóri eða starfsmaður á vél í lean-framleiðsla fyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="5d102-108">This procedure is intended for the shop supervisor or machine operator working in a lean manufacturing company.</span></span>
+<span data-ttu-id="a6e70-104">Þetta ferli leggur áherslu á skipti aftur rangt staða kanban-vinnsla.</span><span class="sxs-lookup"><span data-stu-id="a6e70-104">This procedure focuses on reverting an incorrect kanban job status.</span></span> <span data-ttu-id="a6e70-105">Þetta er gagnlegt í tilfellum starfsmaður á vél uppfærir röng vinnslu eða stillir ranga stöðu fyrir mistök.</span><span class="sxs-lookup"><span data-stu-id="a6e70-105">This is useful in case the machine operator updates the wrong job, or sets the wrong status by mistake.</span></span> <span data-ttu-id="a6e70-106">Í þessu ferli kanban-vinnsla er skráð sem undirbjó fyrir mistök og stöðu hefur verið snúa aftur.</span><span class="sxs-lookup"><span data-stu-id="a6e70-106">In this procedure, a kanban job is registered as prepared by mistake, and the status is reverted.</span></span> <span data-ttu-id="a6e70-107">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="a6e70-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="a6e70-108">Þetta ferli er ætluð fyrir verkstæðisstjóri eða starfsmaður á vél í lean-framleiðsla fyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="a6e70-108">This procedure is intended for the shop supervisor or machine operator working in a lean manufacturing company.</span></span>
 
 
-## <a name="open-process-board-for-the-work-cell"></a><span data-ttu-id="5d102-109">Opna ferilspjald fyrir vinnuflokki</span><span class="sxs-lookup"><span data-stu-id="5d102-109">Open process board for the work cell</span></span>
-1. <span data-ttu-id="5d102-110">Fara í Kanban-spjald fyrir vinnslukenni verks</span><span class="sxs-lookup"><span data-stu-id="5d102-110">Go to Kanban board for process jobs.</span></span>
-2. <span data-ttu-id="5d102-111">Sláið inn eða veldu gildi í reitnum vinnuflokkur.</span><span class="sxs-lookup"><span data-stu-id="5d102-111">In the Work cell field, enter or select a value.</span></span>
-    * <span data-ttu-id="5d102-112">Velja vinnuflokkur 1260.</span><span class="sxs-lookup"><span data-stu-id="5d102-112">Select work cell 1260.</span></span>  
+## <a name="open-process-board-for-the-work-cell"></a><span data-ttu-id="a6e70-109">Opna ferilspjald fyrir vinnuflokki</span><span class="sxs-lookup"><span data-stu-id="a6e70-109">Open process board for the work cell</span></span>
+1. <span data-ttu-id="a6e70-110">Fara í Kanban-spjald fyrir vinnslukenni verks</span><span class="sxs-lookup"><span data-stu-id="a6e70-110">Go to Kanban board for process jobs.</span></span>
+2. <span data-ttu-id="a6e70-111">Sláið inn eða veldu gildi í reitnum vinnuflokkur.</span><span class="sxs-lookup"><span data-stu-id="a6e70-111">In the Work cell field, enter or select a value.</span></span>
+    * <span data-ttu-id="a6e70-112">Velja vinnuflokkur 1260.</span><span class="sxs-lookup"><span data-stu-id="a6e70-112">Select work cell 1260.</span></span>  
 
-## <a name="prepare-kanban-job"></a><span data-ttu-id="5d102-113">Undirbúa kanban-vinnslu</span><span class="sxs-lookup"><span data-stu-id="5d102-113">Prepare kanban job</span></span>
-1. <span data-ttu-id="5d102-114">Smellt er á Undirbúa.</span><span class="sxs-lookup"><span data-stu-id="5d102-114">Click Prepare.</span></span>
-    * <span data-ttu-id="5d102-115">Ef ekki er hægt að smella á Undirbúa þar sem hún er grátóna, ganga úr skugga um að valin kanban-vinnsla hefur stöðuna Áætlaðar, sem er tilgreind með því tóma kanban-tákn.</span><span class="sxs-lookup"><span data-stu-id="5d102-115">If you can't click Prepare because it is grayed out, make sure that the selected kanban job has status Planned, which is indicated by the empty kanban icon.</span></span> <span data-ttu-id="5d102-116">Ef ekki tekst að Undirbúa, ganga úr skugga um að allt efni í tiltektarlistanum eru tiltækar.</span><span class="sxs-lookup"><span data-stu-id="5d102-116">If Prepare fails, make sure that all materials in the Picking list are available.</span></span>  
-2. <span data-ttu-id="5d102-117">Á listanum, veljið undirbúin vinnslu.</span><span class="sxs-lookup"><span data-stu-id="5d102-117">In the list, select the prepared job.</span></span>
-    * <span data-ttu-id="5d102-118">Veljið vinnsluna sem hefur nýlega verið undirbúið.</span><span class="sxs-lookup"><span data-stu-id="5d102-118">Select the first job that you have just prepared.</span></span>  
-    * <span data-ttu-id="5d102-119">Athugið að staða vinnslur er undirbúin, sem er tilgreint með þríhyrningur innan kanban-tákn.</span><span class="sxs-lookup"><span data-stu-id="5d102-119">Notice that the jobs status is prepared, which is indicated with a triangle inside the kanban icon.</span></span>  
+## <a name="prepare-kanban-job"></a><span data-ttu-id="a6e70-113">Undirbúa kanban-vinnslu</span><span class="sxs-lookup"><span data-stu-id="a6e70-113">Prepare kanban job</span></span>
+1. <span data-ttu-id="a6e70-114">Smellt er á Undirbúa.</span><span class="sxs-lookup"><span data-stu-id="a6e70-114">Click Prepare.</span></span>
+    * <span data-ttu-id="a6e70-115">Ef ekki er hægt að smella á Undirbúa þar sem hún er grátóna, ganga úr skugga um að valin kanban-vinnsla hefur stöðuna Áætlaðar, sem er tilgreind með því tóma kanban-tákn.</span><span class="sxs-lookup"><span data-stu-id="a6e70-115">If you can't click Prepare because it is grayed out, make sure that the selected kanban job has status Planned, which is indicated by the empty kanban icon.</span></span> <span data-ttu-id="a6e70-116">Ef ekki tekst að Undirbúa, ganga úr skugga um að allt efni í tiltektarlistanum eru tiltækar.</span><span class="sxs-lookup"><span data-stu-id="a6e70-116">If Prepare fails, make sure that all materials in the Picking list are available.</span></span>  
+2. <span data-ttu-id="a6e70-117">Á listanum, veljið undirbúin vinnslu.</span><span class="sxs-lookup"><span data-stu-id="a6e70-117">In the list, select the prepared job.</span></span>
+    * <span data-ttu-id="a6e70-118">Veljið vinnsluna sem hefur nýlega verið undirbúið.</span><span class="sxs-lookup"><span data-stu-id="a6e70-118">Select the first job that you have just prepared.</span></span>  
+    * <span data-ttu-id="a6e70-119">Athugið að staða vinnslur er undirbúin, sem er tilgreint með þríhyrningur innan kanban-tákn.</span><span class="sxs-lookup"><span data-stu-id="a6e70-119">Notice that the jobs status is prepared, which is indicated with a triangle inside the kanban icon.</span></span>  
 
-## <a name="revert-the-status-of-the-prepared-kanban-job"></a><span data-ttu-id="5d102-120">Snúa aftur stöðu undirbúin kanban-vinnslu</span><span class="sxs-lookup"><span data-stu-id="5d102-120">Revert the status of the prepared kanban job</span></span>
-1. <span data-ttu-id="5d102-121">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="5d102-121">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="5d102-122">Veljið fyrsta vinnslan sem var undirbúin.</span><span class="sxs-lookup"><span data-stu-id="5d102-122">Select the first job that was prepared.</span></span>  
-2. <span data-ttu-id="5d102-123">Í aðgerðasvæðinu er smellt á framleiðsla</span><span class="sxs-lookup"><span data-stu-id="5d102-123">On the Action Pane, click Manufacture.</span></span>
-3. <span data-ttu-id="5d102-124">Smellt er á stöðu snúa aftur.</span><span class="sxs-lookup"><span data-stu-id="5d102-124">Click Revert status.</span></span>
-    * <span data-ttu-id="5d102-125">Hægt er að nota annarri kanban-reglu þegar eftirfarandi skilyrði eru sönn:-áfyllingaráætlun er sama fyrir bæði reglur.</span><span class="sxs-lookup"><span data-stu-id="5d102-125">You can use an alternative kanban rule when the following conditions are true:  - The replenishment strategy is the same for both rules.</span></span>  <span data-ttu-id="5d102-126">- Útgáfa framleiðsluflæði er það sama fyrir bæði reglur.</span><span class="sxs-lookup"><span data-stu-id="5d102-126">- The version of the production flow is the same for both rules.</span></span>  <span data-ttu-id="5d102-127">- Afurð sem er uppgefið er það sama fyrir bæði reglur.</span><span class="sxs-lookup"><span data-stu-id="5d102-127">- The product that is supplied is the same for both rules.</span></span>  <span data-ttu-id="5d102-128">- Niður á við verkþætti sem eru skilgreind fyrir síðustu aðgerð kanban-reglur verður að vera það sama fyrir bæði reglur.</span><span class="sxs-lookup"><span data-stu-id="5d102-128">- Any downstream activities that are configured for the last activity of the kanban rules must be the same for both rules.</span></span>  <span data-ttu-id="5d102-129">- Skilgreina verður sama uppgefin birgðavíddir fyrir báðar reglurnar.</span><span class="sxs-lookup"><span data-stu-id="5d102-129">- The same supplied inventory dimensions must be configured for both rules.</span></span>  <span data-ttu-id="5d102-130">- Staða afgreiðslueiningar verður að vera Ekki úthlutað.</span><span class="sxs-lookup"><span data-stu-id="5d102-130">- The status of the handling unit must be Not assigned.</span></span>  <span data-ttu-id="5d102-131">- Skilgreining fyrir tilvikskanbön verður að vera það sama.</span><span class="sxs-lookup"><span data-stu-id="5d102-131">- The configuration for event kanbans must be the same.</span></span>  
-    * <span data-ttu-id="5d102-132">Tryggja skal að nýja staðan er Áætluð.</span><span class="sxs-lookup"><span data-stu-id="5d102-132">Ensure that the new status is Planned.</span></span>  
-4. <span data-ttu-id="5d102-133">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="5d102-133">Click OK.</span></span>
-5. <span data-ttu-id="5d102-134">Í listanum skal afmerkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="5d102-134">In the list, unmark the selected row.</span></span>
-    * <span data-ttu-id="5d102-135">Velja sömu vinnslu.</span><span class="sxs-lookup"><span data-stu-id="5d102-135">Select the same job.</span></span>  
-    * <span data-ttu-id="5d102-136">Athugið staða vinnslu fyrir kanban-vinnsla hefur verið breytt í áætlað, sem er tilgreind með tómu kanban tákn.</span><span class="sxs-lookup"><span data-stu-id="5d102-136">Notice that the job status for the kanban job is reverted to Planned, which is indicated by an empty kanban icon.</span></span>  
-
+## <a name="revert-the-status-of-the-prepared-kanban-job"></a><span data-ttu-id="a6e70-120">Snúa aftur stöðu undirbúin kanban-vinnslu</span><span class="sxs-lookup"><span data-stu-id="a6e70-120">Revert the status of the prepared kanban job</span></span>
+1. <span data-ttu-id="a6e70-121">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="a6e70-121">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="a6e70-122">Veljið fyrsta vinnslan sem var undirbúin.</span><span class="sxs-lookup"><span data-stu-id="a6e70-122">Select the first job that was prepared.</span></span>  
+2. <span data-ttu-id="a6e70-123">Í aðgerðasvæðinu er smellt á framleiðsla</span><span class="sxs-lookup"><span data-stu-id="a6e70-123">On the Action Pane, click Manufacture.</span></span>
+3. <span data-ttu-id="a6e70-124">Smellt er á stöðu snúa aftur.</span><span class="sxs-lookup"><span data-stu-id="a6e70-124">Click Revert status.</span></span>
+    * <span data-ttu-id="a6e70-125">Hægt er að nota annarri kanban-reglu þegar eftirfarandi skilyrði eru sönn:-áfyllingaráætlun er sama fyrir bæði reglur.</span><span class="sxs-lookup"><span data-stu-id="a6e70-125">You can use an alternative kanban rule when the following conditions are true:  - The replenishment strategy is the same for both rules.</span></span>  <span data-ttu-id="a6e70-126">- Útgáfa framleiðsluflæði er það sama fyrir bæði reglur.</span><span class="sxs-lookup"><span data-stu-id="a6e70-126">- The version of the production flow is the same for both rules.</span></span>  <span data-ttu-id="a6e70-127">- Afurð sem er uppgefið er það sama fyrir bæði reglur.</span><span class="sxs-lookup"><span data-stu-id="a6e70-127">- The product that is supplied is the same for both rules.</span></span>  <span data-ttu-id="a6e70-128">- Niður á við verkþætti sem eru skilgreind fyrir síðustu aðgerð kanban-reglur verður að vera það sama fyrir bæði reglur.</span><span class="sxs-lookup"><span data-stu-id="a6e70-128">- Any downstream activities that are configured for the last activity of the kanban rules must be the same for both rules.</span></span>  <span data-ttu-id="a6e70-129">- Skilgreina verður sama uppgefin birgðavíddir fyrir báðar reglurnar.</span><span class="sxs-lookup"><span data-stu-id="a6e70-129">- The same supplied inventory dimensions must be configured for both rules.</span></span>  <span data-ttu-id="a6e70-130">- Staða afgreiðslueiningar verður að vera Ekki úthlutað.</span><span class="sxs-lookup"><span data-stu-id="a6e70-130">- The status of the handling unit must be Not assigned.</span></span>  <span data-ttu-id="a6e70-131">- Skilgreining fyrir tilvikskanbön verður að vera það sama.</span><span class="sxs-lookup"><span data-stu-id="a6e70-131">- The configuration for event kanbans must be the same.</span></span>  
+    * <span data-ttu-id="a6e70-132">Tryggja skal að nýja staðan er Áætluð.</span><span class="sxs-lookup"><span data-stu-id="a6e70-132">Ensure that the new status is Planned.</span></span>  
+4. <span data-ttu-id="a6e70-133">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="a6e70-133">Click OK.</span></span>
+5. <span data-ttu-id="a6e70-134">Í listanum skal afmerkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="a6e70-134">In the list, unmark the selected row.</span></span>
+    * <span data-ttu-id="a6e70-135">Velja sömu vinnslu.</span><span class="sxs-lookup"><span data-stu-id="a6e70-135">Select the same job.</span></span>  
+    * <span data-ttu-id="a6e70-136">Athugið staða vinnslu fyrir kanban-vinnsla hefur verið breytt í áætlað, sem er tilgreind með tómu kanban tákn.</span><span class="sxs-lookup"><span data-stu-id="a6e70-136">Notice that the job status for the kanban job is reverted to Planned, which is indicated by an empty kanban icon.</span></span>  
 
