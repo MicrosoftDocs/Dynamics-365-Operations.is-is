@@ -1,13 +1,13 @@
 ---
-title: "Skilgreina lykilskipulög"
-description: "Þetta efnisatriði inniheldur upplýsingar um lykilskipulög og fjárhagsvíddir."
+title: Skilgreina lykilskipulög
+description: Þetta efnisatriði inniheldur upplýsingar um lykilskipulög og fjárhagsvíddir.
 author: aprilolson
 manager: AnnBe
 ms.date: 05/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 8435389a523d8393e9d4daa0cb1244203c0dbb12
 ms.openlocfilehash: a0665f5aec2a0809ecb383c1d4adf4c2072c9569
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351724"
 ---
-
 # <a name="configure-account-structures"></a>Skilgreina lykilskipulög
 
 [!include[banner](../includes/banner.md)]
@@ -100,4 +99,3 @@ Til að halda áfram að bæta við fleiri skilyrðum skaltu smella á **Afrita 
 Þegar þú ert ánægð(ur) með nýju uppsetninguna eða breytingu á lykilskipulagi, verður þú að virkja það. Ef lykilskipulagi er úthlutað á fjárhag, getur þessi virkjun verið ferli sem tekur langan tíma að keyra, þar sem allar óbókaðar færslur í kerfinu verða að vera samstilltar við nýja skipulagið. Bókaðar færslur verða ekki fyrir áhrifum af völdum breytinga á lykilskipulag.
 
 Nánari upplýsingar er að finna í [Skipuleggðu bókhaldslykilinn þinn](plan-chart-of-accounts.md), [Fjárhagsvíddir](financial-dimensions.md) og [Sláðu inn lykil og víddarsamsetningum (hlutuð færslustýring)](enter-account-dimension-combinations-segmented-entry-control.md).
-

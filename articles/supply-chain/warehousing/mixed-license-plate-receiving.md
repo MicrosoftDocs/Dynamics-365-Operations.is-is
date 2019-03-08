@@ -1,13 +1,13 @@
 ---
-title: "Móttaka blandaðrar númeraplötu"
-description: "Þetta efnisatriði lýsir því hvernig á að nota móttöku á blandaðri númeraplötu til að skrá og stofna vinnu fyrir margar vörur með fartæki."
+title: Móttaka blandaðrar númeraplötu
+description: Þetta efnisatriði lýsir því hvernig á að nota móttöku á blandaðri númeraplötu til að skrá og stofna vinnu fyrir margar vörur með fartæki.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a44165bc59d65a9dfdf8e591152f427b97930b34
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ec3fdff6e1118f4a4ef4146d315fe8c58664f453
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365892"
 ---
-
 # <a name="mixed-license-plate-receiving"></a>Móttaka blandaðrar númeraplötu
 
 [!include [banner](../includes/banner.md)]
@@ -50,4 +49,3 @@ Stofna þarf nýtt valmyndaratriði með vinnuham sem notast ekki við fyrirligg
 - Móttaka og frágangur blandaðrar númeraplötu
 
 Valkostir sem eru í boði til að auðkenna upprunaskjalslínur eru vara í innkaupapöntun, innkaupapöntunarlína, skilapöntun, vara í flutningspöntun og flutningspöntunarlína. Þessir valkostir geta breytt móttökupöntun á einni númeraplötu. Síðasti valkosturinn er eftir hleðsluvöru. Hægt er að bæta mörgum vörum við númeraplötu en ekki er hægt að skipta milli margra hleðsla.
-

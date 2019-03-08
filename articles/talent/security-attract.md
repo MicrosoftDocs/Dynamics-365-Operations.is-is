@@ -1,14 +1,14 @@
 ---
-title: "Öryggi og hlutverkastjórnun í Attract"
-description: "Þetta efnisatriði veitir upplýsingar um öryggishlutverk í Microsoft Dynamics 365 for Talent - Attract."
+title: Öryggi og hlutverkastjórnun í Attract
+description: Þetta efnisatriði veitir upplýsingar um öryggishlutverk í Microsoft Dynamics 365 for Talent - Attract.
 author: josaw1
 manager: AnnBe
 ms.date: 10/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 9eb12bd6b9fc1aa66002908e5989b3ac504ab673
-ms.contentlocale: is-is
-ms.lasthandoff: 11/01/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374781"
 ---
-
 # <a name="security-and-role-management-in-attract"></a>Öryggi og hlutverkastjórnun í Attract
 
 [!include[banner](../includes/banner.md)]
@@ -63,7 +62,7 @@ Notendur sem eru úthlutað hlutverki mannauðsstjóra geta búið til störf og
 
 Notendur sem eru úthlutað hlutverki ráðningaraðila hafa full réttindi til að lesa, búa til, uppfæra og eyða störfum sem þau hafa búið til. Þeir hafa einnig full réttindi til að búa til, lesa, uppfæra og eyða í forritunum sem tengjast störfum sem þau eiga. Aðeins notendur sem eru úthlutað í hlutverki ráðningaraðila er hægt að bæta við ráðningarteymi sem ráðningaraðilar.
 
-## <a name="interviewer"></a>Spyrill
+## <a name="interviewer"></a>Sá sem tekur viðtal
 
 Allir notendur sem hafa Microsoft Azure Active Directory (Azure AD) reikninginn í fyrirtækinu geta verið bætt við ráðningarhóp sem spyrlar. Notendur sem eru úthlutað hlutverki spyrils geta skoðað upplýsingar um starf gögn um umsækjendur varðandi störf sem þeir eru á ráðningarteymi fyrir. Fyrir þá störf geta spyrlar einnig gefið ráðleggingar um ráðningu og veitt endurgjöf um umsækjendur. Hins vegar geta þeir ekki uppfært upplýsingar um starf eða umsækjanda gögn.
 
@@ -108,7 +107,7 @@ Eftirfarandi réttindi gilda um vinnusértæk gögn fyrir umsækjendur og aðger
 | Ítarlegt stig           | Geti hafnað ef notandinn er á ráðningarteyminu | Geta haldið áfram ef notandinn er á ráðningarteyminu | Ekki leyfð |
 | Ræsa tilboðsstjórnun | Getur byrjað tilboðsstjórnun | Það er stillingarmöguleiki á tilboðsaðgerðinni. | Ekki leyfð |
 
-\*\* Stillingarmöguleiki í [uppsetningu á endurgjafaraðgerð](./activities-attract.md#feedback-activity) stýrir því hvort spyrlar geta séð endurgjöf hvers annars.
+\*\* Stillingarmöguleiki í [uppsetningu á endurgjafaraðgerð](activities-attract.md#feedback-activity) stýrir því hvort spyrlar geta séð endurgjöf hvers annars.
 
 ## <a name="process-templates"></a>Vinna sniðmát
 
@@ -146,4 +145,3 @@ Umsækjendur eru fólk sem hefur verið bætt við hæfileikasafn en eru ekki te
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Forstillingar - upplýsingar um umsækjanda | Búðu til, lestu, uppfærðu og eyða | Búðu til, lestu, uppfærðu og eyða | Enginn aðgangur   |
 | Skjöl                   | Búðu til, lestu, uppfærðu og eyða | Búðu til, lestu, uppfærðu og eyða | Enginn aðgangur   |
-

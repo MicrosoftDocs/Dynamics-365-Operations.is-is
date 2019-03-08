@@ -1,13 +1,13 @@
 ---
 title: Setja upp Skuldir og innheimta
-description: "Þessi skrá útskýrir hvernig á að setja upp innheimtuvirkni."
+description: Þessi skrá útskýrir hvernig á að setja upp innheimtuvirkni.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustCollectionsActivitiesListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6b1dcd6ad0ca05a94409d5d23039ccefe53392e3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f35981396c782b530737adac8ad62d0ff4b0f77e
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351839"
 ---
-
 # <a name="set-up-credit-and-collections"></a>Setja upp Skuldir og innheimta
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,7 @@ Setja upp færslubókarnöfn sem eru notaðar þegar færslur eru unnin á **inn
 Setja upp sjálfgefinn ástæðukóða sem er notaður þegar færslur eru afskrifaðar á síðunni **Innheimta**. Hægt er að breyta kóða við afskriftarferli.
 
 ## <a name="set-up-a-folder-for-email-attachments-and-create-email-templates"></a>Setja upp möppu fyrir viðhengi í tölvupósti og stofna sniðmát tölvupósts
-Ef þú sendir tölvupóst úr á **innheimtur** síðu sem hefur Microsoft Excel viðhengi , er hægt að stofna valfrjáls sniðmát tölvupósts fyrir þessi skilaboð.
+Ef þú sendir tölvupóst úr á **innheimtur** síðu sem hefur Microsoft Excel viðhengi, er hægt að stofna valfrjáls sniðmát tölvupósts fyrir þessi skilaboð.
 
 ## <a name="set-up-accounts-receivable-parameters-for-collections"></a>Setja upp færibreytur fyrir viðskiptakröfur fyrir innheimtu
 Setjið upp færibreytur viðskiptakrafna sem birtast í flipanum **innheimtur**
@@ -77,7 +76,7 @@ Setja upp afskriftalykil sem er notaður fyrir afskriftarfærslu fjárhags þega
 Uppfæra bankareikningum þannig að þeir hafi rétta færslubók þegar FSF-greiðsla eru auðkenndar á **innheimtur** síðunni. Á við **gjaldmiðilsstjórnun** flipanum, á **nsf-greiðslubók** skal velja greiðslubók.
 
 ## <a name="set-up-outlook-settings-for-users-of-the-collections-page"></a>Uppsetning Outlook - stillinga fyrir notendur innheimtusíðunnar
-Áður en starfsmenn geta stofna verkþætti eða senda tölvupóstsskilaboð með því að nota **innheimtur** síðu, verður að staðfesta að **samstilling Microsoft Outlook** skilgreiningarlykill er valinn, og að samstilling Outlook sé sett upp fyrir starfsmann.
+Áður en starfsmenn geta stofna verkþætti eða senda tölvupóstsskilaboð með því að nota síðuna **Innheimtur**, verður að staðfesta að **Microsoft Outlook samstilling** skilgreiningarlykill er valinn og að samstilling Outlook sé sett upp fyrir þessa starfsmenn.
 
 ## <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Setja upp tölvupóststillingar og aðseturstillingar fyrir tengiliði viðskiptamanna fyrir innheimtu.
 Setja upp tölvupóstsaðsetur fyrir tengiliði viðskiptamanna ef senda á tölvupóstsskilaboð til þeirra tengiliða úr **innheimtur** síðu. Tengiliður innheimtu er notaður sem sjálfgefinn tengiliður í **Innheimtur** skjámynd. Hægt er að setja upp uppgjörsaðsetur fyrir viðskiptamanns ef uppgjör á að nota aðsetur sem er annað en aðalaðsetri. 
@@ -100,5 +99,4 @@ Frekari upplýsingar er hægt að finna í eftirfarandi efni:
  - [Vinna úr innheimtubréfum](tasks/process-collection-letters.md)
 
  - [Fara yfir innheimtuupplýsingar](tasks/review-collections-information.md)
-
 

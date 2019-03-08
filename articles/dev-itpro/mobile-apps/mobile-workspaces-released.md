@@ -1,13 +1,13 @@
 ---
-title: "Tiltæk fartækjavinnusvæði"
-description: "Í þessu efnisatriði er að finna lista yfir fartækjavinnusvæði sem eru í boði."
+title: Tiltæk fartækjavinnusvæði
+description: Í þessu efnisatriði er að finna lista yfir fartækjavinnusvæði sem eru í boði.
 author: sericks007
 manager: AnnBe
 ms.date: 08/07/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 75f7df4ca3b675d720eb46395118529d09f2f9d4
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354967"
 ---
-
 # <a name="available-mobile-workspaces"></a>Tiltæk fartækjavinnusvæði
 
 [!include [banner](../includes/banner.md)]
@@ -30,9 +29,9 @@ ms.lasthandoff: 08/09/2018
 Í þessu efnisatriði er að finna lista yfir fartækjavinnusvæði sem eru í boði með Dynamics 365 for Unified Operations fartækja smáforritinu.
 
 > [!NOTE]
-> Fartækjaforritið hét áður *Microsoft Dynamics 365 for Finance and Operations*.
+> Farsímaforritið hét áður *Microsoft Dynamics 365 for Finance and Operations*.
 
-| Fartækjavinnusvæði     | lýsing   | Framboð   |
+| Fartækjavinnusvæði     | lýsing   | Til ráðstöfunar   |
 |----------------------|---------------|--------------|
 |[Skráasafn fyrirtækisins](company-directory-mobile-workspace.md)| Gerir þér kleift að skoða og hafa samband við aðra starfsmenn í þínu fyrirtæki.| 2017. júní |    
 |[Liðið mitt](manager-self-service-mobile-workspace.md)| Þú getur skoðað beinar skýrslur þínar og starfsfólk, sem og gefið einstaklingum hrós innan skýrslukeðjunnar.|2017. júní |     
@@ -44,5 +43,4 @@ ms.lasthandoff: 08/09/2018
 | [Lagerbirgðir](../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md)    | Fá innsýn í fráteknar og tiltækar birgðir.                                                                                                    |   2017. janúar       |
 | [Sölupantanir](../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | Þú getur fylgst náið með sölupöntunum þínum.                                                                                                                          |  2017. janúar                  |
 | [Samstarf lánardrottna](../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | Lánardrottnar geta fylgst náið með innkaupapöntununum sem hafa verið sendar til þeirra til samþykkis. Þeir geta einnig skoðað upplýsingar um nýjar og uppfærðar innkaupapantanir og tengiliði. |2017. janúar    |
-
 

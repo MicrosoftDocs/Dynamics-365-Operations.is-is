@@ -1,13 +1,13 @@
---- 
-title: "Rafræn skýrslugerð stofna grunnstilling sniðs (nóvember 2016)"
-description: "Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stofnað skilgreiningarsnið fyrir rafræna skýrslugerð (ER)."
+---
+title: Rafræn skýrslugerð stofna grunnstilling sniðs (nóvember 2016)
+description: Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stofnað skilgreiningarsnið fyrir rafræna skýrslugerð (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 582e1a2baee805fe6770465edc7958954f638f1c
+ms.sourcegitcommit: 29e19b6d91e5761178627ef2051f3385f5d7cfe5
 ms.translationtype: HT
-ms.sourcegitcommit: 13469aad7fdcefb3a1706eec0527f29968e007eb
-ms.openlocfilehash: 10511fe5b936135471b522fc7152a54686a3be87
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "377550"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>Rafræn skýrslugerð stofna grunnstilling sniðs (nóvember 2016)
 
@@ -35,8 +35,10 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þr
 2. Smellið á **Skilgreiningar skýrslugerðar**.
 3. Veljið **Greiðslur (einfaldað líkan)** í trénu.
 4. Smellið á **Stofna skilgreiningu** til að opna felligluggann.
+
  > [!NOTE]
  > Ef þú sérð ekki **Stofna skilgreiningu** verður þú að virkja hönnunarsnið á síðunni **Færibreytur rafrænnar skýrslugerðar**. 
+ 
 5. Í svæðinu **Nýtt** skal færa inn **Snið byggir á gagnalíkani PaymentModel**,
 6. Í svæðinu **Heiti** skal slá inn **BACS (UK skáldað)**.
 7. Í svæðinu **Lýsing** skal færa inn **BACS greiðslusnið lánardrottins (UK skáldað)**.
@@ -44,9 +46,6 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þr
     * Hægt er að skilgreina ákveðið snið rafrænt skjal. Þetta svæði er skilið eftir autt ef óskað er að velja snið á tíma keyrslu.  
 8. Í svæðinu **Skilgreining gagnalíkans** skal færa inn eða velja gildi.
 9. Smellið á **Stofna skilgreiningu**. Ný Skilgreining hefur verið stofnuð. Hægt er að nota sem útgáfuna drög til að vista hannað snið fyrir umsjón með rafrænum skjölum.  
- > [!NOTE]
- > Ef þú sérð ekki **Stofna skilgreiningu** verður þú að virkja hönnunarsnið á síðunni **Færibreytur rafrænnar skýrslugerðar**.
-
 
 ## <a name="design-the-format-of-an-electronic-document"></a>Hannið snið fyrir rafrænt skjal
 1. Smellið á **Hönnuður**.
@@ -159,5 +158,4 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þr
 41. Smellið á **Í lagi**.
 42. Smellið á **Vista**.
 43. Lokið síðunni.
-
 

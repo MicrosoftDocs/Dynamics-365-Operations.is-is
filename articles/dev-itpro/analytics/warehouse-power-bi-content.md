@@ -1,13 +1,13 @@
 ---
-title: "Power BI-efni afkasta vöruhúss"
-description: "Þetta efnisatriði lýsir því hvað er innifalið í Power BI-efni afkasta vöruhúss. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið."
+title: Afköst vöruhúss Power BI efni
+description: Þetta efnisatriði lýsir því sem er innifalið í afköstum vöruhúss Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,35 +18,34 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 99966a67fa1fd91fc54e7100f8e2e41b87f6a406
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365363"
 ---
-
-# <a name="warehouse-performance-power-bi-content"></a>Power BI-efni afkasta vöruhúss
+# <a name="warehouse-performance-power-bi-content"></a>Afköst vöruhúss Power BI efni
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvað er innifalið í Microsoft Power BI-efni **Afköst vöruhúss**. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
+Þetta efnisatriði lýsir því hvað er innifalið í **Afköst vöruhúss** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
 
 ## <a name="overview"></a>Yfirlit
 
-Power BI-efnið **Afköst vöruhúss** var stofnað til að hjálpa vöruhúsa- og verkstjórum að fylgjast með því sem kemur inn, fer út sem og mælikvörðum birgða. Notast er við vöruhúsakerfi, vörur og önnur færslugögn úr kerfinu þínu, og birtir bæði uppsöfnuð afköst vöruhúss og sundurliðun lánardrottna, vöruflokka og vörur, og svæði og vöruhús.
+**Afköst vöruhúss** Power BI-efnið var stofnað til að hjálpa vöruhúsa- og verkstjórum að fylgjast með því sem kemur inn, fer út sem og mælikvörðum birgða. Notast er við vöruhúsakerfi, vörur og önnur færslugögn úr kerfinu þínu, og birtir bæði uppsöfnuð afköst vöruhúss og sundurliðun lánardrottna, vöruflokka og vörur, og svæði og vöruhús.
 
-Vöruhúsastjórnendur geta notað Power BI-efnið **Afköst vöruhúss** til að mæla eftirfarandi þrjú svæði:
+Vöruhúsastjórnendur geta notað **Afköst vöruhúss** Power BI-efnið til að mæla eftirfarandi þrjú svæði:
 
 - **Afköst á innleið** – Mælir það hversu vel lánardrottinn framkvæmir gagnvart kröfum viðskiptavina (með öðrum orðum afhendingarafköst) og mælir frágangsafköst svo að hægt sé auðkenna vandamál sem snerta starfskrafta eða vörur yfir tímabil. Það er mikilvægt að vitað hvort lánardrottnar afhendi á réttum tíma, snemma eða seint, þannig að hægt sé að ákvarða hvernig frammistaða þeirra hefur áhrif á frágangsafköst. Lánardrottinn sem afhendir utan þeirra dagsetninga sem voru ákveðnar getur sett pressu á vöruhúsið vegna óvæntrar vinnu, og getur aukið meðaltíma frágangs.
 - **Sendingarframmistaða** – Mælir hvort vöruhúsið sendir að fullu og tímanlega til viðskiptavina (með öðrum orðum mæling á sendingum og afhendingu), þannig að hægt er að auðkenna vandamál sem snerta vörur, svæði eða vöruhús eða tiltekna viðskiptavini. Ef verið er að senda seint á tiltekin svæði eða bæja gæti þurft að veita flutningi eða reikningastjórnun meiri athygli.
 - **Nákvæmni staðsetningarbirgða** – Nákvæmni birgða er mikilvægt fyrir viðskiptagreind innri vöruhús (BI). Það er mjög mikilvægt að ákvarðað sé hversu nákvæmlega talning er almennt. Þó er einnig er mikilvægt að ákvarða hvernig nákvæmlega vörur eru geymdar á réttum stöðum, og að misræmisgögn séu auðkenn þannig að hægt sé að finna betri stöður fyrir vörur eða hefja allsherjartalningu á tilteknum vörum. (Eins og er, er nýja talningarvirknin afhent sem bráðabót.) Ef verið er að nota þetta Power BI-efni til að ákvarða nákvæmni lagerbirgða eftir staðsetningu, er einnig hægt að greina þjófnaði í verslunum. Einnig er hægt að ákvarða hvort staðsetningar hafa lagermagn sem er frábrugðið ERP (Enterprise Recource Planning). Staðsetningarnar gætu verið of stórar eða ómögulegt að telja. Einnig kunna sumar efnislegar staðsetningu að vera rangar, þannig að erfitt sé að hafa eina gerð vöru samstillta við gögn á lager.
 
-## <a name="accessing-the-power-bi-content-pack"></a>Farið í Power BI-efnispakka
-**Afköst vöruhúss** Power BI efni er sýnt á síðunni **Afköst vöruhúss** (**Vöruhúsastjórnun** \> **Fyrirspurnir og skýrslur** \> **Greining á afköstum vöruhúss** \> **Afköst vöruhúss**).
+## <a name="accessing-the-power-bi-content-pack"></a>Farið í Power BI efnispakkann
+**Afköst vöruhúss** Power BI-efni er sýnt á síðunni **Afköst vöruhúss** (**Vöruhúsastjórnun** \> **Fyrirspurnir og skýrslur** \> **Greining á afköstum vöruhúss** \> **Afköst vöruhúss**).
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI-efni
-Power BI-efnið **Afköst vöruhúss** inniheldur skýrslu. Skýrslan samanstendur af safni mælikvarða sem eru sýndir sem myndrit, reitir og töflur. Í eftirfarandi töflu er yfirlit yfir myndbirtingar í Power BI-efninu **Afköst vöruhúss**.
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI efni
+**Afköst vöruhúss** Power BI-efni inniheldur skýrslu. Skýrslan samanstendur af safni mælikvarða sem eru sýndir sem myndrit, reitir og töflur. Í eftirfarandi töflu er yfirlit yfir myndbirtingar í **Afköst vöruhúss** Power BI-efni .
 
 | Skýrslusíða                 | Gröf                                   | lýsing |
 |-----------------------------|------------------------------------------|-------------|
@@ -79,7 +78,7 @@ Power BI-efnið **Afköst vöruhúss** inniheldur skýrslu. Skýrslan samanstend
 | Sendingarframmistaða        | Sent eftir svæði / vöruhús              | Sú prósenta sem er send snemma, á tíma, eða seint eftir svæði eða vöruhúsi. |
 
 ## <a name="understanding-the-data-model-and-calculations"></a>Að skilja gagnalíkan og útreikning
-Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í Power BI efninu **Vöruhússafköst**. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Entity-verslunin er Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](power-bi-integration-entity-store.md)
+Eftirfarandi gögn eru notuð til að fylla út í skýrslusíðurnar í **Afköst vöruhúss** Power BI efni. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Einingaverslunin er Microsoft SQL Server gagnagrunnur sem er fínstillt fyrir greiningar. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](power-bi-integration-entity-store.md)
 
 Eftirfarandi lykiluppsafnaðar mælingar eru notaðar sem grunnur að efninu.
 
@@ -113,4 +112,3 @@ Eftirfarandi lykiluppsafnaðar mælingar eru notaðar sem grunnur að efninu.
 | Sendingarframmistaða        | Sent eftir afurð                       | CustPackingSlipOnTimeStatus           | Snemma, Á tíma og Seint (sjá lýsingu fyrr í þessari töflu). |
 | Sendingarframmistaða        | Sent eftir viðskiptavini                      | CustPackingSlipOnTimeStatus           | Snemma, Á tíma og Seint (sjá lýsingu fyrr í þessari töflu). |
 | Sendingarframmistaða        | Sent eftir svæði / vöruhús              | CustPackingSlipOnTimeStatus           | Snemma, Á tíma og Seint (sjá lýsingu fyrr í þessari töflu). |
-

@@ -1,13 +1,13 @@
 ---
-title: "Úthlutunargögn fjárhagsáætlunargerðar"
-description: "Þessi grein lýsir mismunandi úthlutunaraðferðum sem eru tiltækar í Microsoft Dynamics 365 for Finance and Operations og hvernig hægt er að nota þær."
+title: Úthlutunargögn fjárhagsáætlunargerðar
+description: Þessi grein lýsir mismunandi úthlutunaraðferðum, tiltækum í Microsoft Dynamics 365 for Finance and Operations og hvernig nota má þær.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 430040f7b3706aa1ad913d70c0dbcab9249ea222
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b5f262318b4defb941f1216d0bfe06961f62bad4
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352506"
 ---
-
 # <a name="budget-planning-data-allocation"></a>Gagnaúthlutun fjárhagsáætlunargerðar
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir mismunandi úthlutunaraðferðum sem eru tiltækar í Microsoft Dynamics 365 for Finance and Operations og hvernig hægt er að nota þær.  
+Þessi grein lýsir mismunandi úthlutunaraðferðum, tiltækum í Microsoft Dynamics 365 for Finance and Operations og hvernig nota má þær.  
 
 Hægt er að dreifa gögnum í fjárhagsáætlun á ýmsa vegu til að sýna nákvæmlega áætlaðar upphæðir.
 
@@ -72,7 +71,6 @@ Næst er stig úthlutunar stofnað á síðunni **skilgreining fjárhagsáætlun
 Loks er bætt við sjálfvirku verki fyrir stigsúthlutun fjárhagsáætlunargerðar á æskilegu verkflæðistigi. Í eftirfarandi dæmi hafa tvær stigsúthlutanir fjárhagsáætlunargerðar (rauðmerktar) verið færðar inn í verkflæðið.
 
 [![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
-
 
 
 

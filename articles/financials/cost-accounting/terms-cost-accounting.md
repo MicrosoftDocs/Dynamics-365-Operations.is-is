@@ -1,13 +1,13 @@
 ---
-title: "Hugtök kostnaðarbókhalds"
-description: "Þessa efnisatriðis skilgreinir lykill afhendingarskilmála sem notaðir eru í kostnaðarbókhalds."
+title: Hugtök kostnaðarbókhalds
+description: Þessa efnisatriðis skilgreinir lykill afhendingarskilmála sem notaðir eru í kostnaðarbókhalds.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 702fa3cb4219aecd95a74d3c225e104be5f281fc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365938"
 ---
-
 # <a name="cost-accounting-terminology"></a>Hugtök kostnaðarbókhalds
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ ms.lasthandoff: 03/26/2018
 
 **Kostnaðarbókhald**
 
-Kostnaðarbókhald er hægt að safna gögnum frá ýmsum stöðum eins og fjárhags, undirfjárhagi, áætlanir og tölfræðilegar upplýsingar. Síðan er hægt að greina, taka saman og meta kostnaðargögn, svo stjórnun hægt taka ákvarðanir í besta mögulega verðuppfærslu, fjárhagsáætlanir, kostnaðarstýringu og svo framvegis. Upprunagögn sem notaður er fyrir greining er óháð meðhöndlaðar í kostnaðarbókhaldi. Þess vegna ekki uppfærslur í kostnaðarbókhaldi áhrif upprunagögn. Hins vegar þegar kostnaðargögnum er safnað saman frá ýmsum stöðum, og sérstaklega þegar aðallyklar eru fluttir inn frá Fjárhag í Microsoft Dynamics 365 for Finance and Operations sem kostnaðareiningar, er gögnum ofaukið, þar sem sömu gögn eru til staðar bæði í Fjárhag og Kostnaðarbókhaldi. Ofauki þessa er krafist, þar sem nota fjárhagslegar stjórnun fyrir ytri skýrslugjöf og kostnaðarbókhalds fyrir innri skýrslugjöf.
+Kostnaðarbókhald er hægt að safna gögnum frá ýmsum stöðum eins og fjárhags, undirfjárhagi, áætlanir og tölfræðilegar upplýsingar. Síðan er hægt að greina, taka saman og meta kostnaðargögn, svo stjórnun hægt taka ákvarðanir í besta mögulega verðuppfærslu, fjárhagsáætlanir, kostnaðarstýringu og svo framvegis. Upprunagögn sem notaður er fyrir greining er óháð meðhöndlaðar í kostnaðarbókhaldi. Þess vegna ekki uppfærslur í kostnaðarbókhaldi áhrif upprunagögn. Hins vegar þegar hægt er að safna gögnum kostnaðurinn frá ýmsum stöðum og sérstaklega þegar aðallykla á að flytja úr fjárhag í Microsoft Dynamics 365 for Finance and Operations sem kostnaðareiningar er ofaukið gögn, þar sem sömu gögn sem til eru í fjárhag og kostnaðarbókhald. Ofauki þessa er krafist, þar sem nota fjárhagslegar stjórnun fyrir ytri skýrslugjöf og kostnaðarbókhalds fyrir innri skýrslugjöf.
 
 **Fjárhagur kostnaðarbókhalds**
 
@@ -119,7 +118,7 @@ Kostnaðarhlutfallið er notuð til að reikna út verð á kostnað hlut. Í sk
 Kostnaðarbókhald styður samþættingu gagna frá upprunakerfum um gagnatengi. Eftirfarandi gagnatengi eru í boði:
 
 -  Innfluttar færslur (forskilgreint)
--  Dynamics 365 for Finance and Operations (forskilgreint)
+-  Dynamics 365 for Finance and Operations (fyrirfram skilgreint)
 -  Dynamics AX (stilling nauðsynleg)
 
 **Athugaðu:** Innfluttar færslur gagnatengja byggjast á gagnaeiningum.
@@ -128,7 +127,7 @@ Kostnaðarbókhald styður samþættingu gagna frá upprunakerfum um gagnatengi.
 
 Flest upprunakerfi geta veitt gögn sem samsvara einum eða fleiri gagnaveitum í Kostnaðarbókhald. Til að samræma gögn frá upprunakerfi við gagnaveitu í Kostnaðarbókhaldi þarf gagnaveita að vera valin. Eftirfarandi tafla sýnir gagnaveitur eftir gagnatengi og gagnaveitu.
 
-|  **Uppruni gagna** |  **Gagnatengi fyrir innfluttar færslur** | **Gagnatengi Dynamics 365 for Finance and Operations**  | **Dynamics AX gagnatengi**  |
+|  **Uppruni gagna** |  **Gagnatengi fyrir innfluttar færslur** | **Dynamics 365 for Finance and Operations gagnatengi**  | **Dynamics AX gagnatengi**  |
 |---|---|---|---|
 | Víddarstök kostnaðareiningar  |  Já | Já  | Já  |
 |  Víddarstök kostnaðarhluta |  Já | Já  | Já  |
@@ -204,6 +203,5 @@ Verkyfirlit eru yfirlit fyrir stjórnendum sem bera ábyrgð á til að stýra k
 **Útgáfa**
 
 Útgáfur eru notaðar til að herma, skoða og bera saman niðurstöður mismunandi. Að sjálfgefnu raunverulegan kostnað eru skoðuð í ein útgáfa grunnsniðs sem kallast *raunverulega*. Hægt er að vinna með eins margar útgáfur og þörf er fyrir áætlanir og útreikninga. Til dæmis, hægt að flytja inn gögn fjárhagsáætlunargerðar í upprunalega útgáfa og endurskoða síðan áætlunar í endurskoðuð útgáfa. Hægt er að stofna mál fyrir mörg svæði í . Í þessum mismunandi útgáfur síðan stofna útreikning með því að nota mismunandi útreikningsreglur sem verður notað fyrir kostnaðarúthlutun.
-
 
 

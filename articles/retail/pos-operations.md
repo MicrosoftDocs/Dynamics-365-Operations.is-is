@@ -1,31 +1,30 @@
 ---
-title: "Aðgerðir sölustaðar (POS) með og án nettengingar"
-description: "Þetta efnisatriði veitir upplýsingar um rekstur sölustaðs (POS) í Microsoft Dynamics 365 for Retail. Það tilgreinir hvar í forritinu má kalla fram aðgerðir og hvort þær séu tiltæk í ótengdum ham."
+title: Aðgerðir sölustaðar (POS) með og án nettengingar
+description: Þetta efnisatriði veitir upplýsingar um rekstur sölustaðs (POS) í Microsoft Dynamics 365 for Retail. Það tilgreinir hvar í forritinu má kalla fram aðgerðir og hvort þær séu tiltæk í ótengdum ham.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353817"
 ---
-
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Aðgerðir sölustaðar (POS) með og án nettengingar
 
 [!include [banner](includes/banner.md)]
@@ -199,4 +198,3 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 § Þegar POS er ótengdur er aðeins hægt að kalla aftur fram viðskipti í núgildandi ótengda gagnagrunninum fyrir skil.
 
 \*\* Þegar POS er ótengdur birtist aðeins viðskipti í núgildandi ótengda rásagagnagrunninum í færslubókinni.
-

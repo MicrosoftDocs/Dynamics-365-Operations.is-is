@@ -1,13 +1,13 @@
---- 
-title: "Stofna hráefni (febrúar 2016)"
-description: "Þetta verk einblínir á að búa til íhluti fullunnin vara og hálfunnin vara."
+---
+title: Stofna hráefni (febrúar 2016)
+description: Þetta verk einblínir á að búa til íhluti fullunnin vara og hálfunnin vara.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResProductCreate, InventItemOrderSetup, InventItemPrice
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 091b6edaf43e86e6e3665bf79871648473e284c7
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351057"
 ---
 # <a name="create-raw-materials-february-2016"></a>Stofna hráefni (febrúar 2016)
 
@@ -156,5 +156,4 @@ ms.lasthandoff: 10/16/2018
 25. Smellt er á Virk vöruverð.
 26. Lokið síðunni.
 27. Lokið síðunni.
-
 

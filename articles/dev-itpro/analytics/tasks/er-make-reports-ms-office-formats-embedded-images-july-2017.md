@@ -1,13 +1,13 @@
---- 
-title: "Hanna skilgreiningar til að búa til skýrslur á Office-sniði með innfelldum myndum"
-description: "Skrefin í þessu efni veita upplýsingar um hvernig á að hanna stillingar fyrir rafræna skýrslugerð (ER) sem búa til rafræn skjöl á Microsoft Office sniði (Excel og Word) sem innihalda innbyggðar myndir."
+---
+title: Hanna skilgreiningar til að búa til skýrslur á Office-sniði með innfelldum myndum
+description: Skrefin í þessu efni veita upplýsingar um hvernig á að hanna stillingar fyrir rafræna skýrslugerð (ER) sem búa til rafræn skjöl á Microsoft Office sniði (Excel og Word) sem innihalda innbyggðar myndir.
 author: NickSelin
 manager: AnnBe
 ms.date: 01/23/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 1fb02e561f6792c57b924ba64a5ca3d3974289ee
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358095"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Hanna skilgreiningar til að búa til skýrslur á Office-sniði með innfelldum myndum
 
@@ -34,7 +34,7 @@ Til að ljúka þessum skrefum í ferlinu skal fyrst ljúka við ferlið „Rafr
  3. Smelltu á Grunnstillingar skýrslugerðar  
  
 ## <a name="add-a-new-er-model-configuration"></a>Bæta við nýrri grunnstillingu líkans í Rafræn skýrslugerð  
- 1. Í stað þess að búa til nýtt líkan er hægt að hlaða upp líkanstillingarskránn rafrænnar skýrslugerðar (Model for cheques.xml) sem var vituð áður. Þessi skrá inniheldur sýnigögn gagnalíkans fyrir greiðslu ávísana og vörpun gagnalíkans í gagnalíkan Dynamics 365 for Operations forritsins.   
+ 1. Í stað þess að búa til nýtt líkan er hægt að hlaða upp líkanstillingarskránn rafrænnar skýrslugerðar (Model for cheques.xml) sem var vituð áður. Þessi skrá inniheldur sýnigögn gagnalíkans fyrir greiðslu ávísana og vörpun gagnalíkans í gagnalíka Dynamics 365 for Operations.   
  2. Á Útgáfur flýtiflipa skal smella á Exchange.   
  3. Smellt er á Hlaða úr XML-skrá.  
  4. Smellið á Fletta og veljið Model for cheques.xml.   
@@ -91,4 +91,3 @@ Til að ljúka þessum skrefum í ferlinu skal fyrst ljúka við ferlið „Rafr
  30. Velja skal Já í Leyfa stofnun fyrirframkvittana fyrir óvirka bankareikninga: reitinn.  
  31. Smellið á „Vista“.  
  32. Lokið síðunni.  
-

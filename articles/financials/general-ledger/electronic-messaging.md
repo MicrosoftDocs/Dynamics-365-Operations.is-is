@@ -1,28 +1,27 @@
 ---
-title: "Rafræn skilaboð"
-description: "Þetta efnisatriði veitir yfirlit og upplýsingar um uppsetningu fyrir rafræn skilaboð í Microsoft Dynamics 365 for Finance and Operations."
+title: Rafræn skilaboð
+description: Þetta efnisatriði veitir yfirlit og upplýsingar um uppsetningu fyrir rafræn skilaboð í Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 232398a6c4193d0074881e26fff361deb9784bf2
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 082ad886f40a52457900523f44158da3ed939458
-ms.contentlocale: is-is
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357934"
 ---
-
 # <a name="electronic-messaging"></a>Rafræn skilaboð
 
 [!include [banner](../includes/banner.md)]
@@ -452,4 +451,3 @@ Nú er annaðhvort hægt að eyða eða uppfæra stöðu skilaboða. Til að upp
 ![Uppfæra stöðu skilaboða](media/update-status.png)
 
 Staða skilaboða er uppfærð í **Undirbúin** og hægt er að búa til skýrsluna með því að velja **Búa til skýrslu**. Skýrslan er búin til og uppfærsla gerð á stöðu skilaboða og aðgerðakladda. Til að skoða skýrsluna sem var búin til skal velja hnappinn **Viðhengi** á aðgerðasvæðinu.
-

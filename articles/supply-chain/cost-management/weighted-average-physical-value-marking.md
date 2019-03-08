@@ -1,13 +1,13 @@
 ---
-title: "Vegið meðaltal með efnislegt virði og merkingu"
-description: "Vegið meðaltal er birgðalíkan sem byggist á reglunni um vegið meðaltal, þar sem úthreyfingar úr birgðum eru metnar á meðalgildi varanna sem tekið er á móti inn í birgðirnar á birgðalokunartímabilinu, auk allra lagerbirgða úr fyrra tímabili."
+title: Vegið meðaltal með efnislegt virði og merkingu
+description: Vegið meðaltal er birgðalíkan sem byggist á reglunni um vegið meðaltal, þar sem úthreyfingar úr birgðum eru metnar á meðalgildi varanna sem tekið er á móti inn í birgðirnar á birgðalokunartímabilinu, auk allra lagerbirgða úr fyrra tímabili.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc70b9cffd8716bc1d90cdb611076b4fc0bf6b30
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ec7f1ef643d864a2729642d78d19fc43d5f6a7fb
-ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355680"
 ---
-
 # <a name="weighted-average-with-physical-value-and-marking"></a>Vegið meðaltal með efnislegt virði og merkingu
 
 [!include [banner](../includes/banner.md)]
@@ -77,7 +76,7 @@ Eftirfarandi skýringarmynd sýnir þessar raðir af færslum með áhrifunum af
 - Birgðafærslur eru táknaðar með lóðréttum örvum.
 - Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
 - Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
-- Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
+- Fyrir ofan (eða fyrir neðan) Hvert Lóðrétt ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
 - Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
 - Virði birgðafærslu án hornklofa táknar að birgðafærslan er bókuð fjárhagslega í birgðir.
 - Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
@@ -96,7 +95,7 @@ Eftirfarandi færslur eru sýndar í myndrænt fyrir neðan:
 -   2a. Efnisleg innhreyfing birgða uppfærð í magnið 1 á kostnaðinum 12,00 USD hver.
 -   2b. Fjárhagsleg innhreyfing birgða uppfærða í magnið 1 á kostnaðinum 16,00 USD hver.
 -   3a. Efnisleg úthreyfing birgða uppfærð í magnið 1 á kostnaðinum 14,67 USD hver (meðalverð).
--   3b. Fjárhagsleg úthreyfing birgða uppfærð í magnið 1 á kostnaðinum 14,67 USD hver (meðalverð).
+-   3a. Fjárhagsleg úthreyfing birgða uppfærð í magnið 1 á kostnaðinum 14,67 USD hver (meðalverð).
 -   4a. Efnisleg innhreyfing birgða uppfærð í magnið 1 á kostnaðinum 14,00 USD hver.
 -   4b. Fjárhagsleg innhreyfing birgða uppfærða í magnið 1 á kostnaðinum 16,00 USD hver.
 -   5. Birgðalokun er framkvæmd.
@@ -111,7 +110,7 @@ Eftirfarandi skýringarmynd sýnir þessar raðir af færslum með áhrifunum af
 - Birgðafærslur eru táknaðar með lóðréttum örvum.
 - Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
 - Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
-- Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
+- Fyrir ofan (eða fyrir neðan) Hvert Lóðrétt ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
 - Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
 - Virði birgðafærslu án hornklofa táknar að birgðafærslan er bókuð fjárhagslega í birgðir.
 - Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
@@ -140,7 +139,7 @@ Eftirfarandi skýringarmynd sýnir þessar raðir af færslum með áhrifunum af
 - Birgðafærslur eru táknaðar með lóðréttum örvum.
 - Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
 - Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
-- Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
+- Fyrir ofan (eða fyrir neðan) Hvert Lóðrétt ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
 - Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
 - Virði birgðafærslu án hornklofa táknar að birgðafærslan er bókuð fjárhagslega í birgðir.
 - Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
@@ -173,7 +172,7 @@ Eftirfarandi skýringarmynd sýnir þessar raðir af færslum með áhrifunum af
 - Birgðafærslur eru táknaðar með lóðréttum örvum.
 - Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
 - Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
-- Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
+- Fyrir ofan (eða fyrir neðan) Hvert Lóðrétt ör er virði birgðafærslu tilgreint í sniðinu Quantity@Unitprice.
 - Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
 - Virði birgðafærslu án hornklofa táknar að birgðafærslan er bókuð fjárhagslega í birgðir.
 - Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
@@ -202,7 +201,7 @@ Eftirfarandi færslur birtast á myndinni hér fyrir neðan:
 -   1a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 10,00 USD á hverja.
 -   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 10,00 USD á hverja.
 -   2a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 20,00 USD á hverja.
--   2b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
+-   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
 -   3a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 25,00 USD á hverja.
 -   4a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 30,00 USD á hverja.
 -   4b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 30,00 USD á hverja.
@@ -221,14 +220,13 @@ Eftirfarandi skýringarmynd sýnir þessar raðir af færslum og áhrifum þess 
 - Birgðafærslur eru táknaðar með lóðréttum örvum.
 - Innhreyfing í birgðir er táknuð með lóðréttum örvum fyrir ofan tímaásinn.
 - Úthreyfing úr birgðum er táknuð með lóðréttum örvum fyrir neðan tímaásinn.
-- Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint á sniði Magns@"Unitprice".
+- Fyrir ofan (eða fyrir neðan) hverja lóðrétta ör er virði birgðafærslu tilgreint í sniðinu Quantity@"Unitprice".
 - Birgðafærslugildi innan sviga bendir til þess að birgðafærslan sé efnislega bókuð í birgðir.
 - Virði birgðafærslu án hornklofa táknar að birgðafærslan er bókuð fjárhagslega í birgðir.
 - Hver ný innhreyfingar eða úthreyfingarfærsla er merkt með nýju merki.
 - Hver lóðrétt ör er merkt með raðkenni, til dæmis *1a*. Kennið gefur bókunarröð birgðafærslna á tímaásnum til kynna.
 - Birgðalokanir eru birtar með rauðri lóðréttri strikalínu og merkinu Birgðalokun.
 - Jöfnun sem er gerð af birgðalokun er táknuð með brotinni línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
-
 
 
 

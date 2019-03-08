@@ -1,13 +1,13 @@
 ---
-title: "Yfirlit yfir flutningsstjórnun"
-description: "Í þessu Umfjöllunarefni er að finna yfirlit yfir Flutningar Stjórnun virkni í Microsoft Dynamics 365 for Finance and Operations."
+title: Yfirlit yfir flutningsstjórnun
+description: Í þessu Umfjöllunarefni er að finna yfirlit yfir Flutningar Stjórnun virkni í Microsoft Dynamics 365 for Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f4dc2c15d35d93d1563c866b20ad7f2bbb5c8457
-ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355611"
 ---
-
 # <a name="transportation-management-overview"></a>Yfirlit yfir flutningsstjórnun
 
 [!include [banner](../includes/banner.md)]
 
 Í þessu Umfjöllunarefni er að finna yfirlit yfir Flutningar Stjórnun virkni í Microsoft Dynamics 365 for Finance and Operations.
 
-Flutningsstjórnun leyfir þér að nota flutninga innan fyrirtækis þíns, og þekkja lausnir lánardrottna og leiðir fyrir pantanir á inn og útleið. Til dæmis er hægt að auðkenna hraðast leið eða ódýrast taxta fyrir sendingu. Eftirfarandi tafla lýsir helstu aðstæðum þar sem hægt er að nota flutningsstjórnun í Microsoft Dynamics 365 for Finance and Operations.
+Flutningsstjórnun leyfir þér að nota flutninga innan fyrirtækis þíns, og þekkja lausnir lánardrottna og leiðir fyrir pantanir á inn og útleið. Til dæmis er hægt að auðkenna hraðast leið eða ódýrast taxta fyrir sendingu. Eftirfarandi tafla lýsir helstu aðstæðum þar sem hægt er að nota flutningsstjórnun í Microsoft Dynamics 365 for Finance and Operations.
 
 <table>
 <colgroup>
@@ -51,17 +50,17 @@ Flutningsstjórnun leyfir þér að nota flutninga innan fyrirtækis þíns, og 
 <td>Nota flutningsstjórnun fyrir flutning á innleið og/eða útleið.</td>
 </tr>
 <tr class="even">
-<td>Eiginn floti fyrirtækis er tiltækur til að afhenda/sækja og afhendingargjöld eru sett á viðskiptavini.</td>
-<td>Fyrir ferli á útleið er hægt að nota Flutningsstjórnun til að ákvarða flutningsgjöld og senda þau á viðskiptavini. Hins vegar er afstemmingarferli fyrir reikning flutningsaðila ekki nauðsynlegt.</td>
+<td>Bílafloti fyrirtækisins &#39; er tiltækur til að afhenda/sækja og afhendingargjöld eru sett á viðskiptavini.</td>
+<td>Fyrir ferli á útleið er hægt að nota Flutningsstjórnun til að ákvarða flutningsgjöld og senda þau á viðskiptavini. Hins vegar er ferli afstemmingar reikninga flutningsaðila ekki áskilið.&#39;</td>
 </tr>
 <tr class="odd">
-<td>Eiginn floti fyrirtækis er tiltækur til að afhenda/sækja en afhendingargjöld eru ekki sett á viðskiptavini af því að flutningur er innifalinn í verði vöru.</td>
-<td>Margar aðgerðir í Flutningsstjórnun eru ekki nauðsynlegar. Hins vegar er hægt að nota flutningsstjórnun til að ákvarða flutningstaxta og leiðrétta söluverðið til samræmis við það.</td>
+<td>Bílafloti fyrirtækisins er tiltækur til að afhenda/sækja en afhendingargjöld eru ekki sett á viðskiptavini af því að flutningur er innifalinn í verði vöru.&#39;&#39;</td>
+<td>Margar aðgerðir í Flutningsstjórnun eru ekki nauðsynlegar.&#39; Hins vegar er hægt að nota flutningsstjórnun til að ákvarða flutningstaxta og leiðrétta söluverðið til samræmis við það.</td>
 </tr>
 <tr class="even">
 <td>Þjónusta tengd vöruferilsstjórnun er veitt af öðrum lögaðila í sama fyrirtæki.</td>
 <td><ul>
-<li>Nota má flutningsstjórnun með því að meðhöndla hinn lögaðilann sem hvern annan farmflytjanda. Ekki er hægt að gera efnahagslegar færslur sjálfvirkar á milli lögaðila. Þess vegna þarf að gera þessar færslur handvirkt (til dæmis með því að stofna innkaupapöntun).</li>
+<li>Nota má flutningsstjórnun með því að meðhöndla hinn lögaðilann sem hvern annan farmflytjanda. Ekki er hægt að gera sjálfvirkar efnahagslegar færslur á milli lögaðila.&#39; Þess vegna þarf að gera þessar færslur handvirkt (til dæmis með því að stofna innkaupapöntun).</li>
 <li>Lögaðila sem veitir þjónustu vörustjórnun, flutningsstjórnun má nota til að ákvarða flutningsstjórnunar taxta.</li>
 </ul></td>
 </tr>
@@ -85,7 +84,6 @@ Hægt er að áætla og vinna farm á útleið til að senda tilteknar vörur ú
 
 ## <a name="load-building"></a>Hleðsluáætlun
 Finance and Operations býður upp á hleðsluáætlun sem nefnist hleðsluáætlun byggð á rúmmáli. Þessi aðferð gerir kleift að nota hámarks gildi sem eru tilgreind fyrir hæð og þyngd í hleðslusniðmátinu eða hnekkja stillingum með því að færa inn ný gildi. Til að nota þessa aðferð skal velja hana í reitnum **Hleðsluáætlun** á flýtiflipanum **Uppsetning** í skjámyndinni **Hlaða sniðmáti hleðslu**. Þar að auki, er hægt að bæta við eigin hleðsluáætlun með því að stofna nýjan klasa í Hugbúnaðarhlutatrénu (AOT).
-
 
 
 

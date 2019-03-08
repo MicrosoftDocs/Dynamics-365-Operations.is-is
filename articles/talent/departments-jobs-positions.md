@@ -1,13 +1,13 @@
 ---
-title: "Skipuleggja vinnuafl með notkun deilda, starfa og staða"
-description: "Deildir, störf og stöður eru fyrirtækjaeiningar sem er viðhaldið innan Mannauðs. Þetta efnisatriði gefur upplýsingar um merkingu þessara hugtaka."
+title: Skipuleggja vinnuafl með notkun deilda, starfa og staða
+description: Deildir, störf og stöður eru fyrirtækjaeiningar sem er viðhaldið innan Mannauðs. Þetta efnisatriði gefur upplýsingar um merkingu þessara hugtaka.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit
 audience: Application User
 ms.reviewer: rschloma
@@ -18,19 +18,17 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 8b74542b85810409e062a42e323c0527711d562f
+ms.sourcegitcommit: 49a642cd5e0519e381ff558f59c993ee77f55108
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b2a79c42b67621272af8107661202ea2ce092193
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "374398"
 ---
-
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Skipuleggja vinnuafl með notkun deilda, starfa og staða
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 Deildir, störf og stöður eru fyrirtækjaeiningar sem er viðhaldið innan Mannauðs. Þetta efnisatriði gefur upplýsingar um merkingu þessara hugtaka. 
 
@@ -165,7 +163,6 @@ Fyrir sumar færslur er hægt að tilgreina framvirkar breytingar í færslu. Ef
 </table>
 
 Hægt er að breyta þeim upplýsingum sem nefnd eru í fyrri töflu fyrir starf eða stöðu og tilgreina dagsetningu þegar breytingar á stöðu eða vinnslu ætti að taka gildi. Til dæmis er aðeins hægt að úthluta stöðu á einn starfsmann en Sanjay Patel sem er úthlutað á stöðu Bókari-A, er að fara eftir tvær vikur. Joe Healy kemur í stað Sanjay Patel þegar hann fer. Jafnvel þótt Sanjay er enn úthlutað stöðu hans, geturðu tengja Joe Healy í sömu stöðu þannig að úthlutunin er gild aðeins eftir síðasta dag Sanjay .
-
 
 
 

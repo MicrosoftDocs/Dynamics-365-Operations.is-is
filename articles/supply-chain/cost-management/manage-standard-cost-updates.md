@@ -1,13 +1,13 @@
 ---
-title: "Stjórnun uppfærslu staðalkostnaðar"
-description: "Hægt er að stýra uppfærslum á staðalkostnaðargögnum með því að nota tvær mismunandi nálganir - einnar útgáfu nálgun og tveggja útgáfu nálgun."
+title: Stjórnun uppfærslu staðalkostnaðar
+description: Hægt er að stýra uppfærslum á staðalkostnaðargögnum með því að nota tvær mismunandi nálganir - einnar útgáfu nálgun og tveggja útgáfu nálgun.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8e72d4e90ac83787ed7c58d91c2102696acfac68
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b64d9e53736fd3b81ee997ed28ccfa62ed7e9ce6
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367548"
 ---
-
 # <a name="manage-standard-cost-updates"></a>Stjórnun uppfærslu staðalkostnaðar
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,6 @@ Eftirfarandi dæmi sýnir hvernig hægt er að nota einnar útgáfu og tveggja-�
 -   **Tveggja útgáfu nálgun á uppfærslur kostnaðargagna** − tveggja útgáfu nálgunin krefst viðbótar kostnaðarútgáfu sem inniheldur aðeins kostnaðaruppfærslur. kennimerki fyrir þessa útgáfu er 2016-STD-CHANGES Kostnaðaruppfærslur eru skráðar í 2016-STD-CHANGES og eru stillt á stöðuna "Í Bið." Í tveggja útgáfu nálguninni þarf uppskriftarútreikningur kostnaðar í bið fyrir framleiddar vörur varaútgáfu. Þetta er vegna þess að viðbótar kostnaðarútgáfu 2016-STD-CHANGES inniheldur aðeins hlutmengi kostnaðargagna. Hægt er að birta vararegluna sem virka kostnaðinn eða kostnaðarútgáfu 2016-STD vegna þess að bæði tilgreina uppruna kostnaðargagnanna þegar hann er ekki innifalinn í 2016-STD-CHANGES. Eftir að búið er að virkja biðstöðukostnaðinn inniheldur kostnaðarútgáfan 2016-STD-CHANGES núgildandi virka kostnaðinn sem endurspeglar uppfærslurnar á meðan upprunalega kostnaðarútgáfan 2016-STD helst óbreytt. Þegar tveggja útgáfu nálgunin er notuð ætti að setja upp lokunarreglur fyrir upprunalegu kostnaðarútgáfuna til koma í veg fyrir uppfærslur. Alveg eins lokunarreglur ætti að setja upp fyrir aukalegu kostnaðarútgáfuna, nema fyrir tilgreinda frá-dagsetningu og valfrjálsri notkun lokunarreglna til að gera uppfærslur leyfilegar. Uppfæra ætti dagsetninguna sem tilgreint er frá með hverri breytingarunu til að endurspegla áætlaða virkjunardagsetningu.
 
 Þetta dæmi notaði eina aukaútgáfu kostnaðarútgáfu við stjórnun uppfærslna í gegnum árið 2016. Fleiri en eina aukaútgáfu kostnaðarútgáfu er hægt að nota, eins og aðskilda útgáfu fyrir hverja uppfærslurunu. Þegar fleiri en ein viðbótar kostnaðarútreikningur er notað, verður varaútgáfan að vera sýnd sem virka kostnaðinn, af því virkan kostnað eru dreifast yfir margar kostnaðarútgáfur.
-
 
 
 

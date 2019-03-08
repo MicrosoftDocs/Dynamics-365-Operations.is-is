@@ -1,31 +1,30 @@
 ---
-title: "Fá skilavörur afhentar að hluta"
-description: "Hlutaafhendingar eru skilgreindar í skilapöntunarlínum, ekki vöruskilasendingum."
+title: Fá skilavörur afhentar að hluta
+description: Hlutaafhendingar eru skilgreindar í skilapöntunarlínum, ekki vöruskilasendingum.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e2b7bfad1e0d80675848353d4118960d44f2dc01
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f9f596d31f2438a353b02bf939786b284937db86
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363914"
 ---
-
 # <a name="receive-partial-deliveries-of-returned-items"></a>Fá skilavörur afhentar að hluta    
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ Ef vöruskilasending inniheldur minna en allt magnið í skilapöntunarlínu, er
 
 ## <a name="register-and-post-a-partial-quantity"></a>Skrá og bóka hluta af magni
 
-1.  Eftir að þú velur skilapöntun fyrir afhendingu í skjámyndinni **Komuyfirlit - Vöruhús: %1, dreifing: %2, Heiti færslubókar: %3** skal smella á **Upphafskoma** til að búa til komubók og smella síðan á **Færslubækur** \> **Sýna komur frá kvittunum** til að opna skjámyndina **Staðsetningarbók**.
+1.  Eftir að þú velur skilapöntun fyrir afhendingu í skjámyndinni **Komuyfirlit - Vöruhús: %1, dreifing: %2 Heiti færslubókar: %3** skal smella á **Upphafskoma** til að búa til komubók og smella síðan á **Færslubækur** \> **Sýna komur frá kvittunum** til að opna skjámyndina **Staðsetningarbók**.
 
 2.  Veldu línu færslubókarinnar sem þú vilt vinna með og smelltu svo á **Línur** til að opna skjámyndina **Færslubókarlínur, staðsetningar**.
 
@@ -48,7 +47,6 @@ Ef vöruskilasending inniheldur minna en allt magnið í skilapöntunarlínu, er
 4.  Sláðu inn magnið fyrir heildarfjölda varanna sem hafa borist í reitinn **Skipta magni** og smelltu síðan á **Í lagi**.
 
 5.  Í skjámyndinni **Færslubókarlínur, staðsetningar** skal velja línuna fyrir magnið af vörum sem hefur komið og smella síðan á **Bóka**. Þú getur bókað línuna fyrir viðbótarmagnið eftir að vörurnar hafa skilað sér.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Inn- og útflutningsvinnsla gagna"
-description: "Notaðu vinnusvæðið Gögnastjórnun til að búa til og stjórna Inn- og útflutningsvinnslu gagna."
+title: Inn- og útflutningsvinnsla gagna
+description: Notaðu vinnusvæðið Gögnastjórnun til að búa til og stjórna Inn- og útflutningsvinnslu gagna.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360211"
 ---
-
 # <a name="data-import-and-export-jobs"></a>Inn- og útflutningsvinnsla gagna
 
 [!include [banner](../includes/banner.md)]
 
-Til að búa til og stjórna inn- og útflutningsvinnslu gagna í Microsoft Dynamics 365 for Finance and Operations skal nota vinnusvæðið **Gagnastjórnun**. Sjálfgefið er að Inn- og útflutningsferli gagna skapi uppsetningartöflu fyrir hverja einingu í markgagnagrunninum. Millistigsvistunartöflu leyfir þér að staðfesta, hreinsa upp eða breyta gögnum áður en þú færir þau.
+Til að búa til og stjórna inn- og útflutningsvinnslu gagna í Microsoft Dynamics 365 for Finance and Operations skalatu nota **Gagnastjórnun** vinnusvæðið. Sjálfgefið er að Inn- og útflutningsferli gagna skapi uppsetningartöflu fyrir hverja einingu í markgagnagrunninum. Millistigsvistunartöflu leyfir þér að staðfesta, hreinsa upp eða breyta gögnum áður en þú færir þau.
 
 > [!NOTE]
 > Þetta efni gerir ráð fyrir að þú þekkir [gagnaeiningar](data-entities.md).
@@ -158,4 +157,3 @@ Eftir framkvæmdarupplýsingunum er einnig hægt að opna framkvæmdarkladda
 - **Gagnaverkefni**- Ef aðeins gagnaverkefni er valið eru allar skrár fyrir alla aðila og yfir öll störf fyrir valið gagnaverkefni eytt.
 
 Þú getur einnig sameinað valkostina til að takmarka enn frekar skráarsettið sem er eytt.
-

@@ -1,13 +1,13 @@
 ---
-title: "Forkröfur fyrir umreikning staðalkostnaðar"
-description: "Í þessu efnisatriði er fjallað um verk til að framkvæma áður en staðlaður kostnaðarumreikningur er keyrður."
+title: Forkröfur fyrir umreikning staðalkostnaðar
+description: Í þessu efnisatriði er fjallað um verk til að framkvæma áður en staðlaður kostnaðarumreikningur er keyrður.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 955191a32165a32c455d0dba7424a82eb2559399
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 65844bd78363dc6638b16b3fd4ca163a3fde6a23
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351931"
 ---
-
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Forkröfur fyrir umreikning staðalkostnaðar
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,6 @@ ms.lasthandoff: 11/03/2017
 
         Virk sundurliðun kostnaðar þýðir að ef þú virkjar kostnaðar framleiddrar vöru leiðir það til þess að sundurliðun kostnaðarflokks er geymd í kostnaðarfærslu vörunnar. Ef ekkert er valið fyrir svæðið **sundurliðun kostnaðar** þýðir það að sundurliðun kostnaðarflokka verði ekki viðhaldið fyrir staðlaðar kostnaðarvörur. Það er að segja að staðalkostnaður framleiddrar vöru verði reiknaður og honum viðhaldið sem einni upphæð innan sundurliðunar kostnaðarflokka og kostnaðarframlegð framleiddra íhluta verði steypt saman í þessa einu upphæð.
     -   Notið svæðið **frávik frá staðal** til að velja samanlagt eða fyrir hvern kostnaðarflokk. Valið Á hvern kostnaðarflokk gerir þér kleift að tilgreina frávik frá innkaupaverði og framleiðsluafbrigði eftir kostnaðarflokki. Þetta einnig þér einnig kleift að tilgreina fjórar gerðir framleiðslufrávika (lotukenni stærð, magn, verð og staðgöngufrávikin). Ef valið er samanlagt þýðir það að ekki verður hægt að tilgreina frávik eftir kostnaðarflokki og ekki verður hægt að tilgreina fjórar gerðir framleiðslufrávika. Aðeins verður hægt að skoða samantekið framleiðslufrávik. Reglan um frávik frá staðli virkar óháð reglunni um sundurliðun kostnaðar. Því er hægt að sleppa því að velja reglu fyrir sundurliðun kostnaðar og velja frávik fyrir hvern kostnaðarflokk til að framleiðslufrávik greinist áfram eftir kostnaðarflokki.
-
 
 
 

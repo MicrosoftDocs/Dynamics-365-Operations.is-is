@@ -1,13 +1,13 @@
 ---
-title: "Birgðastjórnun – heimasíða"
-description: "Þetta efnisatriði veitir yfirlit yfir birgðastjórnun."
+title: Birgðastjórnun – heimasíða
+description: Þetta efnisatriði veitir yfirlit yfir birgðastjórnun.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5376c6c18c2d7d48d3ee253e8818e0c868a52145
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 01b51b3442ca2a924cec2e894c3840c90989791c
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364926"
 ---
-
 # <a name="inventory-management"></a>Birgðir 
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,7 @@ Eftirfarandi kennslukort sýnir helstu hugtök og verkefni sem eru í ramma eini
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 ### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
-Á [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi.
+Á [Microsoft Dynamics 365-leiðarvísinum](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi.
 
 ### <a name="inventory-accounting"></a>Birgðabókhald 
 Frekari upplýsingar eru í [Birgðabókhald í Kostnaðarstjórnun](../cost-management/inventory-close.md).
@@ -59,6 +58,5 @@ Finna má skoðanir, fréttir og aðrar upplýsingar um birgðastjórnun og aðr
 
 ### <a name="task-guides"></a>Verkleiðbeiningar
 Frekari hjálp er í boði sem verkleiðbeiningar í Finance and Operations. Smellið á hnappinn **Hjálp** á hvaða síðu sem er til að fá aðgang að leiðbeiningum fyrir verkefni.
-
 
 

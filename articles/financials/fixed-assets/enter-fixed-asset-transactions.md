@@ -1,13 +1,13 @@
 ---
-title: "Eignafærslukostir"
-description: "Þessi grein lýsir mismunandi aðferðum sem eru tiltækar til að stofna eignafærslu."
+title: Eignafærslukostir
+description: Þetta efnisatriði lýsir mismunandi aðferðum sem eru tiltækar til að stofna eignafærslu.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/07/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, PurchCreateOrder
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6362a63bca43b5ac8da14becf6b966e459365ce1
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 18352ad921c2e2d110a7535f979272685105662f
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377183"
 ---
-
 # <a name="fixed-asset-transaction-options"></a>Eignafærslukostir
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir mismunandi aðferðum sem eru tiltækar til að stofna eignafærslu.
+Þetta efnisatriði lýsir mismunandi aðferðum sem eru tiltækar til að stofna eignafærslu.
 
 Þú getur sett upp eign fyrir sameiningu með viðskiptaskuldir, viðskiptakröfur, innkaup og uppruna og fjárhag. Einnig er hægt að flytja vörur í birgðastjórnun á eignir eigi að nota þær vörur innan kerfis.
 
@@ -63,12 +62,9 @@ Allar gerðir eignafærsla má bóka í  síðunni almenn færslubók. Einnig er
 |                                     | Fjárhagur           | Almenn færslubók                           |
 | Losun                            | Eignir             | Eignir                              |
 | ** **                               | Fjárhagur           | Almenn færslubók                           |
-| ** **                               | Viðskiptakröfur      | Textareikningur                         |
+| ** **                               | Viðskiptakröfur      | Reikningur með frjálsum texta                         |
 
 
+Eftirstöðvar eignar á afskriftartímabili eru ekki uppfærðar þegar færslubókarlína afskriftarfærslugerðar er búin til handvirkt eða flutt inn í gegnum gagnaeiningu. Þetta gildi er uppfært þegar ferli afskriftartillögu er notað til að búa til færslubókarlínu.
 
 Frekari upplýsingar eru í [Samþætting eigna](fixed-asset-integration.md).
-
-
-
-

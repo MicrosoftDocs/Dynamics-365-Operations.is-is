@@ -1,13 +1,13 @@
 ---
-title: "Fartækjavinnusvæði samstarfs lánardrottna"
-description: "Þetta efnisatriði veitir upplýsingar um lánardrottnasamvinnu á fartækjavinnusvæði. Þessi vinnusvæði gerir lánardrottnum kleift að fylgjast með innkaupapöntunum sem hafa verið sendar til þeirra til samþykktar. Þeir geta einnig skoðað upplýsingar um nýjar og uppfærðar innkaupapantanir og tengiliði."
+title: Fartækjavinnusvæði samstarfs lánardrottna
+description: Þetta efnisatriði veitir upplýsingar um lánardrottnasamvinnu á fartækjavinnusvæði. Þessi vinnusvæði gerir lánardrottnum kleift að fylgjast með innkaupapöntunum sem hafa verið sendar til þeirra til samþykktar. Þeir geta einnig skoðað upplýsingar um nýjar og uppfærðar innkaupapantanir og tengiliði.
 author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: df27ff3477443611278436a680d70ea81a21763e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 83fcf1d0432d5afa71d6f9d7d22cea5a583777bf
-ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358647"
 ---
-
 # <a name="vendor-collaboration-mobile-workspace"></a>Fartækjavinnusvæði samstarfs lánardrottna
 
 [!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um **lánardrottnasamvinnu** á fartækjavinnusvæði. Þessi vinnusvæði gerir lánardrottnum kleift að fylgjast með innkaupapöntunum sem hafa verið sendar til þeirra til samþykktar. Þeir geta einnig skoðað upplýsingar um nýjar og uppfærðar innkaupapantanir og tengiliði.
 
-Þetta fartækjavinnusvæði er ætlað til notkunar með fartækjaforritinu Microsoft Dynamics 365 for Unified Operations.
+Þetta fartækjavinnusvæði er ætlað til að nota með Microsoft Dynamics 365 fyrir farsímaforritið Unified Operations Mobile.
 
 ## <a name="overview"></a>Yfirlit 
 Fartækjavinnusvæðið **Samstarf lánardrottna** heldur lánardrottnum upplýstum um nýjar innkaupapantanir svo að hægt sé að skoða innkaupapantanir og síðan svara þeim í vefbiðlara Microsoft Dynamics 365 for Finance and Operations. 
@@ -57,14 +56,14 @@ Fartækjavinnusvæðið **Samvinna lánardrottna** gerir lánardrottni kleift a�
 -   Skoða persónuupplýsingar tengiliðar sem skráðar eru fyrir lykil lánardrottins. (Verkið krefst auka öryggishlutverks.)
 -   Skoða upplýsingar um notandabeiðni sem lánardrottinn sendi og fylgt stöðu beiðninnar. (Verkið krefst auka öryggishlutverks.)
 
-## <a name="prerequisites"></a>Frumskilyrði
-Forkröfur fyrir eru mismunandi, eftir þeirri útgáfu Microsoft Dynamics 365 sem hefur verið innleidd í fyrirtækinu.
+## <a name="prerequisites"></a>Forkröfur
+Skilyrðin eru mismunandi, háð útgáfu Microsoft Dynamics 365 sem hefur verið sett upp fyrir fyrirtækið þitt.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Forkröfur ef þú notar Microsoft Dynamics 365 for Finance and Operations 
-Ef Microsoft Dynamics 365 for Finance and Operations hefur verið innleitt í fyrirtækinu, verður kerfisstjórinn að birta fartækjavinnusvæðið **Samstarf lánardrottna**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Skilyrði ef þú notar Microsoft Dynamics 365 for Finance and Operations 
+Ef Microsoft Dynamics 365 for Finance and Operations hefur verið innleitt í fyrirtækinu verður kerfisstjóri að birta fartækjavinnusvæðið **Samstarf lánardrottna**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Forkröfur ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með svæðisuppfærslu 3 eða síðari útgáfu
-Ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með svæðisuppfærslu 3, eða síðari útgáfu, í fyrirtækinu, verður kerfisstjóri að uppfylla eftirfarandi forkröfur. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Skilyrði ef þú notar Microsoft Dynamics 365 for Operations útgáfu 1611 með verkvangsuppfærslu 3 eða nýrri
+Ef Microsoft Dynamics 365 for Operations útgáfa 1611 með verkvangsuppfærslu 3 eða síðar hefur verið sett upp fyrir fyrirtækið þitt, verður kerfisstjórinn að ljúka eftirfarandi skilyrðum. 
 
 <table>
 <thead>
@@ -76,11 +75,11 @@ Ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með s
 </thead>
 <tbody>
 <tr class="odd">
-<td>KB 3216943 verður að vera innleitt ef verkvangsuppfærsla 3 er notuð.</td>
+<td>KB 3216943 verður að vera innleitt ef verkvangsuppfærsla 3 er notuð.&#39;</td>
 <td>Kerfisstjóri</td>
-<td>KB 3216943 er tvíundaruppfærsla sem er nauðsynleg ef verkvangsuppfærsla 3 er notuð. Til að setja þetta KB upp verður kerfisstjóri að fylgja eftirfarandi skrefum.
+<td>KB 3216943 er tvíundaruppfærsla sem er nauðsynleg ef verkvangsuppfærsla 3 er notuð.&#39; Til að setja þetta KB upp verður kerfisstjóri að fylgja eftirfarandi skrefum.
 <ol>
-<li>Sækja KB 3216943 af Microsoft Dynamics Lifecycle Services (LCS).</li>
+<li>Sækja KB 3216943 frá Microsoft Dynamics Lifecycle Services (LCS).</li>
 <li>Setja upp tvíundakerfisuppfærslu, sem er afhent sem dreifanlegur pakki. Sjá upplýsingar um hvernig á að nota dreifanlega pakka <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Nota dreifanlegan pakka</a>.</li>
 </ol></td>
 </tr>
@@ -171,4 +170,3 @@ Allar breytingar sem gerðar voru í svari raðarlínu eru sýndar. Hins vegar e
 
 ### <a name="open-confirmed-orders"></a>Opna staðfestar pantanir
 Þegar innkaupapöntun er staðfest af viðskiptavini (það er að segja, stöðu innkaupapöntunar er breytt í stöðuna **Staðfest**) birtist hún í opinni staðfestri pöntun. Hún verður áfram á listanum þar til hún er skráð sem móttekin af viðskiptavini.
-

@@ -1,13 +1,13 @@
---- 
-title: "Stofna kanban-reglu til að koma í staðinn"
-description: "Þetta ferli leggur áherslu á kanban-regla er skipt út nýja kanban-reglu á tiltekinni dagsetningu."
+---
+title: Stofna kanban-reglu til að koma í staðinn
+description: Þetta ferli leggur áherslu á kanban-regla er skipt út nýja kanban-reglu á tiltekinni dagsetningu.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c8a9367d4796999857e473bcbe36a709d534f3b0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e5b27200a8d56192d473887f01076eced0f92e4c
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362281"
 ---
 # <a name="create-a-replacement-kanban-rule"></a>Stofna kanban-reglu til að koma í staðinn
 
@@ -55,5 +55,4 @@ ms.lasthandoff: 09/29/2017
 ## <a name="modify-maximum-quantity-for-the-replacement-kanban-rule"></a>Breyta hámarksmagn fyrir staðgengil kanban-reglu
 1. Setja hámarksmagn á "100".
     * Útvíkka flýtiflipann Magn til að sjá svæðið Hámarksmagn. Hámarksmagni breytt í 100 leyfir allt að 100 kanbans að vera vinna.    Þetta er síðasta skrefið í þessu verkefni.  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Úthlutunarreglur fjárhags"
-description: "Þessi grein gefur upplýsingar um úthlutunarreglur fjárhags. Hún lýsir hinum ýmsu þáttum þessara úthlutunarreglna og úthlutunaraðferðunum sem hægt er að nota fyrir þær."
+title: Úthlutunarreglur fjárhags
+description: Þessi grein gefur upplýsingar um úthlutunarreglur fjárhags. Hún lýsir hinum ýmsu þáttum þessara úthlutunarreglna og úthlutunaraðferðunum sem hægt er að nota fyrir þær.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerAllocation, LedgerAllocationBasisRule, LedgerAllocationRequest, LedgerAllocationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: abbeb1bb4481139dff902916362a479f94fb96e5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 63562cde3f2813fdcfc9df7ccbfc623aa2fbe9b1
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365731"
 ---
-
 # <a name="ledger-allocation-rules"></a>Úthlutunarreglur fjárhags
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Hver úthlutunarregla hefur fjóra meginþætti: almennt, uppruna, áfangastað 
 -   **Viðtökustaður** – Þessi íhlutur skilgreinir hvernig dreifa skal og gera grein fyrir niðurstöðu úthlutunarútreiknings. Til dæmis getur verið ein lína áfangastaðar fyrir hverja deild.
 -   **Mótlykill** – Þessi íhlutur skilgreinir hvernig ákvarða skal aðallykla og víddir fyrir mótfærslurnar sem jafna færslur á áfangastað. Þessar færslur eru yfirleitt notaðar í stað lykla og vídda sem eru byggðar á grunni uppruna. Þegar **Gagnagjafi** er stilltur á **Fast gildi**, er ekki hægt að nota **Uppruna** sem valkost.
 -   **Grunnreglur fjárhagsúthlutunar** – Þessar reglur nota eigin skilyrði upprunasíu til að ákvarða hvaða fjárhagsstöður á að nota fyrir úthlutun (til dæmis tekjur á deild). Hægt er að nota grunnreglu úthlutunar með mörgum úthlutunarreglum.
-
 
 
 

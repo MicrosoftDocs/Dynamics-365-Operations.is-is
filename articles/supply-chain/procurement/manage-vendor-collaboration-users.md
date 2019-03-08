@@ -1,13 +1,13 @@
 ---
-title: "Stjórna notendum fyrir samstarf lánardrottna"
-description: "Þetta efnisatriði lýsir því hvernig má biðja um ráðstafanir fyrir nýja notendur samstarf lánardrottna og hvernig má bæta við nýjum tengiliðum samstarfs lánardrottna."
+title: Stjórna notendum fyrir samstarf lánardrottna
+description: Þetta efnisatriði lýsir því hvernig má biðja um ráðstafanir fyrir nýja notendur samstarf lánardrottna og hvernig má bæta við nýjum tengiliðum samstarfs lánardrottna.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 520dcaa1eec3c0fb8aa72fc7f75a56622069881f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 80374d6dce8aa5d5f2e5afc0656b42236ac974ec
-ms.openlocfilehash: 036e8079bd976087514a074529dd4593c5a2b0a5
-ms.contentlocale: is-is
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356692"
 ---
-
 # <a name="manage-vendor-collaboration-users"></a>Stjórna notendum fyrir samstarf lánardrottna
 
 [!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig má biðja um ráðstafanir fyrir nýja notendur samstarf lánardrottna og hvernig má bæta við nýjum tengiliðum samstarfs lánardrottna. 
 
-Viðmót fyrir samstarf lánardrottna í Microsoft Dynamics 365 for Finance and Operations sýnir upplýsingar um innkaupapantanir, reikninga og vörusendingabirgðir til ytri lánardrottna. Hægt er að stofna nýjan tengiliði fyrir samstarf lánardrottna og biðja um að nýjum notendum er úthlutað ef verið er að vinna sem ytri lánardrottni öryggishlutverk **Lánardrottinn sem er stjórnandi (ytri)** eða svipuð heimildir. Einnig er hægt að framkvæma þessi verk ef verið er að vinna sem innkaupasérfræðingur. Í þessu á hlutverkið við innkaupasérfræðing sem vinnur innan fyrirtækis sem á tilvik Dynamics 365 for Finance and Operations. Frekari upplýsingar um hvernig á að nota samstarf lánardrottna ef þú ert ytri lánardrottni sjá [Lánardrottna með viðskiptavini](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+Viðmót fyrir samstarf lánardrottna í Microsoft Dynamics 365 for Finance and Operations sýnir upplýsingar um innkaupapantanir, reikninga og vörusendingabirgðir til ytri lánardrottnum. Hægt er að stofna nýjan tengiliði fyrir samstarf lánardrottna og biðja um að nýjum notendum er úthlutað ef verið er að vinna sem ytri lánardrottni öryggishlutverk **Lánardrottinn sem er stjórnandi (ytri)** eða svipuð heimildir. Einnig er hægt að framkvæma þessi verk ef verið er að vinna sem innkaupasérfræðingur. Í þessu á hlutverkið við innkaupasérfræðing sem vinnur innan fyrirtækis sem á tilvik Dynamics 365 for Finance and Operations. Frekari upplýsingar um hvernig á að nota samstarf lánardrottna ef þú ert ytri lánardrottni sjá [Lánardrottna með viðskiptavini](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Frekari upplýsingar um hvernig á að nota samstarf lánardrottna ef þú ert innkaupasérfræðingur sjá [samstarf lánardrottna við ytri lánardrottnum](vendor-collaboration-work-external-vendors.md).
 
@@ -61,12 +60,12 @@ Hægt að setja fram notendabeiðnir samstarf lánardrottna af innkaupasérfræ�
 Áður en þú getur beðið um að gera ráðstafanir fyrir notanda, verður sá einstaklingur að vera settur upp sem tengiliður fyrir einn eða fleiri lánardrottnalykla. Stofna beiðni fyrir nýjan notanda samstarfs lánardrottna:
 
 1. Á **Alla tengiliði** síðunni er smellt á **Gera ráðstöfun fyrir lánardrottinn**.
-2. Slá inn netfang fyrir notanda Þetta netfang verður notað af notandanum til að skrá sig inn í Finance and Operations. Ef tölvupóstfang tilheyrir léni sem er skráður sem leigjanda með Microsoft Azure, þá verður tölvupóstfang að vera fyrirliggjandi Azure Active Directory (AAD) lykill fyrir ráðstöfunarferlið til að takist að ljúka. Ef tölvupóstfang tilheyrir ekki lén skráð með Microsoft Azure ADD lykill verður stofnuð ADD lykill sem hluti af ráðstöfunarferlinu og nýr notandi fær boð í pósti. Ekki er hægt að nota netföng neytenda með lénum á borð við @hotmail.com, @gmail.com, eða @comcast.net til að skrá notanda Finance and Operations.
+2. Slá inn netfang fyrir notanda Þetta netfang verður notað af notandanum til að skrá sig inn í Finance and Operations. Ef tölvupóstfang tilheyrir léni sem er skráður sem leigjanda með Microsoft Azure, þá verður tölvupóstfang að vera fyrirliggjandi Azure Active Directory (ADD) lykill fyrir ráðstöfunarferlið til að takist að ljúka. Ef tölvupóstfang tilheyrir ekki lén skráð með Microsoft Azure verður stofnuð ADD lykill sem hluti af ráðstöfunarferlinu og nýr notandi fær boð í pósti. Netföng notenda með lénum á borð við @hotmail.com, @gmail.com, or @comcast.net er ekki hægt að nota til að skrá notanda Finance and Operations.
 3. Stilla valkostinn **aðgang leyfð að samstarf lánardrottna** að **Já** fyrir alla lögaðila sem notandi þarf aðgang að.
 4. Í **Úthluta notendahlutverk** hlutanum skal velja **Úthluta** gátreitinn fyrir öryggishlutverk sem nýji notandinn ætti að hafa.
 5. Smelltu á **Senda**.
 
-Þegar notandabeiðni lánardrottins er send inn, er reiturinn **aðgangur leyfður fyrir samstarf lánardrottna** stillt á **Já** fyrir valinn lánardrottnalykil og verkflæði notandabeiðni byrjar. Sem hluti af verkflæði er nýr notandi stofnaður í Finance and Operations og öryggishlutverkum úthlutað. Auk þess er Azure B2B þjónusta virkjuð sem hefur samskipti við Azure-gátt og tengir nýjan eða núverandi AAD-reikning við notandareikning Finance and Operations. Nánari upplýsingar er að finna í [Hvað er Azure AD samstarf á milli fyrirtækja](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Þegar notandabeiðni lánardrottins er send inn, er reiturinn **aðgangur leyfður fyrir samstarf lánardrottna** stillt á **Já** fyrir valinn lánardrottnalykil og verkflæði notandabeiðni byrjar. Sem hluti af verkflæði er nýr notandi stofnaður í Finance and Operations og öryggishlutverkum úthlutað. Auk þess er Azure B2B þjónusta virkjuð sem hefur samskipti við Azure-gátt og tengir nýjan eða núverandi AAD-reikning við notandareikning Finance and Operations. Nánari upplýsingar er að finna í [Hvað er Azure AD samstarf á milli fyrirtækja?](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Gera notanda óvirkan
 
@@ -91,7 +90,6 @@ Til að biðja um að öryggishlutverkin er breytt fyrir notanda:
 2.  Skrifa athugasemd við **réttlæting viðskipta** svæði.
 3.  Í Hlutinn **Viðhalda notendahlutverk** , veldu öryggishlutverk sem þú vilt úthluta, eða hreinsa þær sem þú vilt fjarlægja.
 4.  Smella á **Senda**.
-
 
 
 

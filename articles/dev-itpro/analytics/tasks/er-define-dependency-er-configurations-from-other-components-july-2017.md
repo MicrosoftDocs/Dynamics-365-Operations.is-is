@@ -1,13 +1,13 @@
---- 
-title: "Skilgreina hversu mikil áhrif ER grunnstillingar hafa á aðra hluta"
-description: "Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar, Rafræn skýrslugerð Stýring grunnstillinga vörpunar líkans, og hafa aðgang að Microsoft Dynamics Lifecycle Services (LCS)."
+---
+title: Skilgreina hversu mikil áhrif ER grunnstillingar hafa á aðra hluta
+description: Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar, Rafræn skýrslugerð Stýring grunnstillinga vörpunar líkans, og hafa aðgang að Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 18eb8de7c851e5477d93a00f744fe56929c43ca2
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365087"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Skilgreina hversu mikil áhrif ER grunnstillingar hafa á aðra hluta
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 08/09/2018
 
 Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar, Rafræn skýrslugerð Stýring grunnstillinga vörpunar líkans, og hafa aðgang að Microsoft Dynamics Lifecycle Services (LCS).
 
-Þetta ferli sýnir hvernig skal hanna grunnstillingar fyrir Rafræna skýrslugerð og tilgreina fylgni við aðra hugbúnaðarhluta svo þú getir hjálpað til við að tryggja að grunnstillingu sé rétt hlaðið niður á sérstaka útgáfu af Microsoft Dynamics 365 for Finance and Operations. Í þessu dæmi muntu stofna nauðsynlega grunnstillingar Rafræn skýrslugerð fyrir sýnifyrirtækið, Litware, Inc. 
+Þetta ferli sýnir hvernig skal hanna grunnstillingar fyrir Rafræna skýrslugerð og tilgreina fylgni við aðra hugbúnaðarhluta, svo þú getir hjálpað til við að tryggja að grunnstillingu sé rétt hlaðið niður á sérstaka útgáfu af Microsoft Dynamics 365 for Finance and Operations. Í þessu dæmi muntu stofna nauðsynlega grunnstillingar Rafræn skýrslugerð fyrir sýnifyrirtækið, Litware, Inc. 
 
 Þetta ferli er hugsað fyrir þá notendur sem hefur verið úthlutað hlutverkum Kerfisstjóra eða Þróunaraðila rafrænnar skýrslugerðar. Þessi skref er hægt að framkvæma í hvaða fyrirtæki er, þar sem grunnstillingar rafrænnar skýrslugerðar eru samnýttar á milli fyrirtækja. 
 
@@ -62,7 +62,7 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verkefn
 18. Velja Microsoft Dynamics AX 7.0 RTW.
 19. Í reitinn Útgáfa skal slá inn „[7.0.1265.3015,7.1)“.
     * [7.0.1265.3015,7.1)  
-    * Fylgni verður metin þegar grunnstillingu er hlaðið niður frá einhverri Rafræn skýrslugerð geymslu. Þessi útgáfa grunnstillingu verður halað niður frá Rafræn skýrslugerð geymslu þegar útgáfa 1 af „Sýnigagnalíkani“ grunnstillingu er annað hvort þegar til staðar eða fyrirfram hlaðið niður. Ef henni er fyrirfram hlaðið niður, verður að ljúka því í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition útgáfu 7.0.1265.3015 eða síðar, en má ekki fara fram úr útgáfu 1.   
+    * Fylgni verður metin þegar grunnstillingu er hlaðið niður frá einhverri Rafræn skýrslugerð geymslu. Þessi útgáfa grunnstillingu verður halað niður frá Rafræn skýrslugerð geymslu þegar útgáfa 1 af „Sýnigagnalíkani“ grunnstillingu er annað hvort þegar til staðar eða fyrirfram hlaðið niður. Ef henni er fyrirfram hlaðið niður, verður að ljúka því í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, útgáfu 7.0.1265.3015 eða síðar, en má ekki fara fram úr útgáfu 1.   
 20. Smellið á „Vista“.
 21. Lokið síðunni.
 22. Smellið á „Breyta stöðu“.
@@ -140,5 +140,4 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verkefn
 26. Stækkið „Sýnigagnalíkan“, í trénu.
     * Athugið að grunnstillingum líkans „Sýnivörpun“ vörpun hefur verið hlaðið niður með völdum grunnstillingum gagnalíkans. Þessum tveimur skrám er hlaðið saman niður vegna þess að „Sýnivörpun“ hefur verið skilgreind sem framkvæmd valins gagnalíkans, og vegna þess að þær eru nothæfar í Finance and Operations. Grunnstillingu „Sýnivörpun (valmöguleiki)“ hefur ekki verið hlaðið niður vegna þess að skilyrði fyrir útgáfu forritsins sem er krafist eru ekki uppfyllt.   
     * Ef þú skráir þig inn í Dynamics 365 for Finance and Operations, Enterprise edition, skráir sömu veitu, færð aðgang að sama LCS verkinu, og hleður niður sömu grunnstillingum fyrir gagnalíkan, mun „Sýnivörpun (valmöguleiki)“ grunnstillingar hlaðast niður, en „Sýnivörpun“ grunnstillingar verður sleppt.  
-
 

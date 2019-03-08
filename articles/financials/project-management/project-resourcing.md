@@ -1,13 +1,13 @@
 ---
-title: "Tilföng verks"
-description: "Þessi efnisatriði gefur upplýsingar um tilföng verka."
+title: Tilföng verks
+description: Þessi efnisatriði gefur upplýsingar um tilföng verka.
 author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 34f80d283bb710d7db3137a439dbe8dc67d22682
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2d31a5dfd16a4404e19c6c9693dacecff6f2f064
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351655"
 ---
-
 # <a name="project-resourcing"></a>Tilföng verks
 
 [!include [banner](../includes/banner.md)]
 
 Þessi efnisatriði gefur upplýsingar um tilföng verka.
 
-Ein áskorun fyrir verkefnastjóra og forðastjóra meðan á áætlunargerð stendur er forðaúthlutun, þar sem þeir þurfa að ákvarða og taka frá rétt tilföng til vinnu á verk. Í Microsoft Dynamics 365 for Finance and Operations gerir tilfangageta verkefna kleift að skilgreina hlutverk sem eru meðhöndluð sem tímabundin tilföng sem hægt er að taka frá fyrir sérstaka úttekt eða sem hluta af úttekt. Þessi tegund tilfanga gerir verkefnisstjórum og stjórnendum tilfanga kleift að ljúka eftirfarandi verkum:
+Ein áskorun fyrir verkefnastjóra og forðastjóra meðan á áætlunargerð stendur er forðaúthlutun, þar sem þeir þurfa að ákvarða og taka frá rétt tilföng til vinnu á verk. Í Microsoft Dynamics 365 for Finance and Operations gerir tilfangageta verkefna kleift að skilgreina hlutverk sem eru meðhöndluð sem tímabundin tilföng sem hægt er að taka frá fyrir sérstaka úttekt eða sem hluta af úttekt. Þessi tegund tilfanga gerir verkefnisstjórum og stjórnendum tilfanga kleift að ljúka eftirfarandi verkum:
 
 - Skilgreina hlutverk sem hefur nauðsynlega hæfni til að gera auðvelt að samsvara tilföng.
 - Nota hlutverk til að skilgreina upphaflega úttekt sem er byggð á fráteknum tilföngum.
@@ -351,4 +350,3 @@ Eftir að fyrri verkefnum hefur verið lokið er hægt að ljúka eftirfarandi v
 ## <a name="monitor-project-teams"></a>Fylgjast með verkhópum
 1. Á síðunni **Öll verk** skal velja **Verkkenni** tengilinn fyrir verkið **XYZ uppfærsla þrep 2** project.
 2. Á flýtiflipanum **Verkhópur og áætlun** sakl ganga úr skugga um að tilföng verks sem eru talin upp séu rétt.
-

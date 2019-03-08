@@ -1,13 +1,13 @@
 ---
-title: "Fjölpantanir viðskiptavinar"
-description: "Fjölpöntun viðskiptavinar er stök pöntun, sem inniheldur vörur sem viðskiptavinur getur haft með sér úr verslun, sem og vörur sem verða sóttar eða sendar síðar."
+title: Fjölpantanir viðskiptavinar
+description: Fjölpöntun viðskiptavinar er stök pöntun, sem inniheldur vörur sem viðskiptavinur getur haft með sér úr verslun, sem og vörur sem verða sóttar eða sendar síðar.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -18,21 +18,20 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: a00e69a589ffe744f88edb6a8b3709c4029fc1ec
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 88d12641fa05953f7082158303237b7ba40c3fe2
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364328"
 ---
-
 # <a name="hybrid-customer-orders"></a>Fjölpantanir viðskiptavinar
 
 [!include [banner](includes/banner.md)]
 
 Fjölpöntun viðskiptavinar er stök pöntun, sem inniheldur vörur sem viðskiptavinur getur haft með sér úr verslun, sem og vörur sem verða sóttar eða sendar síðar.
 
-Í Microsoft Dynamics 365 for Retail geturðu annað vort valið að fara út með allar vörur eða fara út með valdar vörur fyrir pöntun viðskiptavinar. Vörulínur sem eru merktar sem fara með út eru reikningsfærðar sjálfkrafa eftir að pöntun er stofnuð, það sama er gert fyrir pöntun sem á að sækja eftir að pöntun er stofnuð. Upphæð til greiðslu fyrir fjölpöntun er ákvörðuð með því að bæta prósentu innborgunar á sækja og senda vörulínum við heildarupphæð lína sem á að fara með út. Fyrir fjölpantanir skiptir kerfið á milli stillingar fyrir pöntun viðskiptavinar og stillingar fyrir staðgreitt fyrir afhendingu sem hér segir:
+Í Microsoft Dynamics 365 for Retail, geturðu annað hvort valið að fara út með allar vörur eða fara út með valdar vörur fyrir pöntun viðskiptavinar. Vörulínur sem eru merktar sem fara með út eru reikningsfærðar sjálfkrafa eftir að pöntun er stofnuð, það sama er gert fyrir pöntun sem á að sækja eftir að pöntun er stofnuð. Upphæð til greiðslu fyrir fjölpöntun er ákvörðuð með því að bæta prósentu innborgunar á sækja og senda vörulínum við heildarupphæð lína sem á að fara með út. Fyrir fjölpantanir skiptir kerfið á milli stillingar fyrir pöntun viðskiptavinar og stillingar fyrir staðgreitt fyrir afhendingu sem hér segir:
 
 - Ef allar vörur í körfu eru stilltar á **Framkvæma afhending**, verður pöntun afgreidd sem Staðgreitt við afhendingu.
 - Ef allar vörur í karfa eru stilltar á annað hvort **Taka til** eða **senda afhendingu**,, verður pöntun afgreidd sem færsla á pöntun viðskiptavinar.
@@ -42,4 +41,3 @@ Ef körfulína er valin og **Taka til er valið**, **Senda er valið**, eða **F
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit pantana viðskiptavina](customer-orders-overview.md)
-

@@ -1,13 +1,13 @@
---- 
-title: "Skilgreina greiðsluskilmála lánardrottna"
-description: "Setja upp greiðsluskilmála fyrir reikninga lánardrottins."
+---
+title: Skilgreina greiðsluskilmála lánardrottna
+description: Setja upp greiðsluskilmála fyrir reikninga lánardrottins.
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PaymTerm, CashDisc
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 68c69d5be5ccbdfb17fea7c61121cbf26fee48d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a00ca73b1bc301960132a86846749d12c39ed3f7
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358555"
 ---
 # <a name="define-vendor-payment-terms"></a>Skilgreina greiðsluskilmála lánardrottna
 
@@ -51,5 +51,4 @@ Setja upp greiðsluskilmála fyrir reikninga lánardrottins. Þetta verkefni not
 17. Færið inn aðallykils sem verður að bóka staðgreiðsluafslátt fyrir reikninga lánardrottins.
     * Ef 'Afsláttar mótlykils' er stillt til að Nota aðallykill fyrir afslátt lánardrottins, þá verður aðallykils notaður.  Ef valkosturinn er stillt á Lyklana á reikningslínum, verður staðgreiðsluafslátturinn bókaður á eignar/kostnaðarlykla í línum á reikningi.  
 18. Smellið á „Vista“.
-
 

@@ -1,14 +1,14 @@
 ---
-title: "Bæta við tengslagerðum staðsetningar og aðila"
-description: "Þetta efnisatriði útskýrir hvernig á að bæta við nýjum tengslagerðum fyrir staðsetningar og aðila."
+title: Bæta við tengslagerðum staðsetningar og aðila
+description: Þetta efnisatriði útskýrir hvernig á að bæta við nýjum tengslagerðum fyrir staðsetningar og aðila.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 543784e8072f88c10f63e1b44921b9f2d37308c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e0ab9c9894fdd5fba224c166941abbf52172ae46
-ms.openlocfilehash: 27819c922832a30eb0b20db6bffdbd4504e6d5e6
-ms.contentlocale: is-is
-ms.lasthandoff: 06/12/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357497"
 ---
-
 # <a name="add-location-roles-and-party-relationship-types"></a>Bæta við staðsetningarhlutverkum og aðilatengslagerðum 
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ ms.lasthandoff: 06/12/2018
 
         ![Gagnafylling](media/Dirdata.PNG)
 
-    4.  Til að prófa að fylla nýja staðsetningarhlutverkið geturðu búið til keyranlegan klasa og kallað í DirDataPopulation::insertLogisticsLocationRoles() í Main(). Eftir að þessu ferli er lokið ættir þú að sjá nýja hlutverkið sem er fyllt út í töflunni **LogisticsLocationRole** með gerðinni \> 0. Nýja hlutverkið mun birtast á síðunni **Málefni aðseturs- og tengslaupplýsinga**.
+    4.  Til að prófa að fylla nýja staðsetningarhlutverkið geturðu búið til keyranlegan klasa og kallað í DirDataPopulation::insertLogisticsLocationRoles() in Main(). Eftir að þessu ferli er lokið ættir þú að sjá nýja hlutverkið sem er fyllt út í töflunni **LogisticsLocationRole** með gerðinni \> 0. Nýja hlutverkið mun birtast á síðunni **Málefni aðseturs- og tengslaupplýsinga**.
 
         ![Setja inn nýja staðsetningu](media/InsertNewLocation.PNG)
 
@@ -72,7 +71,6 @@ ms.lasthandoff: 06/12/2018
     
     ![DirRelationshipChild](media/DirRelationship.PNG)
 
-    3.  Til að prófa að fylla nýju tengslagerðina er hægt að stofna keyranlegan klasa og kalla í DirDataPopulation::insertDirRelationshipTypes() í Main(). Þú ættir að sjá nýju tengslagerðina í **DirRelationshipTypeTable** og nýja tengslagerðin verður aðgengileg á síðunni **Tengslagerðir**.
+    3.  Til að prófa að fylla nýju tengslagerðina er hægt að stofna keyranlegan klasa og kalla í DirDataPopulation::insertDirRelationshipTypes() in Main(). Þú ættir að sjá nýju tengslagerðina í **DirRelationshipTypeTable** og nýja tengslagerðin verður aðgengileg á síðunni **Tengslagerðir**.
 
         ![Keyranlegur klasi](media/Runnable.PNG)
-

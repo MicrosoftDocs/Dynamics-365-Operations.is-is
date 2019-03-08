@@ -1,13 +1,13 @@
 ---
-title: "Bókunarlyklar eignaafskráningar"
-description: "Þetta efnisatriði útskýrir hvernig á að setja upp almenna bókunarreikninga til að losna við eignir."
+title: Bókunarlyklar eignaafskráningar
+description: Þetta efnisatriði útskýrir hvernig á að setja upp almenna bókunarreikninga til að losna við eignir.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a8e00c00b0cb7058858fde3774941911ce20fb6f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bfed7657649f938c3d436468891d40d4194b555d
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367180"
 ---
-
 # <a name="fixed-asset-disposal-posting-accounts"></a>Bókunarlyklar eignaafskráningar
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,6 @@ Fyrir báðar færslugerðirnar fjárhagslykil tekjufærður losunarvirði eigna
 Smelltu á Afskráning og smelltu síðan á Sala eða Rýrnun og settu síðan upp sundurliðaða lykla til að bakfæra bókað nettóvirði af eign. Einnig er hægt að færa upplýsingar inn á svæðinu Bókunargildi og Sölugildi á síðunni Losunarfæribreytur. 
 
 Losunarfærslan fyrir eign í lágvirðishópi minnkar bókað nettóvirði lágvirðishópsins einungis eftir losun upphæðar. Hins vegar verður bókað nettóvirði eignar minnkað í núll þegar sala vöru er hærri en bókað nettógildi lágvirðishóps.
-
 
 
 

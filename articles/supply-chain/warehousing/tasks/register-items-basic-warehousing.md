@@ -1,13 +1,13 @@
---- 
-title: "Skrá vörur fyrir virkjaðar vöru grunnvöruhúss með vörukomubók"
-description: "Þessi verklýsing sýnir hvernig á að skrá vörur með því að nota vörukomubókina þegar verið er að nota \"grunnur vöruhús\" í kerfinu birgðastjórnun."
+---
+title: Skrá vörur fyrir virkjaðar vöru grunnvöruhúss með vörukomubók
+description: Þessi verklýsing sýnir hvernig á að skrá vörur með því að nota vörukomubókina þegar verið er að nota "grunnur vöruhús" í kerfinu birgðastjórnun.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, WMSJournalTable, WMSJournalCreate, PurchEditLines
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 5c53a38eb6afdf8d3cc1a316c8da5e84549ab60d
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361430"
 ---
 # <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-an-item-arrival-journal"></a>Skrá vörur fyrir virkjaðar vöru grunnvöruhúss með vörukomubók
 
@@ -57,5 +57,4 @@ ms.lasthandoff: 10/16/2018
 1. Smellið á Aðgerðir.
 2. Smellið á „Innhreyfingarskjal“.
 3. Smellið á „Í lagi“.
-
 

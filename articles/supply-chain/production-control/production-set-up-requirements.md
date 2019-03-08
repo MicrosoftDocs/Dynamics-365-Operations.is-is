@@ -1,13 +1,13 @@
 ---
-title: "Uppsetningarkröfur framleiðslu"
-description: "Þessi grein veitir upplýsingar um uppsetningarskilyrðu áður en hægt er að vinna með framleiðslustýringu."
+title: Uppsetningarkröfur framleiðslu
+description: Þessi grein veitir upplýsingar um uppsetningarskilyrðu áður en hægt er að vinna með framleiðslustýringu.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParameters, RouteOpr, RouteOprTable, WorkCalendarTable, WorkTimeTable, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b811c11271097f4bb7910c34f7775955abba526d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 47fe11168ad2ddea2a7033eda8d8bd8220efea32
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366628"
 ---
-
 # <a name="production-setup-requirements"></a>Uppsetningarkröfur framleiðslu
 
 [!include [banner](../includes/banner.md)]
@@ -78,7 +77,6 @@ Ef unnið er með leiðir þarf að skilgreina aðgerðir fyrir hverja framleið
 1.  **Framleiðsluflokkar** - Setja upp framleiðsluflokka til koma á tengslum milli framleiðslupöntunar og fjárhagslykla. Pantanir verða bókaðar í fjárhagslyklana eða flokkaðar í þá við skýrslugerð.
 2.  **Framleiðsluhópar** - Stofna framleiðsluhópa til að flokka framleiðslupantanir fyrir vinnslu mikilvægra pantana eða til að eyða og bóka flokka pantana.
 3.  **Eiginleikar** -Skilgreina eiginleika til að stofna sérstakar eigindir sem hægt er að tengja við tilföng til að stýra röð framleiðslna. Eigindirnar eru tengdar vinnutímasniðmátinu.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Algengar spurningar um afbrigðalíkan afurðar"
-description: "Þetta efnisatriði lýsir útreikningum fyrir afbrigðalíkönum afurðar og útskýrir hvernig á að nota útreikninga með skorðum."
+title: Algengar spurningar um afbrigðalíkan afurðar
+description: Þetta efnisatriði lýsir útreikningum fyrir afbrigðalíkönum afurðar og útskýrir hvernig á að nota útreikninga með skorðum.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCConstraintEditor, PCProductConfigurationModelDetails, PCRuntimeConfigurator
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 00e1956950154051d4a916a013c2200029772e37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: daae96502f705f05076cb351aa1baefc37957803
-ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363385"
 ---
-
 # <a name="calculations-for-product-configuration-models-faq"></a>Algengar spurningar um afbrigðalíkan afurðar
 
 [!include [banner](../includes/banner.md)]
@@ -102,7 +101,6 @@ Ef fjarlægt er innsett gildi í útreikningi, er gildi markmiðseigindin einnig
 
 1.  Smellið á **Upplýsingastjórnun afurða** &gt; **Almennt** &gt; **Afbrigðalíkan afurðar**.
 2.  Veldu afbrigðalíkan afurðar og smellið síðan á Aðgerðasvæðinu skal í **keyrslu** flokkur skal smella á **prófun**.
-
 
 
 

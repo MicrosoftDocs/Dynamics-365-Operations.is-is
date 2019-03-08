@@ -1,13 +1,13 @@
 ---
 title: Yfirlit yfir SEPA beint debet
-description: "Í Einni Evru Greiðslur Svæði (SEPA) er sett upp með Evrópska Þóknun og ákvarðar hverng sem teljast rafrænar greiðslur innanlands, land/svæði þar sem einstaka viðskiptum eða fyrirtækisins og bankans er staðsettur. Það er enginn mismunur innanlandsgreiðslur og landamæri greiðslur. SEPA inniheldur 28 aðildarríki Evrópusambandsins (ESB) sem og Íslands, Liechtenstein, Noregs, Sviss, Mónakó og San Marínó. SEPA sem hjálpar til við ákvarða einn fyrir greiðslufærslur innan á Evrópska Efnahagslegt Svæði (EEA) skjámynd. Að lokum, í SEPA er búist við að draga úr fjölda greiðslusniða sem bankar, fyrirtæki og einstaklingar þurfa að vinna með."
+description: Í Einni Evru Greiðslur Svæði (SEPA) er sett upp með Evrópska Þóknun og ákvarðar hverng sem teljast rafrænar greiðslur innanlands, land/svæði þar sem einstaka viðskiptum eða fyrirtækisins og bankans er staðsettur. Það er enginn mismunur innanlandsgreiðslur og landamæri greiðslur. SEPA inniheldur 28 aðildarríki Evrópusambandsins (ESB) sem og Íslands, Liechtenstein, Noregs, Sviss, Mónakó og San Marínó. SEPA sem hjálpar til við ákvarða einn fyrir greiðslufærslur innan á Evrópska Efnahagslegt Svæði (EEA) skjámynd. Að lokum, í SEPA er búist við að draga úr fjölda greiðslusniða sem bankar, fyrirtæki og einstaklingar þurfa að vinna með.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 23c418c6412e4bd300616eed4577e2b1d3f3d181
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fb55f4b0b06019891c2e490eda837cfad882e6db
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359199"
 ---
-
 # <a name="sepa-direct-debit-overview"></a>Yfirlit yfir SEPA beint debet
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ Hægt er að mynda rafrænar greiðsluskrár fyrir SPEA beingreiðslu á eftirfa
 
 ## <a name="how-do-refunds-and-returns-work-with-sepa-direct-debits"></a>Hvernig virka endurgreiðslur og skil með beina debetfærslu SEPA?
 Undir báðum skemum SEPA-beingreiðslna, hafa viðskiptavinir ákveðin réttindi á endurgreiðslum. Viðskiptavini er heimilt að afturkalla heimild færslur með átta vikna tímabili eftir gjalddaga, án þess að þurfa að gefa ástæðu. Í tilviki óheimilaðra færslna er tímabilið framlengt til 13 mánuðum eftir gjalddaga. Bakfærslur sem hafa verið gerðar er í náð handvirkt með því að nota hnappinn Hætta við greiðslu á síðunni Færslur viðskiptavinar.
-
 
 
 

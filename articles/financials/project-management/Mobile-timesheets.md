@@ -1,13 +1,13 @@
 ---
-title: "Vinnukort verka á fartæki"
-description: "Mín vinnukort (fínstillt fyrir farsíma) gerir starfsmönnum kleift að stofna og senda inn vinnukort verka til að skrá vinnustundir fyrir tiltekið verk í fartæki."
+title: Vinnukort verka á fartæki
+description: Mín vinnukort (fínstillt fyrir farsíma) gerir starfsmönnum kleift að stofna og senda inn vinnukort verka til að skrá vinnustundir fyrir tiltekið verk í fartæki.
 author: abruer
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
+ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3e09433a9bb819cf24ee74443dd7e2d80a2b6b2e
-ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360947"
 ---
-
 # <a name="project-timesheets-on-a-mobile-device"></a>Vinnukort verka á fartæki
 
 [!include [banner](../includes/banner.md)]
@@ -66,4 +65,3 @@ Android mun vera samhæft við verkvangsuppfærslu 16 þegar hún verður í bo�
 13. Valfrjálst: Færðu inn fleiri vinnukortslínur.
 
 14. Eftir að þú hefur lokið við að færa inn vinnukortslínur skaltu velja **Verkflæði** \> aðgerðina **Senda** til að senda vinnukortið í samþykktarferli verkflæðis.
-

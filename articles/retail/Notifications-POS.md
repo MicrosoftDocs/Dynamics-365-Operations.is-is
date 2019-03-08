@@ -1,13 +1,13 @@
 ---
-title: "Sýna pöntunartilkynningar á sölustað (POS)"
-description: "Þetta efnisatriði lýsir því hvernig hægt er að virkja pöntunartilkynningar á sölustað og tilkynningarammann. Á endanum munu þróunaraðilar geta útfært þessar tilkynningar á fleiri aðgerðir en pöntunaruppfyllingaraðgerðir."
+title: Sýna pöntunartilkynningar á sölustað (POS)
+description: Þetta efnisatriði lýsir því hvernig hægt er að virkja pöntunartilkynningar á sölustað og tilkynningarammann. Á endanum munu þróunaraðilar geta útfært þessar tilkynningar á fleiri aðgerðir en pöntunaruppfyllingaraðgerðir.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 03/13/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailOperations, RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -16,15 +16,14 @@ ms.search.region: Global
 ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 41f16d13051f6095bdb04af1586ec06fe0ce93f6
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361338"
 ---
-
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Sýna pöntunartilkynningar á sölustað (POS)
 
 [!include [banner](includes/banner.md)]
@@ -72,4 +71,3 @@ Eftirfarandi skýringarmynd sýnir stillingar á beinu efni í hnappahniti hönn
 Eftirfarandi skýringarmynd sýnir áhrif þess að velja **Efst til hægri** á móti **Miðju** í reitnum **Jöfnun efnis** fyrir hnappa af ýmsum stærðum.
 
 ![Beint efni á hnöppum sölustaðar](./media/ButtonsWithLiveContent.png "Beint efni á hnöppum sölustaðar")
-

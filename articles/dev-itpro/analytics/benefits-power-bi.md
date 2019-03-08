@@ -1,13 +1,13 @@
 ---
-title: Efni Benefits Power BI
-description: "Þetta efnisatriði lýsir efni Benefits Power BI. Það lýsir hvernig eigi að fara í skýrslur sem fylgja og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið."
+title: Fríðindi Power BI efni
+description: Þetta efnisatriði lýsir fríðindum Power BI efnis. Það lýsir hvernig eigi að fara í skýrslur sem fylgja og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmBenefitWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,28 +16,27 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 38610815e45926aa367011c8723494615e03ee38
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355243"
 ---
-
-# <a name="benefits-power-bi-content"></a>Efni Benefits Power BI
+# <a name="benefits-power-bi-content"></a>Fríðindi Power BI efni
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir efni **Benefits** Microsoft Power BI. Það lýsir hvernig eigi að fara í skýrslur sem fylgja og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
+Þetta efnisatriði lýsir **Fríðindum** Microsoft Power BI efnis. Það lýsir hvernig eigi að fara í skýrslur sem fylgja og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
-## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
-Efni **Fríðindi** Power BI er sýnt í vinnusvæðinu **Fríðindastjórnun** ef þú notar eina af eftirtöldum vörum:
+## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
+**Fríðindi** Power BI efnis er sýnt á vinnusvæðinu **Fríðindastjórnun** ef notuð er ein af eftirfarandi vörum:
 
 - Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðir með í Power BI-efni
-Skýrslur sem fylgja í efni **Benefits** Power BI hafa bæði myndrit og töflur sem innihalda viðbótarupplýsingar. Eftirfarandi tafla lýsir skýrslunum.
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðar með í Power BI efni
+Skýrslur sem eru hafðar með í **fríðindi** Power BI efni hafa bæði gröf og töflur sem innihalda viðbótarupplýsingar. Eftirfarandi tafla lýsir skýrslunum.
 
 | Skýrsla                      | Innihald                                                                                       |
 |-----------------------------|------------------------------------------------------------------------------------------------|
@@ -47,7 +46,7 @@ Skýrslur sem fylgja í efni **Benefits** Power BI hafa bæði myndrit og töflu
 Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á yfirlitið. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
-Eftirfarandi gögn er notuð til að fylla út skýrslur í Power BI-efninu **Fríðindi**. Þessi tafla sýnir einingar sem efnispakkinn var byggður á.
+Eftirfarandi gögn eru notuð til að fylla út skýrslurnar í **Fríðindi** Power BI efni. Þessi tafla sýnir einingar sem efnispakkinn var byggður á.
 
 | Eining                   | Innihald                                                                                                   | Vensl við aðra lögaðila |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
@@ -71,4 +70,3 @@ Eftirfarandi gögn er notuð til að fylla út skýrslur í Power BI-efninu **Fr
 | Nafn starfsmanns            | Fornafn, eftirnafn, og fullt nafn                                                                       | Núverandi starfsmaður, starfsmaður sem er hættur, starfsmannaþróun |
 | Titill starfsmanns           | Titill og starfsaldursdagsetning                                                                                   | Núverandi starfsmaður, starfsmaður sem er hættur, starfsmannaþróun |
 | Starfsmannaþróun           | Starfsfólk yfir tíma, starfsmannafjöldi, fyrirtæki og staða                                                        | Fyrirtæki, laun, landfræðileg staðsetning, nafn starfsmanns, heyrir undir, dagsetning starfsupphafs, dagsetning, titill starfsmanns, lýðfræði, atvinna, starf, fríðindi |
-

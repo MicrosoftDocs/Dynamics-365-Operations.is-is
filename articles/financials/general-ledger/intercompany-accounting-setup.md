@@ -1,13 +1,13 @@
 ---
-title: "Uppsetning samstæðulykils"
-description: "Þessari grein útskýrir hvernig skal setja upp bókhald innan samstæðu svo að hægt sé að nota færslubók innan samstæðu fyrir daglega færslubók, reikning lánardrottinns og greiðslubók."
+title: Uppsetning samstæðulykils
+description: Þessari grein útskýrir hvernig skal setja upp bókhald innan samstæðu svo að hægt sé að nota færslubók innan samstæðu fyrir daglega færslubók, reikning lánardrottinns og greiðslubók.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ce07a29d7aa5057d0b61c7fcc6bb87a0a2755fc9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48e0b00e2a9bd1a1387780747e1976bd386200eb
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363983"
 ---
-
 # <a name="intercompany-accounting-setup"></a>Uppsetning samstæðulykils
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Veldu **Debetreikningur (á gjalddaga frá)** og **Kreditlykill (í gjalddaga ti
 Loks skal velja hvaða lögaðili fær sent bókhald fyrir stuðningsupphæðir, s.s. staðgreiðsluafslátt eða innleystur hagnaður/tap fyrir miðstýrð greiðsla. 
 
 Hægt er að setja upp umhverf tengsl á síðunni **Samstæðulyklar** með því að nota hnappinn **Stofna umhverf tengsl** eftir að fyrsta lögaðilaparið er stofnað. Þegar umhverft par er stofnað  eru upplýsingar um áfangastaðarfyrirtæki afritaðar í upprunafyrirtækið og öfugt. Færslubókin sem skilgreind er fyrir áfangastaðarfyrirtækið helst óbreytt. Flest fyrirtæki nota sömu nafngiftarvenjur fyrir færslubókarheiti og því er heiti færslubókar það sama. Ef heiti færslubókar er annað birtist viðvörun í reitnum til að láta þig vita að færslubók sé ekki til og að hægt sé að velja aðra færslubók.
-
 
 
 

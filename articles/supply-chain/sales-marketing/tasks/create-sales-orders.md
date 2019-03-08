@@ -1,13 +1,13 @@
---- 
-title: "Stofnað sölupantanir"
-description: "Þessi verklýsing sýnir hvernig á að stofna sölupöntun."
+---
+title: Stofnað sölupantanir
+description: Þessi verklýsing sýnir hvernig á að stofna sölupöntun.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8af0333d979ba3a4e12d4f22b1225f3b72d66a7a
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 4ccd2c4ace41f07dce14498031e3cc29ecb61b1c
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "352115"
 ---
 # <a name="create-sales-orders"></a>Stofnað sölupantanir
 
@@ -68,5 +68,4 @@ ms.lasthandoff: 09/29/2017
 2. Smellið á „Samtölur“.
     * Samtölur síðan birtir upplýsingar um alla pöntunina. Þar á meðal upphæð millisamtala sem er summa allra nettóupphæða línu leiðrétt fyrir hugsanlega línuafslætti, heildarreikningsupphæðin, sem er upphæð millisamtölu leiðrétt fyrir hugsanlega afslætti á stigi pöntunar, gjöld og virðisaukaskatt, lánamark viðskiptavinar og fleira.  Reikningsupphæð er upphæðin sem mun birtast á reikningsskjalið viðskiptavinar.  
 3. Smellið á „Í lagi“.
-
 

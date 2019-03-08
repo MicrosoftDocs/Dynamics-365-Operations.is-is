@@ -1,13 +1,13 @@
 ---
-title: "Þjálfun fyrirtækis Power BI-efni"
-description: "Þetta efnisatriði lýsir Finance and Operations - Fyrirtækjaþjálfun Power BI efnis."
+title: Þjálfun fyrirtækis Power BI efni
+description: Þetta efnisatriði lýsir Finance and Operations - Fyrirtækjaþjálfun Power BI efnis.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6c1855013dc449950877f8727a5453942aeb75de
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367525"
 ---
-
-# <a name="organizational-training-power-bi-content"></a>Þjálfun fyrirtækis Power BI-efni
+# <a name="organizational-training-power-bi-content"></a>Þjálfun fyrirtækis Power BI efni
 
 [!include [banner](../includes/banner.md)]
 
@@ -59,4 +58,3 @@ Gögn Finance and Operations eru notuð til að fylla út skýrslurnar í efnisp
 | Þjálfun\_Position        | Staða, titill og jafngildi fulls starfs (FTE)                  | Þjálfun\_CourseAgenda, Training\_CourseAttendees |
 | Þjálfun\_WorkerName      | Fornafn, eftirnafn, og fullt nafn                             | Þjálfun\_CourseAttendees |
 | Þjálfun\_WorkerTitle     | Titill og starfsaldursdagsetning                                         | Þjálfun\_CourseAttendees |
-

@@ -1,13 +1,13 @@
 ---
-title: "Afstemma bankayfirlit með ítarlegri bankaafstemmingu"
-description: "Ítarleg bankaafstemmingaraðgerð gerir það mögulegt að flytja inn rafræn bankayfirlit og afstemma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 for Finance and Operations. Þessi skrá útskýrir ferli afstemmingar."
+title: Afstemma bankayfirlit með ítarlegri bankaafstemmingu
+description: Ítarleg bankaafstemming aðgerð gerir það mögulegt að flytja inn rafrænt bankayfirlit og afstemma þau sjálfkrafa við bankafærslu í Microsoft Dynamics 365 for Finance and Operations. Þessi skrá útskýrir ferli afstemmingar.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationWorksheet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 93b311d541ab588be82e6704dbe9ae3e43deabba
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: ed3a1fae6ca30b9411fde47e7ef8a08150d7d748
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364972"
 ---
-
-# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Afstemma bankayfirlit með ítarlegri bankaafstemmingu
+# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Afstemming bankayfirlits með ítarlegri bankaafstemmingu
 
 [!include [banner](../includes/banner.md)]
 
-Ítarleg bankaafstemmingaraðgerð gerir það mögulegt að flytja inn rafræn bankayfirlit og afstemma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 for Finance and Operations. Þessi skrá útskýrir ferli afstemmingar.  
+Ítarleg bankaafstemming aðgerð gerir það mögulegt að flytja inn rafrænt bankayfirlit og afstemma þau sjálfkrafa við bankafærslu í Microsoft Dynamics 365 for Finance and Operations. Þessi skrá útskýrir ferli afstemmingar.  
 
 <a name="import-an-electronic-bank-statement"></a>Flytja inn við rafræna bankayfirlit
 -----------------------------------
@@ -94,7 +93,6 @@ Að afstemmingarferli loknu á að merkja vinnublað bankaafstemmingar sem afste
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>Bóka nýjar færslur sem tengjast valinni afstemmingu.
 Bankayfirlitsfærslur sem voru merktar sem **Nýtt** á afstemmingarvinnublaði eru bókaðar á **Bankayfirlit** síðu. Á **Bankayfirlit** síðunni, veljið Kenni uppgjörs til að skoða upplýsingar um yfirlit. Á **Bókhald** valmyndinni, er hægt að nota **Skoða dreifingu** og **Skoða bókhald** valkosti til að skoða upplýsingar um nýjum færslum og tengdar fjárhagsfærslur. Velja skal **Bóka** valkost til að bóka bankayfirlitslínur sem merktar eru sem **Nýtt** í fjárhag. Athugaðu að bókun má ljúka aðeins einu sinni fyrir hvert bankayfirlit.
-
 
 
 

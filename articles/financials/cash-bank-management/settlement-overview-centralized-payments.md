@@ -1,13 +1,13 @@
 ---
-title: "Uppgjörsyfirlit fyrir miðstýrðar greiðslur"
-description: "Í þessu efnisatriði er jöfnunum fyrir miðstýrðar greiðslur fyrir Microsoft Dynamics 365 for Finance and Operations lýst."
+title: Uppgjörsyfirlit fyrir miðstýrðar greiðslur
+description: Í þessu efnisatriði er jöfnunum fyrir miðstýrðar greiðslur fyrir Microsoft Dynamics 365 for Finance and Operations lýst.
 author: abruer
 manager: AnnBe
 ms.date: 08/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: fc5a65c299adbf86fb2f38dff1a9aaa36f7367fa
 ms.openlocfilehash: 1fecc9027d0df7b268a3241ea0f1797849db2d90
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358578"
 ---
-
 # <a name="settlement-overview-for-centralized-payments"></a>Uppgjörsyfirlit fyrir miðstýrðar greiðslur
 
 [!include [banner](../includes/banner.md)]
@@ -109,4 +108,3 @@ Ef um lánardrottinnsgreiðslur er að ræða nota færslurnar í greiðslulöga
 
 ## <a name="withholding-tax"></a>Staðgreiðsluskattur
 Lánardrottnalykillinn sem reikningurinn tengist er notað til að ákvarða hvort á að reikna skuli staðgreiðsluskatt. Ef staðgreiðsluskattur á við hann reiknaður í lögaðila sem tengist reikningnum. Ef lögaðila nota aðra gjaldmiðla, er notað gengi frá lögaðila sem tengist reikningnum.
-

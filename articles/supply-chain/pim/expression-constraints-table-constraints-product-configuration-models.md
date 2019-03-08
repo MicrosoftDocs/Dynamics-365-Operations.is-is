@@ -1,13 +1,13 @@
 ---
-title: "Segðarskorður og töfluskorður í afbrigðalíkönum afurðar"
-description: "Þetta efnisatriði lýsir notkun skorður segð og töfluskorðum. Skorður stjórna eigindargildin sem hægt er að velja þegar afurðir fyrir sölupöntun, sölutilboði, innkaupapöntun eða framleiðslupöntun. Hægt er að nota skorður segð eða töfluskorðum, eftir því hvernig óskað er að byggja á skorðum."
+title: Segðarskorður og töfluskorður í afbrigðalíkönum afurðar
+description: Þetta efnisatriði lýsir notkun skorður segð og töfluskorðum. Skorður stjórna eigindargildin sem hægt er að velja þegar afurðir fyrir sölupöntun, sölutilboði, innkaupapöntun eða framleiðslupöntun. Hægt er að nota skorður segð eða töfluskorðum, eftir því hvernig óskað er að byggja á skorðum.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 88d52031f4c916f5ec3e970f38864977e69a9d9a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b6b5b7e7894cb74e33e08893934b3eaede957556
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356646"
 ---
-
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Segðarskorður og töfluskorður í afbrigðalíkönum afurðar
 
 [!include [banner](../includes/banner.md)]
@@ -170,7 +169,7 @@ Eftirfarandi töflur sýna virknitákn og infix-tákn sem hægt er að nota þeg
 </tr>
 <tr class="even">
 <td>Styrkur</td>
-<td>Þetta tekur til exponential. Þetta á við veldi frá hægri til vinstri. (Með öðrum orðum, það er hægri-tengt.) Þess vegna er, <strong>Power[a, b, c]</strong> jafnt og <strong>Power[a, Power[b, c]]</strong>. <strong>Afl</strong> er aðeins hægt að nota með jákvæða fasta sem veldisvísi.</td>
+<td>Þetta tekur til exponential. Þetta á við veldi frá hægri til vinstri. (Með öðrum orðum &#39; hægri-tengt.) Þess vegna er <strong>Power[a, b, c]</strong> jafnt og <strong>Power[a, Power[b, c]]</strong>. <strong>Afl</strong> er aðeins hægt að nota með jákvæða fasta sem veldisvísi.</td>
 <td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Virknitákn:</strong> Power[x, 2] == y</li>
@@ -223,7 +222,7 @@ Dæmi í næstu töflu sýna hvernig á að skrifa infix-tákn.
 |        (x)        |                           Svigaar hnekkja sjálfgefinn forgang.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Af hverju eru mínar segðaskorður ekki sannprófaðar rétt?
-Frátekið lykilorð er hægt að nota sem heiti leysara eigindir, íhluti eða undiríhlutir í afbrigðalíkani afurðar. Hér er listi yfir frátekin lykilorð sem ekki er hægt að nota:
+Frátekið lykilorð er hægt að nota sem heiti leysara eigindir, íhluti eða undiríhlutir í afbrigðalíkani afurðar. Hér er listi yfir frátekin lykilorð sem ekki er hægt að nota:
 
 -   Þak
 -   Eining
@@ -252,7 +251,6 @@ Frátekið lykilorð er hægt að nota sem heiti leysara eigindir, íhluti eða 
 [Stofna segð töfluskorðu (verkefnaleiðbeiningar)](tasks/add-expression-constraint-product-configuration-model.md)
 
 [Bæta útreikningi við afbrigðalíkan afurðar (verkleiðbeiningar)](tasks/add-calculation-product-configuration-model.md)
-
 
 
 

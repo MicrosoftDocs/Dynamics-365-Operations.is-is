@@ -1,13 +1,13 @@
 ---
-title: "Grunnstilla samþykktarskref í verkflæði"
-description: "Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika samþykktarskrefs."
+title: Grunnstilla samþykktarskref í verkflæði
+description: Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika samþykktarskrefs.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f52b6ffed7c1edb97c7a673cefbc8bf486ba831
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 813866d63f38f5865666bad96f6f3590716a93ad
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "368054"
 ---
-
 # <a name="configure-approval-steps-in-a-workflow"></a>Grunnstilla samþykktarskref í verkflæði
 
 [!include [banner](../includes/banner.md)]
@@ -135,7 +134,7 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta samþykktars
     </tr>
     <tr>
     <td>Notandi</td>
-    <td>Sértækir notendur Microsoft Dynamics 365 for Finance and Operations</td>
+    <td>Tilteknir Microsoft Dynamics 365 for Finance and Operations notendur</td>
     <td>
     <ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
@@ -278,4 +277,3 @@ Ef notandinn bregst ekki við skjalinu á tilgreindum tíma, er skjalið komið 
 
 5. Endurtakið skref 3 til 4 fyrir hvern notanda sem á að bæta við stigmögnunarslóð. Hægt er að breyta röðun notenda.
 6. Ef notendunum í stigmögnunarslóðinni svara ekki innan tímarammans, grípur kerfið sjálfkrafa til aðgerða varðandi skjalið. Til að tilgreina aðgerðina sem kerfið grípur til, veldu línuna **Aðgerð** , og síðan á **Ljúka aðgerð** flipanum, veljið aðgerð.
-

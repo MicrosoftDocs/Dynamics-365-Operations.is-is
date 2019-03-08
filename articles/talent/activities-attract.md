@@ -1,14 +1,14 @@
 ---
-title: "Aðgerðir í ferlunum"
-description: "Þetta efnisatriði gefur upplýsingar um ýmis konar aðgerðir sem hægt er að nota í ráðningarferlinu."
-author: 
+title: Aðgerðir í ferlunum
+description: Þetta efnisatriði gefur upplýsingar um ýmis konar aðgerðir sem hægt er að nota í ráðningarferlinu.
+author: ''
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: c32db1f563466f05b9fef1a03578392888c0b7e6
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
-ms.openlocfilehash: 4f59193991420fd9ec05a83049e569058bf81932
-ms.contentlocale: is-is
-ms.lasthandoff: 12/07/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374758"
 ---
-
 # <a name="activities-in-the-hiring-processes"></a>Aðgerðir í ráðningarferlunum
 
 [!include[banner](../includes/banner.md)]
@@ -43,31 +42,9 @@ Aðgerð fyrir viðfang stýrir hvort viðföngum getur verið bætt við starf.
 
 Umsóknaraðgerðar er krafist í sniðmát ráðningarferlisins. Til að senda tölvupóst til umsækjenda þegar þeir leggja inn umsóknina eða eru bætt við umsóknarstigið skaltu stilla **Senda póst til umsækjanda** valkosts til **Á**.
 
-## <a name="scheduler-activity"></a>Tímáætlunaraðgerð
+## <a name="interview-schedule-and-feedback-activity"></a>Viðtalsáætlun og endurgjafaraðgerð
 
-Tímaáætlunaraðgerðin er valfrjáls. Þessi aðgerð hefur tvö þætti: Tímaupplýsingar umsækjanda og tímaáætlun. Tímaupplýsingar umsækjanda leyfir þér að nota tölvupóst til að biðja um tímaupplýsingar umsækjanda. Tímaáætlunin veitir möguleika á að skipuleggja viðtöl við umsækjanda og ráðningarteymið. Í tímaáætlunaraðgerðinni, eftirfarandi valkosti er hægt að stilla: **Biðja um tímaupplýsingar umsækjanda**, **Netfund** og **Senda póst til umsækjanda**.
-
-- Til að senda tölvupóst til umsækjenda til að biðja um tímaupplýsingar þeirra, stilltu **Biðja um tímaupplýsingar umsækjanda** á **Á**. Ef þú stillir kost á **Slökkva**, verður þetta skref ekki sýnt í ráðningarferlinu í starfinu.
-- Til að streyma í beinni eða hafa símafund með því að nota Skype for Business skaltu stilla **Netfund** reitinn á **Skype for Business**. Réttur **Taka þátt í Skype-fundi** tengilinn verður síðan bætt við í viðstalsboðið sem er sent til umsækjenda.
-- Til að senda tölvupóst til umsækjenda til að ljúka tímaáætluninni skaltu stilla **Senda póst til umsækjanda** valkostur til **Á**. Ef þú stillir kost á **Slökkva**, fá umsækjendur aðeins viðtalsáætlunina þegar þeir skrá sig inn á umsækjendagáttina.
-
-## <a name="feedback-activity"></a>Endurgjafaraðgerð
-
-Endurgjafaraðgerð er valfrjáls. Þessi aðgerð gerir þátttakendum í viðtali kleift að setja inn tillögur að umsækjanda. Þeir geta einnig slegið inn endurgjöf við athugasemdir sem þeir hafa. Ef þú kveikir á **Erfa þátttakendur sem gefa ábendingar frá ráðningarhópi** valkostinum, er ráðningaraðilinn, mannauðsstjórinn og spyrlar sjálfkrafa færðir inn í endurgjafaraðgerðina. Fyrirtæki geta leyft spyrlum að skoða endurgjöf annarra áður en þeir leggja inn eigin endurgjöf. Fyrirtæki geta einnig leyft spyrlum að breyta viðbrögðunum sínum eftir að þeir hafa sent það inn.
-
-## <a name="interview-activity"></a>Viðtalsaðgerðir
-
-Viðtalsaðgerðir eru valfrjálsar. Þessi aðgerð hefur þrjá þætti: Tímaupplýsingar umsækjanda, tímaáætlun og endurgjöf. Tímaupplýsingar umsækjanda leyfir þér að nota tölvupóst til að biðja um tímaupplýsingar umsækjanda. Tímaáætlunin veitir möguleika á að skipuleggja viðtöl við umsækjanda og ráðningarteymið. Í tímaáætlunaraðgerðinni, eftirfarandi valkosti er hægt að stilla: **Biðja um tímaupplýsingar umsækjanda**, **Netfund** og **Senda póst til umsækjanda**.
-
-- Til að senda tölvupóst til umsækjenda til að biðja um tímaupplýsingar þeirra, stilltu **Biðja um tímaupplýsingar umsækjanda** á **Á**. Ef þú stillir kost á **Slökkva**, verður þetta skref ekki sýnt í ráðningarferlinu í starfinu.
-- Til að streyma í beinni eða hafa símafund með því að nota Skype for Business skaltu stilla **Netfund** reitinn á **Skype for Business**. Rétt **Taka þátt í Skype-fundi** tengilinn verður síðan bætt við viðtalsbeiðnina.
-- Til að senda tölvupóst til umsækjenda til að ljúka tímaáætluninni skaltu stilla **Senda póst til umsækjanda** valkostur til **Á**. Ef þú stillir kost á **Slökkva**, fá umsækjendur aðeins viðtalsáætlunina þegar þeir skrá sig inn á umsækjendagáttina.
-
->[!NOTE]
-> - Áminningar eru sendar á spyrla á sólarhringsfresti fyrir einstaklingsviðtöl ef spyrillinn hefur ekki svarað (samþykkt eða hafnað) viðtalsbeiðninni.
-> - Fyrir nefndarviðtöl eru engar áminningar um að svara þurfi viðtalsbeiðni. Til að kveikja á áminningu handvirkt skal breyta viðtali og nota valkostinn **Uppfæra og senda** til að senda beiðnina aftur á spyrlana.
-
-Endurgjafarhluti leyfir fólki að slá inn ráðleggingar fyrir umsækjanda. Þeir geta einnig slegið inn endurgjöf við athugasemdir sem þeir hafa. Ef þú kveikir á **Erfa þátttakendur sem gefa ábendingar frá ráðningarhópi** valkostinum, er ráðningaraðilinn, mannauðsstjórinn og spyrlar sjálfkrafa færðir inn í endurgjafarhlutann. Fyrirtæki geta leyft spyrlum að skoða endurgjöf annarra áður en þeir leggja inn eigin endurgjöf. Fyrirtæki geta einnig leyft spyrlum að breyta viðbrögðunum sínum eftir að þeir hafa sent það inn.
+Þessi aðgerð hefur þrjá þætti: Beiðni um tímaupplýsingar umsækjanda, tímaáætlun og endurgjöf. Notaðu viðtalsaðgerðina í starfssniðmátinu ef þú vilt hafa með beiðni um tímaupplýsingar umsækjanda, áætlun og endurgjöf sem hluti af ferlinu í staðinn fyrir að nota það hvert fyrir sig sem hluta af ráðningarferlinu. Nánari upplýsingar er að finna í [Viðtalsáætlun og endurgjöf](interview-scheduling-feedback.md).
 
 ## <a name="powerapps-activity"></a>PowerApps-aðgerð
 
@@ -80,12 +57,12 @@ Ef þú velur **Leyfa að bæta þátttakendum við þessa aðgerð** valkostur,
 > [!NOTE]
 > PowerApps-aðgerðin er aðeins í boði með Viðbót við alhliða ráðningar.
 
-## <a name="youtube-activity"></a>YouTube-aðgerð
+## <a name="youtube-activity"></a>YouTube verkþáttur
 
-YouTube-aðgerð gerir þér kleift að deila YouTube myndbandi sem hluti af ráðningarferlinu þínu. Til að vista YouTube-aðgerð á ráðningarferlinu verður þú að tilgreina slóðina að YouTube myndbandinu. Hvað varðar PowerApps-aðgerðina geturðu leyft að bæta þátttakendum við aðgerðina. Ef þú velur **Bara sýnilegt umsækjanda** valkostur, er myndbandið aðeins sýnt sem hluti af upplifun umsækjanda. Það er ekki sýnt í ráðningarferlinu í Attract.
+YouTube-aðgerð gerir þér kleift að deila YouTube-myndbandi sem hluti af ráðningarferlinu þínu. Til að vista YouTube-aðgerðina í ráðningarferlinu verður þú að tilgreina vefslóð YouTube myndskeiðsins. Hvað varðar PowerApps-aðgerðina geturðu leyft að bæta þátttakendum við aðgerðina. Ef þú velur **Bara sýnilegt umsækjanda** valkostur, er myndbandið aðeins sýnt sem hluti af upplifun umsækjanda. Það er ekki sýnt í ráðningarferlinu í Attract.
 
 > [!NOTE]
-> YouTube-aðgerð er aðeins í boði með Viðbót við alhliða ráðningart.
+> YouTube-aðgerð er aðeins í boði með Viðbót við alhliða ráðningar.
 
 ## <a name="web-content-activity"></a>Vefefnisaðgerð
 
@@ -96,10 +73,9 @@ Með vefefnisaðgerð er hægt að fella inn efni á netinu í ráðningarferlin
 
 ## <a name="microsoft-forms-activity"></a>Microsoft Forms-aðgerð
 
-Microsoft Forms-aðgerð gerir þér kleift að fella inn Microsoft Forms inn í ráðningarferlinu þínu. Microsoft Forms gerir þér kleift að búa til þekkingarpróf, mat og kannanir. Til að vista virkni Microsoft Forms í ráðningarferlið verður þú að tilgreina vefslóð eyðublaðsins. Hvað varðar PowerApps-, YouTube- og vefefnisaðgerðir getur þú leyft að bæta þátttakendum við aðgerðina. Ef þú velur **Bara sýnilegt umsækjanda** valkostur, er eyðublaðið aðeins sýnt sem hluti af upplifun umsækjanda. Það er ekki sýnt í ráðningarferlinu í Attract.
+Microsoft Forms-aðgerð gerir þér kleift að fella inn Microsoft Forms inn í ráðningarferlinu þínu. Microsoft Forms gerir þér kleift að búa til þekkingarpróf, mat og kannanir. Til að vista virkni Microsoft Forms í ráðningarferlið verður þú að tilgreina vefslóð eyðublaðsins. Hvað varðar PowerApps-, YouTube - og vefefnisaðgerðir getur þú leyft að bæta þátttakendum við aðgerðina. Ef þú velur **Bara sýnilegt umsækjanda** valkostur, er eyðublaðið aðeins sýnt sem hluti af upplifun umsækjanda. Það er ekki sýnt í ráðningarferlinu í Attract.
 
 Í Microsoft Forms geta höfundar breytt stillingum sínum til að láta notendur utan fyrirtækisins svara könnunum eða þekkingarprófum sínum. Í þessu tilfelli, notendur senda inn svar á nafnlausan hátt. Ef þú vilt sjá hver hefur fyllt út könnunina þína eða þekkingarprófið geturðu krafist þess að svarendur slá inn nöfn sín sem hluta af könnuninni eða þekkingarprófinu.
 
 > [!NOTE]
 > Virkni Microsoft Forms er aðeins í boði með Viðbót við alhliða ráðningar.
-

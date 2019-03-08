@@ -1,35 +1,34 @@
 ---
-title: "Flytja inn vörulista lánardrottins"
-description: "Þetta efnisatriði lýsir ferlinu til að flytja inn vörulistagögn lánardrottins."
+title: Flytja inn vörulista lánardrottins
+description: Þetta efnisatriði lýsir ferlinu til að flytja inn vörulistagögn lánardrottins.
 author: mkirknel
 manager: AnnBe
 ms.date: 03/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
+ms.custom: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: cf81823de46da9a834f0214896b9e634989cac0e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ac7754bd6361ad74f7ab4d564ae3114dd4b9f165
-ms.openlocfilehash: caf801ea27ade63c24bb0907313e7f8294c50702
-ms.contentlocale: is-is
-ms.lasthandoff: 04/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362028"
 ---
-
 # <a name="import-vendor-catalogs"></a>Flytja inn vörulista lánardrottins
 [!include[banner](../includes/banner.md)]
 
-## <a name="vendor-catalogs-import"></a>Innflutningar á vörulisti lánardrottins
+## <a name="vendor-catalogs-import"></a>Innflutningur vörulista lánardrottins
 
 Í Microsoft Dynamics 365 for Finance and Operations geta innkaupasérfræðingar stofnað og unnið með vörulista sem starfsmenn fyrirtækis geta notað þegar þeir panta vörur og þjónustu til innri notkunar. Til að stofna innkaupavörulista er hægt að bæta við vörum og þjónustu sem eiga að vera í boði fyrir starfsmenn, annaðhvort með því að flytja inn innkaupavörulisti eða handvirkt bæta innkaupavörulista við afurðarsniðmát. 
 
@@ -70,4 +69,3 @@ Sniðmát fyrir innflutningsskrá vörulista er XSD-skrá sem notuð er til að 
 3. Í svarglugganum **Vista sem** skaltu velja staðsetningu þar sem á að geyma sniðmát fyrir vörulistaskrá og vista skrána.
 
 Nánari upplýsingar og dæmi er að finna í þessari bloggfærslu: [Vörulistar lánardrottins í Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/).
-

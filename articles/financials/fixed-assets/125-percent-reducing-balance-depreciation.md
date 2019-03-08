@@ -1,13 +1,13 @@
 ---
-title: "Afskriftir fyrir 125% bókfært virði"
-description: "Þessi grein gefur yfirlit yfir afskriftaraðferðina 125 prósent bókfært virði."
+title: Afskriftir fyrir 125% bókfært virði
+description: Þessi grein gefur yfirlit yfir afskriftaraðferðina 125 prósent bókfært virði.
 author: saraschi2
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f7af5413376a98c3b2b7ded46c757c9156a3fadf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8ec88d799c44e035b6490861383557f8c3beda41
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362718"
 ---
-
 # <a name="125-percent-reducing-balance-depreciation"></a>Afskriftir fyrir 125% bókfært virði
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,7 @@ Valið skilgreinir valmöguleikana sem í boði eru á svæðinu **tímabilstí�
 
 ### <a name="calendar"></a>Dagatal
 
-Það er hægt að velja að halda sjálfgefnum gildum í svæðinu **afskriftarár,****dagatal**. 
+Það er hægt að velja að halda sjálfgefnum gildum í svæðinu **afskriftarár**,**dagatal**. 
 
 **Dagatal** uppfærir afskriftargrundvöllinn 1. Janúar ár hvert. Yfirleitt er afskriftagrundvöllurinn bókað nettóvirði mínus hrakvirði. Í dæmunum hér að neðan er afskriftagrunnurinn deilistofninn í fyrstu segðinni í útreikningum í útreikningsdálkinum. 
 
@@ -85,8 +84,7 @@ Aðferðin afskriftir fyrir 125% bókfært virði deilir 125% með líftíma í 
 | 3. ár | 5.625 × 25% = 1.406,25                        | (6.625 – 1.406.25) = 5.218.75 | (5.625 – 1.406.25) = 4.218.75         |
 
 > [!NOTE] 
-> Yfirleitt þegar upphæðin sem er reiknuð með því að nota 125% bókfært virði verður afskriftaraðferð lægri en upphæðin sem yrði reiknuð með því að nota línulega afskriftaaðferð er umbreyting yfir í línulega aðferð fyrir eftirstandandi líftíma.
-
+> Yfirleitt þegar upphæðin sem er reiknuð með því að nota 125% bókfært virði verður afskriftaraðferð lægri en upphæðin sem yrði reiknuð með því að nota línulega afskriftaaðferð er umbreyting yfir í línulega aðferð fyrir°eftirstandandi líftíma.
 
 
 

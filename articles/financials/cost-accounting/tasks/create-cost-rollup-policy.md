@@ -1,13 +1,13 @@
---- 
-title: "Stofna reglu fyrir samantekt kostnaðar"
-description: "Þetta ferli sýnir hvernig skal stofna stefnu fyrir samantekt kostnaðar og stofna reglur fyrir stefnuna."
+---
+title: Stofna reglu fyrir samantekt kostnaðar
+description: Þetta ferli sýnir hvernig skal stofna stefnu fyrir samantekt kostnaðar og stofna reglur fyrir stefnuna.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5f1fa434061832bd306cef13afc46c7f3adab0c0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 42656cbf445fd3f79844884d7d35243c5b051a4a
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362603"
 ---
 # <a name="create-a-cost-rollup-policy"></a>Stofna reglu fyrir samantekt kostnaðar
 
@@ -67,5 +67,4 @@ ms.lasthandoff: 09/29/2017
     * Í þessu dæmi skal varpa aukakostnaðareiningunni CC-009 til kostnaðarstaðar.  
     * Halda áfram þar til allir kostnaðarstaðir eru varpaðir til samsvarandi aukakostnaðareiningar þeirra.  
 16. Smellið á „Vista“.
-
 

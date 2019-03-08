@@ -1,14 +1,14 @@
 ---
-title: "Fjármálasamstæður og umreikningur gjaldmiðils"
-description: "Þetta efnisatriði lýsir fjármálasamstæðum og umreikningi gjaldmiðils í Fjárhag."
+title: Fjármálasamstæður og umreikningur gjaldmiðils
+description: Þetta efnisatriði lýsir fjármálasamstæðum og umreikningi gjaldmiðils í Fjárhag.
 author: aprilolson
 manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,15 +16,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
 ms.openlocfilehash: 8427d53bac3216d362b2bf8983a847f069351b3b
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354001"
 ---
-
-# <a name="financial-consolidations-and-currency-translation"></a>Fjármálasamstæður og umreikningur gjaldmiðils
+# <a name="financial-consolidations-and-currency-translation"></a>Fjárhagssamstæða og umreikningur gjaldmiðils
 
 [!include [banner](../includes/banner.md)]
 
@@ -181,4 +180,3 @@ Hér eru nokkrar samstæðuaðstæður sem Financial reporting styður:
 
 ## <a name="generating-consolidated-financial-statements"></a>Býr til samstæðureikningsskil
 Nánari upplýsingar um aðstæður þar sem þú gætir búið til samstæðureikningsskil er að finna í [Búa til samstæðureikningsskil](./generating-consolidated-financial-statements.md).
-

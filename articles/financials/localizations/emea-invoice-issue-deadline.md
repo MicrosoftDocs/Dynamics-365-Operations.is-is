@@ -1,13 +1,13 @@
 ---
-title: "Tímamörk útgáfu reiknings"
-description: "Þessi grein útskýrir hvernig á að setja upp færibreytur til að reikna út gjalddaga fyrir útgáfu reikninga viðskiptavina og reikninga lánardrottins innan Evrópusambandsins (ESB)."
+title: Tímamörk útgáfu reiknings
+description: Þessi grein útskýrir hvernig á að setja upp færibreytur til að reikna út gjalddaga fyrir útgáfu reikninga viðskiptavina og reikninga lánardrottins innan Evrópusambandsins (ESB).
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustParameters, LedgerInvoiceIssueDueDateSetup_W
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 942b48170d7c164e16d2b8f5544b8777668adab3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 34dac634e09a8daa8a22b9f1efbc18ca44444e21
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370926"
 ---
-
 # <a name="invoice-issue-deadline"></a>Tímamörk útgáfu reiknings
 
 [!include [banner](../includes/banner.md)]
@@ -53,7 +52,7 @@ Nota skal **Setja upp útreikning á útgáfu reiknings gjalddaga** til að setj
 Hægt er að setja upp færibreytur dagsetningarstýringar til að tryggja að reikningar viðskiptavina og kreditnótur fyrir færslur viðskiptavinar séu mynduð innan tilgreinds tímabils eftir að afhending fer fram. Hægt er að finna þessar færibreytur á svæðinu **Stýring reikningsdagsetninga** á síðunni **Færibreytur viðskiptakrafna**.
 
 ## <a name="example"></a>Dæmi
-Til að setja upp Microsoft Dynamics 365 for Finance and Operations til að reikna út gjalddaga reikningsútgáfu fyrir sendingar innan ESB 15. dag næsta mánaðar eftir að framboðið er afhent, skal stofna dagsetningarbilskóða og útreikningsreglu sem hefur eftirfarandi stillingar.
+Til að setja upp Microsoft Dynamics 365 for Finance and Operations til að reikna út gjalddaga reikningsútgáfu fyrir sendingar innan ESB fimmtánda dag næsta mánaðar eftir að framboðið er afhent, skal stofna dagsetningarbilskóða og útreikning reglu við eftirfarandi stillingar.
 
 ### <a name="date-interval-code"></a>Kóði dagsetningabils
 
@@ -118,7 +117,6 @@ Ef notandi hefur ekki aðgang að síðum sem notaðar eru til að ljúka verkum
 </tr>
 </tbody>
 </table>
-
 
 
 

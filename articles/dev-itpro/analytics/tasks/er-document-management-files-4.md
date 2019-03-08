@@ -1,13 +1,13 @@
---- 
-title: "Keyra snið til að nota skjalastjórnunarskrár í sniðsúttökum rafrænnar skýrslugerðar"
-description: "Eftirfarandi skref útskýra hvernig notandi með hlutverk kerfisstjóra eða þróunaraðila rafrænnar skýrslugerðar getur stillg snið rafrænnar skýrslugerðar til að nota skjalastjórnunarskrár í rafrænum skýrslum."
+---
+title: Keyra snið til að nota skjalastjórnunarskrár í sniðsúttökum rafrænnar skýrslugerðar
+description: Eftirfarandi skref útskýra hvernig notandi með hlutverk kerfisstjóra eða þróunaraðila rafrænnar skýrslugerðar getur stillg snið rafrænnar skýrslugerðar til að nota skjalastjórnunarskrár í rafrænum skýrslum.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenInvoicesListPage, CustInvoiceJournal, SalesTable, ERSolutionTable
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e87dbb0fa890f4d554c3e2ff09566fb2b1f3206b
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364788"
 ---
 # <a name="run-formats-to-use-document-management-files-in-er-output"></a>Keyra snið til að nota skjalastjórnunarskrár í sniðsúttökum rafrænnar skýrslugerðar
 
@@ -69,5 +69,4 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í á “R
 10. Smellið á „Í lagi“.
 11. Smellið á „Í lagi“.
     * Fara yfir myndað úttak. Athugið að fyrir hvert viðhengi hefur verið stofnað einu xml-hnútur. Innihald viðhengis er notað til að fylla út í úttak XML í MIME (base64) textasnið.  
-
 

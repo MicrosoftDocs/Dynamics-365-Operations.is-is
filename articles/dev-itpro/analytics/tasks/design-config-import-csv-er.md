@@ -1,13 +1,13 @@
---- 
-title: "Hanna ER skilgreiningar til að flytja inn gögn úr ytri CSV-skrám"
-description: "Notaðu þetta ferli til að hanna grunnstillingar rafrænnar skýrslugerðar (ER) til að flytja inn gögn í forritið Dynamics 365 for Finance and Operations úr ytri skrá á CSV-sniði."
+---
+title: Hanna ER skilgreiningar til að flytja inn gögn úr ytri CSV-skrám
+description: Nota skal þetta til að hanna grunnstillingar rafrænnar skýrslugerðar til að flytja inn gögn í forritið Dynamics 365 for Finance and Operations, úr ytri skrá á CSV-sniði.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 8d3ea3d797de154979eae112658cf05d1914feeb
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365225"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>Hanna ER skilgreiningar til að flytja inn gögn úr ytri CSV-skrám
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Notaðu þetta ferli til að hanna grunnstillingar rafrænnar skýrslugerðar (ER) til að flytja inn gögn í forritið Dynamics 365 for Finance and Operations úr ytri skrá á CSV-sniði. Í þessu ferli mun notandi flytja inn þær grunnstillingar rafrænnar skýrslugerðar sem krafist er fyrir sýnifyrirtækið Litware, Inc. Til að ljúka þessum skrefum verður fyrst að ljúka skrefum ferlisins „Rafræn skýrslugerð Stofna grunnstillingarveitu og merkja hana sem virka“. 
+Nota skal þetta til að hanna grunnstillingar rafrænnar skýrslugerðar til að flytja inn gögn í forritið Dynamics 365 for Finance and Operations, úr ytri skrá á CSV-sniði. Í þessu ferli mun notandi flytja inn þær grunnstillingar rafrænnar skýrslugerðar sem krafist er fyrir sýnifyrirtækið Litware, Inc. Til að ljúka þessum skrefum verður fyrst að ljúka skrefum ferlisins „Rafræn skýrslugerð Stofna grunnstillingarveitu og merkja hana sem virka“. 
 
 Þetta ferli er hugsað fyrir þá notendur sem hefur verið úthlutað hlutverkum Kerfisstjóra eða Þróunaraðila rafrænnar skýrslugerðar. Skrefin er hægt að klára með því að nota USMF gagnasafnið. 
 
 Enn fremur þarftu að hlaða niður og vista eftirfarandi skrár staðbundið: (https://go.microsoft.com/fwlink/?linkid=862266): 1099model.xml, 1099formatcsv.xml, 1099entriescsv.csv.
 
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
-    * Hægt er að stilla ferli á að flytja inn ytri skrár á XML, TXT eða CSV-sniði í töflur í forrtið Dynamics 365 for Finance and Operations. Í fyrsta lagi þarf að búa til sértækt gagnalíkan til að tákna innflutt gögn, frá sjónarmiði fyrirtækis - stilling gagnalíkans rafrænnar skýrslugerðar er búin til fyrir það. Næst skal skilgreina uppbyggingu innfluttu skráarinnar sem er varpað í viðkomandi gagnalíkan sem leið til að flytja inn gögn úr skránni í sértaka gagnalíkanið - stilling sniðs rafrænnar skýrslugerðar er búið til fyrir það. Síðan þarf að víkka út stillingu gagnalíkans fyrir rafræna skýrslugerð með nýrri líkanavörpun sem lýsir því hvernig gögnin í innfluttu skránni og varanlegum gögnum úr sértæka gagnalíkaninu eru notuð til að uppfæra forritatöflurnar eða gagnaeiningar.  
+    * Hægt er að stilla ferli á að flytja ytri skrár á XML, TXT eða CSV-sniði í töflur í Dynamics 365 for Finance and Operations forritið. Í fyrsta lagi þarf að búa til sértækt gagnalíkan til að tákna innflutt gögn, frá sjónarmiði fyrirtækis - stilling gagnalíkans rafrænnar skýrslugerðar er búin til fyrir það. Næst skal skilgreina uppbyggingu innfluttu skráarinnar sem er varpað í viðkomandi gagnalíkan sem leið til að flytja inn gögn úr skránni í sértaka gagnalíkanið - stilling sniðs rafrænnar skýrslugerðar er búið til fyrir það. Síðan þarf að víkka út stillingu gagnalíkans fyrir rafræna skýrslugerð með nýrri líkanavörpun sem lýsir því hvernig gögnin í innfluttu skránni og varanlegum gögnum úr sértæka gagnalíkaninu eru notuð til að uppfæra forritatöflurnar eða gagnaeiningar.  
     * Eftirfarandi skref sýna hvernig raktar færslur ytri lánardrottins eru fluttar inn úr ytri CSV-skrá til síðari notkunar í uppgjöri lánardrottins fyrir 1099 formið.   
     * Sannprófið að grunnstillingarveita fyrir sýnifyrirtækið Litware, Inc. sé tiltæk og merkt sem virk. Ef þessi skilgreiningarveita sést ekki, verður fyrst að ljúka við skrefin í ferlinu „Stofna skilgreiningarveitu og merkja hana sem virka“.  
 2. Smelltu á Grunnstillingar skýrslugerðar
@@ -119,5 +119,4 @@ Til að prófa skal framkvæma sniðsvörpun með því að nota 1099entriescsv.
     * Farið yfir úttak í XML-sniði, sem stendur fyrir gögn sem hafa verið innflutt úr valinni skrá og tengd við gagnalíkan. Athugaðu að allar 7 línur af innfluttu CSV-skránni voru unnar. Reitum sem innihalda titilinn í línu 1 var sleppt, 4 færslur voru þáttaðar á réttan hátt og 2 færslur voru viðurkenndar sem ógildar.   
 3. Lokið síðunni.
 4. Lokið síðunni.
-
 

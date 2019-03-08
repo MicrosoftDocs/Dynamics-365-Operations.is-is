@@ -1,34 +1,34 @@
 ---
-title: "Setja upp stjórnun tilboða"
-description: "Þetta efni lýsir því hvernig á að setja upp tilboð í Talent."
+title: Setja upp stjórnun tilboða
+description: Þetta efni lýsir því hvernig á að setja upp tilboð í Talent.
 author: josaw
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fa6c8c80870dd7bd06498c7571ba8a110be85c86
+ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
 ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
-ms.openlocfilehash: bb90f0a3c87c64a74ca63610105abfeb8223900a
-ms.contentlocale: is-is
-ms.lasthandoff: 12/07/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "376508"
 ---
 # <a name="set-up-offer-management"></a>Setja upp stjórnun tilboða 
 
 [!include [banner](includes/banner.md)]
 
-Þegar umsækjandi er fluttur í tilboðsstigið í Dynamics 365 for Talent: Aðdráttarafl, þú þarft að tryggja að hægt sé að skapa fljótt tilboð fyrir umsækjandann, samþykkt eftir þörfum og sendur út til umsækjanda. Vegna þess að flest tilboð eru staðlað getur það verið búið til úr endurnýtanlegum sniðmátum. Í Attract, eru öll tilboð rúllað í tilboðspakka, sem er safn af einni eða fleiri tilboðsskjölum. 
+Þegar umsækjandi er fluttur í tilboðsstigið í Dynamics 365 for Talent: Attract þarftu að tryggja að hægt sé að búa til tilboð fyrir umsækjandann á fljótlegan hátt, þau samþykkt eftir þörfum og send út til umsækjanda. Vegna þess að flest tilboð eru staðlað getur það verið búið til úr endurnýtanlegum sniðmátum. Í Attract, eru öll tilboð rúllað í tilboðspakka, sem er safn af einni eða fleiri tilboðsskjölum. 
 
 Í þessu efni er listi yfir öll þau skref sem stjórnandi Attract myndi fylgja til að setja upp mismunandi tilboðspakki sniðmát sem hluta af tilboðsstjórnunargetu í Attract. Notendur sem ekki hafa stjórnandi hlutverk hafa ekki aðgang að þessum möguleikum.
 
@@ -80,7 +80,7 @@ Til að undirbúa gagnareglur CSV skrá skaltu gera eftirfarandi.
 
 1.  Til að hlaða inn sviðsgildi, veldu dálka 3 og 4 **Árslaun**. Til að hlaða upp tilteknu gildi í staðinn fyrir svið, veldu aðeins dálk 3 **Árslaun**.
 
-1.  Fylltu út Microsoft Excel skráina út frá nauðsynlegum hlutverkum.
+1.  Fylltu út Microsoft Excel skrána út frá nauðsynlegum hlutverkum.
 
 1.  Gakktu úr skugga um að hver röð sé einstök blanda af öllum gildum sem settar eru saman.
 
@@ -203,5 +203,7 @@ Tilboðspakkar eru tilboðsgervingar sem eru deilt með umsækjanda og samanstan
 
     - ESign - Þetta er sjálfgefinn valkostur, sem fylgir beint úr kassanum, þar sem notandinn getur skrifað undir tilboð með því að slá inn nafn og upphafsstafi.
 
-Til að læra meira um stofnunarferli tilboðs, sjá [Stofna, samþykkja og undirrita tilboð](./creating-offers.md).
+>[!NOTE]
+> Fyrir Adobe Sign-leyfi og ókeypis prufuútgáfu skal heimsækja [tengill](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
+Til að læra meira um stofnunarferli tilboðs, sjá [Stofna, samþykkja og undirrita tilboð](./creating-offers.md).

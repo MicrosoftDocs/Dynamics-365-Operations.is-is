@@ -1,13 +1,13 @@
 ---
-title: "Endurgreiðsla virðisaukaskatts í útgjaldastýringu"
-description: "Þetta efnisatriði útskýrir hvernig á að fá endurgreiðslur á gjaldgengum virðisaukaskatti (VSK)."
+title: Endurgreiðsla virðisaukaskatts í útgjaldastýringu
+description: Þetta efnisatriði útskýrir hvernig á að fá endurgreiðslur á gjaldgengum virðisaukaskatti (VSK).
 author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8bc9e533de40aa8fe8ddfe422cfe0f4078a360c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: d1c9357f8f51e1a87aebeb8f802dbe3b5fdd5aa0
-ms.contentlocale: is-is
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359567"
 ---
-
 # <a name="vat-recovery-in-expense-management"></a>Endurgreiðsla virðisaukaskatts í útgjaldastýringu
 
 [!include [banner](../includes/banner.md)]
@@ -68,11 +67,10 @@ Arnie, sem er meðlimur í bakvinnsluteymi Contoso, er ábyrgur fyrir því að 
 
 ## <a name="send-vat-recovery-data-to-the-third-party-vendor-to-file-international-recovery-returns"></a>Senda gögn um endurgreiðslu virðisaukaskatts til þriðja aðila lánardrottins til að skrá skil á alþjóðlegri endurgreiðslu
 
-Þegar Arnie er tilbúinn til að senda gögn kostnaðarskýrslunnar til þriðja aðila lánardrottins sem mun skrá skil á endurgreiðslu virðisaukaskatts, opnar hann síðuna **Endurheimt kostnaðarskatts**. Hann síar síðuna svo hún sýni aðeins kostnaðarskýrslurnar sem eru merktar sem **Tilbún til endurgreiðslu**. Arnie velur síðan **Skrá** &gt; **Flytja út í Excel**. VSK upplýsingarnar í kostnaðarskýrslunni eru fluttar út í vinnublað Microsoft Excel. Arnie sendir vinnublaðið til þriðja aðila lánardrottins og lætur fylgja með skilaboð um að pappírskvittanirnar hafi verið sendar með inniheldur skilaboð sem segir að pappírskvittanir hafi verið sendar hraðsendingu.
+Þegar Arnie er tilbúinn til að senda gögn kostnaðarskýrslunnar til þriðja aðila lánardrottins sem mun skrá skil á endurgreiðslu virðisaukaskatts, opnar hann síðuna **Endurheimt kostnaðarskatts**. Hann síar síðuna svo hún sýni aðeins kostnaðarskýrslurnar sem eru merktar sem **Tilbún til endurgreiðslu**. Arnie velur síðan **Skrá** &gt; **Flytja út í Excel**. VSK upplýsingarnar í kostnaðarskýrslunni eru fluttar út í Microsoft Excel vinnublaðl. Arnie sendir vinnublaðið til þriðja aðila lánardrottins og lætur fylgja með skilaboð um að pappírskvittanirnar hafi verið sendar með inniheldur skilaboð sem segir að pappírskvittanir hafi verið sendar hraðsendingu.
 
 ## <a name="process-expenses-for-domestic-vat-recovery"></a>Vinna úr kostnaði vegna innlendrar endurgreiðslu virðisaukaskatts
 
 Arnie verður að staðfesta að færslur kostnaðarskýrslunnar séu gjaldgengar fyrir endurgreiðslu á virðisaukaskatti og að stafrænu kvittanirnar séu tengdar skýrslunni. Til að byrja að vinna úr gjaldgengum kostnaði vegna innlendrar endurgreiðslu, opnar Arnie síðuna **Endurheimt kostnaðarskatts** og velur kostnaðarskýrsluna sem krefst staðfestingar. Hann staðfestir að kvittanirnar séu á nafni fyrirtækisins í stað starfsmanns. Fyrir endurgreiðslu virðisaukaskatts verða kvittanir að vera á nafni fyrirtækisins. Arnie staðfestir síðan að réttur VSK-flokkur og VSK-kóði vöru hafi verið færður inn.
 
 Þegar Arnie tekur við pappírskvittununum breytir hann stöðu kostnaðarskýrslunnar í **Tilbúin til endurgreiðslu**. Hann getur síðan skráð skilin hjá viðeigandi skattyfirvöldum. Í þessu tilviki er IRS viðeigandi skattyfirvald í Bandaríkjunum.
-

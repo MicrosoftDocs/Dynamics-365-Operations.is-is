@@ -1,13 +1,13 @@
 ---
 title: Innkaupareglur
-description: "Þessi grein gefur upplýsingar um innkaupareglur. Innkauparegla er safn reglna sem stýrir innkaupaferlinu. Innkaupareglur hjálpa innkaupastjórum að innleiða sína innkaupastefnu með því að stofna regluskipulag sem er stilltur saman við stjórnunaráætlun fyrirtækisins fyrir innkaup."
+description: Þessi grein gefur upplýsingar um innkaupareglur. Innkauparegla er safn reglna sem stýrir innkaupaferlinu. Innkaupareglur hjálpa innkaupastjórum að innleiða sína innkaupastefnu með því að stofna regluskipulag sem er stilltur saman við stjórnunaráætlun fyrirtækisins fyrir innkaup.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a16f365fa5a8b39dddac2886c36a8231de745a37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 675a7a8b0da228e789ee37ca8fe1d0c0ea01c283
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358762"
 ---
-
 # <a name="purchasing-policies"></a>Innkaupareglur
 
 [!include [banner](../includes/banner.md)]
@@ -148,7 +147,6 @@ Samlegðarregla stofnunar innkaupapantana og eftirspurnar skilgreinir stefnuregl
     -   **Ekki heimila sameiningu eftirspurnar** – Engin samþykktar innkaupabeiðnalínur eru hæfar fyrir sameiningu eftirspurnar. Þessi kostur er valinn að sjálfgefnu og á aðeins á innkaupabeiðnilínur sem krefjast handvirkrar úrvinnslu fyrir stofnun innkaupapöntunar.
     -   **Alltaf heimila sameiningu eftirspurnar** – Allar samþykktar innkaupabeiðnalínur eru hæfar fyrir sameiningu eftirspurnar. **Ábending:** Ef valið er **Alltaf heimila sameiningu eftirspurnar** valkosturinn á **Sameining eftirspurnar** flipanum, en  **stofna innkaupapantanir Sjálfvirkt** valkosturinn er valinn í flipanum **stofnun Handvirkra innkaupapantana** er öllum innkaupapöntunum haldið eftir fyrir handvirka úrvinnslu.
     -   **Heimila sameiningu eftirspurnar við þessi skilyrði** – Skilgreina þau skilyrði sem ákvarða hvort samþykktar innkaupabeiðnalínur eru hæfar fyrir sameiningu eftirspurnar. Fyrir hverja gerð innkaupabeiðnilínu er hægt að stilla skilyrðin eftir innkaupategund og lánardrottni. Ef valið er **Heimila sameiningu eftirspurnar við þessi skilyrði** er hægt að stilla skilyrðin eftir innkaupategund og lánardrottni fyrir hverja tegund innkaupabeiðnilínu. Þegar innkaupategund er valin eru allir undirflokkar fyrir þá innkaupategund einnig valdir. Ef valinn er valkosturinn **Allt** fyrir tiltekna línugerð eru allar innkaupabeiðnilínur þeirrar línugerðar hæfar fyrir sameiningu eftirspurnar.
-
 
 
 

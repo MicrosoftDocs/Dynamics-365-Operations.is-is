@@ -1,13 +1,13 @@
---- 
-title: "Hanna grunnstillingar rafrænnar skýrslugerðar til að búa til skýrslur á Word-sniði"
-description: "Eftirfarandi skref útskýra hvernig notandi í annaðhvort hlutverk kerfisstjóri eða þróunaraðili rafræn skýrslugerð getur grunnstilla snið rafræn skýrslugerð til að mynda skýrslur sem skjöl í Microsoft Word."
+---
+title: Hanna grunnstillingar rafrænnar skýrslugerðar til að búa til skýrslur á Word-sniði
+description: Eftirfarandi skref útskýra hvernig notandi í annaðhvort hlutverk kerfisstjóri eða þróunaraðili rafræn skýrslugerð getur grunnstilla snið rafræn skýrslugerð til að mynda skýrslur sem skjöl í Microsoft Word.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362350"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Hanna grunnstillingar rafrænnar skýrslugerðar til að búa til skýrslur á Word-sniði
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Eftirfarandi skref útskýra hvernig notandi í annaðhvort hlutverk kerfisstjóri eða þróunaraðili rafræn skýrslugerð getur grunnstilla snið rafræn skýrslugerð til að mynda skýrslur sem skjöl í Microsoft Word. Hægt er að framkvæma þessum skrefum í GBSI fyrirtækinu.
+Eftirfarandi skref útskýra hvernig notandi í annaðhvort hlutverk kerfisstjóri eða þróunaraðili rafræn skýrslugerð getur grunnstilla snið rafræn skýrslugerð (ER) til að mynda skýrslur sem skjöl í Microsoft Word. Hægt er að framkvæma þessum skrefum í GBSI fyrirtækinu.
 
 Til að ljúka þessum skrefum verður fyrst að ljúka við skref í verkefnaleiðbeiningar „Búa til grunnstilling Rafræn skýrslugerð til að mynda skýrslur í OPENXML-snið“. Fyrirfram verður líka að hlaða niður og vista eftirfarandi sniðmát staðbundið fyrir sýnishorn skýrslu:
 
@@ -35,7 +35,7 @@ Til að ljúka þessum skrefum verður fyrst að ljúka við skref í verkefnale
 - [Afmarkað sniðmát greiðsluskýrslu](https://go.microsoft.com/fwlink/?linkid=862266)
 
 
-Þetta ferli er fyrir eiginleika sem var bætt við í Microsoft Dynamics 365 for Operations útgáfu 1611.
+Þetta ferli er fyrir eiginleika sem var bætt við í Microsoft Dynamics 365 for Operations, útgáfu 1611.
 
 
 ## <a name="select-the-existing-er-report-configuration"></a>Velja fyrirliggjandi grunnstilling skýrsla í Rafræn skýrslugerð
@@ -99,5 +99,4 @@ Til að ljúka þessum skrefum verður fyrst að ljúka við skref í verkefnale
 16. Smellið á „Í lagi“.
 17. Smellið á „Í lagi“.
     * Greina myndað úttak. Athuga að myndað úttak er sett fram í Word-snið og inniheldur upplýsingar um unnar greiðslur.  
-
 

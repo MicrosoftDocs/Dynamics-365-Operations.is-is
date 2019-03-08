@@ -1,13 +1,13 @@
 ---
-title: "Dálkaskilgreiningar í Fjárhagsskýrslum"
-description: "Þessi grein veitir upplýsingar um skýrsluskilgreiningar. Línuskilgreining er skýrsluhluti, eða eining sem tilgreinir efni hverrar raðar í fjárhagsskýrslu. Eins og línuskilgreiningar, grunnur dálkaskilgreiningar má nota á mörg skýrslum."
+title: Dálkaskilgreiningar í Fjárhagsskýrslum
+description: Þessi grein veitir upplýsingar um skýrsluskilgreiningar. Línuskilgreining er skýrsluhluti, eða eining sem tilgreinir efni hverrar raðar í fjárhagsskýrslu. Eins og línuskilgreiningar, grunnur dálkaskilgreiningar má nota á mörg skýrslum.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e92d50828f6511329401b43154895da1244788cd
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356347"
 ---
-
 # <a name="column-definitions-in-financial-reports"></a>Dálkaskilgreiningar í Fjárhagsskýrslum
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,7 @@ Dálkskilgreining getur innihaldið tvo til 255 dálka.
 Dálkskilgreining inniheldur eftirfarandi upplýsingar:
 
 - Dálkur lýsingar fyrir línuskilgreiningunni.
-- Upphæðardálka sem birta gögn úr fjárhagsgögnum, Microsoft Excel-Vinnublað eða útreikningi annarra gagna í dálkskilgreiningunni.
+- Upphæðardálkar sem birta gögn úr fjárhagsgögnum, Microsoft Excel vinnublaði eða útreikningi sem byggja á öðrum gögnum í dálkskilgreiningunni
 - Sniðdálkar
 - Eigindadálka.
 
@@ -121,11 +120,11 @@ Eftirfarandi tafla lýsir kóðum dálktakmarkana.
 | ADJ                     | Takmarkar upphæðirnar sem birtar eru í dálkinum við upphæðir tímabilsleiðréttinga, ef þessar upphæðir eru til staðar. |
 | XAD                     | Takmarkar upphæðirnar sem birtar eru í dálkinum svo upphæðir tímabilsleiðréttinga sé sleppt. |
 | PT                      | Takmarkar upphæðirnar sem birtar eru í dálkinum svo aðeins bókaðar færslur séu hafðar með, ef þessar færslur eru til staðar. |
-| UPT                     | Takmarkar upphæðirnar sem birtar eru í dálkinum svo aðeins óbókaðar færslur séu hafðar með, ef þessar færslur eru til staðar.<blockquote>[!NOTE] Sumar gagnaveitur styðja ekki óbókaðar færslur. Frekari upplýsingar eru í <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>leiðbeiningum um samþættingu gagna</a> fyrir Microsoft Dynamics ERP kerfið.</blockquote> |
+| UPT                     | Takmarkar upphæðirnar sem birtar eru í dálkinum svo aðeins óbókaðar færslur séu hafðar með, ef þessar færslur eru til staðar.<blockquote>[!NOTE] Sumar gagnaveitur styðja ekki óbókaðar færslur. Frekari upplýsingar er að finna í <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>leiðarvísi gagnasamþættingar</a> fyrir Microsoft Dynamics ERP kerfið þitt.</blockquote> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>dálkur takmarkaður við einingu skipurits
 
-1. Opnið dálkskilgreiningu í Skýrsluhönnun til að gera breytingar.
+1. Opnið dálkskilgreiningu í Report Designer til að gera breytingar.
 2. Tvísmellið á hólfið **Eining skipurits** til að takmarka dálkinn.
 3. Í svarglugganum **Einingaval skipurits** skal velja skipurit af listanum **Skipurit**.
 4. Stækkið eða fellið saman listann yfir einingar og veljið svo einingu skipurits og smellið á **Í lagi**.
@@ -171,13 +170,13 @@ Hægt er nota **dálkfyrirsögn** svarglugga til að bæta við, breyta og eyða
 
 ### <a name="create-an-automatically-generated-header"></a>Stofna sjálfvirkt myndaðan haus
 
-Report Designer getur sjálfkrafa myndað dálkhausa byggða á kóðum sjálfvirks texta. Sjálfvirkir textakóðar eru breytur sem eru uppfærðar í hvert sinn sem skýrsla er mynduð. Allar dálkfyrirsagnir geta innihaldið þessa kóða til að tilgreina upplýsingar skýrslu sem geta verið mismunandi, á borð við dagsetningu eða tímabilsnúmer. Þess vegna er hægt að nota eina dálkskilgreiningu fyrir margar skýrsluskilgreiningar, tímabil og skipurit. Þar sem sjálfvirkur texti kóða notast við dagatalsupplýsingar úr hlutanum Upplýsingar í dálkskilgreiningu, eru þeir aðeins studdir fyrir dálkana **CALC**, **FD**, og **WKS** dálkana. Hvernig sjálfvirkur textakóði birtist í dálkfyrirsagnarhólfinu hefur áhrif á hvernig þær upplýsingar birtast í skýrslunni. Í svarglugganum **Dálkfyrirsögn** birtast sjálfvirku textakóðarnir með blöndu há- og lágstafa. Þess vegna er textinn sem birtist há- og lágstafa í skýrslunni. Á hefðbundnu almanaksári leysir **@CalMonthLong** úr mánuði **7** sem **júlí**. Ef heiti mánaðar á að vera með hástöfum í skýrslunni, s.s. **JÚLÍ**, er sjálfvirkur textakóði sleginn inn með hástöfum í reitinn **Texti dálkfyrirsagnar**. Til dæmis: Færið inn **@CALMONTHLONG**. Hægt er að nota kóða með texta. Til dæmis færirðu inn eftirfarandi fyrirsagnartexta: **Tímabil @FiscalPeriod-@FiscalYear frá @StartDate til @EndDate**. Fyrirsögn skýrslu sem er mynduð svipar eftirfarandi texta: **Tímabil 1-02 frá 01/01/02 til 31/01/02**.
+Report Designer getur sjálfkrafa myndað dálkhausa byggða á kóðum sjálfvirks texta. Sjálfvirkir textakóðar eru breytur sem eru uppfærðar í hvert sinn sem skýrsla er mynduð. Allar dálkfyrirsagnir geta innihaldið þessa kóða til að tilgreina upplýsingar skýrslu sem geta verið mismunandi, á borð við dagsetningu eða tímabilsnúmer. Þess vegna er hægt að nota eina dálkskilgreiningu fyrir margar skýrsluskilgreiningar, tímabil og skipurit. Þar sem sjálfvirkur texti kóða notast við dagatalsupplýsingar úr hlutanum Upplýsingar í dálkskilgreiningu, eru þeir aðeins studdir fyrir dálkana **CALC**, **FD**, og **WKS** dálkana. Hvernig sjálfvirkur textakóði birtist í dálkfyrirsagnarhólfinu hefur áhrif á hvernig þær upplýsingar birtast í skýrslunni. Í svarglugganum **Dálkfyrirsögn** birtast sjálfvirku textakóðarnir með blöndu há- og lágstafa. Þess vegna er textinn sem birtist há- og lágstafa í skýrslunni. Á hefðbundnu almanaksári leysir **@CalMonthLong** úr mánuði **7** sem **júlí**. Ef heiti mánaðar á að vera með hástöfum í skýrslunni, s.s. **JÚLÍ**, er sjálfvirkur textakóði sleginn inn með hástöfum í reitinn **Texti dálkfyrirsagnar**. Færðu t.d. inn **@CALMONTHLONG**. Hægt er að nota kóða með texta. Til dæmis færirðu inn eftirfarandi fyrirsagnartexti: **Tímabil @FiscalPeriod-@FiscalYear frá @StartDate til @EndDate** Fyrirsögn skýrslu sem er mynduð svipar eftirfarandi texta: **Tímabil 1-02 frá 01/01/02 til 31/01/02**.
 
 > [!NOTE]
 > Sniðið á sumum texta, svo sem löngum dagsetningum, fer eftir svæðisstillingunum sem eru valdar á Finance and Operations-þjóninum. Til að breyta þessum stillingum er smellt á **Ræsa** hnappinn, **Stjórnborð** valið og smellt á **Svæðisbundnir valkostir og tungumálavalkostir**. Eftirfarandi tafla inniheldur tiltækan sjálfvirkan texta fyrir dálkfyrirsagnir.
 
 
-| Valkostir sjálfvirks texta og kóði                | lýsing |
+| Valkostir sjálfvirks texta og kóði                | Lýsing |
 |-----------------------------------------|-------------|
 | Mánaðarheiti (@CalMonthLong)              | Prentar heiti gildandi mánaðar í dálkfyrirsögnina. Ef ákveðið er að slétta upphæðirnar í skýrslunni að þúsundum, milljónum eða milljörðum eða ef dálkbreidd í skýrslunni er stillt á færri en níu stafi er mánaðarheitið stytt niður í fyrstu þrjá stafina. |
 | Stytt mánaðarheiti (@CalMonthShort) | Prenta skammstafað heiti mánaðarins fyrir valið fjárhagstímabil. |
@@ -186,11 +185,11 @@ Report Designer getur sjálfkrafa myndað dálkhausa byggða á kóðum sjálfvi
 | Fjárhagsár (@FiscalYear)               | Prentar fjárhagsár fyrir dálkinn á talnasniði. |
 | Almanaksár (@CalYear)                | Prentar almanaksár fyrir dálkinn á talnasniði. |
 | Upphafsdagur (@StartDate)                 | Prenta upphafsdagsetningu fyrir dálk. |
-| Lokadagur (@EndDate)                     | Prenta Lokadagur fyrir dálk |
-| Einingarnafn úr tré (@UnitName)         | Ef dálkur er takmarkaður við tiltekna einingu í skipuritinu er einingarheitið prentað í dálkfyrirsögninni. |
+| Lokadagsetning (@EndDate)                     | Prenta Lokadagur fyrir dálk |
+| Heiti einingar úr tré (@UnitName)         | Ef dálkur er takmarkaður við tiltekna einingu í skipuritinu er einingarheitið prentað í dálkfyrirsögninni. |
 | Lýsing einingar (@UnitDesc)            | Ef dálkur er takmarkaður við tiltekna einingu í skipuritinu er einingarlýsingin prentuð í dálkfyrirsögninni. |
 | Bókarkóði (@BookCode)                   | Prentar bókarkóðann sem tilgreindur er í dálknum. |
-| Auða línu (@Blank)                     | Setur inn auða línu í dálkfyrirsögnina. |
+| Auð lína (@Blank)                     | Setur inn auða línu í dálkfyrirsögnina. |
 
 ### <a name="create-a-conditional-spanning-header"></a>Stofnun fyrirsagnar með skilyrt umfang
 
@@ -216,9 +215,9 @@ Fyrirsagnir með skilyrt umfang geta náð yfir marga dálka, sem byggja á tilt
 Pála er að búa til skýrslu fyrir sex mánaða spá. Hún vill að orðið Raunverulegt verði prentað fyrir ofan dálkana sem innihalda raungögn og að orðið Fjárhagsáætlun verði prentað fyrir ofan dálkana sem innihalda fjárhagsáætlunarspár. Í hverjum mánuði sem skýrslan er keyrð bætist við einn dálkur með fyrirsögnina Raunverulegt og fækkar um einn dálk með fyrirsögnina Fjárhagsáætlun. Hinsvegar, Pála getur breytt dálkskilgreiningunni handvirkt í hvert skipti sem skýrslan er mynduð til að aðlaga fyrirsagnirnar, hún ákveður að spara tíma og fyrirhöfn, hún ákveður að búa til fyrirsagnir með skilyrt umfang sem munu sjálfkrafa búa til fyrirsagnir yfir viðeigandi dálka í hvert skipti sem skýrslan er keyrð. Pála opnar Skýrsluhönnun, smellir á **Dálkskilgreining** í yfirlitssvæðinu og opnar dálkskilgreininguna fyrir skýrsluna. Hún færir síðan inn eftirfarandi upplýsingar. Grunntímabilið í skýrsluskilgreiningunni er 4.
 
 
-|                     |  Lista fyrir   | B             | K             | D             | E             | F             | G             | H             | I             | J             | K             | L             | M             |
+|                     |  Lista fyrir   | B             | C             | D             | E             | F             | G             | H             | I             | J             | K             | L             | M             |
 |---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
-| Haus 1            |      | Raunþyngd        | Fjárhagsáætlun        |               |               |               |               |               |               |               |               |               |               |
+| Haus 1            |      | Raunverulegt        | Fjárhagsáætlun        |               |               |               |               |               |               |               |               |               |               |
 | Fyrirsögn 2            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
 | Fyrirsögn 3            |      |               |               |               |               |               |               |               |               |               |               |               |               |
 | Gerð dálks         | DESC | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            |
@@ -299,7 +298,7 @@ Hólfið **Hnekking sniðs/gjaldmiðils** tilgreinir snið tugabrota-, gjaldmið
 #### <a name="assign-a-format-currency-override-to-a-report-column"></a>Hnekkingu á gjaldmiðilssniði úthlutað á skýrsludálk
 
 1. Opnið dálkskilgreiningu í Report Designer til að gera breytingar.
-2. Tvísmellið á hólfið **Hnekking sniðs/gjaldmiðils**í upphæðardálki.
+2. Tvísmellið á hólfið **Hnekking sniðs/gjaldmiðils** í upphæðardálki.
 3. Snið er valið í svarglugganum **Hnekkja sniði**.
 
 ### <a name="add-a-print-control-code"></a>Bæta við kóða fyrir stillingu prentunar
@@ -612,4 +611,3 @@ Hægt er að skipta upphæð í dálki eftir tilgreindum fjölda tímabila. Til 
 [Línuskilgreiningar í fjárhagsskýrslugerð](row-definitions-financial-reporting.md)
 
 [Ítarlegir sniðsvalkostir í fjárhagsskýrslugerð](advanced-formatting-options-financial-reporting.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "Reikningsjöfnun og samstæðuinnkaupapöntun"
-description: "Innkaupalögaðili sem er þáttakandi í samstæðuviðskiptafærslu gæti verið uppsett til að nota reikningsjöfnun viðskiptaskulda. Í þessu tilfelli þarf að uppfylla bókunarkröfur bæði fyrir samstæðuviðskipti og reikningsjöfnun viðskiptaskulda áður en hægt er að bóka lánardrottinsreikninga innan samstæðu."
+title: Reikningsjöfnun og samstæðuinnkaupapöntun
+description: Innkaupalögaðili sem er þáttakandi í samstæðuviðskiptafærslu gæti verið uppsett til að nota reikningsjöfnun viðskiptaskulda. Í þessu tilfelli þarf að uppfylla bókunarkröfur bæði fyrir samstæðuviðskipti og reikningsjöfnun viðskiptaskulda áður en hægt er að bóka lánardrottinsreikninga innan samstæðu.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 68b586f8afe7557bf6edee3eca0261d1e9cac0f2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357566"
 ---
-
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Reikningsjöfnun og samstæðuinnkaupapöntun
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ Fylgdu til dæmis eftirfarandi skrefum.
 2.  Gera reikningsuppfærslu fyrir ICSO999 í Fabrikam Sala. Bókun tekst ekki , þar sem varan er ekki til á lager og hefur ekki verið mótteknar. Þess vegna er hægt að uppfæra fjárhagslegar upplýsingar.
 3.  Skrá móttöku varanna og bóka fylgiseðil ICSO999 í Fabrikam Sala. Með þessu er fylgiseðill bókaður sjálfkrafa fyrir ICPO333 í Fabrikam Innkaup. Móttekið magn vörunnar B-R14 í Fabrikam Innkaup breytist í 100.
 4.  Gera reikningsuppfærslu fyrir ICSO999 í Fabrikam Sala. Bókun tekst í báðum lögaðilar. Keypt magn vörunnar B-R14 í Fabrikam Innkaup breytist í 100.
-
 
 
 

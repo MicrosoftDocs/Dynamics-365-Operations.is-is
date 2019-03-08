@@ -1,13 +1,13 @@
 ---
-title: "Flutningsstjórnunarvélar"
-description: "Flutningsstjórnunarvélar skilgreina rökin sem eru notuð til að búa til og vinna flutningstaxta í Flutningsstjórnun."
+title: Flutningsstjórnunarvélar
+description: Flutningsstjórnunarvélar skilgreina rökin sem eru notuð til að búa til og vinna flutningstaxta í Flutningsstjórnun.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dff811723e25952b4c5af20262010ff4b910be7f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 813d13738171969b48d16a5ed52f2b04a8beaeef
-ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361131"
 ---
-
 # <a name="transportation-management-engines"></a>Flutningsstjórnunarvélar
 
 [!include [banner](../includes/banner.md)]
@@ -63,23 +62,23 @@ Vél flutningsstjórnunar krefst þess að setja upp frumstillingargögn til þe
 |          Færibreyta           |                                                                                  Lýsing                                                                                  |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  <em>RateBaseAssigner</em>   | .NET-gerð sem túlkar úthlutunargögn vaxtastigs fyrir tiltekið skema. Málskipan færibreytugildis samanstendur af tveimur hlutum sem eru afmörkuð með lóðréttu striki ( |
-|  <em>MileageEngineCode</em>  |                       Farmreiknivélakóði sem auðkennir skráningu farmvélar í gagnagrunni Microsoft Dynamics 365 for Finance and Operations.                        |
-| <em>ApportionmentEngine</em> |                        Almennur hreyfilkóði sem auðkennir skráningu kostnaðarskiptingavélar í gagnagrunni Microsoft Dynamics 365 for Finance and Operations.                        |
+|  <em>MileageEngineCode</em>  |                       Kílómetravélakóði sem auðkennir skráningu kílómetravélar í Microsoft Dynamics 365 for Finance and Operations gagnagrunninum.                        |
+| <em>Kostnaðarskiptingarvél</em> |                        Almennur vélakóða sem auðkennir kostnaðarskiptingarvél í Microsoft Dynamics 365 for Finance and Operations gagnagrunninum.                        |
 
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>Hvernig er lýsigögnum notuð í flutningsstjórnunarvélar?
 ----------------------------------------------------------
 
-Flutningsstjórnunarvélar sem reiða sig á gögn sem eru skilgreind í Dynamics 365 for Finance and Operations geta notað mismunandi gagnaskemu. Flutningur stjórnkerfi gerir mismunandi flutningsstjórnunarvélar til að nota sama almennan efnislegt töflurnar. Til að tryggja að túlkun keyrslutíma á vélagögnum sé rétt er hægt að skilgreina lýsigögn fyrir gagnagrunnstöflurnar. Þetta dregur úr kostnaður við að byggja nýju flutningsstjórnunar stjórnun vélar þar sem viðbótar töflu og í skjámyndarskipulags er ekki krafist í Operations.
+Flutningsstjórnunarvélar sem reiða sig á gögn sem eru skilgreind í  Dynamics 365 for Finance and Operations geta notað mismunandi gagnaskemu. Flutningur stjórnkerfi gerir mismunandi flutningsstjórnunarvélar til að nota sama almennan efnislegt töflurnar. Til að tryggja að túlkun keyrslutíma á vélagögnum sé rétt er hægt að skilgreina lýsigögn fyrir gagnagrunnstöflurnar. Þetta dregur úr kostnaður við að byggja nýju flutningsstjórnunar stjórnun vélar þar sem viðbótar töflu og í skjámyndarskipulags er ekki krafist í Operations.
 
 ## <a name="what-can-be-used-as-search-data-in-rate-calculations"></a>Hægt er að nota það sem gögn afurðaleitar í útreikninga?
-Gögnum sem eru notuð við útreikning vaxta í Microsoft Dynamics 365 for Finance and Operations er stýrt af skilgreiningu lýsigagna. Til dæmis, ef óskað er að leita að taxta sem póstnúmer á grundvelli setja verður upp lýsigögn samkvæmt uppsláttargerð fyrir póstnúmer.
+Gögnum sem eru notuð við útreikning taxta í Microsoft Dynamics 365 for Finance and Operations er stýrt af afbrigði lýsigagna. Til dæmis, ef óskað er að leita að taxta sem póstnúmer á grundvelli setja verður upp lýsigögn samkvæmt uppsláttargerð fyrir póstnúmer.
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>Krefjast allar vélaskilgreiningar lýsigagna?
 Nei, flutningsstjórnunarvélar sem eru notaðar til að sækja gögn sem krafist er fyrir taxtaútreikning frá utanaðkomandi kerfum þurfa ekki lýsigögn. Hægt að endurheimta gögnin taxta fyrir þessar véla úr ytri flutningsstöðu flutningsaðila kerfum, vanalega í gegnum vefþjónustu. Til dæmis er hægt að nota akstursvél sem sækir gögn beint úr Bing-kortum þannig að þarf ekki að lýsigögn fyrir þessa vél.
 
 | **Ábending**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Flutningsstjórnunarvélar sem eru afhentar með Finance and Operations reiða sig á gögn sem eru sótt úr forritinu. Vélar sem tengjast við ytri kerfi eru ekki teknar með í Operations. Hins vegar vélmiðað framlengingarlíkan gerir það mögulegt að byggja upp viðbætur með Microsoft Dynamics 365 for Finance and Operations Visual Studio Tools. |
+| Flutningsstjórnunarvélar sem eru afhentar með Finance and Operations reiða sig á gögn sem eru sótt úr forritinu. Vélar sem tengjast við ytri kerfi eru ekki teknar með í Operations. Hins vegar vélmiðað framlengingarlíkan gerir það mögulegt að byggja upp viðbætur með Microsoft Dynamics 365 for Finance and Operations Visual Studio verkfærum. |
 
 ## <a name="how-do-i-configure-metadata-for-a-transportation-management-engine"></a>Hvernig get ég skilgreina lýsigögn fyrir vél stjórnun flutningsstjórnunar?
 Lýsigögn fyrir flutningsstjórnunarvélar eru stillt á mismunandi hátt fyrir mismunandi tegundir af vélum.
@@ -90,7 +89,7 @@ Lýsigögn fyrir flutningsstjórnunarvélar eru stillt á mismunandi hátt fyrir
 | **Svæðisvél**                                | Krefst lýsigögn til að setja upp beint á svæðissniðmátið.                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Flutningstímavél** og **akstursvél** | Sækir lýsigögn beint úr uppsetningarskjámynd fyrir skilgreiningu akstursvélina.                                                                                                                                                                                                                                                                                                                                                                                  |
 
-  **Dæmi um lýsigögn fyrir taxtavél** Flutningsstjórnunarvél krefst kenni aðsetursuppruna, áfangastaðsríki og lands/svæðis og upphafs- og endastöð sendingarinnar. Með því að nota þessar þarfir lýsigögn myndu líta út eins og gögn í eftirfarandi töflu. Taflan inniheldur einnig upplýsingar um hvers konar gögn inntaks er krafist.
+  **Dæmi um lýsigögn fyrir taxtavél** Flutningsstjórnunarvél krefst kenni aðsetursuppruna, áfangastaðsríki og lands/svæðis og upphafs- og endastöð sendingarinnar. Með því að nota þessar þarfir lýsigögn myndu líta út eins og gögn í eftirfarandi töflu. Taflan inniheldur einnig upplýsingar um hvers konar gögn inntaks er krafist.
 -   Þessar upplýsingar á að skilgreina í **Flutningsstjórnun** &gt; **Uppsetning** á síðunni **Gerð taxtagrunns**.
 
 | Röð | Nafn                          | Gerð svæðis | Gagnagerð | Uppsláttargerð    | Áskilið |
@@ -100,7 +99,6 @@ Lýsigögn fyrir flutningsstjórnunarvélar eru stillt á mismunandi hátt fyrir
 | 3        | Upphafspóstnúmer áfangastaðar | Úthlutun | Strengur    | Póstnúmer    | Valið  |
 | 4        | Póstnúmer áfangastaðar   | Úthlutun | Strengur    | Póstnúmer    | Valið  |
 | 5        | Áfangaland           | Úthlutun | Strengur    | Land/svæði |           |
-
 
 
 

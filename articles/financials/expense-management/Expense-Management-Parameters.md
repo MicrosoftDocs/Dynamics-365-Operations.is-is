@@ -1,13 +1,13 @@
 ---
-title: "Færibreytur útgjaldastýringar"
-description: "Eftirfarandi færibreytur stjórna hegðun í Kostnaðarstýringu."
+title: Færibreytur útgjaldastýringar
+description: Eftirfarandi færibreytur stjórna hegðun í Kostnaðarstýringu.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: b6f67d44e0c64c145bb6d477c83d5a245b1682d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 22f766b780d10d4fc615660990729f008007787a
-ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355933"
 ---
-
 # <a name="expense-management-parameters"></a>Færibreytur útgjaldastýringar
 
 [!include [banner](../includes/banner.md)]
@@ -92,5 +91,4 @@ Færibreyturnar stjórna almennri hegðun í Kostnaðarstýringu.
 |  <strong>Birta staðfestingu gegn spillingu</strong>  | Veldu þennan valkost til að birta texta gegn spillingu þegar ný kostnaðarskýrsla er búin til. Þá er hægt að virkja tiltekna kostnaðarflokka sem krefjast þess að staðfesting gegn spillingu sé valin á kostnaðarskýrslunni. Til dæmis kann gjafaflokkur sem tengist kostnaði vegna opinbers starfsmann að krefjast þess að starfsmaður staðfesti að kostnaðurinn uppfylli reglur fyrirtækisins um opinbera starfsmenn. |
 | <strong>Skilaboð gegn spillingu fyrir þann sem leggur fram</strong> |                                                                                             Færðu inn textann sem birtist starfsmanni þegar ný kostnaðarskýrsla er stofnuð. Smelltu á hnappinn <strong>Þýðingar</strong> til að slá inn texta á ákveðnu tungumáli sem verður birtur byggt á tungumáli notandans.                                                                                             |
 | <strong>Skilaboð gegn spillingu fyrir samþykkjanda</strong>  |                                                                                             Færðu inn textann sem birtist samþykkjanda þegar ný kostnaðarskýrsla er stofnuð. Smelltu á hnappinn <strong>Þýðingar</strong> til að slá inn texta á ákveðnu tungumáli sem verður birtur byggt á tungumáli notandans.                                                                                             |
-
 

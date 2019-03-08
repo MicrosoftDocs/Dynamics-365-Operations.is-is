@@ -1,14 +1,14 @@
 ---
-title: "Búa til samstæðureikningsskil"
-description: "Þetta efni lýsir ýmsum sviðum þar sem þú gætir búið til samstæðureikningsskil."
+title: Búa til samstæðureikningsskil
+description: Þetta efni lýsir ýmsum sviðum þar sem þú gætir búið til samstæðureikningsskil.
 author: aprilolson
 manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 2a9ceb774a8f205e39abe6a12a0deb69dd4cb69b
 ms.openlocfilehash: 76e675373212195cbe3f6cf43d128b2104f92fc6
-ms.contentlocale: is-is
-ms.lasthandoff: 08/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355197"
 ---
-
 # <a name="generate-consolidated-financial-statements"></a>Búa til samstæðureikningsskil
 
 [!include [banner](../includes/banner.md)]
@@ -225,4 +224,3 @@ Til að fá rétt umreiknaðar upphæðir þegar gjaldmiðlar eru notaðir, nota
 Nánari upplýsingar um samstæðuumreikning og umreikning gjaldmiðils er að finna í yfirefni þessa efnisatriðis, [Sameiningar fjárhags og umreikningur gjaldmiðils](./financial-consolidations-currency-translation.md).
 
 Nánari upplýsingar um hvernig á að slá inn upplýsingar um samstæður á netinu er að finna í [Samstæður á netinu](./consolidate-online.md).
-

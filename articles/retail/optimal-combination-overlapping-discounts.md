@@ -1,13 +1,13 @@
 ---
-title: "Ákvarða bestu samsetningu afsláttar sem skarast"
-description: "Þegar afsláttur skarast, verður að ákvarða samsetningu afsláttar sem skarast, sem mun skapa lægstu heildarupphæð færslunnar eða hæsta heildarafslátt. Þegar afsláttarupphæð er breytileg eftir verði afurða sem eru keyptar, eins og hinn algengi smásöluafsláttur „Keyptu 1, fáðu 1 X prósent afslátt“ (BOGO), snýst þetta ferli um fínstillingu á samsetningum."
+title: Ákvarða bestu samsetningu afsláttar sem skarast
+description: Þegar afsláttur skarast, verður að ákvarða samsetningu afsláttar sem skarast, sem mun skapa lægstu heildarupphæð færslunnar eða hæsta heildarafslátt. Þegar afsláttarupphæð er breytileg eftir verði afurða sem eru keyptar, eins og hinn algengi smásöluafsláttur „Keyptu 1, fáðu 1 X prósent afslátt“ (BOGO), snýst þetta ferli um fínstillingu á samsetningum.
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: eebb532071e7c6bae7cfae93bfe795e79bb16c63
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360694"
 ---
-
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Ákvarða bestu samsetningu afsláttar sem skarast
 
 [!include [banner](includes/banner.md)]
 
 Þegar afsláttur skarast, verður að ákvarða samsetningu afsláttar sem skarast, sem mun skapa lægstu heildarupphæð færslunnar eða hæsta heildarafslátt. Þegar afsláttarupphæð er breytileg eftir verði afurða sem eru keyptar, eins og hin algenga „Keyptu 1, fáðu 1 X prósent afslátt“ smásöluafslátt (BOGO), verður þetta ferli vandamál fínstillingar á samsetningum.
 
-Þessi grein á við um Microsoft Dynamics AX 2012 R3 með KB 3105973 (gefin út 2. nóvember 2015) eða síðar og Microsoft Dynamics 365 for Retail. Við höfum innleitt aðferð til að nota afslætti sem skarast, til að hægt sé að ákvarða samsetningu afsláttar sem skarast tímanlega. Við köllum þessa nýju aðferð **Röðun jaðarvirðis**. Röðun jaðarvirðis er notuð þegar tíminn sem er nauðsynlegur til að meta mögulegar samsetningar á afslætti sem skarast fer yfir þröskuld sem er gerður skilgreinanlegur á síðunni **Færibreytur í Retail**. Í röðun jaðarvirðis, er virði reiknað fyrir hvern afslátt sem skarast með því að nota virði afsláttar á samnýttar afurðir. Afsláttur sem skarast gildir síðan úr tengdu hæsta hlutfallslega virði gegn lægsta hlutfallslega virði. Nánari upplýsingar um nýju greiðsluaðferðina er að finna í hlutanum „Jaðarvirði" síðar í þessari grein. Röðun jaðarvirðis er ekki notað þegar afsláttarupphæðir afurðar verða ekki fyrir áhrifum af annarri afurð í færslunni. Til dæmis er þessi aðferð ekki notuð fyrir tvo einfalda afslætti eða fyrir einfaldan afslátt og magnafslátt einnar afurðar.
+Þessi grein á við um Microsoft Dynamics AX 2012 R3 með KB 3105973 (gefin út 2. nóvember 2015) eða síðar og við Microsoft Dynamics 365 for Retail. Við höfum innleitt aðferð til að nota afslætti sem skarast, til að hægt sé að ákvarða samsetningu afsláttar sem skarast tímanlega. Við köllum þessa nýju aðferð **Röðun jaðarvirðis**. Röðun jaðarvirðis er notuð þegar tíminn sem er nauðsynlegur til að meta mögulegar samsetningar á afslætti sem skarast fer yfir þröskuld sem er gerður skilgreinanlegur á síðunni **Færibreytur í Retail**. Í röðun jaðarvirðis, er virði reiknað fyrir hvern afslátt sem skarast með því að nota virði afsláttar á samnýttar afurðir. Afsláttur sem skarast gildir síðan úr tengdu hæsta hlutfallslega virði gegn lægsta hlutfallslega virði. Nánari upplýsingar um nýju greiðsluaðferðina er að finna í hlutanum „Jaðarvirði" síðar í þessari grein. Röðun jaðarvirðis er ekki notað þegar afsláttarupphæðir afurðar verða ekki fyrir áhrifum af annarri afurð í færslunni. Til dæmis er þessi aðferð ekki notuð fyrir tvo einfalda afslætti eða fyrir einfaldan afslátt og magnafslátt einnar afurðar.
 
 ## <a name="discount-examples"></a>Dæmi um afslætti
 
@@ -85,4 +84,3 @@ Til að leysa vandamál stigveldisvaxandi fjölda samsetninga sem þarf að meta
 ![Samsetning afslátta sem skarast 06](./media/overlapping-discount-combo-06.jpg)
 
 Eftir að jaðarvirði fyrir hvern afslátt á samnýtta hópa afurða hefur verið reiknað út, er afsláttum beitt á samnýttar afurðir í tæmandi röð frá hæsta jaðarvirði til lægsta jaðarvirðis. Fyrir þessa aðferð eru allir eftirstandandi afsláttarmöguleikar ekki bornir saman í hvert skipti sem eitt tilvik afsláttar er sett á. Þess í stað eru afslættir sem skarast bornir saman einu sinni og síðan notað í röð. Enginn viðbótarsamanburður er gerður. Hægt er að skilgreina þröskuld til að skipta yfir í aðferð jaðarvirðis á flipanum **Afsláttur** á síðunni **Færibreytur Retail**. Viðunandi tími til að reikna heildarafslátt er breytilegur milli atvinnugreina smásölu. Hins vegar er þessi tími almennt á bili tíu millisekúnda til einnar sekúndu.
-

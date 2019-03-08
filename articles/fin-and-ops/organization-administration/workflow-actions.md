@@ -1,13 +1,13 @@
 ---
-title: "Aðgerðir í verkflæðissamþykki"
-description: "Þessi grein útskýrir aðgerðir sem hver þátttakandi í verkflæðissamþykki getur gripið til."
+title: Aðgerðir í verkflæðissamþykki
+description: Þessi grein útskýrir aðgerðir sem hver þátttakandi í verkflæðissamþykki getur gripið til.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 829ee16b8fd72a0808a657419524487d9c1b3123
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361752"
 ---
-
 # <a name="actions-in-workflow-approval-processes"></a>Aðgerðir í verkflæðissamþykki
 
 [!include [banner](../includes/banner.md)]
@@ -143,4 +142,3 @@ Síðan starfar Anna fyrir hönd Friðriks. Þetta þýðir að þegar Anna sam�
 Til dæmis hefur Samúel sent kostnaðarskýrslu upp á $12,000 og þessu skjali hefur verið úthlutað til Súsönnu. Ef Súsanna biður um breytingu er kostnaðarskýrslan send til baka til Samúels.
 
 Samúel getur sent kostnaðarskýrsluna aftur. Hann getur gert umbeðnar breytingar fyrst eða endursent upprunalega útgáfu af kostnaðarskýrslunni. Ef Samúel endursendir kostnaðarskýrsluna þá er hún send til Friðriks til samþykktar, því að Friðrik var fyrsti samþykkjandinn í samþykktarferlinu.
-

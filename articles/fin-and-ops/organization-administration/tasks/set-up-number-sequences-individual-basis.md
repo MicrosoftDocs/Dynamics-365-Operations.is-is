@@ -1,13 +1,13 @@
---- 
-title: "Setja upp númeraröð á einstaklingsgrundvelli"
-description: "Númeraraðir eru notaðar til að mynda lesanleg, einkvæm kenni fyrir skýrslur aðalgagna og færslur sem krefjast þeirra."
+---
+title: Setja upp númeraröð á einstaklingsgrundvelli
+description: Númeraraðir eru notaðar til að mynda lesanleg, einkvæm kenni fyrir skýrslur aðalgagna og færslur sem krefjast þeirra.
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceDetails
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6734d66a06f8a8dc90a48bd68b7b4e22177b4672
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4e2808e57dc8d137fac892d48e99d7687ff1bf81
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362212"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Setja upp númeraröð á einstaklingsgrundvelli
 
@@ -43,5 +43,4 @@ Númeraraðir eru notaðar til að mynda lesanleg, einkvæm kenni fyrir skýrslu
 8. Víkkið út almenna hlutann.
     * Á almennt flýtiflipanum skal tilgreina hvort númeraröðin sé handvirk, og samfelld eða ósamfelld. Auk þess eru færðir inn lægstir og hæstir tölustafir sem hægt er að nota í númeraröðinni.     Við mælum ekki með því að breyta ósamfelldri númeraröð í samfellda númeraröð. Númeraröðin verður ekki sannlega samfelld. Þessi breyting getur líka valdið broti á tvítekningarlykli í gagnagrunninum. Að auki er hafa samfelldar númeraraðir meiri áhrif á afköst.   
 9. Smellið á „Vista“.
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Búa til snið til að nota skjalastjórnunarskrár í sniðsúttökum rafrænnar skýrslugerðar"
-description: "Eftirfarandi skref útskýra hvernig notandi með hlutverk kerfisstjóra eða þróunaraðila rafrænnar skýrslugerðar getur stillg snið rafrænnar skýrslugerðar til að nota skjalastjórnunarskrár í rafrænum skýrslum."
+---
+title: Búa til snið til að nota skjalastjórnunarskrár í sniðsúttökum rafrænnar skýrslugerðar
+description: Eftirfarandi skref útskýra hvernig notandi með hlutverk kerfisstjóra eða þróunaraðila rafrænnar skýrslugerðar getur stillg snið rafrænnar skýrslugerðar til að nota skjalastjórnunarskrár í rafrænum skýrslum.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 1815a0004eee6734b3c7d2c2f9e75ce5fe16af1c
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362948"
 ---
-
 # <a name="create-formats-to-use-document-management-files-in-er-output"></a>Búa til snið til að nota skjalastjórnunarskrár í sniðsúttökum rafrænnar skýrslugerðar
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
@@ -120,5 +119,4 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í á “R
 22. Smelltu á Binda.
 23. Smellið á „Vista“.
 24. Lokið síðunni.
-
 

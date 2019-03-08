@@ -1,13 +1,13 @@
 ---
-title: "Bakfæra stöðu framleiðslupöntunar"
-description: "Þetta efnisatriði lýsir því skal bakfæra stöðu framleiðslupöntunar."
+title: Bakfæra stöðu framleiðslupöntunar
+description: Þetta efnisatriði lýsir því skal bakfæra stöðu framleiðslupöntunar.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParmStatusDecrease
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ca5a62b4509f0c7e49da94128e72eae5f35829e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4761e44b6bbc93ebf4a395948f42c2a73013ecb9
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367318"
 ---
-
 # <a name="reverse-the-production-order-status"></a>Bakfæra stöðu framleiðslupöntunar
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Ef stöðu framleiðslupöntunar er bakfærð er pöntunin sjálf og allar aðge
 
 ## <a name="from-started-to-released"></a>Frá Hafið í Losað
 Þegar stöðu framleiðslupöntunar er bakfært úr **hafið** í **losað**, eru allar vörur sem tilkynntar eru tilbúnar færðar aftur. Ef efni hefur verið sótt eða afhendingar á inn- og útleið hafa verið gerðar til framleiðslu, er þessum stillingum einnig snúið við. **staða Eftirstöðva** í uppskriftarlínum framleiðslupöntunarinnar er breytt úr **Lokið** til **efnisnotkun**. Ef tími hefur verið skráður, eða ef magn hefur verið tilkynnt sem lokið fyrir aðgerðirnar í framleiðsluleið, eru þessar stillingar færðar til baka. **Staða Eftirstöðva** í uppskriftarlínum framleiðslupöntunarinnar er breytt úr **Lokið** í **leiðarnotkun** í framleiðsluleið. Stillingar fyrir allar vörur sem eru bókaðar sem í vinnslu eða verk í vinnslu eru bakfærðar. Á **upplýsingar um Framleiðslupöntun** síðuna svæða sem sýna magnið sem var ræst eða skráð sem lokið eru endurstillt. Dagsetningar fyrir þær færslur sem eru einnig endurstillar.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Reikna út uppskrift og nota uppbygging með einu stigi (febrúar 2016)"
-description: "Þetta ferli sýnir hvernig reikna út kostnað fullunnin vara með því að nota niðurbrot á einu stigi sem er í kostnaðarskjali."
+---
+title: Reikna út uppskrift og nota uppbygging með einu stigi (febrúar 2016)
+description: Þetta ferli sýnir hvernig reikna út kostnað fullunnin vara með því að nota niðurbrot á einu stigi sem er í kostnaðarskjali.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: f74f8e4efc4474693f0a5b543c1300c3b64ecda0
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361591"
 ---
 # <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016"></a>Reikna út uppskrift og nota uppbygging með einu stigi (febrúar 2016)
 
@@ -43,5 +43,4 @@ ms.lasthandoff: 10/16/2018
 8. Smellt er á Skoða útreikningsupplýsingar.
     * Gæti þurft að smella á þrípunkt (...) til að sjá þennan valkostur í efsta valmynd.    Hér er samsetning kostnaðarins:  •    10 kemur úr ITEM_A, 10 úr ITEM_B, 10 úr BOM_2. Í þessu tilfelli eru engar upplýsingar fyrir BOM_2 því að fært inn sem staðalkostnaður af 10 en ekki gert í gegnum útreikningur.  •  7 kemur úr uppsetningartími, sem er fastur kostnaður, og viðbótar 7 kemur úr keyrsluaaðgerð (Vinnsla).  •  Einnig eru aðrar upphæðir sem samsvara óbeinum kostnaði.  
 9. @SysTaskRecorder:_RequestClose
-
 

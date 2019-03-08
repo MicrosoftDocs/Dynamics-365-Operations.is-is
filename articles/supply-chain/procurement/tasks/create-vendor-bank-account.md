@@ -1,13 +1,13 @@
---- 
-title: "Stofna bankareikning lánardrottins"
-description: "Þessi verklýsing sýnir hvernig á að stofna bankareikning fyrir lánardrottinn."
+---
+title: Stofna bankareikning lánardrottins
+description: Þessi verklýsing sýnir hvernig á að stofna bankareikning fyrir lánardrottinn.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable, VendBankAccounts, LogisticsPostalAddressSingle
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: deb3587667ac13b95617ec219995bfef931df00c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: adb759c59d7275e7323dbb760de56acdef2e3cff
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360625"
 ---
 # <a name="create-a-vendor-bank-account"></a>Stofna bankareikning lánardrottins
 
@@ -63,5 +63,4 @@ ms.lasthandoff: 09/29/2017
 25. Í svæðinu bankareikningur, veljið lykil sem hefur verið rétt nýlega stofnuð.
 26. Smellið á „Vista“.
     * Aðsetrið má erfa frá bankaflokki, ef slíkt er tilgreint, eða hægt er að bæta honum við hér.  
-
 

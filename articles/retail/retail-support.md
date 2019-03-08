@@ -1,31 +1,30 @@
 ---
-title: "Fá stuðning fyrir Dynamics 365 for Retail"
-description: "Í þessari grein er útskýrt hvernig hægt er fá aðstoð með Microsoft Dynamics 365 for Retail."
+title: Fá aðstoð fyrir Dynamics 365 for Retail
+description: Í þessari grein er útskýrt hvernig hægt er fá aðstoð með Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 09/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
+ms.openlocfilehash: 3d437b16e96d53216032f1f31df3d4c0ba63e117
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: 2e74554338e4b12991756f63257f67ee3e2e6dc4
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364052"
 ---
-
-# <a name="get-support-for-dynamics-365-for-retail"></a>Fá stuðning fyrir Dynamics 365 for Retail
+# <a name="get-support-for-dynamics-365-for-retail"></a>Fá aðstoð fyrir Dynamics 365 for Retail
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,7 +48,7 @@ Notið tilföng í eftirfarandi töflu til að fá stuðning fyrir Retail. Þess
 <tbody>
 <tr>
 <td>Spyrja samfélagið</td>
-<td>Farið á samfélagssíðuna <a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a> til að finna hjálp við spurningum þínum frá Dynamics-samfélaginu.</td>
+<td>Fara í <a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a> samfélagssíðuna til að fá hjálp með spurningarnar þínar frá Dynamics samfélaginu.</td>
 </tr>
 <tr>
 <td>Nota Vandamálaleit verkfærið.</td>
@@ -85,5 +84,4 @@ Fyrir tæknilegar spurningar sem tengjast innskráningu og aðgangi að Customer
 </tbody>
 </table>
 
-Frekari upplýsingar um Microsoft Dynamics aðstoð í boði, sjá [Microsoft Dynamics netaðstoð](https://www.microsoft.com/dynamics/dynamics-online-support.aspx).
-
+Frekari upplýsingar um Microsoft Dynamics aðstoð í boði, sjá [Microsoft Dynamics Netaðstoð](https://dynamics.microsoft.com/en-us/support/).

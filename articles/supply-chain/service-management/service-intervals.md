@@ -1,31 +1,30 @@
 ---
-title: "Þjónustubil"
-description: "Þjónustubil gefur til kynna þá tíðni sem þjónustupöntunarlínur eru stofnaðar fyrir þjónustusamningslínur þegar þjónustupantanir eru stofnaðar."
+title: Þjónustubil
+description: Þjónustubil gefur til kynna þá tíðni sem þjónustupöntunarlínur eru stofnaðar fyrir þjónustusamningslínur þegar þjónustupantanir eru stofnaðar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 10078cbd02209126e9655b823fcf844b692a4794
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 4ea10e4c0fbfd21538bba16d2b01deb3e4b3a10d
-ms.openlocfilehash: 4a51a3c3483e81cefdaf3d8e62a4f1f47fcd706b
-ms.contentlocale: is-is
-ms.lasthandoff: 02/20/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352943"
 ---
-
 # <a name="service-intervals"></a>Þjónustubil
 
 [!include [banner](../includes/banner.md)]
@@ -94,5 +93,4 @@ Ein þjónustupöntunarlína er stofnuð fyrir hverja þjónustupöntun vegna þ
 ## <a name="related-topics"></a>Tengd efnisatriði
 
 [Setja upp þjónustubil](set-up-service-intervals.md)  
-
 

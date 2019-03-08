@@ -1,13 +1,13 @@
 ---
-title: "Uppsetningarferli ítarlegrar bankaafstemmingar"
-description: "Ítarleg bankaafstemming gerir mögulegt að flytja inn rafræn bankayfirlit og sjálfkrafa stemma af við bankafærslur í Microsoft Dynamics 365 for Finance and Operations.  Þessi grein verður útskýra skal setja upp ferli fyrir afstemmingu."
+title: Uppsetningarferli ítarlegrar bankaafstemmingar
+description: Ítarleg afstemming aðgerð gerir það mögulegt að flytja inn rafræn bankayfirlit sem er hægt að stemma sjálfkrafa af úr bankafærslu í Microsoft Dynamics 365 for Finance and Operations.  Þessi grein verður útskýra skal setja upp ferli fyrir afstemmingu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c95589b013b569f15fce80612a11eca621944f6b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f77a9c927232c95558ba78037f6a6e9f77e202c2
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357336"
 ---
-
 # <a name="advanced-bank-reconciliation-setup-process"></a>Uppsetningarferli ítarlegrar bankaafstemmingar
 
 [!include [banner](../includes/banner.md)]
 
-Ítarleg bankaafstemming gerir mögulegt að flytja inn rafræn bankayfirlit og sjálfkrafa stemma af við bankafærslur í Microsoft Dynamics 365 for Finance and Operations.  Þessi grein verður útskýra skal setja upp ferli fyrir afstemmingu.  
+Ítarleg afstemming aðgerð gerir það mögulegt að flytja inn rafræn bankayfirlit sem er hægt að stemma sjálfkrafa af úr bankafærslu í Microsoft Dynamics 365 for Finance and Operations.  Þessi grein verður útskýra skal setja upp ferli fyrir afstemmingu.  
 
 Fjöldi eintaka sem verður að setja upp áður en að nota ítarlega afstemmingu aðgerðir. Nánari upplýsingar um uppsetningu banki innflutning uppgjör í [Uppsetning banka innflutningsferlið uppgjör](set-up-advanced-bank-reconciliation-import-process.md).  Kröfur um uppsetningu á afstemmingu stendur nánar hér að neðan.
 
@@ -59,7 +58,6 @@ Fyrst þarf að virkja Ítarlega afstemmingu bankareiknings.  Fjöldi eftirfaran
 Á **nafn bankareikning í yfirlitum** er heitið sem notað er fyrir bankareikninginn sem á við rafræna bankayfirlit.  Þetta nafn er notað þegar hvaða færslur á að flytja inn bankareikningur uppgjör sem innihalda upplýsingar fyrir marga bankareikninga. 
 
 Valkostinn að **Afstemming eftir innflutning** verður sjálfkrafa villuleita bankayfirlit, stofna nýja afstemmingar banka og vinnublaðinu og keyra samsvörunarreglusett Sjálfgefið.  Þessi aðgerð gerir ferliið sjálfvirkt upp að þeim punkti þar sem færslur þarft að jafna handvirkt.  Stilling bankareiknings fer í vanskil við innflutningur.
-
 
 
 
