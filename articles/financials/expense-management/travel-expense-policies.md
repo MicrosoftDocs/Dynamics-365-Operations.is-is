@@ -1,13 +1,13 @@
 ---
-title: "Skilgreina kostnaðarreglur"
-description: "Hægt er að skilgreina kostnaðarreglur sem starfskraftar þurfa að fylgja þegar þeir færa inn og senda kostnaðarskýrslur og ferðabeiðnir í Microsoft Dynamics 365 for Finance and Operations."
+title: Skilgreina kostnaðarreglur
+description: Hægt er að skilgreina reglur sem starfskraftar þurfa að fylgja þegar þeir búa til og skila kostnaðarskýrslum og ferðabeiðnum í Microsoft Dynamics 365 for Finance and Operations.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
 ms.reviewer: shylaw
@@ -16,37 +16,35 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 04eaff110fea021ddee32be650be540894eb703b
-ms.contentlocale: is-is
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342432"
 ---
-
-# <a name="expense-policies"></a><span data-ttu-id="d7d6c-103">Kostnaðarreglur</span><span class="sxs-lookup"><span data-stu-id="d7d6c-103">Expense policies</span></span>
+# <a name="expense-policies"></a><span data-ttu-id="391dc-103">Kostnaðarreglur</span><span class="sxs-lookup"><span data-stu-id="391dc-103">Expense policies</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d7d6c-104">Hægt er að skilgreina reglur sem starfskraftar þurfa að fylgja þegar þeir búa til og skila kostnaðarskýrslum og ferðabeiðnum.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-104">You can define policies that your workers must follow when entering and submitting expense reports and travel requisitions.</span></span>         
-<span data-ttu-id="d7d6c-105">Innleiðing kostnaðarreglna getur hjálpað til við að stjórna kostnaði á áhrifaríkan hátt.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-105">Implementing expense policies can help you manage expenses effectively.</span></span>         
+<span data-ttu-id="391dc-104">Hægt er að skilgreina reglur sem starfskraftar þurfa að fylgja þegar þeir búa til og skila kostnaðarskýrslum og ferðabeiðnum.</span><span class="sxs-lookup"><span data-stu-id="391dc-104">You can define policies that your workers must follow when entering and submitting expense reports and travel requisitions.</span></span>         
+<span data-ttu-id="391dc-105">Innleiðing kostnaðarreglna getur hjálpað til við að stjórna kostnaði á áhrifaríkan hátt.</span><span class="sxs-lookup"><span data-stu-id="391dc-105">Implementing expense policies can help you manage expenses effectively.</span></span>         
 
-<span data-ttu-id="d7d6c-106">Til dæmis er hægt að setja þá reglu að í New York borg geti hótelkostnaður fyrir hverja nótt ekki farið yfir 250 Bandaríkjadali.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-106">For example, you can set a policy for hotel expenses in New York City, which states that the per night expense cannot exceed USD 250.</span></span>       
-<span data-ttu-id="d7d6c-107">Ef starfsmaður skilar inn kostnaðarskýrslu eða ferðabeiðni þar sem herbergistaxtinn er yfir þessari upphæð lætur kerfið</span><span class="sxs-lookup"><span data-stu-id="d7d6c-107">If a worker submits an expense report or a travel requisition in which the room rate exceeds this amount, the system will notify the</span></span>        
-<span data-ttu-id="d7d6c-108">starfskraftinn vita að hann hafi farið fram úr kostnaði samkvæmt reglubundnu kostnaðarupphæðinni.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-108">worker that the policy amount for the expense has been exceeded.</span></span> <span data-ttu-id="d7d6c-109">Hægt er að breyta skilaboðunum sem starfskrafturinn mun fá þegar</span><span class="sxs-lookup"><span data-stu-id="d7d6c-109">You can configure the message that the worker will receive when you</span></span>        
-<span data-ttu-id="d7d6c-110">stefnan er skilgreind.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-110">define the policy.</span></span>      
+<span data-ttu-id="391dc-106">Til dæmis er hægt að setja þá reglu að í New York borg geti hótelkostnaður fyrir hverja nótt ekki farið yfir 250 Bandaríkjadali.</span><span class="sxs-lookup"><span data-stu-id="391dc-106">For example, you can set a policy for hotel expenses in New York City, which states that the per night expense cannot exceed USD 250.</span></span>       
+<span data-ttu-id="391dc-107">Ef starfsmaður skilar inn kostnaðarskýrslu eða ferðabeiðni þar sem herbergistaxtinn er yfir þessari upphæð lætur kerfið</span><span class="sxs-lookup"><span data-stu-id="391dc-107">If a worker submits an expense report or a travel requisition in which the room rate exceeds this amount, the system will notify the</span></span>        
+<span data-ttu-id="391dc-108">starfskraftinn vita að hann hafi farið fram úr kostnaði samkvæmt reglubundnu kostnaðarupphæðinni.</span><span class="sxs-lookup"><span data-stu-id="391dc-108">worker that the policy amount for the expense has been exceeded.</span></span> <span data-ttu-id="391dc-109">Hægt er að breyta skilaboðunum sem starfskrafturinn mun fá þegar</span><span class="sxs-lookup"><span data-stu-id="391dc-109">You can configure the message that the worker will receive when you</span></span>        
+<span data-ttu-id="391dc-110">stefnan er skilgreind.</span><span class="sxs-lookup"><span data-stu-id="391dc-110">define the policy.</span></span>      
         
-<span data-ttu-id="d7d6c-111">Hægt er að stofna þrjár gerðir reglna:</span><span class="sxs-lookup"><span data-stu-id="d7d6c-111">You can define three types of policies:</span></span>         
+<span data-ttu-id="391dc-111">Hægt er að stofna þrjár gerðir reglna:</span><span class="sxs-lookup"><span data-stu-id="391dc-111">You can define three types of policies:</span></span>         
         
-- <span data-ttu-id="d7d6c-112">Viðvörun - Leyfir starfskrafti að leggja fram kostnaðarskýrslu eða ferðabeiðni en kostnaðurinn verður merktur fyrir alla samþykktaraðila og</span><span class="sxs-lookup"><span data-stu-id="d7d6c-112">Warning – Allows the worker to submit an expense report or travel requisition but the expense will be marked for all approvers and</span></span>        
-  <span data-ttu-id="d7d6c-113">fyrir síðari skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-113">for later reporting.</span></span>        
+- <span data-ttu-id="391dc-112">Viðvörun - Leyfir starfskrafti að leggja fram kostnaðarskýrslu eða ferðabeiðni en kostnaðurinn verður merktur fyrir alla samþykktaraðila og</span><span class="sxs-lookup"><span data-stu-id="391dc-112">Warning – Allows the worker to submit an expense report or travel requisition but the expense will be marked for all approvers and</span></span>        
+  <span data-ttu-id="391dc-113">fyrir síðari skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="391dc-113">for later reporting.</span></span>        
 
-- <span data-ttu-id="d7d6c-114">Villa - Krefst þess að starfskrafturinn endurskoði kostnaðinn til að hann verði í samræmi við reglu áður en hann sendir kostnaðarskýrslu eða ferðabeiðni.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-114">Error – Requires the worker to revise the expense to comply with the policy before submitting the expense report or travel requisition.</span></span>       
+- <span data-ttu-id="391dc-114">Villa - Krefst þess að starfskrafturinn endurskoði kostnaðinn til að hann verði í samræmi við reglu áður en hann sendir kostnaðarskýrslu eða ferðabeiðni.</span><span class="sxs-lookup"><span data-stu-id="391dc-114">Error – Requires the worker to revise the expense to comply with the policy before submitting the expense report or travel requisition.</span></span>       
  
-  - <span data-ttu-id="d7d6c-115">Rökstuðningur - Krefst þess að starfskrafturinn eða stjórnandi leggi fram rök fyrir því að farið sé yfir regluupphæð áður en hann sendir kostnaðarskýrslu eða ferðabeiðni.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-115">Justification – Requires the worker or a manager to enter a justification for exceeding the policy amount before submitting the expense report or travel requisition.</span></span>        
+  - <span data-ttu-id="391dc-115">Rökstuðningur - Krefst þess að starfskrafturinn eða stjórnandi leggi fram rök fyrir því að farið sé yfir regluupphæð áður en hann sendir kostnaðarskýrslu eða ferðabeiðni.</span><span class="sxs-lookup"><span data-stu-id="391dc-115">Justification – Requires the worker or a manager to enter a justification for exceeding the policy amount before submitting the expense report or travel requisition.</span></span>        
  
-  <span data-ttu-id="d7d6c-116">Einnig er hægt að setja upp dagsetningasvið þar sem kostnaðarreglur eru í gildi.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-116">You can also set up a date range for which expense policies are in effect.</span></span> <span data-ttu-id="d7d6c-117">Til dæmis geta flugfargjöld á milli Danmerkur</span><span class="sxs-lookup"><span data-stu-id="d7d6c-117">For example, airline fares for flights between Denmark</span></span>      
-  <span data-ttu-id="d7d6c-118">og New York verið dýr yfir háannatíma á sumrin.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-118">and New York City can be expensive during the peak holiday travel season.</span></span> <span data-ttu-id="d7d6c-119">Hægt er að skilgreina kostnaðarreglu sem takmarkar</span><span class="sxs-lookup"><span data-stu-id="d7d6c-119">You can define a flight expense rule that restricts the</span></span>      
-  <span data-ttu-id="d7d6c-120">flugkostnað til New York við 5000 DKK og hægt er að taka það fram að þessi regla verði í gildi á milli 15. mars og</span><span class="sxs-lookup"><span data-stu-id="d7d6c-120">cost of flights to New York City to a limit of DKK 5000, and you can specify that this rule be in effect between March 15 and</span></span>      
-  <span data-ttu-id="d7d6c-121">15. september.</span><span class="sxs-lookup"><span data-stu-id="d7d6c-121">September 15.</span></span>
-
+  <span data-ttu-id="391dc-116">Einnig er hægt að setja upp dagsetningasvið þar sem kostnaðarreglur eru í gildi.</span><span class="sxs-lookup"><span data-stu-id="391dc-116">You can also set up a date range for which expense policies are in effect.</span></span> <span data-ttu-id="391dc-117">Til dæmis geta flugfargjöld á milli Danmerkur</span><span class="sxs-lookup"><span data-stu-id="391dc-117">For example, airline fares for flights between Denmark</span></span>      
+  <span data-ttu-id="391dc-118">og New York verið dýr yfir háannatíma á sumrin.</span><span class="sxs-lookup"><span data-stu-id="391dc-118">and New York City can be expensive during the peak holiday travel season.</span></span> <span data-ttu-id="391dc-119">Hægt er að skilgreina kostnaðarreglu sem takmarkar</span><span class="sxs-lookup"><span data-stu-id="391dc-119">You can define a flight expense rule that restricts the</span></span>      
+  <span data-ttu-id="391dc-120">flugkostnað til New York við 5000 DKK og hægt er að taka það fram að þessi regla verði í gildi á milli 15. mars og</span><span class="sxs-lookup"><span data-stu-id="391dc-120">cost of flights to New York City to a limit of DKK 5000, and you can specify that this rule be in effect between March 15 and</span></span>      
+  <span data-ttu-id="391dc-121">15. september.</span><span class="sxs-lookup"><span data-stu-id="391dc-121">September 15.</span></span>
