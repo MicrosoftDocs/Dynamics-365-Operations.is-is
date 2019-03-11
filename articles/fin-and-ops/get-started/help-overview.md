@@ -1,13 +1,13 @@
 ---
-title: "Hjálparkerfi Finance and Operations"
-description: "Þetta efnisatriði veitir yfirlit yfir þætti í Hjálparhluta Microsoft Dynamics 365 for Finance and Operations kerfinu."
+title: Hjálparkerfi Finance and Operations
+description: Þetta efnisatriði veitir yfirlit yfir þætti í hjálparhluta Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
 ms.date: 11/13/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,22 +18,21 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 23bf579c1a4a315d0c12f848a71f89fc297c8625
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350735"
 ---
-
 # <a name="finance-and-operations-help-system"></a>Hjálparkerfi Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir yfirlit yfir þætti í Hjálparhluta Microsoft Dynamics 365 for Finance and Operations kerfinu.
+Þetta efnisatriði veitir yfirlit yfir þætti í hjálparhluta Microsoft Dynamics 365 for Finance and Operations.
 
 > [!NOTE]
-> Eftirtaldar vörur eru nátengdar: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þess vegna mun vöruheiti efnisatriða sem tengjast aðallega Retail verða Dynamics 365 for Retail, í efnisatriðum sem tengjast aðallega Talent verður vöruheitið Dynamics 365 for Talent og í efnisatriðum sem tengjast undirstöðuvörunni verður vöruheitið Dynamics 365 for Finance and Operations. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
+> Eftirfarandi vörur eru nátengdar: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þar af leiðandi verður vöruheiti í efnisatriðum sem helst tengjast Retail, Dynamics 365 for Retail; í efnisatriðum sem tengjast fyrst og fremst Talent verður vöruheitið Dynamics 365 for Talent; og í efnisatriðum sem tengjast undirstöðuvöru verður vöruheitið Dynamics 365 for Finance and Operations. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
 
 Eftirfarandi vörur samnýta Hjálparkerfið:
 
@@ -60,7 +59,7 @@ Vefsvæðið docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operati
 - **Aðgangur að nýjasta efninu** – svæðið gefur okkur hraðar og sveigjanlegri leið til að stofna, afhenda og uppfæra fylgiskjal vöru. Því hjálpar það að tryggja að þú hafir aðgang að nýjustu tækniupplýsingunum.
 - **Efni sem er skrifuð af sérfræðingum**– Svæðið veitir ríkulegra safn vöruskjala sem hægt er að bæta af aðilum samfélagsins bæði innan og utan Microsoft.
 - **Aðgangur að mismunandi tegundir af innihaldi** – Þessi síða gerir þér kleift að fljótt fá aðgang að mismunandi gerðum efnis um Finance and Operations, svo sem verkefnaleiðbeiningar, myndbönd og efni.
-- **Efni sem styður þína viðskiptaferla** – Svæðið inniheldur efni sem er sérstaklega gert fyrir viðskiptaferli og nýtir sér kosti viðskiptaferlavinnslu Business Process Modeler (BPM) í Microsoft Dynamics Lifecycle Services (LCS)
+- **Efni sem styður þína viðskiptaferla** – Svæðið inniheldur efni sem er sérstaklega gert fyrir viðskiptaferli og nýtir sér kosti viðskiptaferlavinnslu Business Process Modeler (BPM) í Microsoft Dynamics Lifecycle Services (LCS).
 
 ### <a name="searching-on-docsmicrosoftcom"></a>Leit á docs.microsoft.com
 
@@ -137,7 +136,7 @@ Til að fá aðgang að hjálparefni innan Finance and Operations skal smella an
 Úr hjálparsvæði er hægt að opna greinar sem eiga við um biðlara Finance and Operations. Þegar þú opnar hjálparsvæðið og smellir á **Hjálp** flipann, munt þú sjá þær greinar sem eiga við um síðuna sem þú ert nú á í Finance and Operations. Ef engar greinar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina. Þegar þú smellir á grein í hjálparsvæði opnast nýr flipi og vafrinn þinn sýnir greinina.
 
 > [!IMPORTANT]
-> Þessi kafli á ekki við um Dynamics 365 for Talent. Hjálparkerfið fyrir Talent er sjálfkrafa tengt við verkefnaleiðbeiningar fyrir vöruna. Að auki getur þú ekki stofnað sérsniðnar verkefnaleiðbeiningar fyrir Talent.
+> Þessi hluti gildir ekki um Dynamics 365 for Talent. Hjálparkerfið fyrir Talent er sjálfkrafa tengt við verkefnaleiðbeiningar fyrir vöruna. Að auki getur þú ekki stofnað sérsniðnar verkefnaleiðbeiningar fyrir Talent.
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Fara í verkefnaleiðbeiningar úr hjálparsvæði
 
@@ -158,7 +157,7 @@ Til að fá aðgang að hjálparefni innan Finance and Operations skal smella an
 2. Veljið Lifecycle Services verk til að tengjast.
 3. Veldu BPM-söfn (innan valins verks) til að sækja verkskráningar úr .
 
-    - Ef þú notar Finance and Operations, fyrir Microsoft efni, skaltu velja febrúar 2017 QPC Unified Library fyrir Microsoft Dynamics 365 for Finance and Operations.
+    - Fyrir Finance and Operations, fyrir Microsoft efni, skal velja febrúar 2017 QPC Unified Library fyrir Microsoft Dynamics 365 for Finance and Operations.
     - Við munum gefa út safn í júlí fyrir Retail.
     - Þú þarft ekki að velja safn fyrir Talent — búið er að setja tengingu við rétt safn fyrir þig.
 
@@ -194,10 +193,9 @@ Hægt er að stofna hjálp fyrir notendur með því að stofna sérsniðnar ver
 |------------------------------------------------------------------------------------------------|-------------|
 | [Docs.microsoft.com](/dynamics365/)                                                            | Hýsir eða tenglar fyrir fylgigögn afurða fyrir Dynamics 365. |
 | [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | Ókeypis eLearning vefsvæði Microsoft. |
-| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Veitir sameiginlegt vinnusvæði í skýi sem viðskiptaaðilar og viðskiptavinir geta notað til að stjórna verkum Dynamics 365 for Finance and Operations úr forsölu til innleiðingar og aðgerða. Þetta svæði er gagnlegt í öllum áföngum framkvæmdar. |
-| [Stuðningsblogg](http://aka.ms/AXSupportBlog)                                                    | Veitir ábendingar og tækni sem eru skrifaðar inn af þjónustuveri Dynamics 365 for Finance and Operations. |
+| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Veitir sameiginlegt vinnusvæði í skýi sem viðskiptaaðilar og viðskiptavinir geta notað til að stjórna Dynamics 365 for Finance and Operations verkum úr aðgerðum forsölu og framkvæmdar. Þetta svæði er gagnlegt í öllum áföngum framkvæmdar. |
+| [Stuðningsblogg](http://aka.ms/AXSupportBlog)                                                    | Veitir ábendingar og tækni sem eru skrifaðar inn af þjónustuver Dynamics 365 for Finance and Operations. |
 | [Docs.microsoft.com/fyrri útgáfur](https://docs.microsoft.com/previous-versions/dynamics/) | Hýsir efni frá fyrri útgáfum. |
 | [Samfélag Dynamics](https://community.dynamics.com/)                                          | Hýsir umræðuþræði, blogg og myndskeið. |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | Veitir upplýsingar um mat og sölu. |
 | [CustomerSource](https://mbs.microsoft.com/customersource/)\*                                  | Hýsir nokkuð af þjálfunarefni fyrir Finance and Operations, skýrslur sem er hægt að hlaða niður og hvítblöð og er aðalstuðningssíða fyrir áskrifendur að þjónustuáætlunum. Hugsanlega er krafist þjónustuáætlunar til að fá aðgang að sumu efnir á vefsvæðinu. |
-

@@ -1,35 +1,34 @@
 ---
-title: "Flytja inn gögn frá Excel-gagnaeiningasniðmátum sem eru með mörgum vinnublöðum"
-description: "Þetta efnisatriði lýsir því hvernig skal flytja gögn með því að nota Excel gagnaeiningasniðmát inn í Microsoft Dynamics 365 for Finance and Operations."
+title: Flytja inn gögn frá Excel-gagnaeiningasniðmátum sem eru með mörgum vinnublöðum
+description: Þetta efnisatriði lýsir því hvernig skal flytja gögn með því að nota Excel gagnaeiningasniðmát inn í Microsoft Dynamics 365 for Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 48239b48cbc24e34d74bbac36e8f827a15d7b840
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351264"
 ---
-
 # <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>Flytja inn gögn frá Excel-gagnaeiningasniðmátum sem eru með mörgum vinnublöðum
 
 [!include [banner](../includes/banner.md)]
 
-Gögnastjórnun í Microsoft Dynamics 365 for Finance and Operations styður sniðmát úr Microsoft Excel fyrir gagnaeiningar. Þessi sniðmát geta innihaldið einn eða fleiri vinnublöð. Sniðmát með mörgum vinnublöðum eru oft notaðar þegar auðvelt er að stýra gögnum í einni skrá og flytja hana inn í margar gagnaeiningar. Dæmi um þetta væri svæði og vöruhús.
+Gagnastjórnun í Microsoft Dynamics 365 for Finance and Operations styður Microsoft Excel sem byggjast á sniðmátum fyrir gagnaeiningar. Þessi sniðmát geta innihaldið einn eða fleiri vinnublöð. Sniðmát með mörgum vinnublöðum eru oft notaðar þegar auðvelt er að stýra gögnum í einni skrá og flytja hana inn í margar gagnaeiningar. Dæmi um þetta væri svæði og vöruhús.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>Hlaða upp skrá einu sinni og varpa henni til allra eininga
 Við skulum taka dæmi þar sem ein Excel-skrá með vinnublöðum sem kallast **Svæði** og **Vöruhús**. Til að setja upp gagnainnflutningsverkið myndir þú nýskrá fyrstu gagnaeininguna, **Svæði** og síðan hlaða upp skránni. Þú munt geta valið **Svæði** sem vinnublaðið sem verður notað fyrir þessa einingu.
@@ -51,4 +50,3 @@ Vörpun vinnublaðsins til gagnaeiningar í innflutningsverkinu er hægt að fes
 ## <a name="upload-a-file-using-run-project"></a>Hlaða upp skrá með því að nota Keyra verk
 
 Þú getur hlaðið upp Excel-skrá meðan þú notar **Keyra verk** valmöguleikann til að framkvæma innflutningsverk. Þú verður að gæta þess að hlaða aðeins upp skrám sem eru með sömu vinnublaði og fyrirliggjandi varpanir á gagnaeiningarnar í gagnaverkinu. Ef vinnublað er ekki að finna í skránni sem nýlega var hlaðið upp, birtir kerfið villu og stoppar innflutning. Ef breyta verður vörpunin á vinnublaðið fyrir einingu, þá verður að uppfæra varpanirnar í gagnaverkinu fyrst innan frá gagnaverkinu, áður en þú notar skrána í **Keyra verk** upplifuninni.
-

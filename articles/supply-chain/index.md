@@ -1,31 +1,30 @@
 ---
-title: "Stjórnun aðfangakeðju – heimasíða"
-description: "Á þessari síðu er að finna skrá yfir hjálparatriði og önnur tilföng fyrir stjórnunareiginleika aðfangakeðju Microsoft Dynamics 365 for Finance and Operations."
+title: Stjórnun aðfangakeðju – heimasíða
+description: Á þessari síðu er að finna skrá yfir hjálparatriði og önnur tilföng fyrir stjórnunareiginleika aðfangakeðju Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
+ms.custom: ''
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
-ms.openlocfilehash: df35f70d8297aa2a832d143217542e3d558040ea
-ms.contentlocale: is-is
-ms.lasthandoff: 05/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302443"
 ---
-
 # <a name="supply-chain-management-home-page"></a>Stjórnun aðfangakeðju – heimasíða
 
 [!include [banner](includes/banner.md)]
@@ -33,7 +32,7 @@ ms.lasthandoff: 05/09/2018
 Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng fyrir stjórnunareiginleika aðfangakeðju Microsoft Dynamics 365 for Finance and Operations. 
 
 ## <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
-Á <a href="https://roadmap.dynamics.com/">Dynamics 365 Roadmap</a> eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
+Á <a href="https://roadmap.dynamics.com/">Dynamics 365-leiðarvísinum</a> eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
 
 ## <a name="core-concepts-and-tasks"></a>Grunnhugtök og verk
 
@@ -63,7 +62,7 @@ Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
 -  [Fínstillingarráðgjöf](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 -  [Notaðu sniðmát vöruhúss til að afrita skilgreiningu](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-Þessi stuttu myndbönd hjálpa þér læra um nýja eiginleika í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, (júlí 2017).
+Þessi stuttu myndbönd hjálpa þér að læra um nýja eiginleika í Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (júlí 2017).
 
 -  [Hafist handa með kostnaðarbókhald](https://youtu.be/1pUDtJQZ8FU)
 -  [Fartækjavinnusvæði kostnaðarstýringar](https://youtu.be/imsuTg8rUVk)
@@ -105,7 +104,7 @@ Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
 -  [Flutningsstjórnun í nýja Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Blogg
-Mörg umfjöllunarefni er að finna um framleiðslu- og aðfangakeðjustjórnun á <a href="https://blogs.msdn.microsoft.com/axmfg/">bloggi rannsóknar- og þróunarteymis framleiðsluhluta Dynamics AX</a> og <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">bloggi rannsóknar- og þróunarteymis aðfangakeðjustjórnunar í Dynamics AX </a>. Flestar þessara færslna voru skrifaðar um eldri útgáfu Finance and Operations en sömu hugtök eiga enn við og ferlin eru svipuð í nýjustu útgáfunni. 
+Mörg umfjöllunarefni er að finna um framleiðslu- og aðfangakeðjustjórnun á <a href="https://blogs.msdn.microsoft.com/axmfg/">bloggi rannsóknar- og þróunarteymis framleiðsluhluta Dynamics AX</a> og <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">bloggi rannsóknar- og þróunarteymis aðfangakeðjustjórnunar í Dynamics AX</a>. Flestar þessara færslna voru skrifaðar um eldri útgáfu Finance and Operations en sömu hugtök eiga enn við og ferlin eru svipuð í nýjustu útgáfunni. 
 
 ## <a name="white-papers"></a>Hvítbækur
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Verklegar æfingar í kostnaðarbókhaldi</a> 
@@ -114,7 +113,6 @@ Mörg umfjöllunarefni er að finna um framleiðslu- og aðfangakeðjustjórnun 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Sveigjanleiki í vöruhúsi einfaldaður með Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>Rafræn námskeið
-Upplýsingar um Microsoft Dynamics 365 Finance and Operations-þjálfun eru í <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> þjálfunargátt Microsoft Dynamics</a>. (krefst CustomerSource-reiknings) 
-
+Upplýsingar um Microsoft Dynamics 365 for Finance and Operations-þjálfun eru í þjálfunargátt <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics </a>. (krefst CustomerSource-lykils) 
 
 

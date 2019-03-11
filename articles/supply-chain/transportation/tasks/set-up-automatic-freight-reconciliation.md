@@ -1,13 +1,13 @@
---- 
-title: "Setja upp sjálfvirka afstemmingu farms"
-description: "Þessi verklýsing sýnir hvernig á að setja upp gögn fyrir sjálfvirka afstemmingu farms."
+---
+title: Setja upp sjálfvirka afstemmingu farms
+description: Þessi verklýsing sýnir hvernig á að setja upp gögn fyrir sjálfvirka afstemmingu farms.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/16/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSFreightBillTypeAssignment, TMSCarrierCodeLookup, DefaultDashboard, TMSAuditMaster
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d990efd7c929b15d57d64e850bc3308349abb978
 ms.openlocfilehash: b7772ad779495b36941a3dc86cc456d80a964467
-ms.contentlocale: is-is
-ms.lasthandoff: 10/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357474"
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Setja upp sjálfvirka afstemmingu farms
 
@@ -71,5 +71,4 @@ ms.lasthandoff: 10/17/2018
     * Ef upphæða sem eru mismunandi á farmbréfið og reikning flutningsaðila, tilgreina ofgreiðsla eða vangreiðsla ástæðukóða lykla sem á að skrá muninn á svo lengi sem mismunur er innan stig vikmarka.  
 11. Í reitinn Ástæðukóði vangreiðslu skal slá inn eða veldu gildi.
 12. Lokið síðunni.
-
 

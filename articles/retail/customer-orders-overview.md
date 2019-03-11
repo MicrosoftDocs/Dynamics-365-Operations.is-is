@@ -1,13 +1,13 @@
 ---
-title: "Pantanir viðskiptavinar í Retail Modern POS (MPOS)"
-description: "Þetta efnisatriði gefur upplýsingar um pantanir viðskiptavinar í Retail Modern POS (MPOS). Pantanir viðskiptavinar eru einnig þekktar sem sérpantanir. Efnisatriðið inniheldur umræðu um tengdar færibreytur og færsluflæði."
+title: Pantanir viðskiptavinar í Retail Modern POS (MPOS)
+description: Þetta efnisatriði gefur upplýsingar um pantanir viðskiptavinar í Retail Modern POS (MPOS). Pantanir viðskiptavinar eru einnig þekktar sem sérpantanir. Efnisatriðið inniheldur umræðu um tengdar færibreytur og færsluflæði.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: b54f39cc7896871d77f9371e6197bf6dbaac51de
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336613"
 ---
-
 # <a name="customer-orders-in-retail-modern-pos-mpos"></a>Pantanir viðskiptavinar í Retail Modern POS (MPOS)
 
 [!include [banner](includes/banner.md)]
@@ -97,9 +96,8 @@ Hægt er að stofna pantanir viðskiptavinar úr biðlara sölustaðar (POS) í 
 1. Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstilling sölustaðar** &gt; **Virknireglur**.
 2. Á flipanum **Almennt** stillirðu valkostinn **Stofna viðskiptavinapöntun í ósamstilltri stillingu** á **Já**.
 
-Þegar valkosturinn **Stofna pöntun viðskiptavinar í ósamstilltri stillingu** er stilltur á **Já** verða pantanir viðskiptavinar alltaf stofnaðar í ósamstilltum ham, jafnvel þó að Retail Transaction Service (RTS) er tiltækt. Ef þessi valkostur er stilltur á **Nei** verða pantanir viðskiptavinar alltaf stofnaðar í samstilltum ham með því að nota RTS. Þegar pantanir frá viðskiptavinum eru stofnaðar í ósamstilltum ham eru þær sóttar og settar inn í Retail með P-vinnslum. Samsvarandi sölupantanir eru stofnaðar í Retail þegar **Samstilla pantanir** er keyrt annaðhvort handvirkt eða með runuvinnslu.
+Þegar valkosturinn **Stofna pöntun viðskiptavinar í ósamstilltri stillingu** er stilltur á **Já** verða pantanir viðskiptavinar alltaf stofnaðar í ósamstilltri stillingu, jafnvel þó að Retail Transaction Service (RTS) er tiltækt. Ef þessi valkostur er stilltur á **Nei** verða pantanir viðskiptavinar alltaf stofnaðar í samstilltum ham með því að nota RTS. Þegar pantanir frá viðskiptavinum eru stofnaðar í ósamstilltum ham eru þær sóttar og settar inn í Retail með P-vinnslum. Samsvarandi sölupantanir eru stofnaðar í Retail þegar **Samstilla pantanir** er keyrt annaðhvort handvirkt eða með runuvinnslu.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Blandaðar pantanir viðskiptavinar](hybrid-customer-orders.md)
-

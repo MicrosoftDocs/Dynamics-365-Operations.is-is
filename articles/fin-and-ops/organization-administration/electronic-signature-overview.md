@@ -1,13 +1,13 @@
 ---
-title: "Rafrænar undirskriftir"
-description: "Þessi grein gefur yfirlit yfir rafrænar undirskriftir og lýsir hvernig hægt er að nota þær í Microsoft Dynamics 365 for Finance and Operations."
+title: Rafrænar undirskriftir
+description: Þessi grein gefur yfirlit yfir rafrænar undirskriftir og lýsir hvernig hægt er að nota þær í Microsoft Dynamics 365 for Finance and Operations.
 author: maertenm
 manager: AnnBe
 ms.date: 08/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SIGParameters, SIGProcSetup, SIGReasonCode
 audience: Application User
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 676510ef503d51d914ba762e7ac15e2c4811c6ba
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325665"
 ---
-
 # <a name="electronic-signatures"></a>Rafrænar undirskriftir
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ Rafræn undirskrift staðfestir deili á þeim aðila sem er í þann mund að h
 Reglur kveða á um rafrænar undirskriftir innan ýmissa atvinnugreina sem eru háðar opinberum reglugerðum, svo sem við lyfja-, matvæla- og drykkjarvöruframleiðslu og í flugvéla- og geimiðnaði og varnariðnaði. Þær eru einnig nauðsynlegar samkvæmt reglum 21 CFR hluta 11, sem gefnar eru út af Matvæla- og lyfjaeftirliti Bandaríkjanna (FDA).
 
 > [!NOTE]
-> Rafræn undirskrift ein og sér er ekki það sama og stafræn undirskrift. Rafræn undirskrift er aðeins staðgengill handskrifaðra undirskrifta, en stafrænar undirskriftir hafa ítarlegri öryggiseiginleika. Með stafrænum undirskriftum er hægt að kanna hvort notandi eða vinnsla hafi átt við gögn. Einnig er hægt að staðfesta stafrænar undirskriftir án þess að eigandi skírteinis sem var notað til undirskriftar geti þráttað fyrir það. Rafrænar undirskriftir í Microsoft Dynamics 365 for Finance and Operations eru með innbyggða virkni stafrænnar undirskriftum, eins og lýst er hér fyrir neðan.
+> Rafræn undirskrift ein og sér er ekki það sama og stafræn undirskrift. Rafræn undirskrift er aðeins staðgengill handskrifaðra undirskrifta, en stafrænar undirskriftir hafa ítarlegri öryggiseiginleika. Með stafrænum undirskriftum er hægt að kanna hvort notandi eða vinnsla hafi átt við gögn. Einnig er hægt að staðfesta stafrænar undirskriftir án þess að eigandi skírteinis sem var notað til undirskriftar geti þráttað fyrir það. Rafrænar undirskriftir í Microsoft Dynamics 365 for Finance and Operations deila nokkrum eiginleikum með stafrænum undirskriftum, eins og lýst er hér fyrir neðan.
 
 ## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Rafrænar undirskriftir í Dynamics 365 for Finance and Operations
 
@@ -111,4 +110,3 @@ Fylgið eftirfarandi skrefum til að tilgreina samþykkjendur.
 1. Á síðunni **Valkosti** á flipanum **Lykla**, smellið **Tilgreina samþykkjanda**.
 2. Í **notandakenni samþykktaraðila** reit, velja kenni þess notanda sem á að skrifa undir breytingar annars notanda.
 3. Í **undirrita fyrir notandakenni** reit, velja kenni notandans sem þarf að skrifa undir fyrir þegar hann gerir breytingar.
-

@@ -1,13 +1,13 @@
 ---
-title: "Skulda- og innheimtuumsjón í Power BI"
-description: "Þetta efnisatriði lýsir því hvað er að finna í skulda- og innheimtuumsjón í Power BI. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið."
+title: Skulda- og innheimtuumsjón Power BI efni
+description: Þetta efnisatriði lýsir því hvað er innifalið í skulda- og innheimtuumsjón Power BI efnis. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,23 +16,22 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 6ce0b7b35264c05555d8b3a18e70484202a289d6
-ms.openlocfilehash: 3832cabb11d67eda7afd7f3d5322c005b36dc1f5
-ms.contentlocale: is-is
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325182"
 ---
-
-# <a name="credit-and-collections-management-power-bi-content"></a>Skulda- og innheimtuumsjón í Power BI
+# <a name="credit-and-collections-management-power-bi-content"></a>Skulda- og innheimtuumsjón Power BI efni
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvað er að finna í **Skulda- og innheimtuumsjón** í Microsoft Power BI. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
+Þetta efnisatriði lýsir því hvað er innifalið í **Skulda- og innheimtuumsjón** Microsoft Power BI efnis. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
 ## <a name="overview"></a>Yfirlit
 
-**Skulda- og innheimtuumsjón** í Power BI var stofnuð fyrir skulda- og innheimtustjóra og starfsmenn í innheimtu. Hún hefur að geyma mikilvæga mælikvarða í skulda- og innheimtumálum, eins og útistandandi dagsölu, vanskil, váhrif lánamarks og viðskiptavini sem eru komnir yfir lánamörk. Hún notast við færslugögn og veitir samantekna sýn yfir skulda- og innheimtumál fyrir öll fyrirtæki. Hún gefur einnig sundurliðun á fyrirtæki, viðskiptavinahópa og viðskiptavini.
+**Skulda- og innheimtuumsjón** Power BI efni var búið til fyrir stjórnendur skulda og innheimta og innheimtufulltrúa. Hún hefur að geyma mikilvæga mælikvarða í skulda- og innheimtumálum, eins og útistandandi dagsölu, vanskil, váhrif lánamarks og viðskiptavini sem eru komnir yfir lánamörk. Hún notast við færslugögn og veitir samantekna sýn yfir skulda- og innheimtumál fyrir öll fyrirtæki. Hún gefur einnig sundurliðun á fyrirtæki, viðskiptavinahópa og viðskiptavini.
 
 Þetta Power BI efni samanstendur af 10 skýrslusíðum:
 
@@ -43,12 +42,12 @@ Allar upphæðir eru sýndar í gjaldmiðli kerfisins. Hægt er að stilla gjald
 
 Sjálfgefið er að skulda- og innheimtugögn fyrir núverandi fyrirtæki séu sýnd. Til að skoða gögnin í öllum fyrirtækjum, úthlutaðu skyldunni **CustCollectionsBICrossCompany** á hlutverkið.
 
-## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
-Power BI efni um **Skulda- og innheimtustjórnun** er sýnt í vinnusvæðinu **Skuldir og innheimta viðskiptavinar**.
+## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
+**Skulda- og innheimtustjórnun** Power BI efni er sýnt í vinnusvæðinu **Skuldir og innheimta viðskiptavinar**.
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðir með í Power BI-efni
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðar með í Power BI efni
 
-**CustCollectionsBICrossCompany** í Power BI inniheldur skýrslu sem samanstendur af safni mælikvarða. Þessir mælikvarðar eru birtir sem myndrit, reitir og töflur. Í eftirfarandi töflu er yfirlit yfir myndræna framsetningu í **CustCollectionsBICrossCompany** í Power BI.
+**CustCollectionsBICrossCompany** Power BI efni inniheldur skýrslu sem samanstendur af safni mælikvarða. Þessir mælikvarðar eru birtir sem myndrit, reitir og töflur. Eftirfarandi tafla veitir yfirlit yfir myndrænar framsetningar í **CustCollectionsBICrossCompany** Power BI efni.
 
 | Skýrslusíða                 | Myndbirting |
 |-----------------------------|---------------|
@@ -67,7 +66,7 @@ Hægt er að sía og festa Gröf og reitir á þessar skýrslur við mælaborð.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
 
-Eftirfarandi gögn eru notuð til að fylla út skýrsluna í **Skulda- og innheimtuumsjón** í Power BI. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Entity-verslunin er Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](../../dev-itpro/analytics/power-bi-integration-entity-store.md)
+Eftirfarandi gögn eru notuð til að fylla út skýrsluna í **Skulda- og innheimtuumsjón** Power BI efni. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Einingaverslunin er Microsoft SQL Server gagnagrunnur sem er fínstillt fyrir greiningar. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
 
 
 |                   Eining                    |      Lykiluppsafnaðar mælingar      |             Uppruni gagna              |                           Svæði                            |                                    lýsing                                     |
@@ -88,5 +87,4 @@ Eftirfarandi gögn eru notuð til að fylla út skýrsluna í **Skulda- og innhe
 |        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                Fjöldi stofnaðra vaxtanóta.                |
 |        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 Fjöldi heildarsölupantana sem eru á bið.                 |
 |          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                Samtala færslna sem hafa verið afskrifaðar.                 |
-
 

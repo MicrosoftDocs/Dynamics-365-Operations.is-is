@@ -1,13 +1,13 @@
 ---
-title: "Setja upp íhluti verks"
-description: "Þetta efnisatriði lýsir þeim hugtakaþáttum sem vinnsla getur haft með og gefur dæmi um hvernig hægt er að nota þessa þætti í fyrirtækinu."
+title: Setja upp íhluti verks
+description: Þetta efnisatriði lýsir þeim hugtakaþáttum sem vinnsla getur haft með og gefur dæmi um hvernig hægt er að nota þessa þætti í fyrirtækinu.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle
 audience: Application User
 ms.author: rschloma
@@ -18,19 +18,17 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 48787d1eb662322c726698573b27023ae9eed56f
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b40b81fc24086e73b54cfe0cb5e6a81ec5838ab5
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377160"
 ---
-
 # <a name="set-up-the-components-of-a-job"></a>Setja upp íhluti verks
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 Þetta efnisatriði lýsir þeim hugtakaþáttum sem vinnsla getur haft með og gefur dæmi um hvernig hægt er að nota þessa þætti í fyrirtækinu. 
 
@@ -74,8 +72,8 @@ Verkhlutar sem lýsa grunnatriðum verkefnis sem starfskraftur sem er í stöðu
 <tr class="odd">
 <td>Sölustjóri</td>
 <td><ul>
-<li><strong>Yfirfara afköst</strong> – Yfirfara vinnuafköst hvers sölumanns fyrir sig.</li>
-<li><strong>Yfirfara fjarvistir</strong> – Samþykkja eða hafna fjarvistabeiðnum eða skráningum sölumanns.</li>
+<li><strong>Perf yfirferð</strong> – fara yfir afköst hvers sölumanns&#39;.</li>
+<li><strong>Abs yfirferð</strong> – Samþykkja eða hafna fjarvistabeiðnir&#39; hvers sölumanns eða skráningar.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -92,4 +90,3 @@ Verkefnum starfs er viðhaldið með því að nota síðuna **Verkefni starfs**
 
 ## <a name="steps-for-creating-a-job"></a>Skref til að stofna starf
 Sjá efnisatriðið [Skilgreina ný störf](../fin-and-ops/hr/tasks/define-new-jobs.md) fyrir skref fyrir skref aðferð til að stofna til nýtt starf. 
-

@@ -1,13 +1,13 @@
 ---
-title: "Rafræn skýrslugerð (ER)"
-description: "Í þessari grein er að finna yfirlit yfir verkfærið „Rafræn skýrslugerð“. Þar á meðal er að finna upplýsingar um lykilhugtök, sviðsmyndir sem Rafræn skýrslugerð styður og lista yfir snið sem hafa verið hönnuð og gefin út sem hluti af lausninni."
+title: Rafræn skýrslugerð (ER)
+description: Í þessari grein er að finna yfirlit yfir verkfærið „Rafræn skýrslugerð“. Þar á meðal er að finna upplýsingar um lykilhugtök, sviðsmyndir sem Rafræn skýrslugerð styður og lista yfir snið sem hafa verið hönnuð og gefin út sem hluti af lausninni.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 67dc5b5cdec797f19a742addd05c6002aa31cf15
 ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
-ms.contentlocale: is-is
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310807"
 ---
-
 # <a name="electronic-reporting-er"></a>Rafræn skýrslugerð (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -36,12 +35,12 @@ Rafræn skýrslugerð (ER) er verkfæri sem hægt er að nota til að skilgreina
 
 Vélar fyrir rafræna skýrslugerð eru ætlaðar fyrir viðskiptanotendur í stað þróara. Þar sem þú skilgreinir snið en ekki kóða eru ferlin við að stofna og stilla snið fyrir rafræn skjöl hraðvirkari og auðveldari.
 
-ER styður eins og er TEXT, XML, Microsoft Word skjöl og OPENXML vinnublaðssnið. Hins vegar veitir viðbótarviðmót stuðning við fleiri snið.
+Á þessum tíma styður ER TEXT, XML Microsoft Word skjöl, og OPENXML snið vinnublaða. Hins vegar veitir viðbótarviðmót stuðning við fleiri snið.
 
 ## <a name="capabilities"></a>Geta
 ER-vélin hefur eftirfarandi getu:
 
-- Hún er eitt samnýtt verkfæri til rafrænnar skýrslugerðar á mismunandi sviðum, og kemur í stað 20 mismunandi véla sem gera einhvers konar rafræna skýrslugerð fyrir Microsoft Dynamics 365 for Finance and Operations.
+- Það er eitt deilt verkfæri til rafrænnar skýrslugerðar á mismunandi lénum, og kemur í stað 20 mismunandi véla sem gera einhvers konar rafræna skýrslugerð fyrir Microsoft Dynamics 365 for Finance and Operations.
 - Það gerir snið á skýrslu einangrað frá núgildandi innleiðingu Finance and Operations. Með öðrum orðum gildir sniðið fyrir mismunandi útgáfur af Finance and Operations.
 - Hann styður stofnun sérsniðinnar sniða sem byggð er á upprunalegu sniði. Það felur einnig í sér getu til að uppfæra sjálfkrafa sérhönnuð snið þegar breytingar á upprunalegu sniði eiga sér stað, vegna krafna um staðfærslu/sérsnið.
 - Verður það aðal viðtekna verkfærið til að styða við kröfur um staðfæringu í rafrænni skýrslugerð – bæði fyrir Microsoft sem og microsoft samstarfsaðila;
@@ -72,7 +71,7 @@ Líkanavörpun sem styður rafræn skjöl á útleið hefur eftirfarandi getu:
 
 - Hægt er að nota mismunandi gagnagerðir Finance and Operations sem gagnagjafa fyrir gagnalíkan. Til dæmis getur það notað töflur, gagnaeiningar, aðferðir eða upptalningar.
 - Það styður ílagsfæribreytur notanda sem má skilgreina sem gagnagjafa gagnalíkans þegar tilgreina þarf gögn á keyrslutíma.
-- Stuðningur er fyrir umbreytingu gagna Finance and Operations í tilskilda hópa. Það gerir þér kleift að sía, raða og leggja saman gögn og hengja við röklega reiknaða reiti sem eru hannaðir með formúlum sem líkjast Microsoft Excel formúlum, eins og sést á eftirfarandi myndskýringu. Frekari upplýsingar er að finna í [Formúluhönnuður í rafrænni skýrslugerð](general-electronic-reporting-formula-designer.md)).
+- Stuðningur er fyrir umbreytingu gagna Finance and Operations í tilskilda hópa. Það leyfir þér einnig að sía, raða og leggja saman gögn og skeyta við rökrétta útreiknaða reiti sem eru hannaðir með formúlum sem líkjast Microsoft Excel-formúlum, eins og sýnt er á eftirfarandi skýringarmynd. Frekari upplýsingar er að finna í [Formúluhönnuður í rafrænni skýrslugerð](general-electronic-reporting-formula-designer.md)).
 
 [![Formúluhönnuður](./media/ER-overview-01.png)](./media/ER-overview-01.png)
 
@@ -94,13 +93,13 @@ Snið er skema skýrsluúttaks sem myndast á keyrslutíma. Skema samanstendur a
 
 Þáttur sniðs styður eftirfarandi aðgerðir:
 
-- Stofnun skýrslugerðarúttaks sem einstakar skrár í mismunandi sniði, eins og texti, XML, Microsoft Word skjal eða vinnublað.
+- Stofnun skýrslugerðarúttaks sem einstakar skrár í mismunandi sniði, t.d. texti, XML, Microsoft Word-skjal eða vinnublað.
 - Stofnun margra aðgreindra skráa og einnig að steypa þessum skrám saman í ZIP-skrár.
 
 Sniðsþáttur gerir þér kleift að hengja við tilteknar skrár sem hægt er að nota í skýrslugerðarúttaki:
 
 - Excel-vinnubækur Sem inniheldur vinnublað sem sem má nota sem sniðmát fyrir úttak á OPENXML vinnublaðssniði;
-- Word-skrár sem innihalda skjal sem nota má sem sniðmát fyrir úttak á Microsoft Word skjalasniði
+- Word-skrár sem innihalda skjal sem hægt er að nota sem sniðmát fyrir úttak í sniði Microsoft Word-skjals.
 - Aðrar skrár sem geta verið felldar inn í úttakssnið sem fyrirfram skilgreindar skrár.
 
 Eftirfarandi dæmi sýnir gagnaflæðið fyrir þessi snið.
@@ -381,4 +380,3 @@ ER leyfir þér að taka sjálfkrafa í gagn breytingar á nýjustu útgáfu af 
 [Kröfur um staðfæringu - stofna Skilgreining fyrir rafræna skýrslugerð](electronic-reporting-configuration.md)
 
 [Stjórnun á lífsferli fyrir stillingar Rafrænnar skýrslugerðar](general-electronic-reporting-manage-configuration-lifecycle.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "Yfirlit yfir SEPA-kreditfærslur"
-description: "Þessi grein inniheldur almennar upplýsingar um ISO 20022 kreditflutninga, sem innihalda sameiginlegt evrópskt greiðslusvæði (SEPA) kreditfærslur og allar aðrar rafrænar greiðslur til lánardrottna. SEPA-kreditfærsla er tiltekin gerð greiðslu (í evrum) frá einu fyrirtæki eða einstaklingi til annars fyrirtækis eða einstaklings. Efnisatriðið lýsir því einnig hvernig á að setja upp og senda greiðsluskrá kreditfærslna."
+title: Yfirlit yfir SEPA-kreditfærslur
+description: Þessi grein inniheldur almennar upplýsingar um ISO 20022 kreditflutninga, sem innihalda sameiginlegt evrópskt greiðslusvæði (SEPA) kreditfærslur og allar aðrar rafrænar greiðslur til lánardrottna. SEPA-kreditfærsla er tiltekin gerð greiðslu (í evrum) frá einu fyrirtæki eða einstaklingi til annars fyrirtækis eða einstaklings. Efnisatriðið lýsir því einnig hvernig á að setja upp og senda greiðsluskrá kreditfærslna.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d6081c12ea65812a15b50c627330b4566ab4c679
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1aa70dea3b0e7056afbdba96f4475c3e7e71f57c
-ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363776"
 ---
-
 # <a name="sepa-credit-transfer-overview"></a>Yfirlit yfir SEPA-kreditfærslur
 
 [!include [banner](../includes/banner.md)]
@@ -52,10 +51,10 @@ EPC, sem samanstendur af evrópskum bönkum, þróar heildarsöluverðmæti og t
 SEPA-kreditfærsla er greiðsla frá einu fyrirtæki eða einstaklingi í öðru fyrirtæki eða einstaklingi. Greiðslur verða að vera í evrum og verða að innihalda alþjóðleg bankareikningsnúmer (IBAN) og bankaeinkenniskóða (BIC) fyrir báða aðila. (BIC er einnig þekkt sem auðkenniskóði banka \[SWIFT\] númer].) Að auki verður færslukostnaður að deilast á báða aðila. Kreditfærslur sem eiga sér stað á milli aðila eiga að nota xml-skrár sem samræmast ISO-stöðlum 20022 um greiðsluvinnslu og xml-snið, eins og tilgreint er af EPC.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Hvernig er kreditfærsla framkvæmd?
-Greiðslusnið kreditfærslu fyrir Evrópulönd er innleitt með því að nota virknina Rafræn skýrslugerð og Greiðslumátar í Microsoft Dynamics 365 for Finance and Operations. Nokkur kreditfærslusnið sem eru notuð eru á öðrum svæðum nota enn eldri greiðsluramma. Meðal margra annara sniða, eru tólf ISO 20022 kreditflutnings skrársnið tiltæk. Þessi útflutningssnið samræmast staðlinum SEPA ISO 20022 XML. Þau eru notuð til að mynda greiðsluflutninga sem eru ekki í evrum fyrir lönd/svæði þar sem þau eru notuð og evrugreiðslur eins og tilgreint er í útgáfu 8.2 í SEPA Credit Transfer Scheme Rulebook sem EPC gefur út. Áður en ekki er hægt að innleiða kreditfærslur verður að hafa samband við bankann til að fá hugbúnaðinn sem er krafist til að senda inn rafrænar bankaskrár. Þú munt nota þennan hugbúnað til að flytja xml-skrár sem innihalda greiðslupantanir til bankans.
+Greiðslusnið SEPA-kreditfærslu fyrir evrópulönd er innleitt með því að nota virknina Rafræn skýrslugerð og Greiðsluhættir í Microsoft Dynamics 365 for Finance and Operations. Nokkur kreditfærslusnið sem eru notuð eru á öðrum svæðum nota enn eldri greiðsluramma. Meðal margra annara sniða, eru tólf ISO 20022 kreditflutnings skrársnið tiltæk. Þessi útflutningssnið samræmast staðlinum SEPA ISO 20022 XML. Þau eru notuð til að mynda greiðsluflutninga sem eru ekki í evrum fyrir lönd/svæði þar sem þau eru notuð og evrugreiðslur eins og tilgreint er í útgáfu 8.2 í SEPA Credit Transfer Scheme Rulebook sem EPC gefur út. Áður en ekki er hægt að innleiða kreditfærslur verður að hafa samband við bankann til að fá hugbúnaðinn sem er krafist til að senda inn rafrænar bankaskrár. Þú munt nota þennan hugbúnað til að flytja xml-skrár sem innihalda greiðslupantanir til bankans.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Hvaða kreditflutningssnið eru nú studd í Dynamics 365 for Finance and Operations?
-Alltaf skal fara eignasafnið Samnýtt eign í Microsoft Dynamics Lifecycle services (LCS) og skoða nýjustu lista yfir tiltækar skrár af eignargerðinni **GER-skilgreining**. Næsti hluti „Hvað þarf að setja upp?“ vietir tengla í efnisatriði þar sem útskýrt er hvernig búa á til LCS-geymslu til að fara yfir tiltækar stillingar og flytja inn valdar stillingar.
+Alltaf skal fara eignasafnið Samnýtt eign í Microsoft Dynamics Lifecycle Services (LCS) og skoða nýjustu lista yfir tiltækar skrár af eignargerðinni **GER-skilgreining**. Næsti hluti „Hvað þarf að setja upp?“ vietir tengla í efnisatriði þar sem útskýrt er hvernig búa á til LCS-geymslu til að fara yfir tiltækar stillingar og flytja inn valdar stillingar.
 
 ## <a name="what-do-i-have-to-set-up"></a>Hvað þarf að setja upp?
 -   Áður en hægt er að kreditfærsluskrár verður að minnsta kosti ein virk skilgreining kreditfærslu að vera flutt inn í skilgreiningar þínar í rafrænni skýrslugerð. Hægt er að skoða leiðbeiningar í [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
@@ -92,7 +91,7 @@ Listi yfir sérstakar færibreytur fer eftir kreditfærslusniði. Eftirfarandi t
 <td>Snið</td>
 <td>Veljið snið fyrir greiðsluupplýsingar eftir þörfum bankans eða landi/svæði:
 <ul>
-<li><strong>Strd</strong> – Veljið þennan valkost til að nota skipulegt snið þegar ein greiðslulína er jöfnuð við reikning. Þessi valkostur er ekki í boði fyrir lands-/svæðissértæk útflutningssnið fyrir Frakkland, Þýskaland eða Holland.</li>
+<li><strong>Strd</strong> – Veljið þennan valkost til að nota skipulegt snið þegar ein greiðslulína er jöfnuð við reikning. Þessi valkostur er ekki &#39; tiltækur fyrir tiltekin lands-/svæðissértæk útflutningssnið fyrir Frakkland, Þýskaland eða Holland.</li>
 <li><strong>Ustrd</strong> – Veljið þennan valkost til að nota óskipulegt snið þegar greiðslan er jöfnuð við marga reikninga. Reikningsnúmer fyrir jafnaða reikninga eru tengd saman og notuð sem greiðsluupplýsingar. Samkvæmt ISO 20022 leiðbeiningum takmarkast óskilpulegar greiðsluupplýsingar við 140 stafi.</li>
 </ul></td>
 </tr>
@@ -124,7 +123,6 @@ Alþjóðlegt númer bankareiknings (IBAN) og bankaeinkenniskóði (BIC) eru not
 
 ## <a name="how-do-i-transmit-a-payment-file-to-the-bank"></a>Hvernig sendi ég greiðsluskrá í bankann?
 Greiðsluskráin er mynduð þegar greiðslur eru myndaðar og það verður beðnir um að vista hana úr vafranum á einhverja tiltæka staðsetningu. Næsta skref er að senda xml-skrána til bankans. Þetta ferli er breytilegr frá einum banka til annars. Fylgja skal leiðbeiningunum frá bankanum til að senda inn skrár til banka fyrir vinnslu.
-
 
 
 

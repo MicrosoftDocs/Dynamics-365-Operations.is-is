@@ -1,29 +1,28 @@
 ---
-title: "Tvöfaldur gjaldmiðill"
-description: "Þetta umræðuefni veitir upplýsingar um tvöfaldan gjaldmiðil þar sem skýrslugjaldmiðillinn er notaður sem annar bókhaldsgjaldmiðill fyrir Microsoft Dynamics 365 for Finance and Operations."
+title: Tvöfaldur gjaldmiðill
+description: Þetta umræðuefni veitir upplýsingar um tvöfaldan gjaldmiðil þar sem skýrslugjaldmiðillinn er notaður sem annar bókhaldsgjaldmiðill fyrir Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.contentlocale: is-is
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330311"
 ---
-
 # <a name="dual-currency"></a>Tvöfaldur gjaldmiðill
 
 [!include [banner](../includes/banner.md)]
@@ -184,4 +183,3 @@ Að auki hafa verulegar breytingar verið gerðar á afskriftarferlinu. Þessar 
     - Ef færslugerð afskriftar er færð í færslubók eigna verða skýrslugjaldmiðilsupphæðir birtar í nýju dálkunum. Þessar fjárhæðir má breyta.
     - Ef bókhaldsgjaldmiðill og skýrslugjaldmiðill í fjárhag eru þau sömu, verður fjárhæðirnar haldið í samstillingu. Ef þú breytir **Inneignar** upphæðinni verður **Inneign í skýrslugjaldmiðli** upphæð sjálfkrafa breytt þannig að það samsvari því.
     - Ef einhver önnur færslugerð er slegin inn í færslubók eigna er **Úttekt í skýrslugjaldmiðli** og **Inneign í skýrslugjaldmiðli** upphæð aldrei sýnd, hvorki fyrir eða eftir bókun. Upphæðir bókhaldsgjaldmiðils og skýrslugjaldmiðils eru enn í boði á fylgiskjali sem sendir til fjárhags.
-

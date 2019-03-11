@@ -1,13 +1,13 @@
 ---
-title: "Reglur vöruhúsavinnu"
-description: "Vöruhús vinnu reglur stýra hvort vöruhúsavinna sé stofnuð af ferli vöruhúsa í framleiðsluumhverfi, samkvæmt gerð verks, staðsetningu birgða og vöru."
+title: Reglur vöruhúsavinnu
+description: Vöruhús vinnu reglur stýra hvort vöruhúsavinna sé stofnuð af ferli vöruhúsa í framleiðsluumhverfi, samkvæmt gerð verks, staðsetningu birgða og vöru.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 0710eac8daba7f51f6b5d1522476b812a130960d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c2d72509b0dc4d0cea5b4f2478ae7f8fc163e78c
-ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325596"
 ---
-
 # <a name="warehouse-work-policies"></a>Reglur vöruhúsavinnu
 
 [!include [banner](../includes/banner.md)]
@@ -126,7 +125,7 @@ SKREF (25)
 <tr>
 <td></td>
 <td>2.</td>
-<td>Í listanum skal velja tilfangaflokkinn 5102.</td>
+<td>Á listanum skal velja tilfangaflokk &#39;5102&#39;.</td>
 </tr>
 <tr>
 <td></td>
@@ -136,17 +135,17 @@ SKREF (25)
 <tr>
 <td></td>
 <td>4.</td>
-<td>Í reit úttaksvöruhúss skal slá inn 51.</td>
+<td>Í úttaksvöruhúsreitnum skal velja &#39;51&#39;.</td>
 </tr>
 <tr>
 <td></td>
 <td>5.</td>
-<td>Í reit úttaksstaðsetningu skal slá inn 001.</td>
+<td>Í reit úttakssvæðis skal slá inn &#39;001&#39;.</td>
 </tr>
 <tr>
 <td></td>
 <td>6.</td>
-<td>Staðsetning 001 er ekki númeraplötustýrð staðsetning. Hægt er að setja upp staðsetningu úttaks ekki númeraplötu aðeins ef gildandi vinnureglu er til fyrir staðsetningarinnar.</td>
+<td>Staðsetning 001 er ekki &#39; númeraplötustýrð stjórnun. Hægt er að setja upp staðsetningu úttaks ekki númeraplötu aðeins ef gildandi vinnureglu er til fyrir staðsetningarinnar.</td>
 </tr>
 <tr>
 <td colspan="3"><strong>Undirverk: Stofna framleiðslupöntun og skrá sem lokið.</strong></td>
@@ -169,7 +168,7 @@ SKREF (25)
 <tr>
 <td></td>
 <td>4.</td>
-<td>Í reit vörunúmers skal slá inn L0101.</td>
+<td>Í vörunúmerasvæðið skal slá inn &#39;L0101&#39;.</td>
 </tr>
 <tr>
 <td></td>
@@ -204,7 +203,7 @@ SKREF (25)
 <tr>
 <td></td>
 <td>11.</td>
-<td>Í reit sjálfvirkrar uppskriftarnotkun skal velja „Aldrei“.</td>
+<td>Veljið &#39;Aldrei&#39; í reitnum Sjálfvirk uppskriftarnotkun.</td>
 </tr>
 <tr>
 <td></td>
@@ -248,7 +247,6 @@ SKREF (25)
 </tr>
 </tbody>
 </table>
-
 
 
 

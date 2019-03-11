@@ -1,13 +1,13 @@
 ---
-title: "PowerBI.com lausn fjárhagslegrar frammistöðu"
-description: "Þetta efnisatriði útskýrir PowerBI.com lausn fjárhagslegrar frammistöðu."
+title: PowerBI.com lausn fjárhagslegrar frammistöðu
+description: Þetta efnisatriði útskýrir PowerBI.com lausn fjárhagslegrar frammistöðu.
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,20 +17,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 78512e39e82e24f94dae93bbac116e6f07d25438
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315108"
 ---
-
 # <a name="financial-performance-powerbicom-solution"></a>PowerBI.com lausn fjárhagslegrar frammistöðu
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Þessi PowerBI.com lausn hefur verið úrelt eins og skjalfest er í [Innihaldspakkar Power BI í boði í AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Þessi PowerBI.com lausn hefur verið úrelt eins og skjalfest er í [Power BI-efnispakkar í boði í AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Þetta efnisatriði útskýrir PowerBI.com lausnir **Fjárhagslegrar frammistöðu**. Það útskýrir yfirlitið og skýrslurnar sem eru með og veitir upplýsingar um gagnalíkanið og einingarnar sem voru notaðar til að smíða lausnina.
 
@@ -90,4 +89,3 @@ Eftirfarandi einingar voru notaðar sem grunnurinn á PowerBI.com lausn **Fjárh
 - ChartofAccounts
 
 Þessar einingar voru notaðar til að stofna reiknaðar mælieiningar í gagnalíkaninu. Reiknaðar mælieiningar eru notaðar til að stofna reiknaðar ráðstafanir til að reikna út afkastavísar (KPI ) og skýrslur sem eru notaðar í efninu. Sjálfgefið er að efnið færir inn gögn fyrir síðustu þrjú árin og eitt komandi ár. Til að hafa viðbótarútreikning með á skýrslur og mælaborð er hægt að breyta [Microsoft Excel vinnubók](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Þessi vinnubók er sjálfgefið gagnalíkan sem var notað til að stofna efnið.
-

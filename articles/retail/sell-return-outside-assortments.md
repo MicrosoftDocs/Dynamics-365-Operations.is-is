@@ -1,31 +1,30 @@
 ---
-title: "Sala og skil á afurðum sem ekki eru hluti af úrvali verslunar"
-description: "Með Dynamics 365 for Retail er hægt að selja og skila vörum utan úrvals."
+title: Sala og skil á afurðum sem ekki eru hluti af úrvali verslunar
+description: Með Dynamics 365 for Retail getur þú selt og skilað afurðum út fyrir vöruúrval.
 author: pdp1207
 manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352299"
 ---
-
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>Sala og skil á afurðum sem ekki eru hluti af úrvali verslunar
 
 [!include [banner](includes/banner.md)]
@@ -38,7 +37,7 @@ Hér eru nokkrar dæmigerðar aðstæður.
 + Smásöluaðili er ekki með tilteknar afurðir í versluninni eða er ekki með þær í birgðum verslunar sem viðskiptavinurinn heimsótti, en afurðirnar eru fáanlegar í öðrum verslunum. Aðstoðarmaður í verslun getur hjálpað til við viðskiptavini með því að leita eða skoða vara á verslun, bæta í körfu til að og útskráning við að ljúka með því að velja afhendingaraðferðina fyrir.
 + Smásöluaðili er með margar verslanir í tiltekinni borg eða nágrenni hennar eða í póstnúmeri og vill ekki neyða viðskiptavini til að skila afurðunum í sömu verslun og þær voru keyptar í. Þess í stað getur viðskiptavinir skila vörum í hvaða annarri verslun.
 
-Þær algengar aðstæður eru í boði fyrir smásala með Dynamics 365 for Retail. Með Retail er hægt að:
+Þessar algengu aðstæður eru tiltækar fyrir smásala sem nota Dynamics 365 for Retail. Með Retail er hægt að:
 
 + Leita eða fletta að vörur í aðrar verslanir.
 + Leita eða fletta losaðar allar vörur.
@@ -47,4 +46,3 @@ Hér eru nokkrar dæmigerðar aðstæður.
 + Taka vörur í annarri verslun eða verslunarinnar.
 + Hætta við pöntun á verslunarinnar eða annarri verslun.
 + Pöntun með eða án móttöku á núverandi verslun eða annarri verslun aftur.
-

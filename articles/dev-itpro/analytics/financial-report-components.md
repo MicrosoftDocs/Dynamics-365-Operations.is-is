@@ -1,13 +1,13 @@
 ---
-title: "Hlutar fjárhagsskýrslu"
-description: "Í þessari grein er því lýst hvernig hlutar, eða einingar, skýrsluskiglreiningar eru notaðar í fjárhagsskýrslu. Þessar einingar eru línuskilgreiningar, dálkskilgreiningar og skipuritsskilgreiningar. Í þessari grein er útskýrt hvernig á að skipuleggja og læsa einingum, og hvernig unnið er með einingahópa."
+title: Hlutar fjárhagsskýrslu
+description: Í þessari grein er því lýst hvernig hlutar, eða einingar, skýrsluskiglreiningar eru notaðar í fjárhagsskýrslu. Þessar einingar eru línuskilgreiningar, dálkskilgreiningar og skipuritsskilgreiningar. Í þessari grein er útskýrt hvernig á að skipuleggja og læsa einingum, og hvernig unnið er með einingahópa.
 author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 0829c9eb54a8a5ca1f78bfe85de4779e541b945a
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "368146"
 ---
-
 # <a name="financial-report-components"></a>Hlutar fjárhagsskýrslu
 
 [!include [banner](../includes/banner.md)]
@@ -82,7 +81,7 @@ Hægt er að skoða allar einingar sem eru tengdir einingahópum. Einnig er hæg
 
 ### <a name="export-a-building-block-group"></a>Einingahópur fluttur út
 
-Einnig er hægt að flytja einingahóp út eða tilteknar skýrslueiningar í einingahóp. Hægt er að nota einingahóp sem hefur verið fluttur út sem afrit. Einnig er hægt að afrita gögn sem voru flutt út uppsettra Finance and Operations. Skýrsluhönnun tekur með leturstíl sem vísað er til og víddasamstæður með í einingahópnum.
+Einnig er hægt að flytja einingahóp út eða tilteknar skýrslueiningar í einingahóp. Hægt er að nota einingahóp sem hefur verið fluttur út sem afrit. Einnig er hægt að afrita gögn sem voru flutt út uppsettra Finance and Operations. Skýrsluhönnun tekur með leturstíl sem vísað er til og víddasamstæður með í einingahópnum.
 
 1. Á valmyndinni **Fyrirtæki** í Skýrsluhönnun er smellt á **Einingarhópar**.
 2. Í svarglugganum **Einingarhópar** er valinn einingahópurinn sem á að flytja út og síðan er smellt á **Flytja út**.
@@ -128,4 +127,3 @@ Hægt er að flytja inn einingahóp í fyrirliggjandi einingahóp. Allir eininga
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
-

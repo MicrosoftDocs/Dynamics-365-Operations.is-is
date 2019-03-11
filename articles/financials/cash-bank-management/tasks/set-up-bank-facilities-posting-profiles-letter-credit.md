@@ -1,13 +1,13 @@
---- 
-title: "Setja upp starfsstöðvar banka og bókunarreglur fyrir bankaábyrgð"
-description: "Þetta ferli fer í gegnum stofnun Bankaaðstöðu og bókunarreglu sem þarf til að vinna kreditbréf."
+---
+title: Setja upp starfsstöðvar banka og bókunarreglur fyrir bankaábyrgð
+description: Þetta ferli fer í gegnum stofnun Bankaaðstöðu og bókunarreglu sem þarf til að vinna kreditbréf.
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankParameters, DefaultDashboard, BankDocumentSetup, BankDocumentPosting
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3419d975c087350c01c6854dbbae07b6bb20bc03
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 43422627f8529768ab9377c04568da531d6565c6
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309933"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letter-of-credit"></a>Setja upp starfsstöðvar banka og bókunarreglur fyrir bankaábyrgð
 
@@ -73,5 +73,4 @@ ms.lasthandoff: 09/29/2017
 8. Í reitnum Framlegðarlykill velurðu lykil fyrir framlegðarfærslur.
     * Þessi lykill er tekjufærður þegar opnunarframlegð er bókuð og kreditfærð þegar greiðslan er bókuð.  
 9. Smellið á „Vista“.
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Samþykkja innhólfsfærslur forrits"
-description: "Þessi verklýsing sýnir hvernig á að endurskoða umsóknir sem tekið með í sjálfsafgreiðslusíðum Starfsmanna."
+---
+title: Samþykkja innhólfsfærslur forrits
+description: Þessi verklýsing sýnir hvernig á að endurskoða umsóknir sem tekið með í sjálfsafgreiðslusíðum Starfsmanna.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMApplicationBasket, HRMApplicationBasketApprove, HRMApplication
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 87a08b33e0dc004fd836142121dca9da6d6e1a6d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1f614b507d28429922902d6c3676483b689ac3d2
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310094"
 ---
 # <a name="approve-application-inbox-records"></a>Samþykkja innhólfsfærslur forrits
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/29/2017
 1. Farið í Mannauður > Ráðningar > Umsóknir > Umsóknir.
 2. Í listanum skal smella á tengilinn í valinni línu.
 3. Stækka Viðhengi hluti.
-
 

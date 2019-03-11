@@ -1,13 +1,13 @@
 ---
-title: "Skilgreina handvirk verk í verkflæði"
-description: "Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika handvirks verks."
+title: Skilgreina handvirk verk í verkflæði
+description: Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika handvirks verks.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 669fce3ddade4d6e0a130da2420ab33ca4ff4671
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309749"
 ---
-
 # <a name="configure-manual-tasks-in-a-workflow"></a>Skilgreina handvirk verk í verkflæði
 
 [!include [banner](../includes/banner.md)]
@@ -136,7 +135,7 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta Handvirk ver
     </tr>
     <tr>
     <td>Notandi</td>
-    <td>Sértækir notendur Microsoft Dynamics 365 for Finance and Operations</td>
+    <td>Tilteknir Microsoft Dynamics 365 for Finance and Operations notendur</td>
     <td>
     <ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
@@ -383,4 +382,3 @@ Fylgið eftirfarandi skrefum ef verður að ljúka handvirku verki innan tilteki
 5. Veljið gátreitinn **framselja** ef notandinn á að geta framselt verkinu til annars notanda.
 6. Veljið gátreitinn **endurúthluta** ef notandinn á að geta endurúthlutað verkinu til annars notanda í vinnuliðalistanum.
 7. Veljið gátreitinn **Losa** ef notandinn á að geta endurúthlutað verkinu til vinnuliðalista. Annar notandi getur þá ljúka verkefninu.
-

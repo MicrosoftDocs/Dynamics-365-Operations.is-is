@@ -1,14 +1,14 @@
 ---
-title: "Mælieiningarumreikningur á afurðarafbrigði"
-description: "Í þessu efnisatriði er fjallað um hvernig hægt er að setja upp mælieiningarumreikninga fyrir afurðarafbrigði."
+title: Mælieiningarumreikningur á afurðarafbrigði
+description: Í þessu efnisatriði er fjallað um hvernig hægt er að setja upp mælieiningarumreikninga fyrir afurðarafbrigði.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 12/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.translationtype: HT
-ms.sourcegitcommit: 8c6cb481f1a3fe48d329c5936118d8df88a4175b
 ms.openlocfilehash: 9d5d6fd65717cd886f1c6576aabf2bc59ca4fcaf
-ms.contentlocale: is-is
-ms.lasthandoff: 12/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345928"
 ---
-
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Mælieiningarumreikningur á afurðarafbrigði
 
 [!include [banner](../includes/banner.md)]
@@ -94,4 +93,3 @@ Fyrst skaltu opna síðuna **Umreikningur eininga** á upplýsingasíðu útgefi
 Ef afurð er með mörg afurðarafbrigði með mismunandi umreikningum eininga, er góð hugmynd að flytja út umreikninga eininga úr síðunni **Umreikningur eininga** í Excel-töflureikni, uppfæra umreikningana, og síðan senda þá til baka til Finance and Operations.
 
 Valmöguleikinn að flytja út í Excel og senda breytingarnar aftur til Finance and Operations er virkjuð í valmyndaratriðinu **Opna í Microsoft Office** í aðgerðarúðunni á síðunni **Umreikningur eininga**.
-

@@ -1,13 +1,13 @@
---- 
-title: "Rafræn skýrslugerð skilgreina áfangastað"
-description: "Þetta ferli sýnir hvernig á að setja upp og nota mismunandi áfangastaði fyrir Rafræna skýrslugerð (ER) úttak þætti, eins og möppu eða skrá."
+---
+title: Rafræn skýrslugerð skilgreina áfangastað
+description: Þetta ferli sýnir hvernig á að setja upp og nota mismunandi áfangastaði fyrir Rafræna skýrslugerð (ER) úttak þætti, eins og möppu eða skrá.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 83c6b8db609b83f94b51800616976eb9ce08d79b
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309864"
 ---
 # <a name="er-configure-destinations"></a>Rafræn skýrslugerð skilgreina áfangastað
 
@@ -60,5 +60,4 @@ Snið sem notuð er í þessu dæmi er ISO20022 millifærsla fjármuna en þú g
 20. Smellið á „Í lagi“.
 21. Í reitinn Efni skal slá inn gildi.
 22. Smellið á „Í lagi“.
-
 

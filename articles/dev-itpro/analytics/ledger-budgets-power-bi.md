@@ -1,13 +1,13 @@
 ---
-title: "Rauntölur bornar saman við fjárhagsáætlun - Power BI-efni"
-description: "Þetta efnisatriði lýsir Power BI-efninu Rauntölur bornar saman við fjárhagsáætlun. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum og veitir upplýsingar um gagnalíkan og einingar sem voru notaðar til að búa til efnið."
+title: Raunverulegt samanb. v. fjárhagsáætlun Power BI efni
+description: Þetta efnisatriði lýsir raunverulegu á móti fjárhagsáætlun Power BI efni. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum og veitir upplýsingar um gagnalíkan og einingar sem voru notaðar til að búa til efnið.
 author: ryansandness
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
 ms.reviewer: sericks
@@ -16,29 +16,28 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: c801544e9e37a528203f5a1730aa8cb526d63dbf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: fa0c56f4773b9062d616772e2bca9a576ad37ce2
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343490"
 ---
-
-# <a name="actual-vs-budget-power-bi-content"></a>Rauntölur bornar saman við fjárhagsáætlun - Power BI-efni
+# <a name="actual-vs-budget-power-bi-content"></a>Raunverulegt samanb. v. fjárhagsáætlun Power BI efni
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir Microsoft Power BI-efninu **Rauntölur bornar saman við fjárhagsáætlun**. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
+Þetta efnisatriði lýsir **Raunverulegt vs. fjárhagsáætlun** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
 ## <a name="overview"></a>Yfirlit
 
-Power BI-efnið **Rauntölur bornar saman við fjárhagsáætlun** var stofnað fyrir einstaklinga sem bera ábyrgð á því að fylgjast með rauntölum bornum saman við áætluð afköst í fyrirtækinu. Power BI-efnið **Rauntölur bornar saman við fjárhagsáætlun** gefur sýnileika í frávik í fjárhagsáætlun. Hægt er að greina áætlun fyrir gildandi ár eftir tegund lykils, áætlunarkóða, aðallykli, lýsingu aðallykils eða fjárhagstímabili til að öðlast betri skilning á orsökum frávika.
+**Raunverulegt vs. fjárhagsáætlun** Power BI efni var búið til fyrir einstaklinga sem bera ábyrgð á því að fylgjast með raunverulegum afköstum í samanb. við áætluð afköst í fyrirtæki sínu. **Raunverulegt vs. fjárhagsáætlun** Power BI efni veitir innsýn í afbrigði fjárhagsáætlunar. Hægt er að greina áætlun fyrir gildandi ár eftir tegund lykils, áætlunarkóða, aðallykli, lýsingu aðallykils eða fjárhagstímabili til að öðlast betri skilning á orsökum frávika.
 
-## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
+## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
 Skýrslur úr **Raunverulegt samanb. v. áætlun** Power BI efni eru birtar á vinnusvæðunum **Fjárhagsáætlun og spár** og **CFO vinnusvæði**.
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðir með í Power BI-efni
-Eftirfarandi tafla veitir upplýsingar um mælikvarða sem eru á hverri skýrslusíðu í Power BI-efninu **Rauntölur bornar saman við fjárhagsáætlun**.
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðar með í Power BI efni
+Eftirfarandi tafla veitir upplýsingar um einingarnar sem finna má á hverri síðu skýrslunnar í **aðferðastjórnunar** Power BI-efni .
 
 | Skýrsla                      | Einingar                                                                             |
 |-----------------------------|-------------------------------------------------------------------------------------|
@@ -59,4 +58,3 @@ Eftirfarandi tafla veitir upplýsingar um mælikvarða sem eru á hverri skýrsl
 | Fjárhagur                   | Fjárhagur sem hægt er að nota til að sía skýrslu eftir núverandi fjárhag              |
 | Fjárhagsáætlunarkóðar              | Fjárhagsáætlunarkóðar til að sía skýrslur eftir                                                |
 | Lögaðilar            | Lögaðilar sem hægt er að nota til að sía skýrslur eftir núverandi lögaðila |
-

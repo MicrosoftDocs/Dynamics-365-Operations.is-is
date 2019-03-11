@@ -1,13 +1,13 @@
 ---
-title: "Vöruskil sölu"
-description: "Þetta efnisatriði veitir upplýsingar um gæðastjórnunarferli fyrir skilapantanir. Það felur í sér upplýsingar um skil viðskiptavina og áhrif þeirra á birgðamagn kostnaðarútreiknings og magn á lager."
+title: Vöruskil sölu
+description: Þetta efnisatriði veitir upplýsingar um gæðastjórnunarferli fyrir skilapantanir. Það felur í sér upplýsingar um skil viðskiptavina og áhrif þeirra á birgðamagn kostnaðarútreiknings og magn á lager.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3dfeb393698431b1bbb0eb5069cc0930dc122374
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d4da2ed8d61ffae3a4a4dc24793d82de22e86e59
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362695"
 ---
-
 # <a name="sales-returns"></a>Vöruskil sölu
 
 [!include [banner](../includes/banner.md)]
@@ -133,7 +132,7 @@ Auk þess að ákvarða hvernig skilaðar vörur eru seldar geta ráðstöfunark
 <ul>
 <li>Nægilegt traust er á milli aðila.</li>
 <li>Kostnaður skila á gölluðum vörum er hindrandi.</li>
-<li>Ekki er hægt að leyfa vörur aftur í birgðir. Vegna annarra skilyrða er ekki krafist efnislegra skila.</li>
+<li>Ekki má &#39; leyfa vörurnar  aftur inn í birgðir. Vegna annarra skilyrða eru efnislega skil ekki áskilin.&#39;</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -329,7 +328,6 @@ Dæmi 2 er það sama og dæmi 1, en færibreytan **Kreditleiðrétting** er val
 ![Skilapöntunarlína sem er stofnuð með aðgerðinni Finna sölupöntun ](./media/SalesReturn11.png)  
 
 >[Athugasemd!] **Afsláttur** og **Skilakostnaðarverð** eru rétt stillt. Þess vegna á sér stað nákvæm bakfærsla reiknings viðskiptavinar.
-
 
 
 

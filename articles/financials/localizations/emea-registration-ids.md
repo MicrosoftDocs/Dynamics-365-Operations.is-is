@@ -1,13 +1,13 @@
 ---
-title: "Skráningarkenni"
-description: "Þetta efnisatriði gefur upplýsingar um uppsetningu og notkun skráningarkenna."
+title: Skráningarkenni
+description: Þetta efnisatriði gefur upplýsingar um uppsetningu og notkun skráningarkenna.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 7b663b9a72afdd3c2e2dcf503152f02e0b7861fd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 978c6c6f2a3de803f252e93040d2d7eb2bc4a793
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350505"
 ---
-
 # <a name="registration-ids"></a>Skráningarkenni
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,7 @@ Skráningarflokkur er skráningarkenni lands/svæðis sem er samþykkt til nota 
 |-----------------------|----------------|
 | Skráningargerð     | Skráningargerð í tilteknu landi/svæði.|
 | Takmarkað við         | Takmörkun sem gildir um skattskráningargerð: Engin, Einstaklingur, Fyrirtæki.|
-| Skráningarflokkur | Einkvæmt skráningarkenni sem er samþykkt til notkunar í landinu. Heildarlisti yfir studda flokka í Microsoft Dynamics 365 for Finance and Operations er hér að neðan. |
+| Skráningarflokkur | Einkvæmt skráningarkenni sem er samþykkt til notkunar í landinu. Listi yfir studda flokka í Microsoft Dynamics 365 for Finance and Operations er hér fyrir neðan. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Slá inn skráningarkenni fyrir færslur altækrar aðsetursbókar
 
@@ -101,7 +100,7 @@ Leit að aðilafærslum út frá skráningarkenni er í boði á skjámyndum sem
 | Opinbert auðkennisskírteini                              | Spánn             | Opinbert auðkennisskírteini|
 | Búsetuvottorð                                         | Spánn             | Búsetuvottorð|
 | Annars konar auðkennisskírteini                                 | Spánn             | Annars konar auðkennisskírteini|
-| Ekki talið                                                  | Spánn             | Ekki tiltækt í AX 2012 R3|
+| Ekki samþykkt                                                  | Spánn             | Ekki tiltækt í AX 2012 R3|
 
 
 Frekari upplýsingar um vinnslu skráningarkenna, þar á meðal áskildar forsendur, er að finna í eftirfarandi verkskráningum fyrir VSK-númer í Lifecycle Services (LCS):
@@ -109,7 +108,6 @@ Frekari upplýsingar um vinnslu skráningarkenna, þar á meðal áskildar forse
 -   Setja upp VSK-númer
 -   Skráning VSK-númers lánardrottins
 -    Leitað að aðila með VSK-kenni
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Innhreyfingarskjal jafnað við innkaupapantanir"
-description: "Þetta efnisatriði lýsir ýmsum valkostum til að skrá afurðir sem mótteknar."
+title: Innhreyfingarskjal jafnað við innkaupapantanir
+description: Þetta efnisatriði lýsir ýmsum valkostum til að skrá afurðir sem mótteknar.
 author: FrankDahl
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 09432d278c51301f8b01fef8cbd3353af75a88f3
 ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
-ms.contentlocale: is-is
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356669"
 ---
-
 # <a name="product-receipt-against-purchase-orders"></a>Innhreyfingarskjal jafnað við innkaupapantanir
 
 [!include [banner](../includes/banner.md)]
@@ -53,7 +52,7 @@ Hægt er að stofna innkaupapöntunarlínur þar sem **Nýja eign** valkosturinn
 
 Hægt er að velja margar pantanir og vinna úr móttöku á öllum þeim pöntunum saman. Þessi nálgun er ekki notuð mjög oft, en þú vilt kannski nota hana ef birgir hefur sameinað sendingar fyrir þíg í einn stakan farm. Við móttöku afurða vegna innkaupanna, er aðgerði til að framkvæma safnuppfærslur. Safnuppfærsla gera þér kleift að bóka stakan fylgiseðil frá birgi fyrir meira en eina innkaupapöntun.  
 
-Innkaupapantanir gætu verið stofnaðar úr sölupöntun þar sem **Beina afhendingu** valkostur var valinn. Þegar notuð er bein afhending, eru afurðir aldrei mótteknar í vöruhúsinu þínu heldur eru sendar beint frá birgi til viðskiptavinar. Í þessu tilfelli er móttakan yfirleitt skráðar beint á Innkaupapöntunina. Innhreyfingu er hægt að gera sjálfkrafa, eins og með innþættingu á rafrænum gagnaskiptum (EDI) við birgi. Sé um að ræða innkaupapöntun innan samstæðunnar er sölupöntunin móttekin sjálfkrafa í Microsoft Dynamics 365 for Finance and Operations við sendingu. Þegar notuð er bein afhending, eru afurðir enn bókaðar sem birgðir, jafnvel þótt efnislega berist þær ekki í vöruhús. Þess vegna þegar innhreyfingarskjal afurða er skráður á Innkaupapöntun, er sölupöntun sjálfkrafa uppfært með fylgiseðill, þannig að heildarbreytingin í birgðir er 0 (núll). Í aðstæðum beinnar afhendingar ætti ekki að krefjast forskráningar. Ef verið er að nota vöruhús sem eru virkjaðar fyrir vöruhúsakerfi, er hægt komast hjá kröfunni um skráningu númeraplötu með því að tilgreina sýndarvöruhús í staðinn. Þú Tilgreina þetta vöruhús í á **vöruhús Beinnar afhendingar** reitnum á afurðinni. 
+Innkaupapantanir gætu verið stofnaðar úr sölupöntun þar sem **Beina afhendingu** valkostur var valinn. Þegar notuð er bein afhending, eru afurðir aldrei mótteknar í vöruhúsinu þínu heldur eru sendar beint frá birgi til viðskiptavinar. Í þessu tilfelli er móttakan yfirleitt skráðar beint á Innkaupapöntunina. Innhreyfingu er hægt að gera sjálfkrafa, eins og með innþættingu á rafrænum gagnaskiptum (EDI) við birgi. Einnig, ef Innkaupapöntunin er Innkaupapöntun innan samstæðu gerir Microsoft Dynamics 365 for Finance and Operations móttökuna á sjálfvirkan hátt á sölupöntun innan samstæðu þegar sendingin á sér stað. Þegar notuð er bein afhending, eru afurðir enn bókaðar sem birgðir, jafnvel þótt efnislega berist þær ekki í vöruhús. Þess vegna þegar innhreyfingarskjal afurða er skráður á Innkaupapöntun, er sölupöntun sjálfkrafa uppfært með fylgiseðill, þannig að heildarbreytingin í birgðir er 0 (núll). Í aðstæðum beinnar afhendingar ætti ekki að krefjast forskráningar. Ef verið er að nota vöruhús sem eru virkjaðar fyrir vöruhúsakerfi, er hægt komast hjá kröfunni um skráningu númeraplötu með því að tilgreina sýndarvöruhús í staðinn. Þú Tilgreina þetta vöruhús í á **vöruhús Beinnar afhendingar** reitnum á afurðinni. 
 
 Eftir að innhreyfingarskjal afurða hefur verið unnið á Innkaupapöntunin, er staða Innkaupapantana stillt á **Móttekið** til að tilgreina a' hægt er að vinna reikningur fyrir pöntunina. Hægt er að skoða upplýsingar um afurðir sem hafa þegar verið móttekin með **færslubækur innhreyfingarskjals Afurða** síðu.  
 
@@ -69,7 +68,6 @@ Hægt er að opna þessa síðu úr á **Innhreyfing** aðgerðaflokk á **Innka
 [Staðfesting innkaupapöntunar og samþykki](purchase-order-approval-confirmation.md)
 
 [Yfirlit yfir lánardrottnareikninga](../../financials/accounts-payable/vendor-invoices-overview.md)
-
 
 
 

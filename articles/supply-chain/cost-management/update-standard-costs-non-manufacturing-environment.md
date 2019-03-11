@@ -1,13 +1,13 @@
 ---
-title: "Uppfærsla staðalkostnaðar í umhverfi sem tengist ekki framleiðslu"
-description: "Þessi skrá veitir leiðbeiningar um uppfærslu á stöðluðum kostnaði í framleiðslulausu umhverfi."
+title: Uppfærsla staðalkostnaðar í umhverfi sem tengist ekki framleiðslu
+description: Þessi skrá veitir leiðbeiningar um uppfærslu á stöðluðum kostnaði í framleiðslulausu umhverfi.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4fa545aa6903bd6f789dda20ab5755ffe9a12b88
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0386ca1e5e7bf6e578ba2abf1b2c9eefe4dd2a02
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323020"
 ---
-
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>Uppfærsla staðalkostnaðar í umhverfi sem tengist ekki framleiðslu
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Eftirfarandi leiðbeiningar gera ráð fyrir að notuð sé tveggja útgáfu ná
 4.  Notið síðuna **Viðhald kostnaðarútgáfu** til að breyta lokunarflaggi til að heimila virkjun á biðkostnaðarfærslum í seinni kostnaðarútgáfunni.
 5.  Notið síðuna **Virkja verð** (sem er opnuð úr síðunni **Viðhald Kostnaðarútgáfu**) til að virkja allar biðkostnaðarfærslur í seinni kostnaðarútgáfunni. Einnig er hægt að gera kostnaðarfærslur í bið fyrir stakar vörur virkar með því að smella á hnappinn **Virkja biðverð** á síðunni **Vöruverð**.
 6.  Notið skjámyndina **Uppsetning kostnaðarútgáfu** til þess að breyta lokunarflöggum í síðari kostnaðarútgáfunni og koma í veg fyrir frekara gagnaviðhald. Lokunarreglurnar hindra færslu nýs kostnaðar í bið og virkjun kostnaðar í bið.
-
 
 
 

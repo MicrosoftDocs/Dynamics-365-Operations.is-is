@@ -1,13 +1,13 @@
---- 
-title: "Rafræn skýrslugerð Varpa efnisþætti ef stofnað snið einingar gagnalíkans (nóvember 2016)"
-description: "Eftirfarandi ferli sýnir hvernig notandi í annaðhvort hlutverk kerfisstjóri eða þróunaraðili Rafræn skýrslugerð getur varpað gagnalíkanaeiningar í íhluti af stofnaðri grunnstillingu Rafræn skýrslugerð, sem skilgreinir snið rafrænt skjal fyrir viðskiptalén greiðslna."
+---
+title: Rafræn skýrslugerð Varpa efnisþætti ef stofnað snið einingar gagnalíkans (nóvember 2016)
+description: Eftirfarandi ferli sýnir hvernig notandi í annaðhvort hlutverk kerfisstjóri eða þróunaraðili Rafræn skýrslugerð getur varpað gagnalíkanaeiningar í íhluti af stofnaðri grunnstillingu Rafræn skýrslugerð, sem skilgreinir snið rafrænt skjal fyrir viðskiptalén greiðslna.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: a24ef0e091379f14a163a6385be988143a1ec608
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323549"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>Rafræn skýrslugerð Varpa efnisþætti ef stofnað snið einingar gagnalíkans (nóvember 2016)
 
@@ -113,5 +113,4 @@ Eftirfarandi ferli sýnir hvernig notandi í annaðhvort hlutverk kerfisstjóri 
 ## <a name="restrict-access-to-created-format-from-companies"></a>Takmarka aðgang að stofnuðu sniði frá fyrirtækjum
 1. Víkka út hlutann ISO lands-/svæðiskóða.
     * Hvert aðgangur sniðs má takmarka með því að  auðkenna tiltekna lönd/svæði þar sem snið á við. Þegar listi yfir lönd/svæði fyrir tiltekið snið er tómt er hægt að nota þetta snið fyrir öll fyrirtæki. Þegar sumar ISO lands/svæðiskóða eru færðar inn á lista yfir lönd/svæði, er hægt að nota sniðið eingöngu í fyrirtæki sem hafa aðalaðsetur með landskóðinn af þeim lista.  
-
 

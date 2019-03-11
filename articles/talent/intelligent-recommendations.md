@@ -1,14 +1,14 @@
 ---
-title: "Snjallmeðmæli"
-description: "Þetta efnisatriði útskýrir hvernig hægt er að nota vélnám til að veita ráðleggingar fyrir störf og umsækjendur."
+title: Snjallmeðmæli
+description: Þetta efnisatriði útskýrir hvernig hægt er að nota vélnám til að veita ráðleggingar fyrir störf og umsækjendur.
 author: josaw
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: c6225a311f5ba0b65b45092a1f626b9d6aff3f5e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fea36661c65739ef09261c82ec44e16c29fad0e7
-ms.contentlocale: is-is
-ms.lasthandoff: 10/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304849"
 ---
-
 # <a name="intelligent-recommendations"></a>Snjallmeðmæli
 
 [!include[banner](../includes/banner.md)]
@@ -45,4 +44,3 @@ Fyrir hvern umsækjanda sem er mælt með er hægt að velja **Skoða umsækjand
 ## <a name="job-recommendations"></a>Tillögur um störf 
 
 Þegar væntanlegur starfsmaður notar starfatorgið til að sækja um starf er mælt með öðrum lausum störfum hjá fyrirtækinu. Þessar tillögur eru byggðar á fyrri umsóknum viðfangsins og ferilskrá umsækjandans eða forstillingum hans eða hennar. Þar af leiðandi eru tillögur um störf sem hjálpa viðföngum að greina fljótt þau störf sem eru best fyrir þá. Tillögur um störf eru veittar til viðfanga ef fleiri en tíu störf eru auglýst á starfatorginu. Viðföng geta opnað upplýsingar um starfsauglýsingar á spjaldinu fyrir meðmæli. Þeir geta einnig veitt endurgöf um tillögur til að bæta ábendingar í framtíðinni.
-

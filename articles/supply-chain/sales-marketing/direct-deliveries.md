@@ -1,13 +1,13 @@
 ---
 title: Beinar afhendingar
-description: "Þessi grein veitir upplýsingar um beinar afhendingar. Beinar afhendingar sendingar sem eru sendar beint frá lánardrottni til viðskiptavinar."
+description: Þessi grein veitir upplýsingar um beinar afhendingar. Beinar afhendingar sendingar sem eru sendar beint frá lánardrottni til viðskiptavinar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchCreateFromSalesOrder, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d9c4a695c591865c52ad5ee6d37a515139f58bf8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1f2cdae674dc88a4d533258e24b1ecf7ec4cf55b
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312279"
 ---
-
 # <a name="direct-deliveries"></a>Beinar afhendingar
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Reynirðu að eyða sölupöntunarlínu sem hefur afhendingargerðina **bein afh
 
 ## <a name="warehouse"></a>Vöruhús
 Þegar bein afhending er stofnuð berast vörur sem eru seldar aldrei í vöruhússið. Hins vegar enn verður að tilgreina vöruhús á sölupöntunarlínunni. Á sama hátt eru tiltektarkröfur kannski tilgreindar í vörulíkanaflokkur fyrir vöru. Hins vegar vegna þess að vörurnar berast aldrei efnislega í vöruhúsi fyrirtækisins, eru þessar kröfur hunsaðar þegar sölupöntunin er bein afhending.
-
 
 
 

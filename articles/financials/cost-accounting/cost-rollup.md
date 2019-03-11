@@ -1,32 +1,31 @@
 ---
-title: "Stefna fyrir samantekt kostnaðar og útreikning sameiginlegs kostnaðar"
-description: "Þetta efnisatriði veitir upplýsingar um hvernig á að ákvarða rétt stig aukakostnaðareininga og stofna reglur fyrir samantekt kostnaðar sem hæfa skýrslugerð fyrirtækis og rekjanleika kostnaðar."
+title: Stefna fyrir samantekt kostnaðar og útreikning sameiginlegs kostnaðar
+description: Þetta efnisatriði veitir upplýsingar um hvernig á að ákvarða rétt stig aukakostnaðareininga og stofna reglur fyrir samantekt kostnaðar sem hæfa skýrslugerð fyrirtækis og rekjanleika kostnaðar.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e809cb2cadadc623134805e028de7f2e64dd662f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1150a63fe7c9d51c5fa83f4b0295cfdca7b998dc
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356140"
 ---
-
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Stefna fyrir samantekt kostnaðar og útreikning sameiginlegs kostnaðar 
 
 [!include [banner](../includes/banner.md)]
@@ -251,13 +250,13 @@ Síðan **Upplýsingar um bókarfærslu fyrir kostnaðarstöðu kostnaðarhlutar
 | CC003       | Smölun     | SC-CC002 | Fjármál         | 11.527,75   | 31-01-2017 |
 | CC004       | Pakkning    | SC-CC002 | Fjármál         | 6.207,25    | 31-01-2017 |
 
-Eftir að **Útreikningi á sameiginlegum kostnaði** er lokið er hægt að setja niðurstöður í skýrslu með verkfærum á borð við Microsoft SharePoint Workspace, Excel eða Power BI.
+Eftir að **Útreikningur fastakostnaðar** er lokið er hægt tilkynna um niðurstöðuna með því að nota verkfæri á borð við Microsoft SharePoint vinnusvæði, Excel eða Power BI.
 
 ## <a name="view-reporting-in-excel"></a>Skoða skýrslugerð í Excel 
 
 Víddarstigveldi gera þér kleift að sjá gögn á mismunandi flokkunarstigum.
 
-Hér er dæmi um Power Pivot skýrslugerð í Excel.
+Hér er dæmi um Power Pivot skýrslugjöf í Excel.
 
 | **Rekstrarreikningur** | **Kostnaðarhlutur** |                |               |               |  **Samtala**    |
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
@@ -302,4 +301,3 @@ Skýr aðgreining milli **Kostnaðarúthlutunar** og **Stefnu fyrir samantekt ko
 -  [Víddir kostnaðareiningar](cost-elements.md)
 -  [Víddastigveldi](dimension-hierarchy.md)
 -  [Útreikningur fastakostnaðar](overhead-calculation.md)
-

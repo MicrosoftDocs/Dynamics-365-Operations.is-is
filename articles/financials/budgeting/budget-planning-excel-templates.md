@@ -1,13 +1,13 @@
 ---
-title: "Sniðmát fjárhagsáætlunargerðar fyrir Excel"
-description: "Þetta efnisatriði lýsir hvernig stofna á sniðmát í Microsoft Excel sem hægt er að nota með fjárhagsáætlununum."
+title: Sniðmát fjárhagsáætlunargerðar fyrir Excel
+description: Þetta efnisatriði lýsir hvernig stofna á sniðmát í Microsoft Excel sem hægt er að nota með fjárhagsáætlununum.
 author: ryansandness
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 079aa6bb4be020fc050b81c400050ed23d48f6ca
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 156688b705337331e083ebc19fded57b028acb67
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337050"
 ---
-
 # <a name="budget-planning-templates-for-excel"></a>Sniðmát fjárhagsáætlunargerðar fyrir Excel
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,7 @@ Excel-sniðmátið mun innihalda allar einingar úr útliti fjárhagsáætlunars
 [![Dæmi](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Til að forðast möguleg vandamál við skoðun og breytingar á fjárhagsáætlunargögnum með Excel ætti sami notandi að vera skráður bæði inn í Microsoft Dynamics 365 for Finance and Operations og gagnatengi Microsoft Dynamics Office-innbótar.
+> Til að forðast möguleg vandamál við skoðun og breytingar á fjárhagsáætlunargögnum með Excel ætti sami notandi að vera skráður bæði inn í Microsoft Dynamics 365 for Finance and Operations gagnatengil og Microsoft Dynamics Office-innbóta.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Bæta haus við sniðmát fjárhagsáætlunarskjals.
 Til að bæta við upplýsingum úr haus velurðu efstu línuna í Excel-skránni og setur inn auðar línur. Smellið á **Hönnun** í **Gagnatengli** til að bæta við haussvæðum í Excel-skrá.
@@ -136,7 +135,6 @@ Já, flestir hefðbundir Excel-eiginleikar munu virka í sniðmátum fjárhagsá
 Einnig er hægt að stofna og nota snúningstöflur og myndrit fyrir viðbótarflokkaa og myndbirtingar á fjárhagsáætlunargögnum. Á flipanum **Gögn**, í flokknum **Tengingar**, er smellt á **Endurnýja allt**, og síðan er smellt á **Eiginleikar tengingar**. Smelltu á flipann **Notkun**. Undir **Endurhlaða** velurðu gátreitinn **Endurhlaða gögnum þegar skráin er opnuð**. 
 
 [![bpt17](./media/bpt17-1024x614.png)](./media/bpt17.png)
-
 
 
 

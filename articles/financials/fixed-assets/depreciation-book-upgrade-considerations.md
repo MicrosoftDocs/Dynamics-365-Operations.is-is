@@ -1,13 +1,13 @@
 ---
-title: "Yfirlit yfir uppfærslu afskriftarbókar"
-description: "Í eldri útgáfum, voru tvö matshugtök fyrir eignir -  virðislíkön og afskriftabækur. Í Microsoft Dynamics 365 for Operations (1611) er aðgerðin virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók. Þetta efnisatriði gefur einhverjar eftirfarandi gott að hafa í huga fyrir uppfærslu."
+title: Yfirlit yfir uppfærslu afskriftarbókar
+description: Í eldri útgáfum, voru tvö matshugtök fyrir eignir -  virðislíkön og afskriftabækur. Í Microsoft Dynamics 365 for Operations (1611) útgáfu, er aðgerðin virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók. Þetta efnisatriði gefur einhverjar eftirfarandi gott að hafa í huga fyrir uppfærslu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 805f6ab1cd1d0996e685278cc997f532213c76c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e95fa9dd15dfe5e6b26de61b5dbc1a9a6c0d768d
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359314"
 ---
-
 # <a name="depreciation-book-upgrade-overview"></a>Yfirlit yfir uppfærslu afskriftarbókar
 
 [!include [banner](../includes/banner.md)]
 
-Í eldri útgáfum, voru tvö matshugtök fyrir eignir -  virðislíkön og afskriftabækur. Í Microsoft Dynamics 365 for Operations (1611) er aðgerðin virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók. Þetta efnisatriði gefur einhverjar eftirfarandi gott að hafa í huga fyrir uppfærslu. 
+Í eldri útgáfum, voru tvö matshugtök fyrir eignir -  virðislíkön og afskriftabækur. Í Microsoft Dynamics 365 for Operations (1611) útgáfu, er aðgerðin virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók. Þetta efnisatriði gefur einhverjar eftirfarandi gott að hafa í huga fyrir uppfærslu. 
 
 Uppfærsluferlið færir fyrirliggjandi uppsetningu og allar fyrirliggjandi færslur til uppbyggingar nýju bókarinnar. Virðislíkön haldast eins og þau eru, sem bók sem bókar í fjárhag. Afskriftabækur verða flutt í bók sem hefur **Bóka í fjárhag** valkostur stilltur á **Nei**. Færslubókaheiti afskriftabóka verði flutt í færslubókarheitið fjárhags sem er með bókunarlag stillt á **Ekkert**. Færslur afskriftarbókar verða fluttar í Eignafærsla. 
 
@@ -81,7 +80,6 @@ Endurbyggja verksins sem inniheldur flokkinn eftir að fastarnir hafa verið bre
 Þegar notast er við nálgunina notendaskilgreind fyrirliggjandi númeraröð (valkostur 2) athugar gagnauppfærslan hvort númeraröðið með tilgreindu umfangi er til staðar í gagnagrunni fyrir hverja deildaskiptingu og fyrirtæki með færslum afskriftarbókar. EF það er ekki til staðar, mun uppfærslan nota röð-eftir-röð vinnslu til að úthluta númerum fylgiskjala sem tilgreind eru í númeraröðinni með því að nota ramma númeraraða. Ef númeraröð er ekki til staðar með tilgreindu umfangi, mun uppfærslan nota sjálfgefna kerfisskilgreindu nálgun á númeraraðir til að úthluta númer fylgiskjals, og mun stofna nýja númeraröð með tilgreindum sjálfgefnum færibreytum eftir úthlutunina.
 
 Með hvorri nálguninni mun uppfærsluforskrift gagna einnig nota númeraröðina fyrir reitinn **fylgiskjalarunur** á nýjum heitum færslubók fjárhags sem voru stofnuð úr fyrri færslubókarheitum afskriftarbókar.
-
 
 
 

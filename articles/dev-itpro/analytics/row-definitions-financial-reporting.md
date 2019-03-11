@@ -1,13 +1,13 @@
 ---
-title: "Línuskilgreiningar í fjárhagsskýrsluhönnuði"
-description: "Línuskilgreining er skýrsluhluti, eða eining sem tilgreinir efni hverrar raðar í fjárhagsskýrslu. Línuskilgreiningu er hægt að sameina með dálkaskilgreiningum, skipuritsskilgreiningum og skýrsluskilgreiningum til að stofna einingahóp sem mörg fyrirtæki geta notað."
+title: Línuskilgreiningar í fjárhagsskýrsluhönnuði
+description: Línuskilgreining er skýrsluhluti, eða eining sem tilgreinir efni hverrar raðar í fjárhagsskýrslu. Línuskilgreiningu er hægt að sameina með dálkaskilgreiningum, skipuritsskilgreiningum og skýrsluskilgreiningum til að stofna einingahóp sem mörg fyrirtæki geta notað.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: c829af1da1b3109f4687c9a2536dd156339d5c76
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "350436"
 ---
-
 # <a name="row-definitions-in-financial-report-designer"></a>Línuskilgreiningar í fjárhagsskýrsluhönnuði
 
 [!include [banner](../includes/banner.md)]
@@ -160,7 +159,7 @@ Hægt er að stofna og breyta leturstílum fyrir skýrslu. Svo er hægt að nota
 
 Sniðið sem er tilgreint í línuskilgreiningunni hnekkir öllum sniðum sem eru tilgreind í dálkskilgreiningu og skýrsluskilgreiningu. Hægt er að breyta textasniðinu með því að nota stýringarnar á sniðstikunni. Stýringarnar eru hefðbundnar Microsoft Windows stýringar.
 
-1. Opnið skilgreiningu raðar í Skýrsluhönnun til að gera breytingar.
+1. Opnið skilgreiningu raðar í Report Designer til að gera breytingar.
 2. Veljið hólfin sem á að sníða. Til að velja fleiri en eitt hólf skal halda Ctrl-lyklinum niðri um leið og hólfin eru valin.
 3. Smellið á tækjastikuhnapp sniðsins sem á að nota. Til að draga t.d. inn línu skal velja línuna og smella á **Auka inndrátt** ![Auka inndrátt](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Auka inndrátt") á tækjastikunni.
 
@@ -189,4 +188,3 @@ Til að auðvelda að skoða dálka sem er unnið er með í línuskilgreiningu 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
-

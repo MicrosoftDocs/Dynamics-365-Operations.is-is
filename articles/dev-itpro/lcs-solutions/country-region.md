@@ -1,13 +1,13 @@
 ---
-title: "Staðfærslu- og eftirlitseiginleikar"
-description: "Í þessu efnisatriði er að finna tilfangalista sem veitir frekari upplýsingar um sértæka virkni fyrir lönd/svæði."
+title: Staðfærslu- og eftirlitseiginleikar
+description: Í þessu efnisatriði er að finna tilfangalista sem veitir frekari upplýsingar um sértæka virkni fyrir lönd/svæði.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/30/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a8207af4dc9d5059d487bda97959eff559b7ca06
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: e74ad4442e1b6851812f889e79f2fb09060fb87a
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302447"
 ---
-
 # <a name="localization-and-regulatory-features"></a>Staðfærslu- og eftirlitseiginleikar
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations býður upp á aðgerðir fyrir landið/svæðin sem tilgreind eru í [Handbók um staðfærslu vöru og aðgengi að þýddum útgáfum](https://aka.ms/ax-availabilityguide). Þessi virkni er virkjuð á grunni aðalaðseturs virks lögaðila. 
+Microsoft Dynamics 365 for Finance and Operations býður upp á aðgerðir fyrir landið/svæðin sem tilgreind eru í [Handbók um staðfærslu afurða og aðgengi að þýddum útgáfum](https://aka.ms/dynamics_365_international_availability_deck). Þessi virkni er virkjuð á grunni aðalaðseturs virks lögaðila. 
 
 Í þessu efnisatriði er að finna tilfangalista sem getur aðstoðað þig við að gera eftirfarandi: 
 - fá frekari upplýsingar um lausnir fyrir þróunarland/svæðisbundnar lausnir
@@ -45,10 +44,11 @@ Eftirfarandi tilföng veita leiðbeiningar og upplýsingar sem geta gagnast þr�
 -   [Flokkun staðfærslueiginleika](classify-localization-features.md)
 -   [Landsnúmer – ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="localization-updates-and-communication"></a>Staðfærsluuppfærslur og samskipti
+## <a name="regulatory-updates-and-communication"></a>Regluuppfærslur og samskipti
 Eftirfarandi tilföng veita upplýsingar um áætlaða og nýja staðfærslueiginleika. 
 
-### <a name="localization-updates"></a>Staðfærsluuppfærslur
+### <a name="regulatory-updates"></a>Regluuppfærslur
+-   [Regluuppfærslur](../../financials/localizations/regulatory-updates.md)
 -   [Staðfærslugátt](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (uppfært vikulega)
 -   [LCS-vandamálaleit](../lifecycle-services/issue-search-lcs.md) (uppfært daglega)
 
@@ -72,9 +72,9 @@ Rafræna skýrslugerðarverkfærið býður upp á skilgreiningu sniða fyrir ra
 -   [Myndun rafrænna skjala og uppfærsla forritagagna með rafrænu skýrslugerðarverkfæri](../analytics/generate-electronic-documents-update-application-data.md)
 
 ## <a name="task-guides"></a>Verkleiðbeiningar
-Verkleiðbeiningar eru aðgengilegar á hjálparsvæði vörunnar og veita leiðbeiningar um helstu viðskiptaferli. Hægt er að opna verkefnaleiðbeiningar til að lesa um skrefin í viðskiptaferli eða spila myndband þar sem farið er í gegnum viðskiptaferli og upplýsingar færðar inn.
+Verkleiðbeiningar eru aðgengilegar á hjálparsvæði vörunnar og veita leiðbeiningar um helstu viðskiptaferli. Hægt er að opna verkleiðbeiningar til að lesa um skrefin í viðskiptaferli eða spila myndband þar sem farið er í gegnum viðskiptaferli og upplýsingar færðar inn.
 
-Farið er á síðu í Microsoft Dynamics 365 for Finance and Operations og smellt á „Hjálp“ til að finna verkefnaleiðbeiningar. Verkefnaleiðbeiningar sem nota síðuna eru tilgreindar á hjálparsvæðinu. Einnig er hægt að nota hjálparsvæðið til að leita að verkefnaleiðbeiningum eftir titli.
+Farið er á síðu í Microsoft Dynamics 365 for Finance and Operations og smellt á „Hjálp“ til að finna verkleiðbeiningar. Verkleiðbeiningar sem nota síðuna eru tilgreindar á hjálparsvæðinu. Einnig er hægt að nota hjálparsvæðið til að leita að verkefnaleiðbeiningum eftir titli.
 
 Frekari upplýsingar eru í [Verkleiðbeiningar](../../fin-and-ops/get-started/help-overview.md#task-guides).
 
@@ -118,7 +118,6 @@ Frekari upplýsingar eru í [Verkleiðbeiningar](../../fin-and-ops/get-started/h
         - [Bandaríkin](../../financials/localizations/united-states.md)
     :::column-end:::
 :::row-end:::
-
 
 
 

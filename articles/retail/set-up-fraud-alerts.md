@@ -1,13 +1,13 @@
 ---
-title: "Setja upp og vinna með viðvaranir vegna svika fyrir símaver"
-description: "Í þessu efnisatriði er útskýrt hvernig á að setja upp reglur viðvörun viðskiptavinar þjónustu biðlaraþjónustu hugsanlega sviksamleg upplýsinga þegar pantanir eru unnar. Þú getur skilgreint tiltekna kóða sem eru notaðir til að sjálfkrafa eða handvirkt setja grunsamlegar pantanir í bið."
+title: Setja upp og vinna með viðvaranir vegna svika fyrir símaver
+description: Í þessu efnisatriði er útskýrt hvernig á að setja upp reglur viðvörun viðskiptavinar þjónustu biðlaraþjónustu hugsanlega sviksamleg upplýsinga þegar pantanir eru unnar. Þú getur skilgreint tiltekna kóða sem eru notaðir til að sjálfkrafa eða handvirkt setja grunsamlegar pantanir í bið.
 author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 13b6a18750e79a17c7f6034780922c64b12390e2
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361499"
 ---
-
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Setja upp og vinna með viðvaranir vegna svika fyrir símaver
 
 [!include [banner](includes/banner.md)]
@@ -69,4 +68,3 @@ Pöntunin er vistuð, en **Ekki setja í ferli** flaggið er stillt á hana. Þe
 Til að skoða og stjórna pöntununum sem eru í bið fyrir svikakönnun skaltu fara í **Smásala** \> **Viðskiptavinir** \> **Pantanir í bið**. Á síðunni **Pantanir í bið** skal velja færslu í listanum og smella svo á **Pöntun í bið** til að sjá frekari upplýsingar sem innihalda ástæðuupplýsingar. Á flipanum **Upplýsingar um svik** er hægt að skoða kerfisbundin svikaviðmið sem fundust fyrir pöntunina og stigin sem voru notuð. Ef pöntunin var sett í bið handvirkt er hægt að skoða allar athugasemdir sem notandinn sem setti pöntunina í bið sló inn með því að skoða **Athugasemdir um svik** hlutann í flýtiflipanum **Athugasemdir**.
 
 Frekari upplýsingar um hvernig á að vinna með pantanir í bið er að finna í [Pantanir í bið](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
-

@@ -1,13 +1,13 @@
 ---
-title: "Nýjungar eða breytingar í Dynamics AX forritaútgáfu 7.0.1 (maí 2016)"
-description: "Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í núverandi útgáfu Microsoft Dynamics AX 7.0.1. Þessi útgáfa var losuð í Maí 2016 og byggingarnúmer af 7.0.1265.23014."
+title: Hvað er nýtt og hvað hefur breyst í Dynamics AX forritaútgáfa 7.0.1 (maí 2016)
+description: Þessi grein lýsir eiginleikum sem eru annað hvort nýjar eða breyttar í Microsoft Dynamics AX umsókn útgáfu 7.0.1. Þessi útgáfa var losuð í Maí 2016 og byggingarnúmer af 7.0.1265.23014.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: c830952b5d9e4887a816b5ab66d0944bddf5b505
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314510"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Nýjungar eða breytingar í Dynamics AX forritaútgáfu 7.0.1 (maí 2016)
+# <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Hvað er nýtt og hvað hefur breyst í Dynamics AX forritaútgáfa 7.0.1 (maí 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í núverandi útgáfu Microsoft Dynamics AX 7.0.1. Þessi útgáfa var losuð í Maí 2016 og byggingarnúmer af 7.0.1265.23014.
+Þessi grein lýsir eiginleikum sem eru annað hvort nýjar eða breyttar í Microsoft Dynamics AX umsókn útgáfu 7.0.1. Þessi útgáfa var losuð í Maí 2016 og byggingarnúmer af 7.0.1265.23014.
 
 ## <a name="electronic-reporting-er"></a>Rafræn skýrslugerð (ER)
 
@@ -40,7 +39,7 @@ ms.lasthandoff: 12/18/2018
 | Stilla skýrslu ER að færa gögn í dálkum sjálfvirkt myndað af rafræna skjalið sem er stofnun í OPENXML vinnublaði. | ER skýrslan hægt að færa inn gögn í OPENXML vinnublaðs sem er mynduð með gagnaspeglun láréttur dálka. Þess vegna er hægt að endurnota sama skýrsluskilgreiningar ER til að mynda rafrænu skjölin sem hafa mismunandi fjölda dálka sem sjálfvirkt myndaðan. |
 | Skilgreina ER áfangastaði sem úttaks niðurstaða snið beint er til ákveðna áfangastað: skráin, tölvupósti eða safn (Microsoft SharePoint-möppu eða Geymslu Microsoft Azure). | Áður þegar ER skilgreining sem keyrði skilaboðagluggi birtist sem aðgerð notanda sem þarf til að vista eða opna skrá. Hægt er að forskilgreina áfangastað fyrir hverja skilgreiningarsnið og íhlut úttaks þess (möppu eða í skrá) sér. Notendur sem eru veittar viðeigandi aðgangsheimildir einnig er hægt að breyta stillingar fyrir áfangastað á keyrslutíma. |
 
-## <a name="pos--microsoft-dynamics-ax-retail"></a>POS – Microsoft Dynamics AX Retail
+## <a name="pos--microsoft-dynamics-ax-retail"></a>POS - Microsoft Dynamics AX smásala
 
 | Hvað hægt er að gera? | Hví er þetta mikilvægt? |
 |------------------|------------------------|
@@ -107,4 +106,3 @@ ms.lasthandoff: 12/18/2018
 [Nýjungar eða breytingar](whats-new-changed.md)
 
 [Nýjar eða uppfærðar verkefnaleiðbeiningar (maí 2016)](new-updated-task-guides-available-may-2016.md)
-

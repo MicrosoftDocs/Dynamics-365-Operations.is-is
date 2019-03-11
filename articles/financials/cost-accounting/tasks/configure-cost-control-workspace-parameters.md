@@ -1,13 +1,13 @@
---- 
-title: "Skilgreina færibreytur vinnusvæðis kostnaðarstýringar"
-description: "Nota þetta ferli til að grunnstilla Vinnusvæði kostnaðarstýringar svo stjórnendur á ýmsum stigum í fyrirtæki geti fengið innsýn inn í kostnaðarhluta þess, eins og og kostnaðarstaði og vöruflokka."
+---
+title: Skilgreina færibreytur vinnusvæðis kostnaðarstýringar
+description: Nota þetta ferli til að grunnstilla Vinnusvæði kostnaðarstýringar svo stjórnendur á ýmsum stigum í fyrirtæki geti fengið innsýn inn í kostnaðarhluta þess, eins og og kostnaðarstaði og vöruflokka.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2f9c50bb0ab7f1b0afadfabb687932f96ab6e689
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8ede40951d08e159358b713fc3dde46576a1b4e3
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308576"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Skilgreina færibreytur vinnusvæðis kostnaðarstýringar
 
@@ -57,5 +57,4 @@ Nota þetta ferli til að grunnstilla Vinnusvæði kostnaðarstýringar svo stj�
 26. Sláið inn eða veldu gildi í reitnum Fjárhagsdagatal tímabil.
 27. Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.
     * Eftir að þú hefur valið Stigveldi víddar fyrir kostnaðarhluta skal útvíkka Stigveldi víddar fyrir kostnaðarhluta til að sjá það kostnaðarvirði sem þú vilt. Þú getur t.d. útvíkkað stigveldið í Framleiðslurekstrarkostnaður til að sjá virðið.  
-
 

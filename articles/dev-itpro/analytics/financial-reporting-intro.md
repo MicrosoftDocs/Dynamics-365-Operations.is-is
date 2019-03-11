@@ -1,13 +1,13 @@
 ---
-title: "Fjárhagsskýrslugerð"
-description: "Fjárhagsskýrslugerð fyrir Finance and Operations fyrir fjármála- og viðskiptafagfólk getur notað til að búa til, viðhalda, innleiða og skoða reikningsskil. Það býður upp á fleiri valkosti en hefðbundið skýrslugerð skorður til að hjálpa að hanna mismunandi gerðir af skýrslum."
+title: Fjárhagsskýrslugerð
+description: Fjárhagsskýrslugerð fyrir Finance and Operations fyrir fjármála- og viðskiptafagfólk getur notað til að búa til, viðhalda, innleiða og skoða reikningsskil. Það býður upp á fleiri valkosti en hefðbundið skýrslugerð skorður til að hjálpa að hanna mismunandi gerðir af skýrslum.
 author: aprilolson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinanicalReportingSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: ae2087cf142fc2670bda3c542b336f12978178a6
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323779"
 ---
-
 # <a name="financial-reporting"></a>Fjárhagsskýrslugerð
 
 [!include [banner](../includes/banner.md)]
@@ -76,7 +75,7 @@ Eftirfarandi íhlutir fjárhagsskýrslugerðar auðvelda notendum að stofna, sk
 <ul>
 <li>Hægt er að gera skýrslur sjálfkrafa daglega, vikulega, mánaðarlega eða árlega.</li>
 <li>Flytja út XPS-snið með lesaðgangi, sem veitir betra skjalaöryggi með rafrænum undirskriftum.</li>
-<li>Flutt út í Microsoft Excel-vinnublað.</li>
+<li>Flytja út í Microsoft Excel vinnublað.</li>
 <li>Til að deila skýrslum er hægt að búa til tölvupóst sem inniheldur tengla í skýrslurnar.</li>
 </ul>
 </td>
@@ -98,4 +97,3 @@ Eftirfarandi íhlutir fjárhagsskýrslugerðar auðvelda notendum að stofna, sk
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 [Myndun fjárhagsskýrslu](generate-financial-report.md)
-

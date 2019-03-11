@@ -1,13 +1,13 @@
 ---
 title: Project Service Automation
-description: "Þetta efnisatriði veitir upplýsingar um samþættingarlausn Project Service Automation við Finance and Operations. Þessi samþættingarlausn notar eiginleika gagnasamþættingar til að samstilla gögn þvert yfir tilvik af Microsoft Dynamics 365 for Finance and Operations og Microsoft Dynamics 365 for Project Service Automation í gegnum Common Data Service."
+description: Þetta efnisatriði veitir upplýsingar um samþættingarlausn Project Service Automation við Finance and Operations. Prospect to lausnin notar gagnasamþættingu til að samstilla gögn yfir Microsoft Dynamics 365 for Finance and Operations og Microsoft Dynamics 365 for Project Service Automation um Common Data Service.
 author: KimANelson
 manager: AnnBe
 ms.date: 06/29/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 841ea53f754f61c2930e77fdafc85eac72f47d7a
 ms.openlocfilehash: 4b1d2ae69899a2937d47f6547ee4ba72b2d1ece4
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335693"
 ---
-
 # <a name="project-service-automation"></a>Project Service Automation
 
 [!include[banner](../includes/banner.md)]
@@ -32,7 +31,7 @@ ms.lasthandoff: 08/09/2018
 Samþættingarlausn Project Service Automation við Finance and Operations notar eiginleika gagnasamþættingar til að samstilla gögn þvert yfir tilvik af Microsoft Dynamics 365 for Finance and Operations og Microsoft Dynamics 365 for Project Service Automation í gegnum Common Data Service. Samþættingarsniðmátin sem eru tiltæk með eiginleika gagnasamþættingar gerir gögnum kleift að flæða varðandi verk, verksamninga, verksamningslínur, áfanga verksamningslína, verk verkefna, kostnaðarfærsluflokka, tímaáætlanir og kostnaðaráætlanir frá Project Service Automation til Finance and Operations.
 
 > [!NOTE]
-> - Ef þú notar Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3.0, eftir að hafa sett upp KB 4132657 og KB 4132660 getur þú notað sniðmátin til að samþætta verkefni fyrir verk, kostnaðarfærsluflokka, tímaáætlanir, kostnaðaráætlanir og rauntölur og til að stilla virknilæsingu. Ef þú verður að endurstilla dreifingu á fjárhagsupphæð mælum við með að þú setjir einnig upp KB 4131710.
+> - Ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.0, eftir að hafa sett upp KB 4132657 og KB 4132660 getur þú notað sniðmátin til að samþætta verkefni fyrir verk, kostnaðarfærsluflokka, tímaáætlanir, kostnaðaráætlanir og rauntölur og til að stilla virknilæsingu. Ef þú verður að endurstilla dreifingu á fjárhagsupphæð mælum við með að þú setjir einnig upp KB 4131710.
 > - Ef þú notar Finance and Operations 7.3.0, verður þú að setja upp KB 4074835. Þetta gerir þér kleift að samþætta verk með föstu verði.
 > - Ef þú notar Finance and Operations 7.3.0 og þú færir þóknunarfærslur yfir frá Project Service Automation verður þú að setja upp KB 4345320 til þess að geta tekið við þessum þóknunum í verkreikningi.
 > - Ef þú notar Microsoft Dynamics 365 for Finance and Operations útgáfu 8.0, getur þú notað samþættingu verkefnis fyrir verk, kostnaðarfærsluflokka, tímaáætlanir, kostnaðaráætlanir og virknilæsingu.
@@ -63,17 +62,16 @@ Eftirfarandi skýringarmynd sýnir hvernig gögn eru samstillt sem hluti af sam�
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Kerfisskilyrði fyrir Finance and Operations
 
-Til að nota samþættingarlausn Project Service Automation við Finance and Operations þarftu að setja upp Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 með verkvangsuppfærslu 12 eða nýrri.
+Til að nota samþættingarlausn Project Service Automation við Finance and Operations þarftu að setja upp Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 með verkvangsuppfærslu 12 eða nýrri.
 
 ## <a name="system-requirements-for-project-service-automation"></a>Kerfisskilyrði fyrir Project Service Automation
 
 Til að nota samþættingarlausn Project Service Automation við Finance and Operations:
 
 - Microsoft Dynamics 365 for Project Service Automation útgáfa 9.0.0.0 eða nýrri
-- Prospect to cash lausn fyrir Microsoft Dynamics 365 for Sales, útgáfa 1.14.0.0 (v14) eða nýrri
+- Prospect to cash lausn fyrir Microsoft Dynamics 365 for Sales, útgáfa 1.14.0.0 (v14) eða nýrri.
 - Lausn Project Service Automation to Finance and Operations fyrir Microsoft Dynamics 365 for Project Service Automation útgáfa 1.0.0.0 eða nýrri
 
 ## <a name="install-the-project-service-automation-to-finance-and-operations-integration-solution-in-your-project-service-automation-instance"></a>Setja upp samþættingarlausn Project Service Automation við Finance and Operations í tilvikinu þínu af Project Service Automation
 
 Sækja samþættingarlausn Project Service Automation við Finance and Operations hjá [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=57016) og fylgja leiðbeiningum sem fylgja með lausninni.
-

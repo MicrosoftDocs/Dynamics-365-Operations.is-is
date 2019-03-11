@@ -1,13 +1,13 @@
 ---
-title: "Setja upp sniðmát fyrir strikamerki"
-description: "Þetta efnisatriði lýsir því hvernig á að setja upp stafi sniðmáts strikamerkja, sniðmát fyrir strikamerki og hvernig á að úthluta sniðmátum strikamerkja á strikamerki."
+title: Setja upp sniðmát fyrir strikamerki
+description: Þetta efnisatriði lýsir því hvernig á að setja upp stafi sniðmáts strikamerkja, sniðmát fyrir strikamerki og hvernig á að úthluta sniðmátum strikamerkja á strikamerki.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailBarcodeMaskCharacter, RetailBarcodeMaskSetup
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: d3527807650061804212abf67e536c17078aabf9
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340615"
 ---
-
 # <a name="set-up-bar-code-masks"></a>Setja upp sniðmát fyrir strikamerki
 
 [!include [banner](includes/banner.md)]
@@ -84,4 +83,3 @@ Sniðmátum fyrir strikamerki verður að úthluta á strikamerki áður en hæg
 5. Smellið á **Vista**.
 
 Nú er hægt að nota sniðmát fyrir strikamerki til að búa til strikamerki fyrir vörur. Skrefin að ofan eru dæmi um hvernig stofna á sniðmát fyrir strikamerki fyrir vörur, en þau sýna einnig hvernig stofna á sniðmát fyrir strikamerki fyrir allar aðrar gerðir studdra strikamerkja. Leiðrétta ætti stafi strikamerkja, gerðir og hámarkslengd fyrir notkun í tilteknum umhverfinu.
-

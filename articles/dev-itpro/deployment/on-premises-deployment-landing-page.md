@@ -1,28 +1,28 @@
 ---
-title: "Heimasíða uppsetningar á staðnum"
-description: "Þetta efnisatriði veitir upplýsingar og tengla í efni um uppsetningu á staðnum"
+title: Heimasíða uppsetningar á staðnum
+description: Þetta efnisatriði veitir upplýsingar og tengla í efni um uppsetningu á staðnum
 author: kfend
 manager: AnnBe
-ms.date: 11/02/2018
+ms.date: 02/01/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
+ms.openlocfilehash: c51cce929384b7e822213dcb9df9007edfe3700c
+ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
 ms.translationtype: HT
-ms.sourcegitcommit: b8fb8c963e2bba2e6fe7cb31e71a38232f1e8a54
-ms.openlocfilehash: c80a41427db18607577b4f89c8e30fe6c8f872d3
-ms.contentlocale: is-is
-ms.lasthandoff: 11/02/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "373278"
 ---
 # <a name="on-premises-deployments-home-page"></a>Heimasíða uppsetningar á staðnum
 
@@ -59,10 +59,11 @@ ms.lasthandoff: 11/02/2018
 ## <a name="retail"></a>Retail
 - [Smásölueiginleikar serm eru tiltækir fyrir uppsetningu á staðnum](../../retail/retail-onprem.md)
 - [Uppsetningarskref fyrir hluta smásölurásar í umhverfi á staðnum](deploy-retail-onprem.md)
-- [Stilla, setja upp og virkja Retail Modern POS (MPOS)](../../retail/retail-modern-pos-device-activation.md)
+- [Skilgreina, setja upp og virkja Retail Modern POS (MPOS)](../../retail/retail-modern-pos-device-activation.md)
 - [Skilgreina og setja upp Retail Store Scale Unit](../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
-
+## <a name="upgrade"></a>Uppfæra
+- [Uppfærsluferli fyrir umhverfi á staðnum](../migration-upgrade/on-prem-upgrade.md)
 
 ## <a name="other-resources"></a>Önnur tilföng
 - [Úrræðaleit fyrir uppsetningar á staðnum](troubleshoot-on-prem.md)
@@ -71,4 +72,3 @@ ms.lasthandoff: 11/02/2018
 - [Eiginleikar sem hafa verið fjarlægðir eða úreltir](../migration-upgrade/deprecated-features.md)
 - [Reglur um stuðningstíma hugbúnaðar og útgáfur á staðnum](../migration-upgrade/on-prem-version-update-policy.md)
  
-

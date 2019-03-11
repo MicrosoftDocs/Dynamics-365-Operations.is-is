@@ -1,13 +1,13 @@
 ---
-title: "Vinnusvæði lokunar fjárhagstímabils"
-description: "Þessi skrá veitir yfirlit yfir vinnusvæðið lokun fjárhagstímabils og tengdar skilgreiningar."
+title: Vinnusvæði lokunar fjárhagstímabils
+description: Þessi skrá veitir yfirlit yfir vinnusvæðið lokun fjárhagstímabils og tengdar skilgreiningar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e9c3c7f00d0a0e4379547edc5199f4a9a6727f3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326907"
 ---
-
 # <a name="financial-period-close-workspace"></a>Vinnusvæði lokunar fjárhagstímabils
 
 [!include [banner](../includes/banner.md)]
@@ -53,7 +52,7 @@ Tveir vísar eru notaðir fyrir verk:
 -   Upphrópunarmerki táknið gefur til kynna að verkið sé fram yfir gjalddaga. Fyrir verk sem eru fram yfir gjalddaga er gjalddaginn einnig upplýstur rauður.
 -   Hengilás táknið gefur til kynna að verkefni er háð öðrum verkum sem ekki er enn lokið. Ekki er hægt að merkja verk sem er læst af tengslum sem lokið. Hægt er að setja tengslin fyrir verkefni með því að nota aðgerðina **Setja tengsl**.
 
-Heiti verksins er tengill síðu Microsoft Dynamics 365 for Operations eða aðra vefsíðu sem notandinn verður að fara á til að ljúka vinnu. Hægt er að setja þennan tengil með því að nota reitinn **Verkefnatengill** þegar verki er breytt eða það stofnað. 
+Heiti verksins er tengill á Microsoft Dynamics 365 for Operations-síðuna eða aðra vefsíðu sem notandinn verður að fara á til að ljúka vinnu. Hægt er að setja þennan tengil með því að nota reitinn **Verkefnatengill** þegar verki er breytt eða það stofnað. 
 
 Tengja má skrárnar, athugasemdir, myndir og Vefslóðir við verk með aðgerð **fylgiskjöl** Til dæmis er hægt að tilgreina númer færslubókar sem er notað sem hluti af verki, bæta við athugasemd um sérstakt verk eða tengja skýrsluskrá sem var prentuð fyrir verk. Tákn birtist í dálknum **Viðhengi** fyrir verkefni ef viðhengi eru til staðar. 
 
@@ -88,7 +87,7 @@ Lokunarsniðmát fjárhags er notað til að skilgreina öll verk sem eru hluti 
 
 Hægt er að úthluta verki í sniðmátinu einu eða fleiri fyrirtækjum þar sem verkið á við. Ef öðrum einstaklingi er úthlutað til að ljúka því vinnuframlagi í hverju fyrirtæki gæti verið gagnlegt til að stofna mörg verkefni fyrir sama framlag vinnu. Stofna eitt verk fyrir hvert fyrirtæki. 
 
-Valmyndaratriðið **Verkefnatengill** er tengt við verkframlag vinnu og hægt er að nota hann til að fara beint á tengda síðu af verktengli í vinnusvæðinu. Til dæmis er hægt að tengja lokunarverk til að keyra vinnslu fyrir endurmat á gjaldmiðli fyrir Viðskiptaskuldir við tengdu síðuna **Endurmat á erlendum gjaldmiðli** í Microsoft Dynamics 365 for Finance and Operations. Einnig er hægt að tengja við ytri vefslóð. 
+Valmyndaratriðið **Verkefnatengill** er tengt við verkframlag vinnu og hægt er að nota hann til að fara beint á tengda síðu af verktengli í vinnusvæðinu. Til dæmis er hægt að tengja verkefni lokun til að keyra vinnslu fyrir endurmat á gjaldmiðli fyrir Viðskiptaskuldir á tengdri síðu **Endurmat á erlendum gjaldmiðli** í Microsoft Dynamics 365 for Finance and Operations. Einnig er hægt að tengja við ytri vefslóð. 
 
 > [!TIP]
 > Ef óskað er að tengja ákveðna Management Reporter skýrslu við lokunarverk fjárhagstímabils er hægt að nota vefslóð skýrslu. Til að fá aðgang að vefslóð skýrslu skal opna skýrsluna í skýrsluhönnun og smella síðan á **Skrá** &gt; **Skoða skýrslu** til að opna skýrsluna í vafra. Síðan er hægt að afrita vefslóð í aðseturslínunni í vafra og líma þau inn í **Verkefni tengil** **Vefslóð** svæði. 
@@ -106,7 +105,6 @@ Lokunaráætlun er notuð til að úthluta tilteknu fjárhagstímabili á tiltek
 Einnig verður að skilgreina þau fyrirtæki sem eiga að tengjast við lokunaráætlun. Ef sniðmátsverkum er úthlutað til margra fyrirtækja verða sérstök verk stofnuð fyrir hvert fyrirtæki sem er í lokunaráætluninni og úthlutað á sniðmátsverkið. 
 
 Ef lokunaráætlun er lokið, velja valkostur **Lokað** fyrir hana. Ferill verksins verður enn tiltæk á listasíðunni **Öll lokunarverk fjárhagstímabils** en lokunaráætlun verður fjarlægð af vinnusvæðinu. Eftir að lokunaráætlun hefur verið merkt sem **lokað** er ekki hægt að bæta verkum við, breyta verkum eða fjarlægja verk úr henni.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Fjárhagur og Fjárhagsleg skýrslugerð heimasíða"
-description: "Fjárhagur er notaður til að skilgreina og stjórna fjárhagslegum færslum í lögaðila."
+title: Fjárhagur og Fjárhagsleg skýrslugerð heimasíða
+description: Fjárhagur er notaður til að skilgreina og stjórna fjárhagslegum færslum í lögaðila.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85afebcc88ad1c087d5f1dabaac56f694534cf98
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
-ms.openlocfilehash: 9ee3f73cd11b38ed2237ea3fe08db18000e55f07
-ms.contentlocale: is-is
-ms.lasthandoff: 06/25/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363362"
 ---
-
 # <a name="general-ledger"></a>Fjárhagur 
 
 [!include [banner](../includes/banner.md)]
@@ -58,20 +57,19 @@ Hvert fyrirtæki innheimtir og greiðir skatta til ýmissa skattyfirvalda. Reglu
 
 Farðu í [Útgáfuupplýsingar](https://docs.microsoft.com/en-us/business-applications-release-notes/) til að sjá hvaða nýju eiginleikar hafa verið gefnar út. 
 
-### <a name="videos"></a>Myndbönd
+### <a name="videos"></a>Myndskeið
 
-Kynntu þér kennslumyndbönd sem eru aðgengileg á [YouuTube-rás Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 YouTube-rásinni ](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ### <a name="blogs"></a>Blogg
 
-Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) er að finna umfjöllun, fréttir og aðrar upplýsingar um Viðskiptaskuldir og aðrar hugbúnaðarlausnir.
+Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) er að finna umfjöllun, fréttir og aðrar upplýsingar um viðskiptaskuldir og aðrar lausnir.
 
-Hægt er að finna margar færslur um fjárhag á [bloggi afurðarteymis Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Þó svo sumar þessara færslna voru skrifaðar um eldri útgáfu fjárhagsins eiga sömu hugtök eiga enn við og ferlin eru svipuð í nýjustu útgáfunni.
+Hægt er að finna margar færslur um fjárhag á [Microsoft Dynamics AX bloggi afurðarteymis](https://blogs.msdn.microsoft.com/dax/). Þó svo sumar þessara færslna voru skrifaðar um eldri útgáfu fjárhagsins eiga sömu hugtök eiga enn við og ferlin eru svipuð í nýjustu útgáfunni.
 
-[Blogg Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir Microsoft Dynamics-samstarfsaðilum aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika MBS Operations á einum stað.
+Blogg [Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir samstarfsaðilum Microsoft Dynamics aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika MBS Operations á einum stað.
 
 #### <a name="community-blogs"></a>Samfélagsblogg
 
 - [Það sem þú ættir að vita um fjárhag í Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
-
 

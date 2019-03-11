@@ -1,13 +1,13 @@
 ---
-title: "Fjárhagsstjórnun – heimasíða"
-description: "Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng fyrir fjárhagsstjórnunareiginleika Microsoft Dynamics 365 for Finance and Operations."
+title: Fjárhagsstjórnun – heimasíða
+description: Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng fyrir fjárhagsstjórnunareiginleika Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 437c9ba7142dadcb49c9255b119586598511453d
+ms.sourcegitcommit: cbc5a4f0d752d4f147fe269e4d7a2460f772c95b
 ms.translationtype: HT
-ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
-ms.openlocfilehash: a64621c5310e5f68b9d6f1545bb39ce1519d71cf
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "307941"
 ---
-
 # <a name="financial-management-home-page"></a>Fjárhagsstjórnun – heimasíða
 
 [!include [banner](includes/banner.md)]
@@ -37,7 +36,7 @@ Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
     :::column:::
         - [Viðskiptaskuldir](accounts-payable/accounts-payable.md) 
         - [Viðskiptakröfur](accounts-receivable/accounts-receivable.md)
-        - [Fjárhagsáætlun](budgeting/budgeting-overview.md) 
+        - [Fjárhagsáætlanir](budgeting/budgeting-overview.md) 
         - [Reiðufjár- og bankastjórnun](cash-bank-management/cash-bank-management.md)
         - [Kostnaðarbókhald](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
@@ -52,25 +51,22 @@ Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
 :::row-end:::
 
 
-## <a name="additional-resources"></a>Frekari upplýsingar
+## <a name="additional-resources"></a>Frekari tilföng
 
 ### <a name="blogs"></a>Blogg
 
-Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) er að finna umfjöllun, fréttir og aðrar upplýsingar um Viðskiptaskuldir og aðrar hugbúnaðarlausnir.
-
-Það eru margar færslur um fjármálastjórnun á [bloggsíðu vöruteymisins fyrir Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Þótt sumar af þeim færslum hafi verið skrifaðar fyrir eldri útgáfu vörunnar eiga sömu grunnhugtök enn við og ferlin eru einnig áþekk í núverandi útgáfu.
-
-[Blogg Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir Microsoft Dynamics-samstarfsaðilum aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika MBS Operations á einum stað.
+- [Microsoft Dynamics 365-bloggið](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
+- [Financials-bloggið](https://community.dynamics.com/365/financeandoperations/b/financials) 
+- [Microsoft Dynamics Operations-samstarfsaðilabloggið](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
 
 ### <a name="task-guides"></a>Verkleiðbeiningar
 Frekari hjálp er í boði sem verkleiðbeiningar í Finance and Operations. Smellið á hnappinn Hjálp á hvaða síðu sem er til að fá aðgang að verkleiðbeiningum.
 
 ### <a name="videos"></a>Myndbönd
 
-Kynntu þér kennslumyndbönd sem eru aðgengileg á [YouTube-rás Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 YouTube-rásinni ](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ### <a name="countryregion-functionality"></a>Virkni lands/svæðis
 
 Reglugerðir fyrir mismunandi lönd/svæði hafa áhrif á skattafyrirkomulag og önnur fjármálatengd svið. Hjálparefni um sértækar aðgerðir fyrir lönd/svæði er að finna í kaflanum um [Staðfærslu- og eftirlitseiginleika.](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json)
-
 

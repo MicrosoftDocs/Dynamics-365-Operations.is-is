@@ -1,13 +1,13 @@
 ---
-title: "Útskipting efna í framleiðslu"
-description: "Þetta efnisatriði lýsir því hvernig skal skipta út efni á meðan á framleiðsluferli stendur."
+title: Útskipting efna í framleiðslu
+description: Þetta efnisatriði lýsir því hvernig skal skipta út efni á meðan á framleiðsluferli stendur.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdBOM
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461b717acafb5ccf37acae23a1564069cea6828a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b3e70a6ad074911438ef45b6aac2523a4a9fccf8
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327620"
 ---
-
 # <a name="material-substitution-in-manufacturing"></a>Útskipting efna í framleiðslu
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,6 @@ Hægt er að skipta út efni við áætlanagerð aðeins þegar er verið að no
 
 ## <a name="substituting-material-during-production"></a>Skipta út efni við framleiðslu
 Íhugið eftirfarandi dæmi: á málmiplata er krafist fyrir suðuaðgerð. Við aðgerðina, tilkynnir starfsmaður í vöruhúsi á starfsmanni á vél að plöturnar eru ekki til á lager. Hins vegar er ákveðið að plötunni má skipta út fyrir plötu sem er aðeins þykkari. Hátt er hægt að ljúka aðgerðinni. Hægt er að bæta efni við Uppskrift fyrir opna framleiðslupöntun. Ef framleiðslupöntunin hefur stöðuna **Byrjað**, eru notendur beðnir um að endurmeta pöntunina þegar þeir bæta við nýju atriði við framleiðsluuppskrift. Eftir að efnis er bætt við er hægt að stofna nýja tiltektarlista fyrir nýja vöru. ekki Þarf að bæta nýju efni við framleiðsluuppskrift. Í staðinn er hægt að bæta það beint við tiltektarlista framleiðslu. Síðan, þegar tiltektarlistinn er bókaður, bætir kerfið efninu við  framleiðsluuppskrift.
-
 
 
 

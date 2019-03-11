@@ -1,13 +1,13 @@
 ---
-title: "Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi"
-description: "Í þessu efnisatriði eru veittar upplýsingar um hvernig hægt er að bera saman niðurstöður myndaðar skýrslur rafrænnar skýrslugerðar við skýrslugildi grunnlínu."
+title: Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi
+description: Í þessu efnisatriði eru veittar upplýsingar um hvernig hægt er að bera saman niðurstöður myndaðar skýrslur rafrænnar skýrslugerðar við skýrslugildi grunnlínu.
 author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 7f7877ccaa0c45ab5f0032d6808280e3c47a43ca
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: 1a598d0bd053c60c3f8df6b05ecb7ff15addfaa3
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317937"
 ---
-
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi
 
 [!include[banner](../includes/banner.md)]
@@ -40,4 +39,3 @@ Hægt er að geyma einstakar hugbúnaðarskrár grunnlínu fyrir hvaða snið ra
 Hægt er að meta rakninguna til að greina hvort rafrænu skjölin sem eru mynduð innihaldi væntanlegt efni. Hægt er að gera þetta mat í samþykktarprófsumhverfi notanda þegar kóðagrunninum hefur verið breytt (til dæmis þegar nýtt tilvik af hugbúnaðinu var flutt, bráðabót var sett upp eða kóðabreytingar voru virkjaðar). Þannig er hægt að tryggja að matið hafi ekki áhrif á framkvæmd á skýrslum rafrænnar skýrslugerðar sem eru notaðar. Fyrir margar skýrslur rafrænnar skýrslugerðar er hægt að gera matið í eftirlitslausum ham.
 
 Til að læra meira um þennan eiginleika skal spila verkefnaleiðbeiningarnar **Myndun skýrslna með rafrænni skýrslugerð og samanburður á niðurstöðum (hluti 1)** og **Myndun skýrslna með rafrænni skýrslugerð og samanburður á niðurstöðum (hluti 2)** sem eru hluti af viðskiptaferlinu **7.5.4.3 Prófun tækniþjónustu/lausna (10679)** og sem hægt er að hlaða niður af [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=874684). Þessar verkefnaleiðbeiningar fylgja þér í gegnum ferlið við að grunnstilla ramma rafrænnar skýrslugerðar til að nota grunnlínuskrár til að meta mynduð rafræn skjöl.
-

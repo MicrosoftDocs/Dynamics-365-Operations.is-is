@@ -1,13 +1,13 @@
 ---
-title: "Búa til eyðublöð fyrir reikninga með frjálsum texta sem hægt er að prenta"
-description: "Þetta efnisatriði útskýrir hvernig nota á ramma rafrænnar skýrslugerðar til að búa til prentvæn eyðublöð fyrir reikninga með frjálsum texta sem Microsoft Office-skjöl."
+title: Búa til eyðublöð fyrir reikninga með frjálsum texta sem hægt er að prenta
+description: Þetta efnisatriði útskýrir hvernig nota á ramma rafrænnar skýrslugerðar til að búa til prentvæn eyðublöð fyrir reikninga með frjálsum texta sem Microsoft Office skjöl.
 author: NickSelin
 manager: AnnBe
 ms.date: 07/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: d27a11a0d925b0f1164578f9c04e6abd4736b2b2
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325527"
 ---
-
 # <a name="generate-printable-fti-forms"></a>Búa til eyðublöð fyrir reikninga með frjálsum texta sem hægt er að prenta
 
 [!include[banner](../includes/banner.md)]
 
-Rammi rafrænnar skýrslugerðar leyfir þér að búa til prentvæn eyðublöð fyrir reikninga með frjálsum texta sem Microsoft Office-skjöl. Þetta efnisatriði veitir upplýsingar um hvernig á að útbúa sínar eigin skilgreiningar sem og upplýsingar um tiltæk grunnstillingarsniðmát.
+Rammi rafrænnar skýrslugerðar leyfir þér að búa til prentvæn eyðublöð fyrir reikninga með frjálsum texta sem Microsoft Office skjöl. Þetta efnisatriði veitir upplýsingar um hvernig á að útbúa sínar eigin skilgreiningar sem og upplýsingar um tiltæk grunnstillingarsniðmát.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -113,8 +112,8 @@ Rammi rafrænnar skýrslugerðar styður nú eftirfarandi viðtökustaði fyrir 
 
 - **Sótt skrá** - Mynduð eyðublöð eru í boði sem niðurhal sem hægt er að vista með því að nota vafrann.
 - **Skjár** - Microsoft Office 365 Excel er notað til að forskoða mynduð eyðublöð reikninga með frjálsum texta á Excel-sniði.
-- **Mappa SharePoint** - Mynduð eyðublöð eru geymd á grundvelli stillinga á ramma skjalastjórnar.
-- **Safnvistun umsóknar** - Mynduð skjöl eru geymd sem viðhengi skráa fyrir aðgerðarskráningu í Microsoft Azure-geymslu.
+- **SharePoint mappa** - Mynduð eyðublöð eru geymd á grundvelli stillinga á ramma skjalastjórnar.
+- **Safnvistun umsóknar** - Mynduð skjöl eru geymd sem viðhengi skráa fyrir aðgerðarskráningu í Microsoft Azure geymslu.
 - **Tölvupóstur** - Mynduð eyðublöð eru send sem tölvupóstviðhengi.
 
 > [!NOTE]
@@ -220,10 +219,9 @@ Segðin **Emailing.TxtToUse.Body** sýnishornasniðsins er skilgreind fyrir efti
 - „%3“ er skipt út fyrir nafn viðskiptavinar.
 - „%4“ er skipt út fyrir nafn á tengiliði fyrirtækis.
 - „%5“ er skipt út fyrir starfsheiti á tengiliði fyrirtækis.
-- „%6“ er skipt út fyrir netfang tengiliðs fyrirtækis.
+- „%6“ er skipt út fyrir netfang tengiliðar fyrirtækis.
 
 ![Netfang](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
-

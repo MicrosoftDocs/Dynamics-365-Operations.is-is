@@ -1,13 +1,13 @@
---- 
-title: "Stjórna vörum líkana rafrænar skýrslugerðar í mismunandi skilgreiningar rafrænnar skýrslugerðar"
-description: "Eftirfarandi skref útskýra hvernig notanda sem úthlutað hefur verið hlutverk Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stjórnað líkansvörpun fyrir Rafræna skýrslugerð (ER) úr öðrum grunnstillingum Rafræn skýrslugerð."
+---
+title: Stjórna vörum líkana rafrænar skýrslugerðar í mismunandi skilgreiningar rafrænnar skýrslugerðar
+description: Eftirfarandi skref útskýra hvernig notanda sem úthlutað hefur verið hlutverk Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stjórnað líkansvörpun fyrir Rafræna skýrslugerð (ER) úr öðrum grunnstillingum Rafræn skýrslugerð.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 24ca4124d190df94e7ca9ac31c2ea757fe9ff242
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349148"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Stjórna vörum líkana rafrænar skýrslugerðar í mismunandi skilgreiningar rafrænnar skýrslugerðar
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 08/09/2018
 
 Eftirfarandi skref útskýra hvernig notanda sem úthlutað hefur verið hlutverk Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stjórnað líkansvörpun fyrir Rafræna skýrslugerð (ER) úr öðrum grunnstillingum Rafræn skýrslugerð. Í þessum verkefnaleiðbeiningum skal stofna nauðsynlega grunnstillingu Rafræn skýrslugerð fyrir sýnifyrirtæki, Litware, Inc. Til að ljúka þessum verkefnaleiðbeiningum, verður fyrst að ljúka við skrefin í verkefnaleiðbeiningum “Stofna grunnstillingarveitu í Rafræna skýrslugerð“ og merkja hana sem virka. 
 
-Þar sem grunnstillingar Rafræn skýrslugerð er deilt á meðal fyrirtækja, geturðu lokið við þessar verkefnaleiðbeiningar með því að nota fyrirtækjagagnasafn að eigin vali. Virkni fyrir þessar verkefnaleiðbeiningar eru tiltækar ef þú hefur hlaðið inn einni af eftirfarandi bráðabótum: https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 fyrir Dynamics AX 7.0 útgáfuna eða https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 fyrir Dynamics 365 for Finance and Operations útfgáfuna.
+Þar sem grunnstillingar Rafræn skýrslugerð er deilt á meðal fyrirtækja, geturðu lokið við þessar verkefnaleiðbeiningar með því að nota fyrirtækjagagnasafn að eigin vali. Virkni fyrir þessar verkefnaleiðbeiningar eru tiltækar ef þú hefur hlaðið inn einni af eftirfarandi bráðabótum: https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 fyrir Dynamics AX 7.0 útgáfuna eða https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 fyrir Dynamics 365 for Operations útfgáfuna.
 
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
     * Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt Virk. Ef ekki sést þessi skilgreiningarveita, verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar "Stofna skilgreiningarveitu og merkja hana sem virka".   
@@ -70,7 +70,7 @@ Eftirfarandi skref útskýra hvernig notanda sem úthlutað hefur verið hlutver
 6. Smellið á Hönnuður.
     * Athugið að grunnstillingar líkansvörpunar sem þegar hafa verið stofnaðar, innihalda nýja og auða vörpun með sama heiti og grunnstillingin sem þegar hefur verið stofnuð. Verið meðvituð um það að þegar valin yfireining grunnstillingar líkans inniheldur líkansvarpanir, munu þær verða afritaðar í nýjar grunnstillingar líkansvörpunar.   
 7. Smellið á Hönnuður.
-8. Í trénu skal velja „Dynamics 365 for Operations\Tafla“.
+8. Í trénu skal velja „Dynamics 365 for Operations\Table“.
 9. Smella á bæta Við rót.
 10. Í reitnum Heiti skal færa inn ‚Fyrirtæki‘.
     * Fyrirt.    
@@ -123,7 +123,7 @@ Eftirfarandi skref útskýra hvernig notanda sem úthlutað hefur verið hlutver
 5. Smelltu á Stofna skilgreiningu.
 6. Smellið á Hönnuður.
 7. Smellið á Hönnuður.
-8. Í trénu skal velja „Dynamics 365 for Operations\Tafla“.
+8. Í trénu skal velja „Dynamics 365 for Operations\Table“.
 9. Smella á bæta Við rót.
 10. Í reitnum Heiti skal færa inn ‚Fyrirtæki‘.
     * Fyrirt.    
@@ -161,5 +161,4 @@ Eftirfarandi skref útskýra hvernig notanda sem úthlutað hefur verið hlutver
 6. Smellið á „Keyra“.
 7. Smellið á „Í lagi“.
     * Athugið að sjálfgefin grunnstilling líkansvörpunar er notuð af þessari grunnstillingu sniðs til að búa til rafræn skjöl (úttakið sem þegar hefur verið stofnað inniheldur fyrirtækjakóðann).  
-
 

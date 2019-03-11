@@ -1,13 +1,13 @@
 ---
-title: "Fylgiskjöl Microsoft Dynamics 365 for Finance and Operations"
-description: "Fylgiskjöl fyrir Microsoft Dynamics 365 for Finance and Operations."
+title: Fylgiskjöl Microsoft Dynamics 365 for Finance and Operations
+description: Fylgiskjöl fyrir Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
 ms.date: 08/30/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5b9921883d952ebc42eff9f678bb300d8304e379
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: edacf76866cf3e078e08dd6e5a69132d0eb15176
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302417"
 ---
-
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Fylgiskjöl Microsoft Dynamics 365 for Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
 Lærðu að nýta Microsoft Dynamics 365 for Finance and Operations í þágu fyrirtækisins. Í neðangreindum tilföngum er að finna frábært efni fyrir notendur, þróunaraðila og fagfólk á sviði upplýsingatækni. 
 
-Stór hluti af þessu efni á einnig við um tengdar vörur: Microsoft Dynamics 365 for Retail og Microsoft Dynamics 365 for Talent. 
+Mikið af þessu efni á einnig við um tengdar vörur: Microsoft Dynamics 365 for Retail og Microsoft Dynamics 365 for Talent. 
 
 <table>
 <colgroup>
@@ -42,7 +41,7 @@ Stór hluti af þessu efni á einnig við um tengdar vörur: Microsoft Dynamics 
 <tbody>
 <tr class="odd">
 <td>
-<h3><a href="get-started/before-you-buy.md">Fyrir kaup</a></h3>
+<h3><a href="get-started/before-you-buy.md">Áður en þú kaupir</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Skráðu þig fyrir prufuáskrift</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Veldu innleiðingarvalkost</a></p>
  <p><a href="get-started/purchase-on-premises.md">Kaupa Finance and Operations (á staðnum)</a></p>
@@ -62,7 +61,7 @@ Stór hluti af þessu efni á einnig við um tengdar vörur: Microsoft Dynamics 
 <p><a href="../financials/fixed-assets/fixed-assets.md">Eignir</a></p>
 <p><a href="../financials/general-ledger/general-ledger.md">Fjárhagur</a></p>
 <p><a href="../financials/project-management/overview-project-management-accounting.md">Verkefnastjórnun</a></p>
-<p><a href="../financials/public-sector/public-sector-functionality.md">Opinber geiri</a></p>
+<p><a href="../financials/public-sector/public-sector-functionality.md">Hið opinbera</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Svæðisbundnir eftirlitseiginleikar</a></p>
 
 <h3><a href="hr/hr-landing-page.md">Mannauður</a></h3>
@@ -114,7 +113,7 @@ Stór hluti af þessu efni á einnig við um tengdar vörur: Microsoft Dynamics 
 <p><a href="organization-administration/organization-administration-home-page.md">Fyrirtækisstjórnun</a></p>
 </td>
 <td>
-<h3>Tengdar vörur</h3>
+<h3>Tengdar afurðir</h3>
 <h4><a href="../retail/index.md">Dynamics 365 for Retail</a></h4>
 <p><a href="../retail/call-center-functionality.md">Símaver</p>
 <p><a href="../retail/define-maintain-retail-channels.md">Uppsetning og stjórnun rásar</p>
@@ -131,4 +130,3 @@ Stór hluti af þessu efni á einnig við um tengdar vörur: Microsoft Dynamics 
 
 </tbody>
 </table>
-

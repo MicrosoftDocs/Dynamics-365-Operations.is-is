@@ -1,13 +1,13 @@
 ---
-title: "Bakfæra greiðslu lánardrottins"
-description: "Þessi grein lýsir muninum á að bakfæra, eyða, ógilda og hafna greiðslu. Einnig útskýrir hún aðferðirnar tvær við að bakfæra ávísun lánardrottins."
+title: Bakfæra greiðslu lánardrottins
+description: Þessi grein lýsir muninum á að bakfæra, eyða, ógilda og hafna greiðslu. Einnig útskýrir hún aðferðirnar tvær við að bakfæra ávísun lánardrottins.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankChequeTable, LedgerJournalTransBankChequeReversal, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d58aac20f9ef54e4ee41464a30b7c8190ade26b7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 019b765cd1e9fa00078018354f0d0792b97faba6
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329621"
 ---
-
 # <a name="reverse-a-vendor-payment"></a>Bakfæra greiðslu lánardrottins
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ Ef ávísunin sem var bakfærð var gefin út vegna endurgreiðslu viðskiptavin
 
 -   Færsla er bókuð á mótiviðskiptavinalykill vegna greiðslubakfærslunnar og jöfnunin milli upphaflegu greiðslunnar og skjalsins sem greiðslan var upphaflega jöfnuð á móti er bakfærð (neikvæð greiðsla er stofnuð).
 -   Bakfærslu á greiðslu er jafnað við upphaflegu greiðsluna. Reiturinn **Síðasta uppgjörsfylgiskjal** á síðunni **Færslur viðskiptavina** fyrir upphaflegu lánardrottinsgreiðsluna er uppfærður svo að hann sýni fylgiskjalsnúmer bakfærðu færslunnar.
-
 
 
 

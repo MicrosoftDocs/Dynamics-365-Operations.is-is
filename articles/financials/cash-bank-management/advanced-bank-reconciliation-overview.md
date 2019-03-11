@@ -1,13 +1,13 @@
 ---
-title: "Yfirlit ítarlegrar bankaafstemmingar"
-description: "Þessi grein lýsir flæðinu fyrir ítarlegt ferli bankaafstemmingar. Ítarleg afstemming aðgerð gerir það mögulegt að flytja inn bankayfirlit sem er hægt að stemma af beint innan úr bankafærslu."
+title: Yfirlit ítarlegrar bankaafstemmingar
+description: Þessi grein lýsir flæðinu fyrir ítarlegt ferli bankaafstemmingar. Ítarleg afstemming aðgerð gerir það mögulegt að flytja inn bankayfirlit sem er hægt að stemma af beint innan úr bankafærslu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5c6cec76ebc8328f221ecb6c30ae93716bd9bfe9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: ff59250b836a73986848109ce48f843fed1d71a9
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358210"
 ---
-
 # <a name="advanced-bank-reconciliation-overview"></a>Yfirlit ítarlegrar bankaafstemmingar
 
 [!include [banner](../includes/banner.md)]
@@ -40,14 +39,13 @@ ms.lasthandoff: 03/26/2018
     -   Hægt er að auka virknina í hvaða snið sem er.
 
 2.  Setja upp númeraröð til að nota°fyrir ítarlega bankaafstemmingu og skilgreina samsvörunarreglur bankaafstemmingar.
-    -   Samsvörunarregla afstemmingar er safn skilyrða sem eru notuð til að sía bankayfirlitslínur og bankafærslulínur Microsoft Dynamics 365 for Finance and Operations á meðan á afstemmingarferlinu stendur. Hægt er að setja upp fleiri en eina samsvörunarreglu til að gera sjálfvirkt og bæta ferli við afstemmingar eftir þörfum fyrirtækisins.
+    -   Jöfnunarregla afstemmingar er safn skilyrða sem eru notuð til að sía bankayfirlitslínur og bankaskjalslínur Microsoft Dynamics 365 for Finance and Operations á meðan á afstemmingarferlinu stendur. Hægt er að setja upp fleiri en eina samsvörunarreglu til að gera sjálfvirkt og bæta ferli við afstemmingar eftir þörfum fyrirtækisins.
 
 3.  Stemma af bankayfirlit með bankafærslum Finance and Operations.
     -   Framkvæma sjálfvirka jöfnun og stofnun afstemmingafærslubóka.
     -   Skoða bankayfirlit og bankafærslur Finance and Operations hlið við hlið.
     -   Sjálfkrafa bókun á bankafærslum Finance and Operations ef þær birtast á bankayfirlitum en birtast ekki í Finance and Operations.
     -   Búa til afstemmingaryfirlit.
-
 
 
 

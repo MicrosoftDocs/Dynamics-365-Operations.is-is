@@ -1,13 +1,13 @@
 ---
 title: Losunarreglur
-description: "Þetta efnisatriði lýsir losunarreglunum fjórum sem notaðar eru fyrir notkun á hráefni."
+description: Þetta efnisatriði lýsir losunarreglunum fjórum sem notaðar eru fyrir notkun á hráefni.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorReleaseOrders
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e4b9cd918bec9a094744b208821285c57f01798a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: f5fc4db479852ffac5f2b3401a0c1bd92c35a7cb
-ms.contentlocale: is-is
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358302"
 ---
-
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Stjórna notkun hráefnis með því að nota birgðareglur
 
 [!include [banner](../includes/banner.md)]
@@ -64,4 +63,3 @@ Losunarreglan Ljúka gefur til kynna að efni verði sjálfkrafa notað þegar t
 
 ### <a name="available-at-location"></a>Tiltækt í staðsetningu
 Losunarreglan Tiltækt í staðsetningu gefur til kynna að efnið verði sjálfkrafa notað þegar það er skráð sem tekið til fyrir framleiðslu. Efnið er skráð sem tekið til frá staðsetningu þegar vinnu við tiltekt á hráefni er lokið, eða þegar efni er tiltækt á staðsetningu framleiðsluinntaks og efnislínan er losuð til vöruhússins. Tiltektarlistinn sem verður til í ferlinu er birtur í runuvinnslu. Þessi regla á til dæmis við ef ert með marga tiltektarverkþætti á móti einni framleiðslupöntun. Í þessu tilfelli þarf ekki að uppfæra tiltektarlistann handvirkt, og þú færð núverandi yfirlit yfir VÍV-stöðuna.
-

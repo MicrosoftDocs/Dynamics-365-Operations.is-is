@@ -1,34 +1,31 @@
 ---
-title: "Gera upp eftirstöðvar"
-description: "Hægt er að gera upp eftirstandandi upphæð uppgjörsaðgerðar með því að jafna þessa upphæð við fjárhagslykil."
+title: Gera upp eftirstöðvar
+description: Hægt er að gera upp eftirstandandi upphæð uppgjörsaðgerðar með því að jafna þessa upphæð við fjárhagslykil.
 author: mikefalkner
 manager: aolson
 ms.date: 10/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
-ms.search.validFrom: 2018-11-30
-ms.dyn365.ops.version: 8.1.1
+ms.search.validFrom: 2018-12-01
+ms.dyn365.ops.version: 8.1.3
+ms.openlocfilehash: 408a36a7cf221463b38260bd8830b422e58ccb64
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
-ms.openlocfilehash: e67bd36adc92bffea48087d0322ab14e9c066a4e
-ms.contentlocale: is-is
-ms.lasthandoff: 12/06/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367203"
 ---
-
 # <a name="settle-remainder"></a>Gera upp eftirstöðvar
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview banner](../includes/preview-banner.md)]
 
 Hægt er að gera upp eftirstandandi upphæð uppgjörsaðgerðar með því að jafna þessa upphæð við fjárhagslykil eða annan viðskiptavin. Hægt er að gera upp eftirstöðvarnar við uppgjör upphæða sem færðar eru inn í færslubók eða þegar opnar færslur eru gerðar upp.
 
@@ -73,4 +70,3 @@ Til að gera upp eftirstöðvarnar skal framkvæma eftirfarandi skref:
 7)  Einnig er hægt að velja að stofna greiðslubók með uppgjöri eftirstöðva eða einfaldlega bóka þær án greiðslubókar. Veldu **Já** fyrir **Breyta í færslubók** til að stofna greiðslubók. Þú munt geta breytt greiðslubókinni sem þú stofnar.
 8)  Smelltu á **Gera upp eftirstöðvar**. Ef þú velur að stofna færslubók breytist hnappurinn í **Stofna færslubók**. Smelltu á **Stofna færslubók** í staðinn.
 9)  Ef þú stofnaðir greiðslubók mun síða færslubókar opnast  eftir að smellt er á **Gera upp eftirstöðvar**. Færslubókarlínu verður bætt við færslubókina þar sem upphæðin verður sú sem er á uppgjöri eftirstöðva og lykill fyrir uppgjör eftirstöðva sem mótlykilinn. Ef þú bættir við viðskiptavini eða lánardrottni svo þú getir fært uppgjörsupphæðina yfir á annan viðskiptavin eða lánardrottin, þá verður aukalegri línu bætt við færslubókina til að færa upphæð uppgjörsins til þess viðskiptavinar eða lánardrottins.
-

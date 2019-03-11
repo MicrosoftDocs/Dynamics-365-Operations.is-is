@@ -1,13 +1,13 @@
 ---
-title: "Birtingarstillingar fyrir fartæki vöruhúss"
-description: "Þessi grein lýsir hvernig setja á upp útlit skjás fartækisins og hvernig á að varpa flýtilyklum á stýrieiningar, til dæmis hnappar."
+title: Birtingarstillingar fyrir fartæki vöruhúss
+description: Þessi grein lýsir hvernig setja á upp útlit skjás fartækisins og hvernig á að varpa flýtilyklum á stýrieiningar, til dæmis hnappar.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFColor, WHSRFColorPicker, WHSWorkUserDisplaySettings
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 16f332da00d2230ecb4cebc526b6456314564e55
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a1413337888c8e2da95e33ebee6528f228ad3972
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328034"
 ---
-
 # <a name="warehouse-mobile-device-display-settings"></a>Birtingarstillingar fyrir fartæki vöruhúss
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Sem hluti af skilgreiningu fartækis er hægt að skilgreina mismunandi útlit f
 -    Í reitnum **CSS-skrá** er heiti fyrir skrána fært inn. Hafa .css skráarnafnauka með.
 -   Í reitnum **Yfirlit birtingarstillinga fartækis** skal tilgreina ASPX skrána. **Ekki** skal taka fram .aspx skrárendinguna.
 
-CSS og ASPX skrár verða að vera í tilteknu skráasafni svo að Internet Information Services (IIS) umsókninni hægt að sækja þær. Það gæti verið gagnlegt að skilgreina mismunandi CSS skrár ef verið er að keyra fartækjavirkni í mismunandi vöfrum eða á misminandi gerðum vélbúnaður, sem krefjast mismunandi útlitsstýringar. Auðveldlega er hægt að stýra einföldum stillingum eins og bakgrunnslit, letri og leturstærð fyrir texta, og breidd og hegðun hnappa, með notkun mismunandi CSS-skráa. ASPX skráin er notuð til að birta í fartækisvefsvæði þjóni ASP.NET umsókninni. Skráin stjórnar hvernig heildaruppbygging HTML lítur út. Góð hugmynd er að sérsníða þessa virkni aðeins ef alvarleg vandamál koma upp við uppbyggingu á HTML og JavaScript og þú þarft að breyta kóðanum fyrir tiltekin tæki fyrirtækisins. Til að kortleggja HTML-stýringar á síðu fartækja skal úthluta talnakóðum á lyklana á síðunni **Skjástillingar fartækis**, í reitnum **Flýtivísanir**. Hægt er að nota valmyndina **Skoða kóða fyrir flýtilykla** í fartæki til að finna talnakóða. Athugið að vörpununum gæti verið mismunandi eftir vélbúnaðinum sem er notað. Nota eftirfarandi málskipan til að stofna vörpun:
+CSS og ASPX skrár verða að vera í tilteknu skráasafni svo að Internet Information Services (IIS) umsókninni hægt að sækja þær. Það gæti verið gagnlegt að skilgreina mismunandi CSS skrár ef verið er að keyra fartækjavirkni í mismunandi vöfrum eða á misminandi gerðum vélbúnaður, sem krefjast mismunandi útlitsstýringar. Auðveldlega er hægt að stýra einföldum stillingum eins og bakgrunnslit, letri og leturstærð fyrir texta, og breidd og hegðun hnappa, með notkun mismunandi CSS-skráa. ASPX skráin er notuð til að birta í fartækisvefsvæði þjóni ASP.NET forritsins. Skráin stjórnar hvernig heildaruppbygging HTML lítur út. Góð hugmynd er að sérsníða þessa virkni aðeins ef alvarleg vandamál koma upp við uppbyggingu á HTML og JavaScript og þú þarft að breyta kóðanum fyrir tiltekin tæki fyrirtækisins. Til að kortleggja HTML-stýringar á síðu fartækja skal úthluta talnakóðum á lyklana á síðunni **Skjástillingar fartækis**, í reitnum **Flýtivísanir**. Hægt er að nota valmyndina **Skoða kóða fyrir flýtilykla** í fartæki til að finna talnakóða. Athugið að vörpununum gæti verið mismunandi eftir vélbúnaðinum sem er notað. Nota eftirfarandi málskipan til að stofna vörpun:
 
 &lt;stýringarheiti&gt;(&lt;lyklaheiti&gt;)=&lt;lyklakóði&gt;;
 
@@ -101,7 +100,6 @@ Hægt er að tilgreina fleiri en eina segð í sömu skránni. Hver segð verðu
 --------
 
 [Skilgreining fartækja fyrir vöruhúsavinnu](configure-mobile-devices-warehouse.md)
-
 
 
 

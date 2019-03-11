@@ -1,13 +1,13 @@
---- 
-title: "Rafræn skýrslugerð Stofna nauðsynlegt grunnstillingar til að flytja inn gögn úr ytri skrá"
-description: "Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur sett upp grunnstillingar fyrir Rafræn skýrslugerð til að flytja inn gögn í forritið Dynamics 365 for Finance and Operations, Enterprise edition úr ytri skrá."
+---
+title: Rafræn skýrslugerð Stofna nauðsynlegt grunnstillingar til að flytja inn gögn úr ytri skrá
+description: Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur sett upp grunnstillingar fyrir Rafræn skýrslugerð til að flytja inn gögn í forritið Dynamics 365 for Finance and Operations, Enterprise Edition úr ytri skrá.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
 ms.reviewer: kfend
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 6675f35c9ec163a620e63af32ecdbff02197d3c3
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "337372"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>Rafræn skýrslugerð Stofna nauðsynlegt grunnstillingar til að flytja inn gögn úr ytri skrá
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur sett upp grunnstillingar fyrir Rafræn skýrslugerð til að flytja inn gögn í forritið Dynamics 365 for Finance and Operations, Enterprise edition úr ytri skrá. Í þessu dæmi mun stofna nauðsynlega grunnstillingu Rafræn skýrslugerð fyrir dæmi um fyrirtæki, Litware, Inc. Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar “Stofna grunnstillingarveitu í Rafræna skýrslugerð og merkja hana sem virka”. Hægt er að ljúka þessum skrefum með USMF-gagnasafn. Skrefin er hægt að klára með því að nota USMF gagnasafnið. Þú verður einnig að hlaða niður og vista eftirfarandi skrár á staðnum með því að nota tengla úr efnisatriðinu um rafræna skýrslugerð (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
+Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur sett upp grunnstillingar fyrir Rafræn skýrslugerð til að flytja inn gögn í forritið Dynamics 365 for Finance and Operations, Enterprise Edition úr ytri skrá. Í þessu dæmi mun stofna nauðsynlega grunnstillingu Rafræn skýrslugerð fyrir dæmi um fyrirtæki, Litware, Inc. Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar “Stofna grunnstillingarveitu í Rafræna skýrslugerð og merkja hana sem virka”. Hægt er að ljúka þessum skrefum með USMF-gagnasafn. Skrefin er hægt að klára með því að nota USMF gagnasafnið. Þú verður einnig að hlaða niður og vista eftirfarandi skrár á staðnum með því að nota tengla úr efnisatriðinu um rafræna skýrslugerð (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 
     * Rafræn skýrslugerð býður notendum í viðskiptum upp á að geta grunnstillt innflutningsferli á ytri gagnaskjölum í töflur í Dynamics 365 for Finance and Operations, Enterprise edition annaðhvort í .XML eða .TXT sniði. Fyrst verður að setja upp grunnstilling óhlutbundins gagnalíkans og gagnalíkan fyrir Rafræn skýrslugerð, til að standa fyrir gögnin sem flutt eru inn. Næst þarf að skilgreina uppbygging skráarinnar sem flutt er inn og aðferð sem nota til að tengja gögnin úr skránni í óhlutbundið gagnalíkan. Grunnstilling á sniði Rafræn skýrslugerðar sem varpar í uppsett gagnalíkan verður að vera stofnað fyrir þetta óhlutbundið gagnalíkan. Síðan þarf að víkka út grunnstillingu gagnalíkans með vörpun sem lýsir því hvernig innflutt gögn er haldið áfram sem óhlutbundið gögn í gagnalíkani og hvernig notað til að uppfæra töflur í Dynamics 365 for Finance and Operations, Enterprise edition.  Grunnstilling gagnalíkans Rafræn skýrslugerðar verður að fylgja ný líkansvörpun sem lýsir bindingu gagnalíkans við áfangastaði forrits.  
     * Eftirfarandi sviðsmynd sýnir innflutningsmöguleika gagna í Rafræn skýrslugerð. Þetta inniheldur lánardrottnafærslur sem eru raktar ytra og svo flutt inn í Dynamics 365 for Finance and Operations, Enterprise edition til að koma síðar í skýrslu í uppgjör lánardrottins fyrir 1099.   
@@ -121,7 +121,7 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þr
 12. Í trénu skal velja 'tax1099trans: Tafla 'VendSettlementTax1099' skráningar= model.Validated'.
 13. Smellt er á Breyta áfangastað.
     * Áfangastaður Rafræn skýrslugerð var bætt við til að tilgreina hvernig innflutt gögn uppfæra töflur forrits. Í þessu tilviki hefur gagnatafla VendSettlementTax1099 verið valin. Vegna þess að færsluaðgerðin Setja inn hefur verið valin verða innfluttar færslur settar inn í töfluna VendSettlementTax1099. Athugið að stök vörpun líkans getur innihaldið marga áfangastaður. Þetta merkir að innflutt gögn er hægt að nota til að uppfæra margar töflur í forriti í einu. Töflur, yfirlit og gagnaeiningar er hægt að nota sem áfangastaði Rafræn skýrslugerð.   
-    * Ef beðið er um vörpun úr stað í Dynamics 365 for Finance and Operations, Enterprise edition forritinu (t.d. hnappur eða valmyndaratriði) sem var sérstillur fyrir þessa aðgerð, ætti að merkja áfangastaður í Rafræn skýrslugerð sem samþættingarstað. Í þessu dæmi er ERTableDestination#VendSettlementTax1099 þessi staður.  
+    * Ef beðið er um vörpun úr stað í Dynamics 365 for Finance and Operations, Enterprise Edition forritinu (t.d. hnappur eða valmyndaratriði) sem var sérstillur fyrir þessa aðgerð, ætti að merkja áfangastaður í Rafræn skýrslugerð sem samþættingarstað. Í þessu dæmi er ERTableDestination#VendSettlementTax1099 þessi staður.  
 14. Smellið á Hætta við.
 15. Smellt er á Sýna allt.
 16. Smellt er á Sýna aðeins varpað.
@@ -177,17 +177,16 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þr
 18. Lokið síðunni.
 19. Lokið síðunni.
 20. Smellið á „Breyta“.
-    * Ef bráðabótin „KB 4012871 Stuðningur fyrir GER líkanavörpun í aðskildum grunnstillingum með getu til að tilgreina ólíkar gerðir af frumskilyrðum til að nota þær á ólíkar gerðir af Dynamics 365 for Finance and Operations, Enterprise Edition“ (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), skal framkvæma næsta skref „Kveikja á flagginu „Sjálfgefið fyrir líkanavörpun““ fyrir grunnstillingu sniðs sem slegin inn. Annars skal sleppa næsta skrefi.  
+    * Ef bráðabótin „KB 4012871 Stuðningur fyrir GER líkanavörpun í aðskildum grunnstillingum með getu til að tilgreina ólíkar gerðir af frumskilyrðum til að nota þær á ólíkar gerðir af Dynamics 365 for Finance and Operations, Enterprise Edition“ (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871) skal framkvæma næsta skref „Kveikja á flagginu „Sjálfgefið fyrir líkanavörpun““ fyrir grunnstillingu sniðs sem slegin inn. Annars skal sleppa næsta skrefi.  
 21. Veljið Já í „Sjálfgefið fyrir líkanavörpun“.
 22. Í tré skal velja '1099 Greiðslulíkan'.
 23. Smellið á Hönnuður.
 24. Smellt er á Varpa líkani á gagnagjafa.
 25. Smellið á „Keyra“.
-    * Ef bráðabótin KB 4012871 Stuðningur fyrir GER líkanavörpun í aðskildum grunnstillingum með getu til að tilgreina ólíkar gerðir af frumskilyrðum til að nota þær á ólíkar gerðir af Dynamics 365 for Finance and Operations, Enterprise Edition (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), skal velja æskilegt vörpun líkans í uppflettingarreitnum. Ef bráðabótin hefur ekki verið sett upp, sleppa næsta skrefi þar sem vörpun hefur þegar verið falin af skilgreiningu á sjálfgefið grunnstilling sniðs.  
+    * Ef bráðabótin KB 4012871 Stuðningur fyrir GER líkanavörpun í aðskildum grunnstillingum með getu til að tilgreina ólíkar gerðir af frumskilyrðum til að nota þær á ólíkar gerðir af Dynamics 365 for Finance and Operations, Enterprise Edition (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871) skal velja æskilegt vörpun líkans í uppflettingarreitnum. Ef bráðabótin hefur ekki verið sett upp, sleppa næsta skrefi þar sem vörpun hefur þegar verið falin af skilgreiningu á sjálfgefið grunnstilling sniðs.  
     * Ef bráðabótin  KB 4012871 hefur ekki verið sett upp, athugið að svargluggi inniheldur viðbótarspurningu um vörpun líkans sem er notuð til að þátta skrána sem er flutt inn. Gögnin eru síðan tengd úr svarglugga í gagnalíkan. Sem stendur er hægt að velja hvaða vörpun sniðs verður að nota út frá gerð skráar sem ætlunin er að flytja inn.  
     * Ef ætlunin er að kalla á þessa vörpun líkans úr stað í Dynamics 365 for Finance and Operations, Enterprise edition sem er sérstilltur fyrir aðgerðina, verður að merkja áfangastað í Rafræn skýrslugerð og vörpun líkans sem hluta af samþættingunni.  
 26. Smellið á Hætta við.
 27. Lokið síðunni.
 28. Lokið síðunni.
-
 

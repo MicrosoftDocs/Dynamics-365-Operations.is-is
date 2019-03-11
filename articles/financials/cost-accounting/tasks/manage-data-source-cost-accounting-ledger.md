@@ -1,13 +1,13 @@
---- 
-title: "Stjórna gagnagjafa fyrir fjárhag kostnaðarbókhalds"
-description: "Nota þetta ferli til að stýra gagnaveitu fjárhags fyrir kostnaðarbókhald fjárhags."
+---
+title: Stjórna gagnagjafa fyrir fjárhag kostnaðarbókhalds
+description: Nota þetta ferli til að stýra gagnaveitu fjárhags fyrir kostnaðarbókhald fjárhags.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f53101d73bc69199fafb00de0fa1759d59ea4ce8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5735cabd5a1eab23fbe2b92cf1395110cb33a93c
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319317"
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>Stjórna gagnagjafa fyrir fjárhag kostnaðarbókhalds
 
@@ -36,7 +36,7 @@ Nota þetta ferli til að stýra gagnaveitu fjárhags fyrir kostnaðarbókhald f
 6. Smellið á „Nýtt“.
 7. Í reitinn Heiti skal slá inn gildi.
 8. Í reitinn Gagnaveita skal slá inn eða velja gildi.
-    * Fyrir þetta dæmi skal setja upp Dynamics 365 for Finance and Operations - fjárhagsfærslur.  
+    * Í þessu dæmi skal velja Dynamics 365 for Finance and Operations - Fjárhagsfærslur.  
 9. Sláið inn eða veljið gildi í reitnum Vídd kostnaðareiningar.
     * Í þessu dæmi skal velja kostnaðareiningar.  
 10. Smellið á „Vista“.
@@ -46,5 +46,4 @@ Nota þetta ferli til að stýra gagnaveitu fjárhags fyrir kostnaðarbókhald f
 13. Smellið á „Nýtt“.
 14. Í svæðið Bókunarlag skal velja Núgildandi.
 15. Smellið á „Í lagi“.
-
 

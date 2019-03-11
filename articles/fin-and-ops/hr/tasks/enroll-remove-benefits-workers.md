@@ -1,13 +1,13 @@
---- 
-title: "Skrá og fjarlægja fríðindi starfsmanna"
-description: "Þetta ferli sýnir hvernig hægt er að skrá einn starfsmann í einu eða fleiri fríðindi, auk marga starfsmenn er hægt að skráður fyrir fríðindum."
+---
+title: Skrá og fjarlægja fríðindi starfsmanna
+description: Þetta ferli sýnir hvernig hægt er að skrá einn starfsmann í einu eða fleiri fríðindi, auk marga starfsmenn er hægt að skráður fyrir fríðindum.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, HcmWorkerEnrollment, HcmBenefitByEligibilityLookup, HcmMassBenefitEnrollment, HcmBenefitLookup, HcmMassBenefitEnrollmentResults
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 32f0e641f5e6824df89112aa5ea21dc3a708efa0
-ms.contentlocale: is-is
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341857"
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Skrá og fjarlægja fríðindi starfsmanna
 
@@ -57,5 +57,4 @@ ms.lasthandoff: 09/14/2018
 13. Finna skrá fyrir niðurstöður fríðinda sem verið er að leita.
 14. Í listanum skal smella á tengilinn í valinni línu.
 15. Þessi síða gerir kleift að skoða hvaða starfsmenn eru skráðir í fríðindi, ásamt öllum starfsmönnum sem voru ekki skráður.
-
 

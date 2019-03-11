@@ -1,32 +1,31 @@
 ---
-title: "Velja á milli Retail Modern POS (MPOS) og Cloud POS"
-description: "Þetta efnisatriði útskýrir grundvallarmuninn á Retail Modern POS og Cloud POS. Það lýsir einnig ýmsum þáttum sem smásalar, sem eru að innleiða Microsoft Dynamics 365 for Retail, ættu að íhuga til að fá hjálp við að velja besta kostinn út frá kröfur þeirra."
+title: Velja á milli Retail Modern POS (MPOS) og sölukerfis í skýinu
+description: Þetta efnisatriði útskýrir grundvallarmuninn á milli Retail Modern POS og Cloud POS. Það lýsir einnig ýmsum þáttum sem smásalar, sem eru að innleiða Microsoft Dynamics 365 for Retail, ættu að íhuga til að fá hjálp við að velja besta kostinn út frá kröfur þeirra.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336245"
 ---
-
-# <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Velja á milli Retail Modern POS (MPOS) og Cloud POS
+# <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Velja á milli Retail Modern POS (MPOS) og sölukerfis í skýinu
 
 [!include [banner](includes/banner.md)]
 
@@ -41,7 +40,7 @@ Retail veitir fjölbreytt úrval af virkjunar- og grannfræðikostum. Þess vegn
 Retail styður eftirfarandi valkosti fyrir sölustað (POS):
 
 - Retail Modern POS (MPOS) fyrir Microsoft Windows
-- MPOS fyrir Microsoft Windows Síma
+- MPOS fyrir Microsoft Windows síma
 - MPOS fyrir Apple iPad eða Google Android spjaldtölvu
 - Cloud POS (CPOS), sem styður Microsoft Edge, Internet Explorer og Google Chrome vafra
 
@@ -58,10 +57,10 @@ Retail styður eftirfarandi valkosti fyrir sölustað (POS):
 
 #### <a name="mpos"></a>MPOS
 
-MPOS á Windows, iOS eða Android tæki er forrit sem er pakkað, sett upp og þjónustað á því tæki.
+MPOS á Windows, IOS eða Android tæki er forrit sem er pakkað, sett upp og þjónustað á því tæki.
 
 - **Windows** - MPOS fyrir Windows forritið inniheldur alla forritakóðann og innfelldan Commerce-keyrslutíma (CRT). 
-- **iOS/Android** - Á þessum vettvangi virkar forritið sem gestgjafi fyrir CPOS forritakóðann. Með öðrum orðum kemur forritakóðinn frá CPOS-þjóninum á Microsoft Azure eða Einingarkvarði smásöluverslunar (RSSU). Frekari upplýsingar, sjá [Yfirlit einingarkvarða smásöluverslunar](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
+- **iOSAndroid** - Á þessum vettvangi virkar forritið sem gestgjafi fyrir CPOS forritakóðann. Með öðrum orðum kemur forritakóðinn frá CPOS-þjóninum á Microsoft Azure eða Retail Store Scale Unit (RSSU). Nánari upplýsingar er að finna í [Retail Store Scale Unit yfirlit](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>CPOS
 
@@ -74,8 +73,8 @@ Til viðbótar við vettvang og formþátt, verða smásalar einnig að velja vi
 | POS forrit         | Retail-þjónn | Tiltæk utan nets |
 |-------------------------|---------------|-------------------|
 | MPOS fyrir Windows        | Cloud eða RSSU | Já               |
-| MPOS fyrir iOS eða Android | Cloud eða RSSU | Númer                |
-| Cloud POS               | Cloud eða RSSU | Númer                |
+| MPOS fyrir iOS eða Android | Cloud eða RSSU | Ekkert                |
+| Sölustaður í skýi               | Cloud eða RSSU | Ekkert                |
 
 #### <a name="retail-server"></a>Retail-þjónn
 
@@ -87,7 +86,7 @@ MPOS fyrir Windows styður ótengdan ham. Í ótengdum ham getur POS áfram unni
 
 ### <a name="pos-peripheralhardware-considerations"></a>POS jaðarbúnaður/vélbúnaður íhugunarefni
 
-Söluaðilar verða einnig að íhuga hvernig POS mun fá aðgang að tækjum og jaðartæki, svo sem prentara, reiðuféskúffum og greiðslustöðvum. Aðeins MPOS fyrir Windows styður bein samskipti við þessi tæki. MPOS fyrir Windows Síma, iOS eða Android, og Cloud POS krefst vélbúnaðarstöðvar til að fá aðgang að þessum tækjum. Vélbúnaðarstöðvar geta verið tileinkaðar POS afgreiðslukassa eða deilt meðal afgreiðslukassa í verslun. Frekari upplýsingar um vélbúnaðarstöðvar, sjá [Grunnstilling og uppsetning Retail-vélbúnaðarstöðvar](https://docs.microsoft.com/dynamics365/unified-operations/retail/retail-hardware-station-configuration-installation).
+Söluaðilar verða einnig að íhuga hvernig POS mun fá aðgang að tækjum og jaðartæki, svo sem prentara, reiðuféskúffum og greiðslustöðvum. Aðeins MPOS fyrir Windows styður bein samskipti við þessi tæki. MPOS fyrir Windows Síma, IOS eða Android, og Cloud POS krefst vélbúnaðarstöðvar til að fá aðgang að þessum tækjum. Vélbúnaðarstöðvar geta verið tileinkaðar POS afgreiðslukassa eða deilt meðal afgreiðslukassa í verslun. Frekari upplýsingar um vélbúnaðarstöðvar, sjá [Grunnstilling og uppsetning Retail-vélbúnaðarstöðvar](https://docs.microsoft.com/dynamics365/unified-operations/retail/retail-hardware-station-configuration-installation).
 
 ## <a name="implementation-considerations"></a>Umhugsunarefni fyrir innleiðingu
 
@@ -106,4 +105,3 @@ Söluaðilar verða einnig að íhuga hvernig POS mun fá aðgang að tækjum og
 - **Vélbúnaður tæki/jaðartæki** - Einn mikilvægur þáttur í Retail POS kerfi er hæfni þess til að nota POS jaðartæki eins og prentara, reiðufjárskúffur og greiðslustöðvar. Þó að allar tiltækar POS valkostir geti notað jaðartæki, styður aðeins MPOS fyrir Windows þau beint. Fyrir öll önnur forrit þarf eina eða fleiri vélbúnaðarstöðvar. Þrátt fyrir að þessi nálgun bætir sveigjanleika, verða fleiri einingar að vera uppsett, grunnstilltir og þjónustaðir.
 - **Kerfisskilyrði** - Kerfisskilyrðin fyrir POS forritið eru mismunandi. Vertu viss um að athuga nýjustu upplýsingar áður en þú velur. Til dæmis, vegna þess að CPOS keyrir í vafra styður það fjölbreyttar stýrikerfi. Fyrir frekari upplýsingar um kerfisskilyrði, sjá [Kerfisskilyrði fyrir uppsetningu í skýi](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements).
 - **Uppsetning og þjónusta** - Flækjustig uppsetningar- og þjónustuskilyrði geta verið breytilegt eftir því hvaða forrit og uppsetning eru valin. Til dæmis, fyrir ský-hýst CPOS uppsetningu, þú þarft ekki að setja upp og uppfæra í hverju tæki. Þess vegna minnkar þessi aðferð flækjustig og kostnað mikið. Hins vegar, ef þú setur upp MPOS á hvert afgreiðslukassa og virkjar ótengdan ham, og setur einnig upp samnýttar vélbúnaðarstöðvar, eykur þú mjög fjölda endastöðva sem þarf að stjórna.
-

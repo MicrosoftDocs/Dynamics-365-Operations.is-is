@@ -1,13 +1,13 @@
 ---
-title: "Skipuleggja skýrsluhluta í skýrsluhönnun"
-description: "Eftir hannað höfum einingar og mynduðum skýrslum, það er gagnlegt að skipuleggja þessum hlutum þannig að þeir verði auðveldara fyrir notendum að staðsetja. Þessi skrá er útskýrt hvernig raða fyrirliggjandi skýrslur einingar og hlutum í skýrsluhönnun."
+title: Skipuleggja skýrsluhluta í skýrsluhönnun
+description: Eftir hannað höfum einingar og mynduðum skýrslum, það er gagnlegt að skipuleggja þessum hlutum þannig að þeir verði auðveldara fyrir notendum að staðsetja. Þessi skrá er útskýrt hvernig raða fyrirliggjandi skýrslur einingar og hlutum í skýrsluhönnun.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323940"
 ---
-
 # <a name="organize-report-components-in-report-designer"></a>Skipuleggja skýrsluhluta í skýrsluhönnun
 
 [!include [banner](../includes/banner.md)]
@@ -101,7 +100,7 @@ Eftirfarandi tafla lýsir stýringum í á **Skýrslu Flokkur** flipa.
 <td>Lýsing á stigi</td>
 <td>Tilgreinið hvaða upplýsingar eiga að vera í skýrslunni.
 <ul>
-<li><strong>Fjárhagur</strong>− Samantektarskýrsla á háu stigi. Ekki er hægt að kafa niður í reikninga og víddir nema þeim sem hefur verið bætt við í gegnum skipurit.</li>
+<li><strong>Fjárhagur</strong>− Samantektarskýrsla á háu stigi. Ekki er hægt að kafa niður í reikninga og víddir nema þeim sé bætt við í gegnum skipurit.&#39;</li>
 <li><strong>Fjárhagur &amp; reikningur</strong> − Skýrsla sem inniheldur samantekt á háu stigi með ítarupplýsingum um reikning.</li>
 <li><strong>Fjárhagsreikningur &amp; færsla</strong> − Skýrsla sem inniheldur samantekt á háu stigi með ítarupplýsingum um færslur.</li>
 </ul></td>
@@ -150,4 +149,3 @@ Aðeins stillingar sjálfgefins grunntímabils eru vistaðar með skýrsluskilgr
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
-

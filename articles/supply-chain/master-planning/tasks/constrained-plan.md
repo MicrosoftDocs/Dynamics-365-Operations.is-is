@@ -1,13 +1,13 @@
---- 
-title: "Mynda áætlun með skorðum"
-description: "Þessi verklýsing sýnir hvernig á að stofna áætlun sen tekur tillit bæði til efnis- og afkastahamla."
+---
+title: Mynda áætlun með skorðum
+description: Þessi verklýsing sýnir hvernig á að stofna áætlun sen tekur tillit bæði til efnis- og afkastahamla.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqPlanSched
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0e2265f7788fd2a4a37f6fb96d7562649dbc5b1c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 59c6a4a2b239b3fd6b6ddc8f06bfd007f0191f0a
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336038"
 ---
 # <a name="generate-a-constrained-plan"></a>Mynda áætlun með skorðum
 
@@ -59,5 +59,4 @@ Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta ferli er �
 3. Smellið á „Í lagi“.
     * Þetta gæti tekið nokkra stund.  
 4. Smellt er á Áætlaðar pantanir.
-
 

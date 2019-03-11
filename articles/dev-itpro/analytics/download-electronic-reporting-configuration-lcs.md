@@ -1,13 +1,13 @@
 ---
-title: "Hlaða niður Grunnstillingar fyrir rafræna skýrslugerð úr Lifecycle Services"
-description: "Þetta kennsluefni útskýrir hvernig á að hlaða niður forstillingum Rafrænnar skýrslugerðar (ER) úr Microsoft Dynamics Lifecycle Services (LCS)."
+title: Hlaða niður Grunnstillingar fyrir rafræna skýrslugerð úr Lifecycle Services
+description: Þetta kennsluefni útskýrir hvernig á að hlaða niður forstillingum Rafrænnar skýrslugerðar (ER) úr Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionImport, ERWorkspace
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 8686d2639a3ab7f2e79944cc5eed51571d463261
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315752"
 ---
-
-# <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Hlaða niður Grunnstillingar fyrir rafræna skýrslugerð úr Lifecycle Services
+# <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services
 
 [!include [banner](../includes/banner.md)]
 
@@ -75,4 +74,3 @@ ms.lasthandoff: 08/13/2018
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
-

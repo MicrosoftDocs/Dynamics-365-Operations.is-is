@@ -1,13 +1,13 @@
 ---
-title: "Kostnaðarstýring fartækja vinnusvæði"
-description: "Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið Kostnaðarstýring. Þessi vinnusvæði gerir notendum kleift að ná í kvittun, sem hægt er að tengja við kostnaðarskýrslu síðar. Notendur geta einnig með skjótum hætti búið til kostnaðarlínu með því að nota viðhengda kvittun, og búa til og hafa umsjón með kostnaðarskýrslum þeirra."
+title: Kostnaðarstýring fartækja vinnusvæði
+description: Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið Kostnaðarstýring. Þessi vinnusvæði gerir notendum kleift að ná í kvittun, sem hægt er að tengja við kostnaðarskýrslu síðar. Notendur geta einnig með skjótum hætti búið til kostnaðarlínu með því að nota viðhengda kvittun, og búa til og hafa umsjón með kostnaðarskýrslum þeirra.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 6ec9966826830e9ceaa3ed7e1b06e2cb89e8a780
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344341"
 ---
-
 # <a name="expense-management-mobile-workspace"></a>Fartækjavinnusvæði útgjaldastýringar
 
 [!include [banner](../includes/banner.md)]
@@ -32,7 +31,7 @@ ms.lasthandoff: 03/26/2018
 Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Kostnaðarstýring**. Þessi vinnusvæði gerir notendum kleift að ná í kvittun, sem hægt er að tengja við kostnaðarskýrslu síðar. Notendur geta einnig með skjótum hætti búið til kostnaðarlínu með því að nota viðhengda kvittun, og búa til og hafa umsjón með kostnaðarskýrslum þeirra. Þar að auki geta samþykkjendur notað fartækjavinnusvæðið **Kostnaðarstýring** til að skoða kostnaðarskýrslur sem þeim er úthlutað, og annaðhvort samþykkt eða hafnað þeim.
 
 
-Þetta fartækjavinnusvæði er ætlað til notkunar með fartækjaforritinu Microsoft Dynamics 365 for Unified Operations.
+Þetta fartækjavinnusvæði er ætlað til að nota með Microsoft Dynamics 365 fyrir farsímaforritið Unified Operations Mobile.
 
 
 ## <a name="overview"></a>Yfirlit
@@ -57,14 +56,14 @@ Ef þú notar Microsoft Dynamics 365 for Finance and Operations er einnig hægt 
 - Senda inn kostnaðarskýrslu til samþykkis og endurgreiðslu.
 - Samþykkja eða hafna kostnaðarskýrslum sem þú ert úthlutaður samþykkjandi fyrir.
 
-## <a name="prerequisites"></a>Frumskilyrði
-Forkröfur eru mismunandi eftir þeirri útgáfu Microsoft Dynamics 365 sem hefur verið innleidd í fyrirtækinu.
+## <a name="prerequisites"></a>Forkröfur
+Skilyrðin eru mismunandi, byggt á útgáfu Microsoft Dynamics 365 sem hefur verið sett upp fyrir fyrirtækið þitt.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Forkröfur ef þú notar Microsoft Dynamics 365 for Finance and Operations 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Skilyrði ef þú notar Microsoft Dynamics 365 for Finance and Operations 
 Ef Microsoft Dynamics 365 for Finance and Operations hefur verið innleitt í fyrirtækinu verður kerfisstjóri að birta fartækjavinnusvæðið **Útgjaldastýring**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Forkröfur ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með svæðisuppfærslu 3 eða síðar
-Ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með svæðisuppfærslu 3 eða síðar í fyrirtækinu, verður kerfisstjóri að uppfylla eftirfarandi forkröfur. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Skilyrði ef þú notar Microsoft Dynamics 365 for Operations útgáfu 1611 með verkvangsuppfærslu 3 eða nýrri
+Ef Microsoft Dynamics 365 for Operations útgáfa 1611 með verkvangsuppfærslu 3 eða síðar hefur verið sett upp fyrir fyrirtækið þitt, verður kerfisstjórinn að ljúka eftirfarandi skilyrðum. 
 
 <table>
 <thead>
@@ -80,7 +79,7 @@ Ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með s
 <td>Kerfisstjóri</td>
 <td>KB 4019015 er X++ uppfærsla eða bráðabót lýsingagna sem inniheldur fartækjavinnusvæði <strong>Kostnaðarstýring</strong>. Til að setja upp KB 4019015 verður kerfisstjóri að fylgja eftirfarandi skrefum.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Sæktu lýsigagnabráðabótina á Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Sækja bráðabót lýsigagna frá Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Setja upp bráðabót lýsigagna</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Stofna virkjanlegan pakka</a> sem inniheldur <strong>ApplicationSuite</strong> og <strong>ExpenseMobile</strong> virðislíkön og hlaða svo upp virkjanlegum pakka í LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Notaðu virkjanlega pakkann</a>.</li>
@@ -94,7 +93,7 @@ Ef verið er að nota Microsoft Dynamics 365 for Operations útgáfu 1611 með s
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Sæktu og settu upp Dynamics 365 fyrir Operations farsímaforrit
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Hlaðið niður og setjið upp Dynamics 365 for Operations fartækjaforritið
 Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
 
 - [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
@@ -243,4 +242,3 @@ Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
 22. Veldu **Senda**.
 23. Færðu inn athugasemdir fyrir samþykkjandann.
 24. Velja **Ekkert**.
-

@@ -1,13 +1,13 @@
 ---
-title: "Viðvörunarreglur stofnaðar"
-description: "Þetta efnisatriði veitir upplýsingar um viðvaranir og útskýrir hvernig á að búa til viðvörunarreglu svo þú fáir tilkynningu um tilvik eins og dagsetningu sem kemur eða tilgreinda breytingu sem á sér stað."
+title: Viðvörunarreglur stofnaðar
+description: Þetta efnisatriði veitir upplýsingar um viðvaranir og útskýrir hvernig á að búa til viðvörunarreglu svo þú fáir tilkynningu um tilvik eins og dagsetningu sem kemur eða tilgreinda breytingu sem á sér stað.
 author: tjvass
 manager: AnnBe
 ms.date: 06/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
@@ -16,21 +16,20 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: cbf4917424e72a70a6d513b5daf45f6bf9cd57c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 78e1e6f7be04e1d4fecae080cbd4a285358590fb
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329414"
 ---
-
 # <a name="create-alert-rules"></a>Viðvörunarreglur stofnaðar
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="getting-started"></a>Hafist handa
 
-Áður en þú setur upp viðvörunarreglu skaltu ákveða hvenær eða í hvaða aðstæðum þú vilt fá viðvaranir. Þegar þú veist hvaða tilvik þú vilt fá tilkynningu um skaltu finna, í Microsoft Dynamics 365 for Finance and Operations, síðuna með gögnunum sem eru þess valdandi að tilvikið birtist. Atvikið getur verið dagsetning sem kemur eða tilteknar breytingar sem eiga sér stað. Þess vegna verður þú að finna síðuna þar sem dagsetningin er tilgreind eða hvar reiturinn er sem breytist eða hvar nýja færslan birtist sem er búin til. Eftir að þú hefur þessar upplýsingar er hægt að búa til viðvörunarregluna.
+Áður en þú setur upp viðvörunarreglu skaltu ákveða hvenær eða í hvaða aðstæðum þú vilt fá viðvaranir. Þegar þú veist hvaða atvik þú vilt fá tilkynningu um skaltu finna, í Microsoft Dynamics 365 for Finance and Operations, síðuna með gögnunum sem eru þess valdandi að atvikið birtist. Atvikið getur verið dagsetning sem kemur eða tilteknar breytingar sem eiga sér stað. Þess vegna verður þú að finna síðuna þar sem dagsetningin er tilgreind eða hvar reiturinn er sem breytist eða hvar nýja færslan birtist sem er búin til. Eftir að þú hefur þessar upplýsingar er hægt að búa til viðvörunarregluna.
 
 Þegar þú býrð til viðvörunarreglu skilgreinirðu skilyrðin sem þarf að uppfylla áður en kveikt er á viðvörun. Þú getur hugsað um skilyrði sem samsvörun milli tilviks sem á sér stað og uppfyllingu á tilgreindum skilyrðum. Þegar tilvik á sér stað byrjar kerfið að framkvæma eftirlit samkvæmt skilyrðum sem sett eru upp í Finance and Operations.
 
@@ -84,4 +83,3 @@ Næst verður þú að ákveða hvaða innkaupapantanir þú vilt fá viðvarani
 7. Á flýtiflipanum **Láta mig vita með**, í reitnum **Efni** skal samþykkja sjálfgefna fyrirsögn efnis fyrir tölvupóstinn eða færa inn nýtt efni. Textinn er notaður í efnislínu fyrirsagnarfyrir tölvupóst sem berst þegar viðvörun er gefin.
 8. Í reitnum **Skilaboð** skal færa inn valfrjáls skilaboð. Textinn er notaður sem skilaboðin sem er tekið á móti þegar viðvörun er ræst.
 9. Veldu **Í lagi** til að vista stillingarnar og búa til viðvörunarregluna.
-

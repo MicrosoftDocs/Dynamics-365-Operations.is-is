@@ -1,13 +1,13 @@
 ---
-title: "Skilgreina sjálfvirk verk í verkflæði"
-description: "Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika sjálfvirks verks."
+title: Skilgreina sjálfvirk verk í verkflæði
+description: Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika sjálfvirks verks.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5a9f37228beedafa085987668d5c89b06c6c9d61
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 047abbf297b3514c7f97d2baa6c0f5cab6696cde
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365110"
 ---
-
 # <a name="configure-automated-tasks-in-a-workflow"></a>Skilgreina sjálfvirk verk í verkflæði
 
 [!include [banner](../includes/banner.md)]
@@ -100,7 +99,7 @@ Hægt er að senda tilkynningar til fólks þegar sjálfvirkt verk hefur verið 
     </tr>
     <tr>
     <td>Notandi</td>
-    <td>Sértækir notendur Microsoft Dynamics 365 for Finance and Operations</td>
+    <td>Tilteknir Microsoft Dynamics 365 for Finance and Operations notendur</td>
     <td>
     <ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
@@ -112,4 +111,3 @@ Hægt er að senda tilkynningar til fólks þegar sjálfvirkt verk hefur verið 
     </table>
 
 8. Endurtakið skref 3 til 7 hvert tilvik sem valin var í skrefi 2.
-

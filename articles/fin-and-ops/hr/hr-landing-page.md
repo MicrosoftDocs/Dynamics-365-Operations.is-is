@@ -1,13 +1,13 @@
 ---
-title: "Mannauður"
-description: "Mannauðsstjórnun einfaldar mörg reglubundin skráningarverk og gerir fjölda ferla tengda starfsfólki fyrirtækisins sjálfvirka. Eiginleikinn rammar einnig af þau atriði sem starfsfólk mannauðsdeildar þarf að hafa yfirsýn yfir. Á meðal þessara atriða eru ráðningar starfsmanna og viðhald starfsánægju, fríðindastjórnun, þjálfun, frammistöðuviðtöl og breytingastjórnun."
+title: Mannauður
+description: Mannauðsstjórnun einfaldar mörg reglubundin skráningarverk og gerir fjölda ferla tengda starfsfólki fyrirtækisins sjálfvirka. Eiginleikinn rammar einnig af þau atriði sem starfsfólk mannauðsdeildar þarf að hafa yfirsýn yfir. Á meðal þessara atriða eru ráðningar starfsmanna og viðhald starfsánægju, fríðindastjórnun, þjálfun, frammistöðuviðtöl og breytingastjórnun.
 author: rschloma
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: faf9b9a70d959719f381ec5171e4fb96af208478
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341765"
 ---
-
 # <a name="human-resources"></a>Mannauður
 
 [!include [banner](../includes/banner.md)]
@@ -81,7 +80,7 @@ Auk þess að greiða starfsfólki laun og bónusa er hægt að koma á fót fr�
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Viðhald öryggis og reglufylgni á vinnustað
 
-Microsoft Dynamics AX getur hjálpað við að viðhalda öruggu vinnuumhverfi sem er í samræmi við viðeigandi lög, þar á meðal lagaákvæðum um fatlaða Bandaríkjamenn og innflytjendur og lögum um veitingu ríkisborgararéttar meðal annars. Til dæmis er hægt að stýra kröfum um líkamlegt atgervi fyrir tiltekin störf sem og að rekja beiðnir um breytingar sem gera fyrirtækinu kleift að fullnýta hæfni starfsfólksins.
+Microsoft Dynamics AX getur hjálpað þér við að viðhalda öruggu vinnuumhverfi sem er í samræmi við gildandi lög, þar á meðal Bandaríkjamenn með fötlunarlög og meðal annars innflytjenda og lög um náttúruvernd. Til dæmis er hægt að stýra kröfum um líkamlegt atgervi fyrir tiltekin störf sem og að rekja beiðnir um breytingar sem gera fyrirtækinu kleift að fullnýta hæfni starfsfólksins.
 
 - [Staðfesting starfs með I-9 eyðublaði](localizations/noam-usa-form-i-9-verification.md)
 - [Eftirfylgni við lögin „Americans with Disabilities“](localizations/noam-usa-comply-ada.md)
@@ -95,4 +94,3 @@ Hægt er að hanna og stjórna spurningalista til að safna upplýsingum til ým
 - [Hönnun spurningalista](../../talent/design-questionnaires.md)
 - [Dreifing og útfylling spurningalista](../../talent/distribute-questionnaires.md)
 - [Yfirferð og mat á niðurstöðum spurningalista](../../talent/evaluate-questionnaire-results.md)
-

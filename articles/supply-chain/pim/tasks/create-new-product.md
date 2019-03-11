@@ -1,13 +1,13 @@
---- 
-title: "Stofna nýja afurð"
-description: "Þetta verk sýnir hvernig á að stofna nýja samnýttra afurðar."
+---
+title: Stofna nýja afurð
+description: Þetta verk sýnir hvernig á að stofna nýja samnýttra afurðar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductInventoryDimensionGroups
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 7a603d89749242a4c6039ab83da286ec6ab727d8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 56ce5d965952d0cb41278915e4631ae9d920f5f9
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328540"
 ---
 # <a name="create-a-new-product"></a>Stofna nýja afurð
 
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
 3. Í reitinn Rakningarvíddarflokkur skal slá inn eða velja gildi.
     * Geymslurakningarflokkinn ákvarðar hvaða rakningarvíddir verður að færa inn á hverja færslu fyrir vöruna og hvernig það verða raktar í birgðum.  
 4. Smellið á „Í lagi“.
-
 

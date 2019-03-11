@@ -1,13 +1,13 @@
---- 
-title: "Viðbót við eign færð inn"
-description: "Þessi verklýsing sýnir hvernig á að bæta viðbót við eign."
+---
+title: Viðbót við eign færð inn
+description: Þessi verklýsing sýnir hvernig á að bæta viðbót við eign.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, AssetAddition
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3c9733f07f995dd37669f3c33fd0f082daa34dd2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 3579148033023f648e1a78a3dd009018f153fdad
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324423"
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>Viðbót við eign færð inn
 
@@ -47,5 +47,4 @@ Ferlið notar Bókari hlutverk og sýnigögn gögn fyrir USMF lögaðila.
 11. Smellið á flipann „Almennt“.
     * Safn eykur líftíma ef viðbótin eykur líftíma eignarinnar.  
     * Þetta svæði er einungis til upplýsingar. Til að auka líftíma skal breyta líftíma á virðislíkön og/eða afskriftarbókum fyrir eignina.  
-
 

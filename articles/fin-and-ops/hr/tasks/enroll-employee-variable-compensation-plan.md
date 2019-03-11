@@ -1,13 +1,13 @@
---- 
-title: "Skráið starfsmann inn í breytilega greiðsluáætlun"
-description: "stjórnandi Launa og Fríðinda skrá starfsmenn í breytilegu launafyrirkomulagi til að reikna út reiðufés og ekki reiðufés umbun fyrir starfsmenn."
+---
+title: Skráið starfsmann inn í breytilega greiðsluáætlun
+description: stjórnandi Launa og Fríðinda skrá starfsmenn í breytilegu launafyrirkomulagi til að reikna út reiðufés og ekki reiðufés umbun fyrir starfsmenn.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMCompVarEnrollEmpl
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 6ab2533293b5c8cb37953427893b75a98ddf3976
-ms.contentlocale: is-is
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329575"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Skráið starfsmann inn í breytilega greiðsluáætlun
 
@@ -42,5 +42,4 @@ stjórnandi Launa og Fríðinda skrá starfsmenn í breytilegu launafyrirkomulag
     * Ef starfsmaðurinn á að fá flöt upphæð fyrir sína umbun, upphæð er hægt að setja hér.  
 8. Víxla útvíkkun á liðnum fyrirtækishnekking.
     * Ef frammistöðu starfsmannsins á að hafa í huga, afköst mismunandi deildir eða deild sem er annað en það sem er úthlutað á stöðu starfsmannsins, hægt er að hnekkja deild. dálkinn Prósenta ætti að vera samtals 100.  
-
 

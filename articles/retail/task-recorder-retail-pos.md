@@ -1,13 +1,13 @@
 ---
-title: "Verkskráning og hjálp fyrir Retail Modern POS (MPOS) og Cloud POS"
-description: "Þetta efnisatriði lýsir hvernig á að nota verkskráningu í tungumálastillingum í Cloud POS og Retail Modern POS."
+title: Verkskráning og hjálp fyrir Retail Modern POS (MPOS) og sölukerfi í skýinu
+description: Þetta efnisatriði lýsir hvernig á að nota verkskráningu í Retail Modern POS og Cloud POS.
 author: mugunthanm
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,23 +19,22 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: a74a1275f08e3dba60a1002a102e143eb37fcd9a
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345997"
 ---
-
-# <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Verkskráning og hjálp fyrir Retail Modern POS (MPOS) og Cloud POS
+# <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Verkskráning og hjálp fyrir Retail Modern POS (MPOS) og sölukerfi í skýinu
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir hvernig á að nota verkskráningu í tungumálastillingum í Cloud POS og Retail Modern POS.
+Þetta efnisatriði lýsir hvernig á að nota verkskráningu í Retail Modern POS og Cloud POS.
 
 ## <a name="overview"></a>Yfirlit
 
-Verkskráning í Retail Modern POS eða Cloud POS  er ný lausn sem var þróuð með áherslu á mikla viðbragðsflýti. Hún býður upp á sveigjanleg forritaskil (API) sem eykur þenslugetu og auðveldar snurðulausa samþættingu við neytendur skráninga verkferla. Að auki hefur samþætting verkskráningar við viðskiptaferlavinnslutólið (BPM) í Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) verið þróaað áfram. Notendur geta því haldið áfram að búa til efnismiklar skýringarmyndir verkferla úr skráningum til að greina og þróa forrit sín.
+Verkskráning í Retail Modern POS eða Cloud POS  er ný lausn sem var þróuð með áherslu á mikla viðbragðsflýti. Hún býður upp á sveigjanleg forritaskil (API) sem eykur þenslugetu og auðveldar snurðulausa samþættingu við neytendur skráninga verkferla. Að auki hefur samþætting verkskráningar við viðskiptaferlavinnslutólið (BPM) í Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) verið þróað áfram. Notendur geta því haldið áfram að búa til efnismiklar skýringarmyndir verkferla úr skráningum til að greina og þróa forrit sín.
 
 ## <a name="architecture"></a>Högun
 
@@ -84,7 +83,7 @@ Verkskráningarpakkann er hægt að nota til að spila verkefnaleiðbeiningar, v
 
 ### <a name="export-as-word-document"></a>Flytja út sem Word-skjal
 
-Hægt er að vista skráningu sem Microsoft Word-skjal. Skjalið inniheldur skráð skref og skjámyndirnar sem voru vistaðar.
+Hægt er að vista skráningu sem Microsoft Microsoft Word-skjal. Skjalið inniheldur skráð skref og skjámyndirnar sem voru vistaðar.
 
 ### <a name="save-as-developer-recording"></a>Vista sem skráningu þróunaraðila
 
@@ -137,14 +136,13 @@ Texti sem færður er inn í reitinn **Texti** birtist *fyrir ofan* texta fyrir 
 
 Texti sem færður er inn reitinn **Texti** birtist *undir* texta um skref í Verkefnaleiðbeiningum. Til að lesa textann fyrir athugasemdina þarf notandinn að víkka texta um skref í sprettiglugga. Þessi staðsetning er fyrir valfrjálst lesefni eða aðrar upplýsingar sem gætu verið gagnlegar fyrir notandann en sem notandinn þarf ekki nauðsynlega að lesa áður en hann eða hún lýkur við aðgerðina.
 
-## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Hjálp á Retail Modern POS og Cloud POS
+## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Hjálp í Retail Modern POS og sölukerfi í skýinu
 
-Til að sýna þínar eigin sérsniðnu verkskráningar í rúðunni Hjálp fyrir Hjálp á Retail Modern POS og Cloud POS þannig að hægt er að skoða þær sem texta eða skoða texta þarf að vista verkskráninguna í eigin BPM-safni og síðan uppfæra færibreytur Hjálparkerfis til að vísa í BPM-safnið þitt. Nánari upplýsingar, sjá [ tengja hjálparkerfisins ](../fin-and-ops/get-started/help-connect.md). Retail Modern POS og Cloud POS Help leita í LCS í rauntíma. Leitin er gerð í öllum BPM-söfnum sem valin eru í færibreytum fyrir Hjálparkerfi Microsoft Dynamics 365 for Retail og leitin birtir viðeigandi niðurstöður. Til að komast í valmyndina **Hjálp** er smellt á hnappinn **Hjálp** (spurningamerki) efst á skjánum og síðan er heiti verkferlisins slegið inn í leitargluggann og smellt á hnappinn Leita.
+Til að sýna þínar eigin sérsniðnu verkskráningar í hjálparsvæðinu á Retail Modern POS og Cloud POS þannig að hægt er að skoða þær sem texta eða skoða texta þarf að vista verkskráninguna í eigin BPM-safni og síðan uppfæra færibreytur Hjálparkerfis til að vísa í BPM-safnið þitt. Nánari upplýsingar, sjá [ tengja hjálparkerfisins ](../fin-and-ops/get-started/help-connect.md). Retail Modern POS og Cloud POS Help leita í LCS í rauntíma. Leitin er gerð í öllum BPM-söfnum sem valin eru í færibreytum fyrir Hjálparkerfi Microsoft Dynamics 365 for Retail og leitin birtir viðeigandi niðurstöður. Til að komast í valmyndina **Hjálp** er smellt á hnappinn **Hjálp** (spurningamerki) efst á skjánum og síðan er heiti verkferlisins slegið inn í leitargluggann og smellt á hnappinn Leita.
 
 [![Hnappurinn Hjálp](./media/help.jpg)](./media/help.jpg)
 
 Þegar smellt er á Verkefnaleiðberiningar í leitarniðurstöðum er hægt að skoða þrepin sem hjálparefni eða flytja út þrepin í Word-skjal.
 
 > [!NOTE]
-> Hjálp í Retail POS Nútímaleg og sölukerfi í SKÝINU verður ekki reitsins verkefni leiðbeiningunum samkvæmt hvaða skjámynd sem er notað eða afskriftareglur er að gera aðgerðina. Hafa við vinnslu nafn í reitnum leit og smellið síðan á **Leit**.
-
+> Hjálp í Retail Modern POS og sölukerfi í skýinu mun ekki sýna verkefnaleiðbeiningar í samræmi við skjámyndina sem þú ert í eða aðgerðina sem þú ert að framkvæma. Hafa við vinnslu nafn í reitnum leit og smellið síðan á **Leit**.

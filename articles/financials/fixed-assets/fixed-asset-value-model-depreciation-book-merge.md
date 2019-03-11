@@ -1,13 +1,13 @@
 ---
-title: "Samruni virðislíkön eigna og afskriftarbækur"
-description: "Í eldri útgáfum, voru tvö matshugtök fyrir eignir -  virðislíkön og afskriftabækur. Í Microsoft Dynamics 365 for Operations (1611) útgáfu, er virkni fyrir virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók."
+title: Samruni virðislíkön eigna og afskriftarbækur
+description: Í eldri útgáfum, voru tvö matshugtök fyrir eignir -  virðislíkön og afskriftabækur. Í Microsoft Dynamics 365 for Operations (1611) útgáfu, er virkni fyrir virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 26f4b73f67064a83eb7b3d57f2dc98d90602c254
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8ef31b63dd253ab5b436a65385e248c4753abf1e
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342524"
 ---
-
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Samruni virðislíkön eigna og afskriftarbækur
 
 [!include [banner](../includes/banner.md)]
@@ -69,7 +68,6 @@ Fyrirspurnir og skýrslur styðja allar bækurnar . Skýrslur sem ekki með í e
 
 ## <a name="upgrade"></a>Uppfæra
 Uppfærsluferlið færir fyrirliggjandi uppsetningu og allar fyrirliggjandi færslur til uppbyggingar nýju bókarinnar. Virðislíkön haldast eins og þau eru, sem bók sem bókar í fjárhag. Hins vegar verða afskriftabækur flutt í bók sem hefur **Bóka í fjárhag** valkostur stilltur á **Nei**. Færslubókaheiti afskriftabóka verði flutt í færslubókarheitið fjárhags sem er með bókunarlag stillt á **Ekkert**.
-
 
 
 

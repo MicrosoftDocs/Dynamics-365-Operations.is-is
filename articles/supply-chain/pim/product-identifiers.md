@@ -1,32 +1,31 @@
 ---
-title: "Afurðarkenni"
-description: "Þetta efnisatriði veitir upplýsingar um mismunandi tegundir afurðarkenna og útskýrir hvernig hægt er að bæta við afurðarkennum í afurðargögnum þínum."
+title: Afurðarkenni
+description: Þetta efnisatriði veitir upplýsingar um mismunandi tegundir afurðarkenna og útskýrir hvernig hægt er að bæta við afurðarkennum í afurðargögnum þínum.
 author: cvocph
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: afd542a652abdf6e45c83a6097dc8f0d36efa905
-ms.contentlocale: is-is
-ms.lasthandoff: 03/23/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335417"
 ---
-
 # <a name="product-identifiers"></a>Afurðarkenni 
 
 [!include [banner](../includes/banner.md)]
@@ -186,4 +185,3 @@ Fylgdu þessum skrefum til að grunnstilla umhverfið.
 ## <a name="related-topic"></a>Tengt efni
 
 [Leita að afurðum og afurðarafbrigðum við pöntunarfærslu](search-products-product-variants.md)
-

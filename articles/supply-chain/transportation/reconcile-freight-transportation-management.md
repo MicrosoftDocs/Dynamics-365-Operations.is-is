@@ -1,13 +1,13 @@
 ---
-title: "Afstemming farms í flutningsstjórnun"
-description: "Þessi grein útskýrir ferli afstemmingar farms."
+title: Afstemming farms í flutningsstjórnun
+description: Þessi grein útskýrir ferli afstemmingar farms.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSAuditMaster, TMSFreightBillInvoiceReconcile, TMSFreightBillSummary, TMSFreightBillType, TMSFreightMatchReason, TMSInvoiceTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1f92808f904ba93513e20b74bd2b597712cb93d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 722c52c22a98317dd67887f50fc95f3e3764ed83
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344778"
 ---
-
 # <a name="reconcile-freight-in-transportation-management"></a>Afstemming farms í flutningsstjórnun
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,6 @@ Ef verið er að afstemmingu farms handvirkt, verður að samsvara hverri reikni
 [![Afstemmingarverkefni farms í Dynamics AX](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 ## <a name="automatic-reconciliation"></a>Sjálfvirka afstemmingu
 Til að nota sjálfvirka afstemmingu, verður að tilgreina áætlun fyrir afstemmingu, og reikninga og farmflytjendur að nota. Jöfnun reikningslínur og farmbréf er gert eftir uppsetningu á endurskoðunarsniðmát og farmbréfs gerð. Eftir sjálfvirka afstemmingu er keyrð, verður að meðhöndla hvaða reikninga sem kerfið getur ekki samsvarað. Verður svo að vinna þessar reikninga handvirkt áður en hægt er að bóka reikninga til greiðslu.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Stjórnun tíma og viðveru í Retail"
-description: "Þetta efnisatriði lýsir aðstæðum sem eru studdar hvað varðar tíma- og mætingastjórnun í Microsoft Dynamics 365 for Retail."
+title: Stjórnun tíma og viðveru í Retail
+description: Þessi efnisþáttur lýsir aðstæðum sem styður stjórnun á tíma og mætingu í Microsoft Dynamics 365 for Retail.
 author: aamirallaqaband
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: JMGParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 4c54909a02376a62a72a986e634649fa0ae54284
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321272"
 ---
-
 # <a name="time-and-attendance-management-in-retail"></a>Stjórnun tíma og viðveru í Retail
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir aðstæðum sem eru studdar hvað varðar tíma- og mætingastjórnun í Microsoft Dynamics 365 for Retail.
+Þessi efnisþáttur lýsir aðstæðum sem styður stjórnun á tíma og mætingu í Microsoft Dynamics 365 for Retail.
 
 ## <a name="manage-worker-setup-and-scheduling"></a>Stjórna uppsetningu starfsmanns og áætlun
 
@@ -126,7 +125,7 @@ Nánari upplýsingar um skilgreiningarskref er að finna í [Uppsetning á tíma
 
 ## <a name="process-and-manage-time-registrations"></a>Vinna með og stjórna tímaskráningum
 
-Notandi Dynamics 365 for Retail fylgist með verkflæðinu til að reikna, samþykkja og flytja tímaskráningar í launaskrá.
+Dynamics 365 for Retail notandi fylgist með verkflæðið til að reikna, samþykkja og flytja tímaskráningar í laun.
 
 ### <a name="primary-operations"></a>Aðalaðgerðir
 
@@ -140,4 +139,3 @@ Notandi Dynamics 365 for Retail fylgist með verkflæðinu til að reikna, samþ
 - Skrá Fjarvist
 
 Nánari upplýsingar um hvernig skal vinna með skráningu tíma og viðveru er að finna í [Vinna með skráningu tíma og viðveru](https://technet.microsoft.com/library/aa573180.aspx).
-

@@ -1,13 +1,13 @@
 ---
-title: "Stjórnun úthýsingarvinnu í framleiðslu"
-description: "Þetta efnisatriði skýrir hvernig aðgerðum undirverktaka er stjórnað í Microsoft Dynamics 365 for Finance and Operations. Þar er m.ö.o. skýrt hvernig framleiðsluaðgerðum sem er úthlutað á tilfang er stjórnað af lánardrottni."
+title: Stjórnun úthýsingarvinnu í framleiðslu
+description: Þetta efnisatriði skýrir hvernig aðgerðum undirverktaka er stjórnað í Microsoft Dynamics 365 for Finance and Operations. Þar er m.ö.o. skýrt hvernig framleiðsluaðgerðum sem er úthlutað á tilfang er stjórnað af lánardrottni.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 26feea4d86cf8b976f41342c8543594593c4b135
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326585"
 ---
-
 # <a name="manage-subcontracting-work-in-production"></a>Stjórnun úthýsingarvinnu í framleiðslu
 
 [!include [banner](../includes/banner.md)]
@@ -101,7 +100,6 @@ Hálfunnar vörur eru undantekning á þessari reglu. Til að flytja hálfunnar 
 **Athugið:** Framleiðsluleið fyrir staka framleiðslupöntun má ekki liggja yfir fleiri en eitt svæði. Þessi regla gildir einnig um vinnu undirverktaka. Af þessum sökum verður að skilgreina vöruhúsin sem standa fyrir staðsetningar efnis sem lánardrottinn stjórnar á sama svæði og innri tilföng sem eru notuð á leiðinni. Jafnvel þótt framleiðsluflæði geti farið yfir fleiri en eitt svæði geta þau ekki flutt hálfunnar afurðir frá einu svæði til annars þar sem sú aðgerð felur í sér breytingu á kostnaðargildi.  
 
 Yfirleitt eru úttaksvöruhús og staðsetning forðaflokks undirverktaka tengd beint við vöruhúsið og staðsetningu næsta skrefs vinnslunnar á leiðinni eða í framleiðsluflæðinu. Þetta skipulag fækkar verkskýrslum eða fjölda frekari flutningsaðgerða sem gera verður líkan fyrir.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Staðgreiðsluafslættir"
-description: "Staðgreiðsluafslættir eru uppsettir og samnýttir fyrir viðskiptakröfur og Viðskiptaskuldir.  Tiltækur staðgreiðsluafsláttur er hægt að tilgreina á reikning viðskiptavinar eða á reikning lánardrottins og verður tekinn ef reikningurinn er greiddur innan dagsetningu staðgreiðsluafsláttar."
+title: Staðgreiðsluafslættir
+description: Staðgreiðsluafslættir eru uppsettir og samnýttir fyrir viðskiptakröfur og Viðskiptaskuldir.  Tiltækur staðgreiðsluafsláttur er hægt að tilgreina á reikning viðskiptavinar eða á reikning lánardrottins og verður tekinn ef reikningurinn er greiddur innan dagsetningu staðgreiðsluafsláttar.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CashDisc
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dd15a021244e55ea988a95184a758a321ebeafb3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5ccf41d1184280d3c4a000db13847733fd2cf4d2
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320030"
 ---
-
 # <a name="cash-discounts"></a>Staðgreiðsluafslættir
 
 [!include [banner](../includes/banner.md)]
@@ -66,5 +65,4 @@ Reikningur fyrir 1000 USD með skilmála staðgreiðsluafsláttar 20D2% er bóka
 
 > [!NOTE]
 > Ef Reikna staðgreiðsluafslætti fyrir hlutagreiðslur valkostur er valinn í færibreytum viðskiptakrafa eða færibreytur viðskiptaskulda síðunum, er notað gengi sem er í gildi á þeim degi sem hver hlutagreiðsla er notuð. 
-
 

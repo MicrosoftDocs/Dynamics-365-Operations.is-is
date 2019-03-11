@@ -1,13 +1,13 @@
 ---
-title: "Skilgreina handvirkar ákvarðanir í verkflæði"
-description: "Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika handvirkrar ákvörðunar."
+title: Skilgreina handvirkar ákvarðanir í verkflæði
+description: Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika handvirkrar ákvörðunar.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: d09e99a5bf99593a8fa7682f9d4f29eaa4e7c836
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341397"
 ---
-
 # <a name="configure-manual-decisions-in-a-workflow"></a>Skilgreina handvirkar ákvarðanir í verkflæði
 
 [!include [banner](../includes/banner.md)]
@@ -164,7 +163,7 @@ Hægt er að senda tilkynningar til fólks þegar ákvörðun hefur verið tekin
     </tr>
     <tr>
     <td>Notandi</td>
-    <td>Sértækir notendur Microsoft Dynamics 365 for Finance and Operations</td>
+    <td>Tilteknir Microsoft Dynamics 365 for Finance and Operations notendur</td>
     <td>
     <ol>
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
@@ -372,4 +371,3 @@ Fylgið eftirfarandi skrefum ef verður að taka ákvörðunina innan tiltekins 
     - **Ár** — velja daginn, vikuna og mánuðinn sem verður að vera búið að taka ákvörðunina fyrir. Til dæmis getur átt að vera búið að taka ákvörðunina fyrir föstudaginn í þriðju viku desembermánaðar.
 
 4. Ef farið er yfir tímamörkin mun kerfið taka ákvörðunina vegna verksins. Veljið Valkost, sem kerfið á að velja, í listanum **Aðgerðir**.
-

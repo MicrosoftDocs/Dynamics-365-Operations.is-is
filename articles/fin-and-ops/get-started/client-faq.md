@@ -1,13 +1,13 @@
 ---
 title: Algengar spurningar fyrir Finance and Operations
-description: "Þessi grein veitir svör við algengum spurningum um Microsoft Dynamics 365 for Finance and Operations-biðlarann."
+description: Þessi grein veitir svör við algengum spurningum um Microsoft Dynamics 365 for Finance and Operations biðlarann.
 author: jasongre
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 74f85f7a1c390d1f21d0423a794ff16c7250d9fa
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316718"
 ---
-
 # <a name="finance-and-operations-client-faq"></a>Algengar spurningar fyrir Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir svör við algengum spurningum um Microsoft Dynamics 365 for Finance and Operations-biðlarann.
+Þessi grein veitir svör við algengum spurningum um Microsoft Dynamics 365 for Finance and Operations biðlarann.
 
 ## <a name="why-arent-symbols-loaded-when-i-use-finance-and-operations"></a>Hvers vegna er táknum ekki hlaðið þegar ég nota Finance and Operations?
 
@@ -56,4 +55,3 @@ Valkosturinn **Skoða upplýsingar** er tiltækur á tvo vegu:
 
 - Ef stýring hefur getuna **Skoða upplýsingar** og hafi stýringin gildi er gildið birt sem tengill. Hægt er að smella á tengillinn til að opna síðuna sem inniheldur viðbótarupplýsingar.
 - **Skoða upplýsingar** er einnig valkostur í flýtivalmynd Finance and Operations. Nánari upplýsingar um hvenær flýtivalmyndir Finance and Operations birtast við hægrismell er að finna í fyrri hlutanum.
-

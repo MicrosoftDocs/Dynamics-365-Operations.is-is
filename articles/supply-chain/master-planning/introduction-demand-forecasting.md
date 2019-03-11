@@ -1,13 +1,13 @@
 ---
-title: "Yfirlit eftirspurnarspár"
-description: "Eftirspurnarspá er notuð til að spá fyrir um óháða eftirspurn úr sölupöntunum og háð eftirspurn á hvaða aftengingarpunkti sem er fyrir pantanir viðskiptavina. Stækkuð eftirspurnarspár lækkunarreglur í Microsoft Dynamics AX veita tilvalda lausn fyrir fjöldasérsnið."
+title: Yfirlit eftirspurnarspár
+description: Eftirspurnarspá er notuð til að spá fyrir um óháða eftirspurn úr sölupöntunum og háð eftirspurn á hvaða aftengingarpunkti sem er fyrir pantanir viðskiptavina. Stækkuð eftirspurnarspár lækkunarreglur í Microsoft Dynamics AX veita tilvalda lausn fyrir fjöldasérsnið.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a645ee6f7e6085abc6e872d490b078f512c15aa1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 20eb67a341f462328bc73907fb3052b3405190d4
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310002"
 ---
-
 # <a name="demand-forecasting-overview"></a>Yfirlit eftirspurnarspár
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,7 @@ Eftirfarandi skýringarmynd sýnir vinnsluflæði fyrir eftirspurnarspá.
 
 [![inngangur skýringarmynd eftirspurnarspár](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
 
-Myndun eftirspurnarspár hefst í Finance and Operations. Sögulegum færslugögnum úr Finance and Operations gagnagrunninum er safnað saman og fyllt inn í millistigsvistunartöflu. Þessi millistigvistunartafla er síðar færð í vélnámsþjónustu. Með því að framkvæma lágmarks sérsnið, er hægt að setja ýmsar gagnaveitur í millistigsvistunartöfluna Þessi millistigvistunartafla er síðar færð í vélnámsþjónustu. Með því að framkvæma lágmarks sérsnið, er hægt að setja ýmsar gagnaveitur í millistigsvistunartöfluna Gagnaveiturnar geta meðal annars verið Microsoft°Excel skrár, skrár með kommuskiptum gildum (CSV) og gögn úr Microsoft Dynamics AX 2009 og Microsoft Dynamics AX 2012.  Þess vegna er hægt að mynda eftirspurnarspár sem íhuga söguleg gögn sem dreifast á milli margra kerfa. Hins vegar aðalgögn eins og vörunúmer og°mælieiningar,°verður að vera það sama milli°mismunandi gagnagjafa.
+Myndun eftirspurnarspár hefst í Finance and Operations. Sögulegum færslugögnum úr Finance and Operations gagnagrunninum er safnað saman og fyllt inn í millistigsvistunartöflu. Þessi millistigvistunartafla er síðar færð í vélnámsþjónustu. Með því að framkvæma lágmarks sérsnið, er hægt að setja ýmsar gagnaveitur í millistigsvistunartöfluna Þessi millistigvistunartafla er síðar færð í vélnámsþjónustu. Með því að framkvæma lágmarks sérsnið, er hægt að setja ýmsar gagnaveitur í millistigsvistunartöfluna Gagnaveiturnar geta meðal annars verið Microsoft Excel skrár, skrár með kommuskiptum gildum (CSV) og gögn úr Microsoft Dynamics AX 2009 og Microsoft Dynamics AX 2012. Þess vegna er hægt að mynda eftirspurnarspár sem íhuga söguleg gögn sem dreifast á milli margra kerfa. Hins vegar aðalgögn eins og vörunúmer og°mælieiningar,°verður að vera það sama milli°mismunandi gagnagjafa.
 
 Ef notaðar eru vélnámstilraunir fyrir eftirspurnarspár í Finance and Operations leita þær að því sem passar best milli fimm tímaraða spáaðferða til að reikna út grunnlínuspá. Færibreytur fyrir þessar spáaðferðir eru meðhöndlaðar í Finance and Operations. 
 
@@ -88,7 +87,6 @@ Eftirspurnarspá í Finance and Operations er verkfæri sem auðveldar viðskipt
 [Fjarlægja frávik úr sögulegum færslugögn við útreikning á eftirspurnarspá](remove-historical-outliers-calculating-demand-forecast.md)
 
 [Framlengja virkni eftirspurnarspár](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-
 
 
 

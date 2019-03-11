@@ -1,13 +1,13 @@
 ---
-title: "Stjórna atriðum sem eru lánaðar til starfskrafta"
-description: "Lánshlutir eru færslur sem aðstoða stjórnendur við að rekja efnislegu vörurnar sem fyrirtækið lánar til starfsmanna."
+title: Stjórna atriðum sem eru lánaðar til starfskrafta
+description: Lánshlutir eru færslur sem aðstoða stjórnendur við að rekja efnislegu vörurnar sem fyrirtækið lánar til starfsmanna.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmLoanItem, HcmLoanType, HcmPersonLoan
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 6c22e85360c3e6e40e0338960866b96d66a0ba50
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304783"
 ---
-
 # <a name="manage-items-that-are-lent-to-workers"></a>Stjórna atriðum sem eru lánaðar til starfskrafta
 
 [!include [banner](includes/banner.md)]
@@ -55,7 +54,6 @@ Eyðileggist hlutur eða hann týnist skal skrá gerviskil. Þá er hægt að ey
 --------
 
 [Mannauður](index.md)
-
 
 
 

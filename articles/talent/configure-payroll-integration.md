@@ -1,28 +1,27 @@
 ---
-title: "Skilgreina launasamþættingu milli Talent og Dayforce"
-description: "Þetta efnisatriði útskýrir hvernig á að grunnstilla samþættingu milli Microsoft Dynamics 365 for Talent og Ceridian Dayforce svo hægt sé að afgreiða launakeyrslu."
+title: Skilgreina launasamþættingu milli Talent og Dayforce
+description: Þetta efnisatriði útskýrir hvernig á að grunnstilla samþættingu milli Microsoft Dynamics 365 for Talent og Ceridian Dayforce svo hægt sé að afgreiða launakeyrslu.
 author: jcart1106
 manager: AnnBe
 ms.date: 07/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
 ms.author: jcart
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.search.validFrom: ''
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: fcddf82cffb9f0ba94b83eb21809b810585ebc9e
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304815"
 ---
-
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Skilgreina launasamþættingu milli Talent og Dayforce
 
 [!include [banner](includes/banner.md)]
@@ -662,4 +661,3 @@ Starfsmenn geta gefið upp vegabréfsupplýsingar. Þessar upplýsingar eru af a
 - Lokadagur
 
 Starfsmenn geta gefið upp mörg auðkennisnúmer af auðkennisgerðinni **Vegabréf**. Hins vegar er aðeins núverandi virka færslan samþætt í Dayforce. Ef allar vegabréfsfærslur eru útrunnar verður vegabréfið sem síðast var gefið út samþætt í Dayforce.
-

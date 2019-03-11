@@ -1,32 +1,31 @@
 ---
-title: "Aðaláætlanagerð – heimasíða"
-description: "Aðaláætlanagerð gerir fyrirtækjum kleift að ákvarða og stilla af framtíðarþörf fyrir hráefni og afkastagetu til að mæta markmiðum fyrirtækisins."
+title: Aðaláætlanagerð – heimasíða
+description: Aðaláætlanagerð gerir fyrirtækjum kleift að ákvarða og stilla af framtíðarþörf fyrir hráefni og afkastagetu til að mæta markmiðum fyrirtækisins.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
 ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.contentlocale: is-is
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314786"
 ---
-
 # <a name="master-planning-home-page"></a>Aðaláætlanagerð – heimasíða
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,7 @@ Aðaláætlanagerð notar upplýsingarnar til að reikna út kröfur og búa til
 
 -  **Spáráætlanagerð** - Spáráætlunin reiknar út brúttókröfur. Það byggir á framreikningi til framtíðar (eða spám) og gerir fyrirtækjum kleift að gera langtíma áætlun fyrir efnisþarfir og afköst. Frekari upplýsingar, sjá [Spáráætlanagerð](introduction-demand-forecasting.md). 
 
--  **Aðaláætlanagerð innan samsteypu** - Aðaláætlanagerð innan samsteypu reiknar nettókröfur yfir lögaðila. Það tengir eftirspurn og framboð milli fyrirtækja, ekki aðeins til skamms tíma, ákveðna eftirspurn og framboð heldur einnig til langs tíma, fyrirhuguð (það er ekki enn ákveðin) eftirspurn og framboð. Frekari upplýsingar, sjá [Aðaláætlanagerð innan samsteypu](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (eLearning) (krefst CustomerSource reiknings). 
+-  **Aðaláætlanagerð innan samsteypu** - Aðaláætlanagerð innan samsteypu reiknar nettókröfur yfir lögaðila. Það tengir eftirspurn og framboð milli fyrirtækja, ekki aðeins til skamms tíma, ákveðna eftirspurn og framboð heldur einnig til langs tíma, fyrirhuguð (það er ekki enn ákveðin) eftirspurn og framboð. Frekari upplýsingar, sjá [Aðaláætlanagerð innan samsteypu](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (eLearning) (krefst CustomerSource-reiknings). 
 
 Fyrirtæki geta breytt úttaki áætlunarinnar. Þeir geta keyrt endurnýjun, nettóbreyting eða báðir. Endurnýjunaráætlanir uppfæra allar kröfur, en nettóbreytingaráætlanir uppfæra aðeins áætlunina varðandi atriði með nýjar kröfur sem hafa komið inn frá síðustu áætlunarkeyrslu.
 
@@ -69,7 +68,7 @@ Eftirfarandi námskort sýnir helstu hugtök og verkefni sem finna má í grunns
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 ### <a name="roadmaps"></a>Vegvísir
-Á [Microsoft Dynamics 365 leiðarvísir](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi.
+Á [Microsoft Dynamics 365-leiðarvísinum](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi.
 
 ### <a name="blogs"></a>Blogg
 Finna má skoðanir, fréttir og aðrar upplýsingar um Aðaláætlanagerð og aðrar lausnir á [Dynamics AX Manufacturing R&D Team Blog](https://blogs.msdn.microsoft.com/axmfg) og [Aðfangakeðjustjórnun í Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm).
@@ -84,7 +83,6 @@ Frekari hjálp er í boði sem verkleiðbeiningar í Finance and Operations. Sme
 -  [Framlengja virkni eftirspurnarspár](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 -  [Áætlanagerð - ábendingar og ráð til að finna úrræði við vandamálum](https://youtu.be/7v8BPmEs9Dg)
 -  [Hjálp! MRP er hægt!](https://youtu.be/RLXybx20B5o)
-
 
 
 

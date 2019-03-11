@@ -1,13 +1,13 @@
---- 
-title: "Stofna lánardrottnalykil og festa verktakamiða"
-description: "Þetta ferli fer í gegnum stofnun á reikningi lánardrottins með grunnstillingu fyrir verktakamiða."
+---
+title: Stofna lánardrottnalykil og festa verktakamiða
+description: Þetta ferli fer í gegnum stofnun á reikningi lánardrottins með grunnstillingu fyrir verktakamiða.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable, DirPartyLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Iceland
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 0dc4951813278e4899bf6657eaf3f914b3307bed
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370920"
 ---
 # <a name="create-a-vendor-account-and-attach-the-invoice-declaration-category"></a>Stofna lánardrottnalykil og festa verktakamiða
 
@@ -45,5 +45,4 @@ ms.lasthandoff: 10/16/2018
 2. Í reitnum Verktakamiðar skal smella á fellilistahnappinn til að opna leitina.
 3. Í listanum skal smella á tengilinn í valinni línu.
 4. Smellið á „Vista“.
-
 

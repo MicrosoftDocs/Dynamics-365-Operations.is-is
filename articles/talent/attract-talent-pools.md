@@ -1,31 +1,30 @@
 ---
-title: "Velja umsækjendur með því að nota hæfileikasafn"
-description: "Þetta efni útskýrir hvernig á að búa til og setja upp hæfileikasöfn í Attract."
-author: 
+title: Velja umsækjendur með því að nota hæfileikasafn
+description: Þetta efni útskýrir hvernig á að búa til og setja upp hæfileikasöfn í Attract.
+author: ''
 manager: AnnBe
 ms.date: 10/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 2eb46f436305a4c81ea99553e4dc07288ee74008
 ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.contentlocale: is-is
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304833"
 ---
-
 # <a name="source-candidates-by-using-talent-pools"></a>Velja umsækjendur með því að nota hæfileikasafn
 
 [!include[banner](../includes/banner.md)]
@@ -139,4 +138,3 @@ Oft eru nokkrir góðir umsækjendur fyrir vinnu ekki valdir, en þú vilt ekki 
 1. Á umsóknarsíðunni skaltu velja **Bæta við hæfileikasafn**. Listi yfir hæfileikasöfn sem þú hefur aðgang að er sýndur.
 
 1. Veldu eða leitaðu að hæfileikasafninu og veldu síðan **Bæta við** til að bæta við frambjóðanda í þetta hæfileikasafn.
-

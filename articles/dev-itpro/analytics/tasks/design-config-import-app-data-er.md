@@ -1,13 +1,13 @@
---- 
-title: "Hanna grunnstillingar rafrænnar skýrslugerðar til að þátta skjöl á innleið"
-description: "Ferlið sýnir hvernig skal hanna grunnstillingar rafrænnar skýrslugerðar til að þátta móttekin rafræn skjöl."
+---
+title: Hanna grunnstillingar rafrænnar skýrslugerðar til að þátta skjöl á innleið
+description: Ferlið sýnir hvernig skal hanna grunnstillingar rafrænnar skýrslugerðar til að þátta móttekin rafræn skjöl.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326102"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Hanna grunnstillingar rafrænnar skýrslugerðar til að þátta skjöl á innleið
 
@@ -35,7 +35,7 @@ Skrefin er hægt að klára með því að nota hvaða gagnasafn sem er. Áður 
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
     * Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt Virk. Ef þú sérð skilgreiningarveituna ekki, skal klára skrefin í ferlinu „Stofna skilgreiningarveitu og merkja hana sem virka“.  
 2. Smelltu á Grunnstillingar skýrslugerðar
-    * Eftirfarandi aðstæður verða notaðar til að sýna möguleika á að þátta móttekin rafræn skjöl á XML-sniði: ERP-forritið (Dynamics 365 for Finance and Operations) biður um gögn frá vefþjónustunni (eins og http://efsta.org/ EFSTA fjárhagsþjónusta) og þáttar innkomin svör til að uppfæra forritsgögn í samræmi við það. Skilvirkasta leiðin til að þátta er að nota einfalt snið rafrænnar skýrslugerðar þrátt fyrir muninn í uppbyggingu móttekinna skjala á XML-sniði.   
+    * Eftirfarandi aðstæður verða notaðar til að sýna möguleika á að þátta móttekin rafræn skjöl á XML-sniði: ERP umsókn (Dynamics 365 for Finance and Operations) biður um gögn frá vefþjónustunni (eins og http://efsta.org/ EFSTA fjárhagsþjónusta) og þáttar innkomin svör til að uppfæra umsóknargögn í samræmi við það. Skilvirkasta leiðin til að þátta er að nota einfalt snið rafrænnar skýrslugerðar þrátt fyrir muninn í uppbyggingu móttekinna skjala á XML-sniði.   
 
 ## <a name="import-and-review-er-configurations"></a>Flytja inn og fara yfir grunnstillingar rafrænnar skýrslugerðar
 Flytja skla inn grunnstillingargerð rafrænnar skýrslugerðar sem inniheldur gagnalíkanið með sýnigögnum sem ætlað er að geyma upplýsingar um móttekna skrá.  
@@ -110,5 +110,4 @@ Notandi mun keyra tilbúna líkanavörpun í prófunarskyni til að sjá hvernig
     * Flettið og veljið Response4.xml skrá.  
 16. Smellið á „Í lagi“.
     * Fara yfir myndað úttak. Athugið að kennsl hafa verið borin á svargerðina og hún er jöfn og Response1.xml skrá.  
-
 

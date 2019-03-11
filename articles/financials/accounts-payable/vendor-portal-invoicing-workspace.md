@@ -1,13 +1,13 @@
 ---
-title: "Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna"
-description: "Í þessu efnisatriði er útskýrt hvernig á að skoða reikninga lánardrottins og senda reikninga frá úr vinnusvæði fyrir reikningsfærslu fyrir samstarf lánardrottna."
+title: Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna
+description: Í þessu efnisatriði er útskýrt hvernig á að skoða reikninga lánardrottins og senda reikninga frá úr vinnusvæði fyrir reikningsfærslu fyrir samstarf lánardrottna.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 5520012a00e918e8748b974773eeaf2450f0c55e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2368fae3913f67d9d2ce0bbe6b2e0bee7968bb15
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340523"
 ---
-
 # <a name="vendor-collaboration-invoicing-workspace"></a>Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna
 
 [!include [banner](../includes/banner.md)]
 
 Í þessu efnisatriði er útskýrt hvernig á að skoða reikninga lánardrottins og senda reikninga frá úr vinnusvæði fyrir reikningsfærslu fyrir samstarf lánardrottna.
 
-Hægt er að nota vinnusvæðið **Reikningsfærslur fyrir samstarf lánardrottna** til að senda reikninga til Microsoft Dynamics 365 for Finance and Operations með því að nota verkflæðismöguleika.
+**Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna** er hægt að nota til að skoða upplýsingar um reikning lánardrottins og senda reikninga til Microsoft Dynamics 365 for Finance and Operations með því að nota getu verkflæðis.
 
 
 <a name="vendor-collaboration-invoicing-workspace"></a>Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna
@@ -60,7 +59,6 @@ Búa til nýr reikningur úr innkaupapöntun
 Hægt er að stofna nýjan reikning lánardrottins með því að velja **Nýtt** aðgerð á **reikningsfærsla fyrir samstarf lánardrottna** vinnusvæði. Númer innkaupapöntunar og reikningsnúmer verður að gefa upp af lánardrottinn. Að sjálfgefnu birtast allar línur úr innkaupapöntun lánardrottins á nýjan reikning. Hægt er að breyta upplýsingum um magni og kostnað áður en senda reikning lánardrottins til verkflæðis. Tengja má skrárnar, athugasemdir, myndir og Vefslóðir við reikning áður en hún er send.
 
 Nánari upplýsingar er að finna í [Samstarf lánardrottna við utanaðkomandi lánardrottna](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md).
-
 
 
 

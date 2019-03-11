@@ -1,13 +1,13 @@
 ---
-title: "Ráða Power BI-efni"
-description: "Þetta efnisatriði lýsir ráðningum í Power BI. Það lýsir einnig hvernig eigi að fara í skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið."
+title: Ráða Power BI-efni
+description: Þetta efnisatriði lýsir Power BI-efni ráðningar. Það lýsir einnig hvernig eigi að fara í skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,25 +18,24 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 2d8c0e0e52a8dba2a1ea5bf330cdea01e3cfb60d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 0d6bc8584d202810ed14367d36d113d9b109ea7a
-ms.contentlocale: is-is
-ms.lasthandoff: 12/19/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347998"
 ---
-
 # <a name="recruiting-power-bi-content"></a>Ráða Power BI-efni
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir efninu **Ráðningar** í Microsoft Power BI. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
+Þetta efnisatriði lýsir **Ráðning** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
-## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
-**Ráðning** Power BI efni er sýnt í vinnusvæðinu **Umsjón með ráðningum**.
+## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
+**Ráðning** Power BI-efni er sýnt í vinnusvæðinu **Umsjón með ráðningum**.
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>Skýrslur og myndræn framsetning á vinnusvæðinu Umsjón með ráðningum
-**Umsjón með ráðningum** inniheldur **Greiningar**-flipa. Þessi flipi inniheldur innfellda Power BI-efnið fyrir mannaráðningar. Það samanstendur af yfirlitsflipa og fleiri flipum sem hafa að geyma upplýsingar. Eftirfarandi tafla lýsir skýrslunum á hverjum flipa.
+Vinnusvæðið **Umsjón með ráðningum** inniheldur flipann **Greiningar**. Þessi flipi inniheldur innfellda Power BI-efnið fyrir ráðningu. Það samanstendur af yfirlitsflipa og fleiri flipum sem hafa að geyma upplýsingar. Eftirfarandi tafla lýsir skýrslunum á hverjum flipa.
 
 | Skýrsla               | Innihald |
 |----------------------|----------|
@@ -48,7 +47,7 @@ ms.lasthandoff: 12/19/2017
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
 Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á yfirlitið. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-Eftirfarandi tafla sýnir þær einingar sem Power BI efnið **Ráðningar** var byggt á.
+Eftirfarandi tafla sýnir einingar sem **Ráðning** Power BI efni var byggt á.
 
 | Eining               | Innihald                                                         | Vensl við aðra lögaðila |
 |----------------------|------------------------------------------------------------------|-----------------------------------|
@@ -66,4 +65,3 @@ Eftirfarandi tafla sýnir þær einingar sem Power BI efnið **Ráðningar** var
 | Afköst          | Mat, lýsing og matslíkan                            | Umsækjandi, ráðinn umsækjandi, umsækjandi sem er sagt upp |
 | Ráðningarverk  | Lýsing á verki, staða verks og opnanir                | Umsækjandi, ráðinn umsækjandi, umsækjandi sem er sagt upp |
 | Umsækjandi sem er sagt upp | Umsækendur sem var hafna, ástæða, frammistaða og starfslokadagur | Fyrirtæki, dagsetning starfsupphafs, dagsetning, landfræðileg staðsetning, afköst, lýðfræði, atvinna, miðlar, ráðningarverk, nafn umsækjanda |
-

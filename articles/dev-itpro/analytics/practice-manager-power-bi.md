@@ -1,51 +1,50 @@
 ---
-title: "Power BI-efni aðferðastjórnunar"
-description: "Þetta efnisatriði lýsir því hvað er innifalið í Power BI-efni aðferðastjórnunar. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru í efnispakkanum og veitir upplýsingar um gagnalíkan og einingar sem eru notaðar til að búa til efnið."
+title: Power BI-efni aðferðastjórnunar
+description: Þetta efnisatriði lýsir því hvað er innifalið í Power BI-efni aðferðastjórnunar. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru í efnispakkanum og veitir upplýsingar um gagnalíkan og einingar sem eru notaðar til að búa til efnið.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367801"
 ---
-
 # <a name="practice-manager-power-bi-content"></a>Power BI-efni aðferðastjórnunar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvað er innifalið í Microsoft Power BI-efni **Aðferðarstjóri**. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
+Þetta efnisatriði lýsir því hvað er innifalið í **Aðferðastjórnun** Microsoft Power BI-efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
 
 ## <a name="overview"></a>Yfirlit
 
-Power BI-efni **aðferðastjórnunar** var búið til fyrir aðferðastjóra og verkefnastjóra. Það veitir lykileiningarnar sem tengjast verkefnunum sem fyrirtækið er að vinna að. Á yfirlitinu má sjá yfirlit verkefna og tengdra viðskiptamanna. Afmörkun á skýrslustigi má nota til að gefa skýrslu um tilgreinda lögaðila. Þetta Power BI efni sækir gögn úr uppsöfnuðum mælingum verkbókhalds.
+**Aðferðastjóri** Power BI-efnis var búið til fyrir aðferðastjóra og verkefnastjóra. Það veitir lykileiningarnar sem tengjast verkefnunum sem fyrirtækið er að vinna að. Á yfirlitinu má sjá yfirlit verkefna og tengdra viðskiptamanna. Afmörkun á skýrslustigi má nota til að gefa skýrslu um tilgreinda lögaðila. Þetta Power BI-efni dregur gögn úr uppsöfnuðum mælingum verkbókhalds.
 
-Power BI efnið **Aðferðastjóri** inniheldur fimm skýrslusíður: eina yfirlitssíðu og fjórar síður með upplýsingum um kostnað verks, tekjur, stjórnun áunnins virðis og stundaeiningarnar sem er skipt niður eftir ýmsum víddum.
+**Aðferðastjóri** Power BI efnis inniheldur fimm skýrslusíður: eina yfirlitssíðu og fjórar síður með upplýsingum um kostnaður verks, tekjur, stjórnun unnins virðis og stundaeiningarnar sem eru skornar og hlutaðar í ýmsum víddum.
 
 Upphæðir í efni eru sýndar í gjaldmiðli kerfisins. Hægt er að stilla gjaldmiðil kerfis á síðunni **Kerfisfæribreytur**.
 
-## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
+## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
 
-**Aðferðastjóri** Power BI efni er sýnt í vinnusvæðinu **Verkefnastjórnun**.
+**Aðferðastjóri** Power BI-efnis er sýnt í vinnusvæðinu **Verkefnastjórnun**.
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðir með í Power BI-efni
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðar með í Power BI efni
 
-Eftirfarandi tafla veitir upplýsingar um einingarnar sem finna má á hverri síðu skýrslunnar í Power BI-efni **aðferðastjórnunar**.
+Eftirfarandi tafla veitir upplýsingar um einingarnar sem finna má á hverri síðu skýrslunnar í **aðferðastjórnunar** Power BI-efni .
 
 | Skýrslusíða       | Einingar |
 |-------------------|---------|
@@ -55,11 +54,11 @@ Eftirfarandi tafla veitir upplýsingar um einingarnar sem finna má á hverri s�
 | EVM               | Kostnaðarvísir og vísir fyrir áætluð afköst eftir verki |
 | Tímar             | <ul><li>Unnar reikningshæfar vinnustundir gegn unnum reikningshæfum álagsstundum gegn áætluðum vinnustundum</li><li>Unnar reikningshæfar vinnustundir gegn unnum reikningshæfum álagsstundum eftir verki</li><li>Unnar reikningshæfar vinnustundir gegn unnum reikningshæfum álagsstundum eftir tilföngum</li><li>Hlutfall raunverulega rukkanlegra nýttra stunda eftir verki</li><li>Hlutfall raunverulega rukkanlegra nýttra stunda eftir tilföngum</li></ul> |
 
-Hægt er að sía og festa Gröf og reitir á þessar skýrslur við mælaborð. Nánari upplýsingar um hvernig á að afmarka og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Einnig má nota virknina Flytja út undirliggjandi gögn til að flytja út undirliggjandi gögn sem eru sýnd í myndrænni samantekt.
+Hægt er að sía og festa Gröf og reitir á þessar skýrslur við mælaborð. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Einnig má nota virknina Flytja út undirliggjandi gögn til að flytja út undirliggjandi gögn sem eru sýnd í myndrænni samantekt.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
 
-Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í Power BI efninu **Aðferðastjóri**. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Entity-verslunin er Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](power-bi-integration-entity-store.md)
+Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í **aðferðastjórnunar** Power BI efni. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Einingaverslunin er Microsoft SQL Server gagnagrunnur sem er fínstillt fyrir greiningar. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](power-bi-integration-entity-store.md)
 
 Í eftirfarandi hluta er fjallað um uppsafnaðar mælingar sem notaðar eru á hverja einingu.
 
@@ -119,4 +118,3 @@ Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í Power BI efni
 | Lykiluppsafnaðar mælingar       | Svæði               | lýsing |
 |---------------------------------|---------------------|-------------|
 | Áætlaður kostnaður lokinna aðgerða | Samtala (TotalCostPrice) | Áætlað heildarkostnaðarverð fyrir allar færslugerðir þar sem verkum er lokið. |
-

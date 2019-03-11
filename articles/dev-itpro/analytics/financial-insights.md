@@ -1,13 +1,13 @@
 ---
-title: "Fjármálainnsýn"
-description: "Fjármálainnsýn notar Microsoft Power BI til að koma saman fjárhagslegum afkastavísum (KPI), gröfum og fjárhagsskýrslum."
+title: Fjármálainnsýn
+description: Fjármálainnsýn notar Microsoft Power BI til að koma saman fjárhagslegum afkastavísum (KPI), gröfum og fjárhagsskýrslum.
 author: kweekley
 manager: AnnBe
 ms.date: 08/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,20 +16,19 @@ ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
-ms.contentlocale: is-is
-ms.lasthandoff: 08/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308852"
 ---
-
 # <a name="financial-insights"></a>Fjármálainnsýn
 
 [!include [banner](../includes/banner.md)]
 
-**Fjármálainnsýn** notar Microsoft Power BI til að koma saman fjárhagslegum afkastavísum (KPI), gröfum og fjárhagsskýrslum. Power BI er fellt inn í Microsoft Dynamics 365 Finance and Operations. **Fjármálainnsýn** leggur áherslu á greiningarskýrslu. Persónur þvert yfir fyrirtæki geta skoðað, rannsakað, skilið og aðhafst. 
+**Fjármálainnsýn** notar Microsoft Power BI til að koma saman fjárhagslegum afkastavísum (KPI), gröfum og fjárhagsskýrslum. Power BI er fellt inn í Microsoft Microsoft Dynamics 365 Finance and Operations. **Fjármálainnsýn** leggur áherslu á greiningarskýrslu. Persónur þvert yfir fyrirtæki geta skoðað, rannsakað, skilið og aðhafst. 
 
 **Fjármálainnsýn** sameinar gögn frá fjárhag og undirbók til að fá betri heildarmynd af fjárhagslegri heilsu fyrirtækis.
 
@@ -81,7 +80,7 @@ Gögnin fyrir **Fjármálainnsýn** eru tekin úr einingaversluninni (**Kerfisst
 Þú getur skilgreint endurtekna runu til að uppfæra reglulega gögnin í einingunum. Þar sem hver eining er endurreist frá grunni á meðan á uppfærslu stendur skal velja tíma og tíðni uppfærslna á einingum vandlega. Aðaleiningin sem er notuð í fjárhagsskýrslum er FinancialReportingTransactionData einingin. Því gætir þú ákveðið að uppfæra þessa einingu oftar.
 
 ## <a name="security"></a>Öryggi
-Eins og er þá er ekki hægt að takmarka innfelldu gögnin í Power BI skýrslum við lögaðila sem notandinn hefur aðgang að. Þess vegna eru innfelldu Power BI skýrslurnar stýrðar með skyldum í öryggisuppsetningunni. Skyldurnar sem eru skilgreindar leyfa aðgang að gögnum fyrir annaðhvort alla lögaðila eða aðeins virka fyrirtækið. Eftirfarandi tafla sýnir skyldur sem eru til staðar og hlutverkunum sem þeim er úthlutað. Skyldur geta verið fjarlægðar eða þeim úthlutað mismunandi hlutverkum, byggt á kröfum fyrirtækisins.
+Eins og er þá er ekki hægt að takmarka innfelldu gögnin í Power BI-skýrslum við lögaðila sem notandinn hefur aðgang að. Þess vegna eru innfelldu Power BI skýrslurnar stýrðar með skyldum í öryggisuppsetningunni. Skyldurnar sem eru skilgreindar leyfa aðgang að gögnum fyrir annaðhvort alla lögaðila eða aðeins virka fyrirtækið. Eftirfarandi tafla sýnir skyldur sem eru til staðar og hlutverkunum sem þeim er úthlutað. Skyldur geta verið fjarlægðar eða þeim úthlutað mismunandi hlutverkum, byggt á kröfum fyrirtækisins.
 
 | Gjald                                    | Hlutverk | Lýsing |
 |-----------------------------------------|-------|------------|
@@ -174,7 +173,7 @@ Eftirfarandi víddir eru notaðar á sjálfgefnum skýrslum. Ekkert af þessum v
 
 ## <a name="drill-on-data"></a>Bora í gögn
 
-Mismunandi boranir eru í boði í gegnum Power BI. Hvert stig hefur annað heiti og mismunandi virkni. Þú getur líka bora í línur og dálkur. Í þessum kafla er fjallað um mismunandi valkosti með því að nota fjárhagsskýrslu **Prófjafnaðar** sem dæmi og sýna hvernig hægt er að bora í línurnar. Sama virkni er til fyrir dálka. Þú verður bara að breyta **Kafa í** stillingunni.
+Mismunandi stig borunar eru í boði í gegnum Power BI. Hvert stig hefur annað heiti og mismunandi virkni. Þú getur líka bora í línur og dálkur. Í þessum kafla er fjallað um mismunandi valkosti með því að nota fjárhagsskýrslu **Prófjafnaðar** sem dæmi og sýna hvernig hægt er að bora í línurnar. Sama virkni er til fyrir dálka. Þú verður bara að breyta **Kafa í** stillingunni.
 
 Í eftirfarandi myndum er yfirlýsing **Prófjafnaðar** dregin saman í hæsta stigveldi línunnar, aðalyklagerðina.
 
@@ -250,4 +249,3 @@ Upplýsingarnar í eftirfarandi tilföngum eru ekki nauðsynlegar til að virkja
 - <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
 
 - <https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
-

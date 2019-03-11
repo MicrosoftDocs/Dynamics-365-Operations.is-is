@@ -1,13 +1,13 @@
 ---
-title: "Taka efnislegt virði með"
-description: "Gátreiturinn Taka með efnislegt virði á flýtiflipanum Birgðalíkan í skjámyndinni Vörulíkanaflokkar er notaður til að tilgreina hvort efnislega uppfærðar færslur eru teknar með þegar meðaltal kostnaðarverðs er reiknað út fyrir vöru."
+title: Taka efnislegt virði með
+description: Gátreiturinn Taka með efnislegt virði á flýtiflipanum Birgðalíkan í skjámyndinni Vörulíkanaflokkar er notaður til að tilgreina hvort efnislega uppfærðar færslur eru teknar með þegar meðaltal kostnaðarverðs er reiknað út fyrir vöru.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e96d5e2a658a027d66663868329cf4eedcb1d46f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4ea8fe31588dd0768e0651c9e1e332212a00cde2
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357313"
 ---
-
 # <a name="include-physical-value"></a>Taka efnislegt virði með
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ Gátreiturinn hefur svolítið ólík áhrif eftir því hvaða birgðalíkan er
 -   Innkaupapöntun fyrir magnið 3 á kostnaðarverði 12,00 USD hefur verið uppfærð með reikningi
 
 Í þessu tilfelli verður meðalkostnaðarverð 11,20 USD af því að bæði efnislega og fjárhagslega uppfærðar færslur eru notaðar til að reikna út kostnaðarverðið. **Dæmi 2** Gátreiturinn **Taka með efnislegt virði** hefur ekki verið valinn og kostnaðarverð uppsetningar vörunnar er 10,00 USD. Innkaupapöntun fyrir magnið 20 á kostnaðarverði 12,00 USD hefur verið móttekin og uppfærð með fylgiseðli. Þegar sölupöntun er bókuð mun kerfið bóka kostnaðarupphæðina 10,00 USD vegna þess að meðalkostnaðarverðið mun ekki innihalda efnislega bókaðar færslur. **Athugasemd:** Til samanburðar, ef gátreiturinn **Taka með efnislegt virði** er valinn þegar sölupöntun er bókuð, verður bókaða kostnaðarupphæðin 12,00 USD.
-
 
 
 

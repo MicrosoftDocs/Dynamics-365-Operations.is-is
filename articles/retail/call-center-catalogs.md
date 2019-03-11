@@ -1,13 +1,13 @@
 ---
-title: "Vörulistar símavers"
-description: "Þetta efnisatriði lýsir sértækri virkni símavera fyrir vörulista í Microsoft Dynamics 365 for Retail."
+title: Vörulistar símavers
+description: Þetta efnisatriði lýsir sértækri virkni símavera fyrir vörulista í Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 05/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 65c1c3070aa48bf7a2016534071693716fabe831
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322744"
 ---
-
 # <a name="call-center-catalogs"></a>Vörulistar símavers
 
 [!include [banner](includes/banner.md)]
@@ -102,4 +101,3 @@ Söluviðauki/viðbótarsöluvörur geta einnig nýtt sér forskriftareiginleika
 ## <a name="additional-notes"></a>Viðbótarathugasemdir
 
 Eins og er, þegar frumkóðakenni er beitt á sölupöntun í símaveri, er það notað til að keyra verð, kynningartilboð, forskriftir og söluviðauki/viðbótarsala sem eru sértæk fyrir vörulista. Kerfið mun ekki banna eða koma í veg fyrir að vara sem er ekki í vörulistanum sé pantað í sölupöntuninni. Ef hlutur er pantaður, sem er ekki hluti af vörulistanum, notar kerfið fyrst **Verðflokkur** sem er skilgreindur á símaversrásinni (**Smásala** \> **Rásir** \> **Símaver** \> **Öll símaver**) fyrir vöruverð eða kynningartilboð. Ef ekkert tiltekið rásarverð finnst verður grunnsöluverð vörunnar notað.
-

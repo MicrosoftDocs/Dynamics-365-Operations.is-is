@@ -1,13 +1,13 @@
 ---
 title: Stofna innkaupapantanir
-description: "Þessi skrá lýsir ferlisi og valkosti þegar innkaupapöntun er stofna handvirkt."
+description: Þessi skrá lýsir ferlisi og valkosti þegar innkaupapöntun er stofna handvirkt.
 author: FrankDahl
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cb703ff7419a59aa174e16d8d988a96814e4fec6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c71ce3045bd91a136288016cb55b460f7ac787ae
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350091"
 ---
-
 # <a name="create-purchase-orders"></a>Stofna innkaupapantanir
 
 [!include [banner](../includes/banner.md)]
@@ -96,7 +95,6 @@ Hægt er að skilgreina innkaupapantanir til að krefjast að fjármagn fjárhag
 [innhreyfingarskjal afurða gagnvart innkaupapantanir](product-receipt-against-purchase-orders.md)
 
 [Yfirlit yfir lánardrottnareikninga](../../financials/accounts-payable/vendor-invoices-overview.md)
-
 
 
 

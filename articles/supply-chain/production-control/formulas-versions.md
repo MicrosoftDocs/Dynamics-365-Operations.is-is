@@ -1,32 +1,31 @@
 ---
-title: "Formúlur og formúluútgáfar"
-description: "Þetta efnisatriði veitir upplýsingar um formúlur og formúluútgáfur. Formúla skilgreinir efni, innihaldsefni og niðurstöður tiltekins ferils í framleiðsluferli. Formúlur eru notaðar til að skipuleggja og framleiða vörur í framleiðsluferli."
+title: Formúlur og formúluútgáfar
+description: Þetta efnisatriði veitir upplýsingar um formúlur og formúluútgáfur. Formúla skilgreinir efni, innihaldsefni og niðurstöður tiltekins ferils í framleiðsluferli. Formúlur eru notaðar til að skipuleggja og framleiða vörur í framleiðsluferli.
 author: cvocph
 manager: AnnBe
 ms.date: 09/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bbffc298ff5d2442092f8f0c987b7e79a7934a84
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4475695b1a00213ab7e3b5060fd38cc71883d2bd
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350114"
 ---
-
 # <a name="formulas-and-formula-versions"></a>Formúlur og formúluútgáfar
 
 [!include [banner](../includes/banner.md)]
@@ -72,4 +71,3 @@ Aðeins er hægt að nota kvörðunareiginleikann ef allir íhlutir vörunnar í
 
 ## <a name="use-step-consumption"></a>Nota skrefanotkun
 Með skrefaneyslu þarf ekki að slá inn magn á flipann **Formúlulína** fyrir innihaldsefni. Í staðinn er skrefaneysla stillt þannig að það hefur gildi **Frá-röð** og **Magn**. Upplýsingarnar úr skrefaneyslu eftir skrefafærslu sem passar við magnið á runupöntuninni eru þess í stað valdar. Skrefanotkun er gagnleg þegar neysluhlutfallið er ekki línulegt við runupöntunarstærð og eykur aðeins kröfur þegar tilteknum magnþröskuldi er náð. Til að virkja þennan eiginleika fyrir nýja formúlu skal, undir **Útreikningur notkunar**, breyta formúlustillingu fyrir viðeigandi innihaldsefni úr **Venjulegt** í **Skref**. Þessi neysluaðferð er tilgreind á flipanum **Uppsetning** á síðunni **Formúlulína**.
-

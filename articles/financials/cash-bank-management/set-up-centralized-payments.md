@@ -1,13 +1,13 @@
 ---
-title: "Uppsetning miðstýrðra greiðslna"
-description: "Fylgið eftirfarandi skrefum til að undirbúa vinnslu greiðslna í einu lögaðila fyrir hönd annars lögaðila í þínu fyrirtæki."
+title: Uppsetning miðstýrðra greiðslna
+description: Fylgið eftirfarandi skrefum til að undirbúa vinnslu greiðslna í einu lögaðila fyrir hönd annars lögaðila í þínu fyrirtæki.
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bb0769d605b831da09046a1e7bf0c2a704dba398
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2e309655bbc1d0fe7a088062b90fab34c642ab29
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361913"
 ---
-
 # <a name="set-up-centralized-payments"></a>Uppsetning miðstýrðra greiðslna
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ Ef þú greiðir lánadrottni úr einum lögaðila og vilt velja á reikning fyr
 
 ## <a name="set-up-default-descriptions"></a>Setja upp sjálfgefnar lýsingar
 Hægt er að skilgreina sjálfgefnar lýsingar fyrir fylgiskjöl samstæðujöfnunar. Sjálfgefna lýsingin er höfð með í færslunum á gjalddaga til og á gjalddaga frá á meðan á jöfnunarferlinu milli fyrirtækja stendur. Á **Sjálfgefnar lýsingar** síðu er hægt að stofna nýja lýsingar fyrir bæði **Samstæðujöfnun viðskiptavina** og **Samstæðujöfnun lánardrottna** með því að velja tungumál og færa síðan inn texta.
-
 
 
 

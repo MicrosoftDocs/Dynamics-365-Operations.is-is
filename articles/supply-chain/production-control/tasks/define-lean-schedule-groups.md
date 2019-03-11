@@ -1,13 +1,13 @@
---- 
-title: "Skilgreina flokka í markvissri áætlanagerð"
-description: "flokkur í markvissri áætlanagerð eru skilgreind til að flokka og greina afurðir í áætlun kanban."
+---
+title: Skilgreina flokka í markvissri áætlanagerð
+description: flokkur í markvissri áætlanagerð eru skilgreind til að flokka og greina afurðir í áætlun kanban.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanScheduleGroup, GanttColorTableLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 787694b094f343445cca784d035554a8bfa25f5a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a5bc20c0a9e2396365caebeb3751d2090e4575a4
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350528"
 ---
 # <a name="define-lean-schedule-groups"></a>Skilgreina flokka í markvissri áætlanagerð
 
@@ -55,5 +55,4 @@ flokkur í markvissri áætlanagerð eru skilgreind til að flokka og greina afu
 2. Velja flokk í Venslagerðarsvæði Vöru
 3. Í reitnum úthlutunarlykill vöru skal smella á fellilistahnappinn til að opna leitina.
 4. Í listanum skal smella á tengilinn í valinni línu.
-
 

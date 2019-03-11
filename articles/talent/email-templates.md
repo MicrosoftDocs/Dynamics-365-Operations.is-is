@@ -1,14 +1,14 @@
 ---
-title: "Sniðmát fyrir tölvupóst"
-description: "Þetta umræðuefni veitir upplýsingar um sniðmátin fyrir tölvupóst sem þú getur búið til og notað í Microsoft Dynamics 365 for Talent - Attract."
+title: Sniðmát fyrir tölvupóst
+description: Þetta umræðuefni veitir upplýsingar um sniðmátin fyrir tölvupóst sem þú getur búið til og notað í Microsoft Dynamics 365 for Talent - Attract.
 author: josaw
 manager: AnnBe
 ms.date: 10/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: e02912ad242186fe3e2dd8d7a4cc7312aec6015e
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304885"
 ---
-
-# <a name="email-templates"></a>Sniðmát fyrir tölvupóst
+# <a name="email-templates"></a>Sniðmát tölvupósts
 [!include[banner](../includes/banner.md)]
 
 Með því að nota sniðmátasafnið fyrir tölvupóst geta stjórnendur búið til samræmda þema og vörumerki fyrir öll tölvupóst sem eru send með Microsoft Dynamics 365 for Talent: Attract. Stjórnendur geta einnig stýrt sniðmátum fyrir efni tölvupósts sem aðrir notendur geta notað. Ráðningarteymið getur notað þessi sniðmát í verkflæði sínu til að senda tölvupóst á skilvirkan hátt. Sumir tölvupóstar í Attract eru stilltir til að senda sjálfkrafa, og stjórnandinn getur notað sniðmátasafnið fyrir tölvupóst til að sérsníða efni fyrir þessi tölvupóst.
@@ -81,4 +80,3 @@ Eftir að sniðmát er búið til fyrir tiltekna tegund af tölvupósti skaltu v
 
 > [!NOTE] 
 > Fyrir tölvupósta sem eru sendir sjálfkrafa er hægt að búa til mörg sniðmát. Hins vegar er aðeins hægt að velja eitt sniðmát sem virkt sniðmát. Vegna þess að þetta ferli kviknar af tilvikum getur aðeins stjórnandi ákveðið hvaða sniðmát ætti að nota, byggt á samsetningunni **Sjálfgefið** og **Sent sjálfkrafa** merkin í sniðmátasafninu.
-

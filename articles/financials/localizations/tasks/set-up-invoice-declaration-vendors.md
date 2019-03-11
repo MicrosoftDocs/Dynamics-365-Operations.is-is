@@ -1,13 +1,13 @@
---- 
-title: "Setja upp verktakamiða fyrir lánardrottna"
-description: "Þetta ferli fer í gegnum stofnun á íslenskum verktakamiða."
+---
+title: Setja upp verktakamiða fyrir lánardrottna
+description: Þetta ferli fer í gegnum stofnun á íslenskum verktakamiða.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport,  VendInvoiceDeclaration_IS
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Iceland
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 560de31582a789fbe291f44e3205e0da09e40478
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "370922"
 ---
 # <a name="set-up-an-invoice-declaration-for-vendors"></a>Setja upp verktakamiða fyrir lánardrottna
 
@@ -37,12 +37,12 @@ ms.lasthandoff: 10/16/2018
 4. Smellt er á Opin.
 5. Smellt er á Sýna síur.
     * Vinsamlegast bættu við skilyrði til að sía eftir heiti grunnstillingar og færðu inn verktakamiða lánardrottins (IS) eða finndu skilgreiningu á listanum, veldu það og farðu í næsta skref.  
-6. Notaðu eftirfarandi síur: %3
+6. Nota eftirfarandi síur: %3
 7. Smelltu á Flytja inn.
 8. Smella á Já.
 9. Bæta við síu
     * Bættu við skilyrði til að sía eftir heiti grunnstillingar og færðu inn skýrslu verktakamiða lánardrottins (IS) eða finndu skilgreiningu á listanum, veldu það og farðu í næsta skref.  
-10. Notaðu eftirfarandi síur: %3
+10. Nota eftirfarandi síur: %3
 11. Smelltu á Flytja inn.
 12. Smella á Já.
 
@@ -58,5 +58,4 @@ ms.lasthandoff: 10/16/2018
 9. Í svæðinu fyrir Skýrslugerðarkóða skal slá inn '34'.
 10. Í reitnum Færslugerð skal velja ‚LA‘.
 11. Smellið á „Vista“.
-
 

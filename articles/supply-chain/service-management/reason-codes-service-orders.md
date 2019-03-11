@@ -1,31 +1,30 @@
 ---
-title: "Ástæðukóðar fyrir þjónustupantanir"
-description: "Notaðu ástæðukóða til að hjálpa til við að útskýra stöðu þjónustupöntunar þegar stig þjónustupöntunar er uppfært."
+title: Ástæðukóðar fyrir þjónustupantanir
+description: Notaðu ástæðukóða til að hjálpa til við að útskýra stöðu þjónustupöntunar þegar stig þjónustupöntunar er uppfært.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAStageTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cdade89d07fec6a01926015a8c73bacce015fd7a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4c7aa0dc995165ce326a7f07dca2fbbb6e50b7bc
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363546"
 ---
-
 # <a name="reason-codes-for-service-orders"></a>Ástæðukóðar fyrir þjónustupantanir   
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Til að skoða upplýsingar um ástæðukóða sem voru notaðir til að rekja f
 ## <a name="see-also"></a>Sjá einnig
 
 [Setja upp stig þjónustupantana](set-up-service-order-stages.md)
-
 
 
 

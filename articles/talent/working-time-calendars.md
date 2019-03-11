@@ -1,31 +1,30 @@
 ---
-title: "Vinnutímadagatöl"
-description: "Í þessu efnisatriði er lýst vinnutímadagatölum í Dynamics 365 for Talent - Core HR sem og hvernig á að setja upp dagatöl."
+title: Vinnutímadagatöl
+description: Í þessu efnisatriði er lýst vinnutímadagatölum í Dynamics 365 for Talent - Core HR sem og hvernig á að setja upp dagatöl.
 author: jcart1106
 manager: AnnBe
 ms.date: 09/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2018-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 1bf37d65cd8ce6a98fc2d2fb11ae9587cf6958a3
 ms.openlocfilehash: 2465065d7db18a5468d7c979e0d6cb9c7e76f969
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304799"
 ---
-
 # <a name="working-time-calendars"></a>Vinnutímadagatöl
 
 [!include [banner](includes/banner.md)]
@@ -59,4 +58,3 @@ Til að setja upp dagatal skal fylgja þessum skrefum:
 10. Til að úthluta dagatali á starfsmann skaltu velja **Úthluta til starfsmanna** á aðgerðasvæðinu. Veldu þá starfsmenn sem þú vilt úthluta þessu dagatali og smelltu síðan á **Úthluta**.
 
 Starfsmenn þurfa ekki að vera með dagatal úthlutað. Ef vinnutímadagatal er skilgreint, eru frídagar sjálfkrafa útilokaðir frá beiðninni. Upphæðin, í klukkustundum eða dögum, fellur sjálfkrafa að vinnustundunum sem eru skilgreindar í dagatalinu. Ef starfsmanni hefur ekki verið úthlutað dagatali eru allir dagar tiltækir fyrir frí og magn frítíma er ekki sjálfgefið fyrir beiðnina. 
-

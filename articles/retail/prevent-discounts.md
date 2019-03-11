@@ -1,13 +1,13 @@
 ---
-title: "Valkostir til að koma í veg afslætti á smásöluafurðir"
-description: "Það eru ýmsar ástæður fyrir því að smásalar gætu viljað koma í veg fyrir afslætti á sumum vörum, annað hvort frá kynningu eða á meðan sölu á sölustað stendur."
+title: Valkostir til að koma í veg afslætti á smásöluafurðir
+description: Það eru ýmsar ástæður fyrir því að smásalar gætu viljað koma í veg fyrir afslætti á sumum vörum, annað hvort frá kynningu eða á meðan sölu á sölustað stendur.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailPeriodicDiscount
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: c9d3e7af95dffddfddc34059d93a2a5a350d08e5
-ms.contentlocale: is-is
-ms.lasthandoff: 01/15/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346066"
 ---
-
 # <a name="options-for-preventing-discounts-for-retail-products"></a>Valkostir til að koma í veg afslætti á smásöluafurðir
 
 [!include [banner](includes/banner.md)]
@@ -42,4 +41,3 @@ Eftirfarandi valmöguleikar, sem finna má á **Smásala** flipa útgefinna vara
 > Þessar stillingar takmarka ekki aðgerðina að hnekkja verði, vegna þess að hún setur grunnverð og er ekki meðhöndluð sem afsláttur.
 
 [![koma í veg fyrir afslætti reitur](./media/prevent-discounts.png)](./media/prevent-discounts.png)
-

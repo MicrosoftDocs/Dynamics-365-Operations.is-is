@@ -1,13 +1,13 @@
 ---
-title: "Biðgeymslupantanir"
-description: "Þetta efnisatriði lýsir því hvernig biðgeymslupantanir eru notaðar til að loka birgðum."
+title: Biðgeymslupantanir
+description: Þetta efnisatriði lýsir því hvernig biðgeymslupantanir eru notaðar til að loka birgðum.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 523e51c705d76b6e8624887292395f8f239bcb65
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9a05c35d2e4a9e3ad81421eac863d182e8a6b499
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362580"
 ---
-
 # <a name="quarantine-orders"></a>Biðgeymslupantanir
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ ms.lasthandoff: 05/08/2018
 Hægt er að nota Biðgeymslupantanir til að loka birgðum. Til dæmis gætir þú viljað láta vörur í biðgeymslu vegna gæðaeftirlits. Birgðir sem hafa verið settar í biðgeymslu eru fluttar í biðgeymsluvöruhús. **Athugasemd:** Ef verið er að nota ítarlegt vöruhúsakerfisferli (í vöruhúsakerfi) er vinnsla pantana í biðgeymslu einungis notuð fyrir skil á sölupöntunum.
 
 ## <a name="quarantine-on-hand-inventory-items"></a>Vörur biðgeymslubirgða á lager
-Þegar vara er sett í biðgeymslu geturðu annað hvort stofnað biðgeymslupantanir handvirkt eða stillt kerfið til að stofna biðgeymslupantanir sjálfkrafa við ferli á innleið. Til að stofna biðgeymslupantanir sjálfkrafa, veljið **Stjórnun Biðgeymslu** valkostinn í flipanum **Birgðareglur** á síðunni **Vörulíkanaflokkar**. Einnig þarf að tilgreina sjálfgefið biðgeymsluvöruhús í svæðinu **Biðgeymsluvöruhús** fyrir móttökuvöruhúsin. Í Microsoft Dynamics 365 for Finance and Operations eru vörur í biðgeymslu sjálkrafa settar í biðgeymsluvöruhús þegar efnislegar birgðir á lager eru skráðar með innkaupapöntun eða framleiðslupöntun. Þessa hreyfing gerist vegna þess að stöðu biðgeymslupöntunar hefur verið breytt í **Byrjað**. Þegar þú stofnar biðgeymslupantanir handvirkt, þarf varan ekki að vera sett upp fyrir biðgeymslustjórnun í tengdum vörulíkanaflokkum. Fyrir þetta ferli þarf að tilgreina biðgeymsluvöruhús sem á að nota og birgðir á lager sem á að setja í biðgeymslu. Það er hægt að nota stöðu biðgeymslupöntunar til að auðvelda áætlun ferlisins.
+Þegar vara er sett í biðgeymslu geturðu annað hvort stofnað biðgeymslupantanir handvirkt eða stillt kerfið til að stofna biðgeymslupantanir sjálfkrafa við ferli á innleið. Til að stofna biðgeymslupantanir sjálfkrafa, veljið **Stjórnun Biðgeymslu** valkostinn í flipanum **Birgðareglur** á síðunni **Vörulíkanaflokkar**. Einnig þarf að tilgreina sjálfgefið biðgeymsluvöruhús í svæðinu **Biðgeymsluvöruhús** fyrir móttökuvöruhúsin. Þegar vörur í lagerbirgðum eru skráðar á innkaupapöntun eða framleiðslupöntun eru vörur í biðgeymslu sjálfkrafa færðar í biðgeymsluvöruhús í Microsoft Dynamics 365 for Finance and Operations. Þessa hreyfing gerist vegna þess að stöðu biðgeymslupöntunar hefur verið breytt í **Byrjað**. Þegar þú stofnar biðgeymslupantanir handvirkt, þarf varan ekki að vera sett upp fyrir biðgeymslustjórnun í tengdum vörulíkanaflokkum. Fyrir þetta ferli þarf að tilgreina biðgeymsluvöruhús sem á að nota og birgðir á lager sem á að setja í biðgeymslu. Það er hægt að nota stöðu biðgeymslupöntunar til að auðvelda áætlun ferlisins.
 
 ## <a name="quarantine-order-statuses"></a>Staða biðgeymslupöntunar.
 Biðgeymslupantanir geta haft eftirfarandi stöðu:
@@ -68,4 +67,3 @@ Hægt er að rýra birgðir sem hluta af biðgeymslupöntunarferlinu. Við vinns
 --------
 
 [Stöðvun í birgðum](inventory-blocking.md)
-

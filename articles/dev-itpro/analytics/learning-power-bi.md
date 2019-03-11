@@ -1,13 +1,13 @@
 ---
-title: "Nám - Power BI efni"
-description: "Þetta efnisatriði lýsir efni í Nám - Power BI."
+title: Power BI-efni um Learning
+description: Þetta efnisatriði lýsir Power BI-efni um Learning.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Talent
@@ -15,28 +15,27 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a4ea4606f9987bc08565d43a1f05243acf88883c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ee0cc2e22609d1a87e7d2b6dcd031606191f879
-ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321456"
 ---
-
-# <a name="learning-power-bi-content"></a>Nám - Power BI efni
+# <a name="learning-power-bi-content"></a>Power BI-efni um Learning
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir efninu **Nám** í Microsoft Power BI.
+Þetta efnisatriði lýsir **Learning** Microsoft Power BI efni.
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðir með í Power BI-efni
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðar með í Power BI efni
 
-Skýrslur sem fylgja í efninu **Nám** í Power BI hafa bæði myndrit og töflur sem innihalda viðbótarupplýsingar. Eftirfarandi tafla lýsir skýrslunum.
+Skýrslur sem eru hafðar með í **Learning** Power BI efni hafa bæði gröf og töflur sem innihalda viðbótarupplýsingar. Eftirfarandi tafla lýsir skýrslunum.
 
 | Skýrsla                | Innihald |
 |-----------------------|----------|
 | Námsyfirlit     | Yfirlit yfir aðrar skýrslur |
-| Greining á námskeiði       | Skráning eftir staðsetningu, þátttakandi eftir stöðu, námskeið eftir gerð á fyrirtæki og námskeiðsviðera eftir starfi |
+| Greining á námskeiði       | Skráning eftir staðsetningu, þátttakandi eftir stöðu, námskeið eftir gerð á fyrirtæki og námskeiðsviðera eftir starfi |
 | Greining skráningar | Skráningarlisti |
 | Námskeiðsgerðir          | Námskeiðsgerðir eftir hæfni |
 | Greining leiðbeinanda   | Hlutfall námskeiða á leiðbeinendur, fjöldi leiðbeinenda, námskeið eftir leiðbeinanda, námskeið á leiðbeinanda og dagskrá námskeiðs eftir leiðbeinanda |
@@ -47,7 +46,7 @@ Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
 
-Eftirfarandi gögn er notuð til að fylla út skýrslur í Power BI-efninu **Nám**. Þessi tafla sýnir einingar sem efnispakkinn var byggður á.
+Eftirfarandi gögn eru notuð til að fylla út skýrslurnar í **Learning** Power BI efninu. Þessi tafla sýnir einingar sem efnispakkinn var byggður á.
 
 | Eining           | Innihald                                                         | Vensl við aðra lögaðila |
 |------------------|------------------------------------------------------------------|-----------------------------------|
@@ -64,4 +63,3 @@ Eftirfarandi gögn er notuð til að fylla út skýrslur í Power BI-efninu **N�
 | Staða         | Staða, titill og jafngildi fulls starfs (FTE)                  | Dagskrá námskeiðs, þáttakendur námskeiðs |
 | Nafn starfsmanns    | Fornafn, eftirnafn, og fullt nafn                             | Þátttakendur námskeiðs |
 | Titill starfsmanns   | Titill og starfsaldursdagsetning                                         | Þátttakendur námskeiðs |
-

@@ -1,13 +1,13 @@
 ---
-title: "Stjórnun starfskrafta í vöruhúsi"
-description: "Þessi grein lýsir hvernig nota má Dynamics 365 for Finance and Operations til að aðstoða við stýringu og eftirlit með vinnu sem er framkvæmd af starfsmönnum í vöruhúsi."
+title: Stjórnun starfskrafta í vöruhúsi
+description: Þessi skrá lýsir hvernig nota má Dynamics 365 for Finance and Operations til að aðstoða við stýringu og eftirlit með vinnu sem er framkvæmd af starfsmönnum í vöruhús.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b5a35d0a52d6f5bf995ce54f10eab92147b0e76a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 211ced007e7729265621a05c2162a228eb0023c2
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310991"
 ---
-
 # <a name="manage-warehouse-workers"></a>Stjórnun starfskrafta í vöruhúsi
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir hvernig nota má Microsoft Dynamics 365 for Finance and Operations til að aðstoða við stýringu og eftirlit með vinnu sem er framkvæmd af starfsmönnum í vöruhúsi.
+Þessi skrá lýsir hvernig nota má Microsoft Dynamics 365 for Finance and Operations til að aðstoða við stýringu og eftirlit með vinnu sem er framkvæmd af starfsmönnum í vöruhús.
 
 Ef verið er að nota virknina í vöruhúsastjórnun, eru allar aðgerðir starfsmanns í vöruhúsi vísað til sem *vinna*. Vinna t.d. tiltekt, flutningur, og Telja lagerbirgðir er skráð með því að nota fartæki. Áður en starfsmaður í vöruhús getur framkvæmt vinnu verður hann eða hún að vera tengdur við starfsmann í mannauði. Hver **Starfsmanns** lykill getur haft mörg vinnunotendur vöruhúss tengda. Þessir vinnunotendur getur unnið í mismunandi vöruhús og geta haft mismunandi aðgangsstig að ýmsum valmyndum fartækis. Þú getur líta á vinnunotendum vöruhúss sem margar innskráningar fyrir valinn starfsmann. Hver vinnunotanda hefur sjálfgefið vöruhús og tiltekin verkflæði eru birt af valmyndaratriðum sem eru tiltæk fyrir þann vinnunotanda. 
 
@@ -54,7 +53,6 @@ Greining á tíma sem er notuð til að vinna vinnuliði getur hjálpað við a�
 
 -   **Vinna eftir notanda** – Þetta sýnir framleiðni starfsmanns, byggt á raunverulegan tíma samanborið við áætluð tíma.
 -   **Vinnu eftir vinnufærslugerð** – hægt er að nota þessa skýrslu til að rannsaka óhagkvæmni í tiltekið vöruhúsaferli. Til dæmis tekurðu eftir að tiltekt fyrir flutningspantanir taka lengri tíma í þessi vika en í fyrri vikur. Hægt er að nota þessar upplýsingar fyrir frekari athugunar.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Útreikningur fastakostnaður"
-description: "Þetta efnisatriði lýsir dæmigerðum ferlum til að reikna út og úthluta rekstrarkostnaði."
+title: Útreikningur fastakostnaður
+description: Þetta efnisatriði lýsir dæmigerðum ferlum til að reikna út og úthluta rekstrarkostnaði.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: 12ae99c15bafcd9cc08b30903fe3f251f446b17d
 ms.openlocfilehash: 4de705324ac497cfb11fae3dadc6f57d038fd0b5
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335118"
 ---
-
 # <a name="overhead-calculation"></a>Útreikningur fastakostnaður
 
 [!include [banner](../includes/banner.md)]
@@ -1413,7 +1412,6 @@ Eftirfarandi tafla sýnir niðurstöður þegar Umbúðaþjónusta er notuð sem
 
 > [!NOTE]
 > Þetta efnisatriði sýnir hvernig fyrir aðalkostnaðareiningin 10001 Rafmagn flæðir í gegnum kostnaðarhluti. Þar af leiðandi er þessum sameiginlega kostnaði úthlutað á lægsta stigið í fyrirtækinu. Með öðrum orðum bera kostnaðarhlutir á lægsta stiginu kostnaðinn. Ef þú þarft sjónrænt flæði kostnaðar á milli kostnaðarhluta er hægt að nota stefnureglur samantekins kostnaðar til að gera kostnaðarflæðið sýnilegt. Nánari upplýsingar er að finna í [Samantekt kostnaðar](cost-rollup.md).
-
 
 
 

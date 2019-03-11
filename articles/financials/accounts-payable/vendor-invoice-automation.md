@@ -1,13 +1,13 @@
 ---
-title: "Sjálfvirkni reikninga lánardrottins"
-description: "Í þessu efnisatriði er fjallað um aðgerðir sem eru tiltækar fyrir lok við lok sjálfvirkni reikninga lánardrottins, jafnvel reikninga með viðhengi."
+title: Sjálfvirkni reikninga lánardrottins
+description: Í þessu efnisatriði er fjallað um aðgerðir sem eru tiltækar fyrir lok við lok sjálfvirkni reikninga lánardrottins, jafnvel reikninga með viðhengi.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6ea483a82b8215f0e6d8f420c007da349313daa5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 551f3d5fc52fac725fcc9fedc37dc1c85fac5a26
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324515"
 ---
 # <a name="vendor-invoice-automation"></a>Sjálfvirkni reikninga lánardrottins
 
@@ -232,4 +232,3 @@ Eftirfarandi hlutverk veita aðeins lesaðgang að viðhengjabirti fyrir þessar
 + **Afgreiðslumaður viðskiptaskulda** og **Stjórnandi viðskiptaskulda** – Skyldan Viðhalda lánardrottnareikningum er úthlutað á þessum hlutverk.
 
 Sjálfgefið ef hlutverki notanda veitir breyta réttindi á öllum síðum notanda mun einnig hafa breyta heimildir í viðhengjabirti fyrir merkingar-, blokkunar- og athugasemdaaðgerðir. Hins vegar í tilvikum þar sem tiltekið hlutverk á að hafa breytingarheimildir á síðunni en ekki í viðhengjabirtinum er hægt að nota viðeigandi réttindi úr fyrrgreindum lista til að uppfylla notkunartilvik.
-

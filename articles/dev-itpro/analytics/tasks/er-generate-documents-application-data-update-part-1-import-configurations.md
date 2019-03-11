@@ -1,13 +1,13 @@
---- 
-title: "Flytja inn skilgreiningar til að búa til skjöl sem eru með forritsgögnum"
-description: "Til að ljúka þessum skrefum í ferlinu verður fyrst að ljúka við ferlið „Rafræn skýrslugerð Stofna skilgreiningarveitu og merkja hana sem virka“."
+---
+title: Flytja inn skilgreiningar til að búa til skjöl sem eru með forritsgögnum
+description: Til að ljúka þessum skrefum í ferlinu verður fyrst að ljúka við ferlið „Rafræn skýrslugerð Stofna skilgreiningarveitu og merkja hana sem virka“.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 1637ba59525f5f8bd9fe41a00c34eca90f7a2751
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340799"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Flytja inn skilgreiningar til að búa til skjöl sem eru með forritsgögnum
 
@@ -75,5 +75,4 @@ Skrefin í þessu ferli sýna hvernig skal hanna Rafræna skýrslugerð (ER) gru
 29. Í trénu skal velja „Skrá“.
     * Fara yfir skipan sniðsins sem er notað til að búa til Intrastat skýrlsuna. Athugið að það er hannað til að búa til XML skrá með því að fylla út í gögn frá gagnalíkaninu, sem er byggt á rótaratriðinu „Fyrir skjöl á útleið“. Staðfesta að heiti skrárinnar sem búin er til sé skilgreint á svargluggaskjámynd notanda („fn“ gagnaveita er notuð til þess).   
 30. Lokið síðunni.
-
 

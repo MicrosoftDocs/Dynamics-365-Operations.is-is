@@ -1,13 +1,13 @@
 ---
-title: "Samþætting fjárhags fyrir smásölurás"
-description: "Þetta efnisatriði gefur yfirlit yfir fjárhagssamþættingu Retail POS."
+title: Yfirlit yfir fjárhagssamþættingu fyrir smásölurásir
+description: Í þessu efnisatriði er að finna yfirlit yfir fjárhagssamþættingarmöguleika sem eru í boði í Microsoft Dynamics 365 for Retail.
 author: josaw
 manager: annbe
-ms.date: 11/01/2018
+ms.date: 02/01/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -15,122 +15,104 @@ ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: v-kikozl
-ms.search.validFrom: 2018-11-1
-ms.dyn365.ops.version: 8.1.1
+ms.search.validFrom: 2019-1-16
+ms.dyn365.ops.version: 10
+ms.openlocfilehash: 2dc977e3c53b1f15b41b095f586861b67c973a6d
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: c852d095505abecbd44d29e9e7b53875e9069def
-ms.contentlocale: is-is
-ms.lasthandoff: 11/01/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377136"
 ---
-# <a name="fiscal-integration-for-retail-channel"></a>Samþætting fjárhags fyrir smásölurás
+# <a name="overview-of-fiscal-integration-for-retail-channels"></a>Yfirlit yfir fjárhagssamþættingu fyrir smásölurásir
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði er yfirlit fjárhagssamþættingarvirkni sem er að finna í Microsoft Dynamics 365 for Retail. Fjárhagssamþættingarvirkni eru rammar sem ætlað er að styðja við staðbundin lög um fjárhag sem miða að því að koma í veg fyrir svik í smásöluiðnaði. Dæmigerðar aðstæður sem fjárhagssamþætting getur náð til eru:
+## <a name="introduction"></a>Inngangur
 
-- Prentun fjárhagskvittunar og afhending hennar til viðskiptavinar.
-- Tryggja skil á upplýsingum sem tengjast sölu og skilum sem fram fer á POS til ytri þjónustu sem stjórnvaldið veitir.
-- Notkun gagnaverndar með stafrænu undirskrifti sem stjórnvald heimilar.
+Í þessu efnisatriði er yfirlit yfir fjárhagssamþættingarmöguleika sem eru í boði í Microsoft Dynamics 365 for Retail. Fjárhagssamþætting felur í sér samþættingu við ýmis fjárhagstæki og þjónustu sem gerir kleift að skrá smásölu í samræmi við staðbundin fjárhagslög sem miða að því að koma í veg fyrir skattsvik í smásöluiðnaðinum. Hér eru nokkrar dæmigerðar aðstæður sem hægt er að dekka með því að nota fjárhagssamþættingu: 
 
-Þetta efnisatriði veitir leiðbeiningar um uppbyggingu fjárhagssamþættingar þannig að notendur geti sinnt eftirfarandi verkefnum. 
+- Skrá smásölu á fjárhagstæki sem tengist sölustað (POS), svo sem strimlaprentara og prentun á fjárhagskvittun fyrir viðskiptavin.
+- Senda inn upplýsingar á öruggan hátt sem tengjast sölu og skilum sem er lokið í Retail POS til utanaðkomandi vefþjónustu sem er starfrækt af skattyfirvöldum.
+- Hjálpar til við að tryggja stöðugleika sölufærslugagna með stafrænum undirskriftum.
 
-- Grunnstilla fjárhagstengla, sem eru fjárhagstæki eða þjónusta notuð til fjárhagsskráningar svo sem vistun, stafrænar undirskriftir og örugg skil á fjárhagsgögnum.
-- Grunnstilla skjalsveitu, sem skilgreinir úttaksaðgerð og reiknirit til myndunar á fjárhagsskjali.
-- Grunnstilla skráningarferli fjárhagsins, sem er skilgreint af röð skrefa og hópi tengla sem notaðar eru í hverju skrefi.
-- Úthluta skráningarferlum fjárhags til POS-virknireglna.
-- Úthluta tengli virknireglu, annaðhvort til vélbúnaðarsniðs (fyrir staðbundna fjárhagstengla) eða til POS-virknireglna (fyrir aðrar gerðir fjárhagstengla).
+Virkni fjárhagssamþættingar í Retail er rammi sem veitir algenga lausn fyrir frekari þróun og sérstillingu á samþættingunni milli Retail POS og fjárhagstæki og þjónustu. Virknin felur einnig í sér sýnishorn fjárhagssamþættingar sem styður einfaldar aðstæður smásölu fyrir tilgreind lönd eða svæði, og sem vinna með tiltekin fjárhagstæki og þjónustu. Sýnishorn fjárhagssamþættingar samanstendur af nokkrum viðbótum af Retail-íhlutum og er hluti af þróunarpakka Retail-hugbúnaðarins (SDK). Nánari upplýsingar um sýnishorn fjárhagssamþættingar sem eru í boði í Retail SDK er að finna í [Sýnishorn fjárhagssamþættingar í Retail SDK](#fiscal-integration-samples-in-the-retail-sdk). Upplýsingar um hvernig skuli setja upp og nota Retail SDK er að finna í [Yfirlit Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
-## <a name="fiscal-integration-execution-flow"></a>Framkvæmdarflæði fjárhagssamþættingar
-Eftirfarandi atburðarás sýnir sameiginlegt framkvæmdarflæði fjárhagssamþættingar.
+Til að styðja við aðrar aðstæður sem ekki eru studdar af sýnishorni fjárhagssamþættingar, til að samþætta Retail POS við önnur fjárhagstæki eða þjónustur, eða til að ná utan um kröfur annarra landa eða svæða, verður þú annaðhvort að stækka núverandi sýnishorn fjárhagssamþættingar eða stofna nýtt sýnishorn með því að nota núverandi sýnishorn sem dæmi.
 
-1. Frumstilling á skráningarferli fjárhagsins.
-  
-   Eftir að hafa gert aðgerðir þar sem fjárhagsskráningar er krafist, eins og eftir að smásöluverslun hefur verið gerður, er skráningarferli fjárhagnsins tengt núverandi POS-virknireglu.
+## <a name="fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices"></a>Fjárhagsskráningarferli og sýnishorn fjárhagssamþættingar fyrir fjárhagstæki
 
-1. Leitaðu að fjárhagstengli.
-   
-   Fyrir hvert þrep fjárhagsskráningar í skráningarferli fjárhagsins, stemmir kerfið saman við lista yfir fjárhagstengla. Þessir tenglar hafa virknireglu sem er innifalin í tilgreindum tenglahópi, með lista yfir tengla sem innihalda tæknilegar upplýsingar í tengslum við núverandi vélbúnaðarsnið (aðeins fyrir gerð tengils sem jafngildir **Staðbundinn**) eða með núverandi POS-virknireglu (fyrir aðrar gerðir af tenglum).
-   
-1. Framkvæma fjárhagssamþættingu.
+Fjárhagsskráningarferli í Retail POS getur samanstaðið af einu eða fleiri skrefum. Hvert skref felur í sér fjárhagsskráningu á tilteknum smásölufærslum eða tilvikum í einu fjárhagstæki eða þjónustu. Eftirfarandi lausnaþættir taka þátt í fjárhagsskráningu í fjárhagstæki sem er tengt við vélbúnaðarstöð:
 
-   Kerfið framkvæmir allar nauðsynlegar aðgerðir sem eru skilgreindar af samsetningu sem er tengd við tengilinn sem fannst. Þetta er gert í samræmi við stillingar virknireglunnar og tæknisniðsins sem fundust í fyrra skrefi fyrir þennan tengil.
+- **Commerce Runtime (CRT) viðbót** - Þessi hlutur raðar gögnum smásölufærslu/-tilviki á sniðinu sem er einnig notað í samskiptum við fjárhagstækið, þáttar svörun frá fjárhagstækinu, og geymir svörunina í gagnagrunni rásar. Viðbótin skilgreinir einnig tilgreindar færslur og tilvik sem þarf að skrá. Oft er vísað í þennan hluta sem *fjárhagsskjalsveitu*.
+- **Viðbót vélbúnaðarstöðvar** - Þessi hluti frumstillir samskiptin við fjárhagstækið, sendir beiðnir og beinar skipanir til fjárhagstækis sem byggjast á gögnum smásölufærslu/-tilviks sem er sótt úr fjárhagsskjalinu, og tekur á móti svörum frá fjárhagstækinu. Oft er vísað í þennan hluta sem *fjárhagstengil*.
 
-## <a name="setup-needed-before-using-fiscal-integration"></a>Uppsetning þarf áður en fjárhagssamþætting er notuð
-Áður en þú notar fjárhagnssamþættingarvirknina ættirðu að skilgreina eftirfarandi stillingar:
+Sýnishorn fjárhagssamþættingar fyrir fjárhagstæki inniheldur CRT og viðbætur vélbúnaðarstöðvar fyrir fjárhagsskjalsveitu og fjárhagstengil. Það inniheldur einnig eftirfarandi stillingar hlutar:
 
-- Skilgreindu númeraröðina á **Smásölufæribreytur** síðu fyrir númer tækniforstillingar fjárhags.
-  
-- Skilgreindu númeraröðin á **Smásölufæribreytur** síðu fyrir eftirfarandi tilvísanir:
-  
-  - Númer tækniforstillingar fjárhags
-  - Flokksnúmer fjárhagstengils
-  - Númer skráningarferlis
+- **Stilling fjárhagsskjalsveitu** - Þessi stilling skilgreinir úttaksaðgerð á sniði fyrir fjárhagsskjöl. Það inniheldur einnig gagnavörpun fyrir skatta og greiðslumáta, til að gera gögn frá Retail POS samhæf við gildin sem eru fyrirfram skilgreind í fastbúnaði fjárhagstækis.
+- **Stilling fjárhagstengils** - Þessi stilling skilgreinir raunsamskipti við tiltekið fjárhagstæki.
 
-- Búðu til **Fjárhagstengil** í **Smásala> Rásaruppsetning > Fjárhagssamþætting > Fjárhagstenglar** fyrir hvert tæki eða þjónustu sem þú ætlar að nota til fjárhagssamþættingar.
+Fjárhagsskráningarferli fyrir tiltekinn afgreiðslukassa er skilgreint af samsvarandi stillingu í virknireglu sölustaðar. Fyrir frekari upplýsingar um hvernig eigi að stilla fjárhagsskráningarferli skal hlaða upp skilgreiningum fjárhagsskjalsveitu og fjárhagstengils og breyta færibreytum þeirra, sjá [Setja upp fjárhagsskráningarferli](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
--  Búa til **Fjárhagsskjalsveitu** í **Smásala> Rásaruppsetning > Fjárhagssamþætting > Fjárhagsskjalsveitur** fyrir alla fjárhagstengla. Gagnakortalagning er talin hluti af fjárhagsskjalsveitu. Til að setja upp mismunandi gagnakortalagningu fyrir sama tengilinn (eins og samkvæmt staðbundnum reglugerðum), ættir þú að búa til mismunandi fjárhagsskjalsveitur.
+Í eftirfarandi dæmi er sýnt dæmigert framkvæmdaflæði fyrir fjárhagstæki. Flæðið byrjar með tilviki á sölustaðnum (til dæmis frágang á sölufærslu) og útfærir eftirfarandi skref:
 
-- Búa til **Virkniforstillingu tengils** í **Smásala> Rásaruppsetning> Fjárhagssamþætting> Virkniforstillingar tengils** fyrir hverja fjárhagsskjalsveitu.
-  - Veldu heiti tengils.
-  - Veldu skjalsveitu.
-  - Tilgreina stillingar VSK-hlutfalls á **Uppsetningar** flipanum.
-  - Tilgreina vörpun VSK-kóða og greiðslumátta á flipanum **Gagnakortalagning**.
+1. Sölustaðurinn biður um fjárhagsskjal frá CRT.
+2. CRT ákvarðar hvort núverandi tilvik krefjist fjárhagsskráningar.
+3. Byggt á stillingum fjárhagsskráningarferlis, CRT ber kennsl á fjárhagstengil og samsvarandi fjárhagsskjalsveitu til að nota fyrir fjárhagsskráninguna.
+4. CRT keyrir fjárhagsskjalsveitu sem býr til fjárhagsskjal (t.d. XML-skjal) sem táknar smásölufærsluna eða tilvikið.
+5. Sölustaðurinn sendir fjárhagsskjalið sem CRT undirbýr til vélbúnaðarstöðvar.
+6. Vélbúnaðarstöðin keyrir fjárhagstengilinn sem vinnur úr fjárhagsskjalinu og kemur því til fjárhagstækis eða þjónustu.
+7. Sölustaðurinn greinir svarið frá fjárhagstækinu eða þjónustunni til að ákvarða hvort fjárhagsskráningin hafi tekist.
+8. CRT vistar svarið í gagnagrunn rásar.
 
-  #### <a name="examples"></a>Dæmi 
+![Lausnarskema](media/emea-fiscal-integration-solution.png "Lausnarskema")
 
-  |  | Snið | Dæmi | 
-  |--------|--------|--------|
-  | Stillingar VSK-hlutfalls | gildi : VAThlutfall | 1 : 2000, 2 : 1800 |
-  | Vörpun VSK-kóða | VSKkóði : gildi | vsk20: 1, vsk18: 2 |
-  | Setja upp greiðslumáta | TenderTyp: gildi | Reiðufé: 1, kort: 2 |
+## <a name="error-handling"></a>Villumeðhöndlun
 
-- Búa til **Fjárhagstenglahópa** í **Smásala> Rásaruppsetning> Fjárhagssamþætting> Fjárhagstenglahópur**. Tenglahópur er hluti af virkniforstillingum sem tengjast fjárhagstenglum sem framkvæma sömu aðgerðir og eru notaðar á sama stigi innan skráningarferlis fjárhagsins.
+Þessi rammi fjárhagssamþættingar veitir eftirfarandi valmöguleika til að takast á við villur við fjárhagsskráningu:
 
-   - Bæta virkniforstillingum við tenglahópinn. Smelltu á **Bæta við** á síðunni **Virkniforstillingar** og veldu forstillingarnúmer.
-   - Ef þú vilt hætta að nota virkniforstillinguna skaltu stilla **Slökkva** á **Já**. 
-   
-     Þessi breyting hefur aðeins áhrif á núverandi tenglahóp. Þú getur haldið áfram að nota sömu virkniforstillingu fyrir aðra tenglahópa.
+- **Reyna aftur** - Notendur geta notað þennan valkost þegar hægt er að greiða fljótt úr villunni og fjárhagskráningin er keyrð aftur. Til dæmis er hægt að nota þennan valkost þegar fjárhagstækið er ekki tengt, strimlaprentarinn er án pappírs, eða prentarinn er stíflaður.
+- **Hætta við** - Þessi valkostur heimilar notendum að fresta fjárhagsskráningu á núgildandi færslu eða tilviki ef það mistekst. Eftir að skráningunni hefur verið frestað getur notandinn haldið áfram að vinna í sölustaðnum og getur lokið öllum aðgerðum þar sem ekki þarf fjárhagsskráninguna. Þegar einhver tilvik sem krefjast fjárhagsskráningar eiga sér stað á sölustaðnum (til dæmis ef ný færsla er opnuð) birtist villuglugginn sjálfkrafa til að tilkynna notanda að fyrri færsla hafi ekki verið skráð rétt og býður upp á valmöguleika til að meðhöndla villuna.
+- **Sleppa** - Notendur geta notað þennan valkost þegar hægt er að sleppa fjárhagsskráningunni við sérstakar kringumstæður og hægt er að halda áfram með reglubundnar aðgerðir á sölustaðnum. Til dæmis er hægt að nota þennan valmöguleika þegar hægt er að skrá sölufærslu sem fjárhagsskráningin mistókst fyrir í sérstakri færslubók á pappír.
+- **Merkja sem skráð** - Notendur geta notað þennan valkost þegar færslan var í raun skráð í fjárhagstækinu (t.d. fjárhagskvittun var prentuð), en villa kom upp þegar verið var að vista fjárhagssvörunin í gagnagrunn rásarinnar.
 
-     >[!NOTE]
-     > Innan tenglahópsins getur hver fjárhagstengill aðeins haft eina virkniforstillingu.
+> [!NOTE]
+> Valkostirnir **Sleppa** og **Merkja sem skráð** verða að vera gerðir virkir í fjárhagsskráningarferlinu áður en þeir eru notaðir. Að auki skulu samsvarandi heimildir veittar notendum.
 
-- Búa til **Tækniforstillingu tengils** í **Smásala> Rásarppsetning> Fjárhagssamþætting> Tækniforstilling tengils** fyrir hvern fjárhagstengil.
-  - Veldu heiti tengils.
-  - Veldu gerð tengils: 
-      - **Staðbundinn** - Veldu þessa gerð fyrir tæki eða forrit sem eru settar upp á staðbundinni tölvu.
-      - **Innri** - Veldu þessa gerðfyrir fjármálatæki og þjónustu sem tengist smásöluþjóni.
-      - **Ytri** - Fyrir ytri fjárhagsþjónustu eins og vefgátt sem skattyfirvöld veita.
-    
-  - Tilgreina stillingar á **Tenging** flipanum.
+Valkostirnir **Sleppa** og **Merkja sem skráð** virkja upplýsingakóða til að sækja tilteknar upplýsingar um villuna, t.d. að ástæða villunnar eða rökstuðningur fyrir því að sleppa fjárhagsskráningunni eða merkja færsluna sem skráða. Nánari upplýsingar um hvernig á að setja upp færibreytur fyrir meðhöndlun á villu er að finna í [Stilla villumeðhöndlunarstillingar](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
-      
- >[!NOTE]
- > Uppfært útgáfa af grunnstillingum sem var hlaðið áður verður hlaðinn fyrir bæði hagnýtur og tæknileg snið. Ef viðeigandi tengill eða skjalveita er þegar í notkun verður þú tilkynnt. Sjálfgefið er að allar breytingar sem hafa verið gerðar handvirkt í hagnýtum og tæknilegum sniðum verða geymdar. Til þess að hunsa þessi snið með sjálfgefnum færibreytum úr grunnstillingunni skaltu smella á **Uppfæra** á **Virkniforstillingar tengils** síðu og **Tækniforstillingar tengils** síðu.
- 
-- Búa til **Skráningarferli fjárhags** í **Smásala> Rásaruppsetning> Fjármálasamþætting> Skráningarferli fjárhagsins** fyrir hvert einkvæmt ferli í fjárhagssamþættingunni. Skráningarferli er skilgreint með röð skráningarskrefanna og tenglahópnum sem notaður er í hverju skrefi. 
-  
-  - Bæta við skráningarskrefum við ferlið:
-      - Smellið á **Bæta við**.
-      - Veldu gerð tengils.
-      
-      >[!NOTE]
-      > Þetta reitur skilgreinir hvar kerfið leitar í tæknforstillingunni að tenglinum, annaðhvort í vélbúnaðarsniðum fyrir tenglategundina **Staðbundinn**, eða í POS-virknireglum fyrir aðra gerðir fjárhagstengla.
-      
-   - Veldu tenglahóp.
-   
-     >[!NOTE]
-     > Smelltu á **Villuleita** til að athuga heilleika skráningarferlis uppbyggingarinnar. Mælt er með því að villuleitir séu gerðar í eftirfarandi tilvikum:
-       >- Fyrir nýtt skráningarferli eftir að allar stillingar hafa verið gerðar, þ.m.t. binding við POS-virknireglur og vélbúnaðarsnið.
-       >- Eftir að uppfærslur hafa verið gerðar á skráningarferli sem fyrir er.
+## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Geymsla á fjárhagssvörum í fjárhagsfærslu
 
--  Bindið skráningarferli fjárhagsins við POS-virknireglur í **Smásala> Rásaruppsetning> POS-uppsetning> POS-reglur> Virknireglur**.
-   - Smelltu á **Breyta** og veldu **Númer ferlis** á **Skráningarferli fjárhagsins** flipanum.
-- Tengd tækniforstillingar tengilsins við vélbúnaðarsniðin í **Smásala> Rásarstillingar > POS-uppsetning> POS-reglur> Vélbúnaðarsnið**.
-   - Smelltu á **Breyta**, smelltu svo á **Nýtt** á flipanum **Tækniforstilling fjárhags**.
-   - Veldu tækniforstillingu tengilsins í reitnum **Forstillingarnúmer**.
-   
-     >[!NOTE]
-     > Þú getur bætt nokkrum tækniforstillingum við vélbúnaðarsnið. Hins vegar er þetta ekki studd ef vélbúnaðarsniðið hefur fleiri en eina skörun við hvaða tenglahóp sem er. Til að koma í veg fyrir rangar stillingar er mælt með því að þú villuleitir skráningarferlið eftir að uppfæra öll vélbúnaðarsniðin.
+Þegar fjárhagsskráning færslu eða tilviks heppnast er stofnuð fjárhagsfærsla í gagnagrunni rásarinnar og hún tengd við upprunalega færslu eða tilvik. Á svipaðan hátt, ef valkosturinn **Sleppa** eða **Merkja sem skráð** er valinn fyrir misheppnaða fjárhagsskráningu, eru þessar upplýsingar geymdar í fjárhagsfærslu. Fjárhagsfærsla heldur í fjárhagssvörun fjárhagstækis eða þjónustu. Ef fjárhagsskráningarferlið samanstendur af nokkrum skrefum er fjárhagsfærsla stofnuð fyrir hvert skref ferlisins sem leiddi til skráningu sem tókst eða mistókst.
 
+Fjárhagsfærslur eru fluttar til Retail Headquarters með *P-vinnslu* ásamt smásölufærslum. Í flýtiflipanum **Fjárhagsfærslur** á síðunni **Færslur smásöluverslunar** er hægt að skoða fjárhagsfærslurnar sem eru tengdar við smásölufærslur.
+
+Fjárhagsfærsla geymir eftirfarandi upplýsingar:
+
+- Upplýsingar um ferli fjárhagsskráningar (ferli, tenglahóp, tengil og svo framvegis). Hún geymir einnig raðnúmer fjárhagstækis í reitnum **Skrá númer** ef þessar upplýsingar eru innifaldar í fjárhagssvörun.
+- Staða fjárhagsskráningar: **Lokið** fyrir heppnaða skráningu, **Sleppt** ef notandinn valdi vakostinn **Sleppa** fyrir skráningu sem mistókst, eða **Merkt sem skráð** ef notandinn valdi valkostinn **Merkja sem skráð**.
+- Færslur upplýsingakóða sem tengjast valdri fjárhagsfærslu. Til að skoða færslur upplýsingakóða í flýtiflipanum **Fjárhagsfærslur** skal velja fjárhagsfærslu sem er með stöðuna **Sleppt** eða **Merkt sem skráð** og síðan velja **Færslur upplýsingakóða**.
+
+## <a name="fiscal-texts-for-discounts"></a>Fjárhagstextar fyrir afslætti
+
+Sum lönd eða svæði gera sérstakar kröfur um viðbótartexta sem þarf að prenta á fjárhagskvittanir þegar mismunandi afslættir eru notaðir. Virknin fyrir fjárhagssamþættingu gerir þér kleift að setja upp sérstakan texta fyrir afslátt sem prentast á eftir afsláttarlínu á fjárhagskvittun. Fyrir handvirka afslætti er hægt að stilla fjárhagstexta fyrir upplýsingakóðann sem er tilgreindur sem upplýsingakóðinn **Afurðarafsláttur** í virknireglu sölustaðar. Nánari upplýsingar um hvernig á að setja upp fjárhagstexta fyrir afslætti er að finna í [Uppsetning fjárhagstexta fyrir afslætti](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts).
+
+## <a name="printing-fiscal-x-and-fiscal-z-reports"></a>Prenta X- og Z-skýrslur fjárhags
+
+Virknin fyrir fjárhagssamþættingu styður myndun á uppgjör í lok dags sem miðast við samþætta fjárhagstækið eða þjónustuna:
+
+- Bæta ætti nýjum hnöppum sem keyra samsvarandi aðgerðir við skjáútlit POS. Nánari upplýsingar er að finna í [Setja upp X/Z-skýrslur fjárhags úr POS](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
+- Í sýnishorni fjárhagssamþættingar ætti að samsvara þessar aðgerðir við samsvarandi aðgerðir í fjárhagstækinu.
+
+## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Sýnishorn fjárhagssamþættingar í Retail SDK
+
+Eftirfarandi sýnishorn fjárhagssamþættingar eru eins og er í boði í Retail SDK sem er gefið út með Retail:
+
+- [Dæmi um samþættingu strimlaprentara fyrir Ítalíu](emea-ita-fpi-sample.md)
+- [Dæmi um samþættingu strimlaprentara fyrir Pólland](emea-pol-fpi-sample.md)
+
+Eftirfarandi virkni fjárhagssamþættingar er einnig í boði í Retail SDK en hún nýtir sér ekki ramma fjárhagssamþættingar eins og er. Flutningur á þessari virkni í ramma fjárhagssamþættingar er á dagskrá í seinni útgáfum.
+
+- [Stafræn undirskrift fyrir Frakkland](emea-fra-cash-registers.md)
+- [Stafræn undirskrift fyrir Noreg](emea-nor-cash-registers.md)
+- [Dæmi um samþættingu stjórntækis fyrir Svíþjóð](../dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)

@@ -1,31 +1,30 @@
 ---
-title: "Afgreiða pantanir frá annarri verslun með því að nota eiginleikann Hleðslusending"
-description: "Þetta efnisatriði lýsir Hleðslusending eiginleikanum."
+title: Afgreiða pantanir frá annarri verslun með því að nota eiginleikann Hleðslusending
+description: Þetta efnisatriði lýsir Hleðslusending eiginleikanum.
 author: ashishmsft
 manager: AnnBe
 ms.date: 10/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: e5351086c56d13ef98937aec066be00cdf88fd37
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354070"
 ---
-
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>Afgreiða pantanir frá annarri verslun með því að nota eiginleikann Hleðslusending
 
 [!include [banner](includes/banner.md)]
@@ -43,4 +42,3 @@ Hleðslusending eiginleikinn notar eftirfarandi POS aðgerðir: Senda allar vör
 Hæfni til að velja „senda til" heimilisföng er óbreytt.
 
 Afhendingaraðferðirnar, sem hægt er að nota til að uppfylla pöntunarlínuna, eru byggðar á grunnstillingum gildra afhendingarmáta fyrir vörur og heimilisföng. Vegna þess að reglunum um gilda afhendingarmáta eru aðeins viðhaldið í Retail Headquarters (HQ), framkvæmir POS viðskiptavinurinn rauntímasímtal til að sækja gilda afhendingarmáta fyrir sendingarlínu.
-

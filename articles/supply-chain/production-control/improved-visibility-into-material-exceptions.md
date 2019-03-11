@@ -1,13 +1,13 @@
 ---
-title: "Innsýn í efnisundantekningar"
-description: "Þetta efni lýsir því hvernig hægt er að fá betri innsýn í hráefnisundantekningar fyrir framleiðslupantanir og runupantanir."
+title: Innsýn í efnisundantekningar
+description: Þetta efni lýsir því hvernig hægt er að fá betri innsýn í hráefnisundantekningar fyrir framleiðslupantanir og runupantanir.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -16,13 +16,13 @@ ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: c7a5cc4f6c6f430a2ceb9125edb3916fe7b71ab8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: eca3141fc48aea24411524e5fc84686d9e4bfaa7
-ms.contentlocale: is-is
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344755"
 ---
 # <a name="visibility-into-material-exceptions"></a>Innsýn í efnisundantekningar
 
@@ -67,4 +67,3 @@ Ef uppskriftar- eða formúlulínur hafa ekki verið losaðar eða aðeins losa�
 **Opin vöruhúsaverk sem þarfnast athygli** reiturinn sýnir fjölda uppskrifta- og formúlulína sem hafa verið losaðar í vöruhúsið, sem innihalda óunnin verk, og hafa hráefnisdagsetningu sem er fyrr en eða sú sama og vinnusvæðisdagsetningin. Línurnar verða einnig að vera notaðar af aðgerðartilfangi sem gildir um síu vinnusvæðisins.
 
 Þegar reiturinn er valinn, opnast síðan **Öll verk**. Þessi síða er síuð út frá fjölda opinna vinnuhausa sem innihalda verklínur úr losuðum uppskriftar- og formúlulínum sem uppfylla viðmiðanirnar fyrir reitinn. Frá **Öll verk** síðunni er hægt að vinna verkið handvirkt.
-

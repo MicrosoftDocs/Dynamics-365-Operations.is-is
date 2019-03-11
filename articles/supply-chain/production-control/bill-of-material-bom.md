@@ -1,13 +1,13 @@
 ---
-title: "Uppskriftir og formúlur"
-description: "Þetta efnisatriði veitir upplýsingar um uppskriftir (BOM) og formúlur, sem eru miðpunktur í skilgreiningu á afurðum og afurðaafbrigðum."
+title: Uppskriftir og formúlur
+description: Þetta efnisatriði veitir upplýsingar um uppskriftir (BOM) og formúlur, sem eru miðpunktur í skilgreiningu á afurðum og afurðaafbrigðum.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0833143722df5402a17e4f8f456a923792c478a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 430e2ab0c4438222ceb9102c011940af803acfbc
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317109"
 ---
-
 # <a name="bills-of-materials-and-formulas"></a>Uppskriftir og formúlur
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ Velja **Fest framboð** línugerð þegar óskað er að stofna undirframleiðsl
 Veljið **lánardrottinn** línugerð ef framleiðsluferlið notar undirverktaka og ætlunin er að stofna sjálfkrafa undirframleiðslu eða innkaupapöntun fyrir undirverktakann.  
 
 **Athugasemd um úthýst verj í Uppskrift:** þjónustan eða vinnan sem undirverktaka framkvæmir verður að vera stofnuð sem þjónustuvara sem er rakin í birgðir. Tengja verður þjónustuvöru við yfirvöruna sem uppskriftarlínu. Leiðin verður að innihalda aðgerð sem er úthlutað til rekstrartilföng undirverktakans.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Stofna og senda inn VSK-skýrslu"
-description: "Þetta ferli leiðir þig í gegnum að stofna og senda inn VSK-skýrslu til þýskra yfirvalda."
+---
+title: Stofna og senda inn VSK-skýrslu
+description: Þetta ferli leiðir þig í gegnum að stofna og senda inn VSK-skýrslu til þýskra yfirvalda.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b678e6bc8c5f077e17a5f8df868ea771336e25d7
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341006"
 ---
-
 # <a name="create-and-submit-vat-report"></a>Stofna og senda inn VSK-skýrslu
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
@@ -35,5 +34,4 @@ ms.lasthandoff: 10/16/2018
 4. Smellt er á Í lagi.
 5. Velja Já í svæði Stofna rafrænt skattaskjal.
 6. Smellið á „Í lagi“.
-
 

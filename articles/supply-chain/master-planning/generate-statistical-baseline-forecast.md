@@ -1,13 +1,13 @@
 ---
-title: "Myndun tölfræðilegrar grunnlínuspár"
-description: "Þessi skrá veitir upplýsingar um þær færibreytur og síur sem eru notaðar við útreikning á eftirspurnarspá."
+title: Myndun tölfræðilegrar grunnlínuspár
+description: Þessi skrá veitir upplýsingar um þær færibreytur og síur sem eru notaðar við útreikning á eftirspurnarspá.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 30f2ccb8c0b4d7c4755e0b8dc66539e165265090
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 42ea3a6cf85802fc42c53111d17afbce042a6d44
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326424"
 ---
-
 # <a name="generate-a-statistical-baseline-forecast"></a>Myndun tölfræðilegrar grunnlínuspár
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,7 @@ Fjöldi spáramma sem á að reikna út spána fyrir er stilltur á svæðinu **
 
 Til að hindra°misskilning í áætlunum um framleiðslu er hægt að frysta ákveðinn fjölda spáramma. Þetta númer er stillt á **Frysta tímamörk** svæði. Á síðunni **Leiðrétt eftirspurnarspá** eru reitirnir fyrir frysta aldursgreiningarramma óvirkir, til veita sjónræn vísbendingu um að ekki ætti að breyta þessum gildum. 
 
-Upphafsdagsetning grunnlínu eftirspurnarspár þarf ekki að vera núgildandi dagsetning eða dagsetning í framtíðinni. Til að setja inn aðra upphafsdagsetningu, notið svæðið **Upphafsdagsetning grunnlínuspár - Upphafsdagsetning**. Til dæmis í. Júní, geta notendur útbúið spá næsta árs. Þar sem spáramma milli lok söguleg eftirspurn og upphafsdagsetning í grunnlíkanasafnið vantar, getur verið að spárnar séu ekki nákvæmar. Ef verið er að nota Microsoft Dynamics 365 for Finance and Operations eftirspurnarspáþjónustu eru fjórar leiðir til að fylla út það sem vantar inn. Hægt er að velja þá aðferð sem óskað er eftir með því að stilla MISSING\_VALUE\_SUBSTITUTION færibreytuna á síðunni **Færibreytur eftirspurnarspár**. 
+Upphafsdagsetning grunnlínu eftirspurnarspár þarf ekki að vera núgildandi dagsetning eða dagsetning í framtíðinni. Til að setja inn aðra upphafsdagsetningu, notið svæðið **Upphafsdagsetning grunnlínuspár - Upphafsdagsetning**. Til dæmis í. Júní, geta notendur útbúið spá næsta árs. Þar sem spáramma milli lok söguleg eftirspurn og upphafsdagsetning í grunnlíkanasafnið vantar, getur verið að spárnar séu ekki nákvæmar. Ef verið er að nota Microsoft Dynamics 365 for Finance and Operations Eftirspurnarspár þjónustu, eru°fjórir möguleikar á því að fylla út það sem vantar inn. Hægt er að velja þá aðferð sem óskað er eftir með því að stilla MISSING\_VALUE\_SUBSTITUTION færibreytuna á síðunni **Færibreytur eftirspurnarspár**. 
 
 **Upphafsdagsetning grunnlínuspár** - Svæðið **Frá dagsetningu** verður að vera stillt á upphaf í spáramma, til dæmis á sunnudag í Bandaríkjunum ef spáramminn er vikan. Kerfið leiðréttir sjálfkrafa **Upphafsdagsetning grunnlínuspár** - **Frá dagsetningu** svæði til að passa við upphaf í spáramma. 
 
@@ -72,7 +71,6 @@ Ef spá er ekki mynduð fyrir stórt safn af vörum en, til dæmis, fyrir eina v
 [Gera handvirkar leiðréttingar á grunnlínuspánni](manual-adjustments-baseline-forecast.md)
 
 [Heimila leiðrétta spá](authorize-adjusted-forecast.md)
-
 
 
 

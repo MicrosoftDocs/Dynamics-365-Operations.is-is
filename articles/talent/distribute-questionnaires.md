@@ -1,13 +1,13 @@
 ---
-title: "Dreifa og tímasetja spurningalista"
-description: "Þetta efnisatriði útskýrt hvernig dreifa á spurningalista sem er hannaður af þér, þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem munu ljúka við þær."
+title: Dreifa og tímasetja spurningalista
+description: Þetta efnisatriði útskýrt hvernig dreifa á spurningalista sem er hannaður af þér, þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem munu ljúka við þær.
 author: kherr75
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: eafcb047117eab73fddbd93c4c1d0aafb0023ebd
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304801"
 ---
-
 # <a name="distribute-and-schedule-questionnaires"></a>Dreifa og tímasetja spurningalista
 
 [!include [banner](includes/banner.md)]
@@ -84,7 +83,7 @@ Hægt er að tilgreina gerðir fyrir áætlun spurningalista á **áætlanir Spu
 
 Hægt er að nota tilvísunargerðir til að færa inn skilyrði fyrir svarendur sem þú velur hugsanlega þegar spurningalista er raðað. 
 
-Nota skal **Tilvísunargerðir** síðu til að setja upp gerð tilvísunar fyrir spurningalista. Hver tilvísunargerð samsvarar töflu í Microsoft Dynamics 365 for Finance and Operations. Þegar áætlanir spurningalista er stofnað, er hægt að tilgreina einstaka færslum í töflunni eða svið færsla sem spurningalistinn verður að tengjast. 
+Nota skal **Tilvísunargerðir** síðu til að setja upp gerð tilvísunar fyrir spurningalista. Hvert gerð tilvísunar samsvara til tafla í Microsoft Dynamics 365 for Finance and Operations. Þegar áætlanir spurningalista er stofnað, er hægt að tilgreina einstaka færslum í töflunni eða svið færsla sem spurningalistinn verður að tengjast. 
 
 Til dæmis, ef taflan Námskeið er valin, er hægt að ákveða hvaða námskeiða spurningalista verður fyrir. Þegar sett er upp tilvísun fyrir Námskeiðstöfluna eru sum svæði og hnappar á **Námskeið** síðunni verða tiltækar.
 
@@ -132,6 +131,5 @@ Hægt er að gera spurningalista tiltæka fyrir tiltekna notendur eða notendah�
 [Nota spurningalista.](questionnaires.md)
 
 [Skoða og meta niðurstöður spurningalista](evaluate-questionnaire-results.md)
-
 
 

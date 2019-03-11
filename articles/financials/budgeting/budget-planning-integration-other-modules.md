@@ -1,13 +1,13 @@
 ---
-title: "Samþætting fjárhagsáætlunargerðar við aðrar einingar"
-description: "Hægt er að gera fjárhagsáætlanir úr mörgum mismunandi tilföngum. Grunneiningar reglubundinnar vinnslu eru þær sömu fyrir öll tilföng."
+title: Samþætting fjárhagsáætlunargerðar við aðrar einingar
+description: Hægt er að gera fjárhagsáætlanir úr mörgum mismunandi tilföngum. Grunneiningar reglubundinnar vinnslu eru þær sömu fyrir öll tilföng.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanGenerate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 97c33a222d31e690d2a395f972c0ddc4b89e8fdb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4a18190152b6e5ea520a81f1db2cf67ded652bbe
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353035"
 ---
-
 # <a name="budget-planning-integration-with-other-modules"></a>Samþætting fjárhagsáætlunargerðar við aðrar einingar
 
 [!include [banner](../includes/banner.md)]
@@ -145,7 +144,6 @@ Veldu línu og smelltu á hnappinn **Fjárhagsáætlunarlínur** til að keyra f
 Nota skal hnappana **Birgðaspá** og **Eftirspurnarspá** til að keyra þessar fyrirspurnir. Í báðum tilvikum leitar fyrirspurnin að spálínum sem gætu hafa stofnað línur fjárhagsáætlunar. 
 
 Viðbótarskýrslur sem eru tiltækar innihalda skýrsluna **Spástöður eftir fjárhagsáætlun**. Þessi skýrsla er sérlega gagnleg þegar á að ákvarða hvort stöðu hafi verið rétt úthlutað á fjárhagsáætlanir.
-
 
 
 

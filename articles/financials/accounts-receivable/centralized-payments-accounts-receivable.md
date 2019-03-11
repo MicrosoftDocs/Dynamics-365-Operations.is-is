@@ -1,13 +1,13 @@
 ---
-title: "Miðstýrðar greiðslur fyrir viðskiptakröfur"
-description: "Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota einn lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu færslu í marga lögaðila. Þessi skrá gefur dæmi sem sýna hvernig bókanir fyrir miðstýrðar greiðslur eru meðhöndlaðar í mismunandi aðstæðum."
+title: Miðstýrðar greiðslur fyrir viðskiptakröfur
+description: Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota einn lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu færslu í marga lögaðila. Þessi skrá gefur dæmi sem sýna hvernig bókanir fyrir miðstýrðar greiðslur eru meðhöndlaðar í mismunandi aðstæðum.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e9eb935d32e61b2cf0ec8710f6c2cfb18ecfe034
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7208acc35e656d12b3c4f88a090f36ecfdd4fdfb
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330748"
 ---
-
 # <a name="centralized-payments-for-accounts-receivable"></a>Miðstýrðar greiðslur fyrir viðskiptakröfur
 
 [!include [banner](../includes/banner.md)]
@@ -297,7 +296,6 @@ Fabrikam tekur á móti greiðslu að upphæð 75.00 frá viðskiptavini 4000, N
 | Viðskiptavinir (Fabrikam West)    |              | 75,00         |
 | Á gjalddaga frá Fabrikam East (Fabrikam West) | 25,00        |               |
 | Viðskiptavinir (Fabrikam West)    |              | 25,00         |
-
 
 
 

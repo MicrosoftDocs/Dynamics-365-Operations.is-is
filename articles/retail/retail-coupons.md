@@ -1,31 +1,30 @@
 ---
-title: "Setja upp afsláttarmiða fyrir smásölu"
-description: "Þetta efnisatriði gefur yfirlit yfir smásöluafsláttarmiða og útskýrir hvernig á að setja þá upp."
+title: Setja upp afsláttarmiða fyrir smásölu
+description: Þetta efnisatriði gefur yfirlit yfir smásöluafsláttarmiða og útskýrir hvernig á að setja þá upp.
 author: scott-tucker
 manager: AnnBe
 ms.date: 05/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336590"
 ---
-
 # <a name="set-up-coupons-for-retail-sales"></a>Setja upp afsláttarmiða fyrir smásölu
 
 [!include [banner](includes/banner.md)]
@@ -38,10 +37,10 @@ Hver afsláttarmiði tengist einum smásöluafslætti. Verðflokkurinn sem tengi
 
 Í raun eru afsláttarmiðar viðbót við smásöluafslætti. Afsláttarmiðinn felur í sér nauðsynlega afsláttarmiðakóða og strikamerki, ásamt tímabilum fyrir þessa kóða. Afsláttarmiðinn gefur einnig valkvæm notkunartakmörk og nauðsynlega eiginleika viðskiptavina. Í afslættinum kemur fram fyrir hvaða afurðahóp afsláttarmiðinn gildir. Verðflokkarnir fyrir afsláttinn hafa að geyma safn viðskiptavina, rásir eða vörulista sem afsláttarmiðinn gildir fyrir.
 
-Til að stofna afsláttarmiða stofnarðu afsláttinn og afsláttarmiðinn í sitthvoru lagi. Þú tengir þá svo saman með því að velja afsláttinn á afsláttarmiðasíðunni í Microsoft Dynamics 365 for Retail.
+Til að stofna afsláttarmiða stofnarðu afsláttinn og afsláttarmiðinn í sitthvoru lagi. Síðan tengirðu þá með því að velja afsláttinn á afsláttarsíðunni í Microsoft Dynamics 365 for Retail.
 
 > [!NOTE]
-> Þegar afsláttarmiði er tengdur við afslátt verða nokkrir reitir á afsláttarsíðiunni í Microsoft Dynamics 365 for Retail skrifvarðir vegna þess að stillingar afsláttarmiða stjórna þeim. Þessir reitir innihalda reitina fyrir stöðu og stöðluð dagsetningabil.
+> Þegar afsláttarmiði er tengdur við afslátt verða nokkrir reitir á afsláttarsíðunni í Microsoft Dynamics 365 for Retail skrifvarðir vegna þess að stillingar afsláttarmiða stjórna þeim. Þessir reitir innihalda reitina fyrir stöðu og stöðluð dagsetningabil.
 
 ### <a name="limited-use-coupons"></a>Afsláttarmiðar með takmarkaða notkun
 
@@ -76,9 +75,8 @@ Hægt er að skilgreina afsláttarmiða þannig að notkun þeirra sé takmörku
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Áhrif hlutauppfærslna á afsláttarmiða
 
-Margir aðgreindir eiginleikar í Dynamics 365 for Retail mynda virkni afsláttarmiða. Hægt er að uppfæra Microsoft Dynamics 365 for Retail headquarters (HQ) og rásina að hluta á milli eininga. Þess vegna er mikilvægt að skilja hvernig hlutauppfærslur hafa áhrif á virkni afsláttarmiða í heild sinni.
+Virkni afsláttarmiða samanstendur af mörgum ólíkum eiginleikum í Dynamics 365 for Retail. Microsoft Dynamics 365 for Retail-höfuðstöðvar og rásin er hægt að uppfæra að hluta til yfir þætti. Þess vegna er mikilvægt að skilja hvernig hlutauppfærslur hafa áhrif á virkni afsláttarmiða í heild sinni.
 
 - **HQ er uppfært að hluta en smásöluþjónn og sölustaður eru ekki uppfærðir.** Í uppfærslu á HQ er afsláttarmiði og afsláttarsíða uppfærð og smásöluverðskerfið er einnig uppfært. Ef aðeins einn af þessum þáttum er uppfærður munu sumar síður í Retail ekki passa við gögn um verðútreikninga. Þar af leiðandi gætu óvæntir útreikningar á afsláttum eða villur komið upp við útreikning á afsláttum.
 - **HQ er uppfært en smásöluþjónn og sölustaður eru ekki uppfærðir (N-1).** Þar sem ekki er hægt að uppfæra allar smásöluverslanir samtímis mælum við með því að þú uppfærir HQ áður en smásöluverslanir eru uppfærðar. Í atburðarás N-1 verður ný virkni sem er tengd afsláttarmiðum ekki tiltæk í verslunum sem hafa ekki verið uppfærðar. Til dæmis kynnir virkni afsláttarmiða til sögunnar „útiloka“ línur. Ef þú útilokar línur í afslætti eru þær ekki notaðar í smásöluverslun sem notast við eldri útgáfu.
 - **HQ er ekki uppfært en smásöluþjónn og sölustaður er uppfærður (N+1).** Þar sem uppfært verðkerfi í smásöluþjóni getur höndlað eldri afsláttarmiðakóða í verðútreikningi ætti uppfærslan ekki að hafa nein áhrif á virkni í þessu tilfelli.
-

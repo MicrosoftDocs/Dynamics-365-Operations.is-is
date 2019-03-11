@@ -1,13 +1,13 @@
 ---
 title: Skjalaprentun
-description: "Í Microsoft Dynamics 365 for Finance and Operations er hægt að prenta skjöl með því að nota annaðhvort staðbundinn prentara eða nettengd tæki. Þessi grein gefur yfirlit yfir hvernig skjöl eru prentuð."
+description: Í Microsoft Dynamics 365 for Finance and Operations er hægt að prenta skjöl með því að nota annaðhvort staðbundinn prentara eða nettengt tæki. Þessi grein gefur yfirlit yfir hvernig skjöl eru prentuð.
 author: TJVass
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 4fd20022ff91fedb6d0323e82fbe3c1acae38e48
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362051"
 ---
-
 # <a name="document-printing"></a>Skjalaprentun
 
 [!include [banner](../includes/banner.md)]
 
-Í Microsoft Dynamics 365 for Finance and Operations er hægt að prenta skjöl með því að nota annaðhvort staðbundinn prentara eða nettengd tæki. Þessi grein gefur yfirlit yfir hvernig skjöl eru prentuð.
+Í Microsoft Dynamics 365 for Finance and Operations er hægt að prenta skjöl með því að nota annaðhvort staðbundinn prentara eða nettengt tæki. Þessi grein gefur yfirlit yfir hvernig skjöl eru prentuð.
 
 ## <a name="printing-overview"></a>Yfirlit prentunar
 
-Microsoft Dynamics 365 for Finance and Operations veitir samþættar þjónustur og biðlaraforrit sem auðvelda að búa til, geyma og dreifa skjölum sem styðja viðskiptastarfsemi. Í Finance and Operations er hægt að prenta skjöl með því að nota annaðhvort staðbundinn prentara eða nettengt tæki. Að auki er hægt að flytja út síður og skýrslur Finance and Operations beint frá viðskiptavini, sem PDF-skrár eða Microsoft Office-skjöl. Að lokum gerir úthlutað vinnuálag þér kleift að prenta viðskiptaskjöl beint úr fartæki með því að nota nettilföng. Þótt prentskilyrði geta verið breytileg, þurfa allar atvinnugreinar yfirleitt að búa til afrit af viðskiptaskjölum með því að nota Finance and Operations. Prentun skjala á nettækjum frá hýstum forritum hefur í för með sér einstakt sett af áskorunum. Hér eru nokkur dæmi:
+Microsoft Dynamics 365 for Finance and Operations veitir samþættar þjónustur og biðlaraforrit sem auðvelda að búa til, geyma og dreifa skjölum sem styðja viðskiptastarfsemi. Í Finance and Operations er hægt að prenta skjöl með því að nota annaðhvort staðbundinn prentara eða nettengt tæki. Að auki er hægt að flytja út síður og skýrslur Finance and Operations beint frá viðskiptavini, sem PDF-skrár eða Microsoft Office skjöl. Að lokum gerir úthlutað vinnuálag þér kleift að prenta viðskiptaskjöl beint úr fartæki með því að nota nettilföng. Þótt prentskilyrði geta verið breytileg, þurfa allar atvinnugreinar yfirleitt að búa til afrit af viðskiptaskjölum með því að nota Finance and Operations. Prentun skjala á nettækjum frá hýstum forritum hefur í för með sér einstakt sett af áskorunum. Hér eru nokkur dæmi:
 
 - Prentrekill er hugsanlega ekki tiltækur á tæki notanda.
 - Tæki notanda kann að vera ótengt fyrirtækjanetinu.
@@ -76,4 +75,3 @@ Eftirfarandi skýringarmynd sýnir grunníhluti sem hjálpa til við að styðja
 [![þjónustu-hlutar-fyrir-net-prentun\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Athugaðu að hægt er að skrá einn prentara með mörgum miðlum skjalasendingar. Til að leysa kjörstillingar prentara notar hýst þjónusta netslóðina sem ber kennsl á hvern prentara fyrir sig. Þar af leiðandi, jafnvel þegar prentari er skráður af mörgum biðlurum, birtist hann sem eitt val á lista yfir prentara sem eru í boði í forritum Finance and Operations.
-

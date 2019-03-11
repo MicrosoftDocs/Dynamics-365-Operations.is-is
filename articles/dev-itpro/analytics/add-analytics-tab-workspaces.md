@@ -1,13 +1,13 @@
 ---
-title: "Bæta greiningu við vinnusvæði með Power BI Embedded"
-description: "Þetta efnisatriði sýnir hvernig á að fella inn Power BI-skýrslu á flipann Greiningar á vinnusvæði."
+title: Bæta greiningu við vinnusvæði með Power BI Embedded
+description: Þetta efnisatriði sýnir hvernig á að fella inn Power BI skýrslu í greiningarflipann á vinnusvæði.
 author: tjvass
 manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -15,27 +15,26 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a190e15dc304f60739c80d75222830ee737c5a32
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355220"
 ---
-
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Bæta greiningu við vinnusvæði með Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Þessi eiginleiki er studdur í Dynamics 365 tfor Finance and Operations (útgáfu 7.2 og seinni).
+> Þessi eiginleiki er studdur í Dynamics 365 for Finance and Operations (útgáfa 7.2 og síðar).
 
 ## <a name="introduction"></a>Inngangur
-Þetta efnisatriði sýnir hvernig á að fella inn Microsoft Power BI-skýrslu á flipann **Greiningar** á vinnusvæði. Í dæminu sem er gefið hér stækkum við vinnusvæðið **Stjórnun bókana** í forritinu Bílaflotastjórnun til að fella inn greiningarvinnusvæði á  **Greiningarflipa**.
+Þetta efnisatriði sýnir hvernig á að fella inn Microsoft Power BI skýrslu í flipanum **Greiningar** á vinnusvæði. Í dæminu sem er gefið hér stækkum við vinnusvæðið **Stjórnun bókana** í forritinu Bílaflotastjórnun til að fella inn greiningarvinnusvæði á  **Greiningarflipa**.
 
 ## <a name="prerequisites"></a>Frumskilyrði
 + Aðgangur að þróunarumhverfi sem keyrir á Verkvangsuppfærslu 8 eða nýrri.
-+ Greiningarskýrsla (.pbix skrá) sem var búin til með Microsoft Power BI Desktop, og sem er með gagnalíkan sem kemur úr gagnagrunni Einingarverslunarinnar.
++ Greiningarskýrsla (.pbix skrá) sem var búin til með því að nota Microsoft Power BI Desktop, og það hefur gagnalíkan sem er sótt frá gagnagrunni einingaverslunar.
 
 ## <a name="overview"></a>Yfirlit
 Hvort sem þú útvíkkar fyrirliggjandi forritsvinnusvæði eða býrð til þitt eigið vinnusvæði geturðu notað innfelld greiningaryfirlit til að fá skýrt og gagnvirkt yfirlit yfir viðskiptagögnin þín. Ferlið til að bæta við greiningarvinnusvæðisflipa er í fjórum skrefum.
@@ -46,12 +45,12 @@ Hvort sem þú útvíkkar fyrirliggjandi forritsvinnusvæði eða býrð til þi
 4. Valfrjálst: Bættu við skrárendingum til að sérsníða yfirlitið.
 
 > [!NOTE]
-> Nánari upplýsingar um hvernig á að búa til greiningarskýrslur er að finna íí [Hafist handa með Power BI skjáborð](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Á þessari síðu er hægt að nálgast upplýsingar sem geta hjálpað þér að búa til áhugaverðar greiningarskýrslulausnir.
+> Nánari upplýsingar um hvernig á að búa til greiningarskýrslur er að finna í [Hafist handa með Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Á þessari síðu er hægt að nálgast upplýsingar sem geta hjálpað þér að búa til áhugaverðar greiningarskýrslulausnir.
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>Bættu við .pbix file sem tilfangi
-Áður en hafist er handa þarf að stofna eða sækja Power BI skýrsluna sem þú munt fella inn í vinnusvæðið. Nánari upplýsingar um hvernig á að búa til greiningarskýrslur er að finna íí [Hafist handa með Power BI skjáborð](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
+Áður en þú byrjar þarftu að búa til eða fá Power BI skýrsluna sem þú vilt fella inn í vinnusvæðið. Nánari upplýsingar um hvernig á að búa til greiningarskýrslur er að finna í [Hafist handa með Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
 
-Fylgdu eftirfarandi skrefum til að bæta við .pbix skrá sem Visual Studio verkgervingu.
+Fylgdu þessum skrefum til að bæta við .pbix-skrá sem Visual Studio gerving verks.
 
 1. Stofna nýtt verk í viðeigandi líkani.
 2. Í Solution Explorer skaltu velja verkefnið, hægrismella og síðan velja **Bæta við** \> **Nýtt atriði**.
@@ -154,7 +153,7 @@ Nú hefurðu lokið því verki að bæta við viðskiptagrunni til að virkja i
 ## <a name="reference"></a>Tilvísun
 
 ### <a name="pbireporthelperinitializereportcontrol-method"></a>PBIReportHelper.initializeReportControl aðferð
-Þessi hluti veitir upplýsingar um hjálparklasann sem er notaður til að fella inn Power BI skýrslu (.pbix tilfang) í skjámyndarhópsstýringu.
+Þessi kafli veitir upplýsingar um hjálparklasann sem er notaður til að fella inn Power BI skýrslu (.pbix-tilfang) í stýringu skjámyndarflokks.
 
 #### <a name="syntax"></a>Málskipun
 ```
@@ -172,9 +171,8 @@ public static void initializeReportControl(
 | Nafn             | lýsing                                                                                                  |
 |------------------|--------------------------------------------------------------------------------------------------------------|
 | resourceName     | Heiti .pbix tilfangsins.                                                                              |
-| formGroupControl | Skjámyndarhópsstýring til að nota Power BI skýrslustýringuna á.                                              |
+| formGroupControl | Stýring skjámyndarflokks til að nota Power BI skýrslustýringu í.                                              |
 | defaultPageName  | Sjálfgefið síðuheiti.                                                                                       |
 | showFilterPane   | Boole-gildi sem gefur til kynna hvort síusvæðið ætti að vera sýnt (**satt**) eða falið (**ósatt**).     |
 | showNavPane      | Boole-gildi sem gefur til kynna hvort yfirlitssvæði ætti að vera sýnt (**satt**) eða falið (**ósatt**). |
-| defaultFilters   | Sjálfgefnar síur Power BI skýrslunnar.                                                                 |
-
+| defaultFilters   | Sjálfgefna síur fyrir Power BI skýrslu.                                                                 |

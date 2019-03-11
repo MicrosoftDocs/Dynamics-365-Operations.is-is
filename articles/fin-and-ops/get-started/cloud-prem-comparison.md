@@ -1,30 +1,29 @@
 ---
-title: "Samanburður á skýi og eiginleikum á staðnum"
-description: "Efnisatriðið sýnir hvaða eiginleikar eru studdir í skýi og staðbundið."
+title: Samanburður á skýi og eiginleikum á staðnum
+description: Efnisatriðið sýnir hvaða eiginleikar eru studdir í skýi og staðbundið.
 author: robinarh
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Operations
 ms.custom: 89563
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
+ms.openlocfilehash: 2abddec24776dc84860116cc708e4d8e102dc503
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 596cfa056c6f2e64f554b643bb5a61d09c7bf20c
-ms.openlocfilehash: 58bba3dead4d2a8ed3ae424694377e410df16f4c
-ms.contentlocale: is-is
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313981"
 ---
-
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Samanburður á skýi og eiginleikum á staðnum
 
 [!include [banner](../includes/banner.md)]
@@ -41,12 +40,12 @@ ms.lasthandoff: 12/04/2018
 | Svæði | Eiginleiki | Ský | Innanhúss |
 |---|---|---|---|
 | Samræmi og Vottun | | Já | Já |
-| | SOC 1 gerð 1 vottun | Já | Númer |
+| | SOC 1 gerð 1 vottun | Já | Ekkert |
 | Kostnaðarbókhald | | Já | Já |
-| | Efnispakki fyrir kostnaðarbókhald fyrir Power BI | Já | Númer |
-| | Vinnusvæði kostnaðarbókhalds fyrir fartækjaforrit | Já | Númer |
+| | Efnispakki fyrir kostnaðarbókhald fyrir Power BI | Já | Ekkert |
+| | Vinnusvæði kostnaðarbókhalds fyrir fartækjaforrit | Já | Ekkert |
 | Kostnaðarstýring | | Já | Já |
-| | Efnispakki fyrir kostnaðarstjórnun fyrir Power BI | Já | Númer |
+| | Kostnaðarstjórnunar-efnispakki fyrir Power BI | Já | Ekkert |
 | Gagnastjórnun og samþætting | | Já | Já |
 | | Skilgreiningastýrð viðbót | Já | Númer |
 | | Flytja út gögn í eigin gagnavöruhús | Já | Já |
@@ -57,12 +56,12 @@ ms.lasthandoff: 12/04/2018
 | Hjálp | | Já | Númer |
 | Mannauður | | Já | Já |
 | Greind | | Já | Já |
-| | Rafræn skýrslugerð (ER) - Samþætting við LCS | Já | Númer |
-| | Rafræn skýrslugerð (ER) - Samþætting við SharePoint | Já | Númer |
-| | Sameining með PowerBI.com | Já | Númer |
+| | Rafræn skýrslugerð (ER) - Samþætting við LCS | Já | Ekkert |
+| | Rafræn skýrslugerð (ER) - Samþætting við SharePoint | Já | Ekkert |
+| | Sameining með PowerBI.com | Já | Ekkert |
 | | Greiningarvinnusvæði | Já | Númer |
-| | Snjallrekstrarferlar: Ráðleggingar´ | Já | Númer |
-| | Skrifa Power BI skýrslur með OData með því að nota Power BI skjáborð eða Excel PowerQuery verkfæri | Já | Númer |
+| | Snjallrekstrarferlar: Ráðleggingar´ | Já | Ekkert |
+| | Skrifa Power BI skýrslur með OData með því að nota Power BI skjáborð eða Excel PowerQuery verkfæri | Já | Ekkert |
 | | SQL Server Reporting Services (SSRS) styður kvörðun út | Já | Númer |
 | | Telemetry er flutt í skýið | Já | Númer |
 | Birgðir | | Já | Já |
@@ -77,15 +76,15 @@ ms.lasthandoff: 12/04/2018
 | Payroll | | Já | Já |
 | | Beingreiðsla | Já | Númer |
 | Innkaup og aðföng | | Já | Já |
-| | Aðgangur að ytri vörulista úr innkaupabeiðni | Já | Númer |
-| | Kaupa Power BI eyðslugreiningarskýrslur | Já | Númer |
-| Afurðarupplýsingastjórnun | | Já | Já |
+| | Aðgangur að ytri vörulista úr innkaupabeiðni | Já | Ekkert |
+| | Eyðslugreining innkaupa Power BI skýrslur | Já | Ekkert |
+| Vöruupplýsingastjórnun | | Já | Já |
 | Afurðarsniðmát | | Já | Já |
 | Framleiðsla | | Já | Já |
-| | Power BI skýrslur um framleiðsluafköst | Já | Númer |
+| | Framleiðsluafköst Power BI skýrslur | Já | Ekkert |
 | Verkefnastjórnun og bókhald | | Já | Já |
-| Sölur | | Já | Já |
-| | Power BI skýrslur um sölu- og arðsemisafköst | Já | Númer |
+| Sala | | Já | Já |
+| | Sölu- og arðsemisframmistaða Power BI skýrslur | Já | Ekkert |
 | Öryggi | | Já | Já |
 | Þjónustustjórnun | | Já | Já |
 | Stjórnun aðfangakeðju | | Já | Já |
@@ -93,7 +92,7 @@ ms.lasthandoff: 12/04/2018
 | Samstarf lánardrottna | | Já | Númer |
 | Vöruhúsakerfi | | Já | Já |
 | | Fartækjaforrit fyrir vöruhús | Já | Já |
-| | Power BI-skýrslur fyrir vöruhús | Já | Númer |
+| | Vörhús Power BI skýrslur | Já | Ekkert |
 | Vefbiðlari | | Já | Já |
 | | Verkskráning - Vista eða sækja verkskráningar úr BPM-safni | Já | Númer |
 | Stuðningur | | Já | Já |
@@ -111,9 +110,9 @@ ms.lasthandoff: 12/04/2018
 | | Þjónustuumhverfi | Já | Númer |
 | Rakningarþáttari og tímamælir fyrir afköst | | Já | Númer |
 | Uppfæra | | Já | Já |
-| | Uppfæra | Já | Númer |
-| | Uppfærsla og stuðningur fyrir fyrri útgáfur | Já | Númer |
-| Visual Studio Þróun | | Já | Já |
+| | Uppfæra | Já | Ekkert |
+| | Uppfærsla og stuðningur fyrir fyrri útgáfur | Já | Ekkert |
+| Visual Studio þróun | | Já | Já |
 
 ### <a name="retail"></a>Retail 
 Til að sjá lista yfir smásölueiginleika sem eru tiltækir í uppsetningu á staðnum skal skoða [Smásölueiginleikar sem eru í boði í uppsetningu á staðnum](../../retail/retail-onprem.md).
@@ -127,4 +126,3 @@ Til að sjá lista yfir smásölueiginleika sem eru tiltækir í uppsetningu á 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 - [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum](features-not-implemented-on-prem.md)
-

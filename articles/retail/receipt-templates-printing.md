@@ -1,13 +1,13 @@
 ---
-title: "Setja upp og hanna kvittunarsnið"
-description: "Þessi grein lýsir því hvernig á að breyti útliti skjámynda til að stjórna því hvernig kvittanir, reikningar og önnur skjöl eru prentuð. Microsoft Dynamics 365 for Retail inniheldur útlitshönnuð skjámyndar sem hægt er að nota til að búa til og breyta útliti ýmissa skjámynda á auðveldan hátt."
+title: Setja upp og hanna kvittunarsnið
+description: Þessi grein lýsir því hvernig á að breyti útliti skjámynda til að stjórna því hvernig kvittanir, reikningar og önnur skjöl eru prentuð. Microsoft Dynamics 365 for Retail inniheldur útlitshönnuður skjámyndar sem gerir notendum kleift að búa til og breyta útliti ýmissa skjámynda á auðveldan hátt.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFormLayout
 audience: Application User
 ms.reviewer: josaw
@@ -19,22 +19,21 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 13249e1b109586b2c520a1be30c47ac4393abe49
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357819"
 ---
-
 # <a name="set-up-and-design-receipt-formats"></a>Setja upp og hanna kvittunarsnið
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein lýsir því hvernig á að breyti útliti skjámynda til að stjórna því hvernig kvittanir, reikningar og önnur skjöl eru prentuð. Microsoft Dynamics 365 for Retail inniheldur útlitshönnuð skjámyndar sem hægt er að nota til að búa til og breyta útliti ýmissa skjámynda á auðveldan hátt.
+Þessi grein lýsir því hvernig á að breyti útliti skjámynda til að stjórna því hvernig kvittanir, reikningar og önnur skjöl eru prentuð. Microsoft Dynamics 365 for Retail inniheldur útlitshönnuður skjámyndar sem gerir notendum kleift að búa til og breyta útliti ýmissa skjámynda á auðveldan hátt.
 
 > [!IMPORTANT]
-> Þú verður að setja upp útlit skjámynda og forstillingar kvittana til að prenta kvittanir og önnur skjöl úr Retail Modern POS og Cloud POS (sölukerfi í skýinu). Hægt er að hafa mörg útlit skjámynda í kvittunarforstillingu. Síðan geturðu úthlutað kvittunarforstillingu á prentara með því að breyta vélbúnaðarreglu.
+> Setja verður upp sniðsútlit skjámyndar og kvittunarforstillingar til að prenta móttökur og önnur skjöl úr Retail Modern POS og sölukerfi í skýinu. Hægt er að hafa mörg útlit skjámynda í kvittunarforstillingu. Síðan geturðu úthlutað kvittunarforstillingu á prentara með því að breyta vélbúnaðarreglu.
 
 ## <a name="set-up-a-receipt-format"></a>Setja upp snið kvittunar
 
@@ -55,8 +54,8 @@ Nota skal útlitshönnuð skjámyndarinnar til að búa til útlit skjámyndarin
 1. Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Sölustaður** &gt; **Snið kvittunar**..
 2. Á **kvittunarsnið** síðunni, veljið útlit skjámyndar og smella síðan á **Hönnuður**.
 3. Smellið á **Keyra** til að byrja að setja upp hönnuður smásöluhönnuðar.
-4. Á Tilkynningarslá sem mun birtast neðst í Internet Explorer glugganum , smellið á **Opna** til að byrja að setja upp eins-smells hönnuð. (Tilkynningaslá gæti birst annars staðar í öðrum vöfrum). Framvinduvísir sýnir framvindu uppsetningarferlis.
-5. Þegar uppsetningu er lokið skal færa inn notandanafn og aðgangsorð í Dynamics 365 for Retail og smella svo á **Innskráning** til að ræsa hönnuðinn.
+4. Á Tilkynningarslá sem mun birtast neðst í Internet Explorer glugganum, smellið á **Opna** til að byrja að setja upp eins-smells hönnuð. (Tilkynningaslá gæti birst annars staðar í öðrum vöfrum). Framvinduvísir sýnir framvindu uppsetningarferlis.
+5. Eftir að uppsetningu er lokið skal færa inn Dynamics 365 for Retail notandanafn og aðgangsorð, og smellið svo á **Innskráningu** til að hefja hönnuðurinn.
 6. Eftir að skilríkin þín eru villuleitaðar og hönnuður hefst er hægt að byrja að hanna kvittunarsnið eða breyta fyrirliggjandi snið.
 7. Til að stofna einingar skjámyndarinnar skal velja **Haus**, **Línur** eða **síðufótur** hlutann og draga síðan einingu úr hlutanum yfir í vinnusvæðið. Flestar einingar innihalda breytur sem eru sjálfkrafa fylltar út með gögnum úr gagnagrunninum. Aðrar einingar, svo sem **Texti**, gera kleift að prenta sérsniðinn texta á kvittunina.
 
@@ -83,4 +82,3 @@ Kvittunarforstillingar eru tengdar beint í prentara með vélbúnaðarreglu.
 
 > [!NOTE]
 > Ef tveir prentarar eru notaðir, er hægt að nota einn prentara til að prenta staðlaða 40 dálka thermal-kvittanir. Önnur prentara er yfirleitt notað til að prenta kvittun af heilsíðugerð, sem krefjast frekari upplýsingar. Þessar gerðir kvittana innifela pöntun viðskiptavinar og reikningum viðskiptavina.
-

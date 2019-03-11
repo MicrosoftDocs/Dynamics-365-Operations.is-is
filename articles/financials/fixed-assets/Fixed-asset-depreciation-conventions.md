@@ -1,13 +1,13 @@
 ---
 title: Afskriftarreglur eigna
-description: "Þetta efnisatriði gefur yfirlit yfir afskriftarreglur á eignum."
+description: Þetta efnisatriði gefur yfirlit yfir afskriftarreglur á eignum.
 author: saraschi2
 manager: AnnBe
 ms.date: 03/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ff8575749a33321450ea61fe1f01105c005e9092
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c69fd798c2e978935a63b079fb11c68d8555594c
-ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337441"
 ---
-
 # <a name="fixed-asset-depreciation-conventions"></a>Afskriftarreglur eigna
 
 [!include [banner](../includes/banner.md)]
@@ -45,5 +44,4 @@ Hægt er að úthluta afskriftarreglum á uppsetningu eignaflokkabókar. Í þv�
 | Miður mánuður (15. mánaðar) |                                                                                                                                                        Til að reikna út afskriftir fyrir árið sem eignin var tekin í notkun skal margfalda afskriftirnar fyrir heilt ár með broti. Teljari (efri talan) brotsins er fjöldi heilra mánaða á árinu sem eignin er í notkun, auk 1/2 eða (0,5). Nefnarinn (neðri talan) er 12. Ef eignin er losuð fyrir lok afskriftartímabilsins skal nota sömu aðferðina til að reikna út afskriftir fyrir ráðstöfunarárið.                                                                                                                                                        |
 | Hálft ár (byrjun árs) |                                                                                                                                                                                                                                                          Eignir sem hafa dagasetninguna <strong>Tekin í notkun</strong> á fyrri helmingi ársins byrja að rýrna á fyrsta degi ársins (allt árið). Eignir sem hafa dagsetninguna <strong>Tekin í notkun</strong> á seinni hluta ársins byrja að rýrna á miðju ári.                                                                                                                                                                                                                                                          |
 |   Hálft ár (næsta ár)   |                                                            Eignir sem hafa dagasetninguna <strong>Tekin í notkun</strong> á fyrri helmingi ársins byrja að rýrna á fyrsta degi ársins (allt árið). Eignir sem hafa dagsetninguna <strong>Tekin í notkun</strong> á seinni hluta árs byrja að rýrna á fyrsta degi næsta árs. Eignir sem eru teknar úr umferð á fyrri hluta árs teljast á lausar undan rýrnun á síðasta degi fyrra árs. Allar afskriftir sem eru bókaðar á yfirstandandi ári verða að vera bakfærðar eða leiðréttar. Eignir sem eru teknar úr umferð á seinni hluta árs teljast lausar undan rýrnun á síðasta degi þess árs sem eignin er tekin úr umferð.                                                            |
-
 

@@ -1,32 +1,31 @@
 ---
-title: "Uppfylling öryggisbirgða fyrir vörur"
-description: "Þetta efni fjallar um uppfylling öryggisbirgða og hvernig á að setja upp magn öryggis birgðir fyrir vörur."
+title: Uppfylling öryggisbirgða fyrir vörur
+description: Þetta efni fjallar um uppfylling öryggisbirgða og hvernig á að setja upp magn öryggis birgðir fyrir vörur.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 147cc3984e6dc641209beefdb3545615b42767a2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: d6ecb346f7bfa54a4e16307f623c82acb3a86892
-ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341535"
 ---
-
 # <a name="safety-stock-fulfillment-for-items"></a>Uppfylling öryggisbirgða fyrir vörur
 
 [!include [banner](../includes/banner.md)]
@@ -117,4 +116,3 @@ Að uppfylla kröfufærslu öryggisbirgða er tekið úr forgangi ef kerfið ák
 Í þekjufasa aðaláætlanagerðar er ekki áfylling öryggisbirgða ekki lengur sett úr forgangi. Nota má lagerbirgðir á undan öllum öðrum tegundir eftirspurnar. Við útreikning tafa verður bætt við nýjum rökum til að fara yfir seinkaðar sölulínur, BOM línu kröfur og allar aðrar tegundir eftirspurnir, til að ákvarða hvort hægt væri að afhenda þau á réttum tíma, að því tilskildu að öryggisbirgðir sé notaður. Ef kerfið gefur til kynna að það geti dregið úr töfum með því að nota öryggisbrigðir, þá munu sölulínur eða BOM línur setja öryggisbirgðir í staðinn fyrir upphaflega þekju sína og kerfið muni kveikja á áfyllingu öryggisbirgða í staðinn.
 
 Ef áætlunin eða varan er ekki settur upp til útreiknings seinkunar, þá hafa skorður öryggisbirgðirnar sama forgang og aðrar eftirspurnartegundir. Þetta þýðir að það er frátekning á lager og aðrar tiltækar birgðir á undan öðrum tegundir eftirspurnar.
-

@@ -1,13 +1,13 @@
 ---
-title: "Stofna greiðslur lánardrottins með greiðslutillögu"
-description: "Þessi Umfjöllunarefni veitir yfirlit yfir valkosti greiðslutillagna og inniheldur dæmi sem sýna hvernig greiðslutillögur virka."
+title: Stofna greiðslur lánardrottins með greiðslutillögu
+description: Þessi Umfjöllunarefni veitir yfirlit yfir valkosti greiðslutillagna og inniheldur dæmi sem sýna hvernig greiðslutillögur virka.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 04/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 332a18eb98811505b38c023c97c22b86a9367af1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5afdace14d1db4b36027634b3af3df1029ae12a2
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327413"
 ---
-
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Stofnun greiðslna lánardrottins með greiðslutillögu
 
 [!include [banner](../includes/banner.md)]
@@ -70,7 +69,7 @@ Fyrirspurn um greiðslutillögu inniheldur mismunandi flipa, sem hver um sig hef
 
 ### <a name="option-1-by-cash-discount"></a>Valkostur 1: Eftir staðgreiðsluafslætti
 
-Arnie velur°**staðgreiðsluafsláttur** sem gerð reikningstillögu. Hún færir inn dagsetningatímabilið 26.júní til 10.júlí. Eftirfarandi reikningar eru ekki teknir með í tillögunni:
+Apríl velur  **staðgreiðsluafsláttur** sem gerð reikningstillögu. Hún færir inn dagsetningatímabilið 26.júní til 10.júlí. Eftirfarandi reikningar eru ekki teknir með í tillögunni:
 
 -   1002, þar sem afsláttardagsetningin 4. Júlí er svið greiðsludagsetninga.
 -   1004, þar sem afsláttardagsetningin 1. Júlí er svið greiðsludagsetninga.
@@ -120,8 +119,7 @@ Víddarstjórnun gera notandanum kleift að stjórna flokkun myndaðra lína me�
 
 #### <a name="bank-account-selection"></a>Val á bankareikningi
 
-Þú getur skilgreint staðlaðan greiðslulykil fyrir debet samkvæmt greiðsluhætti óháð um hvaða land ræðir. Þetta er stillt í greiðslulínur sem voru myndaðar af tillögu. Með aðgerðinni bankareikningur, er hægt að skilgreina mörgum bankareikningum fyrir debet sem er stjórnað eftir vídd og gjaldmiðill eða samsetningu þessara til að nota mismunandi bankareikninga fyrir debet, allt eftir samsetningu hvers fyrir sig. Hægt er að setja upp þessar samsetningar í **Greiðsluaðferðir** síðu með því að nota **bankareikninga** hnappinn sem er tiltæk fyrir hvern greiðslumáta með **gerð bókunarlykils** = **Banka**.
-
+Þú getur skilgreint staðlaðan greiðslulykil fyrir debet samkvæmt greiðsluhætti óháð um hvaða land ræðir. Þetta er stillt í greiðslulínur sem voru myndaðar af tillögu. Með aðgerðinni bankareikningur, er hægt að skilgreina mörgum bankareikningum fyrir debet sem er stjórnað eftir vídd og gjaldmiðill eða samsetningu þessara til að nota mismunandi bankareikninga fyrir debet, allt eftir samsetningu hvers fyrir sig. Hægt er að setja upp þessar samsetningar í **Greiðsluaðferðir** síðu með því að nota  **bankareikninga** hnappinn sem er tiltæk fyrir hvern greiðslumáta með **Gerð bókunarlykils** = **Banka**.
 
 
 

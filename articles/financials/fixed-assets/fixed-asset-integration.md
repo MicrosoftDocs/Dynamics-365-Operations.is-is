@@ -1,13 +1,13 @@
 ---
-title: "Samþætting eigna"
-description: "Eignir má samþætta við fjárhag, birgðastjórnun, viðskiptakröfur og viðskiptaskuldir. Einnig er hægt að setja upp eignir þannig að þær séu samþættar með innkaupapöntunum."
+title: Samþætting eigna
+description: Eignir má samþætta við fjárhag, birgðastjórnun, viðskiptakröfur og viðskiptaskuldir. Einnig er hægt að setja upp eignir þannig að þær séu samþættar með innkaupapöntunum.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: af5d33de3af05668bc9aedc94894b12d16daf78e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a598a562b35a8bb1e0ede6bb8f3dc0515c162a06
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336981"
 ---
-
 # <a name="fixed-assets-integration"></a>Samþætting eigna
 
 [!include [banner](../includes/banner.md)]
@@ -93,7 +92,6 @@ Til að eyða tengingu milli verks og eignar, skal hreinsa reitinn **Númer eign
 Einnig er hægt að ákvarða eign sem þú stofnar eða framleiðir sem hluta af áætluðu verki. Við lok matsverks, er hægt að bóka eignakaupfærslu sjálfkrafa.
 
 Frekari upplýsingar eru í [Kaupa eignir með innkaupum](acquire-assets-procurement.md)
-
 
 
 

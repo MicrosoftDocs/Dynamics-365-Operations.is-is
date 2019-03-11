@@ -1,29 +1,29 @@
 ---
-title: "Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (31. október 2018)"
-description: "Í þessu efnisatriði er lýst nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent Core HR."
+title: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (31. október 2018)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/31/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: c5acd09e25ecd5fefa637342f83d0ee0f1891402
-ms.contentlocale: is-is
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304854"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-31-2018"></a>Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (31. október 2018)
 
@@ -99,4 +99,3 @@ Data Management Framework (DMF) einingin HcmPersonalContactPersonEntity hefur ve
 ## <a name="known-issue"></a>Þekkt vandamál
 - **Vandamál**: Þegar nýtt viðhengi er bætt við starfsmann eru hnapparnir **Nýtt** og **Breyta** skyggðir. 
 - **Hjáleið:** Áður en þú opnar viðhengissíðu skaltu ganga úr skugga um að FactBoxes á síðunni **Starfsmenn** séu lokaðir. Ef upplýsingareitirnir eru lokaðir þegar síðan **Starfskraftar** er hlaðið inn verða viðhengishnapparnir gerðir virkir. (Þetta vandamál verður lagað í næstu verkvangsuppfærslu.)
-

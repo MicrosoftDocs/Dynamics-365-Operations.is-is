@@ -1,13 +1,13 @@
 ---
 title: Tilfangageta
-description: "Þessi grein gefur upplýsingar um tilfangagetu. Geta er hæfni rekstrartilfanga til að framkvæma tiltekinn verkþátt. Greinin útskýrir hvernig getu og tengdum hugtökum, svo sem Færnistig og forgang, eru notaðar til að velja viðeigandi tilföng fyrir aðgerð."
+description: Þessi grein gefur upplýsingar um tilfangagetu. Geta er hæfni rekstrartilfanga til að framkvæma tiltekinn verkþátt. Greinin útskýrir hvernig getu og tengdum hugtökum, svo sem Færnistig og forgang, eru notaðar til að velja viðeigandi tilföng fyrir aðgerð.
 author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrCapability, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 567b4c5544f2a58801fefb1aa9d4c72815913910
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 533faf78e4cc9a091d64f7c6a0f82d14158710c8
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319294"
 ---
-
 # <a name="resource-capabilities"></a>Tilfangageta
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ Rekstrartilföngum sem hafa sömu getu er hægt að úthluta forgangi. Þannig a
 
 ## <a name="competencies-for-human-resources"></a>Hæfni fyrir mannauð
 Þegar þú ert með rekstrartilföng af gerðinni **Mannauður** sem eru tengd við starfsmenn í Mannauði, getur þú einnig nýtt hæfni starfsmanna þegar tilfangaþörf fyrir framleiðsluleið er skilgreind. Með öðrum orðum, er einnig hægt að tilgreina þarfir fyrir ákveðna hæfni, námskeið, skírteini eða titla. Áætlunarkerfið getur svo valið tilföng sem eru tengd við starfsmenn og valið mun byggjast á hæfni þeirra starfsmanna. Hæfni er sett upp í Mannauði, ekki á síðunni **Tilfangageta** síðu. Þegar hæfni, námskeið, skírteini eða titla eru skilgreind sem tilfangaþarfir, verður að nota Mannauðseiginleikann og tengja hvert tilfang af gerðinni **Mannauður** við samsvarandi starfsmann. Ef ekki er verið að nota virknina Mannauður er hægt að skilgreina getu á síðunni **Tilfangagetu** sem líkir eftir eða afritar hæfni úr Mannauði. Hins vegar inniheldur síðan **Tilfangageta** ekki virkni sem krafist er til að vinna með hæfni, námskeið, vottanir eða titla.
-
 
 
 

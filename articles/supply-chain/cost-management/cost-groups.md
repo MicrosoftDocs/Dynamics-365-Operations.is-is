@@ -1,13 +1,13 @@
 ---
-title: "Kostnaðarflokkar"
-description: "Kostnaðarflokkar veita grunn fyrir sundurliðun og greiningu kostnaðarframlegðar í útreiknuðum kostnaði framleiddrar vöru, svo sem kostnaðarframlegðar fyrir efni, vinnu og óbeinan kostnað. Sundurliðun kostnaðarflokka hefur nokkur samheiti í framleiðsluumhverfi, til dæmis niðurbrot kostnaðar eða flokkun kostnaðar."
+title: Kostnaðarflokkar
+description: Kostnaðarflokkar veita grunn fyrir sundurliðun og greiningu kostnaðarframlegðar í útreiknuðum kostnaði framleiddrar vöru, svo sem kostnaðarframlegðar fyrir efni, vinnu og óbeinan kostnað. Sundurliðun kostnaðarflokka hefur nokkur samheiti í framleiðsluumhverfi, til dæmis niðurbrot kostnaðar eða flokkun kostnaðar.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCostGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1f1f97981c33c72c71e055848e874002dad73813
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f44099c2ce30d917838733af072721dd79148d27
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337418"
 ---
-
 # <a name="cost-groups"></a>Kostnaðarflokkar
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Hægt er að úthluta kostnaðarflokki gerð og hegðun í tilgangi fyrir aukale
 
 -   **Gerð kostnaðarflokks** - Hverjum kostnaðarflokki verður að úthluta gerð kostnaðarflokkstil aða tilgreina að kostnaðarflokk gildir um beinu efni, beinni framleiðslu, beinni útvistun,eða að tilgreina hana sem óbeinni eða óskilgreindri. kostnaðarflokki sem er tilgreindur sem beint efni er hægt að úthluta á vörur. Kostnaðarflokki beinnar framleiðslu er hægt að úthluta til kostnaðartegunda. Hægt er að úthluta kostnaðarflokk beinnar útvistunar við afurðargerð þjónustu, sem gerir kleift að flokka kostnað sem tengist innkaupapöntun þjónustu til verkþátta undirverktaka . Óbeinum kostnaðarflokki er hægt að úthluta til óbeins kostnaðar fyrir álag eða taxta. Kostnaðarflokki sem er tilgreindur sem óskilgreindur er hægt að úthluta á vörur, kostnaðarflokk, eða óbeinn kostnaður Úthlutun á gerð kostnaðarflokks þjónar nokkur málefni. Fyrst, það takmarkar getuna til að úthluta kostnaðarflokki og skoða fellilista yfir viðeigandi kostnaðarflokka. Önnur, býður upp á viðbótar sundurliðun fyrir skýrslugerð. Þriðji, hún er notuð til að úthluta fjárhagslyklum fyrir frávik.
 -   **Hegðun** − Hægt er að velja hegðun til að úthluta hverjum kostnaðarflokki en hún tilgreinir það hvort kostnaðarflokkurinn eigi við um fastan kostnað eða breytilegan kostnað. Kostnaðarflokkur með núllgildi hegðunar er meðhöndlaður sem breytilegur kostnaður Úthlutun hegðunar þjónar er eingöngu fyrir skýrslugerð. Til dæmis er hægt að birta kostnað með sundurliðun fasts og breytilegs kostnaðar á kostnaðarskjalinu og í skjámyndinni **samantekt kostnaðar eftir kostnaðarflokki**. Ef þú gefur upp hagnað-stilling prósenta á hverjum kostnaður hópinn BOM útreikning veitir leiðbeinandi söluverð, byggðri á kostnað plús-álagningar nálgun.
-
 
 
 

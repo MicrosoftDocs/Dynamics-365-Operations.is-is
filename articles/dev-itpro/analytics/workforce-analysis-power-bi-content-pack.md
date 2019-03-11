@@ -1,13 +1,13 @@
 ---
-title: "Mælikvarðar vinnuafls Power BI-efni"
-description: "Þetta efnisatriði lýsir efni mælieininga vinnuafls í Power BI. Það lýsir einnig hvernig eigi að fara í skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið."
+title: Mælikvarðar vinnuafls Power BI efni
+description: Þetta efnisatriði lýsir mælikvörðum vinnuafls Power BI efni. Það lýsir einnig hvernig eigi að fara í skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,27 +18,26 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345790"
 ---
-
-# <a name="workforce-metrics-power-bi-content"></a>Mælikvarðar vinnuafls Power BI-efni
+# <a name="workforce-metrics-power-bi-content"></a>Mælikvarðar vinnuafls Power BI efni
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir efni **mælieininga vinnuafls** í Microsoft Power BI. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
+Þetta efnisatriði lýsir **Mælikvarðar vinnuafls** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
-## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
-Efnið **Mælieiningar vinnuafls** í Power BI birtist í vinnusvæðinu **Starfsmannastjórnun** ef þú notar eina af þessum vörum:
+## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
+**Mælikvarðar vinnuafls** Power BI efni birtist á vinnusvæðinu **Starfsmannastjórnun** ef þú notar eina af þessum vörum:
 
 - Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI-efni
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI efni
 Eftirfarandi tafla sýnir mæligögn sem eru sýnd í hverri skýrslu.
 
 | Skýrsla                                           | Einingar |
@@ -57,9 +56,9 @@ Eftirfarandi tafla sýnir mæligögn sem eru sýnd í hverri skýrslu.
 | Afmæli starfsmanna                               | Afmæli í þessum mánuði, afmæli í næsta mánuði, afmælisdagar starfsmanna og afmæli eftir mánuði og deild |
 | Fjöldaráðningarverk                               | Heildarfjöldi fjöldaráðningar, fjöldaráðning eftir stöðu, fjöldaráðning eftir deild og eiganda, fjöldaráðningarverk eftir vinnslu og fjöldaráðningarverkum |
 
-Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á yfirlitið. Nánari upplýsingar um hvernig á að afmarka og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á yfirlitið. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-Gangið úr skugga um að hlaða niður efninu **Mælieiningar vinnuafls** í Power BI sem á við um útgáfu Microsoft Dynamics 365 sem verið er að nota.
+Vertu viss um að hlaða niður Power BI-efninu **Mælikvarðar vinnuafls** sem á við um útgáfuna á Microsoft Dynamics 365 sem verið er að nota.
 
 > [!NOTE]
 > Þær .pbix skrár sem eru tiltækar í Lifecycle Services eiga aðeins við um Finance and Operations.
@@ -88,4 +87,3 @@ Eftirfarandi tafla sýnir einingar sem efnið var byggt á.
 | Starfsmannaþróun           | Starfsfólk yfir tíma, starfsmannafjöldi, fyrirtæki og staða                                 | Fyrirtæki, landfræðileg staðsetning, nafn starfsmanns, heyrir undir, dagsetning starfsupphafs, dagsetning, titill starfsmanns, lýðfræði, atvinna, starf |
 | Fjöldaráðningarverk        | Fjöldi fjöldaráðningaverka, eigandi verks og staða verks                     | Fyrirtæki, fjöldaráðningarlína |
 | Fjöldaráðningarlína           | Deild, starfsheiti og staða                                           | Dagsetning, starf, fjöldaráðningarverk |
-

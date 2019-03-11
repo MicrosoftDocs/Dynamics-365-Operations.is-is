@@ -1,14 +1,14 @@
 ---
-title: "Stjórnun smásöluverðs"
-description: "Þetta efnisatriði lýsir hugmyndum um stofnun og stjórnun smásöluverðs í Microsoft Dynamics 365 for Retail."
+title: Stjórnun smásöluverðs
+description: Þetta efnisatriði lýsir hugmyndum um stofnun og stjórnun á söluverðum í Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 04/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -17,19 +17,18 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 28a095588bd3c312a2d1c4b83e668487a209077f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362143"
 ---
-
-# <a name="retail-sales-price-management"></a>Stjórnun smásöluverðs
+# <a name="retail-sales-price-management"></a>Retail-verðstjórnun
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um ferlið við stofnun og stjórnun söluverða í Microsoft Dynamics 365 for Retail. Það leggur áherslu á hugmyndunum sem eru hluti af þessu ferli og áhrifin hinna ýmsu stillingamöguleika fyrir söluverð.
+Þetta efnisatriði veitir upplýsingar um ferlið við stofnun og stjórnun á söluverðum í Microsoft Dynamics 365 for Retail. Það leggur áherslu á hugmyndunum sem eru hluti af þessu ferli og áhrifin hinna ýmsu stillingamöguleika fyrir söluverð.
 
 ## <a name="terminology"></a>Orðalisti
 
@@ -232,4 +231,3 @@ Að auki **aðeins** verðlagningarvél smásölu styður eftirfarandi verðlagn
 
 - Verð er byggt á vöruvíddum, raðað frá mest sértæka verðafbrigðinu til minnst sértæka verðafbrigðisins á verði vörusniðmáts. Verð sem er stillt með því að nota tvær vöruvíddir (t.d. lit og stærð) er notað á undan verð isem er stillt með því að nota aðeins eina vöruvídd (t.d. stærð).
 - Hægt er að nota sama verðflokk til að stjórna verðlagningu og afsláttum.
-

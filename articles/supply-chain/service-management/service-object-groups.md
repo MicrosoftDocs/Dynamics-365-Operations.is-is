@@ -1,31 +1,30 @@
 ---
-title: "Þjónustuhlutarflokkar"
-description: "Hlutaflokkar gagnast til þess að flokka og sía gögnin um hluti fyrir skýrslur og talnagögn."
+title: Þjónustuhlutarflokkar
+description: Hlutaflokkar gagnast til þess að flokka og sía gögnin um hluti fyrir skýrslur og talnagögn.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceObjectGroups
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc5b1bf93deaf60a3c6384671ad575c73871eb35
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2ab3ed8a8f36f980473b17b5dfed8cb3d0054253
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312233"
 ---
-
 # <a name="service-object-groups"></a>Þjónustuhlutarflokkar 
 
 [!include [banner](../includes/banner.md)]
@@ -65,6 +64,5 @@ Hægt er að tengja þjónustuhluti við flokk með því að nota skjámyndina 
 ## <a name="see-also"></a>Sjá einnig
 
 [Stofna þjónustuhluta](create-service-objects.md)
-
 
 

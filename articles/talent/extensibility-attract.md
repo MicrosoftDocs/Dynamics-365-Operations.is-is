@@ -1,14 +1,14 @@
 ---
-title: "Stækkunarhæfni í Attract"
-description: "Þetta efnisatriði lýsir því hvernig þú getur stækkað Microsoft Dynamics 365 for Talent - Attract-forritið með því að nota Microsoft Power platform."
+title: Stækkunarhæfni í Attract
+description: Þetta efnisatriði lýsir því hvernig þú getur stækkað Microsoft Dynamics 365 for Talent - Attract-forritið með því að nota Microsoft Power platform.
 author: josaw
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: d9e1dd3a67c5f64b5d05f0f171226085138e0b44
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 0af60a0aea0f7a5de793631445aaebb37dbb0d74
-ms.contentlocale: is-is
-ms.lasthandoff: 10/22/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304819"
 ---
-
 # <a name="extensibility-in-attract"></a>Stækkunarhæfni í Attract
 
 [!include[banner](../includes/banner.md)]
@@ -67,4 +66,3 @@ Vefefni (iframe) virkni gerir þér kleift að fella inn sérsniðna veflausn se
 
 > [!NOTE]
 > Vefefnisaðgerðin er aðeins í boði með Viðbót við alhliða ráðningar.
-

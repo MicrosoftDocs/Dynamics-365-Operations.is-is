@@ -1,13 +1,13 @@
---- 
+---
 title: " Búa til, reikna og bóka yfirlit fyrir smásöluverslun"
-description: "Þetta ferli fer í gegnum handvirkar skref til að stofna, reikna út og bóka uppgjör fyrir verslun."
+description: Þetta ferli fer í gegnum handvirkar skref til að stofna, reikna út og bóka uppgjör fyrir verslun.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailStatementTable
 audience: Application User
 ms.reviewer: josaw
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9ea30e7e008bfcce77a7ee2f4d7d01a6cf1ababc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 33ebb28196baa9ae944dbd124274b05cb587fea4
-ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354392"
 ---
 # <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a> Búa til, reikna og bóka yfirlit fyrir smásöluverslun
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Þetta ferli fer í gegnum handvirkar skref til að stofna, reikna út og bóka uppgjör fyrir verslun. Einnig eru runuvinnslur sem hægt er að skilgreina fyrir sama verk. Skrefin til að skilgreina og keyra sem runuvinnslur er að finna í öðrum efnisatriði. Til að ljúka þessu ferli, verður að hafa færslur sem voru fylltir út í sölustaður og síðan dregin inn í Dynamics AX. Þessi skráning notar sýnigögn fyrirtæki USRT . Þetta ferli gæti vísað til Microsoft Dynamics AX. Athugaðu að Dynamics AX er nú kallað Microsoft Dynamics 365 for Operations.
+Þetta ferli fer í gegnum handvirkar skref til að stofna, reikna út og bóka uppgjör fyrir verslun. Einnig eru runuvinnslur sem hægt er að skilgreina fyrir sama verk. Skrefin til að skilgreina og keyra sem runuvinnslur er að finna í öðrum efnisatriði. Til að ljúka þessu ferli, verður að hafa færslur sem voru fylltir út í sölustaður og síðan dregin inn í Dynamics AX. Þessi skráning notar sýnigögn fyrirtæki USRT . Þetta ferli gæti vísað til Microsoft Microsoft Dynamics AX. Athugaðu að Dynamics AX er nú kallað Microsoft Dynamics 365 for Operations.
 
 1. Fara í Öll vinnusvæði > .. > Fjárhagur smásöluverslunar
 2. Smella á Nýtt uppgjör.
@@ -47,5 +47,4 @@ ms.lasthandoff: 02/07/2018
 10. Smellið á „Loka“.
 11. Fara í Smásala og viðskipti > Rásir > Efnahagur smásöluverslunar.
 12. Smellið á flipann Bókað uppgjör.
-
 

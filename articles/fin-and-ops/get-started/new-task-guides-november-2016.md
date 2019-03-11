@@ -1,13 +1,13 @@
 ---
-title: "Nýjar eða uppfærðar verkefnaleiðbeiningar (nóvember 2016)"
-description: "Þetta málefni sýnir nýjar eða uppfærðar verkefnaleiðbeiningar sem voru gefnar út fyrir Microsoft (nóvember 2016 -- öll tungumál) APQC, Unified Library fyrir Microsoft Dynamics 365 for Operations. Engin ný Safn hafist handa var losuð."
+title: Nýjar eða uppfærðar verkefnaleiðbeiningar (nóvember 2016)
+description: Þetta efnisatriði sýnir nýjar eða uppfærðar verkefnaleiðbeiningar sem voru gefnar út fyrir Microsoft (nóvember 2016 – öll tungumál) APQC, Unified Library fyrir Microsoft Dynamics 365 for Operations. Engin ný Safn hafist handa var losuð.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 9cba30560762b5f647621aafb8db19241523f904
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348918"
 ---
-
 # <a name="new-or-updated-task-guides-november-2016"></a>Nýjar eða uppfærðar verkefnaleiðbeiningar (nóvember 2016)
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 12/18/2018
 (Nóvember 2016 -- öll tungumál) APQC Unified Library inniheldur verkleiðbeiningar sem ætlaðar eru til að fá Hjálp með Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations verkvangsuppfærsla 3, Microsoft Dynamics AX verkvangsuppfærsla 2, Dynamics AX uppfærsla frá maí 2016 og Microsoft Dynamics AX uppfærsla frá febrúar 2016. Nánari upplýsingar um útgáfuna eru í [Hvað er nýtt eða breytt](whats-new-changed.md). Staðfærðar útgáfur verkefnaleiðbeininga eru tiltækar í þessu safni. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hafist handa með hjálp](help-overview.md).
 
 > [!NOTE]
-> Stjarna (\*) við titil línunnar fyrir viðskiptaferlavinnslu (BPM) sýnir verkefnaleiðbeiningar fyrir viðskiptaferli sem var stofnað fyrir Microsoft Dynamics 365 for Operations nóvember uppfærslu 2016 og er ekki studdur í eldri útgáfu af Microsoft Dynamics AX.
+> Stjarna (\*) við titil línunnar fyrir viðskiptaferlavinnslu (BPM) sýnir verkefnaleiðbeiningar fyrir viðskiptaferli sem var stofnað fyrir AX nóvember uppfærslu 2016 og er ekki studdur í eldri útgáfu af Dynamics 365 for Operations Microsoft Dynamics.
 
 ### <a name="accounts-payable"></a>Viðskiptaskuldir
 
@@ -549,4 +548,3 @@ ms.lasthandoff: 12/18/2018
 [Nýjar eða uppfærðar verk tiltæk leiðbeiningar (Maí 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Nýjar eða uppfærðar verkefnaleiðbeiningar í boði (ágúst 2016)](new-updated-task-guides-available-august-2016.md)
-

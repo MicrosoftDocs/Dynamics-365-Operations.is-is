@@ -1,32 +1,31 @@
 ---
-title: "Skilgreining aðgangsréttinda stjórnborða kostnaðarhlutar"
-description: "Þetta efnisatriði hefur að geyma upplýsingar um aðgangsréttindi fyrir stjórnborð kostnaðarhlutar."
+title: Skilgreining aðgangsréttinda stjórnborða kostnaðarhlutar
+description: Þetta efnisatriði hefur að geyma upplýsingar um aðgangsréttindi fyrir stjórnborð kostnaðarhlutar.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 290b16eeb99ac7ddb9b552b289215c99a0451660
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1cac3c3b724dda4ab39a65aa5221eda427767eb8
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355542"
 ---
-
 # <a name="access-rights-of-a-cost-object-controller"></a>Aðgangsréttindi stjórnborðs kostnaðarhlutar
 
 [!include [banner](../includes/banner.md)]
@@ -95,11 +94,11 @@ Stillingar fyrir stigveldi aðgangslista eru notaðar til að stjórna gögnunum
 
 - Microsoft Power BI:
 
-    - Gögn sem birtast í myndrænni framsetningu Power BI
-    - Myndræn framsetning á gögnum Power BI sem eru felld inn í biðlara Microsoft Dynamics 365 for Finance and Operations
+    - Gögn sem eru sýnd í Power BI myndrænum framsetningum
+    - Myndræn Power BI framsetning sem eru felld inn í biðlara Microsoft Dynamics 365 for Finance and Operations
 
 > [!IMPORTANT]
-> - Áður en stigveldi aðgangslista getur haft áhrif á gögn í Power BI verður að para stigveldi aðgangslista og öryggi á línustigi í Power BI. Nánari upplýsingar eru í [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Áður en stigveldi aðgangslista getur haft áhrif á gögnin í Power BI, verður að para saman stigveldi og öryggi á línustigi í Power BI. Nánari upplýsingar eru í [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Þetta efnisatriði sýnir nauðsynlegar forsendur þess að hægt sé að nota vinnusvæðið **Kostnaðarstýring**.
 
 Frekari upplýsingar
@@ -107,4 +106,3 @@ Frekari upplýsingar
 - [Vinnusvæði kostnaðarstýringar](cost-control-workspace.md)
 - [Víddarstigveldi](dimension-hierarchy.md)
 - [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
-

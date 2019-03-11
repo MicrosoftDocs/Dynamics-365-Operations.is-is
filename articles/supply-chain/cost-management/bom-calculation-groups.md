@@ -1,13 +1,13 @@
 ---
-title: "Flokkur uppskriftarútreiknings"
-description: "Þessi skrá veitir upplýsingar um reikniflokka  fyrir uppskriftir (BOM) og hvernig þær eru settar upp. Til að keyra útreikning Uppskriftar skal þarf annaðhvort að setja upp reikniflokka og úthluta þeim á einstaka vörur eða stilla sjálfgefinn reikniflokk. Stillingar útreikninga úr reikniflokknum eru síðan notaðar sem sjálfgefið gildi á uppskriftarútreikning síðu við útreikning Uppskriftar."
+title: Flokkur uppskriftarútreiknings
+description: Þessi skrá veitir upplýsingar um reikniflokka  fyrir uppskriftir (BOM) og hvernig þær eru settar upp. Til að keyra útreikning Uppskriftar skal þarf annaðhvort að setja upp reikniflokka og úthluta þeim á einstaka vörur eða stilla sjálfgefinn reikniflokk. Stillingar útreikninga úr reikniflokknum eru síðan notaðar sem sjálfgefið gildi á uppskriftarútreikning síðu við útreikning Uppskriftar.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcGroup, BOMCalcTable, BOMCalcTrans, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 55bca29016e06b6ed71c0f1a4aa412401976ebdd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48d1bc67038c6080bb96d524a549deddbc8d4e0b
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362879"
 ---
-
 # <a name="bom-calculations-groups"></a>Flokkur uppskriftarútreiknings
 
 [!include [banner](../includes/banner.md)]
@@ -96,7 +95,6 @@ Hægt er að setja upp sjálfgefna færibreytu á **kostnaðarstjórnun** &gt; *
 -   Greinið þegar vara í uppskriftarlínu hefur lægri arðsemisprósentu heldur en óskað er eftir.
 
 Hægt er að skilgreina margar flokka uppskriftaútreikninga, eftir kröfum fyrir frávik í viðvörunarskilaboðum. Til dæmis, einn flokkur uppskriftarútreiknings með viðvörunarskilyrðum um virka uppskrift, magn íhluta uppá 0 (núll), og kostnaður íhlutar uippá 0 (núll) gæti verið nóg. viðvörunarskilyrði sem tengjast flokki uppskriftaútreikninga má hnekkja þegar uppskriftarútreikningar eru settir af stað. Einnig er hægt að bæta við eða fjarlægja viðvörunarskilyrði. Til dæmis, er hægt að fjarlægja tiltækt viðvörunarskilyrði um virka leið þegar ákveðnar aðstæður fela ekki í sér leiðargögn. **Athugið:** Tíma og viðveru inniheldur í **reikniflokka** síðu, en sú síðu hefur engin tengsl við flokka uppskriftaútreikninga. Í Tími og viðvera er hægt að úthluta starfsmönnum á reikniflokka sem endurspegla hóp starfsmanna sem eru tengdir við sama yfirmann eða stjórnandi. Útreikning á starfsmannaskráningu er gert annað hvort sjálfvirkt eða handvirkt af yfirmaður eða stjórnandi.
-
 
 
 

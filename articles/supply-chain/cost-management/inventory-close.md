@@ -1,13 +1,13 @@
 ---
-title: "Birgðalokun"
-description: "Sem hluti af ferlinu við að jafna úthreyfingarfærslur við innhreyfingarfærslur, er einnig hægt að velja að láta uppfæra fjárhag til að endurspegla leiðréttingarnar sem hafa verið gerðar."
+title: Birgðalokun
+description: Sem hluti af ferlinu við að jafna úthreyfingarfærslur við innhreyfingarfærslur, er einnig hægt að velja að láta uppfæra fjárhag til að endurspegla leiðréttingarnar sem hafa verið gerðar.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a705853ea27d117c99a00893b862348bbac0b9b0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dfb6b9c2f4bad95c165a8d8a1e888e7a67e66c69
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326493"
 ---
-
 # <a name="inventory-close"></a>Birgðalokun
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,6 @@ Ef margar viðvaranir berast í skilaboðunum, er mælt með að bregðast við 
 Í sumum tilvikum getur þurft að bakfæra birgðalokun sem hefur verið framkvæmd, og koma birgðajöfnunum aftur á það form sem þær höfðu áður en jöfnun var framkvæmd. Þegar lokin birgðalokun er bakfærð, eru birgðir enduropnaðar til að virkja bókun á tímabilinu sem nær yfir birgðalokunina. Tengdar breytingar má einnig gera í fjárhag. Þegar þú hefur lokið að gera leiðréttingar getur þú keyrt birgðaskrá aftur fyrir tímabilið sem þú ert að vinna með. 
 
 **Athugið:** Aðeins er hægt að opna aftur síðasta birgðatímabil sem var lokað. Til að bakfæra fyrri birgðalokun verður að bakfæra hverja síðari birgðalokun eina í einu, byrja á nýjustu lokuninni.
-
 
 
 

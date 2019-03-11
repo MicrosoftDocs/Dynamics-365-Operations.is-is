@@ -1,13 +1,13 @@
---- 
-title: "Vinna með upplýsingar um meiðsl og veikindi"
-description: "Mælt er með að ljúka við \"Uppsetningu meiðsla og veikinda' leiðarvísi fyrir verk fyrst þar sem sum uppsetningu upplýsingar er notuð hér."
+---
+title: Vinna með upplýsingar um meiðsl og veikindi
+description: Mælt er með að ljúka við "Uppsetningu meiðsla og veikinda' leiðarvísi fyrir verk fyrst þar sem sum uppsetningu upplýsingar er notuð hér.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 03d1e7f7b648e65cbe628aa4ff8b39dfa03ce96b
-ms.contentlocale: is-is
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332611"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Vinna með upplýsingar um meiðsl og veikindi
 
@@ -92,5 +92,4 @@ Mælt er með að ljúka við "Uppsetningu meiðsla og veikinda' leiðarvísi fy
     * Dæmi: röntgen staðfestir brot, vera með spelku  
 36. Smellið á „Vista“.
     * Hægt er að uppfæra stöðu máls hvenær sem er.  Stilla máls á í vinnslu, ef meiðsla eða veikinda er í vinnslu.  Þegar atviki er skráð lokið, aðeins er aðeins hægt að bæta við eða fjarlægja kostnað, meðferðir eða skráning tengt atvik.  Til að breyta aðrar upplýsingar, enduropna málinu.  
-
 

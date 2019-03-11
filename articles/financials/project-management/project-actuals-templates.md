@@ -1,13 +1,13 @@
 ---
-title: "Samstilla rauntölur verks beint frá Project Service Automation til færslubókar verksamþættingar til að bóka í Finance and Operations"
-description: "Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verk sem notuð eru til að samstilla rauntölur verks beint úr Microsoft Dynamics 365 for Project Service Automation við Microsoft Dynamics 365 for Finance and Operations."
+title: Samstilla rauntölur verks beint frá Project Service Automation til færslubókar verksamþættingar til að bóka í Finance and Operations
+description: Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla verkefni verks beint frá Microsoft Dynamics 365 for Project Service Automation til Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 0a965e8de596decf39a15977e6df8a6aa9dd35b0
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343352"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Samstilla rauntölur verks beint frá Project Service Automation til færslubókar verksamþættingar til að bóka í Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verk sem notuð eru til að samstilla rauntölur verks beint úr Microsoft Dynamics 365 for Project Service Automation við Microsoft Dynamics 365 for Finance and Operations.
+Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla verkefni verks beint frá Microsoft Dynamics 365 for Project Service Automation til Microsoft Dynamics 365 for Finance and Operations.
 
 Sniðmátið samstillir færslur frá Project Service Automation inn í millistigsvistunartöflu í Finance and Operations. Eftir að samstillingunni er lokið **verður** þú að flytja inn gögnin frá millistigsvistunartöflunni í færslubók samþættingar.
 
 > [!NOTE]
 > - Samþætting á rauntölum verks er í boði í Microsoft Dynamics 365 for Finance and Operations útgáfu 8.0.1 eða síðar.
-> - Ef þú notar Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3.0, eftir að hafa sett upp KB 4132657 og KB 4132660 getur þú notað sniðmátin til að samþætta verkefni fyrir verk, kostnaðarfærsluflokka, tímaáætlanir, kostnaðaráætlanir og rauntölur og til að stilla virknilæsingu. Ef þú verður að endurstilla dreifingu á fjárhagsupphæð mælum við með að þú setjir einnig upp KB 4131710.
+> - Ef þú notar Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.0, eftir að hafa sett upp KB 4132657 og KB 4132660 getur þú notað sniðmátin til að samþætta verkefni fyrir verk, kostnaðarfærsluflokka, tímaáætlanir, kostnaðaráætlanir og rauntölur og til að stilla virknilæsingu. Ef þú verður að endurstilla dreifingu á fjárhagsupphæð mælum við með að þú setjir einnig upp KB 4131710.
 > - Ef þú notar Finance and Operations 7.3.0 og þú færir þóknunarfærslur yfir frá Project Service Automation verður þú að setja upp KB 4345320 til þess að geta tekið við þessum þóknunum í verkreikningi.
 > - Ef þú slærð inn upphæð virðisaukaskatts fyrir tíma- eða kostnaðarfærslur í Project Service Automation verður þú að setja upp uppfærslu 7 af Project Service Automation. Annars verða rauntölur skatts ekki tengdar við tengdar rauntölur fyrir tíma- eða kostnaðarfærslur og munu þær ekki verða samstilltar við Finance and Operations. Hafa skal samband við notendaþjónustu fyrir frekari upplýsingar.
 
@@ -140,4 +140,3 @@ Eftirfarandi skýringarmyndir sýna dæmi um vörpunarsniðmát í gagnasamþæt
 [![Kortlagning sniðmáts](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Kortlagning sniðmáts](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
-

@@ -1,13 +1,13 @@
 ---
-title: "Stjórnun leyfis og fjarvista"
-description: "Þetta efnisatriði býður upp á yfirlit yfir stjórnunarkerfiseiningu leyfis og fjarvista."
+title: Stjórnun leyfis og fjarvista
+description: Þetta efnisatriði býður upp á yfirlit yfir stjórnunarkerfiseiningu leyfis og fjarvista.
 author: ryansandness
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: rschloma
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 72bfbb878fa076e204e00c3ccaceb4ba04c00ea9
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304843"
 ---
 # <a name="leave-and-absence-management"></a>Stjórnun leyfis og fjarvista
 
@@ -68,4 +68,3 @@ Stjórnun leyfis og fjarvista býður upp á eftirfarandi eiginleika:
 - **Senda beiðnir um leyfi.**
 
     Starfsmenn geta sent inn beiðnir um leyfi til móts við tiltækar vinnustundir þeirra. Beiðnir geta verið einfaldar einsdags beiðnir eða beiðnir upp á marga daga sem innihalda margskonar gerðir af leyfi og fjarvistum. Ef verkflæði er ekki virkjað eru beiðnirnar samþykktar sjálfkrafa. Ef verkflæði er virkjað, getur samþykktin verið sjálfvirk, eða hún getur krafist útskráningar, það fer eftir grunnstillingu verkflæðis.
-

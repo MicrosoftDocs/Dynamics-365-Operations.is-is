@@ -1,13 +1,13 @@
 ---
-title: "Áður en þú kaupir"
-description: "Nákvæmar leiðbeiningar til að nota ef þú ert að íhuga að kaupa Dynamics 365 for Finance and Operations."
+title: Áður en þú kaupir
+description: Nákvæmar leiðbeiningar til að nota ef þú ert að íhuga að kaupa Dynamics 365 for Finance and Operations.
 author: kfend
 manager: AnnBe
 ms.date: 01/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -16,23 +16,22 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: 7aed6895d526011e353eef7b85e4e2f096a25e5a
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345468"
 ---
-
 # <a name="before-you-buy"></a>Áður en þú kaupir
 
 [!include [banner](../includes/banner.md)]
 
-Þekkirðu ekki til Dynamics 365 for Finance and Operations? Við höfum sett saman ítarlegar leiðbeiningar hvort sem þú ert enn að velta fyrir þér eða hefur þegar ákveðið að kaupa Finance and Operations.
+Nýr notandi Dynamics 365 for Finance and Operations? Við höfum sett saman ítarlegar leiðbeiningar hvort sem þú ert enn að velta fyrir þér eða hefur þegar ákveðið að kaupa Finance and Operations.
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Skref eitt: Prófa Finance and Operations ókeypis í 30 daga
 
-Þú getur prófað Dynamics 365 for Finance and Operations í 30 daga með einfaldri skráningu með tölvupósti. Prufuútgáfan af Finance and Operations felur í sér nákvæmar verkleiðbeiningar sem gera þér kleift að skoða tiltekin tilvik í framkvæmd. Hægt er kynna sér vöruna og prófa tilvik, en ekki sérsníða hana. Sýnigögn fylgja með til að einfalda notkun á vörunni og til að gera reynsluna auðskiljanlegri. Áminningartölvupóstur verður sendur 3 dögum áður en prufutíminn rennur út. Fáðu upplýsingar á [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
+Þú getur prófað Dynamics 365 for Finance and Operations í 30 daga með einfaldri innskráningu í gegnum tölvupóst. Prufuútgáfan af Finance and Operations felur í sér nákvæmar verkleiðbeiningar sem gera þér kleift að skoða tiltekin tilvik í framkvæmd. Hægt er kynna sér vöruna og prófa tilvik, en ekki sérsníða hana. Sýnigögn fylgja með til að einfalda notkun á vörunni og til að gera reynsluna auðskiljanlegri. Áminningartölvupóstur verður sendur 3 dögum áður en prufutíminn rennur út. Fáðu upplýsingar á [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Skref tvö: Velja virkjunarkost
 
@@ -54,7 +53,7 @@ Frekari upplýsingar er að finna í [Virkjunarvalkostir](../../dev-itpro/deploy
 
 Upplýsingar um áskriftarvalkosti er að finna á verðlagningarsíðu [Dynamics 365](https://www.microsoft.com/dynamics365/pricing). Þessi síða inniheldur nokkrar mismunandi áætlanir sem passa þörfum fyrirtækis þíns.
 
-Það eru margar leiðir til að kaupa áskrift að Dynamics 365 for Finance and Operations:
+Hægt er að kaupa áskrift að Dynamics 365 for Finance and Operations á ýmsan hátt.
 
 - Kaupa gegnum samstarfsaðila og nota magnleyfi (í skýi eða á staðnum)
 - Kaupa gegnum veitanda skýjaþjónustu (aðeins í skýi)
@@ -79,7 +78,7 @@ Microsoft veitandi skýjaþjónustu getur unnið náið með þér til að skilj
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Kaupa í gegnum Dynamics samstarfsaðila (á staðnum)
 
-Þú þarft að vinna með samstarfsaðila til að kaupa Finance and Operations á staðnum. Nánari upplýsingar er að finna í [Kaupa Dynamics 365 for Finance and Operations (á staðnum)](purchase-on-premises.md)
+Þú þarft að vinna með samstarfsaðila til að kaupa Finance and Operations á staðnum. Nánari upplýsingar er að finna í [Innkaup Dynamics 365 for Finance and Operations (á staðnum)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Veldu þinn stuðningsvalkost
 
@@ -88,13 +87,12 @@ Microsoft býður upp á sveigjanlegan og framúrskarandi stuðning, þjónustu 
 Frekari upplýsingar:
 
 - [Dynamics 365 stuðningur](https://www.microsoft.com/dynamics365/support)
-- [Flýtiræsingarleiðbeiningar fyrir stuðningsfríðindi skýjaþjónustu Microsoft Dynamics](http://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
+- [Stuttur leiðarvísir fyrir notendaþjónustu Microsoft Dynamics skýjaþjónustu](http://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Skref fjögur: Kynntu þér FastTrack og skipuleggðu þína virkjun
 
 Microsoft FastTrack fyrir Dynamics 365 er viðskiptavinaþjónusta okkar sem er hönnuð til að hjálpa þér að færa þig yfir í Dynamics 365 greiðlega og örugglega, svo þú öðlist fyrr rekstrarvirði. Þegar þú tekur þátt í FastTrack áætluninni færðu leiðsögn um bestu venjur og hvernig best er að skipuleggja vel heppnaðar innleiðingar. Þú lærir einnig leiðir til að virkja nýja notendur og auka getu, allt á þínum hraða. Þar að auki færðu aðgang að tilföngum Microsoft sem hafa það að markmiði að gera Dynamics 365 upplifun þína vel heppnaða. Frekari upplýsingar: [Microsoft FastTrack for Dynamics 365 yfirlit](fasttrack-dynamics-365-overview.md)
 
-## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Ef þú ert uppfæra úr Dynamics AX 2012 eða færa þig úr AX 2009
+## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Ef þú ert að uppfæra úr Dynamics AX 2012 eða flytja úr AX 2009
 
-Ef þú ert viðskiptavinur sem er að uppfæra úr Microsoft Dynamics AX 2012 eða færa þig úr Microsoft Dynamics AX 2009 gætirðu uppfyllt skilyrði fyrir lengri prufutíma. Hafðu samband við <daxcf@microsoft.com> til að fá frekari upplýsingar.
-
+Ef þú ert viðskiptavinur sem er að uppfæra úr Microsoft Dynamics AX 2012 eða flytja úr Microsoft Dynamics AX 2009, getur verið að þú sért gjaldgengur fyrir lengri prufutíma. Hafðu samband við <daxcf@microsoft.com> til að fá frekari upplýsingar.

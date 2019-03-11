@@ -1,13 +1,13 @@
 ---
-title: "Skráning raðnúmera í söluferli"
-description: "Þetta efnisatriði útskýrir hvernig hægt er að skrá raðnúmer á fylgiseðla eða reikninga meðan á söluferli stendur. Þessi möguleiki er henturgur ef fyrirtæki vill sækja raðnúmer vegna þjónustu og ábyrgðar en þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar."
+title: Skráning raðnúmera í söluferli
+description: Þetta efnisatriði útskýrir hvernig hægt er að skrá raðnúmer á fylgiseðla eða reikninga meðan á söluferli stendur. Þessi möguleiki er henturgur ef fyrirtæki vill sækja raðnúmer vegna þjónustu og ábyrgðar en þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar.
 author: omulvad
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e86c2f8d1d5920198db74dc3b64f2393c5e13ff7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 62f59c857980932f4cf75d928deb0f89fae2f8eb
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350413"
 ---
-
 # <a name="register-serial-numbers-in-the-sales-process"></a>Skráning raðnúmera í söluferli
 
 [!include [banner](../includes/banner.md)]
@@ -35,9 +34,9 @@ ms.lasthandoff: 05/08/2018
 
 Þetta efnisatriði útskýrir hvernig hægt er að skrá raðnúmer á fylgiseðla eða reikninga meðan á söluferli stendur. Þessi möguleiki er henturgur ef fyrirtæki vill sækja raðnúmer vegna þjónustu og ábyrgðar en þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar.
 
-Mörg fyrirtæki vilja bara sækja raðnúmer vegna þjónustu og ábyrgðar og þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar. Við þessar aðstæður leyfir Microsoft Dynamics 365 for Finance and Operations þér að skrá raðnúmer á fylgiseðla eða reikninga þegar vörur eru seldar. Ef afurðum er skilað seinna er unnt að rekja hverja afurð til reiknings til að ákvarða hvort þú seldir afurðina og hvort þjónustu eða ábyrgð eru gildar.
+Mörg fyrirtæki vilja bara sækja raðnúmer vegna þjónustu og ábyrgðar og þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar. Í þessum aðstæðum leyfir Microsoft Dynamics 365 for Finance and Operations að skrá raðnúmer á fylgiseðla eða reikninga þegar vörur eru seldar. Ef afurðum er skilað seinna er unnt að rekja hverja afurð til reiknings til að ákvarða hvort þú seldir afurðina og hvort þjónustu eða ábyrgð eru gildar.
 
-Virkja þarf raðnúmer fyrir söluferlið með því að velja valkostinn **Í söluferli** á síðunni **Rakningarvíddarflokkar**. Eftirfarandi á sér svo stað í Microsoft Dynamics 365 for Finance and Operations:
+Virkja þarf raðnúmer fyrir söluferlið með því að velja valkostinn **Í söluferli** á síðunni **Rakningarvíddarflokkar**. Eftirfarandi tilvik eiga sér svo stað í Microsoft Dynamics 365 for Finance and Operations:
 -   Á flýtiflipanum **Raðnúmer** er valkosturinn **Raðnúmerastýring** valinn. Ef þessi gátreitur er valinn þarf að skrá eitt raðnúmer fyrir hverja vöru á fylgiseðli eða reikningi.
 -   Allt val á rakningarvíddaflokk fyrir raðnúmer er hreinsað, nema gátreiturinn **Auð úthreyfing leyfð**. Hægt er að velja valkostinn **Auð úthreyfing leyfð** til að hnekkja raðnúmerastjórn og leyfa afurðum að vera pakkaðar og reikningsfærðar án þess að skrá raðnúmer.
 
@@ -58,8 +57,8 @@ Ef ekki er hægt að lesa eða skanna raðnúmer, er hægt að stofna auða lín
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>Get ég leiðrétt eða breytt raðnúmerum sem ég hef skráð fyrir sölupöntun?
 Já, hægt er að leiðrétta raðnúmer þegar eftirfarandi skilyrði eru uppfyllt:
--   **Reikningar** - Hægt er að breyta raðnúmeri fyrir vörur sem þú hefur ekki enn komið í innheimtu. Síðan er fylgiseðillinn líka uppfærður. Hins vegar, ef sölupöntunarlína var leiðrétt eftir að neikvætt magn er skráð er hægt að breyta raðnúmerum fyrir sölupöntunarlínuna.
--   **Fylgiseðlar** - Ekki er hægt að leiðrétta fylgiseðilllínu að hluta, sem inniheldur vörur með raðnúmerum. Bakfæra þarf fullt magn fyrir línuna. Ef fylgiseðill hefur verið afturkallaður eða leiðréttur þarf ekki að skrá bakfærð raðnúmer aftur við stofnun nýs fylgiseðils fyrir sömu raðnúmeruðu vörurnar. Númer sem voru skráðar verður notuð.
+-   **Reikningar**  - Hægt er að breyta raðnúmeri fyrir vörur sem þú hefur ekki enn komið í innheimtu. Síðan er fylgiseðillinn líka uppfærður. Hins vegar, ef sölupöntunarlína var leiðrétt eftir að neikvætt magn er skráð er hægt að breyta raðnúmerum fyrir sölupöntunarlínuna.
+-   **Fylgiseðlar**  - Ekki er hægt að leiðrétta fylgiseðillínu að hluta, sem inniheldur vörur með raðnúmerum. Bakfæra þarf fullt magn fyrir línuna. Ef fylgiseðill hefur verið afturkallaður eða leiðréttur þarf ekki að skrá bakfærð raðnúmer aftur við stofnun nýs fylgiseðils fyrir sömu raðnúmeruðu vörurnar. Númer sem voru skráðar verður notuð.
 
 ## <a name="can-i-view-the-serial-numbers-that-were-shipped-together-with-a-specific-packing-slip-or-that-were-included-on-an-invoice"></a>Get ég skoðað raðnúmer sem voru send með tilgreindum fylgiseðli eða voru tekin með í reikningi?
 Já, hægt er að keyra fyrirspurn á færslubókarlínu fylgiseðils eða reikningabókarlínu til að skoða lista yfir öll raðnúmer sem voru höfð með í skjalinu.
@@ -78,7 +77,6 @@ Já, Smásala (POS) mun biðja notanda að færa inn raðnúmer þegar notandinn
 Þessi aðgerð er tiltæk fyrir öll hlutverk sem hægt er að viðhalda fylgiseðla og reikninga. Eftirfarandi skyldum leyfa starfsmönnum að leiðrétta raðnúmer og skrá auðar færslur fyrir raðnúmer sem ekki er hægt að lesa eða skanna:
 -   Viðhalda raðnúmerleiðréttingum
 -   Viðhalda skráningu á ólæsilegum raðnúmerum
-
 
 
 

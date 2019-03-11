@@ -1,13 +1,13 @@
---- 
-title: "Hanna segðir rafrænnar skýrslugerðar til að kalla á aðferðir forritaflokka"
-description: "Þessi handbók veitir upplýsingar um hvernig á að endurnýta núverandi forritaskrár í grunnstillingu rafrænnar skýrslugerðar (ER) með því að kalla á nauðsynlegar aðferðir við forritaflokka í segðum rafrænnar skýrslugerðar."
+---
+title: Hanna segðir rafrænnar skýrslugerðar til að kalla á aðferðir forritaflokka
+description: Þessi handbók veitir upplýsingar um hvernig á að endurnýta núverandi forritaskrár í grunnstillingu rafrænnar skýrslugerðar (ER) með því að kalla á nauðsynlegar aðferðir við forritaflokka í segðum rafrænnar skýrslugerðar.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: fdacd852eeed33b443a3c79b96fc4c4af04bb6b2
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357244"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Hanna segðir rafrænnar skýrslugerðar til að kalla á aðferðir forritaflokka
 
@@ -34,7 +34,7 @@ Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu 
 
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
     * Sannprófið að grunnstillingarveita fyrir sýnifyrirtækið Litware, Inc. sé tiltæk og merkt sem virk. Ef þessi skilgreiningarveita sést ekki, verður fyrst að ljúka við skrefin í ferlinu „Stofna skilgreiningarveitu og merkja hana sem virka“.   
-    * Gerum ráð fyrir að þú sért að hanna aðferð til að þátta bankayfirlit á innleið fyrir uppfærslu á umsóknargögnum. Þú færð bankayfirlit á innleið sem TXT skrár sem innihalda IBAN kóða. Sem hluti af innflutningsferli bankareikningsins þarftu að staðfesta réttmæti þessara IBAN kóða með því að nota rökfræði sem er nú þegar í boði í Dynamics 365 for Finance and Operations.   
+    * Gerum ráð fyrir að þú sért að hanna aðferð til að þátta bankayfirlit á innleið fyrir uppfærslu á umsóknargögnum. Þú færð bankayfirlit á innleið sem TXT skrár sem innihalda IBAN kóða. Sem hluti af innflutningsaðferð bankayfirlits þarft þú að sannreyna réttmæti þessa IBAN númera með því að nota rökfræði sem er nú þegar í boði í Dynamics 365 for Finance and Operations.   
 
 ## <a name="import-a-new-er-model-configuration"></a>Flytja inn nýja grunnstillingu líkans í Rafræn skýrslugerð
 1. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
@@ -103,7 +103,7 @@ Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu 
     * Vörpun í gagnalíkan  
 6. Smellið á „Vista“.
 7. Smellið á Hönnuður.
-8. Í trénu skal velja „Dynamics 365 for Operations\Klasi“.
+8. Í trénu skal velja 'Dynamics 365 for Operations\Class'.
 9. Smella á bæta Við rót.
     * Bæta nýjum gagnagjafa við fyrirliggjandi forritsgrunn fyrir sannprófun IBAN-númera.  
 10. Í svæðið Heiti skal slá inn „check_codes“.
@@ -157,5 +157,4 @@ Til að prófa, skal framkvæma vörpun sniðs með SampleIncomingMessage.txt-sk
     * Smellt er á Fletta og flett á skrána SampleIncomingMessage.txt sem áður var sótt.  
 2. Smellið á „Í lagi“.
     * Farið yfir úttak í XML-sniði, sem stendur fyrir gögn sem hafa verið innflutt úr valinni skrá og tengd við gagnalíkan. Athugaðu að aðeins 3 línur af innfluttri TXT-skrá voru unnar. IBAN-númerið á línu 4 sem er ógilt var sleppt og villuskilaboð eru veitt í Infolog.  
-
 

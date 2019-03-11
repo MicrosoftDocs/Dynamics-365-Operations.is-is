@@ -1,13 +1,13 @@
 ---
-title: "Mælieiningu og birgðareglur"
-description: "Þessi grein lýsir því hvernig sjálfgefnar einingar, röðunarflokkar eininga og umreikningur eininga eru notaðar í vöruhúsaferlum."
+title: Mælieiningu og birgðareglur
+description: Þessi grein lýsir því hvernig sjálfgefnar einingar, röðunarflokkar eininga og umreikningur eininga eru notaðar í vöruhúsaferlum.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductDetailsExtended, EcoResStorageDimensionGroup, InventItemOrderSetup, UnitOfMeasureConversion, WHSRFMenuItem, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c484f814d9f1e726fd326e1cd0ea8fe694f797b9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e0a22e07f5a0e5bc30c8ad9dc87c5a506d62847d
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318098"
 ---
-
 # <a name="unit-of-measure-and-stocking-policies"></a>Mælieiningu og birgðareglur
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Til að setja sjálfgefin einingarnar sem nota á fyrir móttökuferli í fartæ
 
 ## <a name="default-order-settings"></a>Sjálfgefnar pöntunarstillingar
 Sem hluti af stofnun útgefnar afurðir, verður að velja sjálfgefnar einingar fyrir innkaup, sölu og birgðir til að vinna ýmsar pantanir. Hægt er að stilla sjálfgefið eininga og magn fyrir mismunandi upprunaskjöl með því að nota í **Sjálfgefnar pöntunarstillingar** og **Pöntunarstillingar tengdar staðsetningum** síður. Hægt er að opna þessar síður frá á **Útgefnum afurðum** síðu.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Skilgreina líkön framleiðsluflæðis"
-description: "Framleiðsluflæðislíkön lýsa því hvernig afkastageta vinnuflokkur lean-framleiðsla er reiknaður og honum viðhaldið."
+---
+title: Skilgreina líkön framleiðsluflæðis
+description: Framleiðsluflæðislíkön lýsa því hvernig afkastageta vinnuflokkur lean-framleiðsla er reiknaður og honum viðhaldið.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e410928bc850e1f3427c9536e9943d1196be7a05
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7850a121ca06f25f6c532e49e18c0b6811bd7455
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336728"
 ---
 # <a name="define-production-flow-models"></a>Skilgreina líkön framleiðsluflæðis
 
@@ -45,5 +45,4 @@ Framleiðsluflæðislíkön lýsa því hvernig afkastageta vinnuflokkur lean-fr
     * Tímamörk áætlanagerðar lýsir fjölda daga þar sem hægt er að gera frátekningar á afkastagetu fyrir tengdar vinnuflokkana. Færið inn fjölda daga í tímamörk Áætlanagerðar.   Kanban-ferlisvinnsla sem falla fyrir utan þetta tímabil er ekki áætluð með sjálfvirkri áætlun. Tímamörk áætlanagerðar sem er yfirleitt tvisvar sinnum meðaltal afhendingartíma fyrir vörur sem framleiddar eru í framleiðslu flæði eða vinnuflokk. EPE-Ferli á ekki vera meira en helmingur tímamörk áætlunargerðar.     
 8. Veljið valkost í reitnum viðbrögð við skorti á Afkastagetu .
     * Valkostirnir eru: Fresta - Frestun fullt eftirspurn röðunartilviksins á næsta tiltæka framleiðslu dag með tiltæk afköst. Hætta við - Ljúka sjálfvirk áætlun fyrir röðunartilvik og hafa tengd verk án áætlunar.   Bæta við umbeðinn dag - Áætla umbeðin verk fyrir umbeðið tímabil. Þetta leggur of mikið álag á reitnum fyrir þennan dag og krefst þess að skipuleggjara endurskoða og framkvæma handvirk samskipti.   Dreifa á tiltækt tímabil - Dreifa á mismunandi verk röðunartilviksins á allir dagar tiltæk framleiðslu, byrja á fyrsta tiltæk degi. Lágmarks magn til dreifingar er magn kanban-vinnsla. Dreifingu úthlutar lágmarks áætlunarmagn (kanban-magn) í hverjum degi með nægilegt gegnumstreymi.  
-
 

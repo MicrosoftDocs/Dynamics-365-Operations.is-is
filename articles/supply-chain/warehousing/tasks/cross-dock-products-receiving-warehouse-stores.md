@@ -1,13 +1,13 @@
---- 
-title: "Hjáskipa afurðir úr viðtökuvöruhúsi í verslanir"
-description: "Þetta ferli fer í gegnum skrefin til að stofna og vinna hjáskipun til að dreifa afurðir úr staðsetning móttökustaðar innkaupapöntunar til ein eða margar verslanir."
+---
+title: Hjáskipa afurðir úr viðtökuvöruhúsi í verslanir
+description: Þetta ferli fer í gegnum skrefin til að stofna og vinna hjáskipun til að dreifa afurðir úr staðsetning móttökustaðar innkaupapöntunar til ein eða margar verslanir.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/17/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6c8e25007cc4a204aeaf73a2e819c129fa8fa29d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: daa42bb83d6b988e8fd18db6ad8386c67fd3e6e5
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364397"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>Hjáskipa afurðir úr viðtökuvöruhúsi í verslanir
 
@@ -47,5 +47,4 @@ ms.lasthandoff: 09/29/2017
 14. Smella á Já.
 15. Á listanum skal finna og velja vöruhús sem tók á móti vörur
 16. Smellið á pantanir til Að skoða pantanir sem var stofnað fyrir valið vöruhús
-
 

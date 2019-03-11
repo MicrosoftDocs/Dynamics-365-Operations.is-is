@@ -1,13 +1,13 @@
 ---
-title: "Setja upp afbrigðalíkan afurðar"
-description: "Þessi grein lýsir því hvernig afbrigðalíkan afurðar er sett upp og stofnað."
+title: Setja upp afbrigðalíkan afurðar
+description: Þessi grein lýsir því hvernig afbrigðalíkan afurðar er sett upp og stofnað.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 10faa26a53b026a70487124d696b0313d1f5814d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8504eb789b0d449cf2e29d4314d189dc0b8a6b43
-ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360671"
 ---
-
 # <a name="set-up-a-product-configuration-model"></a>Setja upp afbrigðalíkan afurðar
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ ms.lasthandoff: 02/07/2018
 | Prófa afbrigðalíkan afurðar                         | Prófa afbrigðalíkan afurðar úr annað hvort **upplýsingum afbrigðalíkans afurðar sem byggir á Skorðum** síðu eða **listi yfir afbrigðalíkan afurðar** síðu Prófun á  afbrigðalíkan afurðar gerir hermingu á skilgreiningarferli vörulíkans skilgreiningarferlið sem kemur upp við meðhöndlun pantana.                                                                                                |
 | Skoða sniðmát afbrigðalíkans afurðar                | Stofna afbrigðalíkan afurðar á **grunnstillingarsniðmát**síðu grunnstillingarsniðmát inniheldur gildi fyrir eiginleika í afbrigðalíkani afurðar. Veljið eigindargildi á í **skilgreiningarlína** síðu. Hægt er að velja að hlaða grunnstillingarsniðmáti vörulíkansvið skilgreiningu vörulíkans.                                                   |
 | Skilgreina vöru                                          | Hægt er að skilgreina afbrigðalíkan afurðar úr sölupöntun, sölutilboði, innkaupapöntun eða framleiðslupöntun.                                                                                                                                                                                                                                                                           |
-
 
 
 

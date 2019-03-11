@@ -1,13 +1,13 @@
 ---
-title: "Skipuritsskilgreiningar í fjárhagsskýrslum"
-description: "Þessi skrá upplýsingar um skipuritsskilgreiningar. Skipuritsskilgreining er skýrsluhluti, eða eining, sem aðstoðar við að skilgreina byggingu og stigveldi fyrirtækisins þíns."
+title: Skipuritsskilgreiningar í fjárhagsskýrslum
+description: Þessi skrá upplýsingar um skipuritsskilgreiningar. Skipuritsskilgreining er skýrsluhluti, eða eining, sem aðstoðar við að skilgreina byggingu og stigveldi fyrirtækisins þíns.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 00219f21076af60f8e2f16ca365b1138bb279400
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316948"
 ---
-
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Skipuritsskilgreiningar í fjárhagsskýrslum
 
 [!include [banner](../includes/banner.md)]
@@ -49,9 +48,9 @@ Hægt er að stofna ótakmarkaðan fjölda af skipuritum til að skoða gögn fy
 ## <a name="create-a-reporting-tree-definition"></a> Skilgreining skipurits stofnuð
 skipuritsskilgreining inniheldur dálkana sem lýst er í eftirfarandi töflu.
 
-| Skipuritsdálkur | lýsing |
+| Skipuritsdálkur | Lýsing |
 |-----------------------|-------------|
-| Fyrirt.                 | Heiti fyrirtækis fyrir einingu skipurits. Gildið **@ANY** sem er yfirleitt tengt aðeins samantekt stig, gerir skipurit til að nota fyrir öll fyrirtæki. Allar undirgreinar eru tengdar við fyrirtæki. |
+| Fyrirtæki               | Heiti fyrirtækis fyrir einingu skipurits. Gildið **@ANY**, sem er yfirleitt eingöngu tengt samantektarstiginu, gerir kleift að nota skipuritið fyrir öll fyrirtækin. Allar undirgreinar eru tengdar við fyrirtæki. |
 | Einingarheiti             | Kóðinn sem auðkennir þessa einingu skipurits í myndræna skipuritinu. Gætið þess að koma á einkvæmt kóðunarkerfi sem er samkvæmt sjálfu sér, og sem er auðvelt að skilja fyrir notendur. |
 | Lýsing einingar      | Titill skipuritseiningar kemur fram í haus eða fæti skýrslunnar ef **UnitDesc** er fært inn sem kóði í flipanum **Hausar og fætur** í skýrsluskilgreiningunni. Titillinn kemur fram í línulýsingu skýrslunnar ef **UnitDesc** er fært inn í hólfið **Lýsing** í línuskilgreiningunni. |
 | Víddir            | Eining skipurits sem sækir upplýsingar beint úr fjárhagsgögnum. Skilgreinir tölfræðilega staðsetningu og lengdir fyrir reikninginn og tengda hluta. Allar línur skipuritseiningar verða að hafa vídd í þessum dálki. Þú getur einnig sett vídd í línu samantektareiningar, (t.d. fyrir útgjöld sem eru beint tengd við þá einingu). Ef vídd er sett inn í línu samantektareiningar ættu reikningar sem notaðir eru í yfireiningum ekki að vera notaðir í undireiningum. Annars gætu upphæðir verið tvíteknir. |
@@ -166,9 +165,9 @@ Hægt er að koma í veg fyrir að tilteknir notendur eða hópar fái aðgang a
 3. Í svarglugganum **Einingaröryggi** er heiti valið og síðan smellt á **Fjarlægja**.
 4. Smelltu á **Í lagi**.
 
-### <a name="link-to-reports"></a>Tenglar í skýrslur
+### <a name="link-toreports"></a>Tenglar í skýrslur
 
-Þegar dálkur af gerðinni **Skýrsla** hefur verið stofnaður í línuskilgreiningunni og tilgreind hefur verið skýrsla sem taka á með í skýrslunni, verður að uppfæra skipuritið með tengda dálknum og skýrsluupplýsingunum. Hægt er að flytja inn skýrslu í hvaða einingu sem er í skipuritinu.
+Þegar dálkur af gerðinni  **skýrsla** hefur verið stofnaður í línuskilgreiningunni og tilgreind hefur verið skýrsla sem taka á með í skýrslunni, verður að uppfæra skipuritið með tengda dálknum og skýrsluupplýsingunum. Hægt er að flytja inn skýrslu í hvaða einingu sem er í skipuritinu.
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>Auðkenna skýrsluna í skipuritinu
 
@@ -222,4 +221,3 @@ Eftirfarandi dæmi sýna mögulegar upplýsingar sem eru notaðar í skipuritssk
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
-

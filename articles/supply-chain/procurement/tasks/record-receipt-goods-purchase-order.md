@@ -1,13 +1,13 @@
---- 
-title: "Skrá vörumóttöku í innkaupapöntun"
-description: "Þessi verklýsing sýnir hvernig á að skrá móttöku á vörum beint á innkaupapöntun."
+---
+title: Skrá vörumóttöku í innkaupapöntun
+description: Þessi verklýsing sýnir hvernig á að skrá móttöku á vörum beint á innkaupapöntun.
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 14d1d43479f9864d8fd5ed94a98a654e75eeedf0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9b2300a593c9e153ee598fa72e29907c82f2b79e
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343214"
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>Skrá vörumóttöku í innkaupapöntun
 
@@ -52,5 +52,4 @@ ms.lasthandoff: 09/29/2017
 6. Fella saman hlutann línur.
 7. Smellið á „Í lagi“.
     * Vörurnar hafa nú verið skráð sem móttekið á innkaupapöntuninni og búið er að stofna færslubók fyrir innhreyfingarskjal afurða sem endurspegla þetta. Hægt er að nota aðgerðina innhreyfing afurðar til að fara yfir færslubækur sem stofnaðar eru með innkaupapöntuninni og sjá hvað var móttekið og hvenær.  
-
 

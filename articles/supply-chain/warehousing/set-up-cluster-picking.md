@@ -1,13 +1,13 @@
 ---
 title: Setja upp klasatiltekt
-description: "Í þessu efnisatriði er því lýst hvernig á að setja upp klasatiltekt og hvernig á að nota vörustaðfestingu með klasatiltekt."
+description: Í þessu efnisatriði er því lýst hvernig á að setja upp klasatiltekt og hvernig á að nota vörustaðfestingu með klasatiltekt.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSClusterProfile, WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a7adec850cfb473b0bfc9536dcb1ef1cfd74129a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2ec0890963b2b01407acac8003453faf370894b4
-ms.openlocfilehash: 1c23421ddfda8c5f6fa27a31831a00ead6094db9
-ms.contentlocale: is-is
-ms.lasthandoff: 04/11/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364098"
 ---
-
 [!include[banner](../includes/banner.md)]
 
 # <a name="set-up-cluster-picking"></a>Setja upp klasatiltekt
@@ -35,7 +34,7 @@ ms.lasthandoff: 04/11/2018
 
 Eftir að verkpantanir eru gefnar út á vöruhús getur starfsmaður notað farsímann til að úthluta pöntunum í klasa. Klasa verður að skipuleggja tiltektarvinnu fyrir starfsmann. Vinna pöntun er tengdur við klasa, starfsmaður verður að nota klasa tiltektarlista til að framkvæma vinnu við tiltekt pöntunarinnar. Starfsmaðurinn getur ekki notað annarri tiltektaraðferð. Ef vinnu pöntun er úthlutað á klasa mistök, verður starfsmaðurinn skipta klasanum sem og síðan búðu það aftur.
 
-Ef þörf krefur, getur starfsmaður látið klasa ganga til  annan starfsmann. Þetta breytir stöðunni í klasa Skilað. Þegar starfskraftur notar fartæki til að tilgreina að lokið er við tiltektar- og frágangsvinnu, verður að staðfesta sendinguna eða farminn í biðlara Dynamics 365 for Finance and Operations.
+Ef þörf krefur, getur starfsmaður látið klasa ganga til  annan starfsmann. Þetta breytir stöðunni í klasa Skilað. Þegar starfsmaður notar fartæki til að tilgreina að lokið er við tiltektar- og frágangsvinnu, verður að staðfesta sendinguna eða farminn í Dynamics 365 for Finance and Operations biðlara.
 
 ## <a name="set-up-cluster-picking"></a>Setja upp klasatiltekt
 
@@ -81,4 +80,3 @@ Til að setja upp forstillingu sem klasa, skal fylgja þessum skrefum:
 1.  Í valmyndaratriði fartækis skal opna eyðublað uppsetningar fyrir vinnustaðfestingu: **Vöruhúsakerfi** \> **Vöruhúsakerfi** \> **Uppsetning** \> **Fartæki** \> **Valmyndaratriði fartækis**.
 
 2.  Opna **Uppsetning vinnustaðfestingar** í valmyndaratriði fartækis. Valkosturinn **Afurðarstaðfesting** leyfir þér að staðfesta hvert stykki af birgðum úr fartæki þegar það er skannað.
-

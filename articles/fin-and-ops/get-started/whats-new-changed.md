@@ -1,13 +1,13 @@
 ---
-title: "Hvað er nýtt eða breytt"
-description: "Þessi síða beinir þér á efnisatriði sem geta aðstoðað þig við að læra um nýjar aðgerðir í síðustu útgáfu af Microsoft Dynamics 365 for Finance and Operations."
+title: Hvað er nýtt eða breytt
+description: Þessi síða beinir þér á efnisatriði sem geta aðstoðað þig við að læra um nýja eiginleika í síðustu útgáfum af Microsoft Dynamics 365 for Finance and Operations.
 author: josaw1
 manager: AnnBe
-ms.date: 12/05/2018
+ms.date: 02/07/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
+ms.openlocfilehash: 982b72b3fd71d58038218e007f9f3790874ceddc
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
-ms.openlocfilehash: 7d2a334792655a762c136a367c43ad56393001f5
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377206"
 ---
-
 # <a name="whats-new-or-changed"></a>Nýjungar eða breytingar
 
 [!include [banner](../includes/banner.md)]
 
-Þessi síða beinir þér á efnisatriði sem geta aðstoðað þig við að læra um nýjar aðgerðir í síðustu útgáfu af Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+Þessi síða beinir þér á efnisatriði sem geta aðstoðað þig við að læra um nýjar aðgerðir í síðustu útgáfu af Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 Frekari upplýsingar um hvernig uppfært er í nýjustu útgáfuna: [Ferli fyrir uppfærslu í nýjustu útgáfu Dynamics 365 for Operations](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
@@ -44,14 +43,21 @@ Frekari upplýsingar um hvernig uppfært er í nýjustu útgáfuna: [Ferli fyrir
 <table>
 <thead>
 <tr>
+<th>Losun</th>
 <th>Útgáfa</th>
-<th>Útgáfa</th>
-<th>Smíðarnúmer</th>
-<th>Framboð</th>
+<th>Búa til númer</th>
+<th>Til ráðstöfunar</th>
 <th>Frekari upplýsingar</th>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>10,0</td>
+<td>10,0,8</td>
+<td>2019. apríl</td>
+<td><a href="whats-new-changed-10.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations útgáfa 10.0 (apríl 2019)</a></td>
+</tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>8,1,3</td>
@@ -85,7 +91,7 @@ Frekari upplýsingar um hvernig uppfært er í nýjustu útgáfuna: [Ferli fyrir
 <td>8.0</td>
 <td>8.0.30, 8.0.35</td>
 <td>2018. apríl</td>
-<td><a href="whats-new-changed-8-0-April-2018.md">Hvað er nýtt eða breytt í Dynamics 365 for Finance and Operations útgáfa 8.0 (apríl 2018)</a></td>
+<td><a href="whats-new-changed-8-0-April-2018.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations útgáfa 8.0 (apríl 2018)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
@@ -99,28 +105,28 @@ Frekari upplýsingar um hvernig uppfært er í nýjustu útgáfuna: [Ferli fyrir
 <td>Júlí 2017</td>
 <td>7.2.11792.56024</td>
 <td>2017. júní</td>
-<td><a href="whats-new-application-July-2017-update.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations, Enterprise edition (júlí 2017)</a></td>
+<td><a href="whats-new-application-July-2017-update.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations, Enterprise Edition (júlí 2017)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Operations</td>
 <td>1611</td>
 <td>7.1.1541.3036</td>
 <td>Nóvember 2016</td>
-<td><a href="whats-new-dynamics-365-operations-1611.md">Hvað er nýtt eða breytt í Dynamics 365 for Operations útgáfu 1611 (Nóvember 2016)</a></td>
+<td><a href="whats-new-dynamics-365-operations-1611.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Operations útgáfu 1611 (Nóvember 2016)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics AX</td>
 <td>7.0.1</td>
 <td>7.0.1265.23014</td>
 <td>2016. maí</td>
-<td><a href="whats-new-changed-application-version-7-0-1-may-2016.md">Nýjungar eða breytingar í Dynamics AX forritaútgáfu 7.0.1 (maí 2016)</a></td>
+<td><a href="whats-new-changed-application-version-7-0-1-may-2016.md">Hvað er nýtt og hvað hefur breyst í Dynamics AX forritaútgáfa 7.0.1 (maí 2016)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics AX</td>
 <td>7.0</td>
 <td>7.0.1265.3015</td>
 <td>2016. febrúar</td>
-<td><a href="whats-new-changed-7-0-february-2016.md">Hvað er nýtt eða breytt í Dynamics AX 7.0 (febrúar 2016)</a></td>
+<td><a href="whats-new-changed-7-0-february-2016.md">Hvað er nýtt og hvað hefur breyst í AX 7.0 (febrúar 2016)</a></td>
 </tr>
 </tbody>
 </table>
@@ -133,137 +139,143 @@ Frekari upplýsingar um hvernig uppfært er í nýjustu útgáfuna: [Ferli fyrir
 <th>Losun</th>
 <th>Útgáfa</th>
 <th>Búa til númer</th>
-<th>Framboð</th>
+<th>Til ráðstöfunar</th>
 <th>Frekari upplýsingar</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>Update 24 fyrir verkvang</td>
+<td>7,0,5179</td>
+<td>2019. mars</td>
+<td><a href="whats-new-platform-update-24.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations verkvangsuppfærsla 24 (mars 2019)</a></td>
+</tr>
+<tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Update 23 fyrir verkvang</td>
 <td>7,0,5126</td>
 <td>Janúar 2019</td>
-<td><a href="whats-new-platform-update-23.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations, verkvangsuppfærsla 23 (janúar 2019)</a></td>
+<td><a href="whats-new-platform-update-23.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations verkvangsuppfærsla 23 (janúar 2019)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Update 22 fyrir verkvang</td>
 <td>7,0,5095</td>
 <td>2018. desember</td>
-<td><a href="whats-new-platform-update-22.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations, verkvangsuppfærsla 22 (desember 2018)</a></td>
+<td><a href="whats-new-platform-update-22.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations verkvangsuppfærsla 22 (desember 2018)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Update 21 fyrir verkvang</td>
 <td>7,0,5073</td>
-<td>2018. október</td>
-<td><a href="whats-new-platform-update-21.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations verkvangsuppfærslu 21 (október 2018)</a></td>
+<td>Nóvember 2018</td>
+<td><a href="whats-new-platform-update-21.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations, verkvangsuppfærsla 21 (nóvember 2018)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Update 20 fyrir verkvang</td>
 <td>7,0,5030</td>
 <td>2018. september</td>
-<td><a href="whats-new-platform-update-20.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations verkvangsuppfærslu 20 (september 2018)</a></td>
+<td><a href="whats-new-platform-update-20.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations verkvangsuppfærsla 20 (september 2018)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Update 15 fyrir verkvang</td>
 <td>7.0.4841</td>
 <td>2018. mars</td>
-<td><a href="whats-new-platform-update-15.md">Hvað er nýtt eða breytt í Dynamics 365 for Finance and Operations, Enterprise edition, verkvangsuppfærslu 15 (mars 2018)</a></td>
+<td><a href="whats-new-platform-update-15.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations, Enterprise Edition verkvangsuppfærsla 15 (mars 2018)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Update 12 fyrir verkvang</td>
 <td>7.0.4709</td>
 <td>Nóvember 2017</td>
-<td><a href="whats-new-platform-update-12.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations, Enterprise edition verkvangsuppfærsla 12 (nóvember 2017)</a></td>
+<td><a href="whats-new-platform-update-12.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations, Enterprise Edition verkvangsuppfærsla 12 (nóvember 2017)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Update 11 fyrir verkvang</td>
 <td>7.0.4679.35176</td>
 <td>2017. október</td>
-<td><a href="whats-new-platform-update-11.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations, Enterprise edition verkvangsuppfærsla 11 (október 2017)</a></td>
+<td><a href="whats-new-platform-update-11.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations, Enterprise Edition verkvangsuppfærsla 11 (október 2017)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Update 10 fyrir verkvang</td>
 <td>7.0.4641.16233</td>
 <td>Ágúst 2017</td>
-<td><a href="whats-new-platform-update-10.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations, Enterprise edition Verkvangsuppfærsla 10 (ágúst 2017)</a></td>
+<td><a href="whats-new-platform-update-10.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations, Enterprise Edition verkvangsuppfærsla 10 (ágúst 2017)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Update 9 fyrir verkvang</td>
 <td>7.0.4612.35162</td>
 <td>Júlí 2017</td>
-<td><a href="whats-new-platform-update-9.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations, Enterprise edition Verkvangsuppfærsla 9 (júlí 2017)</a></td>
+<td><a href="whats-new-platform-update-9.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations, Enterprise Edition verkvangsuppfærsla 9 (júlí 2017)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Update 8 fyrir verkvang</td>
 <td>7.0.4565.16212</td>
 <td>2017. júní</td>
-<td><a href="whats-new-platform-update-8.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations, Enterprise edition Verkvangsuppfærsla 8 (júní 2017)</a></td>
+<td><a href="whats-new-platform-update-8.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations, Enterprise Edition verkvangsuppfærsla 8 (júní 2017)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Operations</td>
 <td>Update 7 fyrir verkvang</td>
 <td>7.0.4542.16189</td>
 <td>2017. maí</td>
-<td><a href="whats-new-platform-update-7.md">Hvað er nýtt eða breytt í Dynamics 365 for Operations verkvangsuppfærslu 7 (maí 2017)</a></td>
+<td><a href="whats-new-platform-update-7.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Operations verkvangsuppfærsla 7 (maí 2017)</a></td>
 </tr>
 <tr>
 <td>Dynamics 365 for Operations</td>
 <td>Update 6 fyrir verkvang</td>
 <td>7.0.4509.16180</td>
 <td>2017. apríl</td>
-<td><a href="whats-new-platform-update-6.md">Hvað er nýtt eða breytt í Dynamics 365 for Operations verkvangsuppfærslu 6 (apríl 2017)</a></td>
+<td><a href="whats-new-platform-update-6.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Operations verkvangsuppfærsla 6 (apríl 2017)</a></td>
 </tr>
 <tr>
 <td>Dynamics 365 for Operations</td>
 <td>Update 5 fyrir verkvang</td>
 <td>7.0.4475.16165</td>
 <td>2017. mars</td>
-<td><a href="whats-new-platform-update-5.md">Hvað er nýtt eða breytt í Dynamics 365 for Operations verkvangsuppfærslu 5 (mars 2017)</a></td>
+<td><a href="whats-new-platform-update-5.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Operations verkvangsuppfærsla 5 (mars 2017)</a></td>
 </tr>
 <tr>
 <td>Dynamics 365 for Operations</td>
 <td>Update 4 fyrir verkvang</td>
 <td>7.0.4425.16161</td>
 <td>2017. febrúar</td>
-<td><a href="whats-new-platform-update-4.md">Hvað er nýtt eða breytt í Dynamics 365 for Operations verkvangsuppfærslu 4 (febrúar 2017)</a></td>
+<td><a href="whats-new-platform-update-4.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Operations verkvangsuppfærsla 4 (febrúar 2017)</a></td>
 </tr>
 <tr>
 <td>Dynamics 365 for Operations</td>
 <td>Update 3 fyrir verkvang</td>
 <td>7.0.4307.16141</td>
 <td>Nóvember 2016</td>
-<td><a href="whats-new-platform-update-3.md">Hvað er nýtt eða breytt í Dynamics 365 for Operations verkvangsuppfærslu 3 (nóvember 2016)</a></td>
+<td><a href="whats-new-platform-update-3.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Operations, verkvangsuppfærsla 3 (nóvember 2016)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics AX</td>
 <td>Update 2 fyrir verkvang</td>
 <td>7.0.4230.16130</td>
 <td>Ágúst 2016</td>
-<td><a href="whats-new-platform-update-2.md">Hvað er nýtt eða breytt í Dynamics AX verkvangsuppfærslu 2 (ágúst 2016)</a></td>
+<td><a href="whats-new-platform-update-2.md">Hvað er nýtt og hvað hefur breyst í Dynamics AX verkvangsuppfærsla 2 (ágúst 2016)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics AX</td>
 <td>Update 1 fyrir verkvang</td>
 <td>7.0.4127.16103</td>
 <td>2016. maí</td>
-<td><a href="whats-new-changed-platform-version-7-1-may-2016.md">Hvað er nýtt eða breytt í Dynamics AX verkvangsuppfærslu 1 (maí 2016)</a></td>
+<td><a href="whats-new-changed-platform-version-7-1-may-2016.md">Hvað er nýtt og hvað hefur breyst í Dynamics AX verkvangsuppfærsla 1 (maí 2016)</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics AX</td>
 <td>7.0</td>
 <td>7.0.4030.16079</td>
 <td>2016. febrúar</td>
-<td><a href="whats-new-changed-7-0-february-2016.md">Hvað er nýtt eða breytt í Dynamics AX 7.0 (febrúar 2016)</a></td>
+<td><a href="whats-new-changed-7-0-february-2016.md">Hvað er nýtt og hvað hefur breyst í AX 7.0 (febrúar 2016)</a></td>
 </tr>
 </tbody>
 </table>
-

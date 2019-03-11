@@ -1,13 +1,13 @@
 ---
-title: "Nýliðun lánardrottna"
-description: "Þetta efnisatriði lýsir ferlinu við nýliðun lánardrottna. Það útskýrir aðgerðirnar sem krafist er af ýmsum hlutverkum meðan á þessu ferli stendur."
+title: Nýliðun lánardrottna
+description: Þetta efnisatriði lýsir ferlinu við nýliðun lánardrottna. Það útskýrir aðgerðirnar sem krafist er af ýmsum hlutverkum meðan á þessu ferli stendur.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
 audience: Application User
 ms.reviewer: josaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 5fda191a41300eea7f3036af54852857d8ff653d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: f831d986d7b534bf030bee0fa0c5dcb97af03289
-ms.contentlocale: is-is
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322146"
 ---
-
 # <a name="onboard-vendors"></a>Nýliðun lánardrottna
 [!include [banner](../includes/banner.md)]
 
@@ -46,7 +45,7 @@ Eftirfarandi tafla sýnir skrefin og hlutverkin sem eru innifalin í ferlinu.
 |--------------------------|---|---|---|---|---|---|
 | System                   | Beiðnin fyrir nýjan lánardrottinn er flutt inn. | | | | | Eftir að beiðni lánardrottins hefur verið samþykkt, er lánardrottinsskrá búin til. |
 | Innkaupastjóri | | Hefja innleiðingarferlið. | | | Yfirfara og annað hvort samþykkja eða hafna lánardrottinsbeiðninni. | |
-| Stjórnandi            | | | Stofnun notanda í Finance and Operations og Microsoft Azure. | | | |
+| Kerfisstjóri            | | | Stofnun notanda í Finance and Operations og Microsoft Azure. | | | |
 | Tengiliður lánardrottins    | | | Senda tölvupóst til tengiliðsins. | Skrá upplýsingar um lánardrottinn. | | |
 
 Til að fá snögga sýnikennslu um innleiðingarferli lánardrottins skal horfa á þetta stutta YouTube myndband: [Innleiða nýjan lánardrottinn í Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk}.
@@ -77,7 +76,7 @@ Eftir að skráningarbeiðni væntanlegs lánardrottins hefur verið flutt inn b
 
 Tilgangur notandabeiðni væntanlegs lánardrottins er að veita þeim sem sendu upphaflegu beiðnina forsjá, þannig að hann eða hún geti skráð sig inn í Finance and Operations með því að nota tölvupóstreikninginn sem er að finna í skráningarbeiðni væntanlegs lánardrottins.
 
-Notandabeiðni væntanlegs lánardrottins er unnin af verkflæði notandabeiðni. Verkflæði á samskipti í gegnum Azure AD B2B samvinnu. Það stofnar notanda í Finance and Operations sem hefur viðeigandi öryggisstillingar.
+Notandabeiðni væntanlegs lánardrottins er unnin af verkflæði notandabeiðni. Verkflæði á samskipti í gegnum Azure AD AD B2B samvinnu. Það stofnar notanda í Finance and Operations sem hefur viðeigandi öryggisstillingar.
 
 Nýir notendur sem eru settir upp hafa eftirfarandi öryggishlutverk:
 
@@ -174,5 +173,4 @@ Með því að nota **Eyða** aðgerðina á skráningarbeiðni væntanlegs lán
 |  Beiðni lánardrottins stofnuð  |                                                                     Búið er að fara í gegnum leiðsagnarforrit fyrir skráningu lánardrottins.                                                                      | Beiðni um að gera notandann óvirkan er búin til og skráningarbeiðni væntanlegs lánardrottins, gögnin sem voru slegin inn í leiðsagnarforrit fyrir skráningu lánardrottins og lánardrottnabeiðninni er eytt.<blockquote>[!NOTE]<br>Þú getur ekki notað <strong>Eyða</strong> aðgerð þegar lánardrottnabeiðni er í endurskoðunarferli í verkflæðinu.</blockquote> |
 |         Samþ.         |                                                                               Lánardrottnabeiðnin er samþykkt.                                                                               |                                                                                                   Skráningarbeiðni væntanlegs lánardrottins, gögnin sem voru slegin inn í leiðsagnarforrit fyrir skráningu lánardrottins og lánardrottnabeiðninni er eytt.                                                                                                    |
 |         Hafnað         |                                                                               Lánardrottnabeiðninni er hafnað.                                                                               |                                                                                                   Skráningarbeiðni væntanlegs lánardrottins, gögnin sem voru slegin inn í leiðsagnarforrit fyrir skráningu lánardrottins og lánardrottnabeiðninni er eytt.                                                                                                    |
-
 

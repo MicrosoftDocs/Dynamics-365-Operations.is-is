@@ -1,13 +1,13 @@
 ---
-title: "Stofnun reiknings viðskiptavinar"
-description: "**Reikningur viðskiptavinar fyrir sölupöntun** er reikningur sem tengist sölunni og sem fyrirtæki gefur viðskiptavini."
+title: Stofnun reiknings viðskiptavinar
+description: '**Reikningur viðskiptavinar fyrir sölupöntun** er reikningur sem tengist sölunni og sem fyrirtæki gefur viðskiptavini.'
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
 ms.openlocfilehash: 6d7c9a61f935503b74ac27b354c875df095d84b4
-ms.contentlocale: is-is
-ms.lasthandoff: 08/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365271"
 ---
-
 # <a name="create-a-customer-invoice"></a>Stofnun reiknings viðskiptavinar
 
 [!include [banner](../includes/banner.md)]
@@ -91,16 +90,16 @@ Eftirfarandi svæði breyta hegðun bókunarferlanna.
 <ul>
 <li><strong>Afhenda nú</strong> – Veljið allt magn sem er fært inn í svæðið <strong>Afhenda nú</strong>. Notaðu þennan valkostur í staðfesta eða afhenda pöntun að hluta til.</li>
 <li><strong>Tiltekið</strong> – Velja allt magn sem hafa verið teknar til.</li>
-<li><strong>Allt</strong> – Velja allt magn á sölupöntun sem hefur ekki enn verið uppfært af núverandi gerð skjals.</li>
+<li><strong>Allt</strong> - Velja allt magn í sölupöntun sem hefur &#39; ekki enn verið uppfært af núverandi gerð skjals.</li>
 <li><strong>Fylgiseðill</strong> – Velja allt magn sem hafa verið uppfærðar af fylgiseðli.</li>
-<li><strong>Tiltektarmagn og afurðir sem ekki eru á lager</strong> – Velja allt magn sem hefur verið tekið til og allt magn afurðar sem ekki er í birgðum.</li>
+<li><strong>Tiltektarmagn og afurðir sem ekki á lager </strong> – Velja allt magn sem hafa verið teknar til og allt magn vöru sem ekki eru í birgðum.&#39;</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Bókun</td>
 <td><ul>
 <li>Veljið þennan valkost til að skrá sölupöntun.</li>
-<li>Hreinsið þennan valkost til að prenta bráðabirgðaafrit af sölupöntun. <strong>Athugasemd:</strong> Ef samningur hefur verið gerður fyrir greiðsluáætlun, mun greiðsluáætlunin ekki verða sýnd á bráðabirgðasölupöntun. Greiðsluáætlanir verður einungis sýnd á raunverulegu sölupöntuninni.</li>
+<li>Hreinsið þennan valkost til að prenta bráðabirgðaafrit af sölupöntun. <strong>Athugasemd</strong> Ef samningur hefur verið gerður fyrir greiðsluáætlun, mun greiðsluáætlunin ekki verða sýnd á bráðabirgðasölupöntun.&#39; Greiðsluáætlanir verður einungis sýnd á raunverulegu sölupöntuninni.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -118,7 +117,7 @@ Eftirfarandi svæði breyta hegðun bókunarferlanna.
 <li><strong>Núverandi</strong> - Prenta skjöl eftir að hver reikningur hefur verið uppfærður.</li>
 <li><strong>Eftir</strong> – Prenta skjöl eftir allar reikningur hafa verið uppfærð.</li>
 </ul>
-<strong>Athugasemd</strong> <strong>Prenta</strong> svæðið býðst aðeins ef valkosturinn <strong>Prenta reikninginn</strong>, <strong>Prenta staðfestingu</strong>, <strong>Prenta tiltektarlista</strong> eða <strong>Prenta fylgiseðla</strong> er valið. Til dæmis, á síðunni <strong>Röðunarsíða skjámynda</strong> hefur þú sett kerfið upp til að raða upplýsingum eftir reikningslykli. Þá er hægt að velja <strong>Eftir</strong> til að prenta skjölin í runu sem er flokkuð af reikningslykli. Annars eru skjölin prentuð áður en vinnslu er lokið og ekki raðað í þá röð sem tilgreint er á síðunni <strong>Röðunarsíða skjámynda</strong>.</td>
+<strong>Athugasemd</strong> <strong>Prenta</strong> svæðið býðst aðeins ef valkosturinn <strong>Prenta reikninginn</strong>, <strong>Prenta staðfestingu</strong>, <strong>Prenta tiltektarlista</strong> eða <strong>Prenta fylgiseðla</strong> er valið. Til dæmis, á síðunni <strong>Röðunarsíða skjámynda</strong> hefur þú sett kerfið upp til að raða upplýsingum eftir reikningslykli. Þá er hægt að velja <strong>Eftir</strong> til að prenta skjölin í runu sem er flokkuð af reikningslykli. Annars eru skjöl prentuð áður en vinnslu er lokið og ekki raðað í þá röð sem tilgreint er á síðunni <strong>Flokkunarsíða skjámynda</strong>.&#39;</td>
 </tr>
 <tr class="even">
 <td>Prenta reikning</td>
@@ -148,22 +147,21 @@ Eftirfarandi svæði breyta hegðun bókunarferlanna.
 </tr>
 <tr class="odd">
 <td>Kreditfæra eftirstöðvar</td>
-<td>Ef verið er að bóka kreditnótu skal velja þennan valkost til að halda eftirstandandi magni í pöntun. Ef valmöguleikinn er hreinsaður verða eftirstöðvar settar sem 0 (núll).</td>
+<td>Ef verið er að bóka kreditnótu veljið þá þennan valkost til að halda eftirstandandi magni í pöntun.&#39; Ef valmöguleikinn er hreinsaður verða eftirstöðvar settar sem 0 (núll).</td>
 </tr>
 <tr class="even">
 <td>Safnuppfærsla fyrir</td>
 <td>Velja hvernig á að taka saman margar sölupantanir:
 <ul>
-<li><strong>Ekkert</strong> – Ekki taka saman sölupantanir. Til dæmis verður aðskilinn reikningur stofnaður fyrir hverja sölupöntun.</li>
+<li><strong>Ekkert</strong> - Ekki &#39; taka saman sölupantanir. Til dæmis verður aðskilinn reikningur stofnaður fyrir hverja sölupöntun.</li>
 <li><strong>Reikningslykill</strong> – taka saman öllum völdum pöntunum, samkvæmt skilyrðum sem sett eru upp á síðunni <strong>færibreytur safnuppfærslu</strong>.</li>
 <li><strong>Pöntun</strong> – Safna saman völdu sviði pantana í eina tilgreinda pöntun. Pantanir sem er safnað saman, samkvæmt skilyrðum sem sett eru upp á síðunni <strong>færibreytur safnuppfærslu</strong>. Ef þessi valkostur er valinn skal velja gildi í svæðið <strong>sölupöntun</strong>.</li>
-<li><strong>Sjálfvirk samantekt </strong> – ef samantektaruppfærslur hafa verið tilgreindar á <strong>safnuppfærslu</strong> síðu, skal safna saman allar valdar pantanir, samkvæmt skilyrðum sem sett eru upp í <strong>færibreytur safnuppfærslu</strong> síðu. Ef safnuppfærslur hafa ekki verið tilgreindar er pöntunin bókuð sér.</li>
+<li><strong>Sjálfvirk samantekt </strong> – ef samantektaruppfærslur hafa verið tilgreindar á <strong>safnuppfærslu</strong> síðu, skal safna saman allar valdar pantanir, samkvæmt skilyrðum sem sett eru upp í <strong>færibreytur safnuppfærslu</strong> síðu. Ef safnuppfærsla hefur ekki verið tilgreindur er pöntunin bókuð sér.&#39;</li>
 <li><strong>Fylgiseðill</strong> – Safna saman valinni röð af pöntunum í einn reikning á hvern fylgiseðil. Þessi valkostur er bara tiltækur ef <strong>fylgiseðill</strong> er valið í svæðinu <strong>Magn</strong>.</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
-
 
 
 

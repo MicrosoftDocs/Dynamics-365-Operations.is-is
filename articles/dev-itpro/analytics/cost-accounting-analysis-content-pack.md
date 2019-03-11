@@ -1,13 +1,13 @@
 ---
-title: "Kostnaðarbókhaldsgreining Power BI-efni"
-description: "Þetta efnisatriði lýsir því hvað er innifalið í Power BI-efni greiningar kostnaðarbókhalds. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið."
+title: Kostnaðarbókhaldsgreining Power BI efni
+description: Þetta efnisatriði lýsir því hvað er innifalið í Kostnaðarbókhaldsgreiningu Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: d0b563044843157940f456b07479bbd6006a42f9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: af87f3f7c3fab9b6baecefbedcd855a764f31cbe
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347446"
 ---
-
-# <a name="cost-accounting-analysis-power-bi-content"></a>Kostnaðarbókhaldsgreining Power BI-efni
+# <a name="cost-accounting-analysis-power-bi-content"></a>Kostnaðarbókhaldsgreining Power BI efni
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvað er innifalið í **Greining kostnaðarbókhalds** í efni Microsoft Power BI. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
+Þetta efnisatriði lýsir því hvað er innifalið í **Kostnaðarbókhaldsgreiningu** Microsoft Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
 ## <a name="overview"></a>Yfirlit
 
-**Greining kostnaðarbókhalds** í Power BI er ætlað fyrir kostnaðarstýringu eða alla sem bera ábyrgð á framkvæmd kostnaðarstýringar fyrirtækis. Það inniheldur lykilmælikvarða, eins og kostnaður, Mæligildi, og kostnaðarhlutfall eftir raunverulegur kostnaður, kostnað fjárhagsáætlunar og sveigjanleg áætlun kostnaður. Það notar færslugögn úr einingunni **Kostnaðarbókhald** og veitir samanlagt yfirlit yfir kostnað fyrir allt fyrirtækið í einum skýrslugjaldmiðli. Stjórnendur getur síað gögnin eftir kostnaðarhlutur til að framkvæma kostnaðarstýringu á skipulagseiningum þess, jafnvel þó að fyrirtæki geti haft nokkra lögaðilar.
+**Greining kostnaðarbókhalds** Power BI efni er ætlað fyrir kostnaðarstýringu eða alla sem bera ábyrgð á framkvæmd kostnaðarstýring af fyrirtæki. Það inniheldur lykilmælikvarða, eins og kostnaður, Mæligildi, og kostnaðarhlutfall eftir raunverulegur kostnaður, kostnað fjárhagsáætlunar og sveigjanleg áætlun kostnaður. Það notar færslugögn úr einingunni **Kostnaðarbókhald** og veitir samanlagt yfirlit yfir kostnað fyrir allt fyrirtækið í einum skýrslugjaldmiðli. Stjórnendur getur síað gögnin eftir kostnaðarhlutur til að framkvæma kostnaðarstýringu á skipulagseiningum þess, jafnvel þó að fyrirtæki geti haft nokkra lögaðilar.
 
 Þar sem **Greining kostnaðarbókhalds** sýnir muninn milli raunverulegs og áætlaðs kostnaðar, geta stjórnendur verið upplýstir um jákvæða og neikvæða þróun innan sinnar rekstrareiningar. Stjórnendur geta kafað niður í stigveldi kostnaðareininga eða stakar kostnaðareiningar. Þannig geta stjórnendur öðlast mikið innsæi í hvernig kostnaðarfrávik eru tilkomin og gripið svo til viðeigandi ráðstafana.
 
@@ -41,20 +40,20 @@ ms.lasthandoff: 08/09/2018
 
 Í frekari upplýsingar um Kostnaðarbókhald, sjá [Kostnaðarbókhald heimasíða](../../financials/cost-accounting/cost-accounting-home-page.md).
 
-Með því að skilgreina öryggi á aðgangsstigi í Kostnaðarbókhaldi og sameina það við öryggi á línustigi í Power BI, er hægt að veita öllum eigendum kostnaðarhluta aðgang í Power BI-efni **Kostnaðarbókhald greining**. Öll gögn í myndbirtingar verða síðan afmörkuð á grunni þess aðgangsstig sem er stjórnað í Kostnaðarbókhald. Frekari upplýsingar um öryggi á aðgangsstigi og öryggi línutstigi, sjá [Öryggi sett upp fyrir Power BI-efni kostnaðarbókhalds](setup-security-cost-accounting-content-pack.md).
+Með því að skilgreina öryggi á aðgangsstigi í Kostnaðarbókhaldi og sameina það við öryggi á línustigi í Power BI, er hægt að veita öllum eigendum kostnaðarhluta aðgang í **Kostnaðarbókhald greining** Power BI efni. Öll gögn í myndbirtingar verða síðan afmörkuð á grunni þess aðgangsstig sem er stjórnað í Kostnaðarbókhald. Frekari upplýsingar um öryggi á aðgangsstigi og öryggi á línustigi, sjá [Öryggi sett upp fyrir efni kostnaðarbókhalds Power BI](setup-security-cost-accounting-content-pack.md).
 
-## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
-Hægt er að finna Power BI-efnið **Greining kostnaðarbókhalds** í safninu Samnýttar eignar í Microsoft Dynamics Lifecycle Services (LCS). Upplýsingar um hvernig á að sækja efnið og innleiða það í fyrirtæki er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
+Hægt er að finna **Greining kostnaðarbókhalds** Power BI efnið í safninu Samnýttar eignir í Microsoft Dynamics Lifecycle Services (LCS). Upplýsingar um hvernig á að sækja efnið og tengja það við gögn fyrirtækisins er að finna í [Power BI-efni í LCS frá Microsoft og viðskiptaaðilum þínum](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
 
 <!--To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.-->
 
-Hlaða skal niður efninu **Greining kostnaðarbókhalds** sem á við um þá útgáfu Microsoft Dynamics 365 sem verið er að nota.
+Vertu viss um að hlaða niður efninu **Kostnaðarbókhaldsgreining** sem á við um útgáfuna af Microsoft Dynamics 365 sem verið er að nota.
 
 > [!NOTE]
-> KB 4011327 er forskilyrði fyrir þetta Power BI-efni. Eftir að þú skráir þig inn í LCS getur þú nálgast KB hér á <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+> ATHUGIÐ: KB4011327 er forskilyrði fyrir þetta Power BI-efni. Eftir að þú skráir þig inn í LCS getur þú nálgast KB hér á <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI-efni
-Innihaldið inniheldur hóp af skýrslusíðum. Hver síða samanstendur af safni mælikvarða sem eru sýndir sem myndrit, reitir og töflur. Í eftirfarandi töflu er yfirlit yfir myndbirtingar í Power BI-efni **kostnaðarbókhalds**.
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI efni
+Innihaldið inniheldur hóp af skýrslusíðum. Hver síða samanstendur af safni mælikvarða sem eru sýndir sem myndrit, reitir og töflur. Í eftirfarandi töflu er yfirlit yfir myndbirtingar í **kostnaðarbókhalds** Power BI-efni .
 
 | Skýrslusíða                      | Graf                                                                                                                         | Reitur                                          |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
@@ -75,7 +74,7 @@ Innihaldið inniheldur hóp af skýrslusíðum. Hver síða samanstendur af safn
 |                                  | Raunverulegur kostnaður eftir heiti víddarstaks kostnaðarhlutar og heiti víddarstaks kostnaðareiningar                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
-Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í **Greining kostnaðarbókhalds** í Power BI. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Entity-verslunin er Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](power-bi-integration-entity-store.md)
+Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í **Greiningar kostnaðarbókhalds** Power BI efni. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Einingaverslunin er Microsoft SQL Server gagnagrunnur sem er fínstillt fyrir greiningar. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](power-bi-integration-entity-store.md)
 
 Eftirfarandi lykiluppsafnaðar mælingar eru notaðar sem grunnur að efninu.
 
@@ -127,4 +126,3 @@ Eftirfarandi lykilvíddir eru notaðar sem síur til að sneiða uppsafnaðar m�
 | Fjárhagsdagatöl                   | Almanak, lýsing almanaks                                                                                       |
 | Fjárhagsár                       | Almanaksár                                                                                                        |
 | Fjárhagstímabil                     | Tímabil almanaksárs                                                                                                 |
-

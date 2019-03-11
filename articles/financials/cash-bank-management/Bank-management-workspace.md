@@ -1,13 +1,13 @@
 ---
-title: "Vinnusvæði bankakerfis"
-description: "Í þessu efnisatriði er að finna upplýsingar um vinnusvæði bankakerfis. Þetta vinnusvæði sýnir upplýsingar sem tengjast bankareikningum fyrirtækis og felur í sér samtöluyfirlit og greiningarsíðu. Samtöluyfirlitið sýnir samantektarreiti, upplýsingar um bankareikninga, myndrit og tengdar upplýsingar. Greiningarsíðan notar virkni Microsoft Power BI til að birta myndræna framsetningu á stöðu bankareikninga."
+title: Vinnusvæði bankakerfis
+description: Í þessu efnisatriði er að finna upplýsingar um vinnusvæði bankakerfis. Þetta vinnusvæði sýnir upplýsingar sem tengjast bankareikningum fyrirtækis og felur í sér samtöluyfirlit og greiningarsíðu. Samtöluyfirlitið sýnir samantektarreiti, upplýsingar um bankareikninga, myndrit og tengdar upplýsingar. Greiningarsíðan notar getu Microsoft Power BI til að sýna myndefni sem tengjast stöðum bankareikninga.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: fdc0d1e5ea02cdcff9f7f5ede4ab685f54365698
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 3c38807e9ed3b2ced37ada35b72e388c125bd654
-ms.contentlocale: is-is
-ms.lasthandoff: 03/05/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348366"
 ---
 # <a name="bank-management-workspace"></a>Vinnusvæði bankakerfis
 
 [!include [banner](../includes/banner.md)]
 
-Vinnusvæðið **Bankakerfi** birtir upplýsingar sem tengjast bankareikningum fyrirtækis. Í þessu vinnusvæði er yfirlitið **Samtölur** og síðan **Greiningar**. Yfirlitið **Samtölur** sýnir samantektarreiti, upplýsingar um bankareikninga, myndrit og tengdar upplýsingar. Síðan **Greiningar** notar virkni Microsoft Power BI til að birta myndræna framsetningu á stöðu bankareikninga.
+Vinnusvæðið **Bankakerfi** birtir upplýsingar sem tengjast bankareikningum fyrirtækis. Í þessu vinnusvæði er yfirlitið **Samtölur** og síðan **Greiningar**. Yfirlitið **Samtölur** sýnir samantektarreiti, upplýsingar um bankareikninga, myndrit og tengdar upplýsingar. Síðan **Greiningar** notar getu Microsoft Power BI til að sýna myndefni sem tengjast stöðum bankareikninga.
 
 ## <a name="summary-view"></a>Samtöluyfirlit
 
@@ -64,4 +64,3 @@ Síðan **Greiningar** hefur að geyma mikilvæga mælikvarða um bankareikninga
 -   Staða eftir gjaldmiðlum
 
 Hægt er að skoða bankagreiningu fyrir öll fyrirtæki á vinnusvæðinu **Yfirlit yfir reiðufé - öll fyrirtæki**.
-

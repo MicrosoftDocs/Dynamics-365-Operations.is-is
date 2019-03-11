@@ -1,31 +1,30 @@
 ---
-title: "Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (1. október 2018)"
-description: "Í þessu efnisatriði er lýst nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent Core HR."
+title: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (1. október 2018)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
 ms.openlocfilehash: 97820cd25ece48dc0b8045d9ba509d0971ca5aad
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304817"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-1-2018"></a>Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (1. október 2018)
 
 [!include [banner](includes/banner.md)]
@@ -59,4 +58,3 @@ Fyrirtæki gefa frí á ólíkan hátt sem byggist á því hvenær starfsmenn b
 ## <a name="known-issue"></a>Þekkt vandamál
 
 -   **Vandamál:** Þegar nýtt viðhengi er bætt við starfsmann eru hnapparnir **Nýtt** og **Breyta** skyggðir. **Hjáleið:** Áður en þú opnar viðhengissíðu skaltu ganga úr skugga um að FactBoxes á síðunni **Starfsmenn** séu lokaðir. Ef FactBoxes eru lokaðir þegar síðan **Starfsmenn** er hlaðið inn verða hnapparnir **Viðhengi** gerðir virkir. (Þetta vandamál verður lagað í næstu verkvangsuppfærslu.)
-

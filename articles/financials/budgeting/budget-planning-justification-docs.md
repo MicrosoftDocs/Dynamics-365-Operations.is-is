@@ -1,13 +1,13 @@
 ---
-title: "Rökstuðningsskjöl fjárhagsáætlunargerðar"
-description: "Rökstuðningsskjöl veita sögu fyrir þá sem biðja fjárhagsáætlun að útskýra hvers vegna tilgreind fjárhagsáætlun er nauðsynleg."
+title: Rökstuðningsskjöl fjárhagsáætlunargerðar
+description: Rökstuðningsskjöl veita sögu fyrir þá sem biðja fjárhagsáætlun að útskýra hvers vegna tilgreind fjárhagsáætlun er nauðsynleg.
 author: ryansandness
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanJustificationTemplate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: cae6334cd39a91eaf3a2a79f30edc705f484bc8c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4ac839e69440c8d3f1e86007a074999189e391d
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333577"
 ---
-
 # <a name="budget-planning-justification-documents"></a>Rökstuðningsskjöl fjárhagsáætlunargerðar
 
 [!include [banner](../includes/banner.md)]
@@ -34,11 +33,11 @@ Rökstuðningsskjöl veita sögu fyrir þá sem biðja fjárhagsáætlun að út
 
 Sniðmát fjárhagsáætlunargerðar er stofnað af fjárhagsáætlunarstjóra í Microsoft Word og úthlutað til núverandi ferli fjárhagsáætlunargerðar. Eigendur fjárhagsáætlunar getur svo opnað sniðmát og haft gögn sjálfvirkt útfyllt í Word á grunni beiðnar um fjárhagsáætlun. Þeir geta svo bætt við viðbótartexti eða gögn áður en það er vistað og fest sérsniðið jöfnunarfylgiskjal við fjárhagsáætlun.
 
-##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Setja upp Microsoft Dynamics Office-innbót
+##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Setja upp Microsoft Dynamics Office-viðbætur fyrir Microsoft Word
 
-1.  Opnaðu nýtt skjal í Microsoft Word.
+1.  Opna nýtt Microsoft Word skjal.
 2.  Smellt er á **Setja inn** á borða, og smellt er á **Verslun**.
-3.  Leita fyrir Microsoft Dynamics Office-innbót og Smelltu á **Bæta við**.
+3.  Leita að Microsoft Dynamics Office-innbót og Smelltu á **Bæta við**.
 4.  Í Word í hægri rúðunni skal smella á **Bæta við upplýsingum um þjón**.
 5.  Rita eða líma vefslóð þjóns og Smellt er á **Í lagi**.
 
@@ -46,7 +45,7 @@ Sniðmát fjárhagsáætlunargerðar er stofnað af fjárhagsáætlunarstjóra �
 
 1.  Smellið á **Hönnun** í Microsoft Dynamics Office-innbót eftir að þú hefur skráð þig inn.
 2.  Fyrir upplýsingar úr haus Smellið á hnappinn **Bæta við reitum**.
-3.  Velurðu eining gagnaveita BudgetPlanJustification, og Smellið á **Áfram**. **athugasemd:** Þessi eining er áskilið fyrir jöfnunarfylgiskjal. Aðrar einingar má nota en upphleðslan til baka í Microsoft Dynamics 365 for Finance and Operations tekst ekki ef þessi eining er ekki höfð með.
+3.  Velurðu eining gagnaveita BudgetPlanJustification, og Smellið á **Áfram**. **athugasemd:** Þessi eining er áskilið fyrir jöfnunarfylgiskjal. Aðra lögaðilar má nota en upphleðslan til baka í Microsoft Dynamics 365 for Finance and Operations tekst ekki ef þessi eining er ekki höfð með.
 4.  Bæta við merkjunum og gildunum BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter, og DocumentNumber og í Word-skjalið. **athugasemd:** Hægt er að nota sín eigin sérsniðnu merki, frekar en stöðluð merki, ef þess er þörf.
 5.  Smelltu á **Lokið** til að ljúka haushlutanum.
 6.  Fyrir upplýsingar línustigs um upphæðir fjárhagsáætlunar Smelltu á **Bæta við tafla**.
@@ -69,7 +68,6 @@ Sniðmát fjárhagsáætlunargerðar er stofnað af fjárhagsáætlunarstjóra �
 1.  Í Finance and Operations er stofnuð ný fjárhagsáætlun eða fyrirliggjandi fjárhagsáætlun opnuð.
 2.  Í fellilistavalmynd **Jöfnun** Velja **Stofna nýjan rökstuðning**.
 3.  Eftir útfyllingu upplýsinga, velja að hlaða upp sérsniðnu fylgiskjali æyr fellilistavalmyndinni **Rökstuðningur**.
-
 
 
 

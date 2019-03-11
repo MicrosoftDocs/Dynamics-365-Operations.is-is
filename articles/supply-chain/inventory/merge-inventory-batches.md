@@ -1,13 +1,13 @@
 ---
-title: "Sameina birgðarunur"
-description: "Þessi grein veitir upplýsingar um hvernig á að sameina tvær eða fleiri birgðarunur inn í sameinaða runu."
+title: Sameina birgðarunur
+description: Þessi grein veitir upplýsingar um hvernig á að sameina tvær eða fleiri birgðarunur inn í sameinaða runu.
 author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 00ec888600dedbc740be0efc64cddf37c5c6f558
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f118ef38e88171ad1eac463078acf37ba4390e57
-ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319823"
 ---
-
 # <a name="merge-inventory-batches"></a>Sameina birgðarunur
 
 [!include [banner](../includes/banner.md)]
@@ -61,12 +60,12 @@ Já, það eru einhverjar sem verður að setja upp áður en hægt er að nota 
 <td>Útgefnar afurðir</td>
 <td>Mælt er með stillingum fyrir vörur sem hér segir:
 <ul>
-<li>Til að mynda sjálfkrafa rununúmer fyrir sameinaðar runur verður að úthluta útgefinni afurð á númeraflokk rununnar. Hægt er að færa inn rununúmer handvirkt þegar stofnuð er sameinuð runa, eða velja fyrirliggjandi rununúmer. Ef fyrirliggjandi rununúmer er valið skal gæta þess að valin runa hafi ekki verið tekin með í neinum birgðafærslum.</li>
-<li>Ef verið er að nota endingartíma eða best fyrir dagsetningar fyrir losaða afurð, eru dagsetningar fyrir sameinaða runu reiknaðar út samkvæmt valinu í reitnum <strong>Útreikningur dagsetningar fyrir runusameiningu</strong>. Eftirtaldir valkostir eru í boði:
+<li>Til að mynda sjálfkrafa rununúmer fyrir sameinaðar runur verður að úthluta útgefinni afurð á númeraflokk rununnar. Hægt er að færa inn rununúmer handvirkt þegar stofnuð er sameinuð runa, eða velja fyrirliggjandi rununúmer. Ef fyrirliggjandi rununúmer er valið, skal gæta að valda runan hafi ekki verið tekin með í neinum birgðafærslum.&#39;</li>
+<li>Ef verið er að nota endingartíma eða best fyrir dagsetningar fyrir losaða vöru, verða dagsetningar fyrir sameinuðu rununa reiknaðar samkvæmt vali í svæðinu <strong>Útreikningur dagsetningar fyrir runusameiningu</strong>.&#39; Eftirtaldir valkostir eru í boði:
 <ul>
 <li><strong>Fyrsta</strong> - Útreikningurinn er byggður á fyrstu dagsetningunni sem er tilgreind fyrir upphafsrunu sem er valin í runusameiningu.</li>
 <li><strong>Nýjasta</strong> - Útreikningurinn er byggður á nýjustu dagsetningunni sem er tilgreind fyrir upphafsrunu sem er valin í runusameiningu.</li>
-<li><strong>Handvirkt</strong> – Enginn útreikningur er gerður. Ef dagsetningin er sú sama í öllum upprunarunur mun vera stungið upp á dagsetningu. Hægt er að breyta þeirri dagsetningu. Ef dagsetning er ekki sú sama á upprunarunum er hægt að færa hana inn handvirkt.</li>
+<li><strong>Handvirkt</strong> – Enginn útreikningur er gerður. Ef dagsetningin er sú sama í öllum upprunarunur mun vera stungið upp á dagsetningu. Hægt er að breyta þeirri dagsetningu. Ef dagsetning er ekki sú sama á upprunarunum er hægt að færa hana inn handvirkt.&#39;</li>
 </ul></li>
 </ul></td>
 </tr>
@@ -141,4 +140,3 @@ Hægt er að samþykkja birgðabók fyrir runusameininguna úr listasíðunni **
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Eftir að ég sameinaði atriði fyrir þyngd afurðar, hví sé ég ekki upplýsingar um þyngd afurðar í birgðabók?
 Hægt er að sameina runur af vörum í þyngd afurðar eins og öllum öðrum vörum. Hins vegar, eru upplýsingar um þyngd afurðar ekki birtar í birgðabók. Mælt er með því að staðfesta upplýsingar um þyngd afurðar áður en runusameiningin er flutt í birgðabók.
-

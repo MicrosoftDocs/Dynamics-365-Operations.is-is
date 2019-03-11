@@ -1,13 +1,13 @@
 ---
-title: "Mynda Affordable Care Act (ACA) skýrslur"
-description: "Aðgerðir eru í boði til að aðstoða vinnuveitendur sem þurfa að fylgjast með upplýsingunum sem greint er frá á eyðublöðum 1095-B og 1095-C til stuðnings þeim hluta af Affordable Care Act sem snýr að umboði vinnuveitanda. Athugaðu að þessar aðgerðir er aðeins virkar fyrir lögaðila í Bandaríkjunum."
+title: Mynda Affordable Care Act (ACA) skýrslur
+description: Aðgerðir eru í boði til að aðstoða vinnuveitendur sem þurfa að fylgjast með upplýsingunum sem greint er frá á eyðublöðum 1095-B og 1095-C til stuðnings þeim hluta af Affordable Care Act sem snýr að umboði vinnuveitanda. Athugaðu að þessar aðgerðir er aðeins virkar fyrir lögaðila í Bandaríkjunum.
 author: kherr75
 manager: AnnBe
 ms.date: 12/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: f1456b91d6fc29ec65d0e9382d3f5f7682a8b516
 ms.openlocfilehash: 0ea2824093d33b9f233cd992399de22198bfc27a
-ms.contentlocale: is-is
-ms.lasthandoff: 12/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304836"
 ---
 # <a name="generate-affordable-care-act-aca-reports"></a>Mynda Affordable Care Act (ACA) skýrslur
 
@@ -70,4 +70,3 @@ Hægt er að flytja út lista yfir starfsmenn í Excel sem voru myndaðir með e
 Ef nauðsynlegt er að skrá tryggða einstaklinga þar sem þú sem vinnuveitandi býður upp á sjúkratryggingasjóð, getur þú einnig skoðað alla skjólstæðinga sem tryggðir eru samkvæmt fríðindaáætlun og hafa verið merktir sem **ACA-tilkynningaskyldur** með því að velja tryggingaaðgerðina Skoða skjólstæðinga í aðgerðarúðulengjunni.
 
 **Athugið:** Aðeins fríðindi þar sem áætlunin hefur verið merkt sem **ACA-tilkynningaskyldur** birtast í fyrirspurnarglugganum.
-

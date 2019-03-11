@@ -1,13 +1,13 @@
 ---
 title: Skilgreiningarlyklar og gagnaeiningar
-description: "Þetta umfjöllunarefni lýsir tengslunum milli skilgreiningarlykla og gagnaeininga í Microsoft Dynamics 365 for Finance and Operations."
+description: Þetta umfjöllunarefni lýsir tengslunum milli skilgreiningarlykla og gagnaeininga í Microsoft Dynamics 365 for Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 8d07a0572e56e97d42c0e1b841905f828edc6f51
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336475"
 ---
-
 # <a name="configuration-keys-and-data-entities"></a>Skilgreiningarlyklar og gagnaeiningar
 
 [!include [banner](../includes/banner.md)]
@@ -96,4 +95,3 @@ Notkun á lýsigögnum skilgreiningarlykils sem eru búin til á meðan einingal
 Hvenær sem þú uppfærir skilgreiningarlykla á einingunni, á sviði töflu eða reita, verður einingalistinn í ramma gagnastjórnunar að endurnýjast. Þetta ferli tryggir að ramminn taki upp nýjustu stillingar skilgreiningarlykils. Þar til einingalistinn er endurnýjaður birtist eftirfarandi viðvörun á listasíðu einingar. Uppfærðar breytingar á skilgreiningarlykli munu taka gildi strax eftir að einingalistinn er endurnýjaður. Við mælum með því að þú sannprófir núverandi gagnaverk og störf til að ganga úr skugga um að þau virka eins og búist er við eftir að breytingar á skilgreiningarlyklunum hafa verið gerðar.
 
 ![Markreitir](./media/Target_fields_3.png)
-

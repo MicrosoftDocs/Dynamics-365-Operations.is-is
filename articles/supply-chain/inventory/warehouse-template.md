@@ -1,32 +1,31 @@
 ---
-title: "Setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss"
-description: "Þetta efnisatriði útskýrir hvernig skal setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss."
+title: Setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss
+description: Þetta efnisatriði útskýrir hvernig skal setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss.
 author: perlynne
 manager: AnnBe
 ms.date: 11/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 17016d015925cd31117231799b8741ffddb793f7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: e952a2f988645ccff7617817262cbf0e90bfd8ab
-ms.contentlocale: is-is
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338062"
 ---
-
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss
 
 [!include [banner](../includes/banner.md)]
@@ -94,9 +93,8 @@ Fyrir þessa atburðarás eru skilgreining á uppsetningu fyrir vöruhús og sum
 
 **Yfirlit aðgerða** skráin veitir nákvæmar upplýsingar um hverja gagnaeiningu sem er flutt inn. Þú getur notað sviðsetningargögn yfirlitið til að komast á skömmum tíma að markgögnunum. Þannig geturðu séð hvernig innfluttu gögnin líta út á tengdum síðum í forritinu. Þegar þú notar sjálfgefin gagnasniðmát, virkar innflutningsröðin fyrir hverja gagnaeiningu á fyrirfram ákveðinni hátt, til að tryggja að öll háð gögn séu flutt inn fyrst. Ef sérsniðin gagnaeiningar eru hluti af verkinu, verður þú að ganga úr skugga um að rétta röðin sé skilgreind. Nánari upplýsingar, sjá [Gagnasniðmát skilgreiningar](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-Til að fræðast betur um hvernig á að nota sniðmát vöruhúss til að afrita skilgreiningar vöruhúss frá einu fyrirtæki til nýs fyrirtækis innan sama tilviks er hægt að horfa á þetta þriggja mínútna myndband á YouTube: [Nota sniðmát vöruhúss til að afrita skilgreiningu í Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+Til að fræðast betur um hvernig á að nota sniðmát vöruhúss til að afrita skilgreiningar vöruhúss frá einu fyrirtæki til nýs fyrirtækis innan sama tilviks er hægt að horfa á þetta þriggja mínútna myndband á YouTube: [Notaðu sniðmát vöruhúss til að afrita skilgreiningu í Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>Tengt efni
 
 [Gagnsniðmát stillingar](../../dev-itpro/data-entities/configuration-data-templates.md)
-

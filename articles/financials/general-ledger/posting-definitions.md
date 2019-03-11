@@ -1,13 +1,13 @@
 ---
-title: "Bókunarskilgreiningar"
-description: "Þessi grein veitir upplýsingar um bókunarskilgreiningar og hvernig skuli skilgreina þær og búa til tengla í. Fyrir studdar bókunargerðir og skjöl, er hægt að nota bókunarskilgreiningar í stað bókunarreglur til að flokka aðallykla og fjárhagsvíddir í bókhaldsfærslur."
+title: Bókunarskilgreiningar
+description: Þessi grein veitir upplýsingar um bókunarskilgreiningar og hvernig skuli skilgreina þær og búa til tengla í. Fyrir studdar bókunargerðir og skjöl, er hægt að nota bókunarskilgreiningar í stað bókunarreglur til að flokka aðallykla og fjárhagsvíddir í bókhaldsfærslur.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JournalizingDefinition, JournalizingDefinitionTrans, LedgerParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 88e9d1e593f58e8fc9e12ddac7664b6e67ecda6a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 513d3e20e0c89eb0064e3c1bc11a3a8dea43cfe4
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359774"
 ---
-
 # <a name="posting-definitions"></a>Bókunarskilgreiningar
 
 [!include [banner](../includes/banner.md)]
@@ -62,6 +61,5 @@ Eftirfarandi takmarkanir eiga við þegar stofnaðir eru tengla í bókunarskilg
 
 
 Frekari upplýsingar eru í [Dæmi um bókunarskilgreiningar](example-posting-definitions.md). 
-
 
 

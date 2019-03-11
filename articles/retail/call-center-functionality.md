@@ -1,13 +1,13 @@
 ---
-title: "Söluvirkni símavers"
-description: "Þetta efnisatriði veitir yfirlit yfir söluvirkni símavera í Microsoft Dynamics 365 for Retail."
+title: Söluvirkni símavers
+description: Þessi grein veitir yfirlit yfir söluvirkni símavera í Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 8b78762ce70b318e1f77e1e49ffaa7b72f01667f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 2b536ad4f29a3bb76294ef2fba30c529c24f1375
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363155"
 ---
-
 # <a name="call-center-sales-functionality"></a>Söluvirkni símavers
 
 [!include [banner](includes/banner.md)]
@@ -39,7 +38,7 @@ Eiginleikar símavers eru meðal annars ítarlegt smásöluverð og kynningar, v
 
 Auk þess að styðja við stofnun pöntunar býður kerfiseining símavers einnig upp á notendavænt þjónustuforrit fyrir viðskiptavini sem auðveldar notendum að finna viðskiptavinareikninga og yfirfara öll tengd gögn og eigindir viðskiptavinapantana. Þjónustuskjárinn fyrir viðskiptavini er hannaður til að gera notanda kleift að fá aðgang að gögnum tengdum pöntunum fljótt, sem gerir þeim kleift að svara algengustu spurningum tengdum pöntunum frá viðskiptavinum.
 
-Þessi síða veitir tengla á viðeigandi fylgiskjöl sem tengjast uppsetningu, grunnstillingu og notkunarvirkni eiginleika símaversins í Dynamics 365 fyrir Retail.
+Þessi síða veitir tengla á viðeigandi fylgiskjöl sem tengjast uppsetningu, grunnstillingu og notkunarvirkni eiginleika símaversins í Dynamics 365 for Retail.
 
 ## <a name="configure-the-call-center"></a>Grunnstilla símaverið
 
@@ -68,4 +67,3 @@ Auk þess að styðja við stofnun pöntunar býður kerfiseining símavers einn
 ## <a name="configure-continuity-programs"></a>Grunnstilla samfelldniáætlun
 
 [Uppsetning samfelldniáætlunar fyrir símaver](set-up-continuity-program.md)
-

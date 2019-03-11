@@ -1,13 +1,13 @@
 ---
-title: "Hæfni starfsmanna og þróun Power BI-efnis"
-description: "Þetta efnisatriði lýsir Finance and Operations - Hæfni starfsmanna og þróun Power BI-efnis."
+title: Hæfni og þróun starfsmanna Power BI efni
+description: Þetta efnisatriði lýsir Finance and Operations - Hæfni starfsmanna og þróun Power BI efnis.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 0442e795eadf28a07132c160d69ad44e9fb05eed
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352920"
 ---
-
-# <a name="employee-competencies-and-development-power-bi-content"></a>Hæfni starfsmanna og þróun Power BI-efnis
+# <a name="employee-competencies-and-development-power-bi-content"></a>Hæfni og þróun starfsmanna Power BI efni
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir Finance and Operations - Hæfni starfsmanna og þróun Power BI-efnis. 
+Þetta efnisatriði lýsir Finance and Operations - Hæfni starfsmanna og þróun Power BI efnis. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Skýrslur sem eru hafðar með í efnispakka
 Eftir að þú hefur tengt efnispakkann við gögn Finance and Operations, sýna skýrslurnar fyrirtækjagögnin þín. Ef þú hefur aldrei áður notað Microsoft Power BI, má fræðast nánar um það á síðunni [Leiðsögn fyrir Nám fyrir Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Skýrslur sem eru hafðar með í efnispakka hafa bæði gröf og töflur sem innihalda viðbótarupplýsingar. Eftirfarandi tafla lýsir skýrslunum.
@@ -71,4 +70,3 @@ Gögn Finance and Operations eru notuð til að fylla út skýrslurnar í efnisp
 | Vinnuafl\_WorkerName             | Fornafn, eftirnafn, og fullt nafn                                                                       | |
 | Vinnuafl\_WorkerTitle            | Titill og starfsaldursdagsetning                                                                                   | |
 | Vinnuafl\_WorkerTrend             | Starfsfólk yfir tíma, starfsmannafjöldi, fyrirtæki og staða                                                        | Vinnuafl\_Company, Workforce\_Compensation, Workforce\_GeographicLocation, Workforce\_Performance, Workforce\_WorkerName, Workforce\_ReportsToWorkerName, Workforce\_CalendarOffset, Workforces\_Date, Workforce\_WorkerTitle, Workforce\_Demographics, Workforce\_Employment, Workforce\_Job |
-

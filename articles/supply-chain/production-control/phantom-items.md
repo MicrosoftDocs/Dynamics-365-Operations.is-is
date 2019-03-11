@@ -1,13 +1,13 @@
 ---
-title: "Skuggavörur"
-description: "Þetta efnisatriði lýsir í smáatriðum hvernig hægt er að nota línugerð skuggavöru fyrir línurnar í uppskriftum og formúlu í Microsoft Dynamics 365 for Finance and Operations."
+title: Skuggavörur
+description: Þetta efnisatriði lýsir í smáatriðum hvernig hægt er að nota línugerð skuggavöru fyrir línurnar í uppskriftum og formúlu í Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: shylaw
@@ -15,16 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validfrom: 
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.search.validfrom: ''
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: a92dd82f309867586f047e0dfc36e452a44a0f9c
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341811"
 ---
-
 # <a name="phantom-items"></a>Skuggavörur
 
 [!include [banner](../includes/banner.md)]
@@ -74,4 +73,3 @@ Einnig er hægt að nota skuggauppskriftir fyrir uppskrift sem hefur leiðanet. 
 Í eftirfarandi skýringarmynd er (a) uppskrift fyrir afurð G og hluta F og (b) leiðarskjalið fyrir afurð G og hluta F.
 
 ![Afurð G og hluti F með leiðarskjölum](media/product-G-part-F-with-route-sheet.png)
-

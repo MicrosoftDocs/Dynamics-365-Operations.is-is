@@ -1,13 +1,13 @@
 ---
-title: "Microsoft Project biðlarasamþætting"
-description: "Skipuleggja og vinna með verkáætlun getur verið flókið, þannig að verkefnastjórar þurfa að nota verkfæri sem hjálpa þeim að stjórna þessu verki. Samþætting við Microsoft Project Client veitir stuðning til að opna og stjórna sundurliðun verkþátta í verki."
+title: Microsoft Project biðlarasamþætting
+description: Skipuleggja og vinna með verkáætlun getur verið flókið, þannig að verkefnastjórar þurfa að nota verkfæri sem hjálpa þeim að stjórna þessu verki. Samþætting við Microsoft Project Client veitir stuðning til að opna og stjórna sundurliðun verkþátta í verki.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/11/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,15 +17,14 @@ ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-04
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 48feb0182c623714b2acffafc42016c0471ba6c1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317477"
 ---
-
 # <a name="microsoft-project-client-integration"></a>Microsoft Project biðlarasamþætting
 
 [!include [banner](../includes/banner.md)]
@@ -83,7 +82,7 @@ Til að stofna nýja sundurliðun verkþátta með Microsoft Project Client skal
 
 1.  Opnaðu Microsoft Project Client.
 
-2.  Á **Microsoft Dynamics 365** flipanum skaltu smella á **Open**.
+2.  Á **Microsoft Dynamics 365** flipanum skaltu smella á **Opna**.
 
 3.  Veldu **lögaðila** fyrir verkið.
 
@@ -128,4 +127,3 @@ Til að stofna nýja sundurliðun verkþátta með Microsoft Project Client og s
 8.  Veldu **Dagatalið** fyrir tilföng.
 
 11. Smellið á **Í lagi**.
-

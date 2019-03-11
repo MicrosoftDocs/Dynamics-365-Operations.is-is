@@ -1,13 +1,13 @@
 ---
-title: "Yfirlit reikninga lánardrottna"
-description: "Þessi grein veitir almennar upplýsingar um reikninga lánardrottins. Reikningar lánardrottins eru beiðnir um greiðslu fyrir vörur og þjónustu sem voru mótteknar. Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þær geta verið byggðir á innkaupapantanir fyrir tilteknar vörur og þjónustu."
+title: Yfirlit reikninga lánardrottna
+description: Þessi grein veitir almennar upplýsingar um reikninga lánardrottins. Reikningar lánardrottins eru beiðnir um greiðslu fyrir vörur og þjónustu sem voru mótteknar. Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þær geta verið byggðir á innkaupapantanir fyrir tilteknar vörur og þjónustu.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e563688b46c556ffbf46f9d20d9b9f248d26e02c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: 8368d67efb8483ab6f447fbfcbfda45c1aa14f8d
-ms.contentlocale: is-is
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329759"
 ---
-
 # <a name="vendor-invoices-overview"></a>Yfirlit reikninga lánardrottna
 
 [!include [banner](../includes/banner.md)]
@@ -92,5 +91,4 @@ Frekari upplýsingar er að finna á:
  - [Færa reikningsgögn inn í viðskiptaskuldakerfi með reikningasafni](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 
  - [Skrá reikning lánardrottins í reikningabók](tasks/record-vendor-invoice-invoice-journal.md)
-
 

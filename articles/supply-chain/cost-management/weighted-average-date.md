@@ -1,13 +1,13 @@
 ---
-title: "Vegið meðaltal dagsetningar"
-description: "Dagsetning vegins meðaltals er birgðalíkan byggt á reglunni um vegið meðaltal þar sem innhreyfingar úr birgðum eru metnar á meðaltalsgildi vara sem tekið er á móti í birgðum fyrir hvern einstakan dag á birgðalokunartímabilinu."
+title: Vegið meðaltal dagsetningar
+description: Dagsetning vegins meðaltals er birgðalíkan byggt á reglunni um vegið meðaltal þar sem innhreyfingar úr birgðum eru metnar á meðaltalsgildi vara sem tekið er á móti í birgðum fyrir hvern einstakan dag á birgðalokunartímabilinu.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9963c17d8ac1854a42cac2a0e19615f13e8cc006
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355404"
 ---
-
 # <a name="weighted-average-date"></a>Vegið meðaltal dagsetningar
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,7 @@ Birgðafærslur sem fara úr birgðum, þar á meðal sölupantanir, birgðabæk
 
 Jafnanir eru birgðalokunarbókanir sem leiðrétta úthreyfingar í rétt vegin meðaltöl frá og með lokadagsetningunni. 
 
-**Ábending:** Fyrir frekari upplýsingar um jafnanir, sjá grein um birgðalokun. Eftirfarandi dæmi skýra áhrif þess að nota vegið meðaltal með fimm ólíkum skilgreiningum:
+**Ábending:**  Fyrir frekari upplýsingar um jafnanir, sjá grein um birgðalokun. Eftirfarandi dæmi skýra áhrif þess að nota vegið meðaltal með fimm ólíkum skilgreiningum:
 
 -   Bein jöfnun vegins meðaltals dagsetningar án valkostarins **Taka efnislegt virði með**
 -   Samantektarjöfnun vegins meðaltals dagsetningar án valkostarins **Taka efnislegt virði með**
@@ -105,7 +104,7 @@ Eftirfarandi skýringarmynd sýnir þessar færslur:
 -   1a. Efnisleg innhreyfing uppfærð með magninu 3 á 15,00 USD hver
 -   1b. Fjárhagsleg innhreyfing uppfærð með magninu 3 á 15,00 USD hver
 -   2a. Efnisleg úthreyfing birgða í magninu 1 með meðalkostnaðinum 15,00 USD.
--   2b. Fjárhagsleg úthreyfing birgða í magninu 1 með meðalkostnaðinum 15,00 USD.
+-   2a. Fjárhagsleg úthreyfing birgða í magninu 1 með meðalkostnaðinum 15,00 USD.
 
 Kerfið notar beina jöfnun fyrir dag 1. 
 
@@ -195,7 +194,6 @@ Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið
 -   Hver lóðrétt ör er merkt með raðkenni t.d. *1a*. Kennið gefur bókunarröð birgðafærslna á tímaásnum til kynna.
 -   Birgðalokun eru sýndar með rauðri lóðréttri punktaðri línu og merkinu *birgðalokun*
 -   Jöfnun sem er gerð af birgðalokun er táknuð með brotinni rauðri línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
-
 
 
 

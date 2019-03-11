@@ -1,36 +1,35 @@
 ---
-title: "Opna vefslóð í POS"
-description: "Þetta efnisatriði gefur yfirlit yfir úrbætur sem hafa verið gerðar á vörum og leitaraðgerð viðskiptavina í Microsoft Dynamics 365 for Retail."
+title: Opna vefslóð í POS
+description: Þetta efnisatriði gefur yfirlit yfir úrbætur sem hafa verið gerðar á vöru og viðskiptahugbúnaði í Microsoft Dynamics 365 for Retail.
 author: AamirAllaq
 manager: AnnBe
-ms.date: 11/14/2018
+ms.date: 01/28/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
+ms.openlocfilehash: b07406b4e218b45bdde87c4a579814fe0edbc286
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: d2b692ac86244eca31780a558112167391fc6d77
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327091"
 ---
-
 # <a name="open-url-in-pos"></a>Opna vefslóð í POS
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig hægt er að skilgreina hnapp í Retail-sölustað (POS) til að opna vefslóð. Þessi eiginleiki krefst ekki sérstillingar á kóða og einhver sem ekki er í hlutverki þróunaraðila getur stillt hann.
+Þetta efnisatriði lýsir því hvernig hægt er að skilgreina hnapp í Retail-sölustað (POS) til að opna vefslóð. Þessi eiginleiki krefst ekki sérstillingar á kóða og einhver sem ekki er í hlutverki þróunaraðila getur stillt hann. Þessi eiginleiki er fáanlegur sem hluti af Dynamics 365 for Finance and Operations útgáfu 8.1.3 (smíði 8.1.227.10014) og síðar. 
 
 Þessi eiginleiki leyfir stillingu á hnapp í POS með hönnuði hnappahnits til að opna vefslóð. Sem stendur er þetta stutt í eftirfarandi stillingum:
 
@@ -60,7 +59,7 @@ Windows, iOS og Android leyfa einnig ræsingu forrita án vandkvæða, sem byggi
 
 - Fyrir Windows skal skoða [Virkja forrit fyrir vefsíður sem nota URI-forritarekla](https://docs.microsoft.com/windows/uwp/launch-resume/web-to-app-linking).
 - Fyrir iOS skal skoða [Altækir tenglar fyrir þróunaraðila](https://developer.apple.com/ios/universal-links/).
-- Fyrir Android skal skoða [Meðhöndlun forritatengla Android](https://developer.android.com/training/app-links/).
+- Fyrir Android, sjá [Meðhöndlun Android forritatengla](https://developer.android.com/training/app-links/).
 
 | Biðlari                | Opna í nýjum glugga | Opna native-forrit | Opna innan POS | Upplýsingar                           |
 |-----------------------|--------------------|-----------------|-----------------|-----------------------------------|
@@ -84,4 +83,3 @@ Til að stilla vefslóð svo hún opnist í POS, skal framkvæma eftirfarandi sk
 5. Veljið **Opna vefslóð** sem aðgerðina.
 6. Færið inn vefslóðina sem á að nota.
 7. Stillið hvort eigi að opna vefslóðina eða nýjan glugga.
-

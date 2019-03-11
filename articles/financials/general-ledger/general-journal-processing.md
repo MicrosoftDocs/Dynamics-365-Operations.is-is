@@ -1,13 +1,13 @@
 ---
-title: "Vinnsla almennrar færslubókar"
-description: "Þetta efnisatriði lýsir eiginleikum í Microsoft Dynamics 365 Finance and Operations sem geta hjálpað við að gera vinnslu almennrar færslubókar auðveldari, sem og að tryggja að rétt gögn séu tekin og að innri stýring sé ekki í hættu."
+title: Vinnsla almennrar færslubókar
+description: Þetta efnisatriði lýsir eiginleikum í Microsoft Dynamics 365 for Finance and Operations sem geta hjálpað við að gera vinnslu almennrar færslubókar auðveldari, sem og að tryggja að rétt gögn séu tekin og að innri stýring sé ekki í hættu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cf744bc41ffcca6d029da5dd2031ada607a0109b
 ms.openlocfilehash: e77aafafed5c972a6ad8c064107306d3ebde0b79
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358440"
 ---
-
 # <a name="general-journal-processing"></a>Vinnsla almennrar færslubókar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir eiginleikum í Microsoft Dynamics 365 Finance and Operations sem geta hjálpað við að gera vinnslu almennrar færslubókar auðveldari, sem og að tryggja að rétt gögn séu tekin og að innri stýring sé ekki í hættu.  
+Þetta efnisatriði lýsir eiginleikum í Microsoft Dynamics 365 for Finance and Operations sem geta hjálpað við að gera vinnslu almennrar færslubókar auðveldari, sem og að tryggja að rétt gögn séu tekin og að innri stýring sé ekki í hættu.  
 
 ## <a name="journal-names"></a>Færslubókanöfn
 
@@ -55,7 +54,7 @@ Hægt er að nota heiti færslubókar eingöngu fyrir tiltekinn hluta eða fyrir
 **Sjálfvirka bakfærslu** valkosturinn er tiltækur í almennar færslubækur. Til dæmis, er leiðrétting á uppsöfnun þar sem raunverulegur skjal hefur ekki enn verið unnin, eins og sýnt er í eftirfarandi skýringarmynd.
 [![Almenn færslubók sem er bakfærð](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
-Microsoft Excel-innbót fyrir færslu í færslubók veitir meiri sjálfvirkni og auðveldar innfærslu gagna. **Opnar línur í Excel** aðgerð er tiltæk á í **Almennrar færslubókar** og **fylgiskjal** síður. 
+Microsoft Excel innbót fyrir færslu í færslubók veitir meiri sjálfvirkni og auðveldar innfærslu gagna. **Opnar línur í Excel** aðgerð er tiltæk á í **Almennrar færslubókar** og **fylgiskjal** síður. 
 
 Á **Tímabilsbækur** síða, geturðu sett upp endurteknar færslubækur í til að gera sjálfvirkt færslubókarferli. 
 
@@ -97,4 +96,3 @@ Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 Þú getur fundið **Herma eftir bókun** í valmyndinni **Sannprófa** fyrir flestar færslubækur. Þegar þú sannprófar færslubók með aðgerðinni **Sannprófa** prófar kerfið færslubókina í ákveðnum villuskilyrðum. Ef þú notar aðgerðina **Herma eftir bókun** keyrir kerfið öll sömu ferlin sem eru keyrð við bókun án þess að bóka færslubókina. Þú getur síðan farið yfir skilaboðin sem birtast, lagað allar villur sem þú finnur og smellt síðan á valmyndina **Bóka** til að bóka færslubókina. 
 
 **Herma eftir bókun** er ekki í boði fyrir runuvinnslu. Hins vegar er kóði í boði til að herma eftir bókun í runu og þróunaraðilar geta aukið við kóðann til að bæta þessari virkni við.  
-

@@ -1,13 +1,13 @@
 ---
-title: "Setja upp ítarlegan innflutning bankaafstemmingarferlis"
-description: "Ítarleg bankaafstemmingaraðgerð gerir það mögulegt að flytja inn rafræn bankayfirlit og afstemma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 for Finance and Operations. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið."
+title: Setja upp ítarlegan innflutning bankaafstemmingarferlis
+description: Ítarleg bankaafstemming aðgerð gerir það mögulegt að flytja inn rafrænt bankayfirlit og afstemma þau sjálfkrafa við bankafærslu í Microsoft Dynamics 365 for Finance and Operations. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7a04517de6e7695cd27bbc6e6a825e1ccaac7306
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7292767f48e94f01c50e12ab02a4483c53046ae9
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334566"
 ---
-
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Setja upp ítarlegan innflutning bankaafstemmingarferlis
 
 [!include [banner](../includes/banner.md)]
 
-Ítarleg bankaafstemmingaraðgerð gerir það mögulegt að flytja inn rafræn bankayfirlit og afstemma þau sjálfkrafa við bankafærslur í Microsoft Dynamics 365 for Finance and Operations. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið. 
+Ítarleg bankaafstemming aðgerð gerir það mögulegt að flytja inn rafrænt bankayfirlit og afstemma þau sjálfkrafa við bankafærslu í Microsoft Dynamics 365 for Finance and Operations. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið. 
 
 Uppsetning fyrir innflutning bankayfirlits er breytileg, eftir snið rafrænnar bankayfirliti. Finance and Operations styður þrjú bankauppgjörssnið sem eru utan við: ISO20022, MT940 og BAI2.
 
@@ -176,7 +175,6 @@ Síðasta skrefið er að prófa hvort hægt sé að flytja inn bankayfirliti.
 8.  Smelltu á **Í lagi**.
 
 Ef innflutningurinn heppnast, munu berast boð sem tilgreinir að uppgjör þitt var flutt inn. Ef innflutningur heppnaðist ekki, í **gagnastjórnun** vinnusvæði í í **Vinnslusögu** hlutanum, finna vinnslu. Smellið á **framkvæmdaupplýsingar** fyrir vinnslu til að opna **samantekt Framkvæmdar** síðuna og smellið síðan á **Skoða aðgerðaskrá** til að skoða villur innflutnings.
-
 
 
 

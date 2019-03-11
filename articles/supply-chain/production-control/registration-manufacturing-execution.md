@@ -1,13 +1,13 @@
 ---
-title: "Skráning fyrir framkvæmd framleiðslu"
-description: "Þessi efnisgrein lýsir grundvallarhugtökum sem verður að skilja til að skilgreina og nota framkvæmd framleiðslu."
+title: Skráning fyrir framkvæmd framleiðslu
+description: Þessi efnisgrein lýsir grundvallarhugtökum sem verður að skilja til að skilgreina og nota framkvæmd framleiðslu.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgRegistration
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1bbcd7ebea869f921c2eadd05e64509ff9246aa4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e5d4ee2fb1cd58107043939c3721fd857909f16b
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318167"
 ---
-
 # <a name="registration-for-manufacturing-execution"></a>Skráning fyrir framkvæmd framleiðslu
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ Starfsmenn geta gert ýmsar gerðir af skráningum í framleiðsluframkvæmd fyr
 -   **Skrá hlé** (tiltækt í Tími og viðvera) - Yfir vinnudaginn geta starfsmenn skráð ef þeir yfirgefa vinnustöð sína til að taka sér hlé. Setja má upp ýmsar gerðir hlé. Þegar starfsmaðurinn kemur og skráir sig aftur, skráir kerfið að starfsmaðurinn er kominn aftur og stöðvar skráningu vinnuhléa.
 -   **Skrá óbeina verkþætti** (tiltækt í Tími og viðvera) –°Óbeinir verkþættir eru framleiðslulausir verkþættir sem starfsmenn gætu sinnt yfir vinnudaginn, eins og deildarfundur, hópfundur eða viðhaldsverk sem fer fram í vinnslusal. Starfsmenn geta gert skráningar á óbeina verkþætti sem eru settir upp.
 -   **Skrá yfirvinnu** (tiltækt í Tími og viðvera) -°Starfsmenn sem hafa verið beðnir að vinna lengri vinnudag°geta valið hvort á að skrá aukavinnuna sem sveigjanlegan vinnutíma eða yfirvinnu.
-
 
 
 

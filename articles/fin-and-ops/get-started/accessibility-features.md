@@ -1,33 +1,32 @@
 ---
-title: "Aðgengiseiginleikar"
-description: "Þetta efnisatriði lýsir virkni sem er hönnuð til að hjálpa notendum sem hafa ýmsa fötlun að nota Dynamics 365 for Finance and Operations, Dynamics 365 for Retail og Dynamics 365 for Talent."
+title: Aðgengiseiginleikar
+description: Þetta efnisatriði lýsir virkni sem er hönnuð til að hjálpa notendum sem hafa ýmsa fötlun nota Dynamics 365 for Finance and Operations, Dynamics 365 for Retail og Dynamics 365 for Talent.
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: f88b485b0bdbf66532adff530e399bdd9d5b0ed5
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363408"
 ---
-
 # <a name="accessibility-features"></a>Aðgengiseiginleikar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir virkni sem er hönnuð til að hjálpa notendum sem hafa ýmsa fötlun að nota Dynamics 365 for Finance and Operations, Dynamics 365 for Retail og Dynamics 365 for Talent. Til dæmis eru eiginleikar fyrir fólk sem notar tækni til að sjá betur, svo sem Microsoft Windows Narrator.
+Þetta efnisatriði lýsir virkni sem er hönnuð til að hjálpa notendum sem hafa ýmsa fötlun nota Dynamics 365 for Finance and Operations, Dynamics 365 for Retail og Dynamics 365 for Talent. Til dæmis eru eiginleikar fyrir fólk sem notar tækni til að sjá betur, svo sem Microsoft Windows Narrator.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows Narrator og lyklaborð-eingöngu aðgangur
 
@@ -97,4 +96,3 @@ Varan er hönnuð til að virka á ýmsum tækjum og skjámyndaþáttum, frá mi
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Leiðbeiningar til að hjálpa þróunaraðilum og viðskiptavinum að innleiða aðgengilega hugsun þegar kemur að sérstillingum.
 
 Til að læra meira um bestu aðferðir Microsoft til að auðvelda aðgengileika, sjá [Aðgengileiki í skjámyndum, afurðum og stýringum](../../dev-itpro/user-interface/enable-accessibility.md).
-

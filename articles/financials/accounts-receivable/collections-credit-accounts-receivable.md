@@ -1,13 +1,13 @@
 ---
-title: "Skuldir og innheimtur í viðskiptakröfum"
-description: "Innheimtuupplýsingum viðskiptakrafna er stjórnað í einu miðlægu yfirliti með því að nota síðuna Söfn Microsoft Dynamics 365 for Finance and Operations. Stjórnendur kredit- og innheimtubréfa geta notað þetta miðlæga yfirlit til að stjórna innheimtu. Innheimtustjórar getur hafið ferli innheimtuaðgerða úr lista viðskiptavina sem er myndaður með því að nota forskilgreind skilyrði um innheimtubréf eða frá síðunni Viðskiptavinir."
+title: Skuldir og innheimtur í viðskiptakröfum
+description: Innheimtuupplýsingum viðskiptakrafna er stjórnað í einu miðlægu yfirliti með því að nota síðuna Söfn Microsoft Dynamics 365 for Finance and Operations. Stjórnendur kredit- og innheimtubréfa geta notað þetta miðlæga yfirlit til að stjórna innheimtu. Innheimtustjórar getur hafið ferli innheimtuaðgerða úr lista viðskiptavina sem er myndaður með því að nota forskilgreind skilyrði um innheimtubréf eða frá síðunni Viðskiptavinir.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c36e7a5d28baf149b982a0afd5fdd79fe8a91850
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 23fc1a160cf25255a1677ca0e501c374746b6e34
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351678"
 ---
-
 # <a name="credit-and-collections-in-accounts-receivable"></a>Skuldir og innheimtur í viðskiptakröfum
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,7 @@ Fyrir hvert aldurstímabil í skilgreiningu aldurstímabils, er ítarleg skýrsl
 Viðskiptavinahópar eru fyrirspurnir sem skilgreina flokk af viðskiptavinaskrám sem hægt er að birta og stjórna fyrir innheimtu eða aldursgreiningarferli. Nota viðskiptavinahópa til að sía upplýsingar á listasíðunum Aldursgreind staða, Innheimtuaðgerðir og Innheimtumál. Einnig er hægt að nota viðskiptavinahópa til að sía viðskiptavinalykla sem eru teknar með þegar aldursgreiningarmynd er stofnuð.
 
 ## <a name="collections-agents"></a>Innheimtufulltrúar
-Að sjálfgefnu geta notendur Microsoft Dynamics 365 for Finance and Operations skoðað allar upplýsingar um viðskiptavini á listasíðum innheimtu. Hægt er að nota færslur innheimtufulltrúa til að ákvarða viðskiptavinahópa sem eru tiltækir til að sía upplýsingar á listasíðu Söfn og Innheimtusíðu. 
+Að sjálfgefnu geta Microsoft Dynamics 365 for Finance and Operations notendur skoðað allar upplýsingar um viðskiptavini á listasíðum innheimtu. Hægt er að nota færslur innheimtufulltrúa til að ákvarða viðskiptavinahópa sem eru tiltækir til að sía upplýsingar á listasíðu Söfn og Innheimtusíðu. 
 
 Innheimtufulltrúi með er sá einstaklingur sem vinnur með viðskiptavini til að tryggja að greiðslurnar eru innheimtar í tæka tíð. Í Finance and Operations eru innheimtufulltrúar starfsmenn sem eru tengdir notendum á síðunni Notandauppsetning.
 
@@ -107,7 +106,6 @@ Nánari upplýsingar er að finna í [Stofna afskriftabók fyrir viðskiptavin](
 --------------------------------------------
 
 Hægt er að vinna NSF-greiðslur með því að smella á NSF-greiðslur á Innheimtu síðu. Þegar smellt er á þennan hnapp er hætt við greiðsluna. Ef NSF-þóknun á við um viðskiptamanninn er gjaldafærsla stofnuð í greiðslubók.. Upphæð þóknunar er grundvölluð á stillingum fyrir sjálfvirk gjöld. Sjálfvirk gjöld sem notuð eru fyrir NSF-greiðslur eru tilgreind með gjaldaflokki sem er valinn í skjámyndinni Bankareikningur fyrir bankareikninginn sem varð fyrir áhrifum.
-
 
 
 

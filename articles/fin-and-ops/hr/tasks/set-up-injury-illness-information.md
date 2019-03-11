@@ -1,13 +1,13 @@
---- 
-title: "Setja upp upplýsingar um meiðsl og veikindi"
-description: "Vinnuveitendur í bandaríkjunum þarf að vita þegar þeirra starfsmenn verða fyrir meiðsla eða veikinda vegna hættu á vinnustað."
+---
+title: Setja upp upplýsingar um meiðsl og veikindi
+description: Vinnuveitendur í bandaríkjunum þarf að vita þegar þeirra starfsmenn verða fyrir meiðsla eða veikinda vegna hættu á vinnustað.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMInjurySetup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9fcc924e11ac17b561c5f5840a4fe1b183a8232d
-ms.contentlocale: is-is
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316028"
 ---
 # <a name="set-up-injury-and-illness-information"></a>Setja upp upplýsingar um meiðsl og veikindi
 
@@ -64,5 +64,4 @@ Vinnuveitendur í bandaríkjunum þarf að vita þegar þeirra starfsmenn verða
 22. Smellið á flipann stofnanir sem tilkynna skal til.
     * Matsfyrirtæki eru stofnana þar sem atvik þarf að tilkynna. Veldu gátreitinn fyrir aðilann sem er sjálfgefið stofnunar fyrir að tilkynna að sjálfgefnu meiðsli og veikindi til .  
 23. Smellið á „Vista“.
-
 

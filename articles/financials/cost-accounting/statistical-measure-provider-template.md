@@ -1,32 +1,31 @@
 ---
-title: "Sniðmát meðlima tölfræðivídda og tölfræðiveita"
-description: "Þetta efnisatriði veitir upplýsingar um meðlimi tölfræðivíddar og talnagagna mæling þjónustuveita sniðmát. Meðlimi víddar vinnslu geta verið notaðir sem úthlutun grunneining í reglum eins og kostnaðar dreifingu og kostnaðarúthlutun. Þær einnig má nota til að skrá notkun peningalegt-ekki kostnað."
+title: Sniðmát meðlima tölfræðivídda og tölfræðiveita
+description: Þetta efnisatriði veitir upplýsingar um meðlimi tölfræðivíddar og talnagagna mæling þjónustuveita sniðmát. Meðlimi víddar vinnslu geta verið notaðir sem úthlutun grunneining í reglum eins og kostnaðar dreifingu og kostnaðarúthlutun. Þær einnig má nota til að skrá notkun peningalegt-ekki kostnað.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: cc9170f10fe2be0446b1c974a50dbdf1cb5fe236
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8c74c47a5e0ca72fc4509786b091a70b5e292b54
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360303"
 ---
-
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Sniðmát meðlima tölfræðivídda og tölfræðiveita
 
 [!include [banner](../includes/banner.md)]
@@ -274,7 +273,7 @@ Gögn einingar sem notaðar eru fyrir innflutning kallaður Imported talnagögn 
 > [!NOTE]
 > Þessi gögn einingar er sérstaklega hannað til að leyfa að hámarki fimm einkvæmu víddargildum fyrir hverja færslu.
 
-Electricity tímanotkun er skráð í Microsoft Excel með því að nota forskilgreint snið fyrir eininguna gögn. Eftirfarandi er dæmi.
+Notkun rafmagns er skráð í Microsoft Excel með því að nota fyrirfram skilgreint snið gagnaeiningarinnar. Eftirfarandi er dæmi.
 
 | Dagsetning reikningsskila | Víddarstak, heiti 1 | Víddarstak, heiti 2 | Víddarstak, heiti 5 | Mæligildi  | Kenni uppruna |
 |-----------------|------------------------|------------------------|------------------------|------------|-------------------|
@@ -347,4 +346,3 @@ Ef Electricity fyrirfram vídd stak úthlutunargrunn er úthlutað sem grunnur v
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Úthlutunargrunnar](allocation-bases.md)
-

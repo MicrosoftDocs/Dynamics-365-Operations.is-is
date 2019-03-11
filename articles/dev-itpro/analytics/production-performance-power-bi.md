@@ -1,13 +1,13 @@
 ---
-title: "Framleiðsluafköst - Power BI efni"
-description: "Þetta efnisatriði lýsir því hvað felst í Power BI efninu Framleiðsluafköst. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið."
+title: Framleiðsluafköst Power BI efni
+description: Þetta efnisatriði lýsir því hvað er innifalið í framleiðsluafköstum Power BI efnis. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,38 +16,37 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 2bc4c409b831b78ef737a98ce985bf144853a454
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365961"
 ---
-
-# <a name="production-performance-power-bi-content"></a>Framleiðsluafköst - Power BI efni
+# <a name="production-performance-power-bi-content"></a>Framleiðsluafköst Power BI efni
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvað er innifalið í Microsoft Power BI efninu **Framleiðsluafköst**. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
+Þetta efnisatriði lýsir því hvað er innifalið í **Framleiðsluafköstum** Microsoft Power BI efnis. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 
 ## <a name="overview"></a>Yfirlit
 
-Power BI efnið **Framleiðsluafköst** er fyrir framleiðslustjóra eða einstaklinga í fyrirtækinu sem bera ábyrgð á framleiðslustýringu.
+**Kostnaðarstjórnun** Power BI-efni er ætlað fyrir bókhaldara birgða eða einstaklinga innan fyrirtækisins sem bera ábyrgð á birgðum.
 
-Skýrslur sem eru innifaldar gera þér kleift að nota Power BI til að fylgjast með afköstum framleiðsluaðgerða með hliðsjón af tímanlegri framkvæmd, gæðum og kostnaði. Skýrslurnar nota færslugögn úr framleiðslupöntunum og runupöntunum og gefa bæði samantekna sýn yfir framleiðslumælieiningar yfir allt fyrirtækið og sundurliðun á mælieiningum eftir afurðum og tilföngum.
+Skýrslurnar gera þér kleift að nota Power BI til að fylgjast með gæðum framleiðsluaðgerða, með tilliti til tímabærrar framkvæmda, gæða og kostnaðar. Skýrslurnar nota færslugögn úr framleiðslupöntunum og runupöntunum og gefa bæði samantekna sýn yfir framleiðslumælieiningar yfir allt fyrirtækið og sundurliðun á mælieiningum eftir afurðum og tilföngum.
 
-Í Power BI efninu er lögð áhersla á getu fyrirtækisins til að ljúka við framleiðslu á réttum tíma og til fulls. Spáð er um framtíðarafköst á grundvelli framleiðsluáætlana. Ítarlegar skýrslur veita gott innsæi í framleiðslugalla sem orsakast af framleiðslu og einnig tíðni galla í tilföngum og aðgerðum.
+Power BI-efnið undirstrikar getu stofnunarinnar til að ljúka framleiðslu á réttum tíma og að fullu. Spáð er um framtíðarafköst á grundvelli framleiðsluáætlana. Ítarlegar skýrslur veita gott innsæi í framleiðslugalla sem orsakast af framleiðslu og einnig tíðni galla í tilföngum og aðgerðum.
 
-Með þessu Power BI efni er einnig hægt að greina framleiðslufrávik. Framleiðslufrávik eru reiknuð sem mismunurinn milli áætlaðs kostnaðar og raunkostnaðar. Frávik í framleiðslu eru reiknuð þegar framleiðslupantanir eða runupantanir ná stöðunni **Lokið**.
+Power BI-efnið gerir þér einnig kleift að greina frávik í afurðum. Framleiðslufrávik eru reiknuð sem mismunurinn milli áætlaðs kostnaðar og raunkostnaðar. Frávik í framleiðslu eru reiknuð þegar framleiðslupantanir eða runupantanir ná stöðunni **Lokið**.
 
-Power BI efnið **Framleiðsluafköst** hefur að geyma gögn sem eiga uppruna sinn í framleiðslupöntunum og runupöntunum. Skýrslurnar innihalda ekki gögn sem tengjast kanban-framleiðslu.
+**Framleiðsluafköst** Power BI efnið inniheldur gögn sem eiga uppruna sinn úr framleiðslupöntunum og runupöntunum. Skýrslurnar innihalda ekki gögn sem tengjast kanban-framleiðslu.
 
-## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
-**Framleiðsluafköst** Power BI efni er sýnt á **Framleiðsluafköst** síðunni (**Framleiðslustýring** \> **Fyrirspurnir og skýrslur** \> **Greining á framleiðsluafköstum** \> **Framleiðsluafköst**). 
+## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
+**Framleiðsluafköst** Power BI-efnis er sýnt á **Framleiðsluafköst** síðunni (**Framleiðslustýring** \> **Fyrirspurnir og skýrslur** \> **Greining á framleiðsluafköstum** \> **Framleiðsluafköst**). 
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI-efni
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI efni
 
-Power BI efnið **Framleiðsluafköst** felur í sér safn af skýrslusíðum. Hver síða samanstendur af safni mælikvarða sem eru sýndir sem myndrit, reitir og töflur.
+**Framleiðsluafköst** Power BI efnið inniheldur safn af skýrslusíðum. Hver síða samanstendur af safni mælikvarða sem eru sýndir sem myndrit, reitir og töflur.
 
 Eftirfarandi tafla sýnir myndræna framsetningu sem fylgir.
 
@@ -63,9 +62,9 @@ Eftirfarandi tafla sýnir myndræna framsetningu sem fylgir.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
 
-Eftirfarandi gögn eru notuð fyrir skýrslusíðurnar í Power BI efninu **Framleiðsluafköst**. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Entity-verslunin er Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu. Frekari upplýsingar um einingaverslunina má fá í [samþættingu Power BI við einingaverslunina](power-bi-integration-entity-store.md).
+Eftirfarandi gögn eru notuð fyrir skýrslusíðurnar í **Framleiðsluafköst** Power BI efninu. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Einingaverslunin er Microsoft SQL Server gagnagrunnur sem er fínstillt fyrir greiningar. Sjá frekari upplýsingar um einingaverslun í [Power BI samþætting við einingaverslun](power-bi-integration-entity-store.md).
 
-Eftirfarandi tafla sýnir helstu uppsöfnuðu mælingarnar sem eru notaðar sem grundvöllur fyrir Power BI efnið
+Eftirfarandi tafla sýnir uppsafnaðar mælingar sem eru notaðar sem grunnur að Power BI efninu.
 
 | Eining                   | Lykiluppsafnaðar mælingar  | Gagnagjafi fyrir Finance and Operations | Svæði              |
 |--------------------------|-----------------------------|----------------------------------------|--------------------|
@@ -130,4 +129,3 @@ Eftirfarandi tafla sýnir lykilvíddir sem eru notaðar sem síur til að sneið
 | Einingar                  | Auðkenni og heiti                                                   |
 | Tilföng                 | Auðkenni tilfanga, heiti tilfanga, gerð tilfanga og tilfangahópur |
 | Afurðir                  | Afurðarnúmer, afurðarheiti, auðkenni vöru og vöruflokkur         |
-

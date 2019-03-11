@@ -1,13 +1,13 @@
---- 
-title: "Ráða fyrirliggjandi starfsmenn gegnum ráðningarferli"
-description: "Stundum er hægt að manna lausar stöður með umsækjendur sem eru nú þegar starfsmenn í fyrirtækinu þínu."
+---
+title: Ráða fyrirliggjandi starfsmenn gegnum ráðningarferli
+description: Stundum er hægt að manna lausar stöður með umsækjendur sem eru nú þegar starfsmenn í fyrirtækinu þínu.
 author: rschloma
 manager: AnnBe
 ms.date: 02/10/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
 ms.openlocfilehash: 71793ce48142b19b288e2315dcd44a07d8e39f90
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365386"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Ráða fyrirliggjandi starfsmenn gegnum ráðningarferli
 
@@ -40,5 +40,4 @@ Stundum er hægt að manna lausar stöður með umsækjendur sem eru nú þegar 
 8. Einnig má velja ástæðukóða. Dæmi: Endurskipulagning
 9. Smellt er á Breyta stöðu.
     * Einnig má breyta launum á þessum tíma. Ef laun fyrir á þessum tíma er ekki úthlutað, er hægt að breyta þeim með því að fara í skjámynd starfsmanns, velja flipa "laun" og velja 'Föst Áætlun'. Eftir að þú velja 'Breyting á stöðu', er staða á umsókninni uppfærð í í ‚Ráðinn'.  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Kostnaðarstjórnun Power BI efni"
-description: "Þetta efnisatriði lýsir því hvað er innifalið í Power BI-efni kostnaðarstjórnunar."
+title: Kostnaðarstjórnun Power BI efni
+description: Þetta efnisatriði lýsir því hvað er innifalið í kostnaðarstjórnun Power BI efnis.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -19,36 +19,35 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f67b1c901267bdf79c94e4f4c698c8731c515bb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327804"
 ---
-
 # <a name="cost-management-power-bi-content"></a>Kostnaðarstjórnun Power BI efni
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Yfirlit
 
-Microsoft Power BI-efnið **Kostnaðarstjórnun** er ætlað fyrir bókhaldara birgða eða einstaklinga innan fyrirtækisins sem bera ábyrgð á hafa áhuga á birgðastöðu eða verki í vinnslu (VÍV), eða sem bera ábyrgð á eða hafa áhuga á að greina frávik staðalkostnaðar.
+**Kostnaðarstjórnun** Microsoft Power BI er ætlað fyrir bókhaldara birgða eða einstaklinga innan fyrirtækisins sem bera ábyrgð á hafa áhuga á birgðastöðu eða verki í vinnslu (VÍV), eða sem bera ábyrgð á eða hafa áhuga á að greina frávik staðalkostnaðar.
 
 > [!NOTE]
-> Microsoft Power BI-efnið **Kostnaðarstjórnun** sem lýst er hér í þessu efnisatriði gildir um Dynamics 365 for Finance and Operations 8.0.
+> **Kostnaðarstjórnun** Power BI efnið sem lýst er hér í þessu efnisatriði gildir um Dynamics 365 for Finance and Operations 8.0.
 > 
-> **Kostnaðarstjórnun** Power BI efnispakki, tiltækur á AppSource síðuna, hefur verið felldur úr gildi. Nánari upplýsingar um þá afskrift er að finna í [Power BI efnispakkar tiltækur á AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> **Kostnaðarstjórnun** Power BI efnispakki, tiltækur á AppSource síðuna, hefur verið felldur úr gildi. Nánari upplýsingar um þá afskrift er að finna í [Power BI efnispakki tiltækur á AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-Þetta Power BI-efnið útvegar flokkað snið sem hjálpar þér að fylgjast með afköstum birgða og sjá hvernig kostnaðurinn rennur í gegnum þær. Hægt er að öðlast innsýn í reksturinn, t.d. veltuhlutfall, fjöldi daga sem birgðir á lager, nákvæmni og „ABC-flokkun“ á völdu samanlögðu stigi (fyrirtæki, vöru, vöruflokki eða stað). Upplýsingarnar sem boðið er upp á er einnig hægt að nota sem ítarlega viðbót við fjárhagsskýrslu.
+Þetta Power BI efni útvegar flokkað snið sem hjálpar þér að fylgjast með afköstum birgða og sjá hvernig kostnaðurinn rennur í gegnum þær. Hægt er að öðlast innsýn í reksturinn, t.d. veltuhlutfall, fjöldi daga sem birgðir á lager, nákvæmni og „ABC-flokkun“ á völdu samanlögðu stigi (fyrirtæki, vöru, vöruflokki eða stað). Upplýsingarnar sem boðið er upp á er einnig hægt að nota sem ítarlega viðbót við fjárhagsskýrslu.
 
 Power BI-efnið er byggt á samanlagðri mælingu **CostObjectStatementCacheMonthly** sem hefur töfluna **CostObjectStatementCache** sem aðalgagnagjafa. Þessari töflu er stjórnað af ramma skyndiminnis gagnasafns. Sjálfgefið er að taflan sé uppfærð á 24 tíma fresti en hægt er að breyta uppfærslutíðninni eða virkja handvirkar uppfærslur í grunnstillingu gagnasafns skyndiminnis. Hægt er að keyra handvirkar uppfærslur í annaðhvort vinnusvæðinu **Kostnaðarstjórnun** eða vinnusvæðinu **Kostnaðargreining**.
 
 Eftir hverja uppfærslu á töflunni **CostObjectStatementCache** verður að uppfæra samanlagðar mælingar **CostObjectStatementCacheMonthly** áður en gögn í myndrænni framsetningu Power BI eru uppfærð.
 
-## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
+## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
 
-Power BI-efnið **Kostnaðarstjórnun** er sýnt í vinnusvæðunum **Kostnaðarstjórnun** og **Kostnaðargreining**.
+**Kostnaðarstjórnun** Power BI efnið er sýnt í vinnusvæðunum **Kostnaðarstjórnun** og **Kostnaðargreining**.
 
 Vinnusvæðið **Kostnaðarstjórnun** inniheldur eftirfarandi flipa:
 
@@ -65,9 +64,9 @@ Vinnusvæðið **Kostnaðargreining** inniheldur eftirfarandi flipa:
 
 ## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Tilkynna síður sem eru innifaldar í Power BI-efninu
 
-Power BI-efnið **Kostnaðarstjórnun** inniheldur safn af skýrslusíðum sem samanstanda af safni mælikvarða. Þessir mælikvarðar eru birtir sem myndrit, reitir og töflur. 
+**Kostnaðarstjórnun** Power BI efnið inniheldur safn af skýrslusíðum sem samanstanda af safni mælikvarða. Þessir mælikvarðar eru birtir sem myndrit, reitir og töflur. 
 
-Í eftirfarandi töflum eru yfirlit yfir myndbirtingar í Power BI-efninu **Kostnaðarstjórnun**.
+Í eftirfarandi töflum eru yfirlit yfir myndbirtingar í **Kostnaðarstjórnun** Power BI efninu.
 
 ### <a name="inventory-accounting-status"></a>Staða birgðabókhalds
 
@@ -173,7 +172,7 @@ Power BI-efnið **Kostnaðarstjórnun** inniheldur safn af skýrslusíðum sem s
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
 
-Gögn frá Microsoft Dynamics 365 for Finance and Operations eru notuð til að fylla skýrslusíðurnar í **Kostnaðarstjórnun** Power BI-efnis. Þessi gögn eru birt sem uppsafnaðar mælingar sem eru settar upp í einingaversluninni sem er Microsoft SQL Server-gagnagrunnur sem er fínstilltur fyrir greiningar. Nánari upplýsingar er að finna í [Power BI samþætting við einingaverslun](power-bi-integration-entity-store.md).
+Gögn frá Microsoft Dynamics 365 for Finance and Operations eru notuð til að fylla skýrslusíðurnar í **Kostnaðarstjórnun** Power BI efnis. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni sem er Microsoft SQL Server gagnagrunnur sem er fínstilltur fyrir greiningu. Nánari upplýsingar er að finna í [Power BI samþætting við einingaverslun](power-bi-integration-entity-store.md).
 
 Lykiluppsafnaðar mælingar á eftirfarandi hlutum eru notaðar sem grundvöllur Power BI-efnis.
 
@@ -186,7 +185,7 @@ Lykiluppsafnaðar mælingar á eftirfarandi hlutum eru notaðar sem grundvöllur
 
 Eftirfarandi tafla sýnir helstu útreiknuðu mælingarnar í Power BI-efninu.
 
-| Mæla                            | Útreikningur |
+| Ráðstöfun                            | Útreikningur |
 |------------------------------------|-------------|
 | Upphafsstaða                  | Upphafsstaða = \[Lokastaða\]-\[Nettóbreyting\] |
 | Upphafsstaða magns             | Upphafsstaða magns = \[Lokastaða magns\]-\[Nettóbreytingar magns\] |
@@ -209,4 +208,3 @@ Eftirfarandi lykilvíddir eru notaðar sem síur til að sneiða uppsafnaðar m�
 | Lögaðilar                                          | Heiti lögaðila                              |
 | Fjárhagsdagatöl                                        | Fjárhagsdagatal, ár, ársfjórðungur, tímabil, mánuður   |
 | Svæði                                                    | Kenni, nafn, heimilisfang, ríki, land               |
-

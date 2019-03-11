@@ -1,13 +1,13 @@
 ---
-title: "Nýjar verkefnaleiðbeiningar (febrúar 2016)"
-description: "Þetta efnisatriði sýnir verkleiðbeiningar sem voru settar inn í Microsoft BPM söfn frá febrúar 2016.  Söfn sem voru birta innihalda (Febrúar 2016) APQC Unified Library fyrir Microsoft Dynamics 365 for Operations og (Febrúar 2016) Hafist handa."
+title: Nýjar verkefnaleiðbeiningar (febrúar 2016)
+description: Þetta efnisatriði sýnir verkleiðbeiningar sem voru settar inn í Microsoft BPM söfn frá febrúar 2016.  Söfn sem voru birta innihalda (Febrúar 2016) APQC Unified Library fyrir Microsoft Dynamics 365 for Operations og (Febrúar 2016) Hafist handa.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,23 +17,22 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 87384bae08e3fa78ef3deb3830583b16b9d9d6ac
-ms.contentlocale: is-is
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366444"
 ---
-
 # <a name="new-task-guides-february-2016"></a>Nýjar verkefnaleiðbeiningar (febrúar 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði sýnir verkleiðbeiningar sem voru settar inn í Microsoft BPM söfn frá febrúar 2016. Söfnin sem voru gefin út innihalda (febrúar 2016) APQC Unified Library for Microsoft Dynamics AX og (febrúar 2016) Hafist handa.
+Þetta efnisatriði sýnir verkleiðbeiningar sem voru settar inn í Microsoft BPM söfn frá febrúar 2016. Söfn sem voru birta innihalda (Febrúar 2016) APQC Unified Library fyrir AX Microsoft Dynamics og (Febrúar 2016) Hafist handa.
 
-## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>verkefnaleiðbeiningar í (Febrúar 2016) APQC Unified Library fyrir Microsoft Dynamics AX
+## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Verkefnaleiðbeiningar í (Febrúar 2016) APQC Unified Library fyrir Microsoft Dynamics AX
 
-Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar sem er ætlað að aðstoða við notkun á Dynamics AX 7.0.0 útgáfunni. Ef þörf er á staðfærðum útgáfum þessara verkefnaleiðbeininga eru þær tiltækar í (maí 2016) APQC Unified Library fyrir Microsoft Dynamics AX. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hafist handa með hjálp](help-overview.md).
+APQC Unified Library (Febrúar 2016), inniheldur verkefnaleiðbeiningar sem er ætlað að nota til að fá Hjálp með Dynamics AX 7.0.0 útgáfunni. Ef þörf er á staðfært útgáfur þessara verkefnaleiðbeiningar, þær eru tiltækar í (Maí 2016) APQC Unified Library fyrir Microsoft Dynamics AX. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hafist handa með hjálp](help-overview.md).
 
 ### <a name="accounts-payable"></a>Viðskiptaskuldir
 
@@ -647,4 +646,3 @@ Safnið APQC Unified Library (febrúar 2016) inniheldur verkefnaleiðbeiningar s
 [Nýjar eða uppfærðar verkefnaleiðbeiningar (ágúst 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Nýjar eða uppfærðar verkefnaleiðbeiningar (nóvember 2016)](new-task-guides-november-2016.md)
-

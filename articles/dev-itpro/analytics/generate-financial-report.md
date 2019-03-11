@@ -1,13 +1,13 @@
 ---
-title: "Mynda fjárhagsskýrslur"
-description: "Þetta efni inniheldur almennar upplýsingar um myndum reikningsskila."
+title: Mynda fjárhagsskýrslur
+description: Þetta efni inniheldur almennar upplýsingar um myndum reikningsskila.
 author: aprilolson
 manager: AnnBe
 ms.date: 09/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340891"
 ---
-
 # <a name="generate-financial-reports"></a>Mynda fjárhagsskýrslur
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ Eftirtaldir valkostir eru í boði til að búa til skýrslu:
 
 Þegar skýrsla er mynduð eru valkostina sem tilgreindir hafa verið á flipunum fyrir Skýrsluskilgreiningar notaðir.
 
-## <a name="generate-a-financial-report"></a>Myndun fjárhagsskýrslu
+## <a name="generate-a-financial-report"></a>Mynda fjárhagsskýrslu
 
 Til að búa til fjárhagsskýrslu með Microsoft Dynamics 365 for Finance and Operations skal fara í **Fjárhagur** \> **Fyrirspurnir og skýrslur** \> **Fjárhagsskýrslur**.
 
@@ -115,7 +114,7 @@ Hægt er að leita að fjárhagsreikningum og víddum sem hugsanlega gæti vanta
 > [!TIP]
 > Hvað staðfestingu varðar ætti þetta ferli að vera keyrt áður en myndaðar eru mánaðarlegar skýrslur og þegar nýjar einingar eru stofnaðar.
 
-Ólíklegra er að skýrslur sem hafa svið gilda vanti reikninga. Þegar mögulegt er skal nota svið í einingunni til að hafa nýja reikninga með þegar þeir eru stofnaðir. Ef einhver skýrsluskilgreining er stillt á @ANY fyrirtæki er hægt að skrá sig inn á tiltekið fyrirtæki og keyra greiningu á reikningum sem vantar fyrir það fyrirtæki.
+Ólíklegra er að skýrslur sem hafa svið gilda vanti reikninga. Þegar mögulegt er skal nota svið í einingunni til að hafa nýja reikninga með þegar þeir eru stofnaðir. Ef skýrslugreining er stillt á @ANY fyrirtæki, þá getur notandi skráð sig inn á tiltekið fyrirtæki og keyrt reikningsgreiningu sem vantar fyrir það fyrirtæki.
 
 > [!NOTE]
 > Ef nýju fyrirtæki hefur verið bætt við, verður að bæta nýja fyrirtækinu við skipuritið í öllum núverandi skýrslum, annars mun fyrirtækið ekki vera innfalið í greiningu á reikningum sem vantar.
@@ -158,4 +157,3 @@ Hægt er að leita að fjárhagsreikningum og víddum sem hugsanlega gæti vanta
 [Fjárhagsskýrslugerð](financial-reporting-intro.md)
 
 [Viðmót Report Designer](report-designer-interface.md)
-

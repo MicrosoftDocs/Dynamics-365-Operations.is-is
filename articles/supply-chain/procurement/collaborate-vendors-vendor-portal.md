@@ -1,13 +1,13 @@
 ---
-title: "Samstarf með lánardrottnum í gegnum gátt lánardrottins"
-description: "Þetta efnisatriði útskýrt hvernig innkaupastjórar geta notað Gátt lánardrottins til að vinna með ytri lánardrottnum meðan á staðfestingarvinnslu innkaupapöntunar stendur. Upplýsingarnar gildir aðeins um 2016 Febrúar &amp; 2016 Maí útgáfum Dynamics AX."
+title: Samstarf með lánardrottnum í gegnum gátt lánardrottins
+description: Þetta efnisatriði útskýrt hvernig innkaupastjórar geta notað Gátt lánardrottins til að vinna með ytri lánardrottnum meðan á staðfestingarvinnslu innkaupapöntunar stendur. Upplýsingarnar gildir aðeins um 2016 Febrúar &amp; 2016 Maí útgáfur af Dynamics AX.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 07fbc5fea1fd44769a29bcc40297ffd02812a1e5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339879"
 ---
-
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Samstarf með lánardrottnum í gegnum gátt lánardrottins
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrt hvernig innkaupastjórar geta notað Gátt lánardrottins til að vinna með ytri lánardrottnum meðan á staðfestingarvinnslu innkaupapöntunar stendur. Upplýsingarnar gildir aðeins um 2016 Febrúar &amp; 2016 Maí útgáfum Dynamics AX.
+Þetta efnisatriði útskýrt hvernig innkaupastjórar geta notað Gátt lánardrottins til að vinna með ytri lánardrottnum meðan á staðfestingarvinnslu innkaupapöntunar stendur. Upplýsingarnar gildir aðeins um 2016 Febrúar &amp; 2016 Maí útgáfur af Dynamics AX.
 
 Upplýsingarnar í þessu efnisatriði gildir aðeins um 2016 Febrúar og 2016 Maí útgáfum Dynamics AX. Virknin gátt Lánardrottins hefur verið skipt út fyrir virknina aukið samstarf lánardrottna í Dynamics 365 for Operations útgáfa 1611. Nánari upplýsingar um uppsetningu öryggis fyrir samstarf lánardrottna sjá [Uppsetning og viðhald samstarfs lánardrottna](vendor-collaboration-work-external-vendors.md).  
 
@@ -102,7 +101,6 @@ Taflan hér að neðan sýnir dæmi um breytingar á stöðu og útgáfu sem Inn
 [Skilgreining öryggis fyrir Notendur samstarfs lánardrottna](configure-security-vendor-portal-users.md)
 
 [Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
-
 
 
 

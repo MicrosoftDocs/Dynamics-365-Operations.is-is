@@ -1,13 +1,13 @@
 ---
-title: "Fyrirtæki og stigveldi fyrirtækis"
-description: "Fyrirtæki er hópur af fólki sem eru að vinna saman að því að framkvæma viðskiptaferli eða ná markmiði. Stigveldi fyrirtækis standa fyrir vensl á milli fyrirtækja sem þú ert með saman í rekstri."
+title: Fyrirtæki og stigveldi fyrirtækis
+description: Fyrirtæki er hópur af fólki sem eru að vinna saman að því að framkvæma viðskiptaferli eða ná markmiði. Stigveldi fyrirtækis standa fyrir vensl á milli fyrirtækja sem þú ert með saman í rekstri.
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager, OMOperatingUnit,
 audience: Application User
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 72834769e393382ac511ad3af21544efddb049d3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4f8afc37e8d69b06622176d4f6cfb3ff06a0ab54
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322238"
 ---
-
 # <a name="organizations-and-organizational-hierarchies"></a>Fyrirtæki og stigveldi fyrirtækis
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ Fyrirtæki er hópur af fólki sem eru að vinna saman að því að framkvæma 
 
 ## <a name="organizations"></a>Fyrirtæki
 
-Í Microsoft Dynamics 365 for Finance and Operations er hægt að skilgreina eftirfarandi gerðir samstæðufyrirtækja: Lögaðila, rekstrareiningar, og hópa.
+Í Microsoft Dynamics 365 for Finance and Operations, er hægt að skilgreina eftirfarandi gerðir samstæðufyrirtæki: lögaðila, rekstrareiningar, og hópa.
 
 Öll innri fyrirtæki eru gerðir af einingunni **Samningsaðil**. Notið þess vegna þessum fyrirtækjum í aðsetursbók til að geyma aðsetur og tengslaupplýsingar. Aðila, sem getur verið annað hvort einstaklingur eða fyrirtæki, geta tilheyrt einni eða fleiri aðsetursbækur.
 
@@ -42,13 +41,13 @@ Fyrirtæki er hópur af fólki sem eru að vinna saman að því að framkvæma 
 
 Lögaðili er fyrirtæki sem hefur skráð ögfest lagalega uppbyggingu. Lögaðila er hægt að færa inn í samninga og eru þeir krafnir um að útbúa yfirlit sem segir til um frammistöðu þeirra.
 
-Fyrirtæki er lögaðila. Í þessari útgáfu af Microsoft Dynamics 365 for Finance and Operations eru fyrirtæki eina tegundin af lögaðila sem þú getur búið til, og sérhver lögaðili tengist auðkenni fyrirtækis. Þessi tenging til staðar þar sem fyrirtæki Kenni eða DataAreaId, í gagnalíkön þeirra er að nota sumar rekstrarsvið í forritinu. Í þessum virku svæðum eru fyrirtæki notuð sem mörk fyrir öryggi gagna. Notendur geta nálgast gögn aðeins fyrir fyrirtæki sem eru skráðir inn í.
+Fyrirtæki er lögaðila. Í þessari útgáfu af Microsoft Dynamics 365 for Finance and Operations eru fyrirtæki aðeins ein tegund af lögaðila sem þú getur búið til, og sérhver lögaðili tengist auðkenni fyrirtækisins. Þessi tenging til staðar þar sem fyrirtæki Kenni eða DataAreaId, í gagnalíkön þeirra er að nota sumar rekstrarsvið í forritinu. Í þessum virku svæðum eru fyrirtæki notuð sem mörk fyrir öryggi gagna. Notendur geta nálgast gögn aðeins fyrir fyrirtæki sem eru skráðir inn í.
 
 ### <a name="operating-units"></a>Rekstrareiningar
 
 Rekstrareining er fyrirtæki sem er notað til að skipta stýringu verðmæta og rekstrarferlis í viðskiptum. Fólk í rekstrareiningu hefur skyldu til að hámarka notkun takmarkaðra auðlinda, bæta ferli og bera ábyrgð á afköstum sínum.
 
-Í Microsoft Dynamics 365 for Finance and Operations innihalda tegundir rekstrareininga kostnaðarstaði, viðskiptaeiningar, virðisstrauma, deildir og smásölurásir. Eftirfarandi tafla veitir frekari upplýsingar um hverja tegund rekstrareiningar.
+Í Microsoft Dynamics 365 for Finance and Operations, tegundir rekstrareininga eru kostnaðarstaðir teknir með, viðskiptaeiningar, deildir og virðisstraumar og smásölurásir. Eftirfarandi tafla veitir frekari upplýsingar um hverja tegund rekstrareiningar.
 
 | Gerð rekstrareiningar | Lýsing | Tilgangur |
 |---------------------|-------------|---------|
@@ -69,4 +68,3 @@ Setja upp stigveldi fyrirtækis til að skoða og gefa skýrslu um reksturinn fr
 Hverju stigveldi er úthlutað tilgangi í Microsoft Dynamics 365 for Finance and Operations. Tilgangur stigveldis ákvarðar gerðir fyrirtæki sem má hafa með í stigveldi. Tilgangur skilgreinir einnig hvaða forrit aðstæður sem hægt er að nota í stigveldinu.
 
 Fyrirtæki í stigveldi geta samnýtt færibreytur reglur og færslur. Fyrirtæki getur erft eða hunsað færibreytur móðurfélags þess. Hins vegar samnýtt aðalgögn, eins og afurðir og aðsetursbækur, gildir fyrir allt fyrirtækið og ekki er hægt að hnekkja verði fyrir einstök fyrirtæki. Stofnun fyrirtæki og stigveldi krefst vandlegrar áætlanagerðar. Sjá frekari upplýsingar í [Skipuleggja stigveldi fyrirtækis](plan-organizational-hierarchy.md).
-

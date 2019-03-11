@@ -1,13 +1,13 @@
 ---
-title: "Operations-tilföng"
-description: "Rekstrartilföng framkvæma verkþætti verks eða framleiðsluferlis. Þau geta verið af mismunandi gerðum og geta haft mismunandi getu."
+title: Operations-tilföng
+description: Rekstrartilföng framkvæma verkþætti verks eða framleiðsluferlis. Þau geta verið af mismunandi gerðum og geta haft mismunandi getu.
 author: sorenva
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OpResLifecycleManagementWorkspace, WrkCtrCapability
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e11d64ec37775f4fe2fc113af238a6294b459454
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c4018632e5e20470948ee59e4bb2a1cab905d829
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366605"
 ---
-
 # <a name="operations-resources"></a>Operations-tilföng
 
 [!include [banner](../includes/banner.md)]
@@ -83,7 +82,6 @@ Til að nota á tilfangaflokk sem lean-vinnuflokkur , er afkastageta vinnuflokks
 
 ## <a name="costing-resources"></a>Kostnaðartilföng
 Þegar verkþáttur eins og leiðaaðgerð eða tímaspá verks er skilgreind, er hægt að tilgreina þarfir fyrir tiltekinna rekstrartilföng eða tilfangaflokkur. Þó er einnig hægt að tilgreina þarfir fyrir rekstrartilföng af tiltekna gerð, eða rekstrartilföng sem hefur tiltekna getu eða hæfni. Þess vegna er raunveruleg úthlutun tilfanga ekki gerðar fyrr en verkþátturinn er áætlaður og afkastageta er frátekið. Þess vegna á leiðaraðgerð, hægt er að tilgreina þetta mat og uppskriftarútreikningurinn verður að byggja á tilteknum rekstrartilföng. Þessi rekstrartilföng kallast kostnaðartilföng. Er einnig hægt að flytja kostnaðartegundir og aðgerðatímar úr kostnaðartilföng á verkþættinum. Þegar aðgerðinni er raðað, eru matið og uppskriftarútreikningurinn gerðar með því að nota rekstrartilföng sem er í raun raðað.
-
 
 
 

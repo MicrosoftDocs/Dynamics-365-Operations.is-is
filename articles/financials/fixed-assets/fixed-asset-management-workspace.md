@@ -1,35 +1,34 @@
 ---
-title: "Vinnusvæði eignastýringar"
-description: "Í þessu efnisatriði er að finna upplýsingar um vinnusvæði eignastýringar. Þetta vinnusvæði sýnir upplýsingar sem tengjast eignum sem eru færðar inn í kerfið. Það felur í sér samantektaryfirlit og greiningaryfirlit."
+title: Vinnusvæði eignastýringar
+description: Í þessu efnisatriði er að finna upplýsingar um vinnusvæði eignastýringar. Þetta vinnusvæði sýnir upplýsingar sem tengjast eignum sem eru færðar inn í kerfið. Það felur í sér samantektaryfirlit og greiningaryfirlit.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 1e8e02bf308b5506aef41d302755911f6a9ce3e4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8425387d4004e02e9b8adf9ba3b31a0b4e02b6e9
-ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352322"
 ---
-
 # <a name="fixed-asset-management-workspace"></a>Vinnusvæði eignastýringar
 
 [!include [banner](../includes/banner.md)]
 
-Vinnusvæðið **Eignastýring** sýnir upplýsingar sem tengjast eignum sem eru færðar inn í kerfið. Þetta vinnusvæði inniheldur samantektaryfirlit og greiningayfirlit. Flipinn **Mín vinna** sýnir samantektarreiti fastra eigna upplýsingar og magntengdar upplýsingar um eignir í gildandi fyrirtæki. Einnig er hægt að bæta greiningarlíkönum við Power BI hluta beint í vinnusvæðið. Flipinn **Samantektarlíkön – öll fyrirtækin** flipa notar gátt í Microsoft Power BI til að sýna sýnigögn sem tengjast eignum innan allra fyrirtækja.
+Vinnusvæðið **Eignastýring** sýnir upplýsingar sem tengjast eignum sem eru færðar inn í kerfið. Þetta vinnusvæði inniheldur samantektaryfirlit og greiningayfirlit. Flipinn **Mín vinna** sýnir samantektarreiti fastra eigna upplýsingar og magntengdar upplýsingar um eignir í gildandi fyrirtæki. Þú getur einnig bætt greiningum við Power BI-greiningarhlutann beint á vinnusvæðið. Flipinn **Greiningar - öll fyrirtæki** notar getu Microsoft Power BI til að sýna myndefni sem tengist eignum í öllum fyrirtækjum.
 
 ## <a name="my-work"></a>Vinnan mín
 
@@ -75,4 +74,3 @@ Eftirfarandi tafla sýnir sýnigögn sem eru tiltæk á hverri skýrslusíðu.
 | Matsvarpanir        | Upplýsingar eignar |
 
 Til að skoða greiningu með gögnum þarf fyrst að endurnýja uppsafnaða mælingu AssetTransactionMeasure á síðunni **Einingarverslun**.
-

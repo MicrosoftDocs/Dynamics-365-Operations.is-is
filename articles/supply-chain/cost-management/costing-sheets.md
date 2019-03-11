@@ -1,13 +1,13 @@
 ---
-title: "Kostnaðarskjöl"
-description: "Uppsetning á kostnaðarskjali felur í sér tvö viðföng. Fyrsta viðfangið er að skilgreina sniðið til að birta upplýsingar um kostnað af seldum vörum um framleidda vöru eða framleiðslupöntun. Sniðna skjámyndin nefnist kostnaðarskjal. Annað viðfangið er að skilgreina grunn útreiknings óbeins kostnaðar. Uppsetning kostnaðarskjals byggir á aðgerðum kostnaðarflokka til að birta upplýsingar og reikniformúlur óbeins kostnaðar. Tveimur viðföngum uppsetningar kostnaðarskjals er lýst í þessari grein."
+title: Kostnaðarskjöl
+description: Uppsetning á kostnaðarskjali felur í sér tvö viðföng. Fyrsta viðfangið er að skilgreina sniðið til að birta upplýsingar um kostnað af seldum vörum um framleidda vöru eða framleiðslupöntun. Sniðna skjámyndin nefnist kostnaðarskjal. Annað viðfangið er að skilgreina grunn útreiknings óbeins kostnaðar. Uppsetning kostnaðarskjals byggir á aðgerðum kostnaðarflokka til að birta upplýsingar og reikniformúlur óbeins kostnaðar. Tveimur viðföngum uppsetningar kostnaðarskjals er lýst í þessari grein.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostSheetDesigner
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1421049adb86916202ad6f7ee748c8525fd55fa8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3988bd478cfad791b5d4c73d28a86c9cfb68288f
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312762"
 ---
-
 # <a name="costing-sheets"></a>Kostnaðarskjöl
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ Tvær lokunarstefnur fyrir kostnaðarútgáfu ákvarða hvort hægt sé að við
 Þegar búið er að skilgreina snið kostnaðarskjalsins og útreikninga óbeins kostnaðar verður að framkvæma sérstakar aðgerðir til að virkja og vista upplýsingarnar. Kostnaðarskjalið birtir snið fyrir allt fyrirtækið með því að birta í öllum tilfellum upplýsingar um kostnað seldra vara. 
 
 Kostnaðarskjalið er birt sem hluti af síðunni **Reikna vörukostnað**. Kostnaðarskjalið getur verið birt fyrir útreiknaðar kostnaðarfærslur framleiddra vara á síðunni **Vöruverð**, eða fyrir útreikning ákveðnar pöntunar á síðunni **Niðurstöður úr útreikningi uppskrifta**. Það getur líka verið sýnt sem hluti af síðunni **Verðútreikningur**fyrir framleiðslupöntun.
-
 
 
 

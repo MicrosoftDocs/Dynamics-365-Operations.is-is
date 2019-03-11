@@ -1,13 +1,13 @@
---- 
-title: "Skilgreina líkanavörpun rafrænnar skýrslugerðar og velja gagnagjafa"
-description: "Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur valið gagnaveitur fyrir gagnalíkan rafrænnar skýrslugerðar."
+---
+title: Skilgreina líkanavörpun rafrænnar skýrslugerðar og velja gagnagjafa
+description: Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur valið gagnaveitur fyrir gagnalíkan rafrænnar skýrslugerðar.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b5f2f2c699514d723f42f5d1fb25724f46dfc4f4
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348872"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>Skilgreina líkanavörpun rafrænnar skýrslugerðar og velja gagnagjafa
 
@@ -51,7 +51,7 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þr
 
 ## <a name="define-required-data-sources-for-the-current-model-mapping"></a>Skilgreina nauðsynlega gagnaveitur fyrir gildandi líkanavörpun
 1. Smellið á Hönnuður.
-2. Í trénu skal velja „Dynamics 365 for Operations\Tafla færslur“.
+2. Í trénu skal velja 'Dynamics 365 for Operations\Table records'.
 3. Smella á bæta Við rót.
     * Færið inn gagnagjafa til að hafa aðgang að greiðslufærslum.  
 4. Í reitnum Heiti skal færa inn ‚færslur'.
@@ -110,7 +110,7 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þr
 41. Í trénu skal víkka út „Færslur“.
 42. Í tré skal víkka eða draga saman „Færslur\$Upphæð“.
 43. Í tré skal víkka eða draga saman 'Transactions'.
-44. Í trénu skal velja „Dynamics 365 for Operations\Tafla færslur“.
+44. Í trénu skal velja 'Dynamics 365 for Operations\Table records'.
 45. Smella á bæta Við rót.
     * Færið inn gagnaveitu til að hafa aðgang að upplýsingar bankareiknings fyrirtækis.  
 46. Í reitnum Heiti skal færa inn 'BankAccount'.
@@ -157,5 +157,4 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þr
 70. Lokið síðunni.
 71. Lokið síðunni.
 72. Lokið síðunni.
-
 

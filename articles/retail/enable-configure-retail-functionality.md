@@ -1,13 +1,13 @@
 ---
-title: "Frumstilla grunngögn í nýju Retail-umhverfi"
-description: "Þessi grein lýsir gögnum sem búin eru til við frumstillingu fyrir Microsoft Dynamics 365 for Retail."
+title: Frumstilla grunngögn í nýju Retail-umhverfi
+description: Þessi grein lýsir gögnum sem búin eru til við frumstillingu fyrir Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327896"
 ---
-
 # <a name="initialize-seed-data-in-new-retail-environments"></a>Frumstilla grunngögn í nýju Retail-umhverfi
 
 [!include [banner](includes/banner.md)]
@@ -40,7 +39,7 @@ ms.lasthandoff: 01/04/2019
 
 Fylgið eftirfarandi skrefum til að frumstilla skilgreiningar smásölu.
 
-1. Ræsa Dynamics 365 for Retail-biðlara.
+1. Ræsið Dynamics 365 for Retail biðlarann.
 2. Smellt er á **Smásala** &gt; **Uppsetning höfuðstöðva** &gt; **Færibreytur** &gt; **Smásölufæribreytur**.
 3. Smellið á **Frumstilla**.
 
@@ -58,7 +57,7 @@ Frumstilling stofnar eftirfarandi sjálfgefin skilgreiningargögn:
 - Sniðmát fyrir villuleit eininga
 - Runuvinnsla til að hreinsa setuferil Commerce Data Exchange
 
-Þar að auki er skráning sem er tengd við greiðslukortageirann (PCI) virk fyrir Dynamics 365 for Retail-gagnagrunninn.
+Þar að auki er skráning sem er tengd við greiðslu korts atvinnugrein (PCI) er virk fyrir Dynamics 365 for Retail gagnagrunninn.
 
 > [!NOTE]
 > Það er möguleiki á því að skilgreina verkröð Retail sérstaklega. Þessi valkostur gerir kleift að endurstilla skilgreiningu Retail verkraðara á sjálfgefnar stillingar.
@@ -70,4 +69,3 @@ Frumstilling stofnar eftirfarandi sjálfgefin skilgreiningargögn:
 - Smásölurásir
 - Afgreiðslukassar og tæki
 - Úrval
-

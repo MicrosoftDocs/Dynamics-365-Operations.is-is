@@ -1,13 +1,13 @@
 ---
-title: "Hafist handa með Talent"
-description: "Þetta umræðuefni veitir upplýsingar um hvernig aðlaga notendaviðmótið við óskir þínar, auk tengingar við hjálpargögnin sem eru í boði innan vörunnar og á docs.microsoft.com síðuna."
+title: Hafist handa með Talent
+description: Þetta umræðuefni veitir upplýsingar um hvernig aðlaga notendaviðmótið við óskir þínar, auk tengingar við hjálpargögnin sem eru í boði innan vörunnar og á docs.microsoft.com síðuna.
 author: rschloma
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: ddd7d9315b61cb3aa5e23f86666752ca8280acbf
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "304911"
 ---
 # <a name="get-started-with-talent"></a>Hafist handa með Talent
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 08/09/2018
 Í Microsoft Dynamics 365 for Talent er auðvelt að breyta notendaviðmótinu og stilla valkosti sem gera hugbúnaðinn næmari fyrir þörfum þínum. Þetta efnisatriði inniheldur tengla á efnisatriði sem veita upplýsingar um hvernig á að laga notendaviðmótið að óskir þínar. Þetta efnisatriði inniheldur einnig tengla á upplýsingar sem aðstoða þig við að finna upplýsingar í kerfinu á skilvirkan og nákvæman hátt. 
 
 > [!NOTE] 
-> Eftirtaldar vörur eru nátengdar: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þess vegna mun vöruheiti efnisatriða sem tengjast aðallega Retail verða Dynamics 365 for Retail, í efnisatriðum sem tengjast aðallega Talent verður vöruheitið Dynamics 365 for Talent og í efnisatriðum sem tengjast undirstöðuvörunni verður vöruheitið Dynamics 365 for Finance and Operations. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
+> Eftirfarandi vörur eru nátengdar: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þar af leiðandi verður vöruheiti í efnisatriðum sem helst tengjast Retail, Dynamics 365 for Retail; í efnisatriðum sem tengjast fyrst og fremst Talent verður vöruheitið Dynamics 365 for Talent; og í efnisatriðum sem tengjast undirstöðuvöru verður vöruheitið Dynamics 365 for Finance and Operations. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
 
 ## <a name="personalizing-talent"></a>Sérsníða Talent 
 Eftirfarandi efnisatriði sýna hvernig á að setja upp marga eiginleika í Dynamics 365 for Talent sem auðvelda þér að klára vinnuna tímanlega. 
@@ -58,12 +58,11 @@ Eftirfarandi efnisatriði útskýra hvernig á að nota uppflettingar, og leitar
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 ### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
-Á [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi.
+Á [Microsoft Dynamics 365-leiðarvísinum](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi.
 
 ### <a name="blogs"></a>Blogg
-Á [Microsoft Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent) er að finna skoðanir, fréttir og aðrar upplýsingar um Viðskiptaskuldir og aðrar hugbúnaðarlausnir. 
+Hægt er að finna skoðanir, fréttir og aðrar upplýsingar um viðskiptaskuldir og aðrar lausnir á [Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
 
-### <a name="videos"></a>Myndbönd
-Kynntu þér kennslumyndbönd sem eru aðgengileg á [YouuTube-rás Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+### <a name="videos"></a>Myndskeið
+Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 YouTube-rásinni ](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 

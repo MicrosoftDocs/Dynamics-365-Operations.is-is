@@ -1,13 +1,13 @@
 ---
-title: "Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar"
-description: "Þetta efnisatriði lýsir hvernig eigi að nota vinnusniðmát og staðsetningarleiðbeiningar til að ákvarða hvernig og hvar vinna verður framkvæmd í vöruhúsinu."
+title: Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar
+description: Þetta efnisatriði lýsir hvernig eigi að nota vinnusniðmát og staðsetningarleiðbeiningar til að ákvarða hvernig og hvar vinna verður framkvæmd í vöruhúsinu.
 author: perlynne
 manager: AnnBe
 ms.date: 09/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocDirFailure, WHSLocDirHint, WHSLocDirTable, WHSLocDirTableUOM, WHSRFMenuItem, WHSWork, WHSWorkClass, WHSWorkPool, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
 ms.openlocfilehash: 74e7c36fb912f35252d6e40d17477ac2962cbc23
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325412"
 ---
-
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar
 
 [!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði lýsir hvernig eigi að nota vinnusniðmát og staðsetningarleiðbeiningar til að ákvarða hvernig og hvar vinna verður framkvæmd í vöruhúsinu.
 
-Leiðbeiningar sem starfsmenn vöruhúss fá í farsíma ákvarðast af vinnusniðmátum sem eru sett upp í Microsoft Dynamics 365 for Finance and Operations til að skilgreina hin ýmsu vöruhúsaferli og verkefni. Vinnusniðmát ákvarða vinnuna fyrir hvert vöruhúsaferli. Með því að tengja staðsetningarleiðbeiningar við vinnusniðmát getur hjálpað að tryggja að vinna á sér stað á ákveðnum efnislegum svæðum vöruhúss.
+Leiðbeiningar sem starfsmenn vöruhúss fá í farsíma ákvarðast af sniðmát vinnu sem er sett upp í Microsoft Microsoft Dynamics 365 for Finance and Operations til að skilgreina hin ýmsu vöruhúsaferli og verkefni. Vinnusniðmát ákvarða vinnuna fyrir hvert vöruhúsaferli. Með því að tengja staðsetningarleiðbeiningar við vinnusniðmát getur hjálpað að tryggja að vinna á sér stað á ákveðnum efnislegum svæðum vöruhúss.
 
 ## <a name="work-templates"></a>Vinnusniðmát
 **Vinnusniðmát** síðu gerir það mögulegt að skilgreina vinnsluaðgerðir sem þarf að framkvæma í vöruhúsinu. Yfirleitt samanstanda vinnsluaðgerðir vöruhúss af aðgerðarpari: starfsmanns í vöruhúsi tekur til lagerbirgðir á einni staðsetningu og setur síðan tíndu birgðirnar niður á annarri staðsetningu. 
@@ -163,4 +162,3 @@ Veldu til að nota runuáætlanir fyrir vörurnar sem eru með runur virkar. Ef 
 Í þessu dæmi skal íhuga innkaupapöntunarferli þar sem staðsetningarleiðbeiningar verða að finna lausa afkastagetu í vöruhúsi fyrir birgðavara sem hafa einungis verið skráð í móttökusvæðinu. Fyrst þarftu að finna laust pláss innan vöruhússins með því að sameina við fyrirliggjandi lagerbirgðir. Ef sameining er ekki möguleg, þarftu að finna tóma staðsetningu. 
 
 Fyrir þessa atburðarás verður þú að skilgreina tvær aðgerðir staðsetningarleiðbeiningar. Fyrsta aðgerð í röðinni verður að nota í **Sameina** stjórnunarstefnu og annar ætti að nota í **Autt staðsetning með engu verki á innleið** stjórnunarstefnu. Nema þú skilgreinir þriðju aðgerð til að meðhöndla aðstæður yfirflæðis eru tvær niðurstöður mögulegar þegar engin afkastageta er í vöruhúsinu: hægt er að stofna vinnu jafnvel þótt engin staðsetningar eru skilgreindar eða ferli verkstofnunar getur mistekist. Niðurstaðan er ákvarðaður með uppsetningu á **staðsetningarleiðbeiningum** síðuna,  þar sem hægt er að ákveða hvort að velja **Stöðva vinnu á misheppnuðum staðsetningarleiðbeiningum** valkost fyrir hverja gerð vinnupöntunar.
-

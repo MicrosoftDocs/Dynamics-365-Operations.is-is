@@ -1,13 +1,13 @@
 ---
-title: "Samstarf lánardrottna með ytri lánardrottnum"
-description: "Þetta efnisatriði lýsir því hvernig innkaupastjórum geta unnið með ytri lánardrottinn til að skiptast á upplýsingar um innkaupapantanir og vörusendingabirgðir."
+title: Samstarf lánardrottna með ytri lánardrottnum
+description: Þetta efnisatriði lýsir því hvernig innkaupastjórum geta unnið með ytri lánardrottinn til að skiptast á upplýsingar um innkaupapantanir og vörusendingabirgðir.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 65624ce5e668a506ae23b302559d8d0bf4141a12
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
-ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350022"
 ---
-
 # <a name="vendor-collaboration-with-external-vendors"></a>Samstarf lánardrottna með ytri lánardrottnum
 
 [!include [banner](../includes/banner.md)]
@@ -94,19 +93,19 @@ Taflan hér að neðan sýnir dæmigerð upplýsingaskipti, eftir því hvernig 
 <tbody>
 <tr class="even">
 <td>Lánardrottinn <strong>samþykkir</strong> pöntunina, og Finance and Operations er stillt á að staðfesta sjálfvirkt Innkaupapöntun sem lánardrottinn staðfestir.</td>
-<td>Staða pöntunar er uppfærð í <strong>Staðfest</strong>. Ef ekki er hægt að uppfæra pöntunina af einhverjum ástæðum er svar lánardrottins enn skráð sem <strong>Samþykkt</strong> en staða innkaupapöntunarinnar er áfram <strong>Í ytri yfirferð</strong>. 
+<td>Staða pöntunar er uppfærð í <strong>Staðfest</strong>. Ef ekki er hægt að uppfæra pöntunina af einhverjum ástæðum er svar lánardrottins enn skráð sem <strong>Samþykkt</strong> en staða innkaupapöntunarinnar er áfram <strong>Í ytri yfirferð</strong>.&#39; 
 
 Innkaupabeiðnin sem var sendur til lánardrottins og sem hefur stöðu <strong>Í ytri yfirferð</strong> er uppfærð með staðfestum afhendingardögum á línunum. Þessi uppfærsla hrindir af stað nýja útgáfu sem er sjálfkrafa stillt á <strong>Staðfest</strong> staða. Þegar innkaupapöntun er staðfest, birtist það í samstarfsviðmóti lánardrottna.</td>
 </tr>
 <tr class="odd">
-<td>Lánardrottinn <strong>samþykkir</strong> pöntunina, en Finance and Operations er ekki grunnstillt til að staðfesta sjálfkrafa innkaupapöntun sem lánardrottinn samþykkir.</td>
+<td>Lánardrottinn <strong>samþykkir</strong> pöntunina, en Finance and Operations er ekki grunnstillt til að staðfesta sjálfkrafa innkaupapöntun sem lánardrottinn samþykkir.&#39;</td>
 <td>Svar lánardrottins er skráð sem <strong>samþykkt</strong> en innkaupapöntunin er áfram í stöðunni <strong>Í ytri yfirferð</strong>.
 
 Innkaupabeiðnin sem var sendur til lánardrottins og sem hefur stöðu <strong>Í ytri yfirferð</strong> er uppfærð með staðfestum afhendingardögum á línunum. Þessi uppfærsla hrindir af stað nýjan útgáfu sem er sjálfkrafa stillt á <strong>Í ytri yfirferð</strong> staða. Þú getur síðan samþykkt innkaupapöntunina handvirkt.</td>
 </tr>
 <tr class="even">
 <td>Lánardrottinn <strong>hafnar </strong> pöntun.</td>
-<td>Svar lánardrottins er skráð sem <strong>Hafnað</strong> og innkaupapöntunin er áfram í stöðunni <strong>Í ytri yfirferð</strong>. Höfnunin er móttekin með athugasemd lánardrottins.</td>
+<td>Svar lánardrottins er skráð sem <strong>Hafnað</strong> og innkaupapöntunin er áfram í stöðunni <strong>Í ytri yfirferð</strong>. Höfnunin er móttekin með athugasemd lánardrottna.&#39;</td>
 </tr>
 <tr class="odd">
 <td>Lánardrottinn <strong>samþykkir</strong> pöntunina <strong>með breytingum</strong>. Stungið er upp á breytingum á stigi línunnar. Lánardrottinn getur samþykkja eða hafna einstakar línur. Hér eru nokkrar aðrar breytingar sem lánardrottinn getur lagt til:
@@ -115,7 +114,7 @@ Innkaupabeiðnin sem var sendur til lánardrottins og sem hefur stöðu <strong>
 <li>Skipta línum fyrir mismunandi afhendingardagsetningar eða magn.</li>
 <li>Nota staðgengilsvöru.</li>
 </ul>
-Lánardrottinn getur ekki breytt upplýsingum um verð og gjöld. Hins vegar getur lánardrottinn lagt til þessar breytingar með því að nota athugasemdir.</td>
+Upplýsingar um verð og gjöld geta ekki verið breytt af lánardrottinn.&#39; Hins vegar getur lánardrottinn lagt til þessar breytingar með því að nota athugasemdir.</td>
 <td>Svar lánardrottins er skráð sem <strong>Samþykkt með breytingum</strong> og innkaupapöntunin er áfram í stöðunni <strong>Í ytri yfirferð</strong>. Stöðurnar sýnir hvaða tegundir breytinga lánardrottinn hefur lagt til. Nánari upplýsingar um sjálfvirka notkun breytinga er að finna í &quot;Uppfæra Innkaupapöntunina þegar lánardrottinn leggur til breytingar&quot; kafla seinna í þessu efnisatriði. </td>
 </tr>
 </tbody>
@@ -251,7 +250,7 @@ Notandinn sem setur upp færibreytur fyrir tilboðsbeiðniferlið getur búið t
 - %RFQCase%
 - %RFQCaseName%
 - %bidType%
-- %inviteOnly%
+- nviteOnly%%i
 - %expiryDateTime%
 - %requester%
 - %requestingDepartment%
@@ -260,4 +259,3 @@ Notandinn sem setur upp færibreytur fyrir tilboðsbeiðniferlið getur búið t
 - %createddate%
 
 Ef lagfæringar er krafist og er send eftir að tilboðsbeiðni er send, þá mun tilboðsbeiðnin verða endursend til allra boðinna lánardrottna. Útgefið skjalið verður líka uppfært á síðunni **Opna útgefnar tilboðsbeiðnir**.
-

@@ -1,13 +1,13 @@
 ---
-title: "Búa til skýrslur með því að bæta við efni sem hráu XML"
-description: "Hægt er að hanna snið rafrænnar skýrslugerðar sem býr til skjöl á útleið í XML-sniði."
+title: Búa til skýrslur með því að bæta við efni sem hráu XML
+description: Hægt er að hanna snið rafrænnar skýrslugerðar sem býr til skjöl á útleið í XML-sniði.
 author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 39503d051e3b4686bbaa0130fe5be7cb980fbcb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 56a5f53e1d3da8aa57e98e7d34fbc9c4005b6df8
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312187"
 ---
-
 # <a name="generate-reports-by-adding-content-as-raw-xml"></a>Búa til skýrslur með því að bæta við efni sem hráu XML
 
 [!include[banner](../includes/banner.md)]
@@ -39,4 +38,3 @@ Hægt er að nota nýju sniðseininguna **HRÁTT XML** til að hanna snið rafr�
 > Hafa skal í huga að ramminn stjórnar því ekki hvort XML-efnið sem er sett á myndaða skjalið með því að nota sniðið **HRÁTT XML** sé rétt.
 
 Til að læra meira um þennan eiginleika skal spila verkefnaleiðbeiningarnar **Nota hrá XML-gögn rafrænnar skýrslugerðar til að búa til XML-skýrslur (hluti 1: Hanna gagnalíkan)** og **Rafræn skýrslugerð notar hrá XML-gögn til að búa til XML-skýrslur (hluti 2: Hanna og keyra skýrslu)** sem eru hluti af viðskiptaferlinu **7.5.4.3 Acquire/Develop IT þjónustu-/lausnaþáttum (10677)** og sem hægt er að hlaða niður frá [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=874684). Þessar verkefnaleiðbeiningar fylgja þér í gegnum ferlið við að grunnstilla snið rafrænnar skýrslugerðar til að setja hrá XML-gögn inn í myndaðar skrár.
-

@@ -1,13 +1,13 @@
---- 
-title: "Búa til formúlu með því að afrita úr fyrirliggjandi formúlu"
-description: "Þessi verklýsing sýnir hvernig á að stofna nýja formúlu fljótlegan hátt með því að afrita úr fyrirliggjandi formúlu."
+---
+title: Búa til formúlu með því að afrita úr fyrirliggjandi formúlu
+description: Þessi verklýsing sýnir hvernig á að stofna nýja formúlu fljótlegan hátt með því að afrita úr fyrirliggjandi formúlu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMTable, BOMRouteCopyDialog, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c831f3ac78e5ee7b348c72b9e7ebc699a62ec013
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d34ca5befd04b0f82bf9564fd3976f4c2daab0ce
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328931"
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a>Búa til formúlu með því að afrita úr fyrirliggjandi formúlu
 
@@ -56,5 +56,4 @@ ms.lasthandoff: 09/29/2017
 2. Sláið inn eða veldu gildi í reitnum samþykki eftir.
 3. Smellið á „Í lagi“.
 4. Lokið síðunni.
-
 

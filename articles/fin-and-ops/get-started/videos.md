@@ -1,39 +1,38 @@
 ---
-title: "Myndskeið fyrir Finance and Operations"
-description: "Þessi síða sýnir „hvernig á að“ og tæknitalsmyndbönd sem Microsoft hefur búið til sem tengjast Dynamics 365 for Finance and Operations sem eru aðgengileg á YouTube og öðrum vefsíðum."
+title: Myndskeið fyrir Finance and Operations
+description: Þessi síða sýnir „hvernig á að“ og tæknitalsmyndbönd sem Microsoft hefur búið til sem tengjast Dynamics 365 for Finance and Operations sem eru aðgengileg á YouTube og öðrum vefsíðum.
 author: josaw1
 manager: AnnBe
 ms.date: 05/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
+ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d22fe0c9a38026350c839d1d7d35835bfc77d995
-ms.openlocfilehash: 7f1fb4d2094076de62873148212c76ae6812d6a2
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317822"
 ---
-
 # <a name="videos-for-finance-and-operations"></a>Myndskeið fyrir Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
 Þessi síða sýnir „hvernig á að“ og tæknitalsmyndbönd sem Microsoft hefur búið til sem tengjast Dynamics 365 for Finance and Operations sem eru aðgengileg á YouTube og öðrum vefsíðum.
 
-## <a name="dynamics-365-youtube-channel"></a>YouTube rás Dynamics 365
+## <a name="dynamics-365-youtube-channel"></a>Dynamics 365 YouTube rás
 
-Á [YouTube rás Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) geturðu fundið myndskeið búin til af Microsoft sem sýna fjölbreytt úrval af viðskiptalausnum fyrir Dynamics 365-vörur. Í þessum kafla er að finna myndskeið fyrir „hvernig á að“ fyrir Dynamics 365 Finance and Operations sem hýst eru á rásinni.
+Á [Microsoft Dynamics 365 YouTube rás](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) geturðu fundið myndskeið búin til af Microsoft sem sýna fjölbreytt úrval af viðskiptalausnum fyrir Dynamics 365-vörur. Í þessum kafla er að finna myndskeið fyrir „hvernig á að“ Dynamics 365 for Finance and Operations sem hýst eru á rásinni.
 
 Myndböndum er raðað eftir eiginleikum, svo flettu niður til að sjá alla listann yfir efnið.
 
@@ -46,7 +45,7 @@ Myndböndum er raðað eftir eiginleikum, svo flettu niður til að sjá alla li
 
 - [Nota gagnaeiningar og gagnapakka í Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
 
-#### <a name="development"></a>Þróun
+#### <a name="development"></a>Þróunarvalmynd
 
 - [Fínstillingarráðgjöf](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Uppsetning þróunargreinar og smíði](https://www.youtube.com/watch?v=qXLd-NMx9OY)
@@ -67,7 +66,7 @@ Myndböndum er raðað eftir eiginleikum, svo flettu niður til að sjá alla li
 
 #### <a name="intelligence"></a>Greind
 
-- [Koma með eigin gagnagrunn (BYOD) í Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Koma með eigin gagnagrunn í Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Hvernig á að nota kostnaðarstjórnun Power BI efni í Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 #### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
@@ -83,9 +82,9 @@ Myndböndum er raðað eftir eiginleikum, svo flettu niður til að sjá alla li
 - [Stjórna kóðauppfærslu og verkfæraferli í Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=M-AtR6ocYM8&feature=youtu.be)
 - [Stjórnar viðskiptaferlasöfnum í Lifecycle Services](https://www.youtube.com/watch?v=S5msxj-2-x0)
 - [Aðferðarfræði í Lifecycle Services](https://www.youtube.com/watch?v=YRMJ15DvgZ8)
-- [Óska eftir vinnsluumhverfi Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
+- [Biðja um Dynamics 365 for Finance and Operations vinnsluumhverfi](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
 - [Endurhleður gögn í vinnsluumhverfi](https://www.youtube.com/watch?v=VCd5SgkYPTw)
-- [Upptaka nýrrar Dynamics 365 for Finance and Operations verkvangsútgáfu eftir verkvangsuppfærslu 3](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
+- [Taka upp nýja Dynamics 365 for Finance and Operations verkvangsútgáfu eftir verkvangsuppfærslu 3](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
 - [Nota fjarmælingar til að fylgjast með helstu afkastateljurum í Dynamics Lifecycle Services](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
 
 #### <a name="office-integration"></a>Office-samþætting
@@ -96,7 +95,7 @@ Myndböndum er raðað eftir eiginleikum, svo flettu niður til að sjá alla li
 
 - [Skjalastjórnun](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
 
-#### <a name="procurement-and-sourcing"></a>Innkaup og uppruni
+#### <a name="procurement-and-sourcing"></a>Innkaup og aðföng
 
 - [Samþykkja innkaupapantanir í fartæki](https://youtu.be/gZ-gOlJe7H8)
 - [Nýliðun nýrra lánardrottna](https://www.youtube.com/watch?v=0KUc3AGaTKk&feature=youtu.be)
@@ -134,7 +133,7 @@ Myndböndum er raðað eftir eiginleikum, svo flettu niður til að sjá alla li
 
 - [Uppsetning á staðnum (DYN382PAL2)](https://infopedia.eventbuilder.com/event?eventid=m9i7a2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
-#### <a name="develop-and-customize"></a>Þróa og sérsníða
+#### <a name="develop-and-customize"></a>Þróa og sérstilla
 
 - [Samþættingarverkfæri Azure fyrir Dynamics 365 for Finance and Operations (DYN386PAL)](https://infopedia.eventbuilder.com/event?eventid=l7f2i9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Stækkunarhæfni (DYN384PAL2)](https://infopedia.eventbuilder.com/event?eventid=e0x4q5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
@@ -172,9 +171,9 @@ Myndböndum er raðað eftir eiginleikum, svo flettu niður til að sjá alla li
 
 #### <a name="retail"></a>Retail
 
-- [Stækkunarhæfni Dynamics 365 for Retail POS: Deep Dive (DYN342PAL)](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Skipulag smásölu og einingarkvarði smásöluverslunar (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Hvað er nýtt í stækkunarhæfni Dynamics 365 for Retail POS (DYN339PAL2)](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Dynamics 365 for Retail POS stækkunarhæfni: Deep Dive (DYN342PAL)](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Högun smásölu og Retail Store Scale Unit (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Hvað er nýtt í Dynamics 365 for Retail stækkunarhæfni POS (DYN339PAL2)](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="support"></a>Stuðningur
 
@@ -182,9 +181,9 @@ Myndböndum er raðað eftir eiginleikum, svo flettu niður til að sjá alla li
 
 #### <a name="upgrade-and-migration"></a>Uppfærsla og flutningur
 
-- [Flutningsverkfæri AX 2009 til Dynamics 365 for Operations (VIR809PAL)](https://infopedia.eventbuilder.com/event?eventid=c3g5k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [AX 2009 í Dynamics 365 for Operations flutningsverkfæri (VIR809PAL)](https://infopedia.eventbuilder.com/event?eventid=c3g5k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [AX 2009 flutningsverkfæri (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Uppfærsla AX 2012 til Dynamics 365 for Operations (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [AX 2012 til Dynamics 365 for Operations uppfærslu (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Hvernig á að uppfæra í 7.2 (júlí 2017) frá 7.0 (RTW)/7.1 (útgáfa 1611) (DYN338PAL2)](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Azure DevOps uppsetning (VIR782PAL)](https://infopedia.eventbuilder.com/event?eventid=g9f8g1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
@@ -196,4 +195,3 @@ Myndböndum er raðað eftir eiginleikum, svo flettu niður til að sjá alla li
 - [Tiltektarferli á einum hlut í einu (DYN330PAL2)](https://infopedia.eventbuilder.com/event?eventid=u6e0z6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Sjónræn tímasetning fyrir framleiðslupantanir og kanban (DYN328PAL)](https://infopedia.eventbuilder.com/event?eventid=h0o0n0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Samþætting vöruhúss við framleiðslu (DYN344PAL)](https://infopedia.eventbuilder.com/event?eventid=y8p6o1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) - [Farsímaforrit vöruhúss (VIR816PAL)](https://infopedia.eventbuilder.com/event?eventid=t8t7l8&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-

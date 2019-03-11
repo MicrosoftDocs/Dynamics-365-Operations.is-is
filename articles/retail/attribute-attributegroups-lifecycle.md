@@ -1,37 +1,36 @@
 ---
 title: Eigindir og eigindaflokkar
-description: "Þetta efnistriði lýsir því hvernig á að nota eigindir til að veita möguleika á að lýsa vöru og eiginleikum hennar í gegnum notandaskilgreinda reiti."
+description: Þetta efnistriði lýsir því hvernig á að nota eigindir til að veita möguleika á að lýsa vöru og eiginleikum hennar í gegnum notandaskilgreinda reiti.
 author: ashishmsft
 manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326240"
 ---
-
 # <a name="attributes-and-attribute-groups"></a>Eigindir og eigindaflokkar
 
 [!include [banner](includes/banner.md)]
 
-*Eigindir* veita leið til að lýsa afurð og eiginleikum hennar enn frekar í gegnum notandaskilgreind svæði (eins og **Minnisstærð**, **Afkastagetu harða disksins**, **Uppfyllir kröfur Energy star** og svo framvegis). Í Microsoft Dynamics 365 for Finance and Operations geta eigindi tengst ýmsum Retail eigindum, svo sem afurðaflokkum og smásölurásum og hægt er að stilla sjálfgildi fyrir þær. Afurðir erfa síðan eigindin og sjálfgildin þegar þau tengjast afurðarflokkum eða smásölurásum. Hægt er að hnekkja sjálfgildunum á stigi einstakra afurðar, stigi smásölurásar eða í vörulista smásölu.
+*Eigindir* veita leið til að lýsa afurð og eiginleikum hennar enn frekar í gegnum notandaskilgreind svæði (eins og **Minnisstærð**, **Afkastagetu harða disksins**, **Uppfyllir kröfur Energy star** og svo framvegis). Í Microsoft Dynamics 365 for Finance and Operations er hægt að tengja eigindir við mismunandi smásölueiningar, eins og afurðaflokka og smásölurása, og hægt er að setja sjálfgefin gildi fyrir þær. Afurðir erfa síðan eigindin og sjálfgildin þegar þau tengjast afurðarflokkum eða smásölurásum. Hægt er að hnekkja sjálfgildunum á stigi einstakra afurðar, stigi smásölurásar eða í vörulista smásölu.
 
 Til dæmis gæti dæmigerð sjónvarpsafurð haft eftirfarandi eiginleika.
 
@@ -257,4 +256,3 @@ Sjálfgildi eiginda er hægt er að hnekkja á afurðastigi fyrir einstakar afur
 
     > [!NOTE]
     > Ef samnýttir afurðamiðlar og samnýttar afurðareigindir eru stofnaðar í Finance and Operations eiga þær við um allar smásöluafurðir.
-

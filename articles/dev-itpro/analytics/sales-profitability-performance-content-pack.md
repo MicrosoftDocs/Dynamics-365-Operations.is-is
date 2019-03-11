@@ -1,13 +1,13 @@
 ---
-title: "Power BI-efni fyrir söluframmistöðu og arðsemi"
-description: "Þetta efnisatriði lýsir því hvað er innifalið í Microsoft Power BI-efni Sala og arðsemi. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið."
+title: Sölu- og arðsemisframmistaða Power BI efni
+description: Þetta efnisatriði lýsir því sem er innifalið í Sölu- og arðsemisframmistaða Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesProfitabilityPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,23 +18,22 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: cf4d3e12d33b67158ff4f96580b4ac2eb903bb93
-ms.contentlocale: is-is
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360418"
 ---
-
-# <a name="sales-and-profitability-performance-power-bi-content"></a>Power BI-efni fyrir söluframmistöðu og arðsemi
+# <a name="sales-and-profitability-performance-power-bi-content"></a>Sölu- og arðsemisframmistaða Power BI efni
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvað er innifalið í Microsoft Power BI-efni **Sala og arðsemi**. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
+Þetta efnisatriði lýsir því hvað er innifalið í **Sölu- og arðsemisframmistöðu** Microsoft Power BI efnis. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
 
 ## <a name="overview"></a>Yfirlit
 
-Í **Sölu- og afköst arðsemi** Power BI innihald stofnunar svo að stjórnendur sölu hægt að fylgjast með aðalþætti sölu mælikvörðum tekjur, brúttóhagnað og hagnaður framlegð. Hann notar færslugögn sölu og veitir bæði samanlagt yfirlit yfir sölutölur fyrirtækisins og sundurliðun söluafkomu fyrir viðskiptavini og afurðir.
+**Sölu- og arðsemisframmistaða** Power BI efnið var stofnað fyrir sölustjórnendur til að fylgjast með lykilmælikvörðum sölu yfir tekjur, brúttóhagnaði og hagnaðarhlutföllum. Hann notar færslugögn sölu og veitir bæði samanlagt yfirlit yfir sölutölur fyrirtækisins og sundurliðun söluafkomu fyrir viðskiptavini og afurðir.
 
 Skýrslur merkið breytingar á tekjur og hagnað vöxtur tímanum. Þannig má nota skýrslurnar til að gera stjórnendum viðvart um jákvæða og neikvæða þróun fyrir einstaka viðskiptamenn og afurðir. Þar að auki gröf bera saman tekjur og arðsemi framleiðslulíkans mismunandi tegundir og þá viðskiptavinaflokka hvor við aðra. Þar af leiðandi tegund og svæðisbundnum stjórnendur geta auðkenna laggards og leaders. Að lokum setur ítarleg skýrsla upp tekjur viðskiptavinar á móti hagnaðarhlutfalli. Þess vegna hafa yfirmenn reikninga gagnaafritaðan grunn sem þeir geta notað til að fínstilla sölu- og markaðsstarf sitt fyrir hvern viðskiptavin fyrir sig.
 
@@ -49,11 +48,11 @@ Hægt er að greina arðsemi á eftirfarandi hátt:
 - Breyting á brúttóframlegð, ár frá ári
 - Arðsemi viðskiptavinar (eftir tekjum á móti brúttóframlegð)
 
-## <a name="accessing-the-power-bi-content"></a>Farið í Power BI-efni
-**Sölu- og arðsemisframmistaða** Power BI efni er sýnt á **Sölu- og arðsemisframmistaða** síðunni (**Sölu- og markaðsstarf** \> **Fyrirspurnir og skýrslur** \> **Söluárangur** \> **Sölu- og arðsemisframmistaða**).
+## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
+**Sölu- og arðsemisframmistaða** Power BI-efni er sýnt á **Sölu- og arðsemisframmistaða** síðunni (**Sölu- og markaðsstarf** \> **Fyrirspurnir og skýrslur** \> **Söluárangur** \> **Sölu- og arðsemisframmistaða**).
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI-efni
-Í **Sölu- og afköst arðsemi** skýrsla sem samanstendur af safni mælikvörðum Power BI teknar með. Þessir mælikvarðar eru birtir sem myndrit, reitir og töflur. Í eftirfarandi töflu er yfirlit yfir myndbirtingar í efninu.
+## <a name="metricsthat-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI efni
+**Sölu- og arðsemisframmistaða** Power BI efnið inniheldur skýrslu sem samanstendur af safni mælikvarða. Þessir mælikvarðar eru birtir sem myndrit, reitir og töflur. Í eftirfarandi töflu er yfirlit yfir myndbirtingar í efninu.
 
 | Skýrslusíða            | Gröf                                     | Reitir                                                   |
 |------------------------|--------------------------------------------|---------------------------------------------------------|
@@ -78,9 +77,9 @@ Hægt er að greina arðsemi á eftirfarandi hátt:
 \* Tekjur þessa árs og síðasta árs og vöxtur eftir söluflokki.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
-Eftirfarandi gögn eru notaðar til að fylla út í skýrslunni í í **Sölu- og afköst arðsemi** Power BI efni. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Entity-verslunin er Microsoft SQL-gagnagrunnur sem er fínstilltur fyrir greiningu. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](power-bi-integration-entity-store.md)
+Eftirfarandi gögn eru notuð til að fylla út skýrsluna í **Sölu- og arðsemisframmistaða** Power BI efnið. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Einingaverslunin er Microsoft SQL Server gagnagrunnur sem er fínstillt fyrir greiningar. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](power-bi-integration-entity-store.md)
 
-Uppsafnaðar mælingar í þessum efnispakka eru undirflokkur uppsafnaðra mælinga sem voru tiltækar í söluteningi í Microsoft Dynamics AX 2012 og Microsoft Dynamics AX 2012 R3. Til að stilla uppsafnaðar mælingar tenings í einingaverslun verður að gera þær virkjanlegir. Sjá frekari upplýsingar um ferli fyrir sviðsetningu uppsafnaðra mælinga í verslun Einingar í bloggfærslunni [Power BI samþættingu við einingaverslun í Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) fyrir nánari upplýsingar.
+Uppsafnaðar mælingar í þessum efnispakka eru undirflokkur uppsafnaðra mælinga sem voru tiltækar í söluteningi í Microsoft Dynamics AX 2012 og Microsoft Dynamics AX 2012 R3. Til að stilla uppsafnaðar mælingar tenings í einingaverslun verður að gera þær virkjanlegir. Sjá frekari upplýsingar um ferli fyrir sviðsetningu uppsafnaðra mælinga í verslun Einingar í bloggfærslunni [Power BI-samþætting við einingaverslun í Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/) fyrir nánari upplýsingar.
 
 Eftirfarandi lykiluppsafnaðar mælingar á reikningslínueiningunni eru notaðar sem grunnur að efninu.
 
@@ -109,4 +108,3 @@ Eftirfarandi lykilvíddir í söluteningnum eru notaðar sem síur til að snei�
 | Dagsetningar            | Dagsetningar                                                |
 
 Sjálfgefið er að efnispakkinn sýni gögn fyrir núgildandi almanaksár. Hins vegar er hægt að breyta dagsetningasíunni í síuhluta skýrslu. Einnig er hægt að breyta síu fyrirtækisins.
-

@@ -1,13 +1,13 @@
---- 
-title: "Stofna endurtekna innkaupapöntun"
-description: "Þessi verklýsing sýnir hvernig á að stofna endurtaka innkaupapöntunina (PO) með því að afrita línur úr eldri innkaupapöntunarskjalinu í nýja Innkaupapöntun eða fyrirliggjandi Innkaupapantana."
+---
+title: Stofna endurtekna innkaupapöntun
+description: Þessi verklýsing sýnir hvernig á að stofna endurtaka innkaupapöntunina (PO) með því að afrita línur úr eldri innkaupapöntunarskjalinu í nýja Innkaupapöntun eða fyrirliggjandi Innkaupapantana.
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchCopying
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 74dcee8a614363cf1f1ebc71e3e39a14c59bb774
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 257582d889ff55753f9bdbd234f0540503d20f27
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345882"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Stofna endurtekna innkaupapöntun
 
@@ -84,5 +84,4 @@ ms.lasthandoff: 09/29/2017
     * Athugið að einni pöntunarlínu sem er í þetta Innkaupapöntun er einnig valinn.  
 7. Smellið á „Í lagi“.
     * Viðbótar pöntunarlínan hefur verið bætt við innkaupapöntun.  
-
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Breyta kanban-reglum fyrir vinnsluverk
-description: "Þetta ferli áherslu á að breyta kanban-reglu fyrir ákveðið kanban."
+description: Þetta ferli áherslu á að breyta kanban-reglu fyrir ákveðið kanban.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate, KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, KanbanReassignRuleLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 38d9ff0a7d6aeb0a589fd6b9ab34b818c46644cc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7f8b2a67e03a64deae9d4bc9c7e3e714d134443c
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314947"
 ---
 # <a name="change-kanban-rules-for-a-process-job"></a>Breyta kanban-reglum fyrir vinnsluverk
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/29/2017
     * Velja kanban-reglu sem áður var stofnuð. Þetta er kanban-regla með hæsta númer.  
 7. Smellt er á Ljúka.
     * Nú er kanban-vinnslu með annarri kanban-reglu. Þetta getur verið jafna út hleðslu vinnuflokkana .  
-
 

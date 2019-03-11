@@ -1,13 +1,13 @@
 ---
-title: "Verkflæði kostnaðar"
-description: "Í þessu efnisatriði er útskýrt hvernig hægt er að nota verkflæðiskerfi í Microsoft Dynamics 365 for Finance and Operations til að setja upp endurskoðunarferli fyrir kostnaðarskýrslur í Kostnaðarstýringu."
+title: Verkflæði kostnaðar
+description: Í þessu efnisatriði er útskýrt hvernig hægt er að nota verkflæðiskerfi í Microsoft Dynamics 365 for Finance and Operations til að setja upp endurskoðunarferli fyrir kostnaðarskýrslur í Kostnaðarstýringu.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 037a6ae00b7d559f79860901f0cb2ad6ddddd7aa
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6ee607f723659a5b6ecd655ba4fdfca35a4c582d
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310117"
 ---
-
 # <a name="expense-workflow"></a>Verkflæði kostnaðar
 
 [!include [banner](../includes/banner.md)]
@@ -58,4 +57,3 @@ Eftirfarandi ferli er dæmi um verkflæðisferli kostnaðarstýringar fyrir kost
 Þegar þessar kröfur eru uppfylltar er kostnaðarskýrslan bókuð.
 
 Eftir að kostnaðarskýrslan er bókuð er greiðsla heimiluð fyrir kostnaðarskýrsluna og starfsmaðurinn fær endurgreiðslu.
-

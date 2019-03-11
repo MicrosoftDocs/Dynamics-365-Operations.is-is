@@ -1,28 +1,27 @@
 ---
-title: "Vinnusvæði gátlista gagnaprófunar"
-description: "Vinnusvæði gátlista gagnavilluleitar gerir kleift að rekja villuleitarferli gagna milli fyrirtækja, svæða og einstaklinga. Hægt er að nota gátlistann við nýja innleiðingu eftir uppfærslu eða eftir yfirfærslu."
+title: Vinnusvæði gátlista gagnaprófunar
+description: Vinnusvæði gátlista gagnavilluleitar gerir kleift að rekja villuleitarferli gagna milli fyrirtækja, svæða og einstaklinga. Hægt er að nota gátlistann við nýja innleiðingu eftir uppfærslu eða eftir yfirfærslu.
 author: bking
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DataValidationWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: dd758ac5698d84532c0b724485cc6f0da83bc8e0
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364190"
 ---
-
 # <a name="data-validation-checklist-workspace"></a>Vinnusvæði gátlista gagnaprófunar
 
 [!include [banner](../includes/banner.md)]
@@ -59,4 +58,3 @@ Valkosturinn **Svarað** er sjálfkrafa fylltur út þegar verkinu er lokið me�
 Verksvæði eruð notuð til að flokka gagnaprófunarverk í röklegt svæði eignarhalds innan fyrirtækisins. Til dæmis gætu Viðskiptaskuldir, Viðskiptakröfur eða Fjárhagur verið notuð sem verksvæði.
 
 **Heiti valmyndaratriðis** er tengt við verkframlag vinnu og hægt er að nota það til að fara beint á tengda síðu af verktengli í vinnusvæðinu. T.d. er hægt að tengja gagnaprófunarverk sem á að keyra skýrslur **Aldursgreiningarramma Viðskiptaskulda** við síðuna **Aldursgreiningarskýrsla Viðskiptaskulda**.
-

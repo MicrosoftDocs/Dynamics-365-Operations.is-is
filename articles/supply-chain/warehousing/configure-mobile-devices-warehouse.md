@@ -1,13 +1,13 @@
 ---
-title: "Uppsetning fartækja fyrir vöruhúsavinnu"
-description: "Þetta efnisatriði lýsir því hvernig á að skilgreina valmyndaratriði sem starfsmenn í vöruhúsi nota til að framkvæma vinnu í fartæki."
+title: Uppsetning fartækja fyrir vöruhúsavinnu
+description: Þetta efnisatriði lýsir því hvernig á að skilgreina valmyndaratriði sem starfsmenn í vöruhúsi nota til að framkvæma vinnu í fartæki.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 74522c97716238b62af3d65a1c23ba9e5e60a68b
 ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
-ms.contentlocale: is-is
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347952"
 ---
-
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Uppsetning fartækja fyrir vöruhúsavinnu
 
 [!include [banner](../includes/banner.md)]
@@ -174,7 +173,7 @@ Ef reiturinn **Máti** fyrir valmyndaratriði er stilltur á **Óbeint** er hæg
 </tr>
 <tr>
 <td>Hleðsla númeraplötu</td>
-<td>Notið þennan valkost þegar vöruhúsið er sett upp í fyrsta sinn. Skanna allra númeraplötur í öllum staðsetningum í vöruhúsi. Staðsetningar verða að vera númeraplötustýrðar. Ekki er hægt að nota þennan valkost ef <strong>Raðnúmer</strong> eða <strong>Rununúmer</strong> er talið fyrir ofan <strong>Staðsetningu</strong> í frátekningarstigveldi birgða.</td>
+<td>Notið þennan valkost þegar vöruhúsið er sett upp í fyrsta skinn.&#39; Skanna allra númeraplötur í öllum staðsetningum í vöruhúsi. Staðsetningar verða að vera númeraplötustýrðar. Ekki er hægt að nota þennan valkost ef <strong>Raðnúmer</strong> eða <strong>Rununúmer</strong> er talið fyrir ofan <strong>Staðsetningu</strong> í frátekningarstigveldi birgða.&#39;</td>
 </tr>
 <tr>
 <td>Regluleg talning</td>
@@ -208,8 +207,8 @@ Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hæg
 </thead>
 <tbody>
 <tr class="odd">
-<td>None</td>
-<td>Þetta sjálfgildi vinnur ekki úr vinnu.</td>
+<td>Enginn</td>
+<td>Þetta sjálfgildi vinnur ekki úr vinnu.&#39;</td>
 </tr>
 <tr class="even">
 <td>Stýrt af kerfi</td>
@@ -225,7 +224,7 @@ Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hæg
 </tr>
 <tr class="odd">
 <td>Kerfisflokkun</td>
-<td>Hópar í Microsoft Dynamics 365 for Finance and Operations vinna fyrir starfsmann á grundvelli ákveðins reits. Til dæmis tiltekt vinnu eru flokkaðar þegar starfsmaður skannar Auðkenni sendingar, Hleðsluauðkenni eða gildi sem hægt er að tengja hverrar vinnueiningar. Ef þessi valkostur er valinn, er krafa um eftirfarandi svæði:
+<td>Microsoft Dynamics 365 for Finance and Operations hópar vinna fyrir starfsmann á grundvelli ákveðins reits. Til dæmis tiltekt vinnu eru flokkaðar þegar starfsmaður skannar Auðkenni sendingar, Hleðsluauðkenni eða gildi sem hægt er að tengja hverrar vinnueiningar. Ef þessi valkostur er valinn, er krafa um eftirfarandi svæði:
 <ul>
 <li><strong>Kerfisflokkunarsvæði</strong> - Veldu reit sem starfsmaður mun skima til að flokka verkið.</li>
 <li><strong>Kerfisflokkunarmerki</strong> - Sláðu inn texta til að leiðbeina starfsmanni um hvað ég á að skanna til að flokka verkið.</li>
@@ -238,7 +237,7 @@ Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hæg
 <li><strong>Reit stýrt af staðfestum notanda</strong> - Veldu reit sem starfsmaður mun skima til að flokka verkið.</li>
 <li><strong>Merkimiða stýrt af staðfestum notanda</strong> - Sláðu inn textann sem leiðbeinir starfsmanni um hvað á að skima þegar tínsluverk er flokkað af kerfinu.</li>
 </ul>
-Þessi valkostur er til dæmis gagnlegur þegar mörg bretti eru sett upp fyrir hleðslu. Ef reiturinn <strong>LoadId</strong> í <strong>Stýrt af staðfestum notanda</strong> er valinn getur starfsmaðurinn tekið öll bretti sem eru tengd við hleðslu. Starfskrafturinn fær villuboð ef hann skannar vöru sem er ekki tengd við hleðslu.</td>
+Þessi valkostur er til dæmis gagnlegur þegar mörg bretti eru sett upp fyrir hleðslu. Ef reiturinn <strong>LoadId</strong> í <strong>Stýrt af staðfestum notanda</strong> er valinn getur starfsmaðurinn tekið öll bretti sem eru tengd við hleðslu. Starfskrafturinn fær villuboð ef hann skannar vöru sem er ekki tengd við hleðslu.&#39;</td>
 </tr>
 <tr class="odd">
 <td>Klasatiltekt</td>
@@ -246,7 +245,7 @@ Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hæg
 </tr>
 <tr class="even">
 <td>Flokkun reglulegrar talningar</td>
-<td>Starfsmaðurinn velur svæði, vinnuhóp eða staðsetningu, og Microsoft Dynamics 365 for Finance and Operations úthlutar vinnu sem byggir á vali. Ef þessi valkostur er valinn, er einnig hægt að smella á <strong>Regluleg talning</strong> til að tilgreina viðbótarupplýsingar til að birta og tilgreina hversu oft starfsmaðurinn verður að endurtaka talninguna ef mismunur fannst.</td>
+<td>Starfsmaðurinn velur svæði, vinnuhópi eða staðsetningu, og Microsoft Dynamics 365 for Finance and Operations úthlutar vinnu sem byggir á vali. Ef þessi valkostur er valinn, er einnig hægt að smella á <strong>Regluleg talning</strong> til að tilgreina viðbótarupplýsingar til að birta og tilgreina hversu oft starfsmaðurinn verður að endurtaka talninguna ef mismunur fannst.</td>
 </tr>
  <tr class="odd">
 <td>Farmflutningur</td>
@@ -282,7 +281,7 @@ Eftirfarandi tafla lýsir þessum valkostum.
 </tr>
 <tr class="odd">
 <td>Akkeri með</td>
-<td>Ef festing er notuð verður að tilgreina hvort eigi að festa eftir sendingu eða farmi.</td>
+<td>Ef festing er notuð verður að tilgreina hvort eigi að festa eftir sendingu eða farmi.&#39;</td>
 </tr>
 <tr class="even">
 <td>Auðkenni endurskoðunarsniðmátsins</td>
@@ -306,11 +305,11 @@ Eftirfarandi tafla lýsir þessum valkostum.
 </tr>
 <tr class="odd">
 <td>Gera þröskuld fyrir reglulega talningu óvirkan</td>
-<td>Veljið þennan valkost til að hunsa þröskulda fyrir reglulega talningu. Ef þessi valkostur er valinn stofnast ekki vinna reglulegrar talningar þegar farið er yfir þröskuldsgildi.</td>
+<td>Veljið þennan valkost til að hunsa þröskulda fyrir reglulega talningu. Ef þessi valkostur er valinn stofnast vinna reglulegrar talningar ekki þegar farið er yfir þröskuldargildi.&#39;</td>
 </tr>
 <tr class="even">
 <td>Birta ráðstöfunarkóða runu</td>
-<td>Veljið þennan valkost til að birta ráðstöfunarkóða runu. Til dæmis er hægt að birta ráðstöfunarkóða runu við móttöku skilaðrar runu. Síðan geta starfsmenn metið stöðu eða gæði runu og valið viðeigandi kóða. Reglur um ráðstöfunarkóða runu ákvarða hvort runuvinnslan verður tiltæk í öðru ferli vöruhúsa. Ef þessi valkostur er ekki valinn er einn af eftirfarandi ráðstöfunarkóðum notaður:
+<td>Veljið þennan valkost til að birta ráðstöfunarkóða runu. Til dæmis er hægt að birta ráðstöfunarkóða runu við móttöku skilaðrar runu. Síðan geta starfsmenn metið stöðu eða gæði runu og valið viðeigandi kóða. Reglur um ráðstöfunarkóða runu ákvarða hvort runuvinnslan verður tiltæk í öðru ferli vöruhúsa. Ef þessi valkostur er ekki valinn er einn eftirfarandi ráðstöfunarkóða runu notaður:&#39;
 <ul>
 <li>Ef nýtt rununúmer er móttekið er sjálfgefinn ráðstöfunarkóði runu sem er tilgreint í vörulíkanaflokk</li>
 <li>Ráðstöfunarkóði runu sem er þegar úthlutaður á rununa</li>
@@ -334,7 +333,7 @@ Eftirfarandi tafla lýsir þessum valkostum.
 </tr>
 <tr class="odd">
 <td>Frágangur hóps</td>
-<td>Veljið þennan valkost til að flokka frágangsvinnu. Þessi kostur er tiltækur þegar vinnan var flokkuð af starfsmanni eða af Microsoft Dynamics 365 for Finance and Operations. Þegar starfsmaðurinn hefur lokið allri tiltektarvinnu í flokki, er frágangur stofnaður fyrir sama flokk.</td>
+<td>Veljið þennan valkost til að flokka frágangsvinnu. Þessi kostur er tiltækur þegar vinnunni var flokkað af starfsmanni eða af Microsoft Dynamics 365 for Finance and Operations. Þegar starfsmaðurinn hefur lokið allri tiltektarvinnu í flokki, er frágangur stofnaður fyrir sama flokk.</td>
 </tr>
 <tr class="even">
 <td>Gerðir leiðréttinga á birgðaskrá </td>
@@ -357,8 +356,8 @@ Eftirfarandi tafla lýsir þessum valkostum.
 <td>Gefa til kynna hvort starfsmaður verði að velja elstu rununa í staðsetningu fyrst. Eftirtaldir valkostir eru í boði:
 <ul>
 <li><strong>Ekkert</strong> - Starfsmaður getur tekið til hvaða lotu sem er á staðnum. Starfsmaðurinn fær engin skilaboð.</li>
-<li><strong>Vara við</strong> - Starfskraftur getur valið hvaða lotu sem er á staðnum, en hann fær viðvörunarboð ef lotan er ekki elsta lotan.</li>
-<li><strong>Þvinga</strong> - Starfsmaður verður að taka til elstu lotu á staðnum. Starfskraftur fær villuboð ef lotan er ekki elsta lotan. <strong>Ábending:</strong> Þessi valkostur er aðeins viðeigandi ef <strong>Rununúmer</strong> er lægra en <strong>Staðsetning</strong> í frátekningarstigveldinu sem er úthluta á vöruna.</li>
+<li><strong>Vara við</strong> - Starfsmaður getur valið hvaða lotu sem er á stað, en hann fær viðvörunarboð ef lotan er ekki elsta lotan.&#39;</li>
+<li><strong>Þvinga</strong> - Starfsmaður verður að taka til elstu lotu á staðnum. Starfsmaðurinn fær villuboð ef lotan er ekki elsta lotan.&#39; <strong>Ábending:</strong> Þessi valkostur er aðeins viðeigandi ef <strong>Rununúmer</strong> er lægra en <strong>Staðsetning</strong> í frátekningarstigveldinu sem er úthluta á vöruna.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -367,11 +366,11 @@ Eftirfarandi tafla lýsir þessum valkostum.
 </tr>
 <tr class="even">
 <td>Kerfisflokkunarsvæði</td>
-<td>Veldu reitinn sem ákvarðar hvernig Microsoft Dynamics 365 for Finance and Operations flokkar tiltektarvinnu fyrir starfsmenn. Til dæmis, ef þú velur <strong>ShipmentId</strong> svæðinu starfsmaður verður skanna Sendingarkennið til að flokka vinnuna tiltekt. Öll vinna fyrir sendingunni er síðan úthlutað til starfsmanns. Þessi reitur krefst þess að stofnað sé valmyndaratriði til að nota fyrirliggjandi vinnu sem er flokkuð af kerfinu. Einnig verður að færa inn texta í reitinn <strong>Kerfisflokkunarmerki</strong> til að sýna starfsmanni hvað á að skanna.</td>
+<td>Velja svæðið sem ákvarða hvernig Microsoft Dynamics 365 for Finance and Operations flokkar tiltektarvinnu fyrir starfsmann. Til dæmis, ef þú velur <strong>ShipmentId</strong> svæðinu starfsmaður verður skanna Sendingarkennið til að flokka vinnuna tiltekt. Öll vinna fyrir sendingunni er síðan úthlutað til starfsmanns. Þessi reitur krefst þess að stofnað sé valmyndaratriði til að nota fyrirliggjandi vinnu sem er flokkuð af kerfinu. Einnig verður að færa inn texta í reitinn <strong>Kerfisflokkunarmerki</strong> til að sýna starfsmanni hvað á að skanna.</td>
 </tr>
 <tr class="odd">
 <td>Kerfisflokkunarmerki</td>
-<td>Sláðu inn textann sem leiðbeinir starfsmanni um hvað á að skima þegar tínsluverk er flokkað af Microsoft Dynamics 365 for Finance and Operations. Til dæmis ef verið er að nota reitinn <strong>ShipmentId</strong> til að flokka tiltektarvinnu eftir sendingu væri hægt að færa inn <strong>Sendingarkenni</strong> í reitinn. Þessi reitur krefst þess að stofnað sé valmyndaratriði til að nota fyrirliggjandi vinnu sem er flokkuð af kerfinu. Einnig verður að velja reitinn til að flokka eftir í reitnum <strong>Kerfisflokkunarsvæði</strong>.</td>
+<td>Sláið inn textann sem leiðbeinir starfsmanni um hvað á að skanna þegar tiltekt er flokkað af Microsoft Dynamics 365 for Finance and Operations. Til dæmis, ef verið er að nota í <strong>ShipmentId</strong> á flokki tiltekt vinnu með sendingu, gætirðu fært inn <strong>Sendingarkennið</strong> í svæðinu.&#39; Þessi reitur krefst þess að stofnað sé valmyndaratriði til að nota fyrirliggjandi vinnu sem er flokkuð af kerfinu. Einnig verður að velja reitinn til að flokka eftir í reitnum <strong>Kerfisflokkunarsvæði</strong>.</td>
 </tr>
 <tr class="even">
 <td>Nota sjálfgefinn gagnagrunn</td>
@@ -387,7 +386,7 @@ Eftirfarandi tafla lýsir þessum valkostum.
 </tr>
 <tr class="odd">
 <td>Kóði vinnusniðmáts</td>
-<td>Veljið vinnusniðmátið sem mun stofna vinnu fyrir ferli. Til dæmis ef þú móttekur vöru í innkaupapöntun verður frágangsvinna mynduð samkvæmt vinnusniðmátinu. Ef vinnusniðmát er ekki valið úthlutar Microsoft Dynamics 365 for Operations sniðmáti samkvæmt skilyrðum fyrirspurnar. Sjá frekari upplýsingar um vinnusniðmát í <a href="control-warehouse-location-directives.md">Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar</a></td>
+<td>Veljið vinnusniðmátið sem mun stofna vinnu fyrir ferli. Til dæmis ef þú móttekur vöru í innkaupapöntun verður frágangsvinna mynduð samkvæmt vinnusniðmátinu. Ef vinnusniðmát er ekki valið úthlutar &#39; sniðmáti, samkvæmt skilyrðum fyrirspurnar.Microsoft Dynamics 365 for Finance and Operations Sjá frekari upplýsingar um vinnusniðmát í <a href="control-warehouse-location-directives.md">Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar</a></td>
 </tr>
 </tbody>
 </table>
@@ -420,6 +419,5 @@ Eftirfarandi tafla lýsir mismunandi gerðum vinnu sem hægt er að nota verksta
 
 [Setja upp valmyndaratriði fartækis til að skrá mótteknar vörur (verkleiðbeiningar)](tasks/set-up-mobile-device-menu-item-register-received-items.md)
 [Kostir þes að nota birgðastöður](../inventory/inventory-statuses.md)
-
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Setja upp aukna innskráningarvirkni fyrir MPOS og sölukerfi í skýinu"
-description: "Þetta efnisatriði nær yfir valmöguleika til að setja upp aukna innskráningu starfsmanns fyrir sölukerfi í skýinu og Retail Modern POS (MPOS)."
+title: Setja upp aukna innskráningarvirkni fyrir MPOS og sölukerfi í skýinu
+description: Þetta efnisatriði nær yfir valmöguleika til að setja upp aukna innskráningu starfsmanns fyrir sölukerfi í skýinu og Retail Modern POS (MPOS).
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: c5771146723b791eb0b3eb5f571ef012cfaadcb9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 4e3f8042871e5e423b559bb0e0dae0006af00194
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317914"
 ---
-
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Setja upp aukna innskráningarvirkni fyrir MPOS og sölukerfi í skýinu
 
 [!include [banner](includes/banner.md)]
@@ -68,4 +67,3 @@ Hægt er að auka innskráningarþjónustu til að styðja til viðbótar aukin 
 ## <a name="using-extended-logon"></a>Notkun aukinnar innskráningar
 
 Þegar aukin innskráning er skilgreind og starfsmanni hefur verið úthlutað á strikamerki eða segulrönd, þarf starfsmaðurinn aðeins að renna eða skanna kortið sitt meðan síðan Innskráning á sölustað birtist. Ef aðgangsorðs er einnig krafist áður en innskráning getur haldið áfram er starfsmaður beðinn um að færa inn aðgangsorð sitt.
-

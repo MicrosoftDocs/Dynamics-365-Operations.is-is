@@ -1,13 +1,13 @@
---- 
+---
 title: Setja upp stigveldi innkaupategundar
-description: "Þetta ferli sýnir hvernig á að stofna nýja hnúta í tegundastigveldi innkaupa og hvernig á að skilgreina innkaupategund sem nota á í innkaupaferli."
+description: Þetta ferli sýnir hvernig á að stofna nýja hnúta í tegundastigveldi innkaupa og hvernig á að skilgreina innkaupategund sem nota á í innkaupaferli.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/06/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 01809a8a3256342682d8a9cfb296a355310fe4ed
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 6ad5c8552a6989e9093d0b1325754bc0f6d19372
-ms.openlocfilehash: 4541d029c9c3be3ee42332e5d8ff183dd503f13e
-ms.contentlocale: is-is
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334520"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Setja upp stigveldi innkaupategundar
 
@@ -74,5 +74,4 @@ ms.lasthandoff: 11/06/2017
 6. Víxla útvíkkun á liðnum tegundasíða.
     * Tegundarsíður eru stofnaðar í síðu tegundastigveldis. Þær innihalda upplýsingar um innkaupategundina, eins og upplýsingar um tegund afurða í flokknum, myndir af afurðum í flokki eða tilkynningar um að afsláttur sé í boði í flokknum. Upplýsingarnar í tegundasíðu birtist á innkaupabeiðnum.  
 7. Lokið síðunni.
-
 

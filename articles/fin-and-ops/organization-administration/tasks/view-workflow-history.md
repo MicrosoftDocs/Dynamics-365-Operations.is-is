@@ -1,13 +1,13 @@
---- 
-title: "Skoða verkflæðissögu"
-description: "Notið þessa skref til að skoða stöðu skjals sem hefur verið sent inn í kerfi verkflæðis til vinnslu og samþykkis."
+---
+title: Skoða verkflæðissögu
+description: Notið þessa skref til að skoða stöðu skjals sem hefur verið sent inn í kerfi verkflæðis til vinnslu og samþykkis.
 author: jasongre
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowStatus
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a40fe377322e2d64b751f6cace3eda20736cd321
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 212f9fe8bc7807b9209523564ead716959875241
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309657"
 ---
 # <a name="view-workflow-history"></a>Skoða verkflæðissögu
 
@@ -46,5 +46,4 @@ Notið þessa skref til að skoða stöðu skjals sem hefur verið sent inn í k
     * Gangið úr skugga um að hlutinn Vinnuliðir sé stækkaður.    Í þessum hluta er hægt að skoða vinnuliði sem tengist völdu skjali. Til dæmis gæti þurft að ljúka við verkefni eða þá að samþykkja þarf skjal.  
     * Hnappurinn Endurúthluta opnar svarglugga þar sem hægt er að endurúthluta vinnulið til annars notanda.  
     * Gangið úr skugga um að hlutinn Rakningarupplýsingar sé stækkaður.    Í þessum hluta er hægt að skoða verkflæðissaga sem tengist völdu skjali.  
-
 

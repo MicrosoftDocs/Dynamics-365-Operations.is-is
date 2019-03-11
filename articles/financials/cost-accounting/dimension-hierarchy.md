@@ -1,32 +1,31 @@
 ---
-title: "Víddarstigveldi"
-description: "Þetta efni inniheldur upplýsingar um víddastigveldi. Víddastigveldi eru notuð til að skilgreina skipulag skýrslugerðar, kostnaðarreglur og öryggisuppsetningu í kostnaðarbókhaldi."
+title: Víddarstigveldi
+description: Þetta efni inniheldur upplýsingar um víddastigveldi. Víddastigveldi eru notuð til að skilgreina skipulag skýrslugerðar, kostnaðarreglur og öryggisuppsetningu í kostnaðarbókhaldi.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 55d567eb3b4ad6746f39118b575457bb00fe0a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
-ms.contentlocale: is-is
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320214"
 ---
-
 # <a name="dimension-hierarchy"></a>Víddarstigveldi
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,7 @@ Hægt er að stofna víddastigveldi fyrir eftirfarandi gerðir vídda:
 > [!NOTE]
 > - Hægt er að stofna mörg víddastigveldi vídd fyrir sömu vídd ef mismunandi sjónarhorna er krafist.
 > - Víddastigveldi má aðeins tengja við eina vídd.
-> - Víddastigveldi getur haft ótakmörkuð stig í uppbyggingu sinni. Öll stig verða tiltæk í vinnusvæðinu **Kostnaðarstjórn**. Þegar Microsoft Excel eða Microsoft Power BI til skýrslugerðar eru notuð eru aðeins fyrstu 15 stig í stigveldi flutt út. Þessi takmörkun eru til staðar þar sem Excel og Power BI krefjast fasts skema.
+> - Víddastigveldi getur haft ótakmörkuð stig í uppbyggingu sinni. Öll stig verða tiltæk í vinnusvæðinu **Kostnaðarstjórn**. Þegar þú notar Microsoft Excel eða Microsoft Power BI til skýrslugerðar, eru aðeins fyrstu 15 stigin af víddarstigveldunum flutt út. Þessi takmörkun er til vegna þess að bæði Excel og Power BI krefjast fastrar skema.
 > - Víddastigveldi er ekki dagsetnarvirkt. Þar af leiðandi eru allar breytingar á víddastigveldi strax vistaðar í skrána og ekki er hægt að bera saman fyrri og seinni dagsetningar.
 
 ## <a name="dimension-hierarchy-type"></a>Gerð víddastigveldis
@@ -172,7 +171,7 @@ Hægt er að færa hnút upp og niður innan núgildandi stigs í uppbyggingu. �
 - **Færa aftur fyrir** – Færið valinn hnút úr gildandi stöðu í stigveldinu og setjið hann **aftur fyrir** valinn markhnút á stigi sínu í víddastigveldi.
 
 > [!NOTE] 
-> Röð hnúta er ekki viðhaldið þegar gögn eru flutt út í Excel- eða Power BI, þar sem þau verkfæri nota staftöluröðun sjálfgefið. Það ætti að endurraða pöntuninni handvirkt.
+> Röð hnúta er ekki viðhaldið þegar þú flytur út gögn í Excel eða Power BI vegna þess að þessi verkfæri nota sjálfgefna flokkunarröð bókstafa og talna. Það ætti að endurraða pöntuninni handvirkt.
 
 ## <a name="define-dimension-hierarchies-for-reporting"></a>Skilgreina víddastigveldi fyrir skýrslugerð
 
@@ -200,7 +199,7 @@ Víddastigveldi eru tiltæk í eftirfarandi skýrslutækjum. Þessi aðferð hj�
 
     - Öll víddastigveldi eru tiltæk.
     
-Ef þú stofnar skýrslur með því að nota Excel eða Power BI eru aðeins fyrstu 15 stig í stigveldi flutt út. Þessi takmörkun er til staðar þar sem Excel og Power BI krefjast fasts skema. Ef stigveldi hefur fleiri en 15 stig verða aukastigin ekki flutt út. Stöðluð tafla inniheldur færslu fyrir hvert víddarstak í stigveldinu. Þess vegna verður sjálfvirk uppsöfnun. Þessi hegðun hjálpar til við að tryggja samræmda stöðu á hvern 15 tiltæk stig í stigveldinu eru enn rétt.
+Ef þú býrð til skýrslur með því að nota Excel eða Power BI eru aðeins 15 fyrstu stigin af víddarstigveldinu flutt út. Þessi takmörkun er til vegna þess að krafist er fasts skema í Excel og Power BI. Ef stigveldi hefur fleiri en 15 stig verða aukastigin ekki flutt út. Stöðluð tafla inniheldur færslu fyrir hvert víddarstak í stigveldinu. Þess vegna verður sjálfvirk uppsöfnun. Þessi hegðun hjálpar til við að tryggja samræmda stöðu á hvern 15 tiltæk stig í stigveldinu eru enn rétt.
 
 Eftirfarandi dæmi sýnir hvernig víddastigveldi gæti litið út í uppbyggingu skýrslu.
 
@@ -328,10 +327,9 @@ Stillingar fyrir stigveldi aðgangslista eru notaðar til að stjórna gögnunum
 
 - Power BI:
 
-    - Gögn sem birtast í myndrænni framsetningu Power BI
-    - Myndræn framsetning á gögnum Power BI sem eru felld inn í biðlara Microsoft Dynamics 365 for Finance and Operations
+    - Gögn sem eru sýnd í Power BI myndrænum framsetningum
+    - Myndræn Power BI gagnaframsetning sem er felld inn í Microsoft Dynamics 365 for Finance and Operations biðlarann
 
 > [!NOTE] 
-> - Áður en stigveldi aðgangslista getur haft áhrif á gögn í Power BI verður að para stigveldi aðgangslista og öryggi á línustigi í Power BI. Nánari upplýsingar eru í [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Áður en stigveldi aðgangslista getur haft áhrif á gögnin í Power BI, verður að para saman stigveldi og öryggi á línustigi í Power BI. Nánari upplýsingar eru í [Uppsetning öryggis fyrir þjónustupakka kostnaðarbókhalds](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Stigveldi aðgangslista tryggir ekki útflutning á gögnum í Excel. Þar af leiðandi ætti það skýrslugerðartæki aðeins að verað notað af kostnaðarbókunum og stjórnendum sem verða að hafa ótakmarkaðan aðgang til að skoða gögn.
-

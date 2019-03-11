@@ -1,13 +1,13 @@
 ---
-title: "Stjórnun vöruúrvals"
-description: "Í þessu efnisatriði er fjallað um grundvallarhugtök stjórnunar á vöruúrvali í Microsoft Dynamics 365 for Retail og hugleiðingar um framkvæmd verka."
+title: Stjórnun vöruúrvals
+description: Í þessu efnisatriði er fjallað um grundvallarhugtök stjórnunar á vöruúrvali í Microsoft Dynamics 365 for Retail og hugleiðingar um framkvæmd verka.
 author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail, Operations
@@ -15,15 +15,14 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
+ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
-ms.contentlocale: is-is
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365041"
 ---
-
-# <a name="assortment-management"></a>Stjórnun vöruúrvals
+# <a name="assortment-management"></a>Stjórn vöruúrvals
 
 [!include [banner](../includes/banner.md)]
 
@@ -108,4 +107,3 @@ Fyrst þarf að vinna úr vöruúrvali sem er skilgreint í Retail áður en þa
 - **Sölur og skil utan vöruúrvals** – Þessi möguleiki hjálpar smásölum að stjórna vöruúrvali sínu á árangursríkan hátt með því að leyfa þeim að takmarka fjölda tiltækra afurða til afurða sem tilheyra undirstöðuafurðum samsetningarinnar fyrir verslunina. Þessi möguleiki hjálpar einnig smásölum að takast á við aðstæður þar sem afurð var ranglega sleppt úr vöruúrvali eða þar sem afurð var skilað utan virkra dagsetninga fyrir vöruúrvalið.
 
 Ef afurðargögn eru ekki til í gagnagrunni rásar mun sölustaðurinn hafa samskipti í rauntíma við höfuðstöðvar til að sækja nauðsynlegar upplýsingar svo hægt sé að selja, skila eða setja afurðina á pöntun viðskiptavinar. Afurðarupplýsingar sem eru sóttar með þessum hætti eru aðeins tiltækar á meðan á þessari færslu stendur. Afurðinni er ekki bætt við skilgreiningu vöruúrvalsins. Þess vegna verða næstu samskipti í rauntíma gerð eftir þörfum.
-

@@ -1,13 +1,13 @@
 ---
-title: "Framleiðslusvörun"
-description: "Þessi grein gefur upplýsingar um framleiðslusvörun, sem gefur starfsmönnum svörun um framleiðsluvinnu. Greinin inniheldur upplýsingar um þær ýmsu leiðir sem hægt er að nota til að uppfæra framleiðslusvörun."
+title: Framleiðslusvörun
+description: Þessi grein gefur upplýsingar um framleiðslusvörun, sem gefur starfsmönnum svörun um framleiðsluvinnu. Greinin inniheldur upplýsingar um þær ýmsu leiðir sem hægt er að nota til að uppfæra framleiðslusvörun.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgRegistration, ProdJournalTransJob, ProdJournalTransRoute, ProdParmReportFinished
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5b0a49cf05a7eee838dcf9fb699d273d0f7518a1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1086852bd5193d70e9bde69d349a8d787deee094
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340914"
 ---
-
 # <a name="production-feedback"></a>Framleiðslusvörun
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,6 @@ ms.lasthandoff: 11/03/2017
 Þessi grein gefur upplýsingar um framleiðslusvörun, sem gefur starfsmönnum svörun um framleiðsluvinnu. Greinin inniheldur upplýsingar um þær ýmsu leiðir sem hægt er að nota til að uppfæra framleiðslusvörun.
 
 Framleiðslusvörun gefur starfsmönnum svörun um framleiðsluvinnslu. Hún skráir tíma- og efnisnotkun á framleiðslupöntunum, magn og stöðu vinnslu, og villur sem valda því að vinnsla eða aðgerð mistekst. Hægt er að uppfæra°framleiðslusvörun í færslubókum sem°tengjast°framleiðslupöntunum. Færslubækurnar **Vinnsluspjald framleiðslu** og **Leiðarspjald framleiðslu** eru notaðar eru til að tilkynna tíma og magn°á hverja vinnslu eða aðgerð. Fyrir skýrslugerð um°síðustu vinnslu eða°aðgerð, er hægt að skrá°magn°af°endanlegri vöru sem lokið. Framleiðslusvörun er einnig hægt að uppfæra°á°síðunum **Afgreiðslustöð verkspjalda** og°**Verkspjaldstæki**. Þessar síður virkja framleiðslusvörun til uppfærslu í vinnusal og eru hluti af framkvæmdarferli framleiðsluaðgerða í **Framleiðslustýringar°**kerfiseiningu. Síðan **Afgreiðslustöð verkspjalda** hefur°skilgreinanlegt notandaviðmót sem°sýnir lista yfir útgefnar vinnslur í forgangsröðun á völdu vinnusvæði. Hún býður einnig upp á ítarlegri valkosti eins°og vinnslusamtvinnun og teymisvinnu. Síðan°**Verkspjaldstæki** hefur snertingarvirkjað notendaviðmót. Framleiðslusvörun á báðum síðunum er uppfærð úr°framleiðslubókunum.
-
 
 
 

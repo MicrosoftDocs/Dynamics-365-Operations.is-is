@@ -1,13 +1,13 @@
 ---
-title: "Skilgreina og viðhalda Smásölurásir"
-description: "Þetta efnisatriði veitir yfirlit yfir ferlið fyrir uppsetningu hefðbundinna verslana sem vísað er til sem smásöluverslanir í Microsoft Dynamics 365 for Retail. Það felur í sér upplýsingar um þau verk sem ljúka verður bæði áður en eða eftir að þú hefur lokið við að setja upp smásöluverslun."
+title: Skilgreina og viðhalda Smásölurásir
+description: Þessi skrá veitir yfirlit yfir ferlið fyrir uppsetningu hefðbundinna verslana sem vísað er til sem smásöluverslanir í Microsoft Dynamics 365 for Retail. Það felur í sér upplýsingar um þau verk sem ljúka verður bæði áður en eða eftir að þú hefur lokið við að setja upp smásöluverslun.
 author: mugunthanm
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreTableListPagePreviewPane
 audience: Application User
 ms.reviewer: josaw
@@ -19,25 +19,24 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 53ba6cdb2378ce9011c6e7e3ce4e67c789adb1e6
-ms.contentlocale: is-is
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318627"
 ---
-
 # <a name="define-and-maintain-retail-channels"></a>Skilgreina og viðhalda Smásölurásir
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði veitir yfirlit yfir ferlið fyrir uppsetningu hefðbundinna verslana sem vísað er til sem smásöluverslanir í Microsoft Dynamics 365 for Retail. Það felur í sér upplýsingar um þau verk sem ljúka verður bæði áður en eða eftir að þú hefur lokið við að setja upp smásöluverslun.
+Þessi skrá veitir yfirlit yfir ferlið fyrir uppsetningu hefðbundinna verslana sem vísað er til sem smásöluverslanir í Microsoft Dynamics 365 for Retail. Það felur í sér upplýsingar um þau verk sem ljúka verður bæði áður en eða eftir að þú hefur lokið við að setja upp smásöluverslun.
 
-Dynamics 365 for Retail styður fjölda smásölurása, þ.m.t. netverslanir, þjónustuver og verslanir á staðnum. Verslun á staðnum er kölluð smásöluverslun. Hvert smásöluverslun getur haft sína eigin greiðsluhætti, verðflokka, sölustað (POS) afgreiðslukassa, tekjulykla og kostnaðarlykla og starfsfólk. Setja verður upp allar þessar einingar fyrir smásöluverslun áður en hún er stofnuð. Eftir að þú stofnar smásöluverslun, úthluta þér afurðir sem þú vilt að verslunin selji. Einnig er starfsmönnum, afgreiðslukössum og viðskiptavinum úthlutað til verslunar. Að lokum bætirðu nýju versluninni við stigveldi fyrirtækis.
+Dynamics 365 for Retail styður fjölda smásölurása, þ.m.t. netverslanir og markaðstorg á netinu og verslanir á staðnum. Verslun á staðnum er kölluð smásöluverslun. Hvert smásöluverslun getur haft sína eigin greiðsluhætti, verðflokka, sölustað (POS) afgreiðslukassa, tekjulykla og kostnaðarlykla og starfsfólk. Setja verður upp allar þessar einingar fyrir smásöluverslun áður en hún er stofnuð. Eftir að þú stofnar smásöluverslun, úthluta þér afurðir sem þú vilt að verslunin selji. Einnig er starfsmönnum, afgreiðslukössum og viðskiptavinum úthlutað til verslunar. Að lokum bætirðu nýju versluninni við stigveldi fyrirtækis.
 
 ## <a name="setting-up-retail-stores"></a>Setja upp smásöluverslanir
 
-Áður en hægt er að setja upp smásöluverslun í Dynamics 365 for Retail verður þú að ljúka nokkrum frumskilyrðisverkefni. Hægt er að stofna smásöluverslunar og bæta við upplýsingar.
+Áður en þú getur sett upp smásöluverslun í Dynamics 365 for Retail verður þú að ljúka nokkrum frumskilyrðisverkefnum. Hægt er að stofna smásöluverslunar og bæta við upplýsingar.
 
 ### <a name="prerequisites"></a>Skilyrði
 
@@ -56,7 +55,7 @@ Dynamics 365 for Retail styður fjölda smásölurása, þ.m.t. netverslanir, þ
 11. Setja upp starfsfólk
 
     > [!NOTE]
-    > Einnig verður að úthluta viðeigandi heimildum fyrir starfsmenn, þannig að þeir geti skráð sig inn og framkvæmt verkefni með því að nota Dynamics 365 for Retail fyrir Retail POS-kerfi.
+    > Einnig verður að úthluta viðeigandi heimildum fyrir starfsmenn, þannig að þeir geti skráð sig inn og framkvæmt verkefni með því að nota Dynamics 365 for Retail for Retail POS.
 
 12. Skilgreina skal Retail POS forstillingar til að tengja við verslun. Þetta felur í sér mörg verk, s.s. uppsetningu afgreiðslukassa, uppsetningu ótengt snið, og uppsetning snið kvittunar og forstillingar.
 
@@ -86,4 +85,3 @@ Eftir að þú slærð inn upplýsingar fyrir smásöluverslun þarf að ljúka 
 ## <a name="organization-hierarchies"></a>Stigveldi fyrirtækis
 
 Retail notar stigveldi stofnunar fyrir uppbyggingu smásölurás. Stigveldi fyrirtækis standa fyrir vensl á milli fyrirtækja sem þú ert með saman í rekstri. Þegar að settar eru upp verslanir er hægt að bæta þeim við stigveldi fyrirtækis. Verslanir deila sem notaður er fyrir úrval áfyllingar og skýrslugerð.
-

@@ -1,13 +1,13 @@
 ---
-title: "Viðskiptaskuldir – heimasíða"
-description: "Í þessu efnisatriði er að finna yfirlit yfir viðskiptaskuldir."
+title: Viðskiptaskuldir – heimasíða
+description: Í þessu efnisatriði er að finna yfirlit yfir viðskiptaskuldir.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 6cc7ee98b3fabb774339dd1fc027d38d00d8b31f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7bc09cbd108949b37ea1b2207fc3e0c6961abf4b
-ms.contentlocale: is-is
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302427"
 ---
-
 # <a name="accounts-payable-home-page"></a>Viðskiptaskuldir – heimasíða
 
 [!include [banner](../includes/banner.md)]
@@ -120,27 +119,26 @@ Eftirfarandi efnisatriði veita upplýsingar um uppgjör. Uppgjör er það ferl
 
 
 
-### <a name="additional-resources"></a>Frekari upplýsingar
+### <a name="additional-resources"></a>Frekari tilföng
 
 #### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
 
-Á [Microsoft Dynamics 365 leiðarvísir](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
+Á [Microsoft Dynamics 365-leiðarvísinum](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
 
 #### <a name="blogs"></a>Blogg
 
-Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) er að finna umfjöllun, fréttir og aðrar upplýsingar um Viðskiptaskuldir og aðrar hugbúnaðarlausnir.
+Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) er að finna umfjöllun, fréttir og aðrar upplýsingar um viðskiptaskuldir og aðrar lausnir.
 
-Á [bloggi afurðateymis Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/) er að finna fjölmörg umfjöllunarefni um Viðskiptaskuldir. Þótt sumar þessara færslna hafi verið skrifaðar um eldri útgáfu Viðskiptaskulda eiga sömu hugtök enn við og ferlin eru líka svipuð í nýjustu útgáfunni.
+Það eru margar færslur um viðskiptaskuldir á bloggsíðu afurðateymisins fyrir [Microsoft Dynamics AX ](https://blogs.msdn.microsoft.com/dax/). Þótt sumar þessara færslna hafi verið skrifaðar um eldri útgáfu Viðskiptaskulda eiga sömu hugtök enn við og ferlin eru líka svipuð í nýjustu útgáfunni.
 
-[Blogg Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir Microsoft Dynamics-samstarfsaðilum aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika MBS Operations á einum stað.
+Blogg [Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir samstarfsaðilum Microsoft Dynamics aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika MBS Operations á einum stað.
 
 #### <a name="task-guides"></a>Verkleiðbeiningar
 Frekari hjálp er í boði sem verkleiðbeiningar í Finance and Operations. Smellið á hnappinn Hjálp á hvaða síðu sem er til að fá aðgang að verkleiðbeiningum.
 
 #### <a name="videos"></a>Myndbönd
 
-Kynntu þér kennslumyndbönd sem eru aðgengileg á [YouuTube-rás Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 YouTube-rásinni ](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 
 

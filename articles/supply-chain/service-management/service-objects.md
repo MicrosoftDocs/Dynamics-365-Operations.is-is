@@ -1,31 +1,30 @@
 ---
-title: "Þjónustuhlutir"
-description: "Þjónustuhlutir eru eignir og afurðir viðskiptavinar sem hægt er að framkvæma þjónustu við."
+title: Þjónustuhlutir
+description: Þjónustuhlutir eru eignir og afurðir viðskiptavinar sem hægt er að framkvæma þjónustu við.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceObjectTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5641077de84b6702d2c5621edef74783f2f104fd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: a69fd6a1b07683383d88c7f5c7986529c7bb1875
-ms.contentlocale: is-is
-ms.lasthandoff: 02/21/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353403"
 ---
-
 # <a name="service-objects"></a>Þjónustuhlutir 
 
 [!include [banner](../includes/banner.md)]
@@ -47,5 +46,4 @@ Fyrirtæki A viðheldur fjárhagslegum færslum fyrir lítilla fyrirtækja. Einn
 ## <a name="related-topics"></a>Tengd efnisatriði
 
 [Stofna þjónustuhluta](create-service-objects.md)
-
 

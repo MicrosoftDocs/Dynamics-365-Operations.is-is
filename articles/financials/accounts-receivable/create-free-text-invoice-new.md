@@ -1,13 +1,13 @@
---- 
+---
 title: Stofna textareikninga
-description: "Í þessu efnisatriði er útskýrt hvernig á að stofna reikninga með frjálsum texta."
+description: Í þessu efnisatriði er útskýrt hvernig á að stofna reikninga með frjálsum texta.
 author: mikefalkner
 manager: AnnBe
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: f64292a1b3726ea9b43f959a44c4ed2a1f392484
 ms.openlocfilehash: f6ee6fda0b52b8af7c253b7d22e470345a8a421f
-ms.contentlocale: is-is
-ms.lasthandoff: 09/05/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332243"
 ---
-
 # <a name="create-free-text-invoices"></a>Stofna textareikninga
 
 [!include [banner](../includes/banner.md)]
@@ -86,4 +85,3 @@ Eftir afritun á línum er hægt að breyta upplýsingum eftir þörfum.
 Þú getur búið til reikning með frjálsum texta út frá sniðmáti. Þegar **Nýtt úr sniðmáti** er valið úr flipanum **Reikningur** er hægt að velja sniðmátsheiti og viðskiptavinalykilinn fyrir nýja reikninginn með frjálsum texta. Sjálfgefin gildi, svo sem greiðsluskilmálar og greiðslumáti, geta sjálfkrafa verið fyllt út af viðskiptavininum, eða hægt er að nota gildin sem voru vistuð í sniðmátinu.
 
 Nýr reikningur með frjálsum texta verður búinn til og hægt er að breyta gildunum eftir þörfum.
-

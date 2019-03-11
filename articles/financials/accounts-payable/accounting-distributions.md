@@ -1,13 +1,13 @@
 ---
-title: "Dreifing á fjárhagsupphæðum"
-description: "Þessi grein veitir upplýsingar um dreifingu á fjárhagsupphæð og lýsir valkostunum sem eru tiltækar fyrir vinnslu á þeim. Dreifingar á fjárhagsupphæð eru notaðar til að úthluta upphæðum fyrir upprunaskjalið á tiltekinn fjárhagslykil."
+title: Dreifing á fjárhagsupphæðum
+description: Þessi grein veitir upplýsingar um dreifingu á fjárhagsupphæð og lýsir valkostunum sem eru tiltækar fyrir vinnslu á þeim. Dreifingar á fjárhagsupphæð eru notaðar til að úthluta upphæðum fyrir upprunaskjalið á tiltekinn fjárhagslykil.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AccountingDistribution
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3ba6a581efe8353ccb9e02606db58d18550d71af
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 52cb689723584c862d85fa51a643b42096372a29
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320467"
 ---
-
 # <a name="accounting-distributions"></a>Dreifing á fjárhagsupphæðum
 
 [!include [banner](../includes/banner.md)]
@@ -53,10 +52,9 @@ Almenn getu dreifingar á fjárhagsupphæð veita eftirfarandi valkostum fyrir d
     -   **Leiðrétta** hnappur birtist og er virk fyrir skjöl sem styðja leiðréttingar. **Leiðrétta** stofnar nýja arðgreiðslu. Fyrst skal stofna dreifingar sem bakfæra upprunalegu dreifingar. Ekki er hægt að breyta þessum dreifingum. Næst, ný leiðréttandi dreifingar á fjárhagsupphæð eru stofnaðar. Hægt er að breyta þessar dreifingar hægt var að breyta upphaflegri dreifingar.
     -   **upplýsingar um verk** hnappurinn er virkjaður sem viðauki þegar lína er tengd  verki. Fjárhagsupphæð gerir kleift að breyta upplýsingum eins og fjármögnunaraðila og línueiginleika.
     -   Hægt er að skoða gildandi bókhaldsstaða skjals í **Tilvísun**. Staðan er fyrir allt skjalið og gefur til kynna hvort skjalið er í vinnslu eða lokið.
--   ** Skoða dreifingar** - Skoða dreifingu á fjárhagsupphæð fyrir allar línur og peningaupphæðir á skjali. Ekki er hægt að breyta dreifingu fjárhagsupphæða í þessu yfirliti.
+-   **Skoða dreifingar** - Skoða dreifingu á fjárhagsupphæð fyrir allar línur og peningaupphæðir á skjali. Ekki er hægt að breyta dreifingu fjárhagsupphæða í þessu yfirliti.
 
 
 Nánari upplýsingar má nálgast á [Um bókhaldsfærslur dreifingar og undirbókar færslubók fyrir reikningur með frjálsum texta](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
-
 
 

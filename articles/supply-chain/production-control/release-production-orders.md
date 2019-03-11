@@ -1,13 +1,13 @@
 ---
-title: "Losa framleiðslupantanir"
-description: "Útgefin framleiðslupöntun er pöntun sem hefur verið samþykkt til framleiðslu. Hugtakið útgefið er notað til að lýsa stöðu í líftíma framleiðslupöntunar þar sem framleiðslupöntunin er tiltæk fyrir framkvæmd í framleiðsluvinnusal og fyrir ferli vöruhúss."
+title: Losa framleiðslupantanir
+description: Útgefin framleiðslupöntun er pöntun sem hefur verið samþykkt til framleiðslu. Hugtakið útgefið er notað til að lýsa stöðu í líftíma framleiðslupöntunar þar sem framleiðslupöntunin er tiltæk fyrir framkvæmd í framleiðsluvinnusal og fyrir ferli vöruhúss.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParmRelease
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 400c2786d80681827829286e6e9667b4d51612c4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9b9009c714445871c15363c26829da812e56c688
-ms.contentlocale: is-is
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339373"
 ---
-
 # <a name="release-production-orders"></a>Losa framleiðslupantanir
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ Vinnu fyrir tiltekt hráefnis er stofnuð á meðan á losun stendur. Vinna er m
 -   Staðsetningarleiðbeiningar fyrir tiltekt hráefnis sem ákvarðar í hvaða staðsetningu innan vöruhúss á að taka til efni í
 -   Bylgjusniðmát furir hráefni, þar sem reglurnar fyrir framkvæmd vinnu vöruhúss eru skilgreindar.
 -   Staðsetning framleiðsluinntaks sem ákvarðar hvar efni eru sett
-
 
 
 

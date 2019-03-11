@@ -1,32 +1,31 @@
 ---
-title: "Vinnusvæði kostnaðarstýringar"
-description: "Þetta efnisatriði veitir upplýsingar um vinnusvæðið Kostnaðarstýring. Þetta vinnusvæði er miðlægur punktur þar sem stjórnendur sem bera ábyrgð á stýringu kostnaðarhlutar eða safni kostnaðarhluta innan víddar eða milli vídda geta sótt skýrslur."
+title: Vinnusvæði kostnaðarstýringar
+description: Þetta efnisatriði veitir upplýsingar um vinnusvæðið Kostnaðarstýring. Þetta vinnusvæði er miðlægur punktur þar sem stjórnendur sem bera ábyrgð á stýringu kostnaðarhlutar eða safni kostnaðarhluta innan víddar eða milli vídda geta sótt skýrslur.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c6a196c677ed27666efec8a180f1d3b7e7ee931c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 934ab83d45aad32c067e8422c5415d4a0a6481b4
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363753"
 ---
-
 # <a name="cost-control-overview"></a>Yfirlit yfir kostnaðarstýringu 
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,7 @@ Ef skilgreina á vinnusvæði kostnaðarstýringar, smelltu á **Kostnaðarbókh
 |-------------------------------------------------------------------|-------------|
 | Fjárhagur kostnaðarbókhalds                                            | **Fjárhagur kostnaðarbókhalds** sem skýrslan byggir á. Gildið er sótt í reitinn **Stýrieining kostnaðar**. |
 | Stýrieining kostnaðar                                                 | Gildið sem þú velur ákvarðar fjárhag kostnaðarbókhalds og kostnaðarhluti sem þessi skýrsla byggir á. |
-| Tölfræðilegt víddarstigveldi, víddarstigveldi kostnaðareiningar | Skilgreiningarfærslur vinnusvæðisins **Kostnaðarstýring** geta annaðhvort skráð ópeningaleg eða peningaleg gildi, en ekki í sama útlitinu. Veldu gildi í reitnum **Víddarstigveldi kostnaðareiningar** til að skrá peningaleg gildi. Veldu gildi í reitnum **Tölfræðilegt víddarstigveldi** til að skrá ópeningaleg gildi. Sú skráning víddarstigveldis sem þú velur ákvarðar uppbyggingu skýrslugerðar og flokkunarstig.<blockquote>[!NOTE]<br>Til að skoða ópeningaleg og peningaleg gildi hlið við hlið, getur þú flutt út gögn í Microsoft Excel fyrir Microsoft Power BI efnispakkann.</blockquote> |
+| Tölfræðilegt víddarstigveldi, víddarstigveldi kostnaðareiningar | Skilgreiningarfærslur vinnusvæðisins **Kostnaðarstýring** geta annaðhvort skráð ópeningaleg eða peningaleg gildi, en ekki í sama útlitinu. Veldu gildi í reitnum **Víddarstigveldi kostnaðareiningar** til að skrá peningaleg gildi. Veldu gildi í reitnum **Tölfræðilegt víddarstigveldi** til að skrá ópeningaleg gildi. Sú skráning víddarstigveldis sem þú velur ákvarðar uppbyggingu skýrslugerðar og flokkunarstig.<blockquote>[!NOTE]<br>Til að skoða ekki fjárhagsleg og fjárhagsleg gildi hlið við hlið er hægt að flytja út gögn í Microsoft Excel fyrir Microsoft Power BI efnispakkann.</blockquote> |
 | Víddarstigveldi kostnaðarhlutar                                   | Veldu það víddarstigveldi kostnaðarhlutarvíddar sem hæfir þeirri skýrslugerð sem þú ert að skilgreina. |
 | Upprunaleg útgáfa fjárhagsáætlunar                                           | Veldu það auðkenni útgáfu fjárhagsáætlunar sem þjónar hlutverki upphaflegrar fjárhagsáætlunar í samhengi þessarar skýrslu. |
 | Endurskoðuð útgáfa fjárhagsáætlunar                                            | Veldu það auðkenni útgáfu fjárhagsáætlunar sem þjónar hlutverki endurskoðaðrar fjárhagsáætlunar í samhengi þessarar skýrslu. |
@@ -157,6 +156,5 @@ Ef notendur smella á **Úthlutunargrunnur** á síðunni **Kostnaðarfærslur**
 Frekari upplýsingar 
 
 [Skilgreining aðgangsréttinda stjórnborða kostnaðarhlutar](access-rights-cost-object-controller.md)
-
 
 

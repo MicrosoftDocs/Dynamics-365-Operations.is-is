@@ -1,13 +1,13 @@
---- 
-title: "Varpa kostnaðareiningarvídd"
-description: "Eftirlitsmaður kostnaðar getur notað þetta ferli til að varpa kostnaðareiningarvídd til kostnaðareiningarvíddar í MXMF-lögaðila."
+---
+title: Varpa kostnaðareiningarvídd
+description: Eftirlitsmaður kostnaðar getur notað þetta ferli til að varpa kostnaðareiningarvídd til kostnaðareiningarvíddar í MXMF-lögaðila.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/28/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 52b9f6a5b71349d404fe9621b58f58aab843a71f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3ff31db3dbb6da9570bb85bbcaa3b444852d91d7
-ms.contentlocale: is-is
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308507"
 ---
 # <a name="map-a-cost-element-dimension"></a>Varpa kostnaðareiningarvídd
 
@@ -43,5 +43,4 @@ Eftirlitsmaður kostnaðar getur notað þetta ferli til að varpa kostnaðarein
 10. Sláið inn eða veldu gildi í reitnum í Til víddarstak.
     * Í þessu dæmi, velja víddarstak 6001004 Símanr.  
 11. Smellið á „Vista“.
-
 

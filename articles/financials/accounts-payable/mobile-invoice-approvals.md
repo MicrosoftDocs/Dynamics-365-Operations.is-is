@@ -1,13 +1,13 @@
 ---
-title: "Reikningssamþykktir í fartækjum"
-description: "Í þessu efnisatriði er ætlað að gefa praktíska nálgun á það að hanna farsímaaðstæður í Dynamics 365 for Finance and Operations með því að taka samþykktir á reikningum lánardrottna fyrir fartæki sem notkunartilvik."
+title: Reikningssamþykktir í fartækjum
+description: Í þessu efnisatriði er ætlað að gefa praktíska nálgun til að hanna farsímaaðstæður í Dynamics 365 for Finance and Operations með því að taka reikningssamþykktir fyrir fartæki sem notkunartilvik.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e39d81b0d600012f936865b53f8556eb3ef0a3d9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fc1483285d6ec675637c013af4949b9c7acf92b3
-ms.contentlocale: is-is
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314395"
 ---
-
 # <a name="mobile-invoice-approvals"></a>Reikningssamþykktir í fartækjum
 
 [!include [banner](../includes/banner.md)]
 
-Farsímageta í Microsoft Dynamics 365 for Finance and Operations gerir fyrirtækjanotanda kleift að hanna fartækjaumhverfi. Fyrir ítarlegri dæmi leyfir kerfið forriturum einnig að framlengja getu eins og þeir vilja. Skilvirkasta leiðin til að læra sum af nýju hugtökunum í fartæki er að fara gegnum ferlið að hanna ný dæmi. Í þessu efnisatriði er ætlað að gefa praktíska nálgun til að hanna farsímaaðstæður með því að taka reikningssamþykktir fyrir fartæki sem notkunartilvik. Þetta efnisatriði á að aðstoða við hönnun á öðrum frávikum á aðstæðum og einnig er hægt að nota það í öðrum aðstæðum sem eru ekki eru tengdar reikningum lánardrottins.
+Farsímageta í Microsoft Dynamics 365 for Finance and Operations gera fyrirtækjanotenda kleift að hanna farsímaupplifun. Fyrir ítarlegri dæmi leyfir kerfið forriturum einnig að framlengja getu eins og þeir vilja. Skilvirkasta leiðin til að læra sum af nýju hugtökunum í fartæki er að fara gegnum ferlið að hanna ný dæmi. Í þessu efnisatriði er ætlað að gefa praktíska nálgun til að hanna farsímaaðstæður með því að taka reikningssamþykktir fyrir fartæki sem notkunartilvik. Þetta efnisatriði á að aðstoða við hönnun á öðrum frávikum á aðstæðum og einnig er hægt að nota það í öðrum aðstæðum sem eru ekki eru tengdar reikningum lánardrottins.
 
 <a name="prerequisites"></a>Frumskilyrði
 -------------
@@ -37,11 +36,11 @@ Farsímageta í Microsoft Dynamics 365 for Finance and Operations gerir fyrirtæ
 | Skilyrði                                                                                            | lýsing                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Fyrirframlestur farsímahandbókar                                                                                |[Fartækjaverkvangur](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
-| Dynamics 365 for Finance and Operations                                                                             | Vertu viss um að þú sért að nota umhverfi sem er með Microsoft Dynamics 365 for Operations útgáfu 1611 og uppfærslu verkvangs Microsoft Dynamics for Operations 3 (nóvember 2016).                   |
+| Dynamics 365 for Finance and Operations                                                                             | Vertu viss um að þú sért að nota umhverfi sem er með Microsoft Dynamics 365 for Operations útgáfu 1611 og uppfærslu verkvangs Microsoft Dynamics Operations 3 (nóvember 2016).                   |
 | Setja upp bráðabót KB 3204341.                                                                              | Verkskráning getur skráð rangt tvær Loka skipanir fyrir felliglugga þetta er innifalið í Dynamics 365 for Operations uppfærslu verkvangs 3 (uppfærsla nóvember 2016) |
 | Setja upp bráðabót KB 3207800.                                                                              | Þessi bráðabót leyfir að viðhengi séu skoðuð í farsímabiðlara þetta er innifalið í Dynamics 365 for Operations uppfærsla verkvangs 3 (uppfærsla í nóvember 2016)           |
-| Setja upp bráðabót KB 3208224.                                                                              | Forritakóði fyrir farsímasamþykkt reiknings lánardrottins þetta er innifalið í Microsoft Dynamics AX forritið 7.0.1 (maí 2016).                          |
-| Android eða iOS eða Windows-tæki með uppsett fartækjaforrit fyrir Finance and Operations | Leita að forritinu í viðeigandi forritaverslun.                                                                                                                     |
+| Setja upp bráðabót KB 3208224.                                                                              | Forritakóði fyrir farsímasamþykkt reiknings lánardrottins þetta er innifalið í Microsoft Dynamics AX forritinu 7.0.1 (maí 2016).                          |
+| Í tæki með Android eða iOS eða Windows sem er með farsímaforritið sem er sett upp fyrir Finance and Operations | Leita að forritinu í viðeigandi forritaverslun.                                                                                                                     |
 
 ## <a name="introduction"></a>Inngangur
 Farsímasamþykktir fyrir reikninga lánardrottins þurfa þrjár bráðabætur sem nefndar eru í hlutanum „Forkröfur“. Þessar bráðabætur veita ekki vinnusvæði fyrir reikningssamþykki. Til að læra hvað vinnusvæði er í samhengi við fartæki, skaltu lesa farsímahandbókina sem er nefnd í hlutanum „Forkröfur“. Vinnusvæði reikningssamþykkta verður að vera hannað. 
@@ -126,7 +125,7 @@ Almennt séð, þegar unnið er með farsímahönnuði, þarf að ganga úr skug
 ### <a name="create-the-workspace"></a>Stofna vinnusvæðið
 
 1.  Í vafra opnarðu Finance and Operations og skráir þig inn.
-2.  Eftir að notandi hefur verið skráður bæta **& hamur = fartæki** vefslóð eins og sýnt er í eftirfarandi dæmi og endurnýja þarf síðuna: https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard **&hamur=fartæki**
+2.  Eftir að notandi hefur verið skráður bæta **&mode = fartæki** vefslóð eins og sýnt er í eftirfarandi dæmi og endurnýja þarf síðuna: https://&lt;yoururl&gt;/? cmp = usmf & mi = DefaultDashboard **& hamur = fartæki**
 3.  Smellið á hnappinn **Stillingar** (tannhjól) í efst til hægri á síðunni og smelltu svo á **Fartæki forrits**. Hönnuður fartæki forrits verður birtast eins og Verkskráning birtist.
 4.  Smelltu á **Bæta við** til að búa til nýtt vinnusvæði. Í þessu dæmi er vinnusvæðinu gefið heitið **Samþykktir**.
 5.  Færðu inn lýsingu.
@@ -488,7 +487,6 @@ Eftirfarandi frávik er hægt að gera fyrir aðstæður 1, byggt á þörfum fy
     3.  Góð regla er að dreifing skuli sýnd í samhengi við reikningslínu í þessu dæmi. Þess vegna þarf að tryggja að notandinn geti kafað í línu til að sjá dreifingasíðuna. Notaðu tenglagetu síðunnar til að koma á köfun, rétt eins og gert var fyrir haus og upplýsingasíðurnar í dæmi 1.
 
 2.  Þar sem búist er við fleiri en einni gerð upphæðar í dreifingu í dæmi 2 (vsk, gjöld, og svo framvegis) verður gagnlegt að sýna lýsingu á gerð upphæðar. (Þessum upplýsingum var sleppt í dæmi 1.)
-
 
 
 

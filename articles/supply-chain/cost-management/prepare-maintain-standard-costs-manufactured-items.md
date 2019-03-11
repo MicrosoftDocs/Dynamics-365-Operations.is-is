@@ -1,33 +1,31 @@
 ---
-title: "Undirbúa viðhald staðalkostnaðar fyrir framleiddar vörur"
-description: "Þetta efnisatriði fjallar um skrefin til að undirbúa viðhald kostnaðar fyrir framleiddar vörur."
+title: Undirbúa viðhald staðalkostnaðar fyrir framleiddar vörur
+description: Þetta efnisatriði fjallar um skrefin til að undirbúa viðhald kostnaðar fyrir framleiddar vörur.
 author: AndersGirke
 manager: AnnBe
 ms.date: 01/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fbd7344f3d542cbd46e3568d8a7911ab4ab53b17
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: c1942d1f2c8eeb05a6cbaddd2d7911a93b7e05a1
-ms.contentlocale: is-is
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350620"
 ---
-
-
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>Undirbúa viðhald staðalkostnaðar fyrir framleiddar vörur
 
 [!include [banner](../includes/banner.md)]
@@ -74,5 +72,4 @@ Ef þú vilt nota leiðarlýsingar í kostnaðartilgangi er nauðsynlegt að fre
 [Afskrifa fastan kostnað fyrir framleidda vöru](amortize-constant-costs-manufactured-item.md)
 
 [Uppsetning afurða sem hægt er að framleiða eða kaupa](manufactured-items-treated-as-purchased-items.md)
-
 

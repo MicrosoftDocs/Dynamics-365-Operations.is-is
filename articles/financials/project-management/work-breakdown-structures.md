@@ -1,13 +1,13 @@
 ---
-title: "Sundurliðanir verkþátta"
-description: "Sundurliðun verkþátta (WBS) er lýsing á vinnu sem verður að gera fyrir verk. Það er stigveldi af verkum sem táknar skilning verkhópsins á samsetningu vinnu og á stærð, kostnaði og tímalengd hvers efnisþáttar eða verks."
+title: Sundurliðanir verkþátta
+description: Sundurliðun verkþátta (WBS) er lýsing á vinnu sem verður að gera fyrir verk. Það er stigveldi af verkum sem táknar skilning verkhópsins á samsetningu vinnu og á stærð, kostnaði og tímalengd hvers efnisþáttar eða verks.
 author: KimANelson
 manager: AnnBe
 ms.date: 06/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: df4bc39f8df80580261102941712622ed59262bd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8bc3d23fac6112622e722e57b61fdb686f5a98ed
-ms.contentlocale: is-is
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: is-IS
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358900"
 ---
-
 # <a name="work-breakdown-structures"></a>Sundurliðanir verkþátta
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Stig upplýsinga í WBS fer eftir því stigi nákvæmni sem krafist er í mati 
 
 Aftur á móti eru verkefni í atvinnugreinum eins og miðlun og auglýsingum, hugbúnaði og upplýsingatæknitölvukerfum yfirleitt einstök og framleiðni er í samræmi við reynslu og hæfni einstaklingsins sem framkvæmir verkið. Þess vegna nota þessar atvinnugreinar WBS til að fá áætlun á stærð verksins, en ekki til að rekja sundurliðaða framvindu verksins. 
 
-Uppbygging WBS er vinnslufrekt ferli sem er yfirleitt gert yfir langt tímabil og sem krefst samvinnu og upplýsinga frá víðtækum hópi einstaklinga. Þetta efnisatriði lýsir því hvernig hægt er að nota viðbætur WBS í Microsoft Dynamics 365 for Finance and Operations til að uppfylla kröfur fyrir mat og rakningu.
+Uppbygging WBS er vinnslufrekt ferli sem er yfirleitt gert yfir langt tímabil og sem krefst samvinnu og upplýsinga frá víðtækum hópi einstaklinga. Þetta efnisatriði lýsir því hvernig hægt er að nota viðbætur WBS í Microsoft Dynamics 365 for Finance and Operations til að uppfylla kröfur fyrir mat og rakningu.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Forkröfur fyrir stofnun WBS
 Til að stofna WBS, verður að vera hægt að stofna vinnuáætlun og meta kostnað vinnu.
@@ -106,7 +105,7 @@ Sem stendur er ekki hægt að sérsníða númer sundurliðunar verkþátta.
 Tímasetning áætlunar er yfirleitt annað skrefið í stofnun WBS. Bestu starfsvenjur eru að ljúka við tímasetningu áætlunar þegar búið er að stofna verk. Síðan **Sundurliðun verkþátta** í Finance and Operations hefur tvo hluta. Efri rúðan er ætluð fyrir tímasetningu áætlunar og sú neðri inniheldur flipann **Áætlaður kostnaður og tekjur** sem hægt er að nota fyrir kostnaðarmat. 
 **Tengsl verkefnis** Í WBS er hægt að stofna forveravensl milli verka. Þegar forveraverkefni er úthlutað á verk getur það verk aðeins hafist eftir að öllum forveraverkum þess er lokið. Áætluð upphafsdagsetning verksins er sjálfkrafa stillt á síðustu dagsetningu allra forvera. 
 
-**Verkáætlun í Microsoft Dynamics 365 for Finance and Operations** Eftirfarandi þættir ákvarða áætlun fyrir verkefni í hnút:
+**Verkáætlun í Microsoft Dynamics 365 for Finance and Operations** Eftirfarandi þættir ákvarða áætlun fyrir verkefni í hnút:
 
 -   Forverar
 -   Framlag
@@ -249,7 +248,7 @@ Finance and Operations notar 0:100 tekjuregluna þegar það teiknar áætluð g
 
 **Áunnið virði** EVM-kenningin tilgreinir að teiknun áunnins virðis stendur fyrir tíðni sem verkteymið ávinnur sér í raun virði í verkinu. 
 
-Finance and Operations notar 0:100 tekjuregluna þegar það teiknar áunnið gildi. Samkvæmt þessari reglu er virði verksins er bókað á verk frá og með lokadagsetningunni. Ekkert gildi er bókað fyrr en verki er 100 prósent lokið. 
+Finance and Operations notar 0:100 tekjuregluna þegar það teiknar áunnið virði. Samkvæmt þessari reglu er virði verksins er bókað á verk frá og með lokadagsetningunni. Ekkert gildi er bókað fyrr en verki er 100 prósent lokið. 
 
 Þegar áunnið virði er reiknað er tekið tillit til framvinduhlutfalls hvers verks. Samkvæmt 0:100 tekjureglunni er eingöngu tekið tillit til verka sem er lokið á tilteknu tímabili fyrir útreikning á áunnu virði í lok þess tímabils. Áunnið virði verks er reiknað fyrir öll verkefni sem hefur verið lokið þegar línuritið er stofnuð. 
 
@@ -314,7 +313,6 @@ Framlag = Fjöldi tilfanga × Tímalengd × Tímafjöldi á stöðluðum vinnude
 Hægt er að leiðrétta allar áætlunarvillur í einu með því að smella á **Laga allar áætlunarvillur**. 
 
 Einnig er hægt að leiðrétta hverja áætlunarvillu fyrir sig með því að smella á viðvörunartáknið fyrir hvert verkefni.
-
 
 
 
