@@ -3,7 +3,7 @@ title: Viðskiptaskuldir – heimasíða
 description: Í þessu efnisatriði er að finna yfirlit yfir viðskiptaskuldir.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/18/2017
+ms.date: 02/15/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6cc7ee98b3fabb774339dd1fc027d38d00d8b31f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: f1acf2bade2bb279a35fdf4689bbbcc49e64101f
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302427"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403286"
 ---
 # <a name="accounts-payable-home-page"></a>Viðskiptaskuldir – heimasíða
 
@@ -119,19 +119,21 @@ Eftirfarandi efnisatriði veita upplýsingar um uppgjör. Uppgjör er það ferl
 
 
 
-### <a name="additional-resources"></a>Frekari tilföng
+### <a name="additional-resources"></a>Frekari upplýsingar
 
 #### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
 
-Á [Microsoft Dynamics 365-leiðarvísinum](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
+Í [útgáfuupplýsingum Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) sérðu hvaða nýju eiginleikar eru fyrirhugaðir. 
 
 #### <a name="blogs"></a>Blogg
 
-Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) er að finna umfjöllun, fréttir og aðrar upplýsingar um viðskiptaskuldir og aðrar lausnir.
-
-Það eru margar færslur um viðskiptaskuldir á bloggsíðu afurðateymisins fyrir [Microsoft Dynamics AX ](https://blogs.msdn.microsoft.com/dax/). Þótt sumar þessara færslna hafi verið skrifaðar um eldri útgáfu Viðskiptaskulda eiga sömu hugtök enn við og ferlin eru líka svipuð í nýjustu útgáfunni.
+Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)og [Microsoft Dynamics 365 Finance and Operations - Financials-blogginu](https://community.dynamics.com/365/financeandoperations/b/financials) er að finna umfjöllun, fréttir og aðrar upplýsingar um viðskiptaskuldir og aðrar lausnir.
 
 Blogg [Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir samstarfsaðilum Microsoft Dynamics aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika MBS Operations á einum stað.
+
+#### <a name="community-blogs"></a>Samfélagsblogg
+
+[Hvernig á að vinna með viðskiptaskuldir í Dynamics 365 for Finance and Operations](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
 
 #### <a name="task-guides"></a>Verkleiðbeiningar
 Frekari hjálp er í boði sem verkleiðbeiningar í Finance and Operations. Smellið á hnappinn Hjálp á hvaða síðu sem er til að fá aðgang að verkleiðbeiningum.

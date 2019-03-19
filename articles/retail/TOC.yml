@@ -1,10 +1,14 @@
 items:
 - name: Velkomin(n) í Dynamics 365 for Retail
   href: index.md
-- name: Hafist handa
+- name: Hefjast handa
   items:
   - name: Nýjungar eða breytingar
     href: get-started/whats-new.md
+  - name: Kynning á eiginleikum í Dynamics 365 for Retail 10.0.1
+    href: get-started/whats-new-10-0-1.md
+  - name: Nýjungar og breytingar í Dynamics 365 for Retail (apríl 2019)
+    href: get-started/april-whats-new.md
   - name: Áður en þú kaupir Retail
     href: get-started/before-you-buy.md
   - name: Skráðu þig fyrir prufuáskrift
@@ -109,7 +113,11 @@ items:
   - name: Valkostir heildarupphæðar og tímabilsútreikninga fyrir VSK-kóða
     href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
 - name: Ítarleg sjálfvirk gjöld fyrir omni-rás
-  href: omni-auto-charges.md
+  items:
+  - name: Stilla og nota ítarleg sjálfvirk gjöld
+    href: omni-auto-charges.md
+  - name: Hlutfallsskipti og flokkun á hausum sjálfvirkra gjalda
+    href: pro-rate-charges-matching-lines.md
 - name: Símaver
   items:
   - name: Söluvirkni símavers
@@ -387,7 +395,7 @@ items:
     - name: Afgreiðslukassavirkni
       href: localizations/emea-swe-cash-registers.md
     - name: Dæmi um Retail POS-samþættingu fyrir stjórntæki
-      href: dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md
+      href: localizations/retail-sdk-control-unit-sample.md
 - name: Retail-verk
   items:
   - name: Stofna afurð
@@ -553,6 +561,8 @@ items:
       href: dev-itpro/hybridApp.md
     - name: Hnekkja beiðnistjóra sölustaðar
       href: dev-itpro/pos-handler.md
+    - name: Skoða upplýsingar um viðbótarpakka fyrir sölustaði
+      href: view-pos-extension-package-details.md
   - name: Hardware Station og stækkunarhæfni
     href: dev-itpro/hardware-station-extensibility.md
   - name: Stækkunarhæfni Retail Server
@@ -659,9 +669,9 @@ items:
     items:
     - name: Vildarviðbót
       href: dev-itpro/retail-sdk/loyalty-extension-sample.md
-ms.openlocfilehash: 1f86096b0572f0309afa04e086d53294a7a8f4fa
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 0d6ec0ba8723f81c21d735be455e35d8f1b62187
+ms.sourcegitcommit: 39c17fe619b075f56e8baffd087a830fc2fb8022
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377252"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791639"

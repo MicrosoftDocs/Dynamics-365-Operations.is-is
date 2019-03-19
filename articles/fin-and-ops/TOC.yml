@@ -35,12 +35,6 @@ items:
     - name: Nýjungar eða breytingar
       href: get-started/whats-new-changed.md
       items:
-      - name: Algengar spurningar um uppfærslureglur One version
-        href: get-started/one-version.md
-      - name: Reglur um stuðningstíma hugbúnaðar og skýjaútgáfur
-        href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
-      - name: Reglur um stuðningstíma hugbúnaðar og útgáfur á staðnum
-        href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
       - name: Lok venjulegs stuðnings fyrir Microsoft Dynamics AX 2009 og 2012
         href: get-started/mainstream-support-ax-2009-2012.md
       - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
@@ -49,10 +43,14 @@ items:
         href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
       - name: Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum
         href: get-started/features-not-implemented-on-prem.md
+      - name: Forskoðun á eiginleikum í Finance and Operations, útgáfu 10.0.1 (apríl 2019)
+        href: get-started/whats-new-changed-10-0-1.md
       - name: Finance and Operations, útgáfa 10.0 (apríl 2019)
         href: get-started/whats-new-changed-10.md
       - name: Finance and Operations, útgáfa 8.1.3 (janúar 2019)
         href: get-started/whats-new-changed-8-1-3.md
+      - name: Forskoðun á eiginleikum í Finance and Operations platform update 25 (apríl 2019)
+        href: get-started/whats-new-platform-25.md
       - name: Platform update 24 (mars 2019)
         href: get-started/whats-new-platform-update-24.md
       - name: Platform Update 23 (janúar 2019)
@@ -202,6 +200,29 @@ items:
       href: get-started/move-lcs-implementation-project-tenant.md
     - name: Mörg LCS-verk og vinnsluumhverfi á einn Azure AD-leigjanda
       href: get-started/implement-multiple-projects-aad-tenant.md
+  - name: One Version þjónustuuppfærslur
+    href: ../dev-itpro/lifecycle-services/oneversion-overview.md
+    items:
+    - name: Algengar spurningar um uppfærslureglur One version
+      href: get-started/one-version.md
+    - name: Reglur um stuðningstíma hugbúnaðar – Ský
+      href: ../dev-itpro/migration-upgrade/versions-update-policy.md
+    - name: Reglur um stuðningstíma hugbúnaðar – Innanhúss
+      href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md
+    - name: Uppfærsluþjónusta staðlaðrar og fyrstu útgáfu
+      href: get-started/public-preview-releases.md
+    - name: Nota uppfærslur á skýjaumhverfi
+      href: ../dev-itpro/deployment/apply-deployable-package-system.md
+    - name: Skilgreina þjónustuuppfærslur
+      href: ../dev-itpro/lifecycle-services/configure-service-updates.md
+    - name: Gera hlé á þjónustuuppfærslum
+      href: ../dev-itpro/lifecycle-services/pause-service-updates.md
+    - name: Fá tilkynningar um þjónustuuppfærslur
+      href: ../dev-itpro/lifecycle-services/notifications-service-updates.md
+    - name: Sjálfvirk verkgögn
+      href: ../dev-itpro/data-entities/data-task-automation.md
+    - name: Regression Suite Automation Tool
+      href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
   - name: Viðskiptatilvik
     href: ../dev-itpro/business-events/home-page.md
     items:
@@ -401,7 +422,7 @@ items:
             href: ../supply-chain/sales-marketing/synchronize-project-list.md
           - name: Samstilla vöruhús úr Finance and Operations við Field Service
             href: ../supply-chain/sales-marketing/synchronize-warehouse.md
-          - name: Samstilla vinnupantanir úr Finance and Operations við Field Service
+          - name: Samstilla vinnupantanir við verk úr Field Service í Finance and Operations
             href: ../supply-chain/sales-marketing/synchronize-work-orders.md
         - name: Skilgreina samþættingu Project Service Automation
           href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
@@ -1416,6 +1437,8 @@ items:
           href: ../financials/localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
         - name: Setja upp NF-e-færibreytur fyrir fjárhagsstofnun
           href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+      - name: SPED ECD
+        href: ../financials/localizations/latam-bra-sped-ecd.md
       - name: SPED-Reinf fyrir skattauppgjör
         href: ../financials/localizations/latam-bra-sped-reinf.md
       - name: Færibreytur fyrir lögaðila
@@ -2236,6 +2259,8 @@ items:
           href: ../financials/localizations/rus-sales-books-purchase-books.md
       - name: Eignir
         items:
+        - name: Uppsetning eigna
+          href: ../financials/localizations/rus-set-up-fixed-assets.md
         - name: Komast yfir eignir og koma þeim í rekstur
           href: ../financials/localizations/rus-fixed-asset-acquisition.md
         - name: Skrá eignakaup
@@ -2266,6 +2291,18 @@ items:
           href: ../financials/localizations/rus-bonus-depreciation.md
         - name: Reikna út afskriftir
           href: ../financials/localizations/rus-depreciation-calculation.md
+      - name: Viðskiptaskuldir og viðskiptakröfur
+        items:
+        - name: Reikningar til greiðslu
+          href: ../financials/localizations/rus-invoice-payment.md
+        - name: Setja upp víddarstýringar fyrir uppgjör
+          href: ../financials/localizations/rus-transactions-settlement-date.md
+        - name: Stjórnun sjóðstreymis
+          href: ../financials/localizations/rus-cash-flow.md
+      - name: Skýrslugjöf
+        items:
+        - name: Fjárhagsskýrslugerð
+          href: ../financials/localizations/rus-financial-reports.md
       - name: Fyrirtækjasvið
         href: ../financials/localizations/rus-company-divisions.md
       - name: Setja upp gengi fyrir gjaldeyrisviðskipti
@@ -2280,8 +2317,10 @@ items:
         href: ../financials/localizations/rus-invoice-payment.md
       - name: Fjárhagsskýrslugerð
         href: ../financials/localizations/rus-financial-reports.md
-      - name: Stofna innkaupabók
-        href: ../financials/localizations/rus-sales-books-purchase-books.md
+      - name: Reikningsskýrslur á rafrænu formi
+        href: ../financials/localizations/rus-accounting-reporting.md
+      - name: Stjórnun sjóðstreymis
+        href: ../financials/localizations/rus-cash-flow.md
     - name: Sádi-Arabía
       href: ../financials/localizations/saudi-arabia.md
       items:
@@ -2367,6 +2406,8 @@ items:
         href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
       - name: Uppsetning VSK-flokka fyrir bakfærð gjöld
         href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+      - name: Stafrænir skattar fyrir VSK
+        href: ../financials/localizations/emea-gbr-mtd-vat-integration.md
     - name: Bandaríkin
       href: ../financials/localizations/united-states.md
       items:
@@ -2728,7 +2769,7 @@ items:
         href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
       - name: Hanna skilgreiningar til að búa til skýrslur á OpenXML-sniði
         href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
-      - name: Breyta rafrænum skýrslugerðarsniðum með því að endurnýta Microsoft Excel-sniðmát
+      - name: Breyta rafrænum skýrslugerðarsniðum með því að endurnýta Excel-sniðmát
         href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
       - name: Velja skilgreiningu gagnalíkans þegar snið er búið til
         href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
@@ -2827,6 +2868,8 @@ items:
           href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
         - name: Breytingar á API rafræns skýrslugerðarramma fyrir forritsuppfærslu 7.3
           href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+        - name: Tilgreina sérsniðna geymslu fyrir skjöl sem eru mynduð
+          href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
     - name: Innfelldar greiningarlausnir
       items:
       - name: Power BI fellt inn í vinnusvæði
@@ -3281,6 +3324,8 @@ items:
         href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
       - name: Skýrsla um verkflæðisgerðir
         href: organization-administration/workflow-types-report.md
+      - name: Algengar spurningar um verkflæði
+        href: organization-administration/workflow-FAQ.md
     - name: Viðvaranir
       href: get-started/alerts-overview.md
       items:
@@ -3799,8 +3844,6 @@ items:
         href: ../supply-chain/sales-marketing/tasks/enter-sales-agreements.md
       - name: Uppfylla sölusamninga
         href: ../supply-chain/sales-marketing/tasks/fulfill-sales-agreements.md
-      - name: Stofna nýja verðsamning
-        href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
       - name: Mynda og vinna úr eftirágreiddum afslætti viðskiptavina
         href: ../supply-chain/sales-marketing/tasks/process-customer-rebates.md
       - name: Vinna úr eftirágreiddum afslætti fyrir greiðslu
@@ -3827,6 +3870,8 @@ items:
         href: ../supply-chain/sales-marketing/tasks/set-up-sales-commission-rules.md
     - name: Afsláttur
       href: ../supply-chain/sales-marketing/trade-allowance.md
+    - name: Stofna nýja verðsamning
+      href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
   - name: Þjónustustjórnun
     href: ../supply-chain/service-management/service-management-home-page.md
     items:
@@ -3867,9 +3912,9 @@ items:
           href: ../supply-chain/service-management/service-object-relations.md
         - name: Stofna tengsl þjónustuhluta
           href: ../supply-chain/service-management/create-service-object-relations.md
-        - name: Sniðmáts-BOM
+        - name: Sniðmátsuppskriftir
           href: ../supply-chain/service-management/template-boms.md
-        - name: Stofna sniðmáts-BOM
+        - name: Stofna sniðmátsuppskriftir
           href: ../supply-chain/service-management/create-template-bom.md
         - name: Festa sniðmát við þjónustuhluti
           href: ../supply-chain/service-management/attach-templates-service-objects.md
@@ -3927,7 +3972,7 @@ items:
           href: ../supply-chain/service-management/change-service-order-stage.md
         - name: Uppfæra og meta samninga
           items:
-          - name: Stjórna sniðmáts-BOM fyrir tengsl hluta
+          - name: Stjórna sniðmátsuppskriftum fyrir tengsl hluta
             href: ../supply-chain/service-management/manage-template-boms-on-object-relations.md
           - name: Eyða þjónustuuppskrift
             href: ../supply-chain/service-management/delete-service-bom.md
@@ -4241,9 +4286,9 @@ items:
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-ms.openlocfilehash: cb58a9f8fa8305a3d8b956804ef74bef86ca04b9
-ms.sourcegitcommit: 7e0097bdd835e04521bffbce2fd802e6381dde0d
+ms.openlocfilehash: a1c64fd645063db11c632b34e8e0b934c97f2251
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "376919"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836397"

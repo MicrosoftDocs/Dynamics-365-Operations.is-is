@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 45b628376a483d3d639e5c018dd93570ed8ce7af
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 43571099727830e81c41416b6fe250dba398b3f8
+ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302423"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "379925"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Skilgreina og vinna úr skiptum á skilapöntun
 
 [!include [banner](includes/banner.md)]
 
-Í eldri útgáfum af Microsoft Dynamics 365 for Retail var notað skjal vöruskilapöntunar í Retail headquarters við úrvinnslu á skilum sem tengdust pöntunum viðskiptavina. Hins vegar er aðeins hægt að nota skjal skilapöntunar til að vinna úr afurðum sem verið er að skila. Afurðir sem hefur verið skilað eru sýndar með neikvæðu magni á línum skilapöntunar. Aftur á móti eru sölur sýndar með jákvæðu magni. Skjal vöruskilapöntunar styður hins vegar ekki jákvætt magn. Út af þessari takmörkun studdu eldri útgáfur af Retail ekki kringumstæður þar sem skil afurða eru gerð með því að nota skjal skilapöntunar.
+Í eldri útgáfum af Microsoft Dynamics 365 for Retail var notað skjal vöruskilapöntunar í Retail Headquarters við úrvinnslu á skilum sem tengdust pöntunum viðskiptavina. Hins vegar er aðeins hægt að nota skjal skilapöntunar til að vinna úr afurðum sem verið er að skila. Afurðir sem hefur verið skilað eru sýndar með neikvæðu magni á línum skilapöntunar. Aftur á móti eru sölur sýndar með jákvæðu magni. Skjal vöruskilapöntunar styður hins vegar ekki jákvætt magn. Út af þessari takmörkun studdu eldri útgáfur af Retail ekki kringumstæður þar sem skil afurða eru gerð með því að nota skjal skilapöntunar.
 
 Hins vegar er búið að bæta við virkni sem styður kringumstæður þar sem gerð eru skipti á vöruskilapöntunum. Retail notar nú sölupöntunarskjalið í stað skjals vöruskilapöntunar til að vinna úr þess konar færslugerðum.
 
@@ -44,7 +44,7 @@ Fylgið þessum skrefum til að skilgreina kerfið svo það styðji skipti á v
 
 Eftir að kerfið hefur verið skilgreint samkvæmt lýsingu í kaflanum hér á undan, heldur notandi sölustaðar áfram að velja sölupöntun eða sölureikning til að vinna úr skilum eins og í eldri útgáfum af Retail. Eftir að skilavörum er bætt við körfuna getur notandinn hins vegar bætt nýjum sölulínum við hana.
 
-Notandi verður að skilgreina allar nauðsynlegar eigindir fyrir þessar nýju sölulínur til að geta unnið úr pöntunarlínu viðskiptavinar. Þessar eigindir fela í sér afhendingaraðferð og uppfyllingarstaðsetningu. Greiðslan sem þarf að inna af hendi fyrir færsluna verður nettó af línum vöruskilapöntunar og línum sölupöntunar. Þegar greiðsla er gerð upp fyrir færsluna verður skilapöntunin bókuð sem sölupöntunarskjal í höfuðstöðvum Retail og kerfið reikningsfærir um leið skilalínurnar.
+Notandi verður að skilgreina allar nauðsynlegar eigindir fyrir þessar nýju sölulínur til að geta unnið úr pöntunarlínu viðskiptavinar. Þessar eigindir fela í sér afhendingaraðferð og uppfyllingarstaðsetningu. Greiðslan sem þarf að inna af hendi fyrir færsluna verður nettó af línum vöruskilapöntunar og línum sölupöntunar. Þegar greiðsla er gerð upp fyrir færsluna verður skilapöntunin bókuð sem sölupöntunarskjal í Retail Headquarters og kerfið reikningsfærir um leið skilalínurnar.
 
 Til að bjóða upp á aukinn sýnileika á hinum ýmsu upphæðum fyrir körfuna hefur þremur nýjum upphæðareitum verið bætt við hana. Hægt er að nota skjáhönnuðinn til að gera þessa nýju reiti tiltæka í notandaviðmóti sölustaðar.
 

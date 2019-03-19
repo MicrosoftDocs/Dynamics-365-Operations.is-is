@@ -46,6 +46,10 @@ items:
       href: dev-tools/development-tools-overview.md
     - name: Kennsla á þróunarverkfæri
       href: dev-tools/introduction-visual-studio.md
+    - name: AppChecker
+      items:
+      - name: Setja upp BaseX fyrir AppChecker
+        href: dev-tools/install-basex.md
     - name: Application Explorer
       href: dev-tools/application-explorer.md
     - name: Smíða og kemba verk
@@ -262,8 +266,10 @@ items:
         href: extensibility/extensibility-changes-811.md
       - name: Breytingar á stækkunarhæfni, útgáfa 8.1.2
         href: extensibility/extensibility-changes-812.md
-      - name: Breytingar á stækkunarhæfni útgáfu 8.1.3
+      - name: Breytingar á stækkunarhæfni, útgáfa 8.1.3
         href: extensibility/extensibility-changes-813.md
+      - name: Breytingar á stækkunarhæfni, útgáfa 10.0
+        href: extensibility/extensibility-changes-10.md
     - name: Undirstöðuatriði
       items:
       - name: Sérstillingar sem valda röskunum
@@ -887,6 +893,7 @@ items:
   - name: Setja upp sýniútgáfuumhverfi
     href: deployment/deploy-demo-environment.md
   - name: Uppsetning skýs
+    href: deployment/cloud-deployment-overview.md
     items:
     - name: Sjálfsafgreiðsla uppsetningar
       href: deployment/infrastructure-stack.md
@@ -911,7 +918,7 @@ items:
       href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
     - name: Nota uppfærslur á skýjaumhverfi
       href: deployment/apply-deployable-package-system.md
-    - name: Nota uppfærslur og viðbætur við hluta Retail-smásölurásar í skýi
+    - name: Nota uppfærslur og viðbætur við hluta smásölurásar í skýi
       href: deployment/Update-retail-channel.md
     - name: Frumstilla hluta Retail-smásölurásar í skýi
       href: deployment/Initialize-Retail-Channels.md
@@ -931,7 +938,7 @@ items:
       items:
       - name: Virkja umhverfi á staðnum í (Platform update 12 og síðari útgáfur)
         href: deployment/setup-deploy-on-premises-pu12.md
-      - name: Virkja umhverfi á staðnum í (verkvangsuppfærslur 8 og 11)
+      - name: Virkja umhverfi á staðnum í (Platform update 8 og 11)
         href: deployment/setup-deploy-on-premises-pu8-pu11.md
       - name: Uppsetningarskref fyrir hluta Retail-rásar í staðbundnu umhverfi
         href: deployment/deploy-retail-onprem.md
@@ -1073,10 +1080,12 @@ items:
       href: dev-tools/update-development-tools.md
   - name: Afskriftir
     items:
-    - name: Úrelt API
-      href: migration-upgrade/deprecated-apis.md
-    - name: Úreltir eiginleikar
+    - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
       href: migration-upgrade/deprecated-features.md
+    - name: Úrelding aðferða og eininga lýsigagna
+      href: migration-upgrade/deprecation-deletion-apis.md
+    - name: Úrelt API (júní 2017)
+      href: migration-upgrade/deprecated-apis.md
 - name: Kerfisstjórnun
   href: sysadmin/system-administration-home-page.md
   items:
@@ -1122,6 +1131,8 @@ items:
       href: sysadmin/activeperiod.md
     - name: Öryggishlutverk runuumsjónar
       href: sysadmin/runby.md
+    - name: Runuvinnsla fyrir endurröðun SQL-atriðaskráar
+      href: sysadmin/batch-job-SQL-defragmentation.md
   - name: Fínstillingarráðgjöf
     href: sysadmin/optimization-advisor-overview.md
     items:
@@ -1200,18 +1211,30 @@ items:
       href: lifecycle-services/use-translation-service-ua.md
     - name: Skrár þýðingaminnis
       href: lifecycle-services/use-translation-service-tm.md
-- name: Stjórnun gagnagrunns
+- name: Aðgerðir í flutningi gagnagrunns
   items:
-  - name: Afrita gagnagrunna úr Azure SQL-gagnagrunni í SQL Server-umhverfi
-    href: database/copy-database-from-azure-sql-to-sql-server.md
-  - name: Afrita gagnagrunna úr SQL Server í Azure SQL Server-gagnagrunnsumhverfi með framleiðslu
-    href: database/copy-database-from-sql-server-to-azure-sql.md
-  - name: Endurheimta gagnagrunna í umhverfi án framleiðslu
-    href: database/request-point-in-time-restore.md
-  - name: Flytja út afrit af gagnagrunnum fyrir endurheimt seinna meir
-    href: database/copy-operations-database.md
-  - name: Beiðni um uppfærslur á sandkassagagnagrunni
-    href: database/database-refresh.md
+  - name: Yfirlit
+    href: database/dbmovement-operations.md
+  - name: Stuttir leiðarvísar
+    items:
+    - name: Uppfæra gagnagrunn
+      href: database/database-refresh.md
+    - name: Flytja út gagnagrunn
+      href: database/export-database.md
+    - name: Flytja inn gagnagrunn
+      href: database/import-database.md
+    - name: Endurheimt tímapunkts gagnagrunns
+      href: database/database-point-in-time-restore.md
+  - name: Kennsla
+    items:
+    - name: Uppfærið fyrir þjálfun
+      href: database/dbmovement-scenario-general-refresh.md
+    - name: Kembing og greining
+      href: database/dbmovement-scenario-debugdiag.md
+    - name: Kynning á gullgrunnstillingu
+      href: database/dbmovement-scenario-goldenconfig.md
+    - name: Eyðileggingarprófun
+      href: database/dbmovement-scenario-destructivetests.md
 - name: Stuðningur
   items:
   - name: Fá stuðning fyrir Finance and Operations og Lifecycle Services
@@ -1228,9 +1251,9 @@ items:
     href: lifecycle-services/cloud-operations-servicing.md
   - name: Stjórna upplifun stuðnings fyrir Finance and Operations
     href: lifecycle-services/cloud-powered-support-lcs.md
-ms.openlocfilehash: 9baabd73eb9a6e0c33b41bc30a1ba0788a858ce9
-ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
+ms.openlocfilehash: b2462f8391ba3253b61c72bea481266d04ac8721
+ms.sourcegitcommit: 32e98213118968307c48b656b663c3df897faa79
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "373324"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "773803"
