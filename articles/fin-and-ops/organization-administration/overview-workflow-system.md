@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eb6d743131937081ce83b31988d792185cb28b2
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a35184a48eff9e320087cb9390a0f1eed1e7ba19
+ms.sourcegitcommit: 9a723737565ac78c884e40f7129d0f5aad747524
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308645"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773089"
 ---
 # <a name="workflow-system"></a>Verkflæðiskerfi
 
@@ -71,3 +71,4 @@ Nokkrir kostir eru við að nota verkflæðiskerfi í fyrirtækinu:
 + [Grunnstilla hliðstæðan verkþátt í verkflæði](configure-parallel-activity-workflow.md)
 + [Grunnstilla samhliða grein í verkflæði](configure-parallel-branch-workflow.md)
 + [Skilgreining verkflæðis línuatriðis](configure-line-item-workflow.md)
++ [Algengar spurningar um verkflæði](workflow-FAQ.md)

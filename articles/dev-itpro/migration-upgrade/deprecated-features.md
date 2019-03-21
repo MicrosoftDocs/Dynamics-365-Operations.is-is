@@ -3,7 +3,7 @@ title: Eiginleikar sem hafa verið fjarlægðir eða úreltir
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir.
 author: sericks007
 manager: AnnBe
-ms.date: 12/10/2018
+ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a4dc8f11cfef7c0f42c62c42cd984438a3e119a5
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329253"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836349"
 ---
 # <a name="removed-or-deprecated-features"></a>Fjarlægðir eða úreltir eiginleikar
 
@@ -35,11 +35,77 @@ ms.locfileid: "329253"
 
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð. 
 
-> [!Note]
+> [!NOTE]
 > Frá og með útgáfu Dynamics 365 for Finance and Operations, júlí 2017 með verkvangsuppfærslu 8, eru uppsetningargerðir merktar út frá sérhverjum eiginleika sem hefur verið fjarlægður eða úreltur. Allar fyrri útgáfur sem nefndar eru í þessu efnisatriði studdu aðeins dreifingar til skýjanna.
 
-> [!Note]
+> [!NOTE]
 > Ítarlegar upplýsingar um hluti í Finance and Operations má finna í [Tæknileg tilvísunarskjöl](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu Finance and Operations.
+
+## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1 með verkvangsuppfærslu 25
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.1 með verkvangsuppfærslu 25 er í boði fyrir ákveðna notendur sem hluti af forútgáfu. Innihald og virkni getur tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í [Þjónustuuppfærslur á staðlaðri útgáfu og fyrstu útgáfu](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+### <a name="deprecated-apis-and-potential-breaking-changes"></a>Úrelt API og mögulegar skiptingar breytinga
+
+#### <a name="deriving-from-internal-classes-is-deprecated"></a>Afleiðing frá innri klösum er úrelt
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Í útgáfum á undan verkvangsuppfærslu 25 var hægt að búa til klasa eða töflu sem kemur út frá innri klasa/töflu sem er skilgreind í öðrum pakka/einingu. Þetta er ekki starfsvenja öryggiskóðunar. Frá og með verkvangsuppfærslu 25 mun þýðandinn birta viðvörunarboð ef þú reynir að gera þetta.|
+| **Skipt út fyrir aðra eiginleika?**   | Viðvörun þýðanda verður skipt út fyrir villu í væntanlegri verkvangsuppfærslu. Þessi breyting er samhæf afturvirk við keyrslu, sem þýðir að ef þú ert að keyra verkvangsuppfærslu 25 eða síðar er hægt að nota þetta á hvaða sandkassa- eða framleiðsluumhverfi sem er án þess að þurfa að breyta sérsniðnum kóða. Þessi breyting hefur aðeins áhrif á þróunar- og þýðingartíma. |
+| **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri. |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt - Viðvörunin verður að þýðingarvillu í væntanlegri verkvangsuppfærslu. |
+
+#### <a name="overriding-internal-methods-is-deprecated"></a>Hnekking innri aðferða er úrelt
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Í útgáfum á undan verkvangsuppfærslu 25 var hægt að hnekkja innri aðferð í afleiddum klasa sem er skilgreindur í öðrum pakka/einingu. Þetta er ekki starfsvenja öryggiskóðunar. Frá og með verkvangsuppfærslu 25 mun þýðandinn birta viðvörunarboð ef þú reynir að gera þetta.|
+| **Skipt út fyrir aðra eiginleika?**   | Þessi viðvörun verður skipt út fyrir þýðingarvillu í væntanlegri verkvangsuppfærslu. Þessi breyting er samhæf afturvirk við keyrslu, sem þýðir að ef þú ert að keyra verkvangsuppfærslu 25 eða síðar er hægt að nota þetta á hvaða sandkassa- eða framleiðsluumhverfi sem er án þess að þurfa að breyta sérsniðnum kóða. Þessi breyting hefur aðeins áhrif á þróunar- og þýðingartíma. |
+| **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri. |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt - Viðvörunin verður að þýðingarvillu í væntanlegri verkvangsuppfærslu. |
+
+## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 með verkvangsuppfærslu 23
+
+### <a name="print-to-screen-functionality"></a>Virknin að prenta á skjá
+Viðskiptavinir geta notað aðgerðina **Innflutningur** sem stjórnun skýrsluskoðunar veitir til að sækja skjöl sem forrit Finance and Operations búa til. Þessi HTML-kynning á skýrslunni býður notendum upp á forskoðun á skjalinu án blaðsíðutals.
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Forskoðun á HTML-kynningunni án blaðsíðutals er **ekki** í fullu samræmi við raunverulegu skjölin sem Finance and Operations búa til að lokum. Með því að taka PDF opnum örmum sem staðlað snið fyrir viðskiptaaðgerðir getum við einfaldað til muna möguleika notanda til að vinna með skýrslur forrits og einfaldað myndunarferli skjals. |
+| **Skipt út fyrir aðra eiginleika?**   | Að halda áfram, PDF skjöl verða sjálfgefið snið fyrir skýrslur sem Finance and Operations búa til.   |
+| **Afurðasvæði sem haft er áhrif á**         | Þessi breyting hefur **ekki** áhrif á atburðarásir viðskiptavinar þar sem skýrslum er dreift rafrænt eða sendar beint til prentara.    |
+| **Dreifingarvalkostur**              | Allir  |
+| **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika. Virknin til að sækja sjálfkrafa skýrslur forrits í vafranum sem PDF-skjöl er áformað fyrir verkvangsuppfærslu í maí 2019. <br><br>**Mikilvægt:** Núverandi viðskiptavinir sem reiða sig á eiginleikann „Prenta á skjá“ er ráðlagt að tilkynna [Notendaþjónustu](../lifecycle-services/lcs-support.md) áður en uppfært er í verkvangsfærslu 26. |
+
+### <a name="client-kpi-controls"></a>KPI-stýring biðlara
+Innfellda afkastavísa (KPI) er hægt að þróa í Visual Studio af þróunaraðila og sérsniðið enn frekar af notanda.
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Staðbundin biðlarastýring sem er notuð til að skilgreina afkastavísa er með lága upptöku viðskiptavinar og treystir á að þróunaraðili bæti við rekjanlegum mælingum. |
+| **Skipt út fyrir aðra eiginleika?**   | PowerBI.com þjónusta býður upp á heimsklassa tól til að skilgreina og stjórna afkastavísum sem byggist á gögnum frá utanaðkomandi aðilum.  Í væntanlegri útgáfu er áformað að gera þér kleift að fella inn lausnir sem eru hýstar á PowerBI.com í vinnusvæðum forrits.   |
+| **Afurðasvæði sem haft er áhrif á**         | Þessi uppfærsla kemur í veg fyrir að þróunaraðilar kynni nýjar stýringar afkastavísa í Visual Studio hönnuði.    |
+| **Dreifingarvalkostur**              | Allir  |
+| **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika. |
+
+### <a name="deprecated-apis-and-future-breaking-changes"></a>Úrelt API og framtíðarskiptingar breytinga
+
+#### <a name="field-groups-containing-invalid-field-references"></a>Reitahópar sem innihalda ógilda tilvísanareiti
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Mögulegt er fyrir skilgreiningar á lýsigögnum töflu að hafa reitahópa sem innihalda ógilda tilvísanareiti. Þetta vandamál er sem stendur flokkað sem *viðvörun þýðanda* frekar en *villa* sem þýðir að stofnun virkjanlegs pakka og uppsetning geti haldið áfram án þess að laga vandamálið. Ef sett upp getur það leitt til keyrsluvillu í Fjárhagsskýrslugerð og SQL Server Reporting Services (SSRS). Til að leysa þennan vanda þarf að:<br><br>1. Fjarlægja ógilda tilvísunarreitinn úr skilgreiningu töflureitahópsins.<br><br>2. Endurþýða.<br><br>3. Tryggja að tekið sé á öllum viðvörunum og villum. |
+| **Skipt út fyrir aðra eiginleika?**   | Þessi viðvörun verður skipt út fyrir þýðingarvillu í framtíðinni.  |
+| **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri. |
+| **Dreifingarvalkostur**              | Allt. |
+| **Staða**                         | Úrelt - Viðvörunin verður þýðingartímavilla í framtíðinni. Sem stendur stefnum við á verkvangsuppfærslu 30. |
+
+#### <a name="complete-list"></a>Heildarlisti
+Til að fá aðgang að heildarlista afkastavísa sem verið er að úrelda skal sjá [Úrelding á aðferðum og einingum lýsigagna](deprecation-deletion-apis.md).
 
 ## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 með verkvangsuppfærslu 20
 
@@ -573,7 +639,7 @@ Tvö snið fyrir útflutning á greiðslum eru tiltækar fyrir Finnland. LM02 (F
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Vöruhúsakerfi II-lausn (WMS II) sem var tiltækt í virkni tvíteknu kerfiseininga **Birgðastjórnunar** sem er í **vöruhúsakerfinu** sem var gefin út í Microsoft Dynamics AX 2012 R3.                                                                         |
-| **Skipt út fyrir aðra eiginleika?**   | **Vöruhúsakerfinu** sem var gefið út í AX 2012 R3, AX 2012, Microsoft Dynamics AX R3 CU8 og Dynamics AX 2012 R3 CU9 kemur í stað virkni vöruhúsakerfis II. Nýja kerfið hefur fleiri ítarlegar aðgerðir og sveigjanlegri vöruhúsakerfisferli en vöruhúsakerfi II. |
+| **Skipt út fyrir aðra eiginleika?**   | **Vöruhúsakerfinu** sem var gefið út í AX 2012 R3, Microsoft Dynamics AX 2012, R3 CU8 og Dynamics AX 2012 R3 CU9 kemur í stað virkni vöruhúsakerfis II. Nýja kerfið hefur fleiri ítarlegar aðgerðir og sveigjanlegri vöruhúsakerfisferli en vöruhúsakerfi II. |
 | **Afurðasvæði sem haft er áhrif á**         | Birgðastjórnun, sölu og markaðssetningu, innkaup og uppruni   |
 | **Staða**                         | Fjarlægt frá og með Dynamics 365 for Operations útgáfu 1611.    |
 

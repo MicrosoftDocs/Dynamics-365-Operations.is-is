@@ -3,7 +3,7 @@ title: Samþætting eigna
 description: Eignir má samþætta við fjárhag, birgðastjórnun, viðskiptakröfur og viðskiptaskuldir. Einnig er hægt að setja upp eignir þannig að þær séu samþættar með innkaupapöntunum.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5d33de3af05668bc9aedc94894b12d16daf78e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2023d68a1455c6bb5ec569b6ae19fc3268f8769d
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336981"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778156"
 ---
 # <a name="fixed-assets-integration"></a>Samþætting eigna
 
@@ -41,7 +41,7 @@ Eignir má samþætta við fjárhag, birgðastjórnun, viðskiptakröfur og við
 ## <a name="inventory-management"></a>Birgðir
 Í birgðafærslubók fyrir eignir getur þú slegið inn kaup á eignum sem lögaðili hefur framleitt eða smíðað fyrir sig. Síðan er hægt að flytja vörur í birgðum til eigna sem kaup eða sem hluta af kaupum. 
 
-Einnig er hægt að fá eignir með því að nota innkaupapantanir Þegar innkaupapantanir innihalda birgðavörur sem eru merktar sem eignir ákvarðar stillingin í gátreitnum **Leyfa eignakaup úr innkaupum** á síðunni **Færibreytur eigna** hvort kaupin séu bókuð fyrir eignina þegar reikningurinn er bókaður. Gildi sem hefur kaup eigna á birgðir fer eftir uppsetningu lögaðila. 
+Einnig er hægt að fá eignir með því að nota innkaupapantanir Þegar innkaupapantanir innihalda birgðavörur sem eru merktar sem eignir ákvarðar stillingin í gátreitnum **Leyfa eignakaup úr innkaupum** á síðunni **Færibreytur eigna** hvort kaupin séu bókuð fyrir eignina þegar reikningurinn er bókaður. Ein innkaupalína býr til eina eign, óháð magninu. Gildi sem hefur kaup eigna á birgðir fer eftir uppsetningu lögaðila. 
 
 Þegar birgðavara breytist í eignakaup, annað hvort í gegnum birgðabók, innkaupapöntun, eða kauptillögu, stofnast kaupfærsla bókar eignarinnar. Ef kaupvirðisfærsla fela í sér afleidda bók, stofnast einnig kaupvirðisfærsla afskriftarbókar. 
 

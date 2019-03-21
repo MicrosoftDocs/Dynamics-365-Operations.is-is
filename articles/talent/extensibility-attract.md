@@ -3,7 +3,7 @@ title: Stækkunarhæfni í Attract
 description: Þetta efnisatriði lýsir því hvernig þú getur stækkað Microsoft Dynamics 365 for Talent - Attract-forritið með því að nota Microsoft Power platform.
 author: josaw
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,18 +18,41 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d9e1dd3a67c5f64b5d05f0f171226085138e0b44
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c77c64070cb82180441f4b629b6884981b9b81d2
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304819"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789652"
 ---
 # <a name="extensibility-in-attract"></a>Stækkunarhæfni í Attract
 
 [!include[banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Talent er byggð ofan á Common Data Service (CDS) fyrir Apps-verkvanginn og hægt er að stækka það með ýmsum hætti með því að nota Microsoft Power Platform og eiginleika sem Common Data Service for Apps býður upp á. Þar af leiðandi er hægt að grunnstilla og sérsníða kerfið með því að nota Microsoft PowerApps og Microsoft Flow. Þú getur einnig fengið frekari greiningar um fólk með því að nota Microsoft Power BI. Ennfremur gera nýjar sérsniðnar aðgerðir, svo sem aðgerðir PowerApps og Web Content (Iframe), ráðningarferlið meira aðlagað en nokkru sinni fyrr. Með því að nota þessar aðgerðir getur þú sérsniðið ráðningarferlið við viðskiptaþarfir þínar og ferli fyrirtækisins og getur tryggt að bæði ráðningarteymið og umsækjendur hafi óaðfinnanlega sérsniðna upplifun.
+
+## <a name="extending-option-sets-in-attract"></a>Safn valkosta fyrir stækkunarhæfni í Attract
+
+**Safn valkosta** (tínslulisti) er gerð svæðis sem hægt er að hafa með í einingu. Það skilgreinir safn valkosta. Þegar safn valkosta birtist í skjámynd notar það stýringu fellilista.  Í Attract eru mörg svæði sem eru söfn valkosta.  Við erum farin að kynna möguleikann á því að stækka söfn valkosta, fyrst reitinn fyrir ástæðu höfnunar, reitinn fyrir starfsgerð og reitinn fyrir gerð starfsaldurs.   Einnig er hægt að bæta við staðfærðum birtingarmerkjum fyrir þá valkosti sem þú bætir við.  Notaðu eftirfarandi tengil til að fá frekari upplýsingar: [Merki fyrir sérsniðin söfn valkosta](https://docs.microsoft.com/en-us/poweapps/developer/common-data-service/customize-labels-suport-multiple-languages)
+
+> [!NOTE]
+> Virknin fyrir auglýsingu starfs á LinkedIn krefst notkunar á reitunum **Starfsgerð** og **Starfsaldursgerð** á síðunni **Upplýsingar um starf**. Sjálfgefin gildi í þessum reitum eru studd af LinkedIn og birtast þegar starfið er auglýst. Ef þú ert þar af leiðandi að auglýsa störf á LinkedIn og þú breytir núverandi gildum á safni valkosta fyrir þessi svæði, mun starfið samt birtast en LinkedIn mun ekki sýna sérstilltu gildin **Starfsgerð** og **Starfsaldursgerð**.  
+
+Hér fyrir neðan eru leiðbeiningar um uppfærslu á svæðinu **Ástæða fyrir höfnun** með gildum sem eru tiltekin fyrir reksturinn þinn.  
+
+1. Til að stækka safn valkosta fyrir **Ástæða fyrir höfnun** skal fara á [Vefsvæði fyrir stjórnanda PowerApps.](Https://admin.powerapps.microsoft.com)
+2. Þú verður hugsanlega beðin/n um að skrá þig inn á reikninginn þinn. Gefðu upp notandakennið þitt og aðgangsorð sem þú notar til að skrá þig inn í Dynamics365 og/eða Office365, og smelltu síðan á **Næsta**.
+3. Í flipanum **Umhverfi** skal velja umhverfið sem á að stjórna og tvísmella til að komast í flipann **Upplýsingar**.
+4. Í flipanum **Upplýsingar** skal velja **Stjórnunarmiðstöð Dynamics 365**.
+5. Veljið tilvikið sem á að breyta og veljið **Opna**.
+6. Farið í **Stillingar** og síðan **Sérstillingar** og veljið **Sérstilla kerfið**.
+7. Finnið eininguna sem á að stækka safn valkosta fyrir með því að velja **Einingar** og stækka flokkinn. Í þessu dæmi yrði það **Eining starfsumsóknar**.
+8. Farið á svæðið sem á stækka safn valkosta fyrir með því að velja valkostinn **Svæði**. Í þessu dæmi yrði það **msdyn_rejectionreason**. Tvísmelltu á svæðið.
+9. Í svæðinu **Safn valkosta** skal velja **Breyta**.
+10. Veldu **+** táknið.
+11. Sláðu inn **Merki**.  (Þetta verður að vera einkvæmt gildi - ekki afrit).
+12. Veljið **Vista**.
+13. Veljið **Gefa út** efst á síðunni.
 
 ## <a name="take-advantage-of-the-microsoft-power-platform"></a>Nýttu þér Microsoft Power Platform 
 

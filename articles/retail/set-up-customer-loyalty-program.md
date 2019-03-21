@@ -3,7 +3,7 @@ title: Yfirlit yfir vildarkerfi
 description: Í þessu efni er fjallað um vildarkerfi í Microsoft Dynamics 365 for Retail og samsvarandi uppsetningarþrepum til að hjálpa smásala auðveldlega að byrja með vildarkerfi sín.
 author: scott-tucker
 manager: AnnBe
-ms.date: 01/08/2019
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bb1a1ff28c846a35858df971e29bb7a551c8012a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9b73c52a72c82c109a1ff874d2369ce9c0b3a6d2
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "320122"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789721"
 ---
 # <a name="loyalty-overview"></a>Yfirlit yfir vildarkerfi
 
@@ -93,7 +93,11 @@ Smásala hefur nýja vildarkerfisvirkni sem hluti af útgáfu október 2018. Hve
 
     ![Búa til vildarkort](./media/Generate%20loyalty%20card.png "Búa sjálfkrafa til vildarkortsnúmer")
 
-- Áunnir og innleystir vildarpunktar eru nú vistaðar fyrir hverja færslu og sölupöntun gegn sölulínunni þannig að sama upphæð geti verið endurgreitt eða tekið til baka þegar um er að ræða heil vöruskil eða vöruskil að hluta. Þar að auki, með því að hafa sýnileika á sölulínu er möguleiki fyrir notendur símavers að svara spurningum viðskiptavina um hversu mörg stig voru áunnin eða innleyst fyrir hverja línu. Áður en þessar breytingar voru gerðar voru vildarpunktar alltaf endurreiknar við vöruskil, sem leiddi til annars upphæð en upphaflega ef ávinnings- eða innlausnarreglur voru breytilegar og notendur símavers höfðu ekki sýnileika á sundurliðun vildarpunkta. Hægt er að skoða vildarpunktana undir **Kortafærslur** eyðublaðinu fyrir hvert vildarkort.    
+- Áunnir og innleystir vildarpunktar eru nú vistaðar fyrir hverja færslu og sölupöntun gegn sölulínunni þannig að sama upphæð geti verið endurgreitt eða tekið til baka þegar um er að ræða heil vöruskil eða vöruskil að hluta. Þar að auki, með því að hafa sýnileika á sölulínu er möguleiki fyrir notendur símavers að svara spurningum viðskiptavina um hversu mörg stig voru áunnin eða innleyst fyrir hverja línu. Áður en þessar breytingar voru gerðar voru vildarpunktar alltaf endurreiknar við vöruskil, sem leiddi til annars upphæð en upphaflega ef ávinnings- eða innlausnarreglur voru breytilegar og notendur símavers höfðu ekki sýnileika á sundurliðun vildarpunkta. Hægt er að skoða vildarpunktana undir **Kortafærslur** eyðublaðinu fyrir hvert vildarkort. Til að virkja þennan eiginleika skal kveikja á skilgreiningunni **Bóka vildarpunkta á hverja sölulínu** undir flipanum **Samnýttar smásölufæribreytur**  > **Almennt**.
+
+>[!NOTE]
+> Við mælum eindregið með því að kveikja á þessum eiginleika til að tryggja að hægt sé að endurgreiða réttan fjölda punkta eða taka frá viðskiptavininum ef skilað er.
+
 - Smásalar geta nú skilgreint ávinnslutímabilið fyrir hvern vildarpunkt. Ávinnslutímabilið mun skilgreina lengdina frá ávinningsdegi, en eftir það verður vildarpunktarnir tiltæk fyrir viðskiptavini. Punktar sem ekki eru áunnir má skoða í **Punktar sem ekki eru áunnir** dálki á **Vildarkort** síðu. Auk þess geta smásalar skilgreint hámark vildarpunkta á hverju vildarkorti. Þetta svæði er hægt að nota til að draga úr áhrifum svika í vildarkerfi. Þegar hámarksvildarpunktum hafa verið náð, getur notandinn ekki áunnið sér fleiri stig. Smásalinn getur ákveðið að útiloka slík kort þar til þeir hafa rannsakað um hugsanlega svik. Ef smásali ákveður svik, getur smásalinn ekki aðeins lokað vildarkortinu fyrir viðskiptavininn heldur einnig merkt viðskiptavininn sem útilokaðan. Til að gera það skaltu stilla **Útiloka viðskiptavin frá skráningu í vildarkerfi** eiginleikann á **Já** undir **Allir viðskiptavinir** á **Smásala** flýtiflipanum. Útilokaðir viðskiptavinir geta ekki fengið útgefin vildarkort í neinum rásum.
 
     ![Ávinnsla og hámark vildarpunkta](./media/Vesting%20and%20maximum%20reward%20points.png "Skilgreina ávinnslu og hámark vildarpunkta")
@@ -139,7 +143,8 @@ Eftir að þetta er komið upp geta viðskiptavinir innleyst vildarpunktana í s
 > Eins og er neyðir kerfið notendur til að setja upp númeraröð fyrir „aðrar verkþáttargerðir“, en það skref reynist ekki nauðsynlegt í framtíðarútgáfum. Til að setja upp númeraröð skal fara í **Samnýttar smásölufæribreytur > Númeraraðir** og velja númeraröð fyrir **Auðkenni fyrir vildarpunkta annarra verkþáttargerða**.
 
 - Til að bjóða upp á góða þjónustu við viðskiptavini og á áhrifaríkan hátt leysa fyrirspurnir viðskiptavina er mikilvægt að gjaldkerar hafi aðgang að öllum notandaupplýsingum viðskiptavinar. Með útgáfu 10.0 geta gjaldkerar séð upplýsingar um vildarpunktaferil ásamt tengdu vildarkerfi lagskiptar upplýsingar í POS.
-- Ókeypis eða afhending með afslætti er einn af mjög hvetjandi þáttum viðskiptavina til að kaupa á netinu. Til að gera smásala kleift að setja upp kynningartilboð á afhendingum með útgáfu 10.0, höfum við kynna nýja tegund kynningar þar sem ber heitið „Þröskuldarafsláttur afhendingar“ þar sem smásalinn getur skilgreint viðmiðunarmörk sem, þegar þeim er náð, munu gera viðskiptavinum kleift að fá afslátt á eða ókeypis sendingarkostnað. Til dæmis, eyða $35 fyrir ókeypis „Tveggja daga sendingu“ eða ókeypis „Tveggja daga sendingu“ fyrir alla vildarviðskiptavini. Þessir afslættir eru einungis notaðir fyrir sendingargjöld sem sett eru á pantanir. Vegna þess að söluaðili getur sett upp margar tegundir gjalda, t.d. meðhöndlun eða uppsetningu, þarf söluaðili að tilgreina hvaða gjald er litið á sem sendingargjald. Þessi grunnstilling ber heitið „Kóði sendingargjalds“ og er í boði í flipanum **Pantanir viðskiptavinar** á síðunni **Smásölufæribreytur**. Þessi afsláttur virðir alla núverandi staðlaða afsláttarmöguleika, t.d. að leyfa söluaðilum að takmarka þessa afslætti með afsláttarmiðum þannig að aðeins viðskiptavinir með afsláttarmiða geta fengið þessa afslætti. Einnig nýta þessir afslættir möguleika verðflokka til að ákvarða hæfi slíkra afslátta. Til dæmis getur smásali valið að keyra þessi kynningartilboð aðeins í netrásum og/eða yfir rásir fyrir tiltekna hópa viðskiptavinahópa, svo sem vildarvina. Eftir að pöntunarlínur með tilgreindan afhendingarmáta standast skilgreindan þröskuld, þá verður sendingarafsláttur notaður og dregur úr sendingargjaldi miðað við uppsetningu afsláttar. 
+- Ókeypis eða afhending með afslætti er einn af mjög hvetjandi þáttum viðskiptavina til að kaupa á netinu. Til að gera smásala kleift að setja upp kynningartilboð á afhendingum með útgáfu 10.0, höfum við kynna nýja tegund kynningar þar sem ber heitið „Þröskuldarafsláttur afhendingar“ þar sem smásalinn getur skilgreint viðmiðunarmörk sem, þegar þeim er náð, munu gera viðskiptavinum kleift að fá afslátt á eða ókeypis sendingarkostnað. Til dæmis, eyða $35 fyrir ókeypis „Tveggja daga sendingu“ eða ókeypis „Tveggja daga sendingu“ fyrir alla vildarviðskiptavini. Þessi eiginleiki nýtir nýjan ítarlegan möguleika sjálfvirkra gjalda. Vísa fylgiskjölunum um ítarleg sjálfvirk gjöld hér: https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/omni-auto-charges. Þessi ítarlegu sjálfvirku gjöld verða að vera virkjuð svo afhendingartilboð virki. Hægt er að virkja þau í flipanum **Pantanir viðskiptavinar** á síðunni **Smásölufæribreytur** og kveikja á skilgreiningunni „Nota ítarleg sjálfvirk gjöld“. Vegna þess að söluaðili getur sett upp margar tegundir gjalda, t.d. meðhöndlun eða uppsetningu, þarf söluaðili einnig að tilgreina hvaða gjald er litið á sem sendingargjald. Þessir flutningsafslættir eru einungis notaðir fyrir sendingargjöld. Til að tilgreina gjald sem sendingargjald skal fara í skjámyndina **Gjaldakóðar** sem má finna undir **Smásala** > **Upplýsingatækni smásölu** > **Uppsetning rásar** > **Gjöld** og kveikja á gátreitnum „Sendingargjald“ fyrir æskileg gjöld. Nú getur þú farið í skjámyndina **Þröskuldarafsláttur fyrir afhendingu smásölu** og sett upp afsláttinn.
+    Líkt og með vöruafslætti virðir þessi afsláttur alla núverandi staðlaða afsláttarmöguleika, t.d. að leyfa söluaðilum að takmarka þessa afslætti með afsláttarmiðum þannig að aðeins viðskiptavinir með afsláttarmiða geta fengið þessa afslætti. Einnig nýta þessir afslættir möguleika verðflokka til að ákvarða hæfi slíkra afslátta. Til dæmis getur smásali valið að keyra þessi kynningartilboð aðeins í netrásum og/eða yfir rásir fyrir tiltekna hópa viðskiptavinahópa, svo sem vildarvina. Eftir að pöntunarlínur með tilgreindan afhendingarmáta standast skilgreindan þröskuld, þá verður sendingarafsláttur notaður og dregur úr sendingargjaldi miðað við uppsetningu afsláttar. 
 
 > [!NOTE]
-> Ólíkt öðrum reglubundnum afsláttum, t.d. magni, einfalt, blanda og samsvara og þröskuldarafslættir, þá býr sendingarafsláttur ekki til afsláttarlínur. Breytingar á sendingargjaldi þarf að gera beint.
+> Ólíkt öðrum reglubundnum afsláttum, t.d. magni, einfalt, blanda og samsvara og þröskuldarafslættir, þá býr sendingarafsláttur ekki til afsláttarlínur, heldur breytir sendingargjaldinu með beinum hætti og bætir heiti afsláttarins við lýsingu gjaldsins.

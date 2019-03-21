@@ -3,7 +3,7 @@ title: Flytja inn kreditbréf
 description: Þetta ferli fer í gegnum ferlið fyrir innflutning á kreditbréfs.
 author: kweekley
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 02/28/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c1768494182a79d7a33044498c1e768e61d937d1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3d5539fbd17c880d8bbadd47444c9cc53fce039c
+ms.sourcegitcommit: 0c1deb100d0bf6dacd14b328968bbc7a9d92583a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313567"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "771232"
 ---
 # <a name="import-letter-of-credit"></a>Flytja inn kreditbréf
 
@@ -111,8 +111,7 @@ ms.locfileid: "313567"
 1. Fara í Reiðufé og bankastjórnun > Kreditbréf > Flytja inn kreditbréf og innflutningssafn.
 2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 3. Í listanum skal smella á tengilinn í valinni línu.
-    * Sannprófa innflutt bréf stöðu lánsfés    
-    *   
+    * Sannprófa innflutt bréf stöðu lánsfés     
 4. Lokið síðunni.
 5. Lokið síðunni.
 

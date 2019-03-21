@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d636e77888fff383849b3a91bf643475a6d516ac
-ms.sourcegitcommit: 383a344deb5abf48584ea2ee7774b8dbbbec49b3
+ms.openlocfilehash: efda4e39f63155785386ecec6d21973e01a0f69f
+ms.sourcegitcommit: 704d273485dcdc25c97a222bc0ef0695aad334d2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "377879"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "770894"
 ---
 # <a name="integration-with-microsoft-dynamics-365-for-field-service"></a>Samþætting með Microsoft Dynamics 365 for Field Service
 
@@ -75,7 +75,7 @@ Viðbótarvirknin í þessum seinni áfanga lagði áherslu á að veita tæknim
 ### <a name="system-requirements-for-finance-and-operations"></a>Kerfisskilyrði fyrir Finance and Operations
 Samþætting Field Service styður eftirfarandi útgáfur:
 
-- Dynamics 365 for Finance and Operations útgáfa 8.1.2 (desember 2019) var gefin út í desember 2019 og hefur útgáfunúmer forrits 8.1.195 með verkvangsuppfærslu 22 (7.0.5095). 
+- Dynamics 365 for Finance and Operations útgáfa 8.1.2 (desember 2018) var gefin út í desember 2018 og hefur útgáfunúmer forrits 8.1.195 með verkvangsuppfærslu 22 (7.0.5095). 
 
 ### <a name="system-requirements-for-field-service"></a>Kerfisskilyrði fyrir Field Service
 Til að nota samþættingarlausn Field Service verður að setja upp eftirfarandi hluti:

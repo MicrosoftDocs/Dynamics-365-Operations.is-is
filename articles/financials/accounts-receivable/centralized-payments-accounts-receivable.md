@@ -3,7 +3,7 @@ title: Miðstýrðar greiðslur fyrir viðskiptakröfur
 description: Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota einn lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu færslu í marga lögaðila. Þessi skrá gefur dæmi sem sýna hvernig bókanir fyrir miðstýrðar greiðslur eru meðhöndlaðar í mismunandi aðstæðum.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 02/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9eb935d32e61b2cf0ec8710f6c2cfb18ecfe034
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: f6b8b1548bf70363431ad58482ba82cf11017332
+ms.sourcegitcommit: ca1a472a670393f7aa208189dc8964c9691e2cdc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330748"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "390144"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Miðstýrðar greiðslur fyrir viðskiptakröfur
 
@@ -33,7 +33,7 @@ Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum
 
 Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu færslu í marga lögaðila. Þar að auki sparar fyrirtækið tíma, þar sem ferli fyrir greiðslutillögur, jöfnun og breytingu opninna og lokaðra færslna fyrir miðstýrðar greiðslur eru aðlöguð. 
 
-Í miðstýrðum greiðslusamtökum eru margir lögaðila fyrir aðgerðir og hver rekstrareining lögaðila stjórnar upplýsingum eigin reikninga til viðskiptavina. Greiðslur fyrir allar rekstrareiningar lögaðila eru mótteknar úr einum lögaðila, sem kallast lögaðili greiðslunnar. Á meðan á jöfnunarferli stendur eru viðeigandi færslur til og frá eru myndaðar. Hægt er að tilgreina hvaða fyrirtæki innan samtanna muni fá innleystu hagnaðar- eða innleystu tapsfærslurnar og hvernig staðgreiðsluafsláttarfærslur sem eru miðstýrðum greiðslum á milli fyrirtækja eru meðhöndlaðar. 
+Í miðstýrðum greiðslusamtökum eru margir lögaðila fyrir aðgerðir og hver rekstrareining lögaðila stjórnar upplýsingum eigin reikninga til viðskiptavina. Greiðslur fyrir allar rekstrareiningar lögaðila eru mótteknar úr einum lögaðila, sem kallast lögaðili greiðslunnar. Á meðan á jöfnunarferli stendur eru viðeigandi færslur til og frá eru myndaðar. Hægt er að tilgreina hvaða fyrirtæki innan samtanna muni fá innleystu hagnaðar- eða innleystu tapsfærslurnar og hvernig staðgreiðsluafsláttarfærslur sem eru miðstýrðum greiðslum á milli fyrirtækja eru meðhöndlaðar. Í miðstýrðri greiðslubókarlínu skal stilla **Gerð lykils** á Viðskiptavin. **Gerð mótlykils** skal stillt á Banki eða Fjárhagur. Bankareikningurinn skal vera í núverandi fyrirtæki. 
 
 Eftirfarandi dæmi sýna hvernig bókanir eru meðhöndlaðar í mismunandi tilvikum. Eftirfarandi skilgreining er notuð í öllum þessum dæmum:
 
@@ -296,8 +296,3 @@ Fabrikam tekur á móti greiðslu að upphæð 75.00 frá viðskiptavini 4000, N
 | Viðskiptavinir (Fabrikam West)    |              | 75,00         |
 | Á gjalddaga frá Fabrikam East (Fabrikam West) | 25,00        |               |
 | Viðskiptavinir (Fabrikam West)    |              | 25,00         |
-
-
-
-
-

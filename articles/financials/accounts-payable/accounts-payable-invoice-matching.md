@@ -3,7 +3,7 @@ title: Reikningsjöfnun viðskiptaskulda
 description: Reikningsjöfnun viðskiptaskulda felst í því að bera saman reikning lánardrottins, innkaupapöntun og upplýsingar á fylgiseðli.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 02/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11cc2d4ddbd30ff4d010f6b34119a7ad96d5aecb
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6d1582d268be759cd1f1686c9e80f6cf7eeb2da8
+ms.sourcegitcommit: 1ee613a88edddab036d145f27f19d071a4b8ad24
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310278"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "389934"
 ---
 # <a name="accounts-payable-invoice-matching"></a>Reikningsjöfnun viðskiptaskulda
 
@@ -49,7 +49,7 @@ Hægt er að nota eftirfarandi gerðir reikningsjöfnunar fyrir viðskiptaskulda
 
 Tvíhliða samsvörun og þríhliða samsvörun stemma alltaf við verðupplýsingar eftir einingaverði. Einnig er hægt að skilgreina þessar samsvörunarreglur til að jafna upplýsingar um verð eftir verðsamtölunni.
 -   Samsvörun á nettó einingaverði – jafna upplýsingar um verð fyrir tvíhliða samsvörun eða þríhliða samsvörun með því að bera saman nettó einingaverð fyrir hverja línu á reikningi með samsvarandi nettó einingarverð innkaupapöntunar. Nettó einingaverð er ákvarðað af eftirfarandi formúlu: nettóupphæð línunnar, deilt með magni línunnar.
--   Samsvörun á samtölum verðs – jafna upplýsingar um verð fyrir tvíhliða samsvörun eða þríhliða samsvörun með því að bera saman nettóupphæð (heildarverð) fyrir hverja línu á reikningi með samsvarandi nettóupphæð innkaupapöntunar. Nettóupphæð ákvarðast af eftirfarandi formúlu: (einingarverð \* línumagn) + línugjöld - línuafsláttur
+-   Samsvörun á samtölum verðs – jafna upplýsingar um verð fyrir tvíhliða samsvörun eða þríhliða samsvörun með því að bera saman nettóupphæð (heildarverð) fyrir hverja línu á reikningi með samsvarandi nettóupphæð innkaupapöntunar. Nettóupphæð ákvarðast af eftirfarandi formúlu: *(einingarverð \* línumagn) + línugjöld - línuafsláttur*. Þegar samtölur verðs eru samsvaraðar eftir prósentu ber kerfið saman gildi með færslugjaldmiðlinum. Þegar samtölur verðs eru samsvaraðar eftir upphæð ber kerfið saman gildi með bókhaldsgjaldmiðlinum.
 
 Yfirleitt, reikningsjöfnun eru framkvæmd sjálfkrafa þegar reikningar lánardrottins er breytt á síðu reikningur Lánardrottins. Einnig er hægt að framkvæma reikningsjöfnun eftir þörfum. Reikningsjöfnun eftir þörfum stjórnast fyrir lögaðila með Uppfæra sjálfkrafa stöðu á fyrirsögn reiknings í á færibreytusíðu viðskiptaskulda á flipann reikningaprófun. reikningsjöfnun getur einnig verið framkvæmd sem hluti af endurskoðunarferli reiknings. Geturðu skoða niðurstöður reikningsjöfnunar á síða Reikningur lánardrottins og tengdar síða reikningsjöfnunar.
 

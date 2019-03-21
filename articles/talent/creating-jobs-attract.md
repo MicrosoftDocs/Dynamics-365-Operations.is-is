@@ -3,7 +3,7 @@ title: Búðu til, samþykkja og auglýsa störf í Attract
 description: Þetta umræðuefni lýsir grunnatriðum starfa í Attract. Það útskýrir einnig hvernig á að búa til starf.
 author: josaw
 manager: AnnBe
-ms.date: 12/21/2018
+ms.date: 02/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2f7e0ec7d33579f213909ff9ad911d26800c2b76
+ms.sourcegitcommit: ceef0ee77ffc245e57637e2ea84e1a71a214b3d7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304865"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "772812"
 ---
 # <a name="create-approve-and-post-jobs-in-attract"></a>Búðu til, samþykkja og auglýsa störf í Attract
 
@@ -76,8 +76,23 @@ Nánari upplýsingar um aðgerð sem hægt er að bæta við ráðningarferlið 
 
 Eftir að starf er virkjað er hægt að auglýsa það laust. Aðeins ráðningaraðilar og stjórnendur geta auglýst laus störf. Starfið getur annaðhvort verið auglýst á Talent Careers (Microsoft Dynamics 365 for Talent starfsframasvæðinu) eða LinkedIn. 
 
+Attract-teymið vinnur stöðugt í samstarfi við samantektaraðila starfatorga. Þessi listi stækkar með tímanum.
+
+Nánari upplýsingar um auglýsingar á störfum er að finna í [Virkni starfatorga í Attract](career-site.md).
+
 > [!NOTE]
-> Hafa skal þrjá mikilvæga hluti í huga varðandi birtingu starfsauglýsinga á LinkedIn.
+> Auglýsing á störfum er aðeins í boði með Viðbót við alhliða ráðningar fyrir Attract.
+
+### <a name="posting-jobs-to-linkedin"></a>Að auglýsa störf á LinkedIn 
+
+Áður en starf er auglýst úr Attract í LinkedIn verður stjórnandi fyrst að bæta við auðkenni fyrirtækis fyrir LinkedIn og fyrirtækjaheiti á LinkedIn í **Stjórnandastillingar**. Auðkenni fyrirtækis fyrir LinkedIn er nauðsynlegt til að tryggja að störfunum sem þú auglýstir úr Attract sé varpað á rétta fyrirtækjasíðu.
+
+Auðkenni fyrirtækis fyrir LinkedIn er númeraröð sem staðfestir á einkvæman hátt fyrirtækið þitt á LinkedIn. Til að fá frekari upplýsingar um hvernig á að finna auðkenni fyrirtækisins á LinkedIn skal fara á [LinkedIn-svæðið](https://aka.ms/findID).
+
+Til að uppfæra LinkedIn-fyrirtækið skal velja **Stjórnandamiðstöð** í valmyndinni  **Stillingar**  (gírtáknið) og síðan velja flipann  **LinkedIn-samþætting** . Í hlutanum **Tengjast við LinkedIn** skal slá inn heiti fyrirtækisins á LinkedIn og kenni fyrirtækisins og síðan vista stillingarnar.
+
+> [!NOTE]
+> Hafa skal fjóra mikilvæga hluti í huga varðandi birtingu starfsauglýsinga á LinkedIn.
 > 1. Störf sem birt eru á LinkedIn eru birt sem störf með „Takmarkaða birtingu“. Störf með takmarkaða birtingu er ekki hægt að auglýsa hvar sem er á vefsvæði LinkedIn. Ef þú vilt koma á framfæri störfum með takmarkaða birtingu á LinkedIn úr Attract ættir þú að vinna með LinkedIn til að virkja „starfspakka“. Skoðaðu tengla hér að neðan og hafðu samband við LinkedIn stuðning fyrir frekari upplýsingar.
 >
 >    [Takmörkuð birting vs úrvalsstörf á lausu fyrir „starfspakka“](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
@@ -90,14 +105,10 @@ Eftir að starf er virkjað er hægt að auglýsa það laust. Aðeins ráðning
 >
 >    Ef þú átt í vandræðum á eftir þessu skrefi skaltu hafa samband við LinkedIn stuðning. 
 > 
+> 1. Störf sem auglýst eru á LinkedIn birtast á LinkedIn-svæðinu. Það er engin prófunarumhverfi til að senda störf á LinkedIn. 
+>
 > 1. Það getur tekið allt að sólarhring fyrir störf sem birt eru á LinkedIn að verða sýnileg umsækjendum innan LinkedIn vegna núgildandi birtingarferlis á runuvinnslu LinkedIn.
 
-Attract-teymið vinnur stöðugt í samstarfi við samantektaraðila starfatorga. Þessi listi stækkar með tímanum.
-
-Nánari upplýsingar um auglýsingar á störfum er að finna í [Virkni starfatorga í Attract](./career-site.md).
-
-> [!NOTE]
-> Auglýsing á störfum er aðeins í boði með Viðbót við alhliða ráðningar fyrir Attract.
 
 ## <a name="activate"></a>Virkja
 

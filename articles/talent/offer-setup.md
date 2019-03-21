@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa6c8c80870dd7bd06498c7571ba8a110be85c86
-ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
+ms.openlocfilehash: 43cf13d96e345747e06541267d820e17de7c1763
+ms.sourcegitcommit: ea17d2e35c24a141c20ab429897eebf9fa186f61
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "376508"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768883"
 ---
 # <a name="set-up-offer-management"></a>Setja upp stjórnun tilboða 
 
@@ -199,11 +199,11 @@ Tilboðspakkar eru tilboðsgervingar sem eru deilt með umsækjanda og samanstan
 - **Tilboðsupplifun umsækjanda**- Sem stjórnandi getur þú valið að stilla hvort öll tilboð séu með lokadag, og ef svo er, hvaða sjálfgefni mótlykill fyrir lokadag ætti að vera. Þú getur einnig stillt hvort umsækjendur geta hafnað tilboðinu.
 
 - **Rafrænar undirskriftir** - Sem stjórnandi getur þú einnig valið aðferðina sem umsækjendur geta notað til að undirrita tilboð.
-    - Adobe Sign - Allir tilboðspakkar verða sendir og undirritaðir með Adobe Sign. Stofnendur tilboða sem gefur út tilboðið verða að hafa Adobe Sign leyfið sitt tengt við Attract. 
+    - Adobe Sign - Allir tilboðspakkar verða sendir og undirritaðir með Adobe Sign. Stofnendur tilboða sem gefur út tilboðið verða að hafa Adobe Sign reikninginn sinn tengdan við Attract. Fyrir Adobe Sign-leyfi og ókeypis prufuútgáfu skal heimsækja [tengill](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
+    - DocuSign - Allir tilboðspakkar verða sendir og undirritaðir með DocuSign. Stofnendur tilboða sem gefur út tilboðið verða að hafa DocuSign reikninginn sinn tengdan við Attract. 
+    
     - ESign - Þetta er sjálfgefinn valkostur, sem fylgir beint úr kassanum, þar sem notandinn getur skrifað undir tilboð með því að slá inn nafn og upphafsstafi.
 
->[!NOTE]
-> Fyrir Adobe Sign-leyfi og ókeypis prufuútgáfu skal heimsækja [tengill](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
 Til að læra meira um stofnunarferli tilboðs, sjá [Stofna, samþykkja og undirrita tilboð](./creating-offers.md).

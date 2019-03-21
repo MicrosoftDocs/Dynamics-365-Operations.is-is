@@ -3,7 +3,7 @@ title: Leit að vöru og leit að viðskiptavinum í sölustað (POS)
 description: Þetta efnisatriði gefur yfirlit yfir úrbætur sem hafa verið gerðar á vöru og viðskiptahugbúnaði í Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/28/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a1593445af41cba30bdc35933302d0873e313585
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313590"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789870"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Leit að vöru og leit að viðskiptavinum í sölustað (POS)
 
@@ -69,7 +69,7 @@ Reynslan af staðbundinni vöruleit er nú notendavænni. Eftirfarandi endurbæt
 
 ## <a name="customer-search"></a>Viðskiptavinaleit
 
-Viðskiptavinaleit er notuð til að finna viðskiptavini í ýmsum tilgangi. Til dæmis gætu gjaldkerar viljað sjá óskalista viðskiptavina eða kaupferil eða bæta við viðskiptavininum við viðskipti. Þegar um er að ræða leit með mörgum leitarorðum skilar viðskiptavinareikniritið öllum viðskiptavinum sem samsvara einhverju leitarorða. Hins vegar birtast viðskiptavinir sem samsvara flestum leitarorðum efst á niðurstöðum. Þessi hegðun er hliðstæð því hvernig aðrar leitarvélar sýna árangur. Þeir sýna fyrst niðurstöðurnar sem passa við leitina sem mest leitað, og þá sýna þær niðurstöðurnar sem að hluta samsvara leitarorðum. Þessi hegðun hjálpar gjaldkea í aðstæðum þar sem þau nota mörg leitarorð  ef eitt af leitarorðum hefur stafsetningarvillu.
+Viðskiptavinaleit er notuð til að finna viðskiptavini í ýmsum tilgangi. Til dæmis gætu gjaldkerar viljað sjá óskalista viðskiptavina eða kaupferil eða bæta við viðskiptavininum við viðskipti. Reiknirit leitar samsvarar leitarorð við gildin sem eru til staðar í eftirfarandi eiginleikum viðskiptavinar: heiti, netfang, sími, vildarkortsnúmer, aðsetur og reikningsnúmer. Á meðal eiginleikanna veitir heitið mesta sveigjanleikann þegar kemur að mörgum leitarorðum þar sem reikniritin skilar öllum viðskiptavinum sem passa við einhver leitarorðanna sem leitað var að, og viðskiptavinirnir sem passa við flest leitarorðin birtast efst í niðurstöðunum. Þessi aðferð hjálpar gjaldkerum í kringumstæðum þar sem þeir leita með því að slá inn fullt nafn, en eftirnafni og fornafni var víxlað við upphaflegu gagnaskráninguna. En út af ástæðum sem hafa með afköst að gera, viðhalda allir hinir eiginleikarnir röð leitarorðanna, þannig að ef leitarorðin samsvara ekki röðinni sem gögnin eru geymd í, skilar leitin engum niðurstöðum.
 
 Sjálfgefið er að leita viðskiptavina í aðsetursbókum viðskiptavina sem tengjast versluninni. Þessi tegund leitar er þekkt sem *Staðbundin viðskiptavinarleit* Einnig má leita að að viðskiptavinum altækt. Með öðrum orðum geta þeir leitað yfir verslanir félagsins og yfir alla aðra lögaðila. Þessi tegund leitar er þekktur sem *Fjartengd viðskiptavinarleit*
 
