@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4f682e0c98ff70d526648bc50f8a5d6cb884ac93
+ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302437"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "380017"
 ---
 # <a name="distributed-order-management-dom"></a>Dreifingarstjórnun pöntunar (DOM)
 
@@ -62,9 +62,9 @@ Eftirfarandi skýringarmynd sýnir ferli sölupöntunar í DOM-kerfi.
     - **Gerð leysara** – Veljið gildi. Tvær gerðir af leysara eru gefnar út með Retail: **Leysari framleiðslu** og **Einfaldaður leysari**. Velja þarf **Leysari framleiðslu** fyrir allar vélar sem munu keyra DOM (sem sagt allir þjónar sem eru hluti af DOMBatch-flokknum). Leysari framleiðslu krefst tiltekins leyfislykils sem er að sjálfgefnu leyfður og uppsettur í vinnsluumhverfi. Þennan leyfislykil þarf að setja upp handvirkt fyrir umhverfi sem er ekki vinnsluumhverfi. Til að setja upp leyfislykilinn handvirkt skal fylgja þessum skrefum:
 
         1. Opnið samnýtta eignasafnið í Microsoft Dynamics Lifecycle Services og veljið **Líkan** sem eignagerð og sækið skrána **DOM-leyfi**.
-        2. Ræsið Microsoft Internet Information Services (IIS), hægrismellið á **Vefsvæði AOSService** og veljið síðan **Skoða**. Windows Explorer-gluggi opnast á vefrót **\<Rót AOS Service\>\\**. Skrifa skal niður slóðina fyrir \<Rót AOS Service\> vegna þess að hún verður notuð í næsta skrefi.
-        3. Afritið skilgreiningarskrána í skráasafninu **\<Rót AOS Service\>\\PackagesLocalDirectory\\DOM\\hólf**.
-        4. Opnið biðlara höfuðstöðva Retail og opnið síðuna **DOM-færibreytur**. Á flipanum **Leysari**, í reitnum **Gerð leysara** skal velja **Leysari framleiðslu** og staðfesta að engin villuboð birtist.
+        2. Ræsið Microsoft Internet Information Services (IIS), hægrismellið á **Vefsvæði AOSService** og veljið síðan **Skoða**. Windows Explorer-gluggi opnast á **\<AOS service rooy\>\\webroot**. Skrifa skal niður slóðina fyrir \<AOS Service root\> vegna þess að hún verður notuð í næsta skrefi.
+        3. Afritið skilgreiningarskrána í skráasafninu **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
+        4. Opnaðu biðlara Retail Headquarters og opnaðu svo síðuna **DOM-færibreytur**. Á flipanum **Leysari**, í reitnum **Gerð leysara** skal velja **Leysari framleiðslu** og staðfesta að engin villuboð birtist.
 
         > [!NOTE]
         > Einfaldaður leysari er útvegaður svo smásöluaðilar geti prófað DOM-eiginleikann án þess að þurfa að setja upp tiltekið leyfi. Fyrirtæki eiga ekki að nota einfaldaðan leysara í vinnsluumhverfi.

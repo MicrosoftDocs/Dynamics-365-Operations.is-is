@@ -1,9 +1,9 @@
 ---
 title: Breyta hólfum línuskilgreiningar
-description: 'Eftirfarandi grein lýsa upplýsingunum sem krafist er fyrir hvert hólf í línuskilgreiningu á fjárhagsskýrslu og útskýrir hvernig á að færa inn þær upplýsingar:'
+description: Þetta efnisatriði lýsir upplýsingunum sem krafist er fyrir hvert hólf í línuskilgreiningu á fjárhagsskýrslu og útskýrir hvernig á að færa inn þær upplýsingar.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
+ms.sourcegitcommit: eb24b63b10c4d06f7550bba9fbd1910ba2719b0a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "323641"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "379665"
 ---
 # <a name="modify-row-definition-cells"></a>Breyta hólfum línuskilgreiningar
 
 [!include [banner](../includes/banner.md)]
 
-Eftirfarandi grein lýsa upplýsingunum sem krafist er fyrir hvert hólf í línuskilgreiningu á fjárhagsskýrslu og útskýrir hvernig á að færa inn þær upplýsingar:
+Þetta efnisatriði lýsir upplýsingunum sem krafist er fyrir hvert hólf í línuskilgreiningu á fjárhagsskýrslu og útskýrir hvernig á að færa inn þær upplýsingar.
 
 ## <a name="specify-a-row-code-in-a-row-definition"></a>Línukóði tilgreindur í línuskilgreiningu
 
@@ -386,7 +386,7 @@ Hægt er að takmarka línu við fyrirliggjandi bókarkóða. Línuskilgreiningi
 Sum bókhaldskerfi styðja reikningseigindir og færslueigindir í fjárhagsgögnum. Þessar eigindir virka eins og sýndarhlutar reikninga og geta flutt viðbótarupplýsingar um reikninginn eða færsluna. Þessi viðbótarupplýsingar gæti verið Kenni lykla, Kenni runu, póstnúmer, eða öðrum eigindum. Ef bókhaldskerfið sem unnið er með styður notkun eiginda er hægt að nota reikningseigindir eða færslueigindir sem línubreytingar í línuskilgreiningu. Frekari upplýsingar um hvernig á að hnekkja línuupplýsingum eru í Hnekkja dálkskilgreiningum fyrr í þessari grein.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Tilgreindu Tengill í fjárhagsvíddarhólf
-Hólfið **Tengill í fjárhagsvíddir** inniheldur tengla í fjárhagsgögn sem taka á með í hverri línu skýrslunnar. Þetta hólf inniheldur víddargildi en hægt er að tilgreina hólf í Microsoft Excel vinnublaði í staðinn fyrir, eða til viðbótar við, hluta- eða víddargildi. Svarglugginn **Víddir** er opnaður með því að tvísmella á hólfið **Tengill í fjárhagsvíddir**.
+Hólfið **Tengill í fjárhagsvíddir** inniheldur tengla í fjárhagsgögn sem taka á með í hverri línu skýrslunnar. Þetta hólf inniheldur víddargildi. Svarglugginn **Víddir** er opnaður með því að tvísmella á hólfið **Tengill í fjárhagsvíddir**.
 
 > [!NOTE]
 > Report Designer getur ekki valið reikninga, víddir eða reiti úr Microsoft Dynamics ERP kerfinu sem nota eftirfarandi frátekin stafatákn: &, \*, \[, \], {, eða }. Ef tilgreina á upplýsingar fyrir röð sem er nú þegar í línuskilgreiningu skal bæta upplýsingunum við í hólfinu **Tengill í fjárhagsvíddir**. Ef bæta á við nýjum línum sem tengja í fjárhagsgögn skal nota svargluggann **Setja inn línur úr** til að stofna nýjar línur í skýrsluskilgreiningunni. Dálkheitið breytist eftir því hvernig dálkurinn er grunnstilltur, eins og sýnt er í eftirfarandi töflu.
@@ -394,9 +394,7 @@ Hólfið **Tengill í fjárhagsvíddir** inniheldur tengla í fjárhagsgögn sem
 | tegund tengils sem er valin       | Lýsingin í tengildálkinum breytist í þetta |
 |----------------------------------|----------------------------------------------------|
 | Fjárhagsvíddir             | Tengill í fjárhagsvíddir                       |
-| Ytra vinnublað               | Tengill í vinnublað                                  |
-| Fjárhagsvíddir + vinnublað | Tengill í fjárhagsvíddir + vinnublað           |
-| Skýrsla úr Management Reporter       | Skýrsla úr Management Reporter                         |
+| Skýrsluvinnublað                 | Skýrsla fjárhagsskýrslugerðar                         |
 
 ### <a name="specify-a-dimension-or-range"></a>Vídd eða svið tilgreind
 

@@ -3,7 +3,7 @@ title: Öryggi og hlutverkastjórnun í Attract
 description: Þetta efnisatriði veitir upplýsingar um öryggishlutverk í Microsoft Dynamics 365 for Talent - Attract.
 author: josaw1
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374781"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789698"
 ---
 # <a name="security-and-role-management-in-attract"></a>Öryggi og hlutverkastjórnun í Attract
 
@@ -100,14 +100,16 @@ Eftirfarandi réttindi gilda um vinnusértæk gögn fyrir umsækjendur og aðger
 | Gögn eða aðgerð          | Ráðningaraðili | Mannauðsstjóri | Spyrill |
 |-------------------------|-----------|----------------|-------------|
 | Umsóknarskjöl   | Búðu til, lesið, uppfærðu og eyða fyrir störf sem notandinn er á ráðningarteyminu fyrir | Búðu til, lesið, uppfærðu og eyða fyrir störf sem notandinn er á ráðningarteyminu fyrir | Skrifvarinn |
-| Athugasemdir við umsókn       | Búðu til, lesið, uppfærðu og eyða fyrir störf sem notandinn er á ráðningarteyminu fyrir | Búðu til, lesið, uppfærðu og eyða fyrir störf sem notandinn er á ráðningarteyminu fyrir | Búa til |
+| Athugasemdir við umsókn       | Búðu til, lesið, uppfærðu og eyða fyrir störf sem notandinn er á ráðningarteyminu fyrir | Búðu til, lesið, uppfærðu og eyða fyrir störf sem notandinn er á ráðningarteyminu fyrir | Lesa eingöngu|
 | Umsóknaraðgerð    | Skoða, ef notandinn er á ráðningarteyminu | Skoða, ef notandinn er á ráðningarteyminu | Skrifvarinn |
 | Endurgjöf við umsókn    | Bættu við og skoðaðu alla endurgjöf ef notandinn er á ráðningarteyminu | Bættu við og skoðaðu alla endurgjöf ef notandinn er á ráðningarteyminu | Geta bætt við endurgjöf\*\* |
 | Hafna umsókn      | Geti hafnað ef notandinn er á ráðningarteyminu | Ekki leyfð | Ekki leyfð |
 | Ítarlegt stig           | Geti hafnað ef notandinn er á ráðningarteyminu | Geta haldið áfram ef notandinn er á ráðningarteyminu | Ekki leyfð |
 | Ræsa tilboðsstjórnun | Getur byrjað tilboðsstjórnun | Það er stillingarmöguleiki á tilboðsaðgerðinni. | Ekki leyfð |
 
-\*\* Stillingarmöguleiki í [uppsetningu á endurgjafaraðgerð](activities-attract.md#feedback-activity) stýrir því hvort spyrlar geta séð endurgjöf hvers annars.
+
+\*\* Stillingarmöguleiki í [uppsetningu á endurgjafaraðgerð](./activities-attract.md) stýrir því hvort spyrlar geta séð endurgjöf hvers annars.
+
 
 ## <a name="process-templates"></a>Vinna sniðmát
 

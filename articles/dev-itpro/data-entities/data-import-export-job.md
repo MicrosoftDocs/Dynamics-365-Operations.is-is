@@ -3,7 +3,7 @@ title: Inn- og útflutningsvinnsla gagna
 description: Notaðu vinnusvæðið Gögnastjórnun til að búa til og stjórna Inn- og útflutningsvinnslu gagna.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 03/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
+ms.sourcegitcommit: 7b438a94b59ab52518e03b22217cb48e41fbeb71
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "360211"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "834661"
 ---
 # <a name="data-import-and-export-jobs"></a>Inn- og útflutningsvinnsla gagna
 
@@ -128,6 +128,9 @@ Starf getur verið tryggt eftir hlutverkum, notendum og lögaðilum á sama tím
 
 ## <a name="run-the-import-or-export-job"></a>Keyra inn- eða útflutningsstarfið
 Þú getur keyrt vinnu starf sinni með því að velja hnappinn **Flytja inn** eða **Flytja út** eftir að þú skilgreinir starfið. Til að setja upp endurtekið starf skal velja **Stofna endurtekna gagnavinnslu**.
+
+[!NOTE]
+Hægt er að keyra innflutnings- eða útflutningsvinnslu ósamstillt með því að velja hnappinn **Innflutningur** eða **Útflutningur**. Ósamstillt keyrsla notar ósamstilltan ramma í Finance and Operations, sem er öðruvísi en runurammi. Hins vegar, eins og runurammi, ósamstilltur rammi getur einnig farið í takmörkun og fyrir vikið getur verið að vinnslan fari ekki gang strax. Einnig er hægt að keyra vinnslurnar ósamstillt með því að velja **Flytja inn núna** eða **Flytja út núna**. Þetta setur vinnsluna strax af stað og er gagnlegt ef ósamstillt vinnsla eða runa byrjar ekki sökum takmörkunar. Einnig er hægt að keyra vinnslurnar í runu með því að velja valkostinn **Keyra í runu**. Runutilföng heyra undir takmörkun og getur því verið að runuvinnslan hefjist ekki strax. Að velja ósamstillt er gagnlegt þegar notendur eiga í beinum samskiptum við notandaviðmótið og eru ekki kraftnotendur til að skilja runuröðun. Að nota runu er annar valkostur ef reynist þörf á að flytja mikið magn annaðhvort út eða inn. Hægt er að áætla keyrslu á runuvinnslum í tilteknum runuflokk sem leyfir meiri stjórn hvað snertir álagsjöfnun. Ef ósamstillt keyrsla og runa eru bæði að fara í gegnum takmörkun vegna mikillar notkunar á tilföngum kerfisins, er hægt að nota fljótvirka hjáleið sem felur í sér að hægt er að nota samstilltu útgáfuna af innflutningi/útflutningi. Samstillingin byrjar strax og mun loka á notandaviðmótið vegna þess að það er keyrt í samstillingu. Vafraglugginn verður að vera opinn á meðan ósamstillta aðgerðin er í gangi.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Staðfesta að vinnslan hafi gengið eins og búist var við með því að skoða vinnsluferilinn.
 Vinnsluferillinn er tiltækur vegna villuleitar og skoðunar fyrir bæði innflutnings- og útflutningsvinnslu Sögulegar vinnslukeyrslur eru skipulögð eftir tímalengdum.

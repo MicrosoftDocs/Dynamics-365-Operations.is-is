@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 982b72b3fd71d58038218e007f9f3790874ceddc
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 262d301262189ec1ba40577e962eeee2ccff0da3
+ms.sourcegitcommit: 39c17fe619b075f56e8baffd087a830fc2fb8022
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377206"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791569"
 ---
 # <a name="whats-new-or-changed"></a>Nýjungar eða breytingar
 
@@ -31,7 +31,7 @@ ms.locfileid: "377206"
 
 Þessi síða beinir þér á efnisatriði sem geta aðstoðað þig við að læra um nýjar aðgerðir í síðustu útgáfu af Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
-Frekari upplýsingar um hvernig uppfært er í nýjustu útgáfuna: [Ferli fyrir uppfærslu í nýjustu útgáfu Dynamics 365 for Operations](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
+Frekari upplýsingar um hvernig uppfært er í nýjustu útgáfuna: [Ferli fyrir uppfærslu í nýjustu útgáfu](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
 
 [!include [release notes](../includes/release-notes.md)]
@@ -53,15 +53,21 @@ Frekari upplýsingar um hvernig uppfært er í nýjustu útgáfuna: [Ferli fyrir
 <tbody>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>10,0</td>
-<td>10,0,8</td>
+<td>10.0.1</td>
+<td>10.0.51</td>
 <td>2019. apríl</td>
-<td><a href="whats-new-changed-10.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations útgáfa 10.0 (apríl 2019)</a></td>
+<td><a href="whats-new-changed-10-0-1.md">Forskoðun á eiginleikum í Dynamics 365 for Finance and Operations útgáfu 10.0.1 (apríl 2019)</a></td>
+</tr><tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>10.0</td>
+<td>10.0.8</td>
+<td>2019. apríl</td>
+<td><a href="whats-new-changed-10-0-1.md">Hvað er nýtt eða breytt í Finance and Operations útgáfa 10.0 (apríl 2019) </a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>8,1,3</td>
-<td>8,1,227</td>
+<td>8.1.3</td>
+<td>8.1.227</td>
 <td>Janúar 2019</td>
 <td><a href="whats-new-changed-8-1-3.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations útgáfa 8.1.3 (janúar 2019)</a></td>
 </tr>
@@ -146,8 +152,14 @@ Frekari upplýsingar um hvernig uppfært er í nýjustu útgáfuna: [Ferli fyrir
 <tbody>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>Update 25 fyrir verkvang</td>
+<td>7.0.5222</td>
+<td>2019. apríl</td>
+<td><a href="whats-new-platform-25.md">Forskoðun á eiginleikum í Dynamics 365 for Finance and Operations verkvangsuppfærslu 25 í (apríl 2019)</a></td>
+</tr><tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Update 24 fyrir verkvang</td>
-<td>7,0,5179</td>
+<td>7.0.5179</td>
 <td>2019. mars</td>
 <td><a href="whats-new-platform-update-24.md">Hvað er nýtt og hvað hefur breyst í Dynamics 365 for Finance and Operations verkvangsuppfærsla 24 (mars 2019)</a></td>
 </tr>

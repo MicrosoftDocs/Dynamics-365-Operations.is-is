@@ -3,7 +3,7 @@ title: Leysisstefna fyrir afurðarafbrigði
 description: Þetta efnisatriði lýsir því hvernig hægt er að nota leysisstefnu til að bæta árangur afurðarafbrigðis.
 author: cvocph
 manager: AnnBe
-ms.date: 01/02/2018
+ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0abb9313ec62cfdfe3bf7c810e2143dcf502bf9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 16a11c5030f5641abb87830f5221ded5bb7ac038
+ms.sourcegitcommit: 0ceee30a60468a01db6f5b3526dcb9c6abc9d4dc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "351149"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "403917"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Leysisstefna fyrir afurðarafbrigði
 
@@ -62,8 +62,8 @@ Eins og er, er ekkert sem sjálfkrafa greinir hvaða leysisstefna muni vera skil
 | Leysisstefna      | Notaðu stefnuna við þessar aðstæður |
 |----------------------|-----------------------------------|
 | Sjálfgefið              | **Sjálfgefna** stefnan hefur verið fínstillt til að leysa líkön sem treysta á töfluskorðanir. Framkvæmdarrannsóknir viðskiptavinar hafa sýnt að þessi stefna sé skilvirkasta stefnan í aðstæðum þar sem töfluskorður eru mikið notaðar. |
-| Lágmarkslén fyrst | **Lágmarkslénið fyrst** og **Ofan og niður** stefnurnar eru nátengdar. Framkvæmdarrannsóknir viðskiptavina hafa sýnt að stefnan **Ofan og niður**, sem var kynnt í CU8, er betri en stefnan **Lágmarkslén fyrst**. Hins vegar er stefnan **Lágmarkslén fyrst** haldið í vörunni fyrir afturvirka samhæfni. Báðar þessar leysisstefnur hafa sýnt fram á meiri skilvirkni við að leysa líkön sem innihalda nokkrar reikningssegðir þar sem engar töfluskorður eru notaðar. Hins vegar er stefnan **Sjálfgefið** í sumum tilfellum betri en þessar tvær stefnur. Mundu því að prófa hverja stefnu fyrir sig. |
-| Ofan og niður             | **Lágmarkslénið fyrst** og **Ofan og niður** stefnurnar eru nátengdar. Framkvæmdarrannsóknir viðskiptavina hafa sýnt að stefnan **Ofan og niður**, sem var kynnt í CU8, er betri en stefnan **Lágmarkslén fyrst**. Hins vegar er stefnan **Lágmarkslén fyrst** haldið í vörunni fyrir afturvirka samhæfni. Báðar þessar leysisstefnur hafa sýnt fram á meiri skilvirkni við að leysa líkön sem innihalda nokkrar reikningssegðir þar sem engar töfluskorður eru notaðar. Hins vegar er stefnan **Sjálfgefið** í sumum tilfellum betri en þessar tvær stefnur. Mundu því að prófa hverja stefnu fyrir sig. |
+| Lágmarkslén fyrst | **Lágmarkslén fyrst** og **Ofan og niður** stefnurnar eru nátengdar. Framkvæmdarrannsóknir viðskiptavina hafa sýnt að stefnan **Ofan og niður** er betri en stefnan **Lágmarkslén fyrst**. Hins vegar er stefnan **Lágmarkslén fyrst** haldið í vörunni fyrir afturvirka samhæfni. Báðar þessar leysisstefnur hafa sýnt fram á meiri skilvirkni við að leysa líkön sem innihalda nokkrar reikningssegðir þar sem engar töfluskorður eru notaðar. Hins vegar er stefnan **Sjálfgefið** í sumum tilfellum betri en þessar tvær stefnur. Mundu því að prófa hverja stefnu fyrir sig. |
+| Ofansækið             | **Lágmarkslén fyrst** og **Ofan og niður** stefnurnar eru nátengdar. Framkvæmdarrannsóknir viðskiptavina hafa sýnt að stefnan **Ofan og niður** er betri en stefnan **Lágmarkslén fyrst**. Hins vegar er stefnan **Lágmarkslén fyrst** haldið í vörunni fyrir afturvirka samhæfni. Báðar þessar leysisstefnur hafa sýnt fram á meiri skilvirkni við að leysa líkön sem innihalda nokkrar reikningssegðir þar sem engar töfluskorður eru notaðar. Hins vegar er stefnan **Sjálfgefið** í sumum tilfellum betri en þessar tvær stefnur. Mundu því að prófa hverja stefnu fyrir sig. |
 | Z3                   | Við mælum með því að þú notir stefenuna **Z3** sem sjálfgefna leysisstefnu. Ef þú hefur áhyggjur af afköstum og sveigjanleika getur þú metið hinar stefnurnar. |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar

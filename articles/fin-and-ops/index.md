@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: Fylgiskjöl Microsoft Dynamics 365 for Finance and Operations
 description: Fylgiskjöl fyrir Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
-ms.date: 08/30/2018
+ms.date: 03/08/2019
 ms.topic: index-page
-ms.prod: ''
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: ''
+ms.technology: null
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: 'Core, Operations'
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b9921883d952ebc42eff9f678bb300d8304e379
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302417"
 ---
+
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Fylgiskjöl Microsoft Dynamics 365 for Finance and Operations
 
 [!include [banner](includes/banner.md)]
@@ -44,12 +40,26 @@ Mikið af þessu efni á einnig við um tengdar vörur: Microsoft Dynamics 365 f
 <h3><a href="get-started/before-you-buy.md">Áður en þú kaupir</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Skráðu þig fyrir prufuáskrift</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Veldu innleiðingarvalkost</a></p>
- <p><a href="get-started/purchase-on-premises.md">Kaupa Finance and Operations (á staðnum)</a></p>
+ <p><a href="get-started/purchase-on-premises.md">Kaupa Finance and Operations (on-premises)</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Innleiðingarferli</a></h3>
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Innleiðing verkefnis</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Undirbúningur fyrir keyrslu</a></p>
+
+<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">One Version þjónustuuppfærslur</a></h3>
+<p><a href="get-started/one-version.md">Algengar spurningar um uppfærslureglur One version</a></p>
+<p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">Reglur um stuðningstíma hugbúnaðar: Ský</a></p>
+<p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">Reglur um stuðningstíma hugbúnaðar: Innanhúss</a></p>
+<p><a href="get-started/public-preview-releases.md">Uppfærsluþjónusta staðlaðrar og fyrstu útgáfu</a></p>
+<p><a href="get-started/whats-new-changed.md">Nýjungar eða breytingar</a></p>
+<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Uppfærslur og bráðabætur</a></p>
+<p><a href="../dev-itpro/deployment/apply-deployable-package-system.md">Nota uppfærslur á skýjaumhverfi</a></p>
+<p><a href="../dev-itpro/lifecycle-services/configure-service-updates.md">Skilgreina þjónustuuppfærslur</a></p>
+<p><a href="../dev-itpro/lifecycle-services/pause-service-updates.md">Gera hlé á þjónustuuppfærslum</a></p>
+<p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">Fá tilkynningar um þjónustuuppfærslur</a></p>
+<p><a href="../dev-itpro/data-entities/data-task-automation.md">Sjálfvirk verkgögn</a></p>
+<p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">Regression Suite Automation Tool</a></p>
 
 <h3><a href="../financials/index.md">Fjármálastjórnun</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Viðskiptaskuldir</a></p>
@@ -71,6 +81,8 @@ Mikið af þessu efni á einnig við um tengdar vörur: Microsoft Dynamics 365 f
 <p><a href="hr/manage-recruiting-process.md">Ráðningar</a></p>
 <p><a href="hr/localizations/noam-usa-payroll.md">Bandarísk laun</a></p>
 
+</td>
+<td>
 <h3><a href="../supply-chain/index.md">Birgðakeðjustjórnun</a></h3>
 <p><a href="../supply-chain/cost-management/costing-sheets.md">Kostnaðarstýring</a></p>
 <p><a href="../supply-chain/inventory/inventory-home-page.md">Birgðastjórnun</a></p>
@@ -82,8 +94,7 @@ Mikið af þessu efni á einnig við um tengdar vörur: Microsoft Dynamics 365 f
 <p><a href="../supply-chain/transportation/transportation-management-overview.md">Flutningsstjórnun</a></p>
 <p><a href="../supply-chain/warehousing/warehouse-configuration.md">Vöruhúsakerfi</a></p>
 
-</td>
-<td>
+
 <h3><a href="../dev-itpro/analytics/bi-reporting-home-page.md">Greind</a></h3>
 <p><a href="../dev-itpro/analytics/analytics.md">Greiningar</a></p>
  <p><a href="../dev-itpro/analytics/document-reporting-services.md">Viðskiptaskjöl</a></p>

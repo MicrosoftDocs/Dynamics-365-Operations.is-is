@@ -3,7 +3,7 @@ title: Samstilla vinnupantanir með verki úr Field Service við Finance and Ope
 description: Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla vinnupantanir með verknúmeri úr Microsoft Dynamics 365 for Field Service við Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 12/20/2018
+ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 6b61411a5a235e2d0aad8bb25ae4a3bfcf1248d1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5ca01b085315d916a18c512af28fc7534ce76ee8
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329851"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836443"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-finance-and-operations"></a>Samstilla vinnupantanir með verki úr Field Service við Finance and Operations
 
@@ -34,9 +34,11 @@ ms.locfileid: "329851"
 
 [![Samstilling viðskiptaferla milli Finance and Operations og Field Service](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
-Notaða sniðmátið **Afurðir Field Service (Finance and Operations til Field Service)** er byggt á sniðmátinu **Afurðir (Finance and Operations til Sales) - Beint** úr Prospect to Cash. Nánari upplýsingar er að finna í [Afurðir (Finance and Operations til Sales) - Beint](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).
+Notaða sniðmátið **Vinnupantanir með Project (Field Service til Fin and Ops)** er byggt á sniðmátinu **Vinnupantanir (Field Service til Fin and Ops)**. Frekari upplýsingar er að finna í [Samstilla vinnupantanir úr Field Service við sölupantanir í Finance and Operations](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
-Þetta efnisatriði lýsir aðeins muninum á milli sniðmátanna **Afurðir Field Service (Finance and Operations til Field Service)** og **Afurðir Field Service (Finance and Operations til Field Service)**.
+Þetta efnisatriði útskýrir muninn milli sniðmátanna tveggja:
+- **Vinnupantanir með Project (Field Service til Fin and Ops)**
+- **Vinnupantanir (Field Service til Fin and Ops)**
 
 Helsti munurinn er sá að þetta sniðmát inniheldur vörpun verknúmers sem er úthlutað til vinnupöntunar í Field Service, sem tryggir að sölupöntunin sem er búin til í Finance and Operations innihaldi verknúmerið og að reikningsfærsla geti átt sér stað fyrir tengt verk. Að auki notar sniðmátið ítarlega fyrirspurn og síun.
 
@@ -44,7 +46,7 @@ Helsti munurinn er sá að þetta sniðmát inniheldur vörpun verknúmers sem e
 
 **Heiti sniðmátsins í Gagnaflutningi:**
 
-- Vinnupantanir með verki (Field Service til Finance and Operations)
+- Vinnupantanir með Project (Field Service til Fin and Ops)
 
 **Heiti verkefnis í gagnasamþættingarverkinu:**
 
@@ -60,18 +62,18 @@ Reitnum **Ytra verk** hefur verið bætt við eininguna Vinnupantanir. Þessi re
 
 Eftirfarandi myndir sýna sniðmátsvörpunina í Gagnasamþættingu.
 
-### <a name="work-orders-with-project-field-service-to-finance-and-operations-workorderheader"></a>Vinnupantanir með verk (Field Service til Finance and Operations): WorkOrderHeader
+### <a name="work-orders-with-project-field-service-to-fin-and-ops-workorderheader"></a>Vinnupantanir með Project (Field Service til Fin and Ops): WorkOrderHeader
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/FSWOP1.png)](./media/FSWOP1.png)
 
-### <a name="work-orders-with-project-field-service-to-finance-and-operations-workorderheaderproject"></a>Vinnupantanir með verk (Field Service til Finance and Operations): WorkOrderHeaderProject
+### <a name="work-orders-with-project-field-service-to-fin-and-ops-workorderheaderproject"></a>Vinnupantanir með Project (Field Service til Fin and Ops): WorkOrderHeaderProject
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/FSWOP2.png)](./media/FSWOP2.png)
 
-### <a name="work-orders-with-project-field-service-to-finance-and-operations-workorderproduct"></a>Vinnupantanir með verk (Field Service til Finance and Operations): WorkOrderProduct
+### <a name="work-orders-with-project-field-service-to-fin-and-ops-workorderproduct"></a>Vinnupantanir með Project (Field Service til Fin and Ops): WorkOrderProduct
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/FSWOP3.png)](./media/FSWOP3.png)
 
-### <a name="work-orders-with-project-field-service-to-finance-and-operations-workorderservice"></a>Vinnupantanir með verk (Field Service til Finance and Operations): WorkOrderService
+### <a name="work-orders-with-project-field-service-to-fin-and-ops-workorderservice"></a>Vinnupantanir með Project (Field Service til Fin and Ops): WorkOrderService
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/FSWOP4.png)](./media/FSWOP4.png)

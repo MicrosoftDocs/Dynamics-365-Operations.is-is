@@ -3,7 +3,7 @@ title: Fjárhagsdagatal, fjárhagsár og tímabil
 description: Þessi grein fjallar um fjárhagsdagatöl, reikningsár og tímabil og hvernig á að nýta þau fyrir lögaðila, eignir og fjárhagsáætlanir.
 author: aprilolson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 360695ddfbcf1eab62dd5087e1b5bb34ccaf7c7f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 01f8f939079d55d5a75d1a4b1fd718bf2a3f9700
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361660"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778202"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Fjárhagsdagatal, fjárhagsár og tímabil
 
@@ -43,7 +43,7 @@ Lokunartímabil er notað til að aðgreina fjárhagsfærslur sem myndast þegar
 Þegar stofna á lokunartímabil, veljið tímabil sem hefur stöðuna opið og sem hefur dagsetningarnar sem óskað er að nota. Nýja lokunartímabilið afritar upphafs - og lokadagsetningar úr fyrirliggjandi tímabili. Upphaflega tímabili verður áfram til. Til dæmis valdi notandi tímabil 12 sem er síðasta tímabil í fjárhagsári og það er með dagsetningar 1. ágúst til og með 31. ágúst. Sláið inn heiti lokunartímabils, t.d. „Lokun“. Þegar búið er að stofna nýtt lokunartímabil er notandi nú með upphaflega tímabilið og lokunartímabilið. Bæði með dagsetningar sem hefjast 1. ágúst og enda á 31. ágúst.
 
 ## <a name="select-fiscal-calendars-for-ledgers-fixed-assets-and-budget-cycles"></a>Velja fjárhagsdagatöl fyrir fjárhag, eignum og fjárhagsáætlunarferli
-Fjárhagsdagatöl eru notaðar við afskriftir eigna, fjárhagslegar færslur og ferli fjárhagsáætlunar. Þegar fjárhagsdagatal stofnað er hægt að nota það í margvíslegum tilgangi. Hægt er að velja fjárhagsdagatal í virðislíkani eða afskriftarbók til að gera dagatal fastra eigna. Hægt er að velja fjárhagsdagatal fyrir fjárhag til að gera dagatal fjárhags. Og þú getur valið fjárhagsdagatal fyrir ferli fjárhagsáætlunar til að gera það að dagatali fjárhagsáætlunar. Hægt er að nota sama fjárhagsdagatal fyrir þær allar.
+Fjárhagsdagatöl eru notaðar við afskriftir eigna, fjárhagslegar færslur og ferli fjárhagsáætlunar. Þegar fjárhagsdagatal stofnað er hægt að nota það í margvíslegum tilgangi. Hægt er að velja fjárhagsdagatal í eignabók til að gera það að dagatali eigna. Hægt er að velja fjárhagsdagatal fyrir fjárhag til að gera dagatal fjárhags. Og þú getur valið fjárhagsdagatal fyrir ferli fjárhagsáætlunar til að gera það að dagatali fjárhagsáætlunar. Hægt er að nota sama fjárhagsdagatal fyrir þær allar.
 
 ### <a name="select-a-fiscal-calendar-for-your-legal-entity"></a>Veljið fjárhagsdagatal fyrir lögaðila þinn.
 
@@ -51,7 +51,7 @@ Velja fjárhagsdagatal sem á að nota fyrir við lögaðilann í fjárhag í fj
 
 ### <a name="select-a-fiscal-calendar-for-fixed-assets"></a>Veldu fjárhagsdagatal fyrir eignir
 
-Hægt er að velja fjárhagsdagatal í virðislíkani eða afskriftabókar, og það fjárhagsdagatal verður notað með eignunum sem nota valda virðislíkanið eða afskriftarbók eigna. Hægt er að velja úr öllum fjárhagsdagatöl sem skilgreind eru á síðunni fjárhagsdagatöl.
+Hægt er að velja fjárhagsdagatal fyrir eignabók, og það fjárhagsdagatal verður notað með eignunum sem nota valda bók. Hægt er að velja úr öllum fjárhagsdagatöl sem skilgreind eru á síðunni fjárhagsdagatöl.
 
 ### <a name="define-budget-cycle-time-spans"></a>Skilgreina tímabil fjárhagsáætlunar
 

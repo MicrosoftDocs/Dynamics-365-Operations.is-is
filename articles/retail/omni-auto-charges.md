@@ -3,7 +3,7 @@ title: Ítarleg sjálfvirk gjöld fyrir omni-rás
 description: Þetta efnisatriði lýsir möguleikunum til að stjórna gjaldfærslum vegna pantana fyrir pantanir smásölurásar með því að nota eiginleika fyrir ítarleg sjálfvirk gjöld.
 author: hhaines
 manager: annbe
-ms.date: 01/22/2019
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,16 +19,15 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a980ae9571fb47522d3966dc172b2343641b827e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b63a1bb8791ab3f0c71a2fd03677e7d0bf71e62
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "345560"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789772"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Ítarleg sjálfvirk gjöld fyrir omni-rás
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði veitir upplýsingar um stillingar og uppsetningu á eiginleika ítarlegra sjálfvirkra gjalda sem eru í boði í Dynamics 365 for Retail útgáfu 10.0.
@@ -67,6 +66,8 @@ Nýju aðgerðirnar eru sem hér segir.
 - **143 - Endurreikna gjöld** - Notaðu þessa aðgerð til að framkvæma fullan endurútreikning á gjöldunum fyrir sölufærsluna. Öll fyrri sjálfvirk gjöld sem hafa verið yfirskrifuð af notanda verða reiknuð út aftur samkvæmt núgildandi stillingum á körfu.  
 
 Eins og með allar POS-aðgerðir, er hægt að gera öryggisstillingar til að sækjast eftir samþykki yfirmanns til þess að geta framkvæmt aðgerðina.
+
+Mikilvægt er að hafa í huga að einnig sé hægt að bæta við ofangreindum POS-aðgerðum við POS-útlitið, jafnvel þótt færibreytan **Nota ítarleg sjálfvirk gjöld** sé gerð óvirk. Í þessari atburðarás munu fyrirtæki enn fá frekari ávinning af því að geta séð viðbótargjöld sem bætt er við handvirkt og breytt þeim með því að nota aðgerðina **Stjórna gjöldum**. Notendur geta einnig notað aðgerðirnar **Bæta við gjöldum í haus** og **Bæta við gjöldum í línu** fyrir POS-færslur jafnvel þegar færibreytan **Nota ítarleg sjálfvirk gjöld** er gerð óvirk. Aðgerðin **Endurreikna gjöld** hefur minni virkni ef hún er notuð þegar **Nota ítarleg sjálfvirk gjöld** er gert óvirkt. Í þessari atburðarás yrði ekkert endurreiknað og öllum gjöldum sem yrði bætt handvirkt við færsluna myndu vera endurstillt á $0,00.
 
 ## <a name="use-case-examples"></a>Dæmi um notkunartilfelli
 Í þessum hluta eru sýnd dæmi um notkunartilfelli til að auðvelda þér að skilja stillinguna og notkun á sjálfvirkum gjöldum og ýmsum gjöldum í samhengi við pantanir smásölurásar. Þessi dæmi sýna hegðun forritsins þegar færibreytan **Nota ítarleg sjálfvirk gjöld** hefur verið virkjuð.
@@ -207,3 +208,7 @@ Mælt er með því að fyrirtækið bæti einnig við reitum með frjálsum tex
 ### <a name="preventing-charges-from-being-calculated-until-the-pos-order-is-completed"></a>Komið í veg fyrir að gjöld verði reiknuð þar til POS pöntuninni er lokið
 
 Sum fyrirtæki kunna að vilja bíða þar til notandinn hefur lokið við að bæta öllum sölulínunum við POS-færsluna áður en gjöld eru reiknuð út. Til að koma í veg fyrir útreikning á gjöldum þar sem vörum er bætt við POS-færsluna, skal kveikja á færibreytunni **Handvirkur útreikningur gjalda** í **Virknireglu** sem verslunin notar. Að virkja þessa færibreytu krefst þess að POS-notandi noti aðgerðina **Reikna út samtölu** þegar hann hefur lokið við að bæta afurðunum við POS-færsluna. Aðgerðin **Reikna út samtölur** ræsir þá útreikninginn á öllum sjálfvirkum gjöldum fyrir pöntunarhausinn eða línur eins og við á.
+
+### <a name="charges-override-reports"></a>Skýrslur vegna hnekkingar gjalda
+
+Ef notendur handvirkt hunsa reiknuð gjöld eða bæta gjaldi handvirkt við færsluna, verða þessi gögn tiltæk til endurskoðunar í skýrslunni **Ferill fyrir hnekkingu gjalda**. Hægt er að nálgast skýrsluna í **Smásala \> Fyrirspurnir og skýrslur \> Ferill fyrir hnekkingu gjalda**.  Mikilvægt er að hafa í huga að gögnin sem eru nauðsynleg fyrir þessa skýrslu eru flutt frá gagnagrunni rásar inn í höfuðstöðvar í gegnum „P“ vinnslur dreifingaráætlunar. Þess vegna er ekki hægt að fá upplýsingar um hnekkingar sem hafa nýlega verið gerðar í POS í þessari skýrslu fyrr en þessi vinnsla hefur hlaðið upp færslugögnum verslunar í höfuðstöðvar. 

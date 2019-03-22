@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 303d67c0b662e6c21cebb5aa10ed28555459522e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 98ec7d9a57cc39c22a31c025754c83dc1a95139e
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302445"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403379"
 ---
 # <a name="accounts-receivable-home-page"></a>Viðskiptakröfur – heimasíða
 
@@ -92,17 +92,15 @@ Samþykkja mismunandi gerðir af greiðslum frá viðskiptavinum, til dæmis ví
 :::row-end:::
 
 
-### <a name="additional-resources"></a>Frekari tilföng
+### <a name="additional-resources"></a>Frekari upplýsingar
 
 #### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
 
-Á [Microsoft Dynamics 365-leiðarvísinum](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
+Í [Microsoft Dynamics 365-leiðarvísinum](https://go.microsoft.com/fwlink/?linkid=2010158) sérðu hvaða nýju eiginleikar eru fyrirhugaðir. 
 
 #### <a name="blogs"></a>Blogg
 
-Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) er að finna umfjöllun, fréttir og aðrar upplýsingar um viðskiptakröfur og aðrar lausnir.
-
-Það eru margar færslur um viðskiptakröfur á bloggsíðu afurðateymisins fyrir [Microsoft Dynamics AX ](https://blogs.msdn.microsoft.com/dax/). Sumar þessara færslna voru skrifaðar um eldri útgáfu viðskiptakrafna, en sömu hugtök eiga enn við. og ferlin eru svipuð í nýjustu útgáfunni.
+Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) og [Microsoft Dynamics 365 Finance and Operations - Financials-blogginu](https://community.dynamics.com/365/financeandoperations/b/financials) er að finna umfjöllun, fréttir og aðrar upplýsingar um viðskiptakröfur og aðrar lausnir.
 
 Blogg [Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir samstarfsaðilum Microsoft Dynamics aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika MBS Operations á einum stað.
 

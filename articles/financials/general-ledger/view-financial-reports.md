@@ -1,9 +1,9 @@
 ---
 title: Skoða fjárhagsskýrslur
-description: Þessi grein lýsir hvernig eigi að skoða fjárhagsskýrslur í Microsoft Dynamics 365 for Finance and Operations. Það felur í sér upplýsingar um þá ýmsu valkosti sem hægt er að nota í fjárhagsskýrslum til að breyta útlit þeirra og gögn sem þeir hafa.
+description: Þetta efnisatriði lýsir því hvernig eigi að skoða fjárhagsskýrslur í Microsoft Dynamics 365 for Finance and Operations. Það felur í sér upplýsingar um þá ýmsu valkosti sem hægt er að nota í fjárhagsskýrslum til að breyta útlit þeirra og gögn sem þeir hafa.
 author: kweekley
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a939ce2f43645963392363fc6452f8bc55bd963
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ecdd2dd9d1eff0af358a458171ce151c9c14c71c
+ms.sourcegitcommit: 78bd8119b9fe967ba4d0adaacaf2d2227e567a91
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312946"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791442"
 ---
 # <a name="view-financial-reports"></a>Skoða fjárhagsskýrslur
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir hvernig eigi að skoða fjárhagsskýrslur í Microsoft Dynamics 365 for Finance and Operations. Það felur í sér upplýsingar um þá ýmsu valkosti sem hægt er að nota í fjárhagsskýrslum til að breyta útlit þeirra og gögn sem þeir hafa.
+Þetta efnisatriði lýsir því hvernig eigi að skoða fjárhagsskýrslur í Microsoft Dynamics 365 for Finance and Operations. Það felur í sér upplýsingar um þá ýmsu valkosti sem hægt er að nota í fjárhagsskýrslum til að breyta útlit þeirra og gögn sem þeir hafa.
 
 <a name="financial-reporting-overview"></a>Yfirlit Fjárhagsskýrslugerð
 ----------------------------
@@ -67,26 +67,23 @@ Hægt er að birta fjárhagsskýrslur í hvaða gjaldmiðli skýrsla á hvaða t
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>Birta samantekin yfirlit yfir fjárhagsskýrslu
 Fjárhagsskýrsla getur innihaldið upplýsingalínur og samantektarlínur. Upplýsingalínur eru línur sem innihalda aðallykla eða víddir. Samantektarlínur eru lýsingar-, samtölu- og útreikningalínur Til að birta einungis samantektarlínur skýrslu er smellt á **Sýna**, og smellið síðan á **Samantektarlínur aðeins**. Skýrslan er dregin saman og birtir aðeins samantektarlínur. Til að skoða upplýsingalínur ásamt samantektarlínur, smellið á **Sýna**, og smellið síðan á **Samantektarlínur aðeins** aftur.
 
-## <a name="open-a-financial-report-from-a-previous-month"></a>Opna fjárhagsskýrslu frá fyrri mánuður
-Hægt er að skoða skýrslur fyrir gildandi mánuður eða fyrri mánuðir án þess að endurmynda skýrsluna. Ef opna á skýrslu fyrir fyrri mánuð, smellið á **Sýna**, og smellið síðan á **Fyrri skýrslur**. Listi yfir fyrri mánuðir sem skýrslan hefur verið myndað fyrir birtist. Útvíkka mánuði til að skoða skýrslu fyrir, velja dagsetningu og smellið síðan á **í lagi**. skýrslan fyrir mánuðinn er birt. til að snúa aftur í skýrslu núverandi mánuði , smellið á **hætta Við**.
-
 ## <a name="print-a-financial-report"></a>Prenta fjárhagsskýrslu
-til að prenta fjárhagsskýrslu, í Aðgerðarúðunni, smellið á  **Prenta**, og fylgið svo einn eða fleiri af eftirfarandi skrefum til að stilla valkosti prentunar:
+Prentun fjárhagsskýrslu mun búa til PDF-skrá sem síðan er hægt að prenta handvirkt. Til að búa til prentvæna fjárhagsskýrslu, í aðgerðarúðunni, smellið á **Prenta** og fylgið svo einu eða fleiri af eftirfarandi skrefum til að stilla valkosti prentunar:
 
 -   Til að taka með mismunandi stig upplýsinga í útprentaðri skýrslu, stilltu sleða á **Já** eða **Nei**. Ef skýrslu notar skipurit er hægt að velja að taka með allar einingar skipurits eða aðeins núverandi eining skipurits.
 -   Ef stilla á síðustærð skal velja síðustærð á listanum.
 -   Ef stilla útlit síðu skal velja útlit á listanum. Ef efni skýrslu til að passa við breiddina sem er valin er sleði stilltur á  **Já**.
 -   Til að stilla spássíu, færið inn efstu, neðst, vinstri og hægri spássíustærð í tommum.
 
-Eftir að lokið hefur verið við að stilla valkosti prentunar, smellið á **Prenta** til að prenta skýrsluna. Ef ákveðið er að ekki á að prenta skýrsluna, smellt á **hætta Við**. Forskoðun prentuðu skýrslunni er birt. Hægt er að velja prentara til að senda skýrsluna til, og einnig er hægt að stilla valkosti prentunar.
+Eftir að þú hefur lokið við stillingar á valkostum prentunar skaltu smella á **Prenta** til að halda áfram og velja svo hvort eigi að sækja skrána eða vista hana í OneDrive eða SharePoint. Ef þú ákveður að þú vilt ekki halda áfram skaltu smella á **Hætta við** í staðinn. Þegar þú heldur áfram birtist skýrslan á þjóninum og þú verður beðinn um að sækja skýrsluna í PDF-sniði. Nú er hægt að skoða skýrsluna í PDF-lesaranum og héðan geturðu valið prentarann til að senda skýrsluna til, og einnig gera frekari leiðréttingar fyrir valkosti prentunar.
 
 ## <a name="export-a-financial-report"></a>Flytja út fjárhagsskýrslu
 Til að flytja út fjárhagsskýrslu, á Aðgerðasvæðinu skal smellt á **Birta**. Skýrslan er flutt út í Microsoft Excel og vafrinn biður þig að opna eða vista útfluttar skrár. útflutningsstillingar sem eru skilgreindar í skýrsluhönnuninni eru notaðar fyrir útfluttar skýrslu.    
 
-<a name="additional-resources"></a>Frekari upplýsingar
+<a name="additional-resources"></a>Frekari tilföng
 --------
 
-[Fjárhagsskýrslugerð fyrir Microsoft Dynamics AX](../../dev-itpro/analytics/financial-reporting-intro.md)
+[Fjárhagsskýrslugerð](../../dev-itpro/analytics/financial-reporting-intro.md)
 
 
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e92d50828f6511329401b43154895da1244788cd
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356347"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832149"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Dálkaskilgreiningar í Fjárhagsskýrslum
 
@@ -62,7 +62,7 @@ Dálkskilgreining getur innihaldið tvo til 255 dálka.
 Dálkskilgreining inniheldur eftirfarandi upplýsingar:
 
 - Dálkur lýsingar fyrir línuskilgreiningunni.
-- Upphæðardálkar sem birta gögn úr fjárhagsgögnum, Microsoft Excel vinnublaði eða útreikningi sem byggja á öðrum gögnum í dálkskilgreiningunni
+- Upphæðardálkar sem birta gögn úr fjárhagsgögnum eða útreikninga sem byggja á öðrum gögnum í dálkskilgreiningunni
 - Sniðdálkar
 - Eigindadálka.
 
@@ -170,7 +170,7 @@ Hægt er nota **dálkfyrirsögn** svarglugga til að bæta við, breyta og eyða
 
 ### <a name="create-an-automatically-generated-header"></a>Stofna sjálfvirkt myndaðan haus
 
-Report Designer getur sjálfkrafa myndað dálkhausa byggða á kóðum sjálfvirks texta. Sjálfvirkir textakóðar eru breytur sem eru uppfærðar í hvert sinn sem skýrsla er mynduð. Allar dálkfyrirsagnir geta innihaldið þessa kóða til að tilgreina upplýsingar skýrslu sem geta verið mismunandi, á borð við dagsetningu eða tímabilsnúmer. Þess vegna er hægt að nota eina dálkskilgreiningu fyrir margar skýrsluskilgreiningar, tímabil og skipurit. Þar sem sjálfvirkur texti kóða notast við dagatalsupplýsingar úr hlutanum Upplýsingar í dálkskilgreiningu, eru þeir aðeins studdir fyrir dálkana **CALC**, **FD**, og **WKS** dálkana. Hvernig sjálfvirkur textakóði birtist í dálkfyrirsagnarhólfinu hefur áhrif á hvernig þær upplýsingar birtast í skýrslunni. Í svarglugganum **Dálkfyrirsögn** birtast sjálfvirku textakóðarnir með blöndu há- og lágstafa. Þess vegna er textinn sem birtist há- og lágstafa í skýrslunni. Á hefðbundnu almanaksári leysir **@CalMonthLong** úr mánuði **7** sem **júlí**. Ef heiti mánaðar á að vera með hástöfum í skýrslunni, s.s. **JÚLÍ**, er sjálfvirkur textakóði sleginn inn með hástöfum í reitinn **Texti dálkfyrirsagnar**. Færðu t.d. inn **@CALMONTHLONG**. Hægt er að nota kóða með texta. Til dæmis færirðu inn eftirfarandi fyrirsagnartexti: **Tímabil @FiscalPeriod-@FiscalYear frá @StartDate til @EndDate** Fyrirsögn skýrslu sem er mynduð svipar eftirfarandi texta: **Tímabil 1-02 frá 01/01/02 til 31/01/02**.
+Report Designer getur sjálfkrafa myndað dálkhausa byggða á kóðum sjálfvirks texta. Sjálfvirkir textakóðar eru breytur sem eru uppfærðar í hvert sinn sem skýrsla er mynduð. Allar dálkfyrirsagnir geta innihaldið þessa kóða til að tilgreina upplýsingar skýrslu sem geta verið mismunandi, á borð við dagsetningu eða tímabilsnúmer. Þess vegna er hægt að nota eina dálkskilgreiningu fyrir margar skýrsluskilgreiningar, tímabil og skipurit. Þar sem kóðar sjálfvirks texta notast við dagatalsupplýsingar úr upplýsingalínu dálkskilgreiningar, eru þeir aðeins studdir fyrir dálkana **CALC** og **FD**. Hvernig sjálfvirkur textakóði birtist í dálkfyrirsagnarhólfinu hefur áhrif á hvernig þær upplýsingar birtast í skýrslunni. Í svarglugganum **Dálkfyrirsögn** birtast sjálfvirku textakóðarnir með blöndu há- og lágstafa. Þess vegna er textinn sem birtist há- og lágstafa í skýrslunni. Á hefðbundnu almanaksári leysir **@CalMonthLong** úr mánuði **7** sem **júlí**. Ef heiti mánaðar á að vera með hástöfum í skýrslunni, s.s. **JÚLÍ**, er sjálfvirkur textakóði sleginn inn með hástöfum í reitinn **Texti dálkfyrirsagnar**. Færðu t.d. inn **@CALMONTHLONG**. Hægt er að nota kóða með texta. Til dæmis færirðu inn eftirfarandi fyrirsagnartexti: **Tímabil @FiscalPeriod-@FiscalYear frá @StartDate til @EndDate** Fyrirsögn skýrslu sem er mynduð svipar eftirfarandi texta: **Tímabil 1-02 frá 01/01/02 til 31/01/02**.
 
 > [!NOTE]
 > Sniðið á sumum texta, svo sem löngum dagsetningum, fer eftir svæðisstillingunum sem eru valdar á Finance and Operations-þjóninum. Til að breyta þessum stillingum er smellt á **Ræsa** hnappinn, **Stjórnborð** valið og smellt á **Svæðisbundnir valkostir og tungumálavalkostir**. Eftirfarandi tafla inniheldur tiltækan sjálfvirkan texta fyrir dálkfyrirsagnir.
@@ -291,7 +291,7 @@ Hólfið **Aukabil á undan dálki** tilgreinir breidd skila á milli eins dálk
 1. Opnið dálkskilgreiningu í Skýrsluhönnun til að gera breytingar.
 2. Í hólfið **Aukabil á undan dálki** er færður inn fjöldi bila fyrir breidd dálksins.
 
-### <a name="specify-a-currency"></a>Tilgreina gjaldmiðil
+### <a name="specify-a-format-currency-override"></a>Tilgreina hnekkingu á gjaldmiðilssniði
 
 Hólfið **Hnekking sniðs/gjaldmiðils** tilgreinir snið tugabrota-, gjaldmiðils- og prósentuupphæða í þessum dálki. Þetta snið hnekkir því sniði sem tilgreint er í skýrsluskilgreiningu eða sjálfgefnum stillingum kerfis.
 
@@ -361,7 +361,7 @@ Tegund upplýsinganna sem kemur fram í hverjum dálki í skýrslu er tilgreindu
     <tbody>
     <tr>
     <td>FD</td>
-    <td>Sýna fjárhagsgögn eða gögn úr Excel-vinnublaði þegar notast er við dálkinn <strong>Tengill í fjárhagsvíddir</strong> eða dálkinn <strong>Tengill í vinnublað</strong> í línuskilgreiningum. Þegar dálkategundin <strong>FD</strong> er valin eru sjálfgefnar stillingar sjálfkrafa tilgreindar í eftirfarandi línum: <ul>
+    <td>Sýna fjárhagsgögn þegar notast er við dálkinn <strong>Tengill í fjárhagsvíddir</strong> í línuskilgreiningu. Þegar dálkategundin <strong>FD</strong> er valin eru sjálfgefnar stillingar sjálfkrafa tilgreindar í eftirfarandi línum: <ul>
     <li><strong>Bókarkóði/Eigindaflokkur:</strong> – ACTUAL</li>
     <li><strong>Bókarkóði/Eigindaflokkur:</strong> – ACTUAL</li>
     <li><strong>Fjárhagsár:</strong> – BASE</li>
@@ -394,14 +394,6 @@ Hægt er að breyta þessum sjálfgefnu stillingum.</td>
     <tr>
     <td>PAGE</td>
     <td>setja inn lóðrétt síðuskil í skýrsluna. Dálkarnir sem eru til hægri við dálkinn <strong>PAGE</strong> birtast á annarri síðu.</td>
-    </tr>
-    <tr>
-    <td>WKS</td>
-    <td>birta gögn sem eru sótt úr Excel-vinnublað. Þegar dálkategundin <strong>WKS</strong> er valin eru sjálfgefnar stillingar sjálfkrafa tilgreindar í eftirfarandi línum: <ul>
-    <li><strong>Fjárhagsár</strong> – PERIODIC</li>
-    <li><strong>Tímabil:</strong> – BASE</li>
-    </ul>
-Hægt er að breyta þessum sjálfgefnu stillingum.</td>
     </tr>
     <tr>
     <td>ATTR</td>
@@ -518,13 +510,13 @@ Einnig er hægt að nota hvaða samsetningu bók- og tölustafa sem er fyrir ná
 
 ### <a name="format-a-multiple-currency-report-in-a-column-definition"></a>Skýrsla fyrir marga gjaldmiðla sniðin í dálkskilgreiningu
 
-Skýrsla með mörgum gjaldmiðlum getur birt upphæðir í eiginlegum gjaldmiðli (staðbundnum), virkum gjaldmiðli (sjálfgefnum) eða skýrslugjaldmiðli. Virkur gjaldmiðill fyrirtækis er skilgreindur í Microsoft Dynamics ERP-kerfinu. Ekki rugla saman þessari ERP-stillingu við stillingar stýrikerfis svæðisbundna valkosta þar sem hægt er að stilla tákn sjálfgefna gjaldmiðilsins sem eru notaðar á skýrslum. Eftirfarandi hólf tengd gjaldmiðlum eru tiltæk í dálkskilgreiningunni:
+Skýrsla með mörgum gjaldmiðlum getur birt upphæðir í bókhaldsgjaldmiðli fjárhags, skýrslugerð fjárhags, upprunalegum færslugjaldmiðli eða umreiknuðum skýrslugjaldmiðli. Bókhaldsgjaldmiðill fyrirtækis er skilgreindur í uppsetningu fjárhags. Ekki rugla saman þessari stillingu við stillingar stýrikerfis svæðisbundna valkosta þar sem hægt er að stilla tákn sjálfgefna gjaldmiðilsins sem eru notaðar á skýrslum. Eftirfarandi hólf tengd gjaldmiðlum eru tiltæk í dálkskilgreiningunni:
 
-- **Birtingarmynd gjaldmiðils** – Tilgreinir tegund gjaldmiðils (eiginlegur, virkur eða skýrslugjaldmiðill) þar sem færslur eru birtar. Stundum er vísað til þessarar virkni sem umreikningur gjaldmiðils. umreikningur gjaldmiðils, gerir notanda kleift að skrá fjárhagsupphæðir í gjaldmiðli sem gæti verið annar en virkur gjaldmiðill fyrirtækisins eða annar gjaldmiðill en færslan var færð inn í.
+- **Birtingarmynd gjaldmiðils** – Tilgreinir tegund gjaldmiðils (bókhald, skýrsla, færsla eða umreiknuð skýrsla) þar sem færslur eru birtar. Stundum er vísað til virkni fyrir umreikning á skýrslugjaldmiðli sem umreikningur gjaldmiðils. Umreikningur gjaldmiðils, gerir notanda kleift að skrá fjárhagsupphæðir í gjaldmiðli sem gæti verið annar en virkur eða skýrslugjaldmiðill fyrirtækisins eða annar gjaldmiðill en færslan var færð inn í.
 - **Afmörkun gjaldmiðils** – Tilgreina afmörkun gjaldmiðils. Aðeins færslur sem færðar eru inn í gjaldmiðlinum sem valinn er birtast í skýrslunni.
 
-> [!NOTE]
-> Til að stofna skýrslur sem nota marga gjaldmiðla verður að velja gátreitinn **Taka með alla skýrslugjaldmiðla** í flipanum **Skýrsla** í skýrsluskilgreiningu. Til að ákvarða virkan gjaldmiðil fyrirtækis skal fylgja eftirfarandi skrefum.
+> 
+Til að ákvarða bókhaldsgjaldmiðil fyrirtækis skal fylgja eftirfarandi skrefum.
 
 1. Á valmyndinni **Fyrirtæki** í Report Designer er smellt á **Fyrirtæki**.
 2. Í svarglugganum **Fyrirtæki** skal velja fyrirtæki og smella síðan á **Skoða**.
@@ -533,20 +525,18 @@ Skýrsla með mörgum gjaldmiðlum getur birt upphæðir í eiginlegum gjaldmið
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>tilgreindu gjaldmiðil í skýrslu með marga gjaldmiðla
 
 1. Opnið dálkskilgreiningu í Skýrsluhönnun til að gera breytingar.
-2. Tvísmellið á hólfið **Birtingarmynd gjaldmiðils** í viðeigandi **FD** dálki og veljið svo valkost fyrir birtingu upplýsinga um gjaldmiðil: **Eiginlegur/upphaflegur gjaldmiðill**, **Virkur gjaldmiðill úr stofngögnum** eða skýrslugjaldmiðil.
+2. Tvísmellið á hólfið **Birtingarmynd gjaldmiðils** í viðeigandi **FD** dálki og veljið svo valkost fyrir birtingu upplýsinga um gjaldmiðil: **Fjárhagsbókhaldsgjaldmiðill**, **Fjárhagsskýrslugerð**, færslugjaldmiðill eða veljið að umreikna yfir í annan skýrslugjaldmiðil.
 3. Tvísmellið á hólfið **Gjaldmiðilsafmörkun** í viðeigandi **FD** dálki og veljið svo viðeigandi gjaldmiðilskóða á listanum. Aðeins færslur sem færðar eru inn þessum gjaldmiðli birtast í skýrslunni.
 
-> [!NOTE]
-> Valkostirnir sem lýst er hér gætu verið öðruvísi, allt eftir ERP-kerfinu. Frekari upplýsingar eru í [Fylgiskjölum með Microsoft ERP kerfi](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Dæmi um hólf birtingamyndar gjaldmiðils og gjaldmiðilsafmörkunar.
 
 Pála hefur valið eftirfarandi gjaldmiðilsvalkosti í dálkskilgreiningu sinni:
 
 - **Gjaldmiðilsafmörkun** - Jen
-- **Birtingarmynd gjaldmiðils** – Virkur (Bandaríkjadalir)
+- **Birtingarmynd gjaldmiðils:** Bókhaldsgjaldmiðill úr fjárhag (bandaríkjadalir)
 
-Vegna valsins á gjaldmiðilsafmörkun sem Phyllis valdi, inniheldur skýrslan aðeins færslur sem færðar voru inn í jenum (JPY). Vegna valsins á birtingamynd gjaldmiðils sem hún valdi, birtir skýrslan þessar færslur í virkum gjaldmiðli (Bandaríkjadölum) (USD).
+Vegna valsins á gjaldmiðilsafmörkun sem Phyllis valdi, inniheldur skýrslan aðeins færslur sem færðar voru inn í jenum (JPY). Vegna valsins á birtingamynd gjaldmiðils sem hún valdi, birtir skýrslan þessar færslur í bókhaldsgjaldmiðlinum, bandaríkjadölum (USD).
 
 #### <a name="currency-filter-and-currency-display-combinations"></a>Samsetning gjaldmiðilsafmörkunar og birtingamyndar gjaldmiðils.
 
@@ -555,10 +545,10 @@ Eftirfarandi tafla sýnir niðurstöður skýrslunnar sem geta átt sér stað f
 
 | Hólf fyrir Birtingarmynd gjaldmiðils                        | Hólf fyrir Gjaldmiðilsafmörkun | Niðurstaða skýrslu |
 |----------------------------------------------|----------------------|---------------|
-| Eiginlegur/upphaflegur gjaldmiðill                 | **JEN**              | **Y6, 000** – niðurstöðurnar sýna einungis færslur sem voru færðar inn í JPY. |
-| Virkur gjaldmiðill úr stofngögnum | **JEN**              |**$60** – niðurstöðurnar sýna einungis færslur sem voru færðar inn í JPY og sýnir færslur í USD.<blockquote>[!NOTE] Umreikningsgengi er um það bil 100 JPY á USD.</blockquote> |
-| Virkur gjaldmiðill úr stofngögnum | Autt                | **$2,310** Niðurstöðurnar sýna öll gögn í virkum gjaldmiðli sem tilgreindur er í fyrirtækisupplýsingunum.<blockquote>[!NOTE] Þessi upphæð er samtala allra færslna í virkum gjaldmiðli.</blockquote> |
-| Eiginlegur/upphaflegur gjaldmiðill                 | Autt                | **$2,250** – niðurstöður sýnir allar upphæðir í gjaldmiðli sem færslan var framkvæmd í. |
+| Gjaldmiðill færslu                 | **JEN**              | **Y6, 000** – niðurstöðurnar sýna einungis færslur sem voru færðar inn í JPY. |
+| Bókhaldsgjaldmiðill úr fjárhag | **JEN**              |**$60** – niðurstöðurnar sýna einungis færslur sem voru færðar inn í JPY og sýnir færslur í USD.<blockquote>[!NOTE] Umreikningsgengi er um það bil 100 JPY á USD.</blockquote> |
+| Bókhaldsgjaldmiðill úr fjárhag | Autt                | **$2.310** - Niðurstöðurnar sýna öll gögn í bókhaldsgjaldmiðli sem tilgreindur er í fjárhag.<blockquote>[!NOTE] Þessi upphæð er samtala allra færslna í bókhaldsgjaldmiðli.</blockquote> |
+| Gjaldmiðill færslu                 | Autt                | **$2,250** – niðurstöður sýnir allar upphæðir í gjaldmiðli sem færslan var framkvæmd í. Þetta þýðir að samtalan er að leggja saman upphæðir frá mismunandi gjaldmiðlum. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Útreikningsdálkur í dálkskilgreiningu
 

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2dc977e3c53b1f15b41b095f586861b67c973a6d
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: c6fcc93cfed35d73ae749856f33857ba84dbfd82
+ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377136"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773278"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Yfirlit yfir fjárhagssamþættingu fyrir smásölurásir
 
@@ -30,7 +30,7 @@ ms.locfileid: "377136"
 
 ## <a name="introduction"></a>Inngangur
 
-Í þessu efnisatriði er yfirlit yfir fjárhagssamþættingarmöguleika sem eru í boði í Microsoft Dynamics 365 for Retail. Fjárhagssamþætting felur í sér samþættingu við ýmis fjárhagstæki og þjónustu sem gerir kleift að skrá smásölu í samræmi við staðbundin fjárhagslög sem miða að því að koma í veg fyrir skattsvik í smásöluiðnaðinum. Hér eru nokkrar dæmigerðar aðstæður sem hægt er að dekka með því að nota fjárhagssamþættingu: 
+Í þessu efnisatriði er yfirlit yfir fjárhagssamþættingarmöguleika sem eru í boði í Microsoft Dynamics 365 for Retail. Fjárhagssamþætting felur í sér samþættingu við ýmis fjárhagstæki og þjónustu sem gerir kleift að skrá smásölu í samræmi við staðbundin fjárhagslög sem miða að því að koma í veg fyrir skattsvik í smásöluiðnaðinum. Hér eru nokkrar dæmigerðar aðstæður sem hægt er að dekka með því að nota fjárhagssamþættingu:
 
 - Skrá smásölu á fjárhagstæki sem tengist sölustað (POS), svo sem strimlaprentara og prentun á fjárhagskvittun fyrir viðskiptavin.
 - Senda inn upplýsingar á öruggan hátt sem tengjast sölu og skilum sem er lokið í Retail POS til utanaðkomandi vefþjónustu sem er starfrækt af skattyfirvöldum.
@@ -87,6 +87,7 @@ Valkostirnir **Sleppa** og **Merkja sem skráð** virkja upplýsingakóða til a
 
 Fjárhagsfærslur eru fluttar til Retail Headquarters með *P-vinnslu* ásamt smásölufærslum. Í flýtiflipanum **Fjárhagsfærslur** á síðunni **Færslur smásöluverslunar** er hægt að skoða fjárhagsfærslurnar sem eru tengdar við smásölufærslur.
 
+
 Fjárhagsfærsla geymir eftirfarandi upplýsingar:
 
 - Upplýsingar um ferli fjárhagsskráningar (ferli, tenglahóp, tengil og svo framvegis). Hún geymir einnig raðnúmer fjárhagstækis í reitnum **Skrá númer** ef þessar upplýsingar eru innifaldar í fjárhagssvörun.
@@ -115,4 +116,5 @@ Eftirfarandi virkni fjárhagssamþættingar er einnig í boði í Retail SDK en 
 
 - [Stafræn undirskrift fyrir Frakkland](emea-fra-cash-registers.md)
 - [Stafræn undirskrift fyrir Noreg](emea-nor-cash-registers.md)
-- [Dæmi um samþættingu stjórntækis fyrir Svíþjóð](../dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
+- [Dæmi um samþættingu stjórntækis fyrir Svíþjóð](./retail-sdk-control-unit-sample.md)
+
