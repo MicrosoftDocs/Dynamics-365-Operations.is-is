@@ -2,12 +2,20 @@ items:
 - name: Dynamics 365 for Talent
   href: index.md
   items:
-  - name: Hafist handa
+  - name: Leiðsögn
     href: talent-get-started.md
     items:
     - name: Nýjungar eða breytingar í Talent
       href: whats-new.md
       items:
+      - name: 2. apríl 2019
+        href: whats-new-talent-april-2-2019.md
+      - name: 26. mars 2019
+        href: whats-new-talent-march-26-2019.md
+      - name: 20. mars 2019
+        href: whats-new-talent-march-20.md
+      - name: 14. mars 2019
+        href: whats-new-talent-march-14.md
       - name: 5. mars 2019
         href: whats-new-talent-march-5.md
       - name: 27. febrúar 2019
@@ -20,55 +28,59 @@ items:
         href: whats-new-talent-january-29.md
       - name: 23. janúar 2019
         href: whats-new-talent-january-23.md
-      - name: 17. janúar 2019
-        href: whats-new-talent-january-17.md
-      - name: 11. janúar 2019
-        href: whats-new-talent-january-11.md
-      - name: 14. desember 2018
-        href: whats-new-talent-december-14.md
-      - name: 6. desember 2018
-        href: whats-new-talent-december-6.md
-      - name: 27. nóvember 2018
-        href: whats-new-talent-november-27.md
-      - name: 15. nóvember 2018
-        href: whats-new-talent-november-15.md
-      - name: 31. október 2018
-        href: whats-new-talent-october-31.md
-      - name: 19. október 2018
-        href: whats-new-talent-october-19.md
-      - name: 15. október 2018
-        href: whats-new-talent-october-11.md
-      - name: 8. október 2018
-        href: whats-new-talent-october-8.md
-      - name: 1. október 2018
-        href: whats-new-talent-october-01.md
-      - name: 24. september 2018
-        href: whats-new-talent-september-24.md
-      - name: 17. september 2018
-        href: whats-new-talent-september-17-2018.md
-      - name: 10. september 2018
-        href: whats-new-talent-september-10.md
-      - name: Ágúst 2018
-        href: whats-new-talent-august2018.md
-      - name: Júlí 2018
-        href: whats-new-talent-july2018.md
+      - name: Safnvistaðar nýjungar 2019
+        items:
+        - name: 17. janúar 2019
+          href: whats-new-talent-january-17.md
+        - name: 11. janúar 2019
+          href: whats-new-talent-january-11.md
+      - name: Safnvistaðar nýjungar 2018
+        items:
+        - name: 14. desember 2018
+          href: whats-new-talent-december-14.md
+        - name: 6. desember 2018
+          href: whats-new-talent-december-6.md
+        - name: 27. nóvember 2018
+          href: whats-new-talent-november-27.md
+        - name: 15. nóvember 2018
+          href: whats-new-talent-november-15.md
+        - name: 31. október 2018
+          href: whats-new-talent-october-31.md
+        - name: 19. október 2018
+          href: whats-new-talent-october-19.md
+        - name: 15. október 2018
+          href: whats-new-talent-october-11.md
+        - name: 8. október 2018
+          href: whats-new-talent-october-8.md
+        - name: 1. október 2018
+          href: whats-new-talent-october-01.md
+        - name: 24. september 2018
+          href: whats-new-talent-september-24.md
+        - name: 17. september 2018
+          href: whats-new-talent-september-17-2018.md
+        - name: 10. september 2018
+          href: whats-new-talent-september-10.md
+        - name: Ágúst 2018
+          href: whats-new-talent-august2018.md
+        - name: Júlí 2018
+          href: whats-new-talent-july2018.md
     - name: Kerfiskröfur og uppfærsluregla
       href: talent-versions-update-policy.md
     - name: Úthluta Talent
       href: provisioning-talent.md
     - name: Fjarlægja Talent-umhverfi
       href: remove-talent-environment.md
-    - name: Úthlutun Talent MOD-forrita
+    - name: Úthlutun Talent-einingaforrita
       href: modular-app-tech-faq.md
     - name: Innfella PowerApps-forrit
       href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Core HR og Common Data Service fyrir forrit
+    - name: Core HR og Common Data Service
       href: CoreHREntities.md
     - name: Fá aðgang að eiginleikum í forútgáfu
       href: access-preview-feature.md
     - name: Fá aðstoð fyrir Talent
       href: talent-support.md
-  - name: Skipuleggja vinnuafl með notkun deilda, starfa og staða
+  - name: Skipuleggja starfsfólk með því að nota deildir, störf og stöður
     href: departments-jobs-positions.md
     items:
     - name: Setja upp íhluti verks
@@ -98,13 +110,15 @@ items:
     items:
     - name: Attract eiginleikar og færni
       href: attract-overview.md
-    - name: Búa til ferlissniðmát í Attract
+    - name: Búa til sniðmát fyrir ferli í Attract
       href: Process-templates-Attract.md
     - name: Búa til, samþykkja og birta störf í Attract
       href: Creating-jobs-Attract.md
+    - name: Störf birt á utanaðkomandi svæðum úr Attract
+      href: posting-jobs-external.md
     - name: Fundið með hæfileikasöfnum
       href: attract-talent-pools.md
-    - name: Fundið með LinkedIn ráðningaraðila
+    - name: Fundið með LinkedIn Recruiter
       href: attract-linked-in-recruiter.md
     - name: Ráðningarferli í Attract
       href: activities-attract.md
@@ -126,8 +140,10 @@ items:
       href: Admin-Settings-Attract.md
     - name: Snjallmeðmæli
       href: Intelligent-Recommendations.md
-    - name: Búa til aðlaðandi innleiðingarupplifun
+    - name: Búa til spennandi innleiðingarupplifun
       href: create-onboarding-experience.md
+    - name: Fylgjast með stöðum til að finna notendaupplýsingar og umsóknir umsækjenda
+      href: source-tracking.md
     - name: Attract-viðbótareiginleikar við alhliða ráðningar
       href: attract-comprehensive-hiring.md
   - name: Virkja starfsmenn
@@ -199,10 +215,18 @@ items:
       href: configure-payroll-integration.md
     - name: Leiðbeiningar fyrir samþættingu gagna fyrir Dynamics 365 for Talent
       href: data-integration.md
-    - name: Samþætting algengra spurninga
+    - name: Algengar spurningar um samþættingu
       href: talent-fo-integration.md
-    - name: Reglulegur útflutningur gagna með Azure Logic-forritum
+    - name: Endurtekinn útflutningur gagna með Azure Logic Apps
       href: tutorial-integration-recurring-export.md
+  - name: Stækkunarhæfni
+    items:
+    - name: Auka virkni Talent með því að nota PowerApps og Microsoft Flow – dæmi um atburðarásir
+      href: extensibility-examples.md
+    - name: Stækkunarhæfni í Attract
+      href: extensibility-attract.md
+    - name: Sérstilltir reitir í Core HR
+      href: corehr-custom-fields.md
   - name: Office-samþætting
     items:
     - name: Kennsla í Office-samþættingu
@@ -320,21 +344,21 @@ items:
       href: run-compensation-process.md
     - name: Vista verkefnaleiðbeiningar í LCS og spila þær aftur
       href: save-play-task-guides-LCS.md
-    - name: Aðgangur að einkaaðsetrum í gegnum öryggishlutverk
+    - name: Aðgangur að einkaaðsetrum eftir öryggishlutverki
       href: security-roles-addresses.md
-    - name: Talent birtist ekki á meðal forrita Microsoft Dynamics 365 (CDS1.0)
+    - name: Talent birtist ekki á meðal forrita Microsoft Dynamics 365 (Common Data Service 1.0)
       href: talent-not-in-home-CDS.md
     - name: Notandi getur opnað Core HR en ekki forritin Onboard eða Attract
       href: user-access-core-hr.md
     - name: Valkostir tilkynninga í Talent
       href: talent-reporting-options.md
-    - name: Samþætting algengra spurninga
+    - name: Algengar spurningar um samþættingu
       href: talent-FO-integration.md
     - name: Azure Active Directory-notendur fundust ekki í tengiliðavali
       href: people-picker-user-not-found.md
-ms.openlocfilehash: 4123fb80126695bb35a02d3d2fc00b3ea38c1881
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: 0454094f05b3e571a38b8361fa9573c929647551
+ms.sourcegitcommit: 594fd4c7b937695396a7154a906563f43293926a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782753"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "969448"

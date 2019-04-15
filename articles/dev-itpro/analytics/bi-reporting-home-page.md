@@ -3,7 +3,7 @@ title: Viðskiptagreind (BI) og skýrslugerð – heimasíða
 description: Í þessu efnisatriði er bent á tilföng sem nota má til að fræðast um viðskiptagreind og verkfæri til skýrslugerðar, sem eru tiltæk í Microsoft Dynamics 365 for Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 03/27/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 372113f019cbce790dcd3e356a14a7bb49b8afd7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: efd96759c5fb50e30d213e9e5d58a22fd77bc7a2
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302415"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902843"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Viðskiptagreind (BI) og skýrslugerð – heimasíða
 
@@ -32,11 +32,11 @@ ms.locfileid: "302415"
 
 ## <a name="get-started"></a>Hafist handa
 - [Aðgangsupplýsingar og skýrslugerð](information-access-reporting.md)
-- [Tæknital: Valkostir skýrslugerðar](https://www.youtube.com/watch?v=NzZONjKs5xA) (myndskeið)
-- [Finance and Operations: Viðskiptagreind](https://blogs.msdn.microsoft.com/dynamicsaxbi/) (blogg)
+- [Tæknital: Valkostir skýrslugerðar](https://www.youtube.com/watch?v=NzZONjKs5xA) (myndband)
+- [Finance and Operations: Bloggsíða Power BI greiningar og Reporting Services](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blogg)
 
 ## <a name="analytical-workspaces"></a>Greiningarvinnusvæði
-Finance and Operations skilar gagnvirkum skýrslum sem eru samþættar hnökralaust við forritavinnusvæði. Vinnuvæði geta notað vandaða upplýsingagrafík og sjónrænt efni sem Microsoft Power BI styður. Þessi upplýsingagrafík og þetta sjónræna efni felur í sér margar stýringar sem eru veittar af þriðju aðilum. Þess vegna geta vinnusvæði veitt notendum mjög sjónræna og gagnvirka upplifun.
+Finance and Operations skilar gagnvirkum skýrslum sem eru samþættar snurðulaust við vinnusvæði forrita. Vinnuvæði geta notað vandaða upplýsingagrafík og sjónrænt efni sem Microsoft Power BI styður. Þessi upplýsingagrafík og þetta sjónræna efni felur í sér margar stýringar sem eru veittar af þriðju aðilum. Þess vegna geta vinnusvæði veitt notendum mjög sjónræna og gagnvirka upplifun.
 
 Notendur geta átt samskipti við gögnin með því að smella á eða snerta sjónrænt efni á síðunni. Þeir geta séð orsök og afleiðingu, og framkvæmt einfaldar hvað-ef aðgerðir án þess að yfirgefa vinnusvæðið. Þökk sé mögnuðu og gagnvirku sjónrænu efni geta notendur þínir skemmt sér við að kanna gögn og uppgötva falda leitni.
 

@@ -26,7 +26,7 @@ items:
           href: get-started/system-requirements-on-prem.md
         - name: Grunnstilla vöruhús fyrir uppsetningu á staðnum
           href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
-      - name: Uppfærsluþjónusta staðlaðrar og fyrstu útgáfu
+      - name: Framboð uppfærslu á þjónustu
         href: get-started/public-preview-releases.md
       - name: Kaupa Finance and Operations
         items:
@@ -43,13 +43,17 @@ items:
         href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
       - name: Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum
         href: get-started/features-not-implemented-on-prem.md
-      - name: Forskoðun á eiginleikum í Finance and Operations, útgáfu 10.0.1 (apríl 2019)
+      - name: Eiginleikar forútgáfu Finance and Operations, útgáfu 10.0.2 (maí 2019)
+        href: get-started/whats-new-changed-10-0-2.md
+      - name: Finance and Operations, útgáfa 10.0.1 (apríl 2019)
         href: get-started/whats-new-changed-10-0-1.md
       - name: Finance and Operations, útgáfa 10.0 (apríl 2019)
         href: get-started/whats-new-changed-10.md
       - name: Finance and Operations, útgáfa 8.1.3 (janúar 2019)
         href: get-started/whats-new-changed-8-1-3.md
-      - name: Forskoðun á eiginleikum í Finance and Operations platform update 25 (apríl 2019)
+      - name: Eiginleikar forútgáfu Finance and Operations platform update 26 (maí 2019)
+        href: get-started/whats-new-platform-update-26.md
+      - name: Finance and Operations platform update 25 (apríl 2019)
         href: get-started/whats-new-platform-25.md
       - name: Platform update 24 (mars 2019)
         href: get-started/whats-new-platform-update-24.md
@@ -205,11 +209,11 @@ items:
     items:
     - name: Algengar spurningar um uppfærslureglur One version
       href: get-started/one-version.md
-    - name: Reglur um stuðningstíma hugbúnaðar – Ský
+    - name: Reglur um stuðningstíma hugbúnaðar – ský
       href: ../dev-itpro/migration-upgrade/versions-update-policy.md
-    - name: Reglur um stuðningstíma hugbúnaðar – Innanhúss
+    - name: Reglur um stuðningstíma hugbúnaðar – á staðnum
       href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md
-    - name: Uppfærsluþjónusta staðlaðrar og fyrstu útgáfu
+    - name: Framboð uppfærslu á þjónustu
       href: get-started/public-preview-releases.md
     - name: Nota uppfærslur á skýjaumhverfi
       href: ../dev-itpro/deployment/apply-deployable-package-system.md
@@ -230,12 +234,16 @@ items:
       href: ../dev-itpro/business-events/app-business-events.md
     - name: Viðskiptatilvik verkflæðis
       href: ../dev-itpro/business-events/business-events-workflow.md
+    - name: Viðvaranir sem viðskiptatilvik
+      href: ../dev-itpro/business-events/alerts-business-events.md
     - name: Viðskiptatilvik í Microsoft Flow
       href: ../dev-itpro/business-events/business-events-flow.md
     - name: Fylgiskjöl þróunaraðila viðskiptatilvika
       href: ../dev-itpro/business-events/business-events-dev-doc.md
     - name: Úrræðaleit vegna viðskiptatilvika
       href: ../dev-itpro/business-events/troubleshooting.md
+    - name: Dæmi um notkun viðskiptatilvika
+      href: ../dev-itpro/business-events/potential-use-cases.md
   - name: Reglufylgni
     items:
     - name: Reglur endurskoðunarstefnu
@@ -370,6 +378,8 @@ items:
         href: ../dev-itpro/data-entities/recurring-integrations.md?toc=/fin-and-ops/toc.json
       - name: Prófa þjónustu með hjálparforriti þriðju aðila
         href: ../dev-itpro/data-entities/third-party-service-test.md
+    - name: Tengill Finance and Operations
+      href: ../dev-itpro/data-entities/fin-ops-connector.md
     - name: Þróun fyrir samþættingu
       items:
       - name: Samþætting gagna með gagnaeiningum
@@ -747,6 +757,8 @@ items:
         href: ../financials/cash-bank-management/cash-flow-forecasting.md
       - name: Vinnusvæði bankakerfis
         href: ../financials/cash-bank-management/Bank-management-workspace.md
+      - name: Endurmat á banka – erlendum gjaldmiðli
+        href: ../financials/cash-bank-management/bank-revaluation.md
       - name: Staðgreiðsluafslættir
         href: ../financials/cash-bank-management/cash-discounts.md
       - name: Staðgreiðsluafslættir vegna ofgreiðslu
@@ -1439,7 +1451,7 @@ items:
           href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
       - name: SPED ECD
         href: ../financials/localizations/latam-bra-sped-ecd.md
-      - name: SPED-Reinf fyrir skattauppgjör
+      - name: SPED-Reinf skattauppgjör
         href: ../financials/localizations/latam-bra-sped-reinf.md
       - name: Færibreytur fyrir lögaðila
         href: ../financials/localizations/latam-bra-legal-entity-parameters.md
@@ -1893,9 +1905,11 @@ items:
           href: ../financials/localizations/apac-ind-gst-reference-groups.md
         - name: Samþætting vöru- og þjónustuskatts fyrir afgreiðslukassa
           href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
+        - name: Kaupa skattskylda vöru frá óskráðum lánardrottni
+          href: ../financials/localizations/apac-ind-gst-unregistered-vendor-purchase.md
       - name: Leiðbeiningar um uppsetningu á afgreiðslukössum
         href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
-      - name: Yfirlit yfir skattakerfi
+      - name: Yfirlit skattakerfis
         href: ../financials/general-ledger/tax-engine.md
         items:
         - name: Flytja inn skilgreiningu
@@ -2291,6 +2305,8 @@ items:
           href: ../financials/localizations/rus-bonus-depreciation.md
         - name: Reikna út afskriftir
           href: ../financials/localizations/rus-depreciation-calculation.md
+        - name: Flytja eignir
+          href: ../financials/localizations/rus-fixed-asset-transfer.md
       - name: Viðskiptaskuldir og viðskiptakröfur
         items:
         - name: Reikningar til greiðslu
@@ -2303,6 +2319,8 @@ items:
         items:
         - name: Fjárhagsskýrslugerð
           href: ../financials/localizations/rus-financial-reports.md
+        - name: Skilgreina fjárhagsskýrslur í Excel
+          href: ../financials/localizations/rus-excel-financial-report.md
       - name: Fyrirtækjasvið
         href: ../financials/localizations/rus-company-divisions.md
       - name: Setja upp gengi fyrir gjaldeyrisviðskipti
@@ -2321,6 +2339,10 @@ items:
         href: ../financials/localizations/rus-accounting-reporting.md
       - name: Stjórnun sjóðstreymis
         href: ../financials/localizations/rus-cash-flow.md
+      - name: Sala, innkaup og millifærslur í erlendum gjaldmiðli
+        href: ../financials/localizations/rus-currency-sale-purchase.md
+      - name: Áætlaðar skattskýrslur
+        href: ../financials/localizations/rus-assessed-tax-declaration.md
     - name: Sádi-Arabía
       href: ../financials/localizations/saudi-arabia.md
       items:
@@ -2669,6 +2691,8 @@ items:
         href: ../dev-itpro/analytics/employee-competencies-and-development-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
       - name: Þróun starfsmanns
         href: ../dev-itpro/analytics/employee-development-PBI.md?toc=/fin-and-ops/toc.json
+      - name: Power BI-efni útgjaldastýringar
+        href: ../dev-itpro/analytics/expense-management-content-pack.md?toc=/fin-and-ops/toc.json
       - name: Fjárhagsleg frammistaða
         href: ../dev-itpro/analytics/financial-performance-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
       - name: Fjármálainnsýn
@@ -3092,9 +3116,13 @@ items:
         href: ../dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/fin-and-ops/toc.json
       - name: Hópurinn minn
         href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/fin-and-ops/toc.json
+      - name: Yfirlit yfir farsímaforrit verks
+        href: ../financials/project-management/project-mobile-application-overview.md
       - name: Vinnustundafærsla verks
         href: ../financials/project-management/project-time-entry-mobile-workspace.md
-      - name: Samþykkt innkaupapöntunar
+      - name: Vinnukort fyrir verk
+        href: ../financials/project-management/project-timesheet.md
+      - name: Samþykki innkaupapöntunar
         href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
       - name: Sölupantanir
         href: ../supply-chain/sales-marketing/sales-orders-mobile-workspace.md
@@ -3333,6 +3361,8 @@ items:
         href: get-started/create-alerts.md
       - name: Runuvinnsla viðvarana
         href: get-started/alerts-managing.md
+      - name: Viðvörunartilkynningar biðlara með tölvupósti
+        href: get-started/alert-email-notifications.md
     - name: Rafrænar undirskriftir
       href: organization-administration/electronic-signature-overview.md
       items:
@@ -3373,6 +3403,8 @@ items:
           href: ../supply-chain/production-control/bill-of-material-bom.md
         - name: Virkni uppskriftahönnunar
           href: ../supply-chain/production-control/bom-designer-functionality.md
+        - name: Skuggavörur
+          href: ../supply-chain/production-control/phantom-items.md
         - name: Útreikningur uppskrifta
           href: ../supply-chain/cost-management/bom-calculations.md
         - name: Stjórna mælieiningu
@@ -3787,6 +3819,8 @@ items:
       href: ../financials/project-management/project-contracts.md
     - name: Verkspár og fjárhagsáætlanir
       href: ../financials/project-management/project-forecasts-budgets.md
+    - name: Sölupantanir verks
+      href: ../financials/project-management/project-sales-orders.md
     - name: Innkaupapantanir fyrir verk
       href: ../financials/project-management/project-purchase-orders.md
     - name: Verktilboð
@@ -3800,8 +3834,12 @@ items:
       items:
       - name: Microsoft Project biðlarasamþætting
         href: ../financials/project-management/project-integration.md
+    - name: Yfirlit yfir farsímaforrit verks
+      href: ../financials/project-management/project-mobile-application-overview.md
     - name: Vinnustundafærsla verks á fartækjavinnusvæði
       href: ../financials/project-management/project-time-entry-mobile-workspace.md
+    - name: Farsímaforrit fyrir vinnukort verka
+      href: ../financials/project-management/project-timesheet.md
   - name: Sala og markaðsstarf
     href: ../supply-chain/sales-marketing/overview-sales-marketing.md
     items:
@@ -3809,7 +3847,7 @@ items:
       items:
       - name: Pöntun lofað
         href: ../supply-chain/sales-marketing/delivery-dates-available-promise-calculations.md
-      - name: Lokadagur fyrir skráningu pantana
+      - name: Lokadagar fyrir skráningu pantana
         href: ../supply-chain/sales-marketing/order-entry-deadlines.md
       - name: Valkostir afhendinga
         href: ../supply-chain/sales-marketing/delivery-alternatives.md
@@ -4286,9 +4324,9 @@ items:
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-ms.openlocfilehash: a1c64fd645063db11c632b34e8e0b934c97f2251
-ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
+ms.openlocfilehash: 9cb4d9114b745a42ad7c7650686639efe33c6192
+ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "836397"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "975967"
