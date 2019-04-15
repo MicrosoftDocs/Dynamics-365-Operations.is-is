@@ -278,7 +278,7 @@ items:
         href: extensibility/class-extensions.md
       - name: Klasaviðbót með aðgerðarinnsetningu og boðleið
         href: extensibility/method-wrapping-coc.md
-      - name: Leiðbeiningar um nafngift líkanaviðbóta
+      - name: Leiðbeiningar um heiti viðbóta
         href: extensibility/naming-guidelines-extensions.md
       - name: Draga úr líkanatakmörkunum til að endurþátta yfirlög í viðbætur
         href: extensibility/refactoring-over-layering.md
@@ -354,7 +354,7 @@ items:
         href: extensibility/breaking-changes.md
   - name: Afköst
     items:
-    - name: Taka rakningar með Trace parser
+    - name: Taka rakningar með Trace-þáttara
       href: perf-test/trace-trace-tutorial.md
     - name: SDK fyrir afköst og fjölnotendaprófun með Visual Studio Online
       href: perf-test/perfsdk-tutorial.md
@@ -374,11 +374,33 @@ items:
       href: perf-test/continuous-build-test-automation.md
     - name: SysTest-síun með því að nota flokka og aðferðareigindir
       href: perf-test/systest-filtering.md
+    - name: Safn samþykktarprófana
+      href: perf-test/acceptance-test-library.md
+    - name: Leiðsagnarhugtök
+      href: perf-test/concepts-navigation.md
+    - name: Prófa gagnaaðferðir
+      href: perf-test/test-data-methods.md
+    - name: Aðilar í safni samþykktarprófana
+      href: perf-test/concepts-entities.md
+    - name: Skipanir í safni samþykktarprófana
+      href: perf-test/concepts-commands.md
+    - name: Höfundar í safni samþykktarprófana
+      href: perf-test/concepts-creators.md
+    - name: Fyrirspurnir í safni samþykktarprófana
+      href: perf-test/concepts-queries.md
+    - name: Lýsingarklasar
+      href: perf-test/concepts-specifications.md
+    - name: Leiðsagnarforrit fyrir myndun kóða fyrir safn samþykktarprófana
+      href: perf-test/code-generation-wizard.md
+    - name: Bestu starfsvenjur fyrir safn samþykktarprófana
+      href: perf-test/atl-best-practices.md
+    - name: Algengar spurningar
+      href: perf-test/atl-faq.md
   - name: Dagsetningarvirkni
     href: dev-tools/date-effectivity.md
-  - name: Leyfisveiting óháðs hugbúnaðarsala
+  - name: Leyfisveiting óháðra hugbúnaðarsala
     href: dev-tools/isv-licensing.md
-  - name: Leyfisveiting óháðs hugbúnaðarsala á staðnum
+  - name: Leyfisveiting óháðra hugbúnaðarsala á staðnum
     href: dev-tools/isv-licensing-on-prem.md
 - name: Þróun á notandaviðmóti
   href: user-interface/user-interface-development-home-page.md
@@ -451,6 +473,8 @@ items:
       href: user-interface/control-checklist.md
   - name: Skilaboð
     items:
+    - name: Skýringartextar fyrir eiginleika
+      href: user-interface/feature-callouts.md
     - name: Sleði og MessageBox-svargluggar
       href: user-interface/slider-messagebox.md
     - name: Skilaboðamiðstöð, skilaboðastika og API fyrir upplýsingar um skilaboð
@@ -918,9 +942,9 @@ items:
       href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
     - name: Nota uppfærslur á skýjaumhverfi
       href: deployment/apply-deployable-package-system.md
-    - name: Nota uppfærslur og viðbætur við hluta smásölurásar í skýi
+    - name: Nota uppfærslur og viðbætur við hluta Retail-rásar í skýi
       href: deployment/Update-retail-channel.md
-    - name: Frumstilla hluta Retail-smásölurásar í skýi
+    - name: Frumstilla Retail Cloud Scale Unit
       href: deployment/Initialize-Retail-Channels.md
   - name: Uppsetning á staðnum
     href: deployment/on-premises-deployment-landing-page.md
@@ -1044,7 +1068,7 @@ items:
     items:
     - name: Ferli fyrir flutning í nýjustu uppfærslu
       href: migration-upgrade/upgrade-latest-update.md
-    - name: Uppfæra umhverfi úr útgáfu 8.0 í útgáfu 8.1
+    - name: Uppfæra umhverfi úr útgáfu 8.0 í útgáfu 8.1.X/10.X
       href: migration-upgrade/appupdate-80-81.md
     - name: Reglur um stuðningstíma hugbúnaðar og skýjaútgáfur
       href: migration-upgrade/versions-update-policy.md
@@ -1133,6 +1157,12 @@ items:
       href: sysadmin/runby.md
     - name: Runuvinnsla fyrir endurröðun SQL-atriðaskráar
       href: sysadmin/batch-job-SQL-defragmentation.md
+    - name: Skilgreina runuviðvaranir
+      href: sysadmin/alerts.md
+    - name: Auknar runuskjámyndir
+      href: sysadmin/enhanced-forms.md
+    - name: Taka til í runuferlinum
+      href: sysadmin/batch-history-cleanup.md
   - name: Fínstillingarráðgjöf
     href: sysadmin/optimization-advisor-overview.md
     items:
@@ -1229,8 +1259,10 @@ items:
     items:
     - name: Uppfærið fyrir þjálfun
       href: database/dbmovement-scenario-general-refresh.md
-    - name: Kembing og greining
+    - name: Kemba afrit af framleiðslugagnagrunninum
       href: database/dbmovement-scenario-debugdiag.md
+    - name: Flytja út afrit af gagnagrunni fyrir staðlað samþykkispróf notanda (User Acceptance Test)
+      href: database/dbmovement-scenario-exportuat.md
     - name: Kynning á gullgrunnstillingu
       href: database/dbmovement-scenario-goldenconfig.md
     - name: Eyðileggingarprófun
@@ -1251,9 +1283,9 @@ items:
     href: lifecycle-services/cloud-operations-servicing.md
   - name: Stjórna upplifun stuðnings fyrir Finance and Operations
     href: lifecycle-services/cloud-powered-support-lcs.md
-ms.openlocfilehash: b2462f8391ba3253b61c72bea481266d04ac8721
-ms.sourcegitcommit: 32e98213118968307c48b656b663c3df897faa79
+ms.openlocfilehash: 93081e4ccc64b68ae8f5cb3aa0f0c499bc1a426b
+ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "773803"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "976013"
