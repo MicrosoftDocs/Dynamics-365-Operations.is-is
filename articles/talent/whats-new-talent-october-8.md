@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,28 +18,28 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-07
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 92eb1508905309294e17b770829b1c5a22be1316
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 92f06d29dfa8110106a2a0e71434b2c0c75110b5
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304883"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859276"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-8-2018"></a><span data-ttu-id="24f99-103">Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (8. október 2018)</span><span class="sxs-lookup"><span data-stu-id="24f99-103">What's new or changed in Dynamics 365 for Talent Core HR (October 8, 2018)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-8-2018"></a><span data-ttu-id="08c13-103">Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (8. október 2018)</span><span class="sxs-lookup"><span data-stu-id="08c13-103">What's new or changed in Dynamics 365 for Talent Core HR (October 8, 2018)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="24f99-104">**Smíði 8.1.1050.0**</span><span class="sxs-lookup"><span data-stu-id="24f99-104">**Build 8.1.1050.0**</span></span>
+<span data-ttu-id="08c13-104">**Smíði 8.1.1050.0**</span><span class="sxs-lookup"><span data-stu-id="08c13-104">**Build 8.1.1050.0**</span></span>
 
-<span data-ttu-id="24f99-105">Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Core HR.</span><span class="sxs-lookup"><span data-stu-id="24f99-105">This topic describes features that are either new or changed in Core HR.</span></span>
+<span data-ttu-id="08c13-105">Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Core HR.</span><span class="sxs-lookup"><span data-stu-id="08c13-105">This topic describes features that are either new or changed in Core HR.</span></span>
 
-## <a name="allow-other-dates-to-be-used-on-leave-tier-basis-leave-management"></a><span data-ttu-id="24f99-106">Leyfa öðrum dagsetningum að nota á grunnlagi leyfa (Stjórnun leyfa)</span><span class="sxs-lookup"><span data-stu-id="24f99-106">Allow other dates to be used on leave tier basis (Leave Management)</span></span>
+## <a name="allow-other-dates-to-be-used-on-leave-tier-basis-leave-management"></a><span data-ttu-id="08c13-106">Leyfa öðrum dagsetningum að nota á grunnlagi leyfa (Stjórnun leyfa)</span><span class="sxs-lookup"><span data-stu-id="08c13-106">Allow other dates to be used on leave tier basis (Leave Management)</span></span>
 
-<span data-ttu-id="24f99-107">Við úthlutun leyfa til starfsmanna ákvarðar grunnlag leyfa hversu miklum leyfistíma starfsmaður safnar.</span><span class="sxs-lookup"><span data-stu-id="24f99-107">When awarding leave to employees, the award tier basis determines how much time off an employee accrues.</span></span> <span data-ttu-id="24f99-108">Eins og er, miðast þessi lög við upphafsdag starfsmanns og starfsaldur.</span><span class="sxs-lookup"><span data-stu-id="24f99-108">Currently, these tiers are based on employee start date and seniority date.</span></span> <span data-ttu-id="24f99-109">Í sumum tilfellum þarfnast fyrirtæki þess að lögin miðist við aðrar dagsetningar, eins og afmælisdag eða upphaflegan ráðningardag.</span><span class="sxs-lookup"><span data-stu-id="24f99-109">In some scenarios, organizations need these tiers to be based on other dates, like anniversary date or original hire date.</span></span> <span data-ttu-id="24f99-110">Þessir dagsetningar eru nú þegar notaðar í leyfisáætluninni til að ákvarða hvenær uppsöfnun á sér stað, tækifæri til þess að nota sömu dagsetningar þegar starfsmaður tekur þátt í áætlun hefur verið bætt við til að ákvarða uppsöfnuðu leyfi.</span><span class="sxs-lookup"><span data-stu-id="24f99-110">These dates are already used on the leave plan to determine when accruals happen, the ability for these same dates to be used when an employee is enrolled in a plan have been added to determine the accrual amount.</span></span> 
+<span data-ttu-id="08c13-107">Við úthlutun leyfa til starfsmanna ákvarðar grunnlag leyfa hversu miklum leyfistíma starfsmaður safnar.</span><span class="sxs-lookup"><span data-stu-id="08c13-107">When awarding leave to employees, the award tier basis determines how much time off an employee accrues.</span></span> <span data-ttu-id="08c13-108">Eins og er, miðast þessi lög við upphafsdag starfsmanns og starfsaldur.</span><span class="sxs-lookup"><span data-stu-id="08c13-108">Currently, these tiers are based on employee start date and seniority date.</span></span> <span data-ttu-id="08c13-109">Í sumum tilfellum þarfnast fyrirtæki þess að lögin miðist við aðrar dagsetningar, eins og afmælisdag eða upphaflegan ráðningardag.</span><span class="sxs-lookup"><span data-stu-id="08c13-109">In some scenarios, organizations need these tiers to be based on other dates, like anniversary date or original hire date.</span></span> <span data-ttu-id="08c13-110">Þessir dagsetningar eru nú þegar notaðar í leyfisáætluninni til að ákvarða hvenær uppsöfnun á sér stað, tækifæri til þess að nota sömu dagsetningar þegar starfsmaður tekur þátt í áætlun hefur verið bætt við til að ákvarða uppsöfnuðu leyfi.</span><span class="sxs-lookup"><span data-stu-id="08c13-110">These dates are already used on the leave plan to determine when accruals happen, the ability for these same dates to be used when an employee is enrolled in a plan have been added to determine the accrual amount.</span></span> 
 
-## <a name="other-changes"></a><span data-ttu-id="24f99-111">Aðrar breytingar</span><span class="sxs-lookup"><span data-stu-id="24f99-111">Other changes</span></span>
-<span data-ttu-id="24f99-112">Ýmsar lagfæringar eru innifaldar í þessari útgáfu.</span><span class="sxs-lookup"><span data-stu-id="24f99-112">Miscellanous fixes have been included in this release.</span></span>
+## <a name="other-changes"></a><span data-ttu-id="08c13-111">Aðrar breytingar</span><span class="sxs-lookup"><span data-stu-id="08c13-111">Other changes</span></span>
+<span data-ttu-id="08c13-112">Ýmsar lagfæringar eru innifaldar í þessari útgáfu.</span><span class="sxs-lookup"><span data-stu-id="08c13-112">Miscellanous fixes have been included in this release.</span></span>
 
-## <a name="known-issue"></a><span data-ttu-id="24f99-113">Þekkt vandamál</span><span class="sxs-lookup"><span data-stu-id="24f99-113">Known issue</span></span>
+## <a name="known-issue"></a><span data-ttu-id="08c13-113">Þekkt vandamál</span><span class="sxs-lookup"><span data-stu-id="08c13-113">Known issue</span></span>
 
-<span data-ttu-id="24f99-114">**Vandamál:** Þegar nýtt viðhengi er bætt við starfsmann eru hnapparnir **Nýtt** og **Breyta** skyggðir. **Hjáleið:** Áður en þú opnar viðhengissíðu skaltu ganga úr skugga um að FactBoxes á síðunni **Starfsmenn** séu lokaðir.</span><span class="sxs-lookup"><span data-stu-id="24f99-114">**Issue:** When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out. **Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="24f99-115">Ef upplýsingareitirnir eru lokaðir þegar síðan **Starfskraftar** er hlaðið inn verða viðhengishnapparnir gerðir virkir.</span><span class="sxs-lookup"><span data-stu-id="24f99-115">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="24f99-116">(Þetta vandamál verður lagað í næstu verkvangsuppfærslu.)</span><span class="sxs-lookup"><span data-stu-id="24f99-116">(This issue will be fixed in the next platform update.)</span></span>
+<span data-ttu-id="08c13-114">**Vandamál:** Þegar nýtt viðhengi er bætt við starfsmann eru hnapparnir **Nýtt** og **Breyta** skyggðir. **Hjáleið:** Áður en þú opnar viðhengissíðu skaltu ganga úr skugga um að FactBoxes á síðunni **Starfsmenn** séu lokaðir.</span><span class="sxs-lookup"><span data-stu-id="08c13-114">**Issue:** When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out. **Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="08c13-115">Ef upplýsingareitirnir eru lokaðir þegar síðan **Starfskraftar** er hlaðið inn verða viðhengishnapparnir gerðir virkir.</span><span class="sxs-lookup"><span data-stu-id="08c13-115">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="08c13-116">(Þetta vandamál verður lagað í næstu verkvangsuppfærslu.)</span><span class="sxs-lookup"><span data-stu-id="08c13-116">(This issue will be fixed in the next platform update.)</span></span>
