@@ -1,9 +1,9 @@
 ---
 title: Seinkanir
-description: Þessi grein gefur upplýsingar um frestaðar dagsetningar á aðaláætlanagerð. Frestuð dagsetning er raunhæfur gjalddagi sem færsla fær ef fyrsta uppfyllingardagsetning sem aðaláætlanagerð reiknar út er síðar en umbeðin dagsetning.
+description: Þetta efnisatriði veitir upplýsingar um seinkanir á dagsetningum í aðaláætlanagerð. Frestuð dagsetning er raunhæfur gjalddagi sem færsla fær ef fyrsta uppfyllingardagsetning sem aðaláætlanagerð reiknar út er síðar en umbeðin dagsetning.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a87b19732f413aa2844101f76dea83535da86599
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7c26fedf15118a304469604527c33a25871356be
+ms.sourcegitcommit: 8eac5eee94bb32143df44c82a2dfdbe903967af8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "359613"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "878311"
 ---
 # <a name="delays"></a>Seinkanir
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein gefur upplýsingar um frestaðar dagsetningar á aðaláætlanagerð. Frestuð dagsetning er raunhæfur gjalddagi sem færsla fær ef fyrsta uppfyllingardagsetning sem aðaláætlanagerð reiknar út er síðar en umbeðin dagsetning.
+Þetta efnisatriði veitir upplýsingar um seinkanir á dagsetningum í aðaláætlanagerð. Frestuð dagsetning er raunhæfur gjalddagi sem færsla fær ef fyrsta uppfyllingardagsetning sem aðaláætlanagerð reiknar út er síðar en umbeðin dagsetning.
 
 Aðaláætlanagerð°getur reiknað út fyrstu mögulegu dagsetningu uppfyllingar fyrir færslu, byggða á afhendingartíma, efnisframboði, getu til ráðstöfunar og ýmsum færibreytum áætlanagerðar. 
 
@@ -42,12 +42,13 @@ Hægt er að skilgreina hvernig seinkanir°eru reiknaðar fyrir þekjuflokk. Hæ
 
 Á síðunni**Færibreytur aðaláætlanagerðar** er hægt að stilla upphafstíma fyrir útreikning°seinkana. Ef pöntun er uppfyllt að loknum tímafrestinum er einum degi°bætt við seinkunardagsetningu pöntunarinnar. 
 
-**Ábending:** Í eldri útgáfum voru reiknaðar seinkanir kallaðar *Framvirk boð*,°seinkunardagsetning var kölluð *Framvirk dagsetning*,°og°frestuð færsla kallaðist *Færsla sem var sett í framtíðinni*.
+> [!ÁBENDING} Í eldri útgáfum voru reiknaðar seinkanir kallaðar *Framvirk boð*, seinkunardagsetning var kölluð *Framvirk dagsetning* og frestuð færsla kallaðist *Færsla sem var sett í framtíðinni*.
+
+## <a name="desired-date"></a>Æskileg dagsetning
+
+Á síðunni **Áætluð pöntun**, undir flipanum **Seinkanir**, er **Æskileg dagsetning** fyrir áætlaða pöntun. Æskileg dagsetning fyrir áætlaða pöntun er grunndagsetning fyrir seinkanir sem er reiknuð dagsetning sem jafngildir **Umbeðinni dagsetningu** sem er reiknuð út frá **Nettóþörf**. Ef áætluð pöntun er uppskriftarlína, framleiðslulína eða kanban-lína, er æskileg dagsetning byggð á **Dagsetning þarfa** og æskileg dagsetning birtist ekki á síðunni **Áætluð pöntun**.
 
 <a name="additional-resources"></a>Frekari upplýsingar
 --------
 
 [Þekjustillingar](coverage-settings.md)
-
-
-

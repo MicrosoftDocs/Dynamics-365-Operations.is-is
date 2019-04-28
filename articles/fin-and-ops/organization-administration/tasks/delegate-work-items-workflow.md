@@ -3,7 +3,7 @@ title: Úthluta vinnuliðir í verkflæði
 description: Ef þú verður ekki á skrifstofunni í einhvern tíma eða munt ekki vera tiltækur til að bregðast við vinnulið getur þú úthlutað, eða endurúthlutað vinnuliðunum, til annars notanda.
 author: jasongre
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 04/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,25 +16,26 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f85a1318822ceaf829134bf2eb3581e350d5bea4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: feace647d7acef6abf86b13fcb8019c622c55ff6
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346250"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "976782"
 ---
-# <a name="delegate-work-items-in-a-workflow"></a>Úthluta vinnuliðir í verkflæði
+# <a name="delegate-work-items-in-a-workflow"></a>Úthluta vinnuliðum í verkflæði
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Ef þú verður ekki á skrifstofunni í einhvern tíma eða munt ekki vera tiltækur til að bregðast við vinnulið getur þú úthlutað, eða endurúthlutað vinnuliðunum, til annars notanda. Þetta ferli hjálpar að grunnstilla kerfi til að sjálfkrafa úthluta vinnuliðum á annan notandi.
+## <a name="manually-delegate-a-work-item"></a>Úthluta vinnulið handvirkt
 
+Til að úthluta einstökum vinnulið skal velja valkostinn **Úthluta** í valmyndinni **Verkflæði** og síðan færa inn notandann sem úthluta á til ásamt athugasemd. Þetta mun endurúthluta vinnuliðnum á þann notanda svo hann geti lokið vinnunni.
 
+## <a name="automatically-delegate-work-items"></a>Úthluta vinnuliðum sjálfvirkt
 
-Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+Ef þú verður ekki á skrifstofunni í einhvern tíma eða munt ekki vera tiltækur til að bregðast við vinnuliðum yfir eitthvert tímabil getur þú úthlutað nýjum vinnuliðum sjálfvirkt á aðra notendur með því að nota síðuna **Valkostir notanda**.
 
-
-## <a name="set-up-automatic-delegation"></a>Setja upp sjálfvirka úthlutun
+### <a name="set-up-automatic-delegation"></a>Setja upp sjálfvirka úthlutun
 1. Fara í Algengt > Uppsetning > Notandavalkostir.
 2. Smellt er á flipann Verkflæði.
     * Gangið úr skugga um að hlutinn Úthlutun sé stækkaður.    Til að grunnstilla kerfi til að sjálfkrafa úthluta vinnuliðum á annan notandi, verður að stofna úthlutunarreglur sem tilgreina hvenær ákveðnar gerðir vinnuliða er úthluta. Fylgið þessum skrefum til að stofna úthlutunarreglu.  

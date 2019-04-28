@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353817"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842723"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Aðgerðir sölustaðar (POS) með og án nettengingar
 
@@ -93,7 +93,7 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 | 614 | Breyta pöntun viðskiptavinar | Muna valda pöntun til þess að hægt sé að breyta henni í POS. | Númer | Númer | Númer | Númer | Númer |
 | 615 | Breyta tilboði | Muna valið tilboð þannig að hægt sé að breyta því í POS. | Númer | Númer | Númer | Númer | Númer |
 | 518 | Kostnaðarlyklar | Skrá fé sem fjarlægt er úr peningaskúffu vegna tilfallandi kostnaðar. | Já | Já | Já | Já | Númer |
-| 919 | Löng innskráning | Úthluta eða fjarlægja heimild til að skrá sig inn með því að skanna strikamerki eða nota kort. | Já | Já | Já | Númer | Númer |
+| 919 | Löng innskráning | Úthluta eða fjarlægja heimild til að skrá sig inn með því að skanna strikamerki eða nota kort. | Já | Já | Já | Já | Nei |
 | 1201 | Skiptimyntarfærsla | Þessi aðgerð gerir notandanum kleift að bæta við aukapeningum í núverandi skúffu eða vakt. | Já | Já | Já | Já | Númer |
 | 1218 | Þvinga aflæsingu jaðarbúnaðar | Kerfið notar þessa aðgerð í innri vinnslu til að aflæsa POS-jaðarbúnað. | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Númer |
 | 520 | Staða gjafakorts | Birta innistæðu gjafakorts. | Já | Já | Númer | Númer | Númer |

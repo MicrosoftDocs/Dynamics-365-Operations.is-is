@@ -3,14 +3,14 @@ title: Rafræn skýrslugerð (ER)
 description: Í þessari grein er að finna yfirlit yfir verkfærið „Rafræn skýrslugerð“. Þar á meðal er að finna upplýsingar um lykilhugtök, sviðsmyndir sem Rafræn skýrslugerð styður og lista yfir snið sem hafa verið hönnuð og gefin út sem hluti af lausninni.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
-ms.reviewer: kfend
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 58941
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: bc544211891c19104b2b3cb704b55a074784d608
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310807"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902961"
 ---
 # <a name="electronic-reporting-er"></a>Rafræn skýrslugerð (ER)
 
@@ -163,28 +163,40 @@ Til að fræðast um hvernig á að skrá nýja þjónustuveitu rafrænnar skýr
 
 #### <a name="repository"></a>Geymsla
 
-ER-gagnasafn vistar ER-skilgreiningar. Fjórar gerðir af ER-gagnasöfnum eru studdar sem stendur: **Rekstrartilföng**, **LCS-verk (LCS)**, **Skráakerfi** og **Skilgreiningarþjónusta reglugerðar (RCS)**.
+ER-gagnasafn vistar ER-skilgreiningar. Eftirfarandi ER-gagnasöfn eru studd sem stendur: 
 
-Gagnasafnið **Rekstrartilföng** veitir aðgang að lista skilgreininga sem Microsoft, sem veitandi skilgreininga í rafrænni skýrslugerð, gefur út sem hluta af Finance and Operations lausninni. Þessar stillingar er hægt að flytja inn í núverandi Finance and Operations tilvik og nota fyrir rafræna skýrslugerð. Einnig er hægt að nota þær fyrir frekari staðfæringar og sérstillingar.
+- Samnýtt LCS-safn
+- LCS-verk
+- Skráarkerfi
+- Regluskilgreiningarþjónusta (RCS)
+- Rekstrartilföng
+
+
+Gagnasafnið **Samnýtt LCS-safn** veitir aðgang að lista yfir skilgreiningar innan samnýtts eignasafns í Lifecycle Services (LCS). Einungis er hægt að skrá þessa gerð af ER-gagnasafni fyrir Microsoft-þjónustuaðilann. Úr samnýtta LCS-eignasafninu er hægt að flytja nýjustu útgáfur af ER grunnstillingum inn í núgildandi tilvik Finance and Operations.
 
 **LCS-verks** gagnasafn veitir aðgang að lista yfir skilgreiningar ákveðins LCS-verks (eignasafn LCS-verks) sem var valið á skráningarstigi gagnasafns. Rafræn skýrslugerð gerir þér kleift að hlaða upp samnýttum skilgreiningum úr núverandi tilviki í Finance and Operations í tiltekna geymslu fyrir **LCS-verk** . Þú getur einnig flutt inn stillingar úr geymslu fyrir **LCS-verk** í núverandi tilvik Finance and Operations.
 
-Gagnasafn **Skráakerfis** veitir aðgang að lista yfir skilgreiningar sem eru staðsettar sem xml-skrár í tiltekinni möppu í staðbundnu skráakerfi vélarinnar þar sem AOS-þjónustan er hýst. Nauðsynleg mappa er valin á skráningarstigi gagnasafns. Hægt er að flytja inn skilgreiningar úr gagnasafni **Skráakerfis** í núverandi tilviki Finance and Operations. Athugið að þessi gagnasafnsgerð er aðgengileg í eftirfarandi umhverfi Dynamics 365 for Finance and Operations:
-- umhverfi í skýi sett upp í þróunarlegum tilgangi (inniheldur prufulíkön úr inniföldum pökkum)
-- staðbundið uppsett umhverfi (á staðnum eða uppsetning staðbundinna viðskiptagagna (LBD))
+Gagnasafn **Skráakerfis** veitir aðgang að lista yfir skilgreiningar sem eru staðsettar sem xml-skrár í tiltekinni möppu í staðbundnu skráakerfi vélarinnar þar sem AOS-þjónustan er hýst. Nauðsynleg mappa er valin á skráningarstigi gagnasafns. Hægt er að flytja inn skilgreiningar úr gagnasafni **Skráakerfis** í núverandi tilviki Finance and Operations. 
 
-Farið á síðuna [Stillingar fyrir innflutning rafrænnar skýrslugerðar (ER)](./electronic-reporting-import-ger-configurations.md) til að fá frekari upplýsingar um þetta.
+Athugið að þessi gagnasafnsgerð er aðgengileg í eftirfarandi umhverfi Dynamics 365 for Finance and Operations:
 
-Gagnasafn **RCS-tilviks** veitir aðgang að lista yfir skilgreiningar á tilteknu RCS-tilviki sem var valið á skráningarstigi gagnasafns. Rafræn skýrslugerð gerir þér kleift að flytja inn skilgreiningar, sem er lokið eða eru samnýttar, úr völdu RCS-tilviki í núgildandi tilvik Finance and Operations og notaðar í rafrænni skýrslugerð.
+- Umhverfi í skýi sett upp í þróunarlegum tilgangi (inniheldur prufulíkön úr inniföldum pökkum)
+- Umhverfi sett upp á staðnum (innanhúss)
 
-Farið á síðuna [Stillingar fyrir innflutning rafrænnar skýrslugerðar (ER) úr skilgreiningarþjónustu reglugerðar (RCS)](./rcs-download-configurations.md) til að fá frekari upplýsingar um þetta.
+Frekari upplýsingar er að finna í [Flytja inn skilgreiningar rafrænnar skýrslugerðar](./electronic-reporting-import-ger-configurations.md).
+
+Gagnasafn **RCS-tilviks** veitir aðgang að lista yfir skilgreiningar á tilteknu RCS-tilviki sem var valið á skráningarstigi gagnasafns. Rafræn skýrslugerð gerir þér kleift að flytja inn skilgreiningar, sem er lokið eða eru samnýttar, úr völdu RCS-tilviki í núgildandi tilvik Finance and Operations svo hægt sé að nota þær í rafrænni skýrslugerð.
+
+Frekari upplýsingar er að finna í [Flytja inn skilgreiningar rafrænnar skýrslugerðar úr Regluskilgreiningarþjónustu (RCS)](./rcs-download-configurations.md).
+
+Gagnasafn fyrir **Rekstrartilföng** veitir aðgang að lista yfir skilgreiningar sem Microsoft, sem þjónustuaðili ER-skilgreininga, gefur út upphaflega sem hluta af lausn Finance and Operations. Þessar skilgreiningar er hægt að flytja inn í núverandi Finance and Operations tilvik og nota fyrir rafræna skýrslugerð eða til að spila sýnishorn af verkefnaleiðbeiningum. Einnig er hægt að nota þær fyrir frekari staðfæringar og sérstillingar. Athugaðu að nýjustu útgáfur sem ER-skilgreiningar Microsoft veita er nauðsynlegt að flytja inn úr samnýttu LCS-eignasafni með því að nota samsvarandi ER-gagnasafn.
 
 Hægt er að skrá nauðsynleg gagnasöfn **LCS-verks**, **Skráakerfis** og **Skilgreiningarþjónustu reglugerðar (RCS)**, hvert safn fyrir sig, fyrir hverja skilgreiningarveitu fyrir núgildandi tilvik Finance and Operations. Hvert gagnasafn getur verið sérmerkt tiltekinni skilgreiningarveitu.
 
 ## <a name="supported-scenarios"></a>Studdar aðstæður
 ### <a name="building-a-data-model"></a>Byggja gagnalíkan
 
-ER býður upp á hönnun líkana sem má nota til að byggja gagnalíkan fyrir tiltekin viðskiptasvið. Allir umdæmissértækir viðskiptaaðilar og tengsl milli þeirra er hægt að sýna í gagnalíkani sem stigskipt uppbygging.  Eftirfarandi skýringarmynd sýnir Dæmi sem samanstendur af þessari gerð gagnalíkans (gagnalíkan á sviði greiðslu)
+ER býður upp á hönnun líkana sem má nota til að byggja gagnalíkan fyrir tiltekin viðskiptasvið. Allir umdæmissértækir viðskiptaaðilar og tengsl milli þeirra er hægt að sýna í gagnalíkani sem stigskipt uppbygging. Eftirfarandi skýringarmynd sýnir Dæmi sem samanstendur af þessari gerð gagnalíkans (gagnalíkan á sviði greiðslu)
 
 [![Gagnalíkan fyrir greiðslusvæði](./media/ER-overview-04.png)](./media/ER-overview-04.png)
 
@@ -243,7 +255,7 @@ Hægt er að nota sniðshönnun fyrir rafræna skýrslugerð til að búa til ra
 
 [![Pic-ER-format-Word](./media/ER-overview-11.png)](./media/ER-overview-11.png)
 
-Til að kynna þér aðstæðurnar í smáatriðum skaltu spila verkleiðbeiningarnar Rafræn skýrslugerð - Hannaðu stillingu til að búa til skýrslur á Microsoft Word-sniðinu (hluti af viðskiptaferlinu 7.5.4.3 Komast yfir/þróa þætti fyrir upplýsingatækniþjónustu/lausnir (10677)). Notaðu eftirfarandi Word-skrár sem sniðmát fyrir snið rafrænnar skýrslugerðar, sem hluta af verkleiðbeiningunum fyrir innflutning á sniðmáti.
+Til að kynna þér aðstæðurnar í smáatriðum skaltu spila verkleiðbeiningarnar Rafræn skýrslugerð - Hannaðu stillingu til að búa til skýrslur á Microsoft WORD sniðinu (hluti af viðskiptaferlinu 7.5.4.3 Komast yfir/þróa þætti fyrir upplýsingatækniþjónustu/lausnir (10677)). Notaðu eftirfarandi Word-skrár sem sniðmát fyrir snið rafrænnar skýrslugerðar, sem hluta af verkleiðbeiningunum fyrir innflutning á sniðmáti.
 
 - [Sniðmát greiðsluskýrslu (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 - [Afmarkað sniðmát greiðsluskýrslu (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
@@ -313,9 +325,9 @@ ER leyfir þér að taka sjálfkrafa í gagn breytingar á nýjustu útgáfu af 
 | Elster-líkan                                     | skattaskýrslugerð         |                                                   |                                                                    |
 |                                                  |                       | Elster (DE)                                       | Elster-Snið fyrir Þýskaland                                          |
 | Líkan ESB-sölulista                              | Viðskiptaskýrslugjöf       |                                                   |                                                                    |
-|                                                  |                       |  ESB-sölulisti (DE)                                | ESB-sölulisti - TXT-snið fyrir Þýskaland                               |
+|                                                  |                       | ESB-sölulisti (DE)                                | ESB-sölulisti - TXT-snið fyrir Þýskaland                               |
 |                                                  |                       | ESB-sölulista (DK)                                | ESB-sölulisti - TXT-snið fyrir Danmörk                               |
-|                                                  |                       |  ESB-sölulisti (FR)                                | ESB-sölulisti - XML-snið fyrir frakkland                                |
+|                                                  |                       | ESB-sölulisti (FR)                                | ESB-sölulisti - XML-snið fyrir frakkland                                |
 |                                                  |                       | ESB-sölulista (NL)                                | ESB-sölulisti - XML-snið fyrir Holland                           |
 |                                                  |                       | ESB-sölulista TXT (Bretland)                            | ESB-sölulisti - TXT-snið fyrir Bretland                    |
 |                                                  |                       | ESB-sölulisti - XML (UK)                            | ESB-sölulisti - XML-snið fyrir Bretland                    |
@@ -347,7 +359,7 @@ ER leyfir þér að taka sjálfkrafa í gagn breytingar á nýjustu útgáfu af 
 |                                                  |                       | CFONB Prelevements (FR)                           | CFONB greiðslusnið fyrir beint debet fyrir frakkland                       |
 |                                                  |                       | CFONB Virements (FR)                              | CFONB snið fyrir greiðsla lánardrottins innanlands fyrir frakkland.                    |
 |                                                  |                       | Nordea lánardrottinn (DK)                                | Greiðslusnið lánardrottins Nordea netbanka fyrir danmörku         |
-|                                                  |                       |  ANZ þjónusta beins kredits (AU)                    | Snið fyrir ANZ þjónustu beins kredits fyrir Ástralíu                 |
+|                                                  |                       | ANZ þjónusta beins kredits (AU)                    | Snið fyrir ANZ þjónustu beins kredits fyrir Ástralíu                 |
 |                                                  |                       | CBA þjónusta beins kredits (AU)                    | Snið fyrir CBA þjónustu beins kredits fyrir Ástralíu                 |
 |                                                  |                       | NAB þjónusta beins kredits (AU)                    | Snið fyrir NAB þjónustu beins kredits fyrir Ástralíu                 |
 |                                                  |                       | STG þjónusta beins kredits (AU)                    | Snið fyrir STG þjónustu beins kredits fyrir Ástralíu                 |
@@ -377,6 +389,5 @@ ER leyfir þér að taka sjálfkrafa í gagn breytingar á nýjustu útgáfu af 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Kröfur um staðfæringu - stofna Skilgreining fyrir rafræna skýrslugerð](electronic-reporting-configuration.md)
-
-[Stjórnun á lífsferli fyrir stillingar Rafrænnar skýrslugerðar](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Kröfur um staðfæringu - stofna Skilgreining fyrir rafræna skýrslugerð](electronic-reporting-configuration.md)
+- [Stjórnun á lífsferli fyrir stillingar Rafrænnar skýrslugerðar](general-electronic-reporting-manage-configuration-lifecycle.md)

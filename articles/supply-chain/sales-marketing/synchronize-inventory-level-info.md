@@ -3,7 +3,7 @@ title: Samstilla upplýsingar um birgðastöðu úr Finance and Operations við 
 description: Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla upplýsingar á birgðastigi úr Microsoft Dynamics 365 for Finance and Operations við Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b81694f1ed56d8542de46203ac5faf5fae2b6645
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b2bdf1ca6f6ae43cd85c8a1353ee8305052761d
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356784"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842557"
 ---
 # <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>Samstilla upplýsingar um birgðastöðu úr Finance and Operations við Field Service 
 
@@ -38,14 +38,14 @@ ms.locfileid: "356784"
 Eftirfarandi sniðmát og undirliggjandi verkefni eru notuð til að samstilla stig birgða á lager úr Microsoft Dynamics 365 for Finance and Operations við Microsoft Dynamics 365 for Field Service.
 
 **Sniðmát í gagnasamþættingu**
-- Birgðir afurðar (Finance and Operations til Field Service)
+- Birgðir afurðar (Fin and Ops til Field Service)
   
 **Verkefni í verki gagnasamþættingar**
 - Birgðir afurðar
 
 Eftirfarandi samstillingarverkefni eru nauðsynleg áður en samstilling við birgðastöður getur átt sér stað:
-- Vöruhús (Finance and Operations til Field Service) 
-- Afurðir Field Service með birgðaeiningu (Finance and Operations til Sales) 
+- Vöruhús (Fin and Ops til Field Service) 
+- Afurðir Field Service með birgðaeiningu (Fin and Ops til Sales) 
 
 ## <a name="entity-set"></a>Einingastamstæða
 
@@ -80,6 +80,6 @@ Hægt er að nota síur með ítarlegri fyrirspurn og síun þannig að eingöng
 
 ## <a name="template-mapping-in-data-integration"></a>Sniðmátsvörpun í Gagnasamþættingu
 
-### <a name="product-inventory-finance-and-operations-to-field-service-product-inventory"></a>Birgðir afurðar (Finance and Operations til Field Service): Birgðir afurðar
+### <a name="product-inventory-fin-and-ops-to-field-service-product-inventory"></a>Birgðir afurðar (Fin and Ops til Field Service): Birgðir afurðar
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)

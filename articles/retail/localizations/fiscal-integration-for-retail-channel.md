@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c6fcc93cfed35d73ae749856f33857ba84dbfd82
-ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
+ms.openlocfilehash: 3c6092a7eba328048ef2f28188c42f33cb1f7136
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "773278"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "950405"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Yfirlit yfir fjárhagssamþættingu fyrir smásölurásir
 
@@ -81,12 +81,37 @@ Fjárhagsskráningarferli fyrir tiltekinn afgreiðslukassa er skilgreint af sams
 
 Valkostirnir **Sleppa** og **Merkja sem skráð** virkja upplýsingakóða til að sækja tilteknar upplýsingar um villuna, t.d. að ástæða villunnar eða rökstuðningur fyrir því að sleppa fjárhagsskráningunni eða merkja færsluna sem skráða. Nánari upplýsingar um hvernig á að setja upp færibreytur fyrir meðhöndlun á villu er að finna í [Stilla villumeðhöndlunarstillingar](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
+### <a name="optional-fiscal-registration"></a>Valfrjáls fjárhagsskráning
+
+Fjárhagsskráning kann að vera áskilin fyrir sumar aðgerðir en valfrjáls fyrir aðrar. Til dæmis gæti fjárhagsskráning á reglulegum sömum og skilum verið áskilin, en fjárhagsskráning á aðgerðum sem tengjast innborgun viðskiptavinar kann að vera valfrjáls. Ef svo er ætti að lokast fyrir frekari sölur ef ekki tekst að ljúka fjárhagsskráningu á sölu, en ef ekki tekst að ljúka fjárhagsskráningu á innborgun viðskiptavinar ætti það ekki að loka fyrri frekari sölur. Til að greina á milli áskilina og valfrjálsra aðgerða ráðleggjum við að þú meðhöndlir þær í gegnum mismunandi skjalaveitur og að þú setjir upp aðskilin skref í ferli fjárhagsskráningar fyrir þessar veitur. Virkja skal færibreytuna **Halda áfram á villu** fyrir öll skref sem tengjast valfrjálsri fjárhagsskráningu. Nánari upplýsingar um hvernig á að setja upp færibreytur fyrir meðhöndlun á villu er að finna í [Stilla villumeðhöndlunarstillingar](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+
+### <a name="manually-running-fiscal-registration"></a>Handvirk keyrsla á fjárhagsskráningu
+
+Ef fjárhagsskráningu á færslu eða tilviki hefur verið frestað eftir bilun (til dæmis ef notandi valdi **Hætta við** í svarglugga villumeðhöndlunar), er hægt að keyra fjárhagsskráninguna aftur handvirkt með því að kalla fram samsvarandi aðgerð. Frekari upplýsingar er að finna í [Virkja handvirka keyrslu á frestaðri fjárhagsskráningu](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+
+### <a name="fiscal-registration-health-check"></a>Ástandsskoðun fjárhagsskráningar
+
+Ferli ástandsskoðunar fyrir fjárhagsskráningar staðfestir framboð á fjárhagstæki eða þjónustu þegar tilteknir atburðir gerast. Ef ekki er hægt að ljúka fjárhagsskráningu sem stendur er notandinn látinn vita fyrirfram.
+
+Sölustaðurinn keyrir ástandsskoðun þegar eftirfarandi tilvik eiga sér stað:
+
+- Ný færsla er opnuð.
+- Frestuð færsla er endurkölluð.
+- Gengið er frá sölu- eða skilapöntun.
+
+Ef ástandsskoðun mistekst sýnir sölustaðurinn svarglugga ástandsskoðunar. Svarglugginn er með eftirfarandi hnappa:
+
+- **Í lagi** - Þessi hnappur leyfir notanda að hunsa villu í ástandsskoðun og halda áfram að vinna í aðgerðinni. Notendur geta eingöngu valið þennan hnapp ef heimildin **Leyfa að sleppa villu í ástandsskoðun** er virkjuð fyrir þá.
+- **Hætta við** - Ef notandi velur þennan hnapp hættir sölustaður við síðustu aðgerð (til dæmis er vöru ekki bætt við nýja færslu).
+
+> [!NOTE]
+> Ástandsskoðun er einungis keyrð ef núverandi aðgerð krefst fjárhagsskráningar og ef slökkt er á færibreytunni **Halda áfram á villu** fyrir núverandi skref í ferli fjárhagsskráningar. Frekari upplýsingar er að finna í [Velja stillingar villumeðhöndlunar](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Geymsla á fjárhagssvörum í fjárhagsfærslu
 
 Þegar fjárhagsskráning færslu eða tilviks heppnast er stofnuð fjárhagsfærsla í gagnagrunni rásarinnar og hún tengd við upprunalega færslu eða tilvik. Á svipaðan hátt, ef valkosturinn **Sleppa** eða **Merkja sem skráð** er valinn fyrir misheppnaða fjárhagsskráningu, eru þessar upplýsingar geymdar í fjárhagsfærslu. Fjárhagsfærsla heldur í fjárhagssvörun fjárhagstækis eða þjónustu. Ef fjárhagsskráningarferlið samanstendur af nokkrum skrefum er fjárhagsfærsla stofnuð fyrir hvert skref ferlisins sem leiddi til skráningu sem tókst eða mistókst.
 
 Fjárhagsfærslur eru fluttar til Retail Headquarters með *P-vinnslu* ásamt smásölufærslum. Í flýtiflipanum **Fjárhagsfærslur** á síðunni **Færslur smásöluverslunar** er hægt að skoða fjárhagsfærslurnar sem eru tengdar við smásölufærslur.
-
 
 Fjárhagsfærsla geymir eftirfarandi upplýsingar:
 
@@ -111,10 +136,11 @@ Eftirfarandi sýnishorn fjárhagssamþættingar eru eins og er í boði í Retai
 
 - [Dæmi um samþættingu strimlaprentara fyrir Ítalíu](emea-ita-fpi-sample.md)
 - [Dæmi um samþættingu strimlaprentara fyrir Pólland](emea-pol-fpi-sample.md)
+- [Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Austurríki](emea-aut-fi-sample.md)
+- [Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Tékkland](emea-cze-fi-sample.md)
 
 Eftirfarandi virkni fjárhagssamþættingar er einnig í boði í Retail SDK en hún nýtir sér ekki ramma fjárhagssamþættingar eins og er. Flutningur á þessari virkni í ramma fjárhagssamþættingar er á dagskrá í seinni útgáfum.
 
 - [Stafræn undirskrift fyrir Frakkland](emea-fra-cash-registers.md)
 - [Stafræn undirskrift fyrir Noreg](emea-nor-cash-registers.md)
 - [Dæmi um samþættingu stjórntækis fyrir Svíþjóð](./retail-sdk-control-unit-sample.md)
-

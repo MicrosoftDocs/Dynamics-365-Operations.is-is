@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 685340141ed35f4a2b57742328c69d3bbf9a73d2
-ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
+ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "773328"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "898978"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Uppsetning á samþættingu fjárhags fyrir smásölurásir
 
@@ -60,7 +60,7 @@ Uppsetningarferli fjárhagssamþættingar felur í sér eftirfarandi atriði:
 2. Hlaða upp grunnstillingum fyrir fjárhagstengla og fjárhagsskjalaveitur.
 
     Fjárhagsskjalaveita ber ábyrgð á því að mynda fjárhagsskjöl sem tákna smásölufærslur og tilvik sem eru skráð í POS á sniði sem er einnig notað í samskiptum við fjárhagstæki eða þjónustu. Til dæmis gæti fjárhagsskjalaveita myndað framsetningu á fjárhagskvittun á XML-sniði.
-    
+
     Fjárhagstengill er ábyrgur fyrir samskiptum við fjárhagstæki eða þjónustu. Til dæmis gæti fjárhagstengill sent fjárhagskvittun, sem fjárhagsskjalaveita stofnaði á XML-sniði, til strimlaprentara. Nánari upplýsingar um íhluti fjárhagssamþættingar er að finna í [Fjárhagsskráningarferli og sýnishorn fjárhagssamþættingar fyrir fjárhagstæki](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
 
     1. Á síðunni **Fjárhagstenglar** (**Retail \> Uppsetning rásar \> Samþætting fjárhags \> Fjárhagstenglar**) skal hlaða upp XML-skilgreiningu fyrir hvert tæki eða þjónustu sem er áætlað að nota fyrir samþættingu fjárhags.
@@ -150,7 +150,7 @@ Uppsetningarferli fjárhagssamþættingar felur í sér eftirfarandi atriði:
     - Eftir að þú hefur gert breytingar á núverandi skráningarferli fjárhags og þessar breytingar gætu valdið því að annar fjárhagstengill sé valinn við keyrslu (til dæmis ef þú breytir tengilhópnum fyrir skref í skráningarferli fjárhags, virkjar virkniforstillingu tengils í tengilhóp eða bætir nýrri virkniforstillingu við tengilhóp).
     - Eftir að þú hefur gert breytingar á úthlutun á tækniforstillingum tengils til vélbúnaðarforstillinga.
 
-8. Á síðunni **Áætlanagerð dreifingar** skal keyra verkin **1070** og **1090** til að flytja gögn til gagnagrunns rásarinnar.
+8. Á síðunni **Dreifingaráætlun** skal keyra verkin **1070** og **1090** til að flytja gögn til gagnagrunns rásarinnar.
 
 ## <a name="set-up-fiscal-texts-for-discounts"></a>Setja upp fjárhagstexta fyrir afslætti
 
@@ -185,8 +185,12 @@ Valkostir villumeðhöndlunar sem eru í boði í samþættingu fjárhags eru st
 
     - **Leyfa að sleppa** - Þessi færibreyta virkjar valkostinn **Sleppa** í svarglugga villumeðhöndlunar.
     - **Leyfa að merkja sem skráð** - Þessi færibreyta virkjar valkostinn **Merkja sem skráð** í svarglugga villumeðhöndlunar.
+    - **Halda áfram á villu** - Ef þessi færibreyta er virkjuð getur ferli fjárhagsskráningar haldið áfram í afgreiðslukassa ef fjárhagsskráning færslu eða tilviks mistekst. Annars, til að keyra fjárhagsskráningu á næstu færslu eða tilviki, verður notandi að reyna misheppnuðu fjárhagsskráninguna aftur, sleppa henni eða merkja færsluna eða tilvikið sem skráð. Frekari upplýsingar er að finna í [Valfrjáls fjárhagsskráning](fiscal-integration-for-retail-channel.md#optional-fiscal-registration).
 
-2. Valkostirnir **Sleppa** og **Merkja sem skráð** í svarglugga villumeðhöndlunar krefjast heimildarinnar **Leyfa að sleppa eða merkja sem skráð**. Þar af leiðandi, á síðunni **Heimildaflokkar** (**Retail \> Starfsmenn \> Heimildaflokkar**) skal virkja heimildina **Leyfa að sleppa eða merkja sem skráð**.
+    > [!NOTE]
+    > Ef færibreytan **Halda áfram á villu** er virkjuð eru færibreyturnar **Leyfa að sleppa** og **Leyfa að merkja sem skráð** sjálfkrafa gerðar óvirkar.
+
+2. Valkostirnir **Sleppa** og **Merkja sem skráð** í svarglugga villumeðhöndlunar krefjast heimildarinnar **Leyfa að sleppa skráningu eða merkja sem skráð**. Þar af leiðandi, á síðunni **Heimildaflokkar** (**Retail \> Starfsmenn \> Heimildaflokkar**) skal virkja heimildina **Leyfa að sleppa skráningu eða merkja sem skráð**.
 3. Valkostirnir **Sleppa** og **Merkja sem skráð** leyfa notendum að slá inn viðbótarupplýsingar þegar fjárhagsskráningin mistekst. Til að bjóða upp á þessa virkni ættir þú að tilgreina upplýsingakóðana **Sleppa** og **Merkja sem skráð** í fjárhagstenglahóp. Upplýsingarnar sem notendur slá inn eru síðan vistaðar sem færsla upplýsingakóða sem er tengd við fjárhagsfærsluna. Nánari upplýsingar um upplýsingakóða er að finna í [Upplýsingakóðar og upplýsingakóðaflokkar](../info-codes-retail.md).
 
     > [!NOTE]
@@ -200,6 +204,8 @@ Valkostir villumeðhöndlunar sem eru í boði í samþættingu fjárhags eru st
     > - **Fjárhagsskjal** - Áskilið skjal sem ætti að skrá (t.d. fjárhagskvittun).
     > - **Skjal sem ekki er fjárhagsskjal** - Viðbótarskjal fyrir færsluna eða tilvikið (t.d. gjafakort).
 
+4. Ef notandinn verður að geta haldið áfram til að vinna úr fyrirliggjandi aðgerð (t.d. stofnun eða frágang á færslu) eftir að villa í ástandsskoðun kemur upp, ættir þú virkja heimildina **Leyfa að sleppa villu í ástandsskoðun** á síðunni **Heimildaflokkar** (**Retail \> Starfsmenn \> Heimildaflokkar**). Frekari upplýsingar um ástandsskoðunarferli er að finna í [Ástandsskoðun fjárhagsskráningar](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
+
 ## <a name="set-up-fiscal-xz-reports-from-the-pos"></a>Setja upp X/Z-skýrslur fjárhags úr POS
 
 Til að gera kleift að keyra X/Z-skýrslur úr POS ættir þú að bæta nýjum hnöppum við POS-útlit.
@@ -211,3 +217,12 @@ Til að gera kleift að keyra X/Z-skýrslur úr POS ættir þú að bæta nýjum
     3. Bættu við nýjum hnapp og stilltu eiginleika hnappsins **Prenta fjárhag Z**.
     4. Á síðunni **Dreifingaráætlun** skal keyra verkið **1090** til að flytja breytingar til gagnagrunns rásarinnar.
 
+## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Virkja handvirka framkvæmd frestaðrar fjárhagsskráningu
+
+Til að virkja handvirka framkvæmd á frestaðri fjárhagsskráningu ættir þú að bæta nýjum hnappi við útlit sölustaðar.
+
+- Á síðunni **Hnappahnit** skal fylgja leiðbeiningunum í [Bæta sérsniðnum aðgerðarhnappi við POS-útlit í Retail Headquarters](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) til að setja upp hönnuðinn og uppfæra POS-útlit.
+
+    1. Veldu útlitið til að uppfæra.
+    2. Bættu við nýjum hnapp og stilltu eiginleika hnappsins **Ljúka skráningarferli fjárhags**.
+    3. Á síðunni **Dreifingaráætlun** skal keyra verkið **1090** til að flytja breytingarnar þínar til gagnagrunns rásarinnar.

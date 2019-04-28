@@ -3,7 +3,7 @@ title: Samstilla verklista úr Finance and Operations við Field Service
 description: Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla verk úr Microsoft Dynamics 365 for Finance and Operations við Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b5aeb4c3925994d7488e8e113e88b9d06ee6b350
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ea5c188891bb97ba73d2d022e86bbff50897381b
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312509"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842605"
 ---
 # <a name="synchronize-project-list-from-finance-and-operations-to-field-service"></a>Samstilla verklista úr Finance and Operations við Field Service
 
@@ -38,13 +38,13 @@ ms.locfileid: "312509"
 Eftirfarandi sniðmát og undirliggjandi verk eru notuð til að keyra samstillingu á verkum milli Microsoft Dynamics 365 for Finance and Operations og Microsoft Dynamics 365 for Field Service.
 
 **Sniðmát í gagnasamþættingu**
-- Verk (Finance and Operations til Field Service)
+- Verk (Fin and Ops til Field Service)
 
 **Verkefni í verki gagnasamþættingar**
 - Verk
 
 Eftirfarandi samstillingarverkefni eru nauðsynleg áður en samstilling á verklista getur átt sér stað:
-- Lyklar (Sales til Finance and Operations) 
+- Lyklar (Sales til Fin and Ops) 
 
 ## <a name="entity-set"></a>Einingastamstæða
 | Field Service           | Finance and Operations  |
@@ -64,6 +64,6 @@ Virkja rakningarbreytingu fyrir verk gagnaeiningar.
 ## <a name="template-mapping-in-data-integration"></a>Sniðmátsvörpun í Gagnasamþættingu
 
 
-### <a name="projects-finance-and-operations-to-field-service-projects"></a>Verk (Finance and Operations til Field Service): Verk
+### <a name="projects-fin-and-ops-to-field-service-projects"></a>Verk (Fin and Ops til Field Service): Verk
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/FSProject1.png)](./media/FSProject1.png)

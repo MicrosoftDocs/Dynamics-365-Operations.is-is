@@ -1,29 +1,29 @@
 ---
 title: Snjallmeðmæli
 description: Þetta efnisatriði útskýrir hvernig hægt er að nota vélnám til að veita ráðleggingar fyrir störf og umsækjendur.
-author: josaw
+author: andreabichsel
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c6225a311f5ba0b65b45092a1f626b9d6aff3f5e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: fb31b413cfe3cd168bbb12ce6070325ff5f736da
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304849"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896558"
 ---
 # <a name="intelligent-recommendations"></a>Snjallmeðmæli
 
@@ -32,8 +32,9 @@ ms.locfileid: "304849"
 Vélnám getur hjálpað ráðningaraðilum og mannauðsstjórum til að auðkenna skjótt bestu umsækjendurna fyrir starf. Það getur einnig hjálpað umsækjendum að finna starfið sem best hentar forstillingum þeirra og áhugamálum. Um leið og þessar aðgerðir eru notaðar og endurgjöf er veitt munu tillögur batna.
 
 > [!NOTE] 
-> - Eiginleikar snjallmeðmæla eru aðeins í boði með Viðbót við alhliða ráðningar.
-> - Til að virkja umsækjandann og eiginleika starfstilboðsins þarf stjórnandi að kveikja á forskoðunarvalkostum fyrir þau. Í stjórnandamiðstöðinni, á **Eiginleikastjórnun** flipanum skaltu ganga úr skugga um að **Forskoðunareiginleikar** valkostur er stillt á **Kveikt**. Gakktu úr skugga um að einstakir valkostir fyrir **Umsækjandi sem mælt er með** og **Starfsmeðmæli** séu stilltir á **Kveikt**.
+> - Eiginleikar snjallmeðmæla eru aðeins í boði með [Viðbót við alhliða ráðningar](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - Virkni sem getið er í þessu efnisatriði er í boði sem hluti af prufuútgáfu. Innihald og virkni geta tekið breytingum. Til að nota þennan eiginleika skal biðja stjórnanda að virkja hann með **Stjórnandastillingar** í Attract. Stilla skal **Umsækjandi sem mælt er með**, **Starf sem mælt er með** og **Viðfang sem mælt er með** á **Kveikt**. Frekari upplýsingar er að finna í [Fá aðgang að forskoðunareiginleikum í Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+
 
 ## <a name="candidate-recommendations"></a>Umsækjendur sem mælt er með
 
@@ -43,4 +44,15 @@ Fyrir hvern umsækjanda sem er mælt með er hægt að velja **Skoða umsækjand
 
 ## <a name="job-recommendations"></a>Tillögur um störf 
 
-Þegar væntanlegur starfsmaður notar starfatorgið til að sækja um starf er mælt með öðrum lausum störfum hjá fyrirtækinu. Þessar tillögur eru byggðar á fyrri umsóknum viðfangsins og ferilskrá umsækjandans eða forstillingum hans eða hennar. Þar af leiðandi eru tillögur um störf sem hjálpa viðföngum að greina fljótt þau störf sem eru best fyrir þá. Tillögur um störf eru veittar til viðfanga ef fleiri en tíu störf eru auglýst á starfatorginu. Viðföng geta opnað upplýsingar um starfsauglýsingar á spjaldinu fyrir meðmæli. Þeir geta einnig veitt endurgöf um tillögur til að bæta ábendingar í framtíðinni.
+Þegar væntanlegur starfsmaður notar starfatorgið til að sækja um starf mælir Attract með öðrum lausum störfum hjá fyrirtækinu. Þessar tillögur eru byggðar á fyrri umsóknum og ferilskrá eða prófíll umsækjanda fyrir viðfangið. Þar af leiðandi eru tillögur um störf sem hjálpa viðföngum að greina fljótt þau störf sem eru best fyrir þá. Tillögur um störf eru veittar til viðfanga ef fleiri en tíu störf eru auglýst á starfatorginu. Viðföng geta opnað upplýsingar um starfsauglýsingar á spjaldinu fyrir meðmæli. Þeir geta einnig veitt endurgöf um tillögur til að bæta ábendingar í framtíðinni.
+
+## <a name="prospect-recommendations"></a>Tillögur viðfangs 
+
+Þegar ný staða opnast getur það verið tímafrekt að leita í gegnum alla fyrri umsækjendur og allt Talent-netið. Til að fá Attract til að auðvelda þér verkið er hægt að nota reiknirita fyrir snjallnám vélar. Þetta þýðir að Attract fer yfir alla umsækjendur og mælir með þeim sem passa vel við um leið og þú býrð til starfið. Til að skoða þessar tillögur skal virkja stigið **Viðfang** fyrir starfið. Það getur tekið allt að eina mínútu fyrir Attract að skanna allan gagnagrunninn yfir umsækjendur til að koma með tillögur.
+
+Tillögurnar birtast sem spjöld í flipanum **Viðföng** fyrir öll störf þar sem stigið **Viðfang** er virkt. Þessi spjöld birta alla hæfnina sem finnst á notandasíðu viðfangs, ásamt upplýsingum um menntun. Ef þú finnur tillögur sem þér líst vel á geturðu bætt umsækjandanum við sem viðfang fyrir þetta starf.
+
+> [!NOTE]
+> Ef þú byrjaðir nýlega að nota Attract þarftu að bíða þangað til þú hefur 10 eða fleiri umsækjendur sem eru með heilar notandasíður eða ferilskrár áður en þú getur notað þennan möguleika.
+
+Til að forðast hugsanlega hlutdrægni í tillögunum, skannar Attract aðeins notendasíður umsækjanda fyrir hæfni, hæfi og öðrum lykilorðum sem passa við starfslýsinguna. Auk þess fjarlægir Attract persónugreinanlegar upplýsingar úr prófílum umsækjenda á undan matinu.

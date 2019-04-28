@@ -1,26 +1,26 @@
 ---
 title: Skilgreina launasamþættingu milli Talent og Dayforce
 description: Þetta efnisatriði útskýrir hvernig á að grunnstilla samþættingu milli Microsoft Dynamics 365 for Talent og Ceridian Dayforce svo hægt sé að afgreiða launakeyrslu.
-author: jcart1106
+author: andreabichsel
 manager: AnnBe
-ms.date: 07/10/2018
+ms.date: 03/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
-ms.author: jcart
+ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fcddf82cffb9f0ba94b83eb21809b810585ebc9e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9a88bf61dbb12520b555ceb7363b1c646d95386e
+ms.sourcegitcommit: 204e4554e409c39fbbf7b273ad138ce2809931a8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304815"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "898445"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Skilgreina launasamþættingu milli Talent og Dayforce
 
@@ -358,7 +358,10 @@ Ef þú ert að búa til laun fyrir starfsmenn í Bandaríkjunum og Kanada, þar
 - Deildir eru nauðsynlegar fyrir stöður.
 - Kostnaðarstaðir verða að vera stilltir sem fjárhagsvíddir og verða að vera fyrsti þátturinn í sjálfgefnum fjárhagsvíddarstreng.
 
-### <a name="job-types"></a>Vinnslugerðir
+> [!NOTE] 
+> Þú getur stillt Talent til að krefjast þess að stöður tilgreini deild. Til að gera þetta skal fara í **Samnýttar stöður mannauðs > Stöður > Krefjast deilda á stöðum**. Við mælum með að þessari stillingu sé framfylgt fyrir samþættinguna.
+
+### <a name="job-types"></a>Starfsgerðir
 
 Starfsgerðir eru notaðar til að flokka svipuð störf í flokka. Starfsgerðir eru nauðsynlegar til að vinna úr launaskrá í Bandaríkjunum og Kanada. Dæmi um starfsgerðir eru fullt starf og hlutastarf, eða föst laun og tímakaup. Starfsgerðum er varpað í Dayforce sem launagerðum sem gefa til kynna hvort starfsmaður sé á tímakaupi eða föstum launum.
 

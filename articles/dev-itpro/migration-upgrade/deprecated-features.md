@@ -3,7 +3,7 @@ title: Eiginleikar sem hafa verið fjarlægðir eða úreltir
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir.
 author: sericks007
 manager: AnnBe
-ms.date: 03/12/2019
+ms.date: 04/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4dc8f11cfef7c0f42c62c42cd984438a3e119a5
-ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
+ms.openlocfilehash: 7201397cd839048465ee0cd8e97c267ab8cbfeb7
+ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "836349"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "992884"
 ---
 # <a name="removed-or-deprecated-features"></a>Fjarlægðir eða úreltir eiginleikar
 
@@ -41,45 +41,114 @@ ms.locfileid: "836349"
 > [!NOTE]
 > Ítarlegar upplýsingar um hluti í Finance and Operations má finna í [Tæknileg tilvísunarskjöl](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu Finance and Operations.
 
+
+## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>Dynamics 365 for Finance and Operations 10.0.2 með verkvangsuppfærslu 26
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.2 með verkvangsuppfærslu 26 er í boði fyrir ákveðna notendur sem hluti af forútgáfu. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í hlutanum [Framboð þjónustuuppfærslu](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="legacy-default-action-behavior"></a>Eldri hegðun á sjálfvirkri aðgerð
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Eldri hegðun á sjálfvirkum aðgerðum í hnitanetum leiðir til óvænts dálks sem er með sjálfgefinn aðgerðartengil eftir að dálkar hnitanets hafa verið endurraðaðir með sérstillingum. Nýi eiginleikinn fyrir fasta sjálfgefna aðgerð leiðréttir þetta. Frekari upplýsingar er að finna í [Fastar sjálfgefnar aðgerðir í hnitanetum](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Skipt út fyrir aðra eiginleika?**   | Fyrst í verkvangsuppfærslu 21 var eiginleikinn „fastar sjálfgefnar aðgerðir“ kynntur til sögunnar. Hægt er að virkja þennan eiginleika á síðunni **Valkostir afkastagetu biðlara**. |
+| **Afurðasvæði sem haft er áhrif á**         | Hnitanet í vefbiðlaranum |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt: Frá og með apríl 2020 verða fastar sjálfgefnar aðgerðir sjálfgefin hegðun, án úrræða til að fara aftur í eldri hegðun. |
+
+### <a name="legacy-is-one-of-filtering-experience"></a>Eldri „er einn af“ síunarupplifun
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Síunarmöguleikinn „er einn af“ var endurhannaður í verkvangsuppfærslu 22 með það í huga að hann yrði eini „er einn af“ síunarmöguleikinn. |
+| **Skipt út fyrir aðra eiginleika?**   | Í verkvangsuppfærslu 22 var fyrst boðið upp á endurbætur á síunarmöguleikanum „er einn af“ á síðunni **Valkostir afkastagetu biðlara**. Frekari upplýsingar er að finna í [Fínstillt „er ein af“ upplifun með síu](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
+| **Afurðasvæði sem haft er áhrif á**         | Vefbiðlari |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt: Frá og með apríl 2020 verður upplifunin „er ein af“ sjálfgefin hegðun, án úrræða til að fara aftur í eldri hegðun. |
+
+### <a name="deriving-from-internal-classes-is-deprecated"></a>Afleiðing frá innri klösum er úrelt
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Á undan verkvangsuppfærslu 25 var hægt að búa til klasa eða töflu sem kemur út frá innri klasa/töflu sem er skilgreind í öðrum pakka/einingu. Þetta er ekki starfsvenja öryggiskóðunar. Frá og með verkvangsuppfærslu 25 mun þýðandinn birta viðvörun. |
+| **Skipt út fyrir aðra eiginleika?**   | Viðvörun þýðanda verður skipt út fyrir villu í verkvangsuppfærslu 26. Þessi breyting er samhæf afturvirk við keyrslu, sem þýðir að hægt er að nota verkvangsuppfærslu 25 eða nýrri á hvaða sandkassa- eða framleiðsluumhverfi sem er án þess að þurfa að breyta sérsniðnum kóða. Þessi breyting hefur aðeins áhrif á þróunar- og þýðingartíma.|
+| **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt: Viðvörunin verður að þýðingarvillu í verkvangsuppfærslu 26. |
+
+### <a name="overriding-internal-methods-is-deprecated"></a>Hnekking innri aðferða er úrelt
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Á undan verkvangsuppfærslu 25 var hægt að hnekkja innri aðferð í afleiddum klasa sem er skilgreindur í öðrum pakka/einingu. Þetta er ekki starfsvenja öryggiskóðunar. Frá og með verkvangsuppfærslu 25 mun þýðandinn birta viðvörun. |
+| **Skipt út fyrir aðra eiginleika?**   | Þessi viðvörun verður skipt út fyrir þýðingarvillu í verkvangsuppfærslu 26. Þessi breyting er samhæf afturvirk við keyrslu, sem þýðir að hægt er að nota verkvangsuppfærslu 25 eða nýrri á hvaða sandkassa- eða framleiðsluumhverfi sem er án þess að þurfa að breyta sérsniðnum kóða. Þessi breyting hefur aðeins áhrif á þróunar- og þýðingartíma. |
+| **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt: Viðvörunin verður að þýðingarvillu í verkvangsuppfærslu 26. |
+
+### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Færibreyta til að virkja sölupantanir með marga uppruna fjármögnunar fyrir verksamninga
+Stuðningur fyrir stofnun á verkmiðuðum sölupöntunum þar sem verksamningurinn er með marga uppruna fjármögnunar virka með stillingunni **Færibreytur verkefnastjórnunar** í **Leyfa sölupantanir fyrir verk með marga uppruna fjármögnunar**. Sjálfgefið er að þessi færibreyta er ekki virk. 
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Virknin verður alltaf virk eftir að færibreytan hefur verið fjarlægð. |
+| **Skipt út fyrir aðra eiginleika?**   | Nei. Virknin til að styðja verkmiðaðar sölupantanir með marga uppruna fjármögnunar verður alltaf virk.   |
+| **Afurðasvæði sem haft er áhrif á**         |Færibreytan **Leyfa sölupantanir fyrir verk með mörgum fjármögnunaraðilum** verður fjarlægð. Eftirfarandi aðferðum verður breytt þegar færibreytan er fjarlægð: aðferðin **ctrlSalesOrderTable** í klasanum **ProjStatusType**, aðferðin **sannprófa** fyrir reitinn **ProjId** og aðferðin **keyra** í skjámyndinni **SalescreateOrder**. Eftirfarandi aðferðir verða úreltar þegar færibreytan er fjarlægð: **IsSalesOrderAllowedForMultipleFundingSources** í töfluskránni **ProjTable**, aðferðin **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** í töfluskránni **ProjTable**, gagnareiturinn **AllowSalesOrdersForMultipleFundingSources** í skjámyndinni **ProjParameters** og skrárnar **ProjParameterEntity**, einkaaðferðin **IsAssociatedToMultipleFundingSourcesContract** í töfluskránni **ProjTable**. |
+| **Dreifingarvalkostur**              | Allir  |
+| **Staða**                         | Úrelding er fyrirhuguð fyrir útgáfulotu í apríl 2020. |
+
+### <a name="legacy-workflow-reports-for-tracking-and-instance-status"></a>Eldri skýrslur verkflæðis fyrir stöðu rakningar og tilvika
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Eldri skýrslur verkflæðis fyrir stöðu rakningar og tilvika verða úreltar vegna þess að ekki er lengur vísað í þær úr flettingunni. Skýrsluheitin eru WorkflowWorkflowInstanceByStatusReport og WorkflowWorkflowTrackingReport. |
+| **Skipt út fyrir aðra eiginleika?**   | Í staðinn er hægt að nota skjámyndina fyrir verkflæðissögu. |
+| **Afurðasvæði sem haft er áhrif á**         | Vefbiðlari |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt: Stefnt er að því að fjarlægja virknina í apríl 2020. |
+
 ## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1 með verkvangsuppfærslu 25
 
 > [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.1 með verkvangsuppfærslu 25 er í boði fyrir ákveðna notendur sem hluti af forútgáfu. Innihald og virkni getur tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í [Þjónustuuppfærslur á staðlaðri útgáfu og fyrstu útgáfu](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+> Dynamics 365 for Finance and Operations 10.0.1 með verkvangsuppfærslu 25 er í boði fyrir ákveðna notendur sem hluti af forútgáfu. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í hlutanum [Framboð þjónustuuppfærslu](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>Úrelt API og mögulegar skiptingar breytinga
+
 
 #### <a name="deriving-from-internal-classes-is-deprecated"></a>Afleiðing frá innri klösum er úrelt
 
 |   |  |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Í útgáfum á undan verkvangsuppfærslu 25 var hægt að búa til klasa eða töflu sem kemur út frá innri klasa/töflu sem er skilgreind í öðrum pakka/einingu. Þetta er ekki starfsvenja öryggiskóðunar. Frá og með verkvangsuppfærslu 25 mun þýðandinn birta viðvörunarboð ef þú reynir að gera þetta.|
-| **Skipt út fyrir aðra eiginleika?**   | Viðvörun þýðanda verður skipt út fyrir villu í væntanlegri verkvangsuppfærslu. Þessi breyting er samhæf afturvirk við keyrslu, sem þýðir að ef þú ert að keyra verkvangsuppfærslu 25 eða síðar er hægt að nota þetta á hvaða sandkassa- eða framleiðsluumhverfi sem er án þess að þurfa að breyta sérsniðnum kóða. Þessi breyting hefur aðeins áhrif á þróunar- og þýðingartíma. |
-| **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri. |
+| **Ástæða úreldingar/fjarlægingar** | Á undan verkvangsuppfærslu 25 var hægt að búa til klasa eða töflu sem kemur út frá innri klasa/töflu sem er skilgreind í öðrum pakka/einingu. Þetta er ekki starfsvenja öryggiskóðunar. Frá og með verkvangsuppfærslu 25 mun þýðandinn birta viðvörun. |
+| **Skipt út fyrir aðra eiginleika?**   | Viðvörun þýðanda verður skipt út fyrir villu í verkvangsuppfærslu 26. Þessi breyting er samhæf afturvirk við keyrslu, sem þýðir að hægt er að nota verkvangsuppfærslu 25 eða nýrri á hvaða sandkassa- eða framleiðsluumhverfi sem er án þess að þurfa að breyta sérsniðnum kóða. Þessi breyting hefur aðeins áhrif á þróunar- og þýðingartíma.|
+| **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Úrelt - Viðvörunin verður að þýðingarvillu í væntanlegri verkvangsuppfærslu. |
+| **Staða**                         | Úrelt: Viðvörunin verður að þýðingarvillu í verkvangsuppfærslu 26. |
 
 #### <a name="overriding-internal-methods-is-deprecated"></a>Hnekking innri aðferða er úrelt
 
 |   |  |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Í útgáfum á undan verkvangsuppfærslu 25 var hægt að hnekkja innri aðferð í afleiddum klasa sem er skilgreindur í öðrum pakka/einingu. Þetta er ekki starfsvenja öryggiskóðunar. Frá og með verkvangsuppfærslu 25 mun þýðandinn birta viðvörunarboð ef þú reynir að gera þetta.|
-| **Skipt út fyrir aðra eiginleika?**   | Þessi viðvörun verður skipt út fyrir þýðingarvillu í væntanlegri verkvangsuppfærslu. Þessi breyting er samhæf afturvirk við keyrslu, sem þýðir að ef þú ert að keyra verkvangsuppfærslu 25 eða síðar er hægt að nota þetta á hvaða sandkassa- eða framleiðsluumhverfi sem er án þess að þurfa að breyta sérsniðnum kóða. Þessi breyting hefur aðeins áhrif á þróunar- og þýðingartíma. |
-| **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri. |
+| **Ástæða úreldingar/fjarlægingar** | Á undan verkvangsuppfærslu 25 var hægt að hnekkja innri aðferð í afleiddum klasa sem er skilgreindur í öðrum pakka/einingu. Þetta er ekki starfsvenja öryggiskóðunar. Frá og með verkvangsuppfærslu 25 mun þýðandinn birta viðvörun. |
+| **Skipt út fyrir aðra eiginleika?**   | Þessi viðvörun verður skipt út fyrir þýðingarvillu í verkvangsuppfærslu 26. Þessi breyting er samhæf afturvirk við keyrslu, sem þýðir að hægt er að nota verkvangsuppfærslu 25 eða nýrri á hvaða sandkassa- eða framleiðsluumhverfi sem er án þess að þurfa að breyta sérsniðnum kóða. Þessi breyting hefur aðeins áhrif á þróunar- og þýðingartíma. |
+| **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Úrelt - Viðvörunin verður að þýðingarvillu í væntanlegri verkvangsuppfærslu. |
+| **Staða**                         | Úrelt: Viðvörunin verður að þýðingarvillu í verkvangsuppfærslu 26. |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 með verkvangsuppfærslu 23
 
-### <a name="print-to-screen-functionality"></a>Virknin að prenta á skjá
-Viðskiptavinir geta notað aðgerðina **Innflutningur** sem stjórnun skýrsluskoðunar veitir til að sækja skjöl sem forrit Finance and Operations búa til. Þessi HTML-kynning á skýrslunni býður notendum upp á forskoðun á skjalinu án blaðsíðutals.
+### <a name="sql-server-reporting-services-reportviewer-control"></a>Stjórntæki fyrir ReportViewer SQL Server Reporting Services
+Viðskiptavinir geta notað aðgerðina **Útflutningur** sem innfellt stjórntæki ReportViewer fyrir SQL Server Reporting Services (SSRS) býður upp á til að sækja skjöl sem forrit Finance and Operations búa til. Þessi HTML-kynning á skýrslunni býður notendum upp á forskoðun á skjalinu án blaðsíðutals.
 
 |   |  |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Forskoðun á HTML-kynningunni án blaðsíðutals er **ekki** í fullu samræmi við raunverulegu skjölin sem Finance and Operations búa til að lokum. Með því að taka PDF opnum örmum sem staðlað snið fyrir viðskiptaaðgerðir getum við einfaldað til muna möguleika notanda til að vinna með skýrslur forrits og einfaldað myndunarferli skjals. |
+| **Ástæða úreldingar/fjarlægingar** | Forskoðun á HTML-kynningunni án blaðsíðutals er **ekki** í fullu samræmi við raunverulegu skjölin sem Finance and Operations búa til að lokum. Með því að samþykkja að fullu PDF sem staðlað snið fyrir viðskiptaskjöl geta notendur nýtt sér nútímalega skoðun með endurbættum afköstum þegar skýrslur forrits eru búnar til. |
 | **Skipt út fyrir aðra eiginleika?**   | Að halda áfram, PDF skjöl verða sjálfgefið snið fyrir skýrslur sem Finance and Operations búa til.   |
 | **Afurðasvæði sem haft er áhrif á**         | Þessi breyting hefur **ekki** áhrif á atburðarásir viðskiptavinar þar sem skýrslum er dreift rafrænt eða sendar beint til prentara.    |
 | **Dreifingarvalkostur**              | Allir  |
-| **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika. Virknin til að sækja sjálfkrafa skýrslur forrits í vafranum sem PDF-skjöl er áformað fyrir verkvangsuppfærslu í maí 2019. <br><br>**Mikilvægt:** Núverandi viðskiptavinir sem reiða sig á eiginleikann „Prenta á skjá“ er ráðlagt að tilkynna [Notendaþjónustu](../lifecycle-services/lcs-support.md) áður en uppfært er í verkvangsfærslu 26. |
+| **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika. Virknin til að forskoða sjálfkrafa skýrslur forrits með því að nota innfelldan PDF-lesara er á dagskrá fyrir verkvangsuppfærslu í maí 2019. |
 
 ### <a name="client-kpi-controls"></a>KPI-stýring biðlara
 Innfellda afkastavísa (KPI) er hægt að þróa í Visual Studio af þróunaraðila og sérsniðið enn frekar af notanda.
@@ -102,7 +171,7 @@ Innfellda afkastavísa (KPI) er hægt að þróa í Visual Studio af þróunara�
 | **Skipt út fyrir aðra eiginleika?**   | Þessi viðvörun verður skipt út fyrir þýðingarvillu í framtíðinni.  |
 | **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri. |
 | **Dreifingarvalkostur**              | Allt. |
-| **Staða**                         | Úrelt - Viðvörunin verður þýðingartímavilla í framtíðinni. Sem stendur stefnum við á verkvangsuppfærslu 30. |
+| **Staða**                         | Úrelt: Viðvörunin verður þýðingartímavilla í framtíðinni. Sem stendur stefnum við á verkvangsuppfærslu 30. |
 
 #### <a name="complete-list"></a>Heildarlisti
 Til að fá aðgang að heildarlista afkastavísa sem verið er að úrelda skal sjá [Úrelding á aðferðum og einingum lýsigagna](deprecation-deletion-apis.md).
@@ -110,7 +179,7 @@ Til að fá aðgang að heildarlista afkastavísa sem verið er að úrelda skal
 ## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 með verkvangsuppfærslu 20
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Runuflutningsreglur fyrir lyklafærslur undirbókar
-Samstillta flutningsstillingin er felld úr gildi í færibreytum fjárhags.  Þessari stillingu er aðeins skipt út fyrir ósamstillta og áætlaða runu, sem þegar er til staðar sem valkostir fyrir flutning. 
+Samstillta flutningsstillingin er felld úr gildi í færibreytum fjárhags.  Þessari stillingu er aðeins skipt út fyrir ósamstillta og áætlaða runu, sem þegar er til staðar sem valkostir fyrir flutning. Frekari upplýsingar er að finna á blogginu [Færibreytur fjárhags - Reglur fyrir runuflutning](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules).
 
 |   |  |
 |------------|--------------------|
@@ -172,7 +241,7 @@ Engir eiginleikar hafa verið fjarlægðir eða úreltir með þessari útgáfu.
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 með verkvangsuppfærslu 12
 
 ### <a name="personalized-product-recommendations"></a>Sérsniðnar afurðaráðleggingar 
-Frá og með 15. febrúar, 2018, munu smásalar ekki lengur geta birt sérsniðnar vöruráðleggingar á sölustaðartæki. Nánari upplýsingar eru í [Sérsniðnar vöruráðleggingar](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+Frá og með 15. febrúar, 2018, munu smásalar ekki lengur geta birt sérsniðnar vöruráðleggingar á sölustaðartæki. Nánari upplýsingar eru í [Sérsniðnar vöruráðleggingar](../../retail/personalized-product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -211,7 +280,7 @@ Efnispakkarnir **Kostnaðarstjórnun**, **Fjárhagsleg frammistaða** og **Retai
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Vöruuppfærslur í Microsoft Power BI. |
-| **Skipt út fyrir aðra eiginleika?**   | Efnispakkarnir **Kostnaðarstjórnun**, **Fjárhagsleg frammistaða** og **Retail channel performance**, sem eru í boði á [AppSource](https://appsource.microsoft.com) síða, er skipt út fyrir greiningarforrit sem leyfa lausnasamþættingu á gagnagrunni stigi. Frekari upplýsingar um greiningarforrit, sjá [Innfellt Power BI í vinnusvæði](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Skipt út fyrir aðra eiginleika?**   | Efnispakkarnir **Kostnaðarstjórnun**, **Fjárhagsleg frammistaða** og **Afköst smásölurásar**, sem eru í boði á [AppSource](https://appsource.microsoft.com) síða, er skipt út fyrir greiningarforrit sem leyfa lausnasamþættingu á gagnagrunni stigi. Frekari upplýsingar um greiningarforrit, sjá [Innfellt Power BI í vinnusvæði](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Afurðasvæði sem haft er áhrif á**         | Kostnaðarstjórnun, Fjármál og Smásala                                                                                               |
 | **Dreifingarvalkostur**              | Einungis ský (Samþætting við PowerBI.com er ekki studd við dreifingu á staðnum.)                                                                                                            |
 | **Staða**                         | Úrelt: Tímarammi markmiðs um að fjarlægja virknina er Q2 2018.    |
@@ -277,7 +346,7 @@ Notendur geta sótt þetta frá ríkisstjórnargáttinni.
 ## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
 
 ### <a name="personalized-product-recommendations"></a>Sérsniðnar afurðaráðleggingar 
-Frá og með 15. febrúar, 2018, munu smásalar ekki lengur geta birt sérsniðnar vöruráðleggingar á sölustaðartæki. Nánari upplýsingar eru í [Sérsniðnar vöruráðleggingar](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+Frá og með 15. febrúar, 2018, munu smásalar ekki lengur geta birt sérsniðnar vöruráðleggingar á sölustaðartæki. Nánari upplýsingar eru í [Sérsniðnar vöruráðleggingar](../../retail/personalized-product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -309,7 +378,7 @@ Vöruhús fjarskiptatæki portal (WMDP) var sjálfstæður þáttur sem var gert
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Afrituð virkni.       |
-| **Skipt út fyrir aðra eiginleika?**   | Já. Þessari aðgerð hefur verið skipt út fyrir Finance and Operations - Warehousing. Nánari upplýsingar um uppsetningu og skilyrði er að finna í [Setja upp og skilgreina Microsoft Dynamics 365 for Finance and Operations - Vöruhús](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Skipt út fyrir aðra eiginleika?**   | Já. Þessari aðgerð hefur verið skipt út fyrir Finance and Operations - Warehousing. Nánari upplýsingar um uppsetningu og skilyrði er að finna í [Setja upp og skilgreina Microsoft Dynamics 365 for Finance and Operations - Vöruhús](../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Afurðasvæði sem haft er áhrif á**         | Vöruhúsastjórnun, flutningsstjórnun     |
 | **Dreifingarvalkostur**              | Vöruhús fjarskiptatæki portal (WMDP) var sjálfstæður þáttur sem var gert ráð fyrir verslunarsvæðis á sjálfnýtingu.               |
 | **Staða**                         | Úrelt: Tímarammi markmiðs um að fjarlægja virknina er Q4 2019.   |
@@ -687,6 +756,17 @@ Verkflæði til að stjórna stofnun starfsmannamarkmiða er eitt af nokkrum ver
 | **Skipt út fyrir aðra eiginleika?**   | Þessum eiginleika er skipt út fyrir ramma innflutning/útflutning gagna, sem styður endurtekinn magninnflutning/útflutning gagna. Mælt er með því að raunverulegar töflur sé notað AxBC. |
 | **Afurðasvæði sem haft er áhrif á**         | AxD AxBC og AIF   |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.   |
+
+### <a name="billing-code-rate-scripts"></a>Forskriftartaxtar innheimtukóða
+
+Innheimtuforskriftir voru notaðar til að reikna út innheimtuverð fyrir innheimtukóða. Þessar forskriftir þurftu sérsniðna forritun í C Sharp eða Visual Basic forritunarmálinu. Í núverandi útgáfu af Dynamics AX er **forskriftarkóði innheimtukóða** ekki studdur.
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Stuðningur við sérsniðna C Sharp eða forskriftir Visual Basic var ekki bætt við í Dynamics AX 7.0. |
+| **Skipt út fyrir aðra eiginleika?**   | Nei                                                                                      |
+| **Afurðasvæði sem haft er áhrif á**         | Hið opinbera, viðskiptakröfur                                    |
+| **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.                                                          |
 
 ### <a name="boms-without-bom-versions"></a>Uppskriftir án uppskriftaútgáfa
 
@@ -1068,7 +1148,7 @@ Vörusamsetning (Product builder) var notaður til að setja saman á lifandi h�
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Product builder birti X ++ kóða til að endanotenda og er ekki studdur í þessari útgáfu af Dynamics AX. Það hefur verið fjarlægð til að koma í veg fyrir tvíteknar viðhaldsvinnu á kóðagrunnum sem skarast.  |
-| **Skipt út fyrir aðra eiginleika?**   | Já. Skorðuskilgreiningin var kynnt í Dynamics AX 2012 þar sem úrelding Vörusamsetningar í framtíðarútgáfum var þegar tilkynnt. Skorðuskilgreiningartæknin valin á vörustjórunum til að virkja grunnstillingarnar. Frekari upplýsingar, sjá [Byggja líkan vöruskilgreiningar](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
+| **Skipt út fyrir aðra eiginleika?**   | Já. Skorðuskilgreiningin var kynnt í Dynamics AX 2012 þar sem úrelding Vörusamsetningar í framtíðarútgáfum var þegar tilkynnt. Skorðuskilgreiningartæknin valin á vörustjórunum til að virkja grunnstillingarnar. Frekari upplýsingar, sjá [Byggja líkan vöruskilgreiningar](../../supply-chain/pim/build-product-configuration-model.md). |
 | **Afurðasvæði sem haft er áhrif á**         | Stjórnun á upplýsingum um afurðir, Sölu og markaðssetningu  |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.      |
 

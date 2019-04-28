@@ -1,7 +1,7 @@
 ---
 title: Mannauður
 description: Mannauðsstjórnun einfaldar mörg reglubundin skráningarverk og gerir fjölda ferla tengda starfsfólki fyrirtækisins sjálfvirka. Eiginleikinn rammar einnig af þau atriði sem starfsfólk mannauðsdeildar þarf að hafa yfirsýn yfir. Á meðal þessara atriða eru ráðningar starfsmanna og viðhald starfsánægju, fríðindastjórnun, þjálfun, frammistöðuviðtöl og breytingastjórnun.
-author: rschloma
+author: andreabichsel
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.custom: 20931
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: faf9b9a70d959719f381ec5171e4fb96af208478
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c8b743e667413dfc263fe640b4c6c7350e887142
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "341765"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859806"
 ---
 # <a name="human-resources"></a>Mannauður
 
@@ -64,7 +64,7 @@ Eftir ráðningu starfsmanna er hægt að setja upp áætlanir fyrir skilvirka o
 
 ## <a name="develop-and-train-employees"></a>Þróa og þjálfa starfsmenn
 
-Hægt er að veita starfsfólki stuðning við að ná markmiðum sínum í starfi um leið og það skilar sínu hlutverki við rekstur fyrirtækisins með því að setja upp markmið, skipuleggja frammistöðumat og rekja endurgjöf. Til að hjálpa starfsmönnum við að þróa nauðsynlega færni er einnig hægt að setja upp leiðbeinendur, námskeiðsgerðir, námskeið, námskeiðslýsingar, dagskrár, námskeiðshluta og lotur áður en hægt er að skrá leiðbeinanda á námskeiði eða skrá einhvern fyrir námskeið. Leiðbeinendur þurfa að hafa verið settir upp sem starfskraftar, umsækjendur eða tengiliðir.
+Hægt er að veita starfsfólki stuðning við að ná markmiðum sínum í starfi um leið og það skilar sínu hlutverki við rekstur fyrirtækisins með því að setja upp markmið, skipuleggja frammistöðumat og rekja endurgjöf. Einnig er hægt að setja upp leiðbeinendur, námskeiðsgerðir, námskeið, námskeiðslýsingar, dagskrár, námsleiðir og lotur sem gera starfsmönnum kleift að öðlast viðeigandi hæfni áður en leiðbeinanda er úthlutað á námskeið eða fólk er skráð í námskeið. Leiðbeinendur þurfa að hafa verið settir upp sem starfskraftar, umsækjendur eða tengiliðir.
 
 - [Árangursstjórnun](../../talent/performance-management-overview.md)
 - [Samþætting hæfni starfsfólks og rekstrarþarfa](../../talent/skills.md)

@@ -3,7 +3,7 @@ title: Samstilla birgðaflutninga og leiðréttingar úr Field Service við Fina
 description: Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla birgðaleiðréttingar og flutninga úr Microsoft Dynamics 365 for Finance and Operations við Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: aa54945cea5821da163e1f6ea1747ac29b31a3ce
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 75181661c41d238cdc06ffbb6969a2efd7d88d46
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308369"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842416"
 ---
 # <a name="synchronize-inventory-adjustments-from-field-service-to-finance-and-operations"></a>Samstilla birgðaleiðréttingar úr Field Service við Finance and Operations
 
@@ -38,8 +38,8 @@ ms.locfileid: "308369"
 Eftirfarandi sniðmát og undirliggjandi verkefni eru notuð til að samstilla birgðaleiðréttingar og flutninga úr Microsoft Dynamics 365 for Field Service við Microsoft Dynamics 365 for Finance and Operations.
 
 **Sniðmát í gagnasamþættingu**
-- Birgðaleiðrétting (Field Service til Finance and Operations)
-- Birgðaflutningar (Field Service til Finance and Operations)
+- Leiðrétting á birgðaskrá (Field Service til Fin and Ops)
+- Gagnaflutningur á birgðum (Field Service til Fin and Ops)
 
 **Verkefni í gagnasamþættingarverkum**
 - Birgðaleiðréttingar
@@ -71,11 +71,11 @@ Birgðabækur samþættingar sem samþættingin bjó til er hægt að bóka sjá
 
 Eftirfarandi myndir sýna sniðmátsvörpunina í Gagnasamþættingu.
 
-### <a name="inventory-adjustment-field-service-to-finance-and-operations-inventory-adjustment"></a>Birgðaleiðrétting (Field Service til Finance and Operations): Birgðaleiðrétting
+### <a name="inventory-adjustment-field-service-to-fin-and-ops-inventory-adjustment"></a>Leiðrétting á birgðaskrá (Field Service til Fin and Ops): Leiðrétting á birgðaskrá
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
-### <a name="inventory-transfer-field-service-to-finance-and-operations-inventory-transfer"></a>Birgðaflutningur (Field Service til Finance and Operations): Birgðaflutningur
+### <a name="inventory-transfer-field-service-to-fin-and-ops-inventory-transfer"></a>Birgðaflutningur (Field Service til Fin and Ops): Birgðaflutningur
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/FSTrans1.png)](./media/FSTrans1.png)

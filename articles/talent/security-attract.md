@@ -1,7 +1,7 @@
 ---
 title: Öryggi og hlutverkastjórnun í Attract
 description: Þetta efnisatriði veitir upplýsingar um öryggishlutverk í Microsoft Dynamics 365 for Talent - Attract.
-author: josaw1
+author: andreabichsel
 manager: AnnBe
 ms.date: 03/08/2019
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: josaw1
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
-ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
+ms.openlocfilehash: 9c0f9d3304b1b15aa84fd1a296267d606bf9c59d
+ms.sourcegitcommit: 1653d1e28d02f8a9a4bea8df562ac98d7a350ed1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "789698"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "993692"
 ---
 # <a name="security-and-role-management-in-attract"></a>Öryggi og hlutverkastjórnun í Attract
 
@@ -70,6 +70,16 @@ Allir notendur sem hafa Microsoft Azure Active Directory (Azure AD) reikninginn 
 
 Notendur sem eru úthlutað í hlutverkinu skrifvarið, hafa skrifvarinn aðgang að öllum gögnum í Attract umhverfi. Hins vegar geta þau ekki búið til eða breytt neinum gögnum.
 
+## <a name="find-out-which-roles-you-have"></a>Finndu út hvaða hlutverk þú hefur
+
+1.  Í Attract skal smellt á spurningarmerki (**?**) efst í hægra horni síðunnar.
+
+2.  Smelltu á **Um**.
+
+    Þú munt sjá hvaða hlutverk þú hefur í Attract í glugganum sem birtist:
+
+    ![Skoða gerð á leyfi Attract](media/attract-license-types.png)
+    
 ## <a name="delegated-roles"></a>Úthlutað hlutverk
 
 Fyrir hvert starf sem þeir sinna á ráðningarteyminu, geta ráðningaraðilar og mannauðsstjórar tilnefnt einn eða fleiri fulltrúa fyrir sig. Hins vegar geta þau ekki tilnefnt fulltrúa fyrir annað fólk á ráðningarteyminu.

@@ -1,9 +1,9 @@
 ---
 title: Yfirlit reikninga lánardrottna
 description: Þessi grein veitir almennar upplýsingar um reikninga lánardrottins. Reikningar lánardrottins eru beiðnir um greiðslu fyrir vörur og þjónustu sem voru mótteknar. Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þær geta verið byggðir á innkaupapantanir fyrir tilteknar vörur og þjónustu.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 03/29/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,24 +15,24 @@ ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
-ms.author: shpandey
+ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e563688b46c556ffbf46f9d20d9b9f248d26e02c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 1d7cec48b1e01d308cfc67260ac82a50a8d76844
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329759"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975803"
 ---
 # <a name="vendor-invoices-overview"></a>Yfirlit reikninga lánardrottna
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Þessi grein veitir almennar upplýsingar um reikninga lánardrottins. Reikningar lánardrottins eru beiðnir um greiðslu fyrir vörur og þjónustu sem voru mótteknar. Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þær geta verið byggðir á innkaupapantanir fyrir tilteknar vörur og þjónustu. 
 
-<a name="vendor-invoices"></a>Reikningar frá lánardrottni
----------------
+## <a name="vendor-invoices"></a>Reikningar frá lánardrottni
 
 Reikning lánardrottins úr innkaupapöntun er reikningur sem er búinn til þegar afurðir eða þjónustur eru mótteknar samkvæmt innkaupapöntun sem var gerð hjá lánardrottni. Reikningur lánardrottins inniheldur haus og ein eða fleiri línur fyrir vörur eða þjónustu. Reikningur lánardrottins lýkur ferlinu úr innkaupapöntun til innhreyfingarskjals afurðar til reiknings lánardrottins. 
 
@@ -79,8 +79,15 @@ Frekari upplýsingar, sjá [Skrá reikning lánardrottins og bera saman við mó
 
 Hægt er að vinna með marga reikninga á sama tíma og bókaðar þá svo samtímis. Ef stofna þarf marga reikninga eru notuð **Biðreikninga lánardrottins** síðu. Ef Bóka þarf og prenta marga reikninga lánardrottna skal nota síðuna staðfestingarbók reikninga Ef þú ert að nota samþykktarbók reikninga, þarf að minnsta kosti eitt innhreyfingarskjal afurða hafi verið bókað fyrir innkaupapöntunina og að reikningur fyrir innkaupapöntunina þarf að hafa verið bókaður í komubók. Fjárhagsupplýsingarnar fyrir reikninginn koma úr reikningnum sem var bókaður í komubókina.
 
+## <a name="recovering-vendor-invoices-that-are-in-use"></a>Endurheimtir á reikningum lánardrottna sem eru í notkun
 
-Frekari upplýsingar er að finna á: 
+Þó að reikningur lánardrottins sé notaður getur annar notandi ekki breytt honum. Hins vegar getur staða á reikningi stundum gefið til kynna að reikningur sé í notkun jafnvel þótt ekki sé verið að breyta honum. Til dæmis gæti forritið hafa hætt að svara á meðan reikningnum var breytt eða notandi kann að hafa óvart skilið reikninginn eftir opinn í forritinu.
+
+Hægt er að nota síðuna **Endurheimta reikninga lánardrottna** til að endurheimta eða losa reikninga lánardrottins sem hafa veirð í notkun í meira en fjórar klukkustundir, svo hægt sé að breyta þeim. Hægt er að opna þessa síðu af síðunni **Reglubundið verk** eða reit á vinnusvæðinu **Reikningsfærsla lánardrottins**. Eftir að reikningur er endurheimtur verður hægt að breyta honum á síðunni **Reikningur lánardrottins**.
+
+Aðeins er hægt að fá aðgang að síðunni **Endurheimta reikninga lánardrottna** ef þér er úthlutað öryggisskyldunum og réttindunum **Endurheimta reikninga lánardrottna sem eru í notkun**. Auk þess þarf að kveikja á færibreytunni **Leyfa endurheimt á reikningum lánardrottna** á síðunni **Færibreytur viðskiptaskulda**.
+
+## <a name="additional-resources"></a>Frekari upplýsingar
 
  - [Setja upp reglur lánardrottnareikninga](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 

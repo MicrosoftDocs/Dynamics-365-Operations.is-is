@@ -3,7 +3,7 @@ title: Leiðir og aðgerðir
 description: Þessi efnisatriði gefur upplýsingar um leiðir og aðgerðir.
 author: sorenva
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 417fd960a43ad3fd023ea0c4a17be735b69743de
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 961cc6fe5bd1bfbb0f5c9116024415a5d53f569e
+ms.sourcegitcommit: dc90d56050d7353930d048476451542cce147e37
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "333347"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "850669"
 ---
 # <a name="routes-and-operations"></a>Leiðir og virkni
 
@@ -59,11 +59,10 @@ Ef flóknari leiðanet eru virkjuð í færibreytum framleiðslustýringar, er h
 
 [![Leiðanet](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
-**Athugasemdir :**
-
--   Hver aðgerð getur aðeins haft eina arftakaaðgerð og allri leiðinni þarf að ljúka í einni aðgerð.
--   Það er engin trygging fyrir því að margar aðgerðir sem hafa sömu arftakaaðgerð (t.d., aðgerðir 40 í fyrrgreint sýnidæmi og 30) verði í raun keyrðar samhliða. Framboð og geta tilfanga geta sett hömlur á það hvernig aðgerðum er raðað.
--   Ekki er hægt að nota 0 (núll) sem aðgerðarnúmer. Númerið er frátekið og er notað til að tilgreina að síðasta aðgerðin í leiðinni hefur engin aðgerð næsta þáttar.
+> [!NOTE]
+> -   Hver aðgerð getur aðeins haft eina arftakaaðgerð og allri leiðinni þarf að ljúka í einni aðgerð.
+> -   Þetta tryggir ekki að margar aðgerðir sem hafa sömu arftakaaðgerð (t.d. aðgerðir 30 og 40 í fyrrgreint sýnidæmi) verði í raun keyrðar samhliða. Framboð og geta tilfanga geta sett hömlur á það hvernig aðgerðum er raðað.
+> -   Ekki er hægt að nota 0 (núll) sem aðgerðarnúmer. Númerið er frátekið og er notað til að tilgreina að síðasta aðgerðin í leiðinni hefur engin aðgerð næsta þáttar.
 
 ### <a name="parallel-operations"></a>Samhliða aðgerðir
 
@@ -122,7 +121,8 @@ Einnig er hægt að tilgreina að aðgerðavensl séu bundin við svæði. Á þ
 
 Aðgerðavensl veita mikinn sveigjanleika þegar skilgreina skal leiðir. Þar að auki hjálpar getan að skilgreina sjálfgefna eiginleika til við að draga úr fjölda aðalgagna sem þarf að vinna með. Hins vegar þýðir þessi sveigjanleika líka að það verður að hafa í huga samhengið sem aðgerðavenslum er breytt innan.  
 
-**Athugasemd:** Þar sem aðgerðaeiginleikar eru geymdir í aðgerðavenslum fyrir hverja aðgerð á leiðinni, hafa öll tilvik af sömu aðgerð (t.d. Samsetningu) sama uppsetningartíma, keyrslutíma, tilfangaþarfir og svo framvegis. Þess vegna ef tvö tilvik aðgerðar verða að koma á sömu leið en hafa mismunandi keyrslutíma þarf að stofna tvær einkvæmar aðgerðir, eins og Assembly1 og Assembly2.
+> [!NOTE]
+> Þar sem aðgerðaeiginleikar eru geymdir í aðgerðavenslum fyrir hverja aðgerð á hverri leið, hafa öll tilvik af sömu aðgerð (t.d. Samsetningu) sama uppsetningartíma, keyrslutíma og tilfangaþarfir. Þess vegna ef tvö tilvik aðgerðar verða að koma á sömu leið en hafa mismunandi keyrslutíma þarf að stofna tvær aðskildar aðgerðir, eins og Assembly1 og Assembly2.
 
 ### <a name="modifying-product-specific-routes"></a>Breyti afurðabundnum leiðum
 
@@ -132,7 +132,8 @@ Aðgerðavensl veita mikinn sveigjanleika þegar skilgreina skal leiðir. Þar a
 
 Einnig er hægt að stofna handvirkt aðgerð sem á sérstaklega við um leið og útgefna afurð með því að nota aðgerðina **Afrita og breyta venslum**.  
 
-**Athugasemd:** Ef bætt er við nýrri aðgerð í leið á síðunni **Leið** eru aðgerðavensl aðeins stofnuð fyrir gildandi útgefna afurð. Þess vegna ef leið er einnig notuð til að útbúa aðrar útgefnar afurðir, munu engin aðgerðatengsl verða til fyrir þær útgefnar afurðir og ekki verður lengur hægt að nota leið fyrir þessar útgefnu afurðir.
+> [!NOTE]
+> Ef bætt er við nýrri aðgerð í leið á síðunni **Leið** eru aðgerðavensl aðeins stofnuð fyrir gildandi útgefna afurð. Þess vegna ef leið er einnig notuð til að útbúa aðrar útgefnar afurðir, munu engin aðgerðatengsl verða til fyrir þær útgefnar afurðir og ekki verður lengur hægt að nota leið fyrir þessar útgefnu afurðir.
 
 ### <a name="maintaining-operation-relations-per-route"></a>Vinna með aðgerðavensl á hverja leið
 
@@ -226,19 +227,34 @@ Ef þú tilgreininr ekki rekstrartilfang eða tilfangaflokkur sem hluta af tilfa
 -   **Stöðluð** – (Sjálfgefinn valkostur) útreikningurinn notar aðeins svæði úr aðgerðavenslum og margfaldar tilgreinda keyrslutíma með pöntunarmagni.
 -   **Afkastageta** – útreikningurinn inniheldur svæðið **Afkastagetu** úr rekstrartilföngum. Þess vegna er tíminn tilfanga-háður. Gildið sem tilgreint er á aðgerðum tilfanga er afkastageta á klukkustund. Þetta gildi er margfaldað með pöntunarmagni og gildinu **Stuðull** úr aðgerðavenslum.
 -   **Runa** – afkastagetu í runu er reiknað með því að nota upplýsingar úr aðgerðavenslum. Fjöldi runa og vinnslutími má síðan reikna út frá pöntunarmagninu.
--   **Tilfangaruna** – Þessi valkostur er nokkurn veginn eins og í **Runu** valkost. Hins vegar inniheldur útreikningurinn svæðið **Afkastagetu** úr rekstrartilföngum. Þess vegna er tíminn tilfanga-háður.
+-   **Tilfangaruna** – Þessi valkostur er nokkurn veginn eins og í **Runu** valkost. Hins vegar inniheldur útreikningurinn svæðið **Afkastagetu** úr rekstrartilföngum. Þess vegna er tíminn háður tilföngum.
 
+### <a name="set-up-route-groups"></a>Setja upp leiðarflokka
 
-<a name="additional-resources"></a>Frekari upplýsingar
---------
+Hægt er að skilgreina leiðaflokkinn og uppsetningu leiðarinnar eða vinnslugerðar undir **Framleiðslustýring > Uppsetning > Leið > Leiðaflokkar**. Fyrir hverja gerð leiðar/vinnslu í leiðaflokknum er hægt að velja eða hreinsa eftirfarandi valkosti:
 
-[Uppskriftir og formúlur](bill-of-material-bom.md)
+- **Virkjun** - Veljið þennan valkost til að virkja útreikninga og áætlanagerð fyrir valda vinnslugerð, og til að fá endurgjöf um vinnslu þegar þú keyrir vinnsluröðun. Þú þarft að velja þennan möguleika til að virkja vinnslugerðina og síðan velja afganginn af valkostunum fyrir þessa vinnslugerð. Ef virkjunin er ekki valin mun þessi vinnslugerð ekki vera virkjuð, óháð valinu á öðrum valkostum. 
+- **Vinnslustýring** - Veldu þennan valkost til að hafa með vinnslugerðina í vinnslustýringu þegar þú keyrir vinnsluröðun. 
+- **Vinnutími** Veljið þennan valkost til að raða vinnslugerð skv. vinnutímadagatalinu sem er skilgreint fyrir rekstrartilföng, annars er gregorískt dagatal nota. Vinnutími getur annað hvort verið áætlaður með gregorísku tímatali eða með skilgreindu verkdagatali. Ef valið er þessi valkostur, mun röðun byggjast á skilgreindum vinnutíma. Enn fremur, mun vinnsla af umræddri vinnslugerð vera röðuð frá miðnætti á tilgreindri dagsetningu sem upphafsdagsetning vinnslunnar.
+- **Afkastageta** - Veljið þennan valkost til að taka frá afkastagetu fyrir vinnslugerðina þegar þú keyrir vinnsluröðun. Ef þetta er valið, afkastagetu frátekin röðun er keyrð fyrir valin vinnslugerð. Þetta gefur yfirlit sem vinnslugerðir í hverjum flokki leið er notuð í rekstrartilföngum. Til dæmis, í þeim tilvikum þar sem þurrkunartilföng eru flöskuhálstilföng, verða þessi tilföng að vera tilgreind sem flöskuhálsar. Þurrkunar aðgerðir sem er úthlutað á biðröð vinnslugerðir tíma þurfa þurrkunar tilföng. 
 
-[Kostnaðartegundir notaðar í framleiðslubeiningu](../cost-management/cost-categories-used-production-routings.md)
+Fyrir hverja vinnslugerð þarf fyrst að gera hana virka eða óvirka. Þegar slökkt er á verða engar hinna uppsetninganna (vinnslustýring, vinnutími og afkastageta) teknar til greina, þar sem vinnslugerðin verður ekki virk. 
 
-[Tilfangageta](resource-capabilities.md)
+Meðal vinnslugerðanna er hægt að finna skörun. Skörun gerir mismunandi vinnslum kleift að vera framkvæmdar á sama tímanum. Þegar vinnslur skarast er hægt að nota tilföngin en ekki er hægt að taka þau frá fyrir tilteknar vinnslur.
+Þess vegna, þegar virkjun er valin fyrir skörun, hafa aðrar stillingar (vinnslustýring, vinnutími og afkastageta) engin áhrif á leiðaflokkinn. 
 
-[Yfirlit yfir rafræna undirskrift](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+> [!NOTE]
+> Þegar útgáfur eru uppfærðar gætu eftirfarandi villur komið upp á: **„CRL villa kom upp þegar röðunarvél var sótt“**. Ef þessi villa kemur upp skal fara á síðuna **Leiðaflokkar** og fyrir allar leiðir þar sem þú hefur virkjar **Skörun** skal hreina valkostina **Vinnslustjórnun**, **Vinnutími** og **Afkastageta**. 
+
+## <a name="additional-resources"></a>Frekari upplýsingar
+
+- [Uppskriftir og formúlur](bill-of-material-bom.md)
+
+- [Kostnaðartegundir notaðar í framleiðslubeiningu](../cost-management/cost-categories-used-production-routings.md)
+
+- [Tilfangageta](resource-capabilities.md)
+
+- [Yfirlit yfir rafræna undirskrift](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
 
 
 
