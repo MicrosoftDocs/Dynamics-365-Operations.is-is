@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b622276000c56a5af1bb258dbc3c6c4a56af4d20
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782906"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949898"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 for Talent (27. febrúar 2019)
 
@@ -87,7 +87,7 @@ Nánari upplýsingar um Microsoft Dynamics 365 for Finance and Operations verkva
 
 ## <a name="known-issues"></a>Þekkt vandamál
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-for-apps-to-finance-and-operations"></a>Breytingar á samþættingarsniðmáti Core HR (Talent Common Data Service fyrir Apps til Finance and Operations)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>Breytingar á samþættingarsniðmáti Core HR (Talent Common Data Service til Finance and Operations)
 Sniðmátið fyrir Core HR hefur verið uppfært í „ítarlegt fyrirspurnarsniðmát“. Þess vegna verður ítarlega fyrirspurnin að sjálfgefnu í boði fyrir verk sem eru búin til með því að nota þetta sniðmát. Að auki mun öll sjálfgefin vörpunarvirkni vera eingöngu sýnileg í ritli ítarlegrar fyrirspurnar. (Sjálfgefin vörpunarvirkni kemur fram sem „FN“ í vörpunum.)
 
 Nánari upplýsingar um vörpunarvillur er að finna í [Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (14. desember 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
@@ -100,19 +100,19 @@ Til að uppfæra núverandi sniðmát skal fylgja eftirfarandi skrefum.
 
     - **Starf frá stöðu til stöðu:** Fjarlægja þessa vörpun.
     - **Yfireining starfsúthlutunar á starfi frá stöðu til stöðu:** Fjarlægja þessa vörpun.
-    - **Starfsstöður til grunnstöðu:** Bæta við nýrri vörpun úr **Starfsstöður** Common Data Service fyrir Apps-einingu til **Grunnstöðu** einingar Finance and Operations. Færðu það í stöðu 7 í röðinni.
+    - **Starfsstöður til grunnstöðu:** Bæta við nýrri vörpun úr **Starfsstöður** Common Data Service-einingu til **Grunnstöðu** einingar Finance and Operations. Færðu það í stöðu 7 í röðinni.
 
         [![Vörpun á starfsstöðum til grunnstöðu](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **Upplýsingar um starfsstöður til stöðu:** Bæta við nýrri vörpun úr **Starfsstöður** Common Data Service fyrir Apps-einingu til **Upplýsingar um stöðu** einingar Finance and Operations. Færðu það í stöðu 8 í röðinni.
+    - **Upplýsingar um starfsstöður til stöðu:** Bæta við nýrri vörpun úr **Starfsstöður** Common Data Service-einingu til **Upplýsingar um stöðu** einingar Finance and Operations. Færðu það í stöðu 8 í röðinni.
 
         [![Vörpun upplýsinga frá starfi til starfs](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **Tímalengdir á stöðu til stöðu:** Bæta við nýrri vörpun úr **Starfsstöður** Common Data Service fyrir Apps-einingu til **Tímalengdir stöðu** einingar Finance and Operations.
+    - **Tímalengdir á stöðu til stöðu:** Bæta við nýrri vörpun úr **Starfsstöður** Common Data Service-einingu til **Tímalengdir stöðu** einingar Finance and Operations.
 
         [![Vörpun tímalengda frá starfi til starfs](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **Starfsstigveldi á stöðum til stöðu:** Bæta við nýrri vörpun úr **Starfsstöður** Common Data Service fyrir Apps-einingu til **Stigveldi stöðu** einingar Finance and Operations. Veljið **Ítarlega fyrirspurn** til að gera ítarlega fyrirspurn tiltæka í verkinu.
+    - **Starfsstigveldi á stöðum til stöðu:** Bæta við nýrri vörpun úr **Starfsstöður** Common Data Service-einingu til **Stigveldi stöðu** einingar Finance and Operations. Veljið **Ítarlega fyrirspurn** til að gera ítarlega fyrirspurn tiltæka í verkinu.
 
        [![Hnappur ítarlegrar fyrirspurnar](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 

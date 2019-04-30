@@ -1,7 +1,7 @@
 ---
 title: Eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins
 description: Þetta efnisatriði gefur yfirlit yfir hvað gerist þegar eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins er bókuð. Þessar aðgerðir verður hætt að nota í síðari útgáfum Microsoft Microsoft Dynamics 365 for Finance and Operations, því ekki mælt með þessari aðferð við bókun vegna áhrifa bókhalds á vinnslu jöfnunar.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d27c4182703b4421763036b2a338b3598f9e969b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: acd0ca65685bc32f4601ad1e38d072f5ab79858d
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330357"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "897018"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Eitt fylgiskjal með margar færslur viðskiptavinar eða lánardrottins
 
@@ -160,7 +160,7 @@ Núna, þegar INV2 er greidd verður eftirfarandi færslu gerð. Athugið fjárh
 | 14000056    | 200110-001- | Staða lánardrottins     |                                          | -2.00                                   |
 
 ## <a name="one-voucher-for-balance-transfers-and-netting-scenarios"></a>Eitt fylgiskjal fyrir stöðufærslum og aðstæður greiðslujöfnunar
-Tvær aðstæður sem eru oft notaðar og nota eitt fylgiskjal sem inniheldur marga viðskiptavini eða lánardrottna innihalda stöðufærslur frá einn viðskiptavinur/lánardrottinn til annars viðskiptavinur/lánardrottinn og greiðslujöfnun viðskiptavinar og lánardrottna sem eru sama fyrirtæki. Eftirfarandi tvö dæmi lýsa æskileg aðferð til að færa þessar aðstæður inn í Dynamics 365 for Finance and Operations, í stað þess að færa þær inn í eitt fylgiskjal. 
+Tvær aðstæður sem eru oft notaðar og nota eitt fylgiskjal sem inniheldur marga viðskiptavini eða lánardrottna innihalda stöðufærslur frá einn viðskiptavinur/lánardrottinn til annars viðskiptavinur/lánardrottinn og greiðslujöfnun viðskiptavinar og lánardrottna sem eru sama fyrirtæki. Eftirfarandi tvö dæmi lýsa æskileg aðferð til að færa þessar aðstæður inn í Finance and Operations, í stað þess að færa þær inn í eitt fylgiskjal. 
 
 *Stöðufærsla* er eitt fylgiskjal með marga viðskiptavini fært inn til að flytja stöðu frá einum viðskiptavini á annan viðskiptavin (sama lánardrottna). Þessar aðstæður geta orðið þegar ábyrgð á að greiða reikninginn færist yfir á annar aðili, svo sem undirfyrirtæki sem færir ábyrgð í móðurfyrirtæki. 
 

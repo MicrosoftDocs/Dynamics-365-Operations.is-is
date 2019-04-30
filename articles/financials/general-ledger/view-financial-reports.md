@@ -3,7 +3,7 @@ title: Skoða fjárhagsskýrslur
 description: Þetta efnisatriði lýsir því hvernig eigi að skoða fjárhagsskýrslur í Microsoft Dynamics 365 for Finance and Operations. Það felur í sér upplýsingar um þá ýmsu valkosti sem hægt er að nota í fjárhagsskýrslum til að breyta útlit þeirra og gögn sem þeir hafa.
 author: kweekley
 manager: AnnBe
-ms.date: 02/11/2019
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ecdd2dd9d1eff0af358a458171ce151c9c14c71c
-ms.sourcegitcommit: 78bd8119b9fe967ba4d0adaacaf2d2227e567a91
+ms.openlocfilehash: 0ba92ab4f751758c4adf26885ebb7b2c5290ecac
+ms.sourcegitcommit: 1e8dfa62989dbd7601bafdc933558f6bea1638ae
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "791442"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "894589"
 ---
 # <a name="view-financial-reports"></a>Skoða fjárhagsskýrslur
 
@@ -46,12 +46,11 @@ Fjárhagsskýrslur getur innihaldið mörg stig upplýsinga. Fjárhagsleg stig e
 Ef gögnum er fjárhagsáætlunargögn er hægt að velja að opna lykilfærslur fjárhagsáætlunar. Til að loka einhverjum af stigum skýrslu og fara á byrjunarreit, geturðu annað hvort smellt á Esc-takka eða smella á **Loka** hnappinn (**X**) efri hægra megin.
 
 ## <a name="change-report-options"></a>Breyta valkostum skýrslu
-Hægt er að breyta dagsetningu skýrslunnar, nota síur fyrir vídd og eigind eða breyta fjárhagsáætlunaraðstæðum á **Raun eða fjárhagsáætlun** skýrslu. Á Aðgerðasvæðinu skal smellt á **Valkostir skýrslu**, og fylgið svo einn eða fleiri af eftirfarandi skrefum:
+Hægt er að nota síur fyrir vídd og eigind eða breyta fjárhagsáætlunaraðstæðum á **Raun eða fjárhagsáætlun** skýrslu. Á Aðgerðasvæðinu skal smellt á **Valkostir skýrslu**, og fylgið svo einn eða fleiri af eftirfarandi skrefum:
 
--   Til að Breyta grunntímabilið og grunnári skýrslu, veljið grunntímabil og grunnár, og smella síðan á **í lagi**.
 -   Til að nota síur fyrir eigind á skýrslu, veljið **bæta Við eigindarsíu**. Velja skal eigindina, færið inn eigindargildi og smellið **í lagi**. Til dæmis, ef þú velur **Lykiltegund** eigindinni skal færa inn **VSK** sem eigindargildi. Til að fjarlægja eigindarsíu er smellt á **Hreinsa**.
 -   Til að nota víddarafmörkun á skýrslu, veljið **Bæta við víddarsíu**. Velja víddina, og svo annað hvort færið inn víddarauðkenni eða velja víddina í lista. Til að fjarlægja víddarsíu er smellt á **Hreinsa**.
--   Til að breyta aðstæðunum á **Raun eða fjárhagsáætlun** skýrslu, veljið nýjar aðstæður og smellið **í lagi**. Ef valdar aðstæður eru fyrir annað ár gætið þess að uppfæra grunnár. Til dæmis, ef núverandi aðstæður eru FY2015 og þú velur nýjar aðstæður sem er fyrir FY2016, skal breyta grunnárið í **2016**.
+-   Til að breyta aðstæðunum á **Raun eða fjárhagsáætlun** skýrslu, veljið nýjar aðstæður og smellið **í lagi**. Ef valdar aðstæður eru fyrir annað fjárhagsár verður engum niðurstöðum skilað. Til dæmis, ef skýrsla er búin til fyrir FY2015 og núverandi atburðarás er fyrir FY2015 og nýja valda atburðarásin er fyrir FY2016 verður engum niðurstöðum skilað. Ef þörf er á nýrri atburðarás fyrir mismunandi fjárhagsár skaltu búa til nýja útgáfu af skýrslunni fyrir fjárhagssárið sem tengist atburðarásinni.
 
 Þegar smellt er á **í lagi**, eru alla valkosti sem valin var beitt á skýrslunni. Ef ákveðið er að ekki á að nota valda valkostir er smellt á **hætta Við**.
 

@@ -3,7 +3,7 @@ title: Úrvinnsla á framleiðsluþyngd afurðar með vöruhúsakerfi
 description: Þetta efnisatriði lýsir hvernig eigi að nota vinnusniðmát og staðsetningarleiðbeiningar til að ákvarða hvernig og hvar vinna verður framkvæmd í vöruhúsinu.
 author: perlynne
 manager: AnnBe
-ms.date: 03/05/2019
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ced22a144e57b624ceacb8bb5c3032218db3a0eb
-ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
+ms.openlocfilehash: d4082464dafebfcadd02425081f5f9b5716af01a
+ms.sourcegitcommit: 118cd383a327519a266dfe27720b12e9bbfbac14
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "777273"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "946434"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Úrvinnsla á framleiðsluþyngd afurðar með vöruhúsakerfi
 
@@ -97,7 +97,9 @@ Til dæmis er **Kassi** framleiðsluþyngdareiningin og þú tekur á móti vör
 
 Þegar rakning á merki fyrir framleiðsluþyngd er ekki notuð er hægt að sækja þyngdina fyrir hverja víddasamstæðu (til dæmis fyrir hverja númeraplötu og rakningarvídd). Að öðrum kosti er hægt að sækja þyngdina sem byggist á samanlögðu stigi, svo sem fimm númeraplötur (vörubretti).
 
-Fyrir aðferðir til að sækja þyngd á útleið er hægt að skilgreina hvort vigtun er gerð fyrir hverja framleiðsluþyngdareiningu (það er fyrir hvern kassa) eða hvort þyngdin sé tekin miðað við magnið sem verður tínt (t.d. þrír kassar). Athugaðu að fyrir tiltektarferli framleiðslulínu verður meðalþyngd notuð ef valkosturinn **Ekki sótt** er notaður.
+Fyrir aðferðir til að sækja þyngd á útleið er hægt að skilgreina hvort vigtun er gerð fyrir hverja framleiðsluþyngdareiningu (það er fyrir hvern kassa) eða hvort þyngdin sé tekin miðað við magnið sem verður tínt (t.d. þrír kassar). Athugaðu að fyrir tiltektarferli framleiðslulínu og innri hreyfingarferli verður meðalþyngd notuð ef valkosturinn **Ekki sótt** er notaður.
+
+Til að takmarka tiltektarferli vöruhúsakerfis frá því að sækja þyngdir sem leiða til leiðréttinga á hagnaði/tapi framleiðsluþyngdar, er hægt að nota aðferð þyngdarfráviks á útleið.
 
 ## <a name="supported-scenarios"></a>Studdar aðstæður
 
@@ -121,14 +123,12 @@ Ekki öll verkflæði styðja úrvinnslu á afurð í framleiðsluþyngd með v�
  
 ### <a name="order-processing"></a>Vinnsla pantana
 
-- Vinnsla samstæðusölupöntunar er ekki studd.
 - Stofnun á tilkynningu um sendingu (ASN/pakkaskipan) styður ekki þyngdarupplýsingar.
 - Vinna verður með pöntunarmagnið samkvæmt framleiðsluþyngdareiningunni.
  
 ### <a name="inbound-warehouse-processing"></a>Vöruhúsavinnsla á innleið
 
 - Móttaka á númeraplötum krefst þess að þyngdum sé úthlutað við skráningu, því að þyngdarupplýsingar eru ekki studdar sem hluti af tilkynningu um sendingu. Þegar merkjaferli fyrir framleiðsluþyngd er notuð verður merkjanúmerið að vera úthlutað handvirkt fyrir hverja þyngdareiningu. Móttaka á blönduðum númeraplötum er ekki studd fyrir afurðir í framleiðsluþyngd.
-- Móttaka blandaðra númeraplata er ekki studd fyrir afurðir með framleiðsluþyngd.
  
 ### <a name="inventory-and-warehouse-operations"></a>Aðgerðir birgða og vöruhúss
 
@@ -169,7 +169,6 @@ Ekki öll verkflæði styðja úrvinnslu á afurð í framleiðsluþyngd með v�
  
 ### <a name="other-restrictions-and-behaviors-for-catch-weight-product-processing-with-warehouse-management"></a>Aðrar takmarkanir og hegðun við vinnslu í vöruhúsakerfi á afurðum með framleiðsluþyngd
 
-- Þegar merki framleiðsluþyngdar eru sóttar sem hluti af vinnslu vöruhúsaforrits getur notandinn ekki hætt í verkflæðinu.
 - Í tiltektarferlum, þegar notandinn er ekki beðinn um að bera kennsl á rakningarvíddir, miðast þyngdarúthlutunin við meðalþyngd. Þessi hegðun kemur fram þegar til dæmis samsetning af rakningarvíddum er notuð í sömu staðsetningunni og, eftir að notandi vinnur úr tiltekt, er aðeins eitt rakningarvíddargildi eftir í staðsetningunni.
 - Þegar birgðir eru fráteknar fyrir afurð í framleiðsluþyngd sem er stillt fyrir vöruhúsakerfisferli, er frátektin gerð með hliðsjón af lágmarksþyngd sem er skilgreind, jafnvel þó að þetta magn sé síðasta afgreiðslumagnið á lager. Þessi hegðun er frábrugðin hegðun fyrir vörur sem eru ekki stilltar fyrir vöruhúsakerfisferli.
 - Ferli sem nota þyngdina sem hluta af útreikningi á afköstum (bylgjuþröskuldar, hámarkshlé vinnu, hámark af gámum, afkastagetu staðsetningar o.s.frv.) nota ekki raunþyngd birgðanna. Þess í stað eru ferlarnir byggðir á efnislegri meðhöndlunarþyngd sem er skilgreind fyrir afurðina.
@@ -193,3 +192,5 @@ Virkni fyrir merki framleiðsluþyngdar er aðeins studd eins og er sem hluti af
 - Þegar gámar eru enduropnaðir.
 - Þegar formúluafurðir eru skráðar sem búnar með því að nota vöruhúsaforritið.
 - Þegar unnið er úr flutningsförmum með því að nota vöruhúsaforritið.
+
+Merki framleiðsluþyngdar getur verið annaðhvort stofnað með því að nota ferli vöruhúsaforrits, stofnað handvirkt á skjámyndinni, eða stofnað með því að nota gagnaeiningarferli. Ef merki framleiðsluþyngdar er tengt við upprunaskjalslínu á innleið, t.d. innkaupapöntunarlínu, verður merkið skráð. Ef línan er notuð fyrir ferli á útleið. Merkið verður uppfært sem sent.

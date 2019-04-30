@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e6b490a696dc0a00c47e56f57373f330d0e53dde
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782905"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949806"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 for Talent (5. mars 2019)
 
@@ -35,7 +35,7 @@ ms.locfileid: "782905"
 
 ### <a name="extending-option-sets-in-attract"></a>Safn valkosta fyrir stækkunarhæfni í Attract
 
-Í Attract eru mörg svæði sem eru söfn valkosta innan Common Data Service (CDS). Nýir möguleikar hafa verið kynntir til að stækka söfn valkosta, fyrst ástæðureiturinn **Höfnun**, reiturinn **Starfsgerð** og reiturinn **Starfsaldursgerð**.
+Í Attract eru mörg svæði sem eru söfn valkosta innan Common Data Service. Nýir möguleikar hafa verið kynntir til að stækka söfn valkosta, fyrst ástæðureiturinn **Höfnun**, reiturinn **Starfsgerð** og reiturinn **Starfsaldursgerð**.
 
 > [!IMPORTANT]
 > Virknin fyrir auglýsingu starfs á LinkedIn krefst notkunar á reitunum **Starfsgerð** og **Starfsaldursgerð** á síðunni **Upplýsingar um starf**. Sjálfgefin gildi í þessum reitum eru studd af LinkedIn og birtast þegar starfið er auglýst. Ef þú auglýsir störf á LinkedIn og þú breytir núverandi gildum á safni valkosta fyrir þessi svæði, mun starfið samt birtast en LinkedIn mun ekki sýna sérstilltu gildin **Starfsgerð** og **Starfsaldursgerð**.
@@ -70,8 +70,8 @@ Með þessari breytingu, þegar beiðnir eru gerðar um breytingar á núverandi
 ### <a name="other-miscellaneous-bug-fixes"></a>Ýmsar aðrar villuleiðréttingar
 Aðrar minniháttar villuleiðréttingar eru með þessari útgáfu.
 
-### <a name="upgrade-to-cds-for-apps"></a>Uppfæra í CDS for Apps
-Tíminn til að uppfæra í CDS for Apps rennur bráðum út. Skráðu þig inn á stjórnandamiðstöð PowerApps til að ákvarða hvort þurfi að uppfæra gagnagrunninn þinn. Frekari upplýsingar um fresti og nauðsynlegar ráðstafanir til að uppfæra, sjá [Uppfæra í Common Data Service for Apps](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+### <a name="upgrade-to-common-data-service"></a>Uppfæra í Common Data Service
+Frestur til að uppfæra í Common Data Service rennur brátt út. Skráðu þig inn á stjórnandamiðstöð PowerApps til að ákvarða hvort þurfi að uppfæra gagnagrunninn þinn. Frekari upplýsingar um fresti og nauðsynlegar ráðstafanir til að uppfæra er að finna í [Uppfæra í Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Væntanlegt
 

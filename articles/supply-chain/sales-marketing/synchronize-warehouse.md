@@ -3,7 +3,7 @@ title: Samstilla vöruhús úr Finance and Operations við Field Service
 description: Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla vöruhús úr Microsoft Dynamics 365 for Finance and Operations við Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 34cd18a18715d12d4002e6dbeee047467ed2a5ad
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7e6d7626c00b9d7d98ce872652653c36ce7bc975
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340316"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842534"
 ---
 # <a name="synchronize-warehouses-from-finance-and-operations-to-field-service"></a>Samstilla vöruhús úr Finance and Operations við Field Service
 
@@ -38,7 +38,7 @@ ms.locfileid: "340316"
 Eftirfarandi sniðmát og undirliggjandi verk eru notuð til að keyra samstillingu vöruhúss milli Microsoft Dynamics 365 for Finance and Operations og Microsoft Dynamics 365 for Field Service.
 
 **Sniðmát í gagnasamþættingu**
-- Vöruhús (Finance and Operations til Field Service)
+- Vöruhús (Fin and Ops til Field Service)
 
 **Verkefni í verki gagnasamþættingar**
 - Vöruhús
@@ -76,6 +76,6 @@ Til að ganga skugga um að **Samþættingarlykill** sé til fyrir **msdyn_wareh
 
 Eftirfarandi mynd sýnir sniðmátsvörpunina í Gagnasamþættingu.
 
-### <a name="warehouses-finance-and-operations-to-field-service-warehouse"></a>Vöruhús (Finance and Operations til Field Service): Vöruhús
+### <a name="warehouses-fin-and-ops-to-field-service-warehouse"></a>Vöruhús (Fin and Ops til Field Service): Vöruhús
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/Warehouse1.png)](./media/Warehouse1.png)

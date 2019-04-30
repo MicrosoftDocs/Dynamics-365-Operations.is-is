@@ -1,64 +1,87 @@
 ---
-title: Attract-viðbótareiginleikar við alhliða ráðningar
-description: Í þessu efnisatriði er að finna upplýsingar um möguleikana í Microsoft Dynamics 365 for Talent-viðbótinni, Attract með alhliða ráðningar.
-author: ''
+title: Hvaða útgáfa af Attract
+description: Þetta efnisatriði veitir upplýsingar um möguleikana í mismunandi útgáfum af Microsoft Dynamics 365 for Talent - Attract.
+author: andreabichsel
 manager: AnnBe
-ms.date: 02/01/2019
+ms.date: 04/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 6adc2398d9ebcc655ad7ac7e0c949f44dc011013
-ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
+ms.openlocfilehash: b061233239fcaee768579cde9d1015ebbeaa66cb
+ms.sourcegitcommit: 1653d1e28d02f8a9a4bea8df562ac98d7a350ed1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "376437"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "993623"
 ---
-# <a name="attract-comprehensive-hiring-add-on-capabilities"></a>Attract-viðbótareiginleikar við alhliða ráðningar
+# <a name="which-version-of-attract"></a>Hvaða útgáfa af Attract?
 
 [!include[banner](../includes/banner.md)]
 
-Mismunandi fyrirtæki meta mismunandi virknistillingar innan Attract. Þar af leiðandi eru tvö „stig“ af Attract-vörunni. Það er til Attract-vara sem hentar minni hópum eða fyrirtækjum þar sem ráðningaraðilinn er aðalnotandinn í ráðningarferlinu. Það er einnig til viðbót alhliða ráðningar sem hægt er að bæta við Attract-vöruna, gegn aukakostnaði, sem hentar miðlungsstórum eða stórum hópum eða fyrirtækjum þar sem ráðningaraðilinn eða Talent-sérfræðingurinn er aðalnotandinn í ráðningarferlinu.
-Nánari upplýsingar um verðalagningu og leyfi er að finna í nýjustu [Leyfishandbókinni](https://mbs.microsoft.com/Files/public/365/Dynamics365LicensingGuide.pdf).
+Útgáfan af Microsoft Dynamics 365 for Talent: Attract sem hentar þér fer eftir stærð og þörfum fyrirtækisins þíns. Grunnútgáfan af Attract veitir undirflokk af virkni sem miðast við smærri hópa og fyrirtæki þar sem ráðningarstjórinn er helsti notandinn. Þú getur byrjað að nota grunnútgáfuna af Attract með einu eða fleiri leyfum.
 
-Ókeypis prufuútgáfur af Attract fela sjálfkrafa í sér viðbót alhliða ráðningar fyrir tímabil prufuútgáfunnar. Ef þörf er á viðbót alhliða ráðningar fyrir þarfir fyrirtækisins skal hafa upp á [staðbundnum Dynamics 365 for Talent samstarfsaðila](https://dynamics.microsoft.com/partners/find-a-partner/) til að fá aðstoð við að uppfylla þarfirnar.
+Attract með viðbót alhliða ráðningar miðast við miðlungsstóra og stóra hópa eða fyrirtæki þar sem ráðningaraðilinn eða Talent-sérfræðingur eru helstu notendur. Viðbót alhliða ráðningar krefst þess að leyfi séu keypt í gegnum [Microsoft Dynamics 365 samstarfsaðila](https://dynamics.microsoft.com/partners/find-a-partner/).
 
-## <a name="capability-details"></a>Upplýsingar um getu
+> [!NOTE]
+> Attract-prufuútgáfan sýnir Attract með viðbót alhliða ráðningar. Þessi viðbót býður upp á möguleika alhliða ráðningar, t.d. getuna til að auglýsa störf á Attract-ferilssíðu eða utanaðkomandi ráðningarsíðu á borð við LinkedIn. Ef þú velur grunnútgáfu Attract inniheldur áskriftin þín undirflokk af mörguleikum sem er boðið upp á í prufuútgáfunni.
 
-Eftirfarandi yfirlit sýnir getu Attract þvert yfir Attract og Attract með viðbót alhliða ráðningar.
+Nánari upplýsingar um verðlagningu og leyfi er að finna í [Microsoft Dynamics 365 Leyfishandbók](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-| **Geta**                                           | **Laða að**         | **Attract með alhliða ráðningu** |
-|----------------------------------------------------------|---------------------|---------------------------------------|
-| **Notendahópur / Aðal**  **Einstaklingur**                      | **Starfsmannastjórar** | **Ráðningaraðilar/Talent-sérfræðingar**    |
-| Stjórnun starfsbeiðni                                | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Skilgreining á ráðningarferli starfsstigs                    | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Umsækjandi búinn til og prófílstjórnun                  | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Snjalltímaáætlun viðtals                         | :heavy_check_mark:  | :heavy_check_mark:                    |
-| Uppsetning á hæfileikasafni eins einstaklings                        | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Öryggis- og hlutverkastjórnun                              | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Einfalt yfirlit                                          | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Aðgangur umsækjanda að einstaklingsupplýsingum umsóknar        | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Samþykktarflæði starfsbeiðni                             |                     | :heavy_check_mark:                    |
-| Stjórnun sniðmáts fyrir ráðningarferli á fyrirtækisstigi    |                     | :heavy_check_mark:                    |
-| Birting starfs á starfsframasvæði Attract                       |                     | :heavy_check_mark:                    |
-| Umsókn umsækjanda flæðir í gegnum starfsframasvæði Attract   |                      | :heavy_check_mark:                    |
-| Aðgangur umsækjanda að heildarferli prófíls og umsóknar |                     | :heavy_check_mark:                    |
-| LinkedIn Recruiter-tenging<sup>1</sup>                |                     | :heavy_check_mark:                    |
-| Offer Management                                         |                     | :heavy_check_mark:                    |
-| Uppsetning á samnýttu og alhliða hæfileikasafni                     |                     | :heavy_check_mark:                    |
-| Stjórnun á sniðmáti tölvupósts                                |                     | :heavy_check_mark:                    |
-| Tillögur um umsækjanda og starf                        |                     | :heavy_check_mark:                    |
+## <a name="feature-comparison"></a>Samanburður á eiginleikum
 
+| Geta | Laða að | Viðbót við alhliða ráðningar |
+| ---------- | :-----------: | :-------------------: |
+| Einfalt yfirlit | :heavy_check_mark: | :heavy_check_mark: |
+| Umsjón með öryggi og hlutverkum | :heavy_check_mark: | :heavy_check_mark: |
+| Umsjón með starfsbeiðnum | :heavy_check_mark: | :heavy_check_mark: |
+| Búa til ráðningarferli á starfsstigi | :heavy_check_mark: | :heavy_check_mark: |
+| Búa til umsækjendur og stjórna prófílum | :heavy_check_mark: | :heavy_check_mark: |
+| Búa til eitt hæfileikasafn | :heavy_check_mark: | :heavy_check_mark: |
+| Setja viðtöl á áætlun | :heavy_check_mark: | :heavy_check_mark: |
+| Veita umsækjanda aðgang að upplýsingum umsóknar | :heavy_check_mark: | :heavy_check_mark: |
+| Búa til samþykktarverkflæði fyrir starfsbeiðnir | | :heavy_check_mark: |
+| Stjórna ráðningarferlum á fyrirtækisstigi | | :heavy_check_mark: |
+| Auglýsa störf í Attract og utanaðkomandi ráðningarsíðum | | :heavy_check_mark: |
+| Búa til umsóknarverkflæði umsækjanda í gegnum starfsferilssíðu Attract | | :heavy_check_mark: |
+| Veita umsækjanda aðgang að heildarprófíl og umsóknarferli | | :heavy_check_mark: |
+| Tengjast við LinkedIn Recruiter<br></br>Þessi möguleiki krefst LinkedIn Recruiter-leyfis, sem verður að vera <br></br> keypt sérstaklega í gegnum LinkedIn.</blockquote> | | :heavy_check_mark: |
+| Umsjón með tilboðum | | :heavy_check_mark: |
+| Búa til samnýtt og altæk hæfileikasöfn | | :heavy_check_mark: |
+| Haga sniðmáti fyrir tölvupóst | | :heavy_check_mark: |
+| Veita tillögur um umsækjanda og starf | | :heavy_check_mark: |
 
-<sup>1</sup>LinkedIn leyfi ráðningaraðila, sem verður að kaupa sérstaklega í gegnum LinkedIn, eru forsendur fyrir þennan eiginleika.
+## <a name="find-out-which-version-of-attract-you-have"></a>Finna út hvaða útgáfu af Attract verið er að nota
+
+1. Í Attract, veldu spurningarmerki (**?**) efst í hægra horninu á síðunni.
+2. Velja **Um**.
+
+    Glugginn sem birtist sýnir hvaða tegund leyfis þú ert með fyrir Attract.
+
+    ![Skoða gerð á leyfi Attract](media/attract-license-types.png)
+
+## <a name="frequently-asked-questions"></a>Algengar spurningar
+
+### <a name="why-dont-i-see-all-the-features-that-were-included-in-the-attract-trial"></a>Af hverju sjást ekki allir eiginleikar sem voru til staðar í prufuútgáfu Attract?
+
+Það geta verið nokkrar ástæður fyrir því af hverju þú sérð ekki alla eiginleikana sem voru hluti af prufuútgáfu Attract:
+
+- Attract-prufuútgáfan sýnir Attract með viðbót alhliða ráðningar, og þú ert nú með grunnútgáfu Attract. Grunnútgáfan af Attract inniheldur undirflokk eiginleika sem miðast við ráðningarstjóra í litlum hópum eða fyrirtækjum.
+- Þú ert með viðbót alhliða ráðningar, þú hefur ekki fengið úthlutað réttum hlutverkum til að nota alla eiginleikana. Nánari upplýsingar er að finna í [Öryggi og hlutverkastjórnun í Attract](security-attract.md).
+
+### <a name="why-dont-i-see-all-the-attract-features-that-my-coworker-sees"></a>Af hverju sé ég ekki alla eiginleika Attract sem samstarfsfélagi minn sér?
+
+Það geta verið nokkrar ástæður fyrir því af hverju þú sérð ekki alla eiginleikana sem samstarfsfélagi þinn sér:
+
+- Samstarfsfélagi þinn er að vinna í prufuútgáfu eða leyfi fyrir Attract með viðbóta alhliða ráðningar, á meðan þú ert að vinna í grunnútgáfu Attract.
+- Þú ert með viðbót alhliða ráðningar, þú hefur ekki fengið úthlutað réttum hlutverkum til að nota alla eiginleikana. Nánari upplýsingar er að finna í [Öryggi og hlutverkastjórnun í Attract](security-attract.md).

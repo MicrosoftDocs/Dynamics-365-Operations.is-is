@@ -1,29 +1,29 @@
 ---
 title: Velja umsækjendur með því að nota hæfileikasafn
 description: Þetta efni útskýrir hvernig á að búa til og setja upp hæfileikasöfn í Attract.
-author: ''
+author: andreabichsel
 manager: AnnBe
-ms.date: 10/22/2018
+ms.date: 04/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 13b5e3091a4bcdbf1bfbe077ffb04ec8d08a0911
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304833"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949345"
 ---
 # <a name="source-candidates-by-using-talent-pools"></a>Velja umsækjendur með því að nota hæfileikasafn
 
@@ -34,7 +34,7 @@ Ráðningaraðilar og mannauðsstjórar geta skipulagt umsækjendur þeirra með
 
 ## <a name="create-and-share-a-talent-pool"></a>Búðu til og miðla hæfileikasafni
 
-Allir notendur sem þjóna ráðningaraðila, mannauðsstjóra eða stjórnanda Attract hlutverki geta búið til hæfileikasöfn. Eigandi hæfileikasafnsins getur einnig deilt safninu með öðrum notendum þannig að hópar notenda, einkum ráðningaraðilar, geti skoðað sameiginlegt safn umsækjenda.
+Allir notendur sem eru með hlutverk sem ráðningaraðili, mannauðsstjóri eða stjórnandi Attract geta búið til hæfileikasöfn. Eigandi hæfileikasafnsins getur einnig deilt safninu með öðrum notendum þannig að hópar notenda, einkum ráðningaraðilar, geti skoðað sameiginlegt safn umsækjenda.
 
 Þátttakendur í hæfileikasafni geta skoðað lista yfir umsækjendur í því safni. Þeir geta einnig bætt við umsækjendum í safnið eða fjarlægt umsækjendur úr því.
 
@@ -44,7 +44,7 @@ Fylgdu leiðbeiningunum hér að neðan til að búa til og deila hæfileikasafn
 
     **Hæfileikasöfnin mín** flipann sýnir öll hæfileikasöfnin sem þú hefur aðgang að, með upplýsingum um hvert. Upplýsingar eru eigandi safnsins og fjöldi umsækenda í því.
 
-1. Efst til hægri, veldu **+ Nýtt** til að opna **Búa til hæfileikasafn** svargluggann.
+1. Efst til hægri á síðunni skal velja **Nýtt** til að opna **Búa til hæfileikasafn** svargluggann.
 1. Sláðu inn einkvæma heitið fyrir hæfileikasafnið.
 1. Til að bæta við fólki sem þátttakendur í safnið, finndu nöfnin með því að nota fólksvalið og þá bæta þeim við listann. Þú getur aðeins deilt hæfileikasafni með notendum sem hafa ráðningaraðila, mannauðsstjóra eða Attract-stjórnandi hlutverk.
 1. Veldu **Bæta við** til að búa til hæfileikasafnið.
@@ -78,26 +78,35 @@ Eigandinn og þátttakendur í hæfileikasafninu geta bætt umsækjendum við h�
 
 ## <a name="search-and-view-candidate-profiles"></a>Leita og skoða forstillingar umsækjenda
 
-Notendur hæfileikasafnsins geta skoðað forstillingar umsækjanda, LinkedIn upplýsingar, tengd skjöl eða allan umsóknarferil umsækjanda. Þú getur einnig leitað í öllum umsækjendagagnagrunninum þínum að hvaða umsækjanda sem hefur einhvern tíma sótt um starf í fyrirtækinu þínu, eða sem hefur einhvern tíma verið bætt við hvaða hæfileikasafn sem er.
+> [!NOTE] 
+> Þessi eiginleiki er í forútgáfu sem stendur. Ef þú vilt prófa hann verður þú að [kveikja á honum í stjórnandastillingum Attract](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
 
-1. Notaðu leitarreitinn efst á **Hæfileikasöfnin mín** flipanum til að leita í öllum umsækjendagagnagrunninum þínum.
-1. Leita meðal ýmissa forstillingaeiginleika. Veldu eiginleikaflokk, byggðu leitarfyrirspurn og veldu síðan hægri örvahnappinn (**-\>**) til að keyra leitina.
+Hæfileikasöfn gera þér kleift að skoða forstillingar umsækjanda, LinkedIn-upplýsingar, tengd gögn og umsóknarferil. Þú getur leitað í öllum gagnagrunni allra umsækjenda sem er bætt við hæfileikasafn, þ.á.m. lokaða og virka umsækjendur.
 
-    Þú getur leitað að umsækjendur með nafni þeirra, fyrirtækinu þeir vinna fyrir, færni sem þau hafa verið merkt fyrir, menntunarferli, núverandi starfsheiti þeirra eða gráðu sem þau hafa náð, ef þessar upplýsingar eru tiltækar í forstillingum þeirra.
+>[!NOTE]
+> Þegar nýjum umsækjendum er bætt við geta nýju viðbæturnar tekið allt að 15 mínútur þar til þeir koma upp í leit.
 
-    Þú getur líka búið til leitarfyrirspurn sem notar tvö eða fleiri af þessum eiginleikum sem viðmiðanir. Sameina viðmiðin með því að nota **og** virknitákn.
+Með endurbættri leit er hægt að leita í gegnum öll gögn umsækjanda og sía eftir þeim sem eru í öðru sæti, uppruna, hæfileikum, menntun og fleira. Í fyrri útgáfum þurfti að tilgreina hvaða einingu þú vildir leita í gegnum. Attract getur leitað að öllum reitum sem tengjast umsækjanda og raðað niðurstöðunum.
 
-    Ef einhver umsækjendur passa við leitarfyrirspurnina þína, þá birtast þeir í leitarniðurstöðunum.
+1. Til að hefja nýja leit í gegnum gagnagrunn umsækjanda skal færa inn textann sem þú vilt leita að í leitarreitinn í flipanum **Hæfileikasöfn**. 
 
-1. Til að þrengja niðurstöður þínar geturðu uppfært leitarfyrirspurnina með því að nota leitarreitinn efst.
+Þú getur fært inn nafn umsækjanda eða þá eiginleika sem þú leitar að. Til að aðskilja eiginleika skaltu nota bil.
 
-    Einnig er hægt að nota lista yfir snjallsíur hægra megin. Þessar snjallsíur eru dregnar inn á gagnvirkan hátt á grundvelli leitarniðurstaðna.
+Þú getur þrengt niðurstöðurnar annaðhvort með því að breyta leitarfyrirspurn þinni eða nota snjallsíurnar vinstra megin á síðunni.
 
-    Leitarniðurstöðurnar sýna efstu 20 hæfileika, skóla, fyrirtæki, og svo framvegis, sem oftast er að finna í lista yfir umsækjendur. Þú getur bætt við fleiri síum fyrir eitthvað af þessum eiginleikum til að þrengja leitarniðurstöðurnar enn meira.
+Leitarniðurstöðurnar sýna aðalatriði fyrir hina ýmsu eiginleika sem samsvöruðu leitarfyrirspurn þinni. Veldu einhvern umsækjanda sem þig langar til að skoða prófílinn hjá.
 
-1. Eftir að þú hefur auðkennt umsækjanda skaltu velja röðina fyrir þann umsækjanda til að skoða forstillingar hans.
+### <a name="syntax-highlights"></a>Skipan aðalatriða 
 
-Allir notendur hafa sameiginlegt yfirlit yfir forstillingar umsækjenda. Veldu röðina fyrir umsækjanda í setti af leitarniðurstöðum eða hæfileikasafni til að skoða forstillingar hans. Flipinn **Forstilling** sýnir allar upplýsingar um hæfni, starfsreynslu og menntun sem umsækjandi hefur uppfært frá starfsgáttinni.
+| Notandi | Notkun                                                      | Dæmi              |
+|----------|------------------------------------------------------------|----------------------|
+| \*       | Leitar að undirstrengjum; er hægt að nota til að skila öllum færslum | Innsláttur: Mi\* <br></br> Niðurstaða: Allar færslur sem innihalda reiti sem byrja á „Mi“, t.d. Microsoft, Mico systems, Midtown Enterprises eða Middleton <br></br>Innsláttur: \* <br></br> Niðurstaða: Allar færslur í gagnagrunni |
+| “”       | Leitar að nákvæmri samsvörun                                | Innsláttur: „Microsoft“ <br></br> Niðurstaða: Allar skrár sem innihalda „Microsoft“                    |
+
+>[!WARNING]
+> Ekki slökkva á leitarsamsvörun fyrir Common Data Service-tilvikið þitt. Þetta mun slökkva á leitinni í Attract.
+
+Allir notendur hafa sameiginlegt yfirlit yfir forstillingar umsækjenda. Flipinn **Forstilling** sýnir allar upplýsingar um hæfni, starfsreynslu og menntun sem umsækjandi lét í té sem hluta umsókn sinni með því að nota starfsgáttina.
 
 - Þú getur skoðað tengiliðaupplýsingar fyrir umsækjandann. Þú getur einnig breytt eða uppfært upplýsingarnar eftir þörfum með því að nota **Breyta upplýsingum** hnappinn.
 
@@ -109,7 +118,7 @@ Allir notendur hafa sameiginlegt yfirlit yfir forstillingar umsækjenda. Veldu r
 
     Til að skoða skjal skaltu velja heiti skjalsins í listanum yfir skjöl. Þú getur skoðað Microsoft Word skjöl í forritinu með því að nota Microsoft Office 365. Þú getur einnig sótt skjölin á tölvuna þína með því að nota valkostinn **Sækja** fyrir hvert skjal.
 
-- **LinkedIn** flipinn sýnir LinkedIn upplýsingar umsækjanda. Til að nota þennan flipa verður þú að tengja LinkedIn reikninginn þinn í notendastillingunum og tenging LinkedIn ráðningaraðila umhverfisins verður að koma á fót. Fyrir frekari upplýsingar, sjá [Fundið með LinkedIn ráðningaraðila](./attract-linked-in-recruiter.md).
+- **LinkedIn** flipinn sýnir LinkedIn upplýsingar umsækjanda. Til að nota þennan flipa verður þú að tengja LinkedIn-reikninginn þinn í notendastillingunum og setja verður á tengingu LinkedIn Recruiter umhverfisins. Frekari upplýsingar er að finna í [Fundið með LinkedIn Recruiter](./attract-linked-in-recruiter.md).
 
 ## <a name="add-candidates-from-a-talent-pool-to-a-job"></a>Bættu við umsækjendum frá hæfileikasafni við starf
 
@@ -117,7 +126,7 @@ Frá leitarniðurstöðum eða hæfileikasafninu geturðu ýtt umsækjanda á hv
 
 1. Finndu umsækjandann með því að nota leitarvalkostinn og opnaðu síðan forstillingar hans. Einnig er hægt að opna hæfileikasafnið frá **Hæfileikasöfnin mín** flipanum, leita að umsækjanda í hæfileikasafninu og opna síðan forstillingar hans.
 
-1. Á notendasíðu umsækjanda, veldu **+ Bæta við starf** efst til hægri. 
+1. Á notandasíðu umsækjanda skal velja **Bæta við starf** efst til hægri. 
      
      Listi yfir störf sem tilheyra þér í ráðningarhópnum, sem annaðhvort ráðningaraðili eða mannauðsstjóri, er sýndur.
 

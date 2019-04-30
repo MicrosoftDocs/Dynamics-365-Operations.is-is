@@ -1,7 +1,7 @@
 ---
-title: Fundið með LinkedIn ráðningaraðila
+title: Fundið með LinkedIn Recruiter
 description: Þetta efnisatriði veitir upplýsingar um að vélnám til að fá ráðleggingar um störf og umsækjendur.
-author: josaw
+author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
@@ -10,29 +10,29 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: josaw
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4ac7a302e5bf589beb2b560b0ff5818e90c67139
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304791"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859575"
 ---
-# <a name="sourcing-with-linkedin-recruiter"></a>Fundið með LinkedIn ráðningaraðila
+# <a name="sourcing-with-linkedin-recruiter"></a>Fundið með LinkedIn Recruiter
 [!include[banner](../includes/banner.md)]
 
-LinkedIn er stærsti gagnagrunnur umsækjenda í heimiog oft aðalkerfið sem ráðningaraðilar nota til að finna, hafa samskipti við og finna umsækjendur fyrir þau störf sem ráðningaraðilar vilja ráða í. LinkedIn Recruiter samþætting með Dynamics 365 for Talent: Attract gerir það auðveldara fyrir notendur að ráða og að halda gögnunum í samstillingu milli kerfa tveggja.
+LinkedIn er stærsti gagnagrunnur umsækjenda í heimiog oft aðalkerfið sem ráðningaraðilar nota til að finna, hafa samskipti við og finna umsækjendur fyrir þau störf sem ráðningaraðilar vilja ráða í. LinkedIn Recruiter samþætting með Dynamics 365 for Talent: Attract gerir það auðveldara fyrir notendur að ráða og að halda gögnunum í samstillingu milli kerfanna tveggja.
 
 > [!NOTE]
-> Þú þarft Viðbót við alhliða ráðningar og LinkedIn Recruiter sæti til að geta notað LinkedIn Recruiter samþættingu með Attract.
+> Þú þarft viðbót við alhliða ráðningar og LinkedIn Recruiter sæti til að geta notað LinkedIn Recruiter samþættingu við Attract.
 
 ## <a name="set-up-linkedin-recruiter-with-attract"></a>Setja upp LinkedIn Recruiter með Attract 
 
@@ -68,15 +68,15 @@ Attract-kerfið verður skráð með nokkrum valkostum sem hægt er að kveikja 
 
 10. Kveiktu á viðkomandi aðgangsstigi frá LinkedIn Recruiter **Admin-ATS** stillingunum.
 
-[![Kveikja á Attract-samþættingu frá LinkedIn Recruiter yfirliti stjórnanda](./media/EnableRSC.png)](./media/EnableRSC.png)
+[![Kveikja á Attract-samþættingu úr LinkedIn Recruiter yfirliti stjórnanda](./media/EnableRSC.png)](./media/EnableRSC.png)
 
 12. Farðu aftur í stjórnandastillingar Attract sem AttractAdmin og veldu **LinkedIn-samþættingu** flipann. Þú ættir nú að sjá LinkedIn græjurálagið sem sýnir **Virkt** með valið aðgangsstig kveikt.
 
-[![LinkedIn Recruiter-samþættingu lokið](./media/RSCSetupComplete.png)](./media/RSCSetupComplete.png)
+[![LinkedIn Recruiter samþættingu lokið](./media/RSCSetupComplete.png)](./media/RSCSetupComplete.png)
 
-## <a name="using-linkedin-recruiter-capabilities"></a>Notkun LinkedIn Recruiter eiginleika
+## <a name="using-linkedin-recruiter-capabilities"></a>Notkun á LinkedIn Recruiter möguleikum
 
-Eftir að LinkedIn Recruiter eiginleiki hefur verið virkjaður af Attract-stjórnanda er hann opinn fyrir aðgang af mannauðsstjórum og umsækjendum. Til að nota þessa eiginleika skaltu tengja LinkedIn reikninginn þinn fyrir neðan **Notandastillingar**. Nokkrir eiginleikar verða tiltækir eftir að bæði stjórnanda- og notendastillingar hafa verið tengdir.
+Eftir að LinkedIn Recruiter möguleikar hafa verið virkjaðir af Attract-stjórnanda hafa ráðningarstjórar og ráðningaraðilar aðgang að þeim. Til að nota þessa eiginleika skaltu tengja LinkedIn reikninginn þinn fyrir neðan **Notandastillingar**. Nokkrir eiginleikar verða tiltækir eftir að bæði stjórnanda- og notendastillingar hafa verið tengdir.
 
 ### <a name="in-ats-profile-widget"></a>In-ATS forstillingargræjan
 
@@ -107,7 +107,7 @@ Til að skoða forstillingu skaltu fara á forstillingar umsækjanda annaðhvort
 
 ### <a name="in-ats-indicator"></a>In-ATS vísir 
 
-Með því að nota LinkedIn recruiter getur þú fylgst með því hvort umsækjandi hafi sótt um önnur störf í fyrirtækinu þínu, skoðað hvar hann er á mismunandi stigum starfsumsókna og skoðað endurgjöf og athugasemdir frá Attract í LinkedIn Recruiter.
+Með því að nota LinkedIn recruiter getur þú fylgst með því hvort umsækjandi hafi sótt um önnur störf í fyrirtækinu þínu, skoðað hvar hann er á mismunandi stigum starfsumsókna og skoðað endurgjöf og athugasemdir úr Attract í LinkedIn Recruiter.
 
 1.  Opnaðu LinkedIn Recruiter og finndu forstillingar umsækjandans sem þú leitar að.
 
@@ -126,7 +126,7 @@ Með því að nota LinkedIn recruiter getur þú fylgst með því hvort umsæk
 
 ### <a name="inmail-history"></a>InMail saga
 
-LinkedIn InMail ferill er fáanlegur með aðgangi að samningi við LinkedIn Recruiter. Þegar það er virkt er hægt að skoða allan InMail-ferilinn þinn með umsækjanda. Þú getur líka séð hverjir aðrir í fyrirtækinu hafa skipst á InMail með umsækjanda, en þú getur ekki skoðað skilaboðin á milli þeirra.
+LinkedIn InMail-ferillinn er fáanlegur með aðgangi að samningi við LinkedIn Recruiter. Þegar það er virkt er hægt að skoða allan InMail-ferilinn þinn með umsækjanda. Þú getur líka séð hverjir aðrir í fyrirtækinu hafa skipst á InMail með umsækjanda, en þú getur ekki skoðað skilaboðin á milli þeirra.
 
 Til að skoða InMail ferilinn skaltu fara í forstillingar umsækjanda, fara á **LinkedIn** flipann og fletta að neðst á síðunni til að skoða ferilinn. Hægt er að skoða InMail feril ef þú hefur átt í umræðum við umsækjandann. Skilaboðin frá InMail verða samstillt við Attract á nokkurra klukkutíma fresti.
 
@@ -138,6 +138,6 @@ Til að skoða athugasemdaferilinn skaltu fara í forstillingar umsækjanda, far
 
 ### <a name="inmail-stub-profile"></a>InMail stutt forstilling
 
-InMail stutt forstilling er fáanlegur með aðgangi að samningi við LinkedIn Recruiter. Ef umsækjendur samþykkja að deila LinkedIn forstillingum sínum með einhverjum notanda í fyrirtækinu þínu, getur þú fylgst með umsækjendum í Attract og ný umsækjendafærsla verður búin til fyrir hvern umsækjanda. Hægt er að skoða netfang umsækjanda ef hann er þegar til staðar í kerfinu með netfang eða hann hefur kosið að deila netfanginu með ráðningaraðilanum.
+InMail Stutt forstilling er fáanleg með aðgangi að samningi við LinkedIn Recruiter. Ef umsækjendur samþykkja að deila LinkedIn forstillingum sínum með einhverjum notanda í fyrirtækinu þínu, getur þú fylgst með umsækjendum í Attract og ný umsækjendafærsla verður búin til fyrir hvern umsækjanda. Hægt er að skoða netfang umsækjanda ef hann er þegar til staðar í kerfinu með netfang eða hann hefur kosið að deila netfanginu með ráðningaraðilanum.
 
 Til að skoða lista yfir umsækjendur farðu í **Hæfileikasöfn** til að sjá LinkedIn hæfileikasafn búið til af kerfinu. Þessi hæfileikasafn inniheldur lista yfir umsækjendur og stutta forstillingu þeirra sem var fengin frá LinkedIn, sem sýnir umsækjanda fornafn og eftirnafn. Tölvupóstkenni umsækjandans verður birt ef umsækjandi hafði valið að deila netfanginu sínu.

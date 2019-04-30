@@ -1,30 +1,30 @@
 ---
 title: Búðu til, samþykkja og auglýsa störf í Attract
 description: Þetta umræðuefni lýsir grunnatriðum starfa í Attract. Það útskýrir einnig hvernig á að búa til starf.
-author: josaw
+author: hasrivas
 manager: AnnBe
-ms.date: 02/26/2019
+ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: josaw
+ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2f7e0ec7d33579f213909ff9ad911d26800c2b76
-ms.sourcegitcommit: ceef0ee77ffc245e57637e2ea84e1a71a214b3d7
+ms.openlocfilehash: 1e76572c1a843fe7abd515333d5b7cb03b91eb11
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "772812"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "969350"
 ---
 # <a name="create-approve-and-post-jobs-in-attract"></a>Búðu til, samþykkja og auglýsa störf í Attract
 
@@ -44,7 +44,7 @@ Starf í Attract hefur upplýsingar um starfið, ráðningarteymi, ráðningarfe
 
 Sjálfgefið er að **Fjöldi lausra starfa** reiturinn sé stilltur á **1**. Þó er hægt að breyta gildinu. Þegar tilboð hefur verið undirbúið fyrir starf, er gildi **Fjöldi lausra starfa í boði** reitsins minnkað.
 
-Ef stöðustjórnun er kveikt í stjórnendamiðstöðinni er **Uppfæra stöður** leitin tiltæk. Þessi leit les JobPosition eininguna í Common Data Service for Apps og skilar lista yfir stöður sem hægt er að velja fyrir starfið. Ef fjöldi staða sem þú velur fer yfir fjölda lausra staða berst þér viðvörun. Þér berst einnig viðvörun ef staða er notuð fyrir mörg störf.
+Ef stöðustjórnun er kveikt í stjórnendamiðstöðinni er **Uppfæra stöður** leitin tiltæk. Þessi leit les JobPosition eininguna í Common Data Service og skilar lista yfir stöður sem hægt er að velja fyrir starfið. Ef fjöldi staða sem þú velur fer yfir fjölda lausra staða berst þér viðvörun. Þér berst einnig viðvörun ef staða er notuð fyrir mörg störf.
 
 > [!NOTE]
 > Stöðustjórnun er í boði með Viðbót við alhliða ráðningar.
@@ -74,9 +74,7 @@ Nánari upplýsingar um aðgerð sem hægt er að bæta við ráðningarferlið 
 
 ## <a name="postings"></a>Bókanir
 
-Eftir að starf er virkjað er hægt að auglýsa það laust. Aðeins ráðningaraðilar og stjórnendur geta auglýst laus störf. Starfið getur annaðhvort verið auglýst á Talent Careers (Microsoft Dynamics 365 for Talent starfsframasvæðinu) eða LinkedIn. 
-
-Attract-teymið vinnur stöðugt í samstarfi við samantektaraðila starfatorga. Þessi listi stækkar með tímanum.
+Eftir að starf er virkjað er hægt að auglýsa það laust. Aðeins ráðningaraðilar og stjórnendur geta auglýst laus störf. Starfið getur annaðhvort verið auglýst á Talent Careers (Microsoft Dynamics 365 for Talent starfsframasvæðinu) eða LinkedIn. Attract-teymið vinnur stöðugt í samstarfi við samantektaraðila starfatorga. Þessi listi stækkar með tímanum. Þegar starf er auglýst sem eingöngu innan fyrirtækis þurfa umsækjendur AAD-reikning til að skoða og sækja um starfið. Ef starfið er auglýst opinberlega geta umsækjendur skoðað og sótt um störf með því að nota alla valkosti sannvottunar. 
 
 Nánari upplýsingar um auglýsingar á störfum er að finna í [Virkni starfatorga í Attract](career-site.md).
 
@@ -137,9 +135,14 @@ Eftir að starf er vistað getur það verið lögð fyrir samþykki. Eftirfaran
 
 Á starfalistanum er hægt að sía stöðu á störfum.
 
-Samþykki geta verið sendar til Microsoft Azure Active Directory (Azure AD) notandans í fyrirtækinu. Samþykkti eru send samhliða öllum þeim sem eru skráðir sem samþykktaraðilar. Eftir að starf hefur verið samþykkt getur það verið virkjað.
+Samþykki geta verið sendar til Microsoft Azure Active Directory (Azure AD) notandans í fyrirtækinu. Samþykkti eru send samhliða öllum þeim sem eru skráðir sem samþykktaraðilar. Allir samþykktaraðilar verða að samþykka starfið áður en það er sent áfram. Ef einn samþykktaraðili hafnar starfinu birtist staðan **Hafnað** fyrir starfið. Eftir að starf hefur verið samþykkt getur það verið virkjað.
 
-Fólkið sem skráð er sem samþykktaraðilar mun fá tilkynningu í Attract til að tilkynna þeim að þeir hafi atriði til að samþykkja. Samþykkt atriði mun einnig birtast í **Úthlutað þér** kafla á yfirlitinu. Eftir að einhver hefur samþykkt eða samþykkir starf, mun ráðningarteymið fá tilkynningu. Að lokum mun ráðningarteymið fá tilkynningu þegar starf er samþykkt.
+Ef notandi breytir starfinu eftir að það er samþykkt, en ekki gert virkt, verður staða starfsins aftur að **Uppkast** og senda þarf starfið aftur inn til samþykkis. Eftir að samþykkt starf hefur verið virkjað, er hægt að breyta því.
+
+Fólkið sem er skráð sem samþykktaraðilar mun fá tilkynningu í Attract og tölvupóst til að tilkynna þeim að þeir hafi atriði til að samþykkja.  Í tölvupóstinum geta samþykktaraðilar smellt á tengilinn til að opna starfið, yfirfarið upplýsingarnar og annaðhvort samþykkt það eða hafnað því. Eftir að staða starfsins er stillt á **Samþykkt** eða **Hafnað** fær sendandinn tilkynningu um það í Attract og hann fær sendan tölvupóst. Einnig munu samþykktaraðilar fá tölvupóstsáminningu ef þeir hafa ekki svarað samþykktarbeiðninni innan sólarhrings.
+
+> [!NOTE]
+> Hægt er að búa til sérsniðin sniðmát fyrir samþykki í tölvupósti. Frekari upplýsingar er að finna í [Búa til sniðmát fyrir tölvupóst og stýra þeim](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/email-templates).
 
 ## <a name="create-a-job"></a>Starf stofnað
 

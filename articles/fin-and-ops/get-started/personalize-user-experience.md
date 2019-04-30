@@ -3,7 +3,7 @@ title: Sérsníða notandaupplifun
 description: Þessi grein útskýrir hvernig hægt er að sérsníða Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 09/28/2018
+ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 517e1dfa19433f19ebeb9d0a50a124002ca46a24
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363477"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975852"
 ---
 # <a name="personalize-the-user-experience"></a>Sérsníða notandaupplifun
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Þessi grein útskýrir hvernig hægt er að sérsníða Microsoft Dynamics 365 for Finance and Operations.
 
@@ -47,6 +48,8 @@ Allar sérstillingar sem notandi gerir í Finance and Operations eru aðeins fyr
 - **Kjörstillingar** - Veldu sjálfgefin gildi sem eru notuð í hvert skipti sem þú opnar Finance and Operations. Þessi gildi eru meðal annars fyrirtækið, upphafssíðan og sjálfgefið skoða/breyta hamurinn. (Skoða/breyta hamurinn ákvarðar hvort síða sé læst í skoðun eða opin fyrir breytingar í hvert skipti sem þú opnar hana.) Þessi flipi inniheldur einnig valkosti fyrir tungumálið, tímabeltið og dagsetningu, tíma og númerasnið. Að lokum inniheldur þessi flipi nokkrar fjölbreytilegar kjörstillingar sem eru mismunandi frá útgáfu til útgáfu.
 - **Notandareikningur** - Stilla notandanafnið þitt og aðrar valkosti sem tengjast notandareikningi.
 - **Vinnuflæði** - Veldu verkflæðatengda valkosti.
+
+Ásamt því að breyta notandastillingum þínum, geturðu skoðað og eytt notkunargögnum eða sérstillingum þínum með því að smella á hnappinn **Notkunargögn**. Þegar þú notar forritið geymist mikið af vali þínu í minni til að gera kerfið auðveldara í notkun í framtíðinni. Flipinn **Sérstillingar**, sérstaklega, gerir þér kleift að skoða og hafa umsjón með sérsniðnum breytingum sem þú hefur gert á síðum í kerfinu. Tilkynningaeiginleikinn, sprettiglugginn sem kynnir þér nýja eiginleika í vörunni (í boði í verkvangsuppfærslu 26) er einnig hægt að endurstilla úr þessum flipa svo þú fáir aftur tilkynningar um eiginleika sem hafa áður orðið á vegi þínum.  
 
 ## <a name="implicit-personalizations"></a>Óbeinar sérstillingar
 
@@ -160,7 +163,7 @@ Notendur sem hafa stjórnunarréttindi geta einnig stýrt sérstillingum fyrir a
 
 - **Virkja** - Hægt er að flytja inn eða velja sérstillingu fyrir einn eða fleiri notendur. Til að virkja sérstillingu í þágu eins eða fleiri notenda, skal velja fyrst hlutverk og notendur sem hafa það hlutverk. Síðan skal velja annaðhvort fyrirliggjandi sérstillingu til að virkja í þágu valdra notenda, eða flytja inn sérstillingarskrá. Sérstillingin er sannprófuð og verður virkjuð í þágu allra valdra notenda næst þegar þeir opna völdu síðuna.
 - **Hreinsa** - Þú getur hreinsað allar sérstillingar fyrir síðu eða vinnusvæði fyrir einn eða fleiri notendur. Veldu fyrst síðu eða vinnusvæði til að sjá lista yfir notendur sem hafa notað sérstillingu á það. Veldu síðan þá notendur sem hreinsa skal sérstillingar síðu eða vinnusvæðis hjá og veldu **Hreinsa**. Allar sérstillingar sem völdu notendur hafa virkjað á valdri síðu eða vinnusvæði er eytt. Ekki er hægt að afturkalla þessa aðgerð. Ef sérstilling var hins vegar var vistuð fyrir síðuna eða vinnusvæðið, er hægt að flytja þá sérstillingu inn aftur.
-- **Stjórnandi á hvern notanda** - Veldu notanda til að sjá lista yfir síður sem hann eða hún hefur sérstillt. Þú getur þá virkjað eða gert óvirka getu valins notanda til að nota sérstillingar fyrir tilteknar síður eða fyrir allt kerfið. Þú getur einnig flutt inn, flutt út eða hreinsað sérstillingar valins notanda.
+- **Stjórnandi á hvern notanda** - Veldu notanda til að sjá lista yfir síður sem notandinn hefur sérstillt. Þú getur þá virkjað eða gert óvirka getu valins notanda til að nota sérstillingar fyrir tilteknar síður eða fyrir allt kerfið. Þú getur einnig flutt inn, flutt út eða hreinsað sérstillingar valins notanda. Að auki geturðu endurstillt tilkynningar á eiginleikum fyrir valinn notanda, sem fær alla áður hunsaða sprettiglugga sem tilkynntu nýja eiginleika til að birtast á ný í næsta skipti sem þessir eiginleikar verða á vegi notandans.   
 - **Kerfi** - Einnig er hægt að aftengja öllum sérstillingum allra notendur kerfisins tímabundið. Í þessu tilviki er sérstillingunum eytt. Allar síður eru endurstilltar í sjálfgefna stöðu fyrir alla notendur. Ef þú endurvirkjar sérstillingar seinna, verða allar sérstillingar settar í virkni á ný. Einnig er hægt að eyða öllum sérstillingum endanlega fyrir alla notendur kerfisins. Það er engin leið til að endurheimta sérstillingar sem hefur verið eytt. Áður en þú framkvæmir þetta verkefni skaltu þess vegna vera viss um að flytja út allar sérstillingar sem þú gætir viljað síðar.
 
 ## <a name="personalization-of-inventory-dimensions"></a>Sérstilling birgðavídda

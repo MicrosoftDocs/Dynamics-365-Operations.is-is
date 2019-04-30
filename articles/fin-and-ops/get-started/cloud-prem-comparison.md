@@ -1,28 +1,28 @@
 ---
 title: Samanburður á skýi og eiginleikum á staðnum
 description: Efnisatriðið sýnir hvaða eiginleikar eru studdir í skýi og staðbundið.
-author: robinarh
+author: sericks007
 manager: AnnBe
-ms.date: 11/02/2018
+ms.date: 04/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: robinr
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.custom: 89563
 ms.assetid: ''
 ms.search.region: Global
-ms.author: robinr
+ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 2abddec24776dc84860116cc708e4d8e102dc503
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 18f668bdc49da1022230278f1de8494150e8a5f9
+ms.sourcegitcommit: bdcdcdddcb0517f0c64d541258ccbd119b960719
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313981"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "977207"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Samanburður á skýi og eiginleikum á staðnum
 
@@ -56,9 +56,12 @@ ms.locfileid: "313981"
 | Hjálp | | Já | Númer |
 | Mannauður | | Já | Já |
 | Greind | | Já | Já |
-| | Rafræn skýrslugerð (ER) - Samþætting við LCS | Já | Ekkert |
-| | Rafræn skýrslugerð (ER) - Samþætting við SharePoint | Já | Ekkert |
-| | Sameining með PowerBI.com | Já | Ekkert |
+| | Rafræn skýrslugerð (ER) | Já | Já |
+| | Rafræn skýrslugerð: Samþætting við LCS | Já | Nei |
+| | Rafræn skýrslugerð: Samþætting við SharePoint | Já | Nei |
+| | Rafræn skýrslugerð: Regluskilgreiningarþjónusta (RCS) | Já | Nei |
+| | Rafræn skýrslugerð: Notar staðbundið skráarkerfi sem geymslu á skilgreiningum rafrænnar skýrslugerðar sem er aðgengileg í gegnum gagnasafn rafrænnar skýrslugerðar | Nei | Já |
+| | Sameining með PowerBI.com | Já | Nei |
 | | Greiningarvinnusvæði | Já | Númer |
 | | Snjallrekstrarferlar: Ráðleggingar´ | Já | Ekkert |
 | | Skrifa Power BI skýrslur með OData með því að nota Power BI skjáborð eða Excel PowerQuery verkfæri | Já | Ekkert |

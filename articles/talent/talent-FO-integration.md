@@ -1,7 +1,7 @@
 ---
 title: Algengar spurningar um samþættingu Dynamics 365 for Talent til Dynamics 365 for Finance and Operations
 description: Þetta efnisatriði útskýrir hvaða gögn eru samstillt í samþættingu á Talent og Finance and Operations.
-author: negudava
+author: andreabichsel
 manager: AnnBe
 ms.date: 01/09/2019
 ms.topic: article
@@ -9,20 +9,20 @@ ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: negudava
+ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: aea025bc4898d6399e82030cf1f52b21949e014f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 438c2b5689e450b9aae9c55168993f2ee84be4d5
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "304873"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "950084"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>Algengar spurningar um samþættingu Dynamics 365 for Talent til Dynamics 365 for Finance and Operations
 
@@ -34,15 +34,15 @@ ms.locfileid: "304873"
 
 Með Core Human Resources er undirsafn af gögnunum samstillt við. Fyrir lista yfir allar einingarnar skal sjá [Samþætting frá Dynamics 365 for Talent til Dynamics 365 for Finance and Operations](talent-financeandoperations-integration.md).
 
-Fyrir Attract og Onboard eru öll gögn staðbundin við Common Data Service (CDS) for Apps.
+Fyrir Attract og Onboard eru öll gögn staðbundin við Common Data Service.
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Get ég búið til nýja vörpun án þess að nota sniðmátin?
 
-Sniðmát eru upphafspunktur. Hægt er að búa til sitt eigið sniðmát, en alltaf er þörf á sniðmáti þegar samþættingarverk er búið til. Nánari upplýsingar um Data Integrator (DI), sniðmát og verk er að finna í [Samþætta gögn í Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+Sniðmát eru upphafspunktur. Hægt er að búa til sitt eigið sniðmát, en alltaf er þörf á sniðmáti þegar samþættingarverk er búið til. Nánari upplýsingar um Data Integrator (DI), sniðmát og verk er að finna í [Samþætta gögn í Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance-and-operations"></a>Er hægt að varpa fjárhagsvíddum í flutning milli Talent og Finance and Operations?
 
-Sem stendur eru fjárhagsvíddir ekki í CDS for Apps og eru þar af leiðandi ekki hluti af sjálfgefna sniðmátinu. Þessi eining er fyrirhuguð en engin tímalína útgáfu er til eins og er.
+Sem stendur eru fjárhagsvíddir ekki í Common Data Service og eru þar af leiðandi ekki hluti af sjálfgefna sniðmátinu. Þessi eining er fyrirhuguð en engin tímalína útgáfu er til eins og er.
 
 Fyrir gögn sem eru í Finance and Operations en eru ekki til í Talent, skal tengja kerfin tvö saman með **Skilgreina tengla** í Talent. Nánari upplýsingar um hvernig á að skilgreina tengla milli Talent og Finance and Operations er að finna í [Hvað er nýtt eða breytt í Dynamics 365 for Talent Core HR (31. október 2018)](whats-new-talent-october-31.md).
 
@@ -64,7 +64,7 @@ Með því að nota „Ítarleg fyrirspurn“ geturðu síað og mótað uppruna
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-and-operations-for-a-specific-entity"></a>Get ég tilgreint hvaða svæði skal senda til Finance and Operations fyrir tiltekna einingu?
 
-Hægt er að bæta við eða fjarlægja svæði úr samþættingarverkinu. Ekki öll gagnasvæði sem til eru í einingu CDS for Apps (CDS 2.0) verða fylltir út frá Core HR.
+Hægt er að bæta við eða fjarlægja svæði úr samþættingarverkinu. Ekki öll gagnasvæði sem til eru í einingu Common Data Service verða fylltir út frá Core HR.
 Hægt er að fylla út viðbótargögn í gegnum PowerApps.
 
 ![](media/SpecifyFieldsIncludedInIntegration.png)
@@ -83,7 +83,7 @@ Nei, Data Integrator mun ekki sækja eyddar færslur fyrir gagnaflutning. Aðein
 
 ## <a name="can-i-rerun-the-errored-execution-if-so-will-it-send-a-full-file-or-only-the-changes"></a>Get ég keyrt aftur framkvæmd með villum? Ef svo er, mun það senda heila skrá eða aðeins breytingarnar?
 
-Fyrsta keyrsla Data Integrator er alltaf full keyrsla. Næstu keyrslur byggjast á rakningu breytinga. Við framkvæmd villukeyrslu eru færslurnar dregnar út samkvæmt umfangi keyrslunnar og nýjustu breytingar eru sendar út úr CDS.
+Fyrsta keyrsla Data Integrator er alltaf full keyrsla. Næstu keyrslur byggjast á rakningu breytinga. Við framkvæmd villukeyrslu eru færslurnar dregnar út samkvæmt umfangi keyrslunnar og nýjustu breytingar eru sendar út úr Common Data Service.
 
 ## <a name="when-i-save-the-project-i-get-the-error-project-has-mapping-errors-what-do-i-do"></a>Þegar ég vista verkið fæ ég villuna: „Verk er með vörpunarvillur“. Hvað geri ég?
 
@@ -97,15 +97,15 @@ Já, fyrir hvern lögaðila í Finance and Operations þarf sérstakt samþætti
 
 ## <a name="i-need-to-transfer-data-that-is-not-part-of-the-default-template-provided-by-microsoft-can-i-do-this"></a>Ég þarf að flytja gögn sem ekki eru hluti af sjálfgefna sniðmátinu sem Microsoft býður upp á. Get ég gert þetta?
 
-Já, hægt er að bæta við eða fjarlægja svæði úr núverandi sniðmáti. Sniðmátinu má breyta til að innihalda viðbótarupplýsingar úr öðrum einingum CDS for Apps. Einingin verður að vera í CDS for Apps til að hún verði hluti af sniðmátinu. 
+Já, hægt er að bæta við eða fjarlægja svæði úr núverandi sniðmáti. Sniðmátinu má breyta til að innihalda viðbótarupplýsingar úr öðrum einingum Common Data Service. Einingin verður að vera í Common Data Service til að hún verði hluti af sniðmátinu. 
 
 ## <a name="i-just-created-new-finance-and-operations-and-talent-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>Ég var að stofna ný umhverfi Finance and Operations og Talent og ég fæ villuna: „Gagnagildið brýtur hömlur fyrir heilleika.“ Af hverju?
 
 Ástæður þessarar villu geta falið í sér:
 
-- Gagnaflutningurinn leiddi til tvítekningar á gögnum sem voru dregin út úr upprunanum (CDS).
+- Gagnaflutningurinn leiddi til tvítekningar á gögnum sem voru dregin út úr upprunanum (Common Data Service).
 
-- Gagnaflutningurinn hefur núll gildi fyrir svæði sem krafist er í Finance and Operations. Staðfestu að gögnin sem eru í CDS uppfylli kröfur Finance and Operations.
+- Gagnaflutningurinn hefur núll gildi fyrir svæði sem krafist er í Finance and Operations. Staðfestu að gögnin sem eru í Common Data Service uppfylli kröfur Finance and Operations.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Ef framkvæmdavillur koma upp og auðkenni starfsmanns samstilltist ekki, hvernig finn ég þá vinnsluferilinn sem inniheldur starfsmannafærsluna?
 
@@ -127,17 +127,17 @@ Rektu tímann frá framkvæmdaferil Data Integrator og leitaðu að vísinum -1 
 
 ## <a name="after-integrating-talent-and-finance-and-operations-i-dont-see-my-talent-data-in-finance-and-operations-what-do-i-do"></a>Eftir að hafa samþætt Talent og Finance and Operations, sé ég ekki Talent-gögnin mín í Finance and Operations. Hvað geri ég?
 
-Samþættingin við Finance and Operations er ferli í tveimur skrefum. Fyrst skaltu staðfesta að Talent-gögnin séu uppfærð og tiltæk í CDS. Þetta er nærri því samstilling í rauntíma og hægt er að sannprófa hana í PowerApps með því að líta á gögnin innan gagnaeininganna.
+Samþættingin við Finance and Operations er ferli í tveimur skrefum. Fyrst skaltu staðfesta að Talent-gögnin séu uppfærð og tiltæk í Common Data Service. Þetta er nærri því samstilling í rauntíma og hægt er að sannprófa hana í PowerApps með því að líta á gögnin innan gagnaeininganna.
 
-![Gögn í CDS](media/DataInCDS.png)
+![Gögn í Common Data Service](media/DataInCDS.png)
 
-Ef gögnin birtast ekki eins og búist er við í CDS skaltu staðfesta að einingin sé studd í samþættingunni. Til að bæta við viðbótargögnum í CDS verður breyting af hálfu Windows að gerast.
+Ef gögnin birtast ekki eins og búist er við í Common Data Service skaltu staðfesta að einingin sé studd í samþættingunni. Til að bæta við viðbótargögnum í Common Data Service verður breyting af hálfu Windows að gerast.
 
-Ef einingin er studd og gögnin eru tiltæk á CDS skaltu staðfesta að vörpunin sé rétt í Data Integrator. Ef vörpun samþættingar lítur vel út skaltu staðfesta að keyrsla á vinnslum gagnastjórnunar hafi tekist. Villur geta komið fram meðan á framkvæmd runuvinnslunnar stendur. Nánari upplýsingar um stjórnun gagna er að finna í [Gagnastjórnun](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Ef einingin er studd og gögnin eru tiltæk í Common Data Service skaltu staðfesta að vörpunin sé rétt í Data Integrator. Ef vörpun samþættingar lítur vel út skaltu staðfesta að keyrsla á vinnslum gagnastjórnunar hafi tekist. Villur geta komið fram meðan á framkvæmd runuvinnslunnar stendur. Nánari upplýsingar um stjórnun gagna er að finna í [Gagnastjórnun](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-and-operations-what-should-i-do"></a>Heimilisföngin fyrir starfsmennina mína eru rangar eftir að ég flyt þær inn í Finance and Operations. Hvað ætti ég að gera?
 
-Númeraröðin fyrir **Staðsetningarkenni** notar sama mynstur í bæði Talent og Finance and Operations. Númeraröðin þarf að vera einkvæm á báðum hliðum, svo að það verði engir árekstrar á heimilisföngum við samþættingu gagna frá CDS til Finance and Operations.
+Númeraröðin fyrir **Staðsetningarkenni** notar sama mynstur í bæði Talent og Finance and Operations. Númeraröðin þarf að vera einkvæm á báðum hliðum, svo að það verði engir árekstrar á heimilisföngum við samþættingu gagna frá Common Data Service til Finance and Operations.
 
 Við innleiðingu á Talent skal staðfesta að númeraraðirnar séu ekki þær sömu í Talent og Finance and Operations. Staðfestið að allar númeraraðir séu ekki eins þar sem gögn kunna að vera í báðum kerfum.
 
@@ -147,7 +147,7 @@ Gakktu úr skugga um að þegar þú býrð til tengingar velurðu Dynamics 365 
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfofk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Við samstillingu starfsmanna fæ ég villurnar „CompanyInfo_FL er ekki til“ eða „Gildið '12/31/2154 11:59:59 pm‘ í reitnum „Lokadagur starfsmanns finnst ekki í tengdri töflu „Starfsmaður“.“ Hvað ætti ég að gera?
 
-Gakktu úr skugga um að þú varpir í rétta lögaðila. Samstilling lögaðila er ekki hluti af sjálfgefna sniðmátinu, þannig að það er gert ráð fyrir að hver lögaðili sem er til staðar í Talent og CDS sé einnig til staðar í Finance and Operations.
+Gakktu úr skugga um að þú varpir í rétta lögaðila. Samstilling lögaðila er ekki hluti af sjálfgefna sniðmátinu, þannig að það er gert ráð fyrir að hver lögaðili sem er til staðar í Talent og Common Data Service sé einnig til staðar í Finance and Operations.
 Gakktu einnig úr skugga um að þú veljir rétta lögaðila fyrir tengda tengistillingu.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-and-operations-appears-to-be-empty-what-should-i-do"></a>Eftir að verkefnið var sett upp virðist vörpun reita fyrir Finance and Operations vera tóm. Hvað ætti ég að gera?
@@ -160,11 +160,11 @@ Uppfæra gagnaeiningarnar í Finance and Operations með því að fara í **Gag
 
 - Data Integrator (DI): 
 
-  - [Samþætta gögn í Common Data Service fyrir Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
+  - [Samþætta gögn í Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
 
   - [Villumeðhöndlun og úrræðaleit Data Integrator](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator-error-management)
 
-  - [Viðbrögð við DSR-beiðnum fyrir kerfismyndaða kladda í PowerApps, Microsoft Flow, og Common Data Service fyrir Apps](https://docs.microsoft.com/en-us/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Viðbrögð við DSR-beiðnum fyrir kerfismyndaða kladda í PowerApps, Microsoft Flow, og Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Stjórnun gagna:
 
