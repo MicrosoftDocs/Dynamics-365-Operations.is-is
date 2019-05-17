@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> <span data-ttu-id="46def-101">Þessi eiginleiki er aðeins tiltækur með boði eins og er.</span><span class="sxs-lookup"><span data-stu-id="46def-101">This feature is currently available by invitation only.</span></span> <span data-ttu-id="46def-102">Til að tilnefna fyrirtækið til fyrir þátttöku skaltu ljúka við [þessa könnun](https://aka.ms/ax2012upgrade).</span><span class="sxs-lookup"><span data-stu-id="46def-102">To nominate your organization to participate, please complete [this survey](https://aka.ms/ax2012upgrade).</span></span> 

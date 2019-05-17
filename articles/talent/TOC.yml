@@ -1,364 +1,371 @@
-items:
 - name: Dynamics 365 for Talent
   href: index.md
   items:
-  - name: Leiðsögn
-    href: talent-get-started.md
-    items:
-    - name: Nýjungar eða breytingar í Talent
-      href: whats-new.md
+    - name: Hafist handa
+      href: talent-get-started.md
       items:
-      - name: 2. apríl 2019
-        href: whats-new-talent-april-2-2019.md
-      - name: 26. mars 2019
-        href: whats-new-talent-march-26-2019.md
-      - name: 20. mars 2019
-        href: whats-new-talent-march-20.md
-      - name: 14. mars 2019
-        href: whats-new-talent-march-14.md
-      - name: 5. mars 2019
-        href: whats-new-talent-march-5.md
-      - name: 27. febrúar 2019
-        href: whats-new-talent-feb-27.md
-      - name: 14. febrúar 2019
-        href: whats-new-talent-feb14.md
-      - name: 7. febrúar 2019
-        href: whats-new-talent-february-7.md
-      - name: 31. janúar 2019
-        href: whats-new-talent-january-29.md
-      - name: 23. janúar 2019
-        href: whats-new-talent-january-23.md
-      - name: Safnvistaðar nýjungar 2019
-        items:
-        - name: 17. janúar 2019
-          href: whats-new-talent-january-17.md
-        - name: 11. janúar 2019
-          href: whats-new-talent-january-11.md
-      - name: Safnvistaðar nýjungar 2018
-        items:
-        - name: 14. desember 2018
-          href: whats-new-talent-december-14.md
-        - name: 6. desember 2018
-          href: whats-new-talent-december-6.md
-        - name: 27. nóvember 2018
-          href: whats-new-talent-november-27.md
-        - name: 15. nóvember 2018
-          href: whats-new-talent-november-15.md
-        - name: 31. október 2018
-          href: whats-new-talent-october-31.md
-        - name: 19. október 2018
-          href: whats-new-talent-october-19.md
-        - name: 15. október 2018
-          href: whats-new-talent-october-11.md
-        - name: 8. október 2018
-          href: whats-new-talent-october-8.md
-        - name: 1. október 2018
-          href: whats-new-talent-october-01.md
-        - name: 24. september 2018
-          href: whats-new-talent-september-24.md
-        - name: 17. september 2018
-          href: whats-new-talent-september-17-2018.md
-        - name: 10. september 2018
-          href: whats-new-talent-september-10.md
-        - name: Ágúst 2018
-          href: whats-new-talent-august2018.md
-        - name: Júlí 2018
-          href: whats-new-talent-july2018.md
-    - name: Kerfiskröfur og uppfærsluregla
-      href: talent-versions-update-policy.md
-    - name: Úthluta Talent
-      href: provisioning-talent.md
-    - name: Fjarlægja Talent-umhverfi
-      href: remove-talent-environment.md
-    - name: Úthlutun Talent-einingaforrita
-      href: modular-app-tech-faq.md
-    - name: Innfella PowerApps-forrit
-      href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Core HR og Common Data Service
-      href: CoreHREntities.md
-    - name: Fá aðgang að eiginleikum í forútgáfu
-      href: access-preview-feature.md
-    - name: Fá aðstoð fyrir Talent
-      href: talent-support.md
-  - name: Skipuleggja starfsfólk með því að nota deildir, störf og stöður
-    href: departments-jobs-positions.md
-    items:
-    - name: Setja upp íhluti verks
-      href: create-job.md
-    - name: Stofna deildir og hafa þær með í stigveldi deilda
-      href: create-department-add-department-hierarchy.md
-    - name: Setja upp mannauðsfæribreytur þvert á lögaðila
-      href: set-up-hr-parameters-across-legal-entities.md
-    - name: Uppsetning sérstakra mannauðsfæribreyta fyrir fyrirtæki
-      href: set-up-company-specific-hr-parameters.md
-    - name: Algengar spurningar um aðgerðir starfsfólks
-      href: personnel-actions-faq.md
-    - name: Gera viðskiptaferli formleg
-      href: formalize-business-processes.md
-    - name: Nota verkflæði til að haga starfsmannaupplýsingum
-      href: workflow-manage-employee-information.md
-  - name: Vinna með leyfi og fjarvistir
-    href: leave-absence-overview.md
-    items:
-    - name: Hugtök fyrir leyfi og fjarvistir
-      href: leave-absence-concepts.md
-    - name: Uppsöfnun frís sem byggist á vinnustundum
-      href: leave-accrue-hours-worked.md
-    - name: Vinnutímadagatöl
-      href: working-time-calendars.md
-  - name: Mönnun fyrirtækis
-    items:
-    - name: Attract eiginleikar og færni
-      href: attract-overview.md
-    - name: Búa til sniðmát fyrir ferli í Attract
-      href: Process-templates-Attract.md
-    - name: Búa til, samþykkja og birta störf í Attract
-      href: Creating-jobs-Attract.md
-    - name: Störf birt á utanaðkomandi svæðum úr Attract
-      href: posting-jobs-external.md
-    - name: Fundið með hæfileikasöfnum
-      href: attract-talent-pools.md
-    - name: Fundið með LinkedIn Recruiter
-      href: attract-linked-in-recruiter.md
-    - name: Ráðningarferli í Attract
-      href: activities-attract.md
-    - name: Skipulagning viðtala og ábendingar
-      href: interview-scheduling-feedback.md
+        - name: Nýjungar eða breytingar í Talent
+          href: whats-new.md
+          items:
+            - name: 6. maí 2019
+              href: whats-new-talent-may-6-2019.md
+            - name: 30. apríl 2019
+              href: whats-new-talent-april-30-2019.md
+            - name: 25. apríl 2019
+              href: whats-new-talent-april-25-2019.md
+            - name: 16. apríl 2019
+              href: whats-new-talent-april-16-2019.md
+            - name: 9. apríl 2019
+              href: whats-new-talent-april-9-2019.md
+            - name: 2. apríl 2019
+              href: whats-new-talent-april-2-2019.md
+            - name: 26. mars 2019
+              href: whats-new-talent-march-26-2019.md
+            - name: 20. mars 2019
+              href: whats-new-talent-march-20.md
+            - name: 14. mars 2019
+              href: whats-new-talent-march-14.md
+            - name: 5. mars 2019
+              href: whats-new-talent-march-5.md
+            - name: Safnvistaðar nýjungar 2019
+              items:
+                - name: 27. febrúar 2019
+                  href: whats-new-talent-feb-27.md
+                - name: 14. febrúar 2019
+                  href: whats-new-talent-feb14.md
+                - name: 7. febrúar 2019
+                  href: whats-new-talent-february-7.md
+                - name: 31. janúar 2019
+                  href: whats-new-talent-january-29.md
+                - name: 23. janúar 2019
+                  href: whats-new-talent-january-23.md
+                - name: 17. janúar 2019
+                  href: whats-new-talent-january-17.md
+                - name: 11. janúar 2019
+                  href: whats-new-talent-january-11.md
+            - name: Safnvistaðar nýjungar 2018
+              items:
+                - name: 14. desember 2018
+                  href: whats-new-talent-december-14.md
+                - name: 6. desember 2018
+                  href: whats-new-talent-december-6.md
+                - name: 27. nóvember 2018
+                  href: whats-new-talent-november-27.md
+                - name: 15. nóvember 2018
+                  href: whats-new-talent-november-15.md
+                - name: 31. október 2018
+                  href: whats-new-talent-october-31.md
+                - name: 19. október 2018
+                  href: whats-new-talent-october-19.md
+                - name: 15. október 2018
+                  href: whats-new-talent-october-11.md
+                - name: 8. október 2018
+                  href: whats-new-talent-october-8.md
+                - name: 1. október 2018
+                  href: whats-new-talent-october-01.md
+                - name: 24. september 2018
+                  href: whats-new-talent-september-24.md
+                - name: 17. september 2018
+                  href: whats-new-talent-september-17-2018.md
+                - name: 10. september 2018
+                  href: whats-new-talent-september-10.md
+                - name: Ágúst 2018
+                  href: whats-new-talent-august2018.md
+                - name: Júlí 2018
+                  href: whats-new-talent-july2018.md
+        - name: Kerfiskröfur og uppfærsluregla
+          href: talent-versions-update-policy.md
+        - name: Úthluta Talent
+          href: provisioning-talent.md
+        - name: Fjarlægja Talent-umhverfi
+          href: remove-talent-environment.md
+        - name: Úthlutun fyrir Onboard-forritið
+          href: modular-app-tech-faq.md
+        - name: Innfella PowerApps-forrit
+          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Core HR og Common Data Service
+          href: CoreHREntities.md
+        - name: Fá aðgang að eiginleikum í forútgáfu
+          href: access-preview-feature.md
+        - name: Fá aðstoð fyrir Talent
+          href: talent-support.md
+    - name: 'Skipuleggja starfsfólk með því að nota deildir, störf og stöður'
+      href: departments-jobs-positions.md
+      items:
+        - name: Setja upp íhluti verks
+          href: create-job.md
+        - name: Stofna deildir og hafa þær með í stigveldi deilda
+          href: create-department-add-department-hierarchy.md
+        - name: Setja upp mannauðsfæribreytur þvert á lögaðila
+          href: set-up-hr-parameters-across-legal-entities.md
+        - name: Uppsetning sérstakra mannauðsfæribreyta fyrir fyrirtæki
+          href: set-up-company-specific-hr-parameters.md
+        - name: Algengar spurningar um aðgerðir starfsfólks
+          href: personnel-actions-faq.md
+        - name: Gera viðskiptaferli formleg
+          href: formalize-business-processes.md
+        - name: Nota verkflæði til að haga starfsmannaupplýsingum
+          href: workflow-manage-employee-information.md
+    - name: Vinna með leyfi og fjarvistir
+      href: leave-absence-overview.md
+      items:
+        - name: Hugtök fyrir leyfi og fjarvistir
+          href: leave-absence-concepts.md
+        - name: Uppsöfnun frís sem byggist á vinnustundum
+          href: leave-accrue-hours-worked.md
+        - name: Vinnutímadagatöl
+          href: working-time-calendars.md
+    - name: Mönnun fyrirtækis
+      items:
+        - name: Hvaða útgáfa af Attract?
+          href: attract-comprehensive-hiring.md
+        - name: Attract eiginleikar og færni
+          href: attract-overview.md
+        - name: Búa til sniðmát fyrir ferli í Attract
+          href: Process-templates-Attract.md
+        - name: 'Búa til, samþykkja og birta störf í Attract'
+          href: Creating-jobs-Attract.md
+        - name: Birta störf á utanaðkomandi svæðum úr Attract
+          href: posting-jobs-external.md
+        - name: Finna umsækjendur með hæfileikasöfnum
+          href: attract-talent-pools.md
+        - name: Fundið með LinkedIn Recruiter
+          href: attract-linked-in-recruiter.md
+        - name: Verkþættir í ráðningarferli
+          href: activities-attract.md
+        - name: Skipulagning viðtala og ábendingar
+          href: interview-scheduling-feedback.md
+        - name: Stækkunarhæfni
+          href: extensibility-attract.md
+        - name: Virkni ferilssíðu í Attract
+          href: career-site.md
+        - name: Setja upp stjórnun tilboða
+          href: offer-setup.md
+        - name: 'Búa til, samþykkja og undirrita tilboð'
+          href: creating-offers.md
+        - name: Sniðmát fyrir tölvupóst
+          href: email-templates.md
+        - name: Öryggi og hlutverkastjórnun í Attract
+          href: security-attract.md
+        - name: Stjórnandastillingar í Attract
+          href: Admin-Settings-Attract.md
+        - name: Snjallmeðmæli
+          href: Intelligent-Recommendations.md
+        - name: Búa til spennandi innleiðingarupplifun
+          href: create-onboarding-experience.md
+        - name: Fylgjast með stöðum til að finna notendaupplýsingar og umsóknir umsækjenda
+          href: source-tracking.md
+        - name: Nota greiningarskýrslur til að fá innsýn í ráðningarferli
+          href: analytic-reports.md
+    - name: Virkja starfsmenn
+      items:
+        - name: Launafyrirkomulag
+          href: compensation-plans.md
+        - name: Launafyrirkomulag fastra launa stofnað
+          href: create-fixed-compensation-plans.md
+        - name: Launafyrirkomulag breytilegra launa
+          href: create-variable-compensation-plans.md
+        - name: Launaútreikningur
+          href: process-compensation.md
+        - name: Setja upp íhluti verks
+          href: create-job.md
+    - name: Þróa og þjálfa starfsmenn
+      items:
+        - name: Árangursstjórnun
+          href: performance-management-overview.md
+        - name: Samþætting hæfni starfsfólks við rekstrarþarfir
+          href: skills.md
+        - name: Uppsetning námskeiða
+          href: courses.md
+    - name: Skilgreina og stjórna fríðindaáætlun
+      items:
+        - name: Skilgreina og stjórna fríðindaáætlun
+          href: manage-benefit-program.md
+        - name: Reglur um hæfni til fríðinda
+          href: benefit-eligibility-policies.md
+        - name: Mynda skýrslur fyrir Affordable Care Act (ACA)
+          href: generate-aca-reports.md
+        - name: Stjórnun hluta sem starfsfólk fær lánaða
+          href: loan-items.md
+    - name: Spurningalistar
+      href: questionnaires.md
+      items:
+        - name: Hanna spurningarlista
+          href: design-questionnaires.md
+        - name: Dreifa spurningalistum á ákveðnum tímum
+          href: distribute-questionnaires.md
+        - name: Yfirferð og mat á niðurstöðum spurningalista
+          href: evaluate-questionnaire-results.md
+    - name: Öryggi og reglufylgni á vinnustað (Bandaríkin)
+      items:
+        - name: Svara beiðni um persónuupplýsingar í Talent
+          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Staðfesting starfs með I-9 eyðublaði
+          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: ADA fylgt
+          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Greind
+      items:
+        - name: Power BI fellt inn í vinnusvæði
+          href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Fartækjaforrit
+      items:
+        - name: Fartækjavinnusvæði
+          items:
+            - name: Fartækjavinnusvæði fyrir skráasafn fyrirtækis
+              href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Fartækjavinnusvæði míns teymis
+              href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Birta fartækjavinnusvæði
+          href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Samþætting
+      items:
+        - name: Samþætta við Dynamics 365 for Finance and Operations
+          href: talent-financeandoperations-integration.md
+        - name: Skilgreina launasamþættingu milli Talent og Dayforce
+          href: configure-payroll-integration.md
+        - name: Leiðbeiningar fyrir samþættingu gagna fyrir Dynamics 365 for Talent
+          href: data-integration.md
+        - name: Algengar spurningar um samþættingu
+          href: talent-fo-integration.md
+        - name: Endurtekinn útflutningur gagna með Azure Logic Apps
+          href: tutorial-integration-recurring-export.md
     - name: Stækkunarhæfni
-      href: extensibility-attract.md
-    - name: Ferilssíða og starfsreynsla umsækjenda
-      href: career-site.md
-    - name: Uppsetning á stjórnun tilboða
-      href: offer-setup.md
-    - name: Stofna, samþykkja og undirrita tilboð
-      href: creating-offers.md
-    - name: Búa til sniðmát fyrir tölvupóst og stýra því
-      href: email-templates.md
-    - name: Öryggi og hlutverkastjórnun í Attract
-      href: security-attract.md
-    - name: Stjórnandastillingar í Attract
-      href: Admin-Settings-Attract.md
-    - name: Snjallmeðmæli
-      href: Intelligent-Recommendations.md
-    - name: Búa til spennandi innleiðingarupplifun
-      href: create-onboarding-experience.md
-    - name: Fylgjast með stöðum til að finna notendaupplýsingar og umsóknir umsækjenda
-      href: source-tracking.md
-    - name: Attract-viðbótareiginleikar við alhliða ráðningar
-      href: attract-comprehensive-hiring.md
-  - name: Virkja starfsmenn
-    items:
-    - name: Launafyrirkomulag
-      href: compensation-plans.md
-    - name: Launafyrirkomulag fastra launa
-      href: create-fixed-compensation-plans.md
-    - name: Launafyrirkomulag breytilegra launa
-      href: create-variable-compensation-plans.md
-    - name: Launaútreikningur
-      href: process-compensation.md
-    - name: Setja upp íhluti verks
-      href: create-job.md
-  - name: Þróa og þjálfa starfsmenn
-    items:
-    - name: Árangursstjórnun
-      href: performance-management-overview.md
-    - name: Samþætting hæfni starfsfólks við rekstrarþarfir
-      href: skills.md
-    - name: Uppsetning námskeiða
-      href: courses.md
-  - name: Skilgreina og stjórna fríðindaáætlun
-    items:
-    - name: Stjórnun fríðindaáætlunar
-      href: manage-benefit-program.md
-    - name: Reglur um hæfni til fríðinda
-      href: benefit-eligibility-policies.md
-    - name: Mynda skýrslur fyrir Affordable Care Act (ACA)
-      href: generate-aca-reports.md
-    - name: Stjórnun hluta sem starfsfólk fær lánaða
-      href: loan-items.md
-  - name: Safna upplýsingum með notkun spurningalista
-    href: questionnaires.md
-    items:
-    - name: Hanna spurningarlista
-      href: design-questionnaires.md
-    - name: Dreifa spurningalistum á ákveðnum tímum
-      href: distribute-questionnaires.md
-    - name: Yfirferð og mat á niðurstöðum spurningalista
-      href: evaluate-questionnaire-results.md
-  - name: Öryggi og reglufylgni á vinnustað (Bandaríkin)
-    items:
-    - name: Svara umsókn um notkun persónugagna með Talent
-      href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Staðfesting starfs með I-9 eyðublaði
-      href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: ADA fylgt
-      href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
-  - name: Greind
-    items:
-    - name: Power BI fellt inn í vinnusvæði
-      href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-  - name: Fartækjaforrit
-    items:
-    - name: Fartækjavinnusvæði
       items:
-      - name: Skráasafn fyrirtækisins
-        href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-      - name: Hópurinn minn
-        href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Birta fartækjavinnusvæði
-      href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-  - name: Samþætting
-    items:
-    - name: Samþætta við Dynamics 365 for Finance and Operations
-      href: talent-financeandoperations-integration.md
-    - name: Skilgreina launasamþættingu milli Talent og Dayforce
-      href: configure-payroll-integration.md
-    - name: Leiðbeiningar fyrir samþættingu gagna fyrir Dynamics 365 for Talent
-      href: data-integration.md
-    - name: Algengar spurningar um samþættingu
-      href: talent-fo-integration.md
-    - name: Endurtekinn útflutningur gagna með Azure Logic Apps
-      href: tutorial-integration-recurring-export.md
-  - name: Stækkunarhæfni
-    items:
-    - name: Auka virkni Talent með því að nota PowerApps og Microsoft Flow – dæmi um atburðarásir
-      href: extensibility-examples.md
-    - name: Stækkunarhæfni í Attract
-      href: extensibility-attract.md
-    - name: Sérstilltir reitir í Core HR
-      href: corehr-custom-fields.md
-  - name: Office-samþætting
-    items:
-    - name: Kennsla í Office-samþættingu
-      href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Nota Excel-innbótina
-      href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Búa til „Opna í Excel“-upplifanir
-      href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Nota úrræðaleit fyrir Office-samþættingu
-      href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
-  - name: Fyrirtækisstjórnun
-    items:
-    - name: Númeraraðir
-      href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Auka virkni Talent með því að nota PowerApps og Microsoft Flow – dæmi um atburðarásir
+          href: extensibility-examples.md
+        - name: Merkja breytingar í ráðningargögnum
+          href: process-auditing.md
+        - name: Stækkunarhæfni í Attract
+          href: extensibility-attract.md
+        - name: Sérstilltir reitir í Core HR
+          href: corehr-custom-fields.md
+    - name: Office-samþætting
       items:
-      - name: Uppsetning númeraraða á einstaklingsgrunni
-        href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
-      - name: Setja upp númeraraðir með leiðsögn
-        href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Fyrirtæki og fyrirtækjastigveldi
-      href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Kennsla í Office-samþættingu
+          href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Uppfæra einingagögn í Excel
+          href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Búa til „Opna í Excel“-upplifanir
+          href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Nota úrræðaleit fyrir Office-samþættingu
+          href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Fyrirtækisstjórnun
       items:
-      - name: Skipuleggja fyrirtækjastigveldi
-        href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-      - name: Stofna fyrirtækjastigveldi
-        href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-      - name: Stofna lögaðila
-        href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
-      - name: Stofna rekstrareiningu
-        href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Altæk aðsetursbók
-      href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Númeraraðir
+          href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Uppsetning númeraraða á einstaklingsgrunni
+              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Setja upp númeraraðir með leiðsögn
+              href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Fyrirtæki og fyrirtækjastigveldi
+          href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Skipuleggja stigveldi fyrirtækisins
+              href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Búa til stigveldi fyrirtækis
+              href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Stofna lögaðila
+              href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Stofna rekstrareiningu
+              href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Altæk aðsetursbók
+          href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Skipuleggja altæku aðsetursbókina og annað
+              href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Skilgreina altæku aðsetursbókina
+              href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Algengar spurningar um aðsetursbækur
+              href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Verkflæði
+          href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Verkflæðiseiningar
+              href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Verkþættir í samþykktarferli verkflæðis
+              href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Stofna verkflæði
+              href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+              items:
+                - name: Skilgreina verkflæðiseiginleika
+                  href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Skilgreina handvirk verk
+                  href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Skilgreina sjálfvirk verk
+                  href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Skilgreina samþykktarferli
+                  href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Skilgreina samþykktarskref
+                  href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Skilgreina handvirkar ákvarðanir
+                  href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Skilgreina skilyrtar ákvarðanir
+                  href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Skilgreina hliðstæða verkþætti
+                  href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Skilgreina hliðstæð útibú
+                  href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Skilgreina verkflæði línuatriða
+                  href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Skilgreining runuvinnslu skilaboðaferlis
+              href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Úthluta vinnuliðum í verkflæði
+              href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Skoða verkflæðissögu
+              href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Gera notendum kleift að fá tölvupóstskilaboð sem tengjast verkflæði
+              href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Viðvaranir
+          href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: Stofna viðvörunarreglur
+              href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Runuvinnsla viðvarana
+              href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Málastjórnun
+          href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
+          items:
+            - name: 'Skipuleggja öryggi, vinnslu og flokkun mála'
+              href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Stilla skjalastjórnun
+          href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Skilgreining og sending tölvupósts
+          href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Dagsetningar-/tímagögn og tímabelti
+          href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Mannauðsverk
       items:
-      - name: Skipuleggja hvernig á að skilgreina altæku aðsetursbókina
-        href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-      - name: Skilgreina altæku aðsetursbókina
-        href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-      - name: Algengar spurningar um aðsetursbækur
-        href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Verkflæði
-      href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Bæta við frammistöðubók og senda hrós
+          href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Búa til markmið
+          href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Stofna frammistöðumat
+          href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Úrræðaleit Talent
       items:
-      - name: Verkflæðiseiningar
-        href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
-      - name: Verkflæðisaðgerðir
-        href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
-      - name: Verkflæði stofnað
-        href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-        items:
-        - name: Skilgreining verkflæðiseiginleika
-          href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Skilgreining handvirks verks
-          href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Skilgreining sjálfvirks verks
-          href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Skilgreining samþykktarferlis
-          href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Skilgreining samþykktarskrefs
-          href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Skilgreining handvirkrar ákvörðunar
-          href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Skilgreining skilyrtrar ákvörðunar
-          href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Skilgreining hliðstæðs verkþáttar
-          href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Skilgreining hliðstæðrar greinar
-          href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Skilgreining verkflæðis línuatriðis
-          href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-      - name: Skilgreining runuvinnslu skilaboðaferlis
-        href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
-      - name: Úthluta vinnuliðum í verkflæði
-        href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-      - name: Skoða verkflæðissögu
-        href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
-      - name: Gera notendum kleift að fá tölvupóstskilaboð sem tengjast verkflæði
-        href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Viðvaranir
-      href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-      items:
-      - name: Stofna viðvaranir
-        href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
-      - name: Runuvinnsla fyrir viðvaranir
-        href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Málastjórnun
-      href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
-      items:
-      - name: Skilgreining öryggis, vinnslu og flokkunar
-        href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Stilla skjalastjórnun
-      href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Skilgreining og sending tölvupósts
-      href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Dagsetningar-/tímagögn og tímabelti
-      href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
-  - name: Mannauðsverk
-    items:
-    - name: Bæta við frammistöðubók og senda hrós
-      href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Búa til markmið
-      href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Stofna frammistöðumat
-      href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
-  - name: Úrræðaleit Talent
-    items:
-    - name: Greiningarskýrslur eru ekki uppfærðar
-      href: analytic-reports-not-updated.md
-    - name: Ekki er hægt að stofna umhverfi í stjórnandamiðstöð PowerApps
-      href: create-envi-powerapps-admin-ctr.md
-    - name: Talent-biðlari aftengist
-      href: client-disconnects.md
-    - name: Forðist stýfingu á texta í stöðustigveldi og útflutningi í Visio
-      href: avoid-text-truncation-position-hierarchy-visio.md
-    - name: Keyra launavinnslu
-      href: run-compensation-process.md
-    - name: Vista verkefnaleiðbeiningar í LCS og spila þær aftur
-      href: save-play-task-guides-LCS.md
-    - name: Aðgangur að einkaaðsetrum eftir öryggishlutverki
-      href: security-roles-addresses.md
-    - name: Talent birtist ekki á meðal forrita Microsoft Dynamics 365 (Common Data Service 1.0)
-      href: talent-not-in-home-CDS.md
-    - name: Notandi getur opnað Core HR en ekki forritin Onboard eða Attract
-      href: user-access-core-hr.md
-    - name: Valkostir tilkynninga í Talent
-      href: talent-reporting-options.md
-    - name: Algengar spurningar um samþættingu
-      href: talent-FO-integration.md
-    - name: Azure Active Directory-notendur fundust ekki í tengiliðavali
-      href: people-picker-user-not-found.md
-ms.openlocfilehash: 0454094f05b3e571a38b8361fa9573c929647551
-ms.sourcegitcommit: 594fd4c7b937695396a7154a906563f43293926a
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "969448"
+        - name: Greiningarskýrslur eru ekki uppfærðar
+          href: analytic-reports-not-updated.md
+        - name: Ekki er hægt að stofna umhverfi í stjórnandamiðstöð PowerApps
+          href: create-envi-powerapps-admin-ctr.md
+        - name: Talent-biðlari aftengist
+          href: client-disconnects.md
+        - name: Forðist stýfingu á texta í stöðustigveldi og útflutningi í Visio
+          href: avoid-text-truncation-position-hierarchy-visio.md
+        - name: Keyra launavinnslu
+          href: run-compensation-process.md
+        - name: Vista verkefnaleiðbeiningar í LCS og spila þær aftur
+          href: save-play-task-guides-LCS.md
+        - name: Aðgangur að einkaaðsetrum eftir öryggishlutverki
+          href: security-roles-addresses.md
+        - name: Talent birtist ekki á meðal forrita Microsoft Dynamics 365 (Common Data Service 1.0)
+          href: talent-not-in-home-CDS.md
+        - name: Notandi getur opnað Core HR en ekki forritin Onboard eða Attract
+          href: user-access-core-hr.md
+        - name: Valkostir tilkynninga í Talent
+          href: talent-reporting-options.md
+        - name: Algengar spurningar um samþættingu
+          href: talent-FO-integration.md
+        - name: Azure Active Directory-notendur fundust ekki í tengiliðavali
+          href: people-picker-user-not-found.md

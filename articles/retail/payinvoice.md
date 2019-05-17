@@ -18,31 +18,31 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b7132dc9b3c78fa04fcfc38ea72b5678ad08deb2
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 158d8ca8a97c473e940f76dd3f35cecc4e9dd7f4
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302431"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517089"
 ---
-# <a name="set-up-pay-invoice-scenarios"></a><span data-ttu-id="f7fff-103">Uppsetning á greiðsluaðstæðum reikninga</span><span class="sxs-lookup"><span data-stu-id="f7fff-103">Set up pay invoice scenarios</span></span>
+# <a name="set-up-pay-invoice-scenarios"></a><span data-ttu-id="1e091-103">Uppsetning á greiðsluaðstæðum reikninga</span><span class="sxs-lookup"><span data-stu-id="1e091-103">Set up pay invoice scenarios</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="f7fff-104">Greiðsluaðgerð reiknings í Dynamics 365 for Retail hefur verið víkkuð út til að styðja:</span><span class="sxs-lookup"><span data-stu-id="f7fff-104">The Pay invoice functionality in Dynamics 365 for Retail has been expanded to support:</span></span>
+<span data-ttu-id="1e091-104">Greiðsluaðgerð reiknings í Dynamics 365 for Retail hefur verið víkkuð út til að styðja:</span><span class="sxs-lookup"><span data-stu-id="1e091-104">The Pay invoice functionality in Dynamics 365 for Retail has been expanded to support:</span></span>
 
-- <span data-ttu-id="f7fff-105">Greiðslu á mörgum sölupöntunarreikningum í einni POS-færslu.</span><span class="sxs-lookup"><span data-stu-id="f7fff-105">Payoff of multiple sales order invoices in a single POS transaction.</span></span>
-- <span data-ttu-id="f7fff-106">Greiðslu á ýmsum reikningsgerðum viðskiptavina, þ.á.m. reikningum með frjálsum texta, verktengdum reikningum og kreditnótum.</span><span class="sxs-lookup"><span data-stu-id="f7fff-106">Payment of various customer invoice types including free text invoices, project-based invoices, and credit notes.</span></span>
+- <span data-ttu-id="1e091-105">Greiðslu á mörgum sölupöntunarreikningum í einni POS-færslu.</span><span class="sxs-lookup"><span data-stu-id="1e091-105">Payoff of multiple sales order invoices in a single POS transaction.</span></span>
+- <span data-ttu-id="1e091-106">Greiðslu á ýmsum reikningsgerðum viðskiptavina, þ.á.m. reikningum með frjálsum texta, verktengdum reikningum og kreditnótum.</span><span class="sxs-lookup"><span data-stu-id="1e091-106">Payment of various customer invoice types including free text invoices, project-based invoices, and credit notes.</span></span>
 
-<span data-ttu-id="f7fff-107">Til að virkja þessar aðstæður þarf að grunnstilla virkniregluna fyrir verslanir eins og útskýrt er hér að neðan.</span><span class="sxs-lookup"><span data-stu-id="f7fff-107">To enable these scenarios, the functionality profile for stores must be configured as outlined in below.</span></span>
+<span data-ttu-id="1e091-107">Til að virkja þessar aðstæður þarf að grunnstilla virkniregluna fyrir verslanir eins og útskýrt er hér að neðan.</span><span class="sxs-lookup"><span data-stu-id="1e091-107">To enable these scenarios, the functionality profile for stores must be configured as outlined in below.</span></span>
 
-1. <span data-ttu-id="f7fff-108">Opnið **Smásala \> Uppsetning rásar \> Uppsetning sölustaðar \> Forstillingar sölustaðar \> Virknireglur** og veljið forstillingu sem tengd er við verslanirnar sem á að gera breytingar á.</span><span class="sxs-lookup"><span data-stu-id="f7fff-108">Go to **Retail \> Channel setup \> POS setup \> POS profiles \> Functionality profiles** and select a profile that's linked to the stores that you want to make the changes for.</span></span>
-2. <span data-ttu-id="f7fff-109">Á flipanum **Aðgerðir** skal skilgreina eftirfarandi færibreytur eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="f7fff-109">On the **Functions** tab, configure the following parameters as needed.</span></span>
+1. <span data-ttu-id="1e091-108">Opnið **Smásala \> Uppsetning rásar \> Uppsetning sölustaðar \> Forstillingar sölustaðar \> Virknireglur** og veljið forstillingu sem tengd er við verslanirnar sem á að gera breytingar á.</span><span class="sxs-lookup"><span data-stu-id="1e091-108">Go to **Retail \> Channel setup \> POS setup \> POS profiles \> Functionality profiles** and select a profile that's linked to the stores that you want to make the changes for.</span></span>
+2. <span data-ttu-id="1e091-109">Á flipanum **Aðgerðir** skal skilgreina eftirfarandi færibreytur eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="1e091-109">On the **Functions** tab, configure the following parameters as needed.</span></span>
 
-    - <span data-ttu-id="f7fff-110">**Sölupöntunarreikningur** – Veljið **Já** til að gera notendum kleift að greiða einn eða fleiri reikninga sem tengjast sölupöntun í einni sölustaðarfærslu.</span><span class="sxs-lookup"><span data-stu-id="f7fff-110">**Sales order invoice** – Select **Yes** to allow users to pay one or more sales order-based invoices in a single POS transaction.</span></span>
-    - <span data-ttu-id="f7fff-111">**Reikningur með frjálsum texta** – Veljið **Já** til að gera notendum kleift að greiða einn eða fleiri reikninga með frjálsum texta í einni sölustaðarfærslu.</span><span class="sxs-lookup"><span data-stu-id="f7fff-111">**Free text invoice** – Select **Yes** to allow users to pay one or more free text-based invoices in a single POS transaction.</span></span>
-    - <span data-ttu-id="f7fff-112">**Verkreikningur** – Veljið **Já** til að gera notendum kleift að greiða einn eða fleiri reikninga sem tengjast verki í einni sölustaðarfærslu.</span><span class="sxs-lookup"><span data-stu-id="f7fff-112">**Project invoice** – Select **Yes** to allow users to pay one or more project-based invoices in a single POS transaction.</span></span>
-    - <span data-ttu-id="f7fff-113">**Kreditnóta sölupöntunar** – Veljið **Já** til að gera notendum kleift að gera upp margar kreditnótur sem tengjast sölupöntun gagnvart opnum reikningum eða vinna úr endurgreiðslu til viðskiptavinar vegna opinnar kreditnótu.</span><span class="sxs-lookup"><span data-stu-id="f7fff-113">**Sales order credit note** – Select **Yes** to allow users to settle multiple sales order-based credit notes against open invoices or process a refund to the customer for an open credit note.</span></span>
+    - <span data-ttu-id="1e091-110">**Sölupöntunarreikningur** – Veljið **Já** til að gera notendum kleift að greiða einn eða fleiri reikninga sem tengjast sölupöntun í einni sölustaðarfærslu.</span><span class="sxs-lookup"><span data-stu-id="1e091-110">**Sales order invoice** – Select **Yes** to allow users to pay one or more sales order-based invoices in a single POS transaction.</span></span>
+    - <span data-ttu-id="1e091-111">**Reikningur með frjálsum texta** – Veljið **Já** til að gera notendum kleift að greiða einn eða fleiri reikninga með frjálsum texta í einni sölustaðarfærslu.</span><span class="sxs-lookup"><span data-stu-id="1e091-111">**Free text invoice** – Select **Yes** to allow users to pay one or more free text-based invoices in a single POS transaction.</span></span>
+    - <span data-ttu-id="1e091-112">**Verkreikningur** – Veljið **Já** til að gera notendum kleift að greiða einn eða fleiri reikninga sem tengjast verki í einni sölustaðarfærslu.</span><span class="sxs-lookup"><span data-stu-id="1e091-112">**Project invoice** – Select **Yes** to allow users to pay one or more project-based invoices in a single POS transaction.</span></span>
+    - <span data-ttu-id="1e091-113">**Kreditnóta sölupöntunar** – Veljið **Já** til að gera notendum kleift að gera upp margar kreditnótur sem tengjast sölupöntun gagnvart opnum reikningum eða vinna úr endurgreiðslu til viðskiptavinar vegna opinnar kreditnótu.</span><span class="sxs-lookup"><span data-stu-id="1e091-113">**Sales order credit note** – Select **Yes** to allow users to settle multiple sales order-based credit notes against open invoices or process a refund to the customer for an open credit note.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="f7fff-114">Greiðsla eða uppgjör upphæða að hluta til er ekki enn studd.</span><span class="sxs-lookup"><span data-stu-id="f7fff-114">Payment or settlement of partial amounts is not yet supported.</span></span>
+> <span data-ttu-id="1e091-114">Greiðsla eða uppgjör upphæða að hluta til er ekki enn studd.</span><span class="sxs-lookup"><span data-stu-id="1e091-114">Payment or settlement of partial amounts is not yet supported.</span></span>
