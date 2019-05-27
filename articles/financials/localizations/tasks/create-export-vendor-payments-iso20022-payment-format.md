@@ -17,36 +17,36 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: b589d64a4446420164175b41f435cf48daac01a9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340546"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1570054"
 ---
-# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a><span data-ttu-id="7636f-103">Stofna og flytja út greiðslur lánardrottna með ISO20022-greiðslusniði</span><span class="sxs-lookup"><span data-stu-id="7636f-103">Create and export vendor payments using ISO20022 payment format</span></span>
+# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a><span data-ttu-id="db2d0-103">Stofna og flytja út greiðslur lánardrottna með ISO20022-greiðslusniði</span><span class="sxs-lookup"><span data-stu-id="db2d0-103">Create and export vendor payments using ISO20022 payment format</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="7636f-104">Þetta efnisatriði sýnir hvernig á að stofna greiðslulínur í greiðslubók lánardrottins og mynda greiðsluskrá lánardrottins með því að nota dæmi um ISO2022 millifærsla fjármuna.</span><span class="sxs-lookup"><span data-stu-id="7636f-104">This topic explains how to create payment lines in the vendor payment journal and generate a vendor payment file using ISO2022 Credit transfer example.</span></span>
+<span data-ttu-id="db2d0-104">Þetta efnisatriði sýnir hvernig á að stofna greiðslulínur í greiðslubók lánardrottins og mynda greiðsluskrá lánardrottins með því að nota dæmi um ISO2022 millifærsla fjármuna.</span><span class="sxs-lookup"><span data-stu-id="db2d0-104">This topic explains how to create payment lines in the vendor payment journal and generate a vendor payment file using ISO2022 Credit transfer example.</span></span>
 
-<span data-ttu-id="7636f-105">Þetta fimmta ferli af fimm sem sýna greiðsluferlinu lánardrottins með því að nota grunnstillingar fyrir rafræna skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="7636f-105">This is the fifth procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="7636f-106">Notaðu DEMF-sýnigögnin til að ljúka þessu dæmi.</span><span class="sxs-lookup"><span data-stu-id="7636f-106">Use the DEMF demo data to complete this example.</span></span>
+<span data-ttu-id="db2d0-105">Þetta fimmta ferli af fimm sem sýna greiðsluferlinu lánardrottins með því að nota grunnstillingar fyrir rafræna skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="db2d0-105">This is the fifth procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="db2d0-106">Notaðu DEMF-sýnigögnin til að ljúka þessu dæmi.</span><span class="sxs-lookup"><span data-stu-id="db2d0-106">Use the DEMF demo data to complete this example.</span></span>
 
-## <a name="example"></a><span data-ttu-id="7636f-107">Dæmi</span><span class="sxs-lookup"><span data-stu-id="7636f-107">Example</span></span>
+## <a name="example"></a><span data-ttu-id="db2d0-107">Dæmi</span><span class="sxs-lookup"><span data-stu-id="db2d0-107">Example</span></span>
 
-1.  <span data-ttu-id="7636f-108">Fara í **Viðskiptaskuldir > Greiðslur > Greiðslubók**.</span><span class="sxs-lookup"><span data-stu-id="7636f-108">Go to **Accounts payable > Payments > Payment journal**.</span></span>
-2.  <span data-ttu-id="7636f-109">Smellt er á **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="7636f-109">Click **New**.</span></span>
-3.  <span data-ttu-id="7636f-110">Sláið inn eða veldu gildi í reitnum **Heiti**.</span><span class="sxs-lookup"><span data-stu-id="7636f-110">In the **Name** field, enter or select a value.</span></span>
-4.  <span data-ttu-id="7636f-111">Smelltu á **Línur > Greiðslutillaga > Stofna greiðslutillögu**.</span><span class="sxs-lookup"><span data-stu-id="7636f-111">Click **Lines > Payment proposal > Create payment proposal**.</span></span>
-5.  <span data-ttu-id="7636f-112">Útvíkka **Færslur til að taka með** hlutann.</span><span class="sxs-lookup"><span data-stu-id="7636f-112">Expand the **Records to include** section.</span></span>
-6.  <span data-ttu-id="7636f-113">Smella á **Sía**.</span><span class="sxs-lookup"><span data-stu-id="7636f-113">Click **Filter**.</span></span>
-7.  <span data-ttu-id="7636f-114">Á listanum skal velja línuna fyrir töflu **Lánardrottna** og reitinn fyrir **Lánardrottnalykil**.</span><span class="sxs-lookup"><span data-stu-id="7636f-114">In the list, select the row for **Vendors table** and **Vendor account field**.</span></span>
-8.  <span data-ttu-id="7636f-115">Í reitinn **Skilyrði** skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="7636f-115">In the **Criteria** field, enter or select a value.</span></span> <span data-ttu-id="7636f-116">Þú getur notað hvaða skilyrði sem er til að velja lánardrottnafærslur til að greiða, í þessu dæmi notaðu DE-001 sem lánardrottnalykil.</span><span class="sxs-lookup"><span data-stu-id="7636f-116">You can apply any criteria for selecting vendor transactions to pay, for this example, use DE-001 as a vendor account.</span></span>
-12. <span data-ttu-id="7636f-117">Smellið á **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="7636f-117">Click **OK**.</span></span>
-13. <span data-ttu-id="7636f-118">Smellið á **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="7636f-118">Click **OK**.</span></span>
-14. <span data-ttu-id="7636f-119">Smellt er á **Stofna greiðslur**.</span><span class="sxs-lookup"><span data-stu-id="7636f-119">Click **Create payments**.</span></span>
-15. <span data-ttu-id="7636f-120">Mynda ISO20022-greiðsluskrá.</span><span class="sxs-lookup"><span data-stu-id="7636f-120">Generate an ISO20022 payment file.</span></span>
-    1.  <span data-ttu-id="7636f-121">Smelltu á **Mynda greiðslur**.</span><span class="sxs-lookup"><span data-stu-id="7636f-121">Click **Generate payments**.</span></span>
-    2.  <span data-ttu-id="7636f-122">Færa inn eða velja gildi í reitnum **Greiðsluaðferð**.</span><span class="sxs-lookup"><span data-stu-id="7636f-122">In the **Method of payment** field, enter or select a value.</span></span>
-    3.  <span data-ttu-id="7636f-123">Í reitinn **Skráarheiti** skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="7636f-123">In the **File name** field, type a value.</span></span> <span data-ttu-id="7636f-124">Fyrir þetta dæmi, vegna EUR greiðslu, verður myndaða skráin samhæf SEPA.</span><span class="sxs-lookup"><span data-stu-id="7636f-124">For this example, because of the EUR payment, the generated file will be SEPA compliant.</span></span> <span data-ttu-id="7636f-125">Einnig er hægt að nota ISO20022 kreditfærslur ásamt öðrum greiðslusniðum lánardrottins til að búa til greiðslur í öðrum gjaldmiðlum.</span><span class="sxs-lookup"><span data-stu-id="7636f-125">ISO20022 credit transfer as well as other vendor payment formats can also be used for generating payments in other currencies.</span></span>
-    4.  <span data-ttu-id="7636f-126">Færa inn eða veljið gildi í svæðinu **Bankareikningur**.</span><span class="sxs-lookup"><span data-stu-id="7636f-126">In the **Bank account** field, enter or select a value.</span></span>
+1.  <span data-ttu-id="db2d0-108">Fara í **Viðskiptaskuldir > Greiðslur > Greiðslubók**.</span><span class="sxs-lookup"><span data-stu-id="db2d0-108">Go to **Accounts payable > Payments > Payment journal**.</span></span>
+2.  <span data-ttu-id="db2d0-109">Smellt er á **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="db2d0-109">Click **New**.</span></span>
+3.  <span data-ttu-id="db2d0-110">Sláið inn eða veldu gildi í reitnum **Heiti**.</span><span class="sxs-lookup"><span data-stu-id="db2d0-110">In the **Name** field, enter or select a value.</span></span>
+4.  <span data-ttu-id="db2d0-111">Smelltu á **Línur > Greiðslutillaga > Stofna greiðslutillögu**.</span><span class="sxs-lookup"><span data-stu-id="db2d0-111">Click **Lines > Payment proposal > Create payment proposal**.</span></span>
+5.  <span data-ttu-id="db2d0-112">Útvíkka **Færslur til að taka með** hlutann.</span><span class="sxs-lookup"><span data-stu-id="db2d0-112">Expand the **Records to include** section.</span></span>
+6.  <span data-ttu-id="db2d0-113">Smella á **Sía**.</span><span class="sxs-lookup"><span data-stu-id="db2d0-113">Click **Filter**.</span></span>
+7.  <span data-ttu-id="db2d0-114">Á listanum skal velja línuna fyrir töflu **Lánardrottna** og reitinn fyrir **Lánardrottnalykil**.</span><span class="sxs-lookup"><span data-stu-id="db2d0-114">In the list, select the row for **Vendors table** and **Vendor account field**.</span></span>
+8.  <span data-ttu-id="db2d0-115">Í reitinn **Skilyrði** skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="db2d0-115">In the **Criteria** field, enter or select a value.</span></span> <span data-ttu-id="db2d0-116">Þú getur notað hvaða skilyrði sem er til að velja lánardrottnafærslur til að greiða, í þessu dæmi notaðu DE-001 sem lánardrottnalykil.</span><span class="sxs-lookup"><span data-stu-id="db2d0-116">You can apply any criteria for selecting vendor transactions to pay, for this example, use DE-001 as a vendor account.</span></span>
+12. <span data-ttu-id="db2d0-117">Smellið á **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="db2d0-117">Click **OK**.</span></span>
+13. <span data-ttu-id="db2d0-118">Smellið á **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="db2d0-118">Click **OK**.</span></span>
+14. <span data-ttu-id="db2d0-119">Smellt er á **Stofna greiðslur**.</span><span class="sxs-lookup"><span data-stu-id="db2d0-119">Click **Create payments**.</span></span>
+15. <span data-ttu-id="db2d0-120">Mynda ISO20022-greiðsluskrá.</span><span class="sxs-lookup"><span data-stu-id="db2d0-120">Generate an ISO20022 payment file.</span></span>
+    1.  <span data-ttu-id="db2d0-121">Smelltu á **Mynda greiðslur**.</span><span class="sxs-lookup"><span data-stu-id="db2d0-121">Click **Generate payments**.</span></span>
+    2.  <span data-ttu-id="db2d0-122">Færa inn eða velja gildi í reitnum **Greiðsluaðferð**.</span><span class="sxs-lookup"><span data-stu-id="db2d0-122">In the **Method of payment** field, enter or select a value.</span></span>
+    3.  <span data-ttu-id="db2d0-123">Í reitinn **Skráarheiti** skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="db2d0-123">In the **File name** field, type a value.</span></span> <span data-ttu-id="db2d0-124">Fyrir þetta dæmi, vegna EUR greiðslu, verður myndaða skráin samhæf SEPA.</span><span class="sxs-lookup"><span data-stu-id="db2d0-124">For this example, because of the EUR payment, the generated file will be SEPA compliant.</span></span> <span data-ttu-id="db2d0-125">Einnig er hægt að nota ISO20022 kreditfærslur ásamt öðrum greiðslusniðum lánardrottins til að búa til greiðslur í öðrum gjaldmiðlum.</span><span class="sxs-lookup"><span data-stu-id="db2d0-125">ISO20022 credit transfer as well as other vendor payment formats can also be used for generating payments in other currencies.</span></span>
+    4.  <span data-ttu-id="db2d0-126">Færa inn eða veljið gildi í svæðinu **Bankareikningur**.</span><span class="sxs-lookup"><span data-stu-id="db2d0-126">In the **Bank account** field, enter or select a value.</span></span>
 

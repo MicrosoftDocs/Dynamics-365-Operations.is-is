@@ -19,36 +19,36 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: feddc690e597bbf20da1aa7b2e69ebc231bdecc2
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "341443"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1553301"
 ---
-# <a name="view-dispatch-teams"></a><span data-ttu-id="f1409-103">Skoða sendingarhópa</span><span class="sxs-lookup"><span data-stu-id="f1409-103">View dispatch teams</span></span>   
+# <a name="view-dispatch-teams"></a><span data-ttu-id="0da8f-103">Skoða sendingarhópa</span><span class="sxs-lookup"><span data-stu-id="0da8f-103">View dispatch teams</span></span>   
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="f1409-104">Þjónustupantanir í skjámyndinni **Sendingartafla** eru flokkaðar eftir sendingarhópi.</span><span class="sxs-lookup"><span data-stu-id="f1409-104">Service orders in the **Dispatch board** form are grouped by dispatch team.</span></span>
+<span data-ttu-id="0da8f-104">Þjónustupantanir í skjámyndinni **Sendingartafla** eru flokkaðar eftir sendingarhópi.</span><span class="sxs-lookup"><span data-stu-id="0da8f-104">Service orders in the **Dispatch board** form are grouped by dispatch team.</span></span>
 
-1.  <span data-ttu-id="f1409-105">Smelltu á **Þjónustustjórnun** \> **Reglubundið** \> **Sendingartafla**.</span><span class="sxs-lookup"><span data-stu-id="f1409-105">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
+1.  <span data-ttu-id="0da8f-105">Smelltu á **Þjónustustjórnun** \> **Reglubundið** \> **Sendingartafla**.</span><span class="sxs-lookup"><span data-stu-id="0da8f-105">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
 
-2.  <span data-ttu-id="f1409-106">Velja dagsetningarsvið og smellið svo á **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="f1409-106">Select a date range, and then click **OK**.</span></span>
+2.  <span data-ttu-id="0da8f-106">Velja dagsetningarsvið og smellið svo á **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="0da8f-106">Select a date range, and then click **OK**.</span></span>
 
-3.  <span data-ttu-id="f1409-107">Í skjámyndinni **Sendingartafla**, í Gantt-ritinu efst í skjámyndinni, skaltu stækka hóplista til að yfirfara nöfn starfsmanna sem eru í hópnum.</span><span class="sxs-lookup"><span data-stu-id="f1409-107">In the **Dispatch board** form, in the Gantt chart at the top of the form, expand a team list to review the names of the workers on the team.</span></span> <span data-ttu-id="f1409-108">Einnig er hægt að skoða upplýsingar um þjónustuverkþættina sem eru úthlutaðir hverjum starfsmanni.</span><span class="sxs-lookup"><span data-stu-id="f1409-108">You can also view details about the service activities that are assigned to each worker.</span></span>
+3.  <span data-ttu-id="0da8f-107">Í skjámyndinni **Sendingartafla**, í Gantt-ritinu efst í skjámyndinni, skaltu stækka hóplista til að yfirfara nöfn starfsmanna sem eru í hópnum.</span><span class="sxs-lookup"><span data-stu-id="0da8f-107">In the **Dispatch board** form, in the Gantt chart at the top of the form, expand a team list to review the names of the workers on the team.</span></span> <span data-ttu-id="0da8f-108">Einnig er hægt að skoða upplýsingar um þjónustuverkþættina sem eru úthlutaðir hverjum starfsmanni.</span><span class="sxs-lookup"><span data-stu-id="0da8f-108">You can also view details about the service activities that are assigned to each worker.</span></span>
 
-<span data-ttu-id="f1409-109">Til að fá upplýsingar um hvernig á að úthluta starfsmanni á hóp skaltu sjá [Setja upp æskilegan tæknimann](set-up-preferred-technician.md).</span><span class="sxs-lookup"><span data-stu-id="f1409-109">For information about how to assign a worker to a team, see [Set up a preferred technician](set-up-preferred-technician.md).</span></span>
+<span data-ttu-id="0da8f-109">Til að fá upplýsingar um hvernig á að úthluta starfsmanni á hóp skaltu sjá [Setja upp æskilegan tæknimann](set-up-preferred-technician.md).</span><span class="sxs-lookup"><span data-stu-id="0da8f-109">For information about how to assign a worker to a team, see [Set up a preferred technician](set-up-preferred-technician.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="f1409-110">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="f1409-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0da8f-110">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="0da8f-110">See also</span></span>
 
-[<span data-ttu-id="f1409-111">Forgangsröðun þjónustupantana</span><span class="sxs-lookup"><span data-stu-id="f1409-111">Prioritize service orders</span></span>](prioritize-service-orders.md)
+[<span data-ttu-id="0da8f-111">Forgangsröðun þjónustupantana</span><span class="sxs-lookup"><span data-stu-id="0da8f-111">Prioritize service orders</span></span>](prioritize-service-orders.md)
 
-[<span data-ttu-id="f1409-112">Skoða stöðu þjónustupantana</span><span class="sxs-lookup"><span data-stu-id="f1409-112">View the status of service orders</span></span>](view-the-status-of-service-orders.md)
+[<span data-ttu-id="0da8f-112">Skoða stöðu þjónustupantana</span><span class="sxs-lookup"><span data-stu-id="0da8f-112">View the status of service orders</span></span>](view-the-status-of-service-orders.md)
 
-[<span data-ttu-id="f1409-113">Fylgjast með þjónustuþáttum</span><span class="sxs-lookup"><span data-stu-id="f1409-113">Monitor service activities</span></span>](monitor-service-activities.md)
+[<span data-ttu-id="0da8f-113">Fylgjast með þjónustuþáttum</span><span class="sxs-lookup"><span data-stu-id="0da8f-113">Monitor service activities</span></span>](monitor-service-activities.md)
 
-<span data-ttu-id="f1409-114">[Sendingartafla (skjámynd)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="f1409-114">[Dispatch board (form)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))</span></span>
+<span data-ttu-id="0da8f-114">[Sendingartafla (skjámynd)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="0da8f-114">[Dispatch board (form)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))</span></span>
 
   
 

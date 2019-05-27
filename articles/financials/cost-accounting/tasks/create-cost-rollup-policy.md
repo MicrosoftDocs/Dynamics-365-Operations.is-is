@@ -16,55 +16,55 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5f1fa434061832bd306cef13afc46c7f3adab0c0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "362603"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1543749"
 ---
-# <a name="create-a-cost-rollup-policy"></a><span data-ttu-id="2dd79-103">Stofna reglu fyrir samantekt kostnaðar</span><span class="sxs-lookup"><span data-stu-id="2dd79-103">Create a cost rollup policy</span></span>
+# <a name="create-a-cost-rollup-policy"></a><span data-ttu-id="1691c-103">Stofna reglu fyrir samantekt kostnaðar</span><span class="sxs-lookup"><span data-stu-id="1691c-103">Create a cost rollup policy</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="2dd79-104">Þetta ferli sýnir hvernig skal stofna stefnu fyrir samantekt kostnaðar og stofna reglur fyrir stefnuna.</span><span class="sxs-lookup"><span data-stu-id="2dd79-104">This procedure shows how to create a cost rollup policy and create rules for the policy.</span></span> <span data-ttu-id="2dd79-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er USP2.</span><span class="sxs-lookup"><span data-stu-id="2dd79-105">The demo data used to create this procedure is USP2.</span></span>
+<span data-ttu-id="1691c-104">Þetta ferli sýnir hvernig skal stofna stefnu fyrir samantekt kostnaðar og stofna reglur fyrir stefnuna.</span><span class="sxs-lookup"><span data-stu-id="1691c-104">This procedure shows how to create a cost rollup policy and create rules for the policy.</span></span> <span data-ttu-id="1691c-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er USP2.</span><span class="sxs-lookup"><span data-stu-id="1691c-105">The demo data used to create this procedure is USP2.</span></span>
 
 
-## <a name="create-a-policy"></a><span data-ttu-id="2dd79-106">Stofna Stefnu</span><span class="sxs-lookup"><span data-stu-id="2dd79-106">Create a policy</span></span>
-1. <span data-ttu-id="2dd79-107">Fara í Kostnaðarbókhald > Stefnur > Stefnur fyrir samantekt kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="2dd79-107">Go to Cost accounting > Policies > Cost rollup policies.</span></span>
-2. <span data-ttu-id="2dd79-108">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="2dd79-108">Click New.</span></span>
-3. <span data-ttu-id="2dd79-109">Sláið inn gildi í reitinn Stefnuheiti.</span><span class="sxs-lookup"><span data-stu-id="2dd79-109">In the Policy name field, type a value.</span></span>
-4. <span data-ttu-id="2dd79-110">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="2dd79-110">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="2dd79-111">Sláið inn eða veljið gildi í reitnum Stigveldi víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="2dd79-111">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="2dd79-112">Velja samantekt kostnaðar CC</span><span class="sxs-lookup"><span data-stu-id="2dd79-112">Select Cost rollup CC.</span></span>  
-6. <span data-ttu-id="2dd79-113">Sláið inn eða veljið gildi í reitnum Stigveldi víddar kostnaðareiningar.</span><span class="sxs-lookup"><span data-stu-id="2dd79-113">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="2dd79-114">Velja samantekt kostnaðar CC</span><span class="sxs-lookup"><span data-stu-id="2dd79-114">Select Cost rollup CC.</span></span>  
-7. <span data-ttu-id="2dd79-115">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="2dd79-115">Click Save.</span></span>
+## <a name="create-a-policy"></a><span data-ttu-id="1691c-106">Stofna Stefnu</span><span class="sxs-lookup"><span data-stu-id="1691c-106">Create a policy</span></span>
+1. <span data-ttu-id="1691c-107">Fara í Kostnaðarbókhald > Stefnur > Stefnur fyrir samantekt kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="1691c-107">Go to Cost accounting > Policies > Cost rollup policies.</span></span>
+2. <span data-ttu-id="1691c-108">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="1691c-108">Click New.</span></span>
+3. <span data-ttu-id="1691c-109">Sláið inn gildi í reitinn Stefnuheiti.</span><span class="sxs-lookup"><span data-stu-id="1691c-109">In the Policy name field, type a value.</span></span>
+4. <span data-ttu-id="1691c-110">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="1691c-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="1691c-111">Sláið inn eða veljið gildi í reitnum Stigveldi víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="1691c-111">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="1691c-112">Velja samantekt kostnaðar CC</span><span class="sxs-lookup"><span data-stu-id="1691c-112">Select Cost rollup CC.</span></span>  
+6. <span data-ttu-id="1691c-113">Sláið inn eða veljið gildi í reitnum Stigveldi víddar kostnaðareiningar.</span><span class="sxs-lookup"><span data-stu-id="1691c-113">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="1691c-114">Velja samantekt kostnaðar CC</span><span class="sxs-lookup"><span data-stu-id="1691c-114">Select Cost rollup CC.</span></span>  
+7. <span data-ttu-id="1691c-115">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="1691c-115">Click Save.</span></span>
 
-## <a name="create-rules-for-the-cost-rollup-policy"></a><span data-ttu-id="2dd79-116">Stofna reglur fyrir stefnuna fyrir samantekinn kostnað.</span><span class="sxs-lookup"><span data-stu-id="2dd79-116">Create rules for the cost rollup policy</span></span>
-1. <span data-ttu-id="2dd79-117">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="2dd79-117">Click New.</span></span>
-2. <span data-ttu-id="2dd79-118">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="2dd79-118">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="2dd79-119">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="2dd79-119">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="2dd79-120">Velja 007</span><span class="sxs-lookup"><span data-stu-id="2dd79-120">Select 007.</span></span>  
-4. <span data-ttu-id="2dd79-121">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðareiningar.</span><span class="sxs-lookup"><span data-stu-id="2dd79-121">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="2dd79-122">Velja samantekt kostnaðar CE</span><span class="sxs-lookup"><span data-stu-id="2dd79-122">Select Cost rollup CE.</span></span>  
-5. <span data-ttu-id="2dd79-123">Sláið inn eða veljið gildi í reitnum Aukakostnaðareining.</span><span class="sxs-lookup"><span data-stu-id="2dd79-123">In the Secondary cost element field, enter or select a value.</span></span>
-    * <span data-ttu-id="2dd79-124">Í þessu dæmi skal varpa aukakostnaðareiningunni CC-007 til kostnaðarstaðar.</span><span class="sxs-lookup"><span data-stu-id="2dd79-124">For this example, map the secondary cost element CC-007 to the cost center.</span></span>  
-6. <span data-ttu-id="2dd79-125">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="2dd79-125">Click New.</span></span>
-7. <span data-ttu-id="2dd79-126">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="2dd79-126">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="2dd79-127">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="2dd79-127">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="2dd79-128">Velja 008.</span><span class="sxs-lookup"><span data-stu-id="2dd79-128">Select 008.</span></span>  
-9. <span data-ttu-id="2dd79-129">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðareiningar.</span><span class="sxs-lookup"><span data-stu-id="2dd79-129">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="2dd79-130">Velja samantekt kostnaðar CE</span><span class="sxs-lookup"><span data-stu-id="2dd79-130">Select Cost rollup CE.</span></span>  
-10. <span data-ttu-id="2dd79-131">Sláið inn eða veljið gildi í reitnum Aukakostnaðareining.</span><span class="sxs-lookup"><span data-stu-id="2dd79-131">In the Secondary cost element field, enter or select a value.</span></span>
-    * <span data-ttu-id="2dd79-132">Í þessu dæmi skal varpa aukakostnaðareiningunni CC-008 til kostnaðarstaðar.</span><span class="sxs-lookup"><span data-stu-id="2dd79-132">For this example, map the secondary cost element CC-008 to the cost center.</span></span>  
-11. <span data-ttu-id="2dd79-133">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="2dd79-133">Click New.</span></span>
-12. <span data-ttu-id="2dd79-134">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="2dd79-134">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="2dd79-135">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="2dd79-135">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="2dd79-136">Velja 009.</span><span class="sxs-lookup"><span data-stu-id="2dd79-136">Select 009.</span></span>  
-14. <span data-ttu-id="2dd79-137">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðareiningar.</span><span class="sxs-lookup"><span data-stu-id="2dd79-137">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="2dd79-138">Velja samantekt kostnaðar CE</span><span class="sxs-lookup"><span data-stu-id="2dd79-138">Select Cost rollup CE.</span></span>  
-15. <span data-ttu-id="2dd79-139">Sláið inn eða veljið gildi í reitnum Aukakostnaðareining.</span><span class="sxs-lookup"><span data-stu-id="2dd79-139">In the Secondary cost element field, enter or select a value.</span></span>
-    * <span data-ttu-id="2dd79-140">Í þessu dæmi skal varpa aukakostnaðareiningunni CC-009 til kostnaðarstaðar.</span><span class="sxs-lookup"><span data-stu-id="2dd79-140">For this example, map the secondary cost element CC-009 to the cost center.</span></span>  
-    * <span data-ttu-id="2dd79-141">Halda áfram þar til allir kostnaðarstaðir eru varpaðir til samsvarandi aukakostnaðareiningar þeirra.</span><span class="sxs-lookup"><span data-stu-id="2dd79-141">Continue until all cost centers are mapped to their corresponding secondary cost elements.</span></span>  
-16. <span data-ttu-id="2dd79-142">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="2dd79-142">Click Save.</span></span>
+## <a name="create-rules-for-the-cost-rollup-policy"></a><span data-ttu-id="1691c-116">Stofna reglur fyrir stefnuna fyrir samantekinn kostnað.</span><span class="sxs-lookup"><span data-stu-id="1691c-116">Create rules for the cost rollup policy</span></span>
+1. <span data-ttu-id="1691c-117">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="1691c-117">Click New.</span></span>
+2. <span data-ttu-id="1691c-118">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="1691c-118">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="1691c-119">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="1691c-119">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="1691c-120">Velja 007</span><span class="sxs-lookup"><span data-stu-id="1691c-120">Select 007.</span></span>  
+4. <span data-ttu-id="1691c-121">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðareiningar.</span><span class="sxs-lookup"><span data-stu-id="1691c-121">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="1691c-122">Velja samantekt kostnaðar CE</span><span class="sxs-lookup"><span data-stu-id="1691c-122">Select Cost rollup CE.</span></span>  
+5. <span data-ttu-id="1691c-123">Sláið inn eða veljið gildi í reitnum Aukakostnaðareining.</span><span class="sxs-lookup"><span data-stu-id="1691c-123">In the Secondary cost element field, enter or select a value.</span></span>
+    * <span data-ttu-id="1691c-124">Í þessu dæmi skal varpa aukakostnaðareiningunni CC-007 til kostnaðarstaðar.</span><span class="sxs-lookup"><span data-stu-id="1691c-124">For this example, map the secondary cost element CC-007 to the cost center.</span></span>  
+6. <span data-ttu-id="1691c-125">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="1691c-125">Click New.</span></span>
+7. <span data-ttu-id="1691c-126">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="1691c-126">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="1691c-127">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="1691c-127">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="1691c-128">Velja 008.</span><span class="sxs-lookup"><span data-stu-id="1691c-128">Select 008.</span></span>  
+9. <span data-ttu-id="1691c-129">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðareiningar.</span><span class="sxs-lookup"><span data-stu-id="1691c-129">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="1691c-130">Velja samantekt kostnaðar CE</span><span class="sxs-lookup"><span data-stu-id="1691c-130">Select Cost rollup CE.</span></span>  
+10. <span data-ttu-id="1691c-131">Sláið inn eða veljið gildi í reitnum Aukakostnaðareining.</span><span class="sxs-lookup"><span data-stu-id="1691c-131">In the Secondary cost element field, enter or select a value.</span></span>
+    * <span data-ttu-id="1691c-132">Í þessu dæmi skal varpa aukakostnaðareiningunni CC-008 til kostnaðarstaðar.</span><span class="sxs-lookup"><span data-stu-id="1691c-132">For this example, map the secondary cost element CC-008 to the cost center.</span></span>  
+11. <span data-ttu-id="1691c-133">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="1691c-133">Click New.</span></span>
+12. <span data-ttu-id="1691c-134">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="1691c-134">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="1691c-135">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="1691c-135">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="1691c-136">Velja 009.</span><span class="sxs-lookup"><span data-stu-id="1691c-136">Select 009.</span></span>  
+14. <span data-ttu-id="1691c-137">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðareiningar.</span><span class="sxs-lookup"><span data-stu-id="1691c-137">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="1691c-138">Velja samantekt kostnaðar CE</span><span class="sxs-lookup"><span data-stu-id="1691c-138">Select Cost rollup CE.</span></span>  
+15. <span data-ttu-id="1691c-139">Sláið inn eða veljið gildi í reitnum Aukakostnaðareining.</span><span class="sxs-lookup"><span data-stu-id="1691c-139">In the Secondary cost element field, enter or select a value.</span></span>
+    * <span data-ttu-id="1691c-140">Í þessu dæmi skal varpa aukakostnaðareiningunni CC-009 til kostnaðarstaðar.</span><span class="sxs-lookup"><span data-stu-id="1691c-140">For this example, map the secondary cost element CC-009 to the cost center.</span></span>  
+    * <span data-ttu-id="1691c-141">Halda áfram þar til allir kostnaðarstaðir eru varpaðir til samsvarandi aukakostnaðareiningar þeirra.</span><span class="sxs-lookup"><span data-stu-id="1691c-141">Continue until all cost centers are mapped to their corresponding secondary cost elements.</span></span>  
+16. <span data-ttu-id="1691c-142">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="1691c-142">Click Save.</span></span>
 

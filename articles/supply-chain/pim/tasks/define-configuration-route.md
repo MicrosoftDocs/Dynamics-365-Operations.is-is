@@ -17,32 +17,32 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: abe1d5c5a8ec744ec61739e3ec6505236022b8d8
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361177"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567806"
 ---
-# <a name="define-configuration-route"></a><span data-ttu-id="77510-103">Skilgreina grunnstillingaleið</span><span class="sxs-lookup"><span data-stu-id="77510-103">Define configuration route</span></span>
+# <a name="define-configuration-route"></a><span data-ttu-id="89bd8-103">Skilgreina grunnstillingaleið</span><span class="sxs-lookup"><span data-stu-id="89bd8-103">Define configuration route</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="77510-104">Þetta ferli leggur áherslu á skilgreiningu afbrigðaleið sem ákvarðar röðina sem skilgreiningaflokkar eru sýndir í.</span><span class="sxs-lookup"><span data-stu-id="77510-104">This procedure focuses on defining a configuration route that determines the sequence in which the configuration groups will be presented.</span></span> <span data-ttu-id="77510-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="77510-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="77510-106">Þetta er sjötta ferli af átta sem útskýrir hvernig á að byggja upp samsetningar fyrir víddaskilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="77510-106">This is the sixth procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
+<span data-ttu-id="89bd8-104">Þetta ferli leggur áherslu á skilgreiningu afbrigðaleið sem ákvarðar röðina sem skilgreiningaflokkar eru sýndir í.</span><span class="sxs-lookup"><span data-stu-id="89bd8-104">This procedure focuses on defining a configuration route that determines the sequence in which the configuration groups will be presented.</span></span> <span data-ttu-id="89bd8-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="89bd8-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="89bd8-106">Þetta er sjötta ferli af átta sem útskýrir hvernig á að byggja upp samsetningar fyrir víddaskilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="89bd8-106">This is the sixth procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
 
-1. <span data-ttu-id="77510-107">Fara í Upplýsingar um afurðarstjórnun > Uppskriftir efni og formúlur > Uppskriftir.</span><span class="sxs-lookup"><span data-stu-id="77510-107">Go to Product information management > Bills of materials and formulas > Bills of materials.</span></span>
-2. <span data-ttu-id="77510-108">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="77510-108">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="77510-109">Í aðgerðasvæðinu er smellt á valkostir.</span><span class="sxs-lookup"><span data-stu-id="77510-109">On the Action Pane, click Options.</span></span>
-4. <span data-ttu-id="77510-110">Smellið á skoða Breytingu.</span><span class="sxs-lookup"><span data-stu-id="77510-110">Click Change view.</span></span>
-5. <span data-ttu-id="77510-111">Smellið á skoða Haus.</span><span class="sxs-lookup"><span data-stu-id="77510-111">Click Header view.</span></span>
-6. <span data-ttu-id="77510-112">Stækka eða fella saman hlutann Afbrigðaleið.</span><span class="sxs-lookup"><span data-stu-id="77510-112">Expand or collapse the Configuration route section.</span></span>
-7. <span data-ttu-id="77510-113">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="77510-113">Click Add.</span></span>
-8. <span data-ttu-id="77510-114">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="77510-114">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="77510-115">Í reitnum afbrigðisflokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="77510-115">In the Configuration group field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="77510-116">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="77510-116">In the list, click the link in the selected row.</span></span>
-11. <span data-ttu-id="77510-117">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="77510-117">Click Add.</span></span>
-12. <span data-ttu-id="77510-118">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="77510-118">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="77510-119">Í reitnum afbrigðisflokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="77510-119">In the Configuration group field, click the drop-down button to open the lookup.</span></span>
-14. <span data-ttu-id="77510-120">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="77510-120">In the list, find and select the desired record.</span></span>
-15. <span data-ttu-id="77510-121">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="77510-121">In the list, click the link in the selected row.</span></span>
-16. <span data-ttu-id="77510-122">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="77510-122">Click Save.</span></span>
+1. <span data-ttu-id="89bd8-107">Fara í Upplýsingar um afurðarstjórnun > Uppskriftir efni og formúlur > Uppskriftir.</span><span class="sxs-lookup"><span data-stu-id="89bd8-107">Go to Product information management > Bills of materials and formulas > Bills of materials.</span></span>
+2. <span data-ttu-id="89bd8-108">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="89bd8-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="89bd8-109">Í aðgerðasvæðinu er smellt á valkostir.</span><span class="sxs-lookup"><span data-stu-id="89bd8-109">On the Action Pane, click Options.</span></span>
+4. <span data-ttu-id="89bd8-110">Smellið á skoða Breytingu.</span><span class="sxs-lookup"><span data-stu-id="89bd8-110">Click Change view.</span></span>
+5. <span data-ttu-id="89bd8-111">Smellið á skoða Haus.</span><span class="sxs-lookup"><span data-stu-id="89bd8-111">Click Header view.</span></span>
+6. <span data-ttu-id="89bd8-112">Stækka eða fella saman hlutann Afbrigðaleið.</span><span class="sxs-lookup"><span data-stu-id="89bd8-112">Expand or collapse the Configuration route section.</span></span>
+7. <span data-ttu-id="89bd8-113">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="89bd8-113">Click Add.</span></span>
+8. <span data-ttu-id="89bd8-114">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="89bd8-114">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="89bd8-115">Í reitnum afbrigðisflokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="89bd8-115">In the Configuration group field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="89bd8-116">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="89bd8-116">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="89bd8-117">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="89bd8-117">Click Add.</span></span>
+12. <span data-ttu-id="89bd8-118">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="89bd8-118">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="89bd8-119">Í reitnum afbrigðisflokkur skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="89bd8-119">In the Configuration group field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="89bd8-120">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="89bd8-120">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="89bd8-121">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="89bd8-121">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="89bd8-122">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="89bd8-122">Click Save.</span></span>
 
