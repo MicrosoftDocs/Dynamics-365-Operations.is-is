@@ -3,7 +3,7 @@ title: Endurflokka eignir
 description: Til að endurflokka eign verður að færa hana í nýjan eignaflokk eða að úthluta henni nýju eignanúmeri innan sama flokks.
 author: saraschi2
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 05/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8e289e2c18fd28829fb4b749933ae1d84e0b631
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: df4a2fa3c1a38519da83391bcf1c4aa38b6504ff
+ms.sourcegitcommit: 6890b5a372a18e11354003098a512685e339ddb0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "323296"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541198"
 ---
 # <a name="reclassify-fixed-assets"></a>Endurflokka eignir
 
@@ -30,18 +30,19 @@ Til að endurflokka eign verður að færa hana í nýjan eignaflokk eða að ú
 
 Þegar eign er endurflokkuð:
 
-• Öll virðislíkön fyrirliggjandi eigna eru stofnuð fyrir nýju eignina. Allar upplýsingar sem voru settar upp fyrir upprunalegu eignina eru afritaðar í nýju eignina. Staða virðislíkana fyrir upprunalegu eignina er Lokað. 
+• Allar bækur fyrirliggjandi eigna eru stofnaðar fyrir nýju eignina. Allar upplýsingar sem voru settar upp fyrir upprunalegu eignina eru afritaðar í nýju eignina. Staða bókanna fyrir upprunalegu eignina er Lokað. 
 
-• Nýju virðislíkön nýju eignarinnar innihalda dagsetningu endurflokkunarinnar í svæðinu Kaupdagsetning. Dagsetningin í svæði Dagsetning afskriftarkeyrslu er afrituð úr upprunalegu eignaupplýsingunum. Ef afskriftir eru þegar hafnar sýnir svæðið Dagsetningin þegar afskriftir voru síðast keyrðar dagsetningu endurflokkunarinnar. 
+• Nýju bækur nýju eignarinnar innihalda dagsetningu endurflokkunarinnar í svæðinu **Kaupdagsetning**. Dagsetningin í svæði **Dagsetning afskriftarkeyrslu** er afrituð úr upprunalegu eignaupplýsingunum. Ef afskriftir eru þegar hafnar sýnir svæðið **Dagsetningin þegar afskriftir voru síðast keyrðar** dagsetningu endurflokkunarinnar. 
 
 • Hætt er við fyrirliggjandi eignafærslur upprunalegu eignarinnar og þær myndaðar aftur fyrir nýju eignina.
 
-1. Fara í Eignir > Reglubundin verkefni > Endurflokkun.
-2. Í svæði Eignaflokkur, velja flokk til að endurflokka.
-3. Í svæði Eignanúmer, velja eign sem endurflokka.
-4. Í svæði  Nýr eignaflokkur, velja flokk til að flytja eign í.
-    * Ef nýr eignaflokkur er festur við númeraröð er svæði Nýtt eignanúmer uppfærður með númer úr númeraröð nýtt eignaflokkur. Annars er svæði Nýtt eignanúmer uppfærður með númer úr númeraröð sem er sett upp á síðu Færibreytur eigna. Ef númeraröð er ekki sett upp á síðu Færibreytur eigna skal slá inn númer í svæði Nýtt eignanúmer.  
-5. Í svæði Dagsetning endurflokkunar slá inn dagsetning.
-6. Í reitinn fylgiskjalaruna skal slá inn eða velja gildi.
-7. Smellið á „Í lagi“.
+Fylgið þessum skrefum til að endurflokka eign:
 
+1. Fara í **Eignir > Reglubundin verkefni > Endurflokkun.**
+2. Í svæðinu **Eignaflokkur** skal velja flokk til að endurflokka.
+3. Í svæði **Eignanúmer** skal velja eign sem endurflokka.
+4. Í reitnum **Nýr eignaflokkur** skal velja flokk til að flytja eign í.
+    * Ef nýr eignaflokkur er festur við númeraröð er svæði **Nýtt eignanúmer** uppfærður með númer úr númeraröð nýtt eignaflokkur. Annars er svæðið **Nýtt eignanúmer** uppfært með númeri úr númeraröð sem er sett upp á síðunni **Færibreytur eigna**. Ef númeraröð er ekki sett upp á síðunni **Færibreytur eigna** skal slá inn númerið í svæðinu **Nýtt eignanúmer**.  
+5. Í svæði **Dagsetning endurflokkunar** skal slá inn dagsetning.
+6. Í reitinn **fylgiskjalaruna** skal slá inn eða velja gildi.
+7. Smellt er á **OK**.

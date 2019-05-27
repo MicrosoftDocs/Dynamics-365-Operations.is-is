@@ -20,11 +20,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: bc70b9cffd8716bc1d90cdb611076b4fc0bf6b30
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "355680"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1563669"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Vegið meðaltal með efnislegt virði og merkingu
 
@@ -95,7 +95,7 @@ Eftirfarandi færslur eru sýndar í myndrænt fyrir neðan:
 -   2a. Efnisleg innhreyfing birgða uppfærð í magnið 1 á kostnaðinum 12,00 USD hver.
 -   2b. Fjárhagsleg innhreyfing birgða uppfærða í magnið 1 á kostnaðinum 16,00 USD hver.
 -   3a. Efnisleg úthreyfing birgða uppfærð í magnið 1 á kostnaðinum 14,67 USD hver (meðalverð).
--   3a. Fjárhagsleg úthreyfing birgða uppfærð í magnið 1 á kostnaðinum 14,67 USD hver (meðalverð).
+-   3b. Fjárhagsleg úthreyfing birgða uppfærð í magnið 1 á kostnaðinum 14,67 USD hver (meðalverð).
 -   4a. Efnisleg innhreyfing birgða uppfærð í magnið 1 á kostnaðinum 14,00 USD hver.
 -   4b. Fjárhagsleg innhreyfing birgða uppfærða í magnið 1 á kostnaðinum 16,00 USD hver.
 -   5. Birgðalokun er framkvæmd.
@@ -201,7 +201,7 @@ Eftirfarandi færslur birtast á myndinni hér fyrir neðan:
 -   1a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 10,00 USD á hverja.
 -   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 10,00 USD á hverja.
 -   2a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 20,00 USD á hverja.
--   1b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
+-   2b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 20,00 USD á hverja.
 -   3a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 25,00 USD á hverja.
 -   4a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 30,00 USD á hverja.
 -   4b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 30,00 USD á hverja.

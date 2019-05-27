@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20a7781486c6e0612c27af02a1bccbc48c55a932
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c5cfe92b8733a0a6d76e074cc31eec3f3935b512
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353794"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530869"
 ---
 # <a name="define-financial-dimensions"></a>Skilgreina fjárhagsvíddir
 
@@ -32,8 +32,8 @@ ms.locfileid: "353794"
 
 ## <a name="create-an-entity-backed-financial-dimension"></a>Stofna fjárhagsvídd afritaðra eininga.
 1. Fara í fjárhag > Línurit yfir lykla > Víddir > Fjárhagsvíddir.
-2. Smellið á „Nýtt“.
-3. Í reitnum Notandagildi úr reit skal velja kerfisskilgreinda einingu til að byggja fjárhagsvíddir á. 
+2. Smellið á Nýtt.
+3. Í skjámyndarreitnum Notandagildi skal velja kerfisskilgreinda einingu til að byggja fjárhagsvíddina á. 
 4. Í reitinn Heiti víddar skal slá inn gildi til að lýsa fjárhagsvídd.
     * Heitið getur verið annað en kerfisskilgreind eining en má ekki innihalda bil eða sérstafi.  
 5. Smellið á Virkja.
@@ -46,8 +46,8 @@ ms.locfileid: "353794"
 
 ## <a name="create-a-custom-financial-dimension"></a>Stofna sérstillta fjárhagsvídd
 1. Lokið síðunni.
-2. Smellið á „Nýtt“.
-3. Á Nota virði frá svæðinu, veljið <Custom dimension>.
+2. Smellið á Nýtt.
+3. Á svæðinu Nota virði frá svæðinu, veljið Custom dimension.
 4. Í reitinn Heiti víddar skal slá inn gildi til að lýsa fjárhagsvídd.
     * Heitið getur ekki innihaldið bil eða sérstafi.  
     * Einnig er hægt að tilgreina lykilsíu til að takmarka magn og gerð upplýsinga sem hægt er að færa inn víddargildi fyrir.   

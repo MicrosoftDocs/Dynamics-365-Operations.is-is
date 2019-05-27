@@ -1,9 +1,9 @@
 ---
 title: Sýna pöntunartilkynningar á sölustað (POS)
-description: Þetta efnisatriði lýsir því hvernig hægt er að virkja pöntunartilkynningar á sölustað og tilkynningarammann. Á endanum munu þróunaraðilar geta útfært þessar tilkynningar á fleiri aðgerðir en pöntunaruppfyllingaraðgerðir.
+description: Þetta efnisatriði lýsir því hvernig hægt er að virkja pöntunartilkynningar á sölustað og tilkynningarammann.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/13/2018
+ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 41f16d13051f6095bdb04af1586ec06fe0ce93f6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e7aceed380f6722353574470d6dee75ebe105c18
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361338"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530271"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Sýna pöntunartilkynningar á sölustað (POS)
 
@@ -67,6 +67,10 @@ Hnappar sölustaðar geta nú sýnt fjölda til að auðvelda starfsmönnum að 
 Eftirfarandi skýringarmynd sýnir stillingar á beinu efni í hnappahniti hönnuðar.
 
 ![Stillingar á beinu efni í hnappahniti hönnuðar](./media/ButtonGridDesigner.png "Stillingar á beinu efni í hnappahniti hönnuðar")
+
+Til að sýna talningu tilkynningar á hnappi þarf að tryggja að verið sé að uppfæra rétt skjáútlit. Til að ákvarða skjáútlitið sem sölustaður er að nota skal velja táknið **Stillingar** efst í hægra horninu og taka niður **Auðkenni skjáútlits** og **Upplausn útlits**. Nú með Edge-vafra skal opna síðuna **Skjáútlit** í Dynamics 365 for Finance and Operations, finna **Auðkenni skjáútlits** og **Upplausn útlits** sem er tilgreint efst og velja gátreitinn **Gera lifandi efni virkt**. Farið í **Smásala > Smásöluupplýsingatækni > Dreifingaráætlun** og keyrið 1090 (afgreiðslukassar) verk til að samstilla breytingar á útliti. 
+
+![Finna skjáútlit sem sölustaður notar](./media/Choose_screen_layout.png "Finna skjáútlit ")
 
 Eftirfarandi skýringarmynd sýnir áhrif þess að velja **Efst til hægri** á móti **Miðju** í reitnum **Jöfnun efnis** fyrir hnappa af ýmsum stærðum.
 

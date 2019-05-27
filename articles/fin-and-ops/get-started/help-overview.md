@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23bf579c1a4a315d0c12f848a71f89fc297c8625
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 17697677e0264c98088d5803e867e78ff3fdb5de
+ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "350735"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1538957"
 ---
 # <a name="finance-and-operations-help-system"></a>Hjálparkerfi Finance and Operations
 
@@ -90,8 +90,6 @@ Við viljum endilega heyra af viðbrögðum viðskiptavina. Þú getur annaðhvo
 Ef þú vilt láta í ljós viðbrögð eða spyrja spurninga um efni skaltu láta okkur vita neðst á síðunni.
 
 1. Smelltu á **Ábendingar** til að sjá athugasemdir neðst á síðunni og smelltu síðan á annaðhvort **Ábending um vöru** eða **Skrá inn á til að skrá inn ábendingu**.
-
-    ![Ábendingar](./media/comments.png)
 
 2. Byrjaðu að færa inn athugasemdir og smelltu síðan á **Birta ábendingu**.
 

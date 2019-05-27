@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 520dcaa1eec3c0fb8aa72fc7f75a56622069881f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356692"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1555062"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Stjórna notendum fyrir samstarf lánardrottna
 
@@ -31,7 +31,7 @@ ms.locfileid: "356692"
 
 Þetta efnisatriði lýsir því hvernig má biðja um ráðstafanir fyrir nýja notendur samstarf lánardrottna og hvernig má bæta við nýjum tengiliðum samstarfs lánardrottna. 
 
-Viðmót fyrir samstarf lánardrottna í Microsoft Dynamics 365 for Finance and Operations sýnir upplýsingar um innkaupapantanir, reikninga og vörusendingabirgðir til ytri lánardrottnum. Hægt er að stofna nýjan tengiliði fyrir samstarf lánardrottna og biðja um að nýjum notendum er úthlutað ef verið er að vinna sem ytri lánardrottni öryggishlutverk **Lánardrottinn sem er stjórnandi (ytri)** eða svipuð heimildir. Einnig er hægt að framkvæma þessi verk ef verið er að vinna sem innkaupasérfræðingur. Í þessu á hlutverkið við innkaupasérfræðing sem vinnur innan fyrirtækis sem á tilvik Dynamics 365 for Finance and Operations. Frekari upplýsingar um hvernig á að nota samstarf lánardrottna ef þú ert ytri lánardrottni sjá [Lánardrottna með viðskiptavini](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+Viðmót fyrir samstarf lánardrottna í Microsoft Dynamics 365 for Finance and Operations sýnir upplýsingar um innkaupapantanir, reikninga og vörusendingabirgðir til ytri lánardrottnum. Hægt er að stofna nýjan tengiliði fyrir samstarf lánardrottna og biðja um að nýjum notendum er úthlutað ef verið er að vinna sem ytri lánardrottni öryggishlutverk **Lánardrottinn sem er stjórnandi (ytri)** eða svipuð heimildir. Einnig er hægt að framkvæma þessi verk ef verið er að vinna sem innkaupasérfræðingur. Í þessu á hlutverkið við innkaupasérfræðing sem vinnur innan fyrirtækis sem á tilvik Finance and Operations. Frekari upplýsingar um hvernig á að nota samstarf lánardrottna ef þú ert ytri lánardrottni sjá [Lánardrottna með viðskiptavini](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Frekari upplýsingar um hvernig á að nota samstarf lánardrottna ef þú ert innkaupasérfræðingur sjá [samstarf lánardrottna við ytri lánardrottnum](vendor-collaboration-work-external-vendors.md).
 

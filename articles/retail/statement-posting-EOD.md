@@ -3,7 +3,7 @@ title: Endurbætur á virkni yfirlitsbókunar
 description: Þetta efnisatriði lýsir endurbótum sem hafa verið gerðar á bókun uppgjörs eiginleikanum.
 author: josaw1
 manager: AnnBe
-ms.date: 04/26/2016
+ms.date: 05/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 02880edda6c34c24f8dad8cc8cbeafe215f46896
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321433"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541292"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Endurbætur á virkni yfirlitsbókunar
 
@@ -43,7 +43,7 @@ Finance and Operations felur í sér eftirfarandi staðfestingar sem tengjast þ
 - Það verður að nota sömu skilgreiningarlyklana fyrir allar þær aðgerðir sem eru framkvæmdar á tilteknu uppgjöri á meðan á líftíma þess stendur (stofna, reikna út, hreinsa, bóka, o.s.frv.). Til dæmis getur þú ekki búið til og reiknað út uppgjör á meðan kveikt er á skilgreiningarlyklinum fyrir **Smásöluuppgjör (eldra)** og síðan reyna að bóka sama uppgjör á meðan kveikt er á skilgreiningarlyklinum fyrir **Smásöluuppgjör**.
 
 > [!NOTE]
-> Við mælum með því að þú notir skilgreiningarlykilinn fyrir **Smásöluuppgjör** fyrir endurbættan eiginleika á bókun uppgjörs, nema þú hafir góðar ástæður fyrir því að nota í staðinn skilgreiningarlykilinn fyrir **Smásöluuppgjör (eldra)**. Microsoft mun halda áfram að fjárfesta í nýjum og bættum eiginleika fyrir bókun uppgjörs og það er mikilvægt að þú skiptir yfir í hann eins fljótt og auðið er til að njóta góðs af honum. Eldri eiginleiki fyrir bókun uppgjörs verður gerður úreltur í framtíðarútgáfu.
+> Við mælum með því að þú notir skilgreiningarlykilinn fyrir **Smásöluuppgjör** fyrir endurbættan eiginleika á bókun uppgjörs, nema þú hafir góðar ástæður fyrir því að nota í staðinn skilgreiningarlykilinn fyrir **Smásöluuppgjör (eldra)**. Microsoft mun halda áfram að fjárfesta í nýjum og bættum eiginleika fyrir bókun uppgjörs og það er mikilvægt að þú skiptir yfir í hann eins fljótt og auðið er til að njóta góðs af honum. Eiginleikinn fyrir bókun á eldra uppgjöri er úreltur frá og með útgáfu 8.0.
 
 ## <a name="setup"></a>Setja upp
 
@@ -56,11 +56,15 @@ Sem hluti af endurbótum á eiginleikanum fyrir bókun uppgjörs hafa þrjár n�
 
 - **Gera þarf talningu óvirka** - Þegar þessi valkostur er stilltur á **Já** heldur bókunarferli á uppgjöri áfram, jafnvel þótt mismunurinn á talinni upphæð og færsluupphæð í uppgjörinu sé utan markanna sem eru skilgreind í flýtiflipanum **Uppgjör** fyrir smásöluverslun.
 
-Þar að auki hefur reiturinn **Hámarksfjöldi samhliða uppgjörsbókana** verið kynntur til sögunnar á flýtiflipanum **Runuvinnsla**. Þessi reitur skilgreinir fjölda runuverka sem ætti að keyra á sama tíma. Eins og er þarftu að stilla gildið á þessum reit handvirkt.
+Auk þess hafa eftirfarandi færibreytur verið kynntar til sögunnar í flýtiflipanum **Runuvinnsla** í flipanum **Bókun** á síðunni **Smásölufæribreytur**: 
 
-Einnig, með nýja bókunarferlinu, er nauðsynlegt að skilgreina **Gjafakortsvara** í flýtiflipanum **Gjafakort** í flipanum **Bókun** á síðunni **Færibreytur smásölu**. Þetta á við, jafnvel þótt engin gjafakort séu notuð af fyrirtækinu.
+- **Hámarksfjöldi samhliða uppgjörsbókana** - Þessi reitur skilgreinir fjölda runuverka sem verða notuð til að bóka mörg uppgjör. 
+- **Hámarksfjöldi þráða fyrir úrvinnslu pöntunar á hvert yfirlit** - Þessi reitur sýnir hámarksfjölda þráða sem runuvinnsla uppgjörsbókunar notar til að stofna og reikningsfæra sölupantanir fyrir eitt uppgjör. Hámarksfjöldi þráða sem bókunarferli uppgjörs notar verður reiknaður út samkvæmt gildinu í þessari færibreytu margfaldað með gildinu í færibreytunni **Hámarksfjöldi samhliða uppgjörsbókana**. Ef gildið á þessari færibreytu er stillt of hátt getur það haft neikvæð áhrif á afköst bókunarferlis uppgjörs.
+- **Hámarksfjöldi færslulína í uppsöfnun** - Þessi reitur skilgreinir fjölda færslulína sem verða með í einni uppsafnaðri færslu áður en ný er búin til. Uppsafnaðar færslur eru stofnaðar á grunni ólíkra skilyrða uppsöfnunar, t.d. viðskiptavinur, viðskiptadagur eða fjárhagsvídd. Mikilvægt er að hafa í huga að línunum í einni smásölufærslu verður ekki skipt niður milli mismunandi uppsafnaðra færsla. Þetta þýðir að möguleiki er á því að fjöldi lína í uppsafnaðri færslu er örlítið meiri eða minni vegna þátta á borð við fjölda einkvæmra afurða.
+- **Hámarksfjöldi þráða til að villuleita í færslum verslunar** - Þessi reitur skilgreinir fjölda þráða sem verður notaður til að villuleita smásölufærslur. Villuleit á smásölufærslum er nauðsynlegt skref sem þarf að gerast áður en hægt er að færa færslurnar inn í uppgjörin. Einnig þarf að skilgreina **Gjafakortsvöru** í flýtiflipanum **Gjafakort** í flipanum **Bókun** á síðunni **Færibreytur smásölu**. Þetta þarf að skilgreina, jafnvel þótt fyrirtækið noti ekki gjafakort.
 
-Athugaðu að allar stillingar og færibreytur sem tengjast bókun uppgjörs og sem eru skilgreindar í smásöluverslun og á síðunni **Færibreytur smásöluverslana** eiga við í endurbættum eiginleika fyrir bókun uppgjörs.
+> [!NOTE]
+> Allar stillingar og færibreytur sem tengjast bókun uppgjörs og sem eru skilgreindar í smásöluverslun og á síðunni **Færibreytur smásöluverslana** eiga við í endurbættum eiginleika fyrir bókun uppgjörs.
 
 ## <a name="processing"></a>Í vinnslu
 

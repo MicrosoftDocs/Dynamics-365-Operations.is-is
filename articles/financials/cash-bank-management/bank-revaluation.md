@@ -3,7 +3,7 @@ title: Endurmat á banka – erlendum gjaldmiðli
 description: Þetta efnisatriði veitir yfirlit yfir endurmatsferli banka á erlendum gjaldmiðli. Það felur í sér upplýsingar um uppsetningu, keyrslu á ferli, útreikning ferlisins og bakfærslu á endurmatsfærslum.
 author: mikefalkner
 manager: AnnBe
-ms.date: 03/27/2019
+ms.date: 04/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3aed5a6c12e8dd39956f906f922bfbed1b8fb680
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 4ec9814a4a35a1b3ba7ba05a04b53e5b150f4a04
+ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "976669"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538633"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Endurmat á banka – erlendum gjaldmiðli
 
@@ -52,7 +52,7 @@ eftirfarandi uppsetningar er krafist áður en endurmatsferlið er keyrt.
 3. Í flipanum **Númeraraðir** skal bæta við númeraröð fyrir endurmat á erlendum gjaldmiðli.
 4. Endurhlaða skal vafrann til að sjá **Endurmat á erlendum gjaldmiðli** í hlutanum **Reglubundin verkefni** á svæðissíðunni.
 
-Þú verður að kveikja á eiginleikanum fyrir hvern lögaðila sem notar endurmat á erlendum gjaldmiðli.
+Þú verður að kveikja á eiginleikanum fyrir hvern lögaðila sem notar endurmat á erlendum gjaldmiðli. Ef þér er úthlutað hlutverki kerfisstjóra eða hlutverki sem stjórnandi eiginleika geturðu eytt þessu skrefi með því að eiginleikann sem heitir **Virkja endurmat á banka án færibreytu** á vinnusvæðinu **Stjórnun eiginleika**.
 
 > [!NOTE]
 > Ef lögaðilinn þinn notar rússneskan, pólskan eða ungverskan lands-/svæðiskóða geturðu þegar gert endurmat á erlendum gjaldmiðli. Þú getur ekki notað endurmat á erlendum gjaldmiðli sem önnur lönd eða svæði nota.

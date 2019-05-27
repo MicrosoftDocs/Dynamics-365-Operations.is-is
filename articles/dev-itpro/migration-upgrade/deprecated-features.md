@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7201397cd839048465ee0cd8e97c267ab8cbfeb7
-ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
+ms.openlocfilehash: 7afe26b535ca2578d2db17f676c3cae4bafc355f
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "992884"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527672"
 ---
 # <a name="removed-or-deprecated-features"></a>Fjarlægðir eða úreltir eiginleikar
 
@@ -66,26 +66,6 @@ ms.locfileid: "992884"
 | **Afurðasvæði sem haft er áhrif á**         | Vefbiðlari |
 | **Dreifingarvalkostur**              | Allir |
 | **Staða**                         | Úrelt: Frá og með apríl 2020 verður upplifunin „er ein af“ sjálfgefin hegðun, án úrræða til að fara aftur í eldri hegðun. |
-
-### <a name="deriving-from-internal-classes-is-deprecated"></a>Afleiðing frá innri klösum er úrelt
-
-|   |  |
-|------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Á undan verkvangsuppfærslu 25 var hægt að búa til klasa eða töflu sem kemur út frá innri klasa/töflu sem er skilgreind í öðrum pakka/einingu. Þetta er ekki starfsvenja öryggiskóðunar. Frá og með verkvangsuppfærslu 25 mun þýðandinn birta viðvörun. |
-| **Skipt út fyrir aðra eiginleika?**   | Viðvörun þýðanda verður skipt út fyrir villu í verkvangsuppfærslu 26. Þessi breyting er samhæf afturvirk við keyrslu, sem þýðir að hægt er að nota verkvangsuppfærslu 25 eða nýrri á hvaða sandkassa- eða framleiðsluumhverfi sem er án þess að þurfa að breyta sérsniðnum kóða. Þessi breyting hefur aðeins áhrif á þróunar- og þýðingartíma.|
-| **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri |
-| **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Úrelt: Viðvörunin verður að þýðingarvillu í verkvangsuppfærslu 26. |
-
-### <a name="overriding-internal-methods-is-deprecated"></a>Hnekking innri aðferða er úrelt
-
-|   |  |
-|------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Á undan verkvangsuppfærslu 25 var hægt að hnekkja innri aðferð í afleiddum klasa sem er skilgreindur í öðrum pakka/einingu. Þetta er ekki starfsvenja öryggiskóðunar. Frá og með verkvangsuppfærslu 25 mun þýðandinn birta viðvörun. |
-| **Skipt út fyrir aðra eiginleika?**   | Þessi viðvörun verður skipt út fyrir þýðingarvillu í verkvangsuppfærslu 26. Þessi breyting er samhæf afturvirk við keyrslu, sem þýðir að hægt er að nota verkvangsuppfærslu 25 eða nýrri á hvaða sandkassa- eða framleiðsluumhverfi sem er án þess að þurfa að breyta sérsniðnum kóða. Þessi breyting hefur aðeins áhrif á þróunar- og þýðingartíma. |
-| **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri |
-| **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Úrelt: Viðvörunin verður að þýðingarvillu í verkvangsuppfærslu 26. |
 
 ### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Færibreyta til að virkja sölupantanir með marga uppruna fjármögnunar fyrir verksamninga
 Stuðningur fyrir stofnun á verkmiðuðum sölupöntunum þar sem verksamningurinn er með marga uppruna fjármögnunar virka með stillingunni **Færibreytur verkefnastjórnunar** í **Leyfa sölupantanir fyrir verk með marga uppruna fjármögnunar**. Sjálfgefið er að þessi færibreyta er ekki virk. 

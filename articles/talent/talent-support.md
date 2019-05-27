@@ -1,9 +1,9 @@
 ---
 title: Fá aðstoð fyrir Talent
-description: Í þessu efnisatriði er útskýrt hvernig hægt er fá aðstoð með Dynamics 365 for Talent.
+description: Í þessu efnisatriði er útskýrt hvernig hægt er fá aðstoð með Microsoft Dynamics 365 for Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/18/2018
+ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,32 +15,38 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.openlocfilehash: 39aadda6e4c221e243d55e2fd60bbc8484d3b21d
-ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
+ms.openlocfilehash: 9895ae8bdc6326b3863585d77b93576fe5fddcb4
+ms.sourcegitcommit: ab88de98a1958734213eb9d9b1988508b055f748
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "992813"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538774"
 ---
 # <a name="get-support-for-talent"></a>Fá aðstoð fyrir Talent
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er útskýrt hvernig hægt er fá aðstoð með Talend: Core HR, Attract og Onboard.
+Þetta efnisatriði útskýrir hvernig á að fá hjálp með Microsoft Dynamics 365 for Talent Core HR, Dynamics 365 Talent: Attract og Dynamics 365 Talent: Onboard.
 
-<a name="contact-support"></a>Hafa samband við notendaþjónustu
----------------
-
-Notið upplýsingarnar í þessu efnisatriði til að hafa samband við Microsoft ef tæknilegar spurningar um Talent vakna.
-
-### <a name="talent-support"></a>Stuðningur fyrir Talent 
+## <a name="support-for-talent"></a>Aðstoð fyrir Talent
 
 Notið tilföng í eftirfarandi töflu til að fá stuðning fyrir Talent. Þessum úrræðum er raðað á listann í þeirri röð sem ráðlagt er nota þau í, þegar þú ert í úrræðaleit.
 
-| **Verk**                                                | **Meiri upplýsingar**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|---------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Spyrja samfélagið                                      | Farðu á síðuna [Spyrja samfélagið](https://community.dynamics.com/365/talent) til að fá hjálp með spurningarnar þínar og notaðu valkostinn „Hjálp“ til að leita að efnisatriðum innan Core HR.                                                                                                                                                                                                                                                                                                                                                                                  |
-| Nota verkfærið fyrri aðstoð í skýi                     | Í [Lifecycle Services (LCS)](https://lcs.dynamics.com/) er reiturinn **Aðstoð** verkfæri sem hjálpar þér að hafa umsjón með þjónustutilvikum. Til að senda vandamál beint inn til Microsoft skaltu fara í reitinn **Aðstoð** í LCS-verkinu þínu til að nota **þjónustubeiðnihlutann** í LCS og smella á **Aðstoð keyrð í skýinu**. Þaðan geturðu sent inn vandamál á tvo vegu. 1. Þegar vandamál er sent inn í gegnum LCS í flipanum **Virkt vandamál** skaltu velja vandamálið þitt og smella svo á **Senda inn til Microsoft**. 2. Í flipanum **Sent inn til Microsoft** skal smella á **Senda inn nýtt tilvik** til að senda inn ný vandamál.  |
-| Í stuðningi forrits                                 | Veldu **?** tákn í valmyndinni og veldu síðan **Stuðningur (Core HR) Tilkynna um vandamál (Attract, Onboard)**. Vandamál verða tilkynnt í flipanum **Virk vandamál** í LCS. Athugaðu að ef þú keyptir stöku útgáfuna af Onboard, verða tilkynnt vandamál send til Microsoft.  |
-| Fáðu hjálp varðandi spurningar um leyfisveitingu Talent         | Hafðu samband við samstarfsaðila þinn eða sölufulltrúa Microsoft.     |
-| Beiðni um nýja eiginleika og virkni innan Talent | Á aðalsíðu Talent í forritinu skal velja **?** táknið og velja síðan **Hugmyndir** eða nota tengilinn [Hugmyndir](https://experience.dynamics.com/ideas/) til að skoða, leita, kjósa eða bæta við nýjum hugmyndum.          |                                                                                                                                                                                                                                                                                           
+| Verk | Frekari upplýsingar |
+|------|------------------|
+| Spyrja samfélagið | Farið í [Dynamics 365 for Talent Samfélag](https://community.dynamics.com/365/talent) til að fá aðstoð með spurningar. Til að finna svör skal slá inn spurning í leitarsvæðið við hliðina á **Ertu með spurningu**. Til að spyrja að einhverju skal velja **Spyrja spurningar**. |
+| Nota stuðningsverkfæri í skýi. | Í [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/) skal fara í verkið og velja reitinn **Stuðningur**. Þaðan geturðu sent inn vandamál á tvo vegu:<ul><li>Í flipanum **Virk vandamál** skal velja vandamálið sem á að senda inn og síðan velja **Senda til Microsoft**.</li><li>Í flipanum **Sent inn til Microsoft** skal velja **Senda inn nýtt tilvik** til að senda inn ný vandamál.</li></ul> |
+| Náðu í stuðning í forriti. | Velja skal hnappinn **Hjálp** (**?**) efst í hægra horninu á síðunni. Þá, ef þú ert í Core HR, skal velja **Stuðningur**. Ef þú ert í Attract eða Onboard skal velja **Tilkynna um vandamál**. Vandamál eru tilkynnt í flipanum **Virk vandamál** í LCS þar sem stjórnandi getur ákvarðað hvort eigi að útvega stuðning innanhúss eða senda vandamálið til Microsoft. (Ef þú ert með sjálfstæða útgáfu af Onboard eru vandamál send beint til Microsoft.) |
+| Fáðu hjálp varðandi spurningar um leyfisveitingu Talent. | Hafðu samband við samstarfsaðila þinn eða sölufulltrúa Microsoft. |
+| Beiðni um nýja eiginleika og virkni í Talent. | Á aðalsíðu Talent í forritinu skal velja hnappinn **Hjálp** (**?**) og síðan velja **Hugmyndir**. Einnig er hægt að fara inn á [Hugmyndir um Dynamics 365-forritið](https://experience.dynamics.com/ideas/) til að skoða, leita að eða greiða fyrirliggjandi hugmyndum atkvæði, eða til að bæta við nýjum hugmyndum. |
+
+## <a name="support-for-the-onboard-stand-alone-app"></a>Stuðningur við sjálfstætt forrit Onboard
+
+Til að fá stuðning við sjálfstætt forrit Onboard skal nota tilföngin í eftirfarandi töflu. Þessum úrræðum er raðað á listann í þeirri röð sem ráðlagt er nota þau í, þegar þú ert í úrræðaleit. Hægt er að finna alla þessa valmöguleika fyrir stuðning með því að velja hnappinn **Hjálp** (**?**) efst í hægra horninu á síðunni.
+
+| Verk | Frekari upplýsingar |
+|------|------------------|
+| Spyrja samfélagið | Farið í [Dynamics 365 for Talent Samfélag](https://community.dynamics.com/365/talent) til að fá aðstoð. Til að finna svör skal slá inn spurning í leitarsvæðið við hliðina á **Ertu með spurningu**. Til að spyrja að einhverju skal velja **Spyrja spurningar**. |
+| Tilkynna vandamál. | Veljið hnappinn **Hjálp** (**?**) efst í hægra horninu á síðunni og veljið síðan **Tilkynna um vandamál**. Sláið inn lýsingu á málinu og hafið með netfang ef á að fylgja málinu eftir. |
+| Fáðu hjálp varðandi spurningar um leyfisveitingu Talent. | Hafðu samband við samstarfsaðila þinn eða sölufulltrúa Microsoft. |
+| Beiðni um nýja eiginleika og virkni í Onboard. | Velja skal hnappin **Hjálp** (**?**) og síðan velja **Hugmyndir**. Einnig er hægt að fara inn á [Dynamics 365 for Talent: Hugmyndir Onboard](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard) til að skoða, leita að eða greiða fyrirliggjandi hugmyndum atkvæði, eða til að bæta við nýjum hugmyndum. |

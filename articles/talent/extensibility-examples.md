@@ -3,14 +3,14 @@ title: Auka virkni Talent með því að nota PowerApps og Microsoft Flow – d�
 description: Þetta efnisatriði lýsir sumum dæmum um atburðarás stækkunarhæfni fyrir Microsoft Dynamics 365 for Talent sem notar Microsoft PowerApps og Microsoft Flow.
 author: negudava
 manager: Annbe
-ms.date: 03/04/2018
+ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent;Core;Experience Apps
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0aa3578047b9397682a7039d0dbcc05cc1b167e4
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: c113b0f4ab2c8e44d00fcfca3f0a6ca828a854ae
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "949921"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1518254"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Auka virkni Talent með því að nota PowerApps og Microsoft Flow – dæmi um atburðarásir
 
@@ -101,7 +101,21 @@ Hægt er að stækka þetta sniðmát svo nota megi það fyrir atburðarás sem
 
 Til að hlaða niður sniðmátinu **Flæði - SharePoint samþætting** skal fara í [Flæði - SharePoint samþætting](https://go.microsoft.com/fwlink/?linkid=2082109) í Microsoft Download Center.
 
+## <a name="admin-console-to-manage-talent-pools"></a>Stjórnborð stjórnanda til að hafa umsjón með hæfileikasöfnum
 
+Þegar kveikt er á samþættingu við LinkedIn, stofnar Attract sjálfkrafa LinkedIn-hæfileikasafn. Þegar ráðningaraðili skiptir á InMail við nýjan starfsmann í gegnum LinkedIn býr Attract til notandasíðu fyrir starfsmanninn og hann verður að meðlimi í hæfileikasafni LinkedIn. Þetta PowerApps-forrit er gagnlegt til að endurskipuleggja umsækjendur í hæfileikasöfnum á grunni hæfni.
+
+Keyra þetta PowerApps-forrit á stjórnborði stjórnanda til að framkvæma eftirfarandi verk:
+
+- Birta umsækjendur í hæfileikasafni
+- Bæta við og fjarlægja umsækjendur úr hæfileikasafni
+- Færa umsækjendur úr einu hæfileikasafni í annað
+- Ákveða hvort umsækjendur séu þegar hluti af hæfileikasafni áður en þeir eru færðir
+- Athuga hæfni umsækjenda áður en þeir eru færðir í önnur hæfileikasöfn
+
+Þetta PowerApps-forrit notar margþætt samskipti svo hægt sé að nota það sem sniðmát fyrir aðrar atburðarásir þar sem er nauðsynlegt að draga út færslur sem eru með margþætt samskipti.
+
+Til að sækja sniðmátið **Stjórnborð stjórnanda til að hafa umsjón með hæfileikasöfnum** skal opna [Stjórnborð stjórnanda til að hafa umsjón með hæfileikasöfnum](http://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) í Microsoft Download Center.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

@@ -3,7 +3,7 @@ title: Tvöfaldur gjaldmiðill
 description: Þetta umræðuefni veitir upplýsingar um tvöfaldan gjaldmiðil þar sem skýrslugjaldmiðillinn er notaður sem annar bókhaldsgjaldmiðill fyrir Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 05/06/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3665ec1cb15fc63e5707a4721699872fe81424a0
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330311"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1532249"
 ---
 # <a name="dual-currency"></a>Tvöfaldur gjaldmiðill
 
@@ -61,6 +61,9 @@ Fyrir ýmsar skýrslur og fyrirspurnir var rökum einnig bætt við til að bæl
 ## <a name="financial-journals"></a>Fjárhagsbækur
 
 Fjárhagsbækur, svo sem færslubók og reikningabók lánardrottins, hafa verið uppfærðar þannig að þær innihaldi viðbótarupplýsingar um skýrslugjaldmiðilinn. Heildarupphæð fyrir fylgiskjal og færslubók eru nú sýndar í skýrslugjaldmiðlinum. Auk þess, upplýsingar um gengi skýrslugjaldmiðilsins birtist nú á **Almennt** flipanum á færslubókarlínunum. Þess vegna getur þú hnekkt gengi gjaldmiðilsins í skýrslugjaldmiðli þegar þú slærð inn færslur.
+
+## <a name="vendor-invoices-sales-orders-and-sales-agreements"></a>Reikningar lánardrottna, sölupantanir og sölusamningar
+Reikningar lánardrottna, sölupantanir og sölusamningar hafa verið uppfærð til að taka með fast gengi fyrir skýrslugjaldmiðilinn. Hægt er að skilgreina fast gengi fyrir bæði skýrslugjaldmiðil og bókhaldsgjaldmiðil þegar gjaldmiðill færslu er annar. Þegar bókhaldsgjaldmiðill og skýrslugjaldmiðill eru eins verður föstu gengi haldið í samstillingu með því að nota fast gengi bókhaldsgjaldmiðilsins sem fast gengi skýrslugjaldmiðilsins. Ekki er hægt að breyta föstu gengi skýrslugjaldmiðils fyrir þessa skilgreiningu. Þegar bókhaldsgjaldmiðill og skýrslugjaldmiðill eru mismunandi er hægt að skilgreina fast gengi fyrir bæði bókhaldsgjaldmiðil og skýrslugjaldmiðil við innslátt færslu. Ef skýrslugjaldmiðillinn hefur ekki verið skilgreindur í fjárhag er reiturinn **Fast gengi skýrslugjaldmiðils** ekki virkur og upphæð skýrslugjaldmiðils er reiknuð.
 
 ## <a name="module-changes"></a>Einingar breytingar
 
