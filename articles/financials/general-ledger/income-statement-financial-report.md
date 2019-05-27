@@ -19,55 +19,55 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 9105e1de86ed2834b04f75c7d08c4021402bcfda
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "364006"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1549151"
 ---
-# <a name="income-statement-financial-report"></a><span data-ttu-id="1afde-104">Fjárhagsskýrsla rekstrarreiknings</span><span class="sxs-lookup"><span data-stu-id="1afde-104">Income statement financial report</span></span>
+# <a name="income-statement-financial-report"></a><span data-ttu-id="91333-104">Fjárhagsskýrsla rekstrarreiknings</span><span class="sxs-lookup"><span data-stu-id="91333-104">Income statement financial report</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="1afde-105">Þessi grein lýsir sjálfgefnum skýrslum fyrir efnahagsreikninga.</span><span class="sxs-lookup"><span data-stu-id="1afde-105">This article describes the default report for income statements.</span></span> <span data-ttu-id="1afde-106">Hún lýsir einnig einingum sem tengjast þessum skýrslum.</span><span class="sxs-lookup"><span data-stu-id="1afde-106">It also describes the building blocks that are associated with this report.</span></span> 
+<span data-ttu-id="91333-105">Þessi grein lýsir sjálfgefnum skýrslum fyrir efnahagsreikninga.</span><span class="sxs-lookup"><span data-stu-id="91333-105">This article describes the default report for income statements.</span></span> <span data-ttu-id="91333-106">Hún lýsir einnig einingum sem tengjast þessum skýrslum.</span><span class="sxs-lookup"><span data-stu-id="91333-106">It also describes the building blocks that are associated with this report.</span></span> 
 
-<a name="default-income-statement-report"></a><span data-ttu-id="1afde-107">Rekstrarreikningsskýrsla sjálfgefin.</span><span class="sxs-lookup"><span data-stu-id="1afde-107">Default income statement report</span></span>
+<a name="default-income-statement-report"></a><span data-ttu-id="91333-107">Rekstrarreikningsskýrsla sjálfgefin.</span><span class="sxs-lookup"><span data-stu-id="91333-107">Default income statement report</span></span>
 -------------------------------
 
-| <span data-ttu-id="1afde-108">Sjálfgefin skýrsla</span><span class="sxs-lookup"><span data-stu-id="1afde-108">Default report</span></span>             | <span data-ttu-id="1afde-109">Það sem hún gerir</span><span class="sxs-lookup"><span data-stu-id="1afde-109">What it does</span></span>                                                                                              |
+| <span data-ttu-id="91333-108">Sjálfgefin skýrsla</span><span class="sxs-lookup"><span data-stu-id="91333-108">Default report</span></span>             | <span data-ttu-id="91333-109">Það sem hún gerir</span><span class="sxs-lookup"><span data-stu-id="91333-109">What it does</span></span>                                                                                              |
 |----------------------------|-----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="1afde-110">Rekstrarreikningur – Sjálfgefin</span><span class="sxs-lookup"><span data-stu-id="1afde-110">Income Statement – Default</span></span> | <span data-ttu-id="1afde-111">Veitir yfirsýn yfir arðsemi fyrirtækisins fyrir gildandi tímabil og einnig það sem af er ári.</span><span class="sxs-lookup"><span data-stu-id="1afde-111">Provides a view of the organization’s profitability for the current period and also for the year to date.</span></span> |
+| <span data-ttu-id="91333-110">Rekstrarreikningur – Sjálfgefin</span><span class="sxs-lookup"><span data-stu-id="91333-110">Income Statement – Default</span></span> | <span data-ttu-id="91333-111">Veitir yfirsýn yfir arðsemi fyrirtækisins fyrir gildandi tímabil og einnig það sem af er ári.</span><span class="sxs-lookup"><span data-stu-id="91333-111">Provides a view of the organization’s profitability for the current period and also for the year to date.</span></span> |
 
-## <a name="building-blocks"></a><span data-ttu-id="1afde-112">Einingar</span><span class="sxs-lookup"><span data-stu-id="1afde-112">Building blocks</span></span>
-<span data-ttu-id="1afde-113">Fjárhagsskýrslur fyrir rekstrarreikning nota eftirfarandi grunneiningar.</span><span class="sxs-lookup"><span data-stu-id="1afde-113">The income statement financial report uses the following building blocks.</span></span>
+## <a name="building-blocks"></a><span data-ttu-id="91333-112">Einingar</span><span class="sxs-lookup"><span data-stu-id="91333-112">Building blocks</span></span>
+<span data-ttu-id="91333-113">Fjárhagsskýrslur fyrir rekstrarreikning nota eftirfarandi grunneiningar.</span><span class="sxs-lookup"><span data-stu-id="91333-113">The income statement financial report uses the following building blocks.</span></span>
 
-| <span data-ttu-id="1afde-114">Sjálfgefin skýrsla</span><span class="sxs-lookup"><span data-stu-id="1afde-114">Default report</span></span>             | <span data-ttu-id="1afde-115">Skilgreining línu</span><span class="sxs-lookup"><span data-stu-id="1afde-115">Row definition</span></span>                     | <span data-ttu-id="1afde-116">Skilgreining dálks</span><span class="sxs-lookup"><span data-stu-id="1afde-116">Column definition</span></span>          |
+| <span data-ttu-id="91333-114">Sjálfgefin skýrsla</span><span class="sxs-lookup"><span data-stu-id="91333-114">Default report</span></span>             | <span data-ttu-id="91333-115">Skilgreining línu</span><span class="sxs-lookup"><span data-stu-id="91333-115">Row definition</span></span>                     | <span data-ttu-id="91333-116">Skilgreining dálks</span><span class="sxs-lookup"><span data-stu-id="91333-116">Column definition</span></span>          |
 |----------------------------|------------------------------------|----------------------------|
-| <span data-ttu-id="1afde-117">Rekstrarreikningur - sjálfgefinn.</span><span class="sxs-lookup"><span data-stu-id="1afde-117">Income Statement - Default</span></span> | <span data-ttu-id="1afde-118">Samantekt rekstrarreiknings – sjálfgefin.</span><span class="sxs-lookup"><span data-stu-id="1afde-118">Summary Income Statement - Default</span></span> | <span data-ttu-id="1afde-119">Reglubundið og það sem af er ári - sjálfgildi</span><span class="sxs-lookup"><span data-stu-id="1afde-119">Periodic and YTD - Default</span></span> |
+| <span data-ttu-id="91333-117">Rekstrarreikningur - sjálfgefinn.</span><span class="sxs-lookup"><span data-stu-id="91333-117">Income Statement - Default</span></span> | <span data-ttu-id="91333-118">Samantekt rekstrarreiknings – sjálfgefin.</span><span class="sxs-lookup"><span data-stu-id="91333-118">Summary Income Statement - Default</span></span> | <span data-ttu-id="91333-119">Reglubundið og það sem af er ári - sjálfgildi</span><span class="sxs-lookup"><span data-stu-id="91333-119">Periodic and YTD - Default</span></span> |
 
-### <a name="row-definition"></a><span data-ttu-id="1afde-120">Skilgreining línu</span><span class="sxs-lookup"><span data-stu-id="1afde-120">Row definition</span></span>
+### <a name="row-definition"></a><span data-ttu-id="91333-120">Skilgreining línu</span><span class="sxs-lookup"><span data-stu-id="91333-120">Row definition</span></span>
 
-<span data-ttu-id="1afde-121">Línuskilgreiningin Samantekt rekstrarreiknings – sjálfgefin, inniheldur hluta fyrir hvern hluta venjulegs rekstrarreiknings..</span><span class="sxs-lookup"><span data-stu-id="1afde-121">The row definition, Summary Income Statement – Default, contains a section for each part of a traditional income statement.</span></span> <span data-ttu-id="1afde-122">Víddin Tegund aðallykils°er notuð til að búa til þessa línuskilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="1afde-122">The Main Account Category dimension is used to build this row definition.</span></span> <span data-ttu-id="1afde-123">Þess vegna getur hver sem er búið til skýrslu án þess að þurfa að gera neinar breytingar.</span><span class="sxs-lookup"><span data-stu-id="1afde-123">Therefore, anyone can generate the report without having to make any modifications.</span></span>
+<span data-ttu-id="91333-121">Línuskilgreiningin Samantekt rekstrarreiknings – sjálfgefin, inniheldur hluta fyrir hvern hluta venjulegs rekstrarreiknings..</span><span class="sxs-lookup"><span data-stu-id="91333-121">The row definition, Summary Income Statement – Default, contains a section for each part of a traditional income statement.</span></span> <span data-ttu-id="91333-122">Víddin Tegund aðallykils°er notuð til að búa til þessa línuskilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="91333-122">The Main Account Category dimension is used to build this row definition.</span></span> <span data-ttu-id="91333-123">Þess vegna getur hver sem er búið til skýrslu án þess að þurfa að gera neinar breytingar.</span><span class="sxs-lookup"><span data-stu-id="91333-123">Therefore, anyone can generate the report without having to make any modifications.</span></span>
 
-### <a name="column-definition"></a><span data-ttu-id="1afde-124">Dálkskilgreining.</span><span class="sxs-lookup"><span data-stu-id="1afde-124">Column Definition</span></span>
+### <a name="column-definition"></a><span data-ttu-id="91333-124">Dálkskilgreining.</span><span class="sxs-lookup"><span data-stu-id="91333-124">Column Definition</span></span>
 
-<span data-ttu-id="1afde-125">Dálkskilgreiningar innihalda mismunandi gerðir dálka til að veita mismunandi stig upplýsinga og fjárhagsgagna.</span><span class="sxs-lookup"><span data-stu-id="1afde-125">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
+<span data-ttu-id="91333-125">Dálkskilgreiningar innihalda mismunandi gerðir dálka til að veita mismunandi stig upplýsinga og fjárhagsgagna.</span><span class="sxs-lookup"><span data-stu-id="91333-125">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
 
--   <span data-ttu-id="1afde-126">**Reglubundið og það sem af er ári – Sjálfgefnar gerðir dálka:**</span><span class="sxs-lookup"><span data-stu-id="1afde-126">**Periodic and YTD – Default column types:**</span></span>
-    -   <span data-ttu-id="1afde-127">**DESC** – Lýsing úr línuskilgreiningunni.</span><span class="sxs-lookup"><span data-stu-id="1afde-127">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="1afde-128">**FD** – fjárhagsgögn fyrir gildandi tímabil</span><span class="sxs-lookup"><span data-stu-id="1afde-128">**FD** – Financial data for the current period</span></span>
-    -   <span data-ttu-id="1afde-129">**FD** – fjárhagsgögn fyrir það sem af er ári</span><span class="sxs-lookup"><span data-stu-id="1afde-129">**FD** – Financial data for the year to date</span></span>
+-   <span data-ttu-id="91333-126">**Reglubundið og það sem af er ári – Sjálfgefnar gerðir dálka:**</span><span class="sxs-lookup"><span data-stu-id="91333-126">**Periodic and YTD – Default column types:**</span></span>
+    -   <span data-ttu-id="91333-127">**DESC** – Lýsing úr línuskilgreiningunni.</span><span class="sxs-lookup"><span data-stu-id="91333-127">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="91333-128">**FD** – fjárhagsgögn fyrir gildandi tímabil</span><span class="sxs-lookup"><span data-stu-id="91333-128">**FD** – Financial data for the current period</span></span>
+    -   <span data-ttu-id="91333-129">**FD** – fjárhagsgögn fyrir það sem af er ári</span><span class="sxs-lookup"><span data-stu-id="91333-129">**FD** – Financial data for the year to date</span></span>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="1afde-130">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="1afde-130">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="91333-130">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="91333-130">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="1afde-131">Fjárhagsskýrslugerð</span><span class="sxs-lookup"><span data-stu-id="1afde-131">Financial reporting</span></span>](financial-reporting-getting-started.md)
+[<span data-ttu-id="91333-131">Fjárhagsskýrslugerð</span><span class="sxs-lookup"><span data-stu-id="91333-131">Financial reporting</span></span>](financial-reporting-getting-started.md)
 
-[<span data-ttu-id="1afde-132">Skoðun fjárhagsskýrslna</span><span class="sxs-lookup"><span data-stu-id="1afde-132">View financial reports</span></span>](view-financial-reports.md)
+[<span data-ttu-id="91333-132">Skoðun fjárhagsskýrslna</span><span class="sxs-lookup"><span data-stu-id="91333-132">View financial reports</span></span>](view-financial-reports.md)
 
-[<span data-ttu-id="1afde-133">Dynamics Financial Reporting-blogg</span><span class="sxs-lookup"><span data-stu-id="1afde-133">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[<span data-ttu-id="91333-133">Dynamics Financial Reporting-blogg</span><span class="sxs-lookup"><span data-stu-id="91333-133">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

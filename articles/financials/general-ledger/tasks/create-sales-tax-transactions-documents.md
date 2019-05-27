@@ -17,46 +17,46 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 02e3ea556da9abefd37ce585086241d1e45aa0fa
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313222"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1571217"
 ---
-# <a name="create-sales-tax-transactions-on-documents"></a><span data-ttu-id="75b4c-103">Búa til VSK-færslur í skjölum</span><span class="sxs-lookup"><span data-stu-id="75b4c-103">Create sales tax transactions on documents</span></span>
+# <a name="create-sales-tax-transactions-on-documents"></a><span data-ttu-id="8b7fb-103">Búa til VSK-færslur í skjölum</span><span class="sxs-lookup"><span data-stu-id="8b7fb-103">Create sales tax transactions on documents</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="75b4c-104">Virðisaukaskattur á skjölum er reiknaður með því að gefa Vsk-flokk og vsk-flokk Vöru á línur upprunaskjals.</span><span class="sxs-lookup"><span data-stu-id="75b4c-104">Sales tax on documents is calculated by providing a Sales tax group and an Item sales tax group on document lines.</span></span> <span data-ttu-id="75b4c-105">Þær eru sjálfgefnar úr aðalgögnum en því má breyta handvirkt ef þörf krefur.</span><span class="sxs-lookup"><span data-stu-id="75b4c-105">These default from master data but can be changed manually if necessary.</span></span> <span data-ttu-id="75b4c-106">Hægt er að athuga reiknaðan virðisaukaskatt á stigi línu og skjals.</span><span class="sxs-lookup"><span data-stu-id="75b4c-106">The calculated sales tax can be checked on a line and document level.</span></span> <span data-ttu-id="75b4c-107">Þetta verkefni notar USMF-sýnifyrirtækið.</span><span class="sxs-lookup"><span data-stu-id="75b4c-107">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="8b7fb-104">Virðisaukaskattur á skjölum er reiknaður með því að gefa Vsk-flokk og vsk-flokk Vöru á línur upprunaskjals.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-104">Sales tax on documents is calculated by providing a Sales tax group and an Item sales tax group on document lines.</span></span> <span data-ttu-id="8b7fb-105">Þær eru sjálfgefnar úr aðalgögnum en því má breyta handvirkt ef þörf krefur.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-105">These default from master data but can be changed manually if necessary.</span></span> <span data-ttu-id="8b7fb-106">Hægt er að athuga reiknaðan virðisaukaskatt á stigi línu og skjals.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-106">The calculated sales tax can be checked on a line and document level.</span></span> <span data-ttu-id="8b7fb-107">Þetta verkefni notar USMF-sýnifyrirtækið.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-107">This task uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="75b4c-108">Farið í Viðskiptakröfur > Pantanir > Allar sölupantanir.</span><span class="sxs-lookup"><span data-stu-id="75b4c-108">Go to Accounts receivable > Orders > All sales orders.</span></span>
-2. <span data-ttu-id="75b4c-109">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="75b4c-109">Click New.</span></span>
-3. <span data-ttu-id="75b4c-110">Í reitnum Reikningur viðskiptavina skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="75b4c-110">In the Customer account field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="75b4c-111">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="75b4c-111">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="75b4c-112">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="75b4c-112">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="75b4c-113">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="75b4c-113">Click OK.</span></span>
-7. <span data-ttu-id="75b4c-114">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="75b4c-114">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="75b4c-115">Í reitnum Vörunúmer skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="75b4c-115">In the Item number field, click the drop-down button to open the lookup.</span></span>
-9. <span data-ttu-id="75b4c-116">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="75b4c-116">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="75b4c-117">Í reitnum Einingarverð skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="75b4c-117">In the Unit price field, enter a number.</span></span>
-11. <span data-ttu-id="75b4c-118">Útvíkka eða draga saman hluta upplýsingar Línu.</span><span class="sxs-lookup"><span data-stu-id="75b4c-118">Expand or collapse the Line details section.</span></span>
-12. <span data-ttu-id="75b4c-119">Smellið á hnappinn „Uppsetning“.</span><span class="sxs-lookup"><span data-stu-id="75b4c-119">Click the Setup tab.</span></span>
-13. <span data-ttu-id="75b4c-120">Í reitnum VSK-flokkur vöru skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="75b4c-120">In the Item sales tax group field, click the drop-down button to open the lookup.</span></span>
-14. <span data-ttu-id="75b4c-121">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="75b4c-121">In the list, find and select the desired record.</span></span>
-15. <span data-ttu-id="75b4c-122">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="75b4c-122">In the list, click the link in the selected row.</span></span>
-16. <span data-ttu-id="75b4c-123">Smelltu á Fjárhagur.</span><span class="sxs-lookup"><span data-stu-id="75b4c-123">Click Financials.</span></span>
-17. <span data-ttu-id="75b4c-124">Smellt er á vsk.</span><span class="sxs-lookup"><span data-stu-id="75b4c-124">Click Sales tax.</span></span>
-18. <span data-ttu-id="75b4c-125">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="75b4c-125">Click OK.</span></span>
-19. <span data-ttu-id="75b4c-126">Smellið á „Bæta við línu“.</span><span class="sxs-lookup"><span data-stu-id="75b4c-126">Click Add line.</span></span>
-20. <span data-ttu-id="75b4c-127">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="75b4c-127">In the list, mark the selected row.</span></span>
-21. <span data-ttu-id="75b4c-128">Í reitnum Vörunúmer skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="75b4c-128">In the Item number field, click the drop-down button to open the lookup.</span></span>
-22. <span data-ttu-id="75b4c-129">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="75b4c-129">In the list, find and select the desired record.</span></span>
-23. <span data-ttu-id="75b4c-130">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="75b4c-130">In the list, click the link in the selected row.</span></span>
-24. <span data-ttu-id="75b4c-131">Í reitnum Einingarverð skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="75b4c-131">In the Unit price field, enter a number.</span></span>
-25. <span data-ttu-id="75b4c-132">Í reitnum VSK-flokkur vöru skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="75b4c-132">In the Item sales tax group field, click the drop-down button to open the lookup.</span></span>
-26. <span data-ttu-id="75b4c-133">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="75b4c-133">In the list, find and select the desired record.</span></span>
-27. <span data-ttu-id="75b4c-134">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="75b4c-134">In the list, click the link in the selected row.</span></span>
-28. <span data-ttu-id="75b4c-135">Í aðgerðasvæðinu er smellt á selja.</span><span class="sxs-lookup"><span data-stu-id="75b4c-135">On the Action Pane, click Sell.</span></span>
-29. <span data-ttu-id="75b4c-136">Smellt er á vsk.</span><span class="sxs-lookup"><span data-stu-id="75b4c-136">Click Sales tax.</span></span>
-30. <span data-ttu-id="75b4c-137">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="75b4c-137">Click OK.</span></span>
+1. <span data-ttu-id="8b7fb-108">Farið í Viðskiptakröfur > Pantanir > Allar sölupantanir.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-108">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="8b7fb-109">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-109">Click New.</span></span>
+3. <span data-ttu-id="8b7fb-110">Í reitnum Reikningur viðskiptavina skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-110">In the Customer account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="8b7fb-111">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-111">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="8b7fb-112">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-112">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="8b7fb-113">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-113">Click OK.</span></span>
+7. <span data-ttu-id="8b7fb-114">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-114">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="8b7fb-115">Í reitnum Vörunúmer skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-115">In the Item number field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="8b7fb-116">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-116">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="8b7fb-117">Í reitnum Einingarverð skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-117">In the Unit price field, enter a number.</span></span>
+11. <span data-ttu-id="8b7fb-118">Útvíkka eða draga saman hluta upplýsingar Línu.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-118">Expand or collapse the Line details section.</span></span>
+12. <span data-ttu-id="8b7fb-119">Smellið á hnappinn „Uppsetning“.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-119">Click the Setup tab.</span></span>
+13. <span data-ttu-id="8b7fb-120">Í reitnum VSK-flokkur vöru skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-120">In the Item sales tax group field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="8b7fb-121">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-121">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="8b7fb-122">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-122">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="8b7fb-123">Smelltu á Fjárhagur.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-123">Click Financials.</span></span>
+17. <span data-ttu-id="8b7fb-124">Smellt er á vsk.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-124">Click Sales tax.</span></span>
+18. <span data-ttu-id="8b7fb-125">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-125">Click OK.</span></span>
+19. <span data-ttu-id="8b7fb-126">Smellið á „Bæta við línu“.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-126">Click Add line.</span></span>
+20. <span data-ttu-id="8b7fb-127">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-127">In the list, mark the selected row.</span></span>
+21. <span data-ttu-id="8b7fb-128">Í reitnum Vörunúmer skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-128">In the Item number field, click the drop-down button to open the lookup.</span></span>
+22. <span data-ttu-id="8b7fb-129">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-129">In the list, find and select the desired record.</span></span>
+23. <span data-ttu-id="8b7fb-130">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-130">In the list, click the link in the selected row.</span></span>
+24. <span data-ttu-id="8b7fb-131">Í reitnum Einingarverð skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-131">In the Unit price field, enter a number.</span></span>
+25. <span data-ttu-id="8b7fb-132">Í reitnum VSK-flokkur vöru skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-132">In the Item sales tax group field, click the drop-down button to open the lookup.</span></span>
+26. <span data-ttu-id="8b7fb-133">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-133">In the list, find and select the desired record.</span></span>
+27. <span data-ttu-id="8b7fb-134">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-134">In the list, click the link in the selected row.</span></span>
+28. <span data-ttu-id="8b7fb-135">Í aðgerðasvæðinu er smellt á selja.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-135">On the Action Pane, click Sell.</span></span>
+29. <span data-ttu-id="8b7fb-136">Smellt er á vsk.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-136">Click Sales tax.</span></span>
+30. <span data-ttu-id="8b7fb-137">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="8b7fb-137">Click OK.</span></span>
 

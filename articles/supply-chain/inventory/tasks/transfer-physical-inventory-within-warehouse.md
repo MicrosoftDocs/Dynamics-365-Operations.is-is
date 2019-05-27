@@ -18,54 +18,54 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 79b3e91be8aeab10188b6d3925d44a9ec1106406
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "367295"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1554185"
 ---
-# <a name="transfer-physical-inventory-within-the-warehouse"></a><span data-ttu-id="6fdd2-103">Flytja efnislegar birgðir innan vöruhúss</span><span class="sxs-lookup"><span data-stu-id="6fdd2-103">Transfer physical inventory within the warehouse</span></span>
+# <a name="transfer-physical-inventory-within-the-warehouse"></a><span data-ttu-id="e38ef-103">Flytja efnislegar birgðir innan vöruhúss</span><span class="sxs-lookup"><span data-stu-id="e38ef-103">Transfer physical inventory within the warehouse</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="6fdd2-104">Þetta ferli fer í gegnum ferlið fyrir stofnun og bókun á birgðaflutningabók til að skrá hreyfingar vöru úr einni staðsetningu í vöruhúsi í annað.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-104">This procedure walks you through the process of creating and posting an inventory transfer journal in order to register movement of an item from one location in a warehouse to another.</span></span> <span data-ttu-id="6fdd2-105">Þú þarft að hafa með heiti birgðabókarinnar sett upp fyrir birgðaflutning áður en byrjað er að þetta.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-105">You need to have an inventory journal name set up for inventory transfers before you start this.</span></span> <span data-ttu-id="6fdd2-106">Hægt er að fara í gegnum þessu ferli í sýnigögn fyrirtækisins USMF með notkun dæmagilda sem eru sýndar eða með því að nota eigin gögn ef afurðir og staðsetningar eru uppsettar.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-106">You can walk through this procedure in demo data company USMF using the example values that are shown, or using you can use your own data if you have products and locations set up.</span></span> <span data-ttu-id="6fdd2-107">Þessi verkefni eru venjulega framkvæmd af starfsmanni í vöruhúsi.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-107">These tasks would normally be carried out by a warehouse employee.</span></span>
+<span data-ttu-id="e38ef-104">Þetta ferli fer í gegnum ferlið fyrir stofnun og bókun á birgðaflutningabók til að skrá hreyfingar vöru úr einni staðsetningu í vöruhúsi í annað.</span><span class="sxs-lookup"><span data-stu-id="e38ef-104">This procedure walks you through the process of creating and posting an inventory transfer journal in order to register movement of an item from one location in a warehouse to another.</span></span> <span data-ttu-id="e38ef-105">Þú þarft að hafa með heiti birgðabókarinnar sett upp fyrir birgðaflutning áður en byrjað er að þetta.</span><span class="sxs-lookup"><span data-stu-id="e38ef-105">You need to have an inventory journal name set up for inventory transfers before you start this.</span></span> <span data-ttu-id="e38ef-106">Hægt er að fara í gegnum þessu ferli í sýnigögn fyrirtækisins USMF með notkun dæmagilda sem eru sýndar eða með því að nota eigin gögn ef afurðir og staðsetningar eru uppsettar.</span><span class="sxs-lookup"><span data-stu-id="e38ef-106">You can walk through this procedure in demo data company USMF using the example values that are shown, or using you can use your own data if you have products and locations set up.</span></span> <span data-ttu-id="e38ef-107">Þessi verkefni eru venjulega framkvæmd af starfsmanni í vöruhúsi.</span><span class="sxs-lookup"><span data-stu-id="e38ef-107">These tasks would normally be carried out by a warehouse employee.</span></span>
 
 
-## <a name="create-an-inventory-transfer-journal"></a><span data-ttu-id="6fdd2-108">Stofna færslubóka fyrir birgðaflutning</span><span class="sxs-lookup"><span data-stu-id="6fdd2-108">Create an inventory transfer journal</span></span>
-1. <span data-ttu-id="6fdd2-109">Fara í Flutningi.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-109">Go to Transfer.</span></span>
-2. <span data-ttu-id="6fdd2-110">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-110">Click New.</span></span>
-3. <span data-ttu-id="6fdd2-111">Sláið inn eða veldu gildi í reitnum heiti.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-111">In the Name field, enter or select a value.</span></span>
-4. <span data-ttu-id="6fdd2-112">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-112">Click OK.</span></span>
-    * <span data-ttu-id="6fdd2-113">Það er að valkostur um að tilgreina 'Frá' og ''til“ vídda fyrir hverja færslubókarlínu.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-113">There is the option to specify 'From' and 'To' dimensions for each journal line.</span></span> <span data-ttu-id="6fdd2-114">Þetta eru mikilvægar fyrir gerð færslubókar.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-114">These are essential for this journal type.</span></span> <span data-ttu-id="6fdd2-115">Hægt er að flytja vörur á staði með mismunandi reglur.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-115">You can transfer items to locations using different rules.</span></span> <span data-ttu-id="6fdd2-116">Í þessu dæmi munum við flytja vöru innan sama vöruhús, frá númeraplötustýrð staðsetningu á staðsetningu sem ekki er númeraplötustýrð.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-116">In this example we’ll transfer an item within the same warehouse, from a license plate controlled location to a location that is not license plate controlled.</span></span>   
+## <a name="create-an-inventory-transfer-journal"></a><span data-ttu-id="e38ef-108">Stofna færslubóka fyrir birgðaflutning</span><span class="sxs-lookup"><span data-stu-id="e38ef-108">Create an inventory transfer journal</span></span>
+1. <span data-ttu-id="e38ef-109">Fara í Flutningi.</span><span class="sxs-lookup"><span data-stu-id="e38ef-109">Go to Transfer.</span></span>
+2. <span data-ttu-id="e38ef-110">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="e38ef-110">Click New.</span></span>
+3. <span data-ttu-id="e38ef-111">Sláið inn eða veldu gildi í reitnum heiti.</span><span class="sxs-lookup"><span data-stu-id="e38ef-111">In the Name field, enter or select a value.</span></span>
+4. <span data-ttu-id="e38ef-112">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="e38ef-112">Click OK.</span></span>
+    * <span data-ttu-id="e38ef-113">Það er að valkostur um að tilgreina 'Frá' og ''til“ vídda fyrir hverja færslubókarlínu.</span><span class="sxs-lookup"><span data-stu-id="e38ef-113">There is the option to specify 'From' and 'To' dimensions for each journal line.</span></span> <span data-ttu-id="e38ef-114">Þetta eru mikilvægar fyrir gerð færslubókar.</span><span class="sxs-lookup"><span data-stu-id="e38ef-114">These are essential for this journal type.</span></span> <span data-ttu-id="e38ef-115">Hægt er að flytja vörur á staði með mismunandi reglur.</span><span class="sxs-lookup"><span data-stu-id="e38ef-115">You can transfer items to locations using different rules.</span></span> <span data-ttu-id="e38ef-116">Í þessu dæmi munum við flytja vöru innan sama vöruhús, frá númeraplötustýrð staðsetningu á staðsetningu sem ekki er númeraplötustýrð.</span><span class="sxs-lookup"><span data-stu-id="e38ef-116">In this example we’ll transfer an item within the same warehouse, from a license plate controlled location to a location that is not license plate controlled.</span></span>   
 
-## <a name="create-journal-lines"></a><span data-ttu-id="6fdd2-117">Stofna færslubókarlínur</span><span class="sxs-lookup"><span data-stu-id="6fdd2-117">Create journal lines</span></span>
-1. <span data-ttu-id="6fdd2-118">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-118">Click New.</span></span>
-2. <span data-ttu-id="6fdd2-119">Í reitinn Vörunúmer skal slá inn eða veldu gildi.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-119">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="6fdd2-120">Ef verið er að nota USMF er hægt að velja 'A0001'.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-120">If you are using USMF, you can select 'A0001'.</span></span>  
-3. <span data-ttu-id="6fdd2-121">Sláið inn eða veldu gildi í reitnum Frá svæði.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-121">In the From site field, enter or select a value.</span></span>
-    * <span data-ttu-id="6fdd2-122">Ef verið er að nota USMF er hægt að velja '2'.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-122">If you are using USMF, you can select '2'.</span></span>  
-4. <span data-ttu-id="6fdd2-123">Sláið inn eða veldu gildi í reitnum í Til svæðis.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-123">In the To site field, enter or select a value.</span></span>
-    * <span data-ttu-id="6fdd2-124">Ef verið er að nota USMF er hægt að velja '2'.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-124">If you are using USMF, you can select '2'.</span></span>  
-5. <span data-ttu-id="6fdd2-125">Sláðu inn eða veldu gildi í reitnum Úr vöruhúsi.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-125">In the From warehouse field, enter or select a value.</span></span>
-    * <span data-ttu-id="6fdd2-126">Ef verið er að nota USMF er hægt að velja '24'.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-126">If you are using USMF, you can select '24'.</span></span>  
-6. <span data-ttu-id="6fdd2-127">Sláðu inn eða veldu gildi í reitnum Í vöruhús.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-127">In the To warehouse field, enter or select a value.</span></span>
-    * <span data-ttu-id="6fdd2-128">Ef verið er að nota USMF er hægt að velja '24'.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-128">If you are using USMF, you can select '24'.</span></span>  
-7. <span data-ttu-id="6fdd2-129">Færa inn eða veljið gildi í svæðinu Frá staðsetningu.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-129">In the From location field, enter or select a value.</span></span>
-    * <span data-ttu-id="6fdd2-130">Ef verið er að nota USMF er hægt að velja 'FL-001'.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-130">If you are using USMF, you can select 'FL-001'.</span></span>  
-8. <span data-ttu-id="6fdd2-131">Sláðu inn eða veldu gildi í reitnum Í staðsetning.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-131">In the To location field, enter or select a value.</span></span>
-    * <span data-ttu-id="6fdd2-132">Ef verið er að nota USMF er hægt að velja ‚BULK-001'.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-132">If you are using USMF, you can select 'BULK-001'.</span></span>  
-9. <span data-ttu-id="6fdd2-133">Færið inn númer í reitnum „Magn“.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-133">In the Quantity field, enter a number.</span></span>
-10. <span data-ttu-id="6fdd2-134">Smellið á flipann Birgðavíddir.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-134">Click the Inventory dimensions tab.</span></span>
-11. <span data-ttu-id="6fdd2-135">Færa inn eða veljið gildi í svæðinu númeraplata.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-135">In the License plate field, enter or select a value.</span></span>
-    * <span data-ttu-id="6fdd2-136">Ef verið er að nota USMF er hægt að velja '24'.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-136">If you are using USMF, you can select '24'.</span></span>  
-12. <span data-ttu-id="6fdd2-137">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-137">Click Save.</span></span>
+## <a name="create-journal-lines"></a><span data-ttu-id="e38ef-117">Stofna færslubókarlínur</span><span class="sxs-lookup"><span data-stu-id="e38ef-117">Create journal lines</span></span>
+1. <span data-ttu-id="e38ef-118">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="e38ef-118">Click New.</span></span>
+2. <span data-ttu-id="e38ef-119">Í reitinn Vörunúmer skal slá inn eða veldu gildi.</span><span class="sxs-lookup"><span data-stu-id="e38ef-119">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="e38ef-120">Ef verið er að nota USMF er hægt að velja 'A0001'.</span><span class="sxs-lookup"><span data-stu-id="e38ef-120">If you are using USMF, you can select 'A0001'.</span></span>  
+3. <span data-ttu-id="e38ef-121">Sláið inn eða veldu gildi í reitnum Frá svæði.</span><span class="sxs-lookup"><span data-stu-id="e38ef-121">In the From site field, enter or select a value.</span></span>
+    * <span data-ttu-id="e38ef-122">Ef verið er að nota USMF er hægt að velja '2'.</span><span class="sxs-lookup"><span data-stu-id="e38ef-122">If you are using USMF, you can select '2'.</span></span>  
+4. <span data-ttu-id="e38ef-123">Sláið inn eða veldu gildi í reitnum í Til svæðis.</span><span class="sxs-lookup"><span data-stu-id="e38ef-123">In the To site field, enter or select a value.</span></span>
+    * <span data-ttu-id="e38ef-124">Ef verið er að nota USMF er hægt að velja '2'.</span><span class="sxs-lookup"><span data-stu-id="e38ef-124">If you are using USMF, you can select '2'.</span></span>  
+5. <span data-ttu-id="e38ef-125">Sláðu inn eða veldu gildi í reitnum Úr vöruhúsi.</span><span class="sxs-lookup"><span data-stu-id="e38ef-125">In the From warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="e38ef-126">Ef verið er að nota USMF er hægt að velja '24'.</span><span class="sxs-lookup"><span data-stu-id="e38ef-126">If you are using USMF, you can select '24'.</span></span>  
+6. <span data-ttu-id="e38ef-127">Sláðu inn eða veldu gildi í reitnum Í vöruhús.</span><span class="sxs-lookup"><span data-stu-id="e38ef-127">In the To warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="e38ef-128">Ef verið er að nota USMF er hægt að velja '24'.</span><span class="sxs-lookup"><span data-stu-id="e38ef-128">If you are using USMF, you can select '24'.</span></span>  
+7. <span data-ttu-id="e38ef-129">Færa inn eða veljið gildi í svæðinu Frá staðsetningu.</span><span class="sxs-lookup"><span data-stu-id="e38ef-129">In the From location field, enter or select a value.</span></span>
+    * <span data-ttu-id="e38ef-130">Ef verið er að nota USMF er hægt að velja 'FL-001'.</span><span class="sxs-lookup"><span data-stu-id="e38ef-130">If you are using USMF, you can select 'FL-001'.</span></span>  
+8. <span data-ttu-id="e38ef-131">Sláðu inn eða veldu gildi í reitnum Í staðsetning.</span><span class="sxs-lookup"><span data-stu-id="e38ef-131">In the To location field, enter or select a value.</span></span>
+    * <span data-ttu-id="e38ef-132">Ef verið er að nota USMF er hægt að velja ‚BULK-001'.</span><span class="sxs-lookup"><span data-stu-id="e38ef-132">If you are using USMF, you can select 'BULK-001'.</span></span>  
+9. <span data-ttu-id="e38ef-133">Færið inn númer í reitnum „Magn“.</span><span class="sxs-lookup"><span data-stu-id="e38ef-133">In the Quantity field, enter a number.</span></span>
+10. <span data-ttu-id="e38ef-134">Smellið á flipann Birgðavíddir.</span><span class="sxs-lookup"><span data-stu-id="e38ef-134">Click the Inventory dimensions tab.</span></span>
+11. <span data-ttu-id="e38ef-135">Færa inn eða veljið gildi í svæðinu númeraplata.</span><span class="sxs-lookup"><span data-stu-id="e38ef-135">In the License plate field, enter or select a value.</span></span>
+    * <span data-ttu-id="e38ef-136">Ef verið er að nota USMF er hægt að velja '24'.</span><span class="sxs-lookup"><span data-stu-id="e38ef-136">If you are using USMF, you can select '24'.</span></span>  
+12. <span data-ttu-id="e38ef-137">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="e38ef-137">Click Save.</span></span>
 
-## <a name="post-the-inventory-transfer-journal"></a><span data-ttu-id="6fdd2-138">Bóka færslubóka fyrir birgðaflutning</span><span class="sxs-lookup"><span data-stu-id="6fdd2-138">Post the inventory transfer journal</span></span>
-1. <span data-ttu-id="6fdd2-139">Smellið á „Bóka“.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-139">Click Post.</span></span>
-2. <span data-ttu-id="6fdd2-140">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-140">Click OK.</span></span>
+## <a name="post-the-inventory-transfer-journal"></a><span data-ttu-id="e38ef-138">Bóka færslubóka fyrir birgðaflutning</span><span class="sxs-lookup"><span data-stu-id="e38ef-138">Post the inventory transfer journal</span></span>
+1. <span data-ttu-id="e38ef-139">Smellið á „Bóka“.</span><span class="sxs-lookup"><span data-stu-id="e38ef-139">Click Post.</span></span>
+2. <span data-ttu-id="e38ef-140">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="e38ef-140">Click OK.</span></span>
 
-## <a name="view-inventory-transactions"></a><span data-ttu-id="6fdd2-141">Skoða birgðafærslur</span><span class="sxs-lookup"><span data-stu-id="6fdd2-141">View inventory transactions</span></span>
-1. <span data-ttu-id="6fdd2-142">Smellið á birgðir.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-142">Click Inventory.</span></span>
-2. <span data-ttu-id="6fdd2-143">Smella á Færslur.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-143">Click Transactions.</span></span>
-    * <span data-ttu-id="6fdd2-144">Hér er hægt að sjá færslurnar sem voru stofnaðar þegar þitt færslubók var bókuð.</span><span class="sxs-lookup"><span data-stu-id="6fdd2-144">Here you can see the transactions that were created when you posted your journal.</span></span>  
+## <a name="view-inventory-transactions"></a><span data-ttu-id="e38ef-141">Skoða birgðafærslur</span><span class="sxs-lookup"><span data-stu-id="e38ef-141">View inventory transactions</span></span>
+1. <span data-ttu-id="e38ef-142">Smellið á birgðir.</span><span class="sxs-lookup"><span data-stu-id="e38ef-142">Click Inventory.</span></span>
+2. <span data-ttu-id="e38ef-143">Smella á Færslur.</span><span class="sxs-lookup"><span data-stu-id="e38ef-143">Click Transactions.</span></span>
+    * <span data-ttu-id="e38ef-144">Hér er hægt að sjá færslurnar sem voru stofnaðar þegar þitt færslubók var bókuð.</span><span class="sxs-lookup"><span data-stu-id="e38ef-144">Here you can see the transactions that were created when you posted your journal.</span></span>  
 

@@ -19,75 +19,75 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: be8e05a386178b9172a906109e015269dc72b32e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "331116"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1569656"
 ---
-# <a name="depreciation-methods-and-conventions"></a><span data-ttu-id="d8911-103">Afskriftaaðferðir og hefðir</span><span class="sxs-lookup"><span data-stu-id="d8911-103">Depreciation methods and conventions</span></span>
+# <a name="depreciation-methods-and-conventions"></a><span data-ttu-id="e773b-103">Afskriftaaðferðir og hefðir</span><span class="sxs-lookup"><span data-stu-id="e773b-103">Depreciation methods and conventions</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d8911-104">Þessi grein veitir yfirlit yfir afskriftarreglur og afskriftaraðferðir sem eru studdar af Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="d8911-104">This article provides an overview of the depreciation conventions and depreciation methods that are supported by Microsoft Dynamics 365 for Finance and Operations.</span></span>
+<span data-ttu-id="e773b-104">Þessi grein veitir yfirlit yfir afskriftarreglur og afskriftaraðferðir sem eru studdar af Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="e773b-104">This article provides an overview of the depreciation conventions and depreciation methods that are supported by Microsoft Dynamics 365 for Finance and Operations.</span></span>
 
-<span data-ttu-id="d8911-105">Hægt er að velja ýmsar afskriftaaðferðir og reglur.</span><span class="sxs-lookup"><span data-stu-id="d8911-105">You can select various depreciation methods and conventions.</span></span> <span data-ttu-id="d8911-106">Tilgangur aðferðanna er að úthluta afskriftavirði eignarinnar á fjárhagstímabil.</span><span class="sxs-lookup"><span data-stu-id="d8911-106">The purpose of the methods is to allocate the depreciable value of the fixed asset into fiscal periods.</span></span> <span data-ttu-id="d8911-107">Afskriftavirði eignarinnar er kaupverðið að frádregnu hugsanlegu rýrnunarvirði.</span><span class="sxs-lookup"><span data-stu-id="d8911-107">The depreciable value of the fixed asset is the acquisition price, reduced by a scrap value, if any.</span></span> 
+<span data-ttu-id="e773b-105">Hægt er að velja ýmsar afskriftaaðferðir og reglur.</span><span class="sxs-lookup"><span data-stu-id="e773b-105">You can select various depreciation methods and conventions.</span></span> <span data-ttu-id="e773b-106">Tilgangur aðferðanna er að úthluta afskriftavirði eignarinnar á fjárhagstímabil.</span><span class="sxs-lookup"><span data-stu-id="e773b-106">The purpose of the methods is to allocate the depreciable value of the fixed asset into fiscal periods.</span></span> <span data-ttu-id="e773b-107">Afskriftavirði eignarinnar er kaupverðið að frádregnu hugsanlegu rýrnunarvirði.</span><span class="sxs-lookup"><span data-stu-id="e773b-107">The depreciable value of the fixed asset is the acquisition price, reduced by a scrap value, if any.</span></span> 
 
-<span data-ttu-id="d8911-108">Ef afskriftareglur eru notaðar og síðustu dagsetningu afskriftakeyrslu eignar er breytt, sem veldur því síðan að nokkrum afskriftum er sleppt, gætu afskriftir síðasta árs verið meiri eða minni en áætlað var.</span><span class="sxs-lookup"><span data-stu-id="d8911-108">If you are using depreciation conventions and you modify the last depreciation run date for an asset, which then causes some depreciations to be skipped, the depreciation for the last year might be more than or less than is expected.</span></span> <span data-ttu-id="d8911-109">Afskriftirnar eru leiðréttar eftir fjölda afskriftatímabila sem verða fyrir áhrifum af breytingunni á síðustu dagsetningu afskriftakeyrslu.</span><span class="sxs-lookup"><span data-stu-id="d8911-109">The depreciation is adjusted by the number of depreciation periods affected by the modification of the last depreciation run date.</span></span>
+<span data-ttu-id="e773b-108">Ef afskriftareglur eru notaðar og síðustu dagsetningu afskriftakeyrslu eignar er breytt, sem veldur því síðan að nokkrum afskriftum er sleppt, gætu afskriftir síðasta árs verið meiri eða minni en áætlað var.</span><span class="sxs-lookup"><span data-stu-id="e773b-108">If you are using depreciation conventions and you modify the last depreciation run date for an asset, which then causes some depreciations to be skipped, the depreciation for the last year might be more than or less than is expected.</span></span> <span data-ttu-id="e773b-109">Afskriftirnar eru leiðréttar eftir fjölda afskriftatímabila sem verða fyrir áhrifum af breytingunni á síðustu dagsetningu afskriftakeyrslu.</span><span class="sxs-lookup"><span data-stu-id="e773b-109">The depreciation is adjusted by the number of depreciation periods affected by the modification of the last depreciation run date.</span></span>
 
-<span data-ttu-id="d8911-110">Til dæmis, ef  hálfsárs afskriftareglan hefur verið notuð í þrjú ár, eiga afskriftirnar sér stað yfir 3 1/2 ár.</span><span class="sxs-lookup"><span data-stu-id="d8911-110">For example, if you are using the Half year depreciation convention over three years, depreciation ordinarily occurs over 3 1/2 years.</span></span> <span data-ttu-id="d8911-111">Ef síðustu dagsetningu afskriftakeyrslu þessa 3 1/2 árs var breytt, flytur síðasta afskriftaárið út fjölda tímabila sem urðu fyrir áhrifum.</span><span class="sxs-lookup"><span data-stu-id="d8911-111">If you change the last depreciation run date during the 3 1/2 years, the last year of depreciation moves out the number of periods affected.</span></span> <span data-ttu-id="d8911-112">Ef dagsetningin er flutt um þrjá mánuði, hefur síðasta árið níu mánaða virði til afskrifta þegar alla jafna hefði verið sex mánaða virði til afskrifta.</span><span class="sxs-lookup"><span data-stu-id="d8911-112">If you move the date by three months, the last year will have nine months’ worth of depreciation, when ordinarily there would be six months’ worth of depreciation.</span></span>
+<span data-ttu-id="e773b-110">Til dæmis, ef  hálfsárs afskriftareglan hefur verið notuð í þrjú ár, eiga afskriftirnar sér stað yfir 3 1/2 ár.</span><span class="sxs-lookup"><span data-stu-id="e773b-110">For example, if you are using the Half year depreciation convention over three years, depreciation ordinarily occurs over 3 1/2 years.</span></span> <span data-ttu-id="e773b-111">Ef síðustu dagsetningu afskriftakeyrslu þessa 3 1/2 árs var breytt, flytur síðasta afskriftaárið út fjölda tímabila sem urðu fyrir áhrifum.</span><span class="sxs-lookup"><span data-stu-id="e773b-111">If you change the last depreciation run date during the 3 1/2 years, the last year of depreciation moves out the number of periods affected.</span></span> <span data-ttu-id="e773b-112">Ef dagsetningin er flutt um þrjá mánuði, hefur síðasta árið níu mánaða virði til afskrifta þegar alla jafna hefði verið sex mánaða virði til afskrifta.</span><span class="sxs-lookup"><span data-stu-id="e773b-112">If you move the date by three months, the last year will have nine months’ worth of depreciation, when ordinarily there would be six months’ worth of depreciation.</span></span>
 
-<span data-ttu-id="d8911-113">Hægt er að velja úr eftirfarandi afskriftareglum.</span><span class="sxs-lookup"><span data-stu-id="d8911-113">You can select from the following depreciation conventions.</span></span>
-
-
--   <span data-ttu-id="d8911-114">Hálft ár</span><span class="sxs-lookup"><span data-stu-id="d8911-114">Half year</span></span>
--   <span data-ttu-id="d8911-115">Heill mánuður</span><span class="sxs-lookup"><span data-stu-id="d8911-115">Full month</span></span>
--   <span data-ttu-id="d8911-116">Miður fjórðungur</span><span class="sxs-lookup"><span data-stu-id="d8911-116">Mid quarter</span></span>
--   <span data-ttu-id="d8911-117">Miður mánuður (fyrsti mánaðar)</span><span class="sxs-lookup"><span data-stu-id="d8911-117">Mid month (1st of month)</span></span>
--   <span data-ttu-id="d8911-118">Miður mánuður (15. mánaðar)</span><span class="sxs-lookup"><span data-stu-id="d8911-118">Mid month (15th of month)</span></span>
--   <span data-ttu-id="d8911-119">Hálft ár (byrjun árs)</span><span class="sxs-lookup"><span data-stu-id="d8911-119">Half year (start of year)</span></span>
--   <span data-ttu-id="d8911-120">Hálft ár (næsta ár)</span><span class="sxs-lookup"><span data-stu-id="d8911-120">Half year (next year)</span></span>
-
-<span data-ttu-id="d8911-121">Hægt er að velja á milli eftirfarandi afskriftaraðferða.</span><span class="sxs-lookup"><span data-stu-id="d8911-121">You can select from the following depreciation methods.</span></span>
--   <span data-ttu-id="d8911-122">Línuleg á líftíma</span><span class="sxs-lookup"><span data-stu-id="d8911-122">Straight line service life</span></span>
--   <span data-ttu-id="d8911-123">Bókfært virði</span><span class="sxs-lookup"><span data-stu-id="d8911-123">Reducing balance</span></span>
--   <span data-ttu-id="d8911-124">Beinskiptur</span><span class="sxs-lookup"><span data-stu-id="d8911-124">Manual</span></span>
--   <span data-ttu-id="d8911-125">Stuðull</span><span class="sxs-lookup"><span data-stu-id="d8911-125">Factor</span></span>
--   <span data-ttu-id="d8911-126">Notkun</span><span class="sxs-lookup"><span data-stu-id="d8911-126">Consumption</span></span>
--   <span data-ttu-id="d8911-127">Línuleg á eftirstöðvum líftíma</span><span class="sxs-lookup"><span data-stu-id="d8911-127">Straight line life remaining</span></span>
--   <span data-ttu-id="d8911-128">200% bókfært virði</span><span class="sxs-lookup"><span data-stu-id="d8911-128">200% reducing balance</span></span>
--   <span data-ttu-id="d8911-129">175% bókfært virði</span><span class="sxs-lookup"><span data-stu-id="d8911-129">175% reducing balance</span></span>
--   <span data-ttu-id="d8911-130">150% bókfært virði</span><span class="sxs-lookup"><span data-stu-id="d8911-130">150% reducing balance</span></span>
--   <span data-ttu-id="d8911-131">125% bókfært virði</span><span class="sxs-lookup"><span data-stu-id="d8911-131">125% reducing balance</span></span>
+<span data-ttu-id="e773b-113">Hægt er að velja úr eftirfarandi afskriftareglum.</span><span class="sxs-lookup"><span data-stu-id="e773b-113">You can select from the following depreciation conventions.</span></span>
 
 
+-   <span data-ttu-id="e773b-114">Hálft ár</span><span class="sxs-lookup"><span data-stu-id="e773b-114">Half year</span></span>
+-   <span data-ttu-id="e773b-115">Heill mánuður</span><span class="sxs-lookup"><span data-stu-id="e773b-115">Full month</span></span>
+-   <span data-ttu-id="e773b-116">Miður fjórðungur</span><span class="sxs-lookup"><span data-stu-id="e773b-116">Mid quarter</span></span>
+-   <span data-ttu-id="e773b-117">Miður mánuður (fyrsti mánaðar)</span><span class="sxs-lookup"><span data-stu-id="e773b-117">Mid month (1st of month)</span></span>
+-   <span data-ttu-id="e773b-118">Miður mánuður (15. mánaðar)</span><span class="sxs-lookup"><span data-stu-id="e773b-118">Mid month (15th of month)</span></span>
+-   <span data-ttu-id="e773b-119">Hálft ár (byrjun árs)</span><span class="sxs-lookup"><span data-stu-id="e773b-119">Half year (start of year)</span></span>
+-   <span data-ttu-id="e773b-120">Hálft ár (næsta ár)</span><span class="sxs-lookup"><span data-stu-id="e773b-120">Half year (next year)</span></span>
+
+<span data-ttu-id="e773b-121">Hægt er að velja á milli eftirfarandi afskriftaraðferða.</span><span class="sxs-lookup"><span data-stu-id="e773b-121">You can select from the following depreciation methods.</span></span>
+-   <span data-ttu-id="e773b-122">Línuleg á líftíma</span><span class="sxs-lookup"><span data-stu-id="e773b-122">Straight line service life</span></span>
+-   <span data-ttu-id="e773b-123">Bókfært virði</span><span class="sxs-lookup"><span data-stu-id="e773b-123">Reducing balance</span></span>
+-   <span data-ttu-id="e773b-124">Beinskiptur</span><span class="sxs-lookup"><span data-stu-id="e773b-124">Manual</span></span>
+-   <span data-ttu-id="e773b-125">Stuðull</span><span class="sxs-lookup"><span data-stu-id="e773b-125">Factor</span></span>
+-   <span data-ttu-id="e773b-126">Notkun</span><span class="sxs-lookup"><span data-stu-id="e773b-126">Consumption</span></span>
+-   <span data-ttu-id="e773b-127">Línuleg á eftirstöðvum líftíma</span><span class="sxs-lookup"><span data-stu-id="e773b-127">Straight line life remaining</span></span>
+-   <span data-ttu-id="e773b-128">200% bókfært virði</span><span class="sxs-lookup"><span data-stu-id="e773b-128">200% reducing balance</span></span>
+-   <span data-ttu-id="e773b-129">175% bókfært virði</span><span class="sxs-lookup"><span data-stu-id="e773b-129">175% reducing balance</span></span>
+-   <span data-ttu-id="e773b-130">150% bókfært virði</span><span class="sxs-lookup"><span data-stu-id="e773b-130">150% reducing balance</span></span>
+-   <span data-ttu-id="e773b-131">125% bókfært virði</span><span class="sxs-lookup"><span data-stu-id="e773b-131">125% reducing balance</span></span>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="d8911-132">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="d8911-132">Additional resources</span></span>
+
+
+<a name="additional-resources"></a><span data-ttu-id="e773b-132">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="e773b-132">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="d8911-133">Afskriftir eigna</span><span class="sxs-lookup"><span data-stu-id="d8911-133">Fixed asset depreciation</span></span>](fixed-asset-depreciation.md)
+[<span data-ttu-id="e773b-133">Afskriftir eigna</span><span class="sxs-lookup"><span data-stu-id="e773b-133">Fixed asset depreciation</span></span>](fixed-asset-depreciation.md)
 
-[<span data-ttu-id="d8911-134">Línuleg afskrift líftíma</span><span class="sxs-lookup"><span data-stu-id="d8911-134">Straight line service life depreciation</span></span>](Straight-line-service-life-depreciation.md)
+[<span data-ttu-id="e773b-134">Línuleg afskrift líftíma</span><span class="sxs-lookup"><span data-stu-id="e773b-134">Straight line service life depreciation</span></span>](Straight-line-service-life-depreciation.md)
 
-[<span data-ttu-id="d8911-135">Afskrift bókfærðs virðis</span><span class="sxs-lookup"><span data-stu-id="d8911-135">Reducing balance depreciation</span></span>](reduce-balance-depreciation.md)
+[<span data-ttu-id="e773b-135">Afskrift bókfærðs virðis</span><span class="sxs-lookup"><span data-stu-id="e773b-135">Reducing balance depreciation</span></span>](reduce-balance-depreciation.md)
 
-[<span data-ttu-id="d8911-136">Handvirkar afskriftir</span><span class="sxs-lookup"><span data-stu-id="d8911-136">Manual depreciation</span></span>](manual-depreciation.md)
+[<span data-ttu-id="e773b-136">Handvirkar afskriftir</span><span class="sxs-lookup"><span data-stu-id="e773b-136">Manual depreciation</span></span>](manual-depreciation.md)
 
-[<span data-ttu-id="d8911-137">Afskrift stuðuls</span><span class="sxs-lookup"><span data-stu-id="d8911-137">Factor depreciation</span></span>](factor-depreciation.md)
+[<span data-ttu-id="e773b-137">Afskrift stuðuls</span><span class="sxs-lookup"><span data-stu-id="e773b-137">Factor depreciation</span></span>](factor-depreciation.md)
 
-[<span data-ttu-id="d8911-138">Notkunarafskrift</span><span class="sxs-lookup"><span data-stu-id="d8911-138">Consumption depreciation</span></span>](consumption-depreciation.md)
+[<span data-ttu-id="e773b-138">Notkunarafskrift</span><span class="sxs-lookup"><span data-stu-id="e773b-138">Consumption depreciation</span></span>](consumption-depreciation.md)
 
-[<span data-ttu-id="d8911-139">Línuleg afskrift eftirstandandi líftíma</span><span class="sxs-lookup"><span data-stu-id="d8911-139">Straight line life remaining depreciation</span></span>](straight-line-life-remaining-depreciation.md)
+[<span data-ttu-id="e773b-139">Línuleg afskrift eftirstandandi líftíma</span><span class="sxs-lookup"><span data-stu-id="e773b-139">Straight line life remaining depreciation</span></span>](straight-line-life-remaining-depreciation.md)
 
-[<span data-ttu-id="d8911-140">Afskriftir fyrir 125% bókfært virði</span><span class="sxs-lookup"><span data-stu-id="d8911-140">125 percent reducing balance depreciation</span></span>](125-percent-reducing-balance-depreciation.md)
+[<span data-ttu-id="e773b-140">Afskriftir fyrir 125% bókfært virði</span><span class="sxs-lookup"><span data-stu-id="e773b-140">125 percent reducing balance depreciation</span></span>](125-percent-reducing-balance-depreciation.md)
 
-[<span data-ttu-id="d8911-141">Afskriftir fyrir 150% bókfært virði</span><span class="sxs-lookup"><span data-stu-id="d8911-141">150 percent reducing balance depreciation</span></span>](150-percent-reducing-balance-depreciation.md)
+[<span data-ttu-id="e773b-141">Afskriftir fyrir 150% bókfært virði</span><span class="sxs-lookup"><span data-stu-id="e773b-141">150 percent reducing balance depreciation</span></span>](150-percent-reducing-balance-depreciation.md)
 
-[<span data-ttu-id="d8911-142">Afskriftir fyrir 175% bókfært virði</span><span class="sxs-lookup"><span data-stu-id="d8911-142">175 percent reducing balance depreciation</span></span>](175-percent-reducing-balance-depreciation.md)
+[<span data-ttu-id="e773b-142">Afskriftir fyrir 175% bókfært virði</span><span class="sxs-lookup"><span data-stu-id="e773b-142">175 percent reducing balance depreciation</span></span>](175-percent-reducing-balance-depreciation.md)
 
-[<span data-ttu-id="d8911-143">Afskriftir fyrir 200% bókfært virði</span><span class="sxs-lookup"><span data-stu-id="d8911-143">200 percent reducing balance depreciation</span></span>](200-percent-reducing-balance-depreciation.md)
+[<span data-ttu-id="e773b-143">Afskriftir fyrir 200% bókfært virði</span><span class="sxs-lookup"><span data-stu-id="e773b-143">200 percent reducing balance depreciation</span></span>](200-percent-reducing-balance-depreciation.md)
 
 
 

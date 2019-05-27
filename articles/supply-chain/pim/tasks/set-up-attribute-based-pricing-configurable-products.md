@@ -17,45 +17,45 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 8568b5f4933ae58bc2d55a169c798668e03bed2a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "333784"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1573281"
 ---
-# <a name="set-up-attribute-based-pricing-for-configurable-products"></a><span data-ttu-id="683f2-103">Setja upp verð sem byggir á eigindum fyrir skilgreinanlegar afurðir</span><span class="sxs-lookup"><span data-stu-id="683f2-103">Set up attribute-based pricing for configurable products</span></span>
+# <a name="set-up-attribute-based-pricing-for-configurable-products"></a><span data-ttu-id="7c220-103">Setja upp verð sem byggir á eigindum fyrir skilgreinanlegar afurðir</span><span class="sxs-lookup"><span data-stu-id="7c220-103">Set up attribute-based pricing for configurable products</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="683f2-104">Þessi verklýsing sýnir hvernig á að setja upp eigindabyggða úthlutun.</span><span class="sxs-lookup"><span data-stu-id="683f2-104">This procedure shows how to set up attribute-based pricing.</span></span> <span data-ttu-id="683f2-105">Sem skilyrði, verður að hafa afbrigðalíkan afurðar sem hefur eitt eða fleiri íhluti og eiginleika.</span><span class="sxs-lookup"><span data-stu-id="683f2-105">As a prerequisite, you must have a product configuration model that has one or more components and attributes.</span></span> <span data-ttu-id="683f2-106">Þessi aðferð notar hágæða hátalara líkanið gögn fyrirtækisins sýnigögn USMF.</span><span class="sxs-lookup"><span data-stu-id="683f2-106">This example uses the High End Speaker product model in the USMF demo data company.</span></span> <span data-ttu-id="683f2-107">Venjulega notar framleiðslustjóri þetta ferli.</span><span class="sxs-lookup"><span data-stu-id="683f2-107">Typically, a product manager uses this procedure.</span></span>
+<span data-ttu-id="7c220-104">Þessi verklýsing sýnir hvernig á að setja upp eigindabyggða úthlutun.</span><span class="sxs-lookup"><span data-stu-id="7c220-104">This procedure shows how to set up attribute-based pricing.</span></span> <span data-ttu-id="7c220-105">Sem skilyrði, verður að hafa afbrigðalíkan afurðar sem hefur eitt eða fleiri íhluti og eiginleika.</span><span class="sxs-lookup"><span data-stu-id="7c220-105">As a prerequisite, you must have a product configuration model that has one or more components and attributes.</span></span> <span data-ttu-id="7c220-106">Þessi aðferð notar hágæða hátalara líkanið gögn fyrirtækisins sýnigögn USMF.</span><span class="sxs-lookup"><span data-stu-id="7c220-106">This example uses the High End Speaker product model in the USMF demo data company.</span></span> <span data-ttu-id="7c220-107">Venjulega notar framleiðslustjóri þetta ferli.</span><span class="sxs-lookup"><span data-stu-id="7c220-107">Typically, a product manager uses this procedure.</span></span>
 
 
-## <a name="create-a-new-price-model"></a><span data-ttu-id="683f2-108">Búa til nýtt verðlíkan</span><span class="sxs-lookup"><span data-stu-id="683f2-108">Create a new price model</span></span>
-1. <span data-ttu-id="683f2-109">Smellið á Skilgreining afurðarafbrigðislíkans</span><span class="sxs-lookup"><span data-stu-id="683f2-109">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="683f2-110">Smella á Afbrigðalíkan afurðar</span><span class="sxs-lookup"><span data-stu-id="683f2-110">Click Product configuration models.</span></span>
-3. <span data-ttu-id="683f2-111">Á listanum velurðu línuna fyrir hágæða hátalara, en smelltu ekki á tengilinn fyrir heitið.</span><span class="sxs-lookup"><span data-stu-id="683f2-111">In the list, select the High End Speaker line, but don’t click the link for the name.</span></span>
-4. <span data-ttu-id="683f2-112">Í aðgerðasvæðinu er smellt á líkan.</span><span class="sxs-lookup"><span data-stu-id="683f2-112">On the Action Pane, click Model.</span></span>
-5. <span data-ttu-id="683f2-113">Smelltu á Söluverðslíkön.</span><span class="sxs-lookup"><span data-stu-id="683f2-113">Click Price models.</span></span>
-6. <span data-ttu-id="683f2-114">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="683f2-114">Click New.</span></span>
-7. <span data-ttu-id="683f2-115">Sláið inn gildi í reitinn Verðlíkan.</span><span class="sxs-lookup"><span data-stu-id="683f2-115">In the Price model name field, type a value.</span></span>
-    * <span data-ttu-id="683f2-116">Notið nafn sem gerir auðvelt að bera kennsl á líkan.</span><span class="sxs-lookup"><span data-stu-id="683f2-116">Use a name that makes the model easy to identify.</span></span>  
-8. <span data-ttu-id="683f2-117">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="683f2-117">In the Description field, type a value.</span></span>
-9. <span data-ttu-id="683f2-118">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="683f2-118">Click Save.</span></span>
+## <a name="create-a-new-price-model"></a><span data-ttu-id="7c220-108">Búa til nýtt verðlíkan</span><span class="sxs-lookup"><span data-stu-id="7c220-108">Create a new price model</span></span>
+1. <span data-ttu-id="7c220-109">Smellið á Skilgreining afurðarafbrigðislíkans</span><span class="sxs-lookup"><span data-stu-id="7c220-109">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="7c220-110">Smella á Afbrigðalíkan afurðar</span><span class="sxs-lookup"><span data-stu-id="7c220-110">Click Product configuration models.</span></span>
+3. <span data-ttu-id="7c220-111">Á listanum velurðu línuna fyrir hágæða hátalara, en smelltu ekki á tengilinn fyrir heitið.</span><span class="sxs-lookup"><span data-stu-id="7c220-111">In the list, select the High End Speaker line, but don’t click the link for the name.</span></span>
+4. <span data-ttu-id="7c220-112">Í aðgerðasvæðinu er smellt á líkan.</span><span class="sxs-lookup"><span data-stu-id="7c220-112">On the Action Pane, click Model.</span></span>
+5. <span data-ttu-id="7c220-113">Smelltu á Söluverðslíkön.</span><span class="sxs-lookup"><span data-stu-id="7c220-113">Click Price models.</span></span>
+6. <span data-ttu-id="7c220-114">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="7c220-114">Click New.</span></span>
+7. <span data-ttu-id="7c220-115">Sláið inn gildi í reitinn Verðlíkan.</span><span class="sxs-lookup"><span data-stu-id="7c220-115">In the Price model name field, type a value.</span></span>
+    * <span data-ttu-id="7c220-116">Notið nafn sem gerir auðvelt að bera kennsl á líkan.</span><span class="sxs-lookup"><span data-stu-id="7c220-116">Use a name that makes the model easy to identify.</span></span>  
+8. <span data-ttu-id="7c220-117">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="7c220-117">In the Description field, type a value.</span></span>
+9. <span data-ttu-id="7c220-118">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="7c220-118">Click Save.</span></span>
 
-## <a name="add-price-elements"></a><span data-ttu-id="683f2-119">Bæta við verðeiningum</span><span class="sxs-lookup"><span data-stu-id="683f2-119">Add price elements</span></span>
-1. <span data-ttu-id="683f2-120">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="683f2-120">Click Edit.</span></span>
-    * <span data-ttu-id="683f2-121">Hver íhlutur í framleiðslulíkani getur haft grunnverð einingu og fjölda verðsegðarreglna.</span><span class="sxs-lookup"><span data-stu-id="683f2-121">Each component in a product model can have a base price element and any number of price expression rules.</span></span> <span data-ttu-id="683f2-122">Einnig er hægt að bæta verði í mismunandi gjaldmiðlum.</span><span class="sxs-lookup"><span data-stu-id="683f2-122">You can also add prices in different currencies.</span></span>  
-2. <span data-ttu-id="683f2-123">Í reitinn Svæði grunnverðs skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="683f2-123">In the Base price expression field, type a value.</span></span>
-    * <span data-ttu-id="683f2-124">Til dæmis, skrifið 100.</span><span class="sxs-lookup"><span data-stu-id="683f2-124">For example, type 100.</span></span>   <span data-ttu-id="683f2-125">Grunnverðssegð getur verið tölugildi eða það getur verið samsett af útreikningi sem felur í sér eina eða fleiri eigindir.</span><span class="sxs-lookup"><span data-stu-id="683f2-125">A base price expression can be a numerical value, or it can consist of an arithmetic calculation that involves one or more attributes.</span></span>  
-3. <span data-ttu-id="683f2-126">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="683f2-126">Click Add.</span></span>
-4. <span data-ttu-id="683f2-127">I retinum skal færa inn ‚Rosewood‘.</span><span class="sxs-lookup"><span data-stu-id="683f2-127">In the Name field, type ‘Rosewood’.</span></span>
-    * <span data-ttu-id="683f2-128">Nafn verð segð gerir auðveldara að verð einingarinnar sem stendur.</span><span class="sxs-lookup"><span data-stu-id="683f2-128">The price expression name helps identify what the price element represents.</span></span> <span data-ttu-id="683f2-129">Í þessu dæmi er mælt stofna verðeining fyrir Rosewood speaker cabinet ljúka valkost.</span><span class="sxs-lookup"><span data-stu-id="683f2-129">In this example, we are creating a price element for the Rosewood speaker cabinet finish option.</span></span>  
-5. <span data-ttu-id="683f2-130">Breyta skilyrði.</span><span class="sxs-lookup"><span data-stu-id="683f2-130">Click Edit condition.</span></span>
-    * <span data-ttu-id="683f2-131">Skilyrði verð hjálpar til við að tryggja samræmda segðareining verð er innifalinn í söluverði ef tiltekna samsetningu af eigindir eru til staðar.</span><span class="sxs-lookup"><span data-stu-id="683f2-131">A price condition helps guarantee that a price expression element is included in the sales price only if a specific combination of attributes is present.</span></span>  
-6. <span data-ttu-id="683f2-132">Í reitnum ConstraintBody skal slá inn 'CabinetFinish=="Rosewood"'.</span><span class="sxs-lookup"><span data-stu-id="683f2-132">In the ConstraintBody field, enter 'CabinetFinish=="Rosewood"'.</span></span>
-7. <span data-ttu-id="683f2-133">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="683f2-133">Click OK.</span></span>
-8. <span data-ttu-id="683f2-134">Í reitinn Framsetning skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="683f2-134">In the Expression field, type a value.</span></span>
-    * <span data-ttu-id="683f2-135">Til dæmis, skrifið 50.</span><span class="sxs-lookup"><span data-stu-id="683f2-135">For example, type 50.</span></span>  
-9. <span data-ttu-id="683f2-136">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="683f2-136">Close the page.</span></span>
-10. <span data-ttu-id="683f2-137">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="683f2-137">Close the page.</span></span>
+## <a name="add-price-elements"></a><span data-ttu-id="7c220-119">Bæta við verðeiningum</span><span class="sxs-lookup"><span data-stu-id="7c220-119">Add price elements</span></span>
+1. <span data-ttu-id="7c220-120">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="7c220-120">Click Edit.</span></span>
+    * <span data-ttu-id="7c220-121">Hver íhlutur í framleiðslulíkani getur haft grunnverð einingu og fjölda verðsegðarreglna.</span><span class="sxs-lookup"><span data-stu-id="7c220-121">Each component in a product model can have a base price element and any number of price expression rules.</span></span> <span data-ttu-id="7c220-122">Einnig er hægt að bæta verði í mismunandi gjaldmiðlum.</span><span class="sxs-lookup"><span data-stu-id="7c220-122">You can also add prices in different currencies.</span></span>  
+2. <span data-ttu-id="7c220-123">Í reitinn Svæði grunnverðs skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="7c220-123">In the Base price expression field, type a value.</span></span>
+    * <span data-ttu-id="7c220-124">Til dæmis, skrifið 100.</span><span class="sxs-lookup"><span data-stu-id="7c220-124">For example, type 100.</span></span>   <span data-ttu-id="7c220-125">Grunnverðssegð getur verið tölugildi eða það getur verið samsett af útreikningi sem felur í sér eina eða fleiri eigindir.</span><span class="sxs-lookup"><span data-stu-id="7c220-125">A base price expression can be a numerical value, or it can consist of an arithmetic calculation that involves one or more attributes.</span></span>  
+3. <span data-ttu-id="7c220-126">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="7c220-126">Click Add.</span></span>
+4. <span data-ttu-id="7c220-127">I retinum skal færa inn ‚Rosewood‘.</span><span class="sxs-lookup"><span data-stu-id="7c220-127">In the Name field, type ‘Rosewood’.</span></span>
+    * <span data-ttu-id="7c220-128">Nafn verð segð gerir auðveldara að verð einingarinnar sem stendur.</span><span class="sxs-lookup"><span data-stu-id="7c220-128">The price expression name helps identify what the price element represents.</span></span> <span data-ttu-id="7c220-129">Í þessu dæmi er mælt stofna verðeining fyrir Rosewood speaker cabinet ljúka valkost.</span><span class="sxs-lookup"><span data-stu-id="7c220-129">In this example, we are creating a price element for the Rosewood speaker cabinet finish option.</span></span>  
+5. <span data-ttu-id="7c220-130">Breyta skilyrði.</span><span class="sxs-lookup"><span data-stu-id="7c220-130">Click Edit condition.</span></span>
+    * <span data-ttu-id="7c220-131">Skilyrði verð hjálpar til við að tryggja samræmda segðareining verð er innifalinn í söluverði ef tiltekna samsetningu af eigindir eru til staðar.</span><span class="sxs-lookup"><span data-stu-id="7c220-131">A price condition helps guarantee that a price expression element is included in the sales price only if a specific combination of attributes is present.</span></span>  
+6. <span data-ttu-id="7c220-132">Í reitnum ConstraintBody skal slá inn 'CabinetFinish=="Rosewood"'.</span><span class="sxs-lookup"><span data-stu-id="7c220-132">In the ConstraintBody field, enter 'CabinetFinish=="Rosewood"'.</span></span>
+7. <span data-ttu-id="7c220-133">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="7c220-133">Click OK.</span></span>
+8. <span data-ttu-id="7c220-134">Í reitinn Framsetning skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="7c220-134">In the Expression field, type a value.</span></span>
+    * <span data-ttu-id="7c220-135">Til dæmis, skrifið 50.</span><span class="sxs-lookup"><span data-stu-id="7c220-135">For example, type 50.</span></span>  
+9. <span data-ttu-id="7c220-136">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="7c220-136">Close the page.</span></span>
+10. <span data-ttu-id="7c220-137">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="7c220-137">Close the page.</span></span>
 
