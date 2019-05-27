@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: bc3879492f230b9477c6e5efd2edc8e1e4aca0a2
-ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "368169"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1571635"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Setja upp ytri vörulista fyrir PunchOut eProcurement
 
@@ -78,7 +78,7 @@ Hér að neðan er hægt að finna lýsingu á merki sem eru hafðar með í sni
 |< Header >< Sender >< Credential domain=”” > | Umdæmi í dreifing fyrirtækisins.|
 |< Header >< Sender >< Credential >< Identity >< /Identity> | Kenni fyrirtækisins í dreifingu.|
 |< Header >< Sender >< Credential >< SharedSecret >< /SharedSecret >|Samnýttu secret á dreifing fyrirtækisins.|
-|< Beiðni deploymentMode = "" >|Í prófunar- eða nets.|
+|< Request deploymentMode=”” >|Í prófunar- eða nets.|
 |< Request >< PunchOutSetupRequest >< SupplierSetup >< URL >< /URL>|Veffang lánardrottins punchout endastöð.|
 
 ### <a name="extrinsic-elements"></a>Extrinsic einingar
@@ -93,7 +93,7 @@ Skilaboð til baka eru skilaboðin sem fengin eru frá lánardrottni þegar nota
 | Skilaboðin sem berast frá lánardrottni | Afrita línu Fjármál og Aðgerðir|
 |------------------------------|----------------------------------------------------------|
 |< ItemIn quantity=”” > |Magn|
-|< ItemIn >< ItemID >< SupplierPartID >< /SupplierPartID >|Kenni ytra atriðis|
+|< ItemIn>< ItemID >< SupplierPartID >< /SupplierPartID >|Kenni ytra atriðis|
 |< ItemDetail>< UnitPrice >< Money currency=”” >| Gjaldmiðill|
 |< ItemDetail >< UnitPrice >< Money >< /Money >| Einingarverð|
 |< ItemDetail >< Description ShortName=”” >|Afurðarnafn|

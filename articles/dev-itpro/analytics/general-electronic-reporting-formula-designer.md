@@ -3,7 +3,7 @@ title: Formúluhönnuður í rafrænni skýrslugerð (ER)
 description: Þessi Umfjöllunarefni útskýrir hvernig nota á formúluhönnuður í Rafræna skýrslugerð (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 10/03/2018
+ms.date: 05/14/2014
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dc02d51cedc7f732601c77c0ba5b473272fbccb4
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "331277"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541269"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formúluhönnuður í rafrænni skýrslugerð (ER)
 
@@ -440,12 +440,17 @@ IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 <td>Skila inn tilgreindan lista eftir að fyrirspurnin hefur verið breytt til að sía fyrir tilgreind skilyrði. Þessi aðgerð er frábrugðin <strong>WHERE</strong> aðgerðinni, vegna þess að tilgreint skilyrði er beitt á hvaða gagnagjafa rafrænnar skýrslugerðar af gerðinni <strong>Töflufærslur</strong> á gagnagrunnsstigi. Listinn og forsendurnar er hægt að skilgreina með því að nota töflur og samskipti.</td>
 <td>Ef <strong>Lánardrottinn</strong> er stilltur sem gagnagjafi rafrænnar skýrslugerðar sem vísar til VendTable töflunnar, <strong>FILTER (Söluaðilar, Vendors.VendGroup = &quot;40&quot;)</strong> skilar aðeins lista yfir seljendur sem tilheyra söluhópi 40. Ef <strong>Lánardrottinn</strong> er stilltur sem gagnagjafi rafrænnar skýrslugerðar sem vísar til VendTable töflunnar og <strong>parmVendorBankGroup</strong> er stillt sem gagnagjafi rafrænnar skýrslugerðar sem skilar gildi af gagnagerðinni <strong>Strengur</strong> <strong>SÍA Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> skilar lista yfir bara lánardrottnalykla sem tilheyra ákveðnum bankaflokki.</td>
 </tr>
+<tr>
+<td>VÍSIR (listi, vísir)</td>
+<td>Þessi virkni skilar færslu sem tilgreindur númeravísir í listanum velur. Undantekningu er beitt ef vísirinn utan marka fyrir færslurnar úr listanum.</td>
+<td>Ef gagnagjafinn <strong>DS</strong> er færður inn fyrir gerðina <strong>Reiknaður reitur</strong> og hann inniheldur <strong>SKIPTING („A|B|C“, „|“), 2)</strong> skilar segðin <strong>DS.Value</strong> textagildinu „B“. Segðin <strong>VÍSIR (SKIPTING („A|B|C“, „|“), 2).Value</strong> skilar einnig textagildinu „B“.</td>
+</tr>
 </tbody>
 </table>
 
 ### <a name="logical-functions"></a>Rökvirkni
 
-| Aðgerð | lýsing | Dæmi |
+| Aðgerð | Lýsing | Dæmi |
 |----------|-------------|---------|
 | CASE (tjáning, valkostur 1, niðurstaða 1 \[, valkostur 2, niðurstaða 2\] … \[, sjálfgefin niðurstaða\]) | Meta tilgreind gildi segðar gagnvart tilgreindum öðrum valkostum. Skila niðurstöðu valmöguleikans sem jafngildir gildi segðarinnar. Annars skila valfrjálsu sjálfgefnu niðurstöðunni ef sjálfgefin niðurstaða er tilgreind. (Sjálfgefna niðurstaðan er síðasta breytan þar sem valmöguleiki kemur ekki á undan.) | **CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")** skilar strengnum **"WINTER"** þegar núverandi setudagsetning Finance and Operations er á milli október og desember. Annars skilar það auður strengur. |
 | IF (skilyrði, gildið 1, gildi 2) | Skila fyrsta tilgreinda gildið þegar tilgreinda skilyrðið er uppfyllt. Annars skila öðru tilgreinda gildina. Ef gildi 1 og gildi 2 eru færslur eða færslulistar, þá hefur niðurstaðan aðeins svæðina sem eru í báðum listunum. | **EF (1 = 2 "skilyrði er uppfyllt", "skilyrði er ekki í uppfyllt")** skilar strengurinn **"skilyrði er ekki uppfyllt"**. |

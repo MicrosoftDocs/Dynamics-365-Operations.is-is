@@ -16,12 +16,12 @@ ms.search.region: Iceland
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0dc4951813278e4899bf6657eaf3f914b3307bed
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5b693e2c4a36e9aa01d65e06ea17823ab5e9e21c
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370920"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1537992"
 ---
 # <a name="create-a-vendor-account-and-attach-the-invoice-declaration-category"></a>Stofna lánardrottnalykil og festa verktakamiða
 

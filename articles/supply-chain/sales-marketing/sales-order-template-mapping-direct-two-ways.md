@@ -3,7 +3,7 @@ title: Samstilling sölupöntunar beint úr Sales við Finance and Operations
 description: Þetta efnisatriði fjallar um sniðmát og undirliggjandi verk sem notuð eru til að keyra samstillingu sölupantana beint á milli Microsoft Dynamics 365 for Sales og Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/11/2018
+ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 985a5a908308bc2268b80e8eef7117fdd6d54af6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a427bff3cd07adbf4d3d81f98bdf7f85a194730b
+ms.sourcegitcommit: 3f02d8a874d1696cbf21d100f1ad205c57224e4b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "339120"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1539115"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Samstilling sölupantana beint milli Sales og Finance and Operations
 
@@ -146,6 +146,16 @@ Staða sölupöntunar verður áfram **Virk** til að tryggja að gjöld úr Fin
 ### <a name="setup-in-finance-and-operations"></a>Uppsetning Finance and Operations
 
 - Stilltu **Sala og markaðssetning**&gt;**Reglubundin verkefni**&gt;**Reikna heildarsölu** til að keyra sem runuvinnsla. Stilltu **Reikna út samtölu sölupantana** valkostinn á **Já**. Þetta skref er mikilvægt þar sem aðeins sölurekningar þar sem sölutölur eru reiknaðar verður samstilltir við Sales. Tíðni runuvinnslunnar ætti að vera í samræmi við tíðni samstillingu sölupöntunar.
+
+Ef samþætting vinnupöntunar er einnig notuð er nauðsynlegt að setja upp söluupprunann. Söluuppruninn er notaður til að greina sölupantanir í Finance and Operations sem voru stofnaðar út frá vinnupöntunum í Field Service. Þegar sölupöntun hefur söluuppruna af gerðinni **Samþætting vinnupöntunar** birtist reiturinn **Ytri staða vinnupöntunar** á sölupöntunarhausnum. Til viðbótar hjálpar söluuppruni að tryggja að sölupantanir sem voru stofnaðar úr vinnupöntunum í Field Service séu síaðar út á meðan samstilling stendur yfir á sölupöntunum Finance and Operations við Field Service.
+
+1. Farðu í **Sala og markaðssetning** \> **Uppsetning** \> **Sölupantanir** \> **Söluuppruni**.
+2. Veldu **Nýr** til að búa til nýjan söluuppruna.
+3. Í reitinn **Söluuppruni** skal slá inn heiti söluuppruna, t.d. **SalesOrder**.
+4. Í reitnum **Lýsing** skal færa inn lýsingu, t.d. **Sölupöntun úr Sales**.
+5. Veldu gátreitinn **Úthlutun upprunagerðar**.
+6. Stilltu reitinn **Upprunagerð sölu** á **Samþætting sölupöntunar**.
+7. Veljið **Vista**.
 
 ### <a name="setup-in-the-sales-orders-sales-to-fin-and-ops---direct-data-integration-project"></a>Uppsetning í sölupöntunum (Sales við Fin og Ops) - Beint Gagnasamþættingarverk
 

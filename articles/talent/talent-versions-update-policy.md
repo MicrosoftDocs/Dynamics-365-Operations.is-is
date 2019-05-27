@@ -3,7 +3,7 @@ title: Kerfiskröfur og uppfærsluregla Talent
 description: Þetta efnisatriði inniheldur lista yfir kröfur Dynamics 365 for Talent. Þar er uppfærslustefnuna einnig að finna.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 05/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2389f00b22ec3b5284eeffb2c015533b7a3d13e0
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.openlocfilehash: ea8b7485b142245a359648a2a85d2a3e2a6d6629
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856302"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1518285"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>Kerfiskröfur og uppfærsluregla Talent
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði inniheldur lista yfir kröfur Microsoft Dynamics 365 for Talent. Þar er uppfærslustefnuna einnig að finna.
+Þetta efnisatriði útskýrir kröfur fyrir Microsoft Dynamics 365 for Talent, þ.m.t. Attract, Onboard og Core HR. Það gefur líka upp löndin og svæðin þar sem Talent er tiltækt, ásamt upplýsingum um tungumál og staðfæringar fyrir gögn Talent. Þetta efnisatriði veitir að auki uppfærsluregluna fyrir Talent.
 
 ## <a name="supported-web-browsers"></a>Studdir vafrar
 
@@ -57,8 +57,17 @@ Farið á vefsvæði hugbúnaðarframleiðandans til að finna nýjustu útgáfu
 * Til að keyra Microsoft Excel og Word innbætur verður Microsoft Office 2016 fyrir Windows eða Mac að vera uppsett. Frekari upplýsingar um kröfur útgáfu er hægt að finna á [Úrræðaleit Office samþættingar](../dev-itpro/office-integration/office-integration-troubleshooting.md "Úrræðaleit Office samþættingar").
 * Til að skoða skjöl sem eru mynduð af virkninni Flytja inn í Excel eða Flytja inn í Word verður að hafa Microsoft Office 2007 eða nýrri útgáfu uppsetta.
 
+## <a name="regional-availability-languages-and-localization"></a>Svæði í boði, tungumál og staðfærsla
+
+Hægt er að hlaða niður PDF skrá yfir lönd, svæði og tungumál sem Talent styður á [Alþjóðlegt framboð á Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/availability). 
+
+> [!NOTE]
+> Á meðan notandaviðmót er staðfært á önnur tungumál eru öll gögn notanda geymd á því tungumáli sem þau voru færð inn á. Hægt er að búa til tölvupósta og sniðmát á öðrum tungumálum, en gögn á borð við upplýsingar um áætlanagerð eru einungis í boði á ensku sem stendur.
+
+Ef þú ert þróunaraðili og hefur áhuga á að búa til lands- eða svæðisbundnar sérstillingar, eða að finna lausnir fyrir land eða svæði sem Microsoft styður ekki sem stendur skaltu skoða [Alþjóðavæðing](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
+
 ## <a name="update-policy"></a>Uppfæra stefnu
 
 Microsoft Dynamics 365 for Talent er þjónustað sem ský vara. Uppfærslur fyrir Dynamics 365 for Talent eru samfelldar og settar inn sjálfvirkt af Microsoft.
 
-Uppfærslur eru gefnar út með reglubundnum hætti, uppfærslur eru gerðar fyrir allt umhverfi.  Dynamics 365 for Talent er stutt samkvæmt [Microsoft Support Lifecycle policy](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle") sem býður upp á stöðugar og einfaldar leiðbeiningar fyrir tiltækileika stuðnings við vöru.
+Uppfærslur eru gefnar út með reglubundnum hætti og eru gerðar fyrir öll umhverfi. Dynamics 365 for Talent er stutt samkvæmt [Microsoft Support Lifecycle policy](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle") sem býður upp á stöðugar og einfaldar leiðbeiningar fyrir tiltækileika stuðnings við vöru.

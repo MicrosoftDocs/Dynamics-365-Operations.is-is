@@ -19,17 +19,17 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 9d2d9bef0b70d5f645e358a970750aefef890ec1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "343881"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545222"
 ---
 # <a name="view-and-design-financial-reports"></a>Skoða og setja upp fjárhagsskýrslur
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir æfingar sem fara með þig í gegnum yfirlit og stofnun á fjárhagsskýrslum fyrir Microsoft Dynamics 365 for Finance and Operations. Fjárhagsskýrsla samanstendur af yfirlitsupplifun innan Dynamics 365 for Finance and Operations og einssmells skýrsluhönnun sem gerir kleift að stofna og breyta fjárhagsskýrslum.
+Þessi grein veitir æfingar sem fara með þig í gegnum yfirlit og stofnun á fjárhagsskýrslum fyrir Microsoft Dynamics 365 for Finance and Operations. Fjárhagsskýrsla samanstendur af yfirlitsupplifun innan Finance and Operations og einssmells skýrsluhönnun sem gerir kleift að stofna og breyta fjárhagsskýrslum.
 
 ## <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>Æfing 1: Búa til og skoða sjálfgefna fjárhagsskýrslu
 
@@ -63,7 +63,7 @@ Fyrir þessa æfingu verður fyrirliggjandi sjálfgefin skýrsla mynduð og athu
 13. Veldu **Skýrsluvalkosti**.
 14. Veldu **Bæta við víddarafmörkun** og veldu **Viðskiptaeiningu**.
 15. Sláðu 001 inn í reitinn og veldu **í lagi**. Skýrslan sýnir nú aðeins gögnin fyrir 001 Viðskiptaeining. Þetta er sérsniðið yfirlit skýrslu og er ekki tiltækt fyrir aðra til að skoða.
-16. Loka síaðri skýrslu. Hægt er að birta fjárhagsskýrslur í öllum gjaldmiðlum sem hefur verið bætt við Dynamics 365 for Finance and Operations.
+16. Loka síaðri skýrslu. Hægt er að birta fjárhagsskýrslur í öllum gjaldmiðlum sem hefur verið bætt við Finance and Operations.
 17. Veldu **Gjaldmiðill** og veldu svo **EUR**. Skýrslan birtir nú í evrum. Allir gjaldmiðilskóðar eða gjaldmiðilstákn sem hafðir eru með í skýrsluhönnun birtast nú í notuðum gjaldmiðli. Ef ekkert gjaldeyristákn er skilgreint fyrir gjaldmiðil er gjaldmiðilstáknið ekki birt.
 18. Lokaðu skýrslunni **Fjárhagsupplýsingar**.
 19. Lokaðu **Skýrsluhönnuninni**.
