@@ -20,11 +20,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 9963c17d8ac1854a42cac2a0e19615f13e8cc006
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "355404"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1543630"
 ---
 # <a name="weighted-average-date"></a>Vegið meðaltal dagsetningar
 
@@ -104,7 +104,7 @@ Eftirfarandi skýringarmynd sýnir þessar færslur:
 -   1a. Efnisleg innhreyfing uppfærð með magninu 3 á 15,00 USD hver
 -   1b. Fjárhagsleg innhreyfing uppfærð með magninu 3 á 15,00 USD hver
 -   2a. Efnisleg úthreyfing birgða í magninu 1 með meðalkostnaðinum 15,00 USD.
--   2a. Fjárhagsleg úthreyfing birgða í magninu 1 með meðalkostnaðinum 15,00 USD.
+-   2b. Fjárhagsleg úthreyfing birgða í magninu 1 með meðalkostnaðinum 15,00 USD.
 
 Kerfið notar beina jöfnun fyrir dag 1. 
 

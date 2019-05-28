@@ -3,7 +3,7 @@ title: Skilgreiningarlyklar og gagnaeiningar
 description: Þetta umfjöllunarefni lýsir tengslunum milli skilgreiningarlykla og gagnaeininga í Microsoft Dynamics 365 for Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 01/01/2018
+ms.date: 05/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 8d07a0572e56e97d42c0e1b841905f828edc6f51
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: bf2bdd2eaf406750c885a151aa09468df8a5f4b7
+ms.sourcegitcommit: fd3db9f2052c76a5d906b9ec23cb16222452a362
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336475"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "1539945"
 ---
 # <a name="configuration-keys-and-data-entities"></a>Skilgreiningarlyklar og gagnaeiningar
 
@@ -42,7 +42,7 @@ Skilgreiningarlyklar geta verið úthlutaðir til eins eða allra eftirtaldra þ
 
 Eftirfarandi tafla útlistar hvernig gildi skilgreiningarlykils á mismunandi þáttum sem liggja að baki hlut breytast væntanlegri hegðun hlutarins.
 
-| Stillingar skilgreiningarlykils á gagnaeiningum | Stillingar skilgreiningarlykils á töflu | Stillingar skilgreiningarlykils á töflureit | Skilgreiningarlykill á gagnaeiningarsvæði | Væntanleg hegðun |
+| Stillingar skilgreiningarlykils á gagnaeiningu | Stillingar skilgreiningarlykils á töflu | Stillingar skilgreiningarlykils á töflureit | Skilgreiningarlykill á gagnaeiningarsvæði | Væntanleg hegðun |
 |-----------------------------------------|------------------------------------|------------------------------------------|----------------------------------------|------------------|
 | Óvirkt                                | Ekki metið                      | Ekki metið                            | Ekki metið                          | Ef skilgreiningarlykillinn fyrir gagnaeininguna er óvirkur, mun gagnaeiningin ekki virka. Það skiptir ekki máli hvort skilgreiningarlyklarnir í undirliggjandi töflum og reitum séu virkir eða óvirkir. |
 | Virkt                                 | Óvirkt                           | Ekki metið                            | Ekki metið                          | Ef skilgreiningarlykillinn fyrir gagnaeiningu er virkur, skoðar rammi gagnastjórnunar skilgreiningarlykilinn fyrir hverja undirliggjandi töflu. Ef skilgreiningarlykillinn fyrir töflu er óvirkur, mun þessi tafla ekki vera í boði í gagnaeiningunni fyrir virka notkun. Ef skilgreiningarlykill töflu er óvirkur, er tafla og stillingar skilgreiningarlykils gagnaeiningu ekki metið. Ef aðaltaflan í einingunni hefur skilgreiningarlykilinn óvirkan, þá mun kerfið virka eins og eining skilgreiningarlykils sé óvirk. |
@@ -86,7 +86,7 @@ Notkun á lýsigögnum skilgreiningarlykils sem eru búin til á meðan einingal
 - Þegar notandi hleður sniðmáti inn í gagnaverk
 - Þegar núverandi gagnaverk er hlaðið inn
 - Þegar sniðmát er hlaðið inn í gagnaverk
-- Áður en verk sem er flutt inn/flutt út er keyrt (runa, ekki runa, endurtekið, Odata)
+- Áður en verk sem er flutt inn/flutt út er keyrt (runa, ekki runa, endurtekið, OData)
 - Þegar notandinn stofnar vörpun
 - Þegar notandinn varpar svæðum í vörpun notendaviðmóts
 - Þegar notandinn bætir aðeins við 'svæðum sem flytja má einn'

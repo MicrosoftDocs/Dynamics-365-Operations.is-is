@@ -1,16 +1,16 @@
 ---
 title: Ítarlegir sniðsvalkostir í fjárhagsskýrslugerð
 description: Þegar skýrsla er stofnuð í fjárhagsskýrslu, eru tiætækar aukalegar aðgerðir fyrir snið, þar með talið síur fyrir víddir, takmarkanir fyrir dálka og eining skipurits, línur sem ekki á að prenta og IF/THEN/ELSE-yrðingar í útreikningum.
-author: ShylaThompson
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 106571
 ms.assetid: 895b5127-01d6-4495-b127-343387b743aa
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c95f3bfc33730fcf03bd65cd1e66ec104f1e236
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 70f69fdad3d9186886190c62fba08af06d2a24d6
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "335578"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1502566"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Ítarlegir sniðsvalkostir í fjárhagsskýrslugerð
 
@@ -41,6 +41,7 @@ Eftirfarandi tafla útskýrir aðgerðir fyrir ítarleg snið sem eru tiltækar 
 | Dálktakmörkun         | Dálktakmörkun í línuskilgreiningu er gagnleg til að fela gildi sem hafa aðeins þýðingu fyrir sumar línur í skýrslunni. Þegar hlutfallsútreikningar eru gerðir fyrir línu kemur þessi dálktakmörkun í veg fyrir að samtöludálkar eða aðrir dálkar verði prentaðir ef þær tölur eiga ekki við. |
 | Dálkaskil               | Þú getur bætt dálkaskilum í línuskilgreiningu að sýna skýrsluupplýsingar hlið við hlið. Hægt er að bæta mörgum dálkaskilum í eina línuskilgreiningu og dálkfyrirsagnir eru endurteknar efst í hverjum dálki eftir dálkaskil. Athugasemdir fyrir skýrslu eru sýndar á milli dálkaskila. |
 | IF/THEN/ELSE-yrðing     | Hægt er að breyta útreikningum í línuskilgreiningu eða skilgreiningu dálks. |
+| Notaðu einfaldar gæsalappir („“) og og-merkið (&) fyrir víddargildi | Þú getur notað víddargildi, þ.m.t. og-merkið fyrir skýrsluhönnun. |
 
 ## <a name="advanced-cell-placement"></a>Ítarleg staðsetning hólfa
 Ítarleg staðsetning hólfa, eða *þannig*, felur í sér staðsetningu á tilgreindum gildum í tilgreindum reitum. Til dæmis er þvingum oft notuð til að flytja rétta stöðu í sjóðstreymisyfirlit. Hægt er að nota þvingun í eftirfarandi tilgangi:
@@ -297,3 +298,9 @@ Ef takmarka á útreikning við staka einingu í skipuriti svo að upphæðin se
 
 > [!NOTE]
 > Ekki er hægt að setja niðurstöður úr útreikningi í neinn annan dálk. Niðurstöðurnar verða að vera í þeim dálki sem inniheldur formúluna.
+
+#### <a name="use-single-quotes-and-an-ampersand-for-dimension-values-in-a-row-column-or-tree"></a>Notaðu einfaldar gæsalappir og og-merkið fyrir víddargildi í röð, dálki eða skipuriti
+
+Hægt er að hanna skýrslur með því að nota víddargildi sem inniheldur og-merkið (&). 
+
+Inn í hvaða **Tengja við fjárhagsvídd** reit er hægt að slá inn gildi á borð við **'P&L'**. Að hafa með einfaldar gæsalappir (' ') báðum megin við víddargildið gefur til kynna að verið sé að nota bókstaflegt gildi, t.d. að hafa með (&) og-merkið. 

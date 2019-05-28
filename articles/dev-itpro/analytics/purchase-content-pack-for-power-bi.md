@@ -3,7 +3,7 @@ title: Eyðslugreining innkaupa Power BI efni
 description: Þetta efnisatriði lýsir því hvað er innifalið í efnispakka eyðslugreiningar fyrir Power BI. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru í efnispakkanum og veitir upplýsingar um gagnalíkan og einingar sem eru notaðar til að búa til efnið.
 author: FrankDahl
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 069c4dc21959ab603ba6ca3da0ac68ef20325265
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3206573022c0f843b07a468987a112ca6ac435ef
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313843"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527718"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Eyðslugreining innkaupa Power BI efni
 
@@ -44,88 +44,88 @@ Efnið notast við innkaupafærslugögn og gefur bæði samantekið yfirlit yfir
 **Eyðslugreining innkaupa** Power BI-efni er sýnt á **Greining á innkaupum og eyðslu** síðunni (**Innkaup og aðföng** \> **Fyrirspurnir og skýrslur** \> **Greining á innkaupaárangri** \> **Greining á innkaupum og eyðslu**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Mælikvarðar sem eru hafðir með í Power BI efni
-**Eyðslugreining innkaupa** Power BI efni inniheldur skýrslu sem samanstendur af safni mælikvarða. Þessir mælikvarðar eru birtir sem myndrit, reitir og töflur. Eftirfarandi tafla sýnir myndræna framsetningu.
+**Eyðslugreining innkaupa** Power BI efni inniheldur skýrslu sem samanstendur af safni mælikvarða. Þessir mælikvarðar eru birtir sem myndrit, reitir og töflur. 
 
-<table>
-<thead>
-<tr>
-<th>Skýrslusíða</th>
-<th>Gröf</th>
-<th>Reitir</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Innkaup eftir lánardrottni</td>
-<td><ul>
-<li>Efstu 10 lánardrottnar eftir innkaupum (staflað súlurit)</li>
-<li>Samtals innkaup eftir lánardrottnaflokki / landi / heiti (skífurit)</li>
-<li>Innkaup eftir lánardrottnaflokki / landi / heiti (stöplarit)</li>
-<li>Meðaltal innkaupa eftir lánardrottnaflokki / landi / heiti (stöplarit)</li>
-</ul></td>
-<td><ul>
-<li>Heildarinnkaup</li>
-<li>Vöxtur í innkaupum ár frá ári</li>
-<li>Samtala # lánardrottna</li>
-<li>Samtala # virkra lánardrottna</li>
-</ul></td>
-</tr>
-<tr>
-<td>Innkaup eftir afurðum</td>
-<td><ul>
-<li>Innkaup eftir innkaupategund / afurðarheiti (stöplarit)</li>
-<li>Heildarinnkaup eftir innkaupategund / afurðarheiti (skífurit)</li>
-<li>Efstu 10 afurðir eftir innkaupum (staflað súlurit)</li>
-</ul></td>
-<td><ul>
-<li>Samtala # afurða</li>
-<li>Samtala prósentu virkra afurða af samtölu # afurða</li>
-<li>Fjöldi afurða fyrir 80% innkaupa</li>
-</ul></td>
-</tr>
-<tr>
-<td>Innkaup eftir tímabili*</td>
-<td><ul>
-<li>Innkaup eftir mánuði / degi (stöplarit)</li>
-<li>Uppsöfnuð frávik á innkaupum ár frá ári (fossarit)</li>
-<li>Vöxtur í heildarinnkaupum ár frá ári (stöplarit)</li>
-<li>Innkaupayfirlit (fylki)</li>
-</ul></td>
-<td><ul>
-<li>Vöxtur í innkaupum ár frá ári</li>
-<li>Ár frá ári vöxtur í innkaupum</li>
-</ul></td>
-</tr>
-<tr>
-<td>Innkaupaáætlun eftir staðsetningu lánardrottins</td>
-<td><ul>
-<li>Innkaup eftir borg</li>
-<li>Vöxtur í innkaupum ár frá ári í %</li>
-<li>Innkaup eftir landi</li>
-</ul></td>
-<td></td>
-</tr>
-<tr>
-<td>Eyðslugreining innkaupa eftir tíma</td>
-<td><ul>
-<li>Innkaup núverandi árs eftir mánuðum / degi (línurit)</li>
-<li>Innkaup núverandi og síðasta árs (línu- og stöplarit)</li>
-</ul></td>
-<td></td>
-</tr>
-<tr>
-<td>Eyðslugreining innkaupa eftir lánardrottni</td>
-<td><ul>
-<li>Efstu 10 innkaup lánardrottna % innkaupa (trekt)</li>
-<li>Efstu 10 lánardrottnar með aukna eyðslu ár frá ári</li>
-<li>Efstu 10 lánardrottnar með minnkaða eyðslu ár frá ári</li>
-</ul></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+Eftirfarandi hlutar veita yfirlit yfir myndrænar framsetningar.
 
-\*Innkaup þessa árs og síðasta árs og vöxtur eftir innkaupategund
+### <a name="purchase-by-vendor-report-page"></a>Skýrslusíða fyrir innkaup eftir lánardrottni
+**Gröf**
+- Efstu 10 lánardrottnar eftir innkaupum (staflað súlurit)
+- Samtals innkaup eftir lánardrottnaflokki / landi / heiti (skífurit)
+- Innkaup eftir lánardrottnaflokki / landi / heiti (stöplarit)
+- Meðaltal innkaupa eftir lánardrottnaflokki / landi / heiti (stöplarit)
+
+**Reitir**
+- Heildarinnkaup
+- Vöxtur í innkaupum ár frá ári
+- Samtala # lánardrottna
+- Samtala # virkra lánardrottna
+
+**Dæmi**
+<img src="media/spend1.PNG" alt="Purchase by vendor">
+
+### <a name="purchase-by-product-report-page"></a>Skýrslusíða fyrir innkaup eftir afurðum
+
+**Gröf**
+- Innkaup eftir innkaupategund / afurðarheiti (stöplarit)
+- Heildarinnkaup eftir innkaupategund / afurðarheiti (skífurit)
+- Efstu 10 afurðir eftir innkaupum (staflað súlurit)
+
+**Reitir**
+- Samtala # afurða</li>
+- Samtala prósentu virkra afurða af samtölu # afurða
+- Fjöldi afurða fyrir 80% innkaupa
+
+**Dæmi**
+
+
+<img src="media/purchaseByProduct.PNG" alt="Purchase by Product">
+
+### <a name="purchase-by-period-report-page"></a>Skýrslusíða fyrir innkaup eftir tímabili
+Þessi síða sýnir innkaup þessa árs og síðasta árs og vöxtur eftir innkaupategund.
+
+**Gröf** 
+- Innkaup eftir mánuði / degi (stöplarit)
+- Uppsöfnuð frávik á innkaupum ár frá ári (fossarit)
+- Vöxtur í heildarinnkaupum ár frá ári (stöplarit)
+- Innkaupayfirlit (fylki)
+
+**Reitir**
+- Vöxtur í innkaupum ár frá ári
+- Ár frá ári vöxtur í innkaupum
+
+**Dæmi**
+<img src="media/purchaseByPeriod.PNG" alt="Purchase by Period">
+
+### <a name="purchase-by-vendor-location-report-page"></a>Skýrslusíða fyrir innkaup eftir staðsetningu lánardrottins
+
+**Gröf**
+- Innkaup eftir borg
+- Vöxtur í innkaupum ár frá ári í %
+- Innkaup eftir landi
+
+**Dæmi**
+<img src="media/purchByVendorLocation.PNG" alt="Purchase by Vendor Location">
+
+### <a name="purchase-spend-analysis-by-time-report-page"></a>Skýrslusíða fyrir eyðslugreiningu innkaupa eftir tíma
+
+**Gröf** 
+- Innkaup núverandi árs eftir mánuðum / degi (línurit)
+- Innkaup núverandi og síðasta árs (línu- og stöplarit)
+
+**Dæmi**
+<img src="media/PurchByTIme.PNG" alt="Purchase by Time">
+
+### <a name="purchase-spend-analysis-by-vendor-report-page"></a>Skýrslusíða fyrir eyðslugreiningu innkaupa eftir lánardrottni
+
+**Gröf** 
+- Efstu 10 innkaup lánardrottna % innkaupa (trekt)
+- Efstu 10 lánardrottnar með aukna eyðslu ár frá ári
+- Efstu 10 lánardrottnar með minnkaða eyðslu ár frá ári
+
+**Dæmi** 
+<img src="media/PurchSpendAnalysisByVendor.PNG" alt="Purchase spend by vendor">
+
 
 ## <a name="data-model-and-entities"></a>Gagnalíkan og einingar
 Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í **Eyðslugreining innkaupa** Power BI efni. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Einingaverslunin er Microsoft SQL Server gagnagrunnur sem er fínstillt fyrir greiningar. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](power-bi-integration-entity-store.md)

@@ -18,11 +18,11 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0a693529b55b66eb940f8215a336d5c4ae0acedd
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "332818"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545857"
 ---
 # <a name="organization-administration-home-page"></a>Fyrirtækisstjórnun – heimasíða
 
@@ -76,7 +76,7 @@ Verkflæði  er kerfi sem var uppsett með Finance and Operations og má nota vi
 
 Rafræn undirskrift staðfestir deili á þeim aðila sem er í þann mund að hefja eða samþykkja ferli. Innan sumra atvinnugreina er rafræn undirskrift jafn bindandi að lögum og handskrifuð. Reglur kveða á um rafrænar undirskriftir innan ýmissa atvinnugreina sem eru háðar opinberum reglugerðum, svo sem við lyfja-, matvæla- og drykkjarvöruframleiðslu og í flugvéla- og geimiðnaði og varnariðnaði.
 
-Hægt er að nota rafrænar undirskriftir fyrir mikilvæg viðskiptaferli í Dynamics 365 for Finance and Operations. Rafrænar undirskriftir eru innbyggður hluti sumra ferla. Hægt er að búa til kröfur um rafrænar undirskriftir fyrir hvaða gagnagrunn eða svæði sem er.
+Í Finance and Operations er hægt að nota rafrænar undirskriftir fyrir mikilvæg viðskiptaferli. Rafrænar undirskriftir eru innbyggður hluti sumra ferla. Hægt er að búa til kröfur um rafrænar undirskriftir fyrir hvaða gagnagrunn eða svæði sem er.
 
 - [Yfirlit yfir rafræna undirskrift](electronic-signature-overview.md)
 - [Uppsetning rafræna undirskrifta](tasks/set-up-electronic-signatures.md) (verkefnaleiðbeiningar)

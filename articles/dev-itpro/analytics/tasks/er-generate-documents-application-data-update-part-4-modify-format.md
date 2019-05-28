@@ -16,11 +16,11 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a095d0326835b0ae7322d5d58307216ee828649e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "359521"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1544542"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Breyta sniðum til að búa til skjöl sem eru með forritsgögnum
 
@@ -130,7 +130,7 @@ Skrefin í þessu ferli sýna hvernig skal hanna Rafræna skýrslugerð (ER) gru
 27. Í trénu skal velja „Safn haus\Heiti skráar“.
 28. Í trénu skal velja „snið\Framtal: XML Eining(Framtal)\Gögn: XML Eining 1..* (Gögn)\Heiti skráar: Afurð Strengur(Heiti skráar)“.
 29. Smelltu á Binda.
-30. Í trénu skal velja „snið\Framtal: XML Eining(Framtal)\Gögn: XML Eining 1..* (Gögn)\Afurð: XML Eining 0..* (Afurð)\Dim4: XML Eining 1..1 (Afurð)\númer: Strengur(númer)“.
+30. Í trénu skal velja „snið\Framtal: XML Eining(Framtal)\Gögn: XML Eining 1..* (Gögn)\Afurð: XML Eining 0..* (Afurð)\Dim4: XML Eining 1..1 (Afurð)\númer: Strengur(númer)'.
 31. Í trénu skal velja „Safn haus\Safn línur\Afurðanúmer“.
 32. Smelltu á Binda.
 33. Í trénu skal velja „snið\Framtal: XML Eining(Framtal)\Gögn: XML Eining 1..* (Gögn)\Afurð: XML Eining 0..* (Afurð)\Dim3: XML Eining 1..1 (Upphæð)\gildi: Tölugildi Raun(gildi)“.

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842723"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1505097"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Aðgerðir sölustaðar (POS) með og án nettengingar
 
@@ -70,8 +70,10 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 | 106 | Hreinsa magn | Endurstilla magn í línu sem er valin á **1**. | Já | Já | Númer | Já | Númer |
 | 640 | Hreinsa sölufulltrúa í línu | Fjarlægja söluflokk þóknunar (sölumaður) frá línunni sem nú er valin. | Já | Já | Númer | Já | Númer |
 | 121 | Hreinsa sölumann | Þessi aðgerð er ekki studd. | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Númer |
-| 1055 | Loka vakt | Loka núverandi vakt, prenta Z skýrslu og skrá notandann út úr kerfinu. | Já | Já | Já | Númer | Númer |
-| 925 | Afritið bankaávísunina | Þessi aðgerð er ekki studd. | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Já |
+| 1055 | Loka vakt | Loka núverandi vakt, prenta Z skýrslu og skrá notandann út úr kerfinu. | Já | Já | Já | Nei | Nei |
+| 139 | Ljúka við færslu | Biður notanda um að velja greiðslumáta | Já | Já | Nei | Já | Nei |
+| 620 | Stofna pöntun viðskiptavinar | Umbreyta POS viðskiptum í pöntun viðskiptavinar. | Já | Já | Nei | Já\* | Nei |
+| 925 | Afritið bankaávísunina | Þessi aðgerð er ekki studd. | Á ekki við | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Já |
 | 620 | Stofna pöntun viðskiptavinar | Umbreyta POS viðskiptum í pöntun viðskiptavinar. | Já | Já | Númer | Já\* | Númer |
 | 621 | Stofna tilboð | Umbreyta POS viðskiptum í sölutilboð. | Já | Já | Númer | Já\* | Númer |
 | 636 | Stofna smásölufærslu | Þessi aðgerð gerir notandanum kleift að búa til staðlaða söluviðskipti þegar sjálfgefið POS hegðunin felst í því að búa til pantanir viðskiptavina. | Já | Já | Númer | Já | Númer |

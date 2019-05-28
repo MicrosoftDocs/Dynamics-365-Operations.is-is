@@ -16,11 +16,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321732"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545463"
 ---
 # <a name="europe"></a>Evrópa 
 
@@ -32,7 +32,7 @@ ms.locfileid: "321732"
  - [Færslur handhafa fyrirframgreiðslu](emea-advance-holders-transactions.md)
  - [Fyrirframgreiðsla fyrir starfsmann (Austur-Evrópa)](tasks/advance-payment-employee.md)
 - [Ítarlegri reikningsfærsla](emea-advance-invoice.md)
-- [Bankaafstemming](emea-bank-reconciliation.md)
+- [Afstemming banka](emea-bank-reconciliation.md)
 - [Leiðréttandi reikningar](emea-corrective-invoice.md)
 - [Stofna og bóka tímabilsbækur](emea-create-post-periodic-journals.md)
 - [Stofna greiðslur fyrir viðskiptavin sem hefur beingreiðsluumboð](tasks/create-payments-customers-who-have-direct-debit-mandates.md)
@@ -69,7 +69,7 @@ ms.locfileid: "321732"
 - [Leit að aðila með VSK-númeri](tasks/eur-00015-party-search-vat-id.md)
 - [Verkfæri fyrir myndun greiðslutilvísunar (Austur-Evrópa)](tasks/ee-00015-payment-reference-generation-tool.md)
 - [Greiðsluseðilsskýrsla](emea-eur-payment-slip-report-giro.md)
-- [Kassasjóður](emea-petty-cash.md)
+- [Sjóður](emea-petty-cash.md)
 - [Bókun forkaupa á eign](emea-pre-acquisition-acquisition-fixed-asset.md)
 - [Póstnúmer](emea-import-create-postal-codes-manually.md)
 - [Taka við ESB-færsluvottorði](tasks/eur-00012-receive-eu-entry-certificate.md)
@@ -90,7 +90,7 @@ ms.locfileid: "321732"
   - [VSK-gengi](emea-vat-exchange-rate.md)
   - [VSK-afstemmingarskýrsla](tasks/eur-00018-vat-reconciliation-report.md)
   - [Færslur í VSK-skrá fyrir Austur-Evrópu](emea-vat-register-transactions.md)
-  - [VSK-skýrsla](emea-vat-reporting.md)
+  - [VAT skýrslugerð](emea-vat-reporting.md)
   - [Stofna og senda inn VSK-skýrslu](tasks/create-submit-vat-report.md)
   - [Skoðun færslna á uppgjöri](emea-transactions-settlement-form.md)
 
