@@ -1,147 +1,210 @@
----
-title: Viðskiptaskuldir – heimasíða
-description: Í þessu efnisatriði er að finna yfirlit yfir viðskiptaskuldir.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 02/15/2019
-ms.topic: index-page
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: VendInvoiceWorkspace
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 21901
-ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
-ms.search.region: Global
-ms.author: shylaw
-ms.search.validFrom: 2016-05-31
-ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 39187cf900624c5fbc7e811f0ee9632355688ba4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1507474"
----
-# <a name="accounts-payable-home-page"></a><span data-ttu-id="e3427-103">Viðskiptaskuldir – heimasíða</span><span class="sxs-lookup"><span data-stu-id="e3427-103">Accounts payable home page</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="e3427-104">Í þessu efnisatriði er að finna yfirlit yfir viðskiptaskuldir.</span><span class="sxs-lookup"><span data-stu-id="e3427-104">This topic provides an overview of Accounts payable.</span></span> 
-
-<span data-ttu-id="e3427-105">Hægt er að færa inn reikninga lánardrottins handvirkt eða fá þá rafrænt í gegnum gagnaeiningu.</span><span class="sxs-lookup"><span data-stu-id="e3427-105">You can enter vendor invoices manually or receive them electronically through a data entity.</span></span> <span data-ttu-id="e3427-106">Þegar reikningarnir hafa verið færðir inn eða mótteknir er hægt að skoða og samþykkja þá í gegnum færslubókarsamþykkt eða síðuna **Reikningur lánardrottnins**.</span><span class="sxs-lookup"><span data-stu-id="e3427-106">After the invoices are entered or received, you can review and approve the invoices by using an invoice approval journal or the **Vendor invoice** page.</span></span> <span data-ttu-id="e3427-107">Nota má reikningsjöfnun, reikningsreglur lánardrottins og verkflæði til að gera endurskoðunarferlið sjálfvirkt þannig að reikningar sem uppfylla ákveðin skilyrði eru sjálfkrafa samþykktir en aðrir merktir fyrir yfirferð af notanda með heimild.</span><span class="sxs-lookup"><span data-stu-id="e3427-107">You can use invoice matching, vendor invoice policies, and workflow to automate the review process so that invoices that meet certain criteria are automatically approved, and the remaining invoices are flagged for review by an authorized user.</span></span>
-
-<span data-ttu-id="e3427-108">**Viðskiptaferli**</span><span class="sxs-lookup"><span data-stu-id="e3427-108">**Business processes**</span></span>
-
-<span data-ttu-id="e3427-109">[![Viðskiptaferli](./media/AP-process.PNG)](./media/AP-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="e3427-109">[![Business process](./media/AP-process.PNG)](./media/AP-process.PNG)</span></span>
-
-## <a name="set-up-accounts-payable"></a><span data-ttu-id="e3427-110">Setja upp viðskiptaskuldir</span><span class="sxs-lookup"><span data-stu-id="e3427-110">Set up Accounts payable</span></span>
-
-<span data-ttu-id="e3427-111">Setja upp lánardrottnaflokka, lánardrottna, bókunarreglur, ýmsa greiðslukosti, færibreytur varðandi lánardrottna, gjöld, afhendingar- og ákvörðunarstaði, eigin víxla og aðrar gerðir af viðskiptaskuldaupplýsingum.</span><span class="sxs-lookup"><span data-stu-id="e3427-111">Set up vendor groups, vendors, posting profiles, various payment options, and parameters regarding vendors, charges, deliveries and destinations, promissory notes, and other types of Accounts payable information.</span></span> 
-
-[<span data-ttu-id="e3427-112">Skilgreining viðskiptaskulda</span><span class="sxs-lookup"><span data-stu-id="e3427-112">Configure Accounts payable</span></span>](accounts-payable-overview.md)
-
-[<span data-ttu-id="e3427-113">Dreifing á fjárhagsupphæð og færslur í færslubók undirfjárhags fyrir reikninga lánardrottins</span><span class="sxs-lookup"><span data-stu-id="e3427-113">Accounting distributions and subledger journal entries for vendor invoices</span></span>](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
-
-[<span data-ttu-id="e3427-114">Endurmat á erlendum gjaldmiðli fyrir viðskiptaskuldir og viðskiptakröfur</span><span class="sxs-lookup"><span data-stu-id="e3427-114">Foreign currency revaluation for Accounts payable and Accounts receivable</span></span>](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
-
-## <a name="configure-vendor-invoices"></a><span data-ttu-id="e3427-115">Skilgreina reikninga lánardrottna</span><span class="sxs-lookup"><span data-stu-id="e3427-115">Configure vendor invoices</span></span>
-
-<span data-ttu-id="e3427-116">Nota Lánardrottna til þess að rekja alla reikninga og útgjöld til lánardrottna.</span><span class="sxs-lookup"><span data-stu-id="e3427-116">Use Accounts payable to track invoices and outgoing expenditures to vendors.</span></span>
-
-[<span data-ttu-id="e3427-117">Reikningsjöfnun viðskiptaskulda</span><span class="sxs-lookup"><span data-stu-id="e3427-117">Accounts payable invoice matching</span></span>](accounts-payable-invoice-matching.md)
-
-[<span data-ttu-id="e3427-118">Bókunarreglur lánardrottins</span><span class="sxs-lookup"><span data-stu-id="e3427-118">Vendor posting profiles</span></span>](vendor-posting-profiles.md)
-
-[<span data-ttu-id="e3427-119">Setja upp villuleit fyrir reikningsjöfnun viðskiptaskulda</span><span class="sxs-lookup"><span data-stu-id="e3427-119">Set up accounts payable invoice matching validation</span></span>](tasks/set-up-accounts-payable-invoice-matching-validation.md)
-
-[<span data-ttu-id="e3427-120">Stefnur þríhliða jöfnunarregla</span><span class="sxs-lookup"><span data-stu-id="e3427-120">Three-way matching policies</span></span>](three-way-matching-policies.md)
-
-[<span data-ttu-id="e3427-121">Reikningsjöfnun og samstæðuinnkaupapantanir</span><span class="sxs-lookup"><span data-stu-id="e3427-121">Invoice matching and intercompany purchase orders</span></span>](invoice-matching-intercompany-purchase-orders.md)
-
-[<span data-ttu-id="e3427-122">Leyst úr ósamræmi við jöfnun samtalna reiknings</span><span class="sxs-lookup"><span data-stu-id="e3427-122">Resolve discrepancies during invoice totals matching</span></span>](resolve-invoice-totals-invoice-matching-discrepancies.md)
-
-[<span data-ttu-id="e3427-123">Sjálfgefnir mótlyklar fyrir reikningabók lánardrottins og færslubókarsamþykkt reiknings</span><span class="sxs-lookup"><span data-stu-id="e3427-123">Default offset accounts for vendor invoice journals and invoice approval journals</span></span>](default-offset-accounts-vendor-invoice-journals.md)
-
-[<span data-ttu-id="e3427-124">Reikningssamþykktir í fartækjum</span><span class="sxs-lookup"><span data-stu-id="e3427-124">Mobile invoice approvals</span></span>](mobile-invoice-approvals.md)
-
-[<span data-ttu-id="e3427-125">Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna</span><span class="sxs-lookup"><span data-stu-id="e3427-125">Vendor collaboration invoicing workspace</span></span>](vendor-portal-invoicing-workspace.md)
-
-[<span data-ttu-id="e3427-126">Sjálfvirkni reikninga lánardrottins</span><span class="sxs-lookup"><span data-stu-id="e3427-126">Vendor invoice automation</span></span>](vendor-invoice-automation.md)
-
-## <a name="configure-vendor-payments"></a><span data-ttu-id="e3427-127">Skilgreina lánardrottnagreiðslur</span><span class="sxs-lookup"><span data-stu-id="e3427-127">Configure vendor payments</span></span> 
-
-<span data-ttu-id="e3427-128">Úthluta kerfisskilgreindum greiðslumáta, eins og ávísun, rafrænni greiðslu eða eigin víxli, á alla notandaskilgreinda greiðslumáta.</span><span class="sxs-lookup"><span data-stu-id="e3427-128">Assign a system-defined payment type, such as check, electronic payment, or promissory note, to any user-defined method of payment.</span></span> <span data-ttu-id="e3427-129">Greiðslugerðir eru valfrjálsar, en eru gagnlegar þegar villuleitað er í rafrænum greiðslum og ákvarða þarf fljótt hvaða greiðslugerð greiðsla notar.</span><span class="sxs-lookup"><span data-stu-id="e3427-129">Payment types are optional, but they are useful when you validate electronic payments and want to be able to quickly determine which payment type a payment uses.</span></span> 
-
-[<span data-ttu-id="e3427-130">Vinnusvæði greiðslna lánardrottna</span><span class="sxs-lookup"><span data-stu-id="e3427-130">Vendor payments workspace</span></span>](vendor-payments-workspace.md)
-
-[<span data-ttu-id="e3427-131">Skilgreina greiðsluþóknanir lánardrottna</span><span class="sxs-lookup"><span data-stu-id="e3427-131">Define vendor payment fees</span></span>](tasks/define-vendor-payment-fees.md)
-
-[<span data-ttu-id="e3427-132">Skilgreina greiðsluskilmála lánardrottna</span><span class="sxs-lookup"><span data-stu-id="e3427-132">Define vendor payment terms</span></span>](tasks/define-vendor-payment-terms.md)
-
-[<span data-ttu-id="e3427-133">Yfirlit yfir jákvæðar greiðslur</span><span class="sxs-lookup"><span data-stu-id="e3427-133">Positive pay overview</span></span>](positive-pay-overview.md)
-
-[<span data-ttu-id="e3427-134">Uppsetning og myndun jákvæðra greiðsluskráa launa</span><span class="sxs-lookup"><span data-stu-id="e3427-134">Set up and generate positive pay files</span></span>](set-up-generate-positive-pay-files.md)
-
-[<span data-ttu-id="e3427-135">Stofnun greiðslna lánardrottins með greiðslutillögu</span><span class="sxs-lookup"><span data-stu-id="e3427-135">Create vendor payments by using a payment proposal</span></span>](create-vendor-payments-payment-proposal.md)
-
-[<span data-ttu-id="e3427-136">Greiðslur lánardrottins fyrir hlutaupphæð</span><span class="sxs-lookup"><span data-stu-id="e3427-136">Vendor payments for a partial amount</span></span>](vendor-payments-partial-amount.md)
-
-[<span data-ttu-id="e3427-137">Afsláttur tekinn sem er hærri en reiknaður afsláttur fyrir greiðslu lánardrottins</span><span class="sxs-lookup"><span data-stu-id="e3427-137">Take a discount that is more than the calculated discount for a vendor payment</span></span>](take-discount-more-calculated-discount-vendor-payment.md)
-
-[<span data-ttu-id="e3427-138">Staðgreiðsluafsláttur tekinn utan tímabils staðgreiðsluafsláttar</span><span class="sxs-lookup"><span data-stu-id="e3427-138">Take a cash discount outside the cash discount period</span></span>](take-cash-discount-outside-cash-discount-timeframe.md)
-
-[<span data-ttu-id="e3427-139">Rafræn skýrslugerð fyrir ávísanir lánardrottins</span><span class="sxs-lookup"><span data-stu-id="e3427-139">Electronic reporting for vendor checks</span></span>](electronic-reporting-sample-vendor-checks.md)
-
-[<span data-ttu-id="e3427-140">Bakfærsla greiðslu lánardrottins</span><span class="sxs-lookup"><span data-stu-id="e3427-140">Reverse a vendor payment</span></span>](reverse-vendor-payment.md)
-
-[<span data-ttu-id="e3427-141">Yfirlit yfir fyrirframgreiðslureikninga og fyrirframgreiðslur</span><span class="sxs-lookup"><span data-stu-id="e3427-141">Prepayment invoices and prepayments overview</span></span>](prepayments-invoices-vs-prepayments.md)
-
-[<span data-ttu-id="e3427-142">Miðstýrðar greiðslur fyrir viðskiptaskuldir</span><span class="sxs-lookup"><span data-stu-id="e3427-142">Centralized payments for Accounts payable</span></span>](centralized-payments-accounts-payable.md)
-
-## <a name="settlements"></a><span data-ttu-id="e3427-143">Uppgjör</span><span class="sxs-lookup"><span data-stu-id="e3427-143">Settlements</span></span>
-
-<span data-ttu-id="e3427-144">Eftirfarandi efnisatriði veita upplýsingar um uppgjör.</span><span class="sxs-lookup"><span data-stu-id="e3427-144">The following topics provide information about settlements.</span></span> <span data-ttu-id="e3427-145">Uppgjör er það ferli að gera upp greiðslur með reikningum.</span><span class="sxs-lookup"><span data-stu-id="e3427-145">Settlement is the process of settling payments with invoices.</span></span> 
-
-[<span data-ttu-id="e3427-146">Skilgreina uppgjör</span><span class="sxs-lookup"><span data-stu-id="e3427-146">Configure settlement</span></span>](../cash-bank-management/configure-settlement.md)
-
-[<span data-ttu-id="e3427-147">Uppgjör hlutagreiðslu lánardrottins fyrir afsláttardagsetninguna</span><span class="sxs-lookup"><span data-stu-id="e3427-147">Settle a partial vendor payment before the discount date</span></span>](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
-
-[<span data-ttu-id="e3427-148">Uppgjör hlutagreiðslu lánardrottins sem er með afslætti á kreditnótum lánardrottins</span><span class="sxs-lookup"><span data-stu-id="e3427-148">Settle a partial vendor payment that has discounts on vendor credit notes</span></span>](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
-
-[<span data-ttu-id="e3427-149">Uppgjör hlutagreiðslu lánardrottins sem er með mörg afsláttartímabil</span><span class="sxs-lookup"><span data-stu-id="e3427-149">Settle a partial vendor payment that has multiple discount periods</span></span>](settle-partial-vendor-payment-multiple-discount-periods.md)
-
-[<span data-ttu-id="e3427-150">Uppgjör hlutagreiðslu lánardrottins eða lokagreiðsla fyrir afslátt</span><span class="sxs-lookup"><span data-stu-id="e3427-150">Settle a partial vendor payment or final payment before discount</span></span>](settle-partial-vendor-payment-or-final-payment-before-discount.md)
-
-[<span data-ttu-id="e3427-151">Eitt fylgiskjal með mörgum viðskiptavina- eða lánardrottnafærslum</span><span class="sxs-lookup"><span data-stu-id="e3427-151">Single voucher with multiple customer or vendor records</span></span>](single-voucher-multiple-customer-vendor-records.md)
-
-
-
-### <a name="additional-resources"></a><span data-ttu-id="e3427-152">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="e3427-152">Additional resources</span></span>
-
-#### <a name="whats-new-and-in-development"></a><span data-ttu-id="e3427-153">Nýjungar og eiginleikar á þróunarstigi</span><span class="sxs-lookup"><span data-stu-id="e3427-153">What's new and in development</span></span>
-
-<span data-ttu-id="e3427-154">Í [útgáfuupplýsingum Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) sérðu hvaða nýju eiginleikar eru fyrirhugaðir.</span><span class="sxs-lookup"><span data-stu-id="e3427-154">Go to the [Microsoft Dynamics 365 Release Notes](https://go.microsoft.com/fwlink/?linkid=2010158) to see what new features are planned.</span></span> 
-
-#### <a name="blogs"></a><span data-ttu-id="e3427-155">Blogg</span><span class="sxs-lookup"><span data-stu-id="e3427-155">Blogs</span></span>
-
-<span data-ttu-id="e3427-156">Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)og [Microsoft Dynamics 365 Finance and Operations - Financials-blogginu](https://community.dynamics.com/365/financeandoperations/b/financials) er að finna umfjöllun, fréttir og aðrar upplýsingar um viðskiptaskuldir og aðrar lausnir.</span><span class="sxs-lookup"><span data-stu-id="e3427-156">You can find opinions, news, and other information about Accounts payable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)and the [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
-
-<span data-ttu-id="e3427-157">Blogg [Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir samstarfsaðilum Microsoft Dynamics aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika MBS Operations á einum stað.</span><span class="sxs-lookup"><span data-stu-id="e3427-157">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</span></span>
-
-#### <a name="community-blogs"></a><span data-ttu-id="e3427-158">Samfélagsblogg</span><span class="sxs-lookup"><span data-stu-id="e3427-158">Community blogs</span></span>
-
-[<span data-ttu-id="e3427-159">Hvernig á að vinna með viðskiptaskuldir í Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="e3427-159">How to manage payables in Dynamics 365 for Finance and Operations</span></span>](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
-
-#### <a name="task-guides"></a><span data-ttu-id="e3427-160">Verkleiðbeiningar</span><span class="sxs-lookup"><span data-stu-id="e3427-160">Task guides</span></span>
-<span data-ttu-id="e3427-161">Frekari hjálp er í boði sem verkleiðbeiningar í Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="e3427-161">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="e3427-162">Smellið á hnappinn Hjálp á hvaða síðu sem er til að fá aðgang að verkleiðbeiningum.</span><span class="sxs-lookup"><span data-stu-id="e3427-162">To access task guides, click the Help button on any page.</span></span>
-
-#### <a name="videos"></a><span data-ttu-id="e3427-163">Myndbönd</span><span class="sxs-lookup"><span data-stu-id="e3427-163">Videos</span></span>
-
-<span data-ttu-id="e3427-164">Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 YouTube-rásinni ](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="e3427-164">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
-
-
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="accounts-payable.md" target-language="is-is">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>accounts-payable.199fb9.f1acf2bade2bb279a35fdf4689bbbcc49e64101f.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>f1acf2bade2bb279a35fdf4689bbbcc49e64101f</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\accounts-payable\accounts-payable.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Accounts payable home page</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðskiptaskuldir – heimasíða</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic provides an overview of Accounts payable.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í þessu efnisatriði er að finna yfirlit yfir viðskiptaskuldir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Accounts payable home page</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðskiptaskuldir – heimasíða</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic provides an overview of Accounts payable.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í þessu efnisatriði er að finna yfirlit yfir viðskiptaskuldir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>You can enter vendor invoices manually or receive them electronically through a data entity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að færa inn reikninga lánardrottins handvirkt eða fá þá rafrænt í gegnum gagnaeiningu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>After the invoices are entered or received, you can review and approve the invoices by using an invoice approval journal or the <bpt id="p1">**</bpt>Vendor invoice<ept id="p1">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar reikningarnir hafa verið færðir inn eða mótteknir er hægt að skoða og samþykkja þá í gegnum færslubókarsamþykkt eða síðuna <bpt id="p1">**</bpt>Reikningur lánardrottnins<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>You can use invoice matching, vendor invoice policies, and workflow to automate the review process so that invoices that meet certain criteria are automatically approved, and the remaining invoices are flagged for review by an authorized user.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nota má reikningsjöfnun, reikningsreglur lánardrottins og verkflæði til að gera endurskoðunarferlið sjálfvirkt þannig að reikningar sem uppfylla ákveðin skilyrði eru sjálfkrafa samþykktir en aðrir merktir fyrir yfirferð af notanda með heimild.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source><bpt id="p1">**</bpt>Business processes<ept id="p1">**</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Viðskiptaferli<ept id="p1">**</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Business process<ept id="p1">](./media/AP-process.PNG)](./media/AP-process.PNG)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Viðskiptaferli<ept id="p1">](./media/AP-process.PNG)](./media/AP-process.PNG)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Set up Accounts payable</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Setja upp viðskiptaskuldir</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Set up vendor groups, vendors, posting profiles, various payment options, and parameters regarding vendors, charges, deliveries and destinations, promissory notes, and other types of Accounts payable information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Setja upp lánardrottnaflokka, lánardrottna, bókunarreglur, ýmsa greiðslukosti, færibreytur varðandi lánardrottna, gjöld, afhendingar- og ákvörðunarstaði, eigin víxla og aðrar gerðir af viðskiptaskuldaupplýsingum.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source><bpt id="p1">[</bpt>Configure Accounts payable<ept id="p1">](accounts-payable-overview.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Skilgreining viðskiptaskulda<ept id="p1">](accounts-payable-overview.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source><bpt id="p1">[</bpt>Accounting distributions and subledger journal entries for vendor invoices<ept id="p1">](accounting-distributions-subledger-journal-entries-vendor-invoices.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Dreifing á fjárhagsupphæð og færslur í færslubók undirfjárhags fyrir reikninga lánardrottins<ept id="p1">](accounting-distributions-subledger-journal-entries-vendor-invoices.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source><bpt id="p1">[</bpt>Foreign currency revaluation for Accounts payable and Accounts receivable<ept id="p1">](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Endurmat á erlendum gjaldmiðli fyrir viðskiptaskuldir og viðskiptakröfur<ept id="p1">](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Configure vendor invoices</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skilgreina reikninga lánardrottna</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Use Accounts payable to track invoices and outgoing expenditures to vendors.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nota Lánardrottna til þess að rekja alla reikninga og útgjöld til lánardrottna.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source><bpt id="p1">[</bpt>Accounts payable invoice matching<ept id="p1">](accounts-payable-invoice-matching.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Reikningsjöfnun viðskiptaskulda<ept id="p1">](accounts-payable-invoice-matching.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source><bpt id="p1">[</bpt>Vendor posting profiles<ept id="p1">](vendor-posting-profiles.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Bókunarreglur lánardrottins<ept id="p1">](vendor-posting-profiles.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source><bpt id="p1">[</bpt>Set up accounts payable invoice matching validation<ept id="p1">](tasks/set-up-accounts-payable-invoice-matching-validation.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Setja upp villuleit fyrir reikningsjöfnun viðskiptaskulda<ept id="p1">](tasks/set-up-accounts-payable-invoice-matching-validation.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source><bpt id="p1">[</bpt>Three-way matching policies<ept id="p1">](three-way-matching-policies.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Stefnur þríhliða jöfnunarregla<ept id="p1">](three-way-matching-policies.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source><bpt id="p1">[</bpt>Invoice matching and intercompany purchase orders<ept id="p1">](invoice-matching-intercompany-purchase-orders.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Reikningsjöfnun og samstæðuinnkaupapantanir<ept id="p1">](invoice-matching-intercompany-purchase-orders.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source><bpt id="p1">[</bpt>Resolve discrepancies during invoice totals matching<ept id="p1">](resolve-invoice-totals-invoice-matching-discrepancies.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Leyst úr ósamræmi við jöfnun samtalna reiknings<ept id="p1">](resolve-invoice-totals-invoice-matching-discrepancies.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source><bpt id="p1">[</bpt>Default offset accounts for vendor invoice journals and invoice approval journals<ept id="p1">](default-offset-accounts-vendor-invoice-journals.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Sjálfgefnir mótlyklar fyrir reikningabók lánardrottins og færslubókarsamþykkt reiknings<ept id="p1">](default-offset-accounts-vendor-invoice-journals.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source><bpt id="p1">[</bpt>Mobile invoice approvals<ept id="p1">](mobile-invoice-approvals.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Reikningssamþykktir í fartækjum<ept id="p1">](mobile-invoice-approvals.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source><bpt id="p1">[</bpt>Vendor collaboration invoicing workspace<ept id="p1">](vendor-portal-invoicing-workspace.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna<ept id="p1">](vendor-portal-invoicing-workspace.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source><bpt id="p1">[</bpt>Vendor invoice automation<ept id="p1">](vendor-invoice-automation.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Sjálfvirkni reikninga lánardrottins<ept id="p1">](vendor-invoice-automation.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Configure vendor payments</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skilgreina lánardrottnagreiðslur</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Assign a system-defined payment type, such as check, electronic payment, or promissory note, to any user-defined method of payment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Úthluta kerfisskilgreindum greiðslumáta, eins og ávísun, rafrænni greiðslu eða eigin víxli, á alla notandaskilgreinda greiðslumáta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Payment types are optional, but they are useful when you validate electronic payments and want to be able to quickly determine which payment type a payment uses.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Greiðslugerðir eru valfrjálsar, en eru gagnlegar þegar villuleitað er í rafrænum greiðslum og ákvarða þarf fljótt hvaða greiðslugerð greiðsla notar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source><bpt id="p1">[</bpt>Vendor payments workspace<ept id="p1">](vendor-payments-workspace.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Vinnusvæði greiðslna lánardrottna<ept id="p1">](vendor-payments-workspace.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source><bpt id="p1">[</bpt>Define vendor payment fees<ept id="p1">](tasks/define-vendor-payment-fees.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Skilgreina greiðsluþóknanir lánardrottna<ept id="p1">](tasks/define-vendor-payment-fees.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source><bpt id="p1">[</bpt>Define vendor payment terms<ept id="p1">](tasks/define-vendor-payment-terms.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Skilgreina greiðsluskilmála lánardrottna<ept id="p1">](tasks/define-vendor-payment-terms.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source><bpt id="p1">[</bpt>Positive pay overview<ept id="p1">](positive-pay-overview.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Yfirlit yfir jákvæðar greiðslur<ept id="p1">](positive-pay-overview.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source><bpt id="p1">[</bpt>Set up and generate positive pay files<ept id="p1">](set-up-generate-positive-pay-files.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Uppsetning og myndun jákvæðra greiðsluskráa launa<ept id="p1">](set-up-generate-positive-pay-files.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source><bpt id="p1">[</bpt>Create vendor payments by using a payment proposal<ept id="p1">](create-vendor-payments-payment-proposal.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Stofnun greiðslna lánardrottins með greiðslutillögu<ept id="p1">](create-vendor-payments-payment-proposal.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source><bpt id="p1">[</bpt>Vendor payments for a partial amount<ept id="p1">](vendor-payments-partial-amount.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Greiðslur lánardrottins fyrir hlutaupphæð<ept id="p1">](vendor-payments-partial-amount.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source><bpt id="p1">[</bpt>Take a discount that is more than the calculated discount for a vendor payment<ept id="p1">](take-discount-more-calculated-discount-vendor-payment.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Afsláttur tekinn sem er hærri en reiknaður afsláttur fyrir greiðslu lánardrottins<ept id="p1">](take-discount-more-calculated-discount-vendor-payment.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source><bpt id="p1">[</bpt>Take a cash discount outside the cash discount period<ept id="p1">](take-cash-discount-outside-cash-discount-timeframe.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Staðgreiðsluafsláttur tekinn utan tímabils staðgreiðsluafsláttar<ept id="p1">](take-cash-discount-outside-cash-discount-timeframe.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source><bpt id="p1">[</bpt>Electronic reporting for vendor checks<ept id="p1">](electronic-reporting-sample-vendor-checks.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Rafræn skýrslugerð fyrir ávísanir lánardrottins<ept id="p1">](electronic-reporting-sample-vendor-checks.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source><bpt id="p1">[</bpt>Reverse a vendor payment<ept id="p1">](reverse-vendor-payment.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Bakfærsla greiðslu lánardrottins<ept id="p1">](reverse-vendor-payment.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source><bpt id="p1">[</bpt>Prepayment invoices and prepayments overview<ept id="p1">](prepayments-invoices-vs-prepayments.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Yfirlit yfir fyrirframgreiðslureikninga og fyrirframgreiðslur<ept id="p1">](prepayments-invoices-vs-prepayments.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source><bpt id="p1">[</bpt>Centralized payments for Accounts payable<ept id="p1">](centralized-payments-accounts-payable.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Miðstýrðar greiðslur fyrir viðskiptaskuldir<ept id="p1">](centralized-payments-accounts-payable.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Settlements</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uppgjör</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>The following topics provide information about settlements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftirfarandi efnisatriði veita upplýsingar um uppgjör.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Settlement is the process of settling payments with invoices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uppgjör er það ferli að gera upp greiðslur með reikningum.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source><bpt id="p1">[</bpt>Configure settlement<ept id="p1">](../cash-bank-management/configure-settlement.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Skilgreina uppgjör<ept id="p1">](../cash-bank-management/configure-settlement.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source><bpt id="p1">[</bpt>Settle a partial vendor payment before the discount date<ept id="p1">](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Uppgjör hlutagreiðslu lánardrottins fyrir afsláttardagsetninguna<ept id="p1">](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source><bpt id="p1">[</bpt>Settle a partial vendor payment that has discounts on vendor credit notes<ept id="p1">](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Uppgjör hlutagreiðslu lánardrottins sem er með afslætti á kreditnótum lánardrottins<ept id="p1">](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source><bpt id="p1">[</bpt>Settle a partial vendor payment that has multiple discount periods<ept id="p1">](settle-partial-vendor-payment-multiple-discount-periods.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Uppgjör hlutagreiðslu lánardrottins sem er með mörg afsláttartímabil<ept id="p1">](settle-partial-vendor-payment-multiple-discount-periods.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source><bpt id="p1">[</bpt>Settle a partial vendor payment or final payment before discount<ept id="p1">](settle-partial-vendor-payment-or-final-payment-before-discount.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Uppgjör hlutagreiðslu lánardrottins eða lokagreiðsla fyrir afslátt<ept id="p1">](settle-partial-vendor-payment-or-final-payment-before-discount.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source><bpt id="p1">[</bpt>Single voucher with multiple customer or vendor records<ept id="p1">](single-voucher-multiple-customer-vendor-records.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Eitt fylgiskjal með mörgum viðskiptavina- eða lánardrottnafærslum<ept id="p1">](single-voucher-multiple-customer-vendor-records.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Additional resources</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Frekari upplýsingar</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>What's new and in development</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nýjungar og eiginleikar á þróunarstigi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Go to the <bpt id="p1">[</bpt>Microsoft Dynamics 365 Release Notes<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2010158)</ept> to see what new features are planned.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í <bpt id="p1">[</bpt>útgáfuupplýsingum Microsoft Dynamics 365<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2010158)</ept> sérðu hvaða nýju eiginleikar eru fyrirhugaðir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Blogs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Blogg</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>You can find opinions, news, and other information about Accounts payable and other solutions on the <bpt id="p1">[</bpt>Microsoft Dynamics 365 blog<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept>and the <bpt id="p2">[</bpt>Microsoft Dynamics 365 Finance and Operations - Financials blog<ept id="p2">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Á <bpt id="p1">[</bpt>Microsoft Dynamics 365-blogginu<ept id="p1">](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)</ept>og <bpt id="p2">[</bpt>Microsoft Dynamics 365 Finance and Operations - Financials-blogginu<ept id="p2">](https://community.dynamics.com/365/financeandoperations/b/financials)</ept> er að finna umfjöllun, fréttir og aðrar upplýsingar um viðskiptaskuldir og aðrar lausnir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>The <bpt id="p1">[</bpt>Microsoft Dynamics Operations Partner Community Blog<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept> gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Blogg <bpt id="p1">[</bpt>Microsoft Dynamics Operations-samstarfsaðila<ept id="p1">](https://community.dynamics.com/partner/b/operationspartnercommunityblog)</ept> veitir samstarfsaðilum Microsoft Dynamics aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika MBS Operations á einum stað.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Community blogs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Samfélagsblogg</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source><bpt id="p1">[</bpt>How to manage payables in Dynamics 365 for Finance and Operations<ept id="p1">](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Hvernig á að vinna með viðskiptaskuldir í Dynamics 365 for Finance and Operations<ept id="p1">](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Task guides</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verkleiðbeiningar</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Additional help is available as task guides inside Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Frekari hjálp er í boði sem verkleiðbeiningar í Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>To access task guides, click the Help button on any page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á hnappinn Hjálp á hvaða síðu sem er til að fá aðgang að verkleiðbeiningum.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Videos</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Myndbönd</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>Check out the how-to videos that are now available on the <bpt id="p1">[</bpt>Microsoft Dynamics 365 YouTube Channel<ept id="p1">](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kynnið ykkur kennslumyndböndin sem eru aðgengileg á <bpt id="p1">[</bpt>Microsoft Dynamics 365 YouTube-rásinni <ept id="p1">](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)</ept>.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
