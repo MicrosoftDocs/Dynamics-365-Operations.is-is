@@ -1,90 +1,198 @@
----
-title: Rekja þóknanir í sölustað (POS) með notkun söluflokka
-description: Það er algengur háttur smásölu til að rekja sölu eftir samstarfsmanni sem vann með viðskiptavininum — veitti aðstoð, setti upp söluviðauka, krosssölu og vann færsluna.
-author: jblucher
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-365-retail
-ms.technology: ''
-audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
-ms.custom: 261234
-ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa
-ms.search.region: global
-ms.search.industry: Retail
-ms.author: jeffbl
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ed4f9b3055e164600827b62d57b7a5068edb3b1a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559302"
----
-# <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a><span data-ttu-id="80107-103">Rekja þóknanir í sölustað (POS) með notkun söluflokka</span><span class="sxs-lookup"><span data-stu-id="80107-103">Track commissions in the point of sale (POS) by using sales groups</span></span>
-
-[!include [banner](includes/banner.md)]
-
-<span data-ttu-id="80107-104">Það er algengur háttur smásölu til að rekja sölu eftir samstarfsmanni sem vann með viðskiptavininum — veitti aðstoð, setti upp söluviðauka, krosssölu og vann færsluna.</span><span class="sxs-lookup"><span data-stu-id="80107-104">It's a common retail practice to track sales by the associate who worked with the customer—providing assistance, up-selling, cross-selling, and processing the transaction.</span></span>
-
-<span data-ttu-id="80107-105">Rakning sölu eftir sölufulltrúa er mæling á söluhæfni starfsmannsins, á meðan sala eftir gjaldkera mæling á hraða og skilvirkni.</span><span class="sxs-lookup"><span data-stu-id="80107-105">Tracking sales by sales representative is a measure of the associates selling abilities, while sales by cashier is a measure of speed and efficiency.</span></span> <span data-ttu-id="80107-106">Sala sem er rakin eftir sölufulltrúa er einnig oft notuð til að reikna þóknanir eða aðra hvata.</span><span class="sxs-lookup"><span data-stu-id="80107-106">Sales tracked by sales representative are also often used to calculate commissions or other incentives.</span></span>
-
-## <a name="configuring-a-worker-to-be-a-sales-representative-in-pos"></a><span data-ttu-id="80107-107">Grunnstilling starfsmanns til að vera sölufulltrúi í POS</span><span class="sxs-lookup"><span data-stu-id="80107-107">Configuring a worker to be a sales representative in POS</span></span>
-
-<span data-ttu-id="80107-108">Þegar starfsmanni er bætt við söluflokk verður hann hæfur fyrir þóknun og hægt er að auðkenna hann sem sölufulltrúa í kerfinu.</span><span class="sxs-lookup"><span data-stu-id="80107-108">When a worker is added to a sales group, they become eligible for commission and can be identified as a sales representative in the system.</span></span> <span data-ttu-id="80107-109">Starfsmaður sem er ekki í söluflokki er ekki hæfur fyrir þóknun og verður ekki talinn upp sem sölufulltrúi í sölustaðarforritinu (POS).</span><span class="sxs-lookup"><span data-stu-id="80107-109">A worker who isn't in a sales group isn't eligible for commission and won't be listed as a sales representative in the point of sale (POS) application.</span></span> <span data-ttu-id="80107-110">Í POS er listi yfir sölufulltrúa fenginn úr öllum söluflokkum sem innihalda a.m.k. einn starfsmann sem er úthlutað á verslunina.</span><span class="sxs-lookup"><span data-stu-id="80107-110">In POS, the list of sales representatives is derived from all sales groups that contain at least one worker assigned to the store.</span></span> <span data-ttu-id="80107-111">Listinn birtist í POS sem samsetning af kenni söluflokks og nafns (Kenni: Heiti).</span><span class="sxs-lookup"><span data-stu-id="80107-111">The list is shown in POS as a combination of Sales group ID and Name (ID : Name).</span></span> <span data-ttu-id="80107-112">Sjálfgefinn flokk sölu er hægt að úthluta til að styðja aðstæður þar sem smásali velur að stilla sölufulltrúa sjálfvirkt á POS-línur.</span><span class="sxs-lookup"><span data-stu-id="80107-112">A default sales group can be assigned to workers to support scenarios where the retailer chooses to set the sales representative on POS lines automatically.</span></span> <span data-ttu-id="80107-113">Notendur geta valið úr söluflokkum þar sem starfsmaðurinn er meðlimur.</span><span class="sxs-lookup"><span data-stu-id="80107-113">Users can select from any sales group that the worker is a member of.</span></span>
-
-## <a name="functionality-profile-settings"></a><span data-ttu-id="80107-114">Stillingar virknireglna</span><span class="sxs-lookup"><span data-stu-id="80107-114">Functionality profile settings</span></span>
-
-<span data-ttu-id="80107-115">Það eru nokkrar stillingar á virknireglum fyrir verslun sem munu ákvarða flæði og ferli í POS sem snerta sölufulltrúa.</span><span class="sxs-lookup"><span data-stu-id="80107-115">There are a number of functionality profile settings for a store that will determine the flow and process in POS that involve sales representatives.</span></span>
-
-<table>
-<thead>
-<tr>
-<th><span data-ttu-id="80107-116">Regla</span><span class="sxs-lookup"><span data-stu-id="80107-116">Profile</span></span></th>
-<th><span data-ttu-id="80107-117">lýsing</span><span class="sxs-lookup"><span data-stu-id="80107-117">Description</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="80107-118">Sjálfgefið til gjaldkera þegar til staðar</span><span class="sxs-lookup"><span data-stu-id="80107-118">Default to cashier when available</span></span></td>
-<td><span data-ttu-id="80107-119">Ef þessi valkostur er gerður virkur útfyllir POS sjálfkrafa færslulínur með sjálfgefnum söluflokki núgildandi gjaldkera.</span><span class="sxs-lookup"><span data-stu-id="80107-119">If this option is enabled, POS will automatically populate transaction lines with the current cashier's default sales group.</span></span> <span data-ttu-id="80107-120">Ef gjaldkeri hefur ekki sjálfgefinn söluflokk tilgreindan verður gildi ekki stillt.</span><span class="sxs-lookup"><span data-stu-id="80107-120">If a cashier doesn't have a default sales group specified, the value won't be set.</span></span> <span data-ttu-id="80107-121">Notandi gæti samt stillt söluflokka handvirkt með hnappahnitum POS-hnappa.</span><span class="sxs-lookup"><span data-stu-id="80107-121">A user could still manually set the sales group by using a POS button grid button.</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="80107-122">Kvaðning eftir sölufulltrúa</span><span class="sxs-lookup"><span data-stu-id="80107-122">Prompt for sales representative</span></span></td>
-<td><span data-ttu-id="80107-123">Þessi valkostur hefur þrjú möguleg gildi:</span><span class="sxs-lookup"><span data-stu-id="80107-123">This option has three possible values:</span></span>
-<ul>
-<li><span data-ttu-id="80107-124"><strong>Nei</strong> – Ef þessi valkostur er valinn verður notandi ekki beðinn um að velja söluflokk.</span><span class="sxs-lookup"><span data-stu-id="80107-124"><strong>No</strong> – If this option is selected, the user won't be prompted to select a sales group.</span></span> <span data-ttu-id="80107-125">Gildi gæti enn verið stillt með því að nota sjálfgefinn söluflokk gjaldkera eða handvirkt með því að nota hnappahnit POS-hnappa.</span><span class="sxs-lookup"><span data-stu-id="80107-125">The value could still be set by using a cashier's default Sales group or manually by using a POS button grid button.</span></span></li>
-<li><span data-ttu-id="80107-126"><strong>Upphaf færslu</strong> – Ef þessi valkostur er valinn og annaðhvort er valkosturinn <strong>Sjálfgefið til gjaldkera</strong> ekki virkur eða gildandi gjaldkeri hefur ekki sjálfgefinn söluflokk, verður notandinn beðinn um að velja söluflokk við upphaf hverrar færslu.</span><span class="sxs-lookup"><span data-stu-id="80107-126"><strong>Start of transaction</strong> – If this option is selected, and either the <strong>Default to cashier</strong> option isn't enabled or the current cashier doesn't have a default sales group, the user will be prompted to select a sales group at the beginning of each transaction.</span></span> <span data-ttu-id="80107-127">Val á söluflokki úr þessari kvaðningi gerir allar síðari línur sjálfgefnar í valinn flokk.</span><span class="sxs-lookup"><span data-stu-id="80107-127">Selecting a sales group from this prompt will default all subsequent lines to the selected sales group.</span></span> <span data-ttu-id="80107-128">Notandi gæti samt stillt söluflokka handvirkt með hnappahnitum POS-hnappa.</span><span class="sxs-lookup"><span data-stu-id="80107-128">A user could still manually set the sales group by using a POS button grid button.</span></span></li>
-<li><span data-ttu-id="80107-129"><strong>Fyrir hverja línu</strong> – Ef þessi valkostur er valinn og annaðhvort er valkosturinn <strong>Sjálfgefið til gjaldkera</strong> ekki virkur eða gildandi gjaldkeri hefur ekki sjálfgefinn söluflokk, verður notandinn beðinn um að velja söluflokk þegar hverri línu er bætti við.</span><span class="sxs-lookup"><span data-stu-id="80107-129"><strong>For each line</strong> – If this option is selected, and either the <strong>Default to cashier</strong> option isn't enabled or the current cashier doesn't have a default sales group, the user will be prompted to select a sales group after adding each line.</span></span> <span data-ttu-id="80107-130">Notandi gæti samt stillt söluflokka handvirkt með hnappahnitum POS-hnappa.</span><span class="sxs-lookup"><span data-stu-id="80107-130">A user could still manually set the Sales group by using a POS button grid button.</span></span></li>
-</ul>
-</td>
-</tr>
-<tr>
-<td><span data-ttu-id="80107-131">Áskilið</span><span class="sxs-lookup"><span data-stu-id="80107-131">Require</span></span></td>
-<td><span data-ttu-id="80107-132">Þessi valkostur á einungis við þegar POS er skilgreint til að biðja um sölufulltrúa.</span><span class="sxs-lookup"><span data-stu-id="80107-132">This option is only applicable when POS is configured to prompt for a sales representative.</span></span> <span data-ttu-id="80107-133">Ef hann er virkjaður þarf notandinn að velja söluflokk áður en haldið er áfram.</span><span class="sxs-lookup"><span data-stu-id="80107-133">If enabled, the user will be required to choose a sales group before continuing.</span></span> <span data-ttu-id="80107-134">Annars fær notandinn kvaðningu, en getur hætt við og haldið áfram án þess að velja.</span><span class="sxs-lookup"><span data-stu-id="80107-134">Otherwise, the user will be prompted, but can cancel and continue without making a selection.</span></span> <span data-ttu-id="80107-135">Eftir að línunni hefur verið bætt við getur notandi með nægilegar heimildir samt að fjarlægt söluflokka úr línunni.</span><span class="sxs-lookup"><span data-stu-id="80107-135">After the line is added, a user with sufficient permissions could still remove the sales group from the line.</span></span> <span data-ttu-id="80107-136">„Krefjast sölufulltrúa“ er ekki áskilið í þessari stöðu.</span><span class="sxs-lookup"><span data-stu-id="80107-136">"Require sales representative" is not enforced in this situation.</span></span></td>
-</tr>
-</tbody>
-</table>
-
-## <a name="displaying-the-sales-representative-information-on-the-pos-transactions-screen"></a><span data-ttu-id="80107-137">Birting upplýsinga sölufulltrúa á færsluskjá POS</span><span class="sxs-lookup"><span data-stu-id="80107-137">Displaying the Sales representative information on the POS transactions screen</span></span>
-
-<span data-ttu-id="80107-138">Útlit og efni færsluskjás POS er skilgreinanlegr með því að nota á skjá útlit hönnuðar og úthlutuðum útlit afgreiðsluskjás á verslanir, afgreiðslukassar eða starfsmenn.</span><span class="sxs-lookup"><span data-stu-id="80107-138">The POS transaction screen layout and contents are configurable using the screen layout designer and assigned screen layouts to stores, registers, or workers.</span></span><span data-ttu-id="80107-139"> Hægt er að bæta við svæðinu  *\*Sölufulltrúi** á flipanum Línur í kvittunarrúðunni.</span><span class="sxs-lookup"><span data-stu-id="80107-139"> The *\*Sales representative** field can be added to the Lines tab of the Receipt pane.</span></span><span data-ttu-id="80107-140">  Þetta mun birta kenni tilgreinds söluflokks fyrir hverja línu á færsluskjánum.</span><span class="sxs-lookup"><span data-stu-id="80107-140">  This will display the ID of the specified Sales group for each line on the transaction screen.</span></span>
-
-## <a name="adding-sales-representative-operations-to-pos-button-grids"></a><span data-ttu-id="80107-141">Bæta við Sölu sölufulltrúa aðgerðir á Sölustað hnappinn hnitanet</span><span class="sxs-lookup"><span data-stu-id="80107-141">Adding Sales representative operations to POS button grids</span></span>
-
-<span data-ttu-id="80107-142">POS gerir notendum kleift að skilgreina hnappahnit sem eru höfð með í útliti afgreiðsluskjás til að veita aðgang að aðgerðir POS.</span><span class="sxs-lookup"><span data-stu-id="80107-142">POS allows users to configure button grids, which are included in screen layouts to provide access to POS operations.</span></span> <span data-ttu-id="80107-143">Hægt er að úthluta eftirfarandi aðgerðum POS á hnappahnitum sem snerta sölufulltrúa.</span><span class="sxs-lookup"><span data-stu-id="80107-143">The following POS operations can be assigned to button grid buttons that pertain to Sales representatives.</span></span>
-
-| <span data-ttu-id="80107-144">Aðgerð</span><span class="sxs-lookup"><span data-stu-id="80107-144">Operation</span></span>                                 | <span data-ttu-id="80107-145">lýsing</span><span class="sxs-lookup"><span data-stu-id="80107-145">Description</span></span> |
-|-------------------------------------------|-------------|
-| <span data-ttu-id="80107-146">Stilla sölufulltrúa í línu</span><span class="sxs-lookup"><span data-stu-id="80107-146">Set sales representative on line</span></span>          | <span data-ttu-id="80107-147">Þessi aðgerð POS birtir lista yfir hæfa söluflokka (Kenni: Heiti) fyrir verslunina.</span><span class="sxs-lookup"><span data-stu-id="80107-147">This POS operation displays a list of eligible Sales groups (ID : Name) for the store.</span></span><span data-ttu-id="80107-148"> Val á söluflokki af listanum mun stilla gildið í núgildandi færslulínu.</span><span class="sxs-lookup"><span data-stu-id="80107-148"> Selecting a Sales group from this list will set the value on the current transaction line.</span></span> |
-| <span data-ttu-id="80107-149">Hreinsa sölufulltrúa í línu</span><span class="sxs-lookup"><span data-stu-id="80107-149">Clear sales representative on line</span></span>        | <span data-ttu-id="80107-150">Þessi aðgerð POS fjarlægir núgildandi gildi söluflokks úr núgildandi færslulínu.</span><span class="sxs-lookup"><span data-stu-id="80107-150">This POS operation removes the current Sales group value from the current transaction line.</span></span> |
-| <span data-ttu-id="80107-151">Stilla sölufulltrúa í færslu</span><span class="sxs-lookup"><span data-stu-id="80107-151">Set sales representative on transaction</span></span>   | <span data-ttu-id="80107-152">Þessi aðgerð POS birtir lista yfir hæfa söluflokka (Kenni: Heiti) fyrir verslunina.</span><span class="sxs-lookup"><span data-stu-id="80107-152">This POS operation displays a list of eligible Sales groups (ID : Name) for the store.</span></span><span data-ttu-id="80107-153"> Val á söluflokki af listanum mun stilla sjálfgildið í núgildandi færslu.</span><span class="sxs-lookup"><span data-stu-id="80107-153"> Selecting a Sales group from this list will set the default value on the current transaction.</span></span> <span data-ttu-id="80107-154">Öllum fyrirliggjandi línum án söluflokks verður úthlutað, ásamt öllum línum sem síðar hefur verið bætt við.</span><span class="sxs-lookup"><span data-stu-id="80107-154">Any existing lines without a sales group assigned will be set, as well as any subsequently added lines.</span></span> |
-| <span data-ttu-id="80107-155">Hreinsa sölufulltrúa í færslu</span><span class="sxs-lookup"><span data-stu-id="80107-155">Clear sales representative on transaction</span></span> | <span data-ttu-id="80107-156">Þessi aðgerð POS fjarlægir núgildandi sjálfgildi söluflokks úr núgildandi færslu.</span><span class="sxs-lookup"><span data-stu-id="80107-156">This POS operation removes the current default Sales group value from the current transaction.</span></span> <span data-ttu-id="80107-157">Það ekki áhrif á þær línur sem þegar eru til í færslunni.</span><span class="sxs-lookup"><span data-stu-id="80107-157">It does not impact any lines already existing in the transaction.</span></span> |
-
-## <a name="calculating-commissions"></a><span data-ttu-id="80107-158">Útreikningur á þóknun</span><span class="sxs-lookup"><span data-stu-id="80107-158">Calculating commissions</span></span>
-
-<span data-ttu-id="80107-159">Þóknun er reiknuð fyrir starfsmenn í tilgreindum söluflokkum við bókun uppgjörs eða bókun sölupöntunar.</span><span class="sxs-lookup"><span data-stu-id="80107-159">Commission is calculated for the workers in the specified sales groups at the time of statement posting or sales order posting.</span></span><span data-ttu-id="80107-160"> Upphæð þóknunar er ákvörðuð samkvæmt þóknunarhluta starfsmanns, eins og skilgreint er í söluflokki og stillingum útreikninga fyrir tengda þóknun fyrir viðskiptavin og/eða afurðir í færslunni.</span><span class="sxs-lookup"><span data-stu-id="80107-160"> The commission amount is determined based on the worker's commission share, as defined in the sales group and the associated commission calculation settings for the customer and/or products on the transaction.</span></span>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="pos-sales-groups-track-commissions.md" target-language="is-is">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>pos-sales-groups-track-commissions.723c58.afbf69c072ae205e973203d97a5fbca7504ae04f.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>afbf69c072ae205e973203d97a5fbca7504ae04f</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>e2fb0846fcc6298050a0ec82c302e5eb5254e0b5</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/27/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\retail\pos-sales-groups-track-commissions.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Track commissions in the point of sale (POS) by using sales groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rekja þóknanir í sölustað (POS) með notkun söluflokka</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>It's a common retail practice to track sales by the associate who worked with the customer—providing assistance, up-selling, cross-selling, and processing the transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Það er algengur háttur smásölu til að rekja sölu eftir samstarfsmanni sem vann með viðskiptavininum — veitti aðstoð, setti upp söluviðauka, krosssölu og vann færsluna.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Track commissions in the point of sale (POS) by using sales groups</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rekja þóknanir í sölustað (POS) með notkun söluflokka</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>It's a common retail practice to track sales by the associate who worked with the customer by—providing assistance, up-selling, cross-selling, and processing the transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Það er algengur háttur smásölu að rekja sölu eftir samstarfsmanni sem vann með viðskiptavininum við að — veita aðstoð, setja upp söluviðauka, krossselja og vinna færsluna.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Tracking sales by sales representative is a measure of the associates selling abilities, while sales by cashier is a measure of speed and efficiency.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rakning sölu eftir sölufulltrúa er mæling á söluhæfni starfsmannsins, á meðan sala eftir gjaldkera mæling á hraða og skilvirkni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Sales tracked by sales representative are also often used to calculate commissions or other incentives.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sala sem er rakin eftir sölufulltrúa er einnig oft notuð til að reikna þóknanir eða aðra hvata.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Configuring a worker to be a sales representative in POS</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Grunnstilling starfsmanns til að vera sölufulltrúi í POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>When a worker is added to a sales group, they become eligible for commission and can be identified as a sales representative in the system.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar starfsmanni er bætt við söluflokk verður hann hæfur fyrir þóknun og hægt er að auðkenna hann sem sölufulltrúa í kerfinu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>A worker who isn't in a sales group isn't eligible for commission and won't be listed as a sales representative in the point of sale (POS) application.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Starfsmaður sem er ekki í söluflokki er ekki hæfur fyrir þóknun og verður ekki talinn upp sem sölufulltrúi í sölustaðarforritinu (POS).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>In POS, the list of sales representatives is derived from all sales groups that contain at least one worker assigned to the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í POS er listi yfir sölufulltrúa fenginn úr öllum söluflokkum sem innihalda a.m.k. einn starfsmann sem er úthlutað á verslunina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>The list is shown in POS as a combination of Sales group ID and Name (ID : Name).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Listinn birtist í POS sem samsetning af kenni söluflokks og nafns (Kenni: Heiti).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>A default sales group can be assigned to workers to support scenarios where the retailer chooses to set the sales representative on POS lines automatically.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sjálfgefinn flokk sölu er hægt að úthluta til að styðja aðstæður þar sem smásali velur að stilla sölufulltrúa sjálfvirkt á POS-línur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Users can select from any sales group that the worker is a member of.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Notendur geta valið úr söluflokkum þar sem starfsmaðurinn er meðlimur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Functionality profile settings</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stillingar virknireglna</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>There are a number of functionality profile settings for a store that will determine the flow and process in POS that involve sales representatives.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Það eru nokkrar stillingar á virknireglum fyrir verslun sem munu ákvarða flæði og ferli í POS sem snerta sölufulltrúa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Profile</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Regla</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">lýsing</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Default to cashier when available</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sjálfgefið til gjaldkera þegar til staðar</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>If this option is enabled, POS will automatically populate transaction lines with the current cashier's default sales group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef þessi valkostur er gerður virkur útfyllir POS sjálfkrafa færslulínur með sjálfgefnum söluflokki núgildandi gjaldkera.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>If a cashier doesn't have a default sales group specified, the value won't be set.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef gjaldkeri hefur ekki sjálfgefinn söluflokk tilgreindan verður gildi ekki stillt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>A user could still manually set the sales group by using a POS button grid button.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Notandi gæti samt stillt söluflokka handvirkt með hnappahnitum POS-hnappa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Prompt for sales representative</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kvaðning eftir sölufulltrúa</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>This option has three possible values:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi valkostur hefur þrjú möguleg gildi:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>No<ept id="p1">&lt;/strong&gt;</ept> – If this option is selected, the user won't be prompted to select a sales group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Nei<ept id="p1">&lt;/strong&gt;</ept> – Ef þessi valkostur er valinn verður notandi ekki beðinn um að velja söluflokk.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>The value could still be set by using a cashier's default Sales group or manually by using a POS button grid button.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gildi gæti enn verið stillt með því að nota sjálfgefinn söluflokk gjaldkera eða handvirkt með því að nota hnappahnit POS-hnappa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>Start of transaction<ept id="p1">&lt;/strong&gt;</ept> – If this option is selected, and either the <bpt id="p2">&lt;strong&gt;</bpt>Default to cashier<ept id="p2">&lt;/strong&gt;</ept> option isn't enabled or the current cashier doesn't have a default sales group, the user will be prompted to select a sales group at the beginning of each transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Upphaf færslu<ept id="p1">&lt;/strong&gt;</ept> – Ef þessi valkostur er valinn og annaðhvort er valkosturinn <bpt id="p2">&lt;strong&gt;</bpt>Sjálfgefið til gjaldkera<ept id="p2">&lt;/strong&gt;</ept> ekki virkur eða gildandi gjaldkeri hefur ekki sjálfgefinn söluflokk, verður notandinn beðinn um að velja söluflokk við upphaf hverrar færslu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Selecting a sales group from this prompt will default all subsequent lines to the selected sales group.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Val á söluflokki úr þessari kvaðningi gerir allar síðari línur sjálfgefnar í valinn flokk.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>A user could still manually set the sales group by using a POS button grid button.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Notandi gæti samt stillt söluflokka handvirkt með hnappahnitum POS-hnappa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source><bpt id="p1">&lt;strong&gt;</bpt>For each line<ept id="p1">&lt;/strong&gt;</ept> – If this option is selected, and either the <bpt id="p2">&lt;strong&gt;</bpt>Default to cashier<ept id="p2">&lt;/strong&gt;</ept> option isn't enabled or the current cashier doesn't have a default sales group, the user will be prompted to select a sales group after adding each line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Fyrir hverja línu<ept id="p1">&lt;/strong&gt;</ept> – Ef þessi valkostur er valinn og annaðhvort er valkosturinn <bpt id="p2">&lt;strong&gt;</bpt>Sjálfgefið til gjaldkera<ept id="p2">&lt;/strong&gt;</ept> ekki virkur eða gildandi gjaldkeri hefur ekki sjálfgefinn söluflokk, verður notandinn beðinn um að velja söluflokk þegar hverri línu er bætti við.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>A user could still manually set the Sales group by using a POS button grid button.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Notandi gæti samt stillt söluflokka handvirkt með hnappahnitum POS-hnappa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Require</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Áskilið</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>This option is only applicable when POS is configured to prompt for a sales representative.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi valkostur á einungis við þegar POS er skilgreint til að biðja um sölufulltrúa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>If enabled, the user will be required to choose a sales group before continuing.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef hann er virkjaður þarf notandinn að velja söluflokk áður en haldið er áfram.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Otherwise, the user will be prompted, but can cancel and continue without making a selection.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Annars fær notandinn kvaðningu, en getur hætt við og haldið áfram án þess að velja.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>After the line is added, a user with sufficient permissions could still remove the sales group from the line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftir að línunni hefur verið bætt við getur notandi með nægilegar heimildir samt að fjarlægt söluflokka úr línunni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>"Require sales representative" is not enforced in this situation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Krefjast sölufulltrúa“ er ekki áskilið í þessari stöðu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Displaying the Sales representative information on the POS transactions screen</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Birting upplýsinga sölufulltrúa á færsluskjá POS</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>The POS transaction screen layout and contents are configurable using the screen layout designer and assigned screen layouts to stores, registers, or workers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Útlit og efni færsluskjás POS er skilgreinanlegr með því að nota á skjá útlit hönnuðar og úthlutuðum útlit afgreiðsluskjás á verslanir, afgreiðslukassar eða starfsmenn.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source> The <bpt id="p1">**</bpt>Sales representative<ept id="p1">**</ept> field can be added to the Lines tab of the Receipt pane.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Hægt er að bæta við svæðinu  <bpt id="p1">**</bpt>Sölufulltrúi<ept id="p1">**</ept> á flipanum Línur í kvittunarrúðunni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>  This will display the ID of the specified Sales group for each line on the transaction screen.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">  Þetta mun birta kenni tilgreinds söluflokks fyrir hverja línu á færsluskjánum.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>Adding Sales representative operations to POS button grids</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bæta við Sölu sölufulltrúa aðgerðir á Sölustað hnappinn hnitanet</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>POS allows users to configure button grids, which are included in screen layouts to provide access to POS operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS gerir notendum kleift að skilgreina hnappahnit sem eru höfð með í útliti afgreiðsluskjás til að veita aðgang að aðgerðir POS.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>The following POS operations can be assigned to button grid buttons that pertain to Sales representatives.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að úthluta eftirfarandi aðgerðum POS á hnappahnitum sem snerta sölufulltrúa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Operation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aðgerð</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">lýsing</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Set sales representative on line</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stilla sölufulltrúa í línu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>This POS operation displays a list of eligible Sales groups (ID : Name) for the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi aðgerð POS birtir lista yfir hæfa söluflokka (Kenni: Heiti) fyrir verslunina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source> Selecting a Sales group from this list will set the value on the current transaction line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Val á söluflokki af listanum mun stilla gildið í núgildandi færslulínu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Clear sales representative on line</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hreinsa sölufulltrúa í línu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>This POS operation removes the current Sales group value from the current transaction line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi aðgerð POS fjarlægir núgildandi gildi söluflokks úr núgildandi færslulínu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Set sales representative on transaction</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stilla sölufulltrúa í færslu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>This POS operation displays a list of eligible Sales groups (ID : Name) for the store.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi aðgerð POS birtir lista yfir hæfa söluflokka (Kenni: Heiti) fyrir verslunina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source> Selecting a Sales group from this list will set the default value on the current transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Val á söluflokki af listanum mun stilla sjálfgildið í núgildandi færslu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Any existing lines without a sales group assigned will be set, as well as any subsequently added lines.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öllum fyrirliggjandi línum án söluflokks verður úthlutað, ásamt öllum línum sem síðar hefur verið bætt við.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Clear sales representative on transaction</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hreinsa sölufulltrúa í færslu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>This POS operation removes the current default Sales group value from the current transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi aðgerð POS fjarlægir núgildandi sjálfgildi söluflokks úr núgildandi færslu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>It does not impact any lines already existing in the transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Það ekki áhrif á þær línur sem þegar eru til í færslunni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Calculating commissions</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Útreikningur á þóknun</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Commission is calculated for the workers in the specified sales groups at the time of statement posting or sales order posting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þóknun er reiknuð fyrir starfsmenn í tilgreindum söluflokkum við bókun uppgjörs eða bókun sölupöntunar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source> The commission amount is determined based on the worker's commission share, as defined in the sales group and the associated commission calculation settings for the customer and/or products on the transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Upphæð þóknunar er ákvörðuð samkvæmt þóknunarhluta starfsmanns, eins og skilgreint er í söluflokki og stillingum útreikninga fyrir tengda þóknun fyrir viðskiptavin og/eða afurðir í færslunni.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

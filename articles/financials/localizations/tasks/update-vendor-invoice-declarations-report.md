@@ -1,60 +1,111 @@
----
-title: Uppfæra verktakamiða lánardrottna og búa til skýrslu
-description: Þetta ferli fer í gegnum bókun á reikningi lánardrottins með meðfylgjandi upplýsingar um verktakamiða og myndun skýrslu um verktakamiða.
-author: mrolecki
-manager: AnnBe
-ms.date: 08/29/2018
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: LedgerJournalTable, LedgerJournalTransVendInvoice
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: Iceland
-ms.author: mrolecki
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 03d1c2d5844a5d27fee551a3e8001a7277c404bc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537989"
----
-# <a name="update-vendor-invoice-declarations-and-generate-the-report"></a><span data-ttu-id="668bc-103">Uppfæra verktakamiða lánardrottna og búa til skýrslu</span><span class="sxs-lookup"><span data-stu-id="668bc-103">Update vendor invoice declarations and generate the report</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="668bc-104">Þetta ferli fer í gegnum bókun á reikningi lánardrottins með meðfylgjandi upplýsingar um verktakamiða og myndun skýrslu um verktakamiða.</span><span class="sxs-lookup"><span data-stu-id="668bc-104">This procedure walks you through posting a vendor invoice with invoice declaration information attached and generating an invoice declaration report.</span></span> <span data-ttu-id="668bc-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er DEMF með land aðalaðsetur lögaðila uppfært í Ísland.</span><span class="sxs-lookup"><span data-stu-id="668bc-105">The demo data company used to create this procedure is DEMF with the country of legal entity primary address updated to Iceland.</span></span>
-
-
-## <a name="post-a-vendor-invoice"></a><span data-ttu-id="668bc-106">Bóka reikning lánardrottins</span><span class="sxs-lookup"><span data-stu-id="668bc-106">Post a vendor invoice</span></span>
-1. <span data-ttu-id="668bc-107">Fara í Viðskiptaskuldir > Reikningar > Reikningabók.</span><span class="sxs-lookup"><span data-stu-id="668bc-107">Go to Accounts payable > Invoices > Invoice journal.</span></span>
-2. <span data-ttu-id="668bc-108">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="668bc-108">Click New.</span></span>
-3. <span data-ttu-id="668bc-109">Í reitnum Heiti velurðu ‚APInvoice‘.</span><span class="sxs-lookup"><span data-stu-id="668bc-109">In the Name field, In the Name field, select 'APInvoice'.</span></span>
-4. <span data-ttu-id="668bc-110">Smellið á Línur.</span><span class="sxs-lookup"><span data-stu-id="668bc-110">Click Lines.</span></span>
-5. <span data-ttu-id="668bc-111">Í reitinn Lykill skal færa inn gildin 'IS-001'.</span><span class="sxs-lookup"><span data-stu-id="668bc-111">In the Account field, specify the values 'IS-001'.</span></span>
-6. <span data-ttu-id="668bc-112">Í reitinn Reikningur skal færa inn "IS-001-01".</span><span class="sxs-lookup"><span data-stu-id="668bc-112">In the Invoice field, type 'IS-001-01'.</span></span>
-7. <span data-ttu-id="668bc-113">Í reitnum Kredit skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="668bc-113">In the Credit field, enter a number.</span></span>
-8. <span data-ttu-id="668bc-114">Í reitinn Mótlykill skal tilgreina gildin '200130--'.</span><span class="sxs-lookup"><span data-stu-id="668bc-114">In the Offset account field, specify the values '200130--'.</span></span>
-9. <span data-ttu-id="668bc-115">Smellið á flipann Reikningur.</span><span class="sxs-lookup"><span data-stu-id="668bc-115">Click the Invoice tab.</span></span>
-10. <span data-ttu-id="668bc-116">Í reitinn Skjal skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="668bc-116">In the Document field, type a value.</span></span>
-11. <span data-ttu-id="668bc-117">Í reitnum Reikningsdagsetning er dagsetning í dag rituð.</span><span class="sxs-lookup"><span data-stu-id="668bc-117">In the Invoice date field, enter today's date.</span></span>
-12. <span data-ttu-id="668bc-118">Í reitnum Verktakamiðar skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="668bc-118">In the Invoice declaration field, click the drop-down button to open the lookup.</span></span>
-13. <span data-ttu-id="668bc-119">Í listanum velurðu flokkinn Verktakamiðar.</span><span class="sxs-lookup"><span data-stu-id="668bc-119">In the list, select the Invoice declaration category.</span></span>
-14. <span data-ttu-id="668bc-120">Smellið á „Bóka“.</span><span class="sxs-lookup"><span data-stu-id="668bc-120">Click Post.</span></span>
-
-## <a name="generate-an-invoice-declaration"></a><span data-ttu-id="668bc-121">Mynda verktakamiða</span><span class="sxs-lookup"><span data-stu-id="668bc-121">Generate an invoice declaration</span></span>
-1. <span data-ttu-id="668bc-122">Fara í Viðskiptaskuldir > Fyrirspurnir og skýrslur > Reikningur > Skýrsla um verktakamiða lánardrottins.</span><span class="sxs-lookup"><span data-stu-id="668bc-122">Go to Accounts payable > Inquiries and reports > Invoice > Vendor invoice declaration report.</span></span>
-2. <span data-ttu-id="668bc-123">Í reitnum Yfirvöld skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="668bc-123">In the Authority field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="668bc-124">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="668bc-124">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="668bc-125">Dagsetning er rituð í reitinn Frá dags.</span><span class="sxs-lookup"><span data-stu-id="668bc-125">In the From date field, enter a date.</span></span>
-5. <span data-ttu-id="668bc-126">Í reitinn Til dagsetningar skal slá inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="668bc-126">In the To date field, enter a date.</span></span>
-6. <span data-ttu-id="668bc-127">Merkið við gátreitinn Stofna skýrsluskrá.</span><span class="sxs-lookup"><span data-stu-id="668bc-127">Check the Create report file checkbox.</span></span>
-7. <span data-ttu-id="668bc-128">Í reitinn Heiti skal slá inn ‚Skýrsla um verktakamiða lánardrottins (IS)‘.</span><span class="sxs-lookup"><span data-stu-id="668bc-128">In the Name field, select 'Vendor invoice declaration report (IS)'..</span></span>
-8. <span data-ttu-id="668bc-129">Merkið við gátreitinn Stofna textaskrá.</span><span class="sxs-lookup"><span data-stu-id="668bc-129">Check the Create text file checkbox.</span></span>
-9. <span data-ttu-id="668bc-130">Í reitinn Heiti skal slá inn ‚Skýrsla um verktakamiða lánardrottins yfirlýsing (IS)‘.</span><span class="sxs-lookup"><span data-stu-id="668bc-130">In the Name field, select 'Vendor invoice declaration (IS)'.</span></span>
-10. <span data-ttu-id="668bc-131">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="668bc-131">Click OK.</span></span>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="update-vendor-invoice-declarations-report.md" target-language="is-is">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>update-vendor-invoice-declarations-report.40276d.579bb2219f5059604dcd6cc1a1404793d52ada1e.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>579bb2219f5059604dcd6cc1a1404793d52ada1e</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\update-vendor-invoice-declarations-report.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Update vendor invoice declarations and generate the report</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uppfæra verktakamiða lánardrottna og búa til skýrslu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This procedure walks you through posting a vendor invoice with invoice declaration information attached and generating an invoice declaration report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þetta ferli fer í gegnum bókun á reikningi lánardrottins með meðfylgjandi upplýsingar um verktakamiða og myndun skýrslu um verktakamiða.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Update vendor invoice declarations and generate the report</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uppfæra verktakamiða lánardrottna og búa til skýrslu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This procedure walks you through posting a vendor invoice with invoice declaration information attached and generating an invoice declaration report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þetta ferli fer í gegnum bókun á reikningi lánardrottins með meðfylgjandi upplýsingar um verktakamiða og myndun skýrslu um verktakamiða.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>The demo data company used to create this procedure is DEMF with the country of legal entity primary address updated to Iceland.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sýnigögn fyrirtækisins til að stofna þetta ferli er DEMF með land aðalaðsetur lögaðila uppfært í Ísland.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Post a vendor invoice</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bóka reikning lánardrottins</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Go to Accounts payable &gt; Invoices &gt; Invoice journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fara í Viðskiptaskuldir &gt; Reikningar &gt; Reikningabók.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Nýtt“.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>In the Name field, In the Name field, select 'APInvoice'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í reitnum Heiti velurðu ‚APInvoice‘.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Click Lines.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á Línur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>In the Account field, specify the values 'IS-001'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í reitinn Lykill skal færa inn gildin 'IS-001'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>In the Invoice field, type 'IS-001-01'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í reitinn Reikningur skal færa inn "IS-001-01".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>In the Credit field, enter a number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í reitnum Kredit skal slá inn tölu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>In the Offset account field, specify the values '200130--'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í reitinn Mótlykill skal tilgreina gildin '200130--'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Click the Invoice tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á flipann Reikningur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>In the Document field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í reitinn Skjal skal slá inn gildi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>In the Invoice date field, enter today's date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í reitnum Reikningsdagsetning er dagsetning í dag rituð.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>In the Invoice declaration field, click the drop-down button to open the lookup.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í reitnum Verktakamiðar skal smella á fellilistahnappinn til að opna leitina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>In the list, select the Invoice declaration category.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í listanum velurðu flokkinn Verktakamiðar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Click Post.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Bóka“.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Generate an invoice declaration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mynda verktakamiða</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Go to Accounts payable &gt; Inquiries and reports &gt; Invoice &gt; Vendor invoice declaration report.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fara í Viðskiptaskuldir &gt; Fyrirspurnir og skýrslur &gt; Reikningur &gt; Skýrsla um verktakamiða lánardrottins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>In the Authority field, click the drop-down button to open the lookup.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í reitnum Yfirvöld skal smella á fellilistahnappinn til að opna leitina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>In the list, click the link in the selected row.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í listanum skal smella á tengilinn í valinni línu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>In the From date field, enter a date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dagsetning er rituð í reitinn Frá dags.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>In the To date field, enter a date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í reitinn Til dagsetningar skal slá inn dagsetningu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Check the Create report file checkbox.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Merkið við gátreitinn Stofna skýrsluskrá.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>In the Name field, select 'Vendor invoice declaration report (IS)'..</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í reitinn Heiti skal slá inn ‚Skýrsla um verktakamiða lánardrottins (IS)‘.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Check the Create text file checkbox.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Merkið við gátreitinn Stofna textaskrá.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>In the Name field, select 'Vendor invoice declaration (IS)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í reitinn Heiti skal slá inn ‚Skýrsla um verktakamiða lánardrottins yfirlýsing (IS)‘.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Í lagi“.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

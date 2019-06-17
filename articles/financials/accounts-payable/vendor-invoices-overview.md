@@ -1,101 +1,303 @@
----
-title: Yfirlit reikninga lánardrottna
-description: Þessi grein veitir almennar upplýsingar um reikninga lánardrottins. Reikningar lánardrottins eru beiðnir um greiðslu fyrir vörur og þjónustu sem voru mótteknar. Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þær geta verið byggðir á innkaupapantanir fyrir tilteknar vörur og þjónustu.
-author: abruer
-manager: AnnBe
-ms.date: 03/29/2019
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 13971
-ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
-ms.search.region: Global
-ms.author: abruer
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d7cec48b1e01d308cfc67260ac82a50a8d76844
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1509499"
----
-# <a name="vendor-invoices-overview"></a><span data-ttu-id="c8081-105">Yfirlit reikninga lánardrottna</span><span class="sxs-lookup"><span data-stu-id="c8081-105">Vendor invoices overview</span></span>
-
-[!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
-
-<span data-ttu-id="c8081-106">Þessi grein veitir almennar upplýsingar um reikninga lánardrottins.</span><span class="sxs-lookup"><span data-stu-id="c8081-106">This article provides general information about vendor invoices.</span></span> <span data-ttu-id="c8081-107">Reikningar lánardrottins eru beiðnir um greiðslu fyrir vörur og þjónustu sem voru mótteknar.</span><span class="sxs-lookup"><span data-stu-id="c8081-107">Vendor invoices are requests for payment for products and services that were received.</span></span> <span data-ttu-id="c8081-108">Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þær geta verið byggðir á innkaupapantanir fyrir tilteknar vörur og þjónustu.</span><span class="sxs-lookup"><span data-stu-id="c8081-108">Vendor invoices can represent a bill for ongoing services, or they can be based on purchase orders for specific items and services.</span></span> 
-
-## <a name="vendor-invoices"></a><span data-ttu-id="c8081-109">Reikningar frá lánardrottni</span><span class="sxs-lookup"><span data-stu-id="c8081-109">Vendor invoices</span></span>
-
-<span data-ttu-id="c8081-110">Reikning lánardrottins úr innkaupapöntun er reikningur sem er búinn til þegar afurðir eða þjónustur eru mótteknar samkvæmt innkaupapöntun sem var gerð hjá lánardrottni.</span><span class="sxs-lookup"><span data-stu-id="c8081-110">A vendor invoice from a purchase order is an invoice that is produced when products or services are received according to a purchase order that was placed with a vendor.</span></span> <span data-ttu-id="c8081-111">Reikningur lánardrottins inniheldur haus og ein eða fleiri línur fyrir vörur eða þjónustu.</span><span class="sxs-lookup"><span data-stu-id="c8081-111">The vendor invoice contains a header, and one or more lines for items or services.</span></span> <span data-ttu-id="c8081-112">Reikningur lánardrottins lýkur ferlinu úr innkaupapöntun til innhreyfingarskjals afurðar til reiknings lánardrottins.</span><span class="sxs-lookup"><span data-stu-id="c8081-112">A vendor invoice completes the cycle from purchase order to product receipt to vendor invoice.</span></span> 
-
-<span data-ttu-id="c8081-113">Þó að sumir reikningar lánardrottins eru tengdar við innkaupapöntun, getur reikninga lánardrottins líka innihaldið línur sem samsvara ekki innkaupapöntunarlínum.</span><span class="sxs-lookup"><span data-stu-id="c8081-113">Although some vendor invoices are connected to a purchase order, vendor invoices can also contain lines that don't correspond to purchase order lines.</span></span> <span data-ttu-id="c8081-114">Hægt er að búa líka til reikninga lánardrottna sem eru ekki tengdir við neinar innkaupapantanir.</span><span class="sxs-lookup"><span data-stu-id="c8081-114">You can also create vendor invoices that aren't associated with any purchase order.</span></span> <span data-ttu-id="c8081-115">Þessir reikningar lánardrottins gæti standa fyrir yfirstandandi þjónustu eins og rafmagnsreikningur, og þarf ekki að vísa í innkaupapöntun þegar þeim er bætt við.</span><span class="sxs-lookup"><span data-stu-id="c8081-115">These vendor invoices might represent ongoing services, such as a utility bill, and you don't have to reference a purchase order when you add them.</span></span> 
-
-<span data-ttu-id="c8081-116">Það eru nokkrar leiðir til að færa inn reikning lánardrottins:</span><span class="sxs-lookup"><span data-stu-id="c8081-116">There are several ways to enter a vendor invoice:</span></span>
-
--   <span data-ttu-id="c8081-117">Komubók lánardrottins gerir kleift að slá hratt inn reikninga sem ekki vísa til innkaupapöntunar, þannig að hægt er að safna upp kostnaðinum.</span><span class="sxs-lookup"><span data-stu-id="c8081-117">The vendor invoice register lets you quickly enter invoices that don't reference a purchase order, so that you can accrue the expense.</span></span> <span data-ttu-id="c8081-118">Með því að nota samþykktarbók reikninga lánardrottins, er hægt að velja þá reikninga og bóka á stöðu lánardrottna til að bakfæra uppsöfnun.</span><span class="sxs-lookup"><span data-stu-id="c8081-118">By using the vendor invoice approval journal, you can select those invoices and post them to the vendor balance to reverse the accrual.</span></span>
--   <span data-ttu-id="c8081-119">Reikningabók lánardrottins leyfir þér að færa inn reikninga fljótt sem ekki vísa til innkaupapöntun, í einu skrefi.</span><span class="sxs-lookup"><span data-stu-id="c8081-119">The vendor invoice journal lets you quickly enter invoices that don't reference a purchase order, in a single step.</span></span>
--   <span data-ttu-id="c8081-120">Ásamt Reikningasafn lánardrottna, leyfir komubók lánardrottins að slá hratt inn reikninga til að safna upp kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="c8081-120">Together with the vendor invoice pool, the vendor invoice register lets you quickly enter invoices to accrue the expense.</span></span> <span data-ttu-id="c8081-121">Hægt er að opna tengd innkaupapantanir seinna til að bóka reikning gagnvart á kostnaðarlykil.</span><span class="sxs-lookup"><span data-stu-id="c8081-121">You can open the associated purchase orders later to post the invoice against the expense account.</span></span>
--   <span data-ttu-id="c8081-122">**Opna lánardrottnareikninga** og **Biðreikninga lánardrottins** síður gera mögulegt að stofna reikninga lánardrottna frá staðfestar innkaupapantanir.</span><span class="sxs-lookup"><span data-stu-id="c8081-122">The **Open vendor invoices** and **Pending vendor invoices** pages let you create vendor invoices from confirmed purchase orders.</span></span>
-
-<span data-ttu-id="c8081-123">Eftirfarandi umræðu veita meiri upplýsingar um hvernig á að nota **Opna lánardrottnareikninga** eða **Biðreikninga lánardrottins** síðu til að búa til reikning lánardrottins úr innkaupapöntun.</span><span class="sxs-lookup"><span data-stu-id="c8081-123">The following discussion provide more information about how to use the **Open vendor invoices** or **Pending vendor invoices** page to create a vendor invoice from a purchase order.</span></span>
-
-## <a name="understanding-invoice-line-quantities"></a><span data-ttu-id="c8081-124">Skilja magn reikningslínu</span><span class="sxs-lookup"><span data-stu-id="c8081-124">Understanding invoice line quantities</span></span>
-<span data-ttu-id="c8081-125">Þegar reikningur lánardrottins er opnuð úr tengdri innkaupapöntun eru reikningslínur stofnaðar úr innkaupapöntuninni.</span><span class="sxs-lookup"><span data-stu-id="c8081-125">When you open a vendor invoice from a related purchase order, invoice lines are created from the purchase order.</span></span> <span data-ttu-id="c8081-126">Sjálfgefið er að magn er tekið frá magn á innhreyfingarskjali afurða.</span><span class="sxs-lookup"><span data-stu-id="c8081-126">By default, the quantities are taken from the product receipt quantity.</span></span> <span data-ttu-id="c8081-127">Hins vegar er hægt að nota eitthvað af eftirfarandi sjálfgefinni hegðun:</span><span class="sxs-lookup"><span data-stu-id="c8081-127">However, you can use any of the following default behaviors:</span></span>
-
--   <span data-ttu-id="c8081-128">**Magn sem móttaka á nú** – Nota þennan valkost fyrir hlutasendingar.</span><span class="sxs-lookup"><span data-stu-id="c8081-128">**Receive now quantity** – Use this option for partial shipments.</span></span> <span data-ttu-id="c8081-129">Sjálfgefna gildið í reitnum **Magn** er tekið úr **Móttaka nú** magnsvæðinu á innkaupapöntuninni.</span><span class="sxs-lookup"><span data-stu-id="c8081-129">The default value in the **Quantity** field is taken from the **Receive now** quantity field on the purchase order.</span></span>
--   <span data-ttu-id="c8081-130">**Pantað magn** – hægt er að Nota þennan valkost fyrir fullbúnar sendingar.</span><span class="sxs-lookup"><span data-stu-id="c8081-130">**Ordered quantity** – Use this option for complete shipments.</span></span> <span data-ttu-id="c8081-131">Sjálfgefna gildið í **Magnreit** er tekinn úr **pantað** magnsvæðinu á innkaupapöntuninni.</span><span class="sxs-lookup"><span data-stu-id="c8081-131">The default value in the **Quantity** field is taken from the **Ordered** quantity field on the purchase order.</span></span>
--   <span data-ttu-id="c8081-132">**Skráð magn** – notið þennan valkost ef varan þarfnast skráningar sem tilgreind er í **vörulíkanaflokkur** síðu.</span><span class="sxs-lookup"><span data-stu-id="c8081-132">**Registered quantity** – Use this option if the item requires registration, as specified on the **Item model groups** page.</span></span> <span data-ttu-id="c8081-133">Sjálfgefna gildið í svæðinu **magn** er efnislega uppfærslumagnið sem hefur verið skráð.</span><span class="sxs-lookup"><span data-stu-id="c8081-133">The default value in the **Quantity** field is the physical update quantity that has been registered.</span></span>
--   <span data-ttu-id="c8081-134">**Magn á innhreyfingarskjali afurða** – Notið þennan valkost ef innhreyfingarskjal afurða hefur þegar verið móttekinn fyrir pöntuninni.</span><span class="sxs-lookup"><span data-stu-id="c8081-134">**Product receipt quantity** – Use this option if a product receipt has already been received for the order.</span></span> <span data-ttu-id="c8081-135">Sjálfgefna gildið í svæðinu **magn** er frá heildarmagni tiltækra innhreyfingarskjala afurða.</span><span class="sxs-lookup"><span data-stu-id="c8081-135">The default value in the **Quantity** field is taken from the total quantity of available product receipts.</span></span>
--   <span data-ttu-id="c8081-136">**Skráð magn og þjónustur** – Notið þennan valkost ef magn hefur verið skráð í komubókum fyrir vörur í birgðum eða vörur sem ekki eru í birgðum.</span><span class="sxs-lookup"><span data-stu-id="c8081-136">**Registered quantity and services** – Use this option if quantities have been registered in arrival journals for stocked items or items that aren't stocked.</span></span> <span data-ttu-id="c8081-137">Þessi valkostur inniheldur einnig þjónustu, án tillits til þess hvort hún sé skráð.</span><span class="sxs-lookup"><span data-stu-id="c8081-137">This option also includes services, regardless of whether they are registered.</span></span>
-
-<span data-ttu-id="c8081-138">Ef lögaðili þinn notar reikningsjöfnun, geturðu skoða niðurstöður úr jöfnun magns í **jöfnun magns fyrir Innhreyfingarskjal afurða** dálkur.</span><span class="sxs-lookup"><span data-stu-id="c8081-138">If your legal entity uses invoice matching, you can view the results of the quantity matching in the **Product receipt quantity match** column.</span></span> <span data-ttu-id="c8081-139">Einnig er hægt að nota **Jöfnunarupplýsingar** valmyndinni á **Yfirferð** flipa til að skoða niðurstöður jöfnunar magns.</span><span class="sxs-lookup"><span data-stu-id="c8081-139">You can also use the **Matching details** menu command on the **Review** tab to view the results of the quantity matching.</span></span>
-
-## <a name="adding-a-line-that-wasnt-on-the-purchase-order"></a><span data-ttu-id="c8081-140">Bæta við línu sem ekki var á innkaupapöntun</span><span class="sxs-lookup"><span data-stu-id="c8081-140">Adding a line that wasn't on the purchase order</span></span>
-<span data-ttu-id="c8081-141">Hægt er að bæta við nýrri línu sem ekki var á innkaupapöntun við reikning lánardrottins.</span><span class="sxs-lookup"><span data-stu-id="c8081-141">You can add a new line that wasn't on the purchase order to the vendor invoice.</span></span> <span data-ttu-id="c8081-142">Velja verður við vörunúmer eða innkaupategund.</span><span class="sxs-lookup"><span data-stu-id="c8081-142">You must select an item number or procurement category.</span></span> <span data-ttu-id="c8081-143">Þá er Hægt að bæta magn, verð og upphæðir á línu.</span><span class="sxs-lookup"><span data-stu-id="c8081-143">You can then add quantities, prices, and amounts to the line.</span></span> <span data-ttu-id="c8081-144">Línan verða teknar með aðeins í jöfnunarreglur fyrir heildarupphæð reiknings.</span><span class="sxs-lookup"><span data-stu-id="c8081-144">The line will be included only in matching policies for invoice totals.</span></span>
-
-## <a name="submitting-a-vendor-invoice-for-review"></a><span data-ttu-id="c8081-145">Sendir reikning lánardrottins til yfirferðar</span><span class="sxs-lookup"><span data-stu-id="c8081-145">Submitting a vendor invoice for review</span></span>
-<span data-ttu-id="c8081-146">Fyrirtækið gæti notað verkflæði til að stjórna endurskoðunarferli fyrir lánardrottnareikninga.</span><span class="sxs-lookup"><span data-stu-id="c8081-146">Your organization might use workflows to manage the review process for vendor invoices.</span></span> <span data-ttu-id="c8081-147">Hægt er að nota verkflæði yfirferðar fyrir reikningshausa, reikningslínu, eða bæði.</span><span class="sxs-lookup"><span data-stu-id="c8081-147">Workflow review can be required for the invoice header, the invoice line, or both.</span></span> <span data-ttu-id="c8081-148">Verkflæðisstýringin á við haus eða línu, eftir því hvað var auðkennt áður en smellt er á stýringuna.</span><span class="sxs-lookup"><span data-stu-id="c8081-148">The workflow controls apply to the header or the line, depending on where the focus is when you click the control.</span></span> <span data-ttu-id="c8081-149">Í stað **Bóka** hnappinn sjást í **Senda** hnappur sem hægt er að nota til að senda reikning lánardrottins í gegnum yfirferðarferlið.</span><span class="sxs-lookup"><span data-stu-id="c8081-149">Instead of the **Post** button, you will see a **Submit** button that you can use to send the vendor invoice through the review process.</span></span>
-
-## <a name="matching-vendor-invoices-to-product-receipts"></a><span data-ttu-id="c8081-150">Jafna lánardrottnareikninga við innhreyfingarskjöl afurða</span><span class="sxs-lookup"><span data-stu-id="c8081-150">Matching vendor invoices to product receipts</span></span>
-<span data-ttu-id="c8081-151">Hægt er að færa inn og vista upplýsingar fyrir reikninga lánardrottins og hægt er að jafna reikningslínur við línur í innhreyfingarskjali afurðar.</span><span class="sxs-lookup"><span data-stu-id="c8081-151">You can enter and save information for vendor invoices, and you can match invoice lines to product receipt lines.</span></span> <span data-ttu-id="c8081-152">Einnig er hægt að jafna hlutamagn fyrir línu</span><span class="sxs-lookup"><span data-stu-id="c8081-152">You can also match partial quantities for a line.</span></span> 
-
-<span data-ttu-id="c8081-153">Hægt er að stofna reikning lánardrottins á grundvelli línuvara innhreyfingarskjals afurða sem hefur verið móttekið fram að þessu, jafnvel þó allar vörurnar fyrir tiltekna innkaupapöntun hafa ekki verið mótteknar enn.</span><span class="sxs-lookup"><span data-stu-id="c8081-153">You can create a vendor invoice that is based on the product receipt line items that have been received to date, even if all the items for a particular purchase order haven't yet been received.</span></span> <span data-ttu-id="c8081-154">Þetta er t.d. hægt að nota þennan valkost ef lánardrottinn sendir einn reikning á mánuði sem nær yfir allar afhendingar sem hann sendir þennan mánuð.</span><span class="sxs-lookup"><span data-stu-id="c8081-154">For example, you might use this option if a vendor sends one invoice per month that covers all the deliveries that the vendor shipped during that month.</span></span> <span data-ttu-id="c8081-155">Hvert innhreyfingarskjal afurða birtir hluta eða alla afhendingu varanna á innkaupapöntuninni.</span><span class="sxs-lookup"><span data-stu-id="c8081-155">Each product receipt represents a partial or complete delivery of the items on the purchase order.</span></span> 
-
-<span data-ttu-id="c8081-156">Þegar reikningur er bókaður er magn **reikningsafgangs** fyrir hverja vöru uppfært með samtölu móttekins magns úr völdum innhreyfingarskjal afurða.</span><span class="sxs-lookup"><span data-stu-id="c8081-156">When you post the invoice, the **Invoice remainder** quantity for each item is updated with the total of the received quantities from the selected product receipts.</span></span> <span data-ttu-id="c8081-157">Ef bæði **Reikningsafgangur** magnið og **Eftirstöðvar afhendingar** fyrir allar og vörur á innkaupapöntun jafngildir núlli (0), breytist staða innkaupapöntunar í **Reikningsfært**.</span><span class="sxs-lookup"><span data-stu-id="c8081-157">If both the **Invoice remainder** quantity and the **Deliver remainder** quantity for all items on the purchase order are 0 (zero), the status of the purchase order is changed to **Invoiced**.</span></span> <span data-ttu-id="c8081-158">Ef magn **Reikningsafgangs** er ekki 0, er staða sölupöntunar óbreytt og hægt er að færa inn viðbótarreikninga fyrir hann.</span><span class="sxs-lookup"><span data-stu-id="c8081-158">If the **Invoice remainder** quantity isn't 0, the status of the purchase order remains unchanged, and additional invoices can be entered for it.</span></span>
-
-<span data-ttu-id="c8081-159">Þetta ferli gerir ráð fyrir að minnsta kosti eitt innhreyfingarskjal afurða hafi verið bókað fyrir innkaupapöntunina.</span><span class="sxs-lookup"><span data-stu-id="c8081-159">This option assumes that at least one product receipt has been posted for the purchase order.</span></span> <span data-ttu-id="c8081-160">Reikningur lánardrottisins er byggður á viðkomandi innhreyfingarskjali afurða og endurspeglar magnið á þeim.</span><span class="sxs-lookup"><span data-stu-id="c8081-160">The vendor invoice is based on these product receipts and reflects the quantities from them.</span></span> <span data-ttu-id="c8081-161">Fjárhagslegar upplýsingar sem koma fram á reikningnum eru byggðar á upplýsingunum sem færðar eru inn þegar reikningurinn er bókaður.</span><span class="sxs-lookup"><span data-stu-id="c8081-161">The financial information for the invoice is based on the information that is entered when you post the invoice.</span></span>
-
-<span data-ttu-id="c8081-162">Frekari upplýsingar, sjá [Skrá reikning lánardrottins og bera saman við móttekið magn](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md).</span><span class="sxs-lookup"><span data-stu-id="c8081-162">For more information, see [Record vendor invoice and match against received quantity](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md).</span></span>
-
-## <a name="working-with-multiple-invoices"></a><span data-ttu-id="c8081-163">Vinna með marga reikninga</span><span class="sxs-lookup"><span data-stu-id="c8081-163">Working with multiple invoices</span></span>
-
-<span data-ttu-id="c8081-164">Hægt er að vinna með marga reikninga á sama tíma og bókaðar þá svo samtímis.</span><span class="sxs-lookup"><span data-stu-id="c8081-164">You can work with multiple invoices at the same time and post them all at the same time.</span></span> <span data-ttu-id="c8081-165">Ef stofna þarf marga reikninga eru notuð **Biðreikninga lánardrottins** síðu.</span><span class="sxs-lookup"><span data-stu-id="c8081-165">If you must create multiple invoices, use the **Pending vendor invoices** page.</span></span> <span data-ttu-id="c8081-166">Ef Bóka þarf og prenta marga reikninga lánardrottna skal nota síðuna staðfestingarbók reikninga</span><span class="sxs-lookup"><span data-stu-id="c8081-166">If you must post and print multiple vendor invoices, use the invoice approval journal page.</span></span> <span data-ttu-id="c8081-167">Ef þú ert að nota samþykktarbók reikninga, þarf að minnsta kosti eitt innhreyfingarskjal afurða hafi verið bókað fyrir innkaupapöntunina og að reikningur fyrir innkaupapöntunina þarf að hafa verið bókaður í komubók.</span><span class="sxs-lookup"><span data-stu-id="c8081-167">If you're using the invoice approval journal, at least one product receipt must be posted for the purchase order, and an invoice for the purchase order must be posted in an invoice register.</span></span> <span data-ttu-id="c8081-168">Fjárhagsupplýsingarnar fyrir reikninginn koma úr reikningnum sem var bókaður í komubókina.</span><span class="sxs-lookup"><span data-stu-id="c8081-168">The financial information for the invoice comes from the invoice that was posted in the register.</span></span>
-
-## <a name="recovering-vendor-invoices-that-are-in-use"></a><span data-ttu-id="c8081-169">Endurheimtir á reikningum lánardrottna sem eru í notkun</span><span class="sxs-lookup"><span data-stu-id="c8081-169">Recovering vendor invoices that are in use</span></span>
-
-<span data-ttu-id="c8081-170">Þó að reikningur lánardrottins sé notaður getur annar notandi ekki breytt honum.</span><span class="sxs-lookup"><span data-stu-id="c8081-170">While a vendor invoice is being used, it can't be edited by another user.</span></span> <span data-ttu-id="c8081-171">Hins vegar getur staða á reikningi stundum gefið til kynna að reikningur sé í notkun jafnvel þótt ekki sé verið að breyta honum.</span><span class="sxs-lookup"><span data-stu-id="c8081-171">However, the state of an invoice might sometimes indicate that the invoice is in use, even though it isn't being actively edited.</span></span> <span data-ttu-id="c8081-172">Til dæmis gæti forritið hafa hætt að svara á meðan reikningnum var breytt eða notandi kann að hafa óvart skilið reikninginn eftir opinn í forritinu.</span><span class="sxs-lookup"><span data-stu-id="c8081-172">For example, the application might have stopped responding while the invoice was being edited, or a user might have inadvertently left the invoice open in the application.</span></span>
-
-<span data-ttu-id="c8081-173">Hægt er að nota síðuna **Endurheimta reikninga lánardrottna** til að endurheimta eða losa reikninga lánardrottins sem hafa veirð í notkun í meira en fjórar klukkustundir, svo hægt sé að breyta þeim.</span><span class="sxs-lookup"><span data-stu-id="c8081-173">You can use the **Recover vendor invoices** page to recover or release vendor invoices that have been in use for more than four hours, so that they can be edited.</span></span> <span data-ttu-id="c8081-174">Hægt er að opna þessa síðu af síðunni **Reglubundið verk** eða reit á vinnusvæðinu **Reikningsfærsla lánardrottins**.</span><span class="sxs-lookup"><span data-stu-id="c8081-174">You can open this page from the **Periodic task** navigation or a tile on the **Vendor invoice entry** workspace.</span></span> <span data-ttu-id="c8081-175">Eftir að reikningur er endurheimtur verður hægt að breyta honum á síðunni **Reikningur lánardrottins**.</span><span class="sxs-lookup"><span data-stu-id="c8081-175">After an invoice is recovered, it will be available for editing on the **Vendor invoice** page.</span></span>
-
-<span data-ttu-id="c8081-176">Aðeins er hægt að fá aðgang að síðunni **Endurheimta reikninga lánardrottna** ef þér er úthlutað öryggisskyldunum og réttindunum **Endurheimta reikninga lánardrottna sem eru í notkun**.</span><span class="sxs-lookup"><span data-stu-id="c8081-176">You can access the **Recover vendor invoices** page only if the **Recover vendor invoices in use** security duty and privilege are assigned to you.</span></span> <span data-ttu-id="c8081-177">Auk þess þarf að kveikja á færibreytunni **Leyfa endurheimt á reikningum lánardrottna** á síðunni **Færibreytur viðskiptaskulda**.</span><span class="sxs-lookup"><span data-stu-id="c8081-177">Additionally, the **Allow vendor invoice recovery** parameter on the **Accounts payable parameters** page must be turned on.</span></span>
-
-## <a name="additional-resources"></a><span data-ttu-id="c8081-178">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="c8081-178">Additional resources</span></span>
-
- - [<span data-ttu-id="c8081-179">Setja upp reglur lánardrottnareikninga</span><span class="sxs-lookup"><span data-stu-id="c8081-179">Set up vendor invoice policies</span></span>](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
-
- - [<span data-ttu-id="c8081-180">Færa reikningsgögn inn í viðskiptaskuldir með reikningi lánardrottins</span><span class="sxs-lookup"><span data-stu-id="c8081-180">Key invoice data into accounts payable using a vendor invoice</span></span>](tasks/key-invoice-data-ap-system-vendor-invoice.md)
-
- - [<span data-ttu-id="c8081-181">Færa reikningsgögn inn í viðskiptaskuldir með færslubókarsamþykkt</span><span class="sxs-lookup"><span data-stu-id="c8081-181">Key invoice data into accounts payable using an approval journal</span></span>](tasks/key-invoice-data-into-ap-system-approval-journal.md)
-
- - [<span data-ttu-id="c8081-182">Færa reikningsgögn inn í viðskiptaskuldakerfi með reikningasafni</span><span class="sxs-lookup"><span data-stu-id="c8081-182">Key invoice data into the AP system using invoice pool</span></span>](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
-
- - [<span data-ttu-id="c8081-183">Skrá reikning lánardrottins í reikningabók</span><span class="sxs-lookup"><span data-stu-id="c8081-183">Record a vendor invoice in the invoice journal</span></span>](tasks/record-vendor-invoice-invoice-journal.md)
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="vendor-invoices-overview.md" target-language="is-is">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-d915bc8" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>vendor-invoices-overview.f5fc73.b57c18b5b2cf690111511e4c5a92d51fc23dd68c.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>b57c18b5b2cf690111511e4c5a92d51fc23dd68c</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>06/05/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\accounts-payable\vendor-invoices-overview.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Vendor invoices overview</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Yfirlit yfir reikninga lánardrottna</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic provides general information about vendor invoices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þetta efnisatriði veitir almennar upplýsingar um reikninga lánardrottins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103" restype="x-metadata">
+          <source>Vendor invoices are requests for payment for products and services that were received.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Reikningar lánardrottins eru beiðnir um greiðslu fyrir vörur og þjónustu sem voru mótteknar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104" restype="x-metadata">
+          <source>Vendor invoices can represent a bill for ongoing services, or they can be based on purchase orders for specific items and services.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þær geta verið byggðir á innkaupapantanir fyrir tilteknar vörur og þjónustu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Vendor invoices overview</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Yfirlit yfir reikninga lánardrottna</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>This topic provides general information about vendor invoices.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-inherited">Þetta efnisatriði veitir almennar upplýsingar um reikninga lánardrottins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Vendor invoices are requests for payment for products and services that were received.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-inherited">Reikningar lánardrottins eru beiðnir um greiðslu fyrir vörur og þjónustu sem voru mótteknar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Vendor invoices can represent a bill for ongoing services, or they can be based on purchase orders for specific items and services.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þær geta verið byggðir á innkaupapantanir fyrir tilteknar vörur og þjónustu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Vendor invoices</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Reikningar frá lánardrottni</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>A vendor invoice from a purchase order is an invoice that is produced when products or services are received according to a purchase order that was placed with a vendor.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Reikning lánardrottins úr innkaupapöntun er reikningur sem er búinn til þegar afurðir eða þjónustur eru mótteknar samkvæmt innkaupapöntun sem var gerð hjá lánardrottni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>The vendor invoice contains a header, and one or more lines for items or services.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Reikningur lánardrottins inniheldur haus og ein eða fleiri línur fyrir vörur eða þjónustu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>A vendor invoice completes the cycle from purchase order to product receipt to vendor invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Reikningur lánardrottins lýkur ferlinu úr innkaupapöntun til innhreyfingarskjals afurðar til reiknings lánardrottins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Although some vendor invoices are connected to a purchase order, vendor invoices can also contain lines that don't correspond to purchase order lines.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þó að sumir reikningar lánardrottins eru tengdar við innkaupapöntun, getur reikninga lánardrottins líka innihaldið línur sem samsvara ekki innkaupapöntunarlínum.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>You can also create vendor invoices that aren't associated with any purchase order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að búa líka til reikninga lánardrottna sem eru ekki tengdir við neinar innkaupapantanir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>These vendor invoices might represent ongoing services, such as a utility bill, and you don't have to reference a purchase order when you add them.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessir reikningar lánardrottins gæti standa fyrir yfirstandandi þjónustu eins og rafmagnsreikningur, og þarf ekki að vísa í innkaupapöntun þegar þeim er bætt við.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>There are several ways to enter a vendor invoice:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Það eru nokkrar leiðir til að færa inn reikning lánardrottins:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>The vendor invoice register lets you quickly enter invoices that don't reference a purchase order, so that you can accrue the expense.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Komubók lánardrottins gerir kleift að slá hratt inn reikninga sem ekki vísa til innkaupapöntunar, þannig að hægt er að safna upp kostnaðinum.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>By using the vendor invoice approval journal, you can select those invoices and post them to the vendor balance to reverse the accrual.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Með því að nota samþykktarbók reikninga lánardrottins, er hægt að velja þá reikninga og bóka á stöðu lánardrottna til að bakfæra uppsöfnun.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>The vendor invoice journal lets you quickly enter invoices that don't reference a purchase order, in a single step.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Reikningabók lánardrottins leyfir þér að færa inn reikninga fljótt sem ekki vísa til innkaupapöntun, í einu skrefi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Together with the vendor invoice pool, the vendor invoice register lets you quickly enter invoices to accrue the expense.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ásamt Reikningasafn lánardrottna, leyfir komubók lánardrottins að slá hratt inn reikninga til að safna upp kostnaðar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>You can open the associated purchase orders later to post the invoice against the expense account.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að opna tengd innkaupapantanir seinna til að bóka reikning gagnvart á kostnaðarlykil.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>The <bpt id="p1">**</bpt>Open vendor invoices<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Pending vendor invoices<ept id="p2">**</ept> pages let you create vendor invoices from confirmed purchase orders.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opna lánardrottnareikninga<ept id="p1">**</ept> og <bpt id="p2">**</bpt>Biðreikninga lánardrottins<ept id="p2">**</ept> síður gera mögulegt að stofna reikninga lánardrottna frá staðfestar innkaupapantanir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>The following discussion provide more information about how to use the <bpt id="p1">**</bpt>Open vendor invoices<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Pending vendor invoices<ept id="p2">**</ept> page to create a vendor invoice from a purchase order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftirfarandi umræðu veita meiri upplýsingar um hvernig á að nota <bpt id="p1">**</bpt>Opna lánardrottnareikninga<ept id="p1">**</ept> eða <bpt id="p2">**</bpt>Biðreikninga lánardrottins<ept id="p2">**</ept> síðu til að búa til reikning lánardrottins úr innkaupapöntun.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Understanding invoice line quantities</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skilja magn reikningslínu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>When you open a vendor invoice from a related purchase order, invoice lines are created from the purchase order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar reikningur lánardrottins er opnuð úr tengdri innkaupapöntun eru reikningslínur stofnaðar úr innkaupapöntuninni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>By default, the quantities are taken from the product receipt quantity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sjálfgefið er að magn er tekið frá magn á innhreyfingarskjali afurða.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>However, you can use any of the following default behaviors:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hins vegar er hægt að nota eitthvað af eftirfarandi sjálfgefinni hegðun:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source><bpt id="p1">**</bpt>Receive now quantity<ept id="p1">**</ept> – Use this option for partial shipments.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Magn sem móttaka á nú<ept id="p1">**</ept> – Nota þennan valkost fyrir hlutasendingar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>The default value in the <bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept> field is taken from the quantity that is specified in the <bpt id="p2">**</bpt>Receive now<ept id="p2">**</ept> field on the purchase order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sjálfgefna gildið í <bpt id="p1">**</bpt>Magn<ept id="p1">**</ept> reitnum er tekið úr magninu sem er gefið upp í reitnum <bpt id="p2">**</bpt>Móttekið nú<ept id="p2">**</ept> í innkaupapöntuninni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source><bpt id="p1">**</bpt>Ordered quantity<ept id="p1">**</ept> – Use this option for complete shipments.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Pantað magn<ept id="p1">**</ept> – hægt er að Nota þennan valkost fyrir fullbúnar sendingar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>The default value in the <bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept> field is taken from the quantity that is specified in the <bpt id="p2">**</bpt>Ordered<ept id="p2">**</ept> field on the purchase order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sjálfgefna gildið í <bpt id="p1">**</bpt>Magn<ept id="p1">**</ept> reitnum er tekið úr magninu sem er gefið upp í reitnum <bpt id="p2">**</bpt>Pantað<ept id="p2">**</ept> í innkaupapöntuninni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source><bpt id="p1">**</bpt>Registered quantity<ept id="p1">**</ept> – Use this option if the item requires registration, as specified on the <bpt id="p2">**</bpt>Item model groups<ept id="p2">**</ept> page.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Skráð magn<ept id="p1">**</ept> – notið þennan valkost ef varan þarfnast skráningar sem tilgreind er í <bpt id="p2">**</bpt>vörulíkanaflokkur<ept id="p2">**</ept> síðu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>The default value in the <bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept> field is the physical update quantity that has been registered.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sjálfgefna gildið í svæðinu <bpt id="p1">**</bpt>magn<ept id="p1">**</ept> er efnislega uppfærslumagnið sem hefur verið skráð.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source><bpt id="p1">**</bpt>Product receipt quantity<ept id="p1">**</ept> – Use this option if a product receipt has already been received for the order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Magn á innhreyfingarskjali afurða<ept id="p1">**</ept> – Notið þennan valkost ef innhreyfingarskjal afurða hefur þegar verið móttekinn fyrir pöntuninni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>The default value in the <bpt id="p1">**</bpt>Quantity<ept id="p1">**</ept> field is taken from the total quantity of available product receipts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sjálfgefna gildið í svæðinu <bpt id="p1">**</bpt>magn<ept id="p1">**</ept> er frá heildarmagni tiltækra innhreyfingarskjala afurða.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source><bpt id="p1">**</bpt>Registered quantity and services<ept id="p1">**</ept> – Use this option if quantities have been registered in arrival journals for stocked items or items that aren't stocked.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Skráð magn og þjónustur<ept id="p1">**</ept> – Notið þennan valkost ef magn hefur verið skráð í komubókum fyrir vörur í birgðum eða vörur sem ekki eru í birgðum.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>This option also includes services, regardless of whether they are registered.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi valkostur inniheldur einnig þjónustu, án tillits til þess hvort hún sé skráð.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>If your legal entity uses invoice matching, you can view the results of the quantity matching in the <bpt id="p1">**</bpt>Product receipt quantity match<ept id="p1">**</ept> column.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Ef lögaðili þinn notar reikningsjöfnun, geturðu skoða niðurstöður úr jöfnun magns í <bpt id="p1">**</bpt>jöfnun magns fyrir Innhreyfingarskjal afurða<ept id="p1">**</ept> dálkur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>You can also use the <bpt id="p1">**</bpt>Matching details<ept id="p1">**</ept> button on the <bpt id="p2">**</bpt>Review<ept id="p2">**</ept> tab of the Action Pane to view the results of the quantity matching.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Einnig er hægt að nota hnappinn <bpt id="p1">**</bpt>Jöfnunarupplýsingar<ept id="p1">**</ept> í <bpt id="p2">**</bpt>Yfirfara<ept id="p2">**</ept> flipanum í aðgerðarúðunni til að skoða niðurstöður jöfnunar magns.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Adding a line that wasn't on the purchase order</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Bæta við línu sem ekki var á innkaupapöntun</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>You can add a line that wasn't on the purchase order to the vendor invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að bæta við línu sem ekki var á innkaupapöntun við reikning lánardrottins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>You must select an item number or procurement category.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Velja verður við vörunúmer eða innkaupategund.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>You can then add quantities, prices, and amounts to the line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þá er Hægt að bæta magn, verð og upphæðir á línu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>The line will be included only in matching policies for invoice totals.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Línan verða teknar með aðeins í jöfnunarreglur fyrir heildarupphæð reiknings.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Submitting a vendor invoice for review</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sendir reikning lánardrottins til yfirferðar</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Your organization might use workflows to manage the review process for vendor invoices.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fyrirtækið gæti notað verkflæði til að stjórna endurskoðunarferli fyrir lánardrottnareikninga.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Workflow review can be required for the invoice header, the invoice line, or both.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að nota verkflæði yfirferðar fyrir reikningshausa, reikningslínu, eða bæði.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>The workflow controls apply to the header or the line, depending on where the focus is when you select the control.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verkflæðisstýringin á við haus eða línu, eftir því hvað áherslan liggur áður en stýringin er valin.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Instead of the <bpt id="p1">**</bpt>Post<ept id="p1">**</ept> button, you will see a <bpt id="p2">**</bpt>Submit<ept id="p2">**</ept> button that you can use to send the vendor invoice through the review process.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Í stað <bpt id="p1">**</bpt>Bóka<ept id="p1">**</ept> hnappinn sjást í <bpt id="p2">**</bpt>Senda<ept id="p2">**</ept> hnappur sem hægt er að nota til að senda reikning lánardrottins í gegnum yfirferðarferlið.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>Matching vendor invoices to product receipts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jafna lánardrottnareikninga við innhreyfingarskjöl afurða</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>You can enter and save information for vendor invoices, and you can match invoice lines to product receipt lines.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að færa inn og vista upplýsingar fyrir reikninga lánardrottins og hægt er að jafna reikningslínur við línur í innhreyfingarskjali afurðar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>You can also match partial quantities for a line.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Einnig er hægt að jafna hlutamagn fyrir línu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>You can create a vendor invoice that is based on the product receipt line items that have been received through the current date, even if all the items for a particular purchase order haven't yet been received.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að stofna reikning lánardrottins á grundvelli línuvara innhreyfingarskjals afurða sem hafa verið mótteknar fram að þessu, jafnvel þó allar vörurnar fyrir tiltekna innkaupapöntun hafa ekki verið mótteknar enn.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>For example, you might use this option if a vendor sends one invoice per month to cover all the deliveries that it shipped during that month.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til dæmis er hægt að nota þennan valkost ef lánardrottinn sendir einn reikning á mánuði sem nær yfir allar afhendingar sem eru sendar þennan mánuð.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Each product receipt represents a partial or complete delivery of the items on the purchase order.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Hvert innhreyfingarskjal afurða birtir hluta eða alla afhendingu varanna á innkaupapöntuninni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>When you post the invoice, the <bpt id="p1">**</bpt>Invoice remainder<ept id="p1">**</ept> quantity for each item is updated with the total of the received quantities from the selected product receipts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar reikningur er bókaður er magn <bpt id="p1">**</bpt>reikningsafgangs<ept id="p1">**</ept> fyrir hverja vöru uppfært með samtölu móttekins magns úr völdum innhreyfingarskjal afurða.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>If both the <bpt id="p1">**</bpt>Invoice remainder<ept id="p1">**</ept> quantity and the <bpt id="p2">**</bpt>Deliver remainder<ept id="p2">**</ept> quantity for all items on the purchase order are 0 (zero), the status of the purchase order is changed to <bpt id="p3">**</bpt>Invoiced<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef bæði <bpt id="p1">**</bpt>Reikningsafgangur<ept id="p1">**</ept> magnið og <bpt id="p2">**</bpt>Eftirstöðvar afhendingar<ept id="p2">**</ept> fyrir allar og vörur á innkaupapöntun jafngildir núlli (0), breytist staða innkaupapöntunar í <bpt id="p3">**</bpt>Reikningsfært<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>If the <bpt id="p1">**</bpt>Invoice remainder<ept id="p1">**</ept> quantity isn't 0, the status of the purchase order remains unchanged, and additional invoices can be entered for it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef magn <bpt id="p1">**</bpt>Reikningsafgangs<ept id="p1">**</ept> er ekki 0, er staða sölupöntunar óbreytt og hægt er að færa inn viðbótarreikninga fyrir hann.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>This option assumes that at least one product receipt has been posted for the purchase order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þetta ferli gerir ráð fyrir að minnsta kosti eitt innhreyfingarskjal afurða hafi verið bókað fyrir innkaupapöntunina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>The vendor invoice is based on these product receipts and reflects the quantities from them.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Reikningur lánardrottisins er byggður á viðkomandi innhreyfingarskjali afurða og endurspeglar magnið á þeim.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>The financial information for the invoice is based on the information that is entered when you post the invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fjárhagslegar upplýsingar sem koma fram á reikningnum eru byggðar á upplýsingunum sem færðar eru inn þegar reikningurinn er bókaður.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>For more information, see <bpt id="p1">[</bpt>Record vendor invoice and match against received quantity<ept id="p1">](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Frekari upplýsingar, sjá <bpt id="p1">[</bpt>Skrá reikning lánardrottins og bera saman við móttekið magn<ept id="p1">](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>Working with multiple invoices</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vinna með marga reikninga</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>You can work with multiple invoices at the same time and post them all at the same time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að vinna með marga reikninga á sama tíma og bókaðar þá svo samtímis.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>If you must create multiple invoices, use the <bpt id="p1">**</bpt>Pending vendor invoices<ept id="p1">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef stofna þarf marga reikninga eru notuð <bpt id="p1">**</bpt>Biðreikninga lánardrottins<ept id="p1">**</ept> síðu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>If you must post and print multiple vendor invoices, use the invoice approval journal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef þarf að bóka og prenta marga reikninga lánardrottna skal nota færslubókarsamþykkt reiknings.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>If you're using the invoice approval journal, at least one product receipt must be posted for the purchase order, and an invoice for the purchase order must be posted in an invoice register.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Ef þú ert að nota samþykktarbók reikninga, þarf að minnsta kosti eitt innhreyfingarskjal afurða hafi verið bókað fyrir innkaupapöntunina og að reikningur fyrir innkaupapöntunina þarf að hafa verið bókaður í komubók.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>The financial information for the invoice comes from the invoice that was posted in the register.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Fjárhagsupplýsingarnar fyrir reikninginn koma úr reikningnum sem var bókaður í komubókina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>Recovering vendor invoices that are being used</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Endurheimta reikninga lánardrottna sem eru notaðir</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>While a vendor invoice is being used, it can't be edited by another user.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Þó að reikningur lánardrottins sé notaður getur annar notandi ekki breytt honum.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>However, the state of an invoice might sometimes indicate that the invoice is being used, even though it isn't being actively edited.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hins vegar getur staða á reikningi stundum gefið til kynna að verið sé að nota reikninga, jafnvel þótt ekki sé verið að breyta honum.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>For example, the application might have stopped responding while the invoice was being edited, or a user might have inadvertently left the invoice open in the application.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Til dæmis gæti forritið hafa hætt að svara á meðan reikningnum var breytt eða notandi kann að hafa óvart skilið reikninginn eftir opinn í forritinu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>You can use the <bpt id="p1">**</bpt>Recover vendor invoices<ept id="p1">**</ept> page to recover or release vendor invoices that have been in use for more than four hours, so that they can be edited.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að nota síðuna <bpt id="p1">**</bpt>Endurheimta reikninga lánardrottna<ept id="p1">**</ept> til að endurheimta eða losa reikninga lánardrottins sem hafa veirð í notkun í meira en fjórar klukkustundir, svo hægt sé að breyta þeim.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>You can open this page from the <bpt id="p1">**</bpt>Periodic task<ept id="p1">**</ept> navigation or a tile on the <bpt id="p2">**</bpt>Vendor invoice entry<ept id="p2">**</ept> workspace.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að opna þessa síðu af síðunni <bpt id="p1">**</bpt>Reglubundið verk<ept id="p1">**</ept> eða reit á vinnusvæðinu <bpt id="p2">**</bpt>Reikningsfærsla lánardrottins<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>After an invoice is recovered, it will be available for editing on the <bpt id="p1">**</bpt>Vendor invoice<ept id="p1">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftir að reikningur er endurheimtur verður hægt að breyta honum á síðunni <bpt id="p1">**</bpt>Reikningur lánardrottins<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>You can access the <bpt id="p1">**</bpt>Recover vendor invoices<ept id="p1">**</ept> page only if the <bpt id="p2">**</bpt>Recover vendor invoices in use<ept id="p2">**</ept> security duty and privilege are assigned to you.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aðeins er hægt að fá aðgang að síðunni <bpt id="p1">**</bpt>Endurheimta reikninga lánardrottna<ept id="p1">**</ept> ef þér er úthlutað öryggisskyldunum og réttindunum <bpt id="p2">**</bpt>Endurheimta reikninga lánardrottna sem eru í notkun<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Additionally, the <bpt id="p1">**</bpt>Allow vendor invoice recovery<ept id="p1">**</ept> parameter on the <bpt id="p2">**</bpt>Accounts payable parameters<ept id="p2">**</ept> page must be turned on.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Auk þess þarf að kveikja á færibreytunni <bpt id="p1">**</bpt>Leyfa endurheimt á reikningum lánardrottna<ept id="p1">**</ept> á síðunni <bpt id="p2">**</bpt>Færibreytur viðskiptaskulda<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>Resetting the workflow status for vendor invoices from Unrecoverable to Draft</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Endurstilling á stöðu verkflæðis fyrir reikninga lánardrottins úr óendurkræf í drög</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>A workflow instance that has stopped because of an unrecoverable error will have a workflow status of <bpt id="p1">**</bpt>Unrecoverable<ept id="p1">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verkflæðistilvik sem hefur stöðvast út af óendurkræfri villu verður með stöðu verkflæðis sem <bpt id="p1">**</bpt>Óendurkræft<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>When the status of a vendor invoice workflow is <bpt id="p1">**</bpt>Unrecoverable<ept id="p1">**</ept>, you can reset it to <bpt id="p2">**</bpt>Draft<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar staðan á verkflæði fyrir reikning lánardrottins er <bpt id="p1">**</bpt>Óendurkræf<ept id="p1">**</ept> er hægt að endurstilla hana á <bpt id="p2">**</bpt>Drög<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>You can then edit the vendor invoice.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Síðan er hægt að breyta reikningi lánardrottins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>This feature is available if the <bpt id="p1">**</bpt>Reset draft status for the vendor invoice workflow<ept id="p1">**</ept> parameter on the <bpt id="p2">**</bpt>Feature management<ept id="p2">**</ept> page is turned on.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi eiginleiki er í boði ef kveikt er á færibreytunni <bpt id="p1">**</bpt>Endurstilla stöðuna drög fyrir verkflæði reiknings lánardrottins<ept id="p1">**</ept> á síðunni <bpt id="p2">**</bpt>Eiginleikastjórnun<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>You can use the <bpt id="p1">**</bpt>Reset vendor invoices workflow status<ept id="p1">**</ept> page to reset the workflow status to <bpt id="p2">**</bpt>Draft<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að nota síðuna <bpt id="p1">**</bpt>Endurstilla verkflæðisstöðu fyrir reikninga lánardrottins<ept id="p1">**</ept> til að endurstilla verkflæðisstöðuna sem <bpt id="p2">**</bpt>Drög<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>You can open this page from the <bpt id="p1">**</bpt>Periodic task<ept id="p1">**</ept> navigation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að opna þessa síðu frá slóðinni <bpt id="p1">**</bpt>Reglubundið verkefni<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>The page shows all vendor invoices that have a workflow status of <bpt id="p1">**</bpt>Unrecoverable<ept id="p1">**</ept> in the current legal entity.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Síðan sýnir alla reikninga lánardrottins sem eru með verkflæðisstöðuna <bpt id="p1">**</bpt>Óendurkræf<ept id="p1">**</ept> í núverandi lögaðila.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>It also shows the user who submitted each invoice to the workflow and the invoice identifier, and provides a link to the workflow history.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hún sýnir einnig notandann sem sendi inn hvern reikning fyrir sig til verkflæðis og kennimerki reiknings, og veitir tengil á verkflæðissöguna.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>To reset the workflow status to <bpt id="p1">**</bpt>Draft<ept id="p1">**</ept>, mark one or more invoices, and then select <bpt id="p2">**</bpt>Update to Draft<ept id="p2">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að endurstilla verkflæðisstöðuna í <bpt id="p1">**</bpt>Drög<ept id="p1">**</ept> skal merkja einn eða fleiri reikninga og velja síðan <bpt id="p2">**</bpt>Uppfæra í drög<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>After the workflow status is reset to <bpt id="p1">**</bpt>Draft<ept id="p1">**</ept>, it becomes available for editing on the <bpt id="p2">**</bpt>Vendor invoice<ept id="p2">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftir að verkflæðisstaðan hefur verið endurstillt í <bpt id="p1">**</bpt>Drög<ept id="p1">**</ept> verður hún opin fyrir breytingar á síðunni <bpt id="p2">**</bpt>Reikningur lánardrottnins<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>You can access the <bpt id="p1">**</bpt>Reset vendor invoices workflow status<ept id="p1">**</ept> page only if the <bpt id="p2">**</bpt>Maintain the status for vendor invoice workflow<ept id="p2">**</ept> security duty and <bpt id="p3">**</bpt>Reset the status for vendor invoice workflow<ept id="p3">**</ept> privilege are assigned to you.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að fá aðgang að síðunni <bpt id="p1">**</bpt>Endurstilla verkflæðisstöðu fyrir reikninga lánardrottins<ept id="p1">**</ept> aðeins ef þér hefur verið úthlutað öryggisskyldunni <bpt id="p2">**</bpt>Hafa umsjón með stöðunni fyrir verkflæði á reikningi lánardrottins<ept id="p2">**</ept> og réttindunum <bpt id="p3">**</bpt>Endurstilla stöðuna fyrir verkflæði á reikningi lánardrottins<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Additional resources</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Frekari upplýsingar</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source><bpt id="p1">[</bpt>Set up vendor invoice policies<ept id="p1">](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Setja upp reglur lánardrottnareikninga<ept id="p1">](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source><bpt id="p1">[</bpt>Key invoice data into accounts payable using a vendor invoice<ept id="p1">](tasks/key-invoice-data-ap-system-vendor-invoice.md)</ept></source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Færa reikningsgögn inn í viðskiptaskuldir með reikningi lánardrottins<ept id="p1">](tasks/key-invoice-data-ap-system-vendor-invoice.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source><bpt id="p1">[</bpt>Key invoice data into accounts payable using an approval journal<ept id="p1">](tasks/key-invoice-data-into-ap-system-approval-journal.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Færa reikningsgögn inn í viðskiptaskuldir með færslubókarsamþykkt<ept id="p1">](tasks/key-invoice-data-into-ap-system-approval-journal.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source><bpt id="p1">[</bpt>Key invoice data into the AP system using invoice pool<ept id="p1">](tasks/key-invoice-data-into-ap-system-invoice-pool.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Færa reikningsgögn inn í viðskiptaskuldakerfi með reikningasafni<ept id="p1">](tasks/key-invoice-data-into-ap-system-invoice-pool.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source><bpt id="p1">[</bpt>Record a vendor invoice in the invoice journal<ept id="p1">](tasks/record-vendor-invoice-invoice-journal.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Skrá reikning lánardrottins í reikningabók<ept id="p1">](tasks/record-vendor-invoice-invoice-journal.md)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

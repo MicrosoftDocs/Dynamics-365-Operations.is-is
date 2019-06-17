@@ -1,202 +1,576 @@
----
-title: Rafræn skýrslugerð Uppfærðu snið með því að taka upp nýja grunnútgáfu sniðs
-description: Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur viðhaldið skilgreiningarsnið fyrir rafræna skýrslugerð (ER).
-author: NickSelin
-manager: AnnBe
-ms.date: 08/29/2018
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
-audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-ms.search.region: Global
-ms.author: nselin
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544450"
----
-# <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a><span data-ttu-id="cefd4-103">Rafræn skýrslugerð Uppfærðu snið með því að taka upp nýja grunnútgáfu sniðs</span><span class="sxs-lookup"><span data-stu-id="cefd4-103">ER Upgrade your format by adopting a new, base version of that format</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="cefd4-104">Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur viðhaldið skilgreiningarsnið fyrir rafræna skýrslugerð (ER).</span><span class="sxs-lookup"><span data-stu-id="cefd4-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can maintain an Electronic reporting (ER) format configuration.</span></span> <span data-ttu-id="cefd4-105">Þetta ferli útskýrir hvernig sérsniðin útgáfu sniðs er hægt að mynda á grundvelli snið móttekið frá veitandi skilgreiningar (CP).</span><span class="sxs-lookup"><span data-stu-id="cefd4-105">This procedure explains how a custom version of a format can be created based on the format received from a configuration provider (CP).</span></span> <span data-ttu-id="cefd4-106">Það útskýrir einnig hvernig eigi að taka upp nýja grunnútgáfu af því sniði.</span><span class="sxs-lookup"><span data-stu-id="cefd4-106">It also explains how to adopt a new, base version of that format.</span></span>
-
-
-
-<span data-ttu-id="cefd4-107">Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlunum "Stofna skilgreiningarveitu og merkja hana sem virka" og "Nota stofnuð snið til að mynda rafræn skjöl fyrir greiðslur".</span><span class="sxs-lookup"><span data-stu-id="cefd4-107">To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” and “Use created format to generate electronic documents for payments” procedures.</span></span> <span data-ttu-id="cefd4-108">Hægt er að framkvæma þessum skrefum í GBSI fyrirtækinu.</span><span class="sxs-lookup"><span data-stu-id="cefd4-108">These steps can be performed in the GBSI company.</span></span>
-
-
-## <a name="select-format-configuration-for-customization"></a><span data-ttu-id="cefd4-109">Veljið skilgreiningu sniðs fyrir sérsnið</span><span class="sxs-lookup"><span data-stu-id="cefd4-109">Select format configuration for customization</span></span>
-1. <span data-ttu-id="cefd4-110">Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="cefd4-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-    * <span data-ttu-id="cefd4-111">Í þessu dæmi mun sýnifyrirtækið Litware, Inc. (http://www.litware.com) vinna sem skilgreiningarveita sem styður skilgreiningarsnið fyrir rafrænar greiðslur fyrir tiltekið land.</span><span class="sxs-lookup"><span data-stu-id="cefd4-111">In this example, sample company Litware, Inc. (http://www.litware.com) will act as a configuration provider that supports format configurations for electronic payments for a particular country.</span></span>    <span data-ttu-id="cefd4-112">Sýnifyrirtæki Proseware, Inc. (http://www.proseware.com) mun vinna sem neytandi skilgreiningarsniðs sem Litware, Inc. útvegaði.</span><span class="sxs-lookup"><span data-stu-id="cefd4-112">Sample company Proseware, Inc. (http://www.proseware.com) will act as a consumer of the format configuration that Litware, Inc. provided.</span></span> <span data-ttu-id="cefd4-113">Proseware, Inc. motar snið í sumum svæðum þess lands.</span><span class="sxs-lookup"><span data-stu-id="cefd4-113">Proseware, Inc. uses formats in certain regions of that country.</span></span>  
-2. <span data-ttu-id="cefd4-114">Smelltu á Grunnstillingar skýrslugerðar</span><span class="sxs-lookup"><span data-stu-id="cefd4-114">Click Reporting configurations.</span></span>
-3. <span data-ttu-id="cefd4-115">Smellt er á Sýna síur.</span><span class="sxs-lookup"><span data-stu-id="cefd4-115">Click Show filters.</span></span>
-4. <span data-ttu-id="cefd4-116">Notið eftirfarandi síur: færðu inn síugildi "UK sérsniðið upphugsað" á svæði „Heiti" með því að nota síuvirknitáknið "byrjar á"</span><span class="sxs-lookup"><span data-stu-id="cefd4-116">Apply the following filters: Enter a filter value of "BACS (UK fictitious)" on the "Name" field using the "begins with" filter operator</span></span>
-    * <span data-ttu-id="cefd4-117">BACS (UK Upphugsað)</span><span class="sxs-lookup"><span data-stu-id="cefd4-117">BACS (UK fictitious)</span></span>  
-    * <span data-ttu-id="cefd4-118">Valið skilgreiningarsnið (UK sérsniðið upphugsað) BACS, er í eigu Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="cefd4-118">The selected format configuration BACS (UK fictitious) is owned by provider Litware, Inc.</span></span>  
-5. <span data-ttu-id="cefd4-119">Smellt er á Sýna síur.</span><span class="sxs-lookup"><span data-stu-id="cefd4-119">Click Show filters.</span></span>
-6. <span data-ttu-id="cefd4-120">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="cefd4-120">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="cefd4-121">Útgáfa sniðs með stöðuna Lokið mun verða notað af Proseware, Inc. fyrir sérstillingu.</span><span class="sxs-lookup"><span data-stu-id="cefd4-121">The version of the format with the status of Completed will be used by Proseware, Inc. for customization.</span></span>  
-
-## <a name="create-a-new-configuration-for-your-custom-format-of-electronic-document"></a><span data-ttu-id="cefd4-122">Stofna nýja skilgreiningu fyrir sérsniðið snið rafrænna skjala</span><span class="sxs-lookup"><span data-stu-id="cefd4-122">Create a new configuration for your custom format of electronic document</span></span>
-    * <span data-ttu-id="cefd4-123">Proseware, Inc. hefur móttekið útgáfa 1.1 fyrir skilgreiningar BACS (UK upphugsað) sem inniheldur upphaflegt snið til að mynda rafræn greiðsluskjöl úr Litware, Inc. í samræmi við þjónustuáskrift þeirra.</span><span class="sxs-lookup"><span data-stu-id="cefd4-123">Proseware, Inc. received version 1.1 of BACS (UK fictitious) configuration that contains the initial format to generate electronic payment documents from Litware, Inc. in accordance to their service subscription.</span></span> <span data-ttu-id="cefd4-124">Proseware, Inc. vill byrja að nota þetta sem staðal fyrir þeirra land en nokkur sérstillingar er krafist til að styðja sérstakar svæðisbundið kröfur.</span><span class="sxs-lookup"><span data-stu-id="cefd4-124">Proseware, Inc. wants to start using this as a standard for their country but some customization is required to support specific regional requirements.</span></span> <span data-ttu-id="cefd4-125">Proseware, Inc. villl einnig halda getunni til að uppfæra sérsniðnir snið um leið og ný útgáfu þess (með breytingum til að styðja við landsbundnar þarfir) kemur út hjá Litware, Inc. og það vill framkvæma þessa uppfærslu með sem minnstum tilkostnaði.</span><span class="sxs-lookup"><span data-stu-id="cefd4-125">Proseware, Inc. also wants to keep the ability to upgrade a custom format as soon as a new version of it (with changes to support new country-specific requirements) comes from Litware, Inc. and they want to perform this upgrade with the lowest cost.</span></span>  <span data-ttu-id="cefd4-126">Til að gera þetta þarf Proseware, Inc. að stofna skilgreiningu með því að nota Litware, Inc. skilgreininguna BACS (UK upphugsað) sem grunn.</span><span class="sxs-lookup"><span data-stu-id="cefd4-126">To do this, Proseware, Inc. needs to create a configuration using the Litware, Inc. configuration BACS (UK fictitious) as a base.</span></span>  
-1. <span data-ttu-id="cefd4-127">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="cefd4-127">Close the page.</span></span>
-2. <span data-ttu-id="cefd4-128">Veljið Proseware, Inc. til að gera hana að virkri veitu.</span><span class="sxs-lookup"><span data-stu-id="cefd4-128">Select Proseware, Inc. to make it an active provider.</span></span>
-3. <span data-ttu-id="cefd4-129">Smellt á Stilla sem virkt.</span><span class="sxs-lookup"><span data-stu-id="cefd4-129">Click Set active.</span></span>
-4. <span data-ttu-id="cefd4-130">Smelltu á Grunnstillingar skýrslugerðar</span><span class="sxs-lookup"><span data-stu-id="cefd4-130">Click Reporting configurations.</span></span>
-5. <span data-ttu-id="cefd4-131">Stækkið „Greiðslur (EINFÖLDUN líkan)“ í trénu.</span><span class="sxs-lookup"><span data-stu-id="cefd4-131">In the tree, expand 'Payments (simplified model)'.</span></span>
-6. <span data-ttu-id="cefd4-132">Í trénu, veljið 'Payments (einfaldað líkan)\BACS (UK upphugsað)'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-132">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
-    * <span data-ttu-id="cefd4-133">Velja skilgreiningu BACS (Bretland upphugsað) úr Litware, Inc.     Proseware, Inc. mun nota útgáfu 1.1 sem grunn fyrir sérsniðnu útgáfuna.</span><span class="sxs-lookup"><span data-stu-id="cefd4-133">Select the BACS (UK fictitious) configuration from Litware, Inc.     Proseware, Inc. will use version 1.1 as a base for the custom version.</span></span>  
-7. <span data-ttu-id="cefd4-134">Smellt er á stofna skilgreiningu til að opna fellilistanum.</span><span class="sxs-lookup"><span data-stu-id="cefd4-134">Click Create configuration to open the drop dialog.</span></span>
-    * <span data-ttu-id="cefd4-135">Þetta gerir mögulegt að stofna nýja skilgreiningu fyrir sérsniðna greiðslusnið.</span><span class="sxs-lookup"><span data-stu-id="cefd4-135">This lets you create a new configuration for a custom payment format.</span></span>  
-8. <span data-ttu-id="cefd4-136">Í svæðinu Nýtt, veljið 'Leiða af nafni: BACS (UK upphugsað), Litware, Inc'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-136">In the New field, enter 'Derive from Name: BACS (UK fictitious), Litware, Inc.'.</span></span>
-    * <span data-ttu-id="cefd4-137">Veljið valkost afleiddur til að staðfesta notkun BACS (UK upphugsað) sem grunn til að stofna sérsniðna útgáfu.</span><span class="sxs-lookup"><span data-stu-id="cefd4-137">Select the Derive option to confirm the usage of BACS (UK fictitious) as the base for creating the custom version.</span></span>  
-9. <span data-ttu-id="cefd4-138">Í reitinn Heiti skal slá inn 'BACS (UK upphugsað sérsniðið)'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-138">In the Name field, type 'BACS (UK fictitious custom)'.</span></span>
-    * <span data-ttu-id="cefd4-139">BACS (Bretland sérsniðið og upphugsað)</span><span class="sxs-lookup"><span data-stu-id="cefd4-139">BACS (UK fictitious custom)</span></span>  
-10. <span data-ttu-id="cefd4-140">Færið inn 'BACS greiðsla lánardrottins (UK sérsniðið upphugsað)' í svæðinu Lýsingu.</span><span class="sxs-lookup"><span data-stu-id="cefd4-140">In the Description field, type 'BACS vendor payment (UK fictitious custom)'.</span></span>
-    * <span data-ttu-id="cefd4-141">BACS greiðsla lánardrottins (UK sérsniðið upphugsað)</span><span class="sxs-lookup"><span data-stu-id="cefd4-141">BACS vendor payment (UK fictitious custom)</span></span>  
-    * <span data-ttu-id="cefd4-142">Virkt skilgreiningarveitu (Proseware, Inc) er sjálfkrafa færð inn hér.</span><span class="sxs-lookup"><span data-stu-id="cefd4-142">The active configuration provider (Proseware, Inc.) is automatically entered here.</span></span> <span data-ttu-id="cefd4-143">Þessa veitu mun geta unnið með þessa skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="cefd4-143">This provider will be able to maintain this configuration.</span></span> <span data-ttu-id="cefd4-144">Önnur veitur er hægt að nota þetta skilgreining, en geta ekki unnið með hana.</span><span class="sxs-lookup"><span data-stu-id="cefd4-144">Other providers can use this configuration, but will not be able to maintain it.</span></span>  
-11. <span data-ttu-id="cefd4-145">Smelltu á Stofna skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="cefd4-145">Click Create configuration.</span></span>
-
-## <a name="customize-your-format-for-the-electronic-document"></a><span data-ttu-id="cefd4-146">Sérsníða snið fyrir rafrænt skjal</span><span class="sxs-lookup"><span data-stu-id="cefd4-146">Customize your format for the electronic document</span></span>
-1. <span data-ttu-id="cefd4-147">Smellið á Hönnuður.</span><span class="sxs-lookup"><span data-stu-id="cefd4-147">Click Designer.</span></span>
-2. <span data-ttu-id="cefd4-148">Smellt er á Víkka/draga saman.</span><span class="sxs-lookup"><span data-stu-id="cefd4-148">Click Expand/collapse.</span></span>
-3. <span data-ttu-id="cefd4-149">Smellt er á Víkka/draga saman.</span><span class="sxs-lookup"><span data-stu-id="cefd4-149">Click Expand/collapse.</span></span>
-4. <span data-ttu-id="cefd4-150">Í trénu skal velja 'Xml\Message\Payments\Item\Vendor\Bank'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-150">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</span></span>
-5. <span data-ttu-id="cefd4-151">Smelltu á Bæta við til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="cefd4-151">Click Add to open the drop dialog.</span></span>
-6. <span data-ttu-id="cefd4-152">Í trénu skal velja „XML/Element“.</span><span class="sxs-lookup"><span data-stu-id="cefd4-152">In the tree, select 'XML\Element'.</span></span>
-7. <span data-ttu-id="cefd4-153">Í svæðið Heiti, færðu inn ‚IBAN-númer'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-153">In the Name field, type 'IBAN'.</span></span>
-    * <span data-ttu-id="cefd4-154">IBAN-númer</span><span class="sxs-lookup"><span data-stu-id="cefd4-154">IBAN</span></span>  
-8. <span data-ttu-id="cefd4-155">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="cefd4-155">Click OK.</span></span>
-9. <span data-ttu-id="cefd4-156">Í tré skal velja 'Xml\Message\Payments\Item\Vendor\Bank\IBAN'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-156">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\IBAN'.</span></span>
-10. <span data-ttu-id="cefd4-157">Smelltu á Bæta við til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="cefd4-157">Click Add to open the drop dialog.</span></span>
-11. <span data-ttu-id="cefd4-158">Í trénu skal velja ‚Texti/Strengur'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-158">In the tree, select 'Text\String'.</span></span>
-12. <span data-ttu-id="cefd4-159">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="cefd4-159">Click OK.</span></span>
-13. <span data-ttu-id="cefd4-160">Í tré skal velja 'Xml\Message\Payments\Item\Vendor\Name\String'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-160">In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</span></span>
-14. <span data-ttu-id="cefd4-161">Í reitinn hámarkslengd skal slá inn 60.</span><span class="sxs-lookup"><span data-stu-id="cefd4-161">In the Maximum length field, enter '60'.</span></span>
-15. <span data-ttu-id="cefd4-162">Smelltu á flipann Vörpun.</span><span class="sxs-lookup"><span data-stu-id="cefd4-162">Click the Mapping tab.</span></span>
-16. <span data-ttu-id="cefd4-163">Í trénu skal víkka út 'model'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-163">In the tree, expand 'model'.</span></span>
-17. <span data-ttu-id="cefd4-164">Í trénu skal víkka út 'model\Payments'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-164">In the tree, expand 'model\Payments'.</span></span>
-18. <span data-ttu-id="cefd4-165">Útvíkka 'model\Payments\Creditor', í trénu.</span><span class="sxs-lookup"><span data-stu-id="cefd4-165">In the tree, expand 'model\Payments\Creditor'.</span></span>
-19. <span data-ttu-id="cefd4-166">Útvíkka 'model\Payments\Creditor\Account', í trénu.</span><span class="sxs-lookup"><span data-stu-id="cefd4-166">In the tree, expand 'model\Payments\Creditor\Account'.</span></span>
-20. <span data-ttu-id="cefd4-167">Í tré skal velja 'model\Payments\Creditor\Account\IBAN'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-167">In the tree, select 'model\Payments\Creditor\Account\IBAN'.</span></span>
-21. <span data-ttu-id="cefd4-168">Í tré skal velja 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\IBAN\String'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-168">In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\IBAN\String'.</span></span>
-22. <span data-ttu-id="cefd4-169">Smelltu á Binda.</span><span class="sxs-lookup"><span data-stu-id="cefd4-169">Click Bind.</span></span>
-23. <span data-ttu-id="cefd4-170">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="cefd4-170">Click Save.</span></span>
-
-## <a name="validate-the-customized-format"></a><span data-ttu-id="cefd4-171">Villuleita sérsniðna snið</span><span class="sxs-lookup"><span data-stu-id="cefd4-171">Validate the customized format</span></span>
-1. <span data-ttu-id="cefd4-172">Smella á Villuleita.</span><span class="sxs-lookup"><span data-stu-id="cefd4-172">Click Validate.</span></span>
-    * <span data-ttu-id="cefd4-173">Villuleita sérsniðna útlit sniðs og breytingar gagnakortalagning til að tryggja að allar bindingar eru í lagi.</span><span class="sxs-lookup"><span data-stu-id="cefd4-173">Validate the customized format layout and data mapping changes to make sure that all bindings are okay.</span></span>  
-2. <span data-ttu-id="cefd4-174">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="cefd4-174">Close the page.</span></span>
-
-## <a name="change-the-status-of-the-current-version-of-the-custom-format-configuration"></a><span data-ttu-id="cefd4-175">Breyta stöðu núgildandi útgáfa grunnstillingar sérstillts sniðs</span><span class="sxs-lookup"><span data-stu-id="cefd4-175">Change the status of the current version of the custom format configuration</span></span>
-    * <span data-ttu-id="cefd4-176">Breyta stöðu hannaðs skilgreiningarsniðs - úr DRÖG í LOKIÐ til að gera hann tiltækan fyrir myndun greiðsluskjals.</span><span class="sxs-lookup"><span data-stu-id="cefd4-176">Change the status of the designed format configuration from Draft to Completed to make it available for payment document generation.</span></span>  
-1. <span data-ttu-id="cefd4-177">Smellið á „Breyta stöðu“.</span><span class="sxs-lookup"><span data-stu-id="cefd4-177">Click Change status.</span></span>
-    * <span data-ttu-id="cefd4-178">Athugið að núverandi útgáfa valinnar skilgreiningar er í stöðunni DRÖG.</span><span class="sxs-lookup"><span data-stu-id="cefd4-178">Note that the current version of the selected configuration is in Draft status.</span></span>  
-2. <span data-ttu-id="cefd4-179">Smelltu á Ljúka.</span><span class="sxs-lookup"><span data-stu-id="cefd4-179">Click Complete.</span></span>
-3. <span data-ttu-id="cefd4-180">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="cefd4-180">In the Description field, type a value.</span></span>
-4. <span data-ttu-id="cefd4-181">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="cefd4-181">Click OK.</span></span>
-5. <span data-ttu-id="cefd4-182">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="cefd4-182">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="cefd4-183">Athugið að stofnuð skilgreining er vistuð sem lokin útgáfa 1.1.1.</span><span class="sxs-lookup"><span data-stu-id="cefd4-183">Note that the created configuration is saved as completed version 1.1.1.</span></span> <span data-ttu-id="cefd4-184">Þetta þýðir að það er útgáfa 1 sérsniðna BACS (UK sérsniðið upphugsað) snið, sem er byggð á sniði útgáfu 1 BACS (Bretland upphugsað), sem er byggð á 1 útgáfa gagnalíkans Greiðslna (einfaldaður líkan).</span><span class="sxs-lookup"><span data-stu-id="cefd4-184">This means it is version 1 of the custom BACS (UK fictitious custom) format, which is based on version 1 of the BACS (UK fictitious) format, which is based on version 1 of the Payments (simplified model) data model.</span></span>  
-
-## <a name="test-the-customized-format-to-generate-payment-files"></a><span data-ttu-id="cefd4-185">Prófa Sérsniðnar snið til að mynda greiðsluskrár</span><span class="sxs-lookup"><span data-stu-id="cefd4-185">Test the customized format to generate payment files</span></span>
-    * <span data-ttu-id="cefd4-186">Ljúkið skrefunum í ferlinu "Nota stofnuð snið til að mynda rafræn skjöl fyrir greiðslur" í samhliða lotu Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="cefd4-186">Complete the steps in the “Use created format to generate electronic documents for payments” procedure in a parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</span></span> <span data-ttu-id="cefd4-187">Velja BACS snið (Bretland sérsniðið upphugsað) í færibreytum rafrænnar greiðslumáta.</span><span class="sxs-lookup"><span data-stu-id="cefd4-187">Select the BACS (UK fictitious custom) format in electronic payment method parameters.</span></span> <span data-ttu-id="cefd4-188">Gangið úr skugga um að stofnaða greiðsluskráin inniheldur nýlega kynnta XML-hnútnum sem setur fram iban-kóða í samræmi við svæðisbundið þarfir.</span><span class="sxs-lookup"><span data-stu-id="cefd4-188">Make sure that the created payment file contains the recently introduced XML node presenting IBAN code in accordance to regional requirements.</span></span>  
-
-## <a name="update-the-existing-country-specific-configuration"></a><span data-ttu-id="cefd4-189">Uppfæra fyrirliggjandi landsbunda skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="cefd4-189">Update the existing country-specific configuration</span></span>
-    * <span data-ttu-id="cefd4-190">Litware, Inc. þarf að uppfæra skilgreiningu BACS (UK upphugsað) og aðlaga nýjar svæðisbundnar kröfur fyrir stjórnun á sniði rafræna skjalið.</span><span class="sxs-lookup"><span data-stu-id="cefd4-190">Litware, Inc. needs to update the BACS (UK fictitious) configuration and adopt new country requirements for managing the format of the electronic document.</span></span> <span data-ttu-id="cefd4-191">Síðar, þetta mun vera innan nýja útgáfu þessarar skilgreiningar sem verður í boði fyrir áskrifendur þjónustu, þar á meðal Proseware, Inc.</span><span class="sxs-lookup"><span data-stu-id="cefd4-191">Later, this will be enclosed in a new version of this configuration that will be offered for service subscribers, including Proseware, Inc.</span></span>  
-    * <span data-ttu-id="cefd4-192">Í raunverulegum vinnslum sem tengjast þjónustuveitum, er hægt að flytja inn hverja nýja útgáfa af BACS (UK upphugsað) úr geymslu Litware, Inc. með Proseware, Inc.</span><span class="sxs-lookup"><span data-stu-id="cefd4-192">In real service provision related processes, each new version of BACS (UK fictitious) can be imported by Proseware, Inc. from Litware, Inc. configurations’ LCS repository.</span></span> <span data-ttu-id="cefd4-193">Í þessu ferli verður líkt eftir þessu með því að uppfæra BACS (UK upphugsað) fyrir hönd þjónustuveitanda.</span><span class="sxs-lookup"><span data-stu-id="cefd4-193">In this procedure we will simulate this by updating BACS (UK fictitious) on behalf of a service provider.</span></span>  
-1. <span data-ttu-id="cefd4-194">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="cefd4-194">Close the page.</span></span>
-2. <span data-ttu-id="cefd4-195">Velja Litware, Inc. veitu.</span><span class="sxs-lookup"><span data-stu-id="cefd4-195">Select Litware, inc. provider.</span></span>
-3. <span data-ttu-id="cefd4-196">Smellt á Stilla sem virkt.</span><span class="sxs-lookup"><span data-stu-id="cefd4-196">Click Set active.</span></span>
-4. <span data-ttu-id="cefd4-197">Smelltu á Grunnstillingar skýrslugerðar</span><span class="sxs-lookup"><span data-stu-id="cefd4-197">Click Reporting configurations.</span></span>
-5. <span data-ttu-id="cefd4-198">Stækkið „Greiðslur (EINFÖLDUN líkan)“ í trénu.</span><span class="sxs-lookup"><span data-stu-id="cefd4-198">In the tree, expand 'Payments (simplified model)'.</span></span>
-6. <span data-ttu-id="cefd4-199">Í trénu, veljið 'Payments (einfaldað líkan)\BACS (UK upphugsað)'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-199">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
-    * <span data-ttu-id="cefd4-200">Útgáfudrögin í eigu Litware, Inc. veita BACS (UK upphugsað) eru valin til að koma með breytingar til að styðja við nýjar svæðisbundnar kröfur.</span><span class="sxs-lookup"><span data-stu-id="cefd4-200">The draft version owned by Litware, Inc. provider BACS (UK fictitious) is selected to bring in changes to support new country-specific requirements.</span></span>  
-
-## <a name="localize-the-base-format-of-the-electronic-document"></a><span data-ttu-id="cefd4-201">Staðfæra grunnsnið rafræna skjalsins.</span><span class="sxs-lookup"><span data-stu-id="cefd4-201">Localize the base format of the electronic document</span></span>
-    * <span data-ttu-id="cefd4-202">Gefum okkur til staðar séu ný svæðisbundið þarfir sem Litware, Inc þarf að styðja.: - gildi fyrir lánardrottins SWIFT-kóða banka í hverri greiðslufærslu.</span><span class="sxs-lookup"><span data-stu-id="cefd4-202">Assume that there are new country-specific requirements to be supported by Litware, Inc.:  - A value for the creditor’s bank SWIFT code in each payment transaction.</span></span>  <span data-ttu-id="cefd4-203">- Takmörkun uppá 100 stafi fyrir lengd textans fyrir nafn lánardrottins í myndunarskránni.</span><span class="sxs-lookup"><span data-stu-id="cefd4-203">- A limit of 100 characters for the length of text for the vendor’s name in a generating file.</span></span>  
-    * <span data-ttu-id="cefd4-204">Nýjar landsbundnar kröfur</span><span class="sxs-lookup"><span data-stu-id="cefd4-204">New country-specific requirements</span></span>  
-    * <span data-ttu-id="cefd4-205">Velja útgáfu sem eru drög fyrir skilgreiningu sem óskað er til að kynna til leiks breytingar sem þarf.</span><span class="sxs-lookup"><span data-stu-id="cefd4-205">Select the draft version of the desired configuration to introduce required changes.</span></span>  
-1. <span data-ttu-id="cefd4-206">Smellið á Hönnuður.</span><span class="sxs-lookup"><span data-stu-id="cefd4-206">Click Designer.</span></span>
-2. <span data-ttu-id="cefd4-207">Smellt er á Víkka/draga saman.</span><span class="sxs-lookup"><span data-stu-id="cefd4-207">Click Expand/collapse.</span></span>
-3. <span data-ttu-id="cefd4-208">Smellt er á Víkka/draga saman.</span><span class="sxs-lookup"><span data-stu-id="cefd4-208">Click Expand/collapse.</span></span>
-4. <span data-ttu-id="cefd4-209">Í trénu skal velja 'Xml\Message\Payments\Item\Vendor\Bank'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-209">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</span></span>
-5. <span data-ttu-id="cefd4-210">Smelltu á Bæta við til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="cefd4-210">Click Add to open the drop dialog.</span></span>
-6. <span data-ttu-id="cefd4-211">Í trénu skal velja „XML/Element“.</span><span class="sxs-lookup"><span data-stu-id="cefd4-211">In the tree, select 'XML\Element'.</span></span>
-7. <span data-ttu-id="cefd4-212">Í svæðið Heiti, færðu inn ‚SWIFT'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-212">In the Name field, type 'SWIFT'.</span></span>
-    * <span data-ttu-id="cefd4-213">SWIFT</span><span class="sxs-lookup"><span data-stu-id="cefd4-213">SWIFT</span></span>  
-8. <span data-ttu-id="cefd4-214">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="cefd4-214">Click OK.</span></span>
-9. <span data-ttu-id="cefd4-215">Í tré skal velja 'Xml\Message\Payments\Item\Vendor\Bank\SWIFT'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-215">In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\SWIFT'.</span></span>
-10. <span data-ttu-id="cefd4-216">Smelltu á Bæta við til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="cefd4-216">Click Add to open the drop dialog.</span></span>
-11. <span data-ttu-id="cefd4-217">Í trénu skal velja ‚Texti/Strengur'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-217">In the tree, select 'Text\String'.</span></span>
-12. <span data-ttu-id="cefd4-218">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="cefd4-218">Click OK.</span></span>
-13. <span data-ttu-id="cefd4-219">Í tré skal velja 'Xml\Message\Payments\Item\Vendor\Name\String'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-219">In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</span></span>
-14. <span data-ttu-id="cefd4-220">Í reitinn hámarkslengd skal slá inn 100.</span><span class="sxs-lookup"><span data-stu-id="cefd4-220">In the Maximum length field, enter '100'.</span></span>
-15. <span data-ttu-id="cefd4-221">Smelltu á flipann Vörpun.</span><span class="sxs-lookup"><span data-stu-id="cefd4-221">Click the Mapping tab.</span></span>
-16. <span data-ttu-id="cefd4-222">Í trénu skal víkka út 'model'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-222">In the tree, expand 'model'.</span></span>
-17. <span data-ttu-id="cefd4-223">Í trénu skal víkka út 'model\Payments'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-223">In the tree, expand 'model\Payments'.</span></span>
-18. <span data-ttu-id="cefd4-224">Útvíkka 'model\Payments\Creditor', í trénu.</span><span class="sxs-lookup"><span data-stu-id="cefd4-224">In the tree, expand 'model\Payments\Creditor'.</span></span>
-19. <span data-ttu-id="cefd4-225">Útvíkka 'model\Payments\Creditor\Agent', í trénu.</span><span class="sxs-lookup"><span data-stu-id="cefd4-225">In the tree, expand 'model\Payments\Creditor\Agent'.</span></span>
-20. <span data-ttu-id="cefd4-226">Í tré skal velja 'model\Payments\Creditor\Agent\SWIFT'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-226">In the tree, select 'model\Payments\Creditor\Agent\SWIFT'.</span></span>
-21. <span data-ttu-id="cefd4-227">Í tré skal velja 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\SWIFT\String'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-227">In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\SWIFT\String'.</span></span>
-22. <span data-ttu-id="cefd4-228">Smelltu á Binda.</span><span class="sxs-lookup"><span data-stu-id="cefd4-228">Click Bind.</span></span>
-23. <span data-ttu-id="cefd4-229">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="cefd4-229">Click Save.</span></span>
-
-## <a name="validate-the-localized-format"></a><span data-ttu-id="cefd4-230">Sannprófa staðbundinn snið</span><span class="sxs-lookup"><span data-stu-id="cefd4-230">Validate the localized format</span></span>
-1. <span data-ttu-id="cefd4-231">Smella á Villuleita.</span><span class="sxs-lookup"><span data-stu-id="cefd4-231">Click Validate.</span></span>
-2. <span data-ttu-id="cefd4-232">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="cefd4-232">Close the page.</span></span>
-
-## <a name="change-the-status-of-the-current-version-of-the-base-format-configuration"></a><span data-ttu-id="cefd4-233">Breyta stöðu á gildandi útgáfu af grunnskilgreiningarsniði</span><span class="sxs-lookup"><span data-stu-id="cefd4-233">Change the status of the current version of the base format configuration</span></span>
-    * <span data-ttu-id="cefd4-234">Breyta stöðu uppfærðs grunns skilgreiningarsniðs - úr DRÖG í LOKIÐ til að gera hann tiltækan fyrir myndun greiðsluskjals og uppfærslur á skilgreiningarsniðum sem fengin eru úr því.</span><span class="sxs-lookup"><span data-stu-id="cefd4-234">Change the status of the updated base format configuration from Draft to Completed to make it available for generation of payment documents and updates of format configurations derived from it.</span></span>  
-1. <span data-ttu-id="cefd4-235">Smellið á „Breyta stöðu“.</span><span class="sxs-lookup"><span data-stu-id="cefd4-235">Click Change status.</span></span>
-    * <span data-ttu-id="cefd4-236">Athugið að núverandi útgáfa valinnar skilgreiningar er í stöðunni DRÖG.</span><span class="sxs-lookup"><span data-stu-id="cefd4-236">Note that the current version of the selected configuration is in Draft status.</span></span>  
-2. <span data-ttu-id="cefd4-237">Smelltu á Ljúka.</span><span class="sxs-lookup"><span data-stu-id="cefd4-237">Click Complete.</span></span>
-3. <span data-ttu-id="cefd4-238">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="cefd4-238">In the Description field, type a value.</span></span>
-4. <span data-ttu-id="cefd4-239">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="cefd4-239">Click OK.</span></span>
-5. <span data-ttu-id="cefd4-240">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="cefd4-240">In the list, find and select the desired record.</span></span>
-
-## <a name="change-the-base-version-for-the-custom-format-configuration"></a><span data-ttu-id="cefd4-241">Breyta Grunnútgáfa fyrir sérsniðna skilgreiningarsnið</span><span class="sxs-lookup"><span data-stu-id="cefd4-241">Change the base version for the custom format configuration</span></span>
-    * <span data-ttu-id="cefd4-242">Proseware, Inc. er upplýst um að ný útgáfu 1,2 af skilgreiningar BACS (UK upphugsað) er tiltækt til að mynda rafræn greiðsluskjöl í samræmi við til nýlega tilkynntar landsbundnar þarfir.</span><span class="sxs-lookup"><span data-stu-id="cefd4-242">Proseware, Inc. is informed that a new version 1.2 of BACS (UK fictitious) configuration is available to generate electronic payment documents in accordance to recently announced country-specific requirements.</span></span> <span data-ttu-id="cefd4-243">Proseware, Inc. vill byrja að nota það sem staðal fyrir landið.</span><span class="sxs-lookup"><span data-stu-id="cefd4-243">Proseware, Inc. wants to start using it as a standard for the country.</span></span>  <span data-ttu-id="cefd4-244">Til að svo megi verða þarf Proseware, Inc. að breyta grunnskilgreiningarútgáfa fyrir sérsniðna skilgreiningu BACS (UK upphugsað sérsniðið).</span><span class="sxs-lookup"><span data-stu-id="cefd4-244">To do this, Proseware, Inc. needs to change the base configuration version for the custom configuration BACS (UK fictitious custom).</span></span> <span data-ttu-id="cefd4-245">Í stað útgáfu 1,1 af BACS (UK upphugsað) skal nota nýjú útgáfuna 1,2.</span><span class="sxs-lookup"><span data-stu-id="cefd4-245">Instead of version 1.1 of BACS (UK fictitious) use new version 1.2.</span></span>  
-1. <span data-ttu-id="cefd4-246">Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="cefd4-246">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="cefd4-247">Veldu Proseware, Inc. veitandi til að merkja það sem virkt.</span><span class="sxs-lookup"><span data-stu-id="cefd4-247">Select the Proseware, Inc. provider to mark it as active.</span></span>
-3. <span data-ttu-id="cefd4-248">Smellt á Stilla sem virkt.</span><span class="sxs-lookup"><span data-stu-id="cefd4-248">Click Set active.</span></span>
-4. <span data-ttu-id="cefd4-249">Smelltu á Grunnstillingar skýrslugerðar</span><span class="sxs-lookup"><span data-stu-id="cefd4-249">Click Reporting configurations.</span></span>
-5. <span data-ttu-id="cefd4-250">Stækkið „Greiðslur (EINFÖLDUN líkan)“ í trénu.</span><span class="sxs-lookup"><span data-stu-id="cefd4-250">In the tree, expand 'Payments (simplified model)'.</span></span>
-6. <span data-ttu-id="cefd4-251">Í trénu, víkka út "greiðslur" (einfaldað líkan)/BACS (UK upphugsað)</span><span class="sxs-lookup"><span data-stu-id="cefd4-251">In the tree, expand 'Payments (simplified model)\BACS (UK fictitious)'.</span></span>
-7. <span data-ttu-id="cefd4-252">Í trénu skal velja 'greiðslur (einfaldað líkan)\BACS (UK upphugsað)\BACS (UK upphugsað sérsniðið)'.</span><span class="sxs-lookup"><span data-stu-id="cefd4-252">In the tree, select 'Payments (simplified model)\BACS (UK fictitious)\BACS (UK fictitious custom)'.</span></span>
-    * <span data-ttu-id="cefd4-253">Velja skilgreiningu (Bretland sérsniðið upphugsað) BACS, sem er í eigu Proseware, Inc.</span><span class="sxs-lookup"><span data-stu-id="cefd4-253">Select the BACS (UK fictitious custom) configuration, which is owned by Proseware, Inc.</span></span>  
-    * <span data-ttu-id="cefd4-254">Nota útgáfu sem eru drög fyrir skilgreiningu sem valin er til að kynna til leiks breytingar sem þarf.</span><span class="sxs-lookup"><span data-stu-id="cefd4-254">Use the draft version of the selected configuration to introduce required changes.</span></span>  
-8. <span data-ttu-id="cefd4-255">Smellt er á Endurreikna grunn.</span><span class="sxs-lookup"><span data-stu-id="cefd4-255">Click Rebase.</span></span>
-    * <span data-ttu-id="cefd4-256">Veljið nýja útgáfu 1,2 fyrir grunnskilgreiningu til að nota sem nýjan grunn til að uppfæra skilgreininguna.</span><span class="sxs-lookup"><span data-stu-id="cefd4-256">Select the new version 1.2 of the base configuration to be applied as a new base for updating the configuration.</span></span>  
-9. <span data-ttu-id="cefd4-257">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="cefd4-257">Click OK.</span></span>
-    * <span data-ttu-id="cefd4-258">Athugið að sumar árekstra hafa fundust milli samruna sérsniðnu útgáfunnar og nýja grunnútgáfa sem standa fyrir sumar breytingar sem ekki er hægt að sameina sjálfkrafa.</span><span class="sxs-lookup"><span data-stu-id="cefd4-258">Note that some conflicts have been discovered between merging the custom version and a new base version representing some format changes that can’t be merged automatically.</span></span>  
-
-## <a name="resolve-rebase-conflicts"></a><span data-ttu-id="cefd4-259">Leysa úr Árekstrar við endurreikning grunns</span><span class="sxs-lookup"><span data-stu-id="cefd4-259">Resolve rebase conflicts</span></span>
-1. <span data-ttu-id="cefd4-260">Smellið á Hönnuður.</span><span class="sxs-lookup"><span data-stu-id="cefd4-260">Click Designer.</span></span>
-    * <span data-ttu-id="cefd4-261">Athugið að breytingar á mörkum á textalengd á heiti lánardrottins var ekki hægt að leysa sjálfkrafa.</span><span class="sxs-lookup"><span data-stu-id="cefd4-261">Note that changes to the vendor’s name text length limit couldn’t be resolved automatically.</span></span> <span data-ttu-id="cefd4-262">Þess birtist það í lista yfir árekstra.</span><span class="sxs-lookup"><span data-stu-id="cefd4-262">Therefore, this is presented in a conflicts list.</span></span> <span data-ttu-id="cefd4-263">Fyrir hverja árekstur af gerðinni Uppfærsla eru eftirtaldir valkostir tiltækir:- Nota í fyrra grunngildi (hnappinn yfir hnitanetinu) til að færa í gildi fyrri grunnútgáfa (0 í okkar tilfelli).</span><span class="sxs-lookup"><span data-stu-id="cefd4-263">For each conflict of type Update, the following options are available:  - Apply a prior base value (button on top of the grid) to bring in the previous base version value (0 in our case).</span></span>  <span data-ttu-id="cefd4-264">- Nota grunngildi (hnappinn yfir hnitanetinu) til að færa í nýtt gildi grunnútgáfu (100 í okkar tilfelli).</span><span class="sxs-lookup"><span data-stu-id="cefd4-264">- Apply a base value (button on top of the grid) to bring in the new base version value (100 in our case).</span></span>  <span data-ttu-id="cefd4-265">- Halda þínu eigin gildi (sérstillt) (60 í okkar tilfelli).</span><span class="sxs-lookup"><span data-stu-id="cefd4-265">- Keep your own (custom) value (60 in our case).</span></span>  <span data-ttu-id="cefd4-266">Smellið á Nota grunngildi til að nota landsbundin mörk uppá 100 stafi fyrir textalengd á heiti lánardrottins.</span><span class="sxs-lookup"><span data-stu-id="cefd4-266">Click Apply base value to apply a country-specific limit of 100 characters for vendor’s name text length.</span></span>  
-    * <span data-ttu-id="cefd4-267">Athugaðu að Proseware, Inc. og Litware, Inc. hafa sérsniðnar og staðbundnar útgáfur af þessu sniði og nota IBAN og swift-kóða með tengdar íhluti sem sjálfkrafa eru sameinaðir í stjórnunarsniðið.</span><span class="sxs-lookup"><span data-stu-id="cefd4-267">Note that Proseware, Inc. and Litware, Inc. have custom and local versions of this format using IBAN and SWIFT codes with related components that are automatically merged in the managing format.</span></span>  
-2. <span data-ttu-id="cefd4-268">Smellt er á Nota grunngildi</span><span class="sxs-lookup"><span data-stu-id="cefd4-268">Click Apply base value.</span></span>
-    * <span data-ttu-id="cefd4-269">Smellið á Nota grunngildi til að nota landsbundin mörk uppá 100 stafi fyrir heiti lánardrottins.</span><span class="sxs-lookup"><span data-stu-id="cefd4-269">Click Apply base value to apply the country-specific limit of 100 characters for vendor names.</span></span>  
-3. <span data-ttu-id="cefd4-270">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="cefd4-270">Click Save.</span></span>
-    * <span data-ttu-id="cefd4-271">Að Vista snið fjarlægir árekstra sem leyst hefur verið úr af listanum yfir árekstra.</span><span class="sxs-lookup"><span data-stu-id="cefd4-271">Saving the format will remove resolved conflicts from the conflicts list.</span></span>  
-4. <span data-ttu-id="cefd4-272">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="cefd4-272">Close the page.</span></span>
-
-## <a name="change-the-status-of-the-new-version-of-the-custom-format-configuration"></a><span data-ttu-id="cefd4-273">Breyta stöðu á nýju útgáfu af sérsniðnu skilgreiningarsniði</span><span class="sxs-lookup"><span data-stu-id="cefd4-273">Change the status of the new version of the custom format configuration</span></span>
-1. <span data-ttu-id="cefd4-274">Smellið á „Breyta stöðu“.</span><span class="sxs-lookup"><span data-stu-id="cefd4-274">Click Change status.</span></span>
-    * <span data-ttu-id="cefd4-275">Breyta stöðu uppfærða, sérsniðna skilgreiningarsniðs úr Drög í Lokið.</span><span class="sxs-lookup"><span data-stu-id="cefd4-275">Change the status of the updated, custom format configuration from Draft to Completed.</span></span> <span data-ttu-id="cefd4-276">Þetta gerir skilgreiningu sniðs tiltækt fyrir myndun greiðsluskjala.</span><span class="sxs-lookup"><span data-stu-id="cefd4-276">This will make the format configuration available for generating payment documents.</span></span> <span data-ttu-id="cefd4-277">Athugið að núverandi útgáfa valinnar skilgreiningar er í stöðunni DRÖG.</span><span class="sxs-lookup"><span data-stu-id="cefd4-277">Note that the current version of the selected configuration is in Draft status.</span></span>  
-2. <span data-ttu-id="cefd4-278">Smelltu á Ljúka.</span><span class="sxs-lookup"><span data-stu-id="cefd4-278">Click Complete.</span></span>
-3. <span data-ttu-id="cefd4-279">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="cefd4-279">In the Description field, type a value.</span></span>
-4. <span data-ttu-id="cefd4-280">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="cefd4-280">Click OK.</span></span>
-    * <span data-ttu-id="cefd4-281">Athugið að hin stofnaða skilgreining er vistuð sem lokin útgáfa 1.2.2. Útgáfa 2 af grunnsniði BACS (UK sérsniðið upphugsað) snið, sem er byggð á sniði útgáfu 2 BACS (Bretland upphugsað), sem er byggð á 1 útgáfu gagnalíkans Greiðslna (einfaldaður líkan).</span><span class="sxs-lookup"><span data-stu-id="cefd4-281">Note that the created configuration is saved as completed version 1.2.2: version 2 of base BACS (UK fictitious custom) format, which is based on version 2 of base BACS (UK fictitious) format, which is based on version 1 of Payments (simplified model) data model.</span></span>  
-
-## <a name="test-the-customized-format-for-payment-files-generation"></a><span data-ttu-id="cefd4-282">Prófa Sérsniðnar snið til að mynda greiðsluskrár</span><span class="sxs-lookup"><span data-stu-id="cefd4-282">Test the customized format for payment files generation</span></span>
-    * <span data-ttu-id="cefd4-283">Ljúkið skrefunum í ferlinu "Nota stofnuð snið til að mynda rafræn skjöl fyrir greiðslur" í samhliða lotu Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="cefd4-283">Complete the steps in the “Use created format to generate electronic documents for payments” procedure in parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</span></span> <span data-ttu-id="cefd4-284">Velja hið stofnaða BACS snið (Bretland sérsniðið upphugsað) í færibreytum rafrænnar greiðslumáta.</span><span class="sxs-lookup"><span data-stu-id="cefd4-284">Select the created ‘BACS (UK fictitious custom)’ format in electronic payment method parameters.</span></span> <span data-ttu-id="cefd4-285">Gangið úr skugga um að stofnaða greiðsluskráin innihaldi, nýlega kynnta af Proseware Inc., XML-hnúta sem setur fram IBAN-kóða í samræmi við svæðisbundið þarfir.</span><span class="sxs-lookup"><span data-stu-id="cefd4-285">Make sure that the created payment file contains recently introduced by Proseware, Inc. XML node presenting IBAN account code in accordance to regional requirements.</span></span> <span data-ttu-id="cefd4-286">Skráin ætti einnig að innihalda, nýlega kynnta af Litware, Inc., XML-hnúta sem setur fram SWIFT-kóða í samræmi við svæðisbundið þarfir.</span><span class="sxs-lookup"><span data-stu-id="cefd4-286">The file also should contain the recently introduced by Litware, Inc. XML node presenting SWIFT bank code in accordance to country requirements.</span></span>  
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="er-upgrade-format.md" target-language="is-is">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>er-upgrade-format.32ec25.151b8936a46a1945e98bfe0ed040ca50c93db4b0.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>151b8936a46a1945e98bfe0ed040ca50c93db4b0</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>574d4dda83dcab94728a3d35fc53ee7e2b90feb0</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\dev-itpro\analytics\tasks\er-upgrade-format.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>ER Upgrade your format by adopting a new, base version of that format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rafræn skýrslugerð Uppfærðu snið með því að taka upp nýja grunnútgáfu sniðs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can maintain an Electronic reporting (ER) format configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur viðhaldið skilgreiningarsnið fyrir rafræna skýrslugerð (ER).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>ER Upgrade your format by adopting a new, base version of that format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rafræn skýrslugerð Uppfærðu snið með því að taka upp nýja grunnútgáfu sniðs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can maintain an Electronic reporting (ER) format configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur viðhaldið skilgreiningarsnið fyrir rafræna skýrslugerð (ER).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>This procedure explains how a custom version of a format can be created based on the format received from a configuration provider (CP).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þetta ferli útskýrir hvernig sérsniðin útgáfu sniðs er hægt að mynda á grundvelli snið móttekið frá veitandi skilgreiningar (CP).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>It also explains how to adopt a new, base version of that format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Það útskýrir einnig hvernig eigi að taka upp nýja grunnútgáfu af því sniði.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>To complete these steps, you must first complete the steps in the “Create a configuration provider and mark it as active” and “Use created format to generate electronic documents for payments” procedures.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlunum "Stofna skilgreiningarveitu og merkja hana sem virka" og "Nota stofnuð snið til að mynda rafræn skjöl fyrir greiðslur".</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>These steps can be performed in the GBSI company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að framkvæma þessum skrefum í GBSI fyrirtækinu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Select format configuration for customization</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veljið skilgreiningu sniðs fyrir sérsnið</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Go to Organization administration &gt; Workspaces &gt; Electronic reporting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fara í Fyrirtækisstjórnun &gt; Vinnusvæði &gt; Rafræn skýrslugerð.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>In this example, sample company Litware, Inc. (<ph id="ph1">https://www.litware.com)</ph> will act as a configuration provider that supports format configurations for electronic payments for a particular country.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í þessu dæmi mun sýnifyrirtækið Litware, Inc. (<ph id="ph1">https://www.litware.com)</ph> vinna sem skilgreiningarveita sem styður skilgreiningarsnið fyrir rafrænar greiðslur fyrir tiltekið land.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Sample company Proseware, Inc. (<ph id="ph1">http://www.proseware.com)</ph> will act as a consumer of the format configuration that Litware, Inc. provided.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sýnifyrirtæki Proseware, Inc. (<ph id="ph1">http://www.proseware.com)</ph> mun vinna sem neytandi skilgreiningarsniðs sem Litware, Inc. útvegaði.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Proseware, Inc. uses formats in certain regions of that country.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proseware, Inc. motar snið í sumum svæðum þess lands.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Click Reporting configurations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á Grunnstillingar skýrslugerðar</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Click Show filters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellt er á Sýna síur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Apply the following filters: Enter a filter value of "BACS (UK fictitious)" on the "Name" field using the "begins with" filter operator</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Notið eftirfarandi síur: færðu inn síugildi "UK sérsniðið upphugsað" á svæði „Heiti" með því að nota síuvirknitáknið "byrjar á"</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>BACS (UK fictitious)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BACS (UK Upphugsað)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>The selected format configuration BACS (UK fictitious) is owned by provider Litware, Inc.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valið skilgreiningarsnið (UK sérsniðið upphugsað) BACS, er í eigu Litware, Inc.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Click Show filters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellt er á Sýna síur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>In the list, find and select the desired record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>The version of the format with the status of Completed will be used by Proseware, Inc. for customization.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Útgáfa sniðs með stöðuna Lokið mun verða notað af Proseware, Inc. fyrir sérstillingu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Create a new configuration for your custom format of electronic document</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stofna nýja skilgreiningu fyrir sérsniðið snið rafrænna skjala</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Proseware, Inc. received version 1.1 of BACS (UK fictitious) configuration that contains the initial format to generate electronic payment documents from Litware, Inc. in accordance to their service subscription.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proseware, Inc. hefur móttekið útgáfa 1.1 fyrir skilgreiningar BACS (UK upphugsað) sem inniheldur upphaflegt snið til að mynda rafræn greiðsluskjöl úr Litware, Inc. í samræmi við þjónustuáskrift þeirra.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Proseware, Inc. wants to start using this as a standard for their country but some customization is required to support specific regional requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proseware, Inc. vill byrja að nota þetta sem staðal fyrir þeirra land en nokkur sérstillingar er krafist til að styðja sérstakar svæðisbundið kröfur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Proseware, Inc. also wants to keep the ability to upgrade a custom format as soon as a new version of it (with changes to support new country-specific requirements) comes from Litware, Inc. and they want to perform this upgrade with the lowest cost.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proseware, Inc. villl einnig halda getunni til að uppfæra sérsniðnir snið um leið og ný útgáfu þess (með breytingum til að styðja við landsbundnar þarfir) kemur út hjá Litware, Inc. og það vill framkvæma þessa uppfærslu með sem minnstum tilkostnaði.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>To do this, Proseware, Inc. needs to create a configuration using the Litware, Inc. configuration BACS (UK fictitious) as a base.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að gera þetta þarf Proseware, Inc. að stofna skilgreiningu með því að nota Litware, Inc. skilgreininguna BACS (UK upphugsað) sem grunn.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lokið síðunni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Select Proseware, Inc. to make it an active provider.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veljið Proseware, Inc. til að gera hana að virkri veitu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Click Set active.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellt á Stilla sem virkt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Click Reporting configurations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á Grunnstillingar skýrslugerðar</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>In the tree, expand 'Payments (simplified model)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stækkið „Greiðslur (EINFÖLDUN líkan)“ í trénu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í trénu, veljið 'Payments (einfaldað líkan)\BACS (UK upphugsað)'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Select the BACS (UK fictitious) configuration from Litware, Inc.     Proseware, Inc. will use version 1.1 as a base for the custom version.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Velja skilgreiningu BACS (Bretland upphugsað) úr Litware, Inc.     Proseware, Inc. mun nota útgáfu 1.1 sem grunn fyrir sérsniðnu útgáfuna.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Click Create configuration to open the drop dialog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellt er á stofna skilgreiningu til að opna fellilistanum.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>This lets you create a new configuration for a custom payment format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þetta gerir mögulegt að stofna nýja skilgreiningu fyrir sérsniðna greiðslusnið.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>In the New field, enter 'Derive from Name: BACS (UK fictitious), Litware, Inc.'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í svæðinu Nýtt, veljið 'Leiða af nafni: BACS (UK upphugsað), Litware, Inc'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Select the Derive option to confirm the usage of BACS (UK fictitious) as the base for creating the custom version.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veljið valkost afleiddur til að staðfesta notkun BACS (UK upphugsað) sem grunn til að stofna sérsniðna útgáfu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>In the Name field, type 'BACS (UK fictitious custom)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í reitinn Heiti skal slá inn 'BACS (UK upphugsað sérsniðið)'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>BACS (UK fictitious custom)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BACS (Bretland sérsniðið og upphugsað)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>In the Description field, type 'BACS vendor payment (UK fictitious custom)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Færið inn 'BACS greiðsla lánardrottins (UK sérsniðið upphugsað)' í svæðinu Lýsingu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>BACS vendor payment (UK fictitious custom)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">BACS greiðsla lánardrottins (UK sérsniðið upphugsað)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>The active configuration provider (Proseware, Inc.) is automatically entered here.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virkt skilgreiningarveitu (Proseware, Inc) er sjálfkrafa færð inn hér.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>This provider will be able to maintain this configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessa veitu mun geta unnið með þessa skilgreiningu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Other providers can use this configuration, but will not be able to maintain it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Önnur veitur er hægt að nota þetta skilgreining, en geta ekki unnið með hana.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Click Create configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á Stofna skilgreiningu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>Customize your format for the electronic document</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sérsníða snið fyrir rafrænt skjal</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>Click Designer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á Hönnuður.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Click Expand/collapse.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellt er á Víkka/draga saman.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Click Expand/collapse.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellt er á Víkka/draga saman.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í trénu skal velja 'Xml\Message\Payments\Item\Vendor\Bank'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Click Add to open the drop dialog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á Bæta við til að opna felligluggann.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>In the tree, select 'XML\Element'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í trénu skal velja „XML/Element“.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>In the Name field, type 'IBAN'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í svæðið Heiti, færðu inn ‚IBAN-númer'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>IBAN</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IBAN-númer</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Í lagi“.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\IBAN'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í tré skal velja 'Xml\Message\Payments\Item\Vendor\Bank\IBAN'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>Click Add to open the drop dialog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á Bæta við til að opna felligluggann.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>In the tree, select 'Text\String'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í trénu skal velja ‚Texti/Strengur'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellt er á Í lagi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í tré skal velja 'Xml\Message\Payments\Item\Vendor\Name\String'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>In the Maximum length field, enter '60'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í reitinn hámarkslengd skal slá inn 60.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Click the Mapping tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á flipann Vörpun.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>In the tree, expand 'model'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í trénu skal víkka út 'model'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>In the tree, expand 'model\Payments'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í trénu skal víkka út 'model\Payments'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>In the tree, expand 'model\Payments\Creditor'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Útvíkka 'model\Payments\Creditor', í trénu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>In the tree, expand 'model\Payments\Creditor\Account'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Útvíkka 'model\Payments\Creditor\Account', í trénu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>In the tree, select 'model\Payments\Creditor\Account\IBAN'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í tré skal velja 'model\Payments\Creditor\Account\IBAN'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\IBAN\String'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í tré skal velja 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\IBAN\String'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>Click Bind.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á Binda.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Vista“.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>Validate the customized format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Villuleita sérsniðna snið</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>Click Validate.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smella á Villuleita.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>Validate the customized format layout and data mapping changes to make sure that all bindings are okay.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Villuleita sérsniðna útlit sniðs og breytingar gagnakortalagning til að tryggja að allar bindingar eru í lagi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lokið síðunni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>Change the status of the current version of the custom format configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Breyta stöðu núgildandi útgáfa grunnstillingar sérstillts sniðs</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>Change the status of the designed format configuration from Draft to Completed to make it available for payment document generation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Breyta stöðu hannaðs skilgreiningarsniðs - úr DRÖG í LOKIÐ til að gera hann tiltækan fyrir myndun greiðsluskjals.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Click Change status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Breyta stöðu“.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>Note that the current version of the selected configuration is in Draft status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugið að núverandi útgáfa valinnar skilgreiningar er í stöðunni DRÖG.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>Click Complete.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á Ljúka.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>In the Description field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sláið inn gildi í reitnum „Lýsing“.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Í lagi“.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>In the list, find and select the desired record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Note that the created configuration is saved as completed version 1.1.1.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugið að stofnuð skilgreining er vistuð sem lokin útgáfa 1.1.1.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>This means it is version 1 of the custom BACS (UK fictitious custom) format, which is based on version 1 of the BACS (UK fictitious) format, which is based on version 1 of the Payments (simplified model) data model.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þetta þýðir að það er útgáfa 1 sérsniðna BACS (UK sérsniðið upphugsað) snið, sem er byggð á sniði útgáfu 1 BACS (Bretland upphugsað), sem er byggð á 1 útgáfa gagnalíkans Greiðslna (einfaldaður líkan).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>Test the customized format to generate payment files</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prófa Sérsniðnar snið til að mynda greiðsluskrár</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Complete the steps in the “Use created format to generate electronic documents for payments” procedure in a parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ljúkið skrefunum í ferlinu "Nota stofnuð snið til að mynda rafræn skjöl fyrir greiðslur" í samhliða lotu Dynamics 365 for Finance and Operations, Enterprise edition.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>Select the BACS (UK fictitious custom) format in electronic payment method parameters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Velja BACS snið (Bretland sérsniðið upphugsað) í færibreytum rafrænnar greiðslumáta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Make sure that the created payment file contains the recently introduced XML node presenting IBAN code in accordance to regional requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gangið úr skugga um að stofnaða greiðsluskráin inniheldur nýlega kynnta XML-hnútnum sem setur fram iban-kóða í samræmi við svæðisbundið þarfir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>Update the existing country-specific configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uppfæra fyrirliggjandi landsbunda skilgreiningu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Litware, Inc. needs to update the BACS (UK fictitious) configuration and adopt new country requirements for managing the format of the electronic document.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Litware, Inc. þarf að uppfæra skilgreiningu BACS (UK upphugsað) og aðlaga nýjar svæðisbundnar kröfur fyrir stjórnun á sniði rafræna skjalið.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>Later, this will be enclosed in a new version of this configuration that will be offered for service subscribers, including Proseware, Inc.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Síðar, þetta mun vera innan nýja útgáfu þessarar skilgreiningar sem verður í boði fyrir áskrifendur þjónustu, þar á meðal Proseware, Inc.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>In real service provision related processes, each new version of BACS (UK fictitious) can be imported by Proseware, Inc. from Litware, Inc. configurations’ LCS repository.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í raunverulegum vinnslum sem tengjast þjónustuveitum, er hægt að flytja inn hverja nýja útgáfa af BACS (UK upphugsað) úr geymslu Litware, Inc. með Proseware, Inc.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>In this procedure we will simulate this by updating BACS (UK fictitious) on behalf of a service provider.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í þessu ferli verður líkt eftir þessu með því að uppfæra BACS (UK upphugsað) fyrir hönd þjónustuveitanda.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lokið síðunni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>Select Litware, inc. provider.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Velja Litware, Inc. veitu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>Click Set active.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellt á Stilla sem virkt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>Click Reporting configurations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á Grunnstillingar skýrslugerðar</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>In the tree, expand 'Payments (simplified model)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stækkið „Greiðslur (EINFÖLDUN líkan)“ í trénu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>In the tree, select 'Payments (simplified model)\BACS (UK fictitious)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í trénu, veljið 'Payments (einfaldað líkan)\BACS (UK upphugsað)'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>The draft version owned by Litware, Inc. provider BACS (UK fictitious) is selected to bring in changes to support new country-specific requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Útgáfudrögin í eigu Litware, Inc. veita BACS (UK upphugsað) eru valin til að koma með breytingar til að styðja við nýjar svæðisbundnar kröfur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>Localize the base format of the electronic document</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Staðfæra grunnsnið rafræna skjalsins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Assume that there are new country-specific requirements to be supported by Litware, Inc.:  - A value for the creditor’s bank SWIFT code in each payment transaction.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gefum okkur til staðar séu ný svæðisbundið þarfir sem Litware, Inc þarf að styðja.: - gildi fyrir lánardrottins SWIFT-kóða banka í hverri greiðslufærslu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>- A limit of 100 characters for the length of text for the vendor’s name in a generating file.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">- Takmörkun uppá 100 stafi fyrir lengd textans fyrir nafn lánardrottins í myndunarskránni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>New country-specific requirements</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nýjar landsbundnar kröfur</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>Select the draft version of the desired configuration to introduce required changes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Velja útgáfu sem eru drög fyrir skilgreiningu sem óskað er til að kynna til leiks breytingar sem þarf.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>Click Designer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á Hönnuður.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>Click Expand/collapse.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellt er á Víkka/draga saman.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>Click Expand/collapse.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellt er á Víkka/draga saman.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í trénu skal velja 'Xml\Message\Payments\Item\Vendor\Bank'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>Click Add to open the drop dialog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á Bæta við til að opna felligluggann.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>In the tree, select 'XML\Element'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í trénu skal velja „XML/Element“.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>In the Name field, type 'SWIFT'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í svæðið Heiti, færðu inn ‚SWIFT'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>SWIFT</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SWIFT</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Í lagi“.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Bank\SWIFT'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í tré skal velja 'Xml\Message\Payments\Item\Vendor\Bank\SWIFT'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>Click Add to open the drop dialog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á Bæta við til að opna felligluggann.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>In the tree, select 'Text\String'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í trénu skal velja ‚Texti/Strengur'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="218">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellt er á Í lagi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="219">
+          <source>In the tree, select 'Xml\Message\Payments\Item\Vendor\Name\String'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í tré skal velja 'Xml\Message\Payments\Item\Vendor\Name\String'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="220">
+          <source>In the Maximum length field, enter '100'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í reitinn hámarkslengd skal slá inn 100.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="221">
+          <source>Click the Mapping tab.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á flipann Vörpun.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="222">
+          <source>In the tree, expand 'model'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í trénu skal víkka út 'model'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="223">
+          <source>In the tree, expand 'model\Payments'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í trénu skal víkka út 'model\Payments'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="224">
+          <source>In the tree, expand 'model\Payments\Creditor'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Útvíkka 'model\Payments\Creditor', í trénu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="225">
+          <source>In the tree, expand 'model\Payments\Creditor\Agent'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Útvíkka 'model\Payments\Creditor\Agent', í trénu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="226">
+          <source>In the tree, select 'model\Payments\Creditor\Agent\SWIFT'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í tré skal velja 'model\Payments\Creditor\Agent\SWIFT'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="227">
+          <source>In the tree, select 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\SWIFT\String'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í tré skal velja 'Xml\Message\Payments\Item =  model.Payments\Vendor\Bank\SWIFT\String'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="228">
+          <source>Click Bind.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á Binda.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="229">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Vista“.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="230">
+          <source>Validate the localized format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sannprófa staðbundinn snið</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="231">
+          <source>Click Validate.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smella á Villuleita.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="232">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lokið síðunni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="233">
+          <source>Change the status of the current version of the base format configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Breyta stöðu á gildandi útgáfu af grunnskilgreiningarsniði</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="234">
+          <source>Change the status of the updated base format configuration from Draft to Completed to make it available for generation of payment documents and updates of format configurations derived from it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Breyta stöðu uppfærðs grunns skilgreiningarsniðs - úr DRÖG í LOKIÐ til að gera hann tiltækan fyrir myndun greiðsluskjals og uppfærslur á skilgreiningarsniðum sem fengin eru úr því.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="235">
+          <source>Click Change status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Breyta stöðu“.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="236">
+          <source>Note that the current version of the selected configuration is in Draft status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugið að núverandi útgáfa valinnar skilgreiningar er í stöðunni DRÖG.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="237">
+          <source>Click Complete.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á Ljúka.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="238">
+          <source>In the Description field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sláið inn gildi í reitnum „Lýsing“.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="239">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Í lagi“.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="240">
+          <source>In the list, find and select the desired record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="241">
+          <source>Change the base version for the custom format configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Breyta Grunnútgáfa fyrir sérsniðna skilgreiningarsnið</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="242">
+          <source>Proseware, Inc. is informed that a new version 1.2 of BACS (UK fictitious) configuration is available to generate electronic payment documents in accordance to recently announced country-specific requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proseware, Inc. er upplýst um að ný útgáfu 1,2 af skilgreiningar BACS (UK upphugsað) er tiltækt til að mynda rafræn greiðsluskjöl í samræmi við til nýlega tilkynntar landsbundnar þarfir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="243">
+          <source>Proseware, Inc. wants to start using it as a standard for the country.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proseware, Inc. vill byrja að nota það sem staðal fyrir landið.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="244">
+          <source>To do this, Proseware, Inc. needs to change the base configuration version for the custom configuration BACS (UK fictitious custom).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að svo megi verða þarf Proseware, Inc. að breyta grunnskilgreiningarútgáfa fyrir sérsniðna skilgreiningu BACS (UK upphugsað sérsniðið).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="245">
+          <source>Instead of version 1.1 of BACS (UK fictitious) use new version 1.2.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í stað útgáfu 1,1 af BACS (UK upphugsað) skal nota nýjú útgáfuna 1,2.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="246">
+          <source>Go to Organization administration &gt; Workspaces &gt; Electronic reporting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fara í Fyrirtækisstjórnun &gt; Vinnusvæði &gt; Rafræn skýrslugerð.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="247">
+          <source>Select the Proseware, Inc. provider to mark it as active.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veldu Proseware, Inc. veitandi til að merkja það sem virkt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="248">
+          <source>Click Set active.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellt á Stilla sem virkt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="249">
+          <source>Click Reporting configurations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á Grunnstillingar skýrslugerðar</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="250">
+          <source>In the tree, expand 'Payments (simplified model)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stækkið „Greiðslur (EINFÖLDUN líkan)“ í trénu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="251">
+          <source>In the tree, expand 'Payments (simplified model)\BACS (UK fictitious)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í trénu, víkka út "greiðslur" (einfaldað líkan)/BACS (UK upphugsað)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="252">
+          <source>In the tree, select 'Payments (simplified model)\BACS (UK fictitious)\BACS (UK fictitious custom)'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í trénu skal velja 'greiðslur (einfaldað líkan)\BACS (UK upphugsað)\BACS (UK upphugsað sérsniðið)'.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="253">
+          <source>Select the BACS (UK fictitious custom) configuration, which is owned by Proseware, Inc.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Velja skilgreiningu (Bretland sérsniðið upphugsað) BACS, sem er í eigu Proseware, Inc.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="254">
+          <source>Use the draft version of the selected configuration to introduce required changes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nota útgáfu sem eru drög fyrir skilgreiningu sem valin er til að kynna til leiks breytingar sem þarf.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="255">
+          <source>Click Rebase.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellt er á Endurreikna grunn.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="256">
+          <source>Select the new version 1.2 of the base configuration to be applied as a new base for updating the configuration.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veljið nýja útgáfu 1,2 fyrir grunnskilgreiningu til að nota sem nýjan grunn til að uppfæra skilgreininguna.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="257">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Í lagi“.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="258">
+          <source>Note that some conflicts have been discovered between merging the custom version and a new base version representing some format changes that can’t be merged automatically.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugið að sumar árekstra hafa fundust milli samruna sérsniðnu útgáfunnar og nýja grunnútgáfa sem standa fyrir sumar breytingar sem ekki er hægt að sameina sjálfkrafa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="259">
+          <source>Resolve rebase conflicts</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Leysa úr Árekstrar við endurreikning grunns</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="260">
+          <source>Click Designer.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á Hönnuður.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="261">
+          <source>Note that changes to the vendor’s name text length limit couldn’t be resolved automatically.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugið að breytingar á mörkum á textalengd á heiti lánardrottins var ekki hægt að leysa sjálfkrafa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="262">
+          <source>Therefore, this is presented in a conflicts list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þess birtist það í lista yfir árekstra.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="263">
+          <source>For each conflict of type Update, the following options are available:  - Apply a prior base value (button on top of the grid) to bring in the previous base version value (0 in our case).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fyrir hverja árekstur af gerðinni Uppfærsla eru eftirtaldir valkostir tiltækir:- Nota í fyrra grunngildi (hnappinn yfir hnitanetinu) til að færa í gildi fyrri grunnútgáfa (0 í okkar tilfelli).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="264">
+          <source>- Apply a base value (button on top of the grid) to bring in the new base version value (100 in our case).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">- Nota grunngildi (hnappinn yfir hnitanetinu) til að færa í nýtt gildi grunnútgáfu (100 í okkar tilfelli).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="265">
+          <source>- Keep your own (custom) value (60 in our case).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">- Halda þínu eigin gildi (sérstillt) (60 í okkar tilfelli).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="266">
+          <source>Click Apply base value to apply a country-specific limit of 100 characters for vendor’s name text length.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á Nota grunngildi til að nota landsbundin mörk uppá 100 stafi fyrir textalengd á heiti lánardrottins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="267">
+          <source>Note that Proseware, Inc. and Litware, Inc. have custom and local versions of this format using IBAN and SWIFT codes with related components that are automatically merged in the managing format.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugaðu að Proseware, Inc. og Litware, Inc. hafa sérsniðnar og staðbundnar útgáfur af þessu sniði og nota IBAN og swift-kóða með tengdar íhluti sem sjálfkrafa eru sameinaðir í stjórnunarsniðið.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="268">
+          <source>Click Apply base value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellt er á Nota grunngildi</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="269">
+          <source>Click Apply base value to apply the country-specific limit of 100 characters for vendor names.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á Nota grunngildi til að nota landsbundin mörk uppá 100 stafi fyrir heiti lánardrottins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="270">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Vista“.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="271">
+          <source>Saving the format will remove resolved conflicts from the conflicts list.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Að Vista snið fjarlægir árekstra sem leyst hefur verið úr af listanum yfir árekstra.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="272">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lokið síðunni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="273">
+          <source>Change the status of the new version of the custom format configuration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Breyta stöðu á nýju útgáfu af sérsniðnu skilgreiningarsniði</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="274">
+          <source>Click Change status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Breyta stöðu“.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="275">
+          <source>Change the status of the updated, custom format configuration from Draft to Completed.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Breyta stöðu uppfærða, sérsniðna skilgreiningarsniðs úr Drög í Lokið.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="276">
+          <source>This will make the format configuration available for generating payment documents.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þetta gerir skilgreiningu sniðs tiltækt fyrir myndun greiðsluskjala.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="277">
+          <source>Note that the current version of the selected configuration is in Draft status.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugið að núverandi útgáfa valinnar skilgreiningar er í stöðunni DRÖG.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="278">
+          <source>Click Complete.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á Ljúka.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="279">
+          <source>In the Description field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sláið inn gildi í reitnum „Lýsing“.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="280">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Í lagi“.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="281">
+          <source>Note that the created configuration is saved as completed version 1.2.2: version 2 of base BACS (UK fictitious custom) format, which is based on version 2 of base BACS (UK fictitious) format, which is based on version 1 of Payments (simplified model) data model.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugið að hin stofnaða skilgreining er vistuð sem lokin útgáfa 1.2.2. Útgáfa 2 af grunnsniði BACS (UK sérsniðið upphugsað) snið, sem er byggð á sniði útgáfu 2 BACS (Bretland upphugsað), sem er byggð á 1 útgáfu gagnalíkans Greiðslna (einfaldaður líkan).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="282">
+          <source>Test the customized format for payment files generation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prófa Sérsniðnar snið til að mynda greiðsluskrár</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="283">
+          <source>Complete the steps in the “Use created format to generate electronic documents for payments” procedure in parallel Dynamics 365 for Finance and Operations, Enterprise edition session.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ljúkið skrefunum í ferlinu "Nota stofnuð snið til að mynda rafræn skjöl fyrir greiðslur" í samhliða lotu Dynamics 365 for Finance and Operations, Enterprise edition.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="284">
+          <source>Select the created ‘BACS (UK fictitious custom)’ format in electronic payment method parameters.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Velja hið stofnaða BACS snið (Bretland sérsniðið upphugsað) í færibreytum rafrænnar greiðslumáta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="285">
+          <source>Make sure that the created payment file contains recently introduced by Proseware, Inc. XML node presenting IBAN account code in accordance to regional requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gangið úr skugga um að stofnaða greiðsluskráin innihaldi, nýlega kynnta af Proseware Inc., XML-hnúta sem setur fram IBAN-kóða í samræmi við svæðisbundið þarfir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="286">
+          <source>The file also should contain the recently introduced by Litware, Inc. XML node presenting SWIFT bank code in accordance to country requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skráin ætti einnig að innihalda, nýlega kynnta af Litware, Inc., XML-hnúta sem setur fram SWIFT-kóða í samræmi við svæðisbundið þarfir.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

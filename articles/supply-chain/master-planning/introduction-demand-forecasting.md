@@ -1,92 +1,207 @@
----
-title: Yfirlit eftirspurnarspár
-description: Eftirspurnarspá er notuð til að spá fyrir um óháða eftirspurn úr sölupöntunum og háð eftirspurn á hvaða aftengingarpunkti sem er fyrir pantanir viðskiptavina. Stækkuð eftirspurnarspár lækkunarreglur í Microsoft Dynamics AX veita tilvalda lausn fyrir fjöldasérsnið.
-author: roxanadiaconu
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ReqDemPlanCreateForecastDialog
-audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-ms.custom: 72004
-ms.assetid: 916707c9-1333-460f-a0fa-4e95f6fda2ad
-ms.search.region: global
-ms.search.industry: Manufacturing
-ms.author: roxanad
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a645ee6f7e6085abc6e872d490b078f512c15aa1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552370"
----
-# <a name="demand-forecasting-overview"></a><span data-ttu-id="1455d-104">Yfirlit eftirspurnarspár</span><span class="sxs-lookup"><span data-stu-id="1455d-104">Demand forecasting overview</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="1455d-105">Eftirspurnarspá er notuð til að spá fyrir um óháða eftirspurn úr sölupöntunum og háð eftirspurn á hvaða aftengingarpunkti sem er fyrir pantanir viðskiptavina.</span><span class="sxs-lookup"><span data-stu-id="1455d-105">Demand forecasting is used to predict independent demand from sales orders and dependent demand at any decoupling point for customer orders.</span></span> <span data-ttu-id="1455d-106">Stækkuð eftirspurnarspár lækkunarreglur í Microsoft Dynamics AX veita tilvalda lausn fyrir fjöldasérsnið.</span><span class="sxs-lookup"><span data-stu-id="1455d-106">The enhanced demand forecast reduction rules provide an ideal solution for mass customization.</span></span>
-
-<span data-ttu-id="1455d-107">Til að mynda grunnlínuspá, yfirlit yfir færslur eru sendar Microsoft Azure Námsvélarþjónusta sem er hýst á Azure.</span><span class="sxs-lookup"><span data-stu-id="1455d-107">To generate the baseline forecast, a summary of historical transactions is passed to a Microsoft Azure Machine Learning service that is hosted on Azure.</span></span> <span data-ttu-id="1455d-108">Þar sem þessi þjónusta er ekki samnýtt á milli notenda, er auðvelt að breyta henni til að uppfylla sérstakar faglegar þarfir.</span><span class="sxs-lookup"><span data-stu-id="1455d-108">Because this service isn't shared among users, it can easily be customized to meet industry-specific requirements.</span></span> <span data-ttu-id="1455d-109">Hægt er að nota Finance and Operations til að sjá fyrir spána, leiðrétta spá og skoða afkastavísa (KPI) um nákvæmni eftirspurnarspár.</span><span class="sxs-lookup"><span data-stu-id="1455d-109">You can use Finance and Operations to visualize the forecast, adjust the forecast, and view key performance indicators (KPIs) about forecast accuracy.</span></span>
-
-## <a name="key-features-of-demand-forecasting"></a><span data-ttu-id="1455d-110">Lykilaðgerðir eftirspurnarspár</span><span class="sxs-lookup"><span data-stu-id="1455d-110">Key features of demand forecasting</span></span>
-<span data-ttu-id="1455d-111">Hér eru sumar aðal aðgerðir eftirspurnarspár:</span><span class="sxs-lookup"><span data-stu-id="1455d-111">Here are some of the main features of demand forecasting:</span></span>
-
--   <span data-ttu-id="1455d-112">Úbúa tölfræðilega grunnlínuspá sem er byggð á sögulegum gögnum.</span><span class="sxs-lookup"><span data-stu-id="1455d-112">Generate a statistical baseline forecast that is based on historical data.</span></span>
--   <span data-ttu-id="1455d-113">Nota gagnvirkt safn spávídda.</span><span class="sxs-lookup"><span data-stu-id="1455d-113">Use a dynamic set of forecast dimensions.</span></span>
--   <span data-ttu-id="1455d-114">Sjá fyrir eftirspurnarmynstur, °fullvissu bil og leiðréttingar á spá.</span><span class="sxs-lookup"><span data-stu-id="1455d-114">Visualize demand trends, confidence intervals, and adjustments of the forecast.</span></span>
--   <span data-ttu-id="1455d-115">Heimila notkun á leiðréttu spánni í ferli áætlunargerðar.</span><span class="sxs-lookup"><span data-stu-id="1455d-115">Authorize the adjusted forecast to be used in planning processes.</span></span>
--   <span data-ttu-id="1455d-116">Fjarlægja frávik.</span><span class="sxs-lookup"><span data-stu-id="1455d-116">Remove outliers.</span></span>
--   <span data-ttu-id="1455d-117">Stofna mælingar nákvæmni eftirspurnarspár.</span><span class="sxs-lookup"><span data-stu-id="1455d-117">Create measurements of forecast accuracy.</span></span>
-
-## <a name="major-themes-in-demand-forecasting"></a><span data-ttu-id="1455d-118">Aðalþemu í eftirspurnarspá</span><span class="sxs-lookup"><span data-stu-id="1455d-118">Major themes in demand forecasting</span></span>
-<span data-ttu-id="1455d-119">Þrjú aðalþemu sem eru innleidd í°eftirspurnarspár:</span><span class="sxs-lookup"><span data-stu-id="1455d-119">Three major themes are implemented in demand forecasting:</span></span>
-
--   <span data-ttu-id="1455d-120">**Einingastig** – eftirspurnarspár eru°uppbyggðar úr einingum og auðvelt að skilgreina.</span><span class="sxs-lookup"><span data-stu-id="1455d-120">**Modularity** – Demand forecasting is modular and easy to configure.</span></span> <span data-ttu-id="1455d-121">Hægt er að kveikja og slökkva á virkninni með því að breyta skilgreiningarlyklinum á **Viðskipti** &gt; **Birgðaspá** &gt; **Eftirspurnarspár**.</span><span class="sxs-lookup"><span data-stu-id="1455d-121">You can turn the functionality on and off by changing the configuration key at **Trade** &gt; **Inventory forecast** &gt; **Demand forecasting**.</span></span>
--   <span data-ttu-id="1455d-122">**Endurnýting stafla Microsoft**– Microsoft°ýtti úr vör vélnámssvæði í Febrúar 2015.</span><span class="sxs-lookup"><span data-stu-id="1455d-122">**Reuse of the Microsoft stack** – Microsoft launched the Machine Learning platform in February 2015.</span></span> <span data-ttu-id="1455d-123">Vélnám sem er nú hluti af Microsoft Cortana Greiningarsafni gerir kleift á fljótlegan og auðveldan hátt að stofna spágreiningartilraunir, svo sem eftirspurnaráætlunartilraunir, með því að nota°algoritma R eða Python forritunartungumál og einfalt draga-sleppa viðmót.</span><span class="sxs-lookup"><span data-stu-id="1455d-123">Machine Learning, which is now part of the Microsoft Cortana Analytics Suite, lets you quickly and easily create predictive analysis experiments, such as demand estimation experiments, by using algorithms R or Python programming languages and a simple drag-and-drop interface.</span></span>
-    -   <span data-ttu-id="1455d-124">Hægt er að hlaða niður eftirspurnarspátilraunum Finance and Operations, breyta þeim til að uppfylla þínar viðskiptaþarfir, gefa þær út sem vefþjónustu á Azure og nota þær til að mynda eftirspurnarspár.</span><span class="sxs-lookup"><span data-stu-id="1455d-124">You can download the Finance and Operations Demand forecasting experiments, change them to meet your business requirements, publish them as a web service on Azure, and use them to generate demand forecasts.</span></span> <span data-ttu-id="1455d-125">Tilraunirnar eru tiltækar fyrir niðurhal ef áskrift að Finance and Operations fyrir skipulagningu framleiðslu hefur verið keypt af notanda á fyrirtækissviði.</span><span class="sxs-lookup"><span data-stu-id="1455d-125">The experiments are available for download if you've purchased a Finance and Operations subscription for a production planner as enterprise level user.</span></span>
-    -   <span data-ttu-id="1455d-126">Hægt er að hlaða niður öllum fyrirliggjandi eftirspurnarspátilraunum úr [Cortana Greiningar Gallery](https://gallery.cortanaanalytics.com/).</span><span class="sxs-lookup"><span data-stu-id="1455d-126">You can download any of the currently available demand prediction experiments from the [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/).</span></span> <span data-ttu-id="1455d-127">Aftur á móti, þar sem eftirspurnarspártilraunir Finance andr Operations eru sjálfkrafa samþættar Finance and Operations, þurfa viðskiptavinir og samstarfsaðilar að beita samþættingu tilrauna sem þeir hlaða niður úr [Cortana-greiningasafni](https://gallery.cortanaanalytics.com/).</span><span class="sxs-lookup"><span data-stu-id="1455d-127">Whereas the Finance and Operations Demand forecasting experiments are automatically integrated with Finance and Operations, customers and partners must handle the integration of experiments that they download from the [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/).</span></span> <span data-ttu-id="1455d-128">Þess vegna eru tilraunir úr [Cortana-greiningarsafni](https://gallery.cortanaanalytics.com/) ekki jafneinfaldar í notkun og eftirspurnarspátilraunir Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="1455d-128">Therefore, experiments from the [Cortana Analytics Gallery](https://gallery.cortanaanalytics.com/) aren't as straightforward to use as the Finance and Operations Demand forecasting experiments.</span></span> <span data-ttu-id="1455d-129">Það þarf að breyta kóða á tilraununum þannig að þær noti forritunarviðmót (API) Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="1455d-129">You must modify the code of the experiments so that they use the Finance and Operations application programming interface (API).</span></span>
-    -   <span data-ttu-id="1455d-130">Hægt er að stofna eigin°tilraunir í Microsoft Azure Vélnámsveri, birta þær sem þjónustu á Azure og nota þær til að stofna eftirspurnarspár.</span><span class="sxs-lookup"><span data-stu-id="1455d-130">You can create your own experiments in Microsoft Azure Machine Learning Studio, publish them as services on Azure, and use them to generate demand forecasts.</span></span>
-    -   <span data-ttu-id="1455d-131">Ef ekki er krafist mikilla afkasta eða ef ekki þarf að vinna°mikið af gögnum er hægt að nota ókeypis Vélnáms Lag.</span><span class="sxs-lookup"><span data-stu-id="1455d-131">If you don’t require high performance, or if you don't require that a large amount of data be processed, you can use the Machine Learning free tier.</span></span> <span data-ttu-id="1455d-132">Mælt er með að alltaf ræsa úr°þessu lagi,°sérstaklega°við innleiðingu og prófana áfanga.</span><span class="sxs-lookup"><span data-stu-id="1455d-132">We recommend that you always start from this tier, especially during implementation and testing phases.</span></span> <span data-ttu-id="1455d-133">Ef°krafist er meiri afkasta og°viðbótar geymslu, hægt er að nota staðlaða lags Vél Nám.</span><span class="sxs-lookup"><span data-stu-id="1455d-133">If you require higher performance and additional storage, you can use the Machine Learning standard tier.</span></span> <span data-ttu-id="1455d-134">Þetta lag krefst Azure áskriftar og felur í sér auka kostnað.</span><span class="sxs-lookup"><span data-stu-id="1455d-134">This tier requires an Azure subscription and involves additional costs.</span></span> <span data-ttu-id="1455d-135">Nánari upplýsingar um verðlagningu Vélnáms er að finna í <http://aka.ms/machine-learning-price-info>.</span><span class="sxs-lookup"><span data-stu-id="1455d-135">For details about Machine Learning pricing, see <http://aka.ms/machine-learning-price-info>.</span></span>
--   <span data-ttu-id="1455d-136">**Lækkun spár á hvaða aftengingarpunkti sem er** – Eftirspurnarspár í Finance and Operations byggja á þessari virkni, sem gerir kleift að spá bæði háðri og óháðri eftirspurn á hvaða aftengingarpunkti sem er.</span><span class="sxs-lookup"><span data-stu-id="1455d-136">**Forecast reduction at any decoupling point** – Demand forecasting in Finance and Operations builds on this functionality, which lets you forecast both dependent and independent demand at any decoupling point.</span></span>
-
-## <a name="basic-flow-in-demand-forecasting"></a><span data-ttu-id="1455d-137">Grunnflæði í eftirspurnarspá</span><span class="sxs-lookup"><span data-stu-id="1455d-137">Basic flow in demand forecasting</span></span>
-<span data-ttu-id="1455d-138">Eftirfarandi skýringarmynd sýnir vinnsluflæði fyrir eftirspurnarspá.</span><span class="sxs-lookup"><span data-stu-id="1455d-138">The following diagram shows the basic flow in demand forecasting.</span></span> 
-
-<span data-ttu-id="1455d-139">[![inngangur skýringarmynd eftirspurnarspár](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)</span><span class="sxs-lookup"><span data-stu-id="1455d-139">[![demand forecasting introduction diagram](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)</span></span>
-
-<span data-ttu-id="1455d-140">Myndun eftirspurnarspár hefst í Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="1455d-140">Demand forecast generation starts in Finance and Operations.</span></span> <span data-ttu-id="1455d-141">Sögulegum færslugögnum úr Finance and Operations gagnagrunninum er safnað saman og fyllt inn í millistigsvistunartöflu.</span><span class="sxs-lookup"><span data-stu-id="1455d-141">Historical transactional data from the Finance and Operations transactional database is gathered and populates a staging table.</span></span> <span data-ttu-id="1455d-142">Þessi millistigvistunartafla er síðar færð í vélnámsþjónustu. Með því að framkvæma lágmarks sérsnið, er hægt að setja ýmsar gagnaveitur í millistigsvistunartöfluna</span><span class="sxs-lookup"><span data-stu-id="1455d-142">This staging table is later fed to a Machine Learning service.</span></span> <span data-ttu-id="1455d-143">Þessi millistigvistunartafla er síðar færð í vélnámsþjónustu. Með því að framkvæma lágmarks sérsnið, er hægt að setja ýmsar gagnaveitur í millistigsvistunartöfluna</span><span class="sxs-lookup"><span data-stu-id="1455d-143">By performing minimal customization, you can plug various data sources into the staging table.</span></span> <span data-ttu-id="1455d-144">Gagnaveiturnar geta meðal annars verið Microsoft Excel skrár, skrár með kommuskiptum gildum (CSV) og gögn úr Microsoft Dynamics AX 2009 og Microsoft Dynamics AX 2012.</span><span class="sxs-lookup"><span data-stu-id="1455d-144">The data sources can include Microsoft Excel files, comma-separated value (CSV) files, and data from Microsoft Dynamics AX 2009 and Microsoft Dynamics AX 2012.</span></span> <span data-ttu-id="1455d-145">Þess vegna er hægt að mynda eftirspurnarspár sem íhuga söguleg gögn sem dreifast á milli margra kerfa.</span><span class="sxs-lookup"><span data-stu-id="1455d-145">Therefore, you can generate demand forecasts that consider historical data that is spread among multiple systems.</span></span> <span data-ttu-id="1455d-146">Hins vegar aðalgögn eins og vörunúmer og°mælieiningar,°verður að vera það sama milli°mismunandi gagnagjafa.</span><span class="sxs-lookup"><span data-stu-id="1455d-146">However, the master data, such as item names and units of measure, must be the same across the various data sources.</span></span>
-
-<span data-ttu-id="1455d-147">Ef notaðar eru vélnámstilraunir fyrir eftirspurnarspár í Finance and Operations leita þær að því sem passar best milli fimm tímaraða spáaðferða til að reikna út grunnlínuspá.</span><span class="sxs-lookup"><span data-stu-id="1455d-147">If you use the Finance and Operations Demand forecasting Machine Learning experiments, they look for a best fit among five time series forecasting methods to calculate a baseline forecast.</span></span> <span data-ttu-id="1455d-148">Færibreytur fyrir þessar spáaðferðir eru meðhöndlaðar í Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="1455d-148">The parameters for these forecasting methods are managed in Finance and Operations.</span></span> 
-
-<span data-ttu-id="1455d-149">Spár, söguleg gögn og allar breytingar sem gerðar voru á eftirspurnarspám í fyrri ítrekunum eru svo tiltækar í Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="1455d-149">The forecasts, historical data, and any changes that were made to the demand forecasts in previous iterations are then available in Finance and Operations.</span></span> 
-
-<span data-ttu-id="1455d-150">Hægt er að nota Finance and Operations til að sjá fyrir og breyta grunnlínuspám.</span><span class="sxs-lookup"><span data-stu-id="1455d-150">You can use Finance and Operations to visualize and modify the baseline forecasts.</span></span> <span data-ttu-id="1455d-151">Handvirkar leiðréttingar°þarf að heimila áður en hægt er að nota spár til að gera áætlanir.</span><span class="sxs-lookup"><span data-stu-id="1455d-151">Manual adjustments must be authorized before the forecasts can be used for planning.</span></span>
-
-## <a name="limitations"></a><span data-ttu-id="1455d-152">Takmarkanir</span><span class="sxs-lookup"><span data-stu-id="1455d-152">Limitations</span></span>
-<span data-ttu-id="1455d-153">Eftirspurnarspá í Finance and Operations er verkfæri sem auðveldar viðskiptavini í framleiðsluiðnaði að stofna spáferli.</span><span class="sxs-lookup"><span data-stu-id="1455d-153">Demand forecasting in Finance and Operations is a tool that helps customers in the manufacturing industry create forecasting processes.</span></span> <span data-ttu-id="1455d-154">Hún býður upp á grunnaðgerðir lausn eftirspurnarspár og er hönnuð þannig að auðvelt sé að víkka hana út.</span><span class="sxs-lookup"><span data-stu-id="1455d-154">It offers the core functionality of a demand forecasting solution and is designed so that it can easily be extended.</span></span> <span data-ttu-id="1455d-155">Eftirspurnarspá hentar hugsanlega ekki vel fyrir viðskiptavini í iðnaði eins og smásölu, heildsölu, vöruhúsum, flutningi eða annars konar°fagþjónustu.</span><span class="sxs-lookup"><span data-stu-id="1455d-155">Demand forecasting might not be the best fit for customers in industries such as retail, wholesale, warehousing, transportation, or other professional services.</span></span>
-
-<a name="additional-resources"></a><span data-ttu-id="1455d-156">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="1455d-156">Additional resources</span></span>
---------
-
-[<span data-ttu-id="1455d-157">Uppsetning eftirspurnarspár</span><span class="sxs-lookup"><span data-stu-id="1455d-157">Demand forecasting setup</span></span>](demand-forecasting-setup.md)
-
-[<span data-ttu-id="1455d-158">Mynda tölfræðilega grunnlínuspá</span><span class="sxs-lookup"><span data-stu-id="1455d-158">Generating a statistical baseline forecast</span></span>](generate-statistical-baseline-forecast.md)
-
-[<span data-ttu-id="1455d-159">Gera handvirkar leiðréttingar á grunnlínuspánni</span><span class="sxs-lookup"><span data-stu-id="1455d-159">Making manual adjustments to the baseline forecast</span></span>](manual-adjustments-baseline-forecast.md)
-
-[<span data-ttu-id="1455d-160">Heimila leiðrétta spá</span><span class="sxs-lookup"><span data-stu-id="1455d-160">Authorizing the adjusted forecast</span></span>](authorize-adjusted-forecast.md)
-
-[<span data-ttu-id="1455d-161">Fylgjast með nákvæmni spár</span><span class="sxs-lookup"><span data-stu-id="1455d-161">Monitoring forecast accuracy</span></span>](monitor-forecast-accuracy.md)
-
-[<span data-ttu-id="1455d-162">Fjarlægja frávik úr sögulegum færslugögn við útreikning á eftirspurnarspá</span><span class="sxs-lookup"><span data-stu-id="1455d-162">Remove outliers from historical transaction data when calculating a demand forecast</span></span>](remove-historical-outliers-calculating-demand-forecast.md)
-
-[<span data-ttu-id="1455d-163">Framlengja virkni eftirspurnarspár</span><span class="sxs-lookup"><span data-stu-id="1455d-163">Extend the demand forecasting functionality</span></span>](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="introduction-demand-forecasting.md" target-language="is-is">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>introduction-demand-forecasting.9075b2.b71fde2d1b56b237dec2a08d3bd27e8ba6c35fef.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>b71fde2d1b56b237dec2a08d3bd27e8ba6c35fef</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>574d4dda83dcab94728a3d35fc53ee7e2b90feb0</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\supply-chain\master-planning\introduction-demand-forecasting.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Demand forecasting overview</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yfirlit eftirspurnarspár</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>Demand forecasting is used to predict independent demand from sales orders and dependent demand at any decoupling point for customer orders.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftirspurnarspá er notuð til að spá fyrir um óháða eftirspurn úr sölupöntunum og háð eftirspurn á hvaða aftengingarpunkti sem er fyrir pantanir viðskiptavina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103" restype="x-metadata">
+          <source>The enhanced demand forecast reduction rules provide an ideal solution for mass customization.</source>
+        <target logoport:matchpercent="0" state="translated">Lækkunarreglur aukinnar eftirspurnarspáar veita tilvalda lausn fyrir fjöldasérsnið.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>Demand forecasting overview</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yfirlit eftirspurnarspár</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Demand forecasting is used to predict independent demand from sales orders and dependent demand at any decoupling point for customer orders.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftirspurnarspá er notuð til að spá fyrir um óháða eftirspurn úr sölupöntunum og háð eftirspurn á hvaða aftengingarpunkti sem er fyrir pantanir viðskiptavina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>The enhanced demand forecast reduction rules provide an ideal solution for mass customization.</source>
+        <target logoport:matchpercent="0" state="translated">Lækkunarreglur aukinnar eftirspurnarspáar veita tilvalda lausn fyrir fjöldasérsnið.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>To generate the baseline forecast, a summary of historical transactions is passed to a Microsoft Azure Machine Learning service that is hosted on Azure.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að mynda grunnlínuspá, yfirlit yfir færslur eru sendar Microsoft Azure Námsvélarþjónusta sem er hýst á Azure.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Because this service isn't shared among users, it can easily be customized to meet industry-specific requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þar sem þessi þjónusta er ekki samnýtt á milli notenda, er auðvelt að breyta henni til að uppfylla sérstakar faglegar þarfir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>You can use Finance and Operations to visualize the forecast, adjust the forecast, and view key performance indicators (KPIs) about forecast accuracy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að nota Finance and Operations til að sjá fyrir spána, leiðrétta spá og skoða afkastavísa (KPI) um nákvæmni eftirspurnarspár.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Key features of demand forecasting</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lykilaðgerðir eftirspurnarspár</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Here are some of the main features of demand forecasting:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hér eru sumar aðal aðgerðir eftirspurnarspár:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Generate a statistical baseline forecast that is based on historical data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Úbúa tölfræðilega grunnlínuspá sem er byggð á sögulegum gögnum.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Use a dynamic set of forecast dimensions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nota gagnvirkt safn spávídda.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Visualize demand trends, confidence intervals, and adjustments of the forecast.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sjá fyrir eftirspurnarmynstur, °fullvissu bil og leiðréttingar á spá.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Authorize the adjusted forecast to be used in planning processes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Heimila notkun á leiðréttu spánni í ferli áætlunargerðar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Remove outliers.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fjarlægja frávik.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Create measurements of forecast accuracy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stofna mælingar nákvæmni eftirspurnarspár.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Major themes in demand forecasting</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aðalþemu í eftirspurnarspá</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Three major themes are implemented in demand forecasting:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þrjú aðalþemu sem eru innleidd í°eftirspurnarspár:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source><bpt id="p1">**</bpt>Modularity<ept id="p1">**</ept> – Demand forecasting is modular and easy to configure.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Einingastig<ept id="p1">**</ept> – eftirspurnarspár eru°uppbyggðar úr einingum og auðvelt að skilgreina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>You can turn the functionality on and off by changing the configuration key at <bpt id="p1">**</bpt>Trade<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Inventory forecast<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Demand forecasting<ept id="p3">**</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að kveikja og slökkva á virkninni með því að breyta skilgreiningarlyklinum á <bpt id="p1">**</bpt>Viðskipti<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Birgðaspá<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Eftirspurnarspár<ept id="p3">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source><bpt id="p1">**</bpt>Reuse of the Microsoft stack<ept id="p1">**</ept> – Microsoft launched the Machine Learning platform in February 2015.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Endurnýting stafla Microsoft<ept id="p1">**</ept>– Microsoft°ýtti úr vör vélnámssvæði í Febrúar 2015.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Machine Learning, which is now part of the Microsoft Cortana Analytics Suite, lets you quickly and easily create predictive analysis experiments, such as demand estimation experiments, by using algorithms R or Python programming languages and a simple drag-and-drop interface.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vélnám sem er nú hluti af Microsoft Cortana Greiningarsafni gerir kleift á fljótlegan og auðveldan hátt að stofna spágreiningartilraunir, svo sem eftirspurnaráætlunartilraunir, með því að nota°algoritma R eða Python forritunartungumál og einfalt draga-sleppa viðmót.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>You can download the Finance and Operations Demand forecasting experiments, change them to meet your business requirements, publish them as a web service on Azure, and use them to generate demand forecasts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að hlaða niður eftirspurnarspátilraunum Finance and Operations, breyta þeim til að uppfylla þínar viðskiptaþarfir, gefa þær út sem vefþjónustu á Azure og nota þær til að mynda eftirspurnarspár.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>The experiments are available for download if you've purchased a Finance and Operations subscription for a production planner as enterprise level user.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tilraunirnar eru tiltækar fyrir niðurhal ef áskrift að Finance and Operations fyrir skipulagningu framleiðslu hefur verið keypt af notanda á fyrirtækissviði.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>You can download any of the currently available demand prediction experiments from the <bpt id="p1">[</bpt>Cortana Analytics Gallery<ept id="p1">](https://gallery.cortanaanalytics.com/)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að hlaða niður öllum fyrirliggjandi eftirspurnarspátilraunum úr <bpt id="p1">[</bpt>Cortana Greiningar Gallery<ept id="p1">](https://gallery.cortanaanalytics.com/)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Whereas the Finance and Operations Demand forecasting experiments are automatically integrated with Finance and Operations, customers and partners must handle the integration of experiments that they download from the <bpt id="p1">[</bpt>Cortana Analytics Gallery<ept id="p1">](https://gallery.cortanaanalytics.com/)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aftur á móti, þar sem eftirspurnarspártilraunir Finance andr Operations eru sjálfkrafa samþættar Finance and Operations, þurfa viðskiptavinir og samstarfsaðilar að beita samþættingu tilrauna sem þeir hlaða niður úr <bpt id="p1">[</bpt>Cortana-greiningasafni<ept id="p1">](https://gallery.cortanaanalytics.com/)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Therefore, experiments from the <bpt id="p1">[</bpt>Cortana Analytics Gallery<ept id="p1">](https://gallery.cortanaanalytics.com/)</ept> aren't as straightforward to use as the Finance and Operations Demand forecasting experiments.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þess vegna eru tilraunir úr <bpt id="p1">[</bpt>Cortana-greiningarsafni<ept id="p1">](https://gallery.cortanaanalytics.com/)</ept> ekki jafneinfaldar í notkun og eftirspurnarspátilraunir Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>You must modify the code of the experiments so that they use the Finance and Operations application programming interface (API).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Það þarf að breyta kóða á tilraununum þannig að þær noti forritunarviðmót (API) Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>You can create your own experiments in Microsoft Azure Machine Learning Studio, publish them as services on Azure, and use them to generate demand forecasts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að stofna eigin°tilraunir í Microsoft Azure Vélnámsveri, birta þær sem þjónustu á Azure og nota þær til að stofna eftirspurnarspár.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>If you don’t require high performance, or if you don't require that a large amount of data be processed, you can use the Machine Learning free tier.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef ekki er krafist mikilla afkasta eða ef ekki þarf að vinna°mikið af gögnum er hægt að nota ókeypis Vélnáms Lag.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>We recommend that you always start from this tier, especially during implementation and testing phases.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mælt er með að alltaf ræsa úr°þessu lagi,°sérstaklega°við innleiðingu og prófana áfanga.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>If you require higher performance and additional storage, you can use the Machine Learning standard tier.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef°krafist er meiri afkasta og°viðbótar geymslu, hægt er að nota staðlaða lags Vél Nám.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>This tier requires an Azure subscription and involves additional costs.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Þetta lag krefst Azure áskriftar og felur í sér auka kostnað.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>For details about Machine Learning pricing, see <bpt id="p1">[</bpt>Machine Learning Studio pricing<ept id="p1">](https://aka.ms/machine-learning-price-info)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nánari upplýsingar um verðlagningu Vélnáms er að finna í <bpt id="p1">[</bpt>Verðlagning vélnámsstúdíós<ept id="p1">](https://aka.ms/machine-learning-price-info)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source><bpt id="p1">**</bpt>Forecast reduction at any decoupling point<ept id="p1">**</ept> – Demand forecasting in Finance and Operations builds on this functionality, which lets you forecast both dependent and independent demand at any decoupling point.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Lækkun spár á hvaða aftengingarpunkti sem er<ept id="p1">**</ept> – Eftirspurnarspár í Finance and Operations byggja á þessari virkni, sem gerir kleift að spá bæði háðri og óháðri eftirspurn á hvaða aftengingarpunkti sem er.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Basic flow in demand forecasting</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Grunnflæði í eftirspurnarspá</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>The following diagram shows the basic flow in demand forecasting.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftirfarandi skýringarmynd sýnir vinnsluflæði fyrir eftirspurnarspá.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>demand forecasting introduction diagram<ept id="p1">](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>inngangur skýringarmynd eftirspurnarspár<ept id="p1">](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Demand forecast generation starts in Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Myndun eftirspurnarspár hefst í Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>Historical transactional data from the Finance and Operations transactional database is gathered and populates a staging table.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sögulegum færslugögnum úr Finance and Operations gagnagrunninum er safnað saman og fyllt inn í millistigsvistunartöflu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>This staging table is later fed to a Machine Learning service.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi millistigvistunartafla er síðar færð í vélnámsþjónustu. Með því að framkvæma lágmarks sérsnið, er hægt að setja ýmsar gagnaveitur í millistigsvistunartöfluna</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>By performing minimal customization, you can plug various data sources into the staging table.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi millistigvistunartafla er síðar færð í vélnámsþjónustu. Með því að framkvæma lágmarks sérsnið, er hægt að setja ýmsar gagnaveitur í millistigsvistunartöfluna</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>The data sources can include Microsoft Excel files, comma-separated value (CSV) files, and data from Microsoft Dynamics AX 2009 and Microsoft Dynamics AX 2012.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gagnaveiturnar geta meðal annars verið Microsoft Excel skrár, skrár með kommuskiptum gildum (CSV) og gögn úr Microsoft Dynamics AX 2009 og Microsoft Dynamics AX 2012.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>Therefore, you can generate demand forecasts that consider historical data that is spread among multiple systems.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þess vegna er hægt að mynda eftirspurnarspár sem íhuga söguleg gögn sem dreifast á milli margra kerfa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>However, the master data, such as item names and units of measure, must be the same across the various data sources.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hins vegar aðalgögn eins og vörunúmer og°mælieiningar,°verður að vera það sama milli°mismunandi gagnagjafa.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>If you use the Finance and Operations Demand forecasting Machine Learning experiments, they look for a best fit among five time series forecasting methods to calculate a baseline forecast.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef notaðar eru vélnámstilraunir fyrir eftirspurnarspár í Finance and Operations leita þær að því sem passar best milli fimm tímaraða spáaðferða til að reikna út grunnlínuspá.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>The parameters for these forecasting methods are managed in Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Færibreytur fyrir þessar spáaðferðir eru meðhöndlaðar í Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>The forecasts, historical data, and any changes that were made to the demand forecasts in previous iterations are then available in Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Spár, söguleg gögn og allar breytingar sem gerðar voru á eftirspurnarspám í fyrri ítrekunum eru svo tiltækar í Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>You can use Finance and Operations to visualize and modify the baseline forecasts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að nota Finance and Operations til að sjá fyrir og breyta grunnlínuspám.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>Manual adjustments must be authorized before the forecasts can be used for planning.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Handvirkar leiðréttingar°þarf að heimila áður en hægt er að nota spár til að gera áætlanir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Limitations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Takmarkanir</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>Demand forecasting in Finance and Operations is a tool that helps customers in the manufacturing industry create forecasting processes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftirspurnarspá í Finance and Operations er verkfæri sem auðveldar viðskiptavini í framleiðsluiðnaði að stofna spáferli.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>It offers the core functionality of a demand forecasting solution and is designed so that it can easily be extended.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hún býður upp á grunnaðgerðir lausn eftirspurnarspár og er hönnuð þannig að auðvelt sé að víkka hana út.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>Demand forecasting might not be the best fit for customers in industries such as retail, wholesale, warehousing, transportation, or other professional services.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftirspurnarspá hentar hugsanlega ekki vel fyrir viðskiptavini í iðnaði eins og smásölu, heildsölu, vöruhúsum, flutningi eða annars konar°fagþjónustu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Additional resources</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Frekari upplýsingar</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source><bpt id="p1">[</bpt>Demand forecasting setup<ept id="p1">](demand-forecasting-setup.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Uppsetning eftirspurnarspár<ept id="p1">](demand-forecasting-setup.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source><bpt id="p1">[</bpt>Generating a statistical baseline forecast<ept id="p1">](generate-statistical-baseline-forecast.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Mynda tölfræðilega grunnlínuspá<ept id="p1">](generate-statistical-baseline-forecast.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source><bpt id="p1">[</bpt>Making manual adjustments to the baseline forecast<ept id="p1">](manual-adjustments-baseline-forecast.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Gera handvirkar leiðréttingar á grunnlínuspánni<ept id="p1">](manual-adjustments-baseline-forecast.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source><bpt id="p1">[</bpt>Authorizing the adjusted forecast<ept id="p1">](authorize-adjusted-forecast.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Heimila leiðrétta spá<ept id="p1">](authorize-adjusted-forecast.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source><bpt id="p1">[</bpt>Monitoring forecast accuracy<ept id="p1">](monitor-forecast-accuracy.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Fylgjast með nákvæmni spár<ept id="p1">](monitor-forecast-accuracy.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source><bpt id="p1">[</bpt>Remove outliers from historical transaction data when calculating a demand forecast<ept id="p1">](remove-historical-outliers-calculating-demand-forecast.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Fjarlægja frávik úr sögulegum færslugögn við útreikning á eftirspurnarspá<ept id="p1">](remove-historical-outliers-calculating-demand-forecast.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source><bpt id="p1">[</bpt>Extend the demand forecasting functionality<ept id="p1">](https://www.youtube.com/watch?v=4OIKIXLiNjI&amp;feature=youtu.be)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Framlengja virkni eftirspurnarspár<ept id="p1">](https://www.youtube.com/watch?v=4OIKIXLiNjI&amp;feature=youtu.be)</ept></target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

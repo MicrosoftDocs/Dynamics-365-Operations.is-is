@@ -1,109 +1,369 @@
----
-title: Setja upp ytri vörulista fyrir PunchOut eProcurement
-description: Þetta efnisatriði lýsir notkun ytri vörulista eða punchout vörulista til að safna tilboðsbeiðni upplýsingar frá lánardrottni og bæta við innkaupabeiðnina.
-author: mkirknel
-manager: AnnBe
-ms.date: 11/02/2017
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: PurchTable, PurchVendorPortalRequests
-audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-ms.custom: 30211
-ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
-ms.search.region: Global
-ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc3879492f230b9477c6e5efd2edc8e1e4aca0a2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571635"
----
-# <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a><span data-ttu-id="ef0e3-103">Setja upp ytri vörulista fyrir PunchOut eProcurement</span><span class="sxs-lookup"><span data-stu-id="ef0e3-103">Set up an external catalog for PunchOut eProcurement</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="ef0e3-104">Með því að nota ytri vörulista er hægt að tryggja að upplýsingar um vöru og verð sem er síðan unnið úr í Dynamics 365 for Finance and Operations, júlí 2017, eru nákvæmar og uppfærðar.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-104">By using the external catalog, you can ensure that the product and price information that you subsequently process in Dynamics 365 for Finance and Operations July 2017 is accurate and up to date.</span></span> <span data-ttu-id="ef0e3-105">Beiðnin getur þá verið samþykkt og umbreytt í sölupöntun og pöntun geta verið staðsettir á lánardrottni.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-105">The requisition can then be approved and converted to a purchase order and an order can be placed at the vendor.</span></span>
-
-<span data-ttu-id="ef0e3-106">Þegar ytri vörulista er að setja upp og starfsmaður undirbúning beiðni verða valkost til að beina fastakostnaði ytra setur, ytri vörulista og fara aftur í innkaupakörfu sína sem var búin til á ytra setur.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-106">When the external catalog is set up and an employee is preparing a requisition, there will be an option to redirect to an external site, the external catalog, and return the shopping basket that was created at the external site.</span></span> <span data-ttu-id="ef0e3-107">Þessu samskiptaaðferðar byggist á samskiptareglur cXML og það hefur á að vera uppsett á milli kerfanna af sem kaupa og fyrirtæki seljanda.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-107">This communication is based on the cXML protocol and it has to be set up between the systems of the buying and the selling organization.</span></span>
-
-<span data-ttu-id="ef0e3-108">Til að setja upp samskiptum lánardrottninum verður að veita stykki upplýsinga til að nota í configuraiton af vörulistanum ytri Kenni léns fyrirtækisins dreifingu, t.d. "DUNS" og "DUNS númer", eins og notendaheimildir og Vefslóð til að ná lánardrottna vörulista.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-108">To set up the communication, your vendor has to provide pieces of information for you to use in the configuraiton of the external catalog such as Identity, domain of the buyers company, for example, "DUNS" and "DUNS number", credentials, and the URL to reach the vendors catalog.</span></span>
-
-## <a name="setting-up-an-external-catalog"></a><span data-ttu-id="ef0e3-109">Setja upp ytri vörulista</span><span class="sxs-lookup"><span data-stu-id="ef0e3-109">Setting up an external catalog</span></span>
-
-<span data-ttu-id="ef0e3-110">Ytri vörulista ætti að gera starfsmanns sem fer á innkaupabeiðni til að vera leyfður á ytra setur til að velja vörur.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-110">The external catalog should enable an employee who enters a purchase requisition to be redirected to an external site to select products.</span></span> <span data-ttu-id="ef0e3-111">Vörunum sem starfsmaðurinn velur úr ytri vörulista er skilað til Dynamics 365 for Finance and Operations með uppfærðum upplýsingum um verð og héðan er hægt bæta þeim við innkaupabeiðnina.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-111">The products that the employee selects from the external catalog are returned to Dynamics 365 for Finance and Operations with up-to-date price information and from here, they can be added to the purchase requisition.</span></span> <span data-ttu-id="ef0e3-112">Spurningarmerki sem á að leyfa starfsmönnum að leggja inn pöntun á ytra setur.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-112">The intention is not to enable employees to place an order on the external site.</span></span> <span data-ttu-id="ef0e3-113">Þegar uppsetningu ytri vörulista þarf að ganga úr skugga um að tilgangur sem aðgangur hlýst að með ytri vörulista er safnað tilboðsbeiðni en ekki raunverulegum pöntun.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-113">When setting up the external catalog, you need to make sure that the purpose of the site that can be accessed by the external catalog is to collect quote information and not to place a real order.</span></span>
-
-### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a><span data-ttu-id="ef0e3-114">Til að setja upp lista með ytri lánardrottni skal ljúka eftirfarandi verkum:</span><span class="sxs-lookup"><span data-stu-id="ef0e3-114">To set up an external vendor catalog, complete the following tasks:</span></span>
-
-1. <span data-ttu-id="ef0e3-115">Setja upp tegundastigveldi innkaupa</span><span class="sxs-lookup"><span data-stu-id="ef0e3-115">Set up a procurement category hierarchy.</span></span> <span data-ttu-id="ef0e3-116">Sjá [Uppsetningarstefnur fyrir stigveldi innkaupaflokkunar](tasks/set-up-policies-procurement-category-hierarchies.md) fyrir frekari upplýsingar um hvernig setja á upp stigveldi innkaupategundar.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-116">For more information, see [Set up policies for procurement category hierarchies](tasks/set-up-policies-procurement-category-hierarchies.md).</span></span>
-2. <span data-ttu-id="ef0e3-117">Skrá lánardrottins Fjármál og Aðgerða.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-117">Register the vendor in Finance and Operations.</span></span> <span data-ttu-id="ef0e3-118">Áður en hægt er að setja upp skilgreiningu til að fá aðgang að ytri vörulista lánardrottins, verður að setja lánardrottin upp og tengilið lánardrottins í Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-118">Before you can set up configurations to access an external vendor’s catalog, you must set up the vendor and the vendor contact in Microsoft Dynamics 365.</span></span> <span data-ttu-id="ef0e3-119">Lánardrottni ytri vörulista verður einnig að vera bætt við valda innkaupategund.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-119">The external catalog’s vendor must also be added to the selected procurement category.</span></span> <span data-ttu-id="ef0e3-120">Nánari upplýsingar um hvernig á að skrá lánardrottna í Microsoft Dynamics 365 er að finna í [Stjórna notendum fyrir samstarf lánardrottna](manage-vendor-collaboration-users.md).</span><span class="sxs-lookup"><span data-stu-id="ef0e3-120">For more information about registering vendors in Microsoft Dynamics 365, see [Manage vendor collaboration users](manage-vendor-collaboration-users.md).</span></span> <span data-ttu-id="ef0e3-121">Sjá upplýsingar um hvernig á að úthluta á innkaupaflokknum lánardrottins [Samþykkja lánardrottnar fyrir tiltekið innkaupaflokkana](tasks/approve-vendors-specific-procurement-categories.md).</span><span class="sxs-lookup"><span data-stu-id="ef0e3-121">For information about how to assign vendors to a procurement category, see [Approve vendors for specific procurement categories](tasks/approve-vendors-specific-procurement-categories.md).</span></span>
-3. <span data-ttu-id="ef0e3-122">Gangið úr skugga um að eininga mælieiningin og gjaldmiðilinn sem lánardrottinn notar eru settir.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-122">Make sure that the units of measure and the currency that the vendor uses are set up.</span></span> <span data-ttu-id="ef0e3-123">Til að fá upplýsingar hvernig eigi að stofna mælieiningu, sjá [Stjórnun mælieininga](../pim/tasks/manage-unit-measure.md).</span><span class="sxs-lookup"><span data-stu-id="ef0e3-123">For information about how to create a unit of measure, see [Manage units of measure](../pim/tasks/manage-unit-measure.md).</span></span>
-4. <span data-ttu-id="ef0e3-124">Skilgreinið vörulista ytri lánardrottni þarfir fyrir ytri vörulista setur við lánardrottinn.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-124">Configure the external vendor catalog by using the requirements for your vendor’s external catalog site.</span></span> <span data-ttu-id="ef0e3-125">Frekari upplýsingar um þetta verk er að finna í [Grunnstilla ytri vörulista lánardrottins](#configure-the-external-vendor-catalog).</span><span class="sxs-lookup"><span data-stu-id="ef0e3-125">For more details about this task, see [Configure the external vendor catalog](#configure-the-external-vendor-catalog).</span></span>
-5. <span data-ttu-id="ef0e3-126">Prófa málskipan lánardrottins ytri vörulista afbrigði til að staðfesta stillingar séu gildar og sem hægt er að nálgast ytri vörulista lánardrottins.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-126">Test the vendor’s external catalog configurations to verify that the settings are valid and that you can access the vendor’s external catalog.</span></span> <span data-ttu-id="ef0e3-127">Notaðu aðgerðina **Villuleita stillingar** til að villuleita skilaboð með beiðni um uppsetningu sem hefur verið skilgreind.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-127">Use the **Validate settings** action to validate the request setup message that you’ve defined.</span></span> <span data-ttu-id="ef0e3-128">Þessi skilaboð ættu að valda því að ytra vörulistasvæði lánardrottna verði opnað í vafraglugga.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-128">This message should cause the vendors external catalog site to be opened in a browser window.</span></span> <span data-ttu-id="ef0e3-129">Við villuleit, ekki er hægt að panta vörur og þjónustu frá lánardrottni.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-129">During validation, you can’t order items and services from the vendor.</span></span> <span data-ttu-id="ef0e3-130">Til að panta vörur og þjónustu, er verður að nálgast lánardrottins vörulista við innkaupabeiðnina.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-130">To order items and services, you must access the vendor’s catalog from a purchase requisition.</span></span>
-6. <span data-ttu-id="ef0e3-131">Virkjaðu ytri vörulista með því að nota hnappinn **Virkja vörulista** á síðunni **Ytri vörulistar**.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-131">Activate the external catalog by using the **Activate catalog** button on the **External catalogs** page.</span></span> <span data-ttu-id="ef0e3-132">Virkja verður ytri vörulista áður en starfsmenn geta notað hann.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-132">The external catalog must be activated before employees can use it.</span></span> <span data-ttu-id="ef0e3-133">Hægt er að gera ytri vörulista hvenær sem er.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-133">You can inactivate the external catalog at any time.</span></span>
-
-
-## <a name="configure-the-external-vendor-catalog"></a><span data-ttu-id="ef0e3-134">Grunnstilling ytri vörulista lánardrottins</span><span class="sxs-lookup"><span data-stu-id="ef0e3-134">Configure the external vendor catalog</span></span>
-
-<span data-ttu-id="ef0e3-135">Þessi hluti veitir frekari upplýsingar um verkefni 4 í undanfarandi hluta.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-135">This section gives more details about task 4 in the preceding section.</span></span>
-
-1. <span data-ttu-id="ef0e3-136">Heiti og lýsing eru færð inn fyrir ytri vörulista lánardrottins.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-136">Enter a name and description for the vendor’s external catalog.</span></span> <span data-ttu-id="ef0e3-137">Nafnið sem er fært inn mun birtast á körfu sem stendur fyrir ytri vörulista sem sýndur er á milli starfsmanna sem stofnar beiðni.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-137">The name that you enter will appear on the cart that represents the external catalog that is shown to employees who creates a requisition.</span></span> <span data-ttu-id="ef0e3-138">Starfsmenn geta smellið á körfu til að opna vörulista lánardrottins ytri vörulista staðsetningu.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-138">Employees can click on the cart to open the catalog on the vendor’s external catalog site.</span></span>
-2. <span data-ttu-id="ef0e3-139">Bættu við mynd með því að nota aðgerðina  **Mynd í ytri vörulista**.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-139">Add an image by using the **External catalog image** action.</span></span> <span data-ttu-id="ef0e3-140">Myndin birtast körfu sem stendur fyrir ytri vörulista sem eru sýndar til starfsmanna sem búa til innkaupabeiðni.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-140">The image will appear on the cart that represents the external catalog that is shown to employees who create a requisition.</span></span> <span data-ttu-id="ef0e3-141">Athugið að breidd og hæð í mynd verður að vera jafnar.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-141">Note that the image’s width and height must be equal.</span></span> <span data-ttu-id="ef0e3-142">Annars myndarinnar won't birtist ekki rétt.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-142">Otherwise the image won’t be displayed correctly.</span></span>
-3. <span data-ttu-id="ef0e3-143">Veldu hvort vefsvæði ytri vörulista lánardrottins eigi að birtast í sama vafraglugga og þar sem starfsmaður bjó til beiðnina, eða opnast í nýjum glugga.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-143">Select whether the vendor’s external catalog website should appear in the same browser window as the one where the employee has created the requisition, or if it should open in a new window.</span></span>
-4. <span data-ttu-id="ef0e3-144">Veldu lánardrottinn fyrir vörulistann.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-144">Select the vendor for the catalog.</span></span> <span data-ttu-id="ef0e3-145">Í því **lögaðila** er engin línu fyrir hverja lögaðili sem lánardrottininn verið settur upp.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-145">In the **Legal entities** list, there is a row for each legal entity where the vendor is set up.</span></span> <span data-ttu-id="ef0e3-146">Til að leyfa notendum að biðja um vörur beint frá vörulista lánardrottins í sumum lögaðilum en ekki öðrum, geturðu notað hnappinn **Hindra aðgang** eða **Leyfa aðgang** fyrir hvern lögaðila þar sem þú vilt að vörulistinn verði annaðhvort í boði eða ekki.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-146">To allow users to request products directly from the vendor’s catalog in some legal entities but not others, you can use the **Prevent access** or **Allow access** button for each legal entity where you want the catalog to be or not to be available.</span></span>
-5. <span data-ttu-id="ef0e3-147">Í því **Sjálfgefin gildistíma (Dagar)** skal slá inn fjölda daga sem tilboð frá ytri vörulista gildir og hægt er að nota til að kaupa frá ytri lánardrottni.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-147">In the **Default expiration (Days)** field, enter the number of days that a quotation received from the external catalog is valid and can be used to purchase from the external vendor.</span></span> <span data-ttu-id="ef0e3-148">Þegar tilboð er stofnað og sótt úr svæði ytri vörulista lánardrottinsins, er tilboðið gilt frá og með núverandi kerfisdagsetningu, og er gild fyrir fjölda daga sem eru færðir inn í þetta svæði.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-148">When a quotation is created and retrieved from the vendor’s external catalog site, the quotation is valid as of the current system date and remains valid for the number of days that you enter in this field.</span></span>
-6. <span data-ttu-id="ef0e3-149">Smellið á **Bæta** hnappinn til að hefja innkaupaflokkana vörpun á ytri vörulistann.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-149">Click the **Add** button to start mapping the procurement categories to the external catalog.</span></span><span data-ttu-id="ef0e3-150"> Síðan skal velja flokk í lista yfir flokksheiti.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-150"> Then, in the Category name list, select a category.</span></span> <span data-ttu-id="ef0e3-151">Lista yfir tegundir er tákna innkaupaflokkana sem lánardrottinn hefur verið varpað í öllum lögaðila sem eru settir fyrir lánardrottinn.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-151">The list of categories is a superset of procurement categories that the vendor has been mapped to in all the legal entities that are set up for the vendor.</span></span>
-[!NOTE]
-<span data-ttu-id="ef0e3-152">Innkaup reglur eru notaðar til að leyfa eða takmarka aðgang við kaupa lögaðili eða móttöku rekstrarfærslna einingu.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-152">Procurement policies are used to allow or restrict access to categories for the buying legal entity or receiving operating unit.</span></span><span data-ttu-id="ef0e3-153"> Útskráning úr ytri vörulista krefst þess að aðgangur sé leyfður fyrir að minnsta kosti einn af innkaupaflokkunum sem eru varpaðir í vörulistann.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-153"> Punchout to an external catalog requires that access be allowed to at least one of the procurement categories that is mapped to the catalog.</span></span>
-7. <span data-ttu-id="ef0e3-154">Setja upp cXML uppsetningu beiðni skilaboðin sem er sendur lánardrottni.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-154">Set up the cXML setup request message that will be sent to the vendor.</span></span> <span data-ttu-id="ef0e3-155">Skilaboðasniðið myndaðar eru um sniðmát sem eru nauðsynlegar til að hefja svarsetu.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-155">The automatically generated message format is the minimal template that is required in order to start a session.</span></span> <span data-ttu-id="ef0e3-156">Fylla verður í gildi fyrir seðlana í.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-156">Fill in values for the tags.</span></span>
-
-<span data-ttu-id="ef0e3-157">Endurhlaða má kerfismynduðu sniðmáti skilaboða hvenær sem er með því að smella á **Endurheimta sniðmát skilaboða**. </span><span class="sxs-lookup"><span data-stu-id="ef0e3-157">At any time, you can reload the system-generated message template by clicking **Restore message format**. </span></span>
-<span data-ttu-id="ef0e3-158">Athugaðu að ef þú endurheimtir sniðmát skilaboða verður núverandi skilaboðum skipt út fyrir sjálfvirka myndun á sniðmáti skilaboða, sem hefur tóm merki.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-158">Note that if you restore the message format, the current message will be replaced by the automatically generated message format, which has empty tags.</span></span>
-
-### <a name="cxml-setup-message"></a><span data-ttu-id="ef0e3-159">Uppsetning cXML skilaboð</span><span class="sxs-lookup"><span data-stu-id="ef0e3-159">cXML setup message</span></span>
-<span data-ttu-id="ef0e3-160">Hér að neðan er hægt að finna lýsingu á merki sem eru hafðar með í sniðmátinu:</span><span class="sxs-lookup"><span data-stu-id="ef0e3-160">Below you can find a description of the tags that are included in the template:</span></span>
-
-| <span data-ttu-id="ef0e3-161">Svæði</span><span class="sxs-lookup"><span data-stu-id="ef0e3-161">Field</span></span> | <span data-ttu-id="ef0e3-162">lýsing</span><span class="sxs-lookup"><span data-stu-id="ef0e3-162">Description</span></span> | 
-|---------|---------|
-|<span data-ttu-id="ef0e3-163">< Header >< From >< Credential domain=”” ></span><span class="sxs-lookup"><span data-stu-id="ef0e3-163">< Header >< From >< Credential domain=”” ></span></span>|<span data-ttu-id="ef0e3-164">Umdæmi í dreifing fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-164">The domain of the buyer’s company.</span></span>|
-|<span data-ttu-id="ef0e3-165">< Header >< From >< Credential>< Identity >< /Identity ></span><span class="sxs-lookup"><span data-stu-id="ef0e3-165">< Header >< From >< Credential>< Identity >< /Identity ></span></span> | <span data-ttu-id="ef0e3-166">Kenni fyrirtækisins í dreifingu.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-166">The identity of the buyer’s company.</span></span>|
-|<span data-ttu-id="ef0e3-167">< Header >< To >< Credential domain=”” ></span><span class="sxs-lookup"><span data-stu-id="ef0e3-167">< Header >< To >< Credential domain=”” ></span></span> | <span data-ttu-id="ef0e3-168">Umdæmi lánardrottins í fyrirtækinu.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-168">The domain of the vendor’s company.</span></span>|
-|<span data-ttu-id="ef0e3-169">< Header >< To >< Credential>< Identity >< /Identity></span><span class="sxs-lookup"><span data-stu-id="ef0e3-169">< Header >< To >< Credential>< Identity >< /Identity></span></span> | <span data-ttu-id="ef0e3-170">Kenni fyrirtækisins lánardrottins.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-170">The identity of the vendor’s company.</span></span>|
-|<span data-ttu-id="ef0e3-171">< Header >< Sender >< Credential domain=”” ></span><span class="sxs-lookup"><span data-stu-id="ef0e3-171">< Header >< Sender >< Credential domain=”” ></span></span> | <span data-ttu-id="ef0e3-172">Umdæmi í dreifing fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-172">The domain of the buyer’s company.</span></span>|
-|<span data-ttu-id="ef0e3-173">< Header >< Sender >< Credential >< Identity >< /Identity></span><span class="sxs-lookup"><span data-stu-id="ef0e3-173">< Header >< Sender >< Credential >< Identity >< /Identity></span></span> | <span data-ttu-id="ef0e3-174">Kenni fyrirtækisins í dreifingu.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-174">The identity of the buyer’s company.</span></span>|
-|<span data-ttu-id="ef0e3-175">< Header >< Sender >< Credential >< SharedSecret >< /SharedSecret ></span><span class="sxs-lookup"><span data-stu-id="ef0e3-175">< Header >< Sender >< Credential >< SharedSecret >< /SharedSecret ></span></span>|<span data-ttu-id="ef0e3-176">Samnýttu secret á dreifing fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-176">The shared secret for the buyer’s company.</span></span>|
-|<span data-ttu-id="ef0e3-177">< Request deploymentMode=”” ></span><span class="sxs-lookup"><span data-stu-id="ef0e3-177">< Request deploymentMode=”” ></span></span>|<span data-ttu-id="ef0e3-178">Í prófunar- eða nets.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-178">The test or production deployment.</span></span>|
-|<span data-ttu-id="ef0e3-179">< Request >< PunchOutSetupRequest >< SupplierSetup >< URL >< /URL></span><span class="sxs-lookup"><span data-stu-id="ef0e3-179">< Request >< PunchOutSetupRequest >< SupplierSetup >< URL >< /URL></span></span>|<span data-ttu-id="ef0e3-180">Veffang lánardrottins punchout endastöð.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-180">The URL of the vendor’s punchout endpoint.</span></span>|
-
-### <a name="extrinsic-elements"></a><span data-ttu-id="ef0e3-181">Extrinsic einingar</span><span class="sxs-lookup"><span data-stu-id="ef0e3-181">Extrinsic elements</span></span>
-
-<span data-ttu-id="ef0e3-182">Extrinsic þáttur eru viðbótarupplýsingar á borð við notandanafn sem byggja á notandanum sem stimplar sig út. Extrinsic þáttur er stilltur þegar stimplað er út og hægt er að senda það í skilaboðum með beiðni um uppsetningu.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-182">An extrinsic element is additional information, such as a user name that is based on a user that punches out. The extrinsic element is set when the punchout occurs and it can be sent in the request setup message.</span></span>
-<span data-ttu-id="ef0e3-183">Lánadrottninum gæti verið þarfir fyrir móttöku extrinsic einingu í uppsetningu.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-183">Your vendor could have a requirement for receiving an extrinsic element in the setup request.</span></span> <span data-ttu-id="ef0e3-184">Í því tilfelli ættir þú að bæta við extrinsic-einingu í listann yfir extrinsic-einingar í hlutanum **Sniðmát skilaboða** á síðunni **Ytri vörulisti**.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-184">In that case, you should add the extrinsic element to the list of extrinsic elements in the **Message format** section of the **External catalog** page.</span></span> <span data-ttu-id="ef0e3-185">Tilgreinið nafn extrinsic einingarinnar sem lánardrottinn getur þekkja og tengið það gildi.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-185">Specify a name for the extrinsic element that the vendor can recognize and map it to a value.</span></span> <span data-ttu-id="ef0e3-186">Valkostir gildi eru: notandanafn, tölvupósts Notanda eða Random gildi.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-186">The options for values are: User name, User email, or Random value.</span></span>
-<span data-ttu-id="ef0e3-187">Fyrir nánari upplýsingar um cXML samskiptareglur skal sjá: http://cxml.org/</span><span class="sxs-lookup"><span data-stu-id="ef0e3-187">For more information about the cXML protocol, see: http://cxml.org/</span></span>
-
-## <a name="post-back-message"></a><span data-ttu-id="ef0e3-188">Skilaboð aftur</span><span class="sxs-lookup"><span data-stu-id="ef0e3-188">Post back message</span></span>
-<span data-ttu-id="ef0e3-189">Skilaboð til baka eru skilaboðin sem fengin eru frá lánardrottni þegar notandi skráir sig út úr ytra svæði og fer aftur í Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-189">The post back message is the message that is received from the vendor when the user checks out from the external site and returns to Finance and Operations.</span></span> <span data-ttu-id="ef0e3-190">Ekki er hægt að stilla skilaboð til baka.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-190">Post back messages can’t be configured.</span></span> <span data-ttu-id="ef0e3-191">Skilaboðin eru byggð á skilgreiningu á cXML samskiptareglunni.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-191">The messages are based on the cXML protocol definition.</span></span><span data-ttu-id="ef0e3-192"> Hér eru þær upplýsingar sem geta verið hluti af skilaboðum til baka sem eru móttekin á innkaupabeiðnilínu:</span><span class="sxs-lookup"><span data-stu-id="ef0e3-192"> Here is the information that can be part of the post back message that is received on a requisition line:</span></span>
-
-| <span data-ttu-id="ef0e3-193">Skilaboðin sem berast frá lánardrottni</span><span class="sxs-lookup"><span data-stu-id="ef0e3-193">Message received from vendor</span></span> | <span data-ttu-id="ef0e3-194">Afrita línu Fjármál og Aðgerðir</span><span class="sxs-lookup"><span data-stu-id="ef0e3-194">Copied to requisition line in Finance and Operations</span></span>|
-|------------------------------|----------------------------------------------------------|
-|<span data-ttu-id="ef0e3-195">< ItemIn quantity=”” ></span><span class="sxs-lookup"><span data-stu-id="ef0e3-195">< ItemIn quantity=”” ></span></span> |<span data-ttu-id="ef0e3-196">Magn</span><span class="sxs-lookup"><span data-stu-id="ef0e3-196">Quantity</span></span>|
-|<span data-ttu-id="ef0e3-197">< ItemIn>< ItemID >< SupplierPartID >< /SupplierPartID ></span><span class="sxs-lookup"><span data-stu-id="ef0e3-197">< ItemIn>< ItemID >< SupplierPartID >< /SupplierPartID ></span></span>|<span data-ttu-id="ef0e3-198">Kenni ytra atriðis</span><span class="sxs-lookup"><span data-stu-id="ef0e3-198">External item ID</span></span>|
-|<span data-ttu-id="ef0e3-199">< ItemDetail>< UnitPrice >< Money currency=”” ></span><span class="sxs-lookup"><span data-stu-id="ef0e3-199">< ItemDetail>< UnitPrice >< Money currency=”” ></span></span>| <span data-ttu-id="ef0e3-200">Gjaldmiðill</span><span class="sxs-lookup"><span data-stu-id="ef0e3-200">Currency</span></span>|
-|<span data-ttu-id="ef0e3-201">< ItemDetail >< UnitPrice >< Money >< /Money ></span><span class="sxs-lookup"><span data-stu-id="ef0e3-201">< ItemDetail >< UnitPrice >< Money >< /Money ></span></span>| <span data-ttu-id="ef0e3-202">Einingarverð</span><span class="sxs-lookup"><span data-stu-id="ef0e3-202">Unit price</span></span>|
-|<span data-ttu-id="ef0e3-203">< ItemDetail >< Description ShortName=”” ></span><span class="sxs-lookup"><span data-stu-id="ef0e3-203">< ItemDetail >< Description ShortName=”” ></span></span>|<span data-ttu-id="ef0e3-204">Afurðarnafn</span><span class="sxs-lookup"><span data-stu-id="ef0e3-204">Product name</span></span>|
-|<span data-ttu-id="ef0e3-205">< ItemDetail >< Description >< /Description ></span><span class="sxs-lookup"><span data-stu-id="ef0e3-205">< ItemDetail >< Description >< /Description ></span></span>|<span data-ttu-id="ef0e3-206">Í vörulýsing; Heiti vöru ef ShortName er ekki tilgreindur.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-206">Included in item description; Product name if ShortName is not specified.</span></span>|
-|<span data-ttu-id="ef0e3-207">< ItemDetail >< UnitOfMeasure >< /UnitOfMeasure ></span><span class="sxs-lookup"><span data-stu-id="ef0e3-207">< ItemDetail >< UnitOfMeasure >< /UnitOfMeasure ></span></span>|<span data-ttu-id="ef0e3-208">Eining</span><span class="sxs-lookup"><span data-stu-id="ef0e3-208">Unit</span></span>|
-|<span data-ttu-id="ef0e3-209">< ItemDetail >< Classification >< /Classification ></span><span class="sxs-lookup"><span data-stu-id="ef0e3-209">< ItemDetail >< Classification >< /Classification ></span></span>|<span data-ttu-id="ef0e3-210">Í vörulýsingu</span><span class="sxs-lookup"><span data-stu-id="ef0e3-210">Included in item description</span></span>|
-|<span data-ttu-id="ef0e3-211">< ItemDetail >< Classification domain=”” ></span><span class="sxs-lookup"><span data-stu-id="ef0e3-211">< ItemDetail >< Classification domain=”” ></span></span>|<span data-ttu-id="ef0e3-212">Í vörulýsingu</span><span class="sxs-lookup"><span data-stu-id="ef0e3-212">Included in item description</span></span>|
-
-## <a name="delete-an-external-catalog"></a><span data-ttu-id="ef0e3-213">Eyða ytri vörulista</span><span class="sxs-lookup"><span data-stu-id="ef0e3-213">Delete an external catalog</span></span>
-<span data-ttu-id="ef0e3-214">Ytri vörulista með Eyða aðgerðin á að eyða.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-214">Delete an external catalog with the Delete action on the page.</span></span>
-
-<span data-ttu-id="ef0e3-215">Ef vöru úr vörulista ytri lánardrottinn hefur verið beðið um, ekki er hægt að eyða vörulista ytri lánardrottni.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-215">If a product from the external vendor catalog has been requested, the external vendor catalog cannot be deleted.</span></span> <span data-ttu-id="ef0e3-216">Þess í stað stöðu vörulista ytri lánardrottni fest óvirk.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-216">Instead, the status of the external vendor catalog is set to inactive.</span></span> <span data-ttu-id="ef0e3-217">Ef þú vilt fjarlægja aðgang að setrinu vörulista ytri lánardrottni en ekki að eyða henni, breyta stöðu ytri vörulista Inactive.</span><span class="sxs-lookup"><span data-stu-id="ef0e3-217">If you want to remove access to the external vendor’s catalog site, but not delete it, change the external catalog status to Inactive.</span></span>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="set-up-external-catalog-for-punchout.md" target-language="is-is">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>set-up-external-catalog-for-punchout.474d96.39baa331120d765543c3cf662ce53d2bcfe404ab.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>39baa331120d765543c3cf662ce53d2bcfe404ab</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>574d4dda83dcab94728a3d35fc53ee7e2b90feb0</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\supply-chain\procurement\set-up-external-catalog-for-punchout.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Set up an external catalog for PunchOut eProcurement</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Setja upp ytri vörulista fyrir PunchOut eProcurement</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic describes the use of an  external catalog or punchout catalog to collect quote information from a vendor and add it to a requisition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þetta efnisatriði lýsir notkun ytri vörulista eða punchout vörulista til að safna tilboðsbeiðni upplýsingar frá lánardrottni og bæta við innkaupabeiðnina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Set up an external catalog for PunchOut eProcurement</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Setja upp ytri vörulista fyrir PunchOut eProcurement</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>By using the external catalog, you can ensure that the product and price information that you subsequently process in Dynamics 365 for Finance and Operations July 2017 is accurate and up to date.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Með því að nota ytri vörulista er hægt að tryggja að upplýsingar um vöru og verð sem er síðan unnið úr í Dynamics 365 for Finance and Operations, júlí 2017, eru nákvæmar og uppfærðar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>The requisition can then be approved and converted to a purchase order and an order can be placed at the vendor.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Beiðnin getur þá verið samþykkt og umbreytt í sölupöntun og pöntun geta verið staðsettir á lánardrottni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>When the external catalog is set up and an employee is preparing a requisition, there will be an option to redirect to an external site, the external catalog, and return the shopping basket that was created at the external site.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar ytri vörulista er að setja upp og starfsmaður undirbúning beiðni verða valkost til að beina fastakostnaði ytra setur, ytri vörulista og fara aftur í innkaupakörfu sína sem var búin til á ytra setur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>This communication is based on the cXML protocol and it has to be set up between the systems of the buying and the selling organization.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessu samskiptaaðferðar byggist á samskiptareglur cXML og það hefur á að vera uppsett á milli kerfanna af sem kaupa og fyrirtæki seljanda.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>To set up the communication, your vendor has to provide pieces of information for you to use in the configuraiton of the external catalog such as Identity, domain of the buyers company, for example, "DUNS" and "DUNS number", credentials, and the URL to reach the vendors catalog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að setja upp samskiptum lánardrottninum verður að veita stykki upplýsinga til að nota í configuraiton af vörulistanum ytri Kenni léns fyrirtækisins dreifingu, t.d. "DUNS" og "DUNS númer", eins og notendaheimildir og Vefslóð til að ná lánardrottna vörulista.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Setting up an external catalog</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Setja upp ytri vörulista</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>The external catalog should enable an employee who enters a purchase requisition to be redirected to an external site to select products.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ytri vörulista ætti að gera starfsmanns sem fer á innkaupabeiðni til að vera leyfður á ytra setur til að velja vörur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>The products that the employee selects from the external catalog are returned to Dynamics 365 for Finance and Operations with up-to-date price information and from here, they can be added to the purchase requisition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vörunum sem starfsmaðurinn velur úr ytri vörulista er skilað til Dynamics 365 for Finance and Operations með uppfærðum upplýsingum um verð og héðan er hægt bæta þeim við innkaupabeiðnina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>The intention is not to enable employees to place an order on the external site.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Spurningarmerki sem á að leyfa starfsmönnum að leggja inn pöntun á ytra setur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>When setting up the external catalog, you need to make sure that the purpose of the site that can be accessed by the external catalog is to collect quote information and not to place a real order.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar uppsetningu ytri vörulista þarf að ganga úr skugga um að tilgangur sem aðgangur hlýst að með ytri vörulista er safnað tilboðsbeiðni en ekki raunverulegum pöntun.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>To set up an external vendor catalog, complete the following tasks:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að setja upp lista með ytri lánardrottni skal ljúka eftirfarandi verkum:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Set up a procurement category hierarchy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Setja upp tegundastigveldi innkaupa</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>For more information, see <bpt id="p1">[</bpt>Set up policies for procurement category hierarchies<ept id="p1">](tasks/set-up-policies-procurement-category-hierarchies.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sjá <bpt id="p1">[</bpt>Uppsetningarstefnur fyrir stigveldi innkaupaflokkunar<ept id="p1">](tasks/set-up-policies-procurement-category-hierarchies.md)</ept> fyrir frekari upplýsingar um hvernig setja á upp stigveldi innkaupategundar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Register the vendor in Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skrá lánardrottins Fjármál og Aðgerða.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Before you can set up configurations to access an external vendor’s catalog, you must set up the vendor and the vendor contact in Microsoft Dynamics 365.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Áður en hægt er að setja upp skilgreiningu til að fá aðgang að ytri vörulista lánardrottins, verður að setja lánardrottin upp og tengilið lánardrottins í Microsoft Dynamics 365.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>The external catalog’s vendor must also be added to the selected procurement category.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lánardrottni ytri vörulista verður einnig að vera bætt við valda innkaupategund.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>For more information about registering vendors in Microsoft Dynamics 365, see <bpt id="p1">[</bpt>Manage vendor collaboration users<ept id="p1">](manage-vendor-collaboration-users.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nánari upplýsingar um hvernig á að skrá lánardrottna í Microsoft Dynamics 365 er að finna í <bpt id="p1">[</bpt>Stjórna notendum fyrir samstarf lánardrottna<ept id="p1">](manage-vendor-collaboration-users.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>For information about how to assign vendors to a procurement category, see <bpt id="p1">[</bpt>Approve vendors for specific procurement categories<ept id="p1">](tasks/approve-vendors-specific-procurement-categories.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sjá upplýsingar um hvernig á að úthluta á innkaupaflokknum lánardrottins <bpt id="p1">[</bpt>Samþykkja lánardrottnar fyrir tiltekið innkaupaflokkana<ept id="p1">](tasks/approve-vendors-specific-procurement-categories.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Make sure that the units of measure and the currency that the vendor uses are set up.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gangið úr skugga um að eininga mælieiningin og gjaldmiðilinn sem lánardrottinn notar eru settir.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>For information about how to create a unit of measure, see <bpt id="p1">[</bpt>Manage units of measure<ept id="p1">](../pim/tasks/manage-unit-measure.md)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að fá upplýsingar hvernig eigi að stofna mælieiningu, sjá <bpt id="p1">[</bpt>Stjórnun mælieininga<ept id="p1">](../pim/tasks/manage-unit-measure.md)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Configure the external vendor catalog by using the requirements for your vendor’s external catalog site.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skilgreinið vörulista ytri lánardrottni þarfir fyrir ytri vörulista setur við lánardrottinn.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>For more details about this task, see <bpt id="p1">[</bpt>Configure the external vendor catalog<ept id="p1">](#configure-the-external-vendor-catalog)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Frekari upplýsingar um þetta verk er að finna í <bpt id="p1">[</bpt>Grunnstilla ytri vörulista lánardrottins<ept id="p1">](#configure-the-external-vendor-catalog)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Test the vendor’s external catalog configurations to verify that the settings are valid and that you can access the vendor’s external catalog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prófa málskipan lánardrottins ytri vörulista afbrigði til að staðfesta stillingar séu gildar og sem hægt er að nálgast ytri vörulista lánardrottins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Use the <bpt id="p1">**</bpt>Validate settings<ept id="p1">**</ept> action to validate the request setup message that you’ve defined.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Notaðu aðgerðina <bpt id="p1">**</bpt>Villuleita stillingar<ept id="p1">**</ept> til að villuleita skilaboð með beiðni um uppsetningu sem hefur verið skilgreind.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>This message should cause the vendors external catalog site to be opened in a browser window.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi skilaboð ættu að valda því að ytra vörulistasvæði lánardrottna verði opnað í vafraglugga.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>During validation, you can’t order items and services from the vendor.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Við villuleit, ekki er hægt að panta vörur og þjónustu frá lánardrottni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>To order items and services, you must access the vendor’s catalog from a purchase requisition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að panta vörur og þjónustu, er verður að nálgast lánardrottins vörulista við innkaupabeiðnina.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Activate the external catalog by using the <bpt id="p1">**</bpt>Activate catalog<ept id="p1">**</ept> button on the <bpt id="p2">**</bpt>External catalogs<ept id="p2">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virkjaðu ytri vörulista með því að nota hnappinn <bpt id="p1">**</bpt>Virkja vörulista<ept id="p1">**</ept> á síðunni <bpt id="p2">**</bpt>Ytri vörulistar<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>The external catalog must be activated before employees can use it.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Virkja verður ytri vörulista áður en starfsmenn geta notað hann.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>You can inactivate the external catalog at any time.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að gera ytri vörulista hvenær sem er.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Configure the external vendor catalog</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Grunnstilling ytri vörulista lánardrottins</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>This section gives more details about task 4 in the preceding section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi hluti veitir frekari upplýsingar um verkefni 4 í undanfarandi hluta.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>Enter a name and description for the vendor’s external catalog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Heiti og lýsing eru færð inn fyrir ytri vörulista lánardrottins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>The name that you enter will appear on the cart that represents the external catalog that is shown to employees who creates a requisition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nafnið sem er fært inn mun birtast á körfu sem stendur fyrir ytri vörulista sem sýndur er á milli starfsmanna sem stofnar beiðni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>Employees can click on the cart to open the catalog on the vendor’s external catalog site.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Starfsmenn geta smellið á körfu til að opna vörulista lánardrottins ytri vörulista staðsetningu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>Add an image by using the<bpt id="p1"> **</bpt>External catalog image<ept id="p1">**</ept> action.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bættu við mynd með því að nota aðgerðina <bpt id="p1"> **</bpt>Mynd í ytri vörulista<ept id="p1">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>The image will appear on the cart that represents the external catalog that is shown to employees who create a requisition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Myndin birtast körfu sem stendur fyrir ytri vörulista sem eru sýndar til starfsmanna sem búa til innkaupabeiðni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>Note that the image’s width and height must be equal.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugið að breidd og hæð í mynd verður að vera jafnar.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>Otherwise the image won’t be displayed correctly.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Annars myndarinnar won't birtist ekki rétt.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>Select whether the vendor’s external catalog website should appear in the same browser window as the one where the employee has created the requisition, or if it should open in a new window.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veldu hvort vefsvæði ytri vörulista lánardrottins eigi að birtast í sama vafraglugga og þar sem starfsmaður bjó til beiðnina, eða opnast í nýjum glugga.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Select the vendor for the catalog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veldu lánardrottinn fyrir vörulistann.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>In the <bpt id="p1">**</bpt>Legal entities<ept id="p1">**</ept> list, there is a row for each legal entity where the vendor is set up.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í því <bpt id="p1">**</bpt>lögaðila<ept id="p1">**</ept> er engin línu fyrir hverja lögaðili sem lánardrottininn verið settur upp.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>To allow users to request products directly from the vendor’s catalog in some legal entities but not others, you can use the <bpt id="p1">**</bpt>Prevent access<ept id="p1">**</ept> or <bpt id="p2">**</bpt>Allow access<ept id="p2">**</ept> button for each legal entity where you want the catalog to be or not to be available.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að leyfa notendum að biðja um vörur beint frá vörulista lánardrottins í sumum lögaðilum en ekki öðrum, geturðu notað hnappinn <bpt id="p1">**</bpt>Hindra aðgang<ept id="p1">**</ept> eða <bpt id="p2">**</bpt>Leyfa aðgang<ept id="p2">**</ept> fyrir hvern lögaðila þar sem þú vilt að vörulistinn verði annaðhvort í boði eða ekki.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>In the <bpt id="p1">**</bpt>Default expiration (Days)<ept id="p1">**</ept> field, enter the number of days that a quotation received from the external catalog is valid and can be used to purchase from the external vendor.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í því <bpt id="p1">**</bpt>Sjálfgefin gildistíma (Dagar)<ept id="p1">**</ept> skal slá inn fjölda daga sem tilboð frá ytri vörulista gildir og hægt er að nota til að kaupa frá ytri lánardrottni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>When a quotation is created and retrieved from the vendor’s external catalog site, the quotation is valid as of the current system date and remains valid for the number of days that you enter in this field.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar tilboð er stofnað og sótt úr svæði ytri vörulista lánardrottinsins, er tilboðið gilt frá og með núverandi kerfisdagsetningu, og er gild fyrir fjölda daga sem eru færðir inn í þetta svæði.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>Click the <bpt id="p1">**</bpt>Add<ept id="p1">**</ept> button to start mapping the procurement categories to the external catalog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á <bpt id="p1">**</bpt>Bæta<ept id="p1">**</ept> hnappinn til að hefja innkaupaflokkana vörpun á ytri vörulistann.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source> Then, in the Category name list, select a category.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Síðan skal velja flokk í lista yfir flokksheiti.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>The list of categories is a superset of procurement categories that the vendor has been mapped to in all the legal entities that are set up for the vendor.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lista yfir tegundir er tákna innkaupaflokkana sem lánardrottinn hefur verið varpað í öllum lögaðila sem eru settir fyrir lánardrottinn.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>Procurement policies are used to allow or restrict access to categories for the buying legal entity or receiving operating unit.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Innkaup reglur eru notaðar til að leyfa eða takmarka aðgang við kaupa lögaðili eða móttöku rekstrarfærslna einingu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source> Punchout to an external catalog requires that access be allowed to at least one of the procurement categories that is mapped to the catalog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Útskráning úr ytri vörulista krefst þess að aðgangur sé leyfður fyrir að minnsta kosti einn af innkaupaflokkunum sem eru varpaðir í vörulistann.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>Set up the cXML setup request message that will be sent to the vendor.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Setja upp cXML uppsetningu beiðni skilaboðin sem er sendur lánardrottni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>The automatically generated message format is the minimal template that is required in order to start a session.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skilaboðasniðið myndaðar eru um sniðmát sem eru nauðsynlegar til að hefja svarsetu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Fill in values for the tags.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fylla verður í gildi fyrir seðlana í.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>At any time, you can reload the system-generated message template by clicking <bpt id="p1">**</bpt>Restore message format<ept id="p1">**</ept>.<ph id="ph1"> </ph></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Endurhlaða má kerfismynduðu sniðmáti skilaboða hvenær sem er með því að smella á <bpt id="p1">**</bpt>Endurheimta sniðmát skilaboða<ept id="p1">**</ept>.<ph id="ph1"> </ph></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>Note that if you restore the message format, the current message will be replaced by the automatically generated message format, which has empty tags.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugaðu að ef þú endurheimtir sniðmát skilaboða verður núverandi skilaboðum skipt út fyrir sjálfvirka myndun á sniðmáti skilaboða, sem hefur tóm merki.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>cXML setup message</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uppsetning cXML skilaboð</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Below you can find a description of the tags that are included in the template:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hér að neðan er hægt að finna lýsingu á merki sem eru hafðar með í sniðmátinu:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>Field</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Svæði</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">lýsing</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>&lt; Header &gt;&lt; From &gt;&lt; Credential domain=”” &gt;</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">&lt; Header &gt;&lt; From &gt;&lt; Credential domain=”” &gt;</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>The domain of the buyer’s company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Umdæmi í dreifing fyrirtækisins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>&lt; Header &gt;&lt; From &gt;&lt; Credential&gt;&lt; Identity &gt;&lt; /Identity &gt;</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">&lt; Header &gt;&lt; From &gt;&lt; Credential&gt;&lt; Identity &gt;&lt; /Identity &gt;</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>The identity of the buyer’s company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kenni fyrirtækisins í dreifingu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>&lt; Header &gt;&lt; To &gt;&lt; Credential domain=”” &gt;</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">&lt; Header &gt;&lt; To &gt;&lt; Credential domain=”” &gt;</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>The domain of the vendor’s company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Umdæmi lánardrottins í fyrirtækinu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>&lt; Header &gt;&lt; To &gt;&lt; Credential&gt;&lt; Identity &gt;&lt; /Identity&gt;</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">&lt; Header &gt;&lt; To &gt;&lt; Credential&gt;&lt; Identity &gt;&lt; /Identity&gt;</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>The identity of the vendor’s company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kenni fyrirtækisins lánardrottins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>&lt; Header &gt;&lt; Sender &gt;&lt; Credential domain=”” &gt;</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">&lt; Header &gt;&lt; Sender &gt;&lt; Credential domain=”” &gt;</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>The domain of the buyer’s company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Umdæmi í dreifing fyrirtækisins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>&lt; Header &gt;&lt; Sender &gt;&lt; Credential &gt;&lt; Identity &gt;&lt; /Identity&gt;</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">&lt; Header &gt;&lt; Sender &gt;&lt; Credential &gt;&lt; Identity &gt;&lt; /Identity&gt;</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>The identity of the buyer’s company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kenni fyrirtækisins í dreifingu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>&lt; Header &gt;&lt; Sender &gt;&lt; Credential &gt;&lt; SharedSecret &gt;&lt; /SharedSecret &gt;</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">&lt; Header &gt;&lt; Sender &gt;&lt; Credential &gt;&lt; SharedSecret &gt;&lt; /SharedSecret &gt;</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>The shared secret for the buyer’s company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Samnýttu secret á dreifing fyrirtækisins.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>&lt; Request deploymentMode=”” &gt;</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">&lt; Request deploymentMode=”” &gt;</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>The test or production deployment.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í prófunar- eða nets.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>&lt; Request &gt;&lt; PunchOutSetupRequest &gt;&lt; SupplierSetup &gt;&lt; URL &gt;&lt; /URL&gt;</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">&lt; Request &gt;&lt; PunchOutSetupRequest &gt;&lt; SupplierSetup &gt;&lt; URL &gt;&lt; /URL&gt;</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>The URL of the vendor’s punchout endpoint.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veffang lánardrottins punchout endastöð.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Extrinsic elements</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Extrinsic einingar</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>An extrinsic element is additional information, such as a user name that is based on a user that punches out. The extrinsic element is set when the punchout occurs and it can be sent in the request setup message.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Extrinsic þáttur eru viðbótarupplýsingar á borð við notandanafn sem byggja á notandanum sem stimplar sig út. Extrinsic þáttur er stilltur þegar stimplað er út og hægt er að senda það í skilaboðum með beiðni um uppsetningu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>Your vendor could have a requirement for receiving an extrinsic element in the setup request.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lánadrottninum gæti verið þarfir fyrir móttöku extrinsic einingu í uppsetningu.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>In that case, you should add the extrinsic element to the list of extrinsic elements in the <bpt id="p1">**</bpt>Message format<ept id="p1">**</ept> section of the <bpt id="p2">**</bpt>External catalog<ept id="p2">**</ept> page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í því tilfelli ættir þú að bæta við extrinsic-einingu í listann yfir extrinsic-einingar í hlutanum <bpt id="p1">**</bpt>Sniðmát skilaboða<ept id="p1">**</ept> á síðunni <bpt id="p2">**</bpt>Ytri vörulisti<ept id="p2">**</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>Specify a name for the extrinsic element that the vendor can recognize and map it to a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tilgreinið nafn extrinsic einingarinnar sem lánardrottinn getur þekkja og tengið það gildi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>The options for values are: User name, User email, or Random value.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Valkostir gildi eru: notandanafn, tölvupósts Notanda eða Random gildi.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>For more information about the cXML protocol, see the <bpt id="p1">[</bpt>cXML.org website<ept id="p1">](http://cxml.org/)</ept>.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fyrir nánari upplýsingar um cXML-samskiptareglur skal sjá <bpt id="p1">[</bpt>cXML.org vefsvæðið<ept id="p1">](http://cxml.org/)</ept>.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Post back message</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Skilaboð aftur</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>The post back message is the message that is received from the vendor when the user checks out from the external site and returns to Finance and Operations.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Skilaboð til baka eru skilaboðin sem fengin eru frá lánardrottni þegar notandi skráir sig út úr ytra svæði og fer aftur í Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Post back messages can’t be configured.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekki er hægt að stilla skilaboð til baka.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>The messages are based on the cXML protocol definition.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skilaboðin eru byggð á skilgreiningu á cXML samskiptareglunni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source> Here is the information that can be part of the post back message that is received on a requisition line:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Hér eru þær upplýsingar sem geta verið hluti af skilaboðum til baka sem eru móttekin á innkaupabeiðnilínu:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>Message received from vendor</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skilaboðin sem berast frá lánardrottni</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>Copied to requisition line in Finance and Operations</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Afrita línu Fjármál og Aðgerðir</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>&lt; ItemIn quantity=”” &gt;</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">&lt; ItemIn quantity=”” &gt;</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>Quantity</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magn</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>&lt; ItemIn&gt;&lt; ItemID &gt;&lt; SupplierPartID &gt;&lt; /SupplierPartID &gt;</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">&lt; ItemIn&gt;&lt; ItemID &gt;&lt; SupplierPartID &gt;&lt; /SupplierPartID &gt;</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>External item ID</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kenni ytra atriðis</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>&lt; ItemDetail&gt;&lt; UnitPrice &gt;&lt; Money currency=”” &gt;</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">&lt; ItemDetail&gt;&lt; UnitPrice &gt;&lt; Money currency=”” &gt;</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>Currency</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gjaldmiðill</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>&lt; ItemDetail &gt;&lt; UnitPrice &gt;&lt; Money &gt;&lt; /Money &gt;</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">&lt; ItemDetail &gt;&lt; UnitPrice &gt;&lt; Money &gt;&lt; /Money &gt;</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Unit price</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Einingarverð</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>&lt; ItemDetail &gt;&lt; Description ShortName=”” &gt;</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">&lt; ItemDetail &gt;&lt; Description ShortName=”” &gt;</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>Product name</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Afurðarnafn</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>&lt; ItemDetail &gt;&lt; Description &gt;&lt; /Description &gt;</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">&lt; ItemDetail &gt;&lt; Description &gt;&lt; /Description &gt;</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>Included in item description; Product name if ShortName is not specified.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í vörulýsing; Heiti vöru ef ShortName er ekki tilgreindur.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>&lt; ItemDetail &gt;&lt; UnitOfMeasure &gt;&lt; /UnitOfMeasure &gt;</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">&lt; ItemDetail &gt;&lt; UnitOfMeasure &gt;&lt; /UnitOfMeasure &gt;</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>Unit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eining</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>&lt; ItemDetail &gt;&lt; Classification &gt;&lt; /Classification &gt;</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">&lt; ItemDetail &gt;&lt; Classification &gt;&lt; /Classification &gt;</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>Included in item description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í vörulýsingu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>&lt; ItemDetail &gt;&lt; Classification domain=”” &gt;</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">&lt; ItemDetail &gt;&lt; Classification domain=”” &gt;</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>Included in item description</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í vörulýsingu</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>Delete an external catalog</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eyða ytri vörulista</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>Delete an external catalog with the Delete action on the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ytri vörulista með Eyða aðgerðin á að eyða.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>If a product from the external vendor catalog has been requested, the external vendor catalog cannot be deleted.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef vöru úr vörulista ytri lánardrottinn hefur verið beðið um, ekki er hægt að eyða vörulista ytri lánardrottni.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>Instead, the status of the external vendor catalog is set to inactive.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þess í stað stöðu vörulista ytri lánardrottni fest óvirk.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="217">
+          <source>If you want to remove access to the external vendor’s catalog site, but not delete it, change the external catalog status to Inactive.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef þú vilt fjarlægja aðgang að setrinu vörulista ytri lánardrottni en ekki að eyða henni, breyta stöðu ytri vörulista Inactive.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
