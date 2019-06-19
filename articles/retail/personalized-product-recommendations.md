@@ -1,165 +1,93 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="personalized-product-recommendations.md" target-language="is-is">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>personalized-product-recommendations.8ef0a6.c73bc10332329e81986a259969f8fe34b57f4ee6.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>c73bc10332329e81986a259969f8fe34b57f4ee6</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>e2fb0846fcc6298050a0ec82c302e5eb5254e0b5</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/27/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\retail\personalized-product-recommendations.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Personalized product recommendations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sérsniðnar afurðaráðleggingar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic has information about the Dynamics 365 for Retail product recommendations that can be displayed on the point of sale (POS) device.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þetta efnisatriði inniheldur upplýsingar ráðleggingar fyrir Dynamics 365 for Retail vörur sem hægt er að birta í sölustaðartæki.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Personalized product recommendations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sérsniðiðnar vöruráðleggingar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>We are removing the current version of the product recommendation service as we redesign this feature with a better algorithm and newer retail-oriented capabilities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Núverandi útgáfa af ráðleggingaþjónustu vörunnar verður fjarlægð og eiginleikinn endurhannaður með betra reikniriti og nýrri smásölumiðuðum möguleikum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>For more information see <bpt id="p1">[</bpt>Removed or deprecated features<ept id="p1">](../dev-itpro/migration-upgrade/deprecated-features.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sjá <bpt id="p1">[</bpt>Fjarlægðir eða úreltir eiginleikar<ept id="p1">](../dev-itpro/migration-upgrade/deprecated-features.md)</ept> fyrir frekari upplýsingar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>In Dynamics 365 for Retail, product recommendations can be displayed on the point of sale (POS) device.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í Dynamics 365 for Retail er hægt að birta ráðleggingar um vörur í sölustaðartæki.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>The recommendations are items that the customer might be interested in based on their purchase history, items in their wish list, and items that other customers purchased online and in brick-and-mortar stores.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ráðleggingar eru vörur sem viðskiptavinurinn kann að hafa áhuga á grundvelli sögu innkaupapantanir, vara á óskalista þeirra og vörur sem aðrir viðskiptavinir keyptu á netinu og í verslunum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>For retailers with large catalogs, recommendations help the customer with product discovery.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fyrir smásala með stóra vörulista hjálpa sérsniðnar ráðleggingar viðskiptavinum að finna vörur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>By showcasing products targeted to a customer's interests and buying habits, product recommendations can help retailers with up-sell and cross-sell, and can enhance customer retention.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Með því að sýna afurðir miðað við áhugamál viðskiptavinarins og innkaupavenjur geta vöruráðleggingar aðstoðað smásala við viðbótarsölu og krosssölu og hægt er að auka varðveislu viðskiptavinar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>In Dynamics 365 for Retail, product recommendations are powered by cognitive services and Microsoft Azure machine learning.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í Dynamics 365 for Retail eru vöruráðleggingar keyrðar af vitsmunaþjónustu og Microsoft Azure vélnámi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Scenarios</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sviðsmyndir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Product recommendations are enabled for the following POS scenarios.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vöruráðleggingar eru virkjaðar fyrir eftirfarandi aðstæður sölustaðar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>They are available in Cloud POS or Modern POS (MPOS).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þær eru tiltækar í sölukerfi í skýinu eða Modern POS (MPOS).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>On the <bpt id="p1">**</bpt>Product details<ept id="p1">**</ept> page:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Á síðunni <bpt id="p1">**</bpt>Upplýsingar um afurð<ept id="p1">**</ept>:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>If a store associate visits a <bpt id="p1">**</bpt>Product details<ept id="p1">**</ept> page when looking at previous transactions across different channels, the recommendation engine suggests additional items that are likely to be purchased together.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef aðili tengdur verslun opnar í <bpt id="p1">**</bpt>Upplýsingar um afurð<ept id="p1">**</ept> síðuna þegar hann skoðar fyrri færslur þvert á mismunandi rásir stingur vélin upp á fleiri vörum sem eru líklegar til að vera keyptar saman.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>If the store associate adds a customer to the transaction and then visits a <bpt id="p1">**</bpt>Product details<ept id="p1">**</ept> page, the recommendation engine provides personalized recommendations using the customer's transaction history.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Ef aðili tengdur versluninni bætir viðskiptavini við færsluna og hann heimsækir síðuna <bpt id="p1">**</bpt>Upplýsingar um afurð<ept id="p1">**</ept> stingur vélin upp á persónubundnum efni byggt á viðskiptaferli viðskiptavinarins.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Recommendations on the Product details page<ept id="p1">](./media/proddetails.png)](./media/proddetails.png)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Meðmæli á upplýsingasíðu afurðar<ept id="p1">](./media/proddetails.png)](./media/proddetails.png)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>On the <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> page:</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Á síðunni <bpt id="p1">**</bpt>Færsla<ept id="p1">**</ept>:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>The recommendation engine suggests items based on the entire list of items in the basket.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Ráðlögð vél stingur upp á vörum byggt á öllum vörum í körfunni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>If the store associate adds a customer to the transaction, the recommendation engine provides personal recommendations using the customer's transaction history and the list of items in the basket.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef aðili tengdur versluninni bætir viðskiptavini við færsluna stingur vélin upp á persónubundnu efni byggt á viðskiptaferli viðskiptavinarins og vörum í körfunni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>To display recommendations on the <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> page, the retailer needs to update the screen layout in Dynamics 365 for Retail.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að birta ráðleggingar á síðunni <bpt id="p1">**</bpt>Færsla<ept id="p1">**</ept> þarf smásöluaðilinn að uppfæra skjáútlitið í Dynamics 365 for Retail.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>The <bpt id="p1">**</bpt>Recommendations<ept id="p1">**</ept> control must be dropped on to the <bpt id="p2">**</bpt>Transaction<ept id="p2">**</ept> page.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Sleppa verður stýringunni <bpt id="p1">**</bpt>Ráðleggingar<ept id="p1">**</ept> á síðunni <bpt id="p2">**</bpt>Færsla<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Recommendations on the Transaction page<ept id="p1">](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Meðmæli á færslusíðunni<ept id="p1">](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>On the <bpt id="p1">**</bpt>Customer details<ept id="p1">**</ept> page, the recommendation engine suggests items based on the user ID and items in the customer's wish list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Á síðunni <bpt id="p1">**</bpt>Upplýsingar um viðskiptavin<ept id="p1">**</ept> stingur vélin upp á vörum byggt á notandakenninu og vörum á óskalista viðskiptavinarins.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Recommendations on the Customer details page<ept id="p1">](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Ráðleggingar á upplýsingasíðu viðskiptavinar<ept id="p1">](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Configure Dynamics 365 for Retail to enable POS recommendations</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Skilgreina Dynamics 365 for Retail til að virkja ráðleggingar sölustaðar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>To set up product recommendations, you need to do the following.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Til að setja upp ráðleggingar vöru þarf að gera eftirfarandi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Make sure that you have selected the correct <bpt id="p1">**</bpt>Legal entity<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gangið úr skugga um að réttur <bpt id="p1">**</bpt>Lögaðili<ept id="p1">**</ept> sé valinn.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Navigate to <bpt id="p1">**</bpt>Entity store<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Retail sales<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>Refresh<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Farið í <bpt id="p1">**</bpt>Einingaverslun<ept id="p1">**</ept> veljið <bpt id="p2">**</bpt>Smásala<ept id="p2">**</ept> og smellið á <bpt id="p3">**</bpt>Uppfæra<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>This will use the demo data (or your data) from your operational database and move it to Entity store.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þá eru sýnigögn (eða þín eigin gögn) notuð úr virknifyrirtækisins og þau færð í einingaverslun.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Optional: To display recommendations on the transaction screen, go to <bpt id="p1">**</bpt>Screen Layout<ept id="p1">**</ept>, choose your screen layout, launch the <bpt id="p2">**</bpt>Screen layout designer<ept id="p2">**</ept>, and then drop the <bpt id="p3">**</bpt>recommendations<ept id="p3">**</ept> control where needed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Valfrjálst: Til Að birta ráðleggingar á færsluskjánum, er farið í <bpt id="p1">**</bpt>Útlit Skjás<ept id="p1">**</ept>útlit skjás valið <bpt id="p2">**</bpt>Útlitshönnuður afgreiðsluskjás<ept id="p2">**</ept> opnaður, og svo sleppt stýringunni <bpt id="p3">**</bpt>leiðbeiningar<ept id="p3">**</ept> þar sem þarf.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Go to <bpt id="p1">**</bpt>Retail parameters<ept id="p1">**</ept>, select <bpt id="p2">**</bpt>Machine-learning<ept id="p2">**</ept>, select <bpt id="p3">**</bpt>Yes<ept id="p3">**</ept> under <bpt id="p4">**</bpt>Enable POS recommendations<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Farið í <bpt id="p1">**</bpt>Smásölufæribreytir<ept id="p1">**</ept>, veljið <bpt id="p2">**</bpt>Vélnám<ept id="p2">**</ept> svo <bpt id="p3">**</bpt>Já<ept id="p3">**</ept> undir <bpt id="p4">**</bpt>virkja ráðleggingar sölustaðar<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>To see recommendations on POS, run global configuration job <bpt id="p1">**</bpt>1110<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að sjá ráðleggingar á sölustað skal keyra altæku vinnsluna <bpt id="p1">**</bpt>1110<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>To reflect changes made to POS screen layout designer, run channel configuration job <bpt id="p1">**</bpt>1070<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að endurspegla breytingar á útlitshönnuði sölustaðar skal keyra skilgreiningarvinnslu rásar <bpt id="p1">**</bpt>1070<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>How does it work?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hvernig virkar það?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>When you refresh the <bpt id="p1">**</bpt>Entity store<ept id="p1">**</ept> entity, the following actions take place.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar <bpt id="p1">**</bpt>Einingarverslun<ept id="p1">**</ept> einingin er uppfær eiga eftirfarandi aðgerðir sér stað.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Data in the format required by the Cognitive services is extracted from the Dynamics 365 for Retail operational database and sent to the Entity store.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gögn á sniði sem krafist er af vitsmunaþjónustu eru fengin úr Dynamics 365 for Retail virknigagnagrunni og send í einingaverslunina.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>The data is used by Azure Data Factory (ADF) to cleanse the data using Hive scripts as part of ADF activities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gögnin eru notuð af Azure Data Factory (ADF) til að hreinsa gögnin með Hive-forskriftum sem hluta af ADF verkþáttum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Cleansed data is stored in blob storage.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hreinsuð gögn eru geymd í blob-geymslu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Data from blob storage is used by the Cognitive services API to train a recommendation model.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gögn úr blob-geymslu eru notuð af API vitsmunaþjónustu til að þjálfa ráðlögð líkan.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>When you turn on <bpt id="p1">**</bpt>Enable recommendations<ept id="p1">**</ept> and run the configuration jobs, the following actions take place.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar kveikt er á <bpt id="p1">**</bpt>Virkja ráðleggingar<ept id="p1">**</ept> og skilgreiningarvinnslur eru keyrðar eiga eftirfarandi aðgerðir sér stað.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Model credentials and ID are picked up from the API and stored in the Dynamics 365 for Retail operational database, in the web.config for AOS, and also in the retail server.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Líkanaskilríki og kenni eru sótt úr API og geymd í Dynamics 365 for Retail virknigagnagrunni í web.config for AOS og einnig á smásöluþjóni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Model credentials and ID are made available to CRT so that calls for product recommendations from Cloud POS and MPOS in online mode can be honored.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Líkanaskilríki og auðkenni eru gerð tiltæk á CRT þannig að hægt sé að virða ráðleggingarbeiðnir vara úr sölukerfi í skýinu og MPOS í nettengdri stillingu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Troubleshoot issues where you have Product recommendations already enabled</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finna úrræði á vandamálum þar sem ráðleggingar um vörur hafa þegar verið virkjaðar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Navigate to <bpt id="p1">**</bpt>Retail Parameters<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Machine learning<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Disable product recommendations<ept id="p3">**</ept> and run <bpt id="p4">**</bpt>Global configuration job <ph id="ph3">\[</ph>1110<ph id="ph4">\]</ph><ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Flettið upp á <bpt id="p1">**</bpt>Smásölufæribreytur<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Vélnám<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Slökkva á ráðleggingum um vörur<ept id="p3">**</ept> og keyrið <bpt id="p4">**</bpt>Altæka skilgreiningarvinnslu <ph id="ph3">\[</ph>1110<ph id="ph4">\]</ph><ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>If you are not able to locate <bpt id="p1">**</bpt>Machine learning<ept id="p1">**</ept> tab, please contact Dynamics Support.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef ekki er hægt að finna flipann <bpt id="p1">**</bpt>Vélnám<ept id="p1">**</ept> skal hafa samband við Dynamics Support.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>If you added the <bpt id="p1">**</bpt>Recommendations control<ept id="p1">**</ept> to your transaction screen using the <bpt id="p2">**</bpt>Screen layout designer<ept id="p2">**</ept>, please remove that as well.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef <bpt id="p1">**</bpt>Stýringu ráðleggingar<ept id="p1">**</ept> var bætt við færsluskjáinn með því að nota <bpt id="p2">**</bpt>Útlitshönnun afgreiðsluskjás<ept id="p2">**</ept> skaltu fjarlægja hana líka.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Frekari upplýsingar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source><bpt id="p1">[</bpt>Add a recommendations control to the transaction page on a POS device<ept id="p1">](add-recommendations-control-pos-screen.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Bæta stýringu ráðleggingar á færslusíðu á sölustaðartæki<ept id="p1">](add-recommendations-control-pos-screen.md)</ept></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Sérsniðnar afurðaráðleggingar
+description: Þetta efnisatriði inniheldur upplýsingar ráðleggingar fyrir Dynamics 365 for Retail vörur sem hægt er að birta í sölustaðartæki.
+author: ashishmsft
+manager: AnnBe
+ms.date: 02/05/2018
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+ms.search.form: RetailParameters
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: 259664
+ms.assetid: 5dd8db08-cd96-4f7e-9e65-b05ca815d580
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: asharchw
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c73bc10332329e81986a259969f8fe34b57f4ee6
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1607006"
+---
+# <a name="personalized-product-recommendations"></a><span data-ttu-id="feb05-103">Sérsniðiðnar vöruráðleggingar</span><span class="sxs-lookup"><span data-stu-id="feb05-103">Personalized product recommendations</span></span>
+
+[!include [banner](includes/banner.md)]
+
+> [!NOTE]
+> <span data-ttu-id="feb05-104">Núverandi útgáfa af ráðleggingaþjónustu vörunnar verður fjarlægð og eiginleikinn endurhannaður með betra reikniriti og nýrri smásölumiðuðum möguleikum.</span><span class="sxs-lookup"><span data-stu-id="feb05-104">We are removing the current version of the product recommendation service as we redesign this feature with a better algorithm and newer retail-oriented capabilities.</span></span> <span data-ttu-id="feb05-105">Sjá [Fjarlægðir eða úreltir eiginleikar](../dev-itpro/migration-upgrade/deprecated-features.md) fyrir frekari upplýsingar.</span><span class="sxs-lookup"><span data-stu-id="feb05-105">For more information see [Removed or deprecated features](../dev-itpro/migration-upgrade/deprecated-features.md).</span></span>
+
+<span data-ttu-id="feb05-106">Í Dynamics 365 for Retail er hægt að birta ráðleggingar um vörur í sölustaðartæki.</span><span class="sxs-lookup"><span data-stu-id="feb05-106">In Dynamics 365 for Retail, product recommendations can be displayed on the point of sale (POS) device.</span></span> <span data-ttu-id="feb05-107">Ráðleggingar eru vörur sem viðskiptavinurinn kann að hafa áhuga á grundvelli sögu innkaupapantanir, vara á óskalista þeirra og vörur sem aðrir viðskiptavinir keyptu á netinu og í verslunum.</span><span class="sxs-lookup"><span data-stu-id="feb05-107">The recommendations are items that the customer might be interested in based on their purchase history, items in their wish list, and items that other customers purchased online and in brick-and-mortar stores.</span></span> <span data-ttu-id="feb05-108">Fyrir smásala með stóra vörulista hjálpa sérsniðnar ráðleggingar viðskiptavinum að finna vörur.</span><span class="sxs-lookup"><span data-stu-id="feb05-108">For retailers with large catalogs, recommendations help the customer with product discovery.</span></span> <span data-ttu-id="feb05-109">Með því að sýna afurðir miðað við áhugamál viðskiptavinarins og innkaupavenjur geta vöruráðleggingar aðstoðað smásala við viðbótarsölu og krosssölu og hægt er að auka varðveislu viðskiptavinar.</span><span class="sxs-lookup"><span data-stu-id="feb05-109">By showcasing products targeted to a customer's interests and buying habits, product recommendations can help retailers with up-sell and cross-sell, and can enhance customer retention.</span></span> <span data-ttu-id="feb05-110">Í Dynamics 365 for Retail eru vöruráðleggingar keyrðar af vitsmunaþjónustu og Microsoft Azure vélnámi.</span><span class="sxs-lookup"><span data-stu-id="feb05-110">In Dynamics 365 for Retail, product recommendations are powered by cognitive services and Microsoft Azure machine learning.</span></span>
+
+## <a name="scenarios"></a><span data-ttu-id="feb05-111">Sviðsmyndir</span><span class="sxs-lookup"><span data-stu-id="feb05-111">Scenarios</span></span>
+
+<span data-ttu-id="feb05-112">Vöruráðleggingar eru virkjaðar fyrir eftirfarandi aðstæður sölustaðar.</span><span class="sxs-lookup"><span data-stu-id="feb05-112">Product recommendations are enabled for the following POS scenarios.</span></span> <span data-ttu-id="feb05-113">Þær eru tiltækar í sölukerfi í skýinu eða Modern POS (MPOS).</span><span class="sxs-lookup"><span data-stu-id="feb05-113">They are available in Cloud POS or Modern POS (MPOS).</span></span>
+
+1. <span data-ttu-id="feb05-114">Á síðunni **Upplýsingar um afurð**:</span><span class="sxs-lookup"><span data-stu-id="feb05-114">On the **Product details** page:</span></span>
+
+    - <span data-ttu-id="feb05-115">Ef aðili tengdur verslun opnar í **Upplýsingar um afurð** síðuna þegar hann skoðar fyrri færslur þvert á mismunandi rásir stingur vélin upp á fleiri vörum sem eru líklegar til að vera keyptar saman.</span><span class="sxs-lookup"><span data-stu-id="feb05-115">If a store associate visits a **Product details** page when looking at previous transactions across different channels, the recommendation engine suggests additional items that are likely to be purchased together.</span></span>
+    - <span data-ttu-id="feb05-116">Ef aðili tengdur versluninni bætir viðskiptavini við færsluna og hann heimsækir síðuna **Upplýsingar um afurð** stingur vélin upp á persónubundnum efni byggt á viðskiptaferli viðskiptavinarins.</span><span class="sxs-lookup"><span data-stu-id="feb05-116">If the store associate adds a customer to the transaction and then visits a **Product details** page, the recommendation engine provides personalized recommendations using the customer's transaction history.</span></span>
+
+    <span data-ttu-id="feb05-117">[![Meðmæli á upplýsingasíðu afurðar](./media/proddetails.png)](./media/proddetails.png)</span><span class="sxs-lookup"><span data-stu-id="feb05-117">[![Recommendations on the Product details page](./media/proddetails.png)](./media/proddetails.png)</span></span>
+
+2. <span data-ttu-id="feb05-118">Á síðunni **Færsla**:</span><span class="sxs-lookup"><span data-stu-id="feb05-118">On the **Transaction** page:</span></span>
+
+    - <span data-ttu-id="feb05-119">Ráðlögð vél stingur upp á vörum byggt á öllum vörum í körfunni.</span><span class="sxs-lookup"><span data-stu-id="feb05-119">The recommendation engine suggests items based on the entire list of items in the basket.</span></span>
+    - <span data-ttu-id="feb05-120">Ef aðili tengdur versluninni bætir viðskiptavini við færsluna stingur vélin upp á persónubundnu efni byggt á viðskiptaferli viðskiptavinarins og vörum í körfunni.</span><span class="sxs-lookup"><span data-stu-id="feb05-120">If the store associate adds a customer to the transaction, the recommendation engine provides personal recommendations using the customer's transaction history and the list of items in the basket.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="feb05-121">Til að birta ráðleggingar á síðunni **Færsla** þarf smásöluaðilinn að uppfæra skjáútlitið í Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="feb05-121">To display recommendations on the **Transaction** page, the retailer needs to update the screen layout in Dynamics 365 for Retail.</span></span> <span data-ttu-id="feb05-122">Sleppa verður stýringunni **Ráðleggingar** á síðunni **Færsla**.</span><span class="sxs-lookup"><span data-stu-id="feb05-122">The **Recommendations** control must be dropped on to the **Transaction** page.</span></span>
+
+    <span data-ttu-id="feb05-123">[![Meðmæli á færslusíðunni](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)</span><span class="sxs-lookup"><span data-stu-id="feb05-123">[![Recommendations on the Transaction page](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)</span></span>
+
+3. <span data-ttu-id="feb05-124">Á síðunni **Upplýsingar um viðskiptavin** stingur vélin upp á vörum byggt á notandakenninu og vörum á óskalista viðskiptavinarins.</span><span class="sxs-lookup"><span data-stu-id="feb05-124">On the **Customer details** page, the recommendation engine suggests items based on the user ID and items in the customer's wish list.</span></span>
+
+    <span data-ttu-id="feb05-125">[![Ráðleggingar á upplýsingasíðu viðskiptavinar](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)</span><span class="sxs-lookup"><span data-stu-id="feb05-125">[![Recommendations on the Customer details page](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)</span></span>
+
+## <a name="configure-dynamics-365-for-retail-to-enable-pos-recommendations"></a><span data-ttu-id="feb05-126">Skilgreina Dynamics 365 for Retail til að virkja ráðleggingar sölustaðar</span><span class="sxs-lookup"><span data-stu-id="feb05-126">Configure Dynamics 365 for Retail to enable POS recommendations</span></span>
+
+<span data-ttu-id="feb05-127">Til að setja upp ráðleggingar vöru þarf að gera eftirfarandi.</span><span class="sxs-lookup"><span data-stu-id="feb05-127">To set up product recommendations, you need to do the following.</span></span>
+
+1. <span data-ttu-id="feb05-128">Gangið úr skugga um að réttur **Lögaðili** sé valinn.</span><span class="sxs-lookup"><span data-stu-id="feb05-128">Make sure that you have selected the correct **Legal entity**.</span></span>
+2. <span data-ttu-id="feb05-129">Farið í **Einingaverslun** veljið **Smásala** og smellið á **Uppfæra**.</span><span class="sxs-lookup"><span data-stu-id="feb05-129">Navigate to **Entity store**, select **Retail sales**, and then click **Refresh**.</span></span> <span data-ttu-id="feb05-130">Þá eru sýnigögn (eða þín eigin gögn) notuð úr virknifyrirtækisins og þau færð í einingaverslun.</span><span class="sxs-lookup"><span data-stu-id="feb05-130">This will use the demo data (or your data) from your operational database and move it to Entity store.</span></span>
+3. <span data-ttu-id="feb05-131">Valfrjálst: Til Að birta ráðleggingar á færsluskjánum, er farið í **Útlit Skjás**útlit skjás valið **Útlitshönnuður afgreiðsluskjás** opnaður, og svo sleppt stýringunni **leiðbeiningar** þar sem þarf.</span><span class="sxs-lookup"><span data-stu-id="feb05-131">Optional: To display recommendations on the transaction screen, go to **Screen Layout**, choose your screen layout, launch the **Screen layout designer**, and then drop the **recommendations** control where needed.</span></span>
+4. <span data-ttu-id="feb05-132">Farið í **Smásölufæribreytir**, veljið **Vélnám** svo **Já** undir **virkja ráðleggingar sölustaðar**.</span><span class="sxs-lookup"><span data-stu-id="feb05-132">Go to **Retail parameters**, select **Machine-learning**, select **Yes** under **Enable POS recommendations**.</span></span>
+5. <span data-ttu-id="feb05-133">Til að sjá ráðleggingar á sölustað skal keyra altæku vinnsluna **1110**.</span><span class="sxs-lookup"><span data-stu-id="feb05-133">To see recommendations on POS, run global configuration job **1110**.</span></span> <span data-ttu-id="feb05-134">Til að endurspegla breytingar á útlitshönnuði sölustaðar skal keyra skilgreiningarvinnslu rásar **1070**.</span><span class="sxs-lookup"><span data-stu-id="feb05-134">To reflect changes made to POS screen layout designer, run channel configuration job **1070**.</span></span>
+
+## <a name="how-does-it-work"></a><span data-ttu-id="feb05-135">Hvernig virkar það?</span><span class="sxs-lookup"><span data-stu-id="feb05-135">How does it work?</span></span>
+
+<span data-ttu-id="feb05-136">Þegar **Einingarverslun** einingin er uppfær eiga eftirfarandi aðgerðir sér stað.</span><span class="sxs-lookup"><span data-stu-id="feb05-136">When you refresh the **Entity store** entity, the following actions take place.</span></span>
+
+- <span data-ttu-id="feb05-137">Gögn á sniði sem krafist er af vitsmunaþjónustu eru fengin úr Dynamics 365 for Retail virknigagnagrunni og send í einingaverslunina.</span><span class="sxs-lookup"><span data-stu-id="feb05-137">Data in the format required by the Cognitive services is extracted from the Dynamics 365 for Retail operational database and sent to the Entity store.</span></span>
+- <span data-ttu-id="feb05-138">Gögnin eru notuð af Azure Data Factory (ADF) til að hreinsa gögnin með Hive-forskriftum sem hluta af ADF verkþáttum.</span><span class="sxs-lookup"><span data-stu-id="feb05-138">The data is used by Azure Data Factory (ADF) to cleanse the data using Hive scripts as part of ADF activities.</span></span> <span data-ttu-id="feb05-139">Hreinsuð gögn eru geymd í blob-geymslu.</span><span class="sxs-lookup"><span data-stu-id="feb05-139">Cleansed data is stored in blob storage.</span></span>
+- <span data-ttu-id="feb05-140">Gögn úr blob-geymslu eru notuð af API vitsmunaþjónustu til að þjálfa ráðlögð líkan.</span><span class="sxs-lookup"><span data-stu-id="feb05-140">Data from blob storage is used by the Cognitive services API to train a recommendation model.</span></span>
+
+<span data-ttu-id="feb05-141">Þegar kveikt er á **Virkja ráðleggingar** og skilgreiningarvinnslur eru keyrðar eiga eftirfarandi aðgerðir sér stað.</span><span class="sxs-lookup"><span data-stu-id="feb05-141">When you turn on **Enable recommendations** and run the configuration jobs, the following actions take place.</span></span>
+
+- <span data-ttu-id="feb05-142">Líkanaskilríki og kenni eru sótt úr API og geymd í Dynamics 365 for Retail virknigagnagrunni í web.config for AOS og einnig á smásöluþjóni.</span><span class="sxs-lookup"><span data-stu-id="feb05-142">Model credentials and ID are picked up from the API and stored in the Dynamics 365 for Retail operational database, in the web.config for AOS, and also in the retail server.</span></span>
+- <span data-ttu-id="feb05-143">Líkanaskilríki og auðkenni eru gerð tiltæk á CRT þannig að hægt sé að virða ráðleggingarbeiðnir vara úr sölukerfi í skýinu og MPOS í nettengdri stillingu.</span><span class="sxs-lookup"><span data-stu-id="feb05-143">Model credentials and ID are made available to CRT so that calls for product recommendations from Cloud POS and MPOS in online mode can be honored.</span></span>
+
+## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a><span data-ttu-id="feb05-144">Finna úrræði á vandamálum þar sem ráðleggingar um vörur hafa þegar verið virkjaðar</span><span class="sxs-lookup"><span data-stu-id="feb05-144">Troubleshoot issues where you have Product recommendations already enabled</span></span>
+
+- <span data-ttu-id="feb05-145">Flettið upp á **Smásölufæribreytur** \> **Vélnám** \> **Slökkva á ráðleggingum um vörur** og keyrið **Altæka skilgreiningarvinnslu \[1110\]**.</span><span class="sxs-lookup"><span data-stu-id="feb05-145">Navigate to **Retail Parameters** \> **Machine learning** \> **Disable product recommendations** and run **Global configuration job \[1110\]**.</span></span> <span data-ttu-id="feb05-146">Ef ekki er hægt að finna flipann **Vélnám** skal hafa samband við Dynamics Support.</span><span class="sxs-lookup"><span data-stu-id="feb05-146">If you are not able to locate **Machine learning** tab, please contact Dynamics Support.</span></span>
+- <span data-ttu-id="feb05-147">Ef **Stýringu ráðleggingar** var bætt við færsluskjáinn með því að nota **Útlitshönnun afgreiðsluskjás** skaltu fjarlægja hana líka.</span><span class="sxs-lookup"><span data-stu-id="feb05-147">If you added the **Recommendations control** to your transaction screen using the **Screen layout designer**, please remove that as well.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="feb05-148">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="feb05-148">Additional resources</span></span>
+
+[<span data-ttu-id="feb05-149">Bæta stýringu ráðleggingar á færslusíðu á sölustaðartæki</span><span class="sxs-lookup"><span data-stu-id="feb05-149">Add a recommendations control to the transaction page on a POS device</span></span>](add-recommendations-control-pos-screen.md)
