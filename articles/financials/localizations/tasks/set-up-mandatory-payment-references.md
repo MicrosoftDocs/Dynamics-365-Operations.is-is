@@ -1,111 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="set-up-mandatory-payment-references.md" target-language="is-is">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>set-up-mandatory-payment-references.613eb5.33b0315d556ec67aa40d957e64392899cf7c75ce.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>33b0315d556ec67aa40d957e64392899cf7c75ce</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\set-up-mandatory-payment-references.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Set up mandatory payment references</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Setja upp skyldubundnar greiðslutilvísanir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>Use this procedure to set up mandatory payment reference for a specific ledger account and post a payment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Notið þetta ferli til að setja upp skyldubundna greiðslutilvísun fyrir sérstakan fjárhagslykil og bóka greiðslu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Set up mandatory payment references</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Setja upp skyldubundnar greiðslutilvísanir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Use this procedure to set up mandatory payment reference for a specific ledger account and post a payment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Notið þetta ferli til að setja upp skyldubundna greiðslutilvísun fyrir sérstakan fjárhagslykil og bóka greiðslu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>When you select the ledger account in the journal you must specify a payment reference for the journal line.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar fjárhagslykill er valin í færslubók verður að tilgreina tilvísun greiðslu fyrir færslubókarlínu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>This recording uses the DEMF demo company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi skráning notar sýnigögn DEMF fyrirtækis</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>This functionality is available for legal entities whose primary address is in Iceland.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi Virkni er eingöngu tiltæk fyrir lögaðila með aðalaðsetur á Íslandi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>This functionality is typically used by accountants, accounting managers, accounting clerks.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi virkni er gjarnan notað af bókhaldarar , aðalbókarar, bókurum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Set up the main account</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Setja upp aðallykill</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Go to General ledger &gt; Chart of accounts &gt; Accounts &gt; Main accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fara í Fjárhagur &gt; Bókhaldslyklar &gt; Lyklar &gt; Aðallyklar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Use the Quick Filter to find records.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nota flýtiafmörkun til að finna færslur</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>For example, filter on the Main account field with a value of '170150'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til dæmis, sía svæðið aðallykill með gildið '170150'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>In the list, click the link in the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í listanum skal smella á tengilinn í valinni línu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Click Edit.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smella á Breyta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Select or clear the Require payment reference check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Velja eða hreinsa sem gátreit Krefjast tilvísun greiðslu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Vista“.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Create a payment with a payment reference</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Greiðsla er stofnuð með tilvísun greiðslu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Go to General ledger &gt; Journal entries &gt; General journals.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fara í fjárhag &gt; Færslubókarfærslur &gt; Almennar færslubækur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Nýtt“.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>In the list, mark the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í listanum skal merkja valda línu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>In the Name field, click the drop-down button to open the lookup.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í reitnum Heiti skal smella á fellilistahnappinn til að opna leitina.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>In the list, click the link in the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í listanum skal smella á tengilinn í valinni línu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Click Lines.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á Línur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>In the list, mark the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í listanum skal merkja valda línu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>In the Account field, specify the desired values.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í reitnum Lykill skal tilgreina gildi sem óskað er eftir.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>In the Debit field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í reitnum Debet skal slá inn tölu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>In the Offset account field, specify the desired values.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í reitnum Mótlykill skal tilgreina gildi sem óskað er eftir.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Click the Payment tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á flipann Greiðslu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>In the Payment reference field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Færa inn gildi í greiðslutilvísunarsvæðið.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Vista“.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Click Post.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Bóka“.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Setja upp skyldubundnar greiðslutilvísanir
+description: Notið þetta ferli til að setja upp skyldubundna greiðslutilvísun fyrir sérstakan fjárhagslykil og bóka greiðslu.
+author: EvgenyPopovMBS
+manager: AnnBe
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: MainAccount, LedgerJournalTable, LedgerJournalTransDaily
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Iceland
+ms.author: epopov
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 33b0315d556ec67aa40d957e64392899cf7c75ce
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1549038"
+---
+# <a name="set-up-mandatory-payment-references"></a><span data-ttu-id="d12e7-103">Setja upp skyldubundnar greiðslutilvísanir</span><span class="sxs-lookup"><span data-stu-id="d12e7-103">Set up mandatory payment references</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="d12e7-104">Notið þetta ferli til að setja upp skyldubundna greiðslutilvísun fyrir sérstakan fjárhagslykil og bóka greiðslu.</span><span class="sxs-lookup"><span data-stu-id="d12e7-104">Use this procedure to set up mandatory payment reference for a specific ledger account and post a payment.</span></span> <span data-ttu-id="d12e7-105">Þegar fjárhagslykill er valin í færslubók verður að tilgreina tilvísun greiðslu fyrir færslubókarlínu.</span><span class="sxs-lookup"><span data-stu-id="d12e7-105">When you select the ledger account in the journal you must specify a payment reference for the journal line.</span></span>
+
+<span data-ttu-id="d12e7-106">Þessi skráning notar sýnigögn DEMF fyrirtækis</span><span class="sxs-lookup"><span data-stu-id="d12e7-106">This recording uses the DEMF demo company.</span></span> <span data-ttu-id="d12e7-107">Þessi Virkni er eingöngu tiltæk fyrir lögaðila með aðalaðsetur á Íslandi.</span><span class="sxs-lookup"><span data-stu-id="d12e7-107">This functionality is available for legal entities whose primary address is in Iceland.</span></span>
+
+<span data-ttu-id="d12e7-108">Þessi virkni er gjarnan notað af bókhaldarar , aðalbókarar, bókurum.</span><span class="sxs-lookup"><span data-stu-id="d12e7-108">This functionality is typically used by accountants, accounting managers, accounting clerks.</span></span>
+
+
+## <a name="set-up-the-main-account"></a><span data-ttu-id="d12e7-109">Setja upp aðallykill</span><span class="sxs-lookup"><span data-stu-id="d12e7-109">Set up the main account</span></span>
+1. <span data-ttu-id="d12e7-110">Fara í Fjárhagur > Bókhaldslyklar > Lyklar > Aðallyklar.</span><span class="sxs-lookup"><span data-stu-id="d12e7-110">Go to General ledger > Chart of accounts > Accounts > Main accounts.</span></span>
+2. <span data-ttu-id="d12e7-111">Nota flýtiafmörkun til að finna færslur</span><span class="sxs-lookup"><span data-stu-id="d12e7-111">Use the Quick Filter to find records.</span></span> <span data-ttu-id="d12e7-112">Til dæmis, sía svæðið aðallykill með gildið '170150'.</span><span class="sxs-lookup"><span data-stu-id="d12e7-112">For example, filter on the Main account field with a value of '170150'.</span></span>
+3. <span data-ttu-id="d12e7-113">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="d12e7-113">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="d12e7-114">Smella á Breyta.</span><span class="sxs-lookup"><span data-stu-id="d12e7-114">Click Edit.</span></span>
+5. <span data-ttu-id="d12e7-115">Velja eða hreinsa sem gátreit Krefjast tilvísun greiðslu.</span><span class="sxs-lookup"><span data-stu-id="d12e7-115">Select or clear the Require payment reference check box.</span></span>
+6. <span data-ttu-id="d12e7-116">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="d12e7-116">Click Save.</span></span>
+
+## <a name="create-a-payment-with-a-payment-reference"></a><span data-ttu-id="d12e7-117">Greiðsla er stofnuð með tilvísun greiðslu</span><span class="sxs-lookup"><span data-stu-id="d12e7-117">Create a payment with a payment reference</span></span>
+1. <span data-ttu-id="d12e7-118">Fara í fjárhag > Færslubókarfærslur > Almennar færslubækur.</span><span class="sxs-lookup"><span data-stu-id="d12e7-118">Go to General ledger > Journal entries > General journals.</span></span>
+2. <span data-ttu-id="d12e7-119">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="d12e7-119">Click New.</span></span>
+3. <span data-ttu-id="d12e7-120">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="d12e7-120">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="d12e7-121">Í reitnum Heiti skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="d12e7-121">In the Name field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="d12e7-122">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="d12e7-122">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="d12e7-123">Smellið á Línur.</span><span class="sxs-lookup"><span data-stu-id="d12e7-123">Click Lines.</span></span>
+7. <span data-ttu-id="d12e7-124">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="d12e7-124">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="d12e7-125">Í reitnum Lykill skal tilgreina gildi sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="d12e7-125">In the Account field, specify the desired values.</span></span>
+9. <span data-ttu-id="d12e7-126">Í reitnum Debet skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="d12e7-126">In the Debit field, enter a number.</span></span>
+10. <span data-ttu-id="d12e7-127">Í reitnum Mótlykill skal tilgreina gildi sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="d12e7-127">In the Offset account field, specify the desired values.</span></span>
+11. <span data-ttu-id="d12e7-128">Smellið á flipann Greiðslu.</span><span class="sxs-lookup"><span data-stu-id="d12e7-128">Click the Payment tab.</span></span>
+12. <span data-ttu-id="d12e7-129">Færa inn gildi í greiðslutilvísunarsvæðið.</span><span class="sxs-lookup"><span data-stu-id="d12e7-129">In the Payment reference field, type a value.</span></span>
+13. <span data-ttu-id="d12e7-130">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="d12e7-130">Click Save.</span></span>
+14. <span data-ttu-id="d12e7-131">Smellið á „Bóka“.</span><span class="sxs-lookup"><span data-stu-id="d12e7-131">Click Post.</span></span>
+
