@@ -1,78 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="er-configuration-provider-mark-it-active-2016-11.md" target-language="is-is">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>er-configuration-provider-mark-it-active-2016-11.48153b.a4b1cd7a02cdf4c650af50199f4425eb53cef0a8.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>a4b1cd7a02cdf4c650af50199f4425eb53cef0a8</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>574d4dda83dcab94728a3d35fc53ee7e2b90feb0</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\dev-itpro\analytics\tasks\er-configuration-provider-mark-it-active-2016-11.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Create configuration providers and mark them as active</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stofna skilgreiningarveitendur og merkja þá sem virka</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>The following steps explain how a user assigned to the System Administrator or Electronic Reporting Developer role can create a configuration provider for Electronic reporting (ER).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftirfarandi skref útskýra hvernig notanda úthlutað á hlutverk Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stofnað skilgreiningarveitu fyrir rafræna skýrslugerð (ER).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Create configuration providers and mark them as active</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stofna skilgreiningarveitendur og merkja þá sem virka</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>The following steps explain how a user assigned to the System Administrator or Electronic Reporting Developer role can create a configuration provider for Electronic reporting (ER).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftirfarandi skref útskýra hvernig notanda úthlutað á hlutverk Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stofnað skilgreiningarveitu fyrir rafræna skýrslugerð (ER).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Each ER configuration will refer to the provider as the author of the configuration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hverja skilgreiningu rafrænnar skýrslugerðar vísar til veitu sem höfund skilgreiningar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>In this example, you will create a configuration provider for sample company, Litware, Inc. These steps can be performed in any company as ER configuration providers are shared among all companies.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í þessu dæmi, verður að stofna skilgreiningu fyrir dæmi um fyrirtæki, Litware, Inc. Þessi skref má framkvæma í hvaða fyrirtæki sem er þar sem ER skilgreiningar eru samnýttar á milli fyrirtækja.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Create a provider</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Búa til veitu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Go to Organization administration &gt; Workspaces &gt; Electronic reporting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fara í Fyrirtækisstjórnun &gt; Vinnusvæði &gt; Rafræn skýrslugerð.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Click Configuration providers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á skilgreiningaveitur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Nýtt“.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>A provider record has a unique name and URL.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skrá veitu er einkvæmt hvað varðar heiti og vefslóð.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Review the content of this page and skip this procedure if a record for Litware, Inc. (<ph id="ph1">https://www.litware.com)</ph> already exists.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yfirfarið innihald þessarar síðu og sleppið ferlinu ef færsla fyrir Litware, Inc. (<ph id="ph1">https://www.litware.com)</ph> er þegar til.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>In the Name field, type 'Litware, Inc.'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í svæðið Heiti, færðu inn 'Litware, Inc.'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Litware, Inc.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Litware, Inc.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>In the Internet address field, type '<ph id="ph1">https://www.litware.com</ph>'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í reitinn Veffang skal slá inn „<ph id="ph1">https://www.litware.com</ph>“.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á „Vista“.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Close the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lokið síðunni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Select as an active provider</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veljið sem virka veitu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Select the Litware, Inc. provider.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Velja “Litware, Inc.” veitu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Click Set active.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellt á Stilla sem virkt.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Stofna skilgreiningarveitendur og merkja þá sem virka
+description: Eftirfarandi skref útskýra hvernig notanda úthlutað á hlutverk Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stofnað skilgreiningarveitu fyrir rafræna skýrslugerð (ER).
+author: NickSelin
+manager: AnnBe
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ERWorkspace, ERVendorPart, ERVendorTable
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: nselin
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a4b1cd7a02cdf4c650af50199f4425eb53cef0a8
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595396"
+---
+# <a name="create-configuration-providers-and-mark-them-as-active"></a>Stofna skilgreiningarveitendur og merkja þá sem virka
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+Eftirfarandi skref útskýra hvernig notanda úthlutað á hlutverk Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stofnað skilgreiningarveitu fyrir rafræna skýrslugerð (ER). Hverja skilgreiningu rafrænnar skýrslugerðar vísar til veitu sem höfund skilgreiningar. Í þessu dæmi, verður að stofna skilgreiningu fyrir dæmi um fyrirtæki, Litware, Inc. Þessi skref má framkvæma í hvaða fyrirtæki sem er þar sem ER skilgreiningar eru samnýttar á milli fyrirtækja.
+
+
+## <a name="create-a-provider"></a>Búa til veitu
+1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
+2. Smelltu á skilgreiningaveitur.
+3. Smellið á „Nýtt“.
+    * Skrá veitu er einkvæmt hvað varðar heiti og vefslóð. Yfirfarið innihald þessarar síðu og sleppið ferlinu ef færsla fyrir Litware, Inc. (https://www.litware.com) er þegar til.  
+4. Í svæðið Heiti, færðu inn 'Litware, Inc.'.
+    * Litware, Inc.  
+5. Í reitinn Veffang skal slá inn „https://www.litware.com“.
+    * https://www.litware.com  
+6. Smellið á „Vista“.
+7. Lokið síðunni.
+
+## <a name="select-as-an-active-provider"></a>Veljið sem virka veitu
+1. Velja “Litware, Inc.” veitu
+2. Smellt á Stilla sem virkt.
+

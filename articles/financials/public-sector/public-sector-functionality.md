@@ -1,123 +1,76 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="public-sector-functionality.md" target-language="is-is">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>public-sector-functionality.df9d27.1b77e9289bd360631ea646951809705d58c9e189.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>1b77e9289bd360631ea646951809705d58c9e189</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\public-sector\public-sector-functionality.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Public sector home page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hið opinbera – heimasíða</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>Microsoft Dynamics 365 for Finance and Operations enable business processes that are common to both the public and private sectors, such as budgeting, purchasing, accounts payable, and accounts receivable tasks.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations virkjar viðskiptaferli sem bæði opinberi geirinn og einkageirinn nota, eins og verkefni sem tengjast fjárhagsáætlunum, innkaupum, viðskiptaskuldum og viðskiptakröfum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Public sector home page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hið opinbera – heimasíða</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Finance and Operations enable business processes that are common to both the public and private sectors, such as budgeting, purchasing, accounts payable, and accounts receivable tasks.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations virkjar viðskiptaferli sem bæði opinberi geirinn og einkageirinn nota, eins og verkefni sem tengjast fjárhagsáætlunum, innkaupum, viðskiptaskuldum og viðskiptakröfum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Use the Public sector functionality to meet the rules, regulations, and reporting requirements for organizations that serve the public.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nota skal aðgerðir í „Hið opinbera“ til að fara eftir reglum, reglugerðum og tilkynningarskyldu fyrir fyrirtæki í almannaþjónustu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>The business processes affected include:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Á meðal þeirra viðskiptaferla sem falla undir þetta eru:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Fund accounting, derived financial hierarchies, and posting definitions for accounts receivable and the general ledger.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sjóðsbókhald, afleidd fjárhagsstigveldi og bókunarskilgreiningar fyrir viðskiptakröfur og fjárhag.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Preliminary budgets, apportionments, and commitments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bráðabirgðafjárhagsáætlanir, skiptingar og ráðstafanir.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Billing codes, billing classifications, trading partner codes, and custom fields for free text invoices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Innheimtukóðar, reikningsflokkanir, kóðar viðskiptafélaga og sérstillt svæði fyrir reikninga með frjálsum texta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>General ledger year-end processing, which includes encumbrances and commitments on purchase orders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Árslokavinnsla fjárhags, þar með talin veðbönd og skuldbindingar á innkaupapöntunum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Electronic payments to vendors, signature pages for payment reports, and invoice payment holds.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rafrænar greiðslur til lánardrottna, undirskriftarsíður fyrir greiðsluskýrslur og reikningsgreiðslur í bið.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>For more information, see the following topics:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Frekari upplýsingar er hægt að finna í eftirfarandi efni:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source><bpt id="p1">[</bpt>Planning for Public sector functionality<ept id="p1">](plan-public-sector-functionality.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Áætlun fyrir virkni hins opinbera<ept id="p1">](plan-public-sector-functionality.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source><bpt id="p1">[</bpt>Accounts payable in the Public sector<ept id="p1">](accounts-payable-public-sector.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Viðskiptaskuldir hjá hinu opinbera<ept id="p1">](accounts-payable-public-sector.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source><bpt id="p1">[</bpt>Accounts receivable in the Public sector<ept id="p1">](accounts-receivable-public-sector.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Viðskiptakröfur hjá hinu opinbera<ept id="p1">](accounts-receivable-public-sector.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source><bpt id="p1">[</bpt>Budgeting in the Public sector<ept id="p1">](budgeting-public-sector.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Fjárhagsáætlun hjá hinu opinbera<ept id="p1">](budgeting-public-sector.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source><bpt id="p1">[</bpt>Fixed assets in the Public sector<ept id="p1">](fixed-asset-public-sector.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Eignir hjá hinu opinbera<ept id="p1">](fixed-asset-public-sector.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source><bpt id="p1">[</bpt>French regulatory features<ept id="p1">](../localizations/emea-fra-public-sector-accounting.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Franskir eftirlitseiginleikar<ept id="p1">](../localizations/emea-fra-public-sector-accounting.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source><bpt id="p1">[</bpt>General ledger in the Public sector<ept id="p1">](general-ledger-public-sector.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Fjárhagur hjá hinu opinbera<ept id="p1">](general-ledger-public-sector.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source><bpt id="p1">[</bpt>Procurement and sourcing in the Public sector<ept id="p1">](procurement-sourcing-public-sector.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Innkaup og aðföng hjá hinu opinbera<ept id="p1">](procurement-sourcing-public-sector.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source><bpt id="p1">[</bpt>Security roles in the Public sector<ept id="p1">](security-roles-public-sector.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Öryggishlutverk hjá hinu opinbera<ept id="p1">](security-roles-public-sector.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source><ph id="ph1">\*</ph> Applicable only if your organization is in France.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">\*</ph> Gildir aðeins ef fyrirtækið þitt er í Frakklandi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Why do I need the Public sector configuration key?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hvers vegna þarf ég skilgreiningarlykil hins opinbera?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>The <bpt id="p1">**</bpt>Public sector<ept id="p1">**</ept> configuration key enables pages and controls that supplement the core apps .</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skilgreiningarlykill <bpt id="p1">**</bpt>hins opinbera<ept id="p1">**</ept> virkjar síður og stýringar sem styðja við meginforritin.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>You can enable or disable this key on the <bpt id="p1">**</bpt>License configuration<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að virkja þennan lykil eða gera hann óvirkan á síðunni <bpt id="p1">**</bpt>Skilgreining leyfis<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>How does the Public sector configuration key relate to other configuration keys?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hvernig tengist skilgreiningarlykil hins opinbera öðrum skilgreiningarlyklum?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>The following table provides information about how this configuration key relates to other configuration keys.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftirfarandi tafla sýnir upplýsingar um hvernig þessi skilgreiningarlykill tengist öðrum skilgreiningarlyklum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source><bpt id="p1">**</bpt>Detail<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Upplýsingar<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Lýsing<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Parent key</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yfirlykill</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>None</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Enginn</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Child keys</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Undirlyklar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source><bpt id="p1">**</bpt>Advanced ledger entry<ept id="p1">**</ept> configuration key (AdvancedLedgerEntry) <bpt id="p2">**</bpt>Public sector 1099G<ept id="p2">**</ept> configuration key (Tax1099G) <bpt id="p3">**</bpt>Public sector 1099S<ept id="p3">**</ept> configuration key (Tax1099S) <bpt id="p4">**</bpt>French regulatory<ept id="p4">**</ept> configuration key</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skilgreiningarlykill <bpt id="p1">**</bpt>ítarlegrar fjárhagsfærslu<ept id="p1">**</ept> (AdvancedLedgerEntry) skilgreiningarlykill <bpt id="p2">**</bpt>hins opinbera 1099G<ept id="p2">**</ept> skilgreiningarlykill (Tax1099G) <bpt id="p3">**</bpt>hins opinbera 1099S<ept id="p3">**</ept> skilgreiningarlykill (Tax1099S) skilgreiningarlykill <bpt id="p4">**</bpt>franskrar löggjafar<ept id="p4">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Frekari tilföng</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source><bpt id="p1">[</bpt>Planning for public sector functionality<ept id="p1">](plan-public-sector-functionality.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Áætlun fyrir virkni hins opinbera<ept id="p1">](plan-public-sector-functionality.md)</ept></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Hið opinbera – heimasíða
+description: Microsoft Dynamics 365 for Finance and Operations virkjar viðskiptaferli sem bæði opinberi geirinn og einkageirinn nota, eins og verkefni sem tengjast fjárhagsáætlunum, innkaupum, viðskiptaskuldum og viðskiptakröfum.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: index-page
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: SysConfiguration
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 20691
+ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
+ms.search.region: Global
+ms.search.industry: Public sector
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1b77e9289bd360631ea646951809705d58c9e189
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1550235"
+---
+# <a name="public-sector-home-page"></a>Hið opinbera – heimasíða
+
+[!include [banner](../includes/banner.md)]
+
+Finance and Operations virkjar viðskiptaferli sem bæði opinberi geirinn og einkageirinn nota, eins og verkefni sem tengjast fjárhagsáætlunum, innkaupum, viðskiptaskuldum og viðskiptakröfum. 
+
+Nota skal aðgerðir í „Hið opinbera“ til að fara eftir reglum, reglugerðum og tilkynningarskyldu fyrir fyrirtæki í almannaþjónustu. Á meðal þeirra viðskiptaferla sem falla undir þetta eru: 
+
+- Sjóðsbókhald, afleidd fjárhagsstigveldi og bókunarskilgreiningar fyrir viðskiptakröfur og fjárhag.
+- Bráðabirgðafjárhagsáætlanir, skiptingar og ráðstafanir.
+- Innheimtukóðar, reikningsflokkanir, kóðar viðskiptafélaga og sérstillt svæði fyrir reikninga með frjálsum texta.
+- Árslokavinnsla fjárhags, þar með talin veðbönd og skuldbindingar á innkaupapöntunum.
+- Rafrænar greiðslur til lánardrottna, undirskriftarsíður fyrir greiðsluskýrslur og reikningsgreiðslur í bið.
+
+  Frekari upplýsingar er hægt að finna í eftirfarandi efni:
+
+- [Áætlun fyrir virkni hins opinbera](plan-public-sector-functionality.md)
+- [Viðskiptaskuldir hjá hinu opinbera](accounts-payable-public-sector.md)
+- [Viðskiptakröfur hjá hinu opinbera](accounts-receivable-public-sector.md)
+- [Fjárhagsáætlun hjá hinu opinbera](budgeting-public-sector.md)
+- [Eignir hjá hinu opinbera](fixed-asset-public-sector.md)
+- [Franskir eftirlitseiginleikar](../localizations/emea-fra-public-sector-accounting.md)
+- [Fjárhagur hjá hinu opinbera](general-ledger-public-sector.md)
+- [Innkaup og aðföng hjá hinu opinbera](procurement-sourcing-public-sector.md)
+- [Öryggishlutverk hjá hinu opinbera](security-roles-public-sector.md)
+
+\* Gildir aðeins ef fyrirtækið þitt er í Frakklandi.
+
+## <a name="why-do-i-need-the-public-sector-configuration-key"></a>Hvers vegna þarf ég skilgreiningarlykil hins opinbera?
+Skilgreiningarlykill **hins opinbera** virkjar síður og stýringar sem styðja við meginforritin. Hægt er að virkja þennan lykil eða gera hann óvirkan á síðunni **Skilgreining leyfis**.
+
+## <a name="how-does-the-public-sector-configuration-key-relate-to-other-configuration-keys"></a>Hvernig tengist skilgreiningarlykil hins opinbera öðrum skilgreiningarlyklum?
+Eftirfarandi tafla sýnir upplýsingar um hvernig þessi skilgreiningarlykill tengist öðrum skilgreiningarlyklum.
+
+|            |                                                                                                                                                                                                                     |
+|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Upplýsingar** | **Lýsing**                                                                                                                                                                                                     |
+| Yfirlykill | Enginn                                                                                                                                                                                                                |
+| Undirlyklar | Skilgreiningarlykill **ítarlegrar fjárhagsfærslu** (AdvancedLedgerEntry) skilgreiningarlykill **hins opinbera 1099G** skilgreiningarlykill (Tax1099G) **hins opinbera 1099S** skilgreiningarlykill (Tax1099S) skilgreiningarlykill **franskrar löggjafar** |
+
+
+<a name="additional-resources"></a>Frekari tilföng
+--------
+
+[Áætlun fyrir virkni hins opinbera](plan-public-sector-functionality.md)
+
+
+
