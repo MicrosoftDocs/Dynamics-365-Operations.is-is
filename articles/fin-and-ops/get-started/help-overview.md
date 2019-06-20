@@ -1,450 +1,199 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="help-overview.md" target-language="is-is">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>help-overview.81e3b7.7c74ff55e0a9a81c058de802d70365d13d34c8ff.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>7c74ff55e0a9a81c058de802d70365d13d34c8ff</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>574d4dda83dcab94728a3d35fc53ee7e2b90feb0</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\fin-and-ops\get-started\help-overview.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Finance and Operations Help system</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hjálparkerfi Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic provides an overview of the components of the Microsoft Dynamics 365 for Finance and Operations Help system.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þetta efnisatriði veitir yfirlit yfir þætti í hjálparhluta Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Finance and Operations Help system</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hjálparkerfi Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This topic provides an overview of the components of the Microsoft Dynamics 365 for Finance and Operations Help system.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þetta efnisatriði veitir yfirlit yfir þætti í hjálparhluta Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>The following products are closely related: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; and Dynamics 365 for Talent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftirfarandi vörur eru nátengdar: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; og Dynamics 365 for Talent.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>The same functionality may appear in all 3 products.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sama virkni kann að koma fyrir í öllum þremur vörunum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>As a result, in topics that are primarily related to Retail, the product name will be Dynamics 365 for Retail; in topics that are primarily related to Talent, the product name will be Dynamics 365 for Talent; and in topics that are related to the core product, the product name will be Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þar af leiðandi verður vöruheiti í efnisatriðum sem helst tengjast Retail, Dynamics 365 for Retail; í efnisatriðum sem tengjast fyrst og fremst Talent verður vöruheitið Dynamics 365 for Talent; og í efnisatriðum sem tengjast undirstöðuvöru verður vöruheitið Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Topics that are written for one product may apply to the same functionality in a related product.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>The Help system is shared by the following products:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftirfarandi vörur samnýta Hjálparkerfið:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Dynamics 365 for Retail</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Dynamics 365 for Talent</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Talent</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Finance and Operations includes a Help system that is based on two main components:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations inniheldur hjálparkerfi sem byggt er á tveimur aðalþáttum:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>A documentation site</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Svæði fylgiskjala</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Task guides</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verkleiðbeiningar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>You can access help from the Help pane in whichever product you are using.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þú getur fengið aðgang að hjálp frá hjálparsvæðinu í hvaða vöru þú notar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>The following screenshot shows Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftirfarandi skjámynd sýnir Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Help pane</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hjálparsvæði</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source><bpt id="p1">**</bpt>Task guides<ept id="p1">**</ept> are not currently available for Retail, or in the Help pane for Talent (a few task guides are available in the Getting Started pane for Talent).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Verkefnaleiðbeiningar<ept id="p1">**</ept> eru ekki í boði fyrir smásölu, eða á hjálparsvæðinu fyrir Talent (nokkrar verkefnaleiðbeiningar eru í boði á Hafist handa svæðinu fyrir Talent).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Procedural help is available on the docs.microsoft.com site (<bpt id="p1">[</bpt>docs.microsoft.com/dynamics365/unified-operations<ept id="p1">](../../index.md)</ept>) for both Retail and Talent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Leiðbeiningar fyrir aðstoð er að finna á docs.microsoft.com site (<bpt id="p1">[</bpt>docs.microsoft.com/dynamics365/unified-operations<ept id="p1">](../../index.md)</ept>) fyrir bæði Retail og Talent.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Help on docs.microsoft.com</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hjálp á docs.microsoft.com</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>The docs.microsoft.com site (<bpt id="p1">[</bpt>docs.microsoft.com/dynamics365/unified-operations<ept id="p1">](../../index.md)</ept>) is the primary source of product documentation for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vefsvæðið docs.microsoft.com (<bpt id="p1">[</bpt>docs.microsoft.com/dynamics365/unified-operations<ept id="p1">](../../index.md)</ept>) er aðaluppspretta vöruskjala fyrir Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>The site offers the following features:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Svæðið býður upp á eftirfarandi eiginleika:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source><bpt id="p1">**</bpt>Access to the most up-to-date content<ept id="p1">**</ept> – The site gives us a faster and more flexible way to create, deliver, and update product documentation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Aðgangur að nýjasta efninu<ept id="p1">**</ept> – svæðið gefur okkur hraðar og sveigjanlegri leið til að stofna, afhenda og uppfæra fylgiskjal vöru.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Therefore, it helps to ensure that you have access to the latest technical information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Því hjálpar það að tryggja að þú hafir aðgang að nýjustu tækniupplýsingunum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source><bpt id="p1">**</bpt>Content that is written by experts<ept id="p1">**</ept> – The site provides a richer set of product documentation that can be enhanced by community members both inside and outside Microsoft.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Efni sem er skrifuð af sérfræðingum<ept id="p1">**</ept>– Svæðið veitir ríkulegra safn vöruskjala sem hægt er að bæta af aðilum samfélagsins bæði innan og utan Microsoft.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source><bpt id="p1">**</bpt>Access to different types of content<ept id="p1">**</ept> – The site lets you quickly access different types of content about Finance and Operations, such as task guides, videos, and topics.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Aðgangur að mismunandi tegundir af innihaldi<ept id="p1">**</ept> – Þessi síða gerir þér kleift að fljótt fá aðgang að mismunandi gerðum efnis um Finance and Operations, svo sem verkefnaleiðbeiningar, myndbönd og efni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source><bpt id="p1">**</bpt>Content that supports your business processes<ept id="p1">**</ept> – The site includes business process–focused content that takes advantage of the Business Process Modeler (BPM) in Microsoft Dynamics Lifecycle Services (LCS).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Efni sem styður þína viðskiptaferla<ept id="p1">**</ept> – Svæðið inniheldur efni sem er sérstaklega gert fyrir viðskiptaferli og nýtir sér kosti viðskiptaferlavinnslu Business Process Modeler (BPM) í Microsoft Dynamics Lifecycle Services (LCS).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Searching on docs.microsoft.com</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Leit á docs.microsoft.com</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>We get a lot of questions about how to search for our content.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Við fáum mikið af spurningum um hvernig á að leita að efni okkar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>On our site, if you start from a page about Finance and Operations, we scope your search to just be for Finance and Operations content.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef þú byrjar á síðu um Finance and Operations á vefsvæðinu okkar, afmörkum við leitina þannig að hún varði aðeins efni um Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>You can remove the scoping by clicking the X next to Unified Operations in the search box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þú getur fjarlægt afmörkunina með því að smella á X við hliðina á Unified Operations í leitarreitnum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Search</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Leit</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>You can also find our content with any search engine.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Einnig er hægt að finna okkar efni með hvaða leitarvél sem er.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>We recommend that for best results, you use a site search, such as site:docs.microsoft.com dynamics 365 "search term".</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að niðurstöður verði sem bestar mælum við með að þú notir leit á svæðum, svo sem site:docs.microsoft.com dynamics 365 „leitarorð".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>The docs.microsoft.com table of contents</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yfirlitið docs.microsoft.com</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Finance and Operations and Retail all share a single table of contents on the docs site, which enables customers to see the context of the topic they are in.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations and Retail deila öllum einu efnisyfirliti á skjalasíðunni, sem gerir viðskiptavinum kleift að sjá samhengi efnisatriðisins sem þeir eru í.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>It also enables you to use the Filter control above the table of contents to find topics that you are looking for.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Það gerir þér einnig kleift að nota Afmörkunarstýringu fyrir ofan efnisyfirlitið til að finna efnisatriðin sem leitar að.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>You can get help on other Dynamics 365 products by searching for them, or by clicking Dynamics 365 in the site breadcrumb to get to our hub page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þú getur fengið hjálp á öðrum Dynamics 365 vörum með því að leita að þeim eða með því að smella á Dynamics 365 á brauðmylsnusíðunni til að komast að miðstöðvarsíðunni okkar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Use an RSS feed</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nota RSS-straum</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>To subscribe to an RSS feed of all updates to the Unified Operations content, use the following link from a browser that supports RSS feeds, such as Internet Explorer, or an RSS feed manager:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að gerast áskrifandi að RSS-straumi af öllum uppfærslum á innihaldi Unified Operations skal nota eftirfarandi tengil úr vafra sem styður RSS-strauma, svo sem Internet Explorer eða RSS straumstjórnun:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source><bpt id="p1">[</bpt>RSS feed<ept id="p1">](https://docs.microsoft.com/api/search/rss?locale=en-us&amp;$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>RSS-straumur<ept id="p1">](https://docs.microsoft.com/api/search/rss?locale=en-us&amp;$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Give feedback</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Láttu í ljós viðbrögð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>We really like customer feedback.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Við viljum endilega heyra af viðbrögðum viðskiptavina.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>You can either comment or suggest changes to our content through GitHub.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þú getur annaðhvort skrifað athugasemd um, eða lagt til breytingar á efni okkar í gegnum GitHub.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>For more information about our feedback system, see <bpt id="p1">[</bpt>this blog post<ept id="p1">](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nánari upplýsingar um ábendingarkerfið okkar er að finna í <bpt id="p1">[</bpt>þessari bloggfærslu<ept id="p1">](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Leave us feedback</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skildu eftir ábendingu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>If you have feedback or questions about a topic, leave us a comment at the bottom of the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef þú vilt láta í ljós viðbrögð eða spyrja spurninga um efni skaltu láta okkur vita neðst á síðunni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Click <bpt id="p1">**</bpt>Feedback<ept id="p1">**</ept> to get to the comments at the bottom of the page, and then click either <bpt id="p2">**</bpt>Product feedback<ept id="p2">**</ept>, or <bpt id="p3">**</bpt>Sign in to give documentation feedback<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á <bpt id="p1">**</bpt>Ábendingar<ept id="p1">**</ept> til að sjá athugasemdir neðst á síðunni og smelltu síðan á annaðhvort <bpt id="p2">**</bpt>Ábending um vöru<ept id="p2">**</ept> eða <bpt id="p3">**</bpt>Skrá inn á til að skrá inn ábendingu<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Start typing your comments, and then click <bpt id="p1">**</bpt>Submit feedback<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Byrjaðu að færa inn athugasemdir og smelltu síðan á <bpt id="p1">**</bpt>Birta ábendingu<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Post comment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Setja inn ummæli</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Suggest a change or contribute content through GitHub</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Leggja til breytingar eða leggja fram efni í gegnum GitHub</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>To suggest a change, you'll need to have a GitHub account, and sign a Contributor License Agreement.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að leggja til breytingu þarftu að vera með GitHub reikning og undirrita leyfisveitandi samning þátttakanda.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>After you submit a pull request, we'll review your proposed changes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftir að þú hefur sent inn beiðni um að hafa áhrif, munum fara yfir breytingartillögur þínar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>If necessary, we'll discuss them internally, and then get back to you.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef nauðsyn krefur, munum við ræða þær innbyrðis og hafa síðan samband við þig.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>To get started, click the <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> (pencil) button on a topic, or go to our repo at <ph id="ph1">&lt;https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public&gt;</ph>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að byrja skal smella á (blýants)hnappinn <bpt id="p1">**</bpt>Breyta<ept id="p1">**</ept> á efnisatriði eða fara í geymsluna okkar á <ph id="ph1">&lt;https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public&gt;</ph>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>For more information, please refer to our contributor's guide: <ph id="ph1">&lt;https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md&gt;</ph>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fyrir nánari upplýsingar skal leita í leiðbeiningar okkar fyrir þátttakendur: <ph id="ph1">&lt;https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md&gt;</ph>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>We only accept contributions to our English content set at this time.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Við samþykkjum aðeins framlag í ensku efni okkar á þessum tíma.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Task guides</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verkleiðbeiningar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>A Task guide is a controlled, guided, interactive experience that leads you through the steps of a task, or business process.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verkefnaleiðbeiningar eru stýrð, leiðbeind, gagnvirka reynslu sem fer með þig í gegnum þrep í verki eða viðskiptaferli.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>You can open (play) a Task guide from the Help pane.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að opna (spila) verkefnaleiðbeiningar úr hjálparsvæðinu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>When you first click a Task guide, the Help pane will show the step-by-step instructions for the task.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar er smellt í fyrsta skipti á verkefnaleiðbeiningar mun hjálparsvæði sýnir nákvæmar leiðbeiningar fyrir verkið.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Localized Task guides are now available.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Staðfært verkleiðbeiningar eru nú í boði.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Microsoft shipped task guide libraries for releases through December 2017 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft sendi verkefnaleiðbeiningar fyrir útgáfur í desember 2017 fyrir Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>The section <bpt id="p1">[</bpt>Accessing Task guides from the Help pane<ept id="p1">](help-overview.md#accessing-task-guides-from-the-help-pane)</ept> describes how to find the correct task guides for your product.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hlutinn <bpt id="p1">[</bpt>Fara í verkefnaleiðbeiningar úr hjálparsvæði<ept id="p1">](help-overview.md#accessing-task-guides-from-the-help-pane)</ept> lýsir því hvernig á að finna réttar verkefnaleiðbeiningar fyrir vöruna þína.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Task guide reading view</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lesgluggi verkefnaleiðbeininga</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>To begin the guided, interactive experience, click <bpt id="p1">**</bpt>Start task guide<ept id="p1">**</ept> at the bottom of the Help pane.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að byrja gagnvirka leiðsögn, smellið á <bpt id="p1">**</bpt>Opna verkefnaleiðbeiningar<ept id="p1">**</ept> neðst á rúðunni Hjálp.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>A black pointer opens and indicates the action that you must perform.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Svartur bendill birtist og sýnir aðgerð sem þarf að framkvæma.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Follow the directions that appear in the UI, and enter data as directed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fylgja leiðbeiningunum sem birtist í Notendaviðmóti og færa inn gögn samkvæmt leiðbeiningum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Task guide step instruction</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fyrirmæli um skref í verkefnaleiðbeiningum</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>The data that you enter when you play a task guide is real.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gögn sem þú færir inn þegar verkefnaleiðbeiningar eru spilaðar eru raunveruleg.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>If you're in a production environment, the data will be entered in the company that you're currently using.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef unnið er í vinnsluumhverfi, verða gögn færð inn í fyrirtækinu sem verið er að nota þá stundina.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>You can use Task recorder to create your own custom task guides.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að nota verkskráningu til að stofna eigin sérsniðnar verkefnaleiðbeiningar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>For more information, see <bpt id="p1">[</bpt>Create documentation or training by using task recordings<ept id="p1">](../../dev-itpro/user-interface/task-recorder-training-docs.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Frekari upplýsingar eru í <bpt id="p1">[</bpt>Stofna fylgiskjöl eða þjálfun með verkskráningu<ept id="p1">](../../dev-itpro/user-interface/task-recorder-training-docs.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>In-product Help</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hjálp innan vörunnar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>To access Help content within Finance and Operations, either click the <bpt id="p1">**</bpt>Help<ept id="p1">**</ept> (<bpt id="p2">**</bpt>?<ept id="p2">**</ept>) icon and then choose Help or press Ctrl+Shift+?.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að fá aðgang að hjálparefni innan Finance and Operations skal smella annaðhvort á táknið <bpt id="p1">**</bpt>Hjálp<ept id="p1">**</ept> (<bpt id="p2">**</bpt>?<ept id="p2">**</ept>) og velja svo Hjálp eða ýta á Ctrl + Shift +?.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>In both cases, the Help pane opens.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í báðum tilvikum opnast Hjálp rúðunni .</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>From the Help pane, you can access articles or task guides.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Úr hjálparsvæði er hægt að nálgast greinar eða verkleiðbeiningar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>Help pane</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hjálparsvæði</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>Accessing help topics from the Help pane</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aðgangur að hjálparefni úr hjálparsvæði</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>From the Help pane, you can access articles that apply to the Finance and Operations client.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Úr hjálparsvæði er hægt að opna greinar sem eiga við um biðlara Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>When you first open the Help pane and click the <bpt id="p1">**</bpt>Help<ept id="p1">**</ept> tab, you'll see the articles that apply to the page that you're currently on in Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar þú opnar hjálparsvæðið og smellir á <bpt id="p1">**</bpt>Hjálp<ept id="p1">**</ept> flipann, munt þú sjá þær greinar sem eiga við um síðuna sem þú ert nú á í Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>If no articles are found, you can enter keywords to refine your search.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef engar greinar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>When you click an article in the Help pane, a new tab opens in your browser and displays the article.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar þú smellir á grein í hjálparsvæði opnast nýr flipi og vafrinn þinn sýnir greinina.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>This section does not apply to Dynamics 365 for Talent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi hluti gildir ekki um Dynamics 365 for Talent.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>The Help system for Talent is automatically connected to Task guides for the product.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hjálparkerfið fyrir Talent er sjálfkrafa tengt við verkefnaleiðbeiningar fyrir vöruna.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>Also, you cannot create custom Task guides for Talent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Að auki getur þú ekki stofnað sérsniðnar verkefnaleiðbeiningar fyrir Talent.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>Accessing Task guides from the Help pane</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fara í verkefnaleiðbeiningar úr hjálparsvæði</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>Before you can access Task guides from the Help pane, a System administrator has to go to the <bpt id="p1">**</bpt>System parameters<ept id="p1">**</ept> page in Finance and Operations and configure some settings.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Áður en hægt er að opna verkefnaleiðbeiningar úr hjálparsvæði þarf kerfisstjóri að fara á síðuna <bpt id="p1">**</bpt>Kerfisfæribreytur<ept id="p1">**</ept> í Finance and Operations og skilgreina nokkrar stillingar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>In order to configure help, you must be signed in with an account in the same tenant as the tenant in which Finance and Operations is deployed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að stilla hjálp verðurðu að vera skráð(ur) inn með reikningi í sama leigjanda og leigjandinn sem verið er að nota í Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>It is not possible to connect to an LCS library from an instance of Finance and Operations running in a local virtual hard drive (VHD).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekki er hægt að tengjast LCS-safni úr tilviki Finance and Operations sem verið er að keyra á staðbundnum hörðum sýndardisk (VHD) .</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>System Parameters form with Help settings</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skjámynd kerfisfæribreyta með stillingum hjálparkerfis</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>On the <bpt id="p1">**</bpt>System parameters<ept id="p1">**</ept> page, follow these steps:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Á síðunni <bpt id="p1">**</bpt>Kerfisfæribreytur<ept id="p1">**</ept> skal fylgja þessum skrefum:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source><bpt id="p1">**</bpt>Important:<ept id="p1">**</ept> The first time that you open the Help tab, you must connect to Lifecycle Services.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Mikilvægt<ept id="p1">**</ept> Í fyrsta skipti sem þú opnar flipann Hjálp verður þú að tengjast Lifecycle Services.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>Be sure to click the link in the middle of the form, wait for the connection, close the dialog box, and then click <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> to get to the parameters form.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gættu þess að smella á tengilinn í miðri skjámyndinni, bíddu eftir tengingu, lokaðu svarglugganum og smelltu svo á <bpt id="p1">**</bpt>OK<ept id="p1">**</ept> til að fá færibreytuskjámyndina.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>Connect to LCS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tengjast við LCS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>Select the Lifecycle Services project to connect to.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veljið Lifecycle Services verk til að tengjast.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>Select BPM libraries (within the selected project) to retrieve task recordings from.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veldu BPM-söfn (innan valins verks) til að sækja verkskráningar úr .</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>For Finance and Operations, for Microsoft content, select the February 2017 QPC Unified Library for Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fyrir Finance and Operations, fyrir Microsoft efni, skal velja febrúar 2017 QPC Unified Library fyrir Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>For Retail, we will be releasing a library in July.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Við munum gefa út safn í júlí fyrir Retail.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>You do not need to select a library for Talent—the connection to the correct library is established for you.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þú þarft ekki að velja safn fyrir Talent — búið er að setja tengingu við rétt safn fyrir þig.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>Set the display order of the BPM libraries.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Velja birtingarröð BPM safna.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>This determines the order in which task recordings from the libraries will appear in the Help pane.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þetta ákvarðar í hvaða röð verkskráning úr í söfn birtast á Hjálp rúðunni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>After a System administrator has completed these steps, you can open the Help pane and click the <bpt id="p1">**</bpt>Task guides<ept id="p1">**</ept> tab. You'll now see the Task guides that apply to the page that you're currently on in Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftir að kerfisstjóri hefur lokið við þessi skref, er hægt að opna hjálparsvæðið og smella á flipann <bpt id="p1">**</bpt>Verkefnaleiðbeiningar<ept id="p1">**</ept>. Nú sérðu verkefnaleiðbeiningar sem eiga við um síðuna sem þú ert á í Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>If no Task guides are found, you can enter keywords to refine your search.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef engar verkefnaleiðbeiningar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>After you click a Task guide in the Help pane, the Help pane shows the step-by-step instructions, and you can play the task guide.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftir að smellt er á verkefnaleiðbeiningar í hjálparsvæði sýnir hjálparsvæðið skref fyrir skref leiðbeiningar og hægt er að spila verkefnaleiðbeiningar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>Task guide reading view</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lesgluggi verkefnaleiðbeininga</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>Where are the translated Task guides for Microsoft libraries?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hvar eru þýddu verkefnaleiðbeiningarnar fyrir Microsoft-söfn?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>Translated Task guides are released in libraries with "All languages" in the title.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þýddar Verkefnaleiðbeiningar eru útgefin í söfnum sem eru með „Öll tungumál“ í tiltlinum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>In Finance and Operations, to see localized Task guide help, make sure that you are connected to an appropriate library.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í Finance and Operations, til að sjá staðfærða hjálp verkleiðbeininga, skal tryggja að þú sért tengd við viðeigandi safn.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>The language that a Task guide appears in is controlled for each user by the Language settings under <bpt id="p1">**</bpt>Options<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Preferences<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tungumálið sem verkefnaleiðbeiningar birtist í er stjórnað fyrir hvern notanda samkvæmt tungumálastillingar undir <bpt id="p1">**</bpt>Valkostir<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Kjörstillingar<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>If a Task guide has been translated, when you open that Task guide all the text of the Task guide will appear in your selected language.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef verkefnaleiðbeiningar hefur verið þýdd, þegar þú opnar þessi verkefnaleiðbeiningar birtist allan texta þeirra í valið tungumál.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>If a Task guide has not yet been translated, when you open it, only some of the text (the text of the controls) will appear in your selected language.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef verkefnaleiðbeiningar hefur ekki enn verið þýddar, þegar þú opnar það, birtist aðeins hluti af textanum (Texti stjórnbúnaðar)  í valið tungumál.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>Creating custom help</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stofnun sérsniðinnar hjálpar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>You can create help for your users by creating custom task guides, or connect your own website to the Help pane.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að stofna hjálp fyrir notendur með því að stofna sérsniðnar verkefnaleiðbeiningar eða tengja eigið vefsvæði við hjálparsvæðið.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>For details, see:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Frekari upplýsingar eru í:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source><bpt id="p1">[</bpt>How to create a task recording to use as documentation or training<ept id="p1">](../../dev-itpro/user-interface/task-recorder.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Hvernig á að stofna verkskráningu til að nota sem fylgiskjöl eða þjálfun<ept id="p1">](../../dev-itpro/user-interface/task-recorder.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source><bpt id="p1">[</bpt>Create Custom Help for Finance and Operations (white paper)<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2041185)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Stofna sérsniðna hjálp fyrir Finance and Operations (hvítbók)<ept id="p1">](https://go.microsoft.com/fwlink/?linkid=2041185)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Frekari upplýsingar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source><bpt id="p1">[</bpt>Finance and Operations help system (downloadable fact sheet)<ept id="p1">](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Finance and Operations hjálparkerfi (upplýsingablað sem hlaða má niður)<ept id="p1">](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source><bpt id="p1">[</bpt>Task Recorder<ept id="p1">](../../dev-itpro/user-interface/task-recorder.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Verkskráning<ept id="p1">](../../dev-itpro/user-interface/task-recorder.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source><bpt id="p1">[</bpt>Create documentation or training using Task recordings<ept id="p1">](../../dev-itpro/user-interface/task-recorder.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Stofna fylgiskjölum eða þjálfun með verkskráningu<ept id="p1">](../../dev-itpro/user-interface/task-recorder.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source>The following table lists our websites.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í eftirfarandi töflu er listi yfir vefsíður okkar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source>Sites that have an asterisk (<ph id="ph1">\*</ph>) next to the name require that you sign in by using an account that is associated with a service plan.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Svæði sem hafa stjörnu (<ph id="ph1">\*</ph>) við nafnið krefjast innskráningu með því að nota reikning sem tengist þjónustuáætlun.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source>Site</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Svæði</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source>Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">lýsing</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source><bpt id="p1">[</bpt>Docs.microsoft.com<ept id="p1">](/dynamics365/)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Docs.microsoft.com<ept id="p1">](/dynamics365/)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source>Hosts or links to all product documentation for Dynamics 365.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hýsir eða tenglar fyrir fylgigögn afurða fyrir Dynamics 365.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source><bpt id="p1">[</bpt>Microsoft Learn<ept id="p1">](https://docs.microsoft.com/learn/)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Microsoft Learn<ept id="p1">](https://docs.microsoft.com/learn/)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>Microsoft's free eLearning site.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ókeypis eLearning vefsvæði Microsoft.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source><bpt id="p1">[</bpt>Lifecycle Services<ept id="p1">](https://lcs.dynamics.com/)</ept><ph id="ph1">\*</ph></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Lifecycle Services<ept id="p1">](https://lcs.dynamics.com/)</ept><ph id="ph1">\*</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>Provides a cloud-based collaborative workspace that customers and partners can use to manage Dynamics 365 for Finance and Operations projects from pre-sales to implementation and operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veitir sameiginlegt vinnusvæði í skýi sem viðskiptaaðilar og viðskiptavinir geta notað til að stjórna Dynamics 365 for Finance and Operations verkum úr aðgerðum forsölu og framkvæmdar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source>This site is useful in all phases of an implementation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þetta svæði er gagnlegt í öllum áföngum framkvæmdar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source><bpt id="p1">[</bpt>Support blog<ept id="p1">](https://aka.ms/AXSupportBlog)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Stuðningsblogg<ept id="p1">](https://aka.ms/AXSupportBlog)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>Provides tips and tricks that are posted by the Dynamics 365 for Finance and Operations Support team.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veitir ábendingar og tækni sem eru skrifaðar inn af þjónustuver Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source><bpt id="p1">[</bpt>Docs.microsoft.com/previous versions<ept id="p1">](https://docs.microsoft.com/previous-versions/dynamics/)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Docs.microsoft.com/fyrri útgáfur<ept id="p1">](https://docs.microsoft.com/previous-versions/dynamics/)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>Hosts content from previous releases.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hýsir efni frá fyrri útgáfum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="238">
-          <source><bpt id="p1">[</bpt>Dynamics Community<ept id="p1">](https://community.dynamics.com/)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Samfélag Dynamics<ept id="p1">](https://community.dynamics.com/)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="239">
-          <source>Hosts blogs, forums, and videos.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hýsir umræðuþræði, blogg og myndskeið.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="240">
-          <source><bpt id="p1">[</bpt>Microsoft.com/dynamics365/<ept id="p1">](https://www.microsoft.com/dynamics365/home)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Microsoft.com/dynamics365/<ept id="p1">](https://www.microsoft.com/dynamics365/home)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="241">
-          <source>Provides evaluation and sales information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veitir upplýsingar um mat og sölu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="242">
-          <source><bpt id="p1">[</bpt>CustomerSource<ept id="p1">](https://mbs.microsoft.com/customersource/)</ept><ph id="ph1">\*</ph></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>CustomerSource<ept id="p1">](https://mbs.microsoft.com/customersource/)</ept><ph id="ph1">\*</ph></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="243">
-          <source>Hosts some training resources for Finance and Operations, downloadable reports and white papers, and is the primary support site for service plan holders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hýsir nokkuð af þjálfunarefni fyrir Finance and Operations, skýrslur sem er hægt að hlaða niður og hvítblöð og er aðalstuðningssíða fyrir áskrifendur að þjónustuáætlunum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="244">
-          <source>May require a service plan to access some resources on the site.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hugsanlega er krafist þjónustuáætlunar til að fá aðgang að sumu efnir á vefsvæðinu.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Hjálparkerfi Finance and Operations
+description: Þetta efnisatriði veitir yfirlit yfir þætti í hjálparhluta Microsoft Dynamics 365 for Finance and Operations.
+author: margoc
+manager: AnnBe
+ms.date: 11/13/2018
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+ms.search.form: SystemParameters
+audience: Application User, Developer, IT Pro
+ms.reviewer: margoc
+ms.search.scope: Core, Operations
+ms.custom: 16381
+ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
+ms.search.region: Global
+ms.author: margoc
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595640"
+---
+# <a name="finance-and-operations-help-system"></a><span data-ttu-id="36098-103">Hjálparkerfi Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="36098-103">Finance and Operations Help system</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="36098-104">Þetta efnisatriði veitir yfirlit yfir þætti í hjálparhluta Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="36098-104">This topic provides an overview of the components of the Microsoft Dynamics 365 for Finance and Operations Help system.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="36098-105">Eftirfarandi vörur eru nátengdar: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; og Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="36098-105">The following products are closely related: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; and Dynamics 365 for Talent.</span></span> <span data-ttu-id="36098-106">Sama virkni kann að koma fyrir í öllum þremur vörunum.</span><span class="sxs-lookup"><span data-stu-id="36098-106">The same functionality may appear in all 3 products.</span></span> <span data-ttu-id="36098-107">Þar af leiðandi verður vöruheiti í efnisatriðum sem helst tengjast Retail, Dynamics 365 for Retail; í efnisatriðum sem tengjast fyrst og fremst Talent verður vöruheitið Dynamics 365 for Talent; og í efnisatriðum sem tengjast undirstöðuvöru verður vöruheitið Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="36098-107">As a result, in topics that are primarily related to Retail, the product name will be Dynamics 365 for Retail; in topics that are primarily related to Talent, the product name will be Dynamics 365 for Talent; and in topics that are related to the core product, the product name will be Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="36098-108">Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.</span><span class="sxs-lookup"><span data-stu-id="36098-108">Topics that are written for one product may apply to the same functionality in a related product.</span></span>
+
+<span data-ttu-id="36098-109">Eftirfarandi vörur samnýta Hjálparkerfið:</span><span class="sxs-lookup"><span data-stu-id="36098-109">The Help system is shared by the following products:</span></span>
+
+- <span data-ttu-id="36098-110">Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="36098-110">Dynamics 365 for Finance and Operations</span></span>
+- <span data-ttu-id="36098-111">Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="36098-111">Dynamics 365 for Retail</span></span>
+- <span data-ttu-id="36098-112">Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="36098-112">Dynamics 365 for Talent</span></span>
+
+<span data-ttu-id="36098-113">Finance and Operations inniheldur hjálparkerfi sem byggt er á tveimur aðalþáttum:</span><span class="sxs-lookup"><span data-stu-id="36098-113">Finance and Operations includes a Help system that is based on two main components:</span></span>
+
+- <span data-ttu-id="36098-114">Svæði fylgiskjala</span><span class="sxs-lookup"><span data-stu-id="36098-114">A documentation site</span></span>
+- <span data-ttu-id="36098-115">Verkleiðbeiningar</span><span class="sxs-lookup"><span data-stu-id="36098-115">Task guides</span></span>
+
+<span data-ttu-id="36098-116">Þú getur fengið aðgang að hjálp frá hjálparsvæðinu í hvaða vöru þú notar.</span><span class="sxs-lookup"><span data-stu-id="36098-116">You can access help from the Help pane in whichever product you are using.</span></span> <span data-ttu-id="36098-117">Eftirfarandi skjámynd sýnir Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="36098-117">The following screenshot shows Finance and Operations.</span></span>
+
+![Hjálparsvæði](./media/help-pane-ops-task-guides.png)
+
+> [!IMPORTANT]
+> <span data-ttu-id="36098-119">**Verkefnaleiðbeiningar** eru ekki í boði fyrir smásölu, eða á hjálparsvæðinu fyrir Talent (nokkrar verkefnaleiðbeiningar eru í boði á Hafist handa svæðinu fyrir Talent).</span><span class="sxs-lookup"><span data-stu-id="36098-119">**Task guides** are not currently available for Retail, or in the Help pane for Talent (a few task guides are available in the Getting Started pane for Talent).</span></span> <span data-ttu-id="36098-120">Leiðbeiningar fyrir aðstoð er að finna á docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) fyrir bæði Retail og Talent.</span><span class="sxs-lookup"><span data-stu-id="36098-120">Procedural help is available on the docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) for both Retail and Talent.</span></span>
+
+## <a name="help-on-docsmicrosoftcom"></a><span data-ttu-id="36098-121">Hjálp á docs.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="36098-121">Help on docs.microsoft.com</span></span>
+
+<span data-ttu-id="36098-122">Vefsvæðið docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) er aðaluppspretta vöruskjala fyrir Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="36098-122">The docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) is the primary source of product documentation for Finance and Operations.</span></span> <span data-ttu-id="36098-123">Svæðið býður upp á eftirfarandi eiginleika:</span><span class="sxs-lookup"><span data-stu-id="36098-123">The site offers the following features:</span></span>
+
+- <span data-ttu-id="36098-124">**Aðgangur að nýjasta efninu** – svæðið gefur okkur hraðar og sveigjanlegri leið til að stofna, afhenda og uppfæra fylgiskjal vöru.</span><span class="sxs-lookup"><span data-stu-id="36098-124">**Access to the most up-to-date content** – The site gives us a faster and more flexible way to create, deliver, and update product documentation.</span></span> <span data-ttu-id="36098-125">Því hjálpar það að tryggja að þú hafir aðgang að nýjustu tækniupplýsingunum.</span><span class="sxs-lookup"><span data-stu-id="36098-125">Therefore, it helps to ensure that you have access to the latest technical information.</span></span>
+- <span data-ttu-id="36098-126">**Efni sem er skrifuð af sérfræðingum**– Svæðið veitir ríkulegra safn vöruskjala sem hægt er að bæta af aðilum samfélagsins bæði innan og utan Microsoft.</span><span class="sxs-lookup"><span data-stu-id="36098-126">**Content that is written by experts** – The site provides a richer set of product documentation that can be enhanced by community members both inside and outside Microsoft.</span></span>
+- <span data-ttu-id="36098-127">**Aðgangur að mismunandi tegundir af innihaldi** – Þessi síða gerir þér kleift að fljótt fá aðgang að mismunandi gerðum efnis um Finance and Operations, svo sem verkefnaleiðbeiningar, myndbönd og efni.</span><span class="sxs-lookup"><span data-stu-id="36098-127">**Access to different types of content** – The site lets you quickly access different types of content about Finance and Operations, such as task guides, videos, and topics.</span></span>
+- <span data-ttu-id="36098-128">**Efni sem styður þína viðskiptaferla** – Svæðið inniheldur efni sem er sérstaklega gert fyrir viðskiptaferli og nýtir sér kosti viðskiptaferlavinnslu Business Process Modeler (BPM) í Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="36098-128">**Content that supports your business processes** – The site includes business process–focused content that takes advantage of the Business Process Modeler (BPM) in Microsoft Dynamics Lifecycle Services (LCS).</span></span>
+
+### <a name="searching-on-docsmicrosoftcom"></a><span data-ttu-id="36098-129">Leit á docs.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="36098-129">Searching on docs.microsoft.com</span></span>
+
+<span data-ttu-id="36098-130">Við fáum mikið af spurningum um hvernig á að leita að efni okkar.</span><span class="sxs-lookup"><span data-stu-id="36098-130">We get a lot of questions about how to search for our content.</span></span> <span data-ttu-id="36098-131">Ef þú byrjar á síðu um Finance and Operations á vefsvæðinu okkar, afmörkum við leitina þannig að hún varði aðeins efni um Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="36098-131">On our site, if you start from a page about Finance and Operations, we scope your search to just be for Finance and Operations content.</span></span> <span data-ttu-id="36098-132">Þú getur fjarlægt afmörkunina með því að smella á X við hliðina á Unified Operations í leitarreitnum.</span><span class="sxs-lookup"><span data-stu-id="36098-132">You can remove the scoping by clicking the X next to Unified Operations in the search box.</span></span>
+
+![Leit](./media/search-scope-2.png)
+
+<span data-ttu-id="36098-134">Einnig er hægt að finna okkar efni með hvaða leitarvél sem er.</span><span class="sxs-lookup"><span data-stu-id="36098-134">You can also find our content with any search engine.</span></span> <span data-ttu-id="36098-135">Til að niðurstöður verði sem bestar mælum við með að þú notir leit á svæðum, svo sem site:docs.microsoft.com dynamics 365 „leitarorð".</span><span class="sxs-lookup"><span data-stu-id="36098-135">We recommend that for best results, you use a site search, such as site:docs.microsoft.com dynamics 365 "search term".</span></span>
+
+### <a name="the-docsmicrosoftcom-table-of-contents"></a><span data-ttu-id="36098-136">Yfirlitið docs.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="36098-136">The docs.microsoft.com table of contents</span></span>
+
+<span data-ttu-id="36098-137">Finance and Operations and Retail deila öllum einu efnisyfirliti á skjalasíðunni, sem gerir viðskiptavinum kleift að sjá samhengi efnisatriðisins sem þeir eru í.</span><span class="sxs-lookup"><span data-stu-id="36098-137">Finance and Operations and Retail all share a single table of contents on the docs site, which enables customers to see the context of the topic they are in.</span></span> <span data-ttu-id="36098-138">Það gerir þér einnig kleift að nota Afmörkunarstýringu fyrir ofan efnisyfirlitið til að finna efnisatriðin sem leitar að.</span><span class="sxs-lookup"><span data-stu-id="36098-138">It also enables you to use the Filter control above the table of contents to find topics that you are looking for.</span></span>
+
+<span data-ttu-id="36098-139">Þú getur fengið hjálp á öðrum Dynamics 365 vörum með því að leita að þeim eða með því að smella á Dynamics 365 á brauðmylsnusíðunni til að komast að miðstöðvarsíðunni okkar.</span><span class="sxs-lookup"><span data-stu-id="36098-139">You can get help on other Dynamics 365 products by searching for them, or by clicking Dynamics 365 in the site breadcrumb to get to our hub page.</span></span>
+
+### <a name="use-an-rss-feed"></a><span data-ttu-id="36098-140">Nota RSS-straum</span><span class="sxs-lookup"><span data-stu-id="36098-140">Use an RSS feed</span></span>
+
+<span data-ttu-id="36098-141">Til að gerast áskrifandi að RSS-straumi af öllum uppfærslum á innihaldi Unified Operations skal nota eftirfarandi tengil úr vafra sem styður RSS-strauma, svo sem Internet Explorer eða RSS straumstjórnun:</span><span class="sxs-lookup"><span data-stu-id="36098-141">To subscribe to an RSS feed of all updates to the Unified Operations content, use the following link from a browser that supports RSS feeds, such as Internet Explorer, or an RSS feed manager:</span></span>
+
+<span data-ttu-id="36098-142">[RSS-straumur](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))</span><span class="sxs-lookup"><span data-stu-id="36098-142">[RSS feed](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))</span></span>
+
+### <a name="give-feedback"></a><span data-ttu-id="36098-143">Láttu í ljós viðbrögð</span><span class="sxs-lookup"><span data-stu-id="36098-143">Give feedback</span></span>
+
+<span data-ttu-id="36098-144">Við viljum endilega heyra af viðbrögðum viðskiptavina.</span><span class="sxs-lookup"><span data-stu-id="36098-144">We really like customer feedback.</span></span> <span data-ttu-id="36098-145">Þú getur annaðhvort skrifað athugasemd um, eða lagt til breytingar á efni okkar í gegnum GitHub.</span><span class="sxs-lookup"><span data-stu-id="36098-145">You can either comment or suggest changes to our content through GitHub.</span></span> <span data-ttu-id="36098-146">Nánari upplýsingar um ábendingarkerfið okkar er að finna í [þessari bloggfærslu](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs).</span><span class="sxs-lookup"><span data-stu-id="36098-146">For more information about our feedback system, see [this blog post](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs).</span></span>
+
+#### <a name="leave-us-feedback"></a><span data-ttu-id="36098-147">Skildu eftir ábendingu</span><span class="sxs-lookup"><span data-stu-id="36098-147">Leave us feedback</span></span>
+
+<span data-ttu-id="36098-148">Ef þú vilt láta í ljós viðbrögð eða spyrja spurninga um efni skaltu láta okkur vita neðst á síðunni.</span><span class="sxs-lookup"><span data-stu-id="36098-148">If you have feedback or questions about a topic, leave us a comment at the bottom of the page.</span></span>
+
+1. <span data-ttu-id="36098-149">Smelltu á **Ábendingar** til að sjá athugasemdir neðst á síðunni og smelltu síðan á annaðhvort **Ábending um vöru** eða **Skrá inn á til að skrá inn ábendingu**.</span><span class="sxs-lookup"><span data-stu-id="36098-149">Click **Feedback** to get to the comments at the bottom of the page, and then click either **Product feedback**, or **Sign in to give documentation feedback**.</span></span>
+
+2. <span data-ttu-id="36098-150">Byrjaðu að færa inn athugasemdir og smelltu síðan á **Birta ábendingu**.</span><span class="sxs-lookup"><span data-stu-id="36098-150">Start typing your comments, and then click **Submit feedback**.</span></span>
+
+    ![Setja inn ummæli](./media/feedback.png)
+
+##### <a name="suggest-a-change-or-contribute-content-through-github"></a><span data-ttu-id="36098-152">Leggja til breytingar eða leggja fram efni í gegnum GitHub</span><span class="sxs-lookup"><span data-stu-id="36098-152">Suggest a change or contribute content through GitHub</span></span>
+
+<span data-ttu-id="36098-153">Til að leggja til breytingu þarftu að vera með GitHub reikning og undirrita leyfisveitandi samning þátttakanda.</span><span class="sxs-lookup"><span data-stu-id="36098-153">To suggest a change, you'll need to have a GitHub account, and sign a Contributor License Agreement.</span></span> <span data-ttu-id="36098-154">Eftir að þú hefur sent inn beiðni um að hafa áhrif, munum fara yfir breytingartillögur þínar.</span><span class="sxs-lookup"><span data-stu-id="36098-154">After you submit a pull request, we'll review your proposed changes.</span></span> <span data-ttu-id="36098-155">Ef nauðsyn krefur, munum við ræða þær innbyrðis og hafa síðan samband við þig.</span><span class="sxs-lookup"><span data-stu-id="36098-155">If necessary, we'll discuss them internally, and then get back to you.</span></span>
+
+<span data-ttu-id="36098-156">Til að byrja skal smella á (blýants)hnappinn **Breyta** á efnisatriði eða fara í geymsluna okkar á <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>.</span><span class="sxs-lookup"><span data-stu-id="36098-156">To get started, click the **Edit** (pencil) button on a topic, or go to our repo at <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>.</span></span>
+
+<span data-ttu-id="36098-157">Fyrir nánari upplýsingar skal leita í leiðbeiningar okkar fyrir þátttakendur: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.</span><span class="sxs-lookup"><span data-stu-id="36098-157">For more information, please refer to our contributor's guide: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="36098-158">Við samþykkjum aðeins framlag í ensku efni okkar á þessum tíma.</span><span class="sxs-lookup"><span data-stu-id="36098-158">We only accept contributions to our English content set at this time.</span></span>
+
+## <a name="task-guides"></a><span data-ttu-id="36098-159">Verkleiðbeiningar</span><span class="sxs-lookup"><span data-stu-id="36098-159">Task guides</span></span>
+
+<span data-ttu-id="36098-160">Verkefnaleiðbeiningar eru stýrð, leiðbeind, gagnvirka reynslu sem fer með þig í gegnum þrep í verki eða viðskiptaferli.</span><span class="sxs-lookup"><span data-stu-id="36098-160">A Task guide is a controlled, guided, interactive experience that leads you through the steps of a task, or business process.</span></span> <span data-ttu-id="36098-161">Hægt er að opna (spila) verkefnaleiðbeiningar úr hjálparsvæðinu.</span><span class="sxs-lookup"><span data-stu-id="36098-161">You can open (play) a Task guide from the Help pane.</span></span> <span data-ttu-id="36098-162">Þegar er smellt í fyrsta skipti á verkefnaleiðbeiningar mun hjálparsvæði sýnir nákvæmar leiðbeiningar fyrir verkið.</span><span class="sxs-lookup"><span data-stu-id="36098-162">When you first click a Task guide, the Help pane will show the step-by-step instructions for the task.</span></span> <span data-ttu-id="36098-163">Staðfært verkleiðbeiningar eru nú í boði.</span><span class="sxs-lookup"><span data-stu-id="36098-163">Localized Task guides are now available.</span></span>
+
+<span data-ttu-id="36098-164">Microsoft sendi verkefnaleiðbeiningar fyrir útgáfur í desember 2017 fyrir Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="36098-164">Microsoft shipped task guide libraries for releases through December 2017 for Finance and Operations.</span></span> <span data-ttu-id="36098-165">Hlutinn [Fara í verkefnaleiðbeiningar úr hjálparsvæði](help-overview.md#accessing-task-guides-from-the-help-pane) lýsir því hvernig á að finna réttar verkefnaleiðbeiningar fyrir vöruna þína.</span><span class="sxs-lookup"><span data-stu-id="36098-165">The section [Accessing Task guides from the Help pane](help-overview.md#accessing-task-guides-from-the-help-pane) describes how to find the correct task guides for your product.</span></span>
+
+![Lesgluggi verkefnaleiðbeininga](./media/task-guide-ops.png)
+
+<span data-ttu-id="36098-167">Til að byrja gagnvirka leiðsögn, smellið á **Opna verkefnaleiðbeiningar** neðst á rúðunni Hjálp.</span><span class="sxs-lookup"><span data-stu-id="36098-167">To begin the guided, interactive experience, click **Start task guide** at the bottom of the Help pane.</span></span> <span data-ttu-id="36098-168">Svartur bendill birtist og sýnir aðgerð sem þarf að framkvæma.</span><span class="sxs-lookup"><span data-stu-id="36098-168">A black pointer opens and indicates the action that you must perform.</span></span> <span data-ttu-id="36098-169">Fylgja leiðbeiningunum sem birtist í Notendaviðmóti og færa inn gögn samkvæmt leiðbeiningum.</span><span class="sxs-lookup"><span data-stu-id="36098-169">Follow the directions that appear in the UI, and enter data as directed.</span></span>
+
+![Fyrirmæli um skref í verkefnaleiðbeiningum](./media/task-guide-step-1-ops.png)
+
+> [!IMPORTANT]
+> <span data-ttu-id="36098-171">Gögn sem þú færir inn þegar verkefnaleiðbeiningar eru spilaðar eru raunveruleg.</span><span class="sxs-lookup"><span data-stu-id="36098-171">The data that you enter when you play a task guide is real.</span></span> <span data-ttu-id="36098-172">Ef unnið er í vinnsluumhverfi, verða gögn færð inn í fyrirtækinu sem verið er að nota þá stundina.</span><span class="sxs-lookup"><span data-stu-id="36098-172">If you're in a production environment, the data will be entered in the company that you're currently using.</span></span>
+
+<span data-ttu-id="36098-173">Hægt er að nota verkskráningu til að stofna eigin sérsniðnar verkefnaleiðbeiningar.</span><span class="sxs-lookup"><span data-stu-id="36098-173">You can use Task recorder to create your own custom task guides.</span></span> <span data-ttu-id="36098-174">Frekari upplýsingar eru í [Stofna fylgiskjöl eða þjálfun með verkskráningu](../../dev-itpro/user-interface/task-recorder-training-docs.md).</span><span class="sxs-lookup"><span data-stu-id="36098-174">For more information, see [Create documentation or training by using task recordings](../../dev-itpro/user-interface/task-recorder-training-docs.md).</span></span>
+
+## <a name="in-product-help"></a><span data-ttu-id="36098-175">Hjálp innan vörunnar</span><span class="sxs-lookup"><span data-stu-id="36098-175">In-product Help</span></span>
+
+<span data-ttu-id="36098-176">Til að fá aðgang að hjálparefni innan Finance and Operations skal smella annaðhvort á táknið **Hjálp** (**?**) og velja svo Hjálp eða ýta á Ctrl + Shift +?.</span><span class="sxs-lookup"><span data-stu-id="36098-176">To access Help content within Finance and Operations, either click the **Help** (**?**) icon and then choose Help or press Ctrl+Shift+?.</span></span> <span data-ttu-id="36098-177">Í báðum tilvikum opnast Hjálp rúðunni .</span><span class="sxs-lookup"><span data-stu-id="36098-177">In both cases, the Help pane opens.</span></span> <span data-ttu-id="36098-178">Úr hjálparsvæði er hægt að nálgast greinar eða verkleiðbeiningar.</span><span class="sxs-lookup"><span data-stu-id="36098-178">From the Help pane, you can access articles or task guides.</span></span>
+
+![Hjálparsvæði](./media/help-pane-wiki.png)
+
+### <a name="accessing-help-topics-from-the-help-pane"></a><span data-ttu-id="36098-180">Aðgangur að hjálparefni úr hjálparsvæði</span><span class="sxs-lookup"><span data-stu-id="36098-180">Accessing help topics from the Help pane</span></span>
+
+<span data-ttu-id="36098-181">Úr hjálparsvæði er hægt að opna greinar sem eiga við um biðlara Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="36098-181">From the Help pane, you can access articles that apply to the Finance and Operations client.</span></span> <span data-ttu-id="36098-182">Þegar þú opnar hjálparsvæðið og smellir á **Hjálp** flipann, munt þú sjá þær greinar sem eiga við um síðuna sem þú ert nú á í Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="36098-182">When you first open the Help pane and click the **Help** tab, you'll see the articles that apply to the page that you're currently on in Finance and Operations.</span></span> <span data-ttu-id="36098-183">Ef engar greinar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina.</span><span class="sxs-lookup"><span data-stu-id="36098-183">If no articles are found, you can enter keywords to refine your search.</span></span> <span data-ttu-id="36098-184">Þegar þú smellir á grein í hjálparsvæði opnast nýr flipi og vafrinn þinn sýnir greinina.</span><span class="sxs-lookup"><span data-stu-id="36098-184">When you click an article in the Help pane, a new tab opens in your browser and displays the article.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="36098-185">Þessi hluti gildir ekki um Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="36098-185">This section does not apply to Dynamics 365 for Talent.</span></span> <span data-ttu-id="36098-186">Hjálparkerfið fyrir Talent er sjálfkrafa tengt við verkefnaleiðbeiningar fyrir vöruna.</span><span class="sxs-lookup"><span data-stu-id="36098-186">The Help system for Talent is automatically connected to Task guides for the product.</span></span> <span data-ttu-id="36098-187">Að auki getur þú ekki stofnað sérsniðnar verkefnaleiðbeiningar fyrir Talent.</span><span class="sxs-lookup"><span data-stu-id="36098-187">Also, you cannot create custom Task guides for Talent.</span></span>
+
+### <a name="accessing-task-guides-from-the-help-pane"></a><span data-ttu-id="36098-188">Fara í verkefnaleiðbeiningar úr hjálparsvæði</span><span class="sxs-lookup"><span data-stu-id="36098-188">Accessing Task guides from the Help pane</span></span>
+
+<span data-ttu-id="36098-189">Áður en hægt er að opna verkefnaleiðbeiningar úr hjálparsvæði þarf kerfisstjóri að fara á síðuna **Kerfisfæribreytur** í Finance and Operations og skilgreina nokkrar stillingar.</span><span class="sxs-lookup"><span data-stu-id="36098-189">Before you can access Task guides from the Help pane, a System administrator has to go to the **System parameters** page in Finance and Operations and configure some settings.</span></span>
+
+> [!NOTE]
+> - <span data-ttu-id="36098-190">Til að stilla hjálp verðurðu að vera skráð(ur) inn með reikningi í sama leigjanda og leigjandinn sem verið er að nota í Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="36098-190">In order to configure help, you must be signed in with an account in the same tenant as the tenant in which Finance and Operations is deployed.</span></span>
+> - <span data-ttu-id="36098-191">Ekki er hægt að tengjast LCS-safni úr tilviki Finance and Operations sem verið er að keyra á staðbundnum hörðum sýndardisk (VHD) .</span><span class="sxs-lookup"><span data-stu-id="36098-191">It is not possible to connect to an LCS library from an instance of Finance and Operations running in a local virtual hard drive (VHD).</span></span>
+
+![Skjámynd kerfisfæribreyta með stillingum hjálparkerfis](./media/system-parameters_ops-1024x437.png)
+
+<span data-ttu-id="36098-193">Á síðunni **Kerfisfæribreytur** skal fylgja þessum skrefum:</span><span class="sxs-lookup"><span data-stu-id="36098-193">On the **System parameters** page, follow these steps:</span></span>
+
+1. <span data-ttu-id="36098-194">**Mikilvægt** Í fyrsta skipti sem þú opnar flipann Hjálp verður þú að tengjast Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="36098-194">**Important:** The first time that you open the Help tab, you must connect to Lifecycle Services.</span></span> <span data-ttu-id="36098-195">Gættu þess að smella á tengilinn í miðri skjámyndinni, bíddu eftir tengingu, lokaðu svarglugganum og smelltu svo á **OK** til að fá færibreytuskjámyndina.</span><span class="sxs-lookup"><span data-stu-id="36098-195">Be sure to click the link in the middle of the form, wait for the connection, close the dialog box, and then click **OK** to get to the parameters form.</span></span>
+
+    ![Tengjast við LCS](./media/connect-to-lcs-crop-1024x365.png)
+
+2. <span data-ttu-id="36098-197">Veljið Lifecycle Services verk til að tengjast.</span><span class="sxs-lookup"><span data-stu-id="36098-197">Select the Lifecycle Services project to connect to.</span></span>
+3. <span data-ttu-id="36098-198">Veldu BPM-söfn (innan valins verks) til að sækja verkskráningar úr .</span><span class="sxs-lookup"><span data-stu-id="36098-198">Select BPM libraries (within the selected project) to retrieve task recordings from.</span></span>
+
+    - <span data-ttu-id="36098-199">Fyrir Finance and Operations, fyrir Microsoft efni, skal velja febrúar 2017 QPC Unified Library fyrir Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="36098-199">For Finance and Operations, for Microsoft content, select the February 2017 QPC Unified Library for Microsoft Dynamics 365 for Finance and Operations.</span></span>
+    - <span data-ttu-id="36098-200">Við munum gefa út safn í júlí fyrir Retail.</span><span class="sxs-lookup"><span data-stu-id="36098-200">For Retail, we will be releasing a library in July.</span></span>
+    - <span data-ttu-id="36098-201">Þú þarft ekki að velja safn fyrir Talent — búið er að setja tengingu við rétt safn fyrir þig.</span><span class="sxs-lookup"><span data-stu-id="36098-201">You do not need to select a library for Talent—the connection to the correct library is established for you.</span></span>
+
+4. <span data-ttu-id="36098-202">Velja birtingarröð BPM safna.</span><span class="sxs-lookup"><span data-stu-id="36098-202">Set the display order of the BPM libraries.</span></span> <span data-ttu-id="36098-203">Þetta ákvarðar í hvaða röð verkskráning úr í söfn birtast á Hjálp rúðunni.</span><span class="sxs-lookup"><span data-stu-id="36098-203">This determines the order in which task recordings from the libraries will appear in the Help pane.</span></span>
+
+<span data-ttu-id="36098-204">Eftir að kerfisstjóri hefur lokið við þessi skref, er hægt að opna hjálparsvæðið og smella á flipann **Verkefnaleiðbeiningar**. Nú sérðu verkefnaleiðbeiningar sem eiga við um síðuna sem þú ert á í Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="36098-204">After a System administrator has completed these steps, you can open the Help pane and click the **Task guides** tab. You'll now see the Task guides that apply to the page that you're currently on in Finance and Operations.</span></span> <span data-ttu-id="36098-205">Ef engar verkefnaleiðbeiningar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina.</span><span class="sxs-lookup"><span data-stu-id="36098-205">If no Task guides are found, you can enter keywords to refine your search.</span></span> <span data-ttu-id="36098-206">Eftir að smellt er á verkefnaleiðbeiningar í hjálparsvæði sýnir hjálparsvæðið skref fyrir skref leiðbeiningar og hægt er að spila verkefnaleiðbeiningar.</span><span class="sxs-lookup"><span data-stu-id="36098-206">After you click a Task guide in the Help pane, the Help pane shows the step-by-step instructions, and you can play the task guide.</span></span>
+
+![Lesgluggi verkefnaleiðbeininga](./media/task-guide-ops.png)
+
+### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a><span data-ttu-id="36098-208">Hvar eru þýddu verkefnaleiðbeiningarnar fyrir Microsoft-söfn?</span><span class="sxs-lookup"><span data-stu-id="36098-208">Where are the translated Task guides for Microsoft libraries?</span></span>
+
+<span data-ttu-id="36098-209">Þýddar Verkefnaleiðbeiningar eru útgefin í söfnum sem eru með „Öll tungumál“ í tiltlinum.</span><span class="sxs-lookup"><span data-stu-id="36098-209">Translated Task guides are released in libraries with "All languages" in the title.</span></span> <span data-ttu-id="36098-210">Í Finance and Operations, til að sjá staðfærða hjálp verkleiðbeininga, skal tryggja að þú sért tengd við viðeigandi safn.</span><span class="sxs-lookup"><span data-stu-id="36098-210">In Finance and Operations, to see localized Task guide help, make sure that you are connected to an appropriate library.</span></span> <span data-ttu-id="36098-211">Tungumálið sem verkefnaleiðbeiningar birtist í er stjórnað fyrir hvern notanda samkvæmt tungumálastillingar undir **Valkostir** &gt; **Kjörstillingar**.</span><span class="sxs-lookup"><span data-stu-id="36098-211">The language that a Task guide appears in is controlled for each user by the Language settings under **Options** &gt; **Preferences**.</span></span>
+
+- <span data-ttu-id="36098-212">Ef verkefnaleiðbeiningar hefur verið þýdd, þegar þú opnar þessi verkefnaleiðbeiningar birtist allan texta þeirra í valið tungumál.</span><span class="sxs-lookup"><span data-stu-id="36098-212">If a Task guide has been translated, when you open that Task guide all the text of the Task guide will appear in your selected language.</span></span>
+- <span data-ttu-id="36098-213">Ef verkefnaleiðbeiningar hefur ekki enn verið þýddar, þegar þú opnar það, birtist aðeins hluti af textanum (Texti stjórnbúnaðar)  í valið tungumál.</span><span class="sxs-lookup"><span data-stu-id="36098-213">If a Task guide has not yet been translated, when you open it, only some of the text (the text of the controls) will appear in your selected language.</span></span>
+
+## <a name="creating-custom-help"></a><span data-ttu-id="36098-214">Stofnun sérsniðinnar hjálpar</span><span class="sxs-lookup"><span data-stu-id="36098-214">Creating custom help</span></span>
+
+<span data-ttu-id="36098-215">Hægt er að stofna hjálp fyrir notendur með því að stofna sérsniðnar verkefnaleiðbeiningar eða tengja eigið vefsvæði við hjálparsvæðið.</span><span class="sxs-lookup"><span data-stu-id="36098-215">You can create help for your users by creating custom task guides, or connect your own website to the Help pane.</span></span> <span data-ttu-id="36098-216">Frekari upplýsingar eru í:</span><span class="sxs-lookup"><span data-stu-id="36098-216">For details, see:</span></span>
+
+- <span data-ttu-id="36098-217">[Hvernig á að stofna verkskráningu til að nota sem fylgiskjöl eða þjálfun](../../dev-itpro/user-interface/task-recorder.md).</span><span class="sxs-lookup"><span data-stu-id="36098-217">[How to create a task recording to use as documentation or training](../../dev-itpro/user-interface/task-recorder.md).</span></span>
+- [<span data-ttu-id="36098-218">Stofna sérsniðna hjálp fyrir Finance and Operations (hvítbók)</span><span class="sxs-lookup"><span data-stu-id="36098-218">Create Custom Help for Finance and Operations (white paper)</span></span>](https://go.microsoft.com/fwlink/?linkid=2041185)
+
+## <a name="additional-resources"></a><span data-ttu-id="36098-219">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="36098-219">Additional resources</span></span>
+
+- [<span data-ttu-id="36098-220">Finance and Operations hjálparkerfi (upplýsingablað sem hlaða má niður)</span><span class="sxs-lookup"><span data-stu-id="36098-220">Finance and Operations help system (downloadable fact sheet)</span></span>](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
+- [<span data-ttu-id="36098-221">Verkskráning</span><span class="sxs-lookup"><span data-stu-id="36098-221">Task Recorder</span></span>](../../dev-itpro/user-interface/task-recorder.md)
+- [<span data-ttu-id="36098-222">Stofna fylgiskjölum eða þjálfun með verkskráningu</span><span class="sxs-lookup"><span data-stu-id="36098-222">Create documentation or training using Task recordings</span></span>](../../dev-itpro/user-interface/task-recorder.md)
+
+<span data-ttu-id="36098-223">Í eftirfarandi töflu er listi yfir vefsíður okkar.</span><span class="sxs-lookup"><span data-stu-id="36098-223">The following table lists our websites.</span></span> <span data-ttu-id="36098-224">Svæði sem hafa stjörnu (\*) við nafnið krefjast innskráningu með því að nota reikning sem tengist þjónustuáætlun.</span><span class="sxs-lookup"><span data-stu-id="36098-224">Sites that have an asterisk (\*) next to the name require that you sign in by using an account that is associated with a service plan.</span></span>
+
+| <span data-ttu-id="36098-225">Svæði</span><span class="sxs-lookup"><span data-stu-id="36098-225">Site</span></span>                                                                                           | <span data-ttu-id="36098-226">lýsing</span><span class="sxs-lookup"><span data-stu-id="36098-226">Description</span></span> |
+|------------------------------------------------------------------------------------------------|-------------|
+| [<span data-ttu-id="36098-227">Docs.microsoft.com</span><span class="sxs-lookup"><span data-stu-id="36098-227">Docs.microsoft.com</span></span>](/dynamics365/)                                                            | <span data-ttu-id="36098-228">Hýsir eða tenglar fyrir fylgigögn afurða fyrir Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="36098-228">Hosts or links to all product documentation for Dynamics 365.</span></span> |
+| [<span data-ttu-id="36098-229">Microsoft Learn</span><span class="sxs-lookup"><span data-stu-id="36098-229">Microsoft Learn</span></span>](https://docs.microsoft.com/learn/)                                           | <span data-ttu-id="36098-230">Ókeypis eLearning vefsvæði Microsoft.</span><span class="sxs-lookup"><span data-stu-id="36098-230">Microsoft's free eLearning site.</span></span> |
+| <span data-ttu-id="36098-231">[Lifecycle Services](https://lcs.dynamics.com/)\*</span><span class="sxs-lookup"><span data-stu-id="36098-231">[Lifecycle Services](https://lcs.dynamics.com/)\*</span></span>                                              | <span data-ttu-id="36098-232">Veitir sameiginlegt vinnusvæði í skýi sem viðskiptaaðilar og viðskiptavinir geta notað til að stjórna Dynamics 365 for Finance and Operations verkum úr aðgerðum forsölu og framkvæmdar.</span><span class="sxs-lookup"><span data-stu-id="36098-232">Provides a cloud-based collaborative workspace that customers and partners can use to manage Dynamics 365 for Finance and Operations projects from pre-sales to implementation and operations.</span></span> <span data-ttu-id="36098-233">Þetta svæði er gagnlegt í öllum áföngum framkvæmdar.</span><span class="sxs-lookup"><span data-stu-id="36098-233">This site is useful in all phases of an implementation.</span></span> |
+| [<span data-ttu-id="36098-234">Stuðningsblogg</span><span class="sxs-lookup"><span data-stu-id="36098-234">Support blog</span></span>](https://aka.ms/AXSupportBlog)                                                    | <span data-ttu-id="36098-235">Veitir ábendingar og tækni sem eru skrifaðar inn af þjónustuver Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="36098-235">Provides tips and tricks that are posted by the Dynamics 365 for Finance and Operations Support team.</span></span> |
+| [<span data-ttu-id="36098-236">Docs.microsoft.com/fyrri útgáfur</span><span class="sxs-lookup"><span data-stu-id="36098-236">Docs.microsoft.com/previous versions</span></span>](https://docs.microsoft.com/previous-versions/dynamics/) | <span data-ttu-id="36098-237">Hýsir efni frá fyrri útgáfum.</span><span class="sxs-lookup"><span data-stu-id="36098-237">Hosts content from previous releases.</span></span> |
+| [<span data-ttu-id="36098-238">Samfélag Dynamics</span><span class="sxs-lookup"><span data-stu-id="36098-238">Dynamics Community</span></span>](https://community.dynamics.com/)                                          | <span data-ttu-id="36098-239">Hýsir umræðuþræði, blogg og myndskeið.</span><span class="sxs-lookup"><span data-stu-id="36098-239">Hosts blogs, forums, and videos.</span></span> |
+| [<span data-ttu-id="36098-240">Microsoft.com/dynamics365/</span><span class="sxs-lookup"><span data-stu-id="36098-240">Microsoft.com/dynamics365/</span></span>](https://www.microsoft.com/dynamics365/home)                       | <span data-ttu-id="36098-241">Veitir upplýsingar um mat og sölu.</span><span class="sxs-lookup"><span data-stu-id="36098-241">Provides evaluation and sales information.</span></span> |
+| <span data-ttu-id="36098-242">[CustomerSource](https://mbs.microsoft.com/customersource/)\*</span><span class="sxs-lookup"><span data-stu-id="36098-242">[CustomerSource](https://mbs.microsoft.com/customersource/)\*</span></span>                                  | <span data-ttu-id="36098-243">Hýsir nokkuð af þjálfunarefni fyrir Finance and Operations, skýrslur sem er hægt að hlaða niður og hvítblöð og er aðalstuðningssíða fyrir áskrifendur að þjónustuáætlunum.</span><span class="sxs-lookup"><span data-stu-id="36098-243">Hosts some training resources for Finance and Operations, downloadable reports and white papers, and is the primary support site for service plan holders.</span></span> <span data-ttu-id="36098-244">Hugsanlega er krafist þjónustuáætlunar til að fá aðgang að sumu efnir á vefsvæðinu.</span><span class="sxs-lookup"><span data-stu-id="36098-244">May require a service plan to access some resources on the site.</span></span> |

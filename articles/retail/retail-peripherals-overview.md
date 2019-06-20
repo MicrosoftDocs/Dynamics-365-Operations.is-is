@@ -1,2610 +1,893 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="retail-peripherals-overview.md" target-language="is-is">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>retail-peripherals-overview.3a1cbf.a9fa49d0b3553ae70547aeea19d14bc6e6e08983.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>a9fa49d0b3553ae70547aeea19d14bc6e6e08983</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>ffc37f7c2a63bada3055f37856a30424040bc9a3</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/16/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\retail\retail-peripherals-overview.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Retail peripherals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail-jaðarbúnaður</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic explains the concepts that are related to retail peripherals.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í þessu efnisatriði eru útskýrð hugtök sem tengjast jaðartæki smásölu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Retail peripherals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail-jaðarbúnaður</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This topic explains the concepts that are related to retail peripherals.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í þessu efnisatriði eru útskýrð hugtök sem tengjast jaðartæki smásölu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>It describes the various ways that peripherals can be connected to the point of sale (POS) and the components that are responsible for managing the connection with the POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Það lýsir mismunandi máta sem hægt er að tengja jaðartæki við sölustað (POS) og íhlutunum sem bera ábygð á stjórnun tengingar með POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Concepts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hugtök</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>POS registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Afgreiðslukassar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Navigation: Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS setup<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Registers<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fletting: Smella á <bpt id="p1">**</bpt>Smásala<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Uppsetning rásar<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Uppsetning POS<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Afgreiðslukassar<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>The point of sale (POS) register is an entity that is used to define the characteristics of a specific instance of the POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Punktur afgreiðslukassa á sölustað er eining sem er notuð til að skilgreina eiginleika sértækts tilviks í POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>These characteristics include the hardware profile or setup for retail peripherals that will be used at the register, the store that the register is mapped to, and the visual experience for the user who signs in to that register.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessir eiginleikar taka til vélbúnaðarsniðs eða uppsetningar fyrir jaðarbúnað í smásölu sem verður notað hjá afgreiðslukassanum, verslunina sem afgreiðslukassinn er varpaður á og sjónræna upplifun fyrir notandann sem skráir sig inn í þann kassa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Devices</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tæki</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Navigation: Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS setup<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Devices<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fletting: Smella á <bpt id="p1">**</bpt>Smásala<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Uppsetning rásar<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Uppsetning POS<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Tæki<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>A device is an entity that represents a physical instance of a device that is mapped to a POS register.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tæki er eining sem stendur fyrir efnislegt tilvik tækis sem er varpað í afgreiðslukassa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>When a device is created, it's mapped to a POS register.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar tæki er stofnað, er það varpað á afgreiðslukassa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>The device entity tracks information about when a POS register is activated, the type of client that is being used, and the application package that has been deployed to a specific device.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tækjaeiningin rekur upplýsingar um þegar afgreiðslukassi er virkjaður, gerð biðlara sem verið er að nota og forritapakka sem hefur verið virkjað á tiltekna tæki.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Devices can be mapped to the following application types: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android, and Retail Modern POS – iOS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tækjum er hægt að varpa í eftirfarandi forrit: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android og Retail Modern POS – iOS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Retail Modern POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Modern POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Modern POS is the POS program for Microsoft Windows.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS er POS-forritið fyrir Microsoft Windows.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>It can be deployed on Windows 10 operating systems (OSs).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að nota það á stýrikerfi Windows 10 (OSs).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Cloud POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sölustaður í skýi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Cloud POS is a browser-based version of the Modern POS program that can be accessed in a web browser.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cloud POS er vafrabyggð útgáfa á Modern POS-forritinu sem hægt er að opna í vafra.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Modern POS for iOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS fyrir iOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Modern POS for iOS is an iOS-based version of the Modern POS program that can be deployed on iOS devices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS fyrir iOS er iOS-byggð útgáfa á Modern POS-forritinu sem hægt er að virkja á iOS-tækjum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Modern POS for Android</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS fyrir Android</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Modern POS for Android is an Android-based version of the Modern POS program that can be deployed on Android devices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS fyrir Android er Android-byggð útgáfa á Modern POS-forritinu sem hægt er að virkja á Android-tækjum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>POS peripherals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS-jaðarbúnaður</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>POS peripherals are devices that are explicitly supported for POS functions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS-jaðartæki eru tæki sem sérstaklega eru studd fyrir aðgerðir POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>These peripherals are typically divided into specific classes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessum jaðartækjum er yfirleitt skipt niður í tiltekna klasa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>For more information about these classes, see the "Device classes" section of this topic.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nánari upplýsingar um þessa klasa má finna í hlutanum „Tækjaklasar" í þessu efnisatriði.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Hardware station</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hardware Station</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Navigation: Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channels<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Retail stores<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>All retail stores<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fletting: Smellt er á <bpt id="p1">**</bpt>Smásölu<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>miðlunarleiðir<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>smásöluverslanir<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Allar smásöluverslanir<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Select a store, and then click the <bpt id="p1">**</bpt>Hardware stations<ept id="p1">**</ept> FastTab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veljið verslun og smellið svo á flipann <bpt id="p1">**</bpt>vélbúnaðarstöðvar<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>The <bpt id="p1">**</bpt>Hardware station<ept id="p1">**</ept> setting is a channel-level setting that is used to define instances where the retail peripheral logic will be deployed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stillingin <bpt id="p1">**</bpt>Vélbúnaðarstöð<ept id="p1">**</ept> er stilling á rásarstigi sem er notuð til að skilgreina tilvik þar sem rök jaðarbúnaðar smásölu verða notuð.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>This setting at the channel level is used to determine characteristics of the hardware station.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi stilling á stigi rásar er notuð til að ákvarða eiginleika vélbúnaðarstöðvar smásölu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>It's also used to list hardware stations that are available for a Modern POS instance in a given store.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hún er einnig notuð til að lista vélbúnaðarstöðvar sem eru í boði fyrir tilvik Modern POS í tiltekinni verslun.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>The hardware station is built into the Modern POS program for Windows.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vélbúnaðarstöð smásölu er innbyggð í forritið Modern POS fyrir Windows.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>The hardware station can also be deployed independently as a stand-alone Microsoft Internet Information Services (IIS) program.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Einnig er hægt að nota vélbúnaðarstöð óháð sem sjálfstætt forrit Microsoft Internet Information Services (IIS).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>In this case, it can be accessed via a network.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í því tilfelli er hægt að nálgast það gegnum net.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Hardware profile</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vélbúnaðarregla</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Navigation: Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS setup<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>POS profiles<ept id="p4">**</ept> <ph id="ph4">&amp;gt;</ph> <bpt id="p5">**</bpt>Hardware profiles<ept id="p5">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fletting: Smelltu á <bpt id="p1">**</bpt>Smásala<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Uppsetning rásar<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Uppsetning sölustaðar<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Forstillingar sölustaðar<ept id="p4">**</ept> <ph id="ph4">&amp;gt;</ph> <bpt id="p5">**</bpt>Vélbúnaðarreglur<ept id="p5">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>The hardware profile is a list of devices that are configured for a POS register or a hardware station.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vélbúnaðarregla er listi yfir tæki sem eru grunnstillt fyrir afgreiðslukassa eða vélbúnaðarstöð.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>The hardware profile can be mapped directly to a POS register or a hardware station.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vélbúnaðarreglum er úthlutað beint á afgreiðslukassa eða vélbúnaðarstöð.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Devices classes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tækjaklasar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>POS peripherals are typically divided into classes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS-jaðarbúnaði er yfirleitt skipt niður í klasa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>This section describes and gives an overview of the devices that Modern POS supports.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi hluti lýsir og gefur yfirlit yfir tæki sem Modern POS styður.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Printer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prentari</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Printers include traditional POS receipt printers and full-page printers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prentarar eru meðal annars venjulegur kvittanaprentari POS og heilsíðuprentarar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Printer are supported through Object Linking and Embedding for Retail POS (OPOS) and Microsoft Windows driver interfaces.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prentarar eru studdir í gegnum hlutatengingu og ívaf (OLE) fyrir drifviðmót Retail POS (OPOS) og Microsoft Windows.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Up to two printers can be used at the same time.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Allt að tvo prentara má nota á sama tíma.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>This capability supports scenarios where cash-and-carry customer receipts are printed on receipt printers, whereas customer orders, which carry more information, are printed on a full-page printer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi eiginleiki styður aðstæður þar sem kvittanir viðskiptavina með reiðufé eru prentaðar á kvittanaprentara, en pantanir viðskiptavina sem bera nánari upplýsingar, eru prentaðar á heilsíðuprentara.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Receipt printers can be connected directly to a computer via USB, connected to a network via Ethernet, or connected via Bluetooth.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kvittanaprentara er hægt að tengja beint við tölvu gegnum USB, tengja neti við Ethernet eða tengja við Bluetooth.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Scanner</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skanni</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Up to two bar code scanners can be used at the same time.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Allt að tvo prentara má nota á sama tíma.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>This capability supports scenarios where a scanner that is more mobile is required in order to scan large or heavy items, whereas a fixed embedded scanner is used for most standard-sized items, to speed up checkout times.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi eiginleiki styður aðstæður þar sem skanni sem er meira farsími er nauðsynlegur til að skanna stórar eða þungar vörur, en fastur ívafinn skanni er notaður fyrir flestar vörur í staðlaðri stærð, til að flýta greiðsluferli.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Scanners can be supported through OPOS, Universal Windows Platform (UWP), or keyboard wedge interfaces.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skannar geta verið studdir í OPOS, Universal Windows Platform (UWP) eða viðmótum lyklaborð kortalesara.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>USB or Bluetooth can be used to connect a scanner to a computer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að nota USB eða Bluetooth til að tengja skanna við tölvu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>MSR</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kortalesari</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>One USB magnetic stripe reader (MSR) can be set up by using OPOS drivers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að setja upp einn USB kortalesara (MSR) með því að nota OPOS-rekla.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>If you want to use a stand-alone MSR for electronic funds transfer (EFT) payment transactions, the MSR must be managed by a payment connector.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef óskað er að nota sjálfstæðan kortalesara fyrir kortamillifærslur (EFT) á greiðslufærslum verður Kortalesara að vera stjórnað af tengilínu greiðslunnar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Stand-alone MSRs can be used for customer loyalty entry, employee sign-in, and gift card entry, independently of the payment connector.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að nota sjálfstæða kortalesara fyrir vildarkortsfærslu viðskiptavinar, innskráningu starfsmanns og gjafakortsfærslu, óháð tengilínu greiðslunnar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Cash drawer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Peningaskúffa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Two cash drawers can be supported per hardware profile.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tvær peningaskúffur geta verið studdar á vélbúnaðarreglu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>This capability enables two active shifts per register to be available at the same time.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi eiginleiki gerir tvær virkar vaktir virkar á hvern afgreiðslukassa til að vera tiltækar í einu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>In the case of a shared shift, or a cash drawer that is used by multiple mobile POS devices at the same time, only one cash drawer is allowed per hardware profile.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef samnýtt vakt eða peningaskúffa sem er notað af mörgum POS fartæki á sama tíma er aðeins ein peningaskúffu er leyft á hverja vélbúnaðarreglu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Cash drawers can be connected directly to a computer via USB, connected to a network, or connected to a receipt printer via an RJ12 interface.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Peningaskúffur er hægt að tengja beint við tölvu gegnum USB, tengja við net eða tengja við kvittanaprentara með RJ12-viðmóti.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>In some cases, cash drawers can also be connected via Bluetooth.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í sumum tilvikum, geta peningaskúffur einnig að vera tengdur gegnum Bluetooth.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Line display</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Línuskjár</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>Line displays are used to show products, transaction balances, and other useful information to the customer during a transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Línubirtingar eru notaðar til að sýna afurðir, færslustöður og aðrar gagnlegar upplýsingar til viðskiptavinar við færslu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>One line display can be connected to the computer via USB by using OPOS drivers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ein línubirting getur verið tengd við tölvu gegnum USB með því að nota OPOS-rekla.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Signature capture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sækja undirskrift</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>Signature capture devices can be connected directly to a computer via USB by using OPOS drivers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Undirskriftatæki eru tengd beint tölvunni gegnum USB með því að nota OPOS-rekla.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>When signature capture is configured, the customer is prompted to sign on the device.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar sækja undirskrift er skilgreind er viðskiptavinur beðinn um að undirrita á tækinu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>After the signature is provided, it's shown to the cashier for acceptance.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftir að undirskrift er veitt, er hún sýnd gjaldkera til að samþykkja.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>Scale</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vigt</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>Scales can be connected to the computer via USP by using OPOS drivers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vigt má tengja við tölvu gegnum USP með því að nota OPOS-rekla.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>When a product that is marked as a "Weighed" product is added to a transaction, the POS reads the weight from the scale, adds the product to the transaction, and uses the quantity that the scale provided.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar afurð sem er merkt sem „Vigtuð" afurð hefur verið bætt við færslu, les POS þyngdina af vigtinni, bætir afurðinni við færsluna og notar magnið sem vigtin gaf upp.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>PIN pad</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PIN-takkaborð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>Personal identification number (PIN) pads are supported through OPOS, but they must be managed via a payment connector.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Takkaborð fyrir persónuleg auðkennisnúmer (PIN) eru studd með OPOS, en það verður að stjórna þeim í gegnum greiðslutengi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>Secondary display</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aukabirting</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>When a secondary display is configured, the number 2 Windows display is used to show basic information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar aukabirting er skilgreind, Windows birtingu númer 2 er notuð til að sýna grunnupplýsingar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>The purpose of the secondary display is to support independent software vendor (ISV) extension, because out of the box, the secondary display isn't configurable and shows limited content.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tilgangur aukabirtingar er að styðja viðbót óháðs hugbúnaðarlánardrottins (ISV), þar sem utan reitsins er aukabirtingin ekki skilgreinanleg og sýnir takmarkað efni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>Payment device</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Greiðslutæki</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>Payment device support is implemented through the payment connector.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stuðningur við greiðslutæki er innleiddur gegnum greiðslutengi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>Payment devices can perform one or many of the functions that other device classes provide.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Greiðslutæki geta framkvæmt eina eða margar aðgerðir sem aðrir tækjaklasar veita.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>For example, a payment device can function as an MSR/card reader, line display, signature capture device, or PIN pad.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til dæmis, getur greiðslutæki virkað sem MSR/kortalesari, línuskjár, sækja undirskrift eða PIN-takkaborð.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>Support for payment devices is implemented independently of the stand-alone device support that is provided for other devices that are included in the hardware profile.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stuðningu við greiðslutæki er innleiddur óháð stuðningi sjálfstæðra tæka sem lögð er til fyrir önnur tæki sem eru innifaldar í vélbúnaðarreglu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>Supported interfaces</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Studd viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>To help guarantee that the largest range of devices can be used with Microsoft Dynamics 365 for Retail, the OLE for POS industry standard is the primary retail peripheral device platform that is supported in Microsoft Dynamics 365 for Retail.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að aðstoða við að tryggja að hægt sé að nota stærsta svið tækja með Microsoft Dynamics 365 for Retail, er OLE fyrir POS atvinnustaðallinn aðalsmásölukerfi jaðarbúnaðar sem er studdur í Microsoft Dynamics 365 for Retail.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>The OLE for POS standard was produced by the National Retail Federation (NRF), which establishes industry-standard communication protocols for retail peripheral devices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OLE fyrir POS staðallinn var framleiddur af National Retail Federation (NRF), sem kemur á samskiptareglum víddarsamsetningar atvinnugrein staðlaða samskiptum fyrir jaðartæki smásölu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>OPOS is a widely adopted implementation of the OLE for POS standard.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS er víðnotuð innleiðing á OLE fyrir POS-staðlinum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>It was developed in the mid-1990s and has been updated several times since then.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hann var þróaður í um miðjan tíunda áratuginn og hefur verið uppfærður nokkrum sinnum síðan.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>OPOS provides a device driver architecture that enables easy integration of POS hardware with Windows–based POS systems.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS veitir uppbyggingu tækjaekils sem auðveldar samþættingu POS-vélbúnaðarregla við Windows-byggð POS-kerfi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>OPOS controls handle communication between compatible hardware and the POS software.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS-stýringar annast samskiptum milli samhæfanlegs vélbúnaðar og hugbúnaður POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>An OPOS control consists of two parts:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS-stýring samanstendur af tveimur hlutum:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source><bpt id="p1">**</bpt>Control object<ept id="p1">**</ept> – The control object for a device class (such as line displays) provides the interface for the software program.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Stýringarhlutur<ept id="p1">**</ept> – Stýringarhlutur fyrir tækjaklasa (t.d. línubirting) veitir viðmót fyrir hugbúnaðarforritið.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>Monroe Consulting Services (<bpt id="p1">[</bpt>www.monroecs.com<ept id="p1">](http://www.monroecs.com/)</ept>) provides a standardized set of OPOS control objects that are known as the common control objects (CCOs).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Monroe Consulting Services (<bpt id="p1">[</bpt>www.monroecs.com<ept id="p1">](http://www.monroecs.com/)</ept>) veitir staðlaðan listi eða samsafn af OPOS stýrihlutir sem eru þekkt sem almennir stýringarhlutir (CCOs).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>The CCOs are used to test the POS component of Microsoft Dynamics 365 for Retail.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">CCOs eru notaðir til að prófa POS-íhluti Microsoft Dynamics 365 for Retail.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>Therefore, the testing helps guarantee that, if Microsoft Dynamics 365 for Retail supports a device class through OPOS, many device types can be supported, provided that the manufacturer provides a service object that is built for OPOS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þess vegna hjálpar prófun til við að tryggja að ef Microsoft Dynamics 365 for Retail styður tækjaklasa gegnum OPOS, geta margar gerðir smásölutækja verið studdur að ví tilskildu að framleiðanda veitir þjónustuhlut sem er byggð á fyrir OPOS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>You don't have to explicitly test each device type.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekki þarf að prófa sérstaklega hverja gerð tækis.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source><bpt id="p1">**</bpt>Service object<ept id="p1">**</ept> – The service object provides communication between the control object (CCO) and the device.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Þjónustuhlutur<ept id="p1">**</ept> – Þjónustuhlutur veitir samskipti milli Stýringar hlutur (CCO) og tæki.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>Typically, the service object for a device is provided by the device manufacturer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yfirleitt er þjónustuhlutur fyrir tæki veittur af framleiðanda tækis.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>However, in some cases, you might have to download the service object from the manufacturer's website.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hins vegar gæti í sumum tilfellum þurft að sækja þjónustuhlutinn frá vefsvæði framleiðanda.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>For example, a more recent service object might be available.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til dæmis gæti nýrri þjónustuhlutur verið tiltækur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>To find the address of the manufacturer's website, see your hardware documentation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að finna aðsetur framleiðanda á vefsvæði skal sjá fylgigögn vélbúnaðarreglu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source><bpt id="p1">[</bpt><ph id="ph1">![</ph>Control object and service object<ept id="p1">](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt><ph id="ph1">![</ph>Stýringarhlutur og þjónustuhlutur<ept id="p1">](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>Support for the OPOS implementation of OLE for POS helps guarantee that, if the device manufacturers and POS publishers implement the standard correctly, POS systems and supported devices can work together, even if they weren't previously tested together.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stuðningur fyrir OPOS-innleiðingu á OLE fyrir POS hjálpar til við að tryggja að ef tækjaframleiðendur og útgefendur POS innleiða staðalinn rétt geta POS-kerfi og studd tæki unnið saman, jafnvel þótt þau hafi ekki verið áður prófuð saman.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>OPOS support doesn't guarantee support for all devices that have OPOS drivers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS-stuðningur tryggir ekki samræmdan stuðning fyrir öll tæki með OPOS-reklum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>Microsoft Dynamics 365 for Retail must first support that device type, or class, through OPOS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Retail verður fyrst að styðja þá tækjagerð eða klasa, gegnum OPOS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>In addition, service objects might not always be up to date with the latest version of the CCOs.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þar að auki eru þjónustuhlutir hugsanlega ekki alltaf uppfærðir með nýjustu útgáfu af CCOs.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>You should also be aware that, in general, the quality of service objects varies.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Það ætti einnig að hafa í huga að, almenna gæði þjónustuhluta eru breytileg.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>Windows</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gluggar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>Receipt printing at the POS is optimized for OPOS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prentun á kvittun á POS er bestuð fyrir OPOS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>OPOS tends to be much faster than printing through Windows.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS hættir til að vera mikið hraðara en prentun gegnum Windows.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>Therefore, it's a good idea to use OPOS, especially in retail environments where 40-column receipts are printed and transaction times must be fast.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Því er gott að nota OPOS, sérstaklega í smásöluumhverfi þar sem 40-dálka kvittanir eru prentaðar og færslutími verður að vera hraður.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>For most devices, you will use OPOS controls.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fyrir flest tæki eru OPOS-stýringar notaðar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source>However, some OPOS receipt printers also support Windows drivers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hins vegar, styðja sumir OPOS-kvittanaprentarar einnig Windows-rekla.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source>By using a Windows driver, you can access the latest fonts and network one printer for multiple registers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Með því að nota Windows-rekill hægt er að nálgast síðasta letur og netlén einn prentari fyrir marga afgreiðslukassa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source>However, there are drawbacks to using Windows drivers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hins vegar eru vankantar á því að nota Windows-rekla.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source>Here are some examples of these drawbacks:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hér eru nokkur dæmi um þessa vankanta:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source>When Windows drivers are used, images are rendered before printing occurs.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar Windows-reklar eru notaðir, myndir eru samhæfðar áður en prentun hefst.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source>Therefore, printing tends to be slower than it is on printers that use OPOS controls.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þess vegna hættir prentun til að vera hægari en hún er á prentara sem nota OPOS-stýringar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source>Devices that are connected through the printer ("daisy-chained") might not work correctly when Windows drivers are used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tæki sem eru tengd gegnum prentara ("daisy-chained") virka hugsanlega ekki rétt þegar Windows-reklar eru notaðir.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source>For example, the cash drawer might not open, or the slip printer might not word as you expect.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til dæmis opnast peningaskúffa hugsanlega ekki eða prentari fylgiseðils virkar hugsanlega ekki eins og búist er við.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source>OPOS also supports a more extensive set of variables that are specific to retail receipt printers, such as paper cutting or slip printing.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS styður einnig yfirgripsmeiri safn af breytum sem tengjast kvittanaprentara smásölu, eins og prentun fylgiseðla eða klipping pappír.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source>If OPOS controls are available for the Windows printer that you're using, the printer should still work correctly with Microsoft Dynamics 365 for Retail.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef OPOS-stýringar eru tiltækar fyrir Windows-prentara sem verið er að nota ætti prentara samt að virka rétt með Microsoft Dynamics 365 for Retail.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source>Universal Windows Platform</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Universal Windows Platform</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source>UWP, in the case of retail peripherals, is related to Windows support for Plug and Play devices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP, ef jaðartæki smásölu, tengist stuðningi Windows fyrir Plug and Play-tæki.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source>When a Plug and Play device is connected to a Windows OS version that supports that type of device, no driver is required for the device to be used as intended.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar Plug and Play-tækið er tengt við útgáfu Windows OS sem styður sem þá gerð tækis, þarf engann rekil áskilið fyrir tækið svo að það virki eins og skyldi.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>For example, if Windows detects a Bluetooth speaker device, the OS knows that the device has the <bpt id="p1">**</bpt>Speaker<ept id="p1">**</ept> class type.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til dæmis, ef Windows greinir Bluetooth-hátalaratæki, veit OS að tækið er að klasagerðinni <bpt id="p1">**</bpt>Hátalari<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source>Therefore, and it treats that device as a speaker.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þess vegna fer það með tækið sem hátalara.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>No additional setup is required.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Engrar frekari uppsetningar er krafist.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source>In the case of POS devices, many USB devices can be plugged in, and Windows will recognize them as Human Interface Devices (HIDs).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í tilfelli POS-tækja geta mörg USB-tæki verið tengd og Windows mun þekkja þau sem Human Interface Devices (HIDs).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source>However, it might not be able to determine the capabilities that the device provides, because the device doesn't specify the class, or type, of device.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hins vegar er hugsanlega ekki hægt að ákvarða getu sem tækið veitir, þar sem tækið skilgreinir ekki klasa eða gerð tækis.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>In Windows 10, device classes for bar code scanners and MSRs have been added.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í Windows 10 hefur tækjaklösum fyrir strikamerkjaskanna og kortalesara verið bætt við.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source>Therefore, if a device declares itself to Windows 10 as a device of one of these classes, Windows will listen for events from the device at the appropriate times.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þess vegna ef tæki sýnir sig í Windows 10 sem tæki eins af þessum klösum mun Windows hlusta eftir tilvikum úr tækinu á viðeigandi tímum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>Modern POS supports UWP MSRs and scanners.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS styður UWP-kortalesara og skanna.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="238">
-          <source>Therefore, when it's ready for input from one of these devices, and a device that belongs to one of these classes is connected, the device can be used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þess vegna þegar hún er tilbúin fyrir inntak úr einu af þessum tækjum og tæki sem tilheyrir einum af þessum klösum er tengt, er hægt að nota tækið.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="239">
-          <source>For example, if a UWP bar code scanner is plugged into a Windows 10 computer, and bar code sign-in is configured for Modern POS, the bar code scanner will become active on the sign-in screen.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til dæmis, ef UWP-strikamerkjaskanni er tengdur í Windows 10 tölvu og strikamerkjainnskráning er skilgreind fyrir Modern POS verður strikamerkjaskanninn virkur á innskráningarskjánum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="240">
-          <source>No additional setup is required.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Engrar frekari uppsetningar er krafist.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="241">
-          <source>Additional classes of point of service UWP devices are being added to Windows.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðbótarklasar UWP-tækja þjónustupunkts er bætt við Windows.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="242">
-          <source>These classes include classes for cash drawers and receipt printers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessir klasar innifela klasa fyrir peningaskúffur og kvittanaprentara.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="243">
-          <source>Support for these new device classes in Modern POS is pending.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stuðningur fyrir þessa nýja tækjaklasa í Modern POS er í bið.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="244">
-          <source>Keyboard wedge</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lyklaborðstenging</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="245">
-          <source>Keyboard wedge devices send data to the computer as if that data were typed on a keyboard.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lyklaborðstengingartæki senda gögn í tölvuna eins og þau gögn hafi verið slegin inn á lyklaborð.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="246">
-          <source>Therefore, by default, the field that is active at the POS will receive the data that is scanned or swiped.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þess vegna er sjálfgefið að svæði sem er virkt í POS móttekur gögn sem er skönnuð eða sem var lesið.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="247">
-          <source>In some cases, this behavior can cause the wrong type of data to be scanned into the wrong field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í sumum tilvikum getur þessi virkni valdið því að röng gagnagerð er skönnuð á rangt svæði.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="248">
-          <source>For example, a bar code might be scanned into a field that is intended for input of credit card data.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til dæmis gæti strikamerki verið skannað inn í svæði sem er ætlað fyrir innfærslu gagna kreditkorts.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="249">
-          <source>In many cases, there is logic at the POS that determines whether the data that is scanned or swiped is a bar code or card swipe.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í mörgum tilvikum er rök í Pos sem ákvarðar hvort gögn sem er skönnuð eða sem var lesið er strikamerki eða greiðslukortalestur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="250">
-          <source>Therefore, the data is handled correctly.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þess vegna eru gögnin meðhöndluð rétt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="251">
-          <source>However, when devices are set up as OPOS instead of keyboard wedge devices, there is more control over how the data from those devices can be consumed, because more is "known" about the device that the data originates from.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hins vegar þegar tæki eru sett upp sem OPOS í stað lyklaborðstengingartækja, er meiri stjórn á því hvernig hægt er að nota gögn úr þessum tækjum, þar sem meira er „vitað" um tækið sem gögnin eiga uppruna sinn í.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="252">
-          <source>For example, data from a bar code scanner is automatically recognized as a bar code, and the associated record in the database is found more easily and faster than if a generic string search were used, as in the case of keyboard wedge devices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til dæmis eru gögn úr strikamerkjaskanni sjálfkrafa viðurkennd sem strikamerki og tengd færsla í gagnagrunninum finnst betur og hraðar en ef almennan strengjaleit voru notuð, eins og tilfelli lyklaborðtengingartækja.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="253">
-          <source>Native printer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Innbyggður prentari</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="254">
-          <source>Native (or "Device" as the type is named in the hardware profile) printers can be configured to prompt the user to select a printer that is configured for the computer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Innbryggðir (eða "Tækis" sem gerðin sem er nefnd í vélbúnaðarreglunni) prentara er hægt að skilgreina til að biðja notandann til að velja prentara sem er skilgreindur fyrir tölvuna.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="255">
-          <source>When a printer of the <bpt id="p1">**</bpt>Device<ept id="p1">**</ept> type is configured, if Modern POS encounters a print command, the user is prompted to select a printer in a list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar prentari af gerðinni <bpt id="p1">**</bpt>Tækið<ept id="p1">**</ept> er grunnstilltur, ef Modern POS finnur prentskipun, er notandi beðinn um að velja prentara úr listanum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="256">
-          <source>This behavior differs from the behavior for Windows drivers, because the <bpt id="p1">**</bpt>Windows<ept id="p1">**</ept> printer type in the hardware profile doesn't show a list of printers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi hegðun er frábrugðið hegðun fyrir Windows-rekla, þar sem prentaragerð <bpt id="p1">**</bpt>Windows<ept id="p1">**</ept> í vélbúnaðarregluna sýnir ekki lista yfir prentara.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="257">
-          <source>Instead, it requires that a named printer be provided in the <bpt id="p1">**</bpt>Device name<ept id="p1">**</ept> field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þess í stað krefst hún þess að nefndur prentari sé veittur í svæðinu <bpt id="p1">**</bpt>tækjaheiti<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="258">
-          <source>Windows</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gluggar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="259">
-          <source>The <bpt id="p1">**</bpt>Windows<ept id="p1">**</ept> device type is used for printers only.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tækjagerð <bpt id="p1">**</bpt>Windows<ept id="p1">**</ept> er aðeins notuð fyrir prentara.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="260">
-          <source>When a Windows printer is configured in the hardware profile, the specific printer name must be provided.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar Windows-prentara er skilgreind í vélbúnaðarreglu, verður að gefa upp tilgreint heiti prentara.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="261">
-          <source>When Modern POS encounters print events, if a Windows printer is configured, the event will be passed to the specified Windows printer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar Modern POS finnur prenttilvik, ef Windows-prentari er skilgreint verður tilvikið sent áfram til tilgreinda Windows-prentarans.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="262">
-          <source>The user won't be prompted to select a printer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Notandi verður ekki beðinn um að velja prentara.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="263">
-          <source>Network</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Net</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="264">
-          <source>Network-addressable cash drawers, receipt printers, and payment terminals can be used over a network, either directly through the Interprocess Communications (IPC) hardware station that is built into the Modern POS for Windows application or through the IIS hardware station for other Modern POS clients.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að nota netslóðartengdar peningaskúffur, kvittanaprentara og afgreiðslustöðvar á neti, annaðhvort beint í gegnum vélbúnaðarstöð Interprocess Communications (IPC) sem er innbyggð í forritið Modern POS fyrir Windows eða í gegnum vélbúnaðarstöðina IIS fyrir aðra biðlarar Modern POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="265">
-          <source>Hardware station deployment options</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Notkunarvalkostir vélbúnaðarstöðvar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="266">
-          <source>IPC (built-in)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IPC (innbyggt)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="267">
-          <source>The Interprocess Communications (IPC) hardware station is built into the Modern POS for Windows application.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vélbúnaðarstöð smásölu Interprocess Communications (IPC) er innbyggð í Modern POS fyrir Windows.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="268">
-          <source>To use the IPC hardware station, assign a hardware profile to a register that will use the Modern POS for Windows application.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að nota vélbúnaðarstöð IPC skal úthluta vélbúnaðarreglu á afgreiðslukassa sem á að nota forritið Modern POS fyrir Windows.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="269">
-          <source>Then create a hardware station of the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> type for the store where the register will be used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Síðan er stofnuð vélbúnaðarstöð af gerðinni <bpt id="p1">**</bpt>Sérhæfð<ept id="p1">**</ept> fyrir verslunina sem afgreiðslukassinn verður notað.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="270">
-          <source>When you start Modern POS, the IPC hardware station will be active, and the POS peripherals that have been configured will be ready to use.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar Modern POS er ræst verður IPC-vélbúnaðarstöðin virk og POS-jaðartæki sem hafa verið skilgreindar verða tilbúin til notkunar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="271">
-          <source>If you temporarily don't require the local hardware for some reason, use the <bpt id="p1">**</bpt>Manage hardware stations<ept id="p1">**</ept> operation to turn off the hardware station capabilities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef þess er tímabundið ekki krafist staðbundna vélbúnaður af einhverri ástæðu, skal nota aðgerðina <bpt id="p1">**</bpt>Stjórna vélbúnaðarstöðvar<ept id="p1">**</ept> til að slökkva á getu vélbúnaðarstöðvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="272">
-          <source>Modern POS can also use the IPC hardware station to communicate directly with network peripherals.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Einnig er hægt að nota Modern POS IPC vélbúnaðarstöð smásölu til að hafa samskipti beint við net jaðartækja.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="273">
-          <source>IIS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IIS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="274">
-          <source>You can use the IIS or stand-alone version of the hardware station in two ways.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að nota IIS eða sjálfstæða útgáfu vélbúnaðarstöðvar á tvo vegu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="275">
-          <source>The descriptor "IIS" implies that the POS application connects to the hardware station via Microsoft Internet Information Services.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lýsiorðið „IIS“ gefur til kynna að forritið POS tengist vélbúnaðarstöð smásölu með Microsoft Internet Information Services.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="276">
-          <source>The POS application connects to the IIS hardware station via web services that run on a computer where the devices are connected.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Forritið POS tengist IIS vélbúnaðarstöð smásölu með vefþjónustu sem keyra á tölvu þar sem tæki er tengt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="277">
-          <source>When IIS is used, the retail peripherals that are connected to a hardware station can be used by any POS register that is on the same network as the IIS hardware station.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar IIS er notuð, er hægt að nota jaðartæki smásölu sem tengjast vélbúnaðarstöð eftir afgreiðslukassa sem er á sama neti og IIS vélbúnaðarstöð smásölu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="278">
-          <source>Because only Modern POS for Windows includes built-in support for retail peripherals, all other Modern POS applications must use the IIS hardware station to communicate with POS peripherals that are configured in the hardware profile.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þar sem aðeins Modern POS fyrir Windows inniheldur innbyggðan stuðning fyrir jaðartæki smásölu, verða öll önnur forrit Modern POS að nota IIS vélbúnaðarstöð smásölu til samskipta við POS jaðartæki sem eru skilgreindar í vélbúnaðarreglu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="279">
-          <source>Therefore, each instance of the IIS hardware station requires a computer that runs the web service and application that communicates with the devices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þess vegna krefst hvert tilvik IIS vélbúnaðarstöðvar smásölu tölvu sem keyrir vefþjónusta og forrits sem hefur samskipti við tæki.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="280">
-          <source>The IIS hardware station is required for all non-Windows Modern POS applications.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vélbúnaðarstöð IIS er áskilið fyrir öll forrit sem eru ekki Windows Modern POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="281">
-          <source>Dedicated</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sérnýtt</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="282">
-          <source>Modern POS uses hardware stations of the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> type to detect that peripherals are directly connected to the computer where the app is being used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS notar vélbúnaðarstöðvar a gerðinni <bpt id="p1">**</bpt>Sérhæft<ept id="p1">**</ept> til að ákvarða hvort jaðartæki tengjast beint við tölvunni þar sem forritið er notað.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="283">
-          <source>However, the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> type can also be used for IIS hardware stations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hins vegar er einnig hægt að nota gerðina <bpt id="p1">**</bpt>Sérhæft<ept id="p1">**</ept> fyrir vélbúnaðarstöðvar IIS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="284">
-          <source>In a traditional, fixed POS scenario that uses Cloud POS as the POS application, the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> hardware station type is used for IIS hardware stations that are deployed on the same computer that is running Cloud POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í venjulegum, föstum POS-aðstæðum sem notar Cloud POS sem POS forritið er vébúnaðarstöðvargerðin <bpt id="p1">**</bpt>Sérhæft<ept id="p1">**</ept> notuð fyrir IIS vélbúnaðarstöðvar sem virkjuð eru á sömu tölvu sem keyrir Cloud POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="285">
-          <source>From a retail peripherals perspective, the dedicated IIS hardware station has better retail peripheral support for traditional, fixed POS scenarios.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Frá sjónarhorni jaðartæki smásölu, hefur sérstakan vélbúnaðarstöð IIS betur smásölu jaðarbúnaði stuðning fyrir venjulegt, föst POS aðstæður.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="286">
-          <source>Dedicated hardware stations support all peripherals that are supported in the hardware profile.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sérnýtta vélbúnaðarstöðvar styðja öll jaðartæki sem eru studd í vélbúnaðarreglu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="287">
-          <source>Shared</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Samnýtt</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="288">
-          <source>Shared hardware stations are intended to be used by multiple POS devices through the course of the day.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Samnýttar vélbúnaðarstöðvar eru ætlaðar til notkunar af mörgum POS-tækjum í gegnum daginn.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="289">
-          <source>Shared hardware stations are optimized to support only cash drawers, receipt printers, and payment terminals.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Samnýttar vélbúnaðstöðvar eru bestaðar til að styðja aðeins peningaskúffur, kvittanaprentara, og afgreiðslustöðvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="290">
-          <source>You can't directly connect stand-alone bar code scanners, MSRs, line displays, scales, or other devices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekki er hægt að tengja sjálfstæða strikamerkjaskanna, kortalesara, línubirtingar, vigtir eða önnur tæki á beinan hátt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="291">
-          <source>Otherwise, conflicts will occur when multiple POS devices try to claim those peripherals at the same time.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Annars verða árekstrar þegar mörg POS-tæki reyna að gera kröfu til þessara jaðartækja á sama tíma.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="292">
-          <source>Here is how conflicts are managed for supported devices:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hér má sjá hvernig árekstrar eru meðhöndlaðar fyrir studd tæki:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="293">
-          <source><bpt id="p1">**</bpt>Cash drawer<ept id="p1">**</ept> – The cash drawer is opened via an event that is sent to the device.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Peningaskúffa<ept id="p1">**</ept> – Peningaskúffan er opnuð með tilviki sem er sent á tækið.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="294">
-          <source>The only issue that can occur when a cash drawer is called occurs if the cash drawer is already open.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Einu vandamálin sem geta átt sér stað þegar kallað er á peningaskúffu gerist ef peningaskúffu er þegar opin.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="295">
-          <source>In the case of shared hardware stations, the cash drawer should be set to <bpt id="p1">**</bpt>Shared<ept id="p1">**</ept> in the hardware profile.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í tilviki samnýttra vélbúnaðarstöðva ætti að stilla peningaskúffu á <bpt id="p1">**</bpt>Samnýtt<ept id="p1">**</ept> í vélbúnaðarreglu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="296">
-          <source>This setting prevents the POS from checking whether the cash drawer is already open when it sends open commands.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi stilling kemur í veg fyrir að POS athugi hvort peningaskúffan sé þegar opin þegar hún sendir opnunarskipanir.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="297">
-          <source><bpt id="p1">**</bpt>Receipt printer<ept id="p1">**</ept> – If two receipt printing commands are sent to the hardware station at the same time, one of the commands can be lost, depending on the device.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Kvittanaprentarann<ept id="p1">**</ept> – Ef tvær prentskipanir kvittunar eru sendar samtímis til vélbúnaðarstöðvar smásölu kann önnur skipunina að glatast, en það fer eftir tæki.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="298">
-          <source>Some devices have internal memory or pooling that can prevent this issue.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sumar tæki eru með innri minni eða keyrslutíma sem getur komið í veg fyrir þetta vandamál.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="299">
-          <source>If a print command isn't successful, the cashier receives an error message and can retry the print command from the POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef prentskipun er ekki stofnaður, fær gjaldkeri villuboð og getur reynt að prenta skipunina aftur úr POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="300">
-          <source><bpt id="p1">**</bpt>Payment terminal<ept id="p1">**</ept> – If a cashier tries to tender a transaction on a payment terminal that is already being used, a message notifies the cashier that the terminal is being used and asks the cashier to try again later.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Afgreiðslustöð<ept id="p1">**</ept> – Ef gjaldkerinn reynir að hefja færslu á afgreiðslustöð sem er þegar í notkun, tilkynna skilaboð honum að afgreiðslustöðin sé í notkun og biður gjaldkerann að reyna aftur síðar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="301">
-          <source>Usually, cashiers can see that a terminal is already being used and will wait until the other transaction is completed before they try to tender again.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Yfirleitt geta gjaldkerar séð að afgreiðslustöð er þegar í notkun og munu bíða þar til að annarri færsla er lokið áður en þeir reyna að hefja greiðslu aftur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="302">
-          <source>Validation is planned for a future release, to detect whether unsupported devices are set up for a hardware profile that is mapped to a shared hardware station.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Villuleit er áætlað fyrir framtíðarútgáfu sem kannar hvort óstudd tæki eru settir upp fyrir vélbúnaðarregluna sem er varpað á samnýtt vélbúnaðarstöð.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="303">
-          <source>If any unsupported devices are detected, the user will receive a message that states that the devices aren't supported for shared hardware stations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef einhver óstudd tæki finnast fær notandi skilaboð sem tilgreina að tækin eru ekki studd fyrir samnýttar vélbúnaðarstöðvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="304">
-          <source>In the case of shared hardware stations, the <bpt id="p1">**</bpt>Select upon tendering<ept id="p1">**</ept> option is set to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept> at the register level.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í tilviki samnýttra vélbúnaðarstöðva ætti að stilla valkostinn <bpt id="p1">**</bpt>Velja við greiðslumáta<ept id="p1">**</ept> á <bpt id="p2">**</bpt>Já<ept id="p2">**</ept> á stigi afgreiðslukassa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="305">
-          <source>The POS user is then prompted to select a hardware station when a tender is selected for a transaction at the POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">POS notanda er síðan beðinn um að velja vélbúnaðarstöð þegar  greiðslumáta er valið fyrir færslu í POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="306">
-          <source>When the hardware station is selected only at the time of tender, the hardware station selection is added directly to the POS workflow for mobile scenarios.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar vélbúnaðarstöð smásölu er aðeins valin við greiðslumáta er vali á vélbúnaðarstöð bætt beint við POS verkflæði fyrir fartækjaaðstæður.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="307">
-          <source>As an additional benefit, the line display on the payment terminal isn't used for shared scenarios.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sem viðbótar fríðinda, línuskjá greiðslunnar afgreiðslustöðvar er ekki notað fyrir samnýttar aðstæður.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="308">
-          <source>If the payment terminal is used as a line display, other users might be blocked from using that terminal until the transaction is completed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef afgreiðslustöðin er notað sem línuskjár, gæti aðrir notendur verið útilokaðir frá notkun á þeirri afgreiðslustöð þar til færslunni er lokið.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="309">
-          <source>In mobile scenarios, lines might be added to a transaction over a longer period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í fartækjaaðstæður gæti línum verið bætt við færslu með yfir lengra tímabil.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="310">
-          <source>Therefore, the <bpt id="p1">**</bpt>Select upon tendering<ept id="p1">**</ept> option is required in order to ensure optimum device availability.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þess vegna er valkostsins <bpt id="p1">**</bpt>Velja við greiðslumáta<ept id="p1">**</ept> krafist til að tryggja framboð hagkvæmasta tækis.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="311">
-          <source>Network peripherals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Net jaðarbúnaðar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="312">
-          <source>The network designation for devices in the hardware profile enables cash drawers, receipt printers, and payment terminals to be connected via a network connection.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Merki net fyrir tæki vélbúnaðarreglunni auðveldar að peningaskúffur, kvittanaprentara og afgreiðslustöðvar séu tengdir gegnum nettengingu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="313">
-          <source>Modern POS for Windows</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS fyrir Windows</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="314">
-          <source>You can specify IP addresses for network peripherals in two places.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að tilgreina IP-tölur fyrir netjaðarbúnað á tveimur stöðum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="315">
-          <source>If the Modern POS Windows client is using a single set of network peripherals, you should set the IP addresses for those devices by using the <bpt id="p1">**</bpt>IP configuration<ept id="p1">**</ept> option on the Action Pane for the register itself.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef Modern POS Windows-biðlari notar eina samstæðu af netjaðartækja ætti að setja upp IP-tölur fyrir þau tæki með því að nota valkostinn <bpt id="p1">**</bpt>Grunnstilling IP-tölu<ept id="p1">**</ept> í Aðgerðarúðunni fyrir sjálfan afgreiðslukassann.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="316">
-          <source>In the case of network devices that will be shared among POS registers, a hardware profile that has network devices assigned to it can be mapped directly to a shared hardware station.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í tilviki nettækja sem verða samnýtt milli afgreiðslukassa er hægt að varpa vélbúnaðarreglu sem hefur nettæki úthlutað beint í samnýtta vélbúnaðarstöð.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="317">
-          <source>To assign IP addresses, select that hardware station on the <bpt id="p1">**</bpt>Retail stores<ept id="p1">**</ept> page, and then use the <bpt id="p2">**</bpt>IP configuration<ept id="p2">**</ept> option in the <bpt id="p3">**</bpt>Hardware stations<ept id="p3">**</ept> section to specify the network devices that are assigned to that hardware station.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að úthluta IP-tölum, veljið þá vélbúnaðarstöð á síðunni <bpt id="p1">**</bpt>Smásöluverslanir<ept id="p1">**</ept> og nota síðan valkostinn <bpt id="p2">**</bpt>Grunnstilling IP-tölu<ept id="p2">**</ept> í hlutanum <bpt id="p3">**</bpt>Vélbúnaðarstöðvar<ept id="p3">**</ept> til að tilgreina nettæki sem eru úthlutaðar þeirri vélbúnaðarstöð.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="318">
-          <source>For hardware stations that have only network devices, you don't have to deploy the hardware station itself.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fyrir vélbúnaðarstöðvar sem hafa aðeins nettæki, þarf ekki að virkja vélbúnaðarstöð sjálfa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="319">
-          <source>In this case, the hardware station is required only in order to conceptually group network-addressable devices according to their location in the retail store.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í þessu tilfelli er vélbúnaðarstöð smásölu aðeins áskilið til að flokka í raun netslóðartengd tæki eftir staðsetningu þeirra í smásöluverslunar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="320">
-          <source>Cloud POS, Modern POS for iOS, and Modern POS for Android</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cloud POS, Modern POS for iOS, og Modern POS fyrir Android</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="321">
-          <source>The logic that drives physically connected and network-addressable peripherals is contained in the hardware station.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rökin sem keyrir efnislega tengda og netléntengd jaðartæki eru geymd í vélbúnaðarstöð smásölu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="322">
-          <source>Therefore, for all POS clients except Modern POS for Windows, an IIS hardware station must be deployed and active to enable the POS to communicate with peripherals, regardless of whether those peripherals are physically connected to a hardware station or addressed over the network.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þess vegna fyrir alla biðlara POS nema Modern POS fyrir Windows vélbúnaðarstöð við IIS verður að vera virkjuð og virka til að virkja POS til samskipta við jaðartæki, óháð því hvort þau jaðartæki eru efnislega tengdir vélbúnaðarstöð eða sendur hann á neti.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="323">
-          <source>Setup and configuration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uppsetning og skilgreining</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="324">
-          <source>Hardware station installation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uppsetning vélbúnaðarstöðvar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="325">
-          <source>For information, see <bpt id="p1">[</bpt>Retail hardware station configuration and installation<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nánari upplýsingar er að finna í <bpt id="p1">[</bpt>Skilgreining og uppsetning vélbúnaðarstöðvar smásölu<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="326">
-          <source>Modern POS for Windows setup and configuration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uppsetning og skilgreining á Modern POS fyrir Windows</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="327">
-          <source>For information, see <bpt id="p1">[</bpt>Retail Modern POS configuration and installation<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nánari upplýsingar er að finna í <bpt id="p1">[</bpt>Retail Modern POS skilgreining og uppsetning<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="328">
-          <source>OPOS device setup and configuration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uppsetning og skilgreining á OPOS-tæki</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="329">
-          <source>For more information about OPOS components, see the "Supported interfaces" section of this document.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nánari upplýsingar um íhluti OPOS er að finna í "Studd viðmót" hluta þessa skjals.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="330">
-          <source>Typically, OPOS drivers are provided by the device manufacturer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Venjulega eru OPOS-reklar veittir af framleiðanda tækis.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="331">
-          <source>When an OPOS device driver is installed, it adds a key to the Windows registry in one of the following locations:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar OPOS-tækjarekill hefur verið uppsettur bætir hann við lykli við Windows-stýriskrárinnar í einu af eftirfarandi stöðum:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="332">
-          <source><bpt id="p1">**</bpt>32-bit system:<ept id="p1">**</ept> HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESOFTWAREOLEforRetailServiceOPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>32 bita kerfi:<ept id="p1">**</ept> HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESOFTWAREOLEforRetailServiceOPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="333">
-          <source><bpt id="p1">**</bpt>64-bit system:<ept id="p1">**</ept> HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>64 bita kerfi:<ept id="p1">**</ept> HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="334">
-          <source>Within the ServiceOPOS registry location, configured devices are organized according to the OPOS device class.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Innan staðsetningu ServiceOPOS stýriskrárinnar er skilgreindum tækjum raðað eftir OPOS-tækjaklasa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="335">
-          <source>Multiple device drivers are saved.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Margir tækjareklar eru vistaðir.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="336">
-          <source>Supported scenarios by hardware station type</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Studdar aðstæður eftir gerð vélbúnaðarstöðvar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="337">
-          <source>Client support – IPC hardware station vs. IIS hardware station</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Biðlarastuðningur – IPC vélbúnaðarstöð miðað við IIS vélbúnaðarstöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="338">
-          <source>The following table shows the topologies and deployment scenarios that are supported.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftirfarandi tafla sýnir grannfræði og virkjun aðstæður sem eru studdar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="339">
-          <source>Client</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Biðlari</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="340">
-          <source>IPC hardware station</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IPC vélbúnaðarstöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="341">
-          <source>IIS hardware station</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IIS vélbúnaðarstöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="342">
-          <source>Windows app</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Windows-forrit</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="343">
-          <source>Yes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Já</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="344">
-          <source>Yes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Já</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="345">
-          <source>Cloud POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sölustaður í skýi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="346">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekkert</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="347">
-          <source>Yes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Já</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="348">
-          <source>Android</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Android</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="349">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekkert</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="350">
-          <source>Yes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Já</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="351">
-          <source>iOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">iOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="352">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekkert</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="353">
-          <source>Yes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Já</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="354">
-          <source>Network peripherals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Net jaðarbúnaðar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="355">
-          <source>Network peripherals can be supported directly through the hardware station that is built into the Modern POS for Windows application.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásölu sem er byggð inn í forritið Modern POS fyrir Windows.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="356">
-          <source>For all other clients, you must deploy an IIS hardware station.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fyrir alla aðra biðlara, verður að virkja vélbúnaðarstöð á IIS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="357">
-          <source>Client</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Biðlari</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="358">
-          <source>IPC hardware station</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IPC vélbúnaðarstöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="359">
-          <source>IIS hardware station</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IIS vélbúnaðarstöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="360">
-          <source>Windows app</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Windows-forrit</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="361">
-          <source>Yes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Já</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="362">
-          <source>Yes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Já</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="363">
-          <source>Cloud POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sölustaður í skýi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="364">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekkert</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="365">
-          <source>Yes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Já</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="366">
-          <source>Android</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Android</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="367">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekkert</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="368">
-          <source>Yes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Já</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="369">
-          <source>iOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">iOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="370">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekkert</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="371">
-          <source>Yes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Já</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="372">
-          <source>Supported device types by hardware station type</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Studdar tækjagerðir eftir gerð vélbúnaðarstöðvar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="373">
-          <source>Modern POS for Windows with an IPC (built-in) hardware station</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS fyrir Windows með (innbyggðri) IPS vélbúnaðarstöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="374">
-          <source>Supported device class</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Studdur tækjaklasi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="375">
-          <source>Supported interfaces</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Studd viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="376">
-          <source>Printer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prentari</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="377">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="378">
-          <source>Windows driver</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Windows-rekill</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="379">
-          <source>Device</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tæki</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="380">
-          <source>Network</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Net</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="381">
-          <source>Printer 2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prentari 2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="382">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="383">
-          <source>Windows driver</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Windows-rekill</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="384">
-          <source>Device</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tæki</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="385">
-          <source>Network</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Net</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="386">
-          <source>Line display</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Línuskjár</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="387">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="388">
-          <source>Dual display</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tvískiptur skjár</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="389">
-          <source>Windows driver</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Windows-rekill</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="390">
-          <source>MSR</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kortalesari</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="391">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="392">
-          <source>UWP (No setup is required.)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP (Engin uppsetning nauðsynleg.)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="393">
-          <source>Keyboard wedge (No setup is required.)</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Lyklaborð kortalesara (Ekki krafist slíkrar uppsetningar.)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="394">
-          <source>Drawer</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Skúffa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="395">
-          <source>OPOS</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="396">
-          <source>Network</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Net</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="397">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> Only one drawer can be set up if <bpt id="p2">&lt;strong&gt;</bpt>Use shared shift<ept id="p2">&lt;/strong&gt;</ept> is configured on the drawer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Athugið<ept id="p1">&lt;/strong&gt;</ept>: Aðeins er hægt að setja upp eina skúffu ef <bpt id="p2">&lt;strong&gt;</bpt>Nota samnýtt vakt<ept id="p2">&lt;/strong&gt;</ept> er skilgreindur í skúffu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="398">
-          <source>Drawer 2</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Skúffa 2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="399">
-          <source>OPOS</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="400">
-          <source>Network</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Net</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="401">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> Only one drawer can be set up if <bpt id="p2">&lt;strong&gt;</bpt>Use shared shift<ept id="p2">&lt;/strong&gt;</ept> is configured on the drawer.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">&lt;strong&gt;</bpt>Athugið<ept id="p1">&lt;/strong&gt;</ept>: Aðeins er hægt að setja upp eina skúffu ef <bpt id="p2">&lt;strong&gt;</bpt>Nota samnýtt vakt<ept id="p2">&lt;/strong&gt;</ept> er skilgreindur í skúffu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="402">
-          <source>Scanner</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skanni</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="403">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="404">
-          <source>UWP (No setup is required.)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP (Engin uppsetning nauðsynleg.)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="405">
-          <source>Keyboard wedge (No setup is required.)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lyklaborð kortalesara (Ekki krafist slíkrar uppsetningar.)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="406">
-          <source>Scanner 2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skanni 2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="407">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="408">
-          <source>UWP (No setup is required.)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP (Engin uppsetning nauðsynleg.)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="409">
-          <source>Keyboard wedge (No setup is required.)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lyklaborð kortalesara (Ekki krafist slíkrar uppsetningar.)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="410">
-          <source>Scale</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vigt</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="411">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="412">
-          <source>PIN pad</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PIN-takkaborð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="413">
-          <source>OPOS (Support is provided through customization of the payment connector.)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS (Stuðningur er veittur með sérsniðinn greiðslutengillinn).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="414">
-          <source>Signature capture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sækja undirskrift</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="415">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="416">
-          <source>Payment terminal</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Greiðslustöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="417">
-          <source>Custom device support</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stuðningur við sérsniðið tæki</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="418">
-          <source>Network (For more information, see the payment connector documentation.)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Net (Sjá fylgiskjal greiðslutengis fyrir frekari upplýsingar.)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="419">
-          <source>All Modern POS clients that have a dedicated IIS hardware station</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Allir biðlarar Modern POS með sérstaka IIS vélbúnaðarstöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="420">
-          <source>When the IIS hardware station is "dedicated," there is a one-to-one relationship between the POS client and the hardware station.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar IIS vélbúnaðarstöð er „sérnýtt“, eru bein tengsl milli biðlara POS og vélbúnaðarstöðvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="421">
-          <source>Supported device class</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Studdur tækjaklasi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="422">
-          <source>Supported interfaces</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Studd viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="423">
-          <source>Printer</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Prentari</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="424">
-          <source>OPOS</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="425">
-          <source>Windows driver</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Windows-rekill</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="426">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Athugið:<ept id="p1">&lt;/strong&gt;</ept> Fyrir Windows prentara á neti verður notandi vélbúnaðarstöðvar að hafa heimild til að nota prentarann.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="427">
-          <source>Network</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Net</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="428">
-          <source>Printer 2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prentari 2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="429">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="430">
-          <source>Windows driver</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Windows-rekill</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="431">
-          <source>Network</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Net</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="432">
-          <source>Line display</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Línuskjár</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="433">
-          <source>OPOS</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="434">
-          <source>MSR</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Kortalesari</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="435">
-          <source>OPOS</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="436">
-          <source>Drawer</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Skúffa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="437">
-          <source>OPOS</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="438">
-          <source>Network</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Net</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="439">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> Only one drawer per hardware profile can be set up if <bpt id="p2">&lt;strong&gt;</bpt>Use shared shift<ept id="p2">&lt;/strong&gt;</ept> is configured on the drawer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Athugið<ept id="p1">&lt;/strong&gt;</ept>: Aðeins er hægt að setja upp eina skúffu á vélbúnaðarreglu ef <bpt id="p2">&lt;strong&gt;</bpt>Nota samnýtt vakt<ept id="p2">&lt;/strong&gt;</ept> er skilgreindur í skúffu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="440">
-          <source>Drawer 2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skúffa 2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="441">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="442">
-          <source>Network</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Net</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="443">
-          <source>Scanner</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skanni</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="444">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="445">
-          <source>Scanner 2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skanni 2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="446">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="447">
-          <source>Scale</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vigt</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="448">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="449">
-          <source>PIN pad</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PIN-takkaborð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="450">
-          <source>OPOS (Support is provided through customization of the payment connector.)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS (Stuðningur er veittur með sérsniðinn greiðslutengillinn).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="451">
-          <source>Sig.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Undirskr.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="452">
-          <source>capture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">sækja</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="453">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="454">
-          <source>Payment terminal</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Greiðslustöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="455">
-          <source>Custom device support</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stuðningur við sérsniðið tæki</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="456">
-          <source>Network (For more information, see the payment connector documentation.)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Net (Sjá fylgiskjal greiðslutengis fyrir frekari upplýsingar.)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="457">
-          <source>All Modern POS clients that have a shared IIS hardware station</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Allir biðlarar Modern POS með samnýtta IIS vélbúnaðarstöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="458">
-          <source>When the IIS hardware station is "shared," multiple devices can use the hardware station at the same time.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar vélbúnaðarstöð IIS er „samnýtt“, geta mörg tæki notað vélbúnaðarstöð á sama tíma.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="459">
-          <source>For this scenario, you should use only the devices that are listed in the following table.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fyrir þessar aðstæður á aðeins að nota þau tæki sem eru talin upp í eftirfarandi töflu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="460">
-          <source>If you try to share devices that aren't listed here, such as bar code scanners and MSRs, errors will occur when multiple devices try to claim the same peripheral.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef reynt er að deila tæki sem ekki eru skráð á listanum hér, eins og strikamerkjaskanna og kortalesara munu villur eiga sér stað þegar mörg tæki reyna að gera kröfu á sama jaðarbúnaðinum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="461">
-          <source>In the future, such a configuration will be explicitly prevented.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í framtíðinni, verður sérstaklega komið í veg fyrir slíka grunnstillingu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="462">
-          <source>Supported device class</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Studdur tækjaklasi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="463">
-          <source>Supported interfaces</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Studd viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="464">
-          <source>Printer</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Prentari</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="465">
-          <source>OPOS</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="466">
-          <source>Windows driver</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Windows-rekill</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="467">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">&lt;strong&gt;</bpt>Athugið:<ept id="p1">&lt;/strong&gt;</ept> Fyrir Windows prentara á neti verður notandi vélbúnaðarstöðvar að hafa heimild til að nota prentarann.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="468">
-          <source>Network</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Net</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="469">
-          <source>Printer 2</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Prentari 2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="470">
-          <source>OPOS</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="471">
-          <source>Windows driver</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Windows-rekill</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="472">
-          <source>Network</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Net</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="473">
-          <source>Drawer</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Skúffa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="474">
-          <source>OPOS</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="475">
-          <source>Network</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Net</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="476">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Note:<ept id="p1">&lt;/strong&gt;</ept> Only one drawer per hardware profile can be set up if <bpt id="p2">&lt;strong&gt;</bpt>Use shared shift<ept id="p2">&lt;/strong&gt;</ept> is configured on the drawer.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">&lt;strong&gt;</bpt>Athugið<ept id="p1">&lt;/strong&gt;</ept>: Aðeins er hægt að setja upp eina skúffu á vélbúnaðarreglu ef <bpt id="p2">&lt;strong&gt;</bpt>Nota samnýtt vakt<ept id="p2">&lt;/strong&gt;</ept> er skilgreindur í skúffu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="477">
-          <source>Drawer 2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skúffa 2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="478">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="479">
-          <source>Network</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Net</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="480">
-          <source>Payment terminal</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Greiðslustöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="481">
-          <source>Custom device support</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stuðningur við sérsniðið tæki</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="482">
-          <source>Network (For more information, see the payment connector documentation.)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Net (Sjá fylgiskjal greiðslutengis fyrir frekari upplýsingar.)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="483">
-          <source>Configuration for supported scenarios</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skilgreining fyrir studdar aðstæður</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="484">
-          <source>For more information about how to create hardware profiles, see <bpt id="p1">[</bpt>Define and maintain channel clients, including registers and hardware stations<ept id="p1">](define-maintain-channel-clients-registers-hw-stations.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í <bpt id="p1">[</bpt>Skilgreina og viðhalda rás biðlara, þar á meðal afgreiðslukassa og vélbúnaðarstöðvar<ept id="p1">](define-maintain-channel-clients-registers-hw-stations.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="485">
-          <source>For Microsoft Dynamics 365 for Retail version 1611, the hardware station profile is no longer used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fyrir Microsoft Dynamics 365 for Retail útgáfu 1611, er vélbúnaðarregla ekki notuð lengur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="486">
-          <source>Attributes that you previously set up in the hardware station profile are now part of the hardware station itself.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eigindir sem voru áður sett upp í vélbúnaðarreglunni eru nú hluti af sjálfri vélbúnaðarsröðinni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="487">
-          <source>Modern POS for Windows with an IPC (built-in) hardware station</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS fyrir Windows með (innbyggðri) IPS vélbúnaðarstöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="488">
-          <source>This configuration is the most typical configuration for traditional, fixed POS registers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi skilgreining er oftast dæmigert skilgreiningu fyrir venjulegt, föst afgreiðslukassar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="489">
-          <source>For this scenario, the hardware profile information is mapped directly to the register itself.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Á þessu dæmi, upplýsingar um forstillingu vélbúnaðar varpað beint á sjálfan afgreiðslukassann.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="490">
-          <source>The EFT terminal number should also be set on the register itself.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Afgreiðslustöðvarnúmer kortamillifærslu ætti einnig að setja á afgreiðslukassa sjálfa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="491">
-          <source>To set up this configuration, follow these steps.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fylgið eftirfarandi skrefum til að setja upp þessa skilgreiningu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="492">
-          <source>Create a hardware profile where all the required peripherals are configured.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stofna vélbúnaðarreglu þar sem allar nauðsynlegar jaðartæki eru skilgreind.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="493">
-          <source>Map the hardware profile to the POS register.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varpa vélbúnaðarregluna á afgreiðslukassa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="494">
-          <source>Create a hardware station of the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> type for the retail store where the POS register will be used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stofna vélbúnaðarstöð af gerðinni <bpt id="p1">**</bpt>Sérhæfð<ept id="p1">**</ept> fyrir verslunina þar sem afgreiðslukassinn verður notað.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="495">
-          <source>A description is optional.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lýsing er valkvæð.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="496">
-          <source>You don't have to set any other properties on the hardware station.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Það þarf ekki að stilla aðra eiginleika í vélbúnaðarstöðinni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="497">
-          <source>All other required information, such as the hardware profile, will come from the register itself.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Allar aðrar nauðsynlegar upplýsingar eins og vélbúnaðarreglu, koma úr sjálfum afgreiðslukassanum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="498">
-          <source>Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Retail IT<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Distribution schedule<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á <bpt id="p1">**</bpt>Smásala<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Upplýsingatækni smásölu<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Dreifingaráætlun<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="499">
-          <source>Select the <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> distribution schedule to sync the new hardware profile to the store.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Velja skal <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="500">
-          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smella skal á <bpt id="p1">**</bpt>Keyra nú<ept id="p1">**</ept> til að samstilla breytingar við POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="501">
-          <source>Select the <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> distribution schedule to sync the new hardware station to the store.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Velja skal <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="502">
-          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smella skal á <bpt id="p1">**</bpt>Keyra nú<ept id="p1">**</ept> til að samstilla breytingar við POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="503">
-          <source>Install and activate Modern POS for Windows.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Setja upp og virkja Modern POS fyrir Windows.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="504">
-          <source>Start Modern POS for Windows, and begin to use the connected peripheral devices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hefja Modern POS fyrir Windows og byrja að nota tengda jaðartæki.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="505">
-          <source>All Modern POS clients that have a dedicated IIS hardware station</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Allir biðlarar Modern POS með sérstaka IIS vélbúnaðarstöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="506">
-          <source>This configuration can be used for all Modern POS clients that have a hardware station that is used exclusively by one POS register.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessa skilgreiningu er hægt að nota í öllum biðlurum Modern POS með vélbúnaðarstöð sem aðeins notuð í einum POS afgreiðslukassa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="507">
-          <source>To set up this configuration, follow these steps.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fylgið eftirfarandi skrefum til að setja upp þessa skilgreiningu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="508">
-          <source>Create a hardware profile where all the required peripherals are configured.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stofna vélbúnaðarreglu þar sem allar nauðsynlegar jaðartæki eru skilgreind.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="509">
-          <source>Create a hardware station of the <bpt id="p1">**</bpt>Dedicated<ept id="p1">**</ept> type for the retail store where the POS register will be used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stofna vélbúnaðarstöð af gerðinni <bpt id="p1">**</bpt>Sérhæfð<ept id="p1">**</ept> fyrir verslunina þar sem afgreiðslukassinn verður notað.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="510">
-          <source>On the dedicated hardware station, set the following properties:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stilltu á sérstakan vélbúnaðarstöð eftirfarandi eiginleika:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="511">
-          <source><bpt id="p1">**</bpt>Host name<ept id="p1">**</ept> – The name of the host computer where the hardware station will run.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Hýsilheiti<ept id="p1">**</ept> – Heiti hýsils tölvu þar sem vélbúnaðarstöðin mun keyra.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="512">
-          <source>Cloud POS can resolve <bpt id="p1">**</bpt>localhost<ept id="p1">**</ept> to determine the local computer where Cloud POS is running.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cloud POS getur leyst <bpt id="p1">**</bpt>staðarhýsilinn<ept id="p1">**</ept> til að ákvarða staðbundnu tölvuna sem keyrir Cloud POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="513">
-          <source>However, the certificate that is required in order to pair Cloud POS with the hardware station must also have "Localhost" as the computer name.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hins vegar verður skírteini sem krafist er til að para Cloud POS með vélbúnaðarstöðinni einnig að hafa "Staðarhýslinum" sem heiti tölvunnar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="514">
-          <source>To avoid issues, we recommend that you list an instance of each dedicated hardware station for the store, as required.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að forðast vandamál er ráðlagt að tilkynna tilvik hverrar sérstakrar vélbúnaðarstöðar verslunarinnar, eftir þörfum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="515">
-          <source>For each hardware station, the host name should be the specific computer name where the hardware station will be deployed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fyrir hverja vélbúnaðarstöð heiti hýsilsins ætti að vera heiti á tiltekinni tölvu þar sem vélbúnaðarstöðin verður virkjað.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="516">
-          <source><bpt id="p1">**</bpt>Port<ept id="p1">**</ept> – The port to use for the hardware station to communicate with the Modern POS client.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Tengi<ept id="p1">**</ept> – Tengið sem nota á fyrir vélbúnaðarstöð til að eiga samskipti við biðlara Modern POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="517">
-          <source><bpt id="p1">**</bpt>Hardware profile<ept id="p1">**</ept> – If the hardware profile isn't provided on the hardware station itself, the hardware profile that is assigned to the register will be used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vélbúnaðarregla<ept id="p1">**</ept> – Ef vélbúnaðarregluna er ekki veitt á vélbúnaðarstöð sjálf, vélbúnaðarreglu sem er úthlutað á afgreiðslukassa verður notuð.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="518">
-          <source><bpt id="p1">**</bpt>EFT POS number<ept id="p1">**</ept> – The EFT terminal ID to use when EFT authorizations are sent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Verslunarnúmer Kortamillifærslu númer<ept id="p1">**</ept> -Auðkenni afgreiðslustöðvar KORTAMILLIFÆRSLU Er að nota þegar KORTAMILLIFÆRSLU heimildum eru send.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="519">
-          <source>This ID is provided by the credit card processor.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þetta Kenni er veitt með kreditkortagjörvanum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="520">
-          <source><bpt id="p1">**</bpt>Package name<ept id="p1">**</ept> – The hardware station package to use when the hardware station is deployed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Pakkaheiti<ept id="p1">**</ept> – Vélbúnaðarstöðvarpakkinn sem á að nota þegar vélbúnaðarstöð er virkjuð.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="521">
-          <source>Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Retail IT<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Distribution schedule<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á <bpt id="p1">**</bpt>Smásala<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Upplýsingatækni smásölu<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Dreifingaráætlun<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="522">
-          <source>Select the <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> distribution schedule to sync the new hardware profile to the store.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Velja skal <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="523">
-          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smella skal á <bpt id="p1">**</bpt>Keyra nú<ept id="p1">**</ept> til að samstilla breytingar við POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="524">
-          <source>Select the <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> distribution schedule to sync the new hardware station to the store.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Velja skal <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="525">
-          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smella skal á <bpt id="p1">**</bpt>Keyra nú<ept id="p1">**</ept> til að samstilla breytingar við POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="526">
-          <source>Install the hardware station.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Setja upp vélbúnaðarstöð.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="527">
-          <source>For more information about how to install the hardware station, see <bpt id="p1">[</bpt>Retail hardware station configuration and installation<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nánari upplýsingar um hvernig á að setja upp vélbúnaðarstöð er að finna í <bpt id="p1">[</bpt>Uppsetningu og skilgreiningu á vélbúnaðarstöð smásölu<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="528">
-          <source>Install and activate Modern POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Setja upp og virkja Modern POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="529">
-          <source>For more information about how to install Modern POS, see <bpt id="p1">[</bpt>Retail Modern POS configuration and installation<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nánari upplýsingar um hvernig á að setja upp Modern POS er að finna í <bpt id="p1">[</bpt>Retail Modern POS Uppsetningu og skilgreining<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="530">
-          <source>Sign in to Modern POS, and select <bpt id="p1">**</bpt>Perform non-drawer operations<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Innskráning á Modern POS og veljið <bpt id="p1">**</bpt>Framkvæma aðgerðir utan skúffu<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="531">
-          <source>Start the <bpt id="p1">**</bpt>Manage hardware stations<ept id="p1">**</ept> operation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Byrja á <bpt id="p1">**</bpt>Stjórna vélbúnaðarstöðvar<ept id="p1">**</ept> aðgerð.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="532">
-          <source>Click <bpt id="p1">**</bpt>Manage<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á <bpt id="p1">**</bpt>Stjórna<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="533">
-          <source>On the hardware station management page, set the option to turn on the hardware station.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í stjórnunarsíðu vélbúnaðarstöðvar skal stilla valkost til að kveikja á vélbúnaðarstöðinni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="534">
-          <source>Select the hardware station to use, and then click <bpt id="p1">**</bpt>Pair<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Velja vélbúnaðarstöð til að nota og síðan smellt á <bpt id="p1">**</bpt>Para<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="535">
-          <source>After the hardware station is paired, click <bpt id="p1">**</bpt>Close<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftir vélbúnaðarstöðin er pöruð smellið <bpt id="p1">**</bpt>Loka<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="536">
-          <source>On the hardware station selection page, click the recently selected hardware station to make it active.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Á valsíðu vélbúnaðarstöðvar er smellt á nýlega valda vélbúnaðarstöð til að gera hana virka.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="537">
-          <source>All Modern POS clients that have a shared IIS hardware station</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Allir biðlarar Modern POS með samnýtta IIS vélbúnaðarstöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="538">
-          <source>This configuration can be used for all Modern POS clients that share hardware stations with other devices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessa skilgreiningu er hægt að nota í öllum biðlurum Modern POS sem deila vélbúnaðarstöðvum með öðrum tækjum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="539">
-          <source>To set up this configuration, follow these steps.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fylgið eftirfarandi skrefum til að setja upp þessa skilgreiningu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="540">
-          <source>Create a hardware profile where the required peripherals are configured.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stofna vélbúnaðarreglu þar sem nauðsynleg jaðartæki eru skilgreind.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="541">
-          <source>Create a hardware station of the <bpt id="p1">**</bpt>Shared<ept id="p1">**</ept> type for the retail store where the POS register will be used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stofna vélbúnaðarstöð af gerðinni <bpt id="p1">**</bpt>Samnýtt<ept id="p1">**</ept> fyrir verslunina þar sem afgreiðslukassinn verður notað.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="542">
-          <source>On the shared hardware station, set the following properties:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stilltu á samnýttri vélbúnaðarstöð eftirfarandi eiginleika:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="543">
-          <source><bpt id="p1">**</bpt>Host name<ept id="p1">**</ept> – The name of the host computer where the hardware station will run.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Hýsilheiti<ept id="p1">**</ept> – Heiti hýsils tölvu þar sem vélbúnaðarstöðin mun keyra.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="544">
-          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept> – Text that will help identify the hardware station, such as <bpt id="p2">**</bpt>Returns<ept id="p2">**</ept> or <bpt id="p3">**</bpt>Front of store<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Lýsing<ept id="p1">**</ept> – Texta sem auðkenna vélbúnaðarstöð, eins og <bpt id="p2">**</bpt>Skil<ept id="p2">**</ept> eða <bpt id="p3">**</bpt>Framhlið verslunar<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="545">
-          <source><bpt id="p1">**</bpt>Port<ept id="p1">**</ept> – The port to use for the hardware station to communicate with the Modern POS client.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Tengi<ept id="p1">**</ept> – Tengið sem nota á fyrir vélbúnaðarstöð til að eiga samskipti við biðlara Modern POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="546">
-          <source><bpt id="p1">**</bpt>Hardware profile<ept id="p1">**</ept> – For shared hardware stations, each hardware station should have a hardware profile.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Vélbúnaðarregla<ept id="p1">**</ept> - Fyrir samnýttar vélbúnaðarstöðvar ætti hver vélbúnaðarstöð að hafa vélbúnaðarreglu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="547">
-          <source>Hardware profiles can be shared among hardware stations, but they must be mapped to each hardware station.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að deila vélbúnaðarreglum milli vélbúnaðarstöðva en þeim verður að vera varpað á hverja vélbúnaðarstöð.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="548">
-          <source>In addition, we recommend that you use shared shifts when multiple devices use the same shared hardware station.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þar að auki er mælt með að nota samnýtta vaktir þegar margar tæki nota sömu samnýttu vélbúnaðarstöð.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="549">
-          <source>To set up a shared shift, click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS setup<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>POS profiles<ept id="p4">**</ept> <ph id="ph4">&amp;gt;</ph> <bpt id="p5">**</bpt>Hardware profiles<ept id="p5">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að setja upp samnýtta vakt skal smella á <bpt id="p1">**</bpt>Smásala<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Uppsetning rásar<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Uppsetning sölustaðar<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Forstillingar sölustaðar<ept id="p4">**</ept> <ph id="ph4">&amp;gt;</ph> <bpt id="p5">**</bpt>Vélbúnaðarreglur<ept id="p5">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="550">
-          <source>For each shared hardware profile, select the cash drawer, and set the <bpt id="p1">**</bpt>Shared shift drawer<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Velja peningaskúffu fyrir hverja samnýtta vélbúnaðarreglu og stilla valkostinn <bpt id="p1">**</bpt>Samnýttum vakt skúffu<ept id="p1">**</ept> á <bpt id="p2">**</bpt>Já<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="551">
-          <source><bpt id="p1">**</bpt>EFT POS number<ept id="p1">**</ept> – The EFT terminal ID to use when EFT authorizations are sent.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Verslunarnúmer Kortamillifærslu númer<ept id="p1">**</ept> -Auðkenni afgreiðslustöðvar KORTAMILLIFÆRSLU Er að nota þegar KORTAMILLIFÆRSLU heimildum eru send.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="552">
-          <source>This ID is provided by the credit card processor.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þetta Kenni er veitt með kreditkortagjörvanum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="553">
-          <source><bpt id="p1">**</bpt>Package name<ept id="p1">**</ept> – The hardware station package to use when the hardware station is deployed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Pakkaheiti<ept id="p1">**</ept> – Vélbúnaðarstöðvarpakkinn sem á að nota þegar vélbúnaðarstöð er virkjuð.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="554">
-          <source>Repeat steps 2 and 3 for each additional hardware station that is required in the store.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Endurtakið skref 2 og 3 fyrir hverja viðbótar vélbúnaðarstöð sem krafist er í versluninni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="555">
-          <source>Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Retail IT<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Distribution schedule<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á <bpt id="p1">**</bpt>Smásala<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Upplýsingatækni smásölu<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Dreifingaráætlun<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="556">
-          <source>Select the <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> distribution schedule to sync the new hardware profile to the store.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Velja skal <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="557">
-          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smella skal á <bpt id="p1">**</bpt>Keyra nú<ept id="p1">**</ept> til að samstilla breytingar við POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="558">
-          <source>Select the <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> distribution schedule to sync the new hardware station to the store.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Velja skal <bpt id="p1">**</bpt>1040<ept id="p1">**</ept> dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="559">
-          <source>Click <bpt id="p1">**</bpt>Run now<ept id="p1">**</ept> to sync changes to the POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smella skal á <bpt id="p1">**</bpt>Keyra nú<ept id="p1">**</ept> til að samstilla breytingar við POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="560">
-          <source>Install the hardware station on each host computer that you set up in steps 2 and 3.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Setja upp vélbúnaðarstöð á hverri hýsitölvu sem sett er upp í skrefum 2 og 3.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="561">
-          <source>For more information about how to install the hardware station, see <bpt id="p1">[</bpt>Retail hardware station configuration and installation<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nánari upplýsingar um hvernig á að setja upp vélbúnaðarstöð er að finna í <bpt id="p1">[</bpt>Uppsetningu og skilgreiningu á vélbúnaðarstöð smásölu<ept id="p1">](retail-hardware-station-configuration-installation.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="562">
-          <source>Install and activate Modern POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Setja upp og virkja Modern POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="563">
-          <source>For more information about how to install Modern POS, see <bpt id="p1">[</bpt>Retail Modern POS configuration and installation<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nánari upplýsingar um hvernig á að setja upp Modern POS er að finna í <bpt id="p1">[</bpt>Retail Modern POS Uppsetningu og skilgreining<ept id="p1">](retail-modern-pos-device-activation.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="564">
-          <source>Sign in to Modern POS, and select <bpt id="p1">**</bpt>Perform non-drawer operations<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Innskráning á Modern POS og veljið <bpt id="p1">**</bpt>Framkvæma aðgerðir utan skúffu<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="565">
-          <source>Start the <bpt id="p1">**</bpt>Manage hardware stations<ept id="p1">**</ept> operation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Byrja á <bpt id="p1">**</bpt>Stjórna vélbúnaðarstöðvar<ept id="p1">**</ept> aðgerð.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="566">
-          <source>Click <bpt id="p1">**</bpt>Manage<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smellið á <bpt id="p1">**</bpt>Stjórna<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="567">
-          <source>On the hardware station management page, set the option to turn on the hardware station.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í stjórnunarsíðu vélbúnaðarstöðvar skal stilla valkost til að kveikja á vélbúnaðarstöðinni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="568">
-          <source>Select the hardware station to use, and then click <bpt id="p1">**</bpt>Pair<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Velja vélbúnaðarstöð til að nota og síðan smellt á <bpt id="p1">**</bpt>Para<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="569">
-          <source>Repeat step 14 for each hardware station that Modern POS will use.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Endurtakið skref 14 fyrir hverja vélbúnaðarstöð sem Modern POS notar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="570">
-          <source>After all the required hardware stations are paired, click <bpt id="p1">**</bpt>Close<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftir að allar nauðsynlegar vélbúnaðarstöðvar eru paraðar skal smella á <bpt id="p1">**</bpt>Loka<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="571">
-          <source>On the hardware station selection page, click the recently selected hardware station to make it active.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Á valsíðu vélbúnaðarstöðvar er smellt á nýlega valda vélbúnaðarstöð til að gera hana virka.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="572">
-          <source>If devices often use different hardware stations, we recommend that you configure Modern POS to prompt cashiers to select a hardware station when they begin the tender process.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef tæki nota mismunandi vélbúnaðarstöðvar oft er ráðlagt að skilgreina Modern POS til að senda kvaðningu á gjaldkera til að velja vélbúnaðarstöð þegar þeir byrja á greiðslumátaferli.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="573">
-          <source>Click <bpt id="p1">**</bpt>Retail<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Channel setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>POS setup<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Registers<ept id="p4">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Smelltu á <bpt id="p1">**</bpt>Smásala<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Uppsetning rásar<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>Uppsetning sölustaðar<ept id="p3">**</ept> <ph id="ph3">&amp;gt;</ph> <bpt id="p4">**</bpt>Afgreiðslukassar<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="574">
-          <source>Select the register, and then set the <bpt id="p1">**</bpt>Select upon tender<ept id="p1">**</ept> option to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veljið afgreiðslukassa og stillið valkostinn <bpt id="p1">**</bpt>Velja við greiðslumáta<ept id="p1">**</ept> á <bpt id="p2">**</bpt>Já<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="575">
-          <source>Use the <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> distribution schedule to sync changes to the channel database.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Notaðu <bpt id="p1">**</bpt>1090<ept id="p1">**</ept> dreifingaráætlun til að samstilla breytingar við gagnagrunn rásar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="576">
-          <source>Extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stækkunarhæfni</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="577">
-          <source>For information about extensibility scenarios for the hardware station, see <bpt id="p1">[</bpt>Hardware Station extensibility<ept id="p1">](dev-itpro/hardware-station-extensibility.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sjá upplýsingar um stækkunarhæfniaðstæður fyrir vélabúnaðarstöð í <bpt id="p1">[</bpt>Stækkunarhæfni vélbúnaðarstöðvar<ept id="p1">](dev-itpro/hardware-station-extensibility.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="578">
-          <source>Security</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Öryggi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="579">
-          <source>According to current security standards, the following settings should be used in a production environment:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Samkvæmt gildandi öryggisstöðlum á að nota eftirfarandi stillingar í framleiðsluumhverfi:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="580">
-          <source>The hardware station installer will automatically make these registry edits as part of the installation through self-service.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uppsetningarforrit vélbúnaðarstöðvar mun sjálfkrafa gera þessar breytingar á stýriskrá sem hluti af uppsetningu gegnum sjálfsafgreiðslu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="581">
-          <source>Secure Sockets Layer (SSL) should be disabled.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Secure Sockets Layer (SSL) ætti að gera óvirkt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="582">
-          <source>Only Transport Layer Security (TLS) version 1.2 (or the current highest version) should be enabled and used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Einungis Transport Layer Security (TLS) útgáfu 1,2 (eða í gildandi hæsta) ætti að vera virkjuð og notuð.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="583">
-          <source>By default, SSL and all versions of TLS except TLS 1.2 are disabled.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sjálfgefið er að SSL og allar útgáfur af TLS nema TLS 1.2 eru gerðar óvirkar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="584">
-          <source>To edit or enable these values, follow these steps:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fylgið eftirfarandi skrefum til að breyta eða virkja þessi gildi:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="585">
-          <source>Press the Windows logo key+R to open a <bpt id="p1">**</bpt>Run<ept id="p1">**</ept> window.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Styðjið á merki Windows lykill + Rannsókn til að opna í <bpt id="p1">**</bpt>Keyra<ept id="p1">**</ept> glugga.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="586">
-          <source>In the <bpt id="p1">**</bpt>Open<ept id="p1">**</ept> field, type <bpt id="p2">**</bpt>Regedit<ept id="p2">**</ept>, and then click <bpt id="p3">**</bpt>OK<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í svæðinu <bpt id="p1">**</bpt>Opna<ept id="p1">**</ept> ritið <bpt id="p2">**</bpt>Regedit<ept id="p2">**</ept>, og smellið síðan á <bpt id="p3">**</bpt>í lagi<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="587">
-          <source>If a <bpt id="p1">**</bpt>User Account Control<ept id="p1">**</ept> message box appears, click <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef að <bpt id="p1">**</bpt>Stjórnun notendareikninga<ept id="p1">**</ept> skilaboðagluggi birtist er smellt á <bpt id="p2">**</bpt>Já<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="588">
-          <source>In the <bpt id="p1">**</bpt>Registry Editor<ept id="p1">**</ept> window, navigate to <bpt id="p2">**</bpt>HKEY<ph id="ph1">\_</ph>LOCAL<ph id="ph2">\_</ph>MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í glugganum <bpt id="p1">**</bpt>Stýriskrána Ritill<ept id="p1">**</ept> fara í <bpt id="p2">**</bpt>HKEY<ph id="ph1">\_</ph>STAÐBUNDNA<ph id="ph2">\_</ph>MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="589">
-          <source>The following keys have been automatically entered to allow for TLS 1.2 only:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftirfarandi lyklar hafa verið sjálfkrafa færðar inn til að leyfa aðeins fyrir TLS 1,2:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="590">
-          <source>TLS 1.2Server:Enabled=1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.2Server:Enabled=1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="591">
-          <source>TLS 1.2Server:DisabledByDefault=0</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.2Server:DisabledByDefault=0</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="592">
-          <source>TLS 1.2Client:Enabled=1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.2Client:Enabled=1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="593">
-          <source>TLS 1.2Client:DisabledByDefault=0</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.2Client:DisabledByDefault=0</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="594">
-          <source>TLS 1.1Server:Enabled=0</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.1Server:Enabled=0</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="595">
-          <source>TLS 1.1Client:Enabled=0</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.1Client:Enabled=0</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="596">
-          <source>TLS 1.0Server:Enabled=0</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.0Server:Enabled=0</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="597">
-          <source>TLS 1.0Client:Enabled=0</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TLS 1.0Client:Enabled=0</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="598">
-          <source>SSL 3.0Server:Enabled=0</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SSL 3.0Server:Enabled=0</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="599">
-          <source>SSL 3.0Client:Enabled=0</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SSL 3.0Client:Enabled=0</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="600">
-          <source>SSL 2.0Server:Enabled=0</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SSL 2.0Server:Enabled=0</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="601">
-          <source>SSL 2.0Client:Enabled=0</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SSL 2.0Client:Enabled=0</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="602">
-          <source>No additional network ports should be open, unless they are required for known, specified reasons.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Enginn viðbótar net tengi ætti að vera opin, nema þær séu nauðsynlegar ástæðum þekkt er tilgreindur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="603">
-          <source>Cross-origin resource sharing must be disabled and must specify the allowed origins that are accepted.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gera verður tilfangasamnýtingu á milli uppruna óvirka og verður að tilgreina leyfð uppruna sem eru samþykktar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="604">
-          <source>Only trusted certificate authorities should be used to obtain certificates that will be used on computers that run the hardware station.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aðeins traust skírteini yfirvalda ætti að nota til að fá vottorð sem verður notaður í tölvum sem keyra vélbúnaðarstöðina.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="605">
-          <source>It's very important that you review security guidelines for IIS and the Payment Card Industry (PCI) requirements.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Afar mikilvægt er að farið sé yfir öryggisleiðbeiningar fyrir IIS og þarfir greiðslukortageirans (PCI).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="606">
-          <source>Peripheral simulator</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaðarbúnaður</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="607">
-          <source>For information, see <bpt id="p1">[</bpt>Retail peripheral simulator<ept id="p1">](dev-itpro/retail-peripheral-simulator.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sjá upplýsingar <bpt id="p1">[</bpt>Jaðarbúnaðarhermir smásölu<ept id="p1">](dev-itpro/retail-peripheral-simulator.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="608">
-          <source>Microsoft-tested peripheral devices</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jaðartæki Microsoft-tested</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="609">
-          <source>IPC (built-in) hardware station</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IPC (innbyggð) vélbúnaðarstöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="610">
-          <source>The following peripherals were tested by using the IPC hardware station that is built into Modern POS for Windows.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftirfarandi jaðartæki voru prófuð með því að nota IPC vélbúnaðarstöð sem er innbyggð í Modern POS fyrir Windows.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="611">
-          <source>Printer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prentari</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="612">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="613">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="614">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="615">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="616">
-          <source>Epson</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="617">
-          <source>Tm-T88IV</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tm-T88IV</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="618">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="619">
-          <source>Epson</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="620">
-          <source>TM-T88V</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TM-T88V</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="621">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="622">
-          <source>Star</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="623">
-          <source>TSP650II</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="624">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="625">
-          <source>Star</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="626">
-          <source>TSP650II</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="627">
-          <source>Custom</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sérsniðinn</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="628">
-          <source>Connected via network</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tengt gegnum netkerfi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="629">
-          <source>Star</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="630">
-          <source>mPOP</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">mPOP</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="631">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="632">
-          <source>Connected via Bluetooth</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tengt gegnum Bluetooth</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="633">
-          <source>HP</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="634">
-          <source>F7M67AA</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">F7M67AA</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="635">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="636">
-          <source>Powered USB</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rafhlöðu USB</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="637">
-          <source>Bar code scanner</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Strikamerkjaskanni</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="638">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="639">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="640">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="641">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="642">
-          <source>Motorola</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Motorola</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="643">
-          <source>DS9208</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DS9208</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="644">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="645">
-          <source>Honeywell</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Honeywell</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="646">
-          <source>1900</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1900</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="647">
-          <source>UWP</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="648">
-          <source>Symbol</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tákn</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="649">
-          <source>LS2208</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LS2208</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="650">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="651">
-          <source>HP Integrated</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP Samþætt</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="652">
-          <source>E1L07AA</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">E1L07AA</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="653">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="654">
-          <source>Datalogic</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datalogic</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="655">
-          <source>Magellan 8400</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magellan 8400</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="656">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="657">
-          <source>PIN pad</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PIN-takkaborð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="658">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="659">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="660">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="661">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="662">
-          <source>VeriFone</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verifone</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="663">
-          <source>1000SE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1000SE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="664">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="665">
-          <source>Requires customization of the payment connector</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krefst sérsniðs greiðslutengils</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="666">
-          <source>Payment terminal</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Greiðslustöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="667">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="668">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="669">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="670">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="671">
-          <source>Equinox</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Equinox</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="672">
-          <source>L5300</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L5300</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="673">
-          <source>Custom</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sérsniðinn</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="674">
-          <source>Requires customization of the payment connector</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krefst sérsniðs greiðslutengils</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="675">
-          <source>VeriFone</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verifone</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="676">
-          <source>MX925</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX925</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="677">
-          <source>Custom</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sérsniðinn</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="678">
-          <source>Requires customization of the payment connector; connected via network and USB</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="679">
-          <source>VeriFone</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verifone</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="680">
-          <source>MX915</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX915</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="681">
-          <source>Custom</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sérsniðinn</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="682">
-          <source>Requires customization of the payment connector; connected via network and USB</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="683">
-          <source>Cash drawer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Peningaskúffa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="684">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="685">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="686">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="687">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="688">
-          <source>Star</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="689">
-          <source>mPOP</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">mPOP</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="690">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="691">
-          <source>Connected via Bluetooth</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tengt gegnum Bluetooth</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="692">
-          <source>APG</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">APG</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="693">
-          <source>Atwood</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atwood</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="694">
-          <source>Custom</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sérsniðinn</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="695">
-          <source>Connected via network</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tengt gegnum netkerfi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="696">
-          <source>Star</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="697">
-          <source>SMD2-1317</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SMD2-1317</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="698">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="699">
-          <source>HP</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="700">
-          <source>QT457AA</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">QT457AA</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="701">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="702">
-          <source>Line display</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Línuskjár</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="703">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="704">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="705">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="706">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="707">
-          <source>HP integrated</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP Samþætt</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="708">
-          <source>G6U79AA</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">G6U79AA</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="709">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="710">
-          <source>Epson</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="711">
-          <source>M58DC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">M58DC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="712">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="713">
-          <source>Signature capture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sækja undirskrift</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="714">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="715">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="716">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="717">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="718">
-          <source>Scriptel</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Scriptel</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="719">
-          <source>ST1550</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ST1550</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="720">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="721">
-          <source>Scale</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vigt</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="722">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="723">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="724">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="725">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="726">
-          <source>Datalogic</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datalogic</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="727">
-          <source>Magellan 8400</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magellan 8400</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="728">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="729">
-          <source>MSR</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kortalesari</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="730">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="731">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="732">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="733">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="734">
-          <source>Magtek</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magtek</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="735">
-          <source>21073075</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">21073075</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="736">
-          <source>UWP</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="737">
-          <source>Magtek</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magtek</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="738">
-          <source>21073062</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">21073062</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="739">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="740">
-          <source>HP</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="741">
-          <source>IDRA-334133</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IDRA-334133</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="742">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="743">
-          <source>Dedicated IIS hardware station</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sérhæft IIS vélbúnaðarstöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="744">
-          <source>The following peripherals were tested by using a dedicated (not shared) IIS hardware station together with Modern POS for Windows and Cloud POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftirfarandi jaðartæki voru prófuð með því að nota sérhæfða (ekki samnýtta) IPC vélbúnaðarstöð sem ásamt Modern POS fyrir Windows og Cloud POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="745">
-          <source>Printer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prentari</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="746">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="747">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="748">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="749">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="750">
-          <source>Epson</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="751">
-          <source>Tm-T88IV</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tm-T88IV</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="752">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="753">
-          <source>Epson</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="754">
-          <source>TM-T88V</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TM-T88V</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="755">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="756">
-          <source>Star</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="757">
-          <source>TSP650II</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="758">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="759">
-          <source>Star</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="760">
-          <source>TSP650II</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="761">
-          <source>Custom</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sérsniðinn</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="762">
-          <source>Connected via network</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tengt gegnum netkerfi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="763">
-          <source>HP</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="764">
-          <source>F7M67AA</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">F7M67AA</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="765">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="766">
-          <source>Powered USB</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rafhlöðu USB</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="767">
-          <source>Bar code scanner</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Strikamerkjaskanni</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="768">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="769">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="770">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="771">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="772">
-          <source>Motorola</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Motorola</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="773">
-          <source>DS9208</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DS9208</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="774">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="775">
-          <source>Symbol</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tákn</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="776">
-          <source>LS2208</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LS2208</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="777">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="778">
-          <source>HP Integrated</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP Samþætt</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="779">
-          <source>E1L07AA</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">E1L07AA</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="780">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="781">
-          <source>PIN pad</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PIN-takkaborð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="782">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="783">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="784">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="785">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="786">
-          <source>VeriFone</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verifone</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="787">
-          <source>1000SE</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1000SE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="788">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="789">
-          <source>Requires customization of the payment connector</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krefst sérsniðs greiðslutengils</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="790">
-          <source>Payment terminal</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Greiðslustöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="791">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="792">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="793">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="794">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="795">
-          <source>Equinox</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Equinox</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="796">
-          <source>L5300</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L5300</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="797">
-          <source>Custom</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sérsniðinn</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="798">
-          <source>Requires customization of the payment connector</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krefst sérsniðs greiðslutengils</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="799">
-          <source>VeriFone</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verifone</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="800">
-          <source>MX925</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX925</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="801">
-          <source>Custom</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sérsniðinn</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="802">
-          <source>Requires customization of the payment connector; connected via network and USB</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="803">
-          <source>VeriFone</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verifone</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="804">
-          <source>MX915</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX915</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="805">
-          <source>Custom</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sérsniðinn</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="806">
-          <source>Requires customization of the payment connector; connected via network and USB</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="807">
-          <source>Cash drawer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Peningaskúffa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="808">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="809">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="810">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="811">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="812">
-          <source>APG</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">APG</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="813">
-          <source>Atwood</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atwood</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="814">
-          <source>Custom</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sérsniðinn</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="815">
-          <source>Connected via network</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tengt gegnum netkerfi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="816">
-          <source>Star</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="817">
-          <source>SMD2-1317</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SMD2-1317</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="818">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="819">
-          <source>HP</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="820">
-          <source>QT457AA</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">QT457AA</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="821">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="822">
-          <source>Line display</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Línuskjár</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="823">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="824">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="825">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="826">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="827">
-          <source>HP integrated</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP Samþætt</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="828">
-          <source>G6U79AA</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">G6U79AA</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="829">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="830">
-          <source>Epson</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="831">
-          <source>M58DC</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">M58DC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="832">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="833">
-          <source>Signature capture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sækja undirskrift</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="834">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="835">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="836">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="837">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="838">
-          <source>Scriptel</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Scriptel</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="839">
-          <source>ST1550</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">ST1550</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="840">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="841">
-          <source>Scale</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vigt</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="842">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="843">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="844">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="845">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="846">
-          <source>Datalogic</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Datalogic</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="847">
-          <source>Magellan 8400</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magellan 8400</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="848">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="849">
-          <source>MSR</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kortalesari</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="850">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="851">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="852">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="853">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="854">
-          <source>Magtek</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magtek</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="855">
-          <source>21073075</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">21073075</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="856">
-          <source>UWP</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">UWP</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="857">
-          <source>Magtek</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Magtek</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="858">
-          <source>21073062</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">21073062</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="859">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="860">
-          <source>HP</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="861">
-          <source>IDRA-334133</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IDRA-334133</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="862">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="863">
-          <source>Shared IIS hardware station</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Samnýtt IIS vélbúnaðarstöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="864">
-          <source>The following peripherals were tested by using a shared IIS hardware station together with Modern POS for Windows and Cloud POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eftirfarandi jaðartæki voru prófuð með því að nota samnýtta (ekki sérhæfða) IPC vélbúnaðarstöð ásamt Modern POS fyrir Windows og Cloud POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="865">
-          <source>Only a printer, payment terminal, and cash drawer are supported.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aðeins prentari, greiðslustöð og peningaskúffa eru studd.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="866">
-          <source>Printer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prentari</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="867">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="868">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="869">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="870">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="871">
-          <source>Epson</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="872">
-          <source>Tm-T88IV</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tm-T88IV</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="873">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="874">
-          <source>Epson</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Epson</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="875">
-          <source>TM-T88V</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TM-T88V</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="876">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="877">
-          <source>Star</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="878">
-          <source>TSP650II</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="879">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="880">
-          <source>Star</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="881">
-          <source>TSP650II</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">TSP650II</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="882">
-          <source>Custom</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sérsniðinn</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="883">
-          <source>Connected via network</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tengt gegnum netkerfi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="884">
-          <source>HP</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="885">
-          <source>F7M67AA</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">F7M67AA</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="886">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="887">
-          <source>Powered USB</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rafhlöðu USB</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="888">
-          <source>Payment terminal</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Greiðslustöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="889">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="890">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="891">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="892">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="893">
-          <source>VeriFone</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verifone</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="894">
-          <source>MX925</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX925</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="895">
-          <source>Custom</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sérsniðinn</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="896">
-          <source>Requires customization of the payment connector; connected via network and USB</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="897">
-          <source>VeriFone</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Verifone</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="898">
-          <source>MX915</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MX915</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="899">
-          <source>Custom</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sérsniðinn</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="900">
-          <source>Requires customization of the payment connector; connected via network and USB</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="901">
-          <source>Cash drawer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Peningaskúffa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="902">
-          <source>Manufacturer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Framleiðandi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="903">
-          <source>Model</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tegund</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="904">
-          <source>Interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Viðmót</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="905">
-          <source>Comments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Athugasemdir</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="906">
-          <source>APG</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">APG</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="907">
-          <source>Atwood</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atwood</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="908">
-          <source>Custom</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sérsniðinn</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="909">
-          <source>Connected via network</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tengt gegnum netkerfi</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="910">
-          <source>Star</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Star</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="911">
-          <source>SMD2-1317</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SMD2-1317</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="912">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="913">
-          <source>HP</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">HP</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="914">
-          <source>QT457AA</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">QT457AA</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="915">
-          <source>OPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">OPOS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="916">
-          <source>Troubleshooting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Úrræðaleit</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="917">
-          <source>Modern POS can detect the hardware station in its list for selection, but it can't complete the pairing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS getur fundið vélbúnaðarstöðina á lista sínum yfir val, en það getur ekki lokið við pörun</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="918">
-          <source><bpt id="p1">**</bpt>Solution:<ept id="p1">**</ept> Verify the following list of potential failure points:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Lausn:<ept id="p1">**</ept> Staðfesta eftirfarandi lista yfir hugsanlega bilunarpunkta:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="919">
-          <source>The computer that is running Modern POS trusts the certificate that is used on the computer that runs the hardware station.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tölvan sem keyrir Modern POS treystir skírteini sem er notað er á tölvunni sem keyrir vélbúnaðarstöðina.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="920">
-          <source>To verify this setup, in a web browser, go to the following URL: <ph id="ph1">`https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping`</ph>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að sannreyna þessa uppsetningu í vefvafra skal fara á eftirfarandi slóð: <ph id="ph1">`https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping`</ph>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="921">
-          <source>This URL uses a ping to verify that the computer can be accessed, and the browser indicates whether the certificate is trusted.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þessi SLÓÐ notar ping-boð til að staðfesta að hægt sé að fara í tölvuna og vafrinn gefur til kynna hvort skírteininu sé treyst.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="922">
-          <source>(For example, in Internet Explorer, a lock icon appears in the address bar.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">(Til dæmis birtist lástáknið í Internet Explorer á veffangastikunni.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="923">
-          <source>When you click this icon, Internet Explorer verifies whether the certificate is currently trusted.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar smellt er á þetta tákn staðfestir Internet Explorer hvort skírteininu sé treyst eins og stendur.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="924">
-          <source>You can install the certificate on the local computer by viewing the details of the certificate that is shown.)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hægt er að setja skírteinið upp á staðbundnu tölvunni með því að skoða upplýsingar um skírteinið sem birtast.)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="925">
-          <source>On the computer that runs the hardware station, the port that will be used by the hardware station is opened in the firewall.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Á tölvunni sem keyrir vélbúnaðarstöðina er tengið sem verður notað af vélbúnaðarstöðinni opinn í eldvegg.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="926">
-          <source>The hardware station has correctly installed merchant account information through the Install merchant information tool that runs at the end of the hardware station installer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vélbúnaðarstöðin hefur rétt sett upp upplýsingar söluaðila með verkfærinu Setja upp upplýsingar um söluaðila sem keyrist við lok uppsetningarforrits vélbúnaðarstöðvar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="927">
-          <source>Modern POS can't detect the hardware station in its list for selection</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS getur ekki fundið vélbúnaðarstöðina á lista sínum yfir val</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="928">
-          <source><bpt id="p1">**</bpt>Solution:<ept id="p1">**</ept> Either of the following factors can cause this issue:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Lausn:<ept id="p1">**</ept> Annaðhvort eftirfarandi þáttum getur valdið vandamálið:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="929">
-          <source>The hardware station hasn't been set up correctly in headquarters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vélabúnaðarstöðin hefur ekki verið sett upp rétt í höfuðstöðvum.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="930">
-          <source>Use the steps earlier in this topic to verify that the hardware station profile and the hardware station are correctly entered.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fylgið skrefum fyrr í þessum kafla til að staðfesta að vélbúnaðarreglu og vélbúnaðarstöðin séu rétt sett inn.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="931">
-          <source>The jobs haven't been run to update the channel configuration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vinnslur hafa ekki verið keyrðar til að uppfæra skilgreiningu rásar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="932">
-          <source>In this case, run the 1070 job for channel configuration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í þessu tilfelli er vinnsla 1070 keyrð fyrir grunnstillingu rásar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="933">
-          <source>Modern POS doesn't reflect new cash drawer settings</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS endurspegla ekki nýjum stillingum peningaskúffu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="934">
-          <source><bpt id="p1">**</bpt>Solution:<ept id="p1">**</ept> Close the current batch.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Lausn:<ept id="p1">**</ept> Loka núverandi runu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="935">
-          <source>Changes to the cash drawer aren't updated to Modern POS until the current batch is closed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Breytingar á peningaskúffunni eru ekki uppfærðar í Modern POS fyrr en núverandi rununni er lokað.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="936">
-          <source>Modern POS is reporting an issue with a retail peripheral</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modern POS tilkynnir vandamál með jaðarbúnaði smásölu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="937">
-          <source><bpt id="p1">**</bpt>Solution:<ept id="p1">**</ept> Here are some typical causes of this issue:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Lausn:<ept id="p1">**</ept> Hér eru sumar dæmigerðar orsakir vandamálsins:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="938">
-          <source>Make sure that other device driver configuration utilities are closed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gangið úr skugga um að aðrar grunnstillingarþjónustur tækirrekils séu lokað.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="939">
-          <source>If these utilities are open, they might prevent Modern POS or the hardware station from claiming the device.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef þessar þjónustur eru opnar, þær gætu komið í veg fyrir Modern POS eða vélbúnaðarstöð geri krafa á tækið.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="940">
-          <source>If the retail peripheral is shared with multiple POS devices, make sure that it belongs to one of the following categories:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef jaðarbúnaður smásölu er samnýttur með mörgum POS-tæki, ganga úr skugga um að sem hún tilheyrir eitt af eftirfarandi tegundum:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="941">
-          <source>Cash drawer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Peningaskúffa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="942">
-          <source>Receipt printer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kvittanaprentari</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="943">
-          <source>Payment terminal</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Greiðslustöð</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="944">
-          <source>If the peripheral doesn't belong to one of these categories, the hardware station isn't designed to enable the peripheral to be shared among multiple POS devices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef jaðarbúnaðurinn tilheyrir ekki þessara tegunda, er vélbúnaðarstöðin ekki hönnuð til að virkja að jaðarbúnaðurinn sé samnýttar á milli margra POS-tæki.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="945">
-          <source>Sometimes, device drivers can cause the common control objects (CCOs) to stop working correctly.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stundum geta tækisreklar valdið því að almennir stýrihlutir (CCOs) hætti að vinna rétt.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="946">
-          <source>If a device has recently been installed, but it isn't working properly or you notice other issues, you can often resolve the issue by reinstalling the CCOs.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef nýlega hefur verið sett upp tæki, en það er ekki virki rétt eða tekið er eftir öðrum vandamálum, er oft hægt að leysa þetta vandamál með því að enduruppsetja almenna stýrihluti.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="947">
-          <source>To download the CCOs, visit <ph id="ph1">&lt;http://monroecs.com/oposccos_current.htm&gt;</ph>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að sækja almenna stýrihluti skal fara á <ph id="ph1">&lt;http://monroecs.com/oposccos_current.htm&gt;</ph>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="948">
-          <source>If you make frequent peripheral changes during testing or troubleshooting, you might have to reset IIS instead of waiting for the cache to refresh itself.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ef þú gerir tíðar breytingar á jaðarbúnaði við prófun eða úrræðaleit, gæti þurft að endurstilla IIS í stað þess að bíða eftir að skyndiminni endurræsi sig.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="949">
-          <source>To reset IIS, follow these steps:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Það er gert með því að fylgja þessum skrefum:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="950">
-          <source>From the <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> menu, type <bpt id="p2">**</bpt>CMD<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Úr valmyndinni <bpt id="p1">**</bpt>Ræsa<ept id="p1">**</ept> skal rita <bpt id="p2">**</bpt>CMD<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="951">
-          <source>In the search results, right-click <bpt id="p1">**</bpt>Command prompt<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Run as administrator<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í leitarniðurstöðum, hægrismellt <bpt id="p1">**</bpt>skipanakvaðningu<ept id="p1">**</ept>, og smellið síðan á <bpt id="p2">**</bpt>Keyra sem kerfisstjóri<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="952">
-          <source>In the <bpt id="p1">**</bpt>Command prompt<ept id="p1">**</ept> window, type <bpt id="p2">**</bpt>iisreset /Restart<ept id="p2">**</ept> and then press Enter.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í glugganum <bpt id="p1">**</bpt>skipunarkvaðning<ept id="p1">**</ept>, sláið inn <bpt id="p2">**</bpt>iisreset/Restart<ept id="p2">**</ept> og styðjið á færslulykilinn.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="953">
-          <source>After IIS has restarted, restart Modern POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Endurræsa Modern POS eftir IIS hefur verið endurræst.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="954">
-          <source>While you're making frequent changes to peripheral devices, if you also frequently start and exit the POS client, the dllhost process from a previous POS session can interfere with the current session.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Þegar tíðar breytingar eru gerðar á jaðartæki, ef POS-biðlari er einnig ræstur og lokað oft, getur ferlið dllhost úr fyrri setu POS skarast við núgildandi lotu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="955">
-          <source>In this case, a device might not be usable until you close the dynamic-link library (DLL) host that is managing the previous session.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í þessu tilfelli tæki hugsanlega ekki hægt að nota fyrr en þú lokar hýsli safn kvik tengil (DLL) sem stjórnar fyrri setu.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="956">
-          <source>To close the DLL host, follow these steps:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Til að loka DLL host, skal fylgja þessum skrefum:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="957">
-          <source>From the <bpt id="p1">**</bpt>Start<ept id="p1">**</ept> menu, type <bpt id="p2">**</bpt>Task manager<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Úr valmyndinni <bpt id="p1">**</bpt>Ræsa<ept id="p1">**</ept> skal rita <bpt id="p2">**</bpt>Verkstjórnandi<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="958">
-          <source>In the search results, click <bpt id="p1">**</bpt>Task manager<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í leitarniðurstöðum, smellið á <bpt id="p1">**</bpt>stjórnanda Verks<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="959">
-          <source>In Task manager, on the <bpt id="p1">**</bpt>Details<ept id="p1">**</ept> tab, click the column header that is labeled <bpt id="p2">**</bpt>Name<ept id="p2">**</ept> to sort the table alphabetically by name.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Í stjórnanda Verks, á við <bpt id="p1">**</bpt>Upplýsingar<ept id="p1">**</ept> flipanum, smellið á haus dálksins sem merktur er <bpt id="p2">**</bpt>Heiti<ept id="p2">**</ept> til að raða í töflu í stafrófsröð eftir heiti.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="960">
-          <source>Scroll down until you find dllhost.exe.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Flettu niður þar til þú finnur dllhost.exe.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="961">
-          <source>Select each DLL host, and then click <bpt id="p1">**</bpt>End task<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Veljið hvern DLL-hýsil og smellið síðan á <bpt id="p1">**</bpt>Ljúka verki<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="962">
-          <source>After the DLL hosts have been closed, restart Modern POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Endurræsa Modern POS eftir hýsir DLL hefur verið lokað.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="963">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Frekari upplýsingar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="964">
-          <source><bpt id="p1">[</bpt>Retail peripheral simulator<ept id="p1">](dev-itpro/retail-peripheral-simulator.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Smásölujaðarbúnaðarhermir<ept id="p1">](dev-itpro/retail-peripheral-simulator.md)</ept></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Retail-jaðarbúnaður
+description: Í þessu efnisatriði eru útskýrð hugtök sem tengjast jaðartæki smásölu.
+author: rubencdelgado
+manager: AnnBe
+ms.date: 01/16/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
+audience: Application User, IT Pro
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: 268444
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: rubendel
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: a9fa49d0b3553ae70547aeea19d14bc6e6e08983
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577930"
+---
+# <a name="retail-peripherals"></a><span data-ttu-id="60de9-103">Retail-jaðarbúnaður</span><span class="sxs-lookup"><span data-stu-id="60de9-103">Retail peripherals</span></span>
+
+[!include [banner](includes/banner.md)]
+
+<span data-ttu-id="60de9-104">Í þessu efnisatriði eru útskýrð hugtök sem tengjast jaðartæki smásölu.</span><span class="sxs-lookup"><span data-stu-id="60de9-104">This topic explains the concepts that are related to retail peripherals.</span></span> <span data-ttu-id="60de9-105">Það lýsir mismunandi máta sem hægt er að tengja jaðartæki við sölustað (POS) og íhlutunum sem bera ábygð á stjórnun tengingar með POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-105">It describes the various ways that peripherals can be connected to the point of sale (POS) and the components that are responsible for managing the connection with the POS.</span></span>
+
+## <a name="concepts"></a><span data-ttu-id="60de9-106">Hugtök</span><span class="sxs-lookup"><span data-stu-id="60de9-106">Concepts</span></span>
+
+### <a name="pos-registers"></a><span data-ttu-id="60de9-107">Afgreiðslukassar</span><span class="sxs-lookup"><span data-stu-id="60de9-107">POS registers</span></span>
+
+<span data-ttu-id="60de9-108">Fletting: Smella á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning POS** &gt; **Afgreiðslukassar**.</span><span class="sxs-lookup"><span data-stu-id="60de9-108">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="60de9-109">Punktur afgreiðslukassa á sölustað er eining sem er notuð til að skilgreina eiginleika sértækts tilviks í POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-109">The point of sale (POS) register is an entity that is used to define the characteristics of a specific instance of the POS.</span></span> <span data-ttu-id="60de9-110">Þessir eiginleikar taka til vélbúnaðarsniðs eða uppsetningar fyrir jaðarbúnað í smásölu sem verður notað hjá afgreiðslukassanum, verslunina sem afgreiðslukassinn er varpaður á og sjónræna upplifun fyrir notandann sem skráir sig inn í þann kassa.</span><span class="sxs-lookup"><span data-stu-id="60de9-110">These characteristics include the hardware profile or setup for retail peripherals that will be used at the register, the store that the register is mapped to, and the visual experience for the user who signs in to that register.</span></span>
+
+### <a name="devices"></a><span data-ttu-id="60de9-111">Tæki</span><span class="sxs-lookup"><span data-stu-id="60de9-111">Devices</span></span>
+
+<span data-ttu-id="60de9-112">Fletting: Smella á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning POS** &gt; **Tæki**.</span><span class="sxs-lookup"><span data-stu-id="60de9-112">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Devices**.</span></span> <span data-ttu-id="60de9-113">Tæki er eining sem stendur fyrir efnislegt tilvik tækis sem er varpað í afgreiðslukassa.</span><span class="sxs-lookup"><span data-stu-id="60de9-113">A device is an entity that represents a physical instance of a device that is mapped to a POS register.</span></span> <span data-ttu-id="60de9-114">Þegar tæki er stofnað, er það varpað á afgreiðslukassa.</span><span class="sxs-lookup"><span data-stu-id="60de9-114">When a device is created, it's mapped to a POS register.</span></span> <span data-ttu-id="60de9-115">Tækjaeiningin rekur upplýsingar um þegar afgreiðslukassi er virkjaður, gerð biðlara sem verið er að nota og forritapakka sem hefur verið virkjað á tiltekna tæki.</span><span class="sxs-lookup"><span data-stu-id="60de9-115">The device entity tracks information about when a POS register is activated, the type of client that is being used, and the application package that has been deployed to a specific device.</span></span> <span data-ttu-id="60de9-116">Tækjum er hægt að varpa í eftirfarandi forrit: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android og Retail Modern POS – iOS.</span><span class="sxs-lookup"><span data-stu-id="60de9-116">Devices can be mapped to the following application types: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android, and Retail Modern POS – iOS.</span></span>
+
+### <a name="retail-modern-pos"></a><span data-ttu-id="60de9-117">Retail Modern POS</span><span class="sxs-lookup"><span data-stu-id="60de9-117">Retail Modern POS</span></span>
+
+<span data-ttu-id="60de9-118">Modern POS er POS-forritið fyrir Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="60de9-118">Modern POS is the POS program for Microsoft Windows.</span></span> <span data-ttu-id="60de9-119">Hægt er að nota það á stýrikerfi Windows 10 (OSs).</span><span class="sxs-lookup"><span data-stu-id="60de9-119">It can be deployed on Windows 10 operating systems (OSs).</span></span>
+
+### <a name="cloud-pos"></a><span data-ttu-id="60de9-120">Sölustaður í skýi</span><span class="sxs-lookup"><span data-stu-id="60de9-120">Cloud POS</span></span>
+
+<span data-ttu-id="60de9-121">Cloud POS er vafrabyggð útgáfa á Modern POS-forritinu sem hægt er að opna í vafra.</span><span class="sxs-lookup"><span data-stu-id="60de9-121">Cloud POS is a browser-based version of the Modern POS program that can be accessed in a web browser.</span></span>
+
+### <a name="modern-pos-for-ios"></a><span data-ttu-id="60de9-122">Modern POS fyrir iOS</span><span class="sxs-lookup"><span data-stu-id="60de9-122">Modern POS for iOS</span></span>
+
+<span data-ttu-id="60de9-123">Modern POS fyrir iOS er iOS-byggð útgáfa á Modern POS-forritinu sem hægt er að virkja á iOS-tækjum.</span><span class="sxs-lookup"><span data-stu-id="60de9-123">Modern POS for iOS is an iOS-based version of the Modern POS program that can be deployed on iOS devices.</span></span>
+
+### <a name="modern-pos-for-android"></a><span data-ttu-id="60de9-124">Modern POS fyrir Android</span><span class="sxs-lookup"><span data-stu-id="60de9-124">Modern POS for Android</span></span>
+
+<span data-ttu-id="60de9-125">Modern POS fyrir Android er Android-byggð útgáfa á Modern POS-forritinu sem hægt er að virkja á Android-tækjum.</span><span class="sxs-lookup"><span data-stu-id="60de9-125">Modern POS for Android is an Android-based version of the Modern POS program that can be deployed on Android devices.</span></span>
+
+### <a name="pos-peripherals"></a><span data-ttu-id="60de9-126">POS-jaðarbúnaður</span><span class="sxs-lookup"><span data-stu-id="60de9-126">POS peripherals</span></span>
+
+<span data-ttu-id="60de9-127">POS-jaðartæki eru tæki sem sérstaklega eru studd fyrir aðgerðir POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-127">POS peripherals are devices that are explicitly supported for POS functions.</span></span> <span data-ttu-id="60de9-128">Þessum jaðartækjum er yfirleitt skipt niður í tiltekna klasa.</span><span class="sxs-lookup"><span data-stu-id="60de9-128">These peripherals are typically divided into specific classes.</span></span> <span data-ttu-id="60de9-129">Nánari upplýsingar um þessa klasa má finna í hlutanum „Tækjaklasar" í þessu efnisatriði.</span><span class="sxs-lookup"><span data-stu-id="60de9-129">For more information about these classes, see the "Device classes" section of this topic.</span></span>
+
+### <a name="hardware-station"></a><span data-ttu-id="60de9-130">Hardware Station</span><span class="sxs-lookup"><span data-stu-id="60de9-130">Hardware station</span></span>
+
+<span data-ttu-id="60de9-131">Fletting: Smellt er á **Smásölu** &gt; **miðlunarleiðir** &gt; **smásöluverslanir** &gt; **Allar smásöluverslanir**.</span><span class="sxs-lookup"><span data-stu-id="60de9-131">Navigation: Click **Retail** &gt; **Channels** &gt; **Retail stores** &gt; **All retail stores**.</span></span> <span data-ttu-id="60de9-132">Veljið verslun og smellið svo á flipann **vélbúnaðarstöðvar**.</span><span class="sxs-lookup"><span data-stu-id="60de9-132">Select a store, and then click the **Hardware stations** FastTab.</span></span> <span data-ttu-id="60de9-133">Stillingin **Vélbúnaðarstöð** er stilling á rásarstigi sem er notuð til að skilgreina tilvik þar sem rök jaðarbúnaðar smásölu verða notuð.</span><span class="sxs-lookup"><span data-stu-id="60de9-133">The **Hardware station** setting is a channel-level setting that is used to define instances where the retail peripheral logic will be deployed.</span></span> <span data-ttu-id="60de9-134">Þessi stilling á stigi rásar er notuð til að ákvarða eiginleika vélbúnaðarstöðvar smásölu.</span><span class="sxs-lookup"><span data-stu-id="60de9-134">This setting at the channel level is used to determine characteristics of the hardware station.</span></span> <span data-ttu-id="60de9-135">Hún er einnig notuð til að lista vélbúnaðarstöðvar sem eru í boði fyrir tilvik Modern POS í tiltekinni verslun.</span><span class="sxs-lookup"><span data-stu-id="60de9-135">It's also used to list hardware stations that are available for a Modern POS instance in a given store.</span></span> <span data-ttu-id="60de9-136">Vélbúnaðarstöð smásölu er innbyggð í forritið Modern POS fyrir Windows.</span><span class="sxs-lookup"><span data-stu-id="60de9-136">The hardware station is built into the Modern POS program for Windows.</span></span> <span data-ttu-id="60de9-137">Einnig er hægt að nota vélbúnaðarstöð óháð sem sjálfstætt forrit Microsoft Internet Information Services (IIS).</span><span class="sxs-lookup"><span data-stu-id="60de9-137">The hardware station can also be deployed independently as a stand-alone Microsoft Internet Information Services (IIS) program.</span></span> <span data-ttu-id="60de9-138">Í því tilfelli er hægt að nálgast það gegnum net.</span><span class="sxs-lookup"><span data-stu-id="60de9-138">In this case, it can be accessed via a network.</span></span>
+
+### <a name="hardware-profile"></a><span data-ttu-id="60de9-139">Vélbúnaðarregla</span><span class="sxs-lookup"><span data-stu-id="60de9-139">Hardware profile</span></span>
+
+<span data-ttu-id="60de9-140">Fletting: Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstillingar sölustaðar** &gt; **Vélbúnaðarreglur**.</span><span class="sxs-lookup"><span data-stu-id="60de9-140">Navigation: Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="60de9-141">Vélbúnaðarregla er listi yfir tæki sem eru grunnstillt fyrir afgreiðslukassa eða vélbúnaðarstöð.</span><span class="sxs-lookup"><span data-stu-id="60de9-141">The hardware profile is a list of devices that are configured for a POS register or a hardware station.</span></span> <span data-ttu-id="60de9-142">Vélbúnaðarreglum er úthlutað beint á afgreiðslukassa eða vélbúnaðarstöð.</span><span class="sxs-lookup"><span data-stu-id="60de9-142">The hardware profile can be mapped directly to a POS register or a hardware station.</span></span>
+
+## <a name="devices-classes"></a><span data-ttu-id="60de9-143">Tækjaklasar</span><span class="sxs-lookup"><span data-stu-id="60de9-143">Devices classes</span></span>
+<span data-ttu-id="60de9-144">POS-jaðarbúnaði er yfirleitt skipt niður í klasa.</span><span class="sxs-lookup"><span data-stu-id="60de9-144">POS peripherals are typically divided into classes.</span></span> <span data-ttu-id="60de9-145">Þessi hluti lýsir og gefur yfirlit yfir tæki sem Modern POS styður.</span><span class="sxs-lookup"><span data-stu-id="60de9-145">This section describes and gives an overview of the devices that Modern POS supports.</span></span>
+
+### <a name="printer"></a><span data-ttu-id="60de9-146">Prentari</span><span class="sxs-lookup"><span data-stu-id="60de9-146">Printer</span></span>
+
+<span data-ttu-id="60de9-147">Prentarar eru meðal annars venjulegur kvittanaprentari POS og heilsíðuprentarar.</span><span class="sxs-lookup"><span data-stu-id="60de9-147">Printers include traditional POS receipt printers and full-page printers.</span></span> <span data-ttu-id="60de9-148">Prentarar eru studdir í gegnum hlutatengingu og ívaf (OLE) fyrir drifviðmót Retail POS (OPOS) og Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="60de9-148">Printer are supported through Object Linking and Embedding for Retail POS (OPOS) and Microsoft Windows driver interfaces.</span></span> <span data-ttu-id="60de9-149">Allt að tvo prentara má nota á sama tíma.</span><span class="sxs-lookup"><span data-stu-id="60de9-149">Up to two printers can be used at the same time.</span></span> <span data-ttu-id="60de9-150">Þessi eiginleiki styður aðstæður þar sem kvittanir viðskiptavina með reiðufé eru prentaðar á kvittanaprentara, en pantanir viðskiptavina sem bera nánari upplýsingar, eru prentaðar á heilsíðuprentara.</span><span class="sxs-lookup"><span data-stu-id="60de9-150">This capability supports scenarios where cash-and-carry customer receipts are printed on receipt printers, whereas customer orders, which carry more information, are printed on a full-page printer.</span></span> <span data-ttu-id="60de9-151">Kvittanaprentara er hægt að tengja beint við tölvu gegnum USB, tengja neti við Ethernet eða tengja við Bluetooth.</span><span class="sxs-lookup"><span data-stu-id="60de9-151">Receipt printers can be connected directly to a computer via USB, connected to a network via Ethernet, or connected via Bluetooth.</span></span>
+
+### <a name="scanner"></a><span data-ttu-id="60de9-152">Skanni</span><span class="sxs-lookup"><span data-stu-id="60de9-152">Scanner</span></span>
+
+<span data-ttu-id="60de9-153">Allt að tvo prentara má nota á sama tíma.</span><span class="sxs-lookup"><span data-stu-id="60de9-153">Up to two bar code scanners can be used at the same time.</span></span> <span data-ttu-id="60de9-154">Þessi eiginleiki styður aðstæður þar sem skanni sem er meira farsími er nauðsynlegur til að skanna stórar eða þungar vörur, en fastur ívafinn skanni er notaður fyrir flestar vörur í staðlaðri stærð, til að flýta greiðsluferli.</span><span class="sxs-lookup"><span data-stu-id="60de9-154">This capability supports scenarios where a scanner that is more mobile is required in order to scan large or heavy items, whereas a fixed embedded scanner is used for most standard-sized items, to speed up checkout times.</span></span> <span data-ttu-id="60de9-155">Skannar geta verið studdir í OPOS, Universal Windows Platform (UWP) eða viðmótum lyklaborð kortalesara.</span><span class="sxs-lookup"><span data-stu-id="60de9-155">Scanners can be supported through OPOS, Universal Windows Platform (UWP), or keyboard wedge interfaces.</span></span> <span data-ttu-id="60de9-156">Hægt er að nota USB eða Bluetooth til að tengja skanna við tölvu.</span><span class="sxs-lookup"><span data-stu-id="60de9-156">USB or Bluetooth can be used to connect a scanner to a computer.</span></span>
+
+### <a name="msr"></a><span data-ttu-id="60de9-157">Kortalesari</span><span class="sxs-lookup"><span data-stu-id="60de9-157">MSR</span></span>
+
+<span data-ttu-id="60de9-158">Hægt er að setja upp einn USB kortalesara (MSR) með því að nota OPOS-rekla.</span><span class="sxs-lookup"><span data-stu-id="60de9-158">One USB magnetic stripe reader (MSR) can be set up by using OPOS drivers.</span></span> <span data-ttu-id="60de9-159">Ef óskað er að nota sjálfstæðan kortalesara fyrir kortamillifærslur (EFT) á greiðslufærslum verður Kortalesara að vera stjórnað af tengilínu greiðslunnar.</span><span class="sxs-lookup"><span data-stu-id="60de9-159">If you want to use a stand-alone MSR for electronic funds transfer (EFT) payment transactions, the MSR must be managed by a payment connector.</span></span> <span data-ttu-id="60de9-160">Hægt er að nota sjálfstæða kortalesara fyrir vildarkortsfærslu viðskiptavinar, innskráningu starfsmanns og gjafakortsfærslu, óháð tengilínu greiðslunnar.</span><span class="sxs-lookup"><span data-stu-id="60de9-160">Stand-alone MSRs can be used for customer loyalty entry, employee sign-in, and gift card entry, independently of the payment connector.</span></span>
+
+### <a name="cash-drawer"></a><span data-ttu-id="60de9-161">Peningaskúffa</span><span class="sxs-lookup"><span data-stu-id="60de9-161">Cash drawer</span></span>
+
+<span data-ttu-id="60de9-162">Tvær peningaskúffur geta verið studdar á vélbúnaðarreglu.</span><span class="sxs-lookup"><span data-stu-id="60de9-162">Two cash drawers can be supported per hardware profile.</span></span> <span data-ttu-id="60de9-163">Þessi eiginleiki gerir tvær virkar vaktir virkar á hvern afgreiðslukassa til að vera tiltækar í einu.</span><span class="sxs-lookup"><span data-stu-id="60de9-163">This capability enables two active shifts per register to be available at the same time.</span></span> <span data-ttu-id="60de9-164">Ef samnýtt vakt eða peningaskúffa sem er notað af mörgum POS fartæki á sama tíma er aðeins ein peningaskúffu er leyft á hverja vélbúnaðarreglu.</span><span class="sxs-lookup"><span data-stu-id="60de9-164">In the case of a shared shift, or a cash drawer that is used by multiple mobile POS devices at the same time, only one cash drawer is allowed per hardware profile.</span></span> <span data-ttu-id="60de9-165">Peningaskúffur er hægt að tengja beint við tölvu gegnum USB, tengja við net eða tengja við kvittanaprentara með RJ12-viðmóti.</span><span class="sxs-lookup"><span data-stu-id="60de9-165">Cash drawers can be connected directly to a computer via USB, connected to a network, or connected to a receipt printer via an RJ12 interface.</span></span> <span data-ttu-id="60de9-166">Í sumum tilvikum, geta peningaskúffur einnig að vera tengdur gegnum Bluetooth.</span><span class="sxs-lookup"><span data-stu-id="60de9-166">In some cases, cash drawers can also be connected via Bluetooth.</span></span>
+
+### <a name="line-display"></a><span data-ttu-id="60de9-167">Línuskjár</span><span class="sxs-lookup"><span data-stu-id="60de9-167">Line display</span></span>
+
+<span data-ttu-id="60de9-168">Línubirtingar eru notaðar til að sýna afurðir, færslustöður og aðrar gagnlegar upplýsingar til viðskiptavinar við færslu.</span><span class="sxs-lookup"><span data-stu-id="60de9-168">Line displays are used to show products, transaction balances, and other useful information to the customer during a transaction.</span></span> <span data-ttu-id="60de9-169">Ein línubirting getur verið tengd við tölvu gegnum USB með því að nota OPOS-rekla.</span><span class="sxs-lookup"><span data-stu-id="60de9-169">One line display can be connected to the computer via USB by using OPOS drivers.</span></span>
+
+### <a name="signature-capture"></a><span data-ttu-id="60de9-170">Sækja undirskrift</span><span class="sxs-lookup"><span data-stu-id="60de9-170">Signature capture</span></span>
+
+<span data-ttu-id="60de9-171">Undirskriftatæki eru tengd beint tölvunni gegnum USB með því að nota OPOS-rekla.</span><span class="sxs-lookup"><span data-stu-id="60de9-171">Signature capture devices can be connected directly to a computer via USB by using OPOS drivers.</span></span> <span data-ttu-id="60de9-172">Þegar sækja undirskrift er skilgreind er viðskiptavinur beðinn um að undirrita á tækinu.</span><span class="sxs-lookup"><span data-stu-id="60de9-172">When signature capture is configured, the customer is prompted to sign on the device.</span></span> <span data-ttu-id="60de9-173">Eftir að undirskrift er veitt, er hún sýnd gjaldkera til að samþykkja.</span><span class="sxs-lookup"><span data-stu-id="60de9-173">After the signature is provided, it's shown to the cashier for acceptance.</span></span>
+
+### <a name="scale"></a><span data-ttu-id="60de9-174">Vigt</span><span class="sxs-lookup"><span data-stu-id="60de9-174">Scale</span></span>
+
+<span data-ttu-id="60de9-175">Vigt má tengja við tölvu gegnum USP með því að nota OPOS-rekla.</span><span class="sxs-lookup"><span data-stu-id="60de9-175">Scales can be connected to the computer via USP by using OPOS drivers.</span></span> <span data-ttu-id="60de9-176">Þegar afurð sem er merkt sem „Vigtuð" afurð hefur verið bætt við færslu, les POS þyngdina af vigtinni, bætir afurðinni við færsluna og notar magnið sem vigtin gaf upp.</span><span class="sxs-lookup"><span data-stu-id="60de9-176">When a product that is marked as a "Weighed" product is added to a transaction, the POS reads the weight from the scale, adds the product to the transaction, and uses the quantity that the scale provided.</span></span>
+
+### <a name="pin-pad"></a><span data-ttu-id="60de9-177">PIN-takkaborð</span><span class="sxs-lookup"><span data-stu-id="60de9-177">PIN pad</span></span>
+
+<span data-ttu-id="60de9-178">Takkaborð fyrir persónuleg auðkennisnúmer (PIN) eru studd með OPOS, en það verður að stjórna þeim í gegnum greiðslutengi.</span><span class="sxs-lookup"><span data-stu-id="60de9-178">Personal identification number (PIN) pads are supported through OPOS, but they must be managed via a payment connector.</span></span>
+
+### <a name="secondary-display"></a><span data-ttu-id="60de9-179">Aukabirting</span><span class="sxs-lookup"><span data-stu-id="60de9-179">Secondary display</span></span>
+
+<span data-ttu-id="60de9-180">Þegar aukabirting er skilgreind, Windows birtingu númer 2 er notuð til að sýna grunnupplýsingar.</span><span class="sxs-lookup"><span data-stu-id="60de9-180">When a secondary display is configured, the number 2 Windows display is used to show basic information.</span></span> <span data-ttu-id="60de9-181">Tilgangur aukabirtingar er að styðja viðbót óháðs hugbúnaðarlánardrottins (ISV), þar sem utan reitsins er aukabirtingin ekki skilgreinanleg og sýnir takmarkað efni.</span><span class="sxs-lookup"><span data-stu-id="60de9-181">The purpose of the secondary display is to support independent software vendor (ISV) extension, because out of the box, the secondary display isn't configurable and shows limited content.</span></span>
+
+### <a name="payment-device"></a><span data-ttu-id="60de9-182">Greiðslutæki</span><span class="sxs-lookup"><span data-stu-id="60de9-182">Payment device</span></span>
+
+<span data-ttu-id="60de9-183">Stuðningur við greiðslutæki er innleiddur gegnum greiðslutengi.</span><span class="sxs-lookup"><span data-stu-id="60de9-183">Payment device support is implemented through the payment connector.</span></span> <span data-ttu-id="60de9-184">Greiðslutæki geta framkvæmt eina eða margar aðgerðir sem aðrir tækjaklasar veita.</span><span class="sxs-lookup"><span data-stu-id="60de9-184">Payment devices can perform one or many of the functions that other device classes provide.</span></span> <span data-ttu-id="60de9-185">Til dæmis, getur greiðslutæki virkað sem MSR/kortalesari, línuskjár, sækja undirskrift eða PIN-takkaborð.</span><span class="sxs-lookup"><span data-stu-id="60de9-185">For example, a payment device can function as an MSR/card reader, line display, signature capture device, or PIN pad.</span></span> <span data-ttu-id="60de9-186">Stuðningu við greiðslutæki er innleiddur óháð stuðningi sjálfstæðra tæka sem lögð er til fyrir önnur tæki sem eru innifaldar í vélbúnaðarreglu.</span><span class="sxs-lookup"><span data-stu-id="60de9-186">Support for payment devices is implemented independently of the stand-alone device support that is provided for other devices that are included in the hardware profile.</span></span>
+
+## <a name="supported-interfaces"></a><span data-ttu-id="60de9-187">Studd viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-187">Supported interfaces</span></span>
+
+### <a name="opos"></a><span data-ttu-id="60de9-188">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-188">OPOS</span></span>
+
+<span data-ttu-id="60de9-189">Til að aðstoða við að tryggja að hægt sé að nota stærsta svið tækja með Microsoft Dynamics 365 for Retail, er OLE fyrir POS atvinnustaðallinn aðalsmásölukerfi jaðarbúnaðar sem er studdur í Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="60de9-189">To help guarantee that the largest range of devices can be used with Microsoft Dynamics 365 for Retail, the OLE for POS industry standard is the primary retail peripheral device platform that is supported in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="60de9-190">OLE fyrir POS staðallinn var framleiddur af National Retail Federation (NRF), sem kemur á samskiptareglum víddarsamsetningar atvinnugrein staðlaða samskiptum fyrir jaðartæki smásölu.</span><span class="sxs-lookup"><span data-stu-id="60de9-190">The OLE for POS standard was produced by the National Retail Federation (NRF), which establishes industry-standard communication protocols for retail peripheral devices.</span></span> <span data-ttu-id="60de9-191">OPOS er víðnotuð innleiðing á OLE fyrir POS-staðlinum.</span><span class="sxs-lookup"><span data-stu-id="60de9-191">OPOS is a widely adopted implementation of the OLE for POS standard.</span></span> <span data-ttu-id="60de9-192">Hann var þróaður í um miðjan tíunda áratuginn og hefur verið uppfærður nokkrum sinnum síðan.</span><span class="sxs-lookup"><span data-stu-id="60de9-192">It was developed in the mid-1990s and has been updated several times since then.</span></span> <span data-ttu-id="60de9-193">OPOS veitir uppbyggingu tækjaekils sem auðveldar samþættingu POS-vélbúnaðarregla við Windows-byggð POS-kerfi.</span><span class="sxs-lookup"><span data-stu-id="60de9-193">OPOS provides a device driver architecture that enables easy integration of POS hardware with Windows–based POS systems.</span></span> <span data-ttu-id="60de9-194">OPOS-stýringar annast samskiptum milli samhæfanlegs vélbúnaðar og hugbúnaður POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-194">OPOS controls handle communication between compatible hardware and the POS software.</span></span> <span data-ttu-id="60de9-195">OPOS-stýring samanstendur af tveimur hlutum:</span><span class="sxs-lookup"><span data-stu-id="60de9-195">An OPOS control consists of two parts:</span></span>
+
+- <span data-ttu-id="60de9-196">**Stýringarhlutur** – Stýringarhlutur fyrir tækjaklasa (t.d. línubirting) veitir viðmót fyrir hugbúnaðarforritið.</span><span class="sxs-lookup"><span data-stu-id="60de9-196">**Control object** – The control object for a device class (such as line displays) provides the interface for the software program.</span></span> <span data-ttu-id="60de9-197">Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) veitir staðlaðan listi eða samsafn af OPOS stýrihlutir sem eru þekkt sem almennir stýringarhlutir (CCOs).</span><span class="sxs-lookup"><span data-stu-id="60de9-197">Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) provides a standardized set of OPOS control objects that are known as the common control objects (CCOs).</span></span> <span data-ttu-id="60de9-198">CCOs eru notaðir til að prófa POS-íhluti Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="60de9-198">The CCOs are used to test the POS component of Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="60de9-199">Þess vegna hjálpar prófun til við að tryggja að ef Microsoft Dynamics 365 for Retail styður tækjaklasa gegnum OPOS, geta margar gerðir smásölutækja verið studdur að ví tilskildu að framleiðanda veitir þjónustuhlut sem er byggð á fyrir OPOS.</span><span class="sxs-lookup"><span data-stu-id="60de9-199">Therefore, the testing helps guarantee that, if Microsoft Dynamics 365 for Retail supports a device class through OPOS, many device types can be supported, provided that the manufacturer provides a service object that is built for OPOS.</span></span> <span data-ttu-id="60de9-200">Ekki þarf að prófa sérstaklega hverja gerð tækis.</span><span class="sxs-lookup"><span data-stu-id="60de9-200">You don't have to explicitly test each device type.</span></span>
+- <span data-ttu-id="60de9-201">**Þjónustuhlutur** – Þjónustuhlutur veitir samskipti milli Stýringar hlutur (CCO) og tæki.</span><span class="sxs-lookup"><span data-stu-id="60de9-201">**Service object** – The service object provides communication between the control object (CCO) and the device.</span></span> <span data-ttu-id="60de9-202">Yfirleitt er þjónustuhlutur fyrir tæki veittur af framleiðanda tækis.</span><span class="sxs-lookup"><span data-stu-id="60de9-202">Typically, the service object for a device is provided by the device manufacturer.</span></span> <span data-ttu-id="60de9-203">Hins vegar gæti í sumum tilfellum þurft að sækja þjónustuhlutinn frá vefsvæði framleiðanda.</span><span class="sxs-lookup"><span data-stu-id="60de9-203">However, in some cases, you might have to download the service object from the manufacturer's website.</span></span> <span data-ttu-id="60de9-204">Til dæmis gæti nýrri þjónustuhlutur verið tiltækur.</span><span class="sxs-lookup"><span data-stu-id="60de9-204">For example, a more recent service object might be available.</span></span> <span data-ttu-id="60de9-205">Til að finna aðsetur framleiðanda á vefsvæði skal sjá fylgigögn vélbúnaðarreglu.</span><span class="sxs-lookup"><span data-stu-id="60de9-205">To find the address of the manufacturer's website, see your hardware documentation.</span></span>
+
+<span data-ttu-id="60de9-206">[![Stýringarhlutur og þjónustuhlutur](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)</span><span class="sxs-lookup"><span data-stu-id="60de9-206">[![Control object and service object](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)</span></span>
+
+<span data-ttu-id="60de9-207">Stuðningur fyrir OPOS-innleiðingu á OLE fyrir POS hjálpar til við að tryggja að ef tækjaframleiðendur og útgefendur POS innleiða staðalinn rétt geta POS-kerfi og studd tæki unnið saman, jafnvel þótt þau hafi ekki verið áður prófuð saman.</span><span class="sxs-lookup"><span data-stu-id="60de9-207">Support for the OPOS implementation of OLE for POS helps guarantee that, if the device manufacturers and POS publishers implement the standard correctly, POS systems and supported devices can work together, even if they weren't previously tested together.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="60de9-208">OPOS-stuðningur tryggir ekki samræmdan stuðning fyrir öll tæki með OPOS-reklum.</span><span class="sxs-lookup"><span data-stu-id="60de9-208">OPOS support doesn't guarantee support for all devices that have OPOS drivers.</span></span> <span data-ttu-id="60de9-209">Microsoft Dynamics 365 for Retail verður fyrst að styðja þá tækjagerð eða klasa, gegnum OPOS.</span><span class="sxs-lookup"><span data-stu-id="60de9-209">Microsoft Dynamics 365 for Retail must first support that device type, or class, through OPOS.</span></span> <span data-ttu-id="60de9-210">Þar að auki eru þjónustuhlutir hugsanlega ekki alltaf uppfærðir með nýjustu útgáfu af CCOs.</span><span class="sxs-lookup"><span data-stu-id="60de9-210">In addition, service objects might not always be up to date with the latest version of the CCOs.</span></span> <span data-ttu-id="60de9-211">Það ætti einnig að hafa í huga að, almenna gæði þjónustuhluta eru breytileg.</span><span class="sxs-lookup"><span data-stu-id="60de9-211">You should also be aware that, in general, the quality of service objects varies.</span></span>
+
+### <a name="windows"></a><span data-ttu-id="60de9-212">Gluggar</span><span class="sxs-lookup"><span data-stu-id="60de9-212">Windows</span></span>
+
+<span data-ttu-id="60de9-213">Prentun á kvittun á POS er bestuð fyrir OPOS.</span><span class="sxs-lookup"><span data-stu-id="60de9-213">Receipt printing at the POS is optimized for OPOS.</span></span> <span data-ttu-id="60de9-214">OPOS hættir til að vera mikið hraðara en prentun gegnum Windows.</span><span class="sxs-lookup"><span data-stu-id="60de9-214">OPOS tends to be much faster than printing through Windows.</span></span> <span data-ttu-id="60de9-215">Því er gott að nota OPOS, sérstaklega í smásöluumhverfi þar sem 40-dálka kvittanir eru prentaðar og færslutími verður að vera hraður.</span><span class="sxs-lookup"><span data-stu-id="60de9-215">Therefore, it's a good idea to use OPOS, especially in retail environments where 40-column receipts are printed and transaction times must be fast.</span></span> <span data-ttu-id="60de9-216">Fyrir flest tæki eru OPOS-stýringar notaðar.</span><span class="sxs-lookup"><span data-stu-id="60de9-216">For most devices, you will use OPOS controls.</span></span> <span data-ttu-id="60de9-217">Hins vegar, styðja sumir OPOS-kvittanaprentarar einnig Windows-rekla.</span><span class="sxs-lookup"><span data-stu-id="60de9-217">However, some OPOS receipt printers also support Windows drivers.</span></span> <span data-ttu-id="60de9-218">Með því að nota Windows-rekill hægt er að nálgast síðasta letur og netlén einn prentari fyrir marga afgreiðslukassa.</span><span class="sxs-lookup"><span data-stu-id="60de9-218">By using a Windows driver, you can access the latest fonts and network one printer for multiple registers.</span></span> <span data-ttu-id="60de9-219">Hins vegar eru vankantar á því að nota Windows-rekla.</span><span class="sxs-lookup"><span data-stu-id="60de9-219">However, there are drawbacks to using Windows drivers.</span></span> <span data-ttu-id="60de9-220">Hér eru nokkur dæmi um þessa vankanta:</span><span class="sxs-lookup"><span data-stu-id="60de9-220">Here are some examples of these drawbacks:</span></span>
+
+- <span data-ttu-id="60de9-221">Þegar Windows-reklar eru notaðir, myndir eru samhæfðar áður en prentun hefst.</span><span class="sxs-lookup"><span data-stu-id="60de9-221">When Windows drivers are used, images are rendered before printing occurs.</span></span> <span data-ttu-id="60de9-222">Þess vegna hættir prentun til að vera hægari en hún er á prentara sem nota OPOS-stýringar.</span><span class="sxs-lookup"><span data-stu-id="60de9-222">Therefore, printing tends to be slower than it is on printers that use OPOS controls.</span></span>
+- <span data-ttu-id="60de9-223">Tæki sem eru tengd gegnum prentara ("daisy-chained") virka hugsanlega ekki rétt þegar Windows-reklar eru notaðir.</span><span class="sxs-lookup"><span data-stu-id="60de9-223">Devices that are connected through the printer ("daisy-chained") might not work correctly when Windows drivers are used.</span></span> <span data-ttu-id="60de9-224">Til dæmis opnast peningaskúffa hugsanlega ekki eða prentari fylgiseðils virkar hugsanlega ekki eins og búist er við.</span><span class="sxs-lookup"><span data-stu-id="60de9-224">For example, the cash drawer might not open, or the slip printer might not word as you expect.</span></span>
+- <span data-ttu-id="60de9-225">OPOS styður einnig yfirgripsmeiri safn af breytum sem tengjast kvittanaprentara smásölu, eins og prentun fylgiseðla eða klipping pappír.</span><span class="sxs-lookup"><span data-stu-id="60de9-225">OPOS also supports a more extensive set of variables that are specific to retail receipt printers, such as paper cutting or slip printing.</span></span>
+
+<span data-ttu-id="60de9-226">Ef OPOS-stýringar eru tiltækar fyrir Windows-prentara sem verið er að nota ætti prentara samt að virka rétt með Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="60de9-226">If OPOS controls are available for the Windows printer that you're using, the printer should still work correctly with Microsoft Dynamics 365 for Retail.</span></span>
+
+### <a name="universal-windows-platform"></a><span data-ttu-id="60de9-227">Universal Windows Platform</span><span class="sxs-lookup"><span data-stu-id="60de9-227">Universal Windows Platform</span></span>
+
+<span data-ttu-id="60de9-228">UWP, ef jaðartæki smásölu, tengist stuðningi Windows fyrir Plug and Play-tæki.</span><span class="sxs-lookup"><span data-stu-id="60de9-228">UWP, in the case of retail peripherals, is related to Windows support for Plug and Play devices.</span></span> <span data-ttu-id="60de9-229">Þegar Plug and Play-tækið er tengt við útgáfu Windows OS sem styður sem þá gerð tækis, þarf engann rekil áskilið fyrir tækið svo að það virki eins og skyldi.</span><span class="sxs-lookup"><span data-stu-id="60de9-229">When a Plug and Play device is connected to a Windows OS version that supports that type of device, no driver is required for the device to be used as intended.</span></span> <span data-ttu-id="60de9-230">Til dæmis, ef Windows greinir Bluetooth-hátalaratæki, veit OS að tækið er að klasagerðinni **Hátalari**.</span><span class="sxs-lookup"><span data-stu-id="60de9-230">For example, if Windows detects a Bluetooth speaker device, the OS knows that the device has the **Speaker** class type.</span></span> <span data-ttu-id="60de9-231">Þess vegna fer það með tækið sem hátalara.</span><span class="sxs-lookup"><span data-stu-id="60de9-231">Therefore, and it treats that device as a speaker.</span></span> <span data-ttu-id="60de9-232">Engrar frekari uppsetningar er krafist.</span><span class="sxs-lookup"><span data-stu-id="60de9-232">No additional setup is required.</span></span> <span data-ttu-id="60de9-233">Í tilfelli POS-tækja geta mörg USB-tæki verið tengd og Windows mun þekkja þau sem Human Interface Devices (HIDs).</span><span class="sxs-lookup"><span data-stu-id="60de9-233">In the case of POS devices, many USB devices can be plugged in, and Windows will recognize them as Human Interface Devices (HIDs).</span></span> <span data-ttu-id="60de9-234">Hins vegar er hugsanlega ekki hægt að ákvarða getu sem tækið veitir, þar sem tækið skilgreinir ekki klasa eða gerð tækis.</span><span class="sxs-lookup"><span data-stu-id="60de9-234">However, it might not be able to determine the capabilities that the device provides, because the device doesn't specify the class, or type, of device.</span></span> <span data-ttu-id="60de9-235">Í Windows 10 hefur tækjaklösum fyrir strikamerkjaskanna og kortalesara verið bætt við.</span><span class="sxs-lookup"><span data-stu-id="60de9-235">In Windows 10, device classes for bar code scanners and MSRs have been added.</span></span> <span data-ttu-id="60de9-236">Þess vegna ef tæki sýnir sig í Windows 10 sem tæki eins af þessum klösum mun Windows hlusta eftir tilvikum úr tækinu á viðeigandi tímum.</span><span class="sxs-lookup"><span data-stu-id="60de9-236">Therefore, if a device declares itself to Windows 10 as a device of one of these classes, Windows will listen for events from the device at the appropriate times.</span></span> <span data-ttu-id="60de9-237">Modern POS styður UWP-kortalesara og skanna.</span><span class="sxs-lookup"><span data-stu-id="60de9-237">Modern POS supports UWP MSRs and scanners.</span></span> <span data-ttu-id="60de9-238">Þess vegna þegar hún er tilbúin fyrir inntak úr einu af þessum tækjum og tæki sem tilheyrir einum af þessum klösum er tengt, er hægt að nota tækið.</span><span class="sxs-lookup"><span data-stu-id="60de9-238">Therefore, when it's ready for input from one of these devices, and a device that belongs to one of these classes is connected, the device can be used.</span></span> <span data-ttu-id="60de9-239">Til dæmis, ef UWP-strikamerkjaskanni er tengdur í Windows 10 tölvu og strikamerkjainnskráning er skilgreind fyrir Modern POS verður strikamerkjaskanninn virkur á innskráningarskjánum.</span><span class="sxs-lookup"><span data-stu-id="60de9-239">For example, if a UWP bar code scanner is plugged into a Windows 10 computer, and bar code sign-in is configured for Modern POS, the bar code scanner will become active on the sign-in screen.</span></span> <span data-ttu-id="60de9-240">Engrar frekari uppsetningar er krafist.</span><span class="sxs-lookup"><span data-stu-id="60de9-240">No additional setup is required.</span></span> <span data-ttu-id="60de9-241">Viðbótarklasar UWP-tækja þjónustupunkts er bætt við Windows.</span><span class="sxs-lookup"><span data-stu-id="60de9-241">Additional classes of point of service UWP devices are being added to Windows.</span></span> <span data-ttu-id="60de9-242">Þessir klasar innifela klasa fyrir peningaskúffur og kvittanaprentara.</span><span class="sxs-lookup"><span data-stu-id="60de9-242">These classes include classes for cash drawers and receipt printers.</span></span> <span data-ttu-id="60de9-243">Stuðningur fyrir þessa nýja tækjaklasa í Modern POS er í bið.</span><span class="sxs-lookup"><span data-stu-id="60de9-243">Support for these new device classes in Modern POS is pending.</span></span>
+
+### <a name="keyboard-wedge"></a><span data-ttu-id="60de9-244">Lyklaborðstenging</span><span class="sxs-lookup"><span data-stu-id="60de9-244">Keyboard wedge</span></span>
+
+<span data-ttu-id="60de9-245">Lyklaborðstengingartæki senda gögn í tölvuna eins og þau gögn hafi verið slegin inn á lyklaborð.</span><span class="sxs-lookup"><span data-stu-id="60de9-245">Keyboard wedge devices send data to the computer as if that data were typed on a keyboard.</span></span> <span data-ttu-id="60de9-246">Þess vegna er sjálfgefið að svæði sem er virkt í POS móttekur gögn sem er skönnuð eða sem var lesið.</span><span class="sxs-lookup"><span data-stu-id="60de9-246">Therefore, by default, the field that is active at the POS will receive the data that is scanned or swiped.</span></span> <span data-ttu-id="60de9-247">Í sumum tilvikum getur þessi virkni valdið því að röng gagnagerð er skönnuð á rangt svæði.</span><span class="sxs-lookup"><span data-stu-id="60de9-247">In some cases, this behavior can cause the wrong type of data to be scanned into the wrong field.</span></span> <span data-ttu-id="60de9-248">Til dæmis gæti strikamerki verið skannað inn í svæði sem er ætlað fyrir innfærslu gagna kreditkorts.</span><span class="sxs-lookup"><span data-stu-id="60de9-248">For example, a bar code might be scanned into a field that is intended for input of credit card data.</span></span> <span data-ttu-id="60de9-249">Í mörgum tilvikum er rök í Pos sem ákvarðar hvort gögn sem er skönnuð eða sem var lesið er strikamerki eða greiðslukortalestur.</span><span class="sxs-lookup"><span data-stu-id="60de9-249">In many cases, there is logic at the POS that determines whether the data that is scanned or swiped is a bar code or card swipe.</span></span> <span data-ttu-id="60de9-250">Þess vegna eru gögnin meðhöndluð rétt.</span><span class="sxs-lookup"><span data-stu-id="60de9-250">Therefore, the data is handled correctly.</span></span> <span data-ttu-id="60de9-251">Hins vegar þegar tæki eru sett upp sem OPOS í stað lyklaborðstengingartækja, er meiri stjórn á því hvernig hægt er að nota gögn úr þessum tækjum, þar sem meira er „vitað" um tækið sem gögnin eiga uppruna sinn í.</span><span class="sxs-lookup"><span data-stu-id="60de9-251">However, when devices are set up as OPOS instead of keyboard wedge devices, there is more control over how the data from those devices can be consumed, because more is "known" about the device that the data originates from.</span></span> <span data-ttu-id="60de9-252">Til dæmis eru gögn úr strikamerkjaskanni sjálfkrafa viðurkennd sem strikamerki og tengd færsla í gagnagrunninum finnst betur og hraðar en ef almennan strengjaleit voru notuð, eins og tilfelli lyklaborðtengingartækja.</span><span class="sxs-lookup"><span data-stu-id="60de9-252">For example, data from a bar code scanner is automatically recognized as a bar code, and the associated record in the database is found more easily and faster than if a generic string search were used, as in the case of keyboard wedge devices.</span></span>
+
+### <a name="native-printer"></a><span data-ttu-id="60de9-253">Innbyggður prentari</span><span class="sxs-lookup"><span data-stu-id="60de9-253">Native printer</span></span>
+
+<span data-ttu-id="60de9-254">Innbryggðir (eða "Tækis" sem gerðin sem er nefnd í vélbúnaðarreglunni) prentara er hægt að skilgreina til að biðja notandann til að velja prentara sem er skilgreindur fyrir tölvuna.</span><span class="sxs-lookup"><span data-stu-id="60de9-254">Native (or "Device" as the type is named in the hardware profile) printers can be configured to prompt the user to select a printer that is configured for the computer.</span></span> <span data-ttu-id="60de9-255">Þegar prentari af gerðinni **Tækið** er grunnstilltur, ef Modern POS finnur prentskipun, er notandi beðinn um að velja prentara úr listanum.</span><span class="sxs-lookup"><span data-stu-id="60de9-255">When a printer of the **Device** type is configured, if Modern POS encounters a print command, the user is prompted to select a printer in a list.</span></span> <span data-ttu-id="60de9-256">Þessi hegðun er frábrugðið hegðun fyrir Windows-rekla, þar sem prentaragerð **Windows** í vélbúnaðarregluna sýnir ekki lista yfir prentara.</span><span class="sxs-lookup"><span data-stu-id="60de9-256">This behavior differs from the behavior for Windows drivers, because the **Windows** printer type in the hardware profile doesn't show a list of printers.</span></span> <span data-ttu-id="60de9-257">Þess í stað krefst hún þess að nefndur prentari sé veittur í svæðinu **tækjaheiti**.</span><span class="sxs-lookup"><span data-stu-id="60de9-257">Instead, it requires that a named printer be provided in the **Device name** field.</span></span>
+
+### <a name="windows"></a><span data-ttu-id="60de9-258">Gluggar</span><span class="sxs-lookup"><span data-stu-id="60de9-258">Windows</span></span>
+
+<span data-ttu-id="60de9-259">Tækjagerð **Windows** er aðeins notuð fyrir prentara.</span><span class="sxs-lookup"><span data-stu-id="60de9-259">The **Windows** device type is used for printers only.</span></span> <span data-ttu-id="60de9-260">Þegar Windows-prentara er skilgreind í vélbúnaðarreglu, verður að gefa upp tilgreint heiti prentara.</span><span class="sxs-lookup"><span data-stu-id="60de9-260">When a Windows printer is configured in the hardware profile, the specific printer name must be provided.</span></span> <span data-ttu-id="60de9-261">Þegar Modern POS finnur prenttilvik, ef Windows-prentari er skilgreint verður tilvikið sent áfram til tilgreinda Windows-prentarans.</span><span class="sxs-lookup"><span data-stu-id="60de9-261">When Modern POS encounters print events, if a Windows printer is configured, the event will be passed to the specified Windows printer.</span></span> <span data-ttu-id="60de9-262">Notandi verður ekki beðinn um að velja prentara.</span><span class="sxs-lookup"><span data-stu-id="60de9-262">The user won't be prompted to select a printer.</span></span>
+
+### <a name="network"></a><span data-ttu-id="60de9-263">Net</span><span class="sxs-lookup"><span data-stu-id="60de9-263">Network</span></span>
+
+<span data-ttu-id="60de9-264">Hægt er að nota netslóðartengdar peningaskúffur, kvittanaprentara og afgreiðslustöðvar á neti, annaðhvort beint í gegnum vélbúnaðarstöð Interprocess Communications (IPC) sem er innbyggð í forritið Modern POS fyrir Windows eða í gegnum vélbúnaðarstöðina IIS fyrir aðra biðlarar Modern POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-264">Network-addressable cash drawers, receipt printers, and payment terminals can be used over a network, either directly through the Interprocess Communications (IPC) hardware station that is built into the Modern POS for Windows application or through the IIS hardware station for other Modern POS clients.</span></span>
+
+## <a name="hardware-station-deployment-options"></a><span data-ttu-id="60de9-265">Notkunarvalkostir vélbúnaðarstöðvar</span><span class="sxs-lookup"><span data-stu-id="60de9-265">Hardware station deployment options</span></span>
+
+### <a name="ipc-built-in"></a><span data-ttu-id="60de9-266">IPC (innbyggt)</span><span class="sxs-lookup"><span data-stu-id="60de9-266">IPC (built-in)</span></span>
+
+<span data-ttu-id="60de9-267">Vélbúnaðarstöð smásölu Interprocess Communications (IPC) er innbyggð í Modern POS fyrir Windows.</span><span class="sxs-lookup"><span data-stu-id="60de9-267">The Interprocess Communications (IPC) hardware station is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="60de9-268">Til að nota vélbúnaðarstöð IPC skal úthluta vélbúnaðarreglu á afgreiðslukassa sem á að nota forritið Modern POS fyrir Windows.</span><span class="sxs-lookup"><span data-stu-id="60de9-268">To use the IPC hardware station, assign a hardware profile to a register that will use the Modern POS for Windows application.</span></span> <span data-ttu-id="60de9-269">Síðan er stofnuð vélbúnaðarstöð af gerðinni **Sérhæfð** fyrir verslunina sem afgreiðslukassinn verður notað.</span><span class="sxs-lookup"><span data-stu-id="60de9-269">Then create a hardware station of the **Dedicated** type for the store where the register will be used.</span></span> <span data-ttu-id="60de9-270">Þegar Modern POS er ræst verður IPC-vélbúnaðarstöðin virk og POS-jaðartæki sem hafa verið skilgreindar verða tilbúin til notkunar.</span><span class="sxs-lookup"><span data-stu-id="60de9-270">When you start Modern POS, the IPC hardware station will be active, and the POS peripherals that have been configured will be ready to use.</span></span> <span data-ttu-id="60de9-271">Ef þess er tímabundið ekki krafist staðbundna vélbúnaður af einhverri ástæðu, skal nota aðgerðina **Stjórna vélbúnaðarstöðvar** til að slökkva á getu vélbúnaðarstöðvar.</span><span class="sxs-lookup"><span data-stu-id="60de9-271">If you temporarily don't require the local hardware for some reason, use the **Manage hardware stations** operation to turn off the hardware station capabilities.</span></span> <span data-ttu-id="60de9-272">Einnig er hægt að nota Modern POS IPC vélbúnaðarstöð smásölu til að hafa samskipti beint við net jaðartækja.</span><span class="sxs-lookup"><span data-stu-id="60de9-272">Modern POS can also use the IPC hardware station to communicate directly with network peripherals.</span></span>
+
+### <a name="iis"></a><span data-ttu-id="60de9-273">IIS</span><span class="sxs-lookup"><span data-stu-id="60de9-273">IIS</span></span>
+
+<span data-ttu-id="60de9-274">Hægt er að nota IIS eða sjálfstæða útgáfu vélbúnaðarstöðvar á tvo vegu.</span><span class="sxs-lookup"><span data-stu-id="60de9-274">You can use the IIS or stand-alone version of the hardware station in two ways.</span></span> <span data-ttu-id="60de9-275">Lýsiorðið „IIS“ gefur til kynna að forritið POS tengist vélbúnaðarstöð smásölu með Microsoft Internet Information Services.</span><span class="sxs-lookup"><span data-stu-id="60de9-275">The descriptor "IIS" implies that the POS application connects to the hardware station via Microsoft Internet Information Services.</span></span> <span data-ttu-id="60de9-276">Forritið POS tengist IIS vélbúnaðarstöð smásölu með vefþjónustu sem keyra á tölvu þar sem tæki er tengt.</span><span class="sxs-lookup"><span data-stu-id="60de9-276">The POS application connects to the IIS hardware station via web services that run on a computer where the devices are connected.</span></span> <span data-ttu-id="60de9-277">Þegar IIS er notuð, er hægt að nota jaðartæki smásölu sem tengjast vélbúnaðarstöð eftir afgreiðslukassa sem er á sama neti og IIS vélbúnaðarstöð smásölu.</span><span class="sxs-lookup"><span data-stu-id="60de9-277">When IIS is used, the retail peripherals that are connected to a hardware station can be used by any POS register that is on the same network as the IIS hardware station.</span></span> <span data-ttu-id="60de9-278">Þar sem aðeins Modern POS fyrir Windows inniheldur innbyggðan stuðning fyrir jaðartæki smásölu, verða öll önnur forrit Modern POS að nota IIS vélbúnaðarstöð smásölu til samskipta við POS jaðartæki sem eru skilgreindar í vélbúnaðarreglu.</span><span class="sxs-lookup"><span data-stu-id="60de9-278">Because only Modern POS for Windows includes built-in support for retail peripherals, all other Modern POS applications must use the IIS hardware station to communicate with POS peripherals that are configured in the hardware profile.</span></span> <span data-ttu-id="60de9-279">Þess vegna krefst hvert tilvik IIS vélbúnaðarstöðvar smásölu tölvu sem keyrir vefþjónusta og forrits sem hefur samskipti við tæki.</span><span class="sxs-lookup"><span data-stu-id="60de9-279">Therefore, each instance of the IIS hardware station requires a computer that runs the web service and application that communicates with the devices.</span></span> <span data-ttu-id="60de9-280">Vélbúnaðarstöð IIS er áskilið fyrir öll forrit sem eru ekki Windows Modern POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-280">The IIS hardware station is required for all non-Windows Modern POS applications.</span></span>
+
+#### <a name="dedicated"></a><span data-ttu-id="60de9-281">Sérnýtt</span><span class="sxs-lookup"><span data-stu-id="60de9-281">Dedicated</span></span>
+
+<span data-ttu-id="60de9-282">Modern POS notar vélbúnaðarstöðvar a gerðinni **Sérhæft** til að ákvarða hvort jaðartæki tengjast beint við tölvunni þar sem forritið er notað.</span><span class="sxs-lookup"><span data-stu-id="60de9-282">Modern POS uses hardware stations of the **Dedicated** type to detect that peripherals are directly connected to the computer where the app is being used.</span></span> <span data-ttu-id="60de9-283">Hins vegar er einnig hægt að nota gerðina **Sérhæft** fyrir vélbúnaðarstöðvar IIS.</span><span class="sxs-lookup"><span data-stu-id="60de9-283">However, the **Dedicated** type can also be used for IIS hardware stations.</span></span> <span data-ttu-id="60de9-284">Í venjulegum, föstum POS-aðstæðum sem notar Cloud POS sem POS forritið er vébúnaðarstöðvargerðin **Sérhæft** notuð fyrir IIS vélbúnaðarstöðvar sem virkjuð eru á sömu tölvu sem keyrir Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-284">In a traditional, fixed POS scenario that uses Cloud POS as the POS application, the **Dedicated** hardware station type is used for IIS hardware stations that are deployed on the same computer that is running Cloud POS.</span></span> <span data-ttu-id="60de9-285">Frá sjónarhorni jaðartæki smásölu, hefur sérstakan vélbúnaðarstöð IIS betur smásölu jaðarbúnaði stuðning fyrir venjulegt, föst POS aðstæður.</span><span class="sxs-lookup"><span data-stu-id="60de9-285">From a retail peripherals perspective, the dedicated IIS hardware station has better retail peripheral support for traditional, fixed POS scenarios.</span></span> <span data-ttu-id="60de9-286">Sérnýtta vélbúnaðarstöðvar styðja öll jaðartæki sem eru studd í vélbúnaðarreglu.</span><span class="sxs-lookup"><span data-stu-id="60de9-286">Dedicated hardware stations support all peripherals that are supported in the hardware profile.</span></span>
+
+#### <a name="shared"></a><span data-ttu-id="60de9-287">Samnýtt</span><span class="sxs-lookup"><span data-stu-id="60de9-287">Shared</span></span>
+
+<span data-ttu-id="60de9-288">Samnýttar vélbúnaðarstöðvar eru ætlaðar til notkunar af mörgum POS-tækjum í gegnum daginn.</span><span class="sxs-lookup"><span data-stu-id="60de9-288">Shared hardware stations are intended to be used by multiple POS devices through the course of the day.</span></span> <span data-ttu-id="60de9-289">Samnýttar vélbúnaðstöðvar eru bestaðar til að styðja aðeins peningaskúffur, kvittanaprentara, og afgreiðslustöðvar.</span><span class="sxs-lookup"><span data-stu-id="60de9-289">Shared hardware stations are optimized to support only cash drawers, receipt printers, and payment terminals.</span></span> <span data-ttu-id="60de9-290">Ekki er hægt að tengja sjálfstæða strikamerkjaskanna, kortalesara, línubirtingar, vigtir eða önnur tæki á beinan hátt.</span><span class="sxs-lookup"><span data-stu-id="60de9-290">You can't directly connect stand-alone bar code scanners, MSRs, line displays, scales, or other devices.</span></span> <span data-ttu-id="60de9-291">Annars verða árekstrar þegar mörg POS-tæki reyna að gera kröfu til þessara jaðartækja á sama tíma.</span><span class="sxs-lookup"><span data-stu-id="60de9-291">Otherwise, conflicts will occur when multiple POS devices try to claim those peripherals at the same time.</span></span> <span data-ttu-id="60de9-292">Hér má sjá hvernig árekstrar eru meðhöndlaðar fyrir studd tæki:</span><span class="sxs-lookup"><span data-stu-id="60de9-292">Here is how conflicts are managed for supported devices:</span></span>
+
+- <span data-ttu-id="60de9-293">**Peningaskúffa** – Peningaskúffan er opnuð með tilviki sem er sent á tækið.</span><span class="sxs-lookup"><span data-stu-id="60de9-293">**Cash drawer** – The cash drawer is opened via an event that is sent to the device.</span></span> <span data-ttu-id="60de9-294">Einu vandamálin sem geta átt sér stað þegar kallað er á peningaskúffu gerist ef peningaskúffu er þegar opin.</span><span class="sxs-lookup"><span data-stu-id="60de9-294">The only issue that can occur when a cash drawer is called occurs if the cash drawer is already open.</span></span> <span data-ttu-id="60de9-295">Í tilviki samnýttra vélbúnaðarstöðva ætti að stilla peningaskúffu á **Samnýtt** í vélbúnaðarreglu.</span><span class="sxs-lookup"><span data-stu-id="60de9-295">In the case of shared hardware stations, the cash drawer should be set to **Shared** in the hardware profile.</span></span> <span data-ttu-id="60de9-296">Þessi stilling kemur í veg fyrir að POS athugi hvort peningaskúffan sé þegar opin þegar hún sendir opnunarskipanir.</span><span class="sxs-lookup"><span data-stu-id="60de9-296">This setting prevents the POS from checking whether the cash drawer is already open when it sends open commands.</span></span>
+- <span data-ttu-id="60de9-297">**Kvittanaprentarann** – Ef tvær prentskipanir kvittunar eru sendar samtímis til vélbúnaðarstöðvar smásölu kann önnur skipunina að glatast, en það fer eftir tæki.</span><span class="sxs-lookup"><span data-stu-id="60de9-297">**Receipt printer** – If two receipt printing commands are sent to the hardware station at the same time, one of the commands can be lost, depending on the device.</span></span> <span data-ttu-id="60de9-298">Sumar tæki eru með innri minni eða keyrslutíma sem getur komið í veg fyrir þetta vandamál.</span><span class="sxs-lookup"><span data-stu-id="60de9-298">Some devices have internal memory or pooling that can prevent this issue.</span></span> <span data-ttu-id="60de9-299">Ef prentskipun er ekki stofnaður, fær gjaldkeri villuboð og getur reynt að prenta skipunina aftur úr POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-299">If a print command isn't successful, the cashier receives an error message and can retry the print command from the POS.</span></span>
+- <span data-ttu-id="60de9-300">**Afgreiðslustöð** – Ef gjaldkerinn reynir að hefja færslu á afgreiðslustöð sem er þegar í notkun, tilkynna skilaboð honum að afgreiðslustöðin sé í notkun og biður gjaldkerann að reyna aftur síðar.</span><span class="sxs-lookup"><span data-stu-id="60de9-300">**Payment terminal** – If a cashier tries to tender a transaction on a payment terminal that is already being used, a message notifies the cashier that the terminal is being used and asks the cashier to try again later.</span></span> <span data-ttu-id="60de9-301">Yfirleitt geta gjaldkerar séð að afgreiðslustöð er þegar í notkun og munu bíða þar til að annarri færsla er lokið áður en þeir reyna að hefja greiðslu aftur.</span><span class="sxs-lookup"><span data-stu-id="60de9-301">Usually, cashiers can see that a terminal is already being used and will wait until the other transaction is completed before they try to tender again.</span></span>
+
+<span data-ttu-id="60de9-302">Villuleit er áætlað fyrir framtíðarútgáfu sem kannar hvort óstudd tæki eru settir upp fyrir vélbúnaðarregluna sem er varpað á samnýtt vélbúnaðarstöð.</span><span class="sxs-lookup"><span data-stu-id="60de9-302">Validation is planned for a future release, to detect whether unsupported devices are set up for a hardware profile that is mapped to a shared hardware station.</span></span> <span data-ttu-id="60de9-303">Ef einhver óstudd tæki finnast fær notandi skilaboð sem tilgreina að tækin eru ekki studd fyrir samnýttar vélbúnaðarstöðvar.</span><span class="sxs-lookup"><span data-stu-id="60de9-303">If any unsupported devices are detected, the user will receive a message that states that the devices aren't supported for shared hardware stations.</span></span> <span data-ttu-id="60de9-304">Í tilviki samnýttra vélbúnaðarstöðva ætti að stilla valkostinn **Velja við greiðslumáta** á **Já** á stigi afgreiðslukassa.</span><span class="sxs-lookup"><span data-stu-id="60de9-304">In the case of shared hardware stations, the **Select upon tendering** option is set to **Yes** at the register level.</span></span> <span data-ttu-id="60de9-305">POS notanda er síðan beðinn um að velja vélbúnaðarstöð þegar  greiðslumáta er valið fyrir færslu í POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-305">The POS user is then prompted to select a hardware station when a tender is selected for a transaction at the POS.</span></span> <span data-ttu-id="60de9-306">Þegar vélbúnaðarstöð smásölu er aðeins valin við greiðslumáta er vali á vélbúnaðarstöð bætt beint við POS verkflæði fyrir fartækjaaðstæður.</span><span class="sxs-lookup"><span data-stu-id="60de9-306">When the hardware station is selected only at the time of tender, the hardware station selection is added directly to the POS workflow for mobile scenarios.</span></span> <span data-ttu-id="60de9-307">Sem viðbótar fríðinda, línuskjá greiðslunnar afgreiðslustöðvar er ekki notað fyrir samnýttar aðstæður.</span><span class="sxs-lookup"><span data-stu-id="60de9-307">As an additional benefit, the line display on the payment terminal isn't used for shared scenarios.</span></span> <span data-ttu-id="60de9-308">Ef afgreiðslustöðin er notað sem línuskjár, gæti aðrir notendur verið útilokaðir frá notkun á þeirri afgreiðslustöð þar til færslunni er lokið.</span><span class="sxs-lookup"><span data-stu-id="60de9-308">If the payment terminal is used as a line display, other users might be blocked from using that terminal until the transaction is completed.</span></span> <span data-ttu-id="60de9-309">Í fartækjaaðstæður gæti línum verið bætt við færslu með yfir lengra tímabil.</span><span class="sxs-lookup"><span data-stu-id="60de9-309">In mobile scenarios, lines might be added to a transaction over a longer period.</span></span> <span data-ttu-id="60de9-310">Þess vegna er valkostsins **Velja við greiðslumáta** krafist til að tryggja framboð hagkvæmasta tækis.</span><span class="sxs-lookup"><span data-stu-id="60de9-310">Therefore, the **Select upon tendering** option is required in order to ensure optimum device availability.</span></span>
+
+### <a name="network-peripherals"></a><span data-ttu-id="60de9-311">Net jaðarbúnaðar</span><span class="sxs-lookup"><span data-stu-id="60de9-311">Network peripherals</span></span>
+
+<span data-ttu-id="60de9-312">Merki net fyrir tæki vélbúnaðarreglunni auðveldar að peningaskúffur, kvittanaprentara og afgreiðslustöðvar séu tengdir gegnum nettengingu.</span><span class="sxs-lookup"><span data-stu-id="60de9-312">The network designation for devices in the hardware profile enables cash drawers, receipt printers, and payment terminals to be connected via a network connection.</span></span>
+
+#### <a name="modern-pos-for-windows"></a><span data-ttu-id="60de9-313">Modern POS fyrir Windows</span><span class="sxs-lookup"><span data-stu-id="60de9-313">Modern POS for Windows</span></span>
+
+<span data-ttu-id="60de9-314">Hægt er að tilgreina IP-tölur fyrir netjaðarbúnað á tveimur stöðum.</span><span class="sxs-lookup"><span data-stu-id="60de9-314">You can specify IP addresses for network peripherals in two places.</span></span> <span data-ttu-id="60de9-315">Ef Modern POS Windows-biðlari notar eina samstæðu af netjaðartækja ætti að setja upp IP-tölur fyrir þau tæki með því að nota valkostinn **Grunnstilling IP-tölu** í Aðgerðarúðunni fyrir sjálfan afgreiðslukassann.</span><span class="sxs-lookup"><span data-stu-id="60de9-315">If the Modern POS Windows client is using a single set of network peripherals, you should set the IP addresses for those devices by using the **IP configuration** option on the Action Pane for the register itself.</span></span> <span data-ttu-id="60de9-316">Í tilviki nettækja sem verða samnýtt milli afgreiðslukassa er hægt að varpa vélbúnaðarreglu sem hefur nettæki úthlutað beint í samnýtta vélbúnaðarstöð.</span><span class="sxs-lookup"><span data-stu-id="60de9-316">In the case of network devices that will be shared among POS registers, a hardware profile that has network devices assigned to it can be mapped directly to a shared hardware station.</span></span> <span data-ttu-id="60de9-317">Til að úthluta IP-tölum, veljið þá vélbúnaðarstöð á síðunni **Smásöluverslanir** og nota síðan valkostinn **Grunnstilling IP-tölu** í hlutanum **Vélbúnaðarstöðvar** til að tilgreina nettæki sem eru úthlutaðar þeirri vélbúnaðarstöð.</span><span class="sxs-lookup"><span data-stu-id="60de9-317">To assign IP addresses, select that hardware station on the **Retail stores** page, and then use the **IP configuration** option in the **Hardware stations** section to specify the network devices that are assigned to that hardware station.</span></span> <span data-ttu-id="60de9-318">Fyrir vélbúnaðarstöðvar sem hafa aðeins nettæki, þarf ekki að virkja vélbúnaðarstöð sjálfa.</span><span class="sxs-lookup"><span data-stu-id="60de9-318">For hardware stations that have only network devices, you don't have to deploy the hardware station itself.</span></span> <span data-ttu-id="60de9-319">Í þessu tilfelli er vélbúnaðarstöð smásölu aðeins áskilið til að flokka í raun netslóðartengd tæki eftir staðsetningu þeirra í smásöluverslunar.</span><span class="sxs-lookup"><span data-stu-id="60de9-319">In this case, the hardware station is required only in order to conceptually group network-addressable devices according to their location in the retail store.</span></span>
+
+#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a><span data-ttu-id="60de9-320">Cloud POS, Modern POS for iOS, og Modern POS fyrir Android</span><span class="sxs-lookup"><span data-stu-id="60de9-320">Cloud POS, Modern POS for iOS, and Modern POS for Android</span></span>
+
+<span data-ttu-id="60de9-321">Rökin sem keyrir efnislega tengda og netléntengd jaðartæki eru geymd í vélbúnaðarstöð smásölu.</span><span class="sxs-lookup"><span data-stu-id="60de9-321">The logic that drives physically connected and network-addressable peripherals is contained in the hardware station.</span></span> <span data-ttu-id="60de9-322">Þess vegna fyrir alla biðlara POS nema Modern POS fyrir Windows vélbúnaðarstöð við IIS verður að vera virkjuð og virka til að virkja POS til samskipta við jaðartæki, óháð því hvort þau jaðartæki eru efnislega tengdir vélbúnaðarstöð eða sendur hann á neti.</span><span class="sxs-lookup"><span data-stu-id="60de9-322">Therefore, for all POS clients except Modern POS for Windows, an IIS hardware station must be deployed and active to enable the POS to communicate with peripherals, regardless of whether those peripherals are physically connected to a hardware station or addressed over the network.</span></span>
+
+## <a name="setup-and-configuration"></a><span data-ttu-id="60de9-323">Uppsetning og skilgreining</span><span class="sxs-lookup"><span data-stu-id="60de9-323">Setup and configuration</span></span>
+
+### <a name="hardware-station-installation"></a><span data-ttu-id="60de9-324">Uppsetning vélbúnaðarstöðvar</span><span class="sxs-lookup"><span data-stu-id="60de9-324">Hardware station installation</span></span>
+
+<span data-ttu-id="60de9-325">Nánari upplýsingar er að finna í [Skilgreining og uppsetning vélbúnaðarstöðvar smásölu](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="60de9-325">For information, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
+
+### <a name="modern-pos-for-windows-setup-and-configuration"></a><span data-ttu-id="60de9-326">Uppsetning og skilgreining á Modern POS fyrir Windows</span><span class="sxs-lookup"><span data-stu-id="60de9-326">Modern POS for Windows setup and configuration</span></span>
+
+<span data-ttu-id="60de9-327">Nánari upplýsingar er að finna í [Retail Modern POS skilgreining og uppsetning](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="60de9-327">For information, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
+
+### <a name="opos-device-setup-and-configuration"></a><span data-ttu-id="60de9-328">Uppsetning og skilgreining á OPOS-tæki</span><span class="sxs-lookup"><span data-stu-id="60de9-328">OPOS device setup and configuration</span></span>
+
+<span data-ttu-id="60de9-329">Nánari upplýsingar um íhluti OPOS er að finna í "Studd viðmót" hluta þessa skjals.</span><span class="sxs-lookup"><span data-stu-id="60de9-329">For more information about OPOS components, see the "Supported interfaces" section of this document.</span></span> <span data-ttu-id="60de9-330">Venjulega eru OPOS-reklar veittir af framleiðanda tækis.</span><span class="sxs-lookup"><span data-stu-id="60de9-330">Typically, OPOS drivers are provided by the device manufacturer.</span></span> <span data-ttu-id="60de9-331">Þegar OPOS-tækjarekill hefur verið uppsettur bætir hann við lykli við Windows-stýriskrárinnar í einu af eftirfarandi stöðum:</span><span class="sxs-lookup"><span data-stu-id="60de9-331">When an OPOS device driver is installed, it adds a key to the Windows registry in one of the following locations:</span></span>
+
+- <span data-ttu-id="60de9-332">**32 bita kerfi:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-332">**32-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS</span></span>
+- <span data-ttu-id="60de9-333">**64 bita kerfi:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-333">**64-bit system:** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS</span></span>
+
+<span data-ttu-id="60de9-334">Innan staðsetningu ServiceOPOS stýriskrárinnar er skilgreindum tækjum raðað eftir OPOS-tækjaklasa.</span><span class="sxs-lookup"><span data-stu-id="60de9-334">Within the ServiceOPOS registry location, configured devices are organized according to the OPOS device class.</span></span> <span data-ttu-id="60de9-335">Margir tækjareklar eru vistaðir.</span><span class="sxs-lookup"><span data-stu-id="60de9-335">Multiple device drivers are saved.</span></span>
+
+## <a name="supported-scenarios-by-hardware-station-type"></a><span data-ttu-id="60de9-336">Studdar aðstæður eftir gerð vélbúnaðarstöðvar</span><span class="sxs-lookup"><span data-stu-id="60de9-336">Supported scenarios by hardware station type</span></span>
+
+### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a><span data-ttu-id="60de9-337">Biðlarastuðningur – IPC vélbúnaðarstöð miðað við IIS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="60de9-337">Client support – IPC hardware station vs. IIS hardware station</span></span>
+
+<span data-ttu-id="60de9-338">Eftirfarandi tafla sýnir grannfræði og virkjun aðstæður sem eru studdar.</span><span class="sxs-lookup"><span data-stu-id="60de9-338">The following table shows the topologies and deployment scenarios that are supported.</span></span>
+
+| <span data-ttu-id="60de9-339">Biðlari</span><span class="sxs-lookup"><span data-stu-id="60de9-339">Client</span></span>      | <span data-ttu-id="60de9-340">IPC vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="60de9-340">IPC hardware station</span></span> | <span data-ttu-id="60de9-341">IIS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="60de9-341">IIS hardware station</span></span> |
+|-------------|----------------------|----------------------|
+| <span data-ttu-id="60de9-342">Windows-forrit</span><span class="sxs-lookup"><span data-stu-id="60de9-342">Windows app</span></span> | <span data-ttu-id="60de9-343">Já</span><span class="sxs-lookup"><span data-stu-id="60de9-343">Yes</span></span>                  | <span data-ttu-id="60de9-344">Já</span><span class="sxs-lookup"><span data-stu-id="60de9-344">Yes</span></span>                  |
+| <span data-ttu-id="60de9-345">Sölustaður í skýi</span><span class="sxs-lookup"><span data-stu-id="60de9-345">Cloud POS</span></span>   | <span data-ttu-id="60de9-346">Ekkert</span><span class="sxs-lookup"><span data-stu-id="60de9-346">No</span></span>                   | <span data-ttu-id="60de9-347">Já</span><span class="sxs-lookup"><span data-stu-id="60de9-347">Yes</span></span>                  |
+| <span data-ttu-id="60de9-348">Android</span><span class="sxs-lookup"><span data-stu-id="60de9-348">Android</span></span>     | <span data-ttu-id="60de9-349">Ekkert</span><span class="sxs-lookup"><span data-stu-id="60de9-349">No</span></span>                   | <span data-ttu-id="60de9-350">Já</span><span class="sxs-lookup"><span data-stu-id="60de9-350">Yes</span></span>                  |
+| <span data-ttu-id="60de9-351">iOS</span><span class="sxs-lookup"><span data-stu-id="60de9-351">iOS</span></span>         | <span data-ttu-id="60de9-352">Ekkert</span><span class="sxs-lookup"><span data-stu-id="60de9-352">No</span></span>                   | <span data-ttu-id="60de9-353">Já</span><span class="sxs-lookup"><span data-stu-id="60de9-353">Yes</span></span>                  |
+
+### <a name="network-peripherals"></a><span data-ttu-id="60de9-354">Net jaðarbúnaðar</span><span class="sxs-lookup"><span data-stu-id="60de9-354">Network peripherals</span></span>
+
+<span data-ttu-id="60de9-355">Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásölu sem er byggð inn í forritið Modern POS fyrir Windows.</span><span class="sxs-lookup"><span data-stu-id="60de9-355">Network peripherals can be supported directly through the hardware station that is built into the Modern POS for Windows application.</span></span> <span data-ttu-id="60de9-356">Fyrir alla aðra biðlara, verður að virkja vélbúnaðarstöð á IIS.</span><span class="sxs-lookup"><span data-stu-id="60de9-356">For all other clients, you must deploy an IIS hardware station.</span></span>
+
+| <span data-ttu-id="60de9-357">Biðlari</span><span class="sxs-lookup"><span data-stu-id="60de9-357">Client</span></span>      | <span data-ttu-id="60de9-358">IPC vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="60de9-358">IPC hardware station</span></span> | <span data-ttu-id="60de9-359">IIS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="60de9-359">IIS hardware station</span></span> |
+|-------------|----------------------|----------------------|
+| <span data-ttu-id="60de9-360">Windows-forrit</span><span class="sxs-lookup"><span data-stu-id="60de9-360">Windows app</span></span> | <span data-ttu-id="60de9-361">Já</span><span class="sxs-lookup"><span data-stu-id="60de9-361">Yes</span></span>                  | <span data-ttu-id="60de9-362">Já</span><span class="sxs-lookup"><span data-stu-id="60de9-362">Yes</span></span>                  |
+| <span data-ttu-id="60de9-363">Sölustaður í skýi</span><span class="sxs-lookup"><span data-stu-id="60de9-363">Cloud POS</span></span>   | <span data-ttu-id="60de9-364">Ekkert</span><span class="sxs-lookup"><span data-stu-id="60de9-364">No</span></span>                   | <span data-ttu-id="60de9-365">Já</span><span class="sxs-lookup"><span data-stu-id="60de9-365">Yes</span></span>                  |
+| <span data-ttu-id="60de9-366">Android</span><span class="sxs-lookup"><span data-stu-id="60de9-366">Android</span></span>     | <span data-ttu-id="60de9-367">Ekkert</span><span class="sxs-lookup"><span data-stu-id="60de9-367">No</span></span>                   | <span data-ttu-id="60de9-368">Já</span><span class="sxs-lookup"><span data-stu-id="60de9-368">Yes</span></span>                  |
+| <span data-ttu-id="60de9-369">iOS</span><span class="sxs-lookup"><span data-stu-id="60de9-369">iOS</span></span>         | <span data-ttu-id="60de9-370">Ekkert</span><span class="sxs-lookup"><span data-stu-id="60de9-370">No</span></span>                   | <span data-ttu-id="60de9-371">Já</span><span class="sxs-lookup"><span data-stu-id="60de9-371">Yes</span></span>                  |
+
+## <a name="supported-device-types-by-hardware-station-type"></a><span data-ttu-id="60de9-372">Studdar tækjagerðir eftir gerð vélbúnaðarstöðvar</span><span class="sxs-lookup"><span data-stu-id="60de9-372">Supported device types by hardware station type</span></span>
+
+### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="60de9-373">Modern POS fyrir Windows með (innbyggðri) IPS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="60de9-373">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
+
+<table>
+<thead>
+<tr>
+<th><span data-ttu-id="60de9-374">Studdur tækjaklasi</span><span class="sxs-lookup"><span data-stu-id="60de9-374">Supported device class</span></span></th>
+<th><span data-ttu-id="60de9-375">Studd viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-375">Supported interfaces</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="60de9-376">Prentari</span><span class="sxs-lookup"><span data-stu-id="60de9-376">Printer</span></span></td>
+<td>
+<ul>
+<li><span data-ttu-id="60de9-377">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-377">OPOS</span></span></li>
+<li><span data-ttu-id="60de9-378">Windows-rekill</span><span class="sxs-lookup"><span data-stu-id="60de9-378">Windows driver</span></span></li>
+<li><span data-ttu-id="60de9-379">Tæki</span><span class="sxs-lookup"><span data-stu-id="60de9-379">Device</span></span></li>
+<li><span data-ttu-id="60de9-380">Net</span><span class="sxs-lookup"><span data-stu-id="60de9-380">Network</span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-381">Prentari 2</span><span class="sxs-lookup"><span data-stu-id="60de9-381">Printer 2</span></span></td>
+<td>
+<ul>
+<li><span data-ttu-id="60de9-382">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-382">OPOS</span></span></li>
+<li><span data-ttu-id="60de9-383">Windows-rekill</span><span class="sxs-lookup"><span data-stu-id="60de9-383">Windows driver</span></span></li>
+<li><span data-ttu-id="60de9-384">Tæki</span><span class="sxs-lookup"><span data-stu-id="60de9-384">Device</span></span></li>
+<li><span data-ttu-id="60de9-385">Net</span><span class="sxs-lookup"><span data-stu-id="60de9-385">Network</span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-386">Línuskjár</span><span class="sxs-lookup"><span data-stu-id="60de9-386">Line display</span></span></td>
+<td><span data-ttu-id="60de9-387">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-387">OPOS</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-388">Tvískiptur skjár</span><span class="sxs-lookup"><span data-stu-id="60de9-388">Dual display</span></span></td>
+<td><span data-ttu-id="60de9-389">Windows-rekill</span><span class="sxs-lookup"><span data-stu-id="60de9-389">Windows driver</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-390">Kortalesari</span><span class="sxs-lookup"><span data-stu-id="60de9-390">MSR</span></span></td>
+<td>
+<ul>
+<li><span data-ttu-id="60de9-391">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-391">OPOS</span></span></li>
+<li><span data-ttu-id="60de9-392">UWP (Engin uppsetning nauðsynleg.)</span><span class="sxs-lookup"><span data-stu-id="60de9-392">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="60de9-393">Lyklaborð kortalesara (Ekki krafist slíkrar uppsetningar.)</span><span class="sxs-lookup"><span data-stu-id="60de9-393">Keyboard wedge (No setup is required.)</span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-394">Skúffa</span><span class="sxs-lookup"><span data-stu-id="60de9-394">Drawer</span></span></td>
+<td>
+<ul>
+<li><span data-ttu-id="60de9-395">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-395">OPOS</span></span></li>
+<li><span data-ttu-id="60de9-396">Net</span><span class="sxs-lookup"><span data-stu-id="60de9-396">Network</span></span>
+<p><span data-ttu-id="60de9-397"><strong>Athugið</strong>: Aðeins er hægt að setja upp eina skúffu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</span><span class="sxs-lookup"><span data-stu-id="60de9-397"><strong>Note:</strong> Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-398">Skúffa 2</span><span class="sxs-lookup"><span data-stu-id="60de9-398">Drawer 2</span></span></td>
+<td>
+<ul>
+<li><span data-ttu-id="60de9-399">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-399">OPOS</span></span></li>
+<li><span data-ttu-id="60de9-400">Net</span><span class="sxs-lookup"><span data-stu-id="60de9-400">Network</span></span>
+<p><span data-ttu-id="60de9-401"><strong>Athugið</strong>: Aðeins er hægt að setja upp eina skúffu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</span><span class="sxs-lookup"><span data-stu-id="60de9-401"><strong>Note:</strong> Only one drawer can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-402">Skanni</span><span class="sxs-lookup"><span data-stu-id="60de9-402">Scanner</span></span></td>
+<td>
+<ul>
+<li><span data-ttu-id="60de9-403">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-403">OPOS</span></span></li>
+<li><span data-ttu-id="60de9-404">UWP (Engin uppsetning nauðsynleg.)</span><span class="sxs-lookup"><span data-stu-id="60de9-404">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="60de9-405">Lyklaborð kortalesara (Ekki krafist slíkrar uppsetningar.)</span><span class="sxs-lookup"><span data-stu-id="60de9-405">Keyboard wedge (No setup is required.)</span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-406">Skanni 2</span><span class="sxs-lookup"><span data-stu-id="60de9-406">Scanner 2</span></span></td>
+<td>
+<ul>
+<li><span data-ttu-id="60de9-407">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-407">OPOS</span></span></li>
+<li><span data-ttu-id="60de9-408">UWP (Engin uppsetning nauðsynleg.)</span><span class="sxs-lookup"><span data-stu-id="60de9-408">UWP (No setup is required.)</span></span></li>
+<li><span data-ttu-id="60de9-409">Lyklaborð kortalesara (Ekki krafist slíkrar uppsetningar.)</span><span class="sxs-lookup"><span data-stu-id="60de9-409">Keyboard wedge (No setup is required.)</span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-410">Vigt</span><span class="sxs-lookup"><span data-stu-id="60de9-410">Scale</span></span></td>
+<td><span data-ttu-id="60de9-411">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-411">OPOS</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-412">PIN-takkaborð</span><span class="sxs-lookup"><span data-stu-id="60de9-412">PIN pad</span></span></td>
+<td><span data-ttu-id="60de9-413">OPOS (Stuðningur er veittur með sérsniðinn greiðslutengillinn).</span><span class="sxs-lookup"><span data-stu-id="60de9-413">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-414">Sækja undirskrift</span><span class="sxs-lookup"><span data-stu-id="60de9-414">Signature capture</span></span></td>
+<td><span data-ttu-id="60de9-415">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-415">OPOS</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-416">Greiðslustöð</span><span class="sxs-lookup"><span data-stu-id="60de9-416">Payment terminal</span></span></td>
+<td>
+<ul>
+<li><span data-ttu-id="60de9-417">Stuðningur við sérsniðið tæki</span><span class="sxs-lookup"><span data-stu-id="60de9-417">Custom device support</span></span></li>
+<li><span data-ttu-id="60de9-418">Net (Sjá fylgiskjal greiðslutengis fyrir frekari upplýsingar.)</span><span class="sxs-lookup"><span data-stu-id="60de9-418">Network (For more information, see the payment connector documentation.)</span></span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="60de9-419">Allir biðlarar Modern POS með sérstaka IIS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="60de9-419">All Modern POS clients that have a dedicated IIS hardware station</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="60de9-420">Þegar IIS vélbúnaðarstöð er „sérnýtt“, eru bein tengsl milli biðlara POS og vélbúnaðarstöðvar.</span><span class="sxs-lookup"><span data-stu-id="60de9-420">When the IIS hardware station is "dedicated," there is a one-to-one relationship between the POS client and the hardware station.</span></span>
+
+<table>
+<thead>
+<tr>
+<th><span data-ttu-id="60de9-421">Studdur tækjaklasi</span><span class="sxs-lookup"><span data-stu-id="60de9-421">Supported device class</span></span></th>
+<th><span data-ttu-id="60de9-422">Studd viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-422">Supported interfaces</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="60de9-423">Prentari</span><span class="sxs-lookup"><span data-stu-id="60de9-423">Printer</span></span></td>
+<td>
+<ul>
+<li><span data-ttu-id="60de9-424">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-424">OPOS</span></span></li>
+<li><span data-ttu-id="60de9-425">Windows-rekill</span><span class="sxs-lookup"><span data-stu-id="60de9-425">Windows driver</span></span>
+<p><span data-ttu-id="60de9-426"><strong>Athugið:</strong> Fyrir Windows prentara á neti verður notandi vélbúnaðarstöðvar að hafa heimild til að nota prentarann.</span><span class="sxs-lookup"><span data-stu-id="60de9-426"><strong>Note:</strong> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></p>
+</li>
+<li><span data-ttu-id="60de9-427">Net</span><span class="sxs-lookup"><span data-stu-id="60de9-427">Network</span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-428">Prentari 2</span><span class="sxs-lookup"><span data-stu-id="60de9-428">Printer 2</span></span></td>
+<td>
+<ul>
+<li><span data-ttu-id="60de9-429">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-429">OPOS</span></span></li>
+<li><span data-ttu-id="60de9-430">Windows-rekill</span><span class="sxs-lookup"><span data-stu-id="60de9-430">Windows driver</span></span></li>
+<li><span data-ttu-id="60de9-431">Net</span><span class="sxs-lookup"><span data-stu-id="60de9-431">Network</span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-432">Línuskjár</span><span class="sxs-lookup"><span data-stu-id="60de9-432">Line display</span></span></td>
+<td><span data-ttu-id="60de9-433">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-433">OPOS</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-434">Kortalesari</span><span class="sxs-lookup"><span data-stu-id="60de9-434">MSR</span></span></td>
+<td><span data-ttu-id="60de9-435">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-435">OPOS</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-436">Skúffa</span><span class="sxs-lookup"><span data-stu-id="60de9-436">Drawer</span></span></td>
+<td>
+<ul>
+<li><span data-ttu-id="60de9-437">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-437">OPOS</span></span></li>
+<li><span data-ttu-id="60de9-438">Net</span><span class="sxs-lookup"><span data-stu-id="60de9-438">Network</span></span>
+<p><span data-ttu-id="60de9-439"><strong>Athugið</strong>: Aðeins er hægt að setja upp eina skúffu á vélbúnaðarreglu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</span><span class="sxs-lookup"><span data-stu-id="60de9-439"><strong>Note:</strong> Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-440">Skúffa 2</span><span class="sxs-lookup"><span data-stu-id="60de9-440">Drawer 2</span></span></td>
+<td>
+<ul>
+<li><span data-ttu-id="60de9-441">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-441">OPOS</span></span></li>
+<li><span data-ttu-id="60de9-442">Net</span><span class="sxs-lookup"><span data-stu-id="60de9-442">Network</span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-443">Skanni</span><span class="sxs-lookup"><span data-stu-id="60de9-443">Scanner</span></span></td>
+<td><span data-ttu-id="60de9-444">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-444">OPOS</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-445">Skanni 2</span><span class="sxs-lookup"><span data-stu-id="60de9-445">Scanner 2</span></span></td>
+<td><span data-ttu-id="60de9-446">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-446">OPOS</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-447">Vigt</span><span class="sxs-lookup"><span data-stu-id="60de9-447">Scale</span></span></td>
+<td><span data-ttu-id="60de9-448">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-448">OPOS</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-449">PIN-takkaborð</span><span class="sxs-lookup"><span data-stu-id="60de9-449">PIN pad</span></span></td>
+<td><span data-ttu-id="60de9-450">OPOS (Stuðningur er veittur með sérsniðinn greiðslutengillinn).</span><span class="sxs-lookup"><span data-stu-id="60de9-450">OPOS (Support is provided through customization of the payment connector.)</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-451">Undirskr.</span><span class="sxs-lookup"><span data-stu-id="60de9-451">Sig.</span></span> <span data-ttu-id="60de9-452">sækja</span><span class="sxs-lookup"><span data-stu-id="60de9-452">capture</span></span></td>
+<td><span data-ttu-id="60de9-453">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-453">OPOS</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-454">Greiðslustöð</span><span class="sxs-lookup"><span data-stu-id="60de9-454">Payment terminal</span></span></td>
+<td>
+<ul>
+<li><span data-ttu-id="60de9-455">Stuðningur við sérsniðið tæki</span><span class="sxs-lookup"><span data-stu-id="60de9-455">Custom device support</span></span></li>
+<li><span data-ttu-id="60de9-456">Net (Sjá fylgiskjal greiðslutengis fyrir frekari upplýsingar.)</span><span class="sxs-lookup"><span data-stu-id="60de9-456">Network (For more information, see the payment connector documentation.)</span></span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="60de9-457">Allir biðlarar Modern POS með samnýtta IIS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="60de9-457">All Modern POS clients that have a shared IIS hardware station</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="60de9-458">Þegar vélbúnaðarstöð IIS er „samnýtt“, geta mörg tæki notað vélbúnaðarstöð á sama tíma.</span><span class="sxs-lookup"><span data-stu-id="60de9-458">When the IIS hardware station is "shared," multiple devices can use the hardware station at the same time.</span></span> <span data-ttu-id="60de9-459">Fyrir þessar aðstæður á aðeins að nota þau tæki sem eru talin upp í eftirfarandi töflu.</span><span class="sxs-lookup"><span data-stu-id="60de9-459">For this scenario, you should use only the devices that are listed in the following table.</span></span> <span data-ttu-id="60de9-460">Ef reynt er að deila tæki sem ekki eru skráð á listanum hér, eins og strikamerkjaskanna og kortalesara munu villur eiga sér stað þegar mörg tæki reyna að gera kröfu á sama jaðarbúnaðinum.</span><span class="sxs-lookup"><span data-stu-id="60de9-460">If you try to share devices that aren't listed here, such as bar code scanners and MSRs, errors will occur when multiple devices try to claim the same peripheral.</span></span> <span data-ttu-id="60de9-461">Í framtíðinni, verður sérstaklega komið í veg fyrir slíka grunnstillingu.</span><span class="sxs-lookup"><span data-stu-id="60de9-461">In the future, such a configuration will be explicitly prevented.</span></span>
+
+<table>
+<thead>
+<tr>
+<th><span data-ttu-id="60de9-462">Studdur tækjaklasi</span><span class="sxs-lookup"><span data-stu-id="60de9-462">Supported device class</span></span></th>
+<th><span data-ttu-id="60de9-463">Studd viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-463">Supported interfaces</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="60de9-464">Prentari</span><span class="sxs-lookup"><span data-stu-id="60de9-464">Printer</span></span></td>
+<td>
+<ul>
+<li><span data-ttu-id="60de9-465">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-465">OPOS</span></span></li>
+<li><span data-ttu-id="60de9-466">Windows-rekill</span><span class="sxs-lookup"><span data-stu-id="60de9-466">Windows driver</span></span>
+<p><span data-ttu-id="60de9-467"><strong>Athugið:</strong> Fyrir Windows prentara á neti verður notandi vélbúnaðarstöðvar að hafa heimild til að nota prentarann.</span><span class="sxs-lookup"><span data-stu-id="60de9-467"><strong>Note:</strong> For Windows printers on a network, the user of the hardware station must have permission to access the printer.</span></span></p>
+</li>
+<li><span data-ttu-id="60de9-468">Net</span><span class="sxs-lookup"><span data-stu-id="60de9-468">Network</span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-469">Prentari 2</span><span class="sxs-lookup"><span data-stu-id="60de9-469">Printer 2</span></span></td>
+<td>
+<ul>
+<li><span data-ttu-id="60de9-470">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-470">OPOS</span></span></li>
+<li><span data-ttu-id="60de9-471">Windows-rekill</span><span class="sxs-lookup"><span data-stu-id="60de9-471">Windows driver</span></span></li>
+<li><span data-ttu-id="60de9-472">Net</span><span class="sxs-lookup"><span data-stu-id="60de9-472">Network</span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-473">Skúffa</span><span class="sxs-lookup"><span data-stu-id="60de9-473">Drawer</span></span></td>
+<td>
+<ul>
+<li><span data-ttu-id="60de9-474">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-474">OPOS</span></span></li>
+<li><span data-ttu-id="60de9-475">Net</span><span class="sxs-lookup"><span data-stu-id="60de9-475">Network</span></span>
+<p><span data-ttu-id="60de9-476"><strong>Athugið</strong>: Aðeins er hægt að setja upp eina skúffu á vélbúnaðarreglu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</span><span class="sxs-lookup"><span data-stu-id="60de9-476"><strong>Note:</strong> Only one drawer per hardware profile can be set up if <strong>Use shared shift</strong> is configured on the drawer.</span></span></p>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-477">Skúffa 2</span><span class="sxs-lookup"><span data-stu-id="60de9-477">Drawer 2</span></span></td>
+<td>
+<ul>
+<li><span data-ttu-id="60de9-478">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-478">OPOS</span></span></li>
+<li><span data-ttu-id="60de9-479">Net</span><span class="sxs-lookup"><span data-stu-id="60de9-479">Network</span></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><span data-ttu-id="60de9-480">Greiðslustöð</span><span class="sxs-lookup"><span data-stu-id="60de9-480">Payment terminal</span></span></td>
+<td>
+<ul>
+<li><span data-ttu-id="60de9-481">Stuðningur við sérsniðið tæki</span><span class="sxs-lookup"><span data-stu-id="60de9-481">Custom device support</span></span></li>
+<li><span data-ttu-id="60de9-482">Net (Sjá fylgiskjal greiðslutengis fyrir frekari upplýsingar.)</span><span class="sxs-lookup"><span data-stu-id="60de9-482">Network (For more information, see the payment connector documentation.)</span></span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+## <a name="configuration-for-supported-scenarios"></a><span data-ttu-id="60de9-483">Skilgreining fyrir studdar aðstæður</span><span class="sxs-lookup"><span data-stu-id="60de9-483">Configuration for supported scenarios</span></span>
+
+<span data-ttu-id="60de9-484">Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [Skilgreina og viðhalda rás biðlara, þar á meðal afgreiðslukassa og vélbúnaðarstöðvar](define-maintain-channel-clients-registers-hw-stations.md).</span><span class="sxs-lookup"><span data-stu-id="60de9-484">For more information about how to create hardware profiles, see [Define and maintain channel clients, including registers and hardware stations](define-maintain-channel-clients-registers-hw-stations.md).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="60de9-485">Fyrir Microsoft Dynamics 365 for Retail útgáfu 1611, er vélbúnaðarregla ekki notuð lengur.</span><span class="sxs-lookup"><span data-stu-id="60de9-485">For Microsoft Dynamics 365 for Retail version 1611, the hardware station profile is no longer used.</span></span> <span data-ttu-id="60de9-486">Eigindir sem voru áður sett upp í vélbúnaðarreglunni eru nú hluti af sjálfri vélbúnaðarsröðinni.</span><span class="sxs-lookup"><span data-stu-id="60de9-486">Attributes that you previously set up in the hardware station profile are now part of the hardware station itself.</span></span>
+
+### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a><span data-ttu-id="60de9-487">Modern POS fyrir Windows með (innbyggðri) IPS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="60de9-487">Modern POS for Windows with an IPC (built-in) hardware station</span></span>
+
+<span data-ttu-id="60de9-488">Þessi skilgreining er oftast dæmigert skilgreiningu fyrir venjulegt, föst afgreiðslukassar.</span><span class="sxs-lookup"><span data-stu-id="60de9-488">This configuration is the most typical configuration for traditional, fixed POS registers.</span></span> <span data-ttu-id="60de9-489">Á þessu dæmi, upplýsingar um forstillingu vélbúnaðar varpað beint á sjálfan afgreiðslukassann.</span><span class="sxs-lookup"><span data-stu-id="60de9-489">For this scenario, the hardware profile information is mapped directly to the register itself.</span></span> <span data-ttu-id="60de9-490">Afgreiðslustöðvarnúmer kortamillifærslu ætti einnig að setja á afgreiðslukassa sjálfa.</span><span class="sxs-lookup"><span data-stu-id="60de9-490">The EFT terminal number should also be set on the register itself.</span></span> <span data-ttu-id="60de9-491">Fylgið eftirfarandi skrefum til að setja upp þessa skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="60de9-491">To set up this configuration, follow these steps.</span></span>
+
+1. <span data-ttu-id="60de9-492">Stofna vélbúnaðarreglu þar sem allar nauðsynlegar jaðartæki eru skilgreind.</span><span class="sxs-lookup"><span data-stu-id="60de9-492">Create a hardware profile where all the required peripherals are configured.</span></span>
+2. <span data-ttu-id="60de9-493">Varpa vélbúnaðarregluna á afgreiðslukassa.</span><span class="sxs-lookup"><span data-stu-id="60de9-493">Map the hardware profile to the POS register.</span></span>
+3. <span data-ttu-id="60de9-494">Stofna vélbúnaðarstöð af gerðinni **Sérhæfð** fyrir verslunina þar sem afgreiðslukassinn verður notað.</span><span class="sxs-lookup"><span data-stu-id="60de9-494">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span> <span data-ttu-id="60de9-495">Lýsing er valkvæð.</span><span class="sxs-lookup"><span data-stu-id="60de9-495">A description is optional.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="60de9-496">Það þarf ekki að stilla aðra eiginleika í vélbúnaðarstöðinni.</span><span class="sxs-lookup"><span data-stu-id="60de9-496">You don't have to set any other properties on the hardware station.</span></span> <span data-ttu-id="60de9-497">Allar aðrar nauðsynlegar upplýsingar eins og vélbúnaðarreglu, koma úr sjálfum afgreiðslukassanum.</span><span class="sxs-lookup"><span data-stu-id="60de9-497">All other required information, such as the hardware profile, will come from the register itself.</span></span>
+
+4. <span data-ttu-id="60de9-498">Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.</span><span class="sxs-lookup"><span data-stu-id="60de9-498">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+5. <span data-ttu-id="60de9-499">Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun.</span><span class="sxs-lookup"><span data-stu-id="60de9-499">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="60de9-500">Smella skal á **Keyra nú** til að samstilla breytingar við POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-500">Click **Run now** to sync changes to the POS.</span></span>
+6. <span data-ttu-id="60de9-501">Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun.</span><span class="sxs-lookup"><span data-stu-id="60de9-501">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="60de9-502">Smella skal á **Keyra nú** til að samstilla breytingar við POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-502">Click **Run now** to sync changes to the POS.</span></span>
+7. <span data-ttu-id="60de9-503">Setja upp og virkja Modern POS fyrir Windows.</span><span class="sxs-lookup"><span data-stu-id="60de9-503">Install and activate Modern POS for Windows.</span></span>
+8. <span data-ttu-id="60de9-504">Hefja Modern POS fyrir Windows og byrja að nota tengda jaðartæki.</span><span class="sxs-lookup"><span data-stu-id="60de9-504">Start Modern POS for Windows, and begin to use the connected peripheral devices.</span></span>
+
+### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a><span data-ttu-id="60de9-505">Allir biðlarar Modern POS með sérstaka IIS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="60de9-505">All Modern POS clients that have a dedicated IIS hardware station</span></span>
+
+<span data-ttu-id="60de9-506">Þessa skilgreiningu er hægt að nota í öllum biðlurum Modern POS með vélbúnaðarstöð sem aðeins notuð í einum POS afgreiðslukassa.</span><span class="sxs-lookup"><span data-stu-id="60de9-506">This configuration can be used for all Modern POS clients that have a hardware station that is used exclusively by one POS register.</span></span> <span data-ttu-id="60de9-507">Fylgið eftirfarandi skrefum til að setja upp þessa skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="60de9-507">To set up this configuration, follow these steps.</span></span>
+
+1. <span data-ttu-id="60de9-508">Stofna vélbúnaðarreglu þar sem allar nauðsynlegar jaðartæki eru skilgreind.</span><span class="sxs-lookup"><span data-stu-id="60de9-508">Create a hardware profile where all the required peripherals are configured.</span></span>
+2. <span data-ttu-id="60de9-509">Stofna vélbúnaðarstöð af gerðinni **Sérhæfð** fyrir verslunina þar sem afgreiðslukassinn verður notað.</span><span class="sxs-lookup"><span data-stu-id="60de9-509">Create a hardware station of the **Dedicated** type for the retail store where the POS register will be used.</span></span>
+3. <span data-ttu-id="60de9-510">Stilltu á sérstakan vélbúnaðarstöð eftirfarandi eiginleika:</span><span class="sxs-lookup"><span data-stu-id="60de9-510">On the dedicated hardware station, set the following properties:</span></span>
+
+    - <span data-ttu-id="60de9-511">**Hýsilheiti** – Heiti hýsils tölvu þar sem vélbúnaðarstöðin mun keyra.</span><span class="sxs-lookup"><span data-stu-id="60de9-511">**Host name** – The name of the host computer where the hardware station will run.</span></span>
+
+        > [!NOTE]
+        > <span data-ttu-id="60de9-512">Cloud POS getur leyst **staðarhýsilinn** til að ákvarða staðbundnu tölvuna sem keyrir Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-512">Cloud POS can resolve **localhost** to determine the local computer where Cloud POS is running.</span></span> <span data-ttu-id="60de9-513">Hins vegar verður skírteini sem krafist er til að para Cloud POS með vélbúnaðarstöðinni einnig að hafa "Staðarhýslinum" sem heiti tölvunnar.</span><span class="sxs-lookup"><span data-stu-id="60de9-513">However, the certificate that is required in order to pair Cloud POS with the hardware station must also have "Localhost" as the computer name.</span></span> <span data-ttu-id="60de9-514">Til að forðast vandamál er ráðlagt að tilkynna tilvik hverrar sérstakrar vélbúnaðarstöðar verslunarinnar, eftir þörfum.</span><span class="sxs-lookup"><span data-stu-id="60de9-514">To avoid issues, we recommend that you list an instance of each dedicated hardware station for the store, as required.</span></span> <span data-ttu-id="60de9-515">Fyrir hverja vélbúnaðarstöð heiti hýsilsins ætti að vera heiti á tiltekinni tölvu þar sem vélbúnaðarstöðin verður virkjað.</span><span class="sxs-lookup"><span data-stu-id="60de9-515">For each hardware station, the host name should be the specific computer name where the hardware station will be deployed.</span></span>
+
+    - <span data-ttu-id="60de9-516">**Tengi** – Tengið sem nota á fyrir vélbúnaðarstöð til að eiga samskipti við biðlara Modern POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-516">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
+    - <span data-ttu-id="60de9-517">**Vélbúnaðarregla** – Ef vélbúnaðarregluna er ekki veitt á vélbúnaðarstöð sjálf, vélbúnaðarreglu sem er úthlutað á afgreiðslukassa verður notuð.</span><span class="sxs-lookup"><span data-stu-id="60de9-517">**Hardware profile** – If the hardware profile isn't provided on the hardware station itself, the hardware profile that is assigned to the register will be used.</span></span>
+    - <span data-ttu-id="60de9-518">**Verslunarnúmer Kortamillifærslu númer** -Auðkenni afgreiðslustöðvar KORTAMILLIFÆRSLU Er að nota þegar KORTAMILLIFÆRSLU heimildum eru send.</span><span class="sxs-lookup"><span data-stu-id="60de9-518">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="60de9-519">Þetta Kenni er veitt með kreditkortagjörvanum.</span><span class="sxs-lookup"><span data-stu-id="60de9-519">This ID is provided by the credit card processor.</span></span>
+    - <span data-ttu-id="60de9-520">**Pakkaheiti** – Vélbúnaðarstöðvarpakkinn sem á að nota þegar vélbúnaðarstöð er virkjuð.</span><span class="sxs-lookup"><span data-stu-id="60de9-520">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
+
+4. <span data-ttu-id="60de9-521">Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.</span><span class="sxs-lookup"><span data-stu-id="60de9-521">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+5. <span data-ttu-id="60de9-522">Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun.</span><span class="sxs-lookup"><span data-stu-id="60de9-522">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="60de9-523">Smella skal á **Keyra nú** til að samstilla breytingar við POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-523">Click **Run now** to sync changes to the POS.</span></span>
+6. <span data-ttu-id="60de9-524">Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun.</span><span class="sxs-lookup"><span data-stu-id="60de9-524">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="60de9-525">Smella skal á **Keyra nú** til að samstilla breytingar við POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-525">Click **Run now** to sync changes to the POS.</span></span>
+7. <span data-ttu-id="60de9-526">Setja upp vélbúnaðarstöð.</span><span class="sxs-lookup"><span data-stu-id="60de9-526">Install the hardware station.</span></span> <span data-ttu-id="60de9-527">Nánari upplýsingar um hvernig á að setja upp vélbúnaðarstöð er að finna í [Uppsetningu og skilgreiningu á vélbúnaðarstöð smásölu](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="60de9-527">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
+8. <span data-ttu-id="60de9-528">Setja upp og virkja Modern POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-528">Install and activate Modern POS.</span></span> <span data-ttu-id="60de9-529">Nánari upplýsingar um hvernig á að setja upp Modern POS er að finna í [Retail Modern POS Uppsetningu og skilgreining](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="60de9-529">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
+9. <span data-ttu-id="60de9-530">Innskráning á Modern POS og veljið **Framkvæma aðgerðir utan skúffu**.</span><span class="sxs-lookup"><span data-stu-id="60de9-530">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
+10. <span data-ttu-id="60de9-531">Byrja á **Stjórna vélbúnaðarstöðvar** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="60de9-531">Start the **Manage hardware stations** operation.</span></span>
+11. <span data-ttu-id="60de9-532">Smellið á **Stjórna**.</span><span class="sxs-lookup"><span data-stu-id="60de9-532">Click **Manage**.</span></span>
+12. <span data-ttu-id="60de9-533">Í stjórnunarsíðu vélbúnaðarstöðvar skal stilla valkost til að kveikja á vélbúnaðarstöðinni.</span><span class="sxs-lookup"><span data-stu-id="60de9-533">On the hardware station management page, set the option to turn on the hardware station.</span></span>
+13. <span data-ttu-id="60de9-534">Velja vélbúnaðarstöð til að nota og síðan smellt á **Para**.</span><span class="sxs-lookup"><span data-stu-id="60de9-534">Select the hardware station to use, and then click **Pair**.</span></span>
+14. <span data-ttu-id="60de9-535">Eftir vélbúnaðarstöðin er pöruð smellið **Loka**.</span><span class="sxs-lookup"><span data-stu-id="60de9-535">After the hardware station is paired, click **Close**.</span></span>
+15. <span data-ttu-id="60de9-536">Á valsíðu vélbúnaðarstöðvar er smellt á nýlega valda vélbúnaðarstöð til að gera hana virka.</span><span class="sxs-lookup"><span data-stu-id="60de9-536">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span>
+
+### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a><span data-ttu-id="60de9-537">Allir biðlarar Modern POS með samnýtta IIS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="60de9-537">All Modern POS clients that have a shared IIS hardware station</span></span>
+
+<span data-ttu-id="60de9-538">Þessa skilgreiningu er hægt að nota í öllum biðlurum Modern POS sem deila vélbúnaðarstöðvum með öðrum tækjum.</span><span class="sxs-lookup"><span data-stu-id="60de9-538">This configuration can be used for all Modern POS clients that share hardware stations with other devices.</span></span> <span data-ttu-id="60de9-539">Fylgið eftirfarandi skrefum til að setja upp þessa skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="60de9-539">To set up this configuration, follow these steps.</span></span>
+
+1. <span data-ttu-id="60de9-540">Stofna vélbúnaðarreglu þar sem nauðsynleg jaðartæki eru skilgreind.</span><span class="sxs-lookup"><span data-stu-id="60de9-540">Create a hardware profile where the required peripherals are configured.</span></span>
+2. <span data-ttu-id="60de9-541">Stofna vélbúnaðarstöð af gerðinni **Samnýtt** fyrir verslunina þar sem afgreiðslukassinn verður notað.</span><span class="sxs-lookup"><span data-stu-id="60de9-541">Create a hardware station of the **Shared** type for the retail store where the POS register will be used.</span></span>
+3. <span data-ttu-id="60de9-542">Stilltu á samnýttri vélbúnaðarstöð eftirfarandi eiginleika:</span><span class="sxs-lookup"><span data-stu-id="60de9-542">On the shared hardware station, set the following properties:</span></span>
+
+    - <span data-ttu-id="60de9-543">**Hýsilheiti** – Heiti hýsils tölvu þar sem vélbúnaðarstöðin mun keyra.</span><span class="sxs-lookup"><span data-stu-id="60de9-543">**Host name** – The name of the host computer where the hardware station will run.</span></span>
+    - <span data-ttu-id="60de9-544">**Lýsing** – Texta sem auðkenna vélbúnaðarstöð, eins og **Skil** eða **Framhlið verslunar**.</span><span class="sxs-lookup"><span data-stu-id="60de9-544">**Description** – Text that will help identify the hardware station, such as **Returns** or **Front of store**.</span></span>
+    - <span data-ttu-id="60de9-545">**Tengi** – Tengið sem nota á fyrir vélbúnaðarstöð til að eiga samskipti við biðlara Modern POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-545">**Port** – The port to use for the hardware station to communicate with the Modern POS client.</span></span>
+    - <span data-ttu-id="60de9-546">**Vélbúnaðarregla** - Fyrir samnýttar vélbúnaðarstöðvar ætti hver vélbúnaðarstöð að hafa vélbúnaðarreglu.</span><span class="sxs-lookup"><span data-stu-id="60de9-546">**Hardware profile** – For shared hardware stations, each hardware station should have a hardware profile.</span></span> <span data-ttu-id="60de9-547">Hægt er að deila vélbúnaðarreglum milli vélbúnaðarstöðva en þeim verður að vera varpað á hverja vélbúnaðarstöð.</span><span class="sxs-lookup"><span data-stu-id="60de9-547">Hardware profiles can be shared among hardware stations, but they must be mapped to each hardware station.</span></span> <span data-ttu-id="60de9-548">Þar að auki er mælt með að nota samnýtta vaktir þegar margar tæki nota sömu samnýttu vélbúnaðarstöð.</span><span class="sxs-lookup"><span data-stu-id="60de9-548">In addition, we recommend that you use shared shifts when multiple devices use the same shared hardware station.</span></span> <span data-ttu-id="60de9-549">Til að setja upp samnýtta vakt skal smella á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstillingar sölustaðar** &gt; **Vélbúnaðarreglur**.</span><span class="sxs-lookup"><span data-stu-id="60de9-549">To set up a shared shift, click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware profiles**.</span></span> <span data-ttu-id="60de9-550">Velja peningaskúffu fyrir hverja samnýtta vélbúnaðarreglu og stilla valkostinn **Samnýttum vakt skúffu** á **Já**.</span><span class="sxs-lookup"><span data-stu-id="60de9-550">For each shared hardware profile, select the cash drawer, and set the **Shared shift drawer** option to **Yes**.</span></span>
+    - <span data-ttu-id="60de9-551">**Verslunarnúmer Kortamillifærslu númer** -Auðkenni afgreiðslustöðvar KORTAMILLIFÆRSLU Er að nota þegar KORTAMILLIFÆRSLU heimildum eru send.</span><span class="sxs-lookup"><span data-stu-id="60de9-551">**EFT POS number** – The EFT terminal ID to use when EFT authorizations are sent.</span></span> <span data-ttu-id="60de9-552">Þetta Kenni er veitt með kreditkortagjörvanum.</span><span class="sxs-lookup"><span data-stu-id="60de9-552">This ID is provided by the credit card processor.</span></span>
+    - <span data-ttu-id="60de9-553">**Pakkaheiti** – Vélbúnaðarstöðvarpakkinn sem á að nota þegar vélbúnaðarstöð er virkjuð.</span><span class="sxs-lookup"><span data-stu-id="60de9-553">**Package name** – The hardware station package to use when the hardware station is deployed.</span></span>
+
+4. <span data-ttu-id="60de9-554">Endurtakið skref 2 og 3 fyrir hverja viðbótar vélbúnaðarstöð sem krafist er í versluninni.</span><span class="sxs-lookup"><span data-stu-id="60de9-554">Repeat steps 2 and 3 for each additional hardware station that is required in the store.</span></span>
+5. <span data-ttu-id="60de9-555">Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.</span><span class="sxs-lookup"><span data-stu-id="60de9-555">Click **Retail** &gt; **Retail IT** &gt; **Distribution schedule**.</span></span>
+6. <span data-ttu-id="60de9-556">Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun.</span><span class="sxs-lookup"><span data-stu-id="60de9-556">Select the **1090** distribution schedule to sync the new hardware profile to the store.</span></span> <span data-ttu-id="60de9-557">Smella skal á **Keyra nú** til að samstilla breytingar við POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-557">Click **Run now** to sync changes to the POS.</span></span>
+7. <span data-ttu-id="60de9-558">Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun.</span><span class="sxs-lookup"><span data-stu-id="60de9-558">Select the **1040** distribution schedule to sync the new hardware station to the store.</span></span> <span data-ttu-id="60de9-559">Smella skal á **Keyra nú** til að samstilla breytingar við POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-559">Click **Run now** to sync changes to the POS.</span></span>
+8. <span data-ttu-id="60de9-560">Setja upp vélbúnaðarstöð á hverri hýsitölvu sem sett er upp í skrefum 2 og 3.</span><span class="sxs-lookup"><span data-stu-id="60de9-560">Install the hardware station on each host computer that you set up in steps 2 and 3.</span></span> <span data-ttu-id="60de9-561">Nánari upplýsingar um hvernig á að setja upp vélbúnaðarstöð er að finna í [Uppsetningu og skilgreiningu á vélbúnaðarstöð smásölu](retail-hardware-station-configuration-installation.md).</span><span class="sxs-lookup"><span data-stu-id="60de9-561">For more information about how to install the hardware station, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md).</span></span>
+9. <span data-ttu-id="60de9-562">Setja upp og virkja Modern POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-562">Install and activate Modern POS.</span></span> <span data-ttu-id="60de9-563">Nánari upplýsingar um hvernig á að setja upp Modern POS er að finna í [Retail Modern POS Uppsetningu og skilgreining](retail-modern-pos-device-activation.md).</span><span class="sxs-lookup"><span data-stu-id="60de9-563">For more information about how to install Modern POS, see [Retail Modern POS configuration and installation](retail-modern-pos-device-activation.md).</span></span>
+10. <span data-ttu-id="60de9-564">Innskráning á Modern POS og veljið **Framkvæma aðgerðir utan skúffu**.</span><span class="sxs-lookup"><span data-stu-id="60de9-564">Sign in to Modern POS, and select **Perform non-drawer operations**.</span></span>
+11. <span data-ttu-id="60de9-565">Byrja á **Stjórna vélbúnaðarstöðvar** aðgerð.</span><span class="sxs-lookup"><span data-stu-id="60de9-565">Start the **Manage hardware stations** operation.</span></span>
+12. <span data-ttu-id="60de9-566">Smellið á **Stjórna**.</span><span class="sxs-lookup"><span data-stu-id="60de9-566">Click **Manage**.</span></span>
+13. <span data-ttu-id="60de9-567">Í stjórnunarsíðu vélbúnaðarstöðvar skal stilla valkost til að kveikja á vélbúnaðarstöðinni.</span><span class="sxs-lookup"><span data-stu-id="60de9-567">On the hardware station management page, set the option to turn on the hardware station.</span></span>
+14. <span data-ttu-id="60de9-568">Velja vélbúnaðarstöð til að nota og síðan smellt á **Para**.</span><span class="sxs-lookup"><span data-stu-id="60de9-568">Select the hardware station to use, and then click **Pair**.</span></span>
+15. <span data-ttu-id="60de9-569">Endurtakið skref 14 fyrir hverja vélbúnaðarstöð sem Modern POS notar.</span><span class="sxs-lookup"><span data-stu-id="60de9-569">Repeat step 14 for each hardware station that Modern POS will use.</span></span>
+16. <span data-ttu-id="60de9-570">Eftir að allar nauðsynlegar vélbúnaðarstöðvar eru paraðar skal smella á **Loka**.</span><span class="sxs-lookup"><span data-stu-id="60de9-570">After all the required hardware stations are paired, click **Close**.</span></span>
+17. <span data-ttu-id="60de9-571">Á valsíðu vélbúnaðarstöðvar er smellt á nýlega valda vélbúnaðarstöð til að gera hana virka.</span><span class="sxs-lookup"><span data-stu-id="60de9-571">On the hardware station selection page, click the recently selected hardware station to make it active.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="60de9-572">Ef tæki nota mismunandi vélbúnaðarstöðvar oft er ráðlagt að skilgreina Modern POS til að senda kvaðningu á gjaldkera til að velja vélbúnaðarstöð þegar þeir byrja á greiðslumátaferli.</span><span class="sxs-lookup"><span data-stu-id="60de9-572">If devices often use different hardware stations, we recommend that you configure Modern POS to prompt cashiers to select a hardware station when they begin the tender process.</span></span> <span data-ttu-id="60de9-573">Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Afgreiðslukassar**.</span><span class="sxs-lookup"><span data-stu-id="60de9-573">Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**.</span></span> <span data-ttu-id="60de9-574">Veljið afgreiðslukassa og stillið valkostinn **Velja við greiðslumáta** á **Já**.</span><span class="sxs-lookup"><span data-stu-id="60de9-574">Select the register, and then set the **Select upon tender** option to **Yes**.</span></span> <span data-ttu-id="60de9-575">Notaðu **1090** dreifingaráætlun til að samstilla breytingar við gagnagrunn rásar.</span><span class="sxs-lookup"><span data-stu-id="60de9-575">Use the **1090** distribution schedule to sync changes to the channel database.</span></span>
+
+## <a name="extensibility"></a><span data-ttu-id="60de9-576">Stækkunarhæfni</span><span class="sxs-lookup"><span data-stu-id="60de9-576">Extensibility</span></span>
+
+<span data-ttu-id="60de9-577">Sjá upplýsingar um stækkunarhæfniaðstæður fyrir vélabúnaðarstöð í [Stækkunarhæfni vélbúnaðarstöðvar](dev-itpro/hardware-station-extensibility.md).</span><span class="sxs-lookup"><span data-stu-id="60de9-577">For information about extensibility scenarios for the hardware station, see [Hardware Station extensibility](dev-itpro/hardware-station-extensibility.md).</span></span>
+
+## <a name="security"></a><span data-ttu-id="60de9-578">Öryggi</span><span class="sxs-lookup"><span data-stu-id="60de9-578">Security</span></span>
+
+<span data-ttu-id="60de9-579">Samkvæmt gildandi öryggisstöðlum á að nota eftirfarandi stillingar í framleiðsluumhverfi:</span><span class="sxs-lookup"><span data-stu-id="60de9-579">According to current security standards, the following settings should be used in a production environment:</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="60de9-580">Uppsetningarforrit vélbúnaðarstöðvar mun sjálfkrafa gera þessar breytingar á stýriskrá sem hluti af uppsetningu gegnum sjálfsafgreiðslu.</span><span class="sxs-lookup"><span data-stu-id="60de9-580">The hardware station installer will automatically make these registry edits as part of the installation through self-service.</span></span>
+
+- <span data-ttu-id="60de9-581">Secure Sockets Layer (SSL) ætti að gera óvirkt.</span><span class="sxs-lookup"><span data-stu-id="60de9-581">Secure Sockets Layer (SSL) should be disabled.</span></span>
+- <span data-ttu-id="60de9-582">Einungis Transport Layer Security (TLS) útgáfu 1,2 (eða í gildandi hæsta) ætti að vera virkjuð og notuð.</span><span class="sxs-lookup"><span data-stu-id="60de9-582">Only Transport Layer Security (TLS) version 1.2 (or the current highest version) should be enabled and used.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="60de9-583">Sjálfgefið er að SSL og allar útgáfur af TLS nema TLS 1.2 eru gerðar óvirkar.</span><span class="sxs-lookup"><span data-stu-id="60de9-583">By default, SSL and all versions of TLS except TLS 1.2 are disabled.</span></span>
+
+    <span data-ttu-id="60de9-584">Fylgið eftirfarandi skrefum til að breyta eða virkja þessi gildi:</span><span class="sxs-lookup"><span data-stu-id="60de9-584">To edit or enable these values, follow these steps:</span></span>
+
+    1. <span data-ttu-id="60de9-585">Styðjið á merki Windows lykill + Rannsókn til að opna í **Keyra** glugga.</span><span class="sxs-lookup"><span data-stu-id="60de9-585">Press the Windows logo key+R to open a **Run** window.</span></span>
+    2. <span data-ttu-id="60de9-586">Í svæðinu **Opna** ritið **Regedit**, og smellið síðan á **í lagi**.</span><span class="sxs-lookup"><span data-stu-id="60de9-586">In the **Open** field, type **Regedit**, and then click **OK**.</span></span>
+    3. <span data-ttu-id="60de9-587">Ef að **Stjórnun notendareikninga** skilaboðagluggi birtist er smellt á **Já**.</span><span class="sxs-lookup"><span data-stu-id="60de9-587">If a **User Account Control** message box appears, click **Yes**.</span></span>
+    4. <span data-ttu-id="60de9-588">Í glugganum **Stýriskrána Ritill** fara í **HKEY\_STAÐBUNDNA\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span><span class="sxs-lookup"><span data-stu-id="60de9-588">In the **Registry Editor** window, navigate to **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**.</span></span> <span data-ttu-id="60de9-589">Eftirfarandi lyklar hafa verið sjálfkrafa færðar inn til að leyfa aðeins fyrir TLS 1,2:</span><span class="sxs-lookup"><span data-stu-id="60de9-589">The following keys have been automatically entered to allow for TLS 1.2 only:</span></span>
+
+        - <span data-ttu-id="60de9-590">TLS 1.2Server:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="60de9-590">TLS 1.2Server:Enabled=1</span></span>
+        - <span data-ttu-id="60de9-591">TLS 1.2Server:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="60de9-591">TLS 1.2Server:DisabledByDefault=0</span></span>
+        - <span data-ttu-id="60de9-592">TLS 1.2Client:Enabled=1</span><span class="sxs-lookup"><span data-stu-id="60de9-592">TLS 1.2Client:Enabled=1</span></span>
+        - <span data-ttu-id="60de9-593">TLS 1.2Client:DisabledByDefault=0</span><span class="sxs-lookup"><span data-stu-id="60de9-593">TLS 1.2Client:DisabledByDefault=0</span></span>
+        - <span data-ttu-id="60de9-594">TLS 1.1Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="60de9-594">TLS 1.1Server:Enabled=0</span></span>
+        - <span data-ttu-id="60de9-595">TLS 1.1Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="60de9-595">TLS 1.1Client:Enabled=0</span></span>
+        - <span data-ttu-id="60de9-596">TLS 1.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="60de9-596">TLS 1.0Server:Enabled=0</span></span>
+        - <span data-ttu-id="60de9-597">TLS 1.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="60de9-597">TLS 1.0Client:Enabled=0</span></span>
+        - <span data-ttu-id="60de9-598">SSL 3.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="60de9-598">SSL 3.0Server:Enabled=0</span></span>
+        - <span data-ttu-id="60de9-599">SSL 3.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="60de9-599">SSL 3.0Client:Enabled=0</span></span>
+        - <span data-ttu-id="60de9-600">SSL 2.0Server:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="60de9-600">SSL 2.0Server:Enabled=0</span></span>
+        - <span data-ttu-id="60de9-601">SSL 2.0Client:Enabled=0</span><span class="sxs-lookup"><span data-stu-id="60de9-601">SSL 2.0Client:Enabled=0</span></span>
+
+- <span data-ttu-id="60de9-602">Enginn viðbótar net tengi ætti að vera opin, nema þær séu nauðsynlegar ástæðum þekkt er tilgreindur.</span><span class="sxs-lookup"><span data-stu-id="60de9-602">No additional network ports should be open, unless they are required for known, specified reasons.</span></span>
+- <span data-ttu-id="60de9-603">Gera verður tilfangasamnýtingu á milli uppruna óvirka og verður að tilgreina leyfð uppruna sem eru samþykktar.</span><span class="sxs-lookup"><span data-stu-id="60de9-603">Cross-origin resource sharing must be disabled and must specify the allowed origins that are accepted.</span></span>
+- <span data-ttu-id="60de9-604">Aðeins traust skírteini yfirvalda ætti að nota til að fá vottorð sem verður notaður í tölvum sem keyra vélbúnaðarstöðina.</span><span class="sxs-lookup"><span data-stu-id="60de9-604">Only trusted certificate authorities should be used to obtain certificates that will be used on computers that run the hardware station.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="60de9-605">Afar mikilvægt er að farið sé yfir öryggisleiðbeiningar fyrir IIS og þarfir greiðslukortageirans (PCI).</span><span class="sxs-lookup"><span data-stu-id="60de9-605">It's very important that you review security guidelines for IIS and the Payment Card Industry (PCI) requirements.</span></span>
+
+## <a name="peripheral-simulator"></a><span data-ttu-id="60de9-606">Jaðarbúnaður</span><span class="sxs-lookup"><span data-stu-id="60de9-606">Peripheral simulator</span></span>
+
+<span data-ttu-id="60de9-607">Sjá upplýsingar [Jaðarbúnaðarhermir smásölu](dev-itpro/retail-peripheral-simulator.md).</span><span class="sxs-lookup"><span data-stu-id="60de9-607">For information, see [Retail peripheral simulator](dev-itpro/retail-peripheral-simulator.md).</span></span>
+
+## <a name="microsoft-tested-peripheral-devices"></a><span data-ttu-id="60de9-608">Jaðartæki Microsoft-tested</span><span class="sxs-lookup"><span data-stu-id="60de9-608">Microsoft-tested peripheral devices</span></span>
+
+### <a name="ipc-built-in-hardware-station"></a><span data-ttu-id="60de9-609">IPC (innbyggð) vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="60de9-609">IPC (built-in) hardware station</span></span>
+
+<span data-ttu-id="60de9-610">Eftirfarandi jaðartæki voru prófuð með því að nota IPC vélbúnaðarstöð sem er innbyggð í Modern POS fyrir Windows.</span><span class="sxs-lookup"><span data-stu-id="60de9-610">The following peripherals were tested by using the IPC hardware station that is built into Modern POS for Windows.</span></span>
+
+#### <a name="printer"></a><span data-ttu-id="60de9-611">Prentari</span><span class="sxs-lookup"><span data-stu-id="60de9-611">Printer</span></span>
+
+| <span data-ttu-id="60de9-612">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-612">Manufacturer</span></span> | <span data-ttu-id="60de9-613">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-613">Model</span></span>    | <span data-ttu-id="60de9-614">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-614">Interface</span></span> | <span data-ttu-id="60de9-615">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-615">Comments</span></span>                |
+|--------------|----------|-----------|-------------------------|
+| <span data-ttu-id="60de9-616">Epson</span><span class="sxs-lookup"><span data-stu-id="60de9-616">Epson</span></span>        | <span data-ttu-id="60de9-617">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="60de9-617">Tm-T88IV</span></span> | <span data-ttu-id="60de9-618">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-618">OPOS</span></span>      |                         |
+| <span data-ttu-id="60de9-619">Epson</span><span class="sxs-lookup"><span data-stu-id="60de9-619">Epson</span></span>        | <span data-ttu-id="60de9-620">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="60de9-620">TM-T88V</span></span>  | <span data-ttu-id="60de9-621">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-621">OPOS</span></span>      |                         |
+| <span data-ttu-id="60de9-622">Star</span><span class="sxs-lookup"><span data-stu-id="60de9-622">Star</span></span>         | <span data-ttu-id="60de9-623">TSP650II</span><span class="sxs-lookup"><span data-stu-id="60de9-623">TSP650II</span></span> | <span data-ttu-id="60de9-624">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-624">OPOS</span></span>      |                         |
+| <span data-ttu-id="60de9-625">Star</span><span class="sxs-lookup"><span data-stu-id="60de9-625">Star</span></span>         | <span data-ttu-id="60de9-626">TSP650II</span><span class="sxs-lookup"><span data-stu-id="60de9-626">TSP650II</span></span> | <span data-ttu-id="60de9-627">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="60de9-627">Custom</span></span>    | <span data-ttu-id="60de9-628">Tengt gegnum netkerfi</span><span class="sxs-lookup"><span data-stu-id="60de9-628">Connected via network</span></span>   |
+| <span data-ttu-id="60de9-629">Star</span><span class="sxs-lookup"><span data-stu-id="60de9-629">Star</span></span>         | <span data-ttu-id="60de9-630">mPOP</span><span class="sxs-lookup"><span data-stu-id="60de9-630">mPOP</span></span>     | <span data-ttu-id="60de9-631">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-631">OPOS</span></span>      | <span data-ttu-id="60de9-632">Tengt gegnum Bluetooth</span><span class="sxs-lookup"><span data-stu-id="60de9-632">Connected via Bluetooth</span></span> |
+| <span data-ttu-id="60de9-633">HP</span><span class="sxs-lookup"><span data-stu-id="60de9-633">HP</span></span>           | <span data-ttu-id="60de9-634">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="60de9-634">F7M67AA</span></span>  | <span data-ttu-id="60de9-635">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-635">OPOS</span></span>      | <span data-ttu-id="60de9-636">Rafhlöðu USB</span><span class="sxs-lookup"><span data-stu-id="60de9-636">Powered USB</span></span>             |
+
+#### <a name="bar-code-scanner"></a><span data-ttu-id="60de9-637">Strikamerkjaskanni</span><span class="sxs-lookup"><span data-stu-id="60de9-637">Bar code scanner</span></span>
+
+| <span data-ttu-id="60de9-638">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-638">Manufacturer</span></span>  | <span data-ttu-id="60de9-639">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-639">Model</span></span>         | <span data-ttu-id="60de9-640">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-640">Interface</span></span> | <span data-ttu-id="60de9-641">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-641">Comments</span></span> |
+|---------------|---------------|-----------|----------|
+| <span data-ttu-id="60de9-642">Motorola</span><span class="sxs-lookup"><span data-stu-id="60de9-642">Motorola</span></span>      | <span data-ttu-id="60de9-643">DS9208</span><span class="sxs-lookup"><span data-stu-id="60de9-643">DS9208</span></span>        | <span data-ttu-id="60de9-644">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-644">OPOS</span></span>      |          |
+| <span data-ttu-id="60de9-645">Honeywell</span><span class="sxs-lookup"><span data-stu-id="60de9-645">Honeywell</span></span>     | <span data-ttu-id="60de9-646">1900</span><span class="sxs-lookup"><span data-stu-id="60de9-646">1900</span></span>          | <span data-ttu-id="60de9-647">UWP</span><span class="sxs-lookup"><span data-stu-id="60de9-647">UWP</span></span>       |          |
+| <span data-ttu-id="60de9-648">Tákn</span><span class="sxs-lookup"><span data-stu-id="60de9-648">Symbol</span></span>        | <span data-ttu-id="60de9-649">LS2208</span><span class="sxs-lookup"><span data-stu-id="60de9-649">LS2208</span></span>        | <span data-ttu-id="60de9-650">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-650">OPOS</span></span>      |          |
+| <span data-ttu-id="60de9-651">HP Samþætt</span><span class="sxs-lookup"><span data-stu-id="60de9-651">HP Integrated</span></span> | <span data-ttu-id="60de9-652">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="60de9-652">E1L07AA</span></span>       | <span data-ttu-id="60de9-653">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-653">OPOS</span></span>      |          |
+| <span data-ttu-id="60de9-654">Datalogic</span><span class="sxs-lookup"><span data-stu-id="60de9-654">Datalogic</span></span>     | <span data-ttu-id="60de9-655">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="60de9-655">Magellan 8400</span></span> | <span data-ttu-id="60de9-656">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-656">OPOS</span></span>      |          |
+
+#### <a name="pin-pad"></a><span data-ttu-id="60de9-657">PIN-takkaborð</span><span class="sxs-lookup"><span data-stu-id="60de9-657">PIN pad</span></span>
+
+| <span data-ttu-id="60de9-658">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-658">Manufacturer</span></span> | <span data-ttu-id="60de9-659">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-659">Model</span></span>  | <span data-ttu-id="60de9-660">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-660">Interface</span></span> | <span data-ttu-id="60de9-661">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-661">Comments</span></span>                                        |
+|--------------|--------|-----------|-------------------------------------------------|
+| <span data-ttu-id="60de9-662">Verifone</span><span class="sxs-lookup"><span data-stu-id="60de9-662">VeriFone</span></span>     | <span data-ttu-id="60de9-663">1000SE</span><span class="sxs-lookup"><span data-stu-id="60de9-663">1000SE</span></span> | <span data-ttu-id="60de9-664">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-664">OPOS</span></span>      | <span data-ttu-id="60de9-665">Krefst sérsniðs greiðslutengils</span><span class="sxs-lookup"><span data-stu-id="60de9-665">Requires customization of the payment connector</span></span> |
+
+#### <a name="payment-terminal"></a><span data-ttu-id="60de9-666">Greiðslustöð</span><span class="sxs-lookup"><span data-stu-id="60de9-666">Payment terminal</span></span>
+
+| <span data-ttu-id="60de9-667">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-667">Manufacturer</span></span> | <span data-ttu-id="60de9-668">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-668">Model</span></span> | <span data-ttu-id="60de9-669">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-669">Interface</span></span> | <span data-ttu-id="60de9-670">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-670">Comments</span></span>                                                                       |
+|--------------|-------|-----------|--------------------------------------------------------------------------------|
+| <span data-ttu-id="60de9-671">Equinox</span><span class="sxs-lookup"><span data-stu-id="60de9-671">Equinox</span></span>      | <span data-ttu-id="60de9-672">L5300</span><span class="sxs-lookup"><span data-stu-id="60de9-672">L5300</span></span> | <span data-ttu-id="60de9-673">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="60de9-673">Custom</span></span>    | <span data-ttu-id="60de9-674">Krefst sérsniðs greiðslutengils</span><span class="sxs-lookup"><span data-stu-id="60de9-674">Requires customization of the payment connector</span></span>                                |
+| <span data-ttu-id="60de9-675">Verifone</span><span class="sxs-lookup"><span data-stu-id="60de9-675">VeriFone</span></span>     | <span data-ttu-id="60de9-676">MX925</span><span class="sxs-lookup"><span data-stu-id="60de9-676">MX925</span></span> | <span data-ttu-id="60de9-677">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="60de9-677">Custom</span></span>    | <span data-ttu-id="60de9-678">Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB</span><span class="sxs-lookup"><span data-stu-id="60de9-678">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="60de9-679">Verifone</span><span class="sxs-lookup"><span data-stu-id="60de9-679">VeriFone</span></span>     | <span data-ttu-id="60de9-680">MX915</span><span class="sxs-lookup"><span data-stu-id="60de9-680">MX915</span></span> | <span data-ttu-id="60de9-681">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="60de9-681">Custom</span></span>    | <span data-ttu-id="60de9-682">Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB</span><span class="sxs-lookup"><span data-stu-id="60de9-682">Requires customization of the payment connector; connected via network and USB</span></span> |
+
+#### <a name="cash-drawer"></a><span data-ttu-id="60de9-683">Peningaskúffa</span><span class="sxs-lookup"><span data-stu-id="60de9-683">Cash drawer</span></span>
+
+| <span data-ttu-id="60de9-684">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-684">Manufacturer</span></span> | <span data-ttu-id="60de9-685">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-685">Model</span></span>     | <span data-ttu-id="60de9-686">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-686">Interface</span></span> | <span data-ttu-id="60de9-687">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-687">Comments</span></span>                |
+|--------------|-----------|-----------|-------------------------|
+| <span data-ttu-id="60de9-688">Star</span><span class="sxs-lookup"><span data-stu-id="60de9-688">Star</span></span>         | <span data-ttu-id="60de9-689">mPOP</span><span class="sxs-lookup"><span data-stu-id="60de9-689">mPOP</span></span>      | <span data-ttu-id="60de9-690">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-690">OPOS</span></span>      | <span data-ttu-id="60de9-691">Tengt gegnum Bluetooth</span><span class="sxs-lookup"><span data-stu-id="60de9-691">Connected via Bluetooth</span></span> |
+| <span data-ttu-id="60de9-692">APG</span><span class="sxs-lookup"><span data-stu-id="60de9-692">APG</span></span>          | <span data-ttu-id="60de9-693">Atwood</span><span class="sxs-lookup"><span data-stu-id="60de9-693">Atwood</span></span>    | <span data-ttu-id="60de9-694">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="60de9-694">Custom</span></span>    | <span data-ttu-id="60de9-695">Tengt gegnum netkerfi</span><span class="sxs-lookup"><span data-stu-id="60de9-695">Connected via network</span></span>   |
+| <span data-ttu-id="60de9-696">Star</span><span class="sxs-lookup"><span data-stu-id="60de9-696">Star</span></span>         | <span data-ttu-id="60de9-697">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="60de9-697">SMD2-1317</span></span> | <span data-ttu-id="60de9-698">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-698">OPOS</span></span>      |                         |
+| <span data-ttu-id="60de9-699">HP</span><span class="sxs-lookup"><span data-stu-id="60de9-699">HP</span></span>           | <span data-ttu-id="60de9-700">QT457AA</span><span class="sxs-lookup"><span data-stu-id="60de9-700">QT457AA</span></span>   | <span data-ttu-id="60de9-701">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-701">OPOS</span></span>      |                         |
+
+#### <a name="line-display"></a><span data-ttu-id="60de9-702">Línuskjár</span><span class="sxs-lookup"><span data-stu-id="60de9-702">Line display</span></span>
+
+| <span data-ttu-id="60de9-703">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-703">Manufacturer</span></span>  | <span data-ttu-id="60de9-704">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-704">Model</span></span>   | <span data-ttu-id="60de9-705">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-705">Interface</span></span> | <span data-ttu-id="60de9-706">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-706">Comments</span></span> |
+|---------------|---------|-----------|----------|
+| <span data-ttu-id="60de9-707">HP Samþætt</span><span class="sxs-lookup"><span data-stu-id="60de9-707">HP integrated</span></span> | <span data-ttu-id="60de9-708">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="60de9-708">G6U79AA</span></span> | <span data-ttu-id="60de9-709">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-709">OPOS</span></span>      |          |
+| <span data-ttu-id="60de9-710">Epson</span><span class="sxs-lookup"><span data-stu-id="60de9-710">Epson</span></span>         | <span data-ttu-id="60de9-711">M58DC</span><span class="sxs-lookup"><span data-stu-id="60de9-711">M58DC</span></span>   | <span data-ttu-id="60de9-712">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-712">OPOS</span></span>      |          |
+
+#### <a name="signature-capture"></a><span data-ttu-id="60de9-713">Sækja undirskrift</span><span class="sxs-lookup"><span data-stu-id="60de9-713">Signature capture</span></span>
+
+| <span data-ttu-id="60de9-714">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-714">Manufacturer</span></span> | <span data-ttu-id="60de9-715">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-715">Model</span></span>  | <span data-ttu-id="60de9-716">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-716">Interface</span></span> | <span data-ttu-id="60de9-717">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-717">Comments</span></span> |
+|--------------|--------|-----------|----------|
+| <span data-ttu-id="60de9-718">Scriptel</span><span class="sxs-lookup"><span data-stu-id="60de9-718">Scriptel</span></span>     | <span data-ttu-id="60de9-719">ST1550</span><span class="sxs-lookup"><span data-stu-id="60de9-719">ST1550</span></span> | <span data-ttu-id="60de9-720">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-720">OPOS</span></span>      |          |
+
+#### <a name="scale"></a><span data-ttu-id="60de9-721">Vigt</span><span class="sxs-lookup"><span data-stu-id="60de9-721">Scale</span></span>
+
+| <span data-ttu-id="60de9-722">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-722">Manufacturer</span></span> | <span data-ttu-id="60de9-723">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-723">Model</span></span>         | <span data-ttu-id="60de9-724">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-724">Interface</span></span> | <span data-ttu-id="60de9-725">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-725">Comments</span></span> |
+|--------------|---------------|-----------|----------|
+| <span data-ttu-id="60de9-726">Datalogic</span><span class="sxs-lookup"><span data-stu-id="60de9-726">Datalogic</span></span>    | <span data-ttu-id="60de9-727">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="60de9-727">Magellan 8400</span></span> | <span data-ttu-id="60de9-728">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-728">OPOS</span></span>      |          |
+
+#### <a name="msr"></a><span data-ttu-id="60de9-729">Kortalesari</span><span class="sxs-lookup"><span data-stu-id="60de9-729">MSR</span></span>
+
+| <span data-ttu-id="60de9-730">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-730">Manufacturer</span></span> | <span data-ttu-id="60de9-731">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-731">Model</span></span>       | <span data-ttu-id="60de9-732">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-732">Interface</span></span> | <span data-ttu-id="60de9-733">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-733">Comments</span></span> |
+|--------------|-------------|-----------|----------|
+| <span data-ttu-id="60de9-734">Magtek</span><span class="sxs-lookup"><span data-stu-id="60de9-734">Magtek</span></span>       | <span data-ttu-id="60de9-735">21073075</span><span class="sxs-lookup"><span data-stu-id="60de9-735">21073075</span></span>    | <span data-ttu-id="60de9-736">UWP</span><span class="sxs-lookup"><span data-stu-id="60de9-736">UWP</span></span>       |          |
+| <span data-ttu-id="60de9-737">Magtek</span><span class="sxs-lookup"><span data-stu-id="60de9-737">Magtek</span></span>       | <span data-ttu-id="60de9-738">21073062</span><span class="sxs-lookup"><span data-stu-id="60de9-738">21073062</span></span>    | <span data-ttu-id="60de9-739">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-739">OPOS</span></span>      |          |
+| <span data-ttu-id="60de9-740">HP</span><span class="sxs-lookup"><span data-stu-id="60de9-740">HP</span></span>           | <span data-ttu-id="60de9-741">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="60de9-741">IDRA-334133</span></span> | <span data-ttu-id="60de9-742">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-742">OPOS</span></span>      |          |
+
+### <a name="dedicated-iis-hardware-station"></a><span data-ttu-id="60de9-743">Sérhæft IIS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="60de9-743">Dedicated IIS hardware station</span></span>
+
+<span data-ttu-id="60de9-744">Eftirfarandi jaðartæki voru prófuð með því að nota sérhæfða (ekki samnýtta) IPC vélbúnaðarstöð sem ásamt Modern POS fyrir Windows og Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-744">The following peripherals were tested by using a dedicated (not shared) IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span>
+
+#### <a name="printer"></a><span data-ttu-id="60de9-745">Prentari</span><span class="sxs-lookup"><span data-stu-id="60de9-745">Printer</span></span>
+
+| <span data-ttu-id="60de9-746">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-746">Manufacturer</span></span> | <span data-ttu-id="60de9-747">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-747">Model</span></span>    | <span data-ttu-id="60de9-748">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-748">Interface</span></span> | <span data-ttu-id="60de9-749">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-749">Comments</span></span>                  |
+|--------------|----------|-----------|---------------------------|
+| <span data-ttu-id="60de9-750">Epson</span><span class="sxs-lookup"><span data-stu-id="60de9-750">Epson</span></span>        | <span data-ttu-id="60de9-751">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="60de9-751">Tm-T88IV</span></span> | <span data-ttu-id="60de9-752">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-752">OPOS</span></span>      |                           |
+| <span data-ttu-id="60de9-753">Epson</span><span class="sxs-lookup"><span data-stu-id="60de9-753">Epson</span></span>        | <span data-ttu-id="60de9-754">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="60de9-754">TM-T88V</span></span>  | <span data-ttu-id="60de9-755">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-755">OPOS</span></span>      |                           |
+| <span data-ttu-id="60de9-756">Star</span><span class="sxs-lookup"><span data-stu-id="60de9-756">Star</span></span>         | <span data-ttu-id="60de9-757">TSP650II</span><span class="sxs-lookup"><span data-stu-id="60de9-757">TSP650II</span></span> | <span data-ttu-id="60de9-758">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-758">OPOS</span></span>      |                           |
+| <span data-ttu-id="60de9-759">Star</span><span class="sxs-lookup"><span data-stu-id="60de9-759">Star</span></span>         | <span data-ttu-id="60de9-760">TSP650II</span><span class="sxs-lookup"><span data-stu-id="60de9-760">TSP650II</span></span> | <span data-ttu-id="60de9-761">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="60de9-761">Custom</span></span>    | <span data-ttu-id="60de9-762">Tengt gegnum netkerfi</span><span class="sxs-lookup"><span data-stu-id="60de9-762">Connected via network</span></span>     |
+| <span data-ttu-id="60de9-763">HP</span><span class="sxs-lookup"><span data-stu-id="60de9-763">HP</span></span>           | <span data-ttu-id="60de9-764">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="60de9-764">F7M67AA</span></span>  | <span data-ttu-id="60de9-765">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-765">OPOS</span></span>      | <span data-ttu-id="60de9-766">Rafhlöðu USB</span><span class="sxs-lookup"><span data-stu-id="60de9-766">Powered USB</span></span>               |
+
+#### <a name="bar-code-scanner"></a><span data-ttu-id="60de9-767">Strikamerkjaskanni</span><span class="sxs-lookup"><span data-stu-id="60de9-767">Bar code scanner</span></span>
+
+| <span data-ttu-id="60de9-768">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-768">Manufacturer</span></span>  | <span data-ttu-id="60de9-769">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-769">Model</span></span>   | <span data-ttu-id="60de9-770">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-770">Interface</span></span> | <span data-ttu-id="60de9-771">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-771">Comments</span></span> |
+|---------------|---------|-----------|----------|
+| <span data-ttu-id="60de9-772">Motorola</span><span class="sxs-lookup"><span data-stu-id="60de9-772">Motorola</span></span>      | <span data-ttu-id="60de9-773">DS9208</span><span class="sxs-lookup"><span data-stu-id="60de9-773">DS9208</span></span>  | <span data-ttu-id="60de9-774">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-774">OPOS</span></span>      |          |
+| <span data-ttu-id="60de9-775">Tákn</span><span class="sxs-lookup"><span data-stu-id="60de9-775">Symbol</span></span>        | <span data-ttu-id="60de9-776">LS2208</span><span class="sxs-lookup"><span data-stu-id="60de9-776">LS2208</span></span>  | <span data-ttu-id="60de9-777">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-777">OPOS</span></span>      |          |
+| <span data-ttu-id="60de9-778">HP Samþætt</span><span class="sxs-lookup"><span data-stu-id="60de9-778">HP Integrated</span></span> | <span data-ttu-id="60de9-779">E1L07AA</span><span class="sxs-lookup"><span data-stu-id="60de9-779">E1L07AA</span></span> | <span data-ttu-id="60de9-780">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-780">OPOS</span></span>      |          |
+
+#### <a name="pin-pad"></a><span data-ttu-id="60de9-781">PIN-takkaborð</span><span class="sxs-lookup"><span data-stu-id="60de9-781">PIN pad</span></span>
+
+| <span data-ttu-id="60de9-782">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-782">Manufacturer</span></span> | <span data-ttu-id="60de9-783">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-783">Model</span></span>  | <span data-ttu-id="60de9-784">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-784">Interface</span></span> | <span data-ttu-id="60de9-785">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-785">Comments</span></span>                                        |
+|--------------|--------|-----------|-------------------------------------------------|
+| <span data-ttu-id="60de9-786">Verifone</span><span class="sxs-lookup"><span data-stu-id="60de9-786">VeriFone</span></span>     | <span data-ttu-id="60de9-787">1000SE</span><span class="sxs-lookup"><span data-stu-id="60de9-787">1000SE</span></span> | <span data-ttu-id="60de9-788">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-788">OPOS</span></span>      | <span data-ttu-id="60de9-789">Krefst sérsniðs greiðslutengils</span><span class="sxs-lookup"><span data-stu-id="60de9-789">Requires customization of the payment connector</span></span> |
+
+#### <a name="payment-terminal"></a><span data-ttu-id="60de9-790">Greiðslustöð</span><span class="sxs-lookup"><span data-stu-id="60de9-790">Payment terminal</span></span>
+
+| <span data-ttu-id="60de9-791">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-791">Manufacturer</span></span> | <span data-ttu-id="60de9-792">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-792">Model</span></span> | <span data-ttu-id="60de9-793">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-793">Interface</span></span> | <span data-ttu-id="60de9-794">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-794">Comments</span></span>                                                                       |
+|--------------|-------|-----------|--------------------------------------------------------------------------------|
+| <span data-ttu-id="60de9-795">Equinox</span><span class="sxs-lookup"><span data-stu-id="60de9-795">Equinox</span></span>      | <span data-ttu-id="60de9-796">L5300</span><span class="sxs-lookup"><span data-stu-id="60de9-796">L5300</span></span> | <span data-ttu-id="60de9-797">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="60de9-797">Custom</span></span>    | <span data-ttu-id="60de9-798">Krefst sérsniðs greiðslutengils</span><span class="sxs-lookup"><span data-stu-id="60de9-798">Requires customization of the payment connector</span></span>                                |
+| <span data-ttu-id="60de9-799">Verifone</span><span class="sxs-lookup"><span data-stu-id="60de9-799">VeriFone</span></span>     | <span data-ttu-id="60de9-800">MX925</span><span class="sxs-lookup"><span data-stu-id="60de9-800">MX925</span></span> | <span data-ttu-id="60de9-801">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="60de9-801">Custom</span></span>    | <span data-ttu-id="60de9-802">Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB</span><span class="sxs-lookup"><span data-stu-id="60de9-802">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="60de9-803">Verifone</span><span class="sxs-lookup"><span data-stu-id="60de9-803">VeriFone</span></span>     | <span data-ttu-id="60de9-804">MX915</span><span class="sxs-lookup"><span data-stu-id="60de9-804">MX915</span></span> | <span data-ttu-id="60de9-805">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="60de9-805">Custom</span></span>    | <span data-ttu-id="60de9-806">Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB</span><span class="sxs-lookup"><span data-stu-id="60de9-806">Requires customization of the payment connector; connected via network and USB</span></span> |
+
+#### <a name="cash-drawer"></a><span data-ttu-id="60de9-807">Peningaskúffa</span><span class="sxs-lookup"><span data-stu-id="60de9-807">Cash drawer</span></span>
+
+| <span data-ttu-id="60de9-808">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-808">Manufacturer</span></span> | <span data-ttu-id="60de9-809">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-809">Model</span></span>     | <span data-ttu-id="60de9-810">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-810">Interface</span></span> | <span data-ttu-id="60de9-811">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-811">Comments</span></span>              |
+|--------------|-----------|-----------|-----------------------|
+| <span data-ttu-id="60de9-812">APG</span><span class="sxs-lookup"><span data-stu-id="60de9-812">APG</span></span>          | <span data-ttu-id="60de9-813">Atwood</span><span class="sxs-lookup"><span data-stu-id="60de9-813">Atwood</span></span>    | <span data-ttu-id="60de9-814">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="60de9-814">Custom</span></span>    | <span data-ttu-id="60de9-815">Tengt gegnum netkerfi</span><span class="sxs-lookup"><span data-stu-id="60de9-815">Connected via network</span></span> |
+| <span data-ttu-id="60de9-816">Star</span><span class="sxs-lookup"><span data-stu-id="60de9-816">Star</span></span>         | <span data-ttu-id="60de9-817">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="60de9-817">SMD2-1317</span></span> | <span data-ttu-id="60de9-818">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-818">OPOS</span></span>      |                       |
+| <span data-ttu-id="60de9-819">HP</span><span class="sxs-lookup"><span data-stu-id="60de9-819">HP</span></span>           | <span data-ttu-id="60de9-820">QT457AA</span><span class="sxs-lookup"><span data-stu-id="60de9-820">QT457AA</span></span>   | <span data-ttu-id="60de9-821">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-821">OPOS</span></span>      |                       |
+
+#### <a name="line-display"></a><span data-ttu-id="60de9-822">Línuskjár</span><span class="sxs-lookup"><span data-stu-id="60de9-822">Line display</span></span>
+
+| <span data-ttu-id="60de9-823">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-823">Manufacturer</span></span>  | <span data-ttu-id="60de9-824">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-824">Model</span></span>   | <span data-ttu-id="60de9-825">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-825">Interface</span></span> | <span data-ttu-id="60de9-826">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-826">Comments</span></span> |
+|---------------|---------|-----------|----------|
+| <span data-ttu-id="60de9-827">HP Samþætt</span><span class="sxs-lookup"><span data-stu-id="60de9-827">HP integrated</span></span> | <span data-ttu-id="60de9-828">G6U79AA</span><span class="sxs-lookup"><span data-stu-id="60de9-828">G6U79AA</span></span> | <span data-ttu-id="60de9-829">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-829">OPOS</span></span>      |          |
+| <span data-ttu-id="60de9-830">Epson</span><span class="sxs-lookup"><span data-stu-id="60de9-830">Epson</span></span>         | <span data-ttu-id="60de9-831">M58DC</span><span class="sxs-lookup"><span data-stu-id="60de9-831">M58DC</span></span>   | <span data-ttu-id="60de9-832">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-832">OPOS</span></span>      |          |
+
+#### <a name="signature-capture"></a><span data-ttu-id="60de9-833">Sækja undirskrift</span><span class="sxs-lookup"><span data-stu-id="60de9-833">Signature capture</span></span>
+
+| <span data-ttu-id="60de9-834">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-834">Manufacturer</span></span> | <span data-ttu-id="60de9-835">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-835">Model</span></span>  | <span data-ttu-id="60de9-836">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-836">Interface</span></span> | <span data-ttu-id="60de9-837">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-837">Comments</span></span> |
+|--------------|--------|-----------|----------|
+| <span data-ttu-id="60de9-838">Scriptel</span><span class="sxs-lookup"><span data-stu-id="60de9-838">Scriptel</span></span>     | <span data-ttu-id="60de9-839">ST1550</span><span class="sxs-lookup"><span data-stu-id="60de9-839">ST1550</span></span> | <span data-ttu-id="60de9-840">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-840">OPOS</span></span>      |          |
+
+#### <a name="scale"></a><span data-ttu-id="60de9-841">Vigt</span><span class="sxs-lookup"><span data-stu-id="60de9-841">Scale</span></span>
+
+| <span data-ttu-id="60de9-842">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-842">Manufacturer</span></span> | <span data-ttu-id="60de9-843">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-843">Model</span></span>         | <span data-ttu-id="60de9-844">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-844">Interface</span></span> | <span data-ttu-id="60de9-845">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-845">Comments</span></span> |
+|--------------|---------------|-----------|----------|
+| <span data-ttu-id="60de9-846">Datalogic</span><span class="sxs-lookup"><span data-stu-id="60de9-846">Datalogic</span></span>    | <span data-ttu-id="60de9-847">Magellan 8400</span><span class="sxs-lookup"><span data-stu-id="60de9-847">Magellan 8400</span></span> | <span data-ttu-id="60de9-848">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-848">OPOS</span></span>      |          |
+
+#### <a name="msr"></a><span data-ttu-id="60de9-849">Kortalesari</span><span class="sxs-lookup"><span data-stu-id="60de9-849">MSR</span></span>
+
+| <span data-ttu-id="60de9-850">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-850">Manufacturer</span></span> | <span data-ttu-id="60de9-851">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-851">Model</span></span>       | <span data-ttu-id="60de9-852">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-852">Interface</span></span> | <span data-ttu-id="60de9-853">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-853">Comments</span></span> |
+|--------------|-------------|-----------|----------|
+| <span data-ttu-id="60de9-854">Magtek</span><span class="sxs-lookup"><span data-stu-id="60de9-854">Magtek</span></span>       | <span data-ttu-id="60de9-855">21073075</span><span class="sxs-lookup"><span data-stu-id="60de9-855">21073075</span></span>    | <span data-ttu-id="60de9-856">UWP</span><span class="sxs-lookup"><span data-stu-id="60de9-856">UWP</span></span>       |          |
+| <span data-ttu-id="60de9-857">Magtek</span><span class="sxs-lookup"><span data-stu-id="60de9-857">Magtek</span></span>       | <span data-ttu-id="60de9-858">21073062</span><span class="sxs-lookup"><span data-stu-id="60de9-858">21073062</span></span>    | <span data-ttu-id="60de9-859">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-859">OPOS</span></span>      |          |
+| <span data-ttu-id="60de9-860">HP</span><span class="sxs-lookup"><span data-stu-id="60de9-860">HP</span></span>           | <span data-ttu-id="60de9-861">IDRA-334133</span><span class="sxs-lookup"><span data-stu-id="60de9-861">IDRA-334133</span></span> | <span data-ttu-id="60de9-862">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-862">OPOS</span></span>      |          |
+
+### <a name="shared-iis-hardware-station"></a><span data-ttu-id="60de9-863">Samnýtt IIS vélbúnaðarstöð</span><span class="sxs-lookup"><span data-stu-id="60de9-863">Shared IIS hardware station</span></span>
+
+<span data-ttu-id="60de9-864">Eftirfarandi jaðartæki voru prófuð með því að nota samnýtta (ekki sérhæfða) IPC vélbúnaðarstöð ásamt Modern POS fyrir Windows og Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="60de9-864">The following peripherals were tested by using a shared IIS hardware station together with Modern POS for Windows and Cloud POS.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="60de9-865">Aðeins prentari, greiðslustöð og peningaskúffa eru studd.</span><span class="sxs-lookup"><span data-stu-id="60de9-865">Only a printer, payment terminal, and cash drawer are supported.</span></span>
+
+#### <a name="printer"></a><span data-ttu-id="60de9-866">Prentari</span><span class="sxs-lookup"><span data-stu-id="60de9-866">Printer</span></span>
+
+| <span data-ttu-id="60de9-867">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-867">Manufacturer</span></span> | <span data-ttu-id="60de9-868">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-868">Model</span></span>    | <span data-ttu-id="60de9-869">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-869">Interface</span></span> | <span data-ttu-id="60de9-870">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-870">Comments</span></span>                  |
+|--------------|----------|-----------|---------------------------|
+| <span data-ttu-id="60de9-871">Epson</span><span class="sxs-lookup"><span data-stu-id="60de9-871">Epson</span></span>        | <span data-ttu-id="60de9-872">Tm-T88IV</span><span class="sxs-lookup"><span data-stu-id="60de9-872">Tm-T88IV</span></span> | <span data-ttu-id="60de9-873">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-873">OPOS</span></span>      |                           |
+| <span data-ttu-id="60de9-874">Epson</span><span class="sxs-lookup"><span data-stu-id="60de9-874">Epson</span></span>        | <span data-ttu-id="60de9-875">TM-T88V</span><span class="sxs-lookup"><span data-stu-id="60de9-875">TM-T88V</span></span>  | <span data-ttu-id="60de9-876">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-876">OPOS</span></span>      |                           |
+| <span data-ttu-id="60de9-877">Star</span><span class="sxs-lookup"><span data-stu-id="60de9-877">Star</span></span>         | <span data-ttu-id="60de9-878">TSP650II</span><span class="sxs-lookup"><span data-stu-id="60de9-878">TSP650II</span></span> | <span data-ttu-id="60de9-879">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-879">OPOS</span></span>      |                           |
+| <span data-ttu-id="60de9-880">Star</span><span class="sxs-lookup"><span data-stu-id="60de9-880">Star</span></span>         | <span data-ttu-id="60de9-881">TSP650II</span><span class="sxs-lookup"><span data-stu-id="60de9-881">TSP650II</span></span> | <span data-ttu-id="60de9-882">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="60de9-882">Custom</span></span>    | <span data-ttu-id="60de9-883">Tengt gegnum netkerfi</span><span class="sxs-lookup"><span data-stu-id="60de9-883">Connected via network</span></span>     |
+| <span data-ttu-id="60de9-884">HP</span><span class="sxs-lookup"><span data-stu-id="60de9-884">HP</span></span>           | <span data-ttu-id="60de9-885">F7M67AA</span><span class="sxs-lookup"><span data-stu-id="60de9-885">F7M67AA</span></span>  | <span data-ttu-id="60de9-886">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-886">OPOS</span></span>      | <span data-ttu-id="60de9-887">Rafhlöðu USB</span><span class="sxs-lookup"><span data-stu-id="60de9-887">Powered USB</span></span>               |
+
+#### <a name="payment-terminal"></a><span data-ttu-id="60de9-888">Greiðslustöð</span><span class="sxs-lookup"><span data-stu-id="60de9-888">Payment terminal</span></span>
+
+| <span data-ttu-id="60de9-889">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-889">Manufacturer</span></span> | <span data-ttu-id="60de9-890">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-890">Model</span></span> | <span data-ttu-id="60de9-891">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-891">Interface</span></span> | <span data-ttu-id="60de9-892">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-892">Comments</span></span>                                                                       |
+|--------------|-------|-----------|--------------------------------------------------------------------------------|
+| <span data-ttu-id="60de9-893">Verifone</span><span class="sxs-lookup"><span data-stu-id="60de9-893">VeriFone</span></span>     | <span data-ttu-id="60de9-894">MX925</span><span class="sxs-lookup"><span data-stu-id="60de9-894">MX925</span></span> | <span data-ttu-id="60de9-895">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="60de9-895">Custom</span></span>    | <span data-ttu-id="60de9-896">Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB</span><span class="sxs-lookup"><span data-stu-id="60de9-896">Requires customization of the payment connector; connected via network and USB</span></span> |
+| <span data-ttu-id="60de9-897">Verifone</span><span class="sxs-lookup"><span data-stu-id="60de9-897">VeriFone</span></span>     | <span data-ttu-id="60de9-898">MX915</span><span class="sxs-lookup"><span data-stu-id="60de9-898">MX915</span></span> | <span data-ttu-id="60de9-899">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="60de9-899">Custom</span></span>    | <span data-ttu-id="60de9-900">Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB</span><span class="sxs-lookup"><span data-stu-id="60de9-900">Requires customization of the payment connector; connected via network and USB</span></span> |
+
+#### <a name="cash-drawer"></a><span data-ttu-id="60de9-901">Peningaskúffa</span><span class="sxs-lookup"><span data-stu-id="60de9-901">Cash drawer</span></span>
+
+| <span data-ttu-id="60de9-902">Framleiðandi</span><span class="sxs-lookup"><span data-stu-id="60de9-902">Manufacturer</span></span> | <span data-ttu-id="60de9-903">Tegund</span><span class="sxs-lookup"><span data-stu-id="60de9-903">Model</span></span>     | <span data-ttu-id="60de9-904">Viðmót</span><span class="sxs-lookup"><span data-stu-id="60de9-904">Interface</span></span> | <span data-ttu-id="60de9-905">Athugasemdir</span><span class="sxs-lookup"><span data-stu-id="60de9-905">Comments</span></span>              |
+|--------------|-----------|-----------|-----------------------|
+| <span data-ttu-id="60de9-906">APG</span><span class="sxs-lookup"><span data-stu-id="60de9-906">APG</span></span>          | <span data-ttu-id="60de9-907">Atwood</span><span class="sxs-lookup"><span data-stu-id="60de9-907">Atwood</span></span>    | <span data-ttu-id="60de9-908">Sérsniðinn</span><span class="sxs-lookup"><span data-stu-id="60de9-908">Custom</span></span>    | <span data-ttu-id="60de9-909">Tengt gegnum netkerfi</span><span class="sxs-lookup"><span data-stu-id="60de9-909">Connected via network</span></span> |
+| <span data-ttu-id="60de9-910">Star</span><span class="sxs-lookup"><span data-stu-id="60de9-910">Star</span></span>         | <span data-ttu-id="60de9-911">SMD2-1317</span><span class="sxs-lookup"><span data-stu-id="60de9-911">SMD2-1317</span></span> | <span data-ttu-id="60de9-912">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-912">OPOS</span></span>      |                       |
+| <span data-ttu-id="60de9-913">HP</span><span class="sxs-lookup"><span data-stu-id="60de9-913">HP</span></span>           | <span data-ttu-id="60de9-914">QT457AA</span><span class="sxs-lookup"><span data-stu-id="60de9-914">QT457AA</span></span>   | <span data-ttu-id="60de9-915">OPOS</span><span class="sxs-lookup"><span data-stu-id="60de9-915">OPOS</span></span>      |                       |
+
+## <a name="troubleshooting"></a><span data-ttu-id="60de9-916">Úrræðaleit</span><span class="sxs-lookup"><span data-stu-id="60de9-916">Troubleshooting</span></span>
+
+### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a><span data-ttu-id="60de9-917">Modern POS getur fundið vélbúnaðarstöðina á lista sínum yfir val, en það getur ekki lokið við pörun</span><span class="sxs-lookup"><span data-stu-id="60de9-917">Modern POS can detect the hardware station in its list for selection, but it can't complete the pairing</span></span>
+
+<span data-ttu-id="60de9-918">**Lausn:** Staðfesta eftirfarandi lista yfir hugsanlega bilunarpunkta:</span><span class="sxs-lookup"><span data-stu-id="60de9-918">**Solution:** Verify the following list of potential failure points:</span></span>
+
+- <span data-ttu-id="60de9-919">Tölvan sem keyrir Modern POS treystir skírteini sem er notað er á tölvunni sem keyrir vélbúnaðarstöðina.</span><span class="sxs-lookup"><span data-stu-id="60de9-919">The computer that is running Modern POS trusts the certificate that is used on the computer that runs the hardware station.</span></span>
+
+    - <span data-ttu-id="60de9-920">Til að sannreyna þessa uppsetningu í vefvafra skal fara á eftirfarandi slóð: `https://<Computer Name>:<Port Number>/HardwareStation/ping`.</span><span class="sxs-lookup"><span data-stu-id="60de9-920">To verify this setup, in a web browser, go to the following URL: `https://<Computer Name>:<Port Number>/HardwareStation/ping`.</span></span>
+    - <span data-ttu-id="60de9-921">Þessi SLÓÐ notar ping-boð til að staðfesta að hægt sé að fara í tölvuna og vafrinn gefur til kynna hvort skírteininu sé treyst.</span><span class="sxs-lookup"><span data-stu-id="60de9-921">This URL uses a ping to verify that the computer can be accessed, and the browser indicates whether the certificate is trusted.</span></span> <span data-ttu-id="60de9-922">(Til dæmis birtist lástáknið í Internet Explorer á veffangastikunni.</span><span class="sxs-lookup"><span data-stu-id="60de9-922">(For example, in Internet Explorer, a lock icon appears in the address bar.</span></span> <span data-ttu-id="60de9-923">Þegar smellt er á þetta tákn staðfestir Internet Explorer hvort skírteininu sé treyst eins og stendur.</span><span class="sxs-lookup"><span data-stu-id="60de9-923">When you click this icon, Internet Explorer verifies whether the certificate is currently trusted.</span></span> <span data-ttu-id="60de9-924">Hægt er að setja skírteinið upp á staðbundnu tölvunni með því að skoða upplýsingar um skírteinið sem birtast.)</span><span class="sxs-lookup"><span data-stu-id="60de9-924">You can install the certificate on the local computer by viewing the details of the certificate that is shown.)</span></span>
+
+- <span data-ttu-id="60de9-925">Á tölvunni sem keyrir vélbúnaðarstöðina er tengið sem verður notað af vélbúnaðarstöðinni opinn í eldvegg.</span><span class="sxs-lookup"><span data-stu-id="60de9-925">On the computer that runs the hardware station, the port that will be used by the hardware station is opened in the firewall.</span></span>
+- <span data-ttu-id="60de9-926">Vélbúnaðarstöðin hefur rétt sett upp upplýsingar söluaðila með verkfærinu Setja upp upplýsingar um söluaðila sem keyrist við lok uppsetningarforrits vélbúnaðarstöðvar.</span><span class="sxs-lookup"><span data-stu-id="60de9-926">The hardware station has correctly installed merchant account information through the Install merchant information tool that runs at the end of the hardware station installer.</span></span>
+
+### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a><span data-ttu-id="60de9-927">Modern POS getur ekki fundið vélbúnaðarstöðina á lista sínum yfir val</span><span class="sxs-lookup"><span data-stu-id="60de9-927">Modern POS can't detect the hardware station in its list for selection</span></span>
+
+<span data-ttu-id="60de9-928">**Lausn:** Annaðhvort eftirfarandi þáttum getur valdið vandamálið:</span><span class="sxs-lookup"><span data-stu-id="60de9-928">**Solution:** Either of the following factors can cause this issue:</span></span>
+
+- <span data-ttu-id="60de9-929">Vélabúnaðarstöðin hefur ekki verið sett upp rétt í höfuðstöðvum.</span><span class="sxs-lookup"><span data-stu-id="60de9-929">The hardware station hasn't been set up correctly in headquarters.</span></span> <span data-ttu-id="60de9-930">Fylgið skrefum fyrr í þessum kafla til að staðfesta að vélbúnaðarreglu og vélbúnaðarstöðin séu rétt sett inn.</span><span class="sxs-lookup"><span data-stu-id="60de9-930">Use the steps earlier in this topic to verify that the hardware station profile and the hardware station are correctly entered.</span></span>
+- <span data-ttu-id="60de9-931">Vinnslur hafa ekki verið keyrðar til að uppfæra skilgreiningu rásar.</span><span class="sxs-lookup"><span data-stu-id="60de9-931">The jobs haven't been run to update the channel configuration.</span></span> <span data-ttu-id="60de9-932">Í þessu tilfelli er vinnsla 1070 keyrð fyrir grunnstillingu rásar.</span><span class="sxs-lookup"><span data-stu-id="60de9-932">In this case, run the 1070 job for channel configuration.</span></span>
+
+### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a><span data-ttu-id="60de9-933">Modern POS endurspegla ekki nýjum stillingum peningaskúffu</span><span class="sxs-lookup"><span data-stu-id="60de9-933">Modern POS doesn't reflect new cash drawer settings</span></span>
+
+<span data-ttu-id="60de9-934">**Lausn:** Loka núverandi runu.</span><span class="sxs-lookup"><span data-stu-id="60de9-934">**Solution:** Close the current batch.</span></span> <span data-ttu-id="60de9-935">Breytingar á peningaskúffunni eru ekki uppfærðar í Modern POS fyrr en núverandi rununni er lokað.</span><span class="sxs-lookup"><span data-stu-id="60de9-935">Changes to the cash drawer aren't updated to Modern POS until the current batch is closed.</span></span>
+
+### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a><span data-ttu-id="60de9-936">Modern POS tilkynnir vandamál með jaðarbúnaði smásölu</span><span class="sxs-lookup"><span data-stu-id="60de9-936">Modern POS is reporting an issue with a retail peripheral</span></span>
+
+<span data-ttu-id="60de9-937">**Lausn:** Hér eru sumar dæmigerðar orsakir vandamálsins:</span><span class="sxs-lookup"><span data-stu-id="60de9-937">**Solution:** Here are some typical causes of this issue:</span></span>
+
+- <span data-ttu-id="60de9-938">Gangið úr skugga um að aðrar grunnstillingarþjónustur tækirrekils séu lokað.</span><span class="sxs-lookup"><span data-stu-id="60de9-938">Make sure that other device driver configuration utilities are closed.</span></span> <span data-ttu-id="60de9-939">Ef þessar þjónustur eru opnar, þær gætu komið í veg fyrir Modern POS eða vélbúnaðarstöð geri krafa á tækið.</span><span class="sxs-lookup"><span data-stu-id="60de9-939">If these utilities are open, they might prevent Modern POS or the hardware station from claiming the device.</span></span>
+- <span data-ttu-id="60de9-940">Ef jaðarbúnaður smásölu er samnýttur með mörgum POS-tæki, ganga úr skugga um að sem hún tilheyrir eitt af eftirfarandi tegundum:</span><span class="sxs-lookup"><span data-stu-id="60de9-940">If the retail peripheral is shared with multiple POS devices, make sure that it belongs to one of the following categories:</span></span>
+
+    - <span data-ttu-id="60de9-941">Peningaskúffa</span><span class="sxs-lookup"><span data-stu-id="60de9-941">Cash drawer</span></span>
+    - <span data-ttu-id="60de9-942">Kvittanaprentari</span><span class="sxs-lookup"><span data-stu-id="60de9-942">Receipt printer</span></span>
+    - <span data-ttu-id="60de9-943">Greiðslustöð</span><span class="sxs-lookup"><span data-stu-id="60de9-943">Payment terminal</span></span>
+
+    <span data-ttu-id="60de9-944">Ef jaðarbúnaðurinn tilheyrir ekki þessara tegunda, er vélbúnaðarstöðin ekki hönnuð til að virkja að jaðarbúnaðurinn sé samnýttar á milli margra POS-tæki.</span><span class="sxs-lookup"><span data-stu-id="60de9-944">If the peripheral doesn't belong to one of these categories, the hardware station isn't designed to enable the peripheral to be shared among multiple POS devices.</span></span>
+
+- <span data-ttu-id="60de9-945">Stundum geta tækisreklar valdið því að almennir stýrihlutir (CCOs) hætti að vinna rétt.</span><span class="sxs-lookup"><span data-stu-id="60de9-945">Sometimes, device drivers can cause the common control objects (CCOs) to stop working correctly.</span></span> <span data-ttu-id="60de9-946">Ef nýlega hefur verið sett upp tæki, en það er ekki virki rétt eða tekið er eftir öðrum vandamálum, er oft hægt að leysa þetta vandamál með því að enduruppsetja almenna stýrihluti.</span><span class="sxs-lookup"><span data-stu-id="60de9-946">If a device has recently been installed, but it isn't working properly or you notice other issues, you can often resolve the issue by reinstalling the CCOs.</span></span> <span data-ttu-id="60de9-947">Til að sækja almenna stýrihluti skal fara á <http://monroecs.com/oposccos_current.htm>.</span><span class="sxs-lookup"><span data-stu-id="60de9-947">To download the CCOs, visit <http://monroecs.com/oposccos_current.htm>.</span></span>
+- <span data-ttu-id="60de9-948">Ef þú gerir tíðar breytingar á jaðarbúnaði við prófun eða úrræðaleit, gæti þurft að endurstilla IIS í stað þess að bíða eftir að skyndiminni endurræsi sig.</span><span class="sxs-lookup"><span data-stu-id="60de9-948">If you make frequent peripheral changes during testing or troubleshooting, you might have to reset IIS instead of waiting for the cache to refresh itself.</span></span> <span data-ttu-id="60de9-949">Það er gert með því að fylgja þessum skrefum:</span><span class="sxs-lookup"><span data-stu-id="60de9-949">To reset IIS, follow these steps:</span></span>
+
+    1. <span data-ttu-id="60de9-950">Úr valmyndinni **Ræsa** skal rita **CMD**.</span><span class="sxs-lookup"><span data-stu-id="60de9-950">From the **Start** menu, type **CMD**.</span></span>
+    2. <span data-ttu-id="60de9-951">Í leitarniðurstöðum, hægrismellt **skipanakvaðningu**, og smellið síðan á **Keyra sem kerfisstjóri**.</span><span class="sxs-lookup"><span data-stu-id="60de9-951">In the search results, right-click **Command prompt**, and then click **Run as administrator**.</span></span>
+    3. <span data-ttu-id="60de9-952">Í glugganum **skipunarkvaðning**, sláið inn **iisreset/Restart** og styðjið á færslulykilinn.</span><span class="sxs-lookup"><span data-stu-id="60de9-952">In the **Command prompt** window, type **iisreset /Restart** and then press Enter.</span></span>
+    4. <span data-ttu-id="60de9-953">Endurræsa Modern POS eftir IIS hefur verið endurræst.</span><span class="sxs-lookup"><span data-stu-id="60de9-953">After IIS has restarted, restart Modern POS.</span></span>
+
+- <span data-ttu-id="60de9-954">Þegar tíðar breytingar eru gerðar á jaðartæki, ef POS-biðlari er einnig ræstur og lokað oft, getur ferlið dllhost úr fyrri setu POS skarast við núgildandi lotu.</span><span class="sxs-lookup"><span data-stu-id="60de9-954">While you're making frequent changes to peripheral devices, if you also frequently start and exit the POS client, the dllhost process from a previous POS session can interfere with the current session.</span></span> <span data-ttu-id="60de9-955">Í þessu tilfelli tæki hugsanlega ekki hægt að nota fyrr en þú lokar hýsli safn kvik tengil (DLL) sem stjórnar fyrri setu.</span><span class="sxs-lookup"><span data-stu-id="60de9-955">In this case, a device might not be usable until you close the dynamic-link library (DLL) host that is managing the previous session.</span></span> <span data-ttu-id="60de9-956">Til að loka DLL host, skal fylgja þessum skrefum:</span><span class="sxs-lookup"><span data-stu-id="60de9-956">To close the DLL host, follow these steps:</span></span>
+
+    1. <span data-ttu-id="60de9-957">Úr valmyndinni **Ræsa** skal rita **Verkstjórnandi**.</span><span class="sxs-lookup"><span data-stu-id="60de9-957">From the **Start** menu, type **Task manager**.</span></span>
+    2. <span data-ttu-id="60de9-958">Í leitarniðurstöðum, smellið á **stjórnanda Verks**.</span><span class="sxs-lookup"><span data-stu-id="60de9-958">In the search results, click **Task manager**.</span></span>
+    3. <span data-ttu-id="60de9-959">Í stjórnanda Verks, á við **Upplýsingar** flipanum, smellið á haus dálksins sem merktur er **Heiti** til að raða í töflu í stafrófsröð eftir heiti.</span><span class="sxs-lookup"><span data-stu-id="60de9-959">In Task manager, on the **Details** tab, click the column header that is labeled **Name** to sort the table alphabetically by name.</span></span>
+    4. <span data-ttu-id="60de9-960">Flettu niður þar til þú finnur dllhost.exe.</span><span class="sxs-lookup"><span data-stu-id="60de9-960">Scroll down until you find dllhost.exe.</span></span>
+    5. <span data-ttu-id="60de9-961">Veljið hvern DLL-hýsil og smellið síðan á **Ljúka verki**.</span><span class="sxs-lookup"><span data-stu-id="60de9-961">Select each DLL host, and then click **End task**.</span></span>
+    6. <span data-ttu-id="60de9-962">Endurræsa Modern POS eftir hýsir DLL hefur verið lokað.</span><span class="sxs-lookup"><span data-stu-id="60de9-962">After the DLL hosts have been closed, restart Modern POS.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="60de9-963">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="60de9-963">Additional resources</span></span>
+
+[<span data-ttu-id="60de9-964">Smásölujaðarbúnaðarhermir</span><span class="sxs-lookup"><span data-stu-id="60de9-964">Retail peripheral simulator</span></span>](dev-itpro/retail-peripheral-simulator.md)
