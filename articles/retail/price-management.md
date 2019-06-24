@@ -3,7 +3,7 @@ title: Stjórnun smásöluverðs
 description: Þetta efnisatriði lýsir hugmyndum um stofnun og stjórnun á söluverðum í Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 04/20/2018
+ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28a095588bd3c312a2d1c4b83e668487a209077f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: afa553fd0562b306f720f2a30c7f901db7ad1b3a
+ms.sourcegitcommit: 0fbfb9b0ab78c804f3931a083028d2ce313d6521
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549402"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1594071"
 ---
 # <a name="retail-sales-price-management"></a>Retail-verðstjórnun
 
@@ -231,3 +231,9 @@ Að auki **aðeins** verðlagningarvél smásölu styður eftirfarandi verðlagn
 
 - Verð er byggt á vöruvíddum, raðað frá mest sértæka verðafbrigðinu til minnst sértæka verðafbrigðisins á verði vörusniðmáts. Verð sem er stillt með því að nota tvær vöruvíddir (t.d. lit og stærð) er notað á undan verð isem er stillt með því að nota aðeins eina vöruvídd (t.d. stærð).
 - Hægt er að nota sama verðflokk til að stjórna verðlagningu og afsláttum.
+
+## <a name="pricing-api-enhancements"></a>Verðlagning á API-endurbótum
+
+Verð er einn mikilvægasti þátturinn sem hafa með ákvörðun á innkaupum að gera fyrir marga viðskiptavini, og margir viðskiptavinir bera saman verð á ýmsum síðum áður en þeir kaupa nokkuð. Til að tryggja að söluaðilar bjóði upp á samkeppnishæf verð verða þeir að fylgjast grannt með samkeppnisaðilum og oft auglýsa sig. Þar af leiðandi, til að auðvelda þessum söluaðilum að laða að viðskiptavini, er mjög mikilvægt að afurðaleit, vafraeiginleikinn, listar og upplýsingasíða afurðar sýni nákvæmustu verðin.
+
+Í væntanlegri útgáfu Retail, mun forritunarviðmótið (API) **GetActivePrices** skila verðum sem innihalda einfalda afslætti (t.d. staka línuafslætti sem eru ekki háðir öðrum vörum í körfunni). Á þennan hátt eru verðin sem eru sýnd nálægt raunverulegri upphæð sem viðskiptavinur greiðir fyrir vörurnar. Þetta API mun innihalda allar gerðir af einföldum afsláttum sem miðast við: afslætti tengsla, hollustu, vörulista og rásar. Að auki skilar API upplýsingum um heiti og gjaldgengi notaðra afslátta svo söluaðilar geti boði upp á ítarlegri lýsingar á verðinu og skapað óþreyju ef gjaldgengur afsláttur rennur brátt út.

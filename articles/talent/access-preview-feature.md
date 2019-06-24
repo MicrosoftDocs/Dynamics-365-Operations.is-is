@@ -1,9 +1,9 @@
 ---
-title: Fá aðgang að forskoðunareiginleikar í Talent
-description: Þetta efnisatriði lýsir því hvernig stjórnandi getur virkjað forskoðunareiginleikana, og listar þá eiginleikar sem eru nú þegar virkjaðar fyrir forskoðun.
+title: Fá aðgang að forskoðunareiginleikum í Microsoft Dynamics 365 for Talent
+description: Þetta efnisatriði lýsir því hvernig stjórnandi getur virkjað forskoðunareiginleika í Microsoft Dynamics 365 for Talent og listar þá eiginleika sem eru nú þegar virkjaðir fyrir forskoðun.
 author: tracykeya
 manager: AnnBe
-ms.date: 04/29/2019
+ms.date: 05/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,77 +18,105 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 72e2a3c62c7aab0f5cf8900c540a22d91be00609
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 2858451435c358380503c8edc5cb162e6834894a
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518312"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620597"
 ---
 # <a name="access-preview-features-in-talent"></a>Fá aðgang að forskoðunareiginleikar í Talent
 
 [!include[banner](../includes/banner.md)]
 
-Sem hluti af samfelldri kynningu okkar á afkastagetu vöru, viljum við að viðskiptavinir upplifa nýjar eiginleikar eins fljótt og auðið er. Stjórnendur geta séð og notað forskoðunareiginleika í umhverfi sínu. Þessar eiginleikar eru næstum tilbúnir til almenns framboðs og hafa farið í gegnum víðtækar prófanir. Við erum bara að falast eftir lokaumsögnum viðskiptavina og fullgildingu áður en við gefum þá út almennt.
+Sem hluti af samfelldri kynningu okkar á afkastagetu mannauðsstjórnunar fyrir Microsoft Dynamics 365 for Talent, viljum við að viðskiptavinir upplifi nýja eiginleika eins fljótt og auðið er. Stjórnendur geta séð og notað forskoðunareiginleika í umhverfi sínu. Þessar eiginleikar eru næstum tilbúnir til almenns framboðs og hafa farið í gegnum víðtækar prófanir. Við erum bara að falast eftir lokaumsögnum viðskiptavina og fullgildingu áður en við gefum þá út fyrir almenning.
 
-Þetta efnisatriði lýsir því hvernig stjórnandi getur virkjað forskoðunareiginleika, og listar þá eiginleikar sem eru nú þegar tiltækir fyrir forskoðun. Þessi listi verður uppfærð þegar eiginleikar eru gefnar út til almenns framboðs og þegar nýjar eiginleikar eru gefnar út til forskoðunar. Engin tilkynning er send þegar nýjar eiginleikar eru gefin út til forskoðunar. Notendur munu bara byrja að sjá eiginleikana.
+Þetta efnisatriði lýsir því hvernig hægt er að virkja forskoðunareiginleika og lista þá eiginleika sem eru nú þegar tiltækir fyrir forskoðun. Þessi listi verður uppfærð þegar eiginleikar eru gefnar út til almenns framboðs og þegar nýjar eiginleikar eru gefnar út til forskoðunar. Engin tilkynning er send þegar nýjar eiginleikar eru gefin út til forskoðunar. Notendur munu bara byrja að sjá eiginleikana. Frekari upplýsingar um nýja eiginleika í Talent er að finna í [Nýjungar eða breytingar í Dynamics 365 for Talent](./whats-new.md) og [Dynamics 365 og Power Platform útgáfuupplýsingar](https://docs.microsoft.com/business-applications-release-notes).
 
 ## <a name="enable-or-disable-preview-features"></a>Virkja eða slökkva á forskoðunareiginleikum
 
-Þú getur notað stillinguna **Forskoðunareiginleikar** í stjórnkerfi Microsoft Dynamics 365 for Talent til að virkja eða slökkva á forskoðunareiginleikum. Sjálfgefið er að slökkt sé á stillingunni. Aðgerðin til að virkja eða slökkva á forskoðunareiginleikum afmarkast af umhverfi.
+Til að fá aðgang að forskoðunareiginleikum þarf fyrst að virkja þá í umhverfinu. Að kveikja eða slökkva á forskoðunareiginleikum fer eftir hverju umhverfi fyrir sig.
 
 > [!IMPORTANT]
-> Með því að kveikja á **Forskoðunareiginleikar** stillingu virkjarðu forskoðunareiginleikar fyrir alla notendur í fyrirtækinu þínu sem eru í því umhverfi. Með því að slökkva á stillingunni, gerirðu forskoðunareiginleika óvirka og óaðgengilegar fyrir notendur. Forskoðunareiginleikar hafa takmarkaðan stuðning í Talent. Þeir gætu notað færri persónuverndar- og öryggisráðstafanir og þær eru ekki innifalin í þjónustustigssamningi Talent. Þú ættir ekki að nota forskoðunareiginleika til að vinna úr persónulegum gögnum (það er, einhverjum upplýsingum sem þú þekkist á) eða að vinna úr öðrum gögnum sem falla undir lögboðnar kröfur eða reglur um samræmi.
+> Þegar kveikt er á stillingunni **Forskoðunareiginleikar** virkjast forskoðunareiginleikar fyrir alla notendur í fyrirtækinu þínu sem eru í því umhverfi. Þegar slökkt er á stillingunni, gerirðu forskoðunareiginleika óvirka og óaðgengilega fyrir notendur þína. Forskoðunareiginleikar hafa takmarkaðan stuðning í Talent. Þeir gætu notað færri persónuverndar- og öryggisráðstafanir og þær eru ekki innifalin í þjónustustigssamningi Talent (SLA). Þú ættir ekki að nota forskoðunareiginleika til að vinna úr persónulegum gögnum (það er, einhverjum upplýsingum sem þú þekkist á) eða að vinna úr öðrum gögnum sem falla undir lögboðnar kröfur eða reglur um samræmi.
 
-### <a name="enable-or-disable-preview-features-for-your-organization"></a>Virkja eða slökkva á forskoðunareiginleikum fyrir fyrirtækið þitt
-
-#### <a name="attract"></a>Laða að
+### <a name="attract"></a>Laða að
 
 1. Skrá inn á Microsoft Dynamics 365 for Talent: Attract.
-2. Í **Uppsetning** valmyndinni (táknið fyrir gír) efst í hægra horninu skaltu velja **Stjórnunarstillingar**.
-3. Á **Eiginleikar stjórnun** flipann, skal velja valkosturinn við hliðina á **Forskoðunareiginleikar** þannig að það verður blár.
-4. Valfrjáls er hægt að stjórna einstökum eiginleikum með því að virkja/slökkva á tilteknum eiginleikum á þessari síðu.
-5. Endurræstu vafrann þinn til að byrja að sjá nýja eiginleikana. (Allir notendur sem eru þegar skráðir inn munu sjá eiginleikana næst þegar þeir skrá sig inn, eða þeir geta endurræst vafrann til að sjá eiginleikana strax.)
+2. Í **Uppsetning** valmyndinni (táknið fyrir gír) efst í hægra horninu skaltu velja **Stjórnstöð**.
+3. Í flipanum **Eiginleikastjórnun** skal velja valkostinn við hliðina á **Forskoðunareiginleikar** þannig að hann verður blár og það segir **Kveikt**.
 
-#### <a name="core-hr"></a>Kjarni HR
+    ![Virkja forskoðunareiginleika í Attract](./media/attract-enable-preview-features.png)
 
-1. Skráðu þig inn á Talent. Vinnusvæðiskjarni mannauðs opnast, þar sem þú munt klára þær skref sem eftir er. 
-2. Veldu **Kerfisstjórnun \> Tenglar Kerfisfæribreytur** .
-3. Á **Kerfisfæribreytur síðunni** , á **Forskoðunaraðgerðir** flipann, skal stilla **Virkja forskoðunarstillingu fyrir alla notendur** valkostur á **Já** til að gera forskoðunareiginleika tiltæka.
+4. Veldu eða hættu við val á einstökum forskoðunareiginleikum. Ef þú gerir ekkert eru allir forskoðunareiginleikar virkjaðir.
+5. Endurræstu vafrann þinn til að byrja að sjá nýja eiginleikana. Allir notendur sem eru þegar skráðir inn munu sjá eiginleikana næst þegar þeir skrá sig inn, eða þeir geta endurræst vafrann til að sjá eiginleikana strax.
 
 > [!NOTE]
-> Til að slökkva á forskoðunareiginleikum skaltu nota sömu grunnskrefin. Þegar þú slekkur á forskoðunareiginleikum verða þær óaðgengilegar notendum þínum og villur geta komið fram í ferlum sem tengjast eiginleikunum.
+> Sumir forskoðunareiginleikar gætu þurft ítarlegri grunnstillingu. Fylgdu tenglunum við hliðina á forskoðunareiginleika til að ljúka uppsetningu hans.
+
+### <a name="core-hr"></a>Kjarni HR
+
+1. Skráðu þig inn á Talent.
+2. Veldu **Kerfisstjórnun** og veldu síðan flipann **Tenglar**.
+3. Á síðunni **Kerfisstjórnun**, undir **Uppsetning**, skal velja **Kerfisfæribreytur**.
+4. Á síðunni **Kerfisfæribreytur** skal velja flipann **Forskoðunareiginleikar**.
+5. Stilltu **Virkja forskoðunarstillingu fyrir alla notendur** valkostur á **Já** til að gera forskoðunareiginleika tiltæka.
+
+    ![Virkja forskoðunareiginleika í Core HR](./media/corehr-enable-preview-features.png)
+
+> [!NOTE]
+> Til að slökkva á forskoðunareiginleikum skal nota sömu skrefin, en stilla valkostinn **Virkja forskoðunarstillingu fyrir alla notendur** á **Nei**. Þegar þú slekkur á forskoðunareiginleikum verða þær óaðgengilegar notendum þínum og villur geta komið fram í ferlum sem tengjast eiginleikunum.
+
+### <a name="onboard"></a>Ráðningar
+
+Engir forskoðunareiginleikar eru í tiltækir sem stendur fyrir Microsoft Dynamics 365 for Talent: Onboard.
 
 ## <a name="features-that-are-currently-in-preview"></a>Eiginleikar sem eru nú þegar í forskoðun
 
 ### <a name="attract"></a>Laða að
 
-- **Viðeigandi umsækjendur í starfi** - Ráðningaraðilar og mannauðsstjórar geta auðveldlega séð hvaða umsækjendur eru mest viðeigandi fyrir starfið af öllum umsækjendum. Efstu 5 umsækjendurnir eru sýndir miðað við hvernig ferilskrá/forstilling þeirra á við um starfslýsinguna.
-- **Viðeigandi störf** - Umsækjendur sjá nú lista yfir aðrar störf sem eiga við þá miðað við hvernig ferilskrá/forstillingu þeirra og starfslýsingar.  Nú er þetta sýnt umsækjendum þegar þeir sækja um sem tillögu um önnur tækifæri.
-- **EEO/OFCCP stuðningur** - Ný tegund aðgerða gerir kleift að nota fyrirfram skilgreint eyðublað fyrir jafnrétti til atvinnuþátttöku (EEO) og Office of Federal Contract Compliance Program (OFCCP) gögn frá umsækjanda.  Þetta er fyrirfram skilgreint eyðublað og er ekki hægt að breyta.
-
-    > [!NOTE]
-    > Störf sem eru auglýst eru aðeins sýnilegar fyrir viðskiptavini sem gerast áskrifandi að einum eða fleiri LinkedIn atvinnuskráningarvöru. Annars sjá viðskiptavinir aðeins starf ef þeir leita sérstaklega að því. Töf verður þegar störf eru auglýst á LinkedIn. Það gæti tekið allt að nokkrar klukkustundir fyrir starf að birtast eftir að hafa verið send frá Attract.
-
-- **Umsókn Umsækjanda** – Bæði innri og ytri umsækjendur geta nú sótt um beint frá vinnusíðunni á starfsframasvæðinu.
-- **Tilboðsstjórnun** – Notendur geta nú búið til tilboðsbréf úr sniðmátum sem innihalda staðgengla. Þegar umsækjendur fara yfir Tilboðsstigið geta mannauðs- og ráðningarstjórar notað Tilboðsverkfærið til að undirbúa formlegt tilboð frambjóðanda með sniðmátum, senda tilboðið til innra samþykkis og loks senda tilboðið til umsækjanda til undirskriftar. Margur nýr möguleiki verður bætt við Tilboðsverkfærið með tímanum og forskoðunareiginleikinn verður uppfærður með þessum möguleikum þegar við erum tilbúin til að sleppa þeim til forskoðunar.
-- **[Greiningarskýrslur](analytic-reports.md)** - Ráðningarhópar geta skoðað helstu mæligildi fyrir stakt starf með Starfsgreiningu eða samantekt mæligilda fyrir öll störf í Greiningarmiðstöðinni.
+- [Umsækjandi sem mælt er með](./intelligent-recommendations.md#candidate-recommendations) - Ef fleiri en tíu umsækjendur eða viðföng eru með ferilsskrár eða heilstæðar forstillingar, birtast umsækjendur eða viðföng sem uppfylla best starfskröfur í **Umsækjendur til að hafa í huga** hlutanum á starfssíðunni.
+- [Starf sem mælt er með](./intelligent-recommendations.md#job-recommendations) - Ef fleiri en tíu störf eru auglýst á ferlissíðunni þinni býður Attract tilföngum upp á starf sem mælt er með.
+- [Broadbean-samþætting](./posting-jobs-external.md#post-jobs-to-broadbean) - Hægt er að auglýsa störf úr Attract til Broadbean, utanaðkomandi starfsauglýsingasíðu. Eftir að þessi forskoðunareiginleiki hefur verið virkjaður þarf að ljúka uppsetningunni með því að færa inn Broadbean-notandanafnið, biðlarakenni og dulritunarlykil.
+- [Greiningar](./analytic-reports.md) - Í Greiningarmiðstöðinni geta ráðningarhópar skoðað helstu mælikvarða fyrir ákveðið starf, ásamt samantekt mælikvarða fyrir öll störf.
+- [EEO](./activities-attract.md) - Nýjar verkþáttargerðir gera þér kleift að nota fyrirfram skilgreint eyðublað til að safna saman gögnum frá umsækjanda fyrir Jöfn atvinnutækifæri (EEO) og Skrifstofu reglufylgniáætlunar á ríkissamningum (OFCCP). Ekki er hægt að breyta fyrirfram skilgreindu eyðublaði.
+- [Tilföng sem mælt er með](./intelligent-recommendations.md#prospect-recommendations) - Attract fer í gegnum alla fyrri og núverandi umsækjendur til að veita lista yfir tilföng sem henta þessu starfi.
+- [Leitarsamsvörun](./attract-talent-pools.md#search-and-view-candidate-profiles) - Hægt er að leita í öllum gagnagrunninum fyrir umsækjendur að sérstakri hæfni, nafni eða menntun. Attract leitar í öllum notandaupplýsingunum og undirstrikar allar samsvaranir sem finnast. Attract leitar einnig í öllum skjölum sem til eru um umsækjanda og raðar leitarniðurstöðunum á snjallan hátt.
+- [Notendur verkþáttar](./whats-new-talent-march-20.md#setting-the-audience-on-activities) - Hægt er að stilla notendur verkþáttar (t.d. viðtal, áætlun eða ábending) á **Allir umsækjendur**, **Umsækjandi innan fyrirtækis** eða **Umsækjendur utan fyrirtækis**. Hægt er að afhenda verkþætti viðskiptavinar, t.d. YouTube-myndbönd, efni af vefnum og Microsoft Forms, til allra umsækjenda, aðeins umsækjenda innan fyrirtækis eða ráðningarhóps.
+- [Nota með LinkedIn](./career-site.md#enable-applying-for-jobs-with-linkedin-profiles) - Hægt er að setja upp valkost á Attract-starfsferilssíðunni sem leyfir umsækjendum að starfi að sækja um með LinkedIn. Þessi eiginleiki einfaldar umsóknarferlið fyrir umsækjendurna þína með því að leyfa þeim að nota LinkedIn-notandasíðuna sína til að fylla umsóknina sjálfkrafa út á starfsferilssíðunni þinni.
+- [Rakning uppruna](./source-tracking.md) - Attract rekur uppruna á umsóknum umsækjanda til að veita gagnlegar upplýsingar sem geta auðveldað þér ráðningarvinnuna. Einnig er hægt að velja uppruna umsóknar á meðan umsækjanda er bætt við starf eða hæfileikasafn.
+- [Silfurhafi](./whats-new-talent-march-20.md#designate-silver-medalists-to-assign-high-value-applicants-for-future-positions) - Ef einhverjir umsækjendur smellpassa fyrirtækinu þínu en þú bauðst þeim ekki upp á núverandi stöðu, geturðu skilgreint þá sem silfurhafa. Þessi eiginleiki sparar þér tíma fyrir næstu ráðningu þegar svipuð staða býðst.
 
 ### <a name="core-hr"></a>Kjarni HR
 
-- **Opin innskráningu** – Opin innskráning kosta veitir starfsfólki einfalda sjálfsafgreiðsluupplifun þar sem það getur valið sína kosti. Mannauðsstjórnendur geta stillt ferlið fyrir opna innskráningu kosta fyrir sitt fyrirtæki, og innskráningarupplifunina fyrir starfsmenn með því að nota leiðbeiningar sem auðvelt er að fylgja.
+- [Sannprófa gögn staðsetningarstigveldis](./whats-new-talent-may-13-2019.md#new-page-to-validate-position-hierarchy-data) - Nú er hægt að sannprófa stjórnunarstigveldi fyrir allar hringtilvísanir sem voru óvart fluttar inn.
+- [Tilgreina ástæðukóða fyrir leyfisgerðir](./whats-new-talent-may-13-2019.md#specify-reason-codes-on-leave-types) - Hægt er að tilgreina ástæðukóða fyrir leyfisgerðir.
+- [Krefjast ástæðukóða fyrir frítímabeiðnir](./whats-new-talent-may-13-2019.md#require-reason-codes-for-specific-leave-types-on-time-off-requests) - Ásamt því að tilgreina ástæðukóða fyrir leyfisgerðir er hægt að krefjast ástæðukóða fyrir frítímabeiðnir.
+- [Útvega færslulista yfir leyfi og fjarvistir fyrir HR](./whats-new-talent-may-13-2019.md#provide-a-leave-and-absence-transaction-list-for-hr) - Hægt er að skoða lista yfir leyfis- og fjarvistafærslur til að auðvelda innsýn í frítímastöðu.
+
+### <a name="onboard"></a>Ráðningar
+
+Engir forskoðunareiginleikar eru í tiltækir sem stendur fyrir Onboard.
 
 ## <a name="feedback"></a>Ábendingar
 
-Óháð því hvort viðbrögðin eru jákvæð eða neikvæð, viljum við heyra frá þér um notkun þína á forskoðunareiginleikunum. Við hvetjum þig til að senda reglulega viðbrögð þín á eftirfarandi vefsvæði þegar þú notar þessar eða einhverjar aðrar eiginleikar.
+Við viljum heyra um reynslu þína á einhverjum þessara forskoðunareiginleika. Við hvetjum þig til að senda reglulega viðbrögð þín á eftirfarandi vefsvæði þegar þú notar þessar eða einhverjar aðrar eiginleika:
 
 - [Samfélag](https://community.dynamics.com/enterprise/f/759?pi53869=0&category=Talent) – Þessi síða er frábær auðlind þar sem notendur geta rætt um notkunartilfelli, spyrja spurninga og fá samfélagsaðstoð.
-- Notaðu eftirfarandi síður til að stinga upp á vöruhugmyndir. Láttu okkur vita af eiginleikum sem þú vilt sjá í vörunni, og einnig hvaða breytingar þér finnst eiga að gera á núverandi eiginleika.
+- Láttu okkur vita af eiginleikum sem þú vilt sjá í vörunni eða breytingum sem þér finnst eiga að gera á núverandi eiginleikum. Stinga upp á hugmyndum um vöru á eftirfarandi síðum:
 
-    - [Laða að hugmyndir](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
-    - [Kjarni HR](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
+    - [Hugmyndir um Attract](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
+    - [Hugmyndir um Core HR](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
+    - [Hugmyndir um Onboard](https://powerusers.microsoft.com/t5/Ideas-for-Onboard/idb-p/Onboard)
 
-Ekki hafa persónuupplýsingar innifaldar (allar upplýsingar sem þú gætir þekkst á) í athugasemdum þínum eða vöruúrskurðum. Upplýsingar sem safnað er kunna að vera greindar frekar og verður ekki notaðar til að svara beiðnum samkvæmt gildandi lögum um persónuvernd. Persónuleg gögn sem er safnað sérstaklega með þessum forritum er háð [Yfirlýsing Microsoft um persónuvernd](https://privacy.microsoft.com/privacystatement).
+Gakktu úr skugga um að persónuupplýsingar (allar upplýsingar sem þú gætir þekkst á) fylgi ekki með í athugasemdum þínum eða umsögnum um vörur. Samansafnaðar upplýsingar kunna að vera greindar frekar og verða ekki notaðar til að svara beiðnum samkvæmt gildandi lögum um persónuvernd. Persónuleg gögn sem er safnað sérstaklega með þessum forritum er háð [Yfirlýsing Microsoft um persónuvernd](https://privacy.microsoft.com/privacystatement).
 
 > [!TIP]
 > Vistaðu slóðina á þetta efnisatriði og skoðaðu oft aftur til að halda þér upplýstri/upplýstum um nýjar forskoðunareiginleikar þegar við gefum þá út.
+
+## <a name="see-also"></a>Sjá einnig
+
+- [Prófaðu eða keyptu Talent-forrit](https://dynamics.microsoft.com/talent/overview/)
+- [Nýjungar](./whats-new.md)
+- [Athugasemdir við útgáfu ](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Fá aðstoð fyrir Talent](./talent-support.md)

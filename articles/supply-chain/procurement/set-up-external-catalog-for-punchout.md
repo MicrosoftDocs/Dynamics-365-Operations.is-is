@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc3879492f230b9477c6e5efd2edc8e1e4aca0a2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571635"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595612"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Setja upp ytri vörulista fyrir PunchOut eProcurement
 
@@ -59,8 +59,10 @@ Ytri vörulista ætti að gera starfsmanns sem fer á innkaupabeiðni til að ve
 4. Veldu lánardrottinn fyrir vörulistann. Í því **lögaðila** er engin línu fyrir hverja lögaðili sem lánardrottininn verið settur upp. Til að leyfa notendum að biðja um vörur beint frá vörulista lánardrottins í sumum lögaðilum en ekki öðrum, geturðu notað hnappinn **Hindra aðgang** eða **Leyfa aðgang** fyrir hvern lögaðila þar sem þú vilt að vörulistinn verði annaðhvort í boði eða ekki.
 5. Í því **Sjálfgefin gildistíma (Dagar)** skal slá inn fjölda daga sem tilboð frá ytri vörulista gildir og hægt er að nota til að kaupa frá ytri lánardrottni. Þegar tilboð er stofnað og sótt úr svæði ytri vörulista lánardrottinsins, er tilboðið gilt frá og með núverandi kerfisdagsetningu, og er gild fyrir fjölda daga sem eru færðir inn í þetta svæði.
 6. Smellið á **Bæta** hnappinn til að hefja innkaupaflokkana vörpun á ytri vörulistann. Síðan skal velja flokk í lista yfir flokksheiti. Lista yfir tegundir er tákna innkaupaflokkana sem lánardrottinn hefur verið varpað í öllum lögaðila sem eru settir fyrir lánardrottinn.
-[!NOTE]
-Innkaup reglur eru notaðar til að leyfa eða takmarka aðgang við kaupa lögaðili eða móttöku rekstrarfærslna einingu. Útskráning úr ytri vörulista krefst þess að aðgangur sé leyfður fyrir að minnsta kosti einn af innkaupaflokkunum sem eru varpaðir í vörulistann.
+
+    > [!NOTE]
+    > Innkaup reglur eru notaðar til að leyfa eða takmarka aðgang við kaupa lögaðili eða móttöku rekstrarfærslna einingu. Útskráning úr ytri vörulista krefst þess að aðgangur sé leyfður fyrir að minnsta kosti einn af innkaupaflokkunum sem eru varpaðir í vörulistann.
+
 7. Setja upp cXML uppsetningu beiðni skilaboðin sem er sendur lánardrottni. Skilaboðasniðið myndaðar eru um sniðmát sem eru nauðsynlegar til að hefja svarsetu. Fylla verður í gildi fyrir seðlana í.
 
 Endurhlaða má kerfismynduðu sniðmáti skilaboða hvenær sem er með því að smella á **Endurheimta sniðmát skilaboða**. 
@@ -85,7 +87,7 @@ Hér að neðan er hægt að finna lýsingu á merki sem eru hafðar með í sni
 
 Extrinsic þáttur eru viðbótarupplýsingar á borð við notandanafn sem byggja á notandanum sem stimplar sig út. Extrinsic þáttur er stilltur þegar stimplað er út og hægt er að senda það í skilaboðum með beiðni um uppsetningu.
 Lánadrottninum gæti verið þarfir fyrir móttöku extrinsic einingu í uppsetningu. Í því tilfelli ættir þú að bæta við extrinsic-einingu í listann yfir extrinsic-einingar í hlutanum **Sniðmát skilaboða** á síðunni **Ytri vörulisti**. Tilgreinið nafn extrinsic einingarinnar sem lánardrottinn getur þekkja og tengið það gildi. Valkostir gildi eru: notandanafn, tölvupósts Notanda eða Random gildi.
-Fyrir nánari upplýsingar um cXML samskiptareglur skal sjá: http://cxml.org/
+Fyrir nánari upplýsingar um cXML-samskiptareglur skal sjá [cXML.org vefsvæðið](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Skilaboð aftur
 Skilaboð til baka eru skilaboðin sem fengin eru frá lánardrottni þegar notandi skráir sig út úr ytra svæði og fer aftur í Finance and Operations. Ekki er hægt að stilla skilaboð til baka. Skilaboðin eru byggð á skilgreiningu á cXML samskiptareglunni. Hér eru þær upplýsingar sem geta verið hluti af skilaboðum til baka sem eru móttekin á innkaupabeiðnilínu:

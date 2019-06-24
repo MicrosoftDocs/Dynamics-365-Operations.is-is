@@ -3,7 +3,7 @@ title: Snjallmeðmæli
 description: Þetta efnisatriði útskýrir hvernig hægt er að nota vélnám til að veita ráðleggingar fyrir störf og umsækjendur.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/25/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: fb31b413cfe3cd168bbb12ce6070325ff5f736da
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518257"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620621"
 ---
 # <a name="intelligent-recommendations"></a>Snjallmeðmæli
 
@@ -33,7 +33,7 @@ Vélnám getur hjálpað ráðningaraðilum og mannauðsstjórum til að auðken
 
 > [!NOTE] 
 > - Eiginleikar snjallmeðmæla eru aðeins í boði með [Viðbót við alhliða ráðningar](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - Virkni sem getið er í þessu efnisatriði er í boði sem hluti af prufuútgáfu. Innihald og virkni geta tekið breytingum. Til að nota þennan eiginleika skal biðja stjórnanda að virkja hann með **Stjórnandastillingar** í Attract. Stilla skal **Umsækjandi sem mælt er með**, **Starf sem mælt er með** og **Viðfang sem mælt er með** á **Kveikt**. Frekari upplýsingar er að finna í [Fá aðgang að forskoðunareiginleikum í Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+> - Virkni sem getið er í þessu efnisatriði er í boði sem hluti af prufuútgáfu. Innihald og virkni geta tekið breytingum. Til að nota þennan eiginleika skal biðja stjórnanda að virkja hann með **Stjórnandamiðstöð** í Attract. Stilla skal **Umsækjandi sem mælt er með**, **Starf sem mælt er með** og **Viðfang sem mælt er með** á **Kveikt**. Frekari upplýsingar er að finna í [Fá aðgang að forskoðunareiginleikum í Talent](./access-preview-feature.md). 
 
 
 ## <a name="candidate-recommendations"></a>Umsækjendur sem mælt er með

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a9fa49d0b3553ae70547aeea19d14bc6e6e08983
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571559"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577930"
 ---
 # <a name="retail-peripherals"></a>Retail-jaðarbúnaður
 
@@ -295,7 +295,7 @@ Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásöl
 <ul>
 <li>OPOS</li>
 <li>Net
-<blockquote>ATHUGIÐ: Aðeins er hægt að setja upp eina skúffu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</blockquote>
+<p><strong>Athugið</strong>: Aðeins er hægt að setja upp eina skúffu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</p>
 </li>
 </ul>
 </td>
@@ -306,7 +306,7 @@ Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásöl
 <ul>
 <li>OPOS</li>
 <li>Net
-<blockquote>ATHUGIÐ: Aðeins er hægt að setja upp eina skúffu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</blockquote>
+<p><strong>Athugið</strong>: Aðeins er hægt að setja upp eina skúffu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</p>
 </li>
 </ul>
 </td>
@@ -374,7 +374,7 @@ Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásöl
 <ul>
 <li>OPOS</li>
 <li>Windows-rekill
-<blockquote>ATHUGIÐ: Fyrir Windows prentara á neti verður notandi vélbúnaðarstöðvar að hafa heimild til að nota prentarann.</blockquote>
+<p><strong>Athugið:</strong> Fyrir Windows prentara á neti verður notandi vélbúnaðarstöðvar að hafa heimild til að nota prentarann.</p>
 </li>
 <li>Net</li>
 </ul>
@@ -404,7 +404,7 @@ Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásöl
 <ul>
 <li>OPOS</li>
 <li>Net
-<blockquote>ATHUGIÐ: Aðeins er hægt að setja upp eina skúffu á vélbúnaðarreglu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</blockquote>
+<p><strong>Athugið</strong>: Aðeins er hægt að setja upp eina skúffu á vélbúnaðarreglu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</p>
 </li>
 </ul>
 </td>
@@ -469,7 +469,7 @@ Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásöl
 <ul>
 <li>OPOS</li>
 <li>Windows-rekill
-<blockquote>ATHUGIÐ: Fyrir Windows prentara á neti verður notandi vélbúnaðarstöðvar að hafa heimild til að nota prentarann.</blockquote>
+<p><strong>Athugið:</strong> Fyrir Windows prentara á neti verður notandi vélbúnaðarstöðvar að hafa heimild til að nota prentarann.</p>
 </li>
 <li>Net</li>
 </ul>
@@ -491,7 +491,7 @@ Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásöl
 <ul>
 <li>OPOS</li>
 <li>Net
-<blockquote>ATHUGIÐ: Aðeins er hægt að setja upp eina skúffu á vélbúnaðarreglu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</blockquote>
+<p><strong>Athugið</strong>: Aðeins er hægt að setja upp eina skúffu á vélbúnaðarreglu ef <strong>Nota samnýtt vakt</strong> er skilgreindur í skúffu.</p>
 </li>
 </ul>
 </td>

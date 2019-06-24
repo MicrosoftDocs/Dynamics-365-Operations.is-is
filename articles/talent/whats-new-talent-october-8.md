@@ -1,5 +1,5 @@
 ---
-title: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (1. október 2018)
+title: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (8. október 2018)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-07
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 92f06d29dfa8110106a2a0e71434b2c0c75110b5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 34216e2181915cf615e6e77fa2a10d06a4e9db85
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518296"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617273"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-8-2018"></a>Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (8. október 2018)
 

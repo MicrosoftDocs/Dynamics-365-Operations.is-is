@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc02d51cedc7f732601c77c0ba5b473272fbccb4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 85d2370353520ee588dfe2aedf9998d707f0eda6
+ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "1541269"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "1592661"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formúluhönnuður í rafrænni skýrslugerð (ER)
 
@@ -443,7 +443,7 @@ IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 <tr>
 <td>VÍSIR (listi, vísir)</td>
 <td>Þessi virkni skilar færslu sem tilgreindur númeravísir í listanum velur. Undantekningu er beitt ef vísirinn utan marka fyrir færslurnar úr listanum.</td>
-<td>Ef gagnagjafinn <strong>DS</strong> er færður inn fyrir gerðina <strong>Reiknaður reitur</strong> og hann inniheldur <strong>SKIPTING („A|B|C“, „|“), 2)</strong> skilar segðin <strong>DS.Value</strong> textagildinu „B“. Segðin <strong>VÍSIR (SKIPTING („A|B|C“, „|“), 2).Value</strong> skilar einnig textagildinu „B“.</td>
+<td>Ef gagnagjafinn <strong>DS</strong> er færður inn fyrir gerðina <strong>Reiknaður reitur</strong> og hann inniheldur <strong>SKIPTING („A|B|C“, „|“), 2</strong> skilar segðin <strong>DS.Value</strong> textagildinu „B“. Segðin <strong>VÍSIR (SKIPTING („A|B|C“, „|“), 2).Value</strong> skilar einnig textagildinu „B“.</td>
 </tr>
 </tbody>
 </table>

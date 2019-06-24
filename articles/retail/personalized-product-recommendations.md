@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d6706cbb7630aeb230bc9eb1c187397897c9de68
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c73bc10332329e81986a259969f8fe34b57f4ee6
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559559"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1607006"
 ---
 # <a name="personalized-product-recommendations"></a>Sérsniðiðnar vöruráðleggingar
 
@@ -44,7 +44,7 @@ Vöruráðleggingar eru virkjaðar fyrir eftirfarandi aðstæður sölustaðar. 
     - Ef aðili tengdur verslun opnar í **Upplýsingar um afurð** síðuna þegar hann skoðar fyrri færslur þvert á mismunandi rásir stingur vélin upp á fleiri vörum sem eru líklegar til að vera keyptar saman.
     - Ef aðili tengdur versluninni bætir viðskiptavini við færsluna og hann heimsækir síðuna **Upplýsingar um afurð** stingur vélin upp á persónubundnum efni byggt á viðskiptaferli viðskiptavinarins.
 
-    [![proddetails](./media/proddetails.png)](./media/proddetails.png)
+    [![Meðmæli á upplýsingasíðu afurðar](./media/proddetails.png)](./media/proddetails.png)
 
 2. Á síðunni **Færsla**:
 
@@ -54,13 +54,11 @@ Vöruráðleggingar eru virkjaðar fyrir eftirfarandi aðstæður sölustaðar. 
     > [!NOTE]
     > Til að birta ráðleggingar á síðunni **Færsla** þarf smásöluaðilinn að uppfæra skjáútlitið í Dynamics 365 for Retail. Sleppa verður stýringunni **Ráðleggingar** á síðunni **Færsla**.
 
-    [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![Meðmæli á færslusíðunni](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-3. Á síðunni **Upplýsingar um viðskiptamann**:
+3. Á síðunni **Upplýsingar um viðskiptavin** stingur vélin upp á vörum byggt á notandakenninu og vörum á óskalista viðskiptavinarins.
 
-    - Vélin stingur upp á vörum byggt á notandakenninu og vörum á óskalista viðskiptavinarins.
-
-    [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
+    [![Ráðleggingar á upplýsingasíðu viðskiptavinar](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
 
 ## <a name="configure-dynamics-365-for-retail-to-enable-pos-recommendations"></a>Skilgreina Dynamics 365 for Retail til að virkja ráðleggingar sölustaðar
 
@@ -83,7 +81,7 @@ Til að setja upp ráðleggingar vöru þarf að gera eftirfarandi.
 Þegar kveikt er á **Virkja ráðleggingar** og skilgreiningarvinnslur eru keyrðar eiga eftirfarandi aðgerðir sér stað.
 
 - Líkanaskilríki og kenni eru sótt úr API og geymd í Dynamics 365 for Retail virknigagnagrunni í web.config for AOS og einnig á smásöluþjóni.
-- Líkanaskilríki og kenni eru gerð tiltæk á CRT þannig að hægt sé að vinna ráðleggingarbeiðnir vara úr sölukerfi í skýinu og MPOS í nettengdri stillingu.
+- Líkanaskilríki og auðkenni eru gerð tiltæk á CRT þannig að hægt sé að virða ráðleggingarbeiðnir vara úr sölukerfi í skýinu og MPOS í nettengdri stillingu.
 
 ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Finna úrræði á vandamálum þar sem ráðleggingar um vörur hafa þegar verið virkjaðar
 

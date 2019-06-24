@@ -3,7 +3,7 @@ title: Eiginleikar sem hafa verið fjarlægðir eða úreltir
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir.
 author: sericks007
 manager: AnnBe
-ms.date: 04/12/2019
+ms.date: 06/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7afe26b535ca2578d2db17f676c3cae4bafc355f
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9daba2449b6a20634c13117cedb6b63fcc8ee674
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1527672"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620646"
 ---
 # <a name="removed-or-deprecated-features"></a>Fjarlægðir eða úreltir eiginleikar
 
@@ -38,8 +38,35 @@ ms.locfileid: "1527672"
 > [!NOTE]
 > Frá og með útgáfu Dynamics 365 for Finance and Operations, júlí 2017 með verkvangsuppfærslu 8, eru uppsetningargerðir merktar út frá sérhverjum eiginleika sem hefur verið fjarlægður eða úreltur. Allar fyrri útgáfur sem nefndar eru í þessu efnisatriði studdu aðeins dreifingar til skýjanna.
 
-> [!NOTE]
 > Ítarlegar upplýsingar um hluti í Finance and Operations má finna í [Tæknileg tilvísunarskjöl](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu Finance and Operations.
+
+## <a name="dynamics-365-for-finance-and-operations-1004"></a>Dynamics 365 for Finance and Operations 10.0.4 
+
+### <a name="france-fec-accounting-data-export-in-xml"></a>Frakkland: Útflutningur FEC-bókhaldsgagna í XML
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Skipt út með TXT-sniði, **Frönsk FEC-endurskoðunarskrá** er í boði í gegnum **Fjárhagur** \> **Reglubundin verkefni** \> **Útflutningur gagna**.
+| **Skipt út fyrir aðra eiginleika?**   | Já |
+| **Afurðasvæði sem haft er áhrif á**         | Fjárhagur |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt. Stefnt er að því að fjarlægja virknina í júlí 2020. |
+
+=======
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 með verkvangsuppfærslu 28
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.4 með verkvangsuppfærslu 28 er í boði fyrir ákveðna notendur sem hluti af forútgáfu. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í hlutanum [Framboð þjónustuuppfærslu](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="legacy-navigation-bar"></a>Eldri yfirlitsstika
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Stilling á haus með öðrum Dynamics- og Office-vörum. Nánari upplýsingar er að finna í [Uppfæra yfirlitsstiku sem er samstillt við Office-hausinn](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar).
+| **Skipt út fyrir aðra eiginleika?**   | Í verkvangsuppfærslu 24 var fyrst kynnt til sögunnar endurhönnuð yfirlitsstika sem býður upp á leit. |
+| **Afurðasvæði sem haft er áhrif á**         | Vefbiðlari |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt: Frá og með apríl 2020 mun eldri yfirlitsstika ekki lengur vera í boði. Fram að því geta viðskiptavinir farið aftur í eldri yfirlitsstiku í gegnum síðuna **Valkostir afkastagetu biðlara**. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>Dynamics 365 for Finance and Operations 10.0.2 með verkvangsuppfærslu 26
@@ -985,7 +1012,7 @@ Microsoft Dynamics AX 2012 leyfði geymslu á viðhengjum í gagnagrunninum og �
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Skjámynd ActiveX og stjórntæki hýsils með umsjón byggjast á afskrifaða fjartengiforritinu. |
-| **Skipt út fyrir aðra eiginleika?**   | Umfangsmikill Rammi fjárhagsáætlunarstýringar styður uppbyggingu nýja stýringar sem er byggt á HTML, CSS og JavaScript og er fyrsta flokks stýring í Visual Studio Tooling umhverfinu. |
+| **Skipt út fyrir aðra eiginleika?**   | Umfangsmikill Rammi fjárhagsáætlunarstýringar styður uppbyggingu nýja stýringar sem er byggt á HTML, CSS og JavaScript og er fyrsta flokks stýring í Microsoft Visual Studio Tooling umhverfinu. |
 | **Afurðasvæði sem haft er áhrif á**         | Allar einingar     |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.       |
 

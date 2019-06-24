@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4314c81823940ce3192da23dfdf777e8ebf781f2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c7cb79fa82b579bee01e51cb635597cc5f711a98
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553046"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606827"
 ---
 # <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Setja upp greiningu nýleika-, tíðni- og peningastigs (RFM)
 
@@ -46,7 +46,7 @@ Til dæmis hefur fyrirtækið stillt einkunnir á skalanum 1 til 5, þar sem 5 e
 
 Ef fyrirtækið notar uppsöfnuð númer, eru stigin lögð saman. Í sama dæmi er einkunn viðskiptavinarins 13 (5 + 3 + 5).
 
-## <a name="to-set-up-rfm-analysis-for-the-customers-in-your-organization"></a>Til að setja upp RFM-greiningu fyrir viðskiptavini fyrirtækisins
+## <a name="set-up-rfm-analysis-for-the-customers-in-your-organization"></a>Setja upp RFM-greiningu fyrir viðskiptavini fyrirtækisins
 
 1. Farðu í **Símaver** \> **Reglubundið** \> **RFM-greining**.
 2. Á **RFM greining** síðu skaltu velja **Nýtt**. Í reitnum **RFM skilgreining** er fært inn heiti fyrir RFM skilgreininguna. Til dæmis, hægt væri að kalla á skilgreiningu RFM-A.

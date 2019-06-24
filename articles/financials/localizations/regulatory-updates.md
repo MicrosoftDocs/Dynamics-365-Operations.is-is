@@ -3,7 +3,7 @@ title: Regluuppfærslur
 description: Þetta efnisatriði gefur lista yfir hjálparefni Microsoft Dynamics 365 for Finance and Operations eftir Landi/svæði.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/12/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0bd72bb5bebed84c092142b2b18f8fbbc3d4f711
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
+ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530708"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1593344"
 ---
 # <a name="regulatory-updates"></a>Regluuppfærslur
 
@@ -52,12 +52,23 @@ Fyrir nýjustu áætlanir á uppfærslu á reglum skal skoða eftirfarandi töfl
 |      2019. apríl          |   10.0.1      |   Þýskaland     |Rafræn reikningsfærsla - Reikningar viðskiptavina fluttir út á xRechnung 1.1 sniði         |
 |      2019. apríl          |   10.0.1      |    Bretland     |[Breytingar á innsendingu VSK-yfirlits (Skattur gerður stafrænn)](emea-gbr-mtd-vat-integration.md)    |    
 |      2019. apríl          |   10.0.1      |    Brasilía     |NF-e nýtt NT 2018.005         |
-|      2019. apríl          |   10.0.1      |    Rússland     |Breytingar á sniði VSK-skýrslu frá 2019         |
-|      2019. apríl          |   10.0.1      |    Rússland     |Breytingar á sniði VSK-skýrslu frá 2019 (Sölu- og innkaupabækur) 
+|      2019. apríl          |   10.0.1      |    Rússland     |[Breytingar á sniði VSK-skýrslu frá 2019](rus-VAT-declaration.md) |
+|      2019. apríl          |   10.0.1      |    Rússland     |Breytingar á sniði VSK-skýrslu frá 2019 (Sölu- og innkaupabækur) |
+|      2019. apríl          |   10.0.1      |    Rússland     |Skattskýrsla fyrir lóðarskatt breytist frá og með 2018 |
+|      2019. apríl          |   10.0.1      |    Rússland     |[Skattskýrsla fyrir eignaskatt breytist frá og með 2019](rus-assessed-tax-declaration.md)|
+|      2019. apríl          |   10.0.1      |    Rússland     |Skattskýrsla fyrir flutningsskatt breytist frá og með 2019  |
+|      2019. apríl            |   10.0.1      | Ungverjaland      |  Ungverjaland: Reikningsfærsla á netinu v.1.1 2019 þann Microsoft Dynamics 365 for Finance and Operations  |
 |      2019. maí            |   10.0.2      | Brasilía      |   SPED ECD útlit 7   |
+|      Í bið            |   10.0.3      | Brasilía      |   NF-e new NT 2018.005 - v.1.20   |
+|      Í bið            |   10.0.3      | Brasilía      |   SPED ECD útlit 7   |
+|      Í bið            |   10.0.3      | Brasilía      |   SPED ECF - Útlit 5 fyrir 2019   |
+|      Í bið            |   10.0.3      | Litháen    |   i.SAF skýrsla gerir notanda kleift að skilgreina kerfiskóða fyrir VSK í tengslum við lagalega skattkóða    |
+|      Í bið            |   10.0.3      | Pólland     |   SAF-reikningar (JPK_FA) v.2 frá 1Jul2019  |
+|      Í bið            |   10.0.3      | Brasilía   |   Leiðréttingar á fjárhagsskjali ICMS virkja töflu 5.2   |
+|      Í bið            |   10.0.3      | Brasilía    |   NF-e Decree 54.308/18 (RS)   |
 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
-- Finndu allar áætlaðar og útgefnar regluuppfærslur í [Lifecycle Service - vandamálaleit](https://lcs.dynamics.com/Logon/Index) (innskráning nauðsynleg).
+- Finnið allar áætlaðar og útgefnar regluuppfærslur í [Lifecycle Service - vandamálaleit](https://lcs.dynamics.com/Logon/Index) (innskráning nauðsynleg).
 - Fyrir lista yfir staðfærslur sem eru studdar fyrir Dynamics 365 for Finance and Operations skal sjá [Alþjóðlegt aðgengi að leiðbeiningum](https://aka.ms/dynamics_365_international_availability_deck).
 

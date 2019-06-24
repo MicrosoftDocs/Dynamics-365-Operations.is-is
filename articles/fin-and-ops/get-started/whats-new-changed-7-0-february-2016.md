@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5fb6b23d11ab263ed158a0a4476f77ed22b5084
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561811"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595663"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Hvað er nýtt eða breytt í Dynamics AX 7.0 (febrúar 2016)
 
@@ -670,7 +670,7 @@ Microsoft Azure-hýst HQ Retail býður upp á miðstýrðar stjórnun á og hei
 <td>Gagnaeiningar leyfa viðskiptavinum að gera innflutning og útflutning gagna á grunni lýsigagna. Einingar OData leyfa einnig viðskiptavini a‘ samþætta Dynamics AX við forrit þriðja aðila.</td>
 </tr>
 <tr>
-<td>Framkvæma snjalla greiningu með BI skýrslur frá Microsoft Dynamics AX og biðlara Sölustaðar.</td>
+<td>Framkvæma snjalla greiningu með BI skýrslum frá Dynamics Microsoft AX og biðlara sölustaðar.</td>
 <td>Fleiri en 25 back-office skýrslur og fimm skýrslur samhliða rásum eru tiltækar.</td>
 <td>Fleiri en 30 back-office skýrslur og 10 skýrslur samhliða rásum eru tiltækar.</td>
 <td>Þessar skýrslur láta viðskiptavini hafa fleiri BI til að spá fyrir um leitni, afhjúpa innsýn, og starfa á stanslausum hámarksafköstum.</td>
@@ -721,7 +721,7 @@ Retail Server og gagnastjórnun gerir kleift neytendum og fyrirtæki að stofna 
 </thead>
 <tbody>
 <tr>
-<td>Tengjast við gagnagrunn commerce runtime (CRT) sem geymir viðskiptagögn rásarinnar með CRT þjónustu.</td>
+<td>Tengjast við gagnagrunn commerce runtime (CRT) sem geymir viðskiptagögn rásarinnar með því að nota CRT-þjónustu.</td>
 <td>OData V3 er stutt.</td>
 <td>OData V4 er stutt.</td>
 <td>Það hjálpar viðskiptavinum að vera í takt við gildandi með OData stöðlum. Hún stofnar einnig kraftmikla omni-rásar upplifun með samþætting sölu þvert á rásir verslunar, fartæki og á netinu.</td>
@@ -971,7 +971,7 @@ Til staðar er bætt "lágsnertingar" uppsetning á íhlut biðlara í gegnum sj
 </tr>
 <tr>
 <td>Fylgjast með ástandi kerfisins og greina villur og vandamál.</td>
-<td>Þessi aðgerð krefst <a href="http://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Pack fyrir Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
+<td>Þessi aðgerð krefst <a href="https://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Pack fyrir Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
 <td>Eftirlit og greining fyrir íhluti Smásölu er nú tiltækt gegnum í <strong>innsýn í aðgerðir</strong> yfirlit í LCS.</td>
 <td><strong>Innsýn í aðgerðir </strong> yfirlit er í vöktunartengi sem byggist á skýi sem kemur í stað þarfarinnar að setja upp uppbyggingu System Center Operations Manager (SCOM).</td>
 </tr>

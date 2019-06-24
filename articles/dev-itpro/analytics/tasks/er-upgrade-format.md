@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 151b8936a46a1945e98bfe0ed040ca50c93db4b0
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544450"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595441"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>Rafræn skýrslugerð Uppfærðu snið með því að taka upp nýja grunnútgáfu sniðs
 
@@ -36,7 +36,7 @@ Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlunum
 
 ## <a name="select-format-configuration-for-customization"></a>Veljið skilgreiningu sniðs fyrir sérsnið
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
-    * Í þessu dæmi mun sýnifyrirtækið Litware, Inc. (http://www.litware.com) vinna sem skilgreiningarveita sem styður skilgreiningarsnið fyrir rafrænar greiðslur fyrir tiltekið land.    Sýnifyrirtæki Proseware, Inc. (http://www.proseware.com) mun vinna sem neytandi skilgreiningarsniðs sem Litware, Inc. útvegaði. Proseware, Inc. motar snið í sumum svæðum þess lands.  
+    * Í þessu dæmi mun sýnifyrirtækið Litware, Inc. (https://www.litware.com) vinna sem skilgreiningarveita sem styður skilgreiningarsnið fyrir rafrænar greiðslur fyrir tiltekið land.    Sýnifyrirtæki Proseware, Inc. (http://www.proseware.com) mun vinna sem neytandi skilgreiningarsniðs sem Litware, Inc. útvegaði. Proseware, Inc. motar snið í sumum svæðum þess lands.  
 2. Smelltu á Grunnstillingar skýrslugerðar
 3. Smellt er á Sýna síur.
 4. Notið eftirfarandi síur: færðu inn síugildi "UK sérsniðið upphugsað" á svæði „Heiti" með því að nota síuvirknitáknið "byrjar á"

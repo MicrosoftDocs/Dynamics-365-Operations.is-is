@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 14f2c6eb3baf0de65de3b72e10b42b03a8c6b21a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6e295456838ca0195a472518b5979dfdc7819f74
+ms.sourcegitcommit: 19859d8566a8c7840066b2c10c6b08b67f1b83f4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536711"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "1617974"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Úrvinnsla á framleiðsluþyngd afurðar með vöruhúsakerfi
 
 [!include [banner](../includes/banner.md)]
 
-[!include [preview banner](../includes/pivate-preview-banner.md)]
+[!include [banner](../includes/pivate-preview-banner.md)]
 
 
 ## <a name="feature-exposure"></a>Útsetning eiginleika
@@ -138,10 +138,6 @@ Ekki öll verkflæði styðja úrvinnslu á afurð í framleiðsluþyngd með v�
 - Handvirk stofnun á biðgeymslupöntunum er ekki studd fyrir afurðir í framleiðsluþyngd.
 - Handvirkur flutningur birgða sem tengist verki er ekki studdur fyrir afurðir í framleiðsluþyngd.
 - Samstæðumyndun á númeraplötum er ekki studd fyrir afurðir í framleiðsluþyngd.
-- Breytingar á birgðastöðu vöruhúss sem hluti af reglubundnu verki eru ekki studdar fyrir afurðir í framleiðsluþyngd.
-- Breytingar á birgðastöðu sem eru skilgreindar af fyrirspurn eru ekki studdar fyrir afurðir í framleiðsluþyngd. (Breytingar á birgðastöðu gæðapöntunar eru ekki heldur studdar.)
-- Ekki er hægt að breyta birgðastöðu fyrir afurðir í framleiðsluþyngd á síðunni **Á lager eftir staðsetningu**.
-- Ekki er hægt að breyta birgðastöðunni fyrir afurðir í framleiðsluþyngd sem hluti af hreyfingarverki vöruhúsaforrits.
 - Hleðsla númeraplötu til að frumstilla vöruhúsabirgðir er ekki studd fyrir afurðir í framleiðsluþyngd.
 - Jöfnunarferli virkra efna í uppskrift er ekki stutt fyrir afurðir í framleiðsluþyngd.
 - Meðhöndlun á neikvæðri birgðastöðu er ekki studd fyrir afurðir í framleiðsluþyngd.
@@ -151,7 +147,6 @@ Ekki öll verkflæði styðja úrvinnslu á afurð í framleiðsluþyngd með v�
 
 - Virkni fyrir klasatiltekt er ekki studd fyrir afurðir í framleiðsluþyngd.
 - Tiltektar- og pökkunarvinnsla vöruhúss er ekki studd fyrir afurðir í framleiðsluþyngd.
-- Ekki er hægt að ljúka vinnu fyrir afurðir í framleiðsluþyngd á síðunni **Vinna**.
 - Fyrir afurðir í framleiðsluþyngd er hægt að keyra vinnu sjálfkrafa sem er skilgreind í vinnusniðmáti.
 - Virknin til að bakfæra vinnu er ekki studd fyrir afurðir í framleiðsluþyngd.
 - Fyrir afurðir í framleiðsluþyngd, handvirk vinnsla pökkunarstöðvar þar sem vinna er stofnuð eftir að gámar eru lokaðir er ekki studd.
@@ -163,7 +158,7 @@ Ekki öll verkflæði styðja úrvinnslu á afurð í framleiðsluþyngd með v�
 - Kanban-virkni er ekki studd fyrir afurðir í framleiðsluþyngd.
 - Fyrir afurðir í framleiðsluþyngd er ekki hægt að skrá raðnúmer á undan notkun.
 - Virknin til að bakfæra númeraplötur er ekki studd fyrir afurðir í framleiðsluþyngd.
-- Fyrir afurðir í framleiðsluþyngd er hægt að skrá skýrslugerð sem lokið eftir raðnúmeri.
+- Fyrir afurðir í framleiðsluþyngd er ekki hægt að skrá skýrslugerð sem lokið eftir raðnúmeri.
 
 ### <a name="transportation-management-processing"></a>Vinnsla flutningsstjórnunar
 

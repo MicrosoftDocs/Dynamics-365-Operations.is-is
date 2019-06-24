@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 438c2b5689e450b9aae9c55168993f2ee84be4d5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: db542e4df79480624ff6e5ff1996ad930fc1564b
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518323"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617344"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>Algengar spurningar um samþættingu Dynamics 365 for Talent til Dynamics 365 for Finance and Operations
 
@@ -46,7 +46,7 @@ Sem stendur eru fjárhagsvíddir ekki í Common Data Service og eru þar af lei�
 
 Fyrir gögn sem eru í Finance and Operations en eru ekki til í Talent, skal tengja kerfin tvö saman með **Skilgreina tengla** í Talent. Nánari upplýsingar um hvernig á að skilgreina tengla milli Talent og Finance and Operations er að finna í [Hvað er nýtt eða breytt í Dynamics 365 for Talent Core HR (31. október 2018)](whats-new-talent-october-31.md).
 
-![](media/MapFinancialDimensions.png)
+![Varpa fjárhagsvíddum](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-and-operations-why"></a>Stundum þegar ég flyt inn starfsmenn fara þeir í óvirka starfskrafta í Finance and Operations. Af hverju?
 
@@ -60,14 +60,14 @@ Samstilling gagna fylgir framkvæmdaráætlun. Samþættingin mun taka upp skrá
 
 Með því að nota „Ítarleg fyrirspurn“ geturðu síað og mótað upprunagögn áður en þau eru send inn í staðsetninguna.
 
-![](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![Ítarleg fyrirspurn virkra starfskrafta](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-and-operations-for-a-specific-entity"></a>Get ég tilgreint hvaða svæði skal senda til Finance and Operations fyrir tiltekna einingu?
 
 Hægt er að bæta við eða fjarlægja svæði úr samþættingarverkinu. Ekki öll gagnasvæði sem til eru í einingu Common Data Service verða fylltir út frá Core HR.
 Hægt er að fylla út viðbótargögn í gegnum PowerApps.
 
-![](media/SpecifyFieldsIncludedInIntegration.png)
+![Bæta við eða fjarlægja reiti í eða úr samþættingarverki](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-talent-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>Ég setti upp samþættingu sem runuvinnslu en Talent missti tengingu við kerfi áfangastaðar. Hvernig get ég sent sama sett af breytingum til kerfi áfangastaðar?
 

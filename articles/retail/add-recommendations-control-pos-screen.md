@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 213b47422a5e31c2cfc2d173b8c7d9efdecc7568
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f17da3db6fbc19548544a0c6c090a0b6db093673
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1573373"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606850"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Bæta stýringu ráðleggingar á færsluskjá á sölustaðartækjum
 
@@ -40,13 +40,13 @@ Hægt er að sýna vöruráðleggingar í POS-tækinu þegar þú notar Microsof
 ## <a name="open-layout-designer"></a>Opnaðu Útlitshönnuður afgreiðsluskjás
 
 1. Farðu í **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning POS** &gt; **POS** &gt; **Skjáútlit**.
-2. Notaðu flýtiafmörkun til að finna skjáinn sem á að bæta stýringunni við. Afmarkaðu til dæmis svæðið **Útlitskenni afgreiðsluskjás** með því að nota gildið „F2CP16:9M“.
-3. Í listanum skal finna og velja þá skráningu sem óskað er eftir. Veldu til dæmis „Nafn: F2CP16:9M Útlitskenni afgreiðsluskjás: F2CP16:9M“.
+2. Notaðu flýtiafmörkun til að finna skjáinn sem á að bæta stýringunni við. Til dæmis notar sían í svæðinu **Útlitskenni afgreiðsluskjás** gildið **F2CP16:9M**.
+3. Í listanum skal finna og velja þá skráningu sem óskað er eftir. Til dæmis veldu **Nafn: F2CP16:9M Útlitskenni afgreiðsluskjás: F2CP16:9M**.
 4. Smellt er á **Útlitshönnuður**.
 5. Fylgdu kvaðningum til að hefja Útlitshönnuðinn. Þegar beðið er um skilríki skal slá inn sömu skilríki og voru notuð þegar Útlitshönnuður var opnaður af síðunni **Skjáútlit**.
 6. Þegar þú skráir þig inn birtist síða sem er svipuð þeirra sem er fyrir neðan. Útlitið verður mismunandi eftir þeim sérstillingum sem voru gerðar fyrir verslunina.
 
-    [![skjáútlit-mynd-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Útlitshönnuður](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Veldu valkost skjás
 
@@ -59,11 +59,11 @@ Tvær skilgreiningar eru í boði: Veldu valkostinn sem virkar best fyrir verslu
 
 1. Dragðu úr hæð upplýsingasvæðis færslulína  svo að það sé í sömu hæð og svæði viðskiptamanns til vinstri .
 
-    [![skjáútlit-mynd-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Hæð á upplýsingasvæði fyrir færslu°línur minnkuð](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. Frá valmynd til vinstri skal draga og sleppa ráðleggingarstýringu á milli upplýsingasvæðis færslulína og hnappahnita í neðst á miðjan færsluskjáinn. Breyta stærð stýringar svo að hún passi í það bil.
 
-    [![skjáútlit-mynd-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Ráðleggingarstýringu bætt við útlitið](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 3. Smellt er á **X++** til að vista og fara úr Útlitshönnuði.
 4. Í Dynamics 365 for Retail ferðu í **Retail** &gt; **Smásöluupplýsingatækni** &gt; **Dreifingaráætlun**.
@@ -75,13 +75,13 @@ Tvær skilgreiningar eru í boði: Veldu valkostinn sem virkar best fyrir verslu
 1. Hægrismelltu í tómt bil undir síðasta flipanum á hnappahnitinu hægra megin á síðunni.
 2. Smelltu á  **Sérstilla**.
 
-    [![pic-5](./media/pic-5.png)](./media/pic-5.png)
+    [![Sérstilling - Svargluggi flipastýringar](./media/pic-5.png)](./media/pic-5.png)
 
 3. Smellt er á **Nýr flipi**.
 4. Finndu nýja flipann sem þú varst að bæta við. Hugsanlega þarf að skruna niður.
 5. Í fellilistanum **Efni** skal velja **Ráðlögð afurð**.
 
-    [![pic-6](./media/pic-6.png)](./media/pic-6.png)
+    [![Val á vörum sem mælt er með í efnisreitnum](./media/pic-6.png)](./media/pic-6.png)
 
 6. Í svæðinu **Merki** skal færa inn heiti á ráðleggingaflipanum. Færðu til dæmis inn „Ráðlagðar afurðir“.
 7. Í svæðinu **Mynd** velurðu myndina sem á að birtast á flipanum.

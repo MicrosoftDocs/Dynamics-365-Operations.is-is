@@ -3,7 +3,7 @@ title: Auglýsa störf á utanaðkomandi ráðningarsíðum úr Attract
 description: Þetta efnisatriði útskýrir hvernig á að nota Dynamics 365 for Talent - Attract til að auglýsa störf á utanaðkomandi ráðningarsíðum
 author: pganapmsft
 manager: AnnBe
-ms.date: 03/20/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: eca599ad189edae29ef2de496196b08799a5e745
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9c27d1810a89ed7d7a7745e41c5f118dbdfe5dda
+ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518281"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1590483"
 ---
 # <a name="post-jobs-to-external-career-sites-from-attract"></a>Auglýsa störf á utanaðkomandi ráðningarsíðum úr Attract
 
@@ -36,6 +36,7 @@ ms.locfileid: "1518281"
 
 > [!NOTE]
 > - Til að auglýsa störf á utanaðkomandi síðum verður þú að hafa [Viðbót við alhliða ráðningar](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - Til að birta störf í Broadbean í gegnum Attract er nauðsynlegt að vera með Broadbean-áskrift.
 > - Þessi eiginleiki er í forútgáfu sem stendur. Ef þú vilt prófa hann verður þú að [kveikja á honum í stjórnandastillingum Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
 
 ### <a name="configure-broadbean-integration"></a>Skilgreina Broadbean-samþættingu

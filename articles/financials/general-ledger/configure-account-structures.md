@@ -3,7 +3,7 @@ title: Skilgreina lykilskipulög
 description: Þetta efnisatriði inniheldur upplýsingar um lykilskipulög og fjárhagsvíddir.
 author: aprilolson
 manager: AnnBe
-ms.date: 05/21/2018
+ms.date: 06/03/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0665f5aec2a0809ecb383c1d4adf4c2072c9569
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5fbd4b34d09b4ba8e1d34234c8e32268bba18778
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552007"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617297"
 ---
 # <a name="configure-account-structures"></a>Skilgreina lykilskipulög
 
@@ -70,6 +70,16 @@ Kaflinn **Upplýsingar um leyfð gildi** leiðbeinir þér í gegnum það að b
 
 [![Leyfa gildi](./media/account.png)](./media/account.png) 
 
+Leyfð gildi verða sjálfgefin á færslusíðu fyrir færslubók eða dreifingu á fjárhagsupphæð þegar ekki er hægt að velja nein önnur gildi samkvæmt uppsetningu lykilskipulags.
+
+Hér er dæmi um **Skipulag rekstrarreiknings**.
+
+|Aðallykill          | Viðskiptaeining    |Deild          | Kostnaðarstaður    |
+|----------------------|-----------|----------------------|-----------|
+|400000..999999 | 002 | 022 | 014 |
+
+Þegar færslubók er færð inn og við val á lykli í rekstrarbilinu, mun val á viðskiptaeiningu „002“ leiða til þess að gildin 022 og 014 verði sjálfgefin fyrir stjórnun lykils. Þessi hegðun mun einnig eiga sér stað fyrir síðu dreifingar á fjárhagsupphæð. 
+
 ## <a name="more-than-7-criteria-needed"></a>Fleiri en 7 skilyrði þarf
 
 Ef þú hefur fleiri en 7 skilyrði sem þarf, getur þú haldið áfram að bæta þeim við í næstu línu. Þú munt taka eftir því þegar að þú vinnur í hlutanum **Upplýsingar um leyfð gildi** að skilyrðið **+bæta við nýju** er ekki lengur virkt eftir að sjöunda skilyrðið er slegið inn. Þetta stafar af mörgum þáttum eins og: 
@@ -79,8 +89,6 @@ Ef þú hefur fleiri en 7 skilyrði sem þarf, getur þú haldið áfram að bæ
  - Notandahæfi  
  
 Til að halda áfram að bæta við fleiri skilyrðum skaltu smella á **Afrita í hlutanum** og **Hluti leyfðra gilda**. Þetta mun afrita skilyrðið í nýja línu. Þú getur þá skrifað yfir eða breytt kaflanum **Upplýsingar um leyfð gildi**.
-
-(TENGILL Á MYNDBAND SEM VERÐUR BÚIÐ TIL)
 
 ## <a name="best-practices"></a>Bestu venjur
 Þegar þú setur upp lykilskipulögin þín eru nokkrar bestu venjur sem þú getur fylgt eftir. Hins vegar er þetta aðeins leiðsögn svo að heildræn umræða um fyrirtæki þitt, vaxtaráætlun og viðhaldsáætlun ætti að teljast hluti af þeirri umfjöllun.

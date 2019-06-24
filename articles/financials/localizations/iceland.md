@@ -16,12 +16,12 @@ ms.search.region: Iceland
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 960230699ad9476faa728bba9b96011ebaf757b5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b1429a07124cce6d89f68fde9093d3c9159d7394
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1513018"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1560391"
 ---
 # <a name="iceland"></a>Ísland 
 

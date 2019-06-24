@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: bb08833cca843c370e2c845bce56d6f5a8b5f2ed
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1502731"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595340"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Dálkaskilgreiningar í Fjárhagsskýrslum
 
@@ -120,7 +120,7 @@ Eftirfarandi tafla lýsir kóðum dálktakmarkana.
 | ADJ                     | Takmarkar upphæðirnar sem birtar eru í dálkinum við upphæðir tímabilsleiðréttinga, ef þessar upphæðir eru til staðar. |
 | XAD                     | Takmarkar upphæðirnar sem birtar eru í dálkinum svo upphæðir tímabilsleiðréttinga sé sleppt. |
 | PT                      | Takmarkar upphæðirnar sem birtar eru í dálkinum svo aðeins bókaðar færslur séu hafðar með, ef þessar færslur eru til staðar. |
-| UPT                     | Takmarkar upphæðirnar sem birtar eru í dálkinum svo aðeins óbókaðar færslur séu hafðar með, ef þessar færslur eru til staðar.<blockquote>[!NOTE] Sumar gagnaveitur styðja ekki óbókaðar færslur. Frekari upplýsingar er að finna í <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>leiðarvísi gagnasamþættingar</a> fyrir Microsoft Dynamics ERP kerfið þitt.</blockquote> |
+| UPT                     | Takmarkar upphæðirnar sem birtar eru í dálkinum svo aðeins óbókaðar færslur séu hafðar með, ef þessar færslur eru til staðar.<p><strong>Ábending:</strong> Sumar gagnaveitur styðja ekki óbókaðar færslur. Frekari upplýsingar er að finna í <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>leiðarvísi gagnasamþættingar</a> fyrir Microsoft Dynamics ERP kerfið þitt.</p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>dálkur takmarkaður við einingu skipurits
 
@@ -310,7 +310,7 @@ Hólfið **Stilling fyrir prentun** inniheldur kóða sem stilla birtingar- eða
 | Kóði fyrir stillingu prentunar | Þýðing                                     | Lýsing |
 |--------------------|-------------------------------------------------|-------------|
 | NP                 | Ekki til prentunar                                     | Útilokar upphæðir í þessum dálki frá skýrslunni sem er prentuð og frá útreikningum. Til að taka dálk sem ekki er til prentunar með í útreikningi er vísað beint til dálksins í útreikningsformúlunni. Til dæmis er dálkur C, sem ekki er ætlaður til prentunar, tekinn með í eftirfarandi útreikningi: **B+C+D**. Hins vegar er dálkur C, sem ekki er ætlaður til prentunar, ekki tekinn með í eftirfarandi útreikningi: **B:D**. |
-| XCR                | Tákni breytt ef dæmigerð staða línunnar er kredit | Stofnar fjárhagsáætlun eða samanburðarskýrslu þar sem óæskileg frávik (t.d. tekjutap eða framúrkeyrsla í kostnaði) er alltaf neikvæð. Nota þessi kóði til að breyta tákni **CALC**-dálksupphæðar ef dæmigerð staða tiltekinnar línu er kredit (táknað með **C** í dálkinum **Eðlileg staða** í línuskilgreiningunni).<blockquote>[!NOTE] Fyrir <strong>TOT</strong> línur og </strong>CAL</strong> línur sem eru yfirleitt með kreditstöðu skal ganga úr skugga um að slá inn <strong>C</strong> í dálkinn <strong>Eðlileg staða</strong> í línuskilgreiningu.</blockquote> |
+| XCR                | Tákni breytt ef dæmigerð staða línunnar er kredit | Stofnar fjárhagsáætlun eða samanburðarskýrslu þar sem óæskileg frávik (t.d. tekjutap eða framúrkeyrsla í kostnaði) er alltaf neikvæð. Nota þessi kóði til að breyta tákni **CALC**-dálksupphæðar ef dæmigerð staða tiltekinnar línu er kredit (táknað með **C** í dálkinum **Eðlileg staða** í línuskilgreiningunni).<p><strong>Athugið:</strong> Fyr <strong>TOT</strong> línur og </strong>CAL</strong> línur sem yfirleitt eru með kreditstöðu, skal slá inn <strong>C</strong> í dálkinn <strong>Eðlileg staða</strong> í línuskilgreininguna.</p> |
 | X0                 | Dálkur falinn ef hann inniheldur bara núll eða eyður          | Útilokar **FD**-dálk frá skýrslunni ef öll hólf í þeim dálki eru annaðhvort tóm eða innihalda núll. |
 | SR                 | Sléttun falin                               | Kemur í veg fyrir að upphæðirnar í þessum dálki séu sléttaðar. |
 | XR                 | Samantekt falin                                 | Felur samantekt. Ef notað er skipurit í skýrslunni eru upphæðirnar í þessari dálkur ekki teknar saman í yfirhnútum sem á eftir koma. |
@@ -546,8 +546,8 @@ Eftirfarandi tafla sýnir niðurstöður skýrslunnar sem geta átt sér stað f
 | Hólf fyrir Birtingarmynd gjaldmiðils                        | Hólf fyrir Gjaldmiðilsafmörkun | Niðurstaða skýrslu |
 |----------------------------------------------|----------------------|---------------|
 | Gjaldmiðill færslu                 | **JEN**              | **Y6, 000** – niðurstöðurnar sýna einungis færslur sem voru færðar inn í JPY. |
-| Bókhaldsgjaldmiðill úr fjárhag | **JEN**              |**$60** – niðurstöðurnar sýna einungis færslur sem voru færðar inn í JPY og sýnir færslur í USD.<blockquote>[!NOTE] Umreikningsgengi er um það bil 100 JPY á USD.</blockquote> |
-| Bókhaldsgjaldmiðill úr fjárhag | Autt                | **$2.310** - Niðurstöðurnar sýna öll gögn í bókhaldsgjaldmiðli sem tilgreindur er í fjárhag.<blockquote>[!NOTE] Þessi upphæð er samtala allra færslna í bókhaldsgjaldmiðli.</blockquote> |
+| Bókhaldsgjaldmiðill úr fjárhag | **JEN**              |**$60** – niðurstöðurnar sýna einungis færslur sem voru færðar inn í JPY og sýnir færslur í USD.<p><strong>Ábending:</strong> umreikningsgengi er um það bil 100 JPY á USD.</p> |
+| Bókhaldsgjaldmiðill úr fjárhag | Autt                | **$2.310** - Niðurstöðurnar sýna öll gögn í bókhaldsgjaldmiðli sem tilgreindur er í fjárhag.<p><strong>Athugið:</strong> Þessi upphæð er samtala allra færslna í bókhaldsgjaldmiðli.</p> |
 | Gjaldmiðill færslu                 | Autt                | **$2,250** – niðurstöður sýnir allar upphæðir í gjaldmiðli sem færslan var framkvæmd í. Þetta þýðir að samtalan er að leggja saman upphæðir frá mismunandi gjaldmiðlum. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Útreikningsdálkur í dálkskilgreiningu
@@ -565,7 +565,7 @@ Til að bæta við, draga frá, margfalda eða skipta dálkum eru dálkstafir f�
 |----------|---------------------|-------------|
 | +        | A+C                 | Bæta upphæðinni í dálki A við upphæðina í dálki C. |
 | :        | A:C A:C-D           | Bæta við sviði samliggjandi dálka. Til dæmis bætir formúlan **A:C** við samtölum dálka A til C og formúlan **A:C-D** bætir við samtölu A til C og dregur frá upphæðina í dálki D. |
-| -        | A-C                 | Draga upphæðina í dálki A frá upphæðinni í dálki C.<blockquote>[!NOTE] Einnig má nota mínustáknið (-) til að umsnúa táknum í dálki. Til dæmis er <strong>-A+B</strong> notað til að bæta bakfærslu upphæðar í dálki A við upphæðina í dálki B.</blockquote> |
+| -        | A-C                 | Draga upphæðina í dálki A frá upphæðinni í dálki C.<p><strong>Athugasemd:</strong> Einnig má nota mínustáknið (-) til að umsnúa táknum í dálki. Til dæmis er <strong>-A+B</strong> notað til að bæta bakfærslu upphæðar í dálki A við upphæðina í dálki B.</p> |
 | \*       | A\*C                | Margfalda upphæðinni í dálki A með upphæðinni í dálki C. |
 | /        | A/C                 | Deila upphæðinni í dálki A með upphæðinni í dálki C. |
 

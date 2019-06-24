@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 24775044e5a502a5615392a6a8c4030bdfafb0ab
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a34ae8084c0ad55221f4ab93eb8c6481fa8c4771
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558574"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606757"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Grunnstilla verðgildi reiðufjár fyrir sölustað (POS)
 
@@ -34,9 +34,9 @@ Tilgreint verðgildi reiðufjár fyrir seðla og myntir er hægt að skilgreina 
 
 ## <a name="define-denominations"></a>Skilgreina tilgreint verðgildi
 
-Tilgreint verðgildi er sett upp í hverri verslun fyrir sig á síðunni **Uppsetning** \> **Valkostur fyrir talningu reiðufjár frá eiginleika verslunar**.
+Tilgreint verðgildi er sett upp í hverri verslun fyrir sig á síðunni **Uppsetning** \> **Valkostur fyrir talningu** reiðufjár frá eiginleika verslunar.
 
-![tilgreint verðgildi reiðufjár](./media/image1-denomination.png)
+![Valkostur fyrir talningu reiðufjár](./media/image1-denomination.png)
 
 Að skilgreina tilgreint verðgildi:
 
@@ -44,7 +44,7 @@ Að skilgreina tilgreint verðgildi:
 1. Tilgreina tegundina (mynt eða seðill).
 1. Tilgreina upphæðina (gildi).
 
-![tilgreint verðgildi reiðufjár](./media/image2-denomination.png)
+![Síða gjaldmiðla fyrir talningu reiðufjár](./media/image2-denomination.png)
 
 ## <a name="configure-the-functionality-profile"></a>Grunnstilla virkniregluna
 

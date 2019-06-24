@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13a27c2fec2a2b226e9ae8d5b8f9a61e8b79ceb0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a4b1cd7a02cdf4c650af50199f4425eb53cef0a8
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544910"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595396"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>Stofna skilgreiningarveitendur og merkja þá sem virka
 
@@ -34,11 +34,11 @@ Eftirfarandi skref útskýra hvernig notanda úthlutað á hlutverk Kerfisstjór
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
 2. Smelltu á skilgreiningaveitur.
 3. Smellið á „Nýtt“.
-    * Skrá veitu er einkvæmt hvað varðar heiti og vefslóð. Yfirfarið innihald þessarar síðu og sleppið ferlinu ef færsla fyrir Litware, Inc. (http://www.litware.com) er þegar til.  
+    * Skrá veitu er einkvæmt hvað varðar heiti og vefslóð. Yfirfarið innihald þessarar síðu og sleppið ferlinu ef færsla fyrir Litware, Inc. (https://www.litware.com) er þegar til.  
 4. Í svæðið Heiti, færðu inn 'Litware, Inc.'.
     * Litware, Inc.  
-5. Í reitinn Veffang skal slá inn „http://www.litware.com“.
-    * http://www.litware.com  
+5. Í reitinn Veffang skal slá inn „https://www.litware.com“.
+    * https://www.litware.com  
 6. Smellið á „Vista“.
 7. Lokið síðunni.
 

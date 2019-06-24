@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fda94e77480b9d9455fc0e214e43772ab2921f2d
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1525326"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577901"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Uppsetning á samþættingu fjárhags fyrir smásölurásir
 
@@ -88,7 +88,7 @@ Uppsetningarferli fjárhagssamþættingar felur í sér eftirfarandi atriði:
         Hægt er að breyta færibreytum gagnavörpunar í tækniforstillingu tengils. Til að endurheimta sjálfgefnar færibreytur sem eru skilgreindar í grunnstillingu fjárhagsskjalsveitu skal velja **Uppfæra**.
 
         **Dæmi**
-    
+
         |   | Snið | Dæmi |
         |---|--------|---------|
         | **Stillingar VSK-hlutfalls** | gildi : VAThlutfall | 1 : 2000, 2 : 1800 |
@@ -111,7 +111,7 @@ Uppsetningarferli fjárhagssamþættingar felur í sér eftirfarandi atriði:
 4. Búa til fjárhagstenglahópa.
 
     Fjárhagstenglahópur sameinar virkniforstillingar fjárhagstengla sem framkvæma eins aðgerðir og eru notaðar í sama skrefi í skráningarferli fjárhags. Til dæmis, ef hægt er að nota nokkrar gerðir af strimlaprenturum í smásöluverslun, er hægt að sameina fjárhagstengla fyrir þessa strimlaprentara í fjárhagstenglahópi.
-    
+
     1. Á síðunni **Fjárhagstenglahópur** (**Retail \> Uppsetning rásar \> Samþætting fjárhags \> Fjárhagstenglahópar**) skal stofna nýjan fjárhagstenglahóp.
     2. Bæta virkniforstillingum við tenglahópinn. Í flipanum **Virkniforstillingar** skal velja **Bæta við** og velja forstillingarnúmer. Hver fjárhagstengill í tenglahópi getur aðeins haft eina virkniforstillingu.
     3. Til að hætta notkun á virkniforstillingu skal stilla valkostinn **Slökkva** á **Já**. Þessi breyting hefur aðeins áhrif á núverandi tenglahóp. Þú getur haldið áfram að nota sömu virkniforstillingu í öðrum tenglahópum.
@@ -119,7 +119,7 @@ Uppsetningarferli fjárhagssamþættingar felur í sér eftirfarandi atriði:
 5. Búa til skráningarferli fjárhags.
 
     Skráningarferli fjárhags er skilgreint eftir röð skráningarskrefanna og tenglahópnum sem notaður er í hverju skrefi.
-    
+
     1. Á síðunni **Skráningarferli fjárhags** (**Retail \> Uppsetning rásar \> Skráningarferli fjárhags \> Skráningarferli fjárhags**) skal stofna nýja færslu fyrir hvert einkvæmt ferli fjárhagsskráningar.
     2. Bæta við skráningarskrefum við ferlið:
 
@@ -145,7 +145,7 @@ Uppsetningarferli fjárhagssamþættingar felur í sér eftirfarandi atriði:
 7. Á síðunni **Skráningarferli fjárhags** (**Retail \> Uppsetning rásar \> Samþætting fjárhags \> Skráningarferli fjárhags**) skal velja **Villuleita** til að villuleita skráningarferli fjárhags.
 
     Við mælum með að þú keyrir þessa tegund af villuleit í eftirfarandi tilvikum:
-    
+
     - Eftir að þú hefur lokið öllum stillingum fyrir nýtt skráningarferli, þar á meðal þegar þú úthlutar skráningarferlum til POS-virknireglna og vélbúnaðarforstillinga.
     - Eftir að þú hefur gert breytingar á núverandi skráningarferli fjárhags og þessar breytingar gætu valdið því að annar fjárhagstengill sé valinn við keyrslu (til dæmis ef þú breytir tengilhópnum fyrir skref í skráningarferli fjárhags, virkjar virkniforstillingu tengils í tengilhóp eða bætir nýrri virkniforstillingu við tengilhóp).
     - Eftir að þú hefur gert breytingar á úthlutun á tækniforstillingum tengils til vélbúnaðarforstillinga.

@@ -3,7 +3,7 @@ title: Myndskeið fyrir Finance and Operations
 description: Þessi síða sýnir „hvernig á að“ og tæknitalsmyndbönd sem Microsoft hefur búið til sem tengjast Dynamics 365 for Finance and Operations sem eru aðgengileg á YouTube og öðrum vefsíðum.
 author: josaw1
 manager: AnnBe
-ms.date: 05/11/2018
+ms.date: 05/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1b828382f9f81d796fcfaef0e9c7dc9450a97992
+ms.sourcegitcommit: 2bbc0eeca6826c529fb729b82d16f287c1ce05bb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561669"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1591549"
 ---
 # <a name="videos-for-finance-and-operations"></a>Myndskeið fyrir Finance and Operations
 
@@ -63,6 +63,7 @@ Myndböndum er raðað eftir eiginleikum, svo flettu niður til að sjá alla li
 - [Fartækjavinnusvæði kostnaðarstýringar](https://youtu.be/imsuTg8rUVk)
 - [Hafist handa með kostnaðarbókhald](https://youtu.be/1pUDtJQZ8FU)
 - [Nota Excel fyrir kostnaðargreiningu](https://youtu.be/-HKHYdClvx8)
+- [Kostnaðarumhverfi](https://youtu.be/Ocy-MsTvEE0)
 
 #### <a name="intelligence"></a>Greind
 
@@ -150,8 +151,8 @@ Myndböndum er raðað eftir eiginleikum, svo flettu niður til að sjá alla li
 
 - [CDS-gagnasamþætting (DYN451PAL2)](https://infopedia.eventbuilder.com/event?eventid=i8v2n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Samþætting (VIR806PAL)](https://infopedia.eventbuilder.com/event?eventid=y0w0k9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Samþætting milli Dynamics 365 for Sales og Dynamics 365 for Finance and Operations í gegnum CDS (DYN340PAL)](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [Samþættingarrammi innan Dynamics 365 for Finance and Operations (DYN385PAL)](https://infopedia.eventbuilder.com/event?eventid=y4y2v9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Samþætting milli Dynamics 365 for Sales og Dynamics 365 for Finance & Operations í gegnum CDS (DYN340PAL)](https://infopedia.eventbuilder.com/event?eventid=d8s3b6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Samþættingarrammi innan Dynamics 365 for Finance & Operations (DYN385PAL)](https://infopedia.eventbuilder.com/event?eventid=y4y2v9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Rammi sjálfvirks verks fyrir gagnastjórnun (DYN447PAL2)](https://youtu.be/KqnXjNpR4AY)
 
 #### <a name="intelligence"></a>Greind

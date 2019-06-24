@@ -27,7 +27,7 @@
           href: dev-tools/enable-development-machine.md
         - name: Algengar spurningar um þróun og smíði sýndarvéla sem heimila ekki stjórnandaaðgang
           href: sysadmin/VMs-no-admin-access.md
-        - name: Endurnefna staðbundið umhverfi til að fá aðgang að Azure DevOps
+        - name: Endurnefna staðbundin umhverfi til að fá aðgang að Azure DevOps
           href: migration-upgrade/vso-machine-renaming.md
         - name: Þróunarkerfiskröfur
           href: dev-tools/development-system-requirements.md
@@ -227,8 +227,9 @@
             - name: X-klasar
               href: dev-ref/x-classes.md
     - name: Stækkunarhæfni
-      href: extensibility/extensibility-home-page.md
       items:
+        - name: Heimasíða stækkunarhæfni
+          href: extensibility/extensibility-home-page.md
         - name: Kynning og fyrstu skref
           items:
             - name: Stækkunarmöguleikar forrits
@@ -245,36 +246,38 @@
               href: extensibility/customization-overlayering-extensions.md
         - name: Nýjungar
           items:
-            - name: 'Breytingar á stækkunarhæfni, júlí 2017'
-              href: extensibility/changes-july-2017.md
-            - name: Breytingar á stækkunarhæfni í útgáfu 7.3
-              href: extensibility/extensibility-changes-73.md
-            - name: Breytingar á stækkunarhæfni í útgáfu 8.0
-              href: extensibility/changes-80.md
-            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.0.1'
-              href: extensibility/extensibility-changes-801.md
-            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.0.2'
-              href: extensibility/extensibility-changes-802.md
-            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.0.3'
-              href: extensibility/extensibility-changes-803.md
-            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.0.4'
-              href: extensibility/extensibility-changes-804.md
-            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.1'
-              href: extensibility/extensibility-changes-81.md
-            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.1.1'
-              href: extensibility/extensibility-changes-811.md
-            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.1.2'
-              href: extensibility/extensibility-changes-812.md
-            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.1.3'
-              href: extensibility/extensibility-changes-813.md
-            - name: 'Breytingar á stækkunarhæfni, útgáfa 10.0'
-              href: extensibility/extensibility-changes-10.md
-            - name: 'Breytingar á stækkunarhæfni, útgáfa 10.0.1'
-              href: extensibility/extensibility-changes-10-1.md
-            - name: 'Breytingar á stækkunarhæfni, útgáfa 10.0.2'
-              href: extensibility/extensibility-changes-10-2.md
+            - name: Nýjungar eða breytingar á stækkunarhæfni
+              href: extensibility/extensibility-new.md
             - name: 'Breytingar á stækkunarhæfni, útgáfa 10.0.3'
               href: extensibility/extensibility-changes-10-3.md
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 10.0.2'
+              href: extensibility/extensibility-changes-10-2.md
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 10.0.1'
+              href: extensibility/extensibility-changes-10-1.md
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 10.0'
+              href: extensibility/extensibility-changes-10.md
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.1.3'
+              href: extensibility/extensibility-changes-813.md
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.1.2'
+              href: extensibility/extensibility-changes-812.md
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.1.1'
+              href: extensibility/extensibility-changes-811.md
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.1'
+              href: extensibility/extensibility-changes-81.md
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.0.4'
+              href: extensibility/extensibility-changes-804.md
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.0.3'
+              href: extensibility/extensibility-changes-803.md
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.0.2'
+              href: extensibility/extensibility-changes-802.md
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.0.1'
+              href: extensibility/extensibility-changes-801.md
+            - name: Breytingar á stækkunarhæfni í útgáfu 8.0
+              href: extensibility/changes-80.md
+            - name: Breytingar á stækkunarhæfni í útgáfu 7.3
+              href: extensibility/extensibility-changes-73.md
+            - name: 'Breytingar á stækkunarhæfni, júlí 2017'
+              href: extensibility/changes-july-2017.md
         - name: Undirstöðuatriði
           items:
             - name: Sérstillingar sem valda röskunum
@@ -361,8 +364,14 @@
       items:
         - name: Taka rakningar með Trace-þáttara
           href: perf-test/trace-trace-tutorial.md
-        - name: SDK fyrir afköst og fjölnotendaprófun með Visual Studio Online
-          href: perf-test/perfsdk-tutorial.md
+        - name: Einstaklingsprófun með verkskráningu og SDK fyrir afköst
+          href: perf-test/single-user-test-perf-sdk.md
+        - name: Fjölnotendaprófun með SDK fyrir afköst og staðbundna prófunarstýringu
+          href: perf-test/multi-user-testing-local-test-controller.md
+        - name: Fjölnotendaprófun með SDK fyrir afköst og Azure DevOps
+          href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+        - name: Leiðarvísir úrræðaleitar fyrir einstaklingsprófun eða fjölnotendaprófun með SDK fyrir afköst
+          href: perf-test/troubleshoot-perf-sdk-user-testing.md
         - name: SDK fyrir afköst og fjölnotendaprófun í innanhússumhverfi
           href: perf-test/perfsdk-tutorial-lbd.md
         - name: Greina vandamál og afköst með Trace parser
@@ -922,6 +931,8 @@
           href: financial/create-exchange-rate-providers.md
         - name: 'Stofna gengisveitur í Finance and Operations, útgáfu 8.0'
           href: financial/create-exchange-rate-8.md
+    - name: 'Jafna færslur með CustTrans::settleTransaction'
+      href: financial/settletransact-obsolete.md
 - name: Þróun aðfangakeðja
   items:
     - name: Leiðbeiningar fyrir þróun Gantt-stýringar
@@ -1076,7 +1087,7 @@
       items:
         - name: Undirbúa flutning kóða
           href: migration-upgrade/prepare-migration.md
-        - name: Skilgreina vörpun Azure DevOps
+        - name: Skilgreina Azure DevOps-vörpun
           href: migration-upgrade/configure-vso-solution.md
         - name: Líkani skipt
           href: dev-tools/model-split.md
@@ -1234,7 +1245,7 @@
       href: lifecycle-services/complete-tasks-bpm.md
     - name: Vinna með virkniskýringarmyndir í BPM-söfnum
       href: lifecycle-services/using-activity-diagrams.md
-    - name: Samstilla BPM-söfn og Azure DevOps
+    - name: Samstilla BPM-söfn með Azure DevOps
       href: lifecycle-services/synchronize-bpm-vsts.md
     - name: Stofna söfn prófana á notandasamþykktum með verkleiðbeiningum og BPM
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md

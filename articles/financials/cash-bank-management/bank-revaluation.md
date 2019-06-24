@@ -3,7 +3,7 @@ title: Endurmat á banka – erlendum gjaldmiðli
 description: Þetta efnisatriði veitir yfirlit yfir endurmatsferli banka á erlendum gjaldmiðli. Það felur í sér upplýsingar um uppsetningu, keyrslu á ferli, útreikning ferlisins og bakfærslu á endurmatsfærslum.
 author: mikefalkner
 manager: AnnBe
-ms.date: 04/16/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4ec9814a4a35a1b3ba7ba05a04b53e5b150f4a04
-ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
+ms.openlocfilehash: 353153a3a5cbcb27749f21582fcf83ac4f3a8f36
+ms.sourcegitcommit: 56ec43e459ba93f495bc76fed23d6737218ef37e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538633"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "1591761"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Endurmat á banka – erlendum gjaldmiðli
 
 [!include [banner](../includes/banner.md)]
-[!include [preview-banner](../includes/preview-banner.md)]
+
 
 Þetta efnisatriði veitir yfirlit yfir endurmatsferli banka á erlendum gjaldmiðli. Það útskýrir hvernig á að setja upp og keyra ferlið og veitir upplýsingar um útreikning ferlisins. Það útskýrir einnig hvernig á að bakfæra endurmatsfærslur, ef bakfærslu er krafist.
 

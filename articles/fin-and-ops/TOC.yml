@@ -44,9 +44,11 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum
               href: get-started/features-not-implemented-on-prem.md
+            - name: 'Eiginleikar forútgáfu Finance and Operations, útgáfu 10.0.4 (júlí 2019)'
+              href: get-started/whats-new-changed-10-0-4.md
             - name: 'Eiginleikar forútgáfu Finance and Operations, útgáfu 10.0.3 (júní 2019)'
               href: get-started/whats-new-changed-10-0-3.md
-            - name: 'Eiginleikar forútgáfu Finance and Operations, útgáfu 10.0.2 (maí 2019)'
+            - name: 'Finance and Operations, útgáfu 10.0.2 (maí 2019)'
               href: get-started/whats-new-changed-10-0-2.md
             - name: 'Finance and Operations, útgáfa 10.0.1 (apríl 2019)'
               href: get-started/whats-new-changed-10-0-1.md
@@ -54,9 +56,11 @@
               href: get-started/whats-new-changed-10.md
             - name: 'Finance and Operations, útgáfa 8.1.3 (janúar 2019)'
               href: get-started/whats-new-changed-8-1-3.md
+            - name: Eiginleikar forútgáfu Finance and Operations platform update 28 (júlí 2019)
+              href: get-started/whats-new-platform-update-28.md
             - name: Eiginleikar forútgáfu Finance and Operations platform update 27 (júní 2019)
               href: get-started/whats-new-platform-update-27.md
-            - name: Eiginleikar forútgáfu Finance and Operations platform update 26 (maí 2019)
+            - name: Platform update 26 (maí 2019)
               href: get-started/whats-new-platform-update-26.md
             - name: Platform update 25 (apríl 2019)
               href: get-started/whats-new-platform-25.md
@@ -1261,6 +1265,8 @@
                   href: ../financials/public-sector/tasks/create-original-budget.md
                 - name: Stofna bráðabirgðafjárhagsáætlun fyrir hið opinbera
                   href: ../financials/public-sector/tasks/create-preliminary-budget-public-sector.md
+                - name: Greiningarskýrsla fjárhagsáætlunar
+                  href: ../financials/public-sector/budget-analysis-report.md
                 - name: Fjárhagsáætlunargreining hjá hinu opinbera
                   href: ../financials/public-sector/budget-analysis-public-sector.md
                 - name: Bráðabirgðafjárhagsáætlun og skipting hjá hinu opinbera
@@ -2277,6 +2283,7 @@
                   href: ../financials/localizations/rus-ledger-transactions-preview.md
                 - name: Setja upp gengi fyrir gjaldeyrisviðskipti
                   href: ../financials/localizations/rus-exchange-difference.md
+                - name: Flytja inn gengi gjaldmiðla frá seðlabanka Rússlands ../financials/general-ledger/import-currency-exchange-rates.md
             - name: Handhafar fyrirframgreiðslu
               href: ../financials/localizations/rus-advance-holders.md
               items:
@@ -2638,7 +2645,6 @@
                   href: hr/localizations/noam-usa-benefit-accrual-plan-tasks.md
                 - name: Uppsetning fríðinda
                   href: hr/localizations/noam-usa-benefit-set-up-tasks.md
-            - name: Tíðni og ferli
             - name: Uppsetning greiðsluferlis og launatímabils
               href: hr/localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md
             - name: Uppsetning útreikningstíðni launa
@@ -2922,6 +2928,8 @@
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json
             - name: Þátta skjöl á innleið á CSV-sniði
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json
+            - name: Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum
+              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md
             - name: Skipta mynduðum XML-skrám út frá skráarstærð og efnismagni
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
               items:
@@ -3877,6 +3885,10 @@
           href: ../financials/project-management/project-time-entry-mobile-workspace.md
         - name: Farsímaforrit fyrir vinnukort verka
           href: ../financials/project-management/project-timesheet.md
+        - name: Vinnukort verka í fartæki
+          href: ../financials/project-management/mobile-timesheets.md
+        - name: Innleiða sérstillta reiti fyrir farsímaforrit fyrir vinnukort verka
+          href: ../financials/project-management/custom-fields-mobile.md
     - name: Sala og markaðsstarf
       href: ../supply-chain/sales-marketing/overview-sales-marketing.md
       items:

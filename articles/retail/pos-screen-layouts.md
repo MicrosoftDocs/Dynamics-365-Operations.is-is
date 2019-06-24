@@ -3,7 +3,7 @@ title: Skjáútlit fyrir sölustað (POS)
 description: Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás fyrir Microsoft Dynamics 365 for Retail sölustaður (POS) upplifun.
 author: jblucher
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e9536563ce7ddfc4aef54ae05267316ea8139263
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549429"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1607039"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Skjáútlit fyrir sölustað (POS)
 
@@ -51,6 +51,7 @@ Sjónrænum forstillingum er úthlutað á afgreiðslukassa, og þær tilgreina 
 - **Þema** - Þú getur valið á milli ljóst og dökkt þema fyrir forrit. Þemað hefur áhrif á leturgerð og bakgrunnslit allsstaðar í forritinu.
 - **Áherslulitur** - Áherslulitur er notaður í gegnum allt POS til að aðgreina eða merkja tilteknar sjónrænar einingar, eins og t.d. flísar, skipunarhnappa og tengla. Þessar einingar eru yfirleitt aðgerðir.
 - **Hauslitur** - Þú getur grunnstillt lit blaðsíðuhaussins til að uppfylla kröfur um vörumerkjaþróun frá smásöluaðila. Þessi eiginleiki er aðeins í boði í Microsoft Dynamics 365 for Retail, útgáfu 1611.
+- **Sýna dagsetningu/tíma** - Þegar virkjað verður núverandi dagur og tími sýndur í haus sölustaðar.
 - **Innskráning bakgrunnur** - Þú getur tilgreint bakgrunnsmynd fyrir innskráningarskjáinn. Skráarstærð bakgrunnsmynda ætti að vera eins lítil og mögulegt er, því að geyma og hlaða stórum skrám getur haft áhrif á hegðun forrits og afköst.
 - **Bakgrunnur forrits** - Þú getur tilgreint bakgrunnsmynd sem er notuð í staðinn fyrir samfelldan þemalitinn alls staðar í forritið. Þegar kemur að innskráningarbakgrunn skal skráarstærðin vera eins lítil og mögulegt er.
 

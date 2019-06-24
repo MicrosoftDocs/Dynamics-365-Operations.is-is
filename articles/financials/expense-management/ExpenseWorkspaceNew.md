@@ -3,7 +3,7 @@ title: Kostnaðarskýrslur endurhugsaðar
 description: Þetta efnisatriði veitir upplýsingar um endurhannaða og endurhugsaða upplifun fyrir færslu kostnaðarskýrslu í Microsoft Dynamics 365 for Finance and Operations. Nýja upplifunin einfaldar ferlið við að ljúka kostnaðarskýrslum og dregur úr tímanum sem það tekur.
 author: ryansandness
 manager: AnnBe
-ms.date: 05/07/2019
+ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 3039cda3f2cf9259ca06207bdf941bc6b0fb28e1
-ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
+ms.openlocfilehash: c7a2b95456e812970b135d83f0f7e503310ce185
+ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538692"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "1592638"
 ---
 # <a name="expense-reports-reimagined"></a>Kostnaðarskýrslur endurhugsaðar
 
@@ -46,10 +46,9 @@ Til að kveikja á nýju upplifuninni skal nota vinnusvæðið **Stjórnun eigin
 
 ## <a name="getting-started-video-for-new-users"></a>Kynningarmyndband fyrir nýja notendur
 
-Hægt er að horfa á stutt myndband sem sýnir helstu eiginleika kostnaðarfærslu.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Y7gO]
 
-> [!NOTE]
-> Myndbandið er ekki tiltækt sem stendur. Þetta efnisatriði verður uppfært þegar myndbandið verður tiltækt.
+Myndbandið [Kostnaðarumhverfi í Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (sýnt hér að ofan) er innifalið í [Spilunarlista Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er tiltækt í YouTube.
 
 ## <a name="new-features"></a>Nýjar aðgerðir
 

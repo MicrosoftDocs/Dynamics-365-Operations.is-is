@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e7aceed380f6722353574470d6dee75ebe105c18
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6c813cfea9b570e8dfd5dbe7f3ca1f4ba8594420
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530271"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577981"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Sýna pöntunartilkynningar á sölustað (POS)
 
@@ -68,7 +68,7 @@ Eftirfarandi skýringarmynd sýnir stillingar á beinu efni í hnappahniti hönn
 
 ![Stillingar á beinu efni í hnappahniti hönnuðar](./media/ButtonGridDesigner.png "Stillingar á beinu efni í hnappahniti hönnuðar")
 
-Til að sýna talningu tilkynningar á hnappi þarf að tryggja að verið sé að uppfæra rétt skjáútlit. Til að ákvarða skjáútlitið sem sölustaður er að nota skal velja táknið **Stillingar** efst í hægra horninu og taka niður **Auðkenni skjáútlits** og **Upplausn útlits**. Nú með Edge-vafra skal opna síðuna **Skjáútlit** í Dynamics 365 for Finance and Operations, finna **Auðkenni skjáútlits** og **Upplausn útlits** sem er tilgreint efst og velja gátreitinn **Gera lifandi efni virkt**. Farið í **Smásala > Smásöluupplýsingatækni > Dreifingaráætlun** og keyrið 1090 (afgreiðslukassar) verk til að samstilla breytingar á útliti. 
+Til að sýna talningu tilkynningar á hnappi þarf að tryggja að verið sé að uppfæra rétt skjáútlit. Til að ákvarða skjáútlitið sem sölustaður er að nota skal velja táknið **Stillingar** efst í hægra horninu og taka niður **Auðkenni skjáútlits** og **Upplausn útlits**. Nú með Edge-vafra skal opna síðuna **Skjáútlit** í Dynamics 365 for Finance and Operations, finna **Auðkenni skjáútlits** og **Upplausn útlits** sem er tilgreint efst og velja gátreitinn **Gera lifandi efni virkt**. Farið í **Smásala \> Smásöluupplýsingatækni \> Dreifingaráætlun** og keyrið 1090 (afgreiðslukassar) verk til að samstilla breytingar á útliti.
 
 ![Finna skjáútlit sem sölustaður notar](./media/Choose_screen_layout.png "Finna skjáútlit ")
 

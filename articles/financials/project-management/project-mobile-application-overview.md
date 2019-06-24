@@ -3,7 +3,7 @@ title: Yfirlit yfir farsímaforrit verks
 description: Þetta efnisatriði veitir almennar upplýsingar um tímatengd forrit verks fyrir Microsoft Dynamics 365 sem eru í boði í fartæki.
 author: KimANelson
 manager: AnnBe
-ms.date: 04/08/2019
+ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 5b0560a8be32962f94b24754458fb2cf714a15c8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 22ccc70e242ffc9a487720c6a25fa6c5b8d78073
+ms.sourcegitcommit: 2d4b10fb5d3d0fbe518acdd921ebdd1bdc1d135e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1529972"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "1608139"
 ---
 # <a name="project-mobile-applications-overview"></a>Yfirlit yfir farsímaforrit verks
 
@@ -45,4 +45,4 @@ Vinnukortin mín (fínstillt fyrir fartæki) og Vinnukort fyrir endurskoðun (f�
 
 ## <a name="for-more-information"></a>Frekari upplýsingar
 
-Frekari upplýsingar er að finna í [Microsoft Dynamics 365 Project Timesheet farsímaforritið](project-timesheet.md), [Vinnustundafærsla verks]( project-time-entry-mobile-workspace.md) og [Project Timesheets í fartæki](Mobile-timesheets.md).
+Frekari upplýsingar er að finna í [Microsoft Dynamics 365 Project Timesheet farsímaforritið](project-timesheet.md), [Vinnustundafærsla verks]( project-time-entry-mobile-workspace.md) og [Vinnukort verks í fartæki](Mobile-timesheets.md) og [Innleiða sérstillta reiti fyrir vinnukort verks í farsímaforriti](custom-fields-mobile.md).

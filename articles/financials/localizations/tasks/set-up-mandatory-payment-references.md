@@ -16,12 +16,12 @@ ms.search.region: Iceland
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd3d0b5f6babd221c2427efa07a771be2dccdc4e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 33b0315d556ec67aa40d957e64392899cf7c75ce
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537990"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1549038"
 ---
 # <a name="set-up-mandatory-payment-references"></a>Setja upp skyldubundnar greiðslutilvísanir
 

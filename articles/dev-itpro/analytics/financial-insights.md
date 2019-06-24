@@ -3,7 +3,7 @@ title: Fjármálainnsýn
 description: Fjármálainnsýn notar Microsoft Power BI til að koma saman fjárhagslegum afkastavísum (KPI), gröfum og fjárhagsskýrslum.
 author: kweekley
 manager: AnnBe
-ms.date: 08/14/2018
+ms.date: 05/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9edcb192d2fac5acb954d8b87be691f0943e0db7
+ms.sourcegitcommit: 23ab3c99d05869ea2c73514754608e8684697d8c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554093"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595077"
 ---
 # <a name="financial-insights"></a>Fjármálainnsýn
 
@@ -67,10 +67,9 @@ Gögnin fyrir **Fjármálainnsýn** eru tekin úr einingaversluninni (**Kerfisst
 
 Þú verður að uppfæra eftirfarandi einingar til að sjá gögn í **Fjármálainnsýn** og vinnsvæði **CFO-yfirlits**:
 
+- Færslugögn fjárhagsskýrslugerðar útgáfa 2 (**Athugasemd:** Þetta er nýtt með útgáfu 10.0.1 og tekur við af fyrri einingu.)
+- Færslugögn fjárhagsskýrslugerðar
 - CustCollectionsBIMeasurements
-- FinancialReportingOtherData
-- FinancialReportingReferenceData
-- FinancialReportingTransactionData
 - LedgerCovLiquidityMeasurement
 - Innkaupateningur
 - Söluteningur

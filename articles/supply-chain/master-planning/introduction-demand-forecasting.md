@@ -1,6 +1,6 @@
 ---
 title: Yfirlit eftirspurnarspár
-description: Eftirspurnarspá er notuð til að spá fyrir um óháða eftirspurn úr sölupöntunum og háð eftirspurn á hvaða aftengingarpunkti sem er fyrir pantanir viðskiptavina. Stækkuð eftirspurnarspár lækkunarreglur í Microsoft Dynamics AX veita tilvalda lausn fyrir fjöldasérsnið.
+description: Eftirspurnarspá er notuð til að spá fyrir um óháða eftirspurn úr sölupöntunum og háð eftirspurn á hvaða aftengingarpunkti sem er fyrir pantanir viðskiptavina. Lækkunarreglur aukinnar eftirspurnarspáar veita tilvalda lausn fyrir fjöldasérsnið.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a645ee6f7e6085abc6e872d490b078f512c15aa1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b71fde2d1b56b237dec2a08d3bd27e8ba6c35fef
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552370"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595547"
 ---
 # <a name="demand-forecasting-overview"></a>Yfirlit eftirspurnarspár
 
 [!include [banner](../includes/banner.md)]
 
-Eftirspurnarspá er notuð til að spá fyrir um óháða eftirspurn úr sölupöntunum og háð eftirspurn á hvaða aftengingarpunkti sem er fyrir pantanir viðskiptavina. Stækkuð eftirspurnarspár lækkunarreglur í Microsoft Dynamics AX veita tilvalda lausn fyrir fjöldasérsnið.
+Eftirspurnarspá er notuð til að spá fyrir um óháða eftirspurn úr sölupöntunum og háð eftirspurn á hvaða aftengingarpunkti sem er fyrir pantanir viðskiptavina. Lækkunarreglur aukinnar eftirspurnarspáar veita tilvalda lausn fyrir fjöldasérsnið.
 
 Til að mynda grunnlínuspá, yfirlit yfir færslur eru sendar Microsoft Azure Námsvélarþjónusta sem er hýst á Azure. Þar sem þessi þjónusta er ekki samnýtt á milli notenda, er auðvelt að breyta henni til að uppfylla sérstakar faglegar þarfir. Hægt er að nota Finance and Operations til að sjá fyrir spána, leiðrétta spá og skoða afkastavísa (KPI) um nákvæmni eftirspurnarspár.
 
@@ -52,7 +52,7 @@ Hér eru sumar aðal aðgerðir eftirspurnarspár:
     -   Hægt er að hlaða niður eftirspurnarspátilraunum Finance and Operations, breyta þeim til að uppfylla þínar viðskiptaþarfir, gefa þær út sem vefþjónustu á Azure og nota þær til að mynda eftirspurnarspár. Tilraunirnar eru tiltækar fyrir niðurhal ef áskrift að Finance and Operations fyrir skipulagningu framleiðslu hefur verið keypt af notanda á fyrirtækissviði.
     -   Hægt er að hlaða niður öllum fyrirliggjandi eftirspurnarspátilraunum úr [Cortana Greiningar Gallery](https://gallery.cortanaanalytics.com/). Aftur á móti, þar sem eftirspurnarspártilraunir Finance andr Operations eru sjálfkrafa samþættar Finance and Operations, þurfa viðskiptavinir og samstarfsaðilar að beita samþættingu tilrauna sem þeir hlaða niður úr [Cortana-greiningasafni](https://gallery.cortanaanalytics.com/). Þess vegna eru tilraunir úr [Cortana-greiningarsafni](https://gallery.cortanaanalytics.com/) ekki jafneinfaldar í notkun og eftirspurnarspátilraunir Finance and Operations. Það þarf að breyta kóða á tilraununum þannig að þær noti forritunarviðmót (API) Finance and Operations.
     -   Hægt er að stofna eigin°tilraunir í Microsoft Azure Vélnámsveri, birta þær sem þjónustu á Azure og nota þær til að stofna eftirspurnarspár.
-    -   Ef ekki er krafist mikilla afkasta eða ef ekki þarf að vinna°mikið af gögnum er hægt að nota ókeypis Vélnáms Lag. Mælt er með að alltaf ræsa úr°þessu lagi,°sérstaklega°við innleiðingu og prófana áfanga. Ef°krafist er meiri afkasta og°viðbótar geymslu, hægt er að nota staðlaða lags Vél Nám. Þetta lag krefst Azure áskriftar og felur í sér auka kostnað. Nánari upplýsingar um verðlagningu Vélnáms er að finna í <http://aka.ms/machine-learning-price-info>.
+    -   Ef ekki er krafist mikilla afkasta eða ef ekki þarf að vinna°mikið af gögnum er hægt að nota ókeypis Vélnáms Lag. Mælt er með að alltaf ræsa úr°þessu lagi,°sérstaklega°við innleiðingu og prófana áfanga. Ef°krafist er meiri afkasta og°viðbótar geymslu, hægt er að nota staðlaða lags Vél Nám. Þetta lag krefst Azure áskriftar og felur í sér auka kostnað. Nánari upplýsingar um verðlagningu Vélnáms er að finna í [Verðlagning vélnámsstúdíós](https://aka.ms/machine-learning-price-info).
 -   **Lækkun spár á hvaða aftengingarpunkti sem er** – Eftirspurnarspár í Finance and Operations byggja á þessari virkni, sem gerir kleift að spá bæði háðri og óháðri eftirspurn á hvaða aftengingarpunkti sem er.
 
 ## <a name="basic-flow-in-demand-forecasting"></a>Grunnflæði í eftirspurnarspá
