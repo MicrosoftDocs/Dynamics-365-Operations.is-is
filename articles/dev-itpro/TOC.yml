@@ -27,7 +27,7 @@
           href: dev-tools/enable-development-machine.md
         - name: Algengar spurningar um þróun og smíði sýndarvéla sem heimila ekki stjórnandaaðgang
           href: sysadmin/VMs-no-admin-access.md
-        - name: Endurnefna staðbundin umhverfi til að fá aðgang að Azure DevOps
+        - name: Endurnefna staðbundið umhverfi til að fá aðgang að Azure DevOps
           href: migration-upgrade/vso-machine-renaming.md
         - name: Þróunarkerfiskröfur
           href: dev-tools/development-system-requirements.md
@@ -997,7 +997,9 @@
               href: deployment/deploy-retail-onprem.md
         - name: Þróa og virkja sérstillt líkön í umhverfi á staðnum
           href: deployment/develop-deploy-custom-models-on-premises.md
-        - name: Skilgreina gagnstæða staðgengla fyrir umhverfi á staðnum
+        - name: PowerBI.com-samþætting við innanhússumhverfi
+          href: analytics/entity-store-on-prem.md
+        - name: Skilgreina gagnstæða staðgengla fyrir innanhússumhverfi
           href: deployment/onprem-reverseproxy.md
         - name: Nota uppfærslur fyrir uppsetningu á staðnum
           href: deployment/apply-updates-on-premises.md
@@ -1013,6 +1015,8 @@
           href: user-interface/client-disconnected.md
         - name: Úrræðaleit fyrir uppsetningar á staðnum
           href: deployment/troubleshoot-on-prem.md
+        - name: Vottorðssnúningur
+          href: deployment/certificate-rotation-on-prem.md
     - name: Setja upp sérsniðinn kóða
       items:
         - name: Stofna virkjanlega pakka af líkönum
@@ -1087,7 +1091,7 @@
       items:
         - name: Undirbúa flutning kóða
           href: migration-upgrade/prepare-migration.md
-        - name: Skilgreina Azure DevOps-vörpun
+        - name: Skilgreina vörpun Azure DevOps
           href: migration-upgrade/configure-vso-solution.md
         - name: Líkani skipt
           href: dev-tools/model-split.md
@@ -1245,7 +1249,7 @@
       href: lifecycle-services/complete-tasks-bpm.md
     - name: Vinna með virkniskýringarmyndir í BPM-söfnum
       href: lifecycle-services/using-activity-diagrams.md
-    - name: Samstilla BPM-söfn með Azure DevOps
+    - name: Samstilla BPM-söfn og Azure DevOps
       href: lifecycle-services/synchronize-bpm-vsts.md
     - name: Stofna söfn prófana á notandasamþykktum með verkleiðbeiningum og BPM
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md

@@ -8,6 +8,16 @@
         - name: Nýjungar eða breytingar í Talent
           href: whats-new.md
           items:
+            - name: 2. júlí 2019
+              href: whats-new-talent-july-2-2019.md
+            - name: 25. júní 2019
+              href: whats-new-talent-june-25-2019.md
+            - name: 18. júní 2019
+              href: whats-new-talent-june-18-2019.md
+            - name: 11. júní 2019
+              href: whats-new-talent-june-11-2019.md
+            - name: 4. júní 2019
+              href: whats-new-talent-june-4-2019.md
             - name: 28. maí 2019
               href: whats-new-talent-may-28-2019.md
             - name: 21. maí 2019
@@ -16,26 +26,26 @@
               href: whats-new-talent-may-13-2019.md
             - name: 6. maí 2019
               href: whats-new-talent-may-6-2019.md
-            - name: 30. apríl 2019
-              href: whats-new-talent-april-30-2019.md
-            - name: 25. apríl 2019
-              href: whats-new-talent-april-25-2019.md
-            - name: 16. apríl 2019
-              href: whats-new-talent-april-16-2019.md
-            - name: 9. apríl 2019
-              href: whats-new-talent-april-9-2019.md
-            - name: 2. apríl 2019
-              href: whats-new-talent-april-2-2019.md
-            - name: 26. mars 2019
-              href: whats-new-talent-march-26-2019.md
-            - name: 20. mars 2019
-              href: whats-new-talent-march-20.md
-            - name: 14. mars 2019
-              href: whats-new-talent-march-14.md
-            - name: 5. mars 2019
-              href: whats-new-talent-march-5.md
             - name: Safnvistaðar nýjungar 2019
               items:
+                - name: 30. apríl 2019
+                  href: whats-new-talent-april-30-2019.md
+                - name: 25. apríl 2019
+                  href: whats-new-talent-april-25-2019.md
+                - name: 16. apríl 2019
+                  href: whats-new-talent-april-16-2019.md
+                - name: 9. apríl 2019
+                  href: whats-new-talent-april-9-2019.md
+                - name: 2. apríl 2019
+                  href: whats-new-talent-april-2-2019.md
+                - name: 26. mars 2019
+                  href: whats-new-talent-march-26-2019.md
+                - name: 20. mars 2019
+                  href: whats-new-talent-march-20.md
+                - name: 14. mars 2019
+                  href: whats-new-talent-march-14.md
+                - name: 5. mars 2019
+                  href: whats-new-talent-march-5.md
                 - name: 27. febrúar 2019
                   href: whats-new-talent-feb-27.md
                 - name: 14. febrúar 2019
@@ -102,16 +112,24 @@
           href: attract-comprehensive-hiring.md
         - name: Attract eiginleikar og færni
           href: attract-overview.md
+        - name: Algengar spurningar um LinkedIn
+          href: attract-linkedin-faq.md
+        - name: Skilgreina tölvupóststillingar
+          href: attract-configure-email-settings.md
         - name: Búa til sniðmát fyrir ferli í Attract
           href: Process-templates-Attract.md
-        - name: 'Búa til, samþykkja og birta störf í Attract'
+        - name: Búa til og birta störf
           href: Creating-jobs-Attract.md
-        - name: Birta störf á utanaðkomandi atvinnusíðum úr Attract
+        - name: Setja upp samþættingu með LinkedIn
+          href: attract-admin-linkedin.md
+        - name: Birta störf á LinkedIn úr Attract
+          href: attract-post-jobs-to-linkedin.md
+        - name: Birta störf á Broadbean úr Attract
           href: posting-jobs-external.md
         - name: Finna umsækjendur með því að nota hæfileikasöfn
           href: attract-talent-pools.md
-        - name: Fundið með LinkedIn Recruiter
-          href: attract-linked-in-recruiter.md
+        - name: Finna umsækjendur með LinkedIn Recruiter
+          href: attract-linkedin-recruiter.md
         - name: Verkþættir í ráðningarferli
           href: activities-attract.md
         - name: Skipulagning viðtala og ábendingar
@@ -132,12 +150,28 @@
           href: Admin-Settings-Attract.md
         - name: Snjallmeðmæli
           href: Intelligent-Recommendations.md
-        - name: Búa til spennandi innleiðingarupplifun
-          href: create-onboarding-experience.md
         - name: Fylgjast með stöðum til að finna notendaupplýsingar og umsóknir umsækjenda
           href: source-tracking.md
         - name: Nota greiningarskýrslur til að fá innsýn í ráðningarferli
           href: analytic-reports.md
+    - name: Velkomin í nýráðningar með Onboard
+      items:
+        - name: Hafist handa með Onboard
+          href: create-onboarding-experience.md
+        - name: Sækja Onboard-forritið
+          href: onboard-get-app.md
+        - name: Búa til og senda nýliðakynningu
+          href: onboard-create-guide.md
+        - name: Búa til nýliðunarsniðmát
+          href: onboard-create-template.md
+        - name: Breyta leiðbeiningum og sniðmátum
+          href: onboard-edit-guides-templates.md
+        - name: Deila efni
+          href: onboard-share-template.md
+        - name: Skoða stöðu
+          href: onboard-view-status.md
+        - name: Búa til ráðningarhóp
+          href: onboard-create-team.md
     - name: Halda utan um starfsfólk með Core HR
       items:
         - name: Skipuleggja starfsfólk
@@ -357,6 +391,8 @@
           href: corehr-custom-fields.md
     - name: Úrræðaleit Talent
       items:
+        - name: Úrræðaleit fyrir birtingu starfa á LinkedIn
+          href: attract-troubleshoot-linkedin.md
         - name: Greiningarskýrslur eru ekki uppfærðar
           href: analytic-reports-not-updated.md
         - name: Ekki er hægt að stofna umhverfi í stjórnandamiðstöð PowerApps
