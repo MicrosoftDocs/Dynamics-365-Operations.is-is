@@ -3,7 +3,7 @@ title: Útgjaldastýring
 description: Þetta efnisatriði veitir almennar upplýsingar um útgjaldastýringu og tengla á frekari upplýsingar. Hægt er að nota Kostnaðarstýring til að stofna samþætt verkflæði þar sem hægt er að vista greiðslumáta, flytja inn kreditkortafærslur og rekja féð sem starfsmenn eyða þegar þeir leggja út vegna fyrirtækisins.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/07/2019
+ms.date: 06/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe1e92dbf63d2683a53684b350f77c978b14c75e
-ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
+ms.openlocfilehash: 7509553df57b9cba206e606b78c70732da32074d
+ms.sourcegitcommit: 169b593b0d9afb228d2cfb0f3b742e4777ec81af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538610"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "1633976"
 ---
 # <a name="expense-management"></a>Útgjaldastýring
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Hægt er að nota Kostnaðarstýring til að stofna samþætt verkflæði þar sem hægt er að vista greiðslumáta, flytja inn kreditkortafærslur og rekja féð sem starfsmenn eyða þegar þeir leggja út vegna fyrirtækisins. Einnig er hægt að skilgreina kostnaðarreglur og gera endurgreiðslu ferðaútgjalda sjálfvirka.
 

@@ -3,7 +3,7 @@ title: Aðgerðröðun
 description: Þetta efni inniheldur upplýsingar um aðgerðröðun. Hægt er að nota aðgerðaröðun til að fá almennt mat á framleiðsluferli yfir tíma.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 298c07346427a949ffa544e66eb6b01995dadc38
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9447474e0878077659a80dc49f7c7c1313db2cbe
+ms.sourcegitcommit: 8741b4b32ef32a54de3d064bf40a9c0179d4139a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560261"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "1691463"
 ---
 # <a name="operations-scheduling"></a>Aðgerðröðun
 
@@ -67,6 +67,9 @@ Aðgerðaröðun keyrir líka aðaláætlanagerð, sem ákvarðar hráefnisþarf
 -   **Framleiðslur sem er ólokið** – Vörur sem eru áætlaðar, losaðar, hafnar
 -   **Efnisframboð** – Birgðir, undirframleiðsla, birgjar og lánardrottnar
 -   **Tiltæk Afkastageta** – Tilföng sem eru nauðsynleg fyrir framleiðsluna
+
+> [!NOTE]
+> Ef þú ert að nota margþráða aðaláætlun og aðgerðaröðun verður ekki tekið tillit til endanlegrar getu. 
 
 ## <a name="cancellations"></a>Afturkallanir
 Þegar aðgerðaröðun er keyrð er hægt að hætta við tilteknum hlutum leiðar. Þessum hluta innihalda biðtíma, uppsetningartíma, vinnslutími, skörunartímans og flutningstíma.

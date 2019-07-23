@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85d2370353520ee588dfe2aedf9998d707f0eda6
-ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
+ms.openlocfilehash: 7f8461f851f6f54def8a04d0f2548961b9a1ca4d
+ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "1592661"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625873"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formúluhönnuður í rafrænni skýrslugerð (ER)
 
@@ -260,8 +260,8 @@ Ef annað hvort innslátturinn eða skiltáknið er ótilgreind (núll) kemur fo
 <td>SPLITLIST (listi, númer)</td>
 <td>Tilgreindur listi er skipt í runur sem hver inniheldur tilgreindan fjölda færslna. Skila niðurstöðu sem nýja lista yfir runur sem inniheldur eftirfarandi einingar:
 <ul>
-<li>Runur sem reglulegir listar (<strong>Gildi </strong> þáttur)</li>
-<li>Núverandi rununúmer (<strong>BatchNumber</strong>þáttur)</li>
+<li>Runur sem reglulegir listar (þátturinn <strong>Gildi</strong>)</li>
+<li>Núverandi rununúmer (þátturinn <strong>BatchNumber</strong>)</li>
 </ul>
 </td>
 <td>Í eftirfarandi mynd er gagnagjafi <strong>Lína</strong> búinn til sem færslulisti af þremur færslum. Þessi listi er skiptur í runur, sem hver um sig inniheldur allt að tvær færslur.
@@ -653,6 +653,11 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 <td>Fyrir EN-US menningu, <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> skilar <strong>&quot;45.00 %&quot;</strong>. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> skilar <strong>&quot;10&quot;</strong>.</td>
 </tr>
 <tr>
+<td>NUMBERFORMAT (númer, snið, menning)</td>
+<td>Tilgreina framsetningu strengs sem sýnir tiltekna tölu í tilgreindu sniði og gefinni menningu. (Fyrir upplýsingar um studd snið skal sjá <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings">staðlað</a> og <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings">sérsniðna</a>.).</td>
+<td><strong>NUMBERFORMAT (10/3, "F2", "de")</strong> skilar <strong>3,33</strong> en <strong>NUMBERFORMAT (10/3, "F2", "en-us")</strong> skilar <strong>3,33</strong>.</td>
+</tr>
+<tr>
 <td>NUMERALSTOTEXT (númer, tungumál, gjaldmiðil, prenta flaggheiti gjaldmiðils, tugakomma)</td>
 <td>Skila inn tilgreindri tölu eftir að hún hefur verið stafsett (breytt í textastreng) á tilgreint tungumál. Tungumálakóðinn er valfrjáls. Þegar hann er skilgreindur sem tómur strengur er tungumálakóðinn fyrir samhengið sem er í keyrslu notaður. (Tungumálakóðinn fyrir samhengið sem er keyrt er skilgreint fyrir myndaða möppu eða skrá.) Tungumálakóðinn er einnig valfrjáls. Þegar hann er skilgreindur sem tómur strengur, er gjaldmiðill fyrirtækis notaður.
 <blockquote>[!NOTE] <strong>Prentun gjaldeyrisheitis</strong> og breytur <strong>aukastafa</strong> eru greindar aðeins fyrir eftirfarandi tungumálakóða: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> og <strong>RU</strong>. Þar að auki er breytan fyrir <strong>prentun gjaldeyrisheitis</strong> aðeins greind fyrir Finance and Operations fyrirtæki þar sem samhengi landsins eða svæðisins styður frávik frá gjaldmiðlaheiti.</blockquote>
@@ -696,7 +701,7 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 <tr>
 <td>JSONVALUE (auðkenni, slóð)</td>
 <td>Þátta gögn í JavaScript Object Notation (JSON) sniði sem er aðgengilegt með tilgreindri slóð til að draga út tölugildi sem byggist á tilgreindu auðkenni.</td>
-<td>Gagnagjafinn <strong>$JsonField</strong> inniheldur eftirfarandi gögn í JSON sniði: <strong>{&quot;BuildNumber&quot;:&quot;7.3.1234.1&quot;, &quot;KeyThumbprint&quot;:&quot;7366E&quot;}</strong>. Fyrir þennan gagnagjafa skilar </strong>JSONVALUE (&quot;BuildNumber&quot;, $JsonField)</strong> gildinu <strong>7.3.1234.1</strong> af gagngerðinni <strong>Strengur</strong>.</td>
+<td>Gagnagjafinn <strong>$JsonField</strong> inniheldur eftirfarandi gögn í JSON sniði: <strong>{&quot;BuildNumber&quot;:&quot;7.3.1234.1&quot;, &quot;KeyThumbprint&quot;:&quot;7366E&quot;}</strong>. Fyrir þennan gagnagjafa skilar </strong>JSONVALUE ( &quot;BuildNumber&quot;, $JsonField)</strong> gildinu <strong>7.3.1234.1</strong> af gagnagerðinni <strong>Strengur</strong>.</td>
 </tr>
 </tbody>
 </table>
@@ -727,7 +732,7 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 | ROUNDAMOUNT (tölu, aukastafi, sléttunarreglu) | Námunda tilgreinda upphæð í tilgreindan fjölda aukastafa í samræmi við tilgreinda námundunarreglu.<blockquote>[!NOTE] Námundunarreglan verður að vera skilgreind sem tölusetningargildi **RoundOffType** Finance and Operations.</blockquote> | Ef **model.RoundOff** færibreyta er stillt á **Niður**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** skilar gildinu **1000,78**. Ef **model.RoundOff** færibreyta er stillt á annað hvort **Venjuleg** eða **Sléttun**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** skilar gildinu **1000.79**. |
 | CURCredRef (tölur) | Skila Tilvísun lánardrottins, byggt á tölustöfum í tilgreint reikningsnúmeri. | **CURCredRef ("VEND-200002")** skilar **"2200002"**. |
 | MOD\_97 (tölustafir) | Skila Tilvísun lánardrottins, sem MOD97 segð, byggt á tölustöfum tilgreinds reikningsnúmers. | **MOD\_97 ("VEND-200002")** skilar **"20000285"**. |
-| ISOCredRef  (tölur) | Skila tilvísun alþjóðaviðskiptastofnunar um staðla (ISO), byggt á tölustöfum og stafrófstáknum í tilgreindu númeri vörureiknings.<blockquote>[!NOTE] Til að útiloka tákn frá stafrófum sem ekki eru í samræmi við ISO skal inntakshbreytan þýdd áður en hún er sett inn í þessa aðgerð.</blockquote> | **ISOCredRef ("VEND-200002")** skilar **"RF23VEND-200002"**. |
+| ISOCredRef (tölur) | Skila tilvísun alþjóðaviðskiptastofnunar um staðla (ISO), byggt á tölustöfum og stafrófstáknum í tilgreindu númeri vörureiknings.<blockquote>[!NOTE] Til að útiloka tákn frá stafrófum sem ekki eru í samræmi við ISO skal inntakshbreytan þýdd áður en hún er sett inn í þessa aðgerð.</blockquote> | **ISOCredRef ("VEND-200002")** skilar **"RF23VEND-200002"**. |
 | CN\_GBT\_AdditionalDimensionID (strengur, númer) | Sækja tilgreint fjárhagslegt viðbótarvíddarkenni. Í færibreytunni **strengur** eru víddir táknaðar sem auðkenni sem eru aðskilin með kommum. Færibreytan **númer** skilgreinir kóða númeraraðar af umbeðinni vídd í strengnum. | **CN\_GBT\_AdditionalDimensionID ("AA, BB, CC, DD, EE, FF, GG, HH", 3)** skilar **"CC"**. |
 | GetCurrentCompany () | Skila textaframsetningu á kóðanum fyrir lögaðilann (fyrirtæki) sem notandi er skráður inn á. | **GETCURRENTCOMPANY ()** skilar **USMF** fyrir notanda sem er skráður inn á **Contoso Entertainment System USA** fyrirtæki í Finance and Operations. |
 | CH\_BANK\_MOD\_10 (tölustafir) | Skila tilvísun kröfuhafa sem MOD10 segð, byggt á tölum á tilgreindu númeri vörureiknings. | **CH\_BANK\_MOD\_10 ("VEND-200002")** skilar **3**. |

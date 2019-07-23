@@ -3,7 +3,7 @@ title: Yfirlit yfir reiðufé Power BI efni
 description: Þetta efnisatriði lýsir sjóðsyfirlitinu Power BI efni. Það lýsir einnig hvernig eigi að fara í skýrslur sem eru hafðar með í efnispakkanum og veitir upplýsingar um gagnalíkan og einingar sem voru notaðar til að búa til efnið.
 author: saraschi2
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5dccb5c5c6c336607603dfc7a935c039e5ac4aa5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: bff0b1b0a68eccec1cebf130bc40ec3e6d88c3a9
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568918"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702796"
 ---
 # <a name="cash-overview-power-bi-content"></a>Yfirlit yfir reiðufé Power BI efni
 
@@ -33,6 +33,17 @@ ms.locfileid: "1568918"
 
 **Sjóðsyfirlit** Power BI efni var búið til fyrir einstaklinga sem bera ábyrgð á reiðufé í fyrirtæki sínu. **Sjóðsfjáryfirlit** Power BI efni veitir innsýn í sjóðstreymið þitt. Það gefur einnig spár sem geta hjálpað þér við að taka betri ákvarðanir og þannig auka heilbrigði sjóðstreymisins. Hægt er að greina reiðufé eftir lögaðila, gjaldmiðli og bankareikningi til að öðlast betri skilning á tekjuafgangi og halla.
 
+## <a name="setup-needed-to-view-power-bi-content"></a>Uppsetningu þarf til að skoða efni Power BI
+
+Eftirfarandi uppsetningu þarf að vera lokið til að hægt sé að birta gögn í myndefni **Sjóðsyfirlit** og **Bankastjórnun** Power BI.
+
+1. Farðu í **Kerfisstjórnun > Uppsetning > Kerfisfæribreytur** til að stilla **Kerfisgjaldmiðil** og **Kerfisgengi**.
+2. Farðu í **Fjárhag> Uppsetning> Fjárhagur** til að stilla **Bókhaldsgjaldmiðil** og **Gerð gengis**.
+2. Skilgreindu gengi á milli færslugjaldmiðla og bókhaldsgjaldmiðils, bókhaldsgjaldmiðils og kerfisgjaldmiðils og bókhaldsgjaldeyris og bankagjaldmiðla. Til að gera þetta skaltu fara **Fjárhag> Gjaldmiðlar> Gengi gjaldmiðla**.
+3. Skilgreina og keyra sjóðstreymisspá. Nánari upplýsingar um hvernig setja skuli upp sjóðstreymisspá eru að finna í <a href="https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
+">Sjóðstreymisspá</a>. 
+4. Farðu í **Kerfisstjórnun > Uppsetning > Einingaverslun** til að endurnýja uppsafnaða mælingu **LedgerCovLiquidityMeasurement**.
+
 ## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
 
 Skýrslur úr **Sjóðsyfirlit** Power BI efni eru birtar á vinnusvæðunum **Sjóðsyfirlit** og **Bankastjórnun**.
@@ -42,6 +53,7 @@ Til að skoða sjóðstreymisspáskýrslur með gögnum verður fyrst að keyra 
 Til glöggvunar geturðu bætt við sýnigögnum fyrir sjóðstreymisspá með því að nota síðuna **Mynda gögn** í Sýnigagnaeiningunni.  Þessi forskrift setur gögn inn í sjóðstreymisspátöflurnar til að færa hratt inn upplýsingar sem nauðsynlegar eru fyrir skýrslur.  Þessi eining er aðeins tiltæk ef þú hefur safnlíkan sýnigagna virkjað í umhverfinu. 
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðar með í Power BI efni
+
 Eftirfarandi tafla veitir upplýsingar um einingarnar sem finna má á hverri síðu skýrslunnar í **Sjóðsyfirlit** Power BI-efni .
 
 | Skýrsla                                | Innihald |
@@ -67,5 +79,3 @@ Eftirfarandi tafla sýnir einingar sem **Sjóðsyfirlit** Power BI efni byggist 
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Samantekt sjóðinnstreymis útstreymis og stöðu með bókhaldsgjaldmiðli hvers fyrirtækis |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Samantekt sjóðinnstreymis, útstreymis og stöðu með kerfisgjaldmiðli fyrir öll fyrirtæki |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Samantekin nettó færsluupphæð og staða gjaldmiðla með færslugjaldmiðli |
-
-

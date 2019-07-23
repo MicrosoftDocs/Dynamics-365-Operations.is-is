@@ -3,7 +3,7 @@ title: Stofna nýja verðsamning
 description: Þetta ferli sýnir hvernig á að stofna viðskiptasamningur þar sem þú skráir inn nýtt söluverð afurðar sem þú hefur ákvarðað með tilteknum viðskiptavin.
 author: omulvad
 manager: AnnBe
-ms.date: 11/16/2018
+ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e132cd20437b7929e81fcaa123d70bb57fb320c8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e42383b237a60d41d3b4e09ffbbe1c1bb5ebbfd7
+ms.sourcegitcommit: 33e98f89294086334fe9c0a350abb6a52ef9dacb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549268"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711202"
 ---
 # <a name="create-a-new-trade-agreement"></a>Stofna nýja verðsamning
 
@@ -30,40 +30,43 @@ ms.locfileid: "1549268"
 
 
 ## <a name="create-and-post-a-new-trade-agreement-journal"></a>Stofna og bóka nýja færslubók verðsamnings
-1. Fara í Sölu og markaðssetningu > Verð og afslætti > Færslubækur viðskiptasamninga.
-2. Smellið á „Nýtt“.
-3. Í reitnum Heiti skal smella á fellilistahnappinn til að opna leitina.
+1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Sala og markaðsstarf > Verð og afslættir > Færslubækur verðsamninga**.
+2. Smellt er á **Nýtt**.
+3. Í reitnum **Heiti** skal smella á fellilistahnappinn til að opna leitina.
 4. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-5. Í listanum skal smella á tengilinn í valinni línu.
-6. Smellið á „Línur“.
-7. Í reitnum kóði lykils er valið 'tafla'.
-    * Í þessu dæmi er verið að uppfæra verð fyrir tiltekinn viðskiptavin, sem þýðir að þarf að velja Töflu. Ef verið var að uppfæra listaverð afurðar, myndirðu velja Allt, þannig að ný verði gildir fyrir alla viðskiptavini. Ef þú værir að sundurgreina verð milli ólíkra hluta viðskiptavinar þá myndiðu velja Flokk. Til að velja Flokk, verður að hafa að sett upp verðflokka viðskiptavinar.  
-8. Í reitnum Val á lykli skal smella á fellilistahnappinn til að opna leitina.
-9. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-10. Í reitnum vörukóði er valið ‚Tafla‘.
-    * Þegar þú færir inn viðskiptasamningur af gerðinni 'Verð (sala) verður einungis að velja Tafla í vörukóðasvæðinu. Þetta er vegna þess að verð með raungildi og má ekki vera það sama fyrir allar afurðir eða flokka afurða.  
-11. Í reitnum Vöruvensl skal smella á fellilistahnappinn til að opna leitina.
-12. Á listanum, veljið afurð sem á að taka með í samningnum.
-    * Skrifaðu athugasemd um hvaða vöru sem var valin.  
-13. Í listanum skal smella á tengilinn í valinni línu.
-14. Í reitinn Frá skal slá inn lágmarksmagn.
-    * Ef viðskiptavinur þarf að panta lágmarksmagn áður en þeir verða gjaldgengir fyrir nýtt verð, þá þarf að tilgreina það magn hér.  
-    * Færið inn gildi í svæðinu Til, til að tilgreina hámarksmagn og ef farið er umfram það mun verðið á samningnum ekki vera gilt. Ef þú ert að bjóða verð og afslætti sem byggir á mörgum hléum í magni, þá skaltu tilgreina hvern magnsvina sem par af lágmarks- og hámarksmagni í 'Frá' og '‘Til svæði, í þessari röð.  
-15. Færa inn verð í svæðinu Upphæð í gjaldmiðli
-16. Í dagsetningarsvæði Frá, færið inn dagsetningu sem þessi samningur gildir uppfrá.
-17. Smellið á „Vista“.
-18. Smella á Villuleita.
-19. Smella á Villuleita valdar línur.
-20. Smellið á „Í lagi“.
-21. Smellið á „Bóka“.
-22. Smellið á „Í lagi“.
+5. Í **Aðgerðasvæðinu** smellirðu á **Línur**.
+6. Í reitnum **Reikningskóði** velurðu „Tafla“.
+    
+    Í þessu dæmi er verið að uppfæra verð fyrir tiltekinn viðskiptavin, sem þýðir að þarf að velja Töflu. Ef verið var að uppfæra listaverð afurðar, myndirðu velja „Allt“, þannig að nýtt verð myndi gilda fyrir alla viðskiptavini. Ef þú værir að sundurgreina verð milli ólíkra hluta viðskiptavinar þá myndiðu velja Flokk. Til að velja Flokk, verður að hafa að sett upp verðflokka viðskiptavinar.  
+
+7. Í reitnum **Val á lykli** skal smella á fellilistahnappinn til að opna uppflettinguna.
+8. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
+9. Í reitnum **Vörukóði** velurðu „Tafla“.
+    
+    Þegar þú færir inn viðskiptasamning af gerðinni „Verð (sala)“ verðurðu að velja einungis „Tafla“ í reitnum **Vörukóði**. Þetta er vegna þess að verð með raungildi og má ekki vera það sama fyrir allar afurðir eða flokka afurða.
+    
+10. Í reitnum **Vöruvensl** skal smella á fellilistahnappinn til að opna uppflettinguna.
+11. Á listanum, veljið afurð sem á að taka með í samningnum. Skrifaðu athugasemd um hvaða vöru sem var valin.  
+12. Í reitinn **Frá** slærðu inn lágmarksmagn.
+    - Ef viðskiptavinur þarf að panta lágmarksmagn áður en þeir verða gjaldgengir fyrir nýtt verð, þá þarf að tilgreina það magn hér.  
+    - Færið inn gildi í svæðinu **Til** til að tilgreina hámarksmagn og ef farið er umfram það mun verð í samningnum ekki vera gilt. Ef þú ert að bjóða verð og afslætti sem byggja á mörgum skilum í magni, þá skaltu tilgreina öll skil í magni sem par af lágmarks- og hámarksmagni í reitunum **Frá** og **Til**, í þessari röð.
+13. Í reitinn **Upphæð í gjaldmiðli** skaltu færa inn verð.
+14. Undir hlutanum **Upplýsingar**, í reitnum **Frá dags.**, skaltu skrá dags. sem þessi samningur verður ekki gildur frá.
+15. Smellt er á **Vista**.
+16. Smelltu á **Villuleita**.
+17. Smelltu á **Villuleita valdar línur**.
+18. Smellt er á **OK**.
+19. Smella  **bóka.**
+20. Smellt er á **OK**.
 
 ## <a name="view-trade-agreements-for-a-product"></a>Skoða viðskiptasamninga fyrir afurð
-1. Fara í upplýsingar um afurðastjórnun > Afurðir > Útgefnar afurðir.
+1. Farðu í **Skoðunarrúða > Kerfiseiningar > Afurðaupplýsingastjórnun > Afurðir > Útgefnar afurðir**.
 2. Finna og velja vöru sem verð hefur nýlega verið uppfært verð, á listanum.
-3. Í aðgerðasvæðinu er smellt á selja.
-4. Smellt er á Skoða viðskiptasamninga.
-    * Fara yfir nákvæmar upplýsingar um verð viðskiptasamnings sem var nýverið stofnaður.    
+3. Í **Aðgerðasvæðinu** smellirðu á **Selja**.
+4. Smelltu á **Skoða viðskiptasamninga**.
+    
+    Fara yfir nákvæmar upplýsingar um verð viðskiptasamnings sem var nýverið stofnaður.    
+
 5. Lokið síðunni.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar

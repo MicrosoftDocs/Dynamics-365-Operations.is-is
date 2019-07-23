@@ -3,7 +3,7 @@ title: Úthluta notendum á öryggishlutverk
 description: Til að fá aðgang að Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, þarf að úthluta notendum á öryggishlutverk.
 author: maertenm
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 55cb085bb5170aa4894a2240a12f6ca451b922fb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ab9f2f5ea07ae1d616c48dffa8810b966f7dbb2f
+ms.sourcegitcommit: 33e98f89294086334fe9c0a350abb6a52ef9dacb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556710"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711132"
 ---
 # <a name="assign-users-to-security-roles"></a>Úthluta notendum á öryggishlutverk
 
@@ -31,25 +31,20 @@ Til að fá aðgang að Microsoft Dynamics 365 for Finance and Operations, Enter
 
 
 ## <a name="automatically-assign-users-to-roles"></a>Sjálfkrafa skipa notendum í hlutverkin
-1. Fara í Kerfisstjórn > Öryggi > Úthluta hlutverkum á notendur.
-2. Í þessu dæmi skal velja yfirmaður Bókhalds.
-    * Veljið hlutverk sem nota á fyrir útvinnsluna á reglunni. Í þessu dæmi skal velja yfirmann bókhalds.  
-3. Smelltu á bæta við reglu til að opna felligluggann.
-4. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-    * Velja fyrirspurn fyrir þessa reglu.  
-5. Í listanum skal smella á tengilinn í valinni línu.
-6. Smellt er á Breyta fyrirspurn.
-    * Breyta skal fyrirspurninni eftir því sem þörf krefur.  
-7. Smellið á „Í lagi“.
+1. Farðu í **Skoðunarrúða > Kerfiseiningar > Kerfisstjórnun > Ötyggi > Úthluta notendum á hlutverk**.
+2. Í þessu dæmi skal velja yfirmaður Bókhalds. Veljið hlutverk sem nota á fyrir útvinnsluna á reglunni. Í þessu dæmi skal velja yfirmann bókhalds. 
+3. Smelltu á **Bæta við reglu** til að opna felligluggann.
+4. Á listanum **Velja fyrirspurn** skaltu finna og velja skrána sem óskað er eftir. Velja fyrirspurn fyrir þessa reglu.  
+5. Á listanum **Heiti aðildarreglu** skaltu smella á tengilinn í valinni röð.
+6. Smelltu á **Breyta fyrirspurn**. Breyta skal fyrirspurninni eftir því sem þörf krefur.  
+7. Smellt er á **OK**.
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>Útiloka notendum frá sjálfvirka hlutverkaúthlutun
 1. Lokið síðunni.
-2. Fara í Kerfisstjórn > Öryggi > Úthluta hlutverkum á notendur.
-3. Í þessu dæmi skal velja yfirmaður Bókhalds.
-    * Veljið hlutverk. Fyrir þessu dæmi skal velja yfirmann bókhalds.  
-4. Smelltu á Úthluta / útiloka notendum handvirkt.
-5. Í listanum skal merkja valda línu.
-    * Velja notanda  
-6. Smelltu á Útiloka frá hlutverki.
-    * Smelltu á Útiloka frá hlutverki til útiloka valda notendur úr hlutverinu. Til að fjarlægja útilokanir, veljið notendur sem á að fjarlægja útilokanir á og smellið síðan á Endurstilla stöðu. Þegar fjarlægja útilokun með því að endurstilla stöðu notanda er hlutverki notanda aftur úthlutað sjálfkrafa. Hins vegar notanda er ekki strax þetta hlutverk úthlutað eða útilokað frá hlutverki þegar endurstilla stöðu. Í stað þess, notandinn annað hvort úthlutaður í hlutverkið eða fjarlægð úr hlutverk í næsta sinn sem keyrðar eru reglum fyrir sjálfvirka hlutverkaúthlutun.  
-
+2. Farðu í **Skoðunarrúða > Kerfiseiningar > Kerfisstjórnun > Ötyggi > Úthluta notendum á hlutverk**.
+3. Í þessu dæmi skal velja yfirmaður Bókhalds. Veljið hlutverk. Fyrir þessu dæmi skal velja yfirmann bókhalds.  
+4. Í valmyndinni **Notendur sem úthlutað er á hlutverk** skaltu velja **Úthluta / útiloka notendur handvirkt**.
+5. Í listanum **Úthluta notendum til eða útiloka notendur frá hlutverki** skaltu merkja valda línu. Velja notanda  
+6. Í **Aðgerðarsvæði** velurðu **Útiloka frá hlutverki**.
+    
+    Smelltu á **Útiloka frá hlutverki** til útiloka valda notendur frá hlutverinu. Til að fjarlægja útilokanir skal velja notendur sem á að fjarlægja útilokanir á og smella síðan á **Endurstilla stöðu**. Þegar fjarlægja útilokun með því að endurstilla stöðu notanda er hlutverki notanda aftur úthlutað sjálfkrafa. Hins vegar notanda er ekki strax þetta hlutverk úthlutað eða útilokað frá hlutverki þegar endurstilla stöðu. Í stað þess, notandinn annað hvort úthlutaður í hlutverkið eða fjarlægð úr hlutverk í næsta sinn sem keyrðar eru reglum fyrir sjálfvirka hlutverkaúthlutun.  

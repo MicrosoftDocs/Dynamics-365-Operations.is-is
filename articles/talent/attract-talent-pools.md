@@ -3,7 +3,7 @@ title: Velja umsækjendur með því að nota hæfileikasafn
 description: Þetta efni útskýrir hvernig á að búa til og setja upp hæfileikasöfn í Attract.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/02/2019
+ms.date: 06/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 13b5e3091a4bcdbf1bfbe077ffb04ec8d08a0911
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
+ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518237"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "1711295"
 ---
 # <a name="source-candidates-by-using-talent-pools"></a>Velja umsækjendur með því að nota hæfileikasafn
 
@@ -110,15 +110,16 @@ Allir notendur hafa sameiginlegt yfirlit yfir forstillingar umsækjenda. Flipinn
 
 - Þú getur skoðað tengiliðaupplýsingar fyrir umsækjandann. Þú getur einnig breytt eða uppfært upplýsingarnar eftir þörfum með því að nota **Breyta upplýsingum** hnappinn.
 
-- Þú getur bætt við fleiri hæfileikjamerkjum til að greina færni umsækjanda.
-
 - Þú getur skoðað allan umsóknarferil umsækjanda. Þú getur séð öll þau störf sem umsækjandinn hefur sótt um í fyrirtækinu þínu og stöðu þeirra umsókna. Ef þú ert hluti af starfsráðningarteymi getur þú valið **Skoða** til að skoða umsóknina í smáatriðum.
 
-- Flipinn **Skjöl** sýnir öll skjöl sem umsækjandinn hefur bætt við úr forstillingum sínum eða í atvinnuumsóknum. Þennan flipa er hægt að nota til að stjórna ferilskrá umsækjanda, kynningarbréfum, vinnumöppum og svo framvegis. Þú getur líka notað þennan flipa til að bæta við skjölum.
+- Flipinn **Skjöl** sýnir öll skjöl sem umsækjandinn hefur bætt við úr forstillingum sínum eða í atvinnuumsóknum. Þú getur notað þennan flipa til að stjórna ferilskrá umsækjanda, kynningarbréfum, vinnumöppum og svo framvegis. Þú getur líka notað þennan flipa til að bæta við skjölum.
 
     Til að skoða skjal skaltu velja heiti skjalsins í listanum yfir skjöl. Þú getur skoðað Microsoft Word skjöl í forritinu með því að nota Microsoft Office 365. Þú getur einnig sótt skjölin á tölvuna þína með því að nota valkostinn **Sækja** fyrir hvert skjal.
 
 - **LinkedIn** flipinn sýnir LinkedIn upplýsingar umsækjanda. Til að nota þennan flipa verður þú að tengja LinkedIn-reikninginn þinn í notendastillingunum og setja verður á tengingu LinkedIn Recruiter umhverfisins. Frekari upplýsingar er að finna í [Fundið með LinkedIn Recruiter](./attract-linked-in-recruiter.md).
+
+> [!NOTE]
+> Aðeins umsækjendur geta uppfært hæfni sína, menntunarferli og starfsreynslu.
 
 ## <a name="add-candidates-from-a-talent-pool-to-a-job"></a>Bættu við umsækjendum frá hæfileikasafni við starf
 

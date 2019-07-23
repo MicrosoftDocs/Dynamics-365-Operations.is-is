@@ -3,7 +3,7 @@ title: Heimasíða uppsetningar á staðnum
 description: Þetta efnisatriði veitir upplýsingar og tengla í efni um uppsetningu á staðnum
 author: kfend
 manager: AnnBe
-ms.date: 02/01/2019
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: c51cce929384b7e822213dcb9df9007edfe3700c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 01e29bb56f03223ff90343186a2e4cf3de13a27d
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550953"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702724"
 ---
 # <a name="on-premises-deployments-home-page"></a>Heimasíða uppsetningar á staðnum
 
@@ -67,6 +67,7 @@ ms.locfileid: "1550953"
 
 ## <a name="other-resources"></a>Önnur tilföng
 - [Úrræðaleit fyrir uppsetningar á staðnum](troubleshoot-on-prem.md)
+- [Vottorðssnúningur](certificate-rotation-on-prem.md)
 - [Greining á staðnum](on-premises-diagnostics.md)
 - [Eiginleikar sem ekki eru innleiddir í uppsetningu á staðnum](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Eiginleikar sem hafa verið fjarlægðir eða úreltir](../migration-upgrade/deprecated-features.md)

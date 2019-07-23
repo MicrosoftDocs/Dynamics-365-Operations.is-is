@@ -3,7 +3,7 @@ title: Sérsníða notandaupplifun
 description: Þessi grein útskýrir hvernig hægt er að sérsníða Microsoft Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 05/17/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67ba1a95299de09c74e2fa2808cb63f61acf5862
-ms.sourcegitcommit: c576b81dc3c93c09fb08fb0ba0c19f417360c5ab
+ms.openlocfilehash: 51c4cbbba36ed4c93fbbba907031023060d51495
+ms.sourcegitcommit: 0273905ceb371ba17d3a37d690e1f568aa968b4f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620015"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625012"
 ---
 # <a name="personalize-the-user-experience"></a>Sérsníða notandaupplifun
 
@@ -60,7 +60,7 @@ Allar sérstillingar sem notandi gerir í Finance and Operations eru aðeins fyr
 - **Aðgerðarsvæði** - *Aðgerðarsvæði* birtist ofarlega á flestum síðum. Aðgerðarsvæðið inniheldur hnappa fyrir margar af aðgerðunum sem þú getur framkvæmt á þessari síðu. Þessum hnöppum er oft raðað niður á flipa. Þú getur opnað alla aðgerðarsíðuna og fest hana þannig, eða þú getur valið að hafa hana samandregna að sjálfgefnu. Næst þegar þú síðan opnar síðuna, mun Finance and Operations endurheimta festa stöðu aðgerðarsíðunnar. Ef aðgerðarsýningin er opnuð og fest þannig, birtir Finance and Operations einnig flipann með aðgerðum sem þú notar síðast.
 - **QuickFilters** - A *QuickFilter* birtist fyrir ofan mörg hnitanet. QuickFilter leyfir þér að afmarka hnitanetið, byggt á dálki sem þú velur. Finance and Operations geymir dálkinn sem þú byggðir afmörkunina á. Næst þegar þú síðan opnar síðuna sem inniheldur þetta hnitanet verður hnitanetið afmarkað út frá sömu dálki. Hins vegar geturðu síðan afmarkað hnitanetið út frá öðrum dálki.
 - **Dálkhausaafmarkanir** - Þegar þú afmarkar hnitanet með því að nota *Dálkhausaafmarkanir*, geturðu breytt virknitákni afmörkunar eftir þörfum til að finna gögnin sem þú vilt. Til dæmis getur þú breytt virknitákninu frá **byrjar á** til **er nákvæmlega**. Í hvert skipti sem þú notar dálkhausaafmörkun og breytir virknitákni afmörkunar, geymir Finance and Operations breytinguna. Forritið mun síðan endurheimta virknitákn afmörkunar næst þegar þú afmarkar út frá þessum dálki.
-- **Yfirlitssvæði** - Þú getur opnað *Yfirlitssvæði* með því að velja **Valmynd** hnappinn vinstra megin á hvaða síðu sem er. (**Valmynd** hnappurinn er stundum nefndur *hamborgari*, *hamborgaravalmynd* eða *hamborgarahnappur*.) Hægt er að opna yfirlitssvæði og festa það þannig, eða þú getur haldið því samandregnu að sjálfgefnu. Eftir að þú hefur opnað yfirlitssvæði og fest það þannig, mun Finance and Operations halda því opinni þar til þú dregur það saman.
+- **Yfirlitssvæði** - Þú getur opnað *Yfirlitssvæði* með því að velja **Valmynd** hnappinn vinstra megin á hvaða síðu sem er. (Hnappurinn **Valmynd** er stundum nefndur *hamborgari*, *hamborgaravalmynd* eða *hamborgarahnappur*.) Hægt er að opna yfirlitssvæði og festa það þannig, eða þú getur haldið því samandregnu að sjálfgefnu. Eftir að þú hefur opnað yfirlitssvæði og fest það þannig, mun Finance and Operations halda því opinni þar til þú dregur það saman.
 
 ## <a name="explicit-personalizations"></a>Beinar sérstillingar
 
@@ -169,6 +169,6 @@ Notendur sem hafa stjórnunarréttindi geta einnig stýrt sérstillingum fyrir a
 
 Þegar þú sérstillir uppsetningu birgðavídda á síðu, skaltu hafa í huga stillingarnar sem hafa verið búnar til með notkun valkostarins **Sýna víddir**. Til dæmis notar þú sérstillingu til að fela dálk sem inniheldur birgðavídd rununúmers, en dálkurinn birtist næst þegar síðunni er opnuð. Þessi hegðun á sér stað vegna þess að **Birting vídda** stillingarnar stjórna birgðavíddadálkunum sem eru sýndir.
 
-**Birting vídda** stillingarnar eiga við um allar síður og hnekkja öllum sérstilltum uppsetningum á birgðavíddareitum á einstökum síðum.
+Stillingarnar **Birting vídda** eiga við um allar síður og hnekkja öllum sérstilltum uppsetningum á birgðavíddareitum á hverri einstakri síðu.
 
-Ef þú vilt því ekki að dálkur sem inniheldur birgðavídd rununúmers birtist í framangreindu dæmi, verður þú að hreinsa þá vídd sem hluti af **Sýna víddir** valkostinum fyrir töfluna. Að lokum mun þessi breyting ekki aðeins gilda á einni tilteknu síðu heldur á öllum síðum.
+Þar af leiðandi, í dæminu hér á undan, ef þú vilt ekki að dálkurinn fyrir birgðavídd rununúmers birtist á síðu verður þú að hreinsa þá vídd sem hluta af valkostinum **Sýna víddir** fyrir þá síðu.

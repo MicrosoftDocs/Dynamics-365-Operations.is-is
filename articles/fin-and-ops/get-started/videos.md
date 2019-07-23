@@ -3,7 +3,7 @@ title: Myndskeið fyrir Finance and Operations
 description: Þessi síða sýnir „hvernig á að“ og tæknitalsmyndbönd sem Microsoft hefur búið til sem tengjast Dynamics 365 for Finance and Operations sem eru aðgengileg á YouTube og öðrum vefsíðum.
 author: josaw1
 manager: AnnBe
-ms.date: 05/15/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 1b828382f9f81d796fcfaef0e9c7dc9450a97992
-ms.sourcegitcommit: 2bbc0eeca6826c529fb729b82d16f287c1ce05bb
+ms.openlocfilehash: 5ede5bfa3b7a61461adb1514b7e96c4eba5a75c7
+ms.sourcegitcommit: fdc37a3c2ca2bac5741e7017fb225344e64f041a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1591549"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625398"
 ---
 # <a name="videos-for-finance-and-operations"></a>Myndskeið fyrir Finance and Operations
 
@@ -64,6 +64,10 @@ Myndböndum er raðað eftir eiginleikum, svo flettu niður til að sjá alla li
 - [Hafist handa með kostnaðarbókhald](https://youtu.be/1pUDtJQZ8FU)
 - [Nota Excel fyrir kostnaðargreiningu](https://youtu.be/-HKHYdClvx8)
 - [Kostnaðarumhverfi](https://youtu.be/Ocy-MsTvEE0)
+
+#### <a name="help-system"></a>Hjálparkerfi
+
+- [Hvernig á að veita framlag til fylgiskjala Microsoft Dynamics 365](https://youtu.be/m5djioozRbg)
 
 #### <a name="intelligence"></a>Greind
 

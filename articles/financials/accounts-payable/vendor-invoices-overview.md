@@ -3,7 +3,7 @@ title: Yfirlit yfir reikninga lánardrottna
 description: Þetta efnisatriði veitir almennar upplýsingar um reikninga lánardrottins. Reikningar lánardrottins eru beiðnir um greiðslu fyrir vörur og þjónustu sem voru mótteknar. Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þær geta verið byggðir á innkaupapantanir fyrir tilteknar vörur og þjónustu.
 author: abruer
 manager: AnnBe
-ms.date: 06/04/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b57c18b5b2cf690111511e4c5a92d51fc23dd68c
-ms.sourcegitcommit: 901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0
+ms.openlocfilehash: d02eee989e5bebd1cad0b1392ec19aaa918d9db5
+ms.sourcegitcommit: f9444077022a6c678090d02d0f9d4ec0e54b7ca9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1618274"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625080"
 ---
 # <a name="vendor-invoices-overview"></a>Yfirlit yfir reikninga lánardrottna
 
@@ -91,13 +91,6 @@ Hægt er að nota síðuna **Endurheimta reikninga lánardrottna** til að endur
 
 Aðeins er hægt að fá aðgang að síðunni **Endurheimta reikninga lánardrottna** ef þér er úthlutað öryggisskyldunum og réttindunum **Endurheimta reikninga lánardrottna sem eru í notkun**. Auk þess þarf að kveikja á færibreytunni **Leyfa endurheimt á reikningum lánardrottna** á síðunni **Færibreytur viðskiptaskulda**.
 
-## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Endurstilling á stöðu verkflæðis fyrir reikninga lánardrottins úr óendurkræf í drög
-
-Verkflæðistilvik sem hefur stöðvast út af óendurkræfri villu verður með stöðu verkflæðis sem **Óendurkræft**. Þegar staðan á verkflæði fyrir reikning lánardrottins er **Óendurkræf** er hægt að endurstilla hana á **Drög**. Síðan er hægt að breyta reikningi lánardrottins. Þessi eiginleiki er í boði ef kveikt er á færibreytunni **Endurstilla stöðuna drög fyrir verkflæði reiknings lánardrottins** á síðunni **Eiginleikastjórnun**.
-
-Hægt er að nota síðuna **Endurstilla verkflæðisstöðu fyrir reikninga lánardrottins** til að endurstilla verkflæðisstöðuna sem **Drög**. Hægt er að opna þessa síðu frá slóðinni **Reglubundið verkefni**. Síðan sýnir alla reikninga lánardrottins sem eru með verkflæðisstöðuna **Óendurkræf** í núverandi lögaðila. Hún sýnir einnig notandann sem sendi inn hvern reikning fyrir sig til verkflæðis og kennimerki reiknings, og veitir tengil á verkflæðissöguna. Til að endurstilla verkflæðisstöðuna í **Drög** skal merkja einn eða fleiri reikninga og velja síðan **Uppfæra í drög**. Eftir að verkflæðisstaðan hefur verið endurstillt í **Drög** verður hún opin fyrir breytingar á síðunni **Reikningur lánardrottnins**.
-
-Hægt er að fá aðgang að síðunni **Endurstilla verkflæðisstöðu fyrir reikninga lánardrottins** aðeins ef þér hefur verið úthlutað öryggisskyldunni **Hafa umsjón með stöðunni fyrir verkflæði á reikningi lánardrottins** og réttindunum **Endurstilla stöðuna fyrir verkflæði á reikningi lánardrottins**.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

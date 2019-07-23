@@ -3,7 +3,7 @@ title: Skilgreina launasamþættingu milli Talent og Dayforce
 description: Þetta efnisatriði útskýrir hvernig á að grunnstilla samþættingu milli Microsoft Dynamics 365 for Talent og Ceridian Dayforce svo hægt sé að afgreiða launakeyrslu.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/26/2019
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9a88bf61dbb12520b555ceb7363b1c646d95386e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 59234ef44ad22383ae5daf71d4b663c6183e6c05
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518232"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702819"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Skilgreina launasamþættingu milli Talent og Dayforce
 
@@ -54,6 +54,16 @@ Frekari upplýsingar um Azure-geymslureikninga og tengistrengi Azure-geymslu er 
 
 - [Um Azure-geymslureikninga](https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [Skilgreina tengistrengi Azure-geymslu](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+
+### <a name="technical-details-when-payroll-integration-is-enabled"></a>Tæknilýsing þegar launasamþætting er virk
+
+Að kveikja á launasamþættingu hefur aðallega tvennt í för með sér:
+
+- Gagnaútflutningsverk sem heitir "Útflutningur launasamþættingar" er búið til. Þetta verk inniheldur þær einingar og reiti sem þarf fyrir launasamþættinguna. Til að skoða verkið skaltu fara í **Kerfisstjórnun**, velja reitinn **Gagnastjórnun** og opna síðan gagnaverkið af listanum yfir verk.
+- Þessi runuvinnsla keyrir gagnaútflutningsverkið, dulkóðar gagnapakkann sem fylgir því og flytur gagnapakkaskrána á SFTP-endastöðina sem er skilgreind á skjánum **Skilgreining samþættingar**.
+
+> [!NOTE]
+> Gagnapakkinn sem er fluttur til SFTP-endastöðvarinnar er dulkóðaður með lykli sem er einkvæmur fyrir pakkann. Lykillinn er í Azure-lykageymslu er aðeins aðgengileg af Ceridian. Ekki er hægt að afkóða og skoða innihald gagnapakka. Ef þú þarft að skoða innihald gagnapakka þarftu að flytja út gagnaverkið „Útflutningur launasamþættingar“ handvirkt, hlaða niður því og opna það síðan. Handvirkur útflutningur mun ekki beita dulkóðun eða flytja pakkann.
 
 ## <a name="configure-your-data"></a>Skilgreina gögnin þín 
 

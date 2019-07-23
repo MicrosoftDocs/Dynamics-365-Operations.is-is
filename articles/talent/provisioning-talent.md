@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 03edb5d626f221863f45804ce84168692c2bd1f3
-ms.sourcegitcommit: 3c4e59f55af2eafb3adbae3bb0091e4f6caacc8b
+ms.openlocfilehash: c249df697553cd42eccd59d3f2c3f5f083ead1cb
+ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1576922"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624608"
 ---
 # <a name="provision-talent"></a>Úthluta Talent
 
@@ -48,6 +48,8 @@ Eftir að þú hefur búið til LCS verk, getur þú úthlutað Talent inn í um
 
 1. Í LCS verkinu skaltu velja **Talent Stjórnun Forrits** reitinn.
 2. Tilgreinið hvort þetta sé sandkassa- eða framleiðslutilvik fyrir Talent. Snemmbúnir forskoðunareiginleikar kunna að vera í boði í Sandkassatilvikum til að leyfa ábendingar og prófanir sem fyrst. 
+    > [!NOTE]
+    > Gerð Talent-tilviks er aðskilin frá tilviksgerð í PowerApps-umhverfi, sem þú stillir í PowerApps Admin Center.
 3. Veldu valkostinn **Hafa sýnigögn með** ef þú vilt að umhverfið þitt innihaldi sama sýnigagnasafnið sem notað er í prufukeyrsluupplifun Talent. Þetta er gagnlegt fyrir langvarandi prufuútgáfu eða þjálfunarumhverfi og ætti aldrei að nota í vinnsluumhverfi.  Athugaðu að þú verður að velja þennan möguleika við upphaflega uppsetningu. Þú getur ekki uppfært fyrirliggjandi uppsetningu seinna.
 4. Talent er alltaf úthlutað inn í Microsoft PowerApps umhverfi, til að virkja PowerApps samþættingu og stækkunarhæfni. Lestu kaflann „Val á PowerApps umhverfi“ í þessu efnisatriði áður en þú heldur áfram. Ef þú ert ekki með PowerApps umhverfi skaltu velja Stjórna umhverfum í LCS eða fara í Stjórnandamiðstöð PowerApps. Fylgdu síðan skrefunum til að [Búa til PowerApps umhverfi](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
 

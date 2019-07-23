@@ -3,7 +3,7 @@ title: Hjálparkerfi Finance and Operations
 description: Þetta efnisatriði veitir yfirlit yfir þætti í hjálparhluta Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
-ms.date: 11/13/2018
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: da5b67bd67ff1a227a5f1812d41cdad9f062dfd0
+ms.sourcegitcommit: ad4d378afd88028d2002633a3cc8a67313cbeddd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595640"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625330"
 ---
 # <a name="finance-and-operations-help-system"></a>Hjálparkerfi Finance and Operations
 
@@ -95,16 +95,18 @@ Ef þú vilt láta í ljós viðbrögð eða spyrja spurninga um efni skaltu lá
 
     ![Setja inn ummæli](./media/feedback.png)
 
-##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Leggja til breytingar eða leggja fram efni í gegnum GitHub
+### <a name="contribute-to-the-documentation"></a>Veita framlag til fylgigagna
 
-Til að leggja til breytingu þarftu að vera með GitHub reikning og undirrita leyfisveitandi samning þátttakanda. Eftir að þú hefur sent inn beiðni um að hafa áhrif, munum fara yfir breytingartillögur þínar. Ef nauðsyn krefur, munum við ræða þær innbyrðis og hafa síðan samband við þig.
+Þú getur lagt fram og gert breytingar á fylgiskjölum Finance and Operations. Til að byrja skal smella á (blýants)hnappinn **Breyta** á efnisatriði eða fara í geymsluna okkar á <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>. Eftirfarandi myndband sýnir hvernig þú veitt framlag til fylgigagna okkar.
 
-Til að byrja skal smella á (blýants)hnappinn **Breyta** á efnisatriði eða fara í geymsluna okkar á <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE36liB]
 
-Fyrir nánari upplýsingar skal leita í leiðbeiningar okkar fyrir þátttakendur: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.
+Myndskeiðið [Hvernig á að veita framlag til Microsoft Dynamics 365 fylgiskjala](https://youtu.be/m5djioozRbg) (sýnt hér að ofan) er innifalið í [Hvað er nýtt í spilunarlista Dynamics 365](https://www.youtube.com/playlist?list=PLcakwueIHoT-ErQZPP80qNKuEAr0wAAD9) sem er fáanlegur á YouTube.
+
+Fyrir nánari upplýsingar skal leita í leiðbeiningar okkar fyrir þátttakendur á: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.
 
 > [!NOTE]
-> Við samþykkjum aðeins framlag í ensku efni okkar á þessum tíma.
+> Við samþykkjum aðeins framlög á ensku efni okkar eins og stendur.
 
 ## <a name="task-guides"></a>Verkleiðbeiningar
 
@@ -170,7 +172,7 @@ Eftir að kerfisstjóri hefur lokið við þessi skref, er hægt að opna hjálp
 Þýddar Verkefnaleiðbeiningar eru útgefin í söfnum sem eru með „Öll tungumál“ í tiltlinum. Í Finance and Operations, til að sjá staðfærða hjálp verkleiðbeininga, skal tryggja að þú sért tengd við viðeigandi safn. Tungumálið sem verkefnaleiðbeiningar birtist í er stjórnað fyrir hvern notanda samkvæmt tungumálastillingar undir **Valkostir** &gt; **Kjörstillingar**.
 
 - Ef verkefnaleiðbeiningar hefur verið þýdd, þegar þú opnar þessi verkefnaleiðbeiningar birtist allan texta þeirra í valið tungumál.
-- Ef verkefnaleiðbeiningar hefur ekki enn verið þýddar, þegar þú opnar það, birtist aðeins hluti af textanum (Texti stjórnbúnaðar)  í valið tungumál.
+- Ef verkefnaleiðbeiningar hafa ekki enn verið þýddar birtist aðeins hluti af textanum (texti stjórnbúnaðar) í völdu tungumáli þegar þú opnar það.
 
 ## <a name="creating-custom-help"></a>Stofnun sérsniðinnar hjálpar
 

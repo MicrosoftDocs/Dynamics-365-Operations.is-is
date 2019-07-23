@@ -3,7 +3,7 @@ title: Leit að vöru og leit að viðskiptavinum í sölustað (POS)
 description: Þetta efnisatriði gefur yfirlit yfir úrbætur sem hafa verið gerðar á vöru og viðskiptahugbúnaði í Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: a1593445af41cba30bdc35933302d0873e313585
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b2f1d522a60721c746d03e477615265f9a8ba9a0
+ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530777"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625643"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Leit að vöru og leit að viðskiptavinum í sölustað (POS)
 
@@ -35,12 +35,12 @@ Starfsmenn geta leitað að vörum í vöruúrvali og vörulistum sem tengjast n
 
 ## <a name="product-search"></a>Afurðaleit
 
-Sjálfgefið er að vöruleitir séu gerðar á vöruúrvali verslunar. Þessi tegund leitar er þekktur sem *staðbundin vöruleit*. Hins vegar geta starfsmenn auðveldlega skipt yfir í hvaða verslun sem er í tengslum við núverandi verslun eða þeir geta leitað í annarri verslun. Þessi tegund leitar er þekktur sem *Fjartengd vöruleit*. Til að breyta vörulistanum hnappinn **Flokkar**  til vinstri á síðunni. Efst á glugganum sem birtist skaltu velja hnappinn hnappinn **Breyta vörulista**og þá velja einn af tiltækum vörulista til að skoða. Kerfið mun leita að vörum í valda vörulistanum.
+Sjálfgefið er að vöruleitir séu gerðar á vöruúrvali verslunar. Þessi tegund leitar er þekktur sem *staðbundin vöruleit*. Hins vegar geta starfsmenn auðveldlega skipt yfir í hvaða verslun sem er í tengslum við núverandi verslun eða þeir geta leitað í annarri verslun. Þessi tegund leitar er þekktur sem *Fjartengd vöruleit*. Til að breyta vörulistanum velurðu hnappinn **Flokkar** til vinstri á síðunni. Efst í glugganum sem birtist skaltu velja hnappinn **Breyta vörulista** og velja síðan einn af tiltækum vörulistum til að skoða. Kerfið mun leita að vörum í valda vörulistanum.
 
 Á síðunni **Breyta verslun** geta starfsmenn auðveldlega valið hvaða verslun sem er, eða þeir geta leitað að vörum í öllum verslunum.
 
 ![Breyting á vörulilstanum](./media/Changecatalog.png "Breyting á vörulilstanum")
- 
+
 Staðbundin vöruleit leitar í eftirfarandi vörueiginleikum:
 
 - Afurðarnúmer
@@ -54,8 +54,8 @@ Staðbundin vöruleit leitar í eftirfarandi vörueiginleikum:
 
 Reynslan af staðbundinni vöruleit er nú notendavænni. Eftirfarandi endurbætur hafa verið gerðar:
 
-- Fellivalmyndum fyrir vöru og viðskiptavini hefrui verið bætt við leitarreitinn svo starfsmenn geti valið annaðhvort **Vara** eða **Viðskiptavinur** áður en þeir gera leitina. Sjálfgefið er **Vara**valið, eins og sýnt er á myndinni sem hér á eftir.
-- Til að leita að mörg lykilorð í leit (það er fyrir leitir sem nota leitarorð) geta smásalar stillt hvort leitarniðurstöður innihaldi niðurstöður sem passa við *eitthvert* leitarorð eða aðeins niðurstöður sem passa við *öll* leitarorð. Þessi stilling er fáanleg í POS virknisniðinu, undir nýjum hópi sem heitir **Vöruleit**. Sjálfgefna stillingin er **Samsvara hvaða leitarorði sem er**. Þetta er einnig ráðlögðstilling. Þegar stillingin **Samsvara hvaða leitarorð sem er** er notuð, er öllum vörum sem passa að fullu eða hluta til við eitt eða fleiri leitarorð skilað sem niðurstöður. Þessar niðurstöður eru sjálfkrafa flokkaðar í hækkandi röð af vörum sem hafa mestu samsvörun við leitarorðin (að fullu eða að hluta).
+- Fellivalmyndum fyrir vöru og viðskiptavini hefrui verið bætt við leitarreitinn svo starfsmenn geti valið annaðhvort **Vara** eða **Viðskiptavinur** áður en þeir gera leitina. Sjálfgefið er **Afurð** valin, eins og sýnt er á myndinni sem hér á eftir.
+- Til að leita að mörg lykilorð í leit (það er fyrir leitir sem nota leitarorð) geta smásalar stillt hvort leitarniðurstöður innihaldi niðurstöður sem passa við *eitthvert* leitarorð eða aðeins niðurstöður sem passa við *öll* leitarorð. Stillingarnar fyrir þessa virkni er að finna í POS-virknisniðinu, undir nýjum hóp sem heitir **Afurðaleit**. Sjálfgefna stillingin er **Samsvara hvaða leitarorði sem er**. Þetta er einnig ráðlögðstilling. Þegar stillingin **Samsvara hvaða leitarorð sem er** er notuð, er öllum vörum sem passa að fullu eða hluta til við eitt eða fleiri leitarorð skilað sem niðurstöður. Þessar niðurstöður eru sjálfkrafa flokkaðar í hækkandi röð af vörum sem hafa mestu samsvörun við leitarorðin (að fullu eða að hluta).
 
     Stillingin **Samsvara hvaða leitarorði sem er** skilar aðeins vörum sem passa við öll leitarorð (að fullu eða hluta). Þessi stilling er gagnleg þegar vörunöfnin eru löng og starfsmenn vilja sjá aðeins takmarkaðar vörur í leitarniðurstöðum. Hins vegar er þessi leit með tveimur takmörkunum:
 
@@ -65,11 +65,20 @@ Reynslan af staðbundinni vöruleit er nú notendavænni. Eftirfarandi endurbæt
 - Söluaðilar geta nú skilgreint vöruleit til að sýna leitarniðurstöður sem vöruheiti fyrir gerðir notenda. Ný stilling fyrir þessa virkni er að finna í POS-virknisniðinu, undir hópi sem heitir **Vöruleit**. Stillingin heitir **Sýna leitaruppástungur meðan þú skrifa**. Þessi virkni getur hjálpað starfsmönnum að finna fljótt vöruna sem þeir leita að, vegna þess að þeir þurfa ekki að slá inn heitið handvirkt.
 - Vöruleit reikniritin leitar nú einnig að leitarorðum í eiginleikanum **Leita í heiti** fyrir vöruna.
 
-    ![Afurðatillögur](./media/Productsuggestions.png "Afurðatillögur")
+![Afurðatillögur](./media/Productsuggestions.png "Afurðatillögur")
 
 ## <a name="customer-search"></a>Viðskiptavinaleit
 
-Viðskiptavinaleit er notuð til að finna viðskiptavini í ýmsum tilgangi. Til dæmis gætu gjaldkerar viljað sjá óskalista viðskiptavina eða kaupferil eða bæta við viðskiptavininum við viðskipti. Reiknirit leitar samsvarar leitarorð við gildin sem eru til staðar í eftirfarandi eiginleikum viðskiptavinar: heiti, netfang, sími, vildarkortsnúmer, aðsetur og reikningsnúmer. Á meðal eiginleikanna veitir heitið mesta sveigjanleikann þegar kemur að mörgum leitarorðum þar sem reikniritin skilar öllum viðskiptavinum sem passa við einhver leitarorðanna sem leitað var að, og viðskiptavinirnir sem passa við flest leitarorðin birtast efst í niðurstöðunum. Þessi aðferð hjálpar gjaldkerum í kringumstæðum þar sem þeir leita með því að slá inn fullt nafn, en eftirnafni og fornafni var víxlað við upphaflegu gagnaskráninguna. En út af ástæðum sem hafa með afköst að gera, viðhalda allir hinir eiginleikarnir röð leitarorðanna, þannig að ef leitarorðin samsvara ekki röðinni sem gögnin eru geymd í, skilar leitin engum niðurstöðum.
+Viðskiptavinaleit er notuð til að finna viðskiptavini í ýmsum tilgangi. Til dæmis gætu gjaldkerar viljað sjá óskalista viðskiptavina eða kaupferil eða bæta við viðskiptavininum við viðskipti. Reitnirit leitar parar saman leitarskilmála og þau gildi sem eru til staðar í eftirfarandi eiginleikum viðskiptavina:
+
+- Nafn
+- Netfang
+- Símanúmer
+- Vildarkortsnúmer
+- Aðsetur
+- Reikningsnúmer
+
+Meðal þessara eiginleika gefur heitið mestan sveigjanleika fyrir leitir með mörgum leitarorðum, vegna þess að reikniritið skilar öllum viðskiptavinum sem passa við leitarniðurstöður. Viðskiptavinirnir sem samsvara flestum leitarorðum birtast efst í niðurstöðunum. Þessi aðferð hjálpar gjaldkerum í kringumstæðum þar sem þeir leita með því að slá inn fullt nafn, en eftirnafni og fornafni var víxlað við upphaflega gagnaskráningu. Hins vegar, til að skila betri afköstum, varðveita allir aðrir eiginleikar röð leitarorða. Ef röðin af leitarorðum passa ekki við pöntunina sem gögnin eru geymd í verður þess vegna engum niðurstöðum skilað.
 
 Sjálfgefið er að leita viðskiptavina í aðsetursbókum viðskiptavina sem tengjast versluninni. Þessi tegund leitar er þekkt sem *Staðbundin viðskiptavinarleit* Einnig má leita að að viðskiptavinum altækt. Með öðrum orðum geta þeir leitað yfir verslanir félagsins og yfir alla aðra lögaðila. Þessi tegund leitar er þekktur sem *Fjartengd viðskiptavinarleit*
 
@@ -86,7 +95,7 @@ Til að leita altækt geta starfsmenn valið hnappinn **Sía niðurstöður** ne
 
 Leitir sem eru byggðar á símanúmerinu hafa verið einfaldaðar. Þessar leitir hunsa nú sérstafi, t.d. bilum, bandstrikum og svigum, sem kunna að hafa verið bætt við þegar viðskiptavinurinn var búinn til. Þess vegna þurfa gjaldkerar ekki að hafa áhyggjur af símanúmersniðinu þegar þeir leita. Þeir geta einnig leitað eftir viðskiptavinum með því að slá inn hluta úr símanúmeri. Ef símanúmer inniheldur sérstafi er einnig hægt að finna það með því að leita að tölunum sem birtast eftir sérstafinu. Til dæmis, ef símanúmer viðskiptavinar var slegið inn sem **123-456-7890**, getur gjaldkeri leitað að viðskiptavinum með því að slá inn **123**, **456**, **7890** eða **1234567890** eða með því að slá inn fyrstu tölur símanúmersins.
 
-Hefðbundna viðskiptaleitin getur verið tímafrek vegna þess að hún leitar yfir mörg svæði. Þess í stað geta gjaldkerar nú leitað í einum sérsniðnum eiginleika, eins og nafni, netfangi eða símanúmeri. Eiginleikarnir sem reiknirit viðskiptavinaleitar notar eru sameiginlega þekktir sem *leitarskilyrði viðskiptavinar*. Kerfisstjórinn getur auðveldlega stillt eitt eða fleiri skilyrði sem flýtileiðir sem birtast í POS. Vegna þess að leitin er takmörkuð við eitt skilyrði, eru aðeins viðeigandi leitarniðurstöður sýndar og afköstin er mun betri en afköst staðlaðrar viðskiptavinaleitar. Eftirfarandi skýringarmynd sýnir flýtileiðir viðskiptavinaleitar í POS.
+Hefðbundna viðskiptaleitin getur verið tímafrek vegna þess að hún leitar yfir mörg svæði. Þess í stað geta gjaldkerar nú leitað í einum eiginleika viðskiptamanns, eins og nafni, netfangi eða símanúmeri. Eiginleikarnir sem reiknirit viðskiptavinaleitar notar eru sameiginlega þekktir sem *leitarskilyrði viðskiptavinar*. Kerfisstjórinn getur auðveldlega stillt eitt eða fleiri skilyrði sem flýtileiðir sem birtast í POS. Vegna þess að leitin er takmörkuð við eitt skilyrði, eru aðeins viðeigandi leitarniðurstöður sýndar og afköstin er mun betri en afköst staðlaðrar viðskiptavinaleitar. Eftirfarandi skýringarmynd sýnir flýtileiðir viðskiptavinaleitar í POS.
 
 ![Flýtileiðir viðskiptavinaleitar](./media/SearchShortcutsPOS.png "Flýtileiðir viðskiptavinaleitar")
 
@@ -101,3 +110,7 @@ Reiturinn **Birta röð** ákvarðar röðina sem flýtileiðir eru sýndar í P
 
 > [!NOTE]
 > Sérsniðnum eiginleika sem er bætt við fasttextann hefur ekki áhrif á staðlað reiknirit viðskiptavinaleitar. Með öðrum orðum mun reiknirit viðskiptavinaleitar ekki leita í sérsniðnum eiginleikum. Notendur geta aðeins notað sérsniðna eiginleika fyrir leitir ef þessum sérsniðna eiginleika er bætt við sem flýtileið eða ef sjálfgefnu reikniriti leitar er hnekkt.
+
+Í komandi útgáfu af Microsoft Dynamics 365 for Retail munu smásalar geta stillt sjálfgefnar leitarstillingar viðskiptavina leitarmöguleika í POS á **Leita í öllum verslunum**. Þessar skilgreiningar geta verið gagnlegar í aðstæðum þar sem leita verður strax í viðskiptavinum sem voru stofnaðir utan POS (til dæmis, jafnvel áður en dreifingarvinnslan er keyrð). Ný valkostur **Sjálfgefnar leitarstillingar viðskiptavina** verður í boði í POS-virkniprófílnum. Stilltu hann á **Á** til að stilla sjálfgefnar leitarstillingar á **Leita í öllum verslunum**. Sérhver tilraun til viðskiptavinaleitar mun síðan gera rauntímakall í höfuðstöðvarnar.
+
+Til að koma í veg fyrir óvænt afkastavandamál eru þessar stillingar faldar á bak við tilraunaútgáfuflagg sem heitir **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Þess vegna, til að sýna stillinguna **Sjálfgefnar leitarstillingar viðskiptavina** í notandaviðmótinu (UI) ætti smásalinn að stofna stuðningsmiða fyrir samþykkisprófun notanda (UAT) og framleiðsluumhverfi. Þegar miðinn hefur verið móttekinn munu tæknimennirnir vinna með söluaðila til að ganga úr skugga um að smásalinn framkvæmi prófanir í umhverfi utan framleiðslu til að meta árangur og framkvæma allar fínstillingar sem krafist er.

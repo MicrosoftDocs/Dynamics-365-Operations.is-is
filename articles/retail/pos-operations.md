@@ -3,7 +3,7 @@ title: Aðgerðir sölustaðar (POS) með og án nettengingar
 description: Þetta efnisatriði veitir upplýsingar um rekstur sölustaðs (POS) í Microsoft Dynamics 365 for Retail. Það tilgreinir hvar í forritinu má kalla fram aðgerðir og hvort þær séu tiltæk í ótengdum ham.
 author: jblucher
 manager: AnnBe
-ms.date: 10/12/2017
+ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e21f8677144c7293409e409082e8125c05f3a8fe
+ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505097"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625666"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Aðgerðir sölustaðar (POS) með og án nettengingar
 
@@ -159,9 +159,9 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 | 114 | Skilafærsla | Muna fyrri viðskipti út frá kvittunarnúmeri til að skila einhverjum eða öllum vörum. | Já | Já | Já | Já§ | Númer |
 | 1211 | Peningaflutningur í öryggisskáp | Flytja peninga úr afgreiðslukassa í öryggisskáp. | Já | Já | Já | Já | Númer |
 | 516 | Sölureikningur | Þessi aðgerð gerir viðskiptamanni kleift senda greiðslur á valda sölureikninginn. | Já | Já | Númer | Númer | Númer |
-| 502 | Sölumaður | Þessi aðgerð leyfir notandanum að stilla **Sölutaki** gildið á sölupöntun fyrir pantanir viðskiptavina í POS. | Já | Já | Númer | Já\* | Númer |
-| 2000 | Áætla stjórnun | Þessi aðgerð gerir notanda kleift að stofna, breyta eða skoða starfsmannaskemu. | Já | Já | Já | Númer | Númer |
-| 2001 | Áætla beiðnir | Þessi aðgerð leyfir notandanum að biðja um frí, skipta um vaktir eða bjóða öðrum starfsmönnum vaktir. | Já | Já | Já | Númer | Númer |
+| 502 | Sölumaður | Þessi aðgerð leyfir notandanum að stilla **Sölutaki** gildið á sölupöntun fyrir pantanir viðskiptavina í POS. | Já | Já | Nei | Já\* | Nei |
+| 2000 | Áætla stjórnun | Þessi aðgerð er ekki enn studd. | Já | Já | Já | Nei | Nei |
+| 2001 | Áætla beiðnir | Þessi aðgerð er ekki enn studd. | Já | Já | Já | Nei | Nei |
 | 622 | Leit | Þessi aðgerð gerir notendum kleift að forsamskipa POS hnappa til að framkvæma leitir út frá hlut, viðskiptavini eða flokki. | Já | Já | Já | Já | Númer |
 | 1213 | Finna sendingaraðsetur | Þessi aðgerð er ekki studd. | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Ekki tiltækt | Númer |
 | 709 | Velja vélbúnaðarstöð | Þessi aðgerð gerir notandanum kleift að velja vélbúnaðarstöð á lista yfir tiltæka vélbúnaðarstöðvar. | Já | Já | Já | Já | Númer |
