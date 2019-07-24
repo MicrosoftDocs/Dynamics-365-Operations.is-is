@@ -3,7 +3,7 @@ title: Skulda- og innheimtuumsjón Power BI efni
 description: Þetta efnisatriði lýsir því hvað er innifalið í skulda- og innheimtuumsjón Power BI efnis. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5f6b1c9338670a2f2f26ecbef1d349171457e1ac
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547233"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702773"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Skulda- og innheimtuumsjón Power BI efni
 
@@ -42,7 +42,17 @@ Allar upphæðir eru sýndar í gjaldmiðli kerfisins. Hægt er að stilla gjald
 
 Sjálfgefið er að skulda- og innheimtugögn fyrir núverandi fyrirtæki séu sýnd. Til að skoða gögnin í öllum fyrirtækjum, úthlutaðu skyldunni **CustCollectionsBICrossCompany** á hlutverkið.
 
+## <a name="setup-needed-to-view-power-bi-content"></a>Uppsetningu þarf til að skoða efni Power BI
+
+Eftirfarandi uppsetningu þarf að vera lokið svo að gögn birtist í myndefni **Skuldir og innheimta viðskiptavinar** Power BI.
+
+1. Farðu í **Kerfisstjórnun > Uppsetning > Kerfisfæribreytur** til að stilla **Kerfisgjaldmiðil** og **Kerfisgengi**.
+2. Farðu í **Fjárhag> Uppsetning> Fjárhag** og stilltu **Bókhaldsgjaldmiðil** og **Gerð gengis**.
+3. Skilgreindu gengi á milli færslugjaldmiðla og bókhaldsgjaldmiðils, bókhaldsgjaldmiðils og kerfisgjaldmiðils. Til að gera þetta skaltu fara í **Fjárhag> Gjaldmiðla> Gengi gjaldmiðla**.
+4. Farðu í **Kerfisstjórnun > Uppsetning > Einingaverslun** til að endurnýja uppsafnaða mælingu **CustCollectionsBIMeasurements**.
+
 ## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
+
 **Skulda- og innheimtustjórnun** Power BI efni er sýnt í vinnusvæðinu **Skuldir og innheimta viðskiptavinar**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðar með í Power BI efni
@@ -63,28 +73,3 @@ Sjálfgefið er að skulda- og innheimtugögn fyrir núverandi fyrirtæki séu s
 | Innheimtubréf         | <ul><li>Upphæðir innheimtukóða</li><li>Upplýsingar um upphæðir innheimtukóða</li><li>Upphæðir innheimtubréfa á hvert fyrirtæki</li><li>Upphæðir innheimtubréfa á hvern viðskiptavinaflokk</li><li>Upphæðir innheimtubréfa eftir svæðum</li></ul> |
 
 Hægt er að sía og festa Gröf og reitir á þessar skýrslur við mælaborð. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Einnig má nota virknina til að Flytja út undirliggjandi gögn til að flytja út undirliggjandi gögn sem eru sýnd í myndrænni samantekt.
-
-## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
-
-Eftirfarandi gögn eru notuð til að fylla út skýrsluna í **Skulda- og innheimtuumsjón** Power BI efni. Þessi gögn eru birt sem uppsafnaðar mælingar sem stigbundnar eru í einingaversluninni. Einingaverslunin er Microsoft SQL Server gagnagrunnur sem er fínstillt fyrir greiningar. Frekari upplýsingar eru í [Yfirlit yfir samþættingu Power BI við einingaverslun](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
-
-
-|                   Eining                    |      Lykiluppsafnaðar mælingar      |             Uppruni gagna              |                           Svæði                            |                                    lýsing                                     |
-|---------------------------------------------|--------------------------------------|--------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------|
-| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities AveragecClosedTime  |            smmActivities             | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) |     Talning lokaðra aðgerða og meðaltími til stefnu til lokunar þeirra aðgerða.     |
-|       CustCollectionsBIActivitiesOpen       |            ActivityNumber            |            smmActivities             |                   Count(ActivityNumber)                    |                           Talning á opnum aðgerðum.                            |
-|        CustCollectionsBIAgedBalances        |             AgedBalances             |  CustCollectionsBIAgedBalancesView   |                 Sum(SystemCurrencyBalance)                 |                             Samtala á aldursgreindum stöðum.                              |
-|        CustCollectionsBIBalancesDue         |         SystemCurrencyAmount         |   CustCollectionsBIBalanceDueView    |                 Sum(SystemCurrencyAmount)                  |                           Upphæðir sem eru komnir fram yfir gjalddaga.                            |
-|    CustCollectionsBICaseAverageCloseTIme    |  NumOfCases, CaseAverageClosedTime   |      CustCollectionsCaseDetail       | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) |        Talning lokaðra tilvika og meðaltími til stefnu til lokunar þeirra tilvika.        |
-|         CustCollectionsBICasesOpen          |                CaseId                |      CustCollectionsCaseDetail       |                       Count(CaseId)                        |                              Talning á opnum tilvikum.                              |
-|      CustCollectionsBICollectionLetter      |         CollectionLetterNum          |       CustCollectionLetterJour       |                 Count(CollectionLetterNum)                 |                       Talning á opnum innheimtubréfum.                        |
-|   CustCollectionsBICollectionLetterAmount   |       CollectionLetterAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                     Staða bókaða innheimtubréfa.                      |
-|      CustCollectionsBICollectionStatus      |       CollectionStatusAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                Staða færslna með innheimtustöðu.                 |
-|           CustCollectionsBICredit           | CreditExposed AmountOverCreditLimit |     CustCollectionsBICreditView      |       Sum(CreditExposed), Sum(AmountOverCreditLimit)       | Samtala á váhrifum lánamarka og upphæðum þar sem viðskiptavinir eru yfir lánamörkum sínum. |
-|         CustCollectionsBICustOnHold         |               Læst                |      CustCollectionsBICustTable      |                       Count(Blocked)                       |                     Fjöldi viðskiptavina á bið.                      |
-|            CustCollectionsBIDSO             |                DSO30                 |       CustCollectionsBIDSOView       |                  AverageOfChildren(DSO30)                  |                        Útistandandi sala fyrir 30 daga.                         |
-|      CustCollectionsBIExpectedPayment       |           ExpectedPayment            | CustCollectionsBIExpectedPaymentView |                 Sum(SystemCurrencyAmounts)                 |                 Samtala væntanlegra greiðslna innan næsta árs.                 |
-|        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                Fjöldi stofnaðra vaxtanóta.                |
-|        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 Fjöldi heildarsölupantana sem eru á bið.                 |
-|          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                Samtala færslna sem hafa verið afskrifaðar.                 |
-

@@ -3,7 +3,7 @@ title: Vinnusvæði greiðslna lánardrottna
 description: Þetta efnisatriði veitir upplýsingar um lánardrottnagreiðslu á fartækjavinnusvæði. Vinnusvæði greiðslur Lánardrottins sýnir upplýsingar sem tengjast vinnslu greiðslur til lánardrottna.
 author: abruer
 manager: AnnBe
-ms.date: 05/09/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 789acd3f403e322ec00388ca8184ccd30c3ea436
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6f5ffe65b2f9be7423f1fe420594c936e15550fb
+ms.sourcegitcommit: 6f0e5bf82a5f61bab52c3cf4c82849fae5c5d50b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1509223"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702936"
 ---
 # <a name="vendor-payments-workspace"></a>Vinnusvæði greiðslna lánardrottna
 
 [!include [banner](../includes/banner.md)]
 
 Vinnusvæði **Greiðslur Lánardrottins** sýnir upplýsingar sem tengjast vinnslu greiðslur til lánardrottna. Í þessu vinnusvæði er yfirlitið **Mín vinna** og síðan **Greiningar**. Í **Mínar vinnu** skoða sýnir samantekt tiles hnitanet færslu lánardrottins og tengdar lánardrottnaupplýsingum. Síðan **Greiningar** notar getu Microsoft Power BI til að sýna myndefni sem tengjast stöðum greiðslum lánardrottna.
+
+## <a name="setup-needed-to-view-power-bi-content"></a>Uppsetningu þarf til að skoða efni Power BI
+
+Eftirfarandi uppsetningu þarf að vera lokið svo að gögn birtist í myndefni **Greiðslur lánardrottna** Power BI.
+1. Farðu í **Kerfisstjórnun > Uppsetning > Kerfisfæribreytur** til að stilla **Kerfisgjaldmiðil** og **Kerfisgengi**.
+2. Farðu í **Fjárhag> Uppsetning> Fjárhagur** til að stilla **Bókhaldsgjaldmiðil** og **Gerð gengis**. 
+2. Skilgreindu gengi á milli færslugjaldmiðla og bókhaldsgjaldmiðils, bókhaldsgjaldmiðils og kerfisgjaldmiðils. Til að gera þetta skaltu fara í **Fjárhag> Gjaldmiðla> Gengi gjaldmiðla**.
+3. Farðu í **Kerfisstjórnun > Uppsetning > Einingaverslun** til að endurnýja uppsafnaða mælingu **VendPaymentBIMeasure**. 
 
 ## <a name="my-work-view"></a>Skoða Mína vinnu
 

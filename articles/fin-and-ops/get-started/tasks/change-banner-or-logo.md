@@ -3,7 +3,7 @@ title: Breyta borða eða kennimerki
 description: Eftirfarandi ferli er listi yfir skref sem kerfisstjórum má nota til að uppfæra borða eða merki fyrirtækis sem er birt fyrir lögaðila.
 author: aneesmsft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed0a4e31e840f771f1620b42518ed0e03dbad151
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 78300008ac819f8ba82212f7aecaa73246ab774d
+ms.sourcegitcommit: 33e98f89294086334fe9c0a350abb6a52ef9dacb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561785"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711155"
 ---
 # <a name="change-the-banner-or-logo"></a>Breyta borða eða kennimerki
 
@@ -29,16 +29,14 @@ ms.locfileid: "1561785"
 
 Eftirfarandi ferli er listi yfir skref sem kerfisstjórum má nota til að uppfæra borða eða merki fyrirtækis sem er birt fyrir lögaðila. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
-1. Fara í Fyrirtækisstjórnun > Fyrirtæki > Lögaðilar.
+1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Fyrirtækisstjórnun > Fyrirtæki > Lögaðilar**.
 2. Velja lögaðilann sem á að uppfæra borða eða merki fyrirtækis af listanum vinstra megin. Ef hann er þegar valinn fara í næsta skref.
-3. Stækka Myndir hluti. Ef það er þegar útvíkkaður, að fara í næsta skref.
-4. Smella á Breyta.
-5. Í fyrirtækismynd yfirlits svæðinu, veljið ‚borði'.
-6. Smellt er á breyta.
-    * Ábending: Upplausn tilvalið fyrir borðamynd er 1920 x 281 dílar. Breidd tilvalið fyrir mynd með fyrirtækismerki er 350 dílar.  
-    * Þegar upphali er lokið, ættu að birtast við nýja borða eða mynd með fyrirtækismerki í hlutanum Mynd yfirlits.  
-7. Smellið á „Vista“.
-8. Fara í Almenn > Almenn > Sjálfgefið yfirlit.
-    * Ný borði eða merki fyrirtækis ættu að birtast á á yfirliti.  
-    * Hugsanlega þarf að breyta fyrirtækinu, og nota fyrirtækjaval, á það sem borða var hlaðið upp fyrir.  
-
+3. Stækkaðu flipann **Mælaborðsmynd**.
+4. Veldu **Breyta**.
+    
+    Tilvalin upplausn fyrir borðamynd er 1920 x 281 dílar. Breidd tilvalið fyrir mynd með fyrirtækismerki er 350 dílar.
+    
+5. Veljið **Vista**.
+6. Farðu í **Skoðunarrúðu > Kerfiseiningar > Almennt > Almennt > Sjálfgefið mælaborð**. Ný borði eða merki fyrirtækis ættu að birtast á á yfirliti.  
+    
+    Hugsanlega þarf að breyta fyrirtækinu, og nota fyrirtækjaval, á það sem borða var hlaðið upp fyrir.  

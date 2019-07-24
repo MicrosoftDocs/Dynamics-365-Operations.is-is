@@ -3,7 +3,7 @@ title: Rekja framkvæmd á sniði rafrænnar skýrslugerðar til að úrræðale
 description: Þetta efnisatriði veitir upplýsingar um hvernig á að nota eiginleika fyrir rakningu afkasta í rafrænni skýrslugerð til að úrræðaleita vandamál er varða afköst.
 author: NickSelin
 manager: AnnBe
-ms.date: 05/08/2019
+ms.date: 06/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: aa71db2752889bc905c22bab1cf2fa46d7ee07c7
-ms.sourcegitcommit: 67d00b95952faf0db580d341249d4e50be59119c
+ms.openlocfilehash: 55f3fd95a87bcf62824021ebfbf3bcd11af6013f
+ms.sourcegitcommit: f6581bab16225a027f4fbfad25fdef45bd286489
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1576547"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "1703876"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Rekja framkvæmd á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum
 
@@ -346,3 +346,29 @@ Ef þú notar eina af þessum útgáfum af Finance and Operations geturðu grein
 Endurtakið skrefin í hlutanum [Keyra snið rafrænnar skýrslugerðar](#run-format) fyrr í þessu efnisatriði til að búa til nýja afkastarakningu.
 
 Athugið að netvafrinn býður upp á zip-skrá fyrir niðurhal. Þessi skrá inniheldur afkastarakningu á PerfView-sniði. Síðan er hægt að nota greiningarverkfæri fyrir verkfæri PerfView-afkastagreiningar til að greina upplýsingarnar fyrir framkvæmd á sniði rafrænnar skýrslugerðar.
+
+![Rekja upplýsingar fyrir framkvæmt ER-snið í PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+
+## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Notaðu ytri verkfæri til að endurskoða framkvæmdarspor sem inniheldur gagnagrunnsfyrirspurnir
+
+Vegna úrbóta sem hafa verið gerðar á ER-ramma býður afkastarakningin sem myndast á PerfView-sniði fleiri upplýsingar um framkvæmd ER-sniðs. Í Microsoft Dynamics 365 for Finance and Operations útgáfu 10.0.4 (júlí 2019) getur þessi rakning einnig innihaldið upplýsingar um framkvæmdar SQL-fyrirspurnir í forritsgagnagrunninum.
+
+### <a name="configure-user-parameters"></a>Skilgreina færibreytur notanda
+
+1. Í Finance and Operations skal opna **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
+2. Á síðunni **Skilgreiningar**, í aðgerðarúðunni, í flipanum **Skilgreiningar**, í flokknum **Ítarlegar stillingar**, skal velja **Færibreytur notanda**.
+3. Í svarglugganum **Færibreytur notanda**, í hlutanum **Rakning keyrslu**, skal stilla þessar færibreytur:
+
+    - Í reitnum **Snið framkvæmdarakningar** velurðu **PerfView XML**.
+    - Stilltu valkostinn **Safna saman tölfræði um fyrirspurnir** á **Já**.
+    - Stillið valkostinn **Rekja fyrirspurn** á **Já**.
+
+    ![Nota svarglugga færibreyta í Finance and Operations](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+
+### <a name="run-the-er-format"></a>Keyra snið rafrænnar skýrslugerðar
+
+Endurtakið skrefin í hlutanum [Keyra snið rafrænnar skýrslugerðar](#run-format) fyrr í þessu efnisatriði til að búa til nýja afkastarakningu.
+
+Athugið að netvafrinn býður upp á zip-skrá fyrir niðurhal. Þessi skrá inniheldur afkastarakningu á PerfView-sniði. Síðan er hægt að nota greiningarverkfæri fyrir verkfæri PerfView-afkastagreiningar til að greina upplýsingarnar fyrir framkvæmd á sniði rafrænnar skýrslugerðar. Þessi rakning inniheldur núna upplýsingar um SQL-gagnagrunnsaðgang við framkvæmd ER-sniðsins.
+
+![Rekja upplýsingar fyrir framkvæmt ER-snið í PerfView](./media/GER-PerfTrace2-PerfViewTrace2.PNG)

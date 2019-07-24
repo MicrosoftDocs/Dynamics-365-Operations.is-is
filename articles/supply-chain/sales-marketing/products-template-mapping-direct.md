@@ -3,7 +3,7 @@ title: Samstilla afurðir beint úr Finance and Operations við afurðir í Sale
 description: Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla vörur úr Microsoft Dynamics 365 for Finance and Operations við Microsoft Dynamics 365 for Sales.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/25/2018
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: feb9fbc066162e2caa9fc5dbaeec2c063ae23060
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ff284585a2eb4c5cf55d2e3a3e0f317d1fb218bb
+ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572605"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624336"
 ---
 # <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>Samstilla afurðir beint úr Finance and Operations við afurðir í Sales
 
@@ -43,7 +43,7 @@ Prospect to lausnin notar gagnasamþættingu til að samstilla gögn yfir Financ
 
 ## <a name="templates-and-tasks"></a>Sniðmát og verkefni
 
-Til að opna fyrirliggjandi sniðmát skaltu opna [PowerApps Admin Center](https://preview.admin.powerapps.com/dataintegration). Veldu **Verk** og svo, í efra hægra horninu, velurðu **Nýtt verk** til að velja opin sniðmát.
+Til að opna fyrirliggjandi sniðmát skaltu opna [PowerApps Admin Center](https://admin.powerapps.com/dataintegration). Veldu **Verk** og svo, í efra hægra horninu, velurðu **Nýtt verk** til að velja opin sniðmát.
 
 Eftirfarandi sniðmát og undirliggjandi verk eru notuð til að samstilla vörur úr Sales við Finance and Operations
 

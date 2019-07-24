@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a9fa49d0b3553ae70547aeea19d14bc6e6e08983
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: eda7744a6365b4c3a884342a429c2340e5a13d66
+ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577930"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624813"
 ---
 # <a name="retail-peripherals"></a>Retail-jaðarbúnaður
 
@@ -156,13 +156,13 @@ Tækjagerð **Windows** er aðeins notuð fyrir prentara. Þegar Windows-prentar
 
 ### <a name="network"></a>Net
 
-Hægt er að nota netslóðartengdar peningaskúffur, kvittanaprentara og afgreiðslustöðvar á neti, annaðhvort beint í gegnum vélbúnaðarstöð Interprocess Communications (IPC) sem er innbyggð í forritið Modern POS fyrir Windows eða í gegnum vélbúnaðarstöðina IIS fyrir aðra biðlarar Modern POS.
+Hægt er að nota netslóðartengdar peningaskúffur, kvittanaprentara og afgreiðslustöðvar á neti, annaðhvort beint í gegnum vélbúnaðarstöð Interprocess Communications (IPC) sem er innbyggð í forritin Modern POS fyrir Windows og Modern POS fyrir Android eða í gegnum vélbúnaðarstöðina IIS fyrir aðra biðlara Modern POS.
 
 ## <a name="hardware-station-deployment-options"></a>Notkunarvalkostir vélbúnaðarstöðvar
 
 ### <a name="ipc-built-in"></a>IPC (innbyggt)
 
-Vélbúnaðarstöð smásölu Interprocess Communications (IPC) er innbyggð í Modern POS fyrir Windows. Til að nota vélbúnaðarstöð IPC skal úthluta vélbúnaðarreglu á afgreiðslukassa sem á að nota forritið Modern POS fyrir Windows. Síðan er stofnuð vélbúnaðarstöð af gerðinni **Sérhæfð** fyrir verslunina sem afgreiðslukassinn verður notað. Þegar Modern POS er ræst verður IPC-vélbúnaðarstöðin virk og POS-jaðartæki sem hafa verið skilgreindar verða tilbúin til notkunar. Ef þess er tímabundið ekki krafist staðbundna vélbúnaður af einhverri ástæðu, skal nota aðgerðina **Stjórna vélbúnaðarstöðvar** til að slökkva á getu vélbúnaðarstöðvar. Einnig er hægt að nota Modern POS IPC vélbúnaðarstöð smásölu til að hafa samskipti beint við net jaðartækja.
+Vélbúnaðarstöð smásölu Interprocess Communications (IPC) er innbyggð í forritin Modern POS fyrir Windows og Modern POS fyrir Android. Til að nota vélbúnaðarstöð IPC skal úthluta vélbúnaðarreglu á afgreiðslukassa sem á að nota forritið Modern POS fyrir Windows. Síðan er stofnuð vélbúnaðarstöð af gerðinni **Sérhæfð** fyrir verslunina sem afgreiðslukassinn verður notað. Þegar Modern POS er ræst verður IPC-vélbúnaðarstöðin virk og POS-jaðartæki sem hafa verið skilgreindar verða tilbúin til notkunar. Ef þess er tímabundið ekki krafist staðbundna vélbúnaður af einhverri ástæðu, skal nota aðgerðina **Stjórna vélbúnaðarstöðvar** til að slökkva á getu vélbúnaðarstöðvar. Einnig er hægt að nota Modern POS IPC vélbúnaðarstöð smásölu til að hafa samskipti beint við net jaðartækja.
 
 ### <a name="iis"></a>IIS
 
@@ -180,7 +180,7 @@ Samnýttar vélbúnaðarstöðvar eru ætlaðar til notkunar af mörgum POS-tæk
 - **Kvittanaprentarann** – Ef tvær prentskipanir kvittunar eru sendar samtímis til vélbúnaðarstöðvar smásölu kann önnur skipunina að glatast, en það fer eftir tæki. Sumar tæki eru með innri minni eða keyrslutíma sem getur komið í veg fyrir þetta vandamál. Ef prentskipun er ekki stofnaður, fær gjaldkeri villuboð og getur reynt að prenta skipunina aftur úr POS.
 - **Afgreiðslustöð** – Ef gjaldkerinn reynir að hefja færslu á afgreiðslustöð sem er þegar í notkun, tilkynna skilaboð honum að afgreiðslustöðin sé í notkun og biður gjaldkerann að reyna aftur síðar. Yfirleitt geta gjaldkerar séð að afgreiðslustöð er þegar í notkun og munu bíða þar til að annarri færsla er lokið áður en þeir reyna að hefja greiðslu aftur.
 
-Villuleit er áætlað fyrir framtíðarútgáfu sem kannar hvort óstudd tæki eru settir upp fyrir vélbúnaðarregluna sem er varpað á samnýtt vélbúnaðarstöð. Ef einhver óstudd tæki finnast fær notandi skilaboð sem tilgreina að tækin eru ekki studd fyrir samnýttar vélbúnaðarstöðvar. Í tilviki samnýttra vélbúnaðarstöðva ætti að stilla valkostinn **Velja við greiðslumáta** á **Já** á stigi afgreiðslukassa. POS notanda er síðan beðinn um að velja vélbúnaðarstöð þegar  greiðslumáta er valið fyrir færslu í POS. Þegar vélbúnaðarstöð smásölu er aðeins valin við greiðslumáta er vali á vélbúnaðarstöð bætt beint við POS verkflæði fyrir fartækjaaðstæður. Sem viðbótar fríðinda, línuskjá greiðslunnar afgreiðslustöðvar er ekki notað fyrir samnýttar aðstæður. Ef afgreiðslustöðin er notað sem línuskjár, gæti aðrir notendur verið útilokaðir frá notkun á þeirri afgreiðslustöð þar til færslunni er lokið. Í fartækjaaðstæður gæti línum verið bætt við færslu með yfir lengra tímabil. Þess vegna er valkostsins **Velja við greiðslumáta** krafist til að tryggja framboð hagkvæmasta tækis.
+Villuleit er áætlað fyrir framtíðarútgáfu sem kannar hvort óstudd tæki eru settir upp fyrir vélbúnaðarregluna sem er varpað á samnýtt vélbúnaðarstöð. Ef einhver óstudd tæki finnast fær notandi skilaboð sem tilgreina að tækin eru ekki studd fyrir samnýttar vélbúnaðarstöðvar. Í tilviki samnýttra vélbúnaðarstöðva ætti að stilla valkostinn **Velja við greiðslumáta** á **Já** á stigi afgreiðslukassa. POS notanda er síðan beðinn um að velja vélbúnaðarstöð þegar greiðslumáti er valinn fyrir færslu í POS. Þegar vélbúnaðarstöð smásölu er aðeins valin við greiðslumáta er vali á vélbúnaðarstöð bætt beint við POS verkflæði fyrir fartækjaaðstæður. Sem viðbótar fríðinda, línuskjá greiðslunnar afgreiðslustöðvar er ekki notað fyrir samnýttar aðstæður. Ef afgreiðslustöðin er notað sem línuskjár, gæti aðrir notendur verið útilokaðir frá notkun á þeirri afgreiðslustöð þar til færslunni er lokið. Í fartækjaaðstæður gæti línum verið bætt við færslu með yfir lengra tímabil. Þess vegna er valkostsins **Velja við greiðslumáta** krafist til að tryggja framboð hagkvæmasta tækis.
 
 ### <a name="network-peripherals"></a>Net jaðarbúnaðar
 
@@ -190,7 +190,11 @@ Merki net fyrir tæki vélbúnaðarreglunni auðveldar að peningaskúffur, kvit
 
 Hægt er að tilgreina IP-tölur fyrir netjaðarbúnað á tveimur stöðum. Ef Modern POS Windows-biðlari notar eina samstæðu af netjaðartækja ætti að setja upp IP-tölur fyrir þau tæki með því að nota valkostinn **Grunnstilling IP-tölu** í Aðgerðarúðunni fyrir sjálfan afgreiðslukassann. Í tilviki nettækja sem verða samnýtt milli afgreiðslukassa er hægt að varpa vélbúnaðarreglu sem hefur nettæki úthlutað beint í samnýtta vélbúnaðarstöð. Til að úthluta IP-tölum, veljið þá vélbúnaðarstöð á síðunni **Smásöluverslanir** og nota síðan valkostinn **Grunnstilling IP-tölu** í hlutanum **Vélbúnaðarstöðvar** til að tilgreina nettæki sem eru úthlutaðar þeirri vélbúnaðarstöð. Fyrir vélbúnaðarstöðvar sem hafa aðeins nettæki, þarf ekki að virkja vélbúnaðarstöð sjálfa. Í þessu tilfelli er vélbúnaðarstöð smásölu aðeins áskilið til að flokka í raun netslóðartengd tæki eftir staðsetningu þeirra í smásöluverslunar.
 
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>Cloud POS, Modern POS for iOS, og Modern POS fyrir Android
+#### <a name="modern-pos-for-android"></a>Modern POS fyrir Android
+
+Frá og með útgáfu 8.1.3. af Dynamics 365 for Retail inniheldur forritið Modern POS fyrir Android innbyggða IPC vélbúnaðarstöð. Þessi vélbúnaðarstöð styður samskipti við netprentara og greiðslutengi. Nánari upplýsingar er að finna í [greininni Hybrid-forrit fyrir Android-skjöl](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
+
+#### <a name="cloud-pos-and-modern-pos-for-ios"></a>Cloud POS og Modern POS fyrir IOS
 
 Rökin sem keyrir efnislega tengda og netléntengd jaðartæki eru geymd í vélbúnaðarstöð smásölu. Þess vegna fyrir alla biðlara POS nema Modern POS fyrir Windows vélbúnaðarstöð við IIS verður að vera virkjuð og virka til að virkja POS til samskipta við jaðartæki, óháð því hvort þau jaðartæki eru efnislega tengdir vélbúnaðarstöð eða sendur hann á neti.
 
@@ -222,9 +226,9 @@ Eftirfarandi tafla sýnir grannfræði og virkjun aðstæður sem eru studdar.
 | Biðlari      | IPC vélbúnaðarstöð | IIS vélbúnaðarstöð |
 |-------------|----------------------|----------------------|
 | Windows-forrit | Já                  | Já                  |
-| Sölustaður í skýi   | Ekkert                   | Já                  |
-| Android     | Ekkert                   | Já                  |
-| iOS         | Ekkert                   | Já                  |
+| Sölustaður í skýi   | Nei                   | Já                  |
+| Android     | Já                  | Já                  |
+| iOS         | Nei                   | Já                  |
 
 ### <a name="network-peripherals"></a>Net jaðarbúnaðar
 
@@ -233,9 +237,9 @@ Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásöl
 | Biðlari      | IPC vélbúnaðarstöð | IIS vélbúnaðarstöð |
 |-------------|----------------------|----------------------|
 | Windows-forrit | Já                  | Já                  |
-| Sölustaður í skýi   | Ekkert                   | Já                  |
-| Android     | Ekkert                   | Já                  |
-| iOS         | Ekkert                   | Já                  |
+| Sölustaður í skýi   | Nei                   | Já                  |
+| Android     | Já                  | Já                  |
+| iOS         | Nei                   | Já                  |
 
 ## <a name="supported-device-types-by-hardware-station-type"></a>Studdar tækjagerðir eftir gerð vélbúnaðarstöðvar
 
@@ -661,14 +665,15 @@ Eftirfarandi jaðartæki voru prófuð með því að nota IPC vélbúnaðarstö
 
 #### <a name="printer"></a>Prentari
 
-| Framleiðandi | Tegund    | Viðmót | Athugasemdir                |
-|--------------|----------|-----------|-------------------------|
-| Epson        | Tm-T88IV | OPOS      |                         |
-| Epson        | TM-T88V  | OPOS      |                         |
-| Star         | TSP650II | OPOS      |                         |
-| Star         | TSP650II | Sérsniðinn    | Tengt gegnum netkerfi   |
-| Star         | mPOP     | OPOS      | Tengt gegnum Bluetooth |
-| HP           | F7M67AA  | OPOS      | Rafhlöðu USB             |
+| Framleiðandi | Tegund      | Viðmót | Athugasemdir                |
+|--------------|------------|-----------|-------------------------|
+| Epson        | Tm-T88IV   | OPOS      |                         |
+| Epson        | TM-T88V    | OPOS      |                         |
+| Epson        | ePOS-prentun | Sérsniðinn    | Tengt gegnum netkerfi   |
+| Star         | TSP650II   | OPOS      |                         |
+| Star         | TSP650II   | Sérsniðinn    | Tengt gegnum netkerfi   |
+| Star         | mPOP       | OPOS      | Tengt gegnum Bluetooth |
+| HP           | F7M67AA    | OPOS      | Rafhlöðu USB             |
 
 #### <a name="bar-code-scanner"></a>Strikamerkjaskanni
 
@@ -688,11 +693,12 @@ Eftirfarandi jaðartæki voru prófuð með því að nota IPC vélbúnaðarstö
 
 #### <a name="payment-terminal"></a>Greiðslustöð
 
-| Framleiðandi | Tegund | Viðmót | Athugasemdir                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Sérsniðinn    | Krefst sérsniðs greiðslutengils                                |
-| Verifone     | MX925 | Sérsniðinn    | Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB |
-| Verifone     | MX915 | Sérsniðinn    | Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB |
+| Framleiðandi | Tegund        | Viðmót | Athugasemdir                                                                       |
+|--------------|--------------|-----------|--------------------------------------------------------------------------------|
+| Equinox      | L5300        | Sérsniðinn    | Krefst sérsniðs greiðslutengils                                |
+| Verifone     | MX925        | Sérsniðinn    | Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB |
+| Verifone     | MX915        | Sérsniðinn    | Krefst sérsniðinn greiðslutengill; tengdar í gegnum netið og USB |
+| Verifone     | Sjá athugasemdir | Adyen     | Adyen-tengið styður öll tæki sem eru skráð [hér](https://www.adyen.com/pos-payments/terminals) |
 
 #### <a name="cash-drawer"></a>Peningaskúffa
 

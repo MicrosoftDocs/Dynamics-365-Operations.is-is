@@ -3,7 +3,7 @@ title: Stofna runuvinnslu
 description: Runuvinnsla er flokkur verka sem er sendur til AOS-tilviksins (hugbúnaðarhlutarþjónstilviks) í sjálfvirka vinnslu.
 author: maertenm
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fbb844ebcf8d4b47b127132a5bf0ea45fa40f747
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d211dcd7cb47df135d395d2a993429746aa35a85
+ms.sourcegitcommit: 6ba4006fb6a67ddd4b1e54e3d62b9d1239b5e5a3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562882"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "1700842"
 ---
 # <a name="create-a-batch-job"></a>Stofna runuvinnslu
 
@@ -31,21 +31,27 @@ Runuvinnsla er flokkur verka sem er sendur til AOS-tilviksins (hugbúnaðarhluta
 
 
 ## <a name="create-the-batch-job"></a>Stofna runuvinnslu
-1. Farið í Kerfisstjórnun > Fyrirspurnir > Runuvinnslur.
-2. Smellið á „Nýtt“.
-3. Færa inn gildi í reitnum starfslýsing.
-4. Færa inn dagsetningu og tíma í reitnum áætluð upphafsdagsetning og -tími.
-5. Smellið á „Vista“.
+1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Kerfisstjórnun > Fyrirspurnir > Runuvinnslur**.
+2. Smellt er á **Nýtt**.
+3. Færðu inn gildi í reitnum **Starfslýsing**.
+4. Í reitinn **Áætluð upphafsdags./-tími** skráirðu dags. og tíma.
+5. Smellt er á **Vista**.
 
 ## <a name="create-a-recurrence"></a>Stofna endurtekningu
-1. Í aðgerðasvæðinu er smellt á runuvinnsla.
-2. Smellið á Endurtekning.
-    * Notið þessa valkosti til að færa inn afmörkun og mynstur fyrir endurtekninguna.  
-3. Smellið á „Í lagi“.
+1. Í aðgerðasvæðinu er smellt á **Runuvinnsla**.
+2. Smelltu á **Endurtekning**. Notið þessa valkosti til að færa inn afmörkun og mynstur fyrir endurtekninguna.  
+3. Smellt er á **OK**.
 
 ## <a name="add-alerts"></a>Bæta við viðvaranir
-1. Í aðgerðasvæðinu er smellt á runuvinnsla.
-2. Smellt er á Viðvörunum.
-    * Tilgreina hvort óskað sé eftir að viðvörunarboðin birtist þegar runuvinnsla lýkur, villa er til staðar eða hætt er við. Tilgreinið síðan ef óskað er eftir að viðvaranir birtist sem sprettigluggar.   
-3. Smellið á „Í lagi“.
+1. Í aðgerðasvæðinu er smellt á **Runuvinnsla**.
+2. Smelltu á **Viðvaranir**. Tilgreina hvort óskað sé eftir að viðvörunarboðin birtist þegar runuvinnsla lýkur, villa er til staðar eða hætt er við. Tilgreinið síðan ef óskað er eftir að viðvaranir birtist sem sprettigluggar.   
+3. Smellt er á **OK**.
 
+## <a name="adjust-batch-job-status"></a>Stilla stöðu runuvinnslu
+1. Farðu í **Kerfisstjórnun > Fyrirspurnir> Runuvinnslur**.
+2. Veldu viðeigandi runuvinnslu.
+3. Í aðgerðasvæðinu smellirðu á **Runuvinnsla > Aðgerðir > Breyta stöðu**.
+4. Veldu viðeigandi stöðu:
+    - **Halda eftir**: Stilla runuvinnsluna sem **halda eftir** svo að henni er haldið eftir í verkraðara runuvinnslu. Jafngildir *stöðva*.
+    - **Bið**: Stilla runuvinnsluna sem **bið** svo að hún bíður þess að verkraðari runuvinnslu taki hana til. Jafngildir *ræsa*.
+5. Smellt er á **OK**.

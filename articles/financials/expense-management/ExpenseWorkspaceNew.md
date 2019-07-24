@@ -3,7 +3,7 @@ title: Kostnaðarskýrslur endurhugsaðar
 description: Þetta efnisatriði veitir upplýsingar um endurhannaða og endurhugsaða upplifun fyrir færslu kostnaðarskýrslu í Microsoft Dynamics 365 for Finance and Operations. Nýja upplifunin einfaldar ferlið við að ljúka kostnaðarskýrslum og dregur úr tímanum sem það tekur.
 author: ryansandness
 manager: AnnBe
-ms.date: 05/20/2019
+ms.date: 06/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: c7a2b95456e812970b135d83f0f7e503310ce185
-ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
+ms.openlocfilehash: 9e87a61bd6dd7bc1c7ef569882daf2074c7cade9
+ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "1592638"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "1631956"
 ---
 # <a name="expense-reports-reimagined"></a>Kostnaðarskýrslur endurhugsaðar
 
 [!include[banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Færsla kostnaðarskýrslu hefur verið endurhönnuð til að einfalda ferlið við að ljúka kostnaðarskýrslum og dregur úr tímanum sem það tekur. Hér eru helstu þættir nýju kostnaðarupplifunar:
 
