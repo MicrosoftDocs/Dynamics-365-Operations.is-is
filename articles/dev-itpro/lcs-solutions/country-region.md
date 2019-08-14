@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9815ee404981719888e4fdf637bd81f1744d7fb
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 2d2fe0b357edf3594aa7d795eb2a15f03a886d79
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517094"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850616"
 ---
 # <a name="globalization"></a>Staðfæring
 
@@ -38,7 +38,7 @@ Ef reglugerðir stjórnvalda í þínu landi krefjast þess að gögn séu geymd
 Microsoft Dynamics 365 for Finance and Operations býður upp á aðgerðir fyrir landið/svæðin sem tilgreind eru í [Handbók um staðfærslu afurða og aðgengi að þýddum útgáfum](https://aka.ms/dynamics_365_international_availability_deck). Þessi virkni er virkjuð á grunni aðalaðseturs virks lögaðila. 
 
 Í þessu efnisatriði er að finna tilfangalista sem getur aðstoðað þig við að gera eftirfarandi: 
-- Fá frekari upplýsingar um lausnir fyrir þróunarland / svæðisbundnar lausnir.
+- Fá frekari upplýsingar um lausnir fyrir þróunarland/svæðisbundnar lausnir.
 - Fá sértækar uppfærslur fyrir land/svæði.
 - Senda inn og yfirfara lögboðnar viðvaranir.
 - Kynna þér hvernig þú notar lands-/svæðisbundna virkni.
@@ -70,7 +70,7 @@ Eftirfarandi tilföng veita upplýsingar um áætlaða og nýja staðfærslueigi
 [Efnið í „Nýjasta nýtt“](../../fin-and-ops/get-started/whats-new-changed.md) birtir lista yfir eiginleika sem eru í tilgreindum útgáfum Finance and Operations.
 
 ### <a name="electronic-reporting"></a>Rafræn skýrslugerð
-Rafræna skýrslugerðarverkfærið býður upp á skilgreiningu sniða fyrir rafræn skjöl í samræmi við lagaskilyrði mismunandi landa/svæða. Með rafrænni skýrslugerð er að hægt að stjórna þessum sniðum á meðan þau eru í notkun. Frekari upplýsingar er að finna í eftirfarandi efnisatriðum:
+Rafræna skýrslugerðarverkfærið býður upp á skilgreiningu sniða fyrir rafræn skjöl í samræmi við lagaskilyrði mismunandi landa/svæða. Með rafrænni skýrslugerð er hægt að stjórna þessum sniðum á meðan þau eru í notkun. Frekari upplýsingar er að finna í eftirfarandi efnisatriðum:
 -   [Yfirlit yfir rafræna skýrslugerð](../analytics/general-electronic-reporting.md)
 -   [Stjórnun líftíma skilgreiningar fyrir rafræna skýrslugerð](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
 -   [Skilgreining fyrir rafræna skýrslugerð búin til](../analytics/electronic-reporting-configuration.md)
