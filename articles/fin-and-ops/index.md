@@ -1,7 +1,7 @@
 ---
 title: Fylgiskjöl Microsoft Dynamics 365 for Finance and Operations
 description: Fylgiskjöl fyrir Microsoft Dynamics 365 for Finance and Operations.
-author: margoc
+author: robinarh
 manager: AnnBe
 ms.date: 04/11/2019
 ms.topic: index-page
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.reviewer: margoc
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4547a0c8d43584e4cb8981e0a055c514c184f6dd
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3f29d8c74c0e7a4384f8e071d0b9babe5c5f630c
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1507590"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856306"
 ---
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Fylgiskjöl Microsoft Dynamics 365 for Finance and Operations
 
@@ -63,7 +63,7 @@ Mikið af þessu efni á einnig við um tengdar vörur: Microsoft Dynamics 365 f
 <p><a href="../dev-itpro/lifecycle-services/pause-service-updates.md">Gera hlé á þjónustuuppfærslum</a></p>
 <p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">Fá tilkynningar um þjónustuuppfærslur</a></p>
 <p><a href="../dev-itpro/data-entities/data-task-automation.md">Sjálfvirk verkgögn</a></p>
-<p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">Regression Suite Automation Tool</a></p>
+<p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">Regression Suite Automation tool</a></p>
 
 <h3><a href="../dev-itpro/data-entities/integration-overview.md">Samþættingar</a></h3>
 <p><a href="../dev-itpro/business-events/home-page.md">Viðskiptatilvik</a></p>
@@ -93,7 +93,7 @@ Mikið af þessu efni á einnig við um tengdar vörur: Microsoft Dynamics 365 f
 </td>
 <td>
 <h3><a href="../supply-chain/index.md">Birgðakeðjustjórnun</a></h3>
-<p><a href="../supply-chain/cost-management/costing-sheets.md">Kostnaðarstýring</a></p>
+<p><a href="../supply-chain/cost-management/costing-sheets.md">Kostnaðarstjórnun</a></p>
 <p><a href="../supply-chain/inventory/inventory-home-page.md">Birgðastjórnun</a></p>
 <p><a href="../supply-chain/master-planning/master-plans.md">Aðaláætlanagerð</a></p>
 <p><a href="../supply-chain/procurement/procurement-sourcing-overview.md">Innkaup og aðföng</a></p>

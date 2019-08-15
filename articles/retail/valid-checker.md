@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 1fc894206f9d90fce1e2eab292ac241e9d943e23
-ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
+ms.openlocfilehash: f94a674e021d4f23480433440cd239b851491d87
+ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617321"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "1790422"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Samræmisprófun smásölufærslna
 
@@ -50,6 +50,7 @@ Með runuvinnslunni **Villuleita í færslum verslunar** er samræmi smásöluf�
 - **Viðskiptamannalykill** – Staðfestir að viðskiptamannalykillinn í smásölufærslutöflunum sé til staðar í HQ-aðalgögnum viðskiptamanns.
 - **Línufjöldi** – Staðfestir að línufjöldi, samkvæmt haustöflu færslna, sé í samræmi við fjölda lína í sölufærslutöflunum.
 - **Verð er með skatti** – Staðfestir að færibreytan **Verð er með skatti** er í samræmi við allar færslulínur.
+- **Greiðsluupphæð** – Staðfestir að greiðslufærsla samsvari greiðsluupphæð í haus.
 - **Brúttóupphæð** – Staðfestir að brúttóupphæð í hausnum er summa nettóupphæða í línunum ásamt skattupphæðinni.
 - **Nettóupphæð** – Staðfestir að nettóupphæð í hausnum er summa nettóupphæða í línunum.
 - **Vangreiðsla/ofgreiðsla** – Staðfestir að mismunur milli brúttóupphæðar í hausnum og greiðsluupphæðar fer ekki umfram skilgreiningu á hámarki fyrir vangreiðslu/ofgreiðslu.
@@ -58,6 +59,7 @@ Með runuvinnslunni **Villuleita í færslum verslunar** er samræmi smásöluf�
 - **Gjafakortsvara** – Retail styður ekki skil á gjafakortsvörum. Hins vegar er hægt að leysa út stöðu á gjafakorti í reiðufé. Gjafakortsvara sem er meðhöndluð sem skilalína í stað línu reiðufjárúttektar kemst ekki í gegnum bókunarferli uppgjörs. Staðfestingarferlið fyrir gjafakortsvörur hjálpar til við að tryggja að skilalínur gjafakortsvara í smásölufærslutöflunum séu eingöngu línur reiðufjárúttektar fyrir gjafakort.
 - **Neikvætt verð** – Staðfestir að engar færslulínur með neikvæðu verði eru til staðar.
 - **Vara og afbrigði** – Staðfestir að vörur og afbrigði í færslulínum eru til staðar í grunnskjali fyrir vöru og afbrigði.
+- **Skattupphæð** – Staðfestir að skattafærsla samsvari skattupphæð í línum. 
 
 ## <a name="set-up-the-consistency-checker"></a>Setja upp samræmisprófun
 

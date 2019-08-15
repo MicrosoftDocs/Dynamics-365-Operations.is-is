@@ -106,10 +106,28 @@
           items:
             - name: Leiðbeiningar um X++ forritunarmálið
               href: dev-ref/xpp-language-reference.md
-            - name: X++ breytur og gagnagerðir
-              href: dev-ref/xpp-variables-data-types.md
-            - name: 'Meðhöndlun X++ setninga, lykkja og frávika'
-              href: dev-ref/xpp-statements-loops.md
+            - name: Breytur og gagnagerðir
+              items:
+                - name: Breytur
+                  href: dev-ref/xpp-variables-data-types.md
+                - name: Frumstæðar gagnagerðir
+                  href: dev-ref/xpp-data-primitive.md
+                - name: Samsettar gagnagerðir
+                  href: dev-ref/xpp-data-composite.md
+                - name: Safnaflokkar
+                  href: dev-ref/xpp-data-collection.md
+                - name: Auknar gagnagerðir
+                  href: dev-ref/xpp-data-edt.md
+            - name: 'Meðhöndlun setninga, lykkja og frávika'
+              items:
+                - name: 'Athugasemdir, notkun og prentun'
+                  href: dev-ref/xpp-statements-loops.md
+                - name: Skilyrtar setningar
+                  href: dev-ref/xpp-conditional.md
+                - name: Lykkjusetningar
+                  href: dev-ref/xpp-loops.md
+                - name: Meðhöndlun undantekninga
+                  href: dev-ref/xpp-exceptions.md
             - name: SQL-tengivilla X++ frávik
               href: dev-ref/sql-connection-error.md
             - name: X++ virkjar
@@ -120,6 +138,8 @@
               href: dev-ref/xpp-classes-methods.md
             - name: X++ gagnaval og beiting
               href: dev-ref/xpp-data-query.md
+            - name: Gagnaaðgangur með SysDa API
+              href: dev-ref/sysda.md
             - name: X++ fjölvar
               href: dev-ref/xpp-macros.md
             - name: X++ eigindaklasar
@@ -436,8 +456,12 @@
           href: user-interface/page-navigation.md
         - name: Útlit síðu í vefbiðlara
           href: user-interface/page-layout.md
-        - name: Leturgerð gagnvirknitákns
+        - name: Leturgerð Dynamics-tákns
           href: user-interface/symbol-font.md
+        - name: Vistuð yfirlit
+          href: ../fin-and-ops/get-started/saved-views.md
+        - name: Búa til skjámyndir sem nýta vistuð yfirlit til fullnustu
+          href: user-interface/understanding-saved-views.md
         - name: Prófa skjámyndir sem nota sérsniðin mynstur
           href: user-interface/testing-forms-custom-patterns.md
         - name: Búa til læstar vefslóðir sem hægt er að deila (djúpir tenglar)
@@ -496,7 +520,7 @@
           href: user-interface/messaging-api-center-bar-details.md
         - name: 'Algengar spurningar um skilaboðamiðstöð, skilaboðastiku og upplýsingar um skilaboð'
           href: user-interface/messaging-user.md
-    - name: Mynsturleiðbeiningar fyrir aðalskjámynd
+    - name: Leiðbeiningar um skjámyndamynstur
       items:
         - name: Skjámyndamynstur fyrir yfirfærðar skjámyndir
           href: user-interface/select-form-pattern.md
@@ -1129,7 +1153,7 @@
           href: migration-upgrade/on-prem-upgrade.md
     - name: Bráðabætur
       items:
-        - name: Sækja bráðabætur frá Lifecycle Services
+        - name: Sækja uppfærslur úr Lifecycle Services
           href: migration-upgrade/download-hotfix-lcs.md
         - name: Nota uppfærslur á skýjaumhverfi
           href: deployment/apply-deployable-package-system.md
@@ -1162,6 +1186,8 @@
       href: sysadmin/pre-configured-system-accounts.md
     - name: Flytja notendur milli fyrirtækja í Azure AD
       href: sysadmin/implement-b2b.md
+    - name: Velja hvenær tími rennur út vegna aðgerðaleysis
+      href: sysadmin/session-idle-timeout.md
     - name: Öryggi byggt á hlutverkum
       href: sysadmin/role-based-security.md
       items:
@@ -1310,6 +1336,8 @@
   items:
     - name: Fá stuðning fyrir Finance and Operations og Lifecycle Services
       href: lifecycle-services/lcs-support.md
+    - name: Yfirlit yfir þjónustu við Dynamics 365
+      href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
     - name: Fá stuðning fyrir Finance and Operations sem er rekið af 21Vianet í Kína
       href: lifecycle-services/21vianet-support.md
     - name: Skrá Premier-þjónustubeiðni

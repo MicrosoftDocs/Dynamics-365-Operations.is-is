@@ -8,6 +8,12 @@
         - name: Nýjungar eða breytingar í Talent
           href: whats-new.md
           items:
+            - name: 23. júlí 2019
+              href: whats-new-talent-july-24-2019.md
+            - name: 16. júlí 2019
+              href: whats-new-talent-july-16-2019.md
+            - name: 9. júlí 2019
+              href: whats-new-talent-july-9-2019.md
             - name: 2. júlí 2019
               href: whats-new-talent-july-2-2019.md
             - name: 25. júní 2019
@@ -102,8 +108,6 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR og Common Data Service
           href: CoreHREntities.md
-        - name: Fá aðgang að eiginleikum í forútgáfu
-          href: access-preview-feature.md
         - name: Fá aðstoð fyrir Talent
           href: talent-support.md
     - name: Mönnun fyrirtækis með Attract
@@ -112,48 +116,68 @@
           href: attract-comprehensive-hiring.md
         - name: Attract eiginleikar og færni
           href: attract-overview.md
-        - name: Algengar spurningar um LinkedIn
-          href: attract-linkedin-faq.md
-        - name: Skilgreina tölvupóststillingar
-          href: attract-configure-email-settings.md
-        - name: Búa til sniðmát fyrir ferli í Attract
-          href: Process-templates-Attract.md
+        - name: Algengar spurningar
+          items:
+            - name: Algengar spurningar um LinkedIn-samþættingu
+              href: attract-linkedin-faq.md
+        - name: Skilgreina kerfisstillingar
+          items:
+            - name: Skilgreina fyrirtækisupplýsingar
+              href: admin-settings-attract.md
+            - name: Stilla notandaheimildir
+              href: security-attract.md
+            - name: Vinna með eiginleika
+              href: access-preview-feature.md
+            - name: Setja upp ferilssíðu
+              href: career-site.md
+            - name: Virkja Broadbean-samþættingu
+              href: attract-admin-job-board-settings.md
+            - name: Skilgreina tölvupóststillingar
+              href: attract-configure-email-settings.md
+            - name: Setja upp LinkedIn-samþættingu
+              href: attract-admin-linkedin.md
+        - name: Stofna ráðningarferli
+          items:
+            - name: Búa til sniðmát fyrir ferli
+              href: process-templates-attract.md
+            - name: Verkþættir í ráðningarferli
+              href: activities-attract.md
+            - name: Sniðmát fyrir tölvupóst
+              href: email-templates.md
+            - name: Nota greiningarskýrslu
+              href: analytic-reports.md
         - name: Búa til og birta störf
-          href: Creating-jobs-Attract.md
-        - name: Setja upp samþættingu með LinkedIn
-          href: attract-admin-linkedin.md
-        - name: Birta störf á LinkedIn úr Attract
-          href: attract-post-jobs-to-linkedin.md
-        - name: Birta störf á Broadbean úr Attract
-          href: posting-jobs-external.md
-        - name: Finna umsækjendur með því að nota hæfileikasöfn
-          href: attract-talent-pools.md
-        - name: Finna umsækjendur með LinkedIn Recruiter
-          href: attract-linkedin-recruiter.md
-        - name: Verkþættir í ráðningarferli
-          href: activities-attract.md
-        - name: Skipulagning viðtala og ábendingar
-          href: interview-scheduling-feedback.md
+          items:
+            - name: Stofna starf
+              href: creating-jobs-attract.md
+            - name: Birta störf á LinkedIn
+              href: attract-post-jobs-to-linkedin.md
+            - name: Birta störf á Broadbean
+              href: posting-jobs-external.md
+            - name: Loka starfi
+              href: attract-close-job.md
+        - name: Finna umsækjendur
+          items:
+            - name: Finna umsækjendur með hæfileikasöfnum
+              href: attract-talent-pools.md
+            - name: Finna umsækjendur með LinkedIn Recruiter
+              href: attract-linkedin-recruiter.md
+            - name: Rekja uppruna umsækjenda
+              href: source-tracking.md
+            - name: Snjallmeðmæli
+              href: Intelligent-Recommendations.md
+        - name: Skipuleggja viðtöl
+          items:
+            - name: Skipulagning viðtala og ábendingar
+              href: interview-scheduling-feedback.md
+        - name: Gera tilboð
+          items:
+            - name: Setja upp stjórnun tilboða
+              href: offer-setup.md
+            - name: 'Búa til, samþykkja og undirrita tilboð'
+              href: creating-offers.md
         - name: Stækkunarhæfni í Attract
           href: extensibility-attract.md
-        - name: Virkni ferilssíðu í Attract
-          href: career-site.md
-        - name: Setja upp stjórnun tilboða
-          href: offer-setup.md
-        - name: 'Búa til, samþykkja og undirrita tilboð'
-          href: creating-offers.md
-        - name: Sniðmát fyrir tölvupóst
-          href: email-templates.md
-        - name: Öryggi og hlutverkastjórnun í Attract
-          href: security-attract.md
-        - name: Stjórnandastillingar í Attract
-          href: Admin-Settings-Attract.md
-        - name: Snjallmeðmæli
-          href: Intelligent-Recommendations.md
-        - name: Fylgjast með stöðum til að finna notendaupplýsingar og umsóknir umsækjenda
-          href: source-tracking.md
-        - name: Nota greiningarskýrslur til að fá innsýn í ráðningarferli
-          href: analytic-reports.md
     - name: Velkomin í nýráðningar með Onboard
       items:
         - name: Hafist handa með Onboard
@@ -186,6 +210,8 @@
               href: set-up-hr-parameters-across-legal-entities.md
             - name: Uppsetning sérstakra mannauðsfæribreyta fyrir fyrirtæki
               href: set-up-company-specific-hr-parameters.md
+            - name: Dagsetninga- og tímareitir í Talent
+              href: date-time-fields-in-talent.md
             - name: Algengar spurningar um aðgerðir starfsfólks
               href: personnel-actions-faq.md
             - name: Gera viðskiptaferli formleg

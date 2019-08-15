@@ -27,6 +27,8 @@
                   href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
                 - name: Finance and Operations rekið af 21Vianet í Kína
                   href: ../dev-itpro/deployment/china-local-deployment.md
+                - name: Finance and Operations í Frakklandi
+                  href: ../dev-itpro/deployment/france-local-deployment.md
             - name: Framboð uppfærslu á þjónustu
               href: get-started/public-preview-releases.md
             - name: Kaupa Finance and Operations
@@ -44,6 +46,8 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum
               href: get-started/features-not-implemented-on-prem.md
+            - name: 'Eiginleikar forútgáfu Finance and Operations, útgáfu 10.0.5 (október 2019)'
+              href: get-started/whats-new-changed-10-0-5.md
             - name: 'Finance and Operations, útgáfa 10.0.4 (júlí 2019)'
               href: get-started/whats-new-changed-10-0-4.md
             - name: 'Finance and Operations, útgáfa 10.0.3 (júní 2019)'
@@ -56,6 +60,8 @@
               href: get-started/whats-new-changed-10.md
             - name: 'Finance and Operations, útgáfa 8.1.3 (janúar 2019)'
               href: get-started/whats-new-changed-8-1-3.md
+            - name: Eiginleikar forútgáfu uppfærslunnar Platform update 29 (október 2019)
+              href: get-started/whats-new-platform-update-29.md
             - name: Platform update 28 (júlí 2019)
               href: get-started/whats-new-platform-update-28.md
             - name: Platform update 27 (júní 2019)
@@ -156,6 +162,8 @@
               href: get-started/navigation-search.md
             - name: Sérsníða notandaupplifun
               href: get-started/personalize-user-experience.md
+            - name: Vistuð yfirlit
+              href: get-started/saved-views.md
             - name: Stofna og vinna með sérstillt svæði
               href: get-started/user-defined-fields.md
             - name: Innfella PowerApps-forrit
@@ -267,14 +275,14 @@
           items:
             - name: Nota viðskiptatilvik með Microsoft Flow
               href: ../dev-itpro/business-events/how-to/how-to-flow.md
-    - name: Reglufylgni
-      items:
-        - name: Reglur endurskoðunarstefnu
-          href: ../financials/general-ledger/audit-policy-rules.md
-        - name: Brot á endurskoðunarstefnu og mál því tengd
-          href: ../financials/general-ledger/audit-policy-violations-cases.md
-        - name: Skilgreina endurskoðunarstefnur fyrir upprunaskjöl
-          href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+            - name: Nota viðskiptatilvik með hnitaneti Azure-tilviks
+              href: ../dev-itpro/business-events/how-to/how-to-eventgrid.md
+            - name: Nota viðskiptatilvik með þjónustutengibraut Azure
+              href: ../dev-itpro/business-events/how-to/how-to-servicebus.md
+            - name: Nota viðskiptatilvik með verkflæðissamþykki
+              href: ../dev-itpro/business-events/how-to/how-to-workflow.md
+            - name: Nota Microsoft Forms Pro með viðskiptatilvikum
+              href: ../dev-itpro/business-events/how-to/FormsPro.md
     - name: Kostnaðarstjórnun
       href: ../supply-chain/cost-management/cost-management-home-page.md
       items:
@@ -419,61 +427,85 @@
                 - name: Búa til skráningar með skráningarsniðmátum
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: Samþætting gagna með Common Data Service
-              href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
               items:
-                - name: Skilgreina PTC-aðstæður
-                  href: ../supply-chain/sales-marketing/prospect-to-cash.md
+                - name: Yfirlit yfir samþættingu gagna
+                  href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
+                - name: 'Samstillt, tvíátta samþætting'
                   items:
-                    - name: Samstilla lykla beint úr Sales við viðskiptavini í Finance and Operations
-                      href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                    - name: Samstilla afurðir beint úr Finance and Operations við afurðir í Sales
-                      href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
-                    - name: Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Finance and Operations
-                      href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                    - name: Samstilla hausa og línur sölutilboðs beint úr Sales við Finance and Operations
-                      href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                    - name: Samstilling sölupantana beint milli Sales og Finance and Operations
-                      href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                    - name: Samstilla hausa og línur sölureiknings beint úr Sales við Finance and Operations
-                      href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                - name: Skilgreina samþættingu við Field Service
-                  href: ../supply-chain/sales-marketing/field-service.md
+                    - name: Samþætting gagna í næstum rauntíma
+                      href: ../dev-itpro/data-entities/dual-write-overview.md?toc=/fin-and-ops/toc.json
+                    - name: Stigveldi fyrirtækis í Common Data Service
+                      href: ../dev-itpro/data-entities/dual-write-organization.md?toc=/fin-and-ops/toc.json
+                    - name: Fyrirtækishugtak í Common Data Service
+                      href: ../dev-itpro/data-entities/dual-write-company.md?toc=/fin-and-ops/toc.json
+                    - name: Samþættur aðalviðskiptavinur
+                      href: ../dev-itpro/data-entities/dual-write-customer.md?toc=/fin-and-ops/toc.json
+                    - name: Samþættur aðallánardrottinn
+                      href: ../dev-itpro/data-entities/dual-write-vendor.md?toc=/fin-and-ops/toc.json
+                    - name: Upphafleg samstilling
+                      href: ../dev-itpro/data-entities/dual-write-initial.md?toc=/fin-and-ops/toc.json
+                    - name: Úrræðaleit gagnasamþættingar
+                      href: ../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/fin-and-ops/toc.json
+                - name: 'Ósamstillt, einátta samþætting'
                   items:
-                    - name: Samstilla afurðir úr Finance and Operations við afurðir í Field Service
-                      href: ../supply-chain/sales-marketing/field-service-product.md
-                    - name: Samstilla vinnupantanir úr Field Service við sölupantanir í Finance and Operations
-                      href: ../supply-chain/sales-marketing/field-service-work-order.md
-                    - name: Samstilla reikningssamkomulag í Field Service við reikninga með frjálsum texta í Finance and Operations
-                      href: ../supply-chain/sales-marketing/field-service-invoice.md
-                    - name: Samstilla birgðaflutninga og leiðréttingar úr Field Service við Finance and Operations
-                      href: ../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                    - name: Samstilla upplýsingar um birgðastöðu úr Finance and Operations við Field Service
-                      href: ../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                    - name: Samstilla afurðir með birgðaeiningu úr Finance and Operations við Field Service
-                      href: ../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                    - name: Samstilla verklista úr Finance and Operations við Field Service
-                      href: ../supply-chain/sales-marketing/synchronize-project-list.md
-                    - name: Samstilla vöruhús úr Finance and Operations við Field Service
-                      href: ../supply-chain/sales-marketing/synchronize-warehouse.md
-                    - name: Samstilla vinnupantanir við verk úr Field Service í Finance and Operations
-                      href: ../supply-chain/sales-marketing/synchronize-work-orders.md
-                - name: Skilgreina samþættingu Project Service Automation
-                  href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
-                  items:
-                    - name: Færibreytur samþættingar Project Service Automation
-                      href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
-                    - name: Samstilla verksamninga og verk
-                      href: ../financials/project-management/project-contracts-templates.md?toc=/fin-and-ops/toc.json
-                    - name: Samstilla verk verkefnis
-                      href: ../financials/project-management/project-tasks-template.md?toc=/fin-and-ops/toc.json
-                    - name: Samstilla flokka verkkostnaðar
-                      href: ../financials/project-management/project-categories-templates.md?toc=/fin-and-ops/toc.json
-                    - name: Samstilla verkáætlun og verkspár
-                      href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
-                    - name: Samstilla rauntölur verks og færslubók verksamþættingar
-                      href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
+                    - name: Viðfang til sjóðstreymis
+                      items:
+                        - name: Skilgreina PTC-aðstæður
+                          href: ../supply-chain/sales-marketing/prospect-to-cash.md
+                        - name: Samstilla lykla beint úr Sales við viðskiptavini í Finance and Operations
+                          href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                        - name: Samstilla afurðir beint úr Finance and Operations við afurðir í Sales
+                          href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
+                        - name: Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Finance and Operations
+                          href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                        - name: Samstilla hausa og línur sölutilboðs beint úr Sales við Finance and Operations
+                          href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                        - name: Samstilling sölupantana beint milli Sales og Finance and Operations
+                          href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                        - name: Samstilla hausa og línur sölureiknings beint úr Sales við Finance and Operations
+                          href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                    - name: Field Service
+                      items:
+                        - name: Skilgreina samþættingu við Field Service
+                          href: ../supply-chain/sales-marketing/field-service.md
+                        - name: Samstilla afurðir úr Finance and Operations við afurðir í Field Service
+                          href: ../supply-chain/sales-marketing/field-service-product.md
+                        - name: Samstilla vinnupantanir úr Field Service við sölupantanir í Finance and Operations
+                          href: ../supply-chain/sales-marketing/field-service-work-order.md
+                        - name: Samstilla reikningssamkomulag í Field Service við reikninga með frjálsum texta í Finance and Operations
+                          href: ../supply-chain/sales-marketing/field-service-invoice.md
+                        - name: Samstilla birgðaflutninga og leiðréttingar úr Field Service við Finance and Operations
+                          href: ../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                        - name: Samstilla upplýsingar um birgðastöðu úr Finance and Operations við Field Service
+                          href: ../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                        - name: Samstilla afurðir með birgðaeiningu úr Finance and Operations við Field Service
+                          href: ../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                        - name: Samstilla verklista úr Finance and Operations við Field Service
+                          href: ../supply-chain/sales-marketing/synchronize-project-list.md
+                        - name: Samstilla vöruhús úr Finance and Operations við Field Service
+                          href: ../supply-chain/sales-marketing/synchronize-warehouse.md
+                        - name: Samstilla vinnupantanir við verk úr Field Service í Finance and Operations
+                          href: ../supply-chain/sales-marketing/synchronize-work-orders.md
+                    - name: Project Service Automation
+                      items:
+                        - name: Skilgreina samþættingu Project Service Automation
+                          href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
+                        - name: Færibreytur samþættingar Project Service Automation
+                          href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
+                        - name: Samstilla verksamninga og verk
+                          href: ../financials/project-management/project-contracts-templates.md?toc=/fin-and-ops/toc.json
+                        - name: Samstilla verk verkefnis
+                          href: ../financials/project-management/project-tasks-template.md?toc=/fin-and-ops/toc.json
+                        - name: Samstilla flokka verkkostnaðar
+                          href: ../financials/project-management/project-categories-templates.md?toc=/fin-and-ops/toc.json
+                        - name: Samstilla verkáætlun og verkspár
+                          href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
+                        - name: Samstilla rauntölur verks og færslubók verksamþættingar
+                          href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
         - name: Notkun ytri vefþjónustu
           href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
+        - name: Rafræn skilaboð
+          href: ../financials/general-ledger/electronic-messaging.md
     - name: Gagnastjórnun
       href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
@@ -666,9 +698,11 @@
               href: ../financials/accounts-receivable/set-up-collections.md
             - name: Fara yfir innheimtuupplýsingar
               href: ../financials/accounts-receivable/tasks/review-collections-information.md
+            - name: Yfirlit tekjuskráningar
+              href: ../financials/accounts-receivable/revenue-recognition-overview.md
             - name: Uppsetning og vinnsla endurtekinna reikninga
               href: ../financials/accounts-receivable/set-up-process-recurring-invoices.md
-            - name: Dreifing á fjárhagsupphæð og færslur í undirbók fyrir reikninga með frjálsum texta
+            - name: Dreifing á fjárhagsupphæð og færslur í færslubók undirfjárhags fyrir reikninga með frjálsum texta
               href: ../financials/accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: Bókunarreglur viðskiptavina
               href: ../financials/accounts-receivable/customer-posting-profiles.md
@@ -1068,167 +1102,7 @@
         - name: Fjárhagur
           href: ../financials/general-ledger/general-ledger.md
           items:
-            - name: Lyklar
-              items:
-                - name: Yfirlit yfir uppsafnanir
-                  href: ../financials/general-ledger/accruals-overview.md
-                - name: Niðurfellingarreglur
-                  href: ../financials/general-ledger/elimination-rules.md
-                - name: Lykla- og víddasamsetningar
-                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
-                - name: Jafnaðar færslubækur fyrir millieiningabókhald
-                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
-                - name: Bókunarskilgreiningar
-                  href: ../financials/general-ledger/posting-definitions.md
-                - name: Dæmi um bókunarskilgreiningar
-                  href: ../financials/general-ledger/example-posting-definitions.md
-                - name: Fjárhagslykilstöður
-                  href: ../financials/general-ledger/general-ledger-account-balances.md
-                - name: Skilgreina fjárhagsvíddir
-                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
-                - name: Viðhalda sjálfgefnum sniðmátum fjárhagsvídda
-                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
-                - name: Stofna lykilskipulög
-                  href: ../financials/general-ledger/tasks/create-account-structures.md
-                - name: Fjárhagsvíddir og bókun
-                  href: ../financials/general-ledger/default-dimensions.md
-                - name: Stofna uppsöfnunarskemu
-                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
-                - name: Fjárhagssamstæða og umreikningur gjaldmiðils
-                  href: ../financials/general-ledger/financial-consolidations-currency-translation.md
-                  items:
-                    - name: Sameina á netinu
-                      href: ../financials/general-ledger/consolidate-online.md
-                    - name: Búa til samstæðureikningsskil
-                      href: ../financials/general-ledger/generating-consolidated-financial-statements.md
-                - name: Stofna samstæðuhópa og annan samstæðulykil
-                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
-                - name: Aðallykilgerðir
-                  href: ../financials/general-ledger/main-account-types.md
-                - name: Stofna aðallykil
-                  href: ../financials/general-ledger/tasks/create-main-account.md
-                - name: Yfirlit yfir bókhaldslykil
-                  href: ../financials/general-ledger/plan-chart-of-accounts.md
-                - name: Gera upp færslur á milli fjárhagslykla
-                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
-                - name: Setja upp auknefni fjárhagslykla
-                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
-                - name: Setja upp aðallykla flokka
-                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
-                - name: Skoðun bókhaldsuppruna
-                  href: ../financials/accounts-payable/accounting-source-explorer.md
-                - name: Dreifing á fjárhagsupphæð
-                  href: ../financials/accounts-payable/accounting-distributions.md
-                - name: Vinna úr úthlutunum
-                  href: ../financials/general-ledger/process-allocations.md
-                - name: Fjárhagsvíddir
-                  href: ../financials/general-ledger/financial-dimensions.md
-                - name: Umreikningur bókhalds- eða skýrslugjaldmiðla
-                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
-                - name: Samstæðulykilflokkar og lyklar
-                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
-                - name: Yfirlit yfir samstæðu og niðurfellingu
-                  href: ../financials/budgeting/consolidation-elimination-overview.md
-                - name: 'Fjárhagsdagatöl, fjárhagsár og tímabil'
-                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-                - name: Skilgreina lykilskipulög
-                  href: ../financials/general-ledger/configure-account-structures.md
-                - name: Tvöfaldur gjaldmiðill
-                  href: ../financials/general-ledger/dual-currency.md
-            - name: Færslubækur og fjárhagur
-              items:
-                - name: Vinnsla almennrar færslubókar
-                  href: ../financials/general-ledger/general-journal-processing.md
-                - name: Bóka tímabilsbækur
-                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
-                - name: Vinna úr færslubók kostnaðarúthlutunar
-                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
-                - name: Uppsetning samstæðulykils
-                  href: ../financials/general-ledger/intercompany-accounting-setup.md
-                - name: Úthlutunarreglur fjárhags
-                  href: ../financials/general-ledger/ledger-allocation-rules.md
-                - name: Stofna ítarlegar reglur fyrir færslubækur
-                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
-                - name: Stofna og úthluta ítarlegu regluskipulagi
-                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
-                - name: Færslubókargerðir fjárhags
-                  href: ../financials/general-ledger/ledger-journal-types.md
-                - name: Stofna og sannprófa færslubækur
-                  href: ../financials/general-ledger/tasks/create-validate-journals.md
-                - name: Skoða færslubókarfærslur
-                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
-                - name: Skoða tengt fylgiskjal innan samstæðu úr færslubók
-                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
-                - name: Stofna færslu í færslubók með því að nota sniðmát
-                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
-                - name: Stofna höfuðbókaruppsöfnunarfærslu
-                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
-                - name: Birting færslubókarlína og skjala úr Excel
-                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
-                - name: Skoðun færslubókarfærslna
-                  href: ../financials/general-ledger/view-journal-entries-transactions.md
-                - name: Skrá bókaðar bókarfærslur
-                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
-                - name: Endurmat á gjaldmiðli í samstæðufyrirtæki
-                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
-                - name: Endurmat á erlendum gjaldmiðli fyrir fjárhag
-                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: Flytja inn gengi gjaldmiðla
-                  href: ../financials/general-ledger/import-currency-exchange-rates.md
-                - name: Eitt fylgiskjal
-                  href: ../financials/general-ledger/one-voucher.md
-                - name: Fjárhagsjafnanir
-                  href: ../financials/general-ledger/ledger-settlements.md
-            - name: Lokun tímabils
-              items:
-                - name: Lokun fjárhags við lok tímabils
-                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
-                - name: Vinnusvæði lokunar fjárhagstímabils
-                  href: ../financials/general-ledger/financial-period-close-workspace.md
-                - name: Árslokalokun
-                  href: ../financials/general-ledger/year-end-close.md
-                - name: Loka fjárhagsári
-                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
-                - name: Fjöldalokun fjárhagstímabils
-                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
-            - name: Virðisaukaskattur
-              items:
-                - name: Yfirlit virðisaukaskatts
-                  href: ../financials/general-ledger/indirect-taxes-overview.md
-                - name: Virðisaukaskattur byggður á jaðargrunns- og útreikningsaðferðum
-                  href: ../financials/general-ledger/marginal-base-field.md
-                - name: VSK-greiðslur og sléttunarreglur
-                  href: ../financials/general-ledger/round-sales-tax-payments.md
-                - name: Útreikningsaðferðir VSK í upprunareitnum
-                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: Valkostir heildarupphæðar og tímabilsútreikninga fyrir VSK-kóða
-                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: Reikna og stilla virðisaukaskatt á reikningi lánardrottins
-                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: Stofna VSK-greiðslu
-                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
-                - name: Stofna VSK-færslur í skjölum
-                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: Setja upp bókunarflokka virðisaukaskatts
-                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: Setja upp yfirvöld virðisaukaskatts
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: Setja upp VSK-kóða
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: Setja upp VSK-flokka og VSK-flokka vöru
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: Setja upp skýrslugerðarkóða virðisaukaskatts
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: Setja upp VSK-uppgjörstímabil
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Setja upp staðgreiðsluskatt
-                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
-                - name: Skoða bókaðar VSK-færslur
-                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
-        - name: Hið opinbera
-          href: ../financials/public-sector/public-sector-functionality.md
-          items:
-            - name: Áætlun fyrir virkni hins opinbera
+            - name: Áætlanagerð fyrir virkni hins opinbera
               href: ../financials/public-sector/plan-public-sector-functionality.md
             - name: Stofna forsíðu og undirskriftasíður fyrir greiðsluskýrslur fyrir hið opinbera
               href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
@@ -2429,7 +2303,8 @@
                   href: ../financials/localizations/rus-ledger-transactions-preview.md
                 - name: Setja upp gengi fyrir gjaldeyrisviðskipti
                   href: ../financials/localizations/rus-exchange-difference.md
-                - name: Flytja inn gengi gjaldmiðla frá seðlabanka Rússlands ../financials/general-ledger/import-currency-exchange-rates.md
+                - name: Flytja inn gengi gjaldmiðla frá CBRF
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
             - name: Handhafar fyrirframgreiðslu
               href: ../financials/localizations/rus-advance-holders.md
               items:
@@ -2453,6 +2328,8 @@
                   href: ../financials/localizations/rus-currency-sale-purchase.md
             - name: VSK
               items:
+                - name: Staðbundin sérstök bókun útskatts
+                  href: ../financials/localizations/rus-local-specific-posting-sales-vat.md
                 - name: Virðisaukaskattur (VSK) fyrir skattyfirvöld
                   href: ../financials/localizations/rus-tax-agent.md
                 - name: VSK-skýrsla
@@ -2535,6 +2412,22 @@
                   href: ../financials/localizations/rus-officials.md
                 - name: Fyrirtækjasvið
                   href: ../financials/localizations/rus-company-divisions.md
+            - name: Frestun
+              items:
+                - name: Setja upp frestanir
+                  href: ../financials/localizations/rus-set-up-deferrals.md
+                - name: Stofna eða búa til tilvísanir
+                  href: ../financials/localizations/rus-create-generate-deferrals.md
+                - name: Móttaka frestana
+                  href: ../financials/localizations/rus-deferral-transactions.md
+                - name: Afskrifa frestanir
+                  href: ../financials/localizations/rus-write-off-deferral.md
+                - name: Losa frestanir
+                  href: ../financials/localizations/rus-dispose-deferrals.md
+                - name: Talning frestana
+                  href: ../financials/localizations/rus-counting-deferrals.md
+                - name: Skýrslugerð fyrir frestanir
+                  href: ../financials/localizations/rus-reporting-deferrals.md
         - name: Sádi-Arabía
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2949,204 +2842,204 @@
               href: ../dev-itpro/analytics/custom-designs-business-docs.md?toc=/fin-and-ops/toc.json
             - name: Yfirfara PDF-skjöl með innbyggðri skoðun
               href: ../dev-itpro/analytics/preview-pdf-documents.md?toc=/fin-and-ops/toc.json
-    - name: Rafræn skýrslugerð
-      items:
-        - name: Yfirlit yfir rafræna skýrslugerð
-          href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
-        - name: Skilgreiningar
+        - name: Rafræn skýrslugerð
           items:
-            - name: Stofna skilgreiningar
-              href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
-            - name: Undirbúa hluta af rafrænni skýrslulausn
+            - name: Yfirlit yfir rafræna skýrslugerð
+              href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
+            - name: Skilgreiningar
               items:
-                - name: Hanna gagnalíkan sem eru lénaháð
-                  href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Undirbúa forritasértæk lýsigögn
+                - name: Stofna skilgreiningar
+                  href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
+                - name: Undirbúa hluta af rafrænni skýrslulausn
                   items:
-                    - name: (Rafræn skýrslugerð) Undirbúa lýsigögn umsóknar til notkunar í RCS
-                      href: ../dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/fin-and-ops/toc.json
-                    - name: (RCS) Aðgangur að lýsigögnum forrits með skilgreiningu rafrænnar skýrslugerðar
-                      href: ../dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/fin-and-ops/toc.json
-                    - name: (RCS) Aðgangur að lýsigögnum forrits með tengdum forritum
-                      href: ../dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/fin-and-ops/toc.json
-                - name: Skilgreina vörpun líkana og velja gagnaveitur
-                  href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Varpa gagnalíkani á valdar gagnaveitur
-                  href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Stofna skilgreiningu sniðs
-                  href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Varpa hlutum stofnaða sniðsins á einingar gagnalíkans
-                  href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Prófa tilbúna lausn rafrænnar skýrslugerðar í markforriti
+                    - name: Hanna gagnalíkan sem eru lénaháð
+                      href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: Undirbúa forritasértæk lýsigögn
+                      items:
+                        - name: (Rafræn skýrslugerð) Undirbúa lýsigögn umsóknar til notkunar í RCS
+                          href: ../dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/fin-and-ops/toc.json
+                        - name: (RCS) Aðgangur að lýsigögnum forrits með skilgreiningu rafrænnar skýrslugerðar
+                          href: ../dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/fin-and-ops/toc.json
+                        - name: (RCS) Aðgangur að lýsigögnum forrits með tengdum forritum
+                          href: ../dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/fin-and-ops/toc.json
+                    - name: Skilgreina vörpun líkana og velja gagnaveitur
+                      href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: Varpa gagnalíkani á valdar gagnaveitur
+                      href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: Stofna skilgreiningu sniðs
+                      href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: Varpa hlutum stofnaða sniðsins á einingar gagnalíkans
+                      href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
+                - name: Prófa tilbúna lausn rafrænnar skýrslugerðar í markforriti
+                  items:
+                    - name: (Rafræn skýrslugerð) Flytja inn skilgreiningar úr RCS
+                      href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/fin-and-ops/toc.json
+                    - name: Mynda rafræn skjöl fyrir greiðslur með því að nota skilgreiningu sniðs
+                      href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
+                - name: Uppfæra snið með því að nota nýja grunnútgáfu af viðkomandi sniði
+                  href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
+            - name: Formúluhönnuður í rafrænni skýrslugerð
+              href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
+            - name: Stjórna vörpunarlíkani rafrænnar skýrslugerðar í aðskilinni skilgreiningu rafrænnar skýrslugerðar
+              href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: Velja skilgreiningar gagnalíkans þegar snið eru búið til
+              href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: Búa til skýrslur með því að setja inn efni í óunnu XML-formi
+              href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
+            - name: (Rafræn skýrslugerð) Gagnagjafar þvert á fyrirtæki í rafrænni skýrslugerð
+              href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
+            - name: Hanna snið rafrænnar skýrslugerðar til að mynd rafræn skjöl á mismunandi sniðum
               items:
-                - name: (Rafræn skýrslugerð) Flytja inn skilgreiningar úr RCS
-                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/fin-and-ops/toc.json
-                - name: Mynda rafræn skjöl fyrir greiðslur með því að nota skilgreiningu sniðs
-                  href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
-            - name: Uppfæra snið með því að nota nýja grunnútgáfu af viðkomandi sniði
-              href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
-        - name: Formúluhönnuður í rafrænni skýrslugerð
-          href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
-        - name: Stjórna vörpunarlíkani rafrænnar skýrslugerðar í aðskilinni skilgreiningu rafrænnar skýrslugerðar
-          href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
-        - name: Velja skilgreiningar gagnalíkans þegar snið eru búið til
-          href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
-        - name: Búa til skýrslur með því að setja inn efni í óunnu XML-formi
-          href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
-        - name: (Rafræn skýrslugerð) Gagnagjafar þvert á fyrirtæki í rafrænni skýrslugerð
-          href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
-        - name: Hanna snið rafrænnar skýrslugerðar til að mynd rafræn skjöl á mismunandi sniðum
-          items:
-            - name: (Rafræn skýrslugerð) Hanna skilgreiningu fyrir myndun skýrslna á OPENXML-sniði
-              href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: (Rafræn skýrslugerð) Hanna skilgreiningar til að búa til skýrslur á Word-sniði
-              href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Hanna skilgreiningar til að fylla inn í PDF-sniðmát
-              href: ../dev-itpro/analytics/er-fillable-pdf.md?toc=/fin-and-ops/toc.json
-        - name: Innfeldar myndir og form
-          items:
-            - name: (Rafræn skýrslugerð) Fella inn myndir og form í viðskiptaskjöl sem búin eru til
-              href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
-            - name: Dæmi um innfeldar myndir og form
+                - name: (Rafræn skýrslugerð) Hanna skilgreiningu fyrir myndun skýrslna á OPENXML-sniði
+                  href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: (Rafræn skýrslugerð) Hanna skilgreiningar til að búa til skýrslur á Word-sniði
+                  href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: Hanna skilgreiningar til að fylla inn í PDF-sniðmát
+                  href: ../dev-itpro/analytics/er-fillable-pdf.md?toc=/fin-and-ops/toc.json
+            - name: Innfeldar myndir og form
               items:
-                - name: Hanna skilgreiningar til að búa til skýrslur á Office-sniði sem eru með innfelldar myndir
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
-                - name: Yfirfara skilgreiningar til að búa til skýrslur á Office-sniði sem eru með innfelldar myndir
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
-                - name: Búa til skýrslur á Office-sniði sem eru með innfelldar myndir
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
-        - name: Breyta rafrænum skýrslugerðarsniðum með því að endurnýta Excel-sniðmát
-          href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-        - name: Hanna Finance and Operations útgáfu sem er óháð skilgreiningum rafrænnar skýrslugerðar
-          items:
-            - name: Skilgreina hversu mikil áhrif skilgreiningar rafrænnar skýrslugerðar hafa á aðra hluta
-              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
-        - name: Hanna lausn fyrir rafræna skýrslugerð til að nota fjárhagsvíddir
-          items:
-            - name: Hanna gagnalíkön til að nota fjárhagsvíddir sem gagnaveitur
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
-            - name: Varpa líkönum til að nota fjárhagsvíddir sem gagnaveitur
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
-            - name: Hanna skýrslur til að nota fjárhagsvíddir sem gagnaveitur
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
-            - name: Keyra skýrslur sem nota fjárhagsvíddir sem gagnaveitur
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
-        - name: Hanna snið rafrænnar skýrslugerðar til að framkvæma talningu og samlagningu með því að nota upplýsingar úr mynduðu úttaki
-          items:
-            - name: Búa til snið til að framkvæma talningu og samlagningu
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
-            - name: Stilla snið til að framkvæma talningu og samlagningu
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
-            - name: Nota útreikninga til að mynda frálagið fyrir talningu og samlagningu
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
-            - name: Keyra snið til að framkvæma talningu og samlagningu
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
-        - name: Væta við dálkum í Excel skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
-          items:
-            - name: Hanna snið til að bæta við dálkum í Excel skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
-              href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
-            - name: Keyra snið til að bæta við dálkum í Excel skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
-              href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
-        - name: Nota skjalastjórnunarskrár fyrir snið frálags
-          items:
-            - name: Undirbúa gagnalíkan til að nota skjalastjórnunarskrár fyrir frálag rafrænnar skýrslugerðar
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
-            - name: Víkka gagnalíkan til að nota skjalastjórnunarskrár fyrir frálag rafrænnar skýrslugerðar
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
-            - name: Búa til snið til að nota skjalastjórnunarskrár fyrir frálag rafrænnar skýrslugerðar
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
-            - name: Keyra snið til að nota skjalastjórnunarskrár fyrir frálag rafrænnar skýrslugerðar
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
-            - name: Breyta og keyra snið til að nota skjalastjórnunarskrár fyrir frálag rafrænnar skýrslugerðar
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
-        - name: Uppfæra forritagögn með rafrænni skýrslugerð
-          items:
-            - name: Búa til rafræn skjöl og uppfæra forritsgögn
-              href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
-            - name: Flytja inn skilgreiningar til að búa til skjöl með forritsgögnum
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
-            - name: Hanna skilgreiningar til að búa til skjöl með forritsgögnum
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
-            - name: Breyta líkönum og vörpunum til að búa til skjöl með forritsgögnum
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
-            - name: Breyta sniðum til að búa til skjöl með forritsgögnum
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
-            - name: Búa til skjöl sem eru með forritsgögn
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
-        - name: Flytja inn gögn úr mótteknum skrám með lausnum rafrænnar skýrslugerðar
-          items:
-            - name: Þátta skjöl á innleið á mismunandi sniðum
-              href: ../dev-itpro/analytics/er-parse-incoming-documents.md?toc=/fin-and-ops/toc.json
-            - name: Skilgreina gagnainnflutning úr skrám sem hafa verið valdar handvirkt
+                - name: (Rafræn skýrslugerð) Fella inn myndir og form í viðskiptaskjöl sem búin eru til
+                  href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
+                - name: Dæmi um innfeldar myndir og form
+                  items:
+                    - name: Hanna skilgreiningar til að búa til skýrslur á Office-sniði sem eru með innfelldar myndir
+                      href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
+                    - name: Yfirfara skilgreiningar til að búa til skýrslur á Office-sniði sem eru með innfelldar myndir
+                      href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
+                    - name: Búa til skýrslur á Office-sniði sem eru með innfelldar myndir
+                      href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
+            - name: Breyta rafrænum skýrslugerðarsniðum með því að endurnýta Excel-sniðmát
+              href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
+            - name: Hanna Finance and Operations útgáfu sem er óháð skilgreiningum rafrænnar skýrslugerðar
               items:
-                - name: Stofna skilgreiningar til að flytja inn gögn úr ytri XML-skrá
-                  href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
-            - name: Skilgreina gagnainnflutning í runustillingu frá skrám á SharePoint
-              href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
-            - name: Flytja inn skrár á XML-sniði
+                - name: Skilgreina hversu mikil áhrif skilgreiningar rafrænnar skýrslugerðar hafa á aðra hluta
+                  href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: Hanna lausn fyrir rafræna skýrslugerð til að nota fjárhagsvíddir
               items:
-                - name: Flytja inn skrár á XML-sniði með valeigindum
-                  href: ../dev-itpro/analytics/rcs-optional-attributes.md?toc=/fin-and-ops/toc.json
-                - name: Skilgreina snið rafrænnar skýrslugerðar til að flytja inn skrár á XML-sniði með valkvæmum eigindum
-                  href: ../dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
+                - name: Hanna gagnalíkön til að nota fjárhagsvíddir sem gagnaveitur
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
+                - name: Varpa líkönum til að nota fjárhagsvíddir sem gagnaveitur
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
+                - name: Hanna skýrslur til að nota fjárhagsvíddir sem gagnaveitur
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
+                - name: Keyra skýrslur sem nota fjárhagsvíddir sem gagnaveitur
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
+            - name: Hanna snið rafrænnar skýrslugerðar til að framkvæma talningu og samlagningu með því að nota upplýsingar úr mynduðu úttaki
+              items:
+                - name: Búa til snið til að framkvæma talningu og samlagningu
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
+                - name: Stilla snið til að framkvæma talningu og samlagningu
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
+                - name: Nota útreikninga til að mynda frálagið fyrir talningu og samlagningu
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
+                - name: Keyra snið til að framkvæma talningu og samlagningu
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
+            - name: Væta við dálkum í Excel skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
+              items:
+                - name: Hanna snið til að bæta við dálkum í Excel skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
+                  href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
+                - name: Keyra snið til að bæta við dálkum í Excel skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
+                  href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
+            - name: Nota skjalastjórnunarskrár fyrir snið frálags
+              items:
+                - name: Undirbúa gagnalíkan til að nota skjalastjórnunarskrár fyrir frálag rafrænnar skýrslugerðar
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
+                - name: Víkka gagnalíkön til að nota skjalastjórnunarskrár fyrir frálag rafrænnar skýrslugerðar
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
+                - name: Búa til snið til að nota skjalastjórnunarskrár fyrir frálag rafrænnar skýrslugerðar
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
+                - name: Keyra snið til að nota skjalastjórnunarskrár fyrir frálag rafrænnar skýrslugerðar
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
+                - name: Breyta og keyra snið til að nota skjalastjórnunarskrár fyrir frálag rafrænnar skýrslugerðar
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
+            - name: Uppfæra forritagögn með rafrænni skýrslugerð
+              items:
+                - name: Búa til rafræn skjöl og uppfæra forritsgögn
+                  href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
+                - name: Flytja inn skilgreiningar til að búa til skjöl með forritsgögnum
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
+                - name: Hanna skilgreiningar til að búa til skjöl með forritsgögnum
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
+                - name: Breyta líkönum og vörpunum til að búa til skjöl með forritsgögnum
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
+                - name: Breyta sniðum til að búa til skjöl með forritsgögnum
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
+                - name: Búa til skjöl sem eru með forritsgögn
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
+            - name: Flytja inn gögn úr mótteknum skrám með lausnum rafrænnar skýrslugerðar
+              items:
+                - name: Þátta skjöl á innleið á mismunandi sniðum
+                  href: ../dev-itpro/analytics/er-parse-incoming-documents.md?toc=/fin-and-ops/toc.json
+                - name: Skilgreina gagnainnflutning úr skrám sem hafa verið valdar handvirkt
+                  items:
+                    - name: Stofna skilgreiningar til að flytja inn gögn úr ytri XML-skrá
+                      href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
+                - name: Skilgreina gagnainnflutning í runustillingu frá skrám á SharePoint
+                  href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
+                - name: Flytja inn skrár á XML-sniði
+                  items:
+                    - name: Flytja inn skrár á XML-sniði með valeigindum
+                      href: ../dev-itpro/analytics/rcs-optional-attributes.md?toc=/fin-and-ops/toc.json
+                    - name: Skilgreina snið rafrænnar skýrslugerðar til að flytja inn skrár á XML-sniði með valkvæmum eigindum
+                      href: ../dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
             - name: Skipta mynduðum XML-skrám út frá skráarstærð og efnismagni
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
-        - name: Tími skilgreiningar
-          items:
-            - name: Stjórna tíma skilgreiningar
-              href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
-            - name: Hlaða skilgreiningum upp í Lifecycle Services
-              href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
-            - name: Flytja inn skilgreiningar úr Lifecycle Services
-              href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
-            - name: Hlaða niður skilgreiningum úr Lifecycle Services
-              href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
-            - name: Flytja inn skilgreiningar
-              href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
-            - name: Sækja skilgreiningar rafrænnar skýrslugerðar úr RCS-geymslu
+            - name: Tími skilgreiningar
               items:
-                - name: Sækja skilgreiningar úr geymslu rafrænnar skýrslugerðar fyrir RCS-gerð
-                  href: ../dev-itpro/analytics/rcs-download-configurations.md?toc=/fin-and-ops/toc.json
-                - name: Flytja inn skilgreiningar úr RCS
-                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md
-        - name: Nota lausnir rafrænnar skýrslugerðar í Finance and Operations
-          items:
-            - name: Skilgreina ramma
+                - name: Stjórna tíma skilgreiningar
+                  href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
+                - name: Hlaða skilgreiningum upp í Lifecycle Services
+                  href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: Flytja inn skilgreiningar úr Lifecycle Services
+                  href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: Hlaða niður skilgreiningum úr Lifecycle Services
+                  href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
+                - name: Flytja inn skilgreiningar
+                  href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
+                - name: Sækja skilgreiningar rafrænnar skýrslugerðar úr RCS-geymslu
+                  items:
+                    - name: Sækja skilgreiningar úr geymslu rafrænnar skýrslugerðar fyrir RCS-gerð
+                      href: ../dev-itpro/analytics/rcs-download-configurations.md?toc=/fin-and-ops/toc.json
+                    - name: Flytja inn skilgreiningar úr RCS
+                      href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md
+            - name: Nota lausnir rafrænnar skýrslugerðar í Finance and Operations
               items:
-                - name: Skilgreina rafrænan skýrslugerðarramma
-                  href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
-                - name: Stofna skilgreiningarveitendur og merkja þá sem virka
-                  href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Viðtökustaðir
+                - name: Skilgreina ramma
+                  items:
+                    - name: Skilgreina rafrænan skýrslugerðarramma
+                      href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
+                    - name: Stofna skilgreiningarveitendur og merkja þá sem virka
+                      href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: Viðtökustaðir
+                  items:
+                    - name: Yfirlit viðtökustaða
+                      href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
+                    - name: Skilgreina viðtökustaði
+                      href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: Villuleita sjálfkrafa skýrslur sem búnar eru til
+                  items:
+                    - name: Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi
+                      href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
+                    - name: Endurbætur á rakningu niðurstaðna myndaðra rafræn skýrslna og samanburður við grunngildi
+                      href: ../dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/fin-and-ops/toc.json
+                    - name: Sjálfvirk prófun með rafrænni skýrslugerð
+                      href: ../dev-itpro/analytics/er-automate-testing.md?toc=/fin-and-ops/toc.json
+                - name: Gera viðskiptaferli sjálfvirk með skilgreiningum rafrænnar skýrslugerðar
+                  items:
+                    - name: Skilgreina rafræna skýrslugerð til að draga gögn inn í Power BI
+                      href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
+                    - name: Mynda reikningssnið með frjálsum texta sem hægt er að prenta út
+                      href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
+                - name: Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum
+                  href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
+            - name: API fyrir ramma rafrænnar skýrslugerðar
               items:
-                - name: Yfirlit viðtökustaða
-                  href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
-                - name: Skilgreina viðtökustaði
-                  href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Villuleita sjálfkrafa skýrslur sem búnar eru til
-              items:
-                - name: Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi
-                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
-                - name: Endurbætur á rakningu niðurstaðna myndaðra rafræn skýrslna og samanburður við grunngildi
-                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/fin-and-ops/toc.json
-                - name: Sjálfvirk prófun með rafrænni skýrslugerð
-                  href: ../dev-itpro/analytics/er-automate-testing.md?toc=/fin-and-ops/toc.json
-            - name: Gera viðskiptaferli sjálfvirk með skilgreiningum rafrænnar skýrslugerðar
-              items:
-                - name: Skilgreina rafræna skýrslugerð til að draga gögn inn í Power BI
-                  href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
-                - name: Mynda reikningssnið með frjálsum texta sem hægt er að prenta út
-                  href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
-            - name: Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum
-              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
-        - name: API fyrir ramma rafrænnar skýrslugerðar
-          items:
-            - name: Lengja lista yfir virkni rafrænnar skýrslugerðar
-              href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
-            - name: Breytingar á API rafræns skýrslugerðarramma fyrir Application update 7.3
-              href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
-            - name: Tilgreina sérsniðinn geymslustað fyrir skjöl sem eru mynduð
-              href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
+                - name: Listi yfir virkni rafrænnar skýrslugerðar lengdur
+                  href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
+                - name: Breytingar á API rafræns skýrslugerðarramma fyrir Application update 7.3
+                  href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+                - name: Tilgreina sérsniðinn geymslustað fyrir skjöl sem eru mynduð
+                  href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
         - name: Innfelldar greiningarlausnir
           items:
             - name: Power BI fellt inn í vinnusvæði
@@ -3281,6 +3174,97 @@
               href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
     - name: Aðfangakeðja
       href: ../supply-chain/index.md
+    - name: Eignastýring
+      items:
+        - name: Yfirlit eignastýringar
+          href: ../supply-chain/asset-management/index.md
+          items:
+            - name: Virkar staðsetningar og eignir
+              href: ../supply-chain/asset-management/overview/functional-locations-and-objects.md
+            - name: Eignir og verkbeiðnir
+              href: ../supply-chain/asset-management/overview/objects-and-work-orders.md
+        - name: Uppsetning fyrir virkar staðsetningar
+          items:
+            - name: Líftímastöður virkra staðsetninga
+              href: ../supply-chain/asset-management/setup-for-functional-locations/functional-location-stages.md
+            - name: Tegundir viðhaldseiginda
+              href: ../supply-chain/asset-management/setup-for-functional-locations/functional-location-types.md
+            - name: Gerðir virkra staðsetninga
+              href: ../supply-chain/asset-management/setup-for-functional-locations/specification-types.md
+        - name: Virkar staðsetningar
+          items:
+            - name: Kynning á virkum staðsetningum
+              href: ../supply-chain/asset-management/functional-locations/introduction-to-functional-locations.md
+            - name: Stofna virkar staðsetningar
+              href: ../supply-chain/asset-management/functional-locations/create-functional-locations.md
+            - name: Setja upp eignir á virkum staðsetningum
+              href: ../supply-chain/asset-management/functional-locations/install-objects-on-functional-locations.md
+        - name: Uppsetning fyrir eignir
+          items:
+            - name: Eignagerðir
+              href: ../supply-chain/asset-management/setup-for-objects/object-types.md
+            - name: Ástandsmat
+              href: ../supply-chain/asset-management/setup-for-objects/condition-assessment.md
+            - name: Framleiðandi og líkan fyrir eignir
+              href: ../supply-chain/asset-management/setup-for-objects/product-and-model.md
+            - name: Teljarar
+              href: ../supply-chain/asset-management/setup-for-objects/counters.md
+            - name: Færibreytur eignastýringar
+              href: ../supply-chain/asset-management/setup-for-objects/enterprise-asset-management-parameters.md
+            - name: Lífferilsstöður eigna
+              href: ../supply-chain/asset-management/setup-for-objects/object-stages.md
+            - name: Þjónustustig eigna
+              href: ../supply-chain/asset-management/setup-for-objects/object-priorities.md
+            - name: Mikilvægi eigna
+              href: ../supply-chain/asset-management/setup-for-objects/object-criticalities.md
+            - name: Eignaskjöl
+              href: ../supply-chain/asset-management/setup-for-objects/object-documents.md
+            - name: Viðhaldsstarfskraftar og starfskraftahópar
+              href: ../supply-chain/asset-management/setup-for-objects/workers-and-worker-groups.md
+        - name: Eignir
+          items:
+            - name: Kynning á eignum
+              href: ../supply-chain/asset-management/objects/introduction-to-objects.md
+            - name: Stofna eign
+              href: ../supply-chain/asset-management/objects/create-an-object.md
+            - name: Stigskiptar eignir
+              href: ../supply-chain/asset-management/objects/multi-level-objects.md
+            - name: 'Færa, skipta út og setja upp eignir'
+              href: ../supply-chain/asset-management/objects/move-replace-and-install-objects.md
+            - name: Stofna eignir byggt á innkaupapöntunum
+              href: ../supply-chain/asset-management/objects/create-objects-based-on-purchase-orders.md
+            - name: Uppskrift eignar
+              href: ../supply-chain/asset-management/objects/object-bom.md
+            - name: Viðburðarferill eignar
+              href: ../supply-chain/asset-management/objects/object-timeline.md
+            - name: Eignayfirlit
+              href: ../supply-chain/asset-management/objects/object-view.md
+            - name: Yfirlit yfir eigind eignar
+              href: ../supply-chain/asset-management/objects/object-specification-overview.md
+        - name: Uppsetning fyrir viðhaldsbeiðnir
+          items:
+            - name: Viðhaldsbeiðnir
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/requests.md
+            - name: Lífsferilsstöður viðhaldsbeiðni
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/request-stages.md
+            - name: Gerðir viðhaldsbeiðna
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/request-types.md
+            - name: Ábyrgir viðhaldsstarfskraftar
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/responsible-workers.md
+        - name: Vinna með viðhaldsbeiðnir
+          items:
+            - name: Viðhaldsbeiðnir
+              href: ../supply-chain/asset-management/manage-maintenance-requests/maintenance-request-overview.md
+            - name: Stofna viðhaldsbeiðni
+              href: ../supply-chain/asset-management/manage-maintenance-requests/create-a-maintenance-request.md
+            - name: Stofna verkbeiðni úr viðhaldsbeiðni
+              href: ../supply-chain/asset-management/manage-maintenance-requests/create-work-order-from-a-maintenance-request.md
+            - name: Eignalán
+              href: ../supply-chain/asset-management/manage-maintenance-requests/asset-loan.md
+            - name: Eignir á innleið og útleið
+              href: ../supply-chain/asset-management/manage-maintenance-requests/inbound-and-outbound-assets.md
+            - name: Skýrslur yfir viðhaldsbeiðnir
+              href: ../supply-chain/asset-management/manage-maintenance-requests/maintenance-request-reports.md
     - name: Aðaláætlanagerð
       href: ../supply-chain/master-planning/master-planning-home-page.md
       items:
@@ -3289,6 +3273,8 @@
           items:
             - name: Setja upp aðaláætlanir
               href: ../supply-chain/master-planning/master-planning-setup.md
+            - name: Leiðsagnarforrit fyrir uppsetningu áætlanagerðar
+              href: ../supply-chain/master-planning/master-planning-setup-wizard.md
             - name: Þekjustillingar
               href: ../supply-chain/master-planning/coverage-settings.md
             - name: Skilgreina þekjureglur fyrir vörur
@@ -3363,7 +3349,7 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Breyta eftirspurnarspá handvirkt
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Dynamics 365 for Unified Operations Mobile forrit
+    - name: Fartækjaforrit
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
         - name: Tiltæk fartækjavinnusvæði
@@ -3615,6 +3601,24 @@
               href: organization-administration/tasks/view-workflow-history.md
             - name: Skilgreina kerfið til að senda tölvupósta tengda verkflæði til notenda
               href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
+            - name: Verkflæðisgerðir
+              items:
+                - name: Verkflæðisgerð búin til
+                  href: organization-administration/workflow-type-create.md
+                - name: Gátlisti verkflæðisgerðar
+                  href: organization-administration/workflow-type-checklist.md
+                - name: Búa til verkflæðisflokk
+                  href: organization-administration/workflow-type-category.md
+                - name: Búa til fyrirspurn fyrir verkflæðisgerð
+                  href: organization-administration/workflow-type-query.md
+                - name: Búa til nýja verkflæðisgerð
+                  href: organization-administration/workflow-type-create-new.md
+                - name: Búa til klasa fyrir verkflæðiskjal
+                  href: organization-administration/workflow-type-document-create.md
+                - name: Búa til SubmitToWorkflow-klasa
+                  href: organization-administration/workflow-type-submit-to-workflow.md
+                - name: Tengja verkflæðisskjalaklasa við verkflæðisgerð
+                  href: organization-administration/workflow-type-associate-document.md
             - name: Skýrsla um verkflæðisgerðir
               href: organization-administration/workflow-types-report.md
             - name: Algengar spurningar um verkflæði
@@ -4491,6 +4495,8 @@
               href: ../supply-chain/warehousing/tasks/create-work-class.md
             - name: Stjórnun starfskrafta í vöruhúsi
               href: ../supply-chain/warehousing/manage-warehouse-workers.md
+            - name: Frestuð vinnsla vöruhúsavinnu
+              href: ../supply-chain/warehousing/deferred-put.md
         - name: Losað að hluta og hlutaafhending
           items:
             - name: Hlutaafhending farmflutnings
