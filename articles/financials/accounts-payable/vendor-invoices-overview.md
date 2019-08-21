@@ -3,14 +3,14 @@ title: Yfirlit yfir reikninga lánardrottna
 description: Þetta efnisatriði veitir almennar upplýsingar um reikninga lánardrottins. Reikningar lánardrottins eru beiðnir um greiðslu fyrir vörur og þjónustu sem voru mótteknar. Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þær geta verið byggðir á innkaupapantanir fyrir tilteknar vörur og þjónustu.
 author: abruer
 manager: AnnBe
-ms.date: 06/11/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d02eee989e5bebd1cad0b1392ec19aaa918d9db5
-ms.sourcegitcommit: f9444077022a6c678090d02d0f9d4ec0e54b7ca9
+ms.openlocfilehash: c69291214796847af7169cf261865860998f0d27
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625080"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863324"
 ---
 # <a name="vendor-invoices-overview"></a>Yfirlit yfir reikninga lánardrottna
 
 [!include [banner](../includes/banner.md)]
-
+[!include [banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði veitir almennar upplýsingar um reikninga lánardrottins. Reikningar lánardrottins eru beiðnir um greiðslu fyrir vörur og þjónustu sem voru mótteknar. Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þær geta verið byggðir á innkaupapantanir fyrir tilteknar vörur og þjónustu.
 
@@ -90,6 +90,13 @@ Hægt er að vinna með marga reikninga á sama tíma og bókaðar þá svo samt
 Hægt er að nota síðuna **Endurheimta reikninga lánardrottna** til að endurheimta eða losa reikninga lánardrottins sem hafa veirð í notkun í meira en fjórar klukkustundir, svo hægt sé að breyta þeim. Hægt er að opna þessa síðu af síðunni **Reglubundið verk** eða reit á vinnusvæðinu **Reikningsfærsla lánardrottins**. Eftir að reikningur er endurheimtur verður hægt að breyta honum á síðunni **Reikningur lánardrottins**.
 
 Aðeins er hægt að fá aðgang að síðunni **Endurheimta reikninga lánardrottna** ef þér er úthlutað öryggisskyldunum og réttindunum **Endurheimta reikninga lánardrottna sem eru í notkun**. Auk þess þarf að kveikja á færibreytunni **Leyfa endurheimt á reikningum lánardrottna** á síðunni **Færibreytur viðskiptaskulda**.
+
+## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Endurstilling á stöðu verkflæðis fyrir reikninga lánardrottins úr óendurkræf í drög
+
+Verkflæðistilvik sem hefur stöðvast út af óendurkræfri villu verður með stöðu verkflæðis sem **Óendurkræft**. Þegar staðan á verkflæði fyrir reikning lánardrottins er **Óendurkræf** er hægt að endurstilla hana á **Drög** með því að velja **Afturkalla**. Síðan er hægt að breyta reikningi lánardrottins. Þessi eiginleiki er í boði ef kveikt er á færibreytunni **Endurstilla stöðuna drög fyrir verkflæði reiknings lánardrottins** á síðunni **Eiginleikastjórnun**.
+
+Hægt er að nota síðuna **Sama verkflæðis** til að endurstilla verkflæðisstöðuna sem **Drög**. Þú getur opnað þessa síðu frá **Reikningur lánardrottins** eða frá **Algengar > Fyrirspurnir > Verkflæði** siglingar. Til að núllstilla stöðu flæðis á **Drög**, veldu **afturkalla**. Þú getur einnig endurstillt stöðu flæðis á Drög með því að velja **Afturkalla** aðgerð á **Reikningur lánardrottins** eða **Bíður reikninga lánardrottins** síðu. Eftir að verkflæðisstaðan hefur verið endurstillt í **Drög** verður hún opin fyrir breytingar á síðunni **Reikningur lánardrottnins**.
+
 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar

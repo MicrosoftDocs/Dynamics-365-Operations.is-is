@@ -1,5 +1,5 @@
 ---
-title: Undirbúa forritasértæk lýsigögn fyrir RCS og ER
+title: Flytja inn skrár á XML-sniði með valeigindum
 description: Þetta umræðuefni veitir upplýsingar um að uppsetningu á ER-sniðum sem tilgreina XML-eiginleika til að þátta komandi rafræn skjöl í XML-sniði.
 author: NickSelin
 manager: AnnBe
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a6fc1e54444584895aa75ae91d39143f27e34d8
-ms.sourcegitcommit: d0fa7eb2166a30314205e7f70bbeaff6fbd5fb55
+ms.openlocfilehash: eb5d721784f45097ab466f75d43256495aac36ca
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "1726576"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849996"
 ---
-# <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Undirbúa forritasértæk lýsigögn fyrir RCS og ER
+# <a name="import-files-in-xml-format-with-optional-attributes"></a>Flytja inn skrár á XML-sniði með valeigindum
 
 Hægt er að setja upp snið rafrænnar skýrslugerðar (ER) til að þátta skjöl á innleið í XML-sniði. Hægt er að tilgreina ákveðna eiginleika XML-eininga í uppsettu ER-sniði sem valfrjálsa. Það mun gera þér kleift að meðhöndla skrár á innleið og án slíkra XML-eiginleika rétt. Síðan er hægt að nota efnið úr þessum skrám til að uppfæra hugbúnaðargögn.
 
@@ -97,11 +97,11 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þr
 5.  Smellt er á **Vista**.
 6.  Smellið á **Hönnuður**.
 7.  Í trénu skal víkka út **snið**.
-8.  Í trénu skaltu stækka **snið\root: XML Element(root)**.
-9.  Í trénu skaltu velja **format\root: XML Element(root)\document: XML Element 1.* (fylgiskjal)**.
+8.  Í trénu skal útvíkka **format\root: XML Element(root)**.
+9.  Í trénu skal velja **format\root: XML Element(root)\document: XML Element 1..* (fylgiskjal)**.
 10. Smelltu á **Binda**.
-11. Í trénu skaltu stækka **format\root: XML Element(root)\document: XML Element 1.* (fylgiskjal)**.
-12. Í trénu skaltu velja **format\root: XML Element(root)\document: XML Element 1.* (fylgiskjal)\kenni**.
+11. Í trénu skal útvíkka **format\root: XML Element(root)\document: XML Element 1..* (fylgiskjal)**.
+12. Í trénu skal velja **format\root: XML Element(root)\document: XML Element 1..* (fylgiskjal)\kenni**.
 13. Í trénu skaltu stækka **List = format.root.document**.
 14. Í trénu skaltu velja **List = format.root.document\Code**.
 15. Smelltu á **Binda**.

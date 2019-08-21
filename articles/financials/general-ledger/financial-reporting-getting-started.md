@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8d3630e60fb2f1a8ca7e3610bbb4fcd32c17dec
-ms.sourcegitcommit: 06c8dc5bc4e1c41f68e1cda141d61529768be958
+ms.openlocfilehash: 7a55c0a1ac8ac833315afa179c1b6d4eb78195fc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594961"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839208"
 ---
 # <a name="financial-reporting"></a>Fjárhagsskýrslugerð
 
@@ -117,7 +117,7 @@ Fjárhagsskýrslugerð veitir 22 sjálfgefnar fjárhagsskýrslur. Hver skýrsla 
 Af listanum yfir fjárhagsskýrslur er hægt að stofna nýja skýrslu eða breyta fyrirliggjandi skýrslu. Ef notandi hefur viðeigandi heimildir, er hægt að stofna nýja fjárhagsskýrslu með því að smella á **Nýtt** í Aðgerðarúðunni. Skýrsluhönnunarforriti er hlaðið niður á tækið og opnast síðan. Eftir að skýrsluhönnun opnast er hægt að stofna nýja skýrslu. Þegar búið er að vista nýja skýrslu birtist hún í lista yfir fjárhagsskýrslur. Listinn sýnir einungis skýrslur sem voru stofnaðar fyrir fyrirtæki sem verið er að nota í Finance and Operations. 
 
 > [!NOTE] 
-> Tölvan sem þú ert að hlaða niður skýrsluhönnunarbiðlara verður að vera með uppsetta útgáfu 4.6.2 af Microsoft .NET Framework. Hægt er að sækja og setja upp þessa útgáfu af Microsoft .NET Framework úr [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Ef verið er að nota Chrome, verður að setja upp ClickOnce-viðauka til að sækja skýrslu hönnuðurbiðlara. Ef verið er að nota Chrome í huliðsstillingu, ganga úr skugga um að ClickOnce viðbót sé einnig virkur fyrir huliðsstillingu. Einnig er hægt að breyta skýrslu sem birtist í lista yfir fjárhagsskýrslur. Þegar svæði umhverfis heiti skýrslunnar er valið, er smellt á **Breyta**°í Aðgerðarúðunni. Skýrsluhönnunarforritið er ræst.
+> Tölvan sem þú ert að hlaða niður skýrsluhönnunarbiðlara verður að vera með uppsetta útgáfu 4.6.2 af Microsoft .NET Framework. Hægt er að sækja og setja upp þessa útgáfu af Microsoft .NET Framework úr [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=53345). Ef verið er að nota Chrome, verður að setja upp ClickOnce-viðauka til að sækja skýrslu hönnuðurbiðlara. Ef verið er að nota Chrome í huliðsstillingu, ganga úr skugga um að ClickOnce viðbót sé einnig virkur fyrir huliðsstillingu. Einnig er hægt að breyta skýrslu sem birtist í lista yfir fjárhagsskýrslur. Þegar svæði umhverfis heiti skýrslunnar er valið, er smellt á **Breyta** í Aðgerðarúðunni. Skýrsluhönnunarforritið er ræst.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 - [Skoðun fjárhagsskýrslna](view-financial-reports.md)

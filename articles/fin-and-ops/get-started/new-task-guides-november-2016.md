@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.custom: 270894
 ms.assetid: 1b90768d-8bf7-4e35-90c0-65962fea5d26
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9cba30560762b5f647621aafb8db19241523f904
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 15a645c98fe38e8ddaa34c0c21581eac6636502f
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561928"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1851998"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>Nýjar eða uppfærðar verkefnaleiðbeiningar (nóvember 2016)
 
@@ -142,7 +142,7 @@ ms.locfileid: "1561928"
 | DK-00007 FIK 752 greiðsluseðill fyrir gíróseðil/bóka gíróseðil með texta að eigin vali                                           | Danmörk                           |
 | DK-00007 FIK 752 greiðsluseðill fyrir gíróseðil/bóka verkreikning með greiðsluseðil                                             | Danmörk                           |
 | Flytja inn skilgreiningar rafræna reikningsfærslu OIOUBL                                                                                | Danmörk                           |
-| Flytja inn viðskiptavinalykill fyrir  rafræna reikningsfærslu OIOUBL                                                                         | Danmörk                           |
+| Flytja inn viðskiptavinalykill fyrir rafræna reikningsfærslu OIOUBL                                                                         | Danmörk                           |
 | Flytja inn rafræna reikningsfærslu OIOUBL                                                                                               | Danmörk                           |
 | Uppsetning sniðs greiðsluseðils                                                                                                       | Danmörk                           |
 | \*EEU-00047 fyrirframgreiðsla til starfsmanns                                                                                          | Austur-Evrópa                    |
@@ -167,7 +167,7 @@ ms.locfileid: "1561928"
 | \*NO-00002 Greiðsla viðskiptavinar byggð á greiðslukenni                                                                                  | Evrópu                            |
 | Setja upp bankareikninga fyrirtækis fyrir ISO20022 kreditfærsla                                                                       | Evrópu                            |
 | Setja upp bankareikninga fyrirtækis fyrir ISO20022 beingreiðsla                                                                          | Evrópu                            |
-| Setja upp viðskiptavinir og bankareikningar viðskiptavinar fyrir ISO20022-beingreiðsla                                                            | Evrópu                            |
+| Setja upp viðskiptavinir og bankareikningar viðskiptavinar fyrir ISO20022-beingreiðsla                                                           | Evrópu                            |
 | Setja upp greiðsluhátt fyrir ISO20022-kreditfærsla                                                                            | Evrópu                            |
 | Setja upp greiðsluhátt fyrir ISO20022-beingreiðsla                                                                               | Evrópu                            |
 | Setja upp lánardrottna og bankareikninga lánardrottins fyrir ISO20022 kredit flutninga                                                            | Evrópu                            |
@@ -272,7 +272,7 @@ ms.locfileid: "1561928"
 | Setja upp viðskiptavina og sölupöntun til þess að viðfang samstæðureiknings                                                           | Japan                             |
 | Setja upp skuldbinding vegna losunar eignar og færa inn ARO-upphæð á eign                                               | Japan                             |
 | Uppsetning samstæðureikningur                                                                                                     | Japan                             |
-| Uppsetning almennar færibreytur  virðisrýrnunar bókhalds og bókunarreglu                                                                | Japan                             |
+| Uppsetning almennar færibreytur virðisrýrnunar bókhalds og bókunarreglu                                                                | Japan                             |
 | Uppsetning Japanskt greiðslu með framseldum víxil viðskiptavinar                                                                     | Japan                             |
 | Setja upp aðalgögn fyrir meðtalningu frádráttarbær kostnaðar fyrir margar bókunarlög                                              | Japan                             |
 | Uppsetning Japanskt skýrslu neysluskatts                                                                                               | Japan                             |
@@ -303,13 +303,13 @@ ms.locfileid: "1561928"
 | MY-00010 GST - Mynda GAF skrár í viðeigandi sniði                                                                         | Malasíu Singapúr og Taíland |
 | MY-00011 02 Mynda debetnótu viðskiptavinar fyrir sölu verks                                                                       | Malasíu Singapúr og Taíland |
 | MY-00011 03 mynda kreditnótu Viðskiptavinar fyrir verksölur                                                                      | Malasíu Singapúr og Taíland |
-|  Stofna innkaupapöntun sem inniheldur vörur sem falla undir bakfærslu á VSK                                                        | Bretland                    |
-|  Stofna sölupöntun sem inniheldur vörur sem falla undir bakfærslu á VSK                                                           | Bretland                    |
+| Stofna innkaupapöntun sem inniheldur vörur sem falla undir bakfærslu á VSK                                                        | Bretland                    |
+| Stofna sölupöntun sem inniheldur vörur sem falla undir bakfærslu á VSK                                                           | Bretland                    |
 | GB-00002 Setja upp bakfærða VSK-vöruflokka reglur og færibreytur                                                            | Bretland                    |
 | GB-00009 Stofna kreditnótu í uppgjörsafslætti                                                                         | Bretland                    |
 | GB-00009 Setja upp færibreytur fyrir kreditnótu á kvaðningu greiðsluafsláttar                                                             | Bretland                    |
-|  Setja upp söluskattshópa vöru fyrir bakfærslu VSK                                                                              | Bretland                    |
-|  Setja upp söluskattshópa fyrir bakfærðan VSK                                                                                   | Bretland                    |
+| Setja upp söluskattshópa vöru fyrir bakfærslu VSK                                                                              | Bretland                    |
+| Setja upp söluskattshópa fyrir bakfærðan VSK                                                                                   | Bretland                    |
 
 ### <a name="expense-management"></a>Útgjaldastýring
 
@@ -415,7 +415,7 @@ ms.locfileid: "1561928"
 | Stofna strikamerki fyrir afurð.                                        | Altæk         |
 | \*Stofna nafnakerfi afurðarnúmers fyrir fyrirframskilgreind afurðarafbrigði | Altæk         |
 | \*Stofna nafnakerfi afurðarnúmers fyrir skilgreind afurðarafbrigði | Altæk         |
-| \* Skilgreina sjálfgefnar pöntunarstillingar fyrir vöru                            | Altæk         |
+| \*Skilgreina sjálfgefnar pöntunarstillingar fyrir vöru                            | Altæk         |
 | Stofna sölupöntun fyrir stillanlega afurð                        | Altæk         |
 | Stofna söluverð valskilyrði                                  | Altæk         |
 | Færið inn GTIN-kóða fyrir afurðarinnar.                                      | Altæk         |
@@ -469,7 +469,7 @@ ms.locfileid: "1561928"
 | Skilgreina og stjórna heimildaflokkum sölustaðar                        | Altæk         |
 | Skilgreina samfelldniáætlanir                                     | Altæk         |
 | \*Skilgreina samskipti smásölurásar (CDX)                   | Altæk         |
-| leiðréttingar Vildarkort umbunar                                     | Altæk         |
+| Leiðréttingar vildarkortsumbunar                                    | Altæk         |
 | Stjórna úrval                                             | Altæk         |
 | Úthlutun vsk og hnekkingar                              | Altæk         |
 | Setja upp reglur og færibreytur fyrir dreifing frá dreifingarstöð og dreifing frá lager | Altæk         |

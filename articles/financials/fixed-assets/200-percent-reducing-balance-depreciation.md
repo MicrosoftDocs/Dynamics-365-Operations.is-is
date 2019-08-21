@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13951
 ms.assetid: 69b4e010-7683-4dc2-8a06-6d572f37e903
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec51f9e12e31e81c56fab9e82d0fc18d45beb5e6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0474a8cecccaf1e23874458c27e0bea991140b6c
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569314"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840794"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>Afskriftir fyrir 200% bókfært virði
 
@@ -44,28 +44,28 @@ Valið skilgreinir valmöguleikana sem í boði eru á svæðinu **tímabilstí�
 
 ### <a name="calendar"></a>Dagatal
 
-Það er hægt að velja að halda sjálfgefnum gildum í svæðinu **afskriftarár**,**dagatal**. 
+Hægt er að velja að halda sjálfgefnum gildum í reitnum **Afskriftarár**, **Dagatal**. 
 
 **Dagatal** uppfærir afskriftargrundvöllinn 1. Janúar ár hvert. Yfirleitt eru afskriftir bókað nettóvirði mínus hrakvirði. Í dæmunum hér að neðan er afskriftagrunnurinn deilistofninn í fyrstu segðinni í útreikningum í útreikningsdálkinum. 
 
 Ef valið er **Dagatal** sem afskriftaár eru eftirfarandi valkostir tiltækir á svæðinu **tímabilstíðni**:
 
 -   **Árleg** upphæð bókar 31. Desember.
--   **Mánaðarlega**bókar mánaðarlega upphæð við lok hvers almanaks mánaðar.
--   **Ársfjórðungslega**bókar upphæð ársfjórðungslega við lok hvers almanaksfjórðungs (31. mars, 30. júní, 30. september og 31. desember).
--   **Tvisvar á ári**bókar upphæð á hálfs árs fresti miðað við hálft almanaksár (30. júní og 31. desember).
+-   **Mánaðarlega** bókar mánaðarlega upphæð við lok hvers almanaksmánaðar.
+-   **Ársfjórðungslega** bókar upphæð ársfjórðungslega við lok hvers almanaksfjórðungs (31. mars, 30. júní, 30. september og 31. desember).
+-   **Tvisvar á ári** bókar upphæð á hálfs árs fresti miðað við hálft almanaksár (30. júní og 31. desember).
 -   Með **Daglega** er afskriftarupphæð fyrir afskriftaraðferðina daglega bókuð með einni færslu daglega.
 
 ### <a name="fiscal"></a>Fjárhagur
 
 Ef valið er **Fjárhagsárs** á svæðinu **Afskriftarár** er 200% afskrift af bókfærðu virði reiknað á grundvelli fjárhagsárs fyrir fjárhagsdagatalið sem tilgreint er fyrir bókina eða fyrir fjárhagsdagatalið sem valin er á síðunni **Fjárhagur**. Fjárhagsdagatöl eru sett upp á síðunni **fjárhagsdagatöl**. 
 
-Fyrir fjárhagsárið 1. júlí til 30. júní, byrjar útreikningur afskrifta til dæmis þann 1. júlí. Fjárhagsár getur verið lengra eða styttra en 12 mánuðir. Afskriftirnar eru leiðréttar fyrir hvert tímabil. Lengd næsta fjárhagsárs ákvarðast af uppsetning tímabila á síðunni**fjárhagsdagatöl**. 
+Fyrir fjárhagsárið 1. júlí til 30. júní, byrjar útreikningur afskrifta til dæmis þann 1. júlí. Fjárhagsár getur verið lengra eða styttra en 12 mánuðir. Afskriftirnar eru leiðréttar fyrir hvert tímabil. Lengd næsta fjárhagsárs ákvarðast af uppsetning tímabila á síðunni **Fjárhagsdagatöl**. 
 
 Ef **Fjárhags** er valið sem afskriftaár eru eftirfarandi valkostir tiltækir á svæðinu **Tímabilstíðni**:
 
--   **Árlega**bókar heildarupphæð reiknaðra afskrifta°fyrir fjárhagsárið sem eina upphæð á síðasta degi fjárhagsársins.
--   **Reikningstímabil** bókar heildarupphæð reiknaðra afskrifta fyrir fjárhagsárið. Þessari upphæð er safnað upp í fjárhagstímabilin sem skilgreind eru á síðunni**fjárhagsdagatöl**.
+-   **Árlega** bókar heildarupphæð reiknaðra afskrifta fyrir fjárhagsárið sem eina upphæð á síðasta degi fjárhagsársins.
+-   **Reikningstímabil** bókar heildarupphæð reiknaðra afskrifta fyrir fjárhagsárið. Þessari upphæð er safnað upp í fjárhagstímabilin sem skilgreind eru á síðunni **Fjárhagsdagatöl**.
 
 ## <a name="example-of-200-reducing-balance-depreciation"></a>Dæmi um afskriftir fyrir 200% bókfært virði
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13871
 ms.assetid: 3abc263e-59d6-4f1a-986d-1be388948bd3
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7af5413376a98c3b2b7ded46c757c9156a3fadf
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5af050fb6099b583be4e9c60ba56dacf38d31c08
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555697"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840866"
 ---
 # <a name="125-percent-reducing-balance-depreciation"></a>Afskriftir fyrir 125% bókfært virði
 
@@ -31,9 +31,9 @@ ms.locfileid: "1555697"
 
 Þessi grein gefur yfirlit yfir afskriftaraðferðina 125 prósent bókfært virði.
 
-Þegar afskriftaregla fyrir eignir er sett upp og valið er **125% bókfært virði** í skjámyndinni **Aðferð** á síðunni **Afskriftarreglur**eru eignir sem eru tengdar þessari afskriftareglu, afskrifaðar með sama hlutfall af hundraði á hverju afskriftatímabili. Þessi prósenta er reiknuð á grundvelli líftíma eignarinnar. Til dæmis, ef eign hefur líftímann fimm ár, er prósentan reiknuð sem 25 prósent°(125% ÷ 5).
+Þegar afskriftaregla fyrir eignir er sett upp og valið er **125% bókfært virði** í skjámyndinni **Aðferð** á síðunni **Afskriftarreglur** eru eignir sem eru tengdar þessari afskriftareglu, afskrifaðar með sama hlutfall af hundraði á hverju afskriftatímabili. Þessi prósenta er reiknuð á grundvelli líftíma eignarinnar. Til dæmis, ef eign hefur líftímann fimm ár, er prósentan reiknuð sem 25 prósent°(125% ÷ 5).
 
-Til að setja upp afskriftir fyrir 125% bókfært virði, verður einnig að velja valkosti á svæðinu **Afskriftarár** og svæðið **Tímabilstíðni** á síðunni **Afskriftareglur**. Valkostirnir sem eru tiltækir á svæðinu**tímabilstíðni** eru mismunandi eftir því sem valið er á svæðinu **afskriftarár**.
+Til að setja upp afskriftir fyrir 125% bókfært virði, verður einnig að velja valkosti á svæðinu **Afskriftarár** og svæðið **Tímabilstíðni** á síðunni **Afskriftareglur**. Valkostirnir sem eru tiltækir á svæðinu **tímabilstíðni** eru mismunandi eftir því sem valið er á svæðinu **afskriftarár**.
 
 ## <a name="select-a-depreciation-year"></a>Velja afskriftaár
 Hægt er að velja annað hvort **Dagatal** eða **reikningsár** í svæðinu **afskriftarár** á **afskriftareglu** síðunni. Sjálfgefið gildi er **Dagatal**. 
@@ -42,16 +42,16 @@ Valið skilgreinir valmöguleikana sem í boði eru á svæðinu **tímabilstí�
 
 ### <a name="calendar"></a>Dagatal
 
-Það er hægt að velja að halda sjálfgefnum gildum í svæðinu **afskriftarár**,**dagatal**. 
+Það er hægt að velja að halda sjálfgefnum gildum í svæðinu **afskriftarár**, **dagatal**. 
 
 **Dagatal** uppfærir afskriftargrundvöllinn 1. Janúar ár hvert. Yfirleitt er afskriftagrundvöllurinn bókað nettóvirði mínus hrakvirði. Í dæmunum hér að neðan er afskriftagrunnurinn deilistofninn í fyrstu segðinni í útreikningum í útreikningsdálkinum. 
 
 Ef valið er **Dagatal** sem afskriftaár eru eftirfarandi valkostir tiltækir á svæðinu **tímabilstíðni**:
 
 -   **Árleg** upphæð bókar 31. Desember.
--   **Mánaðarlega**bókar mánaðarlega upphæð við lok hvers almanaks mánaðar.
--   **Ársfjórðungslega**bókar upphæð ársfjórðungslega við lok hvers almanaksfjórðungs (31. mars, 30. júní, 30. september og 31. desember).
--   **Tvisvar á ári**bókar upphæð á hálfs árs fresti miðað við hálft almanaksár (30. júní og 31. desember).
+-   **Mánaðarlega** bókar mánaðarlega upphæð við lok hvers almanaksmánaðar.
+-   **Ársfjórðungslega** bókar upphæð ársfjórðungslega við lok hvers almanaksfjórðungs (31. mars, 30. júní, 30. september og 31. desember).
+-   **Tvisvar á ári** bókar upphæð á hálfs árs fresti miðað við hálft almanaksár (30. júní og 31. desember).
 -   Með **Daglega** er afskriftarupphæð fyrir afskriftaraðferðina daglega bókuð með einni færslu daglega.
 
 ### <a name="fiscal"></a>Fjárhagur
@@ -62,8 +62,8 @@ Fyrir fjárhagsárið 1. júlí til 30. júní, byrjar útreikningur afskrifta t
 
 Ef **reikningsár** er valið sem afskriftaár eru eftirfarandi valkostir tiltækir í svæðinu **tímabilstíðni**:
 
--   **Árlega**bókar heildarupphæð reiknaðra afskrifta°fyrir fjárhagsárið sem eina upphæð á síðasta degi fjárhagsársins.
--   **Reikningstímabil** bókar heildarupphæð reiknaðra afskrifta fyrir fjárhagsárið. Þessari upphæð er safnað upp í fjárhagstímabilin sem skilgreind eru á síðunni**fjárhagsdagatöl**.
+-   **Árlega** bókar heildarupphæð reiknaðra afskrifta°fyrir fjárhagsárið sem eina upphæð á síðasta degi fjárhagsársins.
+-   **Reikningstímabil** bókar heildarupphæð reiknaðra afskrifta fyrir fjárhagsárið. Þessari upphæð er safnað upp í fjárhagstímabilin sem skilgreind eru á síðunni **Fjárhagsdagatöl**.
 
 ## <a name="example-of-125-reducing-balance-depreciation"></a>Dæmi um afskriftir fyrir 125% bókfært virði
 

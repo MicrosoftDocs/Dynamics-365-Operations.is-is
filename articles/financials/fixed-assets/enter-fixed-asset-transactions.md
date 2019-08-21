@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, PurchCreateOrder
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 23061
 ms.assetid: 338c495b-a4d8-461e-b85b-a83faf673730
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6362a63bca43b5ac8da14becf6b966e459365ce1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6f08750c369475f9d8be3c723aaf4eb6cf36eb7c
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552742"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840554"
 ---
 # <a name="fixed-asset-transaction-options"></a>Eignafærslukostir
 
@@ -34,7 +34,7 @@ ms.locfileid: "1552742"
 Þú getur sett upp eign fyrir sameiningu með viðskiptaskuldir, viðskiptakröfur, innkaup og uppruna og fjárhag. Einnig er hægt að flytja vörur í birgðastjórnun á eignir eigi að nota þær vörur innan kerfis.
 
 ## <a name="accounts-payable"></a>Viðskiptaskuldir
-Hægt er að færa inn eignafærslur í síðunni færslubókarfylgiskjal. Þessa síða er aðeins hægt að opna úr skjámyndinni reikningabók. Einnig er hægt að opna síðuna færslubókarfylgiskjal frá síðu færslubókarsamþykkt reiknings. Í svæðinu mótlykill, veljið eignir. Síðan, í  mótlykill reit verður að velja númer eignar. Á flipanum eignir færirðu inn gildi í reitina færslugerð og bók.
+Hægt er að færa inn eignafærslur í síðunni færslubókarfylgiskjal. Þessa síða er aðeins hægt að opna úr skjámyndinni reikningabók. Einnig er hægt að opna síðuna færslubókarfylgiskjal frá síðu færslubókarsamþykkt reiknings. Í svæðinu mótlykill, veljið eignir. Síðan, í mótlykill reit verður að velja númer eignar. Á flipanum eignir færirðu inn gildi í reitina færslugerð og bók.
 
 ## <a name="accounts-receivable"></a>Viðskiptakröfur
 Hægt er að færa inn eignafærslur í síðunni reikningur með frjálsum texta.  Veljið línuatriði í síðunni reikningur með frjálsum texta, í hnitanetinu reikningslínur. Smellið á flýtiflipa „Upplýsingar um línur“. Færðu inn eignanúmer og bók fyrir afskráningarfærslu. Fyrir reikninga með valfrjálsum texta er gerð eignafærslunnar alltaf afskráninga - sala.
@@ -47,7 +47,7 @@ Til að bóka kaupfærslu fyrir fyrirliggjandi eign skal tilgreina eignanúmer, 
 Þegar færslubók innkaupapöntunar eða færslubók birgða til eigna eru notaðar fyrir eignakaup hefur það áhrif á birgðavirðið.
 
 ## <a name="general-ledger"></a>Fjárhagur
-Allar gerðir eignafærsla má bóka í  síðunni almenn færslubók. Einnig er hægt að nota færslubækur í eignum til að bóka eignafærslur.
+Allar gerðir eignafærsla má bóka í síðunni almenn færslubók. Einnig er hægt að nota færslubækur í eignum til að bóka eignafærslur.
 
 ## <a name="options-for-entering-fixed-asset-transaction-types"></a>Valkostir innfærslu á eignafærslugerðum
 

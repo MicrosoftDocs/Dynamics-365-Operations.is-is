@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.custom: 91243
 ms.assetid: 515bc6e7-a85d-4995-95c6-6cab6c8aa0f9
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5fb6b23d11ab263ed158a0a4476f77ed22b5084
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: 8f11d27da288ba69511f4159aad2155abe3467ff
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595663"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863528"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Hvað er nýtt eða breytt í Dynamics AX 7.0 (febrúar 2016)
 
@@ -49,7 +49,7 @@ ms.locfileid: "1595663"
 <td>Fjármálastjórar hafa áhuga á að vita hvort birgðir eða VÍV-birgðastaða eykst eða minnkar með tímanum. Með því að flokka rekstrartilvik í yfirlitinu, getur fjármálastjóra fengið yfirlit yfir hvernig birgðaflæði er. Ef birgðir eða VíV-birgðir eru metnar með staðalkostnaði, mun skráð heildar frávik einnig sjáist.</td>
 </tr>
 <tr>
-<td>Nota skal <strong> kostnaðarstjórnun</strong> kerfiseiningu.</td>
+<td>Nota skal <strong>kostnaðarstjórnun</strong> kerfiseiningu.</td>
 <td>Ekki tiltækt</td>
 <td>Kostnaðarstjórnun er kynnt sem ákveðið svið. Kostnaðartengdar skilgreiningar og innsýn voru dreifðar um birgðastjórnun, framleiðslustýringu og Viðskiptaskuldir.</td>
 <td>Þar sem öll verk sem tengjast stjórnun kostnaðar eru miðstýrðar í einu kerfi, verður auðveldara fyrir fjármálastjóra að viðhalda í kerfinu.</td>
@@ -491,7 +491,7 @@ Engum nýjum eiginleikum hefur verið bætt við.
 <td>Þessi breyting veitir notanda möguleika á mun meiri möguleika á að sníða til gögn, breyta, og veitir einnig öllum fríðindum úr líftímastjórnun skilgreininga fyrir rafræna skýrslugerð, eins og að skipta auðveldlega út skilgreiningum, útgáfum, o.s.frv.</td>
 </tr>
 <tr>
-<td>(FR) Stöðulisti með skýrslu fyrir flokkssamtölulyklum </td>
+<td>(FR) Stöðulisti með skýrslu fyrir flokkssamtölulyklum.</td>
 <td>Stöðulisti með skýrslu fyrir flokkssamtölulyklum er innleitt sem ssrs-skýrsla (LedgerAccountSum_FR).</td>
 <td>Stöðulisti með skýrslu fyrir flokkssamtölulyklum er innleitt sem Management Reporter-skýrsla sem er tiltæk möppunni Staðfærðar fjárhagsskýrslur LCS eignasafns.</td>
 <td>Þetta gerir notendum kleift að fá allar fríðindi og frelsi í sérsníðingu með því að nota fjárhagsskýrslur í Management Reporter.</td>
@@ -515,7 +515,7 @@ Engum nýjum eiginleikum hefur verið bætt við.
 <td>Þetta sameinar nálgun til að úthluta vörukóðum á útgefnar afurðir og tegundir í sölu- og innkaupaskjölum.</td>
 </tr>
 <tr>
-<td>(ESB) Gefa skýrslu um magn fyrir viðbótareiningar fyrir Intrastat með því að nota stillingu fyrir  umreikning eininga.</td>
+<td>(ESB) Gefa skýrslu um magn fyrir viðbótareiningar fyrir Intrastat með því að nota stillingu fyrir umreikning eininga.</td>
 <td>Intrastat-vörukóða hefur textasvæði til að auðkenna viðbótareiningar, og korti fyrir <strong>Afurð</strong> hefur svæði til að auðkenna magn viðbótareininga í kílóum.</td>
 <td>Viðbótareiningar fyrir intrastat-vörukóða er valið úr lista yfir Einingar. Magn viðbótareininga er reiknað í gegnum stillingar fyrir umreikningur eininga.</td>
 <td>Þetta sameinar nálgunin fyrir umreikning úr færslueiningum í viðbótareiningar.</td>
@@ -540,7 +540,7 @@ Engum nýjum eiginleikum hefur verið bætt við.
 | Hvað hægt er að gera? | Dynamics AX 2012 |
 |------------------|------------------|
 | Framkvæma athugun á efnisframboð fyrir framleiðslupantanir á sérstakri síðu sem er opnuð í **Stjórnun á framleiðslugólfi** vinnusvæði. | Ekki tiltækt |
-| Byrjaðu og skrifaðu skýrslu um framleiðsluverk með því að nota nýju síðuna **Verkspjaldstæki**. | **Starfsskráning**skjámynd er aðallega ætlað fyrir stóra skjái á afgreiðslustöðvar og Notendaviðmóti eru yfirleitt opnuð með músarsmellum. |
+| Byrjaðu og skrifaðu skýrslu um framleiðsluverk með því að nota nýju síðuna **Verkspjaldstæki**. | **Starfsskráning** skjámynd er aðallega ætlað fyrir stóra skjái á afgreiðslustöðvar og Notendaviðmóti eru yfirleitt opnuð með músarsmellum. |
 
 ## <a name="master-planning-and-forecasting"></a>Aðaláætlanagerð og spár
 
@@ -600,7 +600,7 @@ Microsoft Azure-hýst HQ Retail býður upp á miðstýrðar stjórnun á og hei
 <li>Rakning lífsferils úrvals</li>
 <li>Stjórnun útgefinna afurða</li>
 </ul>
-<strong>Stjórnunarvinnusvæði verðs og afsláttar </strong> kveikir á eftirfarandi virkni:
+<strong>Stjórnunarvinnusvæði verðs og afsláttar</strong> kveikir á eftirfarandi virkni:
 <ul>
 <li>Stjórnun verðs og afsláttar fyrir tiltekna rás og flokk</li>
 <li>Stjórnun flokksverðsreglu</li>
@@ -634,14 +634,14 @@ Microsoft Azure-hýst HQ Retail býður upp á miðstýrðar stjórnun á og hei
 <li>Fylgst með stöðu tæki, og beint villuleita og hlaða niður Retail Modern POS (MPOS) uppsetningu forrits í verslunum.</li>
 <li>Fá aðgang að allar tengdar síður.</li>
 </ul>
-<strong>Stjórnun smásöluverslunar </strong>vinnusvæði gerir kleift að framkvæma eftirfarandi verkefni:
+<strong>Stjórnun smásöluverslunar</strong> vinnusvæði gerir kleift að framkvæma eftirfarandi verkefni:
 <ul>
 <li>Stjórna starfsmanna og heimildir starfsmanna í POS.</li>
 <li>Rekja vaktastöðu fyrir tiltekna verslun eða verslunarflokk.</li>
 <li>Villuleita beint og hlaða niður MPOS uppsetningu forrits í verslunum.</li>
 <li>Prenta skýrslur og opna tengdar síða.</li>
 </ul>
-<strong>Fjármál smásöluverslunar </strong>vinnusvæði gerir kleift að framkvæma eftirfarandi verkefni:
+<strong>Fjármál smásöluverslunar</strong> vinnusvæði gerir kleift að framkvæma eftirfarandi verkefni:
 <ul>
 <li>Búa til að reikna út og bóka uppgjör fyrir tiltekna rás.</li>
 <li>Áætla runuvinnslu til að uppfæra birgðir, og reikna út og bóka uppgjör.</li>
@@ -973,7 +973,7 @@ Til staðar er bætt "lágsnertingar" uppsetning á íhlut biðlara í gegnum sj
 <td>Fylgjast með ástandi kerfisins og greina villur og vandamál.</td>
 <td>Þessi aðgerð krefst <a href="https://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Pack fyrir Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
 <td>Eftirlit og greining fyrir íhluti Smásölu er nú tiltækt gegnum í <strong>innsýn í aðgerðir</strong> yfirlit í LCS.</td>
-<td><strong>Innsýn í aðgerðir </strong> yfirlit er í vöktunartengi sem byggist á skýi sem kemur í stað þarfarinnar að setja upp uppbyggingu System Center Operations Manager (SCOM).</td>
+<td><strong>Innsýn í aðgerðir</strong> yfirlit er í vöktunartengi sem byggist á skýi sem kemur í stað þarfarinnar að setja upp uppbyggingu System Center Operations Manager (SCOM).</td>
 </tr>
 <tr>
 <td>Stofna, skilgreina, hlaða niður, og setja upp vélbúnaðarstöð smásölu og tæki með því að nota sjálfsafgreiðslu.</td>
@@ -999,7 +999,7 @@ Til staðar er bætt "lágsnertingar" uppsetning á íhlut biðlara í gegnum sj
 <tr>
 <td>Sækja stutt yfirlit yfir aðra valkosti afhendingar þegar þú lofar pöntunum til viðskiptavina.</td>
 <td>Þegar skorður eru á afurðaframboði og umbeðinni afhendingardagsetningu viðskiptavinar fyrir eina eða fleiri afurðir í pöntun er ekki hægt að uppfylla, verður pöntun lofað að áskorun. Til að finna aðrar leiðir sem geta jafnað tap fyrir vandamál í tiltækileika og sendingartíma þannig að umbeðin dagsetning: viðskiptavinar megi standa við, eða að bjóða viðskiptavini lausn á afhendingu sem þeir geta samþykkt og treyst, getur pantanavinnslan þurft að opna nokkrar skjámyndir, sem hver býður aðeins hlutmengi nauðsynlegra upplýsinga. Nánar, einni skjámynd sýnir lagerbirgðir milli svæða, annarri skjámynd sýnir lagerbirgðir í samstæðustillingu, þriðja skjámynd gerir notendum kleift að reikna út fyrstu tiltækar dagsetningar fyrir eitt svæði/afbrigði í einu, og fjórða sýnir birgðapöntunum. Þess vegna finnst notendum þeir ekki vissir um að hafa íhugað alla viðeigandi valkosti í stað þess bara að velja lausn sem er skjót en ekki fyrsti kostur. Notendur líka finn ekki árangri, vegna þess að fjölmargir truflanir eiga sér stað á meðan á flæði pöntunar lofaðar þegar þeir opna og loka margar síður, og sameina innsýn og möguleikar.</td>
-<td>Byggt á fyrirliggjandi reiknireglum fyrir útreikning afhendingardagsetningar, síðan <strong>Aðrir valkostir afhendingar</strong> býður upp á nýja reynslu notanda fyrir lofaða pöntun:
+<td>Byggt á fyrirliggjandi reiknireglum fyrir útreikning afhendingardagsetningar, síðan <strong>Aðrir valkostir afhendingar </strong>býður upp á nýja reynslu notanda fyrir lofaða pöntun:
 <ul>
 <li>Það sameinar viðeigandi upplýsingar úr margar skjámyndir í eitt bil.</li>
 <li>Hún býður „tilbúnir til afgreiðslu“-pakka, eins og í samsetningunni svæði/vöruhús/afbrigði/flutningsmáti, byggt á hröðustu skilyrðum afhendingar (fyrsta tiltæka dagsetningin) sem notandi getur valið úr.</li>

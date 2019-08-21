@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.custom: 104233
 ms.assetid: 2a2ffa1e-5a15-4e2a-b18c-c4d890d38a50
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.openlocfilehash: cf12f2dfb62645fc5d6886ef429441c48982d484
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7134dc49c0e767d3bc4dc32e4feeb0e83a168e86
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561858"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1851926"
 ---
 # <a name="new-or-updated-task-guides-may-2016"></a>Nýjar eða uppfærðar verkefnaleiðbeiningar (Maí 2016)
 
@@ -32,7 +32,7 @@ ms.locfileid: "1561858"
 
 ## <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Verkleiðbeiningar í (maí 2016 - öll tungumál) Unified Library for Microsoft Dynamics AX
 
-(Maí 2016) APQC Unified Library inniheldur verkleiðbeiningar sem er ætlaðar eru fyrir Hjálp með Microsoft Dynamics AX maí 2016 uppfærslu og Microsoft Dynamics AX 2016 febrúarútgáfu. Staðbundnar útgáfur af verkefnaleiðbeiningum sem voru gefnar út í (febrúar 2016) Unified Library for Microsoft Dynamics AX. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hafist handa með hjálp](help-overview.md).
+(Maí 2016) APQC Unified Library inniheldur verkleiðbeiningar sem er ætlaðar eru fyrir Hjálp með Microsoft Dynamics AX maí 2016 uppfærslu og Microsoft Dynamics AX 2016 febrúarútgáfu. Staðbundnar útgáfur af verkefnaleiðbeiningum sem voru gefnar út í (febrúar 2016) APQC Unified Library eru tiltækar í þessu safni. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hafist handa með hjálp](help-overview.md).
 
 > [!NOTE]
 > Stjarna (\*) við titil línunnar fyrir viðskiptaferlavinnslu (BPM) sýnir verkefnaleiðbeiningar fyrir viðskiptaferli sem var stofnað fyrir Dynamics AX maí uppfærslu 2016 og er ekki studdur í eldri útgáfu af Microsoft Dynamics AX.
@@ -185,7 +185,7 @@ ms.locfileid: "1561858"
 | Setja upp gámun                                         | Altæk         |
 | Setja upp handvirkt pökkun.                                           | Altæk         |
 | Setja upp flutningsskorður fyrir vöru                   | Altæk         |
-| \*Setja upp vinnureglur vöruhúss                                 | Altæk         |
+| \*Setja upp vinnureglur vöruhúss                                | Altæk         |
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

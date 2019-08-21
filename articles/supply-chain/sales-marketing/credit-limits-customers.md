@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fd7022eb1ed2671fcfc2861eb8ec7504ebf9f98
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 37e860a969d527a334af7524c70e5ea15be7801e
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551815"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742379"
 ---
 # <a name="credit-limits-for-customers"></a>Lánamark fyrir viðskiptavininn
 
@@ -93,7 +93,7 @@ Notið **Færibreytur viðskiptakrafna** til að tilgreina upplýsingarnar sem �
 
 **Hvar eru upplýsingar um notkun annars lánsfjár viðskiptavinar?**
 
-Upplýsingar um stöðu viðskiptavina og útistandandi lánsfjárhæð eru reiknaðar og vistaðar þegar þú býrð til skyndimynd og þær birtast í **Innheimta**. Fjárhæðirnar, sem birtast í **Innheimta**  geta ekki innihaldið alla færsluvirkni fyrr en ný skyndimynd er búin til. Nánari upplýsingar er að finna í [Skuldir og innheimtur í viðskiptakröfum](https://technet.microsoft.com/en-us/library/hh209221.aspx).
+Upplýsingar um stöðu viðskiptavina og útistandandi lánsfjárhæð eru reiknaðar og vistaðar þegar þú býrð til skyndimynd og þær birtast í **Innheimta**. Fjárhæðirnar, sem birtast í **Innheimta** geta ekki innihaldið alla færsluvirkni fyrr en ný skyndimynd er búin til. Nánari upplýsingar er að finna í [Skuldir og innheimtur í viðskiptakröfum](https://technet.microsoft.com/library/hh209221.aspx).
 
 Upplýsingar um stöðu viðskiptavina og útistandandi fjárhæð eru reiknaðar þegar sölupantanir, fylgiseðlar og reikningar eru uppfærð, eftir því hvaða skjöl eru valin. Ef magn í skjalinu sem þú ert að vinna með myndi leiða til þess að farið sé yfir lánamark birtast skilaboð.
 
@@ -104,7 +104,7 @@ Notaðu **Færibreytur viðskiptakrafna** til að tilgreina hvort auðkenning s�
 
 |    Svæði                                    |    lýsing                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|    Krefjast auðkenningar fyrir láni     |    Veljið um hvers konar auðkenningar er þörf fyrir viðskiptavini sem lögaðili þinn lánar. Sá kostur sem valinn er á þessu svæði ákvarðar hvenær og hvers konar upplýsinga er krafist á svæðinu Kennitala innan skjámyndarinnar Viðskiptavinir:        Nei – Engra opinberra skilríkja er krafist, óháð lánamörkum viðskiptavinarins.     Já – Krafist er númers skírteinis sem gefið er út af hinu opinbera eða annarra opinberra skilríkja séu lánamörk viðskiptavinarins hærri en eða jöfn núlli.     Neðri mörk – Krafist er númers skírteinis sem gefið er út af hinu opinbera eða annarra opinberra skilríkja séu lánamörk viðskiptavinarins hærri en eða jöfn þeim mörkum sem  slegin eru inn í svæðið Mörk innan þessarar skjámyndar.        |
+|    Krefjast auðkenningar fyrir láni     |    Veljið um hvers konar auðkenningar er þörf fyrir viðskiptavini sem lögaðili þinn lánar. Sá kostur sem valinn er á þessu svæði ákvarðar hvenær og hvers konar upplýsinga er krafist á svæðinu Kennitala innan skjámyndarinnar Viðskiptavinir:        Nei – Engra opinberra skilríkja er krafist, óháð lánamörkum viðskiptavinarins.     Já – Krafist er númers skírteinis sem gefið er út af hinu opinbera eða annarra opinberra skilríkja séu lánamörk viðskiptavinarins hærri en eða jöfn núlli.     Neðri mörk – Krafist er númers skírteinis sem gefið er út af hinu opinbera eða annarra opinberra skilríkja séu lánamörk viðskiptavinarins hærri en eða jöfn þeim mörkum sem slegin eru inn í svæðið Mörk innan þessarar skjámyndar.        |
 |    Mörk                                    |    Sláið inn við hvaða lánamörk krafist er númers leyfis sem gefið er út af hinu opinbera eða annarra opinberra skilríkja viðskiptavinarins.    Til dæmis er slegið inn 2000 til að gera kröfu um að kenninúmer, til að mynda ökuskírteinisnúmer, sé fært inn fyrir viðskiptavini með lánamörk sem eru 2000 eða hærri.    Svæðið er aðeins tiltækt ef valið var Lágmark takmörkun í svæðinu Krefjast auðkenningar fyrir láni.                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 
 **Hvar tilgrein ég hvort viðvörun eða villa birtist ef lánamarki er náð?**

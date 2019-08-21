@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82a2da882ba951c2ff6420b726e0546e9073d2e4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c30192e24f0475b5d75c90cc7457e929f4dac1ee
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530501"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1838392"
 ---
 # <a name="project-management-and-accounting"></a>Verkefnastjórnun og bókhald
 
@@ -52,7 +52,7 @@ Eins og sýnt er í myndinni hér á undan er hægt að deila verkefnastjórnun 
 3.  Greina
 
 ## <a name="initiate-the-project"></a>Hefja verkið
-Við upphaf verks, koma nokkrar aðalferlar upp. Hægt er að nota verktilboð fyrir samskipti áætlaðrar vinnu, útgjöld og efni til viðskiptavinar. Hægt er að skrá innheimtuskilmála, takmörk og samninga í verksamning. Hægt er að nota sundurliðun verkþátta (WBS) til að áætla og til að meta vinnuna. Hægt er að setja upp áætlanir og spár til að leiðbeina um framkvæmd verka. Eftirfarandi skýringarmynd sýnir uppbyggingu verks. [![skipulag verks](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Við upphaf verks, koma nokkrar aðalferlar upp. Hægt er að nota verktilboð fyrir samskipti áætlaðrar vinnu, útgjöld og efni til viðskiptavinar. Hægt er að skrá innheimtuskilmála, takmörk og samninga í verksamning. Hægt er að nota sundurliðun verkþátta (WBS) til að áætla og til að meta vinnuna. Hægt er að setja upp áætlanir og spár til að leiðbeina um framkvæmd verka. Eftirfarandi skýringarmynd sýnir uppbyggingu verks.[![skipulag verks](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Stofna verktilboð
 
@@ -250,7 +250,7 @@ Eftirfarandi tafla lýsir aðferðum til að reikna út kostnað við að ljúka
 <tbody>
 <tr class="odd">
 <td>Heildarkostnaður - Raunverulegur</td>
-<td>Áætlaðan kostnað þarf að færa inn handvirkt. Þegar dálknum <strong>Heildarkostnaður</strong> eða <strong>Heildarmagn</strong> á síðunni <strong>Kostnaðarmat </strong>er lokið er raunkostnaður dreginn frá þeim samtölum sem notandi færði inn. Niðurstaðan er kostnaðurinn við að ljúka verkinu. Yfirleitt er framvinda kostnaðar ekki rakin samkvæmt, til dæmis, fjölda hóteldvala og fæðis sem eru skráðar á hverju tímabili.&#39; Í staðinn. Rakning er að öllu jöfnu byggð á samanburði við heildarupphæð áætlaðra klukkustunda. Þessi nálgun krefst ekki spárlíkans og heildarkostnaði eða heildarmagni má breyta handvirkt.&#39; Þegar gildi er fært inn í dálkinn <strong>Heildarkostnaður</strong> eða <strong>Heildarmagn</strong> ber Finance and Operations þetta gildi saman við eiginlegar færslur sem eru bókaðar á tímabilinu og lækkar síðan gildið í dálknum <strong>Ólokið magn</strong> eða <strong>Kostnaður við að ljúka</strong>.</td>
+<td>Áætlaðan kostnað þarf að færa inn handvirkt. Þegar dálknum <strong>Heildarkostnaður</strong> eða <strong>Heildarmagn</strong> á síðunni <strong>Kostnaðarmat</strong> er lokið er raunkostnaður dreginn frá þeim samtölum sem notandi færði inn. Niðurstaðan er kostnaðurinn við að ljúka verkinu. Yfirleitt er framvinda kostnaðar ekki rakin samkvæmt, til dæmis, fjölda hóteldvala og fæðis sem eru skráðar á hverju tímabili.&#39; Í staðinn. Rakning er að öllu jöfnu byggð á samanburði við heildarupphæð áætlaðra klukkustunda. Þessi nálgun krefst ekki spárlíkans og heildarkostnaði eða heildarmagni má breyta handvirkt.&#39; Þegar gildi er fært inn í dálkinn <strong>Heildarkostnaður</strong> eða <strong>Heildarmagn</strong> ber Finance and Operations þetta gildi saman við eiginlegar færslur sem eru bókaðar á tímabilinu og lækkar síðan gildið í dálknum <strong>Ólokið magn</strong> eða <strong>Kostnaður við að ljúka</strong>.</td>
 </tr>
 <tr class="even">
 <td>Samtala fjárhagsáætlunar - Raunveruleg</td>
@@ -300,7 +300,7 @@ Byggð á uppsetningu er hægt að spá fyrir sjóðinnstreymis fyrir valið ver
 -   **Verkdagsetning:** 5. mars, 2012.
 -   **Reikningsdagsetning:** 31. mars, 2012. Þessi dagsetning er ákvörðuð byggð á reikningatíðni. Í þessu dæmi er reikningatíðnin stillt á gildandi mánuð. Þess vegna eru allar færslur sem eru bókaðar í marsmánuði reikningsfærðar á síðasta degi mánaðarins.
 -   **Gjalddagi:** 14. Apríl 2012. Þessi dagsetning er ákvörðuð á grundvelli greiðsluskilmála sem voru sett fyrir verkið. Í þessu dæmi er valið greiðsluskilmála 14 daga. Því er 14 dögum bætt við reikningsdagsetninguna að bætast við gjalddaga á 14. apríl 2012.
--   **Áætluð greiðsludagsetning sölu:** 27. Apríl 2012. Þessi dagsetning er reiknuð með því að bæta við fjölda daga í reitinn **Almennir biðdagar** á síðunni **Færibreytur verkefnastjórnunar og bókhalds**  við fjölda daga í reitnum **Stakir biðdagar** á síðunni **Verksamningar** og bæta síðan samtölunni við fjölda daga í reitnum **Gjalddagi**. Fyrir þetta dæmi er fært inn **3** í reitinn **Almennir biðdagar** og **10** í reitinn **Stakir biðminnisdagar**. Því er 13 dögum bætt við gjalddagann til að fá út greiðsludag sölu á 27. apríl 2012.
+-   **Áætluð greiðsludagsetning sölu:** 27. Apríl 2012. Þessi dagsetning er reiknuð með því að bæta við fjölda daga í reitinn **Almennir biðdagar** á síðunni **Færibreytur verkefnastjórnunar og bókhalds** við fjölda daga í reitnum **Stakir biðdagar** á síðunni **Verksamningar** og bæta síðan samtölunni við fjölda daga í reitnum **Gjalddagi**. Fyrir þetta dæmi er fært inn **3** í reitinn **Almennir biðdagar** og **10** í reitinn **Stakir biðminnisdagar**. Því er 13 dögum bætt við gjalddagann til að fá út greiðsludag sölu á 27. apríl 2012.
 
 Almennir biðdagar geta annaðhvort skipt út stökum biðminnisdögum eða verið bætt við staða biðminnisdaga:
 
@@ -394,7 +394,7 @@ Ef **Heildarfjárhagsáætlun** er valin sem aðferð kostnaðarstýringar á s�
 -   **Áætlaður heildarkostnaður** – Sá heildarkostnaður sem var upphaflega áætlaður fyrir valda kostnaðarlínu. Áætlaður heildarkostnaður er reiknaður á síðunni **Forskoðun fjárhags**.
 -   **Frávik** – Frávik fyrir kostnaðarlínu. Þessi upphæð er reiknuð út með því að draga heildarkostnað frá upphaflegri áætlun.
 -   **Frávik byggð á magni** – Heildarmismunur á milli upphaflegrar fjárhagsáætlunar og heildarspár. Þessi upphæð er reiknuð út með því að draga heildarvinnustundir samkvæmt fjárhagsáætlun frá upphaflegum vinnustundum samkvæmt fjárhagsáætlun og margfalda síðan mismuninn með verði í upprunalegri fjárhagsáætlun. Þennan mismun er hægt að sýna stærðfræðilega sem (verð í upprunalegri fjárhagsáætlun) x (upprunalegar vinnustundir samkvæmt fjárhagsáætlun - heildarvinnustundir samkvæmt fjárhagsáætlun) Þessi útreikningur á einungis við um verktíma.
--   **Frávik byggð á verði** –  Þessi upphæð er reiknuð út með því að draga heildartíma áætlunarinnar frá upphaflegum tímum hennar og margfalda síðan mismuninn með heildarfjölda notaðra klukkustunda. Þennan mismun er hægt að sýna stærðfræðilega sem (heildarnotaðar vinnustundir) x (upprunalegar vinnustundir samkvæmt fjárhagsáætlun - heildarvinnustundir samkvæmt fjárhagsáætlun) Þessi útreikningur á einungis við um verktíma.
+-   **Frávik byggð á verði** – Þessi upphæð er reiknuð út með því að draga heildartíma áætlunarinnar frá upphaflegum tímum hennar og margfalda síðan mismuninn með heildarfjölda notaðra klukkustunda. Þennan mismun er hægt að sýna stærðfræðilega sem (heildarnotaðar vinnustundir) x (upprunalegar vinnustundir samkvæmt fjárhagsáætlun - heildarvinnustundir samkvæmt fjárhagsáætlun) Þessi útreikningur á einungis við um verktíma.
 
 ### <a name="analyze-utilization"></a>Greina nýtingu
 

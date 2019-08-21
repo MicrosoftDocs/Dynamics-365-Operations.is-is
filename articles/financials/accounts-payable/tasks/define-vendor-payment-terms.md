@@ -1,54 +1,49 @@
 ---
 title: Skilgreina greiðsluskilmála lánardrottna
-description: Setja upp greiðsluskilmála fyrir reikninga lánardrottins.
+description: Í þessu efnisatriði er útskýrt hvernig á að setja upp greiðsluskilmála fyrir lánardrottnareikninga.
 author: abruer
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PaymTerm, CashDisc
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68c69d5be5ccbdfb17fea7c61121cbf26fee48d4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6432d04aa821e76d67e2c430e514f4b9056d8228
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569033"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843194"
 ---
 # <a name="define-vendor-payment-terms"></a>Skilgreina greiðsluskilmála lánardrottna
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Setja upp greiðsluskilmála fyrir reikninga lánardrottins. Þetta verkefni notar USMF-sýnifyrirtækið.
+Í þessu efnisatriði er útskýrt hvernig á að setja upp greiðsluskilmála fyrir lánardrottnareikninga. Þetta verkefni notar USMF-sýnifyrirtækið.
 
-1. Fara í Viðskiptakröfur > Greiðsluuppsetning > Greiðsluskilmálar.
-2. Smellið á „Nýtt“.
-    * Skilmála greiðslu síða er notuð til að skilgreina hvernig verður að reikna út gjalddaga. Það er ekki notuð til að skilgreina hvernig dagsetning staðgreiðsluafsláttar reiknaðar.  
-3. Færa inn gildi í svæðinu greiðsluskilmálar
-4. Sláið inn gildi í reitnum „Lýsing“.
-5. Í reitinn dagar skal slá inn númer.
-    * Númerið sem fært er inn hér verður notað til að bæta við gjalddaga eða við lok tímabils sem skilgreind er í greiðsluaðferðina. Til dæmis, ef Nettó er valið, verður númerið bætt við gjalddaga. Ef valið er Gildandi mánuður, það bætir númeri bætt við síðasta dags núverandi mánaðar til að reikna út gjalddaga.  
-6. Smellið á „Vista“.
+1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Viðskiptaskuldir > Greiðsluuppsetning > Greiðsluskilmálar**.
+2. Veljið **Nýtt**. Skilmála greiðslu síða er notuð til að skilgreina hvernig verður að reikna út gjalddaga. Það er ekki notuð til að skilgreina hvernig dagsetning staðgreiðsluafsláttar reiknaðar.  
+3. Færðu inn gildi í reitnum **greiðsluskilmálar**.
+4. Í reitinn **Lýsing** skal slá inn gildi.
+5. Í reitinn **Dagar** skal slá inn númer. Númerið sem fært er inn hér verður notað til að bæta við gjalddaga eða við lok tímabils sem skilgreind er í greiðsluaðferðina. Til dæmis, ef **Nettó** er valið, verður tölunni bætt við gjalddaga. Ef valið er **Gildandi mánuður**, bætir það tölunni við síðasta dag núverandi mánaðar til að reikna út gjalddaga.  
+6. Veljið **Vista**.
 7. Lokið síðunni.
-8. Fara í Viðskiptakröfur > Greiðsluuppsetning > Staðgreiðsluafsláttur.
-9. Smellið á „Nýtt“.
-10. Færið inn Kenni í svæðinu staðgreiðsluafslátt.
-11. Sláið inn gildi í reitnum „Lýsing“.
+8. Farðu í **Viðskiptaskuldir > Greiðsluuppsetning > Staðgreiðsluafsláttur**.
+9. Veljið **Nýtt**.
+10. Færið inn kenni í reitnum **Staðgreiðsluafsláttur**.
+11. Í reitinn **Lýsing** skal slá inn gildi.
 12. Ef lánardrottinn býður upp á lagskipt afslátt, velja næsta staðgreiðsluafsláttinn eftir að sá gildandi er útrunnið.
 13. Lokið síðunni.
-14. Í reitinn dagar skal slá inn númer.
-    * Magnið sem er fært inn í svæðið Daga verður notuð til að reikna út dagsetningu staðgreiðsluafsláttar, á grundvelli hvaða valkostur var valinn í svæðinu Nettó/Gildandi. Ef Nettó var valinn er magn bætt við dagsetningu reiknings til að ákvarða dagsetningu staðgreiðsluafsláttar. Ef Núverandi mánuður var valinn er magn verður bætt við lok gjaldmiðilsmánaðar til að ákvarða dagsetningu staðgreiðsluafsláttar.  
-15. Færið inn hlutfall staðgreiðsluafslátt í svæðinu Afsláttar. 
-16. Færið inn aðallykils sem verður að staðgreiðsluafslátt verður bókaður fyrir reikninga viðskiptavina.
-17. Færið inn aðallykils sem verður að bóka staðgreiðsluafslátt fyrir reikninga lánardrottins.
-    * Ef 'Afsláttar mótlykils' er stillt til að Nota aðallykill fyrir afslátt lánardrottins, þá verður aðallykils notaður.  Ef valkosturinn er stillt á Lyklana á reikningslínum, verður staðgreiðsluafslátturinn bókaður á eignar/kostnaðarlykla í línum á reikningi.  
-18. Smellið á „Vista“.
+14. Í reitinn **Dagar** skal slá inn númer. Magnið sem er fært inn í reitinn **Dagar** verður notað til að reikna út dagsetningu staðgreiðsluafsláttar, á grundvelli hvaða valkostur var valinn í reitnum **Nettó/Gildandi**. Ef **Nettó** var valinn er magni bætt við dagsetningu reiknings til að ákvarða dagsetningu staðgreiðsluafsláttar. Ef **Núverandi mánuður** var valinn er magn verður bætt við lok gjaldmiðilsmánaðar til að ákvarða dagsetningu staðgreiðsluafsláttar.  
+15. Færið inn hlutfall staðgreiðsluafslátt í reitnum **Afsláttur**. 
+16. Sláðu inn aðalreikninginn sem staðgreiðsluafslátturinn verður bókaður fyrir reikninga viðskiptavina og sláðu síðan inn aðalreikninginn sem staðgreiðsluafslátturinn verður bókaður fyrir reikninga lánardrottins. Ef **Afsláttarmótlyklar** er stillt til að **Nota aðallykill fyrir afslátt lánardrottins**, þá verður aðallykill notaður. Ef valkosturinn er stillt á **Lyklana á reikningslínum**, verður staðgreiðsluafslátturinn bókaður á eignar/kostnaðarlykla í línum á reikningi.  
+17. Veljið **Vista**.
 

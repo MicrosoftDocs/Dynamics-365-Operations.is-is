@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc5b0798397047d1adedfc19406a7875c853bea6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2ca39c372b50724cff2aa38c1012468489484d05
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571000"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1851066"
 ---
 # <a name="create-documentation-or-training-by-using-task-recordings"></a>Stofna fylgiskjöl eða þjálfun með verkskráningu
 
@@ -37,10 +37,10 @@ ms.locfileid: "1571000"
 <a name="learn-about-task-recorder"></a>Læra um verkskráningar
 -------------------------
 
-Verkskráning er Dynamics AX-verkfæri sem hægt er að nota til að skrá aðgerðir sem framkvæmdar eru í notendaviðmótinu (UI). Þegar notuð er verkskráning eru öll atvik sótt sem framkvæmt er í Notendaviðmóti og eru keyrðir gagnvart þjóninum — þar á meðal bæta við gildum, breytt stillingum og fjarlægir gögn. Skrefin sem þú skráir kallast í sameiningu við *verkskráning*. Hægt er að nota verkskráningu á marga vegu:
+Verkskráning er verkfæri sem hægt er að nota til að skrá aðgerðir sem framkvæmdar eru í notendaviðmótinu (UI). Þegar notuð er verkskráning eru öll atvik sótt sem framkvæmt er í Notendaviðmóti og eru keyrðir gagnvart þjóninum — þar á meðal bæta við gildum, breytt stillingum og fjarlægir gögn. Skrefin sem þú skráir kallast í sameiningu við *verkskráning*. Hægt er að nota verkskráningu á marga vegu:
 
 -   **Hægt er að spila verkskráningu sem verkefnaleiðbeiningar.** Verkefni leiðbeiningunum eru integral stykki hinnar Hjálp reynslu. Verkefnaleiðbeiningar eru stýrð, leiðbeind, gagnvirk reynsla sem fer með þig í gegnum þrep viðskiptaferlis. Notandi er leiðbeint um að ljúka við hvert skref með sprettigluggum (eða "talblaðra"), sem verður lifandi í Notendaviðmóti og benda á UI einingar sem notandinn ætti að eiga samskipti við. "Talblaðra" veitir einnig upplýsingar um hvernig á að eiga samskipti við einingar, svo sem „Smella skal hér“ eða „Í þessu svæði er fært inn gildi“. Verkefnaleiðbeiningar keyra gagnvart gildandi gagnasafni notanda og gögnin sem færð er inn eru vistuð í umhverfi notanda.
--   **Verkskráning getur birst sem skref ferlis í hjálparrúðu.** Nota má hjálparrúðuna til að leita að og sýna verkskráningar. Hægt er að opna rúðuna Hjálp með því að smella á **?** táknið í efstu skoðunarrein eða hægt er að nota flýtivísunarlykilsamsetningu,  **Ctrl + Shift +?**. Hægt er að lesa þrep verkskráningar í hjálparglugganum eða hægt er að kjósa að spila verkskráningu sem leiðarvísi fyrir verk, svo það leiðir notandann í gegnum Notendaviðmóti.
+-   **Verkskráning getur birst sem skref ferlis í hjálparrúðu.** Nota má hjálparrúðuna til að leita að og sýna verkskráningar. Hægt er að opna rúðuna Hjálp með því að smella á **?** táknið í efstu skoðunarrein eða hægt er að nota flýtivísunarlykilsamsetningu, **Ctrl + Shift +?**. Hægt er að lesa þrep verkskráningar í hjálparglugganum eða hægt er að kjósa að spila verkskráningu sem leiðarvísi fyrir verk, svo það leiðir notandann í gegnum Notendaviðmóti.
 -   **Hægt er að vista verkskráningu í BPM.** Hægt er að vista verkskráningu í línu stigveldis í BPM safni í Lifecycle Services (LCS). Lista yfir skef og flæðirit viðskiptaferlis verður mynduð úr skráningunni. Hægt er að sýna verkskráningu sem hafa verið vistaðar í BPM-safn sem Hjálp.
 -   **Hægt er að vista verkskráningu í sem Word-skjöl.** Þannig geturðu auðveldlega búið til prentanlegar þjálfunarleiðbeiningar.
 
@@ -110,7 +110,7 @@ Hægt er að sækja og breyta verkskráningu Microsoft og nota þær fyrir eigin
 6.  Í trénu, skal velja safnhnút viðskiptaferlis sem er verkskráning er tengd við.
 7.  Smelltu á **Í lagi**.
 8.  Smellt er á **Byrja**.
-9.  Á þessum tímapunkti, skaltu framkvæma skráninguna, og breyttu öllum nauðsynlegum skrefum til að endurgera þau.  **Ábending**: Ef aðeins þarf að breyta textanum á skráningu, er hægt að opna skráningu í **Breyta skýringum á skráningu** stillingu, og þá vista hana.
+9.  Á þessum tímapunkti, skaltu framkvæma skráninguna, og breyttu öllum nauðsynlegum skrefum til að endurgera þau. **Ábending**: Ef aðeins þarf að breyta textanum á skráningu, er hægt að opna skráningu í **Breyta skýringum á skráningu** stillingu, og þá vista hana.
 10. Eftir að skráning hefur sinnt spilast til enda, smellið á **Stöðva** í slá verkskráningar efst á skjánum.
 11. Veldu hvernig Á að vista stillingarnar.
 

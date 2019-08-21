@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4543cf7eaa0b1ef8e32d3fdafa2c354cd3739256
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 830a3465944b32cc17feee60e3cbc5ad0a4dc9d7
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554218"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834775"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Setja upp skýrslugerðarkóða virðisaukaskatts
 
@@ -36,7 +36,7 @@ Skýrslugerðakóðar söluskatts vísa í númer svæða í söluskattskýrslu.
 1. Fara í Skattur > Uppsetning > Virðisaukaskattur > Kóðar fyrir virðisaukaskattskýrslu.
 2. Smellið á „Nýtt“.
 3. Velurðu útlit skýrslu sem skýrslan kóði tilheyra í.
-    * Þessi uppsetning er notuð til að sía tiltæk skýrslugerðarkóða fyrir Vsk-kóða. hvern Vsk-kóða tilheyrir Jöfnunartímabil sem tilheyrir Vsk-yfirvöld sem notast við skýrsluútlit   
+    * Þessi uppsetning er notuð til að sía tiltæk skýrslugerðarkóða fyrir Vsk-kóða. hvern Vsk-kóða tilheyrir Jöfnunartímabil sem tilheyrir Vsk-yfirvöld sem notast við skýrsluútlit.  
 4. Færið inn númer sem vísa í númer svæða í vsk-skýrslu.
 5. Færið inn lýsingu til að birta í skýrslum í textareit Skýrslu.
 6. Færið inn lýsingu vegna innri málefna í svæðinu Stutta lýsingu.

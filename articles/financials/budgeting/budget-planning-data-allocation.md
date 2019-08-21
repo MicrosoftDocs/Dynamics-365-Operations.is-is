@@ -1,5 +1,5 @@
 ---
-title: Úthlutunargögn fjárhagsáætlunargerðar
+title: Gagnaúthlutun fjárhagsáætlunargerðar
 description: Þessi grein lýsir mismunandi úthlutunaraðferðum, tiltækum í Microsoft Dynamics 365 for Finance and Operations og hvernig nota má þær.
 author: ShylaThompson
 manager: AnnBe
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 15191
 ms.assetid: 89a918e8-59a4-4711-a2e9-b41989ddd0f1
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 430040f7b3706aa1ad913d70c0dbcab9249ea222
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a706b83bc091053a76be951778df0ad0442e27e1
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568144"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834200"
 ---
 # <a name="budget-planning-data-allocation"></a>Gagnaúthlutun fjárhagsáætlunargerðar
 
@@ -34,13 +34,13 @@ ms.locfileid: "1568144"
 Hægt er að dreifa gögnum í fjárhagsáætlun á ýmsa vegu til að sýna nákvæmlega áætlaðar upphæðir.
 
 ## <a name="allocation-methods"></a>Úthlutunarreglur
-Hægt er að nota þrjár úthlutunaraðferðir (Úthlutun yfir mörg tímabil, Úthlutun á víddir og Nota úthlutunarreglur höfuðbókar) til að stofna línur fjárhagsáætlunargerðar sem byggja á línum í sömu fjárhagsáætlunargerð. Þrjár aðrar aðferðir (uppsöfnun, dreifing og afrita úr fjárhagsáætlunargerð) er hægt að nota til að stofna línur fjárhagsáætlunargerðar í öðrum fjárhagsáætlunum. Fyrir allar sex úthlutunaraðferðirnar þarf að tilgreina aðstæður endastaðar. Aðstæður endastaðar geta verið annað hvort sama og upprunaaðstæður eða frábrugðnar upprunaaðstæðum. Þar að auki er hægt að tilgreina hvort nýjum línum er skeytt við fjárhagsáætlunargerðina eða gildandi línum skipt út fyrir nýjar línur í fjárhagsáætlunargerð.
+Hægt er að nota þrjár úthlutunaraðferðir (Úthlutun yfir mörg tímabil, Úthlutun á víddir og Nota úthlutunarreglur höfuðbókar) til að stofna línur fjárhagsáætlunargerðar sem byggja á línum í sömu fjárhagsáætlunargerð. Þrjár aðrar aðferðir (uppsöfnun, dreifing og afrita úr fjárhagsáætlunargerð) er hægt að nota til að stofna línur fjárhagsáætlunargerðar í öðrum fjárhagsáætlunum. Fyrir allar sex úthlutunaraðferðirnar þarf að tilgreina aðstæður endastaðar. Aðstæður endastaðar geta verið annaðhvort sama og upprunaaðstæður eða frábrugðnar upprunaaðstæðum. Þar að auki er hægt að tilgreina hvort nýjum línum er skeytt við fjárhagsáætlunargerðina eða gildandi línum skipt út fyrir nýjar línur í fjárhagsáætlunargerð.
 
 [![ÚthlutunYfirMörgTímabil](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
 **Úthlutun yfir mörg tímabil** – flokkur fyrir tímabilsúthlutun er notaður til að úthluta fjárhagsáætlunarlínum úr uppruna fjárhagsáætlunargerðarinnar yfir mörg tímabil í aðstæðum endastaðar. Upprunaupphæð er úthlutað á margar línur í aðstæðum endastaðar, byggt á prósentu og dagsetningu sem eru skilgreindar í flokknum tímabilsúthlutun.         
 
 [![AllocateToDimensions](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
-**Úthlutun á víddir** – línum fjárhagsáætlunargerðarinnar er úthlutað úr  upprunalegri fjárhagsáætlunargerð sem ein eða fleiri línur í aðstæðum endastaðar, byggt á prósentu og fjárhagslegum víddum sem eru skilgreind í heiti fjárhagsúthlutunar.           
+**Úthlutun á víddir** – línum fjárhagsáætlunargerðarinnar er úthlutað úr upprunalegri fjárhagsáætlunargerð á eina eða fleiri línur í aðstæðum endastaðar, byggt á prósentu og fjárhagslegum víddum sem eru skilgreindar í heiti fjárhagsúthlutunar.           
 
 ![AggregateChart](./media/aggregatechart-300x230.png)
 **Uppsöfnun** – Línur fjárhagsáætlunar eru lagðar saman úr upprunalegri fjárhagsáætlunargerð í undirfjárhagsáætlun á endastað í yfirfjárhagsáætluninni. Þessi aðferð gerir kleift að sameina á hærra stigi fjárhagsáætlunarupphæðir sem eru teknar saman á neðri stigum í fyrirtækinu.          
@@ -52,7 +52,7 @@ Hægt er að nota þrjár úthlutunaraðferðir (Úthlutun yfir mörg tímabil, 
 **Nota úthlutunarreglur fjárhags** – Línum fjárhagsáætlunar er dreift er úr upprunalegri fjárhagsáætlunargerð til endastaðar, byggt á þeirri úthlutunarreglu höfuðbókar sem er valin. úthlutunarreglna höfuðbókar 
 
 [![CopyFromBudgetPlan](./media/copyfrombudgetplan-187x300.png)](./media/copyfrombudgetplan.png)
-**Afrita af fjárhagsáætlun** – Eins og í dreifingarúthlutunaraðferð eru línur fjárhagsáætlunargerðar stofnaðar í ákvörðunarstað, byggð á línum í tengdri fjárhagsáætlunargerð. Hins vegar með þessari aðferð, þarf upprunalega fjárhagsáætlunargerðarin ekki að vera aðalfjárhagsáætlun en getur verið á hærra stigi í stigveldi fjárhagsáætlunargerðarinnar. Úthlutunaraðferð þessi er gagnleg ef sameinaðar upphæðir eru upphaflega úr fjárhagsáætlunum á mun efri stigum og þarf að flytja á neðri stig fyrirtækisins til  nákvæmrar yfirferðar og leiðréttingar áður en þær geta fengið samþykki efri stiga.          
+**Afrita af fjárhagsáætlun** – Eins og í dreifingarúthlutunaraðferð eru línur fjárhagsáætlunargerðar stofnaðar í ákvörðunarstað, byggð á línum í tengdri fjárhagsáætlunargerð. Hins vegar með þessari aðferð, þarf upprunalega fjárhagsáætlunargerðarin ekki að vera aðalfjárhagsáætlun en getur verið á hærra stigi í stigveldi fjárhagsáætlunargerðarinnar. Úthlutunaraðferð þessi er gagnleg ef sameinaðar upphæðir eru upphaflega úr fjárhagsáætlunum á mun efri stigum og þarf að flytja á neðri stig fyrirtækisins til nákvæmrar yfirferðar og leiðréttingar áður en þær geta fengið samþykki efri stiga.          
 
 ## <a name="using-allocation-methods-in-a-budget-plan"></a>Að nota úthlutunaraðferðir í fjárhagsáætlunargerð
 Til að framkvæma úthlutanir á fjárhagsáætlunarsíðunni skal velja línur til að úthluta og smellið síðan á **Úthlutun fjárhagsáætlunar**.

@@ -1,6 +1,7 @@
 ---
 title: Stofnun skiptipöntunar vöru
 description: Vöruskilapantanir eru yfirleitt stofnaðar eftir að vöru hefur verið skilað eftir skoðun.
+author: josaw1
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
@@ -14,22 +15,22 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 784a2522c27e8131f211ffc52319552b3b928cc3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: edee455fdbfa5cd79e025c91021dfcc7a703e6d0
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556830"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835551"
 ---
 # <a name="create-an-item-replacement-order"></a>Stofnun skiptipöntunar vöru 
 
 [!include [banner](../includes/banner.md)]
 
 
-Vöruskilapantanir eru yfirleitt stofnaðar eftir að vöru hefur verið skilað eftir skoðun. Hins vegar, ef nauðsynlegt er að skipta út vöru áður en henni hefur verið skilað, eða ef upprunalegu vörunni verður ekki skilað, er hægt að stofna vöruskiptapöntun um leið og búið er að stofna  skilapöntun.
+Vöruskilapantanir eru yfirleitt stofnaðar eftir að vöru hefur verið skilað eftir skoðun. Hins vegar, ef nauðsynlegt er að skipta út vöru áður en henni hefur verið skilað, eða ef upprunalegu vörunni verður ekki skilað, er hægt að stofna vöruskiptapöntun um leið og búið er að stofna skilapöntun.
 
 ## <a name="create-a-replacement-order-after-you-receive-an-item-that-is-returned"></a>Stofna skal skiptipöntun eftir að skilavara hefur verið móttekin
 

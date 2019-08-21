@@ -1,6 +1,6 @@
 ---
 title: Kostnaðarbókhaldsgreining Power BI efni
-description: Þetta efnisatriði lýsir því hvað er innifalið í Kostnaðarbókhaldsgreiningu Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
+description: Þetta efnisatriði lýsir því hvað er innifalið í Kostnaðarbókhaldsgreiningu á Power BI efni. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar voru til að búa til efnið.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/18/2017
@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 270274
 ms.assetid: b74549df-35d5-4f2f-b3c7-405b0d38ea78
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d0b563044843157940f456b07479bbd6006a42f9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 93c1fbe58f9c5b3238b58fb9762a3c27a59f5fb0
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548674"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848398"
 ---
-# <a name="cost-accounting-analysis-power-bi-content"></a>Kostnaðarbókhaldsgreining Power BI efni
+# <a name="cost-accounting-analysis-power-bi-content"></a>Kostnaðarbókhaldsgreining á Power BI efni
 
 [!include [banner](../includes/banner.md)]
 

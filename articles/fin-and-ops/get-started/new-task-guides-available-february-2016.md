@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.custom: 102083
 ms.assetid: f50585e8-4ef6-4cd8-90d8-c8d6a65b22b8
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87384bae08e3fa78ef3deb3830583b16b9d9d6ac
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1b220dfc90d4b850c774ff638c5b766f650dcef9
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561951"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852022"
 ---
 # <a name="new-task-guides-february-2016"></a>Nýjar verkefnaleiðbeiningar (febrúar 2016)
 
@@ -119,7 +119,7 @@ APQC Unified Library (Febrúar 2016), inniheldur verkefnaleiðbeiningar sem er �
 | Bóka textareikning með frjáls texti með greiðsluseðil                                                           | Danmörk                         |
 | Bóka reikning verks með greiðsluseðil                                                             | Danmörk                         |
 | Bókið sölureikning með greiðsluseðil                                                               | Danmörk                         |
-| Flytja inn viðskiptavinalykill fyrir  rafræna reikningsfærslu OIOUBL                                               | Danmörk                         |
+| Flytja inn viðskiptavinalykill fyrir rafræna reikningsfærslu OIOUBL                                               | Danmörk                         |
 | Uppsetning sniðs greiðsluseðils                                                                             | Danmörk                         |
 | Uppsetning greiðslusniðs fylgiseðils fyrir reikninga verks                                                         | Danmörk                         |
 | Stofna og flytja út greiðslur lánardrottins með greiðslusnið SEPA                                          | Evrópu                          |
@@ -132,7 +132,7 @@ APQC Unified Library (Febrúar 2016), inniheldur verkefnaleiðbeiningar sem er �
 | Flytja inn skilgreining SEPA-beingreiðsla                                                                 | Evrópu                          |
 | Setja upp bankareikninga fyrirtækis fyrir SEPA kreditfærsla                                                 | Evrópu                          |
 | Setja upp bankareikninga fyrirtækis fyrir SEPA beingreiðsla                                                    | Evrópu                          |
-| Setja upp viðskiptavinir og bankareikningar viðskiptavinar fyrir SEPA-beingreiðsla                                      | Evrópu                          |
+| Setja upp viðskiptavinir og bankareikningar viðskiptavinar fyrir SEPA-beingreiðsla                                     | Evrópu                          |
 | Setja upp greiðsluhátt fyrir SEPA-kreditfærsla                                                      | Evrópu                          |
 | Setja upp greiðsluhátt fyrir SEPA-beingreiðsla                                                         | Evrópu                          |
 | Setja upp lánardrottna og bankareikninga lánardrottins fyrir SEPA kredit flutninga                                      | Evrópu                          |
@@ -207,7 +207,7 @@ APQC Unified Library (Febrúar 2016), inniheldur verkefnaleiðbeiningar sem er �
 | Jafna sameinaða reikninga viðskiptavina með því að jöfnunarfærslur                                     | Japan                           |
 | Jafna sameinaða reikninga lánardrottins með því að nota greiðslubók                                         | Japan                           |
 | Jafna sameinaða reikninga viðskiptavinar með því að jafna færslur                                       | Japan                           |
-| Uppsetning almennar færibreytur  virðisrýrnunar bókhalds og bókunarreglu                                      | Japan                           |
+| Uppsetning almennar færibreytur virðisrýrnunar bókhalds og bókunarreglu                                      | Japan                           |
 | Uppsetning Japanskt skýrslu neysluskatts                                                                     | Japan                           |
 | Uppsetning Japanskt greiðslu með framseldum víxil viðskiptavinar                                           | Japan                           |
 | Uppsetning greiðsluþóknunar fyrir Japan                                                                            | Japan                           |
@@ -543,7 +543,7 @@ APQC Unified Library (Febrúar 2016), inniheldur verkefnaleiðbeiningar sem er �
 | Skilgreina vildarpunkta                                                              | Altæk         |
 | Skilgreina vildarkerfi                                                                    | Altæk         |
 | Hanna tengsl milli eininga fyrirtækisins                                     | Altæk         |
-| Búa til og keyra forsniðnar skýrslur                                                        | Altæk         |
+| Búa til og keyra forsniðnar skýrslur                                                       | Altæk         |
 | Stjórna afslætti viðskiptasamninga fyrir viðskiptavini                                                      | Altæk         |
 | Stillingar færibreytu fyrir smásöluuppgjör                                            | Altæk         |
 | Greiðslufæribreytur fyrir smásöluuppgjör                                              | Altæk         |

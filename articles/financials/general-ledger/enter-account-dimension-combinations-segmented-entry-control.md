@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 14071
 ms.assetid: e6fce826-c403-4d91-a78b-e9a58c44ac03
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9addb2897bac68115a38f0239764ab65af2378c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 872ee7812d98e6102798c3a10773176541c02c90
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572466"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839378"
 ---
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Færa inn samsetningu fyrir lykil og vídd (sundurliðað innfærslustýring)
 
@@ -31,7 +31,7 @@ ms.locfileid: "1572466"
 
 Þessi grein lýsir því hvenir eigi að færa inn samsetningar reiknings og vídda eða fjárhagslykil. Framkvæmd innfærslunnar er oft kölluð sundurliðuð innfærslustýring
 
-Notendur færa inn samsetningu fyrir lykil og vídd á mismunandi síðum, eins og  síðum fyrir almennar færslubækur, fjárhagsáætlanir og bókunarskilgreiningar. Gildar samsetningar fyrir lykil og vídd eru háðar lykilskipulagi sem úthlutað er til fjárhags og ítarlegum reglum sem eru úthlutaðar fyrir lykilskipulagið. Þegar notendur færa inn samsetninga geta þeir annaðhvort slegið gildin inn handvirkt eða nýtt sér fjölskrúðuga uppflettingarupplifun. Þegar þú færið inn svæði, geturðu byrjað slá inn og þá leitar að gildi og lýsingu. Til dæmis ef slegið inn 180 mun leita að öllum gildi sem byrja með því númerasamsetning. Eða slá inn Reiðufé og þá leitar að öll gildi sem er með lýsing sem byrjar á Reiðufé. Einnig hægt að nota algildisstaf, t.d. \*Reiðufé eða \*180 til að leita ef gildi eða lýsing innihalda leitarskilyrði. 
+Notendur færa inn samsetningu fyrir lykil og vídd á mismunandi síðum, eins og síðum fyrir almennar færslubækur, fjárhagsáætlanir og bókunarskilgreiningar. Gildar samsetningar fyrir lykil og vídd eru háðar lykilskipulagi sem úthlutað er til fjárhags og ítarlegum reglum sem eru úthlutaðar fyrir lykilskipulagið. Þegar notendur færa inn samsetninga geta þeir annaðhvort slegið gildin inn handvirkt eða nýtt sér fjölskrúðuga uppflettingarupplifun. Þegar þú færið inn svæði, geturðu byrjað slá inn og þá leitar að gildi og lýsingu. Til dæmis ef slegið inn 180 mun leita að öllum gildi sem byrja með því númerasamsetning. Eða slá inn Reiðufé og þá leitar að öll gildi sem er með lýsing sem byrjar á Reiðufé. Einnig hægt að nota algildisstaf, t.d. \*Reiðufé eða \*180 til að leita ef gildi eða lýsing innihalda leitarskilyrði. 
 
 Eftirfarandi tafla lýsir flýtilyklum á lyklaborði sem hægt er að nota þegar uppflettisvæði er lokað.
 

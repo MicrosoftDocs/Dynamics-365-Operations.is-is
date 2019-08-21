@@ -3,25 +3,25 @@ title: Viðbót við eign færð inn
 description: Þessi verklýsing sýnir hvernig á að bæta viðbót við eign.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetAddition
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c9733f07f995dd37669f3c33fd0f082daa34dd2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fe1a1d4db696ac013afee05b697b301383232134
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566939"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839954"
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>Viðbót við eign færð inn
 
@@ -29,22 +29,20 @@ ms.locfileid: "1566939"
 
 Þessi verklýsing sýnir hvernig á að bæta viðbót við eign. Tilgangur eignaviðbætur er til að rekja viðbætur vöru, viðhalds eða lagfæringar fyrir eign og er einungis til upplýsingar. Verða vera gerðar breytingar á eign gildi þjónustu eða líftíma sérstaklega.   
 
-
-
 Ferlið notar Bókari hlutverk og sýnigögn gögn fyrir USMF lögaðila.
 
-1. Fara í Eignir > Eignir > Eignir.
+1. Í skoðunarrúðnni ferðu í **Kerfseiningar > Fastafjármunir > Fastafjármunir > Fastafjármunir**.
 2. Finna og velja eign fyrir viðbótar af listanum.
 3. Í listanum skal smella á tengilinn í valinni línu.
-4. Á Aðgerðasvæðinu skal smellt á eign.
-5. Smellt er á Eignaviðbætur.
-6. Smellt er á Nýtt.
-7. Í reitinn Heiti skal slá inn gildi.
-8. Stilla dagsetningu innkaupa viðbótar -eða þjónustu.
-9. Færa inn kostnað vörunnar, viðhald, eða aðrar betrumbætur fyrir eignina.
-10. Færið inn númer í reitnum „Magn“.
-    * Heildarkostnað hafa engin áhrif á virði eignarinnar og er fyrir rakningu og upplýsinga aðeins. Ef kostnaður verður eignfærður, síðan verður að bóka uppskrifaða sérleiðréttingarfærslu .  
-11. Smellið á flipann „Almennt“.
-    * Safn eykur líftíma ef viðbótin eykur líftíma eignarinnar.  
+4. Á aðgerðasvæðinu skal smellt á **Fastafjármuni**.
+5. Smelltu á **Eignaviðbætur**.
+6. Smellt er á **Nýtt**.
+7. Í reitinn **Heiti** skal slá inn gildi.
+8. Í reitinn **Kaupdagsetning** reitinn, stilltu dagsetningu viðbótarkaupsins eða þjónustunnar.
+9. Í reitinn **Einingakostnaður** skal færa inn kostnað vöru, viðhald eða aðrar umbætur á eigninni.
+10. Í reitnum **Magn** slærðu inn tölu. Heildarkostnað hafa engin áhrif á virði eignarinnar og er fyrir rakningu og upplýsinga aðeins. Ef kostnaður verður eignfærður, síðan verður að bóka uppskrifaða sérleiðréttingarfærslu .  
+11. Smelltu á flipann **Almennt**.
+
+    * Stilltu **Eykur líftíma** á **Já** ef viðbótin eykur líftíma eignarinnar.  
     * Þetta svæði er einungis til upplýsingar. Til að auka líftíma skal breyta líftíma á virðislíkön og/eða afskriftarbókum fyrir eignina.  
 

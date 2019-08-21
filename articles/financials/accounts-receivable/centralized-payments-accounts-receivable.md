@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6b8b1548bf70363431ad58482ba82cf11017332
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 59942fadb0fb702c59c95f75359f1a3036e4668f
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552017"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1836893"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Miðstýrðar greiðslur fyrir viðskiptakröfur
 
@@ -33,14 +33,14 @@ Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum
 
 Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu færslu í marga lögaðila. Þar að auki sparar fyrirtækið tíma, þar sem ferli fyrir greiðslutillögur, jöfnun og breytingu opninna og lokaðra færslna fyrir miðstýrðar greiðslur eru aðlöguð. 
 
-Í miðstýrðum greiðslusamtökum eru margir lögaðila fyrir aðgerðir og hver rekstrareining lögaðila stjórnar upplýsingum eigin reikninga til viðskiptavina. Greiðslur fyrir allar rekstrareiningar lögaðila eru mótteknar úr einum lögaðila, sem kallast lögaðili greiðslunnar. Á meðan á jöfnunarferli stendur eru viðeigandi færslur til og frá eru myndaðar. Hægt er að tilgreina hvaða fyrirtæki innan samtanna muni fá innleystu hagnaðar- eða innleystu tapsfærslurnar og hvernig staðgreiðsluafsláttarfærslur sem eru miðstýrðum greiðslum á milli fyrirtækja eru meðhöndlaðar. Í miðstýrðri greiðslubókarlínu skal stilla **Gerð lykils** á Viðskiptavin. **Gerð mótlykils** skal stillt á Banki eða Fjárhagur. Bankareikningurinn skal vera í núverandi fyrirtæki. 
+Í miðstýrðum greiðslusamtökum eru margir lögaðila fyrir aðgerðir og hver rekstrareining lögaðila stjórnar upplýsingum eigin reikninga til viðskiptavina. Greiðslur fyrir allar rekstrareiningar lögaðila eru mótteknar úr einum lögaðila, sem kallast lögaðili greiðslunnar. Á meðan á jöfnunarferli stendur eru viðeigandi færslur til og frá eru myndaðar. Hægt er að tilgreina hvaða lögaðili innan fyrirtækisins muni fá innleystu hagnaðar- eða innleystu tapsfærslurnar og hvernig staðgreiðsluafsláttarfærslur sem eru miðstýrðum greiðslum á milli fyrirtækja eru meðhöndlaðar. Í miðstýrðri greiðslubókarlínu skal stilla **Gerð lykils** á Viðskiptavin. **Gerð mótlykils** skal stillt á Banki eða Fjárhagur. Bankareikningurinn skal vera í núverandi fyrirtæki. 
 
 Eftirfarandi dæmi sýna hvernig bókanir eru meðhöndlaðar í mismunandi tilvikum. Eftirfarandi skilgreining er notuð í öllum þessum dæmum:
 
 -   Lögaðilarnir eru Fabrikam, Fabrikam East og Fabrikam West. Greiðslur viðskiptavinar eru færðar inn í Fabrikam.
 -   Í reitnum **Bóka staðgreiðsluafslátt** á síðunni **Bókhald innan samstæðu** er stillt á **Lögaðili reikningsins**.
 -   Í reitnum **Bóka hagnað eða tap af gjaldeyrisviðskiptum** á síðunni **Bókhald innan samstæðu** er stillt á **Lögaðili greiðslunnar**.
--   Viðskiptavinur Fourth Coffee er settur upp sem lánadrottinn í öllum lögaðilum. Viðskiptavinir frá ýmsum lögaðilum eru auðkenndir sem sami viðskiptavinur þar sem þeir samnýta sömu altæku aðsetursbókarkenni.
+-   Viðskiptavinur Fourth Coffee er settur upp sem lánardrottinn í öllum lögaðilum. Viðskiptavinir frá ýmsum lögaðilum eru auðkenndir sem sami viðskiptavinur þar sem þeir samnýta sömu altæku aðsetursbókarkenni.
 
 | Kenni aðsetursbókar | Viðskiptavinalykill | Heiti              | Lögaðili  |
 |-----------------|------------------|-------------------|---------------|
@@ -82,7 +82,7 @@ Fabrikam fær greiðslu að upphæð 600.00 fyrir Fabrikam lykil viðskiptavinar
 | Viðskiptavinir (Fabrikam East) |              | 600,00        |
 
 ## <a name="example-2-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>Dæmi 2: Greiðsla viðskiptavinar á reikningi frá öðrum lögaðila með staðgreiðsluafslætti
-Fabrikam tekur á móti greiðslu að upphæð 580.00 fyrir Fabrikam viðskiptavin 4000, Northwind Traders. Fabrikam East hefur opinn reikning fyrir viðskiptavin 4000. Reikningurinn hefur 20.00 tiltækan staðgreiðsluafslátt. Greiðslan er jöfnuð með opnum reikningum Fabrikam East. Staðgreiðsluafslátturinn er bókaður á reikningslögaðilann, Fabrikam East.
+Fabrikam tekur á móti greiðslu að upphæð 580.00 fyrir Fabrikam viðskiptavin 4000, Northwind Traders. Fabrikam East hefur opinn reikning fyrir viðskiptavin 4000. Reikningurinn hefur 20,00 staðgreiðsluafslátt í boði. Greiðslan er jöfnuð með opnum reikningum Fabrikam East. Staðgreiðsluafslátturinn er bókaður á reikningslögaðilann, Fabrikam East.
 
 ### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a>Reikningur er bókaður á Fabrikam East fyrir Fabrikam East viðskiptavin 4000
 

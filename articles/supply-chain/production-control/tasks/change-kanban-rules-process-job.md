@@ -1,6 +1,6 @@
 ---
 title: Breyta kanban-reglum fyrir vinnsluverk
-description: Þetta ferli áherslu á að breyta kanban-reglu fyrir ákveðið kanban.
+description: Þetta ferli leggur áherslu á að breyta kanban-reglu fyrir ákveðið kanban.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
@@ -10,24 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate, KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, KanbanReassignRuleLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 38d9ff0a7d6aeb0a589fd6b9ab34b818c46644cc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c036f6aad79e33df6009913d1e21ff6176f22593
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554277"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843794"
 ---
 # <a name="change-kanban-rules-for-a-process-job"></a>Breyta kanban-reglum fyrir vinnsluverk
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli áherslu á að breyta kanban-reglu fyrir ákveðið kanban. Þetta er gagnlegt til að hlaða tilföng eða við bilun. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta ferli er ætluð fyrir skipuleggjandann, sem vinnur hjá lean framleiðslufyrirtæki, og ber ábyrgð á virðisstraumnum.
+Þetta ferli leggur áherslu á að breyta kanban-reglu fyrir ákveðið kanban. Þetta er gagnlegt til að hlaða tilföng eða við bilun. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta ferli er ætluð fyrir skipuleggjandann, sem vinnur hjá lean framleiðslufyrirtæki, og ber ábyrgð á virðisstraumnum.
 
 
 ## <a name="copy-kanban-rule"></a>Afrita kanban-reglu

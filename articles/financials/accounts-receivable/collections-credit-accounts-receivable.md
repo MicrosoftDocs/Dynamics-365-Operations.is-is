@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c36e7a5d28baf149b982a0afd5fdd79fe8a91850
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 975988babe2f05adf9179de8d87c8ff216ec59a7
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562951"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1836821"
 ---
 # <a name="credit-and-collections-in-accounts-receivable"></a>Skuldir og innheimtur í viðskiptakröfum
 
@@ -43,7 +43,7 @@ Innheimtuupplýsingum viðskiptakrafna er stjórnað í einu miðlægu yfirliti 
 
 Eftirfarandi hlutar útskýra hvert hugtak fyrir sig.
 
-## <a name="customer-aging-snapshots"></a>Aldursgreiningarmynd viðskiptavinar 
+## <a name="customer-aging-snapshots"></a>Aldursgreiningarmynd viðskiptavinar
 Aldursgreiningarmynd inniheldur útreiknaða aldursgreinda stöðu fyrir viðskiptavin á einum tímapunkti. Þessar upplýsingar birtast á listasíðunni Aldursgreindar stöður og á Innheimtu síðunni. Stofna skal aldursmynd áður en hægt er að skoða upplýsingar um listasíður Innheimtu. 
 
 Fyrir hvern viðskiptavin inniheldur aldursgreiningarmynd haus í aldursgreiningarmynd og ítarupplýsingar um færslur sem samsvara hverju aldurstímabili í skilgreiningu aldurstímabils. 
@@ -52,7 +52,7 @@ Haus í aldursgreiningarmynd inniheldur heildarupphæð greiðslu, lánamark, fy
 
 Fyrir hvert aldurstímabil í skilgreiningu aldurstímabils, er ítarleg skýrsla fyrir aldursgreiningarmynd stofnuð. Hver ítarleg skýrsla fyrir aldursgreiningarmynd inniheldur auðkenni aldurstímabils og heildarupphæð færslna með dagsetningarnar sem eru á aldurstímabilinu. Færslur eru tengdar við aldurstímabil, eins og 30 daga fram yfir gjalddaga. Dagsetningin er í samræmi við Aldursgreiningu frá og með dagsetningu sem tilgreind er þegar aldursgreiningarmynd var stofnuð. Þessar upplýsingar birtast á listasíðunni Aldursgreindar stöður og í upplýsingakassanum Aldursgreindar stöður á Innheimtu síðunni.
 
-## <a name="collections-customer-pools"></a>Innheimtumál viðskiptavinahópa 
+## <a name="collections-customer-pools"></a>Innheimtumál viðskiptavinahópa
 Viðskiptavinahópar eru fyrirspurnir sem skilgreina flokk af viðskiptavinaskrám sem hægt er að birta og stjórna fyrir innheimtu eða aldursgreiningarferli. Nota viðskiptavinahópa til að sía upplýsingar á listasíðunum Aldursgreind staða, Innheimtuaðgerðir og Innheimtumál. Einnig er hægt að nota viðskiptavinahópa til að sía viðskiptavinalykla sem eru teknar með þegar aldursgreiningarmynd er stofnuð.
 
 ## <a name="collections-agents"></a>Innheimtufulltrúar
@@ -60,7 +60,7 @@ Að sjálfgefnu geta Microsoft Dynamics 365 for Finance and Operations notendur 
 
 Innheimtufulltrúi með er sá einstaklingur sem vinnur með viðskiptavini til að tryggja að greiðslurnar eru innheimtar í tæka tíð. Í Finance and Operations eru innheimtufulltrúar starfsmenn sem eru tengdir notendum á síðunni Notandauppsetning.
 
-## <a name="collections-list-pages"></a>Listasíður innheimtu 
+## <a name="collections-list-pages"></a>Listasíður innheimtu
 Eftirfarandi listasíður aðstoða við skipulagningu upplýsingar um innheimtu..
 -   Aldursgreind staða - Í dálkunum á listasíðunni birtast stöður viðskiptamanna og aldursgreindar upphæðir eftir aldursgreiningartímabili. Þessar upplýsingar eru geymdar í aldursgreiningarmynd. Aldurstímabil ákvarðast af skilgreiningu aldurstímabils sem er notuð. Skilgreining aldurstímabils er fengið úr viðskiptavinahópnum ef það var tilgreint fyrir fyrirspurnarhópinn. Ef viðskiptavinahópurinn hefur ekki skilgreiningu aldurstímabils, er notað sjálfgefna skilgreining aldurstímabils sem er tilgreint í skjámyndinni færibreytur viðskiptakrafna. Ef engin sjálfgefin skilgreining aldurstímabils er tilgreind, er fyrsta skilgreining aldurstímabils í Skilgreining aldurstímabils skjámynd notað.
 -   Innheimtuverkþættir – Dálkar á listasíðunni birta verkþætti sem eru auðkenndir sem innheimtuverkþætti. Þessar aðgerðir eru stofnaðar með því að nota síðuna Innheimtur. Nota verkþætti til að rekja verk sem eru tengd innheimtu.
@@ -82,14 +82,14 @@ Upplýsingakassar birta aldursgreindar stöður og upplýsingar um lánamark fyr
 
 Aðgerðarúðan inniheldur hnappa sem birta tengdar upplýsingar fyrir valinn viðskiptavin, mál, færslu eða verkþætti. Einnig er hægt að framkvæma almennar aðgerðir svo sem breyta færslu innheimtustöðu, senda tölvupóst samskipti með samþættingu við tölvupóstsveitu þína, endurgreiða viðskiptavini, vinna NSF-greiðslur og afskrifa óinnheimtanlegar kröfur.
 
-## <a name="waive-reinstate-or-reverse-interest-and-fees"></a>Fella niður, endurskipa eða bakfæra vexti eða gjöld 
+## <a name="waive-reinstate-or-reverse-interest-and-fees"></a>Fella niður, endurskipa eða bakfæra vexti eða gjöld
 Hægt er að fella niður, endurskipa eða bakfæra vaxtanótur eða þóknanir og vexti á færslur sem eru hluti af vaxtanótum. Þetta er gert úr Innheimta flipanum í Aðgerðarúðunni á Allir viðskiptavini listasíðu með því að smella á Vaxtanótu, Færslu vaxta eða Þóknanir. 
 
 Þessar leiðréttingar hafa aðeins áhrif á vaxtanótur, og vexti og gjöld sem þær hafa. Fylgið skrefum í hlutanum "Stofna afskriftarfærslur í einu lagi" til að afskrifa öll gjöld sem viðskiptavinur skuldar.
 
 Frekari upplýsingar, sjá [Stofna vaxtakóða með sviði](tasks/create-interest-code-range.md) og [Reikna vexti](tasks/process-interest.md). 
 
-## <a name="create-writeoff-transactions"></a>Stofna afskriftafærslur 
+## <a name="create-writeoff-transactions"></a>Stofna afskriftafærslur
 Þú getur afskrifað gallaðar skuldir með því að smella á Afskrifa í skjámyndinni Innheimta og á listasíðunum Aldursgreindar stöður, Viðskiptavinir og Opna reikninga viðskiptavinar. 
 
 Þegar færslur eru afskrifaðar fyrir viðskiptavini, eru allar færslur fyrir viðskiptavininn sjálfkrafa merktar til jöfnunar. Upphæð sem er afskrifuð fer eftir nettóupphæð merktra færslna. Afskriftarfærsla er stofnuð í færslubók og getur í mesta lagi innihaldið þrjá gerðir á færslubókarlínum.
@@ -102,7 +102,7 @@ Afskriftarfærslan er búin til í færslugjaldmiðlinum.
 
 Nánari upplýsingar er að finna í [Stofna afskriftabók fyrir viðskiptavin](tasks/create-write-off-journal-customer.md).
 
-<a name="process-not-sufficient-funds-nsf-payments"></a>Vinna innistæðulausar greiðslur (NSF)  
+<a name="process-not-sufficient-funds-nsf-payments"></a>Vinna innistæðulausar greiðslur (NSF) 
 --------------------------------------------
 
 Hægt er að vinna NSF-greiðslur með því að smella á NSF-greiðslur á Innheimtu síðu. Þegar smellt er á þennan hnapp er hætt við greiðsluna. Ef NSF-þóknun á við um viðskiptamanninn er gjaldafærsla stofnuð í greiðslubók.. Upphæð þóknunar er grundvölluð á stillingum fyrir sjálfvirk gjöld. Sjálfvirk gjöld sem notuð eru fyrir NSF-greiðslur eru tilgreind með gjaldaflokki sem er valinn í skjámyndinni Bankareikningur fyrir bankareikninginn sem varð fyrir áhrifum.

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac2e98dbbd45becf06e28b6ea4eb9d0ec15e30f6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b898a908fe78b7cf12f075686e323296d0babe50
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568167"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834248"
 ---
 # <a name="budget-planning"></a>Fjárhagsáætlunargerð
 
@@ -40,18 +40,18 @@ Markmiðið þessarar kennslu er að veita leiðsögn í fyrir skoðun á uppfæ
 <a name="prerequisites"></a>Frumskilyrði 
 ------------------
 
-Fyrir þetta kennsluefni þarf að fá aðgang að Finance and Operations með sýnigögnum Contoso og fá stjórnendaréttindi fyrir þetta tilvik. Ekki nota í einkavafra - það þarf að skrá sig út úr öllum reikningum í vafranum ef þörf krefur og skrá svo inn með stjórnendaréttindum Finance and Operations. Þegar skráð er inn í Finance and Operations **VERÐUR** að haka í „Halda mér innskráðum“ gátreitinn. Þetta stofnar varanlega vafraköku sem Excel-smáforritið þarf. Ef innskráning í Finance and Operations er gerð í gegnum annan vafra en IE kemur upp kvaðning um að skrá inn í Excel-smáforritið. Þegar smellt er á "Skrá inn" í Excel-smáforritinu opnast smelligluggi IE og þegar skráð er inn **VERÐUR** að haka í  "Halda mér undirrituðum" gátreitinn. Ef ekkert gerist þegar smellt er á "Skrá inn" í Excel-smáforritið ætti að hreinsa lotur úr skyndiminni IE.
+Fyrir þetta kennsluefni þarf að fá aðgang að Finance and Operations með sýnigögnum Contoso og fá stjórnendaréttindi fyrir þetta tilvik. Ekki nota í einkavafra - það þarf að skrá sig út úr öllum reikningum í vafranum ef þörf krefur og skrá svo inn með stjórnendaréttindum Finance and Operations. Þegar skráð er inn í Finance and Operations **VERÐUR** að haka í „Halda mér innskráðum“ gátreitinn. Þetta stofnar varanlega vafraköku sem Excel-smáforritið þarf. Ef innskráning í Finance and Operations er gerð í gegnum annan vafra en IE kemur upp kvaðning um að skrá inn í Excel-smáforritið. Þegar smellt er á „Skrá inn“ í Excel-smáforritinu opnast smelligluggi IE og þegar skráð er inn **VERÐUR** að haka í gátreitinn „Halda mér innskráðri/-um“. Ef ekkert gerist þegar smellt er á "Skrá inn" í Excel-smáforritið ætti að hreinsa lotur úr skyndiminni IE.
 
 ## <a name="scenario-overview"></a>**Yfirlit yfir aðstæður**
-Julia vinnur sem stjórnandi fjármála í Contoso Skemmtana Kerfum í Þýskalandi (DEMF). Þegar fjárhagsárið FY2016 nálgast þarf hún að vinna í uppsetningu fjárhagsáætlunar fyrirtækisins fyrir komandi ár. Undirbúningur fjárhagsáætlunarinnar lítur svona út:
+Julia vinnur sem stjórnandi fjármála í Contoso Entertainment Systems í Þýskalandi (DEMF). Þegar fjárhagsárið FY2016 nálgast þarf hún að vinna í uppsetningu fjárhagsáætlunar fyrirtækisins fyrir komandi ár. Undirbúningur fjárhagsáætlunarinnar lítur svona út:
 
 1.  Julia notar rauntölur fyrra árs sem upphafspunkt til að stofna fjárhagsáætlun.
 2.  Byggt á rauntölum fyrra árs stofnar hún mat fyrir 12 mánuði komandi árs
-3.  Julia endurskoðar fjárhagsáætlunina með Framkvæmdastjóra. Eftir það gerir hún nauðsynlegar leiðréttingar fyrir fjárhagsáætlunargerð og gengur frá undirbúningi fjárhagsáætlunar.
+3.  Julia endurskoðar fjárhagsáætlunina með framkvæmdastjóranum. Eftir það gerir hún nauðsynlegar leiðréttingar fyrir fjárhagsáætlunargerð og gengur frá undirbúningi fjárhagsáætlunar.
 
 Uppsetningarskema Fjárhagsáætlunargerðar fyrir aðstæðurnar lítur svona út:
 
-![Skema skilgreiningar fjárhagsáætlunargerðar](./media/screenshot1-300x152.png)
+![Skemaskilgreiningar fjárhagsáætlunargerðar](./media/screenshot1-300x152.png)
 
 Júlía notar eftirfarandi Excel-sniðmát til að undirbúa fjárhagsáætlun:
 
@@ -111,7 +111,7 @@ Fjárhagsáætlunargerð notar sérstakar öryggisreglur til að skilgreina aðg
 ***Mikilvægt!*** *Gangið úr skugga um að vera í DEMF-lögaðilasamhengi þegar þetta er gert, þar sem fyrirtækisöryggi er notað fyrir hvern lögaðila* 
 
 ### <a name="task-3-create-scenarios"></a>Verkefni 3: Stofna atburðarás
-3.1. Farið á Fjárhagsáætlun &gt; Uppsetning &gt; Fjárhagsáætlunargerð &gt; Skilgreining fjárhagsáætlunargerðar. Á síðunni Atburðarás: Takið eftir aðstæðum sem verða notaðar síðar í þessu ferli: Raunupphæðir Fyrra árs og Fjárhagáætlun. 
+3.1. Farið á Fjárhagsáætlun&gt;Uppsetning &gt; Fjárhagsáætlunargerð &gt; Skilgreining fjárhagsáætlunargerðar. Á síðunni Atburðarás: Takið eftir aðstæðum sem verða notaðar síðar í þessu ferli: Raunupphæðir Fyrra árs og Fjárhagáætlun. 
 
 *Athugið: Hægt að stofna nýja atburðarás fyrir þessa æfingu og nota í staðinn.* 
 
@@ -155,7 +155,7 @@ Dálkar fyrir Fjárhagsáætlunargerð er annað hvort gjaldmiðilsdálkar eða 
 ### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>Verkefni 5: Búa til útlit og sniðmát fjárhagsáætlunarskjals
 Útlit ákvarðar hvernig hnitanet fyrir fjárhagsáætlunargerðarskjalið lítur út þegar notandi opnar skjal fjárhagsáætlunargerðar. Einnig er hægt að skipta um útlit fyrir skjal fjárhagsáætlunargerðar til að sjá sömu gögn frá mismunandi sjónarhornum. Núna, þegar hún hefur skilgreint dálka til notkunar með fjárhagsáætlunargerðarskjali, þarf Julia að búa til skjal yfir útlit fjárhagsáætlunar, sem myndi líta svipað út og Excel taflan sem hún notar til að stofna fjárhagsáætlunargögn (sjá hlutann Yfirlit yfir aðstæður í þessari æfingu) 
 
-5.1. Í Fjárhagsáætlun &gt; Uppsetningu &gt; Fjárhagsáætlunargerð &gt; Skilgreining fjárhagsáætlunargerðar opnarðu útlitssíðuna. Búa til nýtt útlit fyrir færslu fyrir mánaðarlega fjárhagsáætlun:
+5.1. Í Fjárhagsáætlun&gt;Uppsetningu &gt; Fjárhagsáætlunargerð &gt; Skilgreining fjárhagsáætlunargerðar opnarðu útlitssíðuna. Búa til nýtt útlit fyrir færslu fyrir mánaðarlega fjárhagsáætlun:
 
 -   Taka MA + BU víddasamstæðu til að innifela aðalreikninga og viðskiptaeiningar í útlitinu.
 -   Skrá alla fjárhagsáætlunardálka sem voru stofnaðir í fyrra skrefi í hlutanum Einingar. Gera allt nema rauntölur fyrra árs breytanlegt.
@@ -183,7 +183,7 @@ Julia þarf að stofna og virkja nýja fjárhagsáætlunargerð með því að s
 -   Sjálfgefið reikningsskipulag – Framleiðsla P & L
 -   Stigveldi fyrirtækis – velja stigveldi sem er stofnað í upphafi verkefnisins
 -   Verkflæði fjárhagsáætlunargerðar – úthluta Sjálfvirkt – Samþykkja verkflæði fyrir fjármáladeild
--   Varðandi stigsreglur og sniðmát fjárhagsáætlunargerðar,  fyrir hvert verkflæði Fjárhagsáætlunargerðarstigs skal ákveða hvort aðgerðin Bæta línum við og Breyta línum er leyfð, og hvaða sjálfgefna snið á að nota
+-   Varðandi stigsreglur og sniðmát fjárhagsáætlunargerðar, fyrir hvert verkflæði Fjárhagsáætlunargerðarstigs skal ákveða hvort aðgerðin Bæta línum við og Breyta línum er leyfð, og hvaða sjálfgefna snið á að nota
 
 *Athugið: Hægt að stofna viðbótar skjalaútlit og úthluta þeim að vera tiltæk í verkflæðisstig fjárhagsáætlunargerðar með því að smella á hnappinn Önnur útlit.* 
 

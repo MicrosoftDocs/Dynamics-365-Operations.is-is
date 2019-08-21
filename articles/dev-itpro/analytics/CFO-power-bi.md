@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 026274e06d27fb1254ffa971bcb0fbdbb5e7eac7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d8dc15bb73f0dccc94c641a177a696cd41f33c28
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548348"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848290"
 ---
 # <a name="cfo-overview-power-bi-content"></a>CFO-yfirlit Power BI efni
 
@@ -33,7 +33,7 @@ ms.locfileid: "1548348"
 Skýrslur úr **CFO-yfirliti** Power BI efni eru birtar á vinnusvæðinu **CFO-yfirlit**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Skýrslur sem eru hafðar með í Power BI efni
-**CFO-yfirlit** Power BI efni er samsetning af skýrslum frá ýmsu öðru Power BI efni, ásamt raunstöðu og stöðu fjárhagsáætlunar úr Fjárhag. Þess vegna gefur þetta Power BI efni fjármálastjóra yfirlit yfir fyrirtækið.
+**CFO-yfirlit** Power BI efni er samsetning af skýrslum úr ýmsu öðru Power BI efni, ásamt raunstöðu og stöðu fjárhagsáætlunar úr Fjárhag. Þess vegna gefur þetta Power BI efni fjármálastjóra yfirlit yfir fyrirtækið.
 
 Eftirfarandi tafla sýnir Power BI efni sem skýrslurnar eru afritaðar úr og skýrslurnar sem eru veittar á vinnusvæðinu **CFO-yfirlit**. Tenglar eru veittir fyrir fylgiskjölin fyrir alls kyns Power BI efni.
 

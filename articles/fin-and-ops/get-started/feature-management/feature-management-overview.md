@@ -3,7 +3,7 @@ title: Eiginleikastjórnunaryfirlit
 description: Þetta efnisatriði lýsir eiginleika eiginleikastjórnunar og hvernig hægt er að nota hann.
 author: mikefalkner
 manager: AnnBe
-ms.date: 06/14/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,17 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: d6aea8651c00b975cf158492e38bb147e908bc56
-ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
+ms.openlocfilehash: 21eaf2fdcadf8fe9f91438a97a88cc3bddab8286
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "1632054"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862939"
 ---
 # <a name="feature-management-overview"></a>Eiginleikastjórnunaryfirlit
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 Eiginleikum er bætt við og þeir uppfærðir í hverri útgáfu af Microsoft Dynamics 365 for Finance and Operations. Upplifun eiginleikastjórnunar veitir vinnusvæði þar sem hægt er að skoða lista yfir eiginleika sem hafa verið gefnir út í hverri útgáfu. Sjálfgefið er að slökkt sé á nýjum eiginleikum. Hægt er að nota vinnusvæðið til að kveikja á þeim og skoða fylgiskjölin fyrir þá.
 
@@ -38,7 +39,7 @@ Hægt er að opna vinnusvæðið **Eiginleikastjórnun** með því að velja vi
 Eiginleikalistinn inniheldur eftirfarandi upplýsingar:
 
 - **Heiti eiginleika** - Lýsing á eiginleika sem var bætt við.
-- **Virkjuð staða** - Tákn tilgreinir hvort kveikt hafi verið á eiginleika (gátmerki), hefur ekki verið kveikt á (autt), er áætlað að verði kveikt á (klukka) eða er áskilið haft kveikt á (lás). Stillingin sem er sýnd hér er notuð fyrir alla lögaðila. Athugið að jafnvel þegar kveikt hefur verið á eiginleika er honum samt stjórnað af öryggi. Eiginleikinn verður þar af leiðandi aðeins tiltækur notendum sem eru með aðgang að honum, samkvæmt öryggishlutverki þeirra. Hann verður einnig eingöngu tiltækur í lögaðila sem notandi hefur aðgang að.
+- **Virkjuð staða** - Tákn tilgreinir hvort kveikt hafi verið á eiginleika (gátmerki), hefur ekki verið kveikt á (autt), er áætlað að verði kveikt á (klukka) eða er áskilið haft kveikt á (lás), krefjist athugunar áður en kveikt er á honum (viðvörun) eða ekki hægt að virkja (X). Stillingin sem er sýnd er notuð fyrir alla lögaðila. Athugið að jafnvel þegar kveikt hefur verið á eiginleika er honum samt stjórnað af öryggi. Eiginleikinn verður þar af leiðandi aðeins tiltækur notendum sem eru með aðgang að honum, samkvæmt öryggishlutverki þeirra. Hann verður einnig eingöngu tiltækur í lögaðila sem notandi hefur aðgang að.
 - **Virkja dagsetningu** - Dagsetningin þegar kveikt var á eiginleikanum eða verður kveikt á samkvæmt áætlun.
 - **Eiginleika bætt við** - Dagsetningin þegar eiginleikanum var bætt við umhverfið þitt. Þessi dagsetning er slegin inn sjálfvirkt þegar umhverfið er uppfært í mánaðarlega útgáfuferlinu.
 - **Eining** - Einingin sem nýja útgáfan hefur áhrif á.
@@ -59,6 +60,10 @@ Ef ekki hefur verið kveikt á eiginleika birtist hnappurinn **Virkja núna** á
 - Veljið eiginleikann sem á að kveikja á og síðan á upplýsingasvæðinu skal velja **Virkja núna**. Kveikt er á eiginleikanum.
 
 Ekki er hægt að slökkva á sumum eiginleikum eftir að kveikt hefur verið á þeim. Ef reynt er að kveikja á eiginleika sem ekki er hægt að slökkva á birtist viðvörun. Á þessum tímapunkti er hægt að velja **Hætta við** til að hætta við aðgerðina og hafa slökkt á eiginleikanum. Ef þú hinsvegar velur **Virkja** til að kveikja á eiginleikanum geturðu ekki slökkt á honum seinna.
+
+Sumar aðgerðir sýna skilaboð sem veita frekari upplýsingar áður en þú kveikir á þeim. Þessir eiginleikar eru auðkenndir með gulu viðvörunarmerki. Þú ættir að lesa viðbótarupplýsingarnar vandlega til að skilja betur hvað gerist þegar aðgerðin er virk. Þú getur samt valið **Virkja** til að kveikja á eiginleikanum.
+
+Sumar aðgerðir sýna skilaboð um að ekki sé hægt að virkja aðgerðina fyrr en gripið er til aðgerða. Þessir eiginleikar eru auðkenndir með rauðu X-merki. Þú verður að grípa til aðgerða sem lýst er í lýsingunni áður en aðgerðin er virk. Til dæmis, ef þú getur ekki notað aðgerð fyrr en stillingarlykill er óvirkur, verður þú að slökkva á stillingarlyklinum fyrst og fara síðan aftur í Eiginleikastjórnun til að virkja aðgerðina.
 
 Eftir að kveikt hefur verið á eiginleika birtast skilaboð fyrir neðan tengilinn **Frekari upplýsingar** á upplýsingasvæðinu. Þessi skilaboð kveða annaðhvort á um að kveikt hafi verið á eiginleikanum eða tilgreina dagsetningu fram í tímann þegar áætlað er að kveikja á eiginleikanum. Þau birtast í hvert skipti sem þú velur eiginleikann úr eiginleikalistanum.
 
@@ -84,12 +89,28 @@ Eftir að slökkt hefur verið á eiginleika birtast skilaboð fyrir neðan teng
 
 Stundum verður mikilvægur eiginleiki afhentur sem verður að virkja sjálfkrafa við uppfærslu. Kveikt verður á þessum eiginleikum sjálfkrafa á deginum sem er tilgreindur í reitnum **Virkja dagsetningu**. Fyrir þessa eiginleika birtast skilaboð fyrir neðan tengilinn **Frekari upplýsingar** á upplýsingasvæðinu. Þessi skilaboð kveða annaðhvort á um að kveikt hafi verið á eiginleikanum eða tilgreina dagsetningu fram í tímann þegar kveikt verður á eiginleikanum. Þau birtast í hvert skipti sem þú velur eiginleikann úr eiginleikalistanum.
 
+## <a name="enable-all-features"></a>Virkja alla eiginleika
+
+Sjálfgefið er að slökkt sé á öllum eiginleikum sem er bætt við umhverfið þitt. Þú getur virkjað alla eiginleika með því að velja hnappinn **Virkja allt**. 
+
+Þegar þú velur **Virkja allt** birtist valkostur þar sem þú þarft að veita eftirfarandi upplýsingar:
+- Listi yfir alla eiginleika sem þarfnast staðfestingar áður en hægt er að virkja þá. Ef þú vilt virkja aðgerðirnar á listanum skaltu velja **Já** fyrir hnappinn **Virkja aðgerðir sem krefjast staðfestingar**.
+- Listi yfir alla eiginleika sem ekki er hægt að virkja verður sýndur. Þessir eiginleikar verða ekki gerðir virkir.
+
+Allir aðgerðir sem hægt er að virkja verða gerðar virkar. Ef áætlun er þegar áætluð til að vera virkjuð í framtíðinni breytist áætlunin ekki. 
+
 ## <a name="turn-on-all-features-automatically"></a>Kveikja á öllum eiginleikum sjálfkrafa
 
 Sjálfgefið er að slökkt sé á öllum eiginleikum sem er bætt við umhverfið þitt, nema þeir séu áskildir eiginleikar. Ef þú vilt hins vegar kveikja sjálfkrafa á öllum eiginleikum er hægt að nota fellilistann undir titli vinnusvæðis til að breyta því sem gerist þegar nýjum eiginleikum er bætt við.
 
 - Veljið **Allir nýir eiginleikar verða virkjaðir að sjálfgefnu** til að kveikja sjálfkrafa á öllum nýjum eiginleikum þegar þeim er bætt við umhverfið þitt.
 - Veljið **Slökkt verður á öllum nýjum eiginleikum að sjálfgefnu** til að slökkva sjálfkrafa á öllum nýjum eiginleikum þegar þeim er bætt við umhverfið þitt.
+
+Þegar þú kveikir á öllum eiginleikum sjálfkrafa gerir það kleift að gera alla þá eiginleika sem verða virkar þegar smellt er á hnappinn **Virkja allt**. Það gerir ekki kleift aðgerðir sem krefjast staðfestingar eða aðgerðir sem ekki er hægt að virkja fyrr en gripið er til aðgerða.
+
+## <a name="check-for-updates"></a>Leita að uppfærslum
+
+Eiginleikum er bætt við umhverfi þitt eftir hverja uppfærslu. Þú getur samt sem áður skoðað uppfærslur handvirkt með því að smella á hnappinn **Leita að uppfærslum**. Allir aðgerðir sem bættust við kerfið eftir uppfærsluna verður bætt á lista yfir eiginleika. Til dæmis, ef virkur aðgerð er virk eftir útgáfu, þá geturðu leitað að uppfærslum og aðgerðinni bætt við listann þinn.
 
 ## <a name="assigning-roles"></a>Úthlutun á hlutverkum
 

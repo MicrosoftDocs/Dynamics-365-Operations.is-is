@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 221654
 ms.assetid: adb8146b-eb21-4be2-a338-a5b299fcc9a0
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 70db65dca4cfadd1ed8769386b4b437cecc217a2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 974d6b3b11df92debdec26860fd9eea00a9f2313
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565923"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841778"
 ---
 # <a name="update-the-bank-journal-composite-entity"></a>Uppfæra samsetta einingu færslubókar banka
 
@@ -40,7 +40,7 @@ Fylgið eftirfarandi skrefum til að bæta reitnum BankTransactionType við sams
     -   Tafla\\BankJournalLineStaging
 
 2.  Gagnastjórnun\\gagnaverk
-    -   Sýna **Bankafærslu** gerð á **Upprunagögn**útlit.
+    -   Sýna **Bankafærslu** gerð á **Upprunagögn** útlit.
         -   Snið upprunagagna = XML-Element.
         -   Nafn einingar = færslubók banka
         -   Hlaða upp gagnaskrá = ný útgáfa SampleBankJournalCompositeEntity.xml

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 15631
 ms.assetid: 81613b31-bc3c-43a0-8474-e01c9a482c40
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0e344cfbcb1b3d034a1d36cbead8133ba47af8cc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543676"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839040"
 ---
 # <a name="ledger-journal-types"></a>Færslubókargerðir fjárhags
 
@@ -35,9 +35,9 @@ ms.locfileid: "1543676"
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
 | Úthlutun                        | Stofna úthlutun færslur í færslubók. Áður en hægt er að stofna úthlutunarbók verður að stofna úthlutunarreglu í síðunni **úthlutunarregla fjárhags**      | Vinna úr beiðni um úthlutun             |
 | Samþykki                          | Bóka samþykkta reikninga lánardrottna í rétta fjárhagslykla.  | Staðfestingarbók                                       |
-| Bakfærsla bankaávísunar               | Bakfæra bókaða ávísun. Til að nota þessa færslubókargerð, veldu **Nota endurskoðunarferlið fyrir greiðslubakfærslur** valkosturinn  á **færibreytur reiðufjár- og bankastjórnun**.   | Athuga Bakfærslur, bakfærsla Greiðslu                   |
-| Ógilding bankainnborgunarseðils    | Hætta við innborgunarseðill. Til að nota þessa færslubókargerð, veldu **Nota endurskoðunarferlið fyrir greiðslubakfærslur innborgunarseðils** valkosturinn  á **færibreytur reiðufjár- og bankastjórnun**.   | Ógildingar á greiðslum bankainnborgunarseðla            |
-| Fjárhagsáætlun                            | Vinna úr fjárveitingar úr fjárhagsáætlun Til að nota þessa gerð færslubók, velja á **Leyfa fjárveitingu fjárhagsáætlunar** valkostinn á í **fjárhagsfæribreytur** síðu. Færslur í fjárhagsáætlunarbók hafa með upplýsingar á grundvelli fjárhagslykla sem eru skilgreindar í á **bókunarskilgreiningar**  síðu.                                                        |                                                                |
+| Bakfærsla bankaávísunar               | Bakfæra bókaða ávísun. Til að nota þessa færslubókargerð, veldu **Nota endurskoðunarferlið fyrir greiðslubakfærslur** valkosturinn á **færibreytur reiðufjár- og bankastjórnun**.   | Athuga Bakfærslur, bakfærsla Greiðslu                   |
+| Ógilding bankainnborgunarseðils    | Hætta við innborgunarseðill. Til að nota þessa færslubókargerð, veldu **Nota endurskoðunarferlið fyrir greiðslubakfærslur innborgunarseðils** valkosturinn á **færibreytur reiðufjár- og bankastjórnun**.   | Ógildingar á greiðslum bankainnborgunarseðla            |
+| Fjárhagsáætlun                            | Vinna úr fjárveitingar úr fjárhagsáætlun Til að nota þessa gerð færslubók, velja á **Leyfa fjárveitingu fjárhagsáætlunar** valkostinn á í **fjárhagsfæribreytur** síðu. Færslur í fjárhagsáætlunarbók hafa með upplýsingar á grundvelli fjárhagslykla sem eru skilgreindar í á **bókunarskilgreiningar** síðu.                                                        |                                                                |
 | Viðskiptavinasamþykki víxils  | Stofna samþykktarfærslur viðskiptavina fyrir víxla.             | Gefa út víxlabók– endurútgefa víxlabók. |
 | Greiðslusending viðskiptavinar          | Stofna greiðsluskrá víxils sem má senda til banka fyrirtækisins. Til að nota þessa gerð færslubókar, hreinsa í **Sjálfvirka jöfnun** valkostinn á í **viðskiptakrafna** **færibreytur** síðu.            | Greiðsla                                                     |
 | Viðskiptavinaútgáfa víxils    | Stofna viðskiptavinaútgáfu víxils. Til að nota þessa færslubókargerð, hreinsa valkostinn **Stofna og bóka útgáfubók sjálfvirkt við bókun reikninga** á síðunni **greiðsluaðferð**   | Víxilútgáfubók                                  |

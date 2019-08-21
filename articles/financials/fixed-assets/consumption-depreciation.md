@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13751
 ms.assetid: d25a681f-49a5-4bfc-aa76-1c6373e35dd8
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0f64fee275f63a3e6b31a196df872e41c84dde6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2c9d95a7a45ed99c63516749285126c786685c87
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562554"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840698"
 ---
 # <a name="consumption-depreciation"></a>Notkunarafskriftir
 
@@ -31,14 +31,14 @@ ms.locfileid: "1562554"
 
 Þessi grein gefur yfirlit yfir notkunaraðferð afskriftar.
 
-Ef afskriftaregla fyrir eignir er sett upp og valið er **notkun** í svæðinu**aðferð** á skjámyndinni**afskriftaaðferðir** eru eignir, tengdar þessari afskriftareglu sem eru byggðar á notkun þeirra. Ekki þarf að setja upp prósentur og tímabil í á **afskriftareglur** síðu. Eftir að þú stofnar afskriftarregla sem notar notkunaraðferð, er hægt að setja aðferðina upp á nokkra vegu.
+Ef afskriftaregla fyrir eignir er sett upp og valið er **notkun** í reitnum **Aðferð** á skjámyndinni **Afskriftaaðferðir** eru eignir tengdar þessari afskriftareglu og samkvæmt notkun þeirra. Ekki þarf að setja upp prósentur og tímabil í á **afskriftareglur** síðu. Eftir að þú stofnar afskriftarregla sem notar notkunaraðferð, er hægt að setja aðferðina upp á nokkra vegu.
 
 ## <a name="set-up-and-use-consumption-depreciation"></a>Setja upp og nota notkunarafskrift.
 1.  Á síðunni **afskriftarregla** skal stofna afskriftarreglu. Fyrir notkunarútreikninga verður afskriftareglan að innihalda kenni, heiti og **notkun** verður að vera valin í reitnum **aðferð**.
 2.  Á **Notkunarstuðull** síða, setja upp notkunarstuðull. Hvern notkunarstuðul verður að hafa Kenni og heiti, og notkunarstuðul sem er tilgreindur sem magn eða prósenta.
 3.  Á **notkunareining** síðuna setja upp notkunareiningar. Hver notkunareining verður að hafa Kenni og heiti Afskriftareiningar eru notaðar til að reikna notkunarafskrift á **notkunarafskrift** síðu. Dæmi um einingar eru kílómetrar (km), kílógrömm (kg) og klukkustund.
 4.  Á **Eignir** síðu setja upp einstaka eignir. Fyrir hverja eign, veldu Virðislíkön og afskriftarbækur sem eru með afskriftarreglur. Setja verður upp virðislíkan eða afskriftarbók fyrir notkunarafskrift ef einhver af eignum þínum notar afskriftarregla sem byggist á notkunaraðferðinni. Þessari uppsetningu er að gera annaðhvort á í **Afskriftir** flipanum á **Virðislíkön** síðu eða á í **Almennt** flýtiflipi af **afskriftareglu** síðu. Hægt er að nota sama virðislíkan fyrir margar eignir. Afskriftareglur eru hluti af virðislíkani eða afskriftarbók sem valin er fyrir hverja eign. Ekki er hægt að bæta við eða breyta afskriftareglur beint á í **Eignir** síðu. Hægt er að breyta afskriftarreglum aðeins á **afskriftabækur** síðu.
-5.  Í **virðislíkani** síðu eða **afskriftarbók**síðu, í **notkunarafskrift** reitahópur, skal færa upplýsingar í eftirtalin svæði :
+5.  Á síðunni **Virðislíkan** eða síðunni **Afskriftarbók** í reitahópnum **Notkunarafskrift** skal færa upplýsingar í eftirtalin svæði:
     -   Notkunarstuðull
     -   Eining
     -   Einingaafskriftir

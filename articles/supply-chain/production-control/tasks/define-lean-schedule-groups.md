@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanScheduleGroup, GanttColorTableLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 787694b094f343445cca784d035554a8bfa25f5a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e0cb17c68abbc4979a65e33c50450be575df3d93
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549818"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1836265"
 ---
 # <a name="define-lean-schedule-groups"></a>Skilgreina flokka í markvissri áætlanagerð
 
@@ -43,7 +43,7 @@ flokkur í markvissri áætlanagerð eru skilgreind til að flokka og greina afu
 
 ## <a name="associate-product"></a>Tengja afurð
 1. Tengja tiltekna afurð
-    * Til eru tvær leiðir til að tengja afurðir við flokkur í markvissri áætlanagerð, annað hvort sem tiltekinni vöru (venslagerð Vöru  = Vöru) eða sem hluta af úthlutunarlykil vöru (venslagerð vöru= flokk).    
+    * Til eru tvær leiðir til að tengja afurðir við flokkur í markvissri áætlanagerð, annaðhvort sem tiltekinni vöru (venslagerð Vöru = Vöru) eða sem hluta af úthlutunarlykil vöru (venslagerð vöru= flokk).    
 2. velja Vöru í Venslagerðarsvæði Vöru
 3. Í reitnum Vörunúmer skal slá inn gildi.
 4. Í reitinn afkastageta skal slá inn númer.

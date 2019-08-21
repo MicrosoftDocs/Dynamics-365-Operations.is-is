@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
-ms.reviewer: anbichsea
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4e3b71e679539441b90f399a84ad8ef8d3decf19
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3f0732736736fdc87f3367f24b1d20b9fa6efc59
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1510596"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1794905"
 ---
 # <a name="develop-salarycompensation-structure-and-plan"></a>Þróa uppbyggingu launa og launafyrirkomulag
 
@@ -50,7 +50,7 @@ ms.locfileid: "1510596"
     * Það eru þrjár leiðir til að stofna launaskipulag. 1: stofna algerlega nýja skipulag með því að velja safn tilvísunarpunkta og bæta stig við stigum til að stofna þitt eigið skipulag. 2: afrita launaskipulag úr fyrirliggjandi áætlun sem upphafspunkt og breyta hann fyrir nýja áætlun. 3: Velja skal núverandi launanet. Ef launanetinu er þegar í notkun fyrir aðra áætlun, munu breytingar á töflunni einnig endurspeglast í hinni áætlun.  
 16. Velja Stofna nýtt út frá fyrirliggjandi launafylki valkostinn.
 17. Í reitinn afrita frá hnitaneti skal slá inn eða velja gildi.
-    * Einnig er hægt að breyta heiti nýs  launanets sem verður stofnað sem afrit af valda netinu.  
+    * Einnig er hægt að breyta heiti nýs launanets sem verður stofnað sem afrit af valda netinu.  
 18. Smellið á „Í lagi“.
 19. Smellt er á Fjöldabreyting.
     * Fjöldabreyting gerir kleift að vinna með upphæðir launafylkis með því að nota prósenta eða flata upphæð fyrir aukningu á eitt eða fleiri stig og/eða tilvísunarpunkta.  

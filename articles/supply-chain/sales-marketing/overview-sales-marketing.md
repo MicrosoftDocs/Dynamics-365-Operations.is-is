@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 92303
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4de2ac36ec13f95c7603d097a0800b317014bbd0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fdb55be1d6a5e8460f1a3d70992ddb74ad2c834b
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555674"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843650"
 ---
 # <a name="sales-and-marketing"></a>Sala og markaðsstarf
 
@@ -44,7 +44,7 @@ Hægt er að nota Sölu og markaðsstarfs til að fá, geyma og nota ýmsar gög
 Herferð miðar á tengiliði fyrir góðar horfur, leiðir, tækifæri og viðskiptavini sem hafa verið valdir til að taka þátt í herferðinni. Í Microsoft Dynamics 365 for Finance and Operations er hægt að stofna margar gerðir herferða, eins og símsölu, póstsending og tölvupóstherferðir, til að hámarka mögulegra viðskiptavina. Sem herferðin líður og þú færð jákvæð viðbrögð, getur þú byrjað á söluferli með þeim viðtakenda sem hafa brugðist jákvætt við herferð.
 
 ## <a name="sales"></a>Sala
-Söluvirknin er notuð til að stofna tilboð, söluviðauka og krosssölu til nýja og fyrirliggjandi viðskiptavinum, stofna sölupantanir og stofna sölureikninga  fyrir viðskiptavina. Eftirfarandi flæði sýnir viðskiptaferli sölu. [![Viðskiptaferli fyrir sölu](./media/sales01.jpg)](./media/sales01.jpg)
+Söluvirknin er notuð til að stofna tilboð, söluviðauka og krosssölu til nýja og fyrirliggjandi viðskiptavinum, stofna sölupantanir og stofna sölureikninga fyrir viðskiptavina. Eftirfarandi flæði sýnir viðskiptaferli sölu. [![Viðskiptaferli fyrir sölu](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Sölutilboð
 
@@ -106,7 +106,7 @@ Reikningur viðskiptavinar er seðill sem fyrirtæki gefur viðskiptavini í ten
 
 Hægt er að bóka og prenta reikningur viðskiptavinar fyrir einn viðskiptavin, byggt á annaðhvort sölupöntun eða fylgiseðill og dagsetningu. Þú getur einnig Bóka og prenta marga reikninga viðskiptamanna saman, byggða á fylgiseðlum og dagsetningum Þegar reikningur viðskiptavinar fyrir einn viðskiptavin er bókaður eftir sölupöntun, er magn **reikningsafgangs** fyrir hverja vöru uppfært með samtölu reikningsfærðs magns úr valinni sölupöntun.  
 
-Ef bæði magnið **Reikningsafgangur** og **Afhendingarafgangur** fyrir allar vörur á sölupöntuninni jafngildir núlli (0), breytist staða sölupöntunarinnar í **Reikningsfært**. Ef magnið  í hvorugum reit jafngildir ekki núlli er staða sölupöntunarinnar óbreytt og hægt að færa inn viðbótarreikninga. Ef ætlunin er að bóka og prenta einn eða fleiri reikninga viðskiptavinar byggður á fylgiseðla, verður hafa þegar bókað einn fylgiseðill í það minnsta fyrir hverja sölupöntun. Reikningur viðskiptamanns er byggður á viðkomandi fylgiseðlum og endurspeglar magnið eru skráð.  
+Ef bæði magnið **Reikningsafgangur** og **Afhendingarafgangur** fyrir allar vörur á sölupöntuninni jafngildir núlli (0), breytist staða sölupöntunarinnar í **Reikningsfært**. Ef magnið í hvorugum reit jafngildir ekki núlli er staða sölupöntunarinnar óbreytt og hægt að færa inn viðbótarreikninga. Ef ætlunin er að bóka og prenta einn eða fleiri reikninga viðskiptavinar byggður á fylgiseðla, verður hafa þegar bókað einn fylgiseðill í það minnsta fyrir hverja sölupöntun. Reikningur viðskiptamanns er byggður á viðkomandi fylgiseðlum og endurspeglar magnið eru skráð.  
 
 Hægt er að stofna reikningur viðskiptavinar út frá línuvörum fylgiseðils sem sendar hafa verið fram að þessu, jafnvel þótt allar vörur tiltekinnar sölupöntunar hafi ekki verið sendar ennþá. Þetta gæti til dæmis átt við, ef fyrirtækið gefur út einn reikning fyrir viðskiptavin mánaðarlega sem nær yfir allar afhendingar sem sendar eru þann mánuð. Hver fylgiseðill stendur fyrir hlutaafhendingu eða fulla afhendingu á vörum í sölupöntuninni.  
 
@@ -118,7 +118,7 @@ Reikningur með frjálsum texta er reikningur sem er ekki tengd sölupöntun. Ha
 
 #### <a name="pro-forma-invoice"></a>Bráðabirgðareikningur
 
-Bráðabirgðareikningur  er reikningur sem er útbúinn sem mat á raunverulegu reikningsupphæðinni áður en reikningurinn er bókaður. Hægt er að prenta út bráðabirgðareikning fyrir annað hvort reikningur viðskiptavinar eða reikningur með frjálsum texta.
+Bráðabirgðareikningur er reikningur sem er útbúinn sem mat á raunverulegu reikningsupphæðinni áður en reikningurinn er bókaður. Hægt er að prenta út bráðabirgðareikning fyrir annað hvort reikningur viðskiptavinar eða reikningur með frjálsum texta.
 
 ### <a name="additional-resources"></a>Frekari upplýsingar
 

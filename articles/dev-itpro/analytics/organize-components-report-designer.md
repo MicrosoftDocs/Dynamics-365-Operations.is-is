@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a4733dc4da7a8713ac7ddec5c96ae18c91edc18
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551744"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863672"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Skipuleggja skýrsluhluta í skýrsluhönnun
 
@@ -50,7 +50,7 @@ Setja má skýrsluskilgreiningar saman í hóp til að mynda margar skýrslur sa
 ### <a name="create-a-report-group"></a>Skýrsluhópur stofnaður
 
 1. Í Skýrsluhönnun er smellt á **Skýrsluhópar** á yfirlitssvæðinu.
-2. Á **Skrá** valmyndinni, smellið á **Nýtt** &gt; **Skilgreining skýrsluhóps** til að opna nýjan flokk skýrslu í vafra. Einnig er hægt að smella á **Skýrsluhópur** hnappinn ![Skýrsluhópur](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Skýrsluhópur") á tækjastikunni.
+2. Á **Skrá** valmyndinni, smellið á **Nýtt** &gt; **Skilgreining skýrsluhóps** til að opna nýjan flokk skýrslu í vafra. Einnig er hægt að smella á **Skýrsluhópur** hnappinn ![Skýrsluhópur](media/report-group.gif "Skýrsluhópur") á tækjastikunni.
 3. Smellið á flipann **Skýrsluhópur**. Til að hnekkja upplýsingum úr stökum skýrsluskilgreiningum fyrir myndun þessarar skýrslu skal velja gátreitinn **Hnekkja stillingum fyrirtækis, upplýsinga og dagsetningar úr stökum skýrsluskilgreiningum**. Heiti fyrirtækis, upplýsingastig, tímabundnar stillingar og dagsetning eru fyllt inn sjálfkrafa en er hægt að uppfæra.
 4. Veljið gátreitinn **Taka með alla skýrslugjaldmiðla** ef búa á til margar skýrslur með skýrslugjaldmiðlum. Skoðun í mörgum gluggum má fá með því að smella á hnappinn **Gjaldmiðill** í Vefskoðun þegar skýrslan er skoðuð.
 5. Í reitnum **Skýrslur í hóp** skal smella á **Bæta við** til að velja skýrslurnar sem eiga að vera í skýrsluhópnum. Til að velja margar skýrslur í svarglugganum **Bæta við** skal halda Ctrl-lyklinum niðri á meðan skýrslur eru valdar. Þegar lokið hefur verið val skýrslur, smellið á **í lagi**.
@@ -61,7 +61,7 @@ Setja má skýrsluskilgreiningar saman í hóp til að mynda margar skýrslur sa
 1. Í Skýrsluhönnun er smellt á **Skýrsluhópar** á yfirlitssvæðinu.
 2. Tvísmellið á skýrsluhóp til að breyta.
 3. Smellið á flipann **Skýrsluhópur** og breytið því sem þarf.
-4. Í valmyndinni **Skrá** skal smella á **Vista** til að vista breyttan skýrsluhóp. Einnig er hægt að smella á **Vista** hnappinn ![Vista](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Vista") á tækjastikunni.
+4. Í valmyndinni **Skrá** skal smella á **Vista** til að vista breyttan skýrsluhóp. Einnig er hægt að smella á **Vista** hnappinn ![Vista](media/save.gif "Vista") á tækjastikunni.
 
 > [ATHUGASEMD] Ef gerð hefur verið áætlun um myndun skýrslna með tilteknu millibili er hægt að hnekkja þeim stillingum og mynda skýrslu strax.
 
@@ -69,7 +69,7 @@ Setja má skýrsluskilgreiningar saman í hóp til að mynda margar skýrslur sa
 
 1. Í Skýrsluhönnun er smellt á **Skýrsluhópar** á yfirlitssvæðinu.
 2. Opnið skýrsluhópinn sem á að mynda.
-3. Smellið á hnappinn **Búa til skýrslu** ![Búa til skýrslu](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Búa til skýrslu") til að búa til skýrslur.
+3. Smellið á hnappinn **Búa til skýrslu** ![Búa til skýrslu](media/generate-report.gif "Búa til skýrslu") til að búa til skýrslur.
 
 ### <a name="delete-a-report-group"></a>Skýrsluhópi eytt
 
@@ -100,7 +100,7 @@ Eftirfarandi tafla lýsir stýringum í á **Skýrslu Flokkur** flipa.
 <td>Lýsing á stigi</td>
 <td>Tilgreinið hvaða upplýsingar eiga að vera í skýrslunni.
 <ul>
-<li><strong>Fjárhagur</strong>− Samantektarskýrsla á háu stigi. Ekki er hægt að kafa niður í reikninga og víddir nema þeim sé bætt við í gegnum skipurit.&#39;</li>
+<li><strong>Fjárhagur</strong> − Samantektarskýrsla á háu stigi. Ekki er hægt að kafa niður í reikninga og víddir nema þeim sé bætt við í gegnum skipurit.&#39;</li>
 <li><strong>Fjárhagur &amp; reikningur</strong> − Skýrsla sem inniheldur samantekt á háu stigi með ítarupplýsingum um reikning.</li>
 <li><strong>Fjárhagsreikningur &amp; færsla</strong> − Skýrsla sem inniheldur samantekt á háu stigi með ítarupplýsingum um færslur.</li>
 </ul></td>
@@ -110,7 +110,7 @@ Eftirfarandi tafla lýsir stýringum í á **Skýrslu Flokkur** flipa.
 <td>Tilgreinið hvaða verkþættir eiga að vera í skýrslunni.
 <ul>
 <li><strong>Aðeins bókaðir verkþættir</strong> − Inniheldur aðeins færslur og stöðu sem eru bókaðar í fjárhagsgögnum.</li>
-<li><strong>Bókaðir og óbókaðir verkþættir</strong>− Inniheldur allar færslur og stöðu sem eru slegin inn og bókað í fjárhagsgögnum.</li>
+<li><strong>Bókaðir og óbókaðir verkþættir</strong> − Inniheldur allar færslur og stöðu sem eru slegin inn og bókað í fjárhagsgögnum.</li>
 <li><strong>Aðeins óbókaðir verkþættir</strong> − Inniheldur aðeins færslur sem hefur veriðs legin inn, en sem hefur ekki verið bókuð í fjárhagsgögn.</li>
 </ul></td>
 </tr>

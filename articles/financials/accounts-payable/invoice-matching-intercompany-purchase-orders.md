@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf
@@ -18,33 +18,33 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d22d6352f179919666d39df816f04bab340017dc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: aaa4a08f65e4a3452782cf2b928464dff27ed59b
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1509196"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1837301"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Reikningsjöfnun og samstæðuinnkaupapöntun
 
 [!include [banner](../includes/banner.md)]
 
-Innkaupalögaðili sem er þáttakandi í samstæðuviðskiptafærslu gæti verið uppsett til að nota reikningsjöfnun viðskiptaskulda. Í þessu tilfelli þarf að uppfylla bókunarkröfur bæði fyrir samstæðuviðskipti og reikningsjöfnun viðskiptaskulda áður en hægt er að bóka lánardrottinsreikninga innan samstæðu.
+Innkaupalögaðili sem er þáttakandi í samstæðuviðskiptafærslu gæti verið uppsett til að nota reikningsjöfnun viðskiptaskulda. Þegar **Settu inn reikning með misræmi** reit í **Breytir viðskiptakrafna** form er stillt á **Krefjast samþykkis**, verður staðfesting staðfestingar reikninga gerð. Í þessu tilfelli þarf að uppfylla bókunarkröfur bæði fyrir samstæðuviðskipti og reikningsjöfnun viðskiptaskulda áður en hægt er að bóka lánardrottinsreikninga innan samstæðu.
 
 Eftirfarandi uppsetning á samstæðuviðskiptum er notuð í þessum dæmum:
 -   Fabrikam Purchase er innkaupalögaðilinn.
 -   Fabrikam Sales er sölulögaðilinn.
 -   Viðskiptavinurinn 4020 er í Fabrikam Sala.
 -   Lánardrottinninn 3024 er í Fabrikam Innkaup.
--   Í Fabrikam Purchase eru samstæðuupplýsingar tilgreindar fyrir  lánardrottinn 3024. Fabrikam Sales er tilgreindur sem fyrirtæki viðskiptavinar og viðskiptavinurinn 4020 er tilgreindur sem lykill viðskiptavinarins sem samsvarar lögaðila Fabrikam Purchase.
--   Í Fabrikam Sales eru samstæðuupplýsingar tilgreindar fyrir  lánardrottinn 4020. Fabrikam Purches er tilgreindur sem fyrirtæki lánardrottins og lánardrottinn 3024 er tilgreindur sem lánardrottnalykill sem samsvarar lögaðila Fabrikam Sales.
+-   Í Fabrikam Purchase eru samstæðuupplýsingar tilgreindar fyrir lánardrottinn 3024. Fabrikam Sales er tilgreindur sem fyrirtæki viðskiptavinar og viðskiptavinurinn 4020 er tilgreindur sem lykill viðskiptavinarins sem samsvarar lögaðila Fabrikam Purchase.
+-   Í Fabrikam Sales eru samstæðuupplýsingar tilgreindar fyrir lánardrottinn 4020. Fabrikam Purches er tilgreindur sem fyrirtæki lánardrottins og lánardrottinn 3024 er tilgreindur sem lánardrottnalykill sem samsvarar lögaðila Fabrikam Sales.
 
 Dæmið notar Eftirfarandi uppsetning á reikningsjöfnun viðskiptaskulda fyrir Fabrikam Purchase:
 -   Á færibreytusíðu viðskiptaskulda, er valinn valkosturinn virkja sannprófun reikningsjöfnunar.
 -   Á síðunni færibreytum viðskiptaskulda, svæðið Bóka reikning með misræmi er stillt til að Krefjast samþykkis.
 -   Vikmarkaprósenta verðs fyrir lögaðilann er 2%.
 
-## <a name="example-price-matching-and-intercompany-trade"></a> Dæmi: Verðjöfnun og samstæðuviðskipti
+## <a name="example-price-matching-and-intercompany-trade"></a>Dæmi: Verðjöfnun og samstæðuviðskipti
 Nettóupphæðir lánardrottinsreiknings innan samstæðu og samstæðureikningur viðskiptavinar verða að vera jafnar. Þessi krafa hnekkir allri samþykktri reikningsjöfnun eða verðvikmarkaprósentum sem eiga við. Fylgdu til dæmis eftirfarandi skrefum.
 1.  Stofna sölupöntun SO888 fyrir viðskiptavin 4020 í Fabrikam Purchase. Samstæðuinnkaupapöntun númer ICPO222 er sjálfkrafa stofnuð í Fabrikam Purchase fyrir lánardrottininn 3024 og sölupöntunin ICSO888 er stofnuð sjálfkrafa í Fabrikam Sales.
 2.  Skrá móttöku varanna og bóka fylgiseðil í Fabrikam Sala. Staða ICSO888 breytist í Afhent. Staða ICPO222 breytist í Móttekið.
@@ -52,7 +52,7 @@ Nettóupphæðir lánardrottinsreiknings innan samstæðu og samstæðureikningu
 4.  Stofna reikning fyrir ICPO222 í Fabrikam Innkaup. Þú breyttir óvart nettóverði úr 45,00 í 54,00. Teikn birtist sem gefur til kynna að verðið sé yfir leyfðum verðvikmörkum, 2 prósentum.
 5.  Á upplýsingasíðunni reikningsjöfnun, veljið valkost til að samþykkja bókun með misræmi í samsvörun. Á síðunni reikningur lánardrottins skal smella á í lagi. Ef reikningur lánardrottins var ekki lánardrottinsreikningur innan samstæðu, myndi bókun heppnast. Hins vegar, þar sem unnið er með lánardrottinsreikning innan samstæðu, bókun tekst. Fyrir viðskipti innan samstæðu, Samtölur reikninga á samstæðusölupöntun, verður að vera jafnt og samtölur reikninga á samsvarandi samstæðuinnkaupapöntun. Til að leysa þetta vandamál verður að leiðrétta nettóverði reikningsins aftur í sjálfgefna upphæð, 45,00.
 
-## <a name="example-quantity-matching-with-intercompany-trade"></a> Dæmi: Jöfnun magns í samstæðuviðskiptum
+## <a name="example-quantity-matching-with-intercompany-trade"></a>Dæmi: Jöfnun magns í samstæðuviðskiptum
 Magn samstæðuinnkaupapöntunarinnar og samstæðusölupöntunarinnar verður að vera jafnt. Krafan um þetta hnekkir allri samþykkt á reikningsjöfnun sem við á. Í þessu dæmi er eftirfarandi viðbótaruppsetning á samstæðuviðskiptum notuð:
 -   Í Fabrikam Innkaup er aðgerðarregla innkaupapöntunar fyrir lánardrottinn 3024 sett upp til að bóka sjálfkrafa bæði upprunalega reikningur viðskiptavinar og reikningur lánardrottins innan samstæðu.
 

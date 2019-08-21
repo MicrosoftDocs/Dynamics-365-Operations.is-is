@@ -10,27 +10,27 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTableListPage, ProdTableCreate, ProdBOM, PmfProdCoBy, ProdParmCostEstimation, ProdCalcTrans, ProdParmRelease, ProdSchedule, ProdRouteJob, ProdParmStartUp, ProdJournalTransBOM, ProdJournalTransRoute
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6484c1954ff4cc600938adb07b5384f1edce8bf7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7a1803822bebf58a3370afe8c5dc9f519c65917d
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545903"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843818"
 ---
 # <a name="batch-order-lifecycle-from-create-to-start"></a>Ferill runupöntunar frá stofnun til upphafs
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli fer í gegnum fyrsti hluti lífsferlisins runupöntun.
+Þetta ferli fer í gegnum fyrsta hluti lífsferlisins runupöntun.
 
-Frá stofnun, kostnaður mat og yfir framleiðslu vinnsluröðun til raunveruleg upphafsdagsetning fyrir runupöntun.
+Frá stofnun, kostnaðarmati og yfir vinnsluröðun framleiðslu til raunverulegrar upphafsdagsetningar fyrir runupöntun.
 
 
 
@@ -38,7 +38,7 @@ Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
 
 
-Skilyrði til að keyra ferlið með annarri gagnamengi eru útgefin afurð með virka útgáfu formúlu og leiðarútgáfa.
+Skilyrði til að keyra ferlið með öðru gagnamengi eru útgefin afurð með virka formúlu og leiðarútgáfu.
 
 
 ## <a name="create-a-batch-order"></a>Stofna runupöntun

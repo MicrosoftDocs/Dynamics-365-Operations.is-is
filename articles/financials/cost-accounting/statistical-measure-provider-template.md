@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cc9170f10fe2be0446b1c974a50dbdf1cb5fe236
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 15c4ca5284121e1b384111f10e2d4cb06a5c7575
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544028"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841466"
 ---
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Sniðmát meðlima tölfræðivídda og tölfræðiveita
 
@@ -131,7 +131,7 @@ Einnig er hægt að bæta einum eða fleiri afmarkanir til þess að þrengja m�
 > [!NOTE]
 > Í þessu dæmi er mælt verður að stofna aðeins fyrir þá **Raun útgáfu**.
 
-Farið **kostnaðarbókhald fjárhags**\>**Raun útgáfu**\>**Manage**\>**Talnagögn mælingar** koma á í tengslum við. Í þessari atburðarás skaltu velja gagnatenginguna **Dynamics 365 for Finance and Operations - Tölfræðiaðgerðir** vegna þess að við viljum draga gögn út úr Finance and Operations.
+Farið **kostnaðarbókhald fjárhags** \> **Raunútgáfu** \> **Stýra** \> **Talnagögn mælingar** koma á í tengslum við. Í þessari atburðarás skaltu velja gagnatenginguna **Dynamics 365 for Finance and Operations - Tölfræðiaðgerðir** vegna þess að við viljum draga gögn út úr Finance and Operations.
 
 **Uppruni gagna**
 
@@ -219,7 +219,7 @@ Einnig er hægt að bæta sviðum þrengja mælingar uppruna töflu.
 > [!NOTE]
 > Í þessu dæmi er mælt verður að stofna aðeins fyrir þá **Raun útgáfu**.
 
-Farið **kostnaðarbókhald fjárhags**\>**Raun útgáfu**\>**Manage**\>**Talnagögn mælingar** koma á í tengslum við. Í þessari atburðarás skaltu velja gagnatenginguna **Dynamics 365 for Finance and Operations - Tölfræðiaðgerðir** vegna þess að við viljum draga gögn út úr Finance and Operations.
+Farið **kostnaðarbókhald fjárhags** \> **Raunútgáfu** \> **Stýra** \> **Talnagögn mælingar** koma á í tengslum við. Í þessari atburðarás skaltu velja gagnatenginguna **Dynamics 365 for Finance and Operations - Tölfræðiaðgerðir** vegna þess að við viljum draga gögn út úr Finance and Operations.
 
 **Uppruni gagna**
 
@@ -283,7 +283,7 @@ Notkun rafmagns er skráð í Microsoft Excel með því að nota fyrirfram skil
 
 Þegar verið er að flytja gögnin í gegnum gagnastjórnun, gögnin vistuð í kostnaðarbókhaldi stigaðgerðir töflu. Þar af leiðandi er hægt að nota innfluttum gögnum í mörgum fjárhagir kostnaðarbókhalds. Sækja gögn isn't nauðsynleg.
 
-Til að flytja inn gögnin, er farið **gögn flutt Inn**\>**Gögn einingar**\>**Innfluttar talnagögn mælingar**.
+Til að flytja inn gögnin, er farið **gögn flutt Inn** \> **Gögn einingar** \> **Innfluttar talnagögn mælingar**.
 
 | Kenni uppruna | Dagsetning reikningsskila | Mæligildi  | Víddarstak, heiti 1 | Víddarstak, heiti 2 | Víddarstak, heiti 5 |
 |-------------------|-----------------|------------|------------------------|------------------------|------------------------|
@@ -296,7 +296,7 @@ Til að flytja inn gögnin, er farið **gögn flutt Inn**\>**Gögn einingar**\>*
 > [!NOTE]
 > Í þessu dæmi er mælt verður að stofna aðeins fyrir þá **Raun útgáfu**.
 
-Farið **kostnaðarbókhald fjárhags**\>**Raun útgáfu**\>**Manage**\>**Talnagögn mælingar** koma á í tengslum við. Þessu dæmi þarf að velja á **Innfluttar talnagögn mælingar** connector gögn, vegna þess að gögn hafi verið flutt inn úr kerfi þriðja aðila í kostnaðarbókhald gegnum Excel.
+Farið **kostnaðarbókhald fjárhags** \> **Raunútgáfu** \> **Stýra** \> **Talnagögn mælingar** koma á í tengslum við. Þessu dæmi þarf að velja á **Innfluttar talnagögn mælingar** connector gögn, vegna þess að gögn hafi verið flutt inn úr kerfi þriðja aðila í kostnaðarbókhald gegnum Excel.
 
 **Uppruni gagna**
 

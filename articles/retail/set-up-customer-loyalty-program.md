@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 94f8cf5b5753c530c42327e251a2102b876c1c8a
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 8c2a2347abddf03ed884dcfe68f645fde84c092a
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606873"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863773"
 ---
 # <a name="loyalty-overview"></a>Yfirlit yfir vildarkerfi
 
@@ -52,7 +52,7 @@ Eftirfarandi tafla lýsir hvert eiginleika og hvar það er notað í uppsetning
 
 | Hluti                                        | lýsing | Þar sem það er notað |
 |--------------------------------------------------|-------------|-----------------|
-| Setja upp afslætti (skilyrði)                  | Setja upp afslætti sem bjóða á viðskiptavinum vildarkerfis. Til dæmis má bjóða 5 prósent af öllum fatnaði. | Afslættir verður að bæta við verðflokka áður en hægt er að taka þá með í vildarkerfi. Verðflokkar eru úthlutaðar  á vildarkerfi og vildarlög. |
+| Setja upp afslætti (skilyrði)                  | Setja upp afslætti sem bjóða á viðskiptavinum vildarkerfis. Til dæmis má bjóða 5 prósent af öllum fatnaði. | Afslættir verður að bæta við verðflokka áður en hægt er að taka þá með í vildarkerfi. Verðflokkar eru úthlutaðar á vildarkerfi og vildarlög. |
 | Setja upp verðflokka (skilyrði)               | Verðflokkar eru notaðir til að stofna og stjórna verð og afslætti smásöluafurða. Setja upp verðflokka sem inniheldur afslætti sem eiga við vildarkerfi. | Verðflokkar eru tengdir við vildarkerfi og vildarkerfalögum. |
 | Setja upp rásir (skilyrði)                   | Smásölurásir eru verslanir sem taka þátt í þínu vildarkerfi, s.s. hefðbundnar verslanir eða netverslun, eða símaver. Setja verður upp skal smásölurása áður en hægt er að úthluta vildarkerfi þeim. | Þú úthlutar smásölurás til vildarkerfis ef smásölurásin tekur þátt í vildarkerfinu. |
 | Setja upp Vildargreiðsluháttur (frumskilyrði) | Setða verður upp greiðslumáta áður en hægt er að nota vildarkort við afgreiðslukassann og innleysa vildarpunkta sem hluta af vildarkerfi. Þarf einnig að bæta við vildargreiðsluháttur við smásölurásar áður en viðskiptavini geta innleysa vildarpunkta þeirra sem greiðslu fyrir afurðir. | Setja upp greiðslumáta vildarkerfis gerð og úthluta á vildargreiðsluháttur smásölurása sem tekur þátt í vildarkerfinu. |
@@ -60,7 +60,7 @@ Eftirfarandi tafla lýsir hvert eiginleika og hvar það er notað í uppsetning
 | Setja upp umbunarstig                             | Vildarpunktar eru gerðir umbunar sem er að bjóða viðskiptavinum. Umbunarpunktar getur verið innleysanlegur eða ekki innleysanlegur. Hægt er að skipta innleysanlega vildarpunkta fyrir afurðir. Óinnleysanlegir vildarpunktar eru notaðir til rakningar eða fyrirframgreiðslu til viðskiptavinar í næsta lagi í vildaráætluninni. | Vildarpunktar eru tilvísað í reglum vildarlags og eru notaðir til að viðurkenna viðskiptavinar fyrir tiltekið lag. Vildarpunktar eru einnig vísað í vildarkerfi í reglur tekna og innlausn. Í tekjureglur, tilgreina umbun sem viðskiptavinur getur unnið inn fyrir tiltekinn verkþátt. Í innlausnarreglur, tilgreinir þú umbun sem er viðskiptavinur getur innleyst. |
 | Setja upp vildarkerfi                          | Vildarkerfi eru kjarnavildareining sem þú býður upp á. Hvert vildarkerfi má einnig hafa vildarlögum sem er úthlutað á það. Afslættir og verðflokka eru úthlutaðir á vildarkerfi annaðhvort á forritsstigi eða í lagi stigi lagsins. | Stofna vildarkerfi fyrir við vildarkerfi. Þú tengir vildarkort við vildarkerfið, og hægt er að úthluta vildarkortum til viðskiptavinar. Smásölurásir taka þátt í vildarkerfi sem eru tengdir við vildarkerfi. Viðskiptavinir sem eru með vildarkort geta tekið þátt í vildarkerfum sem er úthlutað á kortið. |
 | Setja upp vildarlög og vildarlagsreglur              | Vildarlög eru valfrjáls stig sem þú getur tilgreint fyrir vildarkerfi þín. Þú getur sett upp grunnafslætti og umbun fyrir alla viðskiptavini sem taka þátt í hollustuáætlun, og þú getur sett upp fleiri afslætti og umbun fyrir viðskiptavini sem náð í mismunandi stig í áætluninni. Hægt er að setja upp reglur sem viðurkenna viðskiptavin fyrir hvert lag fyrir hverja vildarlag sem þú skilgreinir. Einnig er hægt að skilgreina hversu lengi viðskiptavinir geta verið í lagi eftir að þeir hafa náð því. | Vildarlög og vildarlagareglur eru skilgreind í vildarkerfum. Ef ekki eru skilgreind nein vildarlög, fá allir viðskiptavinir sem taka þátt í vildarkerfinu afslætti sem þú úthlutar í verðflokki vildarkerfisins. Ef vildarlög eru skilgreind, er hægt að setja upp tekjukóða reglur og innlausnarreglur fyrir vildarlög í vildarkerfinu. |
-| Uppsetning vildarkerfa                           | Vildarskemu tilgreina ávinningsreglur og innlausnarreglur sem gilda í ákveðnum vildarkerfi. Þú úthlutar smásölurás til vildarkerfis til að auðkenna hvaða vildarkerfi, tekjureglur og innlausnarreglur eiga við smásöluverslun. | Vildarskema er úthlutað á vildarkerfi og til smásölurása. Hægt er að úthluta mörgum vildarkerfum til sama vildarkerfis og hægt er að úthluta mörgum  vildarkerfum til margra smásölurása. |
+| Uppsetning vildarkerfa                           | Vildarskemu tilgreina ávinningsreglur og innlausnarreglur sem gilda í ákveðnum vildarkerfi. Þú úthlutar smásölurás til vildarkerfis til að auðkenna hvaða vildarkerfi, tekjureglur og innlausnarreglur eiga við smásöluverslun. | Vildarskema er úthlutað á vildarkerfi og til smásölurása. Hægt er að úthluta mörgum vildarkerfum til sama vildarkerfis og hægt er að úthluta mörgum vildarkerfum til margra smásölurása. |
 | Uppsetning vildarkorta                             | Vildarkort veitir handhafa kortsins rétt til að taka þátt í vildarkerfi sem er úthlutað á kort. Vildarkort má gefa út nafnlaust eða hægt er að úthluta þeim til ákveðins viðskiptavinar. Hægt er að skoða færslur vildarpunkta fyrir tilteknu korti og hægt er að skoða yfirlit yfir vildarpunkta sem hafa verið á kortinu. Hægt er að gefa út vildarkort frá hvaða smásölurás sem er. Hægt er að leiðrétta einnig handvirkt vildarkort til að uppfæra viðskiptavini í annað lag, bæta við vildarpunktum eða flytja vildarpunktastöðu af einu korti til annars. | Þú úthlutar vildarkerfi á vildarkort. |
 
 ## <a name="loyalty-processes"></a>Vildarferli
@@ -72,7 +72,7 @@ Eftirfarandi tafla lýsir ferla sem þarf að keyra til að senda vildarskilgrei
 | 1050 (vildarupplýsingar)           | Keyra þetta ferli til að senda vildargögn úr Dynamics 365 for Retail í smásöluverslun. Það er góð hugmynd að skipuleggja þetta ferli til að keyra oft, þannig að vildargögn séu sendar til allra verslana. | Dreifingaráætlun |
 | Vinna úr vildarkerfi              | Keyra þetta ferli til að tengja vildarkerfi með smásölurásir sem er tengdur við vildarkerfi. Hægt er að raða þetta ferli til að keyra sem runuvinnslu. Keyra þarf þetta ferli ef skilgreiningargögn vildarpunkta er breytt, eins og vildarkerfi, vildaráætlanir, eða vildarpunktar vildarkerfis. | Vinna úr vildarkerfi |
 | Vinna úr vildarfærslum utan nets | Keyra þetta ferli til að uppfæra vildarkort til að taka með færslur sem var unnin án tengingar. Þetta ferli gildir aðeins ef **Safna án nettengingar** reiturinn er valinn á **Samnýttar smásölufæribreytur** síðu, svo hægt er að fá umbun án nettengingar. | Vinna úr vildarfærslum utan nets |
-| Uppfæra vildarkortalög            | Keyra þetta ferli til að meta tekjuaðgerðir viðskiptavinar gagnvart vildarlagsreglum fyrir vildarkerfi og til að uppfæra stöðu lags viðskiptavinar. Þetta ferli er þarft eingöngu ef reglum  vildarkerfis er breytt og uppfærðar reglur eiga að vera beitt afturvirkt fyrir vildarkort sem hefur þegar verið gefið út. Þetta ferli er hægt að keyra sem runuvinnslu eða fyrir einstaka spjöld. | Uppfæra vildarkortalög |
+| Uppfæra vildarkortalög            | Keyra þetta ferli til að meta tekjuaðgerðir viðskiptavinar gagnvart vildarlagsreglum fyrir vildarkerfi og til að uppfæra stöðu lags viðskiptavinar. Þetta ferli er þarft eingöngu ef reglum vildarkerfis er breytt og uppfærðar reglur eiga að vera beitt afturvirkt fyrir vildarkort sem hefur þegar verið gefið út. Þetta ferli er hægt að keyra sem runuvinnslu eða fyrir einstaka spjöld. | Uppfæra vildarkortalög |
 
 ## <a name="loyalty-enhancements"></a>Vildarkerfisviðbætur
 
@@ -83,15 +83,15 @@ Smásala hefur nýja vildarkerfisvirkni sem hluti af útgáfu október 2018. Hve
     > [!NOTE]
     > Tekjureglur innan vildarkerfis eru viðbótar. Til dæmis, ef þú býrð til reglu til að umbuna meðlimi í gulllagi 10 stig fyrir hvern Bandaríkjadal og þú stofnar einnig reglu fyrir viðskiptavin með „uppgjafahermannstengsl“til að umbuna 5 stig fyrir hvert Bandaríkjadal, þá er uppgjafahermaður sem er líka meðlimur í gulllagi myndi vinna sér inn 15 stig fyrir 1 Bandaríkjadal, þar sem viðskiptavinurinn uppfyllir skilyrði fyrir báðar línur. Hins vegar, ef viðskiptavinurinn sem er uppgjafahermaður var ekki meðlimur í gulllagi, þá myndi hann vinna sér inn 5 stig fyrir hvern dollar. Til að endurspegla breytingar á rásum skaltu keyra **Vinnslu vildarkerfis** og **1050** (upplýsingar um vildarkerfi) störf.
     
-    ![Tengslamiðaðar tekjur](./media/Affiliation%20based%20earning.png "Tengslamiðaðar tekjur")
+    ![Tengslamiðaðar tekjur](./media/Affiliation-based-earning.png "Tengslamiðaðar tekjur")
 
 - Smásalar hafa oft sérstakt verð fyrir ákveðna hóp viðskiptavina að þeir vilja ekki að vildarkerfi eigi við um. Til dæmis, heildsalar eða starfsmenn sem fá sérstakt verð og enga vildarpunkta. Venjulega eru „tengingar“ notaðir til að veita sérstökum verðlagningu til slíkra viðskiptavinahópa. Til að takmarka tiltekna viðskiptavinahópa viðskiptavina frá því að vinna sér inn vildarpunkta, getur smásalinn tilgreint eitt eða fleiri tengsl við **Útilokuð tengsl** hlutann í vildarkerfinu. Þannig að þegar viðskiptavinir sem tilheyra útilokaðir tengingar eru núverandi meðlimir vildarkerfis, munu þeir ekki geta fengið vildarpunkta fyrir kaup sín. Til að endurspegla breytingar á rásum skaltu keyra **Vinnslu vildarkerfis** og **1050** (upplýsingar um vildarkerfi) störf.
 
-    ![Útilokuð tengsl](./media/Excluded%20affiliations.png "Útiloka tengsl frá því að vinna sér inn vildarpunkta")
+    ![Útilokuð tengsl](./media/Excluded-affiliations.png "Útiloka tengsl frá því að vinna sér inn vildarpunkta")
     
 - Smásalar geta búið til vildarkortsnúmer í rásunum. Fyrir uppfærslu október 2018 gætu smásalar notað efnisleg vildarkort eða búið til vildarkort með því að nota einstakar upplýsingar um viðskiptavin eins og símanúmer. Til að virkja sjálfvirka framleiðslu á vildarkortum í smásöluverslunum skaltu kveikja á **Búa til vildarkortsnúmer** í virknireglunni sem tengist versluninni. Fyrir netrásir geta smásalar notað IssueLoyaltyCard API til að gefa út vildarkort til viðskiptavina. Smásalar geta annaðhvort veitt vildarkortsnúmer til þessa API, sem verður notaður til að búa til vildarkortið, eða kerfið mun nota vildarkortsnúmeraröðina sem er sett í Dynamics 365 for Retail. Hins vegar, ef númeraröðin er ekki til staðar, og smásalinn gefur ekki upp vildarkortsnúmer meðan þú hringir í API, þá birtist villa.
 
-    ![Búa til vildarkort](./media/Generate%20loyalty%20card.png "Búa sjálfkrafa til vildarkortsnúmer")
+    ![Búa til vildarkort](./media/Generate-loyalty-card.png "Búa sjálfkrafa til vildarkortsnúmer")
 
 - Áunnir og innleystir vildarpunktar eru nú vistaðar fyrir hverja færslu og sölupöntun gegn sölulínunni þannig að sama upphæð geti verið endurgreitt eða tekið til baka þegar um er að ræða heil vöruskil eða vöruskil að hluta. Þar að auki, með því að hafa sýnileika á sölulínu er möguleiki fyrir notendur símavers að svara spurningum viðskiptavina um hversu mörg stig voru áunnin eða innleyst fyrir hverja línu. Áður en þessar breytingar voru gerðar voru vildarpunktar alltaf endurreiknar við vöruskil, sem leiddi til annars upphæð en upphaflega ef ávinnings- eða innlausnarreglur voru breytilegar og notendur símavers höfðu ekki sýnileika á sundurliðun vildarpunkta. Hægt er að skoða vildarpunktana undir **Kortafærslur** eyðublaðinu fyrir hvert vildarkort. Til að virkja þennan eiginleika skal kveikja á skilgreiningunni **Bóka vildarpunkta á hverja sölulínu** undir flipanum **Samnýttar smásölufæribreytur** \> **Almennt**.
 
@@ -100,26 +100,26 @@ Smásala hefur nýja vildarkerfisvirkni sem hluti af útgáfu október 2018. Hve
 
 - Smásalar geta nú skilgreint ávinnslutímabilið fyrir hvern vildarpunkt. Ávinnslutímabilið mun skilgreina lengdina frá ávinningsdegi, en eftir það verður vildarpunktarnir tiltæk fyrir viðskiptavini. Punktar sem ekki eru áunnir má skoða í **Punktar sem ekki eru áunnir** dálki á **Vildarkort** síðu. Auk þess geta smásalar skilgreint hámark vildarpunkta á hverju vildarkorti. Þetta svæði er hægt að nota til að draga úr áhrifum svika í vildarkerfi. Þegar hámarksvildarpunktum hafa verið náð, getur notandinn ekki áunnið sér fleiri stig. Smásalinn getur ákveðið að útiloka slík kort þar til þeir hafa rannsakað um hugsanlega svik. Ef smásali ákveður svik, getur smásalinn ekki aðeins lokað vildarkortinu fyrir viðskiptavininn heldur einnig merkt viðskiptavininn sem útilokaðan. Til að gera það skaltu stilla **Útiloka viðskiptavin frá skráningu í vildarkerfi** eiginleikann á **Já** undir **Allir viðskiptavinir** á **Smásala** flýtiflipanum. Útilokaðir viðskiptavinir geta ekki fengið útgefin vildarkort í neinum rásum.
 
-    ![Ávinnsla og hámark vildarpunkta](./media/Vesting%20and%20maximum%20reward%20points.png "Skilgreina ávinnslu og hámark vildarpunkta")
+    ![Ávinnsla og hámark vildarpunkta](./media/Vesting-and-maximum-reward-points.png "Skilgreina ávinnslu og hámark vildarpunkta")
 
 - Tengsl er til að veita sérstakt verð og afslætti, en það eru nokkur tengsl sem smásalar vilja ekki að viðskiptavinir þeirra sjái. Til dæmis gæti tengsl sem heitir „viðskiptavinur sem eyðir miklu“ ekki verið vel tekið af sumum viðskiptavinum. Þar að auki eru nokkur tengsl sem ekki ætti að stjórna í versluninni, til dæmis starfsmenn, vegna þess að þú vilt ekki að gjaldkerar ákveði hverjir séu starfsmenn og fá þannig starfsmannabundna afslætti. Smásalar geta nú valið tengsl sem ætti að vera falið í smásölurásum. Tengsl merkt sem **Fela í rásum** er ekki hægt að skoða, bæta við eða fjarlægja á sölustað. Hins vegar verður verðlagning og afsláttur sem tengist tengslunum ennþá beitt á vörurnar.
 
-    ![Fela tengsl](./media/Hide%20affiliations.png "Fela tengsl í rásum")
+    ![Fela tengsl](./media/Hide-affiliations.png "Fela tengsl í rásum")
     
 - Notendur símavers geta nú auðveldlega leita fyrir viðskiptavini með þeirra vildarkortsupplýsingar og fletta að vildarkorts- og vildarkortsfærslusíðum viðskiptavinarins frá **Þjónustudeild** síðu.
 
-    ![Þjónustudeild](./media/Customer%20service.png "Leita að vildarupplýsingum fyrir viðskiptavininn")
+    ![Þjónustudeild](./media/Customer-service.png "Leita að vildarupplýsingum fyrir viðskiptavininn")
     
 - Ef vildarkortið er í hættu þarf að búa til annað kort í staðinn og núverandi punktar flutt á nýtt kort. Flæði á nýjum kortum hefur verið einfaldað í þessari útgáfu. Auk þess geta viðskiptavinir gefið sumum eða öllum vildarpunkta sínum til vina og fjölskyldu. Þegar punktar eru flutt eru færslur til stillingar á punktum búnar til fyrir hvert vildarkort. Nýja kortið og stöðuvirkni er hægt að nálgast frá **Vildarkort** síðu.
 
-    ![Skipta um og flytja punkta](./media/Replace%20and%20transfer%20points.png "Skipta um vildarkort eða flytja inneign")
+    ![Skipta um og flytja punkta](./media/Replace-and-transfer-points.png "Skipta um vildarkort eða flytja inneign")
     
 - Smásalar gætu viljað fanga árangur tiltekinnar rásar til að skrá viðskiptavini inn í vildarkerfi. Uppruni skráningar fyrir vildarkortin er nú vistuð þannig að smásalar geta keyrt skýrslur um þessi gögn. Uppruni skráningar er sjálfkrafa fangaður fyrir öll útgefnu vildarkort frá MPOS/CPOS eða e-Commerce rásum. Fyrir vildarkortin sem eru gefin út af bakvinnsluforritinu getur notandi símavers valið viðeigandi rás.
 - Í fyrri útgáfum gætu smásalar notað MPOS / CPOS til að innleysa vildarpunkta fyrir viðskiptavini í verslun. Hins vegar, í þessum útgáfum, vegna þess að vildarstaða er sýnd í vildarpunktum, gat gjaldkeri ekki séð gjaldmiðilsupphæðina sem hægt væri að beita við núverandi færslu. Gjaldkerinn þurfti að breyta punktum í gjaldmiðilinn áður en hann greiddi með vildarpunktum. Í núverandi útgáfu, eftir að línur hafa verið bætt við færsluna, getur gjaldkerinn séð þá upphæð sem vildarpunktar geta náð til við núverandi færslu, sem gerir það auðvelt að beita sumum eða öllum vildarpunktunum við viðskiptin. Þar að auki getur gjaldkeri séð punktana sem munu renna út á næstu 30 dögum svo að þeir geta beitt viðbótarsölu eða krosssölu til að hvetja viðskiptavininn til að eyða punktunum sem eru að renna út í þeirri færslu.
 
-    ![Punktar sem vildarinneign nær yfir](./media/Points%20covered%20by%20loyalty%20balance.png "Birta inneign sem vildarpunktar ná yfir")
+    ![Punktar sem vildarinneign nær yfir](./media/Points-covered-by-loyalty-balance.png "Birta inneign sem vildarpunktar ná yfir")
 
-    ![Punktar sem eru að renna út](./media/Expiring%20points.png "Skoða punkta sem eru að renna út")
+    ![Punktar sem eru að renna út](./media/Expiring-points.png "Skoða punkta sem eru að renna út")
 
 - Með útgáfunni 8.1.3 höfum við virkjað valkostinn „greiða með vildarpunktum“ í rás símavers. Til að virkja þennan möguleika skaltu búa til greiðslumáta fyrir vildarpunkta og tengja hana við símaverið. 
 

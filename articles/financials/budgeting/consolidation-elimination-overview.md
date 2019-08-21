@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13151
 ms.assetid: 9d8f55cb-b2cf-4e01-89cf-0e21f5c8ae1f
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c972b1a0b9be61875c17a05ce3ec8fce1ac5a4e0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 266c594fda1609e4efdc8cdcd79767d94b755187
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572906"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842762"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Yfirlit yfir sameiningu og losun
 
@@ -64,7 +64,7 @@ Valkosturinn **Fjárhagsskýrslugerð** er lausnin til að sameina allar fjárha
 
 5.  Dótturfyrirtæki okkar eru dreifð um heiminn og við höfum marga bókhaldslykla. Hver er besta aðferðin til að sameina gögn okkar?
 
-Margir valkostir eru þegar°þarf°að vinna með marga bókhaldslykla. Hægt er að nota valkostinn **Sameina á netinu** og velja svo að nota annað hvort samstæðulykil sem er skilgreindur á aðallykilinn eða flokk samstæðulykla. Einnig er hægt að nota valkostinn**Fjárhagsskýrsla**, hafa marga tengla í fjárhagsvíddir í línuskilgreiningu og kortleggja lykla.
+Margir valkostir eru þegar°þarf°að vinna með marga bókhaldslykla. Hægt er að nota valkostinn **Sameina á netinu** og velja svo að nota annað hvort samstæðulykil sem er skilgreindur á aðallykilinn eða flokk samstæðulykla. Einnig er hægt að nota valkostinn **Fjárhagsskýrsla**, hafa marga tengla í fjárhagsvíddir í línuskilgreiningu og kortleggja lykla.
 
 6.  Við krefjumst sameiningar á mörgum stigum. Með öðrum orðum mælt, sameinum við fyrst öll evrópsku dótturfyrirtæki okkar í breska pundið (GBP). Síðan tökum við gögnin og umreiknum sameinaða upphæð yfir í bandaríska dollara. Hvernig er þetta gert?
 

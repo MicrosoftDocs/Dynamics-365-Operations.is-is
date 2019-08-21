@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 12991
 ms.assetid: 8d787017-71dc-418f-b8c2-4ea9763d9978
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18b8a1649a26ebacc34b828ed25ec9646dd438a1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: de6406029aa88424863dd9a47505f5b3ad27f237
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567353"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839594"
 ---
 # <a name="audit-policy-rules"></a>Reglur endurskoðunarstefnu
 
@@ -84,13 +84,13 @@ Hægt er að nota endurskoðunarreglur til að meta kostnaðarskýrslur, reiknin
 <tr class="even">
 <td>Lykilorðaleit</td>
 <td>Meta upprunaskjöl til að ákvarða hvort þau innihalda tiltekin orð.</td>
-<td>Þegar þessi valkostur er valinn skal færa inn orð til að leita að í regla endurskoðunarstefnu síða. regla endurskoðunarstefnu síða  inniheldur einnig valkosti sem leyfa þér að tilgreina töflur og reiti til að meta fyrir orð sem þú slóst inn.</td>
+<td>Þegar þessi valkostur er valinn skal færa inn orð til að leita að í regla endurskoðunarstefnu síða. Síðan Regla endurskoðunarstefnu inniheldur einnig valkosti sem leyfa þér að tilgreina töflur og reiti til að meta fyrir orð sem þú slóst inn.</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="common-parameters"></a>Algengar færibreytur
-Allar stefnureglur um tiltekna endurskoðunarstefnu deila sömu runufæribreytur og sama dagsetningarbil skjalavals. Þessar færibreytur eru tilgreindar fyrir reglu í á Aukavalkostir síða.
+Allar stefnureglur um tiltekna endurskoðunarstefnu deila sömu runufæribreytum og sama dagsetningarbili skjalavals. Þessar færibreytur eru tilgreindar fyrir reglu í á Aukavalkostir síða.
 
 
 

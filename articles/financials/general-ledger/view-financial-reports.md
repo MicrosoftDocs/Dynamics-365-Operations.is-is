@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ba92ab4f751758c4adf26885ebb7b2c5290ecac
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: bce7c1b5e5780d68bde2130c25099cbaee1fa451
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530800"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834660"
 ---
 # <a name="view-financial-reports"></a>Skoða fjárhagsskýrslur
 
@@ -71,7 +71,7 @@ Prentun fjárhagsskýrslu mun búa til PDF-skrá sem síðan er hægt að prenta
 
 -   Til að taka með mismunandi stig upplýsinga í útprentaðri skýrslu, stilltu sleða á **Já** eða **Nei**. Ef skýrslu notar skipurit er hægt að velja að taka með allar einingar skipurits eða aðeins núverandi eining skipurits.
 -   Ef stilla á síðustærð skal velja síðustærð á listanum.
--   Ef stilla útlit síðu skal velja útlit á listanum. Ef efni skýrslu til að passa við breiddina sem er valin er sleði stilltur á  **Já**.
+-   Ef stilla útlit síðu skal velja útlit á listanum. Ef efni skýrslu til að passa við breiddina sem er valin er sleði stilltur á **Já**.
 -   Til að stilla spássíu, færið inn efstu, neðst, vinstri og hægri spássíustærð í tommum.
 
 Eftir að þú hefur lokið við stillingar á valkostum prentunar skaltu smella á **Prenta** til að halda áfram og velja svo hvort eigi að sækja skrána eða vista hana í OneDrive eða SharePoint. Ef þú ákveður að þú vilt ekki halda áfram skaltu smella á **Hætta við** í staðinn. Þegar þú heldur áfram birtist skýrslan á þjóninum og þú verður beðinn um að sækja skýrsluna í PDF-sniði. Nú er hægt að skoða skýrsluna í PDF-lesaranum og héðan geturðu valið prentarann til að senda skýrsluna til, og einnig gera frekari leiðréttingar fyrir valkosti prentunar.

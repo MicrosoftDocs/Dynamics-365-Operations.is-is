@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysCorpNetPrinterList, WHSParameters, NumberSequenceTableListPage, NumberSequenceDetails, WHSDocumentRoutingLayout, WHSDocumentRouting, WHSRFMenuItem, WHSRFMenu, WHSWorkTemplateTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8d906ca9f5a6536870fa0c322a0792ed5672c25e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ed74806e5e037570f3ed7f59725eed494c829d34
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558104"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1847270"
 ---
 # <a name="enable-license-plate-label-printing"></a>Virkja prentun merkis á númeraplötu
 
@@ -52,7 +52,7 @@ ms.locfileid: "1558104"
 12. Smellið á „Vista“.
 13. Lokið síðunni.
 
-## <a name="create-the-document-route-layout"></a>Stofna útlit leið skjals 
+## <a name="create-the-document-route-layout"></a>Stofna útlit leið skjals
 1. Fara í vöruhúsakerfi > Uppsetning > Skjalaleið > Útlit skjalaleiðar.
     * Virkja SSCC útlit.  
 2. Smellið á „Nýtt“.
@@ -64,7 +64,7 @@ ms.locfileid: "1558104"
 8. Lokið síðunni.
 
 ## <a name="set-up-the-document-routing"></a>Setja upp skjalaleið
-1. Fara í vöruhúsakerfi > Uppsetning >  Skjalaleið > Skjalaleið.
+1. Fara í vöruhúsakerfi > Uppsetning > Skjalaleið > Skjalaleið.
 2. Í svæðinu gerð vinnupöntunar, skal velja valkost.
 3. Smellt er á Nýtt.
 4. Í reitinn vöruhús skal slá inn gildi.
@@ -97,7 +97,7 @@ ms.locfileid: "1558104"
 19. Lokið síðunni.
 
 ## <a name="update-a-work-template"></a>Uppfæra sniðmát verks
-1. Fara í vöruhúsakerfi  > Uppsetning  > Vinna  > Vinnusniðmát.
+1. Fara í vöruhúsakerfi > Uppsetning > Vinna > Vinnusniðmát.
 2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 3. Smellið á „Breyta“.
 4. Smellt er á Nýtt.

@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria, InventTrackingItemIdLookup, InventBatchIdLookup, CustTable, SalesLine
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 897a777b3f4ce05fe995aa98a72feb99d82837ef
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 44f87834a1ffb587299ae9092f13ee9f7c19f658
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561295"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845234"
 ---
 # <a name="trace-an-item-or-raw-material"></a>Rekja vöru eða hráefni
 
@@ -31,11 +31,11 @@ ms.locfileid: "1561295"
 Þetta ferli sýnir hvernig á að nota vörurakning til að auðkenna þar sem vörur eða hráefni hafa verið notaðar eða eru í notkun. Með þessu ferli er hægt að greina vöru, rekja hann til baka í uppruna og svo áframrekja í gegnum framleiðslu og sölu á endanlegu vöruna. Hægt er að nota ferlið til að rannsaka viðskiptavini sem verða fyrir áhrifum, sölupantana sem verða fyrir áhrifum og fleira. Þessi aðferð notar sýnigögn fyrirtækisins USP2.
 
 
-## <a name="trace-an-item-backwards-using-a-known-batch-number"></a>Rekja vöru með afturábak með þekkt rununúmer 
+## <a name="trace-an-item-backwards-using-a-known-batch-number"></a>Rekja vöru með afturábak með þekkt rununúmer
 1. Farið í Birgðastjórnun > Fyrirspurnir og skýrslur > Rakningarvíddir > Vörurakning.
 2. Í reitnum Vörunúmer velurðu P9100.
 3. Í listanum skal smella á tengilinn í valinni línu.
-4. í reitnum Áfram eða afturábak Veljið 'Afturábak' 
+4. í reitnum Áfram eða afturábak Veljið 'Afturábak'.
 5. Í rununúmer reitinn, velja „as-12-344-01"
 6. Í listanum skal smella á tengilinn í valinni línu.
 7. Smellið á „Í lagi“.

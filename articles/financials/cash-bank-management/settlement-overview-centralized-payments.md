@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 222414
 ms.assetid: 610f6858-0f37-4d0f-8c68-bab5a971ef4a
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fecc9027d0df7b268a3241ea0f1797849db2d90
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 98377e5bc2a91efcb2d77035f39a74c1d09c4065
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565463"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842138"
 ---
 # <a name="settlement-overview-for-centralized-payments"></a>Uppgjörsyfirlit fyrir miðstýrðar greiðslur
 
@@ -31,7 +31,7 @@ ms.locfileid: "1565463"
 
 Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota lögaðila sem sér um allar greiðslur. Þetta eyðir þörfinni á því að færa inn sömu færsluna í mörgum lögaðilum og sparar tíma með því að einfalda greiðslutillagnaferlið, jöfnunarferlið, breytingar á opnum færslum, og breytingar á lokuðum færslum fyrir miðstýrðar greiðslur. 
 
-Þegar viðskiptavinar- eða lánardrottinsgreiðsla er færð inn í einu lögaðila og jöfnuð með reikningi sem var færður inn í öðru lögaðila er viðkomandi jöfnun og færslur sjálfkrafa gerðar fyrir hvort lögaðila. Jöfnunarfærsla er stofnuð fyrir hverja samsetningu reiknings og greiðslu í færslunni. Hver jöfnunarfærsla fær úthlutað nýju fylgisjalsnúmeri sem er byggð á númeraröð greiðsluskjals sem tilgreind er á í**Færibreytur viðskiptakrafna** síðu fyrir viðskiptavini og á **Færibreytur viðskiptaskulda** síðu fyrir lánardrottna. 
+Þegar viðskiptavinar- eða lánardrottinsgreiðsla er færð inn í einu lögaðila og jöfnuð með reikningi sem var færður inn í öðru lögaðila er viðkomandi jöfnun og færslur sjálfkrafa gerðar fyrir hvort lögaðila. Jöfnunarfærsla er stofnuð fyrir hverja samsetningu reiknings og greiðslu í færslunni. Hver jöfnunarfærsla fær úthlutað nýju fylgisjalsnúmeri sem er byggð á númeraröð greiðsluskjals sem tilgreind er á í **Færibreytur viðskiptakrafna** síðu fyrir viðskiptavini og á **Færibreytur viðskiptaskulda** síðu fyrir lánardrottna. 
 
 Ef viðbótar jöfnunarfærslur eru búnar til fyrir greiðsluafslætti, endurmat á erlendum gjaldmiðli, auramismun, ofgreiðslu eða vangreiðslu fá þær úthlutað síðari dagsetningu greiðslu- eða reikningsfærslunnar. Ef jöfnun á sér stað eftir að greiðslan er bókuð nota jöfnunarfærslurnar jöfnunarbókunardagsetninguna sem er tilgreind í skjámyndinni **Jafna opnar færslur**.
 

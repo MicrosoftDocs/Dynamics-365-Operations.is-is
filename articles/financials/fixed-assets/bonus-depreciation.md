@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBonus
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 3621
 ms.assetid: 835ec594-744e-461c-a676-1b9abc094173
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e05c0c195ddb948547ae008d050686bbcdc6ed3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 687ba57042ad65d3a1ff4ad92f0da774c6751eac
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567489"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840674"
 ---
 # <a name="bonus-depreciation"></a>Viðbótarafskriftir
 
@@ -31,11 +31,11 @@ ms.locfileid: "1567489"
 
 Þessi grein veitir yfirlit yfir virknina viðbótarafskriftir.
 
-Með viðbótarafskriftir gera kleift að gera aukalegar afskriftarupphæðir á fyrsta ári sem eign er í þjónustu og afskrifuð . Viðbótarafskriftir verður að taka á undan öðrum afskriftaútreikningum. Þess vegna er best að nota viðbótarafskriftir með bækur þar sem Bóka á fjárhag virkni er óvirkur. Hægt er að nota **Eyða færslum sem eru ekki bókaðar í fjárhag** valkost til að eyða sögulegum færslum fyrir bókum sem ekki bóka í fjárhag. Svo er hægt að hýsa viðbótarafskriftir síðar í líftíma eignar með því að eyða afskriftarfærslur sem var áður bókaður. 
+Fyrir viðbótarafskriftir er hægt að taka aukalegar afskriftarupphæðir á fyrsta ári sem eign er í þjónustu og afskrifuð . Viðbótarafskriftir verður að taka á undan öðrum afskriftaútreikningum. Þess vegna er best að nota viðbótarafskriftir með bækur þar sem Bóka á fjárhag virkni er óvirkur. Hægt er að nota **Eyða færslum sem eru ekki bókaðar í fjárhag** valkost til að eyða sögulegum færslum fyrir bókum sem ekki bóka í fjárhag. Svo er hægt að hýsa viðbótarafskriftir síðar í líftíma eignar með því að eyða afskriftarfærslum sem voru áður bókaðar. 
 
 Hægt er að reikna út viðbótarafskriftir með því að nota tillöguferli og hægt er að stofna handvirkar færslur viðbótarafskrifta. Ekki er hægt að stofna viðbótarafsrkiftir ef afskriftarfærslur eða -breytingar eru þegar til fyrir viðkomandi eignabók.
 
-Þegar tillöguferli er notað til að reikna viðbótarafskriftir eru allar tiltækar viðbótarfærslur hafðar með í útreikningi á grunninum. Útreikningurinn inniheldur einnig allar fyrri viðbótarafskriftir sem var færð inn handvirkt fyrir eignina. 
+Þegar tillöguferli er notað til að reikna viðbótarafskriftir eru allar tiltækar viðbótarfærslur hafðar með í útreikningi á grunninum. Útreikningurinn inniheldur einnig allar fyrri viðbótarafskriftir sem voru færðar inn handvirkt fyrir eignina. 
 
 Þegar gera á fleiri en eina afskrift fyrir eign er tekið tillit til forgangs. Hver viðbót dregur úr grunni fyrir næstu viðbót. Ekki er tekið tillit til hrakvirðis í eignagrundvelli fyrir útreikning viðbótarafskriftar og afskriftarhefð á ekki við fyrir viðbótarafskriftir. 
 

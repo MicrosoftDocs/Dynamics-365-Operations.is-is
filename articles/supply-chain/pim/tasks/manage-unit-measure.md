@@ -3,25 +3,25 @@ title: Stjórna mælieiningu
 description: Þessi ferli sýnir hvernig á að skilgreina mælieiningu, veita þýðingar fyrir eininguna og lýsingu hennar, og skilgreina umreikningsreglur fyrir tengdar einingar.
 author: sorenva
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/08/2018
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, UnitOfMeasure, UnitOfMeasureReportingTranslation, UnitOfMeasureTranslation, UnitOfMeasureConversion, UnitOfMeasureConversionEditOrCreate, UnitOfMeasureLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3e208b7f1faab77f2b97ff7b440a228656684fca
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 042a7495d55fb9d884771972cfc18e5ddb25330d
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567654"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1844322"
 ---
 # <a name="manage-unit-of-measure"></a>Stjórna mælieiningu
 
@@ -29,46 +29,37 @@ ms.locfileid: "1567654"
 
 Þessi ferli sýnir hvernig á að skilgreina mælieiningu, veita þýðingar fyrir eininguna og lýsingu hennar, og skilgreina umreikningsreglur fyrir tengdar einingar. Hægt er að fara í gegnum þetta ferli með því að nota sýnigögn eða með því að nota eigin gögn.
 
-1. Farðu í Viðhald útgefinnar afurðar.
-2. Smellt er á Einingum.
+1. Farðu í **Skoðunarrúða > Kerfiseiningar > Afurðaupplýsingastjórnun > Afurðir > Viðhald útgefinna afurða**.
+2. Smelltu á **Einingar**.
 
 ## <a name="create-a-unit-of-measure"></a>Stofna mælieiningu
-1. Smellið á „Nýtt“.
-2. Í reitnum Eining skal slá inn gildi.
-    * Færið inn Kenni eða tákn sem nota á þegar vísað er í mælieiningu.  
-3. Sláið inn gildi í reitnum „Lýsing“.
-    * Færið inn lýsandi heiti fyrir mælieiningu á tungumáli kerfisins.  
-4. Í reitnum Einingaflokkur skal velja valkost.
-    * Mælieiningaflokkurinn skilgreinir hvaða röklegu flokkun, eins og svæði, fjöldi eða magni, mælieiningin er hluti af.  
-5. Í reitinn Nákvæmni aukastafa skal slá inn númer.
-    * Tilgreina fjölda aukastafa sem verður að slétta umreiknaðar mælieiningu í þegar útreikningi er lokið fyrir mælieiningu.  
-6. Smellið á „Vista“.
+1. Smellt er á **Nýtt**.
+2. Í reitnum **Eining** skal slá inn gildi. Færið inn Kenni eða tákn sem nota á þegar vísað er í mælieiningu.  
+3. Í reitinn **Lýsing** skal slá inn gildi. Færið inn lýsandi heiti fyrir mælieiningu á tungumáli kerfisins.  
+4. Í reitnum **Einingaflokkur** skal velja valkost. Mælieiningaflokkurinn skilgreinir hvaða röklegu flokkun, eins og svæði, fjöldi eða magni, mælieiningin er hluti af.  
+5. Í reitinn **Nákvæmni aukastafa** skal slá inn tölu. Tilgreina fjölda aukastafa sem verður að slétta umreiknaðar mælieiningu í þegar útreikningi er lokið fyrir mælieiningu.  
+6. Smellt er á **Vista**.
 
 ## <a name="define-unit-translations"></a>Skilgreina þýðingar eininga
-1. Smellt er á einingatexti.
-2. Smellið á „Nýtt“.
-    * Einingatexti skal nota til að stofna þýðing fyrir Kenni eða tákn sem standa fyrir mælieiningu sem nota á á ytri skjöl í tungumálum fyrir viðskiptavin eða lánardrottin.  
-3. Í reitnum Tungumál skal færa inn eða velja gildi.
-4. Í reitinn Texti skal slá inn gildi.
-5. Smellið á „Vista“.
+1. Í **Aðgerðasvæðinu**, smellirðu á **Einingatextar**.
+2. Smellt er á **Nýtt**. Einingatexti skal nota til að stofna þýðing fyrir Kenni eða tákn sem standa fyrir mælieiningu sem nota á á ytri skjöl í tungumálum fyrir viðskiptavin eða lánardrottin.  
+3. Í reitnum **Tungumál** skal færa inn eða velja gildi.
+4. Í reitnum **Texti** skal slá inn gildi.
+5. Smellt er á **Vista**.
 6. Lokið síðunni.
-7. Smellt er á Þýddar einingalýsingar.
-8. Smellið á „Nýtt“.
-    * Skilgreina lýsingar fyrir tiltekin tungumál fyrir mælieiningu.  
-9. Í reitnum Tungumál skal færa inn eða velja gildi.
-10. Sláið inn gildi í reitnum „Lýsing“.
-11. Smellið á „Vista“.
+7. Í **Aðgerðasvæðinu**, smellirðu á **Þýddar einingalýsingar**.
+8. Smellt er á **Nýtt**. Skilgreina lýsingar fyrir tiltekin tungumál fyrir mælieiningu.  
+9. Í reitnum **Tungumál** skal færa inn eða velja gildi.
+10. Í reitinn **Lýsing** skal slá inn gildi.
+11. Smellt er á **Vista**.
 12. Lokið síðunni.
 
 ## <a name="define-unit-conversion-rules"></a>Skilgreina umreikningsreglur eininga
-1. Smellt er á Umreikningur eininga.
-    * Skilgreina reglur til að umreikna mælieininguna í og frá öðrum mælieiningar í völdu einingaflokknum.  
-2. Smellt er á Nýtt til að opna felligluggann.
-3. Í reitnum Stuðull skal slá inn tölu.
-    * Umreiknistuðull milli Frá einingu og Til einingar. til dæmis er umreiknistuðullinn úr sentímetrum í metra 100 þar sem 100 sentímetrar eru í einum metra.  
-4. Í reitnum Til einingar skal færa inn eða velja gildi.
-5. Í reitnum Sléttun skal velja valkost.
-    * Skilgreina hvernig slétta skal umbreytt gildi.  
-6. Smellið á „Í lagi“.
+1. Í **Aðgerðasvæðinu**, smellirðu á **Einingaumreikningur**. Skilgreina reglur til að umreikna mælieininguna í og frá öðrum mælieiningar í völdu einingaflokknum.  
+2. Smelltu á **Nýtt** til að opna felligluggann.
+3. Í reitnum **Stuðull** skal slá inn tölu. Umreiknistuðull milli Frá einingu og Til einingar. til dæmis er umreiknistuðullinn úr sentímetrum í metra 100 þar sem 100 sentímetrar eru í einum metra.  
+4. Í reitnum **Til einingar** skal færa inn eða velja gildi.
+5. Í reitnum **Sléttun** skal velja valkost. Skilgreina hvernig slétta skal umbreytt gildi.  
+6. Smellt er á **OK**.
 7. Lokið síðunni.
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 27361
 ms.assetid: 9f3dace7-05d8-4974-8f85-aca2e224876c
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74a1f7e16064a954bb22dc233a77bf28747f7f11
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fe464c714620590d77a0a5b2c2aeadb29381bf60
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1509269"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1837495"
 ---
 # <a name="accounts-payable-invoice-matching"></a>Reikningsjöfnun viðskiptaskulda
 
@@ -35,7 +35,7 @@ Reikningsjöfnun viðskiptaskulda felst í því að bera saman reikning lánard
 
 Til dæmis, Færð er inn innkaupapöntun með einni línuvöru fyrir 1.000 rafhlöður á verðinu 1,00 hver. Innkaupapöntunin er samþykkt og send til lánardrottins. Lánardrottinn sendir 1.000 rafhlöður og færður er inn innhreyfingarskjal afurða fyrir 1.000 rafhlöður á verðinu 1,00 hver. Birgðakostnaður rafhlaðanna er uppfærður með þessu verði. 
 
-Reikningur berst fyrir 1.000 rafhlöður á  1,10 hver. Reglur lögaðila þíns leyfa 5% nettó vikmörk einingarverðs fyrir þessarar vörutegundar. Verðið 1,05 yrði samþykkt en ekki 1,10. Þegar reikningsupplýsingarnar eru færðar inn finnst jöfnunarmisræmi í verði og hægt er að vista reikninginn þar til misræmið er leyst.
+Reikningur berst fyrir 1.000 rafhlöður á 1,10 stykkið. Reglur lögaðila þíns leyfa 5% nettó vikmörk einingarverðs fyrir þessarar vörutegundar. Verðið 1,05 yrði samþykkt en ekki 1,10. Þegar reikningsupplýsingarnar eru færðar inn finnst jöfnunarmisræmi í verði og hægt er að vista reikninginn þar til misræmið er leyst.
 
 Hægt er að nota eftirfarandi gerðir reikningsjöfnunar fyrir viðskiptaskulda :
 
@@ -53,7 +53,7 @@ Tvíhliða samsvörun og þríhliða samsvörun stemma alltaf við verðupplýsi
 
 Yfirleitt, reikningsjöfnun eru framkvæmd sjálfkrafa þegar reikningar lánardrottins er breytt á síðu reikningur Lánardrottins. Einnig er hægt að framkvæma reikningsjöfnun eftir þörfum. Reikningsjöfnun eftir þörfum stjórnast fyrir lögaðila með Uppfæra sjálfkrafa stöðu á fyrirsögn reiknings í á færibreytusíðu viðskiptaskulda á flipann reikningaprófun. reikningsjöfnun getur einnig verið framkvæmd sem hluti af endurskoðunarferli reiknings. Geturðu skoða niðurstöður reikningsjöfnunar á síða Reikningur lánardrottins og tengdar síða reikningsjöfnunar.
 
-## <a name="invoice-totals-matching"></a> Samtölur reiknings stemma
+## <a name="invoice-totals-matching"></a>Samtölur reiknings stemma
 Hægt er að nota samtölur reikningsjöfnunar sem stemma til að ganga úr skugga um að heildarupphæð reiknings hviki ekki frá upphæðum sem búist er við meira en innan ásættanlegra vikmarka. Sex samtölur eru borin saman á upplýsingasíða samtölur reiknings stemma, eins og sýnt er í eftirfarandi töflu. Ef leyfileg vikmörk fyrir samtölur reiknings stemma er 20% er 100% frávikaprósenta fyrir heildarafsláttarupphæð er talin jöfnunarmisræmi.
 
 | Reitur samtölu    | Raunveruleg heildarupphæð reiknings | Áætlaðar heildarupphæð reiknings | Frávikaprósenta | Samsvörunarstaða |
@@ -67,7 +67,7 @@ Hægt er að nota samtölur reikningsjöfnunar sem stemma til að ganga úr skug
 
 Samtölur reiknings stemma er stýrt fyrir lögaðila með víxlun milli Jafna samtölur reiknings á síðunni Færibreytur viðskiptaskulda. Jöfnun er framkvæmd í áætlaðra samtalna reiknings og raunverulegra samtalna reiknings. Áætluð heildarupphæð reiknings eru reiknaðar út frá verð, gjöld og vsk-upplýsingar úr innkaupapöntun og magni úr magninu úr reikningnum.
 
-## <a name="two-way-price-totals-matching"></a> Tvíhliða, samsvörun samtalna verðs
+## <a name="two-way-price-totals-matching"></a>Tvíhliða, samsvörun samtalna verðs
 Nota tvíhliða jöfnun til að aðstoða við að tryggja að frávikið á milli upplýsingar um verð á innkaupapöntuninni og reikningnum er innan ásættanlegra vikmarka. Hægt er að bera saman upplýsingar um verð fyrir nettóupphæð á hverja línu á reikningi og allar reikningslínur í bið og áður bókaðar, með nettóupphæð samsvarandi innkaupapöntunarlínu. Þetta kallast samsvörun á samtölur verðs. 
 
 Jöfnun samtalna verðs getur verið byggt á prósentu, upphæð eða prósenta og upphæð. 
@@ -98,7 +98,7 @@ Tvíhliða samsvörun er stýrt fyrir lögaðila með reitnum línujöfnunarregl
 
 Samtölur verðs stemma er stýrt fyrir lögaðila með reitnum Jafna samtölur verðs á síðunni færibreytum viðskiptaskulda. Verð prósentuvikmörk heildarinnkaupaverðs og vikmarkaupphæð (ekki-fara -yfir upphæð) eru einnig tilgreindar á þeirri síðu.
 
-## <a name="two-way-net-unit-price-matching"></a> Tvíhliða, Samsvörun nettóeiningaverðs
+## <a name="two-way-net-unit-price-matching"></a>Tvíhliða, Samsvörun nettóeiningaverðs
 Nota tvíhliða jöfnun til að aðstoða við að tryggja að frávikið á milli upplýsingar um verð á innkaupapöntuninni og reikningnum er innan ásættanlegra vikmarka. Hægt er að bera saman upplýsingar um verð fyrir nettóeiningaverð hvers atriðis á reikningnum. Þetta kallast Samsvörun nettóeiningaverðs 
 
 Níu línuupphæðir eru borin saman á upplýsingasíða reikningsjöfnun, eins og sýnt er í eftirfarandi töflu. Ef leyfileg verðvikmörk fyrir jöfnun nettóeiningaverðs er 10% er 22.61% frávik fyrir nettóeiningaverð talin jöfnunarmisræmi.
@@ -119,7 +119,7 @@ Tvíhliða samsvörun er stýrt fyrir lögaðila með reitnum línujöfnunarregl
 
 Nettóeiningaverðs samsvörun er stýrt fyrir lögaðila með reitnum virkja sannprófun reikningsjöfnunar á síðunni færibreytum viðskiptaskulda. Hægt er að skilgreina vikmarkaprósenta nettóeiningaverðs fyrir vörur, vöruflokka, lánardrottna, lánardrottnaflokka, vöru og lánardrottinssamsetningar eða lögaðila með því að nota síðuna vikmörk Verðs.
 
-## <a name="two-way-price-totals-matching-and-net-unit-price-matching"></a> Tvíhliða, samsvörun samtalna verðs og samsvörun nettóeiningaverðs
+## <a name="two-way-price-totals-matching-and-net-unit-price-matching"></a>Tvíhliða, samsvörun samtalna verðs og samsvörun nettóeiningaverðs
 Þú getur notað samsvörun samtalna verðs og samsvörun nettóeiningaverðs saman. Þetta dæmi gerir ráð fyrir að eftirfarandi skilgreiningu:
 
 -   Vikmörk Nettóeiningaverðs fyrir USB Drif vöru er 10%.
@@ -165,7 +165,7 @@ Sömu línuupphæðir eru borin saman á upplýsingasíða reikningsjöfnun, ein
 
 Þríhliða samsvörun er stýrt fyrir lögaðila með reitnum línujöfnunarregla á síðunni færibreytum viðskiptaskulda. Eftir því hvað er valið í reitnum Leyfa hnekkingu jöfnunarreglu er hægt að velja þríhliða jöfnun fyrir tiltekinn lánardrottin, vöru eða samsetningu vara og lánardrottins á síðunni Jöfnunarregla og fyrir tiltekna innkaupapöntun á síðunni innkaupapöntun.
 
-## <a name="charges-matching"></a> Gjöld stemma
+## <a name="charges-matching"></a>Gjöld stemma
 Hægt er að nota jöfnun gjalda til að ganga úr skugga um að upphæðir gjalda hviki ekki frá upphæðum sem búist er við meira en innan ásættanlegra vikmarka. Heildarupphæðir fyrir hverja gjaldakóða sem á við um innkaupapöntunar og reiknings eru borin saman í á Bera saman gjaldgildi - Reikningur: síðu, eins og sýnt er í eftirfarandi töflu. Ef leyfileg vikmörk fyrir gjaldakóði er 25% er 99.999.999.999,99% frávikaprósenta fyrir framleiðsluleyfisgjaldakóði talin jöfnunarmisræmi.
 
 > [!NOTE] 

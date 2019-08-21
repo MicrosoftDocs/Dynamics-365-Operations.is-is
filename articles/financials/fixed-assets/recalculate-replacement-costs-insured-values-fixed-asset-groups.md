@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 3261
 ms.assetid: b8876f83-8772-4f2a-b277-12724e2a0c44
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0756287406ad12237632ffbd455dbc6ba15d9915
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a9dd04072b4845fe5df2a918b64ba1835ea584dd
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563366"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840242"
 ---
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Endurreikna endurnýjunarverð og vátryggt virði fyrir eignaflokka
 
@@ -34,7 +34,7 @@ Reglulega geta komið tilkynningar um að kostnaðurinn við að skipta út eða
 
 Þótt þú getir breytt endurnýjunarverði og vátryggðu virði einstakra eigna á síðunni **Eignir** geturðu notað síðuna **Uppfæra endurnýjunarverð og vátryggt virði** til að uppfæra þessi gildi fyrir heilan flokk af eignum á sama tíma. Þessar upplýsingar lýsa því hvernig uppfæra eigi gildi fyrir eignaflokka eða fyrir tilteknar eignir í flokkana.
 
-## <a name="how-values-are-updated"></a> Hvernig gildi eru uppfærð
+## <a name="how-values-are-updated"></a>Hvernig gildi eru uppfærð
 Ef endurreikna á endurnýjunarverð og vátryggð virði eigna, verður fyrst að tilgreina hlutfall breytingarinnar á endurnýjunarverðum og vátryggðu virði sem fyrir eru, og framkvæma svo reglubundnu uppfærsluna til að raunverulega endurreikna gildin. Þú tilgreinir prósentuna í svæðunum **Stuðull endurnýjunarverðs** og **Stuðull vátryggðs virðis** á síðunni **Eignaflokkar**. Þótt þú tilgreinir þessa stuðla fyrir eignaflokkinn, þegar þú notar síðuna **Uppfæra endurnýjunarverð og vátryggt virði**, getur þú valið að endurreikna endurnýjunarverð og vátryggt virði fyrir aðeins tilteknar eignir í flokki. 
 
 Þegar þú notar síðuna **Uppfæra endurnýjunarverð og vátryggt virði** til að endurreikna endurnýjunarverð og vátryggt virði eignanna eru eftirfarandi formúlur notuð:
@@ -45,14 +45,14 @@ Ef endurreikna á endurnýjunarverð og vátryggð virði eigna, verður fyrst a
 > [!NOTE] 
 > Þegar þú notar síðuna **Uppfæra endurnýjunarverð og vátryggt virði** eru bæði endurnýjunarverð og vátryggt virði uppfærð fyrir valdar eignir; þú getur ekki tilgreint að aðeins eitt gildi verði uppfært. Ef skilja á eftir eitt gildi óbreytt og uppfæra annað gildi skaltu færa inn 0 (núll) sem stuðul á síðunni **Eignaflokkar**. Auður stuðull eða með núllgildi velur því að útreikningnum er sleppt í uppfærslu. Reglubundna uppfærslan hefur engin áhrif á bókfært verð og nettó bókfært verð eigna. 
 
-## <a name="how-to-use-a-date-to-select-which-items-to-update"></a> Hvernig nota á dagsetningu til að velja hvaða atriði á að uppfæra
+## <a name="how-to-use-a-date-to-select-which-items-to-update"></a>Hvernig nota á dagsetningu til að velja hvaða atriði á að uppfæra
 Sjálfgefið uppfærir uppfærsluferlið valdar eignir sem ekki hafa verið uppfærðar á gildandi degi, en hafa ef til vill verið uppfærðar á undanförnum dögum. Til dæmis þýðir &lt; núverandi dagsetning "fyrir daginn í dag." Hægt er að breyta dagsetningunni á síðunni **Uppfæra endurnýjunarverð og vátryggt virði** með því að smella á hnappinn **Velja**. Dagsetningarskilyrðið sem ertilgreint er borið saman við dagsetninguna á síðustu reglubundnu uppfærslu á eigninni (**Síðasta reglubundna gildið/kostnaðaruppfærsla** svæðið á síðunni **Eignir**). Hvert sinn sem tekist hefur að uppfæra endurnýjunarverð og vátryggt virði fyrir eign, uppfærir kerfið sjálfkrafa svæðið **Síðasta reglubundna gildið/kostnaðaruppfærsla** núgildandi dagsetningu. 
 
 Dæmi 
 
 Þú Uppfærðir endurnýjunarverð farartækja, skrifstofuhúsgagna, og byggingaflokka um 5 prósent í gær, og er nú litið á þessar eignir sem rétt uppfærðar. Ef útiloka á þessar eignir þegar allar aðrar eignir eru uppfærðar í dag, er dagsetning færð inn í svæðið **Síðasta reglubundna gildið/kostnaðaruppfærsla** sem er á undan gærdeginum (&lt; dagsetning gærdagsins) vegna þess að síðasta uppfærslan fyrir flokkana **Farartæki**, **Skrifstofuhúsgögn** og **Byggingar** átti sér stað utan dagsetningarskilyrðisins sem fært var inn.
 
-## <a name="cumulative-effect-of-each-update"></a> Uppsöfnuð áhrif hverrar uppfærslu
+## <a name="cumulative-effect-of-each-update"></a>Uppsöfnuð áhrif hverrar uppfærslu
 hver uppfærslu er með Uppsöfnuð áhrif Þess vegna að áætla uppfærslur varlega. Til dæmis, ef allar eignir eru auknar um 3 prósent á þriðjudegi og skrifstofuhúsgögn aukin um 4 prósent á föstudegi, skrifstofuhúsgögn hækka þá um samtals 7.12 prósent.
 
 ## <a name="scenario"></a>Aðstæður

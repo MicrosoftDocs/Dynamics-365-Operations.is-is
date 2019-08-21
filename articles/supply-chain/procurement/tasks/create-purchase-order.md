@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventDimParmFixed, InventItemIdLookupPurchase, InventProductDimensionLookup, PurchTotals
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 50bf9927626a2a78a5f007b0b73d338585bbf9ab
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3ad846ba14b05f8e7d34aff2e3a256cc9b3b56c1
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547601"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1838119"
 ---
 # <a name="create-a-purchase-order"></a>Stofna innkaupapöntun
 
@@ -31,7 +31,7 @@ ms.locfileid: "1547601"
 
 
 ## <a name="create-the-purchase-order-header"></a>Stofna haus innkaupapöntunar
-1. Fara í innkaup og aðföng > innkaupapöntun  > allar innkaupapantanir.
+1. Fara í innkaup og aðföng > innkaupapöntun > allar innkaupapantanir.
 2. Smellið á „Nýtt“.
 3. Veljið lánardrottinslykil US-101.
     * Þegar þú velur lánardrottinn, upplýsingar úr færslu um lánardrottinn eins og aðsetur, reikningslykil, afhendingarskilmála og afhendingarmáta verður afrituð sem sjálfgefin gildi í pöntunarhaus. Hægt er að breyta þessum gildum hvenær sem er.  
@@ -41,7 +41,7 @@ ms.locfileid: "1547601"
 5. Fella saman almenna hlutann.
 6. Stækka eða fella saman stjórnunarhlutann.
     * Hægt er að nota svæðið Pöntunaraðili til að tilgreina hver er að panta. Það getur verið hentugt að deila þessu með lánardrottins ef þau þurfa að hafa samband við þann einstakling. Svæðinu má úthlutað gildi sjálfkrafa ef gildandi notandareikningurinn tengist heiti á síðunni Notendur.  
-7. Fella saman  stjórnunarhlutann.
+7. Fella saman stjórnunarhlutann.
 8. Smellið á „Í lagi“.
     * Pöntunarhaus hefur nú verið stofnaður. Þegar unnið er með innkaupapöntunarlínur birtist aðeins útdráttur úr upplýsingar úr haus. Smella á Haus ef nauðsynlegt er að skoða aðrar upplýsingar.  
 

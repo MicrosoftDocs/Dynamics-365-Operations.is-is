@@ -10,24 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesTable, SalesEditLines,  SrsReportViewerForm, CustConfirmJournal, SysQueryForm, SysQueryFieldLookUp, SysLookup, SalesParmIdLookup
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db475cf967bebec2d442aaa864800d920cf0ab81
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c01c5e070954b3791df3cb67ba7c4f4ec79e3003
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563995"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1833979"
 ---
 # <a name="confirm-sales-orders"></a>Staðfesta sölupantanir
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir hvernig á að staðfesta sölupantanir. Þér verður sýnt hvernig á að staðfesta eina pöntun og hvernig staðfesta á margar pantanir í einu. Þessum verkefnum myndi venjulega að framkvæma af sölupantanavinnsla. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Áður en byrjað er, gangið úr skugga um að það eru nokkrar opnar sölupantanir fyrir sama viðskiptavininn. Ef verið er að nota USMF er hægt að velja lykil US-027..
+Þetta ferli sýnir hvernig á að staðfesta sölupantanir. Þér verður sýnt hvernig á að staðfesta eina pöntun og hvernig staðfesta á margar pantanir í einu. Þessi verkefni eru yfirleitt framkvæmd af sölupantanavinnslu. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Áður en byrjað er, gangið úr skugga um að það eru nokkrar opnar sölupantanir fyrir sama viðskiptavininn. Ef verið er að nota USMF er hægt að velja lykil US-027..
 
 
 ## <a name="confirm-a-single-sales-order"></a>Staðfesta eina sölupöntun.

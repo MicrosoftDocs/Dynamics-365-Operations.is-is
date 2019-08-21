@@ -1,6 +1,6 @@
 ---
 title: Samruni virðislíkön eigna og afskriftarbækur
-description: Í eldri útgáfum, voru tvö matshugtök fyrir eignir -  virðislíkön og afskriftabækur. Í Microsoft Dynamics 365 for Operations (1611) útgáfu, er virkni fyrir virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók.
+description: Í eldri útgáfum, voru tvö matshugtök fyrir eignir - virðislíkön og afskriftabækur. Í Microsoft Dynamics 365 for Operations (1611) útgáfu, er virkni fyrir virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 221564
 ms.assetid: 7c68eb7c-8b1a-4dd9-afb8-04b4040e305e
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 26f4b73f67064a83eb7b3d57f2dc98d90602c254
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3225b214e729ff13d4ffe8ad1d8cf0f2d6baae49
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568872"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840362"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Samruni virðislíkön eigna og afskriftarbækur
 
 [!include [banner](../includes/banner.md)]
 
-Í eldri útgáfum, voru tvö matshugtök fyrir eignir -  virðislíkön og afskriftabækur. Í Microsoft Dynamics 365 for Operations (1611) útgáfu, er virkni fyrir virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók.
+Í eldri útgáfum, voru tvö matshugtök fyrir eignir - virðislíkön og afskriftabækur. Í Microsoft Dynamics 365 for Operations (1611) útgáfu, er virkni fyrir virðislíkön og afskriftarbókar sameinaðar í eitt hugtak sem kallast bók.
 
 Ný virkni bókar er byggð á fyrri virkni virðislíkans en inniheldur einnig allar aðgerðir sem var áður veitt í eingöngu í afskriftarbók. [![Bók sem samruni virðislíkans og afskriftarbókar](./media/fixed-assets.png)](./media/fixed-assets.png) Vegna þessa samruna, geturðu nú notað eitt sett af síðum, fyrirspurnir og skýrslur fyrir öll eignaferli. Töflurnar í þessu efnisatriði lýsa fyrri virkni fyrir afskriftabækur og virðislíkön með nýjar aðgerðir fyrir afskriftabækur.
 

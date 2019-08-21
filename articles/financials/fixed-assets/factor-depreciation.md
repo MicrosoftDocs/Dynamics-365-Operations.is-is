@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13831
 ms.assetid: 2b6c4fe4-02ff-4191-bcad-32f1f34c15f2
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa8bc4566def9dd770a97facb459e6b977bfaffb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5c36441e926cd5a82c802a350adf6b2ed6d6387
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546756"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840530"
 ---
 # <a name="factor-depreciation"></a>Stuðulafskrift
 
@@ -31,7 +31,7 @@ ms.locfileid: "1546756"
 
 Þessi grein veitir yfirlit yfir stuðulsafskriftaraðferð.
 
-Stuðlar eru prósenturnar sem eru notaðar til að afskrifa eignir. Þegar afskriftaregla fyrir eignir hefur verið sett upp og velur  **þáttur** í **aðferð** svæðinu í síðunni **afskriftarregla** er hægt að setja upp stighækkandi, stiglækkandi eða línulega afskrift:
+Stuðlar eru prósenturnar sem eru notaðar til að afskrifa eignir. Þegar afskriftaregla fyrir eignir hefur verið sett upp og velur **þáttur** í **aðferð** svæðinu í síðunni **afskriftarregla** er hægt að setja upp stighækkandi, stiglækkandi eða línulega afskrift:
 
 -   Í stighækkandi afskrift hækkar afskriftarupphæðin með hverju afskriftartímabili.
 -   Í stiglækkandi afskrift lækkar afskriftarupphæðin á tímabili með tímanum.

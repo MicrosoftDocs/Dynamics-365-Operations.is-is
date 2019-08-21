@@ -3,7 +3,7 @@ title: Minnkunarlyklar samkvæmt spá
 description: Þetta efnisatriði veitir dæmi sem sýna hvernig á að setja upp minnkunarlykil. Hún felur í sér upplýsingar um mismunandi stillingar minnkunarlykla og niðurstöður hverrar fyrir sig. Hægt er að nota minnkunarlykil til að skilgreina hvernig á að lækka spárþarfir.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 02/28/2019
+ms.date: 07/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b915570145a48db7a182b9fce34e1544e3600107
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5efa5b2c7a4c45bbf6e940170000b391384fe7ff
+ms.sourcegitcommit: add48ece3864645a89a28327c4add607714befb5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1504080"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "1736305"
 ---
 # <a name="method-used-to-reduce-forecast-requirements"></a>Aðferð notuð til að minnka þörf samkvæmt spá
 
@@ -138,14 +138,14 @@ Fyrir þetta dæmi hefurðu með eftirfarandi eftirspurnarspá í aðaláætlun.
 | Dagsetning       | Eftirspurnarspá |
 |------------|-----------------|
 | 1. janúar  | 1.000           |
-| 1. febrúar | 500             |
+| 1. febrúar | 1.000             |
 
 Þú býrð einnig til eftirfarandi sölupantanir.
 
 | Dagsetning        | Sölupöntunarmagn |
 |-------------|----------------------|
-| 15. janúar  | 500                  |
-| 15. febrúar | 100                  |
+| 15. janúar  | 200                  |
+| 15. febrúar | 400                  |
 
 Í þessu tilfelli eru eftirfarandi áætlaðar pantanir búnar til.
 

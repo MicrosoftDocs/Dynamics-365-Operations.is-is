@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 98303
 ms.assetid: ae071f04-f038-4b17-812d-0a241ed15521
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c95589b013b569f15fce80612a11eca621944f6b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f7a295a54a63afdaff357a1cdc68f93ee4b13d5e
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561593"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842498"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>Uppsetningarferli ítarlegrar bankaafstemmingar
 
@@ -31,7 +31,7 @@ ms.locfileid: "1561593"
 
 Ítarleg afstemming aðgerð gerir það mögulegt að flytja inn rafræn bankayfirlit sem er hægt að stemma sjálfkrafa af úr bankafærslu í Microsoft Dynamics 365 for Finance and Operations.  Þessi grein verður útskýra skal setja upp ferli fyrir afstemmingu.  
 
-Fjöldi eintaka sem verður að setja upp áður en að nota ítarlega afstemmingu aðgerðir. Nánari upplýsingar um uppsetningu banki innflutning uppgjör í [Uppsetning banka innflutningsferlið uppgjör](set-up-advanced-bank-reconciliation-import-process.md).  Kröfur um uppsetningu á afstemmingu stendur nánar hér að neðan.
+Fjöldi eintaka sem verður að setja upp áður en að nota ítarlega afstemmingu aðgerðir. Nánari upplýsingar um uppsetningu á innflutning bankayfirlits eru í [Setja upp innflutningsferli bankayfirlits](set-up-advanced-bank-reconciliation-import-process.md).  Kröfur um uppsetningu á afstemmingu stendur nánar hér að neðan.
 
 ## <a name="transaction-codes"></a>Færslukóðar
 Færslukóða má nota sem hluta af samsvörunarreglum bankaafstemmingar.  Færslukóðar hjálpa til við að varpa sams konar færslum í Finance and Operations og bankafærslum þínum.  Til að framkvæma þessa tengingu verður fyrst að skilgreina þær færslugerðir sem notaðar eru fyrir bankafærslur úr Finance and Operations og síðan varpa þessum gerðum á færslukóða á yfirlitum sem notaðir eru af þínum banka.  Færslugerðir fyrir bankafærslur Finance and Operations eru skilgreindar á síðunni **Færslugerð banka**.  Þetta er einnig þar sem skilgreina aðallykil til að nota fyrir bókanir færslugerð sem tengist. 

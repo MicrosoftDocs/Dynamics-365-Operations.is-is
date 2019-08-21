@@ -1,6 +1,6 @@
 ---
-title: " Búa til, reikna og bóka yfirlit fyrir smásöluverslun"
-description: Þetta ferli fer í gegnum handvirkar skref til að stofna, reikna út og bóka uppgjör fyrir verslun.
+title: Stofna, reikna og bóka yfirlit fyrir smásöluverslun
+description: Þetta efni lýsir handvirkum skrefum fyrir stofnun, útreikning og bókun á uppgjöri fyrir verslun.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
@@ -17,34 +17,34 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9ea30e7e008bfcce77a7ee2f4d7d01a6cf1ababc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 693d1821779d5f7af95b900daa3bb7a2c38a6354
+ms.sourcegitcommit: cb63259ad8fa5649ff12bc4a7f195bd1e40bd968
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548325"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755524"
 ---
-# <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a> Búa til, reikna og bóka yfirlit fyrir smásöluverslun
+# <a name="create-calculate-and-post-statements-for-a-retail-store"></a>Stofna, reikna og bóka yfirlit fyrir smásöluverslun
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Þetta ferli fer í gegnum handvirkar skref til að stofna, reikna út og bóka uppgjör fyrir verslun. Einnig eru runuvinnslur sem hægt er að skilgreina fyrir sama verk. Skrefin til að skilgreina og keyra sem runuvinnslur er að finna í öðrum efnisatriði. Til að ljúka þessu ferli, verður að hafa færslur sem voru fylltir út í sölustaður og síðan dregin inn í Dynamics AX. Þessi skráning notar sýnigögn fyrirtæki USRT . Þetta ferli gæti vísað til Microsoft Microsoft Dynamics AX. Athugaðu að Dynamics AX er nú kallað Microsoft Dynamics 365 for Operations.
+Þetta efni lýsir handvirkum skrefum fyrir stofnun, útreikning og bókun á uppgjöri fyrir verslun. Einnig eru runuvinnslur sem hægt er að skilgreina fyrir sama verk. Skrefin til að skilgreina og keyra sem runuvinnslur er að finna í öðrum efnisatriði. Til að ljúka þessu ferli, verður að hafa færslur sem voru fylltir út á sölustað og draga þær síðan inn í Dynamics 365 for Finance and Operations. Þessi skráning notar sýnigögn fyrirtæki USRT .
 
-1. Fara í Öll vinnusvæði > .. > Fjárhagur smásöluverslunar
-2. Smella á Nýtt uppgjör.
-3. Í reitnum verslunarnúmer skal smella á fellilistahnappinn til að opna leitina.
-4. Í listanum skal smella á tengilinn í valinni línu.
-5. Smellið á „Í lagi“.
-    * Uppsetning flokka hefur stillingarnar sem stýra hvaða færslur eru teknar með í uppgjörinu og hvernig þau eru flokkuð í uppgjörslínunum. Hægt er að opna Uppsetningu flokka og breyta þessum stillingum, eða hægt er að nota sem sjálfgildi.  
-    * svæðið uppgjörsaðferð skilgreinir hvernig uppgjörslínurnar verða flokkaðar.  
-    * Veljið afgreiðslukassa eða starfsmaður eigi að reikna uppgjör aðeins fyrir tiltekinn starfsmaður eða afgreiðslukassa.  
-6. Í reitnum lokunaraðferð skal velja valkost.
-7. Smellt er á Reikna út uppgjör.
-8. Smella á Já.
-    * Eftir að reikna uppgjör, ætti að vera eru stofnaðar línur með heildarupphæðir fyrir hvern greiðslumáta og uppgjörsaðferð sem var notaður.  
-    * Færa inn talda upphæð í hverja línu ef það þarf að færa inn eða uppfæra. Talið svæði er fyllt út með upphæðir frá í talning skiptimyntar gert í sölustaður.  
-9. Smellt er á Bóka uppgjör.
-10. Smellið á „Loka“.
-11. Fara í Smásala og viðskipti > Rásir > Efnahagur smásöluverslunar.
-12. Smellið á flipann Bókað uppgjör.
+1. Veldu **Fjárhagur smásöluverslunar** af heimasíðunni.
+2. Veldu **Nýtt yfirlit**.
+3. Í reitnum **Verslunarnúmer** reitinn velurðu valkost úr fellivalmyndinni.
+4. Veljið **Í lagi**.
+5. Hópurinn **Uppsetning** hefur stillingarnar sem stýra hvaða færslur eru teknar með í uppgjörinu og hvernig þau eru flokkuð í uppgjörslínunum. Hægt er að opna hópinn **Uppsetningu** og breyta þessum stillingum, eða hægt er að nota sem sjálfgildi.  
+    - Reiturinn **uppgjörsaðferð** skilgreinir hvernig uppgjörslínurnar verða flokkaðar.  
+    - Veljið starfsmann eða afgreiðslukassa í reitnum **Starfsmaður/afgreiðslukassi** ef þú vilt reikna uppgjör aðeins fyrir tiltekinn starfsmann eða afgreiðslukassa.  
+6. Í reitnum **Lokunaraðferð** skal velja valkost.
+7. Veldu **Reikna uppgjör** úr aðgerðarglugganum.
+8. Velja skal **Já**.
+    - Eftir að reikna uppgjör, ætti að vera eru stofnaðar línur með heildarupphæðir fyrir hvern greiðslumáta og uppgjörsaðferð sem var notaður.  
+    - Færa inn talda upphæð í hverja línu ef það þarf að færa inn eða uppfæra. Talið svæði er fyllt út með upphæðir frá í talning skiptimyntar gert í sölustaður.  
+9. Veldu **Bóka uppgjör** úr aðgerðarglugganum.
+10. Veljið **Loka**.
+11. Lokið glugganum.
+12. Á heimasíðunni velurðu **Fjárhagur smásöluverslunar**.
+13. Veldu flipann **Bókuð uppgjör**.
 

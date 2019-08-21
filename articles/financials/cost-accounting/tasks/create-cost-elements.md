@@ -1,5 +1,5 @@
 ---
-title: 'Stofna kostnaðareiningar  '
+title: Stofna kostnaðareiningar
 description: Það eru nokkrar aðferðir til að stofna kostnaðareiningar í kostnaðarbókhaldi.
 author: ShylaThompson
 manager: AnnBe
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimension, CAMAXMainAccountDimensionMemberProviderConfiguration, CAMDimensionMember
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bbaf4f7533d51d554d838e8e9e2aa05ca451298a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7cceec1d52e1b5b2a05525c8d96f46dece17363b
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543796"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841298"
 ---
-# <a name="create-cost-elements"></a>Stofna kostnaðareiningar   
+# <a name="create-cost-elements"></a>Stofna kostnaðareiningar 
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

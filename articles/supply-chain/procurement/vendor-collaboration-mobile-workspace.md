@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: df27ff3477443611278436a680d70ea81a21763e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 253ba0bd991e8db17940d3d4b9ade599800bf924
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552602"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843866"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Fartækjavinnusvæði samstarfs lánardrottna
 
@@ -42,7 +42,7 @@ Með vinnusvæði **samstarfs lánardrottna** fyrir fartæki geta lánardrottnar
 
 Notandi sem skráir sig inn sem lánardrottinn sér hvaða innkaupapöntunum hefur verið svarað og hvaða innkaupapantanir bíða enn eftir aðgerð viðskiptavinar. Til dæmis gæti innkaupapöntun beðið eftir aðgerð viðskiptavinar vegna þess að lánardrottinn stakk upp á annarri afhendingardagsetningu en viðskiptavinurinn hefur ekki enn samþykkt þá dagsetnignu. Lánardrottinn mun einnig sjá lista yfir innkaupapantanir sem hafa verið staðfestar en hafa enn ekki verið afhentar. 
 
-Til að svara innkaupapöntun verður lánardrottinn að nota lánardrottins samvinnusvæði vefviðmótið sem er tiltæk í vefbiðlara Dynamics 365 for Operations. Þar getur lánardrottinn einnig fengið frekari upplýsingar um pöntunina, eins og fylgiskjöl, afhendingaraðsetrið á hverja línu og gjöld sem eru tengdar við lánardrottinn. 
+Til að svara innkaupapöntun verður lánardrottinn að nota lánardrottins samvinnusvæði vefviðmótið sem er tiltæk í vefbiðlara. Þar getur lánardrottinn einnig fengið frekari upplýsingar um pöntunina, eins og fylgiskjöl, afhendingaraðsetrið á hverja línu og gjöld sem eru tengdar við lánardrottinn. 
 
 Lánardrottnar sem hafa sérstakt öryggishlutverk geat séð hvaða tengiliðir einstaklinga eru skráðir fyrir lykil lánardrottins. Sama öryggishlutverk gerir lánardrottni kleift að skoða stöðu allra notandabeiðna sem hafa verið sendar. 
 
@@ -154,7 +154,7 @@ Síðan **Beðið eftir aðgerð viðskiptavinar** gerir kleift að finna innkau
 
 Þegar þú velur innkaupapöntun, birtast frekari upplýsingar um svarið. Hægt er að sjá upplýsingar um og svar fyrir hverja línu. Línustaðan sýnir hver eftirfarandi svara voru gefin:
 
--   Samþ.  
+-   Samþ.
 -   Hafnað
 -   Samþykkt með breytingum
 -   Skipt út/Staðgengill

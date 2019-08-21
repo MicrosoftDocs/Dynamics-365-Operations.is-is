@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: ada04948c4775091091cc30664dd7d9405b4f9da
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3c3873991c33347c1358dc98381c6b5f4c6ce2aa
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553201"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846896"
 ---
 # <a name="one-voucher"></a>Eitt fylgiskjal
 
@@ -34,7 +34,7 @@ ms.locfileid: "1553201"
 
 Núverandi virkni fyrir fjárhagsbækur (almenna færslubók, eignabók, greiðslubók lánardrottins, o.s.frv.) gerir þér kleift að slá inn margar undirbókarfærslur í tengslum við eitt fylgiskjal (viðskiptavinur, lánardrottinn, eignir, verk og banki) í tengslum við eitt fylgiskjal. Microsoft vísar til þessa virkni sem *Eitt fylgiskjal*. Þú getur búið til eitt fylgiskjal með því að nota eina af eftirfarandi aðferðum:
 
-- Setjið upp færslubókarheitið (**Fjárhagur** \> **Uppsetning færslubókar** \>**Færslubókarheiti**) þannig að reiturinn **Nýtt fylgiskjal** sé stilltur á **Aðeins eitt fylgiskjalsnúmer**. Sérhverri línu sem bætt er við færslubókina er nú að finna í sama fylgiskjalinu. Því er hægt að færa inn fylgiskjalið sem marglínu fylgiskjal, sem lykil/mótlykil í sömu línunni eða sem samsetningu.
+- Setjið upp færslubókarheitið (**Fjárhagur** \> **Uppsetning færslubókar** \> **Færslubókarheiti**) þannig að reiturinn **Nýtt fylgiskjal** sé stilltur á **Aðeins eitt fylgiskjalsnúmer**. Sérhverri línu sem bætt er við færslubókina er nú að finna í sama fylgiskjalinu. Því er hægt að færa inn fylgiskjalið sem marglínu fylgiskjal, sem lykil/mótlykil í sömu línunni eða sem samsetningu.
 
     [![Stök lína](./media/same-line.png)](./media/same-line.png)
 
@@ -51,7 +51,7 @@ Núverandi virkni fyrir fjárhagsbækur (almenna færslubók, eignabók, greiðs
 
 ## <a name="issues-with-one-voucher"></a>Vandamál varðandi eitt fylgiskjal
 
-Eiginleiki eins fylgiskjals veldur vandamálum í uppgjöri, skattaútreikningum, bakfærslum, afstemmingu undirbókar við fjárhagsbók, fjárhagsskýrslugerð og fleira. (Til að fá frekari upplýsingar um vandamál sem geta komið upp við uppgjör skal t.d. sjá [Stakt fylgiskjal með mörgum færslum viðskiptavina eða lánardrottna](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) Til að vinna og skrá rétt þurfa þessi ferli og skýrslur færsluupplýsingar. Þó að sumar aðstæður gætu samt sem áður virkað rétt, en það fer eftir uppsetningu fyrirtækisins, koma oft upp vandamál þegar margar færslur eru færðar inn í eitt fylgiskjal.
+Eiginleiki eins fylgiskjals veldur vandamálum í uppgjöri, skattaútreikningum, bakfærslum, afstemmingu undirbókar við fjárhagsbók, fjárhagsskýrslugerð og fleira. (Til að fá frekari upplýsingar um vandamál sem geta komið upp við uppgjör skal t.d. sjá [Stakt fylgiskjal með mörgum færslum viðskiptavina eða lánardrottna](https://docs.microsoft.com/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) Til að vinna og skrá rétt þurfa þessi ferli og skýrslur færsluupplýsingar. Þó að sumar aðstæður gætu samt sem áður virkað rétt, en það fer eftir uppsetningu fyrirtækisins, koma oft upp vandamál þegar margar færslur eru færðar inn í eitt fylgiskjal.
 
 Til dæmis þegar eftirfarandi marglínu fylgiskjal er bókað.
 
@@ -121,7 +121,7 @@ Eftirfarandi eignafærslur búa einnig til margar færslur innan eins fylgiskjal
 - Breytur til að reikna afskriftir við förgun er kveikt á og þá er eignin fargað.
 - Þjónustudagsetning eignar er fyrir kaupdagsetningu. Þar af leiðandi er leiðrétting afskriftar bókuð.
 
-### <a name="bills-of-exchange-and-promissory-notes"></a> Víxlar og eigin víxlar
+### <a name="bills-of-exchange-and-promissory-notes"></a>Víxlar og eigin víxlar
 Víxlar og eigin víxlar krefjast þess að Eitt fylgiskjal sé notaður vegna þess að færslurnar flytja stöðu viðskiptavinar eða lánardrottins frá einum viðskiptakröfum/viðskiptaskulda til annarra, miðað við stöðu greiðslunnar.
 
 ## <a name="scenarios-that-dont-require-one-voucher"></a>Tilfelli sem þurfa ekki Eitt fylgiskjal

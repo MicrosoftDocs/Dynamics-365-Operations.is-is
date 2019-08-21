@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSParameters, WHSContainerType, WHSPackProfile, WHSCloseContainerProfile, InventLocationIdLookup, UnitOfMeasureLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b90b4a71e2447e942dbb4a9645ef93064da630d3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 30bbb404e624c33e047c5505c5b21565ed8cce10
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558034"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1847184"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>Setja upp handvirka pökkun (febrúar 2016 & maí 2016)
 
@@ -52,7 +52,7 @@ Pökkunarferli gerir kleift að sannprófa og pakka afurðir í gáma. Í þessu
 4. Lokið síðunni.
 
 ## <a name="set-up-container-types"></a>Setja upp gámagerðir
-1. Fara í vöruhúsakerfi  > Uppsetningu  > Gáma  > gámagerðir.
+1. Fara í vöruhúsakerfi > Uppsetningu > Gáma > gámagerðir.
 2. Smellið á „Nýtt“.
     * Hægt er að skilgreina gerðir gáma til að nota. Þú getur tilgreint efnisleg vídd ílátsins, þar á meðal töruþungi, hámarks þyngd, hámarksrúmmál, lengd, breidd og þyngd.  Eigindirnar eru sérsniðnir reitir sem leyfa þér að bæta fleiri víddum við gámagerð.     
 3. Færa inn gildi í svæðinu kóði gámagerðar.

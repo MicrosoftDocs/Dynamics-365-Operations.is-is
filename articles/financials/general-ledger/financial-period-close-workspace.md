@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9c3c7f00d0a0e4379547edc5199f4a9a6727f3c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ab00a5dba10b4318b66734329c097d239dcc868c
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548578"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839184"
 ---
 # <a name="financial-period-close-workspace"></a>Vinnusvæði lokunar fjárhagstímabils
 
@@ -79,7 +79,7 @@ Verksvæði eruð notuð til að flokka lokunarverk í röklegt svæði eignarha
 
 ### <a name="calendars"></a>Dagatöl
 
-Stofna og breyta dagatal lokun fjárhags með flipanum Dagatöl.  Hér er skilgreina vinnudagar fyrir lokunarferli og notað til að tímasetja lokunarverk.  Stofna nýtt dagatal og merkja vinnudagar sem nota fyrir tímasetning verka.  Best er að stofna dagatal fyrir langt tímabil t.d. ár eða mörg ár því að hægt að breyta eftir að búa til.  Eftir að stofna dagatal skal smella á hnappinn Breyta til að uppfæra dagatal fyrir sérstaka daga, t.d. frídaga.  Lokunarverk verða tímasetja á dagar þegar stýringargildi er stillt á Opið.  Ef lokunarverk er ekki á tímasetja á tilgreint dagur skal sá dagur vera með stýringargildi á Lokað.
+Stofna og breyta dagatal lokun fjárhags með flipanum Dagatöl. Hér er skilgreina vinnudagar fyrir lokunarferli og notað til að tímasetja lokunarverk.  Stofna nýtt dagatal og merkja vinnudagar sem nota fyrir tímasetning verka.  Best er að stofna dagatal fyrir langt tímabil t.d. ár eða mörg ár því að hægt að breyta eftir að búa til.  Eftir að stofna dagatal skal smella á hnappinn Breyta til að uppfæra dagatal fyrir sérstaka daga, t.d. frídaga.  Lokunarverk verða tímasetja á dagar þegar stýringargildi er stillt á Opið.  Ef lokunarverk er ekki á tímasetja á tilgreint dagur skal sá dagur vera með stýringargildi á Lokað.
 
 ### <a name="templates"></a>Sniðmát
 

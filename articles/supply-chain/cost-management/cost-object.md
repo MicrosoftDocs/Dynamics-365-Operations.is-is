@@ -1,6 +1,6 @@
 ---
 title: Kostnaðarhlutir
-description: Þetta grein veitir upplýsingar um kostnaðarhlutum og útskýrir hvernig kostnaði og magni eru uppsafnað. Kostnaðarhlutar er einingar sem kostnaður og magn er safnað upp fyrir. Eining kostnaðarhlutar geta verið annað hvort afurðarafbrigði eða afurð, eins og afbrigði stíls og litar.
+description: Þessi grein veitir upplýsingar um kostnaðarhlutum og útskýrir hvernig kostnaði og magni eru uppsafnað. Kostnaðarhlutar er einingar sem kostnaður og magn er safnað upp fyrir. Eining kostnaðarhlutar geta verið annað hvort afurðarafbrigði eða afurð, eins og afbrigði stíls og litar.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 275855f2fb4d32df91449d7ebb9ad9ba2bd3f36b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6501e8d809d12df421ad081662d23a6b5005f39c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558550"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742138"
 ---
 # <a name="cost-objects"></a>Kostnaðarhlutir
 
 [!include [banner](../includes/banner.md)]
 
-Þetta grein veitir upplýsingar um kostnaðarhlutum og útskýrir hvernig kostnaði og magni eru uppsafnað. Kostnaðarhlutar er einingar sem kostnaður og magn er safnað upp fyrir. Eining kostnaðarhlutar geta verið annað hvort afurðarafbrigði eða afurð, eins og afbrigði stíls og litar.  
+Þessi grein veitir upplýsingar um kostnaðarhlutum og útskýrir hvernig kostnaði og magni eru uppsafnað. Kostnaðarhlutar er einingar sem kostnaður og magn er safnað upp fyrir. Eining kostnaðarhlutar geta verið annað hvort afurðarafbrigði eða afurð, eins og afbrigði stíls og litar.  
 
 ## <a name="cost-objects"></a>Kostnaðarhlutir
 
@@ -70,11 +70,11 @@ Eftirfarandi tafla sýnir hvað er kostnaðarhlutur og hvað birgðahlutur.
 <a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Afurðavíddaflokkur](https://technet.microsoft.com/en-us/library/aa499382.aspx)
+[Afurðavíddaflokkur](https://technet.microsoft.com/library/aa499382.aspx)
 
-[Geymsluvíddarflokkur](https://technet.microsoft.com/en-us/library/hh209317.aspx)
+[Geymsluvíddarflokkur](https://technet.microsoft.com/library/hh209317.aspx)
 
-[Rakningarvíddarflokkur](https://technet.microsoft.com/en-us/library/hh209465.aspx)
+[Rakningarvíddarflokkur](https://technet.microsoft.com/library/hh209465.aspx)
 
 [Nýjungar eða breytingar](../../fin-and-ops/get-started/whats-new-changed.md)
 

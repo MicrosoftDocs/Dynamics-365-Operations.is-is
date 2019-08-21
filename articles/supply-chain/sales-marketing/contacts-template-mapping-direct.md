@@ -19,19 +19,19 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 5363c64cd1a475f0047c079d9166718ddc765f02
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fbc75702c9db1e877addc4605dcb444c344dfa5c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562364"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742448"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-finance-and-operations"></a>Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Áður en þú getur notað Prospect to cash lausnina ættirðu að kynna þér [Sameina gögn í Common Data Service fyrir forrit](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+> Áður en þú getur notað Prospect to cash lausnina ættirðu að kynna þér [Sameina gögn í Common Data Service fyrir forrit](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla einingar tengiliðar (tengiliða) og tengiliðar (viðskiptavina) beint úr Microsoft Dynamics 365 for Sales við Microsoft Dynamics 365 for Finance and Operations.
 
@@ -109,7 +109,7 @@ Tengiliðir eru merktir með eiginleikanum **IsContactPersonExternallyMaintained
 
     - **LanguageId** – Tungumál er nauðsynlegt til að búa til tilboð og sölupantanir í Finance and Operations.
     
-        Sjálfgefið sniðmátsgildi er**en-us**.
+        Sjálfgefið sniðmátsgildi er **en-us**.
 
 ## <a name="template-mapping-in-data-integration"></a>Sniðmátsvörpun í Gagnasamþættingu
 

@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c526bc42595c20024016d0d7da78b8638b0daa4b
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551672"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850098"
 ---
 # <a name="practice-manager-power-bi-content"></a>Power BI-efni aðferðastjórnunar
 
@@ -54,7 +54,7 @@ Eftirfarandi tafla veitir upplýsingar um einingarnar sem finna má á hverri s�
 | EVM               | Kostnaðarvísir og vísir fyrir áætluð afköst eftir verki |
 | Tímar             | <ul><li>Unnar reikningshæfar vinnustundir gegn unnum reikningshæfum álagsstundum gegn áætluðum vinnustundum</li><li>Unnar reikningshæfar vinnustundir gegn unnum reikningshæfum álagsstundum eftir verki</li><li>Unnar reikningshæfar vinnustundir gegn unnum reikningshæfum álagsstundum eftir tilföngum</li><li>Hlutfall raunverulega rukkanlegra nýttra stunda eftir verki</li><li>Hlutfall raunverulega rukkanlegra nýttra stunda eftir tilföngum</li></ul> |
 
-Hægt er að sía og festa Gröf og reitir á þessar skýrslur við mælaborð. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Einnig má nota virknina Flytja út undirliggjandi gögn til að flytja út undirliggjandi gögn sem eru sýnd í myndrænni samantekt.
+Hægt er að sía og festa Gröf og reitir á þessar skýrslur við mælaborð. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Einnig má nota virknina Flytja út undirliggjandi gögn til að flytja út undirliggjandi gögn sem eru sýnd í myndrænni samantekt.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
 
@@ -62,7 +62,7 @@ Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í **aðferðast
 
 Í eftirfarandi hluta er fjallað um uppsafnaðar mælingar sem notaðar eru á hverja einingu.
 
-### <a name="entity-projectaccountingcubeactualhourutilization"></a>Eining: ProjectAccountingCube\_ActualHourUtilization
+### <a name="entity-projectaccountingcube_actualhourutilization"></a>Eining: ProjectAccountingCube\_ActualHourUtilization
 **Gagnagjafi:** ProjEmplTrans
 
 | Lykiluppsafnaðar mælingar      | Svæði                              | lýsing |
@@ -70,7 +70,7 @@ Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í **aðferðast
 | Raunverulega rukkanlegar nýttar stundir | Samtala (ActualUtilizationBillableRate) | Samtala fyrir unnar reikningshæfar vinnustundir. |
 | Raunverulega rukkanlegar álagsstundir   | Samtala (ActualBurdenBillableRate)      | Samtala fyrir verð fyrir unnar álagsstundir. |
 
-### <a name="entity-projectaccountingcubeactuals"></a>Eining: ProjectAccountingCube\_Actuals
+### <a name="entity-projectaccountingcube_actuals"></a>Eining: ProjectAccountingCube\_Actuals
 **Gagnagjafi:** ProjTransPosting
 
 | Lykiluppsafnaðar mælingar | Svæði              | lýsing |
@@ -78,14 +78,14 @@ Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í **aðferðast
 | Rauntekjur            | Samtala (ActualRevenue) | Samtala fyrir bókaðar tekjur fyrir allar færslur. |
 | Raunkostnaður               | Samtala (ActualCost)    | Samtala bókaðs kostnaðar fyrir allar færslugerðir. |
 
-### <a name="entity-projectaccountingcubecustomer"></a>Eining: ProjectAccountingCube\_Customer
+### <a name="entity-projectaccountingcube_customer"></a>Eining: ProjectAccountingCube\_Customer
 **Gagnagjafi:** CustTable
 
 | Lykiluppsafnaðar mælingar | Svæði                                             | lýsing |
 |---------------------------|---------------------------------------------------|-------------|
 | Fjöldi verka        | COUNTA(ProjectAccountingCube\_Verkefni\[VERKEFNI\]) | Fjöldi tiltækra verka. |
 
-### <a name="entity-projectaccountingcubeforecasts"></a>Eining: ProjectAccountingCube\_Forecasts
+### <a name="entity-projectaccountingcube_forecasts"></a>Eining: ProjectAccountingCube\_Forecasts
 **Gagnagjafi:** ProjTransBudget
 
 | Lykiluppsafnaðar mælingar | Svæði                  | lýsing |
@@ -94,14 +94,14 @@ Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í **aðferðast
 | Tekjuáætlun            | Samtala (BudgetRevenue)     | Samtala fyrir áætlaðar uppsafnaðar/reikningsfærðar tekjur. |
 | Áætluð brúttóframlegð       | Samtala (BudgetGrossMargin) | Munur milli samtölu fyrir áætlaðar uppsafnaðar tekjur og samtölu fyrir áætlaðan kostnað. |
 
-### <a name="entity-projectaccountingcubeprojectplancostsview"></a>Eining: ProjectAccountingCube\_ProjectPlanCostsView
+### <a name="entity-projectaccountingcube_projectplancostsview"></a>Eining: ProjectAccountingCube\_ProjectPlanCostsView
 **Gagnagjafi:** Verk
 
 | Lykiluppsafnaðar mælingar | Svæði                    | lýsing |
 |---------------------------|--------------------------|-------------|
 | Áætlaður kostnaður              | Samtala (SumOfTotalCostPrice) | Áætlað heildarkostnaðarverð fyrir allar færslugerðir sem hafa áætluð verk. |
 
-### <a name="entity-projectaccountingcubeprojects"></a>Eining: ProjectAccountingCube\_Projects
+### <a name="entity-projectaccountingcube_projects"></a>Eining: ProjectAccountingCube\_Projects
 **Gagnagjafi:** Verk
 
 | Lykiluppsafnaðar mælingar    | Svæði | lýsing |
@@ -112,7 +112,7 @@ Eftirfarandi gögn eru notuð til að fylla út skýrslusíður í **aðferðast
 | Hlutfall unninna reikningshæfra vinnustunda  | ProjectAccountingCube\_Verkefni\[Heildarfjöldi fyrir raunverulega rukkanlegar nýttar stundir\] ÷ (ProjectAccountingCube\_Verkefni\[Heildarfjöldi fyrir raunverulega rukkanlegar nýttar stundir\] + ProjectAccountingCube\_Verkefni\[Heildarfjöldi fyrir raunverulega rukkanlegar álagsstundir\]) | Samtala unninna reikningshæfra vinnustunda, miðað við nýttar stundir og álagsstundir. |
 | Áunnið virði                 | ProjectAccountingCube\_Verkefni\[Samtals áætlaður kostnaður verkefnis\] × ProjectAccountingCube\_Verkefni\[Hlutfall lokinnar vinnu\] | Áætlaður heildarkostnaður margfaldaður með hlutfalli lokinna verka. |
 
-### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Eining: ProjectAccountingCube\_TotalEstimatedCosts 
+### <a name="entity-projectaccountingcube_totalestimatedcosts"></a>Eining: ProjectAccountingCube\_TotalEstimatedCosts 
 **Gagnagjafi:** ProjTable
 
 | Lykiluppsafnaðar mælingar       | Svæði               | lýsing |

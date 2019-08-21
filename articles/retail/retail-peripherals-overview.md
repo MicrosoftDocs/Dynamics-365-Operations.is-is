@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: eda7744a6365b4c3a884342a429c2340e5a13d66
-ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
+ms.openlocfilehash: 9aba1dabe3b2304c1f0dfd449982af1d4bc15d6b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624813"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742634"
 ---
 # <a name="retail-peripherals"></a>Retail-jaðarbúnaður
 
@@ -192,7 +192,7 @@ Hægt er að tilgreina IP-tölur fyrir netjaðarbúnað á tveimur stöðum. Ef 
 
 #### <a name="modern-pos-for-android"></a>Modern POS fyrir Android
 
-Frá og með útgáfu 8.1.3. af Dynamics 365 for Retail inniheldur forritið Modern POS fyrir Android innbyggða IPC vélbúnaðarstöð. Þessi vélbúnaðarstöð styður samskipti við netprentara og greiðslutengi. Nánari upplýsingar er að finna í [greininni Hybrid-forrit fyrir Android-skjöl](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
+Frá og með útgáfu 8.1.3. af Dynamics 365 for Retail inniheldur forritið Modern POS fyrir Android innbyggða IPC vélbúnaðarstöð. Þessi vélbúnaðarstöð styður samskipti við netprentara og greiðslutengi. Nánari upplýsingar er að finna í [greininni Hybrid-forrit fyrir Android-skjöl](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>Cloud POS og Modern POS fyrir IOS
 
@@ -541,7 +541,7 @@ Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [S
 
 4. Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.
 5. Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
-6. Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
+6. Velja skal **1070** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
 7. Setja upp og virkja Modern POS fyrir Windows.
 8. Hefja Modern POS fyrir Windows og byrja að nota tengda jaðartæki.
 

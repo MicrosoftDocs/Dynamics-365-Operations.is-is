@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans, VendParameters
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 14171
 ms.assetid: a94d0fd0-57ba-4054-93c8-519d01d50e19
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1af073e1f5a2e36be24fe0b57a878c77bff8907
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 803cb478bb7631439ebde66ad96182193d3dd1ae
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566271"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842522"
 ---
 # <a name="handling-cash-discounts-for-overpayments"></a>Umsýsla staðgreiðsluafslátta fyrir ofgreiðslur
 
@@ -38,17 +38,17 @@ Reikningur er talinn ofgreiddur þegar greiðsluupphæð er hærri en á upphæ�
 | 105,00        | 10,50                   | 94,50                                               | 95,00                             |
 
 ## <a name="cash-discount-administration--specific"></a>Stjórnun staðgreiðsluafsláttar= Tilgreint
-Þegar **Tiltekna** er valin í á **stýring staðgreiðsluafsláttar** á í **lyklar fyrir sjálfvirkar færslur** síðu er tekinn fullt staðgreiðsluafsláttar. Upphæð fyrir ofgreiðslu er annað hvort bókuð í fjárhagslykil mismunar fyrir staðgreiðsluafslátt eða skilið eftir stöðu á reikningi viðskiptavinar. Þessi Hegðun fer eftir því hvort upphæð ofgreiðslu er milli 0,00 og upphæðin sem færð er inn í á**Hámark ofgreiðslu eða vangreiðslu** svæði, eða hvort upphæð fyrir ofgreiðslu er meira en **Hámark ofgreiðslu eða vangreiðslu** upphæð.
+Þegar **Tiltekna** er valin í á **stýring staðgreiðsluafsláttar** á í **lyklar fyrir sjálfvirkar færslur** síðu er tekinn fullt staðgreiðsluafsláttar. Upphæð fyrir ofgreiðslu er annað hvort bókuð í fjárhagslykil mismunar fyrir staðgreiðsluafslátt eða skilið eftir stöðu á reikningi viðskiptavinar. Þessi hegðun fer eftir því hvort upphæð ofgreiðslu er milli 0,00 og þeirrar upphæðar sem færð er inn í reitinn **Hámark ofgreiðslu eða vangreiðslu** eða hvort upphæð fyrir ofgreiðslu er hærri en upphæð fyrir **Hámark ofgreiðslu eða vangreiðslu**.
 
 ### <a name="scenario-1"></a>Aðstæður 1
 
-Í þessum aðstæðum er  ofgreiðsluupphæð á milli 0,00 og hámarks ofgreiðslu eða vangreiðslu. Reikningur er sleginn inn upp á 105,00 og staðgreiðsluafslátt er tiltækan ef reikningurinn er greiddur innan sjö daga.
+Í þessum aðstæðum er ofgreiðsluupphæð á milli 0,00 og hámarki ofgreiðslu eða vangreiðslu. Reikningur er sleginn inn upp á 105,00 og staðgreiðsluafslátt er tiltækan ef reikningurinn er greiddur innan sjö daga.
 
 | Heildarupphæð reiknings | Tiltækur staðgreiðsluafsláttur | Fjárhæð sem greiða á, sem felur í sér staðgreiðsluafslátt |
 |---------------|-------------------------|-----------------------------------------------------|
 | 105,00        | 10,50                   | 94,50                                               |
 
-Viðskiptavinurinn sendir greiðslu fyrir 95,00 innan tímabils staðgreiðsluafslátt. Greiðslu er jafnað á móti reikningi fyrir 105.00. Eftir að reikningur og greiðsla er jöfnuð ,  munu eftirfarandi færslur stofnast á viðskiptakröfur fyrir viðskiptavini.
+Viðskiptavinurinn sendir greiðslu fyrir 95,00 innan tímabils staðgreiðsluafslátt. Greiðslu er jafnað á móti reikningi fyrir 105.00. Eftir að reikningur og greiðsla eru jöfnuð, munu eftirfarandi færslur stofnast á viðskiptakröfur fyrir viðskiptavini.
 
 | Færsla   | Upphæð | Staða |
 |---------------|--------|---------|
@@ -80,7 +80,7 @@ Eftirfarandi bókhaldsfærslur eru búnar til greiðslu og jöfnun. **Greiðsla*
 |---------------|-------------------------|-----------------------------------------------------|
 | 105,00        | 10,50                   | 94,50                                               |
 
-Viðskiptavinurinn sendir greiðslu fyrir 95,00 innan tímabils staðgreiðsluafslátt. Greiðslu er jafnað á móti reikningi fyrir 105.00. Eftir að reikningur og greiðsla er jöfnuð ,  munu eftirfarandi færslur stofnast á viðskiptakröfur fyrir viðskiptavini.
+Viðskiptavinurinn sendir greiðslu fyrir 95,00 innan tímabils staðgreiðsluafslátt. Greiðslu er jafnað á móti reikningi fyrir 105.00. Eftir að reikningur og greiðsla eru jöfnuð, munu eftirfarandi færslur stofnast á viðskiptakröfur fyrir viðskiptavini.
 
 | Færsla   | Upphæð | Staða |
 |---------------|--------|---------|
@@ -113,7 +113,7 @@ Ofgreiðsluupphæð 0,50 verður að vera áfram opin staða greiðslunnar og h�
 |---------------|-------------------------|-----------------------------------------------------|
 | 105,00        | 10,50                   | 94,50                                               |
 
-Viðskiptavinurinn sendir greiðslu fyrir 95,00 innan staðgreiðsluafsláttardagsetningar. Greiðslu er jafnað á móti reikningi fyrir 105.00. Eftir að reikningur og greiðsla er jöfnuð ,  munu eftirfarandi færslur stofnast á viðskiptakröfur fyrir viðskiptavini.
+Viðskiptavinurinn sendir greiðslu fyrir 95,00 innan staðgreiðsluafsláttardagsetningar. Greiðslu er jafnað á móti reikningi fyrir 105.00. Eftir að reikningur og greiðsla eru jöfnuð, munu eftirfarandi færslur stofnast á viðskiptakröfur fyrir viðskiptavini.
 
 | Færsla   | Upphæð | Staða |
 |---------------|--------|---------|

@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1757a1477e46f71e327bb70cf4780767b7509e55
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7eee00021f49ac0110d7bde07faba8095348e1b4
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568724"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852644"
 ---
 # <a name="import-iso20022-direct-debit-configuration"></a>Flytja inn ISO20022-beingreiðsluskilgreiningu
 
@@ -43,7 +43,7 @@ ms.locfileid: "1568724"
 4. Smella á Geymslur.
 5. Smellt er á Opin.
 6. Smellt er á Sýna síur.
-7. Notið eftirfarandi síur: færðu inn síugildi "ISO20022 beingreiðsla (DE)"  á reitnum "heiti skilgreiningar" með því að nota síuvirknitáknið "byrjar á".
+7. Notið eftirfarandi síur: færðu inn síugildi "ISO20022 beingreiðsla (DE)" á reitnum "heiti skilgreiningar" með því að nota síuvirknitáknið "byrjar á".
     * Einnig má finna skilgreiningu á listanum, veljið það og sleppið þessu skrefi.  
 8. Smelltu á Flytja inn.
     * Ef hnappurinn Innflutningur er ekki tiltækur, merkir það að þessi skilgreining hefur þegar verið flutt inn.  

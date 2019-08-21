@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankReconciliationWorksheet
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 98243
 ms.assetid: 9df13adf-aa9d-4f6b-bde6-25a214611692
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93b311d541ab588be82e6704dbe9ae3e43deabba
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d6fc63edd47b6067b4dc0152c62e0cd6e77acaad
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563740"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842282"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Afstemming bankayfirlits með ítarlegri bankaafstemmingu
 
@@ -87,7 +87,7 @@ Bakfærðar Operations bankafærslur Verður að stemma af með því að nota *
 
 Ef til staðar eru færslur sem bankinn hefur frumkvæði að, svo sem vextir, þóknanir og gjöld sem ekki eru enn í Finance and Operations, er hægt að bæta þeim við færslubók sem er tengd við valda afstemmingu bankayfirlits. Velja bankayfirlitsfærslu í á **bankayfirlitsfærslu** hnitaneti fyrir ójöfnuð færslur og smelltu svo á **Merkja sem nýtt**. Staða færslunnar er stillt á **Nýtt**, og færsla er færð í **bankayfirlitsfærslur** hnitaneti fyrir jafnaðar færslur. Þú munt bóka færslur sem eru merktar sem **Nýtt** síðar, úr síðunni **Bankayfirlit** . 
 
-Hægt er að fjarlægja jöfnun færslna sem rangt var jafnað. Velja skal jafnaða bankayfirlitsfærslu og smella síðan á **afjafna**. Allar tengdar færslur eru færð aftur í efri hnitanet fyrir ójöfnuð færslur, og jafnaðar  og ójafnaðar heildarupphæðir eru uppfærðar. 
+Hægt er að fjarlægja jöfnun færslna sem rangt var jafnað. Velja skal jafnaða bankayfirlitsfærslu og smella síðan á **afjafna**. Allar tengdar færslur eru færð aftur í efri hnitanet fyrir ójöfnuð færslur, og jafnaðar og ójafnaðar heildarupphæðir eru uppfærðar. 
 
 Að afstemmingarferli loknu á að merkja vinnublað bankaafstemmingar sem afstemmt.  Ferlið mun sjálfkrafa birta leiðréttingarupphæðir með því að nota reikningana sem eru stilltir á síðunni **Færslugerð banka**.  Bankaafstemming fyrir uppgjör er hægt að merkja sem afstemmda hvenær sem er, jafnvel þó að það séu bankayfirlitslínur sem ekki stemma saman.  Færslur án samsvörunar færast sjálfkrafa yfir á næsta afstemmingarblað sem færslur á bankayfirliti án samsvörunar til afstemmingar.  Athugaðu að þegar afstemming bankayfirlits hefur verið lokið er ekki hægt að afturkalla hana.  Afstemmingin verður ekki lengur breytanleg og þú munt ekki lengur geta uppfært afstemminguna.
 

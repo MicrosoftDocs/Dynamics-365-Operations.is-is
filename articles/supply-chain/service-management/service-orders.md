@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4da0b965f3719bc16b5a73538df111ff6df071be
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b4d347556d25831bb3f9175e8606e0b41d98bdd8
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555363"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743251"
 ---
 # <a name="service-orders"></a>Þjónustupantanir   
 
@@ -76,7 +76,7 @@ Ein af hinum þjónustupöntununum sem voru búnar til fyrir janúarmánuð ver�
 
 ## <a name="post-from-projects"></a>Bóka frá verkefnum
 
-Í lok hverrar viku vill sendandinn bóka allar þjónustupantanir sem tengjast ákveðnu verkefni. Afgreiðslustjórinn finnur þess vegna viðeigandi verkefni í skjámyndinni **Verkefni** og bókar þjónustupantanir sem er lokið. Nánari upplýsingar er að finna í [Bóka þjónustupantanir (klasaskjámynd)](https://technet.microsoft.com/en-us/library/aa574685\(v=ax.60\)).
+Í lok hverrar viku vill sendandinn bóka allar þjónustupantanir sem tengjast ákveðnu verkefni. Afgreiðslustjórinn finnur þess vegna viðeigandi verkefni í skjámyndinni **Verkefni** og bókar þjónustupantanir sem er lokið. Nánari upplýsingar er að finna í [Bóka þjónustupantanir (klasaskjámynd)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
 
 ## <a name="delete-service-orders"></a>Eyða þjónustupöntunum
 
@@ -84,7 +84,7 @@ Ein af hinum þjónustupöntununum sem voru búnar til fyrir janúarmánuð ver�
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Þjónustupantanir (skjámynd)](https://technet.microsoft.com/en-us/library/aa554361\(v=ax.60\))
+[Þjónustupantanir (skjámynd)](https://technet.microsoft.com/library/aa554361\(v=ax.60\))
 
   
 

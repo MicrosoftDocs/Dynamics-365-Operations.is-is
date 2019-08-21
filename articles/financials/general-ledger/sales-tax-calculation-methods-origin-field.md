@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1473eeb2950296f5ae6250d7a53794af3d9cba81
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8ec6144599e9bb74333a663a56bdbf07b1999669
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566847"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846752"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Útreikningsaðferðir virðisaukaskatts í reitnum Uppruni
 
@@ -41,7 +41,7 @@ Prósenta af útreikningsaðferð nettóupphæðar er sjálfgefna gildið í rei
 
 Skatthlutfallið er 25%. Reikningslínan sýnir magn 10 vara sem kosta 1,00 hver og viðskiptavinurinn fær 10% línuafslátt. Nettóupphæð: (10 x 1,00) -10% = 9,00 VSK: 9,00 x 25% = Heildarupphæð 2,25: 9,00 + 2,25 = 11,25
 
-## <a name="percentage-of-gross-amount"></a> Prósenta af brúttó upphæð
+## <a name="percentage-of-gross-amount"></a>Prósenta af brúttó upphæð
 Ef valin er aðferðin Prósenta af brúttóupphæð er VSK reiknaður sem prósenta af brúttósöluupphæð. Brúttóupphæð er nettólínuupphæð plús allir skattar og gjöld línunnar, nema einn skattur með Uppruna = Prósenta af brúttóupphæð.
 ### <a name="example"></a>Dæmi
 
@@ -74,7 +74,7 @@ Nettóupphæð: 10,00 GJALD 1: 10,00 x 10% = 1,00 GJALDI 2: 1,00 x 20% = 0.20 Br
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Margstiga skattur í skattaútreikningum er ekki mögulegur. Ekki er hægt að reikna út skatt á grundvelli skatts sem þegar er reiknaður út frá öðrum skatti. Hægt er að reikna marga eins stigs skatta í skattkóðum í færslu. |
 
-## <a name="amount-per-unit"></a> Upphæð á einingu
+## <a name="amount-per-unit"></a>Upphæð á einingu
 Þegar Upphæð á einingu í er valin í reitnum Uppruni er virðisaukaskattur reiknaður sem föst upphæð á einingu margfaldað með magninu sem fært er inn í línuna. Velja skal einingu í reitnum Eining. Upphæð á einingu er tilgreind á síðunni Gildi VSK-kóða.
 ### <a name="example"></a>Dæmi
 
@@ -84,7 +84,7 @@ Vsk-kóðinn er settur upp sem: 1,20 USD á hverja einingu = kassi Á sölureikn
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ef færslan er færð inn í aðra einingu en einingu sem er tilgreind á VSK-kóða, umreiknast hún sjálfkrafa á grundvelli einingaumreikninga sem eru settir upp á síðunni Umreikningur eininga. |
 
-###  <a name="amount-per-unit-additional-option"></a> Upphæð á einingu, viðbótarvalkostur
+###  <a name="amount-per-unit-additional-option"></a>Upphæð á einingu, viðbótarvalkostur
 
 Á flipanum Útreikningur er hægt að velja hvort reiknaður skattur á upphæð á einingu er reiknaður út á undan öðrum vsk-kóða og bætt við nettóupphæðina áður en aðrir VSK-kóðar með Uppruna = Prósenta af nettóupphæð eru reiknaðir.
 
@@ -112,7 +112,7 @@ VSK: Uppruni = Prósenta af nettóupphæð Valkosturinn Reikna út á undan VSK 
 
 Niðurstaðan úr dæmi 3 og dæmi 1 er sú sama, þar sem aðeins er um eitt gjald að ræða. Gefum okkur að greiða þurfi tvenns konar GJÖLD og aðeins önnur þeirra eru með í nettóupphæð fyrir útreikning vsk: GJALD 1: 5,00 með Upphæð á hverja einingu aðferð og reikna það Út áður en vsk-valkosturinn er valinn GJALDI 2: 2,50 með Upphæð á hverja einingu aðferð og reikna það Út áður en vsk-valkosturinn er ekki valinn vsk : 25%, með því að nota Prósentu af nettó upphæð nettóupphæð aðferð: 10,00 GJALD 1: 1 x 5,00 = 5,00 GJALD 2: 1 x 2,50 = 2,50 nettóupphæð skatts: 10,00 + 5,00 = 15,00 SALESTAX: 15,00 x 25% = 3.75 Samtals virðisaukaskatt, þ.m.t. gjöld: 5,00 + 2,50 + 3,75 = 11,25 heildarupphæð: 10,00 + 11,25 = 21,25 25% SALESTAX er reiknað út fyrir samtöluna af nettóupphæðinni (10,00) + GJALD 1 (5,00) = 15,00. Gjaldi 2 er bætt við skattupphæðina eftir að virðisaukaskatturinn hefur verið reiknaður út.
 
-## <a name="calculated-percentage-of-net-amount"></a> Reiknuð prósenta af nettóupphæð
+## <a name="calculated-percentage-of-net-amount"></a>Reiknuð prósenta af nettóupphæð
 Reiknuð prósenta af nettóupphæð meðhöndlar skattaútreikninga á annan hátt allt eftir stillingu færibreytunnar Upphæðir innihalda vsk fyrir skjalið eða færslubókina.
 ### <a name="example-1"></a>Dæmi 1
 

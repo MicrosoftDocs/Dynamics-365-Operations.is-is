@@ -3,7 +3,7 @@ title: Eiginleikar sem hafa verið fjarlægðir eða úreltir
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir.
 author: sericks007
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dffe6e41ef99ca7e5ca8f9a67b26b69151026f35
-ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
+ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624908"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863384"
 ---
 # <a name="removed-or-deprecated-features"></a>Fjarlægðir eða úreltir eiginleikar
 
@@ -40,10 +40,32 @@ ms.locfileid: "1624908"
 
 > Ítarlegar upplýsingar um hluti í Finance and Operations má finna í [Tæknileg tilvísunarskjöl](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu Finance and Operations.
 
-## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 með verkvangsuppfærslu 28
+## <a name="dynamics-365-for-finance-and-operations-1005-with-platform-update-29"></a>Dynamics 365 for Finance and Operations 10.0.5 með verkvangsuppfærslu 29
 
 > [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.4 með verkvangsuppfærslu 28 er í boði fyrir ákveðna notendur sem hluti af forútgáfu. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í hlutanum [Framboð þjónustuuppfærslu](../../fin-and-ops/get-started/public-preview-releases.md).
+> Dynamics 365 for Finance and Operations 10.0.5 með verkvangsuppfærslu 29 er í boði fyrir ákveðna notendur sem hluti af forútgáfu. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í hlutanum [Framboð þjónustuuppfærslu](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="us-payroll-tax-updates"></a>Uppfærslur á launaskatti í Bandaríkjunum
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Við erum að hætta við skattauppfærslur vegna bandarískra launatengdra aðgerða vegna lítillar notkunar og aukinnar virkni sem nú er boðið upp á með stefnumótandi samþættingum.  |
+| **Skipt út fyrir aðra eiginleika?**   | Já |
+| **Afurðasvæði sem haft er áhrif á**         | Laun |
+| **Dreifingarvalkostur**              | Öll |
+| **Staða**                         | Lækkað: Fyrir 1. október 2021, stefnum við að því að bjóða ekki upp á skattauppfærslur til viðskiptavina Bandaríkjamanna. Virkni verður áfram í vörunni, en aukahlutir halda ekki lengur virkni uppfærðri og allir vörugallar verða metnir frá hverju tilviki fyrir sig. Sjá frekari upplýsingar [Skattauppfærslur tekin úr notkun vegna launagreiðslu í Bandaríkjunum í Microsoft Dynamics 365 for Finance and Operations](https://aka.ms/financepayrollfaq). |
+
+
+### <a name="data-management-staging-clean-up"></a>Hreinsun á sviðssetningu gagnastjórnunar
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Uppfyllir ekki grunnkröfurnar sem þarf til að tímasetja reglulega hreinsun. |
+| **Skipt út fyrir aðra eiginleika?**   | Já, verkreinsunaraðgerðinni er bætt við til að uppfylla atburðarásina á heildrænan hátt. |
+| **Afurðasvæði sem haft er áhrif á**         | Gagnastjórnun |
+| **Dreifingarvalkostur**              | Öll  |
+| **Staða**                         | Úrelt: Stefnt er að því að fjarlægja virknina í desember 2020. |
+
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 með verkvangsuppfærslu 28
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Frakkland: Útflutningur FEC-bókhaldsgagna í XML
 
@@ -1235,7 +1257,7 @@ Sites Services gerir þér kleift að búa til vefsíður sem framlengja viðski
 
 ### <a name="virtual-company-accounts"></a>Sýndarreikningsskil
 
-Sýndarfyrirtækjaeiginleiki er ekki lengur studd í Dynamics AX. Eiginleikinn sýndarfyrirtæki gerði notendum mögulegt að setja upp töflur sem mátti deila með hóp fyrirtækja. Fyrir lýsingu á aðgerðinni sjá [reikningsskil og sýndarreikningsskil](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx). Eiginleikinn vinnur með því að flokka töflur í söfn sem tilheyra sýndarfyrirtæki, sem eru hópar af fyrirliggjandi "raunverulegum" fyrirtæki. Fyrirspurnir eru stofnaðar svo að öll fyrirtæki í sýndarfyrirtækinu hafi aðgang að gögnum í töflum tengdra töflusafna.
+Sýndarfyrirtækjaeiginleiki er ekki lengur studd í Dynamics AX. Eiginleikinn sýndarfyrirtæki gerði notendum mögulegt að setja upp töflur sem mátti deila með hóp fyrirtækja. Fyrir lýsingu á aðgerðinni sjá [reikningsskil og sýndarreikningsskil](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). Eiginleikinn vinnur með því að flokka töflur í söfn sem tilheyra sýndarfyrirtæki, sem eru hópar af fyrirliggjandi "raunverulegum" fyrirtæki. Fyrirspurnir eru stofnaðar svo að öll fyrirtæki í sýndarfyrirtækinu hafi aðgang að gögnum í töflum tengdra töflusafna.
 
 |   |  | 
 |------------|--------------------|

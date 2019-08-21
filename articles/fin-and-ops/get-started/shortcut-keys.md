@@ -3,7 +3,7 @@ title: Flýtilyklar
 description: Eftirfarandi flýtilyklar eru notaðir í  Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 12/12/2017
+ms.date: 07/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 95a6b6bd70c4a5bb684c605d364a28b85ed4e120
+ms.sourcegitcommit: d88d3d504e85c5bf6f6e9dc842488a2b644261cf
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561834"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1780059"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtilyklar
 
@@ -138,9 +138,13 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Bæta við bili af línum við valið safn<blockquote>[!NOTE] Þessi flýtivísun er aðeins notuð á aðstæður með mörgum valkostum.</blockquote>         | Shift+Smella                     |
 | Fara í næstu/fyrri síðu gagna.                                                                                   | Síða upp / Síða niður             |
 | Búa til nýja línu neðst á hnitanetinu                                                                             | Niður ör (frá síðustu línu)  |
-| Velja eða hreinsa allar línur                                                                                               | Ctrl+Shift+M                    |
 | Fara í fyrstu færslu                                                                                               | Ctrl+Home                       |
 | Fara í síðustu færslu                                                                                                | Ctrl+End                        |
+| Velja eða hreinsa allar línur                                                                                               | Ctrl+Shift+M                    |
+| Fara í fyrstu merktu línu                                                                                           | Alt+Shift+M, F                    |
+| Fara í næstu merktu línu                                                                                            | Alt+Shift+M, L                    |
+| Fara í fyrri merkta línu                                                                                        | Alt+Shift+M, P                    |
+| Fært í síðustu merktu línu                                                                                           | Alt+Shift+M, N                    |
 | Framkvæma sjálfgefna aðgerð í rúðu<blockquote>[!NOTE] Þessi flýtileið er virk þegar áherslan er á reit sem inniheldur tengil og allir reitir í þeim dálki eru með tengla.</blockquote> | Færa inn                           |
 | Víxla fókus á milli valinnar raðar og raðar síðuhauss                                                               | Alt+Shift+H                     |
 | Gerðu núverandi dálk stærri/minni (með fókus á röð síðuhauss)                                                  | Hægri ör / vinstri ör        |

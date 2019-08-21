@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d7c9a61f935503b74ac27b354c875df095d84b4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: aa49b70b07ac3dc6cbc5989b11981098f22be89c
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1573142"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835215"
 ---
 # <a name="create-a-customer-invoice"></a>Stofnun reiknings viðskiptavinar
 
@@ -33,7 +33,7 @@ ms.locfileid: "1573142"
 
 **Reikningur með frjálsum texta** er ekki tengdur sölupöntun. Hann inniheldur pöntunarlínur sem fela í sér fjárhagslykla, frjálsar textalýsingar, og söluupphæð sem maður færir inn sjálfur. Ekki er hægt að færa inn vörunúmer á þessa gerð reiknings. Skylda er að færa inn viðeigandi VSK-upplýsingar. Aðallykill fyrir söluna tilgreindur á hverri reikningslínu sem hægt er að dreifa á mörgum fjárhagslykla með því að smella **Dreifingarupphæðir** á síðunni **reikningur með frjálsum texta**. Þar að auki er staða viðskiptavinarins bókuð í safnlykil úr bókunarregla sem notuð er fyrir reikningur með frjálsum texta.
 
-Frekari upplýsingar er að finna á: 
+Frekari upplýsingar er að finna á:
 
 [Stofna reikning með frjálsum texta](../accounts-receivable/create-free-text-invoice-new.md)
 
@@ -58,7 +58,7 @@ Notaðu þessa aðferð þegar einn eða fleiri fylgiseðlar hafa verið bókað
 
 Hægt er að stofna reikningur viðskiptavinar út frá línuvörum fylgiseðils sem sendar hafa verið fram að þessu, jafnvel þótt allar vörur tiltekinnar sölupöntunar hafi ekki verið sendar ennþá. Þetta gæti til dæmis átt við, ef fyrirtækið gefur út einn reikning fyrir viðskiptavin mánaðarlega sem nær yfir allar afhendingar sem sendar eru þann mánuð. Hver fylgiseðill stendur fyrir hlutaafhendingu eða fulla afhendingu á vörum í sölupöntuninni. 
 
-Þegar reikningur er bókaður er magn **reikningsafgangs** fyrir hverja vöru uppfært með samtölu afhents magns úr völdum fylgiseðlum. Ef bæði **Reikningsafgangur** magnið og **Eftirstöðvar afendingar** magnið fyrir allar vörur á sölupöntuninni jafngildir núlli (0), breytist staða sölupöntunarinnar í  **Reikningsfært**. Ef magn **reikningsafgangs** er ekki núll (0), er staða innkaupapöntunarinnar óbreytt og hægt er að færa inn viðbótarreikninga fyrir hann. 
+Þegar reikningur er bókaður er magn **reikningsafgangs** fyrir hverja vöru uppfært með samtölu afhents magns úr völdum fylgiseðlum. Ef bæði **Reikningsafgangur** magnið og **Eftirstöðvar afendingar** magnið fyrir allar vörur á sölupöntuninni jafngildir núlli (0), breytist staða sölupöntunarinnar í **Reikningsfært**. Ef magn **reikningsafgangs** er ekki núll (0), er staða innkaupapöntunarinnar óbreytt og hægt er að færa inn viðbótarreikninga fyrir hann. 
 
 Birgðafærslur eru uppfærðar með reikningsnúmeri og staðan í svæðinu **Staða línu** í sölupöntuninni breytist í **Reikningsfært**. 
 
@@ -92,7 +92,7 @@ Eftirfarandi svæði breyta hegðun bókunarferlanna.
 <li><strong>Tiltekið</strong> – Velja allt magn sem hafa verið teknar til.</li>
 <li><strong>Allt</strong> - Velja allt magn í sölupöntun sem hefur &#39; ekki enn verið uppfært af núverandi gerð skjals.</li>
 <li><strong>Fylgiseðill</strong> – Velja allt magn sem hafa verið uppfærðar af fylgiseðli.</li>
-<li><strong>Tiltektarmagn og afurðir sem ekki á lager </strong> – Velja allt magn sem hafa verið teknar til og allt magn vöru sem ekki eru í birgðum.&#39;</li>
+<li><strong>Tiltektarmagn og afurðir sem ekki á lager</strong> – Velja allt magn sem hafa verið teknar til og allt magn vöru sem ekki eru í birgðum.&#39;</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -137,7 +137,7 @@ Eftirfarandi svæði breyta hegðun bókunarferlanna.
 <ul>
 <li><strong>Ekkert</strong> – Engin krafa um athugun á lánamarki.</li>
 <li><strong>Staða</strong> – lánamark er athugað gagnvart staða viðskiptamanns.</li>
-<li><strong> Staða + fylgiseðill eða innhreyfingarskjal afurða</strong> – lánamark er athugað gagnvart stöðu viðskiptavinar og afhendingar.</li>
+<li><strong>Staða + fylgiseðill eða innhreyfingarskjal afurða</strong> – lánamark er athugað gagnvart stöðu viðskiptavinar og afhendingar.</li>
 <li><strong>Staða + allt</strong> - lánamark er athugað gagnvart staða viðskiptamanns, afhendingar og opnum pöntunum.</li>
 </ul></td>
 </tr>
@@ -156,7 +156,7 @@ Eftirfarandi svæði breyta hegðun bókunarferlanna.
 <li><strong>Ekkert</strong> - Ekki &#39; taka saman sölupantanir. Til dæmis verður aðskilinn reikningur stofnaður fyrir hverja sölupöntun.</li>
 <li><strong>Reikningslykill</strong> – taka saman öllum völdum pöntunum, samkvæmt skilyrðum sem sett eru upp á síðunni <strong>færibreytur safnuppfærslu</strong>.</li>
 <li><strong>Pöntun</strong> – Safna saman völdu sviði pantana í eina tilgreinda pöntun. Pantanir sem er safnað saman, samkvæmt skilyrðum sem sett eru upp á síðunni <strong>færibreytur safnuppfærslu</strong>. Ef þessi valkostur er valinn skal velja gildi í svæðið <strong>sölupöntun</strong>.</li>
-<li><strong>Sjálfvirk samantekt </strong> – ef samantektaruppfærslur hafa verið tilgreindar á <strong>safnuppfærslu</strong> síðu, skal safna saman allar valdar pantanir, samkvæmt skilyrðum sem sett eru upp í <strong>færibreytur safnuppfærslu</strong> síðu. Ef safnuppfærsla hefur ekki verið tilgreindur er pöntunin bókuð sér.&#39;</li>
+<li><strong>Sjálfvirk samantekt</strong> – ef samantektaruppfærslur hafa verið tilgreindar á <strong>safnuppfærslu</strong> síðu, skal safna saman allar valdar pantanir, samkvæmt skilyrðum sem sett eru upp í <strong>færibreytur safnuppfærslu</strong> síðu. Ef safnuppfærsla hefur ekki verið tilgreindur er pöntunin bókuð sér.&#39;</li>
 <li><strong>Fylgiseðill</strong> – Safna saman valinni röð af pöntunum í einn reikning á hvern fylgiseðil. Þessi valkostur er bara tiltækur ef <strong>fylgiseðill</strong> er valið í svæðinu <strong>Magn</strong>.</li>
 </ul></td>
 </tr>

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JournalizingDefinition, JournalizingDefinitionTrans, LedgerParameters
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 15741
 ms.assetid: 1495e7e0-2e39-464c-8da9-f55b1ca1c6bb
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88e9d1e593f58e8fc9e12ddac7664b6e67ecda6a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1a8dc69ac668da46ccaa470a4e0e7dcb2ce4d0ac
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561015"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835023"
 ---
 # <a name="posting-definitions"></a>Bókunarskilgreiningar
 
@@ -33,16 +33,16 @@ ms.locfileid: "1561015"
 
 Fyrir studdar bókunargerðir og skjöl, er hægt að nota bókunarskilgreiningar í stað bókunarreglur til að flokka aðallykla og fjárhagsvíddir í bókhaldsfærslur. Hægt er að skoða skjöl og gerðir bókana á í **bókunarskilgreiningar Færslna** síðu. 
 
-Til að byrja að nota bókunarskilgreiningar, í**Nota bókunarskilgreiningar** valkostinn á í **fjárhagsfæribreytur** síðu. Jafnvel þegar nota bókunarskilgreiningar, enn þarf að skilgreina bókunarreglur fyrir upphaflegar færslur og ekki studdar bókunargerðir og skjöl. 
+Til að byrja að nota bókunarskilgreiningar, í **Nota bókunarskilgreiningar** valkostinn á í **fjárhagsfæribreytur** síðu. Jafnvel þegar nota bókunarskilgreiningar, enn þarf að skilgreina bókunarreglur fyrir upphaflegar færslur og ekki studdar bókunargerðir og skjöl. 
 
 Þú verður að nota Bókunarskilgreiningar til að styðja bókhald fjárúthlutunar innkaupapantana og áætlaða fjárúthlutun fyrir innkaupabeiðnir.
 
 ## <a name="defining-posting-definitions"></a>Skilgreina Bókunarskilgreining
-Nota skal**Bókunarskilgreiningar** síðu til að tilgreina skilyrði jöfnunar og færslur sem á að mynda þegar samsvörun verður. Samsvörunarskilyrði eru metnar fyrir upphaflegar færslur og dreifingar á fjárhagsupphæð. 
+Nota skal **Bókunarskilgreiningar** síðu til að tilgreina skilyrði jöfnunar og færslur sem á að mynda þegar samsvörun verður. Samsvörunarskilyrði eru metnar fyrir upphaflegar færslur og dreifingar á fjárhagsupphæð. 
 
 Á **Bókunarskilgreiningar** síðu má einnig tengja forgangstölur á línur til að stýra röðinni sem línurnar eru metnar í. Línur sem hafa lægsta forgangsnúmer eru metnar fyrst. Til dæmis allar línur sem hafa forgang 1 eru metin og síðan línur sem hafa forgang yfir 2 o.s.frv. Þegar samsvörun finnst eru önnur skilyrði fyrir samsvörun hunsuð. Þar að auki, Einnig geta aðeins skilyrði í flokknum sem samsvara upprunalegu færslunni stofna myndaðrar færslur. 
 
-Hægt er að villuleita bókunarskilgreiningar með í **Prófa bókunarskilgreining** leiðsagnarforritið. Þegar búið er að skilgreina  dæmi um upprunafærslu bókunarskilgreiningar , sérðu myndaðar færslur. 
+Hægt er að villuleita bókunarskilgreiningar með í **Prófa bókunarskilgreining** leiðsagnarforritið. Þegar búið er að skilgreina dæmi um upprunafærslu bókunarskilgreiningar , sérðu myndaðar færslur. 
 
 Hægt er að nota útgáfur bókunarskilgreiningar með gildisdagsetningum. Til dæmis er hægt að stofna síðari útgáfum af bókunarskilgreiningu til að bóka í annan fjárhagslykil í nýtt fjárhagsár. 
 

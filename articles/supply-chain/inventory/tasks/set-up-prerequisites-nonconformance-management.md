@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventParameters, InventTestReportSetup, SysUserManagement, SysUserSetup, InventTestDiagnosticType, InventTestMiscCharges, InventTestOperation, InventProblemType, InventProblemTypeSetup, InventQuarantineZone
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a4062acc91e024e3a0a41c0b3cb35ff5ffe2a4a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9094be37e44b978db224b16c255d04a36c5cefff
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554221"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845331"
 ---
 # <a name="set-up-prerequisites-for-nonconformance-management"></a>Setja upp forsendur fyrir ósamkvæmistýringu.
 
@@ -60,7 +60,7 @@ Notið þetta ferli til að virkja sjórnunarferli ósamkvæmni. Ósamkvæmni l�
 
 ## <a name="define-diagnostic-types-for-nonconformance-processing"></a>Skilgreina gerðir greininga fyrir ósamkvæmnivinnslu.
 1. Fara í birgðastjórnun > Uppsetningu >gæðastjórnun > gerðir Greininga.
-    * Notaðu greiningargerðir  síðuna til að skilgreina flokkun greiningaraðgerða. Leiðrétting auðkennir hvers konar greiningaraðgerð á að framkvæma á samþykktri ósamkvæmni, hver á að framkvæma hana og umbeðna eða áætlaða dagsetningu þegar henni á að vera lokið.  
+    * Notaðu greiningargerðir síðuna til að skilgreina flokkun greiningaraðgerða. Leiðrétting auðkennir hvers konar greiningaraðgerð á að framkvæma á samþykktri ósamkvæmni, hver á að framkvæma hana og umbeðna eða áætlaða dagsetningu þegar henni á að vera lokið.  
 2. Smellið á „Nýtt“.
 3. Í reitinn GREINING skal slá inn gildi.
 4. Sláið inn gildi í reitnum „Lýsing“.
@@ -84,7 +84,7 @@ Notið þetta ferli til að virkja sjórnunarferli ósamkvæmni. Ósamkvæmni l�
 
 ## <a name="define-problem-types-for-nonconformance-processing"></a>Skilgreina gerðir vandamála fyrir ósamkvæmnivinnslu.
 1. Fara í birgðastjórnun > Uppsetningu > gæðastjórnun > gerðir vandamála.
-    * Nota skal vandamálagerðir síðu til að skilgreina flokkun gæðavanda sem kemur fyrir í ýmsum ósamkvæmnigerðum. Gerðir ósamkvæmi innihalda: Viðskiptavinur, Innra, Framleiðsla, Þjónustubeiðni  eða Lánardrottinn og framleiðsla aukaafurða Ein Gerð vandamáls eina hægt að tengja við margar gerðir ósamkvæmni.  
+    * Nota skal vandamálagerðir síðu til að skilgreina flokkun gæðavanda sem kemur fyrir í ýmsum ósamkvæmnigerðum. Gerðir ósamkvæmi innihalda: Viðskiptavinur, Innra, Framleiðsla, Þjónustubeiðni eða Lánardrottinn og framleiðsla aukaafurða. Ein Gerð vandamáls eina hægt að tengja við margar gerðir ósamkvæmni.  
 2. Smellið á „Nýtt“.
 3. Í reitinn gerð VANDAMÁLs skal slá inn gildi.
 4. Sláið inn gildi í reitnum „Lýsing“.

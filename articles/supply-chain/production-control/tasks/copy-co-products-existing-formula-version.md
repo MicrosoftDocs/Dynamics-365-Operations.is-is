@@ -10,25 +10,25 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, BOMConsistOf, PmfFormulaCoBy, BOMRouteCopyDialog
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 179c12da0c2ddc7b5e2f2fdddd21168eac121811
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 626c0fc8a60eeb84060d7279833de583d55a95a2
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557803"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1838752"
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a>Afrita aukaafurðir úr fyrirliggjandi formúluútgáfu
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi verklýsing sýnir hvernig á að afrita aukaafurðir úr eldri útgáfu formúlu yfir í mismunandi formúluútgáfu fyrir útgefna afurð. Það er skilyrði að minnsta kosti eitt formúluútgáfan tengist aukaafurðir. Gögn fyrirtækisins sýnigögn USP2 er notuð til að stofna þetta ferli.
+Þessi verklýsing sýnir hvernig á að afrita aukaafurðir úr eldri útgáfu formúlu yfir í mismunandi formúluútgáfu fyrir útgefna afurð. Það er skilyrði að minnsta kosti ein formúluútgáfn tengist aukaafurðum. Sýnifyrirtækjagögn USP2 eru notuð til að stofna þetta ferli.
 
 
 ## <a name="find-a-released-product"></a>Finna útgefin afurð

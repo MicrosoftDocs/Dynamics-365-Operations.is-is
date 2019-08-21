@@ -1,72 +1,70 @@
 ---
 title: Skilgreina starfsmann með fartæki
-description: Þessi verklýsing sýnir hvernig á að úthluta rétt hlutverk notandareikningurinn starfsmanns og virkja síðan starfsmanns til að gera skráningu í vinnslusalarstjórnun.
+description: Þetta efni útskýrir hvernig á að úthluta rétt hlutverk notandareikningurinn starfsmanns og virkja síðan starfsmanns til að gera skráningu í vinnslusalarstjórnun.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, HcmWorker, JmgRegistrationSetupTouch, JmgRegistrationSetupAssignUsers
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1bb4d806810660e55ef13a9ff21c07e0ce194496
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a6e45ea8fdbe30436badd88d4972fda970755275
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571359"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835776"
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a>Skilgreina starfsmann með fartæki
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi verklýsing sýnir hvernig á að úthluta rétt hlutverk notandareikningurinn starfsmanns og virkja síðan starfsmanns til að gera skráningu í vinnslusalarstjórnun.
+Þetta efni útskýrir hvernig á að úthluta rétt hlutverk notandareikningurinn starfsmanns og virkja síðan starfsmanns til að gera skráningu í vinnslusalarstjórnun.
 
+## <a name="verify-that-a-worker-is-assigned-a-certain-role"></a>Gakktu úr skugga um að starfsmanni sé úthlutað ákveðið hlutverk
 
-## <a name="assign-roles-to-user-account"></a>Bæta hlutverkum við notanda
-1. Farið í Kerfisstjórnun > Notendur > Notendur.
-2. Nota Síu á Flýtiræsistikunni til að sía á nafn starfsmanns þar sem notandareikningurinn tengist hlutverki starfsmaður á vél. Heiti væri Shannon í sýnigögn.
-3. Auðkennið skráningu notandareikningur.
-4. Á listanum, smella á tengilinn "Heiti" í völdu línunni til að skoða upplýsingar um lykil notanda.
-5. Veljið ‚Roles\Stjórnanda á vél', í trénu.
-6. Loka upplýsingasíðunni lykil notanda.
-7. Lokið síðunni.
+Fyrir þetta dæmi, staðfestið að notandinn „SHANNON“ hefur hlutverk stjórnanda vélarinnar áður en þú stillir starfsmannareikninginn.
 
-## <a name="configure-worker-account"></a>Skilgreina notandareikning starfsmanns.
-1. Farið í Mannauður > Starfsfólk > Starfsfólk.
-2. Nota Síu á Flýtiræsistikunni til að sía á nafn starfsmanns þar sem notandareikningurinn tengist hlutverki starfsmaður á vél. Heiti væri Shannon í sýnigögn.
-3. Auðkennið skráningu notandareikningur.
-4. Á listanum, smella á tengilinn "Heiti" í völdu línunni til að skoða upplýsingar um lykil notanda.
-5. Smellið á flipann Ráðningar.
-6. Útvíkka tímaskráningu flýtiflipi og smella á Virkja á skráningarstöðvum.
-7. Smella á Virkja á skráningarstöðvum.
-8. Í reitinn reikniflokkur skal slá inn eða velja gildi.
-9. Færa inn eða veljið gildi í reitnum Sjálfgefinn reikniflokkur.
-10. Í reitinn samþykkisflokkur skal slá inn eða velja gildi.
-11. Færa inn eða veljið gildi í reit fyrir staðlaða forstillingu
-12. Færa inn eða veljið gildi í svæðinu forstillingarflokkur.
-13. Smellt er á Í lagi.
-14. Smella á Breyta til að færa inn númer korti fyrir nýja starfsmaður sem sinnir tímaskráningu.
-15. Færa inn gildi í svæðið Kenni korts.
-16. Smelltu á Vista.
-17. Notaðu flýtileiðina SaveRecord (vista skrá)
-18. Loka upplýsingasíðunni starfsmanns.
-19. Lokið síðunni.
+1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Kerfisstjórnun > Notendur > Notendur**.
+2. Leitaðu að notanda í hraðsíunni. Í þessu dæmi skal færa inn `shannon`.
+3. Veldu tengilinn í **notandanafn** dálkur notendareikningsins sem birtist.
+4. Í trénu **Notendahlutverk** velurðu **Hlutverk > Starfsmaður á vél**.
+5. Lokaðu **upplýsingar um notendur** og **notendur** síður til að fara aftur á heimasíðuna.
 
-## <a name="assign-worker-to-device-group"></a>Úthluta starfsmanns á tækjaflokk.
-1. Fara í Framleiðslustýringar > Uppsetning > Framkvæmd framleiðslu > Skilgreina verkspjald fyrir tæki.
-2. Smelltu á Bæta við.
-3. Í listanum skal merkja valda línu.
-4. Smellið á „Í lagi“.
-5. Smellið á „Breyta“.
-6. Í svæðið eining Framleiðslu er hægt að setja síu sjálfgefið fyrir starfsmann. Þetta mun tryggja að eingöngu vinnslur fyrir valda framleiðslueiningu eru birtar þegar starfsmaður skráir sig inn á tækinu.
+## <a name="configure-worker-account"></a>Skilgreina notandareikning starfkrafts
+1. Fara til **Skoðunargluggi > Kerfiseiningar > Mannauður > Starfskraftar > Starfskraftar**.
+2. Leitaðu að notanda í hraðsíunni. Í þessu dæmi skal færa inn `shannon`.
+3. Veldu tengilinn í **Heiti** dálkur notendareikningsins sem birtist.
+4. Veldu flipann **Tímaskráning**.
+5. Veldu **Virkja á skráningarstöðvum**.
+6. Færðu inn eða veldu gildi í eftirfarandi svæði:  
+
+    - **Reikniflokkur**  
+    - **Sjálfgefinn útreikningaflokkur**  
+    - **Samþykkisflokkur**  
+    - **Stöðluð forstilling**  
+    - **Forstillingarflokkur**  
+
+7. Veljið **Í lagi**.
+8. Veldu **Breyta** til að færa inn númer korti fyrir nýja starfsmaður sem sinnir tímaskráningu. Færðu inn gildi í reitnum **Kortkenni**.
+9. Veljið **Vista**.
+10. Lokaðu **Upplýsingar um starfsmann** og **Verkamenn**.
+
+## <a name="assign-worker-to-device-group"></a>Úthluta starfskrafti á tækjaflokk.
+1. Fara í **Framleiðslustýringar > Uppsetning > Framkvæmd framleiðslu > Skilgreina verkspjald fyrir tæki**.
+2. Veljið **Bæta við**.
+3. Á listanum, skal velja viðeigandi strafskraft. Í þessu dæmi, velja **SHANNON**.
+4. Veljið **Í lagi**.
+5. Veljið **Breyta**.
+6. Í svæðið **eining Framleiðslu** er hægt að setja síu sjálfgefið fyrir starfsmann. Þetta mun tryggja að eingöngu vinnslur fyrir valda framleiðslueiningu eru birtar þegar starfsmaður skráir sig inn á tækinu. Færa inn æskilegt gildi.
 7. Lokið síðunni.
 

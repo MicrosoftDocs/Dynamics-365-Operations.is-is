@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3fbd2e39f488696ebe8db5579ed88595e246ce97
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ee7e69611d31d2577ebafdfc059b0936aef0520b
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1573118"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848792"
 ---
 # <a name="import-iso20022-credit-transfer-configuration"></a>Flytja inn skilgreiningu ISO20022-kreditfærslu
 
@@ -39,7 +39,7 @@ ms.locfileid: "1573118"
 4. Smella á Geymslur.
 5. Smellt er á Opin.
 6. Smellt er á Sýna síur.
-7. Notið eftirfarandi síur: færðu inn síugildi "ISO20022 millifærsla fjármuna (DE)"  á reitnum "heiti skilgreiningar" með því að nota síuvirknitáknið "byrjar á".
+7. Notið eftirfarandi síur: færðu inn síugildi "ISO20022 millifærsla fjármuna (DE)" á reitnum "heiti skilgreiningar" með því að nota síuvirknitáknið "byrjar á".
     * Einnig má finna skilgreiningu á listanum, veljið það og flytja í innflutningsverkið.  
 8. Smelltu á Flytja inn.
     * Ef hnappurinn Innflutningur er ekki tiltækur, merkir það að þessi skilgreining hefur þegar verið flutt inn.  

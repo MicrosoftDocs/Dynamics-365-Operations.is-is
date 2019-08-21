@@ -1,5 +1,5 @@
 ---
-title: 'Stofna kostnaðarhluti  '
+title: Stofna kostnaðarhluti
 description: Þessi verklýsing sýnir hvernig á að stofna kostnaðarhluti með því að flytja inn Dynamics 365 for Finance and Operations Enterprise Edition fjárhagsvídd kostnaðarstaðar inn í kostnaðarbókhald í gegnum gagnatengi.
 author: ShylaThompson
 manager: AnnBe
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimension, CAMAXFinancialDimensionMemberProviderConfiguration, CAMDimensionMember
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e12de1d51658092fb19f652cef7c1cc78b255b5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8f63827977f080aa78fb385c60f757ad6b710005
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543772"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841250"
 ---
-# <a name="create-cost-objects"></a>Stofna kostnaðarhluti   
+# <a name="create-cost-objects"></a>Stofna kostnaðarhluti 
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
