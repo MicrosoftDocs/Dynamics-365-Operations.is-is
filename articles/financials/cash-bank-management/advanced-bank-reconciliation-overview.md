@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 22104
 ms.assetid: b0705653-1fa6-4d94-9728-bcf9fb387ad1
@@ -18,34 +18,34 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c6cec76ebc8328f221ecb6c30ae93716bd9bfe9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5c76b38e957c1c76a80c76782f45405573b7f191
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546502"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842614"
 ---
-# <a name="advanced-bank-reconciliation-overview"></a><span data-ttu-id="53f46-104">Yfirlit ítarlegrar bankaafstemmingar</span><span class="sxs-lookup"><span data-stu-id="53f46-104">Advanced bank reconciliation overview</span></span>
+# <a name="advanced-bank-reconciliation-overview"></a><span data-ttu-id="e5d0f-104">Yfirlit ítarlegrar bankaafstemmingar</span><span class="sxs-lookup"><span data-stu-id="e5d0f-104">Advanced bank reconciliation overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="53f46-105">Þessi grein lýsir flæðinu fyrir ítarlegt ferli bankaafstemmingar.</span><span class="sxs-lookup"><span data-stu-id="53f46-105">This article describes the flow for the advanced bank reconciliation process.</span></span> <span data-ttu-id="53f46-106">Ítarleg afstemming aðgerð gerir það mögulegt að flytja inn bankayfirlit sem er hægt að stemma af beint innan úr bankafærslu.</span><span class="sxs-lookup"><span data-stu-id="53f46-106">The advanced bank reconciliation feature lets you import bank statements that can be automatically reconciled from within bank transactions.</span></span>
+<span data-ttu-id="e5d0f-105">Þessi grein lýsir flæðinu fyrir ítarlegt ferli bankaafstemmingar.</span><span class="sxs-lookup"><span data-stu-id="e5d0f-105">This article describes the flow for the advanced bank reconciliation process.</span></span> <span data-ttu-id="e5d0f-106">Ítarleg afstemming aðgerð gerir það mögulegt að flytja inn bankayfirlit sem er hægt að stemma af beint innan úr bankafærslu.</span><span class="sxs-lookup"><span data-stu-id="e5d0f-106">The advanced bank reconciliation feature lets you import bank statements that can be automatically reconciled from within bank transactions.</span></span>
 
-<span data-ttu-id="53f46-107">Ítarleg afstemming aðgerð gerir það mögulegt að flytja inn bankayfirlit.</span><span class="sxs-lookup"><span data-stu-id="53f46-107">The advanced bank reconciliation feature lets you import bank statements.</span></span> <span data-ttu-id="53f46-108">Innflutt bankayfirlit getur þá°verið afstemmt sjálfkrafa innan bankafærslna.</span><span class="sxs-lookup"><span data-stu-id="53f46-108">The imported bank statement can then be automatically reconciled from within bank transactions.</span></span> <span data-ttu-id="53f46-109">Hér eru þrep í ítarlegu bankaafstemmingar°flæði.</span><span class="sxs-lookup"><span data-stu-id="53f46-109">Here are the steps in the advanced bank reconciliation flow.</span></span>
+<span data-ttu-id="e5d0f-107">Ítarleg afstemming aðgerð gerir það mögulegt að flytja inn bankayfirlit.</span><span class="sxs-lookup"><span data-stu-id="e5d0f-107">The advanced bank reconciliation feature lets you import bank statements.</span></span> <span data-ttu-id="e5d0f-108">Innflutt bankayfirlit getur þá°verið afstemmt sjálfkrafa innan bankafærslna.</span><span class="sxs-lookup"><span data-stu-id="e5d0f-108">The imported bank statement can then be automatically reconciled from within bank transactions.</span></span> <span data-ttu-id="e5d0f-109">Hér eru þrep í ítarlegu bankaafstemmingar°flæði.</span><span class="sxs-lookup"><span data-stu-id="e5d0f-109">Here are the steps in the advanced bank reconciliation flow.</span></span>
 
-1.  <span data-ttu-id="53f46-110">Setja upp innflutning bankayfirlits.</span><span class="sxs-lookup"><span data-stu-id="53f46-110">Set up a bank statement import.</span></span>
-    -   <span data-ttu-id="53f46-111">Flytja inn bankayfirlit gegnum umgjörð gagnaeininga.</span><span class="sxs-lookup"><span data-stu-id="53f46-111">Import bank statements through the data entity framework.</span></span>
-    -   <span data-ttu-id="53f46-112">Þrjú dæmigerð bankayfirlitssnið eru innbyggð: ISO20022, BAI2 og°MT940.</span><span class="sxs-lookup"><span data-stu-id="53f46-112">Three typical bank statement formats are built in: ISO20022, BAI2, and MT940.</span></span>
-    -   <span data-ttu-id="53f46-113">Hægt er að auka virknina í hvaða snið sem er.</span><span class="sxs-lookup"><span data-stu-id="53f46-113">The functionality can be extended to any format.</span></span>
+1.  <span data-ttu-id="e5d0f-110">Setja upp innflutning bankayfirlits.</span><span class="sxs-lookup"><span data-stu-id="e5d0f-110">Set up a bank statement import.</span></span>
+    -   <span data-ttu-id="e5d0f-111">Flytja inn bankayfirlit gegnum umgjörð gagnaeininga.</span><span class="sxs-lookup"><span data-stu-id="e5d0f-111">Import bank statements through the data entity framework.</span></span>
+    -   <span data-ttu-id="e5d0f-112">Þrjú dæmigerð bankayfirlitssnið eru innbyggð: ISO20022, BAI2 og°MT940.</span><span class="sxs-lookup"><span data-stu-id="e5d0f-112">Three typical bank statement formats are built in: ISO20022, BAI2, and MT940.</span></span>
+    -   <span data-ttu-id="e5d0f-113">Hægt er að auka virknina í hvaða snið sem er.</span><span class="sxs-lookup"><span data-stu-id="e5d0f-113">The functionality can be extended to any format.</span></span>
 
-2.  <span data-ttu-id="53f46-114">Setja upp númeraröð til að nota°fyrir ítarlega bankaafstemmingu og skilgreina samsvörunarreglur bankaafstemmingar.</span><span class="sxs-lookup"><span data-stu-id="53f46-114">Set up a number sequence to use for advanced bank reconciliation, and define the bank reconciliation matching rules.</span></span>
-    -   <span data-ttu-id="53f46-115">Jöfnunarregla afstemmingar er safn skilyrða sem eru notuð til að sía bankayfirlitslínur og bankaskjalslínur Microsoft Dynamics 365 for Finance and Operations á meðan á afstemmingarferlinu stendur.</span><span class="sxs-lookup"><span data-stu-id="53f46-115">A reconciliation matching rule is a set of criteria that are used to filter bank statement lines and Microsoft Dynamics 365 for Finance and Operations bank transaction lines during the reconciliation process.</span></span> <span data-ttu-id="53f46-116">Hægt er að setja upp fleiri en eina samsvörunarreglu til að gera sjálfvirkt og bæta ferli við afstemmingar eftir þörfum fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="53f46-116">Depending on your business practice, you can set up more than one matching rule to automate and optimize your reconciliation process.</span></span>
+2.  <span data-ttu-id="e5d0f-114">Setja upp númeraröð til að nota°fyrir ítarlega bankaafstemmingu og skilgreina samsvörunarreglur bankaafstemmingar.</span><span class="sxs-lookup"><span data-stu-id="e5d0f-114">Set up a number sequence to use for advanced bank reconciliation, and define the bank reconciliation matching rules.</span></span>
+    -   <span data-ttu-id="e5d0f-115">Jöfnunarregla afstemmingar er safn skilyrða sem eru notuð til að sía bankayfirlitslínur og bankaskjalslínur Microsoft Dynamics 365 for Finance and Operations á meðan á afstemmingarferlinu stendur.</span><span class="sxs-lookup"><span data-stu-id="e5d0f-115">A reconciliation matching rule is a set of criteria that are used to filter bank statement lines and Microsoft Dynamics 365 for Finance and Operations bank transaction lines during the reconciliation process.</span></span> <span data-ttu-id="e5d0f-116">Hægt er að setja upp fleiri en eina samsvörunarreglu til að gera sjálfvirkt og bæta ferli við afstemmingar eftir þörfum fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="e5d0f-116">Depending on your business practice, you can set up more than one matching rule to automate and optimize your reconciliation process.</span></span>
 
-3.  <span data-ttu-id="53f46-117">Stemma af bankayfirlit með bankafærslum Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="53f46-117">Reconcile bank statements with Finance and Operations bank transactions.</span></span>
-    -   <span data-ttu-id="53f46-118">Framkvæma sjálfvirka jöfnun og stofnun afstemmingafærslubóka.</span><span class="sxs-lookup"><span data-stu-id="53f46-118">Perform automatic matching and creation of reconciliation journals.</span></span>
-    -   <span data-ttu-id="53f46-119">Skoða bankayfirlit og bankafærslur Finance and Operations hlið við hlið.</span><span class="sxs-lookup"><span data-stu-id="53f46-119">View bank statements and Finance and Operations bank transactions side by side.</span></span>
-    -   <span data-ttu-id="53f46-120">Sjálfkrafa bókun á bankafærslum Finance and Operations ef þær birtast á bankayfirlitum en birtast ekki í Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="53f46-120">Automatically post Finance and Operations bank transactions if they appear on a bank statement but don't appear in Finance and Operations.</span></span>
-    -   <span data-ttu-id="53f46-121">Búa til afstemmingaryfirlit.</span><span class="sxs-lookup"><span data-stu-id="53f46-121">Generate a reconciliation statement.</span></span>
+3.  <span data-ttu-id="e5d0f-117">Stemma af bankayfirlit með bankafærslum Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="e5d0f-117">Reconcile bank statements with Finance and Operations bank transactions.</span></span>
+    -   <span data-ttu-id="e5d0f-118">Framkvæma sjálfvirka jöfnun og stofnun afstemmingafærslubóka.</span><span class="sxs-lookup"><span data-stu-id="e5d0f-118">Perform automatic matching and creation of reconciliation journals.</span></span>
+    -   <span data-ttu-id="e5d0f-119">Skoða bankayfirlit og bankafærslur Finance and Operations hlið við hlið.</span><span class="sxs-lookup"><span data-stu-id="e5d0f-119">View bank statements and Finance and Operations bank transactions side by side.</span></span>
+    -   <span data-ttu-id="e5d0f-120">Sjálfkrafa bókun á bankafærslum Finance and Operations ef þær birtast á bankayfirlitum en birtast ekki í Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="e5d0f-120">Automatically post Finance and Operations bank transactions if they appear on a bank statement but don't appear in Finance and Operations.</span></span>
+    -   <span data-ttu-id="e5d0f-121">Búa til afstemmingaryfirlit.</span><span class="sxs-lookup"><span data-stu-id="e5d0f-121">Generate a reconciliation statement.</span></span>
 
 
 

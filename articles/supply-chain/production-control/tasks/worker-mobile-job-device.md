@@ -1,72 +1,70 @@
 ---
 title: Skilgreina starfsmann með fartæki
-description: Þessi verklýsing sýnir hvernig á að úthluta rétt hlutverk notandareikningurinn starfsmanns og virkja síðan starfsmanns til að gera skráningu í vinnslusalarstjórnun.
+description: Þetta efni útskýrir hvernig á að úthluta rétt hlutverk notandareikningurinn starfsmanns og virkja síðan starfsmanns til að gera skráningu í vinnslusalarstjórnun.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, HcmWorker, JmgRegistrationSetupTouch, JmgRegistrationSetupAssignUsers
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1bb4d806810660e55ef13a9ff21c07e0ce194496
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a6e45ea8fdbe30436badd88d4972fda970755275
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571359"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835776"
 ---
-# <a name="configure-a-worker-using-the-mobile-job-device"></a><span data-ttu-id="b7dae-103">Skilgreina starfsmann með fartæki</span><span class="sxs-lookup"><span data-stu-id="b7dae-103">Configure a worker using the mobile job device</span></span>
+# <a name="configure-a-worker-using-the-mobile-job-device"></a><span data-ttu-id="7e993-103">Skilgreina starfsmann með fartæki</span><span class="sxs-lookup"><span data-stu-id="7e993-103">Configure a worker using the mobile job device</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="b7dae-104">Þessi verklýsing sýnir hvernig á að úthluta rétt hlutverk notandareikningurinn starfsmanns og virkja síðan starfsmanns til að gera skráningu í vinnslusalarstjórnun.</span><span class="sxs-lookup"><span data-stu-id="b7dae-104">This procedure shows you how to assign the correct roles to the user account of a worker, and then enable the worker to do shop floor registrations.</span></span>
+<span data-ttu-id="7e993-104">Þetta efni útskýrir hvernig á að úthluta rétt hlutverk notandareikningurinn starfsmanns og virkja síðan starfsmanns til að gera skráningu í vinnslusalarstjórnun.</span><span class="sxs-lookup"><span data-stu-id="7e993-104">This topic explains how to assign the correct roles to the user account of a worker, and then enable the worker to do shop floor registrations.</span></span>
 
+## <a name="verify-that-a-worker-is-assigned-a-certain-role"></a><span data-ttu-id="7e993-105">Gakktu úr skugga um að starfsmanni sé úthlutað ákveðið hlutverk</span><span class="sxs-lookup"><span data-stu-id="7e993-105">Verify that a worker is assigned a certain role</span></span>
 
-## <a name="assign-roles-to-user-account"></a><span data-ttu-id="b7dae-105">Bæta hlutverkum við notanda</span><span class="sxs-lookup"><span data-stu-id="b7dae-105">Assign roles to user account</span></span>
-1. <span data-ttu-id="b7dae-106">Farið í Kerfisstjórnun > Notendur > Notendur.</span><span class="sxs-lookup"><span data-stu-id="b7dae-106">Go to System administration > Users > Users.</span></span>
-2. <span data-ttu-id="b7dae-107">Nota Síu á Flýtiræsistikunni til að sía á nafn starfsmanns þar sem notandareikningurinn tengist hlutverki starfsmaður á vél.</span><span class="sxs-lookup"><span data-stu-id="b7dae-107">Use the Quick Filter to filter on the name of a worker where the user account is associated with the machine operator role.</span></span> <span data-ttu-id="b7dae-108">Heiti væri Shannon í sýnigögn.</span><span class="sxs-lookup"><span data-stu-id="b7dae-108">In the sample data, the name would be Shannon.</span></span>
-3. <span data-ttu-id="b7dae-109">Auðkennið skráningu notandareikningur.</span><span class="sxs-lookup"><span data-stu-id="b7dae-109">Highlight the user account record.</span></span>
-4. <span data-ttu-id="b7dae-110">Á listanum, smella á tengilinn "Heiti" í völdu línunni til að skoða upplýsingar um lykil notanda.</span><span class="sxs-lookup"><span data-stu-id="b7dae-110">In the list, click the "Name" link in the selected row to view the details of the user account.</span></span>
-5. <span data-ttu-id="b7dae-111">Veljið ‚Roles\Stjórnanda á vél', í trénu.</span><span class="sxs-lookup"><span data-stu-id="b7dae-111">In the tree, select 'Roles\Machine operator'.</span></span>
-6. <span data-ttu-id="b7dae-112">Loka upplýsingasíðunni lykil notanda.</span><span class="sxs-lookup"><span data-stu-id="b7dae-112">Close the user account details page.</span></span>
-7. <span data-ttu-id="b7dae-113">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="b7dae-113">Close the page.</span></span>
+<span data-ttu-id="7e993-106">Fyrir þetta dæmi, staðfestið að notandinn „SHANNON“ hefur hlutverk stjórnanda vélarinnar áður en þú stillir starfsmannareikninginn.</span><span class="sxs-lookup"><span data-stu-id="7e993-106">For this example, verify that user "SHANNON" is assigned the machine operator role before you configure the worker account.</span></span>
 
-## <a name="configure-worker-account"></a><span data-ttu-id="b7dae-114">Skilgreina notandareikning starfsmanns.</span><span class="sxs-lookup"><span data-stu-id="b7dae-114">Configure worker account.</span></span>
-1. <span data-ttu-id="b7dae-115">Farið í Mannauður > Starfsfólk > Starfsfólk.</span><span class="sxs-lookup"><span data-stu-id="b7dae-115">Go to Human resources > Workers > Workers.</span></span>
-2. <span data-ttu-id="b7dae-116">Nota Síu á Flýtiræsistikunni til að sía á nafn starfsmanns þar sem notandareikningurinn tengist hlutverki starfsmaður á vél.</span><span class="sxs-lookup"><span data-stu-id="b7dae-116">Use the Quick Filter to filter on the name of a worker where the user account is associated with the machine operator role.</span></span> <span data-ttu-id="b7dae-117">Heiti væri Shannon í sýnigögn.</span><span class="sxs-lookup"><span data-stu-id="b7dae-117">In the sample data, the name would be Shannon.</span></span>
-3. <span data-ttu-id="b7dae-118">Auðkennið skráningu notandareikningur.</span><span class="sxs-lookup"><span data-stu-id="b7dae-118">Highlight the user account record.</span></span>
-4. <span data-ttu-id="b7dae-119">Á listanum, smella á tengilinn "Heiti" í völdu línunni til að skoða upplýsingar um lykil notanda.</span><span class="sxs-lookup"><span data-stu-id="b7dae-119">In the list, click the "Name" link in the selected row to view the details of the user account.</span></span>
-5. <span data-ttu-id="b7dae-120">Smellið á flipann Ráðningar.</span><span class="sxs-lookup"><span data-stu-id="b7dae-120">Click the Employment tab.</span></span>
-6. <span data-ttu-id="b7dae-121">Útvíkka tímaskráningu flýtiflipi og smella á Virkja á skráningarstöðvum.</span><span class="sxs-lookup"><span data-stu-id="b7dae-121">Expand the Time registration FastTab and click Activate on registration terminals.</span></span>
-7. <span data-ttu-id="b7dae-122">Smella á Virkja á skráningarstöðvum.</span><span class="sxs-lookup"><span data-stu-id="b7dae-122">Click Activate on registration terminals.</span></span>
-8. <span data-ttu-id="b7dae-123">Í reitinn reikniflokkur skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="b7dae-123">In the Calculation group field, enter or select a value.</span></span>
-9. <span data-ttu-id="b7dae-124">Færa inn eða veljið gildi í reitnum Sjálfgefinn reikniflokkur.</span><span class="sxs-lookup"><span data-stu-id="b7dae-124">In the Default calculation group field, enter or select a value.</span></span>
-10. <span data-ttu-id="b7dae-125">Í reitinn samþykkisflokkur skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="b7dae-125">In the Approval group field, enter or select a value.</span></span>
-11. <span data-ttu-id="b7dae-126">Færa inn eða veljið gildi í reit fyrir staðlaða forstillingu</span><span class="sxs-lookup"><span data-stu-id="b7dae-126">In the Standard profile field, enter or select a value.</span></span>
-12. <span data-ttu-id="b7dae-127">Færa inn eða veljið gildi í svæðinu forstillingarflokkur.</span><span class="sxs-lookup"><span data-stu-id="b7dae-127">In the Profile group field, enter or select a value.</span></span>
-13. <span data-ttu-id="b7dae-128">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="b7dae-128">Click OK.</span></span>
-14. <span data-ttu-id="b7dae-129">Smella á Breyta til að færa inn númer korti fyrir nýja starfsmaður sem sinnir tímaskráningu.</span><span class="sxs-lookup"><span data-stu-id="b7dae-129">Click Edit to enter a badge number for the new time registration worker.</span></span>
-15. <span data-ttu-id="b7dae-130">Færa inn gildi í svæðið Kenni korts.</span><span class="sxs-lookup"><span data-stu-id="b7dae-130">In the Badge ID field, type a value.</span></span>
-16. <span data-ttu-id="b7dae-131">Smelltu á Vista.</span><span class="sxs-lookup"><span data-stu-id="b7dae-131">Click Save.</span></span>
-17. <span data-ttu-id="b7dae-132">Notaðu flýtileiðina SaveRecord (vista skrá)</span><span class="sxs-lookup"><span data-stu-id="b7dae-132">Use the SaveRecord shortcut.</span></span>
-18. <span data-ttu-id="b7dae-133">Loka upplýsingasíðunni starfsmanns.</span><span class="sxs-lookup"><span data-stu-id="b7dae-133">Close the worker details page.</span></span>
-19. <span data-ttu-id="b7dae-134">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="b7dae-134">Close the page.</span></span>
+1. <span data-ttu-id="7e993-107">Farðu í **Skoðunarrúðu > Kerfiseiningar > Kerfisstjórnun > Notendur > Notendur**.</span><span class="sxs-lookup"><span data-stu-id="7e993-107">Go to **Navigation pane > Modules > System administration > Users > Users**.</span></span>
+2. <span data-ttu-id="7e993-108">Leitaðu að notanda í hraðsíunni.</span><span class="sxs-lookup"><span data-stu-id="7e993-108">Search for a user in the quick filter.</span></span> <span data-ttu-id="7e993-109">Í þessu dæmi skal færa inn `shannon`.</span><span class="sxs-lookup"><span data-stu-id="7e993-109">For this example, enter `shannon`.</span></span>
+3. <span data-ttu-id="7e993-110">Veldu tengilinn í **notandanafn** dálkur notendareikningsins sem birtist.</span><span class="sxs-lookup"><span data-stu-id="7e993-110">Select the link in the **User ID** column of the user account that appears.</span></span>
+4. <span data-ttu-id="7e993-111">Í trénu **Notendahlutverk** velurðu **Hlutverk > Starfsmaður á vél**.</span><span class="sxs-lookup"><span data-stu-id="7e993-111">In the **User's roles** tree, select **Roles > Machine operator**.</span></span>
+5. <span data-ttu-id="7e993-112">Lokaðu **upplýsingar um notendur** og **notendur** síður til að fara aftur á heimasíðuna.</span><span class="sxs-lookup"><span data-stu-id="7e993-112">Close the **user details** and **users** pages to return to the home page.</span></span>
 
-## <a name="assign-worker-to-device-group"></a><span data-ttu-id="b7dae-135">Úthluta starfsmanns á tækjaflokk.</span><span class="sxs-lookup"><span data-stu-id="b7dae-135">Assign worker to device group.</span></span>
-1. <span data-ttu-id="b7dae-136">Fara í Framleiðslustýringar > Uppsetning > Framkvæmd framleiðslu > Skilgreina verkspjald fyrir tæki.</span><span class="sxs-lookup"><span data-stu-id="b7dae-136">Go to Production control > Setup > Manufacturing execution > Configure job card for devices.</span></span>
-2. <span data-ttu-id="b7dae-137">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="b7dae-137">Click Add.</span></span>
-3. <span data-ttu-id="b7dae-138">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="b7dae-138">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="b7dae-139">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="b7dae-139">Click OK.</span></span>
-5. <span data-ttu-id="b7dae-140">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="b7dae-140">Click Edit.</span></span>
-6. <span data-ttu-id="b7dae-141">Í svæðið eining Framleiðslu er hægt að setja síu sjálfgefið fyrir starfsmann.</span><span class="sxs-lookup"><span data-stu-id="b7dae-141">In the Production unit field, you can set the default filter for the worker.</span></span> <span data-ttu-id="b7dae-142">Þetta mun tryggja að eingöngu vinnslur fyrir valda framleiðslueiningu eru birtar þegar starfsmaður skráir sig inn á tækinu.</span><span class="sxs-lookup"><span data-stu-id="b7dae-142">This will ensure that only production jobs for the selected production unit are shown when the worker logs on to the device.</span></span>
-7. <span data-ttu-id="b7dae-143">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="b7dae-143">Close the page.</span></span>
+## <a name="configure-worker-account"></a><span data-ttu-id="7e993-113">Skilgreina notandareikning starfkrafts</span><span class="sxs-lookup"><span data-stu-id="7e993-113">Configure worker account</span></span>
+1. <span data-ttu-id="7e993-114">Fara til **Skoðunargluggi > Kerfiseiningar > Mannauður > Starfskraftar > Starfskraftar**.</span><span class="sxs-lookup"><span data-stu-id="7e993-114">Go to **Navigation pane > Modules > Human resources > Workers > Workers**.</span></span>
+2. <span data-ttu-id="7e993-115">Leitaðu að notanda í hraðsíunni.</span><span class="sxs-lookup"><span data-stu-id="7e993-115">Search for a user in the quick filter.</span></span> <span data-ttu-id="7e993-116">Í þessu dæmi skal færa inn `shannon`.</span><span class="sxs-lookup"><span data-stu-id="7e993-116">For this example, enter `shannon`.</span></span>
+3. <span data-ttu-id="7e993-117">Veldu tengilinn í **Heiti** dálkur notendareikningsins sem birtist.</span><span class="sxs-lookup"><span data-stu-id="7e993-117">Select the link in the **Name** column of the user account that appears.</span></span>
+4. <span data-ttu-id="7e993-118">Veldu flipann **Tímaskráning**.</span><span class="sxs-lookup"><span data-stu-id="7e993-118">Select the **Time registration** tab.</span></span>
+5. <span data-ttu-id="7e993-119">Veldu **Virkja á skráningarstöðvum**.</span><span class="sxs-lookup"><span data-stu-id="7e993-119">Select **Activate on registration terminals**.</span></span>
+6. <span data-ttu-id="7e993-120">Færðu inn eða veldu gildi í eftirfarandi svæði:</span><span class="sxs-lookup"><span data-stu-id="7e993-120">Enter or select values in the following fields:</span></span>  
+
+    - <span data-ttu-id="7e993-121">**Reikniflokkur**</span><span class="sxs-lookup"><span data-stu-id="7e993-121">**Calculation group**</span></span>  
+    - <span data-ttu-id="7e993-122">**Sjálfgefinn útreikningaflokkur**</span><span class="sxs-lookup"><span data-stu-id="7e993-122">**Default calculation group**</span></span>  
+    - <span data-ttu-id="7e993-123">**Samþykkisflokkur**</span><span class="sxs-lookup"><span data-stu-id="7e993-123">**Approval group**</span></span>  
+    - <span data-ttu-id="7e993-124">**Stöðluð forstilling**</span><span class="sxs-lookup"><span data-stu-id="7e993-124">**Standard profile**</span></span>  
+    - <span data-ttu-id="7e993-125">**Forstillingarflokkur**</span><span class="sxs-lookup"><span data-stu-id="7e993-125">**Profile group**</span></span>  
+
+7. <span data-ttu-id="7e993-126">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="7e993-126">Select **OK**.</span></span>
+8. <span data-ttu-id="7e993-127">Veldu **Breyta** til að færa inn númer korti fyrir nýja starfsmaður sem sinnir tímaskráningu.</span><span class="sxs-lookup"><span data-stu-id="7e993-127">Select **Edit** to enter a badge number for the new time registration worker.</span></span> <span data-ttu-id="7e993-128">Færðu inn gildi í reitnum **Kortkenni**.</span><span class="sxs-lookup"><span data-stu-id="7e993-128">Enter a value in the **Badge ID** field.</span></span>
+9. <span data-ttu-id="7e993-129">Veljið **Vista**.</span><span class="sxs-lookup"><span data-stu-id="7e993-129">Select **Save**.</span></span>
+10. <span data-ttu-id="7e993-130">Lokaðu **Upplýsingar um starfsmann** og **Verkamenn**.</span><span class="sxs-lookup"><span data-stu-id="7e993-130">Close the **Worker details** and **Workers** pages.</span></span>
+
+## <a name="assign-worker-to-device-group"></a><span data-ttu-id="7e993-131">Úthluta starfskrafti á tækjaflokk.</span><span class="sxs-lookup"><span data-stu-id="7e993-131">Assign worker to device group</span></span>
+1. <span data-ttu-id="7e993-132">Fara í **Framleiðslustýringar > Uppsetning > Framkvæmd framleiðslu > Skilgreina verkspjald fyrir tæki**.</span><span class="sxs-lookup"><span data-stu-id="7e993-132">Go to **Production control > Setup > Manufacturing execution > Configure job card for devices**.</span></span>
+2. <span data-ttu-id="7e993-133">Veljið **Bæta við**.</span><span class="sxs-lookup"><span data-stu-id="7e993-133">Select **Add**.</span></span>
+3. <span data-ttu-id="7e993-134">Á listanum, skal velja viðeigandi strafskraft.</span><span class="sxs-lookup"><span data-stu-id="7e993-134">In the list, select the desired worker.</span></span> <span data-ttu-id="7e993-135">Í þessu dæmi, velja **SHANNON**.</span><span class="sxs-lookup"><span data-stu-id="7e993-135">For this example, select **SHANNON**.</span></span>
+4. <span data-ttu-id="7e993-136">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="7e993-136">Select **OK**.</span></span>
+5. <span data-ttu-id="7e993-137">Veljið **Breyta**.</span><span class="sxs-lookup"><span data-stu-id="7e993-137">Select **Edit**.</span></span>
+6. <span data-ttu-id="7e993-138">Í svæðið **eining Framleiðslu** er hægt að setja síu sjálfgefið fyrir starfsmann.</span><span class="sxs-lookup"><span data-stu-id="7e993-138">In the **Production unit** field, you can set the default filter for the worker.</span></span> <span data-ttu-id="7e993-139">Þetta mun tryggja að eingöngu vinnslur fyrir valda framleiðslueiningu eru birtar þegar starfsmaður skráir sig inn á tækinu.</span><span class="sxs-lookup"><span data-stu-id="7e993-139">This will ensure that only production jobs for the selected production unit are shown when the worker logs on to the device.</span></span> <span data-ttu-id="7e993-140">Færa inn æskilegt gildi.</span><span class="sxs-lookup"><span data-stu-id="7e993-140">Enter the desired value.</span></span>
+7. <span data-ttu-id="7e993-141">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="7e993-141">Close the page.</span></span>
 

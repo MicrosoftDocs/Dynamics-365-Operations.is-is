@@ -10,68 +10,68 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCRHoldCodeTable, SalesTableListPage, SalesCreateOrder, SalesTable, MCRHoldCodeTrans
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ad19ff166c15748b7bbb4b82ef71dbf3e1e8ebd2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 00ce4a31c0b0f466911658c79f6e32788273c127
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563866"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834003"
 ---
-# <a name="manage-order-holds"></a><span data-ttu-id="fd524-103">Stjórna pöntunum í bið</span><span class="sxs-lookup"><span data-stu-id="fd524-103">Manage order holds</span></span>
+# <a name="manage-order-holds"></a><span data-ttu-id="4dda4-103">Stjórna pöntunum í bið</span><span class="sxs-lookup"><span data-stu-id="4dda4-103">Manage order holds</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="fd524-104">Þetta ferli sýnir hvernig setja sölupantanir viðskiptavina í bið, hvernig vinna með biðstöðu greiðsluferlis og hvernig fjarlægja bið af pöntun.</span><span class="sxs-lookup"><span data-stu-id="fd524-104">This procedure demonstrates how to place customer sales orders on hold, how to work with order hold checkouts, and how to remove order holds.</span></span> <span data-ttu-id="fd524-105">Pöntun kann að vera sett í bið af ýmsum ástæðum.</span><span class="sxs-lookup"><span data-stu-id="fd524-105">An order might be placed on hold for a variety of reasons.</span></span> <span data-ttu-id="fd524-106">Til dæmis gætirðu verið með pöntun í bið þar til hægt er að staðfesta aðsetur  viðskiptavinar eða greiðsluhætti eða þar til stjórnandinn getur farið yfir lánamark viðskiptavinar.</span><span class="sxs-lookup"><span data-stu-id="fd524-106">For example, you might hold an order until a customer address or payment method can be verified or until a manager can review the customer’s credit limit.</span></span> <span data-ttu-id="fd524-107">Þegar pöntun er í bið er ekki hægt að vinna af vörugeymslu til afhendingar.</span><span class="sxs-lookup"><span data-stu-id="fd524-107">While the order on hold, it cannot be processed by the warehouse for shipping.</span></span> 
+<span data-ttu-id="4dda4-104">Þetta ferli sýnir hvernig setja sölupantanir viðskiptavina í bið, hvernig vinna með biðstöðu greiðsluferlis og hvernig fjarlægja bið af pöntun.</span><span class="sxs-lookup"><span data-stu-id="4dda4-104">This procedure demonstrates how to place customer sales orders on hold, how to work with order hold checkouts, and how to remove order holds.</span></span> <span data-ttu-id="4dda4-105">Pöntun kann að vera sett í bið af ýmsum ástæðum.</span><span class="sxs-lookup"><span data-stu-id="4dda4-105">An order might be placed on hold for a variety of reasons.</span></span> <span data-ttu-id="4dda4-106">Til dæmis gætirðu verið með pöntun í bið þar til hægt er að staðfesta aðsetur viðskiptavinar eða greiðsluhætti eða þar til stjórnandinn getur farið yfir lánamark viðskiptavinar.</span><span class="sxs-lookup"><span data-stu-id="4dda4-106">For example, you might hold an order until a customer address or payment method can be verified or until a manager can review the customer’s credit limit.</span></span> <span data-ttu-id="4dda4-107">Þegar pöntun er í bið er ekki hægt að vinna af vörugeymslu til afhendingar.</span><span class="sxs-lookup"><span data-stu-id="4dda4-107">While the order on hold, it cannot be processed by the warehouse for shipping.</span></span> 
 
-<span data-ttu-id="fd524-108">Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.</span><span class="sxs-lookup"><span data-stu-id="fd524-108">You can run this procedure in demo data company USMF or on your own data.</span></span>
+<span data-ttu-id="4dda4-108">Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.</span><span class="sxs-lookup"><span data-stu-id="4dda4-108">You can run this procedure in demo data company USMF or on your own data.</span></span>
 
 
-## <a name="set-up-order-holds"></a><span data-ttu-id="fd524-109">Setja upp biðstöðu pöntunar</span><span class="sxs-lookup"><span data-stu-id="fd524-109">Set up order holds</span></span>
-1. <span data-ttu-id="fd524-110">Fara í Sala og markaðssetning > Uppsetning > Sölupantanir > Biðkóðar pantana.</span><span class="sxs-lookup"><span data-stu-id="fd524-110">Go to Sales and marketing > Setup > Sales orders > Order hold codes.</span></span>
-2. <span data-ttu-id="fd524-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="fd524-111">Click New.</span></span>
-3. <span data-ttu-id="fd524-112">Í svæði Biðkóði skal færa inn gildi.</span><span class="sxs-lookup"><span data-stu-id="fd524-112">In the Hold code field, type a value.</span></span>
-    * <span data-ttu-id="fd524-113">Til dæmis, skrifið Hringja aftur.</span><span class="sxs-lookup"><span data-stu-id="fd524-113">For example, type Call back.</span></span>  
-4. <span data-ttu-id="fd524-114">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="fd524-114">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="fd524-115">Til dæmis, Pöntun haldið í bið eftir símtal frá viðskiptavinur.</span><span class="sxs-lookup"><span data-stu-id="fd524-115">For example, Order held waiting for customer callback.</span></span>  
-    * <span data-ttu-id="fd524-116">Annars er hægt að velja gátreitur Fjarlægja frátekningu til að fjarlægja allar efnislegur frátekning úr pöntun þegar biðkóði er bætti við.</span><span class="sxs-lookup"><span data-stu-id="fd524-116">Optionally, select the Remove reservations check box to remove any physical reservations from the order when this hold code is added.</span></span>  
-5. <span data-ttu-id="fd524-117">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="fd524-117">Click Save.</span></span>
+## <a name="set-up-order-holds"></a><span data-ttu-id="4dda4-109">Setja upp biðstöðu pöntunar</span><span class="sxs-lookup"><span data-stu-id="4dda4-109">Set up order holds</span></span>
+1. <span data-ttu-id="4dda4-110">Fara í Sala og markaðssetning > Uppsetning > Sölupantanir > Biðkóðar pantana.</span><span class="sxs-lookup"><span data-stu-id="4dda4-110">Go to Sales and marketing > Setup > Sales orders > Order hold codes.</span></span>
+2. <span data-ttu-id="4dda4-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="4dda4-111">Click New.</span></span>
+3. <span data-ttu-id="4dda4-112">Í svæði Biðkóði skal færa inn gildi.</span><span class="sxs-lookup"><span data-stu-id="4dda4-112">In the Hold code field, type a value.</span></span>
+    * <span data-ttu-id="4dda4-113">Til dæmis, skrifið Hringja aftur.</span><span class="sxs-lookup"><span data-stu-id="4dda4-113">For example, type Call back.</span></span>  
+4. <span data-ttu-id="4dda4-114">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="4dda4-114">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="4dda4-115">Til dæmis, Pöntun haldið í bið eftir símtal frá viðskiptavinur.</span><span class="sxs-lookup"><span data-stu-id="4dda4-115">For example, Order held waiting for customer callback.</span></span>  
+    * <span data-ttu-id="4dda4-116">Annars er hægt að velja gátreitur Fjarlægja frátekningu til að fjarlægja allar efnislegur frátekning úr pöntun þegar biðkóði er bætti við.</span><span class="sxs-lookup"><span data-stu-id="4dda4-116">Optionally, select the Remove reservations check box to remove any physical reservations from the order when this hold code is added.</span></span>  
+5. <span data-ttu-id="4dda4-117">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="4dda4-117">Click Save.</span></span>
 
-## <a name="place-order-on-hold"></a><span data-ttu-id="fd524-118">Setja pöntun í bið</span><span class="sxs-lookup"><span data-stu-id="fd524-118">Place order on hold</span></span>
-1. <span data-ttu-id="fd524-119">Fara í Sölu og markaðssetningu > sölupöntun > Allar sölupantanir</span><span class="sxs-lookup"><span data-stu-id="fd524-119">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
-2. <span data-ttu-id="fd524-120">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="fd524-120">Click New.</span></span>
-3. <span data-ttu-id="fd524-121">Færa inn eða veljið gildi í svæðinu Reikningur viðskiptavinar.</span><span class="sxs-lookup"><span data-stu-id="fd524-121">In the Customer account field, enter or select a value.</span></span>
-4. <span data-ttu-id="fd524-122">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="fd524-122">Click OK.</span></span>
-5. <span data-ttu-id="fd524-123">Í reitinn Vörunúmer skal slá inn eða veldu gildi.</span><span class="sxs-lookup"><span data-stu-id="fd524-123">In the Item number field, enter or select a value.</span></span>
-6. <span data-ttu-id="fd524-124">Færið inn númer í reitnum „Magn“.</span><span class="sxs-lookup"><span data-stu-id="fd524-124">In the Quantity field, enter a number.</span></span>
-7. <span data-ttu-id="fd524-125">Smellið á „Sölupöntun“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="fd524-125">On the Action Pane, click Sales order.</span></span>
-8. <span data-ttu-id="fd524-126">Smellt er á Biðstöður pantana.</span><span class="sxs-lookup"><span data-stu-id="fd524-126">Click Order holds.</span></span>
-9. <span data-ttu-id="fd524-127">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="fd524-127">Click New.</span></span>
-10. <span data-ttu-id="fd524-128">Í svæði Biðkóði skal velja kóða sem stofnaður í fyrra undirverk.</span><span class="sxs-lookup"><span data-stu-id="fd524-128">In the Hold code field, select the code you have created in the previous subtask.</span></span>
-11. <span data-ttu-id="fd524-129">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="fd524-129">Click Save.</span></span>
-12. <span data-ttu-id="fd524-130">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="fd524-130">Close the page.</span></span>
-13. <span data-ttu-id="fd524-131">Fara í Sölu og markaðssetningu > sölupöntun > Allar sölupantanir</span><span class="sxs-lookup"><span data-stu-id="fd524-131">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
-14. <span data-ttu-id="fd524-132">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="fd524-132">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="fd524-133">Pantanir sem núna í bið eru með merkt svæði „Ekki keyra“ og „Í biðstöðu“.</span><span class="sxs-lookup"><span data-stu-id="fd524-133">Orders that are currently on hold have the "Do not process" and "Hold" fields marked.</span></span>    
-15. <span data-ttu-id="fd524-134">Smellið á „Tiltekt og pökkun“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="fd524-134">On the Action Pane, click Pick and pack.</span></span>
+## <a name="place-order-on-hold"></a><span data-ttu-id="4dda4-118">Setja pöntun í bið</span><span class="sxs-lookup"><span data-stu-id="4dda4-118">Place order on hold</span></span>
+1. <span data-ttu-id="4dda4-119">Fara í Sölu og markaðssetningu > sölupöntun > Allar sölupantanir</span><span class="sxs-lookup"><span data-stu-id="4dda4-119">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+2. <span data-ttu-id="4dda4-120">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="4dda4-120">Click New.</span></span>
+3. <span data-ttu-id="4dda4-121">Færa inn eða veljið gildi í svæðinu Reikningur viðskiptavinar.</span><span class="sxs-lookup"><span data-stu-id="4dda4-121">In the Customer account field, enter or select a value.</span></span>
+4. <span data-ttu-id="4dda4-122">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="4dda4-122">Click OK.</span></span>
+5. <span data-ttu-id="4dda4-123">Í reitinn Vörunúmer skal slá inn eða veldu gildi.</span><span class="sxs-lookup"><span data-stu-id="4dda4-123">In the Item number field, enter or select a value.</span></span>
+6. <span data-ttu-id="4dda4-124">Færið inn númer í reitnum „Magn“.</span><span class="sxs-lookup"><span data-stu-id="4dda4-124">In the Quantity field, enter a number.</span></span>
+7. <span data-ttu-id="4dda4-125">Smellið á „Sölupöntun“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="4dda4-125">On the Action Pane, click Sales order.</span></span>
+8. <span data-ttu-id="4dda4-126">Smellt er á Biðstöður pantana.</span><span class="sxs-lookup"><span data-stu-id="4dda4-126">Click Order holds.</span></span>
+9. <span data-ttu-id="4dda4-127">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="4dda4-127">Click New.</span></span>
+10. <span data-ttu-id="4dda4-128">Í svæði Biðkóði skal velja kóða sem stofnaður í fyrra undirverk.</span><span class="sxs-lookup"><span data-stu-id="4dda4-128">In the Hold code field, select the code you have created in the previous subtask.</span></span>
+11. <span data-ttu-id="4dda4-129">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="4dda4-129">Click Save.</span></span>
+12. <span data-ttu-id="4dda4-130">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="4dda4-130">Close the page.</span></span>
+13. <span data-ttu-id="4dda4-131">Fara í Sölu og markaðssetningu > sölupöntun > Allar sölupantanir</span><span class="sxs-lookup"><span data-stu-id="4dda4-131">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+14. <span data-ttu-id="4dda4-132">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="4dda4-132">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="4dda4-133">Pantanir sem núna í bið eru með merkt svæði „Ekki keyra“ og „Í biðstöðu“.</span><span class="sxs-lookup"><span data-stu-id="4dda4-133">Orders that are currently on hold have the "Do not process" and "Hold" fields marked.</span></span>    
+15. <span data-ttu-id="4dda4-134">Smellið á „Tiltekt og pökkun“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="4dda4-134">On the Action Pane, click Pick and pack.</span></span>
 
-## <a name="manage-order-holds"></a><span data-ttu-id="fd524-135">Stjórna pöntunum í bið</span><span class="sxs-lookup"><span data-stu-id="fd524-135">Manage order holds</span></span>
-1. <span data-ttu-id="fd524-136">Fara í Sala og markaðssetning > Sölupöntun > Opnar pantanir > Pantanir í bið.</span><span class="sxs-lookup"><span data-stu-id="fd524-136">Go to Sales and marketing > Sales orders > Open orders > Order holds.</span></span>
-    * <span data-ttu-id="fd524-137">Síðan Pantanir í bið virkar sem vinnubekkur þar sem fá yfirlit yfir allar núgildandi og unnar biðstöður, vinna með þær og tengdar sölupantanir.</span><span class="sxs-lookup"><span data-stu-id="fd524-137">Order holds page functions as a workbench where you can get an overview of all the current and processed holds, and handle them and associated sales orders.</span></span>      
-2. <span data-ttu-id="fd524-138">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="fd524-138">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="fd524-139">Á aðgerðarúða skal smella á Setja greiðsluferli í bið.</span><span class="sxs-lookup"><span data-stu-id="fd524-139">On the Action Pane, click Hold checkout.</span></span>
-4. <span data-ttu-id="fd524-140">Smella skal á Greiðsluferli.</span><span class="sxs-lookup"><span data-stu-id="fd524-140">Click Check out.</span></span>
-5. <span data-ttu-id="fd524-141">Í listanum skal afmerkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="fd524-141">In the list, unmark the selected row.</span></span>
-    * <span data-ttu-id="fd524-142">Svæði Greiðsluferli í birtir núna notandakenni þitt.</span><span class="sxs-lookup"><span data-stu-id="fd524-142">The Checkout out to field now shows your user ID.</span></span>   
-6. <span data-ttu-id="fd524-143">Smella á Hreinsa greiðsluferli.</span><span class="sxs-lookup"><span data-stu-id="fd524-143">Click Clear checkout.</span></span>
-7. <span data-ttu-id="fd524-144">Í að smella á Hreinsa biðstöðu.</span><span class="sxs-lookup"><span data-stu-id="fd524-144">On the Action Pane, click Clear hold.</span></span>
-    * <span data-ttu-id="fd524-145">Þegar þú tilbúið að fjarlægja í bið og leyfa pöntun halda áfram í næsta útskráningarskref verður að hreinsa í bið.</span><span class="sxs-lookup"><span data-stu-id="fd524-145">When you are ready to remove the hold and allow the order to proceed to the next fulfilment step, you must clear the hold.</span></span> <span data-ttu-id="fd524-146">Ef ekki þarf að breyta pöntun má keyra aðgerð Hreinsa bið.</span><span class="sxs-lookup"><span data-stu-id="fd524-146">If the order requires no changes, you can run the Clear holds action.</span></span> <span data-ttu-id="fd524-147">Þegar bið er hreinsa er hægt að nota aðgerð Hreinsa og breyta ef uppfæra þarf pöntun.</span><span class="sxs-lookup"><span data-stu-id="fd524-147">However, you can use the Clear and modify action if, when clearing a hold, the order has to be updated.</span></span>      
-    * <span data-ttu-id="fd524-148">Aðgerðin Hreinsa og senda á aðeins við þegar aðgerðin Símaver er notað.</span><span class="sxs-lookup"><span data-stu-id="fd524-148">The Clear and submit action is only applicable when you use Call center functionality.</span></span>  
-8. <span data-ttu-id="fd524-149">Smella á Hreinsa biðstöðu.</span><span class="sxs-lookup"><span data-stu-id="fd524-149">Click Clear holds.</span></span>
-    * <span data-ttu-id="fd524-150">Biðstaða hefur verið fjarlægja af pöntun og fjarlægt af lista yfir virkar biðstöður.</span><span class="sxs-lookup"><span data-stu-id="fd524-150">The hold has now been cleared from the order and removed from the list of Active holds.</span></span> <span data-ttu-id="fd524-151">Til að sjá allar biðstöður eða hlutmengi þeirra samkvæmt tiltekinni stöðu skal breyta gildi í svæði Sýna.</span><span class="sxs-lookup"><span data-stu-id="fd524-151">To see all the holds or their subset according to a specific status, change the value in the Show field.</span></span>     
+## <a name="manage-order-holds"></a><span data-ttu-id="4dda4-135">Stjórna pöntunum í bið</span><span class="sxs-lookup"><span data-stu-id="4dda4-135">Manage order holds</span></span>
+1. <span data-ttu-id="4dda4-136">Fara í Sala og markaðssetning > Sölupöntun > Opnar pantanir > Pantanir í bið.</span><span class="sxs-lookup"><span data-stu-id="4dda4-136">Go to Sales and marketing > Sales orders > Open orders > Order holds.</span></span>
+    * <span data-ttu-id="4dda4-137">Síðan Pantanir í bið virkar sem vinnubekkur þar sem fá yfirlit yfir allar núgildandi og unnar biðstöður, vinna með þær og tengdar sölupantanir.</span><span class="sxs-lookup"><span data-stu-id="4dda4-137">Order holds page functions as a workbench where you can get an overview of all the current and processed holds, and handle them and associated sales orders.</span></span>      
+2. <span data-ttu-id="4dda4-138">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="4dda4-138">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="4dda4-139">Á aðgerðarúða skal smella á Setja greiðsluferli í bið.</span><span class="sxs-lookup"><span data-stu-id="4dda4-139">On the Action Pane, click Hold checkout.</span></span>
+4. <span data-ttu-id="4dda4-140">Smella skal á Greiðsluferli.</span><span class="sxs-lookup"><span data-stu-id="4dda4-140">Click Check out.</span></span>
+5. <span data-ttu-id="4dda4-141">Í listanum skal afmerkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="4dda4-141">In the list, unmark the selected row.</span></span>
+    * <span data-ttu-id="4dda4-142">Svæði Greiðsluferli í birtir núna notandakenni þitt.</span><span class="sxs-lookup"><span data-stu-id="4dda4-142">The Checkout out to field now shows your user ID.</span></span>   
+6. <span data-ttu-id="4dda4-143">Smella á Hreinsa greiðsluferli.</span><span class="sxs-lookup"><span data-stu-id="4dda4-143">Click Clear checkout.</span></span>
+7. <span data-ttu-id="4dda4-144">Í að smella á Hreinsa biðstöðu.</span><span class="sxs-lookup"><span data-stu-id="4dda4-144">On the Action Pane, click Clear hold.</span></span>
+    * <span data-ttu-id="4dda4-145">Þegar þú tilbúið að fjarlægja í bið og leyfa pöntun halda áfram í næsta útskráningarskref verður að hreinsa í bið.</span><span class="sxs-lookup"><span data-stu-id="4dda4-145">When you are ready to remove the hold and allow the order to proceed to the next fulfilment step, you must clear the hold.</span></span> <span data-ttu-id="4dda4-146">Ef ekki þarf að breyta pöntun má keyra aðgerð Hreinsa bið.</span><span class="sxs-lookup"><span data-stu-id="4dda4-146">If the order requires no changes, you can run the Clear holds action.</span></span> <span data-ttu-id="4dda4-147">Þegar bið er hreinsa er hægt að nota aðgerð Hreinsa og breyta ef uppfæra þarf pöntun.</span><span class="sxs-lookup"><span data-stu-id="4dda4-147">However, you can use the Clear and modify action if, when clearing a hold, the order has to be updated.</span></span>      
+    * <span data-ttu-id="4dda4-148">Aðgerðin Hreinsa og senda á aðeins við þegar aðgerðin Símaver er notað.</span><span class="sxs-lookup"><span data-stu-id="4dda4-148">The Clear and submit action is only applicable when you use Call center functionality.</span></span>  
+8. <span data-ttu-id="4dda4-149">Smella á Hreinsa biðstöðu.</span><span class="sxs-lookup"><span data-stu-id="4dda4-149">Click Clear holds.</span></span>
+    * <span data-ttu-id="4dda4-150">Biðstaða hefur verið fjarlægja af pöntun og fjarlægt af lista yfir virkar biðstöður.</span><span class="sxs-lookup"><span data-stu-id="4dda4-150">The hold has now been cleared from the order and removed from the list of Active holds.</span></span> <span data-ttu-id="4dda4-151">Til að sjá allar biðstöður eða hlutmengi þeirra samkvæmt tiltekinni stöðu skal breyta gildi í svæði Sýna.</span><span class="sxs-lookup"><span data-stu-id="4dda4-151">To see all the holds or their subset according to a specific status, change the value in the Show field.</span></span>     
 

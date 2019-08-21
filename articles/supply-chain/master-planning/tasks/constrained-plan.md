@@ -10,53 +10,53 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ReqCreatePlanWorkspace, ReqTransPlanCard, ReqPlanSched
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0e2265f7788fd2a4a37f6fb96d7562649dbc5b1c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 72cddd58b7068e08cddf24df83da8da2f7af7168
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556024"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845296"
 ---
-# <a name="generate-a-constrained-plan"></a><span data-ttu-id="70f4a-103">Mynda áætlun með skorðum</span><span class="sxs-lookup"><span data-stu-id="70f4a-103">Generate a constrained plan</span></span>
+# <a name="generate-a-constrained-plan"></a><span data-ttu-id="180e6-103">Mynda áætlun með skorðum</span><span class="sxs-lookup"><span data-stu-id="180e6-103">Generate a constrained plan</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="70f4a-104">Þessi verklýsing sýnir hvernig á að stofna áætlun sen tekur tillit bæði til efnis- og afkastahamla.</span><span class="sxs-lookup"><span data-stu-id="70f4a-104">This procedure shows how to create a plan that takes into account both material and capacity constraints.</span></span> <span data-ttu-id="70f4a-105">Áætlunin tryggir að framleiðslu hefst ekki fyrr en efni sé tiltækt og tilföng eru ekki yfirbókaður.</span><span class="sxs-lookup"><span data-stu-id="70f4a-105">The plan ensures that manufacturing doesn't start before materials are available and resources are not overbooked.</span></span> 
+<span data-ttu-id="180e6-104">Þessi verklýsing sýnir hvernig á að stofna áætlun sen tekur tillit bæði til efnis- og afkastahamla.</span><span class="sxs-lookup"><span data-stu-id="180e6-104">This procedure shows how to create a plan that takes into account both material and capacity constraints.</span></span> <span data-ttu-id="180e6-105">Áætlunin tryggir að framleiðslu hefst ekki fyrr en efni sé tiltækt og tilföng eru ekki yfirbókaður.</span><span class="sxs-lookup"><span data-stu-id="180e6-105">The plan ensures that manufacturing doesn't start before materials are available and resources are not overbooked.</span></span> 
 
-<span data-ttu-id="70f4a-106">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="70f4a-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="70f4a-107">Þetta ferli er ætluð fyrir framleiðslustjóri</span><span class="sxs-lookup"><span data-stu-id="70f4a-107">This procedure is intended for the production planner.</span></span>
+<span data-ttu-id="180e6-106">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="180e6-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="180e6-107">Þetta ferli er ætluð fyrir framleiðslustjóri</span><span class="sxs-lookup"><span data-stu-id="180e6-107">This procedure is intended for the production planner.</span></span>
 
 
-## <a name="set-up-a-constrained-plan"></a><span data-ttu-id="70f4a-108">Setja upp áætlun með skorðum</span><span class="sxs-lookup"><span data-stu-id="70f4a-108">Set up a constrained plan</span></span>
-1. <span data-ttu-id="70f4a-109">Smellt er á aðaláætlanagerð.</span><span class="sxs-lookup"><span data-stu-id="70f4a-109">Click Master planning.</span></span>
-2. <span data-ttu-id="70f4a-110">Smellt er á aðaláætlanir.</span><span class="sxs-lookup"><span data-stu-id="70f4a-110">Click Master plans.</span></span>
-3. <span data-ttu-id="70f4a-111">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="70f4a-111">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="70f4a-112">Dæmi: StaticPlan</span><span class="sxs-lookup"><span data-stu-id="70f4a-112">Example: StaticPlan</span></span>  
-4. <span data-ttu-id="70f4a-113">Veljið Já í svæðinu takmörkuð Afkastageta.</span><span class="sxs-lookup"><span data-stu-id="70f4a-113">Select Yes in the Finite capacity field.</span></span>
-5. <span data-ttu-id="70f4a-114">Í reitnum Tímamörk takmarkað afkastaveita skal slá inn ‚30‘.</span><span class="sxs-lookup"><span data-stu-id="70f4a-114">In the Finite capacity time fence field, enter '30'.</span></span>
-6. <span data-ttu-id="70f4a-115">Víkka út hlutann tímamörk í dögum.</span><span class="sxs-lookup"><span data-stu-id="70f4a-115">Expand the Time fences in days section.</span></span>
-7. <span data-ttu-id="70f4a-116">Veljið Já í svæðinu Afkastageta.</span><span class="sxs-lookup"><span data-stu-id="70f4a-116">Select Yes in the Capacity field.</span></span>
-8. <span data-ttu-id="70f4a-117">Í reitinn Tímamörk áætlaðrar afkastagetu slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="70f4a-117">In the Capacity scheduling time fence (days) field, enter a number.</span></span>
-    * <span data-ttu-id="70f4a-118">Dæmi: 60</span><span class="sxs-lookup"><span data-stu-id="70f4a-118">Example: 60</span></span>  
-9. <span data-ttu-id="70f4a-119">Veljið Já í Reiknaðar seinkanir reitnum.</span><span class="sxs-lookup"><span data-stu-id="70f4a-119">Select Yes in the Calculated delays field.</span></span>
-10. <span data-ttu-id="70f4a-120">Í reitinn Tímamörk útreiknaðra seinkana (dagar) skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="70f4a-120">In the Calculate delays time fence (days) field, enter a number.</span></span>
-    * <span data-ttu-id="70f4a-121">Dæmi: 60</span><span class="sxs-lookup"><span data-stu-id="70f4a-121">Example: 60</span></span>  
-11. <span data-ttu-id="70f4a-122">Útvíkka hlutann Reiknuð seinkanir.</span><span class="sxs-lookup"><span data-stu-id="70f4a-122">Expand the Calculated delays section.</span></span>
-12. <span data-ttu-id="70f4a-123">Veldu Já í reitnum Bæta við reiknaðri seinkun á dagsetningu þarfa</span><span class="sxs-lookup"><span data-stu-id="70f4a-123">Select Yes in the Add the calculated delay to the requirement date field.</span></span>
-13. <span data-ttu-id="70f4a-124">Veldu Já í reitnum Bæta við reiknaðri seinkun á dagsetningu þarfa</span><span class="sxs-lookup"><span data-stu-id="70f4a-124">Select Yes in the Add the calculated delay to the requirement date field.</span></span>
-14. <span data-ttu-id="70f4a-125">Veldu Já í reitnum Bæta við reiknaðri seinkun á dagsetningu þarfa</span><span class="sxs-lookup"><span data-stu-id="70f4a-125">Select Yes in the Add the calculated delay to the requirement date field.</span></span>
-15. <span data-ttu-id="70f4a-126">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="70f4a-126">Close the page.</span></span>
+## <a name="set-up-a-constrained-plan"></a><span data-ttu-id="180e6-108">Setja upp áætlun með skorðum</span><span class="sxs-lookup"><span data-stu-id="180e6-108">Set up a constrained plan</span></span>
+1. <span data-ttu-id="180e6-109">Smellt er á aðaláætlanagerð.</span><span class="sxs-lookup"><span data-stu-id="180e6-109">Click Master planning.</span></span>
+2. <span data-ttu-id="180e6-110">Smellt er á aðaláætlanir.</span><span class="sxs-lookup"><span data-stu-id="180e6-110">Click Master plans.</span></span>
+3. <span data-ttu-id="180e6-111">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="180e6-111">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="180e6-112">Dæmi: StaticPlan</span><span class="sxs-lookup"><span data-stu-id="180e6-112">Example: StaticPlan</span></span>  
+4. <span data-ttu-id="180e6-113">Veljið Já í svæðinu takmörkuð Afkastageta.</span><span class="sxs-lookup"><span data-stu-id="180e6-113">Select Yes in the Finite capacity field.</span></span>
+5. <span data-ttu-id="180e6-114">Í reitnum Tímamörk takmarkað afkastaveita skal slá inn ‚30‘.</span><span class="sxs-lookup"><span data-stu-id="180e6-114">In the Finite capacity time fence field, enter '30'.</span></span>
+6. <span data-ttu-id="180e6-115">Víkka út hlutann tímamörk í dögum.</span><span class="sxs-lookup"><span data-stu-id="180e6-115">Expand the Time fences in days section.</span></span>
+7. <span data-ttu-id="180e6-116">Veljið Já í svæðinu Afkastageta.</span><span class="sxs-lookup"><span data-stu-id="180e6-116">Select Yes in the Capacity field.</span></span>
+8. <span data-ttu-id="180e6-117">Í reitinn Tímamörk áætlaðrar afkastagetu slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="180e6-117">In the Capacity scheduling time fence (days) field, enter a number.</span></span>
+    * <span data-ttu-id="180e6-118">Dæmi: 60</span><span class="sxs-lookup"><span data-stu-id="180e6-118">Example: 60</span></span>  
+9. <span data-ttu-id="180e6-119">Veljið Já í Reiknaðar seinkanir reitnum.</span><span class="sxs-lookup"><span data-stu-id="180e6-119">Select Yes in the Calculated delays field.</span></span>
+10. <span data-ttu-id="180e6-120">Í reitinn Tímamörk útreiknaðra seinkana (dagar) skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="180e6-120">In the Calculate delays time fence (days) field, enter a number.</span></span>
+    * <span data-ttu-id="180e6-121">Dæmi: 60</span><span class="sxs-lookup"><span data-stu-id="180e6-121">Example: 60</span></span>  
+11. <span data-ttu-id="180e6-122">Útvíkka hlutann Reiknuð seinkanir.</span><span class="sxs-lookup"><span data-stu-id="180e6-122">Expand the Calculated delays section.</span></span>
+12. <span data-ttu-id="180e6-123">Veldu Já í reitnum Bæta við reiknaðri seinkun á dagsetningu þarfa</span><span class="sxs-lookup"><span data-stu-id="180e6-123">Select Yes in the Add the calculated delay to the requirement date field.</span></span>
+13. <span data-ttu-id="180e6-124">Veldu Já í reitnum Bæta við reiknaðri seinkun á dagsetningu þarfa</span><span class="sxs-lookup"><span data-stu-id="180e6-124">Select Yes in the Add the calculated delay to the requirement date field.</span></span>
+14. <span data-ttu-id="180e6-125">Veldu Já í reitnum Bæta við reiknaðri seinkun á dagsetningu þarfa</span><span class="sxs-lookup"><span data-stu-id="180e6-125">Select Yes in the Add the calculated delay to the requirement date field.</span></span>
+15. <span data-ttu-id="180e6-126">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="180e6-126">Close the page.</span></span>
 
-## <a name="create-a-constrained-plan"></a><span data-ttu-id="70f4a-127">Stofna áætlun með skorðum</span><span class="sxs-lookup"><span data-stu-id="70f4a-127">Create a constrained plan</span></span>
-1. <span data-ttu-id="70f4a-128">Smellið á „Keyra“.</span><span class="sxs-lookup"><span data-stu-id="70f4a-128">Click Run.</span></span>
-2. <span data-ttu-id="70f4a-129">Færa inn eða veljið gildi í svæðinu Aðaláætlun.</span><span class="sxs-lookup"><span data-stu-id="70f4a-129">In the Master plan field, enter or select a value.</span></span>
-    * <span data-ttu-id="70f4a-130">Velja áætlunina sem settar voru upp skorður fyrir.</span><span class="sxs-lookup"><span data-stu-id="70f4a-130">Select the plan for which you have set up constraints.</span></span>  
-3. <span data-ttu-id="70f4a-131">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="70f4a-131">Click OK.</span></span>
-    * <span data-ttu-id="70f4a-132">Þetta gæti tekið nokkra stund.</span><span class="sxs-lookup"><span data-stu-id="70f4a-132">This may take a while.</span></span>  
-4. <span data-ttu-id="70f4a-133">Smellt er á Áætlaðar pantanir.</span><span class="sxs-lookup"><span data-stu-id="70f4a-133">Click Planned orders.</span></span>
+## <a name="create-a-constrained-plan"></a><span data-ttu-id="180e6-127">Stofna áætlun með skorðum</span><span class="sxs-lookup"><span data-stu-id="180e6-127">Create a constrained plan</span></span>
+1. <span data-ttu-id="180e6-128">Smellið á „Keyra“.</span><span class="sxs-lookup"><span data-stu-id="180e6-128">Click Run.</span></span>
+2. <span data-ttu-id="180e6-129">Færa inn eða veljið gildi í svæðinu Aðaláætlun.</span><span class="sxs-lookup"><span data-stu-id="180e6-129">In the Master plan field, enter or select a value.</span></span>
+    * <span data-ttu-id="180e6-130">Velja áætlunina sem settar voru upp skorður fyrir.</span><span class="sxs-lookup"><span data-stu-id="180e6-130">Select the plan for which you have set up constraints.</span></span>  
+3. <span data-ttu-id="180e6-131">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="180e6-131">Click OK.</span></span>
+    * <span data-ttu-id="180e6-132">Þetta gæti tekið nokkra stund.</span><span class="sxs-lookup"><span data-stu-id="180e6-132">This may take a while.</span></span>  
+4. <span data-ttu-id="180e6-133">Smellt er á Áætlaðar pantanir.</span><span class="sxs-lookup"><span data-stu-id="180e6-133">Click Planned orders.</span></span>
 

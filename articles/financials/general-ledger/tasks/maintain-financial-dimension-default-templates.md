@@ -10,36 +10,36 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialDimensionDefaultTemplates, DimensionLookup
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 374c162fce2bc9ff5006737ac31fcb3d436fd540
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 27ce6df8ad4bc359f2cbf802f83149bc6966321a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553162"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846436"
 ---
-# <a name="maintain-financial-dimension-default-templates"></a><span data-ttu-id="94857-103">Viðhalda sjálfgefnum sniðmátum fjárhagsvídda</span><span class="sxs-lookup"><span data-stu-id="94857-103">Maintain financial dimension default templates</span></span>
+# <a name="maintain-financial-dimension-default-templates"></a><span data-ttu-id="4c765-103">Viðhalda sjálfgefnum sniðmátum fjárhagsvídda</span><span class="sxs-lookup"><span data-stu-id="4c765-103">Maintain financial dimension default templates</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="94857-104">Þessi verklýsing sýnir hvernig á að setja upp sjálfgefin sniðmát fjárhagsvídda.</span><span class="sxs-lookup"><span data-stu-id="94857-104">This procedure shows how to set up financial dimension default templates.</span></span> <span data-ttu-id="94857-105">Hægt er að nota sniðmát til að dreifa upphæðum á upprunaskjöl á fljótlegan hátt.</span><span class="sxs-lookup"><span data-stu-id="94857-105">The templates can be used to quickly distribute amounts on source documents.</span></span>
+<span data-ttu-id="4c765-104">Þessi verklýsing sýnir hvernig á að setja upp sjálfgefin sniðmát fjárhagsvídda.</span><span class="sxs-lookup"><span data-stu-id="4c765-104">This procedure shows how to set up financial dimension default templates.</span></span> <span data-ttu-id="4c765-105">Hægt er að nota sniðmát til að dreifa upphæðum á upprunaskjöl á fljótlegan hátt.</span><span class="sxs-lookup"><span data-stu-id="4c765-105">The templates can be used to quickly distribute amounts on source documents.</span></span>
 
-1. <span data-ttu-id="94857-106">Fara í Fjárhag > Bókhaldslyklar > Víddir > Sjálfgefin sniðmát fjárhagsvídda.</span><span class="sxs-lookup"><span data-stu-id="94857-106">Go to General ledger > Chart of accounts > Dimensions > Financial dimension default templates.</span></span>
-2. <span data-ttu-id="94857-107">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="94857-107">Click New.</span></span>
-3. <span data-ttu-id="94857-108">Færið inn sniðmátskenni í svæðinu sniðmátskenni.</span><span class="sxs-lookup"><span data-stu-id="94857-108">In the Template ID field, enter a Template ID..</span></span>
-4. <span data-ttu-id="94857-109">Færa inn prósentu fyrir fyrstu víddargildin.</span><span class="sxs-lookup"><span data-stu-id="94857-109">Enter the percentage for the first dimension values.</span></span>
-5. <span data-ttu-id="94857-110">Færa inn fjárhagsvíddargildi sem samsvara innfærðu hlutfalli.</span><span class="sxs-lookup"><span data-stu-id="94857-110">Enter the financial dimension values that correspond to the percent entered.</span></span>
-6. <span data-ttu-id="94857-111">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="94857-111">Click Add.</span></span>
-7. <span data-ttu-id="94857-112">Færa inn aðra prósentu fyrir næstu víddargildi.</span><span class="sxs-lookup"><span data-stu-id="94857-112">Enter another percent for the next dimension values.</span></span>
-    * <span data-ttu-id="94857-113">Í þessu dæmi skal færa inn prósentu svo þú sért enn með lægra en 100% úthlutað.</span><span class="sxs-lookup"><span data-stu-id="94857-113">For this example, enter a percentage so you still have less than 100% allocated.</span></span>  
-8. <span data-ttu-id="94857-114">Færa inn fjárhagsvíddargildi sem samsvara innfærðu hlutfalli.</span><span class="sxs-lookup"><span data-stu-id="94857-114">Enter the financial dimension values that correspond to the percent entered.</span></span>
-9. <span data-ttu-id="94857-115">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="94857-115">Click Add.</span></span>
-10. <span data-ttu-id="94857-116">Færið inn aðra prósentu sem munu gera heildarprósenta jafnt og 100%.</span><span class="sxs-lookup"><span data-stu-id="94857-116">Enter another percent, which will make the total percent equal to 100%.</span></span>
-11. <span data-ttu-id="94857-117">Færa inn fjárhagsvíddargildi sem samsvara innfærðu hlutfalli.</span><span class="sxs-lookup"><span data-stu-id="94857-117">Enter the financial dimension values that correspond to the percent entered.</span></span>
-12. <span data-ttu-id="94857-118">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="94857-118">Click Save.</span></span>
+1. <span data-ttu-id="4c765-106">Fara í Fjárhag > Bókhaldslyklar > Víddir > Sjálfgefin sniðmát fjárhagsvídda.</span><span class="sxs-lookup"><span data-stu-id="4c765-106">Go to General ledger > Chart of accounts > Dimensions > Financial dimension default templates.</span></span>
+2. <span data-ttu-id="4c765-107">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="4c765-107">Click New.</span></span>
+3. <span data-ttu-id="4c765-108">Færið inn sniðmátskenni í svæðinu sniðmátskenni.</span><span class="sxs-lookup"><span data-stu-id="4c765-108">In the Template ID field, enter a Template ID..</span></span>
+4. <span data-ttu-id="4c765-109">Færa inn prósentu fyrir fyrstu víddargildin.</span><span class="sxs-lookup"><span data-stu-id="4c765-109">Enter the percentage for the first dimension values.</span></span>
+5. <span data-ttu-id="4c765-110">Færa inn fjárhagsvíddargildi sem samsvara innfærðu hlutfalli.</span><span class="sxs-lookup"><span data-stu-id="4c765-110">Enter the financial dimension values that correspond to the percent entered.</span></span>
+6. <span data-ttu-id="4c765-111">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="4c765-111">Click Add.</span></span>
+7. <span data-ttu-id="4c765-112">Færa inn aðra prósentu fyrir næstu víddargildi.</span><span class="sxs-lookup"><span data-stu-id="4c765-112">Enter another percent for the next dimension values.</span></span>
+    * <span data-ttu-id="4c765-113">Í þessu dæmi skal færa inn prósentu svo þú sért enn með lægra en 100% úthlutað.</span><span class="sxs-lookup"><span data-stu-id="4c765-113">For this example, enter a percentage so you still have less than 100% allocated.</span></span>  
+8. <span data-ttu-id="4c765-114">Færa inn fjárhagsvíddargildi sem samsvara innfærðu hlutfalli.</span><span class="sxs-lookup"><span data-stu-id="4c765-114">Enter the financial dimension values that correspond to the percent entered.</span></span>
+9. <span data-ttu-id="4c765-115">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="4c765-115">Click Add.</span></span>
+10. <span data-ttu-id="4c765-116">Færið inn aðra prósentu sem munu gera heildarprósenta jafnt og 100%.</span><span class="sxs-lookup"><span data-stu-id="4c765-116">Enter another percent, which will make the total percent equal to 100%.</span></span>
+11. <span data-ttu-id="4c765-117">Færa inn fjárhagsvíddargildi sem samsvara innfærðu hlutfalli.</span><span class="sxs-lookup"><span data-stu-id="4c765-117">Enter the financial dimension values that correspond to the percent entered.</span></span>
+12. <span data-ttu-id="4c765-118">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="4c765-118">Click Save.</span></span>
 

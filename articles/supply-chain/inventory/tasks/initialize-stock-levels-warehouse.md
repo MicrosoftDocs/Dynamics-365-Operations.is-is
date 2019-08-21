@@ -10,53 +10,53 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalMovement, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4bfa40c19e34631edb68b8cff42e7f72eb9ce2ad
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dbd6dc6c2e5b7c1abe6e19f00a5df285e0147a92
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563003"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845390"
 ---
-# <a name="initialize-stock-levels-in-the-warehouse"></a><span data-ttu-id="82a49-103">Frumstilla birgðastöðu í vöruhúsi</span><span class="sxs-lookup"><span data-stu-id="82a49-103">Initialize stock levels in the warehouse</span></span>
+# <a name="initialize-stock-levels-in-the-warehouse"></a><span data-ttu-id="8ca67-103">Frumstilla birgðastöðu í vöruhúsi</span><span class="sxs-lookup"><span data-stu-id="8ca67-103">Initialize stock levels in the warehouse</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="82a49-104">Þetta ferli sýnir hvernig á að uppfæra lagerbirgðir handvirkt með því að nota færslubók birgðahreyfinga.</span><span class="sxs-lookup"><span data-stu-id="82a49-104">This procedure shows you how to get the on-hand inventory updated manually using an Inventory movement journal.</span></span> <span data-ttu-id="82a49-105">(Einnig er hægt að uppfæra lagerbirgðir með því að flytja inn færslur í gagnaeigind.) Hægt er að keyra þessa handbók í sýnifyrirtækinu USMF, þar sem öll frumskilyrði eins og heiti færslubókar, uppsetning á vörum, bókunarreglur og lyklar eru í boði.</span><span class="sxs-lookup"><span data-stu-id="82a49-105">(It’s also possible to update on-hand inventory by importing transactions in data entities.) You can run this guide in demo data company USMF where all the prerequisites like journal name, item setup, posting profiles, and accounts are available.</span></span> <span data-ttu-id="82a49-106">Leiðbeiningarnar stinga upp á ákveðnum gildum fyrir vöruna og víddir sem eru notaðar.</span><span class="sxs-lookup"><span data-stu-id="82a49-106">The guide suggests specific values for the item and dimensions that are used.</span></span> <span data-ttu-id="82a49-107">Ef þú velur aðra vöru gætirðu þurft að færa inn gildi fyrir aðrar víddir.</span><span class="sxs-lookup"><span data-stu-id="82a49-107">If you choose a different item, you may need to enter values for different dimensions.</span></span>
+<span data-ttu-id="8ca67-104">Þetta ferli sýnir hvernig á að uppfæra lagerbirgðir handvirkt með því að nota færslubók birgðahreyfinga.</span><span class="sxs-lookup"><span data-stu-id="8ca67-104">This procedure shows you how to get the on-hand inventory updated manually using an Inventory movement journal.</span></span> <span data-ttu-id="8ca67-105">(Einnig er hægt að uppfæra lagerbirgðir með því að flytja inn færslur í gagnaeigind.) Hægt er að keyra þessa handbók í sýnifyrirtækinu USMF, þar sem öll frumskilyrði eins og heiti færslubókar, uppsetning á vörum, bókunarreglur og lyklar eru í boði.</span><span class="sxs-lookup"><span data-stu-id="8ca67-105">(It’s also possible to update on-hand inventory by importing transactions in data entities.) You can run this guide in demo data company USMF where all the prerequisites like journal name, item setup, posting profiles, and accounts are available.</span></span> <span data-ttu-id="8ca67-106">Leiðbeiningarnar stinga upp á ákveðnum gildum fyrir vöruna og víddir sem eru notaðar.</span><span class="sxs-lookup"><span data-stu-id="8ca67-106">The guide suggests specific values for the item and dimensions that are used.</span></span> <span data-ttu-id="8ca67-107">Ef þú velur aðra vöru gætirðu þurft að færa inn gildi fyrir aðrar víddir.</span><span class="sxs-lookup"><span data-stu-id="8ca67-107">If you choose a different item, you may need to enter values for different dimensions.</span></span>
 
-1. <span data-ttu-id="82a49-108">Fara í Birgðastjórnun > Færslubókarfærslur > Vörur > Hreyfing.</span><span class="sxs-lookup"><span data-stu-id="82a49-108">Go to Inventory management > Journal entries > Items > Movement.</span></span>
-2. <span data-ttu-id="82a49-109">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="82a49-109">Click New.</span></span>
-3. <span data-ttu-id="82a49-110">Í reitnum Heiti skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="82a49-110">In the Name field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="82a49-111">Veldu IMov.</span><span class="sxs-lookup"><span data-stu-id="82a49-111">Select IMov.</span></span>
-    * <span data-ttu-id="82a49-112">Það eru góðar starfsvenjur að nota önnur sniðmát fyrir heiti færslubókar fyrir mismunandi viðskiptatilgang.</span><span class="sxs-lookup"><span data-stu-id="82a49-112">It’s a good practise to use different journal name templates for the different business purposes.</span></span>  
-5. <span data-ttu-id="82a49-113">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="82a49-113">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="82a49-114">Í reitinn Mótlykill skal tilgreina gildin '140200'.</span><span class="sxs-lookup"><span data-stu-id="82a49-114">In the Offset account field, specify the values '140200'.</span></span>
-    * <span data-ttu-id="82a49-115">Þetta er mótlykill sem verður sjálfgefinn lykill í færslubókarlínum.</span><span class="sxs-lookup"><span data-stu-id="82a49-115">This is the offset account that will be the default account on the journal lines.</span></span> <span data-ttu-id="82a49-116">Það er hægt að hnekkja sjálfgildinu til að úthluta öðrum mótlyklum á hverja línu.</span><span class="sxs-lookup"><span data-stu-id="82a49-116">It’s possible to override the default to assign different offset accounts per line.</span></span>  
-7. <span data-ttu-id="82a49-117">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="82a49-117">Click OK.</span></span>
-8. <span data-ttu-id="82a49-118">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="82a49-118">Click New.</span></span>
-9. <span data-ttu-id="82a49-119">Í reitnum Vörunúmer skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="82a49-119">In the Item number field, click the drop-down button to open the lookup.</span></span>
-10. <span data-ttu-id="82a49-120">Velja vöru A0001.</span><span class="sxs-lookup"><span data-stu-id="82a49-120">Select item A0001.</span></span>
-11. <span data-ttu-id="82a49-121">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="82a49-121">In the list, click the link in the selected row.</span></span>
-12. <span data-ttu-id="82a49-122">Smellið á flipann Birgðavíddir.</span><span class="sxs-lookup"><span data-stu-id="82a49-122">Click the Inventory dimensions tab.</span></span>
-13. <span data-ttu-id="82a49-123">Í reitnum svæði skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="82a49-123">In the Site field, click the drop-down button to open the lookup.</span></span>
-14. <span data-ttu-id="82a49-124">Velja svæði 1.</span><span class="sxs-lookup"><span data-stu-id="82a49-124">Select site 1.</span></span>
-15. <span data-ttu-id="82a49-125">Í reitnum vöruhús skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="82a49-125">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-16. <span data-ttu-id="82a49-126">Velja vöruhús 13.</span><span class="sxs-lookup"><span data-stu-id="82a49-126">Select warehouse 13.</span></span>
-17. <span data-ttu-id="82a49-127">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="82a49-127">In the list, click the link in the selected row.</span></span>
-18. <span data-ttu-id="82a49-128">Í reitnum staðsetning skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="82a49-128">In the Location field, click the drop-down button to open the lookup.</span></span>
-19. <span data-ttu-id="82a49-129">Velja staðsetningu 13.</span><span class="sxs-lookup"><span data-stu-id="82a49-129">Select location 13.</span></span>
-20. <span data-ttu-id="82a49-130">Færið inn númer í reitnum „Magn“.</span><span class="sxs-lookup"><span data-stu-id="82a49-130">In the Quantity field, enter a number.</span></span>
-21. <span data-ttu-id="82a49-131">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="82a49-131">Click Save.</span></span>
-22. <span data-ttu-id="82a49-132">Smellið á „Bóka“.</span><span class="sxs-lookup"><span data-stu-id="82a49-132">Click Post.</span></span>
-23. <span data-ttu-id="82a49-133">Merkja eða afmerkja í gátreitinn Millifæra allar bókunarvillur í nýja færslubók.</span><span class="sxs-lookup"><span data-stu-id="82a49-133">Check or uncheck the Transfer all posting errors to a new journal check box.</span></span>
-    * <span data-ttu-id="82a49-134">Ef þú virkjar þennan valkost verða allar línur sem ekki bókast afritaðar í nýja færslubók.</span><span class="sxs-lookup"><span data-stu-id="82a49-134">If you enable this option, any lines that fail to post will be copied to a new journal.</span></span> <span data-ttu-id="82a49-135">Hægt er að nota upplýsingarnar í skránni til að leiðrétta vandamál og síðan endurbóka línurnar.</span><span class="sxs-lookup"><span data-stu-id="82a49-135">You can use the information in the log to correct the issues and then re-post the lines.</span></span>  
-24. <span data-ttu-id="82a49-136">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="82a49-136">Click OK.</span></span>
-25. <span data-ttu-id="82a49-137">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="82a49-137">Close the page.</span></span>
-26. <span data-ttu-id="82a49-138">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="82a49-138">Close the page.</span></span>
+1. <span data-ttu-id="8ca67-108">Fara í Birgðastjórnun > Færslubókarfærslur > Vörur > Hreyfing.</span><span class="sxs-lookup"><span data-stu-id="8ca67-108">Go to Inventory management > Journal entries > Items > Movement.</span></span>
+2. <span data-ttu-id="8ca67-109">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="8ca67-109">Click New.</span></span>
+3. <span data-ttu-id="8ca67-110">Í reitnum Heiti skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="8ca67-110">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="8ca67-111">Veldu IMov.</span><span class="sxs-lookup"><span data-stu-id="8ca67-111">Select IMov.</span></span>
+    * <span data-ttu-id="8ca67-112">Það eru góðar starfsvenjur að nota önnur sniðmát fyrir heiti færslubókar fyrir mismunandi viðskiptatilgang.</span><span class="sxs-lookup"><span data-stu-id="8ca67-112">It’s a good practise to use different journal name templates for the different business purposes.</span></span>  
+5. <span data-ttu-id="8ca67-113">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="8ca67-113">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="8ca67-114">Í reitinn Mótlykill skal tilgreina gildin '140200'.</span><span class="sxs-lookup"><span data-stu-id="8ca67-114">In the Offset account field, specify the values '140200'.</span></span>
+    * <span data-ttu-id="8ca67-115">Þetta er mótlykill sem verður sjálfgefinn lykill í færslubókarlínum.</span><span class="sxs-lookup"><span data-stu-id="8ca67-115">This is the offset account that will be the default account on the journal lines.</span></span> <span data-ttu-id="8ca67-116">Það er hægt að hnekkja sjálfgildinu til að úthluta öðrum mótlyklum á hverja línu.</span><span class="sxs-lookup"><span data-stu-id="8ca67-116">It’s possible to override the default to assign different offset accounts per line.</span></span>  
+7. <span data-ttu-id="8ca67-117">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="8ca67-117">Click OK.</span></span>
+8. <span data-ttu-id="8ca67-118">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="8ca67-118">Click New.</span></span>
+9. <span data-ttu-id="8ca67-119">Í reitnum Vörunúmer skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="8ca67-119">In the Item number field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="8ca67-120">Velja vöru A0001.</span><span class="sxs-lookup"><span data-stu-id="8ca67-120">Select item A0001.</span></span>
+11. <span data-ttu-id="8ca67-121">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="8ca67-121">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="8ca67-122">Smellið á flipann Birgðavíddir.</span><span class="sxs-lookup"><span data-stu-id="8ca67-122">Click the Inventory dimensions tab.</span></span>
+13. <span data-ttu-id="8ca67-123">Í reitnum svæði skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="8ca67-123">In the Site field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="8ca67-124">Velja svæði 1.</span><span class="sxs-lookup"><span data-stu-id="8ca67-124">Select site 1.</span></span>
+15. <span data-ttu-id="8ca67-125">Í reitnum vöruhús skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="8ca67-125">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="8ca67-126">Velja vöruhús 13.</span><span class="sxs-lookup"><span data-stu-id="8ca67-126">Select warehouse 13.</span></span>
+17. <span data-ttu-id="8ca67-127">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="8ca67-127">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="8ca67-128">Í reitnum staðsetning skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="8ca67-128">In the Location field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="8ca67-129">Velja staðsetningu 13.</span><span class="sxs-lookup"><span data-stu-id="8ca67-129">Select location 13.</span></span>
+20. <span data-ttu-id="8ca67-130">Færið inn númer í reitnum „Magn“.</span><span class="sxs-lookup"><span data-stu-id="8ca67-130">In the Quantity field, enter a number.</span></span>
+21. <span data-ttu-id="8ca67-131">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="8ca67-131">Click Save.</span></span>
+22. <span data-ttu-id="8ca67-132">Smellið á „Bóka“.</span><span class="sxs-lookup"><span data-stu-id="8ca67-132">Click Post.</span></span>
+23. <span data-ttu-id="8ca67-133">Merkja eða afmerkja í gátreitinn Millifæra allar bókunarvillur í nýja færslubók.</span><span class="sxs-lookup"><span data-stu-id="8ca67-133">Check or uncheck the Transfer all posting errors to a new journal check box.</span></span>
+    * <span data-ttu-id="8ca67-134">Ef þú virkjar þennan valkost verða allar línur sem ekki bókast afritaðar í nýja færslubók.</span><span class="sxs-lookup"><span data-stu-id="8ca67-134">If you enable this option, any lines that fail to post will be copied to a new journal.</span></span> <span data-ttu-id="8ca67-135">Hægt er að nota upplýsingarnar í skránni til að leiðrétta vandamál og síðan endurbóka línurnar.</span><span class="sxs-lookup"><span data-stu-id="8ca67-135">You can use the information in the log to correct the issues and then re-post the lines.</span></span>  
+24. <span data-ttu-id="8ca67-136">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="8ca67-136">Click OK.</span></span>
+25. <span data-ttu-id="8ca67-137">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="8ca67-137">Close the page.</span></span>
+26. <span data-ttu-id="8ca67-138">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="8ca67-138">Close the page.</span></span>
 

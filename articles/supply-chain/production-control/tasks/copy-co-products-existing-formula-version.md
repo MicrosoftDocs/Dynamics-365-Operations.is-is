@@ -10,47 +10,47 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, BOMConsistOf, PmfFormulaCoBy, BOMRouteCopyDialog
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 179c12da0c2ddc7b5e2f2fdddd21168eac121811
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 626c0fc8a60eeb84060d7279833de583d55a95a2
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557803"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1838752"
 ---
-# <a name="copy-co-products-from-an-existing-formula-version"></a><span data-ttu-id="304dc-103">Afrita aukaafurðir úr fyrirliggjandi formúluútgáfu</span><span class="sxs-lookup"><span data-stu-id="304dc-103">Copy co-products from an existing formula version</span></span>
+# <a name="copy-co-products-from-an-existing-formula-version"></a><span data-ttu-id="b8d13-103">Afrita aukaafurðir úr fyrirliggjandi formúluútgáfu</span><span class="sxs-lookup"><span data-stu-id="b8d13-103">Copy co-products from an existing formula version</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="304dc-104">Þessi verklýsing sýnir hvernig á að afrita aukaafurðir úr eldri útgáfu formúlu yfir í mismunandi formúluútgáfu fyrir útgefna afurð.</span><span class="sxs-lookup"><span data-stu-id="304dc-104">This procedure shows how to copy co-products from an existing formula version to a different formula version for a released product.</span></span> <span data-ttu-id="304dc-105">Það er skilyrði að minnsta kosti eitt formúluútgáfan tengist aukaafurðir.</span><span class="sxs-lookup"><span data-stu-id="304dc-105">It is a prerequisite that there is at least one formula version associated with co-products.</span></span> <span data-ttu-id="304dc-106">Gögn fyrirtækisins sýnigögn USP2 er notuð til að stofna þetta ferli.</span><span class="sxs-lookup"><span data-stu-id="304dc-106">The demo data company USP2 is used to create this procedure.</span></span>
+<span data-ttu-id="b8d13-104">Þessi verklýsing sýnir hvernig á að afrita aukaafurðir úr eldri útgáfu formúlu yfir í mismunandi formúluútgáfu fyrir útgefna afurð.</span><span class="sxs-lookup"><span data-stu-id="b8d13-104">This procedure shows how to copy co-products from an existing formula version to a different formula version for a released product.</span></span> <span data-ttu-id="b8d13-105">Það er skilyrði að minnsta kosti ein formúluútgáfn tengist aukaafurðum.</span><span class="sxs-lookup"><span data-stu-id="b8d13-105">It is a prerequisite that there is at least one formula version associated with co-products.</span></span> <span data-ttu-id="b8d13-106">Sýnifyrirtækjagögn USP2 eru notuð til að stofna þetta ferli.</span><span class="sxs-lookup"><span data-stu-id="b8d13-106">The demo data company USP2 is used to create this procedure.</span></span>
 
 
-## <a name="find-a-released-product"></a><span data-ttu-id="304dc-107">Finna útgefin afurð</span><span class="sxs-lookup"><span data-stu-id="304dc-107">Find a released product</span></span>
-1. <span data-ttu-id="304dc-108">Farðu í Losaðar afurðir.</span><span class="sxs-lookup"><span data-stu-id="304dc-108">Go to Released products.</span></span>
-2. <span data-ttu-id="304dc-109">Smellt er á Sýna síur.</span><span class="sxs-lookup"><span data-stu-id="304dc-109">Click Show filters.</span></span>
-    * <span data-ttu-id="304dc-110">Verið er að bæta við reitnum Framleiðslugerð í svarglugga síu.</span><span class="sxs-lookup"><span data-stu-id="304dc-110">You are about to add the field Production type in the filter dialog box.</span></span>  
-3. <span data-ttu-id="304dc-111">Smella á svæði bæta Við síu til að bæta við svæðinu framleiðslugerð.</span><span class="sxs-lookup"><span data-stu-id="304dc-111">Click Add a filter field to add the field Production type.</span></span>
-    * <span data-ttu-id="304dc-112">Í Næsta skref þarf að færa handvirkt inn Formúlu í svæðinu framleiðslugerð áður en þú velur Nota.</span><span class="sxs-lookup"><span data-stu-id="304dc-112">In the next step, you need to manually enter Formula in the Production type field before you select Apply.</span></span> <span data-ttu-id="304dc-113">Þetta stillir síuna á lista yfir útgefnar afurðir</span><span class="sxs-lookup"><span data-stu-id="304dc-113">This sets the filter on the list of released products.</span></span>  
-4. <span data-ttu-id="304dc-114">Færa inn handvirkt Formúlu í svæðinu framleiðslugerð.</span><span class="sxs-lookup"><span data-stu-id="304dc-114">Manually enter Formula in the Production type field.</span></span>
-5. <span data-ttu-id="304dc-115">Smellið á Staðfesta</span><span class="sxs-lookup"><span data-stu-id="304dc-115">Click Apply.</span></span>
+## <a name="find-a-released-product"></a><span data-ttu-id="b8d13-107">Finna útgefin afurð</span><span class="sxs-lookup"><span data-stu-id="b8d13-107">Find a released product</span></span>
+1. <span data-ttu-id="b8d13-108">Farðu í Losaðar afurðir.</span><span class="sxs-lookup"><span data-stu-id="b8d13-108">Go to Released products.</span></span>
+2. <span data-ttu-id="b8d13-109">Smellt er á Sýna síur.</span><span class="sxs-lookup"><span data-stu-id="b8d13-109">Click Show filters.</span></span>
+    * <span data-ttu-id="b8d13-110">Verið er að bæta við reitnum Framleiðslugerð í svarglugga síu.</span><span class="sxs-lookup"><span data-stu-id="b8d13-110">You are about to add the field Production type in the filter dialog box.</span></span>  
+3. <span data-ttu-id="b8d13-111">Smella á svæði bæta Við síu til að bæta við svæðinu framleiðslugerð.</span><span class="sxs-lookup"><span data-stu-id="b8d13-111">Click Add a filter field to add the field Production type.</span></span>
+    * <span data-ttu-id="b8d13-112">Í Næsta skref þarf að færa handvirkt inn Formúlu í svæðinu framleiðslugerð áður en þú velur Nota.</span><span class="sxs-lookup"><span data-stu-id="b8d13-112">In the next step, you need to manually enter Formula in the Production type field before you select Apply.</span></span> <span data-ttu-id="b8d13-113">Þetta stillir síuna á lista yfir útgefnar afurðir</span><span class="sxs-lookup"><span data-stu-id="b8d13-113">This sets the filter on the list of released products.</span></span>  
+4. <span data-ttu-id="b8d13-114">Færa inn handvirkt Formúlu í svæðinu framleiðslugerð.</span><span class="sxs-lookup"><span data-stu-id="b8d13-114">Manually enter Formula in the Production type field.</span></span>
+5. <span data-ttu-id="b8d13-115">Smellið á Staðfesta</span><span class="sxs-lookup"><span data-stu-id="b8d13-115">Click Apply.</span></span>
 
-## <a name="select-a-released-product"></a><span data-ttu-id="304dc-116">Velja útgefin afurð</span><span class="sxs-lookup"><span data-stu-id="304dc-116">Select a released product</span></span>
-1. <span data-ttu-id="304dc-117">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="304dc-117">In the list, find and select the desired record.</span></span>
-2. <span data-ttu-id="304dc-118">Smellt er á formúluútgáfa.</span><span class="sxs-lookup"><span data-stu-id="304dc-118">Click Formula versions.</span></span>
-    * <span data-ttu-id="304dc-119">Smellt er á formúluútgáfum á tækniaðgerðarúðu.</span><span class="sxs-lookup"><span data-stu-id="304dc-119">On the Engineering Action Pane, click Formula versions.</span></span>  
+## <a name="select-a-released-product"></a><span data-ttu-id="b8d13-116">Velja útgefin afurð</span><span class="sxs-lookup"><span data-stu-id="b8d13-116">Select a released product</span></span>
+1. <span data-ttu-id="b8d13-117">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="b8d13-117">In the list, find and select the desired record.</span></span>
+2. <span data-ttu-id="b8d13-118">Smellt er á formúluútgáfa.</span><span class="sxs-lookup"><span data-stu-id="b8d13-118">Click Formula versions.</span></span>
+    * <span data-ttu-id="b8d13-119">Smellt er á formúluútgáfum á tækniaðgerðarúðu.</span><span class="sxs-lookup"><span data-stu-id="b8d13-119">On the Engineering Action Pane, click Formula versions.</span></span>  
 
-## <a name="copy-co-products"></a><span data-ttu-id="304dc-120">Afrita aukaafurðir</span><span class="sxs-lookup"><span data-stu-id="304dc-120">Copy co-products</span></span>
-1. <span data-ttu-id="304dc-121">Á Aðgerðasvæðinu skal smellt á formúluútgáfu.</span><span class="sxs-lookup"><span data-stu-id="304dc-121">On the Action Pane, click Formula version.</span></span>
-2. <span data-ttu-id="304dc-122">Smellt er á aukaafurðir.</span><span class="sxs-lookup"><span data-stu-id="304dc-122">Click Co-products.</span></span>
-3. <span data-ttu-id="304dc-123">Smellið á Afrit.</span><span class="sxs-lookup"><span data-stu-id="304dc-123">Click Copy.</span></span>
-4. <span data-ttu-id="304dc-124">Í reitinn Vörunúmer skal slá inn eða veldu gildi.</span><span class="sxs-lookup"><span data-stu-id="304dc-124">In the Item number field, enter or select a value.</span></span>
-5. <span data-ttu-id="304dc-125">Sláið inn eða veldu gildi í reitnum formúluútgáfa.</span><span class="sxs-lookup"><span data-stu-id="304dc-125">In the Formula version field, enter or select a value.</span></span>
-6. <span data-ttu-id="304dc-126">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="304dc-126">Click OK.</span></span>
-7. <span data-ttu-id="304dc-127">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="304dc-127">Close the page.</span></span>
+## <a name="copy-co-products"></a><span data-ttu-id="b8d13-120">Afrita aukaafurðir</span><span class="sxs-lookup"><span data-stu-id="b8d13-120">Copy co-products</span></span>
+1. <span data-ttu-id="b8d13-121">Á Aðgerðasvæðinu skal smellt á formúluútgáfu.</span><span class="sxs-lookup"><span data-stu-id="b8d13-121">On the Action Pane, click Formula version.</span></span>
+2. <span data-ttu-id="b8d13-122">Smellt er á aukaafurðir.</span><span class="sxs-lookup"><span data-stu-id="b8d13-122">Click Co-products.</span></span>
+3. <span data-ttu-id="b8d13-123">Smellið á Afrit.</span><span class="sxs-lookup"><span data-stu-id="b8d13-123">Click Copy.</span></span>
+4. <span data-ttu-id="b8d13-124">Í reitinn Vörunúmer skal slá inn eða veldu gildi.</span><span class="sxs-lookup"><span data-stu-id="b8d13-124">In the Item number field, enter or select a value.</span></span>
+5. <span data-ttu-id="b8d13-125">Sláið inn eða veldu gildi í reitnum formúluútgáfa.</span><span class="sxs-lookup"><span data-stu-id="b8d13-125">In the Formula version field, enter or select a value.</span></span>
+6. <span data-ttu-id="b8d13-126">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="b8d13-126">Click OK.</span></span>
+7. <span data-ttu-id="b8d13-127">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="b8d13-127">Close the page.</span></span>
 

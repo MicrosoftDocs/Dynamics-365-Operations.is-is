@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
@@ -18,38 +18,38 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 707cbb8f4a4a71d147e1aa3c048fb1eb3872f8d9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 074132af2111debee4bea894b559744b4470454d
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565835"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841754"
 ---
-# <a name="cost-accounting-home-page"></a><span data-ttu-id="c9807-103">Heimasíða kostnaðarbókhalds</span><span class="sxs-lookup"><span data-stu-id="c9807-103">Cost accounting home page</span></span>
+# <a name="cost-accounting-home-page"></a><span data-ttu-id="cf1f0-103">Heimasíða kostnaðarbókhalds</span><span class="sxs-lookup"><span data-stu-id="cf1f0-103">Cost accounting home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="learning-map"></a><span data-ttu-id="c9807-104">Námskort</span><span class="sxs-lookup"><span data-stu-id="c9807-104">Learning map</span></span> 
+## <a name="learning-map"></a><span data-ttu-id="cf1f0-104">Námskort</span><span class="sxs-lookup"><span data-stu-id="cf1f0-104">Learning map</span></span> 
 
-<span data-ttu-id="c9807-105">Eftirfarandi kennslukort sýnir helstu hugtök og verkefni sem eru í ramma einingarinnar Kostnaðarbókhald.</span><span class="sxs-lookup"><span data-stu-id="c9807-105">The following learning map shows the major concepts and tasks that make up the framework of the Cost accounting module.</span></span> <span data-ttu-id="c9807-106">Smelltu á tenglana í hlutanum [Flýtitenglar](#quick-links) til að læra hvernig á að nota eininguna.</span><span class="sxs-lookup"><span data-stu-id="c9807-106">Click the links in the [Quick links](#quick-links) section to learn how to use the module.</span></span>
+<span data-ttu-id="cf1f0-105">Eftirfarandi kennslukort sýnir helstu hugtök og verkefni sem eru í ramma einingarinnar Kostnaðarbókhald.</span><span class="sxs-lookup"><span data-stu-id="cf1f0-105">The following learning map shows the major concepts and tasks that make up the framework of the Cost accounting module.</span></span> <span data-ttu-id="cf1f0-106">Smelltu á tenglana í hlutanum [Flýtitenglar](#quick-links) til að læra hvernig á að nota eininguna.</span><span class="sxs-lookup"><span data-stu-id="cf1f0-106">Click the links in the [Quick links](#quick-links) section to learn how to use the module.</span></span>
 
-<span data-ttu-id="c9807-107">[![Námskort fyrir kostnaðarbókhald](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span><span class="sxs-lookup"><span data-stu-id="c9807-107">[![Learning map for cost accounting](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span></span>
+<span data-ttu-id="cf1f0-107">[![Námskort fyrir kostnaðarbókhald](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span><span class="sxs-lookup"><span data-stu-id="cf1f0-107">[![Learning map for cost accounting](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span></span>
 
-## <a name="quick-links"></a><span data-ttu-id="c9807-108">Flýtitenglar</span><span class="sxs-lookup"><span data-stu-id="c9807-108">Quick links</span></span>
+## <a name="quick-links"></a><span data-ttu-id="cf1f0-108">Flýtitenglar</span><span class="sxs-lookup"><span data-stu-id="cf1f0-108">Quick links</span></span>
 
 |      |   |
 |------|---|
-|  <span data-ttu-id="c9807-109">[Grunnstilla grunneiningar (eLearning)](https://mbspartner.microsoft.com/Home) (krefst CustomerSource-reiknings)</span><span class="sxs-lookup"><span data-stu-id="c9807-109">[Configure base entities (eLearning)](https://mbspartner.microsoft.com/Home) (requires CustomerSource account)</span></span>  |[<span data-ttu-id="c9807-110">Stofna víddir</span><span class="sxs-lookup"><span data-stu-id="c9807-110">Create dimensions</span></span>](cost-elements.md)  |
-|  [<span data-ttu-id="c9807-111">Stofna víddarstigveldi</span><span class="sxs-lookup"><span data-stu-id="c9807-111">Create dimension hierarchy</span></span>](dimension-hierarchy.md)  |[<span data-ttu-id="c9807-112">Stofna grunnuppsetningu</span><span class="sxs-lookup"><span data-stu-id="c9807-112">Create basic setup</span></span>](./tasks/define-cost-control-units.md)| 
-| [<span data-ttu-id="c9807-113">Skilgreina úthlutunargrunn</span><span class="sxs-lookup"><span data-stu-id="c9807-113">Define allocation base</span></span>](allocation-bases.md)|[<span data-ttu-id="c9807-114">Skilgreina reglur</span><span class="sxs-lookup"><span data-stu-id="c9807-114">Define policies</span></span>](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
-| [<span data-ttu-id="c9807-115">Gagnagjafi og gagnaveita</span><span class="sxs-lookup"><span data-stu-id="c9807-115">Data source and data provider</span></span>](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [<span data-ttu-id="c9807-116">Gagnagjafi og gagnaveita</span><span class="sxs-lookup"><span data-stu-id="c9807-116">Data source and data provider</span></span>](./tasks/process-trace-source-data.md)     | 
-|[<span data-ttu-id="c9807-117">Útreikningur fastakostnaðar</span><span class="sxs-lookup"><span data-stu-id="c9807-117">Overhead calculation</span></span>](overhead-calculation.md)  | [<span data-ttu-id="c9807-118">Greining og skýrslugerð</span><span class="sxs-lookup"><span data-stu-id="c9807-118">Analysis and reporting</span></span>](cost-control-workspace.md)   |
+|  <span data-ttu-id="cf1f0-109">[Grunnstilla grunneiningar (eLearning)](https://mbspartner.microsoft.com/Home) (krefst CustomerSource-reiknings)</span><span class="sxs-lookup"><span data-stu-id="cf1f0-109">[Configure base entities (eLearning)](https://mbspartner.microsoft.com/Home) (requires CustomerSource account)</span></span>  |[<span data-ttu-id="cf1f0-110">Stofna víddir</span><span class="sxs-lookup"><span data-stu-id="cf1f0-110">Create dimensions</span></span>](cost-elements.md)  |
+|  [<span data-ttu-id="cf1f0-111">Stofna víddarstigveldi</span><span class="sxs-lookup"><span data-stu-id="cf1f0-111">Create dimension hierarchy</span></span>](dimension-hierarchy.md)  |[<span data-ttu-id="cf1f0-112">Stofna grunnuppsetningu</span><span class="sxs-lookup"><span data-stu-id="cf1f0-112">Create basic setup</span></span>](./tasks/define-cost-control-units.md)| 
+| [<span data-ttu-id="cf1f0-113">Skilgreina úthlutunargrunn</span><span class="sxs-lookup"><span data-stu-id="cf1f0-113">Define allocation base</span></span>](allocation-bases.md)|[<span data-ttu-id="cf1f0-114">Skilgreina reglur</span><span class="sxs-lookup"><span data-stu-id="cf1f0-114">Define policies</span></span>](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [<span data-ttu-id="cf1f0-115">Gagnagjafi og gagnaveita</span><span class="sxs-lookup"><span data-stu-id="cf1f0-115">Data source and data provider</span></span>](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [<span data-ttu-id="cf1f0-116">Gagnagjafi og gagnaveita</span><span class="sxs-lookup"><span data-stu-id="cf1f0-116">Data source and data provider</span></span>](./tasks/process-trace-source-data.md)     | 
+|[<span data-ttu-id="cf1f0-117">Útreikningur fastakostnaðar</span><span class="sxs-lookup"><span data-stu-id="cf1f0-117">Overhead calculation</span></span>](overhead-calculation.md)  | [<span data-ttu-id="cf1f0-118">Greining og skýrslugerð</span><span class="sxs-lookup"><span data-stu-id="cf1f0-118">Analysis and reporting</span></span>](cost-control-workspace.md)   |
 
-## <a name="get-started-videosbr"></a><span data-ttu-id="c9807-119">Byrjendamyndskeið</span><span class="sxs-lookup"><span data-stu-id="c9807-119">Get started videos</span></span><br/>
+## <a name="get-started-videosbr"></a><span data-ttu-id="cf1f0-119">Byrjendamyndskeið</span><span class="sxs-lookup"><span data-stu-id="cf1f0-119">Get started videos</span></span><br/>
 
 |  |  |                             |
 |------------------------|--------------------|-----------------------------|
-| [<span data-ttu-id="c9807-120">Hafist handa með kostnaðarbókhald</span><span class="sxs-lookup"><span data-stu-id="c9807-120">Get started with cost accounting</span></span>](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [<span data-ttu-id="c9807-121">Fartækjavinnusvæði kostnaðarbókhalds</span><span class="sxs-lookup"><span data-stu-id="c9807-121">Cost accounting mobile workspace</span></span>](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [<span data-ttu-id="c9807-122">Nota Excel fyrir kostnaðarbókhaldsgreiningu</span><span class="sxs-lookup"><span data-stu-id="c9807-122">Use Excel for cost accounting analysis</span></span>](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
+| [<span data-ttu-id="cf1f0-120">Hafist handa með kostnaðarbókhald</span><span class="sxs-lookup"><span data-stu-id="cf1f0-120">Get started with cost accounting</span></span>](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [<span data-ttu-id="cf1f0-121">Fartækjavinnusvæði kostnaðarbókhalds</span><span class="sxs-lookup"><span data-stu-id="cf1f0-121">Cost accounting mobile workspace</span></span>](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [<span data-ttu-id="cf1f0-122">Nota Excel fyrir kostnaðarbókhaldsgreiningu</span><span class="sxs-lookup"><span data-stu-id="cf1f0-122">Use Excel for cost accounting analysis</span></span>](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
 |  |  |                             |
 
 

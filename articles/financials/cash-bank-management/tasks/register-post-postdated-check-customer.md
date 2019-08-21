@@ -9,44 +9,44 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 131e4f364c62d03b95fb4b77f472828b9483d5e1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6f27675a2aa2160619bf78eea33bba2ce0b7bd81
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566088"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841970"
 ---
-# <a name="register-and-post-a-postdated-check-for-a-customer"></a><span data-ttu-id="6a616-103">Skrá og bóka fyrirframdagsetta ávísun fyrir viðskiptavin</span><span class="sxs-lookup"><span data-stu-id="6a616-103">Register and post a postdated check for a customer</span></span>
+# <a name="register-and-post-a-postdated-check-for-a-customer"></a><span data-ttu-id="453a6-103">Skrá og bóka fyrirframdagsetta ávísun fyrir viðskiptavin</span><span class="sxs-lookup"><span data-stu-id="453a6-103">Register and post a postdated check for a customer</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="6a616-104">Hægt er að skrá upplýsingar um fyrirframdagsetta ávísun sem er móttekin frá viðskiptavini.</span><span class="sxs-lookup"><span data-stu-id="6a616-104">You can register details of a postdated check received from a customer.</span></span> <span data-ttu-id="6a616-105">Einnig er hægt að bóka fyrirframdagsettu ávísunina og mynda fjárhagslegar færslur.</span><span class="sxs-lookup"><span data-stu-id="6a616-105">You can also post the postdated check and generate financial transactions.</span></span>   <span data-ttu-id="6a616-106">Ljúkið eftirtöldum verkefnum áður en hægt er að skrá og bóka fyrirframdagsettar ávísanir sem bárust frá viðskiptavini: • Setja upp fyrirframdagsettar ávísanir á síðunni Reiðufjár- og bankastjórnun • Setja upp greiðsluhátt fyrir fyrirframdagsettar ávísanir Hlutverk þessa ferlis er fjárreiðustjóri.</span><span class="sxs-lookup"><span data-stu-id="6a616-106">Complete the following tasks before you register and post a postdated check received from a customer:   • Set up postdated check in the Cash and bank management page • Set up a method of payment for postdated checks   The role for this procedure is Treasurer.</span></span> <span data-ttu-id="6a616-107">Þessi aðferð notar sýnigögn USMF fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="6a616-107">This procedure uses the USMF demo company.</span></span>
+<span data-ttu-id="453a6-104">Hægt er að skrá upplýsingar um fyrirframdagsetta ávísun sem er móttekin frá viðskiptavini.</span><span class="sxs-lookup"><span data-stu-id="453a6-104">You can register details of a postdated check received from a customer.</span></span> <span data-ttu-id="453a6-105">Einnig er hægt að bóka fyrirframdagsettu ávísunina og mynda fjárhagslegar færslur.</span><span class="sxs-lookup"><span data-stu-id="453a6-105">You can also post the postdated check and generate financial transactions.</span></span>   <span data-ttu-id="453a6-106">Ljúkið eftirtöldum verkefnum áður en hægt er að skrá og bóka fyrirframdagsettar ávísanir sem bárust frá viðskiptavini: • Setja upp fyrirframdagsettar ávísanir á síðunni Reiðufjár- og bankastjórnun • Setja upp greiðsluhátt fyrir fyrirframdagsettar ávísanir Hlutverk þessa ferlis er fjárreiðustjóri.</span><span class="sxs-lookup"><span data-stu-id="453a6-106">Complete the following tasks before you register and post a postdated check received from a customer:   • Set up postdated check in the Cash and bank management page • Set up a method of payment for postdated checks   The role for this procedure is Treasurer.</span></span> <span data-ttu-id="453a6-107">Þessi aðferð notar sýnigögn USMF fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="453a6-107">This procedure uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="6a616-108">Fara í Viðskiptakröfur > Greiðslur > Greiðslubók.</span><span class="sxs-lookup"><span data-stu-id="6a616-108">Go to Accounts receivable > Payments > Payment journal.</span></span>
-2. <span data-ttu-id="6a616-109">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="6a616-109">Click New.</span></span>
-3. <span data-ttu-id="6a616-110">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="6a616-110">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="6a616-111">Smellið á „Línur“.</span><span class="sxs-lookup"><span data-stu-id="6a616-111">Click Lines.</span></span>
-5. <span data-ttu-id="6a616-112">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="6a616-112">In the list, mark the selected row.</span></span>
-6. <span data-ttu-id="6a616-113">Í reitnum Lykill skal tilgreina gildi sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="6a616-113">In the Account field, specify the desired values.</span></span>
-7. <span data-ttu-id="6a616-114">Í reitnum Kredit skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="6a616-114">In the Credit field, enter a number.</span></span>
-    * <span data-ttu-id="6a616-115">Færðu inn upphæðina sem er tilgreind á fyrirframdagsettu ávísuninni.</span><span class="sxs-lookup"><span data-stu-id="6a616-115">Enter the amount specified in the postdated check.</span></span>  
-8. <span data-ttu-id="6a616-116">Smellið á flipann Greiðslu.</span><span class="sxs-lookup"><span data-stu-id="6a616-116">Click the Payment tab.</span></span>
-9. <span data-ttu-id="6a616-117">Færa inn gildi í svæðinu greiðsluaðferð.</span><span class="sxs-lookup"><span data-stu-id="6a616-117">In the Method of payment field, type a value.</span></span>
-    * <span data-ttu-id="6a616-118">Veldu greiðsluaðferð fyrir fyrirframdagsettu ávísunina.</span><span class="sxs-lookup"><span data-stu-id="6a616-118">Select the method of payment for the postdated check.</span></span>  
-10. <span data-ttu-id="6a616-119">Smellið á flipann Fyrirframdagsettar ávísanir.</span><span class="sxs-lookup"><span data-stu-id="6a616-119">Click the Postdated checks tab.</span></span>
-11. <span data-ttu-id="6a616-120">Dagsetning er rituð í reitinn Gjalddagi.</span><span class="sxs-lookup"><span data-stu-id="6a616-120">In the Maturity date field, enter a date.</span></span>
-    * <span data-ttu-id="6a616-121">Færið inn dagsetningu sem greiða skal fyrirframdagsetta ávísun fyrir.</span><span class="sxs-lookup"><span data-stu-id="6a616-121">Enter the date when the postdated check is due for payment.</span></span>  
-12. <span data-ttu-id="6a616-122">Í reitinn Útibú útgáfubanka skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="6a616-122">In the Issuing bank branch field, type a value.</span></span>
-    * <span data-ttu-id="6a616-123">Færið inn bankaupplýsingar fyrirframdagsettrar ávísunar.</span><span class="sxs-lookup"><span data-stu-id="6a616-123">Enter the bank details of the postdated check.</span></span>  
-13. <span data-ttu-id="6a616-124">Í reitinn ávísunarnúmer skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="6a616-124">In the check number field, type a value.</span></span>
-14. <span data-ttu-id="6a616-125">Í reitinn Heiti útgáfubanka skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="6a616-125">In the Issuing bank name field, type a value.</span></span>
-    * <span data-ttu-id="6a616-126">Færið inn bankaupplýsingar fyrirframdagsettrar ávísunar.</span><span class="sxs-lookup"><span data-stu-id="6a616-126">Enter the bank details of the postdated check.</span></span>  
-15. <span data-ttu-id="6a616-127">Smellið á „Bóka“.</span><span class="sxs-lookup"><span data-stu-id="6a616-127">Click Post.</span></span>
-16. <span data-ttu-id="6a616-128">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="6a616-128">Close the page.</span></span>
+1. <span data-ttu-id="453a6-108">Fara í Viðskiptakröfur > Greiðslur > Greiðslubók.</span><span class="sxs-lookup"><span data-stu-id="453a6-108">Go to Accounts receivable > Payments > Payment journal.</span></span>
+2. <span data-ttu-id="453a6-109">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="453a6-109">Click New.</span></span>
+3. <span data-ttu-id="453a6-110">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="453a6-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="453a6-111">Smellið á „Línur“.</span><span class="sxs-lookup"><span data-stu-id="453a6-111">Click Lines.</span></span>
+5. <span data-ttu-id="453a6-112">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="453a6-112">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="453a6-113">Í reitnum Lykill skal tilgreina gildi sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="453a6-113">In the Account field, specify the desired values.</span></span>
+7. <span data-ttu-id="453a6-114">Í reitnum Kredit skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="453a6-114">In the Credit field, enter a number.</span></span>
+    * <span data-ttu-id="453a6-115">Færðu inn upphæðina sem er tilgreind á fyrirframdagsettu ávísuninni.</span><span class="sxs-lookup"><span data-stu-id="453a6-115">Enter the amount specified in the postdated check.</span></span>  
+8. <span data-ttu-id="453a6-116">Smellið á flipann Greiðslu.</span><span class="sxs-lookup"><span data-stu-id="453a6-116">Click the Payment tab.</span></span>
+9. <span data-ttu-id="453a6-117">Færa inn gildi í svæðinu greiðsluaðferð.</span><span class="sxs-lookup"><span data-stu-id="453a6-117">In the Method of payment field, type a value.</span></span>
+    * <span data-ttu-id="453a6-118">Veldu greiðsluaðferð fyrir fyrirframdagsettu ávísunina.</span><span class="sxs-lookup"><span data-stu-id="453a6-118">Select the method of payment for the postdated check.</span></span>  
+10. <span data-ttu-id="453a6-119">Smellið á flipann Fyrirframdagsettar ávísanir.</span><span class="sxs-lookup"><span data-stu-id="453a6-119">Click the Postdated checks tab.</span></span>
+11. <span data-ttu-id="453a6-120">Dagsetning er rituð í reitinn Gjalddagi.</span><span class="sxs-lookup"><span data-stu-id="453a6-120">In the Maturity date field, enter a date.</span></span>
+    * <span data-ttu-id="453a6-121">Færið inn dagsetningu sem greiða skal fyrirframdagsetta ávísun fyrir.</span><span class="sxs-lookup"><span data-stu-id="453a6-121">Enter the date when the postdated check is due for payment.</span></span>  
+12. <span data-ttu-id="453a6-122">Í reitinn Útibú útgáfubanka skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="453a6-122">In the Issuing bank branch field, type a value.</span></span>
+    * <span data-ttu-id="453a6-123">Færið inn bankaupplýsingar fyrirframdagsettrar ávísunar.</span><span class="sxs-lookup"><span data-stu-id="453a6-123">Enter the bank details of the postdated check.</span></span>  
+13. <span data-ttu-id="453a6-124">Í reitinn ávísunarnúmer skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="453a6-124">In the check number field, type a value.</span></span>
+14. <span data-ttu-id="453a6-125">Í reitinn Heiti útgáfubanka skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="453a6-125">In the Issuing bank name field, type a value.</span></span>
+    * <span data-ttu-id="453a6-126">Færið inn bankaupplýsingar fyrirframdagsettrar ávísunar.</span><span class="sxs-lookup"><span data-stu-id="453a6-126">Enter the bank details of the postdated check.</span></span>  
+15. <span data-ttu-id="453a6-127">Smellið á „Bóka“.</span><span class="sxs-lookup"><span data-stu-id="453a6-127">Click Post.</span></span>
+16. <span data-ttu-id="453a6-128">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="453a6-128">Close the page.</span></span>
 

@@ -10,40 +10,40 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQScoringMethod
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 98bcffdf63e20a0a620aa87b44449ce13a5df2fe
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6cbbc941b810cd8e5db5ba15a23dc6bd72a29506
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565278"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1838071"
 ---
-# <a name="create-a-scoring-method-for-rfqs"></a><span data-ttu-id="bc357-103">Búa til aðferð við stigagjöf fyrir tilboðsbeiðnir</span><span class="sxs-lookup"><span data-stu-id="bc357-103">Create a scoring method for RFQs</span></span>
+# <a name="create-a-scoring-method-for-rfqs"></a><span data-ttu-id="2c1c9-103">Búa til aðferð við stigagjöf fyrir tilboðsbeiðnir</span><span class="sxs-lookup"><span data-stu-id="2c1c9-103">Create a scoring method for RFQs</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="bc357-104">Þessi verklýsing sýnir hvernig á að stofna aðferð við stigagjöf.</span><span class="sxs-lookup"><span data-stu-id="bc357-104">This procedure shows you how to create a scoring method.</span></span> <span data-ttu-id="bc357-105">Aðferð við Stigagjöf er safn skilyrða sem hægt er að nota til að bera saman tilboð sem eru send í svari við tilboðsbeiðni (RFQ).</span><span class="sxs-lookup"><span data-stu-id="bc357-105">A scoring method is a set of criteria that can be used to compare bids that are sent in reply to a request for quotation (RFQ).</span></span> <span data-ttu-id="bc357-106">Til dæmis gæti átt að meta lánardrottin eftir fyrri frammistöðu, eða meta hvort fyrirtækið er umhverfisvænn eða góður samstarfsaðili, eða bera saman tilboð sem er byggt á verði.</span><span class="sxs-lookup"><span data-stu-id="bc357-106">For example, you might want to rate a vendor on past performance, or rate whether the company is environmentally friendly or a good collaborator, or you might want to compare bids based on price.</span></span> <span data-ttu-id="bc357-107">Aðferð við stigagjöf getur verið tengt við gerð beiðni sem sjálfgefin aðferð við stigagjöf fyrir beiðnir um tilboð af þeirri gerð.</span><span class="sxs-lookup"><span data-stu-id="bc357-107">The scoring method can be associated with a solicitation type as the default scoring method for RFQs of that type.</span></span> <span data-ttu-id="bc357-108">Þessum verkefnum myndi venjulega að framkvæma af Innkaupastjóra.</span><span class="sxs-lookup"><span data-stu-id="bc357-108">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="bc357-109">Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.</span><span class="sxs-lookup"><span data-stu-id="bc357-109">You can use this procedure in demo data company USMF or on your own data.</span></span>
+<span data-ttu-id="2c1c9-104">Þessi verklýsing sýnir hvernig á að stofna aðferð við stigagjöf.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-104">This procedure shows you how to create a scoring method.</span></span> <span data-ttu-id="2c1c9-105">Aðferð við Stigagjöf er safn skilyrða sem hægt er að nota til að bera saman tilboð sem eru send í svari við tilboðsbeiðni (RFQ).</span><span class="sxs-lookup"><span data-stu-id="2c1c9-105">A scoring method is a set of criteria that can be used to compare bids that are sent in reply to a request for quotation (RFQ).</span></span> <span data-ttu-id="2c1c9-106">Til dæmis gæti átt að meta lánardrottin eftir fyrri frammistöðu, eða meta hvort fyrirtækið er umhverfisvænn eða góður samstarfsaðili, eða bera saman tilboð sem er byggt á verði.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-106">For example, you might want to rate a vendor on past performance, or rate whether the company is environmentally friendly or a good collaborator, or you might want to compare bids based on price.</span></span> <span data-ttu-id="2c1c9-107">Aðferð við stigagjöf getur verið tengt við gerð beiðni sem sjálfgefin aðferð við stigagjöf fyrir beiðnir um tilboð af þeirri gerð.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-107">The scoring method can be associated with a solicitation type as the default scoring method for RFQs of that type.</span></span> <span data-ttu-id="2c1c9-108">Þessum verkefnum myndi venjulega að framkvæma af Innkaupastjóra.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-108">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="2c1c9-109">Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-109">You can use this procedure in demo data company USMF or on your own data.</span></span>
 
-1. <span data-ttu-id="bc357-110">Farið í Innkaup og aðföng > Uppsetning > Tilboðsbeiðni > Aðferð við stigagjöf.</span><span class="sxs-lookup"><span data-stu-id="bc357-110">Go to Procurement and sourcing > Setup > Request for quotation > Scoring method.</span></span>
-2. <span data-ttu-id="bc357-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="bc357-111">Click New.</span></span>
-3. <span data-ttu-id="bc357-112">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="bc357-112">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="bc357-113">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="bc357-113">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="bc357-114">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="bc357-114">Click Save.</span></span>
-6. <span data-ttu-id="bc357-115">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="bc357-115">Click New.</span></span>
-7. <span data-ttu-id="bc357-116">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="bc357-116">In the Name field, type a value.</span></span>
-8. <span data-ttu-id="bc357-117">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="bc357-117">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="bc357-118">Þessi lýsing er sýnd ásamt heiti aðferðar við stigagjöf þegar valinn er stigagjöf fyrir beiðni um TILBOÐ.</span><span class="sxs-lookup"><span data-stu-id="bc357-118">This description is shown along with the scoring method name when a scoring method is selected for an RFQ.</span></span>  
-9. <span data-ttu-id="bc357-119">Í reitinn Svið frá skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="bc357-119">In the Range from field, enter a number.</span></span>
-    * <span data-ttu-id="bc357-120">Sviðið takmarkar hvaða innkaupastjóra getur færa inn sem stig.</span><span class="sxs-lookup"><span data-stu-id="bc357-120">The range limits what the procurement professional can enter as a score.</span></span> <span data-ttu-id="bc357-121">Þegar mörg skilyrði fyrir stigagjöf eru á beiðni um TILBOÐ, eru stigin sem hafa verið færð inn lögð saman og útkoman er gerð tiltæk til að leyfa samanburð á tilboðunum.</span><span class="sxs-lookup"><span data-stu-id="bc357-121">When there are multiple scoring criteria on an RFQ, the scores that have been entered are added to each other and the sum is made available to allow the bids to be compared.</span></span>  
-10. <span data-ttu-id="bc357-122">Í reitinn Svið til skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="bc357-122">In the Range to field, enter a number.</span></span>
-11. <span data-ttu-id="bc357-123">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="bc357-123">Click New.</span></span>
-12. <span data-ttu-id="bc357-124">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="bc357-124">In the Name field, type a value.</span></span>
-13. <span data-ttu-id="bc357-125">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="bc357-125">In the Description field, type a value.</span></span>
-14. <span data-ttu-id="bc357-126">Í reitinn Svið frá skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="bc357-126">In the Range from field, enter a number.</span></span>
-15. <span data-ttu-id="bc357-127">Í reitinn Svið til skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="bc357-127">In the Range to field, enter a number.</span></span>
+1. <span data-ttu-id="2c1c9-110">Farið í Innkaup og aðföng > Uppsetning > Tilboðsbeiðni > Aðferð við stigagjöf.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-110">Go to Procurement and sourcing > Setup > Request for quotation > Scoring method.</span></span>
+2. <span data-ttu-id="2c1c9-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-111">Click New.</span></span>
+3. <span data-ttu-id="2c1c9-112">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-112">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="2c1c9-113">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="2c1c9-114">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-114">Click Save.</span></span>
+6. <span data-ttu-id="2c1c9-115">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-115">Click New.</span></span>
+7. <span data-ttu-id="2c1c9-116">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-116">In the Name field, type a value.</span></span>
+8. <span data-ttu-id="2c1c9-117">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-117">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="2c1c9-118">Þessi lýsing er sýnd ásamt heiti aðferðar við stigagjöf þegar valinn er stigagjöf fyrir beiðni um TILBOÐ.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-118">This description is shown along with the scoring method name when a scoring method is selected for an RFQ.</span></span>  
+9. <span data-ttu-id="2c1c9-119">Í reitinn Svið frá skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-119">In the Range from field, enter a number.</span></span>
+    * <span data-ttu-id="2c1c9-120">Sviðið takmarkar hvaða innkaupastjóra getur færa inn sem stig.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-120">The range limits what the procurement professional can enter as a score.</span></span> <span data-ttu-id="2c1c9-121">Þegar mörg skilyrði fyrir stigagjöf eru á beiðni um TILBOÐ, eru stigin sem hafa verið færð inn lögð saman og útkoman er gerð tiltæk til að leyfa samanburð á tilboðunum.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-121">When there are multiple scoring criteria on an RFQ, the scores that have been entered are added to each other and the sum is made available to allow the bids to be compared.</span></span>  
+10. <span data-ttu-id="2c1c9-122">Í reitinn Svið til skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-122">In the Range to field, enter a number.</span></span>
+11. <span data-ttu-id="2c1c9-123">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-123">Click New.</span></span>
+12. <span data-ttu-id="2c1c9-124">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-124">In the Name field, type a value.</span></span>
+13. <span data-ttu-id="2c1c9-125">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-125">In the Description field, type a value.</span></span>
+14. <span data-ttu-id="2c1c9-126">Í reitinn Svið frá skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-126">In the Range from field, enter a number.</span></span>
+15. <span data-ttu-id="2c1c9-127">Í reitinn Svið til skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="2c1c9-127">In the Range to field, enter a number.</span></span>
 

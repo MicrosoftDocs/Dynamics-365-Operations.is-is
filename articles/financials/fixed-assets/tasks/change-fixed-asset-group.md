@@ -10,39 +10,39 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetChangeGroup
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 32f1daa6de6034d123b1f2cf732059759f6c10ae
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3f980161428fa0aa5a0b9afbe8afc96eb3cb5a3d
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555198"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840050"
 ---
-# <a name="change-a-fixed-asset-group"></a><span data-ttu-id="98494-103">Breyta eignaflokki</span><span class="sxs-lookup"><span data-stu-id="98494-103">Change a fixed asset group</span></span>
+# <a name="change-a-fixed-asset-group"></a><span data-ttu-id="460e0-103">Breyta eignaflokki</span><span class="sxs-lookup"><span data-stu-id="460e0-103">Change a fixed asset group</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="98494-104">Eignum skal úthlutað á réttan eignaflokk.</span><span class="sxs-lookup"><span data-stu-id="98494-104">Fixed assets should be assigned to the correct fixed assets group.</span></span> <span data-ttu-id="98494-105">Eignaflokkurinn er notaður þegar þú:</span><span class="sxs-lookup"><span data-stu-id="98494-105">The fixed assets group is used when you:</span></span>
+<span data-ttu-id="460e0-104">Eignum skal úthlutað á réttan eignaflokk.</span><span class="sxs-lookup"><span data-stu-id="460e0-104">Fixed assets should be assigned to the correct fixed assets group.</span></span> <span data-ttu-id="460e0-105">Eignaflokkurinn er notaður þegar þú:</span><span class="sxs-lookup"><span data-stu-id="460e0-105">The fixed assets group is used when you:</span></span>
 
- - <span data-ttu-id="98494-106">Gerð fyrirspurna og skýrslna</span><span class="sxs-lookup"><span data-stu-id="98494-106">Create inquiries and reports</span></span>
+ - <span data-ttu-id="460e0-106">Gerð fyrirspurna og skýrslna</span><span class="sxs-lookup"><span data-stu-id="460e0-106">Create inquiries and reports</span></span>
 
- - <span data-ttu-id="98494-107">Uppsetning nýrra eigna</span><span class="sxs-lookup"><span data-stu-id="98494-107">Set up new fixed assets</span></span>
+ - <span data-ttu-id="460e0-107">Uppsetning nýrra eigna</span><span class="sxs-lookup"><span data-stu-id="460e0-107">Set up new fixed assets</span></span>
 
- - <span data-ttu-id="98494-108">- Samþætting fjárhags og bókun eignafærslna í rétta fjárhagslykla</span><span class="sxs-lookup"><span data-stu-id="98494-108">Integrate ledgers and post fixed asset transactions to the appropriate ledger accounts</span></span>
+ - <span data-ttu-id="460e0-108">- Samþætting fjárhags og bókun eignafærslna í rétta fjárhagslykla</span><span class="sxs-lookup"><span data-stu-id="460e0-108">Integrate ledgers and post fixed asset transactions to the appropriate ledger accounts</span></span>
 
-<span data-ttu-id="98494-109">Þessi handbók notar sýnifyrirtækið USMF.</span><span class="sxs-lookup"><span data-stu-id="98494-109">This guide uses the USMF demo company.</span></span>
+<span data-ttu-id="460e0-109">Þessi handbók notar sýnifyrirtækið USMF.</span><span class="sxs-lookup"><span data-stu-id="460e0-109">This guide uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="98494-110">Fara í Eignir > Eignir > Eignir.</span><span class="sxs-lookup"><span data-stu-id="98494-110">Go to Fixed assets > Fixed assets > Fixed assets.</span></span>
-2. <span data-ttu-id="98494-111">Velja skal eign til að breyta eignaflokki fyrir.</span><span class="sxs-lookup"><span data-stu-id="98494-111">Select the fixed asset you would like to change the fixed asset group on.</span></span>
-3. <span data-ttu-id="98494-112">Smelltu á Breyta eignaflokki.</span><span class="sxs-lookup"><span data-stu-id="98494-112">Click Change fixed asset group.</span></span>
-4. <span data-ttu-id="98494-113">Í reitinn Nýr flokkur skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="98494-113">In the New group field, enter or select a value.</span></span>
-5. <span data-ttu-id="98494-114">Veljið þennan valkost til að úthluta eignarnúmeri á valdar eignir.</span><span class="sxs-lookup"><span data-stu-id="98494-114">Select this option to assign a fixed asset number to the selected fixed asset.</span></span>
-    * <span data-ttu-id="98494-115">Reiturinn Númer eignar er tiltækur ef valkosturinn Nýtt eignanúmer var valinn.</span><span class="sxs-lookup"><span data-stu-id="98494-115">The Fixed asset number field is available if you select the New fixed asset number option.</span></span>   <span data-ttu-id="98494-116">Ef sjálfvirk tölusetning er sett upp fyrir eignir sýnir svæðið næsta tiltæka eignanúmer.</span><span class="sxs-lookup"><span data-stu-id="98494-116">If automatic numbering is set up for fixed assets, this field shows the next available fixed asset number.</span></span> <span data-ttu-id="98494-117">Hægt er að breyta tölunni.</span><span class="sxs-lookup"><span data-stu-id="98494-117">You can change the number.</span></span>   <span data-ttu-id="98494-118">Ef handvirk tölusetning er sett upp er þessi reitur auður og færa þarf inn nýja eignanúmerið.</span><span class="sxs-lookup"><span data-stu-id="98494-118">If manual numbering is set up, this field is blank and you must enter the new fixed asset number.</span></span>     
-6. <span data-ttu-id="98494-119">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="98494-119">Click OK.</span></span>
-7. <span data-ttu-id="98494-120">Smella á Já.</span><span class="sxs-lookup"><span data-stu-id="98494-120">Click Yes.</span></span>
+1. <span data-ttu-id="460e0-110">Fara í Eignir > Eignir > Eignir.</span><span class="sxs-lookup"><span data-stu-id="460e0-110">Go to Fixed assets > Fixed assets > Fixed assets.</span></span>
+2. <span data-ttu-id="460e0-111">Velja skal eign til að breyta eignaflokki fyrir.</span><span class="sxs-lookup"><span data-stu-id="460e0-111">Select the fixed asset you would like to change the fixed asset group on.</span></span>
+3. <span data-ttu-id="460e0-112">Smelltu á Breyta eignaflokki.</span><span class="sxs-lookup"><span data-stu-id="460e0-112">Click Change fixed asset group.</span></span>
+4. <span data-ttu-id="460e0-113">Í reitinn Nýr flokkur skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="460e0-113">In the New group field, enter or select a value.</span></span>
+5. <span data-ttu-id="460e0-114">Veljið þennan valkost til að úthluta eignarnúmeri á valdar eignir.</span><span class="sxs-lookup"><span data-stu-id="460e0-114">Select this option to assign a fixed asset number to the selected fixed asset.</span></span>
+    * <span data-ttu-id="460e0-115">Reiturinn Númer eignar er tiltækur ef valkosturinn Nýtt eignanúmer var valinn.</span><span class="sxs-lookup"><span data-stu-id="460e0-115">The Fixed asset number field is available if you select the New fixed asset number option.</span></span>   <span data-ttu-id="460e0-116">Ef sjálfvirk tölusetning er sett upp fyrir eignir sýnir svæðið næsta tiltæka eignanúmer.</span><span class="sxs-lookup"><span data-stu-id="460e0-116">If automatic numbering is set up for fixed assets, this field shows the next available fixed asset number.</span></span> <span data-ttu-id="460e0-117">Hægt er að breyta tölunni.</span><span class="sxs-lookup"><span data-stu-id="460e0-117">You can change the number.</span></span>   <span data-ttu-id="460e0-118">Ef handvirk tölusetning er sett upp er þessi reitur auður og færa þarf inn nýja eignanúmerið.</span><span class="sxs-lookup"><span data-stu-id="460e0-118">If manual numbering is set up, this field is blank and you must enter the new fixed asset number.</span></span>     
+6. <span data-ttu-id="460e0-119">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="460e0-119">Click OK.</span></span>
+7. <span data-ttu-id="460e0-120">Smella á Já.</span><span class="sxs-lookup"><span data-stu-id="460e0-120">Click Yes.</span></span>
 

@@ -10,47 +10,47 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, SysDataAreaSelectLookup, LedgerTransVoucher, LedgerTransRelatedVouchers
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fe2590b43a4399c3935906c8ab67a91883bbf094
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: eed4ab9bac4aa40e20709927053613bbffe1be71
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543538"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834711"
 ---
-# <a name="view-related-intercompany-voucher-from-journal"></a><span data-ttu-id="82e8a-103">Skoða tengt fylgiskjal innan samstæðu úr færslubók</span><span class="sxs-lookup"><span data-stu-id="82e8a-103">View related intercompany voucher from journal</span></span>
+# <a name="view-related-intercompany-voucher-from-journal"></a><span data-ttu-id="d81d6-103">Skoða tengt fylgiskjal innan samstæðu úr færslubók</span><span class="sxs-lookup"><span data-stu-id="d81d6-103">View related intercompany voucher from journal</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="82e8a-104">glugginn Tengt fylgiskjal sýnir fylgiskjal úr mótfyrirtæki þegar samstæðufærsla úr almennri færslubók er bókuð úr almenn færslubók</span><span class="sxs-lookup"><span data-stu-id="82e8a-104">The related voucher window shows the voucher from the offset company when posting an intercompany transaction from the general journal.</span></span>
+<span data-ttu-id="d81d6-104">glugginn Tengt fylgiskjal sýnir fylgiskjal úr mótfyrirtæki þegar samstæðufærsla úr almennri færslubók er bókuð úr almenn færslubók</span><span class="sxs-lookup"><span data-stu-id="d81d6-104">The related voucher window shows the voucher from the offset company when posting an intercompany transaction from the general journal.</span></span>
 
 
-## <a name="post-an-intercompany-journal"></a><span data-ttu-id="82e8a-105">Bóka samstæðu færslubók</span><span class="sxs-lookup"><span data-stu-id="82e8a-105">Post an intercompany journal</span></span>
-1. <span data-ttu-id="82e8a-106">Fara í almenn færslubók</span><span class="sxs-lookup"><span data-stu-id="82e8a-106">Go to General journals.</span></span>
-2. <span data-ttu-id="82e8a-107">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="82e8a-107">Click New.</span></span>
-3. <span data-ttu-id="82e8a-108">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="82e8a-108">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="82e8a-109">Í svæðið Heiti, færðu inn eða velja heiti færslubókar innan samstæðu.</span><span class="sxs-lookup"><span data-stu-id="82e8a-109">In the Name field, enter or select the intercompany journal name.</span></span>
-5. <span data-ttu-id="82e8a-110">Smellið á Línur.</span><span class="sxs-lookup"><span data-stu-id="82e8a-110">Click Lines.</span></span>
-6. <span data-ttu-id="82e8a-111">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="82e8a-111">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="82e8a-112">Í reitnum Lykill skal tilgreina gildi sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="82e8a-112">In the Account field, specify the desired values.</span></span>
-8. <span data-ttu-id="82e8a-113">Sláið inn eða veldu gildi í reitnum Lýsing.</span><span class="sxs-lookup"><span data-stu-id="82e8a-113">In the Description field, enter or select a value.</span></span>
-9. <span data-ttu-id="82e8a-114">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="82e8a-114">In the Description field, type a value.</span></span>
-10. <span data-ttu-id="82e8a-115">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="82e8a-115">Close the page.</span></span>
-11. <span data-ttu-id="82e8a-116">Í reitnum Debet skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="82e8a-116">In the Debit field, enter a number.</span></span>
-12. <span data-ttu-id="82e8a-117">Færa inn eða velja mótfyrirtæki í svæði Mótlykill fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="82e8a-117">In the Offset company field, type or select the offset company.</span></span>
-13. <span data-ttu-id="82e8a-118">Færa inn eða velja gildi í svæðinu Mótlykill fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="82e8a-118">In the Offset company field, enter or select a value.</span></span>
-14. <span data-ttu-id="82e8a-119">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="82e8a-119">Close the page.</span></span>
-15. <span data-ttu-id="82e8a-120">Í reitnum Mótlykill skal tilgreina gildi sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="82e8a-120">In the Offset account field, specify the desired values.</span></span>
-16. <span data-ttu-id="82e8a-121">Smellið á „Bóka“.</span><span class="sxs-lookup"><span data-stu-id="82e8a-121">Click Post.</span></span>
+## <a name="post-an-intercompany-journal"></a><span data-ttu-id="d81d6-105">Bóka samstæðu færslubók</span><span class="sxs-lookup"><span data-stu-id="d81d6-105">Post an intercompany journal</span></span>
+1. <span data-ttu-id="d81d6-106">Fara í almenn færslubók</span><span class="sxs-lookup"><span data-stu-id="d81d6-106">Go to General journals.</span></span>
+2. <span data-ttu-id="d81d6-107">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="d81d6-107">Click New.</span></span>
+3. <span data-ttu-id="d81d6-108">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="d81d6-108">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="d81d6-109">Í svæðið Heiti, færðu inn eða velja heiti færslubókar innan samstæðu.</span><span class="sxs-lookup"><span data-stu-id="d81d6-109">In the Name field, enter or select the intercompany journal name.</span></span>
+5. <span data-ttu-id="d81d6-110">Smellið á Línur.</span><span class="sxs-lookup"><span data-stu-id="d81d6-110">Click Lines.</span></span>
+6. <span data-ttu-id="d81d6-111">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="d81d6-111">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="d81d6-112">Í reitnum Lykill skal tilgreina gildi sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="d81d6-112">In the Account field, specify the desired values.</span></span>
+8. <span data-ttu-id="d81d6-113">Sláið inn eða veldu gildi í reitnum Lýsing.</span><span class="sxs-lookup"><span data-stu-id="d81d6-113">In the Description field, enter or select a value.</span></span>
+9. <span data-ttu-id="d81d6-114">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="d81d6-114">In the Description field, type a value.</span></span>
+10. <span data-ttu-id="d81d6-115">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="d81d6-115">Close the page.</span></span>
+11. <span data-ttu-id="d81d6-116">Í reitnum Debet skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="d81d6-116">In the Debit field, enter a number.</span></span>
+12. <span data-ttu-id="d81d6-117">Færa inn eða velja mótfyrirtæki í svæði Mótlykill fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="d81d6-117">In the Offset company field, type or select the offset company.</span></span>
+13. <span data-ttu-id="d81d6-118">Færa inn eða velja gildi í svæðinu Mótlykill fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="d81d6-118">In the Offset company field, enter or select a value.</span></span>
+14. <span data-ttu-id="d81d6-119">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="d81d6-119">Close the page.</span></span>
+15. <span data-ttu-id="d81d6-120">Í reitnum Mótlykill skal tilgreina gildi sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="d81d6-120">In the Offset account field, specify the desired values.</span></span>
+16. <span data-ttu-id="d81d6-121">Smellið á „Bóka“.</span><span class="sxs-lookup"><span data-stu-id="d81d6-121">Click Post.</span></span>
 
-## <a name="view-related-intercompany-voucher"></a><span data-ttu-id="82e8a-122">Skoða tengdar samstæðu fylgiskjal</span><span class="sxs-lookup"><span data-stu-id="82e8a-122">View related intercompany voucher</span></span>
-1. <span data-ttu-id="82e8a-123">Smellt er á Fylgiskjalið.</span><span class="sxs-lookup"><span data-stu-id="82e8a-123">Click Voucher.</span></span>
-2. <span data-ttu-id="82e8a-124">Smellt er á Öll tengd fylgiskjöl</span><span class="sxs-lookup"><span data-stu-id="82e8a-124">Click Related vouchers.</span></span>
-3. <span data-ttu-id="82e8a-125">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="82e8a-125">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="82e8a-126">Smellt er á Fylgiskjalið.</span><span class="sxs-lookup"><span data-stu-id="82e8a-126">Click Voucher.</span></span>
+## <a name="view-related-intercompany-voucher"></a><span data-ttu-id="d81d6-122">Skoða tengdar samstæðu fylgiskjal</span><span class="sxs-lookup"><span data-stu-id="d81d6-122">View related intercompany voucher</span></span>
+1. <span data-ttu-id="d81d6-123">Smellt er á Fylgiskjalið.</span><span class="sxs-lookup"><span data-stu-id="d81d6-123">Click Voucher.</span></span>
+2. <span data-ttu-id="d81d6-124">Smellt er á Öll tengd fylgiskjöl</span><span class="sxs-lookup"><span data-stu-id="d81d6-124">Click Related vouchers.</span></span>
+3. <span data-ttu-id="d81d6-125">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="d81d6-125">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="d81d6-126">Smellt er á Fylgiskjalið.</span><span class="sxs-lookup"><span data-stu-id="d81d6-126">Click Voucher.</span></span>
 

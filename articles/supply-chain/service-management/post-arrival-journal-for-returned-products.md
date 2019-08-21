@@ -18,42 +18,42 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 75f37ce016acb4b479a9cf4dff205562ce00f02c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 63659288ab8551e458f6e92a5045c72441ff68cc
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545314"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743280"
 ---
-# <a name="post-arrival-journal-for-returned-products"></a><span data-ttu-id="ec452-103">Bóka komubók fyrir skilavörur</span><span class="sxs-lookup"><span data-stu-id="ec452-103">Post arrival journal for returned products</span></span> 
+# <a name="post-arrival-journal-for-returned-products"></a><span data-ttu-id="9b5c6-103">Bóka komubók fyrir skilavörur</span><span class="sxs-lookup"><span data-stu-id="9b5c6-103">Post arrival journal for returned products</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="ec452-104">Til að vinna vöruskil ber fyrst að villuleita skilamagnið og uppfæra magnssvæðið í vörukomubók.</span><span class="sxs-lookup"><span data-stu-id="ec452-104">To process a return, first validate the return quantity, update the quantity field in the item arrival journal.</span></span> <span data-ttu-id="ec452-105">Veljið svo ráðstöfunarkóða eða tilgreinið að skoða þurfi skiluðu vörurnar.</span><span class="sxs-lookup"><span data-stu-id="ec452-105">Then select a disposition code or indicate that the returned items have to be inspected.</span></span> <span data-ttu-id="ec452-106">Eftir að búið er að ljúka við þessi þrep er hægt að bóka vörukomubókina fyrir skilapöntunina.</span><span class="sxs-lookup"><span data-stu-id="ec452-106">After completing these steps, you can post the item arrival journal for the return order.</span></span>
+<span data-ttu-id="9b5c6-104">Til að vinna vöruskil ber fyrst að villuleita skilamagnið og uppfæra magnssvæðið í vörukomubók.</span><span class="sxs-lookup"><span data-stu-id="9b5c6-104">To process a return, first validate the return quantity, update the quantity field in the item arrival journal.</span></span> <span data-ttu-id="9b5c6-105">Veljið svo ráðstöfunarkóða eða tilgreinið að skoða þurfi skiluðu vörurnar.</span><span class="sxs-lookup"><span data-stu-id="9b5c6-105">Then select a disposition code or indicate that the returned items have to be inspected.</span></span> <span data-ttu-id="9b5c6-106">Eftir að búið er að ljúka við þessi þrep er hægt að bóka vörukomubókina fyrir skilapöntunina.</span><span class="sxs-lookup"><span data-stu-id="9b5c6-106">After completing these steps, you can post the item arrival journal for the return order.</span></span>
 
-1.  <span data-ttu-id="ec452-107">Smelltu á **Birgðastjórnun** \> **Reglubundið** \> **Komuyfirlit**.</span><span class="sxs-lookup"><span data-stu-id="ec452-107">Click **Inventory management** \> **Periodic** \> **Arrival overview**.</span></span>
+1.  <span data-ttu-id="9b5c6-107">Smelltu á **Birgðastjórnun** \> **Reglubundið** \> **Komuyfirlit**.</span><span class="sxs-lookup"><span data-stu-id="9b5c6-107">Click **Inventory management** \> **Periodic** \> **Arrival overview**.</span></span>
 
-2.  <span data-ttu-id="ec452-108">Í síunni **Heiti uppsetningar** skal velja **Skilapöntun**.</span><span class="sxs-lookup"><span data-stu-id="ec452-108">In the **Setup name** filter, select **Return order**.</span></span>
+2.  <span data-ttu-id="9b5c6-108">Í síunni **Heiti uppsetningar** skal velja **Skilapöntun**.</span><span class="sxs-lookup"><span data-stu-id="9b5c6-108">In the **Setup name** filter, select **Return order**.</span></span>
 
-3.  <span data-ttu-id="ec452-109">Ef listi yfir kvittanir er langur skaltu nota reitina á svæðinu **Svið** til að þrengja listann.</span><span class="sxs-lookup"><span data-stu-id="ec452-109">If the list of receipts is long, use the fields in the **Range** area to narrow the list.</span></span>
+3.  <span data-ttu-id="9b5c6-109">Ef listi yfir kvittanir er langur skaltu nota reitina á svæðinu **Svið** til að þrengja listann.</span><span class="sxs-lookup"><span data-stu-id="9b5c6-109">If the list of receipts is long, use the fields in the **Range** area to narrow the list.</span></span>
 
-4.  <span data-ttu-id="ec452-110">Finndu línu skilapöntunar sem þú vilt bóka, veldu reitinn hennar **Velja fyrir komu** og smelltu síðan á **Upphafskoma**.</span><span class="sxs-lookup"><span data-stu-id="ec452-110">Locate the line of the return order that you want to post, select its **Select for arrival** box, and then click **Start arrival**.</span></span>
+4.  <span data-ttu-id="9b5c6-110">Finndu línu skilapöntunar sem þú vilt bóka, veldu reitinn hennar **Velja fyrir komu** og smelltu síðan á **Upphafskoma**.</span><span class="sxs-lookup"><span data-stu-id="9b5c6-110">Locate the line of the return order that you want to post, select its **Select for arrival** box, and then click **Start arrival**.</span></span>
 
-5.  <span data-ttu-id="ec452-111">Smelltu á **Færslubækur** \> **Sýna komur frá kvittunum** til að opna skjámyndina **Staðsetningarbók**.</span><span class="sxs-lookup"><span data-stu-id="ec452-111">Click **Journals** \> **Show arrivals from receipts** to open the **Location journal** form.</span></span>
+5.  <span data-ttu-id="9b5c6-111">Smelltu á **Færslubækur** \> **Sýna komur frá kvittunum** til að opna skjámyndina **Staðsetningarbók**.</span><span class="sxs-lookup"><span data-stu-id="9b5c6-111">Click **Journals** \> **Show arrivals from receipts** to open the **Location journal** form.</span></span>
     
 
     > [!TIP]
-    > <P><span data-ttu-id="ec452-112">Til að skoða nákvæmar upplýsingar velurðu færslubók og smellir síðan á <STRONG>Línur</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="ec452-112">To view detailed information, select a journal, and then click <STRONG>Lines</STRONG>.</span></span></P>
+    > <P><span data-ttu-id="9b5c6-112">Til að skoða nákvæmar upplýsingar velurðu færslubók og smellir síðan á <STRONG>Línur</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="9b5c6-112">To view detailed information, select a journal, and then click <STRONG>Lines</STRONG>.</span></span></P>
 
 
-6.  <span data-ttu-id="ec452-113">Gerðu allar nauðsynlegar uppfærslur og smelltu síðan á **Bóka**.</span><span class="sxs-lookup"><span data-stu-id="ec452-113">Make any necessary updates, and then click **Post**.</span></span>
+6.  <span data-ttu-id="9b5c6-113">Gerðu allar nauðsynlegar uppfærslur og smelltu síðan á **Bóka**.</span><span class="sxs-lookup"><span data-stu-id="9b5c6-113">Make any necessary updates, and then click **Post**.</span></span>
 
-<span data-ttu-id="ec452-114">Eftir að færslubók er bókuð eru skilavörurnar skráðar í birgðum og skjámyndin **Skilapantanir** gefur til kynna að hlutirnir hafi skilað sér til vöruhússins.</span><span class="sxs-lookup"><span data-stu-id="ec452-114">After the journal is posted, the returned items are registered in inventory, and the **Return orders** form indicates that the items have arrived at the warehouse.</span></span>
+<span data-ttu-id="9b5c6-114">Eftir að færslubók er bókuð eru skilavörurnar skráðar í birgðum og skjámyndin **Skilapantanir** gefur til kynna að hlutirnir hafi skilað sér til vöruhússins.</span><span class="sxs-lookup"><span data-stu-id="9b5c6-114">After the journal is posted, the returned items are registered in inventory, and the **Return orders** form indicates that the items have arrived at the warehouse.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="ec452-115">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="ec452-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9b5c6-115">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="9b5c6-115">See also</span></span>
 
-<span data-ttu-id="ec452-116">[Staðsetningarbók (skjámynd)](https://technet.microsoft.com/en-us/library/aa584822\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="ec452-116">[Location journal (form)](https://technet.microsoft.com/en-us/library/aa584822\(v=ax.60\))</span></span>
+<span data-ttu-id="9b5c6-116">[Staðsetningarbók (skjámynd)](https://technet.microsoft.com/library/aa584822\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="9b5c6-116">[Location journal (form)](https://technet.microsoft.com/library/aa584822\(v=ax.60\))</span></span>
 
   
 

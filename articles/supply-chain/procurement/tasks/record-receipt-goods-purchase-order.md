@@ -1,55 +1,51 @@
 ---
 title: Skrá vörumóttöku í innkaupapöntun
-description: Þessi verklýsing sýnir hvernig á að skrá móttöku á vörum beint á innkaupapöntun.
+description: Þetta efni útskýrir hvernig á að skrá móttöku á vörum beint á innkaupapöntun.
 author: FrankDahl
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/09/19
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 14d1d43479f9864d8fd5ed94a98a654e75eeedf0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3e81bb3fe95326636c28885d4decad69f841e3db
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551907"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1844010"
 ---
-# <a name="record-the-receipt-of-goods-on-the-purchase-order"></a><span data-ttu-id="71bce-103">Skrá vörumóttöku í innkaupapöntun</span><span class="sxs-lookup"><span data-stu-id="71bce-103">Record the receipt of goods on the purchase order</span></span>
+# <a name="record-the-receipt-of-goods-on-the-purchase-order"></a><span data-ttu-id="2d032-103">Skrá vörumóttöku í innkaupapöntun</span><span class="sxs-lookup"><span data-stu-id="2d032-103">Record the receipt of goods on the purchase order</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="71bce-104">Þessi verklýsing sýnir hvernig á að skrá móttöku á vörum beint á innkaupapöntun.</span><span class="sxs-lookup"><span data-stu-id="71bce-104">This procedure shows you how to record receipt of goods directly on a purchase order.</span></span> <span data-ttu-id="71bce-105">Einnig er hægt að skrá innhreyfingu afurða í vöruhúsinu og síðan síðar skrá hana í innkaupapöntun.</span><span class="sxs-lookup"><span data-stu-id="71bce-105">It’s also possible to register product receipt in the warehouse, and then later record it on the purchase order.</span></span> <span data-ttu-id="71bce-106">Þetta verk er yfirleitt gert af innkaupaaðila eða af samræmingaraðila viðskiptaskulda.</span><span class="sxs-lookup"><span data-stu-id="71bce-106">This task is typically done by a purchasing agent or an accounts payable coordinator.</span></span> <span data-ttu-id="71bce-107">Dæmi sem eru sýnd í þessari handbók er hægt að nota sýnigögn USMF-fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="71bce-107">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="71bce-108">Dæmin inniheldur skref til að stofna einfalda innkaupapöntun, þannig að hægt er að spila ferlið sem leiðarvísi fyrir verk.</span><span class="sxs-lookup"><span data-stu-id="71bce-108">The example includes steps to create a simple purchase order so that you can play the procedure as a task guide.</span></span> <span data-ttu-id="71bce-109">Ef þú værir að nota ferlið á þín eigin gögn, myndirðu byrgja á undirverkinu Færsla innhreyfingar á vörum.</span><span class="sxs-lookup"><span data-stu-id="71bce-109">If you were using the procedure on your own data, you would start at the Record receipt of goods subtask.</span></span>
+<span data-ttu-id="2d032-104">Þetta efni útskýrir hvernig á að skrá móttöku á vörum beint á innkaupapöntun.</span><span class="sxs-lookup"><span data-stu-id="2d032-104">This topic explains how to record receipt of goods directly on a purchase order.</span></span> <span data-ttu-id="2d032-105">Einnig er hægt að skrá innhreyfingu afurða í vöruhúsinu og síðan síðar skrá hana í innkaupapöntun.</span><span class="sxs-lookup"><span data-stu-id="2d032-105">It’s also possible to register product receipt in the warehouse, and then later record it on the purchase order.</span></span> <span data-ttu-id="2d032-106">Þetta verk er yfirleitt gert af innkaupaaðila eða af samræmingaraðila viðskiptaskulda.</span><span class="sxs-lookup"><span data-stu-id="2d032-106">This task is typically done by a purchasing agent or an accounts payable coordinator.</span></span> <span data-ttu-id="2d032-107">Dæmi sem eru sýnd í þessari handbók er hægt að nota sýnigögn USMF-fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="2d032-107">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="2d032-108">Dæmin inniheldur skref til að stofna einfalda innkaupapöntun, þannig að hægt er að spila ferlið sem leiðarvísi fyrir verk.</span><span class="sxs-lookup"><span data-stu-id="2d032-108">The example includes steps to create a simple purchase order so that you can play the procedure as a task guide.</span></span> <span data-ttu-id="2d032-109">Ef þú værir að nota ferlið á þín eigin gögn, myndirðu byrgja á undirverkinu **Færsla innhreyfingar á vörum**.</span><span class="sxs-lookup"><span data-stu-id="2d032-109">If you were using the procedure on your own data, you would start at the **Record receipt of goods** subtask.</span></span>
 
 
-## <a name="prepare-a-new-purchase-order-for-receipt-of-goods"></a><span data-ttu-id="71bce-110">Undirbúa nýja innkaupapöntun vegna móttöku afurða.</span><span class="sxs-lookup"><span data-stu-id="71bce-110">Prepare a new purchase order for receipt of goods</span></span>
-1. <span data-ttu-id="71bce-111">Fara í innkaup og aðföng > innkaupapöntun  > allar innkaupapantanir.</span><span class="sxs-lookup"><span data-stu-id="71bce-111">Go to Procurement and sourcing > Purchase orders > All purchase orders.</span></span>
-2. <span data-ttu-id="71bce-112">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="71bce-112">Click New.</span></span>
-3. <span data-ttu-id="71bce-113">Í svæðinu Lánardrottnalykill skal slá inn 'US-101'.</span><span class="sxs-lookup"><span data-stu-id="71bce-113">In the Vendor account field, enter US-101.</span></span>
-4. <span data-ttu-id="71bce-114">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="71bce-114">Click OK.</span></span>
-5. <span data-ttu-id="71bce-115">Í svæðið vörunúmer sláið inn M0001.</span><span class="sxs-lookup"><span data-stu-id="71bce-115">In the Item number field, enter M0001.</span></span>
-6. <span data-ttu-id="71bce-116">Í reitinn magn skal slá inn 5.</span><span class="sxs-lookup"><span data-stu-id="71bce-116">In the Quantity field, enter 5.</span></span>
-7. <span data-ttu-id="71bce-117">Smellið á „Innkaup“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="71bce-117">On the Action Pane, click Purchase.</span></span>
-8. <span data-ttu-id="71bce-118">Smellið á „Staðfesta“.</span><span class="sxs-lookup"><span data-stu-id="71bce-118">Click Confirm.</span></span>
+## <a name="prepare-a-new-purchase-order-for-receipt-of-goods"></a><span data-ttu-id="2d032-110">Undirbúa nýja innkaupapöntun vegna móttöku afurða.</span><span class="sxs-lookup"><span data-stu-id="2d032-110">Prepare a new purchase order for receipt of goods</span></span>
+1. <span data-ttu-id="2d032-111">Farðu í **Skoðunarrúðu > Kerfiseiningar > Innkaup og aðföng > Innkaupapantanir > Allar innkaupapantanir**.</span><span class="sxs-lookup"><span data-stu-id="2d032-111">Go to **Navigation pane > Modules > Procurement and sourcing > Purchase orders > All purchase orders**.</span></span>
+2. <span data-ttu-id="2d032-112">Veljið **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="2d032-112">Select **New**.</span></span>
+3. <span data-ttu-id="2d032-113">Í svæðinu **Lánardrottnalykill** skal slá inn `US-101`.</span><span class="sxs-lookup"><span data-stu-id="2d032-113">In the **Vendor account** field, enter `US-101`.</span></span>
+4. <span data-ttu-id="2d032-114">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="2d032-114">Select **OK**.</span></span>
+5. <span data-ttu-id="2d032-115">Í reitinn **Vörunúmer** slærðu inn `M0001`.</span><span class="sxs-lookup"><span data-stu-id="2d032-115">In the **Item number** field, enter `M0001`.</span></span>
+6. <span data-ttu-id="2d032-116">Í reitinn **Magn** skal slá inn `5`.</span><span class="sxs-lookup"><span data-stu-id="2d032-116">In the **Quantity** field, enter `5`.</span></span>
+7. <span data-ttu-id="2d032-117">Í aðgerðasvæðinu velurðu **Innkaup**.</span><span class="sxs-lookup"><span data-stu-id="2d032-117">On the Action Pane, select **Purchase**.</span></span>
+8. <span data-ttu-id="2d032-118">Veldu **Staðfesta**.</span><span class="sxs-lookup"><span data-stu-id="2d032-118">Select **Confirm**.</span></span>
 
-## <a name="record-receipt-of-goods"></a><span data-ttu-id="71bce-119">Skrásetja viðtöku varnings</span><span class="sxs-lookup"><span data-stu-id="71bce-119">Record receipt of goods</span></span>
-1. <span data-ttu-id="71bce-120">Smellið á „Móttaka“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="71bce-120">On the Action Pane, click Receive.</span></span>
-2. <span data-ttu-id="71bce-121">Smellið á „Innhreyfingarskjal“.</span><span class="sxs-lookup"><span data-stu-id="71bce-121">Click Product receipt.</span></span>
-    * <span data-ttu-id="71bce-122">Magnsvæðið leyfir þér að velja mismunandi valkosti fyrir það magn sem á að taka á móti.</span><span class="sxs-lookup"><span data-stu-id="71bce-122">The Quantity field allows you to select different options for the quantity that you want to receive.</span></span> <span data-ttu-id="71bce-123">Til dæmis, ef áður hefur verið skráð magn í vöruhúsi, er hægt að velja Skráð magn .</span><span class="sxs-lookup"><span data-stu-id="71bce-123">For example, if a quantity has previously been registered in the warehouse, you can select Registered quantity.</span></span>  <span data-ttu-id="71bce-124">Í þessu dæmis, notaðu gildið Pantað magn.</span><span class="sxs-lookup"><span data-stu-id="71bce-124">For this example, use the value Ordered quantity.</span></span>   
-3. <span data-ttu-id="71bce-125">Í reitinn móttaka afurða skal slá inn hvaða gildi sem er.</span><span class="sxs-lookup"><span data-stu-id="71bce-125">In the Product receipt field, type any value.</span></span>
-    * <span data-ttu-id="71bce-126">Þetta svæði er notað til að færa inn tilvísun sem verður notað sem fylgiskjal fyrir færslubók innhreyfingarskjala afurða.</span><span class="sxs-lookup"><span data-stu-id="71bce-126">This field is used to enter a reference that will be used as voucher for the product receipt journal.</span></span>  
-4. <span data-ttu-id="71bce-127">Stækka línuhlutann.</span><span class="sxs-lookup"><span data-stu-id="71bce-127">Expand the Lines section.</span></span>
-5. <span data-ttu-id="71bce-128">Stillið magn á „4“.</span><span class="sxs-lookup"><span data-stu-id="71bce-128">Set Quantity to '4'.</span></span>
-    * <span data-ttu-id="71bce-129">Hér er hægt að tilgreina handvirkt magn sem fæst fyrir hverja línu í pöntun.</span><span class="sxs-lookup"><span data-stu-id="71bce-129">Here you are able to manually specify the quantity that is being received for each line on the order.</span></span>  
-6. <span data-ttu-id="71bce-130">Fella saman hlutann línur.</span><span class="sxs-lookup"><span data-stu-id="71bce-130">Collapse the Lines section.</span></span>
-7. <span data-ttu-id="71bce-131">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="71bce-131">Click OK.</span></span>
-    * <span data-ttu-id="71bce-132">Vörurnar hafa nú verið skráð sem móttekið á innkaupapöntuninni og búið er að stofna færslubók fyrir innhreyfingarskjal afurða sem endurspegla þetta.</span><span class="sxs-lookup"><span data-stu-id="71bce-132">The goods have now been recorded as received on the purchase order, and a product receipt journal has been created as document to reflect this.</span></span> <span data-ttu-id="71bce-133">Hægt er að nota aðgerðina innhreyfing afurðar til að fara yfir færslubækur sem stofnaðar eru með innkaupapöntuninni og sjá hvað var móttekið og hvenær.</span><span class="sxs-lookup"><span data-stu-id="71bce-133">You can use the Product receipt action to review the journals created with the purchase order, and see what was received, and when.</span></span>  
+## <a name="record-receipt-of-goods"></a><span data-ttu-id="2d032-119">Skrásetja viðtöku varnings</span><span class="sxs-lookup"><span data-stu-id="2d032-119">Record receipt of goods</span></span>
+1. <span data-ttu-id="2d032-120">Í aðgerðasvæðinu velurðu **Móttaka**.</span><span class="sxs-lookup"><span data-stu-id="2d032-120">On the Action Pane, select **Receive**.</span></span>
+2. <span data-ttu-id="2d032-121">Velja **Innhreyfingarskjal afurða**.</span><span class="sxs-lookup"><span data-stu-id="2d032-121">Select **Product receipt**.</span></span> <span data-ttu-id="2d032-122">Reiturinn **Magn** leyfir þér að velja mismunandi valkosti fyrir það magn sem á að taka á móti.</span><span class="sxs-lookup"><span data-stu-id="2d032-122">The **Quantity** field allows you to select different options for the quantity that you want to receive.</span></span> <span data-ttu-id="2d032-123">Til dæmis, ef áður hefur verið skráð magn í vöruhúsi, er hægt að velja **Skráð magn**.</span><span class="sxs-lookup"><span data-stu-id="2d032-123">For example, if a quantity has previously been registered in the warehouse, you can select **Registered quantity**.</span></span> <span data-ttu-id="2d032-124">Í þessu dæmis, notaðu gildið **Pantað magn**.</span><span class="sxs-lookup"><span data-stu-id="2d032-124">For this example, use the value **Ordered quantity**.</span></span>
+3. <span data-ttu-id="2d032-125">Víkkið út hlutann **Yfirlit**.</span><span class="sxs-lookup"><span data-stu-id="2d032-125">Expand the **Overview** section.</span></span>
+4. <span data-ttu-id="2d032-126">Í reitinn **Móttaka afurða** skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="2d032-126">In the **Product receipt** field, type any value.</span></span> <span data-ttu-id="2d032-127">Þetta svæði er notað til að færa inn tilvísun sem verður notað sem fylgiskjal fyrir færslubók innhreyfingarskjala afurða.</span><span class="sxs-lookup"><span data-stu-id="2d032-127">This field is used to enter a reference that will be used as voucher for the product receipt journal.</span></span>  
+5. <span data-ttu-id="2d032-128">Stækka hlutann **Línur**.</span><span class="sxs-lookup"><span data-stu-id="2d032-128">Expand the **Lines** section.</span></span>
+6. <span data-ttu-id="2d032-129">Stillið **Magn** á „4“.</span><span class="sxs-lookup"><span data-stu-id="2d032-129">Set **Quantity** to '4'.</span></span> <span data-ttu-id="2d032-130">Hér er hægt að tilgreina handvirkt magn sem fæst fyrir hverja línu í pöntun.</span><span class="sxs-lookup"><span data-stu-id="2d032-130">Here you are able to manually specify the quantity that is being received for each line on the order.</span></span>  
+7. <span data-ttu-id="2d032-131">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="2d032-131">Select **OK**.</span></span> <span data-ttu-id="2d032-132">Vörurnar hafa nú verið skráð sem móttekið á innkaupapöntuninni og búið er að stofna færslubók fyrir innhreyfingarskjal afurða sem endurspegla þetta.</span><span class="sxs-lookup"><span data-stu-id="2d032-132">The goods have now been recorded as received on the purchase order, and a product receipt journal has been created as document to reflect this.</span></span> <span data-ttu-id="2d032-133">Hægt er að nota aðgerðina innhreyfing afurðar til að fara yfir færslubækur sem stofnaðar eru með innkaupapöntuninni og sjá hvað var móttekið og hvenær.</span><span class="sxs-lookup"><span data-stu-id="2d032-133">You can use the Product receipt action to review the journals created with the purchase order, and see what was received, and when.</span></span>  
 

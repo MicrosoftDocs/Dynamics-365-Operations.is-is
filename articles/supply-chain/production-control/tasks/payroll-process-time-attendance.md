@@ -10,63 +10,63 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgPayTable, JmgPayRate, JmgPayAgreementTable, JmgPayAgreementLine, HcmWorker
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0174f438396d814d153befe4a59a79b6eebb2288
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5a52ad77d3f03898d26c225900fe79ca30493a67
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560187"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843530"
 ---
-# <a name="enable-the-payroll-process-for-time-and-attendance"></a><span data-ttu-id="29af1-103">Virkja launaferli fyrir tíma og mætingu</span><span class="sxs-lookup"><span data-stu-id="29af1-103">Enable the payroll process for time and attendance</span></span>
+# <a name="enable-the-payroll-process-for-time-and-attendance"></a><span data-ttu-id="72da7-103">Virkja launaferli fyrir tíma og mætingu</span><span class="sxs-lookup"><span data-stu-id="72da7-103">Enable the payroll process for time and attendance</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="29af1-104">Þessi verklýsing sýnir hvernig á að virkja launavinnslu í tími og mæting.</span><span class="sxs-lookup"><span data-stu-id="29af1-104">This procedure shows how to enable the payroll process for time and attendance.</span></span> <span data-ttu-id="29af1-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="29af1-105">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="72da7-104">Þessi verklýsing sýnir hvernig á að virkja launavinnslu í tími og mæting.</span><span class="sxs-lookup"><span data-stu-id="72da7-104">This procedure shows how to enable the payroll process for time and attendance.</span></span> <span data-ttu-id="72da7-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="72da7-105">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-pay-type-with-a-related-pay-rate"></a><span data-ttu-id="29af1-106">Stofna launagerð með tengdum launataxta</span><span class="sxs-lookup"><span data-stu-id="29af1-106">Create a pay type with a related pay rate</span></span>
-1. <span data-ttu-id="29af1-107">Tími og viðvera > Setja upp > Laun > Launagerð</span><span class="sxs-lookup"><span data-stu-id="29af1-107">Time and attendance > Setup > Payroll > Pay types</span></span>
-2. <span data-ttu-id="29af1-108">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="29af1-108">Click New.</span></span>
-3. <span data-ttu-id="29af1-109">Í reitinn launagerð skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="29af1-109">In the Pay type field, type a value.</span></span>
-4. <span data-ttu-id="29af1-110">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="29af1-110">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="29af1-111">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="29af1-111">Click Save.</span></span>
-6. <span data-ttu-id="29af1-112">Smellt er á Taxta.</span><span class="sxs-lookup"><span data-stu-id="29af1-112">Click Rates.</span></span>
-    * <span data-ttu-id="29af1-113">Taxtar fyrir launagerðir eru settar upp fyrir tiltekin tímabil, og einstakir taxtar má stofna fyrir starfsmenn</span><span class="sxs-lookup"><span data-stu-id="29af1-113">Rates for pay types are set up for specific time intervals, and individual rates can be created for workers.</span></span> <span data-ttu-id="29af1-114">Það er ekki alltaf nauðsynlegt að stofna taxta fyrir launagerðir fyrir tími og mæting.</span><span class="sxs-lookup"><span data-stu-id="29af1-114">It is not always necessary to create rates for pay types in time and attendance.</span></span> <span data-ttu-id="29af1-115">Þessar upplýsingar gætu þegar verið til staðar í launakerfi sem notað til að mynda laun.</span><span class="sxs-lookup"><span data-stu-id="29af1-115">This information may already exist in the payroll system that is used to generate wages.</span></span>  
-7. <span data-ttu-id="29af1-116">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="29af1-116">Click New.</span></span>
-8. <span data-ttu-id="29af1-117">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="29af1-117">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="29af1-118">Í reitinn taxtar skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="29af1-118">In the Rate field, enter a number.</span></span>
-10. <span data-ttu-id="29af1-119">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="29af1-119">Click Save.</span></span>
+## <a name="create-a-pay-type-with-a-related-pay-rate"></a><span data-ttu-id="72da7-106">Stofna launagerð með tengdum launataxta</span><span class="sxs-lookup"><span data-stu-id="72da7-106">Create a pay type with a related pay rate</span></span>
+1. <span data-ttu-id="72da7-107">Tími og viðvera > Setja upp > Laun > Launagerð</span><span class="sxs-lookup"><span data-stu-id="72da7-107">Time and attendance > Setup > Payroll > Pay types</span></span>
+2. <span data-ttu-id="72da7-108">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="72da7-108">Click New.</span></span>
+3. <span data-ttu-id="72da7-109">Í reitinn launagerð skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="72da7-109">In the Pay type field, type a value.</span></span>
+4. <span data-ttu-id="72da7-110">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="72da7-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="72da7-111">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="72da7-111">Click Save.</span></span>
+6. <span data-ttu-id="72da7-112">Smellt er á Taxta.</span><span class="sxs-lookup"><span data-stu-id="72da7-112">Click Rates.</span></span>
+    * <span data-ttu-id="72da7-113">Taxtar fyrir launagerðir eru settar upp fyrir tiltekin tímabil, og einstakir taxtar má stofna fyrir starfsmenn</span><span class="sxs-lookup"><span data-stu-id="72da7-113">Rates for pay types are set up for specific time intervals, and individual rates can be created for workers.</span></span> <span data-ttu-id="72da7-114">Það er ekki alltaf nauðsynlegt að stofna taxta fyrir launagerðir fyrir tími og mæting.</span><span class="sxs-lookup"><span data-stu-id="72da7-114">It is not always necessary to create rates for pay types in time and attendance.</span></span> <span data-ttu-id="72da7-115">Þessar upplýsingar gætu þegar verið til staðar í launakerfi sem notað til að mynda laun.</span><span class="sxs-lookup"><span data-stu-id="72da7-115">This information may already exist in the payroll system that is used to generate wages.</span></span>  
+7. <span data-ttu-id="72da7-116">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="72da7-116">Click New.</span></span>
+8. <span data-ttu-id="72da7-117">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="72da7-117">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="72da7-118">Í reitinn taxtar skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="72da7-118">In the Rate field, enter a number.</span></span>
+10. <span data-ttu-id="72da7-119">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="72da7-119">Click Save.</span></span>
 
-## <a name="create-a-pay-agreement"></a><span data-ttu-id="29af1-120">Stofna launasamning</span><span class="sxs-lookup"><span data-stu-id="29af1-120">Create a pay agreement</span></span>
-1. <span data-ttu-id="29af1-121">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="29af1-121">Close the page.</span></span>
-2. <span data-ttu-id="29af1-122">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="29af1-122">Close the page.</span></span>
-3. <span data-ttu-id="29af1-123">Fara á launasamninga.</span><span class="sxs-lookup"><span data-stu-id="29af1-123">Go to Pay agreements.</span></span>
-    * <span data-ttu-id="29af1-124">Tími og viðvera > Setja upp > Launagerð</span><span class="sxs-lookup"><span data-stu-id="29af1-124">Time and attendance > Setup > Pay agreements</span></span>  
-4. <span data-ttu-id="29af1-125">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="29af1-125">Click New.</span></span>
-5. <span data-ttu-id="29af1-126">Færa inn gildi í svæðinu launasamningur.</span><span class="sxs-lookup"><span data-stu-id="29af1-126">In the Pay agreement field, type a value.</span></span>
-6. <span data-ttu-id="29af1-127">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="29af1-127">In the Description field, type a value.</span></span>
-7. <span data-ttu-id="29af1-128">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="29af1-128">Click Save.</span></span>
-8. <span data-ttu-id="29af1-129">Smellið á samningslínur.</span><span class="sxs-lookup"><span data-stu-id="29af1-129">Click Agreement lines.</span></span>
-9. <span data-ttu-id="29af1-130">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="29af1-130">Click New.</span></span>
-10. <span data-ttu-id="29af1-131">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="29af1-131">In the list, mark the selected row.</span></span>
-11. <span data-ttu-id="29af1-132">Færa inn eða veljið gildi í svæðinu gerð forstillingar.</span><span class="sxs-lookup"><span data-stu-id="29af1-132">In the Profile type field, enter or select a value.</span></span>
-12. <span data-ttu-id="29af1-133">Færa inn eða veljið gildi í svæðinu launagerð.</span><span class="sxs-lookup"><span data-stu-id="29af1-133">In the Pay type field, enter or select a value.</span></span>
+## <a name="create-a-pay-agreement"></a><span data-ttu-id="72da7-120">Stofna launasamning</span><span class="sxs-lookup"><span data-stu-id="72da7-120">Create a pay agreement</span></span>
+1. <span data-ttu-id="72da7-121">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="72da7-121">Close the page.</span></span>
+2. <span data-ttu-id="72da7-122">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="72da7-122">Close the page.</span></span>
+3. <span data-ttu-id="72da7-123">Fara á launasamninga.</span><span class="sxs-lookup"><span data-stu-id="72da7-123">Go to Pay agreements.</span></span>
+    * <span data-ttu-id="72da7-124">Tími og viðvera > Setja upp > Launagerð</span><span class="sxs-lookup"><span data-stu-id="72da7-124">Time and attendance > Setup > Pay agreements</span></span>  
+4. <span data-ttu-id="72da7-125">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="72da7-125">Click New.</span></span>
+5. <span data-ttu-id="72da7-126">Færa inn gildi í svæðinu launasamningur.</span><span class="sxs-lookup"><span data-stu-id="72da7-126">In the Pay agreement field, type a value.</span></span>
+6. <span data-ttu-id="72da7-127">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="72da7-127">In the Description field, type a value.</span></span>
+7. <span data-ttu-id="72da7-128">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="72da7-128">Click Save.</span></span>
+8. <span data-ttu-id="72da7-129">Smellið á samningslínur.</span><span class="sxs-lookup"><span data-stu-id="72da7-129">Click Agreement lines.</span></span>
+9. <span data-ttu-id="72da7-130">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="72da7-130">Click New.</span></span>
+10. <span data-ttu-id="72da7-131">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="72da7-131">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="72da7-132">Færa inn eða veljið gildi í svæðinu gerð forstillingar.</span><span class="sxs-lookup"><span data-stu-id="72da7-132">In the Profile type field, enter or select a value.</span></span>
+12. <span data-ttu-id="72da7-133">Færa inn eða veljið gildi í svæðinu launagerð.</span><span class="sxs-lookup"><span data-stu-id="72da7-133">In the Pay type field, enter or select a value.</span></span>
 
-## <a name="set-up-pay-agreement-for-time-and-registration-worker"></a><span data-ttu-id="29af1-134">Setja upp launasamning fyrir tíma og skráningu starfsmann</span><span class="sxs-lookup"><span data-stu-id="29af1-134">Set up pay agreement for time and registration worker</span></span>
-1. <span data-ttu-id="29af1-135">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="29af1-135">Close the page.</span></span>
-2. <span data-ttu-id="29af1-136">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="29af1-136">Close the page.</span></span>
-3. <span data-ttu-id="29af1-137">Fara í starfsmaður sem sinnir tímaskráningu</span><span class="sxs-lookup"><span data-stu-id="29af1-137">Go to Time registration workers.</span></span>
-    * <span data-ttu-id="29af1-138">Tími og viðvera > Setja upp > Starfsmaður sem sinnir tímaskráningu</span><span class="sxs-lookup"><span data-stu-id="29af1-138">Time and attendance > Setup > Time registration workers</span></span>  
-4. <span data-ttu-id="29af1-139">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="29af1-139">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="29af1-140">Smellið á flipann Ráðningar.</span><span class="sxs-lookup"><span data-stu-id="29af1-140">Click the Employment tab.</span></span>
-6. <span data-ttu-id="29af1-141">Útvíkka hlutann tímaskráning.</span><span class="sxs-lookup"><span data-stu-id="29af1-141">Expand the Time registration section.</span></span>
-7. <span data-ttu-id="29af1-142">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="29af1-142">Click Edit.</span></span>
-8. <span data-ttu-id="29af1-143">Sláðu inn eða veldu gildi í reitnum launasamningur.</span><span class="sxs-lookup"><span data-stu-id="29af1-143">In the Pay agreement field, enter or select a value.</span></span>
+## <a name="set-up-pay-agreement-for-time-and-registration-worker"></a><span data-ttu-id="72da7-134">Setja upp launasamning fyrir tíma og skráningu starfsmann</span><span class="sxs-lookup"><span data-stu-id="72da7-134">Set up pay agreement for time and registration worker</span></span>
+1. <span data-ttu-id="72da7-135">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="72da7-135">Close the page.</span></span>
+2. <span data-ttu-id="72da7-136">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="72da7-136">Close the page.</span></span>
+3. <span data-ttu-id="72da7-137">Fara í starfsmaður sem sinnir tímaskráningu</span><span class="sxs-lookup"><span data-stu-id="72da7-137">Go to Time registration workers.</span></span>
+    * <span data-ttu-id="72da7-138">Tími og viðvera > Setja upp > Starfsmaður sem sinnir tímaskráningu</span><span class="sxs-lookup"><span data-stu-id="72da7-138">Time and attendance > Setup > Time registration workers</span></span>  
+4. <span data-ttu-id="72da7-139">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="72da7-139">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="72da7-140">Smellið á flipann Ráðningar.</span><span class="sxs-lookup"><span data-stu-id="72da7-140">Click the Employment tab.</span></span>
+6. <span data-ttu-id="72da7-141">Útvíkka hlutann tímaskráning.</span><span class="sxs-lookup"><span data-stu-id="72da7-141">Expand the Time registration section.</span></span>
+7. <span data-ttu-id="72da7-142">Smellið á „Breyta“.</span><span class="sxs-lookup"><span data-stu-id="72da7-142">Click Edit.</span></span>
+8. <span data-ttu-id="72da7-143">Sláðu inn eða veldu gildi í reitnum launasamningur.</span><span class="sxs-lookup"><span data-stu-id="72da7-143">In the Pay agreement field, enter or select a value.</span></span>
 

@@ -9,79 +9,79 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7b39b7649aaef0d354b61e3d70b6cac887282ed
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 16d9dceb4c2a22eab9a5ecb8501393444f20498b
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543888"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841370"
 ---
-# <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a><span data-ttu-id="e1ed1-103">Stofna og úthluta kostnaðarhegðunarreglu fyrir kostnaðarstýringareiningu</span><span class="sxs-lookup"><span data-stu-id="e1ed1-103">Create and assign a cost behavior policy to a cost control unit</span></span>
+# <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a><span data-ttu-id="b4fbf-103">Stofna og úthluta kostnaðarhegðunarreglu fyrir kostnaðarstýringareiningu</span><span class="sxs-lookup"><span data-stu-id="b4fbf-103">Create and assign a cost behavior policy to a cost control unit</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="e1ed1-104">Kostnaður er flokkaður út frá kostnaðarhegðun sem annað hvort fastur eða breytilegur.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-104">Cost behavior is the classification of costs as either fixed or variable.</span></span> <span data-ttu-id="e1ed1-105">Stefna og samsvarandi reglur er úthlutað til kostnaðarstýringareiningar svo stefnan taki gildi.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-105">A policy and the corresponding rules have to be assigned to a cost control unit for the policy to become effective.</span></span> <span data-ttu-id="e1ed1-106">Nota þetta ferli til að stofna stefnu og síðan úthluta stefnunni til kostnaðarstýringareiningar</span><span class="sxs-lookup"><span data-stu-id="e1ed1-106">Use this procedure to create a policy and then assign the policy to a cost control unit.</span></span>
+<span data-ttu-id="b4fbf-104">Kostnaður er flokkaður út frá kostnaðarhegðun sem annað hvort fastur eða breytilegur.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-104">Cost behavior is the classification of costs as either fixed or variable.</span></span> <span data-ttu-id="b4fbf-105">Stefna og samsvarandi reglur er úthlutað til kostnaðarstýringareiningar svo stefnan taki gildi.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-105">A policy and the corresponding rules have to be assigned to a cost control unit for the policy to become effective.</span></span> <span data-ttu-id="b4fbf-106">Nota þetta ferli til að stofna stefnu og síðan úthluta stefnunni til kostnaðarstýringareiningar</span><span class="sxs-lookup"><span data-stu-id="b4fbf-106">Use this procedure to create a policy and then assign the policy to a cost control unit.</span></span>
 
 
-## <a name="create-a-cost-behavior-hierarchy"></a><span data-ttu-id="e1ed1-107">Stofna Stigveldi kostnaðarhegðunar</span><span class="sxs-lookup"><span data-stu-id="e1ed1-107">Create a cost behavior hierarchy</span></span>
-1. <span data-ttu-id="e1ed1-108">Fara í kostnaðarbókhald > Víddir > Stigveldi vídda.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-108">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
-2. <span data-ttu-id="e1ed1-109">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-109">Click New.</span></span>
-3. <span data-ttu-id="e1ed1-110">Smellið á „Stofna“.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-110">Click Create.</span></span>
-4. <span data-ttu-id="e1ed1-111">Í reitinn Heiti stigveldi víddar skal slá inn „Stigveldi kostnaðarhegðunar“.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-111">In the Dimension hierarchy name field, type 'Cost behavior hierarchy'.</span></span>
-5. <span data-ttu-id="e1ed1-112">Sláið inn eða veljið gildi í reitnum Vídd.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-112">In the Dimension field, enter or select a value.</span></span>
-    * <span data-ttu-id="e1ed1-113">Velja kostnaðareiningar</span><span class="sxs-lookup"><span data-stu-id="e1ed1-113">Select Cost elements.</span></span>  
-6. <span data-ttu-id="e1ed1-114">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-114">Click Save.</span></span>
-7. <span data-ttu-id="e1ed1-115">Smella á Skoða stigveldi</span><span class="sxs-lookup"><span data-stu-id="e1ed1-115">Click View hierarchy.</span></span>
-8. <span data-ttu-id="e1ed1-116">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-116">Click New.</span></span>
-9. <span data-ttu-id="e1ed1-117">Í svæðið Heiti hnútar, færðu inn gildi.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-117">In the Node name field, type a value.</span></span>
-    * <span data-ttu-id="e1ed1-118">Færa inn Fastan kostnað.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-118">Enter Fixed cost.</span></span>  
-10. <span data-ttu-id="e1ed1-119">Í trénu skal velja „Stigveldi kostnaðarhegðunar“.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-119">In the tree, select 'Cost behavior hierarchy'.</span></span>
-11. <span data-ttu-id="e1ed1-120">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-120">Click New.</span></span>
-12. <span data-ttu-id="e1ed1-121">Í svæðið Heiti hnútar, færðu inn gildi.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-121">In the Node name field, type a value.</span></span>
-    * <span data-ttu-id="e1ed1-122">Færa inn breytilegur kostnaður.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-122">Enter Variable cost.</span></span>  
-13. <span data-ttu-id="e1ed1-123">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-123">Click Save.</span></span>
-14. <span data-ttu-id="e1ed1-124">Í trénu skal velja „stigveldi kostnaðarhegðunar\Fastur kostnaður“.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-124">In the tree, select 'Cost behavior hierarchy\Fixed cost'.</span></span>
-15. <span data-ttu-id="e1ed1-125">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-125">Click New.</span></span>
-16. <span data-ttu-id="e1ed1-126">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-126">In the list, mark the selected row.</span></span>
-17. <span data-ttu-id="e1ed1-127">Sláið inn eða veldu gildi í reitnum Frá víddarstak.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-127">In the From dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="e1ed1-128">Afmörkun víddarstaks getur innihaldið gloppur, en stökin geta ekki skarast.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-128">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
-18. <span data-ttu-id="e1ed1-129">Sláið inn eða veldu gildi í reitnum í Til víddarstak.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-129">In the To dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="e1ed1-130">Afmörkun víddarstaks getur innihaldið gloppur, en stökin geta ekki skarast.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-130">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
-19. <span data-ttu-id="e1ed1-131">Í trénu skal velja „stigveldi kostnaðarhegðunar\Breytilegur kostnaður“.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-131">In the tree, select 'Cost behavior hierarchy\Variable cost'.</span></span>
-20. <span data-ttu-id="e1ed1-132">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-132">Click New.</span></span>
-21. <span data-ttu-id="e1ed1-133">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-133">In the list, mark the selected row.</span></span>
-22. <span data-ttu-id="e1ed1-134">Sláið inn eða veldu gildi í reitnum Frá víddarstak.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-134">In the From dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="e1ed1-135">Afmörkun víddarstaks getur innihaldið gloppur, en stökin geta ekki skarast.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-135">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
-23. <span data-ttu-id="e1ed1-136">Sláið inn eða veldu gildi í reitnum í Til víddarstak.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-136">In the To dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="e1ed1-137">Afmörkun víddarstaks getur innihaldið gloppur, en stökin geta ekki skarast.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-137">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
-24. <span data-ttu-id="e1ed1-138">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-138">Click Save.</span></span>
+## <a name="create-a-cost-behavior-hierarchy"></a><span data-ttu-id="b4fbf-107">Stofna Stigveldi kostnaðarhegðunar</span><span class="sxs-lookup"><span data-stu-id="b4fbf-107">Create a cost behavior hierarchy</span></span>
+1. <span data-ttu-id="b4fbf-108">Fara í kostnaðarbókhald > Víddir > Stigveldi vídda.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-108">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
+2. <span data-ttu-id="b4fbf-109">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-109">Click New.</span></span>
+3. <span data-ttu-id="b4fbf-110">Smellið á „Stofna“.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-110">Click Create.</span></span>
+4. <span data-ttu-id="b4fbf-111">Í reitinn Heiti stigveldi víddar skal slá inn „Stigveldi kostnaðarhegðunar“.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-111">In the Dimension hierarchy name field, type 'Cost behavior hierarchy'.</span></span>
+5. <span data-ttu-id="b4fbf-112">Sláið inn eða veljið gildi í reitnum Vídd.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-112">In the Dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="b4fbf-113">Velja kostnaðareiningar</span><span class="sxs-lookup"><span data-stu-id="b4fbf-113">Select Cost elements.</span></span>  
+6. <span data-ttu-id="b4fbf-114">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-114">Click Save.</span></span>
+7. <span data-ttu-id="b4fbf-115">Smella á Skoða stigveldi</span><span class="sxs-lookup"><span data-stu-id="b4fbf-115">Click View hierarchy.</span></span>
+8. <span data-ttu-id="b4fbf-116">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-116">Click New.</span></span>
+9. <span data-ttu-id="b4fbf-117">Í svæðið Heiti hnútar, færðu inn gildi.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-117">In the Node name field, type a value.</span></span>
+    * <span data-ttu-id="b4fbf-118">Færa inn Fastan kostnað.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-118">Enter Fixed cost.</span></span>  
+10. <span data-ttu-id="b4fbf-119">Í trénu skal velja „Stigveldi kostnaðarhegðunar“.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-119">In the tree, select 'Cost behavior hierarchy'.</span></span>
+11. <span data-ttu-id="b4fbf-120">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-120">Click New.</span></span>
+12. <span data-ttu-id="b4fbf-121">Í svæðið Heiti hnútar, færðu inn gildi.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-121">In the Node name field, type a value.</span></span>
+    * <span data-ttu-id="b4fbf-122">Færa inn breytilegur kostnaður.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-122">Enter Variable cost.</span></span>  
+13. <span data-ttu-id="b4fbf-123">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-123">Click Save.</span></span>
+14. <span data-ttu-id="b4fbf-124">Í trénu skal velja „stigveldi kostnaðarhegðunar\Fastur kostnaður“.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-124">In the tree, select 'Cost behavior hierarchy\Fixed cost'.</span></span>
+15. <span data-ttu-id="b4fbf-125">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-125">Click New.</span></span>
+16. <span data-ttu-id="b4fbf-126">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-126">In the list, mark the selected row.</span></span>
+17. <span data-ttu-id="b4fbf-127">Sláið inn eða veldu gildi í reitnum Frá víddarstak.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-127">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="b4fbf-128">Afmörkun víddarstaks getur innihaldið gloppur, en stökin geta ekki skarast.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-128">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+18. <span data-ttu-id="b4fbf-129">Sláið inn eða veldu gildi í reitnum í Til víddarstak.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-129">In the To dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="b4fbf-130">Afmörkun víddarstaks getur innihaldið gloppur, en stökin geta ekki skarast.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-130">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+19. <span data-ttu-id="b4fbf-131">Í trénu skal velja „stigveldi kostnaðarhegðunar\Breytilegur kostnaður“.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-131">In the tree, select 'Cost behavior hierarchy\Variable cost'.</span></span>
+20. <span data-ttu-id="b4fbf-132">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-132">Click New.</span></span>
+21. <span data-ttu-id="b4fbf-133">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-133">In the list, mark the selected row.</span></span>
+22. <span data-ttu-id="b4fbf-134">Sláið inn eða veldu gildi í reitnum Frá víddarstak.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-134">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="b4fbf-135">Afmörkun víddarstaks getur innihaldið gloppur, en stökin geta ekki skarast.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-135">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+23. <span data-ttu-id="b4fbf-136">Sláið inn eða veldu gildi í reitnum í Til víddarstak.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-136">In the To dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="b4fbf-137">Afmörkun víddarstaks getur innihaldið gloppur, en stökin geta ekki skarast.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-137">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+24. <span data-ttu-id="b4fbf-138">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-138">Click Save.</span></span>
 
-## <a name="create-the-policy-and-rules"></a><span data-ttu-id="e1ed1-139">Stofna stefnu og reglur</span><span class="sxs-lookup"><span data-stu-id="e1ed1-139">Create the policy and rules</span></span>
-1. <span data-ttu-id="e1ed1-140">Fara í Kostnaðarbókhald > Stefnur > Stefnur fyrir kostnaðarhegðun.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-140">Go to Cost accounting > Policies > Cost behavior policies.</span></span>
-2. <span data-ttu-id="e1ed1-141">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-141">Click New.</span></span>
-3. <span data-ttu-id="e1ed1-142">Sláið inn gildi í reitinn Stefnuheiti.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-142">In the Policy name field, type a value.</span></span>
-4. <span data-ttu-id="e1ed1-143">Sláið inn eða veljið gildi í reitnum Stigveldi víddar kostnaðareiningar.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-143">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="e1ed1-144">Velja stigveldi stefnunnar sem nýverið var stofnuð.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-144">Select the policy hierarchy that you just created.</span></span>  
-5. <span data-ttu-id="e1ed1-145">Sláið inn eða veljið gildi í reitnum Stigveldi víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-145">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="e1ed1-146">Velja Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="e1ed1-146">Select Organization.</span></span>  
-6. <span data-ttu-id="e1ed1-147">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-147">Click Save.</span></span>
-7. <span data-ttu-id="e1ed1-148">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-148">Click New.</span></span>
-8. <span data-ttu-id="e1ed1-149">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-149">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="e1ed1-150">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðareiningar.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-150">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="e1ed1-151">Útvíkka stigveldið til að velja Breytilegur kostnaður.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-151">Expand the hierarchy to select Variable cost.</span></span>  
-10. <span data-ttu-id="e1ed1-152">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-152">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="e1ed1-153">Að sjálfgefnu er prósentan í breytilegu 100 prósent.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-153">By default, the variable percentage is 100 percent.</span></span>  
-11. <span data-ttu-id="e1ed1-154">Smella á Regluúthlutanir fyrir kostnaðarstýringareiningu.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-154">Click Policy assignments for cost control unit.</span></span>
-12. <span data-ttu-id="e1ed1-155">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-155">Click New.</span></span>
-13. <span data-ttu-id="e1ed1-156">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-156">In the list, mark the selected row.</span></span>
-14. <span data-ttu-id="e1ed1-157">Færa skal inn dagsetningu í reitinn Gildir frá dagsetningu reikningsskila.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-157">In the Valid from accounting date field, enter a date.</span></span>
-    * <span data-ttu-id="e1ed1-158">Reglurnar stjórnast af dagsetningum, og getur notandi eða kerfið látið reglurnar renna út ef nýrri útgáfa er stofnuð.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-158">The rules are date-effective, and a user or the system can expire a rule if a newer version is created.</span></span>  
-15. <span data-ttu-id="e1ed1-159">Í reitinn Kostnaðarstýringareining skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-159">In the Cost control unit field, enter or select a value.</span></span>
-16. <span data-ttu-id="e1ed1-160">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="e1ed1-160">Click Save.</span></span>
+## <a name="create-the-policy-and-rules"></a><span data-ttu-id="b4fbf-139">Stofna stefnu og reglur</span><span class="sxs-lookup"><span data-stu-id="b4fbf-139">Create the policy and rules</span></span>
+1. <span data-ttu-id="b4fbf-140">Fara í Kostnaðarbókhald > Stefnur > Stefnur fyrir kostnaðarhegðun.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-140">Go to Cost accounting > Policies > Cost behavior policies.</span></span>
+2. <span data-ttu-id="b4fbf-141">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-141">Click New.</span></span>
+3. <span data-ttu-id="b4fbf-142">Sláið inn gildi í reitinn Stefnuheiti.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-142">In the Policy name field, type a value.</span></span>
+4. <span data-ttu-id="b4fbf-143">Sláið inn eða veljið gildi í reitnum Stigveldi víddar kostnaðareiningar.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-143">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="b4fbf-144">Velja stigveldi stefnunnar sem nýverið var stofnuð.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-144">Select the policy hierarchy that you just created.</span></span>  
+5. <span data-ttu-id="b4fbf-145">Sláið inn eða veljið gildi í reitnum Stigveldi víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-145">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="b4fbf-146">Velja Fyrirtæki</span><span class="sxs-lookup"><span data-stu-id="b4fbf-146">Select Organization.</span></span>  
+6. <span data-ttu-id="b4fbf-147">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-147">Click Save.</span></span>
+7. <span data-ttu-id="b4fbf-148">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-148">Click New.</span></span>
+8. <span data-ttu-id="b4fbf-149">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-149">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="b4fbf-150">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðareiningar.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-150">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="b4fbf-151">Útvíkka stigveldið til að velja Breytilegur kostnaður.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-151">Expand the hierarchy to select Variable cost.</span></span>  
+10. <span data-ttu-id="b4fbf-152">Sláið inn eða veljið gildi í reitnum Stigveldishnútur víddar kostnaðarhlutar.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-152">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="b4fbf-153">Að sjálfgefnu er prósentan í breytilegu 100 prósent.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-153">By default, the variable percentage is 100 percent.</span></span>  
+11. <span data-ttu-id="b4fbf-154">Smella á Regluúthlutanir fyrir kostnaðarstýringareiningu.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-154">Click Policy assignments for cost control unit.</span></span>
+12. <span data-ttu-id="b4fbf-155">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-155">Click New.</span></span>
+13. <span data-ttu-id="b4fbf-156">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-156">In the list, mark the selected row.</span></span>
+14. <span data-ttu-id="b4fbf-157">Færa skal inn dagsetningu í reitinn Gildir frá dagsetningu reikningsskila.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-157">In the Valid from accounting date field, enter a date.</span></span>
+    * <span data-ttu-id="b4fbf-158">Reglurnar stjórnast af dagsetningum, og getur notandi eða kerfið látið reglurnar renna út ef nýrri útgáfa er stofnuð.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-158">The rules are date-effective, and a user or the system can expire a rule if a newer version is created.</span></span>  
+15. <span data-ttu-id="b4fbf-159">Í reitinn Kostnaðarstýringareining skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-159">In the Cost control unit field, enter or select a value.</span></span>
+16. <span data-ttu-id="b4fbf-160">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="b4fbf-160">Click Save.</span></span>
 

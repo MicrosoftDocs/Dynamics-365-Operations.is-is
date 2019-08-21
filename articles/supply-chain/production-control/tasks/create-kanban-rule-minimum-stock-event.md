@@ -10,61 +10,61 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, EcoResProductInformationDialog, EcoResProductDetailsExtended, ReqItemTable, InventLocationIdLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a9ba8ec2abb26e3b9ee7e14bdf882c1ffcb205b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4b578a664e9e3b6496e5665b2eefd9d75f86ecc3
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558527"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1837831"
 ---
-# <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a><span data-ttu-id="289e6-103">Stofna kanban-reglu með lágmarksbirgðatilviki</span><span class="sxs-lookup"><span data-stu-id="289e6-103">Create a kanban rule using a minimum stock event</span></span>
+# <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a><span data-ttu-id="3626f-103">Stofna kanban-reglu með lágmarksbirgðatilviki</span><span class="sxs-lookup"><span data-stu-id="3626f-103">Create a kanban rule using a minimum stock event</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="289e6-104">Þetta ferli leggur áherslu á uppsetningu sem þarf til að stofna kanban-regla með því að nota tilvik lágmarksbirgða til að tryggja að tiltekinni vöru sé alltaf tiltækt á tiltekinn stað.</span><span class="sxs-lookup"><span data-stu-id="289e6-104">This procedure focuses on the setup needed to create a kanban rule using a minimum stock event to ensure that a specific product is always available at a specific location.</span></span> <span data-ttu-id="289e6-105">Kanban-regla er stofnuð til að flytja efni til staðsetningar þegar birgðastigið fer niður fyrir 200 stykki.</span><span class="sxs-lookup"><span data-stu-id="289e6-105">A kanban rule is created to transfer material to the location when the inventory level drops below 200 pieces.</span></span> <span data-ttu-id="289e6-106">Með því að keyra vinnslu þarfarakningartilviks, eru nauðsynleg kanbön stofnaðar.</span><span class="sxs-lookup"><span data-stu-id="289e6-106">By running the Pegging event processing, the needed kanbans are created.</span></span> <span data-ttu-id="289e6-107">Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF.</span><span class="sxs-lookup"><span data-stu-id="289e6-107">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="289e6-108">Þetta verkefni er ætlað fyrir Ferlishönnuð eða Virðisstraumsstjóra, þar sem þau undirbúa framleiðslu nýja eða breytta afurðar í lean-umhverfi.</span><span class="sxs-lookup"><span data-stu-id="289e6-108">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product in a lean environment.</span></span>
+<span data-ttu-id="3626f-104">Þetta ferli leggur áherslu á uppsetningu sem þarf til að stofna kanban-regla með því að nota tilvik lágmarksbirgða til að tryggja að tiltekinni vöru sé alltaf tiltækt á tiltekinn stað.</span><span class="sxs-lookup"><span data-stu-id="3626f-104">This procedure focuses on the setup needed to create a kanban rule using a minimum stock event to ensure that a specific product is always available at a specific location.</span></span> <span data-ttu-id="3626f-105">Kanban-regla er stofnuð til að flytja efni til staðsetningar þegar birgðastigið fer niður fyrir 200 stykki.</span><span class="sxs-lookup"><span data-stu-id="3626f-105">A kanban rule is created to transfer material to the location when the inventory level drops below 200 pieces.</span></span> <span data-ttu-id="3626f-106">Með því að keyra vinnslu þarfarakningartilviks, eru nauðsynleg kanbön stofnaðar.</span><span class="sxs-lookup"><span data-stu-id="3626f-106">By running the Pegging event processing, the needed kanbans are created.</span></span> <span data-ttu-id="3626f-107">Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF.</span><span class="sxs-lookup"><span data-stu-id="3626f-107">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="3626f-108">Þetta verkefni er ætlað fyrir Ferlishönnuð eða Virðisstraumsstjóra, þar sem þau undirbúa framleiðslu nýja eða breytta afurðar í lean-umhverfi.</span><span class="sxs-lookup"><span data-stu-id="3626f-108">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product in a lean environment.</span></span>
 
 
-## <a name="create-a-new-kanban-rule"></a><span data-ttu-id="289e6-109">Stofna nýja kanban-reglu</span><span class="sxs-lookup"><span data-stu-id="289e6-109">Create a new kanban rule</span></span>
-1. <span data-ttu-id="289e6-110">Farið í upplýsingar um afurðarstjórnun > Lean-framleiðsla > Kanban-reglur.</span><span class="sxs-lookup"><span data-stu-id="289e6-110">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
-2. <span data-ttu-id="289e6-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="289e6-111">Click New.</span></span>
-3. <span data-ttu-id="289e6-112">Veljið í svæðinu gerð „afturköllun".</span><span class="sxs-lookup"><span data-stu-id="289e6-112">In the Type field, select 'Withdrawal'.</span></span>
-    * <span data-ttu-id="289e6-113">Þessi gerð er notuð til að stofna flutnings kanban.</span><span class="sxs-lookup"><span data-stu-id="289e6-113">This type is used to create transfer kanbans.</span></span>  
-4. <span data-ttu-id="289e6-114">Velja 'Tilvik' í reitnum Áfyllingaráætlun.</span><span class="sxs-lookup"><span data-stu-id="289e6-114">In the Replenishment strategy field, select 'Event'.</span></span>
-    * <span data-ttu-id="289e6-115">Tilviksáætlunin er notuð til að stofna flutnings kanban byggt á tilviki.</span><span class="sxs-lookup"><span data-stu-id="289e6-115">The Event strategy is used to create the transfer kanbans based on an event.</span></span> <span data-ttu-id="289e6-116">Seinna í ferlinu, muntu virkja flytnings kanban með því að nota birgðaáfyllingar.</span><span class="sxs-lookup"><span data-stu-id="289e6-116">Later in the procedure, you will trigger transfer kanbans by using stock replenishment.</span></span>  
-5. <span data-ttu-id="289e6-117">Færa inn eða velja gildi í reitnum Fyrsta áætlun verkþáttarins.</span><span class="sxs-lookup"><span data-stu-id="289e6-117">In the First plan activity field, enter or select a value.</span></span>
-    * <span data-ttu-id="289e6-118">Sláið inn eða Veljið ReplenishSpeakerComponents.</span><span class="sxs-lookup"><span data-stu-id="289e6-118">Enter or select ReplenishSpeakerComponents.</span></span> <span data-ttu-id="289e6-119">Þessi flutningsverkþátt hefur innhreyfingar (úttak) vöruhús og staðsetning 12, sem þýðir að efni verður að flytja staðsetning 12 í vöruhúsi 12.</span><span class="sxs-lookup"><span data-stu-id="289e6-119">This transfer activity has receipt (output) warehouse and location 12, which means that materials will be moved to location 12 in warehouse 12.</span></span>  
-6. <span data-ttu-id="289e6-120">Útvíkka hlutann Upplýsingar.</span><span class="sxs-lookup"><span data-stu-id="289e6-120">Expand the Details section.</span></span>
-7. <span data-ttu-id="289e6-121">Sláðu inn eða veldu gildi í reitnum Afurð.</span><span class="sxs-lookup"><span data-stu-id="289e6-121">In the Product field, enter or select a value.</span></span>
-    * <span data-ttu-id="289e6-122">Veldu M0007.</span><span class="sxs-lookup"><span data-stu-id="289e6-122">Select M0007.</span></span>  
-8. <span data-ttu-id="289e6-123">Útvíkka hlutann Tilvik.</span><span class="sxs-lookup"><span data-stu-id="289e6-123">Expand the Events section.</span></span>
-9. <span data-ttu-id="289e6-124">Í reitnum tilvik birgðaáfyllingar, skal velja ‚runa.</span><span class="sxs-lookup"><span data-stu-id="289e6-124">In the Stock replenishment event field, select 'Batch'.</span></span>
-    * <span data-ttu-id="289e6-125">Þetta stofnar Kanban til að uppfylla efnisþörfum tengdri staðsetningu meðan stendur á vinnsla Þarfarakningartilvika.</span><span class="sxs-lookup"><span data-stu-id="289e6-125">This creates kanbans to fulfill material needs at the related location during Pegging event processing.</span></span>  
+## <a name="create-a-new-kanban-rule"></a><span data-ttu-id="3626f-109">Stofna nýja kanban-reglu</span><span class="sxs-lookup"><span data-stu-id="3626f-109">Create a new kanban rule</span></span>
+1. <span data-ttu-id="3626f-110">Farið í upplýsingar um afurðarstjórnun > Lean-framleiðsla > Kanban-reglur.</span><span class="sxs-lookup"><span data-stu-id="3626f-110">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+2. <span data-ttu-id="3626f-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="3626f-111">Click New.</span></span>
+3. <span data-ttu-id="3626f-112">Veljið í svæðinu gerð „afturköllun".</span><span class="sxs-lookup"><span data-stu-id="3626f-112">In the Type field, select 'Withdrawal'.</span></span>
+    * <span data-ttu-id="3626f-113">Þessi gerð er notuð til að stofna flutnings kanban.</span><span class="sxs-lookup"><span data-stu-id="3626f-113">This type is used to create transfer kanbans.</span></span>  
+4. <span data-ttu-id="3626f-114">Velja 'Tilvik' í reitnum Áfyllingaráætlun.</span><span class="sxs-lookup"><span data-stu-id="3626f-114">In the Replenishment strategy field, select 'Event'.</span></span>
+    * <span data-ttu-id="3626f-115">Tilviksáætlunin er notuð til að stofna flutnings kanban byggt á tilviki.</span><span class="sxs-lookup"><span data-stu-id="3626f-115">The Event strategy is used to create the transfer kanbans based on an event.</span></span> <span data-ttu-id="3626f-116">Seinna í ferlinu, muntu virkja flytnings kanban með því að nota birgðaáfyllingar.</span><span class="sxs-lookup"><span data-stu-id="3626f-116">Later in the procedure, you will trigger transfer kanbans by using stock replenishment.</span></span>  
+5. <span data-ttu-id="3626f-117">Færa inn eða velja gildi í reitnum Fyrsta áætlun verkþáttarins.</span><span class="sxs-lookup"><span data-stu-id="3626f-117">In the First plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="3626f-118">Sláið inn eða Veljið ReplenishSpeakerComponents.</span><span class="sxs-lookup"><span data-stu-id="3626f-118">Enter or select ReplenishSpeakerComponents.</span></span> <span data-ttu-id="3626f-119">Þessi flutningsverkþátt hefur innhreyfingar (úttak) vöruhús og staðsetning 12, sem þýðir að efni verður að flytja staðsetning 12 í vöruhúsi 12.</span><span class="sxs-lookup"><span data-stu-id="3626f-119">This transfer activity has receipt (output) warehouse and location 12, which means that materials will be moved to location 12 in warehouse 12.</span></span>  
+6. <span data-ttu-id="3626f-120">Útvíkka hlutann Upplýsingar.</span><span class="sxs-lookup"><span data-stu-id="3626f-120">Expand the Details section.</span></span>
+7. <span data-ttu-id="3626f-121">Sláðu inn eða veldu gildi í reitnum Afurð.</span><span class="sxs-lookup"><span data-stu-id="3626f-121">In the Product field, enter or select a value.</span></span>
+    * <span data-ttu-id="3626f-122">Veldu M0007.</span><span class="sxs-lookup"><span data-stu-id="3626f-122">Select M0007.</span></span>  
+8. <span data-ttu-id="3626f-123">Útvíkka hlutann Tilvik.</span><span class="sxs-lookup"><span data-stu-id="3626f-123">Expand the Events section.</span></span>
+9. <span data-ttu-id="3626f-124">Í reitnum tilvik birgðaáfyllingar, skal velja ‚runa.</span><span class="sxs-lookup"><span data-stu-id="3626f-124">In the Stock replenishment event field, select 'Batch'.</span></span>
+    * <span data-ttu-id="3626f-125">Þetta stofnar Kanban til að uppfylla efnisþörfum tengdri staðsetningu meðan stendur á vinnsla Þarfarakningartilvika.</span><span class="sxs-lookup"><span data-stu-id="3626f-125">This creates kanbans to fulfill material needs at the related location during Pegging event processing.</span></span>  
 
-## <a name="set-the-minimum-quantity-for-the-item"></a><span data-ttu-id="289e6-126">Stilltu Lágmarksmagn vöru</span><span class="sxs-lookup"><span data-stu-id="289e6-126">Set the minimum quantity for the item</span></span>
-1. <span data-ttu-id="289e6-127">Smellið til að elta tengilinn í reitnum afurð.</span><span class="sxs-lookup"><span data-stu-id="289e6-127">Click to follow the link in the Product field.</span></span>
-2. <span data-ttu-id="289e6-128">Smellið til að elta tengilinn í reitnum vörunúmer.</span><span class="sxs-lookup"><span data-stu-id="289e6-128">Click to follow the link in the Item number field.</span></span>
-3. <span data-ttu-id="289e6-129">Útvíkka Upplýsingakassa mynd Afurðar.</span><span class="sxs-lookup"><span data-stu-id="289e6-129">Expand the Product image FactBox.</span></span>
-4. <span data-ttu-id="289e6-130">Smellið á „Áætlun“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="289e6-130">On the Action Pane, click Plan.</span></span>
-5. <span data-ttu-id="289e6-131">Smellt er á vöruþekju.</span><span class="sxs-lookup"><span data-stu-id="289e6-131">Click Item coverage.</span></span>
-6. <span data-ttu-id="289e6-132">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="289e6-132">Click New.</span></span>
-7. <span data-ttu-id="289e6-133">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="289e6-133">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="289e6-134">Sláðu inn eða veldu gildi í reitnum Vöruhús.</span><span class="sxs-lookup"><span data-stu-id="289e6-134">In the Warehouse field, enter or select a value.</span></span>
-    * <span data-ttu-id="289e6-135">Stilltu Vöruhús á 12.</span><span class="sxs-lookup"><span data-stu-id="289e6-135">Set Warehouse to 12.</span></span>  
-9. <span data-ttu-id="289e6-136">Lágmark er stillt á "200".</span><span class="sxs-lookup"><span data-stu-id="289e6-136">Set Minimum to '200'.</span></span>
+## <a name="set-the-minimum-quantity-for-the-item"></a><span data-ttu-id="3626f-126">Stilltu Lágmarksmagn vöru</span><span class="sxs-lookup"><span data-stu-id="3626f-126">Set the minimum quantity for the item</span></span>
+1. <span data-ttu-id="3626f-127">Smellið til að elta tengilinn í reitnum afurð.</span><span class="sxs-lookup"><span data-stu-id="3626f-127">Click to follow the link in the Product field.</span></span>
+2. <span data-ttu-id="3626f-128">Smellið til að elta tengilinn í reitnum vörunúmer.</span><span class="sxs-lookup"><span data-stu-id="3626f-128">Click to follow the link in the Item number field.</span></span>
+3. <span data-ttu-id="3626f-129">Útvíkka Upplýsingakassa mynd Afurðar.</span><span class="sxs-lookup"><span data-stu-id="3626f-129">Expand the Product image FactBox.</span></span>
+4. <span data-ttu-id="3626f-130">Smellið á „Áætlun“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="3626f-130">On the Action Pane, click Plan.</span></span>
+5. <span data-ttu-id="3626f-131">Smellt er á vöruþekju.</span><span class="sxs-lookup"><span data-stu-id="3626f-131">Click Item coverage.</span></span>
+6. <span data-ttu-id="3626f-132">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="3626f-132">Click New.</span></span>
+7. <span data-ttu-id="3626f-133">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="3626f-133">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="3626f-134">Sláðu inn eða veldu gildi í reitnum Vöruhús.</span><span class="sxs-lookup"><span data-stu-id="3626f-134">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="3626f-135">Stilltu Vöruhús á 12.</span><span class="sxs-lookup"><span data-stu-id="3626f-135">Set Warehouse to 12.</span></span>  
+9. <span data-ttu-id="3626f-136">Lágmark er stillt á "200".</span><span class="sxs-lookup"><span data-stu-id="3626f-136">Set Minimum to '200'.</span></span>
 
-## <a name="run-the-batch-event-creation-job"></a><span data-ttu-id="289e6-137">Keyra vinnsluna stofnun runutilviks</span><span class="sxs-lookup"><span data-stu-id="289e6-137">Run the batch event creation job</span></span>
-1. <span data-ttu-id="289e6-138">Fara í Framleiðslustýringar > Reglubundin verkefni > Runuvinnsla Kanban-vinnslu > Vinnsla þarfarakningartilvika.</span><span class="sxs-lookup"><span data-stu-id="289e6-138">Go to Production control > Periodic tasks > Kanban job batch processing > Pegging event processing.</span></span>
-2. <span data-ttu-id="289e6-139">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="289e6-139">Click OK.</span></span>
-3. <span data-ttu-id="289e6-140">Farið í upplýsingar um afurðarstjórnun > Lean-framleiðsla > Kanban-reglur.</span><span class="sxs-lookup"><span data-stu-id="289e6-140">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
-4. <span data-ttu-id="289e6-141">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="289e6-141">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="289e6-142">Velja kanban-reglu sem áður var stofnuð.</span><span class="sxs-lookup"><span data-stu-id="289e6-142">Select the kanban rule that you created earlier.</span></span>  
-5. <span data-ttu-id="289e6-143">Útvíkkar kanban-hlutann.</span><span class="sxs-lookup"><span data-stu-id="289e6-143">Expand the Kanbans section.</span></span>
-    * <span data-ttu-id="289e6-144">Athugið að búinn var til kanban til að flytja nauðsynlegt efni í vöruhús 12 .</span><span class="sxs-lookup"><span data-stu-id="289e6-144">Notice that a kanban was created to transfer the needed material to warehouse 12.</span></span>  
+## <a name="run-the-batch-event-creation-job"></a><span data-ttu-id="3626f-137">Keyra vinnsluna stofnun runutilviks</span><span class="sxs-lookup"><span data-stu-id="3626f-137">Run the batch event creation job</span></span>
+1. <span data-ttu-id="3626f-138">Fara í Framleiðslustýringar > Reglubundin verkefni > Runuvinnsla Kanban-vinnslu > Vinnsla þarfarakningartilvika.</span><span class="sxs-lookup"><span data-stu-id="3626f-138">Go to Production control > Periodic tasks > Kanban job batch processing > Pegging event processing.</span></span>
+2. <span data-ttu-id="3626f-139">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="3626f-139">Click OK.</span></span>
+3. <span data-ttu-id="3626f-140">Farið í upplýsingar um afurðarstjórnun > Lean-framleiðsla > Kanban-reglur.</span><span class="sxs-lookup"><span data-stu-id="3626f-140">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+4. <span data-ttu-id="3626f-141">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="3626f-141">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="3626f-142">Velja kanban-reglu sem áður var stofnuð.</span><span class="sxs-lookup"><span data-stu-id="3626f-142">Select the kanban rule that you created earlier.</span></span>  
+5. <span data-ttu-id="3626f-143">Útvíkkar kanban-hlutann.</span><span class="sxs-lookup"><span data-stu-id="3626f-143">Expand the Kanbans section.</span></span>
+    * <span data-ttu-id="3626f-144">Athugið að búinn var til kanban til að flytja nauðsynlegt efni í vöruhús 12 .</span><span class="sxs-lookup"><span data-stu-id="3626f-144">Notice that a kanban was created to transfer the needed material to warehouse 12.</span></span>  
 
