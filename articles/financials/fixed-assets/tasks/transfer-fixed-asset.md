@@ -3,25 +3,25 @@ title: Flytja eign
 description: Þessi verkefnaleiðbeiningar fyrir verk flytja fjárhagsupplýsingar fyrir eignabók úr einni fjárhagsvíddasamstæða í nýja fjárhagsvíddasamstæða.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetTransfer, DimensionLookup, AssetTransferConfirmation
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bb8a5b94d9a0bb510daa2a698524e0c380597991
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 167591cf160916f256e2d10f122eca312ba07639
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566727"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839738"
 ---
 # <a name="transfer-a-fixed-asset"></a>Flytja eign
 
@@ -29,21 +29,22 @@ ms.locfileid: "1566727"
 
 Þessi verkefnaleiðbeiningar fyrir verk flytja fjárhagsupplýsingar fyrir eignabók úr einni fjárhagsvíddasamstæða í nýja fjárhagsvíddasamstæða.  Það notar Bókari hlutverk og sýnigögn fyrir USMF lögaðila.
 
-1. Fara í Eignir > Eignir > Eignir.
+1. Í skoðunarrúðnni ferðu í **Kerfseiningar > Fastafjármunir > Fastafjármunir > Fastafjármunir**.
 2. Finna og velja eign sem á að flytja, á listanum.
-3. Á Aðgerðasvæðinu skal smellt á eign.
-4. Smellt er á Flytja eignir.
-5. Dagsetning er rituð í reitinn Dagsetning millifærslu.
+3. Á aðgerðasvæðinu skal smellt á **Fastafjármuni**.
+4. Smellt er á **Flytja eignir**.
+5. Dagsetning er rituð í reitinn **Dagsetning millifærslu**.
 6. Færa inn athugasemdir til að lýsa flutninginn.
-    * Þessi listi sýnir allar bækur fyrir eignina.  
+    
+    Þessi listi sýnir allar bækur fyrir eignina.  
 7. Merkja bækur sem á að flytja í nýtt fjárhagsvíddasamstæða.
     * Listinn sýnir núverandi gildi fjárhagsvídda fyrir valda bók.  
     * Velja fjárhagsvídd til að uppfæra fyrir valda eignabók.  
-8. Í reitnum fjárhagsvídd skal smella á fellilistahnappinn til að opna leitina.
+8. Í reitnum **fjárhagsvídd** skal smella á fellilistahnappinn til að opna leitina.
     * Stilla aðra fjárhagsvíddargildi sem viðeigandi.  
     * Öllum fjárhagsvíddargildum breyta þegar flutningur fer fram, hvort sem hefur verið fært inn gildi eða skilið eftir autt. Til dæmis, ef fært er inn gildi fyrir BusinessUnit (fyrirtækjaeining) og hafðir CostCenter (kostnaðarstað) fjárhagslegar víddir autt. Ef reikningsskipulagið leyfði auð gildi fyrir CostCenter og Deild, myndi flutningurinn leiða til þess að hvert virðislíkan hefur nýtt gildi fyrir BusinessUnit (fyrirtækjaeining) og tómt gildi fyrir CostCenter og deild.  
-9. Smelltu á Uppfæra.
+9. Smelltu á **Uppfæra**.
     * Það verður tækifæri til að forskoða breytingar áður en ljúka flutningi.  
     * Skoða niðurstöður áður en eignabækur fluttar.  
-10. Smelltu á Flutningur.
+10. Smelltu á **Flutningur**.
 

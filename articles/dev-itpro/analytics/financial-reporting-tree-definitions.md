@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 00219f21076af60f8e2f16ca365b1138bb279400
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8127c694d21064392b1932525a87044b9554973d
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553883"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849534"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Skipuritsskilgreiningar í fjárhagsskýrslum
 
@@ -42,10 +42,10 @@ Fjárhagsskýrslugerð styður sveigjanlega skýrslugerð svo að auðvelt er a�
 - Einnig þarf að ákvarða bestu leiðina til að byggja skipuritin upp. Þú getur notað sjálfvirkt byggingarferli til að mynda skipurit, eða þú getur handvirkt stofnað skipurit. Mikilvægt er að hafa skilning á báðum aðferðum áður en lagt er í hönnun trjánna.
 - Hægt er að nota einingar skipurits sem eru skilgreindar í fjárhagsgagnakerfinu til að bæta einingum skipurits við skilgreiningu skipurits.
 
-## <a name="create-multiple-reporting-trees"></a> Mörg skipurit stofnuð
+## <a name="create-multiple-reporting-trees"></a>Mörg skipurit stofnuð
 Hægt er að stofna ótakmarkaðan fjölda af skipuritum til að skoða gögn fyrirtækisins á mismunandi vegu. Hvert skipurit getur innihaldið hvaða samsetningu af deildum og samantektareiningum sem er. Skýrsluskilgreining getur aðeins verið með tengil í eitt skipurit í einu. Með því að endurraða uppbyggingu eininga skipuritsins er hægt að stofna önnur skipurit. Síðan má nota sömu línu- og dálkaskilgreiningu fyrir hvert skipurit. Á þennan hátt geturðu stofnað á skjótan hátt mismunandi útlit fjárhagsskýrslna. Ef þú stofnar mörg skipurit, geturðu prentað nokkrar fjárhagsskýrslur í hverjum mánuði sem greina og sýna aðgerðir fyrirtækis þíns á mismunandi hátt. Fyrir frekar upplýsingar, sjá æmi um uppbyggingu einingar skipurits í lok þessa grein
 
-## <a name="create-a-reporting-tree-definition"></a> Skilgreining skipurits stofnuð
+## <a name="create-a-reporting-tree-definition"></a>Skilgreining skipurits stofnuð
 skipuritsskilgreining inniheldur dálkana sem lýst er í eftirfarandi töflu.
 
 | Skipuritsdálkur | Lýsing |
@@ -112,7 +112,7 @@ Til að stofna skipuritsskilgreiningu, skal fylgja eftirfarandi skrefum.
 
 Hvert skipuritsskilgreining er birt í einkvæmum yfirlitum. Til er bæði yfirlit sem setur stigveldi yfir- og undireininga fram á myndrænan hátt og vinnublaðsyfirlit sem sýnir tilteknar upplýsingar fyrir hverja einingu skipurits. Myndræna yfirlitið og vinnublaðsyfirlitið eru tengd. Þegar eining skipurits er valin í einu yfirliti, er hún einnig valin í hinu yfirlitinu. Notandi getur byggt upp þvervíddarleg stigveldi sem byggjast á víddarvenslum innan fjárhagsgagnanna. Þegar skipuritsskilgreining er stofnuð er hægt að nota sömu línuskilgreiningar endurtekið, hvort sem verið er að mynda rekstrarreikning deildar eða samantekinn samstæðurekstrarreikning. Nota má víddir sem eru skilgreindar í línuskilgreiningunni ásamt víddum í skipuritsskilgreiningu til að bjóða upp á sveigjanlegt yfirlit yfir afkomu fyrirtækisins.
 
-### <a name="reporting-unit-structure"></a> Uppbygging einingar skipurits
+### <a name="reporting-unit-structure"></a>Uppbygging einingar skipurits
 
 Eftirfarandi gerðir eininga skipurits eru notaðar í reikningsskilum:
 
@@ -121,7 +121,7 @@ Eftirfarandi gerðir eininga skipurits eru notaðar í reikningsskilum:
 
 Yfireining í skipuriti er samantektareining sem safnar saman samantektarupplýsingum úr upplýsingaeiningu. samantektareining getur verið bæði upplýsingaeining og samantektareining. Þess vegna getur samantektareining tekið upplýsingar úr einingu á neðra stigi, fjárhagsgögnum, eða Excel-vinnublaði. Yfireining getur verið undireining hærra skipaðrar yfireiningar. Undireining í skipuriti getur verið upplýsingaeining sem sækir upplýsingar beint úr fjárhagsgögnum eða excel-vinnublaði. Undireining í einingu skipurits getur einnig verið millisamantektareining. Með öðrum orðum, það getur verið yfireining af einingar af neðra stigi, og einnig undireining samantektareiningar á hærra stigi. Við Algengustu aðstæður fyrir einingar í skipuriti, hafa yfireiningar auð hólf í dálknum **Víddir** , og undireiningar hafa tengla í tilteknar víddarsamsetningar eða algildisvíddarsamsetningar
 
-### <a name="organize-reporting-units"></a> Einingar skipurits skipulagðar
+### <a name="organize-reporting-units"></a>Einingar skipurits skipulagðar
 
 Hægt er að endurskipuleggja skipulag skipuritsskilgreiningarinnar með því að færa skipuritseiningar í myndræna yfirlitinu. Einnig er hægt að færa einingar í skipuriti upp á hærra stig í skipuritinu eða færa þær á lægra stig í skipuritinu.
 
@@ -130,7 +130,7 @@ Hægt er að endurskipuleggja skipulag skipuritsskilgreiningarinnar með því a
 3. Draga einingu í nýja stöðu. Annars má líka hægrismella á eininguna og veljið síðan **Færa upp einingu skipurits** eða **Færa niður einingu skipurits**.
 4. Smellið á **Skrá** &gt; **Vista** til að vista breytingar.
 
-### <a name="add-text-about-a-reporting-unit"></a> Bæta inn Texta um einingu skipurits 
+### <a name="add-text-about-a-reporting-unit"></a>Bæta inn Texta um einingu skipurits
 
 Viðbótartextafærsla er fastur textastrengur, allt að 255 stafir, sem bætir upplýsingum við skipuritsskilgreininguna. Til dæmis getur viðbótartexti verið stutt lýsing á fyrirtæki. Hægt er að stofna allt að tíu viðbótartextafærslur fyrir hverja einingu skipurits í skipuritsskilgreiningu. Viðbótartextinn birtist í skýrslunni fyrir skipuritseininguna sem textanum var úthlutað til. Hægt er að bæta við textafærslum frá dálkinum **Lýsing** í línuskilgreiningunni og frá flipanum **Hausar og fætur** í skýrsluskilgreiningunni.
 
@@ -167,7 +167,7 @@ Hægt er að koma í veg fyrir að tilteknir notendur eða hópar fái aðgang a
 
 ### <a name="link-toreports"></a>Tenglar í skýrslur
 
-Þegar dálkur af gerðinni  **skýrsla** hefur verið stofnaður í línuskilgreiningunni og tilgreind hefur verið skýrsla sem taka á með í skýrslunni, verður að uppfæra skipuritið með tengda dálknum og skýrsluupplýsingunum. Hægt er að flytja inn skýrslu í hvaða einingu sem er í skipuritinu.
+Þegar dálkur af gerðinni **skýrsla** hefur verið stofnaður í línuskilgreiningunni og tilgreind hefur verið skýrsla sem taka á með í skýrslunni, verður að uppfæra skipuritið með tengda dálknum og skýrsluupplýsingunum. Hægt er að flytja inn skýrslu í hvaða einingu sem er í skipuritinu.
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>Auðkenna skýrsluna í skipuritinu
 
@@ -196,9 +196,9 @@ Eftirfarandi skipurit sýnir skipurit sem er með uppbyggingu fyrirtækis sem er
 
 [![summaryofallunitscontoso](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
-### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Dæmi um Setja inn einingar skipurits úr víddum svarglugga 
+### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Dæmi um Setja inn einingar skipurits úr víddum svarglugga
 
-Eftirfarandi mynd sýnir dæmi um **Setja inn einingar skipurits úr víddum**svarglugga  Í þessu dæmi skila niðurstöður samsetning viðskiptaeiningar, kostnaðarstaði og deildir.
+Eftirfarandi mynd sýnir dæmi um **Setja inn einingar skipurits úr víddum** svarglugga. Í þessu dæmi skila niðurstöður samsetning viðskiptaeiningar, kostnaðarstaði og deildir.
 
 [![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 

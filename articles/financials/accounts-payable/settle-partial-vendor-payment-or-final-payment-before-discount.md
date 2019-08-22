@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 14431
 ms.assetid: 6b8e3420-b4c9-4e02-9588-598fe6d3df0d
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6189d5de80a4b0b157797c1fdd072a8ee86857f3
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 0d5961b2459a1c43cee24b611cf73879c6e776a4
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1508969"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835503"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Jafna hlutagreiðsla lánardrottins og endanleg greiðslu að fullu fyrir afsláttardagsetninguna
 
@@ -64,7 +64,7 @@ April smellir á **staðgreiðsluafsláttur** flipa til að skoða afsláttarupp
 | 7/25/2015          | 0,00                 | 1.000,00                       |
 
 ## <a name="partial-payment-on-july-1-by-using-the-settle-transactions-page"></a>Hlutagreiðsla 1. Júlí með því að nota síðuna Jafna færslur
-Apríl getur stofna greiðslubók fyrir þessa greiðslu með því að opna í **greiðslubók** síðu í viðskiptaskuldir. Hún stofnar nýja færslubók og færir inn línu fyrir lánardrottin 3064. Hún opnar síðuna **Jafna færslur** svo að hún geti merkt reikninginn fyrir jöfnun. April merkir reikninginn og breytir gildi í **Upphæðin til jöfnunar** reit í  **-500,00**. Hún sér að gildið í á **upphæð staðgreiðsluafsláttar** er **-10,00** fyrir fullan reikning og gildið í á **upphæð staðgreiðsluafsláttar sem á að taka** er **-5.05**. Þess vegna er apríl að jafna -505.05 fyrir þennan reikning.
+Apríl getur stofna greiðslubók fyrir þessa greiðslu með því að opna í **greiðslubók** síðu í viðskiptaskuldir. Hún stofnar nýja færslubók og færir inn línu fyrir lánardrottin 3064. Hún opnar síðuna **Jafna færslur** svo að hún geti merkt reikninginn fyrir jöfnun. April merkir reikninginn og breytir gildi í **Upphæðin til jöfnunar** reit í **-500,00**. Hún sér að gildið í á **upphæð staðgreiðsluafsláttar** er **-10,00** fyrir fullan reikning og gildið í á **upphæð staðgreiðsluafsláttar sem á að taka** er **-5.05**. Þess vegna er apríl að jafna -505.05 fyrir þennan reikning.
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -80,7 +80,7 @@ Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** s
 | Notaður staðgreiðsluafsláttur          | 0,00      |
 | Upphæð staðgreiðsluafsláttar sem á að veita | -5,05     |
 
-Apríl vill jafna nákvæmlega helming reiknings Þessvegna breytir hún gildi í **Upphæðin til jöfnunar** reit í  **-495,00**. heildarupphæðin sem er jöfnuð er nú 500,00. Þessi upphæð inniheldur -5,00 staðgreiðsluafslátt.
+Apríl vill jafna nákvæmlega helming reiknings Þessvegna breytir hún gildi í **Upphæðin til jöfnunar** reit í **-495,00**. heildarupphæðin sem er jöfnuð er nú 500,00. Þessi upphæð inniheldur -5,00 staðgreiðsluafslátt.
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|

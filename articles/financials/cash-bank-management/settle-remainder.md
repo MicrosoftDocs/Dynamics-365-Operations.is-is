@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 408a36a7cf221463b38260bd8830b422e58ccb64
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6b1b1ddbc8eb8b1d926e68715336edc8e275ff29
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566230"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842162"
 ---
 # <a name="settle-remainder"></a>Gera upp eftirstöðvar
 
@@ -69,4 +69,4 @@ Til að gera upp eftirstöðvarnar skal framkvæma eftirfarandi skref:
 6)  Ef þú ert að gera upp færslur viðskiptavinar og þú vilt að eftirstöðvarnar verðir færðar yfir á annan viðskiptavin skaltu velja viðskiptavin í **Jafna eftirstöðvar við viðskiptavinalykil**. Ef þú ert að gera upp færslur lánardrottins og þú vilt að eftirstöðvarnar verðir færðar yfir á annan lánardrottin skaltu velja lánardrottin í **Jafna eftirstöðvar við lánardrottnalykil**
 7)  Einnig er hægt að velja að stofna greiðslubók með uppgjöri eftirstöðva eða einfaldlega bóka þær án greiðslubókar. Veldu **Já** fyrir **Breyta í færslubók** til að stofna greiðslubók. Þú munt geta breytt greiðslubókinni sem þú stofnar.
 8)  Smelltu á **Gera upp eftirstöðvar**. Ef þú velur að stofna færslubók breytist hnappurinn í **Stofna færslubók**. Smelltu á **Stofna færslubók** í staðinn.
-9)  Ef þú stofnaðir greiðslubók mun síða færslubókar opnast  eftir að smellt er á **Gera upp eftirstöðvar**. Færslubókarlínu verður bætt við færslubókina þar sem upphæðin verður sú sem er á uppgjöri eftirstöðva og lykill fyrir uppgjör eftirstöðva sem mótlykilinn. Ef þú bættir við viðskiptavini eða lánardrottni svo þú getir fært uppgjörsupphæðina yfir á annan viðskiptavin eða lánardrottin, þá verður aukalegri línu bætt við færslubókina til að færa upphæð uppgjörsins til þess viðskiptavinar eða lánardrottins.
+9)  Ef þú stofnaðir greiðslubók mun síða færslubókar opnast eftir að smellt er á **Gera upp eftirstöðvar**. Færslubókarlínu verður bætt við færslubókina þar sem upphæðin verður sú sem er á uppgjöri eftirstöðva og lykill fyrir uppgjör eftirstöðva sem mótlykilinn. Ef þú bættir við viðskiptavini eða lánardrottni svo þú getir fært uppgjörsupphæðina yfir á annan viðskiptavin eða lánardrottin, þá verður aukalegri línu bætt við færslubókina til að færa upphæð uppgjörsins til þess viðskiptavinar eða lánardrottins.

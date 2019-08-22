@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2e13b43812e0d6f8b50cb3fcf65f277afbe9e806
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552862"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849764"
 ---
 # <a name="employee-development-power-bi-content"></a>Starfsmannaþróun Power BI efni
 
@@ -41,14 +41,14 @@ Skýrslur sem eru hafðar með í **Starfsmannaþróun** Power BI efni hafa bæ�
 | Greining á hæfnimati   | Starfsmenn eftir lægstu og hæstu einkunn eftir starfi, einkunnir starfsmanns eftir deild, starfsmenn eftir einkunn og gerð stöðu hæstu og lægstu einkunnir eftir stöðu |
 | Greining á starfsmannaárangri | Starfsmannaeinkunn fyrir valdan einkunn eftir stjórnendum |
 
-Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á yfirlitið. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Hægt er að sía gröf og reiti í þessum skýrslum og festa gröf og reiti á yfirlitið. Nánari upplýsingar um hvernig á að sía og festa í Power BI, sjá [Stofna og Skilgreina Mælaborð](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Skilja gagnalíkan og einingar
 
 | Eining                   | Innihald                                                                                                   | Vensl við aðra lögaðila |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | Dagsetning starfsupphafs          | Mótbókanir dagatals til að sneiða skýrslur                                                                          | Úthlutun síðustu stöðu, stöðuþróun, starfsmannaþróun, starfsmaður sem er hættur |
-| Fyrirt.                    | Fyrirtæki til að sía skýrsla eftir                                                                             | Núverandi starfsmaður, starfsmaður sem er hættur, starfsmannaþróun |
+| Fyrirtæki                  | Fyrirtæki til að sía skýrsla eftir                                                                             | Núverandi starfsmaður, starfsmaður sem er hættur, starfsmannaþróun |
 | Núverandi staða         | Stöður frá og með núgildandi dagsetningu, ígildi fulls starfs (FTE), opin staða og virkar-til-óvirkar stöður | Starf, staða |
 | Núverandi starfsmaður         | Starfsmenn frá og með núverandi dagsetningu, aldri og starfsmannafjölda                                                         | Fyrirtæki, Landfræðileg staðsetning, Nafn starfsmanns, Skýrslur til, Titill starfsmanns, Lýðfræði, Starf, Atvinna, Staða |
 | Dagsetning                     | Dagar, vikur, mánuðir og ár                                                                             | Úthlutun síðustu stöðu, stöðuþróun, starfsmaður sem er hættur, starfsmannaþróun |

@@ -1,5 +1,5 @@
 ---
-title: 'Yfirlit fjárhagsáætlunarstýringar '
+title: Yfirlit fjárhagsáætlunarstýringar
 description: Þessi grein kynnir fjárhagsáætlunarstýringar og veitir upplýsingar um hjálp við að skilgreina fjárhagsáætlunarstýringu í Microsoft Dynamics 365 for Finance and Operations þannig að hægt er að stjórna fjármagni.
 author: ShylaThompson
 manager: AnnBe
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4dbbbdf403c3e3f7c1bfa391cc32f80505098db9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b33057bc28c1a03cb7c72e369beec4a78ff2d1a1
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568190"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834296"
 ---
 # <a name="budget-control-overview"></a>Yfirlit fjárhagsáætlunarstýringar
 
@@ -34,7 +34,7 @@ ms.locfileid: "1568190"
 <a name="overview"></a>Yfirlit
 --------
 
-Fjárhagsáætlunarstýring í Microsoft Dynamics 365 for Finance and Operations styður stjórnun fjárhagslegra tilfanga fyrirtækis með bókhaldslykli, verkflæði, notendaflokkur, upprunaskjal og færslubók, skilgreinanlega sjóður, tiltækt útreikningur, ferli fjárhagsáætlunar, og mörk. Þegar stýringar eru á sínum stað, getur fyrirtæki áætlað, mæla, stjórna og spá fyrir um hennar fjárhagslegar tilföng gegnum fjárhagsársins. 
+Fjárhagsáætlunarstýring í Microsoft Dynamics 365 for Finance and Operations styður stjórnun fjárhagslegra tilfanga fyrirtækis með bókhaldslykli, verkflæði, notendaflokkum, upprunaskjali og færslubók, skilgreinanlegum útreikningi á tiltækum sjóðum, fjárhagsáætlunarferlum og mörkum. Þegar stýringar eru á sínum stað, getur fyrirtæki áætlað, mæla, stjórna og spá fyrir um hennar fjárhagslegar tilföng gegnum fjárhagsársins. 
 
 Eftir að áætlanir hafa verið samþykktar í Finance and Operations er hægt að nota fjárhagsáætlanir til að búa til færslur í fjárhagsáætlunarskrá til að skrá útgjöld fjárhagsáætlunar fyrir fyrirtæki. Einnig er hægt að stofna eða flytja inn færslur í fjárhagsáætlunarskrá úr hugbúnaði þriðja aðila án þess að nota virkni fjárhagsáætlunargerðar. 
 
@@ -46,18 +46,18 @@ Eftirfarandi línurit sýnir stað fjárhagsáætlunarstýringar á stigum dæmi
 
 Hægt er að skilgreina fjárhagsáætlunarstýringar samkvæmt mörgum þáttum:
 
--   **Fjárhagsvíddir**- Hvaða fjárhagsvíddir þarf að nota fyrir fjárhagsáætlun og rauntölur og hvaða fjárhagsvíddir eru nauðsynlegar til að stýra fjárhagsáætlun? Eru tilteknar vöruvíddasamsetningar eða aðallykla sem krefjast tiltekna athygli? Til dæmis er krafist að rekja fjárhagsáætlun í raunupphæðir með kostnaðarstað og forriti? Þurfa ferðakostnaður sérstaka athygli
+-   **Fjárhagsvíddir**- Hvaða fjárhagsvíddir þarf að nota fyrir fjárhagsáætlun og rauntölur og hvaða fjárhagsvíddir eru nauðsynlegar til að stýra fjárhagsáætlun? Eru tilteknar vöruvíddasamsetningar eða aðallyklar sem krefjast tiltekinnar athygli? Til dæmis er krafist að rekja fjárhagsáætlun í raunupphæðir með kostnaðarstað og forriti? Þarf ferðakostnaður sérstaka athygli?
 -   **Tími**- Hvaða tímarammann (fjárhagstímabil, fjárhagstímabil til dagsetningar í dag o.s.frv.,) verður notuð til að meta tiltækt fjármagn fjárhagsáætlunar?
 -   **Upprunaskjöl**- Hvaða upprunaskjöl þarf að meta fyrir fjárhagsáætlunarstýringar? Á að meta skjölin á hverja línu eða fyrir hvert skjal?
--   **Útreikning á tiltæku fjármagni**- ættu skjöl eins og innkaupabeiðnir (áætluð fjárúthlutun) og innkaupapantanir (fjárúthlutanir) vera tekið tillit til í útreikningi á tiltæku fjármagni? Ættu skjölum með stöðuna drög að vera höfð í huga í útreikningi?
--   **Hnekkja heimild** - Hver hafa heimild til að fara yfir tiltæka fjárhagsáætlun?
+-   **Útreikning á tiltæku fjármagni**- ættu skjöl eins og innkaupabeiðnir (áætluð fjárúthlutun) og innkaupapantanir (fjárúthlutanir) vera tekið tillit til í útreikningi á tiltæku fjármagni? Ættu skjöl með stöðuna drög að vera höfð með í útreikningi?
+-   **Hnekkja heimild** - Hverjir hafa heimild til að fara yfir tiltæka fjárhagsáætlun?
 
-Fjárhagsáætlunarstýring er fyllilega samþætt við Finance and Operations. Þess vegna er hægt að meta tiltæka fjárhagsáætlun fyrir bæði áætluð innkaup og raunverulega innkaup. Fyrirspurnir og skýrslur um fjárhag eru tiltækar. Því geta noendur metið Fjárhagsáætlun samhliða ferli fjárhagsáætlunar og gert leiðréttingar sem þarf, í mynd endurskoðunar fjárhagsáætlunar eða flutninga. Fjárhagsáætlunarstjóri getur einnig flytja fjárhagsáætlunar og raunupphæðir í Microsoft Excel til að greina og spá betur eftir þörfum.
+Fjárhagsáætlunarstýring er fyllilega samþætt við Finance and Operations. Þess vegna er hægt að meta tiltæka fjárhagsáætlun fyrir bæði áætluð innkaup og raunverulega innkaup. Fyrirspurnir og skýrslur um fjárhag eru tiltækar. Því geta notendur metið Fjárhagsáætlun samhliða ferli fjárhagsáætlunar og gert leiðréttingar sem þarf, í mynd endurskoðunar fjárhagsáætlunar eða flutninga. Fjárhagsáætlunarstjóri getur einnig flutt fjárhagsáætlun og raunupphæðir í Microsoft Excel til að greina og spá betur eftir þörfum.
 
 ## <a name="configuring-budget-control"></a>Skilgreinir fjárhagsáætlunarstýringar
 ### <a name="budget-cycle-time-span"></a>Tímabil fjárhagsáætlunar
 
-Eftir að grunnáætlanagerð er skilgreint geturðu skilgreint upphafs- og lokatímabil fyrir fjárhagsáætlun og fjárhagsáætlunarstýring á **tímabil fjárhagsáætlunar** síðu. Fjárhagsáætlunarferli samsvara oft fjárhagsdagatöl en getur náð yfir á fjárhagsár.
+Eftir að grunnáætlanagerð er skilgreind geturðu skilgreint upphafs- og lokatímabil fyrir fjárhagsáætlun og fjárhagsáætlunarstýring á síðunni **Tímabil fjárhagsáætlunar**. Fjárhagsáætlunarferli samsvara oft fjárhagsdagatöl en getur náð yfir á fjárhagsár.
 
 Næstu skref í skilgreiningu er lokið á mismunandi flipum á **skilgreiningu fjárhagsáætlunarstýringar** síðu.
 

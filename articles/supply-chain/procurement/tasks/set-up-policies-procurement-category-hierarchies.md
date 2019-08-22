@@ -3,25 +3,25 @@ title: Setja upp reglur fyrir stigveldi innkaupategunda
 description: Notið þetta ferli til að setja upp reglur til þess að panta afurðir í tegund.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1fdf357466de12bd0188fc43cd266c67af762c7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 230794eacd5e9911496dd3826f08126cc21494cb
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569915"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1844178"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Setja upp reglur fyrir stigveldi innkaupategunda
 
@@ -31,31 +31,24 @@ Notið þetta ferli til að setja upp reglur til þess að panta afurðir í teg
 
 
 ## <a name="find-the-procurement-policy"></a>Finna innkaupareglu
-1. Fara í Innkaup og uppruni > Uppsetning > reglur > innkaupareglur.
-2. Smelltu á tengil á innkaupastefnu USMF-stefna.
-    * Þetta er reglan sem þú bætir reglu við. Hún verður að vera Virk regla.  
+1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Innkaup og aðföng > Uppsetning > Reglur > Innkaupareglur**.
+2. Smelltu á tengil á innkaupastefnu USMF-stefna. Þetta er reglan sem þú bætir reglu við. Hún verður að vera Virk regla.  
 
 ## <a name="create-a-category-access-rule"></a>Búa til reglu tegundaraðgangs
-1. Veldu Stefnuregla tegundaraðgangs
-    * Ef hnappur til að stofna stefnureglu er deyfður er það vegna þess að þegar er til staðar virk stefnuregla fyrir tegundaraðgang. Athuga dagsetningasvæði Virkrar dagsetningar og Lokadags til að ákvarða hvaða það er, svo velja hana og smella á hætta Við stefnureglu. Ef Stofna stefnureglu hnappur er tiltækur, þarf ekki að gera neitt.  
-2. Smellt er á Stofna stefnureglu.
-3. Færa inn dagsetningu og tíma í svæðinu gildisdagsetningu.
-    * Tíminn má ekki skarast við aðra reglu sem er þegar virk.  
-    * Velja tegund sem reglan mun eiga við. Taka niður athugasemd um það hvaða tegund þetta er – þú þarf hana síðar. Þegar flokkur er valinn, eru yfirflokkar eða yfirflokkur einnig settir á valinn tegundaalista.  
-    * Viljirðu að reglan eigi við allar undirtegundir valinnar tegundar, Velja Innifela undirtegundir valkostinn.  
-4. Smelltu á Bæta við.
-    * Ef þú stillir valkostinn yfirskipuð regla á Já, er Stefnureglun sem skilgreind er fyrir yfirtegund er einnig úthlutað til baka í undirtegundir ef engin stefnuregla hefur verið skilgreind fyrir undirtegundir.  
-5. Smellið á „Í lagi“.
+1. Stækka flýtiflipann **Sefnuregla**.
+2. Í **Gerð stefnureglu** lista, veldu **Regla um aðgang að flokkum**. Ef hnappurinn **Stofna stefnureglu** er deyfður er það vegna þess að þegar er til staðar virk stefnuregla fyrir tegundaraðgang. Athuga reitina **Virkt** og **Gildislok** til að ákvarða hvaða það er, svo velja hana og smella á **hætta Við stefnureglu**. Ef **Stofna stefnureglu** hnappur er tiltækur, þarf ekki að gera neitt.  
+3. Smelltu á **Stofna stefnureglu**.
+4. Í retinum **Gildisdagsetningu** færirðu inn dagsetningu og tíma. Tíminn má ekki skarast við aðra reglu sem er þegar virk.  
+5. Velja tegund sem reglan mun eiga við. Taka niður athugasemd um það hvaða tegund þetta er – þú þarf hana síðar. Þegar flokkur er valinn, eru yfirflokkar eða yfirflokkur einnig settir á valinn tegundaalista. Viljirðu að reglan eigi við allar undirtegundir valinnar tegundar, Velja **Innifela undirtegundir** valkostinn.
+6. Smelltu á hægri örina til að bæta við **Valdir flokkar** lista.  
+4. Smellt er á **OK**. Ef þú stillir valkostinn **Innifela yfirregla** á Já, er Stefnureglun sem skilgreind er fyrir yfirtegund er einnig úthlutað til baka í undirtegundir ef engin stefnuregla hefur verið skilgreind fyrir undirtegundir.
 
 ## <a name="create-a-category-policy-rule"></a>Búa til tegundarstefnureglu
-1. Veldu Stefnuregla tegundar
-    * Ef hnappinn Stofna stefnureglu er deyfður, skal velja virka stefnureglu og smella á hætta Við stefnureglu.  
-2. Smellt er á Stofna stefnureglu.
-3. Færa inn dagsetningu og tíma í svæðinu gildisdagsetningu.
-4. Smelltu á Bæta við.
-5. Veljið sömu tegund sem notuð var fyrir reglu tegundaraðgangs.
-6. Í reitnum Velja lánardrottin, skal velja valkost.
-    * Velja reglu til að stjórna hvers konar lánardrottna má velja fyrir flokkinn þegar beiðnir eru stofnaðar.  
-7. Smellið á „Loka“.
-    * Þær stefnureglur sem skilgreindar hafa verið hafaverið fyrir beiðnir af gerðinni notkun. Ef óskað er að skilgreina reglur fyrir beiðnir af gerðinni Áfylling, myndirðu stofna regla fyrir stefnureglugerð sem kallast "Stefnuregla tegundaraðgangs fyrir áfyllingu".  
+1. Í listanum **Gerð stefnureglu** veldu **Stefnuregla tegunda**. Ef hnappinn **Stofna stefnureglu** er deyfður, skal velja virka stefnureglu og smella á **hætta Við stefnureglu**.  
+2. Smelltu á **Stofna stefnureglu**.
+3. Í retinum **Gildisdagsetningu** færirðu inn dagsetningu og tíma.
+4. Smelltu á **Bæta við**.
+5. Í reitnum **Flokkur** skal velja sama flokk og var notaður fyrir **reglu tegundaraðgangs**.
+6. Í reitnum **Velja lánardrottinn** skal velja valkost. Velja reglu til að stjórna hvers konar lánardrottna má velja fyrir flokkinn þegar beiðnir eru stofnaðar.  
+7. Smellið á **Loka**. Þær stefnureglur sem skilgreindar hafa verið hafaverið fyrir beiðnir af gerðinni notkun. Ef óskað er að skilgreina reglur fyrir beiðnir af gerðinni Áfylling, myndirðu stofna regla fyrir stefnureglugerð sem kallast "Stefnuregla tegundaraðgangs fyrir áfyllingu".  
 

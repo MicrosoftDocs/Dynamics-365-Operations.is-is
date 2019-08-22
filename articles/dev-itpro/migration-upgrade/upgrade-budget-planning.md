@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 272923
 ms.assetid: 17cdfe74-bdfd-466a-9bdd-c12583f250c7
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 3d57419ca5c59be185c87b869302b41bef05a3c7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1cbc2468c0eb6cd70b9ea792c1b5eafa8652e59f
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554497"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1851708"
 ---
 # <a name="upgrade-budget-planning"></a>Uppfæra fjárhagsáætlunargerð
 
@@ -54,7 +54,7 @@ Dálkar eru nýtt hugtak sem kemur í stað hluta af Excel-sniðmáti og einnig 
 
 ### <a name="budget-planning-processes"></a>Ferli fjárhagsáætlunargerðar
 
-Ferli fjárhagsáætlunargerðar eru að mestu hin sömu og AX 2012. Helsta verulega breytingin er að sniðmátum er skipt út fyrir útlit. Ef einhverjar vinnslur voru áður fylltar inn í AX 2012 eru vinnslur uppfærðar í framvindustöðu þannig að hægt er að gera breytingar. Úthluta verður útlit fyrir hvert stig reglu til að ákvarða hvaða aðstæður og tímabil birtast þegar áætlunin er opnuð á biðlara. Útlit ákvarða einnig hvaða Excel-sniðmát er opnað utan Dynamics 365 for Finance and Operations svo hægt sé að skoða fjárhagsáætlunina. **Sjálfgefið lykilskipulag** er nýtt nauðsynleg svæði fyrir Ferli fjárhagsáætlunargerðar. Fyrir hvert ferli fjárhagsáætlunargerðar skal úthluta aðallyklaskipulagi sem á að nota fyrir fjárhagsáætlun.
+Ferli fjárhagsáætlunargerðar eru að mestu hin sömu og AX 2012. Helsta verulega breytingin er að sniðmátum er skipt út fyrir útlit. Ef einhverjar vinnslur voru áður fylltar inn í AX 2012 eru vinnslur uppfærðar í framvindustöðu þannig að hægt er að gera breytingar. Úthluta verður útlit fyrir hvert stig reglu til að ákvarða hvaða aðstæður og tímabil birtast þegar áætlunin er opnuð á biðlara. Útlit ákvarða einnig hvaða Excel-sniðmát er opnað utan Dynamic 365 for Finance and Operations svo hægt sé að skoða fjárhagsáætlunina. **Sjálfgefið lykilskipulag** er nýtt nauðsynleg svæði fyrir Ferli fjárhagsáætlunargerðar. Fyrir hvert ferli fjárhagsáætlunargerðar skal úthluta aðallyklaskipulagi sem á að nota fyrir fjárhagsáætlun.
 
 ### <a name="attachments"></a>Viðhengi
 

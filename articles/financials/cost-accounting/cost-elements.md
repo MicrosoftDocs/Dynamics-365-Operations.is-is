@@ -1,6 +1,6 @@
 ---
 title: Víddir kostnaðareiningar
-description: Sem ein grunnstólpi kostnaðarbókhalds, eru víddir kostnaðareiningar notaðar til að flokka og rekja hvert kostnaður streymir.
+description: Sem einn grunnstólpi kostnaðarbókhalds, eru víddir kostnaðareiningar notaðar til að flokka og rekja hvert kostnaður streymir.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 223204
 ms.assetid: 1eda0e62-760b-4737-9dfd-3c3c38d80c1a
@@ -18,18 +18,18 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c703d1a9ae36d4342dc652d70dd82379187057c1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 037d4971fe0a5a9d08f0ed20d2482b8feb9aa4f2
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565743"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841610"
 ---
 # <a name="cost-element-dimensions"></a>Víddir kostnaðareiningar
 
 [!include [banner](../includes/banner.md)]
 
-Sem ein grunnstólpi kostnaðarbókhalds, eru víddir kostnaðareiningar notaðar til að flokka og rekja hvert kostnaður streymir. 
+Sem einn grunnstólpi kostnaðarbókhalds, eru víddir kostnaðareiningar notaðar til að flokka og rekja hvert kostnaður streymir. 
 
 Kostnaðareiningu samsvarar afurð sem tengist kostnaði í bókhaldslykum. Nokkurn vegin, getur það verið hvaða gerð einingar á lægsta stigi í fyrirtæki þangað sem kostnaður getur streymt. Kostnaðareiningar sem hugtak nær frá fjárhagslyklum til allra tilfanga sem tengjast kostnaði. Núna, kostnaðarbókhald styður fjárhagslykla.
 

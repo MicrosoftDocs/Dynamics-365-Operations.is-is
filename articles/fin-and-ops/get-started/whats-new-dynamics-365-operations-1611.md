@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.custom: 221294
 ms.assetid: 357931ed-f843-4bf5-bc85-0da3de0619ec
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7e907813323ef6b1c8b83675be75456f5844fa0a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b200f6b8a636a5e7c4ee2625226510f538ff023c
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548033"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863494"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Hvað er nýtt eða breytt í Dynamics 365 for Operations útgáfu 1611 (Nóvember 2016)
 
@@ -651,8 +651,8 @@ ms.locfileid: "1548033"
 </td>
 </tr>
 <tr>
-<td>Fylgstu með og keyrðu launatímabilsferlið með því að nota nýja vinnusvæðið <strong>Stjórnun launa </strong>.</td>
-<td>Nú er auðveldlega hægt að fylgjast með launavinnslunni. Í fljótu bragði geta launastjórar séð tekju- og launayfirlit sem krefjast athygli þeirra, svo að launakeyrslunni verður lokið og nákvæm. Vinnusvæðið <strong>Stjórnun launa </strong>gerir notendum kleift að fylgjast með og keyra upphafs-til-enda ferlum af einu vinnusvæði.</td>
+<td>Fylgstu með og keyrðu launatímabilsferlið með því að nota nýja vinnusvæðið <strong>Stjórnun launa</strong>.</td>
+<td>Nú er auðveldlega hægt að fylgjast með launavinnslunni. Í fljótu bragði geta launastjórar séð tekju- og launayfirlit sem krefjast athygli þeirra, svo að launakeyrslunni verður lokið og nákvæm. Vinnusvæðið <strong>Stjórnun launa</strong> gerir notendum kleift að fylgjast með og keyra upphafs-til-enda ferlum af einu vinnusvæði.</td>
 </tr>
 <tr>
 <td>Myndaðu jákvæðar greiðsluskrár fyrir launaávísanir.</td>
@@ -717,7 +717,7 @@ ms.locfileid: "1548033"
 |-----------------|-----------------------|
 | Notaðu Valið síðar þegar verið er að bóka reikningstillögu í runu. | Bókhaldarar verks geta sett upp runuvinnslu til að sækja reikningstillögur sjálfkrafa fyrir bókun, ef þær tillögur uppfylla skilyrðin sem eru tilgreind í runuvinnslunni. Þessi eiginleiki endurbætir sjálfvirkni við bókun reiknings, þar sem runuvinnslan getur keyrt stöðugt og tekur sjálfkrafa upp tillögur fyrir bókun. |
 | Búa til greiningar í Power BI skjáborði. | Efni viðskiptaupplýsinga (BI) fyrir verktengd og tilfangatengd gögn má auðveldlega stofna í Power BI skjáborði. |
-| Notaðu fyrirframgreiðslur pöntun í innkaupapöntun og hafðu þær réttar í matsferli  verkefnisins. | Fyrir innkaupapantanir verks verða fyrirframgreiðslur að vera unnar áður en hægt að losa sumar greiðslur til lánardrottna. Þessir fyrirframgreiðslureikningar birtast núna í verkmati/skráningarferli fyrir verk af gerðinni **Fast verð**. |
+| Notaðu fyrirframgreiðslur pöntun í innkaupapöntun og hafðu þær réttar í matsferli verkefnisins. | Fyrir innkaupapantanir verks verða fyrirframgreiðslur að vera unnar áður en hægt að losa sumar greiðslur til lánardrottna. Þessir fyrirframgreiðslureikningar birtast núna í verkmati/skráningarferli fyrir verk af gerðinni **Fast verð**. |
 | Fá aðgang að og stjórna kostnaði og áætluðum tekjum og vöruþörfum, beint úr sundurliðun verkþátta verks (WBS). | Hægt er að stjórna kostnaðarmati, tekjumati og vöruþörfum fyrir tiltekin WBS-verk í upplýsingaglugganum fyrir það verk í WBS yfirliti áætlana. |
 | Sækja fjármögnunaraðila á þóknunarbækur. | Ef samningur fyrir verk inniheldur marga fjármögnunaraðila er hægt að velja einn tiltekinn fjármögnunaraðila þegar gjöldin eru bókuð. Ef ekki er valinn ákveðinn fjármögnunaraðili eru fjármögnunarreglur sem tilgreindar eru í samningnum notaðar til að úthluta þóknun. |
 | Opna verkyfirlit í Excel. | Nýjar gagnaeiningar fyrir fjárhagsuppfærslur og áætlunaruppfærslur gera kleift að opna gögn um verkyfirlit í Excel og stofna greiningar með því að nota aðgerðir í Excel. |
@@ -759,7 +759,7 @@ Snurðulaus viðskipti omni-rásar vísar til stjórnunar og vinnslu pantana í 
 |-----------------|-----------------------|
 | CRT/smásöluþjónn: Smásalar eða ISVs geta útvíkkað CRT gegnum nafnaukakróka. Breytingar á innbyggðum kóðum eru ekki studdar lengur. | Til að virkja samfellda samþættingu og samfellda uppsetningu þarf að sneiða algjörlega hjá breytingum á innbyggðum kóða. Einnig til að styðja auðvelda upptöku á bráðabót án neinnar kóðasameiningar og virkjun CRT þátta. |
 
-### <a name="personalized-product-recommendations"></a>Sérsniðiðnar vöruráðleggingar
+### <a name="personalized-product-recommendations"></a>Sérsniðnar afurðaráðleggingar
 
 | Það sem hægt er að gera | Hvers vegna er þetta mikilvægt? |
 |-----------------|-----------------------|
@@ -798,7 +798,7 @@ Verslunarkerfið er uppsetningarval fyrir smásala sem hjálpar til við að key
 | Smásali keyrir Retail Modern POS í verslunarhúsnæðinu og getur gert rauntíma aðgerðir, eins og gefa út gjafakort þegar tenging er til staðar. | Smásalinn getur framkvæmt rauntíma aðgerðir úr verslunarkerfinu þegar tenging er til staðar. |
 | Smásali getur samstillt gögn úr verslunarkerfinu við höfuðstöðvar þegar tenging er til staðar. | Smásalinn getur samstillt við verslunarkerfi þegar tenging er til staðar. |
 | Smásali getur átt örugg samskipti á milli verslunarkerfisins og höfuðstöðva. | Smásalinn getur átt örugg samskipti úr verslunarkerfinu þegar tenging er til staðar. |
-| Tæknistjóri og Microsoft Operations geta fylgst með og gefið skýrslur um verslunarkerfið í verslunarhúsnæðinu (greint og gefið skýrslu um  breytingar). | Tæknistjóri og Microsoft Operations geta fylgst með verslunarkerfinu á öruggan hátt og úrræðaleitað á skilvirkan hátt. |
+| Tæknistjóri og Microsoft Operations geta fylgst með og gefið skýrslur um verslunarkerfið í verslunarhúsnæðinu (greint og gefið skýrslu um breytingar). | Tæknistjóri og Microsoft Operations geta fylgst með verslunarkerfinu á öruggan hátt og úrræðaleitað á skilvirkan hátt. |
 
 ### <a name="universal-windows-platform-app-for-retail-modern-pos"></a>Altækur verkvangur Windows forrits fyrir Retail Modern POS
 
@@ -827,7 +827,7 @@ Eins og stendur er Retail Modern POS aðeins tiltækt sem Windows 8.1 forrit fyr
 | Gera lánardrottnum mögulegt að bregðast við hverri innkaupalínu og leggja til breytingar. | Í sumum tilfellum vilja lánardrottnar samþykkja sumar innkaupapöntunarlínur en hafna öðrum. Lánardrottnar geta nú sérstaklega stjórnað innkaupapöntunarlínum. Hægt er að hafna hverri einustu línu, samþykkja hana eða samþykkja með breytingum. Til dæmis geta lánardrottnar breytt afhendingardagsetningu, skipt afhendingu og magni eða stungið upp á annarri vöru. |
 | Gera lánardrottnum mögulegt að stjórna upplýsingum um tengilið. | Lánardrottnar geta viðhaldið upplýsingum um tengilið um fyrirtæki þeirra. Þessar upplýsingar innihalda nöfn, tölvupóstaðsetur og símanúmer. Aðgangur að þessari aðgerð er veittur með sérnýttu öryggishlutverki. |
 | Deila skjölum sem tengjast innkaupapöntunum með lánardrottna. | Þegar samnýta þarf skjal með lánardrottni, s.s. skjal um þarfir, er handhægt að tengja skjalið við viðeigandi innkaupapöntun. Lánardrottinn getur síðan deilt athugasemdum og viðhengjum með viðskiptavinum með því að tengja skjalið við svar hans eða hennar við innkaupapöntun. Skjalastjórnun er undirliggjandi stuðningsrammi og aðeins er hægt að deila athugasemdum og viðhengjum sem eru flokkuð sem „ytri“ með lánardrottnum. |
-| Ráðstafa nýjum notendum lánardrottins. | Ef lánardrottnarnir nota viðmót samvinnusvæðis lánardrottins hafa þeir snurðulausa leið til að biðja um nýja notendareikninga þegar nýir tengiliðir þarfnast aðgangs að samvinnusvæði lánardrottins. Sérfræðingar í innkaupum geta sent inn beiðni um notendareikning tengiliðs við fyrirtæki lánardrottins. Tengiliður lánardrottins sem er þegar notandi á samvinnusvæði lánardrottins getur líka sent þessa gerð beiðni. Þessi beiðni býr að lokum til nýjan notanda í Dynamics 365 for Operations sem er með öryggishlutverk tiltekins lánardrottins. Það auðveldar einnig beiðni til gáttar Azure AD B2B um að ráðstafa notanda nýjum Microsoft Azure (Azure Active Directory) notandareikningi. Lánardrottnar geta einnig beðið um að tilgreindir lánardrottnalyklar notanda séu gerðir óvirkir eða að öryggishlutverkum sé breytt. |
+| Ráðstafa nýjum notendum lánardrottins. | Ef lánardrottnarnir nota viðmót samvinnusvæðis lánardrottins hafa þeir snurðulausa leið til að biðja um nýja notendareikninga þegar nýir tengiliðir þarfnast aðgangs að samvinnusvæði lánardrottins. Sérfræðingar í innkaupum geta sent inn beiðni um notendareikning tengiliðs við fyrirtæki lánardrottins. Tengiliður lánardrottins sem er þegar notandi á samvinnusvæði lánardrottins getur líka sent þessa gerð beiðni. Þessi beiðni býr að lokum til nýjan notanda í Dynamics 365 for Operations sem er með öryggishlutverk tiltekins lánardrottins. Það auðveldar einnig beiðni til gáttar Microsoft Azure B2B um að veita notanda nýjan Azure Active Directory (Azure AD) notandareikning. Lánardrottnar geta einnig beðið um að tilgreindir lánardrottnalyklar notanda séu gerðir óvirkir eða að öryggishlutverkum sé breytt. |
 | Fræðast nánar um stuðning við samstarf lánardrottna í Dynamics 365 for Operations. | Nánari upplýsingar um samstarf lánardrottna er að finna á [Samvinnusvæði lánardrottins við ytri lánardrottna](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md), [Samvinnusvæði lánardrottins við viðskiptavini](../../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md), [Stjórna notendum samvinnusvæðis lánardrottins](../../supply-chain/procurement/manage-vendor-collaboration-users.md), [Setja upp og viðhalda samvinnusvæði lánardrottins](../../supply-chain/procurement/set-up-maintain-vendor-collaboration.md) og [Reikningsfærsluvinnusvæði lánardrottins](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). |
 
 ### <a name="intercompany-order-processing"></a>Vinnsla samstæðusölupöntunar

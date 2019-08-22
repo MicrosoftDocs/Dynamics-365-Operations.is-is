@@ -3,7 +3,7 @@ title: Skilgreina og keyra vinnsluna til að bóka uppgjör
 description: Þetta ferli fer í gegnum skilgreiningu og keyrslu á runuvinnslum ítrekað til að bóka uppgjör fyrir valda verslun eða verslunarflokk.
 author: josaw1
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 676216d90c50c0d3fa1a839cab7a734e624708ba
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a24014f7e1b925e0fdb20b91bcc9594feb8f4c5c
+ms.sourcegitcommit: fc40279d0e56f8a43c601bca6265fdde4c8c4c7e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550117"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "1792249"
 ---
 # <a name="configure-and-run-job-to-post-statements"></a>Skilgreina og keyra vinnsluna til að bóka uppgjör
 
@@ -31,11 +31,12 @@ ms.locfileid: "1550117"
 Þetta ferli fer í gegnum skilgreiningu og keyrslu á runuvinnslum ítrekað til að bóka uppgjör fyrir valda verslun eða verslunarflokk. Þetta ferli notar sýnigögn fyrirtæki USRT.
 
 1. Fara í Öll vinnusvæði > .. > Fjárhagur smásöluverslunar
-2. Smellt er á Bóka uppgjör.
+2. Smelltu á Bóka uppgjör í runu.
     * Velja stigveldi fyrirtækis og síðan í fyrirtækishnútur, í trénu velja einstaka verslun eða hnút. Annað hnút ef óskað er að búa til runuvinnslu fyrir hóp verslanir.  
     * Smella á örina til að bæta vali.  
-3. Smella á Keyra í bakgrunni flipanum.
+3. Smelltu á flipann Keyra í bakgrunni. ![Keyra í bakgrunni](../dev-itpro/media/runbackground.png "Keyra í bakgrunni") 
 4. Kanna eða afmerkja gátreit runuvinnsla.
+![Runuvinnsla](../dev-itpro/media/batchprocessing.png "Runuvinnsla og endurtekning") 
 5. Smellið á Endurtekning.
 6. Dagsetning er rituð í reitinn Upphafsdagur.
 7. Í reitinn upphafstími skal slá inn tíma.

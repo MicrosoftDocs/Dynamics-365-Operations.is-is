@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CreditCardProcessors, CustTable, SalesTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations, Retail
 ms.custom: 3041
 ms.assetid: 678f6899-bfa5-439b-aaca-b4affcc338ba
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a1d3c73e4305375ddf356b93b9502b0255df99b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 00177f2868dbd7c9de53b374c15e4a73bc2655ba
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547280"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1836749"
 ---
 # <a name="credit-card-setup-authorization-and-capture"></a>Uppsetningar á kreditkorti, heimild og sækja
 
@@ -38,8 +38,8 @@ ms.locfileid: "1547280"
 
 Til að nota kreditkort, verður að setja upp og virkja greiðsluþjónustu á síðunni greiðsluþjónusta. Greiðsluþjónustu virkar eins og brú á milli lögaðila lögaðila þíns og bankans sem vinnur kreditkortagjöld viðskiptavinarins. Þú Þarft að vinna með kreditkortaveitu sem er talin upp í svæðinu greiðslutengill og setja upp lykil hjá þessari veitu. Svo er verður að setja upp aðra valkosti á síðunni greiðsluþjónusta, setja upp greiðslukortagerðir fyrir American Express, Discover, MasterCard og Discover á síðunni gerðir kreditkorts og virkja veitu sem sjálfgefna veitu. Einnig verður að fylgja þessum skrefum til að ljúka uppsetningu:
 -   Tilgreina færibreytur fyrir notkun kreditkortaheimilda á síðunni færibreytur viðskiptakrafna.
--   Greiðsluskilmálar fyrir kreditkort eru settir upp á síðunni Greiðsluskilmálar. Í svæðinu  greiðslugerð er valin kreditkort.
--   Á síðunni kreditkort viðskiptavinar, sjak  Færa inn kreditkortaupplýsingar viðskiptavinar.
+-   Greiðsluskilmálar fyrir kreditkort eru settir upp á síðunni Greiðsluskilmálar. Í svæðinu greiðslugerð er valin kreditkort.
+-   Á síðunni kreditkort viðskiptavinar, skal Færa inn kreditkortaupplýsingar viðskiptavinar.
 
 ## <a name="adding-a-new-credit-card"></a>Bæta við nýju kreditkorti
 Hægt er að stofna nýjar kreditkortafærslur á síðunni Viðskiptavinir með því að nota Viðskiptavinur, Setja upp, kreditkort. Einnig er hægt að stofna kreditkortafærslur þegar sölupantanir eru færðar inn á síðunni Vsk, með því að nota Stjórna, Viðskiptavinur, kreditkort, Afgreiðslukassi.
@@ -52,7 +52,7 @@ Hægt er að bæta kreditkort við sölupöntun með því að velja greiðsluko
 <a name="authorizing-a-credit-card"></a>Heimila kreditkort
 -------------------------
 
-Þegar kreditkort er gefin heimild, er kortanúmerið og nafn handhafa  sannvottuð og tiltæk lánsheimild staðfest. Valkvætt er að staðfesta aðsetur og CVV-númer í korthafa. Tiltæk Lánsheimild viðskiptavinar er síðan minnkuð sem nemur reikningnum.. Greiðsluþjónusta sendir upplýsingar um að kreditkortið hefur verið samþykkt eða hafnað. Þegar sölupöntun er reikningsfærð, er kreditkortið rukkað (sótt) um upphæð reikningsins.
+Þegar kreditkort er gefin heimild, er kortanúmerið og nafn handhafa sannvottuð og tiltæk lánsheimild staðfest. Valkvætt er að staðfesta aðsetur og CVV-númer í korthafa. Tiltæk Lánsheimild viðskiptavinar er síðan minnkuð sem nemur reikningnum.. Greiðsluþjónusta sendir upplýsingar um að kreditkortið hefur verið samþykkt eða hafnað. Þegar sölupöntun er reikningsfærð, er kreditkortið rukkað (sótt) um upphæð reikningsins.
 
 ### <a name="card-verification-value"></a>Sannprófunargildi korts
 

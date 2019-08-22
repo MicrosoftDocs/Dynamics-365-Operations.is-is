@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 7171
 ms.assetid: 381fc309-b32a-4927-b5b8-fa1c31b0bd72
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0128743e608ec56bea2301ac576551065a1ff290
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 34e7e3f37d759953b7b4f70fe9eae78154da44d1
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561523"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846848"
 ---
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>Virðisaukaskattur byggður á jaðargrunns- og útreikningsaðferðum
 
@@ -38,7 +38,7 @@ Mismunandi samsetning gilda í þessum svæðum leiðir til mjög ólíkra VSK-�
 > [!Important]                                                                                                                  
 > Ef jaðargrunnurinn í einum eða fleiri VSK-kóðanna er byggður á línuupphæðum eða einingu, verður gildið í reitnum Útreikningsaðferð í skjámyndinni Færðibreytur fjárhags að vera stillt á Lína. |
 
-## <a name="net-amount-per-line"></a> Nettóupphæð á línu
+## <a name="net-amount-per-line"></a>Nettóupphæð á línu
 Veldu þennan valkost til að ákvarða hlutfall virðisaukaskatts byggðan á nettóupphæð í reikningslínum, án allra annarra skatta.
 
 ### <a name="example"></a>Dæmi
@@ -80,7 +80,7 @@ Heildarupphæð virðisaukaskatts = 25,00 + 25,00 = 50,00
 
 Heildarupphæð reiknings = 200,00 + 50,00 = 250,00
 
-## <a name="net-amount-per-unit"></a> Nettóupphæð á einingu
+## <a name="net-amount-per-unit"></a>Nettóupphæð á einingu
 Veldu þennan valkost til að ákvarða hlutfall virðisaukaskatts byggðan á gildi hverrar einingar, án allra annarra skatta. Þegar eining út jaðargrunnurinn er valin verður einnig að tilgreina einingu fyrir VSK-kóðann.
 
 ### <a name="example"></a>Dæmi
@@ -103,7 +103,7 @@ Nettóupphæðin fyrir reikningslínuna er 200,00.
 
 Skatturinn er reiknaður sem hér segir: VSK á einingu = 25,00 x 30% = 7,50 Heildarupphæð vsk = 7,50 x 8 einingar = 60,00 Heildarreikningsupphæð = 200,00 + 60,00 = 260,00
 
-## <a name="net-amount-of-invoice-balance"></a> Nettóupphæð af reikningsstöðu
+## <a name="net-amount-of-invoice-balance"></a>Nettóupphæð af reikningsstöðu
 
 Veldu þennan valkost til að ákvarða hlutfall virðisaukaskatts byggt á heildarvirði reikningsins, án allra annarra skatta.
 
@@ -121,7 +121,7 @@ Jaðargrunnur: **Nettóupphæð af reikningsstöðu**
 
 Útreikningsaðferð: **Bil** Sölureikningur með 2 línur með 4 lampa hverja línur fyrir 25,00 hver. Nettóupphæð af reikningsstöðu er 4 x 25,00 + 4 x 25,00 = 200,00. Skatturinn er reiknaður sem hér segir: Heildarsöluskattur = 50 x 0,30 + 50 x 0,20 + 100 x 0,10 = 15 + 10 +10 = 35,00 Heildarreikningsupphæð = 200,00 + 35,00 = 235,00
 
-## <a name="gross-amount-per-line"></a> Brúttó upphæð eftir línu
+## <a name="gross-amount-per-line"></a>Brúttó upphæð eftir línu
 
 Veldu þennan valkost til að ákvarða hlutfall virðisaukaskatts byggt á línunni, ásamt öllum öðrum sköttum fyrir línuna.
 
@@ -144,7 +144,7 @@ Jaðargrunnurinn: **Brúttóupphæð eftir línu** Útreikningsaðferð: **Bil**
 
 Ef reikningur er stofnaður með því að nota 2 reikningslínur með 4 vörum í hverri línu er nettóupphæð fyrir línu 100,00. Brúttóupphæð (með gjaldi 4 x 5,00) hverrar reikningslínu væri 120,00 og VSK er stofnuður á eftirfarandi hátt: Lína VSK-reiknings 1 = 50 x 0,30 + 50 x 0,20 + 20 x 0,10 = 15 + 10 + 2 = 27,00 Lína VSK-reiknings 2 = 50 x 0,30 + 50 x 0,20 + 20 x 0,10 = 15 + 10 + 2 = 27,00 Samtals virðisaukaskattur = 27,00 + 27,00 = 54,00 Heildargjöld = 5,00 x 8 = 40,00 Heildarreikningsupphæð = 200,00 + 54,00 + 40,00 = 294,00
 
-## <a name="gross-amount-per-unit"></a> Brúttó upphæð á einingu
+## <a name="gross-amount-per-unit"></a>Brúttó upphæð á einingu
 
 Veldu þennan valkost til að ákvarða hlutfall virðisaukaskatts byggðan á einingunni, ásamt öllum öðrum sköttum.
 
@@ -163,7 +163,7 @@ Skatthlutfall virðisaukaskatts eru sett upp í eftirfarandi tímabilum:
 
 Jaðargrunnurinn: **Brúttóupphæð á einingu** Það er sérstakt gjald upp á 5,00 fyrir hvern lampa. Gjaldinu er bætt við nettóupphæðina áður en VSK er reiknaður út. Keyptir eru 8 lampar sem kosta 25,00 hver. Brúttóupphæð á einingu er 30,00. Skatturinn er reiknaður sem hér segir: Virðisaukaskattur á einingu = 30 x 30% = 9,00 Heildarvirðisaukaskattur = 9,00 x 8 = 72,00 Heildargjöld = 5,00 x 8 + 40,00 Heildarreikningsupphæð = 200,00 + 72,00 + 40,00 = 312,00
 
-## <a name="invoice-total-incl-other-sales-tax-amounts"></a> Samtala reiknings að meðtöldum öðrum VSK-upphæðum
+## <a name="invoice-total-incl-other-sales-tax-amounts"></a>Samtala reiknings að meðtöldum öðrum VSK-upphæðum
 
 Veldu þennan valkost til að ákvarða hlutfall virðisaukaskatts byggt á heildarvirði reikningsins, ásamt öllum öðrum sköttum.
 > [!NOTE]

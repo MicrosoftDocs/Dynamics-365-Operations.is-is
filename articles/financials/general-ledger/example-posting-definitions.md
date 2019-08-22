@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JournalizingDefinition, JournalizingDefinitionTrans
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 15772
 ms.assetid: 3864e4da-853f-403d-b906-79631d80b363
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5fb08a86639e9a9a79dca5fc1200e73e5870432
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 09b78a40d3bac5794a66d0ea743f11a27cfacf4e
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564694"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839330"
 ---
-# <a name="posting-definition-examples"></a>Dæmi um bókunarskilgreiningar 
+# <a name="posting-definition-examples"></a>Dæmi um bókunarskilgreiningar
 
 [!include [banner](../includes/banner.md)]
 
@@ -43,15 +43,15 @@ ms.locfileid: "1564694"
 > Til að tengja bókunarskilgreining við tilgreint færslugerð skal nota síðu **Skilgreiningar færslubókunar**. Eftir að tengja bókunarskilgreiningu við færslugerð og veljið **Nota bókunarskilgreiningar** á **fjárhagsfæribreytur** síðu , verða allar færslur af valinni færslugerð að nota bókunarskilgreiningar.
 
 ## <a name="example-purchase-order-encumbrances"></a>Dæmi: Fjárúthlutun innkaupapöntunar
-Þegar þú virkjar fjárúthlutunar með því að velja **Virkja ferli fjárúthlutunar** á **fjárhagsfæribreytur** síðu, verður að nota  bókunarskilgreiningar til að skrá fjárúthlutanir í fjárhaginn fyrir hvaða lykla sem á að taka frá. Í flestum tilvikum, alla kostnaðarlykla eru teknar frá á efnahagsreikningi. 
+Þegar þú virkjar fjárúthlutunar með því að velja **Virkja ferli fjárúthlutunar** á **fjárhagsfæribreytur** síðu, verður að nota bókunarskilgreiningar til að skrá fjárúthlutanir í fjárhaginn fyrir hvaða lykla sem á að taka frá. Í flestum tilvikum, alla kostnaðarlykla eru teknar frá á efnahagsreikningi. 
 
-Bókunarskilgreiningar fyrir fjárúthlutanir eru settir upp fyrir í **Innkaup** kerfiseiningu á **Bókunarskilgreiningar** síðunni. Svo í **Innkaup** svæði í **bókunarskilgreiningar Færslna** síðu er hægt að velja færslugerð **Innkaupapöntunar**  til að tengja bókunarskilgreiningar við innkaupapöntunum. 
+Bókunarskilgreiningar fyrir fjárúthlutanir eru settir upp fyrir í **Innkaup** kerfiseiningu á **Bókunarskilgreiningar** síðunni. Svo í **Innkaup** svæði í **bókunarskilgreiningar Færslna** síðu er hægt að velja færslugerð **Innkaupapöntunar** til að tengja bókunarskilgreiningar við innkaupapöntunum. 
 
 Allar fylgiskjalafærslur fyrir fjárúthlutanir innkaupapantana að að vera í jafnvægi (debet verða að vera sama og inneign) í hverri einkvmri vídd á fylgiskjal.
 
 ### <a name="posting-definition--match-criteria"></a>Bókunarskilgreining – jöfnunarskilyrði
 
-| Lykilskipulag       | Samsvarandi lykilnúmer | Forgangur  |
+| Lykilskipulag       | Samsvarandi lykilnúmer | Forgangur |
 |-------------------------|----------------------|----------|
 | Lykilskipulag- P&L | \*                   | 1        |
 
@@ -92,7 +92,7 @@ Til að setja upp bókunarskilgreining fyrir færslur fjárhagsáætlunar í me�
 
 ### <a name="posting-definition--match-criteria"></a>Bókunarskilgreining – jöfnunarskilyrði
 
-| Lykilskipulag       | Samsvarandi lykilnúmer | Forgangur  |
+| Lykilskipulag       | Samsvarandi lykilnúmer | Forgangur |
 |-------------------------|----------------------|----------|
 | Lykilskipulag- P&L | \*                   | 1        |
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 14584
 ms.assetid: e54936f5-053b-4ed3-b778-42c7e9aeb7cf
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 79d252ca04ca9434c10d282722b3e3dec58aab6a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a71d0931445f3501f1b74f26c5eef583ab598b3c
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562858"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843098"
 ---
 # <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Jafna hlutagreiðslu viðskiptavinar fyrir afsláttardagsetninguna með lokagreiðslu eftir afsláttardagsetninguna
 
@@ -98,7 +98,7 @@ Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** s
 | Notaður staðgreiðsluafsláttur          | 3,00      |
 | Upphæð staðgreiðsluafsláttar sem á að veita | 7,00      |
 
-Arnie breytir gildinu í reitnum **Nota staðgreiðsluafslátt** aftur í **Venjulegt**, þar sem hann lætur þennan viðskiptavin ekki fá eftirstandandi staðgreiðsluafslátt upp á 7,00. Síðan bókar Arnie reikninginn. Þegar Arnie opnar síðuna**Færslur viðskiptavina** sér hann að reikningurinn hefur stöðuna 0,00. Hann sér einnig að það eru tvær greiðslur. Ein greiðsla er upp á 297,00 með 3,00 staðgreiðsluafslætti og önnur greiðsla er upp á 700,00.
+Arnie breytir gildinu í reitnum **Nota staðgreiðsluafslátt** aftur í **Venjulegt**, þar sem hann lætur þennan viðskiptavin ekki fá eftirstandandi staðgreiðsluafslátt upp á 7,00. Síðan bókar Arnie reikninginn. Þegar Arnie opnar síðuna **Færslur viðskiptavina** sér hann að reikningurinn hefur stöðuna 0,00. Hann sér einnig að það eru tvær greiðslur. Ein greiðsla er upp á 297,00 með 3,00 staðgreiðsluafslætti og önnur greiðsla er upp á 700,00.
 
 | Fylgiskjal    | Færslugerð | Dagsetning      | Reikningur | Upphæð í færslugjaldmiðli - debet | Upphæð í færslugjaldmiðli - kredit | Staða | Gjaldmiðill |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

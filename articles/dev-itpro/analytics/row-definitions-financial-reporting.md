@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c829af1da1b3109f4687c9a2536dd156339d5c76
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5b0b7b715bc2b3b90bcd6620c3fe0ad751313c06
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551602"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863749"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Línuskilgreiningar í fjárhagsskýrsluhönnuði
 
@@ -127,7 +127,7 @@ Hægt er að stofna og breyta leturstílum fyrir skýrslu. Svo er hægt að nota
 <td><strong>Leturstíll stofnaður</strong></td>
 <td>
 <ol>
-<li>Á valmyndinni <strong>Snið </strong>í Skýrsluhönnun er smellt á <strong>Stílar og snið</strong>.</li>
+<li>Á valmyndinni <strong>Snið</strong> í Skýrsluhönnun er smellt á <strong>Stílar og snið</strong>.</li>
 <li>Í <strong>Stílar og snið</strong> svarglugganum skal smella á <strong>Nýtt</strong> og færa inn einkvæmt heiti fyrir nýja stílinn.</li>
 <li>Veljið leturgerðir og smellið síðan á <strong>Í lagi</strong>.</li>
 </ol>
@@ -137,7 +137,7 @@ Hægt er að stofna og breyta leturstílum fyrir skýrslu. Svo er hægt að nota
 <td><strong>Leturstíl breytt</strong></td>
 <td>
 <ol>
-<li>Á valmyndinni <strong>Snið </strong>í Skýrsluhönnun er smellt á <strong>Stílar og snið</strong>.</li>
+<li>Á valmyndinni <strong>Snið</strong> í Skýrsluhönnun er smellt á <strong>Stílar og snið</strong>.</li>
 <li>Í <strong>Stílar og snið</strong> svarglugganum skal velja stíl sem á að breyta og smella svo á <strong>Breyta</strong>.</li>
 <li>Veljið leturgerðir og smellið síðan á <strong>Í lagi</strong>.</li>
 </ol>
@@ -161,7 +161,7 @@ Sniðið sem er tilgreint í línuskilgreiningunni hnekkir öllum sniðum sem er
 
 1. Opnið skilgreiningu raðar í Report Designer til að gera breytingar.
 2. Veljið hólfin sem á að sníða. Til að velja fleiri en eitt hólf skal halda Ctrl-lyklinum niðri um leið og hólfin eru valin.
-3. Smellið á tækjastikuhnapp sniðsins sem á að nota. Til að draga t.d. inn línu skal velja línuna og smella á **Auka inndrátt** ![Auka inndrátt](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Auka inndrátt") á tækjastikunni.
+3. Smellið á tækjastikuhnapp sniðsins sem á að nota. Til að draga t.d. inn línu skal velja línuna og smella á **Auka inndrátt** ![Auka inndrátt](media/indent.gif "Auka inndrátt") á tækjastikunni.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Stilling dálka við hönnun skýrslna
 

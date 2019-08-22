@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustInterestJourList
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 59461
 ms.assetid: 25ec29f3-e3ea-4abb-bf6b-f6240873b315
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cfeab6f393b63b25d595067de3eb90fc899c508b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1b5c92d6f3bb0bdc3fbadc9708350b5107e6cf37
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549174"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834344"
 ---
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Fella niður, endurskipa eða bakfæra vaxtagjöld
 
@@ -31,7 +31,7 @@ ms.locfileid: "1549174"
 
 Þessi grein útskýrir hvernig skal fella niður, endurskipa, og bakfæra gjald fyrir vextir og gjöld.
 
-Hægt er að nota hnappana í **Sækja**flipanum á **Allir viðskiptavinir** listasíðu til að fella niður, bakfæra eða virkja gjöld:
+Hægt er að nota hnappana í **Sækja** flipanum á **Allir viðskiptavinir** listasíðu til að fella niður, bakfæra eða virkja gjöld:
 
 -   Niðurfelld gjöld eru látin gleymd. Hægt að fella niður gjald ef til dæmis viðskiptavinur hefur ágreining um gjaldið, og óskað er að halda góðum viðskiptatengslum við viðskiptavininn.
 -   Virkjuð gjöld komast aftur á gjalddaga. Hægt er að virkja gjöld sem áður voru felld niður. Það gæti þurft að endurskipa gjöld ef ákveðið er að þau ættu ekki að hafa verið felld niður.
@@ -61,7 +61,7 @@ Hægt er að gera leiðréttingu með því að nota **Leiðrétta reikning** hn
 
 Hægt er að nota þetta ferli til að bakfæra viðskiptavinafærslu á reikningi, þegar reikningurinn var stofnaður á rangan hátt. Ef bakfærða viðskiptavinarfærslan hefur vexti á vaxtanótu, og vaxtanótan var bókuð eru vextir á færsluna einnig bakfærðir á vaxtanótu. Hætt er við vaxtanótuna ef hún hefur ekki verið bókuð. 
 
-Hægt er að bakfæra færslur viðskiptavinar°með því að nota **Bakfæra**hnappinn á **Viðskiptavinafærslur** síðu.
+Hægt er að bakfæra færslur viðskiptavinar með því að nota **Bakfæra** hnappinn á **Viðskiptavinafærslur** síðu.
 
 ## <a name="waive-or-reinstate-interest-notes"></a>Fella niður eða endurskipa vaxtanótur
 Hægt er að fella niður eða endurskipa öll gjöld á vaxtanótum sem valdar voru. Þegar gjöld eru felld niður, getur heildarupphæðin sem á að fella niður ekki verið hærri en upphæðartakmörk sem hafa verið valin. Hægt er að endurskipa vaxtanótu eingöngu ef hún var felld niður. 
@@ -71,17 +71,17 @@ Hægt er að fella niður eða endurskipa vaxtanótur með því að nota **Vaxt
 ## <a name="waive-or-reinstate-interest-transactions"></a>Fella niður eða endurskipa vaxtafærslur
 Hægt er að fella niður eða endurskipa tilteknar vaxtafærslur á vaxtanótu í stað þess að leiðrétta öll gjöld á vaxtanótunni. Þegar gjöld eru felld niður, getur heildarupphæðin sem á að fella niður ekki verið hærri en upphæðartakmörk sem hafa verið valin. Hægt er að endurskipa vaxtafærslu eingöngu ef hún var felld niður. 
 
-Hægt er að fella niður eða endurskipa vaxtanótur með því að nota°**Vaxtanótu**°hnappinn á **Safna** flipanum á **Viðskiptavinar** síðu.
+Hægt er að fella niður eða endurskipa vaxtanótur með því að nota **Vaxtanótu** hnappinn á **Safna** flipanum á **Viðskiptavinar** síðu.
 
 ## <a name="waive-or-reinstate-fees"></a>Fella niður eða endurskipa gjöld
 Hægt er að fella niður eða endurskipa tiltekin gjöld á vaxtanótu í stað þess að leiðrétta öll gjöld á vaxtanótunni. Þegar gjöld eru felld niður, getur heildarupphæðin sem á að fella niður ekki verið hærri en upphæðartakmörk sem hafa verið valin. Hægt er að endurskipa gjöld eingöngu ef þau voru felld niður. 
 
-Hægt er að fella niður eða endurskipa vaxtanótur með því að nota°**Gjald**°hnappinn á **Safna** flipanum á **Viðskiptavinar** síðu.
+Hægt er að fella niður eða endurskipa vaxtanótur með því að nota **Gjald** hnappinn á **Safna** flipanum á **Viðskiptavinar** síðu.
 
 ## <a name="reverse-interest-notes"></a>Bakfæra vaxtanótur
 Hægt er að bakfæra öll gjöld á vaxtanótur sem valdar voru. Bakfærð gjöld eru fjarlægð úr reikningi viðskiptavinar, og eru ekki lengur á gjalddaga. Eftir að vaxtanóta er bakfærð er hægt er að endurreikna vexti og stofna nýja vaxtanótu. 
 
-Hægt er að bakfæra vaxtanótur með því að nota°**Vaxtanótu** hnappinn í **Safna** flipanum á **Viðskiptavinar** síðu.
+Hægt er að bakfæra vaxtanótur með því að nota **Vaxtanótu** hnappinn í **Safna** flipanum á **Viðskiptavinar** síðu.
 
 ## <a name="reverse-interest-transactions"></a>Bakfæra vaxtafærslur
 Hægt er að bakfæra allar vaxtafærslur sem valdar eru. Bakfærð gjöld eru fjarlægð úr reikningi viðskiptavinar, og eru ekki lengur á gjalddaga. Eftir að færslurnar eru bakfærðar er hægt er að endurreikna vexti og stofna nýja vaxtanótu.
@@ -91,7 +91,7 @@ Hægt er að bakfæra vaxtanótur með því að°nota **vaxtanótu** hnappinn �
 ## <a name="view-the-history-of-adjustments-for-charges-that-were-waived-reinstated-or-reversed"></a>Skoða sögu leiðréttinga fyrir gjöld sem voru felld niður, endurskipuð, eða bakfærð.
 Hægt er að skoða nákvæma sögu leiðréttinga sem gerðar voru fyrir vaxtanótur, eins og notandann sem stofnaði leiðréttinguna, gerð leiðréttingar, upphæðina, og hvenær leiðrétting var færð inn. Til dæmis gæti þurft að skoða fyrri leiðréttingar sem voru færðar inn fyrir vaxtanótu áður en ný vaxtanóta er stofnuð. 
 
-Hægt er að bakfæra vaxtanótur með því að nota°**Saga** hnappinn í **Safna** flipanum á **Viðskiptavinar** síðu.
+Hægt er að bakfæra vaxtanótur með því að nota **Saga** hnappinn í **Safna** flipanum á **Viðskiptavinar** síðu.
 
 
 

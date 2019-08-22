@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 3501
 ms.assetid: f0639053-d99c-432a-8ead-5c26e0d4eaec
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2023d68a1455c6bb5ec569b6ae19fc3268f8769d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1fb1348a3a3c47e5fd7df46d9ce4af3725d8896b
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545487"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840434"
 ---
 # <a name="fixed-assets-integration"></a>Samþætting eigna
 
@@ -55,7 +55,7 @@ Eignir sem eru til innri notkunar eru settar upp þannig að þær hafi lykilger
 -   Gátreiturinn **Ný eign?** er valinn fyrir línu innhreyfingarskjal afurða sem er bókað.
 -   Gátreiturinn **Stofna nýja eign** er valinn fyrir reikningslínu lánardrottins.
 
-Þessi lykill er yfirleitt kostnaðarlykill. Þú getur sett upp lykilgerðina **Innhreyfing eigna** fyrir annaðhvort vöruflokk eða staka vöru með því að nota flipann **Innkaupapöntun** í skjámyndunum **Vöruflokkur** eða**Bókun**.
+Þessi lykill er yfirleitt kostnaðarlykill. Þú getur sett upp lykilgerðina **Innhreyfing eigna** fyrir annaðhvort vöruflokk eða staka vöru með því að nota flipann **Innkaupapöntun** í skjámyndunum **Vöruflokkur** eða **Bókun**.
 
 Á svipaðan hátt er hægt að setja upp eignir sem eru til innanhússnota þannig að þær hafi lykilgerðina **Úthreyfing eignar**. Þessi gerð lykils er að nota í úthlutun eignar til móttakanda. Þegar eign er keypt með því að nota innkaupapöntun mótreiknar eignaúthreyfingareikningurinn debetreikning eigna. Hægt er að bókfæra kaup eigna annaðhvort um leið og lánardrottnareikningur er bókaður eða þegar eignakaup eru bókuð í eignabókina, mögulega með því að nota kauptillögu. Þú getur sett upp lykilgerðina **Úthreyfing eigna** fyrir annaðhvort vöruflokk eða staka vöru með því að nota flipann **Birgðir** í skjámyndunum **Vöruflokkur** eða **Vörubókun**. 
 

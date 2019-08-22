@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTrans
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 2961
 ms.assetid: 63a3ac92-c321-4379-a86a-b1b14915f340
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d624fa998329680d9fa471fa325f6fcfd3920c6a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dd4c4a9e7e89b34b1311b38310877b45e4d95b22
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556296"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840602"
 ---
 # <a name="depreciation-effects-with-reversals"></a>Áhrif afskrifta með bakfærslum
 
@@ -39,7 +39,7 @@ Svo að tryggja megi að afskriftir séu réttar þegar færsla er bakfærð ska
 
 Eftirfarandi dæmi sýna útreikninga sem eru gerðir ef valið er að halda áfram eftir viðvörunarboðin í stað þess að bakfæra fyrst afskriftarfærslurnar.
 
-## <a name="example-1-depreciation-is-overstated"></a> Dæmi 1: Afskriftir eru ýktar
+## <a name="example-1-depreciation-is-overstated"></a>Dæmi 1: Afskriftir eru ýktar
 Eign er sett upp með 5 ára líftíma og línuleg afskrift (60 afskriftartímabil). Í þessu dæmi eru afskriftir ýktar.
 #### <a name="asset-transaction-history"></a>Færslusaga eignar
 
@@ -63,7 +63,7 @@ Eign er sett upp með 5 ára líftíma og línuleg afskrift (60 afskriftartímab
 
 Afskrift er ýkt um 16,95 (1000 - 983,.05).
 
-## <a name="example-2-depreciation-is-understated"></a> Dæmi 2: Afskrift verður of lítil
+## <a name="example-2-depreciation-is-understated"></a>Dæmi 2: Afskrift verður of lítil
 Eign er sett upp með 5 ára líftíma og línuleg afskrift (60 afskriftartímabil). Í þessu dæmi eru afskriftir of litlar.
 #### <a name="asset-transaction-history"></a>Færslusaga eigna
 

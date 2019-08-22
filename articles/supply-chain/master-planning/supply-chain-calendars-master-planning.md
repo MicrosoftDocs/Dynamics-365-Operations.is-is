@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 266eec2bb870be270b7796b35903a402e014c67c
-ms.sourcegitcommit: 1f211ac6bd384fd8a2b5352104baf264d88f39b0
+ms.openlocfilehash: ca473de65135ddddea12ddc72e902056cc7b1db7
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538727"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845295"
 ---
 # <a name="calendars-and-master-planning"></a>Dagatöl og aðaláætlanagerð
 
@@ -93,7 +93,7 @@ Til að sýna dagsetningarnar þegar viðskiptavinur getur samþykkt afhendingar
 
 Athugið að ekki er mögulegt að hafa eitt dagatal á hvern viðskiptavin. Ef nauðsynlegt er að hafa með dagatal fyrir hvert aðsetur fyrir sig fyrir viðskiptavin er hægt að stofna einn viðskiptavin á hvert aðsetur og síðan úthluta honum viðeigandi dagatal. 
 
-Umbeðin móttökudagsetning á sölupöntunarlínum verður fyrir áhrifum af dagatali viðskiptavinar og stýringaraðferð afhendingardags. Hægt er að lesa meira um hvernig fyrsti afhendingardagurinn er reiknaður út í [Pöntun lofað](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+Umbeðin móttökudagsetning á sölupöntunarlínum verður fyrir áhrifum af dagatali viðskiptavinar og stýringaraðferð afhendingardags. Hægt er að lesa meira um hvernig fyrsti afhendingardagurinn er reiknaður út í [Pöntun lofað](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Sendingadagatal fyrir lögaðila
 Til að sýna dagsetningarnar þar sem lögaðili getur sent vörur er hægt að setja upp sendingadagatal undir **Fyrirtækisstjórnun > Fyrirtæki > Lögaðilar**. Veljið lögaðilann og bætið við dagatalinu í flipanum **Erlend viðskipti og vörustjórnun** í reitnum **Sendingadagatal**. Sendingadagatalið virkar sem uppruni sjálfgilda fyrir öll dagatöl vöruhúsa í lögaðilanum. 

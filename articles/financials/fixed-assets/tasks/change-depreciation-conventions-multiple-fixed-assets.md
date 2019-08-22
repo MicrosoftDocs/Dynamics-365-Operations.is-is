@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm, SrsReportViewerForm
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7a79b2edf64f0063253d3f2a23b0020eceb87c0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 21baf3692cbcb87f6ed37459848376a1fa87a438
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561500"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840074"
 ---
 # <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a>Breyta afskriftarvenjum fyrir margar eignir
 
@@ -32,7 +32,7 @@ ms.locfileid: "1561500"
 1. Fara í Eignir > Reglubundin verkefni > Fjöldauppfærsla
 2. Í reitnum Afskriftabók skal smella á fellilistahnappinn til að opna leitina.
 3. Í listanum skal smella á tengilinn í valinni línu.
-4. Í reitinn sett í upphaf þjónustu skal færa inn dagsetningu.
+4. Í reitinn Sett í upphaf þjónustu skal færa inn dagsetningu.
 5. Í reitinn Sett í lok þjónustu skal færa inn dagsetningu.
     * Aðeins Eignir sem tilheyra valdri afskriftarbók og sem hafa verið teknar í notkun á tilgreindu tímabili verða uppfærðar.  
 6. Veljið valkost í núverandi afskriftarregla svæðið.

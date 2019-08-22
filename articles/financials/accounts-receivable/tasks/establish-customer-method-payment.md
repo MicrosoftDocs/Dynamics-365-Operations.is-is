@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymMode, BankAccountTableLookUp
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab035c6268b701c78da32d589e99ece38c31781d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 477f1ff72fd8012c3403d22aa128d97e45d5559f
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546802"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842906"
 ---
 # <a name="establish-customer-method-of-payment"></a>Setja upp greiðslumáta fyrir viðskiptavin
 
@@ -37,7 +37,7 @@ Stofna greiðsluhátt fyrir greiðsla viðskiptavinar. Þetta verkefni notar USM
 5. Veljið hvaða staða greiðslu er nauðsynlegt í til að bóka greiðslur.
     * Þegar greiðsla viðskiptavinar er stofnuð, það er aðeins hægt að bóka þegar greiðslustöðu samræmist greiðslustöðu sem skilgreind hér.  
 6. Veljið hvernig á að stofna greiðslur viðskiptavina fyrir reikninga.
-    * Þessi valkostur er aðeins notað þegar greiðslutillaga er keyrð. Hægt væri að nota greiðslutillögu fyrir greiðslur viðskiptavinar þegar gerð er beingreiðsla, og fjármagn tekið af  bankareikningar viðskiptavinar.  
+    * Þessi valkostur er aðeins notað þegar greiðslutillaga er keyrð. Hægt væri að nota greiðslutillögu fyrir greiðslur viðskiptavinar þegar gerð er beingreiðsla, og fjármagn tekið af bankareikningum viðskiptavinar.  
 7. Veljið greiðslugerð
     * Greiðslugerð hjálpar til við ákvarða hvort einhverjar villuleit á sér stað eða ekki á greiðsluna.  
 8. Velja hvað greiðslur gerð lykils verður bókað til.

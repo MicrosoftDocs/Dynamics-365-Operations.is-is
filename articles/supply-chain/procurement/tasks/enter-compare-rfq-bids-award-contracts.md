@@ -1,33 +1,33 @@
 ---
-title: Færa inn og bera saman kauptilboð vegna beiðni um TILBOÐ og veita aðilum samninga.
-description: Þetta ferli sýnir hvernig á að færa inn svör við Tilboðsbeiðni, gefa stig og bera saman tilboð, og veita síðan einum lánardrottninum samning.
+title: Færa inn og bera saman tilboð vegna tilboðsbeiðna og gera samninga
+description: Þetta efni útskýrir hvernig á að færa inn svör við Tilboðsbeiðni, gefa stig og bera saman tilboð, og veita síðan einum lánardrottninum samning.
 author: mkirknel
 manager: AnnBe
-ms.date: 02/26/2019
+ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 45ddab03810b331bcd8965f6a2ba699ffb138910
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: faef2a347886b0efe5066a5d5a9c9572070f1d07
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1533353"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1838023"
 ---
-# <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Færa inn og bera saman kauptilboð vegna beiðni um TILBOÐ og veita aðilum samninga.
+# <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Færa inn og bera saman tilboð vegna tilboðsbeiðna og gera samninga
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir hvernig á að færa inn svör við tilboðsbeiðni, gefa stig og bera saman tilboð sem berast, og veita síðan einum lánardrottninum sem sendi inn tilboð samning. Hægt er að nota þetta ferli í sýnigögn fyrirtækisins **USMF**.
+Þetta efni útskýrir hvernig á að færa inn svör við Tilboðsbeiðni, gefa stig og bera saman tilboð, og veita síðan einum lánardrottninum samning. Hægt er að nota þetta ferli í sýnigögn fyrirtækisins **USMF**.
 
 Áður en byrjað er verður að hafa beiðni um tilboð með tveimur línum og sem hefur verið sent til a.m.k. tveggja lánardrottna. Til að stofna þessa tilboðsbeiðni skal ljúka ferlinu [Stofna beiðni um tilboð](create-request-quotation.md). Einnig þarf að setja upp skilyrði fyrir stigagjöf áður en lokið er við þetta ferli.
 
@@ -47,13 +47,8 @@ Hægt er að færa inn tilboðið sem annaðhvort lánardrottin eða innkaupastj
 10. Velja skal flýtiflipann **Upplýsingar um línu** til að skoða ítarlegar upplýsingar um línuna.
 11. Eingöngu skal velja **Endurstilla frá tilboðsbeiðni** ef nauðsynlegt er að endurstilla gildin sem hafa verið færð inn sem upprunaleg gildi tilboðsbeiðni.
 12. Hægt er að vista tilboðið hvenær sem er og vinna frekar úr því síðar svo lengi sem að lokadagur og tími séu ekki liðnir. Í slíku tilfelli er hægt að finna tilboðið í listanum **Tilboð í vinnslu** á vinnusvæðinu **Tilboð lánardrottins**.
-13. Þegar hægt er að senda tilboðið skal velja **Senda inn**. Ef ekki á að gera tilboð skal velja **Hafna**.
-
-    Innsend kauptilboð eru tiltæk í listanum **Innsend kauptilboð** á vinnusvæðinu **Tilboð lánardrottins**.
-
-14. Þegar kauptilboðið hefur verið sent inn er hægt að afturkalla það hvenær sem er fyrir lokadag og tíma. Athugið að þegar kauptilboð er afturkallað er það ekki meðhöndlað sem innsent.
-
-    Þegar innkaupadeild samþykkir eða hafnar kauptilboðinu birtist það annaðhvort í listanum **Veitt kauptilboð** eða **Týnd kauptilboð** á vinnusvæðinu **Tilboð lánardrottins**.
+13. Þegar hægt er að senda tilboðið skal velja **Senda inn**. Ef ekki á að gera tilboð skal velja **Hafna**. Innsend kauptilboð eru tiltæk í listanum **Innsend kauptilboð** á vinnusvæðinu **Tilboð lánardrottins**.  
+14. Þegar kauptilboðið hefur verið sent inn er hægt að afturkalla það hvenær sem er fyrir lokadag og tíma. Athugið að þegar kauptilboð er afturkallað er það ekki meðhöndlað sem innsent. Þegar innkaupadeild samþykkir eða hafnar kauptilboðinu birtist það annaðhvort í listanum **Veitt kauptilboð** eða **Týnd kauptilboð** á vinnusvæðinu **Tilboð lánardrottins**.  
 
 ## <a name="enter-a-reply-from-a-vendor-as-a-procurement-professional"></a>Færa inn svar frá lánardrottni sem innkaupastjóri
 
@@ -62,10 +57,7 @@ Hægt er að færa inn tilboðið sem annaðhvort lánardrottin eða innkaupastj
 3. Veljið tilboðsbeiðni sem er með stöðuna **Sent** og veljið síðan tengilinn í reitnum **Tilfelli um tilboðsbeiðni**.
 4. Veljið **Vinna með svör**. Síðan sem birtist sýnir tilboðsbeiðni fyrir hvern lánardrottin sem boðið að senda tilboð.
 5. Veljið tilboðsbeiðni sem hefur ekki verið svarað. (Reiturinn **Framvinda svars** ætti að vera stilltur á **Ekki hafið**.)
-6. Veljið **Breyta \> Breyta svari við tilboðsbeiðni**.
-
-    Síðan **Svar við tilboðsbeiðni** birtist. Sem innkaupastjóri er nú hægt að færa inn svarið fyrir hönd lánardrottins. Takið eftir að reiturinn **Framvinda tilboðs** er stilltur á **Innkaupaaðili er að uppfæra**.
-
+6. Veljið **Breyta \> Breyta svari við tilboðsbeiðni**. Síðan **Svar við tilboðsbeiðni** birtist. Sem innkaupastjóri er nú hægt að færa inn svarið fyrir hönd lánardrottins. Takið eftir að reiturinn **Framvinda tilboðs** er stilltur á **Innkaupaaðili er að uppfæra**.  
 7. Færið inn tilboðsgögnin. Þegar því er lokið skal velja **Senda inn**.
 
 ## <a name="score-the-bids"></a>Gefa kauptilboðum stig
@@ -74,10 +66,7 @@ Hægt er að færa inn tilboðið sem annaðhvort lánardrottin eða innkaupastj
 2. Veljið **Vinna með svör**.
 3. Veljið svarið til að gefa stig.
 4. Veljið **Haus** svo hægt sé að skoða stigagjöfina fyrir tilboðið.
-5. Í flýtiflipanum **Stigagjöf kauptilboða** skal færa inn tölu í reitinn **Stigagjöf** fyrir eitt af skilyrðum fyrir stigagjöf.
-
-    Ef bendli er haldið yfir skilyrði fyrir stigagjöf sýnir ábending skalann sem stigagjöfin verður að vera innan. Í þessari sýniútgáfu er hægt að færa inn tölu á bilinu 1 til 5 fyrir hvert þessara skilyrða fyrir stigagjöf.
-
+5. Í flýtiflipanum **Stigagjöf kauptilboða** skal færa inn tölu í reitinn **Stigagjöf** fyrir eitt af skilyrðum fyrir stigagjöf. Ef bendli er haldið yfir skilyrði fyrir stigagjöf sýnir ábending skalann sem stigagjöfin verður að vera innan. Í þessari sýniútgáfu er hægt að færa inn tölu á bilinu 1 til 5 fyrir hvert þessara skilyrða fyrir stigagjöf.  
 6. Endurtakið skref 5 fyrir annað skilyrði fyrir stigagjöf.
 7. Ef tilfelli tilboðsbeiðni er með spurningalista sem var sendur til lánardrottna er hægt að færa inn svör lánardrottna í flýtiflipanum **Spurningalistar**.
 8. Lokið síðunni.
@@ -86,60 +75,35 @@ Hægt er að færa inn tilboðið sem annaðhvort lánardrottin eða innkaupastj
 ## <a name="compare-the-replies"></a>Bera saman svör
 
 1. Í aðgerðarúðunni, í flipanum **Almennt**, skal velja **Bera saman svör**.
-2. Færið númer inn í svæðið **sæti**.
-
-    Þessi síða sýnir kauptilboðin, ásamt upplýsingum fyrir haus og línu, og einnig heildarstigagjöfina á hausstigi. Hægt er að bera saman línurnar með því að raða hnitanetinu þannig samanburðarhæfar línur séu hlið við hlið. Eftirfarandi upplýsingar eru einnig innifaldar:
-
+2. Færið númer inn í svæðið **sæti**.  
+    - Þessi síða sýnir kauptilboðin, ásamt upplýsingum fyrir haus og línu, og einnig heildarstigagjöfina á hausstigi. Hægt er að bera saman línurnar með því að raða hnitanetinu þannig samanburðarhæfar línur séu hlið við hlið. Eftirfarandi upplýsingar eru einnig innifaldar:
     - **Magn** - Magnið sem lánardrottinn gaf upp. Þetta magn er hugsanlega ekki sama magnið og er tilgreint í tilboðsbeiðninni.
     - **Nettóupphæð** - Verðið sem lánardrottinn gaf upp fyrir vörurnar í línunni, að frádegnum öllum afsláttum.
-    - **Frávik** – Fjöldi daga sem munar á afhendingardagsetningu í tilboðshaus eða tilboðslínu og umbeðnum afhendingardegi í haus eða línu tilboðsbeiðni. Fyrir hvert tilboð er hægt að færa inn forgangsröðun:
-
+    - **Frávik** – Fjöldi daga sem munar á afhendingardagsetningu í tilboðshaus eða tilboðslínu og umbeðnum afhendingardegi í haus eða línu tilboðsbeiðni. Fyrir hvert tilboð er hægt að færa inn forgangsröðun:  
 3. Veljið haus línu fyrir hitt tilboðið sem þú ætlar að gefa stig.
 4. Færið númer inn í svæðið **sæti**.
 5. Veljið **Vista**.
 
 ## <a name="reject-a-bid"></a>Hafna tilboði
 
-1. Veljið haus línu fyrir hitt tilboðið sem þú ætlar að hafna.
-
-    Eingöngu er hægt að samþykkja, hafna eða skila einu tilboði eða línunum í einu tilboði í einu.
-
-2. Veldu gátreitinn **Merkja**.
-
-    Ef gátreiturinn **Merkja** er valinn í haus tilboðsins verða allar línurnar einnig merktar. Til að hafna eða samþykkja aðeins nokkrar af línunum í tilboðinu er hægt að merkja aðeins þær línur. Að auki er hægt að samþykkja eitt tilboð lánardrottins fyrir sumar línur tilboðsbeiðni og úthluta síðan öðrum línum tilboðsbeiðni til annars lánardrottins. Hins vegar verður að gera eitt tilboð í einu.
-
-    Ef aðrar línur eru til staðar er hægt að samþykkja annaðhvort upprunalegu kauptilboðslínuna eða hina línuna, en ekki báðar.
-
+1. Veljið haus línu fyrir hitt tilboðið sem þú ætlar að hafna. Eingöngu er hægt að samþykkja, hafna eða skila einu tilboði eða línunum í einu tilboði í einu.
+2. Veldu gátreitinn **Merkja**.  
+    - Ef gátreiturinn **Merkja** er valinn í haus tilboðsins verða allar línurnar einnig merktar. Til að hafna eða samþykkja aðeins nokkrar af línunum í tilboðinu er hægt að merkja aðeins þær línur. Að auki er hægt að samþykkja eitt tilboð lánardrottins fyrir sumar línur tilboðsbeiðni og úthluta síðan öðrum línum tilboðsbeiðni til annars lánardrottins. Hins vegar verður að gera eitt tilboð í einu.  
+    - Ef aðrar línur eru til staðar er hægt að samþykkja annaðhvort upprunalegu kauptilboðslínuna eða hina línuna, en ekki báðar.  
 3. Veljið **Hafna**.
-4. Veljið **Færibreytur** og síðan, í reitinn **Ástæða höfnunar**, skal færa inn eða velja ástæðu fyrir höfnun á tilboðinu.
-
-    Ástæðan er geymd í svarinu.
-
+4. Veljið **Færibreytur** og síðan, í reitinn **Ástæða höfnunar**, skal færa inn eða velja ástæðu fyrir höfnun á tilboðinu. Ástæðan er geymd í svarinu.  
 5. Veljið **Í lagi**.
 6. Veljið **Í lagi**.
 
 ## <a name="accept-a-bid"></a>Samþykkja tilboð
 
-1. Veljið tilboð sem á að samþykkja og smellið síðan á tengilinn í reitnum **Beiðni um tilboð**.
-
-    Ef þú ert á síðunni **Bera saman svör við beiðnum um tilboð** er undirstrikaða tilboðið með áhersluna það tilboð sem kerfið hefur í huga í samþykktaraðgerðinni. Aðeins er hægt að samþykkja línur úr einu tilboði í einu.
-
+1. Veljið tilboð sem á að samþykkja og smellið síðan á tengilinn í reitnum **Beiðni um tilboð**. Ef þú ert á síðunni **Bera saman svör við beiðnum um tilboð** er undirstrikaða tilboðið með áhersluna það tilboð sem kerfið hefur í huga í samþykktaraðgerðinni. Aðeins er hægt að samþykkja línur úr einu tilboði í einu.  
 2. Í aðgerðarúðunni skal velja **Svara**.
-3. Veljið **Samþykkja**.
-
-    Ef eingöngu tilteknar línur voru merktar mun samþykktaraðgerðin eingöngu hafa þær línur með. Ef á að samþykkja allar línur í tilboðinu þarf ekki að merkja línurnar.
-
-4. Veljið **Færibreytur** og síðan, í reitinn **Ástæða samþykktar**, skal færa inn eða velja ástæðu fyrir samþykkt á tilboðinu.
-
-    Ástæðan er geymd í kauptilboðinu.
-
+3. Veljið **Samþykkja**. Ef eingöngu tilteknar línur voru merktar mun samþykktaraðgerðin eingöngu hafa þær línur með. Ef á að samþykkja allar línur í tilboðinu þarf ekki að merkja línurnar.  
+4. Veljið **Færibreytur** og síðan, í reitinn **Ástæða samþykktar**, skal færa inn eða velja ástæðu fyrir samþykkt á tilboðinu. Ástæðan er geymd í kauptilboðinu.  
 5. Veljið **Í lagi**.
-6. Veljið **Í lagi**.
-
-    Þegar valið er **Í lagi** er innkaupapöntun mynduð sem byggist á línunum sem eru hafðar með í samþykkt tilboðsbeiðni. Ef önnur tilboð eru til staðar sem ekki hefur verið unnið úr (samþykkt, hafnað eða skila) biður kerfið notandann um að hafna þeim.
+6. Veljið **Í lagi**. Þegar valið er **Í lagi** er innkaupapöntun mynduð sem byggist á línunum sem eru hafðar með í samþykkt tilboðsbeiðni. Ef önnur tilboð eru til staðar sem ekki hefur verið unnið úr (samþykkt, hafnað eða skila) biður kerfið notandann um að hafna þeim.  
 
 ## <a name="view-the-purchase-order-that-is-generated"></a>Skoða innkaupapöntun sem er búin til
 
-- Í aðgerðarúðunni, í flipanum **Almennt**, skal velja **Innkaupapöntun**.
-
-    Síðan sem birtist sýnir innkaupapöntunina sem var búin til þegar tilboðið var samþykkt.
+Í aðgerðarúðunni, í flipanum **Almennt**, skal velja **Innkaupapöntun**. Síðan sem birtist sýnir innkaupapöntunina sem var búin til þegar tilboðið var samþykkt.

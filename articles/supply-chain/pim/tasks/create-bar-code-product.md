@@ -1,53 +1,45 @@
 ---
 title: Stofna strikamerki fyrir afurð
-description: Þessi verklýsing sýnir hvernig til dæmis strikamerki með vörunúmerið M0001 er stofnað handvirkt.
+description: Þetta efni sýnir hvernig til dæmis strikamerki með vörunúmerið M0001 er stofnað handvirkt.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, InventItemBarcode, InventItemBarcodeLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ae2765a125045d60566267d01e380069d5d527c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 55801b2355eeee7dc136a1812a68e825b99098a4
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568605"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1844946"
 ---
 # <a name="create-a-bar-code-for-a-product"></a>Stofna strikamerki fyrir afurð
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi verklýsing sýnir hvernig til dæmis strikamerki með vörunúmerið M0001 er stofnað handvirkt. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+Þetta efni sýnir hvernig til dæmis strikamerki með vörunúmerið M0001 er stofnað handvirkt. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
-1. Smellið á Viðhald útgefinnar afurðar.
-2. Smella á Útgefnar afurðir.
-3. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-4. Á Aðgerðasvæðinu skal smella á Stjórna birgðum.
-5. Smelltu á strikamerki.
-6. Smellt er á Nýtt.
-7. Í listanum skal merkja valda línu.
-8. Sláið inn eða veldu gildi í reitnum uppsetningarreitur strikamerkis.
-9. Sláið inn eða veldu gildi í reitnum Strikamerki.
-10. Færa inn gildi í reitnum Strikamerki.
-    * Ýttu á dálkalykilinn.  
-11. Lokið síðunni.
-12. Færið inn númer í reitnum „Magn“.
-13. Smellið á „Vista“.
-    * Þegar smellt er á Vista er athugun á strikamerkinu keyrð og í þessu tilfelli verður birt villa sem segir að vænt vartala sé 8, en 3 hafi fundist. Uppfærðu strikamerkið handvirkt þannig að 8 sé á endanum.  
-14. Sláið inn eða veldu gildi í reitnum Strikamerki.
-15. Færa inn gildi í reitnum Strikamerki.
-    * Ýttu á dálkalykilinn.  
-16. Lokið síðunni.
-17. Smellið á „Vista“.
-18. Lokið síðunni.
+1. Veldu **Viðhald vöru** á heimasíðunni.
+2. Farðu í **Vörur > Útgefnar vörur** undir hlutanum **Tenglar**.
+3. Í listanum skal finna og velja þá skráningu sem óskað er eftir. Í þessu dæmi skal velja vörunúmerið **M0001.**
+4. Á Aðgerðasvæðinu skal velja **Stjórna birgðum.**
+5. Veldu **Strikamerki**.
+6. Veljið **Nýtt**.
+7. Merktu valda röð sem er búin til á listanum hér að neðan.
+8. Í reitnum **Uppsetning strikamerkis** slærðu inn eða velur gildi.
+9. Í reitnum **Strikamerki** slærðu inn eða velur gildi.
+10. Í reitnum **Strikamerki** slærðu inn gildi.  
+11. Í reitnum **Magn** slærðu inn tölu.
+12. Veljið **Vista**.
+13. Lokið síðunni. 
 

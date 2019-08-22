@@ -1,6 +1,6 @@
 ---
-title: Reikna út uppskrift og nota uppbygging með mörgum stigum (febrúar 2016)
-description: Þetta ferli sýnir hvernig reikna út kostnað fullunnin vara með því að nota niðurbrot á mörgum stigum sem er í kostnaðarskjali.
+title: Reikna út uppskrift með notkun uppbyggingar með mörgum stigum (febrúar 2016)
+description: Þetta ferli sýnir hvernig reikna skal út kostnað fullunninnar vöru með því að nota niðurbrot á mörgum stigum sem er í kostnaðarskjali.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
@@ -10,25 +10,25 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog, BOMCalcTrans
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fcc1248d64145c10f1c67bfac49c053e99dc1598
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e0834baf42ed6aa10acec6529513e44ff52ab754
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557676"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845643"
 ---
-# <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016"></a>Reikna út uppskrift og nota uppbygging með mörgum stigum (febrúar 2016)
+# <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016"></a>Reikna út uppskrift með notkun uppbyggingar með mörgum stigum (febrúar 2016)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir hvernig reikna út kostnað fullunnin vara með því að nota niðurbrot á mörgum stigum sem er í kostnaðarskjali. Þetta er sjöunda verkið í línunni Útreikningur uppskrifta. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF.
+Þetta ferli sýnir hvernig reikna skal út kostnað fullunninnar vöru með því að nota niðurbrot á mörgum stigum sem er í kostnaðarskjali. Þetta er sjöunda verkið í línunni Útreikningur uppskrifta. Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF.
 
 1. Fara í upplýsingar um afurðastjórnun > Afurðir > Útgefnar afurðir.
 2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.

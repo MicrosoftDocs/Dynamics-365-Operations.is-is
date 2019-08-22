@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBonus, AssetGroup, AssetGroupBookSetup, AssetGroupSetupBonus
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6bbd6b78d05fcc9d95f6e6409db2619a210ad760
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 788cddf4d822fe3d3d6a33e83d7b30f32f4b6b9c
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571706"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839882"
 ---
 # <a name="set-up-bonus-depreciation"></a>Setja upp bónusafskriftir
 
@@ -45,7 +45,7 @@ ms.locfileid: "1571706"
 4. Á listanum, veljið bók sem tengist sérstök heimild til afskriftar.
 5. Smellt er á Sérstök heimild til afskriftar
 6. Smellið á „Nýtt“.
-7. Sláið inn eða veldu gildi í  reitnum sérstök heimild til afskriftar.
+7. Sláið inn eða veldu gildi í reitnum sérstök heimild til afskriftar.
     * Prósenta eða Upphæð er sjálfgefið úr uppsetningu sérstök heimild til afskriftar.  
 8. Í reitinn forgangur skal slá inn númer.
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0829c9eb54a8a5ca1f78bfe85de4779e541b945a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3dbdf52ceebcdd9c0bf750e0e800a6607e3ba9b7
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553929"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849558"
 ---
 # <a name="financial-report-components"></a>Hlutar fjárhagsskýrslu
 
@@ -57,7 +57,7 @@ Möppur eru notaðar til að raða einingum í Skýrsluhönnun. Allar möppur er
 
 3. Þegar nýja mappan birtist er heiti nýju möppunnar slegið inn og svo ýtt á færslulykilinn.
 
-## <a name="lock-a-building-block"></a> Einingu læst
+## <a name="lock-a-building-block"></a>Einingu læst
 Hægt er að stofna aðgangsorð til að verja og læsa einingu. Þannig er öryggisstigi bætt við skýrsluíhlut án þess að allt kerfið sé tryggt um leið. Aðgangsorð getur hjálpað til við að verja einingarupplýsingar sem eru mikilvægar fyrir skýrsluferli við mánaðarlok. Allir notendur geta læst einingu. Hins vegar hafa aðrir notendur alltaf lesaðgang að læsta hlutanum. Notendur geta opnað, breytt og vistað læsta íhlutinn undir nýju heiti. Notandi með hlutverk stjórnanda getur ávallt fengið aðgang að og breytt læstri einingu.
 
 1. Opnið skýrslueininguna sem á að læsa í Report Designer, svo sem línuskilgreiningu, dálkskilgreiningu, skýrsluskilgreiningu eða skilgreiningu skipurits.

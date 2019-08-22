@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 3341
 ms.assetid: ae5ceaeb-aeb7-45cd-b835-23cf9c5cf95a
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b48cf3970379f8dd2ea529cd8a434c0bdc196a1e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7b7b9b240156263b4dc1bc308a7f4457380a27f3
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560810"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840122"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Línulegar líftímaafskriftir
 
@@ -88,7 +88,7 @@ Sama afskriftarupphæð á hverju ári. (Kaupverð - Hrakvirði / Líftími í �
 
 ## <a name="example-straight-line-depreciation-of-a-modified-fixed-asset"></a>Dæmi: Línuleg afskrift af breyttri eign
 
-Segjum sem svo að bætt sé við  leiðrétting kaupa upp á 4,000 á 2. ári við sömu eignina. 
+Segjum sem svo að bætt sé við leiðrétting kaupa upp á 4,000 á 2. ári við sömu eignina. 
 
 Líftími leiðréttingar kaupa er sú sama og eignarinnar og hefst við kaup þess. Nettó bókfært verð stendur eftir við lok 5. árs, sem samsvarar nettó bókfært verð kaupverðsbreytingarinnar. Afskriftirnar eftir tímabilum eru reiknaðar eins og sýnt er í eftirfarandi töflu.
 

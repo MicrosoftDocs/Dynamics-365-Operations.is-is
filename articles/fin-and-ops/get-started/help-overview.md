@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da5b67bd67ff1a227a5f1812d41cdad9f062dfd0
-ms.sourcegitcommit: ad4d378afd88028d2002633a3cc8a67313cbeddd
+ms.openlocfilehash: a7a6e0ef960d137a2897ef36bbd80380ed494281
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625330"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850864"
 ---
 # <a name="finance-and-operations-help-system"></a>Hjálparkerfi Finance and Operations
 
@@ -99,7 +99,7 @@ Ef þú vilt láta í ljós viðbrögð eða spyrja spurninga um efni skaltu lá
 
 Þú getur lagt fram og gert breytingar á fylgiskjölum Finance and Operations. Til að byrja skal smella á (blýants)hnappinn **Breyta** á efnisatriði eða fara í geymsluna okkar á <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>. Eftirfarandi myndband sýnir hvernig þú veitt framlag til fylgigagna okkar.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE36liB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
 Myndskeiðið [Hvernig á að veita framlag til Microsoft Dynamics 365 fylgiskjala](https://youtu.be/m5djioozRbg) (sýnt hér að ofan) er innifalið í [Hvað er nýtt í spilunarlista Dynamics 365](https://www.youtube.com/playlist?list=PLcakwueIHoT-ErQZPP80qNKuEAr0wAAD9) sem er fáanlegur á YouTube.
 

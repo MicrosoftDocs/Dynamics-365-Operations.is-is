@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPosting, CustCollectionLetterNote
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8a3f74d2891c050294e089eae14ba2386449d7c9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8db80b184d565f71f62f99051c7378c4e6e45fb9
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549630"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834416"
 ---
 # <a name="process-collection-letters"></a>Vinna úr innheimtubréfum
 
@@ -59,7 +59,7 @@ ms.locfileid: "1549630"
 7. Færa inn lokadagsetningu fyrir bókanir.
 8. Smellt er á **Í lagi** til að prenta innheimtubréfið.
 9. Bóka innheimtubréfið.
-   1. Smella  **bóka.**
+   1. Smelltu á **bóka.**
    2. Færð er inn bókunardagsetning fyrir innheimtubréf.
    3. Útvíkka **Færslur til að taka með** hlutann.
    4. Smellið á **Í lagi**.

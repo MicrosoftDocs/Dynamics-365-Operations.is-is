@@ -1,9 +1,9 @@
 ---
-title: Stilla kjörtímabelti notanda
-description: Eftirfarandi ferli útskýrir hvernig notandi í hlutverk kerfisstjóra getur stillt tímabelti fyrir notandi.
+title: Stilla æskilegt tímabelti notanda
+description: Þetta efni útskýrir hvernig notandi í hlutverk kerfisstjóra getur stillt tímabelti fyrir notandi.
 author: pvillads
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,24 +16,23 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b5eac00d5054296921c3f22004f8c8e710727afc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d6dc521fe4fc7ea901c882abad47d5fc899e0326
+ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560522"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1738812"
 ---
-# <a name="set-a-users-preferred-time-zone"></a>Stilla kjörtímabelti notanda
+# <a name="set-a-users-preferred-time-zone"></a>Stilla æskilegt tímabelti notanda
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Eftirfarandi ferli útskýrir hvernig notandi í hlutverk kerfisstjóra getur stillt tímabelti fyrir notandi.
+Eftirfarandi efni útskýrir hvernig notandi í hlutverk kerfisstjóra getur stillt tímabelti fyrir notandi.
 
-1. Farið í Kerfisstjórnun > Notendur > Notendur.
+1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Kerfisstjórnun > Notendur > Notendur**.
 2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-3. Í listanum skal smella á tengilinn í valinni línu.
-4. Smelltu á Notandastillingar
-5. Smellið á flipann fríðindi.
-6. Veljið valkost í svæðinu Tímabelti.
-7. Smellið á „Vista“.
+3. Veldu **Notendastillingar**.
+4. Veldu flipann **Stillingar**.
+5. Í reitnum **Tímasvæði** velurðu valkost úr fellivalmyndinni.
+6. Veljið **Vista**.
 

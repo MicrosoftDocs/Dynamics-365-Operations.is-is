@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 15871
 ms.assetid: a0bb5220-73d4-48ae-84d0-46a171c224fa
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f97eba8831e96b43f7fe7d5ea58359cab47315c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4247193732a49cf0d26f0437f57f3ed66061a118
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1506943"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1837277"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Fyrirframgreiðslureikningar samanborið við fyrirframgreiðslur
 
@@ -38,7 +38,7 @@ Fyrirtæki gæti gefið út fyrirframgreiðslur (fyrirframgreiðsla) til lánard
 | Fyrirframgreiðslurreikningsfærsla                                                                | Fyrirframgreiðslur                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Skilgreina gildi fyrirframgreiðslu í innkaupapöntuninni.                                    | Ekkert fyrirframgreiðslugildi er skilgreint í innkaupapöntuninni.                    |
-| Lykill: Fyrirframgreiðslureikning  og endanlegam reikning verður að bóka.                       | Engin fyrirframgreiðslureikning verður að bóka.                                    |
+| Lykill: Fyrirframgreiðslureikning og endanlegam reikning verður að bóka.                       | Engin fyrirframgreiðslureikning verður að bóka.                                    |
 | Skuld fyrir fyrirframgreiðsluna er geymt í lykli fyrirframgreiðslu, ekki AP lykli. | Skuld fyrir fyrirframgreiðsluna er geymt í AP lykil.                  |
 | Staða lánardrottins endurspeglar ekki gildi fyrirframgreiðslu í gegnum ferlið.     | Staða lánardrottins endurspeglar gildi fyrirframgreiðslu í gegnum ferlið. |
 | reikningsfærsla Fyrirframgreiðslu er aðeins tiltæk í Viðskiptaskuldir.                         | Fyrirframgreiðslur eru tiltækar í viðskiptaskuldum og viðskiptakröfum.    |
@@ -60,7 +60,7 @@ Fyrirframgreiðslureikningar er algengur viðskiptaháttur. Lánardrottinn gefur
 1.  Innkaupaaðilinn stofnar staðfestir og sendir svo hefur innkaupapöntun sem lánardrottinn hefur beðið um fyrirframgreiðslu fyrir. fyrirframgreiðslugildi er skilgreint í innkaupapöntuninni. sem hluti af samkomulaginu.
 2.  Lánardrottinn sendir inn fyrirframgreiðslureikning.
 3.  Samræmingaraðili viðskiptaskulda skráir fyrirframgreiðslureikning gagnvart innkaupapöntun, og síðan er fyrirframgreiðslureikningur greiddur.
-4.  Eftir að lánardrottinn afhendir vörum eða þjónustu,  og tengdar reikningar lánardrottna hafa borist, beitir samræmingaraðili viðskiptaskulda upphæð fyrirframgreiðslu sem var þegar greidd gegn reikningnum.
+4.  Eftir að lánardrottinn afhendir vörum eða þjónustu, og tengdar reikningar lánardrottna hafa borist, beitir samræmingaraðili viðskiptaskulda upphæð fyrirframgreiðslu sem var þegar greidd gegn reikningnum.
 5.  Samræmingaraðili viðskiptaskulda greiðir og jafnar eftirstandandi upphæð reikningsins.
 
 

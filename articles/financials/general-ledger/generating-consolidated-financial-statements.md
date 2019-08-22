@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 76e675373212195cbe3f6cf43d128b2104f92fc6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557732"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863701"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Búa til samstæðureikningsskil
 
@@ -49,11 +49,11 @@ Eins og samstæðuskýrslan á eftirfarandi skýringarmynd sýnir, þegar skipur
 
 Einnig er hægt að búa til skipurit á mörgum stigum sem inniheldur eins mörg stig og þörf er á. Eftirfarandi skýringarmynd sýnir skilgreiningu skipurits á mörgum stigum sem hefur samantekt eftir heimssvæði.
 
-![Skilgreining skipurits á mörgum stigum með samantekt eftir svæði](./media/multilevel-reporting-tree-definition-roll-ups%20-worldwide-region.png "Skilgreining skipurits á mörgum stigum með samantekt eftir svæði")
+![Skilgreining skipurits á mörgum stigum með samantekt eftir svæði](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Skilgreining skipurits á mörgum stigum með samantekt eftir svæði")
 
 Eftirfarandi skýringarmynd sýnir skilgreiningu skipurits á mörgum stigum sem hefur samantekt eftir virkni.
 
-![Skilgreining skipurits á mörgum stigum með samantekt eftir virkni](./media/multilevel-reporting-tree-definition-roll-ups%20-by-function.png "Skilgreining skipurits á mörgum stigum með samantekt eftir virkni")
+![Skilgreining skipurits á mörgum stigum með samantekt eftir virkni](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Skilgreining skipurits á mörgum stigum með samantekt eftir virkni")
 
 ### <a name="viewing-companies-side-by-side"></a>Fyrirtæki skoðuð hlið við hlið
 Margir viðskiptavinir vilja fá skýrslur þar sem fyrirtækin birtast hlið við hlið, og þar sem dálkur sýnir uppsafnaða samtölu. Auðvelt er að ná þessu sniði þegar skipuritið hefur verið búið til. Hér eru skrefin á hærri stigum til að skoða fyrirtæki hlið við hlið á samstæðureikningsskilum.
@@ -98,7 +98,7 @@ Fyrirtæki kann að eiga aðeins hluta af öðru fyrirtæki. Við þessar aðst�
 > [!NOTE]
 > Þú getur notað þetta eignarhlutfall í hvaða skýrslugerðareiningu sem er, ekki bara á fyrirtækjastigi. 
 
-![Notkun á hlutfalli í skilgreiningu skipurits](./media/Using-reporting%20tree-definition-percentage.png "Notkun á hlutfalli í skilgreiningu skipurits")
+![Notkun á hlutfalli í skilgreiningu skipurits](./media/Using-reporting-tree-definition-percentage.png "Notkun á hlutfalli í skilgreiningu skipurits")
 
 Þegar skýrslan er búin til birtir skýrslan um Contoso Þýskaland 100 prósent af söluupphæðinni og 80 prósent af upphæðinni verður úthlutað og tekin saman upp á samstæðustig fyrir sölu.
 
@@ -142,7 +142,7 @@ Mismunandi lögaðilar gætu haft mismunandi fjárhagsdagatöl en þurfa samt en
 
 Þegar þú hannar dálkskilgreiningu fyrir mörg fyrirtæki með mismunandi fjárhagstímabilum er mikilvægt að þú íhugir hvaða fyrirtæki verði úthlutað í reitinn **Nafn fyrirtækis** í skýrsluskilgreiningunni. Fjárhagsdagatal fyrirtækis verður notað sem grunnfjárhagsdagatal fyrir skýrsluskilgreininguna. Til dæmis sýnir eftirfarandi tafla uppsetningu fjárhagstímabils fyrir USMF- og INMF-fyrirtækin. Fyrir sameinaðar skýrslur viltu nota fjárhagsdagatal sem USMF notar. „Vörpunar“dálkurinn sýnir sambærilegt tímabil og ár fyrir hvert fyrirtæki ef skýrsla er búin til fyrir 30. júní 2018.
 
-| Fyrirt.     | Fjárhagsár                                  | Vörpun                     |
+| Fyrirtæki   | Fjárhagsár                                  | Vörpun                     |
 |-----------|----------------------------------------------|-----------------------------|
 | USMF      | Fjárhagsár, 1. júlí til 30. júní          | Tímabil 12, fjárhagsár 2018 | 
 | INMF      | Almanaksár, 1. janúar til 31. desember | Tímabil 6, fjárhagsár 2018  |

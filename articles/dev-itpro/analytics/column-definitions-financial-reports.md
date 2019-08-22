@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bb08833cca843c370e2c845bce56d6f5a8b5f2ed
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: d9c1b41cd78eada90f83e53fc15953d268747dd2
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595340"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848472"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Dálkaskilgreiningar í Fjárhagsskýrslum
 
@@ -112,7 +112,7 @@ Eftirfarandi tafla lýsir kóðum dálktakmarkana.
 
 | Dálktakmörkunarkóði | Lýsing |
 |-------------------------|-------------|
-| SU                      | Felur undirstrikun í dálki þar sem skipun um annað hvort undirstrikun ( **---**) eða tvöföld undirstrikunarskipun (**===**) hefur verið færð inn í línuskilgreininguna. Til dæmis getur verið að ekki sé æskilegt að hafa strik undir upphæðum sem eru búið til af hlutfallsútreikningi. |
+| SU                      | Felur undirstrikun í dálki þar sem skipun um annað hvort undirstrikun (**---**) eða tvöföld undirstrikunarskipun (**===**) hefur verið færð inn í línuskilgreininguna. Til dæmis getur verið að ekki sé æskilegt að hafa strik undir upphæðum sem eru búið til af hlutfallsútreikningi. |
 | ST                      | Fela samtölur, þannig að aðeins upplýsingar birtast í dálknum (t.d. tölfræðilega dálk). |
 | SD                      | Felur ítarupplýsingar og birtir aðeins **TOT**- og **CAL**-línur, úr línuskilgreiningunni, í þessum dálki. |
 | DR                      | Takmarkar upphæðirnar sem birtar eru í **FD**-dálki við debetupphæðir. |
@@ -389,7 +389,7 @@ Hægt er að breyta þessum sjálfgefnu stillingum.</td>
     </tr>
     <tr>
     <td>FILL</td>
-    <td>fylla inn í hólf með staf sem er hafður innan einfaldra gæsalappa. Sé ekki sleginn inn stafur er dálkurinn auður. Til dæmis til að fylla í dálk með úrfellingarmerki (...) er slegið inn <strong>FILL</strong><strong>'.'</strong>.</td>
+    <td>fylla inn í hólf með staf sem er hafður innan einfaldra gæsalappa. Sé ekki sleginn inn stafur er dálkurinn auður. Til dæmis, til að fylla í dálk með úrfellingarmerki (...) er slegið inn <strong>FILL</strong> <strong>'.'</strong>.</td>
     </tr>
     <tr>
     <td>PAGE</td>
@@ -417,7 +417,7 @@ Hólfið **Fjárhagsár** auðkennir fjárhagsárið sem taka ætti með í dál
 | Valkostur  | Lýsing                                                                                                                  |
 |---------|------------------------------------------------------------------------------------------------------------------------------|
 | BASE    | Notið grunnárið sem tilgreint á tíma skýrslunnar.                                                                          |
-| BASE+\# | Nota árið sem er \# ára eftir grunngögn ár. Ef til dæmis á að nota þriðja ár eftir grunnárið skal skrifa  **BASE+3**. |
+| BASE+\# | Nota árið sem er \# ára eftir grunngögn ár. Ef til dæmis á að nota þriðja ár eftir grunnárið skal skrifa **BASE+3**. |
 | BASE-\# | Nota árið sem er \# ára á undan grunngögn ár. Ef til dæmis á að nota árið á undan, færðu inn **BASE-1**.                 |
 | \#      | Færið skal inn raunverulegt fjárhagsár.                                                                                                |
 
@@ -494,7 +494,7 @@ Eftirfarandi dæmi sýnir hluta af dálklýsingu með eigind reiknings í línun
 
 ### <a name="dimension-filter-in-a-column-definition"></a>Víddarafmörkun í dálkskilgreiningu
 
-Víddarafmörkun er notuð til að takmarka **FD**-dálkinn við tiltekin víddargildi. Afmörkunin getur tekið til stakrar víddar, vídda á tilteknu sviði eða hóps vídda. Afmörkunin getur einnig falið í sér víddargildissamstæður. Þar sem víddargildi geta verið breytileg þarf .. \\fjárhags-víddir\\ kerfi sem byggt er á víddum ekki að fylgja nákvæmri lengd. Afmörkunin er notuð óháð því hvort skýrslan inniheldur skipurit. Hægt er að nota algildisstafinn staf (\* eða?) í hvers kyns stöðu. Þegar margir lyklar eru tilgreindir, er sett komma á milli lykla, líkt og í eftirfarandi dæmi: +Lykill=\[1200\], +Lykill=\[1100\], Deild=\[01?\] Til að fá allar deildir fyrir tiltekinn lykil, er hægt að útiloka deildarvíddina úr víddarsíunni. Til dæmis eru bæði eftirfarandi víddarsíur meðhöndlað á sama hátt:
+Víddarafmörkun er notuð til að takmarka **FD**-dálkinn við tiltekin víddargildi. Afmörkunin getur tekið til stakrar víddar, vídda á tilteknu sviði eða hóps vídda. Afmörkunin getur einnig falið í sér víddargildissamstæður. Þar sem víddargildi geta verið breytileg þarf ..\\fjárhags-víddir\\ kerfi sem byggt er á víddum ekki að fylgja nákvæmri lengd. Afmörkunin er notuð óháð því hvort skýrslan inniheldur skipurit. Hægt er að nota algildisstafinn staf (\* eða?) í hvers kyns stöðu. Þegar margir lyklar eru tilgreindir, er sett komma á milli lykla, líkt og í eftirfarandi dæmi: +Lykill=\[1200\], +Lykill=\[1100\], Deild=\[01?\] Til að fá allar deildir fyrir tiltekinn lykil, er hægt að útiloka deildarvíddina úr víddarsíunni. Til dæmis eru bæði eftirfarandi víddarsíur meðhöndlað á sama hátt:
 
 - +Account=\[1100\],Department
 - +Account=\[1100\]
@@ -520,7 +520,7 @@ Til að ákvarða bókhaldsgjaldmiðil fyrirtækis skal fylgja eftirfarandi skre
 
 1. Á valmyndinni **Fyrirtæki** í Report Designer er smellt á **Fyrirtæki**.
 2. Í svarglugganum **Fyrirtæki** skal velja fyrirtæki og smella síðan á **Skoða**.
-3. Í  **Skoða Fyrirtæki** svarglugganum undir **Svæðisbundnir valkostir**, er hægt að skoða þann gjaldmiðil sem er skilgreint fyrir valið fyrirtæki.
+3. Í **Skoða Fyrirtæki** svarglugganum undir **Svæðisbundnir valkostir**, er hægt að skoða þann gjaldmiðil sem er skilgreint fyrir valið fyrirtæki.
 
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>tilgreindu gjaldmiðil í skýrslu með marga gjaldmiðla
 
@@ -540,7 +540,7 @@ Vegna valsins á gjaldmiðilsafmörkun sem Phyllis valdi, inniheldur skýrslan a
 
 #### <a name="currency-filter-and-currency-display-combinations"></a>Samsetning gjaldmiðilsafmörkunar og birtingamyndar gjaldmiðils.
 
-Eftirfarandi tafla sýnir niðurstöður skýrslunnar sem geta átt sér stað fyrir ýmsar samsetningar af valkostum í hólfunum **Birtingarmynd gjaldmiðils** og **gjaldmiðilsafmörkun**  vegna valsins sem Phyllis gerði. Virki gjaldmiðillinn er USD.
+Eftirfarandi tafla sýnir niðurstöður skýrslunnar sem geta átt sér stað fyrir ýmsar samsetningar af valkostum í hólfunum **Birtingarmynd gjaldmiðils** og **gjaldmiðilsafmörkun** vegna valsins sem Phyllis gerði. Virki gjaldmiðillinn er USD.
 
 
 | Hólf fyrir Birtingarmynd gjaldmiðils                        | Hólf fyrir Gjaldmiðilsafmörkun | Niðurstaða skýrslu |
@@ -594,7 +594,7 @@ Hægt er að stofna dálk sem birtir öll gildi í tilgreindum dálki sem próse
 
 #### <a name="divide-the-amount-in-a-column-by-the-number-of-periods"></a>Skiptu upphæð í dálki eftir fjölda tímabila.
 
-Hægt er að skipta upphæð í dálki eftir tilgreindum fjölda tímabila. Til dæmis skiptir formúlan  **B/Tímabil** gildinu í dálki B eftir fjölda tímabila sem gefinn er upp í dálki B. Ef útreikningurinn nær yfir marga dálka þarf að tilgreina fjölda tímabila sem nota á í útreikningnum. Til dæmist bætir **(B+C)/Tímabil** formúlan við upphæðunum í dálki B og dálki C og deilir svo í niðurstöðuna með tímabilsgildinu.
+Hægt er að skipta upphæð í dálki eftir tilgreindum fjölda tímabila. Til dæmis skiptir formúlan **B/Tímabil** gildinu í dálki B eftir fjölda tímabila sem gefinn er upp í dálki B. Ef útreikningurinn nær yfir marga dálka þarf að tilgreina fjölda tímabila sem nota á í útreikningnum. Til dæmist bætir **(B+C)/Tímabil** formúlan við upphæðunum í dálki B og dálki C og deilir svo í niðurstöðuna með tímabilsgildinu.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

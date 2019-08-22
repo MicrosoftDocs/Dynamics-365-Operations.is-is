@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9d8f13e29ea813eb9721ddca795b67837e2aa5e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 91f5498bf5a5570c9d3b3f63e0a01b788fa00f35
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558150"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1838632"
 ---
 # <a name="create-an-operations-resource"></a>Stofna rekstrartilföng
 
@@ -52,7 +52,7 @@ Rekstrartilföng framkvæmir verkþætti verks eða framleiðsluferli. Þessi fe
 9. Færið inn tölu í Aðgerðaröðun prósentusvæðinu.
     * Tilgreinið hámarkshlutfall afkastagetu rekstrartilfanga sem á að nota í aðgerðaröðun.  
 10. Veljið Já í svæðinu takmörkuð Afkastageta.
-    * Þessi valkostur stilltur á Já ef rekstrartilföng skuli raðað á grundvelli raunverulega afkastagetu sem er tiltækt, og ef taka skal tillit til fyrirliggjandi frátekningar á afkastagetu. Ef þessi valkostur er stilltur á Nei,  er gert ráð fyrir að rekstrartilföng hafa ótakmarkaða afköst, og gæti tilföngin gætu verið yfirbókaður.  
+    * Þessi valkostur stilltur á Já ef rekstrartilföng skuli raðað á grundvelli raunverulega afkastagetu sem er tiltækt, og ef taka skal tillit til fyrirliggjandi frátekningar á afkastagetu. Ef þessi valkostur er stilltur á Nei, er gert ráð fyrir að rekstrartilföng hafa ótakmarkaða afköst, og gæti tilföngin gætu verið yfirbókaður.  
 11. Velja skal Já í svæðinu Flöskuhálstilfang.
 
 ## <a name="define-working-times"></a>Skilgreina vinnutíma

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 14471
 ms.assetid: b633a7c4-c18d-42e7-91cc-adcdc8a3ba98
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60c8b9b3a5aebed7e1a999335aab0baf83ea952a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6f4d5178aeb3294fd3b40815bb294a7f2ff08b71
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558769"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1836558"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Jafna hlutagreiðslu viðskiptavinar sem er með mörg afsláttartímabil
 
@@ -49,13 +49,13 @@ April getur skoðað þessa færslu á síðunni **viðskiptavinarfærslur**.
 | FTI-10030 | Reikningur          | 6/25/2015 | 10030   | 1.000,00                             |                                       | 1.000,00 | USD      |
 
 ## <a name="partial-payment-before-the-cash-discount-date"></a>hlutagreiðsla fyrir dagsetningu staðgreiðsluafsláttar
-Á 28. Júní gerir Viðskiptavinur 4031 hlutagreiðslu uppá 294.00. Þar sem 28. Júní er innan fyrsta tímabilsins staðgreiðsluafsláttar, tekur viðskiptavinar 6.00 afslátt. Á **Jafna færslur** síðu í**upphæð staðgreiðsluafsláttar** gildi er 20,00, og **upphæð staðgreiðsluafsláttar sem á að taka** gildi er 6.00 .
+Á 28. Júní gerir Viðskiptavinur 4031 hlutagreiðslu uppá 294.00. Þar sem 28. Júní er innan fyrsta tímabilsins staðgreiðsluafsláttar, tekur viðskiptavinar 6.00 afslátt. Á **Jafna færslur** síðu í **upphæð staðgreiðsluafsláttar** gildi er 20,00, og **upphæð staðgreiðsluafsláttar sem á að taka** gildi er 6.00 .
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 | Valið | Venjulegt            | FTI-10030 | 4031    | 6/25/2015 | 7/25/2015 | 10030   | 1.000,00                       | USD      | 294.00           |
 
-Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni. Ef gildinu í **Upphæðin til jöfnunar** er ekki breytt í **294,00** verða gildin fyrir **Upphæð staðgreiðsluafsláttar** sem birtast mismunandi. Hins vegar verður 6,00 tekið sem staðgreiðsluafsláttur þegar greiðslan er bókuð, þar sem jöfnun leiðréttir sjálfkrafa gildið **Upphæð til jöfnunar**fyrir þig.
+Afsláttarupplýsingarnar birtist neðst á síðunni **Jafna opnar færslur** síðunni. Ef gildinu í **Upphæðin til jöfnunar** er ekki breytt í **294,00** verða gildin fyrir **Upphæð staðgreiðsluafsláttar** sem birtast mismunandi. Hins vegar verður 6,00 tekið sem staðgreiðsluafsláttur þegar greiðslan er bókuð, þar sem jöfnun leiðréttir sjálfkrafa gildið **Upphæð til jöfnunar** fyrir þig.
 
 |                              |           |
 |------------------------------|-----------|

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f8461f851f6f54def8a04d0f2548961b9a1ca4d
-ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
+ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625873"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849510"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formúluhönnuður í rafrænni skýrslugerð (ER)
 
@@ -215,12 +215,12 @@ Eftirfarandi töflur útskýrir eiginleika fyrir breytingar á gögnum sem eru t
 | TODAY () | Skila gildandi dagsetningu og tíma netþjóns Finance and Operations sem dagsetningargildi. | |
 | NULLDATE () | Skilar gagnagildi með **núlli**. | |
 | NULLDATETIME () | Skilar **núll** dagsetningu / tíma gildi. | |
-| DATETIMEFORMAT (datetime, format) | Breytir tilgreindri dagsetningu / tíma gildi í streng á tilgreindu sniði. (Fyrir upplýsingar um studd snið sjá [staðlað](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) og [sérsniðna](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW (), "dd-mm-áááá")** skilar núverandi dagsetningu hugbúnaðarþjóns Finance and Operations, 24. desember, 2015, sem **"24-12-2015"**, miðað við tilgreint sérsniðið snið. |
-| DATETIMEFORMAT (datetime, format, culture) | Breytir tilgreindri dagsetningu / tíma gildi í streng í tilgreindum sniði og [menningu](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Fyrir upplýsingar um studd snið sjá [staðlað](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) og [sérsniðna](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW (), "D", "de")** skilar núverandi dagsetningu hugbúnaðarþjóns Finance and Operations, desember 24, 2015, sem **"24.12.2015"**, miðað við valda þýska menningu. |
+| DATETIMEFORMAT (datetime, format) | Breytir tilgreindri dagsetningu / tíma gildi í streng á tilgreindu sniði. (Fyrir upplýsingar um studd snið sjá [staðlað](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) og [sérsniðna](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW (), "dd-mm-áááá")** skilar núverandi dagsetningu hugbúnaðarþjóns Finance and Operations, 24. desember, 2015, sem **"24-12-2015"**, miðað við tilgreint sérsniðið snið. |
+| DATETIMEFORMAT (datetime, format, culture) | Breytir tilgreindri dagsetningu / tíma gildi í streng í tilgreindum sniði og [menningu](https://msdn.microsoft.com/goglobal/bb896001.aspx). (Fyrir upplýsingar um studd snið sjá [staðlað](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) og [sérsniðna](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (NOW (), "D", "de")** skilar núverandi dagsetningu hugbúnaðarþjóns Finance and Operations, desember 24, 2015, sem **"24.12.2015"**, miðað við valda þýska menningu. |
 | SESSIONTODAY () | Skilar núverandi setudagsetningu Finance and Operations sem dagsetningargildi. | |
 | SESSIONNOW () | Skilar núverandi setudagsetningu Finance and Operations og tíma sem dagsetningu/tíma. | |
 | DATEFORMAT (dagsetning, snið) | Skilar streng með framsetningu tiltekinnar dagsetningu í tilgreint snið. | **DATEFORMAT (SESSIONTODAY (), "dd-mm-áááá")** skilar núverandi setudagsetningu Finance and Operations, desember 24, 2015, sem **"24-12-2015"**, miðað við tilgreint sérsniðið snið. |
-| DATEFORMAT (dagsetning, snið, menning) | Umbreyta tilgreinda dagsetningargildi í streng á tilgreindu sniði og [menningu](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx). (Fyrir upplýsingar um studd snið sjá [staðlað](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) og [sérsniðna](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "D", "de")** skilar núverandi setudagsetningu Finance and Operations, desember 24, 2015, sem **"24.12.2015"**, miðað við valda þýska menningu. |
+| DATEFORMAT (dagsetning, snið, menning) | Umbreyta tilgreinda dagsetningargildi í streng á tilgreindu sniði og [menningu](https://msdn.microsoft.com/goglobal/bb896001.aspx). (Fyrir upplýsingar um studd snið sjá [staðlað](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) og [sérsniðna](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).) | **DATETIMEFORMAT (SESSIONNOW (), "D", "de")** skilar núverandi setudagsetningu Finance and Operations, desember 24, 2015, sem **"24.12.2015"**, miðað við valda þýska menningu. |
 | DAYOFYEAR (dagsetning) | Skilar heiltölu sem sýnir fjölda daga milli 1. janúar og tilgreindrar dagsetningu. | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** skilar **61**. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** skilar **1**. |
 | DAGAR (dagsetning 1, dagsetning 2) | Skilar fjölda daga milli fyrri tilgreindu dagsetningunni og seinni tilgreindu dagsetningunni. Skilar jákvæðu gildi þegar fyrsta dagsetningin er seinna en seinni dagsetningin, skilar **0** (núll) þegar fyrsta dagsetningin er jafngild annarri dagsetningu, eða skilar neikvæðu gildi þegar fyrsta dagsetningin er á undan seinni dagsetningunni. | **DAYS (TODAY (), DATEVALUE (DATETIMEFORMAT (ADDDAYS (NÚNA (), 1), "yyyyMMdd"), "yyyyMMdd"))** skilar **-1**. |
 
@@ -344,8 +344,8 @@ VELJA ... FRÁ CUSTINVOICETABLE T1 KROSSTENJGA CUSTINVOICEJOUR T2 KROSSTENGJA CU
 <td>ENUMERATE (listi)</td>
 <td>Skila nýjum lista sem samanstendur af tölusettur færslur tilgreinds lista, og sem birtir eftirfarandi einingar:
 <ul>
-<li>Tilgreindar listaskráningar sem reglulegur listi(<strong>Gildi </strong> þáttur)</li>
-<li>Gildandi færsluvísir (<strong>Númer </strong>þáttur)</li>
+<li>Tilgreindar listaskráningar sem reglulegur listi (<strong>Gildi</strong> þáttur)</li>
+<li>Gildandi færsluvísir (<strong>Tala</strong> þáttur)</li>
 </ul>
 </td>
 <td>Í eftirfarandi mynd er búinn til <strong>Tölusettur</strong> gagnagjafi sem tölusettur listi yfir færslur seljanda frá <strong>Lánardrottnum</strong> gagnagjafans sem vísar til VendTable töflunnar.
@@ -617,7 +617,7 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 </tr>
 <tr>
 <td>FORMAT (strengur 1, strengur 2[, strengur 3, ...])</td>
-<td>Skila tilgreindum streng eftir að hann hefur verið sniðinn með því að skipta öllum tilvikum af <strong>%N</strong> með <em>n</em> frumbreytunni. Frumbreytur eru strengir. Ef frumbreyta er ekki gefin upp fyrir færibreytu, er færibreytan skilað sem <strong>&quot;%N&quot;</strong> í strengnum. Fyrir gildi í af gerðinni <strong>rauntala</strong> takmarkast umreikningur strengs við sem nemur tveimur tugasætum.</td>
+<td>Skila tilgreindum streng eftir að hann hefur verið sniðinn með því að skipta öllum tilvikum af <strong>%N</strong> með <em>n</em>tu frumbreytunni. Frumbreytur eru strengir. Ef frumbreyta er ekki gefin upp fyrir færibreytu, er færibreytan skilað sem <strong>&quot;%N&quot;</strong> í strengnum. Fyrir gildi í af gerðinni <strong>rauntala</strong> takmarkast umreikningur strengs við sem nemur tveimur tugasætum.</td>
 <td>Í eftirtöldum myndum skilar <strong>PaymentModel</strong> gagnagjafinn færslulista viðskiptavina með þætti <strong>viðskiptavini</strong> og gildi vinnsludagsetningar með <strong>ProcessingDate</strong> svæðið.
 <p><a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a></p>
 <p>Í sniði rafrænnar skýrslugerðar (ER) sem er hannað til að mynda rafræna skrá fyrir valda viðskiptavini <strong>PaymentModel</strong> er valinn sem gagnagjafa og stýrir flæði ferlis. Beitt er undantekningu til að upplýsa notandann þegar valinn viðskiptavinur er hættur á deginum sem skýrslan er unnin. Formúlu sem er hannað fyrir þessa gerð vinnslustýringar getur notað eftirfarandi tilföng:</p>
@@ -649,12 +649,12 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 </tr>
 <tr>
 <td>NUMBERFORMAT (númer, snið)</td>
-<td>Skila streng með framsetningu tiltekinnar tölu í tilgreindu sniði. (Fyrir upplýsingar um studd snið sjá <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">staðlað</a> og <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">sérsniðna</a>.) Samhengi sem þessi aðgerð er keyrð í ákvarðar þá menningu sem er notuð til að sníða vörunúmer.</td>
+<td>Skila streng með framsetningu tiltekinnar tölu í tilgreindu sniði. (Fyrir upplýsingar um studd snið sjá <a href="https://msdn.microsoft.com/library/dwhawy9k(v=vs.110).aspx">staðlað</a> og <a href="https://msdn.microsoft.com/library/0c899ak8(v=vs.110).aspx">sérsniðna</a>.) Samhengi sem þessi aðgerð er keyrð í ákvarðar þá menningu sem er notuð til að sníða vörunúmer.</td>
 <td>Fyrir EN-US menningu, <strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> skilar <strong>&quot;45.00 %&quot;</strong>. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> skilar <strong>&quot;10&quot;</strong>.</td>
 </tr>
 <tr>
 <td>NUMBERFORMAT (númer, snið, menning)</td>
-<td>Tilgreina framsetningu strengs sem sýnir tiltekna tölu í tilgreindu sniði og gefinni menningu. (Fyrir upplýsingar um studd snið skal sjá <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings">staðlað</a> og <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings">sérsniðna</a>.).</td>
+<td>Tilgreina framsetningu strengs sem sýnir tiltekna tölu í tilgreindu sniði og gefinni menningu. (Fyrir upplýsingar um studd snið skal sjá <a href="https://docs.microsoft.com/dotnet/standard/base-types/standard-numeric-format-strings">staðlað</a> og <a href="https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings">sérsniðna</a>.).</td>
 <td><strong>NUMBERFORMAT (10/3, "F2", "de")</strong> skilar <strong>3,33</strong> en <strong>NUMBERFORMAT (10/3, "F2", "en-us")</strong> skilar <strong>3,33</strong>.</td>
 </tr>
 <tr>

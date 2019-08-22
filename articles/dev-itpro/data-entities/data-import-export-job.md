@@ -3,28 +3,29 @@ title: Inn- og útflutningsvinnsla gagna
 description: Notaðu vinnusvæðið Gögnastjórnun til að búa til og stjórna Inn- og útflutningsvinnslu gagna.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 03/11/2019
+ms.date: 07/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b16966fe1c3a48d772c7c9982f8802119675255f
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505795"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862905"
 ---
 # <a name="data-import-and-export-jobs"></a>Inn- og útflutningsvinnsla gagna
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Til að búa til og stjórna inn- og útflutningsvinnslu gagna í Microsoft Dynamics 365 for Finance and Operations skalatu nota **Gagnastjórnun** vinnusvæðið. Sjálfgefið er að Inn- og útflutningsferli gagna skapi uppsetningartöflu fyrir hverja einingu í markgagnagrunninum. Millistigsvistunartöflu leyfir þér að staðfesta, hreinsa upp eða breyta gögnum áður en þú færir þau.
 
@@ -72,7 +73,7 @@ Við mælum með að þú takir tíma til að velja viðeigandi verktegund fyrir
 | Afmarkað, föst breidd | Komma, semíkomma, flipi, lóðrétt strik, tvípunktur | \-NA-                     |
 
 ### <a name="sequence-the-entities"></a>Einingunum raðað
-Einingum má raða í gagnasniði, eða í innflutnings- og útflutningssverkum. Þegar þú keyrir verk sem inniheldur fleiri en eina gagnaeiningu verður þú að ganga úr skugga um að einingunum sé rétt raðað. Einingum er raðað til að geta leyst hugsanleg virknitengsl milli eininga. Ef einingar eru ekki með virknitengsl  er hægt að tímastilla þær fyrir samhliða inn- og útflutning.
+Einingum má raða í gagnasniði, eða í innflutnings- og útflutningssverkum. Þegar þú keyrir verk sem inniheldur fleiri en eina gagnaeiningu verður þú að ganga úr skugga um að einingunum sé rétt raðað. Einingum er raðað til að geta leyst hugsanleg virknitengsl milli eininga. Ef einingar eru ekki með virknitengsl er hægt að tímastilla þær fyrir samhliða inn- og útflutning.
 
 #### <a name="execution-units-levels-and-sequences"></a>Framkvæmdareiningar, stig og raðir
 Framkvæmdareiningin, stig í framkvæmdareiningunni og röð einingar hjálpa til við að stjórna röðinni sem gögnin eru flutt út eða flutt inn í.
@@ -89,7 +90,7 @@ Framkvæmdareiningin, stig í framkvæmdareiningunni og röð einingar hjálpa t
 - Ef margar gagnasöfn eru notuð (til dæmis eitt verk fyrir hverja einingu) geturðu notað röðun til að hafa áhrif á stig og röð eininga til að ná sem bestum árangri.
 - Ef það er engin tengsl yfirleitt er hægt að raða einingum á mismunandi framkvæmdareiningar til að hámarka hagræðingu.
 
-Valmyndin **Endurröðun** er í boði þegar margar einingar eru valdar. Hægt er að endurraða á grundvelli valkostanna framkvæmdareiningar, stigs eða raðar. Þú getur stillt stighækkun til að endurraða einingum sem voru valdar.  Einingin, stigið og / eða raðnúmerið sem er valið fyrir hverja einingu er uppfært með tilgreindri stighækkun.
+Valmyndin **Endurröðun** er í boði þegar margar einingar eru valdar. Hægt er að endurraða á grundvelli valkostanna framkvæmdareiningar, stigs eða raðar. Þú getur stillt stighækkun til að endurraða einingum sem voru valdar. Einingin, stigið og / eða raðnúmerið sem er valið fyrir hverja einingu er uppfært með tilgreindri stighækkun.
 
 #### <a name="sorting"></a>Röðun
 Hægt er að nota valkostinn **Raða eftir** til að skoða einingalistann í röð.
@@ -103,16 +104,16 @@ Vörpun er aðgerð sem gildir um bæði innflutnings- og útflutningsverk.
 - Í tengslum við innflutningsverk lýsir vörpun hvaða dálkar í upprunalistanum verða dálkarnir í sviðsetningartöflunni. Þess vegna getur kerfið ákvarðað hvaða dálkargögn í upprunaskránni þarf að afrita í hvaða dálk á sviðsetningartöflunni.
 - Í samhengi við útflutningsverk lýsir vörpun því hvaða dálkar í sviðsetningartöflu (þ.e. uppruninn) verða að dálkum í markskránni.
 
-Ef dálknöfnin í sviðsetningartöflunni og skránni passa saman, stofnar kerfið sjálfkrafa vörpun, byggt á nöfnum. Hins vegar, ef nöfnin eru frábrugðin, eru dálkar ekki merkt sjálfkrafa. Í þessum tilvikum verður þú að klára vörpunina með því að velja **Skoða vörpun**á einingunni í gagnaverkinu.
+Ef dálknöfnin í sviðsetningartöflunni og skránni passa saman, stofnar kerfið sjálfkrafa vörpun, byggt á nöfnum. Hins vegar, ef nöfnin eru frábrugðin, eru dálkar ekki merkt sjálfkrafa. Í þessum tilvikum verður þú að klára vörpunina með því að velja **Skoða vörpun** á einingunni í gagnaverkinu.
 
-Það eru tvö vörpunaryfirlit: **Myndræn framsetning vörpunar**, sem er sjálfgefið yfirlit og **Upplýsingar um vörpun**. Rauð stjarna (\*) auðkennir alla áskilda reiti í einingunni. Þessa reiti þarf að varpa áður en hægt er að vinna með eininguna. Þú getur afvarpað af öðrum reitum eftir þörfum þegar unnið er með eininguna. Til að afvarpa  reit velurðu reitinn í annað hvort dálkinum **Eining** eða dálkinum **Uppruni**  og velur svo **Eyða vali**. Veldu **Vista** til að vista breytingar og lokaðu svo síðunni til að fara aftur í verk. Þú getur notað sömu aðferð til að breyta vörpun reita frá upprunagögnum til millivistunar eftir að þú flytur inn.
+Það eru tvö vörpunaryfirlit: **Myndræn framsetning vörpunar**, sem er sjálfgefið yfirlit og **Upplýsingar um vörpun**. Rauð stjarna (\*) auðkennir alla áskilda reiti í einingunni. Þessa reiti þarf að varpa áður en hægt er að vinna með eininguna. Þú getur afvarpað af öðrum reitum eftir þörfum þegar unnið er með eininguna. Til að afvarpa reit velurðu reitinn í annaðhvort dálkinum **Eining** eða dálkinum **Uppruni** og velur svo **Eyða vali**. Veldu **Vista** til að vista breytingar og lokaðu svo síðunni til að fara aftur í verk. Þú getur notað sömu aðferð til að breyta vörpun reita frá upprunagögnum til millivistunar eftir að þú flytur inn.
 
-Þú getur búið til vörpun á síðunni með því að velja**Búa til upprunavörpun**. Tilbúin vörpun hegðar sér eins og sjálfvirk vörpun. Þess vegna verður þú að varpa öllum óvörpuðum reitum handvirkt.
+Þú getur búið til vörpun á síðunni með því að velja **Búa til upprunavörpun**. Tilbúin vörpun hegðar sér eins og sjálfvirk vörpun. Þess vegna verður þú að varpa öllum óvörpuðum reitum handvirkt.
 
 ![Gagnavörpun](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>Staðfestu öryggi fyrir innflutnings- eða útflutningsstarfið
-Aðgangur að vinnusvæðinu **Gagnastjórnun**er hægt að takmarka, svo að notendur sem ekki eru stjórnandi geta aðeins fengið aðgang að tilteknum gagnastörfum. Aðgangur að gagnaverki felur í sér fullan aðgang að framkvæmdarsögu þess starfs og aðgang að sviðsetningartöflunum. Þess vegna verður þú að ganga úr skugga um að viðeigandi aðgangsstýringar séu til staðar þegar þú stofnar gagnastarf
+Aðgangur að vinnusvæðinu **Gagnastjórnun** er hægt að takmarka, svo að notendur sem ekki eru stjórnandi geta aðeins fengið aðgang að tilteknum gagnastörfum. Aðgangur að gagnaverki felur í sér fullan aðgang að framkvæmdarsögu þess starfs og aðgang að sviðsetningartöflunum. Þess vegna verður þú að ganga úr skugga um að viðeigandi aðgangsstýringar séu til staðar þegar þú stofnar gagnastarf
 
 ### <a name="secure-a-job-by-roles-and-users"></a>Tryggja öryggi starfs eftir hlutverkum og notendum
 Notaðu valmyndina **Gildandi hlutverk** til að takmarka starfið við eitt eða fleiri öryggishlutverk. Aðeins notendur í þessum hlutverkum munu hafa aðgang að starfi.
@@ -129,8 +130,8 @@ Starf getur verið tryggt eftir hlutverkum, notendum og lögaðilum á sama tím
 ## <a name="run-the-import-or-export-job"></a>Keyra inn- eða útflutningsstarfið
 Þú getur keyrt vinnu starf sinni með því að velja hnappinn **Flytja inn** eða **Flytja út** eftir að þú skilgreinir starfið. Til að setja upp endurtekið starf skal velja **Stofna endurtekna gagnavinnslu**.
 
-[!NOTE]
-Hægt er að keyra innflutnings- eða útflutningsvinnslu ósamstillt með því að velja hnappinn **Innflutningur** eða **Útflutningur**. Ósamstillt keyrsla notar ósamstilltan ramma í Finance and Operations, sem er öðruvísi en runurammi. Hins vegar, eins og runurammi, ósamstilltur rammi getur einnig farið í takmörkun og fyrir vikið getur verið að vinnslan fari ekki gang strax. Einnig er hægt að keyra vinnslurnar ósamstillt með því að velja **Flytja inn núna** eða **Flytja út núna**. Þetta setur vinnsluna strax af stað og er gagnlegt ef ósamstillt vinnsla eða runa byrjar ekki sökum takmörkunar. Einnig er hægt að keyra vinnslurnar í runu með því að velja valkostinn **Keyra í runu**. Runutilföng heyra undir takmörkun og getur því verið að runuvinnslan hefjist ekki strax. Að velja ósamstillt er gagnlegt þegar notendur eiga í beinum samskiptum við notandaviðmótið og eru ekki kraftnotendur til að skilja runuröðun. Að nota runu er annar valkostur ef reynist þörf á að flytja mikið magn annaðhvort út eða inn. Hægt er að áætla keyrslu á runuvinnslum í tilteknum runuflokk sem leyfir meiri stjórn hvað snertir álagsjöfnun. Ef ósamstillt keyrsla og runa eru bæði að fara í gegnum takmörkun vegna mikillar notkunar á tilföngum kerfisins, er hægt að nota fljótvirka hjáleið sem felur í sér að hægt er að nota samstilltu útgáfuna af innflutningi/útflutningi. Samstillingin byrjar strax og mun loka á notandaviðmótið vegna þess að það er keyrt í samstillingu. Vafraglugginn verður að vera opinn á meðan ósamstillta aðgerðin er í gangi.
+> [!NOTE]
+> Hægt er að keyra innflutnings- eða útflutningsvinnslu ósamstillt með því að velja hnappinn **Innflutningur** eða **Útflutningur**. Ósamstillt keyrsla notar ósamstilltan ramma í Finance and Operations, sem er öðruvísi en runurammi. Hins vegar, eins og runurammi, ósamstilltur rammi getur einnig farið í takmörkun og fyrir vikið getur verið að vinnslan fari ekki gang strax. Einnig er hægt að keyra vinnslurnar ósamstillt með því að velja **Flytja inn núna** eða **Flytja út núna**. Þetta setur vinnsluna strax af stað og er gagnlegt ef ósamstillt vinnsla eða runa byrjar ekki sökum takmörkunar. Einnig er hægt að keyra vinnslurnar í runu með því að velja valkostinn **Keyra í runu**. Runutilföng heyra undir takmörkun og getur því verið að runuvinnslan hefjist ekki strax. Að velja ósamstillt er gagnlegt þegar notendur eiga í beinum samskiptum við notandaviðmótið og eru ekki kraftnotendur til að skilja runuröðun. Að nota runu er annar valkostur ef reynist þörf á að flytja mikið magn annaðhvort út eða inn. Hægt er að áætla keyrslu á runuvinnslum í tilteknum runuflokk sem leyfir meiri stjórn hvað snertir álagsjöfnun. Ef ósamstillt keyrsla og runa eru bæði að fara í gegnum takmörkun vegna mikillar notkunar á tilföngum kerfisins, er hægt að nota fljótvirka hjáleið sem felur í sér að hægt er að nota samstilltu útgáfuna af innflutningi/útflutningi. Samstillingin byrjar strax og mun loka á notandaviðmótið vegna þess að það er keyrt í samstillingu. Vafraglugginn verður að vera opinn á meðan ósamstillta aðgerðin er í gangi.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Staðfesta að vinnslan hafi gengið eins og búist var við með því að skoða vinnsluferilinn.
 Vinnsluferillinn er tiltækur vegna villuleitar og skoðunar fyrir bæði innflutnings- og útflutningsvinnslu Sögulegar vinnslukeyrslur eru skipulögð eftir tímalengdum.
@@ -144,19 +145,55 @@ Fyrir hverja vinnslu sem er keyrð fást eftirfarandi upplýsingar:
 
 Upplýsingar um framkvæmd sýna stöðu hverrar gagnaeiningar sem unnin var í vinnslunni. Því er fljótlegt að finna eftirfarandi upplýsingar:
 
-- Hvaða einingar var unnið með
-- Fyrir einingu, hversu margir færslur voru unnar með góðum árangri og hversu margar mistókst
-- Sviðsetninggögn fyrir hverja einingu
+- Hvaða einingar var unnið með.
+- Fyrir einingu, hversu margir færslur voru unnar með góðum árangri og hversu margar tókust ekki.
+- Sviðsetninggögn fyrir hverja einingu.
 
 Þú getur sótt sviðsetningargögn í skrá fyrir útflutningsvinnslu eða sótt hana sem pakka til að flytja inn og flytja störf.
 
 Eftir framkvæmdarupplýsingunum er einnig hægt að opna framkvæmdarkladda
 
 ## <a name="clean-up-the-staging-tables"></a>Hreinsa sviðsetningartöflurnar
+Frá og með uppfærslu 29 á palli hefur þessari aðgerð verið úrelt. Þessu er skipt út fyrir nýja útgáfu af starfssöguhreinsunaraðgerðum sem lýst er hér að neðan.
+
 Þú getur hreinsað sviðsetningartöflur með því að nota eiginleikann **Hreinsun sviðsetningar** í vinnusvæðinu **Gagnastjórnun**. Þú getur notað eftirfarandi valkosti til að velja hvaða færslur skuli eytt úr hvaða sviðsetningartöflu:
 
 - **Eining**- Ef aðeins eining er gefin upp verður öllum færslum úr sviðsetningartöflu þeirrar einingar eytt. Veldu þennan möguleika til að hreinsa öll gögnin fyrir eininguna þvert á öll gögn og störf.
-- **Vinnslukenni** – Ef aðeins er valið vinnslukenni verður öllum skrám fyrir allar einingar í valinni vinnslu  eytt úr viðeigandi sviðsetningartöflum.
+- **Vinnslukenni** – Ef aðeins er valið vinnslukenni verður öllum skrám fyrir allar einingar í valinni vinnslu eytt úr viðeigandi sviðsetningartöflum.
 - **Gagnaverkefni**- Ef aðeins gagnaverkefni er valið eru allar skrár fyrir alla aðila og yfir öll störf fyrir valið gagnaverkefni eytt.
 
 Þú getur einnig sameinað valkostina til að takmarka enn frekar skráarsettið sem er eytt.
+
+## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Atvinnusaga hreinsun (fæst í uppfærslu pallsins 29 og nýrri)
+
+Nota verður starfshreinsunarreynslu í gagnastjórnun til að skipuleggja reglubundna hreinsun á framkvæmdarsögunni. Þessi aðgerð kemur í stað fyrri hreinsunaraðgerða sviðsetningarborðsins, sem nú er úrelt. Eftirfarandi töflur verða hreinsaðar upp með hreinsunarferlinu.
+
+-   Allar stigatöflur
+
+-   DMFSTAGINGVALIDATIONLOG
+
+-   DMFSTAGINGEXECUTIONERRORS
+
+-   DMFSTAGINGLOGDETAIL
+
+-   DMFSTAGINGLOG
+
+-   DMFDEFINITIONGROUPEXECUTIONHISTORY
+
+-   DMFEXECUTION
+
+-   DMFDEFINITIONGROUPEXECUTION
+
+Hægt er að nálgast virkni frá **Gagnastjórnun \> Hreinsun verksögu**.
+
+### <a name="scheduling-parameters"></a>Færibreytur röðunar
+
+Við tímasetningu hreinsunarferilsins verður að tilgreina eftirfarandi breytur til að skilgreina hreinsunarviðmið.
+
+-   **Fjöldi daga til að halda sögu** - Þessi stilling er notuð til að stjórna magni af framkvæmdarsögunni sem á að varðveita. Þetta er tilgreint í fjölda daga. Þegar hreinsunarstarfið er tímaáætlað sem endurtekið hópastarf mun þessi stilling virka eins og stöðugur hreyfanlegur gluggi, þannig að sagan verður alltaf skilin eftir tiltekinn fjölda daga ósnortinn meðan afganginum er eytt. Sjálfgildið er 7 dagar.
+
+-   **Fjöldi klukkustunda til að framkvæma vinnsluna** - Það fer eftir upphæðinni sem þarf að hreinsa upp, heildar framkvæmdatími fyrir hreinsunarstarfið getur verið breytilegt frá nokkrum mínútum til nokkurra klukkustunda. Vegna þess að hreinsun á nefndum töflum verður að gera þegar engin önnur gagnaumsýslu er í kerfinu verður mikilvægt að ganga úr skugga um að hreinsunarstarfið gangi og ljúki fyrir upphaf viðskipta.
+
+    Hægt er að tilgreina hámarks framkvæmdartíma með því að setja hámarksmörk á fjölda klukkustunda sem starfið verður að keyra með þessari stillingu. Hreinsunarmöguleikinn fer í gegnum eitt kennsl á framkvæmdastarfi í einu í tímaröð sem er raða, þar sem elsta er fyrst fyrir hreinsun tengdra framkvæmdasögu. Það mun hætta að taka upp ný framkvæmdarauðkenni til hreinsunar þegar eftirstöðvunartíminn er innan síðustu 10% af tiltekinni tímalengd. Í sumum tilvikum er búist við að hreinsunarstarfið haldi áfram yfir tilgreindan hámarkstíma. Þetta mun að mestu leyti ráðast af fjölda gagna sem á að eyða fyrir núverandi framkvæmdarauðkenni sem byrjað var áður en 10% þröskuldinum var náð. Hreinsun sem var hafin verður að vera lokið til að tryggja heilleika gagna, sem þýðir að hreinsunin mun halda áfram þrátt fyrir að fara yfir tilgreind mörk. Þegar þessu er lokið, eru ný framkvæmdarauðkenni ekki sótt og hreinsunarvinnslunni lokið. Sú framkvæmdaferð sem eftir er sem ekki var hreinsuð upp vegna skorts á nægum framkvæmdartíma, verður sótt næst þegar áætlað er að gera upp hreinsunarvinnsluna. Sjálfgefið og lágmarksgildi fyrir þessa stillingu er stillt á 2 klukkustundir.
+
+-   **Endurtekin runa** - Hægt er að keyra hreinsunarstarfið sem staka, handvirka framkvæmd eða einnig er hægt að skipuleggja endurtekna framkvæmd í runu. Hægt er að skipuleggja rununa með stillingunum **Keyra í bakgrunni**, sem er venjulegi hópurinn sem settur er upp.

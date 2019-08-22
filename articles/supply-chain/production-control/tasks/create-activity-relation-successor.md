@@ -1,6 +1,6 @@
 ---
 title: 'Stofna verkþáttarvensl: næsti þáttur'
-description: Flæði aðgerða í lean-framleiðsluflæði er skráð með vensl verkþáttar.
+description: Flæði aðgerða í lean-framleiðsluflæði er skráð með venslum verkþáttar.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
@@ -10,25 +10,25 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityRelationNew, PlanActivityLookup, DefaultDashboard
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e5e5844939e1eb40e31530c434c096c5b3be7abe
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 58e003c6521c4ef007b8e0e1e17d51715435e875
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562416"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1838728"
 ---
 # <a name="create-activity-relation-successor"></a>Stofna verkþáttarvensl: Næsti þáttur
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Flæði aðgerða í lean-framleiðsluflæði er skráð með vensl verkþáttar. Þessi skráning sýnir hvernig á að stofna verkþáttarvensl.
+Flæði aðgerða í lean-framleiðsluflæði er skráð með venslum verkþáttar. Þessi skráning sýnir hvernig á að stofna verkþáttarvensl.
 
 Skilyrði:
 

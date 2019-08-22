@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 94153
 ms.assetid: 33e98da7-01c1-4369-923d-aa1c8326cb80
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 857aee796db2a4743cdbd91da3eb1cf6f996f9d1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 33699ea6f31651682156b4c14d3ea51285738e8a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557261"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839064"
 ---
 # <a name="intercompany-invoicing"></a>Reikningsfærsla innan samstæðu
 
@@ -37,7 +37,7 @@ Eftirfarandi skýringarmynd sýnir í dæmigerðum aðstæðum þar sem tveir l�
 
 [![Dæmi um reikningsfærslu innan samstæðu](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
-Markmiðið er að gera kostnaðarstýringu , tekjuskráningu, skatta og flutningsverð fyrir verkfærslur innan samstæðu í Dynamics AX sveigjanlegri og öflugri. Þar að auki er eftirfarandi geta í boði:
+Markmiðið er að gera kostnaðarstýringu, tekjuskráningu, skatta og flutningsverð fyrir verkfærslur á milli fyrirtækja sveigjanlegri og öflugri. Þar að auki er eftirfarandi geta í boði:
 
 -   Stofna reikninga viðskiptavina gagnvart verk í lögaðili sem fær lánað með því að nota vinnukort innan samstæðu, útgjöld og reikningar í lögaðila sem lánar.
 -   Styðja skattaútreikninga og óbeinan kostnað.
@@ -45,8 +45,8 @@ Markmiðið er að gera kostnaðarstýringu , tekjuskráningu, skatta og flutnin
 -   Safna upp tekjum fyrir verk í vinnslu (VÍV) í lögaðilanum sem lánar.
 -   Setja upp flutningsverð sem geta byggt á mismunandi verðflokkar. Hér eru nokkur dæmi:
     -   **Magn** – upphæðin sem færð er inn í á **Verðlagning** reitnum er raunverulegur kostnaður á magn eða einingu.
-    -   **Upphæð gjalda** -  verð/kostnaður á færslu plús upphæð gjalda sem þú færðir inn í reitnum **verðlagning**
-    -   **Gjaldaprósenta** -  Flutningsverð er verð/kostnaður á færslu margfaldað með gjaldprósentu sem þú færðir inn í reitnum **verðlagning**.
+    -   **Gjaldaupphæð** – Verð/kostnaður á færslu auk gjaldaupphæð sem þú færðir inn í reitinn **Verðlanging**.
+    -   **Gjaldaprósenta** - Flutningsverð er verð/kostnaður á færslu margfaldað með gjaldprósentu sem þú færðir inn í reitnum **verðlagning**.
     -   **Prósenta af söluverði** – prósentu af söluverðinu sem er flutt í lögaðilanum sem lánar.
     -   **Upphæð fyrir neðan söluverð** – upphæðin sem er lögaðili sem fær lánað heldur eftir af söluverðinu fyrir flutning í lögaðilanum sem lánar.
     -   **Framlegðarhlutfall** – númerið sem færð er inn í á **Verðlagning** er framlegðarhlutfall sem er sýnd sem prósenta af söluverði.
@@ -98,7 +98,7 @@ USSI, lögaðilanum sem lánar, verður að stofna og bóka samstæðureikningur
 | B    | **Verkefnastjórnun og bókhald** &gt; **Verkreikningar** &gt; **samstæðureikningar viðskiptavinar**. | Á við **Stofna samstæðureikning** síðunni skal færa inn lögaðila, tilgreina færsluna sem á að taka með og smellið síðan á **Leit**. |
 | K    | **Verkefnastjórnun og bókhald** &gt; **Verkreikningar** &gt; **samstæðureikningar viðskiptavinar**. | Velja færslur til að reikningsfæra eða smellið á **Velja allt** til að reikningsfæra allar færslur í listanum og smellið síðan á **í lagi**.                  |
 | D    | Síðan **samstæðureikningur**                                                                       | Reikningstillaga samstæðuviðskiptavinar er sýnd.                                                                                             |
-| E    | Síðan **samstæðureikningur**                                                                       | Smella  **bóka.**                                                                                                                                  |
+| E    | Síðan **samstæðureikningur**                                                                       | Smeltu á **Bóka.**                                                                                                                                  |
 
 ## <a name="example-5-post-the-vendor-invoice-and-invoice-the-customer"></a>Dæmi 5: Bóka reikning lánardrottins og reikningsfæra á viðskiptavininn
 Þegar lögaðilanum sem lánar, USSI, bókar samstæðureikningur viðskiptavinar, er samsvarandi reikningur lánardrottins í bið stofnuð í lögaðili sem fær lánað, FRSI. Eftir að þessum reikningi lánardrottins er bókaður, reikningsfærir FRSI einnig viðskiptavin verks fyrir vinnustundir sem USSI færði inn. Það eru þrír komustaðir fyrir skref sem þarf fyrir þetta verk.

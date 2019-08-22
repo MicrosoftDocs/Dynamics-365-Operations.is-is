@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
-ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
+ms.openlocfilehash: a33212acce6bf53b1077e54b9556e4d5e933519c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624312"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849333"
 ---
 # <a name="regulatory-updates"></a>Regluuppfærslur
 
@@ -59,19 +59,22 @@ Fyrir nýjustu áætlanir á uppfærslu á reglum skal skoða eftirfarandi töfl
 |      2019. apríl          |   10.0.1      |    Rússland     |Skattskýrsla fyrir flutningsskatt breytist frá og með 2019  |
 |      2019. apríl            |   10.0.1      | Ungverjaland      |  Ungverjaland: Reikningsfærsla á netinu v.1.1 2019 þann Microsoft Dynamics 365 for Finance and Operations  |
 |      2019. maí            |   10.0.2      | Brasilía      |   SPED ECD útlit 7   |
-|      Í bið            |   10.0.3      | Brasilía      |   NF-e new NT 2018.005 - v.1.20   |
-|      Í bið            |   10.0.3      | Brasilía      |   SPED ECD útlit 7   |
-|      Í bið            |   10.0.3      | Brasilía      |   SPED ECF - Útlit 5 fyrir 2019   |
-|      Í bið            |   10.0.3      | Litháen    |   i.SAF skýrsla gerir notanda kleift að skilgreina kerfiskóða fyrir VSK í tengslum við lagalega skattkóða    |
-|      Í bið            |   10.0.3      | Pólland     |   SAF-reikningar (JPK_FA) v.2 frá 1Jul2019  |
-|      Í bið            |   10.0.3      | Brasilía   |   Leiðréttingar á fjárhagsskjali ICMS virkja töflu 5.2   |
-|      Í bið            |   10.0.3      | Brasilía    |   NF-e Decree 54.308/18 (RS)   |
-  | Í bið            |   10.0.4      | Brasilía    |   Fjármálaskjal á innleið, líkan 66   |
-   | Í bið            |   10.0.4      | Brasilía    |   NF-e og NFC-e - Upplausn 13/2019 og reglugerð SUCIEF 55/2019- RJ - ný skilyrði fyrir úttak undanþeginna merkja í NF-e.   |
-   | Í bið            |   10.0.4      | Indland   |   Birting „Birgðastaðar“ og „Ríkis“ á VÞS-skattareikningi  |
-   | Í bið            |   10.0.4      | Mexíkó   |  DIOT þriðja aðila yfirlýsing - breytingar á skipulagi 2019   |
-   | Í bið            |   10.0.4      | Brasilía    |   NF-e ICMS-ST - fyrirmæli CAT 42/18 fyrir SP ástand - CAT 42/18
-   | Í bið            |   10.0.4      | Brasilía    |   NF-e úrskurður 54.308/18 - RS NF   |
+|      2019. júní            |   10.0.3      | Brasilía      |   NF-e new NT 2018.005 - v.1.20   |
+|      2019. júní            |   10.0.3      | Brasilía      |   SPED ECD útlit 7   |
+|      2019. júní            |   10.0.3      | Brasilía      |   SPED ECF - Útlit 5 fyrir 2019   |
+|      2019. júní            |   10.0.3      | Litháen    |   i.SAF skýrsla gerir notanda kleift að skilgreina kerfiskóða fyrir VSK í tengslum við lagalega skattkóða    |
+|      2019. júní            |   10.0.3      | Pólland     |   SAF-reikningar (JPK_FA) v.2 frá 1Jul2019  |
+|      2019. júní            |   10.0.3      | Brasilía   |   Leiðréttingar á fjárhagsskjali ICMS virkja töflu 5.2   |
+|      2019. júní            |   10.0.3      | Brasilía    |   NF-e Decree 54.308/18 (RS)   |
+  | Júlí 2019            |   10.0.4      | Brasilía    |   Fjármálaskjal á innleið, líkan 66   |
+   | Júlí 2019            |   10.0.4      | Brasilía    |   NF-e og NFC-e - Upplausn 13/2019 og reglugerð SUCIEF 55/2019- RJ - ný skilyrði fyrir úttak undanþeginna merkja í NF-e.   |
+   | Júlí 2019            |   10.0.4      | Indland   |   Birting „Birgðastaðar“ og „Ríkis“ á VÞS-skattareikningi  |
+   | Júlí 2019            |   10.0.4      | Mexíkó   |  DIOT þriðja aðila yfirlýsing - breytingar á skipulagi 2019   |
+   | Júlí 2019            |   10.0.4      | Brasilía    |   NF-e ICMS-ST - fyrirmæli CAT 42/18 fyrir SP ástand - CAT 42/18
+   | Júlí 2019            |   10.0.4      | Brasilía    |   NF-e úrskurður 54.308/18 - RS NF   |
+       | Í bið            |   10.0.5      | Brasilía    |   Hagnýt handbók um sped-framlög 1.31. ný leiðsögn   |
+         | Í bið            |   10.0.5      | Brasilía    |   Ný útgáfa af tæknilegum athugasemdum fyrir NF-e: NT 2019.001 Útgáfa 1.00   |
+          | Í bið            |   10.0.5      | Spánn    |   Löggildingarreglur breytast frá 1. október 2019   |
    
 
 

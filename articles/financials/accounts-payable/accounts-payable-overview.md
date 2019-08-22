@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, DeliveryMode, PaymTerm, VendGroup, VendParameters, VendPaymMode, VendTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 24671
 ms.assetid: 82561fe7-b2d6-464c-9347-79d0ce0f9743
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf3226060eddf01fb218e99cae4097fecfe56e25
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d8642b27f222ed080539e63b0608a52aefbe64e8
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1506596"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1837471"
 ---
 # <a name="configure-accounts-payable"></a>Skilgreina Viðskiptaskuldir
 
@@ -37,7 +37,7 @@ ms.locfileid: "1506596"
 Áður en hægt er að setja upp viðskiptaskuldir, verður að ljúka eftirfarandi uppsetningu:
 
 -   Í Fjárhag
-    -   Ef ætlunin er að nota greiðslubók þarf að setja upp greiðslubækur 
+    -   Ef ætlunin er að nota greiðslubók þarf að setja upp greiðslubækur.
     -   Ef ætlunin er að keyra gengisleiðréttingar þarf að setja upp gjaldmiðilskóða í síðuna Gjaldmiðlum, setja upp gerðir gengis á síðu gerðir gengis og setja upp gengi gjaldmiðla á síðu gengi Gjaldmiðils.
 -   Í reiðufjár- og bankastjórnun, eru settir upp bankareikningar til þess að nota með greiðsluháttum.
 
@@ -71,7 +71,7 @@ Viðbótar uppsetningarsíður eru skipulagðar eftir aðgerðum.
 
 **Verkflæði**
 
--   Á síðunni verkflæði viðskiptaskulda skal Setja upp verkflæðisskilgreiningar fyrir færslubókarsamþykktir og innkaupabeiðnir 
+-   Á síðunni Verkflæði viðskiptaskulda skal setja upp verkflæðisskilgreiningar fyrir færslubókarsamþykktir og innkaupabeiðnir.
 
 **Ástæður**
 
@@ -91,21 +91,21 @@ Viðbótar uppsetningarsíður eru skipulagðar eftir aðgerðum.
 
 **Arðgreiðsla**
 
--   Á afhendingarskilmálar  síðu skal Stofna og viðhalda skilmálum fyrir flutning vöru frá seljanda til kaupanda.
+-   Á síðunni Afhendingarskilmálar skal stofna og viðhalda skilmálum fyrir flutning vöru frá seljanda til kaupanda.
 -   Á Afhendingarmátum síðu, stofna og vinna með aðferðir við flutning sem er notaður þegar pöntun er afhent frá seljanda til kaupanda.
 -   Á áfangastaðakóðasíðu Stofna og viðhalda kennimerki og lýsingum fyrir afhendingaráfangastaði
 
 **Skjámyndir**
 
--   Á snið athugasemda  síðu Stofna staðlaðan texta sem birtist í ýmsum síðum
--   Á færibreytur sniðröðunar síðu Setja upp röðunarskipan fyrir beiðnir, innhreyfingarlista, fylgiseðla og reikninga 
+-   Á síðunni Athugasemdir eyðublaða skal stofna staðlaðan texta sem birtist á ýmsum síðum.
+-   Á síðunni Röðunarfæribreytur skjámyndar skal setja upp röðunarskipan fyrir beiðnir, innhreyfingarlista, fylgiseðla og reikninga.
 -   Á uppsetningu prentstýringar síðu, setja upp upplýsingar um prentstýringu fyrir frumrit og afrit af síðum.
 
 **Greiðslur**
 
 -   Á Staðgreiðsluafsláttur síða, setja upp og Stýra skilmála til að fá staðgreiðsluafsláttur. Staðgreiðsluafsláttarkóðar eru tengdir lánardrottnum og notaðir í innkaupapöntunum.
 -   Á Greiðsluáætlun síða, setja upp greiðsluáætlun sem eru notaðar til að stjórna afborgunargreiðslum til lánardrottinn.
--   Á greiðsludagar  síðu Skilgreina greiðsludaga sem eru notaðir til þess að reikna gjalddaga og tilgreina greiðsludaga fyrir tiltekinn dag vikunnar eða mánaðarins 
+-   Á síðunni Greiðsludagar skaltu skilgreina greiðsludaga sem eru notaðir til þess að reikna gjalddaga og tilgreina greiðsludaga fyrir tiltekinn dag vikunnar eða mánaðarins.
 -   Á Greiðsluþóknun síða, stofna og viðhalda greiðsluþóknun sem tengist lánardrottinn.
 -   Á greiðslufyrirmælin síðu, stofna og viðhalda greiðslufyrirmælum.
 

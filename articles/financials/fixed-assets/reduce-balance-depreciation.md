@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 3281
 ms.assetid: 1b86763d-d47c-4a6a-a9a6-d97a736750da
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e36a7e1a5d83a95de53b70b8e3c3b667aae9c6c0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2dd4a8726ca194de2e5d95128659f3b212eaace5
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553669"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840218"
 ---
 # <a name="reduce-balance-depreciation"></a>Minnka bókfært virði
 
@@ -33,11 +33,11 @@ ms.locfileid: "1553669"
 
 Þegar afskriftaregla fyrir eignir er sett upp og bókfært virði er valið í skjámyndinni um afskriftir verða eignir sem hafa þessa afskriftareglu afskrifaðar um sama hlutfall af hundraði á hverju afskriftatímabili.
 
-Til að setja upp afskriftir fyrir bókfært virði verður einnig að velja í svæðunum á flýtiflipanum "almennt" í skjámyndinni fyrir afskriftarregluna. Fyrst skal velja ár í afskriftasvæðinu fyrir ár. Mismunandi valmöguleikar birtast á svæðinu "tímabilstíðni"  eftir því hvað valið er, svo sem útskýrt er í eftirfarandi köflum. 
+Til að setja upp afskriftir fyrir bókfært virði verður einnig að velja í svæðunum á flýtiflipanum "almennt" í skjámyndinni fyrir afskriftarregluna. Fyrst skal velja ár í afskriftasvæðinu fyrir ár. Mismunandi valmöguleikar birtast á svæðinu "tímabilstíðni" eftir því hvað valið er, svo sem útskýrt er í eftirfarandi köflum. 
 
-Einnig verður að færa gildi í hlutfallssvæðið fyrir afskriftarregluna. Ef kosturinn "full afskrift" er valinn er eftirstandandi afskriftagrunnur tekinn á síðasta afskriftatímabili, sem gæti verið há upphæð. Sum lönd/svæði nota ekki umskipti yfir í línulega afskriftaaðferð. Umskipti eiga sér stað þegar upphæð auka afskriftaraðferðar er hærri eða jöfn og upphæð aðalafskriftarreglunnar, þá  verður afskriftarupphæðin sem er tekin upphæðin sem fengin er með aukaaðferðinni. 
+Einnig verður að færa gildi í hlutfallssvæðið fyrir afskriftarregluna. Ef kosturinn "full afskrift" er valinn er eftirstandandi afskriftagrunnur tekinn á síðasta afskriftatímabili, sem gæti verið há upphæð. Sum lönd/svæði nota ekki umskipti yfir í línulega afskriftaaðferð. Umskipti eiga sér stað þegar upphæð auka afskriftaraðferðar er hærri eða jöfn og upphæð aðalafskriftarreglunnar, þá verður afskriftarupphæðin sem er tekin upphæðin sem fengin er með aukaaðferðinni. 
 
-Af því að eign afskrifast aldrei að fullu ef prósentureikningur er notaður verður að velja kostinn "full afskrift"  til að afskrifa eign að fullu.
+Af því að eign afskrifast aldrei að fullu ef prósentureikningur er notaður verður að velja kostinn "full afskrift" til að afskrifa eign að fullu.
 
 ## <a name="select-a-depreciation-year"></a>Velja afskriftaár
 Hægt er að velja annað hvort Dagatal eða Fjárhagsár á svæði fyrir afskriftarár á síðunni afskriftareglur. Valið skilgreinir valmöguleikana sem í boði eru á svæðinu tímabilstíðni. Sjálfgefinn kostur er dagatal.

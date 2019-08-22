@@ -3,13 +3,12 @@ title: Vistuð yfirlit
 description: Þetta efnisatriði lýsir því hvernig á að nota eiginleika fyrir vistuð yfirlit.
 author: jasongre
 manager: AnnBe
-ms.date: 06/05/2019
+ms.date: 08/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
-ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,17 +16,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: ea2f2dbd615480bb76e1d04a106ae69bf6f45f4b
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: 9d19987a44c467381828acb81b6161601268d84f
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620779"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863061"
 ---
 # <a name="saved-views"></a>Vistuð yfirlit
 
 [!include [banner](../includes/banner.md)]
-[!include [private preview banner](../includes/private-preview-banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="introduction"></a>Inngangur
 Sérstilling gegnir mikilvægu hlutverki í því að gera notendum og fyrirtækjum kleift að hámarka notendaupplifun í Microsoft Dynamics 365 for Finance and Operations til að mæta þörfum þeirra. Frekari upplýsingar um sérstillingu er að finna í [Sérsníða notandaupplifun](personalize-user-experience.md).
@@ -49,13 +48,13 @@ Til eru tvær stærðir á yfirlitsvali:
 
 -   **Stórt yfirlitsval**: Síður sem birta lista á áberandi hátt verða með stærra yfirlitsval af nokkrum ástæðum. Mikilvægast er að stærra yfirlitsvalið gefur til kynna síðurnar þar sem yfirlitið getur innihaldið síur skilgreindar af notanda. Vegna þess að síur eru innifaldar í yfirlitunum, stærra yfirlitsvalið er einnig leyft sem yfirlit, verða heiti oft besta lýsing á gögnunum sem eru sýnd á skjánum og búist er við því að notendur muni skipta á milli yfirlita oftar á þessum síðugerðum.  
  
--   **Lítið yfirlitsval**: Allar aðrar skjámyndir með heilli síðu eru með minna yfirlitsval sem sést við hliðina á yfirskrift síðunnar. Yfirlit á þessum síðum innihalda eingöngu sérstillingar (en ekki síur skilgreindar af notanda). Á þessum síðum er yfirskrift skjámyndar eða titill færslu oft mikilvægustu upplýsingarnar efst á skjámyndinni. Minni stærðin endurspeglar einnig að búist sé við færri skiptingum á milli yfirlita á þessum síðum. 
+-   **Lítið yfirlitsval**: Allar aðrar skjámyndir með heilli síðu (undantekningin er vinnusvæði og yfirlitið) eru með minna yfirlitsval sem sést við hliðina á yfirskrift síðunnar. Yfirlit á þessum síðum innihalda eingöngu sérstillingar (en ekki síur skilgreindar af notanda). Á þessum síðum er yfirskrift skjámyndar eða titill færslu oft mikilvægustu upplýsingarnar efst á skjámyndinni. Minni stærðin endurspeglar einnig að búist sé við færri skiptingum á milli yfirlita á þessum síðum. 
  
 Ef smellt er á heiti yfirlits opnast yfirlitsvalið og sýnir lista yfir tiltæk yfirlit fyrir þessa síðu
 
 -    **Klassískt yfirlit**: Klassískt yfirlit er tilbúið yfirlit fyrir síðuna með engum sérstökum sérstillingum.  
 -    **Persónulegt yfirlit**: Yfirlit án hengiláss standa fyrir persónulegu yfirlitin þín. Þetta eru yfirlit sem þú hefur annaðhvort búið til eða stjórnandi hefur gefið þér þau.  
--    **Læst yfirlit**: Sum yfirlit (eins og klassískt yfirlit og öll yfirlit sem eru gefin út fyrir hlutverkið þitt) eru með hengilás við hliðina á þeim í yfirlitsvalinu, sem gefur til kynna að þú getur ekki breytt þessum yfirlitum. Óbeinar sérstillingar sem varða síðunotkun eru hinsvegar vistaðar sjálfkrafa, t.d. breyting á breidd dálks í hnitaneti eða stækkun eða minnkun á flýtiflipa. Hinsvegar er hægt að búa til persónulegt yfirlit sem byggist á læstu yfirliti með því að nota aðgerðina **Vista afrit** ef þú ert með réttindi fyrir sérstillingar.
+-    **Læst yfirlit**: Sum yfirlit (eins og klassískt yfirlit og öll yfirlit sem eru gefin út fyrir hlutverkið þitt) eru með hengilás við hliðina á þeim í yfirlitsvalinu, sem gefur til kynna að þú getur ekki breytt þessum yfirlitum. Óbeinar sérstillingar sem endurspegla síðunotkun eru hinsvegar vistaðar sjálfkrafa, t.d. breyting á breidd dálks í hnitaneti eða stækkun eða minnkun á flýtiflipa. Hinsvegar er hægt að búa til persónulegt yfirlit sem byggist á læstu yfirliti með því að nota aðgerðina **Vista afrit** ef þú ert með réttindi fyrir sérstillingar.
 -    **Ný yfirlit**: Birt yfirlit sem hafa ekki enn verið opnuð eru ljómaðar vinstra megin við heiti yfirlitsins.  
 
 Til að skipta yfir í annað yfirlit skal fyrst opna yfirlitsvalið og síðan velja yfirlitið sem á að hlaða inn. 
@@ -75,7 +74,7 @@ Ef þú vilt vista þessar breytingar skaltu fylgja þessum skrefum.
      3.    Veljið **Vista**.
 
 ## <a name="changing-the-default-view"></a>Breyting á sjálfgefnu yfirliti
-Sjálfgefið yfirlit er yfirlitið sem kerfið reynir að opna þegar fyrst er farið inn á síðuna. Setja ætti þetta á yfirlitið sem er búist er við að verði oft notað.  
+Sjálfgefið yfirlit er yfirlitið sem kerfið reynir að opna þegar fyrst er farið inn á síðuna. Setja ætti þetta á yfirlitið sem er búist er við að verði oftast„ notað.  
 
 Til að breyta sjálfgefnu yfirliti fyrir síðu skal fylgja þessum skrefum: 
 1.  Skiptið yfir í yfirlitið sem er notað að sjálfgefnu. 
@@ -100,14 +99,14 @@ Allar breytingar gerðar á þessum svarglugga taka gildi eftir að hnappurinn *
 ## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Stjórnun sérstillinga á fyrirtækisstigi með yfirlitum
 Til að skilja endurbætur í stjórnun sérstillinga á fyrirtækisstigi skulum við fyrst kíkja á stjórnun á sérstillingum gekk fyrir sig á undan yfirlitum.  
 
-Án yfirlita notuðu stjórnendur sett af sérstillingum fyrir síðu handa notanda, hóp notenda eða notenda sem nota skjámynd sérstillingar. Ef þessir notendur voru með sérstillingarheimildir tóku sérstillingarnar gildi á þessari síðu. Hinsvegar var enginn möguleiki á því að koma í veg fyrir að notendur sérstilltu síðuna enn frekar, sem þýddi að fyrirtækið gat ekki tryggt að samræmi væri á notandaviðmóti notenda. Ef einhver þessara notenda var ekki með heimildir til sérstillinga voru sérstillingar sem stjórnandi veitti þeim ekki hlaðnar inn. Ennfremur, ef nýir notendur voru ráðnir inn í fyrirtæki, þurftu stjórnendur að hlaða inn handvirkt safni af sérstillingum fyrir notendurna. Ekkert sérstakt sjálfvirkt ferli var til staðar sem tilgreindi að ákveðið safn sérstillinga ætti að vera í boði fyrir þessa notendur.
+Án yfirlita notuðu stjórnendur sett af sérstillingum fyrir síðu handa notanda eða hóp notenda í gegnum síðuna Sérstillingar. Ef þessir notendur voru með sérstillingarheimildir tóku sérstillingarnar gildi á þessari síðu. Hinsvegar var enginn möguleiki á því að koma í veg fyrir að notendur sérstilltu síðuna enn frekar, sem þýddi að fyrirtækið gat ekki tryggt að samræmi væri á notandaviðmóti notenda. Ef einhver þessara notenda var ekki með heimildir til sérstillinga voru sérstillingar sem stjórnandi veitti þeim ekki hlaðnar inn. Ennfremur, ef nýir notendur voru ráðnir inn í fyrirtæki, þurftu stjórnendur að hlaða inn handvirkt safni af sérstillingum fyrir notendurna. Ekkert sérstakt sjálfvirkt ferli var til staðar sem tilgreindi að ákveðið safn sérstillinga ætti að vera í boði fyrir notendur í því hlutaverki.
 
 Með eiginleika fyrir vistun yfirlita, er fyrirtækisstjórnun á sérstillingum umtalsvert auðveldari, þá sérstaklega vegna möguleikans á því að gefa yfirlit út til öryggishlutverka. Eftir að yfirlit hefur verið gefið út, hefur hvaða notandi sem er með það hlutverk aðgang að og getur notað yfirlitið, burtséð frá möguleikum notanda til að gera sérstillingar. Þótt hver notandi sé með afrit af útgefnu yfirliti þar sem síðunotkun (óbeinar sérstillingar) eru sjálfkrafa notuð, getur enginn notandi vistað sérstakar sérstillingar eða uppfærslur á fyrirspurninni til útgefna yfirlitsins (sem þýðir að útgefin yfirlit eru læst). Að auki, ef nýjum notendum eru gefin hlutverk sem yfirlitið var gefið út til, munu þeir sjálfkrafa sjá yfirlitin sem tengjast hlutverkum þeirra án nokkurrar aðgerðar frá stjórnandanum. Svipað, ef notandi breytir hlutverkum í fyrirtæki, yfirlitin sem tengjast gamla hlutverkinu verða ekki lengur aðgengileg notanda, aftur án nokkurrar aðgerðar frá stjórnandanum. Uppfærslur á útgefnu yfirliti er auðveldlega hægt að úthluta til notenda með því að endurútgefa yfirlitið til viðeigandi öryggishlutverka.
 
 Útgáfumöguleikinn gerir fyrirtækjum kleift að skilgreina stöðluð yfirlit stofnunar sem eru aðlöguð að rekstrinum, beint að notendum í tilteknum öryggishlutverkum.  
 
 ## <a name="publishing-views"></a>Birta yfirlit
-Meðan á birtingarferlinu stendur er hægt að úthluta yfirlitum á eitt eða fleiri öryggishlutverk, sem þýðir að notandi með þetta hlutverk hefur aðgang að og getur notað þetta yfirlit, þótt hann geti ekki breytt yfirlitinu. Sem stendur hafa aðeins kerfisstjórar réttindi fyrir aðgerðina **Birta** í fellivalmynd yfirlitsvals.  
+Meðan á birtingarferlinu stendur er hægt að úthluta yfirlitum á eitt eða fleiri öryggishlutverk, sem þýðir að notandi með þetta hlutverk hefur aðgang að og getur notað þetta yfirlit, þótt hann geti ekki breytt yfirlitinu. Eins og er hafa aðeins kerfisstjórar réttindi til aðgerðarinn **Birta** aðgerð í fellivalmyndinni Skoða skjáinn, en nýtt öryggishlutverk verður tiltækt í framtíðaruppfærslu til að veita öðrum traustum notendum útgáfurétt.  
 
 Til að birta yfirlit skal fylgja þessum skrefum: 
 1.  Búið til og vistið persónulegt afrit af yfirlitinu sem á að birta. 
@@ -150,14 +149,19 @@ Allar breytingar gerðar á þessum svarglugga taka gildi eftir að hnappurinn *
 
 ## <a name="frequently-asked-questions"></a>Algengar spurningar
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Hvernig virkja ég vistuð yfirlit í umhverfinu mínu? 
-Til að virkja vistuð yfirlit þarf kerfisstjórinn að gera eftirfarandi: 
-1.  Opna síðuna **Sérstilling** með því að nota flettingaleit. 
-2.  Velja flipann **Stillingar**.
-3.  Stilla valkostinn **Virkja vistuð yfirlit** á **Já**.
+Fylgdu skrefunum hér fyrir neðan til að gera vistaðar skoðanir virkar meðan aðgerðin er í forskoðun: 
 
-Þegar þessi eiginleiki hefur verið virkjaður hefjast allar næstu lotur notanda með yfirlitin virk.  
+1.  **Virkja flugið**: Framkvæma eftirfarandi SQL staðhæfingu: 
 
-Athugið að ef slökkt er á sérstillingu fyrir umhverfið verða yfirlit virkjuð jafnvel þótt þú fylgir skrefunum hér að ofan. Ástæðan er vegna þess að eiginleiki yfirlita er byggður ofan á undirkerfi sérstillingar.
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('Dynamics.AX.Application.CLISavedViewsEnableFeature', 1, 0, 5637144576);`
+
+2.  **Finndu eiginleikann**: Farðu í **Stjórnun eiginleika** vinnusvæði. Ef **Vistaðar skoðanir** birtist ekki á listanum, veldu hnappinn **Athuga með uppfærslur**.   
+
+3.  **Virkja aðgerðina**: Finndu **Vistaðar skoðanir** aðgerðina á listanum yfir aðgerðir, og smelltu á **Virkja núna** hnappinn á smáatriðinu.
+
+Allar síðari notendatímabil munu byrja með vistaðar skoðanir virka.  
+
+Athugið að ef slökkt er á sérstillingu fyrir umhverfið verða yfirlit afvirkjuð jafnvel þótt þú fylgir skrefunum hér að ofan. Ástæðan er vegna þess að eiginleiki yfirlita er byggður ofan á undirkerfi sérstillingar.
 
 ### <a name="what-happens-to-existing-personalizations-when-views-are-enabled"></a>Hvað verður um núverandi sérstillingar þegar yfirlit eru virkjuð? 
 Þegar yfirlit eru virkjuð eru allar núverandi sérstillingar fyrir notanda og skjámynd vistaðar í nýtt yfirlit sem ber heitið **Yfirlitið mitt** sem er sjálfkrafa stillt sem sjálfgefið yfirlit. Þetta er til að tryggja að samræmi í notendaupplifun áður og eftir að yfirlit eru virkjuð, fyrir utan stjórnun yfirlitsvals sem birtist í skjámyndum.  
@@ -166,7 +170,7 @@ Athugið að ef slökkt er á sérstillingu fyrir umhverfið verða yfirlit virk
 Yfirlit eru tiltæk á flestum en ekki öllum síðum Finance and Operations. Nánar tiltekið eru yfirlit tiltæk sem stendur á síðum sem fylla allan skjáinn fyrir utan yfirlitssvæði og vinnusvæði. Síður sem fylla ekki út í allan skjáinn, sem eru svargluggar, fellilistar svarglugga, uppflettingar, endurbættar forskoðanir, styðja einnig ekki yfirlit. Stuðningur fyrir yfirlit fyrir aðrar síðugerðir, t.d. vinnusvæði og svarglugga, verður hugsanlega tekinn til greina fyrir framtíðaruppfærslu.   
 
 ### <a name="who-is-allowed-to-publish-views"></a>Hver má birta yfirlit?
-Sem stendur hafa aðeins kerfisstjórar réttindi til að birta yfirlit.  Nýtt öryggishlutverk er áætlað, sem gæfi viðskiptavinum aukinn sveigjanleika hvað varðar hver megi birta yfirlit.  
+Sem stendur hafa aðeins kerfisstjórar réttindi til að birta yfirlit.  Nýtt öryggishlutverk er áætlað í framtíðaruppfærslu, sem gæfi viðskiptavinum aukinn sveigjanleika hvað varðar hver megi birta yfirlit.  
 
 ### <a name="why-am-i-not-able-to-save-filters-with-this-view"></a>Af hverju get ég ekki vistað síur með þessu yfirliti? 
 Það eru nokkrar ástæður fyrir því að sía virðist ekki vistast með yfirliti: 
@@ -179,4 +183,4 @@ Sem stendur hafa aðeins kerfisstjórar réttindi til að birta yfirlit.  Nýtt 
      
   Þú ættir að fá viðvörun þegar þessar aðstæður koma upp á með upplýsandi skilaboðum þegar yfirlitið er að hlaðast. Einnig er hægt að staðfesta með því að skipta yfir í þetta yfirlit eftir að síðan hleðst inn, því að þetta ætti að leyfa keyrslu á fyrirspurn yfirlits óháð öðru.  
 
-- Það kann að vera að þessi síða sem um ræðir styðji yfirlitin ekki almennilega, því að hún hugsanlega hunsar fyrirspurn yfirlits algjörlega. Tilkynnið um slík tilfelli með ferlinu **Endurgjöf**. Til að komast á síðu endurgjafar skal smellt á **Hjálp og stuðningur** og síðan **Endurgjöf**.  
+- Umrædd blaðsíða styður ef til vill ekki viðhorf á réttan hátt, þar sem hún getur hunsað fyrirspurnina að fullu eða kann að starfa á tímabundinni töflu þar sem gögn eru ekki viðvarandi. 

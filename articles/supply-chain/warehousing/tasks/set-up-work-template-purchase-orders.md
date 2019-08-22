@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkTemplateTable, SysQueryForm
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d737f9dfd1888602266a87853e54407618ae2781
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 16a8b2d80e6d5445d57c171ddb4456dd8db5ecde
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558320"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1847040"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Setja upp vinnusniðmát fyrir innkaupapantanir
 
@@ -30,7 +30,7 @@ ms.locfileid: "1558320"
 
 Þetta ferli leggur áherslu á setja upp einfaldar vinnusniðmáts sem nota á þegar taka á frá mótteknar vörur. Vinnusniðmát ákvarða safn leiðbeiningarnar sem birtast starfsmanns vöruhús í farsíma þegar fluttar eru vörur frá móttöku svæði. Hægt er að nota þessi ferli með gögn sem eru nefnd í sýnigögn fyrirtækisins USMF. Áður en byrjað er í þessari handbók, stofna kenni vinnuhóps. Í þessu dæmi er kenni vinnuhóps kallað inn í Á innleið notað. Þetta ferli er ætluð fyrir stjórnanda í vöruhúsi.
 
-1. Fara í vöruhúsakerfi  > Uppsetning  > Vinna  > Vinnusniðmát.
+1. Fara í vöruhúsakerfi > Uppsetning > Vinna > Vinnusniðmát.
 2. Í reitnum Verkbeiðni velurðu „Innkaupapantanir“.
 
 ## <a name="create-a-work-template-header"></a>Stofna haus fyrir sniðmát verks
@@ -62,7 +62,7 @@ ms.locfileid: "1558320"
 ## <a name="set-work-template-details"></a>Stilla upplýsingar vinnusniðmáts
 1. Smellið á „Nýtt“.
 2. Veljið í svæðinu vinnutegund 'Taka'.
-3. í Kenni Vinnuklasa svæðið  færðu inn 'innkaupa'.
+3. í Kenni Vinnuklasa svæðið færðu inn 'innkaupa'.
     * Vinnuklasa sem valin er hér verður sjálfkrafa í öllum vinnulínum af gerðinni Tiltekt sem eru stofnaðir með þessu sniðmáti. Vinnuklasinn er ekki hægt að hnekkja frá vinnu pöntunarlínur. Vinnuklasar eru notaðir til að beina og/eða takmarka gerð vinnupöntunarlínur sem starfsmanns vöruhús getur vinna í farsíma.  
 4. Smellið á „Nýtt“.
 5. Í reitnum Vinnutegund velurðu ‚Frágangur‘.

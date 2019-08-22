@@ -10,24 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCRHoldCodeTable, SalesTableListPage, SalesCreateOrder, SalesTable, MCRHoldCodeTrans
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ad19ff166c15748b7bbb4b82ef71dbf3e1e8ebd2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 00ce4a31c0b0f466911658c79f6e32788273c127
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563866"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834003"
 ---
 # <a name="manage-order-holds"></a>Stjórna pöntunum í bið
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir hvernig setja sölupantanir viðskiptavina í bið, hvernig vinna með biðstöðu greiðsluferlis og hvernig fjarlægja bið af pöntun. Pöntun kann að vera sett í bið af ýmsum ástæðum. Til dæmis gætirðu verið með pöntun í bið þar til hægt er að staðfesta aðsetur  viðskiptavinar eða greiðsluhætti eða þar til stjórnandinn getur farið yfir lánamark viðskiptavinar. Þegar pöntun er í bið er ekki hægt að vinna af vörugeymslu til afhendingar. 
+Þetta ferli sýnir hvernig setja sölupantanir viðskiptavina í bið, hvernig vinna með biðstöðu greiðsluferlis og hvernig fjarlægja bið af pöntun. Pöntun kann að vera sett í bið af ýmsum ástæðum. Til dæmis gætirðu verið með pöntun í bið þar til hægt er að staðfesta aðsetur viðskiptavinar eða greiðsluhætti eða þar til stjórnandinn getur farið yfir lánamark viðskiptavinar. Þegar pöntun er í bið er ekki hægt að vinna af vörugeymslu til afhendingar. 
 
 Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.
 

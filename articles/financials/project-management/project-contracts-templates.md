@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: be23b99ddc224328cf067fe0bf36be93fcef4337
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561463"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846035"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Samstilla verksamninga og verk beint frá Project Service Automation við Finance and Operations
 
@@ -94,15 +94,15 @@ Reiturinn **Verknúmer** er að finna á síðunni **Verk**. Þessi reitur hefur
 ## <a name="prerequisites-and-mapping-setup"></a>Skilyrði og vörpunaruppsetning
 
 - Áður en samstilling verksamninga og verka getur átt sér stað verður þú að samstilla lykla.
-- Í tengistillingu skal bæta við reitarvörpun samþættingarlykils fyrir **msdyn\_fyrirtækjaeiningar** til **msdyn\_heiti \[Heiti\]**. Þú gætir fyrst þurft að bæta verkefni við tengistillinguna. Nánari upplýsingar er að finna í [Sameina gögn í Common Data Service fyrir forrit](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
-- Í tengistillingunni þinni skaltu bæta við reitarvörpun samþættingarlykils fyrir **msdyn\_verk** til **msdynce\_verknúmer \[Verknúmer\]**. Þú gætir fyrst þurft að bæta verkefni við tengistillinguna. Nánari upplýsingar er að finna í [Sameina gögn í Common Data Service fyrir forrit](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- Í tengistillingu skal bæta við reitarvörpun samþættingarlykils fyrir **msdyn\_fyrirtækjaeiningar** til **msdyn\_heiti \[Heiti\]**. Þú gætir fyrst þurft að bæta verkefni við tengistillinguna. Nánari upplýsingar er að finna í [Sameina gögn í Common Data Service fyrir forrit](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Í tengistillingunni þinni skaltu bæta við reitarvörpun samþættingarlykils fyrir **msdyn\_verk** til **msdynce\_verknúmer \[Verknúmer\]**. Þú gætir fyrst þurft að bæta verkefni við tengistillinguna. Nánari upplýsingar er að finna í [Sameina gögn í Common Data Service fyrir forrit](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** fyrir verksamninga og verk má uppfæra í annað gildi eða fjarlægja úr vörpuninni. Sjálfgefið sniðmátsgildi er **Project Service Automation**.
 - Vörpunin **PaymentTerms** verður að vera uppfærð þannig að hún endurspegli gilda greiðsluskilmála í Finance and Operations. Þú getur einnig fjarlægt vörpunina úr verkefni verks. Sjálfgefið gildi vörpunar hefur sjálfgefin gildi fyrir sýnigögn. Eftirfarandi tafla sýnir gildin í Project Service Automation.
 
     | Virði | lýsing   |
     |-------|---------------|
     | 1     | Net 30        |
-    | 2     | 2%10, Net 30 |
+    | 2     | 2% 10, Net 30 |
     | 3     | Net 45        |
     | 4     | Net 60        |
 

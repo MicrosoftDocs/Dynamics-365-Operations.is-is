@@ -1,71 +1,61 @@
 ---
 title: Stofna og úthluta ítarlegu regluskipulagi
-description: Þessar verkefnaleiðbeiningar fara í gegnum stofnun og úthlutun ítarlegs regluskipulags á lykilskipulag.
+description: Þetta efni útskýrir hvernig á að stofna og úthluta ítarlegri reglusamsetningu við reikningsskipulag.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountRuleStructure, DimensionCreateAccountRuleStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate, DimensionConfigureAccountStructure, DimensionConfigureAccountRule, DimensionCreateAccountRule, DimensionSelectAccountRuleStructure
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd62254c20cf5d77677d03c7d7335fb793d7f5f2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cff07c13553ea140f537160da7f93820d5e3f77a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558907"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834894"
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Stofna og úthluta ítarlegu regluskipulagi
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þessar verkefnaleiðbeiningar fara í gegnum stofnun og úthlutun ítarlegs regluskipulags á lykilskipulag. Þessi handbók notar sýnifyrirtækið USMF.
-
+Þetta efni útskýrir hvernig á að stofna og úthluta ítarlegri reglusamsetningu við reikningsskipulag. Þessi handbók notar sýnifyrirtækið USMF.
 
 ## <a name="create-an-advanced-rule-structure"></a>Stofna skipulag ítarlegrar reglu
-1. Fara í Fjárhagur > Bókhaldslyklar > Skipulag > Ítarlegt regluskipulag.
-2. Smellt er á Nýtt til að opna felligluggann.
-3. Í svæðinu skipulag Ítarlegrar reglu, sláið inn nafn til að lýsa skipulagi reglu.
-4. Í Í reitinn Lýsing skal slá inn gildi til að lýsa skipulaginu.
-5. Smellt er á Í lagi.
-6. Smellt er á Bæta við hluta.
-7. Í lista yfir liði skal velja fjárhagsvídd.
-    * Til dæmis Verslun.  
-8. Smellt er á Bæta við hluta.
-9. Á listanum smellirðu á tengilinn í skipulagi ítarlegrar reglu til að skoða það.
-10. Smellið á Virkja.
-11. Smellið á Virkja.
+1. Farðu í **Skoðunarrúðu > Kerfi > Fjárhagur > Bókhaldslykill > Skipulag > Ítarlegt regluskipulag**.
+2. Veldu **Nýtt** til að opna felligluggann.
+3. Í reitnum **Ítarlegt regluskipulag** slærðu inn heiti til að lýsa regluskipulaginu.
+4. Veljið **Í lagi**.
+5. Veldu **Bæta við hluta**.
+6. Í lista yfir liði skal velja fjárhagsvídd. Til dæmis **Verslun**.  
+7. Veldu **Bæta við hluta**.
+8. Veldu **Virkja**.
 
 ## <a name="apply-an-advanced-rule-structure-to-an-account-structure"></a>Beita ítarlegu regluskipulagi á lykilskipulag
-1. Lokaðu skjámyndinni.
-2. Lokið síðunni.
-3. Fara í Fjárhagur > Bókhaldslyklar > Skipulag > Skilgreina lykilskipulag.
-4. Í listanum skal finna og velja það lykilskipulag sem á að beita ítarlegri reglu á.
-5. Smellt er á heiti lykilskipulags til að opna það.
-6. Smellið á „Breyta“.
-    * Einnig er hægt að smella á Ítarlegar reglur og notandi er beðinn um að setja lykilskipulag í ham fyrir Drög.  
-7. Smellt er á Ítarlegar reglur.
-8. Smellt er á Nýtt til að opna felligluggann.
-9. Í reitinn Ítarleg regla skal slá inn gildi.
-10. Í reitinn Heiti skal slá inn gildi.
-11. Smellið á Stofna.
-12. Smelltu á Bæta við nýjum skilyrðum.
-13. Í reitnum Hvar skal velja aðallykil eða fjárhagsvídd.
-14. Í reitnum Virknitákn skal velja valkost, eins og er á milli og tekur með.
-15. Í reitinn Gildi skal slá inn gildi.
-16. Í reitinn Til og með skal slá inn gildi.
-17. Smelltu á Bæta við til að opna felligluggann.
-18. Á listanum skal finna skipulag ítarlegrar reglu sem á að nota þegar þau skilyrði sem færð voru inn eru uppfyllt.
-19. Smelltu á Bæta við.
-20. Lokið síðunni.
-21. Smellið á Virkja.
-22. Smellið á Virkja.
+1. Farðu í **Skoðunarrúðu > Kerfi > Fjárhagur > Bókhaldslykill > Skipulag > Skilgreina lykilskipulög**.
+2. Í listanum skal finna og velja það lykilskipulag sem á að beita ítarlegri reglu á.
+3. Veljið **Breyta**. Einnig er hægt að velja **Ítarlegar reglur** og notandi er beðinn um að setja lykilskipulag inn í **Drög**.  
+4. Veldu **Ítarlegar reglur**.
+5. Veldu **Nýtt** til að opna felligluggann.
+6. Í reitinn **Ítarleg regla** skal slá inn gildi.
+7. Í reitinn **Heiti** skal slá inn gildi.
+8. Velja **Stofna**.
+9. Veldu **Bæta við nýjum skilyrðum**.
+10. Í reitnum **Hvar** skal velja aðallykil eða fjárhagsvídd.
+11. Í reitnum **Virknitákn** skal velja valkost, eins og **er á milli** og **tekur með**.
+12. Í reitinn **Gildi** skal slá inn gildi.
+13. Í reitinn **Til og með** skal slá inn gildi.
+14. Veldu **Bæta við** til að opna felligluggann.
+15. Á listanum skal finna skipulag ítarlegrar reglu sem á að nota þegar þau skilyrði sem færð voru inn eru uppfyllt.
+16. Veljið **Bæta við**.
+17. Lokið síðunni.
+18. Veldu **Virkja**.
 

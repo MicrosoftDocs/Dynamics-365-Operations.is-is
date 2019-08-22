@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60a8858e6bd695672d67133b252e97eed3b95434
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ae7cd104b8c821dcbd849694a913554ee622f523
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1512192"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834488"
 ---
 # <a name="three-way-matching-policies"></a>Stefnur þríhliða jöfnunarregla
 
@@ -48,7 +48,7 @@ Reikningsjöfnunarreglur í þessu dæmi hjálpa fólki í eftirfarandi hlutverk
 
 -   Ken stillir jöfnunarreglu sem á við lögaðila stigs í þríhliða jöfnun.
 -   Ken setur er Sjálfkrafa uppfærslu haus jöfnun víxla stöðu í lögaðila á Já.
--   Ken stillir reitinn Samtölur verðsamræmis fyrir lögaðilann á Prósentu  og færir inn 15% sem prósentu vikmarka.
+-   Ken stillir reitinn Samtölur verðsamræmis fyrir lögaðilann á Prósentu og færir inn 15% sem prósentu vikmarka.
 -   Ken stillir jöfnunarreglu á atriðastigi vöru 1500 – CNC Milicron Vél á þríhliða jöfnun. Þessi vara er eignaliður sem er notaður fyrir framleiðslu hjá Fabrikam. Reikningar fyrir þessa vöru eru jafnaðir við innkaupapöntunarlínur fyrir verð og við innhreyfingarskjöl afurða fyrir magn.
 -   Tony færir innkaupabeiðni fyrir fimm CNC Milicron Vélar. Alicia, afgreiðslumaður pantana hjá Fabrikam, gefur út innkaupapöntun til lögaðila sem heitir Contoso til að afhenda vörurnar.
 
@@ -96,7 +96,7 @@ Reikningsjöfnunarreglur í þessu dæmi hjálpa fólki í eftirfarandi hlutverk
 ### <a name="prerequisites"></a>Forkröfur
 
 -   Ken stillir jöfnunarreglu sem á við lögaðila stigs í tvíhliða.
--   Ken stillir reitinn Samtölur verðsamræmis fyrir lögaðilann á Prósentu  og færir inn 10% sem prósentu vikmarka.
+-   Ken stillir reitinn Samtölur verðsamræmis fyrir lögaðilann á Prósentu og færir inn 10% sem prósentu vikmarka.
 -   Ken stillir vikmörk einingarverðs fyrir allar vörur á 2%.
 -   Cassie stillir jöfnunarregluna á samsetningarstig vöru og lánardrottins fyrir vöru PH2500 – Tölvu og lánardrottinn Contoso á þríhliða jöfnun.
 -   Alicia, afgreiðslumaður pantana í útibúi Fabrikam í Malasíu, gefur út innkaupapantanir til Contoso til að afhenda vörurnar þrjár, eins og sýnt er í eftirfarandi töflu. Þegar hún stofnar innkaupapöntun, hnekkir hún jöfnunarreglu fyrir þráðlausa mús í þríhliða jöfnun í stað tvíhliða jöfnunar.

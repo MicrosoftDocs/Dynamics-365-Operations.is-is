@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a183e17749c04b407eb17155ecb1363e96ade18a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 27908e2852f3f28264f83e0118eb4be79c9e03bc
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546641"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742287"
 ---
 # <a name="accruing-subscriptions"></a>Safna upp áskriftum 
 
@@ -44,7 +44,7 @@ Ef þú gjaldfærir upphæðir áskriftarreikninga er hægt að nota tvær aðfe
 
   - Þú getur bakfært uppsafnaðar upphæðir á þeim degi sem kreditnótutillagan er bókuð eða á upphaflegu bókunardagsetningu uppsöfnunar.
 
-Nánari upplýsingar er að finna í [Áskriftarbreytur (eyðublað)](https://technet.microsoft.com/en-us/library/aa619615.aspx) .
+Nánari upplýsingar er að finna í [Áskriftarbreytur (eyðublað)](https://technet.microsoft.com/library/aa619615.aspx) .
 
 ## <a name="setup-requirements"></a>Setja upp kröfur
 

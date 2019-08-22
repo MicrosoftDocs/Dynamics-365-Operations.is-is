@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventFixedLocation, InventItemIdLookupSimple, WMSLocationIdLookup, WHSLocDirTable, InventLocationIdLookup, SysQueryForm, WHSWorkTemplateTable, WHSReplenishmentTemplates, UnitOfMeasureLookup, SysQueryTableLookUp, SysQueryFieldLookUp, SysRecurrence
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5fc03e0cf0ceb27a5cc406860bf5bd877e95460c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0d3aafd9b77b34328a9adb0571e6935aea748f2a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546618"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1847152"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Setja upp lágmark og hámark fyrir áfyllingarferli
 
@@ -32,7 +32,7 @@ ms.locfileid: "1546618"
 
 
 ## <a name="create-a-fixed-picking-location"></a>Stofna fastar tiltektarstaðsetningar
-1. Fara í vöruhúsakerfi  > Uppsetning  > Vöruhús   > Fastar staðsetningar.
+1. Fara í vöruhúsakerfi > Uppsetning > Vöruhús > Fastar staðsetningar.
     * Er valfrjáls verkefni fyrir áfyllingu lágm-hám en ef fastan tiltektarstað er notaður er hægt að fylla á birgðir jafnvel þó hún fellur undir lágmarksstig, þar sem kerfið getur ákvarðað hvaða vörur þarf að fylla á, jafnvel þótt engar séu eftir.  
 2. Smellið á „Nýtt“.
 3. Í reitinn Vörunúmer skal slá inn eða veldu gildi.
@@ -46,7 +46,7 @@ ms.locfileid: "1546618"
 7. Lokið síðunni.
 
 ## <a name="create-a-replenishment-location-directive"></a>Stofna staðsetningarleiðbeiningar áfyllingar
-1. Fara í vöruhúsakerfi  > Uppsetning  > Staðsetningarleiðbeiningar.
+1. Fara í vöruhúsakerfi > Uppsetning > Staðsetningarleiðbeiningar.
     * Staðsetningarleiðbeiningar eru notaðar til að ákvarða hvaðan á að taka vörur í áfyllingarferlinu.  
 2. Í svæðinu gerð vinnupöntunar, skal velja áfylling.
 3. Smellið á „Nýtt“.
@@ -74,7 +74,7 @@ ms.locfileid: "1546618"
 20. Lokið síðunni.
 
 ## <a name="create-a-replenishment-work-template"></a>Stofna áfyllingarsniðmát verks
-1. Fara í vöruhúsakerfi  > Uppsetning  > Vinna  > Vinnusniðmát.
+1. Fara í vöruhúsakerfi > Uppsetning > Vinna > Vinnusniðmát.
     * Vinnusniðmátið er notuð til að leiðbeina kerfið um hvernig verður að stofna lágm. / hám. áfyllingar. Að lágmark verður að vera vinnusniðmátslínu fyrir tiltekt og frágang. Vinnusniðmátið segir hún er Ógild þar til allar nauðsynlegar upplýsingar hefur verið fyllt út.  
 2. Í svæðinu gerð vinnupöntunar, skal velja áfylling.
 3. Smellið á „Nýtt“.
@@ -92,7 +92,7 @@ ms.locfileid: "1546618"
 14. Lokið síðunni.
 
 ## <a name="create-a-new-replenishment-template"></a>Stofnið nýjan áfyllingarsniðmát.
-1. Fara í vöruhúsakerfi  > Uppsetning  > Áfylling  > Áfyllingarsniðmát.
+1. Fara í vöruhúsakerfi > Uppsetning > Áfylling > Áfyllingarsniðmát.
     * Áfyllingarsniðmát er notað til að skilgreina vörur og magn, og staðsetningu fyrir áfyllingu.  
 2. Smellið á „Nýtt“.
 3. Færa inn gildi í reitnum áfyllingarsniðmát.
@@ -132,7 +132,7 @@ ms.locfileid: "1546618"
 26. Lokið síðunni.
 
 ## <a name="set-the-replenishment-process-to-run-as-a-batch-job"></a>Setja upp áfyllingaferlið til að keyra sem runuvinnslu.
-1. Fara í vöruhúsakerfi  > Áfylling  > Áfyllingar.
+1. Fara í vöruhúsakerfi > Áfylling > Áfyllingar.
     * Síðan áfyllingar gerir kleift að setja upp áfyllingar til að keyra sem runuvinnslu eða til að gera kröfu um að það er ræst handvirkt.  
 2. Smellt er á Síu.
 3. Í listanum skal merkja valda línu.

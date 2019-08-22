@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysFieldLookUp, SysPolicyListPage, SysPolicy, AuditPolicyRule, SysQueryForm, SysQueryFieldLookUp, AuditPolicyDateSelection, AuditPolicyAdditionalOption, BatchJob, CaseDetail
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a82c3e8e8787beb309b75b73cda36f4ca8031d6f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 17b712f07a0ffe6874eb6d98b47ced96f5a54483
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558884"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846488"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Skilgreina endurskoðunarstefnur fyrir upprunaskjöl
 
@@ -63,7 +63,7 @@ ms.locfileid: "1558884"
 32. Velja í svæðinu AggregateFunction, velja 'Samtölu'.
 33. Smellt er á flipa Flokka eftir.
 34. Smelltu á Bæta við.
-35. Á listanum, veljið gildi fyrir Starfsmann  
+35. Á listanum, veljið gildi fyrir Starfsmann 
 36. Smelltu á Bæta við.
 37. Á listanum, veljið gildi fyrir kostnaðartegund
 38. Í reitinn Svæði skal slá inn eða veldu gildi.

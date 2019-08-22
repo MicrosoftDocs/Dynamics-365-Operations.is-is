@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 8053b0316c86c614b87b0e658dffade3a135f2cc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1c6e868920e5b83b33b1409c6551506fb7aeba51
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552814"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849712"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Skilgreina gagnainnflutning úr SharePoint
 
@@ -187,7 +187,7 @@ Til að geyma skrár rafrænnar skýrslu á SharePoint-staðsetningu verður að
 
     [![Síða ER skráarstöðu fyrir valinn uppruna](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
 
-   **Upprunaskrá fyrir innflutningssniðið** hlutinn gefur til kynna að innflutningsferlið mistókst og að skráin sé í SharePoint möppunni fyrir villuskrár (**Hefur verið eytt** gátreiturinn er ekki valinn). Ef þú lagar þessa skrá á SharePoint með því að bæta við rétta lánardrottnakóðanum og síðan færa hana í SharePoint-möppuna Innflutningsuppruni skráa (aðal), geturðu flutt skrána inn aftur.
+   **Upprunaskrá fyrir innflutningssniðið** hlutinn gefur til kynna að innflutningsferlið mistókst og að skráin sé í SharePoint möppunni fyrir villuskrár (gátreiturinn **Hefur verið eytt** er ekki valinn). Ef þú lagar þessa skrá á SharePoint með því að bæta við rétta lánardrottnakóðanum og síðan færa hana í SharePoint-möppuna Innflutningsuppruni skráa (aðal), geturðu flutt skrána inn aftur.
 
 11. Í Finance and Operations, veldu **Viðskiptaskuldir** \> **Reglubundin verkefni** \> **Skattur 1099** \> **Lánardrottnauppgjör fyrir 1099s**, sláðu inn viðeigandi gildi í **Frá dagsetningu** og **Til dagsetningar** og veldu síðan **Handvirkt 1099 færslur**.
 

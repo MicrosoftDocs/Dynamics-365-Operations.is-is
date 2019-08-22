@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 318c6edc03153e02c2c4f23b07f33e8d6ebe9737
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551839"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863725"
 ---
 # <a name="modify-row-definition-cells"></a>Breyta hólfum línuskilgreiningar
 
@@ -107,7 +107,7 @@ Hólfið **Sniðkóði** býður upp á úrval forsniðinna valkosta fyrir innih
     |-------------------------------|-----------------------------------|--------|
     | (Ekkert)                        |                                   | Hreinsar hólfið **Sniðkóði**. |
     | TOT                           | Samtals                             | Auðkennir línu sem notar stærðfræðilega virkja í dálkinum **Tengdar formúlur/línur/einingar**. Samtölur innihalda einfalda virkja, til dæmis **+** eða **-**. |
-    | CAL                           | Útreikningur                       | Auðkennir línu sem notar stærðfræðilega virkja í dálkinum **Tengdar formúlur/línur/einingar**. Útreikningar innihalda flókna virkja, til dæmis **+**,**-**, **\***, **/**, og **IF/THEN/ELSE** yrðingar. |
+    | CAL                           | Útreikningur                       | Auðkennir línu sem notar stærðfræðilega virkja í dálkinum **Tengdar formúlur/línur/einingar**. Útreikningar innihalda flókna virkja, til dæmis **+**, **-**, **\***, **/**, og **IF/THEN/ELSE** yrðingar. |
     | DES                           | lýsing                       | Auðkennir hauslínu eða auða línu í skýrslu. |
     | LFT RGT CEN                   | Hægri vinstri miðja                 | Stillir staðsetningu texta línulýsingar á skýrslusíðunni, óháð staðsetningu textans í dálkskilgreiningunni. |
     | CBR                           | Breyta grunnlínu                   | Auðkennir línu sem ákvarðar grunnlínu fyrir dálkaútreikninga. |
@@ -221,7 +221,7 @@ Eftirfarandi dæmi sýnir skýrslu sem gæti verið stofnuð á grundvelli fyrri
 [![Dæmi um skýrslu sem byggist á fyrri dæmaútreikningum.](./media/cbrreport-1024x272.png)](./media/cbrreport.png)
 
 ## <a name="select-a-sorting-code-for-a-row-definition"></a>Röðunarkóði valinn fyrir línuskilgreiningu
-Röðunarkóðar raða reikningum og gildum, raða  raunskýrslum eða fjárhagsfrávikaskýrslum eftir mestu frávikum eða raða línulýsingum eftir stafrófsröð. Eftirtaldir röðunarkóðar eru tiltækir:
+Röðunarkóðar raða reikningum og gildum, raða raunskýrslum eða fjárhagsfrávikaskýrslum eftir mestu frávikum eða raða línulýsingum eftir stafrófsröð. Eftirtaldir röðunarkóðar eru tiltækir:
 
 - **SORT** – Raðar skýrslum í hækkandi röð eftir gildum í tilgreindum dálki.
 - **ASORT** – Raðar skýrslum í hækkandi röð Grundvallað á algildi í tilgreindum dálki. Með öðrum orðum, tákn hvers gildis er hunsað við þegar gildum er raðað. Þessi sniðkóði raðar gildunum samkvæmt umfangi frávikanna, óháð hvort afbrigði er jákvæðra eða neikvæðra.
@@ -402,7 +402,7 @@ Hólfið **Tengill í fjárhagsvíddir** inniheldur tengla í fjárhagsgögn sem
 2. Tvísmellið á hólfið í dálkinum **Tengill í fjárhagsvíddir**.
 3. Í svarglugganum **Víddir** er tvísmellt á hólf undir víddarheitinu.
 4. Í svarglugganum fyrir víddina skal velja **Stakur eða svið**.
-5. Færið inn upphafsvídd í reitinn **Frá** eða smellið á ![Fletta](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Fletta") til að leita að víddum í boði. Ef færa á inn svið vídda skal færa inn lokavíddina í reitinn **Til**.
+5. Færið inn upphafsvídd í reitinn **Frá** eða smellið á ![Fletta](media/browse.gif "Fletta") til að leita að víddum í boði. Ef færa á inn svið vídda skal færa inn lokavíddina í reitinn **Til**.
 6. Smellið á **Í lagi** til að loka svarglugganum fyrir víddina. Uppfærða víddin eða sviðið er birt í svarglugganum **Víddir**.
 7. Smellt er á **Í lagi** til að loka svarglugganum **Víddir**.
 
@@ -430,7 +430,7 @@ Hægt er að tilgreina svið hlutagilda eða víddargilda. Kostur þess að tilg
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Svið margra hluta eða margra vídda
 
-Þegar fært er inn svið með því að nota samsetningu margra víddargilda næst sviðssamanburðurinn á ..\\fjárhags-víddir\\vídd fyrir vídd. Sviðssamanburðurinn næst ekki staf fyrir staf eða út frá ókláruðum hluta. Til dæmis inniheldur afmörkun **+ Reikningur=\[5000:6000\], Deild= \[1000:2000\] Kostnaðarstaður=\[00\]** aðeins þá reikninga sem stemma hvern hluta. Í þessu dæmi verður fyrsta vídd að vera á bilinu 5000 til 6000, önnur vídd verður að vera á bilinu 1000 til 2000 og síðusta vídd verður að vera 00. Til dæmis er **+ Reikningur=\[5100\], Deild =\[1100\], Kostnaðarstaður=\[01\]** ekki tekinn með í skýrslunni, þar sem síðasti hluti er utan tilgreinds sviðs. Ef hlutagildi inniheldur bil, ber að hafa það gildi innan hornklofa (\[ \]). Eftirfarandi gildi eru gild fyrir fjögurra stafa hluta: **\[ 234\], \[123\], \[1 34\]**. Víddargildi ættu að vera innan hornklofa (\[ \]), og Report Designer sér um að gera það fyrir þig. Þegar svið margra hluta eða margra vídda inniheldur algildisstafi (? eða \*) eru lág- og háendar alls sviðs margra hluta eða margra vídda ákvarðaðir, og þá eru endarnir og öll gildi á milli þeirra innifalin. Ef um stórt svið er að ræða, til dæmis svið allra reikninga frá 40000 til og með 99999, ætti að tilgreina gilda upphafs- og endareikninga, þegar kostur er á.
+Þegar fært er inn svið með því að nota samsetningu margra víddargilda næst sviðssamanburðurinn á ..\\fjárhags-víddir\\vídd fyrir vídd. Sviðssamanburðurinn næst ekki staf fyrir staf eða út frá ókláruðum hluta. Til dæmis inniheldur afmörkun **+ Reikningur=\[5000:6000\], Deild=\[1000:2000\] Kostnaðarstaður=\[00\]** aðeins þá reikninga sem stemma hvern hluta. Í þessu dæmi verður fyrsta vídd að vera á bilinu 5000 til 6000, önnur vídd verður að vera á bilinu 1000 til 2000 og síðusta vídd verður að vera 00. Til dæmis er **+ Reikningur=\[5100\], Deild =\[1100\], Kostnaðarstaður=\[01\]** ekki tekinn með í skýrslunni, þar sem síðasti hluti er utan tilgreinds sviðs. Ef hlutagildi inniheldur bil, ber að hafa það gildi innan hornklofa (\[ \]). Eftirfarandi gildi eru gild fyrir fjögurra stafa hluta: **\[ 234\], \[123 \], \[1 34\]**. Víddargildi ættu að vera innan hornklofa (\[ \]), og Report Designer sér um að gera það fyrir þig. Þegar svið margra hluta eða margra vídda inniheldur algildisstafi (? eða \*) eru lág- og háendar alls sviðs margra hluta eða margra vídda ákvarðaðir, og þá eru endarnir og öll gildi á milli þeirra innifalin. Ef um stórt svið er að ræða, til dæmis svið allra reikninga frá 40000 til og með 99999, ætti að tilgreina gilda upphafs- og endareikninga, þegar kostur er á.
 
 > [!NOTE] 
 > Report Designer getur ekki valið reikninga, víddir eða reiti úr Microsoft Dynamics ERP kerfinu sem nota eftirfarandi frátekin stafatákn: &, \*, \[, \], {, eða }. Aðeins er hægt að nota og-merki (&) þegar línuskilgreiningar eru búnar til sjálfkrafa með því að nota svargluggann **Setja inn línur úr víddum**.
@@ -479,7 +479,7 @@ Ef bæta á við eða draga peningaupphæðir í einum reikningi frá peningaupp
 
 | Vara                | Lýsing |
 |---------------------|-------------|
-| Stakur eða svið | Í reitnum **Frá** skal slá inn heiti reiknings eða smella á **Fletta** hnappinn ![Fletta](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Fletta") til að fletta yfir í reikning. Til að velja svið skal slá inn eða fletta upp á gildi í reitnum **Til**. |
+| Stakur eða svið | Í reitnum **Frá** skal slá inn heiti reiknings eða smella á **Fletta** hnappinn ![Fletta](media/browse.gif "Fletta") til að fletta yfir í reikning. Til að velja svið skal slá inn eða fletta upp á gildi í reitnum **Til**. |
 | Víddargildissamstæða | Sláið heiti víddargildissamstæðu inn í reitinn **Heiti**. Til að búa til, breyta, afrita eða eyða samstæðu skal smella á **Vinna með samstæður víddargilda**. **Formúla** reiturinn er skipaður formúlunni úr hólfinu **Tengill í fjárhagsvídd** fyrir þessa samstæðu fjárhagsvídda í línuskilgreiningunni. |
 | Samtölur reikninga   | Í reitnum **Heiti** skal slá inn heiti reiknings eða fletta yfir í vídd samtölureikninga. Reiturinn fyrir **formúlu** er skipaður formúlunni úr hólfinu **Tengill í fjárhagsvídd** fyrir þessa samstæðu fjárhagsvídda í línuskilgreiningunni. |
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dc7c721af4b25e1586e546392518648110a3fb6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3ed17e968debf47d7d212a945975ae1cfaccdff4
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562301"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743240"
 ---
 # <a name="service-order-item-requirements"></a>Þjónustupöntun vöruþarfar   
 
@@ -52,7 +52,7 @@ Ef vöruþörf er búin til í þjónustupöntun er ekki hægt að eyða þjónu
 
 1.  Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.
 
-2.  Smelltu á **Afgreiða** og smelltu síðan á **Vörukrafa** til að opna skjámyndina **Vörukröfur**. Skjámyndin  birtir lista yfir vöruþarfir sem eru myndaðar á þjónustupöntun.
+2.  Smelltu á **Afgreiða** og smelltu síðan á **Vörukrafa** til að opna skjámyndina **Vörukröfur**. Skjámyndin birtir lista yfir vöruþarfir sem eru myndaðar á þjónustupöntun.
 
 3.  Veldu vörukröfuna sem á að eyða og smelltu síðan á **Eyða**.
 
@@ -68,5 +68,5 @@ Ef vöruþörf er búin til í þjónustupöntun er ekki hægt að eyða þjónu
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Vöruþörf (skjámynd)](https://technet.microsoft.com/en-us/library/aa552021\(v=ax.60\))
+[Vöruþörf (skjámynd)](https://technet.microsoft.com/library/aa552021\(v=ax.60\))
 

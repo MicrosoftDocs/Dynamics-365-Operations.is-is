@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: fccbedea611228cc57531c89406f72a6664153c7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3d570aceee6b449c39b30defaebc4983b54f283e
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554393"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741136"
 ---
 # <a name="my-team-mobile-workspace"></a>Fartækjavinnusvæði fyrir Minn hópur
 
@@ -57,7 +57,7 @@ Fartækjavinnusvæðið **Minn hópur** gerir stjórnendum kleift að vinna efti
 </ul>
 </td>
 <td>Kerfisstjóri</td>
-<td>Ef Finance and Operations hefur ekki þegar verið innleitt í fyrirtækið skal sjá <a href="../deployment/deploy-demo-environment.md">Innleiða sýniútgáfuumhverfi</a>.&#39; Ef Talent hefur ekki þegar verið innleitt í fyrirtækið getur kerfisstjórinn fengið aðgang að prufuútgáfu á <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent vefsíðunni</a>.&#39;
+<td>Ef Finance and Operations hefur ekki þegar verið innleitt í fyrirtækið skal sjá <a href="../deployment/deploy-demo-environment.md">Innleiða sýniútgáfuumhverfi</a>.&#39; Ef Talent hefur ekki þegar verið innleitt í fyrirtækið getur kerfisstjórinn fengið aðgang að prufuútgáfu á <a href="https://www.microsoft.com/dynamics365/talent">Talent vefsíðunni</a>.&#39;
 </td>
 </tr>
 <tr class="even">

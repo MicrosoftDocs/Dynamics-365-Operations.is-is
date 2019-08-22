@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Reasons, SalesTableListPage, SalesCreateOrder, SalesTable, BankLGRequestForm, BankLGRequestFormRequest, BankLGGuarantee, BankLGFormSubmitToBank, BankDocumentAgreementLineLookup, BankLGFormReceiveFromBank, LedgerJournalTable, LedgerJournalTransDaily, BankLGRequestFormGiveToBeneficiary, BankLGFormGiveToBeneficiary, BankLGRequestFormIncreaseValue, BankLGFormIncreaseValue, BankLGRequestFormLiquidate, BankLGFormLiquidate
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4dc6ee178121fae05d538f5103919442d91e65eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ff105bdefff2ea93c853d590c77391653f50a4dc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566111"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841994"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Færsla ábyrgðarbréfs
 
@@ -61,7 +61,7 @@ Ljúka þarf eftirfarandi verkum áður en þessu ferli er lokið:
 15. Færa inn dagsetningu í reitnum Umbeðinni sendingardagsetningu .
 16. Færa inn dagsetningu í reitnum staðfest sendingardagsetning
 
-## <a name="process-letter-of-guaranteerequest"></a>Ferli ábyrgðaryfirlýsing_beiðni
+## <a name="process-letter-of-guarantee_request"></a>Ferli ábyrgðaryfirlýsing_beiðni
 1. Í Aðgerðarrúðunni er smellt á Stjórna.
 2. Smellt er á Ábyrgðaryfirlýsingar.
 3. Á Aðgerðarúðu, smellið á ábyrgðaryfirlýsing.
@@ -73,7 +73,7 @@ Ljúka þarf eftirfarandi verkum áður en þessu ferli er lokið:
 9. Smellið á „Í lagi“.
 10. Lokið síðunni.
 
-## <a name="process-letter-of-guaranteesubmit-to-bank"></a>Ferli ábyrgðaryfirlýsing_senda í banka
+## <a name="process-letter-of-guarantee_submit-to-bank"></a>Ferli ábyrgðaryfirlýsing_senda í banka
 1. Fara í Reiðufé og bankastjórnun > Ábyrgðaryfirlýsingar > Ábyrgðaryfirlýsingar.
 2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 3. Smellt er á Senda til banka til að opna felligluggi.
@@ -81,7 +81,7 @@ Ljúka þarf eftirfarandi verkum áður en þessu ferli er lokið:
 5. Í listanum skal smella á tengilinn í valinni línu.
 6. Smellið á „Í lagi“.
 
-## <a name="process-letter-of-guaranteereceive-from-bank"></a>Ferli ábyrgðaryfirlýsing_móttekið frá banka
+## <a name="process-letter-of-guarantee_receive-from-bank"></a>Ferli ábyrgðaryfirlýsing_móttekið frá banka
 1. Smellt er á Móttekið frá banka til að opna felligluggi
 2. Færa inn gildi í reitnum númer banka.
     * Staðfestið gildin í reiknuðum svæðum Framlegð og Kostnað.  
@@ -93,7 +93,7 @@ Ljúka þarf eftirfarandi verkum áður en þessu ferli er lokið:
     * Staðfestið bókun á færslum færslubókar.  
 7. Lokið síðunni.
 
-## <a name="process-letter-of-guaranteegive-to-beneficiary"></a>Ferli Ábyrgðaryfirlýsingar_veita til rétthafi
+## <a name="process-letter-of-guarantee_give-to-beneficiary"></a>Ferli Ábyrgðaryfirlýsingar_veita til rétthafi
 1. Farið í Viðskiptakröfur > Pantanir > Allar sölupantanir.
 2. Í listanum skal smella á tengilinn í valinni línu.
 3. Í Aðgerðarrúðunni er smellt á Stjórna.
@@ -108,7 +108,7 @@ Ljúka þarf eftirfarandi verkum áður en þessu ferli er lokið:
 12. Stækka aðgerðasvæðið.
     * Villuleita "Gefa rétthafa" færslu.  
 
-## <a name="process-letter-of-guaranteeincrease-value"></a>Ferli ábyrgðaryfirlýsing_auka gildi
+## <a name="process-letter-of-guarantee_increase-value"></a>Ferli ábyrgðaryfirlýsing_auka gildi
 1. Farið í Viðskiptakröfur > Pantanir > Allar sölupantanir.
 2. Í listanum skal smella á tengilinn í valinni línu.
 3. Í Aðgerðarrúðunni er smellt á Stjórna.
@@ -128,7 +128,7 @@ Ljúka þarf eftirfarandi verkum áður en þessu ferli er lokið:
 16. Smellið á „Línur“.
     * Staðfesta bókaðar færslur færslubókar.  
 
-## <a name="process-letter-of-guaranteeliquidate"></a>Ferli ábyrgðaryfirlýsing_eyða
+## <a name="process-letter-of-guarantee_liquidate"></a>Ferli ábyrgðaryfirlýsing_eyða
 1. Farið í Viðskiptakröfur > Pantanir > Allar sölupantanir.
 2. Í listanum skal smella á tengilinn í valinni línu.
 3. Í Aðgerðarrúðunni er smellt á Stjórna.

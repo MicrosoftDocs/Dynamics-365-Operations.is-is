@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CashDisc
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 3741
 ms.assetid: c25f9d85-2702-46aa-8e61-0b4886e069b3
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd15a021244e55ea988a95184a758a321ebeafb3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 139fb4fdb7d4f8034bff5e9668dc794f29fb327e
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561616"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842546"
 ---
 # <a name="cash-discounts"></a>Staðgreiðsluafslættir
 
@@ -35,7 +35,7 @@ Staðgreiðsluafslættir eru uppsettir og samnýttir fyrir viðskiptakröfur og 
 
 Hægt er að stofna staðgreiðsluafslátt fyrir bæði viðskiptavini eða lánardrottna á síðunni staðgreiðsluafslætti. Hægt er að skilgreina einnig , með því að nota Næsta afsláttarkóðasvæði , röð af staðgreiðsluafsláttum sem koma í kjölfar hver annars sem þegar fyrri staðgreiðsluafsláttardagsetningar renna út. Nánari upplýsingar eru í "Dæmi: Röð af staðgreiðsluafslættum" síðar í þessu efnisatriði. Ef reikningur, kreditfærsla (annað hvort í greiðslu eða kreditnótu) eða bæði eru færð inn í öðrum gjaldmiðli en bókhaldsgjaldmiðli lögaðilans er staðgreiðsluafsláttur reiknaður með því að nota gengi byggt á dagsetningu greiðslu eða kreditnótu. Ef reiknings- og kreditskjalið eru færðar inn í mismunandi lögaðila og ef gjaldmiðlar bókhalds fyrir lögaðila er mismunandi, er gengið tekið úr lögaðili reikningsins, frá og með dagsetningu kreditskjals . Nánari upplýsingar eru í "Dæmi: gengi fyrir staðgreiðsluafslættum" síðar í þessu efnisatriði.
 
-## <a name="defaulting-order-of-cash-discount-main-account"></a>Sjálfgefin röðun staðgreiðsluafsláttar fyrir  aðallykil
+## <a name="defaulting-order-of-cash-discount-main-account"></a>Sjálfgefin röðun staðgreiðsluafsláttar fyrir aðallykil
 
 Ef reikningur er jafnaður með fyrirvara svo veittur sé staðgreiðsluafsláttur, þá er afslátturinn bókaður sjálfkrafa í aðallykil staðgreiðsluafsláttar, samkvæmt eftirfarandi sjálfgefinni forgangsröðun :
 1.  Aðallykillinn sem tilgreindur er í svæðinu Annar staðgreiðsluafsláttur á síðu Jafna opnar færslur fyrir viðskiptavini eða á síðu Jafna opnar færslur fyrir lánardrottna.
@@ -43,7 +43,7 @@ Ef reikningur er jafnaður með fyrirvara svo veittur sé staðgreiðsluafslátt
 3.  Aðal bókunarlykillinn á síðu staðgreiðsluafsláttar í annað hvort svæði aðallykils fyrir afslætti viðskiptavinar eða svæðinu aðallykils fyrir afslætti lánardrottins fyrir kóða staðgreiðsluafsláttar sem er á jafnaða reikningnum.
 4.  Aðallykill fyrir staðgreiðsluafslátt, eins og skilgreint er í lyklar fyrir sjálfvirkar færslur síðu.
 
-## <a name="example-series-of-cash-discounts"></a> Dæmi: Röð af staðgreiðsluafslætti
+## <a name="example-series-of-cash-discounts"></a>Dæmi: Röð af staðgreiðsluafslætti
 Setjið upp þrjá staðgreiðsluafsláttarkóða eins og hér segir:
 -   Kóði 5D10% - 10% staðgreiðsluafsláttur þegar upphæðin er greidd innan 5 daga.
 -   Kóði 10D5% - 5% staðgreiðsluafsláttur þegar upphæðin er greidd innan 10 daga.
@@ -56,7 +56,7 @@ Setjið upp þrjá staðgreiðsluafsláttarkóða eins og hér segir:
 
 Í staðgreiðsluafsláttarnir þrír taka við hver af öðrum þegar dagsetning greiðslu líður fram yfir fyrri dagsetningu staðgreiðsluafsláttar á reikningnum. Einungis einn staðgreiðsluafsláttur er veittur þegar reikningurinn er greiddur, samkvæmt dagsetningu staðgreiðsluafsláttar sem er eftir í röðinni af staðgreiðsluafslætti.
 
-## <a name="example-exchange-rates-for-cash-discounts"></a> Dæmi: gengi fyrir staðgreiðsluafslátt
+## <a name="example-exchange-rates-for-cash-discounts"></a>Dæmi: gengi fyrir staðgreiðsluafslátt
 Bókhaldsgjaldmiðill fyrir við lögaðilann er EUR og eftirfarandi gengi eru tilgreindar fyrir USD:
 -   Febrúar 1 = 110
 -   Mars 1 = 80

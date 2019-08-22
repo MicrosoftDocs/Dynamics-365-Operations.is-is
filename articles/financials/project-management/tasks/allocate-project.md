@@ -9,25 +9,25 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d001cd3d922fc4790a1e5288f432df13e90ce03c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 05a488e21c69e55fa92e4c23e97d6de0a7d99e1c
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572443"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845901"
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Úthluta fjárhagsáætlun verks eða endurskoðun fjárhagsáætlunar á mörg tímabil
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
- Þegar búið er að færa inn fjárhagsáætlun eða endurskoðun á fjárhagsáætlun verks og áður en hún er send til samþykktar er hægt að úthluta upphæðum milli tímabila. Ef fjárhagsáætlunin eða endurskoðun fjárhagsáætlunar er hafnað er einnig hægt að úthluta upphæðum áður en hún er send aftur. 
+Þegar búið er að færa inn fjárhagsáætlun eða endurskoðun á fjárhagsáætlun verks og áður en hún er send til samþykktar er hægt að úthluta upphæðum milli tímabila. Ef fjárhagsáætlunin eða endurskoðun fjárhagsáætlunar er hafnað er einnig hægt að úthluta upphæðum áður en hún er send aftur. 
 
 Eftir að fjárhagsáætlun eða endurskoðun fjárhagsáætlunar hefur verið úthlutað má yfirfara úthlutun upphæða og gera leiðréttingar á þeim áður en fjárhagsáætlunin eða endurskoðun fjárhagsáætlunarinnar er send til samþykktarverkflæðis. 
 

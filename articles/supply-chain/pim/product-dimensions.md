@@ -3,7 +3,7 @@ title: Afurðarvíddir
 description: Það eru fjórar afurðavíddir - Litur, Skilgreining, Stærð og Stíll. Afurðavíddir eru sameinaðar í víddaflokka og víddaflokkum er úthlutað á afurðarsniðmát. Samsetning afurðavídda ræður til um það hvernig afurðarafbrigði eru skilgreind.
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ccb9d47bf6f081dbcc9590bddd4516cf7385ec23
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3391679696c0e1dd84840821480ccbfb544829a6
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563575"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863037"
 ---
 # <a name="product-dimensions"></a>Afurðarvíddir
 
@@ -35,8 +35,8 @@ ms.locfileid: "1563575"
 Það eru fjórar afurðavíddir - Litur, Skilgreining, Stærð og Stíll. Afurðavíddir eru sameinaðar í víddaflokka og víddaflokkum er úthlutað á afurðarsniðmát. Samsetning afurðavídda ræður til um það hvernig afurðarafbrigði eru skilgreind.
 
 Afurðavíddir eru einkenni sem notaður er til að auðkenna afurðarafbrigði. Hægt er að nota samsetningu afurðavídda til að skilgreina afurðarafbrigði. Skilgreina verður minnst eina vídd afurðar fyrir afurðarsniðmát til að stofna afurðarafbrigði.
-Afurðarafbrigði
-----------------
+
+## <a name="product-variants"></a>Afurðarafbrigði
 
 Afurðarafbrigði eru einnig nefndar vörur. Vara er áþreifanleg afurð sem er ekki það sama og þjónusta. Einnig hægt að skilgreina afurðarsniðmát með gerðinni Þjónusta. Með því að nota þjónustugerð, er hægt að tilgreina afurðarafbrigði sem innihalda þjónustu. Til dæmis er hægt að tilgreina afurðarsniðmát fyrir ráðgjafavinnu og afurða afbrigði fyrir vinnustöð sem er framkvæmd með hjá utanaðkomandi ráðgjöfum bókara og aðalbókara hjá utanaðkomandi ráðgjöfum.
 

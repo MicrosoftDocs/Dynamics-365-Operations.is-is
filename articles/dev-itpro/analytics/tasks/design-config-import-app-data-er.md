@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 23004930d2377a3d647435b53b6809cd500f44ac
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551484"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741356"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Hanna grunnstillingar rafrænnar skýrslugerðar til að þátta skjöl á innleið
 
@@ -30,7 +30,7 @@ Ferlið sýnir hvernig skal hanna grunnstillingar rafrænnar skýrslugerðar til
 
 Þetta ferli er hugsað fyrir þá notendur sem hefur verið úthlutað hlutverkum Kerfisstjóra eða Þróunaraðila rafrænnar skýrslugerðar. 
 
-Skrefin er hægt að klára með því að nota hvaða gagnasafn sem er. Áður en hafist er handa skal hlaða niður og vista skrárnar sem eru tilteknar í efnisatriðinu „Þátta móttekin skjöl til að uppfæra forritsgögn“ (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Skrárnar eru: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
+Skrefin er hægt að klára með því að nota hvaða gagnasafn sem er. Áður en hafist er handa skal hlaða niður og vista skrárnar sem eru tilteknar í efnisatriðinu „Þátta móttekin skjöl til að uppfæra forritsgögn“ (https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Skrárnar eru: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
 
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
     * Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt Virk. Ef þú sérð skilgreiningarveituna ekki, skal klára skrefin í ferlinu „Stofna skilgreiningarveitu og merkja hana sem virka“.  

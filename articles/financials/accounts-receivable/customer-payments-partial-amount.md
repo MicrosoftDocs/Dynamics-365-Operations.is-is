@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymEntry
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13011
 ms.assetid: 20423a2d-6997-4e1c-a596-a77016600071
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 510fda7bf35e459e0da5595b083e041bb708c873
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a74803d3adf71ef1495ec5b42753d0988cea4133
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556332"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1836725"
 ---
 # <a name="customer-payments-for-a-partial-amount"></a>greiðsla viðskiptavinar fyrir hlutaupphæð
 
@@ -37,7 +37,7 @@ Stundum gera viðskiptavinur greiðslu sem er minni en upphæð reiknings. Þess
 Viðskiptavinir gætu reott fra, hlutagreiðslu því var ekki nægilegt reiðufé til staðar til að greiða reikninginn að fullu, eða vegna ágreinings um vöru á reikningnum. Í þessum aðstæðum er hægt að jafna reikninginn að hluta með greiðslu. Reikningur verða áfram opnar og sýna stöðu.
 
 ## <a name="discount-amounts"></a>Afsláttarupphæðir
-Hægt er að bjóða viðskiptavinum staðgreiðsluafslátt fyrir greiðslu á reikning fyrir gjalddaga. Til dæmis færður er inn reikningur fyrir 100,00 sem tilgreinir 2 prósent staðgreiðsluafslátt ef reikningurinn er greidd innan 10 daga. Skilmálar gjalddaga eru 30 daga. Ef tekið er við greiðslu uppá 98.00 innan 10 daga er færð inn greiðsla fyrir 98.00. Síðan, þegar reikningur er merkt til jöfnunar, er  staðgreiðsluafsláttar telomm sjálfkrafa.
+Hægt er að bjóða viðskiptavinum staðgreiðsluafslátt fyrir greiðslu á reikning fyrir gjalddaga. Til dæmis færður er inn reikningur fyrir 100,00 sem tilgreinir 2 prósent staðgreiðsluafslátt ef reikningurinn er greidd innan 10 daga. Skilmálar gjalddaga eru 30 daga. Ef tekið er við greiðslu uppá 98.00 innan 10 daga er færð inn greiðsla fyrir 98.00. Síðan, þegar reikningur er merkt til jöfnunar, er staðgreiðsluafsláttar telomm sjálfkrafa.
 
 ## <a name="partial-payments-with-cash-discounts"></a>hlutagreiðslur með staðgreiðsluafslætti
 Þegar viðskiptavinir reiða fram hlutagreiðslu, gætu þeir gert áætlun um að gera frekari hlutagreiðslu til að jafna reikninginn að fullu. Til Að taka staðgreiðsluafslátt fyrir hlutagreiðslu, verður að stilla valkostinn **Reikna staðgreiðsluafslætti fyrir hlutagreiðslur** í **Já** á í **Færibreytur viðskiptakrafna** síðu. 

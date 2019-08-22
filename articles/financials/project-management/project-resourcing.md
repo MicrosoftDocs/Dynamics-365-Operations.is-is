@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34f80d283bb710d7db3137a439dbe8dc67d22682
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2f6f9c4a6b89997d3d5223d56a5beb4bc11898bd
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556490"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1838440"
 ---
 # <a name="project-resourcing"></a>Tilföng verks
 
@@ -240,7 +240,7 @@ Mælt er með því að nota runuvinnslu. Valkostirnir er tiltækir í samstilli
 [![Samstillingarferli](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 ## <a name="set-up-roles-on-wbs-templates"></a>Setja upp hlutverk á WBS-sniðmát
-Verkefnisstjórar geta sett upp WBS-sniðmát sem hægt er að nota þegar þeir stofna WBS fyrir ný verk. Verkefnisstjórar geta bætt við hlutverkum þegar sniðmát er stofnað. Notið eftirfarandi ferli til að úthluta hlutverki til WBS-sniðmáts. 
+Verkefnisstjórar geta sett upp WBS-sniðmát sem hægt er að nota þegar þeir stofna WBS fyrir ný verk. Verkefnisstjórar geta bætt við hlutverkum þegar sniðmát er stofnað. Notið eftirfarandi ferli til að úthluta hlutverki til WBS-sniðmáts.
 
 1. Veljið **Verkefnastjórnun og bókhald** &gt; **Uppsetning** &gt; **Verk** &gt; **Sniðmát fyrir sundurliðun verkþátta**.
 2. Veljið **Upplýsingar** fyrir valið WBS-sniðmát.
@@ -280,7 +280,7 @@ Auka valkostum hefur verið bætt í WBS til að nýta betur virkni tilfanga.
 </tr>
 <tr class="odd">
 <td>Tilföng (fellilisti)</td>
-<td>Á síðunni <strong>Ræsa úthlutun tilfanga </strong>er hægt að velja tilföng í bundna bókun eða óbundna bókun, á grundvelli tilgreindrar tímalengdar. Hægt er að breyta stillingum yfirlits til að sjá og stilla tímalengd verkþátta tilfanga. Hægt er að velja og úthluta tilföngum á stigi pakkavinnu með eftirfarandi valkostum:
+<td>Á síðunni <strong>Ræsa úthlutun tilfanga</strong> er hægt að velja tilföng í bundna bókun eða óbundna bókun, á grundvelli tilgreindrar tímalengdar. Hægt er að breyta stillingum yfirlits til að sjá og stilla tímalengd verkþátta tilfanga. Hægt er að velja og úthluta tilföngum á stigi pakkavinnu með eftirfarandi valkostum:
 <ul>
 <li><strong>Samþykkja</strong> -Staðfesta breytingar á tilföngum sem er úthlutað á verkefni.</li>
 <li><strong>Hætta við</strong> -Hætta við breytingar á tilföngum sem er úthlutað á verkefni.</li>
@@ -320,7 +320,7 @@ Auka valkostum hefur verið bætt í WBS til að nýta betur virkni tilfanga.
 14. Á síðunni **Sundurliðun Verkþátta** skal staðfesta úthlutun tilfanga á WBS og velja svo **Vista**.
 
 ## <a name="resource-fulfillment-for-planned-resources"></a>Uppfylling tilfanga fyrir áætluð tilföng
-Verkefnastjóri getur áætlað áskilið tilfangahlutverk  við verkið. Stjórnandi tilfanga sér þessi áætluðu tilföng sem beiðnir á síðunni **Uppfyllingar Tilfanga** og getur úthlutað raunverulegum tilföngum.
+Verkefnastjóri getur áætlað áskilið tilfangahlutverk við verkið. Stjórnandi tilfanga sér þessi áætluðu tilföng sem beiðnir á síðunni **Uppfyllingar Tilfanga** og getur úthlutað raunverulegum tilföngum.
 
 1. Á **Öll verk** síðunni skal velja verkið **XYZ Uppfærsla þrep 2**.
 2. Veljið **Verk** og svo **Breyta**.

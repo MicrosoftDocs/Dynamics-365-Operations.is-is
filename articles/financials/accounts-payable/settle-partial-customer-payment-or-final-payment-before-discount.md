@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 14491
 ms.assetid: 0f07d3ce-a439-43ed-a22e-957ccd36a37b
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc502ea4ac57bfe8ce0a8146df21ffdccefe12ef
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 37c378a424d89a884d1f3f0f14e1d544b3af178b
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1509061"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1837157"
 ---
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Jafna hlutagreiðsla lánardrottins og endanlega greiðslu að fullu fyrir afsláttardagsetninguna
 
@@ -71,7 +71,7 @@ Viðskiptavinur 4028 sendir greiðslu fyrir 500,00 1. Júlí. Til að færa þes
 | 5,05                         | 0,00                | 500,00        |
 
 ## <a name="partial-payment-by-using-the-journal-lines"></a>Hlutagreiðsla með því að nota færslubókarlínur
-Í stað þess að opna **færa Inn greiðslur viðskiptavina** síðu í greiðslubók getur Arnie  smellt á **Línur** til að færa inn greiðslu. Greiðslubók birtist, þar sem Arnie getur færa inn línu fyrir viðskiptavin 4028. Síðan opnar Arnie síðuna **Jafna færslur** svo að hann geti merkt reikninginn fyrir jöfnun. Arnie merkir reikninginn og breytir gildi í **Upphæðin til jöfnunar** reit í  **500,00**. Aftur, sér hann að gildið í á **upphæð staðgreiðsluafsláttar** er **10,00** fyrir fullan reikning og gildið í á **upphæð staðgreiðsluafsláttar sem á að taka** er **5.05**. Þess vegna er Arnie að jafna 505.05 fyrir þennan reikning.
+Í stað þess að opna **færa Inn greiðslur viðskiptavina** síðu í greiðslubók getur Arnie smellt á **Línur** til að færa inn greiðslu. Greiðslubók birtist, þar sem Arnie getur færa inn línu fyrir viðskiptavin 4028. Síðan opnar Arnie síðuna **Jafna færslur** svo að hann geti merkt reikninginn fyrir jöfnun. Arnie merkir reikninginn og breytir gildi í **Upphæðin til jöfnunar** reit í **500,00**. Aftur, sér hann að gildið í á **upphæð staðgreiðsluafsláttar** er **10,00** fyrir fullan reikning og gildið í á **upphæð staðgreiðsluafsláttar sem á að taka** er **5.05**. Þess vegna er Arnie að jafna 505.05 fyrir þennan reikning.
 
 | Merkja     | Nota staðgreiðsluafslátt | Fylgiskjal   | Reikningur | Dagsetning      | Gjalddagi  | Reikningur | Upphæð í gjaldmiðli færslu | Gjaldmiðill | Upphæð til jöfnunar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|

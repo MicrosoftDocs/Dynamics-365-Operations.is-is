@@ -1,6 +1,6 @@
 ---
 title: Stofna og komast yfir eignir viðskiptaskuldir
-description: Þessi leiðarvísi fyrir verk um stofnun og kaup eignar með innkaupaferlið.
+description: Þessi leiðarvísir fer í gegnum stofnun og kaup eignar með innkaupaferlið.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
@@ -10,24 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetParameters, VendInvoiceWorkspace, VendEditInvoice, VendTableLookup, InventItemIdLookupSimple, AssetTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e6c36338cc67855c79ec97d88bb8b633417b85c7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2626877c907994d03cdae960c8501a858ca214bd
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562462"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840026"
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>Stofna og komast yfir eignir viðskiptaskuldir
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi leiðarvísi fyrir verk um stofnun og kaup eignar með innkaupaferlið.  Það notar Bókari og starfsmaður viðskiptaskulda Og USMF sýnigögn fyrirtækisins.
+Þessi leiðarvísir fer í gegnum stofnun og kaup eignar með innkaupaferlið.  Hann notar Bókari og starfsmaður viðskiptaskulda Og USMF sýnigögn fyrirtækisins.
 
 
 ## <a name="set-fixed-assets-parameters"></a>Stilla færibreytur eigna

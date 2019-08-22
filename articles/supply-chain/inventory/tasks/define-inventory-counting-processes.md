@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventCountGroup, InventJournalName, InventParameters, EcoResProductDetailsExtended, InventItemLocation, InventLocationIdLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 707d4fab58a9c689f32d9e881ecacbe8e64b517c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4128023ba9fded23b994579f0ab54a75f72fc15a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554254"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845442"
 ---
 # <a name="define-inventory-counting-processes"></a>Skilgreina birgðatalningarferli
 
@@ -37,7 +37,7 @@ ms.locfileid: "1554254"
 3. Færa inn gildi í svæðinu Talningarflokkur.
 4. Í reitinn Heiti skal slá inn gildi.
 5. Veljið valkost í svæðinu kóði lykils.
-    *  – handvirkt – Tekur með línur í hvert sinn sem vinnsla er keyrð. Með öðrum orðum ákvarðar notandi talningarbil fyrir talningarflokk.  Tímabil - Tekur með línur fyrir tímabil í talningarbók þegar tímabil hefur runnið út.   Núll á lager - Ef lagerbirgðir verða núll (0) eru línur myndaðar í talningarbók þegar vinnslan er keyrð. Ef lagerbirgðir verða 0 eftir talningu verða línur myndaðar í næsta sinn sem talning hefst.   Lágmarkið – Setur inn línur í talningarbók ef lagerbirgðir eru jafnar og eða minni en lágmarkið sem er tilgreint.  
+    * Handvirkt – Tekur með línur í hvert sinn sem vinnsla er keyrð. Með öðrum orðum ákvarðar notandi talningarbil fyrir talningarflokk.  Tímabil - Tekur með línur fyrir tímabil í talningarbók þegar tímabil hefur runnið út.   Núll á lager - Ef lagerbirgðir verða núll (0) eru línur myndaðar í talningarbók þegar vinnslan er keyrð. Ef lagerbirgðir verða 0 eftir talningu verða línur myndaðar í næsta sinn sem talning hefst.   Lágmarkið – Setur inn línur í talningarbók ef lagerbirgðir eru jafnar og eða minni en lágmarkið sem er tilgreint.  
     * Valkostur: Hafirðu tilgreint Tímabil í Teljarakóða svæði, verður þú að færa inn tímabil fyrir tímabil í svæðinu talningartímabil. Einingin fyrir bil er dagar.  
     * Þegar þú keyra vinnsluna til að stofna nýjar línur talningarbókar, nýjar línur eru stofnaðar á bilinu sem er tilgreint í þessu svæði, óháð því hversu oft sama vinnslan er keyrð. Til dæmis, ef tímabil Talning er stillt á 7 og færslubókarlínur voru síðast búin til fyrir talningu 1. Janúar, ef annað vinnslan hefst þann 5. Janúar, sjö dagar hafa liðið ekki og því engar línur myndaðar í færslubók fyrir tímabilið. Ef þú ræsir vinnsla aftur á janúar 8, línur eru myndað fyrir tímabil í counting færslubók, því 7 dagar hafa liðið.  
 6. Smellið á „Vista“.

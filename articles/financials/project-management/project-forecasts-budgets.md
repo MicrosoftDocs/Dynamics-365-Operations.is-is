@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 23501
 ms.assetid: 4e6d1384-19a2-4232-b3f3-d2590c218bd7
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 530a2717427c540d80509c4862e6fb8ea7c5694a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 581e390423afb31ad48b65968874a599b046ddd1
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556530"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1838896"
 ---
 # <a name="project-forecasts-and-budgets"></a>Verkspár og fjárhagsáætlanir
 
@@ -63,7 +63,7 @@ Spálíkön geta notað lækkun spár sem ferli fjárhagsáætlunarstýringar fy
 Verkspár er hægt að endurskoða, afrita, eyða eða flytja í fjárhagsáætlun. Samt sem áður er engin ferlisstýring. Allir starfsmenn með leyfi fyrir spáskjámynd geta gert breytingar án endurskoðunar.
 
 -   **Endurskoða°** – hægt er að gera breytingar á spáfærslu í sömu skjámyndum þar sem upprunalegar færslur voru gerðar.
--   **Afrita eða eyða**°- þegar þú afritar spáfærsla afritarðu færslulínurnar af einu spárlíkani í annað spárlíkan. Þegar spá er eytt eyðirðu spárfærslum úr spárlíkaninu. Til að takmarka spárfærslurnar sem óskað er að afrita eða eyða, veljið sérstakar fæslugerðir og dagsetningar. Þannig°er hægt að afrita eða eyða tilgreindum hlutum í spá.
+-   **Afrita eða eyða** - þegar þú afritar spáfærsla afritarðu færslulínurnar af einu spárlíkani í annað spárlíkan. Þegar spá er eytt eyðirðu spárfærslum úr spárlíkaninu. Til að takmarka spárfærslurnar sem óskað er að afrita eða eyða, veljið sérstakar fæslugerðir og dagsetningar. Þannig°er hægt að afrita eða eyða tilgreindum hlutum í spá.
 -   **Millifærsla** – Þegar þú flytur verkspá til fjárhagsáætlunarskýrsla, flytur þú spáfærslu af spárlíkani til fjárhagsáætlunarskýrslu. Hægt er að hnekkja öllum áður fluttum færslum í fjárhagsáætlunarskýrslunni sem þú vilt flytja verkspána til.
 
 ## <a name="project-budgets"></a>Fjárhagsáætlanir verka
