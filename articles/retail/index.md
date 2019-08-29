@@ -3,7 +3,7 @@ title: Velkomin(n) í Dynamics 365 for Retail
 description: Heimasíða fyrir Dynamics 365 for Retail
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bc1c74ab6940fe0f7ed2e541edad0bce657faeb5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 22dc340ff5ea381dd2a335c8c81332d11d1257a0
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572170"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874928"
 ---
 # <a name="welcome-to-dynamics-365-for-retail"></a>Velkomin(n) í Dynamics 365 for Retail
 
@@ -38,7 +38,7 @@ Veldu eiginleikasvæði á svæðinu vinstra megin til að fræðast frekar um v
 
 ## <a name="channel-management"></a>Stjórnun rása
 
-Við uppsetningu Retail þarftu að skilgreina og grunnstilla verslanirnar þínar. Þetta geta verið raunverulegar byggingar, netverslanir eða símaver.
+Við uppsetningu Retail þarftu að skilgreina og grunnstilla verslanirnar þínar, sem geta verið hefðbundnar verslanir, netverslanir eða símaver.
 
 Hægt er að setja upp greiðslumáta, afhendingaraðferðir, verðflokka, tekju-/kostnaðarlykla, afgreiðslukassa og starfsfólk sérstaklega fyrir hverja smásöluverslun. Þegar búið er að stofna smásöluverslun þarf að stofna nýtt úrval af afurðum sem verslunin kemur til með að selja. Einnig er hægt að tilgreina verð og afslætti sem eiga sérstaklega við um vörur sem fást í versluninni.
 

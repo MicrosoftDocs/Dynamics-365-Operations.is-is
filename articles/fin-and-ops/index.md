@@ -1,9 +1,9 @@
 ---
-title: Fylgiskjöl Microsoft Dynamics 365 for Finance and Operations
+title: Fylgiskjöl Dynamics 365 for Finance and Operations
 description: Fylgiskjöl fyrir Microsoft Dynamics 365 for Finance and Operations.
 author: robinarh
 manager: AnnBe
-ms.date: 04/11/2019
+ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f29d8c74c0e7a4384f8e071d0b9babe5c5f630c
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 56e49776acdcdd730aec3fb80ff68534e935ca10
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856306"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864843"
 ---
-# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Fylgiskjöl Microsoft Dynamics 365 for Finance and Operations
+# <a name="dynamics-365-for-finance-and-operations-documentation"></a>Fylgiskjöl Dynamics 365 for Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
@@ -73,7 +73,7 @@ Mikið af þessu efni á einnig við um tengdar vörur: Microsoft Dynamics 365 f
 <h3><a href="../financials/index.md">Fjármálastjórnun</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Viðskiptaskuldir</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">Viðskiptakröfur</a></p>
-<p><a href="../financials/budgeting/budgeting-overview.md">Fjárhagsáætlun</a></p>
+<p><a href="../financials/budgeting/budgeting-overview.md">Fjárhagsáætlanir</a></p>
 <p><a href="../financials/cash-bank-management/cash-bank-management.md">Reiðufjár- og bankastjórnun</a></p>
 <p><a href="../financials/general-ledger/audit-policy-rules.md">Reglufylgni</a></p>
 <p><a href="../financials/cost-accounting/cost-accounting-home-page.md">Kostnaðarbókhald</a></p>

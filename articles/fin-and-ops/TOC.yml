@@ -1,20 +1,23 @@
 - name: Dynamics 365 for Finance and Operations
-  href: index.md
   items:
-    - name: Hafist handa
+    - name: Fylgiskjöl Dynamics 365 for Finance and Operations
+      href: index.md
+    - name: Hefjast handa
       items:
         - name: Áður en þú kaupir
-          href: get-started/before-you-buy.md
           items:
+            - name: Áður en þú kaupir – heimasíða
+              href: get-started/before-you-buy.md
             - name: Skráðu þig fyrir prufuáskrift
               href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/fin-and-ops/toc.json
             - name: Uppsetning sýniútgáfuumhverfis
               href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/fin-and-ops/toc.json
             - name: Samanburður á skýi og eiginleikum á staðnum
               href: get-started/cloud-prem-comparison.md
-            - name: Uppsetningarvalkostir
-              href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
+            - name: Hvað skal hafa í huga við uppsetningu
               items:
+                - name: Uppsetningarvalkostir
+                  href: ../dev-itpro/deployment/choose-deployment-type.md?toc=/fin-and-ops/toc.json
                 - name: Uppsetning skýs
                   href: ../dev-itpro/deployment/cloud-deployment-overview.md?toc=/fin-and-ops/toc.json
                 - name: Kerfiskröfur fyrir uppsetningu í skýi
@@ -33,11 +36,12 @@
               href: get-started/public-preview-releases.md
             - name: Kaupa Finance and Operations
               items:
-                - name: Kaupa Finance and Operations (on-premises)
+                - name: Buy Finance and Operations (on-premises)
                   href: get-started/purchase-on-premises.md
         - name: Nýjungar eða breytingar
-          href: get-started/whats-new-changed.md
           items:
+            - name: Nýjungar eða breytingar – heimasíða
+              href: get-started/whats-new-changed.md
             - name: Lok venjulegs stuðnings fyrir Microsoft Dynamics AX 2009 og 2012
               href: get-started/mainstream-support-ax-2009-2012.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
@@ -140,6 +144,8 @@
                   href: get-started/new-task-guides-available-february-2016.md
         - name: Notandaviðmót skoðað
           items:
+            - name: Einingar notandaviðmóts
+              href: get-started/user-interface-elements.md
             - name: Aðgengiseiginleikar
               href: get-started/accessibility-features.md
             - name: Eiginleikastjórnunaryfirlit
@@ -197,8 +203,9 @@
         - name: Myndskeið fyrir Finance and Operations
           href: get-started/videos.md
     - name: Stjórnun innleiðingarferlis
-      href: imp-lifecycle/implementation-lifecycle.md
       items:
+        - name: Heimasíða stjórnunar innleiðingarferlis
+          href: imp-lifecycle/implementation-lifecycle.md
         - name: Skipulag Finance and Operations
           href: imp-lifecycle/architecture-overview.md
         - name: Microsoft FastTrack for Finance and Operations
@@ -224,8 +231,9 @@
         - name: Mörg LCS-verk og vinnsluumhverfi á einn Azure AD-leigjanda
           href: get-started/implement-multiple-projects-aad-tenant.md
     - name: Þjónustuuppfærslur fyrir „Ein útgáfa“
-      href: ../dev-itpro/lifecycle-services/oneversion-overview.md
       items:
+        - name: Yfirlit yfir þjónustuuppfærslur fyrir eina útgáfu
+          href: ../dev-itpro/lifecycle-services/oneversion-overview.md
         - name: Algengar spurningar um uppfærslureglur fyrir „Ein útgáfa“
           href: get-started/one-version.md
         - name: Reglur um stuðningstíma hugbúnaðar – ský
@@ -246,17 +254,12 @@
           href: ../dev-itpro/data-entities/data-task-automation.md
         - name: Veita lausnir fyrir óháðan hugbúnaðarsala með „Ein útgáfa“
           href: ../dev-itpro/lifecycle-services/oneversion-isv.md
-        - name: Prófa sjálfvirkni
-          items:
-            - name: Stofna samþykkisprófun notanda og gera hana sjálfvirka
-              href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-            - name: Setja upp kennslu fyrir Regression Suite Automation Tool
-              href: get-started/hol-set-up-regression-suite-automation-tool.md
-            - name: Nota kennslu fyrir Regression Suite Automation Tool
-              href: get-started/hol-use-regression-suite-automation-tool.md
+        - name: Stofna samþykkisprófun notanda og gera hana sjálfvirka
+          href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
     - name: Viðskiptatilvik
-      href: ../dev-itpro/business-events/home-page.md
       items:
+        - name: Yfirlit viðskiptatilvika
+          href: ../dev-itpro/business-events/home-page.md
         - name: Viðskiptatilvik forrits
           href: ../dev-itpro/business-events/app-business-events.md
         - name: Viðskiptatilvik verkflæðis
@@ -273,22 +276,34 @@
           href: ../dev-itpro/business-events/potential-use-cases.md
         - name: Kennsla
           items:
-            - name: Nota viðskiptatilvik með Microsoft Flow
+            - name: Viðskiptatilvik og Microsoft Flow
               href: ../dev-itpro/business-events/how-to/how-to-flow.md
-            - name: Nota viðskiptatilvik með hnitaneti Azure-tilviks
+            - name: Viðskiptatilvik og hnitanet Azure-tilviks
               href: ../dev-itpro/business-events/how-to/how-to-eventgrid.md
-            - name: Nota viðskiptatilvik með þjónustutengibraut Azure
+            - name: Viðskiptatilvik og þjónustutengibraut Azure
               href: ../dev-itpro/business-events/how-to/how-to-servicebus.md
-            - name: Nota viðskiptatilvik með verkflæðissamþykki
+            - name: Viðskiptatilvik og verkflæðissamþykki
               href: ../dev-itpro/business-events/how-to/how-to-workflow.md
-            - name: Nota Microsoft Forms Pro með viðskiptatilvikum
+            - name: Viðskiptatilvik og Microsoft Forms Pro
               href: ../dev-itpro/business-events/how-to/FormsPro.md
-    - name: Kostnaðarstjórnun
-      href: ../supply-chain/cost-management/cost-management-home-page.md
+            - name: Viðskiptatilvik og miðstöðvar Azure-tilviks
+              href: ../dev-itpro/business-events/how-to/event-hub.md
+    - name: Reglufylgni
       items:
+        - name: Reglur endurskoðunarstefnu
+          href: ../financials/general-ledger/audit-policy-rules.md
+        - name: Brot á endurskoðunarstefnu og mál því tengd
+          href: ../financials/general-ledger/audit-policy-violations-cases.md
+        - name: Skilgreina endurskoðunarstefnur fyrir upprunaskjöl
+          href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+    - name: Kostnaðarstjórnun
+      items:
+        - name: Kostnaðarstjórnun – heimasíða
+          href: ../supply-chain/cost-management/cost-management-home-page.md
         - name: Skilyrði fyrir staðalkostnað
-          href: ../supply-chain/cost-management/prerequisites-standard-costs.md
           items:
+            - name: Yfirlit yfir skilyrði fyrir staðalkostnað
+              href: ../supply-chain/cost-management/prerequisites-standard-costs.md
             - name: Yfirlit yfir umreikning staðalkostnaðar
               href: ../supply-chain/cost-management/standard-cost-conversion-overview.md
             - name: Skilyrði fyrir umreikningi staðalkostnaðar
@@ -308,8 +323,9 @@
             - name: Undirbúa að viðhalda staðalkostnaði fyrir framleiddar vörur
               href: ../supply-chain/cost-management/prepare-maintain-standard-costs-manufactured-items.md
         - name: Kostnaðarútgáfur
-          href: ../supply-chain/cost-management/costing-versions.md
           items:
+            - name: Yfirlit kostnaðarútgáfa
+              href: ../supply-chain/cost-management/costing-versions.md
             - name: Kostnaðarskjöl
               href: ../supply-chain/cost-management/costing-sheets.md
             - name: Hermt eftir kostnaðarbreytingum með kostnaðarútgáfu fyrir áætlaðan kostnað
@@ -397,8 +413,9 @@
             - name: Gagnastjórnunarpakki REST API
               href: ../dev-itpro/data-entities/data-management-api.md?toc=/fin-and-ops/toc.json
             - name: Endastöðvar þjónustu
-              href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Yfirlit yfir endastöðvar þjónustu
+                  href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
                 - name: Úrræðaleit vegna sannvottunar þjónustu
                   href: ../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/fin-and-ops/toc.json
             - name: OData
@@ -414,8 +431,9 @@
         - name: Þróun fyrir samþættingu
           items:
             - name: Samþætting gagna með gagnaeiningum
-              href: ../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Yfirlit yfir samþættingu gagna með gagnaeiningum
+                  href: ../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/fin-and-ops/toc.json
                 - name: Þróun einingar fyrir gagnaflutning
                   href: ../dev-itpro/data-entities/develop-entity-for-data-migration.md?toc=/fin-and-ops/toc.json
                 - name: Þróa samsettar gagnaeiningar
@@ -428,7 +446,7 @@
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: Samþætting gagna með Common Data Service
               items:
-                - name: Yfirlit yfir samþættingu gagna
+                - name: Yfirlit yfir samþættingu gagna með Common Data Service
                   href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
                 - name: 'Samstillt, tvíátta samþætting'
                   items:
@@ -448,9 +466,9 @@
                       href: ../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/fin-and-ops/toc.json
                 - name: 'Ósamstillt, einátta samþætting'
                   items:
-                    - name: Viðfang til sjóðstreymis
+                    - name: Skilgreina PTC-aðstæður
                       items:
-                        - name: Skilgreina PTC-aðstæður
+                        - name: Viðfang til sjóðstreymis
                           href: ../supply-chain/sales-marketing/prospect-to-cash.md
                         - name: Samstilla lykla beint úr Sales við viðskiptavini í Finance and Operations
                           href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
@@ -464,9 +482,9 @@
                           href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
                         - name: Samstilla hausa og línur sölureiknings beint úr Sales við Finance and Operations
                           href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                    - name: Field Service
+                    - name: Skilgreina samþættingu við Field Service
                       items:
-                        - name: Skilgreina samþættingu við Field Service
+                        - name: Yfirlit yfir skilgreiningu á samþættingu við Field Service
                           href: ../supply-chain/sales-marketing/field-service.md
                         - name: Samstilla afurðir úr Finance and Operations við afurðir í Field Service
                           href: ../supply-chain/sales-marketing/field-service-product.md
@@ -486,9 +504,9 @@
                           href: ../supply-chain/sales-marketing/synchronize-warehouse.md
                         - name: Samstilla vinnupantanir við verk úr Field Service í Finance and Operations
                           href: ../supply-chain/sales-marketing/synchronize-work-orders.md
-                    - name: Project Service Automation
+                    - name: Skilgreina samþættingu Project Service Automation
                       items:
-                        - name: Skilgreina samþættingu Project Service Automation
+                        - name: Yfirlit Project Service Automation
                           href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
                         - name: Færibreytur samþættingar Project Service Automation
                           href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
@@ -507,16 +525,19 @@
         - name: Rafræn skilaboð
           href: ../financials/general-ledger/electronic-messaging.md
     - name: Gagnastjórnun
-      href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Yfirlit gagnastjórnunar
+          href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
         - name: Gagnaeiningar
-          href: ../dev-itpro/data-entities/data-entities.md?toc=/fin-and-ops/toc.json
           items:
+            - name: Yfirlit gagnaeininga
+              href: ../dev-itpro/data-entities/data-entities.md?toc=/fin-and-ops/toc.json
             - name: Skilgreiningargagnaverk
               href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/fin-and-ops/toc.json
             - name: Afritun skilgreiningargagna á milli fyrirtækja eða lögaðila
-              href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Yfirlit yfir afritun skilgreiningargagna
+                  href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
                 - name: Skilgreiningargagnapakkar
                   href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: Skilgreiningargagnapakkar (aðeins útgáfa frá júlí 2017)
@@ -538,8 +559,9 @@
             - name: Skilgreiningargagnapakkar
               href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
         - name: Inn- og útflutningsvinnsla gagna
-          href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/fin-and-ops/toc.json
           items:
+            - name: Yfirlit yfir inn- og útflutningsvinnslu gagna
+              href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/fin-and-ops/toc.json
             - name: Bestu starfsvenjur fyrir innflutning fylgiskjala með almennri færslubókareiningu
               href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/fin-and-ops/toc.json
         - name: Þróun fyrir gagnaeiningar
@@ -581,16 +603,19 @@
         - name: Villulýsingar gagnastjórnunar
           href: ../dev-itpro/data-entities/dm-error-descriptions.md
     - name: Fjármálastjórnun
-      href: ../financials/index.md
       items:
+        - name: Fjárhagsstjórnun – heimasíða
+          href: ../financials/index.md
         - name: Viðskiptaskuldir
-          href: ../financials/accounts-payable/accounts-payable.md
           items:
+            - name: Viðskiptaskuldir – heimasíða
+              href: ../financials/accounts-payable/accounts-payable.md
             - name: Yfirlit yfir reikninga lánardrottna
               href: ../financials/accounts-payable/vendor-invoices-overview.md
             - name: Skilgreining viðskiptaskulda
-              href: ../financials/accounts-payable/accounts-payable-overview.md
               items:
+                - name: Yfirlit yfir skilgreiningu viðskiptaskulda
+                  href: ../financials/accounts-payable/accounts-payable-overview.md
                 - name: Færa reikningsgögn inn í viðskiptaskuldir með reikningi lánardrottins
                   href: ../financials/accounts-payable/tasks/key-invoice-data-ap-system-vendor-invoice.md
                 - name: Færa reikningsgögn inn í viðskiptaskuldir með færslubókarsamþykkt
@@ -604,8 +629,9 @@
             - name: Stefnur þríhliða jöfnunarregla
               href: ../financials/accounts-payable/three-way-matching-policies.md
             - name: Reikningsjöfnun viðskiptaskulda
-              href: ../financials/accounts-payable/accounts-payable-invoice-matching.md
               items:
+                - name: Yfirlit yfir reikningsjöfnun viðskiptaskulda
+                  href: ../financials/accounts-payable/accounts-payable-invoice-matching.md
                 - name: Setja upp villuleit fyrir reikningsjöfnun viðskiptaskulda
                   href: ../financials/accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
             - name: Dreifing á fjárhagsupphæð og færslur í færslubók undirfjárhags fyrir reikninga lánardrottins
@@ -625,8 +651,9 @@
             - name: Verkflæði lánardrottins
               href: ../financials/accounts-payable/vendor-workflow.md
             - name: Leyst úr ósamræmi við jöfnun samtalna reiknings
-              href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
               items:
+                - name: Yfirlit yfir úrlausn á ósamræmi við jöfnun samtalna reiknings
+                  href: ../financials/accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
                 - name: Rannsaka eða leysa úr undantekningum
                   href: ../financials/accounts-payable/tasks/research-resolve-exceptions.md
             - name: Bókunarreglur lánardrottins
@@ -688,8 +715,9 @@
                 - name: Listasíða með lánardrottnafærslum
                   href: ../financials/accounts-payable/vendor-transaction-list-page.md
         - name: Viðskiptakröfur
-          href: ../financials/accounts-receivable/accounts-receivable.md
           items:
+            - name: Viðskiptakröfur – heimasíða
+              href: ../financials/accounts-receivable/accounts-receivable.md
             - name: Skuldir og innheimta í viðskiptakröfum
               href: ../financials/accounts-receivable/collections-credit-accounts-receivable.md
             - name: Skilgreining viðskiptakrafna og skulda og innheimtu
@@ -783,13 +811,14 @@
                 - name: Listasíða með færslum viðskiptavinar
                   href: ../financials/accounts-receivable/customer-transactions-list-page.md
         - name: Fjárhagsáætlanir
-          href: ../financials/budgeting/budgeting-overview.md
           items:
+            - name: Fjárhagsáætlun – heimasíða
+              href: ../financials/budgeting/budgeting-overview.md
             - name: Yfirlit fjárhagsáætlunargerðar
               href: ../financials/budgeting/budget-planning-overview-configuration.md
             - name: Yfirlit fjárhagsáætlunarstýringar
               href: ../financials/budgeting/budget-control-overview-configuration.md
-            - name: 'Yfirlit fjárhagsáætlunar '
+            - name: Yfirlit fjárhagsáætlunar
               href: ../financials/budgeting/basic-budgeting-overview-configuration.md
             - name: Stöðuspá
               href: ../financials/budgeting/position-forecasting.md
@@ -808,8 +837,9 @@
             - name: Samþætting fjárhagsáætlunargerðar við aðrar einingar
               href: ../financials/budgeting/budget-planning-integration-other-modules.md
         - name: Reiðufjár- og bankastjórnun
-          href: ../financials/cash-bank-management/cash-bank-management.md
           items:
+            - name: Heimasíða reiðufjár- og bankastjórnunar
+              href: ../financials/cash-bank-management/cash-bank-management.md
             - name: Sjóðstreymisspár
               href: ../financials/cash-bank-management/cash-flow-forecasting.md
             - name: Vinnusvæði bankakerfis
@@ -885,8 +915,9 @@
                 - name: Uppfærsla samsettrar einingar bankafærslubókar
                   href: ../financials/cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: Kostnaðarbókhald
-          href: ../financials/cost-accounting/cost-accounting-home-page.md
           items:
+            - name: Heimasíða kostnaðarbókhalds
+              href: ../financials/cost-accounting/cost-accounting-home-page.md
             - name: Hugtök fyrir kostnaðarbókhald
               href: ../financials/cost-accounting/terms-cost-accounting.md
             - name: 'Fjárhagsdagatöl, fjárhagsár og tímabil'
@@ -955,11 +986,12 @@
               href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
             - name: Nota efnispakka fyrir Microsoft Power BI skýrslugerð
               href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: Nota vinnusvæði kostnaðarstýringar fyrir farsímaforrit Finance and Operations
+            - name: Nota vinnusvæði kostnaðarstýringar fyrir fartækjaforrit Finance and Operations
               href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
         - name: Útgjaldastýring
-          href: ../financials/expense-management/expense-management.md
           items:
+            - name: Yfirlit útgjaldastýringar
+              href: ../financials/expense-management/expense-management.md
             - name: Kostnaðarskýrslur endurhugsaðar
               href: ../financials/expense-management/ExpenseWorkspaceNew.md
             - name: Áætla útgjaldastýringu
@@ -995,8 +1027,9 @@
             - name: Persónulegur kostnaður á kostnaðarskýrslu
               href: ../financials/expense-management/personal-expenses.md
         - name: Eignir
-          href: ../financials/fixed-assets/fixed-assets.md
           items:
+            - name: Eignir – heimasíða
+              href: ../financials/fixed-assets/fixed-assets.md
             - name: Stofna eign
               href: ../financials/fixed-assets/tasks/create-fixed-asset.md
             - name: Viðbót við eign færð inn
@@ -1100,15 +1133,187 @@
                 - name: Línuleg afskrift líftíma
                   href: ../financials/fixed-assets/straight-line-service-life-depreciation.md
         - name: Fjárhagur
-          href: ../financials/general-ledger/general-ledger.md
           items:
-            - name: Áætlanagerð fyrir virkni hins opinbera
+            - name: Fjárhagsyfirlit
+              href: ../financials/general-ledger/general-ledger.md
+            - name: Lyklar
+              items:
+                - name: Yfirlit yfir uppsafnanir
+                  href: ../financials/general-ledger/accruals-overview.md
+                - name: Niðurfellingarreglur
+                  href: ../financials/general-ledger/elimination-rules.md
+                - name: Lykla- og víddasamsetningar
+                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
+                - name: Jafnaðar færslubækur fyrir millieiningabókhald
+                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
+                - name: Bókunarskilgreiningar
+                  href: ../financials/general-ledger/posting-definitions.md
+                - name: Dæmi um bókunarskilgreiningar
+                  href: ../financials/general-ledger/example-posting-definitions.md
+                - name: Fjárhagslykilstöður
+                  href: ../financials/general-ledger/general-ledger-account-balances.md
+                - name: Skilgreina fjárhagsvíddir
+                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
+                - name: Viðhalda sjálfgefnum sniðmátum fjárhagsvídda
+                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: Stofna lykilskipulög
+                  href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: Fjárhagsvíddir og bókun
+                  href: ../financials/general-ledger/default-dimensions.md
+                - name: Stofna uppsöfnunarskemu
+                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
+                - name: Fjárhagssamstæða og umreikningur gjaldmiðils
+                  items:
+                    - name: Yfirlit yfir fjárhagssamstæður og umreikninga gjaldmiðils
+                      href: ../financials/general-ledger/financial-consolidations-currency-translation.md
+                    - name: Sameina á netinu
+                      href: ../financials/general-ledger/consolidate-online.md
+                    - name: Búa til samstæðureikningsskil
+                      href: ../financials/general-ledger/generating-consolidated-financial-statements.md
+                - name: Stofna samstæðuhópa og annan samstæðulykil
+                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
+                - name: Aðallykilgerðir
+                  href: ../financials/general-ledger/main-account-types.md
+                - name: Stofna aðallykil
+                  href: ../financials/general-ledger/tasks/create-main-account.md
+                - name: Yfirlit yfir bókhaldslykil
+                  href: ../financials/general-ledger/plan-chart-of-accounts.md
+                - name: Gera upp færslur á milli fjárhagslykla
+                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
+                - name: Setja upp auknefni fjárhagslykla
+                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
+                - name: Setja upp aðallykla flokka
+                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
+                - name: Skoðun bókhaldsuppruna
+                  href: ../financials/accounts-payable/accounting-source-explorer.md
+                - name: Dreifing á fjárhagsupphæð
+                  href: ../financials/accounts-payable/accounting-distributions.md
+                - name: Vinna úr úthlutunum
+                  href: ../financials/general-ledger/process-allocations.md
+                - name: Fjárhagsvíddir
+                  href: ../financials/general-ledger/financial-dimensions.md
+                - name: Umreikningur bókhalds- eða skýrslugjaldmiðla
+                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
+                - name: Samstæðulykilflokkar og lyklar
+                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
+                - name: Yfirlit yfir samstæðu og niðurfellingu
+                  href: ../financials/budgeting/consolidation-elimination-overview.md
+                - name: 'Fjárhagsdagatöl, fjárhagsár og tímabil'
+                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+                - name: Skilgreina lykilskipulög
+                  href: ../financials/general-ledger/configure-account-structures.md
+                - name: Tvöfaldur gjaldmiðill
+                  href: ../financials/general-ledger/dual-currency.md
+            - name: Færslubækur og fjárhagur
+              items:
+                - name: Vinnsla almennrar færslubókar
+                  href: ../financials/general-ledger/general-journal-processing.md
+                - name: Bóka tímabilsbækur
+                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
+                - name: Vinna úr færslubók kostnaðarúthlutunar
+                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
+                - name: Uppsetning samstæðulykils
+                  href: ../financials/general-ledger/intercompany-accounting-setup.md
+                - name: Úthlutunarreglur fjárhags
+                  href: ../financials/general-ledger/ledger-allocation-rules.md
+                - name: Stofna ítarlegar reglur fyrir færslubækur
+                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
+                - name: Stofna og úthluta ítarlegu regluskipulagi
+                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
+                - name: Færslubókargerðir fjárhags
+                  href: ../financials/general-ledger/ledger-journal-types.md
+                - name: Stofna og sannprófa færslubækur
+                  href: ../financials/general-ledger/tasks/create-validate-journals.md
+                - name: Skoða færslubókarfærslur
+                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
+                - name: Skoða tengt fylgiskjal innan samstæðu úr færslubók
+                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
+                - name: Stofna færslu í færslubók með því að nota sniðmát
+                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
+                - name: Stofna höfuðbókaruppsöfnunarfærslu
+                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: Birting færslubókarlína og skjala úr Excel
+                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
+                - name: Skoðun færslubókarfærslna
+                  href: ../financials/general-ledger/view-journal-entries-transactions.md
+                - name: Skrá bókaðar bókarfærslur
+                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
+                - name: Endurmat á gjaldmiðli í samstæðufyrirtæki
+                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
+                - name: Endurmat á erlendum gjaldmiðli fyrir fjárhag
+                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
+                - name: Flytja inn gengi gjaldmiðla
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
+                - name: Eitt fylgiskjal
+                  href: ../financials/general-ledger/one-voucher.md
+                - name: Fjárhagsjafnanir
+                  href: ../financials/general-ledger/ledger-settlements.md
+            - name: Lokun tímabils
+              items:
+                - name: Lokun fjárhags við lok tímabils
+                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
+                - name: Vinnusvæði lokunar fjárhagstímabils
+                  href: ../financials/general-ledger/financial-period-close-workspace.md
+                - name: Árslokalokun
+                  href: ../financials/general-ledger/year-end-close.md
+                - name: Loka fjárhagsári
+                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
+                - name: Fjöldalokun fjárhagstímabils
+                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
+            - name: Virðisaukaskattur
+              items:
+                - name: Yfirlit virðisaukaskatts
+                  href: ../financials/general-ledger/indirect-taxes-overview.md
+                - name: Virðisaukaskattur byggður á jaðargrunns- og útreikningsaðferðum
+                  href: ../financials/general-ledger/marginal-base-field.md
+                - name: VSK-greiðslur og sléttunarreglur
+                  href: ../financials/general-ledger/round-sales-tax-payments.md
+                - name: Útreikningsaðferðir VSK í upprunareitnum
+                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+                - name: Valkostir heildarupphæðar og tímabilsútreikninga fyrir VSK-kóða
+                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: Reikna og stilla virðisaukaskatt á reikningi lánardrottins
+                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: Stofna VSK-greiðslu
+                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
+                - name: Stofna VSK-færslur í skjölum
+                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
+                - name: Setja upp bókunarflokka virðisaukaskatts
+                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                - name: Setja upp yfirvöld virðisaukaskatts
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
+                - name: Setja upp VSK-kóða
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
+                - name: Setja upp VSK-flokka og VSK-flokka vöru
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                - name: Setja upp skýrslugerðarkóða virðisaukaskatts
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: Setja upp VSK-uppgjörstímabil
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                - name: Setja upp staðgreiðsluskatt
+                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
+                - name: Skoða bókaðar VSK-færslur
+                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
+            - name: Vinnusvæði endurskoðunar
+              items:
+                - name: Reglur endurskoðunarstefnu
+                  href: ../financials/general-ledger/audit-policy-rules.md
+                - name: Brot á endurskoðunarstefnu og mál því tengd
+                  href: ../financials/general-ledger/audit-policy-violations-cases.md
+                - name: Skilgreina endurskoðunarstefnur fyrir upprunaskjöl
+                  href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+        - name: Hið opinbera
+          items:
+            - name: Hið opinbera – heimasíða
+              href: ../financials/public-sector/public-sector-functionality.md
+            - name: Áætlun fyrir virkni hins opinbera
               href: ../financials/public-sector/plan-public-sector-functionality.md
             - name: Stofna forsíðu og undirskriftasíður fyrir greiðsluskýrslur fyrir hið opinbera
               href: ../financials/public-sector/tasks/create-cover-signature-pages-payments-report-public-sector.md
             - name: Viðskiptaskuldir hjá hinu opinbera
-              href: ../financials/public-sector/accounts-payable-public-sector.md
               items:
+                - name: Yfirlit yfir viðskiptaskuldir hjá hinu opinbera
+                  href: ../financials/public-sector/accounts-payable-public-sector.md
                 - name: Innkaupapantanakóðar hjá hinu opinbera
                   href: ../financials/public-sector/purchase-order-codes-public-sector.md
                 - name: Stofna og úthluta kóða viðskiptafélaga fyrir hið opinbera
@@ -1130,8 +1335,9 @@
                 - name: Setja upp flokkanir innkaupasamninga fyrir hið opinbera
                   href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
             - name: Viðskiptakröfur hjá hinu opinbera
-              href: ../financials/public-sector/accounts-receivable-public-sector.md
               items:
+                - name: Yfirlit yfir viðskiptakröfur hjá hinu opinbera
+                  href: ../financials/public-sector/accounts-receivable-public-sector.md
                 - name: Reikningsflokkanir og innheimtukóðar hjá hinu opinbera
                   href: ../financials/public-sector/billing-classifications-billing-codes-public-sector.md
                 - name: Stofna reikningsflokkun fyrir hið opinbera
@@ -1145,8 +1351,9 @@
                 - name: Endurgreiðslur hjá hinu opinbera
                   href: ../financials/public-sector/reimbursements-public-sector.md
             - name: Fjárhagsáætlun hjá hinu opinbera
-              href: ../financials/public-sector/budgeting-public-sector.md
               items:
+                - name: Yfirlit yfir fjárhagsáætlun hjá hinu opinbera
+                  href: ../financials/public-sector/budgeting-public-sector.md
                 - name: Stofna upprunalega fjárhagsáætlun og bakfæra færslur bráðabirgðafjárhagsáætlunar fyrir hið opinbera
                   href: ../financials/public-sector/tasks/create-original-budget.md
                 - name: Stofna bráðabirgðafjárhagsáætlun fyrir hið opinbera
@@ -1172,8 +1379,9 @@
             - name: Eignir hjá hinu opinbera
               href: ../financials/public-sector/fixed-asset-public-sector.md
             - name: Fjárhagur hjá hinu opinbera
-              href: ../financials/public-sector/general-ledger-public-sector.md
               items:
+                - name: Fjárhagsyfirlit hjá hinu opinbera
+                  href: ../financials/public-sector/general-ledger-public-sector.md
                 - name: Ítarlegar fjárhagsfærslur hjá hinu opinbera
                   href: ../financials/public-sector/advanced-ledger-entries-public-sector.md
                 - name: Stofna ítarlega fjárhagsfærslu fyrir hið opinbera
@@ -1199,8 +1407,9 @@
             - name: Bæta við tegund vottorðs fyrir lánardrottin í opinbera geiranum
               href: ../financials/public-sector/tasks/add-certification-type-vendor-public-sector.md
         - name: Fjárhagsskýrslugerð
-          href: ../financials/general-ledger/financial-reporting-getting-started.md
           items:
+            - name: Yfirlitssíða fjárhagsskýrslugerðar
+              href: ../financials/general-ledger/financial-reporting-getting-started.md
             - name: Yfirlitssíða fjárhagsskýrslugerðar
               href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
             - name: Fjárhagsskýrsluhlutar
@@ -1236,13 +1445,15 @@
         - name: Rafræn skilaboð
           href: ../financials/general-ledger/electronic-messaging.md
     - name: Staðfæring
-      href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Altæk tilföng
+          href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
         - name: Regluuppfærslur
           href: ../financials/localizations/regulatory-updates.md
         - name: Ástralía
-          href: ../financials/localizations/australia.md
           items:
+            - name: Yfirlit yfir Ástralíu
+              href: ../financials/localizations/australia.md
             - name: Viðskiptaskýrsla (BAS)
               href: ../financials/localizations/apac-aus-business-activity-statement.md
             - name: Bæta við skýrslureitum og búa til viðskiptaskýrslu (BAS)
@@ -1252,8 +1463,9 @@
             - name: Setja upp ástæðukóða fyrir BAS
               href: ../financials/localizations/tasks/set-up-reason-codes-australia-bas.md
         - name: Austurríki
-          href: ../financials/localizations/austria.md
           items:
+            - name: Yfirlit yfir Austurríki
+              href: ../financials/localizations/austria.md
             - name: Hálfsársafskriftir fyrir viðbótarkaup
               href: ../financials/localizations/emea-aut-half-year-depreciation.md
             - name: Umbúðaefnisgjöld
@@ -1261,8 +1473,9 @@
             - name: VSK-yfirlit
               href: ../financials/localizations/emea-aut-vat-statement-details.md
         - name: Belgía
-          href: ../financials/localizations/belgium.md
           items:
+            - name: Yfirlit yfir Belgíu
+              href: ../financials/localizations/belgium.md
             - name: CODA-bankayfirlit
               href: ../financials/localizations/emea-bel-coda-bank-statement-import.md
             - name: Stofna og flytja færslur til BLWI
@@ -1276,13 +1489,15 @@
             - name: Setja upp og vinna með PRODCOM
               href: ../financials/localizations/emea-bel-prodcom-report.md
         - name: Brasilía
-          href: ../financials/localizations/brazil.md
           items:
+            - name: Yfirlit yfir Brasilíu
+              href: ../financials/localizations/brazil.md
             - name: Umfang þýðinga
               href: ../financials/localizations/latam-bra-scope.md
             - name: Skattabækur
-              href: ../financials/localizations/latam-bra-fiscal-books.md
               items:
+                - name: Yfirlit yfir brasilískar skattabækur
+                  href: ../financials/localizations/latam-bra-fiscal-books.md
                 - name: Skilgreina skattabækur
                   href: ../financials/localizations/latam-bra-configure-fiscal-books.md
                 - name: Fjárhagsskjöl ICMS-skatts
@@ -1350,8 +1565,9 @@
                 - name: Debetnótur verkefnis
                   href: ../financials/localizations/tasks/br-00076-project-debit-notes.md
             - name: NF-e-ferli
-              href: ../financials/localizations/latam-bra-nf-e-process.md
               items:
+                - name: Yfirlit yfir brasilískt NF-e-ferli
+                  href: ../financials/localizations/latam-bra-nf-e-process.md
                 - name: Sjálfvirk sending NF-e fjárhagsskjala
                   href: ../financials/localizations/tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md
                 - name: Búa til tölvupóst fyrir samþykkt NF-e og hengja við DANFE PDF-skrár og NF-e XML-skrár
@@ -1397,8 +1613,9 @@
             - name: Reikna út vexti og sektir fyrir viðskiptavinagreiðslur
               href: ../financials/localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
             - name: Skattar
-              href: ../financials/localizations/latam-bra-calculate-taxes.md
               items:
+                - name: Brasilískt skattayfirlit
+                  href: ../financials/localizations/latam-bra-calculate-taxes.md
                 - name: Reikna út skatt fyrir innkaupatilboð
                   href: ../financials/localizations/tasks/br-00031-tax-calculation-purchase-quotation.md
                 - name: Stofna skattmat - ICMS
@@ -1444,8 +1661,9 @@
                 - name: Staðgreiðsluskattar lánardrottnagreiðslna
                   href: ../financials/localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
         - name: Kína
-          href: ../financials/localizations/china.md
           items:
+            - name: Yfirlit yfir Kína
+              href: ../financials/localizations/china.md
             - name: Finance and Operations rekið af 21Vianet í Kína
               href: ../dev-itpro/deployment/china-local-deployment.md
             - name: Samanburður uppskrifta
@@ -1485,8 +1703,9 @@
             - name: Algengar spurningar um VSK-reikninga viðskiptavinar
               href: ../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md
         - name: Tékkland
-          href: ../financials/localizations/czech-republic.md
           items:
+            - name: Tékkland
+              href: ../financials/localizations/czech-republic.md
             - name: Kreditnóta á staðgreiðsluafslátt
               href: ../financials/localizations/emea-cze-credit-note-cash-discount.md
             - name: Eignir
@@ -1514,8 +1733,9 @@
             - name: Árslokalokun
               href: ../financials/localizations/emea-cze-hun-year-end.md
         - name: Danmörk
-          href: ../financials/localizations/denmark.md
           items:
+            - name: Yfirlit yfir Danmörku
+              href: ../financials/localizations/denmark.md
             - name: Úthluta sniði greiðsluseðils á viðskiptavinalykil
               href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
             - name: Stofna og bóka reikning viðskiptavinar hjá hinu opinbera
@@ -1539,18 +1759,21 @@
             - name: Setja upp greiðsluseðlasnið
               href: ../financials/localizations/tasks/set-up-payment-slip-format.md
         - name: Eistland
-          href: ../financials/localizations/estonia.md
           items:
+            - name: Yfirlit yfir Eistland
+              href: ../financials/localizations/estonia.md
             - name: Beiðnir um persónulegar upplýsingar
               href: ../financials/localizations/emea-est-personal-info.md
             - name: VSK-yfirlit
               href: ../financials/localizations/emea-est-vat-statement-details.md
         - name: Evrópa
-          href: ../financials/localizations/europe.md
           items:
+            - name: Yfirlit yfir Evrópu
+              href: ../financials/localizations/europe.md
             - name: Handhafar fyrirframgreiðslu
-              href: ../financials/localizations/emea-advance-holders.md
               items:
+                - name: Yfirlit yfir handhafa fyrirframgreiðslu
+                  href: ../financials/localizations/emea-advance-holders.md
                 - name: Færslur handhafa fyrirframgreiðslu
                   href: ../financials/localizations/emea-advance-holders-transactions.md
                 - name: Fyrirframgreiðsla fyrir starfsmann (Austur-Evrópa)
@@ -1606,8 +1829,9 @@
                 - name: Stofna og flytja út greiðslur lánardrottna með ISO20022-greiðslusniði
                   href: ../financials/localizations/tasks/create-export-vendor-payments-iso20022-payment-format.md
             - name: Intrastat
-              href: ../financials/localizations/emea-intrastat.md
               items:
+                - name: Intrastat-yfirlit
+                  href: ../financials/localizations/emea-intrastat.md
                 - name: Flytja færslur í Intrastat
                   href: ../financials/localizations/tasks/transfer-transactions-intrastat.md
                 - name: Tilgreina heimilisfang fyrir farm fyrir færslu innan bandalagsins
@@ -1685,13 +1909,14 @@
             - name: Skoðun færslna á uppgjöri
               href: ../financials/localizations/emea-transactions-settlement-form.md
         - name: Frakkland
-          href: ../financials/localizations/france.md
           items:
+            - name: Yfirlit yfir Frakkland
+              href: ../financials/localizations/france.md
             - name: Hið opinbera
               items:
                 - name: Bókhald hjá hinu opinbera
                   href: ../financials/localizations/emea-fra-public-sector-accounting.md
-                - name: Ráðstafanir
+                - name: Skuldbindingar
                   href: ../financials/localizations/emea-fra-commitments-public-sector.md
                 - name: Mandats de paiement
                   href: ../financials/localizations/emea-fra-mandats-de-paiement.md
@@ -1740,13 +1965,15 @@
                 - name: Leiðbeiningar um uppsetningu á afgreiðslukössum
                   href: ../retail/localizations/emea-fra-deployment.md
         - name: Þýskaland
-          href: ../financials/localizations/germany.md
           items:
+            - name: Yfirlit yfir Þýskaland
+              href: ../financials/localizations/germany.md
             - name: Viðbótarafskriftir kaupa
               href: ../financials/localizations/emea-deu-additional-acquisition-depreciation.md
             - name: Endurskoðunarskrá
-              href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
               items:
+                - name: Yfirlit yfir þýska endurskoðunarskrá
+                  href: ../financials/localizations/emea-deu-gdpdu-audit-data-export.md
                 - name: Sérstilla skilgreiningu endurskoðunarskrár
                   href: ../financials/localizations/tasks/customize-german-audit-file-configuration.md
                 - name: Mynda endurskoðunarskrá
@@ -1762,8 +1989,9 @@
             - name: Uppsetning rafrænna skattskýrslna
               href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
         - name: Ungverjaland
-          href: ../financials/localizations/hungary.md
           items:
+            - name: Yfirlit yfir Ungverjaland
+              href: ../financials/localizations/hungary.md
             - name: Útreikningur gengis
               href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
             - name: Aðferðir við afskriftir eigna
@@ -1777,8 +2005,9 @@
             - name: Árslokalokun
               href: ../financials/localizations/emea-cze-hun-year-end.md
         - name: Ísland
-          href: ../financials/localizations/iceland.md
           items:
+            - name: Yfirlit yfir Ísland
+              href: ../financials/localizations/iceland.md
             - name: Stofna lánardrottnalykil og festa verktakamiða
               href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
             - name: Setja upp verktakamiða fyrir lánardrottna
@@ -1788,11 +2017,15 @@
             - name: Uppfæra verktakamiða lánardrottna og búa til skýrslu
               href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
         - name: Indland
-          href: ../financials/localizations/india.md
           items:
+            - name: Yfirlit yfir Indland
+              href: ../financials/localizations/india.md
+            - name: Umfang indverskra þýðinga
+              href: ../financials/localizations/apac-ind-scope.md
             - name: Eignir
-              href: ../financials/localizations/apac-ind-fixed-assets.md
               items:
+                - name: Yfirlit yfir indverskar eignir
+                  href: ../financials/localizations/apac-ind-fixed-assets.md
                 - name: Festa dagatal með dagaskiptingu við eignabók
                   href: ../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md
                 - name: Reikna út vaktaafskriftir
@@ -1816,8 +2049,9 @@
                 - name: Flutningur fjármagnsvara til eignar
                   href: ../financials/localizations/tasks/apac-ind-transfer-capital-items.md
             - name: Vöru- og þjónustuskattur (VÞS) fyrir Indland
-              href: ../financials/localizations/apac-ind-gst.md
               items:
+                - name: Yfirlit yfir vöru- og þjónustuskatt (VÞS) fyrir Indland
+                  href: ../financials/localizations/apac-ind-gst.md
                 - name: Viðmiðunarhópar vöru- og þjónustuskatts (GST) fyrir Indland
                   href: ../financials/localizations/apac-ind-gst-reference-groups.md
                 - name: Samþætting vöru- og þjónustuskatts fyrir afgreiðslukassa
@@ -1960,22 +2194,27 @@
                   href: ../financials/localizations/apac-ind-GST-tax-inquiry.md
                 - name: Leiðbeiningar um uppsetningu á afgreiðslukössum
                   href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
-            - name: Yfirlit skattakerfis
-              href: ../financials/general-ledger/tax-engine.md
+            - name: Skattkerfi
               items:
-                - name: Flytja inn skilgreiningu
-                  href: ../financials/general-ledger/tax-engine-import-configuration.md
-                - name: Gildissvið skattkerfis
-                  href: ../financials/general-ledger/tax-engine-applicability.md
-                - name: Samþætting skattkerfis
-                  href: ../financials/general-ledger/tax-engine-integration.md
-                - name: Útvíkkun skattkerfisins
-                  href: ../financials/general-ledger/extend-tax-engine-configurations.md
+                - name: Yfirlit skattakerfis
+                  href: ../financials/general-ledger/tax-engine.md
+                  items:
+                    - name: Flytja inn skilgreiningu
+                      href: ../financials/general-ledger/tax-engine-import-configuration.md
+                    - name: Gildissvið skattkerfis
+                      href: ../financials/general-ledger/tax-engine-applicability.md
+                    - name: Samþætting skattkerfis
+                      href: ../financials/general-ledger/tax-engine-integration.md
+                    - name: Útvíkkun skattkerfisins
+                      href: ../financials/general-ledger/extend-tax-engine-configurations.md
             - name: Algengar spurningar um skattþrep
               href: ../financials/localizations/apac-ind-tax-thresholds.md
+            - name: Birgðaflutningar
+              href: ../financials/localizations/apac-ind-stock-transfer.md
         - name: Ítalía
-          href: ../financials/localizations/italy.md
           items:
+            - name: Yfirlit yfir Ítalíu
+              href: ../financials/localizations/italy.md
             - name: VSK-yfirlitsupplýsingar
               href: ../financials/localizations/emea-ita-vat-statements-details.md
             - name: Svartlistaskýrsla
@@ -1997,8 +2236,9 @@
             - name: Staðgreiðsluskattur
               href: ../financials/localizations/emea-ita-withholding-tax.md
         - name: Japan
-          href: ../financials/localizations/japan.md
           items:
+            - name: Yfirlit yfir Japan
+              href: ../financials/localizations/japan.md
             - name: Kaupa eign og nota fyrir niðurgreiðslu með opinberum styrk
               href: ../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
             - name: Kaupa eign með skuldbindingu vegna losunar eignar
@@ -2156,8 +2396,9 @@
             - name: Nota sundurhlutunarlista fyrir eignir
               href: ../financials/localizations/tasks/use-disassemble-list-fixed-assets.md
         - name: Lettland
-          href: ../financials/localizations/latvia.md
           items:
+            - name: Yfirlit yfir Lettland
+              href: ../financials/localizations/latvia.md
             - name: Eignabókhald
               href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
             - name: Rakning breytinga á staðsetningu eigna
@@ -2169,8 +2410,9 @@
             - name: VSK-yfirlitsupplýsingar
               href: ../financials/localizations/emea-lva-vat-statement-details.md
         - name: Litháen
-          href: ../financials/localizations/lithuania.md
           items:
+            - name: Yfirlit yfir Litháen
+              href: ../financials/localizations/lithuania.md
             - name: Eignaviðhaldsyfirlit
               href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
             - name: Mynda eignaflutning á milli vöruhúsaskjala
@@ -2180,8 +2422,9 @@
             - name: VSK-yfirlitsupplýsingar
               href: ../financials/localizations/emea-ltu-vat-statement-details.md
         - name: Malasía
-          href: ../financials/localizations/malaysia.md
           items:
+            - name: Yfirlit yfir Malasíu
+              href: ../financials/localizations/malaysia.md
             - name: Mynda kreditfærslu viðskiptavinar fyrir verksölu
               href: ../financials/localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
             - name: Mynda debetfærslu viðskiptavinar fyrir verksölu
@@ -2203,8 +2446,9 @@
             - name: Setja upp VÞS-afléttingarákvæði
               href: ../financials/localizations/tasks/my-00006-01-gst-relief-clauses.md
         - name: Mexíkó
-          href: ../financials/localizations/mexico.md
           items:
+            - name: Yfirlit yfir Mexíkó
+              href: ../financials/localizations/mexico.md
             - name: Umfang þýðinga
               href: ../financials/localizations/latam-mex-scope.md
             - name: Skýrsla um leiðréttingu vegna verðbólgu
@@ -2242,15 +2486,17 @@
             - name: Skráningarkenni lánardrottna
               href: ../financials/localizations/tasks/mx-00008-vendor-registration-ids.md
         - name: Holland
-          href: ../financials/localizations/netherlands.md
           items:
+            - name: Yfirlit yfir Holland
+              href: ../financials/localizations/netherlands.md
             - name: Rafrænar skattskýrslur (EVAT)
               href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
             - name: Semansys XBRL samþætting
               href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
         - name: Noregur
-          href: ../financials/localizations/norway.md
           items:
+            - name: Yfirlit yfir Noreg
+              href: ../financials/localizations/norway.md
             - name: Greiðslusnið viðskiptavina og lánardrottna
               href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
             - name: Greiðsla viðskiptavinar samkvæmt greiðslukenni
@@ -2264,8 +2510,9 @@
             - name: Leiðbeiningar um uppsetningu á afgreiðslukössum
               href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
         - name: Pólland
-          href: ../financials/localizations/poland.md
           items:
+            - name: Yfirlit yfir Pólland
+              href: ../financials/localizations/poland.md
             - name: Virkja storno-bókhald
               href: ../financials/localizations/emea-pol-red-storno.md
             - name: Útreikningur línuafslátta af einingarverði
@@ -2293,8 +2540,9 @@
             - name: Veltu- og stöðuyfirlit
               href: ../financials/localizations/emea-pol-turnover-balances-statement.md
         - name: Rússland
-          href: ../financials/localizations/russia.md
           items:
+            - name: Yfirlit yfir Rússland
+              href: ../financials/localizations/russia.md
             - name: Fjárhagur
               items:
                 - name: Samskipti lykla
@@ -2306,8 +2554,9 @@
                 - name: Flytja inn gengi gjaldmiðla frá CBRF
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
             - name: Handhafar fyrirframgreiðslu
-              href: ../financials/localizations/rus-advance-holders.md
               items:
+                - name: Yfirlit yfir handhafa fyrirframgreiðslu fyrir Rússland
+                  href: ../financials/localizations/rus-advance-holders.md
                 - name: Stofna handhafa fyrirframgreiðslu
                   href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
                 - name: Daglegar aðgerðir fyrir handhafa fyrirframgreiðslu
@@ -2318,18 +2567,26 @@
                   href: ../financials/localizations/rus-advance-adjustment-parameters.md
                 - name: Skýrslur fyrir handhafa fyrirframgreiðslu
                   href: ../financials/localizations/rus-local-management-reports-primary-forms.md
-            - name: Banki
+            - name: Reiðufé og banki
               items:
                 - name: Setja upp bankareikninga
                   href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
                 - name: Uppsetning og vinnsla greiðslubeiðna
                   href: ../financials/localizations/rus-payment-order-settings-processing.md
+                - name: Gengisleiðrétting
+                  href: ../financials/localizations/rus-exchange-adjustment.md
                 - name: 'Sala, innkaup og millifærslur í erlendum gjaldmiðli'
                   href: ../financials/localizations/rus-currency-sale-purchase.md
+                - name: Sjóður
+                  href: ../financials/localizations/emea-petty-cash.md
             - name: VSK
               items:
                 - name: Staðbundin sérstök bókun útskatts
                   href: ../financials/localizations/rus-local-specific-posting-sales-vat.md
+                - name: Úrvinnsla og prentun reikninga
+                  href: ../financials/localizations/rus-invoice-facture-process-print.md
+                - name: Endurskoðaðir reikningar og leiðréttir reikningar
+                  href: ../financials/localizations/rus-revise-invoice-facture.md
                 - name: Virðisaukaskattur (VSK) fyrir skattyfirvöld
                   href: ../financials/localizations/rus-tax-agent.md
                 - name: VSK-skýrsla
@@ -2382,6 +2639,8 @@
                   href: ../financials/localizations/rus-not-valuable-assets.md
             - name: Viðskiptaskuldir og viðskiptakröfur
               items:
+                - name: Leiðréttingar kreditnótu (Rússland)
+                  href: ../financials/localizations/rus-credit-note-correction.md
                 - name: Reikningar til greiðslu
                   href: ../financials/localizations/rus-invoice-payment.md
                 - name: Setja upp víddarstýringar fyrir uppgjör
@@ -2416,7 +2675,7 @@
               items:
                 - name: Setja upp frestanir
                   href: ../financials/localizations/rus-set-up-deferrals.md
-                - name: Stofna eða búa til tilvísanir
+                - name: Stofna eða búa til frestanir
                   href: ../financials/localizations/rus-create-generate-deferrals.md
                 - name: Móttaka frestana
                   href: ../financials/localizations/rus-deferral-transactions.md
@@ -2429,20 +2688,23 @@
                 - name: Skýrslugerð fyrir frestanir
                   href: ../financials/localizations/rus-reporting-deferrals.md
         - name: Sádi-Arabía
-          href: ../financials/localizations/saudi-arabia.md
           items:
+            - name: Yfirlit í Sádi-Arabíu
+              href: ../financials/localizations/saudi-arabia.md
             - name: Virðisaukaskattur
               href: ../financials/localizations/apac-sau-sales-tax.md
             - name: Zakat-skýrslugerð fyrir Sádi-Arabíu
               href: ../financials/localizations/emea-sau-zakat-reporting.md
         - name: Singapúr
-          href: ../financials/localizations/singapore.md
           items:
+            - name: Yfirlit yfir Singapúr
+              href: ../financials/localizations/singapore.md
             - name: Mynda GST-05 skýrslu
               href: ../financials/localizations/apac-sgp-generate-gst-05-report.md
         - name: Spánn
-          href: ../financials/localizations/spain.md
           items:
+            - name: Yfirlit yfir Spán
+              href: ../financials/localizations/spain.md
             - name: Notkun staðgreiðsluafsláttar á reikningi
               href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
             - name: Valkostir víxils
@@ -2472,8 +2734,9 @@
             - name: Sérstakar færslur og opnunarskjöl
               href: ../financials/localizations/emea-esp-opening-sheets-spain.md
         - name: Svíþjóð
-          href: ../financials/localizations/sweden.md
           items:
+            - name: Yfirlit yfir Svíþjóð
+              href: ../financials/localizations/sweden.md
             - name: Flytja út fjárhagsupplýsingar fyrir endurskoðendur í Svíþjóð
               href: ../financials/localizations/emea-swe-sie-standard-report.md
             - name: Greiðslusnið innflutnings
@@ -2481,13 +2744,15 @@
             - name: Afgreiðslukassar
               href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
         - name: Sviss
-          href: ../financials/localizations/switzerland.md
           items:
+            - name: Yfirlit yfir Sviss
+              href: ../financials/localizations/switzerland.md
             - name: Innflutningur greiðslna viðskiptavina í ESR
               href: ../financials/localizations/emea-che-esr-customer-payments-import.md
         - name: Taíland
-          href: ../financials/localizations/thailand.md
           items:
+            - name: Yfirlit yfir Taíland
+              href: ../financials/localizations/thailand.md
             - name: Skýrslur birgðaspjalds
               href: ../financials/localizations/apac-tha-stock-card-reports.md
             - name: Staðgengils-/leiðréttingarskattreikningur
@@ -2497,8 +2762,9 @@
             - name: Staðgreiðsluskattur
               href: ../financials/localizations/apac-tha-withholding-tax.md
         - name: Bretland
-          href: ../financials/localizations/united-kingdom.md
           items:
+            - name: Yfirlit yfir Bretland
+              href: ../financials/localizations/united-kingdom.md
             - name: Skema byggingariðnaðar
               href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
             - name: Stofna kreditfærslu á uppgjörsafslætti
@@ -2516,15 +2782,17 @@
             - name: Stafrænir skattar fyrir VSK
               href: ../financials/localizations/emea-gbr-mtd-vat-integration.md
         - name: Bandaríkin
-          href: ../financials/localizations/united-states.md
           items:
+            - name: Yfirlit yfir Bandaríkin
+              href: ../financials/localizations/united-states.md
             - name: 1099-árslokaskýrslugerð fyrir Bandaríkin
               href: ../financials/localizations/noam-usa-year-end-1099-reporting.md
             - name: Eyðublað 1099 fyrir hið opinbera
               href: ../financials/localizations/noam-usa-form-1099-public-sector.md
     - name: Mannauður
-      href: hr/hr-landing-page.md
       items:
+        - name: Mannauðsyfirlit
+          href: hr/hr-landing-page.md
         - name: Þróun mannauðsáætlunar
           items:
             - name: Búa til markmið
@@ -2563,7 +2831,7 @@
               href: ../talent/loan-items.md
             - name: Þróa áætlun um röðun starfsmanna
               href: hr/tasks/develop-succession-plan.md
-            - name: Færa inn vinnukort verks
+            - name: Færa inn Project Timesheets
               href: hr/tasks/enter-project-timesheets.md
             - name: Haga sniðmáti fyrir tölvupóst
               href: hr/tasks/manage-email-templates.md
@@ -2676,8 +2944,9 @@
             - name: Vinna með upplýsingar um meiðsl og veikindi starfsmanna
               href: hr/tasks/maintain-employee-injury-illness-information.md
         - name: Bandarísk laun
-          href: hr/localizations/noam-usa-payroll.md
           items:
+            - name: Yfirlit yfir bandarísk laun
+              href: hr/localizations/noam-usa-payroll.md
             - name: Uppsetning launaskrár
               items:
                 - name: Uppsetning launa fyrir starfsfólk
@@ -2743,13 +3012,15 @@
                 - name: Hefðbundnar launaskýrslur
                   href: hr/localizations/noam-usa-generate-payroll-reports.md
     - name: Greind
-      href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Gervigreind – heimasíða
+          href: ../dev-itpro/analytics/bi-reporting-home-page.md?toc=/fin-and-ops/toc.json
         - name: Aðgangsupplýsingar og skýrslugerð
           href: ../dev-itpro/analytics/information-access-reporting.md?toc=/fin-and-ops/toc.json
         - name: Power BI-efni
-          href: ../dev-itpro/analytics/power-bi-home-page.md?toc=/fin-and-ops/toc.json
           items:
+            - name: Power BI efni – heimasíða
+              href: ../dev-itpro/analytics/power-bi-home-page.md?toc=/fin-and-ops/toc.json
             - name: Rauntölur bornar saman við fjárhagsáætlun
               href: ../dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/fin-and-ops/toc.json
             - name: Fríðindi
@@ -2763,8 +3034,9 @@
             - name: Laun og fríðindi
               href: ../dev-itpro/analytics/compensation-and-benefits-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
             - name: Greining kostnaðarbókhalds
-              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Greining á Power BI-efni kostnaðarbókhalds
+                  href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
                 - name: Uppsetning öryggis fyrir Power BI-efni kostnaðarbókhaldsgreiningar
                   href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
             - name: Kostnaðarstjórnun
@@ -2812,8 +3084,9 @@
             - name: Skilgreina SSRS fyrir uppsetningu á staðnum
               href: ../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json
             - name: Prentun
-              href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
               items:
+                - name: Yfirlit skjalaprentunar
+                  href: ../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json
                 - name: Setja upp eftirlitsbúnað skjalasendingar til að virkja nettengda prentun
                   href: ../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json
                 - name: Uppfæra eftirlitsbúnað skjalasendingar
@@ -2910,10 +3183,8 @@
                       href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
             - name: Breyta rafrænum skýrslugerðarsniðum með því að endurnýta Excel-sniðmát
               href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-            - name: Hanna Finance and Operations útgáfu sem er óháð skilgreiningum rafrænnar skýrslugerðar
-              items:
-                - name: Skilgreina hversu mikil áhrif skilgreiningar rafrænnar skýrslugerðar hafa á aðra hluta
-                  href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: Skilgreina hversu mikil áhrif skilgreiningar rafrænnar skýrslugerðar hafa á aðra hluta
+              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
             - name: Hanna lausn fyrir rafræna skýrslugerð til að nota fjárhagsvíddir
               items:
                 - name: Hanna gagnalíkön til að nota fjárhagsvíddir sem gagnaveitur
@@ -2936,9 +3207,9 @@
                   href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
             - name: Væta við dálkum í Excel skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
               items:
-                - name: Hanna snið til að bæta við dálkum í Excel skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
+                - name: Hanna snið til að bæta við dálkum í Excel-skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
                   href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
-                - name: Keyra snið til að bæta við dálkum í Excel skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
+                - name: Keyra snið til að bæta við dálkum í Excel-skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
                   href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
             - name: Nota skjalastjórnunarskrár fyrir snið frálags
               items:
@@ -3032,6 +3303,8 @@
                       href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
                 - name: Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum
                   href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
+                - name: Yfirlit yfir stjórnun viðskiptaskjala
+                  href: ../dev-itpro/analytics/er-business-document-management.md?toc=/fin-and-ops/toc.json
             - name: API fyrir ramma rafrænnar skýrslugerðar
               items:
                 - name: Listi yfir virkni rafrænnar skýrslugerðar lengdur
@@ -3081,16 +3354,19 @@
             - name: Nota eigin gagnagrunn
               href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
     - name: Birgðastjórnun
-      href: ../supply-chain/inventory/inventory-home-page.md
       items:
-        - name: Yfirlit yfir komur
-          href: ../supply-chain/inventory/arrival-overview.md
+        - name: Birgðastjórnunaryfirlit
+          href: ../supply-chain/inventory/inventory-home-page.md
+        - name: Koma
           items:
+            - name: Yfirlit yfir komur
+              href: ../supply-chain/inventory/arrival-overview.md
             - name: Setja upp komuyfirlitsreglu fyrir vöru
               href: ../supply-chain/inventory/tasks/set-up-item-arrival-overview-profile.md
         - name: Gæðastjórnun
-          href: ../supply-chain/inventory/enable-quality-management.md
           items:
+            - name: Gæðastjórnunaryfirlit
+              href: ../supply-chain/inventory/enable-quality-management.md
             - name: Gæðastjórnunarferli
               href: ../supply-chain/inventory/quality-management-processes.md
             - name: Stjórnun ósamkvæmi
@@ -3156,8 +3432,9 @@
             - name: Birgðir á lager eftir fartækjavinnusvæði
               href: ../supply-chain/inventory/inventory-on-hand-mobile-workspace.md
         - name: Útleiðarferli
-          href: ../supply-chain/inventory/outbound-process.md
           items:
+            - name: Yfirlit útleiðarferlis
+              href: ../supply-chain/inventory/outbound-process.md
             - name: Frátekning birgðamagns
               href: ../supply-chain/inventory/reserve-inventory-quantities.md
             - name: Frátekning sömu runu fyrir sölupöntun
@@ -3265,12 +3542,140 @@
               href: ../supply-chain/asset-management/manage-maintenance-requests/inbound-and-outbound-assets.md
             - name: Skýrslur yfir viðhaldsbeiðnir
               href: ../supply-chain/asset-management/manage-maintenance-requests/maintenance-request-reports.md
-    - name: Aðaláætlanagerð
-      href: ../supply-chain/master-planning/master-planning-home-page.md
-      items:
-        - name: Aðaláætlanir
-          href: ../supply-chain/master-planning/master-plans.md
+        - name: Uppsetning fyrir verkbeiðni
           items:
+            - name: 'Flokkar viðhaldsverkgerðar og viðhaldsverkgerðir, afbrigði viðhaldsverkgerðar, viðskipti viðhaldsvinnslu og viðhaldsgátlistar'
+              href: ../supply-chain/asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
+            - name: Líftímastöður verkbeiðni
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-lifecycle-states.md
+            - name: Gerðir verkbeiðni
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-types.md
+            - name: Verkuppsetning verkbeiðni
+              href: ../supply-chain/asset-management/setup-for-work-orders/work-order-project-setup.md
+            - name: Þjónustustig og lýsing
+              href: ../supply-chain/asset-management/setup-for-work-orders/service-level-and-description.md
+            - name: Áætluð keyrsla
+              href: ../supply-chain/asset-management/setup-for-work-orders/scheduled-execution.md
+            - name: Villustjórnun
+              href: ../supply-chain/asset-management/setup-for-work-orders/fault-management.md
+        - name: Verkbeiðnir
+          items:
+            - name: Kynning á verkbeiðnum
+              href: ../supply-chain/asset-management/work-orders/introduction-to-work-orders.md
+            - name: Handvirkt stofnaðar verkbeiðnir
+              href: ../supply-chain/asset-management/work-orders/manually-created-workorders.md
+            - name: Viðhaldsspár
+              href: ../supply-chain/asset-management/work-orders/maintenance-forecasts.md
+            - name: Innkaup
+              href: ../supply-chain/asset-management/work-orders/procurement.md
+            - name: Handvirk uppfærsla á eignateljurum
+              href: ../supply-chain/asset-management/work-orders/manual-update-of-asset-counters.md
+            - name: Sjálfvirk uppfærsla á eignateljurum
+              href: ../supply-chain/asset-management/work-orders/automatic-update-of-asset-counters.md
+            - name: Viðhaldsgátlistar
+              href: ../supply-chain/asset-management/work-orders/maintenance-checklists.md
+            - name: Niðurtími vegna viðhalds
+              href: ../supply-chain/asset-management/work-orders/maintenance-downtime.md
+            - name: Bæta villu við verkbeiðni
+              href: ../supply-chain/asset-management/work-orders/add-fault-to-work-order.md
+            - name: Skýrsla verkbeiðni
+              href: ../supply-chain/asset-management/work-orders/work-order-report.md
+            - name: Verkbeiðnihópar
+              href: ../supply-chain/asset-management/work-orders/work-order-pools.md
+            - name: Virkar verkbeiðnir viðhaldsvinnsla
+              href: ../supply-chain/asset-management/work-orders/active-work-order-jobs-overview.md
+            - name: Verkbeiðnir og eignir
+              href: ../supply-chain/asset-management/work-orders/work-orders-and-fixed-assets.md
+        - name: Samþætting við verkefnastjórnun og bókhald
+          items:
+            - name: 'Spár, verkbeiðnir og verk'
+              href: ../supply-chain/asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+        - name: Viðhald sem er fyrirbyggjandi og bregst við
+          items:
+            - name: Fyrirbyggjandi viðhald
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/preventive-maintenance-overview.md
+            - name: Viðhaldsáætlanir
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-plans.md
+            - name: Tímasetja viðhaldsáætlanir
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/schedule-maintenance-plans.md
+            - name: Viðhaldslotur
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-rounds.md
+            - name: Viðhaldsáætlun
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-schedule.md
+            - name: Kostnaður viðhaldsáætlunar
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-schedule-cost.md
+            - name: Stofna verkbeiðnir
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/creating-work-orders.md
+            - name: Niðurtími vegna viðhalds
+              href: ../supply-chain/asset-management/preventive-and-reactive-maintenance/maintenance-stop.md
+        - name: Afkastageta áætluð
+          items:
+            - name: Reikna álag
+              href: ../supply-chain/asset-management/capacity-planning/calculate-capacity-load.md
+            - name: Reikna vöruspá
+              href: ../supply-chain/asset-management/capacity-planning/calculate-item-forecast.md
+        - name: Áætlanagerð verkbeiðni
+          items:
+            - name: Dagatal og áætlanagerð viðhaldsstarfskrafts
+              href: ../supply-chain/asset-management/work-order-scheduling/maintenance-worker-calendar-and-scheduling.md
+            - name: Æskilegir viðhaldsstarfskraftar
+              href: ../supply-chain/asset-management/work-order-scheduling/preferred-maintenance-workers.md
+            - name: Áætla verkbeiðnir
+              href: ../supply-chain/asset-management/work-order-scheduling/schedule-work-orders.md
+            - name: Afgreiða verkbeiðni
+              href: ../supply-chain/asset-management/work-order-scheduling/dispatch-work-order.md
+            - name: Áætla verkbeiðni á ákveðnum degi og tíma
+              href: ../supply-chain/asset-management/work-order-scheduling/schedule-work-order-on-specific-date-and-time.md
+            - name: Áætlaðar verkbeiðnir viðhaldsvinnsla
+              href: ../supply-chain/asset-management/work-order-scheduling/scheduled-work-order-maintenance-jobs.md
+            - name: Reikna álag á áætlaðar verkbeiðnir
+              href: ../supply-chain/asset-management/work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md
+        - name: Notkun
+          items:
+            - name: Skrá notkun
+              href: ../supply-chain/asset-management/consumption/register-consumption.md
+            - name: Búa til notkunarskýrslur
+              href: ../supply-chain/asset-management/consumption/create-consumption-reports.md
+        - name: Ábyrgð
+          items:
+            - name: Ábyrgðarsamningur
+              href: ../supply-chain/asset-management/warranty/warranty-agreement.md
+            - name: Ábyrgð á eignum og eignagerðum
+              href: ../supply-chain/asset-management/warranty/warranty-on-assets-and-asset-types.md
+        - name: Fjárhagsáætlanir viðhalds
+          items:
+            - name: Fjárhagsáætlanir viðhalds
+              href: ../supply-chain/asset-management/maintenance-budgets/create-maintenance-budget.md
+            - name: Uppfæra fjárhagsáætlanir viðhalds
+              href: ../supply-chain/asset-management/maintenance-budgets/update-maintenance-budget.md
+        - name: Stýring og skýrslugerð
+          items:
+            - name: Stjórnun kostnaðar og dagsetningar
+              href: ../supply-chain/asset-management/controlling-and-reporting/cost-and-date-control.md
+            - name: Stjórnun vinnustunda
+              href: ../supply-chain/asset-management/controlling-and-reporting/work-hour-control.md
+            - name: Kostnaðarstýring eignavillu
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-fault-cost-control.md
+            - name: Bilanagreining eignar
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-fault-analysis.md
+            - name: Afkastavísar (KPI) eignar
+              href: ../supply-chain/asset-management/controlling-and-reporting/asset-kpis.md
+            - name: Notkunarstaður vöru
+              href: ../supply-chain/asset-management/controlling-and-reporting/item-where-used.md
+            - name: Staða viðhalds
+              href: ../supply-chain/asset-management/controlling-and-reporting/maintenance-status.md
+        - name: Gagnastjórnun
+          items:
+            - name: Markeiningar
+              href: ../supply-chain/asset-management/data-management/target-entities.md
+    - name: Aðaláætlanagerð
+      items:
+        - name: Aðaláætlanagerð – heimasíða
+          href: ../supply-chain/master-planning/master-planning-home-page.md
+        - name: Aðaláætlanir
+          items:
+            - name: Yfirlit aðaláætlana
+              href: ../supply-chain/master-planning/master-plans.md
             - name: Setja upp aðaláætlanir
               href: ../supply-chain/master-planning/master-planning-setup.md
             - name: Leiðsagnarforrit fyrir uppsetningu áætlanagerðar
@@ -3304,8 +3709,9 @@
             - name: Bæta frammistöðu aðaláætlunargerðar
               href: ../supply-chain/master-planning/master-planning-performance.md
             - name: Aðaláætlanir og virkni á mörgum svæðum
-              href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
               items:
+                - name: Yfirlit yfir aðaláætlanir og virkni á mörgum svæðum
+                  href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
                 - name: 'Aðaláætlanagerð fyrir þekju svæðis, vöruhús áskilið'
                   href: ../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md
                 - name: 'Aðaláætlanagerð fyrir þekju svæðis, vöruhús ekki áskilið'
@@ -3327,8 +3733,9 @@
             - name: Vinna með birgjum innri aðfangakeðju
               href: ../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md
         - name: Eftirspurnarspá
-          href: ../supply-chain/master-planning/introduction-demand-forecasting.md
           items:
+            - name: Yfirlit eftirspurnarspár
+              href: ../supply-chain/master-planning/introduction-demand-forecasting.md
             - name: Uppsetning eftirspurnarspár
               href: ../supply-chain/master-planning/demand-forecasting-setup.md
             - name: Flytja inn eldri gögn fyrir eftirspurnarspár
@@ -3349,12 +3756,14 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Breyta eftirspurnarspá handvirkt
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Fartækjaforrit
-      href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
+    - name: Dynamics 365 for Unified Operations fartækjaforrit
       items:
-        - name: Tiltæk fartækjavinnusvæði
-          href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
+        - name: Dynamics 365 for Unified Operations fartækjaforrit – heimasíða
+          href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
+        - name: Fartækjavinnusvæði
           items:
+            - name: Tiltæk fartækjavinnusvæði
+              href: ../dev-itpro/mobile-apps/mobile-workspaces-released.md?toc=/fin-and-ops/toc.json
             - name: Skráasafn fyrirtækisins
               href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/fin-and-ops/toc.json
             - name: Kostnaðarstýring
@@ -3367,11 +3776,11 @@
               href: ../dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/fin-and-ops/toc.json
             - name: Hópurinn minn
               href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/fin-and-ops/toc.json
-            - name: Yfirlit yfir farsímaforrit verks
+            - name: Yfirlit yfir fartækjaforrit Project
               href: ../financials/project-management/project-mobile-application-overview.md
             - name: Vinnustundafærsla verks
               href: ../financials/project-management/project-time-entry-mobile-workspace.md
-            - name: Vinnukort fyrir verk
+            - name: Project Timesheet
               href: ../financials/project-management/project-timesheet.md
             - name: Samþykki innkaupapöntunar
               href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
@@ -3382,8 +3791,9 @@
         - name: Birta fartækjavinnusvæði
           href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/fin-and-ops/toc.json
     - name: Office-samþætting
-      href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
       items:
+        - name: Yfirlit yfir Office-samþættingu
+          href: ../dev-itpro/office-integration/office-integration.md?toc=/fin-and-ops/toc.json
         - name: Kennsla í Office-samþættingu
           href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/fin-and-ops/toc.json
         - name: Opna einingagögn í Excel og uppfæra þau með því að nota Excel-innbótina
@@ -3401,25 +3811,29 @@
         - name: Nota úrræðaleit fyrir Office-samþættingu
           href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/fin-and-ops/toc.json
     - name: Innkaup og aðföng
-      href: ../supply-chain/procurement/procurement-sourcing-overview.md
       items:
+        - name: Yfirlit yfir innkaup og aðföng
+          href: ../supply-chain/procurement/procurement-sourcing-overview.md
         - name: Verkflæði innkaupa og aðfanga
           href: ../supply-chain/procurement/procurement-sourcing-workflows.md
         - name: Innkaupavörulistar
-          href: ../supply-chain/procurement/procurement-catalogs.md
           items:
+            - name: Yfirlit innkaupavörulista
+              href: ../supply-chain/procurement/procurement-catalogs.md
             - name: Stofna innkaupavörulista
               href: ../supply-chain/procurement/tasks/create-procurement-catalog.md
             - name: Setja upp stigveldi innkaupategundar
               href: ../supply-chain/procurement/tasks/set-up-procurement-category-hierarchy.md
         - name: Innkaupabeiðnir
-          href: ../supply-chain/procurement/purchase-requisitions-overview.md
           items:
+            - name: Yfirlit innkaupabeiðna
+              href: ../supply-chain/procurement/purchase-requisitions-overview.md
             - name: Verkflæði innkaupabeiðni
               href: ../supply-chain/procurement/purchase-requisitions-workflow.md
         - name: Beiðni um tilboð
-          href: ../supply-chain/procurement/request-quotations.md
           items:
+            - name: Yfirlit yfir beiðni um tilboð
+              href: ../supply-chain/procurement/request-quotations.md
             - name: Stofna beiðni um tilboð
               href: ../supply-chain/procurement/tasks/create-request-quotation.md
             - name: Stofna beiðni sem notar tilboðsbeiðni
@@ -3471,8 +3885,9 @@
             - name: Eftirágreiddur afsláttur lánardrottins
               href: ../supply-chain/procurement/vendor-rebates.md
         - name: Innkaupareglur
-          href: ../supply-chain/procurement/purchase-policies.md
           items:
+            - name: Yfirlit yfir innkaupareglur
+              href: ../supply-chain/procurement/purchase-policies.md
             - name: Stofna innkaupastefnu
               href: ../supply-chain/procurement/tasks/create-purchasing-policies.md
             - name: Setja upp reglur fyrir stigveldi innkaupategunda
@@ -3530,18 +3945,21 @@
             - name: Senda inn og samþykkja endurskoðun á fjárhagsáætlunum verka
               href: ../supply-chain/procurement/tasks/submit-approve-project-budget-revision.md
     - name: Fyrirtækisstjórnun
-      href: organization-administration/organization-administration-home-page.md
       items:
+        - name: Fyrirtækisstjórnun – heimasíða
+          href: organization-administration/organization-administration-home-page.md
         - name: Númeraraðir
-          href: organization-administration/number-sequence-overview.md
           items:
+            - name: Yfirlit númeraraða
+              href: organization-administration/number-sequence-overview.md
             - name: Uppsetning númeraraða á einstaklingsgrunni
               href: organization-administration/tasks/set-up-number-sequences-individual-basis.md
             - name: Uppsetning númeraraða með leiðsögn
               href: organization-administration/tasks/set-up-number-sequences-wizard.md
         - name: Fyrirtæki og fyrirtækjastigveldi
-          href: organization-administration/organizations-organizational-hierarchies.md
           items:
+            - name: Yfirlit yfir fyrirtæki og fyrirtækjastigveldi
+              href: organization-administration/organizations-organizational-hierarchies.md
             - name: Skipuleggja stigveldi fyrirtækisins
               href: organization-administration/plan-organizational-hierarchy.md
             - name: Stofna stigveldi fyrirtækis/stofnunar
@@ -3551,8 +3969,9 @@
             - name: Stofna rekstrareiningar
               href: organization-administration/tasks/create-operating-unit.md
         - name: Altæk aðsetursbók
-          href: organization-administration/overview-global-address-book.md
           items:
+            - name: Yfirlit yfir altæka aðsetursbók
+              href: organization-administration/overview-global-address-book.md
             - name: Skipuleggja altæku aðsetursbókina og aðrar aðsetursbækur
               href: organization-administration/plan-configuration-global-address-book-additional-address-books.md
             - name: Skilgreina altæku aðsetursbókina
@@ -3562,8 +3981,9 @@
             - name: Skilgreina aðsetursbók
               href: organization-administration/tasks/address-books.md
         - name: Verkflæðiskerfi
-          href: organization-administration/overview-workflow-system.md
           items:
+            - name: Yfirlit yfir verkflæðiskerfi
+              href: organization-administration/overview-workflow-system.md
             - name: Kerfisskipulag verkflæðis
               href: organization-administration/workflow-system-architecture.md
             - name: Verkflæðiseiningar
@@ -3571,8 +3991,9 @@
             - name: Verkflæðisaðgerðir
               href: organization-administration/workflow-actions.md
             - name: Stofna verkflæði
-              href: organization-administration/create-workflow.md
               items:
+                - name: Yfirlit yfir stofnun verkflæðis
+                  href: organization-administration/create-workflow.md
                 - name: Skilgreina verkflæðiseiginleika
                   href: organization-administration/configure-workflow-properties.md
                 - name: Skilgreina handvirk verk
@@ -3624,8 +4045,9 @@
             - name: Algengar spurningar um verkflæði
               href: organization-administration/workflow-FAQ.md
         - name: Viðvaranir
-          href: get-started/alerts-overview.md
           items:
+            - name: Yfirlit yfir viðvaranir
+              href: get-started/alerts-overview.md
             - name: Stofna viðvörunarreglur
               href: get-started/create-alerts.md
             - name: Runuvinnsla viðvarana
@@ -3633,18 +4055,21 @@
             - name: Viðvörunartilkynningar biðlara með tölvupósti
               href: get-started/alert-email-notifications.md
         - name: Rafrænar undirskriftir
-          href: organization-administration/electronic-signature-overview.md
           items:
+            - name: Yfirlit rafrænna undirskrifta
+              href: organization-administration/electronic-signature-overview.md
             - name: Uppsetning rafrænna undirskrifta
               href: organization-administration/tasks/set-up-electronic-signatures.md
         - name: Málastjórnun
-          href: organization-administration/cases.md
           items:
+            - name: Málastjórnunaryfirlit
+              href: organization-administration/cases.md
             - name: 'Skipuleggja öryggi, vinnslu og flokkun mála'
               href: organization-administration/plan-case-management.md
         - name: Skrá sniðmát
-          href: organization-administration/record-templates.md
           items:
+            - name: Yfirlit sniðmátsskráningar
+              href: organization-administration/record-templates.md
             - name: Stofna færslusniðmát
               href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
             - name: Nota færslusniðmát til að búa til nýja færslu
@@ -3656,8 +4081,9 @@
         - name: Dagsetningar-/tímagögn og tímabelti
           href: organization-administration/date-time-zones.md
     - name: Framleiðslustýring
-      href: ../supply-chain/production-control/production-process-overview.md
       items:
+        - name: Yfirlit yfir framleiðsluferli
+          href: ../supply-chain/production-control/production-process-overview.md
         - name: 'Blönduð áætlun: sameining afmörkunar, vinnslu og lean-uppruna'
           href: ../supply-chain/production-control/mixed-mode-plan.md
         - name: Stjórnun úthýsingarvinnu í framleiðslu
@@ -3721,8 +4147,9 @@
             - name: Keyra framleiðsluverk
               items:
                 - name: Stjórna líftíma framleiðslupöntunar
-                  href: ../supply-chain/production-control/create-production-orders.md
                   items:
+                    - name: Yfirlit yfir stjórnun líftíma framleiðslupöntunar
+                      href: ../supply-chain/production-control/create-production-orders.md
                     - name: Stofna framleiðslupöntun
                       href: ../supply-chain/production-control/tasks/create-production-order.md
                     - name: Áætla framleiðslupöntun
@@ -3782,8 +4209,9 @@
                 - name: Framleiðslubókun
                   href: ../supply-chain/cost-management/production-posting.md
             - name: Skráning tíma og viðveru
-              href: ../supply-chain/production-control/time-attendance-registrations.md
               items:
+                - name: Yfirlit yfir skráningu tíma og mætingu
+                  href: ../supply-chain/production-control/time-attendance-registrations.md
                 - name: Laun byggð á skráningum
                   href: ../supply-chain/production-control/pay-based-on-registrations.md
                 - name: Fjarveruskráning í Tími og viðvera
@@ -3945,8 +4373,9 @@
                 - name: Framleiðslubókun
                   href: ../supply-chain/cost-management/production-posting.md
     - name: Afurðaupplýsingastjórnun
-      href: ../supply-chain/pim/product-information.md
       items:
+        - name: Yfirlit afurðarupplýsinga
+          href: ../supply-chain/pim/product-information.md
         - name: Afurðarupplýsingar
           items:
             - name: Afurðarkenni
@@ -3972,8 +4401,9 @@
             - name: Stofna útgefna afurð fyrir stakt fyrirtæki
               href: ../supply-chain/pim/tasks/create-released-product-single-company.md
             - name: Líftímastaða afurðar
-              href: ../supply-chain/pim/product-lifecycle.md
               items:
+                - name: Yfirlit yfir líftímastöðu afurðar
+                  href: ../supply-chain/pim/product-lifecycle.md
                 - name: Stofna nýja líftímastöðu afurðar
                   href: ../supply-chain/pim/tasks/new-product-lifecycle-state.md
                 - name: Stofna sjálfgefna líftímastöðu afurðar
@@ -4017,11 +4447,13 @@
             - name: Útreikningur uppskrifta
               href: ../supply-chain/cost-management/bom-calculations.md
         - name: Afurðarafbrigði
-          href: ../supply-chain/pim/build-product-configuration-model.md
           items:
+            - name: Yfirlit afurðarafbrigða
+              href: ../supply-chain/pim/build-product-configuration-model.md
             - name: Stofna skilgreiningu sem byggir á víddum
-              href: ../supply-chain/pim/dimension-based-product-configuration.md
               items:
+                - name: Yfirlit yfir afurðarafbrigði sem byggja á víddum
+                  href: ../supply-chain/pim/dimension-based-product-configuration.md
                 - name: Afurðarvídd
                   href: ../supply-chain/pim/product-dimensions.md
                 - name: Búa til afurðarsniðmát sem byggir á víddum
@@ -4041,8 +4473,9 @@
                 - name: Stofna skilgreiningar sem byggja á víddum
                   href: ../supply-chain/pim/tasks/create-dimension-based-configurations.md
             - name: Stofna skorðuskilgreiningu
-              href: ../supply-chain/pim/set-up-maintain-product-configuration-model.md
               items:
+                - name: Setja upp afbrigðalíkan afurðar
+                  href: ../supply-chain/pim/set-up-maintain-product-configuration-model.md
                 - name: Algengar spurningar um afbrigðalíkan afurðar
                   href: ../supply-chain/pim/calculate-product-configuration-models.md
                 - name: Skilgreiningarregla
@@ -4072,8 +4505,9 @@
                 - name: Flytja gögn fyrir vörulíkan
                   href: ../supply-chain/pim/tasks/transfer-data-product-models.md
     - name: Verkefnastjórnun og bókhald
-      href: ../financials/project-management/overview-project-management-accounting.md
       items:
+        - name: Yfirlit verkefnastjórnunar og bókhalds
+          href: ../financials/project-management/overview-project-management-accounting.md
         - name: Reikningsfærsla innan samstæðu
           href: ../financials/project-management/intercompany-invoicing.md
         - name: Skilgreina reikningagerð fyrir verk innan samstæðu
@@ -4099,23 +4533,25 @@
         - name: Taka við atriðum í innkaupapöntun fyrir vöruþörf
           href: ../financials/project-management/tasks/receive-items-purchase-order-item-requirement.md
         - name: Sundurliðanir verkþátta
-          href: ../financials/project-management/work-breakdown-structures.md
           items:
-            - name: Microsoft Project biðlarasamþætting
+            - name: Yfirlit yfir sundurliðanir verkþátta
+              href: ../financials/project-management/work-breakdown-structures.md
+            - name: Microsoft Project client samþætting
               href: ../financials/project-management/project-integration.md
-        - name: Yfirlit yfir farsímaforrit verks
+        - name: Yfirlit yfir fartækjaforrit Project
           href: ../financials/project-management/project-mobile-application-overview.md
         - name: Vinnustundafærsla verks á fartækjavinnusvæði
           href: ../financials/project-management/project-time-entry-mobile-workspace.md
-        - name: Farsímaforrit fyrir vinnukort verka
+        - name: Farsímaforrit fyrir Project Timesheet
           href: ../financials/project-management/project-timesheet.md
         - name: Vinnukort verka í fartæki
           href: ../financials/project-management/mobile-timesheets.md
-        - name: Innleiða sérstillta reiti fyrir farsímaforrit fyrir vinnukort verka
+        - name: Innleiða sérstillta reiti fyrir fartækjaforrit Project Timesheet
           href: ../financials/project-management/custom-fields-mobile.md
-    - name: Sala og markaðsstarf
-      href: ../supply-chain/sales-marketing/overview-sales-marketing.md
+    - name: Sala og markaðssetning
       items:
+        - name: Yfirlit yfir sölu og markaðsstörf
+          href: ../supply-chain/sales-marketing/overview-sales-marketing.md
         - name: Sölupantanir
           items:
             - name: Pöntun lofað
@@ -4149,8 +4585,9 @@
             - name: Staðfesta sölupantanir
               href: ../supply-chain/sales-marketing/tasks/confirm-sales-orders.md
         - name: Sölusamningar
-          href: ../supply-chain/sales-marketing/sales-agreements.md
           items:
+            - name: Yfirlit sölusamninga
+              href: ../supply-chain/sales-marketing/sales-agreements.md
             - name: Færa inn sölusamninga
               href: ../supply-chain/sales-marketing/tasks/enter-sales-agreements.md
             - name: Uppfylla sölusamninga
@@ -4184,13 +4621,15 @@
         - name: Stofna nýja verðsamning
           href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
     - name: Þjónustustjórnun
-      href: ../supply-chain/service-management/service-management-home-page.md
       items:
+        - name: Þjónustustjórnunaryfirlit
+          href: ../supply-chain/service-management/service-management-home-page.md
         - name: Setja upp þjónustudeild
           items:
             - name: Setja upp þjónustusamninga
-              href: ../supply-chain/service-management/service-agreement-groups.md
               items:
+                - name: Yfirlit þjónustusamninga
+                  href: ../supply-chain/service-management/service-agreement-groups.md
                 - name: Stofna þjónustusamninga
                   href: ../supply-chain/service-management/create-service-agreements.md
                 - name: Þjónustubil
@@ -4204,13 +4643,15 @@
                 - name: Stofna sniðmátsflokk þjónustu
                   href: ../supply-chain/service-management/create-service-template-group.md
             - name: Setja upp þjónustuverklið
-              href: ../supply-chain/service-management/service-tasks.md
               items:
+                - name: Yfirlit yfir þjónustuverk
+                  href: ../supply-chain/service-management/service-tasks.md
                 - name: Stofna tengsl þjónustuverkliða
                   href: ../supply-chain/service-management/create-service-task-relations.md
             - name: Setja upp þjónustuhluti
-              href: ../supply-chain/service-management/service-objects.md
               items:
+                - name: Yfirlit yfir þjónustuhluti
+                  href: ../supply-chain/service-management/service-objects.md
                 - name: Stofna þjónustuhluti
                   href: ../supply-chain/service-management/create-service-task-relations.md
                 - name: Festa birgðavörur við þjónustuhluti
@@ -4230,8 +4671,9 @@
                 - name: Festa sniðmát við þjónustuhluti
                   href: ../supply-chain/service-management/attach-templates-service-objects.md
             - name: Skilgreina ástæðukóða fyrir þjónustupantanir
-              href: ../supply-chain/service-management/reason-codes-service-orders.md
               items:
+                - name: Ástæðukóðar fyrir þjónustupantanir
+                  href: ../supply-chain/service-management/reason-codes-service-orders.md
                 - name: Þjónustupöntunarstig
                   href: ../supply-chain/service-management/service-order-stages.md
                 - name: Setja upp þjónustupöntunarstig
@@ -4239,8 +4681,9 @@
                 - name: Stofna ástæðukóða
                   href: ../supply-chain/service-management/create-reason-codes.md
             - name: Setja upp þjónustusamninga og áskriftir
-              href: ../supply-chain/service-management/service-level-agreements.md
               items:
+                - name: Yfirlit þjónustustigssamninga
+                  href: ../supply-chain/service-management/service-level-agreements.md
                 - name: Áskriftarsöluverð
                   href: ../supply-chain/service-management/subscription-sales-prices.md
                 - name: Áskriftarflokkar
@@ -4254,8 +4697,9 @@
             - name: Setja upp viðgerðastjórnun
               href: ../supply-chain/service-management/repair-management.md
             - name: Setja upp skil viðskiptavina
-              href: ../supply-chain/service-management/disposition-and-return-reason-codes.md
               items:
+                - name: Yfirlit yfir skil viðskiptavina
+                  href: ../supply-chain/service-management/disposition-and-return-reason-codes.md
                 - name: Setja upp ráðstöfunarkóða
                   href: ../supply-chain/service-management/set-up-disposition-codes.md
                 - name: Setja upp ástæðukóða skila
@@ -4263,14 +4707,17 @@
                 - name: Tilgreina hvað gera eigi við skilavörur
                   href: ../supply-chain/service-management/specify-how-to-dispose-of-returned-items.md
         - name: Vinna með þjónustudeild
-          href: ../supply-chain/service-management/working-with-customer-service.md
           items:
+            - name: Yfirlit yfir þjónustudeildir sem unnið er með
+              href: ../supply-chain/service-management/working-with-customer-service.md
             - name: Uppfylla þjónustusamninga
-              href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
               items:
+                - name: Yfirlit yfir uppfyllta þjónustusamninga
+                  href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
                 - name: Þróa og koma á samningum
-                  href: ../supply-chain/service-management/service-agreements.md
                   items:
+                    - name: Yfirlit yfir þróaða og innleidda þjónustusamninga
+                      href: ../supply-chain/service-management/service-agreements.md
                     - name: Stofna þjónustusamninga
                       href: ../supply-chain/service-management/create-service-agreements.md
                     - name: Þjónustuáskriftir
@@ -4296,8 +4743,9 @@
                     - name: Uppfæra og atriðaskrá söluverð í áskrift
                       href: ../supply-chain/service-management/update-and-index-subscription-sales-prices.md
             - name: Vinna með fyrirspurnir viðskiptavina
-              href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
               items:
+                - name: Yfirlit yfir uppfyllta þjónustusamninga
+                  href: ../supply-chain/service-management/fulfill-service-agreements-overview.md
                 - name: Hefja og stöðva tímaskráningu fyrir þjónustupöntun
                   href: ../supply-chain/service-management/start-and-stop-time-recording-on-a-service-order.md
                 - name: Skoða upphafstíma og tímalengd þjónustupöntunar
@@ -4407,8 +4855,9 @@
                     - name: Reikningsfæra áskriftarfærslur
                       href: ../supply-chain/service-management/invoice-subscription-transactions.md
     - name: Flutningsstjórnun
-      href: ../supply-chain/transportation/transportation-management-overview.md
       items:
+        - name: Yfirlit flutningsstjórnunar
+          href: ../supply-chain/transportation/transportation-management-overview.md
         - name: Flutningsstjórnunarvélar
           href: ../supply-chain/transportation/transportation-management-engines.md
         - name: Stofna nýja flutningsstjórnunarvél
@@ -4420,8 +4869,9 @@
         - name: Áætlun flutningsleiða farms
           href: ../supply-chain/transportation/plan-freight-transportation-routes-multiple-stops.md
         - name: Áætlun farms með samstæðustöð
-          href: ../supply-chain/transportation/plan-loads-hub-consolidation.md
           items:
+            - name: Yfirlit yfir áætlun farms með samstæðustöð
+              href: ../supply-chain/transportation/plan-loads-hub-consolidation.md
             - name: Áætla farm og sendingar með vinnusvæðinu Farmáætlun
               href: ../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md
         - name: Telja þyngd og rúmtak gáms með sem farm
@@ -4451,11 +4901,13 @@
         - name: Setja upp flutningsskorður fyrir vöru
           href: ../supply-chain/transportation/tasks/set-up-transportation-constraints-item.md
     - name: Vöruhúsakerfi
-      href: ../supply-chain/warehousing/warehouse-management-overview.md
       items:
+        - name: Yfirlit yfir vöruhúsakerfi
+          href: ../supply-chain/warehousing/warehouse-management-overview.md
         - name: Skilgreining vöruhúss
-          href: ../supply-chain/warehousing/warehouse-configuration.md
           items:
+            - name: Yfirlit yfir skilgreiningu vöruhúss
+              href: ../supply-chain/warehousing/warehouse-configuration.md
             - name: Setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss
               href: ../supply-chain/inventory/warehouse-template.md
             - name: Stjórnun vinnu með vinnusniðmátum og staðsetningarleiðbeiningum
@@ -4485,8 +4937,9 @@
             - name: Setja upp vöruhús fyrir flutningspantanir
               href: ../supply-chain/warehousing/transfer-orders-warehouse.md
         - name: Vinnureglur vöruhúss
-          href: ../supply-chain/warehousing/warehouse-work-policies.md
           items:
+            - name: Yfirlit yfir vinnureglur vöruhúss
+              href: ../supply-chain/warehousing/warehouse-work-policies.md
             - name: Setja upp vinnureglur vöruhúss
               href: ../supply-chain/warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
             - name: Hreyfing birgða með tengdri vinnu í vöruhúsakerfi
@@ -4546,8 +4999,9 @@
             - name: Birgðatalning
               href: ../supply-chain/inventory/inventory-tag-counting.md
         - name: Áfylling
-          href: ../supply-chain/warehousing/replenishment.md
           items:
+            - name: Yfirlit áfyllingar
+              href: ../supply-chain/warehousing/replenishment.md
             - name: Tafarlaus áfylling
               href: ../supply-chain/warehousing/immediate-replenishment.md
             - name: Áfylling með afturkölluðum kanban
@@ -4555,8 +5009,9 @@
             - name: Setja upp lágmark og hámark fyrir áfyllingarferli
               href: ../supply-chain/warehousing/tasks/set-up-min-max-replenishment-process.md
         - name: Setja upp og skilgreina vöruhúsaforrit
-          href: ../supply-chain/warehousing/install-configure-warehousing-app.md
           items:
+            - name: Yfirlit yfir uppsetningu og skilgreiningu
+              href: ../supply-chain/warehousing/install-configure-warehousing-app.md
             - name: Skilgreining svæðaheita í vöruhúsaforriti
               href: ../supply-chain/warehousing/configure-app-field-names-priorities-warehouse.md
             - name: Uppsetning fartækja fyrir vöruhúsavinnu
