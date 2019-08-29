@@ -1,6 +1,6 @@
 - name: Velkomin(n) í Dynamics 365 for Retail
   href: index.md
-- name: Hafist handa
+- name: Hefjast handa
   items:
     - name: Nýjungar eða breytingar
       href: get-started/whats-new.md
@@ -26,12 +26,13 @@
       href: retail-support.md
     - name: Algengar spurningar um uppfærslureglur fyrir „Ein útgáfa“
       href: ../fin-and-ops/get-started/one-version.md
-- name: Lærðu á innleiðingarferlið
-  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+- name: Stjórnun innleiðingarferlis
   items:
+    - name: Heimasíða stjórnunar innleiðingarferlis
+      href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
     - name: Microsoft FastTrack for Dynamics 365
       href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
-    - name: Ráðstafanir vegna nýrra starfsmanna
+    - name: Innleiðing
       href: ../fin-and-ops/imp-lifecycle/onboard.md
     - name: Undirbúningur fyrir keyrslu
       href: ../fin-and-ops/imp-lifecycle/prepare-go-live.md
@@ -165,6 +166,8 @@
       href: retail-hardware-station-configuration-installation.md
     - name: Tími og viðvera í Retail
       href: retail-time-attendance.md
+    - name: Búa til og breyta afgreiðslutíma verslunar
+      href: dev-itpro/store-hours.md
 - name: Nútíma sölustaður (MPOS) og sölukerfi í skýinu
   items:
     - name: Velja á milli MPOS og sölukerfis í skýinu
@@ -319,6 +322,8 @@
       href: set-up-retail-products.md
     - name: Stjórna Retail-afurðaflokkum og afurðum
       href: category-management-product-creation.md
+    - name: Breyta röð smásölueininga
+      href: custom-order-categories-nav-retail-prod-hierarchy.md
     - name: Afurðarvíddir
       href: ../supply-chain/pim/product-dimensions.md
     - name: Setja upp strikamerki
@@ -500,13 +505,14 @@
     - name: Skilgreina starfsmenn í smásölu
       href: tasks/worker.md
 - name: Hönnun og stjórnun Retail
-  href: dev-itpro/dev-retail-home-page.md
   items:
+    - name: Retail fyrir fagfólk í upplýsingatækni og þróunaraðila
+      href: dev-itpro/dev-retail-home-page.md
     - name: Skipulag
       items:
         - name: Retail-íhlutir
           href: retail-components.md
-        - name: Skipulag Retail-þjóns
+        - name: Skipulag Retail Server
           href: dev-itpro/retail-server-architecture.md
         - name: Velja grannfræði í verslun
           href: dev-itpro/retail-in-store-topology.md
@@ -598,6 +604,8 @@
           href: dev-itpro/view-pos-extension-package-details.md
     - name: Hardware Station og stækkunarhæfni
       href: dev-itpro/hardware-station-extensibility.md
+    - name: Samþætta POS við nýjan vélbúnað
+      href: dev-itpro/hardware-device-extension.md
     - name: Stækkunarhæfni Retail Server
       items:
         - name: Stækka Retail Server OData-stýringu
@@ -655,8 +663,9 @@
         - name: Kveikja á vörn gegn tvítekinni greiðslu fyrir greiðslutengil
           href: dev-itpro/duplicate-payment-protection.md
     - name: Retail SDK
-      href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
+        - name: Skipulag Retail SDK
+          href: dev-itpro/retail-sdk/retail-sdk-overview.md
         - name: Væntanlegar breytingar í Retail SDK
           href: dev-itpro/UpcomingSDKChanges.md
         - name: Sameina byggingarkerfin fyrir Retail og Finance and Operations
@@ -667,9 +676,8 @@
           href: dev-itpro/retail-sdk/retail-sdk-packaging.md
         - name: Dæmi um Retail SDK
           href: dev-itpro/retail-sdk/retail-sdk-samples.md
-          items:
-            - name: Viðbótarpunktar fyrir fylgiseðla
-              href: dev-itpro/extensions-shipping-carrier-integration.md
+        - name: Viðbótarpunktar fyrir fylgiseðla
+          href: dev-itpro/extensions-shipping-carrier-integration.md
         - name: Viðbætur fyrir gagnagrunna rása
           href: dev-itpro/channel-db-extensions.md
         - name: Virkja sérstillta CDX-samstillingu gegnum viðbót

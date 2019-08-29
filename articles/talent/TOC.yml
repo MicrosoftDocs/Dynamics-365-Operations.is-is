@@ -1,13 +1,21 @@
 - name: Dynamics 365 for Talent
   href: index.md
   items:
-    - name: Hafist handa
+    - name: Hefjast handa
       items:
         - name: Hafist handa með Talent
           href: talent-get-started.md
         - name: Nýjungar eða breytingar í Talent
           href: whats-new.md
           items:
+            - name: 22. ágúst 2019
+              href: whats-new-talent-august-21-2019.md
+            - name: 13. ágúst 2019
+              href: whats-new-talent-august-15-2019.md
+            - name: 6. ágúst 2019
+              href: whats-new-talent-august-7-2019.md
+            - name: 30. júlí 2019
+              href: whats-new-talent-july-31-2019.md
             - name: 23. júlí 2019
               href: whats-new-talent-july-24-2019.md
             - name: 16. júlí 2019
@@ -24,16 +32,16 @@
               href: whats-new-talent-june-11-2019.md
             - name: 4. júní 2019
               href: whats-new-talent-june-4-2019.md
-            - name: 28. maí 2019
-              href: whats-new-talent-may-28-2019.md
-            - name: 21. maí 2019
-              href: whats-new-talent-may-21-2019.md
-            - name: 13. maí 2019
-              href: whats-new-talent-may-13-2019.md
-            - name: 6. maí 2019
-              href: whats-new-talent-may-6-2019.md
             - name: Safnvistaðar nýjungar 2019
               items:
+                - name: 28. maí 2019
+                  href: whats-new-talent-may-28-2019.md
+                - name: 21. maí 2019
+                  href: whats-new-talent-may-21-2019.md
+                - name: 13. maí 2019
+                  href: whats-new-talent-may-13-2019.md
+                - name: 6. maí 2019
+                  href: whats-new-talent-may-6-2019.md
                 - name: 30. apríl 2019
                   href: whats-new-talent-april-30-2019.md
                 - name: 25. apríl 2019
@@ -204,6 +212,8 @@
               href: departments-jobs-positions.md
             - name: Setja upp íhluti verks
               href: create-job.md
+            - name: Einfaldaður innsláttur og skoðun starfsmanns
+              href: streamlined-employee-entry.md
             - name: Stofna deildir og hafa þær með í stigveldi deilda
               href: create-department-add-department-hierarchy.md
             - name: Setja upp mannauðsfæribreytur þvert á lögaðila
