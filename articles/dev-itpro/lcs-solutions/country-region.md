@@ -1,9 +1,9 @@
 ---
-title: Staðfæring
+title: Altæk tilföng
 description: Í þessu efnisatriði er að finna tilfangalista sem veitir frekari upplýsingar um sértæka virkni og framboð fyrir lönd/svæði.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/01/2019
+ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d2fe0b357edf3594aa7d795eb2a15f03a886d79
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 668a24c54ded798658a136b8482823b595962306
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1850616"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864967"
 ---
-# <a name="globalization"></a>Staðfæring
+# <a name="globalization-resources"></a>Altæk tilföng
 
 ## <a name="local-and-regional-deployments"></a>Staðbundin og svæðisbundin uppsetning
 Ef reglugerðir stjórnvalda í þínu landi krefjast þess að gögn séu geymd eða þjónustu við þau sinnt með öðrum hætti en krafist er fyrir önnur lönd/svæði kann þess að vera krafist að þú takir tillit til ákveðinna þátta við notkun Finance and Operations. Líttu á eftirfarandi tilföng sem kunna að eiga við um þig:
@@ -46,9 +46,9 @@ Microsoft Dynamics 365 for Finance and Operations býður upp á aðgerðir fyri
 ### <a name="developing-localized-solutions"></a>Þróun staðbundinna lausna
 Eftirfarandi tilföng veita leiðbeiningar og upplýsingar sem geta gagnast þróunaraðilum og óháðum hugbúnaðarsölum við gerð sérstillinga fyrir land/svæði eða við gerð lausna fyrir lönd sem Microsoft styður ekki.
 -   [Aðskilin staðfærslulíkön](separate-localization-models.md)
--   [Notkun lands-/svæðistengds samhengis](apply-country-context.md)
+-   [Nota lands-/svæðistengt samhengi](apply-country-context.md)
 -   [Regluvottanir](regulatory-certifications.md)
--   [Flokkun staðfærslueiginleika](classify-localization-features.md)
+-   [Flokka staðfærslueiginleika](classify-localization-features.md)
 -   [Landsnúmer – ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
 ### <a name="regulatory-updates-and-communication"></a>Regluuppfærslur og samskipti

@@ -5,13 +5,15 @@
 - name: Kerfiskröfur fyrir uppsetningu á staðnum
   href: ../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json
 - name: Sýnigögn
-  href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
   items:
+    - name: Yfirlit yfir sýnigögn
+      href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
     - name: Búa til sýnigögn með gagnapakka
       href: data-entities/generate-demo-data-packages.md
 - name: Þróa og sérstilla
-  href: dev-tools/developer-home-page.md
   items:
+    - name: Þróa og sérstilla heimasíðu
+      href: dev-tools/developer-home-page.md
     - name: Forritsstafli og skipulag þjóns
       href: dev-tools/application-stack-server-architecture.md
     - name: Sækja prufueintak
@@ -19,8 +21,9 @@
     - name: Skráðu þig fyrir prufuáskriftum
       href: dev-tools/sign-up-preview-subscription.md
     - name: Uppsetning og aðgangur að þróunarumhverfi
-      href: dev-tools/access-instances.md
       items:
+        - name: Þróunarumhverfi
+          href: dev-tools/access-instances.md
         - name: Skilgreina heildrænt þróunarumhverfi
           href: dev-tools/configure-developer-vm.md
         - name: Stofna nýja notendur á þróunarvélum
@@ -58,8 +61,9 @@
         - name: Eiginleikar kóðaritils
           href: dev-tools/code-editor.md
         - name: Búa til líkan og gagnalíkanseiningar
-          href: dev-tools/create-data-model-elements.md
           items:
+            - name: Búa til yfirlit yfir líkön og gagnalíkanseiningar
+              href: dev-tools/create-data-model-elements.md
             - name: Leiðbeiningar um heiti viðbóta
               href: extensibility/NamingGuidelines.md
             - name: Slökkva á sérstillingu líkans og afskriftavirkni
@@ -86,8 +90,6 @@
       items:
         - name: X++ og kembieiginleikar
           href: dev-tools/new-x-debugger-features.md
-        - name: Kemba X++ með hliðsjón af afritum framleiðslugagnagrunna
-          href: dev-tools/debug-x-issue-against-copy-of-production.md
         - name: Kemba X++ kóða
           href: dev-tools/debug-xpp.md
         - name: EventHandlerResult-klasar í sviðsmyndum tengdum beiðnum og svörum
@@ -104,7 +106,7 @@
           href: dev-ref/application-explorer-aot-properties.md
         - name: Leiðbeiningar um X++ forritunarmálið
           items:
-            - name: Leiðbeiningar um X++ forritunarmálið
+            - name: Yfirlit yfir leiðbeiningar um X++ forritunarmálið
               href: dev-ref/xpp-language-reference.md
             - name: Breytur og gagnagerðir
               items:
@@ -135,7 +137,19 @@
             - name: Forgangur X++ virkis
               href: dev-ref/xpp-operator-precedence.md
             - name: X++ klasar og aðferðir
-              href: dev-ref/xpp-classes-methods.md
+              items:
+                - name: Klasar og aðferðir
+                  href: dev-ref/xpp-classes-methods.md
+                - name: Arfur
+                  href: dev-ref/xpp-inheritance.md
+                - name: Fastir klasameðlimir
+                  href: dev-ref/xpp-static-classes.md
+                - name: Viðmót
+                  href: dev-ref/xpp-interfaces.md
+                - name: Söfn
+                  href: dev-ref/xpp-library-objects.md
+                - name: Tilvik
+                  href: dev-ref/xpp-events.md
             - name: X++ gagnaval og beiting
               href: dev-ref/xpp-data-query.md
             - name: Gagnaaðgangur með SysDa API
@@ -149,13 +163,15 @@
             - name: Málskipan X++
               href: dev-ref/xpp-syntax.md
     - name: 'API, klasi og töflutilvísun'
-      href: dev-ref/api-reference.md
       items:
+        - name: 'API, klasi og töflutilföng'
+          href: dev-ref/api-reference.md
         - name: Þýðingartímaföll í X++
           href: dev-ref/xpp-compile-time-functions.md
         - name: Keyrslutímaföll í X++
-          href: dev-ref/xpp-run-time-functions.md
           items:
+            - name: Tilföng keyrslutímafalla í X++
+              href: dev-ref/xpp-run-time-functions.md
             - name: Viðskiptakeyrslutímaföll í X++
               href: dev-ref/xpp-business-run-time-functions.md
             - name: Geymiskeyrslutímaföll í X++
@@ -409,8 +425,9 @@
         - name: SysTest-síun með því að nota flokka og aðferðareigindir
           href: perf-test/systest-filtering.md
         - name: Safn samþykktarprófana
-          href: perf-test/acceptance-test-library.md
           items:
+            - name: Tilföng fyrir safn samþykktarprófana
+              href: perf-test/acceptance-test-library.md
             - name: Leiðsagnarhugtök
               href: perf-test/concepts-navigation.md
             - name: Prófa gagnaaðferðir
@@ -438,8 +455,9 @@
     - name: Leyfisveiting óháðra hugbúnaðarsala á staðnum
       href: dev-tools/isv-licensing-on-prem.md
 - name: Þróun á notandaviðmóti
-  href: user-interface/user-interface-development-home-page.md
   items:
+    - name: Þróun á notandaviðmóti – heimasíða
+      href: user-interface/user-interface-development-home-page.md
     - name: Kennsla
       items:
         - name: Smíða skjámynd leigugjaldsgerðar
@@ -633,18 +651,21 @@
         - name: Biðminnisvistun reits og lista fyrir vinnusvæði
           href: user-interface/tile-list-caching-workspaces.md
     - name: Verkskráning
-      href: user-interface/task-recorder.md
       items:
+        - name: Tilföng verkskráningar
+          href: user-interface/task-recorder.md
         - name: Flýtitilvísun verkskráningar
           href: user-interface/task-recorder-quick-reference.md
         - name: Búa til fylgiskjöl eða þjálfun með verkskráningum
           href: user-interface/task-recorder-training-docs.md
 - name: Fartækjaverkvangur
-  href: mobile-apps/platform/mobile-platform-home-page.md
   items:
-    - name: Hafist handa
-      href: mobile-apps/platform/mobile-platform-getting-started.md
+    - name: Tilföng fartækjaverkvangs
+      href: mobile-apps/platform/mobile-platform-home-page.md
+    - name: Hefjast handa
       items:
+        - name: Hefjast handa með fartækjaverkvang
+          href: mobile-apps/platform/mobile-platform-getting-started.md
         - name: Atriði sem þarf að hafa í huga við hönnun og skipulag
           href: mobile-apps/platform/mobile-platform-architecture.md
         - name: Viðskiptagrunnstilvik
@@ -678,8 +699,9 @@
         - name: API fyrir hönnun biðlaramegin
           href: mobile-apps/platform/scenarios/client-api-design-overview.md
         - name: API fyrir biðlara
-          href: mobile-apps/platform/client-apis/client-apis-reference.md
           items:
+            - name: API fyrir biðlara – heimasíða
+              href: mobile-apps/platform/client-apis/client-apis-reference.md
             - name: PageState-tölusetning
               href: mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md
             - name: Forritseining
@@ -843,11 +865,13 @@
             - name: ValueMetadata-gerð
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
 - name: Almenna persónuverndarreglugerðin (GDPR)
-  href: gdpr/gdpr-guide.md
   items:
-    - name: Tilföng til að bregðast við gagnabeiðnum tengdum GDPR
-      href: gdpr/gdpr-home-page.md
+    - name: Yfirlit almennu persónuverndarreglugerðarinnar
+      href: gdpr/gdpr-guide.md
+    - name: Bregðast við gagnabeiðnum almennu persónuverndarreglugerðarinnar
       items:
+        - name: Bregðast við tilföngum fyrir gagnabeiðni almennu persónuverndarreglugerðarinnar
+          href: gdpr/gdpr-home-page.md
         - name: Flokkun eigna
           href: gdpr/gdpr-asset-classification-values.md
         - name: Skýrsla um leit að einstaklingi
@@ -863,8 +887,9 @@
         - name: GDPR-gagnabeiðnir fyrir LCS
           href: gdpr/gdpr-lcs.md
 - name: Samfelld afhending
-  href: dev-tools/continuous-delivery-home-page.md
   items:
+    - name: Samfelld afhending – heimasíða
+      href: dev-tools/continuous-delivery-home-page.md
     - name: Algengar spurningar um þróun og samfellda afhendingu
       href: dev-tools/continuous-delivery-faq.md
     - name: Útiloka prófunarpakka úr frálagi smíða
@@ -873,6 +898,24 @@
       href: dev-tools/manage-runtime-packages.md
     - name: Uppfæra útgáfur af líkönum í sjálfvirkum smíðum
       href: dev-tools/version-models-build.md
+- name: Regression Suite Automation Tool
+  items:
+    - name: Yfirlit yfir verkfærið Regression Suite Automation
+      href: perf-test/rsat/rsat-overview.md
+    - name: Uppsetning og grunnstilling
+      href: perf-test/rsat/rsat-install-configure.md
+    - name: Keyra prófunardæmi
+      href: perf-test/rsat/rsat-run.md
+    - name: Framkvæma villuleit á væntanlegum gildum
+      href: perf-test/rsat/rsat-validate-expected.md
+    - name: Samtvinnað prófunardæmi
+      href: perf-test/rsat/rsat-chain-test-cases.md
+    - name: Afleidd prófunardæmi
+      href: perf-test/rsat/rsat-derived-test-cases.md
+    - name: Bestu starfsvenjur
+      href: perf-test/rsat/rsat-best-practices.md
+    - name: Úrræðaleit
+      href: perf-test/rsat/rsat-troubleshooting.md
 - name: Gefa út lausnir með Lifecycle Services
   items:
     - name: Þróa og gefa út
@@ -892,8 +935,9 @@
     - name: Taka öryggisafrit af lausnagagnagrunnum
       href: lcs-solutions/database-backup-lcs-solutions.md
     - name: Staðfærslu- og eftirlitseiginleikar
-      href: lcs-solutions/country-region.md
       items:
+        - name: Altæk tilföng
+          href: lcs-solutions/country-region.md
         - name: Flokkun staðfærslueiginleika
           href: lcs-solutions/classify-localization-features.md
         - name: Nota lands-/svæðistengt samhengi
@@ -907,8 +951,9 @@
         - name: Senda inn lögboðnar viðvaranir
           href: lcs-solutions/submit-localization-alerts.md
 - name: Fjárhagsþróun
-  href: financial/financial-dev-home-page.md
   items:
+    - name: Fjárhagsþróun – heimasíða
+      href: financial/financial-dev-home-page.md
     - name: Umgjörð fjárhagsvíddar
       items:
         - name: Tengsl fjárhagslykla
@@ -968,11 +1013,13 @@
     - name: Setja upp sýniútgáfuumhverfi
       href: deployment/deploy-demo-environment.md
     - name: Uppsetning skýs
-      href: deployment/cloud-deployment-overview.md
       items:
+        - name: Yfirlit yfir uppsetningu skýs
+          href: deployment/cloud-deployment-overview.md
         - name: Sjálfsafgreiðsla uppsetningar
-          href: deployment/infrastructure-stack.md
           items:
+            - name: Yfirlit yfir uppsetningu sjálfsafgreiðslu
+              href: deployment/infrastructure-stack.md
             - name: Setja upp nýtt umhverfi
               href: deployment/deployenvironment-newinfrastructure.md
             - name: Algengar spurningar um uppsetningu
@@ -1000,9 +1047,10 @@
         - name: Staðsetning gagna fyrir Retail
           href: deployment/retail-data-residency.md
     - name: Uppsetning á staðnum
-      href: deployment/on-premises-deployment-landing-page.md
       items:
-        - name: Valkostur fyrir uppsetningu á staðnum
+        - name: Uppsetning á staðnum – heimasíða
+          href: deployment/on-premises-deployment-landing-page.md
+        - name: Yfirlit yfir uppsetningu á staðnum
           href: deployment/on-premises-overview.md
         - name: Áætlun og undirbúningur fyrir uppsetningu á staðnum
           href: deployment/plan-onprem-deployment.md
@@ -1011,8 +1059,9 @@
         - name: Setja upp verk á staðnum
           href: lifecycle-services/lbd-create-lcs-on-prem-project.md
         - name: Setja upp og virkja umhverfi á staðnum
-          href: deployment/setup-deploy-on-premises-environments.md
           items:
+            - name: Setja upp og nota innanhússumhverfi – heimasíða
+              href: deployment/setup-deploy-on-premises-environments.md
             - name: Virkja umhverfi á staðnum í (Platform update 12 og síðari útgáfur)
               href: deployment/setup-deploy-on-premises-pu12.md
             - name: Virkja umhverfi á staðnum í (Platform update 8 og 11)
@@ -1031,8 +1080,14 @@
           href: deployment/on-premises-diagnostics.md
         - name: Setja uppsetningar á staðnum aftur upp
           href: deployment/redeploy-on-prem.md
-        - name: Uppfæra staðbundinn eftirlitsbúnað
-          href: lifecycle-services/update-local-agent.md
+        - name: Umboðsmaður á staðnum
+          items:
+            - name: AD FS Office 365 samhæfi
+              href: deployment/onprem-adfscompatibility.md
+            - name: Forskriftir fyrir og eftir uppsetningu umboðsmanns á staðnum
+              href: lifecycle-services/pre-post-scripts.md
+            - name: Uppfæra staðbundinn eftirlitsbúnað
+              href: lifecycle-services/update-local-agent.md
         - name: Endurskilgreina umhverfi
           href: lifecycle-services/reconfigure-environment.md
         - name: Tengigeta biðlara við internet
@@ -1052,11 +1107,13 @@
         - name: Úrræðaleit vegna vandamála í forritapakka
           href: deployment/deployable-package-troubleshooting.md
 - name: Uppfærslur og bráðabætur
-  href: migration-upgrade/upgrade-home-page.md
   items:
-    - name: Uppfærsla úr AX 2012 í Finance and Operations
-      href: migration-upgrade/upgrade-overview-2012.md
+    - name: Tilföng uppfærslna og bráðabóta
+      href: migration-upgrade/upgrade-home-page.md
+    - name: Uppfæra úr AX 2012
       items:
+        - name: Uppfærsla úr AX 2012 í Finance and Operations
+          href: migration-upgrade/upgrade-overview-2012.md
         - name: AX 2012 uppfærsla - Nota uppfærslugreiningarverkfæri til áætlunar
           href: migration-upgrade/upgrade-analyzer-tool.md
         - name: AX 2012 uppfærsla - Nota kóðauppfærsluþjónustu til að meta vinnu
@@ -1095,9 +1152,10 @@
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: Uppfæra fjárhagsáætlunargerð
               href: migration-upgrade/upgrade-budget-planning.md
-    - name: Flytja gögn úr AX 2009 í Finance and Operations
-      href: migration-upgrade/data-migration-tool.md
+    - name: Flytja gögn úr AX 2009
       items:
+        - name: Flytja gögn úr AX 2009 í Finance and Operations
+          href: migration-upgrade/data-migration-tool.md
         - name: Flutningur AX 2009 - setja upp gagnaflutningsverkfærið
           href: migration-upgrade/install-dmt.md
         - name: Flutningur AX 2009 - búa til kort
@@ -1111,8 +1169,9 @@
         - name: Flutningur AX 2009 - flytja inn pakka
           href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: Kóðaflutningur og uppfærsla
-      href: migration-upgrade/code-migration-home-page.md
       items:
+        - name: Kóðaflutningur og uppfærsla – heimasíða
+          href: migration-upgrade/code-migration-home-page.md
         - name: Undirbúa flutning kóða
           href: migration-upgrade/prepare-migration.md
         - name: Skilgreina vörpun Azure DevOps
@@ -1135,8 +1194,6 @@
           href: migration-upgrade/versions-update-policy.md
         - name: Nota nýjustu uppfærslu verkvangs á umhverfi
           href: migration-upgrade/upgrade-latest-platform-update.md
-        - name: Uppfærsla Dynamics AX-verkvangsins í ágúst-útgáfu 2016
-          href: migration-upgrade/update-platform-each-release.md
         - name: Uppfærsla gagna í þróunar- eða sýniútgáfuumhverfi
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Uppfæra þróunarverkfæri
@@ -1172,8 +1229,9 @@
         - name: Úrelt API (júní 2017)
           href: migration-upgrade/deprecated-apis.md
 - name: Kerfisstjórnun
-  href: sysadmin/system-administration-home-page.md
   items:
+    - name: Kerfisstjórnun – heimasíða
+      href: sysadmin/system-administration-home-page.md
     - name: Bæta tenglum við í lagalega skilmála og persónuverndaryfirlýsingu fyrirtækisins
       href: sysadmin/legal-terms-privacy-statement.md
     - name: Leyfiskóðar og skilgreiningarlyklaskýrsla
@@ -1186,13 +1244,14 @@
       href: sysadmin/pre-configured-system-accounts.md
     - name: Flytja notendur milli fyrirtækja í Azure AD
       href: sysadmin/implement-b2b.md
-    - name: Velja hvenær tími rennur út vegna aðgerðaleysis
-      href: sysadmin/session-idle-timeout.md
-    - name: Öryggi byggt á hlutverkum
-      href: sysadmin/role-based-security.md
+    - name: Öryggi
       items:
+        - name: Öryggi byggt á hlutverkum
+          href: sysadmin/role-based-security.md
         - name: Öryggisskipulag
           href: sysadmin/security-architecture.md
+        - name: Velja hvenær tími rennur út vegna aðgerðaleysis
+          href: sysadmin/session-idle-timeout.md
         - name: Tilbúnar öryggisskýrslur
           href: sysadmin/security-reports.md
         - name: Búa til nýja notendur
@@ -1206,8 +1265,9 @@
         - name: Úthluta notendum á öryggishlutverk
           href: sysadmin/tasks/assign-users-security-roles.md
     - name: Runuvinnsla
-      href: sysadmin/batch-processing-overview.md
       items:
+        - name: Yfirlit runuvinnslu
+          href: sysadmin/batch-processing-overview.md
         - name: Runuvinnsla og runuþjónar
           href: sysadmin/batch-server-overview.md
         - name: Búa til runuvinnslur
@@ -1229,8 +1289,9 @@
         - name: Hætta við runuvinnslu í framkvæmd
           href: sysadmin/batch-abort.md
     - name: Fínstillingarráðgjöf
-      href: sysadmin/optimization-advisor-overview.md
       items:
+        - name: Yfirlit yfir Fínstillingarráðgjöf
+          href: sysadmin/optimization-advisor-overview.md
         - name: Búa til reglur fyrir fínstillingarráðgjöf
           href: sysadmin/create-rules-optimization-advisor.md
     - name: Tilkynna framleiðslustöðvun
@@ -1238,8 +1299,9 @@
 - name: Lifecycle Services
   items:
     - name: Tilföng fyrir Lifecycle Services
-      href: lifecycle-services/lcs.md
       items:
+        - name: Tilföng Lifecycle Services
+          href: lifecycle-services/lcs.md
         - name: LCS fyrir viðskiptavini
           href: lifecycle-services/lcs-works-lcs.md
         - name: LCS fyrir samstarfsaðila
@@ -1257,8 +1319,9 @@
     - name: Vandamálaleit
       href: lifecycle-services/issue-search-lcs.md
     - name: Skilgreiningarstjórnun
-      href: lifecycle-services/configuration-manager-lcs.md
       items:
+        - name: Yfirlit skilgreiningarstjórnunar
+          href: lifecycle-services/configuration-manager-lcs.md
         - name: Setja upp stjórnun skilgreininga
           href: lifecycle-services/set-up-configuration-manager-lcs.md
     - name: Skilgreina kóðauppfærsluþjónustu
@@ -1298,8 +1361,9 @@
     - name: Fyrirspurnabók
       href: lifecycle-services/querycookbook.md
     - name: Microsoft Dynamics 365 Translation Service
-      href: lifecycle-services/translation-service-overview.md
       items:
+        - name: Yfirlit Dynamics 365 Translation Service
+          href: lifecycle-services/translation-service-overview.md
         - name: Þýða notendaviðmótsskrár
           href: lifecycle-services/use-translation-service.md
         - name: Þýða fylgiskjalaskrár
