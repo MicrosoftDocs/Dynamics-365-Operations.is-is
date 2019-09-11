@@ -1,9 +1,9 @@
 ---
-title: Skoða bókaðar virðisaukaskattsfærslur
-description: Hægt er að skoða bókaðar færslur virðisaukaskatts úr ýmsum síða eftir því hvað þarf til að skoða.
+title: Skoða bókaðar VSK-færslur
+description: Þetta efni lýsir nokkrum leiðum til að skoða bókaðar færslur virðisaukaskatts.
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,29 +16,36 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c5668c1cd4325f557d83a2291c8139f65c4d170e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5a2ff8b46d20fa012cbce817ae4e95b4799149ec
+ms.sourcegitcommit: 0e2e4d8419c03a30d2223662ba8d403a28fa31eb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846200"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870869"
 ---
-# <a name="view-posted-sales-tax-transactions"></a>Skoða bókaðar virðisaukaskattsfærslur
+# <a name="view-posted-sales-tax-transactions"></a>Skoða bókaðar VSK-færslur
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Hægt er að skoða bókaðar færslur virðisaukaskatts úr ýmsum síða eftir því hvað þarf til að skoða. Þetta verkefni notar USMF-sýnifyrirtækið.
+Þetta efni lýsir nokkrum leiðum til að skoða bókaðar færslur virðisaukaskatts. Hægt er að skoða bókaðar færslur virðisaukaskatts af ýmsum síðum eftir því hvað þarf að skoða. Þetta verkefni notar USMF-sýnifyrirtækið.
 
-1. Fara í Skattur > Fyrirspurnir og skýrslur > VSK-fyrirspurnir > Bókaður VSK.
-2. Smellt er á Sýna síur.
+# <a name="posted-sales-tax-page"></a>Síðan Bókaður virðisaukaskattur
+
+1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Skattur > Fyrirspurnir og skýrslur > Fyrirspurnir um virðisaukaskatt > Bókaður virðisaukaskattur**.
+2. Veldu **Sýna síur** til að þrengja útsýnið að sérstökum færslum.
 3. Lokið síðunni.
-4. Fara á Skattur > Óbeinir skattar > Virðisaukaskattur > VSK-uppgjörstímabil.
-5. Útvíkka hlutann tímabilum.
-6. Veljið bilið sem óskað er eftir.
-7. Birta bókaðar færslur virðisaukaskatts fyrir valda tímabilið.
-8. Frekar er hægt að sía lista yfir bókaðar virðisaukaskattsfærslur.
-9. Lokið síðunni.
-10. Fara í Skattur > Óbeinir skattar > Virðisaukaskattur- > Vsk-kóðar.
-11. Á Aðgerðasvæðinu skal smellt á Vsk-kóða.
-12. Smellt er á Bókaður virðisaukaskattur.
+
+# <a name="sales-tax-settlement-periods-page"></a>Síðan uppgjörstímabil virðisaukaskatts
+
+1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Skattur > Óbeinir skattar > Virðisaukaskattur- > VSK-uppgjörstímabil**.
+2. Útvíkkaðu hlutann **Tímabil**.
+3. Veljið bilið sem óskað er eftir.
+4. Frekar er hægt að sía lista yfir bókaðar virðisaukaskattsfærslur.
+5. Lokið síðunni.
+
+# <a name="sales-tax-codes-page"></a>Síðan Kóðar virðiskaukaskatts
+
+1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Skattur > Óbeinir skattar > Virðisaukaskattur > Kóðar virðisaukaskatts**.
+2. Á Aðgerðasvæðinu skal velja **Kóði virðisaukaskatts**.
+3. Veldu **Bókaður virðisaukaskattur**.
 

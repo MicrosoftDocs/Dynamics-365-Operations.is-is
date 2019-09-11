@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 9d19987a44c467381828acb81b6161601268d84f
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 43f25796e6271f14acfc72f931398ab63338a307
+ms.sourcegitcommit: b068b17ef708a0b349db8df1542e4244bb983d13
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863061"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870834"
 ---
 # <a name="saved-views"></a>Vistuð yfirlit
 
@@ -153,11 +153,13 @@ Fylgdu skrefunum hér fyrir neðan til að gera vistaðar skoðanir virkar meða
 
 1.  **Virkja flugið**: Framkvæma eftirfarandi SQL staðhæfingu: 
 
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('Dynamics.AX.Application.CLISavedViewsEnableFeature', 1, 0, 5637144576);`
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLISavedViewsEnableFeature', 1, 0, 5637144576);`
 
-2.  **Finndu eiginleikann**: Farðu í **Stjórnun eiginleika** vinnusvæði. Ef **Vistaðar skoðanir** birtist ekki á listanum, veldu hnappinn **Athuga með uppfærslur**.   
+2. **Núllstilla IIS** til að skola fast flýtiminni. 
 
-3.  **Virkja aðgerðina**: Finndu **Vistaðar skoðanir** aðgerðina á listanum yfir aðgerðir, og smelltu á **Virkja núna** hnappinn á smáatriðinu.
+3.  **Finndu eiginleikann**: Farðu í vinnusvæði **Stjórnun eiginleika**. Ef **Vistaðar skoðanir** birtist ekki á listanum velurðu hnappinn **Leita að uppfærslum**.   
+
+4.  **Virkja aðgerðina**: Finndu aðgerðina **Vistaðar skoðanir** á listanum yfir aðgerðir og veldu hnappinn **Virkja núna** á smáatriðinu.
 
 Allar síðari notendatímabil munu byrja með vistaðar skoðanir virka.  
 

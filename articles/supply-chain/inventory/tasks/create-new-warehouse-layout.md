@@ -1,9 +1,9 @@
 ---
 title: Búa til nýtt vöruhúsaútlit
-description: Þessi verklýsing sýnir hvernig á að setja upp upplýsingar um staðsetningar í vöruhúsi.
+description: Þetta efnisatriði lýsir hvernig setja á upp upplýsingar um staðsetningar í vöruhúsi.
 author: perlynne
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,62 +17,49 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f0a52c5d68816a81a94db019387b9ea3ec3efc5a
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 302c028a93dfdb57972e4759abbbc4fdedabbd17
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845523"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867237"
 ---
 # <a name="create-a-new-warehouse-layout"></a>Búa til nýtt vöruhúsaútlit
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi verklýsing sýnir hvernig á að setja upp upplýsingar um staðsetningar í vöruhúsi. Þetta á aðeins við vöruhús sem eru stofnaðar með "grunn vöruhús" í kerfinu birgðastjórnun, ekki á við vöruhús sem er stofnað í vöruhúsakerfinu. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.
+Þetta efnisatriði lýsir hvernig setja á upp upplýsingar um staðsetningar í vöruhúsi. Þetta á aðeins við vöruhús sem eru stofnaðar með "grunn vöruhús" í kerfinu birgðastjórnun, ekki á við vöruhús sem er stofnað í vöruhúsakerfinu. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.
 
 
 ## <a name="set-the-default-location-capacity"></a>Stilla sjálfgefna afkastagetu staðsetningar
-1. Fara í Birgðastjórnun > Uppsetning > Birgðir og færibreytur vöruhúsakerfis.
-2. Smellt er á the Staðsetning flipa.
-3. Í reitinn stöðluð breidd skal slá inn númer.
-4. Í reitinn stöðluð dýpt skal slá inn númer.
-5. Í reitinn stöðluð hæð skal slá inn númer.
-6. Smellið á „Vista“.
+1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Birgðastýring > Uppsetning > Birgðir og færibreytur vöruhúsakerfis**.
+2. Veldu flipann **Staðsetningar**.
+3. Í reitinn **Stöðluð breidd** skal slá inn tölu.
+4. Í reitinn **Stöðluð dýpt** skal slá inn númer.
+5. Í reitinn **Stöðluð hæð** skal slá inn tölu.
+6. Veljið **Vista**.
 7. Lokið síðunni.
 
 ## <a name="define-the-location-name-format"></a>Skilgreina heiti staðsetningarsniðið
-1. Fara í Birgðastjórnun > Uppsetning > Birgðasundurliðun > Vöruhús.
-2. Smellið á „Nýtt“.
-3. Í reitinn vöruhús skal slá inn gildi.
-4. Í reitinn Heiti skal slá inn gildi.
-5. Í reitnum svæði skal smella á fellilistahnappinn til að opna leitina.
-6. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-7. Víxla útvíkkun á liðnum heiti staðsetninga.
-    * Valkostirnir í þessum hluta er að skilgreina sjálfgefið snið fyrir heiti staðsetningu. Í dæminu okkar mælt verður að innihalda gangnúmers, rekkanúmer og hillunúmer.  
-8. Stilltu valkostur hafa gang með á Já.
-9. Stilltu valkostur hafa rekka með á Já. 
-10. Færa inn gildi í svæðinu Snið fyrir rekka.
-    * Til dæmis: -##  
-11. Stilltu valkostur hafa hillu með á Já.
-12. Færa inn gildi í svæðinu Snið fyrir í hillu.
-    * Til dæmis: -##  
+1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Birgðastýring > Uppsetning > Niðurbrot birgða > Vöruhús**.
+2. Veljið **Nýtt**.
+3. Í reitinn **Vöruhús** skal slá inn gildi.
+4. Í reitinn **Heiti** skal slá inn gildi.
+5. Í reitnum **Svæði** velurðu skrána sem óskað er eftir í uppflettingunni.
+6. Víxla útvíkkun á liðnum **Heiti staðsetninga**. Valkostirnir í þessum hluta er að skilgreina sjálfgefið snið fyrir heiti staðsetningu. Í dæminu okkar mælt verður að innihalda gangnúmers, rekkanúmer og hillunúmer.  
+7. Stilltu valkostinn **Taka gang með** á **Já**.
+8. Stilltu valkostinn **Taka rekka með** á **Já**. 
+9. Í reitinn **Snið** ritarðu gildi fyrir rekkann.
+10. Stilltu valkostinn **Taka hillu með** á **Já**.
+11. Í reitinn **Snið** skal færa inn gildi fyrir hilluna.
 
 ## <a name="define-warehouse-locations"></a>Skilgreina Staðsetningar vöruhúsa
-1. Í aðgerðasvæðinu er smellt á vöruhús.
-2. Smellt er á Leiðsagnarforrit Staðsetninga.
-3. Smelltu á Næsta.
-4. Afveljið valkostinn úthlið
-5. Af-velja valkostinn fjöldastaðsetningar
-6. Smelltu á Næsta.
-7. Smelltu á Næsta.
-8. Smelltu á Næsta.
-9. Smelltu á Næsta.
-10. Smelltu á Næsta.
-11. Smelltu á Næsta.
-12. Smelltu á Næsta.
-    * Athugaðu að við efnislegar víddir sem sýna á þessari síðu eru þær sem var stillt í upphafi þessa ferlis.  
-13. Smelltu á Næsta.
-14. Smellt er á Ljúka.
-15. Lokið síðunni.
-16. Endurhlaðið síðuna.
+1. Í aðgerðarúðunni velurðu **Vöruhús**.
+2. Veldu **Leiðsagnarforrit staðsetninga**.
+3. Veljið **Næst**.
+4. Afveljið valkostinn **Úthlið**
+5. Afveljið valkostinn **Fjöldastaðsetningar**
+6. Veldu **Næst** þangað til þú kemur að möguleikanum á að velja **Ljúka**.
+7. Lokið síðunni.
+8. Endurhlaðið síðuna.
 

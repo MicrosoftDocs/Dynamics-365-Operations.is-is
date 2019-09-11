@@ -3,7 +3,7 @@ title: Úrvinnsla á framleiðsluþyngd afurðar með vöruhúsakerfi
 description: Þetta efnisatriði lýsir hvernig eigi að nota vinnusniðmát og staðsetningarleiðbeiningar til að ákvarða hvernig og hvar vinna verður framkvæmd í vöruhúsinu.
 author: perlynne
 manager: AnnBe
-ms.date: 03/18/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ed588ea28bec3e734f9648c1fbd7551ab0b3cdda
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836117"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887136"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Úrvinnsla á framleiðsluþyngd afurðar með vöruhúsakerfi
 
@@ -136,7 +136,6 @@ Ekki öll verkflæði styðja úrvinnslu á afurð í framleiðsluþyngd með v�
 
 - Handvirk stofnun á biðgeymslupöntunum er ekki studd fyrir afurðir í framleiðsluþyngd.
 - Handvirkur flutningur birgða sem tengist verki er ekki studdur fyrir afurðir í framleiðsluþyngd.
-- Samstæðumyndun á númeraplötum er ekki studd fyrir afurðir í framleiðsluþyngd.
 - Hleðsla númeraplötu til að frumstilla vöruhúsabirgðir er ekki studd fyrir afurðir í framleiðsluþyngd.
 - Jöfnunarferli virkra efna í uppskrift er ekki stutt fyrir afurðir í framleiðsluþyngd.
 - Meðhöndlun á neikvæðri birgðastöðu er ekki studd fyrir afurðir í framleiðsluþyngd.
@@ -147,7 +146,6 @@ Ekki öll verkflæði styðja úrvinnslu á afurð í framleiðsluþyngd með v�
 - Virkni fyrir klasatiltekt er ekki studd fyrir afurðir í framleiðsluþyngd.
 - Tiltektar- og pökkunarvinnsla vöruhúss er ekki studd fyrir afurðir í framleiðsluþyngd.
 - Fyrir afurðir í framleiðsluþyngd er hægt að keyra vinnu sjálfkrafa sem er skilgreind í vinnusniðmáti.
-- Virknin til að bakfæra vinnu er ekki studd fyrir afurðir í framleiðsluþyngd.
 - Fyrir afurðir í framleiðsluþyngd, handvirk vinnsla pökkunarstöðvar þar sem vinna er stofnuð eftir að gámar eru lokaðir er ekki studd.
 - Virkni fyrir skönnun á stykki fyrir stykki er ekki studd fyrir afurðir í framleiðsluþyngd.
  

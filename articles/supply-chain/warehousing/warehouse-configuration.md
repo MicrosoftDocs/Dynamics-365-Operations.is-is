@@ -1,9 +1,9 @@
 ---
-title: Skilgreining vöruhúss
+title: Yfirlit yfir skilgreiningu vöruhúss
 description: Þessi grein útskýrir hvernig eigi að stilla vöruhús. Þar er meðal annars að finna upplýsingar um hvernig á að virkja útlit vöruhús og ferli vöruhúsa.
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e50d03718234748d9ad5092500b970216c40284
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 471ab164d7bd2e85f5192c082a905f3c30de3d2b
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554139"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1866090"
 ---
-# <a name="warehouse-configuration"></a>Skilgreining vöruhúss
+# <a name="warehouse-configuration-overview"></a>Yfirlit yfir skilgreiningu vöruhúss
 
 [!include [banner](../includes/banner.md)]
 
@@ -54,7 +54,7 @@ Sem hluti af ferlinu til að virkja útlit vöruhúss, verður að skilgreina st
 -   **Gerðir staðsetninga** – rökrétt eða efnisleg flokkun vöruhúsastaðsetninga. Til dæmis er hægt að stofna staðsetningargerð fyrir allar stigastaðsetningar. Áskildar stillingarnar í **Færibreytur vöruhúsakerfis** síðuna knýja ferlið við að skilgreina gerðir sviðsetningarstaðsetninga og er endanleg gerð sendingarstaðsetningar.
 -   **Staðsetningar** – lægsta stig upplýsinga um staðsetningu. Staðsetningar er notað til að rekja hvar birgðir á lager er geymd og teknar til í vöruhúsi.
 
-Einingar sem eru stofnaðar til að skilgreina útlit vöruhúss eru notuð í fyrirspurnum sem sett eru upp í vinnusniðmát til að knýja vinnupantanir í vöruhúsi. Því, þegar þú skilgreina staði,staðsetningagerðir og o.s.frv., hafðu í huga hvernig mismunandi svæði í vöruhúsinu eru notaðir fyrir mismunandi ferli. Þar að auki skal hafa þáttum í huga eins og eðliseiginleika tiltekins svæðis. Til dæmis gætu verið svæði þar sem aðeins er hægt að nota tiltekna gerð lyftara. , ef fyrirtæki þitt hefur bæði framleiðslu og fullunninna vara í sama aðstöðu, þú gætir vilja búa til eitt vöruhús í Dynamics 365 for Finance and Operations, en þá skal aðskilja þessar tvær aðgerðir með því að skapa tvo svæðahópa Gefðu einingum þínum lýsandi nöfn, þannig að það er auðvelt að bera kennsl á þær þegar þú notar þá í fyrirspurnum um sniðmát.
+Einingar sem eru stofnaðar til að skilgreina útlit vöruhúss eru notuð í fyrirspurnum sem sett eru upp í vinnusniðmát til að knýja vinnupantanir í vöruhúsi. Því, þegar þú skilgreina staði,staðsetningagerðir og o.s.frv., hafðu í huga hvernig mismunandi svæði í vöruhúsinu eru notaðir fyrir mismunandi ferli. Þar að auki skal hafa þáttum í huga eins og eðliseiginleika tiltekins svæðis. Til dæmis gætu verið svæði þar sem aðeins er hægt að nota tiltekna gerð lyftara. Eða ef fyrirtæki þitt hefur bæði framleiðslu og fullunninna vara í sama aðstöðu gætirðu viljað stofna eitt vöruhús í Finance and Operations en aðskilja síðan reksturinn með því að stofna tvo svæðishópa. Gefðu einingum þínum lýsandi nöfn, þannig að það er auðvelt að bera kennsl á þær þegar þú notar þá í fyrirspurnum um sniðmát.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Birgðamörk staðsetningar, forstillingar staðsetningar og fastar tiltektarstaðsetningar
 

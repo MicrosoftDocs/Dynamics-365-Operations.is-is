@@ -1,9 +1,9 @@
 ---
-title: Reglur vöruhúsavinnu
+title: Yfirlit yfir vinnureglur vöruhúss
 description: Vöruhús vinnu reglur stýra hvort vöruhúsavinna sé stofnuð af ferli vöruhúsa í framleiðsluumhverfi, samkvæmt gerð verks, staðsetningu birgða og vöru.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0710eac8daba7f51f6b5d1522476b812a130960d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0a9e05fd2a08921d2718fc239afd56a957f80915
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567033"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865113"
 ---
-# <a name="warehouse-work-policies"></a>Reglur vöruhúsavinnu
+# <a name="warehouse-work-policies-overview"></a>Yfirlit yfir vinnureglur vöruhúss
 
 [!include [banner](../includes/banner.md)]
 
@@ -34,7 +34,7 @@ Reglur vöruhúsavinnu í Microsoft Dynamics 365 for Finance and Operations stj�
 
 Þessi regla vinnu stýrir því hvort vöruhúsavinnu er stofnað fyrir ferli vöruhúsa í framleiðslu. Setja upp stefnu vinnu með samsetningu **vinnupantanagerðir**, **staðsetningu birgða**, og **afurð**. Til dæmis er afurð L0101 skráð sem lokið á staðsetningu framleiðslufrálags 001. Fullbúin framleiðsluvara er síðar notuð í aðra framleiðslupöntun á staðsetningu frálags 001. Í þessu tilfelli er hægt að setja upp reglu vinnu til að koma í veg fyrir að vinna fyrir fullbúnar vörur frágangur stofnað þegar afurð L0101 tilbúið að staðsetningu framleiðslufrálags 001. Regla vinnu er einstök eining sem lýst hægt að með eftirfarandi upplýsingum:
 
--   **Vinnuregluheiti**(einkvæmt kenni reglunnar vinna)
+-   **Vinnuregluheiti** (einkvæmt kenni reglunnar vinna)
 -   **Vinnupantanagerðir** og **aðferð fyrir stofnun Vinnu**
 -   **Birgðastaðsetningar**
 -   **Afurðir**
@@ -70,7 +70,7 @@ Hér er dæmi um vinnu regluna sem hægt er að setja upp, byggðar á þessum a
 |                                       |                                       |
 |---------------------------------------|---------------------------------------|
 | <strong>Heiti vinnureglu</strong><br> | <strong>Gerðir vinnupöntunar</strong><br> |
-|         Enginn frágangur 01               |     - Frágangur á fullunnum vörum<br>      |
+|         Enginn frágangur 01          |     - Frágangur á fullunnum vörum<br>      |
 |                                       |    <strong>Staðsetningar</strong><br>     |
 |                                       |                 - O1                  |
 |                                       |    <strong>Afurðir</strong> <br>     |

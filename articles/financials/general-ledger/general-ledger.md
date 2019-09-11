@@ -1,5 +1,5 @@
 ---
-title: Fjárhagur og Fjárhagsleg skýrslugerð heimasíða
+title: Yfirlit yfir Fjárhag og Fjárhagsskýrslugerð
 description: Fjárhagur er notaður til að skilgreina og stjórna fjárhagslegum færslum í lögaðila.
 author: ShylaThompson
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee8597dfbb8b86ff770516ac8787fb07f1d4cbd5
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2e50c09d37f34f60b4453ce6bc7df6497dbc070a
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839136"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865730"
 ---
-# <a name="general-ledger"></a>Fjárhagur 
+# <a name="general-ledger-overview"></a>Fjárhagsyfirlit
 
 [!include [banner](../includes/banner.md)]
 
@@ -65,7 +65,7 @@ Blogg [Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics
 
 ### <a name="videos"></a>Myndbönd
 
-Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 YouTube-rásinni ](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 YouTube-rásinni](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 #### <a name="community-blogs"></a>Samfélagsblogg
 

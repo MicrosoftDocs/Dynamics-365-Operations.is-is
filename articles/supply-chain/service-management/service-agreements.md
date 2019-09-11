@@ -1,9 +1,9 @@
 ---
-title: Þjónustusamningar
+title: Yfirlit yfir þróaða og innleidda þjónustusamninga
 description: Með þjónustusamningum er hægt að skilgreina tilföngin sem eru notuð í dæmigerðri þjónustuheimsókn og hvernig þessi tilföng eru reikningsfærð á viðskiptavininn.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 02/19/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6425dcf1c89f625d997be0dd4a52aaecb6e6d65
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ae7c3b6e1df9751d886f6eeff778e8045bd7df85
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568282"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865946"
 ---
-# <a name="service-agreements"></a>Þjónustusamningar
+# <a name="develop-and-establish-service-agreements-overview"></a>Yfirlit yfir þróaða og innleidda þjónustusamninga
 
 [!include [banner](../includes/banner.md)]
 

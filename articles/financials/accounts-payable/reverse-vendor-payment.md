@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6587505fc5a729ffd82ab65aca7d5aa6ca4a265
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: db9208c8e76d963d5b8f6bee6b7c73268af68734
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837253"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867751"
 ---
 # <a name="reverse-a-vendor-payment"></a>Bakfæra greiðslu lánardrottins
 
@@ -48,7 +48,7 @@ Til að fræðast um hvaða aðferð fyrirtækið notar skal skoða síðuna **F
 Ef fyrirtækið vill bóka bakfærslur ávísana strax þegar smellt er á **Greiðslubakfærsla** á síðunni **Ávísanir**. Á síðunni **Færibreytur reiðufjár- og bankastjórnunar** skal stilla valkostinn **Nota endurskoðunarferlið fyrir greiðslubakfærslur** á **Nei**. Á síðunni **Ávísanir** er hægt að velja ávísun til að bakfæra og velja **Greiðslubakfærsla**. Síðan er hægt að færa inn dagsetninguna og ástæðu bakfærslunnar.
 
 ## <a name="reverse-posted-checks-after-they-are-reviewed-in-the-check-reversal-journal"></a>Bakfæra bókaðar ávísanir eftir að þær eru endurskoðaðar í bakfærslubók ávísana
-Ef fyrirtækið vill að fara yfir bakfærslur ávísana áður en þær eru bókaðar skal stofna í bakfærslubók fyrir yfirferð og á síðunni **Færibreytur reiðufjár- og bankastjórnunar** og stilla valkostinn **Nota endurskoðunarferlið fyrir greiðslubakfærslur** á **Já**. Á síðunni **Ávísanir** er hægt að velja ávísun til að bakfæra og velja **Greiðslubakfærsla**. Síðan er hægt að færa inn dagsetninguna og ástæðu bakfærslunnar. Einnig verður að velja færslubókarheiti til að stofna færslubók í færslubók fyrir bakfærslu ávísana.
+Ef fyrirtækið vill að fara yfir bakfærslur ávísana áður en þær eru bókaðar skal stofna í bakfærslubók fyrir yfirferð og á síðunni **Færibreytur reiðufjár- og bankastjórnunar** og stilla valkostinn **Nota endurskoðunarferlið fyrir greiðslubakfærslur** á **Já**. Á síðunni **Ávísanir** er hægt að velja ávísun til að bakfæra og velja **Greiðslubakfærsla**. Síðan er hægt að færa inn dagsetninguna og ástæðu bakfærslunnar. Setja verður upp fjárhagsástæðuna fyrir bæði banka- og lánardrottnaaðila. Einnig verður að velja færslubókarheiti til að stofna færslubók í færslubók fyrir bakfærslu ávísana.
 
 ### <a name="review-a-reversal"></a>Skoða bakfærslu
 

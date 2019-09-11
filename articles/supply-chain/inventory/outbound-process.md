@@ -1,9 +1,9 @@
 ---
-title: Útleiðarferli
+title: Yfirlit útleiðarferlis
 description: Þetta efnisatriði veitir yfirsýn yfir útleiðarferli í birgðastjórnun.
 author: perlynne
 manager: AnnBe
-ms.date: 10/04/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 5ac3260f128acbc819d7207f68f17adb085da11c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2f6638b3e79be5a2ebdbf6e5773285406239a080
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570470"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865449"
 ---
-# <a name="outbound-process"></a>Útleiðarferli
+# <a name="outbound-process-overview"></a>Yfirlit útleiðarferlis
 
 [!include [banner](../includes/banner.md)]
 
@@ -46,35 +46,35 @@ Hægt er að setja upp útleiðarreglur til að ákvarða hvernig forritið á a
 
 ## <a name="picking-route-status-for-sales-and-transfer-orders"></a>Staða tiltektarleiðar fyrir sölu- og flutningspantanir 
 
-Farðu í **Viðskiptakröfur** \> **Uppsetning** \> **Færibreytur viðskiptakrafna** og veldu svo, í flipanum  **Uppfærslur** gildi í svæðinu **Staða tiltektarleiðar** .
+Farðu í **Viðskiptakröfur** \> **Uppsetning** \> **Færibreytur viðskiptakrafna** og veldu svo, í flipanum **Uppfærslur** gildi í svæðinu **Staða tiltektarleiðar** .
 
 [![Staða tiltektarleiðar fyrir sölupantanir](./media/picking-route-status-sales-order.png)](./media/picking-route-status-sales-order.png)
 
-Ef stillingarreiturinn **Staða tiltektarleiðar**er stillt á **Lokið** fer tiltektarferlið sjálfkrafa af stað sem sem hluti af því að búa til tiltektarlista. Ef reitur er stilltur á **Kveikt**, þarf að uppfæra tiltektarlistalínurnar handvirkt.
+Ef stillingarreiturinn **Staða tiltektarleiðar** er stillt á **Lokið** fer tiltektarferlið sjálfkrafa af stað sem sem hluti af því að búa til tiltektarlista. Ef reitur er stilltur á **Kveikt**, þarf að uppfæra tiltektarlistalínurnar handvirkt.
 
-Sama á við um flutningspantanir. Farðu í **Birgðastjórnun** \> **Uppsetning** \> **Færibreytur birgða- og vöruhúsakerfis** og veldu svo, í flipanum  **Flutningur** gildi í svæðinu **Staða tiltektarleiðar** .
+Sama á við um flutningspantanir. Farðu í **Birgðastjórnun** \> **Uppsetning** \> **Færibreytur birgða- og vöruhúsakerfis** og veldu svo, í flipanum **Flutningur** gildi í svæðinu **Staða tiltektarleiðar** .
 
 [![Staða tiltektarleiðar fyrir flutningspantanir](./media/picking-route-status-transfer-order.png)](./media/picking-route-status-transfer-order.png)
 
 ## <a name="end-output-inventory-orders"></a>Ljúka birgðapöntun
 
-Farðu í **Birgðastjórnun** \> **Uppsetning** \> **Færibreytur birgða- og vöruhúsakerfis** og veldu svo, í flipanum  **Almennt**, valkostinn **Ljúka úttaksbirgðapöntun** .
+Farðu í **Birgðastjórnun** \> **Uppsetning** \> **Færibreytur birgða- og vöruhúsakerfis** og veldu svo, í flipanum **Almennt**, valkostinn **Ljúka úttaksbirgðapöntun** .
 
 [![Ljúka úttaksbirgðapöntun](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
 
-Þegar starfsmaður vöruhúss minnkar magn á tiltektarlista, þá verður samsvarandi magn birgðapantana fjarlægt úr sendingu. Þegar tiltektarlistinn er uppfærður á einhverjum tímapunkti, verða eftirstandandi magn tilkynnt aftur á pöntunarstig ef valkosturinn **Ljúka úttaksbirgðapöntun** er stillt á **Já**,  Ef valkosturinn **Ljúka úttaksbirgðapöntun** er stilltur á **Nei**, er eftirstandandi magn geymt sem opið úttakspöntunarmagn og verður að vera bætt við nýjan tiltektarlista, sem hluta af virkninni **Opna úttakspantanir**. 
+Þegar starfsmaður vöruhúss minnkar magn á tiltektarlista, þá verður samsvarandi magn birgðapantana fjarlægt úr sendingu. Þegar tiltektarlistinn er uppfærður á einhverjum tímapunkti, verða eftirstandandi magn tilkynnt aftur á pöntunarstig ef valkosturinn **Ljúka úttaksbirgðapöntun** er stillt á **Já**. Ef valkosturinn **Ljúka úttaksbirgðapöntun** er stilltur á **Nei**, er eftirstandandi magn geymt sem opið úttakspöntunarmagn og verður að vera bætt við nýjan tiltektarlista, sem hluta af virkninni **Opna úttakspantanir**. 
 
 Skipunin [![Opna úttakspantanir á valmynd fyrir Aðgerðir](./media/open-output-order.png)](./media/open-output-order.png)
 
-[![Aðgerðavalmyndin á síðunni Opna ](./media/open-output-order-function.png)](./media/open-output-order-function.png)
+[![Aðgerðavalmyndin á síðunni Opna](./media/open-output-order-function.png)](./media/open-output-order-function.png)
 
 ## <a name="reduce-quantity"></a>Minnka magn
 
-Þriðja færibreytan sem nota má sem hluta af ferlinu við að búa til tiltektarlista er færibreytan **Minnka magn** . Stillingar þessa færibreytu vinna með stillingunni**Frátekning** sem setur af stað frátekningarferli sem er hluti af losun til vöruhúss.
+Þriðja færibreytan sem nota má sem hluta af ferlinu við að búa til tiltektarlista er færibreytan **Minnka magn** . Stillingar þessa færibreytu vinna með stillingunni **Frátekning** sem setur af stað frátekningarferli sem er hluti af losun til vöruhúss.
 
 [![Færibreytan Minnka magn](./media/reduce-quantity.png)](./media/reduce-quantity.png)
 
-## <a name="example-of-an-outbound-process-for-a-sales-order"></a>Dæmi um útleiðarferli fyrir  sölupöntun
+## <a name="example-of-an-outbound-process-for-a-sales-order"></a>Dæmi um útleiðarferli fyrir sölupöntun
 
 Í þessu dæmi er sölupöntun með tveimur vörum. Við myndun tiltektarlista er valin færibreytan **Minnka magn** . Þess vegna losar þú og stofnar aðeins tiltektarlínur fyrir tiltækar birgðir. Tilkynna verður tiltekt með skráningarferli fyrir tiltektarlista (**Staða tiltektarleiðar** = **Virkt**).
 

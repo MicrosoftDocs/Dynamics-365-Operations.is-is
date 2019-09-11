@@ -1,9 +1,9 @@
 ---
 title: Flokka afurð með flokkastigveldi
-description: Tegundastigveldi eru notuð til að flokka afurðir fyrir útflutning, innkaup, sölu eða í öðrum tilgangi.
+description: Þetta efni lýsir því hvernig á að flokka vöru með tegundastigveldum.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 09/26/2016
+ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,29 +16,29 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59c74ff34fde9064c54f8e6e6c4717df83680fae
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f0d3a69de8999d106818e187f8ffe6181e90aea0
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568674"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1866953"
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>Flokka afurð með flokkastigveldi
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Tegundastigveldi eru notuð til að flokka afurðir fyrir útflutning, innkaup, sölu eða í öðrum tilgangi. Þetta verk er yfirleitt framkvæmd af framleiðslustjóra. Dæmið notar afurðarnúmer M0009 í sýnigagnafyrirtækinu USMF.
+Þetta efni lýsir því hvernig á að flokka vöru með tegundastigveldum. Tegundastigveldi eru notuð til að flokka afurðir fyrir útflutning, innkaup, sölu eða í öðrum tilgangi. Þetta verk er yfirleitt framkvæmt af framleiðslustjóra. Dæmið notar afurðarnúmer M0009 í sýnigagnafyrirtækinu USMF.
 
-1. Smellið á Viðhald útgefinnar afurðar.
-2. Smelltu á Allar losaðar afurðir.
+1. Veldu **Viðhald útgefinnar afurðar**.
+2. Veldu **Allar losaðar afurðir**.
 3. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-4. Í aðgerðasvæðinu er smellt á Afurð.
-5. Smella á afurðarflokka.
-6. Smellt er á Nýtt.
-7. Færa inn eða veljið gildi í svæðinu tegundastigveldi.
-8. Sláið inn eða veldu gildi í reitnum flokkur.
-9. Smellt er á Nýtt.
-10. Færa inn eða veljið gildi í svæðinu tegundastigveldi.
-11. Sláið inn eða veldu gildi í reitnum flokkur.
+4. Í aðgerðasvæðinu velurðu **Afurð.**
+5. Veldu **Afurðarflokka**.
+6. Veljið **Nýtt**.
+7. Í reitnum **Tegundastigveldi** færirðu inn eða velur gildi.
+8. Í reitnum **Flokkur** færirðu inn eða velur gildi.
+9. Veljið **Nýtt**.
+10. Í reitnum **Tegundastigveldi** færirðu inn eða velur gildi.
+11. Í reitnum **Flokkur** færirðu inn eða velur gildi.
 12. Lokið síðunni.
 

@@ -3,7 +3,7 @@ title: Uppsetning númeraraða á einstaklingsgrunni
 description: Þetta efni útskýrir hvernig setja skuli upp númeraraða á einstaklingsgrunni.
 author: sericks007
 manager: AnnBe
-ms.date: 07/09/2019
+ms.date: 08/16/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 58e69b680c006c814e9408135b6947161ad7c4f3
-ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
+ms.openlocfilehash: 818e641d19444e94a287134b68b25d52a05021d0
+ms.sourcegitcommit: 6ff2c25d859c435106192e07c9ef0a9067c1e8d0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "1738882"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "1886601"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Uppsetning númeraraða á einstaklingsgrunni
 
@@ -33,7 +33,7 @@ ms.locfileid: "1738882"
 2. Velja **númeraraðir**.
 3. Í reitnum **Kóði númeraraðar** skal slá inn gildi.
 4. Í reitinn **Heiti** skal slá inn gildi.
-5. Á **færibreytur umfangs** flýtiflipanum, velja svið fyrir númeraröðina og velja gildi umfangs af fellilistanum. Umfang skilgreinir hvaða fyrirtæki nota númeraröðina. Auk þess, númeraraðir sem hafa annað umfang en **samnýtt** geta haft hluta sem eiga við þeirra umfang. Til dæmis getur talnaröð með umfangið lögaðili innihaldið umfangið **lögaðila**. Frekari upplýsingar um umfang, sjá [Númeraraðar yfirlit](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/fin-and-ops/organization-administration/number-sequence-overview.md).  
+5. Á **færibreytur umfangs** flýtiflipanum, velja svið fyrir númeraröðina og velja gildi umfangs af fellilistanum. Umfang skilgreinir hvaða fyrirtæki nota númeraröðina. Auk þess, númeraraðir sem hafa annað umfang en **samnýtt** geta haft hluta sem eiga við þeirra umfang. Til dæmis getur talnaröð með umfangið lögaðili innihaldið umfangið **lögaðila**. Frekari upplýsingar um umfang, sjá [Númeraraðar yfirlit](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview). 
 6. Stækkaðu hlutann **Hlutar**.
     - Skilgreina snið fyrir númeraröðina með því að bæta við, fjarlægja og endurraða hlutum.  
     - Númeraraðir á öllum sviðum geta innihaldið *Fasta hluta* og *bók- og tölustafi hluta*. Fasta hluta innihalda tölu- og bókstafi sem breytast ekki. Nota þessi hlutagerð til að bæta bandstriki eða öðrum skiltákn milli hlutar númeraraðar. Bók-eða tölustafir hlutar innihalda samsetningu númerstákn (#) og og-merki (&). Þessar stafir tákna tölustafi og bókstafi sem hækka í hvert sinn sem númerið úr röðin er notað. Nota númerstákn (#) til að tilgreina hækkandi tölustafi og og-merki (&) til að tilgreina hækkandi bókstafi. Sniðið `#####_2014` stofnar til dæmis röðina `00001_2014`, `00002_2014`, o.s.frv. Að minnsta kosti einn hluti bók - og tölustafa verður að vera til staðar. Sviðshlutar, eins og fyrirtæki eða lögaðili, eru ekki skylda. Hinsvegar jafnvel þó sviðshlutar eru ekki hafðir með í sniðinu, eru númer fyrir valda tilvísun samt sem áður mynduð fyrir hvert svið.  

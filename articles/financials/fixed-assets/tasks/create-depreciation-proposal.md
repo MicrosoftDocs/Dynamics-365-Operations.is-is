@@ -1,9 +1,9 @@
 ---
 title: Stofna afskriftartillögu
-description: Þetta ferli lýsir því hvernig runutillaga afskriftar vinnur og útskýrir hvernig á að stofna afskriftartillögur fyrir eignir.
+description: Þetta efnisatriði lýsir því hvernig afskriftartillögur runu vinnu og útskýrir hvernig á að leggja afskriftir eigna.
 author: abruer
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,34 +16,35 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07146adfe1ead2b6e06e3c323963f8c012381b76
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 90c24e9d89c055ea95ca5f25cd85ef4042476a90
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1840002"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867608"
 ---
-# <a name="create-depreciation-proposal"></a>Stofna afskriftartillögu
+# <a name="create-a-depreciation-proposal"></a>Stofna afskriftartillögu
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli lýsir því hvernig runutillaga afskriftar vinnur og útskýrir hvernig á að stofna afskriftartillögur fyrir eignir. Þetta verk notar USMF sýnigögn fyrirtækis og hlutverk bókhaldara.
+Þetta efnisatriði lýsir því hvernig afskriftartillögur runu vinnu og útskýrir hvernig á að leggja afskriftir eigna. Þetta verk notar USMF sýnigögn fyrirtækis og hlutverk bókhaldara.
 
 
-## <a name="create-depreciation-proposal"></a>Stofna afskriftartillögu
-1. Fara í Eignir > Færslubókarfærslur > Stofna afskriftartillögu.
-2. Í reitnum Heiti færslubókar skal smella á fellilistahnappinn til að opna leitina.
-3. Í listanum skal smella á tengilinn í valinni línu.
-4. Í reitinn Til dagsetningar skal slá inn dagsetningu.
-    * Velja skal valkostinn samantekt afskriftar til að taka saman mánaðarlegar afskriftir í eina færslubókarlínu.  
-    * Sem dæmi, ef gildið Til dags er mars 31, 2015, eftirfarandi lýsing er stofnuð: “Afskrift frá 31. janúar, 2015.” Gagnasvæði á tillagðri færslubókarlínur er síðan sett á 31. mars, 2015.  
-    * Hægt er að sía afskriftatillögu af eign, eignaflokk eða önnur skilyrði með því að nota valkostinn Síu.  
-    * Þegar Stofna eignarmyndunar eða afskriftartillaga fyrir eignir skjámynd er notuð er hægt að leggja til afskriftir í runum. Þetta er það ráðlagt fyrir stærri tillögur sem á að nota fleiri kerfistilföng. Ef valið er valkostur runu, er enn hægt að ljúka öðrum verkefnum á meðan. Þegar lagðar eru til afskriftir á þennan hátt er afskrift reiknuð út fyrir virðislíkön eigna.  
-5. Smella skal Stofna færslubók.
+## <a name="create-a-depreciation-proposal"></a>Stofna afskriftartillögu
+1. Í skoðunarrúðunni ferðu í **Kerfseiningar > Fastafjármunir > Dagbókarfærslur > Stofna afskriftartillögu**.
+2. Í reitnum **Heiti færslubókar** velurðu valkost úr fellivalmyndinni.
+3. Í reitnum **Til dags.** færirðu inn dagsetningu.
+
+    - Velja skal valkostinn **Sundurliða afskriftir** til að taka saman mánaðarlegar afskriftir í eina færslubókarlínu.  
+    - Sem dæmi, ef gildið Til dags er mars 31, 2015, eftirfarandi lýsing er stofnuð: “Afskrift frá 31. janúar, 2015.” Reiturinn **Dagsetning** á tillögðum færslubókarlínum er síðan stilltur á 31. mars, 2015.  
+    - Hægt er að sía afskriftatillögu af eign, eignaflokki eða öðrum skilyrðum með því að nota valkostinn **Síu**.  
+    - Þegar skjámyndin **Stofna tillögur um eignarmyndun eða afskrifir fastra eigna** er notuð er hægt að leggja til afskriftir í runum. Þetta er það ráðlagt fyrir stærri tillögur sem á að nota fleiri kerfistilföng. Ef valið er valkostur runu, er enn hægt að ljúka öðrum verkefnum á meðan. Þegar lagðar eru til afskriftir á þennan hátt er afskrift reiknuð út fyrir virðislíkön eigna.  
+
+4. Veldu **Stofna færslubók**.
 
 ## <a name="review-depreciation-entries"></a>Fara yfir færslur í afskriftabók
-1. Fara í Eignir >°Færslubókarfærslur°> Eignabók.
+1. Í skoðunarrúðnni ferðu í **Kerfseiningar > Fastafjármunir > Dagbókarfærslur > Dagbók fastafjármuna**.
 2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-3. Smellið á „Línur“.
-4. Smellið á „Bóka“.
+3. Veldu **Línur**.
+4. Veldu **Bóka**.
 

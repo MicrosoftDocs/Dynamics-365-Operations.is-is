@@ -1,9 +1,9 @@
 ---
-title: Lykilgögn reiknings í AP kerfið með því að nota færslubókarsamþykkt
-description: Þessi leiðarvísi fyrir verk sýnir hvernig á að nota komubók til að stofna reikninga og nota síðan færslubókarsamþykkt til að uppfæra kostnaðarlykla.
+title: Færa reikningsgögn inn í viðskiptaskuldir með færslubókarsamþykkt
+description: Þetta efni útskýrir sýnir hvernig á að nota komubók til að stofna reikninga og nota síðan færslubókarsamþykkt til að uppfæra kostnaðarlykla.
 author: abruer
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,50 +16,41 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0faece510cc85fd86113d8b62d54b71f3014b1db
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: fb690769a33f88e63ab8f54cec69a5e927fd324c
+ms.sourcegitcommit: 6545bef4584d72dd7789f2d3935cf00ac8f489b0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837041"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1871006"
 ---
-# <a name="key-invoice-data-into-ap-system-using-approval-journal"></a>Lykilgögn reiknings í AP kerfið með því að nota færslubókarsamþykkt
+# <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a>Færa reikningsgögn inn í viðskiptaskuldir með færslubókarsamþykkt
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi leiðarvísi fyrir verk sýnir hvernig á að nota komubók til að stofna reikninga og nota síðan færslubókarsamþykkt til að uppfæra kostnaðarlykla.
-
+Þetta efni útskýrir sýnir hvernig á að nota komubók til að stofna reikninga og nota síðan færslubókarsamþykkt til að uppfæra kostnaðarlykla.
 
 ## <a name="create-and-post-and-invoice"></a>Stofna og bóka og reikningsfæra
-1. Fara í Viðskiptaskuldir > Reikningar > Komubók.
-2. Smellið á „Nýtt“.
+1. Í skoðunarrúðunni ferðu í **Einingar > Viðskiptaskuldir > Reikningar > Komubók**.
+2. Veljið **Nýtt**.
 3. Veldu heiti komubókarinnar sem þú vilt nota.
-4. Í listanum skal smella á tengilinn í valinni línu.
-5. Smellið á Línur til að opna afgreiðslukassann og færa inn kostnaðarlínur.
-6. Veljið lánardrottin. Til dæmis færirðu inn eða velur US-104
-7. Í reitinn Reikningur skal færa inn gildi.
-8. Í reitinn Lýsing skal slá inn gildi.
-9. Í reitnum Kredit skal slá inn tölu.
-10. Í reitnum Samþykkt skal smella á fellilistahnappinn til að opna leitina.
-11. Merkið samþykkjanda og smelltu á Velja til að velja þann samþykkjanda.
-12. Smellið á „Bóka“.
-13. Lokið síðunni.
-14. Lokið síðunni.
+4. Veldu **Línur** til að opna skrána og færa inn kostnaðarlínur.
+5. Veljið lánardrottin. Til dæmis færirðu inn eða velur `US-104`.
+6. Í reitnum **Reikningur** færirðu inn gildi.
+7. Í reitinn **Lýsing** skal slá inn gildi.
+8. Í reitnum **Kredit** skal slá inn tölu.
+9. Í reitnum **Samþykkt af** velurðu samþykktaraðila úr fellivalmyndinni.
+10. Veldu **Bóka**.
 
 ## <a name="approve-an-invoice"></a>Samþykkja reikning
-1. Fara í Viðskiptaskuldir > Reikningar > Reikningssamþykki.
-2. Smellið á „Nýtt“.
+1. Í skoðunarrúðunni ferðu í **Einingar > Viðskiptaskuldir > Reikningar > Reikningssamþykki**.
+2. Veljið **Nýtt**.
 3. Veldu heiti færslubókarsamþykkt reiknings sem þú vilt nota.
-4. Í listanum skal smella á tengilinn í valinni línu.
-5. Smellið á línur til að birta síðu þar sem er hægt að velja reikninga sem á að samþykkja.
-6. Veljið Finna Fylgiskjöl til að birta alla reikninga sem eru tilbúnar til samþykkis.
-7. Merkja reikninginn sem þú stofnaðir.
-8. Smellið á Velja.
-    * Fylgiskjala sem valinn er fyrir ofan eru fluttar yfir á þessum lista eftir að þeim var valið.  
-9. Smellið á „Í lagi“.
-10. Smella á svæðið lykilnúmers til að bæta kostnaðarlykli við reikning.
-11. Færið inn lykilnúmer og flipinn við svæðið. Til dæmis færirðu inn 600120.
-12. Smellið á „Bóka“.
-13. Smellt er á Fylgiskjal til að skoða færslur sem voru bókaðar.
-    * Lykill Reiknings sem bíður samþykkist er bakfærður og skipt út fyrir raunverulega kostnaðarlykil.  
+4. Veldu **Línur** til að birta síðu þar sem er hægt að velja reikninga sem á að samþykkja.
+5. Veljið **Finna fylgiskjöl** til að birta alla reikninga sem eru tilbúnar til samþykkis.
+6. Merktu við reikninginn sem þú bjóst til og smelltu síðan á **Velja**. Fylgiskjala sem valinn er fyrir ofan eru fluttar yfir á þessum lista eftir að þeim var valið.  
+7. Veljið **Í lagi**.
+8. Veldu reitinn **Lykilnúmer** til að bæta kostnaðarlykli við reikning.
+9. Færið inn lykilnúmer og flipinn við svæðið. Til dæmis er slegið inn `600120`.
+10. Veldu **Bóka**.
+11. Veldu **Fylgiskjal** til að skoða færslur sem voru bókaðar. Lykill Reiknings sem bíður samþykkist er bakfærður og skipt út fyrir raunverulega kostnaðarlykil.  
 

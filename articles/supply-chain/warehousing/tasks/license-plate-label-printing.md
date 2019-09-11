@@ -1,9 +1,9 @@
 ---
 title: Virkja prentun merkis á númeraplötu
-description: Þetta ferli gerir sjálfvirka prentun Raðnúmerskóða fyrir sendingu gáms (SSCC) merki eftir að síðasta vara er tekin úr birgðum í tiltektarferli sölu.
+description: Þetta efni sýnir hvernig á að virkja sjálfvirka prentun raðnúmerskóða fyrir sendingu gáms (SSCC) merki eftir að síðasta vara er tekin úr birgðum í tiltektarferli sölu.
 author: perlynne
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,95 +17,87 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed74806e5e037570f3ed7f59725eed494c829d34
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ed4fa28039c9320998f6524c9c9edb0a0301b7b0
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847270"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1866827"
 ---
 # <a name="enable-license-plate-label-printing"></a>Virkja prentun merkis á númeraplötu
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli gerir sjálfvirka prentun Raðnúmerskóða fyrir sendingu gáms (SSCC) merki eftir að síðasta vara er tekin úr birgðum í tiltektarferli sölu. Hægt er að keyra þetta ferli fyrir sýnigögn fyrirtækisins USMF. Ef verið er að keyra hana með eigin gögn, þarf að hafa sett upp númeraröð fyrir númeraplötur. Þarf að setja upp merkimiði prentarinn áður en byrjað er að þetta verkefni. Fara á fyrirtækisstjórnun > Uppsetning > Prentarar á neti. Á aðgerðasvæðinu skal smellt er á Valkostum og smella svo á uppsetningarhnapp fyrir niðurhal skjals leiðarfulltrúa. Keyra uppsetningarforritið og gangið úr skugga um að þú hefur virkan prentara á neti stilltan áður en haldið er áfram með ferlið.
+Þetta efni sýnir hvernig á að virkja sjálfvirka prentun raðnúmerskóða fyrir sendingu gáms (SSCC) merki eftir að síðasta vara er tekin úr birgðum í tiltektarferli sölu. Hægt er að keyra þetta ferli fyrir sýnigögn fyrirtækisins USMF. Ef verið er að keyra hana með eigin gögn, þarf að hafa sett upp númeraröð fyrir númeraplötur. Þarf að setja upp merkimiði prentarinn áður en byrjað er að þetta verkefni. Fara á fyrirtækisstjórnun > Uppsetning > Prentarar á neti. Á aðgerðasvæðinu skal smellt er á Valkostum og smella svo á uppsetningarhnapp fyrir niðurhal skjals leiðarfulltrúa. Keyra uppsetningarforritið og gangið úr skugga um að þú hefur virkan prentara á neti stilltan áður en haldið er áfram með ferlið.
 
 
 ## <a name="set-up-the-gs1-company-prefix"></a>Setja upp GS1-fyrirtækjaforskeyti
-1. Fara í vöruhúsakerfi > Uppsetning > Færibreytur vöruhúsakerfis.
-2. Í svæðinu fyrir forskeyti GS1 fyrirtækis, færið inn 7 tölur fyrir GS1 númer fyrirtækis þíns .
-3. Smellið á „Vista“.
+1. Farðu í **Skoðunarrúðu > Kerfi > Vöruhúsakerfi > Uppsetning > Vöruhús > Færibreytur vöruhúsakerfis**.
+2. Í svæðinu **Forskeyti GS1 fyrirtækis** skaltu færa inn 7 tölur fyrir GS1 númer fyrirtækis þíns .
+3. Veljið **Vista**.
 4. Lokið síðunni.
 
 ## <a name="setup-the-sscc-license-plate-number-sequence"></a>Setja upp númeraröð SSCC númeraplötu
-1. Fara í Fyrirtækisstjórnun > Númeraröð > Númeraröð.
-2. Í reitnum Svæði skal velja valkost.
-3. Í reitnum Tilvísun skal velja valkost.
-4. Í reitinn Fyrirtæki skal slá inn gildi.
-5. Í listanum skal merkja valda línu.
-6. Í listanum skal smella á tengilinn í valinni línu.
-7. Stækka the hlutann hlutir.
-8. Smellið á „Breyta“.
-9. Veljið fyrstu línu í töflunni Hlutar
-10. Smella á Fjarlægja.
-11. Smella á Fjarlægja.
-12. Smellið á „Vista“.
-13. Lokið síðunni.
+1. Farðu í **Skoðunarrúða > Kerfiseiningar > Fyrirtækjastjórnun > Númeraraðir > Númeraraðir**.
+2. Í reitnum **Svæði** skal velja valkost.
+3. Í reitnum **Tilvísun** skal velja valkost.
+4. Í reitinn **Fyrirtæki** skal slá inn gildi.
+5. Stækkaðu hlutann **Hlutar**.
+6. Veljið **Breyta**.
+7. Í töflunni **Hlutar** skal velja fyrstu línuna
+8. Veldu **Fjarlægja**.
+9. Veldu **Fjarlægja**.
+10. Veljið **Vista**.
+11. Lokið síðunni.
 
 ## <a name="create-the-document-route-layout"></a>Stofna útlit leið skjals
-1. Fara í vöruhúsakerfi > Uppsetning > Skjalaleið > Útlit skjalaleiðar.
-    * Virkja SSCC útlit.  
-2. Smellið á „Nýtt“.
-3. Færa inn gildi í reitnum Kenni útlits.
-4. Sláið inn gildi í reitnum „Lýsing“.
-5. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-6. Smella á Setja inn aftan við texta
-7. Smellið á „Vista“.
-8. Lokið síðunni.
+1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Vöruhúsakerfi > Uppsetning > Skjalaleið > Útlit skjalaleiðar**. Virkja SSCC útlit.  
+2. Veljið **Nýtt**.
+3. Í reitnum **Kenni útlits** skal færa inn gildi.
+4. Í reitinn **Lýsing** skal slá inn gildi.
+5. Veldu **Setja inn aftan við texta**.
+6. Veljið **Vista**.
+7. Lokið síðunni.
 
 ## <a name="set-up-the-document-routing"></a>Setja upp skjalaleið
-1. Fara í vöruhúsakerfi > Uppsetning > Skjalaleið > Skjalaleið.
-2. Í svæðinu gerð vinnupöntunar, skal velja valkost.
-3. Smellt er á Nýtt.
-4. Í reitinn vöruhús skal slá inn gildi.
-5. Í reitinn Heiti skal slá inn gildi.
-6. Smellt er á Nýtt.
-7. Í reitinn útlit kennis skal slá inn eða velja gildi.
-8. Í reitnum Heiti, Færið inn heiti prentara sem á að nota.
-9. Smellið á „Vista“.
+1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Vöruhúsakerfi > Uppsetning > Skjalaleið > Skjalaleið**.
+2. Í reitnum **Gerð verkbeiðni** skal velja valkost.
+3. Veljið **Nýtt**.
+4. Í reitinn **Vöruhús** skal slá inn gildi.
+5. Í reitinn **Heiti** skal slá inn gildi.
+6. Veljið **Nýtt**.
+7. Í reitinn **Útlit kennis** skal slá inn eða velja gildi.
+8. Í reitnum **Heiti** skal færa inn heiti prentarans sem á að nota.
+9. Veljið **Vista**.
 10. Lokið síðunni.
 
 ## <a name="create-mobile-device-menu"></a>Stofna Valmynd fartækja
-1. Fara í vöruhúsakerfi > Uppsetning > fartækis > Valmyndaratriði fartækis
-2. Smellið á „Nýtt“.
-3. Í svæðið heiti valmyndaratriðis, færa inn gildi.
-4. Í reitinn Titill skal slá inn gildi.
-5. Í reitnum hamur velurðu valkost.
-6. Velja skal Já í Nota fyrirliggjandi vinnu svæðinu.
-7. Velja skal Já í svæðinu Mynda númeraplötu.
-8. Útvíkka hlutann vinnuklasar.
-9. Smellið á „Nýtt“.
-10. Færa inn gildi í reitnum Kenni Vinnuklasa .
-11. Smellið á „Vista“.
+1. Farðu í **Skoðunarrúðuna > Kerfiseiningar > Vöruhúsakerfi > Uppsetning > Fartæki > Valmyndaratriði fartækis**.
+2. Veljið **Nýtt**.
+3. Í reitinn **Heiti valmyndaratriðis** skal færa inn gildi.
+4. Í reitinn **Titill** skal slá inn gildi.
+5. Í reitnum **Hamur** velurðu valkost.
+6. Velja skal **Já** í reitnum **Nota fyrirliggjandi vinnu**.
+7. Velja skal **Já** í reitnum **Mynda númeraplötu**.
+8. Útvíkkaðu hlutann **Vinnuklasar**.
+9. Veljið **Nýtt**.
+10. Í reitinn **Kenni vinnuklasa** skal færa inn gildi.
+11. Veljið **Vista**.
 12. Lokið síðunni.
-13. Fara í vöruhúsakerfi > Uppsetning > fartækis > Valmynd fartækis
-14. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-15. Veljið, í trénu ', í trénu veldu valmyndaratriði sem var stofnuð áður.'.
-16. Smella á Breyta.
-17. Smellt er á örina til að bæta valmyndaratriði við valmynd.
-18. Smellið á „Vista“.
-19. Lokið síðunni.
+13. Farðu í **skoðunarrúðuna > Kerfiseiningar > Vöruhúsakerfi > Uppsetning > Fartæki > Valmynd fartækis**.
+14. Í trénu, skal velja þau valmyndaratriði sem voru stofnuð áður.
+15. Veljið **Breyta**.
+16. Veldu örina til að bæta valmyndaratriði við valmyndina.
+17. Veljið **Vista**.
+18. Lokið síðunni.
 
 ## <a name="update-a-work-template"></a>Uppfæra sniðmát verks
-1. Fara í vöruhúsakerfi > Uppsetning > Vinna > Vinnusniðmát.
-2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-3. Smellið á „Breyta“.
-4. Smellt er á Nýtt.
-5. Í listanum skal merkja valda línu.
-6. Veljið í svæðinu vinnutegund "Prenta".
-7. Færa inn eða velja gildi í reitnum Kenni Vinnuklasa.
-8. Í listanum skal smella á tengilinn í valinni línu.
-9. Smelltu á Flytja upp.
-10. Smellið á „Vista“.
-11. Lokið síðunni.
+1. Farðu í **Skoðunarrúðu > Kerfi > Vöruhúsakerfi > Uppsetning > Vinna > Vinnusniðmát**.
+2. Veljið **Breyta**.
+3. Veljið **Nýtt**.
+4. Í reitnum **Gerð vinnu** skal velja **Prenta**.
+5. Í reitnum **Kenni vinnuklasa** skal færa inn eða velja gildi.
+6. Veldu **Færa upp**.
+7. Veljið **Vista**.
+8. Lokið síðunni.
 

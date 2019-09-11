@@ -1,9 +1,9 @@
 ---
-title: " Skilgreiningar færibreyta fyrir smásöluyfirlit"
-description: Þetta ferli sýnir skilgreiningar fyrir smásölufæribreytur sem hafa áhrif á hvernig smásöluuppgjör eru stofnuð og bókuð.
+title: Skilgreina smásölufæribreytur sem hafa áhrif á smásöluyfirlit
+description: Þetta efni sýnir skilgreiningar fyrir smásölufæribreytur sem hafa áhrif á hvernig smásöluuppgjör eru stofnuð og bókuð.
 author: josaw1
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,29 +17,29 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6dacd2b80ca0d51d81d2bdf5bc2636b47da621ee
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b9a0386a4d61395903e82d988244dd131c1febaf
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564294"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867272"
 ---
-# <a name="parameter-configurations-for-retail-statements"></a> Skilgreiningar færibreyta fyrir smásöluyfirlit
+# <a name="configure-retail-parameters-that-affect-retail-statements"></a>Skilgreina smásölufæribreytur sem hafa áhrif á smásöluyfirlit
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir skilgreiningar fyrir smásölufæribreytur sem hafa áhrif á hvernig smásöluuppgjör eru stofnuð og bókuð. Þessi aðferð notar sýnigögn USRT fyrirtækisins.
+Þetta efni sýnir skilgreiningar fyrir smásölufæribreytur sem hafa áhrif á hvernig smásöluuppgjör eru stofnuð og bókuð. Þessi aðferð notar sýnigögn USRT fyrirtækisins.
 
-1. Farið í Smásala og viðskipti > Uppsetning höfuðstöðva > Færibreytur > Smásölufæribreytur.
-2. Smellt er á flipann Bókun
-    * Veljið "Já" ef óskað er að bóka upphæðir tímabundins afsláttar sérstaklega.  
-    * Veljið "Venjulegur" til að nota sjálfgefna fjárhagslykla eða veldu "Reglubundið" ef óskað er að skilgreina hvaða lykill sem nota á fyrir hverja tímabundins afsláttar.  
-    * Veljið "Samantekt" ef ætti að leggja saman línur birgða þegar unnt er.  
-    * Veljið "Já" ef Reikninga og Greiðslur skuli sjálfkrafa jafnaður sem hluti af Uppgjör bókunarferli.  
-    * Veljið "Já" ef færsla peningaflutnings í öryggisskáp ætti að lagt saman.  
-    * Veljið "Já" ef færsla peningaflutningur í banka ætti að lagt saman.  
-    * Veljið "Já" til að kveikja á uppsöfnun fyrir bókun Uppgjörs.  
-    * Veljið "Já" til að stofna og vinna sölupantanir samhliða þegar yfirlit eru bókaðar.  
-    * Færið inn hámark pantana sem þarf að vinna í hverri runuvinnslu.  
-3. Smellið á „Vista“.
+1. Í skoðunarrúðunni ferðu í **Einingar > Smásala og viðskipti > Uppsetning höfuðstöðva > Færibreytur > Færibreytur smásöluverslana**.
+2. Veldu flipann **Bókun**.
+    - Veljið **Já** ef óskað er að bóka upphæðir tímabundins afsláttar sérstaklega.  
+    - Veldu **Staðlað** til að nota sjálfgefna fjárhagslykla eða veldu **Reglubundið** ef óskað er að skilgreina hvaða lykil á að nota fyrir hvern tímabundinn afslátt.  
+      - Veldu **Samantekt** ef leggja skal saman birgðalínur alltaf þegar það er hægt.  
+      - Veldu **Já** ef reikningar og greiðslur skulu sjálfkrafa jafnaðar sem hluti af uppgjörsbókunarferli.  
+      - Veldu **Já** ef safna skal saman öruggum flutningsfærslum.  
+      - Veldu **Já** ef leggja skal saman peningaflutningsfærslur.  
+      - Veldu **Já** til að kveikja á uppsöfnun fyrir bókun uppgjörs.  
+      - Veldu **Já** til að stofna og vinna sölupantanir samhliða þegar yfirlit eru bókaðar.  
+      - Færið inn hámark pantana sem þarf að vinna í hverri runuvinnslu.  
+3. Veljið **Vista**.
 

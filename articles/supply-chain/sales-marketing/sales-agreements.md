@@ -1,9 +1,9 @@
 ---
-title: Sölusamningar
+title: Yfirlit sölusamninga
 description: Í þessu efnisatriði er að finna upplýsingar um sölusamninga. Sölusamning er samningur sem bindur viðskiptavin til að kaupa vörur í ákveðnu magni eða ákveðna upphæð yfir tíma í skiptum fyrir for sérstakt verð og afslætti.
 author: omulvad
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4ab396d06383e3d6fc7bfab2e01f1afe4aa8fc4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a14801f3aa486da3af252695a3e2ccd58c0e9059
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560118"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865970"
 ---
-# <a name="sales-agreements"></a>Sölusamningar
+# <a name="sales-agreements-overview"></a>Yfirlit sölusamninga
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,7 +33,7 @@ ms.locfileid: "1560118"
 
 Sölusamning er samningur sem bindur viðskiptavin til að kaupa vöru í ákveðnu magni eða ákveðna upphæð yfir tíma í skiptum fyrir for sérstakt verð og sérstaka afslætti, og aðra sérstaka skilmála, eins og greiðslu og afhendingarskilmálar. Verð og afslættir af sölusamnings hunsa verð og afslætti sem eru tilgreindar í hvaða viðskiptasamninga sem ríkir.  
 
-Gildistíma sölusamningslínunni er skilgreint með **upphafsdagsetningu** og  **Lokadagsetningu** svæði í samningi. Sölupöntun viðskiptavinar uppfyllir skilyrði fyrir samningsskilmála ef umbeðin sendingardagsetning pöntunarinnar er innan gildistíma. Allar sölupöntunarlínur sem eru tengdar við sölusamning stuðlar að uppfyllingu þess sölusamnings.  
+Gildistíma sölusamningslínunni er skilgreint með **upphafsdagsetningu** og **Lokadagsetningu** svæði í samningi. Sölupöntun viðskiptavinar uppfyllir skilyrði fyrir samningsskilmála ef umbeðin sendingardagsetning pöntunarinnar er innan gildistíma. Allar sölupöntunarlínur sem eru tengdar við sölusamning stuðlar að uppfyllingu þess sölusamnings.  
 
 Hægt er að stofna sölupöntun beint úr sölusamning með því að nota í **Úttektarpöntun** aðgerð. Einnig er hægt að velja virkan sölusamnings þegar verið er að taka pantanirnar (sjá í "Nota sölusamningar í pöntunarferlið" hluta í þessari grein).  
 
@@ -74,9 +74,9 @@ Eftirfarandi stefnur hafa áhrif á það hvernig tengsl er milli skuldbindingar
 ## <a name="fulfillment-calculations-for-sales-agreements"></a>Útreikningur uppfyllingar fyrir sölusamninga
 **Uppfyllingar** flipi á **Línuupplýsingar** flýtiflipa á síðunni **sölusamningar** sýnir magn uppfyllingar og upphæðir.  
 
-Í því **uppfyllingar**  svæði, er hægt að skoða samtals magn og upphæðir fyrir allar pöntunarlínur sem eru tengdar við tilgreinda sölusamninga. Einnig er hægt að skoða eftirstandandi upphæð eða magn sem þarf til að uppfylla ráðstöfun.  
+Í svæðinu **Uppfyllingar** er hægt að skoða samtals magn og upphæðir fyrir allar pöntunarlínur sem eru tengdar við tilgreinda sölusamninga. Einnig er hægt að skoða eftirstandandi upphæð eða magn sem þarf til að uppfylla ráðstöfun.  
 
-Í því **samningur**  svæði, er hægt að skoða magn og upphæðir fyrir úr tilgreinda sölusamninga. Þessi magn og upphæðir eru samtals magn og upphæðir sem voru staðfest.
+Í svæðinu **Samningur** er hægt að skoða magn og upphæðir fyrir úr tilgreinda sölusamninga. Þessi magn og upphæðir eru samtals magn og upphæðir sem voru staðfest.
 
 ## <a name="confirmations-and-version-history-for-sales-agreements"></a>Staðfestinga- og útgáfusögu fyrir sölusamninga
 Þegar sölusamningur er staðfestur er núverandi útgáfa sölusamnings vistuð í sögutöflu. Ef sölusamningur er breytt hægt að staðfesta hann aftur til að geyma aðra útgáfu af sölusamningur í sögu.  

@@ -19,50 +19,56 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ca62a6b3aa64ec2383ee3ded3b7bbf4650a41166
-ms.sourcegitcommit: efcc0dee8bde5f8f93f6291e7f059ad426843e57
+ms.openlocfilehash: 5e71729dafd2ad85a01b055363d1c7056b5558b2
+ms.sourcegitcommit: 3f05ede8b8acdf0550240a83a013e093b4ad043d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797276"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1873106"
 ---
 # <a name="troubleshooting-guide-for-data-integration"></a>Leiðbeiningar úrræðaleitar gagnasamþættingar
 
-## <a name="enable-plugin-trace-in-common-data-service-and-check-the-dual-write-plugin-error-details"></a>Kveiktu á viðbótarsporun í Common Data Service og athugaðu upplýsingar um villuleiðbeiningar við tvískipta viðbót
+## <a name="enable-plug-in-trace-logs-in-common-data-service-and-inspect-the-dual-write-plug-in-error-details"></a>Kveiktu á viðbótarrakningarklöddum í Common Data Service og athugaðu upplýsingar um villuleiðbeiningar við tvískipta viðbót
 
-Ef þú ert í vandræðum eða villu með tvískiptri samstillingu, geturðu skoðað villurnar í rakningarkladdanum:
+[!include [banner](../includes/banner.md)]
 
-1. Áður en þú getur skoðað villurnar verður þú að virkja viðbótarsporun með því að nota leiðbeiningarnar í [Skráðu viðbót](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs) til að virkja viðbótarsporunina. Nú geturðu skoðað villurnar.
-2. Skrá inn á Dynamics 365 for Sales.
-3. Smelltu á stillingartáknið (gír) og veldu **Ítarlegar stillingar**.
-4. Í valmyndinni **Stillingar** velurðu **Sérstillingar > Rakningarkladdi viðbótarsporunar**.
-5. Smelltu á tegundarheitið **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** til að birta villuupplýsingarnar.
+[!include [preview](../includes/preview-banner.md)]
 
-## <a name="check-dual-write-synchronization-errors-in-finance-and-operations"></a>Athugaðu tvískiptar samstillingarvillur í Finance and Operations
+Ef þú lendir í vandræðum eða villum við samstillingu við tvískipta skrifun skaltu fylgja þessum skrefum til að skoða villurnar í rakningakladdanum.
 
-Þú getur athugað villurnar við prófun með því að fylgja þessum skrefum:
+1. Áður en þú getur skoðað villurnar verður þú að virkja viðbótarrakningarkladda fyrst. Fyrir leiðbeiningar skal sjá kaflann „Rakningarkladda“ í [Kennsluefni: Skrifaðu og skráðu viðbót](https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs).
 
-+ Skráðu þig inn í Lifecycle Services (LCS).
-+ Opnaðu LCS-verkið sem þú valdir til að framkvæma tvískipt próf.
-+ Farðu í Umhverfi í skýi.
-+ Fjartengt skjáborð til Finance and Operations VM með staðbundnum lykli sem birtist í LCS.
-+ Opnaðu tilvikayfirlit. 
-+ Farðu í **Forrit og þjónustukladdar > Microsoft > Dynamics > AX -DualWriteSync > Virkt**. Villurnar og smáatriðin birtast.
+    Núna geturðu skoðað villurnar.
 
-## <a name="how-to-unlink-and-link-another-common-data-service-environment-from-finance-and-operations"></a>Hvernig á að aftengja og tengja annað Common Data Service umhverfi frá Finance and Operations
+2. Innskráning í Microsoft Dynamics 365 for Sales.
+3. Veldu hnappinn **Stillingar** (gírtáknið) og síðan **Ítarlegar stillingar**.
+4. Í valmyndinni **Stillingar** velurðu **Sérstillingar \> Rakningarkladdi viðbótar**.
+5. Veldu **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** sem tegundarheiti til að sýna villuupplýsingarnar.
 
-Þú getur uppfært tengla með því að fylgja þessum skrefum:
+## <a name="inspect-dual-write-synchronization-errors-in-finance-and-operations"></a>Kannaðu tvískiptar samstillingarvillur í Finance and Operations
 
-+ Farðu í Finance and Operations umhverfið.
-+ Opnaðu Gagnastýringu.
-+ Smelltu á **Tengil við CDS fyrir forrit**.
-+ Veldu allar keyrandi kortlagningar og smelltu á **Hætta**. 
-+ Veldu allar kortlagningar og smelltu á **Eyða**.
+Fylgdu þessum skrefum til að skoða villur við prófun.
+
+1. Skráðu þig inn í Microsoft Dynamics Lifecycle Services (LCS).
+2. Opnaðu LCS verkefnið til að gera tvískipt próf fyrir.
+3. Veldu **Umhverfi í skýi**.
+4. Búðu til tengingu fjartengds skjáborðs við Dynamics 365 for Finance and Operations sýndarvél (VM) með því að nota staðbundinn reikning sem er sýndur í LCS.
+5. Opnaðu tilvikayfirlit. 
+6. Farðu í **Forrit og þjónustukladdar \> Microsoft \> Dynamics \> AX -DualWriteSync \> Virkt**. Villurnar og smáatriðin eru sýnd.
+
+## <a name="unlink-one-common-data-service-environment-from-finance-and-operations-and-link-another-environment"></a>Aftengdu eitt Common Data Service umhverfi frá Finance and Operations og tengdu annað umhverfi
+
+Fylgið eftirfarandi skrefum til að uppfæra tengla:
+
+1. Farðu í Finance and Operations umhverfið.
+2. Opnaðu Gagnastýringu.
+3. Veldu **Tengil við CDS fyrir forrit**.
+4. Veldu allar varpanir sem eru í gangi og veldu síðan **Hætta**.
+5. Veldu allar varpanir og smelltu svo á **Eyða**.
 
     > [!NOTE]
-    > Valkosturinn **Eyða** birtist ekki ef sniðmátið **ViðskiptavinurV3-lykill** er valið. Afturkallaðu það ef þörf er á. **ViðskiptavinurV3-lykill** er eldra útvegað sniðmát og vinnur með lausninni Prospect to Cash. Vegna þess að það er gefið út á heimsvísu birtist það undir öllum sniðmátum.
+    > Valkosturinn **Eyða** er ekki tiltækur ef sniðmátið **ViðskiptavinurV3-lykill** er valið. Hreinsaðu valið á þessu sniðmáti eftir þörfum. **ViðskiptavinurV3-lykill** er eldra útvegað sniðmát og vinnur með lausninni Prospect to Cash. Þar sem það er gefið út á heimsvísu birtist það undir öllum sniðmátum.
 
-+ Smelltu á **Aftengja umhverfi**.
-+ Smelltu á **Já** til staðfestingar.
-+ Til að tengja nýja umhverfið skaltu fylgja skrefunum í [uppsetningarhandbók](https://aka.ms/dualwrite-docs).
-
+6. Veldu **Aftengja umhverfi**.
+7. Veldu **Já** til að staðfesta aðgerðina.
+8. Til að tengja nýja umhverfið skaltu fylgja skrefunum í [uppsetningarhandbók](https://aka.ms/dualwrite-docs).

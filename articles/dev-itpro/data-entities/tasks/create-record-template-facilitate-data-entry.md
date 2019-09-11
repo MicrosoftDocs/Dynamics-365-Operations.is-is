@@ -1,9 +1,9 @@
 ---
 title: Búa til færslusniðmát til að greiða fyrir skráningu gagna
-description: Þetta ferli sýnir hvernig stofna færslusniðmát til að gildi í svæði sem oft notað ekki þurfa að slá inn sérstaklega fyrir hverja ný færsla.
+description: Þetta efni sýnir hvernig stofna færslusniðmát til að gildi í svæði sem oft notað ekki þurfa að slá inn sérstaklega fyrir hverja ný færsla.
 author: margoc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,37 +16,31 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3b2ba56b6146f2495fb6a53c3cef9f549b1ad837
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 08ee7d0f0ce7e92eaa85137dcd2761bfd702eb8c
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1848208"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1866929"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Búa til færslusniðmát til að greiða fyrir skráningu gagna
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir hvernig stofna færslusniðmát til að gildi í svæði sem oft notað ekki þurfa að slá inn sérstaklega fyrir hverja ný færsla. Í þessu ferli er stofnað ný færsla fyrir nýjar fartölvur sem ætti að bæta við þínar eignir. Þetta ferli notar USMF sýnifyrirtæki.
+Þetta efni sýnir hvernig stofna færslusniðmát til að gildi í svæði sem oft notað ekki þurfa að slá inn sérstaklega fyrir hverja ný færsla. Í þessu ferli er stofnað ný færsla fyrir nýjar fartölvur sem ætti að bæta við þínar eignir. Þetta ferli notar USMF sýnifyrirtæki.
 
-1. Fara í Eignir > Eignir > Eignir.
-2. Smellið á „Nýtt“.
-3. Færa inn eða veljið gildi í svæðinu eignaflokkur.
-4. Í reitinn Heiti skal slá inn gildi.
-    * Til dæmis, slá inn „fartölva yfirmanns“.  
-5. Í svæði Leita að nafni skal slá inn gildi.
-    * Til dæmis slá inn „fartölva“.  
-6. Víkka út hlutann Tæknilegar upplýsingar.
-7. Í svæðinu Tegund, slá inn gildi.
-8. Í svæði Reitur, slá inn gildi.
-9. Í svæðinu Árgerð, slá inn gildi.
-10. Í aðgerðasvæðinu er smellt á valkostir.
-11. Smellt er á Upplýsingar um færslu.
-12. Smellt er á Notandasniðmát.
-13. Í reitinn Heiti skal slá inn gildi.
-    * Til dæmis, slá inn „fartölva fyrirtækis“.  
-14. Sláið inn gildi í reitnum „Lýsing“.
-    * Til dæmis, slá inn „fartölva fyrirtækis“.  
-15. Smellið á „Í lagi“.
-16. Smellið á „Loka“.
+1. Í skoðunarrúðnni ferðu í **Kerfseiningar > Fastafjármunir > Fastafjármunir > Fastafjármunir**.
+2. Veljið **Nýtt**.
+3. Í reitnum **Eignaflokkur** skal færa inn eða velja gildi.
+4. Í reitinn **Heiti** skal slá inn gildi. Sláðu til dæmis inn **Fartölva yfirmanns**.  
+5. Í svæði **Leita að nafni** skal slá inn gildi. Sláðu til dæmis inn **fartölva**.  
+6. Víkkaðu út hlutann **Tæknilegar upplýsingar**.
+7. Í reitunum **Gerð**, **Líkan** og **Árgerð** skal slá inn gildi.
+8. Í aðgerðasvæðinu velurðu **Valkostir**.
+9. Veldu **Skrá upplýsingar**.
+10. Velja **Notandasniðmát**.
+11. Í reitinn **Heiti** skal slá inn gildi.
+12. Í reitinn **Lýsing** skal slá inn gildi.
+13. Veljið **Í lagi**.
+14. Veljið **Loka**.
 

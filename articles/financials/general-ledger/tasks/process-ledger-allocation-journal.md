@@ -1,9 +1,9 @@
 ---
 title: Vinna úr færslubók kostnaðarúthlutunar
-description: Notaðu síðuna Vinna úr úthlutunarbeiðni til að stofna úthlutunarbók sem hægt er að yfirfara og samþykki áður en bókað er í Fjárhag eða bóka beint í Fjárhag.
+description: Þetta efni útskýrir hvernig á að vinna úr úthlutunarbeiðni í Dynamics 365 for Finance and Operations.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/26/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,31 +16,31 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 087bd4f203e8762447e823b19076b79296a390d6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 0798d9f1c09e827bf64635cf67102f77244948c5
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846368"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867440"
 ---
 # <a name="process-ledger-allocation-journal"></a>Vinna úr færslubók kostnaðarúthlutunar
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Notaðu síðuna Vinna úr úthlutunarbeiðni til að stofna úthlutunarbók sem hægt er að yfirfara og samþykki áður en bókað er í Fjárhag eða bóka beint í Fjárhag. Áður en hægt er að stofna úthlutunarfærslubók verður að vera að minnsta kosti ein virk úthlutunarregla fjárhags. Þetta verkefni notar USMF-sýnifyrirtækið.
+Þetta efni útskýrir hvernig á að vinna úr úthlutunarbeiðni í Dynamics 365 for Finance and Operations. Notaðu síðuna Vinna úr úthlutunarbeiðni til að stofna úthlutunarbók sem hægt er að yfirfara og samþykki áður en bókað er í Fjárhag eða bóka beint í Fjárhag. Áður en hægt er að stofna úthlutunarfærslubók verður að vera að minnsta kosti ein virk úthlutunarregla fjárhags. Þetta verkefni notar USMF-sýnifyrirtækið.
 
-1. Fara í Fjárhagur > Úthlutanir > Vinna beiðni um úthlutun.
-2. Í reitnum Regla skal smella á fellilistahnappinn til að opna leitina.
-3. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-4. Í listanum skal smella á tengilinn í valinni línu.
-5. Í reitnum Frá og með dagsetningu er dagsetning færð inn.
-    * Frá og með dagsetningu er mjög mikilvægt þegar Fjárhagur er gagnagjafi fyrir regluna. Þessi dagsetning stýrir hvaða fjárhagsstöðu á að taka með í úthlutun.     Í reitnum Núll velurðu Stöðva. Þetta mun stöðva úthlutunarferlið og birta skilaboð um að núll upprunaupphæð sé valin.  
-6. Í reitnum Valkostir tillögu skal velja ‚Aðeins tillaga‘.
-    * Veldu Tillögu aðeins til að endurskoða og samþykkja niðurstöðu í úthlutunarbókum áður en úthlutunin er bókuð í Fjárhag.  
-7. Dagsetning er rituð í reitinn Bókunardagsetning fjárhags.
-8. Smellið á „Í lagi“.
-9. Fara í Fjárhagur > Úthlutanir > Úthlutunarbækur.
-10. Smellið á „Línur“.
-11. Smellið á „Bóka“.
-12. Smellið á „Bóka“.
+1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Fjárhagur > Úthlutanir > Vinna úthlutunarbeiðni**.
+2. Í reitnum **Regla** velurðu skrána sem óskað er eftir af fellilistanum.
+3. Í reitnum **Frá og með dagsetningu** er dagsetning færð inn.
+
+    - **Frá og með dagsetningu** er mjög mikilvægt þegar Fjárhagur er gagnagjafi fyrir regluna. Þessi dagsetning stýrir hvaða fjárhagsstöðu á að taka með í úthlutun.  
+    - Í reitnum **Núll** velurðu **Stöðva**. Þetta mun stöðva úthlutunarferlið og birta skilaboð um að núll upprunaupphæð sé valin.  
+
+4. Í reitnum **Valkostir tillögu** skal velja **Aðeins tillaga**. Veldu **Aðeins tillaga** til að endurskoða og samþykkja niðurstöðu í úthlutunarbókum áður en úthlutunin er bókuð í Fjárhag.  
+5. Dagsetning er rituð í reitinn Bókunardagsetning fjárhags.
+6. Veljið **Í lagi**.
+7. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Fjárhagur > Úthlutanir > Úthlutunarbækur**.
+8. Veldu **Línur**.
+9. Veldu **Bóka**.
+10. Veldu **Bóka**.
 

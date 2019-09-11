@@ -1,9 +1,9 @@
 ---
 title: Skilgreina endurskoðunarstefnur fyrir upprunaskjöl
-description: Þessi verklýsing sýnir hvernig á að setja upp og keyra reglu endurskoðunarstefnu.
+description: Þetta efni útskýrir hvernig á að setja upp og keyra reglur endurskoðunarstefnu.
 author: ryansandness
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,80 +16,75 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 17b712f07a0ffe6874eb6d98b47ced96f5a54483
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: a6b0fa28d778a4d9fa1f718b1d50bf1dce00be00
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846488"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914832"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Skilgreina endurskoðunarstefnur fyrir upprunaskjöl
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi verklýsing sýnir hvernig á að setja upp og keyra reglu endurskoðunarstefnu. Dæmi notar kostnaðarskýrslur með hótel kostnaðargerð. Þessi aðferð notar sýnigögn USMF fyrirtækisins. Endurskoðandahlutverkið inniheldur réttar heimildir til að framkvæma þessi verk.
+Þetta efni útskýrir hvernig á að setja upp og keyra reglur endurskoðunarstefnu. Dæmi notar kostnaðarskýrslur með hótel kostnaðargerð. Þessi aðferð notar sýnigögn USMF fyrirtækisins. Endurskoðandahlutverkið inniheldur réttar heimildir til að framkvæma þessi verk.
 
-1. Fara á vinnusvæði Endurskoðunar > Uppsetning > Stefnureglugerð.
-2. Smellið á „Nýtt“.
-3. Í reitinn Nafn reglu skal slá inn gildi.
-4. Sláið inn gildi í reitnum „Lýsing“.
-5. Í svæðið heiti Fyrirspurnar, veljið línu Kostnaðarskýrslu
-6. Veljið í svæðinu fyrirspurn skal velja samanlagt
-7. Í reitnum Lögaðili skal velja lögaðila
-8. Í svæðinu tilvísun dagsetningar Skjals, veljið breytt dagsetning og tími
-9. Smellið á „Vista“.
-10. Fara á vinnusvæði Endurskoðunar > Uppsetning > endurskoðunarstefnur.
-11. Smellið á „Nýtt“.
-12. Í reitinn Heiti skal slá inn gildi.
-13. Útvíkka hlutann Fyrirtækjaregla.
-14. Veljið 'Contoso Entertainment System USA', í trénu.
-15. Smelltu á Bæta við.
-16. Veljið "Contoso Consulting USA", í trénu.
-17. Smelltu á Bæta við.
-18. Veljið "Contoso Retail USA", í trénu.
-19. Smelltu á Bæta við.
-20. Minnka hlutann Reglufyrirtæki.
-21. Stækka liðnum stefnuregla.
-22. Finna og velja síðan Stefnuregluna sem var stofnuð áður, á listanum.
-23. Smellt er á Stofna stefnureglu.
-24. Færa inn dagsetningu og tíma í svæðinu gildisdagsetningu.
-25. Smellt er á Síu.
-26. Á listanum, Velja línuna fyrir kostnaðartegund, og stillið upplýsing á Hótel.
-27. Í reitinn Skilyrði skal slá inn eða veldu gildi.
-28. Smellt er á flipann Samanlagt.
-29. Smelltu á Bæta við.
-30. Á listanum, veljið gildi fyrir svæðið sem er færsluupphæð.
-31. Í reitinn Svæði skal slá inn eða veldu gildi.
-32. Velja í svæðinu AggregateFunction, velja 'Samtölu'.
-33. Smellt er á flipa Flokka eftir.
-34. Smelltu á Bæta við.
-35. Á listanum, veljið gildi fyrir Starfsmann 
-36. Smelltu á Bæta við.
-37. Á listanum, veljið gildi fyrir kostnaðartegund
-38. Í reitinn Svæði skal slá inn eða veldu gildi.
-39. Smellt er á flipann Inniheldur.
-40. Smelltu á Bæta við.
-41. Veldu færsluupphæð
-42. Í reitinn Svæði skal slá inn eða veldu gildi.
-43. Velja í svæðinu AggregateFunction, velja 'Samtölu'.
-44. Í svæðinu Skilyrði, færðu inn'> 2000'.
-45. Smellið á „Í lagi“.
-46. Smellið á Prófun.
-47. Í reitnum upphafsdagur valins skjals, færa inn dagsetningu og tíma.
-48. Í reitnum lokadagsetning valins skjals, færa inn dagsetningu og tíma.
-49. Smella á Keyra prófun.
-50. Á Aðgerðasvæðinu skal smellt á endurskoðunarreglu.
-51. Smellt er á Aukavalkosti.
-52. Í reitnum Upphafsdagsetning skal færa inn dagsetningu og tíma.
-53. Í reitnum Lokadagsetning skal færa inn dagsetningu og tíma.
-54. Smellt er á Runu.
-55. Stækka útvíkkun á liðnum Keyra í bakgrunni.
-56. Veljið Já í svæðinu runuvinnsla.
-57. Smellið á „Í lagi“.
-58. Fara á vinnusvæði Endurskoðunar > endurskoða mál
-59. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-60. Í listanum skal smella á tengilinn í valinni línu.
-61. Útvíkka hlutann Tengingar.
-62. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-63. Í listanum skal smella á tengilinn í valinni línu.
+1. Í skoðunarrúðunni ferðu í **Einingar > Vinnusvæði endurskoðunar > Uppsetning > Stefnureglugerð**.
+2. Veljið **Nýtt**.
+3. Í reitinn **Heiti reglu** skal slá inn gildi.
+4. Í reitinn **Lýsing** skal slá inn gildi.
+5. Í reitnum **Heiti fyrirspurnar** velurðu **Kostnaðarskýrslulínu**
+6. í reitnum **Gerð fyrirspurnar** skal velja **Samanlagt**
+7. Í reitnum **Lögaðili** skal velja **Lögaðila**
+8. Í reitnum **Tilvísun í dagsetningu skjals** velurðu **Breytt dagsetning og tími**
+9. Veljið **Vista**.
+10. Í skoðunarrúðunni ferðu í **Einingar > Vinnusvæði endurskoðunar > Uppsetning > Endurskoðunarstefnur**.
+11. Veljið **Nýtt**.
+12. Í reitinn **Heiti** skal slá inn gildi.
+13. Útvíkkaðu kaflann **Fyrirtækjaregla**.
+14. Veljið **Contoso Entertainment System USA** í trénu og síðan **Bæta við**.
+15. Veljið **Contoso Consulting USA** í trénu og síðan **Bæta við**.
+16. Veljið **Contoso Retail USA** í trénu og síðan **Bæta við**.
+17. Minnkaðu hlutann **Fyrirtækjaregla**.
+18. Útvíkkaðu hlutann **Stefnuregla**.
+19. Finna og velja síðan Stefnuregluna sem var stofnuð áður, á listanum.
+20. Veldu **stefnureglu**.
+21. Í retinum **Gildisdagsetningu** færirðu inn dagsetningu og tíma.
+22. Velja **Síu**.
+23. Á listanum skal velja línuna fyrir **Kostnaðartegund** og stilla upplýsingarnar á **Hótel**.
+24. Í reitinn **Skilyrði** skal slá inn eða velja gildi.
+25. Veldu flipann **Samanlagt**.
+26. Veljið **Bæta við**.
+27. Á listanum velurðu reitagildi sem er **Færsluupphæð**.
+28. Í reitinn **Reitur** skal slá inn eða veldu gildi.
+29. Í reitnum **AggregateFunction** velurðu **Samtölu**.
+30. Veldu flipann **Flokka eftir**.
+31. Veljið **Bæta við**.
+32. Á listanum velurðu gildi fyrir **Starfsmann**.
+33. Veljið **Bæta við**.
+34. Á listanum velurðu gildi fyrir **Kostnaðartegund**.
+35. Í reitinn **Reitur** skal slá inn eða veldu gildi.
+36. Velja flipann **Með**.
+37. Veljið **Bæta við**.
+38. Veldu **Færsluupphæð**.
+39. Í reitinn **Reitur** skal slá inn eða veldu gildi.
+40. Í reitnum **AggregateFunction** velurðu **Samtölu**.
+41. Í svæðinu **Skilyrði** skaltu færa inn `>2000`.
+42. Veljið **Í lagi**.
+43. Veldu **Prófa**.
+44. Í reitnum **Upphafsdagsetning skjalavals** skaltu færa inn dagsetningu og tíma.
+45. Í reitnum **Lokadagsetning skjalavals** skal færa inn dagsetningu og tíma.
+46. Veldu **Keyra prófun**.
+47. Á Aðgerðasvæðinu skal velja **Endurskoðunarstefnu**.
+48. Veldu **Aukavalkosti**.
+49. Í reitinn **Upphafsdagsetning** skal færa inn dagsetningu og tíma.
+50. Í reitinn **Lokadagsetning** skal færa inn dagsetningu og tíma.
+51. Veldu **Runu**.
+52. Stækkaðu hlutann **Keyra í bakgrunni**.
+53. Veldu **Já** í reitnum **Runuvinnsla**.
+54. Veljið **Í lagi**.
+55. Í skoðunarrúðunni ferðu í **Einingar > Vinnusvæði endurskoðunar > Endurskoða mál**.
+56. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
+57. Útvíkkaður hlutann **Tengingar**.
+58. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 
