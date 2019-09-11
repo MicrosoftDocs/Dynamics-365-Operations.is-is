@@ -1,9 +1,9 @@
 ---
 title: Stofna afskriftartillögu
-description: Þetta ferli lýsir því hvernig runutillaga afskriftar vinnur og útskýrir hvernig á að stofna afskriftartillögur fyrir eignir.
+description: Þetta efnisatriði lýsir því hvernig afskriftartillögur runu vinnu og útskýrir hvernig á að leggja afskriftir eigna.
 author: abruer
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,34 +16,35 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07146adfe1ead2b6e06e3c323963f8c012381b76
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 90c24e9d89c055ea95ca5f25cd85ef4042476a90
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1840002"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867608"
 ---
-# <a name="create-depreciation-proposal"></a><span data-ttu-id="0ca33-103">Stofna afskriftartillögu</span><span class="sxs-lookup"><span data-stu-id="0ca33-103">Create depreciation proposal</span></span>
+# <a name="create-a-depreciation-proposal"></a><span data-ttu-id="6855c-103">Stofna afskriftartillögu</span><span class="sxs-lookup"><span data-stu-id="6855c-103">Create a depreciation proposal</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="0ca33-104">Þetta ferli lýsir því hvernig runutillaga afskriftar vinnur og útskýrir hvernig á að stofna afskriftartillögur fyrir eignir.</span><span class="sxs-lookup"><span data-stu-id="0ca33-104">This procedure describes how depreciation batch proposals work and explains how to propose depreciation for fixed assets.</span></span> <span data-ttu-id="0ca33-105">Þetta verk notar USMF sýnigögn fyrirtækis og hlutverk bókhaldara.</span><span class="sxs-lookup"><span data-stu-id="0ca33-105">This task uses the USMF demo company and the accountant role.</span></span>
+<span data-ttu-id="6855c-104">Þetta efnisatriði lýsir því hvernig afskriftartillögur runu vinnu og útskýrir hvernig á að leggja afskriftir eigna.</span><span class="sxs-lookup"><span data-stu-id="6855c-104">This topic describes how depreciation batch proposals work and explains how to propose depreciation for fixed assets.</span></span> <span data-ttu-id="6855c-105">Þetta verk notar USMF sýnigögn fyrirtækis og hlutverk bókhaldara.</span><span class="sxs-lookup"><span data-stu-id="6855c-105">This task uses the USMF demo company and the accountant role.</span></span>
 
 
-## <a name="create-depreciation-proposal"></a><span data-ttu-id="0ca33-106">Stofna afskriftartillögu</span><span class="sxs-lookup"><span data-stu-id="0ca33-106">Create depreciation proposal</span></span>
-1. <span data-ttu-id="0ca33-107">Fara í Eignir > Færslubókarfærslur > Stofna afskriftartillögu.</span><span class="sxs-lookup"><span data-stu-id="0ca33-107">Go to Fixed assets > Journal entries > Create depreciation proposal.</span></span>
-2. <span data-ttu-id="0ca33-108">Í reitnum Heiti færslubókar skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="0ca33-108">In the Name of journal field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="0ca33-109">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="0ca33-109">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="0ca33-110">Í reitinn Til dagsetningar skal slá inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="0ca33-110">In the To date field, enter a date.</span></span>
-    * <span data-ttu-id="0ca33-111">Velja skal valkostinn samantekt afskriftar til að taka saman mánaðarlegar afskriftir í eina færslubókarlínu.</span><span class="sxs-lookup"><span data-stu-id="0ca33-111">Select the Summarize depreciation option to summarize monthly depreciations into one journal line.</span></span>  
-    * <span data-ttu-id="0ca33-112">Sem dæmi, ef gildið Til dags er mars 31, 2015, eftirfarandi lýsing er stofnuð: “Afskrift frá 31. janúar, 2015.”</span><span class="sxs-lookup"><span data-stu-id="0ca33-112">For example, if the To date value is March 31, 2015, the following description is generated: “Depreciation since January 31, 2015.”</span></span> <span data-ttu-id="0ca33-113">Gagnasvæði á tillagðri færslubókarlínur er síðan sett á 31. mars, 2015.</span><span class="sxs-lookup"><span data-stu-id="0ca33-113">The Date field on the proposed journal lines is then set to March 31, 2015.</span></span>  
-    * <span data-ttu-id="0ca33-114">Hægt er að sía afskriftatillögu af eign, eignaflokk eða önnur skilyrði með því að nota valkostinn Síu.</span><span class="sxs-lookup"><span data-stu-id="0ca33-114">The depreciation proposal can be filtered by asset, asset group, or other criteria using the Filter option.</span></span>  
-    * <span data-ttu-id="0ca33-115">Þegar Stofna eignarmyndunar eða afskriftartillaga fyrir eignir skjámynd er notuð er hægt að leggja til afskriftir í runum.</span><span class="sxs-lookup"><span data-stu-id="0ca33-115">When you use the Create acquisition or depreciation proposals for fixed assets form, you can propose depreciation in batches.</span></span> <span data-ttu-id="0ca33-116">Þetta er það ráðlagt fyrir stærri tillögur sem á að nota fleiri kerfistilföng.</span><span class="sxs-lookup"><span data-stu-id="0ca33-116">This is recommended for larger proposals that will use more system resources.</span></span> <span data-ttu-id="0ca33-117">Ef valið er valkostur runu, er enn hægt að ljúka öðrum verkefnum á meðan.</span><span class="sxs-lookup"><span data-stu-id="0ca33-117">If you select the batch option, you can still complete other tasks during that time.</span></span> <span data-ttu-id="0ca33-118">Þegar lagðar eru til afskriftir á þennan hátt er afskrift reiknuð út fyrir virðislíkön eigna.</span><span class="sxs-lookup"><span data-stu-id="0ca33-118">When you propose depreciation in this way, depreciation is calculated for value models for fixed assets.</span></span>  
-5. <span data-ttu-id="0ca33-119">Smella skal Stofna færslubók.</span><span class="sxs-lookup"><span data-stu-id="0ca33-119">Click Create journal.</span></span>
+## <a name="create-a-depreciation-proposal"></a><span data-ttu-id="6855c-106">Stofna afskriftartillögu</span><span class="sxs-lookup"><span data-stu-id="6855c-106">Create a depreciation proposal</span></span>
+1. <span data-ttu-id="6855c-107">Í skoðunarrúðunni ferðu í **Kerfseiningar > Fastafjármunir > Dagbókarfærslur > Stofna afskriftartillögu**.</span><span class="sxs-lookup"><span data-stu-id="6855c-107">In the navigation pane, go to **Modules > Fixed assets > Journal entries > Create depreciation proposal**.</span></span>
+2. <span data-ttu-id="6855c-108">Í reitnum **Heiti færslubókar** velurðu valkost úr fellivalmyndinni.</span><span class="sxs-lookup"><span data-stu-id="6855c-108">In the **Name of journal** field, select an option from the drop-down menu.</span></span>
+3. <span data-ttu-id="6855c-109">Í reitnum **Til dags.** færirðu inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="6855c-109">In the **To date** field, enter a date.</span></span>
 
-## <a name="review-depreciation-entries"></a><span data-ttu-id="0ca33-120">Fara yfir færslur í afskriftabók</span><span class="sxs-lookup"><span data-stu-id="0ca33-120">Review depreciation entries</span></span>
-1. <span data-ttu-id="0ca33-121">Fara í Eignir >°Færslubókarfærslur°> Eignabók.</span><span class="sxs-lookup"><span data-stu-id="0ca33-121">Go to Fixed assets > Journal entries > Fixed assets journal.</span></span>
-2. <span data-ttu-id="0ca33-122">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="0ca33-122">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="0ca33-123">Smellið á „Línur“.</span><span class="sxs-lookup"><span data-stu-id="0ca33-123">Click Lines.</span></span>
-4. <span data-ttu-id="0ca33-124">Smellið á „Bóka“.</span><span class="sxs-lookup"><span data-stu-id="0ca33-124">Click Post.</span></span>
+    - <span data-ttu-id="6855c-110">Velja skal valkostinn **Sundurliða afskriftir** til að taka saman mánaðarlegar afskriftir í eina færslubókarlínu.</span><span class="sxs-lookup"><span data-stu-id="6855c-110">Select the **Summarize depreciation** option to summarize monthly depreciations into one journal line.</span></span>  
+    - <span data-ttu-id="6855c-111">Sem dæmi, ef gildið Til dags er mars 31, 2015, eftirfarandi lýsing er stofnuð: “Afskrift frá 31. janúar, 2015.”</span><span class="sxs-lookup"><span data-stu-id="6855c-111">For example, if the To date value is March 31, 2015, the following description is generated: “Depreciation since January 31, 2015.”</span></span> <span data-ttu-id="6855c-112">Reiturinn **Dagsetning** á tillögðum færslubókarlínum er síðan stilltur á 31. mars, 2015.</span><span class="sxs-lookup"><span data-stu-id="6855c-112">The **Date** field on the proposed journal lines is then set to March 31, 2015.</span></span>  
+    - <span data-ttu-id="6855c-113">Hægt er að sía afskriftatillögu af eign, eignaflokki eða öðrum skilyrðum með því að nota valkostinn **Síu**.</span><span class="sxs-lookup"><span data-stu-id="6855c-113">The depreciation proposal can be filtered by asset, asset group, or other criteria using the **Filter** option.</span></span>  
+    - <span data-ttu-id="6855c-114">Þegar skjámyndin **Stofna tillögur um eignarmyndun eða afskrifir fastra eigna** er notuð er hægt að leggja til afskriftir í runum.</span><span class="sxs-lookup"><span data-stu-id="6855c-114">When you use the **Create acquisition or depreciation proposals for fixed assets** form, you can propose depreciation in batches.</span></span> <span data-ttu-id="6855c-115">Þetta er það ráðlagt fyrir stærri tillögur sem á að nota fleiri kerfistilföng.</span><span class="sxs-lookup"><span data-stu-id="6855c-115">This is recommended for larger proposals that will use more system resources.</span></span> <span data-ttu-id="6855c-116">Ef valið er valkostur runu, er enn hægt að ljúka öðrum verkefnum á meðan.</span><span class="sxs-lookup"><span data-stu-id="6855c-116">If you select the batch option, you can still complete other tasks during that time.</span></span> <span data-ttu-id="6855c-117">Þegar lagðar eru til afskriftir á þennan hátt er afskrift reiknuð út fyrir virðislíkön eigna.</span><span class="sxs-lookup"><span data-stu-id="6855c-117">When you propose depreciation in this way, depreciation is calculated for value models for fixed assets.</span></span>  
+
+4. <span data-ttu-id="6855c-118">Veldu **Stofna færslubók**.</span><span class="sxs-lookup"><span data-stu-id="6855c-118">Select **Create journal**.</span></span>
+
+## <a name="review-depreciation-entries"></a><span data-ttu-id="6855c-119">Fara yfir færslur í afskriftabók</span><span class="sxs-lookup"><span data-stu-id="6855c-119">Review depreciation entries</span></span>
+1. <span data-ttu-id="6855c-120">Í skoðunarrúðnni ferðu í **Kerfseiningar > Fastafjármunir > Dagbókarfærslur > Dagbók fastafjármuna**.</span><span class="sxs-lookup"><span data-stu-id="6855c-120">In the navigation pane, go to **Modules > Fixed assets > Journal entries > Fixed assets journal**.</span></span>
+2. <span data-ttu-id="6855c-121">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="6855c-121">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="6855c-122">Veldu **Línur**.</span><span class="sxs-lookup"><span data-stu-id="6855c-122">Select **Lines**.</span></span>
+4. <span data-ttu-id="6855c-123">Veldu **Bóka**.</span><span class="sxs-lookup"><span data-stu-id="6855c-123">Select **Post**.</span></span>
 

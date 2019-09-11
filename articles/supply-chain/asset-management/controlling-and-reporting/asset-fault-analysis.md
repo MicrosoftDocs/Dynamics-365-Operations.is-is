@@ -1,0 +1,96 @@
+---
+title: Bilanagreining eignar
+description: Þetta efni skýrir greiningu eignabilunar í eignastýringu.
+author: josaw1
+manager: AnnBe
+ms.date: 08/23/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: mkirknel
+ms.search.validFrom: 2019-08-31
+ms.dyn365.ops.version: 10.0.5
+ms.openlocfilehash: 7c9330cc7b3a8839d94c8945418548033254786b
+ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "1918442"
+---
+# <a name="asset-fault-analysis"></a><span data-ttu-id="d2fcf-103">Bilanagreining eignar</span><span class="sxs-lookup"><span data-stu-id="d2fcf-103">Asset fault analysis</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+[!include [banner](../../includes/preview-banner.md)]
+
+<span data-ttu-id="d2fcf-104">Í eignastýringu er hægt að greina skráningar eignabilana til að fá yfirsýn yfir heildarfjölda bilana sem eru skráðir á tilteknu tímabili.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-104">In Asset Management, you can analyze asset fault registrations to get an overview of the total number of faults registered during a specific period.</span></span> <span data-ttu-id="d2fcf-105">Hægt er að greina bilanaskráningar frá mismunandi sjónarhornum, til dæmis með áherslu á eignir, eignagerðir, virkar staðsetningar, bilunareinkenni eða bilanagerðir.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-105">Fault registrations can be analyzed from different perspectives, for example with focus on assets, asset types, functional locations, fault symptoms, or fault types.</span></span>
+
+1. <span data-ttu-id="d2fcf-106">Smelltu á **Eignastýringu** > **Fyrirspurnir** > **Bilun eignar** > **Greiningu eignabilunar**.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-106">Click **Asset management** > **Inquiries** > **Asset fault** > **Asset fault analysis**.</span></span>
+
+2. <span data-ttu-id="d2fcf-107">Í glugganum **Útreikningur á greiningu eignabilunar** geturðu notað reitinn **Stig** til að gefa til kynna hversu ítarlegar þú vilt að eignabilanalínurnar séu varðandi virkar staðsetningar.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-107">In the **Asset fault analysis calculation** dialog, you can use the **Level** field to indicate how detailed you want the asset fault lines to be regarding functional locations.</span></span> <span data-ttu-id="d2fcf-108">Til dæmis, ef þú setur inn töluna „1“ í reitinn, og þú ert með fjölþrepa skipulag virkra staðsetninga, verða allar eignabilanalínur fyrir virka staðsetningu sýndar á efsta stigi og því er hægt að bæta tímunum á línunni við af virkum staðsetningum sem eru staðsettar á lægra stigi.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-108">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all asset fault lines for a functional location will be shown on the top level, and therefore the hours on a line may be added up from functional locations located at a lower level.</span></span> <span data-ttu-id="d2fcf-109">Ef þú setur töluna „0“ inn í reitinn **Stig** muntu sjá ítarlega niðurstöður sem sýna allar eignabilanalínur á öllum virkum staðsetningarstigum sem þær tengjast.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-109">If you insert the number "0" in the **Level** field, you will see a detailed result showing all asset fault lines on all the functional location level to which they are related.</span></span>
+
+3. <span data-ttu-id="d2fcf-110">Ef þú vilt takmarka leitina geturðu valið sérstakar eignir, bilunardagsetningar, bilunarástæður og bilunarúrræði á flýtiflipanum **Færslur til að taka með**.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-110">If you want to limit the search, you can select specific assets, fault dates, fault causes, and fault remedies on the **Records to include** FastTab.</span></span>
+
+4. <span data-ttu-id="d2fcf-111">Smellið á **Í lagi** til að byrja að reikna.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-111">Click **OK** to start the calculation.</span></span>
+
+5. <span data-ttu-id="d2fcf-112">Á flipanum **Eignabilanagreining** smellirðu á einn eða fleiri hnappa í aðgerðarrúðahópunum **Flokka eftir...** til að birta smáatriðastigið sem þú vilt sjá.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-112">On the **Asset fault analysis** tab, click one or more buttons in the **Group by...** action pane groups to display the detail level you want to see.</span></span> <span data-ttu-id="d2fcf-113">Virkjaðir hnappar eru auðkenndir.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-113">Activated buttons are highlighted.</span></span> <span data-ttu-id="d2fcf-114">Virkjaður eða afvirkjaðu hnappa með því að smella á þá.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-114">Activate or deactivate buttons by clicking on them.</span></span>
+
+6. <span data-ttu-id="d2fcf-115">Smelltu á **Uppfæra útreikninga** til að sýna val þitt á skjánum.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-115">Click **Update calculations** to show your selections on the screen.</span></span> 
+
+>[!NOTE]
+><span data-ttu-id="d2fcf-116">Í hvert skipti sem þú virkjar eða afvirkjar hnappa í aðgerðarúðuhópunum **Flokka eftir...** skaltu muna að smella á hnappinn **Uppfæra útreikninga** eftir að þú breyttir valinu.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-116">Every time you activate or deactivate buttons in the **Group by...** action pane groups, remember to click the **Update calculations** button after you changed the selections.</span></span> <span data-ttu-id="d2fcf-117">Þetta er nauðsynlegt vegna þess að mikið magn af gögnum er unnið þar sem þú ert að endurreikna villulíkindi.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-117">This is required because a large amount of data is processed as you are recalculating fault probability.</span></span>
+
+<span data-ttu-id="d2fcf-118">Það eru margar leiðir til að greina skráningar á bilunum.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-118">There are many ways to analyze fault registrations.</span></span> <span data-ttu-id="d2fcf-119">Hér að neðan sérðu dæmi í fimm skjámyndum um hvernig mismunandi gagnaval veita mismunandi upplýsingar.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-119">Below you see examples in five screenshots of how different data selections provide different pieces of information.</span></span> <span data-ttu-id="d2fcf-120">Þú munt sjá hvernig mismunandi valkostir veita meiri innsýn og smáatriði við greiningu á skráningum eignabilana.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-120">You will see how different selections provide more insight and detail when analyzing asset fault registrations.</span></span>
+
+<span data-ttu-id="d2fcf-121">Í skjámyndinni hér að neðan er aðeins hnappurinn **Einkenni** valinn.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-121">In the screenshot below, only the **Symptom** button is selected.</span></span>
+
+- <span data-ttu-id="d2fcf-122">Bilanaskráningar hafa verið gerðar á þremur bilunareinkennum: „Loftleka“, „Sprungið öryggi“ og „Búnaður fastur“.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-122">Fault registrations have been made on three fault symptoms: "Air leak", "Blown fuse", and "Equipment jammed".</span></span>  
+- <span data-ttu-id="d2fcf-123">Í dálknum **Líkindi %** leggjast allar prósentur saman að 100%.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-123">In the **Probability %** column, all percentages add up to 100%.</span></span> <span data-ttu-id="d2fcf-124">Líkindi eru byggð á öllum skráningum **Einkenna** í þessari bilagreiningu.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-124">Probability is based on all **Symptom** registrations in this fault analysis.</span></span>
+
+![Mynd 1](media/06-controlling-and-reporting.png)
+
+
+<span data-ttu-id="d2fcf-126">Í skjámyndinni hér að neðan er **Ári** og **Mánuði** bætt við til að sýna hvernig hægt er að skoða bilanaskráningar á völdu tímabili.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-126">In the screenshot below, **Year** and **Month** are added to show how you can view fault registrations during a selected period.</span></span>
+
+- <span data-ttu-id="d2fcf-127">Bilunareinkennin eru nú sýnd sem skráningar á ári/mánuði.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-127">The fault symptoms are now shown as registrations per year/month.</span></span>  
+- <span data-ttu-id="d2fcf-128">Í dálknum **Líkindi %**, ef þú bætir við öllum prósentum fyrir hvern mánuð, leggjast þær saman upp að 100%.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-128">In the **Probability %** column, if you add all percentages for each month, they add up to 100%.</span></span> <span data-ttu-id="d2fcf-129">Líkindi eru byggð á skráningum **Einkenna** í þessari bilagreiningu.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-129">Probability is based on the **Symptom** registrations in this fault analysis.</span></span> <span data-ttu-id="d2fcf-130">Ef þú ert með mikinn fjölda lína á eign, en hærri prósenta stendur upp úr á línu, þá væri það vísbending um bilunareinkenni til að skoða betur til að finna leið til að takmarka fjölda skráninga fyrir það bilunareinkenni.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-130">If you have a large number of lines on an asset, but a large percentage stands out on a line, that would be an indication of a fault symptom to examine more closely to find a way to limit the number of registrations for that fault symptom.</span></span>
+
+![Mynd 2](media/07-controlling-and-reporting.png)
+
+
+- <span data-ttu-id="d2fcf-132">Samsetning eigna og eignategund er notuð til grundvallar við útreikninga sem sýndir eru í þremur skjámyndunum hér að neðan sem munu aukast í smáatriðum.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-132">The combination of assets and an asset type is used as a basis for the calculations shown in the three screenshots below, which will increase in detail level.</span></span>  
+- <span data-ttu-id="d2fcf-133">Almennt innihalda hnapparnir í aðgerðarrúðahópunum **Flokka eftir dagsetningu**, **Flokka eftir eign**, **Flokka eftir staðsetningu**, sem og hnappurinn **Bilun** (kenni bilunar), tímabil eða eignatengsl.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-133">Generally, the buttons in the **Group by date**, **Group by asset**, **Group by functional location** action pane groups, as well as the **Fault** button (Fault ID), contain periods or asset relations.</span></span> <span data-ttu-id="d2fcf-134">Hnapparnir **Einkenni**, **Svæði**, **Gerð**, **Orsök** og **Úrræði** eru flokkanir sem notaðar eru í bilunastjórnun til að greina skráningu eignabilana og finna vandamálasvið.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-134">The **Symptom**, **Area**, **Type**, **Cause**, and **Remedy** buttons are categorizations used in fault management to analyze asset fault registrations and pinpoint problem areas.</span></span>  
+
+<span data-ttu-id="d2fcf-135">Í skjámyndinni hér að neðan var **Eignir** og **Gerð eigna** bætt við til að veita nánari upplýsingar varðandi skráningar á bilunum.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-135">In the screenshot below, **Asset** and **Asset type** were added to provide more detail regarding fault registrations.</span></span>
+
+- <span data-ttu-id="d2fcf-136">Bilunareinkennunum er nú skipt upp í samsetningarnar **Eignir** / **Gerð eigna** / **Einkenni**.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-136">The fault symptoms are now split up in **Asset** / **Asset type** / **Symptom** combinations.</span></span>  
+- <span data-ttu-id="d2fcf-137">Í dálknum **Líkindi %**, ef þú leggur saman allar prósentur fyrir samsetninguna **Eign** / **Eignagerð** / **Einkenni** í þessari röð verður útkoman 100%.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-137">In the **Probability %** column, if you add all percentages for the combination of **Asset** / **Asset type** / **Symptom** respectively, they each add up to 100%.</span></span> <span data-ttu-id="d2fcf-138">Líkindi eru byggð á skráningum **Einkenna** í þessari bilagreiningu.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-138">Probability is based on **Symptom** registrations in this fault analysis.</span></span> <span data-ttu-id="d2fcf-139">Ef þú ert með mikinn fjölda lína á eign, en hærri prósenta stendur upp úr á línu, þá væri það vísbending um bilunareinkenni til að skoða betur til að finna leið til að takmarka fjölda skráninga fyrir það bilunareinkenni.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-139">If you have a large number of lines on an asset, but a large percentage stands out on a line, that would be an indication of a fault symptom to examine more closely to find a way to limit the number of registrations for that fault symptom.</span></span>
+
+![Mynd 3](media/08-controlling-and-reporting.png)
+
+
+<span data-ttu-id="d2fcf-141">Í skjámyndinni hér að neðan var **Svæði** bætt við **Einkenni**, **Eign** og **Gerð eigna** til að veita nánari upplýsingar varðandi skráningar á bilunum.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-141">In the screenshot below, **Area** was added to **Symptom**, **Asset**, and **Asset type** to provide more detail regarding fault registrations.</span></span>
+
+- <span data-ttu-id="d2fcf-142">Í dálknum **Líkindi %**, ef þú leggur saman allar prósentur fyrir samsetninguna **Eign** / **Eignagerð** / **Einkenni** á eign verður útkoman 100%.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-142">In the **Probability %** column, if you add all percentages for the combination of **Asset** / **Asset type** / **Symptom** on an asset, they each add up to 100%.</span></span> <span data-ttu-id="d2fcf-143">Líkindi eru byggð á samsetningunni **Einkenni** og **Svæði** í þessari bilagreiningu.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-143">Probability is based on the combination of **Symptom** and **Area** in this fault analysis.</span></span> <span data-ttu-id="d2fcf-144">Ef þú ert með mikinn fjölda lína á eign, en hærri prósenta stendur upp úr á línu, þá væri það vísbending um bilunarsvæði til að skoða betur til að finna leið til að takmarka fjölda skráninga fyrir það bilunarsvæði.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-144">If you have a large number of lines on an asset, but a large percentage stands out on a line, that would be an indication of a fault area to examine more closely to find a way to limit the number of registrations for that fault area.</span></span>  
+
+![Mynd 4](media/09-controlling-and-reporting.png)
+
+
+<span data-ttu-id="d2fcf-146">Í skjámyndinni hér að neðan var **Gerð** bætt við og ítarlegasti útreikningurinn í þessu dæmi er sýndur.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-146">In the screenshot below, **Type** was added, and the most detailed calculation in this example is shown.</span></span>
+ 
+- <span data-ttu-id="d2fcf-147">Í dálknum **Líkindi %**, ef þú leggur saman allar prósentur fyrir samsetninguna **Eign** / **Eignagerð** / **Einkenni** á eign verður útkoman 100%.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-147">In the **Probability %** column, if you add all percentages for the combination of **Asset** / **Asset type** / **Symptom** on an asset, they each add up to 100%.</span></span> <span data-ttu-id="d2fcf-148">Líkindi eru byggð á samsetningunni **Einkenni**, **Svæði** og **Gerð** í þessari bilagreiningu.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-148">Probability is based on the combination of **Symptom**, **Area**, and **Type** in this fault analysis.</span></span> <span data-ttu-id="d2fcf-149">Ef þú ert með mikinn fjölda lína á eign, en hærri prósenta stendur upp úr á línu, þá væri það vísbending um bilunargerð til að skoða betur til að finna leið til að takmarka fjölda skráninga á þeirri bilunargerð.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-149">If you have a large number of lines on an asset, but a large percentage stands out on a line, that would be an indication of a fault type to examine more closely to find a way to limit the number of registrations on that fault type.</span></span>
+
+![Mynd 5](media/10-controlling-and-reporting.png)
+
+
+>[!NOTE]
+><span data-ttu-id="d2fcf-151">Til að fá yfirlit yfir allar bilanaskráningar sem stofnaðar eru í verkbeiðnum og viðhaldsbeiðnum smellirðu á **Eignastýringu** > **Fyrirspurnir** > **Bilun eignar** > **Bilanir eigna**.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-151">For an overview of all fault registrations created on work orders and maintenance requests, click **Asset management** > **Inquiries** > **Asset fault** > **Asset faults**.</span></span> <span data-ttu-id="d2fcf-152">Á síðunni **Bilanir eigna** skaltu velja eignarbilunarskráningu og stækka gluggann **Tengdar upplýsingar** til að sjá upplýsingar varðandi tengda verkbeiðni eða viðhaldsbeiðni.</span><span class="sxs-lookup"><span data-stu-id="d2fcf-152">On the **Asset faults** page, select an asset fault registration and expand the **Related information** pane to see information regarding the related work order or maintenance request.</span></span>
+

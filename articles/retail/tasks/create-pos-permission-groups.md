@@ -1,9 +1,9 @@
 ---
-title: " Stofna heimildaflokka sölustaða"
-description: Þetta ferli mun sýna hvernig á að stofna heimildaflokk Sölustaðar.
+title: Stofna heimildaflokka sölustaða
+description: Þetta efnisatriði útskýrir hvernig á að stofna heimildaflokk sölustaðar.
 author: scott-tucker
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,41 +17,34 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b30c9a1d7fe4598695423ba700ebc88a794a49c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4e6782c60aa659523775cc6c4eb1694430a4bf4f
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566365"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914805"
 ---
-# <a name="create-pos-permission-groups"></a><span data-ttu-id="c5e88-103"> Stofna heimildaflokka sölustaða</span><span class="sxs-lookup"><span data-stu-id="c5e88-103">Create POS permission groups</span></span>
+# <a name="create-pos-permission-groups"></a><span data-ttu-id="f734c-103">Stofna heimildaflokka sölustaða</span><span class="sxs-lookup"><span data-stu-id="f734c-103">Create POS permission groups</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="c5e88-104">Þetta ferli mun sýna hvernig á að stofna heimildaflokk Sölustaðar.</span><span class="sxs-lookup"><span data-stu-id="c5e88-104">This procedure will show how to create a POS permission group.</span></span> <span data-ttu-id="c5e88-105">Sýnigögn fyrirtækisins til að stofna verkið er USRT.</span><span class="sxs-lookup"><span data-stu-id="c5e88-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="c5e88-106">Þetta verk er ætluð fyrir hlutverk stjórnanda Smásölu aðgerðir.</span><span class="sxs-lookup"><span data-stu-id="c5e88-106">This task is intended for the Retail operations manager role.</span></span>
+<span data-ttu-id="f734c-104">Þetta efnisatriði útskýrir hvernig á að stofna heimildaflokk sölustaðar.</span><span class="sxs-lookup"><span data-stu-id="f734c-104">This topic explains how to create a POS permission group.</span></span> <span data-ttu-id="f734c-105">Sýnigögn fyrirtækisins til að stofna verkið er USRT.</span><span class="sxs-lookup"><span data-stu-id="f734c-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="f734c-106">Þetta verk er ætluð fyrir hlutverk stjórnanda Smásölu aðgerðir.</span><span class="sxs-lookup"><span data-stu-id="f734c-106">This task is intended for the Retail operations manager role.</span></span>
 
-1. <span data-ttu-id="c5e88-107">Fara á heimildaflokkur.</span><span class="sxs-lookup"><span data-stu-id="c5e88-107">Go to Permission groups.</span></span>
-2. <span data-ttu-id="c5e88-108">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="c5e88-108">Click New.</span></span>
-3. <span data-ttu-id="c5e88-109">Færa inn gildi í reitnum Kenni heimildaflokkur sölustaðar .</span><span class="sxs-lookup"><span data-stu-id="c5e88-109">In the POS permission group ID field, type a value.</span></span>
-4. <span data-ttu-id="c5e88-110">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="c5e88-110">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="c5e88-111">Velja skal Já í svæðinu Skoða færslur stimpilklukku .</span><span class="sxs-lookup"><span data-stu-id="c5e88-111">Select Yes in the View time clock entries field.</span></span>
-    * <span data-ttu-id="c5e88-112">Nú er hægt að virkja eða óvirkja mismunandi heimildir fyrir heimildaflokk Sölustaðar.</span><span class="sxs-lookup"><span data-stu-id="c5e88-112">You can now enable or disable various permissions for your POS Permission group.</span></span> <span data-ttu-id="c5e88-113">Í sumum heimild hægt að stilla gildi sem verður notað til að meta ef notanda sölustaður getur framkvæmt aðgerðina.</span><span class="sxs-lookup"><span data-stu-id="c5e88-113">For some permission you can set a value that will be used to evaluate if the POS user can perform the action.</span></span>  <span data-ttu-id="c5e88-114">Þessi leiðarvísi fyrir verk virkjar nokkrar heimild sem hugsanlega má veita gjaldkera.</span><span class="sxs-lookup"><span data-stu-id="c5e88-114">This task guide enables a few permission that might be given to a cashier.</span></span>  
-6. <span data-ttu-id="c5e88-115">Velja skal Já í Leyfa það að stofna pöntunarsvæðið.</span><span class="sxs-lookup"><span data-stu-id="c5e88-115">Select Yes in the Allow create order field.</span></span>
-7. <span data-ttu-id="c5e88-116">Velja skal Já í svæðinu Leyfa breyta pöntun.</span><span class="sxs-lookup"><span data-stu-id="c5e88-116">Select Yes in the Allow edit order field.</span></span>
-8. <span data-ttu-id="c5e88-117">Velja skal Já í svæðinu Leyfa sækja pöntun.</span><span class="sxs-lookup"><span data-stu-id="c5e88-117">Select Yes in the Allow retrieve order field.</span></span>
-9. <span data-ttu-id="c5e88-118">Velja skal Já í Leyfa svæði fyrir breytingu á aðgangsorðs.</span><span class="sxs-lookup"><span data-stu-id="c5e88-118">Select Yes in the Allow password change field.</span></span>
-10. <span data-ttu-id="c5e88-119">Velja skal Já í Leyfa svæði falið loka.</span><span class="sxs-lookup"><span data-stu-id="c5e88-119">Select Yes in the Allow blind close field.</span></span>
-11. <span data-ttu-id="c5e88-120">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="c5e88-120">Click Save.</span></span>
-    * <span data-ttu-id="c5e88-121">Eftir að breytingar eru vistaðar þarf að keyra dreifingaráætlun Starfsmanns til að færa breytingar á smásölurása.</span><span class="sxs-lookup"><span data-stu-id="c5e88-121">After your changes are saved you need to run the Staff distribution schedule to push the changes to retail channels.</span></span>  
-12. <span data-ttu-id="c5e88-122">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="c5e88-122">Close the page.</span></span>
-13. <span data-ttu-id="c5e88-123">Fara í vinnslur.</span><span class="sxs-lookup"><span data-stu-id="c5e88-123">Go to Jobs.</span></span>
-    * <span data-ttu-id="c5e88-124">Næsta verður að úthluta heimildaflokk Sölustaðar til Vinnslu.</span><span class="sxs-lookup"><span data-stu-id="c5e88-124">Next we will assign the POS permission group to a Job.</span></span>  
-14. <span data-ttu-id="c5e88-125">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="c5e88-125">In the list, find and select the desired record.</span></span>
-15. <span data-ttu-id="c5e88-126">Í listanum skal smella á tengilinn í valinni línu.</span><span class="sxs-lookup"><span data-stu-id="c5e88-126">In the list, click the link in the selected row.</span></span>
-16. <span data-ttu-id="c5e88-127">Smella á Breyta.</span><span class="sxs-lookup"><span data-stu-id="c5e88-127">Click Edit.</span></span>
-17. <span data-ttu-id="c5e88-128">Útvíkka hlutann flokkun Vinnslu.</span><span class="sxs-lookup"><span data-stu-id="c5e88-128">Expand the Job classification section.</span></span>
-18. <span data-ttu-id="c5e88-129">Í reitinn Heimildaflokkur sölustaðar skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="c5e88-129">In the POS permission group field, enter or select a value.</span></span>
-    * <span data-ttu-id="c5e88-130">Allir starfsmenn í stöðum fyrir þessa vinnslu Munu nota stillingar þessa heimildaflokk Sölustaðar nema heimildir Sölustaðar starfsmanna hafi verið hnekkt á stigi Stöðu þeirra.</span><span class="sxs-lookup"><span data-stu-id="c5e88-130">All Workers in Positions for this Job will use this POS permission group’s settings unless the workers POS permissions have been overridden at their Position level.</span></span>  
-19. <span data-ttu-id="c5e88-131">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="c5e88-131">Click Save.</span></span>
-    * <span data-ttu-id="c5e88-132">Eftir að breytingar eru vistaðar þarf að keyra dreifingaráætlun Starfsmanns til að færa breytingar á smásölurása.</span><span class="sxs-lookup"><span data-stu-id="c5e88-132">After your changes are saved you need to run the Staff distribution schedule to push the changes to retail channels.</span></span>  
+1. <span data-ttu-id="f734c-107">Í skoðunarrúðunni ferðu í **Einingar > Smásala > Starfsmenn > Leyfishópar**.</span><span class="sxs-lookup"><span data-stu-id="f734c-107">In the navigation pane, go to **Modules > Retail > Employees > Permission groups**.</span></span>
+2. <span data-ttu-id="f734c-108">Veljið **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="f734c-108">Select **New**.</span></span>
+3. <span data-ttu-id="f734c-109">Færðu inn gildi í reitnum **Kenni heimildaflokks sölustaðar**.</span><span class="sxs-lookup"><span data-stu-id="f734c-109">In the **POS permission group ID** field, type a value.</span></span>
+4. <span data-ttu-id="f734c-110">Í reitinn **Lýsing** skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="f734c-110">In the **Description** field, type a value.</span></span>
+5. <span data-ttu-id="f734c-111">Velja skal **Já** í reitnum **Skoða færslur stimpilklukku**.</span><span class="sxs-lookup"><span data-stu-id="f734c-111">Select **Yes** in the **View time clock entries** field.</span></span> <span data-ttu-id="f734c-112">Nú er hægt að virkja eða óvirkja mismunandi heimildir fyrir heimildaflokk Sölustaðar.</span><span class="sxs-lookup"><span data-stu-id="f734c-112">You can now enable or disable various permissions for your POS Permission group.</span></span> <span data-ttu-id="f734c-113">Í sumum heimild hægt að stilla gildi sem verður notað til að meta ef notanda sölustaður getur framkvæmt aðgerðina.</span><span class="sxs-lookup"><span data-stu-id="f734c-113">For some permission you can set a value that will be used to evaluate if the POS user can perform the action.</span></span> <span data-ttu-id="f734c-114">Þessi leiðarvísi fyrir verk virkjar nokkrar heimild sem hugsanlega má veita gjaldkera.</span><span class="sxs-lookup"><span data-stu-id="f734c-114">This task guide enables a few permission that might be given to a cashier.</span></span>  
+6. <span data-ttu-id="f734c-115">Velja skal **Já** í reitnum **Leyfa stofnun pöntunar**.</span><span class="sxs-lookup"><span data-stu-id="f734c-115">Select **Yes** in the **Allow create order** field.</span></span>
+7. <span data-ttu-id="f734c-116">Velja skal **Já** í reitnum **Leyfa breytingu á pöntun**.</span><span class="sxs-lookup"><span data-stu-id="f734c-116">Select **Yes** in the **Allow edit order** field.</span></span>
+8. <span data-ttu-id="f734c-117">Velja skal **Já** í reitnum **Leyfa að pöntun sé sótt**.</span><span class="sxs-lookup"><span data-stu-id="f734c-117">Select **Yes** in the **Allow retrieve order** field.</span></span>
+9. <span data-ttu-id="f734c-118">Velja skal **Já** í reitnum **Leyfa breytingu á aðgangsorði**.</span><span class="sxs-lookup"><span data-stu-id="f734c-118">Select **Yes** in the **Allow password change** field.</span></span>
+10. <span data-ttu-id="f734c-119">Velja skal **Já** í reitnum **Leyfa blinda lokun**.</span><span class="sxs-lookup"><span data-stu-id="f734c-119">Select **Yes** in the **Allow blind close** field.</span></span>
+11. <span data-ttu-id="f734c-120">Veljið **Vista**.</span><span class="sxs-lookup"><span data-stu-id="f734c-120">Select **Save**.</span></span> <span data-ttu-id="f734c-121">Eftir að breytingar eru vistaðar þarf að keyra dreifingaráætlun Starfsmanns til að færa breytingar á smásölurása.</span><span class="sxs-lookup"><span data-stu-id="f734c-121">After your changes are saved you need to run the Staff distribution schedule to push the changes to retail channels.</span></span> 
+12. <span data-ttu-id="f734c-122">Í skoðunarglugganum ferðu í **Kerfiseiningar > Mannauður > Störf > Störf**.</span><span class="sxs-lookup"><span data-stu-id="f734c-122">In the navigation pane, go to **Modules > Human resources > Jobs > Jobs**.</span></span>
+13. <span data-ttu-id="f734c-123">Næsta verður að úthluta heimildaflokk Sölustaðar til Vinnslu.</span><span class="sxs-lookup"><span data-stu-id="f734c-123">Next we will assign the POS permission group to a Job.</span></span> <span data-ttu-id="f734c-124">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="f734c-124">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="f734c-125">Veljið **Breyta**.</span><span class="sxs-lookup"><span data-stu-id="f734c-125">Select **Edit**.</span></span>
+15. <span data-ttu-id="f734c-126">Útvíkkaðu hlutann **Flokkun starfs**.</span><span class="sxs-lookup"><span data-stu-id="f734c-126">Expand the **Job classification** section.</span></span>
+16. <span data-ttu-id="f734c-127">Í reitinn Heimildaflokkur sölustaðar skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="f734c-127">In the POS permission group field, enter or select a value.</span></span> <span data-ttu-id="f734c-128">Allir starfsmenn í stöðum fyrir þessa vinnslu Munu nota stillingar þessa heimildaflokk Sölustaðar nema heimildir Sölustaðar starfsmanna hafi verið hnekkt á stigi Stöðu þeirra.</span><span class="sxs-lookup"><span data-stu-id="f734c-128">All Workers in Positions for this Job will use this POS permission group’s settings unless the workers POS permissions have been overridden at their Position level.</span></span>  
+17. <span data-ttu-id="f734c-129">Veljið **Vista**.</span><span class="sxs-lookup"><span data-stu-id="f734c-129">Select **Save**.</span></span> <span data-ttu-id="f734c-130">Eftir að breytingar eru vistaðar þarf að keyra dreifingaráætlun Starfsmanns til að færa breytingar á smásölurása.</span><span class="sxs-lookup"><span data-stu-id="f734c-130">After your changes are saved you need to run the Staff distribution schedule to push the changes to retail channels.</span></span>  
 

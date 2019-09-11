@@ -3,7 +3,7 @@ title: Leggja inn greiðslur viðskiptavina
 description: Innborgun á greiðslum viðskiptavina.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,42 +16,35 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: afbf74d1cf3dc87e97dda0873115b5c7fa49ca3d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 595d1b609ae83af8f1581caeff9ef7d3892a6207
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834464"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867775"
 ---
-# <a name="deposit-customer-payments"></a><span data-ttu-id="861dd-103">Leggja inn greiðslur viðskiptavina</span><span class="sxs-lookup"><span data-stu-id="861dd-103">Deposit customer payments</span></span>
+# <a name="deposit-customer-payments"></a><span data-ttu-id="0bcd7-103">Leggja inn greiðslur viðskiptavina</span><span class="sxs-lookup"><span data-stu-id="0bcd7-103">Deposit customer payments</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="861dd-104">Innborgun á greiðslum viðskiptavina.</span><span class="sxs-lookup"><span data-stu-id="861dd-104">Deposit customer payments.</span></span> <span data-ttu-id="861dd-105">Þetta verkefni notar USMF-sýnifyrirtækið.</span><span class="sxs-lookup"><span data-stu-id="861dd-105">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="0bcd7-104">Innborgun á greiðslum viðskiptavina.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-104">Deposit customer payments.</span></span> <span data-ttu-id="0bcd7-105">Þetta verkefni notar USMF-sýnifyrirtækið.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-105">This task uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="861dd-106">Fara í Viðskiptakröfur > Greiðslur > Greiðslubók.</span><span class="sxs-lookup"><span data-stu-id="861dd-106">Go to Accounts receivable > Payments > Payment journal.</span></span>
-2. <span data-ttu-id="861dd-107">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="861dd-107">Click New.</span></span>
-3. <span data-ttu-id="861dd-108">Í reitnum Heiti skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="861dd-108">In the Name field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="861dd-109">Veldu greiðslubók</span><span class="sxs-lookup"><span data-stu-id="861dd-109">Select the payment journal.</span></span> 
-5. <span data-ttu-id="861dd-110">Smellið á Línur.</span><span class="sxs-lookup"><span data-stu-id="861dd-110">Click Lines.</span></span>
-6. <span data-ttu-id="861dd-111">Í svæðinu lykill, veljið þann Viðskiptavin sem verið er að skrá greiðsluna fyrir.</span><span class="sxs-lookup"><span data-stu-id="861dd-111">In the Account field, select the Customer for whom you are recording the payment.</span></span>
-7. <span data-ttu-id="861dd-112">Færið inn upphæð greiðslunnar í svæðinu Kredit.</span><span class="sxs-lookup"><span data-stu-id="861dd-112">In the Credit field, enter the amount of the payment.</span></span>
-    * <span data-ttu-id="861dd-113">Hægt er að velja að hafa upphæð autt, og láta kerfið reikna hann með því að velja þá reikninga sem voru greiddir.</span><span class="sxs-lookup"><span data-stu-id="861dd-113">You can choose to leave the amount blank, and have the system calculate it by selecting the invoices which were paid.</span></span>  
-8. <span data-ttu-id="861dd-114">Færa inn gildi í greiðslutilvísunarsvæðið.</span><span class="sxs-lookup"><span data-stu-id="861dd-114">In the Payment reference field, type a value.</span></span>
-    * <span data-ttu-id="861dd-115">Greiðslutilvísun gætu vero‘ ávísunarnúmer fyrir greiðslu sem eru færðar inn.</span><span class="sxs-lookup"><span data-stu-id="861dd-115">The payment reference could be the check number for the payment you are entering.</span></span> <span data-ttu-id="861dd-116">Greiðslutilvísun er krafist til að taka með greiðslu á innborgunarseðli.</span><span class="sxs-lookup"><span data-stu-id="861dd-116">The payment reference is required in order to include the payment on a deposit slip.</span></span>  
-9. <span data-ttu-id="861dd-117">Merkja í reitinn Nota innborgunarseðil.</span><span class="sxs-lookup"><span data-stu-id="861dd-117">Mark the box Use a deposit slip.</span></span>
-    * <span data-ttu-id="861dd-118">Breyta þessari stillingu á Já ef greiðslan skuli vera með í innborgun.</span><span class="sxs-lookup"><span data-stu-id="861dd-118">If the payment should be included in the deposit, change this setting to Yes.</span></span>  
-10. <span data-ttu-id="861dd-119">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="861dd-119">Click New.</span></span>
-11. <span data-ttu-id="861dd-120">Í svæðinu lykill, veljið þann Viðskiptavin fyrir næstu greiðsluna.</span><span class="sxs-lookup"><span data-stu-id="861dd-120">In the Account field, select the Customer for the next payment.</span></span>
-12. <span data-ttu-id="861dd-121">Færið inn upphæð greiðslunnar í svæðinu Kredit.</span><span class="sxs-lookup"><span data-stu-id="861dd-121">In the Credit field, enter the payment amount.</span></span>
-13. <span data-ttu-id="861dd-122">Færa inn gildi í greiðslutilvísunarsvæðið.</span><span class="sxs-lookup"><span data-stu-id="861dd-122">In the Payment reference field, type a value.</span></span>
-14. <span data-ttu-id="861dd-123">Merkja í reitinn Nota innborgunarseðil.</span><span class="sxs-lookup"><span data-stu-id="861dd-123">Mark the box Use a deposit slip.</span></span>
-15. <span data-ttu-id="861dd-124">Smellið á „Bóka“.</span><span class="sxs-lookup"><span data-stu-id="861dd-124">Click Post.</span></span>
-    * <span data-ttu-id="861dd-125">Verður að bóka greiðslur áður en hægt er að mynda innborgunarseðli.</span><span class="sxs-lookup"><span data-stu-id="861dd-125">Payments must be posted before the deposit slip can be generated.</span></span> <span data-ttu-id="861dd-126">Þetta er til að tryggja að greiðslurnar ekki breytast eftir innborgunarseðils er mynduð.</span><span class="sxs-lookup"><span data-stu-id="861dd-126">This is to ensure that the payments don't change after the deposit slip is generated.</span></span>  
-16. <span data-ttu-id="861dd-127">Smellið á Aðgerðir.</span><span class="sxs-lookup"><span data-stu-id="861dd-127">Click Functions.</span></span>
-17. <span data-ttu-id="861dd-128">Smellt er á innborgunarseðli.</span><span class="sxs-lookup"><span data-stu-id="861dd-128">Click Deposit slip.</span></span>
-18. <span data-ttu-id="861dd-129">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="861dd-129">Click OK.</span></span>
-    * <span data-ttu-id="861dd-130">Fyrsta síða er notuð til að stofna innborgunarseðil.</span><span class="sxs-lookup"><span data-stu-id="861dd-130">The first page is used to create the deposit slip.</span></span>  
-19. <span data-ttu-id="861dd-131">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="861dd-131">Click OK.</span></span>
-    * <span data-ttu-id="861dd-132">Önnur skrefið er að prenta innborgunarseðil en þetta skref er ekki nauðsynlegt.</span><span class="sxs-lookup"><span data-stu-id="861dd-132">The second step is to print the deposit slip, but this step is not required.</span></span>  
+1. <span data-ttu-id="0bcd7-106">Farðu í **Skoðunarrúðu > Kerfiseiningar > Viðskiptakröfur > Greiðslur > Greiðslubók**.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-106">Go to **Navigation pane > Modules > Accounts receivable > Payments > Payment journal**.</span></span>
+2. <span data-ttu-id="0bcd7-107">Veljið **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-107">Select **New**.</span></span>
+3. <span data-ttu-id="0bcd7-108">Í reitnum **Heiti** velurðu **CustPay** í fellivalmyndinni.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-108">In the **Name** field, select **CustPay** in the drop-down menu.</span></span>
+4. <span data-ttu-id="0bcd7-109">Veldu **Línur**.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-109">Select **Lines**.</span></span>
+5. <span data-ttu-id="0bcd7-110">Í svæðinu **Lykill** velurðu þann viðskiptavin sem verið er að skrá greiðsluna fyrir.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-110">In the **Account** field, select the customer for whom you are recording the payment.</span></span>
+6. <span data-ttu-id="0bcd7-111">Í reitinn **Kredit** skal færa inn upphæð greiðslunnar.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-111">In the **Credit** field, enter the amount of the payment.</span></span> <span data-ttu-id="0bcd7-112">Hægt er að velja að hafa upphæð autt, og láta kerfið reikna hann með því að velja þá reikninga sem voru greiddir.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-112">You can choose to leave the amount blank, and have the system calculate it by selecting the invoices which were paid.</span></span>  
+7. <span data-ttu-id="0bcd7-113">Í reitinn **Greiðslutilvísun** ritarðu gildi.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-113">In the **Payment reference** field, type a value.</span></span> <span data-ttu-id="0bcd7-114">Greiðslutilvísun gætu vero‘ ávísunarnúmer fyrir greiðslu sem eru færðar inn.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-114">The payment reference could be the check number for the payment you are entering.</span></span> <span data-ttu-id="0bcd7-115">Greiðslutilvísun er krafist til að taka með greiðslu á innborgunarseðli.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-115">The payment reference is required in order to include the payment on a deposit slip.</span></span>  
+8. <span data-ttu-id="0bcd7-116">Merkja í reitinn Nota innborgunarseðil.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-116">Mark the box Use a deposit slip.</span></span> <span data-ttu-id="0bcd7-117">Breyta þessari stillingu á Já ef greiðslan skuli vera með í innborgun.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-117">If the payment should be included in the deposit, change this setting to Yes.</span></span>  
+9. <span data-ttu-id="0bcd7-118">Veljið **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-118">Select **New**.</span></span>
+10. <span data-ttu-id="0bcd7-119">Í reitinn **Lykill** velurðu viðskiptavin fyrir næstu greiðslu.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-119">In the **Account** field, select the customer for the next payment.</span></span>
+11. <span data-ttu-id="0bcd7-120">Í reitinn **Kredit** skal færa inn greiðsluupphæðina.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-120">In the **Credit** field, enter the payment amount.</span></span>
+12. <span data-ttu-id="0bcd7-121">Í reitinn **Greiðslutilvísun** ritarðu gildi.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-121">In the **Payment reference** field, type a value.</span></span>
+13. <span data-ttu-id="0bcd7-122">Merktu í reitinn **Nota innborgunarseðil**.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-122">Mark the box **Use a deposit slip**.</span></span>
+14. <span data-ttu-id="0bcd7-123">Veldu **Bóka**.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-123">Select **Post**.</span></span> <span data-ttu-id="0bcd7-124">Verður að bóka greiðslur áður en hægt er að mynda innborgunarseðli.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-124">Payments must be posted before the deposit slip can be generated.</span></span> <span data-ttu-id="0bcd7-125">Þetta er til að tryggja að greiðslurnar ekki breytast eftir innborgunarseðils er mynduð.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-125">This is to ensure that the payments don't change after the deposit slip is generated.</span></span>  
+15. <span data-ttu-id="0bcd7-126">Veljið **Aðgerðir**.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-126">Select **Functions**.</span></span>
+16. <span data-ttu-id="0bcd7-127">Veldu **Innborgunarseðil**.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-127">Select **Deposit slip**.</span></span>
+17. <span data-ttu-id="0bcd7-128">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-128">Select **OK**.</span></span> <span data-ttu-id="0bcd7-129">Fyrsta síða er notuð til að stofna innborgunarseðil.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-129">The first page is used to create the deposit slip.</span></span>  
+18. <span data-ttu-id="0bcd7-130">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-130">Select **OK**.</span></span> <span data-ttu-id="0bcd7-131">Önnur skrefið er að prenta innborgunarseðil en þetta skref er ekki nauðsynlegt.</span><span class="sxs-lookup"><span data-stu-id="0bcd7-131">The second step is to print the deposit slip, but this step is not required.</span></span>  
 

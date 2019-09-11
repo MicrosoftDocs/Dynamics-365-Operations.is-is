@@ -1,9 +1,9 @@
 ---
-title: Vöruhúsakerfi
+title: Yfirlit yfir vöruhúsastjórnun
 description: Vöruhúsastjórnun er notuð til að fylgjast með og gera ferli vöruhúsa sjálfvirk.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,60 +16,60 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c9613070e077bced4b272b136985de5f4ddbdd0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c900ef715b62484c1fb6576b7f0c97cdea4e4284
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543400"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865137"
 ---
-# <a name="warehouse-management"></a><span data-ttu-id="f39ee-103">Vöruhúsakerfi</span><span class="sxs-lookup"><span data-stu-id="f39ee-103">Warehouse management</span></span>
+# <a name="warehouse-management-overview"></a><span data-ttu-id="873a0-103">Yfirlit yfir vöruhúsastjórnun</span><span class="sxs-lookup"><span data-stu-id="873a0-103">Warehouse management overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="f39ee-104">Vöruhúsakerfiseiningin fyrir Dynamics 365 for Finance and Operations gerir kleift að stjórna ferlum vöruhús í framleiðslu, dreifingu og smásölufyrirtækjum.</span><span class="sxs-lookup"><span data-stu-id="f39ee-104">The Warehouse management module for Dynamics 365 for Finance and Operations lets you manage warehouse processes in manufacturing, distribution, and retail companies.</span></span> <span data-ttu-id="f39ee-105">Þessi eining hefur marga eiginleika til að styðja að fullu við vöruhúsið hvenær sem er.</span><span class="sxs-lookup"><span data-stu-id="f39ee-105">This module has a wide range of features to support the warehouse facility at an optimal level, at any time.</span></span> <span data-ttu-id="f39ee-106">Vörustjórnun er að fullu samþætt við önnur viðskiptaferli í Finance and Operations, svo sem flutning, framleiðslu, gæðaeftirlit, kaup, flutning, sölu og ávöxtun.</span><span class="sxs-lookup"><span data-stu-id="f39ee-106">Warehouse management is fully integrated with other business processes in Finance and Operations such as transportation, manufacturing, quality control, purchase, transfer, sales, and returns.</span></span>
+<span data-ttu-id="873a0-104">Vöruhúsakerfiseiningin fyrir Dynamics 365 for Finance and Operations gerir kleift að stjórna ferlum vöruhús í framleiðslu, dreifingu og smásölufyrirtækjum.</span><span class="sxs-lookup"><span data-stu-id="873a0-104">The Warehouse management module for Dynamics 365 for Finance and Operations lets you manage warehouse processes in manufacturing, distribution, and retail companies.</span></span> <span data-ttu-id="873a0-105">Þessi eining hefur marga eiginleika til að styðja að fullu við vöruhúsið hvenær sem er.</span><span class="sxs-lookup"><span data-stu-id="873a0-105">This module has a wide range of features to support the warehouse facility at an optimal level, at any time.</span></span> <span data-ttu-id="873a0-106">Vörustjórnun er að fullu samþætt við önnur viðskiptaferli í Finance and Operations, svo sem flutning, framleiðslu, gæðaeftirlit, kaup, flutning, sölu og ávöxtun.</span><span class="sxs-lookup"><span data-stu-id="873a0-106">Warehouse management is fully integrated with other business processes in Finance and Operations such as transportation, manufacturing, quality control, purchase, transfer, sales, and returns.</span></span>
 
-## <a name="get-started"></a><span data-ttu-id="f39ee-107">Byrja</span><span class="sxs-lookup"><span data-stu-id="f39ee-107">Get started</span></span>
-<span data-ttu-id="f39ee-108">Til að byrja að vinna með vöruhúsastjórnun þarf að ljúka uppsetningu almennra vöruhúsafæribreyta til að styðja við viðskiptaferli fyrirtækis þíns.</span><span class="sxs-lookup"><span data-stu-id="f39ee-108">To start working with Warehouse management, you need to complete the setup of the general warehouse parameters to support the business processes of you company.</span></span>
+## <a name="get-started"></a><span data-ttu-id="873a0-107">Byrja</span><span class="sxs-lookup"><span data-stu-id="873a0-107">Get started</span></span>
+<span data-ttu-id="873a0-108">Til að byrja að vinna með vöruhúsastjórnun þarf að ljúka uppsetningu almennra vöruhúsafæribreyta til að styðja við viðskiptaferli fyrirtækis þíns.</span><span class="sxs-lookup"><span data-stu-id="873a0-108">To start working with Warehouse management, you need to complete the setup of the general warehouse parameters to support the business processes of you company.</span></span>
 
-- <span data-ttu-id="f39ee-109">Farðu í **Færibreytur vöruhúsastjórnunar** síðuna undir **Vöruhúsastjórnun** > **Uppsetning** til að setja upp almennar færibreytur vöruhúss.</span><span class="sxs-lookup"><span data-stu-id="f39ee-109">Go to the **Warehouse management parameters** page under **Warehouse management** > **Setup** to set up general warehouse parameters.</span></span>
+- <span data-ttu-id="873a0-109">Farðu í **Færibreytur vöruhúsastjórnunar** síðuna undir **Vöruhúsastjórnun** > **Uppsetning** til að setja upp almennar færibreytur vöruhúss.</span><span class="sxs-lookup"><span data-stu-id="873a0-109">Go to the **Warehouse management parameters** page under **Warehouse management** > **Setup** to set up general warehouse parameters.</span></span>
 
-<span data-ttu-id="f39ee-110">Þú verður að stilla íhluti á innleið og útleið fyrir verkflæði vöruhúss samkvæmt viðskiptakröfum.</span><span class="sxs-lookup"><span data-stu-id="f39ee-110">You must configure components for inbound and outbound warehouse process workflows according to business requirements.</span></span> <span data-ttu-id="f39ee-111">Mikilvægustu þættir sem þarf að skilgreina eru bylgjusniðmát, vinnusniðmát, vinnuhópa og staðsetningarleiðbeiningar.</span><span class="sxs-lookup"><span data-stu-id="f39ee-111">The most important components that you must configure are wave templates, work templates, work pools, and location directives.</span></span>
+<span data-ttu-id="873a0-110">Þú verður að stilla íhluti á innleið og útleið fyrir verkflæði vöruhúss samkvæmt viðskiptakröfum.</span><span class="sxs-lookup"><span data-stu-id="873a0-110">You must configure components for inbound and outbound warehouse process workflows according to business requirements.</span></span> <span data-ttu-id="873a0-111">Mikilvægustu þættir sem þarf að skilgreina eru bylgjusniðmát, vinnusniðmát, vinnuhópa og staðsetningarleiðbeiningar.</span><span class="sxs-lookup"><span data-stu-id="873a0-111">The most important components that you must configure are wave templates, work templates, work pools, and location directives.</span></span>
 
-- [<span data-ttu-id="f39ee-112">Skilgreining vöruhúss</span><span class="sxs-lookup"><span data-stu-id="f39ee-112">Warehouse configuration</span></span>](warehouse-configuration.md)
-- [<span data-ttu-id="f39ee-113">Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar</span><span class="sxs-lookup"><span data-stu-id="f39ee-113">Control warehouse work by using work templates and location directives</span></span>](control-warehouse-location-directives.md)
-- [<span data-ttu-id="f39ee-114">Uppsetning fartækja fyrir vöruhúsavinnu</span><span class="sxs-lookup"><span data-stu-id="f39ee-114">Set up mobile devices for warehouse work</span></span>](configure-mobile-devices-warehouse.md)
-- [<span data-ttu-id="f39ee-115">Setja upp leiðbeiningar um staðsetningu fyrir frágang innkaupapöntunar</span><span class="sxs-lookup"><span data-stu-id="f39ee-115">Set up a location directive for purchase order put-away</span></span>](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)
-- [<span data-ttu-id="f39ee-116">Setja upp vinnusniðmát fyrir innkaupapantanir</span><span class="sxs-lookup"><span data-stu-id="f39ee-116">Set up a work template for purchase orders</span></span>](./tasks/set-up-work-template-purchase-orders.md)
+- [<span data-ttu-id="873a0-112">Skilgreining vöruhúss</span><span class="sxs-lookup"><span data-stu-id="873a0-112">Warehouse configuration</span></span>](warehouse-configuration.md)
+- [<span data-ttu-id="873a0-113">Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar</span><span class="sxs-lookup"><span data-stu-id="873a0-113">Control warehouse work by using work templates and location directives</span></span>](control-warehouse-location-directives.md)
+- [<span data-ttu-id="873a0-114">Uppsetning fartækja fyrir vöruhúsavinnu</span><span class="sxs-lookup"><span data-stu-id="873a0-114">Set up mobile devices for warehouse work</span></span>](configure-mobile-devices-warehouse.md)
+- [<span data-ttu-id="873a0-115">Setja upp leiðbeiningar um staðsetningu fyrir frágang innkaupapöntunar</span><span class="sxs-lookup"><span data-stu-id="873a0-115">Set up a location directive for purchase order put-away</span></span>](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)
+- [<span data-ttu-id="873a0-116">Setja upp vinnusniðmát fyrir innkaupapantanir</span><span class="sxs-lookup"><span data-stu-id="873a0-116">Set up a work template for purchase orders</span></span>](./tasks/set-up-work-template-purchase-orders.md)
 
-## <a name="warehouse-management-processes"></a><span data-ttu-id="f39ee-117">Vöruhúsastjórnunarferli</span><span class="sxs-lookup"><span data-stu-id="f39ee-117">Warehouse management processes</span></span>
-- <span data-ttu-id="f39ee-118">Innbyggður stuðningur við upprunaskjöl fyrir sölupantanir, skila, flutningspantanir, framleiðslupantanir og kanban</span><span class="sxs-lookup"><span data-stu-id="f39ee-118">Integrated support for source documents for sales orders, returns, transfer orders, production orders, and kanban</span></span>  
-- <span data-ttu-id="f39ee-119">Sveigjanlegur stuðningur verkflæðis efnis á innleið og útleið byggt á fyrirspurnum</span><span class="sxs-lookup"><span data-stu-id="f39ee-119">Flexible, inbound and outbound material workflow support based on queries</span></span>
-- <span data-ttu-id="f39ee-120">Full samþætting við framleiðslu og flutning</span><span class="sxs-lookup"><span data-stu-id="f39ee-120">Full integration with the Manufacturing and Transportation offerings</span></span>
-- <span data-ttu-id="f39ee-121">Full stjórnun á staðsetningarbirgðamörkum og staðsetningarrúmmáli</span><span class="sxs-lookup"><span data-stu-id="f39ee-121">Full control of location stocking limits and location volumetrics</span></span>
-- <span data-ttu-id="f39ee-122">Birgðaeiginleikum stjórnað af birgðastöðu</span><span class="sxs-lookup"><span data-stu-id="f39ee-122">Inventory properties controlled by inventory status</span></span>
-- <span data-ttu-id="f39ee-123">Fullur runustuðningur og stuðningur við raðnúmer</span><span class="sxs-lookup"><span data-stu-id="f39ee-123">Full batch and serial item support</span></span>
-- <span data-ttu-id="f39ee-124">Ýmsir möguleikar í vöruafhendingu</span><span class="sxs-lookup"><span data-stu-id="f39ee-124">Various item receiving capabilities</span></span>
-- <span data-ttu-id="f39ee-125">Margar tiltektaraðferðir</span><span class="sxs-lookup"><span data-stu-id="f39ee-125">Multiple picking strategies</span></span>
-- <span data-ttu-id="f39ee-126">Tilbúinn stuðningur fyrir næstu kynslóð af strikamerkjaskönnum</span><span class="sxs-lookup"><span data-stu-id="f39ee-126">Out-of-the-box support for the next generation of barcode scanners</span></span>
-- <span data-ttu-id="f39ee-127">Vörubretta-/gámategundir fyrir vöruhúsaferli</span><span class="sxs-lookup"><span data-stu-id="f39ee-127">Pallet/container types for warehouse processes</span></span>
-- <span data-ttu-id="f39ee-128">Ítarleg talningageta</span><span class="sxs-lookup"><span data-stu-id="f39ee-128">Advanced counting capabilities</span></span>
-- <span data-ttu-id="f39ee-129">Merkjaprentun og merkileiðir með Zebra ZPL stuðningi</span><span class="sxs-lookup"><span data-stu-id="f39ee-129">Label printing and label routing with Zebra ZPL support</span></span>
-- <span data-ttu-id="f39ee-130">Samþætting viðskiptagreindar í Power BI</span><span class="sxs-lookup"><span data-stu-id="f39ee-130">Business intelligence integration into Power BI</span></span>
-- <span data-ttu-id="f39ee-131">Handvirkar og sjálfvirkar hreyfingar birgða</span><span class="sxs-lookup"><span data-stu-id="f39ee-131">Manual and automatic movement of inventory</span></span>
-- <span data-ttu-id="f39ee-132">Samþætt gæðastjórnun (QMS)</span><span class="sxs-lookup"><span data-stu-id="f39ee-132">Fully-integrated quality control (QMS)</span></span>
-- <span data-ttu-id="f39ee-133">Fullur rekjanleiki meðhöndlunar starfskrafta</span><span class="sxs-lookup"><span data-stu-id="f39ee-133">Full traceability of workers' material handling</span></span>
-- <span data-ttu-id="f39ee-134">Meðhöndlun bylgja á útleið</span><span class="sxs-lookup"><span data-stu-id="f39ee-134">Outbound wave processing</span></span>
-- <span data-ttu-id="f39ee-135">Stuðningur við handpökkun og sjálfvirka gámun</span><span class="sxs-lookup"><span data-stu-id="f39ee-135">Manual packing and automatic containerization support</span></span>
-- <span data-ttu-id="f39ee-136">Klasatiltekt</span><span class="sxs-lookup"><span data-stu-id="f39ee-136">Cluster picking</span></span>
-- <span data-ttu-id="f39ee-137">Einföld dreifing frá dreifingarstöð</span><span class="sxs-lookup"><span data-stu-id="f39ee-137">Simple cross docking</span></span>
+## <a name="warehouse-management-processes"></a><span data-ttu-id="873a0-117">Vöruhúsastjórnunarferli</span><span class="sxs-lookup"><span data-stu-id="873a0-117">Warehouse management processes</span></span>
+- <span data-ttu-id="873a0-118">Innbyggður stuðningur við upprunaskjöl fyrir sölupantanir, skila, flutningspantanir, framleiðslupantanir og kanban</span><span class="sxs-lookup"><span data-stu-id="873a0-118">Integrated support for source documents for sales orders, returns, transfer orders, production orders, and kanban</span></span>  
+- <span data-ttu-id="873a0-119">Sveigjanlegur stuðningur verkflæðis efnis á innleið og útleið byggt á fyrirspurnum</span><span class="sxs-lookup"><span data-stu-id="873a0-119">Flexible, inbound and outbound material workflow support based on queries</span></span>
+- <span data-ttu-id="873a0-120">Full samþætting við framleiðslu og flutning</span><span class="sxs-lookup"><span data-stu-id="873a0-120">Full integration with the Manufacturing and Transportation offerings</span></span>
+- <span data-ttu-id="873a0-121">Full stjórnun á staðsetningarbirgðamörkum og staðsetningarrúmmáli</span><span class="sxs-lookup"><span data-stu-id="873a0-121">Full control of location stocking limits and location volumetrics</span></span>
+- <span data-ttu-id="873a0-122">Birgðaeiginleikum stjórnað af birgðastöðu</span><span class="sxs-lookup"><span data-stu-id="873a0-122">Inventory properties controlled by inventory status</span></span>
+- <span data-ttu-id="873a0-123">Fullur runustuðningur og stuðningur við raðnúmer</span><span class="sxs-lookup"><span data-stu-id="873a0-123">Full batch and serial item support</span></span>
+- <span data-ttu-id="873a0-124">Ýmsir möguleikar í vöruafhendingu</span><span class="sxs-lookup"><span data-stu-id="873a0-124">Various item receiving capabilities</span></span>
+- <span data-ttu-id="873a0-125">Margar tiltektaraðferðir</span><span class="sxs-lookup"><span data-stu-id="873a0-125">Multiple picking strategies</span></span>
+- <span data-ttu-id="873a0-126">Tilbúinn stuðningur fyrir næstu kynslóð af strikamerkjaskönnum</span><span class="sxs-lookup"><span data-stu-id="873a0-126">Out-of-the-box support for the next generation of barcode scanners</span></span>
+- <span data-ttu-id="873a0-127">Vörubretta-/gámategundir fyrir vöruhúsaferli</span><span class="sxs-lookup"><span data-stu-id="873a0-127">Pallet/container types for warehouse processes</span></span>
+- <span data-ttu-id="873a0-128">Ítarleg talningageta</span><span class="sxs-lookup"><span data-stu-id="873a0-128">Advanced counting capabilities</span></span>
+- <span data-ttu-id="873a0-129">Merkjaprentun og merkileiðir með Zebra ZPL stuðningi</span><span class="sxs-lookup"><span data-stu-id="873a0-129">Label printing and label routing with Zebra ZPL support</span></span>
+- <span data-ttu-id="873a0-130">Samþætting viðskiptagreindar í Power BI</span><span class="sxs-lookup"><span data-stu-id="873a0-130">Business intelligence integration into Power BI</span></span>
+- <span data-ttu-id="873a0-131">Handvirkar og sjálfvirkar hreyfingar birgða</span><span class="sxs-lookup"><span data-stu-id="873a0-131">Manual and automatic movement of inventory</span></span>
+- <span data-ttu-id="873a0-132">Samþætt gæðastjórnun (QMS)</span><span class="sxs-lookup"><span data-stu-id="873a0-132">Fully-integrated quality control (QMS)</span></span>
+- <span data-ttu-id="873a0-133">Fullur rekjanleiki meðhöndlunar starfskrafta</span><span class="sxs-lookup"><span data-stu-id="873a0-133">Full traceability of workers' material handling</span></span>
+- <span data-ttu-id="873a0-134">Meðhöndlun bylgja á útleið</span><span class="sxs-lookup"><span data-stu-id="873a0-134">Outbound wave processing</span></span>
+- <span data-ttu-id="873a0-135">Stuðningur við handpökkun og sjálfvirka gámun</span><span class="sxs-lookup"><span data-stu-id="873a0-135">Manual packing and automatic containerization support</span></span>
+- <span data-ttu-id="873a0-136">Klasatiltekt</span><span class="sxs-lookup"><span data-stu-id="873a0-136">Cluster picking</span></span>
+- <span data-ttu-id="873a0-137">Einföld dreifing frá dreifingarstöð</span><span class="sxs-lookup"><span data-stu-id="873a0-137">Simple cross docking</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="f39ee-138">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="f39ee-138">Additional resources</span></span>
-### <a name="whats-new-and-in-development"></a><span data-ttu-id="f39ee-139">Nýjungar og eiginleikar á þróunarstigi</span><span class="sxs-lookup"><span data-stu-id="f39ee-139">What's new and in development</span></span>
-<span data-ttu-id="f39ee-140">Á [Microsoft Dynamics 365-leiðarvísinum](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi.</span><span class="sxs-lookup"><span data-stu-id="f39ee-140">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="873a0-138">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="873a0-138">Additional resources</span></span>
+### <a name="whats-new-and-in-development"></a><span data-ttu-id="873a0-139">Nýjungar og eiginleikar á þróunarstigi</span><span class="sxs-lookup"><span data-stu-id="873a0-139">What's new and in development</span></span>
+<span data-ttu-id="873a0-140">Á [Microsoft Dynamics 365-leiðarvísinum](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi.</span><span class="sxs-lookup"><span data-stu-id="873a0-140">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span>
 
-### <a name="blogs"></a><span data-ttu-id="f39ee-141">Blogg</span><span class="sxs-lookup"><span data-stu-id="f39ee-141">Blogs</span></span>
-<span data-ttu-id="f39ee-142">Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog) má finna umfjöllun, fréttir og aðrar upplýsingar um Vöruhúsastjórnun og aðrar lausnir.</span><span class="sxs-lookup"><span data-stu-id="f39ee-142">You can find opinions, news, and other information about Warehouse management and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog).</span></span>
+### <a name="blogs"></a><span data-ttu-id="873a0-141">Blogg</span><span class="sxs-lookup"><span data-stu-id="873a0-141">Blogs</span></span>
+<span data-ttu-id="873a0-142">Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog) má finna umfjöllun, fréttir og aðrar upplýsingar um Vöruhúsastjórnun og aðrar lausnir.</span><span class="sxs-lookup"><span data-stu-id="873a0-142">You can find opinions, news, and other information about Warehouse management and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog).</span></span>
 
 
  

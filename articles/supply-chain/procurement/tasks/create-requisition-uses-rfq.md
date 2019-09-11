@@ -1,6 +1,6 @@
 ---
 title: Stofna beiðni sem notar tilboðsbeiðni
-description: Þessari handbók sýnir hvernig á að bæta verð og upplýsingar um lánardrottin við innkaupabeiðni úr Tilboðsbeiðniferli.
+description: Þetta efni útskýrir hvernig á að bæta verð og upplýsingar um lánardrottin við innkaupabeiðni úr Tilboðsbeiðniferli.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,91 +16,86 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9d80f84c148ff26bf008a97b06098bfd18c9062d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 4429bda6efddbb4f1fa7da06e91e51d885919c05
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844155"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914955"
 ---
-# <a name="create-a-requisition-that-uses-an-rfq"></a><span data-ttu-id="6f4c2-103">Stofna beiðni sem notar tilboðsbeiðni</span><span class="sxs-lookup"><span data-stu-id="6f4c2-103">Create a requisition that uses an RFQ</span></span>
+# <a name="create-a-requisition-that-uses-an-rfq"></a><span data-ttu-id="4433e-103">Stofna beiðni sem notar tilboðsbeiðni</span><span class="sxs-lookup"><span data-stu-id="4433e-103">Create a requisition that uses an RFQ</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="6f4c2-104">Þessari handbók sýnir hvernig á að bæta verð og upplýsingar um lánardrottin við innkaupabeiðni úr Tilboðsbeiðniferli.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-104">This guide shows how to add price and vendor information to a purchase requisition from an RFQ process.</span></span> <span data-ttu-id="6f4c2-105">Dæmi sem sýnd eru í þessari handbók má nota í USMF fyrirtækisins sýnigögnum og þú verður að vera skráður inn sem Kerfisstjóra til að ljúka við skrefin.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-105">The example shown in this guide can be used in the USMF demo data company, and you must be logged in as an Admin to complete all the steps.</span></span> <span data-ttu-id="6f4c2-106">Verkin í þessari handbók væri yfirleitt gert af innkaupasérfræðingum.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-106">The tasks in this guide would typically be done by procurement professionals.</span></span>
+<span data-ttu-id="4433e-104">Þetta efni útskýrir hvernig á að bæta verð og upplýsingar um lánardrottin við innkaupabeiðni úr Tilboðsbeiðniferli.</span><span class="sxs-lookup"><span data-stu-id="4433e-104">This topic explains how to add price and vendor information to a purchase requisition from an RFQ process.</span></span> <span data-ttu-id="4433e-105">Dæmi sem sýnd eru í þessari handbók má nota í USMF fyrirtækisins sýnigögnum og þú verður að vera skráður inn sem Kerfisstjóra til að ljúka við skrefin.</span><span class="sxs-lookup"><span data-stu-id="4433e-105">The example shown in this guide can be used in the USMF demo data company, and you must be logged in as an Admin to complete all the steps.</span></span> <span data-ttu-id="4433e-106">Verkin í þessari handbók væri yfirleitt gert af innkaupasérfræðingum.</span><span class="sxs-lookup"><span data-stu-id="4433e-106">The tasks in this guide would typically be done by procurement professionals.</span></span>
 
 
-## <a name="create-a-requisition"></a><span data-ttu-id="6f4c2-107">Stofna nýja beiðni</span><span class="sxs-lookup"><span data-stu-id="6f4c2-107">Create a requisition</span></span>
-1. <span data-ttu-id="6f4c2-108">Fara í Innkaup og uppruni > Innkaupabeiðnir > Innkaupabeiðnir sem ég hef.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-108">Go to Procurement and sourcing > Purchase requisitions > Purchase requisitions prepared by me.</span></span>
-2. <span data-ttu-id="6f4c2-109">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-109">Click New.</span></span>
-3. <span data-ttu-id="6f4c2-110">Í reitinn Heiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-110">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="6f4c2-111">Dagsetning er rituð í reitinn umbeðin dagsetning:.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-111">In the Requested date field, enter a date.</span></span>
-5. <span data-ttu-id="6f4c2-112">Dagsetning er rituð í reitinn dagsetning reikningsskila.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-112">In the Accounting date field, enter a date.</span></span>
-6. <span data-ttu-id="6f4c2-113">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-113">Click OK.</span></span>
-7. <span data-ttu-id="6f4c2-114">Í reitinn Ástæða skal slá inn eða veldu gildi.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-114">In the Reason field, enter or select a value.</span></span>
-8. <span data-ttu-id="6f4c2-115">Smellið á „Bæta við línu“.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-115">Click Add line.</span></span>
-9. <span data-ttu-id="6f4c2-116">Í reitnum Innkaupategund skal velja tegund í trénu og smella síðan á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-116">In the Procurement category field, select a category in the tree, and then click OK.</span></span>
-10. <span data-ttu-id="6f4c2-117">Í reitinn Afurðarheiti skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-117">In the Product name field, type a value.</span></span>
-11. <span data-ttu-id="6f4c2-118">Færið inn númer í reitnum „Magn“.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-118">In the Quantity field, enter a number.</span></span>
-12. <span data-ttu-id="6f4c2-119">Í reitinn eining skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-119">In the Unit field, enter or select a value.</span></span>
-13. <span data-ttu-id="6f4c2-120">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-120">Click Save.</span></span>
-14. <span data-ttu-id="6f4c2-121">Smellt er á Verkflæði til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-121">Click Workflow to open the drop dialog.</span></span>
-15. <span data-ttu-id="6f4c2-122">Smelltu á Senda.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-122">Click Submit.</span></span>
-16. <span data-ttu-id="6f4c2-123">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-123">Close the page.</span></span>
-17. <span data-ttu-id="6f4c2-124">Smelltu á Senda.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-124">Click Submit.</span></span>
+## <a name="create-a-requisition"></a><span data-ttu-id="4433e-107">Stofna nýja beiðni</span><span class="sxs-lookup"><span data-stu-id="4433e-107">Create a requisition</span></span>
+1. <span data-ttu-id="4433e-108">Í skoðunarrúðunni ferðu í **Kerfiseiningar > Innkaup og aðföng > Innkaupabeiðnir > Innkaupabeiðnir sem ég hef búið til**.</span><span class="sxs-lookup"><span data-stu-id="4433e-108">In the navigation pane, go to **Modules > Procurement and sourcing > Purchase requisitions > Purchase requisitions prepared by me**.</span></span>
+2. <span data-ttu-id="4433e-109">Veljið **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="4433e-109">Select **New**.</span></span>
+3. <span data-ttu-id="4433e-110">Í reitinn **Heiti** skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="4433e-110">In the **Name** field, type a value.</span></span>
+4. <span data-ttu-id="4433e-111">Í reitinn **Umbeðin dagsetning** slærðu inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="4433e-111">In the **Requested date** field, enter a date.</span></span>
+5. <span data-ttu-id="4433e-112">Í reitinn **Dagsetning reikningsskila** slærðu inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="4433e-112">In the **Accounting date** field, enter a date.</span></span>
+6. <span data-ttu-id="4433e-113">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="4433e-113">Select **OK**.</span></span>
+7. <span data-ttu-id="4433e-114">Í reitinn **Ástæða** skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="4433e-114">In the **Reason** field, enter or select a value.</span></span>
+8. <span data-ttu-id="4433e-115">Veldu **Bæta við línu**.</span><span class="sxs-lookup"><span data-stu-id="4433e-115">Select **Add line**.</span></span>
+9. <span data-ttu-id="4433e-116">Í reitnum **Innkaupategund** skal velja flokk í trénu og velja síðan **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="4433e-116">In the **Procurement category** field, select a category in the tree, and then select **OK**.</span></span>
+10. <span data-ttu-id="4433e-117">Í reitinn **Afurðarheiti** skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="4433e-117">In the **Product name** field, type a value.</span></span>
+11. <span data-ttu-id="4433e-118">Í reitnum **Magn** slærðu inn tölu.</span><span class="sxs-lookup"><span data-stu-id="4433e-118">In the **Quantity** field, enter a number.</span></span>
+12. <span data-ttu-id="4433e-119">Í reitinn **Eining** skal slá inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="4433e-119">In the **Unit** field, enter or select a value.</span></span>
+13. <span data-ttu-id="4433e-120">Veljið **Vista**.</span><span class="sxs-lookup"><span data-stu-id="4433e-120">Select **Save**.</span></span>
+14. <span data-ttu-id="4433e-121">Veldu **Verkflæði** til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="4433e-121">Select **Workflow** to open the drop dialog.</span></span>
+15. <span data-ttu-id="4433e-122">Veldu **Senda**.</span><span class="sxs-lookup"><span data-stu-id="4433e-122">Select **Submit**.</span></span>
+16. <span data-ttu-id="4433e-123">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="4433e-123">Close the page.</span></span>
+17. <span data-ttu-id="4433e-124">Veldu **Senda**.</span><span class="sxs-lookup"><span data-stu-id="4433e-124">Select **Submit**.</span></span>
 
-## <a name="reassign-a-workflow-task"></a><span data-ttu-id="6f4c2-125">Endurúthluta verkflæðisverki</span><span class="sxs-lookup"><span data-stu-id="6f4c2-125">Reassign a workflow task</span></span>
-    * <span data-ttu-id="6f4c2-126">Næsta verki er að stofna beiðni um TILBOÐ til að fá tilboð frá lánardrottnum fyrir afurðina.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-126">The next task is to create an RFQ to get bids from vendors for the product.</span></span> <span data-ttu-id="6f4c2-127">Í sýnigögn USMF, er verkflæði fyrir beiðni sett upp með reglu þannig að ef lánardrottinn er ekki valinn, eða einingarverð er 0 fyrir línu, er verki úthlutað á tiltekinn starfsmann til að stofna beiðni um TILBOÐ.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-127">In USMF demo data, the requisition workflow is set up with a rule so that if a vendor is not selected, or the unit price is 0 for a line, a task is assigned to a specific worker to create an RFQ.</span></span> <span data-ttu-id="6f4c2-128">Til að halda áfram með þessari handbók, þarf að úthluta því verki til annars notanda (sjálfur).</span><span class="sxs-lookup"><span data-stu-id="6f4c2-128">To continue with this guide, you need to re-assign that task to another user (yourself).</span></span> <span data-ttu-id="6f4c2-129">Það er aðeins mögulegt ef notandi er innskráður sem er Admin.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-129">You can only do this if you are logged in as an Admin.</span></span>  
-1. <span data-ttu-id="6f4c2-130">Smellt er á Verkflæði til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-130">Click Workflow to open the drop dialog.</span></span>
-2. <span data-ttu-id="6f4c2-131">Smella á Skoða sögu</span><span class="sxs-lookup"><span data-stu-id="6f4c2-131">Click View history.</span></span>
-3. <span data-ttu-id="6f4c2-132">Endurhlaðið síðuna.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-132">Refresh the page.</span></span>
-4. <span data-ttu-id="6f4c2-133">Útvíkka hlutann rakningarupplýsingar.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-133">Expand the Tracking details section.</span></span>
-5. <span data-ttu-id="6f4c2-134">Veljið "línu sem byrjar á"Verkflæði virkjað á"" á trénu.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-134">In the tree, select 'the line that starts with “Line workflow activated on”'.</span></span>
-6. <span data-ttu-id="6f4c2-135">Smella á Skoða upplýsingar um verkflæði</span><span class="sxs-lookup"><span data-stu-id="6f4c2-135">Click View workflow details.</span></span>
-7. <span data-ttu-id="6f4c2-136">Útvíkka hlutann vinnuliðir.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-136">Expand the Work items section.</span></span>
-8. <span data-ttu-id="6f4c2-137">Smellið á endurúthluta.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-137">Click Reassign.</span></span>
-9. <span data-ttu-id="6f4c2-138">Í notandareitnum, velurðu „Admin“.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-138">In the User field, select Admin.</span></span>
-10. <span data-ttu-id="6f4c2-139">Smellið á endurúthluta.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-139">Click Reassign.</span></span>
-11. <span data-ttu-id="6f4c2-140">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-140">Close the page.</span></span>
-12. <span data-ttu-id="6f4c2-141">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-141">Close the page.</span></span>
+## <a name="reassign-a-workflow-task"></a><span data-ttu-id="4433e-125">Endurúthluta verkflæðisverki</span><span class="sxs-lookup"><span data-stu-id="4433e-125">Reassign a workflow task</span></span>
+<span data-ttu-id="4433e-126">Næsta verki er að stofna beiðni um TILBOÐ til að fá tilboð frá lánardrottnum fyrir afurðina.</span><span class="sxs-lookup"><span data-stu-id="4433e-126">The next task is to create an RFQ to get bids from vendors for the product.</span></span> <span data-ttu-id="4433e-127">Í sýnigögn USMF, er verkflæði fyrir beiðni sett upp með reglu þannig að ef lánardrottinn er ekki valinn, eða einingarverð er 0 fyrir línu, er verki úthlutað á tiltekinn starfsmann til að stofna beiðni um TILBOÐ.</span><span class="sxs-lookup"><span data-stu-id="4433e-127">In USMF demo data, the requisition workflow is set up with a rule so that if a vendor is not selected, or the unit price is 0 for a line, a task is assigned to a specific worker to create an RFQ.</span></span> <span data-ttu-id="4433e-128">Til að halda áfram með þessari handbók, þarf að úthluta því verki til annars notanda (sjálfur).</span><span class="sxs-lookup"><span data-stu-id="4433e-128">To continue with this guide, you need to re-assign that task to another user (yourself).</span></span> <span data-ttu-id="4433e-129">Það er aðeins mögulegt ef notandi er innskráður sem er Admin.</span><span class="sxs-lookup"><span data-stu-id="4433e-129">You can only do this if you are logged in as an Admin.</span></span>  
 
-## <a name="create-an-rfq"></a><span data-ttu-id="6f4c2-142">Búa til beiðni um tilboð</span><span class="sxs-lookup"><span data-stu-id="6f4c2-142">Create an RFQ</span></span>
-1. <span data-ttu-id="6f4c2-143">Endurhlaðið síðuna.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-143">Refresh the page.</span></span>
-2. <span data-ttu-id="6f4c2-144">Smella á beiðni um tilboð</span><span class="sxs-lookup"><span data-stu-id="6f4c2-144">Click Request for quotation.</span></span>
-3. <span data-ttu-id="6f4c2-145">Veldu USMF í reitnum lögaðili sem kaupir.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-145">In the Buying legal entity field, select USMF.</span></span>
-    * <span data-ttu-id="6f4c2-146">Velja þarf sama lögaðila sem er í innkaupabeiðnilína.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-146">You must select the same legal entity that’s on the requisition line.</span></span>  
-4. <span data-ttu-id="6f4c2-147">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-147">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="6f4c2-148">Hafirðu haft margar línur á innkaupabeiðni þinni, veldu allar línur sem þú vilt bæta við beiðni um tilboð.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-148">If you had multiple lines on your purchase requisition, select all the lines that you want to add to the RFQ.</span></span>  
-5. <span data-ttu-id="6f4c2-149">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-149">Click OK.</span></span>
-6. <span data-ttu-id="6f4c2-150">Endurhlaðið síðuna.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-150">Refresh the page.</span></span>
-7. <span data-ttu-id="6f4c2-151">Opna Upplýsingakassa og útvíkka svo hlutann Tengd skjöl.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-151">Open the FactBox and then expand the Related documents section.</span></span>
-    * <span data-ttu-id="6f4c2-152">Þú gætir hugsanlega nú þegar verið með Upplýsingakassa opinn.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-152">You may already have the FactBox open.</span></span> <span data-ttu-id="6f4c2-153">Leita að tákn með ör á, hægra megin við víxlhnappana Línur/Haus.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-153">Look for the icon with an arrow on it, to the right of the Lines/Header toggle buttons.</span></span> <span data-ttu-id="6f4c2-154">Ef örin vísar til hægri er Upplýsingakassa þegar opinn.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-154">If the arrow is pointing to the right, the FactBox is already open.</span></span> <span data-ttu-id="6f4c2-155">Ef ör vísar til vinstri, skal smella á til að opna Upplýsingakassa.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-155">If the arrow points to the left, click it to open the FactBox.</span></span>  
-8. <span data-ttu-id="6f4c2-156">Smelltu á tengil á svæðinu Beiðni um tilboð til að opna beiðni um TILBOÐ sem verið var að stofna.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-156">Click the link in the Request for quotation field to open the RFQ that was just created.</span></span>
-9. <span data-ttu-id="6f4c2-157">Smellið á Haus.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-157">Click Header.</span></span>
-10. <span data-ttu-id="6f4c2-158">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-158">Click Add.</span></span>
-11. <span data-ttu-id="6f4c2-159">Færa inn eða veljið gildi í svæðinu lánardrottnalykill.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-159">In the Vendor account field, enter or select a value.</span></span>
-12. <span data-ttu-id="6f4c2-160">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-160">Click Add.</span></span>
-13. <span data-ttu-id="6f4c2-161">Færa inn eða veljið gildi í svæðinu lánardrottnalykill.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-161">In the Vendor account field, enter or select a value.</span></span>
-14. <span data-ttu-id="6f4c2-162">Smellt er á Senda.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-162">Click Send.</span></span>
-15. <span data-ttu-id="6f4c2-163">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-163">Click OK.</span></span>
-16. <span data-ttu-id="6f4c2-164">Smella á Færa inn svar</span><span class="sxs-lookup"><span data-stu-id="6f4c2-164">Click Enter reply.</span></span>
-17. <span data-ttu-id="6f4c2-165">Smellið á Svara á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-165">On the Action Pane, click Reply.</span></span>
-18. <span data-ttu-id="6f4c2-166">Smella á Afrita gögn til að svara.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-166">Click Copy data to reply.</span></span>
-    * <span data-ttu-id="6f4c2-167">Þetta afritar gögn, eins og magn og dagsetningar, frá beiðni um TILBOÐ í svarið.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-167">This copies data, such as the quantity and dates, from the RFQ to the reply .</span></span>  
-19. <span data-ttu-id="6f4c2-168">Færið inn númer í reitnum „Einingarverð“.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-168">In the Unit price field, enter a number.</span></span>
-    * <span data-ttu-id="6f4c2-169">Þetta er verðið sem þú hefur fengið frá lánardrottni.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-169">This is the price that you’ve received from the vendor.</span></span> <span data-ttu-id="6f4c2-170">Þú gætir einnig viljað færið inn viðbótarupplýsingar frá lánardrottni.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-170">You might also want to enter additional information from the vendor.</span></span>  
-20. <span data-ttu-id="6f4c2-171">Smellið á Samþykkja.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-171">Click Accept.</span></span>
-21. <span data-ttu-id="6f4c2-172">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-172">Click OK.</span></span>
+1. <span data-ttu-id="4433e-130">Veldu **Verkflæði** til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="4433e-130">Select **Workflow** to open the drop dialog.</span></span>
+2. <span data-ttu-id="4433e-131">Veldu **Skoða sögu**.</span><span class="sxs-lookup"><span data-stu-id="4433e-131">Select **View history**.</span></span>
+3. <span data-ttu-id="4433e-132">Endurhlaðið síðuna.</span><span class="sxs-lookup"><span data-stu-id="4433e-132">Refresh the page.</span></span>
+4. <span data-ttu-id="4433e-133">Útvíkkaðu kaflann **Rakningarupplýsingar**.</span><span class="sxs-lookup"><span data-stu-id="4433e-133">Expand the **Tracking details** section.</span></span>
+5. <span data-ttu-id="4433e-134">Í trénu velurðu línuna sem hefst á „Verkflæði virkjað á“.</span><span class="sxs-lookup"><span data-stu-id="4433e-134">In the tree, select the line that starts with “Line workflow activated on”.</span></span>
+6. <span data-ttu-id="4433e-135">Veldu **Skoða upplýsingar um verkflæði**.</span><span class="sxs-lookup"><span data-stu-id="4433e-135">Select **View workflow details**.</span></span>
+7. <span data-ttu-id="4433e-136">Útvíkkaðu kaflann **Vinnuliðir**.</span><span class="sxs-lookup"><span data-stu-id="4433e-136">Expand the **Work items** section.</span></span>
+8. <span data-ttu-id="4433e-137">Velja **Endurúthluta**.</span><span class="sxs-lookup"><span data-stu-id="4433e-137">Select **Reassign**.</span></span>
+9. <span data-ttu-id="4433e-138">Í reitnum **Notandi** velurðu **Stjórnandi**.</span><span class="sxs-lookup"><span data-stu-id="4433e-138">In the **User** field, select **Admin**.</span></span>
+10. <span data-ttu-id="4433e-139">Velja **Endurúthluta**.</span><span class="sxs-lookup"><span data-stu-id="4433e-139">Select **Reassign**.</span></span>
+11. <span data-ttu-id="4433e-140">Lokaðu síðunum tveimur.</span><span class="sxs-lookup"><span data-stu-id="4433e-140">Close the two pages.</span></span>
 
-## <a name="verify-that-vendor-and-price-have-been-transferred-to-the-requisition"></a><span data-ttu-id="6f4c2-173">Staðfestið að verð og lánardrottinn hafa verið fluttar í beiðni.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-173">Verify that vendor and price have been transferred to the requisition</span></span>
-1. <span data-ttu-id="6f4c2-174">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-174">Close the page.</span></span>
-2. <span data-ttu-id="6f4c2-175">Smellið á „Línur“.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-175">Click Lines.</span></span>
-3. <span data-ttu-id="6f4c2-176">Smelltu á Tengdar upplýsingar.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-176">Click Related information.</span></span>
-4. <span data-ttu-id="6f4c2-177">Smella á innkaupabeiðni</span><span class="sxs-lookup"><span data-stu-id="6f4c2-177">Click Purchase requisition.</span></span>
-5. <span data-ttu-id="6f4c2-178">Veldu sú lína sem var flutt á beiðni um tilboð.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-178">Select the line that was transferred to the RFQ.</span></span>
-    * <span data-ttu-id="6f4c2-179">Staðfestið að verð og lánardrottinn hafa verið afritaðar í beiðni.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-179">Verify that the price and vendor have been copied to the requisition.</span></span>  
-6. <span data-ttu-id="6f4c2-180">Smellt er á Verkflæði til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-180">Click Workflow to open the drop dialog.</span></span>
-7. <span data-ttu-id="6f4c2-181">Smelltu á Ljúka.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-181">Click Complete.</span></span>
-8. <span data-ttu-id="6f4c2-182">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-182">Close the page.</span></span>
-9. <span data-ttu-id="6f4c2-183">Smelltu á Ljúka.</span><span class="sxs-lookup"><span data-stu-id="6f4c2-183">Click Complete.</span></span>
+## <a name="create-an-rfq"></a><span data-ttu-id="4433e-141">Búa til beiðni um tilboð</span><span class="sxs-lookup"><span data-stu-id="4433e-141">Create an RFQ</span></span>
+
+1. <span data-ttu-id="4433e-142">Endurhlaðið síðuna.</span><span class="sxs-lookup"><span data-stu-id="4433e-142">Refresh the page.</span></span>
+2. <span data-ttu-id="4433e-143">Veldu **Beiðni um tilboð**.</span><span class="sxs-lookup"><span data-stu-id="4433e-143">Select **Request for quotation**.</span></span>
+3. <span data-ttu-id="4433e-144">Í reitnum **Innkaupalögaðili** velurðu **USMF**.</span><span class="sxs-lookup"><span data-stu-id="4433e-144">In the **Buying legal entity** field, select **USMF**.</span></span> <span data-ttu-id="4433e-145">Velja þarf sama lögaðila sem er í innkaupabeiðnilína.</span><span class="sxs-lookup"><span data-stu-id="4433e-145">You must select the same legal entity that’s on the requisition line.</span></span>  
+4. <span data-ttu-id="4433e-146">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="4433e-146">In the list, mark the selected row.</span></span> <span data-ttu-id="4433e-147">Hafirðu haft margar línur á innkaupabeiðni þinni, veldu allar línur sem þú vilt bæta við beiðni um tilboð.</span><span class="sxs-lookup"><span data-stu-id="4433e-147">If you had multiple lines on your purchase requisition, select all the lines that you want to add to the RFQ.</span></span>  
+5. <span data-ttu-id="4433e-148">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="4433e-148">Select **OK**.</span></span>
+6. <span data-ttu-id="4433e-149">Endurhlaðið síðuna.</span><span class="sxs-lookup"><span data-stu-id="4433e-149">Refresh the page.</span></span>
+7. <span data-ttu-id="4433e-150">Passaðu að upplýsingareiturinn sé opinn og útvíkkaðu síðan hlutann **Tengd skjöl**.</span><span class="sxs-lookup"><span data-stu-id="4433e-150">Ensure that the FactBox is open, then expand the **Related documents** section.</span></span>
+8. <span data-ttu-id="4433e-151">Veldu tengilinn í reitnum **Beiðni um tilboð** til að opna beiðni um tilboð sem verið var að stofna.</span><span class="sxs-lookup"><span data-stu-id="4433e-151">Select the link in the **Request for quotation** field to open the RFQ that was just created.</span></span>
+9. <span data-ttu-id="4433e-152">Veldu **Haus**.</span><span class="sxs-lookup"><span data-stu-id="4433e-152">Select **Header**.</span></span>
+10. <span data-ttu-id="4433e-153">Veljið **Bæta við**.</span><span class="sxs-lookup"><span data-stu-id="4433e-153">Select **Add**.</span></span>
+11. <span data-ttu-id="4433e-154">Í reitinn **Lánardrottnalykill** skal færa inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="4433e-154">In the **Vendor account** field, enter or select a value.</span></span>
+12. <span data-ttu-id="4433e-155">Veljið **Bæta við**.</span><span class="sxs-lookup"><span data-stu-id="4433e-155">Select **Add**.</span></span>
+13. <span data-ttu-id="4433e-156">Í reitinn **Lánardrottnalykill** skal færa inn eða velja gildi.</span><span class="sxs-lookup"><span data-stu-id="4433e-156">In the **Vendor account** field, enter or select a value.</span></span>
+14. <span data-ttu-id="4433e-157">Veljið **Senda**.</span><span class="sxs-lookup"><span data-stu-id="4433e-157">Select **Send**.</span></span>
+15. <span data-ttu-id="4433e-158">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="4433e-158">Select **OK**.</span></span>
+16. <span data-ttu-id="4433e-159">Veldu **Færa inn svar**.</span><span class="sxs-lookup"><span data-stu-id="4433e-159">Select **Enter reply**.</span></span>
+17. <span data-ttu-id="4433e-160">Í aðgerðarúðunni skal velja **Svara**.</span><span class="sxs-lookup"><span data-stu-id="4433e-160">On the Action Pane, select **Reply**.</span></span>
+18. <span data-ttu-id="4433e-161">Veldu **Afrita gögn í svar**.</span><span class="sxs-lookup"><span data-stu-id="4433e-161">Select **Copy data to reply**.</span></span> <span data-ttu-id="4433e-162">Þetta afritar gögn, eins og magn og dagsetningar, frá beiðni um TILBOÐ í svarið.</span><span class="sxs-lookup"><span data-stu-id="4433e-162">This copies data, such as the quantity and dates, from the RFQ to the reply.</span></span>  
+19. <span data-ttu-id="4433e-163">Í reitnum **Einingarverð** skal slá inn tölu.</span><span class="sxs-lookup"><span data-stu-id="4433e-163">In the **Unit price** field, enter a number.</span></span> <span data-ttu-id="4433e-164">Þetta er verðið sem þú hefur fengið frá lánardrottni.</span><span class="sxs-lookup"><span data-stu-id="4433e-164">This is the price that you’ve received from the vendor.</span></span> <span data-ttu-id="4433e-165">Þú gætir einnig viljað færið inn viðbótarupplýsingar frá lánardrottni.</span><span class="sxs-lookup"><span data-stu-id="4433e-165">You might also want to enter additional information from the vendor.</span></span>  
+20. <span data-ttu-id="4433e-166">Veljið **Samþykkja**.</span><span class="sxs-lookup"><span data-stu-id="4433e-166">Select **Accept**.</span></span>
+21. <span data-ttu-id="4433e-167">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="4433e-167">Select **OK**.</span></span>
+
+## <a name="verify-that-vendor-and-price-have-been-transferred-to-the-requisition"></a><span data-ttu-id="4433e-168">Staðfestið að verð og lánardrottinn hafa verið fluttar í beiðni.</span><span class="sxs-lookup"><span data-stu-id="4433e-168">Verify that vendor and price have been transferred to the requisition</span></span>
+1. <span data-ttu-id="4433e-169">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="4433e-169">Close the page.</span></span>
+2. <span data-ttu-id="4433e-170">Veldu **Línur**.</span><span class="sxs-lookup"><span data-stu-id="4433e-170">Select **Lines**.</span></span>
+3. <span data-ttu-id="4433e-171">Veldu **Tengdar upplýsingar**.</span><span class="sxs-lookup"><span data-stu-id="4433e-171">Select **Related information**.</span></span>
+4. <span data-ttu-id="4433e-172">Veldu **Innkaupabeiðni**.</span><span class="sxs-lookup"><span data-stu-id="4433e-172">Select **Purchase requisition**.</span></span>
+5. <span data-ttu-id="4433e-173">Veldu sú lína sem var flutt á beiðni um tilboð.</span><span class="sxs-lookup"><span data-stu-id="4433e-173">Select the line that was transferred to the RFQ.</span></span> <span data-ttu-id="4433e-174">Staðfestið að verð og lánardrottinn hafa verið afritaðar í beiðni.</span><span class="sxs-lookup"><span data-stu-id="4433e-174">Verify that the price and vendor have been copied to the requisition.</span></span>  
+6. <span data-ttu-id="4433e-175">Veldu **Verkflæði** til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="4433e-175">Select **Workflow** to open the drop dialog.</span></span>
+7. <span data-ttu-id="4433e-176">Velja Lokið.</span><span class="sxs-lookup"><span data-stu-id="4433e-176">Select Complete.</span></span>
+8. <span data-ttu-id="4433e-177">Veldu síðuna.</span><span class="sxs-lookup"><span data-stu-id="4433e-177">Select the page.</span></span>
+9. <span data-ttu-id="4433e-178">Velja Lokið.</span><span class="sxs-lookup"><span data-stu-id="4433e-178">Select Complete.</span></span>
 

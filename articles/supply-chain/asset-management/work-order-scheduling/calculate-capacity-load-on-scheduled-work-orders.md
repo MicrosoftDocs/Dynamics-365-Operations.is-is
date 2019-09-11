@@ -1,0 +1,60 @@
+---
+title: Reikna álag á áætlaðar verkbeiðnir
+description: Þetta efni útskýrir hvernig á að reikna út álag á áætlaðar verkbeiðnir í eignastjórnun.
+author: josaw1
+manager: AnnBe
+ms.date: 08/19/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: mkirknel
+ms.search.validFrom: 2019-08-31
+ms.dyn365.ops.version: 10.0.5
+ms.openlocfilehash: 0c0dd1e306c54d3f99b86ad6f1816d5acabe6c18
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887160"
+---
+# <a name="calculate-capacity-load-on-scheduled-work-orders"></a><span data-ttu-id="e5db2-103">Reikna álag á áætlaðar verkbeiðnir</span><span class="sxs-lookup"><span data-stu-id="e5db2-103">Calculate capacity load on scheduled work orders</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+[!include [banner](../../includes/preview-banner.md)]
+
+<span data-ttu-id="e5db2-104">Hægt er að reikna út álag á áætlaðar verkbeiðnir til að fá yfirsýn yfir vinnuálag á tilföng fyrir tiltekið tímabil.</span><span class="sxs-lookup"><span data-stu-id="e5db2-104">You can calculate capacity load on scheduled work orders to get an overview of the work load on resources for a specific period.</span></span> <span data-ttu-id="e5db2-105">Hægt er að reikna út fyrir eftirfarandi úrræði: Viðhaldsstarfsmenn, starfsmannahópa, verkfæri og eignir.</span><span class="sxs-lookup"><span data-stu-id="e5db2-105">Calculations can be made for the following resources: Maintenance workers, worker groups, tools, and assets.</span></span>
+
+1. <span data-ttu-id="e5db2-106">Smelltu á **Eignastýringu** > **Fyrirspurnir** > **Áætlun** > **Álag**.</span><span class="sxs-lookup"><span data-stu-id="e5db2-106">Click **Asset management** > **Inquiries** > **Schedule** > **Capacity load**.</span></span>
+
+2. <span data-ttu-id="e5db2-107">Í valmyndinni **Reikna álag** > reitnum **Sýna** velurðu hvaða álagsgerð þú vilt reikna út: "Afkastageta", "Frátekið" eða "Eftirstöðvar".</span><span class="sxs-lookup"><span data-stu-id="e5db2-107">In the **Calculate capacity load** dialog > **Show** field, select which load type you want to calculate: "Capacity", "Reserved", or "Remainder".</span></span>
+
+3. <span data-ttu-id="e5db2-108">Veldu „Já“ á skiptihnappnum **Sleppa núlli** ef þú vilt ekki sýna niðurstöður með núlli.</span><span class="sxs-lookup"><span data-stu-id="e5db2-108">Select "Yes" on the **Skip zero** toggle button if you do not want to show results containing zero.</span></span>
+
+4. <span data-ttu-id="e5db2-109">Veldu tilfangagerðirnar sem þú vilt reikna út álag fyrir með því að velja "Já" á viðeigandi skiptihnöppum: **Starfskraftur**, **Hópur viðhaldsstarfsmanna**, **Verkfæri** og **Eignir**.</span><span class="sxs-lookup"><span data-stu-id="e5db2-109">Select the resource types for which you want to calculate capacity load by selecting "Yes" on the relevant toggle buttons: **Worker**, **Maintenance worker group**, **Tool**, and **Asset**.</span></span>
+
+5. <span data-ttu-id="e5db2-110">Veldu upphafsdagsetningu fyrir útreikning í reitnum **Frá dagsetningu**.</span><span class="sxs-lookup"><span data-stu-id="e5db2-110">Select the start date for the calculation in the **From date** field.</span></span>
+
+6. <span data-ttu-id="e5db2-111">Í reitnum **Gerð millibils** velurðu bilið fyrir útreikninginn: „Dagur“, „Vika“, „Mánuður“ eða „Ársfjórðungur“.</span><span class="sxs-lookup"><span data-stu-id="e5db2-111">In the **Interval type** field, select the interval for the calculation: "Day", "Week", "Month", or "Quarter".</span></span>
+
+7. <span data-ttu-id="e5db2-112">Í reitnum **Tímabilstíðni** seturðu inn þann fjölda millibila sem þú vilt reikna.</span><span class="sxs-lookup"><span data-stu-id="e5db2-112">In the **Period frequency** field, insert the number of intervals you want to calculate.</span></span> <span data-ttu-id="e5db2-113">Til dæmis, ef þú hefur valið „Dag“ sem millibilsgerð og þú setur töluna „5“ inn í þennan reit, verða reiknaðir út fimm dagar frá upphafsdegi.</span><span class="sxs-lookup"><span data-stu-id="e5db2-113">For example, if you have selected "Day" as the interval type, and you insert the number "5" in this field, a calculation of five days from the start date will be made.</span></span>
+
+8. <span data-ttu-id="e5db2-114">Smellið á **Í lagi** til að byrja að reikna.</span><span class="sxs-lookup"><span data-stu-id="e5db2-114">Click **OK** to start the calculation.</span></span>
+
+<span data-ttu-id="e5db2-115">Myndin hér að neðan sýnir niðurstöðu útreiknings sem spannaði þrjár vikur fyrir álagsgerðina „Frátekið“.</span><span class="sxs-lookup"><span data-stu-id="e5db2-115">The figure below shows the result of a calculation covering three weeks for the load type "Reserved".</span></span>
+
+![Mynd 1](media/08-work-order-scheduling.png)
+
+>[!NOTE]
+><span data-ttu-id="e5db2-117">Ef þú velur álagsgerðina „Afkastagega“ eða „Eftirstöðvar“ fyrir útreikninginn mun sama niðurstaða birtast ef engir fyrirvarar hafa verið gerðir á tilföngunum á völdu tímabili.</span><span class="sxs-lookup"><span data-stu-id="e5db2-117">If you select the load types "Capacity" or "Remainder" for your calculation, the same result will be displayed if no reservations have been made for the resources in the selected period.</span></span>
+
+<span data-ttu-id="e5db2-118">Sjá [Reikna álag](../capacity-planning/calculate-capacity-load.md) til að fá upplýsingar um hvernig á að reikna út álag á viðhaldsskemalínum og ekki á áætluðum verkbeiðnum.</span><span class="sxs-lookup"><span data-stu-id="e5db2-118">Refer to [Calculate capacity load](../capacity-planning/calculate-capacity-load.md) for information on how to calculate capacity load on maintenance schedule lines and not scheduled work orders.</span></span>
+
