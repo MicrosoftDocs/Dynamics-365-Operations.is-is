@@ -3,7 +3,7 @@ title: Úthluta vinnuliðir í verkflæði
 description: Ef þú verður ekki á skrifstofunni í einhvern tíma eða munt ekki vera tiltækur til að bregðast við vinnulið getur þú úthlutað, eða endurúthlutað vinnuliðunum, til annars notanda.
 author: jasongre
 manager: AnnBe
-ms.date: 04/09/2019
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: feace647d7acef6abf86b13fcb8019c622c55ff6
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 44dc747543e32b54729d12c89a401b0187e25a61
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1509453"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916416"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Úthluta vinnuliðum í verkflæði
 
@@ -36,17 +36,16 @@ Til að úthluta einstökum vinnulið skal velja valkostinn **Úthluta** í valm
 Ef þú verður ekki á skrifstofunni í einhvern tíma eða munt ekki vera tiltækur til að bregðast við vinnuliðum yfir eitthvert tímabil getur þú úthlutað nýjum vinnuliðum sjálfvirkt á aðra notendur með því að nota síðuna **Valkostir notanda**.
 
 ### <a name="set-up-automatic-delegation"></a>Setja upp sjálfvirka úthlutun
-1. Fara í Algengt > Uppsetning > Notandavalkostir.
-2. Smellt er á flipann Verkflæði.
-    * Gangið úr skugga um að hlutinn Úthlutun sé stækkaður.    Til að grunnstilla kerfi til að sjálfkrafa úthluta vinnuliðum á annan notandi, verður að stofna úthlutunarreglur sem tilgreina hvenær ákveðnar gerðir vinnuliða er úthluta. Fylgið þessum skrefum til að stofna úthlutunarreglu.  
-3. Smelltu á Bæta við.
-4. Í svæði Umfang, velja valkostur.
-    * Allt - Úthluta öllum vinnuliðum sem úthlutað á þig.    Eining - Úthluta aðeins vinnuliðum sem tengjast tilgreindri gerð verkflæði. Ef þessi valkostur valinn, verður að velja gerð verkflæðis í svæði Heiti.    Verkflæði - Úthluta aðeins vinnuliðum sem tengjast tilgreindu verkflæði. Ef þessi valkostur valinn, verður að velja verkflæði í svæði Heiti.  
-5. Í svæði Úthluta, velja notandi sem á að úthluta vinnuliðir á.
-    * Notið svæði Upphafsdagsetning/-tími og Lokadagsetning/-tími til að tilgreina hvenær á sjálfkrafa að úthluta vinnuliður.  
-6. Í svæði Upphafsdagsetning/-tími, slá inn dagsetning og tími.
-7. Í svæði Lokadagsetning/-tími, slá inn dagsetning og tími.
-8. Veljið gátreitinn Virkt til að gera úthlutunarregluna virka.
-    * Ef Eining er valið sem umfang, verður að velja einingu í svæði Heiti.    Ef Verkflæði er valið sem umfang, verður að velja sérstakt verkflæði sem á að úthluta í svæði Heiti.  
-9. Í svæði Athugasemd skal færa inn athugasemd og útskýra hvers vegna vinnuliðir eru úthlutað.
+1. Farðu í **Algengt > Uppsetning > Notandavalkostir**.
+2. Smelltu á flipann **Verkflæði**. Gakktu úr skugga um að hlutinn Úthlutun sé stækkaður. Til að grunnstilla kerfi til að sjálfkrafa úthluta vinnuliðum á annan notandi, verður að stofna úthlutunarreglur sem tilgreina hvenær ákveðnar gerðir vinnuliða er úthluta. Fylgið þessum skrefum til að stofna úthlutunarreglu.  
+3. Smelltu á **Bæta við**.
+4. Í svæði **Umfang** skal velja valkost.
+    - Allt - Úthluta öllum vinnuliðum sem úthlutað á þig.
+    - Eining - Úthluta aðeins vinnuliðum sem tengjast tilgreindri gerð verkflæði. Ef þessi valkostur valinn, verður að velja gerð verkflæðis í svæði Heiti.
+    - Verkflæði - Úthluta aðeins vinnuliðum sem tengjast tilgreindu verkflæði. Ef þessi valkostur valinn, verður að velja verkflæði í svæði Heiti.  
+5. Í reitnum **Úthluta** skal velja notanda sem úthluta skal vinnuliðum á. Notið svæði Upphafsdagsetning/-tími og Lokadagsetning/-tími til að tilgreina hvenær á sjálfkrafa að úthluta vinnuliður.  
+6. Í reitnum **Upphafsdagsetning/-tími** skal slá inn dagsetningu og tíma.
+7. Í reitnum **Lokadagsetning/-tími** skal slá inn dagsetningu og tíma.
+8. Veljið gátreitinn **Virkjað** til að gera úthlutunarregluna virka. Ef **Eining** er valið sem umfang verður að velja einingu í reitnum Heiti. Ef **Verkflæði** er valið sem umfang verður að velja sérstakt verkflæði til að úthluta í reitinn Heiti.  
+9. Í reitinn **Athugasemd** skal færa inn athugasemd og útskýra hvers vegna vinnuliðum er úthlutað.
 

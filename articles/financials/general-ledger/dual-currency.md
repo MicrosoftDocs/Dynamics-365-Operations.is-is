@@ -3,7 +3,7 @@ title: Tvöfaldur gjaldmiðill
 description: Þetta umræðuefni veitir upplýsingar um tvöfaldan gjaldmiðil þar sem skýrslugjaldmiðillinn er notaður sem annar bókhaldsgjaldmiðill fyrir Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
-ms.date: 05/06/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,20 +16,31 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: dfd4c116552510ee42cd2f3e8a0f31100826b9d2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6d5128ea9daaf22ee962ca5fc70a05cba05c7edb
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839402"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867512"
 ---
 # <a name="dual-currency"></a>Tvöfaldur gjaldmiðill
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Virkni sem kynnt var í Microsoft Dynamics 365 for Finance and Operations útgáfu 8.1 (október 2018) gerir kleift að endurskipuleggja skýrslugjaldmiðilinn og nota sem annan bókhaldsgjaldmiðill. Þessi virkni er vísað til sem *tvöfalds gjaldmiðils*. Ekki er hægt að slökkva á breytingum fyrir tvöfaldan gjaldmiðil með skilgreiningarlykli eða færibreytu. Vegna þess að skýrslugjaldmiðillinn er notaður sem annar bókhaldsgjaldmiðill, breytist leiðin sem skýrslugjaldmiðillinn er reiknaður með bókunarrökunum.
 
-Að auki hafa ýmsir einingar verið endurbættar til að fylgjast með, tilkynna og nota skýrslugjaldmiðilinn í ýmsum ferlum. Þær einingar sem hafa áhrif á eru m.a.: **Fjárhagur**, **Fjárhagsskýrslugerð**, **Viðskiptaskuldir**, **Viðskiptakröfur**, **Reiðufjár- og bankastjórnun** og **Eignir**. Eftir uppfærslu verður þú að ljúka sérstökum skrefum fyrir reiðufjár- og bankastjórnun og eignir. Því vertu viss um að lesa viðeigandi hluta þessa efnis vandlega.
+Að auki hafa nokkrar einingar verið endurbættar til að fylgjast með, tilkynna og nota skýrslugjaldmiðilinn í ýmsum ferlum. Einingarnar sem verða fyrir áhrifum eru meðal annars:
+
+- Fjárhagur 
+- Fjárhagsskýrslugerð 
+- Viðskiptaskuldir
+- Viðskiptakröfur 
+- Reiðufjár- og bankastjórnun 
+- Eignir 
+- Samstæður
+
+Eftir uppfærslu verður þú að ljúka sérstökum skrefum fyrir reiðufjár- og bankastjórnun og eignir. Passaðu því að lesa og skilja viðeigandi hluta þessa efnis.
 
 ## <a name="posting-process"></a>Bókunarferli
 
@@ -75,6 +86,7 @@ Eftirfarandi einingar nota skýrslugjaldmiðilinn sem annan bókhaldsgjaldmiðil
 - [Viðskiptakröfur](#accounts-payable-and-accounts-receivable)
 - [Reiðufjár- og bankastjórnun](#cash-and-bank-management)
 - [Eignir](#fixed-assets)
+- [Samstæður](#consolidations)
 
 ### <a name="general-ledger"></a>Fjárhagur
 
@@ -124,6 +136,8 @@ Aukahlutur í **fjárhagsskýrslugerð** gerir þér kleift að taka upp skýrsl
 Að auki hafa verulegar breytingar verið gerðar á afskriftarferlinu. Þessar breytingar krefjast aðgerðir notanda eftir uppfærslu. Það er mikilvægt að þú lesir og skiljir eftirfarandi breytingar, jafnvel þótt þú hafir ekki enn notað Eignir.
 
 - Leiðin sem afskriftarferlið ákvarðar skýrslugjaldmiðilsupphæðina hefur breyst. Eftirfarandi atburðarás ber saman hvernig afskriftir hafa áður ákvarðað skýrslugjaldmiðilsupphæð og hvernig það ákvarðar skýrslugjaldmiðilsupphæð núna.
+
+
 
     **Afskriftir atburðarás**
 
@@ -186,3 +200,13 @@ Að auki hafa verulegar breytingar verið gerðar á afskriftarferlinu. Þessar 
     - Ef færslugerð afskriftar er færð í færslubók eigna verða skýrslugjaldmiðilsupphæðir birtar í nýju dálkunum. Þessar fjárhæðir má breyta.
     - Ef bókhaldsgjaldmiðill og skýrslugjaldmiðill í fjárhag eru þau sömu, verður fjárhæðirnar haldið í samstillingu. Ef þú breytir **Inneignar** upphæðinni verður **Inneign í skýrslugjaldmiðli** upphæð sjálfkrafa breytt þannig að það samsvari því.
     - Ef einhver önnur færslugerð er slegin inn í færslubók eigna er **Úttekt í skýrslugjaldmiðli** og **Inneign í skýrslugjaldmiðli** upphæð aldrei sýnd, hvorki fyrir eða eftir bókun. Upphæðir bókhaldsgjaldmiðils og skýrslugjaldmiðils eru enn í boði á fylgiskjali sem sendir til fjárhags.
+    
+### <a name="consolidations"></a>Samstæður
+    
+Virkni sem kynnt var í Microsoft Dynamics 365 for Finance and Operations útgáfu 10.0.5 (október 2019) gerir kleift að virkja með eiginleikastjórnun fyrir aukinn sveigjanleika fyrir samstæðu og tvöfaldan gjaldmiðil. Til að virkja þessa virkni ferðu í vinnusvæðið **Stjórnun eiginleika** og veldu **Virkja virkni tvöfalds gjaldeyris í samstæðu fjárhags**.
+
+Í samstæðu fjárhags hefur nýjum valkosti verið bætt við til að sameina annaðhvort bókhalds- eða skýrslugjaldeyrisupphæðir úr upprunafyrirtækjunum. Ef bókhalds- eða skýrslugjaldmiðillinn er sá sami og bókhalds- eða skýrslugjaldmiðillinn í samstæðufyrirtækinu verða upphæðirnar afritaðar beint frekar en þýddar.
+
+-  Þú getur nú valið hvort nota á bókhaldsgjaldmiðilinn eða skýrslugjaldmiðilinn frá upprunafyrirtækinu sem viðskiptamynt í samstæðufyrirtækinu.
+
+- Upphæðir bókhalds- eða skýrslugjaldmiðils úr upprunafyrirtækinu verður afritaður beint í upphæðir bókhalds- eða skýrslugjaldmiðils í samstæðufyrirtækinu, ef annar hvor gjaldmiðillinn er sá sami. Fjárhæðir í bókhalds- og skýrslugjaldmiðlum í samstæðufyrirtækinu eru reiknaðar út með gengi ef hvorugur gjaldmiðillinn er sá sami.

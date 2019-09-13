@@ -1,9 +1,9 @@
 ---
-title: Áætlanagerð og fjölsvæðiseiginleikinn
+title: Yfirlit yfir aðaláætlanir og virkni á mörgum svæðum
 description: Aðalröðun tekur tillit til stillinga svæðis og vöruhúsabirgðavídda.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10981e0fe201566c83fd28c792000865bc533cd3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4f05e3efd1716a27a659ae40145f37bb0b3d977f
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1573092"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865406"
 ---
-# <a name="master-planning-and-multisite-functionality"></a>Áætlanagerð og fjölsvæðiseiginleikinn
+# <a name="master-planning-and-multisite-functionality-overview"></a>Yfirlit yfir aðaláætlanir og virkni á mörgum svæðum
 
 [!include [banner](../includes/banner.md)]
 
@@ -46,7 +46,7 @@ Eftirfarandi efnisatriði lýsa því hvernig áætlunarforritið vinnur, þegar
 
 [Aðaláætlanagerð - trygging svæðis og vöruhúss, vöruhús ekki lögbundið](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[Aðaláætlanagerð- trygging svæðis,  vöruhús ekki lögbundið](master-plan-site-coverage-warehouse-not-mandatory.md)
+[Aðaláætlanagerð- trygging svæðis, vöruhús ekki lögbundið](master-plan-site-coverage-warehouse-not-mandatory.md)
 
 [Aðaláætlanagerð - Hvernig uppskriftaútgáfan er ákvörðuð](master-plan-bom-version-determined.md)
 

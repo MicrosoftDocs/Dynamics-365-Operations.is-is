@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7a3c635c32a53226da6ce72db86ee7d9d0c17bdb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 964302cb7e7835b6e619602ac7165c9e7adbcefb
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847088"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916760"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>Setja upp endurúthlutun fyrir stutta vörutiltekt
 
@@ -32,25 +32,20 @@ ms.locfileid: "1847088"
 
 
 ## <a name="set-up-work-exceptions"></a>Setja upp vinnuundantekningar
-1. Fara í Vöruhúsakerfi > Uppsetning > Vinna > Undantekningar verks.
-2. Smellið á „Nýtt“.
-    * Það er hægt að skilgreina margar vinnuundantekningar ásamt mismunandi endurúthlutunarreglum til að gera starfsmaður í vöruhúsi mögulegt að velja eitt á grundvelli þess sem sendingin sem verið er að vinna þarf.  
-3. Færa inn gildi í reitnum Kenni undantekningar verks.
-    * Gefðu vinnuundantekningunni titil sem segir til um tilgang hennar. Til dæmis, handbók fyrir of litla tiltekt.  
-4. Sláið inn gildi í reitnum „Lýsing“.
-5. Veljið "of lítil tiltekt" í svæðinu gerð undantekningar.
-6. Velja gátreitinn leiðrétta birgðir
-    * Þessi valkostur þýðir að birgðir verða sjálfvirkt leiðréttar á 0 á staðsetningu þar sem tiltekt er of lítil.  
-7. Sláið inn eða veldu gildi í reitnum sjálfgefinn kóði leiðréttingargerðar.
-    * Til dæmis í USMF er hægt að velja "Remove Res Adj Out".  
-8. Í reitnum Endurúthlutun vöru er valið "Handvirkt".
-    * Ef valið er Handvirkt, eða Sjálfvirkar og Handvirkar, þarf starfsmaður í vöruhúsi að geta notað handvirka endurúthlutun.  
+1. Í **Skoðunarrúðu** ferðu í **Vöruhúsakerfi > Uppsetning > Vinna > Undantekningar verks**.
+2. Smellt er á **Nýtt**. Það er hægt að skilgreina margar vinnuundantekningar ásamt mismunandi endurúthlutunarreglum til að gera starfsmaður í vöruhúsi mögulegt að velja eitt á grundvelli þess sem sendingin sem verið er að vinna þarf.  
+3. Í reitinn **Kenni undantekningar verks** skaltu færa inn gildi. Gefðu vinnuundantekningunni titil sem segir til um tilgang hennar. Til dæmis, handbók fyrir of litla tiltekt.  
+4. Í reitinn **Lýsing** skal slá inn gildi.
+5. í reitnum **Gerð undantekningar** skaltu velja „of lítil tiltekt“.
+6. Veldu gátreitinn **Leiðrétta birgðir**. Þessi valkostur þýðir að birgðir verða sjálfvirkt leiðréttar á 0 á staðsetningu þar sem tiltekt er of lítil.  
+7. Í reitinn **Sjálfgefinn kóði leiðréttingargerðar** skal færa inn eða velja gildi. Til dæmis í USMF er hægt að velja "Remove Res Adj Out".  
+8. Í reitnum **Endurúthlutun vöru** er valið "Handvirkt". Ef valið er Handvirkt, eða Sjálfvirkar og Handvirkar, þarf starfsmaður í vöruhúsi að geta notað handvirka endurúthlutun.  
 
 ## <a name="set-up-a-worker-to-use-manual-item-reallocation"></a>Setja upp starfsmann til að nota handvirka endurúthlutun vöru
 1. Lokið síðunni.
-2. Fara í Vöruhúsakerfi > Uppsetning > Starfskraftur.
-3. Smellið á „Breyta“.
+2. Í **Skoðunarrúðu** ferðu í **Vöruhúsakerfi > Uppsetning > Vinna > Starfskraftur**.
+3. Smellið á **Breyta**.
 4. Í listanum skal velja starfskraft 24.
-5. Víkkið út hlutann vinna.
-6. Velja skal Já í svæðinu Leyfa handvirka endurúthlutun vöru.
+5. Útvíkkaðu flýtiflipann **Vinna**.
+6. Veldu „Já“ í reitnum **Leyfa handvirka endurúthlutun vöru**.
 

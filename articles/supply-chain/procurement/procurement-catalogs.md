@@ -1,9 +1,9 @@
 ---
-title: Innkaupavörulistar
+title: Yfirlt innkaupavörulista
 description: Þessi grein lýsir, á hærra stigi, hvernig sérfræðingar í innkaupum geta sett upp og viðhaldið innkaupavörulistum. Innkaupavörulistar skilgreina vörur og þjónustu sem starfsmenn fyrirtækja geta pantað fyrir notkun innan fyrirtækisins.
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f49c25e8d653219c9a2e5bead0c25f09898e27b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 06713d4f1ca1fe1c3feafe314da3a155fa7cd126
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559904"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865305"
 ---
-# <a name="procurement-catalogs"></a>Innkaupavörulistar
+# <a name="procurement-catalogs-overview"></a>Yfirlt innkaupavörulista
 
 [!include [banner](../includes/banner.md)]
 
@@ -54,7 +54,7 @@ Eftirfarandi tafla lýsir verkefnunum sem verður að vera lokið áður en innk
 ## <a name="setting-up-a-catalog"></a>Setja upp vörulista
 Eftir að frumskilyrði hafi verið uppfyllt, getur þú sett upp vörulista. Hægt er að stofna eina vörulista sem allt fyrirtækið notar eða margar vörulista sem mismunandi deildir fyrirtækisins nota . Ef stofna á eina vörulista fyrir allt fyrirtækið eru aðgang að vörulistinn er stjórnað af innkaupastefnureglum.  
 
-Vörulistinn skilgreinir hvaða vörur eru tiltækar þegar innkaupabeiðnir eru stofnaðar, en þú getur notað stefnureglur tegundaraðgangs til að beita frekari takmörkunum. Þar sem hnútar í vörulista eru innkaupaflokka, er hægt að fela þær af stefnuregla tegundaraðgangs. Í þessu tilfelli eru afurðir af þeirri tegund ekki tiltækar fyrir starfsmenn til að nota á innkaupabeiðnum.  Stefnureglur tegundaraðgangs eru skilgreindar á síðunni **Innkaupareglur**. Eftirfarandi tafla lýsir verkefnunum sem þarf að ljúka til að setja upp vörulista.
+Vörulistinn skilgreinir hvaða vörur eru tiltækar þegar innkaupabeiðnir eru stofnaðar, en þú getur notað stefnureglur tegundaraðgangs til að beita frekari takmörkunum. Þar sem hnútar í vörulista eru innkaupaflokka, er hægt að fela þær af stefnuregla tegundaraðgangs. Í þessu tilfelli eru afurðir af þeirri tegund ekki tiltækar fyrir starfsmenn til að nota á innkaupabeiðnum. Stefnureglur tegundaraðgangs eru skilgreindar á síðunni **Innkaupareglur**. Eftirfarandi tafla lýsir verkefnunum sem þarf að ljúka til að setja upp vörulista.
 
 | Verkefni                                                   | Hlutverk             | Lýsing                                                                                                                                                                                                                                                                                                                  |
 |--------------------------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

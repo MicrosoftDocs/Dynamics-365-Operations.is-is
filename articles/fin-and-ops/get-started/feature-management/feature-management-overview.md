@@ -3,7 +3,7 @@ title: Eiginleikastjórnunaryfirlit
 description: Þetta efnisatriði lýsir eiginleika eiginleikastjórnunar og hvernig hægt er að nota hann.
 author: mikefalkner
 manager: AnnBe
-ms.date: 07/17/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 21eaf2fdcadf8fe9f91438a97a88cc3bddab8286
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 6aeb5383520f799223d62420f6e0c1079c6c961f
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1862939"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887112"
 ---
 # <a name="feature-management-overview"></a>Eiginleikastjórnunaryfirlit
 
@@ -103,8 +103,9 @@ Allir aðgerðir sem hægt er að virkja verða gerðar virkar. Ef áætlun er �
 
 Sjálfgefið er að slökkt sé á öllum eiginleikum sem er bætt við umhverfið þitt, nema þeir séu áskildir eiginleikar. Ef þú vilt hins vegar kveikja sjálfkrafa á öllum eiginleikum er hægt að nota fellilistann undir titli vinnusvæðis til að breyta því sem gerist þegar nýjum eiginleikum er bætt við.
 
-- Veljið **Allir nýir eiginleikar verða virkjaðir að sjálfgefnu** til að kveikja sjálfkrafa á öllum nýjum eiginleikum þegar þeim er bætt við umhverfið þitt.
-- Veljið **Slökkt verður á öllum nýjum eiginleikum að sjálfgefnu** til að slökkva sjálfkrafa á öllum nýjum eiginleikum þegar þeim er bætt við umhverfið þitt.
+- Veljið **Virkja nýja eiginleika sjálfvirkt** til að kveikja sjálfkrafa á öllum nýjum eiginleikum þegar þeim er bætt við umhverfið þitt.
+- Veljið **Ekki virkja nýja eiginleika sjálfvirkt** til að stilla alla nýja eiginleika sjálfkrafa á slökkt þegar þeim er bætt við umhverfið þitt.
+
 
 Þegar þú kveikir á öllum eiginleikum sjálfkrafa gerir það kleift að gera alla þá eiginleika sem verða virkar þegar smellt er á hnappinn **Virkja allt**. Það gerir ekki kleift aðgerðir sem krefjast staðfestingar eða aðgerðir sem ekki er hægt að virkja fyrr en gripið er til aðgerða.
 

@@ -1,9 +1,9 @@
 ---
 title: Senda sölupantanir án vöruhúsa
-description: Þessi handbók sýnir hvernig á að uppfæra sölupöntun þegar vörur eru sendar til viðskiptavinarins.
+description: Þetta efni útskýrir hvernig á að uppfæra sölupöntun þegar vörur eru sendar til viðskiptavinarins.
 author: omulvad
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,47 +16,43 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 62bbd65e2d80dca5a07b761e1aa76f1894b667c1
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f9e311d3e033168ed577094e94477e7fe47d185d
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843314"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914931"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Senda sölupantanir án vöruhúsa
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi handbók sýnir hvernig á að uppfæra sölupöntun þegar vörur eru sendar til viðskiptavinarins. Leiðbeiningarnar eiga við um flæði uppfyllingar sem er ekki sett upp fyrir vöruhúsakerfi (hvorki grunnur eða ítarlegt vöruhús), og krefst þar af leiðandi ekki að afurð tiltektarlista sé skráð fyrir sendingu. Hægt er að keyra þetta ferli á eigin gögn eða í sýnigögn USMF fyrirtækis. Í báðum tilvikum, áður en þú ræsir þetta verk, skal stofna sölupöntun fyrir afurð á lager sem hefur magn sem er meira en 1. Til að forðast bókunarvillu þarf að athuga að afurðamagn á lager á því svæði og vöruhúsi sem var valið í pöntuninni nái yfir pöntunarmagnið.
-
+Þetta efni útskýrir hvernig á að uppfæra sölupöntun þegar vörur eru sendar til viðskiptavinarins. Leiðbeiningarnar eiga við um flæði uppfyllingar sem er ekki sett upp fyrir vöruhúsakerfi (hvorki grunnur eða ítarlegt vöruhús), og krefst þar af leiðandi ekki að afurð tiltektarlista sé skráð fyrir sendingu. Hægt er að keyra þetta ferli á eigin gögn eða í sýnigögn USMF fyrirtækis. Í báðum tilvikum, áður en þú ræsir þetta verk, skal stofna sölupöntun fyrir afurð á lager sem hefur magn sem er meira en 1. Til að forðast bókunarvillu þarf að athuga að afurðamagn á lager á því svæði og vöruhúsi sem var valið í pöntuninni nái yfir pöntunarmagnið.
 
 ## <a name="post-packing-slip-for-an-order"></a>Bóka fylgiseðil fyrir pöntun
-1. Fara í Sölu og markaðssetningu > sölupöntun > Allar sölupantanir
+1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Sala og markaðssetning > Sölupantanir > Allar sölupantanir**.
 2. Í listanum skal finna og velja pöntun sem var stofnuð fyrir þetta verk.
-3. Í listanum skal smella á tengilinn í valinni línu.
-4. Í aðgerðasvæðinu er smellt á Taka til og pakka.
-5. Smellt er á Bóka fylgiseðil.
-6. Útvíkka eða draga saman hlutann Færibreytur.
-7. Veljið „Allt“ á svæðinu „Magn“.
-    * Aðrir valkostir eru Afhenda núna og Tekið til. Ef senda á pöntunarlínuna að hluta til og reiturinn Afhenda nú í pöntunarlínunni inniheldur magn, myndirðu velja Afhenda nú. Ef flæði uppfyllingar fyrirtækis þíns felur í sér tiltektarlista sem aðskilda ferli sem er stjórnað af og skráð með tiltektarlista, myndirðu velja Tiltekið.  
-    * Athuga að valkosturinn Bókun sé stilltur á Já.  
-8. Stilla valkostinn Prenta fylgiseðla á Já.
-    * Yfirlitsflipinn inniheldur lista yfir fylgiseðla til að mynda í þessari bókun. Ef þú ert að senda einstaka pöntun verður yfirleitt einn fylgiseðil. Hins vegar ef pöntunarlínur eru til sendingar frá mismunandi svæðum verður bókun sjálfkrafa skipt í viðeigandi fjölda skjala. Þetta er áskilið skilyrði sem ekki er hægt að breyta. Á svipaðan hátt verður bókun einnig skipt upp í mörg skjöl ef senda á línur pöntunar á mismunandi afhendingaraðsetur og sendingarreglan er sett upp til að krefjast skiptingar.  
-9. Á flipanum Lína velurðu röð fyrir pöntunarlínuna sem á að senda.
-10. Í reitnum Uppfæra skal slá inn tölu sem er lægri en upphaflegt magn.
-11. Smellið á „Í lagi“.
-12. Smella á Já.
-13. Lokið síðunni.
-14. Í aðgerðasvæðinu er smellt á valkostir.
-15. Smellið á skoða Breytingu.
-16. Smellið á skoða Haus.
-    * Ef allar línur í pöntun hafa verið afgreiddar að fullu breytist staða pöntunar úr Opið í Afhent.  
-    * Í þessu dæmi hefur pöntunarlínan verið send að hluta. Þess vegna helst pöntunarstaðan opin.     
-    * Reiturinn Staða skjals er stilltur á fylgiseðil þar sem að minnsta kosti ein af pöntunarlínunum hefur verið send.  
-17. Smellið á „Almennt“ á aðgerðarúðunni.
-18. Smellt er á Línumagn.
-19. Lokið síðunni.
-20. Smellið á „Tiltekt og pökkun“ á aðgerðarúðunni.
-21. Smella skal á fylgiseðilinn.
-    * Síðan Færslubók fylgiseðla inniheldur öll skjöl fylgiseðla sem voru mynduð fyrir pöntunina. Hægt er að fara yfir nákvæmar upplýsingar um hvert skjal og prenta þær, ef óskað er.  
+3. Á aðgerðasvæðinu velurðu **Taka til og pakka**.
+4. Veldu **Bóka fylgiseðil**.
+5. Útvíkka eða draga saman hlutann **Færibreytur**.
+6. Í reitnum **Magn** velurðu **Allt**.
+    - Aðrir valkostir eru **Afhenda núna** og **Tekið til**. Ef senda á pöntunarlínuna að hluta til og reiturinn **Afhenda núna** í pöntunarlínunni inniheldur magn, myndirðu velja **Afhenda núna**. Ef flæði uppfyllingar fyrirtækis þíns felur í sér tiltektarlista sem aðskilda ferli sem er stjórnað af og skráð með tiltektarlista, myndirðu velja **Tiltekið**.  
+    - Athuga að valkosturinn **Bókun** sé stilltur á **Já**.  
+7. Stilla valkostinn **Prenta fylgiseðla** á **Já**. Flipinn **Yfirlit** inniheldur lista yfir fylgiseðla til að mynda í þessari bókun. Ef þú ert að senda einstaka pöntun verður yfirleitt einn fylgiseðil. Hins vegar ef pöntunarlínur eru til sendingar frá mismunandi svæðum verður bókun sjálfkrafa skipt í viðeigandi fjölda skjala. Þetta er áskilið skilyrði sem ekki er hægt að breyta. Á svipaðan hátt verður bókun einnig skipt upp í mörg skjöl ef senda á línur pöntunar á mismunandi afhendingaraðsetur og sendingarreglan er sett upp til að krefjast skiptingar.  
+8. Á flipanum **Línur** velurðu röð fyrir pöntunarlínuna sem á að senda.
+9. Í reitnum **Uppfæra** skal slá inn tölu sem er lægri en upphaflegt magn.
+10. Veljið **Í lagi**.
+11. Velja skal **Já**.
+12. Lokið síðunni.
+13. Í aðgerðasvæðinu velurðu **Valkostir**.
+14. Veldu **Breyta skjámynd**.
+15. Veldu **Hausyfirlit**.
+    - Ef allar línur í pöntun hafa verið afgreiddar að fullu breytist staða pöntunar úr Opið í Afhent.  
+    - Í þessu dæmi hefur pöntunarlínan verið send að hluta. Þess vegna helst pöntunarstaðan opin.     
+    - Reiturinn **Staða skjals** er stilltur á fylgiseðil þar sem að minnsta kosti ein af pöntunarlínunum hefur verið send.  
+16. Í aðgerðasvæðinu velurðu **Almennt**.
+17. Velja **Línumagn**.
+18. Lokið síðunni.
+19. Á aðgerðasvæðinu velurðu **Taka til og pakka**.
+20. Velja **Fylgiseðil**. Síðan **Færslubók fylgiseðla** inniheldur öll skjöl fylgiseðla sem voru mynduð fyrir pöntunina. Hægt er að fara yfir nákvæmar upplýsingar um hvert skjal og prenta þær, ef óskað er.  
 

@@ -1,9 +1,9 @@
 ---
-title: Stofna framleiðslupantanir
+title: Yfirlit yfir líftíma framleiðslupöntunar
 description: Þegar framleiðslupöntun er stofnuð er send beiðni um að hefja framleiðslu vöru. Framleiðslupöntunin inniheldur upplýsingar um það hvað verður framleitt, hversu mikið magn og áætluðu lokadagsetninguna. Hann inniheldur einnig upplýsingar um hvaða efni á að nota og hvaða ferli skuli fylgja til að framleiða vöruna.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,20 +19,20 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2957b387aac9e0218f88572fa605cde1a30c52e5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 79b1866cdca885d408aca07c546ca54aa0c3616b
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572628"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865194"
 ---
-# <a name="create-production-orders"></a>Stofna framleiðslupantanir
+# <a name="production-order-lifecycle-overview"></a>Yfirlit yfir líftíma framleiðslupöntunar
 
 [!include [banner](../includes/banner.md)]
 
 Þegar framleiðslupöntun er stofnuð er send beiðni um að hefja framleiðslu vöru. Framleiðslupöntunin inniheldur upplýsingar um það hvað verður framleitt, hversu mikið magn og áætluðu lokadagsetninguna. Hann inniheldur einnig upplýsingar um hvaða efni á að nota og hvaða ferli skuli fylgja til að framleiða vöruna.
 
-Framleiðslupöntun gengur í gegnum stig framleiðsluferlisins. Þegar pöntun er stofnuð er henni úthlutað stöðunni°**Stofnuð**. Þegar pöntun er lokið er henni úthlutað stöðunni°**Lokið**. Færibreytustilling í hverju°stigi heimilar notandanum að skilgreina hvert°skref. Stillingin getur verið stillt fyrir°einn notanda°eða fyrir alla notendur.
+Framleiðslupöntun gengur í gegnum stig framleiðsluferlisins. Þegar pöntun er stofnuð er henni úthlutað stöðunni **Stofnuð**. Þegar pöntun er lokið er henni úthlutað stöðunni **Lokið**. Færibreytustilling í hverju°stigi heimilar notandanum að skilgreina hvert°skref. Stillingin getur verið stillt fyrir°einn notanda°eða fyrir alla notendur.
 
 Framleiðsluuppskrift og leið í framleiðslu eru aðal einingar framleiðslupöntunar. Þær eru afritaðar í framleiðslupöntunina byggt á völdu vörunni og magni sem á að framleiða. Áður en framleiðslupöntun er ræst, er hægt að breyta framleiðsluuppskrift og leið.
 

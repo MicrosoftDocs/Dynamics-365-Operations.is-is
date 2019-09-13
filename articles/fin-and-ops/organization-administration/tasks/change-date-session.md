@@ -1,9 +1,9 @@
 ---
-title: Breyta dagsetningu lotunnar
-description: Sjálfgefið er núverandi dagsetning notuð þegar slegið inn og bókað færslubókarfærslur eða upprunaskjal.
+title: Breyta dagsetningu lotu
+description: Þetta efni útskýrir hvernig á að breyta dagsetningu fyrir lotu í Dynamics 365 for Finance and Operations.
 author: pvillads
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d27a4d36ff8c8192d2342cd97f29c556540d00b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 81b45f71cda7c682e7a9dee241e483890a80d487
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545625"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867362"
 ---
-# <a name="change-the-date-for-the-session"></a>Breyta dagsetningu lotunnar
+# <a name="change-the-date-for-a-session"></a>Breyta dagsetningu lotu
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Sjálfgefið er núverandi dagsetning notuð þegar slegið inn og bókað færslubókarfærslur eða upprunaskjal. Hægt er að breyta dagsetningunni sem er notuð í núverandi lotu. Nota þennan eiginleiki til að breyta dagsetningu í færslubókarfærslu eða upprunaskjal eftir á, ef þarf.
+Þetta efni útskýrir hvernig á að breyta dagsetningu fyrir lotu í Dynamics 365 for Finance and Operations. Sjálfgefið er núverandi dagsetning notuð þegar slegið inn og bókað færslubókarfærslur eða upprunaskjal. Hægt er að breyta dagsetningunni sem er notuð í núverandi lotu. Nota þennan eiginleiki til að breyta dagsetningu í færslubókarfærslu eða upprunaskjal eftir á, ef þarf.
 
-1. Fara í Almenn > Almenn > Dagsetning og tími lotu.
-2. Dagsetning er rituð í reitinn Dagetning.
-3. Smellið á „Í lagi“.
+1. Í skoðunarrúðunni ferðu í **Einingar > Sameiginlegt > Sameiginlegt > Dagsetning og tími lotu**.
+2. í retinum **Dagsetning** ritarðu dagsetningu.
+3. Veljið **Í lagi**.
 

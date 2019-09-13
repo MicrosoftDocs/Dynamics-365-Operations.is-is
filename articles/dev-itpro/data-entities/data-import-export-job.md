@@ -1,9 +1,9 @@
 ---
-title: Inn- og útflutningsvinnsla gagna
+title: Yfirlit yfir inn- og útflutningsvinnslu gagna
 description: Notaðu vinnusvæðið Gögnastjórnun til að búa til og stjórna Inn- og útflutningsvinnslu gagna.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 07/19/2019
+ms.date: 08/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b16966fe1c3a48d772c7c9982f8802119675255f
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: cbd8d305920262ed48c62f13aa86f903a6b16d0a
+ms.sourcegitcommit: e552111e148a80544a3468da60ea0464f02a658d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1862905"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "1875321"
 ---
-# <a name="data-import-and-export-jobs"></a>Inn- og útflutningsvinnsla gagna
+# <a name="data-import-and-export-jobs-overview"></a>Yfirlit yfir inn- og útflutningsvinnslu gagna
 
 [!include [banner](../includes/banner.md)]
 [!include [banner](../includes/preview-banner.md)]
@@ -184,7 +184,7 @@ Nota verður starfshreinsunarreynslu í gagnastjórnun til að skipuleggja reglu
 
 -   DMFDEFINITIONGROUPEXECUTION
 
-Hægt er að nálgast virkni frá **Gagnastjórnun \> Hreinsun verksögu**.
+Virkni verður að vera virk í eiginleikastjórnun og síðan er hægt að nálgast hana úr **Gagnastjórnun \> Hreinsun verksögu**.
 
 ### <a name="scheduling-parameters"></a>Færibreytur röðunar
 

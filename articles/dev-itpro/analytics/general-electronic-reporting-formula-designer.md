@@ -2,8 +2,8 @@
 title: Formúluhönnuður í rafrænni skýrslugerð (ER)
 description: Þessi Umfjöllunarefni útskýrir hvernig nota á formúluhönnuður í Rafræna skýrslugerð (ER).
 author: NickSelin
-manager: AnnBe
-ms.date: 05/14/2014
+manager: kfend
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 1f6caa6afd0ce36340caf237c1acca0ea343824f
+ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849510"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864295"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formúluhönnuður í rafrænni skýrslugerð (ER)
 
@@ -113,6 +113,33 @@ Formúluhönnuður rafrænnar skýrslugerðar er einnig hægt að nota til að s
 - Segð virkjar (með því að skila **TRUE**) ferli fyrir stofnun skráa fyrir runur sem innihalda að minnsta kosti eina færslu.
 
 [![Skráarstýring](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+
+### <a name="documents-content-control"></a>Efnisstýring skjala
+
+Hægt er að nota ER-formúluhönnuðinn til að stilla segðir sem stjórna hvaða gögnum verður komið fyrir í mynduðum rafrænum skjölum á keyrslutíma. Segðirnar geta virkjað eða afvirkjað úttak tiltekinna eininga sniðsins, eftir því hver vinnslugögn og skilgreindur grunnur er. Hægt er að færa þessa segð inn fyrir stakt snið í reitnum **Virkt** á flipanum **Vörpun** á síðunni **Rekstrarhönnuður** sem röklegt skilyrði við skil á gildinu **Boolean**:
+
+-   Þegar **Satt** er skilað er núverandi sniðseining keyrð.
+-   Þegar **Ósatt** er skilað er núverandi sniðseiningu sleppt.
+
+Eftirfarandi mynd sýnir segðir af þessari gerð (útgáfan **11.12.11** af sniðstillingunum **ISO20022-kreditfærsla (NO)** frá Microsoft er eitt dæmi). Sniðhlutinn **XMLHeader** er skilgreindur til að lýsa uppbyggingu flutningsskilaboðanna, í samræmi við ISO 20022 XML-skilaboðastaðla. Sniðshlutinn **XMLHeader/Document/CstmrCdtTrfInitn/PmtInf/CdtTrfTxInf/RmtInf/Ustrd** er skilgreindur til að bæta XML-einingunni **Ustrd** við skilaboðin sem myndast og setur greiðsluupplýsingarnar á óskipulegt snið sem texta í eftirfarandi XML-einingum:
+
+-   Íhluturinn **PaymentNotes** er notaður til að framleiða texta í athugasemdir við greiðslur.
+-   Íhluturinn **DelimitedSequence** framleiðir kommuaðskilin reikningsnúmer sem eru notuð til að jafna núverandi kreditfærslu.
+
+[![Rekstrarhönnuður](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+
+> [!NOTE]
+> Íhlutirnir **PaymentNotes** og **DelimitedSequence** eru merktir með spurningarmerki. Þetta þýðir að notkun beggja íhluta er skilyrt, byggð á eftirfarandi viðmiðum:
+
+-   Skilgreint fyrir íhlutinn **PaymentNotes** virkjar segðin **@.PaymentsNotes<>""** (með því að skila **SATT**) útfyllingu á XML-einingunni **Ustrd**, texta athugasemda við greiðslur þegar þessi texti fyrir núverandi kreditfærslu er ekki auður.
+
+[![Rekstrarhönnuður](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+
+-   Skilgreint fyrir íhlutann **DelimitedSequence** virkjar segðin **@.PaymentsNotes=""** (með því að skila **SATT**) útfyllingu á XML-einingunni **Ustrd**, reikningsnúmer aðskilin með kommu sem eru notuð til að gera upp núverandi kreditfærslu þegar texti greiðsluseðla fyrir þessa kreditfærslu er auður.
+
+[![Rekstrarhönnuður](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+
+Byggt á þessari stillingu munu skilaboðin sem myndast fyrir hverja greiðslu skuldara, XML-einingunni **Ustrd**, innihalda annaðhvort texta greiðsluseðla eða, þegar slíkur texti er auður, texta aðskilinn með kommu reikningsnúmer sem notuð eru til að jafna þessa greiðslu.
 
 ### <a name="basic-syntax"></a>Grunnmálskipan
 

@@ -3,7 +3,7 @@ title: Reikna vexti
 description: Þessi verklýsing sýnir hvernig á að stofna, prenta og bóka vaxtanótur.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fba25c900461fbbf4db0cd3b93847d258704ab4e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7170a7a14237058064ed3091e9437cae312e6bd5
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1842882"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916277"
 ---
 # <a name="process-interest"></a>Reikna vexti
 
@@ -31,40 +31,40 @@ ms.locfileid: "1842882"
 
 
 ## <a name="set-up-interest-on-the-posting-profile"></a>Setja upp vexti fyrir bókunarregluna
-1. Farið í Skuldir og innheimta > Uppsetning > Bókunarreglur viðskiptavina.
-2. Smellið á „Breyta“.
-    * Veldu vaxtakóða úr fellilistanum. Ef ekki á að reikna vexti fyrir færslur með þessari bókunarreglu, skilið eftir autt.  
-    * Takmarkanaflipi fyrir Taflan leyfir þér að breyta hvernig vextir eru unnir. Ef þetta svæði er stillt á Já eru vextir reiknast fyrir þessa bókunarreglu.  
+1. Í **Skoðunarrúðu** ferðu í **Kerfiseiningar > Skuldir og innheimta > Uppsetning > Bókunarreglur viðskiptavina**.
+2. Smellið á **Breyta**.
+3. Í **Setja upp flýtiflipa**, í reitnum **Vaxtakóði** skaltu velja vaxtakóða úr fellivalmyndinni. Ef ekki á að reikna vexti fyrir færslur með þessari bókunarreglu, skilið eftir autt. Flýtiflipinn **Töflutakmarkanir** gerir þér kleift að breyta hvernig vextir eru unnir. Ef þetta svæði er stillt á Já eru vextir reiknast fyrir þessa bókunarreglu.  
 
 ## <a name="calculate-interest"></a>Reikna út vexti
-1. Fara í Skuldir og innheimta > Vextir > Stofna vaxtanótur.
-    * Velja færslugerðir sem verður að reikna út vexti fyrir. Allar opnar færslur fyrir þessar gerðir verða teknar með í útreikningnum.  
-    * Ef Vaxta er valið, muntu reikna vaxtavexti. Hægt er að athuga lög um útreikningi á vaxtavöxtum áður en þessar færslur eru hafðar með.  
-    * Vextir reiknast úr þessari dagsetning sem „Til dagsetningar". Ef ekki er tiltekin á "Frá dagsetningu', þá allir óbókaðir vaxtanóta verður hætt við og vextir verða endurreiknuð frá færsludagsetning.  
-2. Færið inn dagsetningu vaxtanótunnar.
-    * Það eru þrír möguleikar fyrir bókunarreglu: Reikningur - Nota bókunareglu sem er úthlutað til reikning viðskiptavinar fyrir hverja vaxtanótu.   Velja – Notið bókunarregluna sem valin var á svæðinu .   Færsla – Notið einstaka bókunarreglu úr færslum þar sem vextir eru reiknaðir fyrir hverja vaxtanótu. Færslur sem hafa ekki úthlutaða bókunarreglu nota bókunarreglu sem er tilgreind á svæðinu Fjárhagur og virðisaukaskattur í skjámyndinni Færibreytur viðskiptakrafna.  
-    * Veljið bókunarreglu hér ef "Nota bókunarreglu úr" er breytt í "Velja".  
-3. Útvíkka eða draga saman Færslur sem á að taka með hluta.
-4. Smellt er á Síu.
-5. Í forsendusvæðinu, færið inn kenni viðskiptavinar. Til dæmis færið inn ‚US-001‘..
-6. Smellið á „Í lagi“.
-7. Smellið á „Í lagi“.
+1. Í **Skoðunarrúðu** ferðu í **Kerfiseiningar > Skuldir og innheimta > Vextir > Stofna vaxtanótur**.
+2. Velja færslugerðir sem verður að reikna út vexti fyrir. Allar opnar færslur fyrir þessar gerðir verða teknar með í útreikningnum.  
+3. Ef þú stillir **Vexti** á Já muntu reikna vaxtavexti. Hægt er að athuga lög um útreikningi á vaxtavöxtum áður en þessar færslur eru hafðar með.  
+4. Í reitinn **Frá dagsetningu** skal færa inn dagsetningu sem vextirnir verða reiknaðir frá. Ef ekki er tiltekin **Frá dagsetningu** verður hætt við allar óbókaðar vaxtanótur og vextir verða endurreiknaðir frá færsludagsetningu.
+5. Í reitinn **Til dagsetningar** skal færa inn dagsetningu sem vextirnir verða reiknaðir til.
+6. Í reitnum **Nota virði frá** skal velja valkost. Í boði eru þrír valkostir fyrir bókunarreglu:
+    - Reikningur – Nota bókunarreglu sem er úthlutað til reikning viðskiptavinar fyrir hverja vaxtanótu. 
+    - Velja – Notið bókunarregluna sem valin var á svæðinu .
+    - Færsla – Notið einstaka bókunarreglu úr færslum þar sem vextir eru reiknaðir fyrir hverja vaxtanótu. Færslur sem hafa ekki úthlutaða bókunarreglu nota bókunarreglu sem er tilgreind á svæðinu Fjárhagur og virðisaukaskattur í skjámyndinni Færibreytur viðskiptakrafna.  
+7. Útvíkkaðu flýtiflipann **Færslur til að taka með**.
+8. Smella á **Sía**.
+9. Í svæðinu **Skilyrði** skal færa inn auðkenni viðskiptavinar. Til dæmis, færið inn ‚US-001'.
+6. Smellt er á **OK**.
+7. Smellt er á **OK**.
 
 ## <a name="print-interest-notes"></a>Prenta vaxtanótur
-1. Fara í Skuldir og innheimta > Vextir > Endurskoða og vinna vaxtanótur.
-2. Í reitnum Staða er ‚Stofnað' valin.
-3. Veljið í svæðinu Prentað 'Ekki prentað'.
-4. Smelltu á Prenta.
-5. Útvíkka eða draga saman Færslur sem á að taka með hluta.
-6. Smellið á „Í lagi“.
+1. Í **Skoðunarrúðu** ferðu í **Kerfiseiningar > Skuldir og innheimta > Vextir > Endurskoða og vinna vaxtanótur**.
+2. Í reitnum **Staða** er ‚Stofnað' valið.
+3. Í reitnum **Prentað** skal velja 'Ekki prentað'.
+4. Smelltu á **Prenta**.
+5. Útvíkkaðu flýtiflipann **Færslur til að taka með**.
+6. Smellt er á **OK**.
 7. Lokið síðunni.
 
 ## <a name="post-the-interest-note"></a>Bóka vaxtanótu
 1. Velja vaxtanótu sem er að tilbúin til bókunar (staða er stofnuð).
-2. Smellið á „Bóka“.
-3. Færð er inn bókunardagsetning fyrir vaxtanóta.
-    * Skal velja Já í stofna fjárhagsfærsla fyrir hverja vaxtanóta.     Ef þú velur ekki já, safnast upp allir vextir á vaxtanóta til viðskiptavinarins og eru bókaðar á fjárhag í einni færslu.  
-4. Útvíkka eða draga saman Færslur sem á að taka með hluta.
-5. Smellið á „Í lagi“.
-6. Í reitnum Staða er ‚bókað' valin.
+2. Smelltu á **bóka.**
+3. Færð er inn bókunardagsetning fyrir vaxtanóta. Skal velja Já í stofna fjárhagsfærsla fyrir hverja vaxtanóta. Ef þú velur ekki já, safnast upp allir vextir á vaxtanóta til viðskiptavinarins og eru bókaðar á fjárhag í einni færslu.  
+4. Útvíkkaðu flýtiflipann **Færslur til að taka með**.
+5. Smellt er á **OK**.
+6. Í reitnum **Staða** er ‚bókað' valið.
 

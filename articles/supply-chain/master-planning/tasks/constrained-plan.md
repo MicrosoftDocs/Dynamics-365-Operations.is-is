@@ -1,9 +1,9 @@
 ---
 title: Mynda áætlun með skorðum
-description: Þessi verklýsing sýnir hvernig á að stofna áætlun sen tekur tillit bæði til efnis- og afkastahamla.
+description: Þetta efni útskýrir hvernig á að stofna áætlun sen tekur tillit bæði til efnis- og afkastahamla.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,47 +16,40 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72cddd58b7068e08cddf24df83da8da2f7af7168
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6b5d37de41fe68845cec3f2285aed2484ac117aa
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845296"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867174"
 ---
 # <a name="generate-a-constrained-plan"></a>Mynda áætlun með skorðum
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi verklýsing sýnir hvernig á að stofna áætlun sen tekur tillit bæði til efnis- og afkastahamla. Áætlunin tryggir að framleiðslu hefst ekki fyrr en efni sé tiltækt og tilföng eru ekki yfirbókaður. 
+Þetta efni útskýrir hvernig á að stofna áætlun sen tekur tillit bæði til efnis- og afkastahamla. Áætlunin tryggir að framleiðslu hefst ekki fyrr en efni sé tiltækt og tilföng eru ekki yfirbókaður. 
 
 Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Þetta ferli er ætluð fyrir framleiðslustjóri
 
 
 ## <a name="set-up-a-constrained-plan"></a>Setja upp áætlun með skorðum
-1. Smellt er á aðaláætlanagerð.
-2. Smellt er á aðaláætlanir.
-3. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-    * Dæmi: StaticPlan  
-4. Veljið Já í svæðinu takmörkuð Afkastageta.
-5. Í reitnum Tímamörk takmarkað afkastaveita skal slá inn ‚30‘.
-6. Víkka út hlutann tímamörk í dögum.
-7. Veljið Já í svæðinu Afkastageta.
-8. Í reitinn Tímamörk áætlaðrar afkastagetu slá inn númer.
-    * Dæmi: 60  
-9. Veljið Já í Reiknaðar seinkanir reitnum.
-10. Í reitinn Tímamörk útreiknaðra seinkana (dagar) skal slá inn númer.
-    * Dæmi: 60  
-11. Útvíkka hlutann Reiknuð seinkanir.
-12. Veldu Já í reitnum Bæta við reiknaðri seinkun á dagsetningu þarfa
-13. Veldu Já í reitnum Bæta við reiknaðri seinkun á dagsetningu þarfa
-14. Veldu Já í reitnum Bæta við reiknaðri seinkun á dagsetningu þarfa
-15. Lokið síðunni.
+1. Á heimasíðunni velurðu vinnusvæðið **Aðaláætlanagerð**.
+2. Veldu **Aðaláætlanagerðir** á listanum yfir tengla lengst til hægri á vinnusvæðinu.
+3. Í listanum skal finna og velja þá skráningu sem óskað er eftir. Dæmi: **StaticPlan**  
+4. Veljið **Já** í reitnum **Takmörkuð geta**.
+5. Í reitnum **Tímamörk takmarkaðrar getu** skal slá inn `30`.
+6. Víkka út hlutann **Tímamörk í dögum**.
+7. Veljið **Já** í reitnum **Afkastageta**.
+8. Í reitinn **Tímamörk áætlaðrar afkastagetu (dagar)** slá inn númer. Dæmi: `60`  
+9. Veljið **Já** í reitnum **Reiknaðar seinkanir**.
+10. Í reitinn **Tímamörk útreiknaðra seinkana (dagar)** skal slá inn tölu. Dæmi: `60` 
+11. Útvíkkaðu hlutann **Reiknaðar seinkanir**.
+12. Veldu **Já** í öllum reitum **Bæta við reiknaðri seinkun á dagsetningu þarfa**.
+13. Lokið síðunni.
 
 ## <a name="create-a-constrained-plan"></a>Stofna áætlun með skorðum
-1. Smellið á „Keyra“.
-2. Færa inn eða veljið gildi í svæðinu Aðaláætlun.
-    * Velja áætlunina sem settar voru upp skorður fyrir.  
-3. Smellið á „Í lagi“.
-    * Þetta gæti tekið nokkra stund.  
-4. Smellt er á Áætlaðar pantanir.
+1. Veljið **Keyra**.
+2. Í reitinn **Aðaláætlun** slærðu inn eða velur áætlunina sem þú hefur sett upp skorður fyrir.  
+3. Veljið **Í lagi**.
+4. Veldu **Tillögur**.
 

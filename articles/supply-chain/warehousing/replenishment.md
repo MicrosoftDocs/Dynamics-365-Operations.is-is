@@ -1,9 +1,9 @@
 ---
-title: Áfylling
+title: Yfirlit áfyllingar
 description: Þetta efnisatriði lýsir áfyllingaráætlunum sem eru tiltækar fyrir vöruhús sem nota aðgerðirnar sem eru tiltækar í vöruhúsakerfi.
 author: Mirzaab
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37a5509b6161caffa8f3ab65f1fd8378966c2c30
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3f740ab481b8663ecc29169eee1ead5ff23bb3f5
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558275"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1866138"
 ---
-# <a name="replenishment"></a>Áfylling
+# <a name="replenishment-overview"></a>Yfirlit áfyllingar
 
 [!include [banner](../includes/banner.md)]
 
@@ -53,7 +53,7 @@ Auk þess að stofna sniðmát, verður að tilgreina einhverjar áfyllingarstil
 Áfyllingareftirspurn er studd fyrir sölupantanir, flutningspantanir, framleiðslupantanir og kanban-kerfi. 
 
 ## <a name="minmax-replenishment"></a>Lágm./hám. áfylling
-í Lágm. / Hám áfylling, eru fyllt á Birgðir  þannig að þær er á milli lágmarks og hámarks mörk sem hafa verið settar. Venjulega á þetta ferli á sér stað einu sinni hvern dag til að tryggja að allar tiltektarstaðsetningar séu áfylltar upp að hæsta stig áður en tiltekt hefst. 
+í Lágm. / Hám áfylling, eru fyllt á Birgðir þannig að þær er á milli lágmarks og hámarks mörk sem hafa verið settar. Venjulega á þetta ferli á sér stað einu sinni hvern dag til að tryggja að allar tiltektarstaðsetningar séu áfylltar upp að hæsta stig áður en tiltekt hefst. 
 
 Lágmarks- og hámarksupphæðir eru settar í áfyllingarsniðmáti. Margar aðrar stillingar í sniðmátinu líkjast stillingar í sniðmátum sem notaðar eru í áfyllingu bylgjueftirspurnar. sniðmát ætti að vera með eina línu fyrir hverja vöru og staðsetningu. Þegar keyrð er áfylling með því að nota runuvinnslu, metur Microsoft Dynamics 365 for Finance and Operations hvort áfyllingar er krafist með því að nota röðina þar sem línurnar eru skipulagðar. 
 

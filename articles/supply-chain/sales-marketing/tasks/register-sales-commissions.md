@@ -1,9 +1,9 @@
 ---
 title: Skrá söluþóknun
-description: Þessi verklýsing sýnir hvernig sölulaun eru reiknuð og skráð.
+description: Þetta efni útskýrir hvernig söluumboð eru reiknuð og skráð.
 author: omulvad
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,61 +16,58 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4c0e63923d0cb9a4a2c2bed87cfb72edfb0d2741
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: db27255c74c55b10680594ad23424253e4c3f79e
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1833907"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867054"
 ---
 # <a name="register-sales-commissions"></a>Skrá söluþóknun
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi verklýsing sýnir hvernig sölulaun eru reiknuð og skráð. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum. Áður en þessari handbók er ræst þarf að keyra leiðbeiningar sem kallast "Setja upp reglur um söluþóknun" til að tryggja að allar nauðsynlegar uppsetningar á útreikningi sölulauna séu til staðar.
+Þetta efni útskýrir hvernig söluumboð eru reiknuð og skráð. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum. Áður en þessari handbók er ræst þarf að keyra leiðbeiningar sem kallast "Setja upp reglur um söluþóknun" til að tryggja að allar nauðsynlegar uppsetningar á útreikningi sölulauna séu til staðar.
 
 Athugið þær tölur viðskiptavina og vara sem voru valdar fyrir sölulaunaferlið og notið þær þegar beðið er um að stofna sölupöntun í þessari handbók.
 
 
 ## <a name="invoice-a-sales-order-that-qualifies-a-salesperson-for-a-commission"></a>Reikningsfæra sölupöntun sem uppfyllir skilyrði sölumanns fyrir þóknun
-1. Fara í Sölu og markaðssetningu > sölupöntun > Allar sölupantanir
-2. Smellið á „Nýtt“.
-3. Í reitnum Reikningur viðskiptavina skal smella á fellilistahnappinn til að opna leitina.
-4. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-5. Í listanum skal smella á tengilinn í valinni línu.
-6. Smellið á „Í lagi“.
-7. Í aðgerðasvæðinu er smellt á valkostir.
-8. Smellið á skoða Breytingu.
-9. Smellið á skoða Haus.
-10. Víkka út hlutann Uppsetning.
-    * Gildið í reitnum Söluflokkur stendur fyrir flokk með einn eða fleiri sölumenn sem úthlutað. Fólk innan flokksins eru þau sem fá sölulaun þegar pöntunin er reikningsfærð, samkvæmt fyrirframskilgreindum taxta og dreifingu.   Gildi er afritað af viðskiptavinakortinu en hægt er að breyta því ef óskað er.  Söluflokkurinn er einnig afritaður í sölupöntunarlínu. Hægt er að breyta þannig að hún sé önnur en sú sem er í haus og/eða á milli lína.  
-    * Gildið í svæðinu Sölulaunaflokkur stendur fyrir flokk sem var stofnaður fyrir einn eða fleiri vegna rakningar á sölulaunum.   Gildi er afritað af viðskiptavinakortinu en hægt er að breyta því ef óskað er.   
-11. Í aðgerðasvæðinu er smellt á valkostir.
-12. Smellið á skoða Breytingu.
-13. Smellið á Línuyfirlit.
-14. Í reitnum Vörunúmer skal smella á fellilistahnappinn til að opna leitina.
-15. Á listanum, skal velja vöru sem er uppsett fyrir þóknanir. 
-16. Færið inn númer í reitnum „Magn“.
-    * Athugið nettóupphæð línunnar. Hún stendur fyrir sölutekjur sem í þessu dæmi eru grunnurinn fyrir útreikning þóknunar.  
-17. Smellið á „Vista“.
-18. Smellið á „Reikningur“ á aðgerðarúðunni.
-19. Smellið á „Reikningur“.
-20. Víkkið út færibreytuhlutann.
-21. Veljið „Allt“ á svæðinu „Magn“.
-22. Velja skal Já í reitnum Bókun.
-23. Smellið á „Í lagi“.
-24. Smellið á „Í lagi“.
-    * Það gæti tekið um það bil mínútu að bóka færsluna. Heimila vinnslu að ljúka og ekki loka síðunni.  
+1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Sala og markaðssetning > Sölupantanir > Allar sölupantanir**.
+2. Veljið **Nýtt**.
+3. Í reitnum **Viðskiptavinalykill** velurðu skrána sem óskað er eftir af fellivalmyndinni.
+4. Veljið **Í lagi**.
+5. Í aðgerðasvæðinu velurðu **Valkostir**.
+6. Veldu **Breyta skjámynd**.
+7. Veldu **Hausyfirlit**.
+8. Útvíkkaðu kaflann **Uppsetning**.
+
+    - Gildið í reitnum **Söluflokkur** stendur fyrir flokk sem hefur fengið einum eða fleiri sölumönnum úthlutað. Fólk innan flokksins eru þau sem fá sölulaun þegar pöntunin er reikningsfærð, samkvæmt fyrirframskilgreindum taxta og dreifingu.   
+    - Gildi er afritað af viðskiptavinakortinu en hægt er að breyta því ef óskað er.  
+    - Söluflokkurinn er einnig afritaður í sölupöntunarlínu. Hægt er að breyta þannig að hún sé önnur en sú sem er í haus og/eða á milli lína.  
+    - Gildið í svæðinu **Sölulaunaflokkur** stendur fyrir flokk sem var stofnaður fyrir einn eða fleiri viðskiptavini vegna rakningar á sölulaunum.   
+    - Gildi er afritað af viðskiptavinakortinu en hægt er að breyta því ef óskað er.   
+
+9. Í aðgerðasvæðinu velurðu **Valkostir**.
+10. Veldu **Breyta skjámynd**.
+11. Veldu **Línusýn**.
+12. Í fellivalmyndinni í reitnum **Vörunúmer** skaltu velja vöruna sem þú hefur sett upp fyrir þóknun. 
+13. Í reitnum **Magn** slærðu inn tölu. Athugið nettóupphæð línunnar. Hún stendur fyrir sölutekjur sem í þessu dæmi eru grunnurinn fyrir útreikning þóknunar.  
+14. Veljið **Vista**.
+15. Í aðgerðasvæðinu velurðu **Reikning**.
+16. Veldu **Reikning**.
+17. Útvíkkaðu hlutann **Færibreytur**.
+18. Í reitnum **Magn** velurðu **Allt**.
+19. Veldu **Já** í reitnum **Bókun**.
+20. Veldu **Í lagi**, veldu síðan **Í lagi** í næsta glugga. Það gæti tekið um það bil mínútu að bóka færsluna. Heimila vinnslu að ljúka og ekki loka síðunni.  
 
 ## <a name="review-the-registered-sales-commissions"></a>Fara yfir skráðar söluþóknanir
-1. Smellið á „Reikningur“ á aðgerðarúðunni.
-2. Smellið á „Reikningur“.
-3. Smellið á „Reikningur“ á aðgerðarúðunni.
-4. Smelltu á Þóknunarfærslur.
-    * Yfirlitsflipinn birtir línur sem sýna upphæðir sölulauna sem greiða á sölufulltrúum sem eru tengdir reikningsfærðu sölupöntuninni. Endurskoðum nú upplýsingarnar.     
-    * Ef handbókin "Setja upp reglur sölu þóknun" var notuð til að setja upp sölulaunaflokk eru tveir sölumenn til að móttaka sölulaun og sölulaununum er skipt skipt jafnt á milli þeirra.  
-    * Í þessu dæmi er heildarupphæð þóknun reiknuð sem hlutfall sölutekna (nettóupphæð pöntunarlínu).   
-5. Lokið síðunni.
-6. Smellt er á Fylgiskjalið.
-    * Hægt er að skoða færslur fylgiskjala fyrir upphæðir sölulauna sem hafa verið bókaðar í forskilgreindu þóknunarkostnaður og þóknun lykla lánardrottna.  
+1. Á aðgerðarúðunni skal velja **Reikning** og svo **Reikning** aftur.
+2. Á aðgerðarúðunni skal velja **Reikning** og svo **Þóknunarfærslur**.
+
+    - Flipinn **Yfirlit** birtir línur sem sýna upphæðir sölulauna sem greiða á sölufulltrúum sem eru tengdir reikningsfærðu sölupöntuninni. Endurskoðum nú upplýsingarnar.  
+    - Ef handbókin "Setja upp reglur söluþóknunar" var notuð til að setja upp flokk **Sölulauna** eru tveir sölumenn til að móttaka sölulaun og sölulaununum er skipt jafnt á milli þeirra.  
+    - Í þessu dæmi er heildarupphæð þóknun reiknuð sem hlutfall sölutekna (nettóupphæð pöntunarlínu).  
+3. Lokið síðunni.
+4. Veldu **Fylgiskjal**. Hægt er að skoða færslur fylgiskjala fyrir upphæðir sölulauna sem hafa verið bókaðar í forskilgreindu þóknunarkostnaður og þóknun lykla lánardrottna.  
 

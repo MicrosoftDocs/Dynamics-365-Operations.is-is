@@ -1,9 +1,9 @@
 ---
 title: Skilgreina staðalkostnað fyrir útgjöld og laun
-description: Þetta ferli sýnir hvernig á að setja upp staðalkostnaður fyrir vinnuafl og útgjöld í verkefni.
+description: Þetta efni útskýrir hvernig á að setja upp staðalkostnaður fyrir vinnuafl og útgjöld í verkefni.
 author: KimANelson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,46 +17,40 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b76956e9b1ce1a1e977aaa7c4974e73754e0d261
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 60ab8eb94d4a8a0fb2c1e732ec7b25bfd5e7611e
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845890"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867727"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Skilgreina staðalkostnað fyrir útgjöld og laun
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir hvernig á að setja upp staðalkostnaður fyrir vinnuafl og útgjöld í verkefni. Þetta verkefni notar USSI-gagnasafn.
+Þetta efni útskýrir hvernig á að setja upp staðalkostnaður fyrir vinnuafl og útgjöld í verkefni. Þetta verkefni notar USSI-gagnasafn.
 
-1. Farið er í Verkefnastjórnun og bókhald > Uppsetning > Verð > Kostnaðarverð (klukkustund).
-2. Smellið á „Nýtt“.
-3. Í reitnum Gildisdagsetning skal slá inn dagsetningu.
-4. Í reitinn kostnaðarverð skal slá inn númer.
-    * Hægt er að setja upp staðlað kostnaðarverð fyrir verktegund, eða setja upp kostnaðarverð eftir starfsmannanúmeri, verknúmeri, tegund, dagsetningu eða blöndu af þessu. Hið raunverulega kostnaðarverð sem er notað er kostnaðarverðið með hæsta stig upplýsinga.  
-5. Smellið á „Vista“.
-6. Lokið síðunni.
-7. Farið er í Verkefnastjórnun Og bókhald > Uppsetning > Verð > Söluverð (klukkustund).
-8. Smellið á „Nýtt“.
-9. Í reitnum Gildisdagsetning skal slá inn dagsetningu.
-10. Í reitnum Gildir fyrir skal velja valkost.
-11. Sláðu inn tölu í svæði Verðlagning.
-    * Hægt er að setja upp staðlað söluverð fyrir klukkustundafærslur eða verktegund. Einnig er hægt að setja upp söluverð eftir starfsmannanúmeri, verknúmeri, tegund, færsludagsetningu eða hvers konar samsetningum þessara atriða. Raunsöluverð, sem er beitt þegar starfsmaður slær færslu inn i færslubókina Þóknun, er það söluverð með hæst upplýsingastig. Til dæmis, ef bæði almennt söluverð og söluverð háð tilteknum starfsmanni eru sett upp velur kerfið söluverð háð tilteknum starfsmanni.  
-12. Smellið á „Vista“.
-13. Lokið síðunni.
-14. Farið er í Verkefnastjórnun Og bókhald > Uppsetning > Verð > Kostnaðarverð (útgjöld).
-15. Smellið á „Nýtt“.
-16. Í reitnum Gildisdagsetning skal slá inn dagsetningu.
-17. Í reitinn kostnaðarverð skal slá inn númer.
-    * Hægt er að fylla út í mörg svæði en þetta er lágmark til að geta vista færslu.  
-18. Smellið á „Vista“.
-19. Lokið síðunni.
-20. Farið er í Verkefnastjórnun Og bókhald > Uppsetning > Verð > Söluverð (útgjöld).
-21. Smellið á „Nýtt“.
-22. Í reitnum Gildisdagsetning skal slá inn dagsetningu.
-23. Í reitnum Gildir fyrir skal velja valkost.
-24. Sláðu inn tölu í svæði Verðlagning.
-    * Raunsöluverð, sem er notað þegar starfsmaður færir færslur inn í kostnaðarbók er söluverðið með hæst upplýsingastig. Til dæmis, ef bæði almennt söluverð og söluverð háð tilteknum starfsmanni eru sett upp velur kerfið söluverð háð tilteknum starfsmanni.  
-25. Smellið á „Vista“.
+1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Verkefnastjórnun og bókhald > Uppsetning > Verð > Kostnaðarverð (klukkustund)**.
+2. Veljið **Nýtt**.
+3. Í reitnum **Gildisdagsetning** skal slá inn dagsetningu.
+4. Í reitinn **Kostnaðarverð** skal slá inn númer. Hægt er að setja upp staðlað kostnaðarverð fyrir verktegund, eða setja upp kostnaðarverð eftir starfsmannanúmeri, verknúmeri, tegund, dagsetningu eða blöndu af þessu. Hið raunverulega kostnaðarverð sem er notað er kostnaðarverðið með hæsta stig upplýsinga.  
+5. Veljið **Vista**.
+6. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Verkefnastjórnun og bókhald > Uppsetning > Verð > Söluverð (klukkustund)**.
+7. Veljið **Nýtt**.
+8. Í reitnum **Gildisdagsetning** skal slá inn dagsetningu.
+9. Í reitnum **Gildir fyrir** skal velja valkost.
+10. Sláðu inn tölu í retinn **Verðlagning**. Hægt er að setja upp staðlað söluverð fyrir klukkustundafærslur eða verktegund. Einnig er hægt að setja upp söluverð eftir starfsmannanúmeri, verknúmeri, tegund, færsludagsetningu eða hvers konar samsetningum þessara atriða. Raunsöluverð, sem er beitt þegar starfsmaður slær færslu inn i færslubókina Þóknun, er það söluverð með hæst upplýsingastig. Til dæmis, ef bæði almennt söluverð og söluverð háð tilteknum starfsmanni eru sett upp velur kerfið söluverð háð tilteknum starfsmanni.  
+11. Veljið **Vista**.
+12. Lokið síðunni.
+13. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Verkefnastjórnun og bókhald > Uppsetning > Verð > Kostnaðarverð (kostnaður)**.
+14. Veljið **Nýtt**.
+15. Í reitnum **Gildisdagsetning** skal slá inn dagsetningu.
+16. Í reitinn **Kostnaðarverð** skal slá inn númer. Hægt er að fylla út í mörg svæði en þetta er lágmark til að geta vista færslu.  
+17. Veljið **Vista**.
+18. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Verkefnastjórnun og bókhald > Uppsetning > Verð > Söluverð (kostnaður)**.
+19. Veljið **Nýtt**.
+20. Í reitnum **Gildisdagsetning** skal slá inn dagsetningu.
+21. Í reitnum **Gildir fyrir** skal velja valkost.
+22. Sláðu inn tölu í retinn **Verðlagning**. Raunsöluverð, sem er notað þegar starfsmaður færir færslur inn í kostnaðarbók er söluverðið með hæst upplýsingastig. Til dæmis, ef bæði almennt söluverð og söluverð háð tilteknum starfsmanni eru sett upp velur kerfið söluverð háð tilteknum starfsmanni.  
+23. Veljið **Vista**.
 

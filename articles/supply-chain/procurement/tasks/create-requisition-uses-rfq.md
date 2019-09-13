@@ -1,6 +1,6 @@
 ---
 title: Stofna beiðni sem notar tilboðsbeiðni
-description: Þessari handbók sýnir hvernig á að bæta verð og upplýsingar um lánardrottin við innkaupabeiðni úr Tilboðsbeiðniferli.
+description: Þetta efni útskýrir hvernig á að bæta verð og upplýsingar um lánardrottin við innkaupabeiðni úr Tilboðsbeiðniferli.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,91 +16,86 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9d80f84c148ff26bf008a97b06098bfd18c9062d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 4429bda6efddbb4f1fa7da06e91e51d885919c05
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844155"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914955"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>Stofna beiðni sem notar tilboðsbeiðni
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þessari handbók sýnir hvernig á að bæta verð og upplýsingar um lánardrottin við innkaupabeiðni úr Tilboðsbeiðniferli. Dæmi sem sýnd eru í þessari handbók má nota í USMF fyrirtækisins sýnigögnum og þú verður að vera skráður inn sem Kerfisstjóra til að ljúka við skrefin. Verkin í þessari handbók væri yfirleitt gert af innkaupasérfræðingum.
+Þetta efni útskýrir hvernig á að bæta verð og upplýsingar um lánardrottin við innkaupabeiðni úr Tilboðsbeiðniferli. Dæmi sem sýnd eru í þessari handbók má nota í USMF fyrirtækisins sýnigögnum og þú verður að vera skráður inn sem Kerfisstjóra til að ljúka við skrefin. Verkin í þessari handbók væri yfirleitt gert af innkaupasérfræðingum.
 
 
 ## <a name="create-a-requisition"></a>Stofna nýja beiðni
-1. Fara í Innkaup og uppruni > Innkaupabeiðnir > Innkaupabeiðnir sem ég hef.
-2. Smellið á „Nýtt“.
-3. Í reitinn Heiti skal slá inn gildi.
-4. Dagsetning er rituð í reitinn umbeðin dagsetning:.
-5. Dagsetning er rituð í reitinn dagsetning reikningsskila.
-6. Smellt er á Í lagi.
-7. Í reitinn Ástæða skal slá inn eða veldu gildi.
-8. Smellið á „Bæta við línu“.
-9. Í reitnum Innkaupategund skal velja tegund í trénu og smella síðan á Í lagi.
-10. Í reitinn Afurðarheiti skal slá inn gildi.
-11. Færið inn númer í reitnum „Magn“.
-12. Í reitinn eining skal slá inn eða velja gildi.
-13. Smellið á „Vista“.
-14. Smellt er á Verkflæði til að opna felligluggann.
-15. Smelltu á Senda.
+1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Innkaup og aðföng > Innkaupabeiðnir > Innkaupabeiðnir sem ég hef búið til**.
+2. Veljið **Nýtt**.
+3. Í reitinn **Heiti** skal slá inn gildi.
+4. Í reitinn **Umbeðin dagsetning** slærðu inn dagsetningu.
+5. Í reitinn **Dagsetning reikningsskila** slærðu inn dagsetningu.
+6. Veljið **Í lagi**.
+7. Í reitinn **Ástæða** skal slá inn eða velja gildi.
+8. Veldu **Bæta við línu**.
+9. Í reitnum **Innkaupategund** skal velja flokk í trénu og velja síðan **Í lagi**.
+10. Í reitinn **Afurðarheiti** skal slá inn gildi.
+11. Í reitnum **Magn** slærðu inn tölu.
+12. Í reitinn **Eining** skal slá inn eða velja gildi.
+13. Veljið **Vista**.
+14. Veldu **Verkflæði** til að opna felligluggann.
+15. Veldu **Senda**.
 16. Lokið síðunni.
-17. Smelltu á Senda.
+17. Veldu **Senda**.
 
 ## <a name="reassign-a-workflow-task"></a>Endurúthluta verkflæðisverki
-    * Næsta verki er að stofna beiðni um TILBOÐ til að fá tilboð frá lánardrottnum fyrir afurðina. Í sýnigögn USMF, er verkflæði fyrir beiðni sett upp með reglu þannig að ef lánardrottinn er ekki valinn, eða einingarverð er 0 fyrir línu, er verki úthlutað á tiltekinn starfsmann til að stofna beiðni um TILBOÐ. Til að halda áfram með þessari handbók, þarf að úthluta því verki til annars notanda (sjálfur). Það er aðeins mögulegt ef notandi er innskráður sem er Admin.  
-1. Smellt er á Verkflæði til að opna felligluggann.
-2. Smella á Skoða sögu
+Næsta verki er að stofna beiðni um TILBOÐ til að fá tilboð frá lánardrottnum fyrir afurðina. Í sýnigögn USMF, er verkflæði fyrir beiðni sett upp með reglu þannig að ef lánardrottinn er ekki valinn, eða einingarverð er 0 fyrir línu, er verki úthlutað á tiltekinn starfsmann til að stofna beiðni um TILBOÐ. Til að halda áfram með þessari handbók, þarf að úthluta því verki til annars notanda (sjálfur). Það er aðeins mögulegt ef notandi er innskráður sem er Admin.  
+
+1. Veldu **Verkflæði** til að opna felligluggann.
+2. Veldu **Skoða sögu**.
 3. Endurhlaðið síðuna.
-4. Útvíkka hlutann rakningarupplýsingar.
-5. Veljið "línu sem byrjar á"Verkflæði virkjað á"" á trénu.
-6. Smella á Skoða upplýsingar um verkflæði
-7. Útvíkka hlutann vinnuliðir.
-8. Smellið á endurúthluta.
-9. Í notandareitnum, velurðu „Admin“.
-10. Smellið á endurúthluta.
-11. Lokið síðunni.
-12. Lokið síðunni.
+4. Útvíkkaðu kaflann **Rakningarupplýsingar**.
+5. Í trénu velurðu línuna sem hefst á „Verkflæði virkjað á“.
+6. Veldu **Skoða upplýsingar um verkflæði**.
+7. Útvíkkaðu kaflann **Vinnuliðir**.
+8. Velja **Endurúthluta**.
+9. Í reitnum **Notandi** velurðu **Stjórnandi**.
+10. Velja **Endurúthluta**.
+11. Lokaðu síðunum tveimur.
 
 ## <a name="create-an-rfq"></a>Búa til beiðni um tilboð
+
 1. Endurhlaðið síðuna.
-2. Smella á beiðni um tilboð
-3. Veldu USMF í reitnum lögaðili sem kaupir.
-    * Velja þarf sama lögaðila sem er í innkaupabeiðnilína.  
-4. Í listanum skal merkja valda línu.
-    * Hafirðu haft margar línur á innkaupabeiðni þinni, veldu allar línur sem þú vilt bæta við beiðni um tilboð.  
-5. Smellið á „Í lagi“.
+2. Veldu **Beiðni um tilboð**.
+3. Í reitnum **Innkaupalögaðili** velurðu **USMF**. Velja þarf sama lögaðila sem er í innkaupabeiðnilína.  
+4. Í listanum skal merkja valda línu. Hafirðu haft margar línur á innkaupabeiðni þinni, veldu allar línur sem þú vilt bæta við beiðni um tilboð.  
+5. Veljið **Í lagi**.
 6. Endurhlaðið síðuna.
-7. Opna Upplýsingakassa og útvíkka svo hlutann Tengd skjöl.
-    * Þú gætir hugsanlega nú þegar verið með Upplýsingakassa opinn. Leita að tákn með ör á, hægra megin við víxlhnappana Línur/Haus. Ef örin vísar til hægri er Upplýsingakassa þegar opinn. Ef ör vísar til vinstri, skal smella á til að opna Upplýsingakassa.  
-8. Smelltu á tengil á svæðinu Beiðni um tilboð til að opna beiðni um TILBOÐ sem verið var að stofna.
-9. Smellið á Haus.
-10. Smelltu á Bæta við.
-11. Færa inn eða veljið gildi í svæðinu lánardrottnalykill.
-12. Smelltu á Bæta við.
-13. Færa inn eða veljið gildi í svæðinu lánardrottnalykill.
-14. Smellt er á Senda.
-15. Smellið á „Í lagi“.
-16. Smella á Færa inn svar
-17. Smellið á Svara á aðgerðarúðunni.
-18. Smella á Afrita gögn til að svara.
-    * Þetta afritar gögn, eins og magn og dagsetningar, frá beiðni um TILBOÐ í svarið.  
-19. Færið inn númer í reitnum „Einingarverð“.
-    * Þetta er verðið sem þú hefur fengið frá lánardrottni. Þú gætir einnig viljað færið inn viðbótarupplýsingar frá lánardrottni.  
-20. Smellið á Samþykkja.
-21. Smellið á „Í lagi“.
+7. Passaðu að upplýsingareiturinn sé opinn og útvíkkaðu síðan hlutann **Tengd skjöl**.
+8. Veldu tengilinn í reitnum **Beiðni um tilboð** til að opna beiðni um tilboð sem verið var að stofna.
+9. Veldu **Haus**.
+10. Veljið **Bæta við**.
+11. Í reitinn **Lánardrottnalykill** skal færa inn eða velja gildi.
+12. Veljið **Bæta við**.
+13. Í reitinn **Lánardrottnalykill** skal færa inn eða velja gildi.
+14. Veljið **Senda**.
+15. Veljið **Í lagi**.
+16. Veldu **Færa inn svar**.
+17. Í aðgerðarúðunni skal velja **Svara**.
+18. Veldu **Afrita gögn í svar**. Þetta afritar gögn, eins og magn og dagsetningar, frá beiðni um TILBOÐ í svarið.  
+19. Í reitnum **Einingarverð** skal slá inn tölu. Þetta er verðið sem þú hefur fengið frá lánardrottni. Þú gætir einnig viljað færið inn viðbótarupplýsingar frá lánardrottni.  
+20. Veljið **Samþykkja**.
+21. Veljið **Í lagi**.
 
 ## <a name="verify-that-vendor-and-price-have-been-transferred-to-the-requisition"></a>Staðfestið að verð og lánardrottinn hafa verið fluttar í beiðni.
 1. Lokið síðunni.
-2. Smellið á „Línur“.
-3. Smelltu á Tengdar upplýsingar.
-4. Smella á innkaupabeiðni
-5. Veldu sú lína sem var flutt á beiðni um tilboð.
-    * Staðfestið að verð og lánardrottinn hafa verið afritaðar í beiðni.  
-6. Smellt er á Verkflæði til að opna felligluggann.
-7. Smelltu á Ljúka.
-8. Lokið síðunni.
-9. Smelltu á Ljúka.
+2. Veldu **Línur**.
+3. Veldu **Tengdar upplýsingar**.
+4. Veldu **Innkaupabeiðni**.
+5. Veldu sú lína sem var flutt á beiðni um tilboð. Staðfestið að verð og lánardrottinn hafa verið afritaðar í beiðni.  
+6. Veldu **Verkflæði** til að opna felligluggann.
+7. Velja Lokið.
+8. Veldu síðuna.
+9. Velja Lokið.
 

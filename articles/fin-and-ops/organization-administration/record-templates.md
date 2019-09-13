@@ -1,9 +1,9 @@
 ---
-title: Færslusniðmát
+title: Yfirlit sniðmátsskráningar
 description: Þessi grein kynnir hugtakið skýrslusnið og útskýrir hvernig hægt er að nota þau til að stofna skýrslur sem deila upplýsingum.
 author: pvillads
 manager: AnnBe
-ms.date: 08/18/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 426fd8fafec061b649cbb31109ffe8fabc24917d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 81a878fccf2b544ffe94edac2c7c41be78bade3f
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545672"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864745"
 ---
-# <a name="record-templates"></a>Færslusniðmát
+# <a name="record-templates-overview"></a>Yfirlit sniðmátsskráningar
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,7 +32,7 @@ ms.locfileid: "1545672"
 
 Færslusniðmát geta hjálpað til við að stofna færslur hraðar í Microsoft Dynamics 365 for Finance and Operations. Hægt er að stofna færslusniðmát fyrir einungis sumar af færslugerðunum í Microsoft Dynamics 365 for Finance and Operations.
 
-Til dæmis hugsum okkur að verið sé að færa inn upplýsingar um leigu bílaleigufyrirtækis sem er staðsett í San Francisco. Þar sem flestir viðskiptavina eru líklega frá San Francisco svæðinu, væri gott ef hægt væri að fylla sjálfkrafa út gildi°fyrir°**Fylki**, **Land**, og **Borg** svæðin á leiguskjámyndinni.
+Til dæmis hugsum okkur að verið sé að færa inn upplýsingar um leigu bílaleigufyrirtækis sem er staðsett í San Francisco. Þar sem flestir viðskiptavina eru líklega frá San Francisco svæðinu, væri gott ef hægt væri að fylla sjálfkrafa út gildi fyrir **Fylki**, **Land**, og **Borg** svæðin á leiguskjámyndinni.
 
 > [!NOTE]
 > Aðeins er hægt að nota sniðmát fyrir þau svæði Finance and Operations sem viðkomandi hefur aðgang að. Hins vegar eru öll sniðmátsheiti sýnileg öllum notendum þegar ný færsla er stofnuð, ef verið er að stofna sniðmát sem verða svo aðgengileg fyrir alla notendur. Gætið þess að þetta í huga þegar sniðmát eru nefnd. Til dæmis ætti að forðast að nota heiti með orðum eins og „kaupauki“ ef það er trúnaðarmál að sumir starfsmenn fá greidda kaupauka.

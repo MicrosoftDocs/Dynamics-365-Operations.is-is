@@ -1,9 +1,9 @@
 ---
 title: Stofna staðsetningarforstillingu
-description: Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu tengda sem lýsir eiginleikum staðsetningar, t.d. hvort staðsetning heimilar blandaðar vörur.
+description: Í þessu efnisatriði er útskýrt hvernig á að stofna staðsetningarforstillingu í Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,28 +17,29 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9e1217a1105e1d53fc937f927e066e392f1ef14
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 46aa1001c21ae39c158062444303ca02c0f41a45
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847328"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1866980"
 ---
 # <a name="create-a-location-profile"></a>Stofna staðsetningarforstillingu
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu tengda sem lýsir eiginleikum staðsetningar, t.d. hvort staðsetning heimilar blandaðar vörur. Í þessu ferli munum við stofna forstillingu fyrir staðsetningu sem ekki þarf stýringu númeraplötu. Við munum virkja blandaðar vörur og blandaða birgðastöðu, og leyfa reglulega talningu. Hægt er að nota þetta ferli í sýnigögn fyrirtækisins USMF.
+Í þessu efnisatriði er útskýrt hvernig á að stofna staðsetningarforstillingu í Dynamics 365 for Finance and Operations. Hver staðsetning í vöruhúsi verður að hafa staðsetningarforstillingu tengda sem lýsir eiginleikum staðsetningar, t.d. hvort staðsetning heimilar blandaðar vörur. Í þessu ferli munum við stofna forstillingu fyrir staðsetningu sem ekki þarf stýringu númeraplötu. Við munum virkja blandaðar vörur og blandaða birgðastöðu, og leyfa reglulega talningu. Hægt er að nota þetta ferli í sýnigögn fyrirtækisins USMF.
 
-1. Smellið á „Nýtt“.
-2. Færa inn gildi í reitnum Kenni forstillingar staðsetningar.
-3. Í reitinn Heiti skal slá inn gildi.
-4. Sláðu inn eða veldu gildi í reitnum Staðsetningarsnið
-5. Færa inn eða veljið gildi í svæðinu gerð staðsetningu.
-6. Í reitinn Auðkenni fyrir forstillingu dreifingarstjórnunar skal slá inn eða velja gildi.
-7. Velja skal Já í svæðinu Leyfa blandaðar vörur.
-8. Velja skal Já í svæðinu Leyfa blandað birgðastaða.
-9. Velja skal Já í svæðinu Leyfa regluleg talning.
-10. Smellið á „Vista“.
-11. Fara í vöruhúsakerfi > Uppsetning > Vöruhús > Forstillingar staðsetningar.
+
+1. Í skoðunarrúðunni ferðu í **Kerfi > Vöruhúsakerfi > Uppsetning > Vöruhús > Staðsetningarforstillingar**.
+2. Veljið **Nýtt**.
+3. Í reitnum **Kenni staðsetningarforstillingar**.
+4. Í reitinn **Heiti** skal slá inn gildi.
+5. Í reitinn **Staðsetningarsnið** skal slá inn eða velja gildi.
+6. Í reitinn **Gerð staðsetningar** skal slá inn eða velja gildi.
+7. Í reitinn **Auðkenni fyrir forstillingu dreifingarstjórnunar** skal slá inn eða velja gildi.
+8. Velja skal **Já** í reitnum **Leyfa blandaðar vörur**.
+9. Velja skal **Já** í reitnum **Heimila blandaðar birgðastöður**.
+10. Velja skal **Já** í reitnum **Leyfa reglulega talningu**.
+11. Veljið **Vista**.
 

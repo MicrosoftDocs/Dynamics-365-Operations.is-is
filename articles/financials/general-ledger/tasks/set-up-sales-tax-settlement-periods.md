@@ -1,6 +1,6 @@
 ---
-title: Setja upp virðisaukaskatttímabil
-description: Virðisaukaskattsuppgjörstímabil innihalda upplýsingar um tímabil fyrir hvaða virðisaukaskatt þarf að vera tilkynntur og greiddur.
+title: Setja upp VSK-uppgjörstímabil
+description: Þetta efni útskýrir hvernig á að setja upp uppgjörstímabil virðisaukaskatts í Dynamics 365 for Finance and Operations.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/05/2019
@@ -16,50 +16,38 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8304d9e8997a5d31740ee1203aa4bf0603014056
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 6fb8488335579ed463d4db235b991e97c39d6f4d
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1862989"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867416"
 ---
-# <a name="set-up-sales-tax-settlement-periods"></a>Setja upp virðisaukaskatttímabil
+# <a name="set-up-sales-tax-settlement-periods"></a>Setja upp VSK-uppgjörstímabil
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Virðisaukaskattsuppgjörstímabil innihalda upplýsingar um tímabil fyrir hvaða virðisaukaskatt þarf að vera tilkynntur og greiddur. Hægt er að keyra jöfnunarferli fyrir jöfnunartímabil fyrir tiltekin dagsetningarbil. Allar skattkóði sem tengist jöfnunartímabil verða jafnaðar. Eftir að setja upp tengd virðisaukaskattsyfirvald er skattskuld bókuð í annað hvort lánardrottinn eða fjárhagslykil.
-
-
+Þetta efni útskýrir hvernig á að setja upp uppgjörstímabil virðisaukaskatts í Dynamics 365 for Finance and Operations. Virðisaukaskattsuppgjörstímabil innihalda upplýsingar um tímabil fyrir hvaða virðisaukaskatt þarf að vera tilkynntur og greiddur. Hægt er að keyra jöfnunarferli fyrir jöfnunartímabil fyrir tiltekin dagsetningarbil. Allar skattkóði sem tengist jöfnunartímabil verða jafnaðar. Eftir að setja upp tengd virðisaukaskattsyfirvald er skattskuld bókuð í annað hvort lánardrottinn eða fjárhagslykil.
 
 Þetta verkefni notar USMF-sýnifyrirtækið.
 
-
-
-1. Fara á Skattur > Óbeinir skattar > Virðisaukaskattur > VSK-uppgjörstímabil.
-2. Smellið á „Nýtt“.
-3. Færa inn gildi í reitnum jöfnunartímabil.
-4. Sláið inn gildi í reitnum „Lýsing“.
-5. Í yfirvalds svæði, velurðu virðisaukaskattsyfirvald sem tekur við skýrslan og greiðsla sem eru stofnaðar fyrir jöfnunartímabil.
+1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Skattur > Óbeinir skattar > Virðisaukaskattur- > VSK-uppgjörstímabil**.
+2. Veljið **Nýtt**.
+3. Í reitinn **Uppgjörstímabil** skal færa inn gildi.
+4. Í reitinn **Lýsing** skal slá inn gildi.
+5. Í reitnum **Yfirvöld** velurðu virðisaukaskattsyfirvald sem tekur við skýrslan og greiðsla sem eru stofnaðar fyrir jöfnunartímabil.
 6. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-7. Í listanum skal smella á tengilinn í valinni línu.
-8. Í reitnum greiðsluskilmálar skal smella á fellilistahnappinn til að opna leitina.
-    * Tengdar virðisaukaskattsyfirvald má setja upp sem lánardrottinn og virðisaukauppgjör mun stofna opnum lánardrottnareikningi. Greiðsluskilmálar skilgreina Gjalddaga fyrir the opinn reikningur lánardrottins.  
-9. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-10. Í listanum skal smella á tengilinn í valinni línu.
-11. Velja gerð fyrir tímabilum jöfnunartímabils.
-12. Færið inn fjölda eininga fyrir tímabilið á hvert tímabil. Til dæmis ársfjórðungur hefur 3 mánuði.
-13. Velja eða hreinsa Nota runuvinnslu fyrir gátreit fyrir virðisaukauppgjör.
-    * Hægt er að vinna úr jöfnunarferlið fyrir tímabil sem runuvinnslu í bakgrunni. Þetta er ráðlagt fyrir mikinn fjölda skattafærslur innan tímabil.  
+7. Í reitnum **Greiðsluskilmálar** velurðu skrána sem óskað er eftir af fellilistanum. Tengdar virðisaukaskattsyfirvald má setja upp sem lánardrottinn og virðisaukauppgjör mun stofna opnum lánardrottnareikningi. Greiðsluskilmálar skilgreina Gjalddaga fyrir the opinn reikningur lánardrottins.  
+8. Velja gerð fyrir tímabilum jöfnunartímabils.
+9. Færið inn fjölda eininga fyrir tímabilið á hvert tímabil. Til dæmis ársfjórðungur hefur 3 mánuði.
+10. Velja eða hreinsa gátreitinn **Nota runuvinnslu fyrir virðisaukauppgjör**. Hægt er að vinna úr jöfnunarferlið fyrir tímabil sem runuvinnslu í bakgrunni. Þetta er ráðlagt fyrir mikinn fjölda skattafærslur innan tímabil.  
     > [!NOTE]
     > Sem stendur er ekki stutt í Austurríki, Belgíu, Spáni, Ítalíu, Japan og Hollandi.
-14. Veldu eða hreinsaðu gátreitinn „Koma í veg fyrir að mótfærsluskattafærslur myndist“.
-    * Sjálfgefið framleiðir kerfið upp á mótfærsluskattafærslur við uppgjörsferlið, sem getur valdið frammistöðuvandamálum ef fjöldi skattafærslna er innan tímabils. Veljið þennan gátreit til að koma í veg fyrir að mótfærsluskattafærslur myndist.
-15. Útvíkka flipanum tímabilum.
-16. Smelltu á Bæta við.
-17. Í listanum skal merkja valda línu.
-18. Dagsetning er rituð í reitinn Frá dags.
-19. Í reitinn Til dagsetningar skal slá inn dagsetningu.
-20. Smellt er á Nýtt tímabil.
-    * Þegar hefur verið fært inn fyrsta tímabilið, hægt að stofna ný tímabil sjálfkrafa. Hægt er að koma aftur og bæta við nýrri tímabilum eftir þörfum.  
-21. Lokið síðunni.
+11. Veldu eða hreinsaðu gátreitinn **Koma í veg fyrir að mótfærsluskattafærslur myndist**. Sjálfgefið framleiðir kerfið upp á mótfærsluskattafærslur við uppgjörsferlið, sem getur valdið frammistöðuvandamálum ef fjöldi skattafærslna er innan tímabils. Veljið þennan gátreit til að koma í veg fyrir að mótfærsluskattafærslur myndist.
+12. Útvíkkaðu flipann **Tímabil**.
+13. Veljið **Bæta við**.
+14. Í reitnum **Frá dags.** skal færa inn dagsetningu.
+15. Í reitnum **Til dags.** færirðu inn dagsetningu.
+16. Veldu **Nýtt afmörkunartímabil**. Þegar hefur verið fært inn fyrsta tímabilið, hægt að stofna ný tímabil sjálfkrafa. Hægt er að koma aftur og bæta við nýrri tímabilum eftir þörfum.  
+17. Lokið síðunni.
 

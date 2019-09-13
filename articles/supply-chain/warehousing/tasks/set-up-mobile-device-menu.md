@@ -1,9 +1,9 @@
 ---
 title: Setja upp valmyndaratriði fartækis til að ljúka vinnu af gerðinni innkaupapöntun
-description: Þessi verklýsing sýnir hvernig á að setja upp valmyndaratriði fartækis.
+description: Þetta efni sýnir hvernig á að setja upp valmyndaratriði fartækis.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,68 +17,55 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 707fc9c798da8eac30cc9f56c158be3d96b271d6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: c1c922d16b46e26031e5f80886e4e4e8f08bcdaf
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847112"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916869"
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>Setja upp valmyndaratriði fartækis til að ljúka vinnu af gerðinni innkaupapöntun
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi verklýsing sýnir hvernig á að setja upp valmyndaratriði fartækis. Í þessu dæmi er Þetta valmyndaratriði notuð til að framkvæma vinnu með gerðinni innkaupapöntun. Vinnuklasi sem er tengdur við valmyndaratriði ákvarðar hvaða vinna er gild. Hægt er að nota þessar leiðbeiningar í sýnifyrirtækinu USMF. Þetta ferli er yfirleitt framkvæmt af stjórnandi vöruhúss.
+Þetta efni sýnir hvernig á að setja upp valmyndaratriði fartækis. Í þessu dæmi er Þetta valmyndaratriði notuð til að framkvæma vinnu með gerðinni innkaupapöntun. Vinnuklasi sem er tengdur við valmyndaratriði ákvarðar hvaða vinna er gild. Hægt er að nota þessar leiðbeiningar í sýnifyrirtækinu USMF. Þetta ferli er yfirleitt framkvæmt af stjórnandi vöruhúss.
 
 
 ## <a name="create-a-mobile-device-menu-item"></a>Stofna valmyndaratriði fartækis
-1. Fara í valmyndaratriði fartækis
-2. Smellið á „Nýtt“.
-3. Í svæðið heiti valmyndaratriðis, færa inn gildi.
-    * Færa skal inn einkvæmt gildi. Til dæmis væri hægt að slá inn flutningur pöntunar. Muna skal gildi, Þú þarft það síðar.  
-4. Í reitinn Titill skal slá inn gildi.
-    * Þetta er titillinn sem birtist í fartækinu. Til dæmis væri hægt að slá inn ‚flutningur pöntunar‘.  
-5. Í reitnum Stilling velurðu „Vinna“.
-6. Velja skal Já í Nota fyrirliggjandi vinnu svæðinu.
-    * Valmyndaratriði fartækis er notuð til að framkvæma fyrirliggjandi vinnu. Þess vegna verður að setja þetta gildi á Já.  
-    * Birta stöðusvæði birgða ákvarðar hvort birgðastöðu á lager birtist vöruhús starfsmann í fartækinu.  
-7. Í svæðinu Stýrt af, velja 'Kerfisflokkun'.
-    * Þegar eitthvað er valið í reitnum Stýrt af, birtast viðbótarreitir í hlutanum Almennt á þessari síðu. Svæði sem birtast velta á því hvað er var valið. Þegar er valið Kerfisflokkun, er bætt við tvö ný svæði. Þær eru útskýrt hér að neðan  
-8. Í kerfisflokkunarsvæði, veljið 'WorkPoolId'.
-    * Þegar starfsmenn vöruhúss þetta valmyndaratriði opnar, þær verður beðnir um að skanna auðkenni vinnuhóps. Öll vinna pantanir með þetta Auðkenni vinnuhóps og opna vinnupöntunar línur með einni af vinnuklösum sem bætt er við þetta valmyndaratriði verður ýtt til notanda.  
-9. Færa inn gildi í svæði merki kerfisflokkunar.
-    * Textinn sem birtist fartækjanotandanum Til dæmis væri hægt að slá inn vinnuhópur.  
-10. Velja Já í Hnekkingu númeraplötu við frágang svæðið .
-    * Þessi valkostur gerir starfsmenn vöruhúss kleift að hnekkja marknúmeraplötunni þegar vörur eru settar á staðsetningu númeraplötustýrða.  
-11. Velja skal Já í svæði frágangur Hóps.
-    * Ef allar línur fyrir Frágangur á vinnupöntun deila sama staðsetningu, fær notandi einn sameinað Frágangur fyrirmæli fyrir allar línur.  
-    * Endurskoðunarsniðmátskennið: endurskoðunarsniðmát fyrir vinnu gerir kleift að tilgreina að vinnuferli fyrir valmyndaratriði ætti að rjúfa þannig að annað aðgerð hægt að keyra. Til dæmis, ef þetta valmyndaratriði er fyrir vinnu á innleið gæti endurskoðunarsniðmátið krafist að starfsmaður athugi hitastig. Punktur ferlið rofin er tilgreindur fyrir endurskoðunarsniðmátið og getur til dæmis þegar vinna er hafin eða er lokið, eða þegar breytir stöðu hennar.  
-12. Útvíkka hlutann vinnuklasar.
-13. Smellið á „Nýtt“.
-14. Í svæðinu auðkenni vinnuklasa, færðu inn 'innkaup'.
-    * Vinnuhópinn takmarkar vinnu sem hægt er að nota valmyndaratriði fyrir. Í þessu tilfelli verður að nota hana fyrir opnar vinnupöntunarlínur sem hafa Innkaup vinnuklasi kenni.  
-15. Smellið á „Vista“.
+1. Farðu í **Valmyndaratriði farsíma** með því að slá það inn í leitarstikuna.
+2. Veljið **Nýtt**.
+3. Í reitinn **Heiti valmyndaratriðis** skal færa inn gildi. Færa skal inn einkvæmt gildi. Til dæmis væri hægt að slá inn `POMove`. Muna skal gildi, Þú þarft það síðar.  
+4. Í reitinn **Titill** skal slá inn gildi. Þetta er titillinn sem birtist í fartækinu. Til dæmis væri hægt að slá inn `PO Move`.  
+5. Í reitnum **Stilling** velurðu **Vinna**.
+6. Velja skal **Já** í reitnum **Nota fyrirliggjandi vinnu**.
+    - Valmyndaratriði fartækis er notuð til að framkvæma fyrirliggjandi vinnu. Þess vegna verður að setja þetta gildi á **Já**.  
+    - Reiturinn **Birta birgðastöðu** ákvarðar hvort birgðastaða á lager verður birt starfskrafti í vöruhúsi í fartækinu.  
+7. Í reitnum **Stýrt af** velurðu **Kerfisflokkun**. Þegar eitthvað er valið í reitnum **Stýrt af** birtast viðbótarreitir í hlutanum **Almennt** á þessari síðu. Svæði sem birtast velta á því hvað er var valið. Þegar er valið **Kerfisflokkun** er tveimur nýjum reitum bætt við. Þær eru útskýrt hér að neðan  
+8. Í reitnum **kerfisflokkun** skaltu velja **WorkPoolId**. Þegar starfsmenn vöruhúss þetta valmyndaratriði opnar, þær verður beðnir um að skanna auðkenni vinnuhóps. Öll vinna pantanir með þetta Auðkenni vinnuhóps og opna vinnupöntunar línur með einni af vinnuklösum sem bætt er við þetta valmyndaratriði verður ýtt til notanda.  
+9. Í reitinn **Merki kerfisflokkunar** skal færa inn gildi. Textinn sem birtist fartækjanotandanum Til dæmis væri hægt að slá inn **vinnuhópur**.  
+10. Velja **Já** í reitnum **Hnekkja númeraplötu við frágang**. Þessi valkostur gerir starfsmenn vöruhúss kleift að hnekkja marknúmeraplötunni þegar vörur eru settar á staðsetningu númeraplötustýrða.  
+11. Velja skal **Já** í reitnum **Frágangur hóps**.
+    - Ef allar línur fyrir Frágangur á vinnupöntun deila sama staðsetningu, fær notandi einn sameinað Frágangur fyrirmæli fyrir allar línur. 
+    - Endurskoðunarsniðmátskennið: endurskoðunarsniðmát fyrir vinnu gerir kleift að tilgreina að vinnuferli fyrir valmyndaratriði ætti að rjúfa þannig að annað aðgerð hægt að keyra. Til dæmis, ef þetta valmyndaratriði er fyrir vinnu á innleið gæti endurskoðunarsniðmátið krafist að starfsmaður athugi hitastig. Punktur ferlið rofin er tilgreindur fyrir endurskoðunarsniðmátið og getur til dæmis þegar vinna er hafin eða er lokið, eða þegar breytir stöðu hennar.  
+12. Útvíkkaðu hlutann **Vinnuklasar**.
+13. Veljið **Nýtt**.
+14. í reitinn **Kenni vinnuklasa** slærðu inn `Purchase`. Vinnuhópinn takmarkar vinnu sem hægt er að nota valmyndaratriði fyrir. Í þessu tilfelli verður að nota hana fyrir opnar vinnupöntunarlínur sem hafa Innkaup vinnuklasi kenni.  
+15. Veljið **Vista**.
 
 ## <a name="set-up-work-confirmation"></a>Setja upp vinnustaðfestingu
-1. Smellt er á Uppsetning verkstaðfestingar
-2. Veljið í svæðinu vinnutegund 'Taka'.
-3. Velja Sjálfvirkt staðfesta gátreitinn.
-    * Leiðbeining fyrir vinnu með vinnugerð Tiltekt verður sjálfkrafa staðfestar. Þessi fyrirmæli verða ekki sýnd notandanum.  
-4. Smellið á „Nýtt“.
-5. Í reitnum Vinnutegund velurðu ‚Frágangur‘.
-6. Veljið gátreitinn fyrir staðfestingu á Staðsetningu.
-    * Starfsmaður í vöruhúsi er beðinn um að framkvæma staðfestingu skönnun staðsetningu þegar varan er sett niður.  
-7. Smellið á „Vista“.
-8. Lokið síðunni.
-9. Lokið síðunni.
+1. Veldu **Uppsetning vinnustaðfestingar**.
+2. Í reitnum **Vinnutegund** velurðu **Tína**.
+3. Veldu gátreitinn **Staðfesta sjálfvirkt**. Leiðbeining fyrir vinnu með vinnugerð Tiltekt verður sjálfkrafa staðfestar. Þessi fyrirmæli verða ekki sýnd notandanum.  
+4. Veljið **Nýtt**.
+5. Í reitnum **Vinnutegund** velurðu ‚Frágangur‘.
+6. Veljið gátreitinn **Staðfesting staðsetningar**. Starfsmaður í vöruhúsi er beðinn um að framkvæma staðfestingu skönnun staðsetningu þegar varan er sett niður.  
+7. Veljið **Vista**.
 
 ## <a name="add-the-menu-item-to-a-mobile-device-menu"></a>Bæta valmyndaratriði við valmynd fartækis
-1. Fara í valmyndina Fartæki
-2. Smellið á „Breyta“.
-3. Nota flýtiafmörkun til að finna færslur Til dæmis, sía svæðið Heiti með gildinu 'á innleið'.
-    * Óskað er að finna valmynd að nota fyrir valmyndaratriði á innleið. Í USMF, þessi reitur er kallaður á innleið.  
-4. Í trénu skal velja „gildi“.
-5. Smella á ör sem vísar til hægri.
-6. Smellið á „Vista“.
+1. Farðu í valmyndina **Fartæki** með því að slá það inn í leitarstikuna.
+2. Veljið **Breyta**.
+3. Nota flýtiafmörkun til að finna færslur Til dæmis, sía í reitnum **Heiti** með gildinu **á innleið**. Óskað er að finna valmynd að nota fyrir valmyndaratriði á innleið. Í USMF er þetta kallað **á innleið**.  
+4. Í trénu skal velja **gildi**.
+5. Veldu örina sem vísar til hægri.
+6. Veljið **Vista**.
 7. Lokið síðunni.
-

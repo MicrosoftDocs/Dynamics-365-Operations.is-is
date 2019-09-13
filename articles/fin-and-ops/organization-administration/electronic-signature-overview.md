@@ -1,9 +1,9 @@
 ---
-title: Rafrænar undirskriftir
+title: Yfirlit rafrænna undirskrifta
 description: Þessi grein gefur yfirlit yfir rafrænar undirskriftir og lýsir hvernig hægt er að nota þær í Microsoft Dynamics 365 for Finance and Operations.
 author: maertenm
 manager: AnnBe
-ms.date: 08/24/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 676510ef503d51d914ba762e7ac15e2c4811c6ba
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f66999d61c63b2ace0ed06d0ecdd0cfc95cbd778
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553225"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865017"
 ---
-# <a name="electronic-signatures"></a>Rafrænar undirskriftir
+# <a name="electronic-signatures-overview"></a>Yfirlit rafrænna undirskrifta
 
 [!include [banner](../includes/banner.md)]
 
@@ -42,7 +42,7 @@ Reglur kveða á um rafrænar undirskriftir innan ýmissa atvinnugreina sem eru 
 
 ## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Rafrænar undirskriftir í Dynamics 365 for Finance and Operations
 
-Hægt er að nota rafrænar undirskriftir fyrir mikilvæg viðskiptaferli í Dynamics 365 for Finance and Operations. Rafrænar undirskriftir eru innbyggður hluti sumra ferla. Hægt er að búa til kröfur um rafrænar undirskriftir fyrir hvaða gagnagrunn eða svæði sem er.
+Í Finance and Operations er hægt að nota rafrænar undirskriftir fyrir mikilvæg viðskiptaferli. Rafrænar undirskriftir eru innbyggður hluti sumra ferla. Hægt er að búa til kröfur um rafrænar undirskriftir fyrir hvaða gagnagrunn eða svæði sem er.
 
 Rafrænar undirskriftir deila nokkrum eiginleikum með stafrænum undirskriftum. Allir notendur sem skrifa undir skjöl þurfa að hafa gilt dulritað skírteini. Þegar skjal er undirritað er einkalykillinn sem tengist skírteininu sannprófaður. Finance and Operations skráir upplýsingar um rafrænar undirskriftir í kladda til þess að hægt sé að rekja slóð aðgerða. Setja upp rafrænar undirskriftir, sjá [Uppsetning rafrænna undirskrifta (verkefnaleiðbeiningar)](tasks/set-up-electronic-signatures.md).
 
@@ -74,7 +74,7 @@ Ef notað er hlutverk annað en **upplýsingatæknistjóri** skal ganga úr skug
 
 ### <a name="get-a-certificate"></a>Sækja skírteini
 
-Áður en skjöl eru undirrituð rafrænt í Dynamics 365 for Finance and Operations þarf að biðja um skírteini.
+Áður en skjöl eru undirrituð rafrænt í Finance and Operations þarf að biðja um skírteini.
 
 > [!NOTE]
 > Finance and Operations notar aðgerðir Microsoft SQL Server til að stofna skírteini og virkja rafræna undirritun. Ekki þarf að hafa annað umhverfi fyrir skírteini eða lykla.

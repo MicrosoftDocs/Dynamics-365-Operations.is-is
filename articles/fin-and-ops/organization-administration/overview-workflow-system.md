@@ -1,9 +1,9 @@
 ---
-title: Verkflæðiskerfi
+title: Yfirlit yfir verkflæðiskerfi
 description: Þetta efnisatriði lýsir verkflæðiskerfinu í Microsoft Dynamics 365 for Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 08/17/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a35184a48eff9e320087cb9390a0f1eed1e7ba19
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a2692b9f3595ab001151f8e53a25010474bcd233
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545810"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864793"
 ---
-# <a name="workflow-system"></a>Verkflæðiskerfi
+# <a name="workflow-system-overview"></a>Yfirlit yfir verkflæðiskerfi
 
 [!include [banner](../includes/banner.md)]
 
@@ -46,7 +46,7 @@ Verkflæði endurspeglar viðskiptaferli. Það skilgreinir hvernig skjal flæð
 
 Til að skilja þetta verkflæði betur er gert ráð fyrir að Sam sendi kostnaðarskýrslu fyrir 7,000 USD. Í þessari lýsingu þarf Ivan að endurskoða kvittanirnar sem Sam sendi til hans. Síðan verða Frank og Sue að samþykkja kostnaðarskýrsluna. Gerum nú ráð fyrir að Sam sendi kostnaðarskýrslu fyrir 11.000. Í þessari lýsingu verður Ivan að endurskoða kvittanirnar og Frank, Sue og Ann að samþykkja kostnaðarskýrsluna.
 
-## <a name="benefits-of-using-the-workflow-system"></a> Kostir við notkun Verkflæðiskerfisins
+## <a name="benefits-of-using-the-workflow-system"></a>Kostir við notkun Verkflæðiskerfisins
 
 Nokkrir kostir eru við að nota verkflæðiskerfi í fyrirtækinu:
 

@@ -3,7 +3,7 @@ title: Færa inn vinnukort verks
 description: Þetta ferli leyfir þér að stofna vinnukort með því að nota skjámynd tómt vinnukort .
 author: andreabichsel
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,49 +16,41 @@ ms.search.industry: Service industries
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f1be02f0080ee23359ad905b1e997d8cd5adfd2
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2fd5c1e6c38c2e4380a8c8b061b08bce2dd43c8
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1510383"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916508"
 ---
 # <a name="enter-project-timesheets"></a>Færa inn vinnukort verks
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta ferli leyfir þér að stofna vinnukort með því að nota skjámynd tómt vinnukort . Nýja vinnukort getur verið grunnur upplýsingar frá fyrra vinnukort, eða frá: verk og verkþáttur eftirlætissíða. Að sjálfgefnu, öll vinnukort listasíða sýnir öll vinnukort þín fyrir núgildandi tímabil. Hægt er að nota á fellilistanum fyrir Sýna svæðið á síðunni Mín tímablöð til að sía lista vinnukort tímabili eða verk, eða skoða tímablöð sem voru stofnaðir fyrir hönd annarra starfsmanna. Sýnigögn fyrirtækisins til að stofna þetta ferli er USSI. Til að hefja ferlið, fara í verkstjórnun og bókhaldi > Vinnublöð > Vinnublöð mín
+Þetta ferli leyfir þér að stofna vinnukort með því að nota skjámynd tómt vinnukort . Nýtt tímablað getur verið byggt á upplýsingum úr fyrra tímablaði eða úr verki og verkþáttarúthlutunum í **Eftirlæti notanda**. Að sjálfgefnu sýnir listasíðan **Öll tímablöð** öll tímablöð þín fyrir núgildandi tímabil. Hægt er að nota fellilistann fyrir reitinn **Sýna** á síðunni **Mín tímablöð** til að sía tímablaðalista eftir tímabili eða verki, eða skoða tímablöð sem voru stofnuð fyrir hönd annarra starfsmanna. Sýnigögn fyrirtækisins til að stofna þetta ferli er USSI. 
 
-1. Til að færa inn nýtt vinnukort, smella á Nýtt.
-    * Tilföng fellilistanum sýnir starfsmanns sem er úthlutað á núverandi notanda, sjálfgefið.  
-    * Ef notandinn er skráður sem fulltrúa, þetta mun birta lista yfir nöfn þannig að notandi má slá inn tímablað fyrir þeirra hönd.  
-2. Dagsetning er rituð í reitinn Dagetning.
-    * Ef þessi valkostur er valinn er nýrri tímablaðslínur stofnuð með því að nota stillingar vinnukorts sem voru skilgreind sem eftirlæti.  
-3. Smellið á „Í lagi“.
-4. Smellt er á Nýja línu.
-5. Í listanum skal merkja valda línu.
-    * Svæði Lögaðila birtir núgildandi lögaðila sjálfgefið.   
-6. Í reitnum verk skal smella á fellilistahnappinn til að opna leitina.
-7. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-8. Í listanum skal smella á tengilinn í valinni línu.
-9. Í reitnum Verkþáttur skal smella á fellilistahnappinn til að opna leitina.
-10. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-11. Í listanum skal smella á tengilinn í valinni línu.
-12. Í reitnum flokkur skal smella á fellilistahnappinn til að opna leitina.
-13. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-14. Í listanum skal smella á tengilinn í valinni línu.
-15. Færið inn fjölda stunda unnar á hverjum degi.
-    * Klukkustundir ætti að færa inn tugabrot sniði.  Ef til dæmis er unnið í tvo tíma og fimmtán mínútur, er fært inn 2.25.   
-16. Færið inn fjölda stunda unnar á hverjum degi.
-    * Klukkustundir ætti að færa inn tugabrot sniði.  Ef til dæmis er unnið í tvo tíma og fimmtán mínútur, er fært inn 2.25.   
-17. Færið inn fjölda stunda unnar á hverjum degi.
-    * Klukkustundir ætti að færa inn tugabrot sniði.  Ef til dæmis er unnið í tvo tíma og fimmtán mínútur, er fært inn 2.25.   
-18. Færið inn fjölda stunda unnar á hverjum degi.
-    * Klukkustundir ætti að færa inn tugabrot sniði.  Ef til dæmis er unnið í tvo tíma og fimmtán mínútur, er fært inn 2.25.   
-19. Færið inn fjölda stunda unnar á hverjum degi.
-    * Klukkustundir ætti að færa inn tugabrot sniði.  Ef til dæmis er unnið í tvo tíma og fimmtán mínútur, er fært inn 2.25.   
-    * Í Upplýsingar um línu, eru eftirfarandi valkostir tiltækir:  o   Bæta við upplýsingum um skatta og fjárhagsvíddir.  o    Bæta við athugasemd um línu á tímablaði.  
-20. Smellt er á Verkflæði til að opna felligluggann.
-21. Smelltu á Senda.
-22. Smelltu á Senda.
+1. Í **skoðunarrúðunni** ferðu í **Kerfiseiningar > Verkefnastjórnun og bókhald > Uppsetning > Tímablöð > Tímablöðin mín**.
+2. Til að færa inn nýtt tímablað skaltu smella á **Nýtt**.
+    - Tilföng fellilistanum sýnir starfsmanns sem er úthlutað á núverandi notanda, sjálfgefið.  
+    - Ef notandinn er skráður sem fulltrúa, þetta mun birta lista yfir nöfn þannig að notandi má slá inn tímablað fyrir þeirra hönd.  
+3. í retinum **Dagsetning** ritarðu dagsetningu. Ef þessi valkostur er valinn er nýrri tímablaðslínur stofnuð með því að nota stillingar vinnukorts sem voru skilgreind sem eftirlæti.  
+4. Smellt er á **OK**.
+5. Smelltu á **Nýja línu**.
+6. Í listanum skal merkja valda línu. Reiturinn **Lögaðili** birtir núgildandi lögaðila sjálfgefið.   
+7. Í reitnum **Verk** skal smella á fellilistahnappinn til að opna leitina.
+8. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
+9. Í listanum skal smella á tengilinn í valinni línu.
+10. Í reitnum **Verkþáttarnúmer** skal smella á fellilistahnappinn til að opna leitina.
+11. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
+12. Í listanum skal smella á tengilinn í valinni línu.
+13. Í reitnum **Flokkur** skal smella á fellilistahnappinn til að opna leitina.
+14. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
+15. Í listanum skal smella á tengilinn í valinni línu.
+16. Færið inn fjölda stunda unnar á hverjum degi. Færið inn klukkustundir á aukastafasniði. Ef til dæmis er unnið í tvo tíma og fimmtán mínútur, er fært inn 2.25.   
+17. Í **Upplýsingar um línu** eru eftirfarandi valkostir tiltækir:
+    - Bættu upplýsingum um skatta og fjárhagsvíddir við á flipann **Almennt** og **Fjárhagslegar víddir**.
+    - Bættu við athugasemdum um tímalínulínuna á flipann **Athugasemd**.
+20. Í **aðgerðarsvæðinu** smellirðu á **Verkflæði** til að opna felligluggann.
+21. Smelltu á **Senda**.
+22. Smelltu á **Senda**.
 

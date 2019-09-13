@@ -3,7 +3,7 @@ title: Nota færslusniðmát til að stofna ný færsla
 description: Þetta ferli sýnir hvernig nota fyrirfram skilgreint færslusniðmát til að stofna ný færsla.
 author: margoc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d15cfd426b94779891dc7ccd471baab0522abbab
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 8e420e2bb47ae18e20d35731339b53f0f890b247
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1848232"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916000"
 ---
 # <a name="use-record-template-to-create-a-new-record"></a>Nota færslusniðmát til að stofna ný færsla
 
@@ -29,13 +29,10 @@ ms.locfileid: "1848232"
 
 Þetta ferli sýnir hvernig nota fyrirfram skilgreint færslusniðmát til að stofna ný færsla. Til að ljúka við þetta ferli verður fyrst að ljúka við ferlið „Stofna færslusniðmát til að auðvelda gagnaskráning“.
 
-
-
 Þetta ferli notar USMF-fyrirtækið.
 
-1. Fara í Eignir > Eignir > Eignir.
-2. Smellið á „Nýtt“.
-    * Beðið verður um að velja sniðmát. Veljið það sem passar við rekstarþörfina.  
+1. Í **skoðunarrúðnni** ferðu í **Fastafjármunir > Fastafjármunir > Fastafjármunir**.
+2. Smellt er á **Nýtt**. Beðið verður um að velja sniðmát. Veljið það sem passar við rekstarþörfina.  
 3. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-4. Smellið á „Í lagi“.
+4. Smellt er á **OK**.
 
