@@ -1,6 +1,6 @@
 ---
-title: Virkni starfatorgs í Attract
-description: Þessi efnisatriði veitir yfirlit yfir starfatorg sem snýr að umsækjendum í Attract.
+title: Settu upp ferilssíðu þína í Microsoft Dynamics 365 for Talent - Attract
+description: Þetta efnisatriði veitir yfirlit yfir starfatorg sem snýr að umsækjendum í Microsoft Dynamics 365 for Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: e51fb00536884d2b3815c05a0968714d8b9326f2
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729704"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739772"
 ---
-# <a name="career-site-functionality-in-attract"></a>Virkni starfatorgs í Attract
+# <a name="set-up-your-career-site"></a>Setja upp ferilssíðu
 
 [!include[banner](../includes/banner.md)]
 
@@ -74,7 +74,7 @@ Umsækjendur hafa eftirfarandi innskráningarmöguleika fyrir Attract-starfatorg
 
     -   LinkedIn
 
-    -   Microsoft 
+    -   Microsoft
 
     -   Google
 
@@ -118,7 +118,7 @@ Umsækjendur geta sótt um starf sem þeir hafa þegar haft samband við meðlim
 
 ## <a name="apply-for-jobs"></a>Sækja um störf
 
-Eftir að umsækjendur hafa fundið rétt starf, þá geta þeir sótt um með því að nota  **Sækja um** hnappinn á síðunni  **Starfsupplýsingar**. Á þessum tímapunkti geta umsækjendur annaðhvort búið til nýja síðu eða endurskoðað upplýsingarnar á núverandi síðu.
+Eftir að umsækjendur hafa fundið rétt starf, þá geta þeir sótt um með því að nota hnappinn **Sækja um** á síðunni **Starfsupplýsingar**. Á þessum tímapunkti geta umsækjendur annaðhvort búið til nýja síðu eða endurskoðað upplýsingarnar á núverandi síðu.
 Umsækjendur geta einnig hlaðið upp ferilskrá, eftir því sem þörf krefur, og síðan sent inn starfsumsóknina.
 
 ### <a name="enable-applying-for-jobs-with-linkedin-profiles"></a>Gera kleift að sækja um störf með notendasíðum LinkedIn

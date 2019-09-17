@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: andreabichsel
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8f488b0bf844fc04f07fedfa447073cdeabacc15
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518247"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795245"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 for Talent (2. apríl 2019)
 
@@ -57,13 +57,13 @@ Umbætur á flipanum **Skjöl** í notendasíðum og hæfileikasöfnum forrita b
 Breytingum sem lýst er í þessum kafla gilda um byggingarnúmer 8.1.2216.
 
 ### <a name="platform-update-25"></a>Update 25 fyrir verkvang
-Frekari upplýsingar um verkvangsuppfærslu 25 er að finna í [Forskoðun á eiginleikum í Dynamics 365 for Finance and Operations verkvangsuppfærslu 25 í (apríl 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+Frekari upplýsingar um verkvangsuppfærslu 25 er að finna í [Forskoðun á eiginleikum í Dynamics 365 for Finance and Operations verkvangsuppfærslu 25 í (apríl 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Ítarlegt launaöryggi (fast og breytilegt)
 Í mörgum fyrirtækjum er hugsanlegt að launa- og fríðindastjórar hafi aðeins aðgang að ákveðnum launafærslum. Þetta gæti falið í sér skrár fyrir stjórnendur eða svæðisbundna starfsmenn. Þessi breyting gerir mannauðsstjóra kleift að vinna með launafyrirkomulag fyrir mismunandi starfsmannahópa í fyrirtækinu. Hægt er að úthluta öryggishlutverkum á fastar eða breytilegar áætlanir. Þessi öryggishlutverk ákvarða aðgang að áætlunum og tengdum starfsmannagögnum á borð við launa- eða bónusfærslur, þannig að eingöngu þessi hlutverk geti unnið úr launum fyrir starfsmannahópana.
 
 ### <a name="upgrade-to-common-data-service"></a>Uppfæra í Common Data Service
-Frestur til að uppfæra í Common Data Service rennur brátt út. Skráðu þig inn á stjórnandamiðstöð PowerApps til að ákvarða hvort þurfi að uppfæra gagnagrunninn þinn. Frekari upplýsingar um fresti og nauðsynlegar ráðstafanir til að uppfæra er að finna í [Uppfæra í Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Frestur til að uppfæra í Common Data Service rennur brátt út. Skráðu þig inn á stjórnandamiðstöð PowerApps til að ákvarða hvort þurfi að uppfæra gagnagrunninn þinn. Frekari upplýsingar um fresti og nauðsynlegar ráðstafanir til að uppfæra er að finna í [Uppfæra í Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Í kynningarútgáfu
 

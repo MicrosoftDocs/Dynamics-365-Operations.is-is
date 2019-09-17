@@ -1,6 +1,6 @@
 ---
-title: Nota greiningarskýrslur til að fá innsýn í ráðningarferli
-description: Þetta efnisatriði útskýrir greiningarskýrslurnar í Attract
+title: Notaðu greiningarskýrslur í Microsoft Dynamics 365 for Talent - Attract
+description: Þetta efni lýsir greiningarskýrslum fyrir ráðningu á ferli í Microsoft Dynamics 365 for Talent - Attract
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: 33ed6072a9ad99144fb96ad19389a57461324f71
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f69c45e885d789d05a081064f30ccd6ce6bfec52
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516561"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742889"
 ---
-# <a name="use-analytic-reports-for-hiring-process-insights"></a>Nota greiningarskýrslur til að fá innsýn í ráðningarferli
+# <a name="use-analytic-reports"></a>Nota greiningarskýrslu
 
 Greiningarskýrslur í Attract veita tilbúna lausn fyrir innsýn í ráðningarferlin. Tiltækar aðgerðir eru meðal annars:
 
@@ -81,8 +81,8 @@ Skýrslur starfsgreiningar sýna gögn fyrir valið starf. Skýrslur starfsgrein
 
 ## <a name="cross-filter"></a>Krosssíun
 
-Einn af frábærum eiginleikum Power BI er hvernig allt myndefni á skýrslusíðu er tengt innbyrðis. Ef gagnapunktur er valinn í einu myndefnanna, breytist allt annað myndefni á síðunni sem inniheldur þessi gögn, á grunni þessa vals. Fáðu að vita meira og sjáðu dæmi í [Hvernig myndefni krosssía hvert annað í Power BI-skýrslu](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-interactions).
+Einn af frábærum eiginleikum Power BI er hvernig allt myndefni á skýrslusíðu er tengt innbyrðis. Ef gagnapunktur er valinn í einu myndefnanna, breytist allt annað myndefni á síðunni sem inniheldur þessi gögn, á grunni þessa vals. Fáðu að vita meira og sjáðu dæmi í [Hvernig myndefni krosssía hvert annað í Power BI-skýrslu](https://docs.microsoft.com/power-bi/consumer/end-user-interactions).
 
 ## <a name="export-to-excel"></a>Flytja út í Excel
 
-Til að skoða skýrslugögn í Excel er hægt að smella á valmyndina fyrir valkosti (þrír punktar) í myndefni og velja **Flytja út undirliggjandi gögn**. Útflutt gögn flytjast út sem síuð, tekur mið af heimildum notanda í Attract. Frekari upplýsingar eru í [Flytja gögn út úr myndrænum framsetningum](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-export-data).
+Til að skoða skýrslugögn í Excel er hægt að smella á valmyndina fyrir valkosti (þrír punktar) í myndefni og velja **Flytja út undirliggjandi gögn**. Útflutt gögn flytjast út sem síuð, tekur mið af heimildum notanda í Attract. Frekari upplýsingar eru í [Flytja gögn út úr myndrænum framsetningum](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).

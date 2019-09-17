@@ -1,6 +1,6 @@
 ---
-title: Velja umsækjendur með því að nota hæfileikasafn
-description: Þetta efni útskýrir hvernig á að búa til og setja upp hæfileikasöfn í Attract.
+title: Finna umsækjendur með hæfileikasöfnum í Microsoft Dynamics 365 for Talent - Attract
+description: Þetta efni útskýrir hvernig á að búa til og setja upp hæfileikasöfn í Microsoft Dynamics 365 for Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/28/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
-ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
+ms.openlocfilehash: 98b93f69c4f4c8ca6c9a0fc2530578afed4b967c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "1711295"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741868"
 ---
-# <a name="source-candidates-by-using-talent-pools"></a>Velja umsækjendur með því að nota hæfileikasafn
+# <a name="source-candidates-with-talent-pools"></a>Finna umsækjendur með hæfileikasöfnum
 
 [!include[banner](../includes/banner.md)]
 
@@ -79,7 +79,7 @@ Eigandinn og þátttakendur í hæfileikasafninu geta bætt umsækjendum við h�
 ## <a name="search-and-view-candidate-profiles"></a>Leita og skoða forstillingar umsækjenda
 
 > [!NOTE] 
-> Þessi eiginleiki er í forútgáfu sem stendur. Ef þú vilt prófa hann verður þú að [kveikja á honum í stjórnandastillingum Attract](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+> Þessi eiginleiki er í forútgáfu sem stendur. Ef þú vilt prófa hann verður þú að [kveikja á honum í stjórnandastillingum Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature). 
 
 Hæfileikasöfn gera þér kleift að skoða forstillingar umsækjanda, LinkedIn-upplýsingar, tengd gögn og umsóknarferil. Þú getur leitað í öllum gagnagrunni allra umsækjenda sem er bætt við hæfileikasafn, þ.á.m. lokaða og virka umsækjendur.
 
@@ -116,7 +116,7 @@ Allir notendur hafa sameiginlegt yfirlit yfir forstillingar umsækjenda. Flipinn
 
     Til að skoða skjal skaltu velja heiti skjalsins í listanum yfir skjöl. Þú getur skoðað Microsoft Word skjöl í forritinu með því að nota Microsoft Office 365. Þú getur einnig sótt skjölin á tölvuna þína með því að nota valkostinn **Sækja** fyrir hvert skjal.
 
-- **LinkedIn** flipinn sýnir LinkedIn upplýsingar umsækjanda. Til að nota þennan flipa verður þú að tengja LinkedIn-reikninginn þinn í notendastillingunum og setja verður á tengingu LinkedIn Recruiter umhverfisins. Frekari upplýsingar er að finna í [Fundið með LinkedIn Recruiter](./attract-linked-in-recruiter.md).
+- **LinkedIn** flipinn sýnir LinkedIn upplýsingar umsækjanda. Til að nota þennan flipa verður þú að tengja LinkedIn-reikninginn þinn í notendastillingunum og setja verður á tengingu LinkedIn Recruiter umhverfisins. Frekari upplýsingar er að finna í [Fundið með LinkedIn Recruiter](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > Aðeins umsækjendur geta uppfært hæfni sína, menntunarferli og starfsreynslu.

@@ -3,7 +3,7 @@ title: Búðu til, samþykkja og auglýsa störf í Attract
 description: Þetta umræðuefni lýsir grunnatriðum starfa í Attract. Það útskýrir einnig hvernig á að búa til starf.
 author: hasrivas
 manager: AnnBe
-ms.date: 03/20/2019
+ms.date: 07/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 1e76572c1a843fe7abd515333d5b7cb03b91eb11
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 351fd03f6a27073b850729e2eef5516556292225
+ms.sourcegitcommit: b24c36cdd3b6f6085447bf81cb034d13d5b081fe
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518260"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "1773258"
 ---
-# <a name="create-approve-and-post-jobs-in-attract"></a>Búðu til, samþykkja og auglýsa störf í Attract
+# <a name="create-a-job"></a>Stofna starf
 
 [!include [banner](includes/banner.md)]
 
@@ -81,33 +81,6 @@ Nánari upplýsingar um auglýsingar á störfum er að finna í [Virkni starfat
 > [!NOTE]
 > Auglýsing á störfum er aðeins í boði með Viðbót við alhliða ráðningar fyrir Attract.
 
-### <a name="posting-jobs-to-linkedin"></a>Að auglýsa störf á LinkedIn 
-
-Áður en starf er auglýst úr Attract í LinkedIn verður stjórnandi fyrst að bæta við auðkenni fyrirtækis fyrir LinkedIn og fyrirtækjaheiti á LinkedIn í **Stjórnandastillingar**. Auðkenni fyrirtækis fyrir LinkedIn er nauðsynlegt til að tryggja að störfunum sem þú auglýstir úr Attract sé varpað á rétta fyrirtækjasíðu.
-
-Auðkenni fyrirtækis fyrir LinkedIn er númeraröð sem staðfestir á einkvæman hátt fyrirtækið þitt á LinkedIn. Til að fá frekari upplýsingar um hvernig á að finna auðkenni fyrirtækisins á LinkedIn skal fara á [LinkedIn-svæðið](https://aka.ms/findID).
-
-Til að uppfæra LinkedIn-fyrirtækið skal velja **Stjórnandamiðstöð** í valmyndinni  **Stillingar**  (gírtáknið) og síðan velja flipann  **LinkedIn-samþætting** . Í hlutanum **Tengjast við LinkedIn** skal slá inn heiti fyrirtækisins á LinkedIn og kenni fyrirtækisins og síðan vista stillingarnar.
-
-> [!NOTE]
-> Hafa skal fjóra mikilvæga hluti í huga varðandi birtingu starfsauglýsinga á LinkedIn.
-> 1. Störf sem birt eru á LinkedIn eru birt sem störf með „Takmarkaða birtingu“. Störf með takmarkaða birtingu er ekki hægt að auglýsa hvar sem er á vefsvæði LinkedIn. Ef þú vilt koma á framfæri störfum með takmarkaða birtingu á LinkedIn úr Attract ættir þú að vinna með LinkedIn til að virkja „starfspakka“. Skoðaðu tengla hér að neðan og hafðu samband við LinkedIn stuðning fyrir frekari upplýsingar.
->
->    [Takmörkuð birting vs úrvalsstörf á lausu fyrir „starfspakka“](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
->
->    [Algengar spurningar um starfspakka](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
->
-> 1. Þegar störf eru auglýst á LinkedIn ber Attract fyrirtækisheiti Microsoft 365 saman við starfið. LinkedIn tengir störfin við fyrirtæki á LinkedIn síðunni á grundvelli heiti fyrirtækisins sem er sent. Ef starf þitt er skráð undir röngu fyrirtæki á LinkedIn skaltu ganga úr skugga um að Microsoft 365 fyrirtækisheitið þitt passi við nafn fyrirtækisins á LinkedIn.  
->
->    [Breyta aðsetri tengiliðs og fleira](https://docs.microsoft.com/en-us/office365/admin/manage/change-address-contact-and-more)
->
->    Ef þú átt í vandræðum á eftir þessu skrefi skaltu hafa samband við LinkedIn stuðning. 
-> 
-> 1. Störf sem auglýst eru á LinkedIn birtast á LinkedIn-svæðinu. Það er engin prófunarumhverfi til að senda störf á LinkedIn. 
->
-> 1. Það getur tekið allt að sólarhring fyrir störf sem birt eru á LinkedIn að verða sýnileg umsækjendum innan LinkedIn vegna núgildandi birtingarferlis á runuvinnslu LinkedIn.
-
-
 ## <a name="activate"></a>Virkja
 
 Eftir að starf er virkjað er hægt að auglýsa það og hægt er að bæta viðföngum og umsækjendum. Möguleikinn á að bæta viðföngum við starf er stilltur í aðgerðinni fyrir viðföng í ráðningarferlinu.
@@ -142,7 +115,7 @@ Ef notandi breytir starfinu eftir að það er samþykkt, en ekki gert virkt, ve
 Fólkið sem er skráð sem samþykktaraðilar mun fá tilkynningu í Attract og tölvupóst til að tilkynna þeim að þeir hafi atriði til að samþykkja.  Í tölvupóstinum geta samþykktaraðilar smellt á tengilinn til að opna starfið, yfirfarið upplýsingarnar og annaðhvort samþykkt það eða hafnað því. Eftir að staða starfsins er stillt á **Samþykkt** eða **Hafnað** fær sendandinn tilkynningu um það í Attract og hann fær sendan tölvupóst. Einnig munu samþykktaraðilar fá tölvupóstsáminningu ef þeir hafa ekki svarað samþykktarbeiðninni innan sólarhrings.
 
 > [!NOTE]
-> Hægt er að búa til sérsniðin sniðmát fyrir samþykki í tölvupósti. Frekari upplýsingar er að finna í [Búa til sniðmát fyrir tölvupóst og stýra þeim](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/email-templates).
+> Hægt er að búa til sérsniðin sniðmát fyrir samþykki í tölvupósti. Frekari upplýsingar er að finna í [Búa til sniðmát fyrir tölvupóst og stýra þeim](https://docs.microsoft.com/dynamics365/unified-operations/talent/email-templates).
 
 ## <a name="create-a-job"></a>Starf stofnað
 

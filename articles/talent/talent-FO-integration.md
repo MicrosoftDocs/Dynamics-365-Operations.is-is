@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: db542e4df79480624ff6e5ff1996ad930fc1564b
-ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
+ms.openlocfilehash: cb9e01316f4b154a3e9a73042eaf0492f016c46c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617344"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742712"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>Algengar spurningar um samþættingu Dynamics 365 for Talent til Dynamics 365 for Finance and Operations
 
@@ -38,7 +38,7 @@ Fyrir Attract og Onboard eru öll gögn staðbundin við Common Data Service.
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Get ég búið til nýja vörpun án þess að nota sniðmátin?
 
-Sniðmát eru upphafspunktur. Hægt er að búa til sitt eigið sniðmát, en alltaf er þörf á sniðmáti þegar samþættingarverk er búið til. Nánari upplýsingar um Data Integrator (DI), sniðmát og verk er að finna í [Samþætta gögn í Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+Sniðmát eru upphafspunktur. Hægt er að búa til sitt eigið sniðmát, en alltaf er þörf á sniðmáti þegar samþættingarverk er búið til. Nánari upplýsingar um Data Integrator (DI), sniðmát og verk er að finna í [Samþætta gögn í Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance-and-operations"></a>Er hægt að varpa fjárhagsvíddum í flutning milli Talent og Finance and Operations?
 
@@ -133,7 +133,7 @@ Samþættingin við Finance and Operations er ferli í tveimur skrefum. Fyrst sk
 
 Ef gögnin birtast ekki eins og búist er við í Common Data Service skaltu staðfesta að einingin sé studd í samþættingunni. Til að bæta við viðbótargögnum í Common Data Service verður breyting af hálfu Windows að gerast.
 
-Ef einingin er studd og gögnin eru tiltæk í Common Data Service skaltu staðfesta að vörpunin sé rétt í Data Integrator. Ef vörpun samþættingar lítur vel út skaltu staðfesta að keyrsla á vinnslum gagnastjórnunar hafi tekist. Villur geta komið fram meðan á framkvæmd runuvinnslunnar stendur. Nánari upplýsingar um stjórnun gagna er að finna í [Gagnastjórnun](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Ef einingin er studd og gögnin eru tiltæk í Common Data Service skaltu staðfesta að vörpunin sé rétt í Data Integrator. Ef vörpun samþættingar lítur vel út skaltu staðfesta að keyrsla á vinnslum gagnastjórnunar hafi tekist. Villur geta komið fram meðan á framkvæmd runuvinnslunnar stendur. Nánari upplýsingar um stjórnun gagna er að finna í [Gagnastjórnun](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-and-operations-what-should-i-do"></a>Heimilisföngin fyrir starfsmennina mína eru rangar eftir að ég flyt þær inn í Finance and Operations. Hvað ætti ég að gera?
 
@@ -145,7 +145,7 @@ Við innleiðingu á Talent skal staðfesta að númeraraðirnar séu ekki þær
 
 Gakktu úr skugga um að þegar þú býrð til tengingar velurðu Dynamics 365 for Finance and Operations (sem stendur í forskoðun) og Common Data Service.
 
-## <a name="when-syncing-employments-i-get-the-errors-companyinfofk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Við samstillingu starfsmanna fæ ég villurnar „CompanyInfo_FL er ekki til“ eða „Gildið '12/31/2154 11:59:59 pm‘ í reitnum „Lokadagur starfsmanns finnst ekki í tengdri töflu „Starfsmaður“.“ Hvað ætti ég að gera?
+## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Við samstillingu starfsmanna fæ ég villurnar „CompanyInfo_FL er ekki til“ eða „Gildið '12/31/2154 11:59:59 pm‘ í reitnum „Lokadagur starfsmanns finnst ekki í tengdri töflu „Starfsmaður“.“ Hvað ætti ég að gera?
 
 Gakktu úr skugga um að þú varpir í rétta lögaðila. Samstilling lögaðila er ekki hluti af sjálfgefna sniðmátinu, þannig að það er gert ráð fyrir að hver lögaðili sem er til staðar í Talent og Common Data Service sé einnig til staðar í Finance and Operations.
 Gakktu einnig úr skugga um að þú veljir rétta lögaðila fyrir tengda tengistillingu.
@@ -160,12 +160,12 @@ Uppfæra gagnaeiningarnar í Finance and Operations með því að fara í **Gag
 
 - Data Integrator (DI): 
 
-  - [Samþætta gögn í Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
+  - [Samþætta gögn í Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)
 
-  - [Villumeðhöndlun og úrræðaleit Data Integrator](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator-error-management)
+  - [Villumeðhöndlun og úrræðaleit Data Integrator](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [Viðbrögð við DSR-beiðnum fyrir kerfismyndaða kladda í PowerApps, Microsoft Flow, og Common Data Service](https://docs.microsoft.com/en-us/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Viðbrögð við DSR-beiðnum fyrir kerfismyndaða kladda í PowerApps, Microsoft Flow, og Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Stjórnun gagna:
 
-  - [Gagnastjórnun](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [Gagnastjórnun](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)

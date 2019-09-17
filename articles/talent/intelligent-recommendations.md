@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620621"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741753"
 ---
 # <a name="intelligent-recommendations"></a>Snjallmeðmæli
 
@@ -32,7 +32,7 @@ ms.locfileid: "1620621"
 Vélnám getur hjálpað ráðningaraðilum og mannauðsstjórum til að auðkenna skjótt bestu umsækjendurna fyrir starf. Það getur einnig hjálpað umsækjendum að finna starfið sem best hentar forstillingum þeirra og áhugamálum. Um leið og þessar aðgerðir eru notaðar og endurgjöf er veitt munu tillögur batna.
 
 > [!NOTE] 
-> - Eiginleikar snjallmeðmæla eru aðeins í boði með [Viðbót við alhliða ráðningar](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - Eiginleikar snjallmeðmæla eru aðeins í boði með [Viðbót við alhliða ráðningar](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
 > - Virkni sem getið er í þessu efnisatriði er í boði sem hluti af prufuútgáfu. Innihald og virkni geta tekið breytingum. Til að nota þennan eiginleika skal biðja stjórnanda að virkja hann með **Stjórnandamiðstöð** í Attract. Stilla skal **Umsækjandi sem mælt er með**, **Starf sem mælt er með** og **Viðfang sem mælt er með** á **Kveikt**. Frekari upplýsingar er að finna í [Fá aðgang að forskoðunareiginleikum í Talent](./access-preview-feature.md). 
 
 
