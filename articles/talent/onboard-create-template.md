@@ -1,0 +1,64 @@
+---
+title: Búðu til sniðmát um borð með því að nota Dynamics 365 for Talent - Onboard
+description: Þetta efni útskýrir hvernig á að nota Microsoft-forritið Dynamics 365 for Talent - Onboard til að stofna sniðmát fyrir þjálfunarleiðbeiningar fyrir nýliða. Þetta verkefni er nauðsynlegt fyrsta skrefið í stefnunni ráðning til starfsloka í mannauðsstjórnun (HCM).
+author: andreabichsel
+manager: ''
+ms.date: 05/02/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-talent
+ms.technology: ''
+ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable
+audience: Application User
+ms.reviewer: anbichse
+ms.search.scope: Core, Operations, Talent
+ms.search.region: Global
+ms.author: anbichse
+ms.search.validFrom: 2019-05-06
+ms.dyn365.ops.version: Talent
+ms.openlocfilehash: c53c24b2913e3ca30cfc6491556b49d5d9230128
+ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "1731515"
+---
+# <a name="create-an-onboarding-template-by-using-dynamics-365-for-talent-onboard"></a><span data-ttu-id="c0afc-104">Búðu til sniðmát um borð með því að nota Dynamics 365 for Talent: Onboard</span><span class="sxs-lookup"><span data-stu-id="c0afc-104">Create an onboarding template by using Dynamics 365 for Talent: Onboard</span></span>
+
+[!include [banner](includes/banner.md)]
+
+<span data-ttu-id="c0afc-105">Microsoft Dynamics 365 for Talent: Onboard veitir ýmis sniðmát sem geta hjálpað þér að stofna þjálfunarleiðbeiningar eins fljótt og auðið er.</span><span class="sxs-lookup"><span data-stu-id="c0afc-105">Microsoft Dynamics 365 for Talent: Onboard provides various templates that can help you create an onboarding guide as quickly as possible.</span></span> <span data-ttu-id="c0afc-106">Þú getur notað eitt eða fleiri af þessum sniðmátum eða búið til þitt eigið sniðmát.</span><span class="sxs-lookup"><span data-stu-id="c0afc-106">You can use one or more of these templates, or you can create your own templates.</span></span> <span data-ttu-id="c0afc-107">Onboard veitir sýnishornatexta sem þú getur notað þegar þú býrð til þín eigin sniðmát.</span><span class="sxs-lookup"><span data-stu-id="c0afc-107">Onboard provides sample text that you can use when you create your own templates.</span></span> <span data-ttu-id="c0afc-108">Þess vegna er ferlið auðvelt jafnvel þó þú byrjir frá grunni.</span><span class="sxs-lookup"><span data-stu-id="c0afc-108">Therefore, the process is easy even if you start from scratch.</span></span>
+
+## <a name="create-an-onboarding-template-from-an-existing-template"></a><span data-ttu-id="c0afc-109">Stofnaðu þjálfunarsniðmát úr núverandi sniðmáti</span><span class="sxs-lookup"><span data-stu-id="c0afc-109">Create an onboarding template from an existing template</span></span>
+
+1. <span data-ttu-id="c0afc-110">Á vinstri valmyndinni velurðu **Sniðmát**.</span><span class="sxs-lookup"><span data-stu-id="c0afc-110">On the left menu, select **Templates**.</span></span>
+2. <span data-ttu-id="c0afc-111">Undir **Vinsæl sniðmát úr safninu** eða **Sniðmátin mín** velurðu sniðmát.</span><span class="sxs-lookup"><span data-stu-id="c0afc-111">Under **Popular templates from the gallery** or **My templates**, select a template.</span></span> <span data-ttu-id="c0afc-112">Til að skoða fleiri sniðmát velurðu **Meira í sniðmátasafni**.</span><span class="sxs-lookup"><span data-stu-id="c0afc-112">To view more templates, select **More in template gallery**.</span></span>
+3. <span data-ttu-id="c0afc-113">Fylgið einu af eftirfarandi skrefum:</span><span class="sxs-lookup"><span data-stu-id="c0afc-113">Follow one of these steps:</span></span>
+
+    - <span data-ttu-id="c0afc-114">Ef sniðmátið er úr safninu skaltu velja **Vista sem sniðmátið mitt**, slá inn nýtt heiti fyrir sniðmátið og velja **Vista**.</span><span class="sxs-lookup"><span data-stu-id="c0afc-114">If the template is from the gallery, select **Save as my template**, enter a new name for the template, and select **Save**.</span></span>
+    - <span data-ttu-id="c0afc-115">Ef sniðmátið er úr **Sniðmátin mín** skaltu velja **Vista sem sniðmát**, slá inn nýtt heiti fyrir sniðmátið og velja **Vista**.</span><span class="sxs-lookup"><span data-stu-id="c0afc-115">If the template is from **My templates**, select **Save as template**, enter a new name for the template, and select **Save**.</span></span>
+
+    <span data-ttu-id="c0afc-116">[![Stofnun á þjálfunarsniðmáti úr núverandi sniðmáti](./media/onboard-save-template.png)](./media/onboard-save-template.png)</span><span class="sxs-lookup"><span data-stu-id="c0afc-116">[![Creating a template from an existing template](./media/onboard-save-template.png)](./media/onboard-save-template.png)</span></span>
+
+## <a name="create-a-new-onboarding-template"></a><span data-ttu-id="c0afc-117">Stofnaðu nýtt nýliðunarsniðmát</span><span class="sxs-lookup"><span data-stu-id="c0afc-117">Create a new onboarding template</span></span>
+
+1. <span data-ttu-id="c0afc-118">Á vinstri valmyndinni velurðu **Sniðmát**.</span><span class="sxs-lookup"><span data-stu-id="c0afc-118">On the left menu, select **Templates**.</span></span>
+2. <span data-ttu-id="c0afc-119">Undir **Mín sniðmát** velurðu reitinn **Bæta við** (plúsmerki \[**+**\]).</span><span class="sxs-lookup"><span data-stu-id="c0afc-119">Under **My templates**, select the **Add** (plus sign \[**+**\]) tile.</span></span>
+
+    <span data-ttu-id="c0afc-120">[![Stonun á nýju sniðmáti](./media/onboard-create-new-template.png)](./media/onboard-create-new-template.png)</span><span class="sxs-lookup"><span data-stu-id="c0afc-120">[![Creating a new template](./media/onboard-create-new-template.png)](./media/onboard-create-new-template.png)</span></span>
+
+3. <span data-ttu-id="c0afc-121">Í glugganum **Stofna kynningarsniðmát** slærðu inn inn heiti fyrir sniðmátið og velur síðan **Vista**.</span><span class="sxs-lookup"><span data-stu-id="c0afc-121">In the **Create a guide template** dialog box, enter a name for the template, and then select **Save**.</span></span>
+
+## <a name="next-steps"></a><span data-ttu-id="c0afc-122">Næstu skref</span><span class="sxs-lookup"><span data-stu-id="c0afc-122">Next steps</span></span>
+
+- [<span data-ttu-id="c0afc-123">Breyta nýliðakynnngu og -sniðmátum</span><span class="sxs-lookup"><span data-stu-id="c0afc-123">Edit onboarding guides and templates</span></span>](./onboard-edit-guides-templates.md)
+- [<span data-ttu-id="c0afc-124">Deildu efni með öðrum þátttakendum</span><span class="sxs-lookup"><span data-stu-id="c0afc-124">Share content with other contributors</span></span>](./onboard-share-template.md)
+- [<span data-ttu-id="c0afc-125">Skoða stöðu verkefna og nýja starfsmenn</span><span class="sxs-lookup"><span data-stu-id="c0afc-125">View the status of tasks and onboarding employees</span></span>](./onboard-view-status.md)
+- [<span data-ttu-id="c0afc-126">Stofna ráðningarteymi í Onboard</span><span class="sxs-lookup"><span data-stu-id="c0afc-126">Create hiring teams in Onboard</span></span>](./onboard-create-team.md)
+
+### <a name="see-also"></a><span data-ttu-id="c0afc-127">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="c0afc-127">See also</span></span>
+
+- [<span data-ttu-id="c0afc-128">Prófaðu eða keyptu Onboard-forritið</span><span class="sxs-lookup"><span data-stu-id="c0afc-128">Try or buy the Onboard app</span></span>](https://dynamics.microsoft.com/talent/onboard/)
+- [<span data-ttu-id="c0afc-129">Nýjungar</span><span class="sxs-lookup"><span data-stu-id="c0afc-129">What's new</span></span>](./whats-new.md)
+- [<span data-ttu-id="c0afc-130">Athugasemdir við útgáfu</span><span class="sxs-lookup"><span data-stu-id="c0afc-130">Release notes</span></span>](https://docs.microsoft.com/business-applications-release-notes/index)
+- [<span data-ttu-id="c0afc-131">Fá aðstoð</span><span class="sxs-lookup"><span data-stu-id="c0afc-131">Get support</span></span>](./talent-support.md)
