@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fe24846ab98a75d474df045a62a72bfc41c64866
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518311"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741891"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 for Talent (5. mars 2019)
 
@@ -43,10 +43,10 @@ ms.locfileid: "1518311"
 ## <a name="changes-in-onboarding"></a>Breytingar á nýliðun
 
 ### <a name="private-preview-for-onboard-teams"></a>Einkaforskoðun fyrir Onboard-hópa
-Þú getur nú auðveldlega deilt og verið í samstarfi með sniðmát þvert yfir allt fyrirtækið. Frekari upplýsingar eru í [Deila bestu starfsvenjum yfir allt fyrirtækið með Onboard Teams](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
+Þú getur nú auðveldlega deilt og verið í samstarfi með sniðmát þvert yfir allt fyrirtækið. Frekari upplýsingar eru í [Deila bestu starfsvenjum yfir allt fyrirtækið með Onboard Teams](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
 
 ### <a name="private-preview-for-assignee-placeholders"></a>Einkaforskoðun fyrir staðgengla viðtakanda
-Þú getur auðgað sniðmát þitt með því að úthluta aðgerðum á hlutverk í stað einstaklinga. Hlutverkum er síðan úthlutað á einstaklinga við stofnun á leiðbeiningum. Frekari upplýsingar er að finna í [Einfalda stýringu leiðbeininga með úthlutun aðgerða á hlutverk](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles).
+Þú getur auðgað sniðmát þitt með því að úthluta aðgerðum á hlutverk í stað einstaklinga. Hlutverkum er síðan úthlutað á einstaklinga við stofnun á leiðbeiningum. Frekari upplýsingar er að finna í [Einfalda stýringu leiðbeininga með úthlutun aðgerða á hlutverk](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles).
 
 ## <a name="changes-in-core-hr"></a>Breytingar í Core HR
 **Smíði 8.1.2178**
@@ -71,7 +71,7 @@ Með þessari breytingu, þegar beiðnir eru gerðar um breytingar á núverandi
 Aðrar minniháttar villuleiðréttingar eru með þessari útgáfu.
 
 ### <a name="upgrade-to-common-data-service"></a>Uppfæra í Common Data Service
-Frestur til að uppfæra í Common Data Service rennur brátt út. Skráðu þig inn á stjórnandamiðstöð PowerApps til að ákvarða hvort þurfi að uppfæra gagnagrunninn þinn. Frekari upplýsingar um fresti og nauðsynlegar ráðstafanir til að uppfæra er að finna í [Uppfæra í Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Frestur til að uppfæra í Common Data Service rennur brátt út. Skráðu þig inn á stjórnandamiðstöð PowerApps til að ákvarða hvort þurfi að uppfæra gagnagrunninn þinn. Frekari upplýsingar um fresti og nauðsynlegar ráðstafanir til að uppfæra er að finna í [Uppfæra í Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Væntanlegt
 
@@ -79,4 +79,4 @@ Frestur til að uppfæra í Common Data Service rennur brátt út. Skráðu þig
 Í mörgum fyrirtækjum geta margir umsjónaraðilar launa og fríðinda eingöngu fengið aðgang að ákveðnum launafærslum, t.d. færslur fyrir yfirmenn eða svæðisbundna starfsmenn. Með þessari breytingu geturðu haft umsjón með launafyrirkomulaginu fyrir mismunandi starfsmannahópa í fyrirtækinu. Hægt er að úthluta föstum og breytilegum áætlunum öryggishlutverkum, sem ákvarðar aðgang að áætlunum og starfsmannaupplýsingum sem tengjast áætlunum, t.d. launa- eða bónusfærslur. Aðeins hlutverk með veittan aðgang geta unnið úr launum fyrir þessa starfsmenn.
 
 ###  <a name="platform-update-24"></a>Update 24 fyrir verkvang
-Frekari upplýsingar um verkvangsuppfærslu 24 er að finna í [Hvað er nýtt og hvað hefur breyst í Finance and Operations verkvangsuppfærsla 24 (mars 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Frekari upplýsingar um verkvangsuppfærslu 24 er að finna í [Hvað er nýtt og hvað hefur breyst í Finance and Operations verkvangsuppfærsla 24 (mars 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

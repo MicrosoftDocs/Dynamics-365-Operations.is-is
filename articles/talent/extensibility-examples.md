@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a9ebfd1f2621b8ad65d7623c37b6851cc0b5cb54
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
+ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577796"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1781443"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Auka virkni Talent með því að nota PowerApps og Microsoft Flow – dæmi um atburðarásir
 
@@ -101,24 +101,15 @@ Hægt er að stækka þetta sniðmát svo nota megi það fyrir atburðarás sem
 
 Til að hlaða niður sniðmátinu **Flæði - SharePoint samþætting** skal fara í [Flæði - SharePoint samþætting](https://go.microsoft.com/fwlink/?linkid=2082109) í Microsoft Download Center.
 
-## <a name="admin-console-to-manage-talent-pools"></a>Stjórnborð stjórnanda til að hafa umsjón með hæfileikasöfnum
+## <a name="referral-app"></a>Tilvísunforrit
+Hægt er að nota tilvísunarforritið til að bæta við umbjóðendum í sameiginlegt hæfileikasafn. Tilvísandi getur fært inn **Fornafn**, **Eftirnafn**, **Netfang** og **Slóð í LinkedIn** við framlagningu umsækjanda. Lýsigögn umsækjandans eru síðan fyllt út með upplýsingum tilvísunaraðila.
 
-Þegar kveikt er á samþættingu við LinkedIn, stofnar Attract sjálfkrafa LinkedIn-hæfileikasafn. Þegar ráðningaraðili skiptir á InMail við nýjan starfsmann í gegnum LinkedIn býr Attract til notandasíðu fyrir starfsmanninn og hann verður að meðlimi í hæfileikasafni LinkedIn. Þetta PowerApps-forrit er gagnlegt til að endurskipuleggja umsækjendur í hæfileikasöfnum á grunni hæfni.
+Hægt er að fella þetta forrit inn í starfsmannaþjónustuna (ESS) til að senda tilvísanir, eða nota það sem tengil á fyrirtækjagáttina og keyrt sem sjálfstætt forrit.
 
-Keyra þetta PowerApps-forrit á stjórnborði stjórnanda til að framkvæma eftirfarandi verk:
-
-- Birta umsækjendur í hæfileikasafni
-- Bæta við og fjarlægja umsækjendur úr hæfileikasafni
-- Færa umsækjendur úr einu hæfileikasafni í annað
-- Ákveða hvort umsækjendur séu þegar hluti af hæfileikasafni áður en þeir eru færðir
-- Athuga hæfni umsækjenda áður en þeir eru færðir í önnur hæfileikasöfn
-
-Þetta PowerApps-forrit notar margþætt samskipti svo hægt sé að nota það sem sniðmát fyrir aðrar atburðarásir þar sem er nauðsynlegt að draga út færslur sem eru með margþætt samskipti.
-
-Til að sækja sniðmátið **Stjórnborð stjórnanda til að hafa umsjón með hæfileikasöfnum** skal opna [Stjórnborð stjórnanda til að hafa umsjón með hæfileikasöfnum](https://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) í Microsoft Download Center.
+Til að sækja **forritið Referral** ferðu í [Dynamics 365 for Talent viðbótarlausnina: Referral App](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) í Microsoft Download Center. Þú getur flutt þetta forrit inn og sérsniðið það til að bæta við viðbótarvirkni.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[ Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)
+[Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)
 
-[Flytja forrit á milli leigjenda og umhverfa](https://docs.microsoft.com/en-us/power-platform/admin/environment-and-tenant-migration)
+[Flytja forrit á milli leigjenda og umhverfa](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)

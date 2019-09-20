@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 25ef0d49c2600833aefa84d404e00c0c57cfbf52
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4959f28e0768d43f90a664022c714a126c88e38d
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518249"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856425"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-9-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 for Talent (9. apríl 2019)
 
@@ -37,10 +37,10 @@ ms.locfileid: "1518249"
 Í Attract og Onboard munu vandamál sem notandi notar í gegnum eiginleika vandamálatilkynningar nú sjálfkrafa stofna þjónustuvandamál í LCS-verki viðskiptavinar. Stjórnendur geta þá flokkað vandamálin og sent þau inn til Microsoft þegar þörf krefur. Þetta er í samræmi við hvernig Core HR annast stuðning á vandamálum notanda.
 
 ### <a name="relevance-search"></a>Samsvörun í leit
-Í hæfileikasöfnum er nú hægt að leita í öllum gagnagrunninum yfir umsækjendur að ákveðinni hæfni, nafni eða menntun. Ekki þarf lengur að tilgreina hvaða hluta af notandaupplýsingum umsækjanda á að leita í gegnum. Attract leitar í öllum notandaupplýsingunum og undirstrikar allar samsvaranir sem finnast. Attract leitar einnig í öllum skjölum sem til eru um umsækjanda og raðar leitarniðurstöðunum á snjallan hátt. Að auki er hægt að sía niðurstöðurnar eftir uppruna eða hvort þau eru annars flokks. Frekari upplýsingar er að finna í [Leita og skoða forstillingar umsækjenda](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles).
+Í hæfileikasöfnum er nú hægt að leita í öllum gagnagrunninum yfir umsækjendur að ákveðinni hæfni, nafni eða menntun. Ekki þarf lengur að tilgreina hvaða hluta af notandaupplýsingum umsækjanda á að leita í gegnum. Attract leitar í öllum notandaupplýsingunum og undirstrikar allar samsvaranir sem finnast. Attract leitar einnig í öllum skjölum sem til eru um umsækjanda og raðar leitarniðurstöðunum á snjallan hátt. Að auki er hægt að sía niðurstöðurnar eftir uppruna eða hvort þau eru annars flokks. Frekari upplýsingar er að finna í [Leita og skoða forstillingar umsækjenda](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles).
 
 ### <a name="prospect-recommendations"></a>Tillögur viðfangs
-Attract getur hjálpað til við að koma leitinni að starfi af stað um leið og þú virkjar það í að koma með snjallar tillögur að umsækjendum úr gagnagrunni umsækjenda í fyrirtækinu þínu. Tillögurnar innihalda upplýsingar um hæfni og menntun sem borið er kennsl á við leit á viðeigandi viðföngum. Þessar tillögur birtast í flipanum **Viðföng** undir starfi ef þú virkjar það á meðan ráðningarferli starfs er í gangi. Frekari upplýsingar er að finna í [Tillögur viðfangs](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations).
+Attract getur hjálpað til við að koma leitinni að starfi af stað um leið og þú virkjar það í að koma með snjallar tillögur að umsækjendum úr gagnagrunni umsækjenda í fyrirtækinu þínu. Tillögurnar innihalda upplýsingar um hæfni og menntun sem borið er kennsl á við leit á viðeigandi viðföngum. Þessar tillögur birtast í flipanum **Viðföng** undir starfi ef þú virkjar það á meðan ráðningarferli starfs er í gangi. Frekari upplýsingar er að finna í [Tillögur viðfangs](https://docs.microsoft.com/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations).
 
 ### <a name="interviewer-availability-statuses"></a>Hvenær spyrill er laus
 Þeir sem sjá um áætlanagerð spyrils geta brátt séð stöðurnar **Ekki á skrifstofu, er að vinna annars staðar** fyrir spyrla, til að auðvelda að finna tíma sem getur hentað betur fyrir spyrlana.

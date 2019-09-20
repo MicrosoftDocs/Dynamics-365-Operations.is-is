@@ -1,6 +1,6 @@
 ---
-title: Stjórnandastillingar í Attract
-description: Þetta efnisatriði útskýrir hvernig hægt er að virkja virkni fyrir fyrirtæki og notendur í Attract.
+title: Skilgreina fyrirtækisupplýsingar í Microsoft Dynamics 365 for Talent - Attract
+description: Þetta efni útskýrir hvernig á að stilla upplýsingar og vörumerki fyrirtækisins fyrir Microsoft Dynamics 365 for Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0de215103306ef7115ba390b1b4855179979c77b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c5b051497777a01ab304736f1d454391b5d98e63
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518313"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739565"
 ---
-# <a name="admin-settings-in-attract"></a>Stjórnandastillingar í Attract
+# <a name="configure-company-information"></a>Skilgreina fyrirtækisupplýsingar
 [!include[banner](../includes/banner.md)]
 
 Stjórnandamiðstöðin í Microsoft Dynamics 365 for Talent: Attract inniheldur grunnstillingar, samþættingarvalkosti og uppsetningarvalkosti fyrir Attract-forritið.

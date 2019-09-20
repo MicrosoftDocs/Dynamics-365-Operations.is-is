@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: dac453ee83492655b6681b9784af4712bf39fc2a
-ms.sourcegitcommit: 2bbc0eeca6826c529fb729b82d16f287c1ce05bb
+ms.openlocfilehash: ffeeb3e2f5279a84c4c060b04fe46836b778f6c5
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1591503"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856449"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-13-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 for Talent (13. maí 2019)
 
@@ -47,7 +47,7 @@ Breytingum sem lýst er í þessum kafla gilda um byggingarnúmer 8.1.2297. Töl
 
 ### <a name="indicate-instance-type-when-provisioning-talent"></a>Tilgreina gerð tilviks við úthlutun Talent
 
-Við úthlutun á nýju tilviki af Talent er hægt að gefa upp hvort gerð tilviks er **Framleiðsla** eða **Sandkassi**, sem opnar fyrir snemmbærar prófanir á nýjum eiginleikum. Öll núverandi tilvik Talent verða uppfærð í tilviksgerðina **Framleiðsla**. Ef uppfæra á eitt af núverandi tilvikum í tilviksgerðina **Sandkassi** skal hafa samband við [notendaþjónustu](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/talent-support) til að koma breytingarbeiðninni áfram.
+Við úthlutun á nýju tilviki af Talent er hægt að gefa upp hvort gerð tilviks er **Framleiðsla** eða **Sandkassi**, sem opnar fyrir snemmbærar prófanir á nýjum eiginleikum. Öll núverandi tilvik Talent verða uppfærð í tilviksgerðina **Framleiðsla**. Ef uppfæra á eitt af núverandi tilvikum í tilviksgerðina **Sandkassi** skal hafa samband við [notendaþjónustu](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support) til að koma breytingarbeiðninni áfram.
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Stuðningur Common Data Service-einingar fyrir sérstillt svæði
 

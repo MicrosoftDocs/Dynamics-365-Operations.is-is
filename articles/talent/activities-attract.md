@@ -1,9 +1,9 @@
 ---
-title: Aðgerðir í ferlunum
-description: Þetta efnisatriði gefur upplýsingar um ýmis konar aðgerðir sem hægt er að nota í ráðningarferlinu.
+title: Verkþættir í ferlum í Microsoft Dynamics 365 for Talent - Attract
+description: Þetta efnisatriði gefur upplýsingar um ýmis konar aðgerðir sem hægt er að nota í ráðningarferlinu í Microsoft Dynamics 365 for Talent - Attract.
 author: hasrivas
 manager: AnnBe
-ms.date: 04/10/2019
+ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c975b95e4195c795ec4c816b1f3a50461715feea
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518310"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739717"
 ---
-# <a name="activities-in-the-hiring-processes"></a>Aðgerðir í ráðningarferlunum
+# <a name="activities-in-hiring-processes"></a>Verkþættir í ráðningarferli
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,6 +37,9 @@ Aðgerðum má bæta við sem hluti af ráðningarferlinu í Microsoft Dynamics 
 ## <a name="prospect-activity"></a>Aðgerð fyrir viðfang
 
 Aðgerð fyrir viðfang stýrir hvort viðföngum getur verið bætt við starf. Sjálfgefið er að hægt sé að bæta viðföngum við starf. Til að slökkva á aðgerð fyrir viðföng skaltu stilla **Virkja viðföng** valkostinn á **Slökkt**. Þegar kveikt er á aðgerð fyrir viðföng, geta mannauðsstjórar bætt við og skoðað viðföng og **Viðföng** flipinn er sýndur í starfinu.
+
+> [!NOTE]
+> Til að leyfa frambjóðendum að bæta við starf frá LinkedIn verður þú að stilla valkostinn **Virkja viðföng** á **Á**.
 
 ## <a name="application-activity"></a>Umsóknaraðgerð
 

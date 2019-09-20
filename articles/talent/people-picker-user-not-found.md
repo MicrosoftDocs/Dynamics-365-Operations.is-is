@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d5a2c61fc21578d1db4c1bf0c3dfaf0c7a93298c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: a9c2324321baf0a313b8b7aa9701909336b5c34b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518266"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742750"
 ---
 # <a name="azure-active-directory-users-not-found-in-people-picker"></a>Azure Active Directory-notendur fundust ekki í tengiliðavali
 
@@ -36,9 +36,9 @@ Vissir gildir notendur í Microsoft Azure Active Directory (Azure AD) fyrir leig
 
 Ákveðnar gerðir notenda eru ekki studdar sem stendur í forritum Attract og Onboard. Staðfestu að notandinn sé ekki Azure AD Business to Business (B2B) gestanotandi. Upplýsingar um „gerð notanda“ er hægt að finna í Azure Active Directory blaðinu í Azure-gáttinni.
 
-Nánari upplýsingar um Azure B2B er að finna í [Hvað er gestaaðgangur notanda í Azure Active Directory B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b).
+Nánari upplýsingar um Azure B2B er að finna í [Hvað er gestaaðgangur notanda í Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b).
 
-Hugsanlegt er að sumir notendur, sem ekki eru B2B-notendur, séu með ófullkominn eiginleika af „gerð notanda“ í hlutnum **Notandi**. Þetta er hægt að staðfesta og laga með Azure AD PowerShell-einingunni. Frekari upplýsingar er að finna í [Azure AD](https://docs.microsoft.com/en-us/powershell/module/azuread/?view=azureadps-2.0).
+Hugsanlegt er að sumir notendur, sem ekki eru B2B-notendur, séu með ófullkominn eiginleika af „gerð notanda“ í hlutnum **Notandi**. Þetta er hægt að staðfesta og laga með Azure AD PowerShell-einingunni. Frekari upplýsingar er að finna í [Azure AD](https://docs.microsoft.com/powershell/module/azuread/?view=azureadps-2.0).
 
 ## <a name="resolution"></a>Upplausn
 

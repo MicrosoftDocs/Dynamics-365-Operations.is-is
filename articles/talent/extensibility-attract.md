@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichsew
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 52790fbe500d9f55bc9cc86fba5d54f30b11e559
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9360ac52bd53dc473ca61a424f3be933bcf357d1
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505865"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795221"
 ---
 # <a name="extensibility-in-attract"></a>Stækkunarhæfni í Attract
 
@@ -33,7 +33,7 @@ Microsoft Dynamics 365 for Talent er byggt ofan á Common Data Service verkvangi
 
 ## <a name="extending-option-sets-in-attract"></a>Safn valkosta fyrir stækkunarhæfni í Attract
 
-**Safn valkosta** (tínslulisti) er gerð svæðis sem hægt er að hafa með í einingu. Það skilgreinir safn valkosta. Þegar safn valkosta birtist í skjámynd notar það stýringu fellilista.  Í Attract eru mörg svæði sem eru söfn valkosta.  Við erum farin að kynna möguleikann á því að stækka söfn valkosta, fyrst reitinn fyrir ástæðu höfnunar, reitinn fyrir starfsgerð og reitinn fyrir gerð starfsaldurs.   Einnig er hægt að bæta við staðfærðum birtingarmerkjum fyrir þá valkosti sem þú bætir við. Nánari upplýsingar eru í [Sérstilla merki fyrir söfn valkosta](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/customize-labels-support-multiple-languages).
+**Safn valkosta** (tínslulisti) er gerð svæðis sem hægt er að hafa með í einingu. Það skilgreinir safn valkosta. Þegar safn valkosta birtist í skjámynd notar það stýringu fellilista.  Í Attract eru mörg svæði sem eru söfn valkosta.  Við erum farin að kynna möguleikann á því að stækka söfn valkosta, fyrst reitinn fyrir ástæðu höfnunar, reitinn fyrir starfsgerð og reitinn fyrir gerð starfsaldurs.   Einnig er hægt að bæta við staðfærðum birtingarmerkjum fyrir þá valkosti sem þú bætir við. Nánari upplýsingar eru í [Sérstilla merki fyrir söfn valkosta](https://docs.microsoft.com/powerapps/developer/common-data-service/customize-labels-support-multiple-languages).
 
 > [!NOTE]
 > Virknin fyrir auglýsingu starfs á LinkedIn krefst notkunar á reitunum **Starfsgerð** og **Starfsaldursgerð** á síðunni **Upplýsingar um starf**. Sjálfgefin gildi í þessum reitum eru studd af LinkedIn og birtast þegar starfið er auglýst. Ef þú ert þar af leiðandi að auglýsa störf á LinkedIn og þú breytir núverandi gildum á safni valkosta fyrir þessi svæði, mun starfið samt birtast en LinkedIn mun ekki sýna sérstilltu gildin **Starfsgerð** og **Starfsaldursgerð**.  
@@ -62,15 +62,15 @@ Vegna þess að öll gögnin frá Attract eru geymd í Common Data Service getur
 
 Þú getur notað PowerApps til að byggja upp forrit á auðveldan hátt sem tengjast Attract-gögnum þínum og nota tjáningu eins og tjáningarnar í Microsoft Excel til að bæta við rökum. Forrit sem þú byggir með því að nota PowerApps geta keyrt á vefnum og á Apple iOS og Google Android tækjum.
 
-Til dæmis er hægt að gera kynningarfundi háskóla auðveldara fyrir ráðningaraðila með því að byggja upp lítið forrit sem gerir þeim kleift að skanna ferilskrár og mata umsækjendur á störfum í Attract. Einnig er hægt að byggja upp forrit sem hjálpar til við að uppfylla nauðsynlega reglufylgni fyrirtækisins þíns. Nánari upplýsingar um PowerApps og hvernig á að nota það til að byggja upp forrit er að finna í [Sameina gögn í Common Data Service](https://docs.microsoft.com/en-us/powerapps).
+Til dæmis er hægt að gera kynningarfundi háskóla auðveldara fyrir ráðningaraðila með því að byggja upp lítið forrit sem gerir þeim kleift að skanna ferilskrár og mata umsækjendur á störfum í Attract. Einnig er hægt að byggja upp forrit sem hjálpar til við að uppfylla nauðsynlega reglufylgni fyrirtækisins þíns. Nánari upplýsingar um PowerApps og hvernig á að nota það til að byggja upp forrit er að finna í [Sameina gögn í Common Data Service](https://docs.microsoft.com/powerapps).
 
 ### <a name="microsoft-flow"></a>Microsoft Flow 
 
-Þú getur notað Microsoft Flow til að búa til sjálfvirkan vinnuflæði sem keyrir ofan á Attract-gögnum. Þú getur auðveldlega tengst hundruðum vinsælra forrita og þjónustu án þess að þurfa að skrifa kóða. Með því að byggja upp flæði sem hafa samskipti við Attract Job, umsækjendur og umsóknareiningar í Common Data Service, geturðu gert ýmsar aðgerðir sjálfvirkar. Til dæmis, þegar frambjóðandi samþykkir tilboð, getur tilkynning verið sendur til þjálfunarteymisins eða fréttirnar geta verið tilkynntar á Twitter. Nánari upplýsingar um flæði er að finna í [Microsoft Flow fylgiskjölunum](https://docs.microsoft.com/en-us/flow/).
+Þú getur notað Microsoft Flow til að búa til sjálfvirkan vinnuflæði sem keyrir ofan á Attract-gögnum. Þú getur auðveldlega tengst hundruðum vinsælra forrita og þjónustu án þess að þurfa að skrifa kóða. Með því að byggja upp flæði sem hafa samskipti við Attract Job, umsækjendur og umsóknareiningar í Common Data Service, geturðu gert ýmsar aðgerðir sjálfvirkar. Til dæmis, þegar frambjóðandi samþykkir tilboð, getur tilkynning verið sendur til þjálfunarteymisins eða fréttirnar geta verið tilkynntar á Twitter. Nánari upplýsingar um flæði er að finna í [Microsoft Flow fylgiskjölunum](https://docs.microsoft.com/flow/).
 
 ### <a name="power-bi"></a>Power BI
 
-Power BI gerir þér kleift að byggja upp og skoða sérsniðnar skýrslur og yfirlit sem gefa þér dýpri innsýn í Attract-gögnin þín. Nánari upplýsingar um Power BI og hvernig á að búa til gagnvirkar skýrslur og yfirlit að finna í [Power BI-fylgigögnunum](https://docs.microsoft.com/en-us/power-bi/).
+Power BI gerir þér kleift að byggja upp og skoða sérsniðnar skýrslur og yfirlit sem gefa þér dýpri innsýn í Attract-gögnin þín. Nánari upplýsingar um Power BI og hvernig á að búa til gagnvirkar skýrslur og yfirlit að finna í [Power BI-fylgigögnunum](https://docs.microsoft.com/power-bi/).
 
 ### <a name="custom-activities"></a>Sérsniðnir verkþættir 
 

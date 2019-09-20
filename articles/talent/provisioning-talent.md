@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: c249df697553cd42eccd59d3f2c3f5f083ead1cb
-ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
+ms.openlocfilehash: 781487997ceb95f4e3f528f47e8ed2aa5b25fd0e
+ms.sourcegitcommit: eb501d8712212a6ed33bec1e3e2c02f994e0a724
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624608"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "1869937"
 ---
 # <a name="provision-talent"></a>Úthluta Talent
 
@@ -51,10 +51,10 @@ Eftir að þú hefur búið til LCS verk, getur þú úthlutað Talent inn í um
     > [!NOTE]
     > Gerð Talent-tilviks er aðskilin frá tilviksgerð í PowerApps-umhverfi, sem þú stillir í PowerApps Admin Center.
 3. Veldu valkostinn **Hafa sýnigögn með** ef þú vilt að umhverfið þitt innihaldi sama sýnigagnasafnið sem notað er í prufukeyrsluupplifun Talent. Þetta er gagnlegt fyrir langvarandi prufuútgáfu eða þjálfunarumhverfi og ætti aldrei að nota í vinnsluumhverfi.  Athugaðu að þú verður að velja þennan möguleika við upphaflega uppsetningu. Þú getur ekki uppfært fyrirliggjandi uppsetningu seinna.
-4. Talent er alltaf úthlutað inn í Microsoft PowerApps umhverfi, til að virkja PowerApps samþættingu og stækkunarhæfni. Lestu kaflann „Val á PowerApps umhverfi“ í þessu efnisatriði áður en þú heldur áfram. Ef þú ert ekki með PowerApps umhverfi skaltu velja Stjórna umhverfum í LCS eða fara í Stjórnandamiðstöð PowerApps. Fylgdu síðan skrefunum til að [Búa til PowerApps umhverfi](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
+4. Talent er alltaf úthlutað inn í Microsoft PowerApps umhverfi, til að virkja PowerApps samþættingu og stækkunarhæfni. Lestu kaflann „Val á PowerApps umhverfi“ í þessu efnisatriði áður en þú heldur áfram. Ef þú ert ekki með PowerApps umhverfi skaltu velja Stjórna umhverfum í LCS eða fara í Stjórnandamiðstöð PowerApps. Fylgdu síðan skrefunum til að [Búa til PowerApps umhverfi](https://docs.microsoft.com/powerapps/administrator/create-environment).
 
     > [!NOTE]
-    > Til að skoða núverandi umhverfi eða búa til ný umhverfi, verður leigjanda sem stjórnar, sem úthlutar Talent, að vera úthlutað á PowerApps P2 leyfið. Ef fyrirtækið þitt hefur ekki PowerApps P2 leyfi geturðu fengið slíkt frá þínu CSP eða [PowerApps verðlagsíðunni](https://powerapps.microsoft.com/en-us/pricing/).
+    > Til að skoða núverandi umhverfi eða búa til ný umhverfi, verður leigjanda sem stjórnar, sem úthlutar Talent, að vera úthlutað á PowerApps P2 leyfið. Ef fyrirtækið þitt hefur ekki PowerApps P2 leyfi geturðu fengið slíkt frá þínu CSP eða [PowerApps verðlagsíðunni](https://powerapps.microsoft.com/pricing/).
 
 5. Veljið umhverfið til að úthluta Talent í.
 6. Velja **Já** til að samþykkja skilmálana og hefja virkjun.
@@ -66,11 +66,11 @@ Eftir að þú hefur búið til LCS verk, getur þú úthlutað Talent inn í um
     > [!NOTE]
     > Ef þú hefur ekki ennþá skráð þig út á síðustu skilyrðin getur þú virkjað prufutilvik af Talent í verkinu. Þú getur síðan notað þetta tilvik til að prófa lausnina þína þar til þú skráir þig út. Ef þú notar nýtt umhverfi þitt til að prófa þarftu að endurtaka þetta ferli til að búa til framleiðsluumhverfi.
 
-    > Vegna þess að aðeins tvö LCS-umhverfi eru leyfð sem hluti af Talent-áskriftinni getur þú einnig íhugað að nota ókeypis 60 daga [Talent prófunarumhverfi](https://dynamics.microsoft.com/en-us/talent/overview/). Þótt prófunarumhverfið sé í eigu notandans sem óskaði eftir því er samt hægt að bjóða öðrum notendum aðgang í gegnum upplifun kerfisstjóra fyrir mannauðskjarna. Prófunarumhverfi innihalda uppskálduð gögn sem hægt er að nota til að skoða forritið á öruggan hátt. Þau eru ætluð til þess að nota sem framleiðsluumhverfi. Athugaðu að þegar prófunarumhverfið rennur út að 60 dögum liðnum verður öllum gögnum í því eytt og ekki verður hægt að endurheimta þau. Þú getur skráð þig fyrir nýju prófunarumhverfi eftir að núverandi umhverfi rennur út.
+    > Vegna þess að aðeins tvö LCS-umhverfi eru leyfð sem hluti af Talent-áskriftinni getur þú einnig íhugað að nota ókeypis 60 daga [Talent prófunarumhverfi](https://dynamics.microsoft.com/talent/overview/). Þótt prófunarumhverfið sé í eigu notandans sem óskaði eftir því er samt hægt að bjóða öðrum notendum aðgang í gegnum upplifun kerfisstjóra fyrir mannauðskjarna. Prófunarumhverfi innihalda uppskálduð gögn sem hægt er að nota til að skoða forritið á öruggan hátt. Þau eru ætluð til þess að nota sem framleiðsluumhverfi. Athugaðu að þegar prófunarumhverfið rennur út að 60 dögum liðnum verður öllum gögnum í því eytt og ekki verður hægt að endurheimta þau. Þú getur skráð þig fyrir nýju prófunarumhverfi eftir að núverandi umhverfi rennur út.
 
 ## <a name="select-a-powerapps-environment"></a>Velja PowerApps umhverfi
 
-Samþætting milli Talent og PowerApps umhverfa leyfir þér að samþætta og útvíkka notkun á Talent gögnum með PowerApps verkfærum. Skilningur á tilgangi PowerApps umhverfi hjálpar ekki aðeins við að búa til forrit til að stækka Talent, heldur hjálpar þér einnig að velja rétta umhverfið þegar þú úthlutar Talent. Frekari upplýsingar um PowerApps umhverfin, þ.á.m. umfang umhverfis, aðgangur að umhverfi og stofnun og val á umhverfi eru í [PowerApps umhverfi kynnt til sögunnar](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/). 
+Samþætting milli Talent og PowerApps umhverfa leyfir þér að samþætta og útvíkka notkun á Talent gögnum með PowerApps verkfærum. Skilningur á tilgangi PowerApps umhverfi hjálpar ekki aðeins við að búa til forrit til að stækka Talent, heldur hjálpar þér einnig að velja rétta umhverfið þegar þú úthlutar Talent. Frekari upplýsingar um PowerApps umhverfin, þ.á.m. umfang umhverfis, aðgangur að umhverfi og stofnun og val á umhverfi eru í [PowerApps umhverfi kynnt til sögunnar](https://powerapps.microsoft.com/blog/powerapps-environments/). 
 
 Notaðu eftirfarandi leiðbeiningar þegar þú ákveður hvaða PowerApps umhverfi til að virkja Talent inn í: 
 
@@ -84,9 +84,9 @@ Notaðu eftirfarandi leiðbeiningar þegar þú ákveður hvaða PowerApps umhve
    
     - **Prófunarumhverfi** - Þessi umhverfi eru stofnuð með lokadegi og renna út eftir þann tíma, sem veldur því að umhverfið þitt og öll Talent-tilvik innan þess verða sjálfkrafa fjarlægð.
    
-    - **Óstudd svæði** Að svo stöddu er Talent aðeins stutt á eftirfarandi svæðum: Bandaríkjunum, Evrópu, Bretlandi eða Ástralíu.
+    - **Óstudd svæði** Að svo stöddu er Talent aðeins stutt á eftirfarandi svæðum: Bandaríkjunum, Evrópu, Bretlandi, Ástralíu, Kanada eða Ástralíu.
   
 6. Eftir að þú hefur ákveðið rétt umhverfi sem til að nota, getur þú haldið áfram með úthlutunarferlið. 
  
 ## <a name="grant-access-to-the-environment"></a>Veita aðgang að umhverfinu
-Að sjálfgefnu hefur altæki stjórnandinn sem bjó til umhverfið aðgang að því. Hins vegar þarf sérstaklega að veita öðrum notendum forritsins aðgang. Til að veita aðgang er nauðsynlegt að bæta við notendum og úthluta þeim viðeigandi hlutverkum í Core HR-umhverfinu. Altæki stjórnandinn, sem virkjaði Talent, verður einnig að ræsa bæði forritin Attract og Onboard til að ljúka frumstillingunni og virkja aðgang fyrir aðra leigunotendur.  Þar til þetta gerist munu aðrir notendur ekki geta opnað forritin Attract og Onboard og fá upp villur vegna brots á aðgangi. Frekari upplýsingar má finna í [Stofna nýja notendur](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) og [Úthluta notendum á öryggishlutverk](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Að sjálfgefnu hefur altæki stjórnandinn sem bjó til umhverfið aðgang að því. Hins vegar þarf sérstaklega að veita öðrum notendum forritsins aðgang. Til að veita aðgang er nauðsynlegt að bæta við notendum og úthluta þeim viðeigandi hlutverkum í Core HR-umhverfinu. Altæki stjórnandinn, sem virkjaði Talent, verður einnig að ræsa bæði forritin Attract og Onboard til að ljúka frumstillingunni og virkja aðgang fyrir aðra leigunotendur.  Þar til þetta gerist munu aðrir notendur ekki geta opnað forritin Attract og Onboard og fá upp villur vegna brots á aðgangi. Frekari upplýsingar má finna í [Stofna nýja notendur](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) og [Úthluta notendum á öryggishlutverk](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 

@@ -17,42 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 9c27d1810a89ed7d7a7745e41c5f118dbdfe5dda
-ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
+ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1590483"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739818"
 ---
-# <a name="post-jobs-to-external-career-sites-from-attract"></a>Auglýsa störf á utanaðkomandi ráðningarsíðum úr Attract
+# <a name="post-jobs-to-broadbean"></a>Birta störf á Broadbean
 
 [!include [banner](../includes/banner.md)]
 
-Þú vilt að sem flestir hæfir umsækjendur sjái lausu stöðurnar þínar. Ráðningarsíður á borð við Broadbean auðvelda þér að ná þessu markmiði. Microsoft Dynamics 365 Talent: Attract gerir þér nú kleift að auglýsa störf á Broadbean og Microsoft er stöðugt að bjóða upp á nýjar leiðir í þessum efnum.
+Microsoft Dynamics 365 for Talent: Attract hjálpar þér að ná því hæfileikafólki sem þú þarft með því að gera þér kleift að birta störf þín beint úr Attract á Broadbean. Eftir að þú [stofnar starf](./creating-jobs-attract.md) er það eina sem þú þarft að gera að smella á hnapp til að setja starfið fyrir framan alla mögulega umsækjendur á Broadbean.
 
-## <a name="post-jobs-to-broadbean"></a>Auglýsa störf á Broadbean
+Til að senda störf til Broadbean þarf viðeigandi Broadbean leyfi. Broadbean býður upp á ýmsar vörur og áætlanir. Fyrir frekari upplýsingar um leyfi og verðlagningu Broadbean skal [hafa samband við Broadbean](https://www.broadbean.com/contact-us/).
 
-Áður en þú getur auglýst störf á Broadbean þarf fyrst að stilla Broadbean-samþættinguna.
+Ef þú ert stjórnandi sem þarfnast frekari upplýsinga um hvernig stilla skuli Broadbean samþættingu við Attract skaltu sjá [Slá inn stillingar fyrir utanaðkomandi atvinnutorg](./attract-admin-job-board-settings.md).
 
-> [!NOTE]
-> - Til að auglýsa störf á utanaðkomandi síðum verður þú að hafa [Viðbót við alhliða ráðningar](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - Til að birta störf í Broadbean í gegnum Attract er nauðsynlegt að vera með Broadbean-áskrift.
-> - Þessi eiginleiki er í forútgáfu sem stendur. Ef þú vilt prófa hann verður þú að [kveikja á honum í stjórnandastillingum Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
-
-### <a name="configure-broadbean-integration"></a>Skilgreina Broadbean-samþættingu
-
-1. Skráðu þig inn í Attract sem stjórnandi.
-2. Veldu hnappinn **Stillingar** (gírtáknið) efst í hægra horni síðunnar og veldu síðan **Stjórnandamiðstöð**.
-3. Í flipanum **Stillingar atvinnutorgs**, í hlutanum **Virkja Broadbean-samþættingu** skal kveikja á samþættingunni.
-4. Hafðu samband við Broadbean og færðu inn upplýsingarnar í **Notandanafn, auðkenni notanda, dulritunarlykill**.
-
-> [!WARNING]
-> Broadbean-aðgangsupplýsingarnar þínar eru viðkvæmar og trúnaðarmál. Þar af leiðandi skaltu geyma og deila þeim af varkárni. Hver sá sem gegnir stjórnandahlutverki í Attract getur skoðað þessar aðgangsupplýsingar.
-
-> [!NOTE]
-> Microsoft og Attract taka engan þátt í að búa til og viðhalda þessum gildum. Það er á þína ábyrgð að halda þeim uppfærðum í Attract og vinna með Broadbean til að leysa úr öllum vandamálum sem hafa með aðgangsupplýsingarnar þínar að gera.
-
-### <a name="post-a-job-to-broadbean"></a>Auglýsa starf á Broadbean
+## <a name="post-jobs-to-broadbean"></a>Birta störf á Broadbean
 
 Eftir að kveikt hefur verið á Broadbean geta ráðningaraðilar og stjórnendur birt störf þar. Þú verður að hafa umsóknarvefslóð fyrir starfið.
 
@@ -80,7 +62,7 @@ Eftir að Broadbean lýkur við birtinguna sýnir hlutinn **Birtingar** fyrir st
 Eftir að starf er auglýst á Broadbean er hægt að skoða það í Attract.
 
 1. Opnaðu starfið í Attract sem þú vilt skoða á Broadbean.
-2. Í hlutanum **Birtingar** skal velja þrípunktahnappinn (**...**) sem á við um Broadbean og velja því næst **Skoða**.
+2. Í flipanum **Birtingar** skal velja þrípunktahnappinn (**...**) sem á við um Broadbean og velja því næst **Skoða**.
 
 Starfsauglýsingin í Broadbean birtist í nýjum glugga.
 
@@ -107,10 +89,16 @@ Hægt er að fjarlægja starfsauglýsingu úr Broadbean ef þess gerist þörf.
 
 Eftir að Broadbean fjarlægir starfið verður Broadbean-atriðið í Attract með hnappinn **Birta núna**. Hnappurinn gefur til kynna að starfið hafi verið fjarlægt og hægt sé að birta það aftur.
 
-### <a name="troubleshoot-the-broadbean-integration"></a>Úrræðaleita Broadbean-samþættinguna
+### <a name="troubleshoot-job-posting-to-broadbean"></a>Úrræðaleit starfspósts í Broadbean
 
 Ef þú átt í vandræðum með að birta starf á Broadbean, reyndu þá þessi skref.
 
 1. Staðfestu að aðgangsupplýsingarnar fyrir Broadbean sem þú slóst inn í Attract séu réttar og í gildi.
 2. Ef upplýsingarnar eru enn í gildi og réttar skaltu hafa samband við [Notendaþjónusta Broadbean](https://www.broadbean.com/resources/support/).
 3. Ef vandamálið er viðvarandi skaltu hafa samband við [Notendaþjónusta Microsoft](./talent-support.md).
+
+## <a name="see-also"></a>Sjá einnig
+
+[Stofna störf](./creating-jobs-attract.md)
+
+[Sláðu inn stillingar fyrir utanaðkomandi atvinnutorg](./attract-admin-job-board-settings.md)
