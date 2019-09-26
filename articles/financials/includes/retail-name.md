@@ -1,2 +1,0 @@
-> [!NOTE]
-> <span data-ttu-id="ffcd3-101">Þetta efnisatriði á við um bæði Dynamics 365 for Finance and Operations og Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="ffcd3-101">This topic applies to both Dynamics 365 for Finance and Operations and to Dynamics 365 for Retail.</span></span> 
