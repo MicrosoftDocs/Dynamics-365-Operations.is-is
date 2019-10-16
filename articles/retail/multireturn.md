@@ -1,6 +1,6 @@
 ---
 title: Vöruskil á mörgum pöntunum viðskiptavinar og reikningum
-description: Þetta efnisatriði lýsir því hvernig hægt er að skila vörum á mörgum pöntunum viðskiptavinar og reikningum í Microsoft Dynamics 365 for Retail.
+description: Þetta efnisatriði lýsir því hvernig hægt er að skila vörum á mörgum pöntunum viðskiptavinar og reikningum í Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 03/05/2019
@@ -18,27 +18,27 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c201311028b11121d626e93859a2b98497c047d1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 25a1081e5f903076e23089c41dda7437f8a70124
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565301"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017990"
 ---
-# <a name="return-items-across-multiple-customer-orders-and-invoices"></a><span data-ttu-id="37a8b-103">Vöruskil á mörgum pöntunum viðskiptavinar og reikningum</span><span class="sxs-lookup"><span data-stu-id="37a8b-103">Return items across multiple customer orders and invoices</span></span>
+# <a name="return-items-across-multiple-customer-orders-and-invoices"></a><span data-ttu-id="b59ac-103">Vöruskil á mörgum pöntunum viðskiptavinar og reikningum</span><span class="sxs-lookup"><span data-stu-id="b59ac-103">Return items across multiple customer orders and invoices</span></span>
 
 [!include [banner](includes/banner.md)]
 
 
-<span data-ttu-id="37a8b-104">Í Dynamics 365 for Finance and Operations útgáfu 10.0 er hægt að skila vörum á mörgum pöntunum og reikningum, en í fyrri útgáfum var aðeins hægt að vinna úr vöruskilum í gegnum einn reikning í einu.</span><span class="sxs-lookup"><span data-stu-id="37a8b-104">In Dynamics 365 for Finance and Operations version 10.0, returns can be made across multiple orders and invoices, whereas in releases prior to 10.0, returns could only be processed by a single invoice at a time.</span></span> 
+<span data-ttu-id="b59ac-104">Hægt er að framkvæma vöruskil fyrir margar pantanir og reikninga.</span><span class="sxs-lookup"><span data-stu-id="b59ac-104">Returns can be made across multiple orders and invoices.</span></span> 
 
-## <a name="configure-retail-to-support-returns-across-multiple-customer-order-and-invoices"></a><span data-ttu-id="37a8b-105">Skilgreina Retail til að styðja vöruskil á mörgum pöntunum viðskiptavinar og reikningum</span><span class="sxs-lookup"><span data-stu-id="37a8b-105">Configure Retail to support returns across multiple customer order and invoices</span></span>
+## <a name="configure-retail-to-support-returns-across-multiple-customer-order-and-invoices"></a><span data-ttu-id="b59ac-105">Skilgreina Retail til að styðja vöruskil á mörgum pöntunum viðskiptavinar og reikningum</span><span class="sxs-lookup"><span data-stu-id="b59ac-105">Configure Retail to support returns across multiple customer order and invoices</span></span>
 
-1. <span data-ttu-id="37a8b-106">Opnið **Smásölufæribreytur \> Pantanir viðskiptavinar**.</span><span class="sxs-lookup"><span data-stu-id="37a8b-106">Go to **Retail parameters \> Customer orders**.</span></span>
-1. <span data-ttu-id="37a8b-107">Gerið færibreytuna **Virkja skil fyrir margar pantanir** virka.</span><span class="sxs-lookup"><span data-stu-id="37a8b-107">Turn on the **Enable returns for multiple orders** parameter.</span></span> 
+1. <span data-ttu-id="b59ac-106">Opnið **Retail-færibreytur \> Pantanir viðskiptavinar**.</span><span class="sxs-lookup"><span data-stu-id="b59ac-106">Go to **Retail parameters \> Customer orders**.</span></span>
+1. <span data-ttu-id="b59ac-107">Gerið færibreytuna **Virkja skil fyrir margar pantanir** virka.</span><span class="sxs-lookup"><span data-stu-id="b59ac-107">Turn on the **Enable returns for multiple orders** parameter.</span></span> 
 
-## <a name="process-returns"></a><span data-ttu-id="37a8b-108">Vinna úr vöruskilum</span><span class="sxs-lookup"><span data-stu-id="37a8b-108">Process returns</span></span>
+## <a name="process-returns"></a><span data-ttu-id="b59ac-108">Vinna úr vöruskilum</span><span class="sxs-lookup"><span data-stu-id="b59ac-108">Process returns</span></span>
 
-<span data-ttu-id="37a8b-109">Þegar búið er að virkja færibreytuna og breytingarnar hafa verið samstilltar við verslanirnar getur gjaldkeri í versluninni valið margar sölupantanir fyrir viðskiptavin til að skila.</span><span class="sxs-lookup"><span data-stu-id="37a8b-109">After the parameter is turned on and the changes are synchronized to the stores, the cashier in the store can select multiple sales orders for a customer for their return.</span></span>
+<span data-ttu-id="b59ac-109">Þegar búið er að virkja færibreytuna og breytingarnar hafa verið samstilltar við verslanirnar getur gjaldkeri í versluninni valið margar sölupantanir fyrir viðskiptavin til að skila.</span><span class="sxs-lookup"><span data-stu-id="b59ac-109">After the parameter is turned on and the changes are synchronized to the stores, the cashier in the store can select multiple sales orders for a customer for their return.</span></span>
 
-<span data-ttu-id="37a8b-110">Þegar pantanir er valdar birtist listi yfir allar skilavörur sem eru á öllum reikningunum fyrir pantanirnar.</span><span class="sxs-lookup"><span data-stu-id="37a8b-110">When the orders are selected, a list of all the returnable products across all the invoices for the orders will display.</span></span> <span data-ttu-id="37a8b-111">Gjaldkerinn getur þá valið vörurnar sem á að skila.</span><span class="sxs-lookup"><span data-stu-id="37a8b-111">The cashier can then select the products to return.</span></span> <span data-ttu-id="37a8b-112">Ein skilapöntun verður stofnuð fyrir allar völdu vörurnar.</span><span class="sxs-lookup"><span data-stu-id="37a8b-112">A single return order will be created for all the selected products.</span></span>
+<span data-ttu-id="b59ac-110">Þegar pantanir er valdar birtist listi yfir allar skilavörur sem eru á öllum reikningunum fyrir pantanirnar.</span><span class="sxs-lookup"><span data-stu-id="b59ac-110">When the orders are selected, a list of all the returnable products across all the invoices for the orders will display.</span></span> <span data-ttu-id="b59ac-111">Gjaldkerinn getur þá valið vörurnar sem á að skila.</span><span class="sxs-lookup"><span data-stu-id="b59ac-111">The cashier can then select the products to return.</span></span> <span data-ttu-id="b59ac-112">Ein skilapöntun verður stofnuð fyrir allar völdu vörurnar.</span><span class="sxs-lookup"><span data-stu-id="b59ac-112">A single return order will be created for all the selected products.</span></span>

@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> <span data-ttu-id="fb968-101">Virkni sem getið er í þessu efnisatriði er tiltæk fyrir notendur sem hafa verið valdir fyrir sérstaka prufuútgáfu.</span><span class="sxs-lookup"><span data-stu-id="fb968-101">Functionality noted in this topic is available to targeted users as part of a private preview release.</span></span> <span data-ttu-id="fb968-102">Innihald og virkni geta tekið breytingum.</span><span class="sxs-lookup"><span data-stu-id="fb968-102">The content and the functionality are subject to change.</span></span> 
