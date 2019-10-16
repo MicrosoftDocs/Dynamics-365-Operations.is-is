@@ -1,0 +1,1620 @@
+- name: Þróun og stjórnun fyrir Finance and Operations
+  href: ../../dev-itpro/index.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Nýjungar eða breytingar
+  items:
+    - name: Eiginleikar í forútgáfu í Platform update 30 (nóvember 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-30.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform update 29 (október 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-29.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform update 28 (júlí 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-28.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform update 27 (júní 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-27.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform update 26 (maí 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-26.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform update 25 (apríl 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-25.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform update 24 (mars 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-24.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform Update 23 (janúar 2019)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-23.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform Update 22 (desember 2018)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-22.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform update 21 (nóvember 2018)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-21.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform update 20 (september 2018)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-20.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Platform update 15 (mars 2018)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-15.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Viðskiptatilvik
+  items:
+    - name: Yfirlit viðskiptatilvika
+      href: ../../dev-itpro/business-events/home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Viðskiptatilvik forrits
+      href: ../../dev-itpro/business-events/app-business-events.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Viðskiptatilvik verkflæðis
+      href: ../../dev-itpro/business-events/business-events-workflow.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Viðvaranir sem viðskiptatilvik
+      href: ../../dev-itpro/business-events/alerts-business-events.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Viðskiptatilvik í Microsoft Flow
+      href: ../../dev-itpro/business-events/business-events-flow.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Fylgiskjöl þróunaraðila viðskiptatilvika
+      href: ../../dev-itpro/business-events/business-events-dev-doc.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Úrræðaleit vegna viðskiptatilvika
+      href: ../../dev-itpro/business-events/troubleshooting.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Dæmi um notkun viðskiptatilvika
+      href: ../../dev-itpro/business-events/potential-use-cases.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Kennsla
+      items:
+        - name: Viðskiptatilvik og Microsoft Flow
+          href: ../../dev-itpro/business-events/how-to/how-to-flow.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Viðskiptatilvik og hnitanet Azure-tilviks
+          href: ../../dev-itpro/business-events/how-to/how-to-eventgrid.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Viðskiptatilvik og þjónustutengibraut Azure
+          href: ../../dev-itpro/business-events/how-to/how-to-servicebus.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Viðskiptatilvik og verkflæðissamþykki
+          href: ../../dev-itpro/business-events/how-to/how-to-workflow.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Viðskiptatilvik og Microsoft Forms Pro
+          href: ../../dev-itpro/business-events/how-to/FormsPro.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Viðskiptatilvik og miðstöðvar Azure-tilviks
+          href: ../../dev-itpro/business-events/how-to/event-hub.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Samfelld afhending
+  items:
+    - name: Samfelld afhending – heimasíða
+      href: ../../dev-itpro/dev-tools/continuous-delivery-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Algengar spurningar um þróun og samfellda afhendingu
+      href: ../../dev-itpro/dev-tools/continuous-delivery-faq.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Útiloka prófunarpakka úr frálagi smíða
+      href: ../../dev-itpro/dev-tools/exclude-test-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Stjórna líkönum þriðju aðila og keyrslupökkum með upprunastýringu
+      href: ../../dev-itpro/dev-tools/manage-runtime-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Uppfæra útgáfur af líkönum í sjálfvirkum smíðum
+      href: ../../dev-itpro/dev-tools/version-models-build.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Samþætting gagna
+  items:
+    - name: Velja stefnu fyrir samþættingu gagna (innflutning/útflutning)
+      href: ../../dev-itpro/data-entities/integration-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: API samþættingar gagna
+      items:
+        - name: Gagnastjórnunarpakki REST API
+          href: ../../dev-itpro/data-entities/data-management-api.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Endastöðvar þjónustu
+          items:
+            - name: Yfirlit yfir endastöðvar þjónustu
+              href: ../../dev-itpro/data-entities/services-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Úrræðaleit vegna sannvottunar þjónustu
+              href: ../../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: OData
+          href: ../../dev-itpro/data-entities/odata.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sérstillt þjónustuþróun
+          href: ../../dev-itpro/data-entities/custom-services.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Endurteknar samþættingar
+          href: ../../dev-itpro/data-entities/recurring-integrations.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Prófa þjónustu með hjálparforriti þriðju aðila
+          href: ../../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Tengill Finance and Operations
+      href: ../../dev-itpro/data-entities/fin-ops-connector.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Þróun fyrir samþættingu
+      items:
+        - name: Samþætting gagna með gagnaeiningum
+          items:
+            - name: Yfirlit yfir samþættingu gagna með gagnaeiningum
+              href: ../../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Þróun einingar fyrir gagnaflutning
+              href: ../../dev-itpro/data-entities/develop-entity-for-data-migration.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Þróa samsettar gagnaeiningar
+              href: ../../dev-itpro/data-entities/develop-composite-data-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Skilgreina samnýtingu fjárhagslegra gagna milli fyrirtækja
+              href: ../../dev-itpro/data-entities/tasks/configure-financial-cross-company-data-sharing.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Búa til skráningarsniðmát til að auðvelda gagnafærslu
+              href: ../../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Búa til skráningar með skráningarsniðmátum
+              href: ../../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Samþætting gagna með Common Data Service
+          items:
+            - name: Yfirlit yfir samþættingu gagna með Common Data Service
+              href: ../../dev-itpro/data-entities/data-integration-cds.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Samstillt, tvíátta samþætting'
+              items:
+                - name: Samþætting gagna í næstum rauntíma
+                  href: ../../dev-itpro/data-entities/dual-write-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Stigveldi fyrirtækis í Common Data Service
+                  href: ../../dev-itpro/data-entities/dual-write-organization.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Fyrirtækishugtak í Common Data Service
+                  href: ../../dev-itpro/data-entities/dual-write-company.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Samþættur aðalviðskiptavinur
+                  href: ../../dev-itpro/data-entities/dual-write-customer.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Samræmd afurðaupplifun
+                  href: ../../dev-itpro/data-entities/dual-write-product.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Samþættur aðallánardrottinn
+                  href: ../../dev-itpro/data-entities/dual-write-vendor.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Samþætt svæði og vöruhús
+                  href: ../../dev-itpro/data-entities/dual-write-sites-and-warehouses.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Upphafleg samstilling
+                  href: ../../dev-itpro/data-entities/dual-write-initial.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Úrræðaleit gagnasamþættingar
+                  href: ../../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Ósamstillt, einátta samþætting'
+              items:
+                - name: Skilgreina PTC-aðstæður
+                  items:
+                    - name: Viðfang til sjóðstreymis
+                      href: ../../supply-chain/sales-marketing/prospect-to-cash.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Samstilla lykla beint úr Sales við viðskiptavini í Finance and Operations
+                      href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Samstilla afurðir beint úr Finance and Operations við afurðir í Sales
+                      href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Finance and Operations
+                      href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Samstilla hausa og línur sölutilboðs beint úr Sales við Finance and Operations
+                      href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Samstilling sölupantana beint milli Sales og Finance and Operations
+                      href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Samstilla hausa og línur sölureiknings beint úr Sales við Finance and Operations
+                      href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Skilgreina samþættingu við Field Service
+                  items:
+                    - name: Yfirlit yfir skilgreiningu á samþættingu við Field Service
+                      href: ../../supply-chain/sales-marketing/field-service.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Samstilla afurðir úr Finance and Operations við afurðir í Field Service
+                      href: ../../supply-chain/sales-marketing/field-service-product.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Samstilla vinnupantanir úr Field Service við sölupantanir í Finance and Operations
+                      href: ../../supply-chain/sales-marketing/field-service-work-order.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Samstilla reikningssamkomulag í Field Service við reikninga með frjálsum texta í Finance and Operations
+                      href: ../../supply-chain/sales-marketing/field-service-invoice.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Samstilla birgðaflutninga og leiðréttingar úr Field Service við Finance and Operations
+                      href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Samstilla upplýsingar um birgðastöðu úr Finance and Operations við Field Service
+                      href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Samstilla afurðir með birgðaeiningu úr Finance and Operations við Field Service
+                      href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Samstilla verklista úr Finance and Operations við Field Service
+                      href: ../../supply-chain/sales-marketing/synchronize-project-list.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Samstilla vöruhús úr Finance and Operations við Field Service
+                      href: ../../supply-chain/sales-marketing/synchronize-warehouse.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Samstilla vinnupantanir við verk úr Field Service í Finance and Operations
+                      href: ../../supply-chain/sales-marketing/synchronize-work-orders.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Skilgreina samþættingu Project Service Automation
+                  items:
+                    - name: Yfirlit Project Service Automation
+                      href: ../../financials/project-management/PSA-integration.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Færibreytur samþættingar Project Service Automation
+                      href: ../../financials/project-management/PSA-parameters.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Samstilla verksamninga og verk
+                      href: ../../financials/project-management/project-contracts-templates.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Samstilla verk verkefnis
+                      href: ../../financials/project-management/project-tasks-template.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Samstilla flokka verkkostnaðar
+                      href: ../../financials/project-management/project-categories-templates.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Samstilla verkáætlun og verkspár
+                      href: ../../financials/project-management/project-estimates-templates.md?toc=/dynamics365/unified-operations/financials/toc.json
+                    - name: Samstilla rauntölur verks og færslubók verksamþættingar
+                      href: ../../financials/project-management/project-actuals-templates.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Notkun ytri vefþjónustu
+      href: ../../dev-itpro/data-entities/consume-external-web-service.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Rafræn skilaboð
+      href: ../../financials/general-ledger/electronic-messaging.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Gagnastjórnun
+  items:
+    - name: Yfirlit gagnastjórnunar
+      href: ../../dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Gagnaeiningar
+      items:
+        - name: Yfirlit gagnaeininga
+          href: ../../dev-itpro/data-entities/data-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Skilgreiningargagnaverk
+          href: ../../dev-itpro/data-entities/configuration-data-projects.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Afritun skilgreiningargagna á milli fyrirtækja eða lögaðila
+          items:
+            - name: Yfirlit yfir afritun skilgreiningargagna
+              href: ../../dev-itpro/data-entities/copy-configuration.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Skilgreiningargagnapakkar
+              href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Skilgreiningargagnapakkar (aðeins útgáfa frá júlí 2017)
+              href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Gera einingaverslun tiltæka sem Data Lake
+              href: ../../dev-itpro/data-entities/entity-store-data-lake.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sniðmát skilgreiningargagna
+          href: ../../dev-itpro/data-entities/configuration-data-templates.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Rekja breytingar til einingar
+          href: ../../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Finna upplýsingar um staðlaðar gagnaeiningar
+          href: ../../dev-itpro/data-entities/data-entities-report.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Gagnasniðmát með mörgum vinnublöðum
+          href: ../../dev-itpro/data-entities/excel-template-multiple.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Virkja rakningarbreytingu fyrir einingar
+          href: ../../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Skilgreiningarlyklar og gagnaeiningar
+          href: ../../dev-itpro/data-entities/config-key-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Skilgreiningargagnapakkar
+          href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Inn- og útflutningsvinnsla gagna
+      items:
+        - name: Yfirlit yfir inn- og útflutningsvinnslu gagna
+          href: ../../dev-itpro/data-entities/data-import-export-job.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Bestu starfsvenjur fyrir innflutning fylgiskjala með almennri færslubókareiningu
+          href: ../../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Þróun fyrir gagnaeiningar
+      items:
+        - name: Hanna reglur og bestu starfsvenjur fyrir gagnaeiningar
+          href: ../../dev-itpro/dev-tools/design-best-practices.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Stofna nýjar gagnaeiningar
+          href: ../../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Eiginleikar gagnaeiningar
+          href: ../../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Stofna útreiknaða dálka og sýndarreiti
+          href: ../../dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Hegðun á milli fyrirtækja
+          href: ../../dev-itpro/data-entities/cross-company-behavior.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Meðhöndlun lands-/svæðiskóða
+          href: ../../dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Erfðamynstur
+          href: ../../dev-itpro/data-entities/support-super-type-sub-type.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Reglur leiðsagnarforrits gagnaeiningar
+          href: ../../dev-itpro/data-entities/data-entity-wizard-rules.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Eiginleikar lýsigagna
+          href: ../../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Villuleitir, sjálfgildi og óvarpaðir reitir'
+          href: ../../dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Öryggi og gagnaeiningar
+          href: ../../dev-itpro/data-entities/security-data-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Nota þjónustuprófunarverkfæri þriðja aðila
+          href: ../../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Búa til skrifvarðar einingar sem sýna fjárhagsvíddir
+          href: ../../dev-itpro/financial/read-only-entity-financial.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Nota eigin gagnagrunn
+      href: ../../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Sjálfvirk uppfærsla einingaverslunar
+      href: ../../dev-itpro/analytics/automated-entity-store-refresh.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Sjálfvirk verkgögn
+      href: ../../dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Vinnusvæði gagnaprófunargátlista
+      href: ../../dev-itpro/user-interface/data-validation-workspace.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Villulýsingar gagnastjórnunar
+      href: ../../dev-itpro/data-entities/dm-error-descriptions.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Aðgerðir í flutningi gagnagrunns
+  items:
+    - name: Yfirlit
+      href: ../../dev-itpro/database/dbmovement-operations.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Stuttir leiðarvísar
+      items:
+        - name: Uppfæra gagnagrunn
+          href: ../../dev-itpro/database/database-refresh.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Flytja út gagnagrunn
+          href: ../../dev-itpro/database/export-database.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Flytja inn gagnagrunn
+          href: ../../dev-itpro/database/import-database.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Endurheimt tímapunkts gagnagrunns
+          href: ../../dev-itpro/database/database-point-in-time-restore.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Kennsla
+      items:
+        - name: Uppfærið fyrir þjálfun
+          href: ../../dev-itpro/database/dbmovement-scenario-general-refresh.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kemba afrit af framleiðslugagnagrunninum
+          href: ../../dev-itpro/database/dbmovement-scenario-debugdiag.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Flytja út afrit af gagnagrunni fyrir staðlað samþykkispróf notanda (User Acceptance Test)
+          href: ../../dev-itpro/database/dbmovement-scenario-exportuat.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kynning á gullgrunnstillingu
+          href: ../../dev-itpro/database/dbmovement-scenario-goldenconfig.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Eyðileggingarprófun
+          href: ../../dev-itpro/database/dbmovement-scenario-destructivetests.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Sýnigögn
+  items:
+    - name: Yfirlit yfir sýnigögn
+      href: ../../fin-and-ops/get-started/demo-data.md?toc=/dynamics365/unified-operations/financials/toc.json?toc=/dev-itpro/toc.json
+    - name: Búa til sýnigögn með gagnapakka
+      href: ../../dev-itpro/data-entities/generate-demo-data-packages.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Uppsetning
+  items:
+    - name: Setja upp sýniútgáfuumhverfi
+      href: ../../dev-itpro/deployment/deploy-demo-environment.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Uppsetning skýs
+      items:
+        - name: Yfirlit yfir uppsetningu skýs
+          href: ../../dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sjálfsafgreiðsla uppsetningar
+          items:
+            - name: Yfirlit yfir uppsetningu sjálfsafgreiðslu
+              href: ../../dev-itpro/deployment/infrastructure-stack.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Setja upp nýtt umhverfi
+              href: ../../dev-itpro/deployment/deployenvironment-newinfrastructure.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Algengar spurningar um uppsetningu
+              href: ../../dev-itpro/deployment/deploymentFAQ.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Þekkt vandamál með sjálfsafgreiðslu uppsetningar
+              href: ../../dev-itpro/deployment/known-issues-new-deployment-experience.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Viðhaldsaðgerðir fyrir uppsetningu
+              href: ../../dev-itpro/deployment/maintenanceoperationsguide-newinfrastructure.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Uppfæra umhverfi
+              href: ../../dev-itpro/deployment/updateenvironment-newinfrastructure.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Úrræðaleit fyrir umhverfi sem sett eru upp með sjálfsafgreiðslu uppsetningar
+              href: ../../dev-itpro/deployment/troubleshoot-newinfrastructure.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Ljúka innleiðingu Azure Resource Manager
+          href: ../../dev-itpro/deployment/arm-onboarding.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Azure ExpressRoute og Finance and Operations
+          href: ../../dev-itpro/deployment/expressroute.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Skipulag Finance and Operations
+          href: ../../fin-and-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Nota uppfærslur á skýjaumhverfi
+          href: ../../dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Nota uppfærslur og viðbætur við hluta Retail-rásar í skýi
+          href: ../../dev-itpro/deployment/Update-retail-channel.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Frumstilla Retail Cloud Scale Unit
+          href: ../../dev-itpro/deployment/Initialize-Retail-Channels.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Staðsetning gagna fyrir Retail
+          href: ../../dev-itpro/deployment/retail-data-residency.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Uppsetning á staðnum
+      items:
+        - name: Uppsetning á staðnum – heimasíða
+          href: ../../dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Yfirlit yfir uppsetningu á staðnum
+          href: ../../dev-itpro/deployment/on-premises-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Áætlun og undirbúningur fyrir uppsetningu á staðnum
+          href: ../../dev-itpro/deployment/plan-onprem-deployment.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kröfur um vélbúnaðarþörf
+          href: ../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dynamics365/unified-operations/financials/toc.json?toc=/dev-itpro/toc.json
+        - name: Setja upp verk á staðnum
+          href: ../../dev-itpro/lifecycle-services/lbd-create-lcs-on-prem-project.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Setja upp og virkja umhverfi á staðnum
+          items:
+            - name: Setja upp og nota innanhússumhverfi – heimasíða
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-environments.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Virkja umhverfi á staðnum í (Platform update 12 og síðari útgáfur)
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-pu12.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Virkja umhverfi á staðnum í (Platform update 8 og 11)
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-pu8-pu11.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Uppsetningarskref fyrir hluta Retail-rásar í staðbundnu umhverfi
+              href: ../../dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Þróa og virkja sérstillt líkön í umhverfi á staðnum
+          href: ../../dev-itpro/deployment/develop-deploy-custom-models-on-premises.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: PowerBI.com-samþætting við innanhússumhverfi
+          href: ../../dev-itpro/analytics/entity-store-on-prem.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Skilgreina gagnstæða staðgengla fyrir innanhússumhverfi
+          href: ../../dev-itpro/deployment/onprem-reverseproxy.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Nota uppfærslur fyrir uppsetningu á staðnum
+          href: ../../dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Greining á staðnum
+          href: ../../dev-itpro/deployment/on-premises-diagnostics.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Setja uppsetningar á staðnum aftur upp
+          href: ../../dev-itpro/deployment/redeploy-on-prem.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Umboðsmaður á staðnum
+          items:
+            - name: AD FS Office 365 samhæfi
+              href: ../../dev-itpro/deployment/onprem-adfscompatibility.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Forskriftir fyrir og eftir uppsetningu umboðsmanns á staðnum
+              href: ../../dev-itpro/lifecycle-services/pre-post-scripts.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Uppfæra staðbundinn eftirlitsbúnað
+              href: ../../dev-itpro/lifecycle-services/update-local-agent.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Endurskilgreina umhverfi
+          href: ../../dev-itpro/lifecycle-services/reconfigure-environment.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Tengigeta biðlara við internet
+          href: ../../dev-itpro/user-interface/client-disconnected.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Úrræðaleit fyrir uppsetningar á staðnum
+          href: ../../dev-itpro/deployment/troubleshoot-on-prem.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Vottorðssnúningur
+          href: ../../dev-itpro/deployment/certificate-rotation-on-prem.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Setja upp sérsniðinn kóða
+      items:
+        - name: Stofna virkjanlega pakka af líkönum
+          href: ../../dev-itpro/deployment/create-apply-deployable-package.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Setja upp virkjanlega pakka úr skipanalínunni
+          href: ../../dev-itpro/deployment/install-deployable-package.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Fjarlægja pakka
+          href: ../../dev-itpro/deployment/uninstall-deployable-package.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Úrræðaleit vegna vandamála í forritapakka
+          href: ../../dev-itpro/deployment/deployable-package-troubleshooting.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Þróa og sérstilla
+  items:
+    - name: Þróa og sérstilla heimasíðu
+      href: ../../dev-itpro/dev-tools/developer-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Forritsstafli og skipulag þjóns
+      href: ../../dev-itpro/dev-tools/application-stack-server-architecture.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Sækja prufueintak
+      href: ../../dev-itpro/dev-tools/get-evaluation-copy.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Skráðu þig fyrir prufuáskriftum
+      href: ../../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Uppsetning og aðgangur að þróunarumhverfi
+      items:
+        - name: Þróunarumhverfi
+          href: ../../dev-itpro/dev-tools/access-instances.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Skilgreina heildrænt þróunarumhverfi
+          href: ../../dev-itpro/dev-tools/configure-developer-vm.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Stofna nýja notendur á þróunarvélum
+          href: ../../dev-itpro/dev-tools/enable-development-machine.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Algengar spurningar um þróun og smíði sýndarvéla sem heimila ekki stjórnandaaðgang
+          href: ../../dev-itpro/sysadmin/VMs-no-admin-access.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Endurnefna staðbundið umhverfi til að fá aðgang að Azure DevOps
+          href: ../../dev-itpro/migration-upgrade/vso-machine-renaming.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Þróunarkerfiskröfur
+          href: ../../dev-itpro/dev-tools/development-system-requirements.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: 'Útgáfueftirlit, leit að lýsigögnum og yfirlit'
+      href: ../../dev-itpro/dev-tools/version-control-metadata-navigation.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Prufuforrit bílaflotastjórnunar
+      items:
+        - name: Heildrænt ferli sviðsett fyrir prufuforrit bílaflotastjórnunar
+          href: ../../dev-itpro/dev-tools/fleet-management-sample.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Prufuforrit bílaflotastjórnunar
+          href: ../../dev-itpro/dev-tools/introduction-fleet-management-sample.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Visual Studio-verkfæri
+      items:
+        - name: Þróunarverkfæri
+          href: ../../dev-itpro/dev-tools/development-tools-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kennsla á þróunarverkfæri
+          href: ../../dev-itpro/dev-tools/introduction-visual-studio.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Forritaprófun
+          items:
+            - name: Setja upp BaseX fyrir forritaprófun
+              href: ../../dev-itpro/dev-tools/install-basex.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Forritaskoðari
+          href: ../../dev-itpro/dev-tools/application-explorer.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Smíða og kemba verk
+          href: ../../dev-itpro/dev-tools/build-debug-project.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Smíðaaðgerðir
+          href: ../../dev-itpro/dev-tools/build-operations.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Eiginleikar kóðaritils
+          href: ../../dev-itpro/dev-tools/code-editor.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Búa til líkan og gagnalíkanseiningar
+          items:
+            - name: Búa til yfirlit yfir líkön og gagnalíkanseiningar
+              href: ../../dev-itpro/dev-tools/create-data-model-elements.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Leiðbeiningar um heiti viðbóta
+              href: ../../dev-itpro/extensibility/NamingGuidelines.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Slökkva á sérstillingu líkans og afskriftavirkni
+              href: ../../dev-itpro/dev-tools/lock-models.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Skýrsla um greiningu sérstillinga
+          href: ../../dev-itpro/dev-tools/customization-analysis-report.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Einingahönnuðir
+          href: ../../dev-itpro/dev-tools/element-designers.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Skipanir til að ákvarða eininganotkun
+          href: ../../dev-itpro/dev-tools/element-usage.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Útflutningur og innflutningur líkana
+          href: ../../dev-itpro/dev-tools/models-export-import.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Lýsigagnaleit í Visual Studio
+          href: ../../dev-itpro/dev-tools/metadata-search-visual-studio.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Líkön og pakkar
+          href: ../../dev-itpro/dev-tools/models.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Gerð verks í Finance and Operations
+          href: ../../dev-itpro/dev-tools/projects.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Verkfærainnbætur fyrir Visual Studio
+          href: ../../dev-itpro/dev-tools/developer-tools-add-ins.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Uppfæra Visual Studio-þróunarverkfærin
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: X++ forritunartungumál
+      items:
+        - name: X++ og kembieiginleikar
+          href: ../../dev-itpro/dev-tools/new-x-debugger-features.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kemba X++ kóða
+          href: ../../dev-itpro/dev-tools/debug-xpp.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: EventHandlerResult-klasar í sviðsmyndum tengdum beiðnum og svörum
+          href: ../../dev-itpro/dev-tools/event-handler-result-class.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Skrifa viðskiptagrunn með C# og X++ frumkóða'
+          href: ../../dev-itpro/dev-tools/write-business-logic.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Breytingar í X++ og X++ þýðanda
+          href: ../../dev-itpro/dev-tools/programming-language-support.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'LINQ-veita fyrir C#'
+          href: ../../dev-itpro/dev-tools/linq-provider-c.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Skrifa reglur um bestu venjur
+          href: ../../dev-itpro/dev-tools/author-best-practice-rules.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Eiginleikar Forritaskoðara
+          href: ../../dev-itpro/dev-ref/application-explorer-aot-properties.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Leiðbeiningar um X++ forritunarmálið
+          items:
+            - name: Yfirlit yfir leiðbeiningar um X++ forritunarmálið
+              href: ../../dev-itpro/dev-ref/xpp-language-reference.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Breytur og gagnagerðir
+              items:
+                - name: Breytur
+                  href: ../../dev-itpro/dev-ref/xpp-variables-data-types.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Frumstæðar gagnagerðir
+                  href: ../../dev-itpro/dev-ref/xpp-data-primitive.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Samsettar gagnagerðir
+                  href: ../../dev-itpro/dev-ref/xpp-data-composite.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Safnaflokkar
+                  href: ../../dev-itpro/dev-ref/xpp-data-collection.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Auknar gagnagerðir
+                  href: ../../dev-itpro/dev-ref/xpp-data-edt.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Meðhöndlun setninga, lykkja og frávika'
+              items:
+                - name: 'Athugasemdir, notkun og prentun'
+                  href: ../../dev-itpro/dev-ref/xpp-statements-loops.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Skilyrtar setningar
+                  href: ../../dev-itpro/dev-ref/xpp-conditional.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Lykkjusetningar
+                  href: ../../dev-itpro/dev-ref/xpp-loops.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Meðhöndlun undantekninga
+                  href: ../../dev-itpro/dev-ref/xpp-exceptions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: SQL-tengivilla X++ frávik
+              href: ../../dev-itpro/dev-ref/sql-connection-error.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ virkjar
+              href: ../../dev-itpro/dev-ref/xpp-operators.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Forgangur X++ virkis
+              href: ../../dev-itpro/dev-ref/xpp-operator-precedence.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ klasar og aðferðir
+              items:
+                - name: Klasar og aðferðir
+                  href: ../../dev-itpro/dev-ref/xpp-classes-methods.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Arfur
+                  href: ../../dev-itpro/dev-ref/xpp-inheritance.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Fastir klasameðlimir
+                  href: ../../dev-itpro/dev-ref/xpp-static-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Viðmót
+                  href: ../../dev-itpro/dev-ref/xpp-interfaces.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Söfn
+                  href: ../../dev-itpro/dev-ref/xpp-library-objects.md?toc=/dynamics365/unified-operations/financials/toc.json
+                - name: Tilvik
+                  href: ../../dev-itpro/dev-ref/xpp-events.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ gagnaval og beiting
+              href: ../../dev-itpro/dev-ref/xpp-data-query.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Gagnaaðgangur með SysDa API
+              href: ../../dev-itpro/dev-ref/sysda.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ fjölvar
+              href: ../../dev-itpro/dev-ref/xpp-macros.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X++ eigindaklasar
+              href: ../../dev-itpro/dev-ref/xpp-attribute-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Samanburður á X++ og C#'
+              href: ../../dev-itpro/dev-ref/xpp-cs-comparison.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Málskipan X++
+              href: ../../dev-itpro/dev-ref/xpp-syntax.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: 'API, klasi og töflutilvísun'
+      items:
+        - name: 'API, klasi og töflutilföng'
+          href: ../../dev-itpro/dev-ref/api-reference.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Þýðingartímaföll í X++
+          href: ../../dev-itpro/dev-ref/xpp-compile-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Keyrslutímaföll í X++
+          items:
+            - name: Tilföng keyrslutímafalla í X++
+              href: ../../dev-itpro/dev-ref/xpp-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Viðskiptakeyrslutímaföll í X++
+              href: ../../dev-itpro/dev-ref/xpp-business-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Geymiskeyrslutímaföll í X++
+              href: ../../dev-itpro/dev-ref/xpp-container-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Umreikniskeyrslutímaföll í X++
+              href: ../../dev-itpro/dev-ref/xpp-conversion-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Dagsetningarkeyrslutímaföll í X++
+              href: ../../dev-itpro/dev-ref/xpp-date-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Stærðfræðikeyrslutímaföll í X++
+              href: ../../dev-itpro/dev-ref/xpp-math-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Speglunarkeyrslutímaföll í X++
+              href: ../../dev-itpro/dev-ref/xpp-reflection-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Lotukeyrslutímaföll í X++
+              href: ../../dev-itpro/dev-ref/xpp-session-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Strengskeyrslutímaföll í X++
+              href: ../../dev-itpro/dev-ref/xpp-string-run-time-functions.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kerfistöflur
+          href: ../../dev-itpro/dev-ref/system-tables.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kerfisklasar
+          items:
+            - name: A-klasar
+              href: ../../dev-itpro/dev-ref/a-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: B-klasar
+              href: ../../dev-itpro/dev-ref/b-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: C-klasar
+              href: ../../dev-itpro/dev-ref/c-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: D-klasar
+              href: ../../dev-itpro/dev-ref/d-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: E-klasar
+              href: ../../dev-itpro/dev-ref/e-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F-klasar (FieldBinding til FormBuildAnimateControl)
+              href: ../../dev-itpro/dev-ref/fieldbinding-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F-klasar (FormBuildButtonControl til FormBuildFastTabSummarySeparator)
+              href: ../../dev-itpro/dev-ref/formbuildbuttoncontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F-klasar (FormBuildFilterPaneControl til FormBuildRealControl)
+              href: ../../dev-itpro/dev-ref/formbuildfilterpanecontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F-klasar (FormBuildReferenceControl til FormButtonSeparatorControl)
+              href: ../../dev-itpro/dev-ref/formbuildreferencecontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F-klasar (FormChangeTracker til FormControlEventArgs)
+              href: ../../dev-itpro/dev-ref/formchangetracker-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F-klasar (FormDataObject til FormFastTabHeaderControl)
+              href: ../../dev-itpro/dev-ref/formdataobject-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F-klasar (FormFastTabSummarySeparator til FormGridControl)
+              href: ../../dev-itpro/dev-ref/formfasttabsummaryseparator-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F-klasar (FormGroupControl til FormIntControl)
+              href: ../../dev-itpro/dev-ref/formgroupcontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F-klasar (FormListBoxControl til FormNotifyEventArgs)
+              href: ../../dev-itpro/dev-ref/formlistboxcontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F-klasar (FormObject til FormRealControl)
+              href: ../../dev-itpro/dev-ref/formobject-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F-klasar (FormReferenceControl til FormStringControl)
+              href: ../../dev-itpro/dev-ref/formreferencecontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: F-klasar (FormTabControl til FormWindowControl)
+              href: ../../dev-itpro/dev-ref/formtabcontrol-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: G-klasar
+              href: ../../dev-itpro/dev-ref/g-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: H-klasar
+              href: ../../dev-itpro/dev-ref/h-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: I-klasar
+              href: ../../dev-itpro/dev-ref/i-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: J-klasar
+              href: ../../dev-itpro/dev-ref/j-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: K-klasar
+              href: ../../dev-itpro/dev-ref/k-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: L-klasar
+              href: ../../dev-itpro/dev-ref/l-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: M-klasar
+              href: ../../dev-itpro/dev-ref/m-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: N-klasar
+              href: ../../dev-itpro/dev-ref/n-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: O-klasar
+              href: ../../dev-itpro/dev-ref/o-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: P-klasar
+              href: ../../dev-itpro/dev-ref/p-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Q-klasar
+              href: ../../dev-itpro/dev-ref/q-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: R-klasar
+              href: ../../dev-itpro/dev-ref/r-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: S-klasar
+              href: ../../dev-itpro/dev-ref/s-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: T-klasar
+              href: ../../dev-itpro/dev-ref/t-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: U-klasar
+              href: ../../dev-itpro/dev-ref/u-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: V-klasar
+              href: ../../dev-itpro/dev-ref/v-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: W-klasar
+              href: ../../dev-itpro/dev-ref/w-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: X-klasar
+              href: ../../dev-itpro/dev-ref/x-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Stækkunarhæfni
+      items:
+        - name: Heimasíða stækkunarhæfni
+          href: ../../dev-itpro/extensibility/extensibility-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kynning og fyrstu skref
+          items:
+            - name: Stækkunarmöguleikar forrits
+              href: ../../dev-itpro/extensibility/extensibility-roadmap.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Beiðnir um stækkunarhæfni
+              href: ../../dev-itpro/extensibility/extensibility-requests.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Algengar spurningar um stækkunarhæfni
+              href: ../../dev-itpro/extensibility/app-sealing-faq.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Yfirfæra frá yfirlögn til viðbóta
+              href: ../../dev-itpro/extensibility/migrate-overlayer-extension.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Sérstilla líkanaeiningar gegnum viðbót (leiðsögn)
+              href: ../../dev-itpro/extensibility/customize-model-elements-extensions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Sérstilla gegnum viðbót og yfirlögn
+              href: ../../dev-itpro/extensibility/customization-overlayering-extensions.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Nýjungar
+          items:
+            - name: Nýjungar eða breytingar á stækkunarhæfni
+              href: ../../dev-itpro/extensibility/extensibility-new.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 10.0.3'
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-3.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 10.0.2'
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-2.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 10.0.1'
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-1.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 10.0'
+              href: ../../dev-itpro/extensibility/extensibility-changes-10.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.1.3'
+              href: ../../dev-itpro/extensibility/extensibility-changes-813.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.1.2'
+              href: ../../dev-itpro/extensibility/extensibility-changes-812.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.1.1'
+              href: ../../dev-itpro/extensibility/extensibility-changes-811.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.1'
+              href: ../../dev-itpro/extensibility/extensibility-changes-81.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.0.4'
+              href: ../../dev-itpro/extensibility/extensibility-changes-804.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.0.3'
+              href: ../../dev-itpro/extensibility/extensibility-changes-803.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.0.2'
+              href: ../../dev-itpro/extensibility/extensibility-changes-802.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Breytingar á stækkunarhæfni, útgáfa 8.0.1'
+              href: ../../dev-itpro/extensibility/extensibility-changes-801.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Breytingar á stækkunarhæfni í útgáfu 8.0
+              href: ../../dev-itpro/extensibility/changes-80.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Breytingar á stækkunarhæfni í útgáfu 7.3
+              href: ../../dev-itpro/extensibility/extensibility-changes-73.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: 'Breytingar á stækkunarhæfni, júlí 2017'
+              href: ../../dev-itpro/extensibility/changes-july-2017.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Undirstöðuatriði
+          items:
+            - name: Sérstillingar sem valda röskunum
+              href: ../../dev-itpro/extensibility/intrusive-customizations.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Klasaviðbótarlíkan
+              href: ../../dev-itpro/extensibility/class-extensions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Klasaviðbót með aðgerðarinnsetningu og boðleið
+              href: ../../dev-itpro/extensibility/method-wrapping-coc.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Leiðbeiningar um heiti viðbóta
+              href: ../../dev-itpro/extensibility/naming-guidelines-extensions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Draga úr líkanatakmörkunum til að endurþátta yfirlög í viðbætur
+              href: ../../dev-itpro/extensibility/refactoring-over-layering.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Búa til viðbætur
+          items:
+            - name: Bæta gildum við fasttexta
+              href: ../../dev-itpro/extensibility/add-enum-value.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Breyta auknum gagnagerðum
+              href: ../../dev-itpro/extensibility/modify-edt.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Skrá undirklasa fyrir verksmiðjuaðferðir
+              href: ../../dev-itpro/extensibility/register-subclass-factory-methods.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Svara með EventHandlerResult
+              href: ../../dev-itpro/extensibility/respond-event-handler-result.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Stækka RunBase-klasa
+              href: ../../dev-itpro/extensibility/extend-runbase-class.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Sérstilla ræsingu forrits með fulltrúum
+              href: ../../dev-itpro/extensibility/startup-customizations.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Breyta fyrirliggjandi reitum í töflu
+              href: ../../dev-itpro/extensibility/modify-existing-field.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Bæta reitum við töflu
+              href: ../../dev-itpro/extensibility/add-field-extension.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Bæta atriðaskrám við töflu
+              href: ../../dev-itpro/extensibility/add-index.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Bæta tengslum við töflu
+              href: ../../dev-itpro/extensibility/add-relation.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Breyta töflueiginleikum
+              href: ../../dev-itpro/extensibility/modify-properties.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Bæta aðferðum við töflur
+              href: ../../dev-itpro/extensibility/add-method-table.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Framkvæma viðskiptaaðgerðir á líftíma töflufærslna
+              href: ../../dev-itpro/extensibility/subscribe-table-events.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Bæta gagnaveitum við skjámyndir
+              href: ../../dev-itpro/extensibility/add-datasource.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Breyta skjámyndatexta
+              href: ../../dev-itpro/extensibility/change-caption-form.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Breyta eiginleikum skjámyndastýringar
+              href: ../../dev-itpro/extensibility/modify-control-properties.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Stækka umfang númeraraða
+              href: ../../dev-itpro/extensibility/extend-number-sequence-scope.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Bæta við nýjum birgðavíddum
+              href: ../../dev-itpro/extensibility/inventory-dimensions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Stækkunarhæfni verðs og afsláttar
+              href: ../../dev-itpro/extensibility/pricing-app73.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Töflukortaviðbót
+              href: ../../dev-itpro/extensibility/map-extensions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Stækka töflukort sem eru notuð sem viðmót
+              href: ../../dev-itpro/extensibility/maps-as-interfaces.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Stækka töflukort sem eru notuð fyrir útgáfustjórnun
+              href: ../../dev-itpro/extensibility/maps-with-versioning.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Eykur nákvæmni aukastafa fyrir valdar gagnagerðir
+              href: ../../dev-itpro/extensibility/decimal-point-precision.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Býr til stækkanlegar lausnir
+          items:
+            - name: Skrifa stækkanlegan kóða
+              href: ../../dev-itpro/extensibility/writing-extensible-code.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Klasar
+              href: ../../dev-itpro/extensibility/extensible-classes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Aðferðir
+              href: ../../dev-itpro/extensibility/extensible-methods.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Skjámyndir
+              href: ../../dev-itpro/extensibility/extensible-forms.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Auknar gagnagerðir
+              href: ../../dev-itpro/extensibility/extensible-edts.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Stækkanlegir fasttextar
+              href: ../../dev-itpro/extensibility/extensible-enums.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Fulltrúar
+              href: ../../dev-itpro/extensibility/extensible-code-delegates.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Töflur
+              href: ../../dev-itpro/extensibility/extensible-tables.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Stækkunarhæfniseigindir fyrir aðferðir
+              href: ../../dev-itpro/extensibility/extensibility-attributes.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Breytingum skipt
+              href: ../../dev-itpro/extensibility/breaking-changes.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Afköst
+      items:
+        - name: Taka rakningar með Trace-þáttara
+          href: ../../dev-itpro/perf-test/trace-trace-tutorial.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Einstaklingsprófun með verkskráningu og SDK fyrir afköst
+          href: ../../dev-itpro/perf-test/single-user-test-perf-sdk.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Fjölnotendaprófun með SDK fyrir afköst og staðbundna prófunarstýringu
+          href: ../../dev-itpro/perf-test/multi-user-testing-local-test-controller.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Fjölnotendaprófun með SDK fyrir afköst og Azure DevOps
+          href: ../../dev-itpro/perf-test/multi-user-testing-perfsdk-azuredevops.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Leiðarvísir úrræðaleitar fyrir einstaklingsprófun eða fjölnotendaprófun með SDK fyrir afköst
+          href: ../../dev-itpro/perf-test/troubleshoot-perf-sdk-user-testing.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: SDK fyrir afköst og fjölnotendaprófun í innanhússumhverfi
+          href: ../../dev-itpro/perf-test/perfsdk-tutorial-lbd.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Greina vandamál og afköst með Trace parser
+          href: ../../dev-itpro/perf-test/trace-parser.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Afkastateljari
+          href: ../../dev-itpro/perf-test/performance-timer.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Stuðningur við prófun í Visual Studio
+      items:
+        - name: Prófun og villuleit
+          href: ../../dev-itpro/perf-test/testing-validation.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Prufuverk í Visual Studio
+          href: ../../dev-itpro/perf-test/testing-support.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Nota umhverfi sem styðja samfellda smíði og sjálfvirkni prófana
+          href: ../../dev-itpro/perf-test/continuous-build-test-automation.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: SysTest-síun með því að nota flokka og aðferðareigindir
+          href: ../../dev-itpro/perf-test/systest-filtering.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Safn samþykktarprófana
+          items:
+            - name: Tilföng fyrir safn samþykktarprófana
+              href: ../../dev-itpro/perf-test/acceptance-test-library.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Leiðsagnarhugtök
+              href: ../../dev-itpro/perf-test/concepts-navigation.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Prófa gagnaaðferðir
+              href: ../../dev-itpro/perf-test/test-data-methods.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Aðilar í safni samþykktarprófana
+              href: ../../dev-itpro/perf-test/concepts-entities.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Skipanir í safni samþykktarprófana
+              href: ../../dev-itpro/perf-test/concepts-commands.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Höfundar í safni samþykktarprófana
+              href: ../../dev-itpro/perf-test/concepts-creators.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Fyrirspurnir í safni samþykktarprófana
+              href: ../../dev-itpro/perf-test/concepts-queries.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Lýsingarklasar
+              href: ../../dev-itpro/perf-test/concepts-specifications.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Leiðsagnarforrit fyrir myndun kóða fyrir safn samþykktarprófana
+              href: ../../dev-itpro/perf-test/code-generation-wizard.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Bestu starfsvenjur fyrir safn samþykktarprófana
+              href: ../../dev-itpro/perf-test/atl-best-practices.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Algengar spurningar
+              href: ../../dev-itpro/perf-test/atl-faq.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Dagsetningarvirkni
+      href: ../../dev-itpro/dev-tools/date-effectivity.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Leyfisveiting óháðra hugbúnaðarsala
+      href: ../../dev-itpro/dev-tools/isv-licensing.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Leyfisveiting óháðra hugbúnaðarsala á staðnum
+      href: ../../dev-itpro/dev-tools/isv-licensing-on-prem.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Almenna persónuverndarreglugerðin (GDPR)
+  items:
+    - name: Yfirlit almennu persónuverndarreglugerðarinnar
+      href: ../../dev-itpro/gdpr/gdpr-guide.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Bregðast við gagnabeiðnum almennu persónuverndarreglugerðarinnar
+      items:
+        - name: Bregðast við tilföngum fyrir gagnabeiðni almennu persónuverndarreglugerðarinnar
+          href: ../../dev-itpro/gdpr/gdpr-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Flokkun eigna
+          href: ../../dev-itpro/gdpr/gdpr-asset-classification-values.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Skýrsla um leit að einstaklingi
+          href: ../../dev-itpro/gdpr/gdpr-person-search-report.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Útvíkka skýrslu um leit að einstaklingi
+          href: ../../dev-itpro/gdpr/gdpr-extend-person-search-report.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Stjórna aðgangi að viðkvæmum gögnum
+          href: ../../dev-itpro/gdpr/gdpr-auditing-sensitive-data.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Svara beiðnum um persónuleg gögn með Talent
+          href: ../../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Svara beiðnum um persónuleg gögn í AX 2012
+          href: ../../dev-itpro/gdpr/gdpr-ax2012.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: GDPR-gagnabeiðnir fyrir LCS
+          href: ../../dev-itpro/gdpr/gdpr-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Lifecycle Services
+  items:
+    - name: Tilföng fyrir Lifecycle Services
+      items:
+        - name: Tilföng Lifecycle Services
+          href: ../../dev-itpro/lifecycle-services/lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: LCS fyrir viðskiptavini
+          href: ../../dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: LCS fyrir samstarfsaðila
+          href: ../../dev-itpro/lifecycle-services/getting-started-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Nýjungar
+          href: ../../dev-itpro/lifecycle-services/whats-new-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Þekkt vandamál
+          href: ../../dev-itpro/lifecycle-services/known-issues.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Notkunarleiðbeiningar Lifecycle Services
+      href: ../../dev-itpro/lifecycle-services/lcs-user-guide.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Áskriftaráætlun
+      href: ../../dev-itpro/lifecycle-services/subscription-estimator.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Skilgreina öryggi
+      href: ../../dev-itpro/lifecycle-services/configure-lcs-security.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Vandamálaleit
+      href: ../../dev-itpro/lifecycle-services/issue-search-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Skilgreiningarstjórnun
+      items:
+        - name: Yfirlit skilgreiningarstjórnunar
+          href: ../../dev-itpro/lifecycle-services/configuration-manager-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Setja upp stjórnun skilgreininga
+          href: ../../dev-itpro/lifecycle-services/set-up-configuration-manager-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Skilgreina kóðauppfærsluþjónustu
+      href: ../../dev-itpro/lifecycle-services/configure-execute-code-upgrade.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Stofna eða uppfæra aðferðafræði
+      href: ../../dev-itpro/lifecycle-services/create-methodology.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Viðskiptaferlavinnsla
+      href: ../../dev-itpro/lifecycle-services/bpm-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Viðskiptaferlasöfn í viðskiptaferlavinnslu
+      href: ../../dev-itpro/lifecycle-services/business-process-libraries-business-process-modeler.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: 'Stofna, breyta og vafra söfn viðskiptaferlavinnslu'
+      href: ../../dev-itpro/lifecycle-services/creating-editing-browsing.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Ljúka verkum í viðskiptaferlavinnslu
+      href: ../../dev-itpro/lifecycle-services/complete-tasks-bpm.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Vinna með virkniskýringarmyndir í BPM-söfnum
+      href: ../../dev-itpro/lifecycle-services/using-activity-diagrams.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Samstilla BPM-söfn og Azure DevOps
+      href: ../../dev-itpro/lifecycle-services/synchronize-bpm-vsts.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Stofna söfn prófana á notandasamþykktum með verkleiðbeiningum og BPM
+      href: ../../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Flæðirit í viðskiptaferlavinnslu
+      href: ../../dev-itpro/lifecycle-services/flowcharts-business-process-modeler.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Hlaða upp sérstilltum viðskiptaferlum í viðskiptaferlavinnslu
+      href: ../../dev-itpro/lifecycle-services/upload-business-processes-bpm-task-recorder.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Eftirlit og greiningar
+      href: ../../dev-itpro/lifecycle-services/monitoring-diagnostics.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Endurræsa umhverfisþjónustu
+      href: ../../dev-itpro/lifecycle-services/restart-environment-services.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Tilkynna framleiðslustöðvun
+      href: ../../dev-itpro/lifecycle-services/report-production-outage.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Rekja innskráningar notenda
+      href: ../../dev-itpro/lifecycle-services/user-logins.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Eignasafn
+      href: ../../dev-itpro/lifecycle-services/asset-library.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Úrræðaleit afkasta með því að nota verkfæri í LCS
+      href: ../../dev-itpro/lifecycle-services/performancetroubleshooting.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Fyrirspurnabók
+      href: ../../dev-itpro/lifecycle-services/querycookbook.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Microsoft Dynamics 365 Translation Service
+      items:
+        - name: Yfirlit Dynamics 365 Translation Service
+          href: ../../dev-itpro/lifecycle-services/translation-service-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Þýða notendaviðmótsskrár
+          href: ../../dev-itpro/lifecycle-services/use-translation-service.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Þýða fylgiskjalaskrár
+          href: ../../dev-itpro/lifecycle-services/use-translation-service-ua.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Skrár þýðingaminnis
+          href: ../../dev-itpro/lifecycle-services/use-translation-service-tm.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Fartækjaverkvangur
+  items:
+    - name: Tilföng fartækjaverkvangs
+      href: ../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Hefjast handa
+      items:
+        - name: Hefjast handa með fartækjaverkvang
+          href: ../../dev-itpro/mobile-apps/platform/mobile-platform-getting-started.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Atriði sem þarf að hafa í huga við hönnun og skipulag
+          href: ../../dev-itpro/mobile-apps/platform/mobile-platform-architecture.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Viðskiptagrunnstilvik
+          href: ../../dev-itpro/mobile-apps/platform/business-logic-events-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Leiðbeiningar fyrir síðuhönnun
+          href: ../../dev-itpro/mobile-apps/platform/page-design-guidelines.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Leiðbeiningar fyrir aðgerðahönnun
+          href: ../../dev-itpro/mobile-apps/platform/action-design-guidelines.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Leiðbeiningar fyrir skjámyndahönnun
+          href: ../../dev-itpro/mobile-apps/platform/form-design-requirements.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Algeng verk
+      items:
+        - name: Skilgreina vinnusvæði með SysAppWorkspace-klasanum
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/mobile-workspace-configuration.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Gera reiti á fartækjaforritssíðu þannig að hægt sé að smella á þá
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/make-workspace-field-clickable.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sýna talningar í reitum
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/display-count-workspace.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Hjálpa til við að tryggja fartækjavinnusvæði
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/secure-mobile-workspace.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Staðfæra fartækjavinnusvæði
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/localize-workspaces-on-server.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Gera reiti áskilda með vinnusvæðaklösum
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/make-field-mandatory.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Þróunartilvísun þjónsmegin
+      items:
+        - name: Þróun þjónsmegin (vinnusvæði X++ API)
+          href: ../../dev-itpro/mobile-apps/platform/mobile-workspace-server-apis.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Þróunartilvísun biðlaramegin
+      items:
+        - name: API fyrir hönnun biðlaramegin
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/client-api-design-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: API fyrir biðlara
+          items:
+            - name: API fyrir biðlara – heimasíða
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/client-apis-reference.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageState-tölusetning
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Forritseining
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/services-application.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Frestunareining
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/defer.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Tilvikseining
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/event-ievent.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Stjórneining
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Hólfeining
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Reitaeining
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Skráaupphleðslueining
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-fileuploader-ifileuploader.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Flokkseining
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-group-igroup.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Tengilseining
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-hyperlink-ihyperlink.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Myndeining
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-image-iimage.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Inntakseining
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-iinputcontrol.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Listaeining
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-list-ilist.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Uppflettieining
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-lookup-ilookup.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Fjöluppflettieining
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Síðueining
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-ipage.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Pagelink-eining
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Hlutareining
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-part-ipart.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Þjónustueining
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/services-business-logic-services.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Gildiseining
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Gerð forrits
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-application-iapplication.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ApplicationMetadata-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: AsyncService-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-iasyncservice.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: CacheService-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-icacheservice.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: CompleteEventArgs-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-icompleteeventargs.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ContainerControl-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrol.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ContainerControlDesign-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontroldesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ContainerControlMetadata-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrolmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ControlMetadata-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: DataService-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Frestunargerð<T>
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/defer-ideferred.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Hönnunargerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: EventHook-gerð<T>
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Gerð reits
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: FieldDesign-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: FieldMetadata-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifieldmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: FileUploader-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploader.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: FileUploaderDesign-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploaderdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: FileUploaderMetadata-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploadermetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: GenericValue-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: getDataSource-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Flokksgerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: GroupDesign-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: GroupMetadata-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: HyperLink-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlink.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: HyperLinkDesign-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: HyperLinkMetadata-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Gerð myndar
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ImageDesign-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ImageMetadata-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagemetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: InputControl-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrol.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: InputControlDesign-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: InputControlMetadata-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Gerð lista
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ListDesign-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ListMetadata-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Uppflettigerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: LookupDesign-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: LookupMetadata-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: MetadataService-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-imetadataservice.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: MultiLookup-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookup.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: MultiLookupDesign-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: MultiLookupMetadata-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: NavigationArgs-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: NumberSequenceConfig-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Gerð síðu
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageData-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageLink-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelink.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageLinkDesign-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageLinkMetadata-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageMetadata-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagemetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageOptions-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipageoptions.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageSubmitArgs-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagesubmitargs.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PageTarget-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagetarget.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Gerð hlutar
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipart.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PartDesign-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: PartMetadata-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Gerð raðar
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Gerð gildis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ValueDesign-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: ValueMetadata-gerð
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Regression Suite Automation Tool
+  items:
+    - name: Yfirlit yfir Regression Suite Automation Tool
+      href: ../../dev-itpro/perf-test/rsat/rsat-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Uppsetning og grunnstilling
+      href: ../../dev-itpro/perf-test/rsat/rsat-install-configure.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Prófun óháð gögnum með Regression Suite Automation Tool
+      href: ../../fin-and-ops/get-started/recommendation-data-agnostic-testing-rsat.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Keyra prófunardæmi
+      href: ../../dev-itpro/perf-test/rsat/rsat-run.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Framkvæma villuleit á væntanlegum gildum
+      href: ../../dev-itpro/perf-test/rsat/rsat-validate-expected.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Samtvinnað prófunardæmi
+      href: ../../dev-itpro/perf-test/rsat/rsat-chain-test-cases.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Afleidd prófunardæmi
+      href: ../../dev-itpro/perf-test/rsat/rsat-derived-test-cases.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Nota kennslu fyrir Regression Suite Automation Tool
+      href: ../../fin-and-ops/get-started/hol-use-regression-suite-automation-tool.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Bestu starfsvenjur
+      href: ../../dev-itpro/perf-test/rsat/rsat-best-practices.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Úrræðaleit
+      href: ../../dev-itpro/perf-test/rsat/rsat-troubleshooting.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Gefa út lausnir með Lifecycle Services
+  items:
+    - name: Þróa og gefa út
+      href: ../../dev-itpro/lcs-solutions/lcs-solutions-app-source.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Setja upp og birta
+      href: ../../dev-itpro/lcs-solutions/marketing-content-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Bæta við aðferðafræði
+      href: ../../dev-itpro/lcs-solutions/methodologies-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Setja upp söfn viðskiptaferlavinnslu
+      href: ../../dev-itpro/lcs-solutions/business-process-modeler-libraries-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Yfirfæra kóða
+      href: ../../dev-itpro/lcs-solutions/code-migration-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Framkvæma villuleit í forritum
+      href: ../../dev-itpro/lcs-solutions/app-validation-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Vinnsla og notkun gagnapakka
+      href: ../../dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Taka öryggisafrit af lausnagagnagrunnum
+      href: ../../dev-itpro/lcs-solutions/database-backup-lcs-solutions.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Staðfærslu- og eftirlitseiginleikar
+      items:
+        - name: Altæk tilföng
+          href: ../../dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Flokkun staðfærslueiginleika
+          href: ../../dev-itpro/lcs-solutions/classify-localization-features.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Nota lands-/svæðistengt samhengi
+          href: ../../dev-itpro/lcs-solutions/apply-country-context.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Upplýsingar um regluvottanir í heiti eiginleika
+          href: ../../dev-itpro/lcs-solutions/regulatory-certifications.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Regluuppfærslur
+          href: ../../dev-itpro/lcs-solutions/regulatory-watch-communication.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Aðskilnaður staðfærslulíkana
+          href: ../../dev-itpro/lcs-solutions/separate-localization-models.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Senda inn lögboðnar viðvaranir
+          href: ../../dev-itpro/lcs-solutions/submit-localization-alerts.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Stuðningur
+  items:
+    - name: Fá stuðning fyrir Finance and Operations og Lifecycle Services
+      href: ../../dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Yfirlit yfir þjónustu við Dynamics 365
+      href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/retail/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
+    - name: Fá stuðning fyrir Finance and Operations sem er rekið af 21Vianet í Kína
+      href: ../../dev-itpro/lifecycle-services/21vianet-support.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Skrá Premier-þjónustubeiðni
+      href: ../../dev-itpro/lifecycle-services/premier-support.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Senda inn beiðnir til starfsfólks Dynamics Service Engineering
+      href: ../../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Setja upp tæknilegan stuðning fyrir Finance and Operations
+      href: ../../dev-itpro/lifecycle-services/support-experience.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Algengar spurningar um tímaramma áætlaðs viðhalds
+      href: ../../dev-itpro/lifecycle-services/planned-maintenance-window-faq.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Aðgerðir og þjónusta í skýi
+      href: ../../dev-itpro/lifecycle-services/cloud-operations-servicing.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Stjórna upplifun stuðnings fyrir Finance and Operations
+      href: ../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Kerfisstjórnun
+  items:
+    - name: Kerfisstjórnun – heimasíða
+      href: ../../dev-itpro/sysadmin/system-administration-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Bæta tenglum við í lagalega skilmála og persónuverndaryfirlýsingu fyrirtækisins
+      href: ../../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Leyfiskóðar og skilgreiningarlyklaskýrsla
+      href: ../../dev-itpro/sysadmin/license-codes-configuration-keys-report.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Samnýting gagna milli fyrirtækja
+      href: ../../dev-itpro/sysadmin/cross-company-data-sharing.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Viðhaldsstilling
+      href: ../../dev-itpro/sysadmin/maintenance-mode.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Forstilltir kerfisreikningar
+      href: ../../dev-itpro/sysadmin/pre-configured-system-accounts.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Flytja notendur milli fyrirtækja í Azure AD
+      href: ../../dev-itpro/sysadmin/implement-b2b.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Öryggi
+      items:
+        - name: Öryggi byggt á hlutverkum
+          href: ../../dev-itpro/sysadmin/role-based-security.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Öryggisskipulag
+          href: ../../dev-itpro/sysadmin/security-architecture.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Velja hvenær tími rennur út vegna aðgerðaleysis
+          href: ../../dev-itpro/sysadmin/session-idle-timeout.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Tilbúnar öryggisskýrslur
+          href: ../../dev-itpro/sysadmin/security-reports.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Búa til nýja notendur
+          href: ../../dev-itpro/sysadmin/tasks/create-new-users.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Flytja inn marga notendur í einu
+          href: ../../dev-itpro/sysadmin/tasks/import-bulk-users.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Setja upp aðskilnað á skyldum
+          href: ../../dev-itpro/sysadmin/tasks/set-up-segregation-duties.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Auðkenna og leysa úr árekstrum innan aðskilnaðar á skyldum
+          href: ../../dev-itpro/sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Úthluta notendum á öryggishlutverk
+          href: ../../dev-itpro/sysadmin/tasks/assign-users-security-roles.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Runuvinnsla
+      items:
+        - name: Yfirlit runuvinnslu
+          href: ../../dev-itpro/sysadmin/batch-processing-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Runuvinnsla og runuþjónar
+          href: ../../dev-itpro/sysadmin/batch-server-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Búa til runuvinnslur
+          href: ../../dev-itpro/sysadmin/tasks/create-batch-job.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Afrita runuvinnslu
+          href: ../../dev-itpro/sysadmin/copy-batch-job.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Virk runutímabil
+          href: ../../dev-itpro/sysadmin/activeperiod.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Öryggishlutverk runuumsjónar
+          href: ../../dev-itpro/sysadmin/runby.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Runuvinnsla fyrir endurröðun SQL-atriðaskráar
+          href: ../../dev-itpro/sysadmin/batch-job-SQL-defragmentation.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Skilgreina runuviðvaranir
+          href: ../../dev-itpro/sysadmin/alerts.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Auknar runuskjámyndir
+          href: ../../dev-itpro/sysadmin/enhanced-forms.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Taka til í runuferlinum
+          href: ../../dev-itpro/sysadmin/batch-history-cleanup.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Hætta við runuvinnslu í framkvæmd
+          href: ../../dev-itpro/sysadmin/batch-abort.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Fínstillingarráðgjöf
+      items:
+        - name: Yfirlit yfir Fínstillingarráðgjöf
+          href: ../../dev-itpro/sysadmin/optimization-advisor-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Búa til reglur fyrir fínstillingarráðgjöf
+          href: ../../dev-itpro/sysadmin/create-rules-optimization-advisor.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Tilkynna framleiðslustöðvun
+      href: ../../dev-itpro/lifecycle-services/report-production-outage.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Uppfærslur og bráðabætur
+  items:
+    - name: Tilföng uppfærslna og bráðabóta
+      href: ../../dev-itpro/migration-upgrade/upgrade-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Uppfæra úr AX 2012
+      items:
+        - name: Uppfærsla úr AX 2012 í Finance and Operations
+          href: ../../dev-itpro/migration-upgrade/upgrade-overview-2012.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 uppfærsla - Nota uppfærslugreiningarverkfæri til áætlunar
+          href: ../../dev-itpro/migration-upgrade/upgrade-analyzer-tool.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 uppfærsla - Nota kóðauppfærsluþjónustu til að meta vinnu
+          href: ../../dev-itpro/migration-upgrade/analyze-code-upgrade.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 uppfærsla - Nota sýniútgáfuumhverfi til greiningar
+          href: ../../dev-itpro/migration-upgrade/analysis-sandbox.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 uppfærsla - Gagnauppfærsla í þróunarumhverfi
+          href: ../../dev-itpro/migration-upgrade/data-upgrade-2012.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 uppfærsla - Uppfærslutékklisti fyrir gagnauppfærslu
+          href: ../../dev-itpro/migration-upgrade/prepare-data-upgrade.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 uppfærsla - Gagnauppfærsla í sandkassaumhverfi
+          href: ../../dev-itpro/migration-upgrade/upgrade-data-sandbox.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 uppfærsla - Flutningsprófun
+          href: ../../dev-itpro/migration-upgrade/upgrade-cutover-testing.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 uppfærsla - verk eftir uppfærslu
+          href: ../../dev-itpro/migration-upgrade/app-validation-process.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 uppfærsla - Virknipróf staðið
+          href: ../../dev-itpro/migration-upgrade/upgrade-functional-validation.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 uppfærsla - Undirbúa keyrslu
+          href: ../../dev-itpro/migration-upgrade/upgrade-go-live-prep.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: AX 2012 uppfærsla - Keyrsla
+          href: ../../dev-itpro/migration-upgrade/2012-upgrade-cutover.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Breytingar sem hafa áhrif á uppfærslu úr AX 2012
+          items:
+            - name: Gera skiltákn bókhaldslykils einkvæmt
+              href: ../../dev-itpro/migration-upgrade/chart-accounts-delimiter-unique.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Uppfæra færslubækur með eitt fylgiskjal og endurmat á gjaldmiðli
+              href: ../../dev-itpro/migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Gagnalíkan tilfangaáætlunar verks
+              href: ../../dev-itpro/migration-upgrade/data-model-changes-resource-management.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Breytingar á undirkerfi verkflæðis
+              href: ../../dev-itpro/migration-upgrade/workflow-subsystem.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Samantektarlíkön notuð við greiningar í staðinn fyrir tengingar
+              href: ../../dev-itpro/migration-upgrade/in-memory-real-time-aggregate-models.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Flytja uppfærða söluteninga í einingaverslunina
+              href: ../../dev-itpro/migration-upgrade/migrate-upgraded-cube-entity-store.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Uppfæra fjárhagsáætlunargerð
+              href: ../../dev-itpro/migration-upgrade/upgrade-budget-planning.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Flytja gögn úr AX 2009
+      items:
+        - name: Flytja gögn úr AX 2009 í Finance and Operations
+          href: ../../dev-itpro/migration-upgrade/data-migration-tool.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Flutningur AX 2009 - setja upp gagnaflutningsverkfærið
+          href: ../../dev-itpro/migration-upgrade/install-dmt.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Flutningur AX 2009 - búa til kort
+          href: ../../dev-itpro/migration-upgrade/generate-maps.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Flutningur AX 2009 - búa til sniðmát
+          href: ../../dev-itpro/migration-upgrade/create-package-templates-dmt.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Flutningur AX 2009 - búa til flutningshópa
+          href: ../../dev-itpro/migration-upgrade/create-definition.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Flutningur AX 2009 - flytja út pakka
+          href: ../../dev-itpro/migration-upgrade/ax2009-upgrade-export-package.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Flutningur AX 2009 - flytja inn pakka
+          href: ../../dev-itpro/migration-upgrade/ax2009-upgrade-import-package.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Kóðaflutningur og uppfærsla
+      items:
+        - name: Kóðaflutningur og uppfærsla – heimasíða
+          href: ../../dev-itpro/migration-upgrade/code-migration-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Undirbúa flutning kóða
+          href: ../../dev-itpro/migration-upgrade/prepare-migration.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Skilgreina vörpun Azure DevOps
+          href: ../../dev-itpro/migration-upgrade/configure-vso-solution.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Líkani skipt
+          href: ../../dev-itpro/dev-tools/model-split.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Leysa tengsl meðal líkana og fulltrúa
+          href: ../../dev-itpro/migration-upgrade/delegates-migration.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Uppfæra í nýjustu uppfærslu (ský)
+      items:
+        - name: Ferli fyrir flutning í nýjustu uppfærslu
+          href: ../../dev-itpro/migration-upgrade/upgrade-latest-update.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Slóðir á „Ein útgáfa“
+          items:
+            - name: Sjálfsafgreiðsluuppfærsla í nýjustu útgáfu
+              href: ../../dev-itpro/migration-upgrade/self-service-upgrade.md?toc=/dynamics365/unified-operations/financials/toc.json
+            - name: Endursmíða og uppfæra í nýjustu útgáfu
+              href: ../../dev-itpro/migration-upgrade/appupdate-80-81.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Reglur um stuðningstíma hugbúnaðar og skýjaútgáfur
+          href: ../../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Nota nýjustu uppfærslu verkvangs á umhverfi
+          href: ../../dev-itpro/migration-upgrade/upgrade-latest-platform-update.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Uppfærsla gagna í þróunar- eða sýniútgáfuumhverfi
+          href: ../../dev-itpro/migration-upgrade/upgrade-data-to-latest-update.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Uppfæra þróunarverkfæri
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Áætlun og undirbúningur fyrir að þýða kóðann samkvæmt nýjustu uppfærslu
+          href: ../../dev-itpro/migration-upgrade/compile-considerations.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Uppfæra í nýlega uppfærslu (á staðnum)
+      items:
+        - name: Virkja uppfærslur í uppsetningum á staðnum
+          href: ../../dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Setja uppsetningu á staðnum aftur upp
+          href: ../../dev-itpro/deployment/redeploy-on-prem.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Uppfærsla sett upp á staðnum fyrir 7.x til 8.1
+          href: ../../dev-itpro/migration-upgrade/on-prem-upgrade.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Bráðabætur
+      items:
+        - name: Sækja uppfærslur úr Lifecycle Services
+          href: ../../dev-itpro/migration-upgrade/download-hotfix-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Nota uppfærslur á skýjaumhverfi
+          href: ../../dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Setja upp lýsigagnabráðabætur í þróunarumhverfi
+          href: ../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Endurbæta Reporting Services í heildrænu umhverfi
+          href: ../../dev-itpro/migration-upgrade/patch-reporting-service-environment.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Uppfæra Visual Studio-þróunarverkfæri
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Afskriftir
+      items:
+        - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
+          href: ../../dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Úrelding aðferða og eininga lýsigagna
+          href: ../../dev-itpro/migration-upgrade/deprecation-deletion-apis.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Úrelt API
+          href: ../../dev-itpro/migration-upgrade/deprecated-apis.md?toc=/dynamics365/unified-operations/financials/toc.json
+- name: Þróun á notandaviðmóti
+  items:
+    - name: Þróun á notandaviðmóti – heimasíða
+      href: ../../dev-itpro/user-interface/user-interface-development-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Kennsla
+      items:
+        - name: Smíða skjámynd leigugjaldsgerðar
+          href: ../../dev-itpro/user-interface/build-rental-charge-type-form.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Smíða skjámynd viðskiptavinar
+          href: ../../dev-itpro/user-interface/build-customer-form.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Smíða yfirlit
+          href: ../../dev-itpro/user-interface/build-navigation.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Smíða vinnusvæði
+          href: ../../dev-itpro/user-interface/build-workspace.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Skjámyndir
+      items:
+        - name: Leiðsagnarhugtök
+          href: ../../dev-itpro/user-interface/page-navigation.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Útlit síðu í vefbiðlara
+          href: ../../dev-itpro/user-interface/page-layout.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Leturgerð Dynamics-tákns
+          href: ../../dev-itpro/user-interface/symbol-font.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Vistuð yfirlit
+          href: ../../fin-and-ops/get-started/saved-views.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Búa til skjámyndir sem nýta vistuð yfirlit til fullnustu
+          href: ../../dev-itpro/user-interface/understanding-saved-views.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Prófa skjámyndir sem nota sérsniðin mynstur
+          href: ../../dev-itpro/user-interface/testing-forms-custom-patterns.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Búa til læstar vefslóðir sem hægt er að deila (djúpir tenglar)
+          href: ../../dev-itpro/user-interface/create-deep-links.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Aðgengi í skjámyndum, afurðum og stýringum'
+          href: ../../dev-itpro/user-interface/enable-accessibility.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sérstilla lýsingar á reit
+          href: ../../dev-itpro/user-interface/customize-field-help.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Stýringar
+      items:
+        - name: Aðgerðastýringar
+          href: ../../dev-itpro/user-interface/action-controls.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Inntaksstýringar og dálkstærðir í hnitaneti
+          href: ../../dev-itpro/user-interface/sizing-input-controls-grid-columns.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Gátreitsstuðningur í tréstýringum
+          href: ../../dev-itpro/user-interface/check-box-tree-controls.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Síuvalkostir
+          href: ../../dev-itpro/user-interface/filtering.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: PowerApps-hýsilstýring
+          href: ../../dev-itpro/user-interface/powerapps-host-control.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Gluggastjórnun
+      items:
+        - name: Flytja kóða efnisvalmyndar
+          href: ../../dev-itpro/migration-upgrade/code-migration-context-menus.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Flytja röklegar reglur um tvísmellingu músar
+          href: ../../dev-itpro/migration-upgrade/code-migration-double-click.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Gagnafærsla í samhengi fyrir uppflettingar
+          href: ../../dev-itpro/user-interface/contextual-data-entry-lookups.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: HierarchyViewer-stýring
+          href: ../../dev-itpro/user-interface/hierarchy-viewer-control.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Uppflettistýringar
+          href: ../../dev-itpro/user-interface/lookups-controls.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Stýring skráaupphleðslu
+          href: ../../dev-itpro/user-interface/file-upload-control.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Kerfisskilgreindir hnappar
+          href: ../../dev-itpro/user-interface/system-defined-buttons.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Myndir á síðu eða í hnitaneti
+          href: ../../dev-itpro/user-interface/images-form-grid.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Letur- og bakgrunnslitir fyrir innsláttar-, töflu- og hnitanetsstýringar'
+          href: ../../dev-itpro/user-interface/specify-color-font-background-controls.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Stuðningur við tungumál sem ritað er frá hægri til vinstri og tvíátta texti
+          href: ../../dev-itpro/user-interface/bidirectional-support.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Búa til tákn fyrir vinnusvæðisreiti
+          href: ../../dev-itpro/user-interface/create-icons-workspace-tiles.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Opin JavaScript-API fyrir stækkanlegar stýringar
+          href: ../../dev-itpro/user-interface/public-javascript-apis.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Stýringargátlisti
+          href: ../../dev-itpro/user-interface/control-checklist.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Skilaboð
+      items:
+        - name: Skýringartextar fyrir eiginleika
+          href: ../../dev-itpro/user-interface/feature-callouts.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Sleði og MessageBox-svargluggar
+          href: ../../dev-itpro/user-interface/slider-messagebox.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Skilaboðamiðstöð, skilaboðastika og API fyrir upplýsingar um skilaboð'
+          href: ../../dev-itpro/user-interface/messaging-api-center-bar-details.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: 'Algengar spurningar um skilaboðamiðstöð, skilaboðastiku og upplýsingar um skilaboð'
+          href: ../../dev-itpro/user-interface/messaging-user.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Leiðbeiningar um skjámyndamynstur
+      items:
+        - name: Skjámyndamynstur fyrir yfirfærðar skjámyndir
+          href: ../../dev-itpro/user-interface/select-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Skjámyndastílar og mynstur
+          href: ../../dev-itpro/user-interface/form-styles-patterns.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Innbætur í Visual Studio sem styðja skjámyndamynstur
+          href: ../../dev-itpro/user-interface/form-pattern-add-ins.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Skjámyndamynstur
+      items:
+        - name: Almennar leiðbeiningar fyrir skjámyndir
+          href: ../../dev-itpro/user-interface/general-form-guidelines.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mynstur aðalskjámyndar upplýsinga
+          href: ../../dev-itpro/user-interface/details-master-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mynstur færsluskjámyndar upplýsinga
+          href: ../../dev-itpro/user-interface/details-transaction-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mynstur listaskjámyndar skjámyndarhluta
+          href: ../../dev-itpro/user-interface/section-list-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mynstur listasíðuskjámyndar
+          href: ../../dev-itpro/user-interface/list-page-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mynstur einfaldrar upplýsingaskjámyndar
+          href: ../../dev-itpro/user-interface/simple-details-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mynstur einfaldrar lista- og upplýsingaskjámyndar
+          href: ../../dev-itpro/user-interface/simple-list-details-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mynstur einfaldrar listaskjámyndar
+          href: ../../dev-itpro/user-interface/simple-list-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mynstur efnisyfirlitsskjámyndar
+          href: ../../dev-itpro/user-interface/table-of-contents-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mynstur tvöfaldrar skjámyndar verkefnis
+          href: ../../dev-itpro/user-interface/task-double-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mynstur einfaldrar skjámyndar verkefnis
+          href: ../../dev-itpro/user-interface/task-single-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mynstur skjámyndar leiðsagnarforrits
+          href: ../../dev-itpro/user-interface/wizard-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mynstur skjámyndar vinnusvæðis
+          href: ../../dev-itpro/user-interface/workspace-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Mynstur aukaskjámyndar
+      items:
+        - name: Mynstur skjámyndar fyrir ítarlegt val
+          href: ../../dev-itpro/user-interface/advanced-selection-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mynstur svargluggaskjámyndar
+          href: ../../dev-itpro/user-interface/dialog-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mynstur felligluggaskjámyndar
+          href: ../../dev-itpro/user-interface/drop-dialog-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mynstur uppflettingarskjámyndar
+          href: ../../dev-itpro/user-interface/lookup-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mynstur skjámyndar upplýsingareits
+          href: ../../dev-itpro/user-interface/factbox-form-patterns.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Undirmynstur
+      items:
+        - name: Undirmynstur sérstillts síuflokks
+          href: ../../dev-itpro/user-interface/custom-filter-group-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Undirmynstur víddarfærslustýringar
+          href: ../../dev-itpro/financial/dimension-entry-control-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Undirmynstur smíðakerfis víddarsegðar
+          href: ../../dev-itpro/financial/dimension-expression-builder-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Undirmynstur reita og reitaflokka
+          href: ../../dev-itpro/user-interface/fields-field-groups-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Undirmynstur sía og tækjastiku
+          href: ../../dev-itpro/user-interface/filters-toolbar-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Undirmynstur fyllingartexta
+          href: ../../dev-itpro/user-interface/fill-text-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Undirmynstur láréttra reita og hnappaflokka
+          href: ../../dev-itpro/user-interface/horizontal-fields-buttons-group-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Undirmynstur myndaforskoðunar
+          href: ../../dev-itpro/user-interface/image-preview-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Undirmynstur listaglugga
+          href: ../../dev-itpro/user-interface/list-panel-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Undirmynstur faldaðs einfalds lista og upplýsinga
+          href: ../../dev-itpro/user-interface/nested-simple-list-details-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Mynstur myndritsskjámyndar hluta
+          href: ../../dev-itpro/user-interface/section-chart-form-pattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Undirmynstur hluta Power BI
+          href: ../../dev-itpro/user-interface/section-powerbi-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Undirmynstur tengdra tengla hluta
+          href: ../../dev-itpro/user-interface/section-related-links-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Undirmynstur staflaðs myndrits hluta
+          href: ../../dev-itpro/user-interface/section-stacked-chart-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Undirmynstur flipalista hluta
+          href: ../../dev-itpro/user-interface/section-tabbed-list-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Undirmynstur hlutareita
+          href: ../../dev-itpro/user-interface/section-tiles-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Undirmynstur töflureita
+          href: ../../dev-itpro/user-interface/tabular-fields-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Undirmynstur tækjastiku og reita
+          href: ../../dev-itpro/user-interface/toolbar-fields-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Undirmynstur tækjastiku og lista
+          href: ../../dev-itpro/user-interface/toolbar-list-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Undirmynstur síuflokks vinnusvæðissíðu
+          href: ../../dev-itpro/user-interface/workspace-filter-group-subpattern.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Stækkunarhæfni stýringar
+      items:
+        - name: Smíða stækkanlegar stýringar
+          href: ../../dev-itpro/user-interface/build-extensible-control.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Flýtilyklar fyrir stækkanlegar stýringar
+          href: ../../dev-itpro/user-interface/keyboard-shortcuts-controls.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Tilvísun í forritun stækkanlegrar stýringar
+          href: ../../dev-itpro/user-interface/extensible-control-programming-reference.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Stækkunarhæfni stýringar
+          href: ../../dev-itpro/user-interface/control-extensibility.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Þýðanleg merki búin til
+          href: ../../dev-itpro/user-interface/create-localizable-labels-client.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Leiðbeiningar fyrir útlit stækkanlegrar stýringar
+          href: ../../dev-itpro/user-interface/extensible-controls-layout.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Stjórnun textans sem verkskráning myndar fyrir stýringu
+          href: ../../dev-itpro/user-interface/task-recorder-control-text.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Smíða vinnusvæði
+      items:
+        - name: Smíði virkra vinnusvæða
+          href: ../../dev-itpro/user-interface/build-workspaces.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Biðminnisvistun reits og lista fyrir vinnusvæði
+          href: ../../dev-itpro/user-interface/tile-list-caching-workspaces.md?toc=/dynamics365/unified-operations/financials/toc.json
+    - name: Verkskráning
+      items:
+        - name: Tilföng verkskráningar
+          href: ../../dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Flýtitilvísun verkskráningar
+          href: ../../dev-itpro/user-interface/task-recorder-quick-reference.md?toc=/dynamics365/unified-operations/financials/toc.json
+        - name: Búa til fylgiskjöl eða þjálfun með verkskráningum
+          href: ../../dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/unified-operations/financials/toc.json

@@ -1,6 +1,6 @@
 ---
 title: Samræmisprófun smásölufærslna
-description: Þetta efnisatriði lýsir virkni samræmisprófunar smásölufærslna í Microsoft Dynamics 365 for Retail.
+description: Þetta efnisatriði lýsir virkni samræmisprófunar smásölufærslna í Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f94a674e021d4f23480433440cd239b851491d87
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 0413c2b236e442fb56098f1902b4d5b247ed4649
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790422"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018415"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Samræmisprófun smásölufærslna
 
@@ -31,9 +31,9 @@ ms.locfileid: "1790422"
 [!include [banner](includes/banner.md)]
 [!include [preview banner](includes/preview-banner.md)]
 
-Þetta efnisatriði lýsir virkni samræmisprófunar smásölufærslna sem kynnt var til sögunnar í Microsoft Dynamics 365 for Finance and Operations útgáfu 8.1.3. Í samræmisprófuninni eru færslur með ósamræmi greindar og einangraðar áður en þær eru teknar inn í bókunarferlið.
+Þetta efnisatriði lýsir virkni samræmisprófunar smásölufærslna. Í samræmisprófuninni eru færslur með ósamræmi greindar og einangraðar áður en þær eru teknar inn í bókunarferlið.
 
-Þegar uppgjör er bókað í Microsoft Dynamics 365 for Retail getur bókun mistekist vegna ósamræmis í gögnum í færslutöflum smásölunnar. Gagnavillan getur orðið vegna ófyrirséðra vandamála í forritinu á sölustað (POS) eða vegna villu í flutningi á færslum úr sölustaðarkerfi þriðja aðila. Dæmi um þessi ósamræmi eru meðal annars: 
+Þegar uppgjör er bókað í Retail getur birtingin mistekist vegna ósamstæðra gagna í færslutöflum. Gagnavillan getur orðið vegna ófyrirséðra vandamála í forritinu á sölustað (POS) eða vegna villu í flutningi á færslum úr sölustaðarkerfi þriðja aðila. Dæmi um þessi ósamræmi eru meðal annars: 
 
 - Heildarfærsla í haustöflu er ekki í samræmi við heildarfærslu í línunum.
 - Línufjöldi í haustöflu er ekki í samræmi við fjölda lína í færslutöflunni.
