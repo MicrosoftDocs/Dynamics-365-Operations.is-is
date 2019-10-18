@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.openlocfilehash: 55e0d128cdc12843763f81014edd1846b35ed220
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 694835d20e3401aaeb22aa19082a2cd0e3a0163a
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739795"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010707"
 ---
 # <a name="create-a-process-template"></a>Búa til sniðmát fyrir ferli
 
 [!include [banner](includes/banner.md)]
 
-*Sniðmát ráðningarferlisins* inniheldur allar aðgerðir sem ætti að vera hluti af ráðningarferli fyrir starf. Þetta efni lýsir grunnatriðum sniðmáts ferlis í Dynamics 365 for Talent: Attract. Það útskýrir einnig hvernig á að búa til sniðmát.
+*Sniðmát ráðningarferlisins* inniheldur allar aðgerðir sem ætti að vera hluti af ráðningarferli fyrir starf. Þetta efni lýsir grunnatriðum sniðmáts ferlis í Dynamics 365 Talent: Attract. Það útskýrir einnig hvernig á að búa til sniðmát.
 
 > [!NOTE]
 > Sköpun sniðmáts er hluti af Viðbót við alhliða ráðningar fyrir Attract.

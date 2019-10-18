@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7c7d1fcaaeef7a01b43886e4d69458dbd942439
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: df9692dc168e9efb653b20c677cd6e3bb0bd8756
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556876"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250715"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Gera handvirkar leiðréttingar á grunnlínuspánni
 
@@ -70,10 +70,10 @@ Hægt er að opna **upplýsingar eftirspurnarspár** síðu til að skoða freka
 
 **Athugasemdir :**
 
--   Áreiðanleikabil sem birtist í á **Spá** hluta síðan sýnir mismuninn á milli efri mörk áreiðanleikabils og neðri mörk áreiðanleikabils. Til að sjá gildi fyrir efri og neðri mörk , settu  músabendil yfir línurit í á **söguleg eftirspurn og spá myndrænt** hluta.
--   Ef notuð er Finance and Operations eftirspurnarspá í Microsoft Azure Machine Learning service, er hægt að tilgreina prósentu áreiðanleikastigs sem mynduð spá á að hafa. Áreiðanleikabil samanstendur af sviði gilda sem virka sem áreiðanlegt mat fyrir  eftirspurnarspána. Til dæmis gefur 95% áreiðanleikastig til kynna að það séu 5% líkur á að eftirspurnarspá falli utan sviðs áreiðanleikabils.
+-   Áreiðanleikabil sem birtist í á **Spá** hluta síðan sýnir mismuninn á milli efri mörk áreiðanleikabils og neðri mörk áreiðanleikabils. Til að sjá gildi fyrir efri og neðri mörk , settu músabendil yfir línurit í á **söguleg eftirspurn og spá myndrænt** hluta.
+-   Ef notuð er eftirspurnarspá í Microsoft Azure Machine Learning service, er hægt að tilgreina prósentu áreiðanleikastigs sem mynduð spá á að hafa. Áreiðanleikabil samanstendur af sviði gilda sem virka sem áreiðanlegt mat fyrir eftirspurnarspána. Til dæmis gefur 95% áreiðanleikastig til kynna að það séu 5% líkur á að eftirspurnarspá falli utan sviðs áreiðanleikabils.
 
-Einnig er hægt að gera handvirkar leiðréttingar á spá  í **upplýsingar eftirspurnarspár** síðu með því að breyta gildum í á **Spá** línunni í á **Spá** hluta.
+Einnig er hægt að gera handvirkar leiðréttingar á spá í **upplýsingar eftirspurnarspár** síðu með því að breyta gildum í á **Spá** línunni í á **Spá** hluta.
 
 <a name="additional-resources"></a>Frekari upplýsingar
 --------

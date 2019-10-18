@@ -1,6 +1,6 @@
 ---
 title: Skilgreina launasamþættingu milli Talent og Dayforce
-description: Þetta efnisatriði útskýrir hvernig á að grunnstilla samþættingu milli Microsoft Dynamics 365 for Talent og Ceridian Dayforce svo hægt sé að afgreiða launakeyrslu.
+description: Þetta efnisatriði útskýrir hvernig á að grunnstilla samþættingu milli Microsoft Dynamics 365 Talent og Ceridian Dayforce svo hægt sé að afgreiða launakeyrslu.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/24/2019
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c26dfed9909b0dbd05fc18c206e5adc947feaef5
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: ec1d14cb14ab709dfc1bead4be0785904efcce4e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742914"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251040"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Skilgreina launasamþættingu milli Talent og Dayforce
 
 [!include [banner](includes/banner.md)]
 
-Samþættingin milli Microsoft Dynamics 365 for Talent og Ceridian Dayforce er byggir á nokkrum skilgreiningarskrefum sem er fjallað um í þessu efnisatriði. Nauðsynlegt er að skilgreina samþættinguna bæði í Talent og Dayforce áður en hafist er handa við að afgreiða launakeyrslu.
+Samþættingin milli Microsoft Dynamics 365 Talent og Ceridian Dayforce er byggir á nokkrum skilgreiningarskrefum sem er fjallað um í þessu efnisatriði. Nauðsynlegt er að skilgreina samþættinguna bæði í Talent og Dayforce áður en hafist er handa við að afgreiða launakeyrslu.
 
 Þegar þjónusta eins og Dayforce er notuð til að ljúka launakeyrslum verður að virkja samþættinguna í Talent. Samþættingin krefst tilgreindra gagna frá Talent. Þess vegna þarf að staðfesta að gögn sem varpað er á Dayforce séu skilgreind í Talent á þann hátt sem styður samþættingu. Samþættingin notar eftirfarandi víðtæka flokka gagna:
 
@@ -39,7 +39,7 @@ Samþættingin milli Microsoft Dynamics 365 for Talent og Ceridian Dayforce er b
 
 ## <a name="enable-the-integration"></a>Virkja samþættingu
 
-Í Talent er nauðsynlegt að kveikja á samþættingu og slá inn skilgreiningarupplýsingar til að tengjast Dayforce. Ef þú vilt að fjárhagsfærslan sem er búin til verði flutt inn í Microsoft Dynamics 365 for Finance and Operations þarf einnig að setja upp Microsoft Azure-geymslureikning og slá inn tengistreng Azure-geymslu í Finance and Operations.
+Í Talent er nauðsynlegt að kveikja á samþættingu og slá inn skilgreiningarupplýsingar til að tengjast Dayforce. Ef þú vilt að fjárhagsfærslan sem er búin til verði flutt inn í Microsoft Dynamics 365 Finance þarf einnig að setja upp Microsoft Azure-geymslureikning og slá inn tengistreng Azure-geymslu í Finance.
 
 Til að kveikja á samþættingu í Talent skal fylgja þessum skrefum.
 

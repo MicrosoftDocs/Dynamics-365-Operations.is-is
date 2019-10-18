@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c900ef715b62484c1fb6576b7f0c97cdea4e4284
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: abb78c9ac43dad80e45729f4b42651d9807f71f1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865137"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251063"
 ---
-# <a name="warehouse-management-overview"></a>Yfirlit yfir vöruhúsastjórnun
+# <a name="warehouse-management-overview"></a>Yfirlit yfir vöruhúsakerfi
 
 [!include [banner](../includes/banner.md)]
 
-Vöruhúsakerfiseiningin fyrir Dynamics 365 for Finance and Operations gerir kleift að stjórna ferlum vöruhús í framleiðslu, dreifingu og smásölufyrirtækjum. Þessi eining hefur marga eiginleika til að styðja að fullu við vöruhúsið hvenær sem er. Vörustjórnun er að fullu samþætt við önnur viðskiptaferli í Finance and Operations, svo sem flutning, framleiðslu, gæðaeftirlit, kaup, flutning, sölu og ávöxtun.
+Vöruhúsakerfiseiningin gerir kleift að stjórna ferlum vöruhús í framleiðslu, dreifingu og smásölufyrirtækjum. Þessi eining hefur marga eiginleika til að styðja að fullu við vöruhúsið hvenær sem er. Vörustjórnun er að fullu samþætt við önnur viðskiptaferli, svo sem flutning, framleiðslu, gæðaeftirlit, kaup, flutning, sölu og ávöxtun.
 
 ## <a name="get-started"></a>Byrja
 Til að byrja að vinna með vöruhúsastjórnun þarf að ljúka uppsetningu almennra vöruhúsafæribreyta til að styðja við viðskiptaferli fyrirtækis þíns.

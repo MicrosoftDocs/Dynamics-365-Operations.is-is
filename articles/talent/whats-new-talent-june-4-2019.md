@@ -1,6 +1,6 @@
 ---
-title: Nýjungar eða breytingar í Dynamics 365 for Talent (4. júní 2019)
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent.
+title: Nýjungar eða breytingar í Dynamics 365 Talent (4. júní 2019)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/04/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e19e5d3f1cb2305e5a4153de3e4d0e8f4c7d31ac
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 32b168eca210b1371db129c05f7035237eb35c38
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856330"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008985"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-4-2019"></a>Nýjungar eða breytingar í Dynamics 365 for Talent (4. júní 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-4-2019"></a>Nýjungar eða breytingar í Dynamics 365 Talent (4. júní 2019)
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent.
+Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Breytingar í Attract
 
-Þessi útgáfa inniheldur minniháttar villuleiðréttingar fyrir Dynamics 365 for Talent: Attract.
+Þessi útgáfa inniheldur minniháttar villuleiðréttingar fyrir Dynamics 365 Talent: Attract.
 
 ## <a name="coming-soon-in-attract"></a>Væntanlegt í Attract
 
@@ -43,7 +43,7 @@ Samþykktir birtast í hlutanum **Samþykktir** í yfirlitinu. Samþykktaraðila
 
 ## <a name="changes-in-onboard"></a>Breytingar í Onboard
 
-Þessi útgáfa inniheldur minniháttar villuleiðréttingar fyrir Dynamics 365 for Talent: Onboard.
+Þessi útgáfa inniheldur minniháttar villuleiðréttingar fyrir Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Breytingar í Core HR
 
@@ -67,7 +67,7 @@ Möguleikinn til að fylgjast með frítíma starfsmanns og skilja hvernig frít
 
 ### <a name="deleting-a-record-from-talent-doesnt-remove-the-record-from-common-data-service"></a>Ef þú eyðir skrá úr Talent fjarlægir það skrána ekki úr Common Data Service
 
-Skrár sem eru fjarlægðar úr Talent Core HR eru nú einnig fjarlægðar úr Common Data Service.
+Skrár sem eru fjarlægðar úr Talent: Core HR eru nú einnig fjarlægðar úr Common Data Service.
 
 ### <a name="variable-compensation-plan-valid-fromto-dates-arent-being-honored"></a>Ekki er verið að uppfylla áætlun um breytilega uppbót gildir frá/til dagsetninga
 

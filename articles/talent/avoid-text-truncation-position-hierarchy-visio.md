@@ -1,6 +1,6 @@
 ---
 title: Forðist stýfingu á texta í stöðustigveldi og útflutningi í Visio
-description: Þetta efnisatriði útskýrir hvernig á að leysa mál þar sem nöfn einstaklinga og stöður eru styttar þegar viðskiptamenn skoða stöðustigveldið í Microsoft Dynamics 365 for Talent. Stýfing á texta getur gert það erfitt að taka skjámynd eða prenta stigveldið.
+description: Þetta efnisatriði útskýrir hvernig á að leysa mál þar sem nöfn einstaklinga og stöður eru styttar þegar viðskiptamenn skoða stöðustigveldið í Microsoft Dynamics 365 Talent. Stýfing á texta getur gert það erfitt að taka skjámynd eða prenta stigveldið.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 07a972bc1c6dd4076932248edb314992cb7297e5
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: e151818f29ac37ff449daaf1dc02e44b8fb317c3
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741822"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008501"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Forðist stýfingu á texta í stöðustigveldi og útflutningi í Visio
 
@@ -30,7 +30,7 @@ ms.locfileid: "1741822"
 
 **Úthreyfing**
 
-Þegar viðskiptavinur skoðar stöðustigveldið í Microsoft Dynamics 365 for Talent, eru nöfn á einstaklingum og stöðum stytt. Því getur reynst erfitt að taka skjámynd eða að prenta og dreifa stigveldinu.
+Þegar viðskiptavinur skoðar stöðustigveldið í Microsoft Dynamics 365 Talent, eru nöfn á einstaklingum og stöðum stytt. Því getur reynst erfitt að taka skjámynd eða að prenta og dreifa stigveldinu.
 
 ![Stöðustigveldi](media/position-h.png)
 

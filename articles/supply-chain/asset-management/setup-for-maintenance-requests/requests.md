@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d238bb31537a21f46c252fbee400fe61901e650
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: dfd62a18d6b4cfc8c41d9025a8fc5deb8768ed3f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790503"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250922"
 ---
 # <a name="maintenance-requests"></a>Viðhaldsbeiðnir
 
@@ -31,7 +31,7 @@ ms.locfileid: "1790503"
 
 [!include [banner](../../includes/preview-banner.md)]
 
-Þú getur sett upp ýmsar tegundir af beiðnum til notkunar í fyrirtækinu þínu. Viðhaldsbeiðnir eru ein gerð. Viðhaldsbeiðnir eru notaðar til að biðja um að verkbeiðni sé gerð áskilin fyrir tiltekið starf. Viðhaldsbeiðni er hægt að stofna af öllum notendum sem hafa aðgang að eignastýringu í Microsoft Dynamics 365 for Finance and Operations. Skipuleggjandi eða stjórnandi getur síðan ákveðið hvort breyta eigi viðhaldsbeiðni í verkbeiðni eða hvort hún eigi að ljúka eigin líftíma.
+Þú getur sett upp ýmsar tegundir af beiðnum til notkunar í fyrirtækinu þínu. Viðhaldsbeiðnir eru ein gerð. Viðhaldsbeiðnir eru notaðar til að biðja um að verkbeiðni sé gerð áskilin fyrir tiltekið starf. Viðhaldsbeiðni er hægt að stofna af öllum notendum sem hafa aðgang að eignastýringu. Skipuleggjandi eða stjórnandi getur síðan ákveðið hvort breyta eigi viðhaldsbeiðni í verkbeiðni eða hvort hún eigi að ljúka eigin líftíma.
 
 ## <a name="view-maintenance-requests"></a>Skoða viðhaldsbeiðnir
 

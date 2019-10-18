@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 60f0a2e5fa2dc2bc37a04b159a4834a52117893d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 65b59e1cc215d582fdaf02ff4746fe2158ace76e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559605"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025357"
 ---
 # <a name="payment-methods"></a>Greiðsluhættir
 
@@ -32,7 +32,7 @@ ms.locfileid: "1559605"
 
 Það þarf að skilgreina hverja greiðslugerð sem smásali samþykkir þegar kerfið er uppsett. Þetta grein lýsir þær gerðir greiðslna sem hægt er að setja upp og lýsir ferlinu við uppsetninguna.
 
-Smásalar geta tekið við ýmsum gerðum af greiðslu í staðinn fyrir afurðir og þjónustu sem þeir selja. Þótt reiðufé er algengasta greiðsluform smásala getur hann einnig þurft að taka við greiðslu í formi ávísana, korta, fylgiskjala og svo framvegis. Hver greiðslugerð sem smásali samþykkir verður að vera skilgreind í Dynamics 365 for Retail þegar kerfið er sett upp. Eftirfarandi listi lýsir hverja greiðslugerð sem hægt er að setja upp í Smásala og viðskipti í Dynamics 365 for Retail:
+Smásalar geta tekið við ýmsum gerðum af greiðslu í staðinn fyrir afurðir og þjónustu sem þeir selja. Þótt reiðufé er algengasta greiðsluform smásala getur hann einnig þurft að taka við greiðslu í formi ávísana, korta, fylgiskjala og svo framvegis. Hver greiðslugerð sem smásali samþykkir verður að vera skilgreind í Dynamics 365 Retail þegar kerfið er sett upp. Eftirfarandi listi lýsir hverri greiðslugerð sem hægt er að setja upp:
 
 - **Reiðufé –** Peningar, þ.e. efnislegur gjaldmiðill á borð við seðla og mynt. Gjaldmiðillinn getur verið gjaldmiðill fyrirtækisins eða gjaldmiðill verslunarinnar.
 - **Ávísun –** Framseljanlegur gerningur sem gefur loforð um greiðslu tiltekinnar upphæðar í tilteknum gjaldmiðli úr tilteknum banka. Ávísun gildir venjulega annaðhvort óráðinn tíma eða í sex mánuði eftir útgáfudag, nema annar gildistímabil er tilgreint. Þetta tímabil er breytileg eftir bankans sem ávísunin er gefin út á. Ýmsar gerðir ávísana eru í boði, á borð við pantanaávísanir, ávísanir á handhafa o.s.frv. Hægt er að setja upp ávísanir sem greiðslumáta fyrir hverja verslun. Ávísanir má samþykkja í þeim gjaldmiðli sem er skilgreind á fyrirtækisstigi eða stigi einstakra verslana. Setja verður upp ávísana sem greiðslumáta áður en hægt er að samþykkja ávísun sem greiðsla í verslun.

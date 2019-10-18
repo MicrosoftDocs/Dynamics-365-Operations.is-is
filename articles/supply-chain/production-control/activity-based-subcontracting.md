@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c219208c7ba5dd3686473d094658ab7f4c1b2b59
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 35ec47a13d9119c755702e019d09c76e1281b4a6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549314"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250219"
 ---
 # <a name="activity-based-subcontracting"></a>Verkþáttarbyggð úthýsing
 
@@ -32,7 +32,7 @@ ms.locfileid: "1549314"
 
 Þetta umfjöllunarefni lýsir ítarlega hvernig á að nota undirverktaka aðgerðir í framleiðsluflæði fyrir lean-framleiðslu.
 
-Í Microsoft Dynamics 365 for Finance and Operations eru tvær nálganir við úthýsingu: framleiðslupantanir og lean-framleiðsla. Í lean-framleiðslu er úthýsingarvinna byggðt upp sem þjónusta sem er tengd við verkþátt framleiðsluflæðis. Sérstök gerð kostnaðarflokks sem kallast **Bein útvistun** hefur verið kynnt til sögunnar og úthýsingarþjónusta er ekki lengur hluti af uppskrift (BOM). Kostnaðarbókhald vinnu undirverktaka er samþætt að fullu inn í kostnaðarútreikningslausn fyrir lean-framleiðslu.
+Í Microsoft Dynamics 365 Supply Chain Management eru tvær nálganir við úthýsingu: framleiðslupantanir og lean-framleiðsla. Í lean-framleiðslu er úthýsingarvinna byggðt upp sem þjónusta sem er tengd við verkþátt framleiðsluflæðis. Sérstök gerð kostnaðarflokks sem kallast **Bein útvistun** hefur verið kynnt til sögunnar og úthýsingarþjónusta er ekki lengur hluti af uppskrift (BOM). Kostnaðarbókhald vinnu undirverktaka er samþætt að fullu inn í kostnaðarútreikningslausn fyrir lean-framleiðslu.
 
 ## <a name="production-flows-that-involve-subcontractors"></a>Framleiðsluflæði sem taka til undirverktaka
 Meginregla framleiðsluflæðis breytist ekki þegar aðgerðir eru útvistaðar. Efnið flæðir enn á milli staðsetninga, ferlisaðgerðir breyta efni í afurð og flutningsaðgerðir flytja efni eða afurð af einni staðsetningu í aðra. Hægt er að byggja staðsetningar og vinnuflokka á lánardrottnastýrðu með því að úthluta lánardrottnalykli á vöruhús eða á tilföng í tilfangaflokki.  
@@ -86,7 +86,7 @@ Flutningsverkþáttur er skilgreindur sem úthýstur verkþáttur, eftir stillin
 Eins og fyrir verkþætti verður þú skilgreina sjálfgefna þjónustu fyrir flutningsaðgerðir verktaka á flýtiflipanum **Þjónustuskilmálar** á **Verkþáttur** **upplýsingasíða**.
 
 ## <a name="service-quantity-calculation"></a>Útreikningur þjónustumagns
-Allt innkaupaferlið er byggt á vörutilvísun sem þjónustu. Þessi vörutilvísun er mæld í mælieiningum þjónustu. Þjónusta er yfirleitt mæld annaðhvort í fjölda þjónustu (einingum) eða í tíma. Til að reikna út þjónustumagn á grunni skráðra loka kanban-vinnsla er  hægt að nota eftirfarandi aðferðir:
+Allt innkaupaferlið er byggt á vörutilvísun sem þjónustu. Þessi vörutilvísun er mæld í mælieiningum þjónustu. Þjónusta er yfirleitt mæld annaðhvort í fjölda þjónustu (einingum) eða í tíma. Til að reikna út þjónustumagn á grunni skráðra loka kanban-vinnsla er hægt að nota eftirfarandi aðferðir:
 
 -   **Útreikningur sem byggður á fjölda vinnsla** – Ein kanban-vinnsla jafnast á við *n* þjónustueiningar, án tillits til þess afurðarmagns sem er gefið upp. Í lean-framleiðslu samsvarar ein vinnsla einni afgreiðslueiningu. Þessi útreikningur aðferð gildir um alla þjónustu sem er með fast verð á hverja afgreiðslueiningu. Þess vegna gildir þessi aðferð yfirleitt um flutningsaðgerðir. Hins vegar getur hún einnig átt við um verkþætti sem vinna heilar afgreiðslueiningar.
 -   **Útreikningur sem er byggður á afurðarmagni** – Þjónustumagn er í hlutfalli við það afurðarmagn sem er áætlað/birgðum. Þegar uppgefið af er reiknað er hægt að hafa villumagn annaðhvort með eða útiloka það. Þessi útreikningsaðferð gildir um öll mál þar sem þjónustuverð á einingu unninnar afurðar hefur verið samþykkt.
@@ -102,7 +102,7 @@ Fólk álítur flutning oft vera ekki notaðan í framleiðslu og að hann bæti
 
 Úthýsingar byggðar á verkþáttum í lean-framleiðslu leyfa þér að samþætta flutningsaðila og flutningslánardrottna sem flytja efni og afurðir milli staðsetninga í framleiðsluflæði. Með því að gera líkan af flutningsverkþætti er hægt að úthluta flutningsaðila eða lánardrottni. Flutningsaðgerðir/vinnsla er byggð á þjónustu og innkaupasamnings, og hægt er að stofna innkaupapöntun og innhreyfingaráðgjöf, á grunni raunflutningsvinnslu. Þessi virkni er sú sama og virknin fyrir verkþætti úthýsingar.  
 
-Þess vegna styður Finance and Operations nú uppskriftarútreikninga sem fela í sér flutningsþjónustu, stofnun á tengdum innkaupapöntunum, samþætta skráningu innhreyfinga og samþættingu á flutningsþjónustukostnaði í kostnaðarútreikning framleiðsluflæðis.
+Núna styður Supply Chain Management uppskriftarútreikninga sem fela í sér flutningsþjónustu, stofnun á tengdum innkaupapöntunum, samþætta skráningu innhreyfinga og samþættingu á flutningsþjónustukostnaði í kostnaðarútreikning framleiðsluflæðis.
 
 
 

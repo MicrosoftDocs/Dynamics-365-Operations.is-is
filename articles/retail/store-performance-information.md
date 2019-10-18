@@ -1,6 +1,6 @@
 ---
 title: Greina afköst verslunar
-description: Þessi grein útskýrir hvernig hægt er að nota greiningar í minni og rauntíma til að nálgast, skoða og fá innsýn í afköst verslunar úr gögnum Microsoft Dynamics 365 for Retail.
+description: Þessi grein útskýrir hvernig hægt er að nota greiningar í minni og rauntíma til að nálgast, skoða og fá innsýn í afköst verslunar úr gögnum Dynamics 365 Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c975c021b6db49d1e25fd036f4955c7223e438ea
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b2ea6ad2e3d9589face06cd5f950973209c17d41
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569264"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017783"
 ---
 # <a name="analyze-store-performance"></a>Frammistöðugreining verslunar
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein útskýrir hvernig hægt er að nota greiningar í minni og rauntíma til að nálgast, skoða og fá innsýn í afköst verslunar úr gögnum Microsoft Dynamics 365 for Retail.
+Þessi grein útskýrir hvernig hægt er að nota greiningar í minni og rauntíma til að nálgast, skoða og fá innsýn í afköst verslunar úr gögnum Dynamics 365 Retail.
 
-Sem hluti af Dynamics 365 for Retail geta notendur geta skoðað afköst verslunar í rauntíma milli mismunandi stiga í stigveldi fyrirtækisins á völdu tímabili með því að opna „út úr kassanum“ **Samantekt rásar** skýrslu úr hverjum sem er af eftirfarandi stöðum:
+Sem hluti af Retail geta notendur geta skoðað afköst verslunar í rauntíma milli mismunandi stiga í stigveldi fyrirtækisins á völdu tímabili með því að opna „út úr kassanum“ **Samantekt rásar** skýrslu úr hverjum sem er af eftirfarandi stöðum:
 
 - **Stjórnun smásöluverslunar** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Stjórnun smásöluverslunar** &gt; **Skýrslur** &gt; **Samantektarskýrsla rásar**
 - **Fjárhagur smásöluverslunar** vinnusvæði &gt; **Smásala** &gt; **Rásir** &gt; **Fjárhagur smásöluverslunar** &gt; **Skýrslur** &gt; **Samantektarskýrsla rásar**

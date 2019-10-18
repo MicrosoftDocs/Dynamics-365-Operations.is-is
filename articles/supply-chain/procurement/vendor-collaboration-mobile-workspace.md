@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 253ba0bd991e8db17940d3d4b9ade599800bf924
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2c2ba1f23cc068daf20474f05519c3c6865fd183
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843866"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250257"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Fartækjavinnusvæði samstarfs lánardrottna
 
@@ -30,10 +30,10 @@ ms.locfileid: "1843866"
 
 Þetta efnisatriði veitir upplýsingar um **lánardrottnasamvinnu** á fartækjavinnusvæði. Þessi vinnusvæði gerir lánardrottnum kleift að fylgjast með innkaupapöntunum sem hafa verið sendar til þeirra til samþykktar. Þeir geta einnig skoðað upplýsingar um nýjar og uppfærðar innkaupapantanir og tengiliði.
 
-Þetta fartækjavinnusvæði er ætlað til að nota með Microsoft Dynamics 365 fyrir farsímaforritið Unified Operations Mobile.
+Þetta fartækjavinnusvæði er ætlað til að nota með farsímaforritið Finance and Operations.
 
 ## <a name="overview"></a>Yfirlit 
-Fartækjavinnusvæðið **Samstarf lánardrottna** heldur lánardrottnum upplýstum um nýjar innkaupapantanir svo að hægt sé að skoða innkaupapantanir og síðan svara þeim í vefbiðlara Microsoft Dynamics 365 for Finance and Operations. 
+Fartækjavinnusvæðið **Samstarf lánardrottna** heldur lánardrottnum upplýstum um nýjar innkaupapantanir svo að hægt sé að skoða innkaupapantanir og síðan svara þeim í vefbiðlara. 
 
 >[!NOTE]
 > Vinnusvæði fartækis ætti að nota sem viðauka við vefviðmót samstarfs lánardrottna, en ekki í staðinn fyrir það. 
@@ -59,8 +59,8 @@ Fartækjavinnusvæðið **Samvinna lánardrottna** gerir lánardrottni kleift a�
 ## <a name="prerequisites"></a>Forkröfur
 Skilyrðin eru mismunandi, háð útgáfu Microsoft Dynamics 365 sem hefur verið sett upp fyrir fyrirtækið þitt.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Skilyrði ef þú notar Microsoft Dynamics 365 for Finance and Operations 
-Ef Microsoft Dynamics 365 for Finance and Operations hefur verið innleitt í fyrirtækinu verður kerfisstjóri að birta fartækjavinnusvæðið **Samstarf lánardrottna**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Forkröfur ef þú notar Supply Chain Management
+Ef Supply Chain Management hefur verið innleitt í fyrirtækinu verður kerfisstjóri að birta fartækjavinnusvæðið **Samstarf lánardrottna**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Skilyrði ef þú notar Microsoft Dynamics 365 for Operations útgáfu 1611 með verkvangsuppfærslu 3 eða nýrri
 Ef Microsoft Dynamics 365 for Operations útgáfa 1611 með verkvangsuppfærslu 3 eða síðar hefur verið sett upp fyrir fyrirtækið þitt, verður kerfisstjórinn að ljúka eftirfarandi skilyrðum. 
@@ -104,7 +104,7 @@ Ef Microsoft Dynamics 365 for Operations útgáfa 1611 með verkvangsuppfærslu 
 <li><a href="vendor-collaboration-work-external-vendors.md">Nota samstarf lánardrottna við ytri lánardrottna</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Stjórna notendum fyrir samstarf lánardrottna</a></li>
 <li><a href="set-up-maintain-vendor-collaboration.md">Uppsetning og viðhald samstarfs lánardrottna</a></li>
-<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Notið samvinnusvæði lánardrottinn til að vinna með viðskiptavini í Finance and Operations</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Notið samvinnusvæði lánardrottinn til að vinna með viðskiptavini í Supply Chain Management</a></li>
 </ul></td>
 </tr>
 </tbody>
@@ -112,7 +112,7 @@ Ef Microsoft Dynamics 365 for Operations útgáfa 1611 með verkvangsuppfærslu 
 
 ## <a name="download-and-install-the-mobile-app"></a>Sæktu og settu upp fartækjaforritið
 
-Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
+Sæktu og settu upp fyrir Finance and Operations farsímaforritið:
 
 -   [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Fyrir iPhone síma](https://go.microsoft.com/fwlink/?linkid=850663)

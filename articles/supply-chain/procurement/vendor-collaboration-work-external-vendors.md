@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 65624ce5e668a506ae23b302559d8d0bf4141a12
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b38fb087fb572362c27e747e7909060c55a242a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546711"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250202"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Samstarf lánardrottna með ytri lánardrottnum
 
 [!include [banner](../includes/banner.md)]
 
-Kerfiseiningin **Samstarf lánardrottna** er ætluð lánardrottnum sem eru ekki með samþættingu rafrænna gagnaskipta (EDI) við Microsoft Dynamics 365 for Finance and Operations. Það gerir söluaðilum kleift að vinna með innkaupapantanir (POs), reikninga, upplýsingar um vöruskiptabirgðir og beiðni um tilboð (RFQs) og leyfir þeim einnig að fá aðgang að hluta lánardrottinssniðmáts. Þetta efnisatriði útskýrir hvernig er hægt vinna með ytri lánardrottna sem eru að nota viðmótið samstarf lánardrottna til að vinna með innkaupapantanir, beiðnir um tilboð og vörusendingabirgðir. Það útskýrir einnig hvernig á að virkja tiltekinn lánardrottinn til að nota samstarf lánardrottna og hvernig á að skilgreina þær upplýsingar sem allir lánardrottnar sjá þegar þeir svara Innkaupapöntun.
+Kerfiseiningin **Samstarf lánardrottna** er ætluð lánardrottnum sem eru ekki með samþættingu rafrænna gagnaskipta (EDI) við Microsoft Dynamics 365 Supply Chain Management. Það gerir söluaðilum kleift að vinna með innkaupapantanir (POs), reikninga, upplýsingar um vöruskiptabirgðir og beiðni um tilboð (RFQs) og leyfir þeim einnig að fá aðgang að hluta lánardrottinssniðmáts. Þetta efnisatriði útskýrir hvernig er hægt vinna með ytri lánardrottna sem eru að nota viðmótið samstarf lánardrottna til að vinna með innkaupapantanir, beiðnir um tilboð og vörusendingabirgðir. Það útskýrir einnig hvernig á að virkja tiltekinn lánardrottinn til að nota samstarf lánardrottna og hvernig á að skilgreina þær upplýsingar sem allir lánardrottnar sjá þegar þeir svara Innkaupapöntun.
 
 Fyrir frekari upplýsingar um hvaða ytri lánardrottnum geta gert viðmót fyrir samstarf lánardrottna , sjá [samstarf lánardrottna við viðskiptavini](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> Upplýsingarnar um samstarf lánardrottna í þessu efnisatriði gildir aðeins um núverandi útgáfu Finance and Operations. Í Microsoft Dynamics AX 7.0 (febrúar 2016) og Microsoft Dynamics AX forritaútgáfu 7.0.1 (maí 2016) notarðu kerfiseininguna **Gátt lánardrottins** fyrir samskipti við lánardrottna. Upplýsingar um kerfiseininguna **Gátt lánardrottins** er að finna í [Samstarf með lánardrottnum í gegnum Gátt lánardrottins](collaborate-vendors-vendor-portal.md).
+> Upplýsingarnar um samstarf lánardrottna í þessu efnisatriði gildir aðeins um núverandi útgáfu Supply Chain Management. Í Microsoft Dynamics AX 7.0 (febrúar 2016) og Microsoft Dynamics AX forritaútgáfu 7.0.1 (maí 2016) notarðu kerfiseininguna **Gátt lánardrottins** fyrir samskipti við lánardrottna. Upplýsingar um kerfiseininguna **Gátt lánardrottins** er að finna í [Samstarf með lánardrottnum í gegnum Gátt lánardrottins](collaborate-vendors-vendor-portal.md).
 
 Sjá frekari upplýsingar um hvernig lánardrottnum geta notað samstarf lánardrottna í reikningsfærslu ferli, sjá [vinnusvæði reikningsfærslu fyrir samstarf lánardrottna](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Fyrir upplýsingar um hvernig á að gera ráðstafanir fyrir nýja notendur samstarfs lánardrottna, sjá [Stjórna notendum samstarfs lánardrottna](manage-vendor-collaboration-users.md).
 
@@ -51,7 +51,7 @@ Ef nauðsynlegt er að bæta við skilaboðum á fleiri en eitt tungumál, skal 
 
 ## <a name="setting-the-vendor-collaboration-options-for-a-specific-vendor"></a>Stilla valkosti fyrir samstarf lánardrottins fyrir ákveðinn lánardrottinn
 
-Stjórnandi skilgreinir almennar stillingar fyrir samstarf lánardrottins í Finance and Operations, svo sem öryggishlutverkum sem eru í boði fyrir alla lánardrottna sem þú starfar með. Hinsvegar eru líka stillingum sem geta verið mismunandi fyrir hvern lánadrottnalykil. Þú ættir að skilgreina þessar stillingar.
+Stjórnandi skilgreinir almennar stillingar fyrir samstarf lánardrottins, svo sem öryggishlutverkum sem eru í boði fyrir alla lánardrottna sem þú starfar með. Hinsvegar eru líka stillingum sem geta verið mismunandi fyrir hvern lánadrottnalykil. Þú ættir að skilgreina þessar stillingar.
 
 - Virkja samstarf lánardrottna
 - Tilgreina hvort lánardrottinn eigi að sjá verðupplýsingar.
@@ -71,7 +71,7 @@ Til að deila upplýsingum um verð fyrir Innkaupatilboð gegnum viðmót samsta
 
 ### <a name="sending-a-po-to-a-vendor"></a>Senda Innkaupapöntun til lánardrottins
 
-Innkaupapantanir eru undirbúnar Finance and Operations. Þegar Innkaupapöntun hefur stöðuna **Samþykkt**, er hún send til lánardrottins með því að nota **Senda til staðfestingar** á **Innkaupapöntun** síðunni. Staða Innkaupapöntunar er síðan breytt í **í Ytri Yfirferð**. Þegar Innkaupapöntunin hefur verið send lánardrottni getur hann séð hana á síðunni **Innkaupapantanir til skoðunar** í viðmóti lánardrottnasamvinnu. Lánardrottinn getur þá samþykkt Innkaupapöntun, hafnað henni eða lagt til breytingar á henni. Lánardrottinn getur líka bætt við athugasemdum til að gefa upplýsingar, eins og breytingar á Innkaupapöntun. Ef óskað er að beina athygli lánardrottins að nýrri innkaupapöntun er einnig hægt að senda Innkaupapöntunina með tölvupósti með því að nota prentstýringarkerfið.
+Innkaupapantanir eru stofnaðar í Supply Chain Management. Þegar Innkaupapöntun hefur stöðuna **Samþykkt**, er hún send til lánardrottins með því að nota **Senda til staðfestingar** á **Innkaupapöntun** síðunni. Staða Innkaupapöntunar er síðan breytt í **í Ytri Yfirferð**. Þegar Innkaupapöntunin hefur verið send lánardrottni getur hann séð hana á síðunni **Innkaupapantanir til skoðunar** í viðmóti lánardrottnasamvinnu. Lánardrottinn getur þá samþykkt Innkaupapöntun, hafnað henni eða lagt til breytingar á henni. Lánardrottinn getur líka bætt við athugasemdum til að gefa upplýsingar, eins og breytingar á Innkaupapöntun. Ef óskað er að beina athygli lánardrottins að nýrri innkaupapöntun er einnig hægt að senda Innkaupapöntunina með tölvupósti með því að nota prentstýringarkerfið.
 
 ### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>Staðfesting og samþykki Innkaupapöntunar af lánardrottinn
 
@@ -92,19 +92,19 @@ Taflan hér að neðan sýnir dæmigerð upplýsingaskipti, eftir því hvernig 
 </thead>
 <tbody>
 <tr class="even">
-<td>Lánardrottinn <strong>samþykkir</strong> pöntunina, og Finance and Operations er stillt á að staðfesta sjálfvirkt Innkaupapöntun sem lánardrottinn staðfestir.</td>
+<td>Lánardrottinn <strong>samþykkir</strong> pöntunina, og Supply Chain Management er stillt á að staðfesta sjálfvirkt Innkaupapöntun sem lánardrottinn staðfestir.</td>
 <td>Staða pöntunar er uppfærð í <strong>Staðfest</strong>. Ef ekki er hægt að uppfæra pöntunina af einhverjum ástæðum er svar lánardrottins enn skráð sem <strong>Samþykkt</strong> en staða innkaupapöntunarinnar er áfram <strong>Í ytri yfirferð</strong>.&#39; 
 
 Innkaupabeiðnin sem var sendur til lánardrottins og sem hefur stöðu <strong>Í ytri yfirferð</strong> er uppfærð með staðfestum afhendingardögum á línunum. Þessi uppfærsla hrindir af stað nýja útgáfu sem er sjálfkrafa stillt á <strong>Staðfest</strong> staða. Þegar innkaupapöntun er staðfest, birtist það í samstarfsviðmóti lánardrottna.</td>
 </tr>
 <tr class="odd">
-<td>Lánardrottinn <strong>samþykkir</strong> pöntunina, en Finance and Operations er ekki grunnstillt til að staðfesta sjálfkrafa innkaupapöntun sem lánardrottinn samþykkir.&#39;</td>
+<td>Lánardrottinn <strong>samþykkir</strong> pöntunina, en Supply Chain Management er ekki stillt á að staðfesta sjálfvirkt Innkaupapöntun sem lánardrottinn staðfestir.</td>
 <td>Svar lánardrottins er skráð sem <strong>samþykkt</strong> en innkaupapöntunin er áfram í stöðunni <strong>Í ytri yfirferð</strong>.
 
 Innkaupabeiðnin sem var sendur til lánardrottins og sem hefur stöðu <strong>Í ytri yfirferð</strong> er uppfærð með staðfestum afhendingardögum á línunum. Þessi uppfærsla hrindir af stað nýjan útgáfu sem er sjálfkrafa stillt á <strong>Í ytri yfirferð</strong> staða. Þú getur síðan samþykkt innkaupapöntunina handvirkt.</td>
 </tr>
 <tr class="even">
-<td>Lánardrottinn <strong>hafnar </strong> pöntun.</td>
+<td>Lánardrottinn <strong>hafnar</strong> pöntuninni.</td>
 <td>Svar lánardrottins er skráð sem <strong>Hafnað</strong> og innkaupapöntunin er áfram í stöðunni <strong>Í ytri yfirferð</strong>. Höfnunin er móttekin með athugasemd lánardrottna.&#39;</td>
 </tr>
 <tr class="odd">
@@ -180,14 +180,14 @@ Taflan hér að neðan sýnir dæmi um breytingar á stöðu og útgáfum sem In
 
 | Aðgerð | Staða og útgáfa |
 |--------|--------------------|
-| Upprunaleg útgáfa af Innkaupapöntuninni er stofnuð í Finance and Operations. | Staðan er  **Samþykkt**. |
+| Upprunaleg útgáfa af Innkaupapöntuninni er stofnuð í Supply Chain Management. | Staðan er **Samþykkt**. |
 | Innkaupapöntunin er send á lánardrottins. | Útgáfa er skráð í viðmót samstarfs lánardrottna og stöðunni er breytt í **Í Ytri Yfirferð**. |
 | Lánardrottinn sendir inn **Samþykkt með breytingum** svarið. | Staðan er enn **í Ytri yfirferð**. |
 | Þú gerir einhverjar breytingar sem lánardrottinn biður um. | Stöðu breytt í **Samþykkt**. |
 | Þú sendir nýja útgáfu af Innkaupapöntuninni lánardrottins. | Ný útgáfa er skráð í viðmót samstarfs lánardrottna og stöðunni er breytt í **Í Ytri Yfirferð**. |
 | Lánardrottinn samþykkir nýju útgáfuna af IP. | Staðan er enn **í Ytri Yfirferð** nema lánardrottnalykill er skilgreindur til að stilla sjálfkrafa Innkaupapantanir á stöðuna **Staðfest** þegar lánardrottinn samþykkja þær. |
 
-Lánardrottnar þurfa ekki að staðfesta Innkaupapöntun með því að nota viðmóti fyrir samstarf lánardrottna. Þeir geta einnig sent skilaboð í tölvupósti eða tilkynnt samþykki Innkaupapöntunarinnar gegnum aðrar rásir. Þú getur síðan samþykkt pöntunina handvirkt í Finance and Operations. Í þessu tilfelli berst þér viðvörun sem tilkynnir að verið sé að staðfesta pöntun jafnvel þótt að það er ekkert svar frá lánardrottni. Innkaupapöntunin birtist síðan í staðfestingarferli sem opin staðfest pöntun sem hefur ekki svör. Lánardrottinn hefur á þessu stigi ekki lengur valkost til að staðfesta eða hafna innkaupapöntun.
+Lánardrottnar þurfa ekki að staðfesta Innkaupapöntun með því að nota viðmóti fyrir samstarf lánardrottna. Þeir geta einnig sent skilaboð í tölvupósti eða tilkynnt samþykki Innkaupapöntunarinnar gegnum aðrar rásir. Þú getur síðan samþykkt pöntunina handvirkt. Í þessu tilfelli berst þér viðvörun sem tilkynnir að verið sé að staðfesta pöntun jafnvel þótt að það er ekkert svar frá lánardrottni. Innkaupapöntunin birtist síðan í staðfestingarferli sem opin staðfest pöntun sem hefur ekki svör. Lánardrottinn hefur á þessu stigi ekki lengur valkost til að staðfesta eða hafna innkaupapöntun.
 
 > [!NOTE]
 > Sú útgáfa Innkaupapöntunar sem er tiltæk öðrum vinnslum í Finance and Operations er alltaf síðasta útgáfa, jafnvel þó að sú útgáfa hafi ekki enn verið skráð í viðmóti fyrir samstarf lánardrottna.
@@ -200,7 +200,7 @@ Taflan hér að neðan sýnir dæmi um breytingar á stöðu og útgáfu sem Inn
 
 | Aðgerð | Staða og útgáfa |
 |--------|--------------------|
-| Upprunaleg útgáfa af Innkaupapöntuninni er stofnuð í Finance and Operations. | Staðan er **Drög**. |
+| Upprunaleg útgáfa af Innkaupapöntuninni er stofnuð í Supply Chain Management. | Staðan er **Drög**. |
 | Innkaupapöntunin er send í samþykktarferli. (Samþykktarferlið er innra ferli sem lánardrottinn er ekki hluti af.) | Stöðunni er breytt úr **Drög** til **Í Yfirferð** til **Samþykki** ef Innkaupapöntuninni er ekki hafnað meðan á samþykktarferlinu stendur. Samþykkt innkaupapöntun er skráð sem útgáfa. | 
 | Innkaupapöntunin er send á lánardrottins. | Útgáfa er skráð í viðmót samstarfs lánardrottna og stöðunni er breytt í **Í Ytri Yfirferð**. |
 | Þú gerir nokkrar breytingar sem lánardrottinn óskar eftir, annaðhvort handvirkt eða með því að nota **Vinna uppfærslu Innkaupapöntunar** aðgerðina á svarið til að uppfæra Innkaupapöntunina. | Stöðu er breytt aftur í **Drög**. |
@@ -237,13 +237,13 @@ Ef verið er að nota vörusendingabirgðir, geta lánardrottna notað viðmót 
 
 ## <a name="public-sector-extensions"></a>Viðbót fyrir hið opinbera
 
-Fyrir opinbera geiranum, útvíkkuð virkni gerir tilboðsbeiðnatilfelli kleift að vera sent til lánardrottna og birt. Þegar þú birtir tilboðsbeiðni getur allir sem óska eftir upplýsingunum skoðað verkið sem samræmist flestum opinberum reglum. Öll tiltæk vinna endurspeglast í **Opnar birtar beiðnir um tilboð** listasíðu, og þær tilboðsbeiðnir sem hætt er við, eru í bið eða veittar má skoða á **Lokaðar birtar beiðnir um tilboð** listasíðu. Þessar skjöl eru einnig hægt að skoða á vefsvæði utan Finance and Operations gegnum samþættingu við eftirfarandi gagnaeiningar:
+Fyrir opinbera geiranum, útvíkkuð virkni gerir tilboðsbeiðnatilfelli kleift að vera sent til lánardrottna og birt. Þegar þú birtir tilboðsbeiðni getur allir sem óska eftir upplýsingunum skoðað verkið sem samræmist flestum opinberum reglum. Öll tiltæk vinna endurspeglast í **Opnar birtar beiðnir um tilboð** listasíðu, og þær tilboðsbeiðnir sem hætt er við, eru í bið eða veittar má skoða á **Lokaðar birtar beiðnir um tilboð** listasíðu. Þessar skjöl eru einnig hægt að skoða á vefsvæði utan Supply Chain Management gegnum samþættingu við eftirfarandi gagnaeiningar:
 
 - Útgefnar tilboðsbeiðnir
 - Lína útgefinna tilboðsbeiðna
 - Viðhengi hausa útgefinna tilboðsbeiðna
 
-Þessar einingar leyfa fólki sem ekki eru forsjárnotendur í Finance and Operations, en sem hafa nafnlausan aðgang að ytri síðunni, að skoða tiltæka og lokaða vinnu. Að auki leyfir útvíkkuð virkni í **Senda og birta** notanda sem setur upp færibreytur fyrir vinnslu tilboðsbeiðni að skilgreina tölvupóstsnið. Svo þegar innkaupastjóri stofnar tilfelli tilboðsbeiðni verður hann eða hún að velja tölvupóstsniðið til að senda nauðsynlegar upplýsingar til lánardrottna í tilboðsbeiðnatilfellinu. 
+Þessar einingar leyfa fólki sem ekki eru forsjárnotendur í Supply Chain Management, en sem hafa nafnlausan aðgang að ytri síðunni, að skoða tiltæka og lokaða vinnu. Að auki leyfir útvíkkuð virkni í **Senda og birta** notanda sem setur upp færibreytur fyrir vinnslu tilboðsbeiðni að skilgreina tölvupóstsnið. Svo þegar innkaupastjóri stofnar tilfelli tilboðsbeiðni verður hann eða hún að velja tölvupóstsniðið til að senda nauðsynlegar upplýsingar til lánardrottna í tilboðsbeiðnatilfellinu. 
 
 Notandinn sem setur upp færibreytur fyrir tilboðsbeiðniferlið getur búið til margar tölvupóstsniðmát. Þessar tölvupóstsniðmát geta innihaldið bæði fastan texta og eftirfarandi skiptitákn. Táknunum verður skipt út fyrir samhengisháð gildi þegar tölvupóstur er búinn til.
 

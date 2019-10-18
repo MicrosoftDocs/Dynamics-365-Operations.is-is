@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a7acf4e5397ee7276b0f881f4859267371266de0
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553439"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249541"
 ---
 # <a name="inventory-journals"></a>Birgðabækur
 
@@ -33,7 +33,7 @@ ms.locfileid: "1553439"
 
 Í þessu efnisatriði er fjallað um hvernig hægt er að nota birgðabækur til að bóka ýmsar gerðir af efnislegum birgðafærslum.
 
-Birgðabækur í Microsoft Dynamics 365 for Finance and Operations eru notaðar til að bóka efnislegar birgðafærslur af mismunandi gerðum, svo sem bókun úthreyfinga og innhreyfinga, birgðahreyfingar, stofnun uppskriftir (BOMs) og afstemmingu efnislegra birgða. Allar þessar birgðabækur eru notaðar á svipaðan hátt en þeim er skipt niður í mismunandi gerðir.
+Birgðabækur í Supply Chain Management eru notaðar til að bóka efnislegar birgðafærslur af mismunandi gerðum, svo sem bókun úthreyfinga og innhreyfinga, birgðahreyfingar, stofnun uppskriftir (BOMs) og afstemmingu efnislegra birgða. Allar þessar birgðabækur eru notaðar á svipaðan hátt en þeim er skipt niður í mismunandi gerðir.
 
 ## <a name="types-of-inventory-journals"></a>Gerðir birgðabóka
 Eftirtaldar gerðir birgðabóka eru tiltækar:
@@ -68,7 +68,7 @@ Hægt er að Nota flutningabækur til að flytja vörur milli staðsetningar bir
 
 ### <a name="item-arrival"></a>Vörumóttaka
 
-Hægt er að nota vörukomubókina til að skrá innhreyfingar á vörum (til dæmis úr innkaupapantanir). Vörukomubók má stofna sem hluta af móttökustjórnun frá síðnni **Komuyfirlit**, eða þá að hægt er að stofna bókarfærslu af síðunni **Vörukoma**. Ef heiti vörukomubókar er virkjað til að leita að tiltektarstaðsetningum, leitar Finance and Operations að staðsetningu fyrir mótteknar vörur og, ef pláss er, myndar áfangastaði fyrir vörur á innleið.
+Hægt er að nota vörukomubókina til að skrá innhreyfingar á vörum (til dæmis úr innkaupapantanir). Vörukomubók má stofna sem hluta af móttökustjórnun frá síðnni **Komuyfirlit**, eða þá að hægt er að stofna bókarfærslu af síðunni **Vörukoma**. Ef heiti vörukomubókar er virkjað til að leita að tiltektarstaðsetningum, leitar Supply Chain Management að staðsetningu fyrir mótteknar vörur og, ef pláss er, myndar áfangastaði fyrir vörur á innleið.
 
 ### <a name="production-input"></a>Framleiðsluinntak
 
@@ -103,7 +103,7 @@ Gagnaeiningar styðja eftirfarandi gerðir af samþættingaraðstæðum:
 Nánari upplýsingar er að finna í [Gagnaeiningar](../../dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
-> Ekki eru allar birgðabækur Odata-virkar og er því ekki hægt að nota Excel-gagnatengið til að fá gögn birt, uppfærð og flutt aftur inn í Dynamics 365 for Finance and Operations. 
+> Ekki eru allar birgðabækur Odata-virkar og er því ekki hægt að nota Excel-gagnatengið til að fá gögn birt, uppfærð og flutt aftur inn í Supply Chain Management. 
 
 Annar munur milli gagnaeininga færslubókar er hæfnin til að nota samsettar einingar sem innihalda bæði haus og línugögn. Eins og er getur þú notað samsettar einingar fyrir:
 -   Birgðaleiðréttingabók

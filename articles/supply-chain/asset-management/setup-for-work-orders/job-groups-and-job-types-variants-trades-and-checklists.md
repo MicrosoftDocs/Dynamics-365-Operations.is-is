@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9efbd9651f6a2fa57e761238c6acfe6111e986e6
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 6cb53322b9bdaaa06c6040d8244b7e2ea05336ca
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874763"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249610"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Flokkar viðhaldsverkgerðar og viðhaldsverkgerðir, afbrigði viðhaldsverkgerðar, viðskipti viðhaldsvinnslu og viðhaldsgátlistar
 
@@ -225,7 +225,7 @@ Sniðmát viðhaldsgátlista er hægt að nota sem sameiginlegan hóp verka sem 
 26. Til að setja upp viðhengi á valda sjálfgefna línu gerðar viðhaldsverka velurðu **Hengja skjöl við**. Viðhengi sem eru sett upp á sjálfgefinni línu gerðar viðhaldsstarfa eru sjálfkrafa innifalin í verkbeiðnilínum sem nota þá sjálfgefnu línu gerðar viðhaldsverka.
 27. Smelltu á **Nýtt** og veldu síðan skjalagerð.
 28. Settu skjalið eða skrána inn.
-29. Stilltu reitina á síðunni **Viðhengi**. Viðhengisuppsetningin notar venjulega skjalauppsetningarvirkni í Microsoft Dynamics 365 for Finance and Operations.
+29. Stilltu reitina á síðunni **Viðhengi**. Viðhengisuppsetningin notar venjulega skjalauppsetningarvirkni.
 30. Veldu **Vista** til að vista viðhengið.
 
     > [!NOTE]
@@ -261,7 +261,7 @@ Eftir að þú hefur búið til nauðsynlegar sjálfgefnar samsetningar á gerð
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>Sjálfvirk uppfærsla á spám um gerðir viðhaldsverka
 
-Í eignastjórnun geturðu sjálfkrafa uppfært allar breytingar á spám um gerðir viðhaldsverka fyrir kostnað á klukkustund, vörukostnað og útgjöld sem hafa verið uppfærð í öðrum einingum í Finance and Operations. Með þessu móti hjálpar þú við að tryggja að spár þínar um gerðir viðhaldsverka noti alltaf nýjasta kostnaðarverðið.
+Í eignastjórnun geturðu sjálfkrafa uppfært allar breytingar á spám um gerðir viðhaldsverka fyrir kostnað á klukkustund, vörukostnað og útgjöld sem hafa verið uppfærð í öðrum einingum. Með þessu móti hjálpar þú við að tryggja að spár þínar um gerðir viðhaldsverka noti alltaf nýjasta kostnaðarverðið.
 
 1. Veldu **Eignastjórnun** \> **Reglubundið** \> **Spá** \> **Uppfærðu spá um gerð viðhaldsverka**.
 2. Í valmyndinni **Uppfæra spá um gerð viðhaldsverka** á flýtiflipanum **Færslur til að hafa með** er hægt að bæta við vali fyrir sérstakar viðhaldsgerðir, eftir þörfum. Veldu **Sía** og veldu síðan **Velja** til að gera valið.

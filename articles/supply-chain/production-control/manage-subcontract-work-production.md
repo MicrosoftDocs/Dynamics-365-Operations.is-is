@@ -1,6 +1,6 @@
 ---
 title: Stjórnun úthýsingarvinnu í framleiðslu
-description: Þetta efnisatriði skýrir hvernig aðgerðum undirverktaka er stjórnað í Microsoft Dynamics 365 for Finance and Operations. Þar er m.ö.o. skýrt hvernig framleiðsluaðgerðum sem er úthlutað á tilfang er stjórnað af lánardrottni.
+description: Þetta efnisatriði skýrir hvernig aðgerðum undirverktaka er stjórnað í Dynamics 365 Supply Chain Management. Þar er m.ö.o. skýrt hvernig framleiðsluaðgerðum sem er úthlutað á tilfang er stjórnað af lánardrottni.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ea2feccf9f74c0f035b8a46dc87eb41bdf85900a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569754"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023542"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>Stjórnun úthýsingarvinnu í framleiðslu
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði skýrir hvernig aðgerðum undirverktaka er stjórnað í Microsoft Dynamics 365 for Finance and Operations. Þar er m.ö.o. skýrt hvernig framleiðsluaðgerðum sem er úthlutað á tilfang er stjórnað af lánardrottni.
+Þetta efnisatriði skýrir hvernig aðgerðum undirverktaka er stjórnað í Dynamics 365 Supply Chain Management. Þar er m.ö.o. skýrt hvernig framleiðsluaðgerðum sem er úthlutað á tilfang er stjórnað af lánardrottni.
 
 Í [framleiðsluferli](production-process-overview.md) er hægt að framkvæma vinnu með tilföngum sem eru í eigu eða er stjórnað af lánardrottni. Yfirleitt eru tilföng lánardrottins notuð til að jafna út tímabundna umfram eftirspurn sem fer yfir tiltækt framboð eigin tilfanga fyrirtækis. Lánardrottinn gæti einnig verið fær um að bjóða tiltekna [tilfangagetu](resource-capabilities.md) eða tilföng á lægra verði.  
 
@@ -40,7 +40,7 @@ Allt eftir því hvaða tilföng lánardrottins eru notuð í framleiðsluferli 
 
 Fyrir innri tilföng er yfirleitt úthlutað föstu verði á tilteknu tímabilil. Kostnaður við tilföng undirverktaka byggist hins vegar á innkaupaverði tengdu þjónustunnar. Þjónustan er skilgreind sem önnur vara og er notuð til að knýja innkaupaferli fyrir tiltekna undirverktakaaðgerð.  
 
-Sem stendur er ekki til nein ítarleg lýsing á hálfunnum vörum í Microsoft Dynamics 365 for Finance and Operations. Fyrir framleiðslupöntun sem krefst fleiri en einnar aðgerðar til að geta breytt hráefni í fullunna vöru er fullunna varan ekki bókuð aftur inn í lager fyrr en í síðustu aðgerðinni. Hálfunnar vörur sem fyrri aðgerðir framleiða eru færðar til bókar í verk í vinnslu (WIP) en eru ekki bókaðar eða raktar í birgðum. Þótt hægt sé að skipta leiðum og uppskriftum (BOM) í margar smærri einingar eykur þessi aðferð fjölda vöru, uppskrifta og leiða sem þarf að fylgjast með.  
+Sem stendur er ekki til nein ítarleg lýsing á hálfunnum vörum í Supply Chain Management. Fyrir framleiðslupöntun sem krefst fleiri en einnar aðgerðar til að geta breytt hráefni í fullunna vöru er fullunna varan ekki bókuð aftur inn í lager fyrr en í síðustu aðgerðinni. Hálfunnar vörur sem fyrri aðgerðir framleiða eru færðar til bókar í verk í vinnslu (WIP) en eru ekki bókaðar eða raktar í birgðum. Þótt hægt sé að skipta leiðum og uppskriftum (BOM) í margar smærri einingar eykur þessi aðferð fjölda vöru, uppskrifta og leiða sem þarf að fylgjast með.  
 
 Til eru tvær aðferðir til þess að gera líkön af undirverktakavinnu fyrir framleiðsluaðgerðir. Þessar aðferðir eru mismunandi hvað varðar hvernig hægt er að gera líkön af undirverktakaferlinu, hvernig hálfunnar vörur eru sýndar í ferlinu og hvernig kostnaðarstýring er framkvæmd.
 

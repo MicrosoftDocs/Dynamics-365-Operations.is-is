@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dff811723e25952b4c5af20262010ff4b910be7f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 40539d649d3ee43fea8dc71f608dd6281d1c0e39
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554000"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251685"
 ---
 # <a name="transportation-management-engines"></a>Flutningsstjórnunarvélar
 
@@ -31,15 +31,15 @@ ms.locfileid: "1554000"
 
 Flutningsstjórnunarvélar skilgreina rökin sem eru notuð til að búa til og vinna flutningstaxta í Flutningsstjórnun. 
 
-Vél flutningsstjórnunar reiknar verk, eins og flutningsverðskrá flutningsaðila. Vélakerfið gerir kleift að breyta stefnu útreikninga á keyrslutíma, samkvæmt á gögnum í Microsoft Dynamics 365 for Finance and Operations. Vél flutningsstjórnunar svipar til tengiforrits sem tengjast tilteknum samningi við flutningsaðila.
+Vél flutningsstjórnunar reiknar verk, eins og flutningsverðskrá flutningsaðila. Vélakerfið gerir kleift að breyta stefnu útreikninga á keyrslutíma, samkvæmt á gögnum í Supply Chain Management. Vél flutningsstjórnunar svipar til tengiforrits sem tengjast tilteknum samningi við flutningsaðila.
 
 ## <a name="what-engines-are-available"></a>Hvaða véla eru tiltækar?
-Eftirfarandi tafla sýnir flutningsstjórnunarvélar sem eru tiltækar í Microsoft Dynamics 365 for Finance and Operations.
+Eftirfarandi tafla sýnir flutningsstjórnunarvélar sem eru tiltækar.
 
-| Flutningsstjórnunarvél | lýsing                                                                                                                                                                                                                                                                                                                 |
+| Flutningsstjórnunarvél | Lýsing                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Taxtavél**                  | Reiknar út taxta.                                                                                                                                                                                                                                                                                                           |
-| **Almenn vél**               | Einföld aukakerfi sem eru notuð af öðrum kerfum sem þurfa ekki gögn úr Microsoft Dynamics 365 for Finance and Operations, t.d. kostnaðarskiptingarvél. Skiptingarvélar eru notaðar til að draga úr endanlegum kostnaði á flutningi i tilgreindar pantanir og línur, byggt á stærð, svo sem magni og þyngd. |
+| **Almenn vél**               | Einföld aukakerfi sem eru notuð af öðrum kerfum sem þurfa ekki gögn úr Supply Chain Management, t.d. skiptingarvél. Skiptingarvélar eru notaðar til að draga úr endanlegum kostnaði á flutningi i tilgreindar pantanir og línur, byggt á stærð, svo sem magni og þyngd. |
 | **Akstursvél**               | Reiknar út flutningsfjarlægð.                                                                                                                                                                                                                                                                                     |
 | **Flutningstímavél**          | Reiknar út tímann sem nauðsynlegur er til ferðir frá upphafi til lok áfangastað.                                                                                                                                                                                                                                       |
 | **Svæðisvél**                  | Reiknar út svæði byggt á gildandi aðseturs og reiknar út fjölda staði sem krossa verður við fyrir ferðir frá aðsetur A til aðsetur B.                                                                                                                                                                    |
@@ -62,23 +62,23 @@ Vél flutningsstjórnunar krefst þess að setja upp frumstillingargögn til þe
 |          Færibreyta           |                                                                                  Lýsing                                                                                  |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  <em>RateBaseAssigner</em>   | .NET-gerð sem túlkar úthlutunargögn vaxtastigs fyrir tiltekið skema. Málskipan færibreytugildis samanstendur af tveimur hlutum sem eru afmörkuð með lóðréttu striki ( |
-|  <em>MileageEngineCode</em>  |                       Kílómetravélakóði sem auðkennir skráningu kílómetravélar í Microsoft Dynamics 365 for Finance and Operations gagnagrunninum.                        |
-| <em>Kostnaðarskiptingarvél</em> |                        Almennur vélakóða sem auðkennir kostnaðarskiptingarvél í Microsoft Dynamics 365 for Finance and Operations gagnagrunninum.                        |
+|  <em>MileageEngineCode</em>  |                       Kílómetravélakóði sem auðkennir skráningu kílómetravélar í gagnagrunninum.                        |
+| <em>Kostnaðarskiptingarvél</em> |                        Almennur vélakóða sem auðkennir kostnaðarskiptingarvél í gagnagrunninum.                        |
 
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>Hvernig er lýsigögnum notuð í flutningsstjórnunarvélar?
 ----------------------------------------------------------
 
-Flutningsstjórnunarvélar sem reiða sig á gögn sem eru skilgreind í  Dynamics 365 for Finance and Operations geta notað mismunandi gagnaskemu. Flutningur stjórnkerfi gerir mismunandi flutningsstjórnunarvélar til að nota sama almennan efnislegt töflurnar. Til að tryggja að túlkun keyrslutíma á vélagögnum sé rétt er hægt að skilgreina lýsigögn fyrir gagnagrunnstöflurnar. Þetta dregur úr kostnaður við að byggja nýju flutningsstjórnunar stjórnun vélar þar sem viðbótar töflu og í skjámyndarskipulags er ekki krafist í Operations.
+Flutningsstjórnunarvélar sem reiða sig á gögn sem eru skilgreind í Supply Chain Management geta notað mismunandi gagnaskemu. Flutningur stjórnkerfi gerir mismunandi flutningsstjórnunarvélar til að nota sama almennan efnislegt töflurnar. Til að tryggja að túlkun keyrslutíma á vélagögnum sé rétt er hægt að skilgreina lýsigögn fyrir gagnagrunnstöflurnar. Þetta dregur úr kostnaður við að byggja nýju flutningsstjórnunar stjórnun vélar þar sem viðbótar töflu og í skjámyndarskipulags er ekki krafist í Operations.
 
 ## <a name="what-can-be-used-as-search-data-in-rate-calculations"></a>Hægt er að nota það sem gögn afurðaleitar í útreikninga?
-Gögnum sem eru notuð við útreikning taxta í Microsoft Dynamics 365 for Finance and Operations er stýrt af afbrigði lýsigagna. Til dæmis, ef óskað er að leita að taxta sem póstnúmer á grundvelli setja verður upp lýsigögn samkvæmt uppsláttargerð fyrir póstnúmer.
+Gögnum sem eru notuð við útreikning taxta í er stýrt af afbrigði lýsigagna. Til dæmis, ef óskað er að leita að taxta sem póstnúmer á grundvelli setja verður upp lýsigögn samkvæmt uppsláttargerð fyrir póstnúmer.
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>Krefjast allar vélaskilgreiningar lýsigagna?
 Nei, flutningsstjórnunarvélar sem eru notaðar til að sækja gögn sem krafist er fyrir taxtaútreikning frá utanaðkomandi kerfum þurfa ekki lýsigögn. Hægt að endurheimta gögnin taxta fyrir þessar véla úr ytri flutningsstöðu flutningsaðila kerfum, vanalega í gegnum vefþjónustu. Til dæmis er hægt að nota akstursvél sem sækir gögn beint úr Bing-kortum þannig að þarf ekki að lýsigögn fyrir þessa vél.
 
 | **Ábending**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Flutningsstjórnunarvélar sem eru afhentar með Finance and Operations reiða sig á gögn sem eru sótt úr forritinu. Vélar sem tengjast við ytri kerfi eru ekki teknar með í Operations. Hins vegar vélmiðað framlengingarlíkan gerir það mögulegt að byggja upp viðbætur með Microsoft Dynamics 365 for Finance and Operations Visual Studio verkfærum. |
+| Flutningsstjórnunarvélar sem eru afhentar með Supply Chain Management reiða sig á gögn sem eru sóttar úr forritinu. Vélar sem tengjast við ytri kerfi eru ekki teknar með í Operations. Hins vegar vélmiðað framlengingarlíkan gerir það mögulegt að byggja upp viðbætur með Visual Studio verkfærum. |
 
 ## <a name="how-do-i-configure-metadata-for-a-transportation-management-engine"></a>Hvernig get ég skilgreina lýsigögn fyrir vél stjórnun flutningsstjórnunar?
 Lýsigögn fyrir flutningsstjórnunarvélar eru stillt á mismunandi hátt fyrir mismunandi tegundir af vélum.
@@ -99,8 +99,3 @@ Lýsigögn fyrir flutningsstjórnunarvélar eru stillt á mismunandi hátt fyrir
 | 3        | Upphafspóstnúmer áfangastaðar | Úthlutun | Strengur    | Póstnúmer    | Valið  |
 | 4        | Póstnúmer áfangastaðar   | Úthlutun | Strengur    | Póstnúmer    | Valið  |
 | 5        | Áfangaland           | Úthlutun | Strengur    | Land/svæði |           |
-
-
-
-
-

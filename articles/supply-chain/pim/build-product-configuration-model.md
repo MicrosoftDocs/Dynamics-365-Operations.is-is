@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b50aa1df7a169e71d3e2e477bd1515d70cedccab
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 316e1e1f0db9343e414ddeafe9e00beac87b5b76
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865377"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249495"
 ---
 # <a name="product-configuration-overview"></a>Yfirlit yfir afurðaskilgreiningu
 
@@ -60,6 +60,9 @@ Afbrigðalíkan afurðar samanstendur af einum eða fleiri íhlutum sem eru teng
 
 Hver hluti hefur eina eða fleiri eigindir sem auðkenna eiginleikum hans. Eigindir eru það sem notendur verða að velja meðan á skilgreiningu stendur. Eigindir stjórna bæði milli venslum íhluta og innan íhluta til að hafa með í skorðum eða útreikningum. Gegnum skilyrði sem eiga við uppskriftalínur er hægt að nota eigindir til að ákvarða hvaða efnislegt hlutum skilgreindu vöra samanstanda af. Þar að auki getur eigind stjórnað eiginleika uppskriftarlínu með vörpunarferli. Svipuð virkni er til fyrir leiðaraðgerðir varðandi meðtalningu og eiginleika stillingar.
 
+>[!NOTE]
+> Þegar þú býrð til eigindategundir skaltu forðast að búa til mikinn fjölda af gildum fyrir lén eigindarinnar. Það gæti valdið hægagangi í stillingum á afurð. 
+
 ### <a name="expression-constraints"></a>Segðarskorður
 
 Notið afbrigðalíkans afurðar sem byggir á skorðum gefur sumar takmarkanir til þegar notandi velur gildi fyrir ýmsar eigindir. Hægt er að innleika slíkar takmarkanir sem segðarskorður með því að nota í Fínstilling Líkanabreytur Tungumál (auðkenni OML). Einnig er hægt að innleiða hömlu í töfluskorðu.
@@ -70,7 +73,7 @@ Töfluskorður geta verið notandaskilgreindar eða kerfisskilgreindar.
 
 Notandaskilgreind töfluskorða er byggð á notanda. Notandi velur samsetningu eigindagerðir dálka í töflunni stendur og færir gildi úr lénum valinna eigindagerða til að mynda línur í töfluskorðunni.  
 
-Kerfisskilgreind töfluskorða er skilgreind með því að velja hvaða Microsoft Dynamics 365 for Finance and Operations tafla á að nota sem tilvísun og velja svo svæði úr þessari töflu til að mynda dálka í skorðunni. Línur töfluskorðunnar eru línurnar í Finance and Operations töflu sem eru til staðar við skilgreiningu.  
+Kerfisskilgreind töfluskorða er skilgreind með því að velja hvaða töflu á að nota sem tilvísun og velja svo svæði úr þessari töflu til að mynda dálka í skorðunni. Línur töfluskorðunnar eru línurnar í Finance and Operations töflu sem eru til staðar við skilgreiningu.  
 
 Töfluskorða er innifalin í afbrigðalíkani afurðar með því að vísa í skilgreiningu töfluskorðu og vörpun viðeigandi eiginda í líkanið í dálkum í töfluskorðunni.
 

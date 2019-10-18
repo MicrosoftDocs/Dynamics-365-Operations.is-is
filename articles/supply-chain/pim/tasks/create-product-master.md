@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 21cfc2699fdcd6024286ee16bb60c3cd6dda5b67
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 0ea5c240063bf8f98f07f2149d67730b30e5c0e4
+ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844711"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "1924471"
 ---
 # <a name="create-a-product-master"></a>Stofna aðalsniðmát
 
@@ -31,39 +31,33 @@ Stofna afurðarsniðmát fyrir forskilgreind afbrigði. Sýnigögn fyrirtækisin
 
 
 ## <a name="create-a-new-product-master"></a>Stofna nýtt afurðarsniðmát
-1. Fara í Upplýsingastjórnun afurða > Afurðir > Afurðarsniðmát.
-2. Smellið á „Nýtt“.
-3. Í reitinn Afurðarnúmer skal slá inn gildi.
-    * Hvert númer verður að vera einkvæmt. Hægt er að setja inn númeraröð fyrir svæðið afurðarnúmer. Í þessu tilfelli þarf notandinn ekki að færa inn gildi.  
-4. Sláið inn gildi í reitinn Afurðarheiti.
-    * Færa inn lýsandi afurðarheiti . Gildið er sjálfgefið í leitarnafn, en hægt er að breyta því af notanda.  
-5. Í reitnum Afurðavíddarflokkur skal smella á fellilistahnappinn til að opna leitina.
-    * Afurðavíddaflokkurinn ákvarðar hvaða 4 afurðarvíddir er hægt að nota til að stofna afurðarafbrigði. Þetta dæmi notar flokk með lit og stærð.  
+1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Afurðaupplýsingastjórnun > Afurðir > Afurðarsniðmát**.
+2. Smellt er á **Nýtt**.
+3. Í reitnum **Afurðarnúmer** skal slá inn gildi. Hvert númer verður að vera einkvæmt. Hægt er að setja inn númeraröð fyrir reitinn **Afurðarnúmer**. Í þessu tilfelli þarf notandinn ekki að færa inn gildi.
+4. Í reitinn **Afurðarheiti** skal slá inn gildi. Færa inn lýsandi afurðarheiti . Gildið er sjálfgefið í leitarnafn, en hægt er að breyta því af notanda.
+5. Í reitnum **Afurðavíddarflokkur** skal smella á fellilistahnappinn til að opna leitina. Afurðavíddaflokkurinn ákvarðar hvaða 4 afurðarvíddir er hægt að nota til að stofna afurðarafbrigði. Þetta dæmi notar flokk með lit og stærð.
 6. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-7. Í listanum skal smella á tengilinn í valinni línu.
-    * Sjálfgefin afbrigðistækni er Forskilgreint afbrigði. Þetta verður notað í þessu dæmi.  
-8. Smellið á „Í lagi“.
+7. Í listanum skal smella á tengilinn í valinni línu. Sjálfgefin **Afbrigðistækni** er Forskilgreint afbrigði. Þetta verður notað í þessu dæmi.
+8. Smellt er á **OK**.
 
 ## <a name="select-product-dimension-groups"></a>Velja afurðavíddaflokka
-1. Í reitnum Litaflokkur skal smella á fellilistahnappinn til að opna leitina.
+1. Í reitnum **Litaflokkur** skal smella á fellilistahnappinn til að opna leitina.
 2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 3. Í listanum skal smella á tengilinn í valinni línu.
-4. Í reitnum Stærðarflokkur skal smella á fellilistahnappinn til að opna leitina.
+4. Í reitnum **Stærðarflokkur** skal smella á fellilistahnappinn til að opna leitina.
 5. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 6. Í listanum skal smella á tengilinn í valinni línu.
 
 ## <a name="add-dimension-groups"></a>Bæta við Víddaflokkar
-1. Í aðgerðasvæðinu er smellt á Afurð.
-2. Smellt er á Víddaflokkar til að opna felligluggann.
-3. Í reitnum Geymsluvíddarflokkur skal smella á fellilistahnappinn til að opna leitina.
-    * Geymsluvíddir stjórna því hvernig vörur eru geymdar og teknar út af lager. Til dæmis getur geymsluvídd innihaldið Svæði og vöruhús  
+1. Í **Aðgerðasvæði** er smellt á **Afurð**.
+2. Smelltu á **Víddaflokkar** til að opna felligluggann.
+3. Í reitnum **Geymsluvíddarflokkur** skal smella á fellilistahnappinn til að opna leitina. Geymsluvíddir stjórna því hvernig vörur eru geymdar og teknar út af lager. Til dæmis getur geymsluvídd innihaldið Svæði og vöruhús
 4. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 5. Í listanum skal smella á tengilinn í valinni línu.
-6. Í reitnum Rakningarvíddarflokkur skal smella á fellilistahnappinn til að opna leitina.
-    * Rakningarvíddarflokkur ákvarðar hvaða víddaflokkar er hægt að bæta við afurð. Til dæmis má nota rununúmer og raðnúmer til að rekja birgðavörur.  
+6. Í reitnum **Rakningarvíddarflokkur** skal smella á fellilistahnappinn til að opna leitina. Rakningarvíddarflokkur ákvarðar hvaða víddaflokkar er hægt að bæta við afurð. Til dæmis má nota rununúmer og raðnúmer til að rekja birgðavörur.
 7. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 8. Í listanum skal smella á tengilinn í valinni línu.
-9. Smellt er á Í lagi.
-10. Smellið á „Vista“.
+9. Smellt er á **OK**.
+10. Smellt er á **Vista**.
 11. Lokið síðunni.
 

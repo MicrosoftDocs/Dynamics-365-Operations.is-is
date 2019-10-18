@@ -1,6 +1,6 @@
 ---
-title: Hvað er nýtt eða breytt í Dynamics 365 for Talent (14. mars 2019)
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent.
+title: Hvað er nýtt eða breytt í Dynamics 365 Talent (14. mars 2019)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/14/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ee8e076174acba8e706991f3086d6299a10945ec
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 5c3beef9ef4e73eaf76f861735bb154fa630703f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742494"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023908"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-14-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 for Talent (14. mars 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-14-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 Talent (14. mars 2019)
 
 [!include [banner](includes/banner.md)]
 
@@ -46,8 +46,8 @@ Breytingar sem gerðar eru í þessari útgáfu virkja atburðarásir afkastastj
 ### <a name="mass-assign-checklists-to-workers"></a>Magnúthluta gátlistum á starfskrafta
 Með þessari breytingu er nú hægt að velja marga starfsmenn og magnúthluta einum eða fleiri gátlistum á þessa starfsmenn. 
 
-### <a name="platform-update-24"></a>Update 24 fyrir verkvang
-Frekari upplýsingar um verkvangsuppfærslu 24 er að finna í [Hvað er nýtt og hvað hefur breyst í Finance and Operations verkvangsuppfærsla 24 (mars 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Verulegar breytingar á verkvangi 24 fela í sér: 
+### <a name="platform-update-24-for-finance-and-operations"></a>Verkvangsuppfærsla 24 fyrir Finance and Operations
+Frekari upplýsingar um verkvangsuppfærslu 24 fyrir Finance and Operations er að finna í [Hvað er nýtt og hvað hefur breyst í Finance and Operations verkvangsuppfærsla 24 (mars 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Verulegar breytingar á verkvangi 24 fela í sér: 
 
 - Viðvaranir eru virkar í Talent.
 - Uppfærða yfirlitsstikan er nú samsíða Office-hausnum.
@@ -67,7 +67,7 @@ Common Data Service-einingarnar samstillast nú rétt þegar þær eru uppfærð
 Í mörgum fyrirtækjum er hugsanlegt að launa- og fríðindastjórar hafi aðeins aðgang að ákveðnum launafærslum. Þessar færslur gætu verið fyrir stjórnendur eða svæðisbundna starfsmenn. Með þessari breytingu geta mannauðsstjórar haft umsjón með launafyrirkomulaginu fyrir mismunandi starfsmannahópa í fyrirtækinu. Hægt er að úthluta öryggishlutverkum á fastar og breytilegar áætlanir sem ákvarða aðgang að áætlunum og starfsmannaupplýsingum sem tengjast áætlunum, t.d. launa- eða bónusfærslur. Aðeins hlutverk með veittan aðgang geta unnið úr launum fyrir þessa starfsmenn.
 
 ###  <a name="email-support-for-alerts"></a>Tölvupóstur út af viðvörunum
-Í verkvangsuppfærslu 24 geta notendur stofnað viðvörunarreglur sem senda sjálkrafa tilkynningar í tölvupósti á tengiliði þegar þær ræsast út af tilviki.
+Með verkvangsuppfærslu 24 fyrir Finance and Operations geta notendur stofnað viðvörunarreglur sem senda sjálfkrafa tilkynningar í tölvupósti á tengiliði þegar þær ræsast út af tilviki.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Afrita athugun starfsmanns: Viðmót breytist
 Með þessari breytingu er borið kennsl á tvítekningar á meðan þú færir inn heiti á reitum og staða sýnir hversu margar fundust. Þú getur valið tengilinn sem gefinn er upp til að opna nýja síðu til að meta hvort nota skuli samsvörun sem borin var kennsl á. Tvítekin skjámynd opnast ekki sjálfkrafa, til að koma í veg fyrir truflandi gagnafærslu.

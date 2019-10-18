@@ -3,7 +3,7 @@ title: Setja upp stigveldi innkaupategundar
 description: Þetta ferli sýnir hvernig á að stofna nýja hnúta í tegundastigveldi innkaupa og hvernig á að skilgreina innkaupategund sem nota á í innkaupaferli.
 author: mkirknel
 manager: AnnBe
-ms.date: 11/06/2017
+ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01809a8a3256342682d8a9cfb296a355310fe4ed
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d7010a1c612b9b3884c675f578657d951da06c38
+ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569892"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "1995283"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Setja upp stigveldi innkaupategundar
 
@@ -30,48 +30,18 @@ ms.locfileid: "1569892"
 
 
 ## <a name="add-a-new-procurement-category"></a>Bæta við nýrri innkaupategund
-1. Fara í Innkaup og uppruni > Innkaupaflokkar.
-2. Smella á Breyta tegundastigveldi.
-    * Núverandi tegundastigveldi birtist vinstra megin á síðunni. Verið er að breyta stigveldi.  
-3. Smellt er á Nýr tegundahnútur.
-    * Kerfið velur topphnútinn sjálfgefið. Ef verið er að keyra þetta ferli sem leiðarvísi fyrir verk, er hægt að smella á hnappinn Aflæsa og velja annan yfirhnút til að setja inn nýjan hnútinn þinn. Þegar því er lokið, skal loka aftur leiðarvísi fyrir verk og smellið síðan á Nýjan tegundahnút.  
-4. Í reitinn Heiti skal slá inn gildi.
-5. Sláið inn gildi í reitnum „Lýsing“.
-6. Í reitinn stutt heiti skal slá inn gildi.
-    * Stutt heiti er valfrjálst. Það verður birt í uppflettingu tegunda ásamt heiti flokks.  
-7. Smellið á „Vista“.
+1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Innkaup og aðföng > Vörusending > Innkaupaflokkar**.
+2. Í aðgerðarúðunni velurðu **Breyta tegundastigveldi**. Núverandi tegundastigveldi birtist vinstra megin á síðunni. Verið er að breyta stigveldi.  
+3. Í aðgerðarúðunni velurðu **Nýr tegundahnútur**. Kerfið velur topphnútinn sjálfgefið. Ef verið er að keyra þetta ferli sem leiðarvísi fyrir verk, er hægt að smella á hnappinn Aflæsa og velja annan yfirhnút til að setja inn nýjan hnútinn þinn. Þegar því er lokið, skal loka aftur leiðarvísi fyrir verk og smellið síðan á Nýjan tegundahnút.  
+4. Í reitinn **Heiti** skal slá inn gildi.
+5. Í reitinn **Lýsing** skal slá inn gildi.
+6. Í reitnum **Stutt heiti** skal slá inn gildi. Stutt heiti er valfrjálst. Það verður birt í uppflettingu tegunda ásamt heiti flokks.  
+7. Veljið **Vista**.
 
 ## <a name="add-products-to-your-new-procurement-category"></a>Bæta afurðum við nýja innkaupategund
-1. Fara í Innkaup og uppruni > Innkaupaflokkar.
-    * Velja hnút sem var nýlega bætt við. Ef verið er að keyra þetta ferli sem leiðarvísi fyrir verk gæti þurft að aflæsa leiðarvísi fyrir verk til að velja hnútinn.  
-2. Víxla útvíkkun á liðnum afurð.
-3. Smella á bæta við til að tengja afurðir við innkaupategund.
-4. Velja afurð sem á að bæta við innkaupategund.
-5. Smellið á örina til að velja afurðina.
-6. Veljið aðra afurð til að bæta við innkaupategundina.
-7. Smellið á örina til að velja afurðina.
-8. Smellið á „Í lagi“.
-
-## <a name="add-approved-and-preferred-vendors"></a>Bæta við samþykktum og æskilegum lánardrottnum
-1. Víxla útvíkkun á liðnum lánardrottinn.
-2. Smelltu á Bæta við.
-    * Hægt er að bæta lánardrottni við innkaupategund og tilgreina hvort lánardrottinn sé útvalinn eða aðeins samþykktur fyrir flokkinn. Þegar lánardrottni er eytt úr tegund, er sögulegum færslum með lánardrottininn í tegundinn ekki eytt.   
-3. Finna lánardrottins sem óskað er að bæta við tegund.
-4. Smellið á örina til að velja lánardrottinn.
-5. Smellt er á Í lagi.
-6. Veldu lánardrottnalínuna sem á að breyta.
-7. Í reitnum Staða lánardrottins skal velja valkost.
-    * Stillingin val lánardrottna í tegundarstefnureglu stjórnar því hvort æskilegt, samþykkt eða alla lánardrottna eru tiltækir á innkaupabeiðnum.   
-
-## <a name="add-additional-information-to-the-category"></a>Bæta við frekari upplýsingum við tegund
-1. Víxla útvíkkun á hlutanum matsviðmiðaflokkur lánardrottins.
-    * Þessi flipi gerir mögulegt að skilgreina hvaða skilyrði lánardrottna í innkaupategund á að gefa einkunn gagnvart. Til að gera þetta myndirðu smella á bæta Við og veljið síðan matsviðmiðunarflokkur lánardrottins sem inniheldur skilyrðin sem óskað er eftir.  
-2. Víxla útvíkkun á liðnum Spurningalisti.
-    * Þessi flipi gerir mögulegt að bæta spurningalistum sem mun birtast í beiðninni, svo lengi sem stillt er á gerð Verkþáttar „Innkaupabeiðni". Umsækjandinn þarf svo að fylla út spurningalista áður en þeir senda innkaupabeiðni fyrir tiltekna vöru eða afurðir í innkaupategund.  
-3. Víxla útvíkkun á hlutanum VSK-flokkur vöru.
-4. Í reitnum VSK-flokkur vöru skal smella á fellilistahnappinn til að opna leitina.
-5. Velja VSK-flokk.
-6. Víxla útvíkkun á liðnum tegundasíða.
-    * Tegundarsíður eru stofnaðar í síðu tegundastigveldis. Þær innihalda upplýsingar um innkaupategundina, eins og upplýsingar um tegund afurða í flokknum, myndir af afurðum í flokki eða tilkynningar um að afsláttur sé í boði í flokknum. Upplýsingarnar í tegundasíðu birtist á innkaupabeiðnum.  
-7. Lokið síðunni.
-
+1. Farðu í **Innkaup og aðföng > Vörusending > Innkaupaflokkar**. Velja hnút sem var nýlega bætt við. Ef verið er að keyra þetta ferli sem leiðarvísi fyrir verk gæti þurft að aflæsa leiðarvísi fyrir verk til að velja hnútinn.  
+2. Víxla útvíkkun á liðnum **Afurðir**.
+3. Veldu **Bæta við** til að tengja afurðir við innkaupategund.
+4. Velja afurðir sem á að bæta við innkaupategund.
+5. Veldu örina til að bæta afurðunum við töfluna **Valið**.
+6. Veljið **Í lagi**.

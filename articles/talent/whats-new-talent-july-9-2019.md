@@ -1,6 +1,6 @@
 ---
-title: Nýjungar eða breytingar í Dynamics 365 for Talent (9. júlí 2019)
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent.
+title: Nýjungar eða breytingar í Dynamics 365 Talent (9. júlí 2019)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/09/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e5bb02a7128cb920a79a5f04ac910be205aeed41
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: b3eb53943546166eee845749a070ed2fca1a03b8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856378"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023954"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-9-2019"></a>Nýjungar eða breytingar í Dynamics 365 for Talent (9. júlí 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-9-2019"></a>Nýjungar eða breytingar í Dynamics 365 Talent (9. júlí 2019)
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 for Talent.
+Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Breytingar í Attract
 
@@ -48,9 +48,9 @@ Samþykktir birtast í hlutanum **Samþykktir** í yfirlitinu. Samþykktaraðila
 
 Breytingum sem lýst er í þessum kafla gilda um byggingarnúmer 8.1.2374.
 
-### <a name="platform-update-28"></a>Update 28 fyrir verkvang
+### <a name="platform-update-28-for-finance-and-operations"></a>Verkvangsuppfærsla 28 fyrir Finance and Operations
 
-Frekari upplýsingar um verkvangsuppfærslu 28 er að finna í [Forskoðun á eiginleikum í Dynamics 365 for Finance and Operations verkvangsuppfærslu 28 (júlí 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
+Frekari upplýsingar um verkvangsuppfærslu 28 fyrir Finance and Operations er að finna í [Forskoðun á eiginleikum í Dynamics 365 Finance and Operations verkvangsuppfærslu 28 í (júlí 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
 
 ### <a name="entity-support-for-custom-fields-in-common-data-service"></a>Stuðningur við einingar fyrir sérsniðna reiti í Common Data Service 
 

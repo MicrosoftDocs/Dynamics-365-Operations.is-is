@@ -1,0 +1,32 @@
+---
+title: Kostnaður innan samstæðu
+description: Starfskraftur sem starfar hjá einum lögaðila í fyrirtæki kann að vinna verk fyrir annan lögaðila í sama fyrirtæki. Í þeim aðstæðum er hægt að nota valkost kostnaðar innan samstæðu til að úthluta kostnaði starfsmannsins á lögaðilann sem verkið var unnið fyrir.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 01/12/2018
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: TrvParameters
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c55a57bf618ce80dc170afc2e866c1fc5b11136b
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2178277"
+---
+# <a name="intercompany-expenses"></a>Kostnaður innan samstæðu
+
+[!include [banner](../includes/banner.md)]
+
+Starfskraftur sem starfar hjá einum lögaðila í fyrirtæki kann að vinna verk fyrir annan lögaðila í sama fyrirtæki. Í þeim aðstæðum er hægt að nota valkost kostnaðar innan samstæðu til að úthluta kostnaði starfsmannsins á lögaðilann sem verkið var unnið fyrir. Lögaðilinn sem starfsmaðurinn vinnur hjá er kallaður lögaðili sem lánar. Lögaðilinn sem starfskrafturinn stofnar til kostnaðarins fyrir kallast lögaðili sem fær lánað. 
+
+Áður en starfskraftur getur búið til og lagt fram kostnað vegna vinnu sem er framkvæmd fyrir annan lögaðilann, í lögaðila sem lánar, á **Færibreytur kostnaðarstjórnunar** síðunni skal velja **Leyfa kostnaðarlínur innan samstæðu**. 

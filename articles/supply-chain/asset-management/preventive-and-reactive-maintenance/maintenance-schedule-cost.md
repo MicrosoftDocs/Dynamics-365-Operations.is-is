@@ -3,7 +3,7 @@ title: Kostnaður viðhaldsáætlunar
 description: Þetta efni skýrir kostnað viðhaldsskema í eignastýringu.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71b958839a914d90a86a0dcd16a09285ca6dcfa4
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: b2f53a4a64b06efc9269c607bfe1fc3a41c90cdd
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875704"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922069"
 ---
 # <a name="maintenance-schedule-cost"></a>Kostnaður viðhaldsáætlunar
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 Í eignastjórnun geturðu reiknað út kostnaðaráætlun á viðhaldsskemalínum. Þetta er gagnlegt ef þú vilt fá yfirsýn yfir væntanlegan kostnað, til dæmis kostnað vegna fyrirhugaðra forvirkra viðhaldsverka næsta árið. Útreikningarnir eru byggðir á núverandi viðhaldsskemalínum af gerðinni „Viðhaldsáætlanir“ og „Viðhaldslotur“ og „Viðhaldsbeiðnir“.
 
@@ -48,10 +46,11 @@ ms.locfileid: "1875704"
 
 5. Smellið á **Í lagi** til að hefja kostnaðarútreikning.
 
-6. Á flipanum **Kostnaður viðhaldsskema** > í aðgerðarúðuhópunum **Flokka eftir...** skaltu smella á viðeigandi hnappa til að sýna umbeðið upplýsingastil kostnaðarútreiknings. Valdir aðgerðarrúðuhópshnappar eru auðkenndir í bláum lit. Smelltu á hnappinn til að virkjaðu eða afvirkjaðu hann.
+6. Á flipanum **Kostnaður viðhaldsskema** > í aðgerðarúðuhópunum **Flokka eftir...** skaltu smella á viðeigandi hnappa til að sýna umbeðið upplýsingastil kostnaðarútreiknings. Valdir hóphnappar aðgerðarrúðu eru auðkenndir. Smelltu á hnappinn til að virkjaðu eða afvirkjaðu hann.
 
 7. Smelltu á hnappinn **Reikna kostnað** ef þú vilt gera nýjan kostnaðarútreikning.
 
+Myndin hér að neðan sýnir niðurstöður útreiknings á kostnaði viðhaldsskema.
 
 ![Mynd 1](media/17-preventive-maintenance.png)
 

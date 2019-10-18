@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27f574be865ca5f7474e11c7aae1a110f66298c8
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 944d43279a6753b73b9dfe89429b2c9d6c80b5df
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865473"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250784"
 ---
 # <a name="inventory-management-overview"></a>Birgðastjórnunaryfirlit
 
@@ -53,10 +53,8 @@ Eftirfarandi kennslukort sýnir helstu hugtök og verkefni sem eru í ramma eini
 ### <a name="inventory-accounting"></a>Birgðabókhald 
 Frekari upplýsingar eru í [Birgðabókhald í Kostnaðarstjórnun](../cost-management/inventory-close.md).
 
-### <a name="manufacturing-and-supply-chain-management-blogs"></a>Blogg varðandi stjórnun framleiðslu og aðfangakeðju
+### <a name="manufacturing-and-supply-chain-management-blogs"></a>Blogg varðandi framleiðslu og Supply Chain Management
 Finna má skoðanir, fréttir og aðrar upplýsingar um birgðastjórnun og aðrar lausnir á [Dynamics AX Manufacturing R&D Team Blog](https://blogs.msdn.microsoft.com/axmfg) and [Birgðakeðjustjórnun í Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Verkleiðbeiningar
-Frekari hjálp er í boði sem verkleiðbeiningar í Finance and Operations. Smellið á hnappinn **Hjálp** á hvaða síðu sem er til að fá aðgang að leiðbeiningum fyrir verkefni.
-
-
+Frekari hjálp er tiltæk sem leiðbeiningar fyrir verkefni. Smellið á hnappinn **Hjálp** á hvaða síðu sem er til að fá aðgang að leiðbeiningum fyrir verkefni

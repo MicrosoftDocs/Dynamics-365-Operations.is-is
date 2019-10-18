@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 0dd1f00cd2558c69941279e5f41256be621d7c74
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d5fe56c949975f8cd07b54308cec43f833cc9d69
+ms.sourcegitcommit: 0dd8d0510214f92936a9dd214b404c5c8103587b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518305"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2419224"
 ---
 # <a name="align-workforce-skills-with-business-needs"></a>Jafna hæfni vinnuafls við viðskiptaþarfir
 
@@ -48,7 +48,7 @@ Matslíkön hjálpa til við að meta raunverulegt stig einstaklings af hæfni, 
 ## <a name="enter-skills-for-workers-applicants-or-contacts"></a>Færa inn hæfni fyrir starfsmenn, umsækjendur eða tengiliðir
 Hægt er að færa hæfni eða raunverulega hæfni fyrir starfsmenn, umsækjendur eða tengiliðir. Markhæfni er hæfni sem einstaklingur ætlar að ná. Raunveruleg kunnátta er kunnátta sem einstaklingur býr þegar yfir.
 
-## <a name="skill-mapping-and-skill-mapping-profiles"></a> Setja upp hæfniskráningu og forstillingar fyrir hæfniskráningu
+## <a name="skill-mapping-and-skill-mapping-profiles"></a>Setja upp hæfniskráningu og forstillingar fyrir hæfniskráningu
 Hægt er að stofna hæfnisleitar til að finna starfsmann, umsækjanda eða tengilið sem er hæfur til að framkvæma sérstaka gerð verks. Hæfnisvörpun leitar yfir hæfni, menntun, skírteini, ábyrgðarstöður og verkreynslu og skilar niðurstöðum sem samsvara gefnum skilyrðum.  Til dæmis gæti verið gagnlegt að vita hvaða starfsmenn í fyrirtækinu þínu unnu fyrir sínu CPA.
 
 Hæfnisvörpun gerir kleift að finna núverandi starfsmenn eða umsækjendur með hæfni sem samsvara beint viðskiptaþörfum.  Til dæmis væri hægt að stofna forstillingu hæfnisvörpunar fyrir opna staða í þínu fyrirtæki. Með því að stofna forstillingu fyrir starf og afrita hæfni, menntun og skírteini úr því starfi í forstillingum°, °er á fljótlegan hátt hægt að leita að starfsmönnum, umsækjendum og tengiliðum sem passa við°eitt eða fleiri skilyrði sem eru færð inn í forstillingu og skoða lista yfir umsækjendur með bestu hæfnisamsvörun sem krafist er fyrir starfið.
@@ -68,7 +68,7 @@ Hægt er að stofna greiningu hæfniforstillingar til að skoða lista yfir hæf
 <a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Mannauður](index.md)
+[Mannauður](index.yml)
 
 
 

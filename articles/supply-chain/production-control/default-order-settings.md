@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b7c36553c9ad5bf4b061285d617be85ce77d0fcd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e6d4e9a3ac5635e292b20eba60fe4f010562fdba
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552648"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250096"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði
 
@@ -32,7 +32,7 @@ ms.locfileid: "1552648"
 
 [!include [retail name](../includes/retail-name.md)]
 
-Sjálfgefið pöntunarstillingar í Microsoft Dynamics 365 for Finance and Operations skilgreina svæði og vöruhús þar sem afurðir verða upprunnin frá eða geymdar, í lágmarks, hámarks, margar og staðlaðs magns sem verða notuð fyrir viðskipti eða birgðastjórnun, afhendingartíma, stöðvunarflagg, og aðferðina pöntun lofað. Sjálfgefnar pöntunarstillingar eru notaðar þegar innkaupapantanir, sölupantanir, flutningspantanir, birgðabókum eru stofnaðar, og við aðaláætlanagerð til að mynda áætluð pöntun. Sjálfgefnar pöntunarstillingar geta verið tengdar ákveðnum vörum, svæðum, afurðarafbrigðum, eða afurðarvíddum.
+Sjálfgefið pöntunarstillingar í Dynamics 365 Supply Chain Management skilgreina svæði og vöruhús þar sem afurðir verða upprunnin frá eða geymdar, í lágmarks, hámarks, margar og staðlaðs magns sem verða notuð fyrir viðskipti eða birgðastjórnun, afhendingartíma, stöðvunarflagg, og aðferðina pöntun lofað. Sjálfgefnar pöntunarstillingar eru notaðar þegar innkaupapantanir, sölupantanir, flutningspantanir, birgðabókum eru stofnaðar, og við aðaláætlanagerð til að mynda áætluð pöntun. Sjálfgefnar pöntunarstillingar geta verið tengdar ákveðnum vörum, svæðum, afurðarafbrigðum, eða afurðarvíddum.
 
 Þú getur skilgreinir sjálfgefnar pöntunarstillingar á **Sjálfgefnar pöntunarstillingar** síðu. Til að opna þessa síðu farið í **Vöruupplýsingastjórnun** &gt; **Afurðir** &gt; **Losaðar afurðir** &gt; **Velja losaða afurð** &gt; á **Áætlun** eða **Stjórna birgðum** Aðgerðarrúða &gt; **Pöntunarstillingar** &gt; **Sjálfgefnar pöntunarstillingar**.
 
@@ -74,7 +74,7 @@ Sjálfgefnar birgðapantanastillingar eiga einnig við þegar stofnaðar eru:
 -   Framleiðslutillögur
 
 ## <a name="full-definition-of-a-released-product"></a>Full skilgreining á útgefin afurð
-Þegar færsla er stofnuð, þarf að tilgreina fulla skilgreiningu á losaðri afurð á línuna Finance and Operations reynir að auðkenna sjálfgefnar pantanastillingar. Full skilgreining fyrir útgefna afurð þýðir að vörunúmer og allar virkar afurðarvíddir, eins og afbrigði, stærð, stíl og lit, eru tilgreind í færslunni. Til dæmis, ef innkaupapöntunarlínu fyrir útgefin afurðarafbrigði eru stofnaðar handvirkt þarf að tilgreina allt nauðsynlegt afurðarvíddum áður en svæði, vöruhúsi, magn og afhendingartíma birtist sjálfkrafa í pöntunarlínu. 
+Þegar færsla er stofnuð, þarf að tilgreina fulla skilgreiningu á losaðri afurð á línuna til að Supply Chain Management geti reynt að auðkenna sjálfgefnar pantanastillingar. Full skilgreining fyrir útgefna afurð þýðir að vörunúmer og allar virkar afurðarvíddir, eins og afbrigði, stærð, stíl og lit, eru tilgreind í færslunni. Til dæmis, ef innkaupapöntunarlínu fyrir útgefin afurðarafbrigði eru stofnaðar handvirkt þarf að tilgreina allt nauðsynlegt afurðarvíddum áður en svæði, vöruhúsi, magn og afhendingartíma birtist sjálfkrafa í pöntunarlínu. 
 
 Ekki allar sjálfgefnar færibreytur pöntunarstillinga eru notaðar stofnaðar eru pöntunar- eða færslubókarlínur. Magn og afhendingartími birtast aðeins sjálfgefið þegar við á. Til dæmis, þegar verið er að telja færslubókarlínu, birtist aðeins svæðið og vöruhús sjálfkrafa þegar línan er stofnuð. Augljóslega fer ekki fram nein sjálfgefið magn eða athuganir á mörgum eða lágmarki þegar verið er að stofna línuna eða bóka færslubókina. 
 
@@ -97,7 +97,7 @@ Fyrir einkvæmrar útgefnar afurðir, er hægt að skilgreina almennar pöntunar
 
 Til að stofna pöntunarstillingar fyrir tiltekin svæði, smelltu á **Nýtt**. Í **Upplýsingayfirlit**, fylla út svæði í á **Stillingum fyrir** &gt; **Svæði** svæðinu. Í á **hnitanetsyfirlit**, fyllið út í svæðinu á **Svæði** dálkinn. Nýja reglu fær sjálfkrafa nýtt vægi, hærra en núll. Hægt er að stofna eins mörg reglur fyrir tiltekin svæði eftir þörfum og úthluta sama vægi fyrir reglur tiltekinna svæða, og sníða þær þannig að allar séu þær jafngildar. 
 
-Ef þú ert í **Upplýsingayfirlit**, er ekki hægt að fá yfirlit yfir reglur sem eru stofnaðar fyrir vöruna. Víxla á **Sýna/Fela lista** hnappinn til að sjá yfirlit yfir upplýsingar. Þegar pöntunarlína af einhverri gerð er stofnuð og hún er ekki með neitt svæði úthlutað, leitar Finance and Operations að reglu sem ekki hefur tilgreint svæði. Þetta gæti auðveldað ákvörðun á sjálfgefið svæði á pöntunarlínu. Þetta svæði er síðan notaður til að leita að reglu fyrir tiltekin svæði, þar sem sjálfgefið vöruhús hefur hugsanlega verið stillt. Vöruhús er notaður í pöntunarlínuna.
+Ef þú ert í **Upplýsingayfirlit**, er ekki hægt að fá yfirlit yfir reglur sem eru stofnaðar fyrir vöruna. Víxla á **Sýna/Fela lista** hnappinn til að sjá yfirlit yfir upplýsingar. Þegar pöntunarlína af einhverri gerð er stofnuð og hún er ekki með neitt svæði úthlutað, leitar Supply Chain Management að reglu sem ekki hefur tilgreint svæði. Þetta gæti auðveldað ákvörðun á sjálfgefið svæði á pöntunarlínu. Þetta svæði er síðan notaður til að leita að reglu fyrir tiltekin svæði, þar sem sjálfgefið vöruhús hefur hugsanlega verið stillt. Vöruhús er notaður í pöntunarlínuna.
 
 ### <a name="specific-order-settings-for-product-dimension"></a>Tilteknar Pöntunarstillingar fyrir afurðarvídd
 
@@ -134,7 +134,7 @@ Hægt er að stofna eftirfarandi sjálfgefnar reglur pöntunarstillingar.
 
 Reglurnar tvær til að stöðva gömlu endurskoðanirnar hafa sama vægi, sem þýðir að þær eru jafn mikilvægar. Báðar hafa hærra vægi en reglnar fyrir forstillingu C1, sem þýðir að þær hafa forgang yfir reglu fyrir skilgreiningu C1. 
 
-Þetta dæmi útskýrir þörf fyrir vægi. Ef innkaupapöntun er búin til fyrir skilgreiningu C1 og endurskoðun R2, þá yrðu reglurnar tvær sem skilgreindar eru fyrir R2 og C1 tvíræðrar, ef vægi vantar. Til að leysa úr tvíræðni, leitar Finance and Operations í reglunum í lækkandi röð vægis og notar fyrstu viðeigandi regluna. Í Gildandi dæmi þegar innkaupalína er stofnuð fyrir skilgreiningu C1 og endurskoðun R2, fær notandinn viðvörunarskilaboð um að varan er í bið og að þetta sé vegna gildis endurskoðunar. Ef regla fyrir skilgreiningu væri með hærra vægi en reglan fyrir endurskoðunina, þá hefði tekist að stofna innkaupapöntunarlínu skilgreiningar C1 og endurskoðunar R2 og ekkert skilaboð 'vara í biðstöðu' myndi hafa birst fyrir notanda. 
+Þetta dæmi útskýrir þörf fyrir vægi. Ef innkaupapöntun er búin til fyrir skilgreiningu C1 og endurskoðun R2, þá yrðu reglurnar tvær sem skilgreindar eru fyrir R2 og C1 tvíræðrar, ef vægi vantar. Til að leysa úr tvíræðni, leitar Supply Chain Management í reglunum í lækkandi röð vægis og notar fyrstu viðeigandi regluna. Í Gildandi dæmi þegar innkaupalína er stofnuð fyrir skilgreiningu C1 og endurskoðun R2, fær notandinn viðvörunarskilaboð um að varan er í bið og að þetta sé vegna gildis endurskoðunar. Ef regla fyrir skilgreiningu væri með hærra vægi en reglan fyrir endurskoðunina, þá hefði tekist að stofna innkaupapöntunarlínu skilgreiningar C1 og endurskoðunar R2 og ekkert skilaboð 'vara í biðstöðu' myndi hafa birst fyrir notanda. 
 
 Íhugið eftirfarandi reglur fyrir sjálfgefnar pöntunarstillingar.
 

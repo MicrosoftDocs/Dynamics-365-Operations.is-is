@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd94ae4c5ea855139fd1c41060de7db455ffab06
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dd51fa667fd48b7bab64c3566b616631c6f9bcd1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557641"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249633"
 ---
 # <a name="cost-management-home-page"></a>Heimasíða kostnaðarstjórnunar
 
@@ -69,5 +69,5 @@ Bókhald framleiðslu leyfir notanda að sjá um [Kostnaðaraðferð vinnupöntu
 Finna má skoðanir, fréttir og aðrar upplýsingar um kostnaðarstjórnun á [Dynamics AX Manufacturing R&D Team blog](https://blogs.msdn.microsoft.com/axmfg) og [Aðfangakeðjustjórnun í Dynamics AX R&D Team blog](https://blogs.msdn.microsoft.com/dynamicsaxscm). Þó svo sumar þessara færslna hafi verið skrifaðar fyrir eldri útgáfu Kostnaðarstjórnunar eiga sömu hugtök enn við og ferlin eru svipuð í nýjustu útgáfunni.
 
 #### <a name="task-guides"></a>Verkleiðbeiningar
-Frekari hjálp er í boði sem verkleiðbeiningar í Finance and Operations. Smellið á hnappinn Hjálp á hvaða síðu sem er til að fá aðgang að verkleiðbeiningum.
+Frekari hjálp er tiltæk sem leiðbeiningar fyrir verkefni. Smellið á hnappinn Hjálp á hvaða síðu sem er til að fá aðgang að verkleiðbeiningum.
 

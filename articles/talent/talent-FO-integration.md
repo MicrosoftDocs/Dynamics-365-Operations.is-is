@@ -1,9 +1,9 @@
 ---
-title: Algengar spurningar um samþættingu Dynamics 365 for Talent til Dynamics 365 for Finance and Operations
-description: Þetta efnisatriði útskýrir hvaða gögn eru samstillt í samþættingu á Talent og Finance and Operations.
+title: Algengar spurningar um samþættingu Dynamics 365 Talent til Dynamics 365 Finance
+description: Þetta efnisatriði útskýrir hvaða gögn eru samstillt í samþættingu á Talent og Finance.
 author: andreabichsel
 manager: AnnBe
-ms.date: 01/09/2019
+ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: cb9e01316f4b154a3e9a73042eaf0492f016c46c
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 5bb855e6dd7ff236b7bda9e59e12ed8cc8ab9bc9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742712"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251015"
 ---
-# <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>Algengar spurningar um samþættingu Dynamics 365 for Talent til Dynamics 365 for Finance and Operations
+# <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>Algengar spurningar um samþættingu Dynamics 365 Talent til Dynamics 365 Finance
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði svarar algengum spurningum sem tengjast gögnunum sem eru samstillt þegar Dynamics 365 for Talent er samþætt við Dynamics 365 for Finance and Operations.
+Þetta efnisatriði svarar algengum spurningum sem tengjast gögnunum sem eru samstillt þegar Dynamics 365 Talent er samþætt við Dynamics 365 Finance.
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Eru öll gögn samstillt eða bara sumar gagnaeiningar?
 
-Með Core Human Resources er undirsafn af gögnunum samstillt við. Fyrir lista yfir allar einingarnar skal sjá [Samþætting frá Dynamics 365 for Talent til Dynamics 365 for Finance and Operations](talent-financeandoperations-integration.md).
+Fyrir Core HR er undirsafn af gögnunum samstillt við. Fyrir lista yfir allar einingarnar skal sjá [Samþætting frá Dynamics 365 Talent til Dynamics 365 Finance](talent-financeandoperations-integration.md).
 
 Fyrir Attract og Onboard eru öll gögn staðbundin við Common Data Service.
 
@@ -40,15 +40,15 @@ Fyrir Attract og Onboard eru öll gögn staðbundin við Common Data Service.
 
 Sniðmát eru upphafspunktur. Hægt er að búa til sitt eigið sniðmát, en alltaf er þörf á sniðmáti þegar samþættingarverk er búið til. Nánari upplýsingar um Data Integrator (DI), sniðmát og verk er að finna í [Samþætta gögn í Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
-## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance-and-operations"></a>Er hægt að varpa fjárhagsvíddum í flutning milli Talent og Finance and Operations?
+## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance"></a>Er hægt að varpa fjárhagsvíddum í flutning milli Talent og Finance?
 
 Sem stendur eru fjárhagsvíddir ekki í Common Data Service og eru þar af leiðandi ekki hluti af sjálfgefna sniðmátinu. Þessi eining er fyrirhuguð en engin tímalína útgáfu er til eins og er.
 
-Fyrir gögn sem eru í Finance and Operations en eru ekki til í Talent, skal tengja kerfin tvö saman með **Skilgreina tengla** í Talent. Nánari upplýsingar um hvernig á að skilgreina tengla milli Talent og Finance and Operations er að finna í [Hvað er nýtt eða breytt í Dynamics 365 for Talent Core HR (31. október 2018)](whats-new-talent-october-31.md).
+Fyrir gögn sem eru í Finance en eru ekki til í Talent, skal tengja kerfin tvö saman með **Skilgreina tengla** í Talent. Nánari upplýsingar um hvernig á að skilgreina tengla milli Talent og Finance er að finna í [Hvað er nýtt eða breytt í Dynamics 365 Talent: Core HR (31. október 2018)](whats-new-talent-october-31.md).
 
 ![Varpa fjárhagsvíddum](media/MapFinancialDimensions.png)
 
-## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-and-operations-why"></a>Stundum þegar ég flyt inn starfsmenn fara þeir í óvirka starfskrafta í Finance and Operations. Af hverju?
+## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-why"></a>Stundum þegar ég flyt inn starfsmenn fara þeir í óvirka starfskrafta í Finance. Af hverju?
 
 Þú gætir fengið þessa villu ef starfsmenn hafa ekki virka skrá með starfsupplýsingum í Talent. Til að leysa þetta skal fara í **Starfsmannastjórnun \> Starfsmenn \> Starfsferill \> Stjórnun dagsetninga** og staðfesta að til sé virk skrá starfsupplýsinga.
 
@@ -62,7 +62,7 @@ Með því að nota „Ítarleg fyrirspurn“ geturðu síað og mótað uppruna
 
 ![Ítarleg fyrirspurn virkra starfskrafta](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
-## <a name="can-i-specify-which-fields-to-send-to-finance-and-operations-for-a-specific-entity"></a>Get ég tilgreint hvaða svæði skal senda til Finance and Operations fyrir tiltekna einingu?
+## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Get ég tilgreint hvaða svæði skal senda til Finance fyrir tiltekna einingu?
 
 Hægt er að bæta við eða fjarlægja svæði úr samþættingarverkinu. Ekki öll gagnasvæði sem til eru í einingu Common Data Service verða fylltir út frá Core HR.
 Hægt er að fylla út viðbótargögn í gegnum PowerApps.
@@ -75,7 +75,7 @@ Ekki er krafist sérstakrar uppsetningar fyrir meðhöndlun frávika. Data Integ
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>Get ég sett upp samþættingu í báðar áttir?
 
-Nei, sem stendur er samþætting í aðra áttina (Talent til Finance and Operations). Hins vegar er sjálfgefið sniðmát í boði til að senda gögn frá Talent til Finance and Operations.
+Nei, sem stendur er samþætting í aðra áttina (Talent til Finance and Operations). Hins vegar er sjálfgefið sniðmát í boði til að senda gögn frá Talent til Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Get ég leyft skráareyðingu sem hluta af samþættingu minni?
 
@@ -93,13 +93,13 @@ Athugaðu uppsetningu samþættingarlykla, gerðu nauðsynlegar breytingar á up
 
 ## <a name="if-i-have-n-number-of-legal-entities-where-workers-have-employments-do-i-need-to-create-a-mapping-for-each-of-them"></a>Ef ég er með N fjölda lögaðila þar sem starfskraftar hafa vinnu, þarf ég að búa til vörpun fyrir hvern þeirra?
 
-Já, fyrir hvern lögaðila í Finance and Operations þarf sérstakt samþættingarverk í gagnasamþættingu.
+Já, fyrir hvern lögaðila í Finance þarf sérstakt samþættingarverk í gagnasamþættingu.
 
 ## <a name="i-need-to-transfer-data-that-is-not-part-of-the-default-template-provided-by-microsoft-can-i-do-this"></a>Ég þarf að flytja gögn sem ekki eru hluti af sjálfgefna sniðmátinu sem Microsoft býður upp á. Get ég gert þetta?
 
 Já, hægt er að bæta við eða fjarlægja svæði úr núverandi sniðmáti. Sniðmátinu má breyta til að innihalda viðbótarupplýsingar úr öðrum einingum Common Data Service. Einingin verður að vera í Common Data Service til að hún verði hluti af sniðmátinu. 
 
-## <a name="i-just-created-new-finance-and-operations-and-talent-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>Ég var að stofna ný umhverfi Finance and Operations og Talent og ég fæ villuna: „Gagnagildið brýtur hömlur fyrir heilleika.“ Af hverju?
+## <a name="i-just-created-new-finance-and-talent-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>Ég var að stofna ný umhverfi Finance og Talent og ég fæ villuna: „Gagnagildið brýtur hömlur fyrir heilleika.“ Af hverju?
 
 Ástæður þessarar villu geta falið í sér:
 
@@ -109,9 +109,9 @@ Já, hægt er að bæta við eða fjarlægja svæði úr núverandi sniðmáti. 
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Ef framkvæmdavillur koma upp og auðkenni starfsmanns samstilltist ekki, hvernig finn ég þá vinnsluferilinn sem inniheldur starfsmannafærsluna?
 
-Data Integrator mun búa til mörg verk í Finance and Operations. Sambandið milli verks Data Integrator og verks Finance and Operations er einn á móti einum.
+Data Integrator mun búa til mörg verk í Finance. Sambandið milli verks Data Integrator og verks Finance er einn á móti einum.
 
-Rektu tímann frá framkvæmdaferil Data Integrator og leitaðu að vísinum -1 fyrir verk Finance and Operations. Ef verknúmerið er 9 í Data Integrator er vísirinn í Finance and Operations 8.
+Rektu tímann frá framkvæmdaferil Data Integrator og leitaðu að vísinum -1 fyrir verk Finance. Ef verknúmerið er 9 í Data Integrator er vísirinn í Finance 8.
 
 1. Sæktu vísi verksins úr Data Integrator (í þessu dæmi er hann „9“).
 
@@ -121,13 +121,13 @@ Rektu tímann frá framkvæmdaferil Data Integrator og leitaðu að vísinum -1 
 
 ![Rektu tíma framkvæmdar fyrir verk](media/CaptureTimeOfExecution.png)
 
-3. Í Finance and Operations skal finna vísi -1. Í þessu dæmi passar verkið með viðskeytið „8“ og tíma framkvæmdar með vísi „0“ við tíma framkvæmdar í skrefi 2.
+3. Í Fjármálum skaltu bera kennsl á vísitölu - 1. Í þessu dæmi passar verkið með viðskeytið „8“ og tíma framkvæmdar með vísi „0“ við tíma framkvæmdar í skrefi 2.
 
 ![Auðkenna vísi](media/IdentifyIndex.png)
 
-## <a name="after-integrating-talent-and-finance-and-operations-i-dont-see-my-talent-data-in-finance-and-operations-what-do-i-do"></a>Eftir að hafa samþætt Talent og Finance and Operations, sé ég ekki Talent-gögnin mín í Finance and Operations. Hvað geri ég?
+## <a name="after-integrating-talent-and-finance-i-dont-see-my-talent-data-in-finance-what-do-i-do"></a>Eftir að hafa samþætt Talent og Finance, sé ég ekki Talent-gögnin mín í Finance. Hvað geri ég?
 
-Samþættingin við Finance and Operations er ferli í tveimur skrefum. Fyrst skaltu staðfesta að Talent-gögnin séu uppfærð og tiltæk í Common Data Service. Þetta er nærri því samstilling í rauntíma og hægt er að sannprófa hana í PowerApps með því að líta á gögnin innan gagnaeininganna.
+Samþættingin við Finance er ferli í tveimur skrefum. Fyrst skaltu staðfesta að Talent-gögnin séu uppfærð og tiltæk í Common Data Service. Þetta er nærri því samstilling í rauntíma og hægt er að sannprófa hana í PowerApps með því að líta á gögnin innan gagnaeininganna.
 
 ![Gögn í Common Data Service](media/DataInCDS.png)
 
@@ -135,24 +135,24 @@ Ef gögnin birtast ekki eins og búist er við í Common Data Service skaltu sta
 
 Ef einingin er studd og gögnin eru tiltæk í Common Data Service skaltu staðfesta að vörpunin sé rétt í Data Integrator. Ef vörpun samþættingar lítur vel út skaltu staðfesta að keyrsla á vinnslum gagnastjórnunar hafi tekist. Villur geta komið fram meðan á framkvæmd runuvinnslunnar stendur. Nánari upplýsingar um stjórnun gagna er að finna í [Gagnastjórnun](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
 
-## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-and-operations-what-should-i-do"></a>Heimilisföngin fyrir starfsmennina mína eru rangar eftir að ég flyt þær inn í Finance and Operations. Hvað ætti ég að gera?
+## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Heimilisföngin fyrir starfsmennina mína eru rangar eftir að ég flyt þær inn í Finance. Hvað ætti ég að gera?
 
-Númeraröðin fyrir **Staðsetningarkenni** notar sama mynstur í bæði Talent og Finance and Operations. Númeraröðin þarf að vera einkvæm á báðum hliðum, svo að það verði engir árekstrar á heimilisföngum við samþættingu gagna frá Common Data Service til Finance and Operations.
+Númeraröðin fyrir **Staðsetningarkenni** notar sama mynstur í bæði Talent og Finance. Númeraröðin þarf að vera einkvæm á báðum hliðum, svo að það verði engir árekstrar á heimilisföngum við samþættingu gagna frá Common Data Service til Finance and Operations.
 
-Við innleiðingu á Talent skal staðfesta að númeraraðirnar séu ekki þær sömu í Talent og Finance and Operations. Staðfestið að allar númeraraðir séu ekki eins þar sem gögn kunna að vera í báðum kerfum.
+Við innleiðingu á Talent skal staðfesta að númeraraðirnar séu ekki þær sömu í Talent og Finance. Staðfestið að allar númeraraðir séu ekki eins þar sem gögn kunna að vera í báðum kerfum.
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>Þegar ég er bý til tengistillinguna mína, get ég ekki séð tenginguna í fellilista tengingarinnar. Hvað geri ég?
 
-Gakktu úr skugga um að þegar þú býrð til tengingar velurðu Dynamics 365 for Finance and Operations (sem stendur í forskoðun) og Common Data Service.
+Gakktu úr skugga um að þegar þú býrð til tengingar velurðu Dynamics 365 Finance og Common Data Service.
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Við samstillingu starfsmanna fæ ég villurnar „CompanyInfo_FL er ekki til“ eða „Gildið '12/31/2154 11:59:59 pm‘ í reitnum „Lokadagur starfsmanns finnst ekki í tengdri töflu „Starfsmaður“.“ Hvað ætti ég að gera?
 
-Gakktu úr skugga um að þú varpir í rétta lögaðila. Samstilling lögaðila er ekki hluti af sjálfgefna sniðmátinu, þannig að það er gert ráð fyrir að hver lögaðili sem er til staðar í Talent og Common Data Service sé einnig til staðar í Finance and Operations.
+Gakktu úr skugga um að þú varpir í rétta lögaðila. Samstilling lögaðila er ekki hluti af sjálfgefna sniðmátinu, þannig að það er gert ráð fyrir að hver lögaðili sem er til staðar í Talent og Common Data Service sé einnig til staðar í Finance.
 Gakktu einnig úr skugga um að þú veljir rétta lögaðila fyrir tengda tengistillingu.
 
-## <a name="after-setting-up-my-project-the-field-mapping-for-finance-and-operations-appears-to-be-empty-what-should-i-do"></a>Eftir að verkefnið var sett upp virðist vörpun reita fyrir Finance and Operations vera tóm. Hvað ætti ég að gera?
+## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>Eftir að verkefnið var sett upp virðist vörpun reita fyrir Finance vera tóm. Hvað ætti ég að gera?
 
-Uppfæra gagnaeiningarnar í Finance and Operations með því að fara í **Gagnastjórnun \> Færibreytur ramma \> Einingastillingar \> Uppfæra einingalista.** Þetta ætti að taka nokkrar mínútur að klárast, síðan ættir þú að sjá þessar varpanir. Þetta mál kemur upp þegar ný verkefni eru búin til.
+Uppfæra gagnaeiningarnar í Finance með því að fara í **Gagnastjórnun \> Færibreytur ramma \> Einingastillingar \> Uppfæra einingalista.** Þetta ætti að taka nokkrar mínútur að klárast, síðan ættir þú að sjá þessar varpanir. Þetta mál kemur upp þegar ný verkefni eru búin til.
 
 ![Vörpun reita vantar](media/MissingFieldMapping.png)
 
@@ -164,7 +164,7 @@ Uppfæra gagnaeiningarnar í Finance and Operations með því að fara í **Gag
 
   - [Villumeðhöndlun og úrræðaleit Data Integrator](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [Viðbrögð við DSR-beiðnum fyrir kerfismyndaða kladda í PowerApps, Microsoft Flow, og Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Viðbrögð við DSR-beiðnum fyrir kerfismyndaða kladda í PowerApps, Microsoft Flow og Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Stjórnun gagna:
 

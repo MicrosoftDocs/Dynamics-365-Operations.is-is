@@ -1,6 +1,6 @@
 ---
 title: Valkostir skýrslugerðar í Talent
-description: Þetta efnisatriði útskýrir hvernig á að leysa vandamál þar sem viðskiptamaður vill sérsníða skýrslur eða stofna nýjar skýrslur Dynamics 365 for Talent.
+description: Þetta efnisatriði útskýrir hvernig á að leysa vandamál þar sem viðskiptamaður vill sérsníða skýrslur eða stofna nýjar skýrslur Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8e7348a515b08523c15aa8f74d5616a3daf645b7
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 50342c847200d015a66c6f22007070bb26c6caef
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741799"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009353"
 ---
 # <a name="reporting-options-in-talent"></a>Valkostir tilkynninga í Talent
 
@@ -34,7 +34,7 @@ ms.locfileid: "1741799"
 
 **Einkenni**
 
-Viðskiptamaður vill sérsníða skýrslur eða stofna nýjar Microsoft Dynamics 365 for Talent skýrslur.
+Viðskiptamaður vill sérsníða skýrslur eða stofna nýjar Microsoft Dynamics 365 Talent skýrslur.
 
 **Úthreyfing**
 
@@ -42,7 +42,7 @@ Notandi getur ekki sérsniðið innfelldar skýrslur Microsoft Power BI.
 
 **Lausn**
 
-- Hægt er að gefa skýrslu um gögn Core HR sem flæða til Common Data Service í gegnum PowerApps Common Data Service-tengingu við Power BI Desktop. Athugið að Common Data Service inniheldur undirsafn af Core HR-gögnum. Frekari upplýsingar um Power BI og yfirlit eru í [Stofna Power BI -skýrslur og yfirlit með PowerApps Common Data Service](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
+- Hægt er að gefa skýrslu um gögn Core HR sem flæða til Common Data Service í gegnum PowerApps Common Data Service-tengingu við Power BI Desktop. Athugið að Common Data Service inniheldur undirsafn af Core HR-gögnum. Frekari upplýsingar um Power BI og yfirlit eru í [Stofna Power BI-skýrslur og yfirlit með PowerApps Common Data Service](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
 - Rafræn skýrslugerð (ER) er í boði fyrir sumar skýrslur í Talent. Hægt er að gera sérstillingar, knúnar af viðskiptamönnum, með stillingarmöguleikum rafrænnar skýrslugerðar.
 - Hægt er að flytja út gögn í Microsoft Excel eða Microsoft Word með ýmsum gagnaeiningum sem Talent útvegar í gegnum samþættingu Microsoft Office.
 

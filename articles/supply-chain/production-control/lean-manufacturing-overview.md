@@ -1,6 +1,6 @@
 ---
 title: Yfirlit Lean manufacturing
-description: Þessi skrá veitir sem yfirlit og lýsingu á lean-framleiðslu aðgerðir í Dynamics 365 for Finance and Operations.
+description: Þessi skrá veitir sem yfirlit og lýsingu á lean-framleiðslu aðgerðir í Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,29 +19,29 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6db940548018c9d6bbb31891c21f7c334ba8956
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d338318d3f7a1b56fe98e5c093ccbe795bd8de44
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562393"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250073"
 ---
 # <a name="lean-manufacturing-overview"></a>Yfirlit yfir lean-framleiðslu
 
 [!include [banner](../includes/banner.md)]
 
-Þessi skrá veitir sem yfirlit og lýsingu á lean-framleiðslu aðgerðir í Microsoft Dynamics 365 for Finance and Operations.
+Þessi skrá veitir sem yfirlit og lýsingu á lean-framleiðslu aðgerðir í Dynamics 365 Supply Chain Management.
 
 Lean-framleiðsla býður upp á verkfæri sem hægt er að nota til að móta lean-aðgerðir. Þessar verkfæri styðja og ýta undir eftirfarandi hugtök og verkþætti viðskipta:
 -   Stofna lean-framleiðslufyrirtæki með því að móta framleiðslu- og vörustjórnunarferli sem framleiðsluflæði.
 -   Innleiða lean-dráttarkerfi með því að nota kanbana til að merkja eftirspurn
 -   Fylgjast með og viðhalda kanban-vinnslur.
 
-Lean-framleiðsla í Finance and Operations samanstendur af framleiðsluflæði, verkþáttum og kanban-reglum. Þetta skipulag er að fullu samþætt ferlum Finance and Operations. Hægt er að nota lean-framleiðsla í blönduðum ham framleiðsluumhverfis sem sameinar mismunandi framboð, framleiðslu og upprunastefnur. Þessar stefnu innihalda framleiðslupantanir , runupantanir fyrir ferlisatvinnugreinar, innkaupapantanir og flutningspantanir.
+Lean-framleiðsla samanstendur af framleiðsluflæði, verkþáttum og kanban-reglum. Þetta skipulag er að fullu samþætt ferlum Supply Chain Management. Hægt er að nota lean-framleiðsla í blönduðum ham framleiðsluumhverfis sem sameinar mismunandi framboð, framleiðslu og upprunastefnur. Þessar stefnu innihalda framleiðslupantanir , runupantanir fyrir ferlisatvinnugreinar, innkaupapantanir og flutningspantanir.
 
 | **Mikilvægt**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Hægt er að nota Finance and Operations til að styðja innleiðingu lean-framleiðslu með kanban. Hins vegar er árangursrík innleiðing lean-regla byggð á innri viðskiptaferli sem er notuð, og raunverulegum framleiðsluskilyrðum og umhverfi. |
+| Hægt er að nota Supply Chain Management til að styðja innleiðingu lean-framleiðslu með kanban. Hins vegar er árangursrík innleiðing lean-regla byggð á innri viðskiptaferli sem er notuð, og raunverulegum framleiðsluskilyrðum og umhverfi. |
 
 ## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a>Móta framleiðslu- og vörustjórnunarferli sem framleiðsluflæði.
 Til að Stofna lean-framleiðslufyrirtæki, mótaðu framleiðslu- og vörustjórnunarferli sem framleiðsluflæði. Þessi aðgerð samanstendur af eftirfarandi verkefnum:
@@ -49,7 +49,7 @@ Til að Stofna lean-framleiðslufyrirtæki, mótaðu framleiðslu- og vörustjó
 2.  Skilgreina framleiðsluflæðis sem röð verkþætti sem lýsir flæði efnis. Flutningsverkþáttur skilgreinir hreyfingar á vöru eða vörum úr einum stað á annan. Vinna verkþátts skilgreinir virðisauka aðgerðina sem er beitt á afurð.
 3.  Stofna útgáfu af framleiðsluflæðið sem tilgreinir kröfur fyrir framleiðslutími á einingu Þessar þarfir eru notaðar til að reikna út ferlistíma á hvern verkþátt í framleiðsluflæðinu. Hægt er að stofna margar útgáfur framleiðsluflæða og nota þessar útgáfur til að bæta ferli.
 
-## <a name="using-kanbans-to-signal-demand-requirements"></a> Nota Kanban til að merkja eftirspurnarkröfur
+## <a name="using-kanbans-to-signal-demand-requirements"></a>Nota Kanban til að merkja eftirspurnarkröfur
 Tínslukerfi framleiðir vörur aðeins þegar vörurnar vantar. Þessi venju minnkar afhendingartíma sendinga og umframbirgðir. Hægt er að nota kanbana til að áætla, rekja og vinna þarfir sem eru byggðar á framleiðsluflæði. Til að stofna kanban ramma skal stofna kanban-reglur sem skilgreina þegar kanban eru stofnaðar og hvernig þær kröfur eru uppfylltar. Hægt er að stofna tvær tegundir kanban-regla: Reglur framleiðslu stofna kanban-vinnslur ferlis og kanban-reglur frádráttar stofna kanban-vinnslur flutnings. Hægt er að stofna eftirfarandi áfyllingaraðferðir:
 -   **Fast magn** kanban-reglur eru tengdar við fastur fjöldi efnismeðhöndlunareiningar, sem þýðir að fjöldi virkra kanbana eru föst. Þegar allar afurðir úr Kanban eru notaðar og efnismeðhöndlunareiningar eru handvirkt tæmt, er stofnuð ný kanban af sömu gerð. Þegar kanban-reglur fasts magns eru stofnaðar, er hægt að reikna út ákjósanlegar kanban-magn og magn afurðar sem eru notaðar. Útreikningur tekur mið af spá, raunveruleg eftirspurn úr opnum pöntunum, afgreiðslutíma til að fylla á vörum, og söguleg kröfur.
 -   **Áætlað** kanban-reglur fylla á kröfur sem eru reiknaðar við aðaláætlanagerð. Áætlanagerð myndar áætluð kanbön sem hægt er að festa við kanbana.
@@ -69,8 +69,8 @@ Eftirfarandi listi lýsir sérhæfðum kanban-borð:
 -   Kanban-borð fyrir flutningsverk - þetta borð veitir yfirlit yfir núverandi flutningsverk. Þú getur uppfært og skráð tiltektarlista, og hefja og ljúka flutningsvinnslum, og framkvæma önnur verk.
 -   Kanban-spjald fyrir vinnslukenni verks -Þessa spjald er hannað til að styðja venjulegt framleiðsluflæði og veita yfirlit yfir gildandi stöðu í einni eða mörgum vinnuflokkana. Úr þessari borði er hægt að forgangsraða Kanban tína þau eða framleiða. Borðið er einnig hannað til að styðja skannað strikamerki fyrir skýrslugerð kanbana.
 
-## <a name="kanban-jobs-and-integration-with-finance-and-operations-processes"></a>Kanban-vinnslur og samþætting við ferla Finance and Operations
-Kanban-vinnslur eru fyllilega samþættar gildandi ferlum fyrir birgðafærslur í Finance and Operations.
+## <a name="kanban-jobs-and-integration-with-supply-chain-management-processes"></a>Kanban störf og samþætting við ferla Supply Chain Management
+Kanban-vinnslur eru fyllilega samþættar gildandi ferlum fyrir birgðafærslur í Supply Chain Management.
 -   Hægt er að framkvæma tiltektarverkþáttum til að fylla á efni sem er notuð til að uppfylla kröfur kanban-vinnslur.
 -   Þú getur Prenta kanban-spjöld, virkt spjald og tiltektarlista til að styðja við notkun kanbana. Þessi skjöl eru notaðar til að tákna, rekja og skrá kanban-vinnslur í vöruhúsinu og í framleiðslu í vinnslusal.
 -   Þú getur skrá tiltektar og flutningsaðgerðir í birgðum með því að skanna strikamerki.

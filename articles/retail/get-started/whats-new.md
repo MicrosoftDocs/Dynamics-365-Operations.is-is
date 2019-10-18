@@ -1,6 +1,6 @@
 ---
-title: Hvað er nýtt eða breytt og Dynamics 365 for Retail
-description: Þessi síða beinir þér á efni sem getur aðstoðað þig við að læra um nýja eiginleika í nýjustu útgáfum Microsoft Dynamics 365 for Retail.
+title: Hvað er nýtt eða breytt og Dynamics 365 Retail
+description: Þessi síða beinir þér á efni sem getur aðstoðað þig við að læra um nýja eiginleika í nýjustu útgáfum Microsoft Dynamics 365 Retail.
 author: sericks007
 manager: AnnBe
 ms.date: 10/20/2018
@@ -16,22 +16,22 @@ ms.search.industry: retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 23156e4f19beaf1bfe6ab9a66a326d55e7d85213
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d0f89cc5ec0a0a1bb174a031aa9b6c059d608be4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845708"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025492"
 ---
-# <a name="whats-new-and-changed-in-dynamics-365-for-retail"></a>Hvað er nýtt og breytt í Dynamics 365 for Retail
+# <a name="whats-new-and-changed-in-dynamics-365-retail"></a>Hvað er nýtt og breytt í Dynamics 365 Retail
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi síða beinir þér á efni sem getur aðstoðað þig við að læra um nýja eiginleika og breytingar á nýjustu útgáfum Microsoft Dynamics 365 for Retail.
+Þessi síða beinir þér á efni sem getur aðstoðað þig við að læra um nýja eiginleika og breytingar á nýjustu útgáfum Microsoft Dynamics 365 Retail.
 
 [!include [release notes](../includes/release-notes.md)]
 
-## <a name="releases-of-dynamics-365-for-retail"></a>Útgáfur af Dynamics 365 for Retail
+## <a name="releases-of-dynamics-365-retail"></a>Útgáfur af Dynamics 365 Retail
 
 | Losun | Búa til númer | Til ráðstöfunar | Frekari upplýsingar |
 |---------|--------------|--------------|------------|

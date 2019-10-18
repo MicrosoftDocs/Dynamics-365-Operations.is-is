@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 00d7457b13e6633c9285a1fc43b8f6dd60dae9ae
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 555098a7d11cb0b4c0f90357ff260598e80108f5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836533"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017921"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Ákvarða bestu samsetningu afsláttar sem skarast
 
@@ -32,7 +32,7 @@ ms.locfileid: "1836533"
 
 Þegar afsláttur skarast, verður að ákvarða samsetningu afsláttar sem skarast, sem mun skapa lægstu heildarupphæð færslunnar eða hæsta heildarafslátt. Þegar afsláttarupphæð er breytileg eftir verði afurða sem eru keyptar, eins og hin algenga „Keyptu 1, fáðu 1 X prósent afslátt“ smásöluafslátt (BOGO), verður þetta ferli vandamál fínstillingar á samsetningum.
 
-Þessi grein á við um Microsoft Dynamics AX 2012 R3 með KB 3105973 (gefin út 2. nóvember 2015) eða síðar og við Microsoft Dynamics 365 for Retail. Við höfum innleitt aðferð til að nota afslætti sem skarast, til að hægt sé að ákvarða samsetningu afsláttar sem skarast tímanlega. Við köllum þessa nýju aðferð **Röðun jaðarvirðis**. Röðun jaðarvirðis er notuð þegar tíminn sem er nauðsynlegur til að meta mögulegar samsetningar á afslætti sem skarast fer yfir þröskuld sem er gerður skilgreinanlegur á síðunni **Færibreytur í Retail**. Í röðun jaðarvirðis, er virði reiknað fyrir hvern afslátt sem skarast með því að nota virði afsláttar á samnýttar afurðir. Afsláttur sem skarast gildir síðan úr tengdu hæsta hlutfallslega virði gegn lægsta hlutfallslega virði. Nánari upplýsingar um nýju greiðsluaðferðina er að finna í hlutanum „Jaðarvirði" síðar í þessari grein. Röðun jaðarvirðis er ekki notað þegar afsláttarupphæðir afurðar verða ekki fyrir áhrifum af annarri afurð í færslunni. Til dæmis er þessi aðferð ekki notuð fyrir tvo einfalda afslætti eða fyrir einfaldan afslátt og magnafslátt einnar afurðar.
+Þessi grein á við um Microsoft Dynamics AX 2012 R3 með KB 3105973 (gefin út 2. nóvember 2015) eða síðar og við Dynamics 365 Retail. Við höfum innleitt aðferð til að nota afslætti sem skarast, til að hægt sé að ákvarða samsetningu afsláttar sem skarast tímanlega. Við köllum þessa nýju aðferð **Röðun jaðarvirðis**. Röðun jaðarvirðis er notuð þegar tíminn sem er nauðsynlegur til að meta mögulegar samsetningar á afslætti sem skarast fer yfir þröskuld sem er gerður skilgreinanlegur á síðunni **Færibreytur í Retail**. Í röðun jaðarvirðis, er virði reiknað fyrir hvern afslátt sem skarast með því að nota virði afsláttar á samnýttar afurðir. Afsláttur sem skarast gildir síðan úr tengdu hæsta hlutfallslega virði gegn lægsta hlutfallslega virði. Nánari upplýsingar um nýju greiðsluaðferðina er að finna í hlutanum „Jaðarvirði" síðar í þessari grein. Röðun jaðarvirðis er ekki notað þegar afsláttarupphæðir afurðar verða ekki fyrir áhrifum af annarri afurð í færslunni. Til dæmis er þessi aðferð ekki notuð fyrir tvo einfalda afslætti eða fyrir einfaldan afslátt og magnafslátt einnar afurðar.
 
 ## <a name="discount-examples"></a>Dæmi um afslætti
 

@@ -1,6 +1,6 @@
 ---
-title: Stofna og senda nýliðakynningu með notkun á Dynamics 365 for Talent - Onboard
-description: Þetta efni útskýrir hvernig á að nota Microsoft-forritið Dynamics 365 for Talent - Onboard til að stofna þjálfunarleiðbeiningar fyrir nýliða. Þetta verkefni er nauðsynlegt fyrsta skrefið í stefnunni ráðning til starfsloka í mannauðsstjórnun (HCM).
+title: Stofna og senda nýliðakynningu með notkun á Dynamics 365 Talent - Onboard
+description: Þetta efni útskýrir hvernig á að nota Microsoft-forritið Dynamics 365 Talent - Onboard til að stofna þjálfunarleiðbeiningar fyrir nýliða. Þetta verkefni er nauðsynlegt fyrsta skrefið í stefnunni ráðning til starfsloka í mannauðsstjórnun (HCM).
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: de5d584e3b7edba2751aa0c83b0465df2c3e4f7d
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: e4dbfcc3b3fd611eea36109a516a7b9361a9f654
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731517"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009855"
 ---
-# <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-for-talent-onboard"></a>Stofna og senda nýliðakynningu með notkun á Dynamics 365 for Talent: Onboard
+# <a name="create-and-send-an-onboarding-guide"></a>Búa til og senda nýliðakynningu
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Onboard gerir þér kleift að búa til leiðbeiningar um borð úr sniðmátum sem þú stofnaðir, úr sniðmátum sem eru fáanleg í myndasafni eða frá grunni.
+Microsoft Dynamics 365 Talent: Onboard gerir þér kleift að búa til leiðbeiningar um borð úr sniðmátum sem þú stofnaðir, úr sniðmátum sem eru fáanleg í myndasafni eða frá grunni.
 
 Þegar þú hefur búið til þjálfunarleiðbeiningar geturðu sent þær á nýliða. Einnig er hægt að senda þær til margra nýliða sem þú tilgreinir í Microsoft Excel-skrá sem þú halar niður úr Onboard-forritinu.
 

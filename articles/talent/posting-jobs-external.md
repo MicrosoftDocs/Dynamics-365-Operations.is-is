@@ -1,6 +1,6 @@
 ---
-title: Auglýsa störf á utanaðkomandi ráðningarsíðum úr Attract
-description: Þetta efnisatriði útskýrir hvernig á að nota Dynamics 365 for Talent - Attract til að auglýsa störf á utanaðkomandi ráðningarsíðum
+title: Birta störf á utanaðkomandi atvinnusíðum úr Attract
+description: Þetta efnisatriði útskýrir hvernig á að nota Dynamics 365 Talent - Attract til að auglýsa störf á utanaðkomandi ráðningarsíðum
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 919cec773d5e57e8f5429e31872db7ed658e969b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739818"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008083"
 ---
 # <a name="post-jobs-to-broadbean"></a>Birta störf á Broadbean
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Attract hjálpar þér að ná því hæfileikafólki sem þú þarft með því að gera þér kleift að birta störf þín beint úr Attract á Broadbean. Eftir að þú [stofnar starf](./creating-jobs-attract.md) er það eina sem þú þarft að gera að smella á hnapp til að setja starfið fyrir framan alla mögulega umsækjendur á Broadbean.
+Microsoft Dynamics 365 Talent: Attract hjálpar þér að ná því hæfileikafólki sem þú þarft með því að gera þér kleift að birta störf þín beint úr Attract á Broadbean. Eftir að þú [stofnar starf](./creating-jobs-attract.md) er það eina sem þú þarft að gera að smella á hnapp til að setja starfið fyrir framan alla mögulega umsækjendur á Broadbean.
 
 Til að senda störf til Broadbean þarf viðeigandi Broadbean leyfi. Broadbean býður upp á ýmsar vörur og áætlanir. Fyrir frekari upplýsingar um leyfi og verðlagningu Broadbean skal [hafa samband við Broadbean](https://www.broadbean.com/contact-us/).
 

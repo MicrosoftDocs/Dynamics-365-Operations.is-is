@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e86c2f8d1d5920198db74dc3b64f2393c5e13ff7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 46aa4378a5b106d5717e0c841f2f7c9d6629489e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555039"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251317"
 ---
 # <a name="register-serial-numbers-in-the-sales-process"></a>Skráning raðnúmera í söluferli
 
@@ -34,9 +34,9 @@ ms.locfileid: "1555039"
 
 Þetta efnisatriði útskýrir hvernig hægt er að skrá raðnúmer á fylgiseðla eða reikninga meðan á söluferli stendur. Þessi möguleiki er henturgur ef fyrirtæki vill sækja raðnúmer vegna þjónustu og ábyrgðar en þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar.
 
-Mörg fyrirtæki vilja bara sækja raðnúmer vegna þjónustu og ábyrgðar og þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar. Í þessum aðstæðum leyfir Microsoft Dynamics 365 for Finance and Operations að skrá raðnúmer á fylgiseðla eða reikninga þegar vörur eru seldar. Ef afurðum er skilað seinna er unnt að rekja hverja afurð til reiknings til að ákvarða hvort þú seldir afurðina og hvort þjónustu eða ábyrgð eru gildar.
+Mörg fyrirtæki vilja bara sækja raðnúmer vegna þjónustu og ábyrgðar og þurfa ekki að vinna með raðnúmer í birgðum frá innhreyfingu til úthreyfingar. Í þessum aðstæðum er hægt að skrá raðnúmer á fylgiseðla eða reikninga þegar vörur eru seldar. Ef afurðum er skilað seinna er unnt að rekja hverja afurð til reiknings til að ákvarða hvort þú seldir afurðina og hvort þjónustu eða ábyrgð eru gildar.
 
-Virkja þarf raðnúmer fyrir söluferlið með því að velja valkostinn **Í söluferli** á síðunni **Rakningarvíddarflokkar**. Eftirfarandi tilvik eiga sér svo stað í Microsoft Dynamics 365 for Finance and Operations:
+Virkja þarf raðnúmer fyrir söluferlið með því að velja valkostinn **Í söluferli** á síðunni **Rakningarvíddarflokkar**. Eftirfarandi atburðir eiga sér stað síðan í Supply Chain Management:
 -   Á flýtiflipanum **Raðnúmer** er valkosturinn **Raðnúmerastýring** valinn. Ef þessi gátreitur er valinn þarf að skrá eitt raðnúmer fyrir hverja vöru á fylgiseðli eða reikningi.
 -   Allt val á rakningarvíddaflokk fyrir raðnúmer er hreinsað, nema gátreiturinn **Auð úthreyfing leyfð**. Hægt er að velja valkostinn **Auð úthreyfing leyfð** til að hnekkja raðnúmerastjórn og leyfa afurðum að vera pakkaðar og reikningsfærðar án þess að skrá raðnúmer.
 

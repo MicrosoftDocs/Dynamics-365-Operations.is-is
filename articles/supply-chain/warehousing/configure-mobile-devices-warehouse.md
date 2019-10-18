@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b6555086d6c86c17b501af9d4d8155e9c08a447
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 14b0661c4c1fa8f2bc197a8a3983b71d73199b2a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536550"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251547"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Uppsetning fartækja fyrir vöruhúsavinnu
 
@@ -60,7 +60,7 @@ Ef reiturinn **Máti** fyrir valmyndaratriði er stilltur á **Óbeint** er hæg
 | Útskráning ökumanns            | Skrá að bílstjóri hafi lokið móti sínu.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Hreinsa númeraröð úr skyndiminni | Eyða númer raðnúmer frá í númeraröð úr skyndiminni. Þessi verkþáttur er yfirleitt framkvæmdur af kerfisstjóra til að leysa vandamál skyndiminnis þegar fartæki eru notuð.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Breyta runuráðstöfun    | Leyfa starfsmanni að tilgreina ráðstöfunarkóða runu fyrir vöru og runu. Þetta val uppfærir ráðstöfunarkóða sem er tilgreindur fyrir runu.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Sýna opinn verkefnalista      | Sýna lista yfir tiltæka vinnu til tiltekins notanda. Notandinn getur síðan valið vinnu til að framkvæma og verður beint að henni. Búist er við að þessi listi verði skoðaður á spjaldtölvum sem hafa skjástærð upp á 7 tommur eða meira. Þegar þessi valkostur er valinn verða  **Breyta fyrirspurn** og **Svæðalisti** valmyndaratriðin tiltæk. Síðan **Breyta fyrirspurn** gerir kleift að setja upp skilyrði fyrir vinnu sem birtist í lista. Síðan **Reitalisti** gerir kleift að velja hvað reitir birtast í vinnulistanum. Til dæmis er hægt að draga úr fjölda reita sem birtast, svo að notandinn verði fljótari að velja mest viðeigandi vinnulið. Á flýtiflipanum **Almennt**, í reitnum **Færslur á síðu**, er einnig hægt að velja hversu margar verkfærslur á að birta á hverri síðu. Ef valkosturinn **Leyfa notendum að sía vinnu eftir færslugerð** er valinn, þá mun vinnulistinn innihalda stjórntækið **Sía vinnu** sem notandinn getur notað til að sía eftir færslugerð. Í vinnulistanum geta notendur aðeins séð vinnu sem þeir hafa heimild til að fá aðgang að. Það þarf að tryggja að notendur hafi heimild fyrir eina eða fleiri notandastýrð valmyndaratriði sem styðja tilteknar gerðir vinnuklasa sem þeir ættu að hafa aðgang að. Heimildir eru staðfestar þegar notandi reynir að framkvæma vinnu af listanum. |
+| Sýna opinn verkefnalista      | Sýna lista yfir tiltæka vinnu til tiltekins notanda. Notandinn getur síðan valið vinnu til að framkvæma og verður beint að henni. Búist er við að þessi listi verði skoðaður á spjaldtölvum sem hafa skjástærð upp á 7 tommur eða meira. Þegar þessi valkostur er valinn verða **Breyta fyrirspurn** og **Svæðalisti** valmyndaratriðin tiltæk. Síðan **Breyta fyrirspurn** gerir kleift að setja upp skilyrði fyrir vinnu sem birtist í lista. Síðan **Reitalisti** gerir kleift að velja hvað reitir birtast í vinnulistanum. Til dæmis er hægt að draga úr fjölda reita sem birtast, svo að notandinn verði fljótari að velja mest viðeigandi vinnulið. Á flýtiflipanum **Almennt**, í reitnum **Færslur á síðu**, er einnig hægt að velja hversu margar verkfærslur á að birta á hverri síðu. Ef valkosturinn **Leyfa notendum að sía vinnu eftir færslugerð** er valinn, þá mun vinnulistinn innihalda stjórntækið **Sía vinnu** sem notandinn getur notað til að sía eftir færslugerð. Í vinnulistanum geta notendur aðeins séð vinnu sem þeir hafa heimild til að fá aðgang að. Það þarf að tryggja að notendur hafi heimild fyrir eina eða fleiri notandastýrð valmyndaratriði sem styðja tilteknar gerðir vinnuklasa sem þeir ættu að hafa aðgang að. Heimildir eru staðfestar þegar notandi reynir að framkvæma vinnu af listanum. |
 
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Skilgreina valmyndaratriði til að stofna vinnu fyrir annan starfsmann eða ferli
 Þú getur sett upp valmyndaratriði sem býr til verk fyrir annan starfsmann eftir að upphafsaðgerð er gerð á fartækinu. Til dæmis þegar einn starfsmaður notar fartæki til að taka á móti vöru, er frágangsvinna stofnuð fyrir annan starfsmann. Til að setja upp valmyndaratriði sem býr til verk, á **Valmyndaratriði fartækis** síðunni í reitnum **Máti** skal velja **Vinna**. Í eftirfarandi töflu er valkostunum í **Ferli verkstofnunar** reitnum raðað eftir gerð verkstofnunar.
@@ -163,7 +163,7 @@ Ef reiturinn **Máti** fyrir valmyndaratriði er stilltur á **Óbeint** er hæg
 </tr>
 <tr>
 <td>Hreyfingar eftir sniðmáti</td>
-<td>Færa vörur af einum stað á annan á hálfsjálfvirkan hátt. Starfsmaðurinn velur staðsetningu til að flytja vörurnar úr og Finance and Operations notar staðsetningarleiðbeiningarnar til að ákvarða hvert á að færa vörurnar.</td>
+<td>Færa vörur af einum stað á annan á hálfsjálfvirkan hátt. Starfsmaðurinn velur staðsetningu til að flytja vörurnar úr og kerfið notar staðsetningarleiðbeiningarnar til að ákvarða hvert á að færa vörurnar.</td>
 </tr>
 <tr>
 <td>Flutningur í vöruhús</td>
@@ -212,7 +212,7 @@ Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hæg
 </tr>
 <tr class="even">
 <td>Stýrt af kerfi</td>
-<td>Microsoft Dynamics 365 for Finance and Operations stýrir gerð vinnu sem er úthlutað á starfskraft og pöntunina sem starfskrafturinn framkvæmir vinnuna á. Þegar þessi valkostur er valinn er hægt að smella á <strong>Kerfisstýrt verk</strong> í aðgerðarúðunni til að opna síðuna <strong>Kerfisleiðbeindir röðunarkostir</strong> þar sem hægt er að setja upp röðunarskilyrði fyrir vinnuna. Röðunarforsendur að stýra röðinni sem starfskraftur framkvæmir vinnuna. Hægt er að bæta við eins mörgum skilyrðum og þarf.</td>
+<td>Supply Chain Management stýrir gerð vinnu sem er úthlutað á starfskraft og pöntunina sem starfskrafturinn framkvæmir vinnuna á. Þegar þessi valkostur er valinn er hægt að smella á <strong>Kerfisstýrt verk</strong> í aðgerðarúðunni til að opna síðuna <strong>Kerfisleiðbeindir röðunarkostir</strong> þar sem hægt er að setja upp röðunarskilyrði fyrir vinnuna. Röðunarforsendur að stýra röðinni sem starfskraftur framkvæmir vinnuna. Hægt er að bæta við eins mörgum skilyrðum og þarf.</td>
 </tr>
 <tr class="odd">
 <td>Stýrt af notanda</td>
@@ -224,7 +224,7 @@ Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hæg
 </tr>
 <tr class="odd">
 <td>Kerfisflokkun</td>
-<td>Microsoft Dynamics 365 for Finance and Operations hópar vinna fyrir starfsmann á grundvelli ákveðins reits. Til dæmis tiltekt vinnu eru flokkaðar þegar starfsmaður skannar Auðkenni sendingar, Hleðsluauðkenni eða gildi sem hægt er að tengja hverrar vinnueiningar. Ef þessi valkostur er valinn, er krafa um eftirfarandi svæði:
+<td>FSupply Chain Management hópar vinna fyrir starfsmann á grundvelli ákveðins reits. Til dæmis tiltekt vinnu eru flokkaðar þegar starfsmaður skannar Auðkenni sendingar, Hleðsluauðkenni eða gildi sem hægt er að tengja hverrar vinnueiningar. Ef þessi valkostur er valinn, er krafa um eftirfarandi svæði:
 <ul>
 <li><strong>Kerfisflokkunarsvæði</strong> - Veldu reit sem starfsmaður mun skima til að flokka verkið.</li>
 <li><strong>Kerfisflokkunarmerki</strong> - Sláðu inn texta til að leiðbeina starfsmanni um hvað ég á að skanna til að flokka verkið.</li>
@@ -245,7 +245,7 @@ Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hæg
 </tr>
 <tr class="even">
 <td>Flokkun reglulegrar talningar</td>
-<td>Starfsmaðurinn velur svæði, vinnuhópi eða staðsetningu, og Microsoft Dynamics 365 for Finance and Operations úthlutar vinnu sem byggir á vali. Ef þessi valkostur er valinn, er einnig hægt að smella á <strong>Regluleg talning</strong> til að tilgreina viðbótarupplýsingar til að birta og tilgreina hversu oft starfsmaðurinn verður að endurtaka talninguna ef mismunur fannst.</td>
+<td>Starfsmaðurinn velur svæði, vinnuhópi eða staðsetningu, og Supply Chain Management úthlutar vinnu sem byggir á vali. Ef þessi valkostur er valinn, er einnig hægt að smella á <strong>Regluleg talning</strong> til að tilgreina viðbótarupplýsingar til að birta og tilgreina hversu oft starfsmaðurinn verður að endurtaka talninguna ef mismunur fannst.</td>
 </tr>
  <tr class="odd">
 <td>Farmflutningur</td>
@@ -333,10 +333,10 @@ Eftirfarandi tafla lýsir þessum valkostum.
 </tr>
 <tr class="odd">
 <td>Frágangur hóps</td>
-<td>Veljið þennan valkost til að flokka frágangsvinnu. Þessi kostur er tiltækur þegar vinnunni var flokkað af starfsmanni eða af Microsoft Dynamics 365 for Finance and Operations. Þegar starfsmaðurinn hefur lokið allri tiltektarvinnu í flokki, er frágangur stofnaður fyrir sama flokk.</td>
+<td>Veljið þennan valkost til að flokka frágangsvinnu. Þessi kostur er tiltækur þegar vinnunni var flokkað af starfsmanni eða af Supply Chain Management. Þegar starfsmaðurinn hefur lokið allri tiltektarvinnu í flokki, er frágangur stofnaður fyrir sama flokk.</td>
 </tr>
 <tr class="even">
-<td>Gerðir leiðréttinga á birgðaskrá </td>
+<td>Gerðir leiðréttinga á birgðaskrá</td>
 <td>Veljið gerð leiðrétting á birgðaskrá sem ákvarðar birgðamagn talningarbókar sem er notuð til að bóka leiðréttingar og hvort á að fjarlægja frátekningar. Þessi reitur er aðeins í boði stofnunarferlið <strong>Leiðrétting inn</strong> eða <strong>Leiðrétting út</strong>.</td>
 </tr>
 <tr class="odd">
@@ -366,11 +366,11 @@ Eftirfarandi tafla lýsir þessum valkostum.
 </tr>
 <tr class="even">
 <td>Kerfisflokkunarsvæði</td>
-<td>Velja svæðið sem ákvarða hvernig Microsoft Dynamics 365 for Finance and Operations flokkar tiltektarvinnu fyrir starfsmann. Til dæmis, ef þú velur <strong>ShipmentId</strong> svæðinu starfsmaður verður skanna Sendingarkennið til að flokka vinnuna tiltekt. Öll vinna fyrir sendingunni er síðan úthlutað til starfsmanns. Þessi reitur krefst þess að stofnað sé valmyndaratriði til að nota fyrirliggjandi vinnu sem er flokkuð af kerfinu. Einnig verður að færa inn texta í reitinn <strong>Kerfisflokkunarmerki</strong> til að sýna starfsmanni hvað á að skanna.</td>
+<td>Velja reitinn sem ákvarðar hvernig Supply Chain Management flokkar tiltektarvinnu fyrir starfsmenn. Til dæmis, ef þú velur <strong>ShipmentId</strong> svæðinu starfsmaður verður skanna Sendingarkennið til að flokka vinnuna tiltekt. Öll vinna fyrir sendingunni er síðan úthlutað til starfsmanns. Þessi reitur krefst þess að stofnað sé valmyndaratriði til að nota fyrirliggjandi vinnu sem er flokkuð af kerfinu. Einnig verður að færa inn texta í reitinn <strong>Kerfisflokkunarmerki</strong> til að sýna starfsmanni hvað á að skanna.</td>
 </tr>
 <tr class="odd">
 <td>Kerfisflokkunarmerki</td>
-<td>Sláið inn textann sem leiðbeinir starfsmanni um hvað á að skanna þegar tiltekt er flokkað af Microsoft Dynamics 365 for Finance and Operations. Til dæmis, ef verið er að nota í <strong>ShipmentId</strong> á flokki tiltekt vinnu með sendingu, gætirðu fært inn <strong>Sendingarkennið</strong> í svæðinu.&#39; Þessi reitur krefst þess að stofnað sé valmyndaratriði til að nota fyrirliggjandi vinnu sem er flokkuð af kerfinu. Einnig verður að velja reitinn til að flokka eftir í reitnum <strong>Kerfisflokkunarsvæði</strong>.</td>
+<td>Sláðu inn textann sem leiðbeinir starfsmanni um hvað á að skima þegar tínsluverk er flokkað af Supply Chain Management. Til dæmis, ef verið er að nota í <strong>ShipmentId</strong> á flokki tiltekt vinnu með sendingu, gætirðu fært inn <strong>Sendingarkennið</strong> í svæðinu.&#39; Þessi reitur krefst þess að stofnað sé valmyndaratriði til að nota fyrirliggjandi vinnu sem er flokkuð af kerfinu. Einnig verður að velja reitinn til að flokka eftir í reitnum <strong>Kerfisflokkunarsvæði</strong>.</td>
 </tr>
 <tr class="even">
 <td>Nota sjálfgefinn gagnagrunn</td>
@@ -386,13 +386,13 @@ Eftirfarandi tafla lýsir þessum valkostum.
 </tr>
 <tr class="odd">
 <td>Kóði vinnusniðmáts</td>
-<td>Veljið vinnusniðmátið sem mun stofna vinnu fyrir ferli. Til dæmis ef þú móttekur vöru í innkaupapöntun verður frágangsvinna mynduð samkvæmt vinnusniðmátinu. Ef vinnusniðmát er ekki valið úthlutar &#39; sniðmáti, samkvæmt skilyrðum fyrirspurnar.Microsoft Dynamics 365 for Finance and Operations Sjá frekari upplýsingar um vinnusniðmát í <a href="control-warehouse-location-directives.md">Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar</a></td>
+<td>Veljið vinnusniðmátið sem mun stofna vinnu fyrir ferli. Til dæmis ef þú móttekur vöru í innkaupapöntun verður frágangsvinna mynduð samkvæmt vinnusniðmátinu. Ef vinnusniðmát er ekki valið úthlutar Supply Chain Management sniðmáti, samkvæmt skilyrðum fyrirspurnar. Sjá frekari upplýsingar um vinnusniðmát í <a href="control-warehouse-location-directives.md">Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar</a></td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Krefjast að starfsmenn staðfesti afurð, staðsetningu eða magn við tiltekt á vörum
-Þú getur sett upp verkstaðfestingar sem krefjast þess að starfsmaður noti fartækið til að skrá staðsetningu eða magn þegar vinna er unnin í vöruhúsi. Verkstaðfestingar hjálpa við að tryggja að starfsmaðurinn sé á réttum stað eða sé að meðhöndla rétt magn vara. Einnig er hægt að virkja Microsoft Dynamics 365 for Finance and Operations til að staðfesta skráningu starfsmanns sjálfkrafa. Ef sjálfvirk staðfesting er virkjuð er ekki hægt að krefjast einnig staðfestinga fyrir staðsetningu eða magn. Verkstaðfestingar innihalda einnig afurðir og afurðarafbrigði. Þar að auki er hægt að skrá staðfestingar með því að skanna strikamerki. Til að staðfesta afurðir og afurðarafbrigði, verður að færa inn kenni fyrir afurð eða afurðarafbrigði. Þetta kenni getur verið Afurðakenni, Afurðarkenni leit, ytri Kenni, GTIN eða strikamerki. Eftir að þú slærð inn kennið eða skannar strikamerki eru stærðir fyrir afurðarafbrigði birt á farsímanum. 
+Þú getur sett upp verkstaðfestingar sem krefjast þess að starfsmaður noti fartækið til að skrá staðsetningu eða magn þegar vinna er unnin í vöruhúsi. Verkstaðfestingar hjálpa við að tryggja að starfsmaðurinn sé á réttum stað eða sé að meðhöndla rétt magn vara. Einnig er hægt að virkja Supply Chain Management til að staðfesta skráningu starfsmanns sjálfkrafa. Ef sjálfvirk staðfesting er virkjuð er ekki hægt að krefjast einnig staðfestinga fyrir staðsetningu eða magn. Verkstaðfestingar innihalda einnig afurðir og afurðarafbrigði. Þar að auki er hægt að skrá staðfestingar með því að skanna strikamerki. Til að staðfesta afurðir og afurðarafbrigði, verður að færa inn kenni fyrir afurð eða afurðarafbrigði. Þetta kenni getur verið Afurðakenni, Afurðarkenni leit, ytri Kenni, GTIN eða strikamerki. Eftir að þú slærð inn kennið eða skannar strikamerki eru stærðir fyrir afurðarafbrigði birt á farsímanum. 
 
 Eftirfarandi tafla lýsir mismunandi gerðum vinnu sem hægt er að nota verkstaðfestingar með.
 

@@ -1,6 +1,6 @@
 ---
 title: Mat á sölu eftir afurð
-description: Hægt er að skoða arðsemisgreiningu fyrir 10 mest seldu vörurnar með Microsoft Dynamics 365 for Retail.
+description: Hægt er að skoða arðsemisgreiningu fyrir 10 mest seldu vörurnar með Dynamics 365 Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 059474a780f849d6e1920703c1f717a9adaa2617
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7796aa830c99bd0fd5784ff95e509767a3b55b44
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546387"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024959"
 ---
 # <a name="assess-sales-performance-by-product"></a>Mat á sölu eftir afurð
 
 [!include [banner](includes/banner.md)]
 
-Hægt er að skoða arðsemisgreiningu fyrir 10 mest seldu vörurnar með Microsoft Dynamics 365 for Retail.
+Hægt er að skoða arðsemisgreiningu fyrir 10 mest seldu vörurnar með Dynamics 365 Retail.
 
-Hluti af Dynamics 365 for Retail er að notendur geta skoðað arðsemisgreiningu stærstu afurða (10 til 100) milli mismunandi stiga í stigveldi fyrirtækisins, byggt á einu af eftirfarandi skilyrðum:
+Hluti af Retail er að notendur geta skoðað arðsemisgreiningu stærstu afurða (10 til 100) milli mismunandi stiga í stigveldi fyrirtækisins, byggt á einu af eftirfarandi skilyrðum:
 
 - Söluupphæð
 - Magn

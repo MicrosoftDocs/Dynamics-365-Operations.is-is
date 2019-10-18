@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10c8b548f2e295bf344459370ab6eecd577a0efb
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 5d55dfe26cd298372701aeb98a6aafc49977f381
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865994"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248632"
 ---
 # <a name="sales-and-marketing-overview"></a>Yfirlit yfir sölu og markaðsstörf
 
@@ -41,7 +41,7 @@ Hægt er að nota Sölu og markaðsstarfs til að fá, geyma og nota ýmsar gög
 
 ### <a name="campaigns"></a>Herferðir
 
-Herferð miðar á tengiliði fyrir góðar horfur, leiðir, tækifæri og viðskiptavini sem hafa verið valdir til að taka þátt í herferðinni. Í Microsoft Dynamics 365 for Finance and Operations er hægt að stofna margar gerðir herferða, eins og símsölu, póstsending og tölvupóstherferðir, til að hámarka mögulegra viðskiptavina. Sem herferðin líður og þú færð jákvæð viðbrögð, getur þú byrjað á söluferli með þeim viðtakenda sem hafa brugðist jákvætt við herferð.
+Herferð miðar á tengiliði fyrir góðar horfur, leiðir, tækifæri og viðskiptavini sem hafa verið valdir til að taka þátt í herferðinni. Í Supply Chain Management er hægt að stofna margar gerðir herferða, eins og símsölu, póstsending og tölvupóstherferðir, til að hámarka mögulegra viðskiptavina. Sem herferðin líður og þú færð jákvæð viðbrögð, getur þú byrjað á söluferli með þeim viðtakenda sem hafa brugðist jákvætt við herferð.
 
 ## <a name="sales"></a>Sala
 Söluvirknin er notuð til að stofna tilboð, söluviðauka og krosssölu til nýja og fyrirliggjandi viðskiptavinum, stofna sölupantanir og stofna sölureikninga fyrir viðskiptavina. Eftirfarandi flæði sýnir viðskiptaferli sölu. [![Viðskiptaferli fyrir sölu](./media/sales01.jpg)](./media/sales01.jpg)

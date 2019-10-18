@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 85950a1413cfd8745bb78a52eb9f7c81b8976605
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 51f8102afc28b3836d5fee13aa1e950351af3c4f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518261"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008375"
 ---
 # <a name="formalize-business-processes"></a>Gera viðskiptaferli formleg
 
@@ -43,7 +43,7 @@ Fyrir hvert viðskiptaferli getur þú skilgreint eiganda ferlis. Eigandi ferlis
 Eigandi ferlis getur ekki búið til ný viðskiptaferli eða sniðmát viðskiptaferla, eða eytt virkum viðskiptaferlum eða sniðmátum viðskiptaferla.
 
 ## <a name="tasks"></a>Verk
-Viðskiptaferli samanstendur oft af mörgum verkþáttum. Sumum verkþáttum, eins og t.d. endurskoðun á innri námskeiðstilboðum, er hægt að ljúka í Microsoft Dynamics 365 for Talent [?]. Í þessu tilviki er valkostur valinn í **Verkþáttatengill** reitnum. Aðrir verkþættir gætu falið í sér að endurskoða eða ljúka síðum á vefsíðu. Í þessu tilfelli er **vefslóð** valið í **Verkþáttatengill** og þá er hægt að slá inn veffangið. Þú getur slegið inn vefslóðir fyrir bæði ytri og innri síður. Þú getur einnig búið til verkþætti fyrir aðgerðir sem þú lýkur handvirkt, eins og t.d. endurskoðun á aðgengi allra formgerða. Í þessu tilviki er verkþáttatengils ekki krafist. Þessi sveigjanleiki gerir þér kleift að rekja margar gerðir af verkefnum í ítarlegu ferli.
+Viðskiptaferli samanstendur oft af mörgum verkþáttum. Sumum verkþáttum, eins og t.d. endurskoðun á innri námskeiðstilboðum, er hægt að ljúka í Microsoft Dynamics 365 Talent. Í þessu tilviki er valkostur valinn í **Verkþáttatengill** reitnum. Aðrir verkþættir gætu falið í sér að endurskoða eða ljúka síðum á vefsíðu. Í þessu tilfelli er **vefslóð** valið í **Verkþáttatengill** og þá er hægt að slá inn veffangið. Þú getur slegið inn vefslóðir fyrir bæði ytri og innri síður. Þú getur einnig búið til verkþætti fyrir aðgerðir sem þú lýkur handvirkt, eins og t.d. endurskoðun á aðgengi allra formgerða. Í þessu tilviki er verkþáttatengils ekki krafist. Þessi sveigjanleiki gerir þér kleift að rekja margar gerðir af verkefnum í ítarlegu ferli.
 
 Hægt er að úthluta verkþætti til ákveðins starfsmanns eða stöðu. Til dæmis mun umsjónaraðili launa og fríðinda alltaf vera sá sem framkvæmir endurskoðun á iðgjöldum. Þegar þú stofnar þennan verkþátt skal því velja **Staða** í **Úthlutunargerð** reitnum og velja svo **Umsjónaraðili launa og fríðinda** í **Staða** listanum. Þegar viðskiptaferlið er sett í gang, er verkþættinum úthlutað til starfsmannsins sem er í **Umsjónaraðili launa og fríðinda** stöðunni. Til að úthluta verkefni til tiltekins starfsmanns, veldu **Starfskraftur** í **Úthlutunargerð** reitnum og veldu síðan viðeigandi manneskju.
 

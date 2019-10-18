@@ -1,6 +1,6 @@
 ---
-title: Nýjungar eða breytingar í Dynamics 365 for Talent (20. ágúst 2019)
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent.
+title: Nýjungar eða breytingar í Dynamics 365 Talent (20. ágúst 2019)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 8/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f437dbbb786456cd335d5fb85e271d224e0a1383
-ms.sourcegitcommit: 4176c333ce3f88c5c68e95bd47e5791d32365dd2
+ms.openlocfilehash: 5e4272fa1c94a883a10b7893d5dc8addfa987e60
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1918206"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024069"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-august-20-2019"></a>Nýjungar eða breytingar í Dynamics 365 for Talent (20. ágúst 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-august-20-2019"></a>Nýjungar eða breytingar í Dynamics 365 Talent (20. ágúst 2019)
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 for Talent.
+Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Breytingar í Attract
 
@@ -43,11 +43,11 @@ Einfölduð umsóknarreynsla fyrir umsækjendur er nú fáanleg í opinberri for
 
 ## <a name="changes-in-onboard"></a>Breytingar í Onboard
 
-Þessi útgáfa inniheldur minniháttar villuleiðréttingar fyrir Dynamics 365 for Talent: Onboard.
+Þessi útgáfa inniheldur minniháttar villuleiðréttingar fyrir Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Breytingar í Core HR
 
-Þessi útgáfa inniheldur minniháttar villuleiðréttingar fyrir Dynamics 365 for Talent: Core HR. Breytingum sem lýst er í þessum kafla gilda um byggingarnúmer 8.1.2429.
+Þessi útgáfa inniheldur minniháttar villuleiðréttingar fyrir Dynamics 365 Talent: Core HR. Breytingum sem lýst er í þessum kafla gilda um byggingarnúmer 8.1.2429.
 
 ### <a name="in-preview"></a>Í kynningarútgáfu
 
@@ -69,6 +69,6 @@ Ný valkostur mun gera stjórnendum kleift að skoða árangur af bæði beinum 
 
 ### <a name="coming-soon"></a>Væntanlegt
 
-#### <a name="platform-update-29"></a>Update 29 fyrir verkvang
+#### <a name="platform-update-29-for-finance-and-operations"></a>Verkvangsuppfærsla 29 fyrir Finance and Operations
 
-Frekari upplýsingar um verkvangsuppfærslu 29 er að finna í [Forskoðun á eiginleikum í Dynamics 365 for Finance and Operations verkvangsuppfærslu 29 (október 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Frekari upplýsingar um verkvangsuppfærslu 29 fyrir Finance and Operations er að finna í [Forskoðun á eiginleikum í Dynamics 365 Finance and Operations verkvangsuppfærslu 29 í (október 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).

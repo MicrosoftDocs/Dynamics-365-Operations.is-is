@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00ec888600dedbc740be0efc64cddf37c5c6f558
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 83d969fcc59af87da3921225974ebc2ae41d9fa1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572835"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250991"
 ---
 # <a name="merge-inventory-batches"></a>Sameina birgðarunur
 
@@ -89,7 +89,7 @@ Nei, þú getur bara sameinað runur sem hafa sama svæði og geymsluvíddir vö
 Nei, það er aðeins hægt að sameina fullt runumagn. Runusameining er ætluð sem eiginleiki í birgðum, ekki eiginleiki framleiðslu.
 
 ## <a name="what-if-the-batches-have-different-batch-attribute-values"></a>Hvað ef runur hafa mismunandi runueigindargildi?
-Þegar upprunarunur eru valdar til sameiningar í sameinuðu rununni, kannar Finance and Operations hvort einkenni eða eigindagildi eru þau sömu á öllum runum. Þegar eigindagildi er það sama er gildi lagt til fyrir sameinuðu rununa. Hægt er að breyta þessu gildi. Eigindagildi sem eru ekki eins eru höfð auð fyrir sameinaða runu og þú getur slegið inn þessi gildi handvirkt. Ef runueigind fyrir eigindargildi er heiltala eða brot, og gildi eru ekki þau sömu fyrir allar upprunarunur, er gildi reiknað með því að nota vegið meðaltal útreiknings. Útreiknað gildi er sléttuð upp eða niður að næsta hækkunin. Ef gildið er autt fyrir uppruna runu, eru runan og magn hennar ekki teknar með í útreikningnum. **Dæmi** Eftirfarandi dæmi útskýrir útreikning vegins meðaltals fyrir sameinuðu rununa. Tvær uppruna runur hafa autt gildi fyrir runueigind sem er heiltala. Eftirfarandi eigind er úthlutað á upprunarunur.
+Þegar upprunarunur eru valdar til sameiningar í sameinuðu rununni, kannar Supply Chain Management hvort einkenni eða eigindagildi eru þau sömu á öllum runum. Þegar eigindagildi er það sama er gildi lagt til fyrir sameinuðu rununa. Hægt er að breyta þessu gildi. Eigindagildi sem eru ekki eins eru höfð auð fyrir sameinaða runu og þú getur slegið inn þessi gildi handvirkt. Ef runueigind fyrir eigindargildi er heiltala eða brot, og gildi eru ekki þau sömu fyrir allar upprunarunur, er gildi reiknað með því að nota vegið meðaltal útreiknings. Útreiknað gildi er sléttuð upp eða niður að næsta hækkunin. Ef gildið er autt fyrir uppruna runu, eru runan og magn hennar ekki teknar með í útreikningnum. **Dæmi** Eftirfarandi dæmi útskýrir útreikning vegins meðaltals fyrir sameinuðu rununa. Tvær uppruna runur hafa autt gildi fyrir runueigind sem er heiltala. Eftirfarandi eigind er úthlutað á upprunarunur.
 
 | Eigind | Lágmark | Stigvaxandi | Hámark |
 |-----------|---------|-----------|---------|
@@ -121,13 +121,13 @@ Gildi og magn fyrir runur B1 og B4 eru ekki teknar með í útreikningi vegins m
 |       | **Samtals:** 65, sem er samtals þyngd |                 | **Samtals:** 21,5384615, sléttað í 21, (sem er næsta heiltalan) |
 
 ## <a name="what-if-the-batches-have-different-batch-dates"></a>Hvað ef runur hafa mismunandi runudagsetningar?
-Ef runur hafa mismunandi runudagsetningar, eru sumar dagsetningar reiknaðar út frá gildum í flokknum **Runudagsetningar** á flýtiflipanum **Sameinuð runa** á síðunni **Runusameining**. Kerfið reiknar gildi fyrir svæðin í flokknum **Runudagsetningar**. Þessi gildi eru meðal annars framleiðsludagsetning, lokadagsetning, ráðlagður geymslutími og best fyrir dagsetningar. Dagsetningar eru reiknaðar út frá stillingum fyrir vöru í svæðaflokkunum **Vörugögn** á síðunni **Upplýsingar um losaðar afurðir**. Hægt er að breyta gildum eða færa þau inn handvirkt. Engin útreikningur er gerður fyrir allar aðrar dagsetningar. Sama reglan er notað fyrir runueigindargildi. Ef dagsetningu er sú sama fyrir allar runur verður þessi  dagsetningin lagt til fyrir sameinuðu rununa. Ef dagsetning er ekki sú sama fyrir allar upprunarunur er dagsetning auð í sameinuðu rununni og hægt er að færa hana inn handvirkt.
+Ef runur hafa mismunandi runudagsetningar, eru sumar dagsetningar reiknaðar út frá gildum í flokknum **Runudagsetningar** á flýtiflipanum **Sameinuð runa** á síðunni **Runusameining**. Kerfið reiknar gildi fyrir svæðin í flokknum **Runudagsetningar**. Þessi gildi eru meðal annars framleiðsludagsetning, lokadagsetning, ráðlagður geymslutími og best fyrir dagsetningar. Dagsetningar eru reiknaðar út frá stillingum fyrir vöru í svæðaflokkunum **Vörugögn** á síðunni **Upplýsingar um losaðar afurðir**. Hægt er að breyta gildum eða færa þau inn handvirkt. Engin útreikningur er gerður fyrir allar aðrar dagsetningar. Sama reglan er notað fyrir runueigindargildi. Ef dagsetningu er sú sama fyrir allar runur verður þessi dagsetningin lagt til fyrir sameinuðu rununa. Ef dagsetning er ekki sú sama fyrir allar upprunarunur er dagsetning auð í sameinuðu rununni og hægt er að færa hana inn handvirkt.
 
 ## <a name="what-if-the-dimensions-are-different-on-the-batches-that-i-want-to-merge"></a>Hvað ef víddir eru mismunandi runur sem ég á að sameina?
 Afurðavíddir, rakningarvíddir, og geymsluvíddir eru meðhöndlaðar eins og hér segir:
 
 -   **Afurðavíddir** - Allar afurðavíddir fyrir tiltekið atriði verða að vera þær sömu. Ekki er hægt að sameina runur yfir afurðavíddir.
--   **Rakningarvíddir** -  Nýtt rununúmer er sjálfkrafa myndað ef hópur rununúmers er tilgreindur fyrir hlutinn. Ef rununúmeraflokki er ekki úthlutað á vöru, er hægt að velja fyrirliggjandi runu eða færa inn númerið handvirkt. Raðnúmer eru fluttar úr upprunarununni í birgðabókarlínur fyrir sameinuðu rununa.
+-   **Rakningarvíddir** - Nýtt rununúmer er sjálfkrafa myndað ef hópur rununúmers er tilgreindur fyrir hlutinn. Ef rununúmeraflokki er ekki úthlutað á vöru, er hægt að velja fyrirliggjandi runu eða færa inn númerið handvirkt. Raðnúmer eru fluttar úr upprunarununni í birgðabókarlínur fyrir sameinuðu rununa.
 -   **Geymsluvíddir** - Geymsluvíddir svæðis og vörugeymslu verða að vera þær sömu fyrir allar upprunalotur og sameinuðu lotuna. Hins vegar er hægt að tilgreina nýtt staðsetning og brettakenni fyrir sameinuðu rununa.
 
 ## <a name="how-does-posting-work"></a>Hvernig bókun virkar?

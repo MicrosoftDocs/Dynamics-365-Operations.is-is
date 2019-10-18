@@ -3,7 +3,7 @@ title: Spár, verkbeiðnir og verk
 description: Þetta efni útskýrir spár og samþættingu verkbeiðni við verkefnastjórnun og bókhaldseininguna í eignastýringu.
 author: josaw1
 manager: AnnBe
-ms.date: 08/16/2019
+ms.date: 08/29/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5e986d139ac9d0a7729bb9787f05332bcc09f59b
-ms.sourcegitcommit: 109a6ef2d20758dc4a25c51b11e22dd2214a1cc4
+ms.openlocfilehash: cc1992326c448ee8dc30a9ad8f8f538ebea83e54
+ms.sourcegitcommit: f853c8d46ffc8e578387bac4cd48a948916983ef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1886817"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "2002385"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Spár, verkbeiðnir og verk
 
@@ -31,59 +31,63 @@ ms.locfileid: "1886817"
 
 [!include [banner](../../includes/preview-banner.md)]
 
-Í eignastjórnun er samþætting við eininguna **Verkefnisstjórnun og bókhald** gerð til að hámarka kostnaðareftirlit, sem gerir notendum kleift að fylgjast með kostnaði við spár um gerð viðhaldsverka og verkbeiðnivinnslur.
+Í eignastjórnun hjálpar samþætting við eininguna **Verkefnisstjórnun og bókhald** við að hámarka kostnaðareftirlit, svo að notendur geta fylgst með kostnaði við spár um gerð viðhaldsverka og verkbeiðnivinnslur.
 
-Til að rekja spár um gerðir viðhaldsverka verður að gera tvær stillingar:
+Rakning á spám um gerðir viðhaldsverka krefst tveggja stillinga:
 
-1. Veldu verkefni á tenglinum **Eignastýring** > **Uppsetning** > **Færibreytur eignastýringar** > **Eignir** > flýtiflipanum **Verk** > reitnum **Verk viðhaldsspár**.
+1. Veldu verkefni í **Eignastýring** > **Uppsetning** > **Breytur eignastýringar**, og síðan á flipanum **Eignir** > á flýtiflipanum **Verkefni**, í reitnum **Verkefni viðhaldsspá**, veldu verkefni.
 
-2. Í **Sjálfgefnar gerðir viðhaldsverka**, þegar þú býrð til sjálfgefna línu af gerð viðhaldsverks er aðgerðarnúmer sjálfkrafa búið til fyrir línuna (**Eignastýring** > **Uppsetning** > **Vinnslur** > **Sjálfgefnar gerðir viðhaldsverka**).
+2. Þegar þú stofnar sjálfgefna línu gerðar viðhaldsstarfs er aðgerðarnúmer sjálfkrafa stofnað fyrir línuna á síðunni **Sjálfgefin tegund viðhaldsverka** (**Eignastjórnun** > **Uppsenting** > **Vinnslur** > **Sjálfgefnar gerðir viðhaldsverka**).
 
-Spár um gerð viðhaldsverka þjóna tvennum tilgangi: Þú getur fylgst með kostnaði við spár um viðhaldsgerðir í einingunni **Verkefnisstjórnun og bókhald**. Ennfremur eru spár færðar sjálfkrafa yfir í verkbeiðnaverkefni þegar þú velur tegund viðhalds í verkbeiðnivinnslu.
+Spár um gerðir viðhaldsverka þjóna tvennum tilgangi: 
 
-Til að fylgjast með kostnaði við verkbeiðnavinnslur verður þú fyrst að setja upp verkbeiðnaverkefni. Sjá kaflann [Uppsetning verkbeiðniverka](../setup-for-work-orders/work-order-project-setup.md) fyrir lýsingu á ferlinu.
+- Þú getur fylgst með kostnaði við spár um gerðir viðhaldsverka í einingunni **Verkefnisstjórnun og bókhald**. 
+- Spár eru færðar sjálfkrafa yfir í verkbeiðnaverkefni þegar þú velur tegund viðhalds í verkbeiðnivinnslu.
+
+Til að fylgjast með kostnaði við verkbeiðnavinnslur verður þú fyrst að setja upp verkbeiðnaverkefni. Frekari upplýsingar eru í [Verkuppsetning verkbeiðni](../setup-for-work-orders/work-order-project-setup.md).
 
 ## <a name="work-order-job-projects"></a>Verkbeiðnaverkefni
 
-Þegar þú býrð til verkbeiðnivinnslu í verkbeiðni ræðst verkbeiðniverkefnið af uppsetningu foreldraverkefnis fyrir verkbeiðnir í **Eignastjórnun** > **Uppsetning** > **Verkbeiðni** > **Uppsetning verkefnis**.
+Þegar þú býrð til verkbeiðnivinnslu í verkbeiðni ræðst verkbeiðniverkefnið af uppsetningu foreldraverkefnis fyrir verkbeiðnir á síðunni **Verkuppsetning verkbeiðni** (**Eignastjórnun** > **Uppsetning** > **Verkbeiðni** > **Uppsetning verkefnis**).
 
 Verkbeiðnaverkefni eru mynduð með því að nota samsetningu af eftirfarandi upplýsingum um verkbeiðni:
 
 - Verkbeiðnigerðin sem valin var í verkbeiðninni 
 - Virk staðsetning sem tengist eigninni í verkpöntunarvinnslunni
-- Eignagerð sem tengist eigninni í verkpöntunarvinnslunni  
-- Áætlaður upphafs- og lokatími stilltur á verkbeiðnina  
+- Eignagerðin sem tengist eigninni í verkpöntunarvinnslunni  
+- Áætlaðir upphafs- og lokatímar sem eru stilltir í verkbeiðninni  
 
-Hugsanlegt er að ekki séu allar upplýsingar sem nefndar eru hér að ofan að finna í verkbeiðni. Þess vegna er leitin að yfirverki verkbeiðni gerð með því að nota fyrirliggjandi samsetningu gagna og velja verkefnisauðkenni sem samsvarar gögnum um verkbeiðni.
+Sumar þessara upplýsinga er hugsanlega ekki að finna í vinnupöntun. Þess vegna er leitin að yfirverki verkbeiðni gerð með því að nota fyrirliggjandi samsetningu gagna og velja verkefnisauðkenni sem samsvarar gögnum um verkbeiðni.
 
-Dæmi: Á myndinni hér að neðan þýðir uppsetning eignategundarinnar „Vél í vörubíl“ að hver verkbeiðnivinnsla sem er mynduð með þá eignagerð verður undirverkefni verkkennis „000186“.
+Til dæmis, á eftirfarandi mynd, vegna þess hvernig eignategundin **Vörubíll vél** er sett upp, verður hver vinnupöntunarvinna sem er búin til með eignategundinni **Vörubíll vél** að vera undirverkefni verkefnis ID 000186.
 
 ![Mynd 1](media/01-integration-to-pma.png)
 
-Tilgangur verkkennis í verkbeiðnivinnslu og tengt númer verkþáttar (**Eignastjórnun** > **Sameiginlegt** > **Verkbeiðnir** > **Allar verkbeiðnir** > veldu verkbeiðni í lista > flýtiflipann **Upplýsingar um línu** > reitnum **Verkkenni** og reitnum **Verkþáttanúmer**) er að fylgjast með kostnaði sem tengist verkbeiðnivinnslunni og eigninni sem er valin í verkbeiðnivinnslunni í einingunni **Verkefnisstjórnun og bókhald**. 
+Tilgangurinn með auðkenni verkefnisins í vinnupöntunarstörfinu, og tilheyrandi athafnanúmeri, er að rekja kostnað sem er tengdur vinnu pöntunarstarfinu og eigninni sem er valin á það, í einingunni **Verkefnisstjórnun og bókhald**. (Til að skoða auðkenni verkefnisins og aðgerðarnúmerið, veldu **Eignastýring** > **Sameiginlegt** > **Verkbeiðnir** > **Allar verkbeiðnir** og veldu síðan verkbeiðnina. Á flýtiflipanum **Línulýsing** sýnir reiturinn **Verkkenni** auðkenni verksins og reiturinn **Aðgerðarnúmer** sýnir númer aðgerðar.) Sjá frekari upplýsingar um kostnaðarstýringu í eignastýringu [Stjórnun kostnaðar og dagsetningar](../controlling-and-reporting/cost-and-date-control.md).
 
-Á myndinni hér að neðan sérðu myndrænt yfirlit yfir verkbeiðniverk og skyldar aðgerðir verkefnis.
+Eftirfarandi mynd sýnir myndrænt yfirlit yfir verkbeiðniverk og skyldar aðgerðir verkefnis.
 
 ![Mynd 2](media/02-integration-to-pma.png)
 
-Þegar ný verkbeiðnivinnsla er mynduð í verkbeiðni er verkbeiðniverk sjálfkrafa búið til fyrir vinnsluna. Fjárhagslegar víddir eignarinnar sem tengjast vinnslu á verkbeiðni eru sjálfkrafa fluttar yfir í verkbeiðniverkið. Verkþátturinn sem var stofnaður fyrir vinnslu verkbeiðni er með tengdar upplýsingar í viðhengi varðandi gerð viðhaldsverka, afbrigði af viðhaldsverkum og viðskipti. Þessi gögn eru gagnleg ef þú býrð til dæmis til innkaupapöntun úr verkbeiðni (sjá [Innkaup](../work-orders/procurement.md)), eða ef þú notar eininguna **Verkefnisstjórnun og bókhald** fyrir tímaskráningu.  
+Þegar ný verkbeiðnivinnsla er mynduð í verkbeiðni er verkbeiðniverk sjálfkrafa búið til fyrir vinnsluna. Fjárhagslegar víddir eignarinnar sem tengjast vinnslu á verkbeiðni eru sjálfkrafa fluttar yfir í verkbeiðniverkið.
 
-Ef eignin var sett upp á virkri staðsetningu og sú eign er seinna sett upp á annarri virkri staðsetningu, eru fjárhagsvíddir sem tengjast nýju virku staðsetningunni sjálfkrafa uppfærðar á eigninni. Þar af leiðandi, þegar þú býrð til verkbeiðnivinnslu fyrir eignina fær verkbeiðniverkið fyrir verkbeiðnivinnsluna sjálfkrafa fjárhagsvíddirnar sem nú tengjast eigninni. Þetta þýðir að þegar þú notar virkar staðsetningar er alltaf hægt að rekja kostnað á virkum staðsetningum þar sem eign var sett upp á hverjum tíma. Sjálfvirk uppfærsla fjárhagsvídda tryggir fullkominn rekjanleika kostnaðar við stjórnun og skýrslugerð verkefna.  
+Verkefnastarfsemin sem er búin til vegna vinnslu á verkbeiðni hefur tengdar upplýsingar sem fylgja henni. Þessar upplýsingar snúast um gerð viðhaldsverka, gerðarafbrigði viðhaldsverka og viðskipti. Þau eru gagnleg ef þú býrð til dæmis til innkaupapöntun úr verkbeiðni (sjá [Innkaup](../work-orders/procurement.md)), eða ef þú notar eininguna **Verkefnisstjórnun og bókhald** fyrir tímaskráningu.
 
+Ef eignin var sett upp á virkri staðsetningu en er seinna sett upp á annarri virkri staðsetningu, eru fjárhagsvíddir sem tengjast nýju virku staðsetningunni sjálfkrafa uppfærðar á eigninni. Síðan, þegar þú býrð til verkbeiðnivinnslu fyrir eignina fær verkbeiðniverkið fyrir verkbeiðnivinnsluna sjálfkrafa fjárhagsvíddirnar sem nú tengjast eigninni. Þar af leiðandi, þegar þú notar virkar staðsetningar er alltaf hægt að rekja kostnað á virkum staðsetningum þar sem eign var sett upp á hverjum tíma. Sjálfvirk uppfærsla fjárhagsvídda tryggir fullkominn rekjanleika kostnaðar við stjórnun og skýrslugerð verkefna.
 
 ## <a name="work-order-projects-work-order-lifecycle-states-project-stages-and-project-types"></a>Verkbeiðniverk, líftímastöður verkbeiðnil, verkþrep og gerðir verka
 
-Til að tryggja rétta notkun á líftímastöðum verkbeiðna og tengdum verkstigum á verkbeiðnum skaltu íhuga tengsl varðandi við eininguna **Verkefnisstjórnun og bókhald**:
+Til að tryggja að líftímastöður verkbeiðna og tengdra verkstiga á verkbeiðnum séu notaðar rétt skaltu íhuga tengsl varðandi við eininguna **Verkefnisstjórnun og bókhald**:
 
-- Í einingunni **Verkefnisstjórnun og bókhald** eru verkstig sett upp á verkgerðum í **Færibreytum verkefnisstjórnunar og bókhalds**.  
-- Í **Færibreytum verkefnisstjórnunar og bókhalds** skaltu muna að velja viðeigandi gátreiti verkstigs fyrir allar verkgerðirnar sem þú ætlar að nota. Á myndinni hér að neðan hafa fimm stig **Stofnað** - **Áætlað** - **Tímaáætlað** - **Í ferli** - **Lokið** verið valin fyrir verkgerðirnar „Tími og efni“ og „Innra“. Þessi fimm stig eru mikilvæg bæði fyrir vinnslur innra viðhalds og viðhaldsþjónustu.  
-- Í **Eignastjórnun** eru verkgerðir skilgreindar af verkhópunum sem þú settir upp í skjámyndinni **Uppsetning verkbeiðniverks** > tenglinum **Verkflokkur**.  
-- Vkerhóparnir sem eru settir upp í **Uppsetning verkbeiðniverks** eru notaðir þegar þú býrð til verkbeiðnir. Þegar verkbeiðni er stofnuð er verkbeiðniverk sjálfkrafa búið til fyrir verkbeiðnina.  
-- Líftímastöður verkbeiðni verða allar að hafa tengt verkefnastig.  
-- Verkstigið sem tengist líftímastöðu verkbeiðni verður að skilgreina sem virkt stig fyrir verkhópinn sem skilgreindur er í verkbeiðniverkinu. Verk verkbeiðninnar er sjálfkrafa myndað í verkbeiðni.  
-- Þegar þú býrð til nýja verkbeiðni er sjálfvirk úthlutun á verkbeiðniverki byggð á uppsetningunni í **Verkuppsetningu verkbeiðni** (**Eignastjórnun** > **Uppsetning** > **Verkbeiðnir** > **Uppsetning verkefnis**).  
+- Í einingunni **Verkefnisstjórnun og bókhald** eru verkstig sett upp á verkgerðum á síðunni **Færibreytum verkefnisstjórnunar og bókhalds**.  
+- Á síðunni **Færibreytur verkefnisstjórnunar og bókhalds** notarðu gátreitina til að velja viðeigandi verkgerðirnar fyrir allar verkgerðirnar sem þú ætlar að nota. Á eftirfarandi myndum hafa fimm stig (**Stofnað**, **Áætlað**, **Tímaáætlað**, **Í ferli** og **Lokið**) verið valin fyrir verkgerðirnar **Tími og efni** og **Innra**. Þessi fimm stig eru mikilvæg bæði fyrir vinnslur innra viðhaldsvinnlsa og viðhaldsþjónustu.
+- Í einingunni **Eignastýring** eru verkefnategundir skilgreindar af verkefnahópunum sem þú settir upp á síðunni **Uppsetning vinnuverkefna** > **Verkefnahópur** flipanum (**Eignastýring** > **Uppsetning** > **Verkbeiðnir** > **Uppsetning verkefnis**).  
+- Verkhóparnir sem eru settir upp á síðunni **Uppsetning verkbeiðniverks** eru notaðir þegar þú býrð til verkbeiðnir. Þegar verkbeiðni er stofnuð er verkbeiðniverk sjálfkrafa búið til fyrir verkbeiðnina.  
+- Í hvert skipti sem líftímastaða verkbeiðni verða að hafa tengt verkefnastig.  
+- Verkstigið sem tengist líftímastöðu verkbeiðni verður að skilgreina sem virkt stig fyrir verkhópinn sem er skilgreindur í verkbeiðniverkinu. Verk verkbeiðninnar er sjálfkrafa myndað í verkbeiðni.
+- Þegar þú býrð til nýja verkbeiðni er sjálfvirk úthlutun á verkbeiðniverki byggð á uppsetningunni á síðunni **Verkuppsetning verkbeiðni**.  
 
-Tengingar milli verkhópa í verkbeiðni, tengdar verkgerðir, verkstig og líftímastöður verkbeiðna eru sýndar á myndunum hér að neðan.  
+Eftirfarandi myndir sýna tengingar milli verkhópa í verkbeiðni, tengdar verkgerðir, verkstig og líftímastöður verkbeiðna.
 
 ![Mynd 3](media/03-integration-to-pma.png)
 
@@ -91,9 +95,9 @@ Tengingar milli verkhópa í verkbeiðni, tengdar verkgerðir, verkstig og líft
 
 ![Mynd 5](media/05-integration-to-pma.png)
 
-Sjá [Uppsetning verkbeiðniverka](../setup-for-work-orders/work-order-project-setup.md) varðandi hvernig eigi að setja upp verkbeiðniverk og [Líftímastöður verkbeiðna](../setup-for-work-orders/work-order-lifecycle-states.md) varðandi hvernig eigi að búa til líftímastöður verkbeiðna.
+Nánari upplýsingar um hvernig setja skal upp verk verkbeiðna er að finna í [Verkuppsetning verkbeiðni](../setup-for-work-orders/work-order-project-setup.md). Upplýsingar um hvernig skal stofna líftímastöður verkbeiðna er að finna í [Líftímastöður verkbeiðna](../setup-for-work-orders/work-order-lifecycle-states.md).
 
-Myndin hér að neðan sýnir myndrænt yfirlit yfir hin ýmsu verkefni sem eru búin til í einingunni **Eignastjórnun** til að leyfa samþættingu við eininguna **Verkefnisstjórnun og bókhald**, svo og vinnuferlum sem verkefnin tengjast.
+Eftirfarandi mynd sýnir myndrænt yfirlit yfir hin ýmsu verkefni sem eru búin til í einingunni **Eignastýring** til að gera samþættingu við eininguna **Verkefnisstjórnun og bókhald**. Það sýnir einnig verkferla sem verkefnin tengjast.
 
 ![Mynd 6](media/06-integration-to-pma.png)
 

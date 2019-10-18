@@ -1,6 +1,6 @@
 ---
-title: Hvaða útgáfa af Microsoft Dynamics 365 for Talent - Attract
-description: Þetta efnisatriði veitir upplýsingar um möguleikana í mismunandi útgáfum af Microsoft Dynamics 365 for Talent - Attract.
+title: Hvaða útgáfa af Microsoft Dynamics 365 Talent - Attract
+description: Þetta efnisatriði veitir upplýsingar um möguleikana í mismunandi útgáfum af Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/04/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 59ab9f418c4d9039ca08a71de0dba0f96216aabb
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 59f3e78efa8801c81dccff2f45751b47fb30481f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739712"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009947"
 ---
 # <a name="which-version-of-attract"></a>Hvaða útgáfa af Attract?
 
 [!include[banner](../includes/banner.md)]
 
-Útgáfan af Microsoft Dynamics 365 for Talent: Attract sem hentar þér fer eftir stærð og þörfum fyrirtækisins þíns. Grunnútgáfan af Attract veitir undirflokk af virkni sem miðast við smærri hópa og fyrirtæki þar sem ráðningarstjórinn er helsti notandinn. Þú getur byrjað að nota grunnútgáfuna af Attract með einu eða fleiri leyfum.
+Útgáfan af Microsoft Dynamics 365 Talent: Attract sem hentar þér fer eftir stærð og þörfum fyrirtækisins þíns. Grunnútgáfan af Attract veitir undirflokk af virkni sem miðast við smærri hópa og fyrirtæki þar sem ráðningarstjórinn er helsti notandinn. Þú getur byrjað að nota grunnútgáfuna af Attract með einu eða fleiri leyfum.
 
 Attract með viðbót alhliða ráðningar miðast við miðlungsstóra og stóra hópa eða fyrirtæki þar sem ráðningaraðilinn eða Talent-sérfræðingur eru helstu notendur. Viðbót alhliða ráðningar krefst þess að leyfi séu keypt í gegnum [Microsoft Dynamics 365 samstarfsaðila](https://dynamics.microsoft.com/partners/find-a-partner/).
 

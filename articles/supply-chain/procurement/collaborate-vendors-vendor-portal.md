@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07fbc5fea1fd44769a29bcc40297ffd02812a1e5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3bb30ddffb86c7083f40863c0c336fc5f65ce8f5
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555157"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248981"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Samstarf með lánardrottnum í gegnum gátt lánardrottins
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrt hvernig innkaupastjórar geta notað Gátt lánardrottins til að vinna með ytri lánardrottnum meðan á staðfestingarvinnslu innkaupapöntunar stendur. Upplýsingarnar gildir aðeins um 2016 Febrúar &amp; 2016 Maí útgáfur af Dynamics AX.
+Þetta efnisatriði útskýrt hvernig innkaupastjórar geta notað Gátt lánardrottins til að vinna með ytri lánardrottnum meðan á staðfestingarvinnslu innkaupapöntunar stendur. Upplýsingarnar gildir aðeins um útgáfur frá febrúar 2016 og maí 2016 af Dynamics AX.
 
-Upplýsingarnar í þessu efnisatriði gildir aðeins um 2016 Febrúar og 2016 Maí útgáfum Dynamics AX. Virknin gátt Lánardrottins hefur verið skipt út fyrir virknina aukið samstarf lánardrottna í Dynamics 365 for Operations útgáfa 1611. Nánari upplýsingar um uppsetningu öryggis fyrir samstarf lánardrottna sjá [Uppsetning og viðhald samstarfs lánardrottna](vendor-collaboration-work-external-vendors.md).  
+Upplýsingarnar í þessu efnisatriði gildir aðeins um 2016 Febrúar og 2016 Maí útgáfum Dynamics AX. Nánari upplýsingar um uppsetningu öryggis fyrir samstarf lánardrottna sjá [Uppsetning og viðhald samstarfs lánardrottna](vendor-collaboration-work-external-vendors.md).  
 
 Gátt Lánardrottins er hönnuð fyrir lánardrottna sem ekki hafa rafræn gagnaskipti (EDI) samþætt við Microsoft Dynamics AX til að skiptast á upplýsingum um innkaupapöntun (PO). Gáttin leyfir innkaupastjórum að senda innkaupapöntun til lánardrottins og fá svarið Staðfest eða Hafnað beint í Dynamics AX.  
 
@@ -62,7 +62,7 @@ Taflan hér að neðan sýnir dæmi um breytingar á stöðu og útgáfum sem In
 
 | Aðgerð                                                   | Staða og útgáfa                                                                                    |
 |----------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Upprunaleg útgáfa af Innkaupapöntuninni er stofnuð í Dynamics AX. | Staðan er  **Samþykkt**.                                                                           |
+| Upprunaleg útgáfa af Innkaupapöntuninni er stofnuð í Dynamics AX. | Staðan er **Samþykkt**.                                                                           |
 | Innkaupapöntunin er send á Gátt lánardrottins.                     | Útgáfa er skráð í Gátt lánardrottins og stöðunni er breytt í **Í Ytri Yfirferð**.    |
 | Þú gerir einhverjar breytingar sem lánardrottinn biður um.  | Stöðu breytt aftur í **Samþykkt**.                                                            |
 | Þú sendir nýja útgáfu af Innkaupapöntuninni á Gátt lánardrottins. | Ný útgáfa er skráð í Gátt lánardrottins og stöðunni er breytt í **Í Ytri Yfirferð**. |

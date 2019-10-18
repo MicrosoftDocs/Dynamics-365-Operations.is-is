@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 351fd03f6a27073b850729e2eef5516556292225
-ms.sourcegitcommit: b24c36cdd3b6f6085447bf81cb034d13d5b081fe
+ms.openlocfilehash: 64871eb5f7175701cfe1c9fefcc04b9da488748b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "1773258"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008456"
 ---
 # <a name="create-a-job"></a>Stofna starf
 
 [!include [banner](includes/banner.md)]
 
-Þetta umræðuefni lýsir grunnatriðum verks í Microsoft Dynamics 365 for Talent: Attract. Það útskýrir einnig hvernig á að búa til starf.
+Þetta umræðuefni lýsir grunnatriðum verks í Microsoft Dynamics 365 Talent: Attract. Það útskýrir einnig hvernig á að búa til starf.
 
 ## <a name="job-creation"></a>Starf búið til
 
@@ -74,7 +74,7 @@ Nánari upplýsingar um aðgerð sem hægt er að bæta við ráðningarferlið 
 
 ## <a name="postings"></a>Bókanir
 
-Eftir að starf er virkjað er hægt að auglýsa það laust. Aðeins ráðningaraðilar og stjórnendur geta auglýst laus störf. Starfið getur annaðhvort verið auglýst á Talent Careers (Microsoft Dynamics 365 for Talent starfsframasvæðinu) eða LinkedIn. Attract-teymið vinnur stöðugt í samstarfi við samantektaraðila starfatorga. Þessi listi stækkar með tímanum. Þegar starf er auglýst sem eingöngu innan fyrirtækis þurfa umsækjendur AAD-reikning til að skoða og sækja um starfið. Ef starfið er auglýst opinberlega geta umsækjendur skoðað og sótt um störf með því að nota alla valkosti sannvottunar. 
+Eftir að starf er virkjað er hægt að auglýsa það laust. Aðeins ráðningaraðilar og stjórnendur geta auglýst laus störf. Starfið getur annaðhvort verið auglýst á Talent Careers (Dynamics 365 Talent starfsframasvæðinu) eða LinkedIn. Attract-teymið vinnur stöðugt í samstarfi við samantektaraðila starfatorga. Þessi listi stækkar með tímanum. Þegar starf er auglýst sem eingöngu innan fyrirtækis þurfa umsækjendur AAD-reikning til að skoða og sækja um starfið. Ef starfið er auglýst opinberlega geta umsækjendur skoðað og sótt um störf með því að nota alla valkosti sannvottunar. 
 
 Nánari upplýsingar um auglýsingar á störfum er að finna í [Virkni starfatorga í Attract](career-site.md).
 

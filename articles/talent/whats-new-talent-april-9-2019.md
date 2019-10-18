@@ -1,6 +1,6 @@
 ---
-title: Hvað er nýtt eða breytt í Dynamics 365 for Talent (9. apríl 2019)
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent.
+title: Hvað er nýtt eða breytt í Dynamics 365 Talent (9. apríl 2019)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/09/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 4959f28e0768d43f90a664022c714a126c88e38d
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 08f3f8150a120817618ee4d31197f3088c7483ab
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856425"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024092"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-9-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 for Talent (9. apríl 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-9-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 Talent (9. apríl 2019)
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 for Talent.
+Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Breytingar í Attract
 
@@ -91,4 +91,4 @@ Að fylgjast með frítíma starfsmanns og skilja hvernig frítími er reiknaðu
 Með þessari breytingu er borið kennsl á tvítekningar á meðan þú færir inn heiti á reitum og staða sýnir hversu margar tvítekningar fundust. Þú getur valið tengilinn sem gefinn er upp til að opna nýja síðu til að meta hvort nota skuli samsvörun sem borin var kennsl á. Til að forðast að trufla gagnafærslu, opnast tvítekin skjámynd ekki sjálfkrafa.
 
 ###  <a name="email-support-for-alerts"></a>Tölvupóstur út af viðvörunum
-Í verkvangsuppfærslu 25 geta notendur stofnað viðvörunarreglur sem senda sjálkrafa tilkynningar í tölvupósti á tengiliði þegar þær ræsast út af tilviki. 
+Með verkvangsuppfærslu 25 fyrir Finance and Operations geta notendur stofnað viðvörunarreglur sem senda sjálfkrafa tilkynningar í tölvupósti á tengiliði þegar þær ræsast út af tilviki. 

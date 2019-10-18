@@ -1,6 +1,6 @@
 ---
 title: Stjórnun vöruúrvals
-description: Í þessu efnisatriði er fjallað um grundvallarhugtök stjórnunar á vöruúrvali í Microsoft Dynamics 365 for Retail og hugleiðingar um framkvæmd verka.
+description: Í þessu efnisatriði er fjallað um grundvallarhugtök stjórnunar á vöruúrvali í Dynamics 365 Retail og hugleiðingar um framkvæmd verka.
 author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4652641be0a1edaac919d36c7f127cd62c355a57
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558829"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025841"
 ---
 # <a name="assortment-management"></a>Stjórn vöruúrvals
 
@@ -28,7 +28,7 @@ ms.locfileid: "1558829"
 
 ## <a name="overview"></a>Yfirlit
 
-Microsoft Dynamics 365 for Retail veitir *vöruúrval* sem gerir þér kleift að stjórna afurðaframboði yfir rásum. Vöruúrval ákvarðar hvaða afurðir eru í boði í tilteknum verslunum og á tilteknu tímabili.
+Dynamics 365 Retail veitir *vöruúrval* sem gerir þér kleift að stjórna afurðaframboði yfir rásum. Vöruúrval ákvarðar hvaða afurðir eru í boði í tilteknum verslunum og á tilteknu tímabili.
 
 Í Retail er vöruúrval vörpun af einni eða fleiri rásum (eða flokkum rása þegar stigveldi fyrirtækja eru notuð) á eina eða fleiri afurðir (eða afurðaflokka þegar flokkastigveldi er notað).
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 36fc98c44625cce03945d76973de67021d53353e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 196b68db02867f8d864be8bcc593aa01f554f7c3
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844370"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249449"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Mælieiningarumreikningur á afurðarafbrigði
 
@@ -90,6 +90,6 @@ Fyrst skaltu opna síðuna **Umreikningur eininga** á upplýsingasíðu útgefi
 
 ### <a name="using-excel-to-update-the-unit-conversions"></a>Nota Excel til að uppfæra umreikning eininga
 
-Ef afurð er með mörg afurðarafbrigði með mismunandi umreikningum eininga, er góð hugmynd að flytja út umreikninga eininga úr síðunni **Umreikningur eininga** í Excel-töflureikni, uppfæra umreikningana, og síðan senda þá til baka til Finance and Operations.
+Ef afurð er með mörg afurðarafbrigði með mismunandi umreikningum eininga, er góð hugmynd að flytja út umreikninga eininga úr síðunni **Umreikningur eininga** í Excel-töflureikni, uppfæra umreikningana, og síðan senda þá til baka til Supply Chain Management.
 
-Valmöguleikinn að flytja út í Excel og senda breytingarnar aftur til Finance and Operations er virkjuð í valmyndaratriðinu **Opna í Microsoft Office** í aðgerðarúðunni á síðunni **Umreikningur eininga**.
+Valmöguleikinn að flytja út í Excel og senda breytingarnar aftur til Supply Chain Management er virkjuð í valmyndaratriðinu **Opna í Microsoft Office** í aðgerðarúðunni á síðunni **Umreikningur eininga**.

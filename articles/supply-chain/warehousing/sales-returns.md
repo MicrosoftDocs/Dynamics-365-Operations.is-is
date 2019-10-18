@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dfeb393698431b1bbb0eb5069cc0930dc122374
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b1f5658de1da8a0b6c36d99e4bb9cf401c09ad0b
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559153"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249797"
 ---
 # <a name="sales-returns"></a>Vöruskil sölu
 
@@ -31,7 +31,7 @@ ms.locfileid: "1559153"
 
 Þetta efnisatriði veitir upplýsingar um gæðastjórnunarferli fyrir skilapantanir. Það felur í sér upplýsingar um skil viðskiptavina og áhrif þeirra á birgðamagn kostnaðarútreiknings og magn á lager.
 
-Viðskiptavinir geta skilað vörum af mismunandi ástæðum. Til dæmis gæti vara verið gölluð eða hún er ekki að uppfylla væntingar viðskiptavinar. Skilaferlið hefst þegar viðskiptavinur gefur út beiðni um skil á vöru. Eftir að beiðni viðskiptavinar er móttekin er skilapöntun stofnuð í Microsoft Dynamics 365 for Finance and Operations.
+Viðskiptavinir geta skilað vörum af mismunandi ástæðum. Til dæmis gæti vara verið gölluð eða hún er ekki að uppfylla væntingar viðskiptavinar. Skilaferlið hefst þegar viðskiptavinur gefur út beiðni um skil á vöru. Eftir að beiðni viðskiptavinar er móttekin er skilapöntun stofnuð.
 
 ## <a name="return-order-process"></a>Skilapantanavinnsla
 Eftirfarandi mynd býður upp á yfirlit yfir skilapöntunina.  
@@ -132,7 +132,7 @@ Auk þess að ákvarða hvernig skilaðar vörur eru seldar geta ráðstöfunark
 <ul>
 <li>Nægilegt traust er á milli aðila.</li>
 <li>Kostnaður skila á gölluðum vörum er hindrandi.</li>
-<li>Ekki má &#39; leyfa vörurnar  aftur inn í birgðir. Vegna annarra skilyrða eru efnislega skil ekki áskilin.&#39;</li>
+<li>Ekki má &#39; leyfa vörurnar aftur inn í birgðir. Vegna annarra skilyrða eru efnislega skil ekki áskilin.&#39;</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -201,7 +201,7 @@ Með því að stilla á valkostinn **Stjórnun biðgeymslu** á **Já**, er hæ
  
 Ef þú stillir valkostinn **stjórnun biðgeymslu** á **Já** í birgðalíkanaflokki vörunnar verður valkosturinn **Stjórnun biðgeymslu** á síðunni **Færslubókarlínur** fyrir komubókarlínuna merktur og ekki er hægt að breyta honum. Ef línan er send í biðgeymslu, verður að tilgreina viðeigandi biðgeymsluvöruhús. 
 
-Ef komulína er ekki send til skoðunar, verður starfsmaður komu í vöruhús að tilgreina ráðstöfunarkóða beint í komubókarlínunni og bóka síðan komubókina. Ef ekki á að úthluta sama ráðstöfunarkóða á allt magn skilalínunnar eða ef fullt magn línunnar hefur ekki verið móttekið verður að skipta línunni. Þegar skipt er upp á komubókarlínunni er einnig skipt skilalínunni (**SalesLine**) og stofnað nýtt lotukenni. Hægt er að skipta línunni með því að draga úr magni í komubókarlínunni. Þegar færslubókin er bókuð er ný skilalína stofnuð sem hefur stöðuna **Áætlað** fyrir eftirstandandi magn. Einnig er hægt að skipta línunni með því að smella á **Aðgerðir**&gt;**Skipta**.
+Ef komulína er ekki send til skoðunar, verður starfsmaður komu í vöruhús að tilgreina ráðstöfunarkóða beint í komubókarlínunni og bóka síðan komubókina. Ef ekki á að úthluta sama ráðstöfunarkóða á allt magn skilalínunnar eða ef fullt magn línunnar hefur ekki verið móttekið verður að skipta línunni. Þegar skipt er upp á komubókarlínunni er einnig skipt skilalínunni (**SalesLine**) og stofnað nýtt lotukenni. Hægt er að skipta línunni með því að draga úr magni í komubókarlínunni. Þegar færslubókin er bókuð er ný skilalína stofnuð sem hefur stöðuna **Áætlað** fyrir eftirstandandi magn. Einnig er hægt að skipta línunni með því að smella á **Aðgerðir** &gt; **Skipta**.
 
 ### <a name="process-the-quarantine-order"></a>Keyra biðgeymslupöntunina
 
@@ -281,7 +281,7 @@ Aðstæðurnar fela í sér tvö fyrirtæki í sama fyrirtækis, eins og sýnt e
 
 ![Einfaldar skilapantanir innan samstæðu](./media/SalesReturn07.png)
 
-Hægt er að koma á pantanakeðju þegar skilapöntun lánardrottins er stofnuð í kaupandi fyrirtæki eða skilapöntun viðskiptavinar er stofnuð í fyrirtæki seljanda. Finance and Operations stofnar samsvarandi pöntun í hinu fyrirtækinu og tryggir að haus og upplýsingar um lánardrottinn skilapöntunar endurspegla stillingar á skilapöntun viðskiptavinar. Skilapöntun sem hefur verið komið getur annaðhvort tekið með eða útilokað tilvísun (**Finna sölupöntun**) í fyrirliggjandi reikningi viðskiptavinar. Fylgiseðlar og reikningar pantanna tveggja má vinna aðskilið. Til dæmis, þarf ekki að búa til fylgiseðil fyrir skilapöntun lánardrottins áður en fylgiseðill er myndaður fyrir skilapöntun viðskiptavinar.
+Hægt er að koma á pantanakeðju þegar skilapöntun lánardrottins er stofnuð í kaupandi fyrirtæki eða skilapöntun viðskiptavinar er stofnuð í fyrirtæki seljanda. Samsvarandi pöntun er stofnuð í hinu fyrirtækinu og tryggir að haus og upplýsingar um lánardrottinn skilapöntunar endurspegla stillingar á skilapöntun viðskiptavinar. Skilapöntun sem hefur verið komið getur annaðhvort tekið með eða útilokað tilvísun (**Finna sölupöntun**) í fyrirliggjandi reikningi viðskiptavinar. Fylgiseðlar og reikningar pantanna tveggja má vinna aðskilið. Til dæmis, þarf ekki að búa til fylgiseðil fyrir skilapöntun lánardrottins áður en fylgiseðill er myndaður fyrir skilapöntun viðskiptavinar.
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Bein afhendingu á sendingu skilar milli þriggja aðila
 

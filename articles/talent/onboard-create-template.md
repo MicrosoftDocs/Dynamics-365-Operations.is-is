@@ -1,6 +1,6 @@
 ---
-title: Búðu til sniðmát um borð með því að nota Dynamics 365 for Talent - Onboard
-description: Þetta efni útskýrir hvernig á að nota Microsoft-forritið Dynamics 365 for Talent - Onboard til að stofna sniðmát fyrir þjálfunarleiðbeiningar fyrir nýliða. Þetta verkefni er nauðsynlegt fyrsta skrefið í stefnunni ráðning til starfsloka í mannauðsstjórnun (HCM).
+title: Búðu til sniðmát um borð með því að nota Dynamics 365 Talent - Onboard
+description: Þetta efni útskýrir hvernig á að nota Microsoft-forritið Dynamics 365 Talent - Onboard til að stofna sniðmát fyrir þjálfunarleiðbeiningar fyrir nýliða. Þetta verkefni er nauðsynlegt fyrsta skrefið í stefnunni ráðning til starfsloka í mannauðsstjórnun (HCM).
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c53c24b2913e3ca30cfc6491556b49d5d9230128
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 63f13380f3d2c31c4cc9009142f320ad8a41e8ee
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731515"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009878"
 ---
-# <a name="create-an-onboarding-template-by-using-dynamics-365-for-talent-onboard"></a>Búðu til sniðmát um borð með því að nota Dynamics 365 for Talent: Onboard
+# <a name="create-an-onboarding-template"></a>Búa til nýliðunarsniðmát
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Onboard veitir ýmis sniðmát sem geta hjálpað þér að stofna þjálfunarleiðbeiningar eins fljótt og auðið er. Þú getur notað eitt eða fleiri af þessum sniðmátum eða búið til þitt eigið sniðmát. Onboard veitir sýnishornatexta sem þú getur notað þegar þú býrð til þín eigin sniðmát. Þess vegna er ferlið auðvelt jafnvel þó þú byrjir frá grunni.
+Microsoft Dynamics 365 Talent: Onboard veitir ýmis sniðmát sem geta hjálpað þér að stofna þjálfunarleiðbeiningar eins fljótt og auðið er. Þú getur notað eitt eða fleiri af þessum sniðmátum eða búið til þitt eigið sniðmát. Onboard veitir sýnishornatexta sem þú getur notað þegar þú býrð til þín eigin sniðmát. Þess vegna er ferlið auðvelt jafnvel þó þú byrjir frá grunni.
 
 ## <a name="create-an-onboarding-template-from-an-existing-template"></a>Stofnaðu þjálfunarsniðmát úr núverandi sniðmáti
 

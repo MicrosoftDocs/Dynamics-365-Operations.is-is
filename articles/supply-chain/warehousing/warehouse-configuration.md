@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 471ab164d7bd2e85f5192c082a905f3c30de3d2b
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 05f8a71dde998abccc75bc962636f9eb04d7e8c2
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1866090"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026717"
 ---
 # <a name="warehouse-configuration-overview"></a>Yfirlit yfir skilgreiningu vöruhúss
 
@@ -34,7 +34,7 @@ ms.locfileid: "1866090"
 **Ábending:** Þessi grein á við um aðgerðir í á **Vöruhúsakerfi** einingunni (ítarlegt vöruhús). Það á ekki við um aðgerðir vöruhúss í **birgðastjórnunarkerfi**.
 
 ## <a name="warehouse-layout"></a>Útlit Vöruhúss
-Stjórnkerfi Vöruhúss í Microsoft Dynamics 365 for Finance and Operations býður upp á sveigjanlega leiðir til að skilgreina útlit vöruhúss til að mæta síbreytilegum þörfum þannig að hægt er að ná bestu skilvirkni vöruhúss.
+Stjórnkerfi Vöruhúss í Finance and Operations býður upp á sveigjanlega leiðir til að skilgreina útlit vöruhúss til að mæta síbreytilegum þörfum þannig að hægt er að ná bestu skilvirkni vöruhúss.
 
 -   Þú getur að koma á háforgangs og lágforgangs geymslusvæði fyrir bestu vistun vöru.
 -   Hægt er að skipta vöruhús í svæði til móts við mismunandi geymsluþarfir , s.s. kröfur um hitastig, eða ýmsa veltuhraði fyrir vörur.

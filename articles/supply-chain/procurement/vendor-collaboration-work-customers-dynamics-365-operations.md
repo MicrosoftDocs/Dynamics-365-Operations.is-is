@@ -1,6 +1,6 @@
 ---
-title: Samstarf lánardrottna við viðskiptavini
-description: Í þessu efnisatriði er því lýst hvernig hægt er að nota samstarf lánardrottna í Microsoft Dynamics 365 for Finance and Operations til að vinna með innkaupapantanir og fylgjast með vörusendingabirgðum.
+title: Samstarf lánardrottna með viðskiptavinum
+description: Í þessu efnisatriði er því lýst hvernig hægt er að nota samstarf lánardrottna til að vinna með innkaupapantanir og fylgjast með vörusendingabirgðum.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bd3967da105b3cec4a722ee8e04fac13c798feec
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e968a57c09837a5cfa5a0476426a274021122959
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567585"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250125"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Samstarf lánardrottna með viðskiptavinum
 
 [!include [banner](../includes/banner.md)]
 
-Þessi mál lýsir því hvernig hægt er að nota samstarf lánardrottna við viðskiptavini í Microsoft Dynamics 365 for Finance and Operations. Söluaðilar geta lokið röð viðskiptaferla úr eftirfarandi vinnusvæðum:
+Þessi mál lýsir því hvernig hægt er að nota samstarf lánardrottna við viðskiptavini í Microsoft Dynamics 365 Supply Chain Management. Söluaðilar geta lokið röð viðskiptaferla úr eftirfarandi vinnusvæðum:
 
 - **Innkaupapöntunum svarað** - Fylgjast með og bregðast við innkaupapöntunum.
 - **Lánardrottinn tilboð** - Skoða beiðnir um tilboð (BUT) og svara þeim með því að færa inn tilboð.

@@ -1,6 +1,6 @@
 ---
 title: Velja á milli Retail Modern POS (MPOS) og sölukerfis í skýinu
-description: Þetta efnisatriði útskýrir grundvallarmuninn á milli Retail Modern POS og Cloud POS. Það lýsir einnig ýmsum þáttum sem smásalar, sem eru að innleiða Microsoft Dynamics 365 for Retail, ættu að íhuga til að fá hjálp við að velja besta kostinn út frá kröfur þeirra.
+description: Þetta efnisatriði útskýrir grundvallarmuninn á milli Retail Modern POS og Cloud POS. Það lýsir einnig ýmsum þáttum sem smásalar sem innleiða Dynamics 365 Retail ættu að íhuga til að fá hjálp við að velja besta kostinn út frá kröfur þeirra.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 69cf6d2b7a9bb09a848f2a0c870f5e7e59c61e91
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557015"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025910"
 ---
 # <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Velja á milli Retail Modern POS (MPOS) og sölukerfis í skýinu
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði gefur þeim sem innleiða viðbótarbakgrunn, ábendingar og leiðbeiningar um þá þætti sem þeir ættu að íhuga þegar þeir virkja Microsoft Dynamics 365 for Retail. Með því að skoða og fylgja þessum leiðbeiningum sem hluta af virkjunarferlinu geta þeir sem innleiða forðast vandamál sem gætu haft áhrif á ánægju notanda eða afköst.
+Þetta efnisatriði gefur þeim sem innleiða viðbótarbakgrunn, ábendingar og leiðbeiningar um þá þætti sem þeir ættu að íhuga þegar þeir virkja Dynamics 365 Retail. Með því að skoða og fylgja þessum leiðbeiningum sem hluta af virkjunarferlinu geta þeir sem innleiða forðast vandamál sem gætu haft áhrif á ánægju notanda eða afköst.
 
 ## <a name="insights"></a>Innsýn
 
@@ -60,7 +60,7 @@ Retail styður eftirfarandi valkosti fyrir sölustað (POS):
 MPOS á Windows, IOS eða Android tæki er forrit sem er pakkað, sett upp og þjónustað á því tæki.
 
 - **Windows** - MPOS fyrir Windows forritið inniheldur alla forritakóðann og innfelldan Commerce-keyrslutíma (CRT). 
-- **iOSAndroid** - Á þessum vettvangi virkar forritið sem gestgjafi fyrir CPOS forritakóðann. Með öðrum orðum kemur forritakóðinn frá CPOS-þjóninum á Microsoft Azure eða Retail Store Scale Unit (RSSU). Nánari upplýsingar er að finna í [Retail Store Scale Unit yfirlit](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
+- **iOS/Android** – Á þessum vettvangi virkar forritið sem gestgjafi fyrir CPOS forritakóðann. Með öðrum orðum kemur forritakóðinn frá CPOS-þjóninum á Microsoft Azure eða Retail Store Scale Unit (RSSU). Nánari upplýsingar er að finna í [Retail Store Scale Unit yfirlit](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>CPOS
 
@@ -76,7 +76,7 @@ Til viðbótar við vettvang og formþátt, verða smásalar einnig að velja vi
 | MPOS fyrir iOS eða Android | Cloud eða RSSU | Ekkert                |
 | Sölustaður í skýi               | Cloud eða RSSU | Ekkert                |
 
-#### <a name="retail-server"></a>Retail-þjónn
+#### <a name="retail-server"></a>Retail server
 
 Retail-þjónninn er eining sem hýsir CRT. CRT inniheldur allan viðskiptagrunn sem POS notar, og það veitir aðgang að rás gagnagrunninum. Á meðan þeir eru nettengdir, nota allir POS viðskiptavinir í versluninni Retail-þjóninn. Retail-þjóninn er hægt að virkja annaðhvort í skýinu eða í versluninni (RSSU).
 

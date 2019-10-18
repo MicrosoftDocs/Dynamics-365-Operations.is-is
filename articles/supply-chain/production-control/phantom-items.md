@@ -1,6 +1,6 @@
 ---
 title: Skuggavörur
-description: Þetta efnisatriði lýsir í smáatriðum hvernig hægt er að nota línugerð skuggavöru fyrir línurnar í uppskriftum og formúlu í Microsoft Dynamics 365 for Finance and Operations.
+description: Þetta efnisatriði lýsir í smáatriðum hvernig hægt er að nota línugerð skuggavöru fyrir línurnar í uppskriftum og formúlu í Dynamics 365 Supply Chain Management.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/15/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f01a0321740365c23cbc117be42c0a5137960af7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7c39b0ac2eb8a2293c828fee23ed6a78cb5fe2c9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843890"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250011"
 ---
 # <a name="phantom-items"></a>Skuggavörur
 
@@ -51,7 +51,7 @@ Eftirfarandi skýringarmynd sýnir hvernig framangreind uppskrift er umbreytt í
 
 Ólíkt hönnunaruppskriftinni, sem var með tvö aðgerðarskjöl, hefur framleiðsluuppskriftin aðeins eitt aðgerðarskjal. Umbúðaraðgerðin sem tengdist við hluta G, hefur einnig verið færður upp og er nú hluti af aðgerðarskjali fyrir afurð H. Samsetning rafeiningarinnar er fyrsta aðgerðin. Þessi röð er skynsamleg, því að þessi eining er notuð í næstu aðgerð, sem er samsetning tækisins. Síðasta aðgerðin er umbúðaraðgerðin, sem notar tvö umbúðaefni (C og D).
 
-Í Microsoft Dynamics 365 for Finance and Operations er umbreytingin milli hönnunaruppskriftar og framleiðsluuppskriftar virkjuð með línugerð skuggauppskriftarinnar. Eins og hugtakið „skuggi“ bendir til hafa hlutar F og G horfið við umbreytingu á milli uppskriftargerðanna tveggja. Í þessu dæmi er skuggalínugerðin notuð á uppskriftarlínurnar fyrir hluta F og G í hönnunaruppskriftinni. Þegar framleiðslu- eða runupöntun er stofnuð er hönnunaruppskriftin afrituð í framleiðslu- eða runupöntunina. Þá, þegar pöntunin er áætluð, á sér stað umbreyting frá hönnunaruppskrift til framleiðsluuppskriftar, eins og sýnt er á framangreindri skýringarmynd. Í aðgerðarskjalinu í annarri skýringarmyndinni er umbúðaefni C og D aðföng fyrir aðgerðina. 
+Umbreytingin á milli hönnunaruppskriftar og framleiðsluuppskriftar virkjuð með línugerð skuggauppskriftarinnar. Eins og hugtakið „skuggi“ bendir til hafa hlutar F og G horfið við umbreytingu á milli uppskriftargerðanna tveggja. Í þessu dæmi er skuggalínugerðin notuð á uppskriftarlínurnar fyrir hluta F og G í hönnunaruppskriftinni. Þegar framleiðslu- eða runupöntun er stofnuð er hönnunaruppskriftin afrituð í framleiðslu- eða runupöntunina. Þá, þegar pöntunin er áætluð, á sér stað umbreyting frá hönnunaruppskrift til framleiðsluuppskriftar, eins og sýnt er á framangreindri skýringarmynd. Í aðgerðarskjalinu í annarri skýringarmyndinni er umbúðaefni C og D aðföng fyrir aðgerðina. 
 
 ## <a name="multilevel-phantom-bom-structures"></a>Uppbygging skuggauppskriftar á mörgum stigum
 Hægt er að nota skuggalínugerð í marglaga hönnunaruppskrift eins og sýnt er á eftirfarandi skýringarmynd. Í þessari skýringarmynd er (a) uppskrift fyrir afurð G, og (b) leiðarskjalið fyrir hluta E og F og afurð G. 

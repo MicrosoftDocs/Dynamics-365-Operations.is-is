@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 00facce5913fb82f67c5844d74d29032735db707
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d95429dde38a7a528b1c1d9036194a3bf8e6f986
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1506104"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009446"
 ---
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>Setja upp færibreytur mannauðs bundnar tilteknu fyrirtæki
 
@@ -34,7 +34,7 @@ Stillingar fyrir sumar færibreytur Mannauðs (HR) eru eins milli fyrirtækja, �
 Tvær síður eru notaðar til að setja upp færibreytur mannauðs (HR). Fyrir Færibreytur sem fyrirtæki samnýta, notarðu **samnýttar færibreytur fyrir mannauð** síðu. Fyrir færibreytur sem eru bundin tilteknu fyrirtæki (með öðrum orðum, stillingar eiga við um eitt fyrirtæki), notarðu **færibreytum mannauðs** síðu. Á **færibreytur Mannauðs** síða, er stillingum deild á sex flipa:
 
 -   Almennt
--   Ráðningar - þetta er ekki innifalið í Dynamics 365 for Talent
+-   Ráðningar - þetta er ekki innifalið í Dynamics 365 Talent
 -   Laun
 -   Númeraraðir
 -   Family and Medical Leave Act (lög um leyfi vegna fjölskyldu eða veikinda)
@@ -49,7 +49,7 @@ Stillingar á **Laun** flipanum skilgreina hvort notendur verða staðfesta að 
 ### <a name="previously-released-functionality"></a>Áður losaðar virkni
 Stillingarnar á flipanum **númeraröð** ákvarða raðir sem verða notuð til að úthluta sjálfkrafa auðkenni á liði í mannauði, svo sem umsókn, fjarvistarskráningar, viðburðir, niðurstöður launavinnsla, málsnúmer, námskeið og námskeiðsdagskrá. Til að vinna með tilvísanir númeraraða og kóða í **Númeraraðir** listasíðu (smellt er á **Fyrirtækisstjórnun** &gt; **Númeraraðir** &gt; **Númeraraðir**).
 
-### <a name="if-youre-using-dynamics-365-for-talent"></a>Ef notað er Dynamics 365 for Talent
+### <a name="if-youre-using-dynamics-365-talent"></a>Ef notað er Dynamics 365 Talent
 Stillingarnar á flipanum **númeraröð** ákvarða raðir sem verða notuð til að úthluta sjálfkrafa auðkenni á liði í mannauði, svo sem umsókn, fjarvistarskráningar, viðburðir, niðurstöður launavinnsla, málsnúmer, námskeið og námskeiðsdagskrá. Til að vinna með tilvísanir númeraraða og kóða skal nota listasíðuna **Númeraraðir** (smellt er á **Kerfisstjórnun** &gt; **Tenglaflipi** &gt; **Númeraraðir** &gt; **Númeraraðir**). 
 
 Stillingar á í **FMLA** flipa skilgreina hversu margar stundir starfsmaður verður að vinna til að tækur fyrir FMLA fríðindi, tíma í starfi sem er krafist fyrir hæfni, og upphafsdagsetningu ráðningar sem er notuð til að ákvarða lengd ráðningar. stillingar Skilgreina einnig fjölda stunda FMLA stunda sem starfsmenn eiga rétt á og FMLA leyfisdagatal sem er notuð til að reikna út hversu margir FMLA klukkustundir starfsmenn hafa notað. **FMLA** flipi er einungis tiltækt fyrir fyrirtæki í Bandaríkjunum. 

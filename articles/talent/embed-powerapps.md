@@ -1,5 +1,5 @@
 ---
-title: Innfella PowerApps-forrit í Core HR
+title: Innfella PowerApps-forrit í Dynamics 365 - Core HR
 description: Þetta efnisatriði útskýrir hvernig á að leysa vandamál þar sem valmyndaratriði PowerApps hefur horfið úr kerfisstjórnunareiningunni.
 author: andreabichsel
 manager: AnnBe
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7c0dcdd7e2f407267cf99906b4d0b317858710af
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 4fbc24c5ceb73389b84b125eb942ac31757928aa
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742820"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008431"
 ---
 # <a name="embed-powerapps-apps-in-core-hr"></a>Innfella PowerApps-forrit í Core HR
 
@@ -38,7 +38,7 @@ Hönnun notandaviðmótsins hefur verið breytt og Microsoft PowerApps er nú hl
 
 **Upplausn**
 
-Aðferðin við innfellingu PowerApps-forrita hefur verið breytt. PowerApps-forritum er nú bætt við í gegnum sérsniðna líkanið. Hægt er að bæta PowerApps-forritum við nánast allar síður í Microsoft Dynamics 365 for Talent.
+Aðferðin við innfellingu PowerApps-forrita hefur verið breytt. PowerApps-forritum er nú bætt við í gegnum sérsniðna líkanið. Hægt er að bæta PowerApps-forritum við nánast allar síður í Microsoft Dynamics 365 Talent.
 
 Upplýsingar um það hvernig á að innfella PowerApps-forrit í Talent er að finna í [Innfella PowerApps-forrit](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a76082a7aa375424e6f118744e2f63600a8cbda
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: aef99a7e8964dba0e3c3a507bb214b79ae723357
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560663"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251524"
 ---
 # <a name="cycle-counting"></a>Regluleg talning
 
@@ -34,8 +34,8 @@ ms.locfileid: "1560663"
 Reglulega talningu er vöruhúsið ferli sem hægt er að nota til að endurskoða vörur á lager. Hægt er að lýsa reglulegri talningu í þremur áföngum:
 
 1.  **Stofna reglulega talningu vinnu** ─ Reglulega talningu vinna er stofnuð sjálfkrafa samkvæmt færibreytum þröskuld fyrir vörur eða með því að nota við áætlun um reglulega talningu. Einnig er hægt að stofna reglulega talningu vinnu handvirkt með því að nota færibreytur vöru eða vöruhúss á síðunni **Vinna reglulegrar talningar eftir vörum** eða á síðunni **Vinna reglulegrar talningar eftir staðsetningu**.
-2.  **Ferli reglulegrar talningar** ─ Eftir að hafa stofnað vinnu reglulegrar talningar er framkvæmd vinna reglulegrar talningar með því að telja vörur á staðsetningu vöruhúss og færa inn niðurstöðu í Microsoft Dynamics 365 for Finance and Operations með fartæki. Að öðrum kosti er hægt að telja vörur í vöruhús án þess að stofna reglulega talningu á vinnu. Þetta ferli kallast *finna reglulega talningu*.
-3.  **Leysa mismun í talningargildi** -  Eftir reglulega talningu, munu allar vörur sem hafa mismunandi talningargildi hafa stöðuna **Bíður yfirferðar** í skjámyndinni **Allt**. Hægt er að leysa úr þessum mismun á síðunni **Vinna reglulegrar talningar bíður yfirferðar**.
+2.  **Ferli reglulegrar talningar** ─ Eftir að hafa stofnað vinnu reglulegrar talningar er framkvæmd vinna reglulegrar talningar með því að telja vörur á staðsetningu vöruhúss og færa inn niðurstöðu í Dynamics 365 Supply Chain Management með fartæki. Að öðrum kosti er hægt að telja vörur í vöruhús án þess að stofna reglulega talningu á vinnu. Þetta ferli kallast *finna reglulega talningu*.
+3.  **Leysa mismun í talningargildi** - Eftir reglulega talningu, munu allar vörur sem hafa mismunandi talningargildi hafa stöðuna **Bíður yfirferðar** í skjámyndinni **Allt**. Hægt er að leysa úr þessum mismun á síðunni **Vinna reglulegrar talningar bíður yfirferðar**.
 
 Eftirfarandi mynd sýnir hvernig á að framkvæma reglulega talningu. ![Vinnsluflæði fyrir reglulega talningu](./media/performcyclecountinginawarehouselocation.jpg)
 
@@ -113,10 +113,10 @@ Hægt er að setja upp áætlun um reglulega talningu til að stofna vinnu reglu
 Til að stofna vinnu reglulegrar talningar handvirkt er hægt að nota síðurnar **Vinna reglulegrar talningar eftir vörum** eða **Vinna reglulegrar talningar eftir staðsetningu**. Hægt er að tilgreina hámarksfjölda reglulegrar talningar sem hægt er að stofna í hvert sinn. Til dæmis, ef vöruhússtjórinn tilgreinir gildið **5** er vinna reglulegrar talningar stofnuð fyrir fimm staðsetningar jafnvel þó að varan er til staðar í 10 mismunandi stöðum. Einnig er hægt að velja vinnuhópskenni til að úthluta þeim vinnukennum reglulegrar talningar sem eru stofnuð til. Þegar vinnuhópskenni er unnið fyrir reglulega talningu, er vinnukenni reglulegrar talningar sem úthlutað er þessum vinnuhópi unnið eins og hópur.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Framkvæma reglulegar talningar með fartæki
-Það eru nokkrar aðferðir við reglulega talningu þegar Finance and Operations er notað á fartæki:
+Það eru nokkrar aðferðir við reglulega talningu þegar Supply Chain Management er notað á fartæki:
 
 -   **Stýrt af notanda** ─ starfsmaðurinn getur tilgreint Vinnukenni reglulegrar talningar sem er í stöðunni **Opið**.
--   **Stýrt af kerfi** ─ Finance and Operations úthlutar starfsmanni auðkenni reglulegrar talningar.
+-   **Stýrt af kerfi** - Supply Chain Management úthlutar starfsmanni auðkenni reglulegrar talningar.
 -   **Flokkun reglulegrar talningar** ─ starfsmaðurinn getur flokkað saman vinnukenni reglulegrar talningar sem tengjast tiltekinni staðsetningu, svæði eða vinnuhóp.
 -   **Regluleg stundartalning** ─ Starfsmaður getur talið vörur á vöruhúsi hvenær sem er án þess að skapa regluleg talningarvinnu. Til að framkvæma reglulega stundartalningu á staðsetningu, færir starfsmaðurinn inn staðsetningarauðkenni.
 

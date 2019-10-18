@@ -3,7 +3,7 @@ title: Viðhaldslotur
 description: Þetta efni útskýrir viðhaldslotur í eignastýringu.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a0ac4820d2efa37387382c2890e3ddc7dbc0878b
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: eca732f245650c8e1f3dc976454536a0ab1ee117
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875711"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922023"
 ---
 # <a name="maintenance-rounds"></a>Viðhaldslotur
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 Í **Eignastjórnun** er hægt er að stofna viðhaldslotur fyrir ýmsar eignir, þar sem þú þarft að framkvæma svipað verk með reglulegu millibili. Til dæmis smurverk eða öryggisskoðunarstörf sem þarf að framkvæma á fjölda véla með sama millibili. Fyrsta skrefið er að búa til viðhaldslotu, einnig á eignum sem krefjast sams konar viðhaldsverka. Næst skipuleggur þú viðhaldsloturnar. Þegar þú hefur lokið áætlun um viðhaldsloturnar geturðu séð allar starfsskrárnar sem tengjast lotunni í **Allar viðhaldsáætlanir** og **Opnar viðhaldsáætlunarlínur**.
 
@@ -83,6 +81,8 @@ ms.locfileid: "1875711"
 >[!NOTE]
 >Reitirnir **Eignir** og **Línur** sem eru staðsettir í hópnum **Upplýsingar** á flýtiflipanum **Haus** sýnir heildarfjölda eigna og lína sem tengjast valinni viðhaldslotu.
 
+Myndin hér að neðan sýnir og dæmi um viðhaldslotu sem inniheldur þrjár eignir.
+
 ![Mynd 1](media/13-preventive-maintenance.png)
 
 
@@ -106,6 +106,8 @@ ms.locfileid: "1875711"
 6. Smellt er á **OK**.
 
 7. Núna geturðu séð viðhaldslotuvinnslurnar í **Eignastjórnun** > **Sameiginlegt** > **Viðhaldsskema** > **Öll viðhaldsskemu** eða **Opna viðhaldsskemalínur**. Ef tímasettar lotur eru tengdar við verkbeiðnisafn sérðu einnig viðhaldsskemalínur í **Opna viðhaldsskemasöfn**. Viðhaldsskemalínur sem eru stofnaðar úr lotum hafa tilvísunargerðina „Viðhaldslotur“.
+
+Myndirnar tvær hér að neðan sýna tímaáætlun í glugganum **Tímasetja viðhaldslotur** og viðhaldsskemalínur búnar til í **Öll viðhaldsskemu** miðað við þá áætlunarvinnslu.
 
 ![Mynd 2](media/14-preventive-maintenance.png)
 

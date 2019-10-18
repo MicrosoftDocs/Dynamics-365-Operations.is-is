@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7adec850cfb473b0bfc9536dcb1ef1cfd74129a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 84b6d3c3caa09b9601701ca4ac1992b151c0b8d4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559001"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249751"
 ---
 [!include[banner](../includes/banner.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "1559001"
 
 Eftir að verkpantanir eru gefnar út á vöruhús getur starfsmaður notað farsímann til að úthluta pöntunum í klasa. Klasa verður að skipuleggja tiltektarvinnu fyrir starfsmann. Vinna pöntun er tengdur við klasa, starfsmaður verður að nota klasa tiltektarlista til að framkvæma vinnu við tiltekt pöntunarinnar. Starfsmaðurinn getur ekki notað annarri tiltektaraðferð. Ef vinnu pöntun er úthlutað á klasa mistök, verður starfsmaðurinn skipta klasanum sem og síðan búðu það aftur.
 
-Ef þörf krefur, getur starfsmaður látið klasa ganga til  annan starfsmann. Þetta breytir stöðunni í klasa Skilað. Þegar starfsmaður notar fartæki til að tilgreina að lokið er við tiltektar- og frágangsvinnu, verður að staðfesta sendinguna eða farminn í Dynamics 365 for Finance and Operations biðlara.
+Ef þörf krefur, getur starfsmaður látið klasa ganga til annan starfsmann. Þetta breytir stöðunni í klasa Skilað. Þegar starfsmaður notar fartæki til að tilgreina að lokið er við tiltektar- og frágangsvinnu, verður að staðfesta sendinguna eða farminn í biðlara.
 
 ## <a name="set-up-cluster-picking"></a>Setja upp klasatiltekt
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16a11c5030f5641abb87830f5221ded5bb7ac038
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a548d3536bbc0056ee22c07c464af062029da81
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560302"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250577"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Leysisstefna fyrir afurðarafbrigði
 
@@ -45,7 +45,7 @@ Hugmyndin um leysisstefnuna samanstendur nú af eftirfarandium lausnarmenn saman
 
 Afrbrigðalíkan afurðar er hægt að móta sem [vandamál uppfylltra skilyrða (CSP)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf). Microsoft Solver Foundation (MSF) býður upp á tvær tegundir af leysisstefnum til að leysa CSP sem hægt er að nota úr afbrigðalíkönum afurðar. Þessar leysisstefnur reiða sig á [leiðsagnarreglur](https://techterms.com/definition/heuristic) sem eru notaðar til að ákvarða röðina sem breytur CSP eru taldar vera á meðan verið er að leysa úr vandamálinu. Leiðsagnarreglur geta haft veruleg áhrif á afköst á meðan verið er að leysa úr vandamálinu eða flokki vandamála.
 
-Í Finance and Operations ákvarðar leysisstefna fyrir afbrigðalíkan afurðar hvaða sem skilgreinir hvaða lausn er notuð með leiðsagnarreglum. Aðferðirnar **Sjálfgefið**, **Lágmarkslén fyrst** og **Ofan og niður** nota tvær lausnir fyrir MSF, á meðan **Z3** aðferðin notar Z3 lausn. 
+Leysisstefnan fyrir afbrigðalíkan afurðar ákvarðar hvaða sem skilgreinir hvaða lausn er notuð með leiðsagnarreglum. Aðferðirnar **Sjálfgefið**, **Lágmarkslén fyrst** og **Ofan og niður** nota tvær lausnir fyrir MSF, á meðan **Z3** aðferðin notar Z3 lausn. 
 
 Framkvæmdarrannsóknir á raunverulegum viðskiptavini hafa sýnt að breyting á leysisstefnunni fyrir afbrigðalíkan afurðar getur dregið úr svartíma frá mínútum til millisekúndna. Þess vegna er það þess virði að reyna að mismunandi leysisstefnur til að finna skilvirkustu stefnuna fyrir afbrigðalíkan afurðar.
 

@@ -1,6 +1,6 @@
 ---
-title: Samstilla afurðir með birgðaeiningu úr Finance and Operations við Field Service
-description: Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla vörur við birgðaeiningar úr Microsoft Dynamics 365 for Finance and Operations við Microsoft Dynamics 365 for Field Service.
+title: Samstilla afurðir með birgðaeiningu úr Supply Chain Management við Field Service
+description: Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla vörur við birgðaeiningar úr Dynamics 365 Supply Chain Management við Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 03/13/2019
@@ -19,38 +19,38 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 78e8d8fa609b015cf2fceaf498279fe091325dbb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8b65e9640106c5d351270074e39c121e70917228
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835695"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251225"
 ---
-# <a name="synchronize-products-with-inventory-unit-from-finance-and-operations-to-field-service"></a>Samstilla afurðir með birgðaeiningu úr Finance and Operations við Field Service
+# <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a>Samstilla afurðir með birgðaeiningu úr Supply Chain Management við Field Service
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla vörur við birgðaeiningar úr Microsoft Dynamics 365 for Finance and Operations við Microsoft Dynamics 365 for Field Service.
+Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla vörur við birgðaeiningar úr Dynamics 365 Supply Chain Management við Dynamics 365 Field Service.
 
-[![Samstilling viðskiptaferla milli Finance and Operations og Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)
+[![Samstilling viðskiptaferla milli Supply Chain Management og Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
-Notaða sniðmátið **Afurðir Field Service með birgðaeiningu (Fin and Ops til Field Service)** byggist á sniðmátinu **Afurðir Field Service (Fin and Ops til Field Service)**. Nánari upplýsingar er að finna í [Afurðir Field Service (Finance and Operations til Field Service)](field-service-product.md).
+Notaða sniðmátið **Afurðir Field Service með birgðaeiningu (Supply Chain Management til Field Service)** byggist á sniðmátinu **Afurðir Field Service (Supply Chain Management til Field Service)**. Nánari upplýsingar er að finna í [Afurðir Field Service (Supply Chain Management til Field Service)](field-service-product.md).
 
 Þetta efnisatriði útskýrir muninn milli sniðmátanna tveggja: 
-- **Afurðir Field Service með birgðaeiningu (Fin and Ops til Sales)**
-- **Afurðir Field Service (Fin and Ops til Field Service)** 
+- **Afurðir Field Service við birgðaeiningu (Supply Chain Management við Sales)**
+- **Vöruþjónustuvörur (Supply Chain Management til Field Service)** 
 
 ## <a name="templates-and-tasks"></a>Sniðmát og verkefni
 
 **Heiti sniðmátsins í Gagnaflutningi:**
 
-- Afurðir Field Service með birgðaeiningu (Fin and Ops til Sales)
+- Afurðir Field Service við birgðaeiningu (Supply Chain Management við Sales)
 
 **Heiti verkefnis í gagnasamþættingarverkinu:**
 
 - Afurðir
 
-Notaða sniðmátið **Afurðir Field Service með birgðaeiningu (Finance and Operations til Field Service)** inniheldur eina vörpun sem er ekki hluti af sniðmátinu **Afurðir Field Service (Fin and Ops til Field Service)**. Þessi vörpun tryggir að nauðsynleg birgðaeining fyrir samstillingu birgðastöðu sé innifalin.
+Sniðmátið **Afurðir Field Service með birgðaeiningu (Supply Chain Management til Field Service)** inniheldur eina vörpun sem er ekki innifalin í sniðmátinu **Afurðir Field Service (Supply Chain Management til Field Service)**. Þessi vörpun tryggir að nauðsynleg birgðaeining fyrir samstillingu birgðastöðu sé innifalin.
 
 ```
 INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryunit.name [Inventory Unit(Name)] 
@@ -60,6 +60,6 @@ INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryuni
 
 Eftirfarandi myndir sýna sniðmátsvörpunina í Gagnasamþættingu.
 
-### <a name="field-service-products-with-inventory-unit-fin-and-ops-to-field-service-products"></a>Afurðir Field Service (Fin and Ops til Field Service): Afurðir
+### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a>Afurðir Field Service með birgðaeiningu (Supply Chain Management til Field Service): Products
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/FSProduct1.png)](./media/FSProduct1.png)

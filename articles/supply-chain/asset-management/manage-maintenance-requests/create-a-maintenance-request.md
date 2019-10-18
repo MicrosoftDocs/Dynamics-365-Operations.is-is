@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 03e090633276cd264ad03f561ddb425a9816357e
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: e97d96a5485f17d0abc7c2fc2f8c4fdf4bbd4bb4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847506"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024638"
 ---
 # <a name="create-maintenance-requests"></a>Stofna viðhaldsbeiðnir
 
@@ -41,7 +41,7 @@ Hlutinn **Virkar viðhaldsbeiðnir** á rúðunni **Tengdar upplýsingar** hægr
 2. Veljið **Nýtt**.
 3. Í svarglugganum **Stofna beiðni** í reitnum **Gerð viðhaldsbeiðni** velurðu gerð viðhaldsbeiðni. Mælt er með sjálfgefinni gerð.
 4. Í reitnum **Lýsing** slærðu inn heiti eða titil sem lýsir viðhaldsbeiðninni stuttlega.
-5. Í reitunum **Virk staðsetning** og **Eignir** velurðu virka staðsetningu eða eign eða sambland af virkri staðsetningu og eign, eftir þörfum. Þú getur stofnað viðhaldsbeiðni án þess að velja eign og hægt er að bæta eigninni við viðhaldsbeiðnina seinna. Ef viðhaldsstarfsmaðurinn sem er skráður inn í Microsoft Dynamics 365 for Finance and Operations tengist auðlind sem er tengd eign er reiturinn **Eignir** er sjálfkrafa stilltur.
+5. Í reitunum **Virk staðsetning** og **Eignir** velurðu virka staðsetningu eða eign eða sambland af virkri staðsetningu og eign, eftir þörfum. Þú getur stofnað viðhaldsbeiðni án þess að velja eign og hægt er að bæta eigninni við viðhaldsbeiðnina seinna. Ef viðhaldsstarfsmaðurinn sem er skráður inn í tengist auðlind sem er tengd eign er reiturinn **Eignir** er sjálfkrafa stilltur.
 
     Ef viðhaldsbeiðni er þegar fest við valda eign birtist skilaboðastika efst í valmyndinni **Stofna beiðni** til að láta þig vita um auðkenni núverandi viðhaldsbeiðni. Skilaboðastika tilkynnir þér einnig ef eignin fellur undir ábyrgðarsamning.
 

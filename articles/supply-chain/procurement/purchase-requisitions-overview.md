@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f279474d4a1e2f76e810b0df80c8d91171352c17
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0e571f5c83affa56c230e1f597e219eb60973225
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572026"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248880"
 ---
 # <a name="purchase-requisition-overview"></a>Yfirlit yfir „Innkaupabeiðni“
 
@@ -38,7 +38,7 @@ Eftir að innkaupabeiðni hefur verið samþykkt er hægt að nota hana til að 
 ## <a name="creating-purchase-requisitions"></a>Stofna innkaupabeiðnir
 Hægt er að stofna innkaupabeiðni á síðunni **Mínar innkaupabeiðnir** og velja vörur og þjónustu sem þarf. Hægt er að velja atriði úr innkaupavörulista sem fyrirtækið hefur búið til, eða þú getur beðið um atriði sem ekki finnast í vörulista með því að velja innkaupategund og slá inn upplýsingar um vöruna.  
 
-Áður en hægt er að senda innkaupabeiðni í endurskoðun verður að stilla verkflæði í Microsoft Dynamics 365 for Finance and Operations. Verkflæði er notað til að flytja innkaupabeiðni gegnum endurskoðunarferli, úr á fyrstu stöðu **Drög** í endanlegu stöðuna **Samþykkt**.
+Áður en hægt er að senda innkaupabeiðni í endurskoðun verður að stilla verkflæði. Verkflæði er notað til að flytja innkaupabeiðni gegnum endurskoðunarferli, úr á fyrstu stöðu **Drög** í endanlegu stöðuna **Samþykkt**.
 
 ### <a name="purchase-requisition-statuses"></a>Stöður innkaupabeiðna
 
@@ -141,7 +141,7 @@ Tilgangur beiðni gera ferli uppfyllingar á innkaupabeiðni sveigjanlegri. Þeg
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Beiðnir sem hafa notkunartilgang
 
-Innkaupabeiðni sem hefur tilgang notkunar stendur fyrir eftirspurn eftir vörur eða þjónustu sem á að nota innan kerfis af fyrirtækinu. Eftirspurnar sem er stofnuð af þessari gerð innkaupabeiðni uppfylltar alltaf með innkaupapöntun. Ef Microsoft Dynamics 365 for Finance and Operations er sjálfvirkt sett upp til að stofna innkaupapantanir, eru innkaupapantanir stofnaðar eftir að innkaupabeiðnin er samþykkt.
+Innkaupabeiðni sem hefur tilgang notkunar stendur fyrir eftirspurn eftir vörur eða þjónustu sem á að nota innan kerfis af fyrirtækinu. Eftirspurnar sem er stofnuð af þessari gerð innkaupabeiðni uppfylltar alltaf með innkaupapöntun. Ef Supply Chain Management er sjálfvirkt sett upp til að stofna innkaupapantanir, eru innkaupapantanir stofnaðar eftir að innkaupabeiðnin er samþykkt.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Beiðnir sem hafa málefnið áfyllingu
 

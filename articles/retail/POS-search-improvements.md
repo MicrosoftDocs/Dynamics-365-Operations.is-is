@@ -1,6 +1,6 @@
 ---
 title: Leit að vöru og leit að viðskiptavinum í sölustað (POS)
-description: Þetta efnisatriði gefur yfirlit yfir úrbætur sem hafa verið gerðar á vöru og viðskiptahugbúnaði í Microsoft Dynamics 365 for Retail.
+description: Þetta efnisatriði gefur yfirlit yfir úrbætur sem hafa verið gerðar á vöru og viðskiptahugbúnaði í Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 06/10/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: b2f1d522a60721c746d03e477615265f9a8ba9a0
-ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
+ms.openlocfilehash: 60db9e9936f7728d76f5c7a0d0c31b33477c7c61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625643"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023684"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Leit að vöru og leit að viðskiptavinum í sölustað (POS)
 
@@ -99,7 +99,10 @@ Hefðbundna viðskiptaleitin getur verið tímafrek vegna þess að hún leitar 
 
 ![Flýtileiðir viðskiptavinaleitar](./media/SearchShortcutsPOS.png "Flýtileiðir viðskiptavinaleitar")
 
-Til að stilla leitarskilyrði sem flýtileiðir verður stjórnandinn að opna síðuna **Smásölufæribreytur** í Microsoft Dynamics 365 for Finance and Operations og síðan í flipanum **POS leitarskilyrði** eru öll skilyrði valin sem eiga að birtast sem flýtileiðir.
+
+
+Til að stilla leitarskilyrði sem flýtileiðir verður stjórnandinn að opna síðuna **Smásölufæribreytur** í Microsoft Dynamics 365 Retail og síðan í flipanum **POS leitarskilyrði** eru öll skilyrði valin sem eiga að birtast sem flýtileiðir.
+
 
 ![Stilla leitarflýtileiðir](./media/ConfigureShortcutsAX.png "Stilla leitarflýtileiðir")
 
@@ -111,6 +114,6 @@ Reiturinn **Birta röð** ákvarðar röðina sem flýtileiðir eru sýndar í P
 > [!NOTE]
 > Sérsniðnum eiginleika sem er bætt við fasttextann hefur ekki áhrif á staðlað reiknirit viðskiptavinaleitar. Með öðrum orðum mun reiknirit viðskiptavinaleitar ekki leita í sérsniðnum eiginleikum. Notendur geta aðeins notað sérsniðna eiginleika fyrir leitir ef þessum sérsniðna eiginleika er bætt við sem flýtileið eða ef sjálfgefnu reikniriti leitar er hnekkt.
 
-Í komandi útgáfu af Microsoft Dynamics 365 for Retail munu smásalar geta stillt sjálfgefnar leitarstillingar viðskiptavina leitarmöguleika í POS á **Leita í öllum verslunum**. Þessar skilgreiningar geta verið gagnlegar í aðstæðum þar sem leita verður strax í viðskiptavinum sem voru stofnaðir utan POS (til dæmis, jafnvel áður en dreifingarvinnslan er keyrð). Ný valkostur **Sjálfgefnar leitarstillingar viðskiptavina** verður í boði í POS-virkniprófílnum. Stilltu hann á **Á** til að stilla sjálfgefnar leitarstillingar á **Leita í öllum verslunum**. Sérhver tilraun til viðskiptavinaleitar mun síðan gera rauntímakall í höfuðstöðvarnar.
+Í komandi útgáfu af Retail munu smásalar geta stillt sjálfgefnar leitarstillingar viðskiptavina leitarmöguleika í POS á **Leita í öllum verslunum**. Þessar skilgreiningar geta verið gagnlegar í aðstæðum þar sem leita verður strax í viðskiptavinum sem voru stofnaðir utan POS (til dæmis, jafnvel áður en dreifingarvinnslan er keyrð). Ný valkostur **Sjálfgefnar leitarstillingar viðskiptavina** verður í boði í POS-virkniprófílnum. Stilltu hann á **Á** til að stilla sjálfgefnar leitarstillingar á **Leita í öllum verslunum**. Sérhver tilraun til viðskiptavinaleitar mun síðan gera rauntímakall í höfuðstöðvarnar.
 
 Til að koma í veg fyrir óvænt afkastavandamál eru þessar stillingar faldar á bak við tilraunaútgáfuflagg sem heitir **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Þess vegna, til að sýna stillinguna **Sjálfgefnar leitarstillingar viðskiptavina** í notandaviðmótinu (UI) ætti smásalinn að stofna stuðningsmiða fyrir samþykkisprófun notanda (UAT) og framleiðsluumhverfi. Þegar miðinn hefur verið móttekinn munu tæknimennirnir vinna með söluaðila til að ganga úr skugga um að smásalinn framkvæmi prófanir í umhverfi utan framleiðslu til að meta árangur og framkvæma allar fínstillingar sem krafist er.

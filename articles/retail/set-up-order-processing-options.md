@@ -1,6 +1,6 @@
 ---
 title: Setja upp símaversrásir
-description: Þetta efnisatriði veitir upplýsingar um hvernig á að vinna úr pöntunum fyrir símaver með því að nota Microsoft Dynamics 365 for Retail.
+description: Þetta efnisatriði veitir upplýsingar um hvernig á að vinna úr pöntunum fyrir símaver með því að nota Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/16/2018
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0bfbb763b8ded2a0ce90b66eb686379b1dc92a6d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 36491e4d2e63819ce637afb69744089d820c69b0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549360"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024822"
 ---
 # <a name="set-up-call-center-channels"></a>Setja upp símaversrásir
 
 [!include [banner](includes/banner.md)]
 
-Fyrirtæki getur skilgreint margar rásir símavers í Microsoft Dynamics 365 for Retail. Rásir símavers eru stilltar í **Retail** \> **Rásir** \> **Símaver** \> **Öll símaver** og þau eru sérstæk fyrir lögaðila.
+Fyrirtæki getur skilgreint margar rásir símavers í Dynamics 365 Retail. Rásir símavers eru stilltar í **Retail** \> **Rásir** \> **Símaver** \> **Öll símaver** og þau eru sérstæk fyrir lögaðila.
 
 Þegar ný rás símavers er búin til er henni kerfisbundið úthlutað rekstrareiningarnúmeri. Vegna þess að símaver eru búin til sem rekstrareiningar geta notendur tengt rásir símavers við ýmsar Retail eiginleika, t.d. vöruúrval, vörulista og tiltekna sendingarmáta.
 
@@ -76,6 +76,8 @@ Ef kveikt er á stillingunni **Virkja beina sölu** fyrir rás símaver geta not
 
 Sjálfgefið er að kveikt sé á flaggi **Smásölu** á sölupöntunarhaus fyrir allar pantanir sem notandi símavers býr til. Pantanir geta síðan notfært sér eiginleika sértækra smásöluverða og kynningartilboða kerfisins.
 
-Notendur sem eru ekki tengdir við rás símavers nota staðlaða eiginleika pöntunarfærslu í Microsoft Dynamics 365 for Finance and Operations. Pantanir sem þessir notendur færa inn í gegnum skjámynd sölupöntunarfærslu verða ekki kerfisbundið auðkenndar sem Retail pantanir. Þar að auki munu pantanirnar sem þessir notendur hafa fært inn ekki heyra undir neinar úrvinnslureglur pöntunarloka, smásöluverðlagningu eða aðrar villuprófanir á pöntun sem hægt er að skilgreina í grunnstillingum símaversrásar eða kerfisfæribreytum símavers.
+
+Notendur sem eru ekki tengdir við rás símavers nota staðlaða eiginleika pöntunarfærslu í Microsoft Dynamics 365 Finance. Pantanir sem þessir notendur færa inn í gegnum skjámynd sölupöntunarfærslu verða ekki kerfisbundið auðkenndar sem Retail pantanir. Þar að auki munu pantanirnar sem þessir notendur hafa fært inn ekki heyra undir neinar úrvinnslureglur pöntunarloka, smásöluverðlagningu eða aðrar villuprófanir á pöntun sem hægt er að skilgreina í grunnstillingum símaversrásar eða kerfisfæribreytum símavers.
+
 
 Þegar stillingu á rás símavers og skilgreiningu á rásarnotendum er lokið, til að hjálpa að tryggja æskilega kerfishegðun, skal ganga úr skugga um að allar nauðsynlegar færibreytur símavers séu skilgreindar í **Retail** \> **Uppsetning rásar** \> **Uppsetning símavers** \> **Færibreytur símavers**. Tryggja skal að tengdar númeraraðir séu einnig skilgreindar.

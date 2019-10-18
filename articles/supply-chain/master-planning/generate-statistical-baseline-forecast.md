@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4bc5a38519efb6f4d242daca9aab5226c16e4ea0
-ms.sourcegitcommit: 3be8d2be6474264f0a530a052d19ea2635e269cf
+ms.openlocfilehash: 5ce8c1e7a3a4533516d8f2e2b0af46633e4c7667
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1729876"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250738"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Myndun tölfræðilegrar grunnlínuspár
 
@@ -47,7 +47,7 @@ Fjöldi spáramma sem á að reikna út spána fyrir er stilltur á svæðinu **
 
 Til að hindra°misskilning í áætlunum um framleiðslu er hægt að frysta ákveðinn fjölda spáramma. Þetta númer er stillt á **Frysta tímamörk** svæði. Á síðunni **Leiðrétt eftirspurnarspá** eru reitirnir fyrir frysta aldursgreiningarramma óvirkir, til veita sjónræn vísbendingu um að ekki ætti að breyta þessum gildum. 
 
-Upphafsdagsetning grunnlínu eftirspurnarspár þarf ekki að vera núgildandi dagsetning eða dagsetning í framtíðinni. Til að setja inn aðra upphafsdagsetningu, notið svæðið **Upphafsdagsetning grunnlínuspár - Upphafsdagsetning**. Til dæmis í. Júní, geta notendur útbúið spá næsta árs. Þar sem spáramma milli lok söguleg eftirspurn og upphafsdagsetning í grunnlíkanasafnið vantar, getur verið að spárnar séu ekki nákvæmar. Ef verið er að nota Microsoft Dynamics 365 for Finance and Operations Eftirspurnarspár þjónustu, eru°fjórir möguleikar á því að fylla út það sem vantar inn. Hægt er að velja þá aðferð sem óskað er eftir með því að stilla MISSING\_VALUE\_SUBSTITUTION færibreytuna á síðunni **Færibreytur eftirspurnarspár**. 
+Upphafsdagsetning grunnlínu eftirspurnarspár þarf ekki að vera núgildandi dagsetning eða dagsetning í framtíðinni. Til að setja inn aðra upphafsdagsetningu, notið svæðið **Upphafsdagsetning grunnlínuspár - Upphafsdagsetning**. Til dæmis í. Júní, geta notendur útbúið spá næsta árs. Þar sem spáramma milli lok söguleg eftirspurn og upphafsdagsetning í grunnlíkanasafnið vantar, getur verið að spárnar séu ekki nákvæmar. Ef verið er að nota þjónustuna Eftirspurnarspár, eru fjórir möguleikar á því að fylla út það sem vantar inn. Hægt er að velja þá aðferð sem óskað er eftir með því að stilla MISSING\_VALUE\_SUBSTITUTION færibreytuna á síðunni **Færibreytur eftirspurnarspár**. 
 
 > [!NOTE]
 > Gildisskipti vantar virkar aðeins fyrir eyður í gögnum á milli upphafs- og lokadagsetninga sögulegra gagna. Það mun ekki fylla út gögn fyrir eða eftir síðasta efnislegagagnapunkt, það virkar aðeins sem framreikningur á milli núverandi raungagnapunkta. 
@@ -56,7 +56,7 @@ Reiturinn **Upphafsdagsetning grunnlínuspár** - **Frá dagsetningu** verður a
 
 Svæðið **Upphafsdagsetning grunnlínuspár** - **Frá dagsetningu** getur verið stillt á dagsetningu sem er liðin. Með öðrum orðum, er hægt að mynda eftirspurnarspár í fortíðinni. Þetta er gagnlegt þar sem hún gerir notendum kleift að stilla færibreytur þjónustuspár svo tölfræðileg spá mynduð í fortíðinni samsvari raunverulegri söguleg eftirspurn. Notendur geta haldið svo áfram að nota þessar stillingar færibreyta til að mynda tölfræðilega grunnlínuspá fram í tímann. 
 
-Handvirkar leiðréttingar sem gerðar voru í fyrri ítrekunum eftirspurnarspár er hægt að nota sjálfvirkt á nýju grunnlínuspána ef gátlistinn **Flytja handvirkar leiðréttingar til eftirspurnarsp**á er valinn. Handvirkar leiðréttingar er ekki bætt við grunnlínuspá ef gátreiturinn er hreinsaður, - en þeim er ekki eytt. Handvirkar leiðréttingar í spá er aðeins hægt að eyða við innflutning spárinnar, með því að hreinsa gátreitinn **Vista handvirkar leiðréttingar á grunnlínu eftirspurnarspár**. Handvirkar leiðréttingar eru vistaðar á heimildartíma. Þess vegna glatast breytingarnar ef notandi gerir handvirkar leiðréttingar á spá, en heimilar ekki spá aftur í Finance and Operations. Nánari upplýsingar um handvirkar leiðréttingar og hvernig þær virka, sjá [Að heimila leiðréttu spána](authorize-adjusted-forecast.md). 
+Handvirkar leiðréttingar sem gerðar voru í fyrri ítrekunum eftirspurnarspár er hægt að nota sjálfvirkt á nýju grunnlínuspána ef gátlistinn **Flytja handvirkar leiðréttingar til eftirspurnarsp**á er valinn. Handvirkar leiðréttingar er ekki bætt við grunnlínuspá ef gátreiturinn er hreinsaður, - en þeim er ekki eytt. Handvirkar leiðréttingar í spá er aðeins hægt að eyða við innflutning spárinnar, með því að hreinsa gátreitinn **Vista handvirkar leiðréttingar á grunnlínu eftirspurnarspár**. Handvirkar leiðréttingar eru vistaðar á heimildartíma. Þess vegna glatast breytingarnar ef notandi gerir handvirkar leiðréttingar á spá, en heimilar ekki spá aftur í Supply Chain Management. Nánari upplýsingar um handvirkar leiðréttingar og hvernig þær virka, sjá [Að heimila leiðréttu spána](authorize-adjusted-forecast.md). 
 
 Myndun eftirspurnarspár getur haft nafn og athugasemdir til að aðstoða notendur að greina spá sem hefur verið mynduð. Þessi gildi eru sýnileg í spámyndunarsögu á síðunni **Myndun tölfræðilegrar grunnlínuspár, saga**. 
 

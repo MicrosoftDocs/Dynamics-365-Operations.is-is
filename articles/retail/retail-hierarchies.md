@@ -1,6 +1,6 @@
 ---
 title: Smásölustigveldi
-description: Þessi grein lýsir smásölustigveldi í Microsoft Dynamics 365 for Retail.
+description: Þessi grein lýsir smásölustigveldi í Dynamics 365 Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 198c8da336f3e225c5d6da2eb02c86581dc9b4d6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cb383c5bc5ad5d641db6f30e915ea43ba5980005
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568023"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025078"
 ---
 # <a name="retail-hierarchies"></a>Smásölustigveldi
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein lýsir smásölustigveldi í Microsoft Dynamics 365 for Retail.
+Þessi grein lýsir smásölustigveldi í Dynamics 365 Retail.
 
 Hægt er að stofna smásöluflokkastigveldi til að skipuleggja afurðirnar sem seldar eru í gegnum smásölurásir. Hægt er að nota smásölustigveldi afurðar til að flokka eða flokka afurðir. Síðan er hægt að nota þessar afurðir til að stofna afurðaúrval og vildarkerfi viðskiptavina. Einnig er hægt úthluta afurðareigindum og eiginleikum, úthluta uppbyggingu verðlagningar, taka með afurðir í kynningartilboð afurða og nota afurðir fyrir skýrslugerð. Hægt er að stofna eitt tegundastigveldi til að tákna allar afurðir og tegundir í fyrirtækjasamstæðunni, og nota síðan tegundastigveldi fyrir margan tilgang. Einnig er hægt að stofna mörg tegundastigveldi í sérstökum tilgangi, t. d. til kynningar á afurð. Þegar stofnað er stigveldi smásöluafurða verður að úthluta tegundastigveldisgerð til að auðkenna tilgang tegundastigveldisins. Til dæmis er aðeins vísað í afurðastigveldi sem er úthlutað á **Yfirlitsstigveldi smásölu** þegar flett er í afurðum eftir tegund á netinu eða á sölustað (POS).
 

@@ -1,6 +1,6 @@
 ---
-title: Deildu efni með öðrum þátttakendum í Dynamics 365 for Talent - Onboard
-description: Þetta efni útskýrir hvernig á að deila þjálfunarleiðbeiningum og sniðmátum með öðrum þátttakendum í forritinu Microsoft Dynamics 365 for Talent - Onboard.
+title: Deildu efni með öðrum þátttakendum í Dynamics 365 Talent - Onboard
+description: Þetta efni útskýrir hvernig á að deila þjálfunarleiðbeiningum og sniðmátum með öðrum þátttakendum í forritinu Microsoft Dynamics 365 Talent - Onboard.
 author: andreabichsel
 manager: ''
 ms.date: 05/20/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8524f9ec502bed829522ab90c7c7976c2814a1b6
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: d07879ff31127788ebfee5bc8b42442a26987651
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731508"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010753"
 ---
-# <a name="share-content-with-other-contributors-in-dynamics-365-for-talent-onboard"></a>Deildu efni með öðrum þátttakendum í Dynamics 365 for Talent: Onboard
+# <a name="share-content-with-other-contributors"></a>Deildu efni með öðrum þátttakendum
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Onboard gerir þér kleift að deila þjálfunarleiðbeiningum og sniðmátum með öðrum þátttakendum svo þeir geti skoðað skjölin og gert breytingar.
+Microsoft Dynamics 365 Talent: Onboard gerir þér kleift að deila þjálfunarleiðbeiningum og sniðmátum með öðrum þátttakendum svo þeir geti skoðað skjölin og gert breytingar.
 
 ## <a name="share-an-onboarding-guide-with-other-contributors"></a>Deildu þjálfunarleiðbeiningum með öðrum þátttakendum
 

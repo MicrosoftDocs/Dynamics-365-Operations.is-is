@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 00ea121385d74b3f8992d34fb485a8232325ea3f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2e57a410c0c7a73d8ab9e14254fe107d5e5c10db
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835743"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251622"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Fartækjavinnusvæði sölupantana
 
@@ -31,7 +31,7 @@ ms.locfileid: "1835743"
 
 Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Sölupantanir**. Þetta vinnusvæði hjálpar þér að hafa yfirsýn yfir sölupantanir þínar hvar og hvenær sem er. 
 
-Þetta fartækjavinnusvæði er ætlað til að nota með Microsoft Dynamics 365 fyrir farsímaforritið Unified Operations Mobile.
+Þetta fartækjavinnusvæði er ætlað til að nota með farsímaforritið Finance and Operations.
 
 ## <a name="overview"></a>Yfirlit
 Í **sölupantanir** farsímaforrit vinnusvæði gerir það mögulegt að skoða nákvæmar upplýsingar um hverja sölupöntun. Þessar upplýsingar innihalda einnig stöðu pöntunar, upplýsingar fyrir viðskiptavininn og samskiptaupplýsingar fyrir þann sem pantar. Farsímavinnusvæðið **Sölupantanir** veitir fljótlegt yfirlit sölupantana. Hægt er að skoða allar sölupantanir, sölupantanir eftir viðskiptavini, eða skoða upplýsingar um tiltekna sölupöntun. 
@@ -83,8 +83,8 @@ Farsímavinnusvæði veitir tvö yfirlit til aðstoðar við að greina sölupan
 ## <a name="prerequisites"></a>Forkröfur
 Skilyrðin eru breytileg, byggt á útgáfu Microsoft Dynamics 365 sem hefur verið sett upp fyrir fyrirtækið þitt.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Skilyrði ef þú notar Microsoft Dynamics 365 for Finance and Operations 
-Ef Dynamics 365 for Finance and Operations hefur verið innleitt í fyrirtækinu verður kerfisstjóri að birta fartækjavinnusvæðið **Sölupantanir**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Forkröfur ef þú notar Supply Chain Management 
+Ef Supply Chain Management hefur verið innleitt í fyrirtækinu verður kerfisstjóri að birta fartækjavinnusvæðið **Sölupantanir**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Skilyrði ef þú notar Dynamics 365 for Operations útgáfu 1611 með verkvangsuppfærslu 3 eða síðar
 Ef Dynamics 365 for Operations útgáfa 1611 með verkvangsuppfærslu 3 eða síðar hefur verið sett upp fyrir fyrirtækið þitt, verður kerfisstjórinn að ljúka eftirfarandi skilyrðum. 
@@ -120,7 +120,7 @@ Ef Dynamics 365 for Operations útgáfa 1611 með verkvangsuppfærslu 3 eða sí
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Sæktu og settu upp fartækjaforritið
-Sæktu og settu upp fartækjaforritið Dynamics 365 for Unified Operations:
+Sæktu og settu upp fyrir Finance and Operations farsímaforritið:
 
 -   [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Fyrir iPhone síma](https://go.microsoft.com/fwlink/?linkid=850663)

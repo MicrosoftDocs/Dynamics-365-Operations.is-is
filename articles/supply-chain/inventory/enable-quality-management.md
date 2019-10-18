@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir gæðastjórnun
-description: Þessi grein lýsir því hvernig hægt er að nota gæðastjórnun í Microsoft Dynamics 365 for Finance and Operations til að bæta gæði afurða innan aðfangakeðju þinnar.
+description: Þessi grein lýsir því hvernig hægt er að nota gæðastjórnun í Dynamics 365 Supply Chain Management til að bæta gæði afurða innan aðfangakeðju þinnar.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
@@ -19,24 +19,24 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1630d13437d7e930fdf32ed5fdc61fc62bc33817
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c9600e165da76948bb53a0188ec0b212a0fed84a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557501"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249582"
 ---
 # <a name="quality-management-overview"></a>Yfirlit yfir gæðastjórnun
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir því hvernig hægt er að nota gæðastjórnun í Microsoft Dynamics 365 for Finance and Operations til að bæta gæði afurða innan aðfangakeðju þinnar.
+Þessi grein lýsir því hvernig hægt er að nota gæðastjórnun í Dynamics 365 Supply Chain Management til að bæta gæði afurða innan aðfangakeðju þinnar.
 
-Gæðastjórnun getur hjálpað við að stjórna biðtíma þegar ósamkvæmar afurðir eru meðhöndlaðar, óháð uppruna þeirra. Þar sem greiningargerðir eru tengdar leiðréttingaskýrslum getur Microsoft Dynamics 365 for Finance and Operations raðað verk til að leiðrétta vandamál og komið í veg fyrir þau verði endurtekin.
+Gæðastjórnun getur hjálpað við að stjórna biðtíma þegar ósamkvæmar afurðir eru meðhöndlaðar, óháð uppruna þeirra. Þar sem greiningargerðir eru tengdar leiðréttingaskýrslum getur Finance and Operations raðað verki til að leiðrétta vandamál og komið í veg fyrir þau verði endurtekin.
 
 Auk virkni fyrir stjórnun ósamkvæmni inniheldur gæðastjórnun virkni til að rekja úthreyfingar eftir gerð vanda (jafnvel innri vandamál) og til að auðkenna lausnir sem skammtíma- eða langtímalausnir. Upplýsingar um afkastavísi (KPI) veita innsýn í sögulegan feril fyrri vandamála með ósamkvæmi og þeirra lausna sem voru notuð til að leiðrétta þau. Hægt er að nota söguleg gögn til að fara yfir skilvirkni fyrri gæðaráðstafana og ákvarða viðeigandi mælieiningar sem nota á í framtíðinni.
 
-Þegar gæðatenging er sett upp getur Finance and Operations myndað gæðapantanir fyrir ýmis viðskiptaferli, tilvik og skilyrði. Gæðatengingin getur náð yfir ákveðna vöru, einstökan vöruflokk eða allar vörur.
+Þegar gæðatenging er sett upp getur Supply Chain Management myndað gæðapantanir fyrir ýmis viðskiptaferli, tilvik og skilyrði. Gæðatengingin getur náð yfir ákveðna vöru, einstökan vöruflokk eða allar vörur.
 
 ## <a name="examples-of-the-use-of-quality-management"></a>Dæmi um notkun á gæðastjórnun
 Gæðastjórnun er sveigjanleg og hægt er að innleiða hana á mismunandi vegu til að uppfylla kröfur um tiltekið stig í aðgerðum framboðskeðju. Eftirfarandi dæmi sýna hugsanlega notkun á þessum eiginleikum:

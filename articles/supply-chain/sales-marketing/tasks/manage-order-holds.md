@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 00ce4a31c0b0f466911658c79f6e32788273c127
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: a7168d13ef0b24d06aa28fbbc22bbb4e6093df24
+ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834003"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "1994911"
 ---
 # <a name="manage-order-holds"></a>Stjórna pöntunum í bið
 
@@ -33,45 +33,40 @@ Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.
 
 
 ## <a name="set-up-order-holds"></a>Setja upp biðstöðu pöntunar
-1. Fara í Sala og markaðssetning > Uppsetning > Sölupantanir > Biðkóðar pantana.
-2. Smellið á „Nýtt“.
-3. Í svæði Biðkóði skal færa inn gildi.
-    * Til dæmis, skrifið Hringja aftur.  
-4. Sláið inn gildi í reitnum „Lýsing“.
-    * Til dæmis, Pöntun haldið í bið eftir símtal frá viðskiptavinur.  
-    * Annars er hægt að velja gátreitur Fjarlægja frátekningu til að fjarlægja allar efnislegur frátekning úr pöntun þegar biðkóði er bætti við.  
-5. Smellið á „Vista“.
+1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Sala og markaðssetning > Uppsetning > Sölupantanir > Biðkóðar pantana**.
+2. Smellt er á **Nýtt**.
+3. Í reitinn **Biðkóði** skal færa inn gildi. Til dæmis, skrifið Kalla aftur.  
+4. Í reitinn **Lýsing** skal slá inn gildi.
+    - Til dæmis, Pöntun haldið í bið eftir símtal frá viðskiptavinur.  
+    - Annars er hægt að velja gátreitinn **Fjarlægja frátekningu** til að fjarlægja allar efnislegur frátekning úr pöntun þegar biðkóði er bætti við.  
+5. Smellt er á **Vista**.
 
 ## <a name="place-order-on-hold"></a>Setja pöntun í bið
-1. Fara í Sölu og markaðssetningu > sölupöntun > Allar sölupantanir
-2. Smellið á „Nýtt“.
-3. Færa inn eða veljið gildi í svæðinu Reikningur viðskiptavinar.
-4. Smellt er á Í lagi.
-5. Í reitinn Vörunúmer skal slá inn eða veldu gildi.
-6. Færið inn númer í reitnum „Magn“.
-7. Smellið á „Sölupöntun“ á aðgerðarúðunni.
-8. Smellt er á Biðstöður pantana.
-9. Smellið á „Nýtt“.
-10. Í svæði Biðkóði skal velja kóða sem stofnaður í fyrra undirverk.
-11. Smellið á „Vista“.
+1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Sala og markaðssetning > Sölupantanir > Allar sölupantanir**.
+2. Smellt er á **Nýtt**.
+3. Í reitnum **Viðskiptavinalykill** skal færa inn eða velja gildi.
+4. Smellt er á **OK**.
+5. Í reitinn **Vörunúmer** skal slá inn eða velja gildi.
+6. Í reitnum **Magn** slærðu inn tölu.
+7. Á **Aðgerðasvæðinu** skal smellt á **Sölupöntun**.
+8. Smellt er á **Biðstöður pantana**.
+9. Smellt er á **Nýtt**.
+10. Í svæði **Biðkóði** skal velja kóða sem stofnaður í fyrra undirverk.
+11. Smellt er á **Vista**.
 12. Lokið síðunni.
-13. Fara í Sölu og markaðssetningu > sölupöntun > Allar sölupantanir
-14. Í listanum skal merkja valda línu.
-    * Pantanir sem núna í bið eru með merkt svæði „Ekki keyra“ og „Í biðstöðu“.    
-15. Smellið á „Tiltekt og pökkun“ á aðgerðarúðunni.
+13. Farðu í **Sölu og markaðssetningu > sölupöntun > Allar sölupantanir**.
+14. Í listanum skal merkja valda línu. Pantanir sem núna í bið eru með merkt svæði „Ekki keyra“ og „Í biðstöðu“.
+15. Á aðgerðasvæðinu er smellt á **Taka til og pakka**.
 
 ## <a name="manage-order-holds"></a>Stjórna pöntunum í bið
-1. Fara í Sala og markaðssetning > Sölupöntun > Opnar pantanir > Pantanir í bið.
-    * Síðan Pantanir í bið virkar sem vinnubekkur þar sem fá yfirlit yfir allar núgildandi og unnar biðstöður, vinna með þær og tengdar sölupantanir.      
+1. Farðu í **Sala og markaðssetning > Sölupöntun > Opnar pantanir > Pantanir í bið**. Síðan **Pantanir í bið** virkar sem vinnubekkur þar sem fá yfirlit yfir allar núgildandi og unnar biðstöður, vinna með þær og tengdar sölupantanir.     
 2. Í listanum skal merkja valda línu.
-3. Á aðgerðarúða skal smella á Setja greiðsluferli í bið.
-4. Smella skal á Greiðsluferli.
-5. Í listanum skal afmerkja valda línu.
-    * Svæði Greiðsluferli í birtir núna notandakenni þitt.   
-6. Smella á Hreinsa greiðsluferli.
-7. Í að smella á Hreinsa biðstöðu.
-    * Þegar þú tilbúið að fjarlægja í bið og leyfa pöntun halda áfram í næsta útskráningarskref verður að hreinsa í bið. Ef ekki þarf að breyta pöntun má keyra aðgerð Hreinsa bið. Þegar bið er hreinsa er hægt að nota aðgerð Hreinsa og breyta ef uppfæra þarf pöntun.      
-    * Aðgerðin Hreinsa og senda á aðeins við þegar aðgerðin Símaver er notað.  
-8. Smella á Hreinsa biðstöðu.
-    * Biðstaða hefur verið fjarlægja af pöntun og fjarlægt af lista yfir virkar biðstöður. Til að sjá allar biðstöður eða hlutmengi þeirra samkvæmt tiltekinni stöðu skal breyta gildi í svæði Sýna.     
+3. Á **aðgerðarúðunni** skal smella á **Setja greiðsluferli í bið**.
+4. Smella skal á **Greiðsluferli**.
+5. Í listanum skal afmerkja valda línu. Reiturinn **Greiðsluferli** birtir núna notandakenni þitt.   
+6. Smelltu á **Hreinsa greiðsluferli**.
+7. Í **aðgerðaglugganum** smellirðu á **Hreinsa biðstöðu**.
+    - Þegar þú tilbúið að fjarlægja í bið og leyfa pöntun halda áfram í næsta útskráningarskref verður að hreinsa í bið. Ef ekki þarf að breyta pöntun má keyra aðgerð Hreinsa bið. Þegar bið er hreinsa er hægt að nota aðgerð Hreinsa og breyta ef uppfæra þarf pöntun.      
+    - Aðgerðin **Hreinsa og senda** á aðeins við þegar aðgerðin Símaver er notað.  
+8. Smelltu á **Hreinsa biðstöðu**. Biðstaða hefur verið fjarlægja af pöntun og fjarlægt af lista yfir virkar biðstöður. Til að sjá allar biðstöður eða hlutmengi þeirra samkvæmt tiltekinni stöðu skal breyta gildi í svæði Sýna.     
 

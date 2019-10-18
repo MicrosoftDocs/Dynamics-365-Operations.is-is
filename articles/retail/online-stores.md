@@ -1,6 +1,6 @@
 ---
 title: Setja upp netverslanir
-description: Þessi grein gefur upplýsingar um netverslanir í smásölu og hvernig setja skal þær upp í Microsoft Dynamics 365 for Retail.
+description: Þessi grein gefur upplýsingar um netverslanir í smásölu og hvernig setja skal þær upp í Dynamics 365 Retail.
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2b736b5e5ce5b5b384181a73c72bbb89b072a284
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 02402269a6976ff856e703cc8e94fbf0758ea771
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543607"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017967"
 ---
 # <a name="set-up-online-stores"></a>Setja upp netverslanir
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein gefur upplýsingar um netverslanir í smásölu og hvernig setja skal þær upp í Microsoft Dynamics 365 for Retail.
+Þessi grein gefur upplýsingar um netverslanir í smásölu og hvernig setja skal þær upp í Dynamics 365 Retail.
 
-Dynamics 365 for Retail styður margar smásölurásir. Meðal þessara smásölurásir eru netverslanir, símaver, og smásöluverslanir (einnig kallað hefðbundnar verslanir). Netverslun gefur smásölum viðveru á netinu svo að viðskipavinir þeirra geti keypt afurðir úr netverslun þeirra til viðbótar við smásöluverslanir þeirra. Ef Viðskiptamenn kaupa afurðir úr netverslun geta þeir fengið þær sendar til sín eða sótt þær í staðbundna verslun. Stofna netverslun í Dynamics 365 for Retail  biðlara. Þessi netverslun er síðan birt til netverslunar þriðja aðila sem er samþætt við Dynamics 365 for Retail. Netverslun þriðja aðila gegnir hlutverki búðarglugga (UI) fyrir netverslunina og veitt val um stjórnkerfi viðskiptavinar (CMS) og UI getu. Nokkrar samþættingar af þessari gerð eru tiltækar fyrir Dynamics 365 for Retail. Eiginleikar sem eru tilgreindar fyrir netverslunina stýrir atferli netverslunarinnar. Til dæmis skilgreina tegundastigveldi yfirlitsflokks í Dynamics 365 for Retail og úthluta því á netverslun. Þegar netverslun er birt fyrir netverslun þriðja aðila, er tegundastigveldi yfirlitsflokks birt í netútgáfu verslunarinnar. Kaupendur nota síðan tegundastigveldi yfirlitsflokks til að fletta upp netverslunina og til að leita að afurðum. Til að stofna netverslun, verður að setja upp íhluti sem á að leyfa færslur sem vinna á fyrir verslunina. Til dæmis, þarf að bæta úrvali, nota eigindir og setja upp greiðsluhætti og sendingarmáta. Einnig er hægt að tilgreina verð, kynningartilboð, afslætti, viðskiptasamninga og sendingu greiðsluskilmála sem eiga við netverslun. Eftir að netverslunin hefur verið birt á netverslun þriðja aðila er hægt að stofna smásöluvörulista fyrir netverslunina. Afurðir í vörulistanum verða afurðaskráningar í netversluninni. Þegar sá sem verslar kaupir afurðir úr netverslun, eru tiltækar birgðir uppfærð og samstillt í á biðlaranum. Einnig eru sölupantanir myndaðar fyrir innkaup og send til biðlara fyrir pöntunarupplýsingum og vinnslu.
+Retail styður margar smásölurásir. Meðal þessara smásölurásir eru netverslanir, símaver, og smásöluverslanir (einnig kallað hefðbundnar verslanir). Netverslun gefur smásölum viðveru á netinu svo að viðskipavinir þeirra geti keypt afurðir úr netverslun þeirra til viðbótar við smásöluverslanir þeirra. Ef Viðskiptamenn kaupa afurðir úr netverslun geta þeir fengið þær sendar til sín eða sótt þær í staðbundna verslun. Stofna netverslun í Retail-biðlara. Þessi netverslun er síðan birt til netverslunar þriðja aðila sem er samþætt við Retail. Netverslun þriðja aðila gegnir hlutverki búðarglugga (UI) fyrir netverslunina og veitt val um stjórnkerfi viðskiptavinar (CMS) og UI getu. Nokkrar samþættingar af þessari gerð eru tiltækar. Eiginleikar sem eru tilgreindar fyrir netverslunina stýrir atferli netverslunarinnar. Til dæmis skilgreina tegundastigveldi yfirlitsflokks í Retail og úthluta því á netverslun. Þegar netverslun er birt fyrir netverslun þriðja aðila, er tegundastigveldi yfirlitsflokks birt í netútgáfu verslunarinnar. Kaupendur nota síðan tegundastigveldi yfirlitsflokks til að fletta upp netverslunina og til að leita að afurðum. Til að stofna netverslun, verður að setja upp íhluti sem á að leyfa færslur sem vinna á fyrir verslunina. Til dæmis, þarf að bæta úrvali, nota eigindir og setja upp greiðsluhætti og sendingarmáta. Einnig er hægt að tilgreina verð, kynningartilboð, afslætti, viðskiptasamninga og sendingu greiðsluskilmála sem eiga við netverslun. Eftir að netverslunin hefur verið birt á netverslun þriðja aðila er hægt að stofna smásöluvörulista fyrir netverslunina. Afurðir í vörulistanum verða afurðaskráningar í netversluninni. Þegar sá sem verslar kaupir afurðir úr netverslun, eru tiltækar birgðir uppfærð og samstillt í á biðlaranum. Einnig eru sölupantanir myndaðar fyrir innkaup og send til biðlara fyrir pöntunarupplýsingum og vinnslu.
 
 ## <a name="set-up-an-online-store"></a>Uppsetning netverslunar
 

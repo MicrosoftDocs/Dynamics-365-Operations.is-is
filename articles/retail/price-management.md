@@ -1,6 +1,6 @@
 ---
 title: Stjórnun smásöluverðs
-description: Þetta efnisatriði lýsir hugmyndum um stofnun og stjórnun á söluverðum í Microsoft Dynamics 365 for Retail.
+description: Þetta efnisatriði lýsir hugmyndum um stofnun og stjórnun á söluverðum í Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 06/10/2019
@@ -17,18 +17,18 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 813547f522f5c69920eadf9df61e7f01b13ecd36
-ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
+ms.openlocfilehash: 081fadf0c120eba50af9e6c396fb3e492051bb3c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624790"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025219"
 ---
 # <a name="retail-sales-price-management"></a>Retail-verðstjórnun
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um ferlið við stofnun og stjórnun á söluverðum í Microsoft Dynamics 365 for Retail. Það leggur áherslu á hugmyndunum sem eru hluti af þessu ferli og áhrifin hinna ýmsu stillingamöguleika fyrir söluverð.
+Þetta efnisatriði veitir upplýsingar um ferlið við stofnun og stjórnun á söluverðum í Dynamics 365 Retail. Það leggur áherslu á hugmyndunum sem eru hluti af þessu ferli og áhrifin hinna ýmsu stillingamöguleika fyrir söluverð.
 
 ## <a name="terminology"></a>Orðalisti
 

@@ -1,6 +1,6 @@
 ---
-title: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (31. október 2018)
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent Core HR.
+title: Nýjungar eða breytingar í Dynamics 365 Talent - Core HR (31. október 2018)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/31/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d6942f8e4dc86f18a081b347df0567b1358a87ab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2ad9be740d917a760815718a1473d7bcba97968
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518300"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025933"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-31-2018"></a>Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (31. október 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-october-31-2018"></a>Nýjungar eða breytingar í Dynamics 365 Talent: Core HR (31. október 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -33,15 +33,15 @@ ms.locfileid: "1518300"
 
 Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Core HR.
 
-## <a name="create-links-from-talent-to-finance-and-operations"></a>Búa til tengla frá Talent að Finance and Operations
-Þessi nýja leiðsöguvirkni gerir þér kleift að tengja frá Talent til Finance and Operations, sem gefur þér beina leiðsögn í síður Finance and Operations. Þegar tenglar eru grunnstilltir er hægt að tilgreina heiti og hóp tengilsins, þar sem tengilinn ætti að liggja yfir í Talent og marksíðuna sem á að opnast í Finance and Operations.
+## <a name="create-links-from-talent-to-finance"></a>Búa til tengla frá Talent að Finance
+Þessi nýja leiðsöguvirkni gerir þér kleift að tengja frá Talent til Finance, sem gefur þér beina leiðsögn í síður Finance. Þegar tenglar eru grunnstilltir er hægt að tilgreina heiti og hóp tengilsins, þar sem tengilinn ætti að liggja yfir í Talent og marksíðuna sem á að opnast í Finance.
 
 #### <a name="coming-soon"></a>Væntanlegt
-Svæðasamhengi verður bætt við í framtíðinni til að leyfa beina leiðsögn í samsvarandi skrár í Finance and Operations. Til dæmis getur þú notað **Tengja svæði** til að veita samhengi til að fara beint á tiltekins starfsmanns eða stöðu í Finance and Operations.
+Svæðasamhengi verður bætt við í framtíðinni til að leyfa beina leiðsögn í samsvarandi skrár í Finance. Til dæmis getur þú notað **Tengja við reit** til að veita samhengi til að fara beint á tiltekins starfsmanns eða stöðu í Finance.
 
 ### <a name="configure-target-systems"></a>Grunnstilla markkerfi
 
-Í Talent geta kerfisstjórar skilgreint tengla sem birtast á vinnusvæði kerfisstjórnunar. Hluti af grunnstillingunni er Finance and Operations umhverfið sem þú vilt fara til sem „mark“ tengilsins. Þú gerir þetta með því að gefa markkerfinu nafn og gefa vefslóðina á umhverfi Finance and Operations. Hér er dæmi um vefslóð Finance and Operations sem þú myndir veita: https://devax00124aos.cloud.test.dynamics.com/. Eftir að þú hefur stillt markkerfi þín, getur þú skilgreint tenglana þína.
+Í Talent geta kerfisstjórar skilgreint tengla sem birtast á vinnusvæði kerfisstjórnunar. Hluti af grunnstillingunni er Finance umhverfið sem þú vilt fara til sem „mark“ tengilsins. Þú gerir þetta með því að gefa markkerfinu nafn og gefa vefslóðina á umhverfi Finance. Hér er dæmi um vefslóð Finance sem þú myndir veita: https://devax00124aos.cloud.test.dynamics.com/. Eftir að þú hefur stillt markkerfi þín, getur þú skilgreint tenglana þína.
 
 ### <a name="configure-links"></a>Samskipa tengla
 
@@ -51,27 +51,27 @@ Hver tengill sem er búin til mun hafa eftirfarandi upplýsingar skilgreind.
 
 - Virkja þennan tengil - Stilltu á **Já** ef þú vilt birta tengilinn til notenda Talent.
 
-- Sýna nafn - Skilgreina nafnið sem mun birtast sem tengill við Finance and Operations. Þessi gögn eru ekki þýdd eins og stendur.
+- Sýna nafn - Skilgreina nafnið sem mun birtast sem tengill við Finance. Þessi gögn eru ekki þýdd eins og stendur.
 
 - Birta tengil á skjámynd - Veldu hvaða síðu þú vilt birta tengilinn á.
 
 - Hópur - Hópa er ekki krafist, en ef þú vilt skipuleggja tengla þína með hópum skaltu velja núverandi hóp eða búa til nýjan með því að nota **Hópur** reitinn.
 
-- Markkerfi - Veldu markkerfi sem var búið til með því að nota **Stilla markkkerfi** valkost. Þetta verður umhverfi Finance and Operations sem verður notað þegar vafrað er með því að nota tengilinn.
+- Markkerfi - Veldu markkerfi sem var búið til með því að nota **Stilla markkkerfi** valkost. Þetta verður umhverfi Finance sem verður notað þegar vafrað er með því að nota tengilinn.
 
-- Notaðu núverandi fyrirtæki notanda - Veldu **Já** ef þú vilt nota samhengi núverandi fyrirtækis notandans þegar þú vafrar í Finance and Operations. Ef **Nei** er valið geturðu valið fyrirtækið sem á að nota.
+- Notaðu núverandi fyrirtæki notanda - Veldu **Já** ef þú vilt nota samhengi núverandi fyrirtækis notandans þegar þú vafrar í Finance. Ef **Nei** er valið geturðu valið fyrirtækið sem á að nota.
 
-- Markvalmyndaratriði - Sláðu inn valmyndaratriðið úr Finance and Operations sem tengilinn ætti að nota þegar þú vafrar. Valmyndaratriði sem þú getur farið beint á til eru tiltæk. Til að finna valmyndaratriðið sem þarf, opnaðu Finance and Operations og opnaðu síðuna sem er mark leiðsagnarinnar. Afritaðu valmyndaratriðið úr vefslóðinni. Til dæmis, ef þú vilt að tengilinn fari með þig á starfsmannalistann í Finance and Operations skaltu slá inn gildið sem birtist eftir "& mi" í vefslóðinni. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. Valmyndaratriðið til að vafra um listasíðu starfsmannsins í þessu dæmi er: HcmWorkerListPage_Employees.
+- Markvalmyndaratriði - Sláðu inn valmyndaratriðið úr Finance sem tengilinn ætti að nota þegar þú vafrar. Valmyndaratriði sem þú getur farið beint á til eru tiltæk. Til að finna valmyndaratriðið sem þarf, opnaðu Finance og opnaðu síðuna sem er mark leiðsagnarinnar. Afritaðu valmyndaratriðið úr vefslóðinni. Til dæmis, ef þú vilt að tengilinn fari með þig á starfsmannalistann í Finance and Operations skaltu slá inn gildið sem birtist eftir "&mi" í vefslóðinni. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. Valmyndaratriðið til að vafra um listasíðu starfsmannsins í þessu dæmi er: HcmWorkerListPage_Employees.
 
 - Tengill við gagnaveitu - Veldu veitu gagnanna sem tengilinn vísar til. Algengustu veitur eins og **Starfskraftur** og **Staða** eru tiltækar.
 
-- Tengill í svæði - (væntanlegt á næstunni) Val á þessu svæði leyfir að fara beint frá einni færslu Talent í staka færslu í Finance and Operations.
+- Tengill í svæði - (væntanlegt á næstunni) Val á þessu svæði leyfir að fara beint frá einni færslu Talent í staka færslu í Finance.
 
 ### <a name="access-to-links"></a>Aðgangur að tenglum
 
 Kerfisstjórar munu sjá nýstofnaða tengla á skilgreindum síðum, jafnvel þótt **Virkja þennan tengil** valkost sé stillt á **Nei**. Þetta er hægt að nota til að prófa tengla áður en þau eru flutt til annarra starfsmanna. Öll önnur hlutverk sjá eingöngu grunnstillta tengla eftir að **Virkja þennan tengil** valkostur er stilltur á **Já**. Starfsmenn sem hafa aðgang að síðum þar sem tenglarnir birtast munu hafa aðgang að tenglum.
 
-Notendur geta einnig haft öryggisréttindi innan Finance and Operations sem eru skilgreindar til að fá aðgang að síðum Finance and Operations. Ef það gerist ekki birtist öryggissvargluggi þegar tengilinn er notaður.
+Notendur geta einnig haft öryggisréttindi innan Finance sem eru skilgreindar til að fá aðgang að síðum Finance and Operations. Ef það gerist ekki birtist öryggissvargluggi þegar tengilinn er notaður.
 
 
 ## <a name="other-changesfixes"></a>Aðrar breytingar/lagfæringar

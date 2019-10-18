@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0bcc5989edd9913fce414c0c24068f111d8c1aeb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 27870fe6172479b891b885d9e84ca10b250e3399
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553632"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019509"
 ---
-# <a name="manage-retail-product-categories-and-products"></a>Stjórna flokkum smásöluafurða og afurða
+# <a name="manage-retail-product-categories-and-products"></a>Stjórna Retail-afurðaflokkum og afurðum
 
 [!include [banner](./includes/banner.md)]
 
-Þetta efnisatriði lýsir betri leið til að stjórna tegundum smásöluafurða og afurða í Microsoft Dynamics 365 for Retail. Viðbæturnar gera vörustjórum kleift að skoða byggingu á eiginleikum afurðar sem er deilt milli stigveldis smásöluafurðar og upplýsinga um losaðar afurðir.
+Þetta efnisatriði lýsir betri leið til að stjórna afurðaflokkum og afurðum í Dynamics 365 Retail. Viðbæturnar gera vörustjórum kleift að skoða byggingu á eiginleikum afurðar sem er deilt milli stigveldis afurðar og upplýsinga um losaðar afurðir.
 
-Til að læra meira um stjórnun á flokkum smásöluafurða í vinnusvæðinu **Flokka- og afurðastjórnun** skal velja reitinn **Stigveldi smásöluafurðar**.
+Til að læra meira um stjórnun á flokkum afurða í vinnusvæðinu **Flokka- og afurðastjórnun** skal velja reitinn **Stigveldi smásöluafurðar**.
 
-Takið eftir aukinni uppbyggingu á síðunni **Stigveldi smásöluafurðar** sem birtist. Í fyrri útgáfum Retail var eiginleikum afurða skipt niður í *grunneiginleika afurðar* og *eiginleika smásöluafurðar* byggt á notkunareiginleikum þeirra. Eiginleikar smásöluafurðar eru *altækir* í notkunareiginleikum þeirra. Með öðrum orðum, fyrir tiltekinn eiginleika smásöluafurðar er sama gildi deilt með öllum lögaðilum. Hins vegar eru grunneiginleikar afurðar *sértækir fyrir hvern lögaðila*. Með öðrum orðum, fyrir tiltekinn grunneiginleika afurðar getur gildið verið mismunandi milli lögaðila, fer allt eftir einstökum viðskiptakröfum hvers lögaðila.
+Takið eftir aukinni uppbyggingu á síðunni **Stigveldi smásöluafurðar** sem birtist. Í fyrri útgáfum Retail var eiginleikum afurða skipt niður í *grunneiginleika afurðar* og *eiginleika smásöluafurðar* byggt á notkunareiginleikum þeirra. Eiginleikar smásöluafurðar eru *altækir* í notkunareiginleikum þeirra. M.ö.o., fyrir hvern eiginleika afurðar er sama gildi deilt með öllum lögaðilum. Hins vegar eru grunneiginleikar afurðar *sértækir fyrir hvern lögaðila*. Með öðrum orðum, fyrir tiltekinn grunneiginleika afurðar getur gildið verið mismunandi milli lögaðila, fer allt eftir einstökum viðskiptakröfum hvers lögaðila.
 
-Með aukinni byggingu á flokkum smásöluafurðar eru eiginleikar afurða röklega greindir í sundur eftir notkunareiginleikum þeirra innan hóps til að endurspegla byggingu skjámyndar fyrir upplýsingar um losaðar afurðir.
+Með aukinni byggingu á flokkum afurðar eru eiginleikar afurða röklega greindir í sundur eftir notkunareiginleikum þeirra innan hóps til að endurspegla byggingu skjámyndar fyrir upplýsingar um losaðar afurðir.
 
 ![Svæði flokkuð á grundvelli notkunareiginleika](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 

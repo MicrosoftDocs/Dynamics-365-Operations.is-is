@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 5c54e5fccd7ddc5f8f024e692bb46f4140134578
-ms.sourcegitcommit: 282f05635a7b933fe9bdda7a8187f322ed5ede17
+ms.openlocfilehash: a9a26450be97f655df8bc5983e4718341d40a2d6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755398"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009901"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Skilgreina og stjórna fríðindaáætlun
 
@@ -51,7 +51,7 @@ Fyrir hverja fríðindagerð, eins og sjón eða tannlæknaþjónusta, getur fyr
 [![fríðindamynd](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Hæfni
-Mörgum þáttum ákvarða hæfni starfsmanns fyrir mismunandi gerðir af fríðindum sem vinnuveitandi býður uppá. Þegar fríðindi eru stofnuð í Microsoft Talent er hægt að stilla hæfnigerð sem á við um fríðindin. 
+Mörgum þáttum ákvarða hæfni starfsmanns fyrir mismunandi gerðir af fríðindum sem vinnuveitandi býður uppá. Þegar fríðindi eru stofnuð í Dynamics 365 Talent er hægt að stilla hæfnigerð sem á við um fríðindin. 
 
 Hægt er að gera fríðindi tiltæk til allra starfsmanna. Til dæmis bjóða sum fyrirtækjum bílastæðapassa fyrir alla starfsmenn sem er hliðarfríðindi. Þegar þú stofna þessi fríðindi, stillirðu hæfniskilyrði á **allt starfsfólk eru uppfyllir hæfniskilyrði**. 
 
