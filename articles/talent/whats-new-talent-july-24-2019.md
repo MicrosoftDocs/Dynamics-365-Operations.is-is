@@ -1,6 +1,6 @@
 ---
-title: Nýjungar eða breytingar í Dynamics 365 for Talent (23. júlí 2019)
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent.
+title: Nýjungar eða breytingar í Dynamics 365 Talent (23. júlí 2019)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/23/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d631a2a2be4809352c31f2a8c47ea49823233b30
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 428e862b84a17f0d50edf034b4cc836e5ae7710d
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856402"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010269"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-23-2019"></a>Nýjungar eða breytingar í Dynamics 365 for Talent (23. júlí 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-23-2019"></a>Nýjungar eða breytingar í Dynamics 365 Talent (23. júlí 2019)
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 for Talent.
+Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Breytingar í Attract
 
@@ -75,6 +75,6 @@ Ný valkostur mun gera stjórnendum kleift að skoða árangur af bæði beinum 
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Svæðisstuðningur fyrir Kanada og Suðaustur-Asíu
 
-Okkur er ánægja að tilkynna að svæðin Kanada og Suðaustur-Asíu verða tiltæk fyrir Microsoft Dynamics 365 for Talent þann 1. ágúst 2019. Með þessari breytingu geturðu búið til umhverfi á kanadískum og asískum svæðum og öllum gögnum í Talent verður einungis viðhaldið innan þessara staða. Þú getur búið til umhverfi á þessum nýju svæðum með því að velja staðsetningu í glugganum Nýtt umhverfi og nota það umhverfi til að útvega Talent í LCS eins og lýst er hér [Úthluta Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Okkur er ánægja að tilkynna að svæðin Kanada og Suðaustur-Asíu verða tiltæk fyrir Talent þann 1. ágúst 2019. Með þessari breytingu geturðu búið til umhverfi á kanadískum og asískum svæðum og öllum gögnum í Talent verður einungis viðhaldið innan þessara staða. Þú getur búið til umhverfi á þessum nýju svæðum með því að velja staðsetningu í glugganum Nýtt umhverfi og nota það umhverfi til að útvega Talent í LCS eins og lýst er hér [Úthluta Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
 
 Gagnaflutningur fyrirliggjandi verkefna af öðrum svæðum til svæða Kanada og Asíu er ekki studdur. Aðeins er hægt að úthluta nýjum verkum til þessara nýstuddu svæða.

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c256569135a00ea98a5c059b9dd12a07a000ee6a
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 8f4658696a2e6c2959b87aa852c25c108b9ba302
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606942"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024845"
 ---
 # <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Setja upp og stjórna myndum fyrir Retail Modern POS (MPOS)
 
@@ -34,19 +34,19 @@ ms.locfileid: "1606942"
 
 ## <a name="setting-up-the-media-base-url-and-defining-media-templates-to-configure-the-format-for-image-urls"></a>Setja upp Grunnvefslóð miðla og skilgreina miðlasniðmát til að skilgreina snið fyrir Vefslóðir mynda
 
-Myndir sem birtast í Retail Modern POS (MPOS) verður að vera hýst í ytra kerfi, utan Microsoft Dynamics 365 for Retail. Yfirleitt, eru þær hýst í efnisstýringarkerfi, efnisafhendingarneti (CDN) eða miðlaþjóni. MPOS sækir síðan og birtir myndir fyrir viðeigandi aðila, eins og afurðir og vörulista, með því að opna markvefslóðina. Til að ná í þessar myndir hýstar ytra, krefst MPOS rétt snið Vefslóðar fyrir myndirnar. Hægt er að skilgreina áskilið snið Vefslóðar fyrir myndirnar með því að setja upp gildi fyrir **grunnvefslóð Miðla** í rásarforstillingin og nota **Skilgreina sniðmát miðla** aðgerðir fyrir hverja einingu. Einnig er hægt að skrifa yfir staðlaða snið Vefslóðar fyrir hlutmengi einingar með því að nota  **Breyta í Excel** virkni.
+Myndir sem birtast í Retail Modern POS (MPOS) verður að vera hýst í ytra kerfi, utan Retail. Yfirleitt, eru þær hýst í efnisstýringarkerfi, efnisafhendingarneti (CDN) eða miðlaþjóni. MPOS sækir síðan og birtir myndir fyrir viðeigandi aðila, eins og afurðir og vörulista, með því að opna markvefslóðina. Til að ná í þessar myndir hýstar ytra, krefst MPOS rétt snið Vefslóðar fyrir myndirnar. Hægt er að skilgreina áskilið snið Vefslóðar fyrir myndirnar með því að setja upp gildi fyrir **grunnvefslóð Miðla** í rásarforstillingin og nota **Skilgreina sniðmát miðla** aðgerðir fyrir hverja einingu. Einnig er hægt að skrifa yfir staðlaða snið Vefslóðar fyrir hlutmengi einingar með því að nota **Breyta í Excel** virkni.
 
 > [!IMPORTANT]
-> Í núgildandi útgáfu af Dynamics 365 for Retail er ekki lengur hægt að setja upp snið fyrir vefslóð með því að nota XML eigindina **Mynd** fyrir MPOS í eigindaflokknum **Sjálfgefið** fyrir einingar. Ef þú þekkir Microsoft Dynamics AX 2012 R3 og er nú að nota gildandi útgáfu af Dynamics 365 for Retail gangið úr skugga að nota alltaf nýja **Skilgreina sniðmát miðla** aðgerðir til að setja upp myndir. Ekki nota eða breyta **Mynd** eiginda í á **Sjálfgefin** eigindaflokkur fyrir neinar einingar, þar á meðal afurðir. Breytingar sem gerðar beint í í **Sjálfgefin** eigindaflokkur fyrir myndir munu ekki endurspeglast. Þessi valkostur verður gerð óvirk í framtíðarútgáfu.
+> Í núgildandi útgáfu af Retail er ekki lengur hægt að setja upp snið fyrir vefslóð með því að nota XML eigindina **Mynd** fyrir MPOS í eigindaflokknum **Sjálfgefið** fyrir einingar. Ef þú þekkir Microsoft Dynamics AX 2012 R3 og er nú að nota gildandi útgáfu af Dynamics 365 Retail gangið úr skugga að nota alltaf nýja **Skilgreina sniðmát miðla** aðgerðir til að setja upp myndir. Ekki nota eða breyta **Mynd** eiginda í á **Sjálfgefin** eigindaflokkur fyrir neinar einingar, þar á meðal afurðir. Breytingar sem gerðar beint í í **Sjálfgefin** eigindaflokkur fyrir myndir munu ekki endurspeglast. Þessi valkostur verður gerð óvirk í framtíðarútgáfu.
 
 Í eftirfarandi ferli eru myndir settar upp fyrir eininguna Vörulisti sem dæmi. Þessar aðgerðir hjálpar tryggja að rétt slóð fyrir ákvörðunarstað myndar er stillt skilyrðislaust fyrir allar myndir vörulista sem nota sameiginlega slóð. Til dæmis, ef búið er að setja upp miðlaþjón eða CDN ytra, og myndir eiga að birtast í MPOS fyrir tiltekið verslun, hjálpar **Skilgreina sniðmát miðla** virkni til við að stilla slóðina þar sem MPOS getur fletta upp og sækja myndirnar.
 
 > [!NOTE]
-> Fyrir þessi sýnigögn er miðlaþjónninn virkjaður á Retail-Þjóni. Hins vegar er hægt að hafa það hvar sem er utan Dynamics 365 for Retail.
+> Fyrir þessi sýnigögn er miðlaþjónninn virkjaður á Retail-Þjóni. Hins vegar er hægt að hafa það hvar sem er utan Dynamics 365 Retail.
 
 ### <a name="set-up-the-media-base-url-for-a-channel"></a>Setja upp Grunnvefslóð miðla fyrir rás
 
-1. Opna Dynamics 365 for Retail gátt höfuðstöðvar.
+1. Opna Retail-gátt höfuðstöðvar.
 2. Smellið á **Smásala** &gt; **Rásaruppsetning** &gt; **Forstillingar rásar**.
 
     [![Yfirlit](./media/channel-profile1.png)](./media/channel-profile1.png)
@@ -62,7 +62,7 @@ Myndir sem birtast í Retail Modern POS (MPOS) verður að vera hýst í ytra ke
 3. Á við **slóð Miðils** flýtiflipa, færið inn eftirstandandi slóð staðsetningar myndar. Slóð miðils styður **LanguageID** sem breytu. Fyrir sýnigögn er til dæmis hægt að stofna **Vörulista** möppu fyrir allar vörulistamyndir undir grunnvefslóð miðils fyrir miðlaþjón (`https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer`). Hægt er að hafa möppu fyrir hvert tungumál eins og is-IS eða fr-FR og afrita viðeigandi myndir í hverri möppu. Ef þú ert ekki með mismunandi myndir fyrir mismunandi tungumálum, er hægt að sleppa **LanguageID** breytu úr möppuskipulag- og vísa beint í Vörulistamöppuna sem inniheldur myndir vörulista.
 
     > [!NOTE]
-    > Ábending: gildandi útgáfu af Dynamics 365 for Retail styður **{LanguageId}** tákn fyrir einingar Vörulista, Afurðar og Tegundar. (**{LanguageID}** tákn er ekki studd fyrir einingar Viðskiptavinur og Starfsmaður, samkvæmt staðli sem hefur verið virk frá Microsoft Microsoft Dynamics AX 6.x.)
+    > Ábending: gildandi útgáfu af Retail styður táknið **{LanguageId}** fyrir einingar Vörulista, Afurðar og Tegundar. (**{LanguageID}** tákn er ekki studd fyrir einingar Viðskiptavinur og Starfsmaður, samkvæmt staðli sem hefur verið virk frá Microsoft Microsoft Dynamics AX 6.x.)
 
 4. Fyrir Myndir er skrárheitissniðið harðkóðaða í heiti vörulista og ekki er hægt að breyta. Þess vegna skal endurnefna myndir þannig að þeir hafi viðeigandi vörulistanöfn til að aðstoða við að tryggja að MPOS annast þær rétt.
 5. Í **Nafnauka skrár** skal velja áætluð nafnauka skrár, eftir gerð myndir sem þú ert með. Til dæmis, í sýnigögnum, eru myndir í vörulista stillt á nafnauka .jpg. (Myndaskrár eru einnig endurnefnd þannig að þeir hafa nöfn vörulista).
@@ -89,7 +89,7 @@ Myndir sem birtast í Retail Modern POS (MPOS) verður að vera hýst í ytra ke
 
 ## <a name="synchronization-jobs-to-send-a-media-template-to-the-channel-side"></a>Samstillingarvinnslur til að senda sniðmát miðla í hlið rásar
 
-Fyrir allar fimm studdar einingar (Starfsmann, Viðskiptavin, Vörulista, Tegund og Afurðir), ætíð þegar svarglugginn **Skilgreina sniðmát miðla** er uppfærður til að setja upp mynd, gangið þá úr skugga um að vörulistavinnslan (1150) er keyrð úr **Upplýsingatækni smásölu**&gt;**Dreifingaráætlun**. Þessi vinnsla virkjar uppfærða miðla sniðmátið sem á að vera samstillt við rásina og notað af MPOS. Keyra Vörulistavinnslu (1150) eftir að þú gera eitthvað af eftirfarandi breytingum:
+Fyrir allar fimm studdar einingar (Starfsmann, Viðskiptavin, Vörulista, Tegund og Afurðir), ætíð þegar svarglugginn **Skilgreina sniðmát miðla** er uppfærður til að setja upp mynd, gangið þá úr skugga um að vörulistavinnslan (1150) er keyrð úr **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**. Þessi vinnsla virkjar uppfærða miðla sniðmátið sem á að vera samstillt við rásina og notað af MPOS. Keyra Vörulistavinnslu (1150) eftir að þú gera eitthvað af eftirfarandi breytingum:
 
 - Þú uppfærir miðlasniðmát Vörulistamyndar úr **Vörulistamyndir** &gt; **Skilgreina sniðmát miðla**.
 - Þú uppfærir miðlasniðmát starfsmannamyndar úr **Starfsmannamyndir** &gt; **Skilgreina sniðmát miðla**.
@@ -118,7 +118,7 @@ Eins og þú lærðir í fyrri hluta, styður miðlasniðmát fyrir tiltekna ein
     [![Búa til vefslóðir myndar fyrir Excel flýtiflipa eftir að Búa til hefur verið valið](./media/excel2.png)](./media/excel2.png)
 
     > [!NOTE]
-    > Vefslóðir sem eru myndaðar fyrir Excel nota slóð og reglur sniðmáts fyrir miðil sem er skilgreindur. Þessar reglur eru innihalda reglur fyrir skrárheiti. Ætlast er til að þú hafir setja upp efnislegar myndir utan Dynamics 365 for Retail, og myndirnar er hægt að sækja úr Vefslóðir sem eru fengin úr sniðmáti miðla sem eru skilgreindar áður. Hægt er að skrifa yfir þessar afleiddar Vefslóðir með því að nota Breyta í Excel eiginleikann.
+    > Vefslóðir sem eru myndaðar fyrir Excel nota slóð og reglur sniðmáts fyrir miðil sem er skilgreindur. Þessar reglur eru innihalda reglur fyrir skrárheiti. Ætlast er til að þú hafir setja upp efnislegar myndir utan Retail, og myndirnar er hægt að sækja úr Vefslóðir sem eru fengin úr sniðmáti miðla sem eru skilgreindar áður. Hægt er að skrifa yfir þessar afleiddar Vefslóðir með því að nota Breyta í Excel eiginleikann.
 
 5. Smella á **Breyta í Excel**.
 6. Eftir að Microsoft Excel vinnublaðið er opnað, er smellt á **Kveikja á breytingu** þegar um er beðið.
@@ -175,7 +175,7 @@ Til að Skrifa yfir vefslóð myndar fyrir myndir vörulistaafurðarinnar, verð
 
 1. Til að skrifa yfir mynd afurðar á stigi vörulista, veljið vörulista og veljið svo að afurð til að skrifa yfir myndina fyrir.
 2. Smellið á **Eigindir**.
-3. Á næstu síðu, veldu **mynd**, og smelltu svo á  **Breyta**. **Forskoðun** síðan opnast sem sleðasvarglugga.
+3. Á næstu síðu, veldu **mynd**, og smelltu svo á **Breyta**. **Forskoðun** síðan opnast sem sleðasvarglugga.
 4. Smellið á **Bæta við**, og skrifa yfir vefslóð myndar með nýja vefslóð.
 5. Smelltu á **Í lagi**. Þú sérð nú forskoðun á ný mynd og hægt er að stilla hana sem sjálfgefna mynd.
 

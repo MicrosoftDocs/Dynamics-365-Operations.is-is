@@ -17,18 +17,19 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6c813cfea9b570e8dfd5dbe7f3ca1f4ba8594420
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 57f4b58a11606a1193a1124a426c837ddfab9533
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577981"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023705"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Sýna pöntunartilkynningar á sölustað (POS)
 
 [!include [banner](includes/banner.md)]
 
-Í nútíma smásöluumhverfi eru verslunarstarfsmönnum úthlutað ýmsum verkum, svo sem að aðstoða viðskiptavini, færa inn færslur, framkvæma birgðatalningu og taka á móti pöntunum í verslun. Biðlari sölustaðarins (POS) gerir starfsmönnum kleift að framkvæma öll þessi verk og mörg önnur í einu forriti. Þar sem þarf að framkvæma ýmis verk yfir daginn, gætu starfsmenn þurft að fá tilkynningu þegar eitthvað krefst athygli þeirra. Tilkynningaramminn á sölustað leyfir smásölum að stilla hlutverkatengdar tilkynningar. Með Microsoft Dynamics 365 for Retail með forritsuppfærslu 5, geta þessar tilkynningar aðeins verið stilltar fyrir aðgerðir á sölustað.
+Í nútíma smásöluumhverfi eru verslunarstarfsmönnum úthlutað ýmsum verkum, svo sem að aðstoða viðskiptavini, færa inn færslur, framkvæma birgðatalningu og taka á móti pöntunum í verslun. Biðlari sölustaðarins (POS) gerir starfsmönnum kleift að framkvæma öll þessi verk og mörg önnur í einu forriti. Þar sem þarf að framkvæma ýmis verk yfir daginn, gætu starfsmenn þurft að fá tilkynningu þegar eitthvað krefst athygli þeirra. Tilkynningaramminn á sölustað leyfir smásölum að stilla hlutverkatengdar tilkynningar. Með Dynamics 365 for Retail með forritsuppfærslu 5, geta þessar tilkynningar aðeins verið stilltar fyrir aðgerðir á sölustað.
+
 
 Eins og er getur kerfið aðeins sýnt tilkynningar fyrir pöntunaruppfyllingaraðgerðir. En vegna þess að ramminn er hannaður til að vera teygjanlegur munu þróunaraðilar á endanum geta skrifað tilkynningarekil fyrir hvaða aðgerð sem er og birt tilkynningarnar fyrir þessa aðgerð á sölustað.
 
@@ -68,7 +69,8 @@ Eftirfarandi skýringarmynd sýnir stillingar á beinu efni í hnappahniti hönn
 
 ![Stillingar á beinu efni í hnappahniti hönnuðar](./media/ButtonGridDesigner.png "Stillingar á beinu efni í hnappahniti hönnuðar")
 
-Til að sýna talningu tilkynningar á hnappi þarf að tryggja að verið sé að uppfæra rétt skjáútlit. Til að ákvarða skjáútlitið sem sölustaður er að nota skal velja táknið **Stillingar** efst í hægra horninu og taka niður **Auðkenni skjáútlits** og **Upplausn útlits**. Nú með Edge-vafra skal opna síðuna **Skjáútlit** í Dynamics 365 for Finance and Operations, finna **Auðkenni skjáútlits** og **Upplausn útlits** sem er tilgreint efst og velja gátreitinn **Gera lifandi efni virkt**. Farið í **Smásala \> Smásöluupplýsingatækni \> Dreifingaráætlun** og keyrið 1090 (afgreiðslukassar) verk til að samstilla breytingar á útliti.
+Til að sýna talningu tilkynningar á hnappi þarf að tryggja að verið sé að uppfæra rétt skjáútlit. Til að ákvarða skjáútlitið sem sölustaður er að nota skal velja táknið **Stillingar** efst í hægra horninu og taka niður **Auðkenni skjáútlits** og **Upplausn útlits**. Nú skaltu nota Edge-vafra, opna síðuna **Skjáútlit**, finna **Auðkenni skjáútlits** og **Upplausn útlits** sem er tilgreint efst og velja gátreitinn **Gera lifandi efni virkt**. Farið í **Smásala \> Smásöluupplýsingatækni \> Dreifingaráætlun** og keyrið 1090 (afgreiðslukassar) verk til að samstilla breytingar á útliti.
+
 
 ![Finna skjáútlit sem sölustaður notar](./media/Choose_screen_layout.png "Finna skjáútlit ")
 

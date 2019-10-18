@@ -1,6 +1,6 @@
 ---
 title: Fjarlægja Talent-umhverfi
-description: Þetta efnisatriði fer með þig í gegnum ferlið við að fjarlægja prufukeyrslu eða framleiðsluumhverfi fyrir Microsoft Dynamics 365 for Talent.
+description: Þetta efnisatriði fer með þig í gegnum ferlið við að fjarlægja prufukeyrslu eða framleiðsluumhverfi fyrir Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/20/2017
@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 904c8eb1254a65e1627c33f14488a1a8e12f7c2b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d608ee3ad90d23279557e5e9be4d398ffac3a266
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518277"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010616"
 ---
 # <a name="remove-talent-environments"></a>Fjarlægja Talent-umhverfi
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði fer með þig í gegnum ferlið við að fjarlægja prufukeyrslu eða framleiðsluumhverfi fyrir Microsoft Dynamics 365 for Talent.
+Þetta efnisatriði fer með þig í gegnum ferlið við að fjarlægja prufukeyrslu eða framleiðsluumhverfi fyrir Microsoft Dynamics 365 Talent.
 
 ## <a name="removing-a-test-drive-environment"></a>Að fjarlægja prufukeyrsluumhverfi
 
 Talent prufukeyrslum er úthlutað með 60 daga gildistíma. Hins vegar hafa eigendur prufukeyrsluumhverfa kost á því að ljúka prufuútgáfu snemma með því að ljúka eftirfarandi skrefum. 
 
-1. Farðu í [Stjórnendamiðstöð PowerApps](https://admin.businessplatform.microsoft.com/).
+1. Fara í [PowerApps Stjórnendamiðstöð](https://admin.businessplatform.microsoft.com/)
 2. Veldu **Umhverfi**.
 3. Veldu umhverfi prufukeyrslu, sem er með nafngiftarmynstur svipað þessu: Prufukeyrsla - alias@domain
 4. Veldu **Eyða** og staðfestu ákvörðunina. 
@@ -52,7 +52,7 @@ Vegna þess að eitt Talent umhverfi er „innifalið“ í einu PowerApps umhve
 
 Til að fjarlægja allt PowerApps umhverfið, þar á meðal Talent og tengd forrit og Flows:
 
-1. Farðu í [Stjórnendamiðstöð PowerApps](https://admin.businessplatform.microsoft.com/).
+1. Fara í [PowerApps Stjórnendamiðstöð](https://admin.businessplatform.microsoft.com/)
 2. Veldu **Umhverfi**.
 3. Veldu umhverfið sem á að fjarlægja.
 4. Veldu **Eyða** og staðfestu ákvörðunina. 

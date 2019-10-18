@@ -19,18 +19,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 7c722c311048258ce75170ac4276d397fe2828fe
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c642e4f1b29ac21b6736e770c84f343e9265961d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606896"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023637"
 ---
 # <a name="attributes-and-attribute-groups"></a>Eigindir og eigindaflokkar
 
 [!include [banner](includes/banner.md)]
 
-*Eigindir* veita leið til að lýsa afurð og eiginleikum hennar enn frekar í gegnum notandaskilgreind svæði (eins og **Minnisstærð**, **Afkastagetu harða disksins**, **Uppfyllir kröfur Energy star** og svo framvegis). Í Microsoft Dynamics 365 for Finance and Operations er hægt að tengja eigindir við mismunandi smásölueiningar, eins og afurðaflokka og smásölurása, og hægt er að setja sjálfgefin gildi fyrir þær. Afurðir erfa síðan eigindin og sjálfgildin þegar þau tengjast afurðarflokkum eða smásölurásum. Hægt er að hnekkja sjálfgildunum á stigi einstakra afurðar, stigi smásölurásar eða í vörulista smásölu.
+*Eigindir* veita leið til að lýsa afurð og eiginleikum hennar enn frekar í gegnum notandaskilgreind svæði (eins og **Minnisstærð**, **Afkastagetu harða disksins**, **Uppfyllir kröfur Energy star** og svo framvegis). Eigindir má tengja við mismunandi Retail-einingar, eins og afurðaflokka og smásölurása, og hægt er að setja sjálfgefin gildi fyrir þær. Afurðir erfa síðan eigindin og sjálfgildin þegar þau tengjast afurðarflokkum eða smásölurásum. Hægt er að hnekkja sjálfgildunum á stigi einstakra afurðar, stigi smásölurásar eða í vörulista smásölu.
+
 
 Til dæmis gæti dæmigerð sjónvarpsafurð haft eftirfarandi eiginleika.
 
@@ -53,7 +54,7 @@ Til dæmis gæti dæmigerð sjónvarpsafurð haft eftirfarandi eiginleika.
 
 ## <a name="attributes-and-attribute-types"></a>Eigindir og gerðir eiginda
 
-Eigindir eru byggðar á *gerðum eiginda*. gerð eigindar auðkennir gagnategundina sem hægt er að slá inn fyrir tiltekna eigind. Finance and Operations styður eftirfarandi gerðir eiginda:
+Eigindir eru byggðar á *gerðum eiginda*. gerð eigindar auðkennir gagnategundina sem hægt er að slá inn fyrir tiltekna eigind. Eftirfarandi gerðir eiginda eru studdar:
 
 - **Gjaldmiðill** – Þessi gerð styður gildi gjaldmiðils. Hægt er að afmarka hana (þ.e. hún getur studd svið gilda) eða skilja eftir opna.
 - **DateTime** – Þessi gerð styður gildi dagsetningar og tíma. Hægt er að afmarka hana eða skilja eftir opna.
@@ -63,9 +64,9 @@ Eigindir eru byggðar á *gerðum eiginda*. gerð eigindar auðkennir gagnategun
 - **Boole-gildi** – Þessi gerð styður tvíundargildi (**satt** eða **rangt**).
 - **Tilvísun** - Þessi gerð vísar í aðrar eigindir.
 
-### <a name="set-up-attribute-types-in-finance-and-operations"></a>Setja upp gerðir eiginda í Finance and Operations
+### <a name="set-up-attribute-types"></a>Setja upp eigindagerðir
 
-1. Innskráning í biðlara bakvinnslu í Finance and Operations sem vörustjóri smásölu.
+1. Innskráning í biðlara bakvinnslu sem vörustjóri smásölu.
 2. Farið í **Afurðaupplýsingastjórnun** &gt; **Uppsetning** &gt; **Tegundir og eigindir** &gt; **Gerðir eiginda**.
 3. Stofnið tvær gerðir eiginda af gerðinni **Texti**, stillið valkostinn **Fastur listi** á **Já** og bætið síðan við lista af gildum:
 
@@ -74,7 +75,7 @@ Eigindir eru byggðar á *gerðum eiginda*. gerð eigindar auðkennir gagnategun
 
 ![Gerðir eiginda](media/AttributeType.png)
 
-### <a name="set-up-an-attribute-in-finance-and-operations"></a>Uppsetning á eigind í Finance and Operations
+### <a name="set-up-an-attribute"></a>Setja upp eigind
 
 1. Innskráning í biðlara bakvinnslu sem vörustjóri smásölu.
 2. Farið í **Afurðaupplýsingastjórnun** &gt; **Uppsetning** &gt; **Tegundir og eigindir** &gt; **Eigindir**.
@@ -101,13 +102,13 @@ Hér eru eftirstandandi valkostir fyrir lýsigögn eiginda á síðunni **Eigind
 - Hunsa hástafi/lágstafi og snið
 - Altæk samsvörun
 
-Þessum valkostum var upphaflega ætlað að bæta leitarvirknina fyrir netverslunina. Þó að Finance and Operations feli ekki í sér netverslun beint úr kassanum, þá felur það í sér eCommerce Publishing Software Development Kit (SDK). Viðskiptavinir geta notað SDK til að setja afurðir inn í leitaratriðaskrá að eigin vali. Þótt afurðargögnin séu flutt inn ætti viðskiptavinurinn samt að geta greint leitanleg gögn, gögn sem hægt er að spyrjast fyrir um og svo framvegis. Þannig geta þeir byggt upp sem hagkvæmasta atriðaskrá til að tryggja að þeir vísi aðeins í eigindir sem *að þeirra mati* ættu að vera atriðaskráðar.
+Þessum valkostum var upphaflega ætlað að bæta leitarvirknina fyrir netverslunina. Þó að Retail feli ekki í sér netverslun beint úr kassanum, þá felur það í sér eCommerce Publishing Software Development Kit (SDK). Viðskiptavinir geta notað SDK til að setja afurðir inn í leitaratriðaskrá að eigin vali. Þótt afurðargögnin séu flutt inn ætti viðskiptavinurinn samt að geta greint leitanleg gögn, gögn sem hægt er að spyrjast fyrir um og svo framvegis. Þannig geta þeir byggt upp sem hagkvæmasta atriðaskrá til að tryggja að þeir vísi aðeins í eigindir sem *að þeirra mati* ættu að vera atriðaskráðar.
 
 Til að fá upplýsingar um tilgang hinna valkostanna, sjá [Yfirlit yfir leitarskema í SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Síustillingar fyrir eigindir
 
-Síustillingar fyrir eigindir leyfir þér að skilgreina hvernig síurnar fyrir eigindin birtast á smásölustað. Til að fá aðgang að síustillingu eigindar skal á síðunni **Eigindir** í Finance and Operations velja eigindina og síðan í aðgerðarúðunni velja **Síustillingar**.
+Síustillingar fyrir eigindir leyfir þér að skilgreina hvernig síurnar fyrir eigindin birtast á smásölustað. Til að fá aðgang að síustillingu eigindar skal á síðunni **Eigindir** velja eigindina og síðan í aðgerðarúðunni velja **Síustillingar**.
 
 Síðan **Kjörstillingar á síubirtingu** inniheldur eftirfarandi svæði:
 
@@ -233,7 +234,7 @@ Sjálfgildi eiginda er hægt er að hnekkja á afurðastigi fyrir einstakar afur
     - Afurðareigindir rásar
 
     > [!NOTE]
-    > Ef samnýttir afurðamiðlar og samnýttar afurðareigindir eru stofnaðar í Finance and Operations eiga þær við um allar smásöluafurðir.
+    > Ef samnýttir afurðamiðlar og samnýttar afurðareigindir eru stofnaðar eiga þær við um allar smásöluafurðir.
 
 ![Vörulisti yfir eigindaflokka afurðar](media/CatalogProdAttrValues.png)
 
@@ -255,4 +256,4 @@ Sjálfgildi eiginda er hægt er að hnekkja á afurðastigi fyrir einstakar afur
     - Afurðareigindir rásar
 
     > [!NOTE]
-    > Ef samnýttir afurðamiðlar og samnýttar afurðareigindir eru stofnaðar í Finance and Operations eiga þær við um allar smásöluafurðir.
+    > Ef samnýttir afurðamiðlar og samnýttar afurðareigindir eru stofnaðar eiga þær við um allar smásöluafurðir.

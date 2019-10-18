@@ -1,6 +1,6 @@
 ---
 title: Notandi finnst ekki í tengiliðavali í Attract eða Onboard
-description: Þetta efnisatriði útskýrir hvað skuli gera þegar notendur í leigjanda fyrirtækis birtast ekki í tengiliðavali í Dynamics 365 for Talent Attract eða Onboard forritum.
+description: Þetta efnisatriði útskýrir hvað skuli gera þegar notendur í leigjanda fyrirtækis birtast ekki í tengiliðavali í Dynamics 365 Talent - Attract eða Onboard.
 author: andreabichsel
 manager: AnnBe
 ms.date: 01/22/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a9c2324321baf0a313b8b7aa9701909336b5c34b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 2a3c83fcc3f48aa235ffb2db2dc492b34a306c4c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742750"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024192"
 ---
 # <a name="azure-active-directory-users-not-found-in-people-picker"></a>Azure Active Directory-notendur fundust ekki í tengiliðavali
 
@@ -30,11 +30,11 @@ ms.locfileid: "1742750"
 
 ## <a name="issue"></a>Úthreyfing
 
-Vissir gildir notendur í Microsoft Azure Active Directory (Azure AD) fyrir leigjandann birtast ekki þegar leitað er að nafninu í tengiliðavalinu í Dynamics 365 for Talent Attract eða Onboard forritunum.
+Vissir gildir notendur í Microsoft Azure Active Directory (Azure AD) fyrir leigjandann birtast ekki þegar leitað er að nafninu í tengiliðavalinu í Dynamics 365 Talent: Attract eða Dynamics 365 Talent: Onboard.
 
 ## <a name="cause"></a>Orsök
 
-Ákveðnar gerðir notenda eru ekki studdar sem stendur í forritum Attract og Onboard. Staðfestu að notandinn sé ekki Azure AD Business to Business (B2B) gestanotandi. Upplýsingar um „gerð notanda“ er hægt að finna í Azure Active Directory blaðinu í Azure-gáttinni.
+Ákveðnar gerðir notenda eru ekki studdar sem stendur í Attract og Onboard. Staðfestu að notandinn sé ekki Azure AD Business to Business (B2B) gestanotandi. Upplýsingar um „gerð notanda“ er hægt að finna í Azure Active Directory blaðinu í Azure-gáttinni.
 
 Nánari upplýsingar um Azure B2B er að finna í [Hvað er gestaaðgangur notanda í Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b).
 

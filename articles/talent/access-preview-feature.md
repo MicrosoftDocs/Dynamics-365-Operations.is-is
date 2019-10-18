@@ -1,6 +1,6 @@
 ---
-title: Fá aðgang að forskoðunareiginleikum í Microsoft Dynamics 365 for Talent
-description: Þetta efnisatriði lýsir því hvernig stjórnandi getur virkjað forskoðunareiginleika í Microsoft Dynamics 365 for Talent og listar þá eiginleika sem eru nú þegar virkjaðir fyrir forskoðun.
+title: Fá aðgang að forskoðunareiginleikum í Microsoft Dynamics 365 Talent
+description: Þetta efnisatriði lýsir því hvernig stjórnandi getur virkjað forskoðunareiginleika í Microsoft Dynamics 365 Talent og listar þá eiginleika sem eru nú þegar virkjaðir fyrir forskoðun.
 author: tracykeya
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 6a5aa8d6ea72ec3d3910edea291c4340ab607326
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: e607c2ba4b544d60c97d98bd49b07d912d83ebc6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739588"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008703"
 ---
 # <a name="manage-preview-features"></a>Stjórnun á forskoðunareiginleikum
 
 [!include[banner](../includes/banner.md)]
 
-Sem hluti af samfelldri kynningu okkar á afkastagetu mannauðsstjórnunar fyrir Microsoft Dynamics 365 for Talent, viljum við að viðskiptavinir upplifi nýja eiginleika eins fljótt og auðið er. Stjórnendur geta séð og notað forskoðunareiginleika í umhverfi sínu. Þessar eiginleikar eru næstum tilbúnir til almenns framboðs og hafa farið í gegnum víðtækar prófanir. Við erum bara að falast eftir lokaumsögnum viðskiptavina og fullgildingu áður en við gefum þá út fyrir almenning.
+Sem hluti af samfelldri kynningu okkar á afkastagetu mannauðsstjórnunar fyrir Microsoft Dynamics 365 Talent, viljum við að viðskiptavinir upplifi nýja eiginleika eins fljótt og auðið er. Stjórnendur geta séð og notað forskoðunareiginleika í umhverfi sínu. Þessar eiginleikar eru næstum tilbúnir til almenns framboðs og hafa farið í gegnum víðtækar prófanir. Við erum bara að falast eftir lokaumsögnum viðskiptavina og fullgildingu áður en við gefum þá út fyrir almenning.
 
-Þetta efnisatriði lýsir því hvernig hægt er að virkja forskoðunareiginleika og lista þá eiginleika sem eru nú þegar tiltækir fyrir forskoðun. Þessi listi verður uppfærð þegar eiginleikar eru gefnar út til almenns framboðs og þegar nýjar eiginleikar eru gefnar út til forskoðunar. Engin tilkynning er send þegar nýjar eiginleikar eru gefin út til forskoðunar. Notendur munu bara byrja að sjá eiginleikana. Frekari upplýsingar um nýja eiginleika í Talent er að finna í [Nýjungar eða breytingar í Dynamics 365 for Talent](./whats-new.md) og [Dynamics 365 og Power Platform útgáfuupplýsingar](https://docs.microsoft.com/business-applications-release-notes).
+Þetta efnisatriði lýsir því hvernig hægt er að virkja forskoðunareiginleika og lista þá eiginleika sem eru nú þegar tiltækir fyrir forskoðun. Þessi listi verður uppfærð þegar eiginleikar eru gefnar út til almenns framboðs og þegar nýjar eiginleikar eru gefnar út til forskoðunar. Engin tilkynning er send þegar nýjar eiginleikar eru gefin út til forskoðunar. Notendur munu bara byrja að sjá eiginleikana. Frekari upplýsingar um nýja eiginleika í Talent er að finna í [Nýjungar eða breytingar í Dynamics 365 Talent](./whats-new.md) og [Dynamics 365 og Power Platform útgáfuupplýsingar](https://docs.microsoft.com/business-applications-release-notes).
 
 ## <a name="enable-or-disable-preview-features"></a>Virkja eða slökkva á forskoðunareiginleikum
 
@@ -40,9 +40,9 @@ Til að fá aðgang að forskoðunareiginleikum þarf fyrst að virkja þá í u
 > [!IMPORTANT]
 > Þegar kveikt er á stillingunni **Forskoðunareiginleikar** virkjast forskoðunareiginleikar fyrir alla notendur í fyrirtækinu þínu sem eru í því umhverfi. Þegar slökkt er á stillingunni, gerirðu forskoðunareiginleika óvirka og óaðgengilega fyrir notendur þína. Forskoðunareiginleikar hafa takmarkaðan stuðning í Talent. Þeir gætu notað færri persónuverndar- og öryggisráðstafanir og þær eru ekki innifalin í þjónustustigssamningi Talent (SLA). Þú ættir ekki að nota forskoðunareiginleika til að vinna úr persónulegum gögnum (það er, einhverjum upplýsingum sem þú þekkist á) eða að vinna úr öðrum gögnum sem falla undir lögboðnar kröfur eða reglur um samræmi.
 
-### <a name="attract"></a>Laða að
+### <a name="attract"></a>Attract
 
-1. Skrá inn á Microsoft Dynamics 365 for Talent: Attract.
+1. Skrá inn á Microsoft Dynamics 365 Talent: Attract.
 2. Í **Uppsetning** valmyndinni (táknið fyrir gír) efst í hægra horninu skaltu velja **Stjórnstöð**.
 3. Í flipanum **Eiginleikastjórnun** skal velja valkostinn við hliðina á **Forskoðunareiginleikar** þannig að hann verður blár og það segir **Kveikt**.
 
@@ -69,11 +69,11 @@ Til að fá aðgang að forskoðunareiginleikum þarf fyrst að virkja þá í u
 
 ### <a name="onboard"></a>Ráðningar
 
-Engir forskoðunareiginleikar eru í tiltækir sem stendur fyrir Microsoft Dynamics 365 for Talent: Onboard.
+Engir forskoðunareiginleikar eru í tiltækir sem stendur fyrir Microsoft Dynamics 365 Talent: Onboard.
 
 ## <a name="features-that-are-currently-in-preview"></a>Eiginleikar sem eru nú þegar í forskoðun
 
-### <a name="attract"></a>Laða að
+### <a name="attract"></a>Attract
 
 - [Umsækjandi sem mælt er með](./intelligent-recommendations.md#candidate-recommendations) - Ef fleiri en tíu umsækjendur eða viðföng eru með ferilsskrár eða heilstæðar forstillingar, birtast umsækjendur eða viðföng sem uppfylla best starfskröfur í **Umsækjendur til að hafa í huga** hlutanum á starfssíðunni.
 - [Starf sem mælt er með](./intelligent-recommendations.md#job-recommendations) - Ef fleiri en tíu störf eru auglýst á ferlissíðunni þinni býður Attract tilföngum upp á starf sem mælt er með.

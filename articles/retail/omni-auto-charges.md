@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 47829a6fcae37e03510929dc46b942455016df0b
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 829fa771003de7759b237d4499aa038040b46a3f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577870"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018039"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Ítarleg sjálfvirk gjöld fyrir omni-rás
 
@@ -34,7 +34,7 @@ ms.locfileid: "1577870"
 
 Þegar eiginleikinn fyrir ítarlega sjálfvirk gjöld er virkjaður geta pantanir, sem eru stofnaðar í hvaða studdu smásölurás sem er (sölustaður (POS), símaver og á netinu), nýtt sér stillingarnar [sjálfvirk gjöld](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) sem eru skilgreind í ERP-forritinu fyrir gjöld sem tengjast bæði haus og línustigi.
 
-Í útgáfum á undan Dynamics 365 for Retail útgáfu 10.0, eru stillingar fyrir [sjálfvirk gjöld](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) eingöngu aðgengileg með pöntunum sem eru stofnaðar í rás rafrænna viðskipta og eða símavers. Í útgáfum 10.0 og síðar geta pantanir stofnaðar á sölustaðar nýtt sér stillingar sjálfvirkra gjalda. Þannig er hægt að bæta ýmsum gjöldum við sölufærslur með kerfisbundnum hætti.
+Í útgáfum á undan Retail útgáfu 10.0, eru [stillingar fyrir sjálfvirk gjöld](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) eingöngu aðgengileg með pöntunum sem eru stofnaðar í rás rafrænna viðskipta og eða símavers. Í útgáfum 10.0 og síðar geta pantanir stofnaðar á sölustaðar nýtt sér stillingar sjálfvirkra gjalda. Þannig er hægt að bæta ýmsum gjöldum við sölufærslur með kerfisbundnum hætti.
 
 Þegar notaðar eru útgáfur eldri en útgáfa 10.0 er POS-notandi beðinn um að færa inn sendingargjald handvirkt við stofnun á POS-færslunni „senda allt“ eða „senda valið“. Þótt möguleikinn á ýmsum gjöldum í forritinu er nýttur hvað varðar hvernig gjöldin eru skrifuð á pöntunina, er ekki boðið upp á neinn kerfisbundinn útreikning -- útreikningurinn reiðir sig á innslátt notanda til að ákvarða gildi gjaldanna. Eingöngu er hægt að bæta gjöldunum við sem einni „sendingu“ sem tengist gjaldakóða og ekki er hægt að lagfæra eða breyta honum svo auðveldlega í sölustað eftir að gjöldin eru stofnuð.
 
