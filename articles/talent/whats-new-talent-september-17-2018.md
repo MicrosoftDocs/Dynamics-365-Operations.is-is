@@ -1,6 +1,6 @@
 ---
-title: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (17. september 2018)
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent Core HR.
+title: Nýjungar eða breytingar í Dynamics 365 Talent - Core HR (17. september 2018)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/17/2018
@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 213324f9074f88d9fdc8efdfa46bc3ed7817d1e8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 558c2cdb4addce54af937ff862535d65f1ebd602
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518298"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026036"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-17-2018"></a><span data-ttu-id="3b730-103">Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (17. september 2018)</span><span class="sxs-lookup"><span data-stu-id="3b730-103">What's new or changed in Dynamics 365 for Talent Core HR (September 17, 2018)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-september-17-2018"></a><span data-ttu-id="988c2-103">Nýjungar eða breytingar í Dynamics 365 Talent: Core HR (17. september 2018)</span><span class="sxs-lookup"><span data-stu-id="988c2-103">What's new or changed in Dynamics 365 Talent: Core HR (September 17, 2018)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="3b730-104">**Smíði 8.1.154.0**</span><span class="sxs-lookup"><span data-stu-id="3b730-104">**Build 8.1.154.0**</span></span>
+<span data-ttu-id="988c2-104">**Smíði 8.1.154.0**</span><span class="sxs-lookup"><span data-stu-id="988c2-104">**Build 8.1.154.0**</span></span>
 
-<span data-ttu-id="3b730-105">Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Core HR.</span><span class="sxs-lookup"><span data-stu-id="3b730-105">This topic describes features that are either new or changed in Core HR.</span></span>
+<span data-ttu-id="988c2-105">Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Core HR.</span><span class="sxs-lookup"><span data-stu-id="988c2-105">This topic describes features that are either new or changed in Core HR.</span></span>
 
-## <a name="leave-and-absence--accrue-time-based-on-hours-worked"></a><span data-ttu-id="3b730-106">Leyfi og fjarvistir - Uppsöfnun tíma sem byggist á vinnustundum</span><span class="sxs-lookup"><span data-stu-id="3b730-106">Leave and Absence – Accrue time based on hours worked</span></span>
+## <a name="leave-and-absence--accrue-time-based-on-hours-worked"></a><span data-ttu-id="988c2-106">Leyfi og fjarvistir - Uppsöfnun tíma sem byggist á vinnustundum</span><span class="sxs-lookup"><span data-stu-id="988c2-106">Leave and Absence – Accrue time based on hours worked</span></span>
 
-<span data-ttu-id="3b730-107">Nýrri gerð uppsöfnunar var bætt við Leyfisáætlanir.</span><span class="sxs-lookup"><span data-stu-id="3b730-107">A new accrual type has been added to Leave plans.</span></span> <span data-ttu-id="3b730-108">Uppsöfnunaráætlunin getur nú byggst á starfsaldri í mánuðum eða vinnustundum.</span><span class="sxs-lookup"><span data-stu-id="3b730-108">The accrual schedule can now be based on months of service or hours worked.</span></span> <span data-ttu-id="3b730-109">Nánari upplýsingar er að finna í [Uppsöfnun frís sem byggist á vinnustundum](leave-accrue-hours-worked.md).</span><span class="sxs-lookup"><span data-stu-id="3b730-109">For more information, see [Accrue time off based on hours worked](leave-accrue-hours-worked.md).</span></span>
+<span data-ttu-id="988c2-107">Nýrri gerð uppsöfnunar var bætt við Leyfisáætlanir.</span><span class="sxs-lookup"><span data-stu-id="988c2-107">A new accrual type has been added to Leave plans.</span></span> <span data-ttu-id="988c2-108">Uppsöfnunaráætlunin getur nú byggst á starfsaldri í mánuðum eða vinnustundum.</span><span class="sxs-lookup"><span data-stu-id="988c2-108">The accrual schedule can now be based on months of service or hours worked.</span></span> <span data-ttu-id="988c2-109">Nánari upplýsingar er að finna í [Uppsöfnun frís sem byggist á vinnustundum](leave-accrue-hours-worked.md).</span><span class="sxs-lookup"><span data-stu-id="988c2-109">For more information, see [Accrue time off based on hours worked](leave-accrue-hours-worked.md).</span></span>
 
-## <a name="platform-update-18"></a><span data-ttu-id="3b730-110">Update 18 fyrir verkvang</span><span class="sxs-lookup"><span data-stu-id="3b730-110">Platform update 18</span></span>
+## <a name="platform-update-18-for-finance-and-operations"></a><span data-ttu-id="988c2-110">Verkvangsuppfærsla 18 fyrir Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="988c2-110">Platform update 18 for Finance and Operations</span></span>
 
-<span data-ttu-id="3b730-111">Verkvangsuppfærsla 18 er nú hluti af Talent-útgáfunni.</span><span class="sxs-lookup"><span data-stu-id="3b730-111">Platform update 18 is now part of the Talent release.</span></span> 
+<span data-ttu-id="988c2-111">Verkvangsuppfærsla 18 fyrir Finance and Operations er nú hluti af Talent-útgáfunni.</span><span class="sxs-lookup"><span data-stu-id="988c2-111">Platform update 18 for Finance and Operations is now part of the Talent release.</span></span> 
 
--   <span data-ttu-id="3b730-112">Hægt er að fela áskilda reiti og aðra reiti í gegnum sérstillingar.</span><span class="sxs-lookup"><span data-stu-id="3b730-112">Mandatory and other fields can be hidden via personalization.</span></span> <span data-ttu-id="3b730-113">Þetta gerir notanda kleift að búa til einfaldaða upplifun þar sem áskildir reitir sem viðskiptagrunnur gerir sjálfgefna eru ekki sýndir.</span><span class="sxs-lookup"><span data-stu-id="3b730-113">This allows a user to create a simplified experience where mandatory fields that are defaulted by business logic are not shown.</span></span> <span data-ttu-id="3b730-114">Faldir áskildir reitir eru einnig gerðir sýnilegir tímabundið ef þeir eru tómir þegar reynt er að vista.</span><span class="sxs-lookup"><span data-stu-id="3b730-114">Hidden mandatory fields are also temporarily made visible if they are empty when a save is attempted.</span></span>
+-   <span data-ttu-id="988c2-112">Hægt er að fela áskilda reiti og aðra reiti í gegnum sérstillingar.</span><span class="sxs-lookup"><span data-stu-id="988c2-112">Mandatory and other fields can be hidden via personalization.</span></span> <span data-ttu-id="988c2-113">Þetta gerir notanda kleift að búa til einfaldaða upplifun þar sem áskildir reitir sem viðskiptagrunnur gerir sjálfgefna eru ekki sýndir.</span><span class="sxs-lookup"><span data-stu-id="988c2-113">This allows a user to create a simplified experience where mandatory fields that are defaulted by business logic are not shown.</span></span> <span data-ttu-id="988c2-114">Faldir áskildir reitir eru einnig gerðir sýnilegir tímabundið ef þeir eru tómir þegar reynt er að vista.</span><span class="sxs-lookup"><span data-stu-id="988c2-114">Hidden mandatory fields are also temporarily made visible if they are empty when a save is attempted.</span></span>
 
--   <span data-ttu-id="3b730-115">Í verkvangsuppfærslu 18 stillir Talent-vefbiðlarinn nú myndefni sitt við Microsoft Fluent Design.</span><span class="sxs-lookup"><span data-stu-id="3b730-115">In Platform update 18, the Talent web client now aligns its visuals with Microsoft Fluent Design.</span></span>
+-   <span data-ttu-id="988c2-115">Í verkvangsuppfærslu 18 fyrir Finance and Operations stillir Talent-vefbiðlarinn nú myndefni sitt við Microsoft Fluent Design.</span><span class="sxs-lookup"><span data-stu-id="988c2-115">In Platform update 18 for Finance and Operations, the Talent web client now aligns its visuals with Microsoft Fluent Design.</span></span>
 
-    -   <span data-ttu-id="3b730-116">Þegar reitir eru í „lestrarstillingu“ er einfaldlega hægt að velja breytingarvalkostinn í reitunum svo hægt sé að breyta skjámyndinni.</span><span class="sxs-lookup"><span data-stu-id="3b730-116">When fields are in “read mode”, you can simply select the edit option in the fields to switch the form to edit.</span></span>
+    -   <span data-ttu-id="988c2-116">Þegar reitir eru í „lestrarstillingu“ er einfaldlega hægt að velja breytingarvalkostinn í reitunum svo hægt sé að breyta skjámyndinni.</span><span class="sxs-lookup"><span data-stu-id="988c2-116">When fields are in “read mode”, you can simply select the edit option in the fields to switch the form to edit.</span></span>
 
-    -   <span data-ttu-id="3b730-117">Breytingar á því hvernig reitir birtast þegar þeir eru lestrarstillingu.</span><span class="sxs-lookup"><span data-stu-id="3b730-117">Changes in how fields display when in read mode.</span></span>
+    -   <span data-ttu-id="988c2-117">Breytingar á því hvernig reitir birtast þegar þeir eru lestrarstillingu.</span><span class="sxs-lookup"><span data-stu-id="988c2-117">Changes in how fields display when in read mode.</span></span>
 
-    -   <span data-ttu-id="3b730-118">Fyrirsagnir í vinnusvæðum og síðum eru feitletraðar.</span><span class="sxs-lookup"><span data-stu-id="3b730-118">Headings in workspaces and pages are bold.</span></span>
+    -   <span data-ttu-id="988c2-118">Fyrirsagnir í vinnusvæðum og síðum eru feitletraðar.</span><span class="sxs-lookup"><span data-stu-id="988c2-118">Headings in workspaces and pages are bold.</span></span>
 
--   <span data-ttu-id="3b730-119">Hegðun óútskiptanlegra uppflettinga hefur verið bætt.</span><span class="sxs-lookup"><span data-stu-id="3b730-119">The behavior of non-replacing lookups has been improved.</span></span> <span data-ttu-id="3b730-120">Nánari upplýsingar er að finna í [Endurbætur á hegðun fyrir óútskiptanlegar flettingar](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fbusiness-applications-release-notes%2FOctober18%2Fdynamics365-finance-operations%2Fnon-replacing-lookups&data=02%7C01%7C%7Ce0b3b3bee47b4424aaa208d619ce86f2%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636724772137980342&sdata=RN1qjtZSLtS010zgs0KlcwFrrB8Z7uWWGtFjdxdaamg%3D&reserved=0).</span><span class="sxs-lookup"><span data-stu-id="3b730-120">For more information, see [Improved behavior for non-replacing lookups](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fbusiness-applications-release-notes%2FOctober18%2Fdynamics365-finance-operations%2Fnon-replacing-lookups&data=02%7C01%7C%7Ce0b3b3bee47b4424aaa208d619ce86f2%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636724772137980342&sdata=RN1qjtZSLtS010zgs0KlcwFrrB8Z7uWWGtFjdxdaamg%3D&reserved=0).</span></span>
+-   <span data-ttu-id="988c2-119">Hegðun óútskiptanlegra uppflettinga hefur verið bætt.</span><span class="sxs-lookup"><span data-stu-id="988c2-119">The behavior of non-replacing lookups has been improved.</span></span> <span data-ttu-id="988c2-120">Nánari upplýsingar er að finna í [Endurbætur á hegðun fyrir óútskiptanlegar flettingar](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fbusiness-applications-release-notes%2FOctober18%2Fdynamics365-finance-operations%2Fnon-replacing-lookups&data=02%7C01%7C%7Ce0b3b3bee47b4424aaa208d619ce86f2%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636724772137980342&sdata=RN1qjtZSLtS010zgs0KlcwFrrB8Z7uWWGtFjdxdaamg%3D&reserved=0).</span><span class="sxs-lookup"><span data-stu-id="988c2-120">For more information, see [Improved behavior for non-replacing lookups](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fbusiness-applications-release-notes%2FOctober18%2Fdynamics365-finance-operations%2Fnon-replacing-lookups&data=02%7C01%7C%7Ce0b3b3bee47b4424aaa208d619ce86f2%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636724772137980342&sdata=RN1qjtZSLtS010zgs0KlcwFrrB8Z7uWWGtFjdxdaamg%3D&reserved=0).</span></span>
 
-## <a name="bug-fixes"></a><span data-ttu-id="3b730-121">Villuleiðréttingar</span><span class="sxs-lookup"><span data-stu-id="3b730-121">Bug fixes</span></span>
+## <a name="bug-fixes"></a><span data-ttu-id="988c2-121">Villuleiðréttingar</span><span class="sxs-lookup"><span data-stu-id="988c2-121">Bug fixes</span></span>
 
-<span data-ttu-id="3b730-122">Þessi útgáfa inniheldur nokkrar villuleiðréttingar í viðbót, þar á meðal tilvísanir í ACA, ADA, og I9 og verða nú aðeins gerðar virkar í bandarískum fyrirtækjum.</span><span class="sxs-lookup"><span data-stu-id="3b730-122">This release includes several additional bug fixes, including references to ACA, ADA, and I9 now will only be enabled in US companies.</span></span>
+<span data-ttu-id="988c2-122">Þessi útgáfa inniheldur nokkrar villuleiðréttingar í viðbót, þar á meðal tilvísanir í ACA, ADA, og I9 og verða nú aðeins gerðar virkar í bandarískum fyrirtækjum.</span><span class="sxs-lookup"><span data-stu-id="988c2-122">This release includes several additional bug fixes, including references to ACA, ADA, and I9 now will only be enabled in US companies.</span></span>
