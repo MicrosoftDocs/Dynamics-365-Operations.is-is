@@ -1,6 +1,6 @@
 ---
 title: Frumstilla grunngögn í nýju Retail-umhverfi
-description: Þessi grein lýsir gögnum sem búin eru til við frumstillingu fyrir Microsoft Dynamics 365 for Retail.
+description: Þessi grein lýsir gögnum sem búin eru til við frumstillingu fyrir Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,53 +19,53 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 49b21d81437ebd7cc55076444ee71ae1143bfac0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556899"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025517"
 ---
-# <a name="initialize-seed-data-in-new-retail-environments"></a><span data-ttu-id="e2182-103">Frumstilla grunngögn í nýju Retail-umhverfi</span><span class="sxs-lookup"><span data-stu-id="e2182-103">Initialize seed data in new Retail environments</span></span>
+# <a name="initialize-seed-data-in-new-retail-environments"></a><span data-ttu-id="34719-103">Frumstilla grunngögn í nýju Retail-umhverfi</span><span class="sxs-lookup"><span data-stu-id="34719-103">Initialize seed data in new Retail environments</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="e2182-104">Þessi grein lýsir gögnum sem búin eru til við frumstillingu fyrir Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="e2182-104">This article describes the data that's created as part of the initialization process for Microsoft Dynamics 365 for Retail.</span></span>
+<span data-ttu-id="34719-104">Þessi grein lýsir gögnum sem búin eru til við frumstillingu fyrir Dynamics 365 Retail.</span><span class="sxs-lookup"><span data-stu-id="34719-104">This article describes the data that's created as part of the initialization process for Dynamics 365 Retail.</span></span>
 
-<span data-ttu-id="e2182-105">Þegar smásölulausn hefur verið virkjuð í Microsoft Dynamics Lifecycle Services (LCS), verður að frumstilla smásöluskilgreiningu til að stofna grunnskilgreiningargögn.</span><span class="sxs-lookup"><span data-stu-id="e2182-105">After the Retail solution has been deployed through Microsoft Dynamics Lifecycle Services (LCS), you must initialize the retail configuration to create the basic configuration data.</span></span>
+<span data-ttu-id="34719-105">Þegar smásölulausn hefur verið virkjuð í Microsoft Dynamics Lifecycle Services (LCS), verður að frumstilla smásöluskilgreiningu til að stofna grunnskilgreiningargögn.</span><span class="sxs-lookup"><span data-stu-id="34719-105">After the Retail solution has been deployed through Microsoft Dynamics Lifecycle Services (LCS), you must initialize the retail configuration to create the basic configuration data.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="e2182-106">Áður en grunnstilling smásölu er frumstillt þarf að ganga úr skugga um að tungumál og póstfang fyrir hvern lögaðila hafi verið tilgreint þar sem settar verða upp verslanir fyrir smásöluverslun.</span><span class="sxs-lookup"><span data-stu-id="e2182-106">Before you initialize the retail configuration, make sure that you've specified a language and a postal address for each legal entity where you will set up retail stores.</span></span> <span data-ttu-id="e2182-107">Ljúka verður við þessi skref fyrir hvern lögaðila sem er notaður fyrir smásölu.</span><span class="sxs-lookup"><span data-stu-id="e2182-107">This step must be completed for each legal entity that you use for retail.</span></span>
+> <span data-ttu-id="34719-106">Áður en grunnstilling smásölu er frumstillt þarf að ganga úr skugga um að tungumál og póstfang fyrir hvern lögaðila hafi verið tilgreint þar sem settar verða upp verslanir fyrir smásöluverslun.</span><span class="sxs-lookup"><span data-stu-id="34719-106">Before you initialize the retail configuration, make sure that you've specified a language and a postal address for each legal entity where you will set up retail stores.</span></span> <span data-ttu-id="34719-107">Ljúka verður við þessi skref fyrir hvern lögaðila sem er notaður fyrir smásölu.</span><span class="sxs-lookup"><span data-stu-id="34719-107">This step must be completed for each legal entity that you use for retail.</span></span>
 
-<span data-ttu-id="e2182-108">Fylgið eftirfarandi skrefum til að frumstilla skilgreiningar smásölu.</span><span class="sxs-lookup"><span data-stu-id="e2182-108">To initialize the retail configuration, follow these steps.</span></span>
+<span data-ttu-id="34719-108">Fylgið eftirfarandi skrefum til að frumstilla skilgreiningar smásölu.</span><span class="sxs-lookup"><span data-stu-id="34719-108">To initialize the retail configuration, follow these steps.</span></span>
 
-1. <span data-ttu-id="e2182-109">Ræsið Dynamics 365 for Retail biðlarann.</span><span class="sxs-lookup"><span data-stu-id="e2182-109">Start the Dynamics 365 for Retail client.</span></span>
-2. <span data-ttu-id="e2182-110">Smellt er á **Smásala** &gt; **Uppsetning höfuðstöðva** &gt; **Færibreytur** &gt; **Smásölufæribreytur**.</span><span class="sxs-lookup"><span data-stu-id="e2182-110">Click **Retail** &gt; **Headquarters setup** &gt; **Parameters** &gt; **Retail parameters**.</span></span>
-3. <span data-ttu-id="e2182-111">Smellið á **Frumstilla**.</span><span class="sxs-lookup"><span data-stu-id="e2182-111">Click **Initialize**.</span></span>
+1. <span data-ttu-id="34719-109">Ræsið Retail-biðlarann.</span><span class="sxs-lookup"><span data-stu-id="34719-109">Start the Retail client.</span></span>
+2. <span data-ttu-id="34719-110">Smellt er á **Smásala** &gt; **Uppsetning höfuðstöðva** &gt; **Færibreytur** &gt; **Smásölufæribreytur**.</span><span class="sxs-lookup"><span data-stu-id="34719-110">Click **Retail** &gt; **Headquarters setup** &gt; **Parameters** &gt; **Retail parameters**.</span></span>
+3. <span data-ttu-id="34719-111">Smellið á **Frumstilla**.</span><span class="sxs-lookup"><span data-stu-id="34719-111">Click **Initialize**.</span></span>
 
-<span data-ttu-id="e2182-112">Frumstilling stofnar eftirfarandi sjálfgefin skilgreiningargögn:</span><span class="sxs-lookup"><span data-stu-id="e2182-112">Initialization creates the following default configuration data:</span></span>
+<span data-ttu-id="34719-112">Frumstilling stofnar eftirfarandi sjálfgefin skilgreiningargögn:</span><span class="sxs-lookup"><span data-stu-id="34719-112">Initialization creates the following default configuration data:</span></span>
 
-- <span data-ttu-id="e2182-113">Vinnslur og undirvinnslur Retail Verkraðara</span><span class="sxs-lookup"><span data-stu-id="e2182-113">Retail scheduler jobs and subjobs</span></span>
-- <span data-ttu-id="e2182-114">Skema smásölurásar</span><span class="sxs-lookup"><span data-stu-id="e2182-114">Retail channel schema</span></span>
-- <span data-ttu-id="e2182-115">Dreifingaráætlanir smásölu</span><span class="sxs-lookup"><span data-stu-id="e2182-115">Retail distribution schedules</span></span>
-- <span data-ttu-id="e2182-116">Sjálfgefið útlit afgreiðsluskjás, sem inniheldur hnappahnit, myndir og þemu</span><span class="sxs-lookup"><span data-stu-id="e2182-116">Default screen layouts, which include button grids, images, and themes</span></span>
-- <span data-ttu-id="e2182-117">Upplýsingar um tímabelti</span><span class="sxs-lookup"><span data-stu-id="e2182-117">Time zone information</span></span>
-- <span data-ttu-id="e2182-118">Aðgerðir í sölustað (POS)</span><span class="sxs-lookup"><span data-stu-id="e2182-118">Point-of-sale (POS) operations</span></span>
-- <span data-ttu-id="e2182-119">Heimildir sölustaðar</span><span class="sxs-lookup"><span data-stu-id="e2182-119">POS permissions</span></span>
-- <span data-ttu-id="e2182-120">Skýrslur rásar</span><span class="sxs-lookup"><span data-stu-id="e2182-120">Channel reports</span></span>
-- <span data-ttu-id="e2182-121">Lýsigögn eiginda</span><span class="sxs-lookup"><span data-stu-id="e2182-121">Attribute metadata</span></span>
-- <span data-ttu-id="e2182-122">Sniðmát fyrir villuleit eininga</span><span class="sxs-lookup"><span data-stu-id="e2182-122">Entity validation templates</span></span>
-- <span data-ttu-id="e2182-123">Runuvinnsla til að hreinsa setuferil Commerce Data Exchange</span><span class="sxs-lookup"><span data-stu-id="e2182-123">Batch job to purge Commerce Data Exchange session history</span></span>
+- <span data-ttu-id="34719-113">Vinnslur og undirvinnslur Retail Verkraðara</span><span class="sxs-lookup"><span data-stu-id="34719-113">Retail scheduler jobs and subjobs</span></span>
+- <span data-ttu-id="34719-114">Skema smásölurásar</span><span class="sxs-lookup"><span data-stu-id="34719-114">Retail channel schema</span></span>
+- <span data-ttu-id="34719-115">Dreifingaráætlanir smásölu</span><span class="sxs-lookup"><span data-stu-id="34719-115">Retail distribution schedules</span></span>
+- <span data-ttu-id="34719-116">Sjálfgefið útlit afgreiðsluskjás, sem inniheldur hnappahnit, myndir og þemu</span><span class="sxs-lookup"><span data-stu-id="34719-116">Default screen layouts, which include button grids, images, and themes</span></span>
+- <span data-ttu-id="34719-117">Upplýsingar um tímabelti</span><span class="sxs-lookup"><span data-stu-id="34719-117">Time zone information</span></span>
+- <span data-ttu-id="34719-118">Aðgerðir í sölustað (POS)</span><span class="sxs-lookup"><span data-stu-id="34719-118">Point-of-sale (POS) operations</span></span>
+- <span data-ttu-id="34719-119">Heimildir sölustaðar</span><span class="sxs-lookup"><span data-stu-id="34719-119">POS permissions</span></span>
+- <span data-ttu-id="34719-120">Skýrslur rásar</span><span class="sxs-lookup"><span data-stu-id="34719-120">Channel reports</span></span>
+- <span data-ttu-id="34719-121">Lýsigögn eiginda</span><span class="sxs-lookup"><span data-stu-id="34719-121">Attribute metadata</span></span>
+- <span data-ttu-id="34719-122">Sniðmát fyrir villuleit eininga</span><span class="sxs-lookup"><span data-stu-id="34719-122">Entity validation templates</span></span>
+- <span data-ttu-id="34719-123">Runuvinnsla til að hreinsa setuferil Commerce Data Exchange</span><span class="sxs-lookup"><span data-stu-id="34719-123">Batch job to purge Commerce Data Exchange session history</span></span>
 
-<span data-ttu-id="e2182-124">Þar að auki er skráning sem er tengd við greiðslu korts atvinnugrein (PCI) er virk fyrir Dynamics 365 for Retail gagnagrunninn.</span><span class="sxs-lookup"><span data-stu-id="e2182-124">Additionally, logging that is related to the payment card industry (PCI) is enabled for the Dynamics 365 for Retail database.</span></span>
+<span data-ttu-id="34719-124">Þar að auki er skráning sem er tengd við greiðslu korts atvinnugrein (PCI) er virk fyrir Retail-gagnagrunninn.</span><span class="sxs-lookup"><span data-stu-id="34719-124">Additionally, logging that is related to the payment card industry (PCI) is enabled for the Retail database.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e2182-125">Það er möguleiki á því að skilgreina verkröð Retail sérstaklega.</span><span class="sxs-lookup"><span data-stu-id="e2182-125">There is an option to separately configure the Retail scheduler.</span></span> <span data-ttu-id="e2182-126">Þessi valkostur gerir kleift að endurstilla skilgreiningu Retail verkraðara á sjálfgefnar stillingar.</span><span class="sxs-lookup"><span data-stu-id="e2182-126">This option lets you reset the Retail scheduler configuration to its default settings.</span></span>
+> <span data-ttu-id="34719-125">Það er möguleiki á því að skilgreina verkröð Retail sérstaklega.</span><span class="sxs-lookup"><span data-stu-id="34719-125">There is an option to separately configure the Retail scheduler.</span></span> <span data-ttu-id="34719-126">Þessi valkostur gerir kleift að endurstilla skilgreiningu Retail verkraðara á sjálfgefnar stillingar.</span><span class="sxs-lookup"><span data-stu-id="34719-126">This option lets you reset the Retail scheduler configuration to its default settings.</span></span>
 
-<span data-ttu-id="e2182-127">Þegar frumstillingu er lokið verður að skilgreina viðbótarupplýsingar smásölugagna.</span><span class="sxs-lookup"><span data-stu-id="e2182-127">After initialization is completed, you must configure additional retail data.</span></span> <span data-ttu-id="e2182-128">Hér eru nokkur dæmi:</span><span class="sxs-lookup"><span data-stu-id="e2182-128">Here are some examples:</span></span>
+<span data-ttu-id="34719-127">Þegar frumstillingu er lokið verður að skilgreina viðbótarupplýsingar smásölugagna.</span><span class="sxs-lookup"><span data-stu-id="34719-127">After initialization is completed, you must configure additional retail data.</span></span> <span data-ttu-id="34719-128">Hér eru nokkur dæmi:</span><span class="sxs-lookup"><span data-stu-id="34719-128">Here are some examples:</span></span>
 
-- <span data-ttu-id="e2182-129">Smásölufæribreytur</span><span class="sxs-lookup"><span data-stu-id="e2182-129">Retail parameters</span></span>
-- <span data-ttu-id="e2182-130">Færibreytur Retail Verkraðara</span><span class="sxs-lookup"><span data-stu-id="e2182-130">Retail scheduler parameters</span></span>
-- <span data-ttu-id="e2182-131">Smásölurásir</span><span class="sxs-lookup"><span data-stu-id="e2182-131">Retail channels</span></span>
-- <span data-ttu-id="e2182-132">Afgreiðslukassar og tæki</span><span class="sxs-lookup"><span data-stu-id="e2182-132">Registers and devices</span></span>
-- <span data-ttu-id="e2182-133">Úrval</span><span class="sxs-lookup"><span data-stu-id="e2182-133">Assortments</span></span>
+- <span data-ttu-id="34719-129">Smásölufæribreytur</span><span class="sxs-lookup"><span data-stu-id="34719-129">Retail parameters</span></span>
+- <span data-ttu-id="34719-130">Færibreytur Retail Verkraðara</span><span class="sxs-lookup"><span data-stu-id="34719-130">Retail scheduler parameters</span></span>
+- <span data-ttu-id="34719-131">Smásölurásir</span><span class="sxs-lookup"><span data-stu-id="34719-131">Retail channels</span></span>
+- <span data-ttu-id="34719-132">Afgreiðslukassar og tæki</span><span class="sxs-lookup"><span data-stu-id="34719-132">Registers and devices</span></span>
+- <span data-ttu-id="34719-133">Úrval</span><span class="sxs-lookup"><span data-stu-id="34719-133">Assortments</span></span>
