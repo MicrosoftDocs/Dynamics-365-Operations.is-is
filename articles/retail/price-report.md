@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 72f4d248f3ac49bbfd8e5a7a12352d92b89bb0eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4fb02bdeca2d71d84ebdddfd16d471a532823e42
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564948"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025196"
 ---
 # <a name="retail-price-reports"></a>Smásöluverðskýrslur
 
 [!include [banner](includes/banner.md)]
 
 
-Til þess að geta veitt viðskiptavinum sínum samkeppnishæf verð breyta söluaðliar oft verðum á afurðum. Verslunarstjórar vilja nálgast á auðveldan hátt nýlegar eða væntanlegar verðbreytingar svo þeir geti gert áætlun um nauðsynleg tilföng til að uppfæra verðmerkingar sem sjást í hillum verslunar. Með útgáfu 10.0 af Dynamics 365 for Retail getur verslunarstjóri opnað skýrsluna **Verð** með því að fletta upp á **Allar smásöluverslanir \> Verslun \> Verðskýrsla** og skoða uppfærð verð fyrir afurðirnar sem tengjast versluninni. 
+Til þess að geta veitt viðskiptavinum sínum samkeppnishæf verð breyta söluaðliar oft verðum á afurðum. Verslunarstjórar vilja nálgast á auðveldan hátt nýlegar eða væntanlegar verðbreytingar svo þeir geti gert áætlun um nauðsynleg tilföng til að uppfæra verðmerkingar sem sjást í hillum verslunar. Með útgáfu 10.0 af Retail getur verslunarstjóri opnað skýrsluna **Verð** með því að fletta upp á **Allar smásöluverslanir \> Verslun \> Verðskýrsla** og skoða uppfærð verð fyrir afurðirnar sem tengjast versluninni. 
 
 Til að virkja verðskýrsluna verður að kveikja á færibreytunni **Virkja verðskýrslu fyrir smásöluverslun**. Þessi færibreyta er staðsett í flipanum **Smásölufæribreytur \> Afslættir \> Ýmislegt**. Þegar síðan **Verðskýrsla** er opnuð birtist svargluggi með ýmsum skilgreiningum. Tiltækar skilgreiningar eru sýndar hér að neðan.
 

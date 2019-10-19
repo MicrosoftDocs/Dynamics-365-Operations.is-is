@@ -1,6 +1,6 @@
 ---
-title: Nýjungar eða breytingar í Dynamics 365 for Talent (11. júní 2019)
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent.
+title: Nýjungar eða breytingar í Dynamics 365 Talent (11. júní 2019)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/11/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a1413ea43e852c78ede227b69c0f49c07944a872
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b06dc0556bd1461573cd56abed602d72333a3f39
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741620"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023931"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-11-2019"></a>Nýjungar eða breytingar í Dynamics 365 for Talent (11. júní 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-11-2019"></a>Nýjungar eða breytingar í Dynamics 365 Talent (11. júní 2019)
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent.
+Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Breytingar í Attract
 
 ### <a name="search-engine-optimization-for-job-posts"></a>Leitarvélabestun fyrir vinnslubókanir
 
-Þegar þú hefur kveikt á **Leitarvélarbestun** í Dynamics 365 for Talent : Attract Admin center, segir Attract forritunarviðmótið Google Indexing application (API) að skríða á vefsíðuna í hvert skipti sem þú virkjar og bókar nýja vinnslu eða uppfærir núverandi vinnslu. Þannig mun vinnslan birtast í leitarniðurstöðum fyrir Google og aðrar leitarvélar.
+Þegar þú hefur kveikt á **Leitarvélarbestun** í Stjórnendamiðstöð Dynamics 365 Talent: Attract segir Attract forritunarviðmótið Google Indexing application (API) að skríða á vefsíðuna í hvert skipti sem þú virkjar og bókar nýja vinnslu eða uppfærir núverandi vinnslu. Þannig mun vinnslan birtast í leitarniðurstöðum fyrir Google og aðrar leitarvélar.
 
 Sömuleiðis, þegar þú sendir frá sér vinnslu upplýsir Attract lyklunina API um það, svo að óbókuð vinnsla muni ekki birtast í leitarniðurstöðum.
 
@@ -50,15 +50,15 @@ Samþykktir birtast í hlutanum **Samþykktir** í yfirlitinu. Samþykktaraðila
 
 ## <a name="changes-in-onboard"></a>Breytingar í Onboard
 
-Þessi útgáfa inniheldur minniháttar villuleiðréttingar fyrir Dynamics 365 for Talent: Onboard.
+Þessi útgáfa inniheldur minniháttar villuleiðréttingar fyrir Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Breytingar í Core HR
 
 Breytingunum sem er lýst í þessum hluta eiga við um smíðarnúmer 8.1.2337.
 
-### <a name="platform-update-27"></a>Update 27 fyrir verkvang
+### <a name="platform-update-27-for-finance-and-operations"></a>Verkvangsuppfærsla 27 fyrir Finance and Operations
 
-Frekari upplýsingar um verkvangsuppfærslu 27 er að finna í [Forskoðun á eiginleikum í Dynamics 365 for Finance and Operations verkvangsuppfærslu 27 (júní 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
+Frekari upplýsingar um verkvangsuppfærslu 27 fyrir Finance and Operations er að finna í [Forskoðun á eiginleikum í Dynamics 365 Finance and Operations verkvangsuppfærslu 27 í (júní 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
 
 ### <a name="feature-management-workspace-in-talent"></a>Vinnusvæði eiginleikastjórnunar í Talent
 

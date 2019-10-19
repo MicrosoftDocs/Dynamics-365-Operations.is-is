@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7ad3c3fd17e88f364be12c122e2f5c155b7b9064
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e600e1d2bb4bc1a49d55fb58b3e74fa7e13fc2af
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556438"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017898"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Vakta- og peningaskúffustjórnun
 
@@ -32,7 +32,7 @@ ms.locfileid: "1556438"
 
 Þetta efnisatriði útskýrir hvernig á að setja upp og nota vaktir á sölustað (POS).
 
-Í Microsoft Dynamics 365 for Retail, lýsir hugtakið *vakt* söfnun POS færslugagna og aðgerða á milli tveggja tímapunkta. Fyrir hverja vakt er fjárhæðin sem búist er við borin saman við upphæðina sem var talin og gefin upp.
+Í Dynamics 365 Retail, lýsir hugtakið *vakt* söfnun POS færslugagna og aðgerða á milli tveggja tímapunkta. Fyrir hverja vakt er fjárhæðin sem búist er við borin saman við upphæðina sem var talin og gefin upp.
 
 Venjulega eru vaktir opnaðar í byrjun vinnudags. Á þeim tímapunkti gefur notandi upp byrjunarupphæðina sem peningaskúffan inniheldur. Sölufærslur eru síðan framkvæmdar yfir daginn. Að lokum, í lok dagsins, er skúffan talin og lokaupphæðin er gefin upp. Vaktinni er lokað og Z skýrsla er búin til. Z skýrslan sýnir hvort upphæðin er of há eða of lág.
 
@@ -69,7 +69,7 @@ Ef nota á samnýttar vaktir í verslun, verður peningaskúffan að vera grunns
 
 ## <a name="shift-and-drawer-operations"></a>Vakta- og skúffuaðgerðir
 
-Ýmsar aðgerðir er hægt að framkvæma til að breyta stöðu vaktar, eða til að auka eða minnka peningamagn í peningaskúffunni. Þessi kafli lýsir þessum vaktaaðgerðum fyrir Microsoft Dynamics 365 for Retail Modern POS og Cloud POS.
+Ýmsar aðgerðir er hægt að framkvæma til að breyta stöðu vaktar, eða til að auka eða minnka peningamagn í peningaskúffunni. Þessi kafli lýsir þessum vaktaaðgerðum fyrir Retail Modern POS og Cloud POS.
 
 ### <a name="open-shift"></a>Opna vakt
 

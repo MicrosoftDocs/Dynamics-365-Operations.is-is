@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: e5351086c56d13ef98937aec066be00cdf88fd37
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 088f55e5605c99f69852b4d6811b5c5504f267a2
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553637"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019463"
 ---
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>Afgreiða pantanir frá annarri verslun með því að nota eiginleikann Hleðslusending
 
 [!include [banner](includes/banner.md)]
 
-Með Hleðslusending eiginleikanum í Dynamics 365 for Retail getur viðskiptavinarpantanir verið sett í eina verslun og send frá öðrum verslun.
+Með Hleðslusending eiginleikanum í Retail getur viðskiptavinarpantanir verið sett í eina verslun og send frá öðrum verslun.
 
 Viðskiptavinapantanir á sölustað (POS) biðlari styðja margskonar uppfyllingarkosti. Nokkur dæmi um valkosti uppfyllingar eru:
 

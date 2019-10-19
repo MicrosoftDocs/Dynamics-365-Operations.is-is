@@ -1,6 +1,6 @@
 ---
-title: Hvað er nýtt eða breytt í Dynamics 365 for Talent (6. maí 2019)
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent.
+title: Hvað er nýtt eða breytt í Dynamics 365 Talent (6. maí 2019)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/06/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c541bac532e878c8493a60d95c05c9104d4b96e1
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 6a4571abdb0e104af0a0657c75bf5a6b5764345a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741545"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023862"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-6-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 for Talent (6. maí 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-may-6-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 Talent (6. maí 2019)
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 for Talent.
+Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Breytingar í Attract
 
@@ -45,9 +45,9 @@ ms.locfileid: "1741545"
 
 Breytingum sem lýst er í þessum kafla gilda um byggingarnúmer 8.1.2282. Tölurnar í sviga í sumum fyrirsögnum vísa til stuðningsnúmera í Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-26"></a>Update 26 fyrir verkvang
+### <a name="platform-update-26-for-finance-and-operations"></a>Verkvangsuppfærsla 26 fyrir Finance and Operations
 
-Frekari upplýsingar um verkvangsuppfærslu 26 er að finna í [Forskoðun á eiginleikum í Dynamics 365 for Finance and Operations verkvangsuppfærslu 26 (maí 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
+Frekari upplýsingar um verkvangsuppfærslu 26 fyrir Finance and Operations er að finna í [Forskoðun á eiginleikum í Dynamics 365 Finance and Operations verkvangsuppfærslu 26 í (maí 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Stuðningur Common Data Service-einingar fyrir sérstillt svæði
 
@@ -67,7 +67,7 @@ Breytingar í þessari útgáfu koma í veg fyrir tvítekningu á staðgenglum �
 
 ### <a name="worker-address-created-in-common-data-service-isnt-synced-to-talent-317555"></a>Aðsetur starfskrafts sem er búið til í Common Data Service er ekki samstillt við Talent (317555)
 
-Með þessari breytingu eru aðsetur sem eru búin til í Common Data Service uppfærð í Talent Core HR.
+Með þessari breytingu eru aðsetur sem eru búin til í Common Data Service uppfærð í Talent: Core HR.
 
 
 ## <a name="in-preview"></a>Í kynningarútgáfu
