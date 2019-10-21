@@ -1,6 +1,6 @@
 ---
-title: Hvað er nýtt eða breytt í Dynamics 365 for Talent (27. febrúar 2019)
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent.
+title: Hvað er nýtt eða breytt í Dynamics 365 Talent (27. febrúar 2019)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/27/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f175c6e60cf87c7dcbde0eaf35357130fa035712
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518262"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024000"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 for Talent (27. febrúar 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 Talent (27. febrúar 2019)
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent.
+Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Breytingar í Attract
 
@@ -77,9 +77,9 @@ Nú er hægt að bæta við sérstilltum svæðum fyrir föst laun starfsmanns, 
 
 Í mörgum fyrirtækjum gætu umsjónaraðilar launa og fríðinda haft aðgang að eingöngu tilteknum launafærslum. Þessar færslur gætu verið fyrir stjórnendur eða svæðisbundna starfsmenn. Þessi breyting gerir mannauðsstjórnun kleift að hafa umsjón með launafyrirkomulagi mismunandi starfsmannahópa í fyrirtækinu. Öryggishlutverk sem hægt er að úthluta til fastra og breytilegra áætlana munu ákvarða aðgang að þeim áætlunum og starfsmannaupplýsingum sem tengjast þeim (til dæmis launaupplýsingar og bónusfærslur). Aðeins hlutverk sem hafa tilgreindan aðgang geta unnið úr launum fyrir þessa starfsmenn.
 
-### <a name="platform-update-24"></a>Update 24 fyrir verkvang
+### <a name="platform-update-24-for-finance-and-operations"></a>Verkvangsuppfærsla 24 fyrir Finance and Operations
 
-Nánari upplýsingar um Microsoft Dynamics 365 for Finance and Operations verkvangsuppfærslu 24 (mars 2019) er að finna í [Forskoðunareiginleikar í Finance and Operations verkvangsuppfærslu 24 (mars 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Nánari upplýsingar um verkvangsuppfærslu 24 fyrir Microsoft Dynamics 365 Finance and Operations (mars 2019) er að finna í [Forskoðunareiginleikar í Finance and Operations verkvangsuppfærslu 24 (mars 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
 ### <a name="make-employee-fixed-compensation-available-for-future-position-assignments"></a>Bjóða upp á föst laun starfsmanns fyrir komandi stöðuverkefni
 
@@ -87,10 +87,10 @@ Nánari upplýsingar um Microsoft Dynamics 365 for Finance and Operations verkva
 
 ## <a name="known-issues"></a>Þekkt vandamál
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>Breytingar á samþættingarsniðmáti Core HR (Talent Common Data Service til Finance and Operations)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance"></a>Breytingar á samþættingarsniðmáti Core HR (Talent Common Data Service til Finance)
 Sniðmátið fyrir Core HR hefur verið uppfært í „ítarlegt fyrirspurnarsniðmát“. Þess vegna verður ítarlega fyrirspurnin að sjálfgefnu í boði fyrir verk sem eru búin til með því að nota þetta sniðmát. Að auki mun öll sjálfgefin vörpunarvirkni vera eingöngu sýnileg í ritli ítarlegrar fyrirspurnar. (Sjálfgefin vörpunarvirkni kemur fram sem „FN“ í vörpunum.)
 
-Nánari upplýsingar um vörpunarvillur er að finna í [Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (14. desember 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
+Nánari upplýsingar um vörpunarvillur er að finna í [Nýjungar eða breytingar í Dynamics 365 Talent: Core HR (14. desember 2018)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
 
 Til að nota nýja sniðmátið skaltu búa til nýtt verk og velja nýja samþættingarsniðmát Talent.
 

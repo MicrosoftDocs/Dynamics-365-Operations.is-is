@@ -1,6 +1,6 @@
 ---
 title: Kerfiskröfur og uppfærsluregla Talent
-description: Þetta efnisatriði inniheldur lista yfir kröfur Dynamics 365 for Talent. Þar er uppfærslustefnuna einnig að finna.
+description: Þetta efnisatriði inniheldur lista yfir kröfur Dynamics 365 Talent. Þar er uppfærslustefnuna einnig að finna.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/02/2019
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6c881bf25e7145228ccf7ef73a7ef3637c115a49
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b8bf44fc76be968b0b04fd894c39b4c19fd374ce
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741776"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024161"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>Kerfiskröfur og uppfærsluregla Talent
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði útskýrir kröfur fyrir Microsoft Dynamics 365 for Talent, þ.m.t. Attract, Onboard og Core HR. Það gefur líka upp löndin og svæðin þar sem Talent er tiltækt, ásamt upplýsingum um tungumál og staðfæringar fyrir gögn Talent. Þetta efnisatriði veitir að auki uppfærsluregluna fyrir Talent.
+Þetta efnisatriði útskýrir kröfur fyrir Microsoft Dynamics 365 Talent, þ.m.t. Attract, Onboard og Core HR. Það gefur líka upp löndin og svæðin þar sem Talent er tiltækt, ásamt upplýsingum um tungumál og staðfæringar fyrir gögn Talent. Þetta efnisatriði veitir að auki uppfærsluregluna fyrir Talent.
 
 ## <a name="supported-web-browsers"></a>Studdir vafrar
 
-Microsoft Dynamics 365 for Talent vefforrit er hægt að keyra í eftirfarandi vöfrum sem keyra á tilgreindum stýrikerfum: 
+Microsoft Dynamics 365 Talent er hægt að keyra í eftirfarandi vöfrum sem keyra á tilgreindum stýrikerfum: 
 
 *   Microsoft Edge (nýjasta almenna útgáfa) á Windows-10
 *   Internet Explorer 11 á Windows 10, Windows 8.1 eða Windows 7
@@ -46,11 +46,11 @@ Farið á vefsvæði hugbúnaðarframleiðandans til að finna nýjustu útgáfu
 > * Verkflæðisritillinn er ræstur sem ClickOnce-forrit. Aðeins Microsoft Edge og Internet Explorer (á studdri útgáfu af Microsoft Windows) styðja ClickOnce-forrit. Verkflæðisritlinum ClickOnce hugbúnaðurinn krefst á 64-bita samhæfar stýrikerfi.
 > * Til að forskoða PDF-skrár er mælt með því að notaðir séu nýjustu vafrarnir eins og Microsoft Edge (nýjasta tiltæka útgáfa fyrir almenning) Windows 10 eða Google Chorme (nýjasta tiltæka útgáfa fyrir almenning) á Windows 10, Windows 8.1, Windows 8, Windows 7 eða Google Nexus 10 spjaldtölvu.
 >   Netþarfir
-> * Dynamics 365 for Talent er hannað fyrir net með biðtíma minni en 250-300 millisekúndum (ms.). Þetta er biðtíma vafra biðlara Microsoft Azure gagnamiðstöðvar sem hýsir Dynamics 365 for Talent. Mælt er með því að prófa biðtíma á netinu á [www.azurespeed.com](https://www.azurespeed.com "Azure biðtímapróf").
-> * Bandvíddarþarfir fyrir Dynamics 365 for Talent fara eftir aðstæðum. Flestar dæmigerðar aðstæður krefjast bandvíddar yfir meira en 50 kílóbætum á sekúndu (KBps).
+> * Dynamics 365 Talent er hannað fyrir net með biðtíma minni en 250-300 millisekúndum (ms.). Þetta er biðtíma vafra biðlara Microsoft Azure gagnamiðstöðvar sem hýsir Talent. Mælt er með því að prófa biðtíma á netinu á [www.azurespeed.com](https://www.azurespeed.com "Azure biðtímapróf").
+> * Bandvíddarþarfir fyrir Talent fara eftir aðstæðum. Flestar dæmigerðar aðstæður krefjast bandvíddar yfir meira en 50 kílóbætum á sekúndu (KBps).
 > 
 > [!WARNING]
-> Ekki skal reikna bandvíddarkröfur úr biðlarastaðsetningu með því að margfalda fjölda notenda með lágmarks bandvíddarkröfum. Samtímanotkun á tiltekinni staðsetningu er mjög erfitt að reikna út. Nota sýnisútgáfa af Dynamics 365 for Talent fyrir viðskiptavini sem hafa áhyggjur af bandvíddaþörf.
+> Ekki skal reikna bandvíddarkröfur úr biðlarastaðsetningu með því að margfalda fjölda notenda með lágmarks bandvíddarkröfum. Samtímanotkun á tiltekinni staðsetningu er mjög erfitt að reikna út. Nota sýnisútgáfa af Talent fyrir viðskiptavini sem hafa áhyggjur af bandvíddaþörf.
 
 ## <a name="supported-microsoft-office-applications"></a>Studd Microsoft Office forrit
 
@@ -68,6 +68,6 @@ Ef þú ert þróunaraðili og hefur áhuga á að búa til lands- eða svæðis
 
 ## <a name="update-policy"></a>Uppfæra stefnu
 
-Microsoft Dynamics 365 for Talent er þjónustað sem ský vara. Uppfærslur fyrir Dynamics 365 for Talent eru samfelldar og settar inn sjálfvirkt af Microsoft.
+Talent er þjónustað sem skýjatilboð. Uppfærslur á Talent eru samfelldar og settar inn sjálfvirkt af Microsoft.
 
-Uppfærslur eru gefnar út með reglubundnum hætti og eru gerðar fyrir öll umhverfi. Dynamics 365 for Talent er stutt samkvæmt [Microsoft Support Lifecycle policy](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle") sem býður upp á stöðugar og einfaldar leiðbeiningar fyrir tiltækileika stuðnings við vöru.
+Uppfærslur eru gefnar út með reglubundnum hætti og eru gerðar fyrir öll umhverfi. Talent er stutt samkvæmt [Microsoft Support Lifecycle policy](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Microsoft Support Lifecycle") sem býður upp á stöðugar og einfaldar leiðbeiningar fyrir tiltækileika stuðnings við vöru.

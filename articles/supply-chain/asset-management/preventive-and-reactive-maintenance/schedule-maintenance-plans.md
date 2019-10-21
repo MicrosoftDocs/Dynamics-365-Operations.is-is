@@ -3,7 +3,7 @@ title: Tímasetja viðhaldsáætlanir
 description: Þetta efni skýrir tímasetningu viðhaldsáætlana í eignastýringu.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b6e5bde83474fe8971e482af518f7cee23a2220
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 698888533bf503838f455585f61cc7afc7239b05
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875710"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922046"
 ---
 # <a name="schedule-maintenance-plans"></a>Tímasetja viðhaldsáætlanir
 
@@ -49,11 +49,11 @@ Skipulagning forvirks viðhalds býr til dagatalsfærslur á eignum, byggt á vi
 
 - Varðandi röðun á viðhaldsáætlunum á virkum staðsetningum: Ef þú uppfærir uppsetningu á eignategundum, framleiðendum og tegundum í viðhaldsáætlunum í flýtiflipanum **Allar virkar staðsetningar** > **Viðhaldsáætlanir** eftir að þú hefur skipulagt viðhaldsáætlanir, verður núverandi viðhaldsskemafærslum sem tengjast þeirri virku staðsetningu sjálfkrafa eytt. Til að stofna nýjar dagatalsfærslur sem samsvara uppfærðri viðhaldsáætlunaruppsetningu á virkri staðsetningu verður þú að keyra nýja viðhaldsáætlun fyrir þá virku staðsetningu. Lestu meira um uppsetningu á eignategundum, framleiðendum og tegundum um virkar staðsetningar í [Stofna virkar staðsetningar](../functional-locations/create-functional-locations.md).
 
->*Dæmi:* Þú vilt búa til viðhaldsáætlun fyrir tiltekna virka staðsetningu, sem þýðir að allar eignir sem settar eru upp á þeirri virku staðsetningu á hverjum tíma verða með þegar þú áætlar viðhaldsáætlun. Í því tilfelli býrðu til viðhaldsáætlun og velur sérstaka virka staðsetningu en bætir EKKI við neinum hlutum í viðhaldsáætluninni. Niðurstaðan er sú að þegar þú áætlar þá viðhaldsáætlun verða línur um viðhaldsskema stofnaðar fyrir allar eignir sem tengjast virkri staðsetningu á þeim tíma.
+>*Dæmi:* Þú vilt búa til viðhaldsáætlun fyrir tiltekna virka staðsetningu, sem þýðir að allar eignir sem settar eru upp á þeirri virku staðsetningu á hverjum tíma verða með þegar þú áætlar viðhaldsáætlun. Í því tilfelli býrðu til viðhaldsáætlun og velur sérstaka virka staðsetningu en bætir EKKI við neinum eignum í viðhaldsáætluninni. Niðurstaðan er sú að þegar þú áætlar þá viðhaldsáætlun verða línur um viðhaldsskema stofnaðar fyrir allar eignir sem tengjast virkri staðsetningu á þeim tíma.
 
 - Ef þú gerir breytingar á eignategundum, framleiðendum og tegundum í **Gerðir eigna** hafa þessar breytingar aðeins áhrif á nýjar eignir sem nota uppfærðu eignategundina. Lestu meira um uppsetningargerð eigna í [Gerðir eigna](../setup-for-objects/object-types.md).  
 
-5. Smelltu á **Í lagi** til að hefja myndun á viðhaldsskemafærslum á eignum. Myndaðar færslur verða sýndar á listasíðunni **Öll viðhaldsskemu**.
+5. Smelltu á **Í lagi** til að hefja myndun á viðhaldsskemafærslum á eignum. Myndaðar færslur verða sýndar á listasíðunni **Öll viðhaldsskemu**. Eftirfarandi mynd sýnir dæmi um gluggann **Tímasetja viðhaldsáætlanir**.
 
 ![Mynd 1](media/09-preventive-maintenance.png)
 
@@ -75,3 +75,4 @@ Dæmin sem lýst er hér sýna að allar gagnaskráningar sem gerðar hafa veri�
 ![Mynd 3](media/11-preventive-maintenance.png)
 
 ![Mynd 4](media/12-preventive-maintenance.png)
+

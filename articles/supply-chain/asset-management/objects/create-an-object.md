@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f15c6c5ccdcddebe7aa428cff48ca6e3b120d7f
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: bd963caed7f49db5dd7550dd30c3f831318d2b7a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783349"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250899"
 ---
 # <a name="create-an-asset"></a>Stofna eign
 
@@ -63,12 +63,12 @@ Reitirnir **Þjónustustig** og **Gagnrýni** tengjast verkbeiðnum sem eru stof
 
 ## <a name="asset"></a>Eign
 
-Þú getur valið **Tilföng** fyrir eignina. Tilfangavalið ákvarðar hvaða dagatal er notað við tímasetningu verkbeiðna. Tilfangaval er oft notað fyrir eignir. Í Dynamics 365 for Finance and Operations eru tilföng og tilfangahópar sett upp í **Samtökum stjórnsýslu** > **Tilföngum** > **Tilfangahópum** eða **Tilföngum**.
+Þú getur valið **Tilföng** fyrir eignina. Tilfangavalið ákvarðar hvaða dagatal er notað við tímasetningu verkbeiðna. Tilfangaval er oft notað fyrir eignir. Tilföng og tilfangahópar sett upp í **Fyrirtækisstjórnun** > **Tilföngum** > **Tilfangahópum** eða **Tilföngum**.
 
 Í reitnum **Fjöldi eigna** er hægt að velja eign sem á að tengjast eigninni. Þetta skiptir máli ef eign þín er tengd fjárfestingarverkefni.
 
 - Ef eignin er tengd fastafjármunum geturðu búið til gerð vinnupöntunar sem á að nota fyrir vinnupantanir sem tengjast fjárfestingarverkefni. 
-- Upplýsingar um fastafjármuni fyrir eign eru tengdar einingunni **Fastafjármunir** í Dynamics 365 for Finance and Operations. Þetta þýðir að í **Fastafjármuni** > **Fastafjármunir** > **Fastafjármunir** geturðu fengið yfirlit yfir eignastýringarverkefnin sem kunna að tengjast fastafjármunum með því að velja eignina á listanum og skoða innihaldið á rúðunni **Tengdar upplýsingar** > hlutanum **Tilheyrandi verkefni**.
+- Upplýsingar um fastafjármuni fyrir eign eru tengdar einingunni **Fastafjármunir** í Dynamics 365 Supply Chain Management. Þetta þýðir að í **Fastafjármuni** > **Fastafjármunir** > **Fastafjármunir** geturðu fengið yfirlit yfir eignastýringarverkefnin sem kunna að tengjast fastafjármunum með því að velja eignina á listanum og skoða innihaldið á rúðunni **Tengdar upplýsingar** > hlutanum **Tilheyrandi verkefni**.
 
 
 ## <a name="details"></a>Upplýsingar

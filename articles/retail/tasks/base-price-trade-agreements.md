@@ -1,5 +1,5 @@
 ---
-title: " Grunnverð og verðsamningar"
+title: Grunnverð og verðsamningar
 description: Þetta ferli fer í gegnum stofnun söluverð bundnum við rás viðskiptasamninga.
 author: josaw1
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8138b6144cc6ba09834f2bfb61cc7334767307d6
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 45d3d962958d0487c9e65910a2dce24097a83773
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916554"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017759"
 ---
-# <a name="base-price-and-trade-agreements"></a> Grunnverð og verðsamningar
+# <a name="base-price-and-trade-agreements"></a>Grunnverð og verðsamningar
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
@@ -56,7 +56,7 @@ ms.locfileid: "1916554"
 24. Smelltu á **Stofna verðsamninga**.
 25. Smellt er á **Nýtt**.
 26. Í reitnum **Heiti** skal smella á fellilistahnappinn til að opna leitina.
-27. Farið í listann og veljið smásala. Færslubókarheitið ‚Smásala' er notað í sýnigögn sem sjálfgefin tengsl „Verðs (sala)". Þetta þýðir að allar nýjar línur sem stofnaðar eru verða sjálfgefnar fyrir söluverð viðskiptasamninga.  
+27. Í listanum velurðu **Retail**. Færslubókarheitið **Retail** er notað í sýnigögnum sem sjálfgefin tengsl við **Verð (sala)**. Þetta þýðir að allar nýjar línur sem stofnaðar eru verða sjálfgefnar fyrir söluverð viðskiptasamninga.  
 28. Í **Aðgerðasvæðinu**, smellirðu á **Línur**.
 29. Í reitnum **Kóði lykils** er valið 'flokkur'.
 30. Í reitnum **Val á lykli** skal smella á fellilistahnappinn til að opna uppflettinguna.

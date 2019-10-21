@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 961cc6fe5bd1bfbb0f5c9116024415a5d53f569e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4f91faa03718830474e8e2a79015955bcad1d02e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1522198"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249965"
 ---
 # <a name="routes-and-operations"></a>Leiðir og virkni
 
@@ -35,7 +35,7 @@ ms.locfileid: "1522198"
 <a name="overview"></a>Yfirlit
 --------
 
-Leið lýsir þeirri röð aðgerða sem er krafist til að framleiða afurð eða afurðarafbrigði. Fyrir hverja aðgerð skilgreinir leiðin einnig rekstrartilföng sem krafist er, tímann sem er krafist til að setja upp og framkvæma aðgerðina og hvernig kostnaður er reiknaður. Hægt er að nota sömu leið til að útbúa margar afurðir eða hægt er að skilgreina einkvæma leið fyrir hverja afurð eða afurðarafbrigði. Jafnvel er hægt að hafa margar leiðir fyrir sömu afurð. Í þessu tilfelli er leiðin sem notuð er breytileg eftir þáttum eins og því magni sem framleiða þarf. Skilgreining á leið í Microsoft Dynamics 365 for Finance and Operations samanstendur af fjórum aðskildum einingum sem lýsa framleiðsluferlinu saman:
+Leið lýsir þeirri röð aðgerða sem er krafist til að framleiða afurð eða afurðarafbrigði. Fyrir hverja aðgerð skilgreinir leiðin einnig rekstrartilföng sem krafist er, tímann sem er krafist til að setja upp og framkvæma aðgerðina og hvernig kostnaður er reiknaður. Hægt er að nota sömu leið til að útbúa margar afurðir eða hægt er að skilgreina einkvæma leið fyrir hverja afurð eða afurðarafbrigði. Jafnvel er hægt að hafa margar leiðir fyrir sömu afurð. Í þessu tilfelli er leiðin sem notuð er breytileg eftir þáttum eins og því magni sem framleiða þarf. Skilgreining á leið í Finance and Operations samanstendur af fjórum aðskildum einingum sem lýsa framleiðsluferlinu saman:
 
 -   **Leið** – leið skilgreinir skipulag framleiðsluferlis. Með öðrum orðum, hún tilgreinir röð aðgerða.
 -   **Aðgerð** – aðgerð auðkennir nefnd skref í leiðinni, eins og **Samsetningu**. Sama aðgerð getur átt sér stað í mörgum leiðum og getur haft mismunandi aðgerðanúmer.
@@ -43,7 +43,7 @@ Leið lýsir þeirri röð aðgerða sem er krafist til að framleiða afurð e�
 -   **Leiðarútgáfa** – Leið lýsir þeirri röð aðgerða sem er krafist til að framleiða afurð eða afurðarafbrigði. Leiðarútgáfur virkja leiðir til að endurnota milli afurðir eða breytast með tímanum. Þær gera einnig mismunandi leiðir virkar til að nota til að framleiða sömu afurð. Í þessu tilfelli fer leið sem notuð er eftir þáttum eins og staðsetningu eða magn sem framleiða þarf.
 
 ## <a name="routes"></a>Leiðir
-Leið lýsir þeirri röð aðgerða sem er notuð til að framleiða afurð eða afurðarafbrigði. Hverri aðgerð er úthlutað aðgerðanúmeri og arftakaaðgerð. Röð aðgerða mynda leiðanet sem hægt er að tákna með stýrðu línuriti sem hefur einn eða fleiri upphafsdagsetningarpunkta og eina endastöð. Í Finance and Operations eru leiðir aðgreindar samkvæmt skipulagsgerð. Tvær gerðir af leiðum eru einfaldar leiðir og leiðanet. Í færibreytum Framleiðslustýringar er hægt að tilgreina hvort aðeins er hægt að nota einfaldar leiðir eða hvort hægt er að nota flóknari leiðanet.
+Leið lýsir þeirri röð aðgerða sem er notuð til að framleiða afurð eða afurðarafbrigði. Hverri aðgerð er úthlutað aðgerðanúmeri og arftakaaðgerð. Röð aðgerða mynda leiðanet sem hægt er að tákna með stýrðu línuriti sem hefur einn eða fleiri upphafsdagsetningarpunkta og eina endastöð. Í Supply Chain Management eru leiðir aðgreindar samkvæmt skipulagsgerð. Tvær gerðir af leiðum eru einfaldar leiðir og leiðanet. Í færibreytum Framleiðslustýringar er hægt að tilgreina hvort aðeins er hægt að nota einfaldar leiðir eða hvort hægt er að nota flóknari leiðanet.
 
 ### <a name="simple-routes"></a>Einfaldar leiðir
 
@@ -51,7 +51,7 @@ Einföld leið er raðbundin og er aðeins einn byrjunarreitur fyrir leiðina.
 
 [![Einföld leið](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
-Ef aðeins einfaldar leiðir eru virkjaðar í færibreytum Framleiðslustýringar, myndar Finance and Operations sjálfkrafa aðgerðanúmer (10, 20, 30, o.s.frv) þegar þú skilgreinir leið.
+Ef aðeins einfaldar leiðir eru virkjaðar í færibreytum Framleiðslustýringar, myndar Supply Chain Management sjálfkrafa aðgerðanúmer (10, 20, 30, o.s.frv) þegar þú skilgreinir leið.
 
 ### <a name="route-networks"></a>Leiðanet
 
@@ -85,7 +85,7 @@ Hver leið getur verið sérstaklega samþykkt eða ósamþykkt. Athugið hins v
 Ef þú verður að halda kladda sem skráir hver samþykkir hverja leið er hægt að krefjast rafrænna undirskrifta fyrir samþykki á leiðinni. Notendur þurfa þá að staðfesta auðkenni þeirra með því að nota [rafrænar undirskriftir](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
 
 ## <a name="operations"></a>Operations
-Aðgerðirnar eru þrep í framleiðsluferlinu. Hver aðgerð hefur kenni og einfalda lýsingu í Finance and Operations. Eftirfarandi töflur sýna góð dæmi um aðgerðir úr vél verslunar.
+Aðgerðirnar eru þrep í framleiðsluferlinu. Hver aðgerð hefur kenni og einfalda lýsingu. Eftirfarandi töflur sýna góð dæmi um aðgerðir úr vél verslunar.
 
 | Aðgerð  | lýsing        |
 |------------|--------------------|
@@ -126,7 +126,7 @@ Aðgerðavensl veita mikinn sveigjanleika þegar skilgreina skal leiðir. Þar a
 
 ### <a name="modifying-product-specific-routes"></a>Breyti afurðabundnum leiðum
 
-Þegar þú opnar síðuna **Leið** á síðunni **Losuð afurðarupplýsingar** eru leiðarútgáfur sem eru tengdar við valda afurð losuð sýndar. Í þessu samhengi sýnir Finance and Operations aðgerðaeiginleika fyrir hverja aðgerð úr aðgerðavenslum sem samsvara bestu leiðarútgáfunni. Þú munt taka eftir að listinn yfir aðgerðir inniheldur eiginleikana **Vörukóði** og **Leið kóða** úr aðgerðavenslunum. Þess vegna er hægt að ákvarða hvaða aðgerðavensl er sýnd.  
+Þegar þú opnar síðuna **Leið** á síðunni **Losuð afurðarupplýsingar** eru leiðarútgáfur sem eru tengdar við valda afurð losuð sýndar. Í þessu samhengi sýnir Supply Chain Management aðgerðaeiginleika fyrir hverja aðgerð úr aðgerðavenslum sem samsvara bestu leiðarútgáfunni. Þú munt taka eftir að listinn yfir aðgerðir inniheldur eiginleikana **Vörukóði** og **Leið kóða** úr aðgerðavenslunum. Þess vegna er hægt að ákvarða hvaða aðgerðavensl er sýnd.  
 
 Á síðunni **Leið** er hægt að breyta aðgerðareiginleikum aðgerðar, eins og keyrslutíma eða kostnaðartegundum. Breytingarnar eru vistaðar í aðgerðavensl sem eiga sérstaklega við um leiðina og útgefna afurð sem vísað er í gildandi leiðarútgáfu. Ef aðgerðavensl sem eru sýnd eiga ekki sérstaklega við um leiðina og útgefna afurð áður en breytingar eru vistaðar, býr kerfið til afrit af aðgerðavenslunum. Þetta afrit *er* sértækt fyrir leiðina og útgefna afurð. Þess vegna hafa breytingarnar ekki áhrif á aðrar leiðir eða útgefnar afurðir. Til að staðfesta hvaða aðgerðavenslum er breytt á síðunni **Leið** síðunni, skal skoða svæðin **Vörukóði** og **Leiðarkóða**.  
 
@@ -149,9 +149,9 @@ Ef fyrirtækið notar staðlaðar aðgerðir og ef rekstrarfæribreytur eru þæ
 
 ### <a name="applying-operation-relations"></a>Beiting aðgerðavensla
 
-Í sumum tilfellum verður Finance and Operations að finna aðgerðareiginleika fyrir aðgerð. Til dæmis þegar innkaupapöntun er stofnuð verður að afrita aðgerðareiginleika hverrar aðgerðar úr aðgerðavenslum yfir í framleiðsluleiðina. Í þessum kringumstæðum leitar Finance and Operations að viðeigandi aðgerðavenslum frá sértækustu samsetningunni að minnst sértæku samsetningunni.  
+Í sumum tilfellum verður Supply Chain Management að finna aðgerðareiginleika fyrir aðgerð. Til dæmis þegar innkaupapöntun er stofnuð verður að afrita aðgerðareiginleika hverrar aðgerðar úr aðgerðavenslum yfir í framleiðsluleiðina. Í þessum kringumstæðum leitar Supply Chain Management að viðeigandi aðgerðavenslum frá sértækustu samsetningunni að minnst sértæku samsetningunni.  
 
-Þegar Finance and Operations leitar að mest viðeigandi aðgerðavenslum fyrir losaða afurð eru aðgerðavensl sem samsvara vörukenni útgefinnar afurðar tekin fram fyrir aðgerðavensl sem samsvara vöruflokkskenni. Á móti eru aðgerðavensl sem samsvarar Flokkskenni vöru æskilegri en sjálfgefin aðgerðavensl. Leitin er gerð í eftirfarandi röð:
+Þegar Supply Chain Management leitar að mest viðeigandi aðgerðavenslum fyrir losaða afurð eru aðgerðavensl sem samsvara vörukenni útgefinnar afurðar tekin fram fyrir aðgerðavensl sem samsvara vöruflokkskenni. Á móti eru aðgerðavensl sem samsvarar Flokkskenni vöru æskilegri en sjálfgefin aðgerðavensl. Leitin er gerð í eftirfarandi röð:
 
 1.  **Vörukóði**=**Tafla** og **Vöruvensl**=&lt;vörukenni&gt;
 2.  **Vörukóði**=**Hópur** og **Vöruvensl**=&lt;vörukenni&gt;
@@ -198,7 +198,7 @@ Eftir viðskiptaþörfum ykkar, gæti verið hægt að minnka það framlag sem 
 
 ### <a name="making-routes-independent-of-resources"></a>Gera leiðir óháðar tilföngum
 
-Í mörgum kerfum verður að tilgreina aðgerðatilföng eða tilfangaflokk sem á að framkvæma aðgerð í leiðinni. Hins vegar er í Finance and Operations hægt að skilgreina safn krafna sem rekstrartilföng verða að uppfylla til að vera viðeigandi fyrir aðgerðina. Þess vegna þarf ekki að ákvarða tiltekin rekstrartilföng eða tilfangaflokk sem á að nota fyrr en aðgerðinni er í raðað raun. Þessi virkni er sérlega gagnleg þegar þú ert með marga starfsmenn eða vélar sem geta unnið sömu aðgerð.  
+Í mörgum kerfum verður að tilgreina aðgerðatilföng eða tilfangaflokk sem á að framkvæma aðgerð í leiðinni. Hins vegar er í Supply Chain Management hægt að skilgreina safn krafna sem rekstrartilföng verða að uppfylla til að vera viðeigandi fyrir aðgerðina. Þess vegna þarf ekki að ákvarða tiltekin rekstrartilföng eða tilfangaflokk sem á að nota fyrr en aðgerðinni er í raðað raun. Þessi virkni er sérlega gagnleg þegar þú ert með marga starfsmenn eða vélar sem geta unnið sömu aðgerð.  
 
 Til dæmis tilgreinir þú að aðgerð krefst aðgerða af gerðinni **Vélar** sem hefur **Stimplunar** getu upp á 20 tonn. Röðunarvélin mun síðan leysa þessar þarfir til tiltekinna aðgerðatilfanga eða tilfangaflokks þegar aðgerðin er áætluð. Þar sem hægt er að tilgreina einungis þessar þarfir í stað þess að binda aðgerð við tiltekna vél, hefurðu miklu meiri sveigjanleika. Þar að auki, verður viðhald auðveldara þegar tilföng eru flutt eða nýjum tilföngum er bætt við.  
 

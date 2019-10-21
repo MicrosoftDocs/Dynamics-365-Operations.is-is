@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be5e512dcb23ce525439f11b7674cc35d7306159
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cd86bf525ae33f78fb472e6c333083592ff8a012
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570504"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024385"
 ---
 # <a name="inventory-statuses"></a>Birgðastöður
 
@@ -42,7 +42,7 @@ Hér eru nokkur dæmi um sem hægt er að nota birgðastöður:
 
 Birgðastaða er ein af víddum í geymsluvíddaflokki. Hægt er að flokkað birgðastöðu sem tiltækt eða ekki tiltækt og hægt er að nota **birgðalæsingu** færibreytu til að læsa vörum sem hafa stöðuna ekki tiltækt í birgðum. Vörur með lokaða stöðu eru taldar raunbirgðir og ekki er hægt að nota þær í framleiðslupöntun, sölupöntun, millifærslupöntun eða útleiðarfærslu.
 
-Hægt er að nota vörur í vöruhúsi með birgðastöðu tiltækt eða ekki tiltækt fyrir vinnu á innleið. Til dæmis stofnaður tiltæka stöðu sem heitir **tilbúinn**, ótiltæka stöðu sem heitir **skemmt** og lokaða stöðu sem heitir **lokað**. Þegar innkaupapöntun er stofnuð fyrir móttekið eða skilavörur, ef einhverjar vörur eru skemmt eða brotið, hægt að breyta birgðastöðu þær vörur **"Skemmt"** í innkaupapöntunarlínunni. Eftir að þessar vörur eru mótteknar staðan er sjálfkrafa stillt á **Læst**. Ef að þú skannar þessar skemmdu vörur með fartæki, getur Microsoft Dynamics 365 for Finance and Operations nota staðsetningarleiðbeiningar og vinnusniðmát til að birta upplýsingar um viðeigandi staðsetning eða svið staðsetningar fyrir frágang þessara vara. Fyrir skilavörur er stofnuð **frátekning** fyrir úthreyfingar í skjámyndinni   **birgðafærslur**.
+Hægt er að nota vörur í vöruhúsi með birgðastöðu tiltækt eða ekki tiltækt fyrir vinnu á innleið. Til dæmis stofnaður tiltæka stöðu sem heitir **tilbúinn**, ótiltæka stöðu sem heitir **skemmt** og lokaða stöðu sem heitir **lokað**. Þegar innkaupapöntun er stofnuð fyrir móttekið eða skilavörur, ef einhverjar vörur eru skemmt eða brotið, hægt að breyta birgðastöðu þær vörur **"Skemmt"** í innkaupapöntunarlínunni. Eftir að þessar vörur eru mótteknar staðan er sjálfkrafa stillt á **Læst**. Ef að þú skannar þessar skemmdu vörur með fartæki, getur Finance and Operations notað staðsetningarleiðbeiningar og vinnusniðmát til að birta upplýsingar um viðeigandi staðsetning eða svið staðsetningar fyrir frágang þessara vara. Fyrir skilavörur er stofnuð **frátekning** fyrir úthreyfingar í skjámyndinni **Birgðafærslur**.
 
 Notið vörur með stöðu tiltækar birgðir fyrir vinnu á útleið. Ef þú ert með vörur með stöðuna **slitin** og aðaláætlanagerð er keyrð fyrir þessar vörur, er litið á þessar vörur þannig að þær vanti og birgðir eru endurnýjaðar sjálfkrafa.
 

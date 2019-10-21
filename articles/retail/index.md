@@ -1,6 +1,6 @@
 ---
-title: Velkomin(n) í Dynamics 365 for Retail
-description: Heimasíða fyrir Dynamics 365 for Retail
+title: Hjálpartilföng fyrir Dynamics 365 Retail
+description: Heimasíða fyrir Dynamics 365 Retail
 author: josaw1
 manager: AnnBe
 ms.date: 08/14/2019
@@ -18,23 +18,26 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22dc340ff5ea381dd2a335c8c81332d11d1257a0
-ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
+ms.openlocfilehash: 57d3b66e7ebc5a8a6e2ddda9135e27cd24535365
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "1874928"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278107"
 ---
-# <a name="welcome-to-dynamics-365-for-retail"></a>Velkomin(n) í Dynamics 365 for Retail
+# <a name="help-resources-for-dynamics-365-retail"></a>Hjálpartilföng fyrir Dynamics 365 Retail
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Retail er smásölulausn sem tekur til alls ferlisins og tryggir samræmda viðskiptastarfsemi á öllum sviðum. Þessi lausn nær yfir sölu, sveigjanleika, viðskiptagreind og framleiðni og hjálpar þannig smásölum og starfsfólki að ná meiri árangri með skýjamiðuðum fartækjalausnum. Retail býður heildstæðan stuðning við rekstur margs konar viðskiptaferla, svo sem smásölu, birgðastjórnun og eiginleika fyrir stjórnun rása. Viðskiptavinurinn upplifir kerfið sem heildstætt og víðtækt, til hvaða áherslupunkta sem litið er.
-
-> [!NOTE]
-> Dynamics 365 for Retail er nátengt Dynamics 365 for Finance and Operations og Dynamics 365 for Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þar af leiðandi verður vöruheiti í efnisatriðum sem helst tengjast Retail, Microsoft Dynamics 365 for Retail; í efnisatriðum sem tengjast undirstöðuvörunni (Finance and Operations) verður vöruheitið Microsoft Dynamics 365 for Finance and Operations; í efnisatriðum sem fyrst og fremst tengjast mannauði verður vöruheitið Dynamics 365 for Talent.
+Microsoft Dynamics 365 Retail er smásölulausn sem tekur til alls ferlisins og tryggir samræmda viðskiptastarfsemi á öllum sviðum. Þessi lausn nær yfir sölu, sveigjanleika, viðskiptagreind og framleiðni og hjálpar þannig smásölum og starfsfólki að ná meiri árangri með skýjamiðuðum fartækjalausnum. Retail býður heildstæðan stuðning við rekstur margs konar viðskiptaferla, svo sem smásölu, birgðastjórnun og eiginleika fyrir stjórnun rása. Viðskiptavinurinn upplifir kerfið sem heildstætt og víðtækt, til hvaða áherslupunkta sem litið er.
 
 Veldu eiginleikasvæði á svæðinu vinstra megin til að fræðast frekar um viðkomandi eiginleika.
+
+## <a name="dynamics-365-commerce-preview"></a>Dynamics 365 Commerce (forútgáfa)
+
+Dynamics 365 Commerce – byggir á margreyndum eiginleikum Dynamics 365 Retail – skilar lausn fyrir alhliða samskipti sem sameinar bakvinnslu, verslun, þjónustuver og stafræna upplifun. Commerce er nú í boði fyrir viðskiptavini sem fá forútgáfur. Núverandi viðskiptavinir Dynamics 365 Retail geta uppfært í Commerce þegar það verður í boði fyrir almenna notendur.
+
+Frekari upplýsingar um Dynamics 365 Commerce er að finna á síðunni [Hjálpartilföng fyrir Dynamics 365 Commerce](../commerce/index.md).
 
 ## <a name="channel-management"></a>Stjórnun rása
 
@@ -78,8 +81,8 @@ Setja þarf upp nokkra þætti til að skilgreina tengsl á milli verslunar, afg
 
 Fyrir sérstillingu umhverfis eða innleiðingu og viðhald kerfis er ráðlegt að lesa sérstakt efni um Retail fyrir þróunaraðila og kerfisstjóra, auk almennara efnis.
 
-- [Dynamics 365 for Retail fyrir fagfólk í upplýsingatækni og þróunaraðila](dev-itpro/dev-retail-home-page.md)
-- [Þróun og stjórnun fyrir Dynamics 365 for Finance and Operations](../dev-itpro/dev-tools/developer-home-page.md)
+- [Dynamics 365 Retail fyrir fagfólk í upplýsingatækni og þróunaraðila](dev-itpro/dev-retail-home-page.md)
+- [Þróun og stjórnun fyrir Dynamics 365 Finance](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>Frekari tilföng
 

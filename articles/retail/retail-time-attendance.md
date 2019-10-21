@@ -1,6 +1,6 @@
 ---
 title: Stjórnun tíma og viðveru í Retail
-description: Þessi efnisþáttur lýsir aðstæðum sem styður stjórnun á tíma og mætingu í Microsoft Dynamics 365 for Retail.
+description: Þessi efnisþáttur lýsir aðstæðum sem styður stjórnun á tíma og mætingu í Dynamics 365 Retail.
 author: aamirallaqaband
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,22 +19,22 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4c54909a02376a62a72a986e634649fa0ae54284
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d541de550df41b7d4616492960bd4f2aae46d45e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567954"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024984"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Stjórnun tíma og viðveru í Retail
 
 [!include [banner](includes/banner.md)]
 
-Þessi efnisþáttur lýsir aðstæðum sem styður stjórnun á tíma og mætingu í Microsoft Dynamics 365 for Retail.
+Þessi efnisþáttur lýsir aðstæðum sem styður stjórnun á tíma og mætingu í Dynamics 365 Retail.
 
 ## <a name="manage-worker-setup-and-scheduling"></a>Stjórna uppsetningu starfsmanns og áætlun
 
-### <a name="initial-configuration"></a> Upphafleg skilgreining
+### <a name="initial-configuration"></a>Upphafleg skilgreining
 
 - Keyrið leiðsagnarforrit grunnstillingar
 - Skrá starfsmenn sem starfsmenn tímaskráningar.
@@ -111,7 +111,7 @@ Nánari upplýsingar um skilgreiningarskref er að finna í [Uppsetning á tíma
 
 - Mismunandi tímabelti:
 
-    - Ef þú skoðar tíma frá öðrum staðsetningum (fyrir færslubók gjaldkera , eða með því að nota **skoða færslur stimpilklukku** fyrir aðstæður stjórnanda ), og að staðsetning er í öðru tímabelti, eru tímafærslur sem þú sérð umbreytt í þinn staðartíma. Til dæmis er stjórnandi fyrir tvær verslanir, ein í Arizona og önnur Nevada. Gjaldkeri skráir innstimplun við 9:00 F.HÁD í Arizona. Á þeirri stundu er tími í Nevada 8:00 F.HÁD Þess vegna ef þú ert í versluninni í Nevada og skoðar færslur tímaskráningar, eru  tímaskráningarnar merktar sem F.HÁD 8
+    - Ef þú skoðar tíma frá öðrum staðsetningum (fyrir færslubók gjaldkera , eða með því að nota **skoða færslur stimpilklukku** fyrir aðstæður stjórnanda ), og að staðsetning er í öðru tímabelti, eru tímafærslur sem þú sérð umbreytt í þinn staðartíma. Til dæmis er stjórnandi fyrir tvær verslanir, ein í Arizona og önnur Nevada. Gjaldkeri skráir innstimplun við 9:00 F.HÁD í Arizona. Á þeirri stundu er tími í Nevada 8:00 F.HÁD Þess vegna ef þú ert í versluninni í Nevada og skoðar færslur tímaskráningar, eru tímaskráningarnar merktar sem F.HÁD 8
 
 ## <a name="view-worker-time-registrations"></a>Stjórna tímaskráningu starfskrafts
 
@@ -120,12 +120,12 @@ Nánari upplýsingar um skilgreiningarskref er að finna í [Uppsetning á tíma
 Á sölustað
 
 - Velja **skoða færslur stimpilklukku**
-- Þú sérð skráningar tímaklukku fyrir aðgerðir fyrir  alla starfsmenn sem úthlutaðir eru á verslunum sem þú ert úthlutað til.
+- Þú sérð skráningar tímaklukku fyrir aðgerðir fyrir alla starfsmenn sem úthlutaðir eru á verslunum sem þú ert úthlutað til.
 - Hægt er að nota verkþáttargerð og síur verslunar til að sía tímaskráningar.
 
 ## <a name="process-and-manage-time-registrations"></a>Vinna með og stjórna tímaskráningum
 
-Dynamics 365 for Retail notandi fylgist með verkflæðið til að reikna, samþykkja og flytja tímaskráningar í laun.
+Notandi Retail fylgist með verkflæðið til að reikna, samþykkja og flytja tímaskráningar í laun.
 
 ### <a name="primary-operations"></a>Aðalaðgerðir
 

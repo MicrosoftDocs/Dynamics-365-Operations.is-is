@@ -1,9 +1,9 @@
 ---
-title: Stjórnun aðfangakeðju – heimasíða
-description: Á þessari síðu er að finna skrá yfir hjálparatriði og önnur tilföng fyrir stjórnunareiginleika aðfangakeðju Microsoft Dynamics 365 for Finance and Operations.
-author: ShylaThompson
+title: Hjálpartilföng fyrir Supply Chain Management
+description: Á þessari síðu er að finna skrá yfir hjálparatriði og önnur tilföng fyrir eiginleika Supply Chain Management.
+author: josaw1
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 10/01/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557593"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278325"
 ---
-# <a name="supply-chain-management-home-page"></a>Stjórnun aðfangakeðju – heimasíða
+# <a name="help-resources-for-supply-chain-management"></a>Hjálpartilföng fyrir Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng fyrir stjórnunareiginleika aðfangakeðju Microsoft Dynamics 365 for Finance and Operations. 
+Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng í Dynamics 365 Supply Chain Management. 
 
 ## <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
 Á <a href="https://roadmap.dynamics.com/">Dynamics 365-leiðarvísinum</a> eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
@@ -38,8 +38,9 @@ ms.locfileid: "1557593"
 
 Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
 
+- [Eignastýring](asset-management/index.md)
 - [Kostnaðarbókhald](../financials/cost-accounting/cost-accounting-home-page.md)
-- [Kostnaðarstýring](cost-management/cost-management-home-page.md)  
+- [Kostnaðarstjórnun](cost-management/cost-management-home-page.md)  
 - [Birgðastjórnun](inventory/inventory-home-page.md)
 - [Aðaláætlanagerð](master-planning/master-planning-home-page.md)
 - [Innkaup og aðföng](procurement/procurement-sourcing-overview.md)
@@ -49,6 +50,10 @@ Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
 - [Þjónustustjórnun](service-management/service-management-home-page.md)
 - [Flutningsstjórnun](transportation/transportation-management-overview.md)
 - [Vöruhúsakerfi](warehousing/warehouse-configuration.md)
+
+## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
+
+Upplýsingar um Dynamics 365 Finance fást á síðunni [Dynamics 365 Finance-hjálpartilföng](../finance/index.md).
 
 ## <a name="videos"></a>Myndbönd
 
@@ -113,6 +118,6 @@ Mörg umfjöllunarefni er að finna um framleiðslu- og aðfangakeðjustjórnun 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Sveigjanleiki í vöruhúsi einfaldaður með Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>Rafræn námskeið
-Upplýsingar um Microsoft Dynamics 365 for Finance and Operations-þjálfun eru í þjálfunargátt <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Microsoft Dynamics </a>. (krefst CustomerSource-lykils) 
+Upplýsingar um þjálfun fyrir Dynamics 365 eru í <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">þjálfunargátt Microsoft Dynamics</a>. (krefst CustomerSource-lykils) 
 
 

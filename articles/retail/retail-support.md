@@ -1,6 +1,6 @@
 ---
-title: Fá aðstoð fyrir Dynamics 365 for Retail
-description: Í þessari grein er útskýrt hvernig hægt er fá aðstoð með Microsoft Dynamics 365 for Retail.
+title: Fá aðstoð fyrir Dynamics 365 Retail
+description: Þessi grein útskýrir hvernig hægt er fá aðstoð með Microsoft Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 09/18/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 280a8de4b3a1f2eafa39caac562dff7c74ee0971
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 225b39bb03fa3bbd0b3c3a24e4eb09a114d01904
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577845"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025007"
 ---
-# <a name="get-support-for-dynamics-365-for-retail"></a>Fá aðstoð fyrir Dynamics 365 for Retail
+# <a name="get-support-for-dynamics-365-retail"></a>Fá aðstoð fyrir Dynamics 365 Retail
 
 [!include [banner](../includes/banner.md)]
 
-Í þessari grein er útskýrt hvernig hægt er fá aðstoð með Dynamics 365 for Retail.
+Í þessari grein er útskýrt hvernig hægt er fá aðstoð með Dynamics 365 Retail.
 
 ## <a name="contact-support"></a>Hafa samband við notendaþjónustu
 
@@ -48,7 +48,7 @@ Notið tilföng í eftirfarandi töflu til að fá stuðning fyrir Retail. Þess
 <tbody>
 <tr>
 <td>Spyrja samfélagið</td>
-<td>Fara í <a href="https://community.dynamics.com/365/retail">Dynamics 365 for Retail</a> samfélagssíðuna til að fá hjálp með spurningarnar þínar frá Dynamics samfélaginu.</td>
+<td>Fara í <a href="https://community.dynamics.com/365/retail">Dynamics 365 Retail</a> samfélagssíðuna til að fá hjálp með spurningarnar þínar frá Dynamics samfélaginu.</td>
 </tr>
 <tr>
 <td>Nota Vandamálaleit verkfærið.</td>
@@ -74,7 +74,7 @@ Notið tilföng í eftirfarandi töflu til að fá stuðning fyrir Retail. Þess
 Fyrir tæknilegar spurningar sem tengjast innskráningu og aðgangi að CustomerSource, netnámi, leit, þekkingargrunni, niðurhali skráa, og villum á síðu eða í kerfi, skal fara í <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">Stuðningur fyrir vefsvæði</a>.</td>
 </tr>
 <tr>
-<td>Fá hjálp varðandi spurningar um leyfisveitingu Finance and Operations.</td>
+<td>Fáðu hjálp varðandi spurningar um leyfisveitingu.</td>
 <td>Hafðu samband við samstarfsaðila, stærri endursöluaðila (LAR) eða Microsoft sölufulltrúa.</td>
 </tr>
 <tr>

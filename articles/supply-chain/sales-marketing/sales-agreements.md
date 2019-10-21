@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a14801f3aa486da3af252695a3e2ccd58c0e9059
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 37378b85b90f91c74da717f0a25c1847ac0b1598
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865970"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251294"
 ---
 # <a name="sales-agreements-overview"></a>Yfirlit sölusamninga
 
@@ -99,14 +99,14 @@ Ef hefur verið stofnað (losað) sölupöntun gagnvart sölusamning, sum svæð
 | Magn                                                          | Ef tilgreina á magn sem er hærri en magnið sem er tilgreint á sölusamningslína þar sem **Hámark er tryggt** gátreiturinn er valinn, biður skilaboðagluggi um að vista breyttar magn. Smellið á **Já** til að fjarlægja hlekkinn í sölusamningslínuna og endurreikna verð. Smellið á **Nei** til að fjarlægja hlekkinn í sölusamningslínuna án þess að endurreikna verð.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Skila vöru sem var pöntuð úr sölusamningi
-Þegar viðskiptamaður skilar afurð sem var pöntuð frá sölusamningi, getur Microsoft Dynamics 365 for Finance and Operations fundið og uppfært sjálfkrafa tengda sölusamninga sem eru til ráðstöfunar til að endurspegla breytingar á magni eða upphæð. Með því að stofna vöruskilapöntun byggða á upprunalegu sölupöntuninni sem er tengd við sölusamning,staðfestir þú tengsl milli sölusamnings, ráðstöfunar sölusamnings, sölusamningslína og reiknings vöruskilapöntunar.  
+Þegar viðskiptamaður skilar afurð sem hefur verið pöntuð frá sölusamningi, getur Supply Chain Management fundið og uppfært sjálfkrafa tengda ráðstöfun sölusamnings til að endurspegla breytingar á magni eða upphæð. Með því að stofna vöruskilapöntun byggða á upprunalegu sölupöntuninni sem er tengd við sölusamning,staðfestir þú tengsl milli sölusamnings, ráðstöfunar sölusamnings, sölusamningslína og reiknings vöruskilapöntunar.  
 
 Ef ekki á að draga frá skilavörumagnið úr ráðstöfun sölusamnings er hægt að nota stýringuna **fjarlægja hlekk** í síðunni **skilapöntun** til að fjarlægja tengingu milli skilapöntunar og ráðstöfunar sölusamnings . Ef þú þarft að endurstofna tengil síðar, er smellt á **stofna tengil**.  
 
 **Athugasemd** Vöruskilapöntun getur aðeins tengst einum sölusamningi. Ef viðskiptamaðurinn skilar fleiri en einni afurð sem hefur verið pöntuð frá fleiri en einum sölusamningi þarf að stofna nýja skilapöntun fyrir hverja afurð og búa til tengingu í samsvarandi sölusamning.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Sjálfvirk samningsleit sölusamninga
-Í sumum aðstæðum þar sem sölupantanir eru stofnaðar óbeint, eins og þegar sölupantanir innan samstæðu eða kreditnótu er stofnað, er hægt að stjórna því hvort Microsoft Dynamics 365 for Finance and Operations leitar sjálfvirkt að viðeigandi sölusamninga.
+Í sumum aðstæðum þar sem sölupantanir eru stofnaðar óbeint, eins og þegar sölupantanir innan samstæðu eða kreditnótu er stofnað, er hægt að stjórna því hvort kerfið leitar sjálfvirkt að viðeigandi sölusamninga.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Fjárhagsvíddir í sölusamningum
 Hægt er að afrita fjárhagsvíddir í annað hvort skjalhausa eða í einstakar línur sölusamnings. Hægt er að breyta víddum á samningshaus eða samningslínu hvenær sem er. Í þessu tilfelli eru víddir svo sjálfkrafa afritaðar í útgáfuhaus eða losunarlínu úttektarpöntunar.

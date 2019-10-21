@@ -1,6 +1,6 @@
 ---
 title: Vörulistar símavers
-description: Þetta efnisatriði lýsir sértækri virkni símavera fyrir vörulista í Microsoft Dynamics 365 for Retail.
+description: Þetta efnisatriði lýsir sértækri virkni símavera fyrir vörulista í Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 05/15/2018
@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 65c1c3070aa48bf7a2016534071693716fabe831
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2ad50be1394daf5bffa6391d2f56340aad14120b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562742"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023660"
 ---
 # <a name="call-center-catalogs"></a>Vörulistar símavers
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir sértækri virkni símavera sem tengist eiginleikum vörulista í Microsoft Dynamics 365 for Retail.
+Þetta efnisatriði lýsir sértækri virkni símavera sem tengist eiginleikum vörulista í Dynamics 365 Retail.
 
-Vörulistaeiginleikar sem finnast í Dynamics 365 for Retail koma að margskonar notum. Upphaflega voru vörulistaeiginleikarnir stofnaðir til að styðja við samþættingu rafrænna viðskipta þriðja aðila. Uppsetning vörulista heimilaði fyrirtækjum að búa til flokkun á vörum og eiginleikum sem hægt væri að birta út á við til notkunar í rafrænni viðskiptalausn þriðja aðila.
+Vörulistaeiginleikar sem finnast í Retail koma að margskonar notum. Upphaflega voru vörulistaeiginleikarnir stofnaðir til að styðja við samþættingu rafrænna viðskipta þriðja aðila. Uppsetning vörulista heimilaði fyrirtækjum að búa til flokkun á vörum og eiginleikum sem hægt væri að birta út á við til notkunar í rafrænni viðskiptalausn þriðja aðila.
 
-Þegar notendaþjónustu fyrir rás símavers var bætt við Dynamics 365 for Retail, var vörulistahugtakið útvíkkað til að bæta við viðbótareiginleikum fyrir stuðning og stjórn á eiginleikum tengdum hefðbundnum markaðssetningarvörulistum sem selur beint til neytenda. Fyrirtæki sem selur beint til neytenda mun oft framleiða prentaðar vörulistar, sem síðan eru sendar til eins eða fleiri hluta viðskiptavina. Þessar vörulistar innihalda yfirleitt sérstakar kynningar eða tilboð sem aðeins öðlast gildi ef viðskiptavinurinn gefur upp auðkenniskóða við stofnun pöntunar.
+Þegar notendaþjónustu fyrir rás símavers var bætt við Retail, var vörulistahugtakið útvíkkað til að bæta við viðbótareiginleikum fyrir stuðning og stjórn á eiginleikum tengdum hefðbundnum markaðssetningarvörulistum sem selur beint til neytenda. Fyrirtæki sem selur beint til neytenda mun oft framleiða prentaðar vörulistar, sem síðan eru sendar til eins eða fleiri hluta viðskiptavina. Þessar vörulistar innihalda yfirleitt sérstakar kynningar eða tilboð sem aðeins öðlast gildi ef viðskiptavinurinn gefur upp auðkenniskóða við stofnun pöntunar.
 
-Markaðsfyrirtæki sem selja beint til neytenda eru mjög upptekin af því að rekja svörun tengda vörulistunum til að tryggja að kostnaður við framleiðslu þeirra og póstsendingu sé réttlætanleg. Til að fylgjast með svöruninni er kóðinn venjulega prentaður á bakhlið vörulistans og síðan er beðið um kóðann og hann notaður þegar vörulistamóttakandi hringir til að leggja inn pöntun í síma (eða nú til dags er vanalegra að kóðinn sé sleginn inn þegar viðskiptavinurinn leggur inn pöntun á netinu). Þó að mismunandi iðnaðarhugtök séu notaðar til að bera kennsl á þennan rakningarkóða vörulista (þar með talið lykilkóði, kynningarkóði, vörulistakóði, frumkóði), vísum við til kóðans í Dynamics 365 for Retail sem **Frumkóðakenni**.
+Markaðsfyrirtæki sem selja beint til neytenda eru mjög upptekin af því að rekja svörun tengda vörulistunum til að tryggja að kostnaður við framleiðslu þeirra og póstsendingu sé réttlætanleg. Til að fylgjast með svöruninni er kóðinn venjulega prentaður á bakhlið vörulistans og síðan er beðið um kóðann og hann notaður þegar vörulistamóttakandi hringir til að leggja inn pöntun í síma (eða nú til dags er vanalegra að kóðinn sé sleginn inn þegar viðskiptavinurinn leggur inn pöntun á netinu). Þó að mismunandi iðnaðarhugtök séu notaðar til að bera kennsl á þennan rakningarkóða vörulista (þar með talið lykilkóði, kynningarkóði, vörulistakóði, frumkóði), vísum við til kóðans í Retail sem **Frumkóðakenni**.
 
 ## <a name="basic-catalog-setup"></a>Grunnuppsetning vörulista
 
@@ -92,7 +92,7 @@ Söluviðauki/viðbótarsöluvörur geta einnig nýtt sér forskriftareiginleika
 
 ## <a name="catalog-requests"></a>Vörulistabeiðnir
 
-Þar sem vörulistar eru grunnstilltir og birtir í Dynamics 365 for Retail, er hægt að nota **Senda vörulista** eiginleikann. Þessi eiginleiki er tiltækur á síðunum **Viðskiptavinur leit** og **Viðskiptavinur þjónusta**. Eftir að þú hefur valið viðskiptavinarskrá í gegnum **Viðskiptavinur leit** eða þegar þú skoðar völdu viðskiptavinareikning frá **Viðskiptavinur þjónusta**, geta notendur valið **Senda vörulista** valkostinn sem opnar svarglugga sem gerir notandanum kleift að velja úr lista yfir allar birtar og virkar vörulistar. Notandi getur valið vörulista og magn, og tiltekið frumkóðakenni til að senda. Þegar þeir smella á **Senda** hnappinn er beiðni geymd, sem síðan er hægt að stjórna með því að prenta **Vörulistabeiðnir** skýrsluna. Hægt er að finna þessa skýrslu með því að fara í **Smásala** \> **Skýrslur símavers** \> **Skýrsla vörulistabeiðna**. Það skráir allar vörulistabeiðnir, þar með talið nafn viðskiptavinar og heimilisfang viðskiptavinar sem óskaði eftir vörulistanum. Hægt er að nota skýrsluna innbyrðis eða gögnin geta verið send til þriðja aðila sem styður ytri ferli sem fela í sér að senda vörulistann efnislega til viðskiptavinarins.
+Þar sem vörulistar eru grunnstilltir og birtir í Retail, er hægt að nota eiginleikann **Senda vörulista**. Þessi eiginleiki er tiltækur á síðunum **Viðskiptavinur leit** og **Viðskiptavinur þjónusta**. Eftir að þú hefur valið viðskiptavinarskrá í gegnum **Viðskiptavinur leit** eða þegar þú skoðar völdu viðskiptavinareikning frá **Viðskiptavinur þjónusta**, geta notendur valið **Senda vörulista** valkostinn sem opnar svarglugga sem gerir notandanum kleift að velja úr lista yfir allar birtar og virkar vörulistar. Notandi getur valið vörulista og magn, og tiltekið frumkóðakenni til að senda. Þegar þeir smella á **Senda** hnappinn er beiðni geymd, sem síðan er hægt að stjórna með því að prenta **Vörulistabeiðnir** skýrsluna. Hægt er að finna þessa skýrslu með því að fara í **Smásala** \> **Skýrslur símavers** \> **Skýrsla vörulistabeiðna**. Það skráir allar vörulistabeiðnir, þar með talið nafn viðskiptavinar og heimilisfang viðskiptavinar sem óskaði eftir vörulistanum. Hægt er að nota skýrsluna innbyrðis eða gögnin geta verið send til þriðja aðila sem styður ytri ferli sem fela í sér að senda vörulistann efnislega til viðskiptavinarins.
 
 ## <a name="additional-features"></a>Viðbótareiginleikar
 

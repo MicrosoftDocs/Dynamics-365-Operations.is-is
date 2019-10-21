@@ -1,6 +1,6 @@
 ---
-title: Samstilla upplýsingar um birgðastöðu úr Finance and Operations við Field Service
-description: Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla upplýsingar á birgðastigi úr Microsoft Dynamics 365 for Finance and Operations við Microsoft Dynamics 365 for Field Service.
+title: Samstilla upplýsingar um birgðastöðu úr Supply Chain Management við Field Service
+description: Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla upplýsingar á birgðastigi úr Dynamics 365 Supply Chain Management við Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 05/07/2019
@@ -19,37 +19,37 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 6b56eb545f87c31ef30d6a897f48539068583486
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: eefbfd1f8d7aa73cbb3330433b08efd889232818
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843434"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251202"
 ---
-# <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>Samstilla upplýsingar um birgðastöðu úr Finance and Operations við Field Service 
+# <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Samstilla upplýsingar um birgðastöðu úr Supply Chain Management við Field Service 
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla upplýsingar á birgðastigi úr Microsoft Dynamics 365 for Finance and Operations við Microsoft Dynamics 365 for Field Service.
+Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla upplýsingar á birgðastigi úr Dynamics 365 Supply Chain Management við Dynamics 365 Field Service.
 
-[![Samstilling viðskiptaferla milli Finance and Operations og Field Service](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
+[![Samstilling viðskiptaferla milli Supply Chain Management og Field Service](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
 
 ## <a name="templates-and-tasks"></a>Sniðmát og verkefni
-Eftirfarandi sniðmát og undirliggjandi verkefni eru notuð til að samstilla stig birgða á lager úr Microsoft Dynamics 365 for Finance and Operations við Microsoft Dynamics 365 for Field Service.
+Eftirfarandi sniðmát og undirliggjandi verk eru notuð til að samstilla lagerstig birgða úr Supply Chain Management í Field Service.
 
 **Sniðmát í gagnasamþættingu**
-- Birgðir afurðar (Fin and Ops til Field Service)
+- Vörubirgðir (Supply Chain Management til Field Service)
   
 **Verkefni í verki gagnasamþættingar**
 - Birgðir afurðar
 
 Eftirfarandi samstillingarverkefni eru nauðsynleg áður en samstilling við birgðastöður getur átt sér stað:
-- Vöruhús (Fin and Ops til Field Service) 
-- Afurðir Field Service með birgðaeiningu (Fin and Ops til Sales) 
+- Vöruhús (Supply Chain Management við Field Service) 
+- Afurðir Field Service við birgðaeiningu (Supply Chain Management við Sales) 
 
 ## <a name="entity-set"></a>Einingastamstæða
 
-| Field Service                      | Finance and Operations                 |
+| Field Service                      | Birgðakeðjustjórnun                |
 |------------------------------------|----------------------------------------|
 | msdynce_externalproductinventories | CDS-birgðir á lager eftir vöruhúsi     |
 
@@ -61,17 +61,17 @@ Upplýsingar um birgðastöðu úr Finance and Operations eru sendar til Field S
 
 Þessar upplýsingar eru sóttar fyrir hverja útgefna afurð fyrir hvert vöruhús og samstilltar á grunni breytingarakningar, þegar birgðastaða breytist.
 
-Í Field Service býr samþættingarlausnin til birgðabækur fyrir delta, til að stöðurnar í Field Service passi við stöðurnar í Finance and Operations.
+Í Field Service býr samþættingarlausnin til birgðabækur fyrir delta, til að stöðurnar í Field Service passi við stöðurnar í Supply Chain Management.
 
-Finance and Operations virkar sem aðalsniðmátið fyrir birgðastöður. Því er mikilvægt að setja upp samþættingu fyrir vinnupantanir, flutninga og leiðréttingar úr Field Service við Finance and Operations ef þessi virkni er notuð í Field Service, ásamt samstillingu á birgðastöðum úr Finance and Operations.
+Supply Chain Management virkar sem aðalsniðmátið fyrir birgðastöður. Því er mikilvægt að setja upp samþættingu fyrir vinnupantanir, flutninga og leiðréttingar úr Field Service við Supply Chain Management ef þessi virkni er notuð í Field Service, ásamt samstillingu á birgðastöðum úr Supply Chain Management.
 
-Afurðir og vöruhús þar sem birgðastöður eru „mastered“ úr Finance and Operations er hægt að stjórna með ítarlegri fyrirspurn og afmörkun (Power Query).
+Afurðir og vöruhús þar sem birgðastöður eru „mastered“ úr Supply Chain Management er hægt að stjórna með ítarlegri fyrirspurn og afmörkun (Power Query).
 
 > [!NOTE]
-> Mögulegt er að búa til mörg vöruhús í Field Services (með **Er viðhaldið utan frá = Nei**) og síðan varpa þeim í stakt vöruhús í Finance and Operations, með eiginleikanum fyrir ítarlega fyrirspurn og afmörkun. Þetta er notað í kringumstæðum þar sem þú vilt að Field Service sjái um ítarlega birgðastöðu og sendi eingöngu uppfærslur til Finance and Operations. Í þessu tilfelli fær Field Service ekki uppfærslur á birgðastöðu frá Finance and Operations. Viðbótarupplýsingar er að finna í [Samstilla birgðaleiðréttingar úr Field Service við Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) og [Samstilla vinnupantanir í Field Service við sölupantanir sem eru tengdar verki í Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+> Mögulegt er að búa til mörg vöruhús í Field Services (með **Er viðhaldið utan frá = Nei**) og síðan varpa þeim í stakt vöruhús í Supply Chain Management, með eiginleikanum fyrir ítarlega fyrirspurn og afmörkun. Þetta er notað í kringumstæðum þar sem þú vilt að Field Service sjái um ítarlega birgðastöðu og sendi eingöngu uppfærslur til Supply Chain Management. Í þessu tilfelli fær Field Service ekki uppfærslur á birgðastöðu frá Supply Chain Management. Viðbótarupplýsingar er að finna í [Samstilla birgðaleiðréttingar úr Field Service við Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) og [Samstilla vinnupantanir í Field Service við sölupantanir sem eru tengdar verki í Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 ## <a name="field-service-crm-solution"></a>CRM-lausn Field Service
-Einingin **Ytri birgðir afurðar** er aðeins notuð fyrir bakvinnslu í samþættingunni. Þessi eining fær gildi fyrir birgðastöðu úr Finance and Operations í samþættingunni og umbreytir síðan þessum gildum í Handvirkar birgðabækur sem síðan breytir afurðum birgða í vöruhúsinu.
+Einingin **Ytri birgðir afurðar** er aðeins notuð fyrir bakvinnslu í samþættingunni. Þessi eining fær gildi fyrir birgðastöðu úr Supply Chain Management í samþættingunni og umbreytir síðan þessum gildum í Handvirkar birgðabækur sem síðan breytir afurðum birgða í vöruhúsinu.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Skilyrði og vörpunaruppsetning
 
@@ -84,10 +84,10 @@ Til að verkið virki þarf að tryggja að samþættingarlykillinn sé uppfær�
       - msdynce_warehouseid (auðkenni vöruhúss)
       
 ### <a name="data-integration-project"></a>Gagnasamþættingarverk
-Hægt er að nota síur með ítarlegri fyrirspurn og síun þannig að eingöngu ákveðnar afurðir og vöruhús sendi upplýsingar um birgðastöðu úr Finance and Operations til Field Service.
+Hægt er að nota síur með ítarlegri fyrirspurn og síun þannig að eingöngu ákveðnar afurðir og vöruhús sendi upplýsingar um birgðastöðu Supply Chain Management til Field Service.
 
 ## <a name="template-mapping-in-data-integration"></a>Sniðmátsvörpun í Gagnasamþættingu
 
-### <a name="product-inventory-fin-and-ops-to-field-service-product-inventory"></a>Birgðir afurðar (Fin and Ops til Field Service): Birgðir afurðar
+### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Vörubirgðir (Supply Chain Management við Field Service): Product inventory
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)

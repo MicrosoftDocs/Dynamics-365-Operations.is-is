@@ -1,0 +1,78 @@
+---
+title: Afurðaráðleggingar í POS
+description: Þetta efni lýsir notkun ráðlegginga um vöru á sölustað (POS) tæki.
+author: bebeale
+manager: AnnBe
+ms.date: 10/01/19
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+ms.search.form: RetailParameters
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: 259664
+ms.assetid: 5dd8db08-cd96-4f7e-9e65-b05ca815d580
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: asharchw
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c78fc1f2f1bb08d01828a8b71ad5d3c16ad31b86
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278382"
+---
+# <a name="product-recommendations-on-pos"></a>Afurðaráðleggingar í POS
+
+[!include [banner](includes/banner.md)]
+
+Í kjarna þess eru tillögur vöru umbreytandi viðskiptaumsóknar sem spannar öll smásölurými til að skapa ríka, grípandi og sérsniðna vöruuppgötvun. Fylgdu skrefunum til að framkvæma þennan eiginleika í POS [hvernig á að bæta ráðleggingum við POS tækin þín.](add-recommendations-control-pos-screen.md) 
+
+Nánari upplýsingar um ráðleggingareiginleika vöru er að finna í [yfirliti yfir ráðleggingar um vörur í POS-skjölum.](../commerce/product-recommendations.md) 
+
+## <a name="scenarios"></a>Sviðsmyndir
+
+Vöruráðleggingar eru virkjaðar fyrir eftirfarandi aðstæður sölustaðar. Þær eru tiltækar í sölukerfi í skýinu eða Modern POS (MPOS).
+
+1. Á síðunni **Upplýsingar um afurð**:
+
+    - • Ef aðili tengdur verslun fer á síðuna **Upplýsingar um afurð** þegar hann skoðar fyrri færslur þvert á mismunandi rásir stingur þjónustan upp á fleiri vörum sem eru líklegar til að vera keyptar saman.
+
+    [![Meðmæli á upplýsingasíðu afurðar](./media/proddetails.png)](./media/proddetails.png)
+
+2. Á síðunni **Færsla**:
+
+    - • Ráðgjafarvélin leggur til hluti sem byggja á öllum listanum yfir hluti í körfunni sem oft eru keyptir saman.
+
+    > [!NOTE]
+    > Til að birta ráðleggingar á síðunni **Færsla** þarf smásöluaðilinn að uppfæra skjáútlitið í Dynamics 365 for Retail. Sleppa verður stýringunni **Ráðleggingar** á síðuna **Færsla**.
+
+    [![Meðmæli á færslusíðunni](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+
+## <a name="configure-dynamics-365-retail-to-enable-pos-recommendations"></a>Skilgreina Dynamics 365 Retail til að virkja ráðleggingar sölustaðar
+
+Til að setja upp vöruráðleggingar skal fylgja þessum skrefum:
+
+1. Gakktu úr skugga um að þjónusta þín hafi verið uppfærð í **10.0.6 bygging.**
+2. Fylgdu leiðbeiningunum um hvernig á að gera [virkja tillögur um vöru](../commerce/enable-product-recommendations.md) fyrir fyrirtæki þitt.
+3. Valfrjálst: Til Að birta ráðleggingar á færsluskjánum, er farið í **Útlit Skjás**útlit skjás valið **Útlitshönnuður afgreiðsluskjás** opnaður, og svo sleppt stýringunni **leiðbeiningar** þar sem þarf.
+4. Farið í **Smásölufæribreytir**, veljið **Vélnám** svo **Já** undir **virkja ráðleggingar sölustaðar**.
+5. Til að sjá ráðleggingar á sölustað skal keyra altæku vinnsluna **1110**. Til að endurspegla breytingar á útlitshönnuði sölustaðar skal keyra skilgreiningarvinnslu rásar **1070**.
+
+
+
+## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Finna úrræði á vandamálum þar sem ráðleggingar um vörur hafa þegar verið virkjaðar
+
+- Flettið upp á **Smásölufæribreytur** \> **Ráðleggingalistar** \> **Slökkva á ráðleggingum um vörur** og keyrið **Altæka skilgreiningarvinnslu \[9999\]**. 
+- Ef **Stýringu ráðleggingar** var bætt við færsluskjáinn með því að nota **Útlitshönnun afgreiðsluskjás** skaltu fjarlægja hana líka.
+- Ef þú hefur frekari spurningar skaltu skoða [Algengar spurningar um tillögur](../commerce/faq-recommendations.md) fyrir meiri upplýsingar.
+
+## <a name="additional-resources"></a>Frekari upplýsingar
+
+[Bættu ráðleggingastjórnun við viðskiptasíðuna í POS-tæki](add-recommendations-control-pos-screen.md)
+[Yfirlit vöru tilmæla](../commerce/product-recommendations.md)
+[Virkja tillögur um vöru](../commerce/enable-product-recommendations.md) 

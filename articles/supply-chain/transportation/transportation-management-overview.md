@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir flutningsstjórnun
-description: Í þessu Umfjöllunarefni er að finna yfirlit yfir Flutningar Stjórnun virkni í Microsoft Dynamics 365 for Finance and Operations.
+description: Í þessu Umfjöllunarefni er að finna yfirlit yfir Flutningar Stjórnun virkni í Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d976ec4d3c294f0ce8e9732b21b9a429f1e47315
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561168"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2027062"
 ---
-# <a name="transportation-management-overview"></a>Yfirlit yfir flutningsstjórnun
+# <a name="transportation-management-overview"></a>Yfirlit flutningsstjórnunar
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu Umfjöllunarefni er að finna yfirlit yfir Flutningar Stjórnun virkni í Microsoft Dynamics 365 for Finance and Operations.
+Í þessu Umfjöllunarefni er að finna yfirlit yfir Flutningar Stjórnun virkni í Finance and Operations.
 
-Flutningsstjórnun leyfir þér að nota flutninga innan fyrirtækis þíns, og þekkja lausnir lánardrottna og leiðir fyrir pantanir á inn og útleið. Til dæmis er hægt að auðkenna hraðast leið eða ódýrast taxta fyrir sendingu. Eftirfarandi tafla lýsir helstu aðstæðum þar sem hægt er að nota flutningsstjórnun í Microsoft Dynamics 365 for Finance and Operations.
+Flutningsstjórnun leyfir þér að nota flutninga innan fyrirtækis þíns, og þekkja lausnir lánardrottna og leiðir fyrir pantanir á inn og útleið. Til dæmis er hægt að auðkenna hraðast leið eða ódýrast taxta fyrir sendingu. Eftirfarandi tafla lýsir helstu aðstæðum þar sem hægt er að nota flutningsstjórnun.
 
 <table>
 <colgroup>

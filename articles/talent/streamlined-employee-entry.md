@@ -1,6 +1,6 @@
 ---
 title: Einfaldaður innsláttur og skoðun starfsmanns
-description: Gagnafærsla fyrir starfskrafta í Dynamics 365 for Talent hefur verið endurbætt til að leyfa skjóta inngöngu fyrir alla starfsmenn, fyrrverandi, virka eða í framtíðinni. Einfaldað/samþætt leiðsagnarlíkan hefur verið uppfært til að finna fljótt tengdar upplýsingar og skoða og gera allar nauðsynlegar uppfærslur.
+description: Gagnafærsla fyrir starfskrafta í Dynamics 365 Talent hefur verið endurbætt til að leyfa skjóta inngöngu fyrir alla starfsmenn, fyrrverandi, virka eða í framtíðinni. Einfaldað/samþætt leiðsagnarlíkan hefur verið uppfært til að finna fljótt tengdar upplýsingar og skoða og gera allar nauðsynlegar uppfærslur.
 author: andreabichsel
 manager: AnnBe
 ms.date: 08/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: be0253ffc4396f36050ef02c51a20d378e44473d
-ms.sourcegitcommit: 4176c333ce3f88c5c68e95bd47e5791d32365dd2
+ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1918205"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009423"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Einfaldaður innsláttur og skoðun starfsmanns
 
 [!include [banner](includes/banner.md)]
 
-Dynamics 365 for Talent leyfir skilvirka færslu starfsmanna- og atvinnugagna. Þú getur fljótt uppfært upplýsingar um vinnusögu fyrir starfsmenn og verktaka í fortíðinni, virkir og í framtíðinni.
+Dynamics 365 Talent leyfir skilvirka færslu starfsmanna- og atvinnugagna. Þú getur fljótt uppfært upplýsingar um vinnusögu fyrir starfsmenn og verktaka í fortíðinni, virkir og í framtíðinni.
 
 Þú getur einnig gert einfaldaðri leiðsöguupplifun kleift að finna fljótt tengdar upplýsingar og gera allar nauðsynlegar breytingar. Þessi aðgerð er nú fáanleg í sandkassaumhverfi. Til að kveikja á þessum eiginleika skaltu fara á **Kerfisstjórnun > Tenglar > Uppsetning > Kerfisfæribreytur > Forskoðunaraðgerðir**. Veldu **Bætt skjámynd starfskrafta og yfirlit**. Þetta mun virkja þessar breytingar fyrir alla notendur. Þú getur slökkt á þessum möguleika hvenær sem er.
 

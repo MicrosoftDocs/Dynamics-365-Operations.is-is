@@ -1,6 +1,6 @@
 ---
-title: Samstilla samkomulagsreikninga í Field Service við reikninga með frjálsum texta í Finance and Operations
-description: Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla samningsreikninga úr Microsoft Dynamics 365 for Field Service við reikninga með frjálsum texta í Microsoft Dynamics 365 for Finance and Operations.
+title: Samþætta reikningssamkomulag í Field Service við reikninga með frjálsum texta í Supply Chain Management
+description: Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla samningsreikninga í Dynamic 365 Field Service við reikninga með frjálsum texta í Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/10/2018
@@ -19,46 +19,46 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 55301ba39dd28fbae5b6c21b1da3c3d9cf6afd8a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3ca0014dc8bc1c70670a3cf85527eee0ef44865f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560164"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249866"
 ---
-# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>Samstilla reikningssamkomulag í Field Service við reikninga með frjálsum texta í Finance and Operations
+# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Samþætta reikningssamkomulag í Field Service við reikninga með frjálsum texta í Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla samningsreikninga úr Microsoft Dynamics 365 for Field Service við reikninga með frjálsum texta í Microsoft Dynamics 365 for Finance and Operations.
+Þetta efnisatriði fjallar um sniðmátin og undirliggjandi verkefni sem notuð eru til að samstilla samningsreikninga úr Dynamics 365 Field Service við reikninga með frjálsum texta í Dynamics 365 Supply Chain Management.
 
 ## <a name="templates-and-tasks"></a>Sniðmát og verkefni
 
-Eftirfarandi sniðmát og undirliggjandi verkefni eru notuð til að keyra samstillingu samkomulagsreikninga frá Field Service við reikninga með frjálsum texta í Finance and Operations.
+Eftirfarandi sniðmát og undirliggjandi verkefni eru notuð til að keyra samstillingu samkomulagsreikninga frá Field Service við reikninga með frjálsum texta í Supply Chain Management.
 
-**Heiti sniðmátsins í Gagnaflutningi:**
+**Heiti sniðmátsins í Gagnaflutningi**
 
-- Samningsreikningar (Field Service við Fin and Ops)
+- Samkomulagsreikningar (Field Service til Supply Chain Management)
 
-**Heiti verksins í gagnasamþættingarverki:**
+**Heiti verksins í gagnasamþættingarverki**
 
 - Reikningshausar
-- Reikningslínur
+- Línur á reikningi
 
 Eftirfarandi samstillingar er krafist áður en samstilling samningsreikninga getur farið fram:
 
-- Lyklar (Sales til Fin and Ops) - Beint
+- Lyklar (Sales til Supply Chain Management) - Beint
 
 ## <a name="entity-set"></a>Einingastamstæða
 
-| Field Service  | Finance and Operations                 |
+| Field Service  | Birgðakeðjustjórnun                 |
 |----------------|----------------------------------------|
 | reikningar       | Frjálstextareikningshausar CDS viðskiptavinar |
 | invoicedetails | Frjálstextareikningslínur CDS viðskiptavinar   |
 
 ## <a name="entity-flow"></a>Einingaflæði
 
-Reikningar sem eru búnir til úr samningi í Field Service má samstilla við Finance and Operations með Common Data Service (CDS) gagnasamþættingarverki. Uppfærslur á þessum reikningum verða samstilltar við reikninga með frjálsum texta í Finance and Operations ef bókhaldsstaða reiknings með frjálsum texta er **Í vinnslu**. Eftir að reikningar með frjálsum texta eru bókaðir í Finance and Operations og bókhaldsstaðan er uppfærð í **Lokið** verður ekki lengur hægt að samstilla uppfærslur frá Field Service.
+Reikningar sem eru búnir til úr samningi í Field Service má samstilla við Supply Chain Management með Common Data Service gagnasamþættingarverki. Uppfærslur á þessum reikningum verða samstilltar við reikninga með frjálsum texta í Supply Chain Management ef bókhaldsstaða reiknings með frjálsum texta er **Í vinnslu**. Eftir að reikningar með frjálsum texta eru bókaðir í Supply Chain Management og bókhaldsstaðan er uppfærð í **Lokið** verður ekki lengur hægt að samstilla uppfærslur frá Field Service.
 
 ## <a name="field-service-crm-solution"></a>CRM-lausn Field Service
 
@@ -66,18 +66,18 @@ Reitnum **Er með línur með samningsuppruna** hefur verið bætt við einingun
 
 Reitnum **Er með samingsuppruna** hefur verið bætt við eininguna **Reikningslína**. Þessi reitur hjálpar til við að tryggja að aðeins reikningslínur sem eru búnar til úr samningi séu samstilltar. Gildið er **rétt** ef reikningslínan kemur upprunalega úr samningi.
 
-**Reikningsdagsetning** er áskilinn reitur í Finance and Operations. Þess vegna verður reiturinn að hafa gildi í Field Service áður en samstillingin er gerð. Til að uppfylla þessa kröfu er eftirfarandi reglu bætt við:
+**Reikningsdagsetning** er áskilinn reitur í Supply Chain Management. Þess vegna verður reiturinn að hafa gildi í Field Service áður en samstillingin er gerð. Til að uppfylla þessa kröfu er eftirfarandi reglu bætt við:
 
 - Ef reiturinn **Reikningsdagsetning** er auður á einingunni **Reikningur** (það er ef hann hefur ekkert gildi) er hann stilltur á núverandi dagsetningu þegar reikningslínu sem er upprunnin úr samningi er bætt við.
 - Notandi getur breytt reitnum **Reikningsdagsetning**. Hins vegar, þegar notandi reynir að vista reikning sem er upprunninn úr samningi, fær hann eða hún viðskiptaferilsvillu ef reiturinn **Reikningsdagsetning** er auður á reikningi.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Skilyrði og vörpunaruppsetning
 
-### <a name="in-finance-and-operations"></a>Í Finance and Operations
+### <a name="in-supply-chain-management"></a>Í Supply Chain Management
 
-Setja verður upp uppruna reiknings fyrir samþættinguna til að greina reikninga með frjálsum texta í Finance and Operations sem eru búnir til úr samningsreikningum í Field Service. Þegar reikningur hefur uppruna reiknings af gerðinni **Samþætting samningsreiknings** er reiturinn **Ytra reikningsnúmer** sýndur á haus **Sölureiknings**.
+Setja verður upp uppruna reiknings fyrir samþættinguna til að greina reikninga með frjálsum texta í Supply Chain Management sem eru búnir til úr samningsreikningum í Field Service. Þegar reikningur hefur uppruna reiknings af gerðinni **Samþætting samningsreiknings** er reiturinn **Ytra reikningsnúmer** sýndur á haus **Sölureiknings**.
 
-Fyrir utan að birtast á reikningshausnum, er hægt að nota upplýsingarnar **Ytra reikningsnúmer** til að tryggja að reikningar sem eru búnir til úr samningsreikningum Field Service séu síaðir út við samstillingu reikninga úr Finance and Operations við Field Service.
+Fyrir utan að birtast á reikningshausnum, er hægt að nota upplýsingarnar **Ytra reikningsnúmer** til að tryggja að reikningar sem eru búnir til úr samningsreikningum Field Service séu síaðir út við samstillingu reikninga úr Supply Chain Management við Field Service.
 
 1. Farðu í **Viðskiptakröfur** \> **Uppsetning** \> **Upprunakóðar reiknings**.
 2. Veldu **Nýr** til að búa til nýjan uppruna reiknings.
@@ -91,7 +91,7 @@ Fyrir utan að birtast á reikningshausnum, er hægt að nota upplýsingarnar **
 
 Verkefni: **Reikningslínur**  
 
-Gakktu úr skugga um að sjálfgefið gildi fyrir Finance and Operations reitinn **Birt gildi aðallykils** sé uppfært til að passa við æskilegt gildi.
+Gakktu úr skugga um að sjálfgefið gildi fyrir Supply Chain Management reitinn **Birt gildi aðallykils** sé uppfært til að passa við æskilegt gildi.
 
 Sjálfgefið sniðmátsgildi er **401100**.
 
@@ -99,10 +99,10 @@ Sjálfgefið sniðmátsgildi er **401100**.
 
 Eftirfarandi myndir sýna sniðmátsvörpunina í Gagnasamþættingu.
 
-### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-headers"></a>Samningsreikningar (Field Service to Fin og Ops): Reikningshausar
+### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-headers"></a>Samkomulagsreikningar (Field Service til Supply Chain Management): Reikningshausar
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
 
-### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-lines"></a>Samningsreikningar (Field Service to Fin og Ops): Reikningslínur
+### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Samkomulagsreikningar (Field Service til Supply Chain Management): Reikningslínur
 
 [![Sniðmátsvörpun í Gagnasamþættingu](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)

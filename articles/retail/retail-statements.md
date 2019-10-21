@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 9e88a8b22b73aca5c2cee6984ecad3c62e597102
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 63cad6b2f7240bb14fe7a9237498c0140df77774
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568000"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025030"
 ---
 # <a name="retail-statements"></a>Smásöluuppgjör
 
 [!include [banner](includes/banner.md)]
 
-Í Microsoft Dynamics 365 for Retail, er bókunarferli uppgjörs notað til að gera grein fyrir færslum sem koma upp í sölustað í skýi eða Modern POS (MPOS). Uppgjörsbókunarferlið notast við dreifingaráætlunina til að sækja safn sölustaðarfærslna í höfuðbiðlara (HQ). Færibreytur sem skilgreindar eru á síðunum **Smásölufæribreytur** og **Verslanir** eru notaðar til að velja færslurnar sem eru sóttar í einstök uppgjör.
+Í Dynamics 365 Retail, er bókunarferli uppgjörs notað til að gera grein fyrir færslum sem koma upp í sölustað í skýi eða Modern POS (MPOS). Uppgjörsbókunarferlið notast við dreifingaráætlunina til að sækja safn sölustaðarfærslna í höfuðbiðlara (HQ). Færibreytur sem skilgreindar eru á síðunum **Smásölufæribreytur** og **Verslanir** eru notaðar til að velja færslurnar sem eru sóttar í einstök uppgjör.
 
 Eftirfarandi skýringarmynd sýnir uppgjörsbókunarferlið. Í þessu ferli eru færslur sem eru skráðar á sölustað sendar til biðlara með því að nota verkraðara smásölu. Eftir að biðlari tekur við færslunum, er hægt að stofna, reikna og bóka færsluuppgjör fyrir verslunina.
 
@@ -85,6 +85,6 @@ Ef gátreiturinn **Bóka sem viðskiptadag** er hreinsaður fyrir sömu verslun,
 Þegar yfirlit er bókað, eru sölupantanir og reikninga stofnaðir fyrir smásölu í yfirlitinu.
 
 - Staðgreiddum sölum er safnað saman í eina sölupöntun og eru reikningsfærðar fyrir sjálfgefinn viðskiptavin sem úthlutaður er versluninni.
-- Smásala þar sem viðskiptavinur var bætt við færslu í Microsoft Dynamics 365 for Retail sölustöðum mynda sérstaka sölupantanir og reikninga, einn fyrir hvert einkvæmt kenni viðskiptavinar.
+- Smásala þar sem viðskiptavinur var bætt við færslu í Retail POS mynda sérstaka sölupantanir og reikninga, einn fyrir hvert einkvæmt kenni viðskiptavinar.
 
 Greiðslubækur eru sjálfkrafa stofnaðar fyrir greiðslur í uppgjörinu og á birgðirnar eru uppfærðar fyrir verslun á sölustaður.

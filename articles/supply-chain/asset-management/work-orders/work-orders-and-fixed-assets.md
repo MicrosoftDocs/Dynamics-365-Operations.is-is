@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-15
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f03b7fa073c4e5338b7b5681ba7b8c9fe00a657b
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 95fe394d22f9fe81511c230a2cf7b8ddf00d896f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875708"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250830"
 ---
 # <a name="work-orders-and-fixed-assets"></a>Verkbeiðnir og eignir
 
@@ -33,7 +33,7 @@ ms.locfileid: "1875708"
 [!include [banner](../../includes/preview-banner.md)]
 
 
-Í eignastýringu geta eignir verið tengdar fastafjármunum og þú getur búið til verkbeiðnir fyrir þessar eignir. Ef þú notar þessa virkni geturðu fengið fullkomið yfirlit yfir fastafjármuni, tengd fjárfestingarverkefni og kostnaðinn sem skráður er á fjárfestingarverkefnin í einingunni **Verkefnisstjórnun og bókhald** og eininguna **Fastafjármunir** í Dynamics 365 for Finance and Operations.
+Í eignastýringu geta eignir verið tengdar fastafjármunum og þú getur búið til verkbeiðnir fyrir þessar eignir. Ef þú notar þessa virkni geturðu fengið fullkomið yfirlit yfir fastafjármuni, tengd fjárfestingarverkefni og kostnaðinn sem skráður er á fjárfestingarverkefnin í einingunni **Verkefnisstjórnun og bókhald** og eininguna **Fastafjármunir**.
 
 >[!NOTE]
 >Reiturinn **Númer eignar** er aðeins fylltur út í vinnslugerð verkbeiðni ef gerðin „Fjárfesting“ er valin sem verkgerð í verkbeiðniverki.

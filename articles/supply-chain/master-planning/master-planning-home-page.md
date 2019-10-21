@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543584"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250692"
 ---
 # <a name="master-planning-home-page"></a>Aðaláætlanagerð – heimasíða
 
@@ -74,7 +74,7 @@ Eftirfarandi námskort sýnir helstu hugtök og verkefni sem finna má í grunns
 Finna má skoðanir, fréttir og aðrar upplýsingar um Aðaláætlanagerð og aðrar lausnir á [Dynamics AX Manufacturing R&D Team Blog](https://blogs.msdn.microsoft.com/axmfg) og [Aðfangakeðjustjórnun í Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Verkleiðbeiningar
-Frekari hjálp er í boði sem verkleiðbeiningar í Finance and Operations. Smellið á hnappinn **Hjálp** á hvaða síðu sem er til að fá aðgang að leiðbeiningum fyrir verkefni.
+Frekari hjálp er tiltæk sem leiðbeiningar fyrir verkefni. Smellið á hnappinn **Hjálp** á hvaða síðu sem er til að fá aðgang að leiðbeiningum fyrir verkefni.
 
 ### <a name="webinars"></a>Vefnámskeið
 [Nota Azure-vélnám fyrir eftirspurnarspár](https://www.youtube.com/watch?v=4nQsccdFFDA&feature=youtu.be)

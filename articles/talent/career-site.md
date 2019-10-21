@@ -1,6 +1,6 @@
 ---
-title: Settu upp ferilssíðu þína í Microsoft Dynamics 365 for Talent - Attract
-description: Þetta efnisatriði veitir yfirlit yfir starfatorg sem snýr að umsækjendum í Microsoft Dynamics 365 for Talent - Attract.
+title: Settu upp ferilssíðu þína í Microsoft Dynamics 365 Talent - Attract
+description: Þetta efnisatriði veitir yfirlit um starfatorg sem snýr að umsækjendum í Microsoft Dynamics 365 Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: ec5fe31c6547b008b29e656729c35863d90bffc1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739772"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026280"
 ---
 # <a name="set-up-your-career-site"></a>Setja upp ferilssíðu
 
 [!include[banner](../includes/banner.md)]
 
-Þetta efnisatriði veitir yfirlit um starfatorg sem snýr að umsækjendum í Microsoft Dynamics 365 for Talent: Attract. Það útskýrir einnig hvernig á að setja upp þessa virkni.
+Þetta efnisatriði veitir yfirlit yfir starfatorg sem snýr að umsækjendum í Microsoft Dynamics 365 Talent: Attract. Það útskýrir einnig hvernig á að setja upp þessa virkni.
 
 Attract býður upp á eitt starfatorg fyrir hvert umhverfi í leigjanda. Til dæmis, ef fyrirtæki hefur þróunarumhverfi og prófunarumhverfi er eitt starfatorg búð til fyrir þróunarumhverfið og annað starfatorg búið til fyrir prófunarumhverfið. Hvert starfatorg er fullkomlega einangrað og hefur eigið sannvottunarkerfi. Störf og síðum umsækjenda er ekki deilt á milli starfatorga.
 
@@ -62,7 +62,7 @@ Eftirfarandi listi inniheldur algengar vefslóðir starfatorga og hvernig skuli 
 
 -   **Vefslóð á heimasíðu starfatorgs** - Til að sjá vefslóð á heimasíðu starfatorgs skaltu skrá þig inn í Attract sem stjórnandi, veldu **Stjórnendamiðstöð** á **Stillingar** valmyndinni og veldu síðan flipann **Starfatorg umsækjanda**.
 
--   **Vefslóð til að sækja um auglýst starf** - Þegar þú [auglýsir ytra starf](Creating-jobs-Attract.md#postings) í fyrsta skipti getur þú afritað **Sækja um** tengilinn frá Attract-forritinu. Slóðin fyrir þennan tengil verður í eftirfarandi sniði: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
+-   **Vefslóð til að sækja um auglýst starf** - Þegar þú [auglýsir ytra starf](Creating-jobs-Attract.md#postings) í fyrsta skipti getur þú afritað **Sækja um** tengilinn úr Attract. Slóðin fyrir þennan tengil verður í eftirfarandi sniði: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
 
 -   **Vefslóð fyrir auglýst starf** - Vefslóð auglýsts starfs er undirstrengur á Sækja um vefslóðinni. Hún samanstendur af öllu sem tengist númeri starfs. Þar af leiðandi fyrir fyrri Sækja um vefslóðina er vefslóð auglýsta starfsins [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e)
 

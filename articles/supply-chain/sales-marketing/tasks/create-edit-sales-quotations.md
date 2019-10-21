@@ -3,7 +3,7 @@ title: Stofna og breyta sölutilboðum
 description: Þetta ferli sýnir hvernig á að stofna og uppfæra sölutilboð.
 author: omulvad
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f66ec29cc0afd6e1ba5a65b241e3aac42a3c59b5
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2e9db489383d9c6ef05bc25d190d380b3150d311
+ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835635"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "1995005"
 ---
 # <a name="create-and-edit-sales-quotations"></a>Stofna og breyta sölutilboðum
 
@@ -31,49 +31,42 @@ ms.locfileid: "1835635"
 
 
 ## <a name="create-a-sales-quotation"></a>Stofna sölutilboð
-1. Fara í Sölu og markaðssetningu > Sölutilboð > Öll tilboð.
-2. Smellið á „Nýtt“.
-3. Veljið 'Viðfang' í svæðinu gerð lykils.
-4. Færa inn eða veljið gildi í svæðinu viðfang.
-5. Víkkið út almenna hlutann.
-    * Þar sem valið var að stofna tilboð frá Sölu og Markaðssetningar svæði, er gerð sjálfkrafa stillt á sölutilboð. Til að stofna tilboð fyrir verk verður opnuð hana úr verkefnastjórnunar- og bókhaldskerfi.   
-6. Smellið á „Í lagi“.
-    * Svæði og aðgerðir í tilboðslínunum er mjög svipuð þær á sölupöntunarlínum.   Eins og sölupantanir er hægt að stofna tilboð fyrir tiltekna vöru eða þegar vörunúmerið er ekki þekkt eða er ekki til þegar tilboð var stofnað, hægt er að stofna tilboð fyrir söluflokk.  
-7. Í reitinn vara skal slá inn eða veldu gildi.
-8. Í reitinn vara skal slá inn gildi.
-9. Lokið síðunni.
-10. Færið inn númer í reitnum „Magn“.
-    * Ef gildir viðskiptasamningar fyrir vöruna sem valin er á línunni eru til, verð og afslátt sjálfkrafa afritaðir í tilboðslínunni. Gangið úr skugga um að svæði einnigs inniheldur gildi og hægt er einnig að færa afsláttargildi ef óskað er.  
-11. Smellið á „Vista“.
-12. Smellið á „Sölutilboð“ á aðgerðarúðunni.
-13. Smellið á „Samtölur“.
-14. Smellið á „Í lagi“.
-15. Smellið á „Sölutilboðslína“.
-16. Smellið á „Verð“.
-    * Í síðunni Keyra verðhermingu er hægt að gera tilraunir með leiðrétta áætlaðar tekjur eða arðsemisgreiningu af tilboði byggt á viðkomandi einingarverð, afsláttarupphæð, afsláttarprósenta, heildarupphæð, framlegð, eða framlegðarhlutfall.   Þegar þú ert ánægður með tölur, nota sem tillaga fyrir tilboðslínuna og verðtengd svæði verða uppfærðar samkvæmt því.  
-    * Þú getur stofna eins margar verðherming sem óskað er. Þegar smellt er á Nýtt, eru verðskilyrði úr núgildandi tilboðslínu afrituð á síðu. Síðan er hægt að breyta gildi í hvaða verð-tengdum svæðum í þau sem eru markmiðið. Breyting á eitt af svæðunum kveikir endurútreikningur í öllum öðrum svæðum. Til þess að reikna út framlegð sölu og framlegðarhlutfall, verður einingarkostnað afurðar að vera þekkt. Notið flipann hermunarverð fyrir ítarlegri yfirlit yfir upphaflegt verð, lögð til breytingar og áhrif þeirra á tilboðssamtölur.   Almenna reglan er að þegar hermun stillir nýja upphæð er notað í tilboðslínunni, endurreiknar kerfið og færir inn nýtt gildi í reitinn einingarverð. Ef hermunina er byggð á nýja framlegð eða nýtt framlegðarhlutfall, er aðeins nettóupphæð svæðið er uppfært og einingarverð er autt. Í báðum tilvikum afsláttum sem voru í tilboðslínunni fyrir hermun verður eytt.  
-17. Lokið síðunni.
-18. Smellið á „Tilboð“ á aðgerðarúðunni.
-19. Smellið á „Senda tilboð“.
-20. Velja skal Já í svæðinu Prenta tilboðið.
-21. Smellið á „Í lagi“.
-    * Skýrslan getur tekið mínútu til að mynda. Ekki að loka síðunni fyrr en það hefur verið gert.  
-22. Lokið síðunni.
+1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Sala og markaðssetning > Sölutilboð > Öll tilboð**.
+2. Smellt er á **Nýtt**.
+3. Í reitnum **Reikningsgerð** skaltu velja Viðfang.
+4. Í reitnum **Viðfang** skaltu færa inn eða velja gildi.
+5. Víkkaðu út hlutann **Almennt**. Þar sem valið var að stofna tilboð úr svæðinu Sölu- og markaðssetning er gerðin sjálfkrafa stillt á Sölutilboð. Til að stofna tilboð fyrir verk verðurðu að fara í það úr einingunni **Verkefnastjórnun og bókhald**.
+6. Smellt er á **OK**. Svæði og aðgerðir í tilboðslínunum er mjög svipuð þær á sölupöntunarlínum.   Eins og sölupantanir er hægt að stofna tilboð fyrir tiltekna vöru eða þegar vörunúmerið er ekki þekkt eða er ekki til þegar tilboð var stofnað, hægt er að stofna tilboð fyrir söluflokk.     
+7. Í reitinn **Vara** skal færa inn eða velja gildi.
+8. Í reitinn **Svæði** skal slá inn gildi.
+9. Í reitnum **Magn** slærðu inn tölu. Ef gildir viðskiptasamningar fyrir vöruna sem valin er á línunni eru til, verð og afslátt sjálfkrafa afritaðir í tilboðslínunni. Gangið úr skugga um að svæði einnigs inniheldur gildi og hægt er einnig að færa afsláttargildi ef óskað er. 
+10. Smellt er á **Vista**.
+11. Á **Aðgerðasvæðinu** er smellt á **Sölutilboð**.
+12. Smelltu á **Samtölur**.
+13. Smellt er á **OK**.
+14. Veldu sölutilboðslínuna.
+15. Á **aðgerðasvæðinu** er smellt á **Tilboð**.
+16. Smelltu á **Verðhermingu**.
+    - Í síðunni **Keyra verðhermingu** er hægt að gera tilraunir með leiðrétta áætlaðar tekjur eða arðsemisgreiningu af tilboði byggt á viðkomandi einingarverð, afsláttarupphæð, afsláttarprósenta, heildarupphæð, framlegð, eða framlegðarhlutfall. Þegar þú ert ánægður með tölur, nota sem tillaga fyrir tilboðslínuna og verðtengd svæði verða uppfærðar samkvæmt því.  
+    - Hægt er að stofna eins margar verðhermingar og óskað er. Þegar smellt er á **Nýtt** eru verðskilyrði úr núgildandi tilboðslínu afrituð á síðuna. Síðan er hægt að breyta gildi í hvaða verð-tengdum svæðum í þau sem eru markmiðið. Breyting á eitt af svæðunum kveikir endurútreikningur í öllum öðrum svæðum. Til þess að reikna út framlegð sölu og framlegðarhlutfall, verður einingarkostnað afurðar að vera þekkt. Notið flipann hermunarverð fyrir ítarlegri yfirlit yfir upphaflegt verð, lögð til breytingar og áhrif þeirra á tilboðssamtölur. Almenna reglan er að þegar hermun stillir nýja upphæð er notað í tilboðslínunni, endurreiknar kerfið og færir inn nýtt gildi í reitinn einingarverð. Ef hermunina er byggð á nýja framlegð eða nýtt framlegðarhlutfall, er aðeins nettóupphæð svæðið er uppfært og einingarverð er autt. Í báðum tilvikum afsláttum sem voru í tilboðslínunni fyrir hermun verður eytt.
+17. Á **aðgerðasvæðinu** er smellt á **Tilboð**.
+18. Smelltu á **Senda tilboð**.
+19. Veldu Já í reitnum **Prenta tilboð**.
+20. Smellt er á **OK**. Skýrslan getur tekið mínútu til að mynda. Ekki að loka síðunni fyrr en það hefur verið gert.
 
 ## <a name="update-a-sales-quotation"></a>Uppfæra sölutilboð
-1. Smellið á „Fylgja eftir“ á aðgerðarúðunni.
-2. Smellt er á umbreyta í viðskiptavin
-3. Í reitinn Reikningur viðskiptavinar skal slá inn gildi.
-4. Smella skal á athuga.
-    * Gangið úr skugga um að þú sjáir skilaboð um að fært inn í lykilnúmerið er frjálst til notkunar.  
-5. Smellið á „Í lagi“.
-    * Kerfið hefur nú stofnað nýjan viðskiptavinalykil fyrir viðfang á tilboðinu.  
-6. Lokið síðunni.
-7. Smellið á „Fylgja eftir“ á aðgerðarúðunni.
-8. Smellið á „Staðfesta“.
-9. Í reitinn Ástæða skal slá inn eða veldu gildi.
-10. Smellið á „Í lagi“.
-11. Smellið á „Almennt“ á aðgerðarúðunni.
-12. Smellið á „Sölupantanir“.
-13. Lokið síðunni.
+1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Sala og markaðssetning > Sölutilboð > Öll tilboð**.
+2. Í **Aðgerðasvæðinu** skal smellt á **Fylgja eftir**.
+3. Smelltu á **Umbreyta í viðskiptavin**.
+4. Í reitinn **Viðskiptavinalykill** skal slá inn gildi.
+5. Smelltu á **Villuleit**. Gangið úr skugga um að þú sjáir skilaboð um að fært inn í lykilnúmerið er frjálst til notkunar.  
+6. Smellt er á **OK**. Kerfið hefur nú stofnað nýjan viðskiptavinalykil fyrir viðfang á tilboðinu.  
+7. Lokið síðunni.
+8. Í **Aðgerðasvæðinu** skal smellt á **Fylgja eftir**.
+9. Smellið á **Staðfesta**.
+10. Í reitinn **Ástæða** skal slá inn eða velja gildi.
+11. Smellt er á **OK**.
+12. Á **aðgerðasvæðinu** er smellt á **Almennt**.
+13. Smelltu á **Sölupantanir**.
+14. Lokið síðunni.
 

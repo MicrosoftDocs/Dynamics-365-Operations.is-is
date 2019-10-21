@@ -1,0 +1,150 @@
+---
+title: Myndbönd
+description: Þessi síða sýnir „hvernig á að“ og tæknitalsmyndbönd sem Microsoft hefur búið til sem tengjast forritum Finance and Operations sem eru aðgengileg á YouTube og öðrum vefsíðum.
+author: josaw1
+manager: AnnBe
+ms.date: 09/13/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User, IT Pro, Developer
+ms.reviewer: sericks
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: global
+ms.author: josaw
+ms.search.validFrom: 2018-04-30
+ms.dyn365.ops.version: AX 7.0.0, AX 8.0
+ms.openlocfilehash: 7792fe6f5b79e78acabba16c2a551f417688215a
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: is-IS
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2190834"
+---
+# <a name="videos"></a>Myndbönd 
+
+[!include [banner](../includes/banner.md)]
+
+Á [Microsoft Dynamics 365 YouTube rás](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ) geturðu fundið myndskeið búin til af Microsoft sem sýna fjölbreytt úrval af viðskiptalausnum fyrir Dynamics 365-vörur. Í þessum kafla er að finna myndskeið fyrir „hvernig á að“ fyrir forrit Finance and Operations sem hýst eru á rásinni.
+
+> [!Note]
+> Sum myndbandsins sem birt voru voru birt undir fyrra vöruheiti en eiga samt við.
+
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>Myndbönd fyrir þróun og stjórnun Finance and Operations
+
+### <a name="data-integration"></a>Samþætting gagna
+
+- [PTC-samþætting](https://youtu.be/AVV9x5x-XCg)
+- [Samstilling vinnupöntunar á milli Dynamics 365 for Field Service og forrit Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+
+### <a name="data-management"></a>Gagnastjórnun
+
+- [Nota gagnaeiningar og gagnapakka í](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
+
+### <a name="development"></a>Þróunarvalmynd
+
+- [Hvernig skal leysa árekstur í Visual Studio](https://youtu.be/4rxO0zUN2zU)
+- [Fínstillingarráðgjöf](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+- [Uppsetning þróunargreinar og smíði](https://www.youtube.com/watch?v=qXLd-NMx9OY)
+- [Uppsetning þróunarvélar](https://www.youtube.com/watch?v=cqp9MetfiyM)
+- [Azure DevOps samþætting við Lifecycle Services](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
+
+### <a name="intelligence"></a>Greind
+
+- [Hvernig á að breyta innfelldri skýrslu í greiningarvinnusvæði](https://youtu.be/_8WlwmSggcQ)
+- [Hvernig á að fella PowerBI.com skýrslur í forritum Finance and Operations](https://youtu.be/gGWuNJDoi-M)
+- [Koma með eigin gagnagrunn (BYOD) í forritinu Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Hvernig á að nota kostnaðarstjórnun Power BI efni í Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
+
+### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
+
+- [Eignasafn í Lifecycle Services](https://www.youtube.com/watch?v=z-2xMRa1nOs)
+- [Umhverfi í skýi](https://www.youtube.com/watch?v=igjVt1lbyLQ&t=17s)
+- [Stofnar stuðningsmiða frá Dynamics 365 for Operations](https://www.youtube.com/watch?v=avENUYBTBlA&t=2s)
+- [Virkja umhverfi](https://www.youtube.com/watch?v=FUROjGuhQEA&t=68s)
+- [Hefjast handa með Lifecycle Services](https://www.youtube.com/watch?v=qLBjKAPaqN4&t=24s)
+- [Virkjar kóða í sandkassaumhverfi](https://www.youtube.com/watch?v=5azLeOO078k)
+- [Virkjar kóða í vinnsluumhverfi](https://www.youtube.com/watch?v=ogXo-saZkmE&t=2s)
+- [Innleiðingarverk í Lifecycle Services](https://www.youtube.com/watch?v=V1vVOgcTuw4&t=18s)
+- [Stjórna kóðauppfærslu og verkfæraferli](https://www.youtube.com/watch?v=M-AtR6ocYM8&feature=youtu.be)
+- [Stjórnar viðskiptaferlasöfnum í Lifecycle Services](https://www.youtube.com/watch?v=S5msxj-2-x0)
+- [Aðferðarfræði í Lifecycle Services](https://www.youtube.com/watch?v=YRMJ15DvgZ8)
+- [Biðja um vinnsluumhverfi](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
+- [Endurhleður gögn í vinnsluumhverfi](https://www.youtube.com/watch?v=VCd5SgkYPTw)
+- [Taka upp nýja verkvangsútgáfu eftir verkvangsuppfærslu 3](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
+- [Nota fjarmælingar til að fylgjast með helstu afkastateljurum í Dynamics Lifecycle Services](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
+
+
+## <a name="videos-for-dynamics-365-finance"></a>Vídeó fyrir Dynamics 365 Finance
+
+### <a name="customize-the-app"></a>Sérsníddu forritið
+- [Bæta við sérstilltum svæðum](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
+- [Fella inn PowerApps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
+
+### <a name="expenses"></a>Kostnaður
+- [Kostnaðarumhverfi](https://youtu.be/Ocy-MsTvEE0)
+
+### <a name="financial-reporting"></a>Fjárhagsskýrslugerð
+- [Finna útgáfu skýrsluhönnuðar](https://www.youtube.com/embed/icfA5Q3kp4w)
+
+### <a name="help-system"></a>Hjálparkerfi
+
+- [Hvernig á að veita framlag til fylgiskjala Microsoft Dynamics 365](https://youtu.be/m5djioozRbg)
+
+### <a name="office-integration"></a>Office-samþætting
+
+- [Stofna Excel-sniðmát fyrir haus- og línumynstur](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
+
+### <a name="organization-administration"></a>Fyrirtækisstjórnun
+
+- [Skjalastjórnun](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
+
+### <a name="tax-engine"></a>Skattkerfi
+
+- [Yfirlit skattakerfis](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
+
+
+## <a name="videos-for-dynamics-365-supply-chain-management"></a>Vídeó fyrir Dynamics 365 Supply Chain Management
+
+### <a name="costs"></a>Kostnaður
+- [Fartækjavinnusvæði kostnaðarstýringar](https://youtu.be/imsuTg8rUVk)
+- [Hafist handa með kostnaðarbókhald](https://youtu.be/1pUDtJQZ8FU)
+- [Nota Excel fyrir kostnaðargreiningu](https://youtu.be/-HKHYdClvx8)
+
+### <a name="help-system"></a>Hjálparkerfi
+
+- [Hvernig á að veita framlag til fylgiskjala Microsoft Dynamics 365](https://youtu.be/m5djioozRbg)
+
+### <a name="office-integration"></a>Office-samþætting
+
+- [Stofna Excel-sniðmát fyrir haus- og línumynstur](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
+
+### <a name="organization-administration"></a>Fyrirtækisstjórnun
+
+- [Skjalastjórnun](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
+
+### <a name="procurement-and-sourcing"></a>Innkaup og aðföng
+
+- [Samþykkja innkaupapantanir í fartæki](https://youtu.be/gZ-gOlJe7H8)
+- [Nýliðun nýrra lánardrottna](https://www.youtube.com/watch?v=0KUc3AGaTKk&feature=youtu.be)
+
+### <a name="production-control"></a>Framleiðslustýring
+
+- [Röðun virkra efna í uppskrift](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
+- [Endurbætur á losunarferli framleiðslupöntunar](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&feature=youtu.be)
+- [Sjónræn röðun með Gantt-línurit fyrir framleiðslu- og runupantanir](https://youtu.be/BtbuShkGj4I)
+
+
+### <a name="warehouse-management"></a>Vöruhúsakerfi
+
+- [Losa tiltekt framleiðslu í vöruhús í runu](https://youtu.be/8urAJn50dQ8)
+- [Notaðu sniðmát vöruhúss til að afrita skilgreiningu](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
+
+## <a name="fasttrack-tech-talks"></a>FastTrack tæknital
+
+[Tæknital FastTrack](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) einblínir á að veita tæknilega dýpt og bestu starfsvenjur sem veita viðskiptavinum og samstarfsaðilum nákvæma þekkingu sem er sértæk fyrir viðkomandi svið.
+
+

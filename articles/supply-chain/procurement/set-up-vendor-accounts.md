@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7653b01a8d5b80d3026a04d9979906d9ddae5d27
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5ab1f10f0874df36d1227e39f2d2146e85de41e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547676"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249394"
 ---
 # <a name="set-up-vendor-accounts"></a>Setja upp lánardrottnalykla
 
@@ -60,13 +60,13 @@ Hægt er að geyma tengiliði fyrir lánardrottin. Síðan er hægt að nota þe
 
 Til að bæta við tengiliðum fyrir lánardrottinn, á **Allir lánardrottnar** síðunni á **Lánardrottinn** flipanum í **Setja upp** flokknum, er smellt á **Tengiliðir** &gt; **Bæta við tengiliðum**.  
 
-Hægt er að stofna tengiliði lánardrottins frá grunni. Einnig er hægt að afrita upplýsingar frá annarri manneskju sem er þegar skráð í Microsoft Dynamics 365 for Finance and Operations og breyta upplýsingum eins og þarf.  
+Hægt er að stofna tengiliði lánardrottins frá grunni. Einnig er hægt að afrita upplýsingar frá annarri manneskju sem er þegar skráð í Supply Chain Management og breyta upplýsingum eins og þarf.  
 
 **Athugasemd:** að Bæta við tengilið fyrir lánardrottin er ekki það sama og að bæta við tengslaupplýsingum fyrir þann lánardrottinn. Þótt þú gætir bætt við almennum upplýsingum um tengslaupplýsingum við fyrir lánardrottinn, gætu einnig verið til staðar fjölmargir tilteknir einstaklingar sem eru tengiliðir í því fyrirtæki, og eru allir með sínar eigin tengslaupplýsingar.  
 
 Ekki er hægt að eyða færslu tengiliðar ef vísað er til tengiliðs í skjali. Í staðinn er hægt að óvirkja tengiliðinn.  
 
-Hægt er að bæta við tengiliðum lánardrottins við persónulega tengiliði í Microsoft Office 365. Hins vegar verður fyrst að setja upp samstillingu milli Finance and Operations og Office 365 og Microsoft Exchange Server í bæði samstillingu og uppsetningarleiðsögn Microsoft Outlook.
+Hægt er að bæta við tengiliðum lánardrottins við persónulega tengiliði í Microsoft Office 365. Hins vegar verður fyrst að setja upp samstillingu milli Supply Chain Management og Office 365 og Microsoft Exchange Server í bæði samstillingu og uppsetningarleiðsögn Microsoft Outlook.
 
 ## <a name="vendors-in-different-legal-entities"></a>Lánardrottnar í öðrum lögaðilum
 Ef lánardrottinn er skráð aðeins fyrir einn lögaðila í fyrirtækinu, og aðrir lögaðilar þurfa að skrá sama lánardrottin, er hægt að nota **Bæta lánardrottni við annan lögaðila** síðu til að skilgreina lánardrottinn til að geta átt viðskipti við annan lögaðila. Þú verður að velja lánardrottnaflokk, gjaldmiðill, biðstöðu fyrir lánardrottinn í völdum lögaðila.  

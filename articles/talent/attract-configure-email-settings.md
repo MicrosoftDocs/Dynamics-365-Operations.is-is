@@ -1,6 +1,6 @@
 ---
-title: Skilgreindu tölvupóststillingar í Microsoft Dynamics 365 for Talent - Attract
-description: Þetta efni útskýrir hvernig á að skilgreina stillingar fyrir tölvupóst sem er sendur af Microsoft Dynamcis 365 for Talent - Attract.
+title: Skilgreindu tölvupóststillingar í Microsoft Dynamics 365 Talent - Attract
+description: Þetta efni útskýrir hvernig á að skilgreina stillingar fyrir tölvupóst sem er sendur af Microsoft Dynamcis 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/04/2019
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a8cf59064dd2f66ee50a0b0566aa712ba1f72dea
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: c891a36f01d36774bd921475fa5995d207cd2d51
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739496"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008663"
 ---
 # <a name="configure-email-settings"></a>Skilgreina tölvupóststillingar
 
 [!include[banner](../includes/banner.md)]
 
-Vörumerki þitt kemur á trausti og hjálpar þér að byggja upp samband við umsækjendur áður en þeir sækja um stöður hjá þér. Jákvæð upplifun á vörumerki laðar hæfileikaríkt fólk að og eykur hollustu núverandi starfsmanna. Microsoft Dynamics 365 for Talent: Attract gerir þér kleift að skilgreina tölvupóst svo að hann endurspegli vörumerki fyrirtækisins. Þess vegna er hægt að veita samræmda upplifun starfsumsækjenda þegar þeir fara fram í gegnum umsóknarferlið.
+Vörumerki þitt kemur á trausti og hjálpar þér að byggja upp samband við umsækjendur áður en þeir sækja um stöður hjá þér. Jákvæð upplifun á vörumerki laðar hæfileikaríkt fólk að og eykur hollustu núverandi starfsmanna. Microsoft Dynamics 365 Talent: Attract gerir þér kleift að skilgreina tölvupóst svo að hann endurspegli vörumerki fyrirtækisins. Þess vegna er hægt að veita samræmda upplifun starfsumsækjenda þegar þeir fara fram í gegnum umsóknarferlið.
 
 Attract gerir þér kleift að framkvæma þessar aðgerðir:
 

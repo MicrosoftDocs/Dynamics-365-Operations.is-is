@@ -1,6 +1,6 @@
 ---
-title: Birta störf á LinkedIn úr Microsoft Dynamics 365 for Talent - Attract
-description: Þetta efnisatriði útskýrir hvernig á að nota Dynamics 365 for Talent - Attract til að birta störf á LinkedIn.
+title: Birta störf á LinkedIn úr Microsoft Dynamics 365 Talent - Attract
+description: Þetta efnisatriði útskýrir hvernig á að nota Dynamics 365 Talent - Attract til að birta störf á LinkedIn.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: f2109f5e90321598eb2317140eef6bcd86ab82f5
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 014202ca49e5bd6204d450b2a43c7372ed84ff33
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756177"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008244"
 ---
 # <a name="post-jobs-to-linkedin"></a>Birta störf á LinkedIn
 
 [!include [banner](../includes/banner.md)]
 
-LinkedIn er stærsta faglega netkerfið, sem veitir þér aðgang að helsta hæfileikafólki heimsins. Microsoft Dynamics 365 for Talent: Attract hjálpar þér að ná því hæfileikafólki sem þú þarft með því að gera þér kleift að birta störf þín beint úr Attract á LinkedIn.
+LinkedIn er stærsta faglega netkerfið, sem veitir þér aðgang að helsta hæfileikafólki heimsins. Microsoft Dynamics 365 Talent: Attract hjálpar þér að ná því hæfileikafólki sem þú þarft með því að gera þér kleift að birta störf þín beint úr Attract á LinkedIn.
 
 Attract gerir þér kleift að birta takmarkaðar skráningar á LinkedIn án aukakostnaðar. Þessar skráningar eru aðeins fáanlegar með hugbúnaðaraðilum LinkedIn, eins og Attract. Þær birtast ekki í glugganum **Starfsferill** á LinkedIn-síðu fyrirtækisins, því aðeins greiddar skráningar birtast þar. Þær er þó sýndar þegar hugsanlegir umsækjendur skoða öll laus störf. Takmarkaðar skráningar eru einnig sýndar í LinkedIn atvinnuleit.
 

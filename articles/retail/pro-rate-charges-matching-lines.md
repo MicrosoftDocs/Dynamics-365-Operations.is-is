@@ -19,29 +19,29 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 07eea8fd7af4da611b4bd0c9340923f8894fab2c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d9f36da025528272b1a95456acf597dd5d923819
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1526016"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025173"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Hlutfallsskipting hausagjalda á samsvarandi sölulínur
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir virkninni fyrir flokkun á sjálfvirkum gjöldum á hausstigi og hlutfallsskipting þeirra á sölulínur smásölu. Þessi virkni er tiltæk fyrir færslur sem eru búnar til á sölustað (POS) í Microsoft Dynamics 365 for Retail útgáfu 10.0.1 og sölur sem eru búnar til í símaveri í Microsoft Dynamics 365 for Retail útgáfu 10.0.2.
+Þetta efnisatriði lýsir virkninni fyrir flokkun á sjálfvirkum gjöldum á hausstigi og hlutfallsskipting þeirra á sölulínur smásölu. Þessi virkni er tiltæk fyrir færslur sem eru búnar til á sölustað (POS) í Retail útgáfu 10.0.1 og sölur sem eru búnar til í símaveri í Retail útgáfu 10.0.2.
 
 Þessi virkni er aðeins tiltæk ef kveikt er á eiginleikanum [ítarleg sjálfvirk gjöld](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) með því að nota valkostinn á síðunni **Færibreytur smásölu**. Auk þess má nota ítarlega reikningsaðferð fyrir sjálfvirk gjöld eingöngu fyrir sölupantanir smásölu sem eru búnar til í gegnum smásölurásir (POS, símaver og verkvang rafrænna viðskipta Dynamics).
 
 Þessi nýja virkni veitir fyrirtækjum meiri sveigjanleika í því hvernig sjálfvirk gjöld á hausstigi eru reiknuð og notuð í smásölufærslum.
 
-Í útgáfum af Microsoft Dynamics 365 for Retail sem eru eldri en útgáfa 10.0.1 eru sjálfvirk gjöld fyrir hausstig sem eru með tiltekin tengsl flutningsmáta reiknuð aðeins þegar það er samsvörun við flutningsmáta sem er skilgreindur í sölupöntunarhaus.
+Í útgáfum af Retail sem eru eldri en útgáfa 10.0.1 eru sjálfvirk gjöld fyrir hausstig sem eru með tiltekin tengsl flutningsmáta reiknuð aðeins þegar það er samsvörun við flutningsmáta sem er skilgreindur í sölupöntunarhaus.
 
 Til dæmis eru sjálfvirk gjöld fyrir hausstig skilgreind fyrir flutningsmáta **99** og flutningsmáta **11**. Sölupöntun er búin til og flutningsmátinn **99** er skilgreindur í pöntunarhaus. Hins vegar eru nokkrar sölulínur settar upp þannig að þær eru fluttar með því að nota flutningsmátann **11**. Í þessu tilfelli eru aðeins gjöld á hausstigi sem eru tengd við flutningsmátann **99** tekin til greina og notuð í sölupöntun.
 
-Í Dynamics 365 for Retail eru gjöld hausstigs með viðbótar eiginleika sem gerir þér kleift að skilgreina [skilgreinda stigskiptingu gjalds](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery) sem byggist á virði pöntunar. Til dæmis, ef virði pöntunar er á milli $50,00 og $200,00, gæti fyrirtæki viljað innheimta farmgjald sem nemur $5,00. Hins vegar, ef virði pöntunar er á milli $200,01 og $500,00 getur farmgjaldið numið $4,00.
+Í Retail eru gjöld hausstigs með viðbótar eiginleika sem gerir þér kleift að skilgreina [skilgreinda stigskiptingu gjalds](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery) sem byggist á virði pöntunar. Til dæmis, ef virði pöntunar er á milli $50,00 og $200,00, gæti fyrirtæki viljað innheimta farmgjald sem nemur $5,00. Hins vegar, ef virði pöntunar er á milli $200,01 og $500,00 getur farmgjaldið numið $4,00.
 
 Sum fyrirtæki vilja njóta góðs af stigskiptum útreikningi á gjaldi sem er boðið upp á með gjöldum á hausstigi. Hins vegar, í tilfellum sem fela í sér blandaðan flutningsmáta, þarf einnig að ganga úr skugga um að gjöldin sem eru reiknuð séu byggð á samsvörun við flutningsmátann sem er skilgreindur í hverri sölulínu fyrir sig.
 

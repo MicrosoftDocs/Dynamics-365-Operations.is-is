@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a74a1275f08e3dba60a1002a102e143eb37fcd9a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 70fef8035fce7792b44a3d96d1fba342eae88541
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548555"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024753"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Verkskráning og hjálp fyrir Retail Modern POS (MPOS) og sölukerfi í skýinu
 
@@ -34,11 +34,11 @@ ms.locfileid: "1548555"
 
 ## <a name="overview"></a>Yfirlit
 
-Verkskráning í Retail Modern POS eða Cloud POS  er ný lausn sem var þróuð með áherslu á mikla viðbragðsflýti. Hún býður upp á sveigjanleg forritaskil (API) sem eykur þenslugetu og auðveldar snurðulausa samþættingu við neytendur skráninga verkferla. Að auki hefur samþætting verkskráningar við viðskiptaferlavinnslutólið (BPM) í Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) verið þróað áfram. Notendur geta því haldið áfram að búa til efnismiklar skýringarmyndir verkferla úr skráningum til að greina og þróa forrit sín.
+Verkskráning í Retail Modern POS eða Cloud POS er ný lausn sem var þróuð með áherslu á mikla viðbragðsflýti. Hún býður upp á sveigjanleg forritaskil (API) sem eykur þenslugetu og auðveldar snurðulausa samþættingu við neytendur skráninga verkferla. Að auki hefur samþætting verkskráningar við viðskiptaferlavinnslutólið (BPM) í Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) verið þróað áfram. Notendur geta því haldið áfram að búa til efnismiklar skýringarmyndir verkferla úr skráningum til að greina og þróa forrit sín.
 
 ## <a name="architecture"></a>Högun
 
-Verkskráning getur skráð aðgerðir notanda í biðlara af mikilli nákvæmni. Hver stjórntakki er stilltur til að tilkynna verkskráningu um allar framkvæmdar aðgerðir notanda. Stjórntakkinn tillkynnir verkskráningu að tilvik hafi átt sér stað og kemur til skila öllum veigamiklum upplýsingum um samsvarandi rauntímaaðgerð notanda. Þessar upplýsingar úr verkskráning geta safnað gerðum notandaaðgerða (svo sem smellum á hnappa, færslu gilda eða flettingum) og öllum gögnum sem tengjast notandaaðgerða (svo sem gildum og gerð innsláttargagna, samhengi skjámynda eða samhengi færslna). Verkskráning viðheldur upplýsingum af nægilegri nákvæmni til að tryggja að afspilun upptökunnar geti framkvæmt skráðar aðgerðir nákvæmlega eins og notandinn framkvæmdi þær. (Afspilunareiginleikinn hefur ekki enn verið innleiddur í Retail Modern POS eða Cloud POS.)
+Verkskráning getur skráð aðgerðir notanda í biðlara af mikilli nákvæmni. Hver stjórntakki er stilltur til að tilkynna verkskráningu um allar framkvæmdar aðgerðir notanda. Stjórntakkinn tillkynnir verkskráningu að tilvik hafi átt sér stað og kemur til skila öllum veigamiklum upplýsingum um samsvarandi rauntímaaðgerð notanda. Þessar upplýsingar úr verkskráning geta safnað gerðum notandaaðgerða (svo sem smellum á hnappa, færslu gilda eða flettingum) og öllum gögnum sem tengjast notandaaðgerða (svo sem gildum og gerð innsláttargagna, samhengi skjámynda eða samhengi færslna). Verkskráning viðheldur upplýsingum af nægilegri nákvæmni til að tryggja að afspilun upptökunnar geti framkvæmt skráðar aðgerðir nákvæmlega eins og notandinn framkvæmdi þær. (Afspilunareiginleikinn hefur ekki enn verið innleitt í Retail modern POS eða Cloud POS.)
 
 ## <a name="basic-configuration"></a>Einföld grunnstilling
 
@@ -138,7 +138,7 @@ Texti sem færður er inn reitinn **Texti** birtist *undir* texta um skref í Ve
 
 ## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Hjálp í Retail Modern POS og sölukerfi í skýinu
 
-Til að sýna þínar eigin sérsniðnu verkskráningar í hjálparsvæðinu á Retail Modern POS og Cloud POS þannig að hægt er að skoða þær sem texta eða skoða texta þarf að vista verkskráninguna í eigin BPM-safni og síðan uppfæra færibreytur Hjálparkerfis til að vísa í BPM-safnið þitt. Nánari upplýsingar, sjá [ tengja hjálparkerfisins ](../fin-and-ops/get-started/help-connect.md). Retail Modern POS og Cloud POS Help leita í LCS í rauntíma. Leitin er gerð í öllum BPM-söfnum sem valin eru í færibreytum fyrir Hjálparkerfi Microsoft Dynamics 365 for Retail og leitin birtir viðeigandi niðurstöður. Til að komast í valmyndina **Hjálp** er smellt á hnappinn **Hjálp** (spurningamerki) efst á skjánum og síðan er heiti verkferlisins slegið inn í leitargluggann og smellt á hnappinn Leita.
+Til að sýna þínar eigin sérsniðnu verkskráningar í hjálparsvæðinu á Retail Modern POS og Cloud POS þannig að hægt er að skoða þær sem texta eða skoða texta þarf að vista verkskráninguna í eigin BPM-safni og síðan uppfæra færibreytur Hjálparkerfis til að vísa í BPM-safnið þitt. Nánari upplýsingar, sjá [Tengt við hjálparkerfið](../fin-and-ops/get-started/help-connect.md). Retail Modern POS og Cloud POS Help leita í LCS í rauntíma. Leitin er gerð í öllum BPM-söfnum sem valin eru í færibreytum fyrir Hjálparkerfi Retail og leitin birtir viðeigandi niðurstöður. Til að komast í valmyndina **Hjálp** er smellt á hnappinn **Hjálp** (spurningamerki) efst á skjánum og síðan er heiti verkferlisins slegið inn í leitargluggann og smellt á hnappinn Leita.
 
 [![Hnappurinn Hjálp](./media/help.jpg)](./media/help.jpg)
 

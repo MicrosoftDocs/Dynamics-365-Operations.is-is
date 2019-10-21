@@ -1,6 +1,6 @@
 ---
-title: Finna umsækjendur með LinkedIn Recruiter í Microsoft Dynamics 365 for Talent - Attract
-description: Notaðu LinkedIn samþættingu við Microsoft Dynamics 365 for Talent - Attract til að finna umsækjendur til starfa í gegnum LinkedIn Recruiter.
+title: Finna umsækjendur með LinkedIn Recruiter í Microsoft Dynamics 365 Talent - Attract
+description: Notaðu LinkedIn samþættingu við Microsoft Dynamics 365 Talent - Attract til að finna umsækjendur til starfa í gegnum LinkedIn Recruiter.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -19,17 +19,17 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 14aba16fa81a8f25d0f88247319254407d428b2a
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 366dc2be6e35098dba4b26a34bb75a84913549f5
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739450"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008571"
 ---
 # <a name="source-candidates-with-linkedin-recruiter"></a>Finna umsækjendur með LinkedIn Recruiter
 [!include[banner](../includes/banner.md)]
 
-LinkedIn er heimsins stærsta faglega netkerfið, sem veitir þér aðgang að helsta hæfileikafólki heimsins. Microsoft Dynamics 365 for Talent: Attract gerir þér kleift að finna umsækjendur beint hjá LinkedIn. Þess vegna er auðveldara en nokkru sinni fyrr að finna hæfileikafólkið sem þú þarft til að ráða í opnar stöður. Eftir að þú hefur sett upp tenginguna við LinkedIn í gegnum Attract geturðu skoðað hugsanlega LinkedIn umsækendur um stöðurnar og flutt þá út í Attract með einum smelli.
+LinkedIn er heimsins stærsta faglega netkerfið, sem veitir þér aðgang að helsta hæfileikafólki heimsins. Microsoft Dynamics 365 Talent: Attract gerir þér kleift að finna umsækjendur beint hjá LinkedIn. Þess vegna er auðveldara en nokkru sinni fyrr að finna hæfileikafólkið sem þú þarft til að ráða í opnar stöður. Eftir að þú hefur sett upp tenginguna við LinkedIn í gegnum Attract geturðu skoðað hugsanlega LinkedIn umsækendur um stöðurnar og flutt þá út í Attract með einum smelli.
 
 Ef þú virðist ekki hafa þessa getu skaltu hafa samband við stjórnanda þinn. Áður en þú getur nýtt þér LinkedIn Recruiter frá Attract verður stjórnandi þinn að [setja upp samþættingu við LinkedIn](./attract-admin-linkedin.md). Þú getur síðan sett upp tenginguna við LinkedIn Recruiter og byrjað að finna umsækjendur.
 
@@ -41,7 +41,7 @@ Ef þú virðist ekki hafa þessa getu skaltu hafa samband við stjórnanda þin
 2. Veldu **Notandastillingar**.
 3. Á flipanum **Tengingar** velurðu **Tengjast** við hliðina á **LinkedIn**. Fylgdu leiðbeiningunum sem fylgja með LinkedIn.
 
-    ![[Setja upp tengingu við LinkedIn Recruiter úr Attract] (./ media / attract-setup-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
+    ![[Setja upp tengingu við LinkedIn Recruiter úr Attract](./media/attract-set-up-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
 
 ## <a name="view-linkedin-candidates-in-attract"></a>Skoða umsækjendur í LinkedIn í Attract
 
@@ -49,7 +49,7 @@ Eftir að þú hefur tengst við LinkedIn Recruiter geturðu skoðað LinkedIn f
 
 1. Í Attract velurðu **Störf** eða **Hæfileikasöfn** vinstra megin og síðan umsækjanda.
 
-    ![[Skoða LinkedIn umsækjendur í Attract] (./ media / attract-view-linkedin -andid.png)](./media/attract-view-linkedin-candidates.png)
+    ![[Skoða LinkedIn umsækjendur í Attract](./media/attract-view-linkedin-candidates.png)](./media/attract-view-linkedin-candidates.png)
 
 2. Í forstillingum umsækjandans velurðu flipann **LinkedIn**. Þú getur skoðað forstillingar umsækjandans ásamt InMail sögu og LinkedIn athugasemdasögu.
 
@@ -86,7 +86,7 @@ Héðan geturðu vistað umsækjandann í LinkedIn Recruiter verkefni, sent inMa
     - **Endurgjöf viðtals** – Sjá endurgjöf sem spyrlar hafa sent inn í Attract.
     - **Athugasemdir** - Sjá allar athugasemdir sem hafa verið færðar inn fyrir þennan umsækjanda í Attract.
 
-    ![[Skoða Attract upplýsingar úr LinkedIn Recruiter] (./ media / attract-view-information-from-linkedin-recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
+    ![[Skoða Attract upplýsingar úr LinkedIn Recruiter](./media/attract-view-information-from-linkedin-recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
 
 > [!NOTE]
 > Umsækjandi og umsóknargögn verða ekki samstillt við LinkedIn Recruiter ef umsækjandi komst ekki yfir viðfangsstigið.

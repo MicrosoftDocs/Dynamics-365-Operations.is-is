@@ -1,6 +1,6 @@
 ---
-title: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (júlí 2018)
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent Core HR.
+title: Nýjungar eða breytingar í Dynamics 365 Talent - Core HR (júlí 2018)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent - Core HR.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/31/2018
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.openlocfilehash: c0867fcf6203c303a700723d8c190378f495dac0
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: ba06183f32e9a788432bae640d1997f2ffb127f1
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856258"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010223"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-july-2018"></a>Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (júlí 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-july-2018"></a>Nýjungar eða breytingar í Dynamics 365 Talent: Core HR (júlí 2018)
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent Core HR.
+Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent: Core HR.
 
-## <a name="powerapps-personalization"></a>Sérstillingar PowerApps
+## <a name="powerapps-personalization"></a>PowerApps sérstilling
 
-Microsoft Dynamics 365 for Talent styður samþættingu við Microsoft PowerApps-þjónustuna. PowerApps leyfir bæði þróunaraðilum og öðrum ekki tæknilegum notendum að byggja upp sérsniðin viðskiptaforrit fyrir fartæki, spjaldtölvur og netið án þess að skrifa kóða. Forrit sem þú, fyrirtæki þitt eða breiðara vistkerfi þróa með því að nota PowerApps er síðan hægt að fella inn í biðlara Talent til að auka virkni vörunnar. Til dæmis gætir þú byggt upp forrit sem bætir upplýsingum við Talent sem eru sótt frá öðru kerfi.
+Talent styður samþættingu við Microsoft PowerApps-þjónustuna. PowerApps leyfir bæði þróunaraðilum og öðrum ekki tæknilegum notendum að byggja upp sérsniðin viðskiptaforrit fyrir fartæki, spjaldtölvur og netið án þess að skrifa kóða. Forrit sem þú, fyrirtæki þitt eða breiðara vistkerfi þróa með því að nota PowerApps er síðan hægt að fella inn í biðlara Talent til að auka virkni vörunnar. Til dæmis gætir þú byggt upp forrit sem bætir upplýsingum við Talent sem eru sótt frá öðru kerfi.
 
 Frekari upplýsingar er að finna í [Fella inn PowerApps forrit](../fin-and-ops/get-started/embed-power-apps.md).
 

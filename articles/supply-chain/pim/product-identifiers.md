@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 68be63370eca0089649c47de0ba0bc9bd335b905
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546226"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250600"
 ---
 # <a name="product-identifiers"></a>Afurðarkenni 
 
@@ -36,13 +36,13 @@ ms.locfileid: "1546226"
 
 ## <a name="unique-product-numberproduct-id"></a>Einkvæm afurðarnúmer/afurðarkenni
 
-Í Microsoft Dynamics 365 for Finance and Operations er afurðarnúmerið aðalauðkenni afurðar (þ.e. einkvæma afurðarkennið). Hægt er að búa númerið til sjálfkrafa með númeraröð eða tengja það handvirkt við afurð. Fyrir afurðarafbrigði er hægt að skilgreina númerin með nafnakerfissniði afurðar.
+Í Dynamics 365 Supply Chain Management er afurðarnúmerið aðalauðkenni afurðar (þ.e. einkvæma afurðarkennið). Hægt er að búa númerið til sjálfkrafa með númeraröð eða tengja það handvirkt við afurð. Fyrir afurðarafbrigði er hægt að skilgreina númerin með nafnakerfissniði afurðar.
 
-Í mörgum tilvikum er afurðarnúmerið ekki upphaflega stofnað í Finance and Operations. Þess í stað er það tengt afurð í lífferilssstjórnunarkerfi afurðar (PLM) eða gagnastjórnunarkerfi afurðar (PDM). Í þessu tilviki eru gagnaeiningar notaðar til að flytja inn afurðir og afurðarafbrigði. Finance and Operations notar síðan númerin í öllum aðgerðum.
+Í mörgum tilvikum er afurðarnúmerið ekki upphaflega stofnað í Dynamics 365 Supply Chain Management. Þess í stað er það tengt afurð í lífferilssstjórnunarkerfi afurðar (PLM) eða gagnastjórnunarkerfi afurðar (PDM). Í þessu tilviki eru gagnaeiningar notaðar til að flytja inn afurðir og afurðarafbrigði. Supply Chain Management notar síðan tölurnar í öllum aðgerðum.
 
-Þegar Finance and Operations er innleitt ætti að taka sérstakt tillit til stefnunar er varðar afurðarnúmer. Gott númerakerfi bætir flæði vörustjórnunar og hjálpar til við að koma í veg fyrir villur. Gott afurðarkenni er að hámarki 15 stafir. Helst hefur það færri en 10 stafi og inniheldur ekki meira en fimm stafaflokka. Einnig er hægt að nota leitarheiti til að virkja flýtileitir. Leitarheiti er viðbótarheiti sem táknar flokkanir afurða.
+Þegar Supply Chain Management er innleitt ætti að taka sérstakt tillit til stefnunar er varðar afurðarnúmer. Gott númerakerfi bætir flæði vörustjórnunar og hjálpar til við að koma í veg fyrir villur. Gott afurðarkenni er að hámarki 15 stafir. Helst hefur það færri en 10 stafi og inniheldur ekki meira en fimm stafaflokka. Einnig er hægt að nota leitarheiti til að virkja flýtileitir. Leitarheiti er viðbótarheiti sem táknar flokkanir afurða.
 
-Þegar Common Data Service (CDS) er notað, er afurðarnúmerið í Finance and Operations einnig afurðarnúmerið í CDS. Afurðarafbrigði eru samstillt við CDS sem einkvæmar afurðir.
+Þegar þú notar Common Data Service, vörunúmerið í Supply Chain Management er einnig vörunúmerið í Common Data Service. Afurðarafbrigði eru samstillt við Common Data Service sem einkvæmar afurðir.
 
 ## <a name="item-number-and-product-dimensions"></a>Vörunúmer og afurðarvíddir
 
@@ -56,19 +56,19 @@ Auk þess getur þú leitað og afmarkað afurðarnúmerið, afurðarheiti og l�
 
 ## <a name="product-name-and-description"></a>Afurðarheiti og lýsing
 
-Afurðarheiti og lýsing eru auðkenni afurðar sem eru læsileg mönnum og hægt er að viðhalda á mörgum tungumálum. Sjálfgefið birtir biðlari Finance and Operations allar afurðarupplýsingar í sjálfgefnu tungumáli fyrirtækis, ekki á tungumáli notandans. Hins vegar er þýdd afurðarheiti og lýsingar notaðar í öllum samskiptum við viðskiptavini og lánardrottna. Þýðingarnar eru byggðar á tungumálakóða viðskiptavina- og lánardrottnalykla.
+Afurðarheiti og lýsing eru auðkenni afurðar sem eru læsileg mönnum og hægt er að viðhalda á mörgum tungumálum. Sjálfgefið birtir biðlari Supply Chain Management allar afurðarupplýsingar í sjálfgefnu tungumáli fyrirtækis, ekki á tungumáli notandans. Hins vegar er þýdd afurðarheiti og lýsingar notaðar í öllum samskiptum við viðskiptavini og lánardrottna. Þýðingarnar eru byggðar á tungumálakóða viðskiptavina- og lánardrottnalykla.
 
 Fyrir afurðarafbrigði er hægt að mynda afurðarheiti með nafnakerfissniði afurðar. Þar sem engar kröfur eru um að afurðarheitin séu einkvæm, gætirðu fundið margar afurðir sem bera sama heiti.
 
 ## <a name="product-and-item-search-names"></a>Leitarheiti afurðar og vöru
 
-Finance and Operations býður upp á annars konar leitarheit fyrir afurðir og líka fyrir vörur (útgefnar afurðir). Þetta leitarheiti þarf ekki að vera einkvæmt og það er hægt að breyta því eftir að afurð eða afurðarafbrigði varan er stofnað. Við mælum með að þú notir leitarheitið til að leita að afurðum eftir flokkum. Leitarheitin virkja flýtileit, einkum í sölu- og innkaupferlum.
+Supply Chain Management býður upp á annars konar leitarheit fyrir afurðir og líka fyrir vörur (útgefnar afurðir). Þetta leitarheiti þarf ekki að vera einkvæmt og það er hægt að breyta því eftir að afurð eða afurðarafbrigði varan er stofnað. Við mælum með að þú notir leitarheitið til að leita að afurðum eftir flokkum. Leitarheitin virkja flýtileit, einkum í sölu- og innkaupferlum.
 
 Leitarheitið getur einnig innihaldið afurðarkenni viðskiptavinar eða lánardrottins, eða einhver önnur ytri afurðarkenni, ef þetta ytra kenni er aðalleitarskilyrði fyrir afurð.
 
 ## <a name="external-product-identifiers-customer-and-vendor-identifiers"></a>Ytri afurðarkenni (Auðkenni viðskiptavinar og lánardrottins)
 
-Fyrir útgefnar afurðir er hægt að viðhalda vörunúmerum, vöruheitum og vörulýsingum sem viðskiptavinurinn eða lánardrottin notar. Tilvísanirnar eru sýndar á ytri skjölum, t.d. sölupöntunum, innkaupapöntunum, fylgiseðlum og reikningum. Í núverandi útgáfu af Finance and Operations eru ytri tilvísanir ekki sýndar í síðum kjarnastarfsemi. Eina undantekningin er vörunúmer lánardrottins. Þetta númer er sýnt í svarglugganum **Afurðarupplýsingar** ef sjálfgefin lánardrottin er skilgreindur fyrir útgefna afurð.
+Fyrir útgefnar afurðir er hægt að viðhalda vörunúmerum, vöruheitum og vörulýsingum sem viðskiptavinurinn eða lánardrottin notar. Tilvísanirnar eru sýndar á ytri skjölum, t.d. sölupöntunum, innkaupapöntunum, fylgiseðlum og reikningum. Í núverandi útgáfu af Supply Chain Management eru ytri tilvísanir ekki sýndar í síðum kjarnastarfsemi. Eina undantekningin er vörunúmer lánardrottins. Þetta númer er sýnt í svarglugganum **Afurðarupplýsingar** ef sjálfgefin lánardrottin er skilgreindur fyrir útgefna afurð.
 
 Þú getur unnið með ytri afurðarkennum eftir útgefnum afurðum, útgefnum afurðarafbrigðum, viðskiptavini eða viðskiptavinaflokki eða lánardrottni eða lánardrottnaflokki.
 
@@ -77,7 +77,7 @@ Fyrir útgefnar afurðir er hægt að viðhalda vörunúmerum, vöruheitum og v�
 - Fyrir viðskiptavini, á flipanum **Selja**, í flokknum **Tengdar upplýsingar** skal velja **Ytri vörulýsing**.
 - Fyrir lánardrottna, á flipanum **Innkaup**, í flokknum **Tengdar upplýsingar** skal velja **Ytri vörulýsing**.
 
-Á síðunni **Ytri vörulýsingar** geturðu tengt vörunúmer viðskiptavinar eða lánardrottins við útgefna afurð. Þessa tengingu verður að gera fyrir hvern lögaðila. Eftirfarandi upplýsingar er hægt að ná í. Því miður eru merkingarnar örlítið villandi í núverandi útgáfu af Finance and Operations. Hins vegar gæti þessum merkingum verið breytt í framtíðarútgáfu.
+Á síðunni **Ytri vörulýsingar** geturðu tengt vörunúmer viðskiptavinar eða lánardrottins við útgefna afurð. Þessa tengingu verður að gera fyrir hvern lögaðila. Eftirfarandi upplýsingar er hægt að ná í. Því miður eru merkingarnar örlítið villandi í núverandi útgáfu af Supply Chain Management. Hins vegar gæti þessum merkingum verið breytt í framtíðarútgáfu.
 
 | Svæði | Samsvarandi upplýsingar viðskiptavinar | Samsvarandi upplýsingar lánardrottins |
 |-------|------------------------------------|----------------------------------|
@@ -104,15 +104,15 @@ Til að vinna með strikamerki, á síðunni **Útgefnar afurðir**, á flipanum
 
 Í rafrænum viðskiptum er lykilatriði að allir aðilar tali sameiginlegt tungumál og vísi í afurðir með því að nota sameiginlegt sett af auðkennum. Þ.a.l. eru nokkrar atvinnugreinar sem treysta á [GTIN](https://www.gs1.org/id-keys/gtin), sem er alþjóðlegt vörunúmerakerfi sem er einfaldað með GS1.
 
-Í Finance and Operations mælum við með því að þú vinnir með GTIN sem strikamerki. Hins vegar getur þú einnig unnið með það á síðunni **Vara - GTIN**. Til að opna þessa síðu, skaltu á síðunni **Útgefnar afurðir**, á flipanum **Stjórna birgðum**, í flokknum **Vöruhús** velja **GTIN-kóðar**. Athugaðu að GTIN er ekki viðhaldið sem alþjóðlegt númer. Þess í stað er því viðhaldið af lögaðila.
+Við mælum með að viðhalda GTIN sem strikamerki. Hins vegar getur þú einnig unnið með það á síðunni **Vara - GTIN**. Til að opna þessa síðu, skaltu á síðunni **Útgefnar afurðir**, á flipanum **Stjórna birgðum**, í flokknum **Vöruhús** velja **GTIN-kóðar**. Athugaðu að GTIN er ekki viðhaldið sem alþjóðlegt númer. Þess í stað er því viðhaldið af lögaðila.
 
-Í Finance and Operations skilgreinir þú umbúðarafbrigði í vöruhúsaaðgerðum með því að skilgreina tilteknar mælieiningar. Til dæmis er hægt að geyma vöru í stykkjum, í búntum af sex, í bökkum af 18 eða á heilum brettum. Tiltekin mælieining verður skilgreind fyrir hver þessara umbúðarafbrigða. Vegna þess að GTIN er venjulega tengt umbúðaeiningu afurðar, leyfir síðan **Vara - GTIN** að viðhalda mörgum GTIN-kóðum á hverja vöru og mælieiningu. Hins vegar getur þú ekki notað sama GTIN-kóðan oftar en einu sinni fyrir mismunandi vörur eða afurðarafbrigði lögaðila.
+Í Supply Chain Management skilgreinir þú umbúðarafbrigði í vöruhúsaaðgerðum með því að skilgreina tilteknar mælieiningar. Til dæmis er hægt að geyma vöru í stykkjum, í búntum af sex, í bökkum af 18 eða á heilum brettum. Tiltekin mælieining verður skilgreind fyrir hver þessara umbúðarafbrigða. Vegna þess að GTIN er venjulega tengt umbúðaeiningu afurðar, leyfir síðan **Vara - GTIN** að viðhalda mörgum GTIN-kóðum á hverja vöru og mælieiningu. Hins vegar getur þú ekki notað sama GTIN-kóðan oftar en einu sinni fyrir mismunandi vörur eða afurðarafbrigði lögaðila.
 
 Til að viðhalda **GTIN-kóðar** skal á síðunni **Útgefnar afurðir**, á flipanum **Stjórna birgðum** í flokknum **Vöruhús** velja **GTIN**.
 
 ## <a name="external-codes"></a>Ytri kóðar
 
-Hægt er að skilgreina ytri kóða fyrir marga aðila í Finance and Operations. Til dæmis getur þú skilgreint ytri kóða til að bera kennsl á afurðir og útgefnar afurðir. Þessir ytri kóðar geta verið notaðir til að tengja tölfræðilega kóða eða skattkóða við útgefna afurð og útgefið afurðarafbrigði. Ytri kóðar eru skilgreindir af lögaðila og gerð kóða. Þeir verða að vera einkvæmir af lögaðilum, gerð kóða og töflutilvísun.
+Hægt er að skilgreina ytri kóða fyrir marga aðila. Til dæmis getur þú skilgreint ytri kóða til að bera kennsl á afurðir og útgefnar afurðir. Þessir ytri kóðar geta verið notaðir til að tengja tölfræðilega kóða eða skattkóða við útgefna afurð og útgefið afurðarafbrigði. Ytri kóðar eru skilgreindir af lögaðila og gerð kóða. Þeir verða að vera einkvæmir af lögaðilum, gerð kóða og töflutilvísun.
 
 Því miður er engin staðalvirkni sem gerir þér kleift að leita að afurðum út frá ytri kóða.
 
@@ -136,13 +136,13 @@ Hægt er að skilgreina ytri kóða fyrir marga aðila í Finance and Operations
 
 ### <a name="product-and-item-number-sequences"></a>Númeraraðir afurðar og vöru
 
-Í Finance and Operations er hægt að skilgreina tvær mismunandi númeraraðir:
+Þú getur skilgreint tvær mismunandi númeraraðir:
 
 - Númeraröðin **Afurðarnúmer** fyrir alþjóðlega afurðarnúmerið
 - Númeraröðin **Vörunúmer** fyrir vörunúmer á lögaðila
 
 > [!NOTE]
-> Þú ættir aðeins að nota vörunúmerið sem aðskilið auðkenni þegar þú flytur mismunandi lögaðila frá mismunandi upprunastöðum sem höfðu mismunandi númerakerfi. Þú ættir alltaf að reyna að nota vörukenni sem er einkvæmt þvert yfir alla lögaðila. Þess vegna ættir þú að stilla valkostinn **Handvirkt** á **Já** fyrir númeraröðina **Vörunúmer**. Þannig mun vörunúmerið fylgja afurðarnúmerinu við stofnunina. Ef Finance and Operations er ekki leiðandi kerfið fyrir ný afurðarnúmer, þá ættir þú að stilla valkostinn **Handvirkt** á **Já** fyrir báðar númeraraðirnar **Vörunúmer** og **Afurðarnúmer**.
+> Þú ættir aðeins að nota vörunúmerið sem aðskilið auðkenni þegar þú flytur mismunandi lögaðila frá mismunandi upprunastöðum sem höfðu mismunandi númerakerfi. Þú ættir alltaf að reyna að nota vörukenni sem er einkvæmt þvert yfir alla lögaðila. Þess vegna ættir þú að stilla valkostinn **Handvirkt** á **Já** fyrir númeraröðina **Vörunúmer**. Þannig mun vörunúmerið fylgja afurðarnúmerinu við stofnunina. Ef Supply Chain Management er ekki leiðandi kerfið fyrir ný afurðarnúmer, þá ættir þú að stilla valkostinn **Handvirkt** á **Já** fyrir báðar númeraraðirnar **Vörunúmer** og **Afurðarnúmer**.
 
 Þegar þú notar eininguna **Útgefin afurð V2** til að stofna afurðir, geta margar stillingar haft áhrif á hvernig númeraraðirnar eru notaðar til að stofna afurðarnúmer og vörunúmer:
 
@@ -164,13 +164,13 @@ Eftirfarandi tafla veitir yfirlit yfir niðurstöður innflutnings og handvirkra
 
 Kennilíkan afurðareiningar var stofnað til að gera útgáfu 1.0 af CDS kleift að vera úthlutað með öllum auðkennum sem eru notuð til að vísa í afurð. Til að einfalda þetta verk er öllum auðkennum safnað saman í eina altæka auðkennistöflu, svo að hægt sé að flytja þau út sem eitt líkan. Athugaðu að þessi útgáfa af CDS notar ekki kennilíkan afurðar. Þess vegna hefur einingin **Afurðareining auðkenniseiningar Common data service** og þetta ferli takmarkaða hagnýta notkun og mun líklega verða fyrir breytingum í framtíðinni.
 
-Auðkennistafla afurðar er altæk tafla sem er útfyllt af öllum tilvísanatöflum helstu lögaðila með endurtekinni runuvinnslu. Þú verður að velja lögaðila og tegundastigveldi afurðar sem skilgreiningu á umfangi alþjóðlegs afurðarsniðmáts. Myndun á altækri auðkennistöflu afurðar takmarkast við afurðir sem eru gefnar út til valinna lögaðila og afurða sem tilheyra afurðastigveldinu sem er valið fyrir hlutverkið **Common Data Service** í tegundastigveldi afurðar.
+Auðkennistafla afurðar er altæk tafla sem er útfyllt af öllum tilvísanatöflum helstu lögaðila með endurtekinni runuvinnslu. Þú verður að velja lögaðila og tegundastigveldi afurðar sem skilgreiningu á umfangi alþjóðlegs afurðarsniðmáts. Myndun á altækri auðkennistöflu afurðar takmarkast við afurðir sem eru gefnar út til valinna lögaðila og afurða sem tilheyra afurðastigveldinu sem er valið fyrir hlutverkið **Common data service** í tegundastigveldi afurðar.
 
 Í þessu ferli er gert ráð fyrir að gögn afurðarsniðmáts séu fyrst og fremst viðhaldið í einum miðlægum lögaðila. (Hins vegar getur þessi lögaðili verið sýndarlögaðili sem er aðeins notaður til að viðhalda alþjóðlegum aðalgögnum.)
 
 Fylgdu þessum skrefum til að grunnstilla umhverfið.
 
-1. Veldu tegundastigveldi fyrir CDS. Á síðunni **Tengsl hlutverka í tegundastigveldi**, ef ekkert stigveldi er tengt við hlutverkið **Common Data Service**, verður þú að stofna nýja tengingu. Veldu hlutverkið **Common Data Service** og tengdu síðan tegundastigveldi afurðar sem sýnir afurðasafnið sem ætti að samstilla við CDS.
+1. Veldu tegundastigveldi fyrir CDS. Á síðunni **Tengsl hlutverka í tegundastigveldi**, ef engin stigveldi eru tengd við **Common data service**, verður þú að stofna nýja tengingu. Veldu hlutverkið **Common data service** og tengdu síðan tegundastigveldi afurðar sem sýnir afurðasafnið sem ætti að samstilla við CDS.
 2. Veldu lögaðilann fyrir alþjóðleg gögn afurðarsniðmáts. Á síðunni **Færibreytur afurðarupplýsingastjórnunar**, á flipanum **Afurðareigindir** skal velja aðalfyrirtækið þar sem kennum afurðar og vöru er fyrst og fremst viðhaldið.
 3. Skilgreindu gerðir auðkenniskóða og kóða sem á að flytja út. Farðu í **Afurðaupplýsingastjórnun** &gt; **Uppsetning** &gt; **Auðkenniskóðar afurðar**. Til að búa til gerðir auðkenniskóða skaltu velja **Búa til kóða**. Færsla kóðagerðar er búin til fyrir hverja gerð fyrir auðkenni sem er að finna í völdum lögaðilum.
 

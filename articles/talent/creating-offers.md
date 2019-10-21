@@ -1,6 +1,6 @@
 ---
 title: Stofna, samþykkja og undirrita tilboð
-description: Þetta efni lýsir því hvernig á að búa til, samþykkja og undirrita tilboð fyrir umsækjanda með Dynamics 365 for Talent.
+description: Þetta efni lýsir því hvernig á að búa til, samþykkja og undirrita tilboð fyrir umsækjanda með Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/26/2019
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8c5f95f1d3be22a73cc42cb3667b793490f2a136
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: b9ccd22e218137637cc0bbde0d4ad19a28591731
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739634"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008106"
 ---
 # <a name="create-approve-and-sign-offers"></a>Búa til, samþykkja og undirrita tilboð
 
@@ -110,7 +110,7 @@ Samþykktaraðilar geta skipt á milli mismunandi útgáfa ef útgáfurnar voru 
 Ef Adobe Sign var valið sem besti rafræni undirskriftarmátinn, verða stofnendur tilboða að tengja Adobe Sign-leyfin sín í þessu skrefi. 
 
 ### <a name="docusign"></a>DocuSign
-Ef DocuSign var valið sem besti rafræni undirskriftarmátinn, verða stofnendur tilboða að tengja DocuSign-leyfin sín. Þegar þú hefur skráð þig inn er sjálfgefinn reikningur og heimildir sem tengjast DocuSign prófíl notandans tengd við Talent Attract. 
+Ef DocuSign var valið sem besti rafræni undirskriftarmátinn, verða stofnendur tilboða að tengja DocuSign-leyfin sín. Þegar þú hefur skráð þig inn er sjálfgefinn reikningur og heimildir sem er úthlutað á DocuSign-forstillingar notandans tengd við Talent: Attract. 
 
 -  Þú getur skoðað og breytt sniðmátinu fyrir tölvupóst eftir þörfum.
 

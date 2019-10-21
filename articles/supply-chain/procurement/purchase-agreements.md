@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7024104dfc76a33735199ad0871fe7ce29f8e011
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1e022fbf182da9a07fe20e5bebdd99cbff3d9c90
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570389"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248932"
 ---
 # <a name="purchase-agreements"></a>Innkaupasamningar
 
@@ -78,7 +78,7 @@ Svæðið **Samkomulag** sýnir heildarmagn eða heildarupphæð sem sölusamnin
 Þegar innkaupapöntun er stofnuð er hægt að nota innkaupasamning við hana. Upplýsingar úr skilmálum samningsins, t.d. greiðsluskilmálar, afhendingarskilmálar, og afhendingaraðsetur, eru síðan afritaðar á haus innkaupapöntunarinnar. Ef innkaupapöntunin inniheldur eina eða fleiri línur fyrir afurð eða flokka sem samkomulagið nær yfir, er verð og afsláttur úr innkaupasamningnum notað fyrir þær línur. Upphæð eða magn í pöntunarlínunni hefur áhrif á uppfyllingu samningsins í innkaupapöntuninni. Sama innkaupapöntunin getur bæði haft línur sem eru ekki tengdar við sölusamning og línur sem hafa samning fyrir innkaupapöntun.  
 
 Þú getur aðeins valið innkaupasamning þegar þú stofnar innkaupapöntunarlínu. Ekki er hægt að velja innkaupasamning eftir að°innkaupapöntunin hefur°verið stofnuð.  
-Í sumum aðstæðum þar sem innkaupapantanir eru stofnaðar óbeint er hægt að stjórna því hvort Finance and Operations eigi að leita sjálfvirkt að innkaupasamningum sem við eiga. Til dæmis gæti þetta verið gert þegar sjálfkrafa eru staðfestar innkaupatillögur eða stofnun innkaupapantana sem eru byggðar á sölupöntunum.
+Í sumum aðstæðum þar sem innkaupapantanir eru stofnaðar óbeint er hægt að stjórna því hvort Supply Chain Management eigi að leita sjálfvirkt að innkaupasamningum sem við eiga. Til dæmis gæti þetta verið gert þegar sjálfkrafa eru staðfestar innkaupatillögur eða stofnun innkaupapantana sem eru byggðar á sölupöntunum.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Innkaupasamningar og samstæðuviðskipti.
 Hægt er að stofna vensl viðskiptasamninga samstæðunnar milli lánardrottnalykla og lykla viðskiptavinar sem eru í mismunandi lögaðila. Þegar sölupöntun eða innkaupapöntun er stofnuð fyrir einn aðilanna er pöntunarkeðja innan samstæðunnar stofnuð. Í pöntunarkeðjunni er sölupöntun og innkaupapöntun stofnuð í viðeigandi lögaðila.  

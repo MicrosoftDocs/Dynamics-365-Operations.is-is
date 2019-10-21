@@ -1,6 +1,6 @@
 ---
 title: Samþykkja lánardrottna fyrir tiltekna innkaupaflokka
-description: Þetta efni útskýrir hvernig eigi að samþykkja lánardrottna fyrir tiltekna innkaupaflokka í Dynamics 365 for Finance and Operations.
+description: Þetta efni útskýrir hvernig eigi að samþykkja lánardrottna fyrir tiltekna innkaupaflokka í Dynamics 365 Supply Chain Management.
 author: mkirknel
 manager: AnnBe
 ms.date: 07/30/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1583a2eedc535f81b84e3094fee1574451f6f209
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: e47124e22dd6c0e756bf42429327254f966b48a2
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867150"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018090"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>Samþykkja lánardrottna fyrir tiltekna innkaupaflokka
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þetta efni útskýrir hvernig eigi að samþykkja lánardrottna fyrir tiltekna innkaupaflokka í Dynamics 365 for Finance and Operations. Þegar innkaupabeiðni er stofnuð, gæti verið þörf á að velja samþykktum eða æskilegum lánardrottins, eftir því hvernig innkaupareglur eru settar upp. Þessi verklýsing sýnir hvernig á að tilgreina að lánardrottin er samþykkt eða æskilegur fyrir tiltekna innkaupategund. Þetta verk myndi venjulega framkvæmtaf fagmanni á sviði innkaupa. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF.
+Þetta efni útskýrir hvernig eigi að samþykkja lánardrottna fyrir tiltekna innkaupaflokka í Dynamics 365 Supply Chain Management. Þegar innkaupabeiðni er stofnuð, gæti verið þörf á að velja samþykktum eða æskilegum lánardrottins, eftir því hvernig innkaupareglur eru settar upp. Þessi verklýsing sýnir hvernig á að tilgreina að lánardrottin er samþykkt eða æskilegur fyrir tiltekna innkaupategund. Þetta verk myndi venjulega framkvæmtaf fagmanni á sviði innkaupa. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF.
 
 1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Innkaup og aðföng > Lánardrottnar > Allir lánardrottnar**.
 2. Veljið lánardrottinn sem á að setja sem samþykktir eða æskilegur fyrir tegund.

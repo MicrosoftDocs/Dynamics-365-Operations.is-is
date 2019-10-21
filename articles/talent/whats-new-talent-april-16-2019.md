@@ -1,6 +1,6 @@
 ---
-title: Hvað er nýtt eða breytt í Dynamics 365 for Talent (16. apríl 2019)
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent.
+title: Hvað er nýtt eða breytt í Dynamics 365 Talent (16. apríl 2019)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/16/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: adf8f470b00a565c62a27f857d490c6c000b21d8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 0781a479ebf37334d8eba18ea6d69d7cfb9db9ea
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518251"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024138"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-16-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 for Talent (16. apríl 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 Talent (16. apríl 2019)
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 for Talent.
+Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Breytingar í Attract
 
@@ -47,11 +47,11 @@ Breytingum sem lýst er í þessum kafla gilda um byggingarnúmer 8.1.2239. Töl
 
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Einingar fyrir launasvæði, launastig, fríðindavalkost og hæfnisgerð í Common Data Service uppfærðar til að innihalda stuðningssvæði fyrir viðskiptavin
 
-Með þessari útgáfu hafa þessar Common Data Service-einingar verið uppfærðar til að innihalda möguleikann á því að bæta við sérstilltu svæði í gegnum Talent (Core HR).
+Með þessari útgáfu hafa þessar Common Data Service-einingar verið uppfærðar til að innihalda möguleikann á því að bæta við sérstilltu svæði í gegnum Talent: Core HR.
 
 ### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Nýr stuðningur Common Data Service-einingar fyrir: veitireglur launa, breytilegt launafyrirkomulag, breytileg laun
 
-Með þessari útgáfu hefur einingum fyrir veitireglur launa, breytilegt launafyrirkomulag og breytileg laun verið bætt við Common Data Service. Þessar einingar styðja einnig sérstillt svæði sem er bætt við í gegnum Talent (Core HR).
+Með þessari útgáfu hefur einingum fyrir veitireglur launa, breytilegt launafyrirkomulag og breytileg laun verið bætt við Common Data Service. Þessar einingar styðja einnig sérstillt svæði sem er bætt við í gegnum Talent: Core HR.
 
 ### <a name="powerbi-refresh-issues-314342"></a>Uppfærsluvandamál PowerBI (314342)
 
@@ -95,6 +95,6 @@ Með þessari breytingu er borið kennsl á tvítekningar á meðan þú færir 
 
 ### <a name="email-support-for-alerts"></a>Tölvupóstur út af viðvörunum
 
-Í verkvangsuppfærslu 25 geta notendur stofnað viðvörunarreglur sem senda sjálkrafa tilkynningar í tölvupósti á tengiliði þegar þær ræsast út af tilviki.
+Með verkvangsuppfærslu 25 fyrir Finance and Operations geta notendur stofnað viðvörunarreglur sem senda sjálfkrafa tilkynningar í tölvupósti á tengiliði þegar þær ræsast út af tilviki.
 
 

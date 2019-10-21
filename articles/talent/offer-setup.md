@@ -1,6 +1,6 @@
 ---
 title: Setja upp stjórnun tilboða
-description: Þetta efni lýsir því hvernig á að setja upp tilboð í Talent.
+description: Þetta efni lýsir því hvernig á að setja upp tilboð í Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/04/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa0e5d30c06db16e105631e492af022acfcfd66
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 706766ba5133af03d00df99dba1c2a7b0405cd86
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518265"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010845"
 ---
 # <a name="set-up-offer-management"></a>Setja upp stjórnun tilboða 
 
 [!include [banner](includes/banner.md)]
 
-Þegar umsækjandi er fluttur í tilboðsstigið í Dynamics 365 for Talent: Attract þarftu að tryggja að hægt sé að búa til tilboð fyrir umsækjandann á fljótlegan hátt, þau samþykkt eftir þörfum og send út til umsækjanda. Vegna þess að flest tilboð eru staðlað getur það verið búið til úr endurnýtanlegum sniðmátum. Í Attract, eru öll tilboð rúllað í tilboðspakka, sem er safn af einni eða fleiri tilboðsskjölum. 
+Þegar umsækjandi er fluttur í tilboðsstigið í Dynamics 365 Talent: Attract þarftu að tryggja að hægt sé að búa til tilboð fyrir umsækjandann á fljótlegan hátt, þau samþykkt eftir þörfum og send út til umsækjanda. Vegna þess að flest tilboð eru staðlað getur það verið búið til úr endurnýtanlegum sniðmátum. Í Attract, eru öll tilboð rúllað í tilboðspakka, sem er safn af einni eða fleiri tilboðsskjölum. 
 
 Í þessu efni er listi yfir öll þau skref sem stjórnandi Attract myndi fylgja til að setja upp mismunandi tilboðspakki sniðmát sem hluta af tilboðsstjórnunargetu í Attract. Notendur sem ekki hafa stjórnandi hlutverk hafa ekki aðgang að þessum möguleikum.
 

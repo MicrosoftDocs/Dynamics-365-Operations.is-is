@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 2762179a13ff9bbcb4001f3a9aba443c4aa00f9f
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b5c54d921e2955bc866ffd1ca516169790d33127
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518276"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024233"
 ---
 # <a name="questionnaires"></a>Spurningalistar
 
@@ -31,7 +31,7 @@ ms.locfileid: "1518276"
 
 Þessi efnisgrein veitir almennar upplýsingar um spurningalista og tengla fyrir ítarlegri upplýsingar. Spurningalisti er safn spurninga sem eru notaðar til að safna upplýsingum í mismunandi tilgangi. Hægt er að hanna, stofna, dreifa og fylla út spurningalista og greina síðan niðurstöðurnar. 
 
-Hægt er að sérsníða spurningalista til að passa við sérstakar kröfur með því að nota ýmsar aðgerðir sem eru tiltækar í Microsoft Dynamics 365 for Finance and Operations. Hér eru nokkur dæmi um hvernig hægt er að nota spurningalista:
+Hægt er að sérsníða spurningalista til að passa við sérstakar kröfur með því að nota ýmsar aðgerðir sem eru tiltækar í Microsoft Dynamics 365 Finance. Hér eru nokkur dæmi um hvernig hægt er að nota spurningalista:
 
 -   Prófa faglega hæfni starfsmanna og umsækjenda.
 -   Meta hvort þátttakendur á námskeiðinu lærðu efni°námskeiðsins°.

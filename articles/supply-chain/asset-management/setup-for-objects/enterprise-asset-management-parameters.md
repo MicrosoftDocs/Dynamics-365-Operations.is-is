@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e6a2d428e433256339fff07f3805449a2604213
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 3336a3357578b25522e1ac457a48349f88b7318d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783341"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024569"
 ---
 # <a name="asset-management-parameters"></a>Færibreytur eignastýringar
 
@@ -33,7 +33,7 @@ ms.locfileid: "1783341"
 
 Í eignastýringu verður að setja upp almennar breytur sem varða eignir, verkbeiðnir og tímasetningu vinnutilboða. Í þessu efnisatriði er útskýrt hvernig á að setja þær upp. Veldu **eignastýringu** > **Uppsetningu** > **Færibreytur eignastýringar** til að opna formið.
 
-Hnappurinn **Leiðsagnarforrit fyrir stofnun gagna** er hægt að nota til að búa sjálfkrafa til uppsetningargögn fyrir prufu- eða kynningargögn í fyrirtæki í Dynamics 365 for Finance and Operations. Sjá hvítbókina „Setja upp prufugögn í eignastjórnun“ til að fá upplýsingar um hvernig nota eigi leiðsagnarforritið.
+Hnappurinn **Leiðsagnarforrit fyrir stofnun gagna** er hægt að nota til að búa sjálfkrafa til uppsetningargögn fyrir prufu- eða kynningargögn í fyrirtæki í Dynamics 365 Supply Chain Management. Sjá hvítbókina „Setja upp prufugögn í eignastjórnun“ til að fá upplýsingar um hvernig nota eigi leiðsagnarforritið.
 
 Tengillinn **Eignir**
 
@@ -57,7 +57,7 @@ Tengillinn **Verkbeiðnir**
 - Veldu „Já“ á skiptihnappinum **Afrita bilanir** ef þú vilt sjálfkrafa afrita bilanir sem eru skráðar í verkbeiðnum í tengdar viðhaldsbeiðnir.  
 - Í reitnum **Stig** skilgreinir þú virkt staðsetningarstig sem er sjálfkrafa sett inn í verkbeiðni ef öll tengd verkpöntunarstörf vísa til sömu virku staðsetningar. Ef verkbeiðnistörfin tengjast ekki öll sama virku staðsetningu á skilgreindu stigi er reiturinn **Virk staðsetning** hafður auður í verkbeiðninni. Dæmi: Ef þú setur töluna „1“ inn í þennan reit, þá er það efsta stigið í virkri staðsetningu. Ef þú setur inn töluna „0“ í þennan reit hefur þú ekki skilgreint sérstakt virkni staðsetningarstig, aðeins að öll verkbeiðnistörf í verkbeiðni verða að tengjast sama virku staðsetningu fyrir þá virku staðsetningu til að vera bætt við verkbeiðni.  
 - Hægt er að velja bækur sem notuð eru þegar neysla er lögð í verkbeiðni á flýtiflipanum **Almennt** í reitunum **Klukkustund**, **Liður**, og **Kostnaður**.  
-- Í retinum **Upprunamál afurðar** velurðu hvaða tungumál á að nota fyrir vöruheiti í eignastjórnunarskýrslum. Þú getur valið tungumálið sem sett er upp á fyrirtækjareikningnum, eða tungumálið sem sett er upp fyrir notandann sem er skráður inn á Dynamics 365 for Finance and Operations.  
+- Í retinum **Upprunamál afurðar** velurðu hvaða tungumál á að nota fyrir vöruheiti í eignastjórnunarskýrslum. Þú getur valið tungumálið sem sett er upp á fyrirtækjareikningnum, eða tungumálið sem sett er upp fyrir notandann sem er skráður inn.  
 - Veldu „Já“ á skiptihnappinum **Rauntímauppfærsla** ef þú vilt uppfæra sjálfkrafa breytingar á vanskilum á starfstegund, viðhaldsáætlunum og viðhaldsumræðum.
 > - Ef þú velur „Nei“ eru breytingar á vanskilum starfstegunda, viðhaldsáætlunum og viðhaldsumræðum ekki uppfærðar sjálfkrafa í eignastýringu  
 > - Veldu „Nei“ á rofahnappinn ef mikið magn gagna er samstillt, til dæmis margar eignir eða virkar staðsetningar sem settar eru upp í viðhaldsáætlunum eða viðhaldsumferðum, eða mikill fjöldi viðhaldsáætlana eða umferða.  
@@ -75,7 +75,7 @@ Tengill **Tímasetningar verkbeiðni**
 - **Aðaláætlun** snýr að auðlindum í einingunni **Fyrirtækisstjórnun**. Ef þú velur aðalskipulag á þessu sviði muntu geta séð fyrirvara um afkastagetu sem tengjast verkbeiðni í **Frátekin afkastageta** (flipinn **Fyrirtækisstjórnun** > **Tilföng** > **Tilföng** > velja tilföng > **Tilföng** flipi> **Frátekin afkastageta**). Ef þú hefur þennan reit auðan geturðu séð álag sem tengist verkbeiðnum í **Álag** (**Fyrirtækisstjórnun** \> **Tilföng** \> **tilföng** \> velja tilföng á flipanum \> **Tilföng** \> hnappnum **Álag**).  
 
 >[!NOTE]
->Valið varðandi notkun aðalskipulags eða ekki í einingunni **Eignastýring** og tengt form sem notað er til að fá yfirsýn yfir frátekna afkastagetu eða álag er staðlað uppsetning á Dynamics 365 for Finance and Operations. Það fer eftir uppsetningu þinni í reitnum **Aðaláætlun** en þú munt geta fengið aðgang að upplýsingum um afkastagetu í annaðhvort **Frátekinni afkastagetu** eða **Álagi** í **Fyrirtækjastjórnun**. Það er ekki hægt að búa til uppsetningu þar sem frátekin afkastageta er sýnd í báðum skjánum.  
+>Valið varðandi notkun aðalskipulags eða ekki í einingunni **Eignastýring** og tengt form sem notað er til að fá yfirsýn yfir frátekna afkastagetu eða álag er stöðluð uppsetning. Það fer eftir uppsetningu þinni í reitnum **Aðaláætlun** en þú munt geta fengið aðgang að upplýsingum um afkastagetu í annaðhvort **Frátekinni afkastagetu** eða **Álagi** í **Fyrirtækjastjórnun**. Það er ekki hægt að búa til uppsetningu þar sem frátekin afkastageta er sýnd í báðum skjánum.  
 
 Reitirnir sem lýst er í áherslulistanum hér að neðan tengjast allir reiknuðum matseinkunnum, sem eru notaðir til að reikna forgang verkbeiðni við tímasetningu verkbeiðni.
 

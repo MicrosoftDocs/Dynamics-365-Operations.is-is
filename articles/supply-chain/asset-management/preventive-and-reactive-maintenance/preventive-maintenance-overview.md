@@ -3,7 +3,7 @@ title: Yfirlit yfir fyrirbyggjandi viðhald
 description: Þetta efni skýrir forvirkt viðhald í eignastýringu.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b43c795426f40cb43962976824c44a7702d91b7
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 02ea3affca727802b241f87b801e0742ac0aa41a
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875703"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922092"
 ---
 # <a name="preventive-maintenance-overview"></a>Yfirlit yfir fyrirbyggjandi viðhald
 
@@ -35,7 +35,7 @@ ms.locfileid: "1875703"
 
 Viðhaldsáætlanir eru notaðar fyrir fyrirbyggjandi og viðbragðsviðhald á einstökum eignum. Viðhaldslotur eru notaðar fyrir forvirkt viðhald á hópi eða eignasafni. Viðhaldsáætlanir og viðhaldslotur eru notaðar til að búa til tillögur um verkbeiðnir. Tillögur um verkbeiðnir eru vistaðar sem viðhaldsskemalínur sem hægt er að setja saman og breyta í verkbeiðnir.
 
-Myndin hér að neðan gefur yfirlit yfir verkflæðið frá stofnun viðhaldsáætlana og viðhaldslota til stofnunar á verkbeiðnum fyrir eignir, byggðum á þeim viðhaldsáætlunum og viðhaldslotum.
+Eftirfarndi mynd gefur yfirlit yfir verkflæðið frá stofnun viðhaldsáætlana og viðhaldslota til stofnunar á verkbeiðnum fyrir eignir, byggðum á þeim viðhaldsáætlunum og viðhaldslotum.
 
 ![Mynd 1](media/01-preventive-maintenance.png)
 

@@ -1,6 +1,6 @@
 ---
-title: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (17. september 2018)
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent Core HR.
+title: Nýjungar eða breytingar í Dynamics 365 Talent - Core HR (17. september 2018)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/17/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 213324f9074f88d9fdc8efdfa46bc3ed7817d1e8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 558c2cdb4addce54af937ff862535d65f1ebd602
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518298"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026036"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-17-2018"></a>Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (17. september 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-september-17-2018"></a>Nýjungar eða breytingar í Dynamics 365 Talent: Core HR (17. september 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -37,13 +37,13 @@ ms.locfileid: "1518298"
 
 Nýrri gerð uppsöfnunar var bætt við Leyfisáætlanir. Uppsöfnunaráætlunin getur nú byggst á starfsaldri í mánuðum eða vinnustundum. Nánari upplýsingar er að finna í [Uppsöfnun frís sem byggist á vinnustundum](leave-accrue-hours-worked.md).
 
-## <a name="platform-update-18"></a>Update 18 fyrir verkvang
+## <a name="platform-update-18-for-finance-and-operations"></a>Verkvangsuppfærsla 18 fyrir Finance and Operations
 
-Verkvangsuppfærsla 18 er nú hluti af Talent-útgáfunni. 
+Verkvangsuppfærsla 18 fyrir Finance and Operations er nú hluti af Talent-útgáfunni. 
 
 -   Hægt er að fela áskilda reiti og aðra reiti í gegnum sérstillingar. Þetta gerir notanda kleift að búa til einfaldaða upplifun þar sem áskildir reitir sem viðskiptagrunnur gerir sjálfgefna eru ekki sýndir. Faldir áskildir reitir eru einnig gerðir sýnilegir tímabundið ef þeir eru tómir þegar reynt er að vista.
 
--   Í verkvangsuppfærslu 18 stillir Talent-vefbiðlarinn nú myndefni sitt við Microsoft Fluent Design.
+-   Í verkvangsuppfærslu 18 fyrir Finance and Operations stillir Talent-vefbiðlarinn nú myndefni sitt við Microsoft Fluent Design.
 
     -   Þegar reitir eru í „lestrarstillingu“ er einfaldlega hægt að velja breytingarvalkostinn í reitunum svo hægt sé að breyta skjámyndinni.
 

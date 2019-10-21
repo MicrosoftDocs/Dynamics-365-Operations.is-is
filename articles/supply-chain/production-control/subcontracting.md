@@ -1,6 +1,6 @@
 ---
 title: Úthýsing
-description: Þetta efnisatriði aðstoðar þig við að búa til kynningu á úthýsingu framleiðslu í Microsoft Dynamics 365 for Finance and Operations.
+description: Þetta efnisatriði aðstoðar þig við að búa til kynningu á úthýsingu framleiðslu í Dynamics 365 Supply Chain Management.
 author: christophernread
 manager: AnnBe
 ms.date: 09/28/2018
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 55b516f928eadea9b7ddbb1192db79f3ab7fa204
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 83d1d7adf91c246ecad574043cbb60ca260bb328
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568392"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249913"
 ---
 # <a name="subcontracting"></a>Úthýsing
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði aðstoðar þig við að búa til kynningu á úthýsingu framleiðslu í Microsoft Dynamics 365 for Finance and Operations. Fyrsti hlutinn í þessu efnisatriði lýsir uppsetningu á gögnum. Annar hlutinn fer með þig í gegnum skref kynningarinnar.
+Þetta efnisatriði aðstoðar þig við að búa til kynningu á úthýsingu framleiðslu í Microsoft Dynamics 365 Supply Chain Management. Fyrsti hlutinn í þessu efnisatriði lýsir uppsetningu á gögnum. Annar hlutinn fer með þig í gegnum skref kynningarinnar.
 
 ## <a name="target-audience"></a>Markhópur
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: e9b6c3cb5b6bbc83604bee11a2472b2ad1136269
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595612"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249389"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Setja upp ytri vörulista fyrir PunchOut eProcurement
 
@@ -37,12 +37,12 @@ Til að setja upp samskiptum lánardrottninum verður að veita stykki upplýsin
 
 ## <a name="setting-up-an-external-catalog"></a>Setja upp ytri vörulista
 
-Ytri vörulista ætti að gera starfsmanns sem fer á innkaupabeiðni til að vera leyfður á ytra setur til að velja vörur. Vörunum sem starfsmaðurinn velur úr ytri vörulista er skilað til Dynamics 365 for Finance and Operations með uppfærðum upplýsingum um verð og héðan er hægt bæta þeim við innkaupabeiðnina. Spurningarmerki sem á að leyfa starfsmönnum að leggja inn pöntun á ytra setur. Þegar uppsetningu ytri vörulista þarf að ganga úr skugga um að tilgangur sem aðgangur hlýst að með ytri vörulista er safnað tilboðsbeiðni en ekki raunverulegum pöntun.
+Ytri vörulista ætti að gera starfsmanns sem fer á innkaupabeiðni til að vera leyfður á ytra setur til að velja vörur. Vörunum sem starfsmaðurinn velur úr ytri vörulista er skilað með uppfærðum upplýsingum um verð og héðan er hægt bæta þeim við innkaupabeiðnina. Spurningarmerki sem á að leyfa starfsmönnum að leggja inn pöntun á ytra setur. Þegar uppsetningu ytri vörulista þarf að ganga úr skugga um að tilgangur sem aðgangur hlýst að með ytri vörulista er safnað tilboðsbeiðni en ekki raunverulegum pöntun.
 
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>Til að setja upp lista með ytri lánardrottni skal ljúka eftirfarandi verkum:
 
 1. Setja upp tegundastigveldi innkaupa Sjá [Uppsetningarstefnur fyrir stigveldi innkaupaflokkunar](tasks/set-up-policies-procurement-category-hierarchies.md) fyrir frekari upplýsingar um hvernig setja á upp stigveldi innkaupategundar.
-2. Skrá lánardrottins Fjármál og Aðgerða. Áður en hægt er að setja upp skilgreiningu til að fá aðgang að ytri vörulista lánardrottins, verður að setja lánardrottin upp og tengilið lánardrottins í Microsoft Dynamics 365. Lánardrottni ytri vörulista verður einnig að vera bætt við valda innkaupategund. Nánari upplýsingar um hvernig á að skrá lánardrottna í Microsoft Dynamics 365 er að finna í [Stjórna notendum fyrir samstarf lánardrottna](manage-vendor-collaboration-users.md). Sjá upplýsingar um hvernig á að úthluta á innkaupaflokknum lánardrottins [Samþykkja lánardrottnar fyrir tiltekið innkaupaflokkana](tasks/approve-vendors-specific-procurement-categories.md).
+2. Skráðu lánardrottinn í Supply Chain Management. Áður en hægt er að setja upp skilgreiningu til að fá aðgang að ytri vörulista lánardrottins, verður að setja lánardrottin upp og tengilið lánardrottins í Microsoft Dynamics 365. Lánardrottni ytri vörulista verður einnig að vera bætt við valda innkaupategund. Nánari upplýsingar um hvernig á að skrá lánardrottna er að finna í [Stjórna notendum fyrir samstarf lánardrottna](manage-vendor-collaboration-users.md). Sjá upplýsingar um hvernig á að úthluta á innkaupaflokknum lánardrottins [Samþykkja lánardrottnar fyrir tiltekið innkaupaflokkana](tasks/approve-vendors-specific-procurement-categories.md).
 3. Gangið úr skugga um að eininga mælieiningin og gjaldmiðilinn sem lánardrottinn notar eru settir. Til að fá upplýsingar hvernig eigi að stofna mælieiningu, sjá [Stjórnun mælieininga](../pim/tasks/manage-unit-measure.md).
 4. Skilgreinið vörulista ytri lánardrottni þarfir fyrir ytri vörulista setur við lánardrottinn. Frekari upplýsingar um þetta verk er að finna í [Grunnstilla ytri vörulista lánardrottins](#configure-the-external-vendor-catalog).
 5. Prófa málskipan lánardrottins ytri vörulista afbrigði til að staðfesta stillingar séu gildar og sem hægt er að nálgast ytri vörulista lánardrottins. Notaðu aðgerðina **Villuleita stillingar** til að villuleita skilaboð með beiðni um uppsetningu sem hefur verið skilgreind. Þessi skilaboð ættu að valda því að ytra vörulistasvæði lánardrottna verði opnað í vafraglugga. Við villuleit, ekki er hægt að panta vörur og þjónustu frá lánardrottni. Til að panta vörur og þjónustu, er verður að nálgast lánardrottins vörulista við innkaupabeiðnina.
@@ -54,7 +54,7 @@ Ytri vörulista ætti að gera starfsmanns sem fer á innkaupabeiðni til að ve
 Þessi hluti veitir frekari upplýsingar um verkefni 4 í undanfarandi hluta.
 
 1. Heiti og lýsing eru færð inn fyrir ytri vörulista lánardrottins. Nafnið sem er fært inn mun birtast á körfu sem stendur fyrir ytri vörulista sem sýndur er á milli starfsmanna sem stofnar beiðni. Starfsmenn geta smellið á körfu til að opna vörulista lánardrottins ytri vörulista staðsetningu.
-2. Bættu við mynd með því að nota aðgerðina  **Mynd í ytri vörulista**. Myndin birtast körfu sem stendur fyrir ytri vörulista sem eru sýndar til starfsmanna sem búa til innkaupabeiðni. Athugið að breidd og hæð í mynd verður að vera jafnar. Annars myndarinnar won't birtist ekki rétt.
+2. Bættu við mynd með því að nota aðgerðina **Mynd í ytri vörulista**. Myndin birtast körfu sem stendur fyrir ytri vörulista sem eru sýndar til starfsmanna sem búa til innkaupabeiðni. Athugið að breidd og hæð í mynd verður að vera jafnar. Annars myndarinnar won't birtist ekki rétt.
 3. Veldu hvort vefsvæði ytri vörulista lánardrottins eigi að birtast í sama vafraglugga og þar sem starfsmaður bjó til beiðnina, eða opnast í nýjum glugga.
 4. Veldu lánardrottinn fyrir vörulistann. Í því **lögaðila** er engin línu fyrir hverja lögaðili sem lánardrottininn verið settur upp. Til að leyfa notendum að biðja um vörur beint frá vörulista lánardrottins í sumum lögaðilum en ekki öðrum, geturðu notað hnappinn **Hindra aðgang** eða **Leyfa aðgang** fyrir hvern lögaðila þar sem þú vilt að vörulistinn verði annaðhvort í boði eða ekki.
 5. Í því **Sjálfgefin gildistíma (Dagar)** skal slá inn fjölda daga sem tilboð frá ytri vörulista gildir og hægt er að nota til að kaupa frá ytri lánardrottni. Þegar tilboð er stofnað og sótt úr svæði ytri vörulista lánardrottinsins, er tilboðið gilt frá og með núverandi kerfisdagsetningu, og er gild fyrir fjölda daga sem eru færðir inn í þetta svæði.
@@ -90,9 +90,9 @@ Lánadrottninum gæti verið þarfir fyrir móttöku extrinsic einingu í uppset
 Fyrir nánari upplýsingar um cXML-samskiptareglur skal sjá [cXML.org vefsvæðið](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Skilaboð aftur
-Skilaboð til baka eru skilaboðin sem fengin eru frá lánardrottni þegar notandi skráir sig út úr ytra svæði og fer aftur í Finance and Operations. Ekki er hægt að stilla skilaboð til baka. Skilaboðin eru byggð á skilgreiningu á cXML samskiptareglunni. Hér eru þær upplýsingar sem geta verið hluti af skilaboðum til baka sem eru móttekin á innkaupabeiðnilínu:
+Skilaboð til baka eru skilaboðin sem fengin eru frá lánardrottni þegar notandi skráir sig út úr ytra svæði og fer aftur í Supply Chain Management. Ekki er hægt að stilla skilaboð til baka. Skilaboðin eru byggð á skilgreiningu á cXML samskiptareglunni. Hér eru þær upplýsingar sem geta verið hluti af skilaboðum til baka sem eru móttekin á innkaupabeiðnilínu.
 
-| Skilaboðin sem berast frá lánardrottni | Afrita línu Fjármál og Aðgerðir|
+| Skilaboðin sem berast frá lánardrottni | Afritað í beiðnilínu|
 |------------------------------|----------------------------------------------------------|
 |< ItemIn quantity=”” > |Magn|
 |< ItemIn>< ItemID >< SupplierPartID >< /SupplierPartID >|Kenni ytra atriðis|

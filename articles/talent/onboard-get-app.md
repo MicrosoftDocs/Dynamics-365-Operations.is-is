@@ -1,6 +1,6 @@
 ---
-title: Sækja forritið Dynamics 365 for Talent - Onboard
-description: Þetta efni útskýrir hvernig á að fá sjálfstæða útgáfu af forritinu Microsoft Dynamics 365 for Talent - Onboard eða útgáfuna sem felur í sér Viðbót við alhliða ráðningar.
+title: Sækja forritið Dynamics 365 Talent - Onboard
+description: Þetta efni útskýrir hvernig á að fá sjálfstæða útgáfu af forritinu Microsoft Dynamics 365 Talent - Onoard eða útgáfuna sem felur í sér Viðbót við alhliða ráðningar.
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,30 +16,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: e83bbd71089b145c6c99780ea9516793c5238b33
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 7bf2e421445e5ca92e995ef581bf61c7978746d2
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731516"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010776"
 ---
-# <a name="get-the-dynamics-365-for-talent-onboard-app"></a>Sæktu Dynamics 365 for Talent: Onboard-forritið
+# <a name="get-the-dynamics-365-talent-onboard-app"></a>Sækja forritið Dynamics 365 Talent: Onboard
 
 [!include [banner](includes/banner.md)]
 
-Þú getur skoðað kynningu og prófað forritið Microsoft Dynamics 365 for Talent: Onboard ókeypis af [Vörusíða Onboard](https://dynamics.microsoft.com/talent/onboard/).
+Þú getur skoðað kynningu og prófað forritið Microsoft Dynamics 365 Talent: Onboard ókeypis af [Vörusíða Onboard](https://dynamics.microsoft.com/talent/onboard/).
 
 > [!NOTE]
 > Ókeypis prufuáskrift krefst viðskiptatölvupósts.
 
-Þú getur keypt áskrift á Onboard sem annaðhvort sjálfstæðu forriti eða hluta af Dynamics 365 for Talent. Talent er alhliða mannauðsstjórnunarkerfi (HCM) sem felur í sér Dynamics 365 for Talent: Attract, Onboard og Core HR. Nánari upplýsingar um hvernig á að kaupa Onboard er að finna á [Vörusíðu Onboard](https://dynamics.microsoft.com/talent/onboard/).
+Þú getur keypt áskrift á Onboard sem annaðhvort sjálfstæðu forriti eða hluta af Dynamics 365 Talent. Talent er alhliða mannauðsstjórnunarkerfi (HCM) sem felur í sér Dynamics 365 Talent: Attract, Onboard og Core HR. Nánari upplýsingar um hvernig á að kaupa Onboard er að finna á [Vörusíðu Onboard](https://dynamics.microsoft.com/talent/onboard/).
 
 Meðan á prufu- eða kaupferlinu stendur muntu setja upp Microsoft 365 netfangið þitt og lykilorð. Passaðu að muna þessi gildi.
 
 > [!WARNING]
 > Þú getur ekki flutt inn gögn úr prufuáskriftinni yfir í greitt áskriftarumhverfi þitt. <!--Reviewers: please verify.-->
 
-Til að lesa um nýja eiginleika í Talent er að finna í [Nýjungar eða breytingar í Dynamics 365 for Talent](./whats-new.md) og [Dynamics 365 og Power Platform útgáfuupplýsingar](https://docs.microsoft.com/business-applications-release-notes/index). Ef þú vilt forskoða nýja eiginleika í Onboard skal sjá [Fá aðgang að forskoðunareiginleikum í Talent](./access-preview-feature.md).
+Til að lesa um nýja eiginleika í Talent er að finna í [Nýjungar eða breytingar í Dynamics 365 Talent](./whats-new.md) og [Dynamics 365 og Power Platform útgáfuupplýsingar](https://docs.microsoft.com/business-applications-release-notes/index). Ef þú vilt forskoða nýja eiginleika í Onboard skal sjá [Fá aðgang að forskoðunareiginleikum í Talent](./access-preview-feature.md).
 
 Ef þú ert í upplýsingatækni og vilt læra meira um hvernig tvær útgáfur af Onboard-forritinu eru settar upp, sjáðu þá [Úthlutun fyrir Onboard-forritið](./modular-app-tech-faq.md).
 

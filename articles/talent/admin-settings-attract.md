@@ -1,6 +1,6 @@
 ---
-title: Skilgreina fyrirtækisupplýsingar í Microsoft Dynamics 365 for Talent - Attract
-description: Þetta efni útskýrir hvernig á að stilla upplýsingar og vörumerki fyrirtækisins fyrir Microsoft Dynamics 365 for Talent - Attract.
+title: Skilgreina fyrirtækisupplýsingar í Microsoft Dynamics 365 Talent - Attract
+description: Þetta efni útskýrir hvernig á að stilla upplýsingar og vörumerki fyrirtækisins fyrir Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c5b051497777a01ab304736f1d454391b5d98e63
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 801b90db8d70352693515b442f7a9316b447d041
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739565"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008732"
 ---
 # <a name="configure-company-information"></a>Skilgreina fyrirtækisupplýsingar
 [!include[banner](../includes/banner.md)]
 
-Stjórnandamiðstöðin í Microsoft Dynamics 365 for Talent: Attract inniheldur grunnstillingar, samþættingarvalkosti og uppsetningarvalkosti fyrir Attract-forritið.
+Stjórnandamiðstöðin í Microsoft Dynamics 365 Talent: Attract inniheldur grunnstillingar, samþættingarvalkosti og uppsetningarvalkosti fyrir Attract-forritið.
 
 ## <a name="company-information"></a>Upplýsingar um fyrirtæki
 

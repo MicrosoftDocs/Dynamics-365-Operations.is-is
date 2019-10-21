@@ -1,6 +1,6 @@
 ---
-title: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (23. janúar 2019)
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent Core HR.
+title: Nýjungar eða breytingar í Dynamics 365 Talent - Core HR (23. janúar 2019)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 01/23/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-01-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 4e492095d5269ec81c0c22145b7af356937c256b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: f1983d5a58fb2e6b1984727e1d7b44803b94cdce
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742517"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023977"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-january-23-2019"></a>Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (23. janúar 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-january-23-2019"></a>Nýjungar eða breytingar í Dynamics 365 Talent: Core HR (23. janúar 2019)
 
 [!include [banner](includes/banner.md)]
 
@@ -53,5 +53,5 @@ Breyting hefur verið gerð til að uppfæra launastigið í launafyrirkomulagi 
 ### <a name="probation-period-and-calendar-are-not-displayed-for-future-hired-employees"></a>Reynslutími og dagatal eru ekki sýnd fyrir starfsmenn með langtímaráðningu.
 Með þessari breytingu hefur reitunum **Reynslutímabil** og **Dagatal** verið bætt við síðuna **Stjórna breytingum** til að leyfa gagnaskráningu fyrir komandi og fyrrverandi starfsmenn.
 
-### <a name="platform-update-23"></a>Update 23 fyrir verkvang
-Minniháttar lagfærslur á villum eru innifaldar í verkvangi uppfærslu 23. Frekari upplýsingar er að finna í [Nýjungar eða breytingar í Dynamics 365 for Finance and Operations verkvangi uppfærsla 23 (janúar 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
+### <a name="platform-update-23-for-finance-and-operations"></a>Verkvangsuppfærsla 23 fyrir Finance and Operations
+Minniháttar lagfærslur á villum eru innifaldar í verkvangi uppfærslu 23 fyrir Finance and Operations. Frekari upplýsingar er að finna í [Nýjungar eða breytingar í Dynamics 365 Finance and Operations verkvangi uppfærsla 23 (janúar 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 

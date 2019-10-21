@@ -1,6 +1,6 @@
 ---
 title: Prospect to cash
-description: Þetta efnisatriði veitir yfirlit yfir Prospect to cash lausnarinnar á milli Microsoft Dynamics 365 for Finance and Operations og Microsoft Dynamics 365 for Sales.
+description: Þetta efnisatriði veitir yfirlit yfir Prospect to cash lausnarinnar á milli Dynamics 365 Supply Chain Management og Dynamics 365 Sales.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/25/2018
@@ -19,31 +19,31 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: e31994ea3cd73dcc749a02ce2cd0815be191a567
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 1a96b7cfa57ec72b25f21d94fadb2fbf9bc6ea3b
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742402"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251360"
 ---
-# <a name="prospect-to-cash"></a>Prospect to cash
+# <a name="prospect-to-cash"></a>Viðfang til sjóðstreymis
 
 [!include [banner](../includes/banner.md)]
 
-Prospect to cash lausnin veitir beina samstillingu milli Dynamics 365 for Finance and Operations og Dynamics 365 for Sales. Prospect to cash sniðmát sem eru í boði með eiginleika gagnasamþættingar leyfir flæði gagna fyrir reikninga, tengiliði, vörur, sölutilboða, sölutilboð, sölupantanir og sölureikninga milli Finance and Operations og Sales. Á meðan gögnin flæði á milli Finance and Operations og Sales er hægt að framkvæma sölu- og markaðsstarf í Sales og meðhöndla pöntunaruppfyllingu með því að nota birgðastjórnun í Finance and Operations. 
+Prospect to cash lausnin veitir beina samstillingu milli Dynamics 365 Supply Chain Management og Dynamics 365 Sales. Prospect to cash sniðmát sem eru í boði með eiginleika gagnasamþættingar leyfir flæði gagna fyrir reikninga, tengiliði, vörur, sölutilboða, sölutilboð, sölupantanir og sölureikninga. Á meðan gögnin flæða er hægt að framkvæma sölu- og markaðsstarf í Sales og meðhöndla pöntunaruppfyllingu með því að nota birgðastjórnun í Supply Chain Management. 
 
 Frekari upplýsingar um samþættingu Prospect to cash er hægt að skoða í stuttu YouTube myndbandi: [Prospect to cash samþætting](https://www.youtube.com/watch?v=AVV9x5x-XCg).
 
 Í núverandi útgáfu býður Prospect to cash lausnin upp á eftirfarandi gerðir af beinni samstillingu:
 
-- [Viðhalda reikningum í Sales og samstilla þá beint úr Sales við Finance and Operations](accounts-template-mapping-direct.md)
-- [Vinna með afurðir í Finance and Operations og samstilla þær beint við Sales](products-template-mapping-direct.md)
-- [Vinna með tengiliði í Sales og samstilla þá beint við tengiliði eða viðskiptavini í Finance and Operations](contacts-template-mapping-direct.md)
-- [Samstilla sölutilboð beint úr Sales við Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
-- [Samstilla sölupantanir beint milli Sales og Finance and Operations](sales-order-template-mapping-direct-two-ways.md)
-- [Samstilla sölureikninga beint úr Finance and Operations við Sales](sales-invoice-template-mapping-direct.md)
+- [Viðhalda reikningum í Sales og samstilla þá beint úr Sales við Supply Chain Management](accounts-template-mapping-direct.md)
+- [Viðhalda afurðum í Supply Chain Management og samstilla þær beint við Sales](products-template-mapping-direct.md)
+- [Vinna með tengiliði í Sales og samstilla þá beint við tengiliði eða viðskiptavini í Supply Chain Management](contacts-template-mapping-direct.md)
+- [Samstilla sölutilboð beint úr Sales við Supply Chain Management](sales-quotation-template-mapping-sales-fin.md)
+- [Samstilla sölupantanir beint á milli Sales og Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
+- [Samstilla sölureikning beint úr Supply Chain Management við Sales](sales-invoice-template-mapping-direct.md)
 
-## <a name="system-requirements-for-finance-and-operations"></a>Kerfisskilyrði fyrir Finance and Operations
+## <a name="system-requirements-for-supply-chain-management"></a>Kerfiskröfur fyrir Supply Chain Management
 Prospect to cash samþætting er studd í eftirfarandi útgáfum:
 
 ### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (desember 2017)
@@ -55,9 +55,9 @@ Prospect to cash samþætting er studd í eftirfarandi útgáfum:
 - Dynamics 365 for Finance and Operations, Enterprise Edition (July 2017) með verkvangsuppfærslu 8 (Forrit smíð 7.2.11792.56024 með verkvangur smíð 7.0.4565.16212)
 - Eftirtaldir bráðabætur eru nauðsynlegar:
 
-  - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** - Þessi bráðabót gerir mögulega samstillingu sölupantana frá Sales til Finance and Operations gegnum gagnasamþættingareiginleikann. Það veitir einnig nokkrar aðrar endurbætur.
-  - **[KB4036524](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036524&bugId=3847504&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** - Þessi bráðabót gerir mögulega samstillingu sölupöntunarlína frá Finance and Operations til Sales gegnum gagnasamþættingareiginleikann.
-  - **[KB4036461](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036461&bugId=3847029&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** - Þessi bráðabót gerir mögulega samstillingu sölupantana frá Finance and Operations til Sales gegnum gagnasamþættingareiginleikann.
+  - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** - Þessi bráðabót gerir mögulega samstillingu sölupantana frá Sales til Supply Chain Management gegnum gagnasamþættingareiginleikann. Það veitir einnig nokkrar aðrar endurbætur.
+  - **[KB4036524](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036524&bugId=3847504&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** - Þessi bráðabót gerir mögulega samstillingu á sölupantanalínum úr Supply Chain Management við Sales gegnum gagnasamþættingareiginleikann.
+  - **[KB4036461](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036461&bugId=3847029&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** - Þessi bráðabót gerir mögulega samstillingu sölupantana úr Supply Chain Management við Sales gegnum gagnasamþættingareiginleikann.
 
     > [!NOTE]
     > Þú þarft aðeins að setja upp KB4045570 vegna þess að uppsetningin inniheldur breytingar frá öðrum bráðabótum. 
@@ -68,8 +68,8 @@ Prospect to cash samþætting er studd í eftirfarandi útgáfum:
 
 - Eftirtaldir bráðabætur eru nauðsynlegar:
 
-  - **[KB4051266](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4051266&bugId=3863566&qc=ee80faaa7bc6c77b368d5eaf456c9c08e0b9fba5903a7b6fd8c13756c3a4b757)** - Gera samstillingu sölupantana við gagnasamþættingu mögulega frá Finance and Operations til Sales. 
-  - **[KB4037542](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4037542&bugId=3848253&qc=8323b93c15280172c5ab4159e0256e37104ced1729462c91ab2f7d00cb8d419c)** - Gera samstillingu sölupantanahausa og lína við gagnasamþættingu mögulega frá Finance and Operations til Sales.
+  - **[KB4051266](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4051266&bugId=3863566&qc=ee80faaa7bc6c77b368d5eaf456c9c08e0b9fba5903a7b6fd8c13756c3a4b757)** - Gera samstillingu sölupantana við gagnasamþættingu mögulega úr Supply Chain Management til Sales. 
+  - **[KB4037542](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4037542&bugId=3848253&qc=8323b93c15280172c5ab4159e0256e37104ced1729462c91ab2f7d00cb8d419c)** - Virkja samstillingu á haus og línu sölupantana við gagnasamþættingu úr Supply Chain Management til Sales.
   - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** - Stuðningi við prospect to cash samþættingu gegnum gagnaeiningar er krafist.
     
     > [!NOTE]
@@ -80,5 +80,5 @@ Prospect to cash samþætting er studd í eftirfarandi útgáfum:
 
 Eftirfarandi einingar verður að setja upp áður en Prospect to cash lausin er notað:
 
-- Dynamics 365 for Sales útgáfa 1612 (8.2.1.207) (DB 8.2.1.207) á netinu eða nýrri útgáfa
-- Prospect to cash lausn fyrir Dynamics 365 for Sales, útgáfa 1.15.0.0 eða nýrri útgáfa. Lausnina er hægt að sækja hjá AppSource. [Sækja Dynamics 365, Prospect to Cash](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
+- Dynamics 365 Sales útgáfa 1612 (8.2.1.207) (DB 8.2.1.207) á netinu eða nýrri útgáfa
+- Prospect to Cash (P2C) lausn fyrir Dynamics 365 Sales, útgáfa 1.15.0.0 eða nýrri útgáfa. Lausnina er hægt að sækja hjá AppSource. [Sækja Dynamics 365, Prospect to Cash](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).

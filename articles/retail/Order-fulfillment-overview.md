@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b3eeda217e00b33962561bcb2ee6185275f52fe2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3b66369e57e006c9e2fe0a43e4b781c619a65c4a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556945"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025864"
 ---
 # <a name="store-order-fulfillment"></a>Uppfylling pantana fyrir verslun
 
@@ -96,7 +96,7 @@ Eftir að pöntun hefur verið samþykkt geta línur verið valdar og merktar se
 
 Tiltektarlista er hægt að prenta á sölustað til að aðstoða starfsmenn við að framkvæma tiltektarferli. Starfsmaður sem framkvæmir tiltekt getur haft með sér prentaðan tiltektarlista og um leið og vörur eru teknar til, merkir starfsmaðurinn þær sem tilteknar á tiltektarlistanum.
 
-Snið fyrir tiltektarlista er skilgreint í Dynamics 365 for Retail og bætt á forstillingu innhreyfingar. Fyrir nánari upplýsingar um hvernig eigi að setja upp forstillingar innhreyfingar, sjá [Snið og prentun innhreyfingar](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Snið fyrir tiltektarlista er skilgreint í Retail og bætt á forstillingu innhreyfingar. Fyrir nánari upplýsingar um hvernig eigi að setja upp forstillingar innhreyfingar, sjá [Snið og prentun innhreyfingar](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 Ef línur eru valdar og tiltektarlisti er prentaður fyrir þær línur, eru þær sjálfkrafa uppfærðir með **Tiltekt** stöðu.
 
@@ -105,7 +105,7 @@ Ef línur eru valdar og tiltektarlisti er prentaður fyrir þær línur, eru þ�
 - **Afleidd staða:** Tiltekið eða að hluta tiltekið
 - **Afleidd staða bakvinnslu:** Tiltekið eða að hluta tiltekið
 
-Eftir að efnislega tiltektarferlinu hefur verið framkvæmt má merkja línur sem **Tiltekið**. Að velja línu og merkja það sem **Tiltekið** framkallar símtal í rauntíma til að uppfæra pöntunarlínuna í Dynamics 365 for Retail. Eftir að línan hefur verið merkt sem **Tiltekið** á sölustað er staðan í bakvinnslunni einnig uppfærð í **Tiltekið** og birgðafærslur endurspegla að tilgreint magn hefur verið minnkað.
+Eftir að efnislega tiltektarferlinu hefur verið framkvæmt má merkja línur sem **Tiltekið**. Að velja línu og merkja það sem **Tiltekið** framkallar rauntímakall til að uppfæra pöntunarlínuna. Eftir að línan hefur verið merkt sem **Tiltekið** á sölustað er staðan í bakvinnslunni einnig uppfærð í **Tiltekið** og birgðafærslur endurspegla að tilgreint magn hefur verið minnkað.
 
 Þegar pantanir eru unnar yfir tíma, er hægt að vinna að hluta magns fyrir tiltekinn línu. Ef lína er valin og aðgerðin **Merkja sem tiltekið** er framkvæmd, og magnið er meira en einn, er notandinn beðinn um magnið. Eftirstandandi magn til tiltektar er fyllt inn sjálfkrafa. Ef minna en eftirstandandi magn er tilgreint, breytist staða línunnar í **Tiltekið að hluta**. Þegar pöntunarlínan er uppfærð í bakvinnslu, mun það einnig endurspegla tiltekið að hluta stöðuna og magnið sem notandinn hefur fært inn er notaður fyrir birgðauppfærsluna.
 
@@ -122,7 +122,7 @@ Pöntunarlínur geta verið pakkaðar hvenær sem er eftir að pöntunarlínan h
 - **Afleidd staða:** Pakkað eða að hluta til pakkað
 - **Afleidd staða bakvinnslu:** Afhent eða að hluta til afhent
 
-Þessi aðgerð merkir línur sem pakkað eða að hluta pakkað og prentar fylgiseðil. Hægt er að prenta fylgiseðil til að staðfesta þær vörur sem hafa verið pakkaðar saman. Snið fylgiseðils í skilgreint Dynamics 365 for Retail og bætt við forstillingu innhreyfingar. Fyrir nánari upplýsingar um hvernig eigi að setja upp forstillingar innhreyfingar, sjá [Snið og prentun innhreyfingar](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Þessi aðgerð merkir línur sem pakkað eða að hluta pakkað og prentar fylgiseðil. Hægt er að prenta fylgiseðil til að staðfesta þær vörur sem hafa verið pakkaðar saman. Snið fylgiseðils í skilgreint í Retail og bætt við forstillingu innhreyfingar. Fyrir nánari upplýsingar um hvernig eigi að setja upp forstillingar innhreyfingar, sjá [Snið og prentun innhreyfingar](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 **Aðgerð: Merkja sem pakkað**
 

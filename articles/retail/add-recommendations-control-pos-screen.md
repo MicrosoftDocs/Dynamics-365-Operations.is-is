@@ -1,9 +1,9 @@
 ---
 title: Bæta stýringu ráðleggingar á færsluskjá á sölustaðartækjum
 description: Þetta efnisatriði lýsir hvernig á að bæta við ráðleggingastýringu við færsluskjáinn á sölustaðartæki (POS) sem notar útlitshönnun skjás í Microsoft Dynamics 365 for Retail.
-author: ashishmsft
+author: bebeale
 manager: AnnBe
-ms.date: 02/05/2018
+ms.date: 10/01/19
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,23 +19,22 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f17da3db6fbc19548544a0c6c090a0b6db093673
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: d646c8ba559ba3e8d2175911e76c57d25eff02ca
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606850"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278130"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Bæta stýringu ráðleggingar á færsluskjá á sölustaðartækjum
 
 [!include [banner](includes/banner.md)]
 
-> [!NOTE]
-> Núverandi útgáfa af ráðleggingaþjónustu vörunnar verður fjarlægð og eiginleikinn endurhannaður með betra reikniriti og nýrri smásölumiðuðum möguleikum. Sjá [Fjarlægðir eða úreltir eiginleikar](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features) fyrir frekari upplýsingar.
 
-Þetta efnisatriði lýsir hvernig á að bæta við ráðleggingastýringu við færsluskjáinn á sölustaðartæki (POS) sem notar útlitshönnun skjás í Microsoft Dynamics 365 for Retail.
+Þetta efnisatriði lýsir hvernig á að bæta við ráðleggingastýringu við færsluskjáinn á sölustaðartæki (POS) sem notar útlitshönnun skjás í Microsoft Dynamics 365 Retail. Nánari upplýsingar um ráðleggingar um vöru er að finna í [ráðleggingar um vörur í POS-skjölum.](product.md)
 
-Hægt er að sýna vöruráðleggingar í POS-tækinu þegar þú notar Microsoft Dynamics 365 for Retail. *Ráðleggingar* eru vörur sem viðskiptavinurinn kann að hafa áhuga á grundvelli sögu innkaupapantanir, vara á óskalista þeirra og vörur sem aðrir viðskiptavinir keyptu á netinu og í verslunum. Til að birta vöruráðleggingar þarf að bæta við stýringu á færsluskjáinn með útlitshönnuður afgreiðsluskjás.
+
+Hægt er að sýna vöruráðleggingar í POS-tækinu þegar þú notar Microsoft Dynamics 365 Retail. Til að birta vöruráðleggingar þarf að bæta við stýringu á færsluskjáinn með útlitshönnuður afgreiðsluskjás. 
 
 ## <a name="open-layout-designer"></a>Opnaðu Útlitshönnuður afgreiðsluskjás
 
@@ -45,6 +44,7 @@ Hægt er að sýna vöruráðleggingar í POS-tækinu þegar þú notar Microsof
 4. Smellt er á **Útlitshönnuður**.
 5. Fylgdu kvaðningum til að hefja Útlitshönnuðinn. Þegar beðið er um skilríki skal slá inn sömu skilríki og voru notuð þegar Útlitshönnuður var opnaður af síðunni **Skjáútlit**.
 6. Þegar þú skráir þig inn birtist síða sem er svipuð þeirra sem er fyrir neðan. Útlitið verður mismunandi eftir þeim sérstillingum sem voru gerðar fyrir verslunina.
+
 
     [![Útlitshönnuður](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
@@ -57,23 +57,28 @@ Tvær skilgreiningar eru í boði: Veldu valkostinn sem virkar best fyrir verslu
 
 ### <a name="make-recommendations-always-visible"></a>Gera ráðleggingar alltaf sýnilegar
 
-1. Dragðu úr hæð upplýsingasvæðis færslulína  svo að það sé í sömu hæð og svæði viðskiptamanns til vinstri .
 
-    [![Hæð á upplýsingasvæði fyrir færslu°línur minnkuð](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+1. Dragðu úr hæð upplýsingasvæðis færslulína svo að það sé í sömu hæð og svæði viðskiptamanns til vinstri .
+
+
+    [![Hæð á upplýsingasvæði fyrir færslulínur minnkuð](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. Frá valmynd til vinstri skal draga og sleppa ráðleggingarstýringu á milli upplýsingasvæðis færslulína og hnappahnita í neðst á miðjan færsluskjáinn. Breyta stærð stýringar svo að hún passi í það bil.
 
     [![Ráðleggingarstýringu bætt við útlitið](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
+
 3. Smellt er á **X++** til að vista og fara úr Útlitshönnuði.
 4. Í Dynamics 365 for Retail ferðu í **Retail** &gt; **Smásöluupplýsingatækni** &gt; **Dreifingaráætlun**.
-5. Á listanum velurðu  **1090 afgreiðslukassar**.
+5. Á listanum velurðu **1090 afgreiðslukassar**.
 6. Smellt er á **Keyra núna**.
+
 
 ### <a name="add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Bæta ráðleggingaflipa við hnitanetið hægra megin á skjánum
 
 1. Hægrismelltu í tómt bil undir síðasta flipanum á hnappahnitinu hægra megin á síðunni.
-2. Smelltu á  **Sérstilla**.
+
+2. Smelltu á **Sérstilla**.
 
     [![Sérstilling - Svargluggi flipastýringar](./media/pic-5.png)](./media/pic-5.png)
 
@@ -85,12 +90,14 @@ Tvær skilgreiningar eru í boði: Veldu valkostinn sem virkar best fyrir verslu
 
 6. Í svæðinu **Merki** skal færa inn heiti á ráðleggingaflipanum. Færðu til dæmis inn „Ráðlagðar afurðir“.
 7. Í svæðinu **Mynd** velurðu myndina sem á að birtast á flipanum.
-8. Smelltu á  **Í lagi**. Nýi flipinn birtist í hnappahnitunum.
+8. Smellt er á **OK**. Nýi flipinn birtist í hnappahnitunum.
 9. Smellt er á **X++** til að vista og fara úr Útlitshönnuði.
 10. Í Dynamics 365 for Retail ferðu í **Retail** &gt; **Smásöluupplýsingatækni** &gt; **Dreifingaráætlun**.
-11. Í listanum skal velja  **1090 afgreiðslukassar**.
+11. Á listanum velurðu **1090 afgreiðslukassar**.
 12. Smellt er á **Keyra núna**.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit yfir sérsniðnar afurðarráðleggingar](personalized-product-recommendations.md)
+[afurðaráðleggingar í POS](product.md)
+
+[yfirlit yfir ráðleggingar um afurðir](../commerce/product-recommendations.md)

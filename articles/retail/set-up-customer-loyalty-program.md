@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir vildarkerfi
-description: Í þessu efni er fjallað um vildarkerfi í Microsoft Dynamics 365 for Retail og samsvarandi uppsetningarþrepum til að hjálpa smásala auðveldlega að byrja með vildarkerfi sín.
+description: Í þessu efni er fjallað um vildarkerfi í Dynamics 365 Retail og samsvarandi uppsetningarþrepum til að hjálpa smásala auðveldlega að byrja með vildarkerfi sín.
 author: scott-tucker
 manager: AnnBe
 ms.date: 03/08/2019
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8c2a2347abddf03ed884dcfe68f645fde84c092a
-ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
+ms.openlocfilehash: 9fbb5d6db16e2e145c4970b5dd6417d9e99f78b2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1863773"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250968"
 ---
 # <a name="loyalty-overview"></a>Yfirlit yfir vildarkerfi
 
 [!include [banner](includes/banner.md)]
 
-Vildarkerfi geta hjálpað til við að auka viðskiptavinar hollustu með því að umbuna viðskiptavinum fyrir samskipti þeirra við vörumerki smásala. Í Microsoft Dynamics 365 for Retail er hægt að setja upp einfalda eða flókið vildarkerfi sem gilda á milli lögaðila í hvaða smásölurás sem er. Í þessu efni er fjallað um vildarkerfi í Microsoft Dynamics 365 for Retail og samsvarandi uppsetningarþrepum til að hjálpa smásala auðveldlega að byrja með vildarkerfi sín.
+Vildarkerfi geta hjálpað til við að auka viðskiptavinar hollustu með því að umbuna viðskiptavinum fyrir samskipti þeirra við vörumerki smásala. Í Dynamics 365 Retail er hægt að setja upp einfalda eða flókið vildarkerfi sem gilda á milli lögaðila í hvaða smásölurás sem er. Í þessu efni er fjallað um vildarkerfi í Retail og samsvarandi uppsetningarþrepum til að hjálpa smásala auðveldlega að byrja með vildarkerfi sín.
 
 Þú getur sett upp vildarkerfi þannig að það innihaldi eftirfarandi eiginleika.
 
@@ -42,7 +42,7 @@ Vildarkerfi geta hjálpað til við að auka viðskiptavinar hollustu með því
 
 ## <a name="setting-up-loyalty-programs"></a>Uppsetning vildarkerfa
 
-Setja verður upp nokkra þætti til að virkja eiginleikann vildarpunkta í Dynamics 365 for Retail. Eftirfarandi skýringarmynd sýnir eiginleika vildarkorts og hvernig þeir tengjast hvort öðru.
+Setja verður upp nokkra þætti til að virkja eiginleikann vildarpunkta í Retail. Eftirfarandi skýringarmynd sýnir eiginleika vildarkorts og hvernig þeir tengjast hvort öðru.
 
 ![Vinnsluflæði vildarkortsuppsetningar](./media/loyaltyprocess.gif "Eiginleikar vildarkorts og hvernig þeir tengjast hvor öðrum")
 
@@ -69,9 +69,9 @@ Eftirfarandi tafla lýsir ferla sem þarf að keyra til að senda vildarskilgrei
 
 | Heiti ferlis                         | Lýsing | Heiti síðu |
 |--------------------------------------|-------------|-----------|
-| 1050 (vildarupplýsingar)           | Keyra þetta ferli til að senda vildargögn úr Dynamics 365 for Retail í smásöluverslun. Það er góð hugmynd að skipuleggja þetta ferli til að keyra oft, þannig að vildargögn séu sendar til allra verslana. | Dreifingaráætlun |
+| 1050 (vildarupplýsingar)           | Keyra þetta ferli til að senda vildargögn úr Retail í smásöluverslun. Það er góð hugmynd að skipuleggja þetta ferli til að keyra oft, þannig að vildargögn séu sendar til allra verslana. | Dreifingaráætlun |
 | Vinna úr vildarkerfi              | Keyra þetta ferli til að tengja vildarkerfi með smásölurásir sem er tengdur við vildarkerfi. Hægt er að raða þetta ferli til að keyra sem runuvinnslu. Keyra þarf þetta ferli ef skilgreiningargögn vildarpunkta er breytt, eins og vildarkerfi, vildaráætlanir, eða vildarpunktar vildarkerfis. | Vinna úr vildarkerfi |
-| Vinna úr vildarfærslum utan nets | Keyra þetta ferli til að uppfæra vildarkort til að taka með færslur sem var unnin án tengingar. Þetta ferli gildir aðeins ef **Safna án nettengingar** reiturinn er valinn á **Samnýttar smásölufæribreytur** síðu, svo hægt er að fá umbun án nettengingar. | Vinna úr vildarfærslum utan nets |
+| Bóka áunna vildarpunkta í runuvinnslu | Keyra þetta ferli til að uppfæra vildarkort til að taka með færslur sem var unnin án tengingar. Þetta ferli gildir aðeins ef gátreiturinn **Bóka áunna punkta í runuvinnslu** er valinn á **Samnýttar smásölufæribreytur** síðu, svo hægt er að fá umbun án nettengingar. | Bóka áunna vildarpunkta í runuvinnslu |
 | Uppfæra vildarkortalög            | Keyra þetta ferli til að meta tekjuaðgerðir viðskiptavinar gagnvart vildarlagsreglum fyrir vildarkerfi og til að uppfæra stöðu lags viðskiptavinar. Þetta ferli er þarft eingöngu ef reglum vildarkerfis er breytt og uppfærðar reglur eiga að vera beitt afturvirkt fyrir vildarkort sem hefur þegar verið gefið út. Þetta ferli er hægt að keyra sem runuvinnslu eða fyrir einstaka spjöld. | Uppfæra vildarkortalög |
 
 ## <a name="loyalty-enhancements"></a>Vildarkerfisviðbætur
@@ -89,7 +89,7 @@ Smásala hefur nýja vildarkerfisvirkni sem hluti af útgáfu október 2018. Hve
 
     ![Útilokuð tengsl](./media/Excluded-affiliations.png "Útiloka tengsl frá því að vinna sér inn vildarpunkta")
     
-- Smásalar geta búið til vildarkortsnúmer í rásunum. Fyrir uppfærslu október 2018 gætu smásalar notað efnisleg vildarkort eða búið til vildarkort með því að nota einstakar upplýsingar um viðskiptavin eins og símanúmer. Til að virkja sjálfvirka framleiðslu á vildarkortum í smásöluverslunum skaltu kveikja á **Búa til vildarkortsnúmer** í virknireglunni sem tengist versluninni. Fyrir netrásir geta smásalar notað IssueLoyaltyCard API til að gefa út vildarkort til viðskiptavina. Smásalar geta annaðhvort veitt vildarkortsnúmer til þessa API, sem verður notaður til að búa til vildarkortið, eða kerfið mun nota vildarkortsnúmeraröðina sem er sett í Dynamics 365 for Retail. Hins vegar, ef númeraröðin er ekki til staðar, og smásalinn gefur ekki upp vildarkortsnúmer meðan þú hringir í API, þá birtist villa.
+- Smásalar geta búið til vildarkortsnúmer í rásunum. Fyrir uppfærslu október 2018 gætu smásalar notað efnisleg vildarkort eða búið til vildarkort með því að nota einstakar upplýsingar um viðskiptavin eins og símanúmer. Til að virkja sjálfvirka framleiðslu á vildarkortum í smásöluverslunum skaltu kveikja á **Búa til vildarkortsnúmer** í virknireglunni sem tengist versluninni. Fyrir netrásir geta smásalar notað IssueLoyaltyCard API til að gefa út vildarkort til viðskiptavina. Smásalar geta annaðhvort veitt vildarkortsnúmer til þessa API, sem verður notaður til að búa til vildarkortið, eða kerfið mun nota vildarkortsnúmeraröðina sem er sett í Retail. Hins vegar, ef númeraröðin er ekki til staðar, og smásalinn gefur ekki upp vildarkortsnúmer meðan þú hringir í API, þá birtist villa.
 
     ![Búa til vildarkort](./media/Generate-loyalty-card.png "Búa sjálfkrafa til vildarkortsnúmer")
 
@@ -137,7 +137,7 @@ Smásala hefur nýja vildarkerfisvirkni sem hluti af útgáfu október 2018. Hve
     - Verkþáttur finnst sem ætti að umbuna.
     - Úthlutun á viðeigandi punktum.
 
-    Fyrsta skrefið er utan við Microsoft Dynamics 365 for Retail, t.d. tvít um vörumerkið eða líka við vörumerkið á Facebook. Eftir að borið hefur verið kennsl á verkþáttinn geta smásalarnir hringt í ofangreindan API Retail-þjón og úthlutað vildarpunktum í rauntíma. Í slíkum tilvikum er engin þörf á yfirferð vegna þess að verkþáttur hefur átt sér stað og samsvarandi punktum á að úthluta. Hins vegar eru aðstæður þar sem smásali myndi vilja endurskoða skrárnar áður en punktum er úthlutað. Til dæmis hefur smásalinn sett upp vinnusmiðju í versluninni sem viðskiptavinirnir skrá sig í á vefsvæðinu eða öðrum forritum sem bjóða upp á viðburðarskráningu. Hins vegar eiga aðeins viðskiptavinir sem mæta að vinna sér inn vildarpunkta. Fyrir slíkar aðstæður, í 10.0 útgáfunni kynntum við gagnaeiningu sem heitir **Línur fyrir aðrar verkþáttargerðir vildarpunkta í smásölu**. Þessi gagnaeining gerir smásölum kleift að nota annaðhvort Ramma fyrir inn- og útflutning gagna (DIXF) eða OData API til að skrá verkþættina sem eiga að veita viðskiptavinum vildarpunkta. Gagnaeiningin geymir verkþættina í færslubók sem heitir **Vildarlínur fyrir aðra verkþætti** sem hægt er að nota til þess að yfirfara og breyta. Eftir að gögnin hafa verið yfirfarin getur tæknimaður annaðhvort bókað verkþáttarlínurnar handvirkt eða keyrt verk sem heitir **Vinna úr öðrum verkþáttargerðum fyrir vildarlínur** sem mun bóka allar óbókuðu verkþáttarlínurnar og úthluta punktunum til viðskiptavina samkvæmt tekjureglunum. Í ofangreindri atburðarás myndi forrit viðburðarskráningar hringja í Odata API til að senda upplýsingar um viðskiptavin til Dynamics 365 for Retail. Hins vegar getur tæknimaðurinn bókað verkþáttarlínurnar fyrir aðeins þessa viðskiptavini sem tóku þátt í vinnusmiðjunni og eytt verkþáttarlínunum hjá hinum viðskiptavinunum. 
+    Fyrsta skrefið er utan við Retail, t.d. tvít um vörumerkið eða líka við vörumerkið á Facebook. Eftir að borið hefur verið kennsl á verkþáttinn geta smásalarnir hringt í ofangreindan API Retail-þjón og úthlutað vildarpunktum í rauntíma. Í slíkum tilvikum er engin þörf á yfirferð vegna þess að verkþáttur hefur átt sér stað og samsvarandi punktum á að úthluta. Hins vegar eru aðstæður þar sem smásali myndi vilja endurskoða skrárnar áður en punktum er úthlutað. Til dæmis hefur smásalinn sett upp vinnusmiðju í versluninni sem viðskiptavinirnir skrá sig í á vefsvæðinu eða öðrum forritum sem bjóða upp á viðburðarskráningu. Hins vegar eiga aðeins viðskiptavinir sem mæta að vinna sér inn vildarpunkta. Fyrir slíkar aðstæður, í 10.0 útgáfunni kynntum við gagnaeiningu sem heitir **Línur fyrir aðrar verkþáttargerðir vildarpunkta í smásölu**. Þessi gagnaeining gerir smásölum kleift að nota annaðhvort Ramma fyrir inn- og útflutning gagna (DIXF) eða OData API til að skrá verkþættina sem eiga að veita viðskiptavinum vildarpunkta. Gagnaeiningin geymir verkþættina í færslubók sem heitir **Vildarlínur fyrir aðra verkþætti** sem hægt er að nota til þess að yfirfara og breyta. Eftir að gögnin hafa verið yfirfarin getur tæknimaður annaðhvort bókað verkþáttarlínurnar handvirkt eða keyrt verk sem heitir **Vinna úr öðrum verkþáttargerðum fyrir vildarlínur** sem mun bóka allar óbókuðu verkþáttarlínurnar og úthluta punktunum til viðskiptavina samkvæmt tekjureglunum. Í ofangreindri atburðarás myndi forrit viðburðarskráningar hringja í Odata API til að senda upplýsingar um viðskiptavin til Dynamics 365 Retail. Hins vegar getur tæknimaðurinn bókað verkþáttarlínurnar fyrir aðeins þessa viðskiptavini sem tóku þátt í vinnusmiðjunni og eytt verkþáttarlínunum hjá hinum viðskiptavinunum. 
 
     > [!NOTE]
     > Eins og er neyðir kerfið notendur til að setja upp númeraröð fyrir „aðrar verkþáttargerðir“, en það skref reynist ekki nauðsynlegt í framtíðarútgáfum. Til að setja upp númeraröð skal fara í **Samnýttar smásölufæribreytur** \> **Númeraraðir** og velja númeraröð fyrir **Auðkenni fyrir vildarpunkta annarra verkþáttargerða**.

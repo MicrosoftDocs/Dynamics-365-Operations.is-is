@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-15
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1a416bbb79be3f25998d3c0da8d231d0df808685
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875717"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024500"
 ---
 # <a name="maintenance-forecasts"></a>Viðhaldsspár
 
@@ -104,7 +104,7 @@ ms.locfileid: "1875717"
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Sjálfvirk uppfærsla á spám um verkbeiðnir
 
-Í eignastjórnun geturðu sjálfkrafa uppfært allar breytingar á spám um verkbeiðnir varðandi kostnað á klukkustund, vörukostnað og útgjöld sem hafa verið uppfærð í öðrum einingum í Dynamics 365 for Finance and Operations. Þetta er gert til að tryggja að nýjustu kostnaðarverðin séu ávallt notuð í spám þínum um verkbeiðnir. Það er líka mögulegt að gera svipaðar uppfærslur fyrir [spár um viðhaldverk](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
+Í eignastjórnun geturðu sjálfkrafa uppfært allar breytingar á spám um verkbeiðnir varðandi kostnað á klukkustund, vörukostnað og útgjöld sem hafa verið uppfærð í öðrum einingum. Þetta er gert til að tryggja að nýjustu kostnaðarverðin séu ávallt notuð í spám þínum um verkbeiðnir. Það er líka mögulegt að gera svipaðar uppfærslur fyrir [spár um viðhaldverk](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
 1. Smelltu á **Eignastjórnun** > **Reglubundið** > **Spá** > **Uppfæra spá um verkbeiðni**.
 

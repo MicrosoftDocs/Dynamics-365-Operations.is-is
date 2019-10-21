@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f4e378bc0a72e05f940ae352ad0f1c0709d9d3a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563529"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249472"
 ---
 # <a name="product-information-overview"></a>Yfirlit afurðarupplýsinga
 
@@ -57,17 +57,17 @@ Afurð er fyrst og fremst skilgreind af afurðarnúmeri, heiti og lýsingu. Hins
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Dreifing, út- og innflutningur á afurðarupplýsingum
 
-Afurðarskilgreiningu er hægt að stofna í Microsoft Dynamics 365 for Finance and Operations. Einnig er hægt að sækja hana úr lífsferilsstjórnun afurðar, stjórnun afurðaupplýsinga eða upplýsingakerfum um afurðarstjórnun. Þegar fleiri en eitt tilvik af Finance and Operations eru notuð er eitt tilvik yfirleitt notað sem afurðarsniðmát fyrir öll önnur tilvik. Þessi aðferð er studd af stóru safni gagnaeininga sem gera út- og innflutning mögulegan á afurðarskilgreiningargögnum úr einu tilviki í annað.
+Afurðarskilgreiningu er hægt að stofna í Supply Chain Management. Einnig er hægt að sækja hana úr lífsferilsstjórnun afurðar, stjórnun afurðaupplýsinga eða upplýsingakerfum um afurðarstjórnun. Þegar fleiri en eitt tilvik af Supply Chain Management eru notuð er eitt tilvik yfirleitt notað sem afurðarsniðmát fyrir öll önnur tilvik. Þessi aðferð er studd af stóru safni gagnaeininga sem gera út- og innflutning mögulegan á afurðarskilgreiningargögnum úr einu tilviki í annað.
 
-Til að styðja við dreifingu afurðargagna á mörg tilfelli, leyfir Finance and Operations þér að nota Common Data Service. Afurðarskilgreiningu er hægt að stofna í frá tilviki í Finance and Operations í Common Data Service. Afurðarskilgreining er þá hægt að nota til að úthluta öðrum viðskiptaferlum, t.d. Microsoft Dynamics 365 for Sales, með afurðargögnum.
+Til að styðja við dreifingu afurðargagna á mörg tilfelli, leyfir Supply Chain Management þér að nota Common Data Service. Afurðarskilgreiningu er hægt að stofna í frá tilviki í Supply Chain Management í Common Data Service. Afurðarskilgreining er þá hægt að nota til að úthluta öðrum viðskiptaferlum, t.d. Dynamics 365 Sales, með afurðargögnum.
 
 Athugaðu að í kvikum og snörpum fyrirtækjum breytast afurðarupplýsingar daglega. Þess vegna er viðhald á réttum og áreiðanlegum afurðarupplýsingum mikilvægt viðskiptaferli eitt og sér.
 
 ## <a name="product-masters-and-product-variants"></a>Afurðarsniðmát og afurðarafbrigði
 
-Í kvikum heimi, þar sem nauðsynlegt að er að vörur séu strax þróaðar að kröfum viðskiptavina, tilgreina afurðaskilgreiningar safn afurða í stað einkvæmra afurða. Í Microsoft Dynamics 365 for Finance and Operations, eru þessar almennu afurðir þekktar sem *afurðarsniðmát*. Afurðarsniðmát hafa að geyma skilgreiningu og reglur sem tilgreina hvernig einkvæmum afurðum er lýst og hvernig þær hegða sér í viðskiptaferlum. Á grundvelli þessara skilgreininga er hægt að kalla fram einkvæmar afurðir. Þessar einkvæmu vörur kallast *afurðarafbrigði*.
+Í kvikum heimi, þar sem nauðsynlegt að er að vörur séu strax þróaðar að kröfum viðskiptavina, tilgreina afurðaskilgreiningar safn afurða í stað einkvæmra afurða. Í Supply Chain Management, eru þessar almennu afurðir þekktar sem *afurðarsniðmát*. Afurðarsniðmát hafa að geyma skilgreiningu og reglur sem tilgreina hvernig einkvæmum afurðum er lýst og hvernig þær hegða sér í viðskiptaferlum. Á grundvelli þessara skilgreininga er hægt að kalla fram einkvæmar afurðir. Þessar einkvæmu vörur kallast *afurðarafbrigði*.
 
-Í Finance and Operations er afurðarsniðmát tengt við afurðavíddaflokk og skilgreiningartækni til að tilgreina viðskiptareglurnar. Afurðavíddir (litur, stærð, stíll og skilgreining) eru sértæk söfn eiginda sem hægt er að nota í hugbúnaðinum til að skilgreina og fylgjast með tiltekinni hegðun tengdra afurða. Þessar víddir hjálpa notendum einnig að leita að og auðkenna afurðirnar.
+Afurðarsniðmát er tengt við afurðavíddaflokk og skilgreiningartækni til að tilgreina viðskiptareglurnar. Afurðavíddir (litur, stærð, stíll og skilgreining) eru sértæk söfn eiginda sem hægt er að nota í hugbúnaðinum til að skilgreina og fylgjast með tiltekinni hegðun tengdra afurða. Þessar víddir hjálpa notendum einnig að leita að og auðkenna afurðirnar.
 
 ## <a name="configuration-technologies"></a>Skilgreiningartækni
 
@@ -77,7 +77,7 @@ Athugaðu að í kvikum og snörpum fyrirtækjum breytast afurðarupplýsingar d
 - Víddaskilgreiningar eru vanalega notaðar við framleiðsluaðstæður og gera þér kleift að nota skilgreiningarvíddir í skilgreiningu á uppskriftum. Eftir að tiltekin skilgreining er valin notar kerfið undirsamstæðu af uppskriftarlínum sem eru gildar fyrir þá skilgreiningu til áætlunar og framleiðslu. Þetta hugtak nefnist líka *altæk uppskrift*, þar sem ein samnýtt uppskrift er notuð fyrir allar skilgreiningar afurðar.
 - Skorðuskilgreining notast við afbrigðalíkan afurðar til að lýsa öllum mögulegum eiginleikum og þáttum sem þarf til að lýsa öllum mögulegum afbrigðum afurðar í einu líkani. Hægt er að lýsa skorðum samsetninga eiginda með reglulegum segðum eða töfluskorðum. Afbrigðalíkön og stillar verða sífellt mikilvægari í stjórnun afurðaupplýsinga og eru notuð í öllum greinum.
 
-Þegar innleiðing á Finance and Operations er áætluð er mjög mikilvægt að valin sé rétt skilgreiningartækni fyrir viðskiptaferli. Ekki er hægt að umbreyta afurð úr einu líkani í annað eftir innleiðingu.
+Þegar innleiðing á Supply Chain Management er áætluð er mjög mikilvægt að valin sé rétt skilgreiningartækni fyrir viðskiptaferli. Ekki er hægt að umbreyta afurð úr einu líkani í annað eftir innleiðingu.
 
 ## <a name="product-variant-model-definition-workspace"></a>Vinnusvæði skilgreiningar afurðarafbrigðislíkans
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1ec1edb861619bae2ae3c211720b55e170b83ec9
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: ec51c1a500b5c9ff2c363cfb69cc1d404e939df9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916623"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250646"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Breyta eftirspurnarspá handvirkt
 
@@ -41,5 +41,5 @@ ms.locfileid: "1916623"
 
 ## <a name="modify-the-forecast-in-excel"></a>Breyta spá í Excel
 1. Smelltu á **Opna** í Microsoft Office.
-2. Smelltu á **Breyta eftirspurnarspá** í Excel. Í Excel, hægt að bæta við, eyða og breyta spárlínum eftirspurnar. Ef ekki er hægt að sjá gögnin í Excel, þarf að skrá sig inn í Microsoft Dynamics 365 for Finance and Operations Enterprise edition, með "Halda mér innskráðum/innskráðri" valkosturinn virk og þarf að treysta gagnatenginarforritið.  
+2. Smelltu á **Breyta eftirspurnarspá** í Excel. Í Excel, hægt að bæta við, eyða og breyta spárlínum eftirspurnar. Ef ekki er hægt að sjá gögnin í Excel, þarf að skrá sig inn með "Halda mér undirrituð" valkosturinn virk og þarf að treysta forritið tengingu gögn.  
 

@@ -1,6 +1,6 @@
 ---
 title: Endurbætur á reiðufjárstjórnun
-description: Þetta efnisatriði útskýrir endurbætur á reiðufjárstjórnun á sölustað fyrir Dynamics 365 for Retail.
+description: Þetta efnisatriði útskýrir endurbætur á reiðufjárstjórnun á sölustað fyrir Dynamics 365 Retail.
 author: anpurush
 manager: AnnBe
 ms.date: 05/21/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 845cba3b536b0f800b7c7c4eecee46a068ca8cff
-ms.sourcegitcommit: 432481001b986b54937d423516efd8f2af1511d6
+ms.openlocfilehash: 49d70a8d983bf3475e01f8fcb80d569b13568485
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1630054"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019532"
 ---
 # <a name="cash-management-improvements"></a>Endurbætur á reiðufjárstjórnun
 
@@ -32,9 +32,11 @@ ms.locfileid: "1630054"
 
 Reiðufjárstjórnun er lykilvirkni fyrir söluaðila í sjálfum verslununum. Söluaðilar vilja að verslanir þeirra séu með kerfi sem auðveldar að bjóða upp á rekjanleika og ábyrgð á reiðufé og færslu þess milli mismunandi afgreiðslukassa og gjaldkera í verslun. Þeir verða að geta afstemmt allan mismun og ákvarðað ábyrgð.
 
-Microsoft Dynamics 365 for Retail er með möguleikann á reiðufjárstjórnun í forriti sölustaðar (POS). Hinsvegar, í útgáfum Retail sem eru eldri en útgáfa 10.0.3, er virkni reiðufjárstjórnunar ekki nægjanlega góð til að bjóða upp á fullan rekjanleika á færslu reiðufjár í verslunum. Þótt söluaðilar geti afstemmt reiðuféð fyrir verslun, geta þeir ekki ákvarðað nákvæmlega ábyrgð í tilfellum þar sem reiðufé stemmir ekki.
 
-Í Microsoft Dynamics 365 for Retail, útgáfu 10.0.3 og síðar, fá söluaðilar rekjanleika fyrir meðhöndlun á reiðufé. Sem hluti af þessum reikjanleika, geta söluaðilar skilgreint öryggishólf, gert tvíhliða peningagreiðslur og afstemmt færslur reiðufjárstjórnunar.
+Microsoft Dynamics 365 Retail er með möguleikann á reiðufjárstjórnun í forriti sölustaðar (POS). Hinsvegar, í útgáfum Retail sem eru eldri en útgáfa 10.0.3, er virkni reiðufjárstjórnunar ekki nægjanlega góð til að bjóða upp á fullan rekjanleika á færslu reiðufjár í verslunum. Þótt söluaðilar geti afstemmt reiðuféð fyrir verslun, geta þeir ekki ákvarðað nákvæmlega ábyrgð í tilfellum þar sem reiðufé stemmir ekki.
+
+
+Í Retail, útgáfu 10.0.3 og síðar, fá söluaðilar rekjanleika fyrir meðhöndlun á reiðufé. Sem hluti af þessum reikjanleika, geta söluaðilar skilgreint öryggishólf, gert tvíhliða peningagreiðslur og afstemmt færslur reiðufjárstjórnunar.
 
 ## <a name="set-up-traceability-and-define-safes"></a>Setja upp rekjanleika og skilgreina öryggishólf
 

@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 449a1f574cd32860cbdc2e43f21be1d3d692768f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553554"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025103"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Setja upp afsláttarmiða fyrir smásölu
 
@@ -37,10 +37,10 @@ Hver afsláttarmiði tengist einum smásöluafslætti. Verðflokkurinn sem tengi
 
 Í raun eru afsláttarmiðar viðbót við smásöluafslætti. Afsláttarmiðinn felur í sér nauðsynlega afsláttarmiðakóða og strikamerki, ásamt tímabilum fyrir þessa kóða. Afsláttarmiðinn gefur einnig valkvæm notkunartakmörk og nauðsynlega eiginleika viðskiptavina. Í afslættinum kemur fram fyrir hvaða afurðahóp afsláttarmiðinn gildir. Verðflokkarnir fyrir afsláttinn hafa að geyma safn viðskiptavina, rásir eða vörulista sem afsláttarmiðinn gildir fyrir.
 
-Til að stofna afsláttarmiða stofnarðu afsláttinn og afsláttarmiðinn í sitthvoru lagi. Síðan tengirðu þá með því að velja afsláttinn á afsláttarsíðunni í Microsoft Dynamics 365 for Retail.
+Til að stofna afsláttarmiða stofnarðu afsláttinn og afsláttarmiðinn í sitthvoru lagi. Síðan tengirðu þá með því að velja afsláttinn á afsláttarsíðunni í Retail.
 
 > [!NOTE]
-> Þegar afsláttarmiði er tengdur við afslátt verða nokkrir reitir á afsláttarsíðunni í Microsoft Dynamics 365 for Retail skrifvarðir vegna þess að stillingar afsláttarmiða stjórna þeim. Þessir reitir innihalda reitina fyrir stöðu og stöðluð dagsetningabil.
+> Þegar afsláttarmiði er tengdur við afslátt verða nokkrir reitir á afsláttarsíðunni í Retail skrifvarðir vegna þess að stillingar afsláttarmiða stjórna þeim. Þessir reitir innihalda reitina fyrir stöðu og stöðluð dagsetningabil.
 
 ### <a name="limited-use-coupons"></a>Afsláttarmiðar með takmarkaða notkun
 
@@ -75,7 +75,7 @@ Hægt er að skilgreina afsláttarmiða þannig að notkun þeirra sé takmörku
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Áhrif hlutauppfærslna á afsláttarmiða
 
-Virkni afsláttarmiða samanstendur af mörgum ólíkum eiginleikum í Dynamics 365 for Retail. Microsoft Dynamics 365 for Retail-höfuðstöðvar og rásin er hægt að uppfæra að hluta til yfir þætti. Þess vegna er mikilvægt að skilja hvernig hlutauppfærslur hafa áhrif á virkni afsláttarmiða í heild sinni.
+Virkni afsláttarmiða samanstendur af mörgum ólíkum eiginleikum. Dynamics 365 Retail-höfuðstöðvar og rásin er hægt að uppfæra að hluta til yfir þætti. Þess vegna er mikilvægt að skilja hvernig hlutauppfærslur hafa áhrif á virkni afsláttarmiða í heild sinni.
 
 - **HQ er uppfært að hluta en smásöluþjónn og sölustaður eru ekki uppfærðir.** Í uppfærslu á HQ er afsláttarmiði og afsláttarsíða uppfærð og smásöluverðskerfið er einnig uppfært. Ef aðeins einn af þessum þáttum er uppfærður munu sumar síður í Retail ekki passa við gögn um verðútreikninga. Þar af leiðandi gætu óvæntir útreikningar á afsláttum eða villur komið upp við útreikning á afsláttum.
 - **HQ er uppfært en smásöluþjónn og sölustaður eru ekki uppfærðir (N-1).** Þar sem ekki er hægt að uppfæra allar smásöluverslanir samtímis mælum við með því að þú uppfærir HQ áður en smásöluverslanir eru uppfærðar. Í atburðarás N-1 verður ný virkni sem er tengd afsláttarmiðum ekki tiltæk í verslunum sem hafa ekki verið uppfærðar. Til dæmis kynnir virkni afsláttarmiða til sögunnar „útiloka“ línur. Ef þú útilokar línur í afslætti eru þær ekki notaðar í smásöluverslun sem notast við eldri útgáfu.

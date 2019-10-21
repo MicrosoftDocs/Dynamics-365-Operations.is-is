@@ -1,6 +1,6 @@
 ---
-title: Hvað er nýtt eða breytt í Dynamics 365 for Talent (2. apríl 2019)
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent.
+title: Hvað er nýtt eða breytt í Dynamics 365 Talent (2. apríl 2019)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/02/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795245"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026074"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 for Talent (2. apríl 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 Talent (2. apríl 2019)
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 for Talent.
+Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Breytingar í Attract
 
@@ -56,8 +56,8 @@ Umbætur á flipanum **Skjöl** í notendasíðum og hæfileikasöfnum forrita b
 ## <a name="changes-in-core-hr"></a>Breytingar í Core HR
 Breytingum sem lýst er í þessum kafla gilda um byggingarnúmer 8.1.2216.
 
-### <a name="platform-update-25"></a>Update 25 fyrir verkvang
-Frekari upplýsingar um verkvangsuppfærslu 25 er að finna í [Forskoðun á eiginleikum í Dynamics 365 for Finance and Operations verkvangsuppfærslu 25 í (apríl 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+### <a name="platform-update-25-for-finance-and-operations"></a>Verkvangsuppfærsla 25 fyrir Finance and Operations
+Frekari upplýsingar um verkvangsuppfærslu 25 fyrir Finance and Operations er að finna í [Forskoðun á eiginleikum í Dynamics 365 for Finance and Operations verkvangsuppfærslu 25 í (apríl 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Ítarlegt launaöryggi (fast og breytilegt)
 Í mörgum fyrirtækjum er hugsanlegt að launa- og fríðindastjórar hafi aðeins aðgang að ákveðnum launafærslum. Þetta gæti falið í sér skrár fyrir stjórnendur eða svæðisbundna starfsmenn. Þessi breyting gerir mannauðsstjóra kleift að vinna með launafyrirkomulag fyrir mismunandi starfsmannahópa í fyrirtækinu. Hægt er að úthluta öryggishlutverkum á fastar eða breytilegar áætlanir. Þessi öryggishlutverk ákvarða aðgang að áætlunum og tengdum starfsmannagögnum á borð við launa- eða bónusfærslur, þannig að eingöngu þessi hlutverk geti unnið úr launum fyrir starfsmannahópana.
@@ -79,4 +79,4 @@ Fyrirtæki gætu krafist ástæðukóða fyrir ákveðna leyfisgerðir þegar st
 Með þessari breytingu er borið kennsl á tvítekningar á meðan þú færir inn heiti á reitum og staða sýnir hversu margar tvítekningar fundust. Þú getur valið tengilinn sem gefinn er upp til að opna nýja síðu til að meta hvort nota skuli samsvörun sem borin var kennsl á. Til að forðast að trufla gagnafærslu, opnast tvítekin skjámynd ekki sjálfkrafa.
 
 ###  <a name="email-support-for-alerts"></a>Tölvupóstur út af viðvörunum
-Í verkvangsuppfærslu 25 geta notendur stofnað viðvörunarreglur sem senda sjálkrafa tilkynningar í tölvupósti á tengiliði þegar þær ræsast út af tilviki. 
+Með verkvangsuppfærslu 25 fyrir Finance and Operations geta notendur stofnað viðvörunarreglur sem senda sjálfkrafa tilkynningar í tölvupósti á tengiliði þegar þær ræsast út af tilviki. 

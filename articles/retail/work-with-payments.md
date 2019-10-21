@@ -1,6 +1,6 @@
 ---
 title: Greiðslumátar í símaverum
-description: Þetta efnisatriði lýsir hinum ýmsu greiðslumátum sem hægt er að nota í símaveri Microsoft Dynamics 365 for Retail.
+description: Þetta efnisatriði lýsir hinum ýmsu greiðslumátum sem hægt er að nota í símaveri Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 03/28/2018
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 825ad4ba3e72e5b34c2ff29f36f88a518810ce49
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 551a3cc9c0def1c67ab930dbff7cd1c0d296bd21
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571520"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018229"
 ---
 # <a name="payment-methods-in-call-centers"></a>Greiðslumátar í símaverum
 
 [!include [banner](includes/banner.md)]
 
-Í Microsoft Dynamics 365 for Retail inniheldur grunnstilling á rás símavers stillingu sem er kölluð **Virkja lok pöntunar**. Þessi stilling hjálpar til við að tryggja að allar pantanir sem notendur rásar búa til séu gefnar út til úrvinnslu pantana aðeins ef fyrirframgreiðsla eða fyrirframheimiluð greiðsla er til staðar sem er innan heimilaðra vikmarka. Ef kveikt er á stilllingunni **Virkja lok pöntunar** geta notendur símavers fært inn greiðslur gagnvart sölupöntun fyirr viðskiptavini með því að nota eiginleika greiðsluvinnslu símavers. Ef slökkt er á stillingunni geta notendur símavers ekki notað eiginleika greiðsluvinnslu, en þeir geta samt sem áður notað fyrirframgreiðslur á sölupöntunum með því að nota virknina venjulegar viðskiptakröfur.
+Í Dynamics 365 Retail inniheldur grunnstilling á rás símavers stillingu sem er kölluð **Virkja lok pöntunar**. Þessi stilling hjálpar til við að tryggja að allar pantanir sem notendur rásar búa til séu gefnar út til úrvinnslu pantana aðeins ef fyrirframgreiðsla eða fyrirframheimiluð greiðsla er til staðar sem er innan heimilaðra vikmarka. Ef kveikt er á stilllingunni **Virkja lok pöntunar** geta notendur símavers fært inn greiðslur gagnvart sölupöntun fyirr viðskiptavini með því að nota eiginleika greiðsluvinnslu símavers. Ef slökkt er á stillingunni geta notendur símavers ekki notað eiginleika greiðsluvinnslu, en þeir geta samt sem áður notað fyrirframgreiðslur á sölupöntunum með því að nota virknina venjulegar viðskiptakröfur.
 
 Sem hluti af rásarstillingunni getur fyrirtæki skilgreint greiðslumáta sem eru heimilaðir fyrir rás símavers. Rás símavers notar sömu greiðslumátana og eru skilgreindir fyrir rásir smásöluverslunar.
 

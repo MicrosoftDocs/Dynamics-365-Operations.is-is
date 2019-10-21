@@ -1,6 +1,6 @@
 ---
-title: Samstilla hausa og línur sölutilboðs beint úr Sales við Finance and Operations
-description: Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla hausa og línur sölutilboðs beint úr Microsoft Dynamics 365 for Sales við Microsoft Dynamics 365 for Finance and Operations.
+title: Samstilla hausa og línur sölutilboðs beint úr Sales í Supply Chain Management
+description: Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla hausa og línur sölutilboða beint úr Dynamics 365 Sales við Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
@@ -19,33 +19,33 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 0894f4728d3f1df21db130cd9e87d9881726e7fa
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: ddc81aa7ff462304cb6e22c919221217f7a1e019
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743372"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251248"
 ---
-# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-finance-and-operations"></a>Samstilla hausa og línur sölutilboðs beint úr Sales við Finance and Operations
+# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Samstilla hausa og línur sölutilboðs beint úr Sales í Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla hausa og línur sölutilboðs beint úr Microsoft Dynamics 365 for Sales við Microsoft Dynamics 365 for Finance and Operations.
+Þetta efnisatriði fjallar um sniðmát og undirliggjandi verkefni sem notuð eru til að samstilla hausa og línur sölutilboða beint úr Dynamics 365 Sales við Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
 > Áður en þú getur notað Prospect to cash lausnina ættirðu að kynna þér [Sameina gögn í Common Data Service fyrir forrit](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Gagnaflæði í Prospect to cash
 
-Prospect to lausnin notar gagnasamþættingu til að samstilla gögn yfir Finance and Operations og Sales. Prospect to cash sniðmát sem eru í boði með eiginleika gagnasamþættingar leyfir flæði gagna fyrir reikninga, tengiliði, vörur, sölutilboða, sölutilboð, sölupantanir og sölureikninga milli Finance and Operations og Sales. Eftirfarandi mynd sýnir hvernig gögnin eru samstillt milli Finance and Operations og Sales.
+Prospect to lausnin notar gagnasamþættingu til að samstilla gögn yfir tilvik Supply Chain Management og Sales. Prospect to cash sniðmát sem eru í boði með gagnasamþættingu leyfir flæði gagna fyrir reikninga, tengiliði, vörur, sölutilboða, sölutilboð, sölupantana og sölureikningagagna milli Supply Chain Management og Sales. Eftirfarandi mynd sýnir hvernig gögnin eru samstillt milli Supply Chain Management og Sales.
 
 [![Gagnaflæði í Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>Sniðmát og verkefni
 
-Eftirfarandi sniðmát og undirliggjandi verkefni eru notuð til að samstilla sölutilboðshausa og línur beint úr Sales í Finance and Operations:
+Eftirfarandi sniðmát og undirliggjandi verkefni eru notuð til að samstilla sölutilboðshausa og línur beint úr Sales í Supply Chain Management:
 
-- **Heiti sniðmátsins í gagnaflutningi:** Sölutilboð (Sales í Fin and Ops) - beint
+- **Heiti sniðmátsins í Gagnaflutningi:** Sölutilboð (Sales til Supply Chain Management) - beint
 - **Heiti verksins í gagnasamþættingarverki:**
 
     - QuoteHeader
@@ -53,20 +53,20 @@ Eftirfarandi sniðmát og undirliggjandi verkefni eru notuð til að samstilla s
 
 Eftirfarandi samstillingarverk eru nauðsynleg áður en samstilling úr sölutilboðshausum og línum getur átt sér stað:
 
-- Vörur (Fin og Ops til Sales) - bein
-- Reikningar (Sales við Fin and Ops) - Beint (ef notað)
-- Tengiliðir við viðskiptavini (Sales við Fin og Ops) - Beint (ef notað)
+- Afurðir (Supply Chain Management itl Sales) - Beint
+- Lyklar (Sales til Supply Chain Management) - Bein (ef notað)
+- Tengiliðir við viðskiptavini (Sales til Supply Chain Management) - Beint (ef notað)
 
 ## <a name="entity-set"></a>Einingastamstæða
 
-| Sölur        | Finance and Operations     |
+| Sala        | Finance and Operations     |
 |--------------|----------------------------|
 | Tilvitnanir       | CDS-sölutilboðshaus |
 | QuoteDetails | CDS-sölutilboðslínur  |
 
 ## <a name="entity-flow"></a>Einingaflæði
 
-Sölutilboð eru stofnuð í Sales og samstillt í Finance and Operations.
+Sölutilboð eru stofnuð í Sales og samstillt við Supply Chain Management.
 
 Sölutilboð úr Sales eru aðeins samstillt ef eftirfarandi skilyrði eru uppfyllt:
 
@@ -75,13 +75,13 @@ Sölutilboð úr Sales eru aðeins samstillt ef eftirfarandi skilyrði eru uppfy
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Prospect to cash lausn fyrir Sales
 
-**Er aðens með utanaðkomandi vörur** reitnum hefur verið bætt við **Tilboð** til að fylgjast stöðugt með því hvort sölutilboð samanstanda aðeins af utanaðkomandi vörum. Ef sölutilboð inniheldur aðeins afurðir sem unnið er með utan frá, er afurðunum stýrt í Finance and Operations. Þetta tryggir að þú reynir ekki að virkja og samstilla sölutilboðslínur með vörum sem eru óþekktar Finance and Operations.
+**Er aðens með utanaðkomandi vörur** reitnum hefur verið bætt við **Tilboð** til að fylgjast stöðugt með því hvort sölutilboð samanstanda aðeins af utanaðkomandi vörum. Ef sölutilboð inniheldur aðeins afurðir sem unnið er með utan frá, er afurðunum stýrt í Supply Chain Management. Þetta tryggir að þú reynir ekki að virkja og samstilla sölutilboðslínur með vörum sem eru óþekktar Supply Chain Management.
 
 Allar tilboðsvörur á sölutilboðinu eru uppfærðar með **Er aðeins með utanaðkomandi vörur** upplýsingar í sölutilboðshausnum. Þessar upplýsingar finnast í **Tilboð er aðeins með utanaðkomandi vörur** reitnum á einingunni **QuoteDetails**.
 
-Hægt er að bæta við afslætti við tilboðsvöruna og hann verður samstilltur við Finance and Operations. Reitirnir **Afsláttur**, **Gjöld** og **Skattur** á hausnum er stjórnað af uppsetningu í Finance and Operations. Eins og er, styður þessi uppsetning ekki samþættingarvörpun. Í núverandi hönnun er reitunum **Verð**, **Afsláttur**, **Gjöld** og **skattur** viðhaldið í Finance and Operations.
+Hægt er að bæta við afslætti við tilboðsvöruna og hann verður samstilltur við Supply Chain Management. Reitirnir **Afsláttur**, **Gjöld** og **Skattur** á hausnum er stjórnað af uppsetningu í Supply Chain Management. Eins og er, styður þessi uppsetning ekki samþættingarvörpun. Í núverandi hönnun er reitunum **Verð**, **Afsláttur**, **Gjöld** og **skattur** viðhaldið í Supply Chain Management.
 
-I Sales gerir lausnin það að verkum að eftirfarandi reitir eru ritvarðir, þar sem gildin eru ekki samstillt við Finance and Operations.
+I Sales gerir lausnin það að verkum að eftirfarandi reitir eru ritvarðir, þar sem gildin eru ekki samstillt við Supply Chain Management:
 
 - Reitir með lesaðgangi í sölutilboðshaus: **Afsláttur %**, **Afsláttur** og **Flutningsupphæð**
 - Reitir aðeins með lesaðgangi á tilboðsvörum: **Skattur**
@@ -111,20 +111,20 @@ I Sales gerir lausnin það að verkum að eftirfarandi reitir eru ritvarðir, �
 
 #### <a name="quoteline"></a>QuoteLine
 
-- Gangið úr skugga um að nauðsynleg gildisvörpun fyrir **SalesUnitSymbol** sé til staðar í Finance and Operations.
+- Gangið úr skugga um að nauðsynleg gildisvörpun sé til staðar fyrir **SalesUnitSymbol** í Supply Chain Management.
 - Gangið úr skugga um að nauðsynelgar einingar séu skilgreindar í Sales.
 
     Sniðmátsgildi með gildisvörpun er skilgreint fyrir **oumid.name** í **SalesUnitSymbol**.
 
-- Valfrjálst: Hægt er að bæta við eftirfarandi vörpun til að tryggja að sölutilboðslínur séu fluttar inn í Finance and Operations ef engar sjálfgefnar upplýsingar eru frá viðskiptavinum eða vörunni:
+- Valfrjálst: Hægt er að bæta við eftirfarandi vörpun til að tryggja að sölutilboðslínur séu fluttar inn í Supply Chain Management ef engar sjálfgefnar upplýsingar eru frá viðskiptavinum eða vörunni:
 
-    - **SiteId** – Svæði er nauðsynlegt til að búa til tilboð og sölupöntunarlínu í Finance and Operations. Það eru engin sjálfgefin sniðmátsgildi fyrir **SiteId**.
-    - **WarehouseId** – Vöruhús er nauðsynlegt til að vinna úr tilboðum og sölupöntunarlínum í Finance and Operations. Það er engin sjálfgefin sniðmátsgildi fyrir **WarehouseId**.
+    - **SiteId** – Svæði er nauðsynlegt til að búa til tilboð og sölupöntunarlínu í Supply Chain Management. Það eru engin sjálfgefin sniðmátsgildi fyrir **SiteId**.
+    - **WarehouseId** – Vöruhús er nauðsynlegt til að vinna úr tilboðum og sölupöntunarlínum í Supply Chain Management. Það er engin sjálfgefin sniðmátsgildi fyrir **WarehouseId**.
 
 ## <a name="template-mapping-in-data-integrator"></a>Sniðmátsvörpun í gagnasamþáttara
 
 > [!NOTE]
-> - Reitunum **Afsláttur**, **Gjöld** og **Skattur** er stýrt af flókinni uppsetningu í Finance and Operations. Eins og er, styður þessi uppsetning ekki samþættingarvörpun. Í núverandi hönnun eru reitirnir **Verð**, **Afsláttur**, **Gjöld** og **Skattur** meðhöndlaðir af Finance and Operations.
+> - Reitirnir **Afsláttur**, **Gjöld** og **Skattur** er stjórnað af flókinni uppsetningu í Supply Chain Management. Eins og er, styður þessi uppsetning ekki samþættingarvörpun. Í núverandi hönnun eru reitirnir **Verð**, **Afsláttur**, **Gjöld** og **Skattur** meðhöndlaðir af Supply Chain Management.
 > - Reitirnir **Greiðsluskilmálar**, **Flutningsskilmálar**, **Afhendingarskilmálar**, **Sendingaraðferð** og **Afhendingarmáti** eru ekki hluti af sjálfgefnum vörpunum. Til að varpa þessum reitum, verður þú að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem einingin er samstillt á milli.
 
 Eftirfarandi skýringamyndir sýna dæmi um sniðmátsvörpun í gagnasamþáttara.

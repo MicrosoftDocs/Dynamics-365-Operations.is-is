@@ -1,6 +1,6 @@
 ---
 title: Söluvirkni símavers
-description: Þessi grein veitir yfirlit yfir söluvirkni símavera í Microsoft Dynamics 365 for Retail.
+description: Þessi grein veitir yfirlit yfir söluvirkni símavera í Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/03/2018
@@ -19,26 +19,28 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8b78762ce70b318e1f77e1e49ffaa7b72f01667f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549481"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025772"
 ---
 # <a name="call-center-sales-functionality"></a>Söluvirkni símavers
 
 [!include [banner](includes/banner.md)]
 
-Í Dynamics 365 for Retail er símaver tegund smásölurásar sem hægt er að skilgreina í forritinu. Með því að skilgreina tiltekna rás fyrir símaverseiningar þínar er kerfinu gert kleift að binda ákveðin sjálfgildi gagna og sjálfgildi pöntunarvinnslu við sölupantanir sem búnar eru til af notanda símaversrásarinnar.
+
+Í Dynamics 365 Retail er símaver tegund smásölurásar sem hægt er að skilgreina í forritinu. Með því að skilgreina tiltekna rás fyrir símaverseiningar þínar er kerfinu gert kleift að binda ákveðin sjálfgildi gagna og sjálfgildi pöntunarvinnslu við sölupantanir sem búnar eru til af notanda símaversrásarinnar.
 
 Eiginleikar símavers eru meðal annars ítarlegt smásöluverð og kynningar, vörulistar, gjafakort, vildarkerfi og afsláttarmiðar. Símaverspantanir eru einnig notaðar af sölustað (POS) forritinu til að styðja við tilvik pöntunaruppfyllingar þvert á rásir.
 
-Það er mikilvægt að hafa í huga að þótt aðrar atvinnugreinar utan smásölu geti nýtt sér kerfiseiningu símavers, hefur núverandi útgáfa Dynamics 365 for Retail símaversforritsins ekki verið fínstillt fyrir notkun í tilvikum vinnslu pantana á milli fyrirtækja (B2B), eða í tilvikum þar sem pantanir hafa mjög margar sölulínur. Mælt er með því að notendur sem vilja nýta sér eiginleika símavers fyrir vinnslu pantana sem eru fyrir utan dæmigerða beint-til-neytanda færsluvinnslu, taki sér nægan tíma til að prófa og sannreyna að það að opna fyrir virkni símavers muni uppfylla þarfir um virkni og afköst.
+Það er mikilvægt að hafa í huga að þótt aðrar atvinnugreinar utan Retail geti nýtt sér kerfiseiningu símavers, hefur núverandi útgáfa símaversforritsins ekki verið fínstillt fyrir notkun í tilvikum vinnslu pantana á milli fyrirtækja (B2B), eða í tilvikum þar sem pantanir hafa mjög margar sölulínur. Mælt er með því að notendur sem vilja nýta sér eiginleika símavers fyrir vinnslu pantana sem eru fyrir utan dæmigerða beint-til-neytanda færsluvinnslu, taki sér nægan tíma til að prófa og sannreyna að það að opna fyrir virkni símavers muni uppfylla þarfir um virkni og afköst.
 
 Auk þess að styðja við stofnun pöntunar býður kerfiseining símavers einnig upp á notendavænt þjónustuforrit fyrir viðskiptavini sem auðveldar notendum að finna viðskiptavinareikninga og yfirfara öll tengd gögn og eigindir viðskiptavinapantana. Þjónustuskjárinn fyrir viðskiptavini er hannaður til að gera notanda kleift að fá aðgang að gögnum tengdum pöntunum fljótt, sem gerir þeim kleift að svara algengustu spurningum tengdum pöntunum frá viðskiptavinum.
 
-Þessi síða veitir tengla á viðeigandi fylgiskjöl sem tengjast uppsetningu, grunnstillingu og notkunarvirkni eiginleika símaversins í Dynamics 365 for Retail.
+Þessi síða veitir tengla á viðeigandi fylgiskjöl sem tengjast uppsetningu, grunnstillingu og notkunarvirkni eiginleika símaversins í Retail.
+
 
 ## <a name="configure-the-call-center"></a>Grunnstilla símaverið
 

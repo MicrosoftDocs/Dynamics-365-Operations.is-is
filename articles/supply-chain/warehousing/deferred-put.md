@@ -1,6 +1,6 @@
 ---
 title: Frestuð vinnsla vöruhúsavinnu
-description: Þetta efnisatriði lýsir virkni sem gerir frestaða vinnslu vörugeymsluaðgerða tiltæka í Microsoft Dynamics 365 for Finance and Operations.
+description: Þetta efnisatriði lýsir virkni sem gerir frestaða vinnslu vörugeymsluaðgerða tiltæka í Dynamics 365 Supply Chain Management.
 author: josaw1
 manager: AnnBe
 ms.date: 06/17/2019
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4905084f9bc28e55c307921280733c6acb80db86
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863587"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026924"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Frestuð vinnsla vöruhúsavinnu
 
@@ -29,7 +29,8 @@ ms.locfileid: "1863587"
 
 [!include [banner](../includes/pivate-preview-banner.md)]
 
-Þetta efnisatriði lýsir virkni sem gerir frestaða vinnslu vörugeymsluaðgerða tiltæka í Microsoft Dynamics 365 for Finance and Operations.
+Þetta efnisatriði lýsir virkni sem gerir frestaða vinnslu vörugeymsluaðgerða tiltæka í Dynamics 365 Supply Chain Management.
+
 
 Frestuð vinnsluvirkni gerir vöruhússtarfsmönnum kleift að halda áfram að vinna önnur verk meðan aðgerðin er unnin í bakgrunni. Frestuð vinnsla er gagnleg þegar vinna þarf margar vinnulínur og starfsmaðurinn getur látið vinna þá vinnu ósamstillta. Það er einnig gagnlegt þegar netþjónninn getur haft tilfallandi eða óáætlaða aukningu á vinnslutíma og aukinn vinnslutími getur haft áhrif á framleiðni notandans.
 

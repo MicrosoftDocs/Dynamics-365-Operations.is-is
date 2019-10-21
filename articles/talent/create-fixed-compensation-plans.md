@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 0a31ea7d1df33d3f42e95d5e1152f00687954b04
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3a6e7556705249296d4f5e5fb56f25b444f8f71a
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518234"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008152"
 ---
 # <a name="create-fixed-compensation-plans"></a>Stofna launafyrirkomulag fastra launa
 
@@ -31,7 +31,7 @@ ms.locfileid: "1518234"
 
 Föst laun vísa til reglubundinna vergra launa eða greiðslna til starfsmanns. Þetta efnisatriði lýsir þáttum sem þarf að setja upp áður en þú getur stofnað launafyrirkomulag fastra launa og ráða starfsmenn.
 
-Hægt er að reikna upphæðir fastra°launa fyrir starfsmenn, á grundvelli þátta eins og afköst, svæði og aukningu fjárhagsáætlunar. Microsoft Talent styður skref, launaþrep og greiningartímabil launa.
+Hægt er að reikna upphæðir fastra°launa fyrir starfsmenn, á grundvelli þátta eins og afköst, svæði og aukningu fjárhagsáætlunar. Dynamics 365 Talent styður skref, launaþrep og greiningartímabil launa.
 
 ## <a name="fixed-compensation-components"></a>Fastir launaþættir
 ### <a name="compensation-levels"></a>Launastig
@@ -59,7 +59,7 @@ Hægt er að hanna launafyrirkomulag fastra launa til að sameina alla uppsetta 
 
 Í stillingunni **Ráðningarregla** er gert kleift að tilgreina hvort allir starfsmenn eigi að fá sömu hækkun, án tillits til dagsetningarinnar sem þeir voru ráðnir (**Ráðningarregla** = **Ekkert**), eða hvort starfsmenn eigi að fá prósentu umbunar á grundvelli þess hversu lengi þeir voru í starfi á tímabilinu (**Ráðningarregla** = **Prósent**). 
 
-°**Nýtingarfylki sviðs** er gagnlegt ef annað hvort er óskað eftir að minnka tímann sem krafist er fyrir starfsmenn til að ná miðpunkti sviðsins eða auka tímann sem krafist er fyrir starfsmenn til að ná hámarks viðmiðunarpunkti sviðsins. Til dæmis, ef óskað er að gefa starfsmönnum sem eru í neðstu 25 prósentum síns sviðs 110 prósent°af markverðlaunum þeirra, en veita starfsmönnum sem eru í efstu 25 prósentum°síns sviðs aðeins 80 prósent af þeirra markverðlaunum til að koma í veg fyrir að þeir nái hámarki eins hratt. 
+**Nýtingarfylki sviðs** er gagnlegt ef annað hvort er óskað eftir að minnka tímann sem krafist er fyrir starfsmenn til að ná miðpunkti sviðsins eða auka tímann sem krafist er fyrir starfsmenn til að ná hámarks viðmiðunarpunkti sviðsins. Til dæmis, ef óskað er að gefa starfsmönnum sem eru í neðstu 25 prósentum síns sviðs 110 prósent°af markverðlaunum þeirra, en veita starfsmönnum sem eru í efstu 25 prósentum°síns sviðs aðeins 80 prósent af þeirra markverðlaunum til að koma í veg fyrir að þeir nái hámarki eins hratt. 
 
 Þegar búið er að skilgreina grunnatriði fasts launafyrirkomulags, er hægt að setja upp launaskipulag fyrir fyrirkomulagið. Smellt er á **Setja upp laun**. Svargluggasleði opnast sem gefur þrjá valkosti:
 
@@ -81,7 +81,7 @@ Hæfnisreglur meta gildi sértækra svæða í starfinu, stöðunni og starfsman
 -   Á **Starf** síðunni tekur hæfnisreglan til eftirfarandi svæða:
     -   **Starf** svæðið
     -   Í flipanum **Starfsflokkun**, **Aðgerð** og **Starfstegund** svæðin
-    -   Á flipanum **Laun**, °**Stig** svæðið
+    -   Á flipanum **Laun**, svæðið **Stig**
 -   Á síðunni **Stöður** tekur hæfnisreglan tillit til svæðanna **Deild** og **Launasvæði**.
 
 Hæfnisreglan tekur einnig tillit til verkalýðsfélaga sem tengjast starfsmanninum (á síðunni **Starfsmenn**, í flipanum **Starfskraftur**, smellið á **Persónuupplýsingar** &gt; **Verkalýðsfélög**).

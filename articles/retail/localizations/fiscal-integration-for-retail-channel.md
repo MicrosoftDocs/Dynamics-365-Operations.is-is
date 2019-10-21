@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir fjárhagssamþættingu fyrir smásölurásir
-description: Í þessu efnisatriði er að finna yfirlit yfir fjárhagssamþættingarmöguleika sem eru í boði í Microsoft Dynamics 365 for Retail.
+description: Í þessu efnisatriði er að finna yfirlit yfir fjárhagssamþættingarmöguleika sem eru í boði í Dynamics 365 Retail.
 author: josaw
 manager: annbe
 ms.date: 02/01/2019
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3c6092a7eba328048ef2f28188c42f33cb1f7136
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 647ef586b64699a891bd3b6702ac93bc5ee8292e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516239"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025408"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Yfirlit yfir fjárhagssamþættingu fyrir smásölurásir
 
@@ -30,13 +30,13 @@ ms.locfileid: "1516239"
 
 ## <a name="introduction"></a>Inngangur
 
-Í þessu efnisatriði er yfirlit yfir fjárhagssamþættingarmöguleika sem eru í boði í Microsoft Dynamics 365 for Retail. Fjárhagssamþætting felur í sér samþættingu við ýmis fjárhagstæki og þjónustu sem gerir kleift að skrá smásölu í samræmi við staðbundin fjárhagslög sem miða að því að koma í veg fyrir skattsvik í smásöluiðnaðinum. Hér eru nokkrar dæmigerðar aðstæður sem hægt er að dekka með því að nota fjárhagssamþættingu:
+Í þessu efnisatriði er yfirlit yfir fjárhagssamþættingarmöguleika sem eru í boði í Dynamics 365 Retail. Fjárhagssamþætting felur í sér samþættingu við ýmis fjárhagstæki og þjónustu sem gerir kleift að skrá smásölu í samræmi við staðbundin fjárhagslög sem miða að því að koma í veg fyrir skattsvik í smásöluiðnaðinum. Hér eru nokkrar dæmigerðar aðstæður sem hægt er að dekka með því að nota fjárhagssamþættingu:
 
 - Skrá smásölu á fjárhagstæki sem tengist sölustað (POS), svo sem strimlaprentara og prentun á fjárhagskvittun fyrir viðskiptavin.
 - Senda inn upplýsingar á öruggan hátt sem tengjast sölu og skilum sem er lokið í Retail POS til utanaðkomandi vefþjónustu sem er starfrækt af skattyfirvöldum.
 - Hjálpar til við að tryggja stöðugleika sölufærslugagna með stafrænum undirskriftum.
 
-Virkni fjárhagssamþættingar í Retail er rammi sem veitir algenga lausn fyrir frekari þróun og sérstillingu á samþættingunni milli Retail POS og fjárhagstæki og þjónustu. Virknin felur einnig í sér sýnishorn fjárhagssamþættingar sem styður einfaldar aðstæður smásölu fyrir tilgreind lönd eða svæði, og sem vinna með tiltekin fjárhagstæki og þjónustu. Sýnishorn fjárhagssamþættingar samanstendur af nokkrum viðbótum af Retail-íhlutum og er hluti af þróunarpakka Retail-hugbúnaðarins (SDK). Nánari upplýsingar um sýnishorn fjárhagssamþættingar sem eru í boði í Retail SDK er að finna í [Sýnishorn fjárhagssamþættingar í Retail SDK](#fiscal-integration-samples-in-the-retail-sdk). Upplýsingar um hvernig skuli setja upp og nota Retail SDK er að finna í [Yfirlit Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+Virkni fjárhagssamþættingar er rammi sem veitir algenga lausn fyrir frekari þróun og sérstillingu á samþættingunni milli Retail POS og fjárhagstæki og þjónustu. Virknin felur einnig í sér sýnishorn fjárhagssamþættingar sem styður einfaldar aðstæður smásölu fyrir tilgreind lönd eða svæði, og sem vinna með tiltekin fjárhagstæki og þjónustu. Sýnishorn fjárhagssamþættingar samanstendur af nokkrum viðbótum af Retail-íhlutum og er hluti af þróunarpakka hugbúnaðarins (SDK). Nánari upplýsingar um dæmi fjárhagssamþættingar er að finna í [Dæmi um fjárhagssamþættingu í Retail SDK](#fiscal-integration-samples-in-the-retail-sdk). Upplýsingar um hvernig skuli setja upp og nota Retail SDK er að finna í [Yfirlit Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Til að styðja við aðrar aðstæður sem ekki eru studdar af sýnishorni fjárhagssamþættingar, til að samþætta Retail POS við önnur fjárhagstæki eða þjónustur, eða til að ná utan um kröfur annarra landa eða svæða, verður þú annaðhvort að stækka núverandi sýnishorn fjárhagssamþættingar eða stofna nýtt sýnishorn með því að nota núverandi sýnishorn sem dæmi.
 
@@ -132,7 +132,7 @@ Virknin fyrir fjárhagssamþættingu styður myndun á uppgjör í lok dags sem 
 
 ## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Sýnishorn fjárhagssamþættingar í Retail SDK
 
-Eftirfarandi sýnishorn fjárhagssamþættingar eru eins og er í boði í Retail SDK sem er gefið út með Retail:
+Eftirfarandi sýnishorn fjárhagssamþættingar eru eins og er í boði í Retail SDK:
 
 - [Dæmi um samþættingu strimlaprentara fyrir Ítalíu](emea-ita-fpi-sample.md)
 - [Dæmi um samþættingu strimlaprentara fyrir Pólland](emea-pol-fpi-sample.md)

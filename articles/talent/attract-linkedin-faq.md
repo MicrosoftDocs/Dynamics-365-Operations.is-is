@@ -1,6 +1,6 @@
 ---
 title: Algengar spurningar um samþættingu Attract við LinkedIn
-description: Þetta efni svarar spurningum sem þú gætir haft varðandi samþættingu á milli LinkedIn og Microsoft Dynamics 365 for Talent - Attract.
+description: Þetta efni svarar spurningum sem þú gætir haft varðandi samþættingu á milli LinkedIn og Microsoft Microsoft Dynamics 365 Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 07/08/2019
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c49181fe7e9359fb9d7d43f479273080f90542f4
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: d66ebc01597f8038a38b46a9f1b70feaa5dc505e
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756200"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008640"
 ---
 # <a name="linkedin-integration-faq"></a>Algengar spurningar um LinkedIn-samþættingu
 
 [!include [banner](includes/banner.md)]
 
-LinkedIn er heimsins stærsta faglega netkerfið. Microsoft Dynamics fyrir Talent: Attract samþættir við LinkedIn til að veita þér aðgang að helsta hæfileikafólki heimsins. Attract gerir þér kleift að birta störf beint á LinkedIn og það gerir þér einnig kleift að draga upplýsingar um umsækjendur úr LinkedIn yfir í Attract.
+LinkedIn er heimsins stærsta faglega netkerfið. Microsoft Dynamics Talent: Attract samþættir við LinkedIn til að veita þér aðgang að helsta hæfileikafólki heimsins. Attract gerir þér kleift að birta störf beint á LinkedIn og það gerir þér einnig kleift að draga upplýsingar um umsækjendur úr LinkedIn yfir í Attract.
 
 ## <a name="for-recruiters-and-hiring-managers"></a>Fyrir ráðningaraðila og ráðningarstjóra
 

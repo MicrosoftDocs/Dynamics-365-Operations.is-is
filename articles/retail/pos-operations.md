@@ -1,6 +1,6 @@
 ---
 title: Aðgerðir sölustaðar (POS) með og án nettengingar
-description: Þetta efnisatriði veitir upplýsingar um rekstur sölustaðs (POS) í Microsoft Dynamics 365 for Retail. Það tilgreinir hvar í forritinu má kalla fram aðgerðir og hvort þær séu tiltæk í ótengdum ham.
+description: Þetta efnisatriði veitir upplýsingar um rekstur sölustaðs (POS) í Dynamics 365 Retail. Það tilgreinir hvar í forritinu má kalla fram aðgerðir og hvort þær séu tiltæk í ótengdum ham.
 author: jblucher
 manager: AnnBe
 ms.date: 05/21/2019
@@ -18,22 +18,22 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e21f8677144c7293409e409082e8125c05f3a8fe
-ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
+ms.openlocfilehash: fcb933438ec30ebe6d3b499b53e64c58ecec3626
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625666"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025311"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Aðgerðir sölustaðar (POS) með og án nettengingar
 
 [!include [banner](includes/banner.md)]
 
-Flestar gjörðir sem notandi framkvæmir á sölustað (POS) eru taldar aðgerðir. Aðgerðir eru skilgreindar og þeim stjórnað í bakvinnslu Microsoft Dynamics 365 for Retail. Hægt er að bæta mörgum aðgerðum við takka í POS hnappakerfinu. Notendur geta síðan valið hnappana til að kalla fram aðgerðir og framkvæma virkni þeirra. Aðrar aðgerðir er hluti af aðal POS forritinu og kallaðar fram annaðhvort úr hnöppum á skjánum eða sem hluti af öðrum verkflæði eða ferlum.
+Flestar gjörðir sem notandi framkvæmir á sölustað (POS) eru taldar aðgerðir. Aðgerðir eru skilgreindar og þeim stjórnað í bakvinnslu Dynamics 365 Retail. Hægt er að bæta mörgum aðgerðum við takka í POS hnappakerfinu. Notendur geta síðan valið hnappana til að kalla fram aðgerðir og framkvæma virkni þeirra. Aðrar aðgerðir er hluti af aðal POS forritinu og kallaðar fram annaðhvort úr hnöppum á skjánum eða sem hluti af öðrum verkflæði eða ferlum.
 
-Eftirfarandi tafla veitir upplýsingar um aðgerðir sem eru í boði í Retail Modern POS og Cloud POS fyrir Dynamics 365 for Retail. Taflan tilgreinir einnig hvar í forritinu má kalla fram aðgerðir og hvort þær séu tiltækar þegar POS er í ótengdum ham.
+Eftirfarandi tafla veitir upplýsingar um aðgerðir sem eru í boði í Retail Modern POS og Cloud POS. Taflan tilgreinir einnig hvar í forritinu má kalla fram aðgerðir og hvort þær séu tiltækar þegar POS er í ótengdum ham.
 
-Sumar aðgerðir eru ekki í boði eins og er í Retail Modern POS eða Cloud POS fyrir Dynamics 365 for Retail. Sumar þessara aðgerða eru aðgerðir sem taka sérstaklega mið af staðsetningu og krefjast viðbótar viðbóta og skilgreininga. Aðrar aðgerðir eru eiginleikar frá Microsoft Dynamics AX 2012 sem ekki eru studdir eins og er.
+Sumar aðgerðir eru ekki í boði eins og er í Retail Modern POS eða Cloud POS. Sumar þessara aðgerða eru aðgerðir sem taka sérstaklega mið af staðsetningu og krefjast viðbótar viðbóta og skilgreininga. Aðrar aðgerðir eru eiginleikar frá Microsoft Dynamics AX 2012 sem ekki eru studdir eins og er.
 
 Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 
@@ -42,7 +42,7 @@ Eftirfarandi dálkar tilgreina hvar hægt er að kalla fram aðgerðirnar:
 - **Velkomin skjár** – Hægt er að kalla fram aðgerðina frá POS hnappahnitum sem eru skilgreind á POS velkomin skjánum.
 
 > [!NOTE]
-> Aðgerðirnar sem taldar eru upp hér að neðan eiga við um nýjustu útgáfuna af Dynamics 365 for Retail. Sumar aðgerðir kunna að hafa breyst eða kunna ekki að vera í boði í fyrri útgáfum.
+> Aðgerðirnar sem taldar eru upp hér að neðan eiga við um nýjustu útgáfuna af Retail. Sumar aðgerðir kunna að hafa breyst eða kunna ekki að vera í boði í fyrri útgáfum.
 
 | KENNI | Aðgerð | lýsing | Hnappahnit | Færsluskjár | Upphafsskjár | Tiltæk utan nets | Tekur sérstaklega mið af staðsetningu |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|

@@ -1,6 +1,6 @@
 ---
 title: Sniðmát fyrir tölvupóst
-description: Þetta umræðuefni veitir upplýsingar um sniðmátin fyrir tölvupóst sem þú getur búið til og notað í Microsoft Dynamics 365 for Talent - Attract.
+description: Þetta umræðuefni veitir upplýsingar um sniðmátin fyrir tölvupóst sem þú getur búið til og notað í Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 10/19/2018
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 1c7c017cce26b6b250d899bba891d6823b40c282
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 7174fd96e5ddc9ba5a91eb423d08afd1daa45f48
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729727"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008037"
 ---
-# <a name="email-templates"></a>Sniðmát tölvupósts
+# <a name="email-templates"></a>Sniðmát fyrir tölvupóst
 [!include[banner](../includes/banner.md)]
 
-Með því að nota sniðmátasafnið fyrir tölvupóst geta stjórnendur búið til samræmda þema og vörumerki fyrir öll tölvupóst sem eru send með Microsoft Dynamics 365 for Talent: Attract and Offer. Stjórnendur geta einnig stýrt sniðmátum fyrir efni tölvupósts sem aðrir notendur geta notað. Ráðningarteymið getur notað þessi sniðmát í verkflæði sínu til að senda tölvupóst á skilvirkan hátt. Sumir tölvupóstar eru skilgreindir til að senda sjálfkrafa og stjórnandinn getur notað sniðmátasafnið fyrir tölvupóst til að sérsníða efni fyrir þessa tölvupósta.
+Með því að nota sniðmátasafnið fyrir tölvupóst geta stjórnendur búið til samræmda þema og vörumerki fyrir öll tölvupóst sem eru send með Microsoft Dynamics 365 Talent: Attract and Offer. Stjórnendur geta einnig stýrt sniðmátum fyrir efni tölvupósts sem aðrir notendur geta notað. Ráðningarteymið getur notað þessi sniðmát í verkflæði sínu til að senda tölvupóst á skilvirkan hátt. Sumir tölvupóstar eru skilgreindir til að senda sjálfkrafa og stjórnandinn getur notað sniðmátasafnið fyrir tölvupóst til að sérsníða efni fyrir þessa tölvupósta.
 
 > [!NOTE]
 > Til að nota sniðmát fyrir tölvupóst verður fyrirtækið þitt að vera með Viðbót við alhliða ráðningar.

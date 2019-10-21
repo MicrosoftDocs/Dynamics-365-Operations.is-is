@@ -17,18 +17,19 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f96c79558c3248406a1b5988f9c9dc9783db4406
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 099c1d97db97659d55070b1058f3e0b5b44df107
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564356"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024730"
 ---
 # <a name="manage-assortments-november-2016"></a>Stjórna úrvali (Nóvember 2016)
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Þetta ferli sýnir hvernig á að stofna og Birta nýtt vöruúrval og notar sýnifyrirtækið USRT. Þetta ferli fyrir verk krefst Dynamics AX forritið 7.0.1 eða síðar, og Dynamics AX verkvang 7.1.  
+Þetta ferli sýnir hvernig á að stofna og Birta nýtt vöruúrval og notar sýnifyrirtækið USRT. 
+
 
 1. Smelltu á Flokka- og afurðastjórnun
 

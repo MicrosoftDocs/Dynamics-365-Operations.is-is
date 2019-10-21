@@ -3,7 +3,7 @@ title: Niðurtími vegna viðhalds
 description: Þetta efni skýrir niðurtíma vegna viðhalds í eignastýringu.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,17 +16,16 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a831d56116c57b640993162473e74e5ce181f09c
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: c035f54e833b9bc25b4502901cf307213789b439
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875705"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922184"
 ---
 # <a name="maintenance-downtime"></a>Niðurtími vegna viðhalds
-
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,12 +43,12 @@ Niðurtími vegna viðhalds er notaður til að fá yfirsýn yfir álag sem þar
 
 ## <a name="maintenance-downtime-activities"></a>Niðurtímaaðgerðir vegna viðhalds
 
-Smelltu á **Eignastýring** > **Sameiginlegt** > **Aðgerðir niðurtíma vegna viðhalds** > **Allar aðgerðir niðurtíma vegna viðhalds** til að opna lista yfir allar aðgerðir niðurtíma vegna viðhalds og sjá nokkrar þeirra upplýsinga sem tengjast aðgerðunum. Smelltu á tengil í dálkinum **Aðgerðir niðurtíma vegna viðhalds** til að opna smáatriðið.
+Smelltu á **Eignastýring** > **Sameiginlegt** > **Aðgerðir niðurtíma vegna viðhalds** > **Allar aðgerðir niðurtíma vegna viðhalds** til að opna lista yfir allar aðgerðir niðurtíma vegna viðhalds og sjá nokkrar þeirra upplýsinga sem tengjast aðgerðunum. Smelltu á tengil í dálkinum **Aðgerðir niðurtíma vegna viðhalds** til að opna smáatriðið. Myndin hér að neðan sýnir dæmi um listann **Niðurtímaaðgerðir vegna viðhalds**.
 
 ![Mynd 1](media/19-preventive-maintenance.png)
 
 
-## <a name="create-a-maintenance-downtime-registration"></a>Stofna skráningu niðurtíma vegna viðhalds
+## <a name="create-a-maintenance-downtime-activity"></a>Stofna aðgerð niðurtíma vegna viðhalds
 
 1. Smelltu á **Eignastýring** > **Sameiginlegt** > **Aðgerðir niðurtíma vegna viðhalds** > **Allar aðgerðir vegna viðhaldstíma** eða **Virkar aðgerðir niðurtíma vegna viðhalds**.
 
@@ -61,9 +60,11 @@ Smelltu á **Eignastýring** > **Sameiginlegt** > **Aðgerðir niðurtíma vegna
 
 5. Á flýtiflipann **Eignir aðgerða niðurtíma vegna viðhalds** > smellirðu á **Bæta við línu** til að bæta eignum, einni í einu, við aðgerðir niðurtíma vegna viðhalds.
 
-6. Smelltu á **Vista** þegar öllum eignum hefur verið bætt við.
+6. Smelltu á **Vista** þegar öllum eignum hefur verið bætt við. Myndin hér að neðan sýnir dæmi um viðbragðstíma viðhalds með tengdum eignum og viðhaldsstörfum.
 
 7. Viðhaldsverk verkbeiðni og opnar viðhaldsskemalínur sem tengjast völdum eignum eru sýndar á flýtiflipunum **Afleidd viðhaldsverk verkbeiðna** og **Viðhaldsskemalínur**. Á flýtiflipanum **Almennt** > hópnum **Verkbeiðni** > reitnum **Spáðir viðhaldstímar** og flýtiflipanum **Almennt** > hópnum **Viðhaldsskema** > reitnum **Spáðir viðhaldstímar** sérðu heildarfjölda klukkustunda sem spáð er um viðhaldsverk verkbeiðna og viðhaldsskemalínur.
+
+Myndin hér að neðan sýnir dæmi um ítarupplýsingarnar **Niðurtímaaðgerðir vegna viðhalds**.
 
 ![Mynd 2](media/20-preventive-maintenance.png)
 
@@ -74,7 +75,7 @@ Smelltu á **Eignastýring** > **Sameiginlegt** > **Aðgerðir niðurtíma vegna
 
 9. Í glugganum **Reikna álag** skal breyta upphafs- og lokatíma ef þess er krafist og velja hvort þú viljir taka verkbeiðnir og viðhaldsskemu með í útreikninginn. Þú getur notað reitinn **Stig** til að gefa til kynna hversu ítarlegur þú vilt að útreikningur á álagi sé varðandi virkar staðsetningar. Til dæmis, ef þú setur inn töluna "1" í reitinn, og þú ert með fjölþrepa skipulag virkrar staðsetningar, verða allar eignir fyrir virka staðsetningu, sem eru valdar í aðgerðum niðurtíma vegna viðhalds, sýndar á efsta stigi og því er hægt að leggja saman klukkustundirnar á línu frá virkum staðsetningum á lægra stigi. Ef þú setur töluna „0“ inn í reitinn **Stig** muntu sjá ítarlega niðurstöður sem sýna allar álagslínur á öllum virkum staðsetningarstigum sem þær tengjast.
 
-10. Smellið á **Í lagi** til að byrja að reikna. Heildarfjöldi klukkustunda er sýndur í yfirlitinu **Álag**. Á flipanum **Álag** > aðgerðahópunum **Flokka eftir...** skaltu smella á viðeigandi hnappa til að fá nánara yfirlit yfir úthlutun spáðra tíma.
+10. Smellið á **Í lagi** til að byrja að reikna. Heildarfjöldi klukkustunda er sýndur í yfirlitinu **Álag**. Á flipanum **Álag** > aðgerðahópunum **Flokka eftir...** skaltu smella á viðeigandi hnappa til að fá nánara yfirlit yfir úthlutun spáðra tíma. Myndin hér að neðan sýnir niðurstöður útreiknings á **Getuálagi**.
 
 ![Mynd 3](media/21-preventive-maintenance.png)
 
@@ -91,7 +92,7 @@ Smelltu á **Eignastýring** > **Sameiginlegt** > **Aðgerðir niðurtíma vegna
 
 15. Í glugganum **Reikna vöruspá** skal breyta upphafs- og lokatíma ef þess er krafist og velja hvort þú viljir taka verkbeiðnir og viðhaldsskemu með í útreikninginn. Þú getur notað reitinn **Stig** til að gefa til kynna hversu ítarlegur þú vilt að útreikningur á álagi sé varðandi virkar staðsetningar. Til dæmis, ef þú setur inn töluna "1" í reitinn, og þú ert með fjölþrepa skipulag virkrar staðsetningar, verða allar eignir fyrir virka staðsetningu, sem eru valdar í aðgerðum niðurtíma vegna viðhalds, sýndar á efsta stigi og því er hægt að leggja saman klukkustundirnar á línu frá virkum staðsetningum á lægra stigi. Ef þú setur töluna „0“ inn í reitinn **Stig** muntu sjá ítarlega niðurstöður sem sýna allar álagslínur á öllum virkum staðsetningarstigum sem þær tengjast.
 
-16. Smellið á **Í lagi** til að byrja að reikna. Heildarfjöldi vöruspáa er sýndur í yfirlitinu **Vöruspá**. Á flipanum **Vöruspá** > aðgerðahópunum **Flokka eftir...** skaltu smella á viðeigandi hnappa til að fá nánara yfirlit yfir úthlutun spáðra vara.
+16. Smellið á **Í lagi** til að byrja að reikna. Heildarfjöldi vöruspáa er sýndur í yfirlitinu **Vöruspá**. Á flipanum **Vöruspá** > aðgerðahópunum **Flokka eftir...** skaltu smella á viðeigandi hnappa til að fá nánara yfirlit yfir úthlutun spáðra vara. Myndin hér að neðan sýnir niðurstöður úr útreikningi á **Vöruspá**.
 
 ![Mynd 4](media/22-preventive-maintenance.png)
 

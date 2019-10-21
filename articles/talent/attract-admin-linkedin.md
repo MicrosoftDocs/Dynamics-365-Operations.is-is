@@ -1,6 +1,6 @@
 ---
-title: Setja upp samþættingu með LinkedIn fyrir AMicrosoft Dynamics 365 for Talent - Attract
-description: Þetta efni útskýrir hvernig á að stilla LinkedIn samþættingu fyrir Microsoft Dynamics 365 for Talent - Attract svo að þú getir auðveldlega sent inn störf á LinkedIn úr Attract og svo að ráðningaraðilar þínir geti samstillt ráðningarupplýsingar sínar við LinkedIn prófíl umsækjanda.
+title: Setja upp samþættingu með LinkedIn fyrir AMicrosoft Dynamics 365 Talent - Attract
+description: Þetta efni útskýrir hvernig á að stilla LinkedIn samþættingu fyrir Microsoft Dynamics 365 Talent - Attract svo að þú getir auðveldlega sent inn störf á LinkedIn úr Attract og svo að ráðningaraðilar þínir geti samstillt ráðningarupplýsingar sínar við LinkedIn prófíl umsækjanda.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8e42ec7d0bb74089b4e915b5a30277401e694cf9
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 6b86cafdf364f2de051f3d8ceab7413c2c13c3a5
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756223"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009971"
 ---
 # <a name="set-up-linkedin-integration"></a>Setja upp LinkedIn-samþættingu
 
 [!include[banner](../includes/banner.md)]
 
-Hjálpaðu ráðningaraðilum þínum og ráðningastjórum að laða að hæfileikafólk með því að stilla LinkedIn samþættingu við Microsoft Dynamics 365 for Talent : Attract. Attract gerir þér kleift að birta störf beint á LinkedIn, stærsta faglega netkerfinu.
+Hjálpaðu ráðningaraðilum þínum og ráðningastjórum að laða að hæfileikafólk með því að stilla LinkedIn samþættingu við Microsoft Dynamics 365 Talent: Attract. Attract gerir þér kleift að birta störf beint á LinkedIn, stærsta faglega netkerfinu.
 
 Störf sem þú birtir á LinkedIn í gegnum Attract eru með takmarkaða birtingu og eru veitt fyrirtækinu án aukakostnaðar. Þessar skráningar eru aðeins fáanlegar með hugbúnaðaraðilum LinkedIn, eins og Attract. Þær birtast ekki í glugganum **Starfsferill** á LinkedIn-síðu fyrirtækisins, því aðeins greiddar skráningar birtast þar. Þær er þó sýndar þegar hugsanlegir umsækjendur skoða öll laus störf. Takmarkaðar skráningar eru einnig sýndar í LinkedIn atvinnuleit.
 

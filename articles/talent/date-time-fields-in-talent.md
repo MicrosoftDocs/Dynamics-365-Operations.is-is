@@ -1,6 +1,6 @@
 ---
-title: Vinna með dagsetningu og tíma í Microsoft Dynamics 365 for Talent
-description: Fáðu skilning á við hverju má búast við notkun á dagsetningar- og tímareitum í Microsoft Dynamics 365 for Talent. Fáðu betri yfirsýn yfir við hverju má búast við samskipti við dagsetningar- og tímagögn í skjámynd í Dynamics 365 for Talent, ytri uppruna, eða Common Data Service.
+title: Vinna með dagsetningu og tíma í Microsoft Dynamics 365 Talent
+description: Fáðu skilning á við hverju má búast við notkun á dagsetningar- og tímareitum í Microsoft Dynamics 365 Talent. Fáðu betri yfirsýn yfir við hverju má búast við samskipti við dagsetningar- og tímagögn í skjámynd í Talent, ytri uppruna, eða Common Data Service.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/24/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b4c652992272ed1a5aecbb4c78f0d11f077149d1
-ms.sourcegitcommit: 46bded82aa072adfedcf443629c2adc69f512c09
+ms.openlocfilehash: 1a1d1a47bfe6bd58b1e1a0d4d46c2133f3bf48ad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1791214"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2007968"
 ---
 # <a name="date-and-time-fields-in-talent"></a>Dagsetninga- og tímareitir í Talent
 
 [!include [banner](includes/banner.md)]
 
-Reitirnir **Dagsetning og tími** eru grundvallarhugtak í Dynamics 365 for Talent. Mikilvægt er að öðlast skilning hvernig á að vinna með gögn í **Dagsetningu og tíma** í skjámynd í Dynamics 365, Common Data Serviceog ytri uppruna.
+Reitirnir **Dagsetning og tími** eru grundvallarhugtak í Dynamics 365 Talent. Mikilvægt er að öðlast skilning hvernig á að vinna með gögn í **Dagsetningu og tíma** í skjámynd í Dynamics 365, Common Data Serviceog ytri uppruna.
 
 ## <a name="understanding-the-difference-between-date-and-date-and-time-field-data-types"></a>Að skilja muninn á gagnagerðum dagsetningar- og tímareita
 

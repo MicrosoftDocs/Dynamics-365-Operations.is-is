@@ -1,6 +1,6 @@
 ---
 title: Skjáútlit fyrir sölustað (POS)
-description: Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás fyrir Microsoft Dynamics 365 for Retail sölustaður (POS) upplifun.
+description: Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás fyrir Dynamics 365 Retail sölustaður (POS) upplifun.
 author: jblucher
 manager: AnnBe
 ms.date: 05/20/2019
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e9536563ce7ddfc4aef54ae05267316ea8139263
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1607039"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025274"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Skjáútlit fyrir sölustað (POS)
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás fyrir Microsoft Dynamics 365 for Retail sölustaður (POS) upplifun.
+Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás fyrir Dynamics 365 Retail sölustaður (POS) upplifun.
 
 Hægt er að grunnstilla Smásölu POS notendaviðmótið (UI) með því að nota blöndu af sjónrænum forstillingum og skjáútliti sem eru úthlutað til verslunum, afgreiðslukassa og/eða notendum.
 
@@ -50,7 +50,7 @@ Sjónrænum forstillingum er úthlutað á afgreiðslukassa, og þær tilgreina 
 - **Lýsing** - Þú getur tilgreint merkingarbært nafn sem mun hjálpa til við að bera kennsl á rétta forstillingu fyrir þínar aðstæður.
 - **Þema** - Þú getur valið á milli ljóst og dökkt þema fyrir forrit. Þemað hefur áhrif á leturgerð og bakgrunnslit allsstaðar í forritinu.
 - **Áherslulitur** - Áherslulitur er notaður í gegnum allt POS til að aðgreina eða merkja tilteknar sjónrænar einingar, eins og t.d. flísar, skipunarhnappa og tengla. Þessar einingar eru yfirleitt aðgerðir.
-- **Hauslitur** - Þú getur grunnstillt lit blaðsíðuhaussins til að uppfylla kröfur um vörumerkjaþróun frá smásöluaðila. Þessi eiginleiki er aðeins í boði í Microsoft Dynamics 365 for Retail, útgáfu 1611.
+- **Hauslitur** - Þú getur grunnstillt lit blaðsíðuhaussins til að uppfylla kröfur um vörumerkjaþróun frá smásöluaðila. Þessi eiginleiki er aðeins í boði í Retail, útgáfu 1611.
 - **Sýna dagsetningu/tíma** - Þegar virkjað verður núverandi dagur og tími sýndur í haus sölustaðar.
 - **Innskráning bakgrunnur** - Þú getur tilgreint bakgrunnsmynd fyrir innskráningarskjáinn. Skráarstærð bakgrunnsmynda ætti að vera eins lítil og mögulegt er, því að geyma og hlaða stórum skrám getur haft áhrif á hegðun forrits og afköst.
 - **Bakgrunnur forrits** - Þú getur tilgreint bakgrunnsmynd sem er notuð í staðinn fyrir samfelldan þemalitinn alls staðar í forritið. Þegar kemur að innskráningarbakgrunn skal skráarstærðin vera eins lítil og mögulegt er.

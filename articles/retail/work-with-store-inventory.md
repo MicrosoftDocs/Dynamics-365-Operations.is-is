@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 551a8408aa730bc1916f1c57b7cfd773966ce8bf
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c5da94e02b2381bbd058221567172cd428931c45
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606804"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024684"
 ---
 # <a name="store-inventory-management"></a>Birgðastjórnun verslunar
 
 [!include [banner](includes/banner.md)]
 
-Þegar unnið er með birgðir í Dynamics 365 for Retail og POS forritið er notað, er mikilvægt að hafa í huga að POS veitir takmarkaðan stuðning fyrir birgðavíddir og ákveðnar gerðir af birgðavörum.
+Þegar unnið er með birgðir í Dynamics 365 Retail og POS forritið er notað, er mikilvægt að hafa í huga að POS veitir takmarkaðan stuðning fyrir birgðavíddir og ákveðnar gerðir af birgðavörum.
 
 POS-lausnin styður ekki eftirfarandi vöruafbrigði:
 
@@ -56,7 +56,7 @@ POS-lausnin veitir takmarkaðan stuðning fyrir eftirfarandi víddir. Takmarkað
 
 ## <a name="purchase-orders"></a>Innkaupapantanir
 
-Innkaupapantanir eru stofnaðar á aðalskrifstofu. Ef vöruhús smásölu er innifalið í haus innkaupapöntunar er hægt að taka við pöntuninni í verslun með því að nota Modern POS (MPOS) eða Cloud POS í Microsoft Dynamics 365 for Retail í gegnum aðgerðina **Tiltekt/móttaka**. Eftir að magn sem er móttekið í verslun er slegið inn í reitinn **Móttaka nú** á sölustað fyrir skjal innkaupapöntunar, er hægt að vista það staðbundið eða ráðstafað. Vistun þessara gagna á staðnum hefur engin áhrif á birgðir á lager. Aðeins ætti að vista ef notandi er ekki tilbúinn til að bóka móttökuna í höfuðstöðvum og þarf aðeins leið til að geyma tímabundið áður innslegnu gögnin **Móttaka nú**. Þetta vistar gögnin staðbundið í gagnagrunni rásar notanda fyrir það sem er móttekið núna. Þegar unnið er úr skjalinu með valkostinum **Ráðstafa** eru gögnin **Móttekið nú** send til höfuðstöðva og móttaka innkaupapöntunar verður bókuð. 
+Innkaupapantanir eru stofnaðar á aðalskrifstofu. Ef vöruhús smásölu er innifalið í haus innkaupapöntunar er hægt að taka við pöntuninni í verslun með því að nota Modern POS (MPOS) eða Cloud POS í gegnum aðgerðina **Tiltekt/móttaka**. Eftir að magn sem er móttekið í verslun er slegið inn í reitinn **Móttaka nú** á sölustað fyrir skjal innkaupapöntunar, er hægt að vista það staðbundið eða ráðstafað. Vistun þessara gagna á staðnum hefur engin áhrif á birgðir á lager. Aðeins ætti að vista ef notandi er ekki tilbúinn til að bóka móttökuna í höfuðstöðvum og þarf aðeins leið til að geyma tímabundið áður innslegnu gögnin **Móttaka nú**. Þetta vistar gögnin staðbundið í gagnagrunni rásar notanda fyrir það sem er móttekið núna. Þegar unnið er úr skjalinu með valkostinum **Ráðstafa** eru gögnin **Móttekið nú** send til höfuðstöðva og móttaka innkaupapöntunar verður bókuð. 
 
 ## <a name="transfer-orders"></a>Flutningspantanir
 

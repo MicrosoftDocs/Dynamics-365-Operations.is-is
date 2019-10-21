@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0369c1a4bbc893a86cf14bd59a2d28a7bbca15c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fe8c4bc8f2efb06de4cb6fd727df93ba1a5d14bf
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554645"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251345"
 ---
 # <a name="price-simulation"></a>Verðherming
 
@@ -51,7 +51,7 @@ Til að tryggja að afslættir og verð séu rétt reiknuð þarf að sýna vark
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Gerð afsláttar í viðskiptasamningum
 
-Viðskiptasamningum í Microsoft Dynamics 365 for Finance and Operations getur haft fjórar gerðir verðafsláttar. Hægt er að setja þessa afslætti upp fyrir mismunandi vörur, viðskiptavini eða verðflokka og hægt er að takmarka þá við dagsetningar. Til að forðast vitlausa útreikninga þarf að íhuga viðskiptasamninga þegar verðherming er keyrð. Hér eru Fjórar afsláttargerðir í viðskiptasamningum:
+Viðskiptasamningum í Supply Chain Management getur haft fjórar gerðir verðafsláttar. Hægt er að setja þessa afslætti upp fyrir mismunandi vörur, viðskiptavini eða verðflokka og hægt er að takmarka þá við dagsetningar. Til að forðast vitlausa útreikninga þarf að íhuga viðskiptasamninga þegar verðherming er keyrð. Hér eru Fjórar afsláttargerðir í viðskiptasamningum:
 
 -   **Söluverð** - Hægt er að tilgreina aðskilin söluverð fyrir tilteknar vörur. Þegar tilboðslínur eru stofnaðar leitar forritið að réttu söluverði fyrir vöru og flytur það í tilboðslínur. Þess vegna hefur viðskiptasamningur með þessi gerð afsláttar ekki áhrif á verðhermingu. Söluverð sem er notað í tilboðslínunni endurspeglar viðskiptasamning.
 -   **Línuafsláttur** – Sérstakan afslátt eru tilgreindar fyrir vörur eftir magni sem er pantað. Línuupphæðir eru yfirleitt lækkaðar af línuafsláttur áður en verðherming er keyrð. Þess vegna hefur viðskiptasamningur með þessi gerð afsláttar áhrif á verðhermingu.

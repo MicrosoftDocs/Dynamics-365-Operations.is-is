@@ -1,6 +1,6 @@
 ---
 title: Skjáútlit sýnigagna í Retail Modern POS (MPOS) og sölukerfi í skýinu
-description: Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás sem er innifalið í sýnigagnasafninu fyrir sölustað (POS) upplifunina í Microsoft Dynamics 365 for Retail.
+description: Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás sem er innifalið í sýnigagnasafninu fyrir sölustað (POS) upplifunina í Dynamics 365 Retail.
 author: zlinster
 manager: AnnBe
 ms.date: 10/05/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8c8d2fac82541b768f8e0a31049177bdc1262d44
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570645"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019325"
 ---
 # <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>Skjáútlit sýnigagna í Retail Modern POS (MPOS) og sölukerfi í skýinu
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás sem er innifalið í sýnigagnasafninu fyrir sölustað (POS) upplifunina í Microsoft Dynamics 365 for Retail.
+Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás sem er innifalið í sýnigagnasafninu fyrir sölustað (POS) upplifunina í Dynamics 365 Retail.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -40,19 +40,19 @@ Sýnishorn af útliti skjás sem fylgja með sýnigögnum Retail bjóða upp á 
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Grunnskipulag kennis skjáútlits
 
-Til að finna útlitsgerðir skjás í Retail skal fara í **Smásala** \> **Uppsetningu rásar** \> **Uppsetning POS** \> **POS** \> **Skjáútlit**.
+Til að finna útlitsgerðir skjá skal fara í **Retail** \> **Uppsetningu rásar** \> **Uppsetning POS** \> **POS** \> **Skjáútlit**.
 
 ![Síða skjáútlits í Retail](../retail/media/demo-screen-layouts-fig-2-1.png)
 
 Kenni skjáútlits getur haft allt að 10 stafi. Kennið er strengur sem samanstendur af þremur upplýsingahlutum, í þessari röð:
 
-1. Fyrirt.  
+1. Fyrirt.
 2. Útlitsgerð
 3. Einstaklingur
 
-### <a name="company"></a>Fyrirt.  
+### <a name="company"></a>Fyrirt.
 
-| Stafur | Fyrirt.           |
+| Stafur | Fyrirt.         |
 |--------|-----------------|
 | A      | Adventure Works |
 | F      | Fabrikam        |
@@ -107,7 +107,7 @@ Eftirfarandi tafla sýnir þær útlitsstærðir sem eru í boði fyrir hefðbun
 \* Þessir viðbótar útlitsstærðir eru aðeins tiltækar í Adventure Works og Fabrikam útliti.
 
 > [!TIP]
-> POS velur sjálfkrafa útlitsstærðir, byggt á nærtækustu stærð sem er tiltæk fyrir skjáupplausn núverandi skjámyndar forrits. Til að finna skjákenni útlits og upplausn útlits sem eru í notkun núna, skal opna Retail Modern POS (MPOS) eða Retail Cloud POS (CPOS) **Stillingar** síðuna og leita í **Lotuupplýsingar** hlutanum. Þú getur einnig séð raunupplausn glugga fyrir forrit eða vafraramma sem verið er að nota núna. Eftir að þú hefur fengið þessar upplýsingar er hægt að finna uppsprettu útlitsefnis í Retail með því að fara í **Uppsetning rásar** \> **Uppsetning POS** \> **POS** \> **Skjáútlit**.
+> POS velur sjálfkrafa útlitsstærðir, byggt á nærtækustu stærð sem er tiltæk fyrir skjáupplausn núverandi skjámyndar forrits. Til að finna skjákenni útlits og upplausn útlits sem eru í notkun núna, skal opna Retail Modern POS (MPOS) eða Retail Cloud POS (CPOS) **Stillingar** síðuna og leita í **Lotuupplýsingar** hlutanum. Þú getur einnig séð raunupplausn glugga fyrir forrit eða vafraramma sem verið er að nota núna. Eftir að þú hefur fengið þessar upplýsingar er hægt að finna uppsprettu útlitsefnis með því að fara í **Uppsetning rásar** \> **Uppsetning POS** \> **POS** \> **Skjáútlit**.
 
 ![Útlit skjáa og útlitsupplausnir/stærðir í Retail og POS](../retail/media/demo-screen-layouts-fig-3-1.png)
 
@@ -117,7 +117,7 @@ Sérhver ímyndað fyrirtæki er beint að mismunandi smásöluhluta og inniheld
 
 ### <a name="company-segment-and-visual-characteristics"></a>Fyrirtækjahluti og sjónræn einkenni
 
-| Fyrirt.           | Staður | Hluti        | Áhersla | Þema |
+| Fyrirt.         | Staður | Hluti        | Áhersla | Þema |
 |-----------------|----------|----------------|--------|-------|
 | Adventure Works | Seattle  | Íþróttavörur | Blátt   | Dökkt  |
 | Fabrikam        | Houston  | Tíska        | Grænt  | Ljóst |
@@ -148,7 +148,7 @@ Eftirfarandi myndir sýna dæmi um velkomin(n) síðu og viðskiptasíðu fyrir 
 
 Náð hefur verið í notendur fyrir mismunandi skjáútlit. Með því að nota eftirfarandi töflu, ættir þú að fá aðgang að öllum skjáunum. Skráðu þig inn með því að nota viðeigandi stjórnandakenni.
 
-| Fyrirt.           | Útlitskenni afgreiðsluskjás | Einstaklingur       | Stjórnandakenni           |
+| Fyrirt.         | Útlitskenni afgreiðsluskjás | Einstaklingur       | Stjórnandakenni           |
 |-----------------|------------------|---------------|------------------------|
 | Adventure Works | A3MGR            | Verslunarstjóri | 000154, 000137, 000073 |
 | Adventure Works | A3CSH            | Gjaldkeri       | 000150, 000175, 000165 |

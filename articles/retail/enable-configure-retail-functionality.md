@@ -1,6 +1,6 @@
 ---
 title: Frumstilla grunngögn í nýju Retail-umhverfi
-description: Þessi grein lýsir gögnum sem búin eru til við frumstillingu fyrir Microsoft Dynamics 365 for Retail.
+description: Þessi grein lýsir gögnum sem búin eru til við frumstillingu fyrir Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 49b21d81437ebd7cc55076444ee71ae1143bfac0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556899"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025517"
 ---
 # <a name="initialize-seed-data-in-new-retail-environments"></a>Frumstilla grunngögn í nýju Retail-umhverfi
 
 [!include [banner](includes/banner.md)]
 
-Þessi grein lýsir gögnum sem búin eru til við frumstillingu fyrir Microsoft Dynamics 365 for Retail.
+Þessi grein lýsir gögnum sem búin eru til við frumstillingu fyrir Dynamics 365 Retail.
 
 Þegar smásölulausn hefur verið virkjuð í Microsoft Dynamics Lifecycle Services (LCS), verður að frumstilla smásöluskilgreiningu til að stofna grunnskilgreiningargögn.
 
@@ -39,7 +39,7 @@ ms.locfileid: "1556899"
 
 Fylgið eftirfarandi skrefum til að frumstilla skilgreiningar smásölu.
 
-1. Ræsið Dynamics 365 for Retail biðlarann.
+1. Ræsið Retail-biðlarann.
 2. Smellt er á **Smásala** &gt; **Uppsetning höfuðstöðva** &gt; **Færibreytur** &gt; **Smásölufæribreytur**.
 3. Smellið á **Frumstilla**.
 
@@ -57,7 +57,7 @@ Frumstilling stofnar eftirfarandi sjálfgefin skilgreiningargögn:
 - Sniðmát fyrir villuleit eininga
 - Runuvinnsla til að hreinsa setuferil Commerce Data Exchange
 
-Þar að auki er skráning sem er tengd við greiðslu korts atvinnugrein (PCI) er virk fyrir Dynamics 365 for Retail gagnagrunninn.
+Þar að auki er skráning sem er tengd við greiðslu korts atvinnugrein (PCI) er virk fyrir Retail-gagnagrunninn.
 
 > [!NOTE]
 > Það er möguleiki á því að skilgreina verkröð Retail sérstaklega. Þessi valkostur gerir kleift að endurstilla skilgreiningu Retail verkraðara á sjálfgefnar stillingar.

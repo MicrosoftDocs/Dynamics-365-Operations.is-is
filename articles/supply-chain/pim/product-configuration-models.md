@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d908b9e58da06646e07ddc5fc4d937cc1f1849cd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 883337979201b3059b301b7aebf9952a70016989
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563598"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250623"
 ---
 # <a name="product-configuration-models-overview"></a>Yfirlit afbrigðalíkön afurðar
 
@@ -55,9 +55,9 @@ Afbrigðalíkön afurða eru stofnuð til að tákna almenna vöruuppbyggingu. �
 <td>Eigindir</td>
 <td>Eigindir lýsa öllum eiginleikum afbrigðalíkans afurðar. Hægt er að nota eigindir til að tilgreina eiginleikana sem hægt er að velja þegar einkvæm afurð er skilgreind. Eigindir eru notaðar í skorðum og skilyrðum. Þegar eigindir eru stofnaðar og þeim bætt við afbrigðalíkan afurðar verður vísað í tengdar eigindagerðir. Hægt er að velja sjálfgildi fyrir eigind. Sjálfgefið gildi er notað í notandaviðmóti skilgreiningar þegar afbrigðalíkan afurðar er skilgreint. Hægt að tilgreina að eigind sé áskilin, ritvarin eða falin.
 <ul>
-<li><strong>Áskilin </strong> – Velja verður gildi fyrir eigindina þegar varan er skilgreind.</li>
+<li><strong>Áskilin</strong> – Velja verður gildi fyrir eigindina þegar varan er skilgreind.</li>
 <li><strong>Skrifvarin</strong> – Eigindargildið er birt í skilgreinarlotu, en ekki er hægt að breyta því&#39;.</li>
-<li><strong>Falið </strong> – Eigindargildið er innifalið í skorðum og skilyrðum, en er ekki birt í skilgreinarlotu.&#39;</li>
+<li><strong>Falið</strong> – Eigindargildið er innifalið í skorðum og skilyrðum, en er ekki birt í skilgreinarlotu.&#39;</li>
 </ul>
 Einnig er hægt að tilgreina skilyrði fyrir eigindir. Ef skilyrðið er uppfyllt verður að færa inn gildi fyrir áskildu eigindina. Skilyrði eru segðir sem þarf að fullnægja fyrir eigindir, uppskriftarlínur og leiðaaðgerðir sem taka á með í afbrigðalíkani afurðar. Allar eigindir sem vísað er til í skilyrði verða áskildar. Ráðlagt er að velja eigind sem áskilda á flipanum <strong>Eigindir</strong>. Þetta getur auðveldað að auðkenna áskilda eiginleika. Eigindagildi eru mikilvægur þáttur í endurnýtingu afbrigða. Kerfið notar eigindagildi til að ákvarða hvort til sé skilgreining sem samsvarar valinu sem notandi gerði við skilgreiningarlotu.</td>
 </tr>
@@ -118,7 +118,7 @@ Ef gerð eigindar er <strong>Boole</strong>, <strong>Heiltala</strong> með svi�
 </tr>
 </tbody>
 </table>
-Kerfisskilgreind töfluskorða stendur fyrir vörpun á milli gerðar eigindar og reits í Finance and Operations töflu. Kerfisskilgreindrar töfluskorðu tengir gerð eigindar á gagnvirkan hátt við svæðið. Tengillinn virkjar eigind í afbrigðalíkani afurðar til að geta endurspeglað gögn í reit Finance and Operations töflu.</td>
+Kerfisskilgreind töfluskorða stendur fyrir vörpun á milli gerðar eigindar og reits í Finance and Operations töflu. Kerfisskilgreindrar töfluskorðu tengir gerð eigindar á gagnvirkan hátt við svæðið. Tengillinn virkjar eigind í afbrigðalíkani afurðar til að geta endurspeglað gögn í reit Supply Chain Management töflu.</td>
 </tr>
 <tr class="odd">
 <td>Útreikningar</td>
@@ -126,13 +126,13 @@ Kerfisskilgreind töfluskorða stendur fyrir vörpun á milli gerðar eigindar o
 </tr>
 <tr class="even">
 <td>Undiríhlutir</td>
-<td>Undiríhlutir endurspegla trjáskipulag afbrigðalíkans afurðar. Hægt er að nota undiríhluti til að smíða uppsetningu afbrigðalíkans afurðar. Undiríhlutir vísa til fyrirliggjandi íhluta. Þess vegna ýtia undiríhlutir undir endurnotkun íhluta í mörgum afbrigðalíkönum afurðar. Á síðunni <strong>upplýsingar uppskriftarlínu</strong> fyrir undiríhlut er hægt að velja sérstakt gildi fyrir undiríhlutinn. Einnig er hægt að velja eigind sem gildið er valið fyrir þegar afbrigðalíkan afurðar er sett upp. Til að taka með afurð sem íhlut eða undiríhlut verður að tilgreina eftirfarandi upplýsingar í síðunni <strong> Stofna afurð</strong> þegar afurð er stofnuð:
+<td>Undiríhlutir endurspegla trjáskipulag afbrigðalíkans afurðar. Hægt er að nota undiríhluti til að smíða uppsetningu afbrigðalíkans afurðar. Undiríhlutir vísa til fyrirliggjandi íhluta. Þess vegna ýtia undiríhlutir undir endurnotkun íhluta í mörgum afbrigðalíkönum afurðar. Á síðunni <strong>upplýsingar uppskriftarlínu</strong> fyrir undiríhlut er hægt að velja sérstakt gildi fyrir undiríhlutinn. Einnig er hægt að velja eigind sem gildið er valið fyrir þegar afbrigðalíkan afurðar er sett upp. Til að taka með afurð sem íhlut eða undiríhlut verður að tilgreina eftirfarandi upplýsingar í síðunni <strong>Stofna afurð</strong> þegar afurð er stofnuð:
 <ul>
-<li>Í reitnum <strong>Gerð afurðar </strong> skal velja <strong>Vara</strong>.</li>
-<li>Í reitnum <strong>undirgerð afurðar </strong> skal velja <strong>afurðarsniðmát</strong>.</li>
-<li>Í reitnum <strong>Skilgreiningatækni </strong> skal velja <strong>skorðuskilgreining</strong>.</li>
+<li>Í reitnum <strong>Gerð afurðar</strong> skal velja <strong>Vara</strong>.</li>
+<li>Í reitnum <strong>undirgerð afurðar</strong> skal velja <strong>afurðarsniðmát</strong>.</li>
+<li>Í reitnum <strong>Skilgreiningatækni</strong> skal velja <strong>skorðuskilgreining</strong>.</li>
 </ul>
-Hægt er að sjá hvort hægt er að nota losaða afurð sem íhlut eða undiríhlut á flipanum <strong>Almennt </strong> á síðunni <strong>upplýsingar um losaðar afurðir</strong>. Ef <strong>skorðuskilgreiningu</strong> er valin í á <strong>skilgreiningartækni</strong> svæðinu er hægt að nota afurðar sem íhlut eða undiríhlut. Hægt er að fela undiríhluti þannig að þeir séu ekki birtir notandanum í skilgreiningarlotu.&#39; Eigindir, undiríhlutir og notendakröfur sem tengjast undiríhlutnum eru einnig falin.</td>
+Hægt er að sjá hvort hægt er að nota losaða afurð sem íhlut eða undiríhlut á flipanum <strong>Almennt</strong> á síðunni <strong>upplýsingar um losaðar afurðir</strong>. Ef <strong>skorðuskilgreiningu</strong> er valin í á <strong>skilgreiningartækni</strong> svæðinu er hægt að nota afurðar sem íhlut eða undiríhlut. Hægt er að fela undiríhluti þannig að þeir séu ekki birtir notandanum í skilgreiningarlotu.&#39; Eigindir, undiríhlutir og notendakröfur sem tengjast undiríhlutnum eru einnig falin.</td>
 </tr>
 <tr class="odd">
 <td>Notendakröfur</td>

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c1aaae7a276d098587b5b9c73e433694e3a6f9bf
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554344"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248915"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Innhreyfingarskjal jafnað við innkaupapantanir
 
@@ -52,7 +52,7 @@ Hægt er að stofna innkaupapöntunarlínur þar sem **Nýja eign** valkosturinn
 
 Hægt er að velja margar pantanir og vinna úr móttöku á öllum þeim pöntunum saman. Þessi nálgun er ekki notuð mjög oft, en þú vilt kannski nota hana ef birgir hefur sameinað sendingar fyrir þíg í einn stakan farm. Við móttöku afurða vegna innkaupanna, er aðgerði til að framkvæma safnuppfærslur. Safnuppfærsla gera þér kleift að bóka stakan fylgiseðil frá birgi fyrir meira en eina innkaupapöntun.  
 
-Innkaupapantanir gætu verið stofnaðar úr sölupöntun þar sem **Beina afhendingu** valkostur var valinn. Þegar notuð er bein afhending, eru afurðir aldrei mótteknar í vöruhúsinu þínu heldur eru sendar beint frá birgi til viðskiptavinar. Í þessu tilfelli er móttakan yfirleitt skráðar beint á Innkaupapöntunina. Innhreyfingu er hægt að gera sjálfkrafa, eins og með innþættingu á rafrænum gagnaskiptum (EDI) við birgi. Einnig, ef Innkaupapöntunin er Innkaupapöntun innan samstæðu gerir Microsoft Dynamics 365 for Finance and Operations móttökuna á sjálfvirkan hátt á sölupöntun innan samstæðu þegar sendingin á sér stað. Þegar notuð er bein afhending, eru afurðir enn bókaðar sem birgðir, jafnvel þótt efnislega berist þær ekki í vöruhús. Þess vegna þegar innhreyfingarskjal afurða er skráður á Innkaupapöntun, er sölupöntun sjálfkrafa uppfært með fylgiseðill, þannig að heildarbreytingin í birgðir er 0 (núll). Í aðstæðum beinnar afhendingar ætti ekki að krefjast forskráningar. Ef verið er að nota vöruhús sem eru virkjaðar fyrir vöruhúsakerfi, er hægt komast hjá kröfunni um skráningu númeraplötu með því að tilgreina sýndarvöruhús í staðinn. Þú Tilgreina þetta vöruhús í á **vöruhús Beinnar afhendingar** reitnum á afurðinni. 
+Innkaupapantanir gætu verið stofnaðar úr sölupöntun þar sem **Beina afhendingu** valkostur var valinn. Þegar notuð er bein afhending, eru afurðir aldrei mótteknar í vöruhúsinu þínu heldur eru sendar beint frá birgi til viðskiptavinar. Í þessu tilfelli er móttakan yfirleitt skráðar beint á Innkaupapöntunina. Innhreyfingu er hægt að gera sjálfkrafa, eins og með innþættingu á rafrænum gagnaskiptum (EDI) við birgi. Einnig, ef Innkaupapöntunin er Innkaupapöntun innan samstæðu gerir Supply Chain Management móttökuna á sjálfvirkan hátt á sölupöntun innan samstæðu þegar sendingin á sér stað. Þegar notuð er bein afhending, eru afurðir enn bókaðar sem birgðir, jafnvel þótt efnislega berist þær ekki í vöruhús. Þess vegna þegar innhreyfingarskjal afurða er skráður á Innkaupapöntun, er sölupöntun sjálfkrafa uppfært með fylgiseðill, þannig að heildarbreytingin í birgðir er 0 (núll). Í aðstæðum beinnar afhendingar ætti ekki að krefjast forskráningar. Ef verið er að nota vöruhús sem eru virkjaðar fyrir vöruhúsakerfi, er hægt komast hjá kröfunni um skráningu númeraplötu með því að tilgreina sýndarvöruhús í staðinn. Þú Tilgreina þetta vöruhús í á **vöruhús Beinnar afhendingar** reitnum á afurðinni. 
 
 Eftir að innhreyfingarskjal afurða hefur verið unnið á Innkaupapöntunin, er staða Innkaupapantana stillt á **Móttekið** til að tilgreina a' hægt er að vinna reikningur fyrir pöntunina. Hægt er að skoða upplýsingar um afurðir sem hafa þegar verið móttekin með **færslubækur innhreyfingarskjals Afurða** síðu.  
 

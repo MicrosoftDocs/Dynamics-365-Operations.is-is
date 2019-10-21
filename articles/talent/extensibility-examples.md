@@ -1,13 +1,13 @@
 ---
-title: Auka virkni Talent með því að nota PowerApps og Microsoft Flow – dæmi um atburðarásir
-description: Þetta efnisatriði lýsir sumum dæmum um atburðarás stækkunarhæfni fyrir Microsoft Dynamics 365 for Talent sem notar Microsoft PowerApps og Microsoft Flow.
+title: Auka virkni Talent með því að nota PowerApps og Microsoft Flow - dæmi um atburðarásir
+description: Þetta efnisatriði lýsir sumum dæmum um atburðarás stækkunarhæfni fyrir Microsoft Dynamics 365 Talent sem notar Microsoft PowerApps og Microsoft Flow.
 author: negudava
 manager: Annbe
 ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
+ms.technology: Dynamics 365 Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
-ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
+ms.openlocfilehash: 7bc3a18327f2d32770176eddcb7200681f0fb0da
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "1781443"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008060"
 ---
-# <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Auka virkni Talent með því að nota PowerApps og Microsoft Flow – dæmi um atburðarásir
+# <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Auka virkni Talent með því að nota PowerApps og Microsoft Flow - dæmi um atburðarásir
 
-Þetta efnisatriði lýsir sumum dæmum um atburðarás stækkunarhæfni fyrir Microsoft Dynamics 365 for Talent sem notar Microsoft PowerApps og Microsoft Flow. Hægt er að flytja lausnapakkann sem tengist hverju dæmi inn í PowerApps umhverfið þitt. Síðan er hægt að nota pakkana annaðhvort sem leiðarvísi eða sem upphafspunkta til að innleiða atburðarásir sem eiga við um fyrirtækið þitt.
+Þetta efnisatriði lýsir sumum dæmum um atburðarás stækkunarhæfni fyrir Microsoft Dynamics 365 Talent sem notar Microsoft PowerApps og Microsoft Flow. Hægt er að flytja lausnapakkann sem tengist hverju dæmi inn í PowerApps-umhverfið. Síðan er hægt að nota pakkana annaðhvort sem leiðarvísi eða sem upphafspunkta til að innleiða atburðarásir sem eiga við um fyrirtækið þitt.
 
 > [!IMPORTANT]
 > Ef þú vilt nota sniðmátin og forritið sem lýst er í þessu efnisatriði „eins og það er“, skaltu vera viss um að prófa þau til að ganga úr skugga um þau nái utan um allar atburðarásirnar sem tengjast innleiðingunni þinni.
@@ -79,7 +79,7 @@ Sniðmátið **Flæði - Tilkynning í tölvupósti** er hægt að nota í atbur
 
 Hægt er að stækka sniðmátið til að fylgjast með breytingum á stigi umsækjanda í gegnum ráðningarferlið, og til að senda tilkynningapósta á ráðningarhóp og umsækjanda.
 
-Almennt, fyrir einingar sem eru geymdar í Common Data Service, er hægt að setja upp flæði til að senda tilkynningar á viðburðum sem eiga sér stað í Core HR, Attract eða Dynamics 365 Talent: Onboard.
+Almennt, fyrir einingar sem eru geymdar í Common Data Service, er hægt að setja upp flæði til að senda tilkynningar á viðburðum sem eiga sér stað í Core HR, Attract eða Onboard.
 
 Til að hlaða niður sniðmátinu **Flæði - Tilkynning í tölvupósti** skal fara í [Flæði - Tilkynning í tölvupósti](https://go.microsoft.com/fwlink/?linkid=2082103) í Microsoft Download Center.
 
@@ -106,7 +106,7 @@ Hægt er að nota tilvísunarforritið til að bæta við umbjóðendum í samei
 
 Hægt er að fella þetta forrit inn í starfsmannaþjónustuna (ESS) til að senda tilvísanir, eða nota það sem tengil á fyrirtækjagáttina og keyrt sem sjálfstætt forrit.
 
-Til að sækja **forritið Referral** ferðu í [Dynamics 365 for Talent viðbótarlausnina: Referral App](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) í Microsoft Download Center. Þú getur flutt þetta forrit inn og sérsniðið það til að bæta við viðbótarvirkni.
+Til að sækja **forritið Referral** ferðu í [Dynamics 365 Talent viðbótarlausnina: Referral App](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) í Microsoft Download Center. Þú getur flutt þetta forrit inn og sérsniðið það til að bæta við viðbótarvirkni.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

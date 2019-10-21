@@ -1,6 +1,6 @@
 ---
-title: Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (14. desember 2018)
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent Core HR.
+title: Nýjungar eða breytingar í Dynamics 365 Talent - Core HR (14. desember 2018)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/14/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c2d209cac52665053b664a93bfb6c35e171b0948
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 36eb5722a7bd98c404fb6c8f5bde407ab38ec28d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518253"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024023"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Nýjungar eða breytingar í Dynamics 365 for Talent Core HR (14. desember 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-14-2018"></a>Nýjungar eða breytingar í Dynamics 365 Talent: Core HR (14. desember 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -94,9 +94,9 @@ Tiltæk staða sem er sýnd eins og er er upphæð frítíma sem er í boði fyr
 
 ## <a name="known-issue"></a>Þekkt vandamál
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Vörpunarvillur í samþættingu við Finance and Operations
+### <a name="mapping-errors-in-the-integration-with-finance"></a>Vörpunarvillur í samþættingu við Finance
 
-Eftirfarandi vandamál hafa verið greind í núgildandi sniðmáti fyrir samþættingu Talent við Dynamics 365 for Finance and Operations. Nýtt sniðmát verður birt fljótlega og verður notað fyrir öll ný samþættingarverk sem eru búin til. Hægt er að uppfæra vörpunarverkin fyrir núverandi samþættingarverk. Frekari upplýsingar um uppfærðar varpanir eru í eftirfarandi töflu. 
+Eftirfarandi vandamál hafa verið greind í núgildandi sniðmáti fyrir samþættingu Talent við Dynamics 365 Finance. Nýtt sniðmát verður birt fljótlega og verður notað fyrir öll ný samþættingarverk sem eru búin til. Hægt er að uppfæra vörpunarverkin fyrir núverandi samþættingarverk. Frekari upplýsingar um uppfærðar varpanir eru í eftirfarandi töflu. 
 
 >[!NOTE]
 > Úthlutunarverk á stöðum starfa til staða yfirstarfa samþættir ekki gögn. Þetta er mál sem verið er að rannsaka. Það er engin hjáleið í núverandi vörpun. 

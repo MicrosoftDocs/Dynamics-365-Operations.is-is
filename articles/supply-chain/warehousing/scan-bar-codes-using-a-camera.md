@@ -1,6 +1,6 @@
 ---
-title: Skanna strikamerki með myndavél í Dynamics 365 for Finance and Operations - Vöruhús
-description: Þetta efnisatriði útskýrir hvernig eigi að setja upp Dynamics 365 for Finance and Operations - Vöruhús til að skanna strikamerki með myndavél á fartæki.
+title: Skanna strikamerki með myndavél í forritinu Dynamics 365 Supply Chain Management - Warehousing
+description: Þetta efnisatriði útskýrir hvernig eigi að setja upp forritið Dynamics 365 Supply Chain Management - Warehousing til að skanna strikamerki með myndavél á fartæki.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 01/03/2018
@@ -17,26 +17,26 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 5ec9197c2e8b7970fcbf5ea42612c60f940bcae0
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 8062a981f792bcfed2713d3cb6a42f414394f6a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742934"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251462"
 ---
-# <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Skanna strikamerki með myndavél í Dynamics 365 for Finance and Operations - Vöruhús
+# <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>Skanna strikamerki með myndavél í forritinu Dynamics 365 Supply Chain Management - Warehousing
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig eigi að setja upp Dynamics 365 for Finance and Operations - Vöruhús til að skanna strikamerki með myndavél á fartæki. 
+Þetta efnisatriði útskýrir hvernig eigi að setja upp forritið Dynamics 365 Supply Chain Management - Warehousing til að skanna strikamerki með myndavél á fartæki. 
 
-## <a name="prerequisites"></a>Frumskilyrði
-Til að nota þessa aðgerð þarf að vera með útgáfu 1.2.0.0 af Vöruhúsi uppsetta og tækið þitt verður að vera með myndavél. Þegar forritið er opnað eftir uppfærslu mun Dynamics 365 for Finance and Operations – Vöruhúsaforritið biðja um leyfi til að nota myndavélina. Ef tækið er ekki með myndavél mun engin beiðni koma upp og ekki verður hægt að nota myndavélina sem skanna. 
+## <a name="prerequisites"></a>Forkröfur
+Til að nota þessa aðgerð þarf að vera með útgáfu 1.2.0.0 af forritinu Warehousing uppsetta og tækið þitt verður að vera með myndavél. Þegar forritið er opnað eftir uppfærslu mun forritið biðja um leyfi til að nota myndavélina. Ef tækið er ekki með myndavél mun engin beiðni koma upp og ekki verður hægt að nota myndavélina sem skanna. 
 
 ## <a name="setup"></a>Setja upp
 Í skjástillingum vöruhúsaforrits er hægt að velja hvort eigi að nota myndavélina til að skanna strikamerki. Ef þú virkjar **Nota myndavél sem skanna** getur þú notað myndavélina fyrir öll ílagssvæði sem eru með æskilegan ílagsham stilltan á **Skönnun**. 
 
-Til að stjórna því hvort ílagssvæði eigi að vera skannanlegt skal á síðunni **Svæðisheiti vöruhúsaforrits** í Dynamics 365 for Finance and Operations stilla **Æskilegan ílagsham** á **Skönnun**. Þegar þessi valkostur er valinn er hægt að nota myndavél sem skanna í vöruhúsaforritinu. Upplýsingar um hvernig eigi að skilgreina svæðaheita í vöruhúsi er hægt að finna í [Skilgreina svæðaheiti forrits í vöruhúsaforriti](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
+Til að stjórna því hvort ílagssvæði eigi að vera skannanlegt skal á síðunni **Reitaheiti vöruhúsaforrits** stilla **Æskilegan ílagsham** á **Skönnun**. Þegar þessi valkostur er valinn er hægt að nota myndavél sem skanna í vöruhúsaforritinu. Upplýsingar um hvernig eigi að skilgreina svæðaheita í vöruhúsi er hægt að finna í [Skilgreina svæðaheiti forrits í vöruhúsaforriti](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
 
 ## <a name="supported-bar-code-formats"></a>Studd snið strikamerkja
 Algengustu snið strikamerkja eru studd, þ.á.m. kóði 128, kóði 39, kóði 93, EAN-8, EAN-13, UPC-E, UPC-A og QR kóðar. 

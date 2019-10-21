@@ -1,6 +1,6 @@
 ---
 title: Grunnstilla afhendingarmáta og gjöld í símaveri
-description: Þetta efni lýsir því hvernig á að setja upp afhendingarmáta og gjöld fyrir símaverspöntun í Microsoft Dynamics 365 for Retail.
+description: Þetta efni lýsir því hvernig á að setja upp afhendingarmáta og gjöld fyrir símaverspöntun í Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b67a1d91e41e1a4c21e0e877c06812dededbe731
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553600"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019486"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Grunnstilla afhendingarmáta og gjöld í símaveri
 
 [!INCLUDE [banner](includes/banner.md)]
 
-Þegar sölupöntun er settur í Microsoft Dynamics 365 for Retail, ef sá sem færði inn sölupöntunina er tengd við símaversrás eru rök og reglur notuð til að sannprófa afhendingarmátann (afhendingarmáti) og reikna út gjöld fyrir pöntunina.
+Þegar sölupöntun er settur í Dynamics 365 Retail, ef sá sem færði inn sölupöntunina er tengd við símaversrás eru rök og reglur notuð til að sannprófa afhendingarmátann (afhendingarmáti) og reikna út gjöld fyrir pöntunina.
 
 Þegar þú býrð til sölupöntun getur þú valið afhendingarmáta á sölupöntunarhausnum og sölupöntunarlínunum. Sjálfgefið er að afhendingarmátinn sem þú velur á hausnum er notaður fyrir allar sölupöntunarlínur. Þú getur hins vegar hunsað sjálfgefna afhendingarmátann á einstökum sölulínum eins og þú þarfnast. Þú getur einnig skilgreint afhendingarmáta á viðskiptavinarskrá. Þá, þegar pantanir eru búnar til fyrir viðskiptavininn, er þessi afhendingarmáti notuð að sjálfgefnu í sölupöntunarhausnum.
 

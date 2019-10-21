@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2276f5296a77d620e0084c0247b1e25071fe029
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: bb5255236fc48132d4d68dc6f515f32e7ec71dae
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865281"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248843"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Yfirlit yfir beiðnir um tilboð
 
@@ -48,16 +48,13 @@ Hægt er að stofna BUT-verk úr áætluðum pöntunum, úr innkaupabeiðni eða
 
 Eftir að búið er að útbúa BUT-verk og bæta við lánardrottnum skal velja **Senda** (**Senda og birta** fyrir hið opinbera) á BUT-verkinu. BUT færslubók er mynduð fyrir hvern lánardrottinn sem BUT er send til. Hægt er að skilgreina prentvalkost fyrir Senda aðgerðina þannig að hún annað hvort prentar skýrslu fyrir hvern lánardrottin í safn eða sendir skýrslu á tölvupóstfang hvers lánardrottins. Þar að auki er hægt að nota BUT færslubók fyrir hvern lánardrottinn til að mynda skýrslu sem hægt er að senda eða endursenda seinna til lánardrottins. Einnig er hægt að skilgreina aðgerðina Senda til að mynda svarblað sem lánardrottinn getur fyllt út.
 
-Þetta efni fjallar um ferlið við meðhöndlun BUT þegar lánardrottinn samstarf er ekki notað. Ef kerfið þitt er uppsett fyrir samstarf lánardrottna, geta lánardrottnar fært kauptilboð beint inn í Microsoft Dynamics 365 for Finance and Operations. Nánari upplýsingar er að finna í [Samstarf lánardrottna við viðskiptavini](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) og [Samstarf lánardrottna við ytri lánardrottna](vendor-collaboration-work-external-vendors.md).
+Þetta efni fjallar um ferlið við meðhöndlun BUT þegar lánardrottinn samstarf er ekki notað. Ef kerfið þitt er uppsett fyrir samstarf lánardrottna, geta lánardrottnar fært kauptilboð beint inn í Supply Chain Management. Nánari upplýsingar er að finna í [Samstarf lánardrottna við viðskiptavini](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) og [Samstarf lánardrottna við ytri lánardrottna](vendor-collaboration-work-external-vendors.md).
 
 Ef þarf að lagfæra BUT þegar búið er að senda hana, er hægt að endursenda BUT til lánardrottna þegar því hefur verið lokið með því að nota tvær lagfæringaraðgerðir: Stofna og Fullvinna.+
 
 Þegar tilboð berast í tölvupósti er hægt að vinna með þessi tilboð á síðunni **Beiðni um tilboð**.
 
 Ef krafist er annarrar ítrekunar um svar frá lánardrottni skal velja **Skila** á síðunni **Beiðni um tilboð**. Skilaaðgerð myndar nýja færslubók og skýrslu sem verða prentaðar, skjalaðar og sendar í samræmi við prentstillingar.
-
-> [!NOTE]
-> Heiti síðunnar **Beiðni um tilboð** hefur verið breytt. Í fyrri útgáfum Dynamics 365 for Finance and Operations er þessi síða kölluð **Svar við beiðni um tilboð**.
 
 Ef skilyrði fyrir stigagjöf er bætt við BUT-verkið mun BUT hafa vettvang fyrir stigagjöf þar sem hægt er að færa inn stig. Samtals stig birtast á BUT og þegar borin eru saman svör á síðunni **Bera saman svör**. Á síðunni **Bera saman svör** er einnig hægt að bera saman önnur svargögn, svo sem línuverð, afhendingardag og heildarverð.
 

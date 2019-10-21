@@ -1,6 +1,6 @@
 ---
-title: Hvað er nýtt eða breytt í Dynamics 365 for Talent (26. mars 2019)
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 for Talent.
+title: Hvað er nýtt eða breytt í Dynamics 365 Talent (26. mars 2019)
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/26/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 24070d1efa3299c378d7a4a328531817a598d272
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: d4b59183116784f44f45fddacdfa4aa954383ecd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741568"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023885"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-26-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 for Talent (26. mars 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 Talent (26. mars 2019)
 
 [!include [banner](includes/banner.md)]
 
-Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 for Talent.
+Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Breytingar í Attract
 
@@ -53,7 +53,7 @@ Eftirfarandi viðbætur eru í boði í áætlanagerð viðtals.
 
 ### <a name="custom-field-support-available-for-select-entities-in-common-data-service"></a>Stuðningur fyrir sérstillt svæði er í boði fyrir valdar einingar í Common Data Service 
 
-Eftirfarandi Common Data Service einingar styðja nú svæði viðskiptavinar sem eru stofnuð í Dynamics 365 for Talent:
+Eftirfarandi Common Data Service einingar styðja nú svæði viðskiptavinar sem eru stofnuð í Talent:
 
 - Starfskraftur
 - Þjóðernisuppruni
@@ -72,7 +72,7 @@ Með þessari breytingu sýnir síða ráðningarsögu nú færslur starfsmanns 
 Í þessari útgáfu birtist nú launafyrirkomulag fastra launa þegar notandi takmarkast við fyrirtæki í öryggi. Allar öryggisstillingar verða heiðraðar og föst áætlanir munu birtast fyrir þau fyrirtæki þar sem notandinn hefur aðgangsheimild. 
 
 ### <a name="cant-delete-job-records-using-open-in-excel-option-in-talent"></a>Ekki er hægt að eyða starfsfærslum með opna í Excel möguleikann í Talent
-Með þessari útgáfu getur þú nú fjarlægt starfsfærslur með því að nota valkostinn **Opna í Excel** í Dynamics 365 for Talent.
+Með þessari útgáfu getur þú nú fjarlægt starfsfærslur með því að nota valkostinn **Opna í Excel** í Talent.
 
 ### <a name="upgrade-to-common-data-service"></a>Uppfæra í Common Data Service
 Frestur til að uppfæra í Common Data Service rennur brátt út. Skráðu þig inn á stjórnandamiðstöð PowerApps til að ákvarða hvort þurfi að uppfæra gagnagrunninn þinn. Frekari upplýsingar um fresti og nauðsynlegar ráðstafanir til að uppfæra er að finna í [Uppfæra í Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
@@ -93,7 +93,7 @@ Fyrirtæki gætu krafist þess að ástæðukóðar verðir settir á ákveðnar
 Í mörgum fyrirtækjum er hugsanlegt að launa- og fríðindastjórar hafi aðeins aðgang að ákveðnum launafærslum. Þessar færslur gætu verið fyrir stjórnendur eða svæðisbundna starfsmenn. Með þessari breytingu geta mannauðsstjórar haft umsjón með launafyrirkomulaginu fyrir mismunandi starfsmannahópa í fyrirtækinu. Hægt er að úthluta öryggishlutverkum á fastar og breytilegar áætlanir sem ákvarða aðgang að áætlunum og starfsmannaupplýsingum sem tengjast áætlunum, t.d. launa- eða bónusfærslur. Aðeins þau hlutverk sem eru með aðgang geta unnið úr launum fyrir þessa starfsmenn.
 
 ###  <a name="email-support-for-alerts"></a>Tölvupóstur út af viðvörunum
-Í verkvangsuppfærslu 25 geta notendur stofnað viðvörunarreglur sem senda sjálkrafa tilkynningar í tölvupósti á tengiliði þegar þær ræsast út af tilviki. 
+Með verkvangsuppfærslu 25 fyrir Finance and Operations geta notendur stofnað viðvörunarreglur sem senda sjálfkrafa tilkynningar í tölvupósti á tengiliði þegar þær ræsast út af tilviki. 
 
 ### <a name="duplicate-employee-checks-user-interface-changes"></a>Afrita athuganir starfsmanns: Breytingar á notandaviðmóti
 Með þessari breytingu er borið kennsl á tvítekningar á meðan þú færir inn heiti á reitum og staða sýnir hversu margar tvítekningar fundust. Þú getur valið tengilinn sem gefinn er upp til að opna nýja síðu til að meta hvort nota skuli samsvörun sem borin var kennsl á. Til að forðast að trufla gagnafærslu, opnast tvítekin skjámynd ekki sjálfkrafa.

@@ -1,6 +1,6 @@
 ---
 title: Öryggi og hlutverkastjórnun í Attract
-description: Þetta efnisatriði veitir upplýsingar um öryggishlutverk í Microsoft Dynamics 365 for Talent - Attract.
+description: Þetta efnisatriði veitir upplýsingar um öryggishlutverk í Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 03/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 3f804b5f79b813cf504c3deb4a95e678c6fcbf87
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: ad94a7511afef0c68fb8f2a70402babb80b0f9ad
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739841"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024200"
 ---
 # <a name="set-user-permissions"></a>Stilla notandaheimildir
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Attract notar öryggi sem byggir á hlutverki. Með öðrum orðum er aðgangur ekki veittur einstökum notendum, heldur öryggishlutverkum sem notendur eru úthlutað. Notandi sem er úthlutað öryggishlutverki hefur aðgang að safni réttinda sem tengjast þessu hlutverki.
+Microsoft Dynamics 365 Talent: Attract notar öryggi sem byggir á hlutverki. Með öðrum orðum er aðgangur ekki veittur einstökum notendum, heldur öryggishlutverkum sem notendur eru úthlutað. Notandi sem er úthlutað öryggishlutverki hefur aðgang að safni réttinda sem tengjast þessu hlutverki.
 
 Attract veitir fimm grundvallar notandahlutverk:
 
@@ -52,7 +52,7 @@ Eftirfarandi kaflar gefa upp lýsingu á hverju hlutverki á háu stigi. Í töf
 
 ## <a name="administrator"></a>Stjórnandi
 
-Notendur sem eru úthlutað stjórnandahlutverki geta nálgast og breytt öllum gögnum í Attract. Stjórnendur geta búið til, lesið, uppfært og eytt gögnum. Þeir hafa einnig aðgang að stjórnendamiðstöðinni, þar sem þeir geta stillt á Attract-forritið og sett upp notendaupplýsingar. Við mælum með að minnsta kosti einum einstaklingi sé úthlutað stjórnandahlutverki. Sjálfgefið er að stjórnandi umhverfisins í Microsoft PowerApps sé settur sem stjórnandi í Attract. Ef þú skráðir þig fyrir tilraunaútgáfu af Attract, er stjórnandahlutverkið sjálfkrafa úthlutað þér. Eins og er, til að búa til störf skulu notendur sem hafa stjórnandahlutverk einnig hafa annaðhvort hlutverk ráðningaraðila eða hlutverk mannauðsstjóra.
+Notendur sem eru úthlutað stjórnandahlutverki geta nálgast og breytt öllum gögnum í Attract. Stjórnendur geta búið til, lesið, uppfært og eytt gögnum. Þeir hafa einnig aðgang að stjórnendamiðstöðinni, þar sem þeir geta stillt á Attract og sett upp notendaupplýsingar. Við mælum með að minnsta kosti einum einstaklingi sé úthlutað stjórnandahlutverki. Sjálfgefið er að stjórnandi umhverfisins í Microsoft PowerApps sé settur sem stjórnandi í Attract. Ef þú skráðir þig fyrir tilraunaútgáfu af Attract, er stjórnandahlutverkið sjálfkrafa úthlutað þér. Eins og er, til að búa til störf skulu notendur sem hafa stjórnandahlutverk einnig hafa annaðhvort hlutverk ráðningaraðila eða hlutverk mannauðsstjóra.
 
 ## <a name="hiring-manager"></a>Mannauðsstjóri
 

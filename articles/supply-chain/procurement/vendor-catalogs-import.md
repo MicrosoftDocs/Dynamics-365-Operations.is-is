@@ -18,19 +18,19 @@ ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: cf81823de46da9a834f0214896b9e634989cac0e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9f85b1d1f0b1c2378dd3f278640d984c31923c35
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569777"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017875"
 ---
 # <a name="import-vendor-catalogs"></a>Flytja inn vörulista lánardrottins
 [!include[banner](../includes/banner.md)]
 
 ## <a name="vendor-catalogs-import"></a>Innflutningur vörulista lánardrottins
 
-Í Microsoft Dynamics 365 for Finance and Operations geta innkaupasérfræðingar stofnað og unnið með vörulista sem starfsmenn fyrirtækis geta notað þegar þeir panta vörur og þjónustu til innri notkunar. Til að stofna innkaupavörulista er hægt að bæta við vörum og þjónustu sem eiga að vera í boði fyrir starfsmenn, annaðhvort með því að flytja inn innkaupavörulisti eða handvirkt bæta innkaupavörulista við afurðarsniðmát. 
+Í Dynamics 365 Supply Chain Management geta innkaupasérfræðingar stofnað og unnið með vörulista sem starfsmenn fyrirtækis geta notað þegar þeir panta vörur og þjónustu til innri notkunar. Til að stofna innkaupavörulista er hægt að bæta við vörum og þjónustu sem eiga að vera í boði fyrir starfsmenn, annaðhvort með því að flytja inn innkaupavörulisti eða handvirkt bæta innkaupavörulista við afurðarsniðmát. 
 
 Hægt er að hlaða upp vörulistagögnum sem lánardrottinn hefur sent með biðlara Microsoft Dynamics 365.
 
@@ -52,7 +52,7 @@ Til að flytja inn vörulistagögn lánardrottins þarf að ljúka eftirfarandi 
 
 6.  Hlaða upp CMR-skránni.
 
-7.  Yfirfara, samþykkja eða hafna afurðum í vörulista lánardrottins. Vörunum er sjálfkrafa varpað á innkaupaflokka í Dynamics 365 for Finance and Operations. 
+7.  Yfirfara, samþykkja eða hafna afurðum í vörulista lánardrottins. Vörunum er sjálfkrafa varpað á innkaupaflokka. 
     
 Samþykktum afurðum er bætt við afurðarsniðmát og sendar til valins lögaðila. Aðeins er hægt að bæta samþykktum afurðum við innkaupavörulistann.
 
