@@ -44,14 +44,18 @@
               items:
                 - name: Uppsetningarvalkostir
                   href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/commerce/toc.json
+                - name: Samanburður á skýi og eiginleikum á staðnum
+                  href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/finance/toc.json
                 - name: Uppsetning skýs
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Kerfiskröfur fyrir uppsetningu í skýi
-                  href: ../fin-ops-core/fin-ops/get-started/system-requirements.md?toc=/dynamics365/commerce/toc.json
+                  href: ../retail/get-started/system-requirements.md?toc=/dynamics365/commerce/toc.json
                 - name: Uppsetning á staðnum
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/commerce/toc.json
                 - name: Kerfiskröfur fyrir uppsetningu á staðnum
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/commerce/toc.json
+                - name: Uppsetningarskref fyrir hluta Retail-rásar í staðbundnu umhverfi
+                  href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: Kaupa Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Forrit fyrir Finance and Operations rekin af 21Vianet í Kína
@@ -60,18 +64,16 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Nýjungar eða breytingar
               items:
-                - name: Nýjungar eða breytingar á heimasíðu Retail
-                  href: ../retail/get-started/whats-new.md
-                - name: Eiginleika í forútgáfu í Retail 10.0.6
-                  href: ../retail/get-started/whats-new-10-0-6.md
-                - name: Retail 10.0.5
-                  href: ../retail/get-started/whats-new-10-0-5.md
-                - name: Nýjungar eða breytingar í Finance and Operations
+                - name: 'Eiginleikar forútgáfu Retail, útgáfu 10.0.7'
+                  href: ../retail/get-started/whats-new-10-0-7.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Retail, útgáfa 10.0.6'
+                  href: ../retail/get-started/whats-new-10-0-6.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Retail, útgáfa 10.0.5'
+                  href: ../retail/get-started/whats-new-10-0-5.md?toc=/dynamics365/commerce/toc.json
+                - name: Nýjungar eða breytingar í fyrri útgáfum
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Finance and Operations
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md
-                    - name: Eiginleikar í forútgáfu í forritum Finance and Operations 10.0.6 (nóvember 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-6.md?toc=/dynamics365/commerce/toc.json
                     - name: Forrit fyrir Finance and Operations 10.0.5 (október 2019)
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/commerce/toc.json
                     - name: Finance and Operations 10.0.4 (júlí 2019)
@@ -195,11 +197,11 @@
                 - name: Mörg LCS-verk og vinnsluumhverfi á einn Azure AD-leigjanda
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
                 - name: Innleiða Finance and Operations Retail-verk
-                  href: ../retail/dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+                  href: ../retail/dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Setja upp nýtt umhverfi, Azure DevOps og útibú fyrir Retail-verk'
-                  href: ../retail/dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+                  href: ../retail/dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md?toc=/dynamics365/commerce/toc.json
                 - name: Uppfæra kóða og umhverfi fyrir Retail-verk
-                  href: ../retail/dev-itpro/updating-environments.md
+                  href: ../retail/dev-itpro/updating-environments.md?toc=/dynamics365/commerce/toc.json
                 - name: Vandamál tengd prófun og afköstum
                   href: ../retail/dev-itpro/retail-implementation-testing-performance.md
         - name: Uppsetning og stjórnun rásar
@@ -207,30 +209,28 @@
             - name: Grunnuppsetning grunnrásar
               items:
                 - name: Frumstilla grunngögn í nýju Retail-umhverfi
-                  href: ../retail/enable-configure-retail-functionality.md
-                - name: Skilgreina og setja upp Retail Hardware Station
-                  href: ../retail/retail-hardware-station-configuration-installation.md
+                  href: ../retail/enable-configure-retail-functionality.md?toc=/dynamics365/commerce/toc.json
                 - name: Upplýsingakóðar og upplýsingakóðaflokkar
                   href: ../retail/info-codes-retail.md
             - name: Stjórnun gagnageymslurásar
               items:
                 - name: Uppsetning smásölurása
-                  href: ../retail/define-maintain-retail-channels.md
+                  href: ../retail/define-maintain-retail-channels.md?toc=/dynamics365/commerce/toc.json
                 - name: Búa til og breyta afgreiðslutíma verslunar
-                  href: ../retail/dev-itpro/store-hours.md
+                  href: ../retail/dev-itpro/store-hours.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreina og setja upp Retail Hardware Station
-                  href: ../retail/retail-hardware-station-configuration-installation.md
+                  href: ../retail/retail-hardware-station-configuration-installation.md?toc=/dynamics365/commerce/toc.json
             - name: Stjórnun netrásar
               items:
                 - name: Setja upp netverslanir
-                  href: ../retail/online-stores.md
+                  href: ../retail/online-stores.md?toc=/dynamics365/commerce/toc.json
                 - name: Stutt kynning um heimasíðu
                   href: quick-tour-home-page.md
                 - name: Stutt kynning á upplýsingasíðu afurðar
                   href: quick-tour-pdp.md
                 - name: Stutt kynning á körfu og greiðsluferli
                   href: quick-tour-cart-checkout.md
-                - name: Stutt kynning á stjórnun reikninga
+                - name: Stutt kynning á stjórnun lykla
                   href: quick-tour-account-management.md
                 - name: Stofna svæði fyrir rafræn viðskipti
                   items:
@@ -244,8 +244,16 @@
                       href: associate-site-online-store.md
                     - name: Skilgreina lénsheiti
                       href: configure-your-domain-name.md
+                    - name: Bæta við stuðningi fyrir efnisbirtingarnet (CDN)
+                      href: add-cdn-support.md
                     - name: Virkja greiningu á verslun eftir staðsetningu
                       href: enable-store-detection.md
+                    - name: Setja upp sérsniðnar síður fyrir innskráningu notenda
+                      href: custom-pages-user-logins.md
+                - name: Verkfæri fyrir höfunda
+                  items:
+                    - name: Heimasíðuyfirlit höfunda
+                      href: authoring-home-overview.md
                 - name: Hafa umsjón með svæði
                   items:
                     - name: Stjórna notendum og hlutverkum
@@ -254,6 +262,8 @@
                       href: add-telemetry.md
                     - name: Hugsanleg leitarvélabestun (SEO) fyrir vefsvæðið þitt
                       href: search-engine-optimization-considerations.md
+                    - name: Stjórna öryggisreglu fyrir efni (CSP)
+                      href: manage-csp.md
                 - name: Bæta við og stjórna efni á eigin síðu
                   items:
                     - name: Leiðir til að bæta við efni
@@ -278,13 +288,21 @@
                       href: add-languages-to-site.md
                 - name: Síður
                   items:
+                    - name: Breyta síðu svæðis sem þegar er til
+                      href: modify-existing-page.md
+                    - name: Bæta við nýrri síðu á svæði
+                      href: add-new-page.md
                     - name: Velja síðuútlit
                       href: select-page-layouts.md
                     - name: Stjórna SEO-lýsigögnum
                       href: manage-seo-metadata.md
+                    - name: 'Vista, forskoða og birta síðu'
+                      href: save-preview-publish-page.md
                     - name: Bæta vörusíðu
                       href: enrich-product-page.md
-                - name: Kerfiseiningar
+                    - name: Bæta lendingarsíðu flokks
+                      href: enrich-category-page.md
+                - name: Einingar
                   items:
                     - name: Vinna með einingar
                       href: work-with-modules.md
@@ -342,8 +360,18 @@
                       href: add-hero-module.md
                     - name: Búa til staðfestingareiningu pöntunar
                       href: order-confirmation-module.md
+                    - name: Yfirlit yfir vörusafnseiningu
+                      href: product-collection-module-overview.md
+                    - name: Bæta við vörusafnseiningu
+                      href: add-product-collection-modules.md
                     - name: Bæta við myndspilaraeiningu
                       href: add-video-player.md
+                - name: Leit
+                  items:
+                    - name: Sjálfgefin lendingarsíða og leitarniðurstöðusíða
+                      href: category-search-page-overview.md
+                    - name: Leitaryfirlit í skýinu
+                      href: cloud-powered-search-overview.md
                 - name: Skýrslugjöf
                   items:
                     - name: Búa til skýrslur fyrir netrás
@@ -355,19 +383,19 @@
             - name: Stjórnun rásar símavers
               items:
                 - name: Söluvirkni símavers
-                  href: ../retail/call-center-functionality.md
+                  href: ../retail/call-center-functionality.md?toc=/dynamics365/commerce/toc.json
                 - name: Setja upp símaversrásir
-                  href: ../retail/set-up-order-processing-options.md
+                  href: ../retail/set-up-order-processing-options.md?toc=/dynamics365/commerce/toc.json
                 - name: Vörulistar símavers
-                  href: ../retail/call-center-catalogs.md
+                  href: ../retail/call-center-catalogs.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreina afhendingarmáta og gjöld
-                  href: ../retail/configure-call-center-delivery.md
+                  href: ../retail/configure-call-center-delivery.md?toc=/dynamics365/commerce/toc.json
                 - name: Setja upp og vinna með svikaviðvaranir
-                  href: ../retail/set-up-fraud-alerts.md
+                  href: ../retail/set-up-fraud-alerts.md?toc=/dynamics365/commerce/toc.json
                 - name: Setja upp samfelldniáætlanir fyrir símaver
-                  href: ../retail/set-up-continuity-program.md
+                  href: ../retail/set-up-continuity-program.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreina og vinna með símaverspantanir í bið
-                  href: ../retail/work-with-order-holds.md
+                  href: ../retail/work-with-order-holds.md?toc=/dynamics365/commerce/toc.json
         - name: Grunnstilling Omni-rásar
           items:
             - name: Afurðir og smásala
@@ -375,83 +403,85 @@
                 - name: Yfirlit afurðarupplýsinga
                   href: ../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json
                 - name: Smásölustigveldi
-                  href: ../retail/retail-hierarchies.md
+                  href: ../retail/retail-hierarchies.md?toc=/dynamics365/commerce/toc.json
                 - name: Eigindir og eigindaflokkar
-                  href: ../retail/attribute-attributegroups-lifecycle.md
+                  href: ../retail/attribute-attributegroups-lifecycle.md?toc=/dynamics365/commerce/toc.json
                 - name: Búa til og stjórna eigindum
-                  href: ../retail/create-manage-attributes.md
+                  href: ../retail/create-manage-attributes.md?toc=/dynamics365/commerce/toc.json
                 - name: Setja upp smásöluafurðir
-                  href: ../retail/set-up-retail-products.md
+                  href: ../retail/set-up-retail-products.md?toc=/dynamics365/commerce/toc.json
                 - name: Stjórna smásöluafurðaflokkum og afurðum
-                  href: ../retail/category-management-product-creation.md
+                  href: ../retail/category-management-product-creation.md?toc=/dynamics365/commerce/toc.json
                 - name: Afurðarvíddir
                   href: ../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json
                 - name: Stjórn vöruúrvals
-                  href: ../retail/assortments.md
+                  href: ../retail/assortments.md?toc=/dynamics365/commerce/toc.json
                 - name: Setja upp úrval
-                  href: ../retail/set-up-assortments.md
+                  href: ../retail/set-up-assortments.md?toc=/dynamics365/commerce/toc.json
                 - name: Setja upp strikamerki
-                  href: ../retail/set-up-bar-codes.md
+                  href: ../retail/set-up-bar-codes.md?toc=/dynamics365/commerce/toc.json
                 - name: Setja upp strikamerkjasíur
-                  href: ../retail/set-up-bar-code-masks.md
+                  href: ../retail/set-up-bar-code-masks.md?toc=/dynamics365/commerce/toc.json
                 - name: Breyta röð smásölueininga
-                  href: ../retail/custom-order-categories-nav-retail-prod-hierarchy.md
+                  href: ../retail/custom-order-categories-nav-retail-prod-hierarchy.md?toc=/dynamics365/commerce/toc.json
             - name: Verðlagning og afslættir
               items:
                 - name: Smásöluafslættir
-                  href: ../retail/retail-discounts-overview.md
+                  href: ../retail/retail-discounts-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Stjórnun smásöluverðs
-                  href: ../retail/price-management.md
+                  href: ../retail/price-management.md?toc=/dynamics365/commerce/toc.json
                 - name: Verðleiðréttingar og afslættir
-                  href: ../retail/price-adjustments-discounts.md
+                  href: ../retail/price-adjustments-discounts.md?toc=/dynamics365/commerce/toc.json
                 - name: Nota marga afslætti á afurð
-                  href: ../retail/Apply-multiple-retail-discounts.md
+                  href: ../retail/Apply-multiple-retail-discounts.md?toc=/dynamics365/commerce/toc.json
                 - name: Ákvarða bestu samsetningar afslátta sem skarast
-                  href: ../retail/optimal-combination-overlapping-discounts.md
+                  href: ../retail/optimal-combination-overlapping-discounts.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreining afslátta fyrir tiltekna rás
-                  href: ../retail/define-channel-specific-discounts.md
+                  href: ../retail/define-channel-specific-discounts.md?toc=/dynamics365/commerce/toc.json
                 - name: Valkostir til að koma í veg fyrir afslætti á smásöluafurðir
-                  href: ../retail/prevent-discounts.md
+                  href: ../retail/prevent-discounts.md?toc=/dynamics365/commerce/toc.json
+                - name: Afslættir eftir greiðslumáta
+                  href: ../retail/tender_based_discounts.md?toc=/dynamics365/commerce/toc.json
                 - name: Yfirlit yfir afslátt á afhendingu
-                  href: ../retail/retail-shipping-discount.md
+                  href: ../retail/retail-shipping-discount.md?toc=/dynamics365/commerce/toc.json
                 - name: Setja upp afsláttarmiða fyrir smásölu
-                  href: ../retail/retail-coupons.md
+                  href: ../retail/retail-coupons.md?toc=/dynamics365/commerce/toc.json
                 - name: Smásöluverðskýrslur
-                  href: ../retail/price-report.md
+                  href: ../retail/price-report.md?toc=/dynamics365/commerce/toc.json
             - name: Vildarkerfi
               items:
                 - name: Yfirlit yfir vildarkerfi
-                  href: ../retail/set-up-customer-loyalty-program.md
+                  href: ../retail/set-up-customer-loyalty-program.md?toc=/dynamics365/commerce/toc.json
             - name: Greiðslur
               items:
                 - name: Greiðslumátar
-                  href: ../retail/payment-methods.md
+                  href: ../retail/payment-methods.md?toc=/dynamics365/commerce/toc.json
                 - name: Greiðslumátar í símaverum
-                  href: ../retail/work-with-payments.md
+                  href: ../retail/work-with-payments.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Uppsetning kreditkorts, heimild og úthlutun'
                   href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreina verðgildi reiðufjár fyrir POS
-                  href: ../retail/cash-denominations.md
+                  href: ../retail/cash-denominations.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreina kreditkortavinnslu
-                  href: ../retail/tasks/configure-credit-card-processing.md
+                  href: ../retail/tasks/configure-credit-card-processing.md?toc=/dynamics365/commerce/toc.json
                 - name: Dynamics 365-greiðslutengill fyrir Adyen
-                  href: ../retail/dev-itpro/adyen-connector.md
+                  href: ../retail/dev-itpro/adyen-connector.md?toc=/dynamics365/commerce/toc.json
                 - name: Vista netgreiðslumáta með Adyen-tengli
-                  href: ../retail/dev-itpro/adyen-connector-listPI.md
+                  href: ../retail/dev-itpro/adyen-connector-listPI.md?toc=/dynamics365/commerce/toc.json
                 - name: Uppsetning á greiðsluaðstæðum reikninga
-                  href: ../retail/payinvoice.md
+                  href: ../retail/payinvoice.md?toc=/dynamics365/commerce/toc.json
                 - name: Vörn fyrir tvíteknar greiðslur
-                  href: ../retail/duplicate-payment-protection.md
+                  href: ../retail/duplicate-payment-protection.md?toc=/dynamics365/commerce/toc.json
                 - name: Greiðsluyfirlit Omni-rásar
-                  href: ../retail/omni-channel-payments.md
+                  href: ../retail/omni-channel-payments.md?toc=/dynamics365/commerce/toc.json
                 - name: Algengar spurningar um greiðslur
-                  href: ../retail/dev-itpro/payments-retail.md
+                  href: ../retail/dev-itpro/payments-retail.md?toc=/dynamics365/commerce/toc.json
             - name: Ítarleg sjálfvirk gjöld
               items:
                 - name: Skilgreina og nota ítarleg sjálfvirk gjöld
-                  href: ../retail/omni-auto-charges.md
+                  href: ../retail/omni-auto-charges.md?toc=/dynamics365/commerce/toc.json
                 - name: Skipta gjöldum í haus í hlutfalli við samsvarandi sölulínur
-                  href: ../retail/pro-rate-charges-matching-lines.md
+                  href: ../retail/pro-rate-charges-matching-lines.md?toc=/dynamics365/commerce/toc.json
             - name: Virðisaukaskattur
               items:
                 - name: Yfirlit virðisaukaskatts
@@ -477,7 +507,7 @@
             - name: Birgðir
               items:
                 - name: Birgðastjórnun verslunar
-                  href: ../retail/work-with-store-inventory.md
+                  href: ../retail/work-with-store-inventory.md?toc=/dynamics365/commerce/toc.json
                 - name: Skrá raðnúmer í söluferlinu
                   href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
                 - name: Birgðabækur
@@ -503,129 +533,141 @@
             - name: Yfirlit
               items:
                 - name: Smásöluuppgjör
-                  href: ../retail/retail-statements.md
+                  href: ../retail/retail-statements.md?toc=/dynamics365/commerce/toc.json
                 - name: Samræmisprófun smásölufærslna
-                  href: ../retail/valid-checker.md
-                - name: 'Stofna, reikna og bóka yfirlit fyrir smásöluverslun'
-                  href: ../retail/tasks/create-calculate-post-statement-retail-store.md
-                - name: Endurbætur á virkni yfirlitsbókunar
-                  href: ../retail/statement-posting-EOD.md
+                  href: ../retail/valid-checker.md?toc=/dynamics365/commerce/toc.json
+                - name: Gera reglur óvirkar í samræmisprófun smásölufærslna
+                  href: ../retail/disable-consistency-check-rule.md?toc=/dynamics365/commerce/toc.json
+                - name: Breyta og endurskoða færslur smásöluverslunar
+                  href: ../retail/edit-audit-retail-transactions.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Stofna, reikna og bóka uppgjör fyrir smásöluverslun'
+                  href: ../retail/tasks/create-calculate-post-statement-retail-store.md?toc=/dynamics365/commerce/toc.json
+                - name: Endurbætur á virkni uppgjörsbókunar
+                  href: ../retail/statement-posting-EOD.md?toc=/dynamics365/commerce/toc.json
+                - name: Stofnun hlutastraumspöntunar fyrir færslur smásöluverslunar
+                  href: ../retail/trickle-feed.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Stofna, reikna og bóka uppgjör fyrir smásöluverslun'
+                  href: ../retail/tasks/create-calculate-post-statement-retail-store.md?toc=/dynamics365/commerce/toc.json
+                - name: Endurbætur á virkni uppgjörsbókunar
+                  href: ../retail/statement-posting-EOD.md?toc=/dynamics365/commerce/toc.json
                 - name: Betri meðhöndlun á runuröktum vörum
-                  href: ../retail/batch.md
+                  href: ../retail/batch.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreina smásölufæribreytur sem hafa áhrif á smásöluyfirlit
-                  href: ../retail/tasks/parameter-configurations-retail-statements.md
+                  href: ../retail/tasks/parameter-configurations-retail-statements.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreina greiðslumátastillingar sem hafa áhrif á smásöluyfirlit
-                  href: ../retail/tasks/payment-configurations-retail-statements.md
+                  href: ../retail/tasks/payment-configurations-retail-statements.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreina og keyra vinnslu til að reikna yfirlit
-                  href: ../retail/tasks/run-job-calculate-statements.md
+                  href: ../retail/tasks/run-job-calculate-statements.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreina og keyra vinnslu til að bóka yfirlit
-                  href: ../retail/tasks/run-job-post-statements.md
+                  href: ../retail/tasks/run-job-post-statements.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreina verslunarstillingar sem hafa áhrif á smásöluyfirlit
-                  href: ../retail/tasks/store-configurations-retail-statements.md
+                  href: ../retail/tasks/store-configurations-retail-statements.md?toc=/dynamics365/commerce/toc.json
             - name: Dreifingarstjórnun pöntunar (DOM)
               items:
                 - name: DOM-yfirlit
-                  href: ../retail/dom.md
+                  href: ../retail/dom.md?toc=/dynamics365/commerce/toc.json
                 - name: Kostnaðargrunnstilling
-                  href: ../retail/cost.md
+                  href: ../retail/cost.md?toc=/dynamics365/commerce/toc.json
             - name: Uppfylling pantana og vinnsla
               items:
                 - name: Uppfylling verslunarpöntunar
-                  href: ../retail/Order-fulfillment-overview.md
+                  href: ../retail/Order-fulfillment-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Setja upp pöntunaruppfyllingu fyrir verslanir
-                  href: ../retail/Order-fulfillment-POS-setup.md
+                  href: ../retail/Order-fulfillment-POS-setup.md?toc=/dynamics365/commerce/toc.json
                 - name: Sýna pöntunartilkynningar í sölustaðnum
-                  href: ../retail/Notifications-POS.md
+                  href: ../retail/Notifications-POS.md?toc=/dynamics365/commerce/toc.json
             - name: Skil
               items:
                 - name: Tengdar endurgreiðslur
-                  href: ../retail/dev-itpro/linked-refunds.md
+                  href: ../retail/dev-itpro/linked-refunds.md?toc=/dynamics365/commerce/toc.json
                 - name: Sala og skil á afurðum sem ekki eru í úrvali verslunar
-                  href: ../retail/sell-return-outside-assortments.md
+                  href: ../retail/sell-return-outside-assortments.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreina og vinna úr skiptum á skilapöntun
-                  href: ../retail/orderexchanges.md
+                  href: ../retail/orderexchanges.md?toc=/dynamics365/commerce/toc.json
                 - name: Takmarka greiðslumáta fyrir skil án kvittunar
-                  href: ../retail/payment-methods-restrictions.md
+                  href: ../retail/payment-methods-restrictions.md?toc=/dynamics365/commerce/toc.json
                 - name: Vöruskil á mörgum pöntunum viðskiptavinar og reikningum
-                  href: ../retail/multireturn.md
+                  href: ../retail/multireturn.md?toc=/dynamics365/commerce/toc.json
         - name: Nútíma sölustaður (MPOS) og sölukerfi í skýinu
           items:
             - name: Velja á milli MPOS og sölukerfis í skýinu
-              href: ../retail/MPOS-or-CPOS.md
+              href: ../retail/MPOS-or-CPOS.md?toc=/dynamics365/commerce/toc.json
             - name: Aðgerðir sölustaðar á neti og utan nets
-              href: ../retail/pos-operations.md
+              href: ../retail/pos-operations.md?toc=/dynamics365/commerce/toc.json
             - name: Virkjun tækis á sérsniðnu Retail MPOS
-              href: ../retail/dev-itpro/retail-POS-activation-changes.md
+              href: ../retail/dev-itpro/retail-POS-activation-changes.md?toc=/dynamics365/commerce/toc.json
             - name: Skjáútlit sýnigagna í MPOS og sölukerfi í skýinu
-              href: ../retail/demo-data.md
+              href: ../retail/demo-data.md?toc=/dynamics365/commerce/toc.json
             - name: Afurða- og viðskiptavinaleit á sölustaðnum
-              href: ../retail/POS-search-improvements.md
+              href: ../retail/POS-search-improvements.md?toc=/dynamics365/commerce/toc.json
             - name: Leita að afurðum og afurðarafbrigðum við pöntunarfærslu
               href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
             - name: Endurbætur á reiðufjárstjórnun
               href: ../retail/cash-mgmt.md
             - name: Uppfletting birgða á sölustaðnum
-              href: ../retail/product-variants-POS.md
+              href: ../retail/product-variants-POS.md?toc=/dynamics365/commerce/toc.json
             - name: Gera hlé á og halda áfram með færslur á sölustaðnum
-              href: ../retail/pos-suspend-recall-transactions.md
+              href: ../retail/pos-suspend-recall-transactions.md?toc=/dynamics365/commerce/toc.json
             - name: Virkni sölustaðar án tengingar
-              href: ../retail/pos-offline-functionality.md
+              href: ../retail/pos-offline-functionality.md?toc=/dynamics365/commerce/toc.json
             - name: Vakta- og peningaskúffustjórnun
-              href: ../retail/shift-drawer-management.md
+              href: ../retail/shift-drawer-management.md?toc=/dynamics365/commerce/toc.json
             - name: Úttektarstaða reiðufjár á gjafakorti
-              href: ../retail/dev-itpro/gift-card-cash-out.md
+              href: ../retail/dev-itpro/gift-card-cash-out.md?toc=/dynamics365/commerce/toc.json
             - name: Afgreiða pantanir frá annarri verslun
-              href: ../retail/charge-send.md
+              href: ../retail/charge-send.md?toc=/dynamics365/commerce/toc.json
+            - name: Fela afhendingarmáta sem ekki eiga við um flutningsaðila úr svarglugga sendingar sölustaðar
+              href: ../retail/hide-non-carrier-modes.md?toc=/dynamics365/commerce/toc.json
             - name: Verkskráning og hjálp fyrir MPOS og sölukerfi í skýinu
-              href: ../retail/task-recorder-retail-pos.md
+              href: ../retail/task-recorder-retail-pos.md?toc=/dynamics365/commerce/toc.json
             - name: Jaðarvélbúnaður
               items:
                 - name: Smásölujaðarbúnaður
-                  href: ../retail/retail-peripherals-overview.md
+                  href: ../retail/retail-peripherals-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Retail-jaðarbúnaðarhermir
-                  href: ../retail/dev-itpro/retail-peripheral-simulator.md
+                  href: ../retail/dev-itpro/retail-peripheral-simulator.md?toc=/dynamics365/commerce/toc.json
                 - name: Tengja jaðarbúnað við sölustaðinn
-                  href: ../retail/define-maintain-channel-clients-registers-hw-stations.md
+                  href: ../retail/define-maintain-channel-clients-registers-hw-stations.md?toc=/dynamics365/commerce/toc.json
             - name: Skjáútlit
               items:
                 - name: Skjáútlit sýnigagna í MPOS/CPOS
-                  href: ../retail/demo-data.md
+                  href: ../retail/demo-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Skjáútlit fyrir sölustaðinn
-                  href: ../retail/pos-screen-layouts.md
+                  href: ../retail/pos-screen-layouts.md?toc=/dynamics365/commerce/toc.json
                 - name: Setja upp útlitshönnunarbúnað Retail POS
-                  href: ../retail/install-pos-layout-designer.md
+                  href: ../retail/install-pos-layout-designer.md?toc=/dynamics365/commerce/toc.json
                 - name: Velja tilkynningastillingar
-                  href: ../retail/Notifications-POS.md
+                  href: ../retail/Notifications-POS.md?toc=/dynamics365/commerce/toc.json
                 - name: POS-forrit og stillingar tungumáls notanda
-                  href: ../retail/pos-application-user-language-settings.md
+                  href: ../retail/pos-application-user-language-settings.md?toc=/dynamics365/commerce/toc.json
                 - name: Setja upp og stjórna myndum fyrir MPOS
-                  href: ../retail/set-up-manage-images-retail-mpos.md
+                  href: ../retail/set-up-manage-images-retail-mpos.md?toc=/dynamics365/commerce/toc.json
                 - name: Biðlaramyndir á sölustað
-                  href: ../retail/pos-image.md
+                  href: ../retail/pos-image.md?toc=/dynamics365/commerce/toc.json
             - name: Pantanir viðskiptavinar
               items:
                 - name: Pantanir viðskiptavinar í MPOS
-                  href: ../retail/customer-orders-overview.md
+                  href: ../retail/customer-orders-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Blandaðar pantanir viðskiptavinar
-                  href: ../retail/hybrid-customer-orders.md
+                  href: ../retail/hybrid-customer-orders.md?toc=/dynamics365/commerce/toc.json
             - name: Sölutengiliðir
               items:
                 - name: Rekja sölulaun á sölustað með söluflokkum
-                  href: ../retail/pos-sales-groups-track-commissions.md
+                  href: ../retail/pos-sales-groups-track-commissions.md?toc=/dynamics365/commerce/toc.json
             - name: Virkjun tækis
               items:
                 - name: 'Skilgreina, setja upp og virkja MPOS'
-                  href: ../retail/retail-modern-pos-device-activation.md
+                  href: ../retail/retail-modern-pos-device-activation.md?toc=/dynamics365/commerce/toc.json
                 - name: Setja upp aukna innskráningarvirkni fyrir MPOS og sölukerfi í skýinu
-                  href: ../retail/extended-logon.md
+                  href: ../retail/extended-logon.md?toc=/dynamics365/commerce/toc.json
                 - name: Stjórna Retail-virknilyklum og sannprófa tæki
-                  href: ../retail/set-up-activation-accounts-validate-devices-hq.md
+                  href: ../retail/set-up-activation-accounts-validate-devices-hq.md?toc=/dynamics365/commerce/toc.json
             - name: Kvittanir
               items:
                 - name: Setja upp og hanna kvittunarsnið
-                  href: ../retail/receipt-templates-printing.md
+                  href: ../retail/receipt-templates-printing.md?toc=/dynamics365/commerce/toc.json
                 - name: Senda tölvupóstkvittanir frá MPOS
-                  href: ../retail/email-receipts.md
+                  href: ../retail/email-receipts.md?toc=/dynamics365/commerce/toc.json
         - name: „Einkunnir og umsagnir“
           items:
             - name: Yfirlit yfir einkunnir og umsagnir
@@ -657,65 +699,65 @@
             - name: Reynsla af sölustað
               items:
                 - name: Afurðaráðleggingar á sölustað
-                  href: ../retail/product.md
+                  href: ../retail/product.md?toc=/dynamics365/commerce/toc.json
                 - name: Bæta ráðleggingarstjórnun við sölustaðartæki
-                  href: ../retail/add-recommendations-control-pos-screen.md
+                  href: ../retail/add-recommendations-control-pos-screen.md?toc=/dynamics365/commerce/toc.json
         - name: Eftirlit og greining
           items:
             - name: Eftirlit með sölu og framlegð
-              href: ../retail/monitor-sales-margin-performance.md
+              href: ../retail/monitor-sales-margin-performance.md?toc=/dynamics365/commerce/toc.json
             - name: Greina leitni og mynstur í sölu
-              href: ../retail/analyze-sales-trends-patterns.md
+              href: ../retail/analyze-sales-trends-patterns.md?toc=/dynamics365/commerce/toc.json
             - name: Mat á sölu eftir afurð
-              href: ../retail/sales-performance-products.md
+              href: ../retail/sales-performance-products.md?toc=/dynamics365/commerce/toc.json
             - name: Meta arðsemi viðskiptavinar og afurðar
-              href: ../retail/assess-customer-product-profitability.md
+              href: ../retail/assess-customer-product-profitability.md?toc=/dynamics365/commerce/toc.json
             - name: Frammistöðugreining verslunar
-              href: ../retail/store-performance-information.md
+              href: ../retail/store-performance-information.md?toc=/dynamics365/commerce/toc.json
             - name: 'Setja upp greiningu nýleika-, tíðni- og peningastigs (RFM)'
-              href: ../retail/set-up-rfm-analysis.md
+              href: ../retail/set-up-rfm-analysis.md?toc=/dynamics365/commerce/toc.json
         - name: Staðfærslu- og eftirlitseiginleikar
           items:
             - name: Yfirlit yfir samþættingu fjárhags fyrir smásölurás
-              href: ../retail/localizations/fiscal-integration-for-retail-channel.md
+              href: ../retail/localizations/fiscal-integration-for-retail-channel.md?toc=/dynamics365/commerce/toc.json
             - name: Uppsetning á samþættingu fjárhags fyrir smásölurás
-              href: ../retail/localizations/setting-up-fiscal-integration-for-retail-channel.md
+              href: ../retail/localizations/setting-up-fiscal-integration-for-retail-channel.md?toc=/dynamics365/commerce/toc.json
             - name: Austurríki
               items:
                 - name: Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Austurríki
-                  href: ../retail/localizations/emea-aut-fi-sample.md
+                  href: ../retail/localizations/emea-aut-fi-sample.md?toc=/dynamics365/commerce/toc.json
             - name: Austur-Evrópa
               items:
                 - name: Fyrirframgreiðslureikningar fyrir Retail fyrir Austur-Evrópu
-                  href: ../retail/localizations/emea-eeu-advance-invoices-for-retail.md
+                  href: ../retail/localizations/emea-eeu-advance-invoices-for-retail.md?toc=/dynamics365/commerce/toc.json
                 - name: Umsjón með kassasjóði fyrir Retail fyrir Austur-Evrópu
-                  href: ../retail/localizations/emea-eeu-petty-cash-for-retail.md
+                  href: ../retail/localizations/emea-eeu-petty-cash-for-retail.md?toc=/dynamics365/commerce/toc.json
                 - name: Reikningar viðskiptavina Retail og sölupantanir sem hefur verið skilað í löndum Austur-Evrópu
-                  href: ../retail/localizations/emea-eeu-retail-invoices.md
+                  href: ../retail/localizations/emea-eeu-retail-invoices.md?toc=/dynamics365/commerce/toc.json
                 - name: 'Leiðbeiningar um uppsetningu á afgreiðslukössum fyrir Tékkland, Ungverjaland, og Pólland'
-                  href: ../retail/localizations/emea-eeu-deployment.md
+                  href: ../retail/localizations/emea-eeu-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Dæmi um samþættingu strimlaprentara fyrir Pólland
-                  href: ../retail/localizations/emea-pol-fpi-sample.md
+                  href: ../retail/localizations/emea-pol-fpi-sample.md?toc=/dynamics365/commerce/toc.json
                 - name: Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Tékkland
-                  href: ../retail/localizations/emea-cze-fi-sample.md
+                  href: ../retail/localizations/emea-cze-fi-sample.md?toc=/dynamics365/commerce/toc.json
             - name: Frakkland
               items:
                 - name: Afgreiðslukassavirkni
-                  href: ../retail/localizations/emea-fra-cash-registers.md
+                  href: ../retail/localizations/emea-fra-cash-registers.md?toc=/dynamics365/commerce/toc.json
                 - name: Leiðbeiningar um uppsetningu á afgreiðslukössum
-                  href: ../retail/localizations/emea-fra-deployment.md
+                  href: ../retail/localizations/emea-fra-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Indland
               items:
                 - name: Samþætting vöru- og þjónustuskatts (VÞS) fyrir afgreiðslukassa
-                  href: ../retail/localizations/apac-ind-cash-registers.md
+                  href: ../retail/localizations/apac-ind-cash-registers.md?toc=/dynamics365/commerce/toc.json
                 - name: Leiðbeiningar um uppsetningu á afgreiðslukössum
-                  href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md
+                  href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/dynamics365/commerce/toc.json
                 - name: Stuðningur fyrir uppfærslu og N-1 á Indlandi
-                  href: ../retail/localizations/apac-ind-n-1-for-india.md
+                  href: ../retail/localizations/apac-ind-n-1-for-india.md?toc=/dynamics365/commerce/toc.json
             - name: Ítalía
               items:
                 - name: Dæmi um samþættingu strimlaprentara fyrir Ítalíu
-                  href: ../retail/localizations/emea-ita-fpi-sample.md
+                  href: ../retail/localizations/emea-ita-fpi-sample.md?toc=/dynamics365/commerce/toc.json
             - name: Mexíkó
               items:
                 - name: Rafrænir CFDI-reikningar fyrir Mexíkó
@@ -723,71 +765,63 @@
             - name: Noregur
               items:
                 - name: Afgreiðslukassavirkni
-                  href: ../retail/localizations/emea-nor-cash-registers.md
+                  href: ../retail/localizations/emea-nor-cash-registers.md?toc=/dynamics365/commerce/toc.json
                 - name: Leiðbeiningar um uppsetningu á afgreiðslukössum
-                  href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md
+                  href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/dynamics365/commerce/toc.json
             - name: Svíþjóð
               items:
                 - name: Afgreiðslukassavirkni
-                  href: ../retail/localizations/emea-swe-cash-registers.md
+                  href: ../retail/localizations/emea-swe-cash-registers.md?toc=/dynamics365/commerce/toc.json
                 - name: Dæmi um Retail POS-samþættingu fyrir stjórntæki
-                  href: ../retail/localizations/retail-sdk-control-unit-sample.md
+                  href: ../retail/localizations/retail-sdk-control-unit-sample.md?toc=/dynamics365/commerce/toc.json
         - name: Retail-verk
           items:
             - name: Búa til viðskiptasamninga fyrir tilgreindar rásir
-              href: ../retail/tasks/base-price-trade-agreements.md
+              href: ../retail/tasks/base-price-trade-agreements.md?toc=/dynamics365/commerce/toc.json
             - name: Nota verðlagsreglur fyrir flokka til að búa til viðskiptasamninga
-              href: ../retail/tasks/category-pricing-rules-trade-agreements.md
+              href: ../retail/tasks/category-pricing-rules-trade-agreements.md?toc=/dynamics365/commerce/toc.json
             - name: Skilgreina virknireglur fyrir sölufulltrúa
-              href: ../retail/tasks/configure-functionality-profile-sales-representative.md
-            - name: Búa til tæki og tengja þau við afgreiðslukassa
-              href: ../retail/tasks/create-associate-device.md
-            - name: Stofna Hardware Stations
-              href: ../retail/tasks/create-associate-hardware-station.md
-            - name: Stofna afgreiðslukassa
-              href: ../retail/tasks/create-associate-registers.md
+              href: ../retail/tasks/configure-functionality-profile-sales-representative.md?toc=/dynamics365/commerce/toc.json
             - name: Stofna símaverspantanir
-              href: ../retail/tasks/create-call-center-orders.md
+              href: ../retail/tasks/create-call-center-orders.md?toc=/dynamics365/commerce/toc.json
             - name: Stofna fjárhagsvíddir fyrir POS-afgreiðslukassa og skilgreina víddagildi í afgreiðslukössum
-              href: ../retail/tasks/create-financial-dimensions-pos.md
+              href: ../retail/tasks/create-financial-dimensions-pos.md?toc=/dynamics365/commerce/toc.json
             - name: Stofna fjárhagsvíddir fyrir smásölurásir og skilgreina víddagildi í verslunum
-              href: ../retail/tasks/create-financial-dimensions-retail-channels.md
+              href: ../retail/tasks/create-financial-dimensions-retail-channels.md?toc=/dynamics365/commerce/toc.json
             - name: Stofna heimildaflokka sölustaða
-              href: ../retail/tasks/create-pos-permission-groups.md
+              href: ../retail/tasks/create-pos-permission-groups.md?toc=/dynamics365/commerce/toc.json
             - name: Búa til sjónrænar forstillingar sölustaðar
-              href: ../retail/tasks/create-pos-visual-profile-2016-02.md
+              href: ../retail/tasks/create-pos-visual-profile-2016-02.md?toc=/dynamics365/commerce/toc.json
             - name: Stofna afurðapakka fyrir innkaupapantanir
-              href: ../retail/tasks/create-product-packages-purchase-orders.md
+              href: ../retail/tasks/create-product-packages-purchase-orders.md?toc=/dynamics365/commerce/toc.json
             - name: Stofna símaversrásir og skilgreina eigindir rása
-              href: ../retail/tasks/define-call-center-channel-channel-attributes.md
+              href: ../retail/tasks/define-call-center-channel-channel-attributes.md?toc=/dynamics365/commerce/toc.json
             - name: Skilgreina eigindir rása
-              href: ../retail/tasks/define-channel-attributes.md
+              href: ../retail/tasks/define-channel-attributes.md?toc=/dynamics365/commerce/toc.json
             - name: Skilgreina samfelldniáætlanir
-              href: ../retail/tasks/define-continuity-schedules.md
+              href: ../retail/tasks/define-continuity-schedules.md?toc=/dynamics365/commerce/toc.json
             - name: ' Skilgreina vildarkerfi'
-              href: ../retail/tasks/define-loyalty-programs.md
+              href: ../retail/tasks/define-loyalty-programs.md?toc=/dynamics365/commerce/toc.json
             - name: ' Skilgreina vildarpunkta smásölu'
-              href: ../retail/tasks/define-loyalty-reward-points.md
+              href: ../retail/tasks/define-loyalty-reward-points.md?toc=/dynamics365/commerce/toc.json
             - name: ' Skilgreina vildarkerfi'
-              href: ../retail/tasks/define-loyalty-schemes.md
+              href: ../retail/tasks/define-loyalty-schemes.md?toc=/dynamics365/commerce/toc.json
             - name: Hanna vensl milli skipulagseininga
-              href: ../retail/tasks/design-relationships-between-organizational-units.md
+              href: ../retail/tasks/design-relationships-between-organizational-units.md?toc=/dynamics365/commerce/toc.json
             - name: Stjórna úrvali
-              href: ../retail/tasks/manage-assortments-2016-11.md
-            - name: Sækja Hardware Stations með sjálfsafgreiðslu
-              href: ../retail/tasks/perform-self-service-download-hardware-station.md
+              href: ../retail/tasks/manage-assortments-2016-11.md?toc=/dynamics365/commerce/toc.json
             - name: Bóka netsölu og -greiðslur
-              href: ../retail/tasks/posting-online-sales-payments.md
+              href: ../retail/tasks/posting-online-sales-payments.md?toc=/dynamics365/commerce/toc.json
             - name: Setja leiðréttingu vildarpunkta í ferli
-              href: ../retail/tasks/process-loyalty-reward-point-adjustments.md
+              href: ../retail/tasks/process-loyalty-reward-point-adjustments.md?toc=/dynamics365/commerce/toc.json
             - name: Ýta afurðum úr dreifingarmiðstöðvum í verslanir með dreifingu frá lager
-              href: ../retail/tasks/push-products-distribution-center-store-buyers-push.md
+              href: ../retail/tasks/push-products-distribution-center-store-buyers-push.md?toc=/dynamics365/commerce/toc.json
             - name: Setja upp reglur og færibreytur fyrir dreifingu frá dreifingarstöð og lager
-              href: ../retail/tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+              href: ../retail/tasks/set-up-rules-parameters-cross-docking-buyers-push.md?toc=/dynamics365/commerce/toc.json
             - name: Samfelldniáætlanir fyrir sölu og vinnsla sölupantana
-              href: ../retail/tasks/use-continuity-program.md
+              href: ../retail/tasks/use-continuity-program.md?toc=/dynamics365/commerce/toc.json
             - name: Skilgreina starfsmenn í smásölu
-              href: ../retail/tasks/worker.md
+              href: ../retail/tasks/worker.md?toc=/dynamics365/commerce/toc.json
         - name: Greind
           items:
             - name: Gervigreind – heimasíða
@@ -1337,6 +1371,8 @@
                       href: e-commerce-extensibility/system-requirements.md
                     - name: Setja upp þróunarumhverfi
                       href: e-commerce-extensibility/setup-dev-environment.md
+                    - name: Skilgreina þróunarumhverfisskrá (.env)
+                      href: e-commerce-extensibility/configure-env-file.md
                 - name: Yfirlit yfir verkvang
                   items:
                     - name: Yfirlit yfir hönnun
@@ -1358,7 +1394,7 @@
                     - name: Prófunarskrá einingar
                       href: e-commerce-extensibility/module-test-file.md
                     - name: props.autogenerated.ts skrá einingar
-                      href: e-commerce-extensibility/module-autogenerated.file.md
+                      href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
                 - name: Þróa einingar
                   items:
                     - name: Búa til nýja einingu
@@ -1381,20 +1417,20 @@
                       href: e-commerce-extensibility/create-layout-container.md
                     - name: Stofna geymiseiningu fyrir síðu
                       href: e-commerce-extensibility/create-page-containers.md
+                    - name: Staðfæra einingu
+                      href: e-commerce-extensibility/localize-module.md
                 - name: Ítarleg efnisatriði einingar
                   items:
-                    - name: Staðfæring einingar
-                      href: e-commerce-extensibility/globalize-modules.md
                     - name: Biðja um eiginleikahlut
                       href: e-commerce-extensibility/request-properties-object.md
                     - name: Forritsstillingar
                       href: e-commerce-extensibility/app-settings.md
                     - name: Víkka út skilgreiningu einingar
                       href: e-commerce-extensibility/extend-module-definition.md
-                    - name: Vinna með kökur
+                    - name: Yfirlit API fyrir kökur
                       href: e-commerce-extensibility/cookie-api-overview.md
-                    - name: Staðfæra einingu
-                      href: e-commerce-extensibility/localize-module.md
+                    - name: Gera einingar alþjóðlegar með því að nota klasann CultureInfoFormatter
+                      href: e-commerce-extensibility/globalize-modules.md
                 - name: Þróa gagnaaðgerðir
                   items:
                     - name: Yfirlit yfir gagnaaðgerðir
@@ -1407,6 +1443,8 @@
                       href: e-commerce-extensibility/event-based-data-actions.md
                     - name: Grunngagnaaðgerðir
                       href: e-commerce-extensibility/core-data-actions.md
+                    - name: API fyrir símtöl í Retail Server
+                      href: e-commerce-extensibility/call-retail-server-apis.md
                 - name: Efnisatriði ítarlegra gagnaaðgerða
                   items:
                     - name: Gagnaaðgerðir í röð
@@ -1442,220 +1480,224 @@
             - name: Retail-þróun
               items:
                 - name: Yfirlit yfir þróun og stjórnun Retail
-                  href: ../retail/dev-itpro/dev-retail-home-page.md
+                  href: ../retail/dev-itpro/dev-retail-home-page.md?toc=/dynamics365/commerce/toc.json
                 - name: Skipulag
                   items:
                     - name: Retail-íhlutir
-                      href: ../retail/retail-components.md
+                      href: ../retail/retail-components.md?toc=/dynamics365/commerce/toc.json
                     - name: Skipulag Retail Server
-                      href: ../retail/dev-itpro/retail-server-architecture.md
+                      href: ../retail/dev-itpro/retail-server-architecture.md?toc=/dynamics365/commerce/toc.json
                     - name: Velja grannfræði í verslun
-                      href: ../retail/dev-itpro/retail-in-store-topology.md
+                      href: ../retail/dev-itpro/retail-in-store-topology.md?toc=/dynamics365/commerce/toc.json
                     - name: Commerce Data Exchange og samskipti smásölurásar
-                      href: ../retail/dev-itpro/define-retail-channel-communications-cdx.md
+                      href: ../retail/dev-itpro/define-retail-channel-communications-cdx.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail Modern POS skipulag
-                      href: ../retail/dev-itpro/retail-modern-pos-architecture.md
+                      href: ../retail/dev-itpro/retail-modern-pos-architecture.md?toc=/dynamics365/commerce/toc.json
                     - name: Útgáfuskipulag Retail netverslunar
-                      href: ../retail/dev-itpro/retail-online-store-publishing-architecture.md
+                      href: ../retail/dev-itpro/retail-online-store-publishing-architecture.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail Channel Performance Power BI efni
                       href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
                     - name: Vottun um gagnaöryggisstaðla fyrir greiðslujöfnun (PA-DSS)
-                      href: ../retail/dev-itpro/PA-DSS-Certification.md
+                      href: ../retail/dev-itpro/PA-DSS-Certification.md?toc=/dynamics365/commerce/toc.json
                     - name: Smásölueiginleikar tiltækir fyrir uppsetningu á staðnum
-                      href: ../retail/retail-onprem.md
+                      href: ../retail/retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: Uppsetning og bráðabætur
                   items:
                     - name: Retail Store Scale Unit
-                      href: ../retail/dev-itpro/retail-store-system-begin.md
+                      href: ../retail/dev-itpro/retail-store-system-begin.md?toc=/dynamics365/commerce/toc.json
                     - name: Skilgreina og setja upp Retail Store Scale Unit
-                      href: ../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md
+                      href: ../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail Modern POS grunnstilling og uppsetning
-                      href: ../retail/retail-modern-pos-device-activation.md
+                      href: ../retail/retail-modern-pos-device-activation.md?toc=/dynamics365/commerce/toc.json
                     - name: Stjórna Retail-lyklum og -tækjum frá höfuðstöðvum
-                      href: ../retail/set-up-activation-accounts-validate-devices-hq.md
+                      href: ../retail/set-up-activation-accounts-validate-devices-hq.md?toc=/dynamics365/commerce/toc.json
                     - name: Tækisvirkjun Retail POS
-                      href: ../retail/dev-itpro/retail-device-activation.md
+                      href: ../retail/dev-itpro/retail-device-activation.md?toc=/dynamics365/commerce/toc.json
                     - name: Hjálpa til við að tryggja sölukerfi í skýinu í samnýttu umhverfi
-                      href: ../retail/dev-itpro/secure-retail-cloud-pos.md
+                      href: ../retail/dev-itpro/secure-retail-cloud-pos.md?toc=/dynamics365/commerce/toc.json
                     - name: Skilgreining og uppsetning Retail Hardware Station
-                      href: ../retail/retail-hardware-station-configuration-installation.md
+                      href: ../retail/retail-hardware-station-configuration-installation.md?toc=/dynamics365/commerce/toc.json
                     - name: Fjöldauppsetning sjálfsafgreiðsluíhluta fyrir smásölu
-                      href: ../retail/dev-itpro/retail-mass-deployment.md
+                      href: ../retail/dev-itpro/retail-mass-deployment.md?toc=/dynamics365/commerce/toc.json
                     - name: Tilvik smásöluíhluta fyrir greiningu og bilanaleit
-                      href: ../retail/dev-itpro/retail-component-events-diagnostics-troubleshooting.md
+                      href: ../retail/dev-itpro/retail-component-events-diagnostics-troubleshooting.md?toc=/dynamics365/commerce/toc.json
                     - name: Nota virkjanlegan pakka
                       href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
                 - name: Uppfærsla og N-1 stuðningur
                   items:
                     - name: Uppfærsla og N-1 stuðningur við Retail
-                      href: ../retail/dev-itpro/overview-upgrade-n-minus1.md
+                      href: ../retail/dev-itpro/overview-upgrade-n-minus1.md?toc=/dynamics365/commerce/toc.json
                     - name: 'Stigvaxandi útfærsla (N-1) uppsetningar, skilgreiningar og kerfaskiptingar'
-                      href: ../retail/dev-itpro/n-1-installation-configuration.md
+                      href: ../retail/dev-itpro/n-1-installation-configuration.md?toc=/dynamics365/commerce/toc.json
                     - name: Uppfæra viðbót Retail í nýjasta Retail SDK
-                      href: ../retail/dev-itpro/retailSDK-update.md
+                      href: ../retail/dev-itpro/retailSDK-update.md?toc=/dynamics365/commerce/toc.json
                 - name: Leiðbeiningar fyrir innleiðingu
                   items:
                     - name: Leiðbeiningar við innleiðingu tækjastjórnunar
-                      href: ../retail/implementation-considerations-devices.md
+                      href: ../retail/implementation-considerations-devices.md?toc=/dynamics365/commerce/toc.json
                 - name: Umhverfisskilgreining
                   items:
                     - name: Tenglum bætt við í lagalega skilmála og persónuverndaryfirlýsingu fyrirtækisins
                       href: ../fin-ops-core/dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/dynamics365/commerce/toc.json
                     - name: Stjórna Bing-kortum
-                      href: ../retail/dev-itpro/manage-bing-maps.md
+                      href: ../retail/dev-itpro/manage-bing-maps.md?toc=/dynamics365/commerce/toc.json
                 - name: Staðfæra tilföng Retail-viðbótar og merkjaskrár
-                  href: ../retail/dev-itpro/extension-resource-localization.md
+                  href: ../retail/dev-itpro/extension-resource-localization.md?toc=/dynamics365/commerce/toc.json
                 - name: Stækkunarhæfni sölustaðar
                   items:
                     - name: Skjáútlit Retail POS
-                      href: ../retail/pos-screen-layouts.md
+                      href: ../retail/pos-screen-layouts.md?toc=/dynamics365/commerce/toc.json
                     - name: Opna vefslóð í POS
-                      href: ../retail/Open-URL-in-POS.md
+                      href: ../retail/Open-URL-in-POS.md?toc=/dynamics365/commerce/toc.json
                     - name: Setja upp útlitshönnuð sölustaðar
-                      href: ../retail/install-pos-layout-designer.md
+                      href: ../retail/install-pos-layout-designer.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail Modern POS án tengingar
-                      href: ../retail/dev-itpro/retail-modern-pos-offline.md
+                      href: ../retail/dev-itpro/retail-modern-pos-offline.md?toc=/dynamics365/commerce/toc.json
                     - name: Víkka út POS Dual-skjá
-                      href: ../retail/dev-itpro/pos-dual-display-extension.md
+                      href: ../retail/dev-itpro/pos-dual-display-extension.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail Modern POS og stækkunarhæfni kveikja í Cloud POS
-                      href: ../retail/dev-itpro/modern-pos-trigger-extensibility.md
+                      href: ../retail/dev-itpro/modern-pos-trigger-extensibility.md?toc=/dynamics365/commerce/toc.json
                     - name: Bæta sérstilltum stjórntækjum við gagnabirtingu sölustaðar
-                      href: ../retail/dev-itpro/pos-custom-control.md
+                      href: ../retail/dev-itpro/pos-custom-control.md?toc=/dynamics365/commerce/toc.json
                     - name: Bæta aðgerðum sölustaðar við útlit sölustaðar með hnappahnitshönnuði
                       href: ../retail/dev-itpro/add-POS-operations.md
                     - name: API fyrir Retail POS
-                      href: ../retail/dev-itpro/POS-APIs.md
+                      href: ../retail/dev-itpro/POS-APIs.md?toc=/dynamics365/commerce/toc.json
                     - name: Greiðsluviðbót sölustaðar
-                      href: ../retail/dev-itpro/pos-payment-extension.md
+                      href: ../retail/dev-itpro/pos-payment-extension.md?toc=/dynamics365/commerce/toc.json
                     - name: Stuðningur við utanaðkomandi gjafakort
-                      href: ../retail/dev-itpro/gift-card.md
+                      href: ../retail/dev-itpro/gift-card.md?toc=/dynamics365/commerce/toc.json
                     - name: Búa til og nota vörumerkjaþróun í Retail Experience-forritinu
-                      href: ../retail/dev-itpro/create-retail-experience-app.md
+                      href: ../retail/dev-itpro/create-retail-experience-app.md?toc=/dynamics365/commerce/toc.json
                     - name: Setja upp POS Hybrid-forrit í Android og iOS
-                      href: ../retail/dev-itpro/hybridApp.md
+                      href: ../retail/dev-itpro/hybridApp.md?toc=/dynamics365/commerce/toc.json
                     - name: Hnekkja beiðnistjóra sölustaðar
-                      href: ../retail/dev-itpro/pos-handler.md
+                      href: ../retail/dev-itpro/pos-handler.md?toc=/dynamics365/commerce/toc.json
                     - name: Skoða upplýsingar um viðbótarpakka fyrir sölustaði
-                      href: ../retail/dev-itpro/view-pos-extension-package-details.md
+                      href: ../retail/dev-itpro/view-pos-extension-package-details.md?toc=/dynamics365/commerce/toc.json
                     - name: Prófa skráningarforrit og verkfærið Regression Suite Automation Tool fyrir Retail Cloud POS
-                      href: ../retail/dev-itpro/pos-rsat.md
+                      href: ../retail/dev-itpro/pos-rsat.md?toc=/dynamics365/commerce/toc.json
                 - name: Hardware Station og stækkunarhæfni
-                  href: ../retail/dev-itpro/hardware-station-extensibility.md
+                  href: ../retail/dev-itpro/hardware-station-extensibility.md?toc=/dynamics365/commerce/toc.json
                 - name: Samþætta POS við nýjan vélbúnað
-                  href: ../retail/dev-itpro/hardware-device-extension.md
+                  href: ../retail/dev-itpro/hardware-device-extension.md?toc=/dynamics365/commerce/toc.json
                 - name: Stækkunarhæfni Retail Server
                   items:
                     - name: Stækka Retail Server OData-stýringu
-                      href: ../retail/dev-itpro/extend-retail-server-odata-controller.md
+                      href: ../retail/dev-itpro/extend-retail-server-odata-controller.md?toc=/dynamics365/commerce/toc.json
                     - name: Stofna API-vefstýringu fyrir Retail Server
-                      href: ../retail/dev-itpro/odata-controllers-api.md
+                      href: ../retail/dev-itpro/odata-controllers-api.md?toc=/dynamics365/commerce/toc.json
                     - name: API viðskiptavinar og neytanda á Retail Server
-                      href: ../retail/dev-itpro/retail-server-customer-consumer-api.md
+                      href: ../retail/dev-itpro/retail-server-customer-consumer-api.md?toc=/dynamics365/commerce/toc.json
                     - name: Stækka sjálfgefna lýsigagnastýringu Retail Server
-                      href: ../retail/dev-itpro/extend-metadata.md
+                      href: ../retail/dev-itpro/extend-metadata.md?toc=/dynamics365/commerce/toc.json
                     - name: Hringja í CRT-þjónustuna án nets
-                      href: ../retail/dev-itpro/call-crt-service-offline.md
+                      href: ../retail/dev-itpro/call-crt-service-offline.md?toc=/dynamics365/commerce/toc.json
                     - name: Búa til nýja viðbót Retail Server
-                      href: ../retail/dev-itpro/retail-server-extension.md
+                      href: ../retail/dev-itpro/retail-server-extension.md?toc=/dynamics365/commerce/toc.json
                 - name: Commerce Runtime (CRT) stækkunarhæfni
                   items:
                     - name: Skipulag og skilgreining CRT
-                      href: ../retail/dev-itpro/commerce-runtime-overview.md
+                      href: ../retail/dev-itpro/commerce-runtime-overview.md?toc=/dynamics365/commerce/toc.json
                     - name: CRT-þjónusta
-                      href: ../retail/dev-itpro/crt-services.md
+                      href: ../retail/dev-itpro/crt-services.md?toc=/dynamics365/commerce/toc.json
                     - name: Stækkunarhæfni CRT og Retail Server
-                      href: ../retail/dev-itpro/commerce-runtime-extensibility.md
+                      href: ../retail/dev-itpro/commerce-runtime-extensibility.md?toc=/dynamics365/commerce/toc.json
                     - name: Bæta kjörstillingargögnum viðskiptavinar við gagnagrunn rásar
-                      href: ../retail/dev-itpro/add-customer-preference-channel.md
+                      href: ../retail/dev-itpro/add-customer-preference-channel.md?toc=/dynamics365/commerce/toc.json
                     - name: Stjórna leynilyklum fyrir smásölurásir
-                      href: ../retail/dev-itpro/manage-secrets.md
+                      href: ../retail/dev-itpro/manage-secrets.md?toc=/dynamics365/commerce/toc.json
                     - name: Bæta eiginleikum við sölupantanir
-                      href: ../retail/dev-itpro/add-properties-sales-order.md
+                      href: ../retail/dev-itpro/add-properties-sales-order.md?toc=/dynamics365/commerce/toc.json
                     - name: Stækkunarhæfni og kveikjur CRT
-                      href: ../retail/dev-itpro/commerce-runtime-extensibility-trigger.md
+                      href: ../retail/dev-itpro/commerce-runtime-extensibility-trigger.md?toc=/dynamics365/commerce/toc.json
                     - name: Útiloka færslur með kveikjum
-                      href: ../retail/dev-itpro/trigger-example-blocking-transaction.md
+                      href: ../retail/dev-itpro/trigger-example-blocking-transaction.md?toc=/dynamics365/commerce/toc.json
                     - name: Innleiða reglur um vöruskil með kveikjum
-                      href: ../retail/dev-itpro/trigger-example-return-policy.md
+                      href: ../retail/dev-itpro/trigger-example-return-policy.md?toc=/dynamics365/commerce/toc.json
                 - name: Stækkunarhæfni rafrænna viðskipta
                   items:
                     - name: Skilgreina netverslanir
-                      href: ../retail/dev-itpro/configure-online-store.md
+                      href: ../retail/dev-itpro/configure-online-store.md?toc=/dynamics365/commerce/toc.json
                     - name: Skilgreina sannvottunarveitur
-                      href: ../retail/dev-itpro/configure-authentication-providers.md
+                      href: ../retail/dev-itpro/configure-authentication-providers.md?toc=/dynamics365/commerce/toc.json
                     - name: Verkvangur rafrænna viðskipta
-                      href: ../retail/dev-itpro/ecommerce-platform.md
+                      href: ../retail/dev-itpro/ecommerce-platform.md?toc=/dynamics365/commerce/toc.json
                     - name: SDK-verkvangur rafrænna viðskipta
-                      href: ../retail/dev-itpro/ecommerce-platform-sdk.md
+                      href: ../retail/dev-itpro/ecommerce-platform-sdk.md?toc=/dynamics365/commerce/toc.json
                 - name: Stækkunarhæfni greiðslutengils
                   items:
                     - name: Stofna greiðslusamþættingu fyrir greiðslustöð
-                      href: ../retail/dev-itpro/end-to-end-payment-extension.md
+                      href: ../retail/dev-itpro/end-to-end-payment-extension.md?toc=/dynamics365/commerce/toc.json
                     - name: Uppsetning greiðslutengils og greiðslutækis (hvítur pappír)
                       href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
                     - name: Uppsetning greiðslutengla
-                      href: ../retail/dev-itpro/deploy-payment-connector.md
+                      href: ../retail/dev-itpro/deploy-payment-connector.md?toc=/dynamics365/commerce/toc.json
                     - name: Stofna sérsniðin og staðbundin villuboð fyrir greiðslustöðvarviðbætur
-                      href: ../retail/dev-itpro/payment-custom-error-messages.md
+                      href: ../retail/dev-itpro/payment-custom-error-messages.md?toc=/dynamics365/commerce/toc.json
                     - name: Stofna Windows-uppsetningarforrit fyrir greiðslutengla
-                      href: ../retail/dev-itpro/create-windows-installer-payment-connector.md
+                      href: ../retail/dev-itpro/create-windows-installer-payment-connector.md?toc=/dynamics365/commerce/toc.json
                     - name: Notkun greiðslugagna
-                      href: ../retail/payment-connector-data-fields.md
+                      href: ../retail/payment-connector-data-fields.md?toc=/dynamics365/commerce/toc.json
                     - name: Kveikja á vörn gegn tvítekinni greiðslu fyrir greiðslutengil
-                      href: ../retail/dev-itpro/duplicate-payment-protection.md
+                      href: ../retail/dev-itpro/duplicate-payment-protection.md?toc=/dynamics365/commerce/toc.json
                 - name: Retail SDK
                   items:
                     - name: Skipulag Retail SDK
-                      href: ../retail/dev-itpro/retail-sdk/retail-sdk-overview.md
+                      href: ../retail/dev-itpro/retail-sdk/retail-sdk-overview.md?toc=/dynamics365/commerce/toc.json
                     - name: Væntanlegar breytingar í Retail SDK
-                      href: ../retail/dev-itpro/UpcomingSDKChanges.md
+                      href: ../retail/dev-itpro/UpcomingSDKChanges.md?toc=/dynamics365/commerce/toc.json
                     - name: Sameina byggingarkerfin fyrir Retail og Finance and Operations
-                      href: ../retail/dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
+                      href: ../retail/dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md?toc=/dynamics365/commerce/toc.json
                     - name: Dæmi um stækkunarhæfni Retail SDK
-                      href: ../retail/dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
+                      href: ../retail/dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md?toc=/dynamics365/commerce/toc.json
                     - name: Búa til virkjanlegan smásölupakka
-                      href: ../retail/dev-itpro/retail-sdk/retail-sdk-packaging.md
+                      href: ../retail/dev-itpro/retail-sdk/retail-sdk-packaging.md?toc=/dynamics365/commerce/toc.json
                     - name: Dæmi um Retail SDK
-                      href: ../retail/dev-itpro/retail-sdk/retail-sdk-samples.md
+                      href: ../retail/dev-itpro/retail-sdk/retail-sdk-samples.md?toc=/dynamics365/commerce/toc.json
                     - name: Viðbótarpunktar fyrir fylgiseðla
-                      href: ../retail/dev-itpro/extensions-shipping-carrier-integration.md
+                      href: ../retail/dev-itpro/extensions-shipping-carrier-integration.md?toc=/dynamics365/commerce/toc.json
                     - name: Viðbætur fyrir gagnagrunna rása
-                      href: ../retail/dev-itpro/channel-db-extensions.md
+                      href: ../retail/dev-itpro/channel-db-extensions.md?toc=/dynamics365/commerce/toc.json
                     - name: Virkja sérstillta CDX-samstillingu gegnum viðbót
-                      href: ../retail/dev-itpro/cdx-extensibility.md
+                      href: ../retail/dev-itpro/cdx-extensibility.md?toc=/dynamics365/commerce/toc.json
                     - name: Bæta sérstilltum reitum við samtölusvæði sölustaðar
-                      href: ../retail/dev-itpro/custom-field-pos-totals.md
+                      href: ../retail/dev-itpro/custom-field-pos-totals.md?toc=/dynamics365/commerce/toc.json
                     - name: Skilgreina og stilla pöntunareigindir
-                      href: ../retail/dev-itpro/order-attributes.md
+                      href: ../retail/dev-itpro/order-attributes.md?toc=/dynamics365/commerce/toc.json
                     - name: Eigindir viðskiptavinar
-                      href: ../retail/dev-itpro/customer-attributes.md
+                      href: ../retail/dev-itpro/customer-attributes.md?toc=/dynamics365/commerce/toc.json
                     - name: 'Retail Typescript og C#-staðgengill'
-                      href: ../retail/dev-itpro/typescript-proxy-retail-pos.md
+                      href: ../retail/dev-itpro/typescript-proxy-retail-pos.md?toc=/dynamics365/commerce/toc.json
                     - name: Keyra Retail POS-dæmi
-                      href: ../retail/dev-itpro/pos-run-samples.md
+                      href: ../retail/dev-itpro/pos-run-samples.md?toc=/dynamics365/commerce/toc.json
                     - name: Stækka gagnabirtingu á sölustað til að bæta við sérstilltum dálkum og hnöppum á forritastiku
-                      href: ../retail/dev-itpro/pos-view-extension.md
+                      href: ../retail/dev-itpro/pos-view-extension.md?toc=/dynamics365/commerce/toc.json
                     - name: Bæta sérstilltum stjórntækjum við Retail Modern POS færslusíður
-                      href: ../retail/dev-itpro/pos-custom-transaction.md
+                      href: ../retail/dev-itpro/pos-custom-transaction.md?toc=/dynamics365/commerce/toc.json
                     - name: Bæta sérstilltum dálkum við hnitanet POS-færslu
-                      href: ../retail/dev-itpro/pos-custom-transaction-column.md
+                      href: ../retail/dev-itpro/pos-custom-transaction-column.md?toc=/dynamics365/commerce/toc.json
                     - name: Hringja í API sölustaðar eða aðgerðir úr smásöluviðbótum
-                      href: ../retail/dev-itpro/pos-api-extension.md
+                      href: ../retail/dev-itpro/pos-api-extension.md?toc=/dynamics365/commerce/toc.json
                     - name: Retail Modern POS kveikjur og prentun
-                      href: ../retail/dev-itpro/pos-trigger-printing.md
+                      href: ../retail/dev-itpro/pos-trigger-printing.md?toc=/dynamics365/commerce/toc.json
                     - name: Bæta sérstilltum stjórntækjum við þá gerð gagnabirtingar sölustaðar sem ekki er hönnuð sérstaklega fyrir skjá
-                      href: ../retail/dev-itpro/pos-control-non-screen.md
+                      href: ../retail/dev-itpro/pos-control-non-screen.md?toc=/dynamics365/commerce/toc.json
                     - name: Þróun í þróunarumhverfi sem hýst er í skýi án stjórnandaaðgangs
-                      href: ../retail/dev-itpro/cloud-dev-box.md
+                      href: ../retail/dev-itpro/cloud-dev-box.md?toc=/dynamics365/commerce/toc.json
                     - name: Sýna sérstilltar tilkynningar á sölustað
-                      href: ../retail/dev-itpro/extend-pos-notification.md
+                      href: ../retail/dev-itpro/extend-pos-notification.md?toc=/dynamics365/commerce/toc.json
                     - name: Undirrita MPOS með kóðaundirrituðu vottorði
-                      href: ../retail/dev-itpro/pos-app-signing-certificate.md
+                      href: ../retail/dev-itpro/pos-app-signing-certificate.md?toc=/dynamics365/commerce/toc.json
                 - name: Commerce Runtime
                   items:
                     - name: Vildarviðbót
-                      href: ../retail/dev-itpro/retail-sdk/loyalty-extension-sample.md
+                      href: ../retail/dev-itpro/retail-sdk/loyalty-extension-sample.md?toc=/dynamics365/commerce/toc.json
     - name: Þróun og stjórnun forrita fyrir Finance and Operations
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Retail
       href: ../retail/index.md
+    - name: Dynamics 365 Finance
+      href: ../finance/index.md
+    - name: Dynamics 365 Supply Chain Management
+      href: ../supply-chain/index.md
