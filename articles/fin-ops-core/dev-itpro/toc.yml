@@ -1,12 +1,14 @@
-- name: Þróun og stjórnun fyrir Finance and Operations
+- name: Þróun og stjórnun fyrir Finance and Operations forrit
   items:
-    - name: Þróun og stjórnun fyrir Finance and Operations
+    - name: Þróun og stjórnun fyrir Finance and Operations forrit
       items:
-        - name: Þróun og stjórnun fyrir Finance and Operations
+        - name: Þróun og stjórnun fyrir Finance and Operations forrit
           href: index.md
         - name: Nýjungar eða breytingar
           items:
-            - name: Eiginleikar í forútgáfu í Platform update 30 (nóvember 2019)
+            - name: Forskoðunareiginleikar í Platform update 31 (janúar 2020)
+              href: get-started/whats-new-platform-update-31.md
+            - name: Platform update 30 (nóvember 2019)
               href: ../fin-ops/get-started/whats-new-platform-update-30.md
             - name: Platform update 29 (október 2019)
               href: ../fin-ops/get-started/whats-new-platform-update-29.md
@@ -62,6 +64,8 @@
                   href: business-events/how-to/FormsPro.md
                 - name: Viðskiptatilvik og miðstöðvar Azure-tilviks
                   href: business-events/how-to/event-hub.md
+                - name: Viðskiptatilvik við lokun fjárhagstímabils
+                  href: business-events/how-to/period-close.md
         - name: Samfelld afhending
           items:
             - name: Samfelld afhending – heimasíða
@@ -80,7 +84,7 @@
               href: data-entities/integration-overview.md
             - name: API samþættingar gagna
               items:
-                - name: Gagnastjórnunarpakki REST API
+                - name: REST API-gagnastjórnunarpakki
                   href: data-entities/data-management-api.md
                 - name: Endastöðvar þjónustu
                   items:
@@ -302,6 +306,26 @@
                   href: database/dbmovement-scenario-goldenconfig.md
                 - name: Eyðileggingarprófun
                   href: database/dbmovement-scenario-destructivetests.md
+            - name: RESTful API
+              items:
+                - name: Yfirlit
+                  href: database/api/dbmovement-api-overview.md
+                - name: Útgáfustjórnun og stuðningur
+                  href: database/api/dbmovement-api-versioning-support.md
+                - name: Sannvottun
+                  href: database/api/dbmovement-api-authentication.md
+                - name: Takmörkun
+                  href: database/api/dbmovement-api-throttling.md
+                - name: Tilvísun
+                  items:
+                    - name: API v1 tilvísun
+                      href: database/api/v1/dbmovement-api-v1-overview.md
+                    - name: Öryggisafrit af listanum yfir gagnagrunna
+                      href: database/api/v1/reference-list-backups.md
+                    - name: Stofna uppfærslu gagnagrunns
+                      href: database/api/v1/reference-create-refresh.md
+                    - name: Sækja stöðu verkþáttarvirkni
+                      href: database/api/v1/reference-get-status.md
         - name: Sýnigögn
           items:
             - name: Yfirlit yfir sýnigögn
@@ -1213,7 +1237,7 @@
             - name: Fá stuðning fyrir Finance and Operations og Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: Yfirlit yfir þjónustu við Dynamics 365
-              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/dev-itpro/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: Fá stuðning fyrir Finance and Operations sem er rekið af 21Vianet í Kína
               href: lifecycle-services/21vianet-support.md
             - name: Senda inn beiðnir til starfsfólks Dynamics Service Engineering
