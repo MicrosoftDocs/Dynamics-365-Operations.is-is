@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb758f9ef205c06cbb9d18b498a5cd7c36012714
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 74ccda77a97d1e104940bb10a605d3ebbf45af75
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783358"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571255"
 ---
 # <a name="functional-location-types"></a>Gerðir virkra staðsetninga
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Þetta efni lýsir hvernig á að stofna gerðir virkra staðsetninga í eignastjórnun. Gerðir virkra staðsetninga eru notaðar til að stjórna kröfum um virkar staðsetningar, þar með talið hvernig eignir eru settar upp á virkri staðsetningu. Þú getur sett upp eignategundir, viðhaldsáætlanir, eigindi virkrar staðsetninga og eignaeigindakröfur til að nota á virkri staðsetningu sem notar sérstaka gerð virkrar staðsetningar. Þegar þú býrð til virka staðsetningu er gerð virkrar staðsetningar lögboðin.
 

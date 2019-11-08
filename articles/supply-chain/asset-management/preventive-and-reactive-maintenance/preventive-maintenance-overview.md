@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 02ea3affca727802b241f87b801e0742ac0aa41a
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: 2d079c10331360c035ff800650ed3102c2cc3ad4
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922092"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569985"
 ---
 # <a name="preventive-maintenance-overview"></a>Yfirlit yfir fyrirbyggjandi viðhald
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Þetta efni skýrir forvirkt viðhald í eignastýringu. Fyrirbyggjandi viðhald er grein sem felur í sér áætluð viðhaldsverk, til dæmis reglulega þjónustu, kvörðun og skoðanir. Í **Eignastjórnun** geturðu stofnað viðhaldsáætlanir og sett þær upp á eignum og virkum staðsetningum. Einnig er hægt að setja upp viðhaldslotur á virkum staðsetningum. Viðhaldsáætlanir eigna eru virkar óháð því hvar eignin er sett upp. Viðhaldsáætlanir og viðhaldslotur á virkri staðsetningu eru virkar fyrir þær eignir sem eru nú þegar settar upp á staðnum. Í staðinn fyrir að setja upp viðhaldsáætlanir fyrir eignir, eða setja upp viðhaldslotur á virkum stöðum, getur þú búið til viðhaldslotur sem innihalda margar eignir sem þú þarft til að framkvæma tengdar gerðir viðhaldsverka í sama vinnuferli. Viðhaldslotur stofnaðar úr eignum - í stað þess að vera stofnaðar á virkum stöðum - þýðir að þú getur valið fjölda eigna fyrir eina viðhaldslotu sem eru ekki settar upp á sömu virku staðsetningu.
 

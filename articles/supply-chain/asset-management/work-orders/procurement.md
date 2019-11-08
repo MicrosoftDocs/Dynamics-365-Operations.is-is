@@ -3,7 +3,7 @@ title: Innkaup
 description: Þetta efni skýrir innkaup í eignastýringu.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,85 +16,87 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1678dbe2432e4be46aebb40a12e73dfd695c3e77
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: ec14f645af5dfdb3e840624e4cec95c46cfbbc25
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875712"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626432"
 ---
 # <a name="procurement"></a>Innkaup
 
-
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+Í eignastjórnun geturðu fengið yfirlit yfir innkaupabeiðnir og innkaupapantanir sem tengjast verkbeiðnum. Einnig er hægt að stofna innkaupapöntun eða innkaupabeiðni úr verkbeiðni.
 
-Í eignastjórnun geturðu fengið yfirlit yfir innkaupabeiðnir og innkaupapantanir sem tengjast verkbeiðnum. Það er líka mögulegt að búa til innkaupapöntun eða innkaupabeiðni úr verkbeiðni.
+Listasíðan **Innkaupabeiðni verkbeiðni** (**Eignastjórnun** > **Sameiginlegt** > **Innkaup** > **Innkaupabeiðni verkbeiðni**) sýnir lista yfir innkaupabeiðnir sem tengjast verkbeiðnum. Þegar þú velur vinnslu verkbeiðni á þessari síðu geturðu notað hnappana í hópnum **Sýna** á aðgerðarúðuflipanum **Innkaupabeiðni verkbeiðni** til að framkvæma ýmsar aðgerðir:
 
-Í listanum **Innkaupabeiðni um verkbeiðni** (**Eignastjórnun** > **Sameiginlegt** > **Innkaup** > **Innkaupabeiðni um verkbeiðni**), sérðu lista yfir innkaupabeiðnir sem tengjast verkbeiðnum.
+- Til að opna tengda innkaupabeiðni skaltu velja **Innkaupabeiðni**. 
+- Til að opna tengda verkbeiðni skaltu velja **Verkbeiðni**.
+- Til að fá yfirlit sem sýnir hvar hluturinn á völdum línum er notaður í tengslum við eignir, vanskil tegunda viðhaldsverka, varahluti og verkbeiðnir í eignastýringu velurðu **Notkunarstaður vöru**. Fyrir frekari upplýsingar um þetta yfirlit, sjá [Notkunarstaður vöru](../controlling-and-reporting/item-where-used.md).
 
-- Veldu verkbeiðniverk í listanum **Innkaupabeiðni um verkbeiðni** og smelltu á **Kaupbeiðni** til að opna tengda innkaupabeiðni.  
-- Veldu verkbeiðniverk í listanum **Innkaupabeiðni um verkbeiðni** og smelltu á **Verkbeiðni** til að opna tengda verkbeiðni.  
-- Veldu verkbeiðniverk í listanum **Innkaupabeiðni um verkbeiðni** og smelltu á hnappinn **Notkunarstaður vöru** ef þú vilt fá yfirlit yfir hvar vara í valinni línu er notuð í eignastjórnun í tengslum við eignir, tegundasjálfgildi viðhaldsverka, varahluti og verkbeiðnir. 
+Skýringarmyndin hér að neðan sýnir dæmi um listasíðuna **Innkaupabeiðni verkbeiðni**.
 
 ![Mynd 1](media/08-work-orders.png)
 
 
-Í listanum **Innkaupabeiðni um verkbeiðni** (**Eignastjórnun Enterprise** > **Sameiginlegt** > **Innkaup** > **Innkaupabeiðni um verkbeiðni**), er hægt að sjá lista yfir innkaupabeiðnir sem tengjast verkbeiðnum.
+Listasíðan **Innkaup verkbeiðni** (**Eignastjórnun** > **Sameiginlegt** > **Innkaup** > **Innkaup verkbeiðni**) sýnir lista yfir innkaupapantanir sem tengjast verkbeiðnum. Þegar þú velur vinnslu verkbeiðni á þessari síðu geturðu notað hnappana í hópnum **Sýna** á aðgerðarúðuflipanum **Innkaup verkbeiðni** til að framkvæma ýmsar aðgerðir:
 
-- Veldu verkbeiðniverk í listanum **Innkaupabeiðni um verkbeiðni** og smelltu á **Innkaupabeiðni** til að opna tengda innkaupabeiðni.  
-- Veldu verkbeiðniverk í listanum **Innkaupabeiðni um verkbeiðni** og smelltu á **Verkbeiðni** til að opna tengda verkbeiðni.  
-- Veldu verkbeiðniverk í innkaupalistanum **Verkbeiðni** og smelltu á hnappinn **Notkunarstaður vöru** ef þú vilt fá yfirlit yfir hvar vara í valinni línu er notuð í eignastjórnun í tengslum við eignir, tegundasjálfgildi viðhaldsverka, varahluti og verkbeiðnir. 
+- Til að opna tengda innkaupabeiðni skaltu velja **Innkaupabeiðni**. 
+- Til að opna tengda verkbeiðni skaltu velja **Verkbeiðni**.
+- Til að fá yfirlit sem sýnir hvar hluturinn á völdum línum er notaður í tengslum við eignir, vanskil tegunda viðhaldsverka, varahluti og verkbeiðnir í eignastýringu velurðu **Notkunarstaður vöru**. Fyrir frekari upplýsingar um þetta yfirlit, sjá [Notkunarstaður vöru](../controlling-and-reporting/item-where-used.md).
+
+Skýringarmyndin hér að neðan sýnir dæmi um listasíðuna **Innkaup verkbeiðni**.
 
 ![Mynd 2](media/09-work-orders.png)
 
 
-Á listunum hér að ofan er tákn varðandi stjórnun á afhendingardegi komið til hægri á hverri línu. Ef táknið sýnir upphrópunarmerki í rauðum hring þýðir það að afhending á tengdri innkaupabeiðni eða innkaupapöntun getur tafist.
+Á bæði listasíðunni **Innkaup verkbeiðni** og listasíðunni **Innkaupabeiðni verkbeiðni** birtist tákn sem tengist stjórnun á afhendingardegi hægra megin við hverja línu. Ef táknið sýnir upphrópunarmerki í rauðum hring þýðir það að afhending á tengdri innkaupapöntun eða innkaupabeiðni kann að tefjast.
 
-Í innkaupabeiðni er dagsetningin sem notuð er til að reikna mögulega seinkun að finna í skjámyndinni **Innkaupabeiðnir** > flýtiflipanum **Haus innkaupabeiðni** > reitnum **Umbeðin dagsetning**. Sú dagsetning er borin saman við fyrirliggjandi dagsetningu í verkbeiðni eða verkbeiðniverkum á sama hátt og dagsetningu innkaupapöntunar.
+Fyrir innkaupapöntun er dagsetningin sem tengist innkaupapöntunarlínunni notuð til að reikna út mögulega seinkun. Til að skoða þessa dagsetningu, á síðunni **Innkaupapöntun** velurðu innkaupapöntunarlínuna. Dagsetningin er sýnd í reitnum **Staðfestur afhendingardagur** á flipanum **Uppsetning** á flýtiflipanum **Línulýsing**. Ef reiturinn **Staðfestur afhendingardagur** er ekki stilltur er dagsetningin í reitnum **Afhendingardagur** á flýtiflipanum **Innkaupapöntunarhaus** er notuð við útreikninginn. Ein af þessum dagsetningum er borin saman við tiltæka dagsetningu í verkbeiðni eða verkbeiðnivinnslu í eftirfarandi röð:
 
-Á innkaupapöntun er dagsetningin sem notuð er til að reikna út mögulega seinkun dagsetningin sem tengist innkaupapöntunarlínunni, sem sýnd er í skjámyndinni **Innkaupapöntun** > veldu innkaupapöntunarlínu > flýtiflipann **Línuupplýsingar** > flipann **Uppsetning** > reitinn **Staðfestur afhendingardagur**. Ef þessi reitur er ekki fylltur út er dagsetningin í reitnum **Afhendingardagur** á flýtiflipanum **Haus innkaupapöntunar** notuð. Ein af þessum dagsetningum er borin saman við fyrirliggjandi dagsetningu í verkbeiðni eða verkbeiðniverkum í eftirfarandi röð:
+1. Raunverulegur upphafsdagur verkbeiðni  
 
-- Raunverulegur upphafsdagur verkbeiðni, eða  
+2. Áætlaður upphafsdagur á tengdu verkbeiðniverki 
 
-- Áætlaður upphafsdagur á tengdu verkbeiðniverki, eða  
+3. Áætlaður upphafsdagur verkbeiðni 
 
-- Áætlaður upphafsdagur verkbeiðni, eða  
+4. Væntur upphafsdagur verkbeiðni, eða 
 
-- Væntur upphafsdagur verkbeiðni, eða  
+Fyrir innkaupabeiðni er dagsetningin í reitnum **Umbeðin dagsetning** á flýtiflipanum **Haus innkaupabeiðni** á síðunni **Innkaupabeiðnir** notuð til að reikna út hugsanlega seinkun. Dagsetningin í þeim reit er borin saman við tiltæka dagsetningu í verkbeiðni eða verkbeiðnivinnslu í sömu röð og er notuð fyrir innkaupapöntun.
 
 
-## <a name="create-purchase-order-from-a-work-order"></a>Stofna innkaupapöntun úr verkbeiðni
+## <a name="create-a-purchase-order-from-a-work-order"></a>Stofna innkaupapöntun úr verkbeiðni
 
-Í **Öllum verkbeiðnum** velurðu verkbeiðniverk og stofnar tengda innkaupapöntun eða innkaupabeiðni. Þetta er gert til að tryggja samskipti verkefna milli innkaupapöntunar eða innkaupabeiðni og verkbeiðni.
+Á listasíðunni **Allar verkbeiðnir** er hægt að velja verkbeiðnivinnslu og stofna síðan tengda innkaupapöntun eða tengda innkaupabeiðni. Þannig tryggirðu að samskipti verka eru til staðar á milli innkaupapöntunar eða innkaupabeiðni og verkbeiðni.
 
-1. Smelltu á **Eignastýringu** > **Sameiginlegt** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir**.
+1. Veldu **Eignastýringu** > **Sameiginlegt** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir**.
 
-2. Í listanum **Allar verkbeiðnir** eða **Virkar verkbeiðnir** skaltu velja verkbeiðnina sem þú vilt búa til innkaupapöntun fyrir og smella á **Breyta**.
+2. Veldu verkbeiðnina sem þú vilt búa til innkaupapöntun fyrir og veldu síðan **Breyta**.
 
-3. Í skjámyndinni **Verkbeiðni** > flýtiflipanum **Viðhaldsverk verkbeiðni** skaltu velja verkbeiðniverkið sem þú vilt búa til innkaupapöntunina fyrir.
+3. Á flýtiflipanum **Viðhaldsverk verkbeiðni** velurðu vinnslu verkbeiðni til að stofna innkaupapöntun fyrir.
 
-4. Smelltu á **Vöruliðir** > **Innkaupapöntun úr verkbeiðniverki**.
+4. Veldu **Vöruliðir** > **Innkaupapöntun úr verkbeiðniverki**.
 
-5. Í listasíðuna **Innkaupapantanir verks** smellirðu á **Nýtt**.
+5. Á listasíðunni **Innkaupapantanir verks** smellirðu á **Nýtt**.
 
 6. Stofnaðu innkaupapöntunina.
 
 >[!NOTE]
->Að búa til innkaupabeiðni er nánast eins og að búa til innkaupapöntun. Eini munurinn er að í ofangreindri aðferð smellirðu á **Vöruliði** > **Innkaupabeiðni úr verkbeiðniverkinu** í 2. þrepi.
+>Fylgdu sömu skrefum til að búa til tengda innkaupabeiðni. Veldu hins vegar **Vöruliðir** > **Innkaupabeiðni úr vinnslu verkbeiðni** í 4. þrepi.
+
 
 ## <a name="project-relation-between-work-order-and-purchase-order-or-purchase-requisition"></a>Verkefnatengsl milli verkbeiðni og innkaupapöntunar eða innkaupabeiðni
 
-Innkaupapöntunarlína eða innkaupabeiðnilína er tengd verkbeiðniverkum í gegnum verkbeiðniverkið og tengda verkþáttanúmerið. Þegar þú býrð til innkaupapöntun eða innkaupabeiðni úr verkbeiðniverki er tengt verkþáttanúmer skylda. Verkþáttanúmerið er sjálfkrafa sett inn í innkaupapöntun eða innkaupabeiðni ef tengd verkbeiðni inniheldur verkbeiðniverk sem öll nota sömu gerð viðhaldsverka. Ef verkbeiðniverkin innihalda mismunandi gerðir viðhaldsverka verður að setja verkþáttanúmer inn á handvirkan hátt.
+Innkaupapöntunarlína eða innkaupabeiðnilína er tengd verkbeiðniverkum í gegnum verkbeiðniverkið og tengda verkþáttanúmerið. Þegar þú býrð til innkaupapöntun eða innkaupabeiðni úr verkbeiðniverki er tengt verkþáttanúmer skylda. Ef allar verkbeiðnivinnslur í tengdri verkbeiðni er með sömu gerð viðhaldsverks er verkþáttanúmerið sjálfkrafa sett inn í innkaupapöntun eða innkaupabeiðni. Ef allar verkbeiðnivinnslur eru með aðrar gerðir viðhaldsverka verður að setja verkþáttanúmerið handvirkt inn í innkaupapöntun eða innkaupabeiðni.
 
-Til að sjá eða setja inn verkþáttanúmer tengt innkaupapöntunarlínu opnarðu **Verkbeiðnikaup** > veldu innkaupapöntunarskrá > smelltu á innkaupapöntunina í dálknum **Innkaupapöntun** > flýtiflipanum **Línuupplýsingar** > flipanum **Verk** > reitnum **Verkþáttur**.
+Til að skoða eða slá inn verkþáttanúmerið sem er tengt innkaupapöntunarlínu, á listasíðunni **Innkaup verkbeiðni**, skaltu velja innkaupapöntunarskrána og síðan, í dálkinum **Innkaupapöntun**, velurðu hlekkinn fyrir innkaupapöntunina. Þú getur fundið reitinn **Verkþáttarnúmer** á flipanum **Verk** á flýtiflipanum **Línulýsing**.
 
+Myndin hér að neðan sýnir dæmi um síðuna **Innkaupapöntun** með áherslu á **Verkþáttarnúmer**.
 
 ![Mynd 3](media/10-work-orders.png)
 
-
-Sömuleiðis, til að sjá eða setja inn verkþáttanúmer tengt innkaupabeiðnilínu verkbeiðni opnarðu **Innkaupabeiðni verkbeiðni** > veldu innkaupabeiðniskrá > smelltu á innkaupabeiðnina í dálknum **Innkaupabeiðni** > flýtiflipanum **Línuupplýsingar** > flipanum **Verk** > reitnum **Verkþáttur**.
+Á sama hátt, til að skoða eða slá inn verkþáttanúmerið sem er tengt innkaupabeiðnilínu verkbeiðni, á listasíðunni **Innkaupabeiðni verkbeiðni**, skaltu velja innkaupabeiðniskrána og síðan, í dálkinum **Innkaupabeiðni**, velurðu hlekkinn fyrir innkaupabeiðnina. Þú getur fundið reitinn **Verkþáttarnúmer** á flipanum **Verk** á flýtiflipanum **Línulýsing**.
 

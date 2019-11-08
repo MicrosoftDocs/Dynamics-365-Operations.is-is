@@ -3,7 +3,7 @@ title: Skipuritsskilgreiningar í fjárhagsskýrslum
 description: Þessi skrá upplýsingar um skipuritsskilgreiningar. Skipuritsskilgreining er skýrsluhluti, eða eining, sem aðstoðar við að skilgreina byggingu og stigveldi fyrirtækisins þíns.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 10/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8127c694d21064392b1932525a87044b9554973d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6bb16ada206434c0588ed6c140a49b6a5d94d7ed
+ms.sourcegitcommit: a3fbcd63f10f204350a058a124ba80abeb34309e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181819"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564168"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Skipuritsskilgreiningar í fjárhagsskýrslum
 
@@ -50,7 +50,7 @@ skipuritsskilgreining inniheldur dálkana sem lýst er í eftirfarandi töflu.
 
 | Skipuritsdálkur | Lýsing |
 |-----------------------|-------------|
-| Fyrirtæki               | Heiti fyrirtækis fyrir einingu skipurits. Gildið **@ANY**, sem er yfirleitt eingöngu tengt samantektarstiginu, gerir kleift að nota skipuritið fyrir öll fyrirtækin. Allar undirgreinar eru tengdar við fyrirtæki. |
+| Fyrirt.               | Heiti fyrirtækis fyrir einingu skipurits. Gildið **\@ANY**, sem er yfirleitt eingöngu tengt samantektarstiginu, gerir kleift að nota skipuritið fyrir öll fyrirtækin. Allar undirgreinar eru tengdar við fyrirtæki. |
 | Einingarheiti             | Kóðinn sem auðkennir þessa einingu skipurits í myndræna skipuritinu. Gætið þess að koma á einkvæmt kóðunarkerfi sem er samkvæmt sjálfu sér, og sem er auðvelt að skilja fyrir notendur. |
 | Lýsing einingar      | Titill skipuritseiningar kemur fram í haus eða fæti skýrslunnar ef **UnitDesc** er fært inn sem kóði í flipanum **Hausar og fætur** í skýrsluskilgreiningunni. Titillinn kemur fram í línulýsingu skýrslunnar ef **UnitDesc** er fært inn í hólfið **Lýsing** í línuskilgreiningunni. |
 | Víddir            | Eining skipurits sem sækir upplýsingar beint úr fjárhagsgögnum. Skilgreinir tölfræðilega staðsetningu og lengdir fyrir reikninginn og tengda hluta. Allar línur skipuritseiningar verða að hafa vídd í þessum dálki. Þú getur einnig sett vídd í línu samantektareiningar, (t.d. fyrir útgjöld sem eru beint tengd við þá einingu). Ef vídd er sett inn í línu samantektareiningar ættu reikningar sem notaðir eru í yfireiningum ekki að vera notaðir í undireiningum. Annars gætu upphæðir verið tvíteknir. |

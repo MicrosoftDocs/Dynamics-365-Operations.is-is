@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 48c90a8b776cc16804de8e20ada7d8ca347fa5b9
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 78c062f9982ca7b18fa00d60928089d09a5d552d
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874740"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570956"
 ---
 # <a name="fault-management"></a>Villustjórnun
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Í eignastjórnun geturðu notað villuhönnuðinn til að setja upp bilunareinkenni, bilunarsvæði og bilunargerðir á eignategundum. Á þennan hátt geturðu stjórnað göllum sem eru greindar á eignum. Að auki er hægt að skrá bilunarástæður og ábendingar til að laga bilanir í verkbeiðni.
 
@@ -109,7 +109,7 @@ Fylgdu þessum skrefum til að búa til lista yfir bilunargerðir sem hægt er a
 
 7. Veldu **Vista** til að vista breytingarnar.
 
-![Mynd 1](media/21-setup-for-work-orders.png)
+![Síða bilunarhönnuðar](media/21-setup-for-work-orders.png)
 
 ## <a name="create-fault-causes"></a>Stofna orsakir bilunar
 

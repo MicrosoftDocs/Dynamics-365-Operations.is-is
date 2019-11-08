@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0ea2c71458f92d048706a6e263d0da1830bdcde
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 792ff4d7b72ce092fe1ad92e53172cf40f0ecf26
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565697"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569272"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO (síðast inn - fyrst út) með efnislegu virði og marki
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Síðast inn, fyrst út (LIFO) er birgðalíkan þar sem síðustu (nýjustu) innhreyfingar eru úthreyfðar fyrst. Úthreyfingar úr birgðum eru jafnaðar á móti síðustu innhreyfingu í birgðir, samkvæmt dagsetningu birgðafærslunnar. 
 
@@ -56,7 +54,9 @@ Eftirfarandi dæmi sýna áhrif þess að nota LIFO með þremur mismunandi skil
 -   5b. Fjárhagsleg úthreyfing birgða fyrir magnið 1 með kostnaðinn USD 20.00 á hverja (hlaupandi meðaltal fjárhagslega uppfærðra færslna).
 -   6. Birgðalokun er framkvæmd. Á grundvelli LIFO aðferðarinnar, verður síðasta fjárhagslega uppfærða úthreyfingin jöfnuð á móti síðustu fjárhagslega uppfærðu innhreyfingunni. Leiðrétting upp á 10,00 USD er gerð á úthreyfingarfærslunni.
 
-Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið uppfærðar fjárhagslega, 15,00 USD. Eftirfarandi sýnidæmi sýnir áhrif birgðalíkans LIFO á þessar tegundir færslna þegar **Taka efnislegt virði með** valkosturinn er ekki notaður. ![LIFO án Taka efnislegt virði með](./media/lifowithoutincludephysicalvalue.gif) 
+Nýtt meðaltal kostnaðarverðs endurspeglar meðaltal færslna sem hafa verið uppfærðar fjárhagslega, 15,00 USD. Eftirfarandi sýnidæmi sýnir áhrif birgðalíkans LIFO á þessar tegundir færslna þegar **Taka efnislegt virði með** valkosturinn er ekki notaður. 
+
+![LIFO án Taka efnislegt virði með](./media/lifowithoutincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
 
@@ -90,7 +90,9 @@ Eftirfarandi skýringarmynd sýnir þessar færslur:
 
 Færsla 6a verður leiðrétt að innhreyfingarfærslu 4b. Kerfið mun ekki jafna þessar færslur þar sem innhreyfingin uppfærist efnislega en ekki fjárhagslega. Í stað þess verður aðeins leiðrétting upp á 8,75 USD bókuð á efnislegu úthreyfingarfærsluna. Færsla 5b verður jöfnuð við efnislega innhreyfingafærslu 3a. Kerfið mun ekki jafna þessar færslur þar sem þær eru ekki báðar fjárhagslega uppfærðar. Í stað þess verður aðeins leiðrétting upp á 3,75 USD gerð á úthreyfingarfærslunni. Nýja meðalkostnaðarverðið sem er í gangi endurspeglar meðaltal fjárhagslegu og efnislegu uppfærðu færslnanna, 20,00 USD. 
 
-Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans LIFO á þessar tegundir færslna þegar **Taka efnislegt virði með** valkosturinn er notuð. ![LIFO með Taka efnislegt virði með](./media/lifowithincludephysicalvalue.gif) 
+Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans LIFO á þessar tegundir færslna þegar **Taka efnislegt virði með** valkosturinn er notuð. 
+
+![LIFO með Taka efnislegt virði með](./media/lifowithincludephysicalvalue.gif) 
 
 **Lykill að skýringarmynd**
 
@@ -132,7 +134,9 @@ Eftirfarandi skýringarmynd sýnir þessar færslur:
 
 Nýja meðalkostnaðarverðið sem er í gangi endurspeglar meðaltal fjárhagslegu og efnislegu uppfærðu færslnanna, 27,50 USD. 
 
-Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans LIFO á þessar tegundir færslna þegar merkingar á milli úthreyfinga og innhreyfinga eru notaðar. ![LIFO með Merking](./media/lifowithmarking.gif) 
+Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans LIFO á þessar tegundir færslna þegar merkingar á milli úthreyfinga og innhreyfinga eru notaðar. 
+
+![LIFO með Merking](./media/lifowithmarking.gif) 
 
 **Lykill að skýringarmynd**
 
@@ -146,7 +150,4 @@ Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans LIFO á þessar tegundir 
 - Hver lóðrétt ör er merkt með raðkenni t.d. *1a*. Kennið gefur til kynna bókunarröð birgðafærslna á tímaásnum .
 - Birgðalokun eru sýndar með rauðri lóðréttri punktaðri línu og merkinu *birgðalokun*
 - Jöfnun sem er gerð af birgðalokun er táknuð með brotinni rauðri línu sem liggur skáhallt frá innhreyfingu til úthreyfingar.
-
-
-
 
