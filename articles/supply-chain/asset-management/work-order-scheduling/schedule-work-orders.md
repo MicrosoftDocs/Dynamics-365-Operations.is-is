@@ -18,20 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b6fad4d57b8e08c839ac0ffac2324c02304335ef
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 953c4bb17329205c5d8d14b6570a6bac152e9320
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887229"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652150"
 ---
 # <a name="schedule-work-orders"></a>Áætla verkbeiðnir
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-Þetta efni útskýrir hvernig á að raða verkbeiðnum í eignastýringu. Nauðsynlegur fjöldi klukkustunda fyrir verkbeiðni er skilgreindur af summunni yfir spáða tíma í verkbeiðniverkum að frádregnum bókuðum tímum. Ef þörf er á meiri tíma verður að aðlaga spána um verkbeiðnina til samræmis. Í **Eignastjórnun** > **Sameiginlegt** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir** er hægt að skoða eða breyta spám um verkbeiðni með því að velja verkbeiðnina og smella á **Spá** á flipanum **Verkbeiðni**. Þegar verkbeiðnir hafa verið búnar til og áætlaðar er næsta skref að úthluta nauðsynlegu viðhaldsstarfsfólki og verkfærum til að ljúka verkbeiðnunum.
+Þetta efni útskýrir hvernig á að raða verkbeiðnum í eignastýringu. 
+
+Nauðsynlegur fjöldi klukkustunda fyrir verkbeiðni er skilgreindur af summunni yfir spáða tíma að frádregnum bókuðum tímum. Ef þörf er á meiri tíma verður að aðlaga spána til samræmis. Í **Eignastjórnun** > **Sameiginlegt** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir** er hægt að skoða eða breyta spám um verkbeiðni með því að velja verkbeiðnina og smella á **Spá** á flipanum **Verkbeiðni**. Þegar verkbeiðnir hafa verið búnar til og áætlaðar er næsta skref að úthluta nauðsynlegu viðhaldsstarfsfólki og verkfærum til að ljúka verkbeiðnunum.
 
 Aðeins er hægt að skipuleggja verkbeiðnir með líftímastöðu verkbeiðni sem gerir ráð fyrir tímasetningu. Leyfa tímasetningu er sett upp á flýtiflipanum **Eignastjórnun** > **Uppsetning** > **Verkbeiðnir** > **Líftímastöður** > **Almennt** > skiptihnappnum **Leyfa tímasetningu**.
 
@@ -43,8 +45,8 @@ Aðeins er hægt að skipuleggja verkbeiðnir með líftímastöðu verkbeiðni 
 
 4. Í glugganum **Tímasetja verkbeiðnir** er hægt að bæta við vali um áætlaðan upphafsdag og þjónustustig, ef þess er krafist. Ef áætlunarferlið á að fylgjast með takmörkunum afkastagetu varðandi tilföng sem eru þegar áætluð fyrir aðrar vinnslur skal tryggja að skiptihnapparnir **Eign**, **Verkfæri** og **Starfskraftur** séu stilltir á „Já“.
 
->[!NOTE]
->Ef þú stillir skiptihnappana **Eignir**, **Verkfæri** og **Starfskraftur** á „Nei“ verða núverandi frátekningar hunsaðar. Í upplýsingakladdanum verður listi yfir skörun á verkbeiðnum sýndur og hægt er að smella á skilaboðin til að opna verkbeiðni og endurskipuleggja, ef þess þarf.
+    [!NOTE]
+    Ef þú stillir skiptihnappana **Eignir**, **Verkfæri** og **Starfskraftur** á „Nei“ verða núverandi frátekningar hunsaðar. Í upplýsingakladdanum verður listi yfir skörun á verkbeiðnum sýndur og hægt er að smella á skilaboðin til að opna verkbeiðni og endurskipuleggja, ef þess þarf.
 
 5. Til að sjá ítarlegar upplýsingar um áætlunarferlið skaltu velja „Já“ á skiptihnappnum **Oflengd**. Þetta þýðir að nákvæmar upplýsingar um reiknuð stig á verkbeiðnunum og viðhaldsstarfsmenn verða sýnd í athugasemdakladda.
 
@@ -110,9 +112,11 @@ Matseinkunnir sem varða útreikning á því hvaða viðhaldsstarfsmenn ættu a
 | Fyrsti starfsdagur starfskrafts               | Fyrir hverja dagsetningu sem áætlaður upphafsdagur er síðar en væntur upphafsdagur er dregið frá stiginu.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
 >[!NOTE]
->Ef stig er stillt á „0“ er það stig ekki reiknað. Þetta er gagnlegt ef þú t.d. vilt ekki taka ábyrgan starfskraft inn í tímasetningu þína.
+>Ef stig er stillt á „0“ er það stig ekki reiknað. Þetta er gagnlegt ef þú t.d. vilt ekki taka ábyrgan starfskraft inn í tímasetninguna.
 
 ## <a name="competencies-used-in-work-order-scheduling"></a>Færni notuð við tímasetningu verkbeiðni
 
-Hægt er að setja upp hæfileika og vottorðskröfur um gerðir viðhaldsstarfa (**Eignastjórnun** > **Uppsetning** > **Vinnslur** > **Gerðir viðhaldsverka**) og viðskipti með viðhaldsverk (**sset stjórnun** > **Uppsetning** > **Vinnslur** > **Viðskipti með viðhaldsverk**). Gerðir viðhaldsverka og viðskipti með viðhaldsverk eru valin á verkbeiðnaverkum. Ef færni eða skírteini hafa verið valin í gerð viðhaldsverka eða viðskiptum með viðhaldsverk og sú gerð viðhaldsverka eða viðskipti með viðhaldsverk eru notuð í verkbeiðniverki eru einungis viðhaldsstarfsmenn með samsvarandi færni og skírteini áætlaðir að vinna í verkbeiðninni.
+Hægt er að setja upp hæfileika og vottorðskröfur um gerðir viðhaldsstarfa (**Eignastjórnun** > **Uppsetning** > **Vinnslur** > **Gerðir viðhaldsverka**) og viðskipti með viðhaldsverk (**Eignastjórnun** > **Uppsetning** > **Vinnslur** > **Viðskipti með viðhaldsverk**). 
+
+Gerðir viðhaldsverka og viðskipti með viðhaldsverk eru valin á verkbeiðnaverkum. Ef færni eða skírteini hafa verið valin í gerð viðhaldsverka eða viðskiptum með viðhaldsverk og sú gerð viðhaldsverka eða viðskipti með viðhaldsverk eru notuð í verkbeiðniverki eru einungis viðhaldsstarfsmenn með samsvarandi færni og skírteini áætlaðir að vinna í verkbeiðninni.
 

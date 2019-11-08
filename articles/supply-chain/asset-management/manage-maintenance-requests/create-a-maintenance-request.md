@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e97d96a5485f17d0abc7c2fc2f8c4fdf4bbd4bb4
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 7fc9ec2f6a9a8a11d824e4b5c13d5aa173541454
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024638"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571922"
 ---
 # <a name="create-maintenance-requests"></a>Stofna viðhaldsbeiðnir
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Hægt er að nota viðhaldsbeiðnir ef viðhaldsstarfsmenn eða framleiðsluaðilar uppgötva að búnaður þarfnast viðgerðar, en ekki er hægt að gera viðgerðirnar strax.
 
@@ -55,7 +55,7 @@ Hlutinn **Virkar viðhaldsbeiðnir** á rúðunni **Tengdar upplýsingar** hægr
 11. Í reitnum **Athugasemdir** slærðu inn allar viðbótar athugasemdir sem þarf.
 12. Veljið **Í lagi**.
 
-![Mynd 1](media/03-manage-maintenance-requests.png)
+![Stofna viðhaldsbeiðni](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Síðari afgreiðsla beiðna um viðhald
 
@@ -70,7 +70,7 @@ Eftir að viðhaldsbeiðni er stofnuð, en áður en henni er breytt í vinnupö
 - Veldu gerð viðhaldsverks og, ef þessar upplýsingar eru viðeigandi, tengt afbrigði viðhaldsverks og ði og atvinnuverslun.
 - Í reitunum **Breidd** og **Lengdargráða** slærðu inn landfræðileg hnit. Öll hnit sem er bætt við viðhaldsbeiðni eru sjálfkrafa færð yfir í tengda verkbeiðni. 
 
-![Mynd 2](media/04-manage-maintenance-requests.png)
+![Uppfæra viðhaldsbeiðni](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Ef þú velur eign þegar þú býrð til viðhaldsbeiðni geturðu bætt einni villu við eignina. Eftir að viðhaldsbeiðnin hefur verið stofnuð geturðu bætt við fleiri göllum eftir þörfum. Til að bæta við göllum velurðu **Eignavilla** á síðunni **Allar viðhaldsbeiðnir**.
