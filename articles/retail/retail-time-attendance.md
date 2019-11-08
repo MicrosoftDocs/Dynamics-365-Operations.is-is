@@ -19,123 +19,123 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d541de550df41b7d4616492960bd4f2aae46d45e
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 887b0ff8bf78cd99b3a2ec34416f0265297f556a
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024984"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570100"
 ---
-# <a name="time-and-attendance-management-in-retail"></a><span data-ttu-id="c1c1b-103">Stjórnun tíma og viðveru í Retail</span><span class="sxs-lookup"><span data-stu-id="c1c1b-103">Time and attendance management in Retail</span></span>
+# <a name="time-and-attendance-management-in-retail"></a><span data-ttu-id="7f5da-103">Stjórnun tíma og viðveru í Retail</span><span class="sxs-lookup"><span data-stu-id="7f5da-103">Time and attendance management in Retail</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="c1c1b-104">Þessi efnisþáttur lýsir aðstæðum sem styður stjórnun á tíma og mætingu í Dynamics 365 Retail.</span><span class="sxs-lookup"><span data-stu-id="c1c1b-104">This topic describes the scenarios that are supported for time and attendance management in Dynamics 365 Retail.</span></span>
+<span data-ttu-id="7f5da-104">Þessi efnisþáttur lýsir aðstæðum sem styður stjórnun á tíma og mætingu í Dynamics 365 Retail.</span><span class="sxs-lookup"><span data-stu-id="7f5da-104">This topic describes the scenarios that are supported for time and attendance management in Dynamics 365 Retail.</span></span>
 
-## <a name="manage-worker-setup-and-scheduling"></a><span data-ttu-id="c1c1b-105">Stjórna uppsetningu starfsmanns og áætlun</span><span class="sxs-lookup"><span data-stu-id="c1c1b-105">Manage worker setup and scheduling</span></span>
+## <a name="manage-worker-setup-and-scheduling"></a><span data-ttu-id="7f5da-105">Stjórna uppsetningu starfsmanns og áætlun</span><span class="sxs-lookup"><span data-stu-id="7f5da-105">Manage worker setup and scheduling</span></span>
 
-### <a name="initial-configuration"></a><span data-ttu-id="c1c1b-106">Upphafleg skilgreining</span><span class="sxs-lookup"><span data-stu-id="c1c1b-106">Initial configuration</span></span>
+### <a name="initial-configuration"></a><span data-ttu-id="7f5da-106">Upphafleg skilgreining</span><span class="sxs-lookup"><span data-stu-id="7f5da-106">Initial configuration</span></span>
 
-- <span data-ttu-id="c1c1b-107">Keyrið leiðsagnarforrit grunnstillingar</span><span class="sxs-lookup"><span data-stu-id="c1c1b-107">Run the configuration wizard.</span></span>
-- <span data-ttu-id="c1c1b-108">Skrá starfsmenn sem starfsmenn tímaskráningar.</span><span class="sxs-lookup"><span data-stu-id="c1c1b-108">Register workers as time registration workers.</span></span>
+- <span data-ttu-id="7f5da-107">Keyrið leiðsagnarforrit grunnstillingar</span><span class="sxs-lookup"><span data-stu-id="7f5da-107">Run the configuration wizard.</span></span>
+- <span data-ttu-id="7f5da-108">Skrá starfsmenn sem starfsmenn tímaskráningar.</span><span class="sxs-lookup"><span data-stu-id="7f5da-108">Register workers as time registration workers.</span></span>
 
-### <a name="plan-worker-schedules"></a><span data-ttu-id="c1c1b-109">Áætla áætlanir starfsmanns</span><span class="sxs-lookup"><span data-stu-id="c1c1b-109">Plan worker schedules</span></span>
+### <a name="plan-worker-schedules"></a><span data-ttu-id="7f5da-109">Áætla áætlanir starfsmanns</span><span class="sxs-lookup"><span data-stu-id="7f5da-109">Plan worker schedules</span></span>
 
-- <span data-ttu-id="c1c1b-110">Nota forstillingar með vinnuáætlun</span><span class="sxs-lookup"><span data-stu-id="c1c1b-110">Apply profiles by using the work planner.</span></span> <span data-ttu-id="c1c1b-111">Nánari upplýsingar er að finna í [Nota forstillingar með vinnuáætlun](https://technet.microsoft.com/library/aa551234.aspx).</span><span class="sxs-lookup"><span data-stu-id="c1c1b-111">For more information, see [Apply profiles using work planner](https://technet.microsoft.com/library/aa551234.aspx).</span></span>
+- <span data-ttu-id="7f5da-110">Nota forstillingar með vinnuáætlun</span><span class="sxs-lookup"><span data-stu-id="7f5da-110">Apply profiles by using the work planner.</span></span> <span data-ttu-id="7f5da-111">Nánari upplýsingar er að finna í [Nota forstillingar með vinnuáætlun](https://technet.microsoft.com/library/aa551234.aspx).</span><span class="sxs-lookup"><span data-stu-id="7f5da-111">For more information, see [Apply profiles using work planner](https://technet.microsoft.com/library/aa551234.aspx).</span></span>
 
-<span data-ttu-id="c1c1b-112">Nánari upplýsingar um skilgreiningarskref er að finna í [Uppsetning á tíma og viðveru](https://technet.microsoft.com/library/aa496971.aspx).</span><span class="sxs-lookup"><span data-stu-id="c1c1b-112">For information about the configuration steps, see [Setting up time and attendance](https://technet.microsoft.com/library/aa496971.aspx).</span></span>
+<span data-ttu-id="7f5da-112">Nánari upplýsingar um skilgreiningarskref er að finna í [Uppsetning á tíma og viðveru](https://technet.microsoft.com/library/aa496971.aspx).</span><span class="sxs-lookup"><span data-stu-id="7f5da-112">For information about the configuration steps, see [Setting up time and attendance](https://technet.microsoft.com/library/aa496971.aspx).</span></span>
 
-### <a name="retail-specific-configuration"></a><span data-ttu-id="c1c1b-113">Skilgreining fyrir smásölu</span><span class="sxs-lookup"><span data-stu-id="c1c1b-113">Retail-specific configuration</span></span>
+### <a name="retail-specific-configuration"></a><span data-ttu-id="7f5da-113">Skilgreining fyrir smásölu</span><span class="sxs-lookup"><span data-stu-id="7f5da-113">Retail-specific configuration</span></span>
 
-- <span data-ttu-id="c1c1b-114">Virkja virknireglu Stimpilklukku, fyrir starfsmenn sem á að virkja tímaskráningar fyrir.</span><span class="sxs-lookup"><span data-stu-id="c1c1b-114">Enable a functionality profile for Time Clock, for workers that you want to enable time registrations for.</span></span> <span data-ttu-id="c1c1b-115">Smellið á **Virkniforstilling sölustaðar** &gt; **Aðgerðir** &gt; **POS tímaskráning** &gt; **Virkja tímaskráningar**.</span><span class="sxs-lookup"><span data-stu-id="c1c1b-115">Click **POS functionality profiles** &gt; **Functions** &gt; **POS time registrations** &gt; **Enable time registrations**.</span></span>
-- <span data-ttu-id="c1c1b-116">Skilgreina heimildaflokka sölustaðs (POS) til að virkja heimild fyrir Skoða færslur stimpilklukku.</span><span class="sxs-lookup"><span data-stu-id="c1c1b-116">Configure point of sale (POS) permissions groups to enable the View timeclock entries permission.</span></span> <span data-ttu-id="c1c1b-117">Þessi heimild gerir notanda kleift að skoða skráningar stimpilklukku annarra starfsmanna í versluninni (og úr öllum öðrum verslunum sem notandinn er tengdur, með aðsetursbókinni).</span><span class="sxs-lookup"><span data-stu-id="c1c1b-117">This permission lets a user view the time clock registrations of other workers in the store (and from any other store that the user is associated with, via the address book).</span></span> <span data-ttu-id="c1c1b-118">Þú gætir viljað virkja þessar heimildir fyrir hlutverk stjórnanda en ekki fyrir hlutverk gjaldkera .</span><span class="sxs-lookup"><span data-stu-id="c1c1b-118">You might want to enable this permission for a manager role but not for a cashier role.</span></span> <span data-ttu-id="c1c1b-119">Smellið á **Heimildaflokka sölustaðar** &gt; **Skoða færslur stimpilklukku**.</span><span class="sxs-lookup"><span data-stu-id="c1c1b-119">Click **POS permission groups** &gt; **View time clock entries**.</span></span>
+- <span data-ttu-id="7f5da-114">Virkja virknireglu Stimpilklukku, fyrir starfsmenn sem á að virkja tímaskráningar fyrir.</span><span class="sxs-lookup"><span data-stu-id="7f5da-114">Enable a functionality profile for Time Clock, for workers that you want to enable time registrations for.</span></span> <span data-ttu-id="7f5da-115">Smellið á **Virkniforstilling sölustaðar** &gt; **Aðgerðir** &gt; **POS tímaskráning** &gt; **Virkja tímaskráningar**.</span><span class="sxs-lookup"><span data-stu-id="7f5da-115">Click **POS functionality profiles** &gt; **Functions** &gt; **POS time registrations** &gt; **Enable time registrations**.</span></span>
+- <span data-ttu-id="7f5da-116">Skilgreina heimildaflokka sölustaðs (POS) til að virkja heimild fyrir Skoða færslur stimpilklukku.</span><span class="sxs-lookup"><span data-stu-id="7f5da-116">Configure point of sale (POS) permissions groups to enable the View timeclock entries permission.</span></span> <span data-ttu-id="7f5da-117">Þessi heimild gerir notanda kleift að skoða skráningar stimpilklukku annarra starfsmanna í versluninni (og úr öllum öðrum verslunum sem notandinn er tengdur, með aðsetursbókinni).</span><span class="sxs-lookup"><span data-stu-id="7f5da-117">This permission lets a user view the time clock registrations of other workers in the store (and from any other store that the user is associated with, via the address book).</span></span> <span data-ttu-id="7f5da-118">Þú gætir viljað virkja þessar heimildir fyrir hlutverk stjórnanda en ekki fyrir hlutverk gjaldkera .</span><span class="sxs-lookup"><span data-stu-id="7f5da-118">You might want to enable this permission for a manager role but not for a cashier role.</span></span> <span data-ttu-id="7f5da-119">Smellið á **Heimildaflokka sölustaðar** &gt; **Skoða færslur stimpilklukku**.</span><span class="sxs-lookup"><span data-stu-id="7f5da-119">Click **POS permission groups** &gt; **View time clock entries**.</span></span>
 
-## <a name="register-time"></a><span data-ttu-id="c1c1b-120">Tími á afgreiðslukassa</span><span class="sxs-lookup"><span data-stu-id="c1c1b-120">Register time</span></span>
+## <a name="register-time"></a><span data-ttu-id="7f5da-120">Tími á afgreiðslukassa</span><span class="sxs-lookup"><span data-stu-id="7f5da-120">Register time</span></span>
 
-### <a name="cashier-and-non-cashier-time-registrations"></a><span data-ttu-id="c1c1b-121">tímaskráningar Gjaldkera og þess sem er ekki gjaldkeri</span><span class="sxs-lookup"><span data-stu-id="c1c1b-121">Cashier and non-cashier time registrations</span></span>
+### <a name="cashier-and-non-cashier-time-registrations"></a><span data-ttu-id="7f5da-121">tímaskráningar Gjaldkera og þess sem er ekki gjaldkeri</span><span class="sxs-lookup"><span data-stu-id="7f5da-121">Cashier and non-cashier time registrations</span></span>
 
-- <span data-ttu-id="c1c1b-122">Á sölustað</span><span class="sxs-lookup"><span data-stu-id="c1c1b-122">On POS:</span></span>
+- <span data-ttu-id="7f5da-122">Á sölustað</span><span class="sxs-lookup"><span data-stu-id="7f5da-122">On POS:</span></span>
 
-    - <span data-ttu-id="c1c1b-123">Innstimplunaraðgerðir:</span><span class="sxs-lookup"><span data-stu-id="c1c1b-123">Clock-in operations:</span></span>
+    - <span data-ttu-id="7f5da-123">Innstimplunaraðgerðir:</span><span class="sxs-lookup"><span data-stu-id="7f5da-123">Clock-in operations:</span></span>
 
-        - <span data-ttu-id="c1c1b-124">Skráið inn með aðgerð utan skúffu eða nýrri vakt.</span><span class="sxs-lookup"><span data-stu-id="c1c1b-124">Log on with a non-drawer operation or New shift.</span></span>
-        - <span data-ttu-id="c1c1b-125">Velja aðgerð stimpilklukku</span><span class="sxs-lookup"><span data-stu-id="c1c1b-125">Select a Time Clock operation.</span></span>
-        - <span data-ttu-id="c1c1b-126">Velja aðgerð sem óskað er:</span><span class="sxs-lookup"><span data-stu-id="c1c1b-126">Select a desired operation:</span></span>
+        - <span data-ttu-id="7f5da-124">Skráið inn með aðgerð utan skúffu eða nýrri vakt.</span><span class="sxs-lookup"><span data-stu-id="7f5da-124">Log on with a non-drawer operation or New shift.</span></span>
+        - <span data-ttu-id="7f5da-125">Velja aðgerð stimpilklukku</span><span class="sxs-lookup"><span data-stu-id="7f5da-125">Select a Time Clock operation.</span></span>
+        - <span data-ttu-id="7f5da-126">Velja aðgerð sem óskað er:</span><span class="sxs-lookup"><span data-stu-id="7f5da-126">Select a desired operation:</span></span>
 
-            - <span data-ttu-id="c1c1b-127">Innstimplun</span><span class="sxs-lookup"><span data-stu-id="c1c1b-127">Clock-in</span></span>
-            - <span data-ttu-id="c1c1b-128">Hlé fyrir vinnu</span><span class="sxs-lookup"><span data-stu-id="c1c1b-128">Break for Work</span></span>
-            - <span data-ttu-id="c1c1b-129">Hádegishlé</span><span class="sxs-lookup"><span data-stu-id="c1c1b-129">Break for Lunch</span></span>
-            - <span data-ttu-id="c1c1b-130">Útstimplun</span><span class="sxs-lookup"><span data-stu-id="c1c1b-130">Clock-out</span></span>
+            - <span data-ttu-id="7f5da-127">Innstimplun</span><span class="sxs-lookup"><span data-stu-id="7f5da-127">Clock-in</span></span>
+            - <span data-ttu-id="7f5da-128">Hlé fyrir vinnu</span><span class="sxs-lookup"><span data-stu-id="7f5da-128">Break for Work</span></span>
+            - <span data-ttu-id="7f5da-129">Hádegishlé</span><span class="sxs-lookup"><span data-stu-id="7f5da-129">Break for Lunch</span></span>
+            - <span data-ttu-id="7f5da-130">Útstimplun</span><span class="sxs-lookup"><span data-stu-id="7f5da-130">Clock-out</span></span>
 
         <table>
         <thead>
         <tr>
-        <th><span data-ttu-id="c1c1b-131">Núgildandi staða</span><span class="sxs-lookup"><span data-stu-id="c1c1b-131">Current state</span></span></th>
-        <th><span data-ttu-id="c1c1b-132">Tiltækir valkostir</span><span class="sxs-lookup"><span data-stu-id="c1c1b-132">Available operations</span></span></th>
+        <th><span data-ttu-id="7f5da-131">Núgildandi staða</span><span class="sxs-lookup"><span data-stu-id="7f5da-131">Current state</span></span></th>
+        <th><span data-ttu-id="7f5da-132">Tiltækir valkostir</span><span class="sxs-lookup"><span data-stu-id="7f5da-132">Available operations</span></span></th>
         </tr>
         </thead>
         <tbody>
         <tr>
-        <td><span data-ttu-id="c1c1b-133">Innstimplun</span><span class="sxs-lookup"><span data-stu-id="c1c1b-133">Clock-in</span></span></td>
+        <td><span data-ttu-id="7f5da-133">Innstimplun</span><span class="sxs-lookup"><span data-stu-id="7f5da-133">Clock-in</span></span></td>
         <td>
         <ul>
-        <li><span data-ttu-id="c1c1b-134">Hlé fyrir vinnu</span><span class="sxs-lookup"><span data-stu-id="c1c1b-134">Break for Work</span></span></li>
-        <li><span data-ttu-id="c1c1b-135">Hádegishlé</span><span class="sxs-lookup"><span data-stu-id="c1c1b-135">Break for Lunch</span></span></li>
-        <li><span data-ttu-id="c1c1b-136">Útstimplun</span><span class="sxs-lookup"><span data-stu-id="c1c1b-136">Clock-out</span></span></li>
+        <li><span data-ttu-id="7f5da-134">Hlé fyrir vinnu</span><span class="sxs-lookup"><span data-stu-id="7f5da-134">Break for Work</span></span></li>
+        <li><span data-ttu-id="7f5da-135">Hádegishlé</span><span class="sxs-lookup"><span data-stu-id="7f5da-135">Break for Lunch</span></span></li>
+        <li><span data-ttu-id="7f5da-136">Útstimplun</span><span class="sxs-lookup"><span data-stu-id="7f5da-136">Clock-out</span></span></li>
         </ul>
         </td>
         </tr>
         <tr>
-        <td><span data-ttu-id="c1c1b-137">Hlé fyrir vinnu</span><span class="sxs-lookup"><span data-stu-id="c1c1b-137">Break for Work</span></span></td>
-        <td><span data-ttu-id="c1c1b-138">Innstimplun</span><span class="sxs-lookup"><span data-stu-id="c1c1b-138">Clock-in</span></span></td>
+        <td><span data-ttu-id="7f5da-137">Hlé fyrir vinnu</span><span class="sxs-lookup"><span data-stu-id="7f5da-137">Break for Work</span></span></td>
+        <td><span data-ttu-id="7f5da-138">Innstimplun</span><span class="sxs-lookup"><span data-stu-id="7f5da-138">Clock-in</span></span></td>
         </tr>
         <tr>
-        <td><span data-ttu-id="c1c1b-139">Hádegishlé</span><span class="sxs-lookup"><span data-stu-id="c1c1b-139">Break for Lunch</span></span></td>
-        <td><span data-ttu-id="c1c1b-140">Innstimplun</span><span class="sxs-lookup"><span data-stu-id="c1c1b-140">Clock-in</span></span></td>
+        <td><span data-ttu-id="7f5da-139">Hádegishlé</span><span class="sxs-lookup"><span data-stu-id="7f5da-139">Break for Lunch</span></span></td>
+        <td><span data-ttu-id="7f5da-140">Innstimplun</span><span class="sxs-lookup"><span data-stu-id="7f5da-140">Clock-in</span></span></td>
         </tr>
         <tr>
-        <td><span data-ttu-id="c1c1b-141">Útstimplun</span><span class="sxs-lookup"><span data-stu-id="c1c1b-141">Clock-out</span></span></td>
-        <td><span data-ttu-id="c1c1b-142">Innstimplun</span><span class="sxs-lookup"><span data-stu-id="c1c1b-142">Clock-in</span></span></td>
+        <td><span data-ttu-id="7f5da-141">Útstimplun</span><span class="sxs-lookup"><span data-stu-id="7f5da-141">Clock-out</span></span></td>
+        <td><span data-ttu-id="7f5da-142">Innstimplun</span><span class="sxs-lookup"><span data-stu-id="7f5da-142">Clock-in</span></span></td>
         </tr>
         </tbody>
         </table>
 
-        <span data-ttu-id="c1c1b-143">[![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)</span><span class="sxs-lookup"><span data-stu-id="c1c1b-143">[![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)</span></span>
+        <span data-ttu-id="7f5da-143">[![Stöður stimpilklukku](./media/timeclockstates.png)](./media/timeclockstates.png)</span><span class="sxs-lookup"><span data-stu-id="7f5da-143">[![Time Clock States](./media/timeclockstates.png)](./media/timeclockstates.png)</span></span>
 
-- <span data-ttu-id="c1c1b-144">Skoða staðfestingarskilaboðin og votta að núverandi tími verkþáttar sé réttur.</span><span class="sxs-lookup"><span data-stu-id="c1c1b-144">View the confirmation message, and validate that the current activity time is correct.</span></span>
-- <span data-ttu-id="c1c1b-145">Færslubók:</span><span class="sxs-lookup"><span data-stu-id="c1c1b-145">Logbook:</span></span>
+- <span data-ttu-id="7f5da-144">Skoða staðfestingarskilaboðin og votta að núverandi tími verkþáttar sé réttur.</span><span class="sxs-lookup"><span data-stu-id="7f5da-144">View the confirmation message, and validate that the current activity time is correct.</span></span>
+- <span data-ttu-id="7f5da-145">Færslubók:</span><span class="sxs-lookup"><span data-stu-id="7f5da-145">Logbook:</span></span>
 
-    - <span data-ttu-id="c1c1b-146">Smellið á **Kladdabók** til að skoða verkþátt stimpilklukku .</span><span class="sxs-lookup"><span data-stu-id="c1c1b-146">Click **Logbook** to view time clock activity.</span></span>
-    - <span data-ttu-id="c1c1b-147">nota tímasíur til að velja mismunandi tímaglugga.</span><span class="sxs-lookup"><span data-stu-id="c1c1b-147">Use time filters to select different time windows.</span></span>
-    - <span data-ttu-id="c1c1b-148">Ef þú vinnur á mörgum stöðum, sérð þú tímaskráningar þínum frá öllum verslunum þar sem þú skráðir tíma.</span><span class="sxs-lookup"><span data-stu-id="c1c1b-148">If you work at multiple store locations, you see your time registrations from all the stores where you recorded time.</span></span> <span data-ttu-id="c1c1b-149">Hægt er að nota síu verslunar til að skoða tímaskráningar úr valinni verslun.</span><span class="sxs-lookup"><span data-stu-id="c1c1b-149">You can use the store filter to view time registrations from a selected store.</span></span>
+    - <span data-ttu-id="7f5da-146">Smellið á **Kladdabók** til að skoða verkþátt stimpilklukku .</span><span class="sxs-lookup"><span data-stu-id="7f5da-146">Click **Logbook** to view time clock activity.</span></span>
+    - <span data-ttu-id="7f5da-147">nota tímasíur til að velja mismunandi tímaglugga.</span><span class="sxs-lookup"><span data-stu-id="7f5da-147">Use time filters to select different time windows.</span></span>
+    - <span data-ttu-id="7f5da-148">Ef þú vinnur á mörgum stöðum, sérð þú tímaskráningar þínum frá öllum verslunum þar sem þú skráðir tíma.</span><span class="sxs-lookup"><span data-stu-id="7f5da-148">If you work at multiple store locations, you see your time registrations from all the stores where you recorded time.</span></span> <span data-ttu-id="7f5da-149">Hægt er að nota síu verslunar til að skoða tímaskráningar úr valinni verslun.</span><span class="sxs-lookup"><span data-stu-id="7f5da-149">You can use the store filter to view time registrations from a selected store.</span></span>
 
-- <span data-ttu-id="c1c1b-150">Mismunandi tímabelti:</span><span class="sxs-lookup"><span data-stu-id="c1c1b-150">Different time zones:</span></span>
+- <span data-ttu-id="7f5da-150">Mismunandi tímabelti:</span><span class="sxs-lookup"><span data-stu-id="7f5da-150">Different time zones:</span></span>
 
-    - <span data-ttu-id="c1c1b-151">Ef þú skoðar tíma frá öðrum staðsetningum (fyrir færslubók gjaldkera , eða með því að nota **skoða færslur stimpilklukku** fyrir aðstæður stjórnanda ), og að staðsetning er í öðru tímabelti, eru tímafærslur sem þú sérð umbreytt í þinn staðartíma.</span><span class="sxs-lookup"><span data-stu-id="c1c1b-151">If you view time from a different location (for the cashier logbook, or by using **View timeclock entries** for a manager scenario), and that location is in a different time zone, the time records that you see are converted to your local time zone.</span></span> <span data-ttu-id="c1c1b-152">Til dæmis er stjórnandi fyrir tvær verslanir, ein í Arizona og önnur Nevada.</span><span class="sxs-lookup"><span data-stu-id="c1c1b-152">For example, you are a manager for two stores, one in Arizona and the other in Nevada.</span></span> <span data-ttu-id="c1c1b-153">Gjaldkeri skráir innstimplun við 9:00 F.HÁD</span><span class="sxs-lookup"><span data-stu-id="c1c1b-153">A cashier registers a clock-in at 9:00 A.M.</span></span> <span data-ttu-id="c1c1b-154">í Arizona.</span><span class="sxs-lookup"><span data-stu-id="c1c1b-154">in Arizona.</span></span> <span data-ttu-id="c1c1b-155">Á þeirri stundu er tími í Nevada 8:00 F.HÁD</span><span class="sxs-lookup"><span data-stu-id="c1c1b-155">At that moment, the time in Nevada is 8:00 A.M.</span></span> <span data-ttu-id="c1c1b-156">Þess vegna ef þú ert í versluninni í Nevada og skoðar færslur tímaskráningar, eru tímaskráningarnar merktar sem F.HÁD 8</span><span class="sxs-lookup"><span data-stu-id="c1c1b-156">Therefore, if you are in the Nevada store and look at time registration records, the time registration is marked as 8 A.M.</span></span>
+    - <span data-ttu-id="7f5da-151">Ef þú skoðar tíma frá öðrum staðsetningum (fyrir færslubók gjaldkera , eða með því að nota **skoða færslur stimpilklukku** fyrir aðstæður stjórnanda ), og að staðsetning er í öðru tímabelti, eru tímafærslur sem þú sérð umbreytt í þinn staðartíma.</span><span class="sxs-lookup"><span data-stu-id="7f5da-151">If you view time from a different location (for the cashier logbook, or by using **View timeclock entries** for a manager scenario), and that location is in a different time zone, the time records that you see are converted to your local time zone.</span></span> <span data-ttu-id="7f5da-152">Til dæmis er stjórnandi fyrir tvær verslanir, ein í Arizona og önnur Nevada.</span><span class="sxs-lookup"><span data-stu-id="7f5da-152">For example, you are a manager for two stores, one in Arizona and the other in Nevada.</span></span> <span data-ttu-id="7f5da-153">Gjaldkeri skráir innstimplun við 9:00 F.HÁD</span><span class="sxs-lookup"><span data-stu-id="7f5da-153">A cashier registers a clock-in at 9:00 A.M.</span></span> <span data-ttu-id="7f5da-154">í Arizona.</span><span class="sxs-lookup"><span data-stu-id="7f5da-154">in Arizona.</span></span> <span data-ttu-id="7f5da-155">Á þeirri stundu er tími í Nevada 8:00 F.HÁD</span><span class="sxs-lookup"><span data-stu-id="7f5da-155">At that moment, the time in Nevada is 8:00 A.M.</span></span> <span data-ttu-id="7f5da-156">Þess vegna ef þú ert í versluninni í Nevada og skoðar færslur tímaskráningar, eru tímaskráningarnar merktar sem F.HÁD 8</span><span class="sxs-lookup"><span data-stu-id="7f5da-156">Therefore, if you are in the Nevada store and look at time registration records, the time registration is marked as 8 A.M.</span></span>
 
-## <a name="view-worker-time-registrations"></a><span data-ttu-id="c1c1b-157">Stjórna tímaskráningu starfskrafts</span><span class="sxs-lookup"><span data-stu-id="c1c1b-157">View worker time registrations</span></span>
+## <a name="view-worker-time-registrations"></a><span data-ttu-id="7f5da-157">Stjórna tímaskráningu starfskrafts</span><span class="sxs-lookup"><span data-stu-id="7f5da-157">View worker time registrations</span></span>
 
-### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a><span data-ttu-id="c1c1b-158">Skoða tímaskráningar starfsmanna og sía eftir verslun eða gerð verkþáttar</span><span class="sxs-lookup"><span data-stu-id="c1c1b-158">View worker time registrations, and filter by store or activity type</span></span>
+### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a><span data-ttu-id="7f5da-158">Skoða tímaskráningar starfsmanna og sía eftir verslun eða gerð verkþáttar</span><span class="sxs-lookup"><span data-stu-id="7f5da-158">View worker time registrations, and filter by store or activity type</span></span>
 
-<span data-ttu-id="c1c1b-159">Á sölustað</span><span class="sxs-lookup"><span data-stu-id="c1c1b-159">On POS:</span></span>
+<span data-ttu-id="7f5da-159">Á sölustað</span><span class="sxs-lookup"><span data-stu-id="7f5da-159">On POS:</span></span>
 
-- <span data-ttu-id="c1c1b-160">Velja **skoða færslur stimpilklukku**</span><span class="sxs-lookup"><span data-stu-id="c1c1b-160">Select **View timeclock entries**.</span></span>
-- <span data-ttu-id="c1c1b-161">Þú sérð skráningar tímaklukku fyrir aðgerðir fyrir alla starfsmenn sem úthlutaðir eru á verslunum sem þú ert úthlutað til.</span><span class="sxs-lookup"><span data-stu-id="c1c1b-161">You see time clock registration activities from all workers that are assigned to the same stores that you're assigned to.</span></span>
-- <span data-ttu-id="c1c1b-162">Hægt er að nota verkþáttargerð og síur verslunar til að sía tímaskráningar.</span><span class="sxs-lookup"><span data-stu-id="c1c1b-162">You can use the activity type and store filters to filter on time registrations.</span></span>
+- <span data-ttu-id="7f5da-160">Velja **skoða færslur stimpilklukku**</span><span class="sxs-lookup"><span data-stu-id="7f5da-160">Select **View timeclock entries**.</span></span>
+- <span data-ttu-id="7f5da-161">Þú sérð skráningar tímaklukku fyrir aðgerðir fyrir alla starfsmenn sem úthlutaðir eru á verslunum sem þú ert úthlutað til.</span><span class="sxs-lookup"><span data-stu-id="7f5da-161">You see time clock registration activities from all workers that are assigned to the same stores that you're assigned to.</span></span>
+- <span data-ttu-id="7f5da-162">Hægt er að nota verkþáttargerð og síur verslunar til að sía tímaskráningar.</span><span class="sxs-lookup"><span data-stu-id="7f5da-162">You can use the activity type and store filters to filter on time registrations.</span></span>
 
-## <a name="process-and-manage-time-registrations"></a><span data-ttu-id="c1c1b-163">Vinna með og stjórna tímaskráningum</span><span class="sxs-lookup"><span data-stu-id="c1c1b-163">Process and manage time registrations</span></span>
+## <a name="process-and-manage-time-registrations"></a><span data-ttu-id="7f5da-163">Vinna með og stjórna tímaskráningum</span><span class="sxs-lookup"><span data-stu-id="7f5da-163">Process and manage time registrations</span></span>
 
-<span data-ttu-id="c1c1b-164">Notandi Retail fylgist með verkflæðið til að reikna, samþykkja og flytja tímaskráningar í laun.</span><span class="sxs-lookup"><span data-stu-id="c1c1b-164">A Retail user follows the workflow to calculate, approve, and transfer time registrations to payroll.</span></span>
+<span data-ttu-id="7f5da-164">Notandi Retail fylgist með verkflæðið til að reikna, samþykkja og flytja tímaskráningar í laun.</span><span class="sxs-lookup"><span data-stu-id="7f5da-164">A Retail user follows the workflow to calculate, approve, and transfer time registrations to payroll.</span></span>
 
-### <a name="primary-operations"></a><span data-ttu-id="c1c1b-165">Aðalaðgerðir</span><span class="sxs-lookup"><span data-stu-id="c1c1b-165">Primary operations</span></span>
+### <a name="primary-operations"></a><span data-ttu-id="7f5da-165">Aðalaðgerðir</span><span class="sxs-lookup"><span data-stu-id="7f5da-165">Primary operations</span></span>
 
-- <span data-ttu-id="c1c1b-166">Reikna</span><span class="sxs-lookup"><span data-stu-id="c1c1b-166">Calculate</span></span>
-- <span data-ttu-id="c1c1b-167">Samþykkja</span><span class="sxs-lookup"><span data-stu-id="c1c1b-167">Approve</span></span>
-- <span data-ttu-id="c1c1b-168">Senda í laun</span><span class="sxs-lookup"><span data-stu-id="c1c1b-168">Submit to payroll</span></span>
+- <span data-ttu-id="7f5da-166">Reikna</span><span class="sxs-lookup"><span data-stu-id="7f5da-166">Calculate</span></span>
+- <span data-ttu-id="7f5da-167">Samþykkja</span><span class="sxs-lookup"><span data-stu-id="7f5da-167">Approve</span></span>
+- <span data-ttu-id="7f5da-168">Senda í laun</span><span class="sxs-lookup"><span data-stu-id="7f5da-168">Submit to payroll</span></span>
 
-### <a name="other-common-operations"></a><span data-ttu-id="c1c1b-169">Aðrar algengar aðgerðir</span><span class="sxs-lookup"><span data-stu-id="c1c1b-169">Other common operations</span></span>
+### <a name="other-common-operations"></a><span data-ttu-id="7f5da-169">Aðrar algengar aðgerðir</span><span class="sxs-lookup"><span data-stu-id="7f5da-169">Other common operations</span></span>
 
-- <span data-ttu-id="c1c1b-170">Fjöldaútstimplun</span><span class="sxs-lookup"><span data-stu-id="c1c1b-170">Bulk Clock-out</span></span>
-- <span data-ttu-id="c1c1b-171">Skrá Fjarvist</span><span class="sxs-lookup"><span data-stu-id="c1c1b-171">Register Absence</span></span>
+- <span data-ttu-id="7f5da-170">Fjöldaútstimplun</span><span class="sxs-lookup"><span data-stu-id="7f5da-170">Bulk Clock-out</span></span>
+- <span data-ttu-id="7f5da-171">Skrá Fjarvist</span><span class="sxs-lookup"><span data-stu-id="7f5da-171">Register Absence</span></span>
 
-<span data-ttu-id="c1c1b-172">Nánari upplýsingar um hvernig skal vinna með skráningu tíma og viðveru er að finna í [Vinna með skráningu tíma og viðveru](https://technet.microsoft.com/library/aa573180.aspx).</span><span class="sxs-lookup"><span data-stu-id="c1c1b-172">For more information about how to process time and attendance registrations, see [Process time and attendance registrations](https://technet.microsoft.com/library/aa573180.aspx).</span></span>
+<span data-ttu-id="7f5da-172">Nánari upplýsingar um hvernig skal vinna með skráningu tíma og viðveru er að finna í [Vinna með skráningu tíma og viðveru](https://technet.microsoft.com/library/aa573180.aspx).</span><span class="sxs-lookup"><span data-stu-id="7f5da-172">For more information about how to process time and attendance registrations, see [Process time and attendance registrations](https://technet.microsoft.com/library/aa573180.aspx).</span></span>
