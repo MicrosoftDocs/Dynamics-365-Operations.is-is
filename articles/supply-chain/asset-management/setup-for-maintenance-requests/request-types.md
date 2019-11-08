@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19d529df6c8aab036de59502b4f14101e1a07707
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 430e475b52638dd80512ffd79d42aac6f5f340e1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790505"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571140"
 ---
 # <a name="maintenance-request-types"></a>Gerðir viðhaldsbeiðna
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Gerðir viðhaldsbeiðna eru notaðar til að flokka viðhaldsbeiðnir. Til dæmis gætir þú verið með tegundir viðhaldsbeiðna sem tengjast fyrirbyggjandi viðhaldi og leiðréttandi viðhaldi. Eða þú gætir haft sérstaka tegund viðhaldsbeiðni sem er notuð til að stjórna viðgerðum á eignum (viðgerð á geymslu).
 
@@ -44,4 +44,4 @@ Gerð viðhaldsbeiðni skilgreinir tengsl við líftímastöðuhóp fyrir viðha
 
 Eftirfarandi mynd sýnir dæmi um síðuna **Gerðir viðhaldsbeiðna**.
 
-![Mynd 1](media/07-setup-for-requests.png)
+![Síðan Gerðir viðhaldsbeiðna](media/07-setup-for-requests.png)

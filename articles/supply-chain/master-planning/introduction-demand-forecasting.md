@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42631e8a5ac03eda65bf0f6ede03fa40a5ed2c4e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: bea02c6fe7b8e50be22be89eeb43a913851ddbfb
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250761"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653534"
 ---
 # <a name="demand-forecasting-overview"></a>Yfirlit eftirspurnarspár
 
@@ -49,11 +49,11 @@ Hér eru sumar aðal aðgerðir eftirspurnarspár:
 
 -   **Einingastig** – eftirspurnarspár eru°uppbyggðar úr einingum og auðvelt að skilgreina. Hægt er að kveikja og slökkva á virkninni með því að breyta skilgreiningarlyklinum á **Viðskipti** &gt; **Birgðaspá** &gt; **Eftirspurnarspár**.
 -   **Endurnýting stafla Microsoft**– Microsoft°ýtti úr vör vélnámssvæði í Febrúar 2015. Vélnám sem er nú hluti af Microsoft Cortana Greiningarsafni gerir kleift á fljótlegan og auðveldan hátt að stofna spágreiningartilraunir, svo sem eftirspurnaráætlunartilraunir, með því að nota°algoritma R eða Python forritunartungumál og einfalt draga-sleppa viðmót.
-    -   Hægt er að hlaða niður Eftirspurnarspátilraunum, breyta þeim til að uppfylla þínar viðskiptaþarfir, °gefa þau út sem vefþjónustu á Azure og nota þau°til að mynda eftirspurnarspár. Tilraunirnar eru tiltækar fyrir niðurhal ef áskrift að Finance and Operations fyrir skipulagningu framleiðslu hefur verið keypt af notanda á fyrirtækissviði.
-    -   Hægt er að hlaða niður öllum fyrirliggjandi eftirspurnarspátilraunum úr [Cortana Greiningar Gallery](https://gallery.cortanaanalytics.com/). Aftur á móti, þar sem eftirspurnarspártilraunir eru sjálfkrafa samþættar Finance and Operations, þurfa viðskiptavinir og samstarfsaðilar að beita samþættingu tilrauna sem þeir hlaða niður úr [Cortana-greiningasafni](https://gallery.cortanaanalytics.com/). Þess vegna eru tilraunir úr [Cortana-greiningarsafni](https://gallery.cortanaanalytics.com/) ekki jafneinfaldar í notkun og eftirspurnarspátilraunir Finance and Operations. Það þarf að breyta kóða á tilraununum þannig að þær noti forritunarviðmót (API) Finance and Operations.
+    -   Hægt er að hlaða niður Eftirspurnarspátilraunum, breyta þeim til að uppfylla þínar viðskiptaþarfir, °gefa þau út sem vefþjónustu á Azure og nota þau°til að mynda eftirspurnarspár. Tilraunirnar eru tiltækar fyrir niðurhal ef áskrift að Supply Chain Management fyrir skipulagningu framleiðslu hefur verið keypt af notanda á fyrirtækissviði.
+    -   Hægt er að hlaða niður öllum fyrirliggjandi eftirspurnarspátilraunum úr [Cortana Greiningar Gallery](https://gallery.cortanaanalytics.com/). Aftur á móti, þar sem eftirspurnarspártilraunir eru sjálfkrafa samþættar Supply Chain Management, þurfa viðskiptavinir og samstarfsaðilar að beita samþættingu tilrauna sem þeir hlaða niður úr [Cortana-greiningasafni](https://gallery.cortanaanalytics.com/). Þess vegna eru tilraunir úr [Cortana-greiningarsafni](https://gallery.cortanaanalytics.com/) ekki jafneinfaldar í notkun og eftirspurnarspátilraunir Finance and Operations. Það þarf að breyta kóða á tilraununum þannig að þær noti forritunarviðmót (API) Finance and Operations.
     -   Hægt er að stofna eigin°tilraunir í Microsoft Azure Vélnámsveri, birta þær sem þjónustu á Azure og nota þær til að stofna eftirspurnarspár.
     -   Ef ekki er krafist mikilla afkasta eða ef ekki þarf að vinna°mikið af gögnum er hægt að nota ókeypis Vélnáms Lag. Mælt er með að alltaf ræsa úr°þessu lagi,°sérstaklega°við innleiðingu og prófana áfanga. Ef°krafist er meiri afkasta og°viðbótar geymslu, hægt er að nota staðlaða lags Vél Nám. Þetta lag krefst Azure áskriftar og felur í sér auka kostnað. Nánari upplýsingar um verðlagningu Vélnáms er að finna í [Verðlagning vélnámsstúdíós](https://aka.ms/machine-learning-price-info).
--   **Lækkun spár á hvaða aftengingarpunkti sem er** – Eftirspurnarspár í Finance and Operations byggja á þessari virkni, sem gerir kleift að spá bæði háðri og óháðri eftirspurn á hvaða aftengingarpunkti sem er.
+-   **Lækkun spár á hvaða aftengingarpunkti sem er** – Eftirspurnarspár byggir á þessari virkni, sem gerir kleift að spá bæði háðri og óháðri eftirspurn á hvaða aftengingarpunkti sem er.
 
 ## <a name="basic-flow-in-demand-forecasting"></a>Grunnflæði í eftirspurnarspá
 Eftirfarandi skýringarmynd sýnir vinnsluflæði fyrir eftirspurnarspá. 
@@ -64,7 +64,7 @@ Framleiðsla eftirspurnar hefst í Supply Chain Management. Sögulegum færslug�
 
 Ef notaðar eru vélnámstilraunir fyrir eftirspurnarspár leita þær að því sem passar best milli°fimm tímaraðir spáaðferða til að reikna út grunnlínu spár. Færibreytur fyrir þessar spáaðferðir eru meðhöndlaðar í Supply Chain Management. 
 
-Spár, söguleg gögn og allar breytingar sem gerðar voru á eftirspurnarspám í fyrri ítrekunum eru svo tiltækar í Finance and Operations. 
+Spár, söguleg gögn og allar breytingar sem gerðar voru á eftirspurnarspám í fyrri ítrekunum eru svo tiltækar í Supply Chain Management. 
 
 Hægt er að nota Supply Chain Management til að sjá fyrir og breyta grunnlínuspám. Handvirkar leiðréttingar°þarf að heimila áður en hægt er að nota spár til að gera áætlanir.
 

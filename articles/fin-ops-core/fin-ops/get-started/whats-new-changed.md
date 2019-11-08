@@ -1,9 +1,9 @@
 ---
-title: Nýjungar eða breytingar – heimasíða
+title: Nýjungar eða breytingar á heimasíðu Finance and Operations
 description: Þessi síða beinir þér á efnisatriði sem geta aðstoðað þig við að læra um nýjar aðgerðir í nýjustu forrit Finance and Operations.
 author: josaw1
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 10/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: c2dd8093102f92391cd782cda77afb17a3560010
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7559ef3aa3ce816d375f263ff4a4e0cf3d632249
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249298"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658714"
 ---
-# <a name="whats-new-or-changed-home-page"></a>Nýjungar eða breytingar – heimasíða
+# <a name="whats-new-or-changed-in-finance-and-operations-home-page"></a>Nýjungar eða breytingar á heimasíðu Finance and Operations
 [!include [banner](../includes/banner.md)]
 
-Þessi síða beinir þér á efnisatriði sem geta aðstoðað þig við að læra um nýjar aðgerðir í nýjustu forrit Finance and Operations.
+Frá og með október 2019 verður þessari síðu ekki lengur viðhaldið. Upplýsingarnar í þessu efni sýna hvar hægt er að finna eiginleikaupplýsingar fyrir forrit Finance and Operations sem gefnin voru út fyrir október 2019.
 
 Frekari upplýsingar um hvernig uppfært er í nýjustu útgáfuna: [Ferli fyrir uppfærslu í nýjustu útgáfu](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
@@ -49,13 +49,6 @@ Frekari upplýsingar um hvernig uppfært er í nýjustu útgáfuna: [Ferli fyrir
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>10.0.6</td>
-<td>10.0.234</td>
-<td>Nóvember 2019</td>
-<td><a href="whats-new-changed-10-0-6.md">Forskoðun á eiginleikum í Dynamics 365 for Finance and Operations útgáfu 10.0.6 (nóvember 2019)</a></td>
-</tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>10.0.5</td>
@@ -183,13 +176,6 @@ Frekari upplýsingar um hvernig uppfært er í nýjustu útgáfuna: [Ferli fyrir
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Microsoft Dynamics 365 for Finance and Operations</td>
-<td>Update 30 fyrir verkvang</td>
-<td>7.0.5407</td>
-<td>Nóvember 2019</td>
-<td><a href="whats-new-platform-update-30.md">Forskoða eiginleika í Dynamics 365 for Finance and Operations verkvangsuppfærslu 30 (nóvember 2019)</a></td>
-</tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Update 29 fyrir verkvang</td>

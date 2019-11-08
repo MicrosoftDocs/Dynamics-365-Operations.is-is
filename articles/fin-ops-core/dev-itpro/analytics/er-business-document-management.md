@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c84b08ec45dfa7aa9c7b913087a2518bfeedf87
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 05dee1efc4e817795824e3fa1c41093d48a97d78
+ms.sourcegitcommit: 219a73371638a9a4c6076d4c88b95fb2ebe95b00
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181566"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2652618"
 ---
 # <a name="business-document-management-overview"></a>Yfirlit yfir stjórnun viðskiptaskjala
 
@@ -120,7 +120,7 @@ Notaðu eftirfarandi ferli til að virkja virknina Stjórnun viðskiptaskjala fy
 
 ![Vinnusvæði eiginleikastjórnunar](./media/BDM-Overview-FMEnabling.png)
 
-Nánari upplýsingar um að virkjun nýrra eiginleika er að finna í [Eiginleikastjórnunaryfirlit](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
+Nánari upplýsingar um að virkjun nýrra eiginleika er að finna í [Eiginleikastjórnunaryfirlit](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 ## <a name="configure-parameters"></a>Skilgreina færibreytur
 
@@ -137,7 +137,7 @@ Fyrir þessa skjalagerð verður að velja eftirfarandi eigindagildi.
 | Hópur               | Skrá                  |
 | Staðsetning            | SharePoint            |
 
-Fyrir upplýsingar um hvernig á að setja upp nauðsynlegar færibreytur fyrir skjalastjórnun og skjalagerðir skal sjá [Skilgreina skjalastjórnun](../../fin-and-ops/organization-administration/configure-document-management.md).
+Fyrir upplýsingar um hvernig á að setja upp nauðsynlegar færibreytur fyrir skjalastjórnun og skjalagerðir skal sjá [Skilgreina skjalastjórnun](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management).
 
 ![Setja upp skjalagerð í skjalastjórnun](./media/BDM-Overview-DMSetting.png)
 

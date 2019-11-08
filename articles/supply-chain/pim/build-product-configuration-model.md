@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 316e1e1f0db9343e414ddeafe9e00beac87b5b76
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f8e0e98cf1a953355515f9145483aed8cbaa2ad2
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249495"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653649"
 ---
 # <a name="product-configuration-overview"></a>Yfirlit yfir afurðaskilgreiningu
 
@@ -73,7 +73,7 @@ Töfluskorður geta verið notandaskilgreindar eða kerfisskilgreindar.
 
 Notandaskilgreind töfluskorða er byggð á notanda. Notandi velur samsetningu eigindagerðir dálka í töflunni stendur og færir gildi úr lénum valinna eigindagerða til að mynda línur í töfluskorðunni.  
 
-Kerfisskilgreind töfluskorða er skilgreind með því að velja hvaða töflu á að nota sem tilvísun og velja svo svæði úr þessari töflu til að mynda dálka í skorðunni. Línur töfluskorðunnar eru línurnar í Finance and Operations töflu sem eru til staðar við skilgreiningu.  
+Kerfisskilgreind töfluskorða er skilgreind með því að velja hvaða töflu á að nota sem tilvísun og velja svo svæði úr þessari töflu til að mynda dálka í skorðunni. Línur töfluskorðunnar eru línurnar í töflu Supply Chain Management sem eru til staðar við skilgreiningu.  
 
 Töfluskorða er innifalin í afbrigðalíkani afurðar með því að vísa í skilgreiningu töfluskorðu og vörpun viðeigandi eiginda í líkanið í dálkum í töfluskorðunni.
 

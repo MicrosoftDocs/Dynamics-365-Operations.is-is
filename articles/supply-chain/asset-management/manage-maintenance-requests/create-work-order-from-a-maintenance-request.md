@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f7af87f359cfe3a606c8be857dd905bfef75e97
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: c42f259a57675c3dbac829d6d671e91982ef9011
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847460"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571692"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Stofna verkbeiðnir úr viðhaldsbeiðnum
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Eftir að þú hefur búið til viðhaldsbeiðnir geturðu auðveldlega umbreytt þeim í vinnupantanir. Þetta efni lýsir skjótustu leiðinni til að vinna með viðhaldsbeiðnir, uppfæra nokkrar viðhaldsbeiðnir á sama tíma og búa síðan til vinnupöntun fyrir nokkrar viðhaldsbeiðnir á sama tíma. Á síðunni **Virkar viðhaldsbeiðnir** eða **Mínar viðhaldsbeiðnir á virkri staðsetningu** geturðu líka unnið með eina viðhaldsbeiðni í einu og umbreytt einni viðhaldsbeiðni í vinnupöntun.
@@ -53,5 +53,5 @@ Eftir að þú hefur búið til viðhaldsbeiðnir geturðu auðveldlega umbreytt
 
 6. Veldu **Eignastýring** \> **Sameiginlegt** \> **Verkbeiðni** \> **Allar verkbeiðnir**, og opnaðu nýju vinnupöntunina.
 
-    ![Mynd 1](media/05-manage-maintenance-requests.png)
+    ![Opna nýja vinnupöntun](media/05-manage-maintenance-requests.png)
 

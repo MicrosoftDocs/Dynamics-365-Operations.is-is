@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir uppsetningu og skilgreiningu vöruhúsaforrits
-description: Þetta efnisatriði lýsir því hvernig á að setja upp og grunnstilla forritið Dynamics 365 Supply Chain Management - Warehousing.
+description: Þetta efnisatriði lýsir því hvernig á að setja upp og grunnstilla forritið Dynamics 365 for Finance and Operations – Warehousing.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 07/25/2019
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b8eb8dee88d8664391d2dcf485dff9dee4722cac
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f629fffc5c424c244a25bb8faef0435814398ee1
+ms.sourcegitcommit: 4aac45c84b87f463b22b318f5f6f729f8d737090
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251501"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2548969"
 ---
 # <a name="install-and-configure-the-warehousing-app-overview"></a>Yfirlit yfir uppsetningu og skilgreiningu vöruhúsaforrits
 
@@ -35,7 +35,7 @@ ms.locfileid: "2251501"
 > Þetta efnisatriði lýsir því hvernig eigi að grunnstilla vörugeymslur fyrir virkjun skýs. Ef þú ert að leita að því hvernig eigi að grunnstilla vöruhús fyrir virkjun á staðnum, vinsamlegast skoðaðu [Vöruhús fyrir virkjun á staðnum](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 
-Þetta efnisatriði lýsir því hvernig á að setja upp og grunnstilla forritið Dynamics 365 Supply Chain Management - Warehousing.
+Þetta efnisatriði lýsir því hvernig á að setja upp og grunnstilla forritið Dynamics 365 for Finance and Operations – Warehousing.
 
 Forritið Warehousing er fáanlegt í Google Play Store og Windows Store. Fyrir núverandi útgáfu af Dynamics 365 Supply Chain Management er þetta forrit útvegað sem stakur þáttur, sem þýðir að það er notað sjálfstætt á tækjum sem eru notuð við vöruhúsaaðgerðir. Til að nota forritið í þínu Finance and Operations umhverfi verður að sækja forritið fyrir hvert tæki og grunnstilla það til að geta tengst við þitt Supply Chain Management umhverfi. Þetta efnisatriði lýsir því hvernig á að setja upp forritið á þínum tækjum. Það lýsir líka hvernig á að grunnstilla forritið til að tengjast þínu Supply Chain Management umhverfi.
 

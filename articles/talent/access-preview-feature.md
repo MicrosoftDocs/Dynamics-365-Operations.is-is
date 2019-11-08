@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: e607c2ba4b544d60c97d98bd49b07d912d83ebc6
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 0f9a83aeea3942d3c56d32956f79490c91565e9e
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008703"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551602"
 ---
-# <a name="manage-preview-features"></a>Stjórnun á forskoðunareiginleikum
+# <a name="access-preview-features-in-microsoft-dynamics-365-talent"></a>Fá aðgang að forskoðunareiginleikum í Microsoft Dynamics 365 Talent
 
 [!include[banner](../includes/banner.md)]
 
@@ -54,7 +54,7 @@ Til að fá aðgang að forskoðunareiginleikum þarf fyrst að virkja þá í u
 > [!NOTE]
 > Sumir forskoðunareiginleikar gætu þurft ítarlegri grunnstillingu. Fylgdu tenglunum við hliðina á forskoðunareiginleika til að ljúka uppsetningu hans.
 
-### <a name="core-hr"></a>Kjarni HR
+### <a name="core-hr"></a>Core HR
 
 1. Skráðu þig inn á Talent.
 2. Veldu **Kerfisstjórnun** og veldu síðan flipann **Tenglar**.
@@ -87,7 +87,7 @@ Engir forskoðunareiginleikar eru í tiltækir sem stendur fyrir Microsoft Dynam
 - [Rakning uppruna](./source-tracking.md) - Attract rekur uppruna á umsóknum umsækjanda til að veita gagnlegar upplýsingar sem geta auðveldað þér ráðningarvinnuna. Einnig er hægt að velja uppruna umsóknar á meðan umsækjanda er bætt við starf eða hæfileikasafn.
 - [Silfurhafi](./whats-new-talent-march-20.md#designate-silver-medalists-to-assign-high-value-applicants-for-future-positions) - Ef einhverjir umsækjendur smellpassa fyrirtækinu þínu en þú bauðst þeim ekki upp á núverandi stöðu, geturðu skilgreint þá sem silfurhafa. Þessi eiginleiki sparar þér tíma fyrir næstu ráðningu þegar svipuð staða býðst.
 
-### <a name="core-hr"></a>Kjarni HR
+### <a name="core-hr"></a>Core HR
 
 - [Sannprófa gögn staðsetningarstigveldis](./whats-new-talent-may-13-2019.md#new-page-to-validate-position-hierarchy-data) - Nú er hægt að sannprófa stjórnunarstigveldi fyrir allar hringtilvísanir sem voru óvart fluttar inn.
 - [Tilgreina ástæðukóða fyrir leyfisgerðir](./whats-new-talent-may-13-2019.md#specify-reason-codes-on-leave-types) - Hægt er að tilgreina ástæðukóða fyrir leyfisgerðir.

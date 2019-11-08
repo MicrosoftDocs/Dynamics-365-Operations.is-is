@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4fc32d337be1f71932555fcb062a8d05c9ca9bda
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 1aee14c869d84bef38a738bfe78fd09ee7f82d94
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918419"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652380"
 ---
 # <a name="asset-kpis"></a>Afkastavísar (KPI) eignar
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Í eignastjórnun geturðu reiknað út ýmsa afkastavísa fyrir eignir og eignategundir. Þú notar afkastavísa til að fá yfirsýn yfir afkomu eigna í tengslum við t.d. uppitíma, niðritíma, viðgerðartíma og meðaltíma milli bilana (MTBF).
 
@@ -85,7 +85,7 @@ ms.locfileid: "1918419"
 
 Myndin hér að neðan sýnir skjámynd af útreikningi afkastavísis fyrir fjórar eignir.
 
-![Mynd 1](media/11-controlling-and-reporting.png)
+![Skjámynd af KPI-útreikningi á fjórum eignum](media/11-controlling-and-reporting.png)
 
 - Þú getur valið margar eignir í **Allar eignir** og smellt á hnappinn **Afkastavísir eigna** á flipanum **Almennt**. Síðan smellirðu á **Í lagi** í valmyndinni **Reikna afkastavísi eigna** til að reikna út afkastavísi fyrir valdar eignir.  
 - Niðurstöður úr útreikningi á afkastavísi kunna að innihalda eða ekki [skráningar á niðurtíma vegna viðhalds](../work-orders/maintenance-downtime.md), allt eftir uppsetningu og notkun á ástæðukóða fyrir niðurtíma vegna viðhalds. 

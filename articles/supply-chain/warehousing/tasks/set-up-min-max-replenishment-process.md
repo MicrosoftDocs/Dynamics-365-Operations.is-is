@@ -3,7 +3,7 @@ title: Setja upp lágmark og hámark fyrir áfyllingarferli
 description: Þessi verklýsing sýnir hvernig á að setja upp nýja áfyllingarvinnslu sem notar hámark/lágmark áfyllingaráætlun.
 author: perlynne
 manager: AnnBe
-ms.date: 06/26/2019
+ms.date: 10/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ef3c33125850662cfb0dfba6e6349ce32ceda0af
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: e9002b1d9f8507af42277ccc47621d92a4a00f62
+ms.sourcegitcommit: 7b74425637ddcf02087f1d391755e5cb8ce25949
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924448"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "2559190"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Setja upp lágmark og hámark fyrir áfyllingarferli
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Þessi verklýsing sýnir hvernig á að setja upp nýja áfyllingarvinnslu sem notar hámark/lágmark áfyllingaráætlun. Þegar birgðir fara niður fyrir lágmarkið, verður stofnuð vinna til að fylla á staðsetninguna. Ferlið sýnir einnig hvernig á að nota fast tiltektarstaðsetningar til að leyfa endurnýjun stofna jafnvel þótt birgðir fara niður fyrir lágmark stig og hvernig á að virkja áfyllingarvinnslu til að keyra reglulega með því að nota runuvinnslu. Þessi verkefni myndu yfirleitt vera framkvæmd af yfirmanni vöruhúss. Hægt er að keyra þetta ferli á USMF sýnifyrirtæki með dæmagildum úr glósum eða hægt er að keyra hana á eigin gögn. Ef verið er að nota eigin gögn, skal ganga úr skugga um að hafa vöruhús sem er virkt fyrir vöruhúsakerfisferli.
+Þessi verklýsing sýnir hvernig á að setja upp nýja áfyllingarvinnslu sem notar hámark/lágmark áfyllingaráætlun. Þegar birgðir fara niður fyrir lágmarkið, verður stofnuð vinna til að fylla á staðsetninguna. Ferlið sýnir einnig hvernig á að nota fast tiltektarstaðsetningar til að leyfa endurnýjun stofna jafnvel þótt birgðir fara niður fyrir lágmark stig og hvernig á að virkja áfyllingarvinnslu til að keyra reglulega með því að nota runuvinnslu. Þessi verkefni myndu yfirleitt vera framkvæmd af yfirmanni vöruhúss. Hægt er að keyra þetta ferli á USMF sýnifyrirtæki með dæmagildum hér að neðan eða hægt er að keyra það á eigin gögn. Ef verið er að nota eigin gögn, skal ganga úr skugga um að hafa vöruhús sem er virkt fyrir vöruhúsakerfisferli.
 
 
 ## <a name="create-a-fixed-picking-location"></a>Stofna fastar tiltektarstaðsetningar

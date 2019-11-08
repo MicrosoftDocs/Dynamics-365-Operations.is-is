@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aba85b63abc11c9f32023e8499a02728dfc86bd1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4d9a2f6efad6b8ddf3a445fe7831244e161c35d5
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188258"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578196"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Setja upp ítarlegan innflutning bankaafstemmingarferlis
 
@@ -36,7 +36,7 @@ Uppsetning fyrir innflutning bankayfirlits er breytileg, eftir snið rafrænnar 
 ## <a name="set-time-zone-preference"></a>Stilltu kjörstillingar tímabelta
 Þegar þú stillir innflutningsstillingar bankayfirlitsins getur verið mikilvægt að hafa í huga tímabelti dagsetningartímabilsins innan bankayfirlitsskrár sem fluttar verða inn. Sjálfgefið er að gera ráð fyrir hvaða dag- og tímagildi séu þegar í samhæfðum alheimstíma (UTC) og því verður ekki breytt neinu tímabelti þegar þú flytur gögnin inn. 
 
-Það er möguleiki í boði til að tilgreina tímabelti sem á að nota til að flytja inn gögn. Þessi valkostur er tiltækur í reitnum **Val tímabeltis** á hverri síðu **Upplýsingar um upprunagögn** (flýtiflipinn **Vinnusvæði gagnastjórnunar > Stilla gagnaveitur > Veldu gagnasnið > Svæðisstillingar**). Þessi tímabeltisval sem þú slærð inn á við um allan innflutning sem notar það upprunagagnasnið. Þú getur búið til eins mörg snið gagnaheimilda og þarf til að flytja inn gögn frá mörgum tímabeltum. Tímabeltisvalið ætti að vera staðartímabelti dagsetningar- og tímagagna í innflutningsskránni. Tímabeltisvalið ætti að vera staðartímabelti dagsetningar- og tímagagna í innflutningsskránni. 
+Það er möguleiki í boði til að tilgreina tímabelti sem á að nota til að flytja inn gögn. Þessi valkostur er tiltækur í reitnum **Val tímabeltis** á hverri síðu **Upplýsingar um upprunagögn** (flýtiflipinn **Vinnusvæði gagnastjórnunar > Stilla gagnaveitur > Veldu gagnasnið > Svæðisstillingar**). Þessi tímabeltisval sem þú slærð inn á við um allan innflutning sem notar það upprunagagnasnið. Þú getur búið til eins mörg snið gagnaheimilda og þarf til að flytja inn gögn frá mörgum tímabeltum.  
 
 Þetta tímabelti er ef til vill ekki það sama og tímabelti notanda eða fyrirtækis, svo vertu viss um að skýra hvaða tímabelti dagsetning og tímagögn eru að nota. Við mælum með að þú lítir á eftirfarandi atriði þegar þú stillir tímabeltisval. 
 

@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 05881b6e6e501ff3ac5a622d99fd1aaa311727a1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f4f6de139d0399263fa19507d63e9521f489dcbd
+ms.sourcegitcommit: 38ce9f4ef499ad208f2fbbc51bc21b12c67dfa16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249518"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "2574800"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Birgðir á lager eftir fartækjavinnusvæði
 
@@ -56,9 +56,9 @@ Fartækjavinnusvæði tryggir einkum eftirfarandi eiginleika:
     -   Eftir efnislegu vörum sem eru tiltækar (þetta yfirlit táknar tiltækt magn sem ekki er bókað).
 
 ## <a name="prerequisites"></a>Forkröfur
-Skilyrðin eru breytileg, byggt á útgáfu Microsoft Dynamics 365 sem hefur verið sett upp fyrir fyrirtækið þitt.
+Forkröfur eru mismunandi eftir þeirri útgáfu Supply Chain Management sem hefur verið innleidd í fyrirtækinu.
 
-### <a name="prerequisites-if-you-use-finance-and-operations"></a>Forkröfur ef þú notar Finance and Operations 
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Forkröfur ef þú notar Supply Chain Management
 Ef Supply Chain Management hefur verið innleitt í fyrirtækinu verður kerfisstjóri að birta fartækjavinnusvæðið **Birgðir á lager**. Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>Skilyrði ef þú notar verkvangsuppfærslu 3 eða nýrri 

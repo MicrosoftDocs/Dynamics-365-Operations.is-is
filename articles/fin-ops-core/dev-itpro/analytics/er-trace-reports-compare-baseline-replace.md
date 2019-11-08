@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: a260be0f8659106907b26bf69bee3b33b09d0c24
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1e144e2623f3ddfafaee749bb334de40ef5aec1b
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181336"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578219"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Endurbætur á rakningu á niðurstöðum myndaðra rafrænna skýrslna og samanburður þeirra við grunnlínugildi
 
@@ -71,9 +71,6 @@ Grunnlínugildinu hefur verið bætt við fyrir valið snið **Snið til að læ
 5. Í reitnum **Skrá kenni** slærðu inn **1**.
 6. Stilltu valkostinn **Gera grunnslínukrár** á **Já**.
 7. Veljið **Í lagi**.
-
-    ![Svarglugginn Færibreytur rafrænnar skýrslugerðar](media/GER-BaselineSample-FormatRunToMakeBaselineFile3.PNG "Skjámynd af svarglugganum Færibreytur rafrænnar skýrslugerðar")
-
 8. Veldu **Grunnlínur**.
 
     ![Síðan Grunnlínur rafræns skýrslugerðarsniðs](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Skjámynd síðunni Grunnlínur rafræns skýrslugerðarsniðs")
@@ -140,9 +137,6 @@ Til að ljúka skrefunum í þessu dæmi verður fyrst að ljúka skrefunum í d
 
 1. Á síðunni **Skilgreiningar**, á flýtiflipanum **Endurnýjanir** velurðu **Velja íhluti**.
 2. Í íhlutatré sniðmáta víkkarðu út **Úttak**, síðan **Úttak\\Skjal** og velur síðan hakreitinn fyrir **Úttak\\Skjal\\ProcessingDateTime**.
-
-    ![Veldu svarglugga íhluta](media/GER-BaselineSample-SelectComponentForBindingReplacement.PNG "Skjámynd af svarglugganum Velja íhluti")
-
 3. Veljið **Í lagi**.
 
 ![Síðan Grunnlínur rafræns skýrslugerðarsniðs](media/GER-BaselineSample-AddBaseline4.PNG "Skjámynd síðunni Grunnlínur rafræns skýrslugerðarsniðs")
@@ -162,19 +156,14 @@ Með því að stilla sérstakar ER-breytur er hægt að bæla tilkynningar sem 
 1. Á síðunni **Skilgreiningar**, í aðgerðarúðunni, á flipanum **Skilgreiningar**, velurðu **Færibreytur notanda**.
 2. Stilltu valkostinn **Hindra grunnlínuviðvaranir** á **Já** og veldu síðan **Í lagi**.
 
-![Svarglugginn Notendafæribreytur](media/GER-BaselineSample-ERUserParameters1.png "Skjámynd af svarglugganum Notendafæribreytur")
-
 ### <a name="review-the-generated-baseline-file"></a>Yfirfara myndaða grunnlínuskrá
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
 2. Veldu **Grunnlínur**.
 3. Veldu **Viðhengi**.
-
-    ![Síðan Viðhengi](media/GER-BaselineSample-AttachedBaselineFile.PNG "Skjámynd af síðunni Viðhengi")
-
     > [!NOTE]
     > Mynduð skrá inniheldur texta vinnsludagsetningar og tíma (**„#“**) úr bindingu sem var stillt í viðbættri reglu grunnlínu, ekki úr bindingu sniðsins.
-
+    
 4. Lokaðu síðunni **Viðhengi**.
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Keyrðu uppsett ER-snið og endurskoðaðu skrána til að greina niðurstöðurnar

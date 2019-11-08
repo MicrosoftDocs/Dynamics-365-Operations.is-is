@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8f4658696a2e6c2959b87aa852c25c108b9ba302
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 1776220766984339c7c289f7b55252fb0c0bb2a8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024845"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570657"
 ---
 # <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Setja upp og stjórna myndum fyrir Retail Modern POS (MPOS)
 
@@ -62,7 +62,7 @@ Myndir sem birtast í Retail Modern POS (MPOS) verður að vera hýst í ytra ke
 3. Á við **slóð Miðils** flýtiflipa, færið inn eftirstandandi slóð staðsetningar myndar. Slóð miðils styður **LanguageID** sem breytu. Fyrir sýnigögn er til dæmis hægt að stofna **Vörulista** möppu fyrir allar vörulistamyndir undir grunnvefslóð miðils fyrir miðlaþjón (`https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer`). Hægt er að hafa möppu fyrir hvert tungumál eins og is-IS eða fr-FR og afrita viðeigandi myndir í hverri möppu. Ef þú ert ekki með mismunandi myndir fyrir mismunandi tungumálum, er hægt að sleppa **LanguageID** breytu úr möppuskipulag- og vísa beint í Vörulistamöppuna sem inniheldur myndir vörulista.
 
     > [!NOTE]
-    > Ábending: gildandi útgáfu af Retail styður táknið **{LanguageId}** fyrir einingar Vörulista, Afurðar og Tegundar. (**{LanguageID}** tákn er ekki studd fyrir einingar Viðskiptavinur og Starfsmaður, samkvæmt staðli sem hefur verið virk frá Microsoft Microsoft Dynamics AX 6.x.)
+    > Ábending: gildandi útgáfu af Retail styður táknið **{LanguageId}** fyrir einingar Vörulista, Afurðar og Tegundar. (**{LanguageID}** tákn er ekki stutt fyrir einingar Viðskiptavinur og Starfsmaður, samkvæmt staðli sem hefur verið virkur frá Microsoft Dynamics AX 6.x.)
 
 4. Fyrir Myndir er skrárheitissniðið harðkóðaða í heiti vörulista og ekki er hægt að breyta. Þess vegna skal endurnefna myndir þannig að þeir hafi viðeigandi vörulistanöfn til að aðstoða við að tryggja að MPOS annast þær rétt.
 5. Í **Nafnauka skrár** skal velja áætluð nafnauka skrár, eftir gerð myndir sem þú ert með. Til dæmis, í sýnigögnum, eru myndir í vörulista stillt á nafnauka .jpg. (Myndaskrár eru einnig endurnefnd þannig að þeir hafa nöfn vörulista).
@@ -83,9 +83,7 @@ Myndir sem birtast í Retail Modern POS (MPOS) verður að vera hýst í ytra ke
     [![Svargluggi mynda](./media/catalog4.png)](./media/catalog4.png)
 
 > [!NOTE]
-> Hægt er að nota sömu aðferð fyrir allar fimm einingar sem eru studdar: Starfsmann, Viðskiptavin, Vörulista, Tegund og Afurðir. "vörulistaafurðir" (afurðir sem eru sett á stigi vörulista) og "Rásarafurða" (afurðir sem eru sett á stigi rásar) nota sniðmát miðilsins sem er sett upp fyrir Afurðareiningar. Fyrir Afurðasniðmát miðla er hægt að velja fjölda afurðamynda til að sýna fyrir hverja afurð. Einnig er hægt að stilla sjálfgefna mynd fyrir tiltekna vöru. Á þennan hátt er hægt að koma í veg fyrir að autt myndir í MPOS og hjálp til að stjórna hvaða mynd er notað sem sjálfgefin mynd fyrir afurðavara. Í eftirfarandi dæmi hefur hverja afurð fimm myndir og fyrsta mynd er stillt sem sjálfgefin mynd. Afurðarafbrigði eru meðhöndlaðar á sama hátt og aðalafurð. Skrárheiti myndskráa ættu að byggja á afurðarnúmer. Sumir stafir eru einnig ekki hafðir með á meðan skrárheiti er mynduð. Því er gott að staðfesta skrárheiti með því að nota **Mynda Vefslóðir mynda fyrir Excel** hluta.
->
-> [![Skilgreina svarglugga fyrir sniðmát miðla](./media/prods.png)](./media/prods.png)
+> Hægt er að nota sömu aðferð fyrir allar fimm einingar sem eru studdar: Starfsmann, Viðskiptavin, Vörulista, Tegund og Afurðir. "vörulistaafurðir" (afurðir sem eru sett á stigi vörulista) og "Rásarafurða" (afurðir sem eru sett á stigi rásar) nota sniðmát miðilsins sem er sett upp fyrir Afurðareiningar. Fyrir Afurðasniðmát miðla er hægt að velja fjölda afurðamynda til að sýna fyrir hverja afurð. Einnig er hægt að stilla sjálfgefna mynd fyrir tiltekna vöru. Á þennan hátt er hægt að koma í veg fyrir að autt myndir í MPOS og hjálp til að stjórna hvaða mynd er notað sem sjálfgefin mynd fyrir afurðavara. Í eftirfarandi dæmi hefur hverja afurð fimm myndir og fyrsta mynd er stillt sem sjálfgefin mynd. Afurðarafbrigði eru meðhöndlaðar á sama hátt og aðalafurð. Skrárheiti myndskráa ættu að byggja á afurðarnúmer. Sumir stafir eru einnig ekki hafðir með á meðan skrárheiti er mynduð. Því er gott að staðfesta skrárheiti með því að nota **Mynda Vefslóðir mynda fyrir Excel** hluta. Sjá kaflann [Yfirskrifa með því að nota Breyta í Excel](#overwrite-by-using-edit-in-excel) síðar í þessari grein.
 
 ## <a name="synchronization-jobs-to-send-a-media-template-to-the-channel-side"></a>Samstillingarvinnslur til að senda sniðmát miðla í hlið rásar
 
@@ -110,8 +108,6 @@ Eins og þú lærðir í fyrri hluta, styður miðlasniðmát fyrir tiltekna ein
 
     > [!IMPORTANT]
     > Hvenær sem sniðmát miðils er breytt þarf að smella á **Mynda** áður en hægt er að nota Breyta í Excel eiginleika.
-
-    [![Búa til vefslóðir myndar fyrir Excel flýtiflipa](./media/excel1.jpg)](./media/excel1.jpg)
 
     Nú sérðu forskoðun á vefslóðum mynda sem voru búnir til samkvæmt síðasta vistaða miðla sniðmáti.
 

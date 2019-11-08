@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b38fb087fb572362c27e747e7909060c55a242a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 22d16219df9319d276514c62348c0e1995d22715
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250202"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653603"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Samstarf lánardrottna með ytri lánardrottnum
 
@@ -190,7 +190,7 @@ Taflan hér að neðan sýnir dæmi um breytingar á stöðu og útgáfum sem In
 Lánardrottnar þurfa ekki að staðfesta Innkaupapöntun með því að nota viðmóti fyrir samstarf lánardrottna. Þeir geta einnig sent skilaboð í tölvupósti eða tilkynnt samþykki Innkaupapöntunarinnar gegnum aðrar rásir. Þú getur síðan samþykkt pöntunina handvirkt. Í þessu tilfelli berst þér viðvörun sem tilkynnir að verið sé að staðfesta pöntun jafnvel þótt að það er ekkert svar frá lánardrottni. Innkaupapöntunin birtist síðan í staðfestingarferli sem opin staðfest pöntun sem hefur ekki svör. Lánardrottinn hefur á þessu stigi ekki lengur valkost til að staðfesta eða hafna innkaupapöntun.
 
 > [!NOTE]
-> Sú útgáfa Innkaupapöntunar sem er tiltæk öðrum vinnslum í Finance and Operations er alltaf síðasta útgáfa, jafnvel þó að sú útgáfa hafi ekki enn verið skráð í viðmóti fyrir samstarf lánardrottna.
+> Sú útgáfa Innkaupapöntunar sem er tiltæk öðrum vinnslum í Supply Chain Management er alltaf síðasta útgáfa, jafnvel þó að sú útgáfa hafi ekki enn verið skráð í viðmóti fyrir samstarf lánardrottna.
 
 ### <a name="versions-and-statuses-if-you-use-change-management"></a>Útgáfur og stöður ef þú notar breytingastjórnun
 

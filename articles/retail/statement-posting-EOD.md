@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8c22137ad29bf947bc7a9e4c9a4d1332e03b1298
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 1e3fc0e8cb5c9a6cc7729dfbddd5d918a1d6bdb5
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606965"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653372"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Endurbætur á virkni yfirlitsbókunar
 
@@ -37,7 +37,7 @@ Sjálfgefið er, við uppsetningu á Finance and Operations 7.3.2, að forritið
 
 Þegar kveikt er á nýja skilgreiningarlyklinum fyrir **Smásöluuppgjör** er nýtt valmyndaratriði sem heitir **Smásöluuppgjör** tiltækt. Þetta valmyndaratriði gerir þér kleift að búa til handvirkt, reikna og bóka uppgjör. Öll uppgjör sem valda villu þegar runubókunarferlið er notað verða einnig tiltæk í gegnum þetta valmyndaratriði. (Þegar kveikt er á skilgreiningarlyklinum fyrir **Smásöluuppgjör (eldra)** er valmyndaratriðið kallað **Opin yfirlit**.)
 
-Finance and Operations felur í sér eftirfarandi staðfestingar sem tengjast þessum skilgreiningarlyklum:
+Retail felur í sér eftirfarandi staðfestingar sem tengjast þessum skilgreiningarlyklum:
 
 - Ekki er hægt að kveikja á báðum skilgreiningarlyklunum á sama tíma.
 - Það verður að nota sömu skilgreiningarlyklana fyrir allar þær aðgerðir sem eru framkvæmdar á tilteknu uppgjöri á meðan á líftíma þess stendur (stofna, reikna út, hreinsa, bóka, o.s.frv.). Til dæmis getur þú ekki búið til og reiknað út uppgjör á meðan kveikt er á skilgreiningarlyklinum fyrir **Smásöluuppgjör (eldra)** og síðan reyna að bóka sama uppgjör á meðan kveikt er á skilgreiningarlyklinum fyrir **Smásöluuppgjör**.

@@ -3,7 +3,7 @@ title: Fjarlægðar eða úreltar aðgerðir fyrir Finance and Operations
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir.
 author: sericks007
 manager: AnnBe
-ms.date: 09/17/2019
+ms.date: 10/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70bb8404c5b0e2422948d0b89311c384e3686710
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4e1c5dea039ae6482bfd9e036642c23463f5bc3a
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181083"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658691"
 ---
 # <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Fjarlægðar eða úreltar aðgerðir fyrir Finance and Operations
 
@@ -38,13 +38,42 @@ ms.locfileid: "2181083"
 > [!NOTE]
 > Frá og með útgáfu Finance and Operations í júlí 2017 með verkvangsuppfærslu 8, eru uppsetningargerðir merktar út frá sérhverjum eiginleika sem hefur verið fjarlægður eða úreltur. Allar fyrri útgáfur sem nefndar eru í þessu efnisatriði studdu aðeins dreifingar til skýjanna.
 
-> Ítarlegar upplýsingar um hluti í Finance and Operations má finna í [Tæknileg tilvísunarskjöl](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu Finance and Operations.
+Ítarlegar upplýsingar um hluti í Finance and Operations má finna í [Tæknileg tilvísunarskjöl](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu Finance and Operations.
 
+## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 með verkvangsuppfærslu 31
+
+### <a name="chinese-voucher-types-without-account-groups-selection"></a>Kínverskar fylgiskjalsgerðir án vals á lyklahópum
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Skipt í aðgerðina með vali á lyklahópum. |
+| **Skipt út fyrir aðra eiginleika?**   | Já |
+| **Afurðasvæði sem haft er áhrif á**         | Forrit |
+| **Dreifingarvalkostur**              | Öll |
+| **Staða**                         | Úrelt: Þann 1. desember 2020 munum við að ekki lengur styðja uppsetningu kínverskra fylgiskjala án vals á lyklahópum. Nánari upplýsingar um nýjar aðgerðir er að finna í Nýjungar í 10.0.7 |
 
 ## <a name="finance-and-operations-1006-with-platform-update-30"></a>Finance and Operations 10.0.6 með verkvangsuppfærslu 30
 
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.6 með verkvangsuppfærslu 30 er í boði fyrir ákveðna notendur sem hluti af forútgáfu. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í hlutanum [Framboð þjónustuuppfærslu](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash(str _message)
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Windows afskrifar notkun á SHA1, eins og skjalfest er í [Windows Enforcement of SHA1 Certificates](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx).  |
+| **Skipt út fyrir aðra eiginleika?**   | Já |
+| **Afurðasvæði sem haft er áhrif á**         | Forrit |
+| **Dreifingarvalkostur**              | Öll |
+| **Staða**                         | Úrelt: Frá og með 1. apríl 2020 verða verktakar að nota nýja API. |
+
+### <a name="hashcomputesha1hashstring-message"></a>Hash.ComputeSHA1Hash(strengjaboð)
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Windows afskrifar notkun á SHA1, eins og skjalfest er í [Windows Enforcement of SHA1 Certificates](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx).  |
+| **Skipt út fyrir aðra eiginleika?**   | Já |
+| **Afurðasvæði sem haft er áhrif á**         | Kerfi |
+| **Dreifingarvalkostur**              | Öll |
+| **Staða**                         | Úrelt: Frá og með 1. apríl 2020 verða verktakar að nota nýja API. |
+
 
 ### <a name="formdatetimecontrolsetutcstring"></a>FormDateTimeControl.setUtcString()
 
@@ -308,7 +337,7 @@ Engir eiginleikar hafa verið fjarlægðir eða úreltir með þessari útgáfu.
 ## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Finance and Operations, Enterprise Edition 7.3 með verkvangsuppfærslu 12
 
 ### <a name="personalized-product-recommendations"></a>Sérsniðnar afurðaráðleggingar 
-Frá og með 15. febrúar, 2018, munu smásalar ekki lengur geta birt sérsniðnar vöruráðleggingar á sölustaðartæki. Nánari upplýsingar eru í [Sérsniðnar vöruráðleggingar](../../retail/personalized-product-recommendations.md).  
+Frá og með 15. febrúar, 2018, munu smásalar ekki lengur geta birt sérsniðnar vöruráðleggingar á sölustaðartæki. Frekari upplýsingar eru í [Yfirlit afurðarráðlegginga](../../../commerce/product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -413,7 +442,7 @@ Notendur geta sótt þetta frá ríkisstjórnargáttinni.
 ## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
 
 ### <a name="personalized-product-recommendations"></a>Sérsniðnar afurðaráðleggingar 
-Frá og með 15. febrúar, 2018, munu smásalar ekki lengur geta birt sérsniðnar vöruráðleggingar á sölustaðartæki. Nánari upplýsingar eru í [Sérsniðnar vöruráðleggingar](../../retail/personalized-product-recommendations.md).  
+Frá og með 15. febrúar, 2018, munu smásalar ekki lengur geta birt sérsniðnar vöruráðleggingar á sölustaðartæki. Frekari upplýsingar eru í [Yfirlit afurðarráðlegginga](../../../commerce/product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -445,7 +474,7 @@ Vöruhús fjarskiptatæki portal (WMDP) var sjálfstæður þáttur sem var gert
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Afrituð virkni.       |
-| **Skipt út fyrir aðra eiginleika?**   | Já. Þessari aðgerð hefur verið skipt út fyrir Finance and Operations - Warehousing. Nánari upplýsingar um uppsetningu og skilyrði er að finna í [Setja upp og skilgreina Microsoft Dynamics 365 for Finance and Operations - Vöruhús](../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **Skipt út fyrir aðra eiginleika?**   | Já. Þessari aðgerð hefur verið skipt út fyrir Finance and Operations - Warehousing. Nánari upplýsingar um uppsetningu og skilyrði er að finna í [Setja upp og skilgreina Microsoft Dynamics 365 for Finance and Operations - Vöruhús](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Afurðasvæði sem haft er áhrif á**         | Vöruhúsastjórnun, flutningsstjórnun     |
 | **Dreifingarvalkostur**              | Vöruhús fjarskiptatæki portal (WMDP) var sjálfstæður þáttur sem var gert ráð fyrir verslunarsvæðis á sjálfnýtingu.               |
 | **Staða**                         | Úrelt: Tímarammi markmiðs um að fjarlægja virknina er Q4 2019.   |
@@ -1215,7 +1244,7 @@ Vörusamsetning (Product builder) var notaður til að setja saman á lifandi h�
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Product builder birti X ++ kóða til að endanotenda og er ekki studdur í þessari útgáfu af Dynamics AX. Það hefur verið fjarlægð til að koma í veg fyrir tvíteknar viðhaldsvinnu á kóðagrunnum sem skarast.  |
-| **Skipt út fyrir aðra eiginleika?**   | Já. Skorðuskilgreiningin var kynnt í Dynamics AX 2012 þar sem úrelding Vörusamsetningar í framtíðarútgáfum var þegar tilkynnt. Skorðuskilgreiningartæknin valin á vörustjórunum til að virkja grunnstillingarnar. Frekari upplýsingar, sjá [Byggja líkan vöruskilgreiningar](../../supply-chain/pim/build-product-configuration-model.md). |
+| **Skipt út fyrir aðra eiginleika?**   | Já. Skorðuskilgreiningin var kynnt í Dynamics AX 2012 þar sem úrelding Vörusamsetningar í framtíðarútgáfum var þegar tilkynnt. Skorðuskilgreiningartæknin valin á vörustjórunum til að virkja grunnstillingarnar. Frekari upplýsingar, sjá [Byggja líkan vöruskilgreiningar](../../../supply-chain/pim/build-product-configuration-model.md). |
 | **Afurðasvæði sem haft er áhrif á**         | Stjórnun á upplýsingum um afurðir, Sölu og markaðssetningu  |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.      |
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eca732f245650c8e1f3dc976454536a0ab1ee117
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: 4c9a2fee7d43142f8bb17f4e819c9949a2a20c41
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922023"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570031"
 ---
 # <a name="maintenance-rounds"></a>Viðhaldslotur
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Í **Eignastjórnun** er hægt er að stofna viðhaldslotur fyrir ýmsar eignir, þar sem þú þarft að framkvæma svipað verk með reglulegu millibili. Til dæmis smurverk eða öryggisskoðunarstörf sem þarf að framkvæma á fjölda véla með sama millibili. Fyrsta skrefið er að búa til viðhaldslotu, einnig á eignum sem krefjast sams konar viðhaldsverka. Næst skipuleggur þú viðhaldsloturnar. Þegar þú hefur lokið áætlun um viðhaldsloturnar geturðu séð allar starfsskrárnar sem tengjast lotunni í **Allar viðhaldsáætlanir** og **Opnar viðhaldsáætlunarlínur**.
 

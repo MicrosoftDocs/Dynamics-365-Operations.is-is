@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfd62a18d6b4cfc8c41d9025a8fc5deb8768ed3f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 609146ebc5a31e5b28ca9ed6e04ed82b6bb1b03e
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250922"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571117"
 ---
 # <a name="maintenance-requests"></a>Viðhaldsbeiðnir
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Þú getur sett upp ýmsar tegundir af beiðnum til notkunar í fyrirtækinu þínu. Viðhaldsbeiðnir eru ein gerð. Viðhaldsbeiðnir eru notaðar til að biðja um að verkbeiðni sé gerð áskilin fyrir tiltekið starf. Viðhaldsbeiðni er hægt að stofna af öllum notendum sem hafa aðgang að eignastýringu. Skipuleggjandi eða stjórnandi getur síðan ákveðið hvort breyta eigi viðhaldsbeiðni í verkbeiðni eða hvort hún eigi að ljúka eigin líftíma.
 
@@ -41,4 +41,4 @@ ms.locfileid: "2250922"
 
 Eftirfarandi mynd sýnir dæmi um listasíðuna **Allar viðhaldsbeiðnir**.
 
-![Mynd 1](media/01-setup-for-requests.png)
+![Listasíðan Allar viðhaldsbeiðnir](media/01-setup-for-requests.png)

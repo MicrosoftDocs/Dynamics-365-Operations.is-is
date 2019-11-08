@@ -1,6 +1,6 @@
 ---
 title: Yfirlit yfir flutningsstjórnun
-description: Í þessu Umfjöllunarefni er að finna yfirlit yfir Flutningar Stjórnun virkni í Finance and Operations.
+description: Í þessu Umfjöllunarefni er að finna yfirlit yfir Flutningar Stjórnun virkni í Supply Chain Management.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d976ec4d3c294f0ce8e9732b21b9a429f1e47315
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: fa59a8e6e4744c776ec0e1dc84b1f004dbd796f6
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2027062"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653580"
 ---
 # <a name="transportation-management-overview"></a>Yfirlit flutningsstjórnunar
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu Umfjöllunarefni er að finna yfirlit yfir Flutningar Stjórnun virkni í Finance and Operations.
+Í þessu Umfjöllunarefni er að finna yfirlit yfir Flutningar Stjórnun virkni í Supply Chain Management.
 
 Flutningsstjórnun leyfir þér að nota flutninga innan fyrirtækis þíns, og þekkja lausnir lánardrottna og leiðir fyrir pantanir á inn og útleið. Til dæmis er hægt að auðkenna hraðast leið eða ódýrast taxta fyrir sendingu. Eftirfarandi tafla lýsir helstu aðstæðum þar sem hægt er að nota flutningsstjórnun.
 
@@ -67,23 +67,23 @@ Flutningsstjórnun leyfir þér að nota flutninga innan fyrirtækis þíns, og 
 </tbody>
 </table>
 
-## <a name="planning-transportation-in-finance-and-operations"></a>Áætlun flutnings í Finance and Operations
+## <a name="planning-transportation-in-supply-chain-management"></a>Skipulagning á flutningi í Supply Chain Management
 Í flutningsstjórnun, er hægt að byggja flutningsáætlun annað hvort á pöntunum eða á sendingunum sem eru stofnaðar samkvæmt þeim pöntunum. Sendingar eru alltaf til á einhverjum tímapunkti en þeirra er ekki þörf í flutningsáætlunum. Flutningspantanir eru hluti af aðstæðum á útleið og hægt er að áætla þær með sölupöntunum. 
 
 ![Sækja teikningu](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Flutningur á innleið
-Þegar vörur eru pantaðar frá lánardrottni og afhenda verður vörurnar til vöruhúsins, kann notandi að vilja raða flutningi varanna sjálfur. Hægt er að nota Finance and Operations til að áætla flutning og móttöku hleðslu á innleið. Eftirfarandi skýringarmynd sýnir flæði viðskiptaferlis fyrir flutning á innleið farms fyrir áætlun. 
+Þegar vörur eru pantaðar frá lánardrottni og afhenda verður vörurnar til vöruhúsins, kann notandi að vilja raða flutningi varanna sjálfur. Hægt er að nota Supply Chain Management til að áætla flutning og móttöku hleðslu á innleið. Eftirfarandi skýringarmynd sýnir flæði viðskiptaferlis fyrir flutning á innleið farms fyrir áætlun. 
 
 ![Flæði viðskiptaferlis fyrir flutning farms á innleið](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Flutningur á útleið
-Hægt er að áætla og vinna farm á útleið til að senda tilteknar vörur úr vöruhúsi fyrirtækis til viðskiptavinar. Hægt er að nota Finance and Operations til að áætla flutning og sendingu hleðslu á útleið. Eftirfarandi skýringarmynd sýnir flæði viðskiptaferlis fyrir áætlanagerð og vinnslu á útleið farma fyrir sendingu. 
+Hægt er að áætla og vinna farm á útleið til að senda tilteknar vörur úr vöruhúsi fyrirtækis til viðskiptavinar. Hægt er að nota Supply Chain Management til að áætla flutning og sendingu á farmi á útleið. Eftirfarandi skýringarmynd sýnir flæði viðskiptaferlis fyrir áætlanagerð og vinnslu á útleið farma fyrir sendingu. 
 
 ![Áætlun og vinnsla hleðslu á útleið](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Hleðsluáætlun
-Finance and Operations býður upp á hleðsluáætlun sem nefnist hleðsluáætlun byggð á rúmmáli. Þessi aðferð gerir kleift að nota hámarks gildi sem eru tilgreind fyrir hæð og þyngd í hleðslusniðmátinu eða hnekkja stillingum með því að færa inn ný gildi. Til að nota þessa aðferð skal velja hana í reitnum **Hleðsluáætlun** á flýtiflipanum **Uppsetning** í skjámyndinni **Hlaða sniðmáti hleðslu**. Þar að auki, er hægt að bæta við eigin hleðsluáætlun með því að stofna nýjan klasa í Hugbúnaðarhlutatrénu (AOT).
+Supply Chain Management býður upp á hleðsluáætlun sem nefnist hleðsluáætlun byggð á rúmmáli. Þessi aðferð gerir kleift að nota hámarks gildi sem eru tilgreind fyrir hæð og þyngd í hleðslusniðmátinu eða hnekkja stillingum með því að færa inn ný gildi. Til að nota þessa aðferð skal velja hana í reitnum **Hleðsluáætlun** á flýtiflipanum **Uppsetning** í skjámyndinni **Hlaða sniðmáti hleðslu**. Þar að auki, er hægt að bæta við eigin hleðsluáætlun með því að stofna nýjan klasa í Hugbúnaðarhlutatrénu (AOT).
 
 
 

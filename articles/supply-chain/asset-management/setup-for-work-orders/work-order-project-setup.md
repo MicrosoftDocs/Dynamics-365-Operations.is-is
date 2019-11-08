@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 29f9975d8270b3f79d0aac0c62609b4a9c71ae89
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 322e3ac6f7c37fffdd4d59ed86bccec10559f4b9
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874625"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569778"
 ---
 # <a name="work-order-project-setup"></a>Verkuppsetning verkbeiðni
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Í einingunni **Eignastýring** er verkvensla krafist fyrir hvert verk verkbeiðni. Verkefnið sem er tengt verkbeiðniverki gerir þér kleift að fylgjast með kostnaði við ýmis verkefni sem tengjast eignastýringu, svo sem innri viðhaldsverkefnum, þjónustustjórnunarverkum og fjárfestingarverkefnum. 
 
@@ -72,7 +72,7 @@ Uppsetningin gerir ráð fyrir fullkominni samþættingu við eininguna **Verkef
 
     Sjálfgefið er að upphafsdagsetningin sé dagsetningin þegar þú bætir verkbeiðniverkinu við síðuna. Því er stjórnað af reitnum **Gildir frá** sem er falinn sjálfgefið. Til að sýna reitinn **Gildir frá** velurðu **Skoða** \> **Allt**. Þú getur síðan notað reitinn **Gildir frá** ásamt reitnum **Lokadagsetning** til að setja upp takmarkaðan gildistíma verkbeiðnaverksins.
 
-    ![Mynd 1](media/17-setup-for-work-orders.png)
+    ![Síðan Verkuppsetning verkbeiðna](media/17-setup-for-work-orders.png)
 
 6. Á flipanum **Verkefnahópur** velurðu **Bæta við**.
 7. Í reitnum **Verkbeiðni** velurðu gerð verkbeiðni.
@@ -80,7 +80,7 @@ Uppsetningin gerir ráð fyrir fullkominni samþættingu við eininguna **Verkef
 9. Í reitnum **Verkefnahópur** velurðu verkefnahópinn sem ætti að tengjast gerð verkbeiðninnar. Til dæmis kann gerð verkbeiðni sem er nefnd **Forvirkt viðhald** verið tengd verkefnahópi sem er nefndur **Fyrra viðh.** eða **Innra**. Að öðrum kosti, kann gerð verkbeiðni **Fjárfesting** sem er notuð við verkbeiðnir sem tengjast fjárfestingum og fastafjármunum að tengjast verkefnahópi sem nefndur er **Fjárfesta** eða **Fjárfesting**.
 10. Veljið **Vista**.
 
-![Mynd 2](media/18-setup-for-work-orders.png)
+![Síðan Verkuppsetning verkbeiðna, Bæta við vinnupöntun](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
 > Í hvert skipti sem verkbeiðnilína er búin til leitar Eignastjórnun að verkefnahópi sem ætti að tengjast verkbeiðniverkefninu. Leitin er byggð á uppsetningunni sem lýst er í þessu efni. Sérhver verkefnahópur er með tilheyrandi verkefnisgerð. Verkefnahópar sem hafa verkgerðina **Tími og efni** eða **Fast verð** gilda aðeins fyrir eignir sem tengjast viðskiptamannareikningi.

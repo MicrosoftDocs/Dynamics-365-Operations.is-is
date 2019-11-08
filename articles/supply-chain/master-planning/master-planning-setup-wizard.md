@@ -3,7 +3,7 @@ title: Leiðsagnarforrit fyrir uppsetningu áætlanagerðar
 description: Þetta efni lýsir ýmsum mikilvægum áætlunum og breytum sem eru notaðar til að setja upp aðaláætlanagerð.
 author: t-benebo
 manager: AnnBe
-ms.date: 08/05/2019
+ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,23 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 0310ac55d35421d8ad9080739fc5a393660ce520
-ms.sourcegitcommit: 261dc882710f29303b14f9be8a26d71d85d25345
+ms.openlocfilehash: 8fbccce6e23c9bc965f66f761f4c1cab32224ef1
+ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "1999535"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "2635127"
 ---
 # <a name="master-planning-setup-wizard"></a>Leiðsagnarforrit fyrir uppsetningu áætlanagerðar
 
 [!include [banner](../includes/banner.md)]
 
 Þetta efni veitir leiðbeiningar fyrir **Leiðsagnarforrit fyrir uppsetningu áætlanagerðar**. Það útskýrir hvernig færibreytutillögur eru reiknaðar og einnig eru dæmi sem sýna hvernig mismunandi fyrirtæki setja upp aðalskipulagningu, byggt á viðskiptaþörf þeirra.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3YnSB]
+
+Myndbandið [Leiðsagnarforrit fyrir uppsetningu áætlanagerðar í Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (sýnt hér að ofan) er innifalið í [Spilunarlista Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er tiltækt í YouTube.
+
 
 ## <a name="specific-requirements-of-your-company"></a>Sérstakar kröfur fyrirtækisins
 
