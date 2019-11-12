@@ -3,7 +3,7 @@ title: Viðhaldsspár
 description: Þetta efni skýrir viðhaldsspár í eignastýringu.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,104 +16,111 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a1596b283c3eaffca25ff7f03c722a2bcce109fb
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024500"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626294"
 ---
 # <a name="maintenance-forecasts"></a>Viðhaldsspár
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-Þegar þú býrð til verkbeiðni býrðu til verkbeiðnivinnslur með tengdar eignir og tegundir viðhaldsverka. Þegar þú velur tegund viðhaldsverks sem inniheldur viðhaldsspár eru spárnar afritaðar sjálfkrafa í verkbeiðnina.
+Þegar þú býrð til verkbeiðni býrðu til verkbeiðnivinnslur sem hafa tengdar eignir og tegundir viðhaldsverka. Þegar þú velur tegund viðhaldsverks sem inniheldur viðhaldsspár eru spárnar afritaðar sjálfkrafa í verkbeiðnina.
 
-Þú gætir verið fær um að bæta við eða eyða spálínum í verkbeiðni. Uppsetning á líftímastöðu verkbeiðni, tengdri verkefnisgerð og stigareglum sem tengjast verkgerðinni ákvarðar hvort þú getur bætt við eða breytt spálínum. 
+Hugsanlega er hægt að bæta spálínum við verkbeiðni eða eyða þeim úr verkbeiðni. Uppsetning á líftímastöðu verkbeiðni, tengdri verkefnisgerð og stigareglum sem tengjast verkgerðinni ákvarðar hvort þú getur bætt við eða breytt spárlínum. Nánari upplýsingar um líftímastöður verkbeiðna og tengd verkefnastig, sjá [Spár, verkbeiðnir og verk](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
-1. Smelltu á **Eignastýringu** > **Sameiginlegt** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir**.
+1. Veldu **Eignastýringu** > **Sameiginlegt** > **Verkbeiðnir** > **Allar verkbeiðnir** eða **Virkar verkbeiðnir**.
 
-2. Veldu verkbeiðnina á listanum og smelltu á **Spá**. Í **Viðhaldsspá verkbeiðni** birtast spálínur úr gerð viðhaldsverks sem var valin í verkbeiðnivinnslunni.
+2. Veldu verkbeiðni á listanum og síðan á aðgerðarrúðunni > flipanmu **Verkbeiðni** > hópnum **Verk**, velurðu **Spá**. Síðan **Viðhaldsspá verkbeiðni** sýnir spálínur úr gerð viðhaldsverks sem er valið í verkbeiðnivinnslunni.
 
 
-## <a name="add-hours-forecast-to-a-work-order"></a>Bættu tímaspá við verkbeiðni
+## <a name="add-an-hours-forecast-to-a-work-order"></a>Bættu tímaspá við verkbeiðni
 
-1. Veldu vinnslu verkbeiðni sem þú vilt bæta við spá.
+1. Á síðunni **Viðhaldsspá verkbeiðni** velurðu vinnslu verkbeiðni til að bæta spá við.
 
-2. Á flýtiflipanum **Klukkustundir** skaltu smella á **Bæta við** til að búa til nýja línu.
+2. Á flýtiflipanum **Klukkustundir** skaltu velja **Bæta við** til að búa til nýja línu.
 
-3. Veljið flokk í reitnum **Flokkur**.
+3. Í reitnum **Flokkur** velurðu flokk.
 
 4. Settu fjölda spáðra tíma inn í reitinn **Klukkutímar**.
 
-5. Í reitnum **Línueign** skaltu velja gjaldtegundina sem á að nota á línunni.
+5. Í reitnum **Línueign** skaltu velja tegund gjalds sem á að nota á línunni.
 
 
-## <a name="add-items-forecast-to-a-work-order"></a>Bættu vöruspá við verkbeiðni
+## <a name="add-an-items-forecast-to-a-work-order"></a>Bættu vöruspá við verkbeiðni
 
-Það eru þrjár leiðir til að bæta vörum við viðhaldsspá fyrir verkbeiðni: Þú getur búið til línur fyrir vörur (varahluti) sem eru ekki með í varahlutalistanum eða uppskrift eignar, þú getur valið varahluti af samþykktum varahlutalista og þú getur valið vörur úr uppskrift eignar.
+Það eru þrjár leiðir til að bæta hlutum við viðhaldsspá fyrir verkbeiðni. Þú getur búið til línur fyrir vörur (varahluti) sem eru ekki með í varahlutalistanum eða uppskrift eignar (BOM), þú getur valið varahluti af samþykktum varahlutalista og þú getur valið vörur úr uppskrift eignar.
 
-1. Veldu vinnslu verkbeiðni sem þú vilt bæta við spá.
+- Á síðunni **Viðhaldsspá verkbeiðni** velurðu vinnslu verkbeiðni til að bæta spá við.
 
-2. Velja skal flýtiflipann **Vörur**.
+- Á flýtiflipanum **Atriði** bætirðu atriðum við viðhaldsspá með því að nota viðeigandi aðferð.
 
-3. Smelltu á **Bæta við** til að búa til nýja línu fyrir varahluti sem er ekki á varahlutalistanum eða lista yfir uppskriftir eigna.
+Til að stofna línu fyrir varahlut sem er ekki á varahlutalistanum eða lista yfir uppskriftir eigna fylgirðu þessum skrefum:
 
-4. Veldu vöru í reitnum **Vörunúmer**.
+1. Veljið **Bæta við**.
+2. Veldu vöru í reitnum **Vörunúmer**.
+3. Inn í reitinn **Sölumagn** skal slá inn magnið.
+4. Í reitnum **Einingu** velurðu mælieiningu fyrir magnið.
+5. Í reitunum **Kostnaðarverð** og **Gjaldmiðill** slærðu inn viðeigandi gildi.
+6. Í reitnum **Línueign** velurðu línueign.
+7. Til að breyta lista yfir víddir sem eur sýndar í vörulínunum velurðu **Birgðir** > **Sýna víddir**, velur víddirnar og stillir síðan valkostinn **Vista uppsetningu** á **Já**.
 
-5. Settu magn inn í reitinn **Sölumagn** og veldu magneiningu í reitnum **Eining**.
+Fylgdu þessum skrefum til að bæta við varahlutum úr viðurkenndum varahlutalista:
 
-6. Settu inn kostnaðarverð og gjaldmiðil í viðkomandi reiti og veldu **Línueiginleiki**.
+1. Veldu **Bæta við varahlutum**.
+2. Veldu varahlutinn og breyttu tengdum upplýsingum eftir þörfum.
+3. Veljið **Í lagi**.
 
-7. Ef þú vilt breyta lista yfir víddir sem birtast í vörulínunum smellirðu á **Birgðir** > **Sýna víddir**, velur víddirnar og velur „Já“ á skiptihnappnum **Vista uppsetningu**.
+Fylgdu þessum skrefum til að bæta við vöru úr uppskrift eignar:
 
-8. Ef þú vilt bæta viðurkenndum varahlutum við viðhaldsspá smellirðu á **Bæta við varahlutum**, velur varahlutinn, breytir tengdum upplýsingum ef þörf krefur og smellir á **Í lagi**.
+1. Veldu **Bæta uppskriftarhlutum við**.
+2. Veldu vöru og breyttu tengdum upplýsingum eftir þörfum.
+3. Veljið **Í lagi**.
 
-9. Ef þú vilt bæta uppskriftahlutum eigna við spána smellirðu á **Bæta uppskriftarhlutum við**, velur hlutinn, breytir upplýsingum ef þörf krefur og smellir á **Í lagi**.
-
-10. Smelltu á **Notkunarstaður vöru** ef þú vilt fá yfirlit yfir hvar vara í valinni línu er notuð í eignastjórnun í tengslum við eignir, tegundasjálfgildi viðhaldsverka, varahluti og verkbeiðnir. 
+Til að fá yfirlit sem sýnir hvar hluturinn á völdum línum er notaður í tengslum við eignir, vanskil tegunda viðhaldsverka, varahluti og verkbeiðnir í eignastýringu velurðu **Notkunarstaður vöru**. Fyrir frekari upplýsingar um þetta yfirlit, sjá [Notkunarstaður vöru](../controlling-and-reporting/item-where-used.md).
 
 
+## <a name="add-an-expense-forecast-to-a-work-order"></a>Bættu kostnaðarspá við verkbeiðni
 
-## <a name="add-expense-forecast-to-a-work-order"></a>Bættu kostnaðarspá við verkbeiðni
+1. Á síðunni **Viðhaldsspá verkbeiðni** velurðu vinnslu verkbeiðni til að bæta spá við.
 
-1. Þetta efni útskýrir hvernig á að bæta kostnaðarspá við kostnaður. Veldu vinstra megin í skjámyndinni þá verkbeiðni sem þú vilt bæta spá við.
+2. Á flýtiflipanum **Kostnaður** skaltu velja **Bæta við** til að búa til línu.
 
-2. Velja skal flýtiflipann **Kostnaður**.
+3. Í reitnum **Flokkur** velurðu flokk.
 
-3. Smellt er á **Bæta við** til að búa til nýja línu.
+4. Inn í reitinn **Magn** skal slá inn magnið.
 
-4. Veljið flokk í reitnum **Flokkur**.
+5. Í reitina **Kostnaðarverð**, **Sölugjaldmiðill** og **Söluverð** skaltu rita viðeigandi gildi.
 
-5. Settu magn inn í reitinn **Magn**.
-
-6. Settu inn kostnaðarverð, sölugjaldmiðil og söluverð í viðkomandi reiti.
-
-7. Í reitnum **Línueign** skaltu velja gjaldtegundina sem á að nota á línunni.
+6. Í reitnum **Línueign** skaltu velja tegund gjalds sem á að nota á línunni.
 
 >[!NOTE]
->Á flýtiflipanum **Viðhaldsspá samtals** geturðu séð yfirlit yfir fjölda lína sem eru búnar til á hverjum flipa, fyrir valið verk í pöntun og fyrir verkbeiðni. Einnig er hægt að sjá summu af spáðum vinnutíma fyrir verkbeiðnivinnsluna og fyrir verkbeiðnina.
+>Flýtiflipinn **Viðhaldsspá samtals** sýnir yfirlit yfir fjölda lína sem hafa verið stofnaðar fyrir valið verk í pöntun og fyrir verkbeiðni á hverjum flýtiflipa. Hann sýnir einnig samtölu af spáðum vinnutíma fyrir verkbeiðnivinnsluna og verkbeiðnina.
+
+Skýringarmyndin hér að neðan sýnir dæmi um síðuna **Viðhaldsspá verkbeiðni**.
 
 ![Mynd 1](media/06-work-orders.png)
 
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Sjálfvirk uppfærsla á spám um verkbeiðnir
 
-Í eignastjórnun geturðu sjálfkrafa uppfært allar breytingar á spám um verkbeiðnir varðandi kostnað á klukkustund, vörukostnað og útgjöld sem hafa verið uppfærð í öðrum einingum. Þetta er gert til að tryggja að nýjustu kostnaðarverðin séu ávallt notuð í spám þínum um verkbeiðnir. Það er líka mögulegt að gera svipaðar uppfærslur fyrir [spár um viðhaldverk](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
+Ef kostnaður á klukkustund, vörukostnaður og útgjöld eru uppfærð í öðrum kerfiseiningum í Microsoft Dynamics 365 for Finance and Operations, er hægt að uppfæra verkbeiðnispár í eignastýringu sjálfkrafa til að endurspegla þessar breytingar. Þessi afkastageta tryggir að nýjustu kostnaðarverðin séu ávallt notuð í spám þínum um verkbeiðnir. Einnig er hægt að gera svipaðar uppfærslur fyrir [spár um viðhaldverk](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
-1. Smelltu á **Eignastjórnun** > **Reglubundið** > **Spá** > **Uppfæra spá um verkbeiðni**.
+1. Veldu **Eignastjórnun** > **Reglubundið** > **Spá** > **Uppfæra spá um verkbeiðni**.
 
-2. Í fellivalmyndinni **Uppfæra spá um verkbeiðni** er hægt að bæta við vali varðandi sérstakar verkbeiðnir eða verkbeiðnivinnslur, ef þess er krafist. Smelltu á **Sía** til að gera það val.
+2. Í glugganum **Uppfæra spá um verkbeiðni** á flýtiflipanum **Færslur til að taka með** er hægt að bæta við vali varðandi sérstakar verkbeiðnir eða verkbeiðnivinnslur, eftir þörfum. Smelltu á **Sía** til að gera viðeigandi val.
 
-3. Ef með þarf er hægt að setja upp sjálfvirka uppfærslu sem runuvinnslu á flýtiflipanum **Keyra í bakgrunni**.
+3. Á flýtiflipanum **Keyra í bakgrunni** geturðu sett upp sjálfvirka uppfærslu sem runuvinnslu, eftir þörfum.
 
-4. Smelltu á **Í lagi** til að hefja uppfærslu á spá.
+4. Veldu **Í lagi** til að hefja uppfærslu á spá.
 
+
+Skýringarmyndin hér að neðan sýnir dæmi um gluggann **Uppfæra verkbeiðnispá**.
 
 ![Mynd 2](media/07-work-orders.png)
-

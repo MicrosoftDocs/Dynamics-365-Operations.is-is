@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 366dc2be6e35098dba4b26a34bb75a84913549f5
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 8f2e95e74bbc8d78ed5d970f29b61150a45c6740
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008571"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551565"
 ---
-# <a name="source-candidates-with-linkedin-recruiter"></a>Finna umsækjendur með LinkedIn Recruiter
+# <a name="source-candidates-with-linkedin-recruiter-in-microsoft-dynamics-365-talent---attract"></a>Finna umsækjendur með LinkedIn Recruiter í Microsoft Dynamics 365 Talent - Attract
 [!include[banner](../includes/banner.md)]
 
 LinkedIn er heimsins stærsta faglega netkerfið, sem veitir þér aðgang að helsta hæfileikafólki heimsins. Microsoft Dynamics 365 Talent: Attract gerir þér kleift að finna umsækjendur beint hjá LinkedIn. Þess vegna er auðveldara en nokkru sinni fyrr að finna hæfileikafólkið sem þú þarft til að ráða í opnar stöður. Eftir að þú hefur sett upp tenginguna við LinkedIn í gegnum Attract geturðu skoðað hugsanlega LinkedIn umsækendur um stöðurnar og flutt þá út í Attract með einum smelli.

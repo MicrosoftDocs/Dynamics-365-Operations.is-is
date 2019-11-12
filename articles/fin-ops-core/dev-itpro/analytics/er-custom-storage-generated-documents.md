@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a1c41cd4440eaf70f720bfd64884e6ef4662f87a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f65118b6a7393ced9d80c30fad7540a7b27da6c7
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181474"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569085"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Tilgreina sérsniðinn geymslustað fyrir skjöl sem eru mynduð
 
@@ -56,7 +56,7 @@ Forritunarviðmót forritsins (API) fyrir ramma rafrænnar skýrslugerðar gerir
 
 Til að tilgreina hvernig skjöl eru send sem snið rafrænnar skýrslugerðar myndar er nauðsynlegt að skilgreina [Viðtökustaðir rafrænnar skýrslugerðar](electronic-reporting-destinations.md). Í sérhverjum viðtökustað rafrænnar skýrslugerðar sem er skilgreindur til að geyma mynduð skjöl sem skrár, þarf að tilgreina gerð skjals fyrir skjalastjórnunarramma. Mismunandi skjalagerðir er hægt að nota til að senda skjöl sem mismunandi snið rafrænnar skýrslugerðar mynda.
 
-1. Bæta við nýrri [skjalagerð](../../fin-and-ops/organization-administration/configure-document-management.md) fyrir snið rafrænnar skýrslugerðar sem þú bjóst til eða fluttir inn áður. Í skýringarmyndinni sem fylgir er skjalagerðin **FileX**.
+1. Bæta við nýrri [skjalagerð](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) fyrir snið rafrænnar skýrslugerðar sem þú bjóst til eða fluttir inn áður. Í skýringarmyndinni sem fylgir er skjalagerðin **FileX**.
 2. Til að aðgreina þessa skjalategund frá öðrum skjalategundum skal hafa með tiltekið lykilorð í heitinu. Til dæmis, í skýringarmyndinni sem fylgir er heitið **(LOCAL) mappa**.
 3. Í reitnum **Klasi** skal tilgreina **Hengja skrá við**.
 4. Í reitnum **Flokkur** skal tilgreina **Skrá**.

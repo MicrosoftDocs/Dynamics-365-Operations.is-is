@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5b791fd3e060c4f4ecdb1ca599a6041d421db74
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 5b830d835d99122a8c0572481f4c229c37d97d0c
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024531"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653252"
 ---
 # <a name="asset-documents"></a>Eignaskjöl
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Þetta efni skýrir eignaskjöl í eignastýringu.
 
-Í eignastýringu geturðu sett upp skjöl þannig að þau tengjast sjálfkrafa starfstegundum, eignaframleiðendum, eignategundum eða eignum til dæmis. Þessi virkni er gagnleg þegar uppfærðar útgáfur skjala eru gefnar út. Í því tilfelli þarftu bara að setja uppfærða skjalið á staðalstaðinn sem þú notar fyrir þig Finance and Operations skjöl og hengdu skjalið við eignaskjalaskrána sem þú hefur búið til. Síðan er hægt að nálgast uppfærða skjalið frá **Allar eignir**, **Virkar eignir**, **Virku eignir mínar**, **Allar vinnupantanir**, og **Virk störf til pöntunar** valmyndaratriðin. Ferlið til að hengja skjöl við eignaskjalaskrá notar staðlaða skjal meðhöndlunarkerfisins.
+Í eignastýringu geturðu sett upp skjöl þannig að þau tengjast sjálfkrafa starfstegundum, eignaframleiðendum, eignategundum eða eignum til dæmis. Þessi virkni er gagnleg þegar uppfærðar útgáfur skjala eru gefnar út. Í því tilfelli þarftu bara að setja uppfærða skjalið á staðalstaðinn sem þú notar fyrir þig Supplu Chain Management skjöl og hengdu skjalið við eignaskjalaskrána sem þú hefur búið til. Síðan er hægt að nálgast uppfærða skjalið frá **Allar eignir**, **Virkar eignir**, **Virku eignir mínar**, **Allar vinnupantanir**, og **Virk störf til pöntunar** valmyndaratriðin. Ferlið til að hengja skjöl við eignaskjalaskrá notar staðlaða skjal meðhöndlunarkerfisins.
 
 **Dæmi 1:** Skjal sem tengist starfstegund gæti lýst verklagi fyrir þá starfstegund.
 

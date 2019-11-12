@@ -3,7 +3,7 @@ title: Samræmisprófun smásölufærslna
 description: Þetta efnisatriði lýsir virkni samræmisprófunar smásölufærslna í Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 05/30/2019
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0413c2b236e442fb56098f1902b4d5b247ed4649
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b956565ac15b3d7b638cedaadc20923ee87b9c61
+ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2018415"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622598"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Samræmisprófun smásölufærslna
 
@@ -58,8 +58,11 @@ Með runuvinnslunni **Villuleita í færslum verslunar** er samræmi smásöluf�
 - **Línuafsláttur** – Staðfestir að línuafsláttur í færslulínunni er summa allra línanna í afsláttartöflunni sem eru í samræmi við færslulínuna.
 - **Gjafakortsvara** – Retail styður ekki skil á gjafakortsvörum. Hins vegar er hægt að leysa út stöðu á gjafakorti í reiðufé. Gjafakortsvara sem er meðhöndluð sem skilalína í stað línu reiðufjárúttektar kemst ekki í gegnum bókunarferli uppgjörs. Staðfestingarferlið fyrir gjafakortsvörur hjálpar til við að tryggja að skilalínur gjafakortsvara í smásölufærslutöflunum séu eingöngu línur reiðufjárúttektar fyrir gjafakort.
 - **Neikvætt verð** – Staðfestir að engar færslulínur með neikvæðu verði eru til staðar.
-- **Vara og afbrigði** – Staðfestir að vörur og afbrigði í færslulínum eru til staðar í grunnskjali fyrir vöru og afbrigði.
-- **Skattupphæð** – Staðfestir að skattafærsla samsvari skattupphæð í línum. 
+- **Vara og afbrigði** – sannprófar að vörur og afbrigði í færslulínum eru til staðar í grunnskjali fyrir vöru og afbrigði.
+- **Skattupphæð** – sannprófar að skattafærslur passi við skattupphæðir í línunum.
+- **Raðnúmer** – sannprófar að raðnúmer sé til staðar í færslulínum fyrir vörur sem er stjórnað af raðnúmeri.
+- **Tákn** – sannprófar að tákn fyrir magn og nettóupphæð sé hið sama í öllum færslulínum.
+- **Viðskiptadagur** – sannprófar að fjárhagstímabil fyrir alla viðskiptadaga smásölufærslanna séu opin.
 
 ## <a name="set-up-the-consistency-checker"></a>Setja upp samræmisprófun
 

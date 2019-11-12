@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5f1860907e3cc3c4830cc385771d5924c609ea6
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: 0734416eccf149330b390cce897d2c254f6c698b
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847529"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571623"
 ---
 # <a name="maintenance-request-reports"></a>Skýrslur yfir viðhaldsbeiðnir
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Í eignastjórnun geturðu búið til tvær skýrslur sem tengjast viðhaldsbeiðnum. Ein skýrslan sýnir upplýsingar og í hinni skýrslunni er listi sem hægt er að nota við skipulagningu og eftirfylgni.
 
@@ -44,7 +44,7 @@ Skýrslan **Upplýsingar um viðhaldsbeiðni** sýnir ýmsar upplýsingar sem te
 
 Eftirfarandi mynd sýnir dæmi um skýrsluna **Upplýsingar um viðhaldsbeiðni**.
 
-![Mynd 1](media/09-manage-maintenance-requests.png)
+![Upplýsingaskýrsla yfir viðhaldsbeiðnir](media/09-manage-maintenance-requests.png)
 
 ## <a name="create-a-maintenance-request-list-report"></a>Stofna listaskýrslu viðhaldsbeiðni
 
@@ -57,4 +57,4 @@ Skýrslan **Listi yfir viðhaldsbeiðnir** sýnir lista yfir allar viðhaldsbei�
 
 Eftirfarandi mynd sýnir dæmi um skýrsluna **Listi yfir viðhaldsbeiðnir** fyrir allar virkar viðhaldsbeiðnir.
 
-![Mynd 2](media/10-manage-maintenance-requests.png)
+![Listaskýrsla yfir viðhaldsbeiðnir](media/10-manage-maintenance-requests.png)

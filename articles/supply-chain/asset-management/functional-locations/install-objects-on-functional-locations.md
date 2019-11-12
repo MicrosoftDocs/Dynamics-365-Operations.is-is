@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b236013d19967295514bfc0ce3e94eb6765d620a
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: c585bce468f87a32204893ea20ce6954e92b0e38
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783364"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571807"
 ---
 # <a name="install-assets-on-functional-locations"></a>Setja upp eignir á virkum staðsetningum
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Eftir að þú hefur búið til skipulag virkra staðsetninga er næsta skref að setja upp eignir á viðkomandi virkum staðsetningum. Þetta efni útskýrir hvernig á að setja upp eignir á þessum virku staðsetningum í eignastjórnun. Nánari upplýsingar um hvernig stofna eigi aðallykla, sjá [Eignir](../objects/introduction-to-objects.md).
 

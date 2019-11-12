@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.openlocfilehash: 694835d20e3401aaeb22aa19082a2cd0e3a0163a
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 533b9abd3d57c5bf8f3d9da85020c86012436f2f
+ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010707"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622719"
 ---
-# <a name="create-a-process-template"></a>Búa til sniðmát fyrir ferli
+# <a name="create-a-process-template-in-attract"></a>Búa til sniðmát ferlis í Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -43,7 +43,7 @@ Aðeins stjórnendur geta stillt sjálfgefið sniðmát. Sjálfgefið sniðmát 
 
 ## <a name="create-a-process-template"></a>Búa til sniðmát ferlis
 
-Stjórnendur, ráðningaraðilar og mannauðsstjórar geta búið til sniðmát ferlis. Sniðmát ferlis samanstendur af *stigum* og *aðgerðum*. Stig hópa saman einum eða fleiri aðgerðum. Sjálfgefið hefur hvert sniðmát ferlis Viðfangs-, Umsóknar- og Tilboðsaðgerðir. Stigunum sem innihalda þessar aðgerðir má endurnefna. Þú getur bætt fleiri stigum með því að velja **+ Nýtt stig**. Þú getur virkjað aðgerðir á stigi annaðhvort með því að draga þá á viðeigandi stig eða með því að tvísmella þá á aðgerðalistanum.
+Stjórnendur, ráðningaraðilar og mannauðsstjórar geta búið til sniðmát ferlis. Sniðmát ferlis samanstendur af *stigum* og *aðgerðum*. Stig hópa saman einum eða fleiri aðgerðum. Sjálfgefið hefur hvert sniðmát ferlis Viðfangs-, Umsóknar- og Tilboðsaðgerðir. Stigunum sem innihalda þessar aðgerðir má endurnefna. Þú getur bætt fleiri stigum með því að velja **+ Nýtt stig**. Þú getur bætt aðgerðum við stig annaðhvort með því að draga þær á viðeigandi stig eða með því að tvísmella á þær á aðgerðalistanum.
 
 > [!NOTE]
 > Heiti stiga eru sýnileg umsækjendurm á **Staða umsóknar** síðu. Þú ættir að íhuga þessa staðreynd þegar þú velur nöfn fyrir stig.

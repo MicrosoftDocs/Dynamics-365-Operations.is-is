@@ -3,7 +3,7 @@ title: Yfirlit virðisaukaskatts
 description: Þetta efnisatriði veitir yfirlit yfir kerfi virðisaukaskatts. Það útskýrir þættina í uppsetningu virðisaukaskatts og hvernig þeir vinna saman.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 10/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2741eb51f93f2f0b627dd8676629077b6df0f1b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 08d128e3006d019fa19b52f320b262ae49105e5d
+ms.sourcegitcommit: ddd66bd329e76d88178032566b0a57637159b537
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186464"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "2666831"
 ---
 # <a name="sales-tax-overview"></a>Yfirlit virðisaukaskatts
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Þetta efnisatriði veitir yfirlit yfir kerfi virðisaukaskatts. Það útskýrir þættina í uppsetningu virðisaukaskatts og hvernig þeir vinna saman.
 
@@ -94,5 +92,8 @@ Almennt yrðir þú að gera upp og greiða 2.500 til skattyfirvalds þegar reik
 
 Ef þú notar hins vegar skilyrtan virðisaukaskatt er gert upp við skattyfirvöld þegar þú færð greiðslu frá viðskiptavini þann 30. júlí.
 
+### <a name="postdated-check"></a>Fyrirframdagsett ávísun
+
+Ef þú notar útreiknaða ávísun sem greiðslumáta, þegar greiðslan er stofnuð, er bankareikningurinn ekki hreinsaður. Í sumum löndum verður virðisaukaskatturinn „innleyst“ ábyrgð þegar greiðslan hreinsar bankann, sem þýðir að fyrirframgreidd ávísun er gerð upp. Þú getur gert það kleift með því að velja **Innleysa skilyrtan skatt þegar fyrirframgreiddar ávísanir eru gefnar út** í **Reiðufjár- og bankastjórnun > Uppsetning > Færibreytur reiðufjár- og bankastjórnunar > Fyrirframdagsettar ávísanir**.
 
 Nánari upplýsingar um það eru í [Setja upp staðgreiðsluskattur](tasks/set-up-withholding-tax.md).

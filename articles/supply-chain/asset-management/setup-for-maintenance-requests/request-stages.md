@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f68e11a1cd14bc35282b957a4262cbecdd627b3b
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 151db9ca8a121759e39b690ec296b36a18dc1729
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790506"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571163"
 ---
-# <a name="maintenance-request-states"></a>Stöður viðhaldsbeiðna
+# <a name="maintenance-request-lifecycle-states"></a>Lífsferilsstöður viðhaldsbeiðni
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Líftímastöður viðhaldsbeiðna skilgreinir stigin sem beiðni getur farið í gegnum. Sem dæmi má nefna **Stofnað**, **Virkur**, og **Kláraði**. Þegar viðhaldsbeiðni er breytt í verkbeiðni skal uppfæra ástand líftíma viðhaldsbeiðninnar til **Kláraði** eða **Lokað** til að gefa til kynna að viðhaldsbeiðnin sé ekki lengur virk. Á listasíðunni **Allar viðhaldsbeiðnir** er hægt að skoða allar viðhaldsbeiðnir, óháð líftímastöðu þeirra.
@@ -51,7 +51,7 @@ Líftímastöður viðhaldsbeiðna skilgreinir stigin sem beiðni getur farið �
 
 Eftirfarandi mynd sýnir dæmi um síðuna **Líftímastöður viðhaldsbeiðna**.
 
-![Mynd 1](media/02-setup-for-requests.png)
+![Síðan Lífsferilsstöður viðhaldsbeiðni](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > Líftímastöður viðhaldsbeiðna, líftímastöðuhópar og tegundir eru tengdar og notaðar á sama hátt og líftímastöður verkbeiðni, líftímastöðuhópar og tegundir. 
@@ -80,4 +80,4 @@ Eftir að þú ert búinn að búa til lífsferilstig sem nauðsynleg eru fyrir 
 
 Eftirfarandi mynd sýnir dæmi um síðuna **Líftímalíkön viðhaldsbeiðna**.
 
-![Mynd 2](media/06-setup-for-requests.png)
+![Síðan Líftímalíkön viðhaldsbeiðni](media/06-setup-for-requests.png)

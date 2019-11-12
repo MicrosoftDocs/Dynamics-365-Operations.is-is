@@ -3,7 +3,7 @@ title: Verkreikningur
 description: Þessi grein veitir yfirlit yfir verkreikninga fyrir Tíma- og efnisverk og fastverðsverk. Hún inniheldur upplýsingar um reikningstillögur (bráðabirgðareikningar), reikningsstjórnun, reikningsfærslu áfangareikninga, reikningsfærslu lánardrottna og kreditnótur.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/24/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3d91f6b1ccc3254e2c04d24c5f9bf2014c64e50
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a68ed1cf21039ec1077bae428dea242f19514b51
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178356"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658621"
 ---
 # <a name="project-invoicing"></a>Verkreikningur
 
@@ -55,6 +55,9 @@ Hægt er að stofna reikningstillaga fyrir eftirfarandi færslur:
 -   Upphæðir sem eru geymdar hjá viðskiptavinum á fyrri verkreikningum
 -   Kreditnótur
 -   Fjárhæðir sem viðskiptavinur greiðir til þín áður en verkefnið hefst
+
+> [!NOTE]
+> Eiginleikinn **Virkja flokkun eftir tilföngum við stofnun á reikningstillögu verks** gerir endurskoðanda verksins kleift að flokka verkfærslurnar sem eru tiltækar til innheimtu eftir tilfanginu við stofnun á nýrri tillögu að reikningstillögu verks. Taflan sem sýnir fyrirliggjandi verkfærslur mun hafa sérstakan reit fyrir tilfangakenni og tilföng, sem gerir notandanum kleift að sía og flokka heiti tilfanga. Þessi aðgerð er sjálfkrafa óvirk og hægt er að virkja hana í **Vinnusvæði > Stjórnun eiginleika**. Hafðu samband við kerfisstjóra til að fá hjálp við að virkja þennan eiginleika.
 
 Í reikningstillaga er hægt að stofna færslur fyrir þóknun í reikningstillögu. Einnig er hægt að breyta söluverði á klukkutíma, kostnaði, vöru og þóknunarfærslum. Þegar reikningstillaga er bókuð er uppfært verð og færslum bætt við skýrslur um verk og færslusögu. 
 

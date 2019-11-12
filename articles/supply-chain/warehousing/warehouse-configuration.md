@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05f8a71dde998abccc75bc962636f9eb04d7e8c2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026717"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653419"
 ---
 # <a name="warehouse-configuration-overview"></a>Yfirlit yfir skilgreiningu vöruhúss
 
@@ -34,7 +34,7 @@ ms.locfileid: "2026717"
 **Ábending:** Þessi grein á við um aðgerðir í á **Vöruhúsakerfi** einingunni (ítarlegt vöruhús). Það á ekki við um aðgerðir vöruhúss í **birgðastjórnunarkerfi**.
 
 ## <a name="warehouse-layout"></a>Útlit Vöruhúss
-Stjórnkerfi Vöruhúss í Finance and Operations býður upp á sveigjanlega leiðir til að skilgreina útlit vöruhúss til að mæta síbreytilegum þörfum þannig að hægt er að ná bestu skilvirkni vöruhúss.
+Stjórnkerfi Vöruhúss í Supply Chain Management býður upp á sveigjanlega leiðir til að skilgreina útlit vöruhúss til að mæta síbreytilegum þörfum þannig að hægt er að ná bestu skilvirkni vöruhúss.
 
 -   Þú getur að koma á háforgangs og lágforgangs geymslusvæði fyrir bestu vistun vöru.
 -   Hægt er að skipta vöruhús í svæði til móts við mismunandi geymsluþarfir , s.s. kröfur um hitastig, eða ýmsa veltuhraði fyrir vörur.
@@ -42,7 +42,7 @@ Stjórnkerfi Vöruhúss í Finance and Operations býður upp á sveigjanlega le
 -   Hægt er að flokka staðsetningar með því að nota stillingar fyrir efnislegri afkastagetu.
 -   Hægt er að stjórna hvernig vörur eru geymdar og teknar til, byggðar á reglum sem byggjast á fyrirspurnum.
 
-Til að nota vöruhúsakerfi í Finance and Operations, verður að stofna vöruhús og virkja það fyrir ítarlega eða sérhæfða stjórnun verkþátta í vöruhúsum. Á **Vöruhús** síðunni, veljið **Nota vöruhúsakerfisferli** valkost.
+Til að nota vöruhúsakerfi í Supply Chain Management, verður að stofna vöruhús og virkja það fyrir ítarlega eða sérhæfða stjórnun verkþátta í vöruhúsum. Á **Vöruhús** síðunni, veljið **Nota vöruhúsakerfisferli** valkost.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Staðaflokka, staði, staðsetningargerðum og staðsetningar
 
@@ -54,7 +54,7 @@ Sem hluti af ferlinu til að virkja útlit vöruhúss, verður að skilgreina st
 -   **Gerðir staðsetninga** – rökrétt eða efnisleg flokkun vöruhúsastaðsetninga. Til dæmis er hægt að stofna staðsetningargerð fyrir allar stigastaðsetningar. Áskildar stillingarnar í **Færibreytur vöruhúsakerfis** síðuna knýja ferlið við að skilgreina gerðir sviðsetningarstaðsetninga og er endanleg gerð sendingarstaðsetningar.
 -   **Staðsetningar** – lægsta stig upplýsinga um staðsetningu. Staðsetningar er notað til að rekja hvar birgðir á lager er geymd og teknar til í vöruhúsi.
 
-Einingar sem eru stofnaðar til að skilgreina útlit vöruhúss eru notuð í fyrirspurnum sem sett eru upp í vinnusniðmát til að knýja vinnupantanir í vöruhúsi. Því, þegar þú skilgreina staði,staðsetningagerðir og o.s.frv., hafðu í huga hvernig mismunandi svæði í vöruhúsinu eru notaðir fyrir mismunandi ferli. Þar að auki skal hafa þáttum í huga eins og eðliseiginleika tiltekins svæðis. Til dæmis gætu verið svæði þar sem aðeins er hægt að nota tiltekna gerð lyftara. Eða ef fyrirtæki þitt hefur bæði framleiðslu og fullunninna vara í sama aðstöðu gætirðu viljað stofna eitt vöruhús í Finance and Operations en aðskilja síðan reksturinn með því að stofna tvo svæðishópa. Gefðu einingum þínum lýsandi nöfn, þannig að það er auðvelt að bera kennsl á þær þegar þú notar þá í fyrirspurnum um sniðmát.
+Einingar sem eru stofnaðar til að skilgreina útlit vöruhúss eru notuð í fyrirspurnum sem sett eru upp í vinnusniðmát til að knýja vinnupantanir í vöruhúsi. Því, þegar þú skilgreina staði,staðsetningagerðir og o.s.frv., hafðu í huga hvernig mismunandi svæði í vöruhúsinu eru notaðir fyrir mismunandi ferli. Þar að auki skal hafa þáttum í huga eins og eðliseiginleika tiltekins svæðis. Til dæmis gætu verið svæði þar sem aðeins er hægt að nota tiltekna gerð lyftara. Eða ef fyrirtæki þitt hefur bæði framleiðslu og fullunninna vara í sama aðstöðu gætirðu viljað stofna eitt vöruhús í Supply Chain Management en aðskilja síðan reksturinn með því að stofna tvo svæðishópa. Gefðu einingum þínum lýsandi nöfn, þannig að það er auðvelt að bera kennsl á þær þegar þú notar þá í fyrirspurnum um sniðmát.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Birgðamörk staðsetningar, forstillingar staðsetningar og fastar tiltektarstaðsetningar
 

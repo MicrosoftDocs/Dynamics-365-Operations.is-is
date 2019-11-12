@@ -3,7 +3,7 @@ title: Dálkaskilgreiningar í Fjárhagsskýrslum
 description: Þessi grein veitir upplýsingar um skýrsluskilgreiningar. Línuskilgreining er skýrsluhluti, eða eining sem tilgreinir efni hverrar raðar í fjárhagsskýrslu. Eins og línuskilgreiningar, grunnur dálkaskilgreiningar má nota á mörg skýrslum.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 76de08290058d43fbd1b4c0670db55ebcfbb8494
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 54e7d517e704b7162f3e091330a246386f0203ea
+ms.sourcegitcommit: d800613020d5548d100c8f240fb81bb6258a3646
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174306"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "2572642"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Dálkaskilgreiningar í Fjárhagsskýrslum
 
@@ -170,7 +170,7 @@ Hægt er nota **dálkfyrirsögn** svarglugga til að bæta við, breyta og eyða
 
 ### <a name="create-an-automatically-generated-header"></a>Stofna sjálfvirkt myndaðan haus
 
-Report Designer getur sjálfkrafa myndað dálkhausa byggða á kóðum sjálfvirks texta. Sjálfvirkir textakóðar eru breytur sem eru uppfærðar í hvert sinn sem skýrsla er mynduð. Allar dálkfyrirsagnir geta innihaldið þessa kóða til að tilgreina upplýsingar skýrslu sem geta verið mismunandi, á borð við dagsetningu eða tímabilsnúmer. Þess vegna er hægt að nota eina dálkskilgreiningu fyrir margar skýrsluskilgreiningar, tímabil og skipurit. Þar sem kóðar sjálfvirks texta notast við dagatalsupplýsingar úr upplýsingalínu dálkskilgreiningar, eru þeir aðeins studdir fyrir dálkana **CALC** og **FD**. Hvernig sjálfvirkur textakóði birtist í dálkfyrirsagnarhólfinu hefur áhrif á hvernig þær upplýsingar birtast í skýrslunni. Í svarglugganum **Dálkfyrirsögn** birtast sjálfvirku textakóðarnir með blöndu há- og lágstafa. Þess vegna er textinn sem birtist há- og lágstafa í skýrslunni. Á hefðbundnu almanaksári leysir **@CalMonthLong** úr mánuði **7** sem **júlí**. Ef heiti mánaðar á að vera með hástöfum í skýrslunni, s.s. **JÚLÍ**, er sjálfvirkur textakóði sleginn inn með hástöfum í reitinn **Texti dálkfyrirsagnar**. Færðu t.d. inn **@CALMONTHLONG**. Hægt er að nota kóða með texta. Til dæmis færirðu inn eftirfarandi fyrirsagnartexti: **Tímabil @FiscalPeriod-@FiscalYear frá @StartDate til @EndDate** Fyrirsögn skýrslu sem er mynduð svipar eftirfarandi texta: **Tímabil 1-02 frá 01/01/02 til 31/01/02**.
+Report Designer getur sjálfkrafa myndað dálkhausa byggða á kóðum sjálfvirks texta. Sjálfvirkir textakóðar eru breytur sem eru uppfærðar í hvert sinn sem skýrsla er mynduð. Allar dálkfyrirsagnir geta innihaldið þessa kóða til að tilgreina upplýsingar skýrslu sem geta verið mismunandi, á borð við dagsetningu eða tímabilsnúmer. Þess vegna er hægt að nota eina dálkskilgreiningu fyrir margar skýrsluskilgreiningar, tímabil og skipurit. Þar sem kóðar sjálfvirks texta notast við dagatalsupplýsingar úr upplýsingalínu dálkskilgreiningar, eru þeir aðeins studdir fyrir dálkana **CALC** og **FD**. Hvernig sjálfvirkur textakóði birtist í dálkfyrirsagnarhólfinu hefur áhrif á hvernig þær upplýsingar birtast í skýrslunni. Í svarglugganum **Dálkfyrirsögn** birtast sjálfvirku textakóðarnir með blöndu há- og lágstafa. Þess vegna er textinn sem birtist há- og lágstafa í skýrslunni. Til dæmis, á hefðbundnu almanaksári leysir **\@CalMonthLong** úr mánuði **7** sem **júlí**. Ef heiti mánaðar á að vera með hástöfum í skýrslunni, s.s. **JÚLÍ**, er sjálfvirkur textakóði sleginn inn með hástöfum í reitinn **Texti dálkfyrirsagnar**. Færðu t.d. inn **\@CALMONTHLONG**. Hægt er að nota kóða með texta. Til dæmis færirðu inn eftirfarandi fyrirsagnartexti: **Tímabil \@FiscalPeriod-\@FiscalYear frá \@StartDate til \@EndDate**. Fyrirsögn skýrslu sem er mynduð svipar eftirfarandi texta: **Tímabil 1-02 frá 01/01/02 til 31/01/02**.
 
 > [!NOTE]
 > Sniðið á sumum texta, svo sem löngum dagsetningum, fer eftir svæðisstillingunum sem eru valdar á þjóninum. Til að breyta þessum stillingum er smellt á **Ræsa** hnappinn, **Stjórnborð** valið og smellt á **Svæðisbundnir valkostir og tungumálavalkostir**. Eftirfarandi tafla inniheldur tiltækan sjálfvirkan texta fyrir dálkfyrirsagnir.

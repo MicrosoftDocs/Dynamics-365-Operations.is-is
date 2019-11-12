@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 143cd51a3ea34a6b05da049d87819b3dfee95725
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b40f9a5677fd5375d7a19a75400d4305a8850392
+ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181520"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564938"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Skilgreina gagnainnflutning úr SharePoint
 
@@ -62,9 +62,9 @@ Spila **ER flytja inn gögn úr Microsoft Excel skrá** verkefnaleiðbeiningar, 
 > Sniðið til að flytja inn lánardrottnafærslur er valið sem sjálfgefin vörpun líkans. Þess vegna, ef þú keyrir vörpun líkans **1099 Greiðslulíkan**, og þessi vörpun líkans er af **Til áfangastaðar** gerðinni, keyrir vörpun líkans þetta snið til að flytja inn gögn úr ytri skrám. Það notar síðan þessi gögn til að uppfæra töflur í forriti.
 
 ## <a name="configure-access-to-sharepoint-for-file-storage"></a>Grunnstilla aðgang að SharePoint fyrir skráargeymslu
-Til að geyma skrár rafrænnar skýrslu á SharePoint-staðsetningu verður að grunnstilla aðgang að tilviki SharePoint Server sem núverandi fyrirtæki kemur til með að nota. Í þessu dæmi er fyrirtækið USMF. Nánari leiðbeiningar er að finna í [Grunnstilla SharePoint geymslu](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+Til að geyma skrár rafrænnar skýrslu á SharePoint-staðsetningu verður að grunnstilla aðgang að tilviki SharePoint Server sem núverandi fyrirtæki kemur til með að nota. Í þessu dæmi er fyrirtækið USMF. Nánari leiðbeiningar er að finna í [Grunnstilla SharePoint geymslu](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 
-1. Ljúkið skrefunum í [Grunnstilla SharePoint-geymslu](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+1. Ljúkið skrefunum í [Grunnstilla SharePoint-geymslu](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 2. Opnið skilgreinda SharePoint svæðið.
 3. Stofnið eftirfarandi möppur þar sem hægt er að geyma skrár rafrænnar skýrslugerðar á innleið:
 
@@ -80,7 +80,7 @@ Til að geyma skrár rafrænnar skýrslu á SharePoint-staðsetningu verður að
     - Mappa villuskráa - Þessi mappa yrði fyrir skrár sem ekki tókst að flytja inn.
 
 4. Farðu í **Fyrirtækjastjórnun > Skjalastjórnun > Skjalagerðir**.
-5. Stofnið eftirfarandi skjalagerðir sem verða notaðar til að fá aðgang að möppum SharePoint sem þú stofnaðir rétt í þessu. Nánari leiðbeiningar er að finna í [Grunnstilla skjalagerðir](../../fin-and-ops/organization-administration/configure-document-management.md#configure-document-types).
+5. Stofnið eftirfarandi skjalagerðir sem verða notaðar til að fá aðgang að möppum SharePoint sem þú stofnaðir rétt í þessu. Nánari leiðbeiningar er að finna í [Grunnstilla skjalagerðir](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types).
 
 |Gerð skjals       | Hópur              | Staður      | SharePoint-mappa      |
 |--------------------|--------------------|---------------|------------------------|

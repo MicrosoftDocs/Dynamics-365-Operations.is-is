@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3d978f8b991211e477dd8f766fe67432d9d493d0
-ms.sourcegitcommit: c0b581e4c647b6c47bc14d1d7bfe267832afecba
+ms.openlocfilehash: eecfb101af9a91f515aab221181c54d53e358a68
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1913092"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652426"
 ---
 # <a name="create-consumption-reports"></a>Stofna notkunarskýrslur
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Þegar þú hefur búið til og sent notkunarskráningar í verkbeiðnum í eignastýringu eru tvær skýrslur tiltækar til að birta notkunarupplýsingar.
 
@@ -40,9 +40,14 @@ ms.locfileid: "1913092"
 
 1. Smelltu á **Eignastýringu** > **Skýrslur** > **Eignir** > **Eignanotkun**.
 
-2. Í glugganum **Eignanotkun** velurðu færibreytu- og upplýsingastig sem þú vilt sjá með því að velja „Já“ á viðeigandi skiptihnöppum og setja inn virkt staðsetningarstig í kaflanum **Sýna**.
-    - Þú getur notað reitinn **Stig** til að gefa til kynna hversu ítarlegar þú vilt að eignalínur séu varðandi virkar staðsetningar. Til dæmis, ef þú setur inn töluna „1“ í reitinn, og þú ert með fjölþrepa skipulag virkra staðsetninga, verða allar eignir fyrir virka staðsetningu sýndar á efsta stigi og því er hægt að bæta línu við af virkum staðsetningum sem eru staðsettar á lægra stigi. Ef þú setur töluna „0“ inn í reitinn **Stig** muntu sjá ítarlega niðurstöður sem sýna allar eignalínur á öllum virkum staðsetningarstigum sem þær tengjast. 
-    - Veldu „Já“ á skiptihnappnum **Summa á öllum undireignum** til að sjá fjárhæðir fyrir hverja undireign í skýrslunni.
+2. Í glugganum **Eignanotkun** velurðu færibreytu- og upplýsingastig sem þú vilt sjá með því að velja **Já** á viðeigandi skiptihnöppum og setja inn virkt staðsetningarstig í kaflanum **Sýna**.
+    - Þú getur notað reitinn **Stig** til að gefa til kynna hversu ítarlegar þú vilt að eignalínur séu varðandi virkar staðsetningar. 
+    
+        Til dæmis, ef þú setur inn töluna „1“ í reitinn, og þú ert með fjölþrepa skipulag virkra staðsetninga, verða allar eignir fyrir virka staðsetningu sýndar á efsta stigi og því er hægt að bæta línu við af virkum staðsetningum sem eru staðsettar á lægra stigi. 
+        
+        Ef þú setur töluna „0“ inn í reitinn **Stig** muntu sjá ítarlega niðurstöður sem sýna allar eignalínur á öllum virkum staðsetningarstigum sem þær tengjast. 
+        
+    - Veldu **Já** á skiptihnappnum **Summa á öllum undireignum** til að sjá fjárhæðir fyrir hverja undireign í skýrslunni.
 
 3. Veldu dagsetningartíma í kaflanum **Dagsetningar**.
 
@@ -59,7 +64,7 @@ ms.locfileid: "1913092"
 
 1. Smelltu á **Eignastýring** > **Skýrslur** > **Verkbeiðnir** > **Notkun verkbeiðni**.
 
-2. Í glugganum **Notkun verkbeiðni** velurðu þær færibreytur sem þú vilt láta fylgja með í skýrslunni með því að velja „Já“ á viðeigandi skiptihnöppum í kaflanum **Sýna**.
+2. Í glugganum **Notkun verkbeiðni** velurðu þær færibreytur sem þú vilt láta fylgja með í skýrslunni með því að velja **Já** á viðeigandi skiptihnöppum í kaflanum **Sýna**.
 
 3. Veldu dagsetningartíma í kaflanum **Dagsetningar**.
 

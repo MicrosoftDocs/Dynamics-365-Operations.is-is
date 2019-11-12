@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 174c816c7a6442b07e4722c03045293b94c59153
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 43f14a1cbd016335b857fdff1147740b27d5c765
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024661"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653324"
 ---
 # <a name="register-consumption"></a>Skrá notkun
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Þegar viðhaldsverkum hefur verið lokið í verkbeiðni er næsta skref að gera notkunarskráningar og bóka færslubækurnar. Þú getur gert skráningar á eftirfarandi notkunargerðum: Tímum, vörum og kostnaði. Mismunandi notkunargerðir eru skráðar og bókaðar á síðunni **Færslubækur verkbeiðna**. Uppsetning færslubókarinnar í **Eignastjórnun** er notuð til að stofna og bóka aðskildar færslubækur fyrir tíma, vörur og kostnað í einingunni **Verkefnisstjórnun og bókhald**.
 
-Þú gætir verið fær um að bæta við eða eyða spálínum í verkbeiðni. Uppsetning á líftímastöðu verkbeiðni, tengdri verkefnisgerð og stigareglum sem tengjast verkgerðinni ákvarðar hvort þú getur bætt við eða breytt færslubókarlínum. Lestu meira um líftímastöður verkbeiðna og tengd verkefnisstig í [Sameining við verkefnastjórnun og bókhald](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
+Í sumum tilfellum kann að vera hægt að bæta við eða eyða spálínum í verkbeiðni. Uppsetning á líftímastöðu verkbeiðni, tengdri verkefnisgerð og stigareglum sem tengjast verkgerðinni ákvarðar hvort þú getur bætt við eða breytt færslubókarlínum. Lestu meira um líftímastöður verkbeiðna og tengd verkefnisstig í [Sameining við verkefnastjórnun og bókhald](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
 >[!NOTE]
 >Það er mögulegt að setja upp sjálfvirka bókun færslubóka í líftímastöður verkbeiðni. Sjá [Líftímastöður verkbeiðni](../setup-for-work-orders/work-order-lifecycle-states.md) fyrir meiri upplýsingar.
@@ -50,10 +50,10 @@ ms.locfileid: "2024661"
 
 6. Smelltu á **Bóka færslubækur** til að bóka færslubókarlínur.
 
-7. Eftir að þú hefur bókað notkunarfærslubækurnar geturðu uppfært líftímastöðu verkbeiðni, til dæmis í „Lokið“, til að gefa til kynna að verkbeiðninni sé lokið.
+7. Eftir að þú hefur sent neysludagbókina geturðu uppfært stöðu líftíma verkbeiðni. Til dæmis, til að gefa til kynna að verkbeiðninni hafi verið lokið, geturðu uppfært líftímastöðunni í „Lokið“.
 
-- Í reitnum **Sýna** sem er staðsettur efst á síðunni **Verkbeiðnifærslubækur** velurðu hvaða færslubókarlínur þú vilt sjá: Allar, óbókaðar eða Bókaðar. Bókaðar færslubækur eru með hak í gátreitnum **Bókað**.  
-- Þegar vörulínur eru stofnaðar í verkbeiðnifærslubókinni eru vöruvíddir og rakningarvíddir sem tengjast vörunni sjálfkrafa fluttar á færslubókarlínuna.  
+    - Í reitnum **Sýna** sem er staðsettur efst á síðunni **Verkbeiðnifærslubækur** velurðu hvaða færslubókarlínur þú vilt sjá: **Allar**, **Óbókaðar** eða **Bókaðar**. Bókaðar færslubækur eru með hak í gátreitnum **Bókað**.  
+    - Þegar vörulínur eru stofnaðar í verkbeiðnifærslubókinni eru vöruvíddir og rakningarvíddir sem tengjast vörunni sjálfkrafa fluttar á færslubókarlínuna.  
 
 Skjámyndin hér að neðan sýnir dæmi um skráningu klukkutíma og vöru í verkbeiðni í **Verkbeiðnifærslubókum**.
 
@@ -76,7 +76,7 @@ Ef verkbeiðni inniheldur nokkur verkbeiðniverk geturðu skráð vinnutíma me�
 
 6. Settu fjölda vinnutíma sem á að skipta í reitnum **Klukkutímar**.
 
-![Mynd 2](media/02-consumption.png)
+    ![Mynd 2](media/02-consumption.png)
 
 7. Smellt er á **OK**.
 
@@ -88,10 +88,10 @@ Ef verkbeiðni inniheldur nokkur verkbeiðniverk geturðu skráð vinnutíma me�
 
 Þegar þú skráir notkun er fjárhagsvíddum tengdum mismunandi skráningartegundum bætt við skráningarnar í tiltekinni röð. 
 
-*Skráning klukkustundar og kostnaðar:* Í fyrsta lagi er fjárhagsvíddum úr færslubókarhaus bætt við, ef einhver er. Næst er fjárhagsvíddum úr tengdri verkbeiðniverki bætt við. Að lokum er fjárhagsvíddum úr tilföngunum (starfsmanni) bætt við.
+- *Skráning klukkustundar og kostnaðar:* Í fyrsta lagi er fjárhagsvíddum úr færslubókarhaus bætt við, ef einhver er. Næst er fjárhagsvíddum úr tengdri verkbeiðniverki bætt við. Að lokum er fjárhagsvíddum úr tilföngunum (starfsmanni) bætt við.
 
-*Vöruskráningar:* Í fyrsta lagi er fjárhagsvíddum úr færslubókarhaus bætt við, ef einhver er. Síðan er fjárhagsvíddum úr tengdri verkbeiðniverki bætt við. Næst er fjárhagsvíddum af svæðinu bætt við. Að lokum er fjárhagsvíddum úr vörunni bætt við.
+- *Vöruskráningar:* Í fyrsta lagi er fjárhagsvíddum úr færslubókarhaus bætt við, ef einhver er. Síðan er fjárhagsvíddum úr tengdri verkbeiðniverki bætt við. Næst er fjárhagsvíddum af svæðinu bætt við. Að lokum er fjárhagsvíddum úr vörunni bætt við.
 
 >[!NOTE]
->Fyrir allar þrjár skráningargerðirnar er samsetning fjárhagsvíddar staðfest og ógildar samsetningar eru auðar. Þetta er venjuleg skipulag í Finance and Operations.
+>Fyrir allar þrjár skráningargerðirnar er samsetning fjárhagsvíddar staðfest og ógildar samsetningar eru auðar. Þetta er venjuleg uppsetning í öðrum forritum Finance and Operations.
 

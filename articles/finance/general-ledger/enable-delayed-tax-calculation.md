@@ -1,6 +1,6 @@
 ---
-title: Virkja frestun skattaútreiknings á dagbók
-description: Þetta efni útskýrir hvernig á að nota eiginleikann **Virkja frestun skattaútreiknings á dagbók** til að bæta afköst skattaútreikninga þegar magn dagbókarlína er mikið.
+title: Virkja frestun skattaútreiknings á dagbókum
+description: Þetta efni útskýrir hvernig á að kveikja á eiginleikanum Frestun skattaútreiknings að bæta afköst skattaútreikninga þegar fjöldi dagbókarlína er afar mikið.
 author: ericwang
 manager: Ann Beebe
 ms.date: 09/18/2019
@@ -18,55 +18,50 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5a8ae30a007d3e2b8b7a9bc9eb7786f6e58246d0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e336be5468106007e1f5adf26bf272c88b8b413b
+ms.sourcegitcommit: bc9b65b73bf6443581c2869a9ecfd0675f0be566
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178245"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2623522"
 ---
-# <a name="enable-delayed-tax-calculation-on-journal"></a>Virkja frestun skattaútreiknings á dagbók
+# <a name="enable-delayed-tax-calculation-on-journals"></a>Virkja frestun skattaútreiknings á dagbókum
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Þetta efni útskýrir hvernig á að nota eiginleikann **Virkja frestun skattaútreiknings á dagbók** til að bæta afköst skattaútreikninga þegar magn dagbókarlína er mikið.
+Þetta efni útskýrir hvernig þú getur seinkað útreikningi á söluskatti í færslubókum. Þessi geta hjálpar til við að bæta afköst skattaútreikninga þegar margar færslubókarlínur eru til staðar.
 
-Núverandi hegðun útreiknings á söluskatti á dagbók virkjast í rauntíma þegar notandi uppfærir skattskylda reiti, t.d. VSK-skattshóp/VSK-skattshóp vöru. Sérhver uppfærsla á dagbókarlínustigi reiknar skattfjárhæð á alla dagbókarlínur. Það hjálpar notendum að sjá reiknaðan skattfjárhæð í rauntíma, en það gæti einnig leitt af sér vandamál með afköst ef magn dagbókarlína er mikið.
+Sjálfgefið er að fjárhæðir söluskatts í færslubókarlínum eru reiknaðar út í hvert skipti sem skattatengdir reitir eru uppfærðir. Þessir reitir innihalda reiti fyrir VSK-flokka og VSK-flokka vöru. Sérhver uppfærsla á færslubókarlínu veldur því að skattfjárhæðir eru endurreiknaðar fyrir allar dagbókarlínur. Þrátt fyrir að þessi hegðun hjálpi notendum að sjá skattaupphæðir reiknaðar í rauntíma getur það einnig haft áhrif á afköst ef fjöldi færslubókarlína er mjög mikill.
 
-Þessi eiginleiki veitir möguleika á að fresta útreikningi skatta til að leysa vandamál með afköst. Ef kveikt er á þessum eiginleika verður skattafjárhæð einungis reiknuð þegar notandi smellir á skipunina „Virðisaukaskatt“ eða bókar færslubókina.
+Aðgerðin fyrir útreikning á sköttum gerir kleift að fresta skattaútreikningi á færslubókum og hjálpar því til við að laga afkastavandamál. Þegar kveikt er á þessum eiginleika verða skattaupphæðir aðeins reiknaðar þegar notandi velur **Virðisaukaskatt** eða bókar færslubókina.
 
-Notandi getur kveikt/slökkt á færibreytunni á þremur stigum:
-- Eftir lögaðila
-- Eftir heiti færslubókar
-- Eftir færslubókarhaus
+Þú getur tafið útreikning á VSK-skatti á þremur stigum:
 
-Kerfið mun taka færibreytugildið á færslubókarhaus sem endanlegt. Færibreytugildi á færslubókarhaus er sjálfgefið frá nafni færslubókar. Færibreytugildi á færslubókarheiti verður sjálfgefið frá aðalbókarbreytunni þegar færslubókarheitið er búið til.
+- Lögaðili
+- Heiti færslubókar
+- Færslubókarhaus
 
-Reitirnir „Eiginleg virðisaukaskattsupphæð“ og „Reiknuð virðisaukaupphæð“ í færslubókinni verða faldir ef kveikt er á þessari færibreytu. Tilgangurinn er ekki að rugla notanda þar sem gildi þessara tveggja reita mun alltaf sýna 0 áður en notandi kveikir á skattútreikningi.
+Kerfið hefur forgang til stillingar fyrir færslubókarhaus. Sjálfgefið er að þessi stilling er tekin úr nafni færslubókarinnar. Sjálfgefið er að stillingin fyrir færslubókarheitið sé tekin úr stillingunni á síðunni **Almennar fjárhagsbreytur** þegar færslubókarheitið er búið til. Eftirfarandi kaflar útskýra hvernig á að kveikja á seinkuðum útreikningum á skatti lögaðila, færslubókarheiti og færslubókarhausum.
 
-## <a name="enable-delayed-tax-calculation-by-legal-entity"></a>Virkja frestun skattaútreikninga af lögaðila
+## <a name="turn-on-delayed-tax-calculation-at-the-legal-entity-level"></a>Kveiktu á frestun skattaútreiknings á stigi lögaðila
 
-1. Farðu í **Fjárhagur > Fjárhagsuppsetning > Færibreytur fyrir fjárhag**
-2. Smelltu á flipann **Vsk.**
-3. Undir flýtiflipanum **Almennt** finnurðu færibreytuna **Frestun skattaútreikings** og kveikir/slekkur á henni
+1. Farðu í **Fjárhag \> Fjárhagsuppsetning \> Fjárhagsfæribreytur**.
+2. Á flipanum **VSK-skattur** á flýtiflipanum **Almennt** skal stilla valkostinn **Frestun skattaútreiknings** á **Já**.
 
-![](media/delayed-tax-calculation-gl.png)
+![Mynd af almennum fjárhagsfæribreytum](media/delayed-tax-calculation-gl.png)
 
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a>Kveiktu á frestun skattaútreiknings á stigi færslubókarheitis
 
+1. Farðu í **Fjárhag \> Færslubókaruppsetning \> Færslubókarheiti**.
+2. Á flýtiflipanum **Almennt**, í kaflanum **VSK-skattur**, skal stilla valkostinn **Frestun skattaútreiknings** á **Já**.
 
-## <a name="enable-delayed-tax-calculation-by-journal-name"></a>Virkja frestun skattaútreiknings eftir heiti færslubókar
+![Mynd af færslubókanöfnum](media/delayed-tax-calculation-journal-name.png)
 
-1. Farðu í **Fjárhag > Færslubókaruppsetning > Heiti færslubókar**
-2. Undir flýtiflipanum **Almennt** finnurðu færibreytuna **Frestun skattaútreikings** og kveikir/slekkur á henni
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a>Kveiktu á frestun skattaútreiknings á stigi færslubókarhauss
 
-![](media/delayed-tax-calculation-journal-name.png)
+1. Farðu í **Fjárhag \> Færslubókarfærslur \> Almennar færslubækur**.
+2. Veljið **Nýtt**.
+3. Veldu heiti færslubókar.
+4. Á flipanum **Uppsetning** stillirðu valkostinn **Frestun skattaútreiknings** á **Já**.
 
-## <a name="enable-delayed-tax-calculation-by-journal"></a>Virkja frestun skattaútreiknings eftir færslubók
-
-1. Farðu í **Fjárhag > Færslubókarfærslur > Almennar færslubækur**
-2. Smelltu á **Nýtt**
-3. Veldu heiti færslubókar
-4. Smelltu á **Uppsetningu**
-5. Finndu færibreytuna **Frestun skattaútreiknings**, kveiktu/slökktu á henni
-
-![](media/delayed-tax-calculation-journal-header.png)
+![Mynd af síðu almennrar færslubókar](media/delayed-tax-calculation-journal-header.png)

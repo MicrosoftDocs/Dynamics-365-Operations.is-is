@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 510a36668bf131b48733e486a43f1d630ae9f3ea
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278325"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653695"
 ---
 # <a name="help-resources-for-supply-chain-management"></a>Hjálpartilföng fyrir Supply Chain Management
 
@@ -39,7 +39,7 @@ ms.locfileid: "2278325"
 Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
 
 - [Eignastýring](asset-management/index.md)
-- [Kostnaðarbókhald](../financials/cost-accounting/cost-accounting-home-page.md)
+- [Kostnaðarbókhald](../finance/cost-accounting/cost-accounting-home-page.md)
 - [Kostnaðarstjórnun](cost-management/cost-management-home-page.md)  
 - [Birgðastjórnun](inventory/inventory-home-page.md)
 - [Aðaláætlanagerð](master-planning/master-planning-home-page.md)
@@ -109,7 +109,7 @@ Upplýsingar um Dynamics 365 Finance fást á síðunni [Dynamics 365 Finance-hj
 -  [Flutningsstjórnun í nýja Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Blogg
-Mörg umfjöllunarefni er að finna um framleiðslu- og aðfangakeðjustjórnun á <a href="https://blogs.msdn.microsoft.com/axmfg/">bloggi rannsóknar- og þróunarteymis framleiðsluhluta Dynamics AX</a> og <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">bloggi rannsóknar- og þróunarteymis aðfangakeðjustjórnunar í Dynamics AX</a>. Flestar þessara færslna voru skrifaðar um eldri útgáfu Finance and Operations en sömu hugtök eiga enn við og ferlin eru svipuð í nýjustu útgáfunni. 
+Mörg umfjöllunarefni er að finna um framleiðslu- og aðfangakeðjustjórnun á <a href="https://blogs.msdn.microsoft.com/axmfg/">bloggi rannsóknar- og þróunarteymis framleiðsluhluta Dynamics AX</a> og <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">bloggi rannsóknar- og þróunarteymis Supply Chain Management í Dynamics AX</a>. Flestar þessara færslna voru skrifaðar um eldri útgáfu en sömu hugtök eiga enn við og ferlin eru svipuð í nýjustu útgáfunni. 
 
 ## <a name="white-papers"></a>Hvítbækur
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Verklegar æfingar í kostnaðarbókhaldi</a> 

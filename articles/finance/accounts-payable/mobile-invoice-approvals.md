@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 956c866a6b39e2a81f085910e00d2bfe8683829c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dd72c8a54498cc6ffae7125c5c2f44bfac5a5995
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178357"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658645"
 ---
 # <a name="mobile-invoice-approvals"></a>Reikningssamþykktir í fartækjum
 
@@ -138,13 +138,19 @@ Almennt séð, þegar unnið er með farsímahönnuði, þarf að ganga úr skug
 
 Fyrsta farsímasíðan sem ætti að hanna er listi yfir reikninga sem eru úthlutaðir notandanum til skoðunar. Til að hanna þessa farsímasíðu notarðu síðuna **VendMobileInvoiceAssignedToMeListPage**. Áður en lokið er við þetta ferli skal ganga úr skugga um að a.m.k. einn lánardrottinsreikningur sé úthlutaður til þín til skoðunar og að reikningslínan hafi tvær dreifingar. Þessi uppsetning uppfyllir kröfur fyrir þetta dæmi.
 
-1.  Í vefslóðinni skal skipta út heiti valmyndaratriðis með **VendMobileInvoiceAssignedToMeListPage** til að opna farsímaútgáfu af listasíðunni **Biðreikningar lánardrottins sem mér eru úthlutaðir** í kerfiseiningunni **Viðskiptaskuldir**. Það fer eftir fjölda reikninga sem er úthlutað til þín í kerfinu en þessi síða sýnir þá reikninga. Til að finna tilgreindan reikning er hægt að nota síuna til vinstri. Hins vegar þurfum við ekki tilgreindan reikning fyrir þetta dæmi. Við þurfum bara reikning sem úthlutað er til þín, sem gerir þér kleift að hanna farsímasíðuna. Nýjar síður sem eru tiltækar hafa verið hannaðar sérstaklega fyrir þróun farsímaaðstæðna fyrir reikning lánardrottins. Þess vegna verður að nota þessar síður. Vefslóð á að líkjast eftirfarandi slóð og þegar hún hefur verið færð inn, verður síðan sem birtist á skýringarmyndinni að birtast: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Biðreikninga lánardrottins sem mér eru úthlutaðir síðuna](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+1.  Í vefslóðinni skal skipta út heiti valmyndaratriðis með **VendMobileInvoiceAssignedToMeListPage** til að opna farsímaútgáfu af listasíðunni **Biðreikningar lánardrottins sem mér eru úthlutaðir** í kerfiseiningunni **Viðskiptaskuldir**. Það fer eftir fjölda reikninga sem er úthlutað til þín í kerfinu en þessi síða sýnir þá reikninga. Til að finna tilgreindan reikning er hægt að nota síuna til vinstri. Hins vegar þurfum við ekki tilgreindan reikning fyrir þetta dæmi. Við þurfum bara reikning sem úthlutað er til þín, sem gerir þér kleift að hanna farsímasíðuna. Nýjar síður sem eru tiltækar hafa verið hannaðar sérstaklega fyrir þróun farsímaaðstæðna fyrir reikning lánardrottins. Þess vegna verður að nota þessar síður. Vefslóðin á að líkjast eftirfarandi vefslóð og þegar hún hefur verið færð inn verður síðan sem er sýnd á skýringarmyndinni að birtast: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile 
+
+    [![Síðan Reikningar lánardrottins í bið sem notanda hefur verið úthlutað](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+    
 2.  Smellið á hnappinn **Stillingar** (tannhjól) í efra hægra horni síðunnar og svo á **Farsímaforrit**.
 3.  Veljið vinnustöð og smellið á **Breyta**
 4.  Smellið á **Bæta við síðu** til að stofna fyrstu farsímasíðuna.
 5.  Færið inn heiti, eins og **Mínar lánardrottnareikningar**, og lýsingu, eins og **Reikninga lánardrottins sem mér eru úthlutaðir til skoðunar**.
 6.  Smelltu á **Lokið**.
-7.  Í farsímahönnuði, á flipanum **Svæði** er smellt á **Velja svæði**. Dálkar á listasíðunni verða að líkjast eftirfarandi mynd. [![Dálkar á síðunni Reikningar lánardrottins í bið sem notanda hefur verið úthlutað](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+7.  Í farsímahönnuði, á flipanum **Svæði** er smellt á **Velja svæði**. Dálkar á listasíðunni verða að líkjast eftirfarandi mynd. 
+
+    [![Dálkar á síðunni Reikningar lánardrottins í bið sem notanda hefur verið úthlutað](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+    
 8.  Bæta þarf dálkum af listasíðunni, sem verða að birtast notendum á farsímasíðunni. Röðin sem þú bætir við er sú röð sem svæðin eru birt notanda. Eina leiðin til að breyta röðun svæða verður með því að velja aftur öll svæði. Samkvæmt kröfum fyrir þetta dæmi er eftirfarandi átta svæða krafist. Hins vegar gæti sumum notendum þótt átta svæði of mikið af upplýsingum til að hafa í farsíma. Þess vegna munum við aðeins sýna mikilvægustu svæðin í farsímalistayfirlitinu. Eftirstandandi svæði birtast í upplýsingayfirliti sem við munum hanna seinna. Eins og stendur bætum við eftirfarandi svæðum við. Smellið á plúsmerkið (**+**) í þessum dálkum til að bæta við farsíðu.
     - Nafn lánardrottins
     - Heildarupphæð reiknings
@@ -152,8 +158,10 @@ Fyrsta farsímasíðan sem ætti að hanna er listi yfir reikninga sem eru úthl
     - Númer reiknings
     - Reikningsdagsetning
 
-    Eftir að svæðum er bætt við síðuna verður farsímasíðan að líkjast eftirfarandi dæmi. 
-    [![Síðan eftir að svæðum hefur verið bætt við](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+  Eftir að svæðum er bætt við síðuna verður farsímasíðan að líkjast eftirfarandi dæmi. 
+    
+   [![Síðan eftir að svæðum hefur verið bætt við](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+
 9.  Einnig verður að bæta eftirfarandi dálkum við núna, svo að við getum virkjað verkflæðisaðgerðir síðar.
     - Sýna lokin verk
     - Sýna úthlutað verk
@@ -169,16 +177,26 @@ Fyrsta farsímasíðan sem ætti að hanna er listi yfir reikninga sem eru úthl
 
 ### <a name="vendor-invoice-details"></a>Reikningsupplýsingar lánardrottins
 
-Til að hanna reikningsupplýsingasíðu fyrir farsíma skal nota síðuna **VendMobileInvoiceHeaderDetails**. Athugið að það fer eftir fjölda reikninga sem er úthlutað til þín í kerfinu en þessi síða sýnir elsta reikninginn (reikninginn sem var stofnaður fyrst). Til að finna tilgreindan reikning er hægt að nota síuna til vinstri. Hins vegar þurfum við ekki tilgreindan reikning fyrir þetta dæmi. Við þurfum bara reikningsgögn svo að við getum hannað farsímasíðuna. [![Verkflæðissíða](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
+Til að hanna reikningsupplýsingasíðu fyrir farsíma skal nota síðuna **VendMobileInvoiceHeaderDetails**. Athugið að það fer eftir fjölda reikninga sem er úthlutað til þín í kerfinu en þessi síða sýnir elsta reikninginn (reikninginn sem var stofnaður fyrst). Til að finna tilgreindan reikning er hægt að nota síuna til vinstri. Hins vegar þurfum við ekki tilgreindan reikning fyrir þetta dæmi. Við þurfum bara reikningsgögn svo að við getum hannað farsímasíðuna. 
+
+[![Verkflæðissíða](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
 1. Í vefslóðinni skal skipta út heiti valmyndaratriðis með **VendMobileInvoiceHeaderDetails** til að opna skjámyndina
+
 2. Opnið hönnuðinn fartæki með hnappninum **Stillingar** (tannhjól).
+
 3. Smellið á **Breyta** hnappinn til að hefja breytingarham í vinnusvæðið.
+
 4. Veldu síðuna **Reikningar lánardrottna minna** sem þú bjóst til áður og smelltu síðan á **Breyta**.
+
 5. Á flipanum **Svæði** smellirðu á dálkhausinn **Hnitanet**.
+
 6. Smellið á **Eiginleikar &gt; Bæta við síðu**. **Athugasemd:** Þegar smellt er á fyrirsögnina **Hnitanet** og síðu bætt við, er venslum við upplýsingasíðu sjálfvirkt komið á.
+
 7. Færðu inn síðutitill, eins og **Upplýsingar um reikning**, og lýsingu, eins og **Skoða línuupplýsingar og reikningshausinn**.
+
 8. Smellið á **Velja svæði**. Athugið að röðin sem þú bætir við er sú röð sem svæðin verða birt notanda. Eina leiðin til að breyta röðun svæða verður með því að velja aftur öll svæði. 
+
 9. Bættu við eftirfarandi reitum úr haus, samkvæmt kröfum fyrir þetta dæmi.
    - Nafn lánardrottins
    - Heildarupphæð reiknings
@@ -197,9 +215,13 @@ Til að hanna reikningsupplýsingasíðu fyrir farsíma skal nota síðuna **Ven
     - Upphæð 1099
 
 11. Eftir að öllum svæðum úr fyrri tvö skref hefur verið bætt við, smellið á **Lokið**. Dálkar á listasíðunni verða að líkjast eftirfarandi dæmi.
+    
     [![Síðan eftir að svæðum hefur verið bætt við](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+
 12. Smellið á **Lokið** til að fara úr breytingarstillinigu.
+
 13. Smellið á **Til baka** og síðan **Lokið** til að fara af vinnusvæðinu
+
 14. Smelltu á **Birta vinnusvæði** til að vista verkið
 
 ### <a name="workflow-actions"></a>Verkflæðisaðgerðir
@@ -295,12 +317,19 @@ Til að bæta við verkflæðisaðgerðum skal nota síðuna **VendMobileInvoice
 ### <a name="vendor-invoice-attachments"></a>Viðhengi reiknings lánardrottins
 
 1. Smellið á hnappinn **Stillingar** (tannhjól) í efra hægra horni síðunnar og svo á **Farsímaforrit**.
+
 2. Smellið á **Breyta** hnappinn til að hefja breytingarham í vinnusvæðið.
+
 3. Veldu <strong>**Síðuna Reikningsupplýsingar sem þú stofnaðir áður áðan og smelltu síðan **Breyta</strong>.
+
 4. Stilltu valkostinn **Skjalastjórnun** á **Já** eins og sýnt er hér að neðan. **Athugasemd:** Ef ekki þarf að sýna viðhengi í fartækinu er hægt að hafa þennan valkost stilltan á **Nei**, sem er sjálfgefin stilling.
+   
    ![Skjalastjórnun](./media/docmanagement-216x300.png)
+
 5. Smellið á **Lokið** til að fara úr breytingarstillinigu.
+
 6. Smellið á **Til baka** og síðan **Lokið** til að fara af vinnusvæðinu
+
 7. Smelltu á **Birta vinnusvæði** til að vista verkið
 
 ### <a name="vendor-invoice-line-distributions"></a>Línudreifingar fyrir reikning lánardrottins
@@ -311,12 +340,19 @@ Kröfur fyrir þetta dæmi staðfesta að það verða aðeins dreifingar á lí
 > Þegar við þekkjum kröfurnar hjálpar það okkur að ákveða hvaða tiltekna síðu á að nota og hvernig á að fínstilla notandaupplifun farsíma nákvæmlega þegar við hönnum aðstæðurnar. Í seinni aðstæðunum munum við nota aðra síðu til að sýna dreifingarnar, þar sem kröfur fyrir þær aðstæður eru aðrar.
 
 1.  Í vefslóðinni skiptirðu út heiti valmyndaratriðis, eins og þú gerðir áður. Síðan sem birtist á líkjast eftirfarandi mynd.
+
 [![Síðan Allar dreifingar](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+
 2.  Opnið hönnuðinn fartæki með hnappninum **Stillingar** (tannhjól).
+
 3.  Smellið á **Breyta** hnappinn til að hefja breytingarham í vinnusvæðið. **Athugasemd:** Þú munt sjá að tvær nýjar síður voru sjálfkrafa stofnaðar. Kerfið stofnar þessar síður þar sem kveikt var á skjalastjórnun í fyrri hluta. Þú mátt hunsa þessi nýjar síður.
+
 4.  Smella á **Bæta við síðu**.
+
 5.  Færa inn síðutitill, eins og **Skoða bókhald**, og lýsingu, eins og **Skoða bókhald fyrir reikning**.
+
 6.  Smelltu á **Lokið**.
+
 7.  Á flipanum **Svæði** er smellt á **Velja svæði**, veljið eftirfarandi svæði af dreifingasíðunni og smellið síðan á **Gert**:
     1.  Upphæð
     2.  Gjaldmiðill
@@ -324,8 +360,11 @@ Kröfur fyrir þetta dæmi staðfesta að það verða aðeins dreifingar á lí
 
     > [!NOTE] 
     > Við völdum ekki dálkinn **Lýsing** dálkur úr hnitaneti dreifinga, þar sem kröfur fyrir aðstæðurnar staðfestu að heildarverð er aðeins upphæðin sem dreifingar verða að vera fyrir. Þess vegna krefst notandi ekki annars svæðis til að ákvarða gerð upphæðar sem dreifingin er fyrir. Hins vegar **munum** við nota þessar upplýsingar í næstu aðstæðum, þar sem kröfur fyrir þær aðstæður tilgreina að aðrar upphæðagerðir hafi dreifingar (t.d. vsk).
+
 8.  Smellið á **Lokið** til að fara úr breytingarstillinigu.
+
 9.  Smellið á **Til baka** og síðan **Lokið** til að fara af vinnusvæðinu
+
 10. Smelltu á **Birta vinnusvæði** til að vista verkið
 
 > [!NOTE] 

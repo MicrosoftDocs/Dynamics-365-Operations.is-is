@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 244321e1eb246c46260326a8892924d9d9da75d3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175971"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570357"
 ---
 # <a name="recognize-deferred-revenue"></a>Skrá frestaðar tekjur
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Eins og er ekki hægt að kveikja á tekjuskráningareiginleikanum í gegnum eiginleikastjórnun. Nota verður skilgreiningarlykil til að kveikja á honum.
+> Ekki er hægt að kveikja á tekjuskráningareiginleikanum í gegnum eiginleikastjórnun. Nota verður skilgreiningarlykil til að kveikja á honum.
 
 Þetta efnisatriði lýsir ferlinu við að skrá tekjur í tekjuskráningaráætlun. Þegar búið er að bóka reikning fyrir sölupöntun er tekjuskráningaráætlun stofnuð fyrir hverja sölupöntunarlínu sem er með tekjuáætlun. Tekjuáætlun línu er notuð til að ákvarða hvort fresta skuli tekjum línunnar.
 

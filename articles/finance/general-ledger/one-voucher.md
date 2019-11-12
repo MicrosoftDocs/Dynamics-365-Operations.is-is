@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 2b755dcfbcdf41ada0302fc04f527ce7c309f4bb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a39654d4b6d74aa640db682fa052651736552db1
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186395"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553188"
 ---
 # <a name="one-voucher"></a>Eitt fylgiskjal
 
@@ -51,7 +51,7 @@ Núverandi virkni fyrir fjárhagsbækur (almenna færslubók, eignabók, greiðs
 
 ## <a name="issues-with-one-voucher"></a>Vandamál varðandi eitt fylgiskjal
 
-Eiginleiki eins fylgiskjals veldur vandamálum í uppgjöri, skattaútreikningum, bakfærslum, afstemmingu undirbókar við fjárhagsbók, fjárhagsskýrslugerð og fleira. (Til að fá frekari upplýsingar um vandamál sem geta komið upp við uppgjör skal t.d. sjá [Stakt fylgiskjal með mörgum færslum viðskiptavina eða lánardrottna](https://docs.microsoft.com/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) Til að vinna og skrá rétt þurfa þessi ferli og skýrslur færsluupplýsingar. Þó að sumar aðstæður gætu samt sem áður virkað rétt, en það fer eftir uppsetningu fyrirtækisins, koma oft upp vandamál þegar margar færslur eru færðar inn í eitt fylgiskjal.
+Eiginleiki eins fylgiskjals veldur vandamálum í uppgjöri, skattaútreikningum, bakfærslum, afstemmingu undirbókar við fjárhagsbók, fjárhagsskýrslugerð og fleira. (Til að fá frekari upplýsingar um vandamál sem geta komið upp við uppgjör skal t.d. sjá [Stakt fylgiskjal með mörgum færslum viðskiptavina eða lánardrottna](https://docs.microsoft.com/dynamics365/finance/accounts-payable/single-voucher-multiple-customer-vendor-records).) Til að vinna og skrá rétt þurfa þessi ferli og skýrslur færsluupplýsingar. Þó að sumar aðstæður gætu samt sem áður virkað rétt, en það fer eftir uppsetningu fyrirtækisins, koma oft upp vandamál þegar margar færslur eru færðar inn í eitt fylgiskjal.
 
 Til dæmis þegar eftirfarandi marglínu fylgiskjal er bókað.
 

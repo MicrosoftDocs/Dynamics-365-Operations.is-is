@@ -18,19 +18,19 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 69d06ff649f4453df22d55062b43bcc8d4ecd763
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: f531f51d7f42f88e4da2d046e61313e9ada2b259
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874717"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569801"
 ---
 # <a name="work-order-lifecycle-states"></a>Líftímastöður verkbeiðni
 
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Líftímastöður verkbeiðna skilgreina þær stöður sem verkbeiðni getur farið í gegnum. Sem dæmi má nefna **Stofnað**, **Raðað**, **Í vinnslu** og **Lokið**. Hægt er að uppfæra líftímastöður verkbeiðni handvirkt í verkbeiðni, eða þær geta verið uppfærð sjálfkrafa (til dæmis meðan á tímasetningu verkbeiðni stendur).
 
@@ -38,7 +38,7 @@ Líftímastöður verkbeiðna sem krafist er fyrir verkbeiðnirnar verða að ve
 
 Eftirfarandi tafla lýsir valkostunum í hlutunum **Verkbeiðni** og **Tímasetja** á flýtiflipanum **Almennt** á síðunni **Líftímastaða verkbeiðna** (**Eignastýring** \> **Uppsetning** \> **Verkbeiðnir** \> **Líftímastöður**).
 
-![Mynd 1](media/09-setup-for-work-orders.png)
+![Síðan Líftímastaða verkbeiðni](media/09-setup-for-work-orders.png)
 
 | Heiti valkosts                   | Lýsing |
 |-------------------------------|-------------|
@@ -96,7 +96,7 @@ Eftirfarandi tafla lýsir valkostunum í hlutunum **Verkbeiðni** og **Tímasetj
     - Ef valkosturinn **Niðurtími vegna viðhalds** er stilltur á **Já** fyrir líftímastöðuna sem verkbeiðni er uppfærð í er villuleitun niðurtíma vegna viðhalds gerð á eigninni sem er tengd verkbeiðninni. Ef skráning niðurtíma vegna viðhalds hefur verið gerð en það er engin skráning **Lokið** eru skilaboð sýnd þegar verkbeiðnin er uppfærð í þessa líftímastöðu.
     - Ef venjuleg verkuppsetning inniheldur ekki öll stigin sem þú þarfnast fyrir uppstillingu á eignastjórnun geturðu sett upp notendaskilgreind verkefnastig á flipanum **Verkstig** á síðunni **Verkefnisstjórnun og bókhaldsfæribreytur**. Eftirfarandi mynd sýnir flipann **Verkstig** á síðunni **Verkefnisstjórnun og bókhaldsfæribreytur**.
 
-    ![Mynd 2](media/10-setup-for-work-orders.png)
+    ![Síðan Setja upp verkstig fyrir ýmsar verkgerðir](media/10-setup-for-work-orders.png)
 
 > [!NOTE]
 > Ef líftímastaðan sem þú uppfærir verkbeiðni í er óvirk, er færslubókum sem tengjast verkbeiðninni en hafa ekki enn verið bókaðar sjálfkrafa eytt. Þessi hegðun hjálpar til við að tryggja sjálfvirka hreinsun ónotaðra gagna. (Líftímastaða er óvirk ef valkosturinn **Virkt** fyrir hana stilltur á **Nei** á flýtiflipanum **Almennt** á síðunni **Líftímastaða verkbeiðni**.)
@@ -114,7 +114,7 @@ Líftímalíkön vísa til verkflæða og líftímastöður eru valdar í líft�
 
 Eftirfarandi mynd sýnir tengsl milli verkbeiðnigerða, líftímalíkana og líftímastaða.
 
-![Mynd 3](media/11-setup-for-work-orders.png)
+![Síðan Verkbeiðnigerð samanborið við síðuna Líftímalíkön verkbeiðna](media/11-setup-for-work-orders.png)
 
 ## <a name="work-order-lifecycle-models"></a>Líftímalíkön verkbeiðni
 
@@ -138,4 +138,4 @@ Eftirfarandi mynd sýnir tengsl milli verkbeiðnigerða, líftímalíkana og lí
 8. Í reitinn **Óröðuð líftímastaða** velurðu líftímastöðu sem alltaf ætti að vera valin fyrir verkbeiðni ef tímasetningu verkbeiðni er eytt.
 9. Vistaðu líftímalíkan verkbeiðni.
 
-![Mynd 4](media/15-setup-for-work-orders.png)
+![Síðan Líftímalíkön verkbeiðna](media/15-setup-for-work-orders.png)

@@ -3,7 +3,7 @@ title: Bókun í bakfærslubók
 description: Þetta efni lýsir getu sem gerir þér kleift að bakfæra fylgiskjöl af færslulista fylgiskjala eða úr fjárhagsfærslubókum.
 author: MikeFalkner
 manager: AnnBe
-ms.date: 08/01/2019
+ms.date: 10/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,51 +18,56 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a5456e60f1f3cee5f83ac7f725f7e01ba5bd7a1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: bc2ff30ef5d08759af700d683c207b0f5ed65d5b
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248586"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658976"
 ---
 # <a name="reverse-journal-posting"></a>Bókun í bakfærslubók
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Þetta efni lýsir getu Microsoft Dynamics 365 Finance sem gerir þér kleift að bakfæra heila færslubók eða bakfæra eitt eða fleiri fylgiskjöl af færslulistum fylgiskjala án tillits til uppruna. 
 
 ## <a name="reversing-journals"></a>Bakfærsla færslubóka
 
 Hægt er að bakfæra eina færslubókarlínu í einu. Með bakfærslu á færslubók geturðu bakfært heila fjárhagsfærslubók. Til að bakfæra færslubók: 
-- Opnaðu fjárhagsfærslubókina og síaðu á bókaðar færslubækur
-- Smelltu á bakfærsluvalmyndina efst á síðunni
+
+- Opnaðu fjárhagsfærslubókina og síaðu á bókaðar færslubækur.
+- Veldu valmyndina **Bakfæra** efst á síðunni.
 - Þú munt sjá heildarfjölda fylgiskjala og fylgiskjalalínur sem og heildarfjárhæð línanna sem verið er að bakfæra
-- Veldu Já til að nota núverandi færsludagsetningar eða Nei til að slá inn nýja. Í sumum tilvikum kann tímabil upphaflegrar færslu að vera lokað og þú vilt færa inn nýja færsludagsetningu fyrir bakfærsluna.
-- Ef þú valdir Nei, slærðu inn færsludagsetningu fyrir bakfærsluna. 
-- Sláðu inn athugasemd sem þú vilt bæta við bakfærsluna
-- Smelltu á hnappinn Bakfæra.
+- Veldu **Já** til að nota núverandi færsludagsetningar eða **Nei** til að slá inn nýja. Í sumum tilvikum kann tímabil upphaflegrar færslu að vera lokað og þú verður að færa inn nýja færsludagsetningu fyrir bakfærsluna.
+- Ef þú velur **Nei** slærðu inn færsludagsetningu fyrir bakfærsluna. 
+- Sláðu inn athugasemd sem þú vilt bæta við bakfærsluna.
+- Veljið hnappinn **Bakfæra**.
 
 Færslunar verða bakfærðar. 
 
-Ef fjöldi fylgiskjala er yfir 100 línur, verður bakfærsluferlið keyrt með runuvinnslunni. Þú getur skoðað niðurstöður bakfærslu með því að skoða athugasemdir í runuvinnslunni sem var keyrð. Allar bilanir verða tilgreindar í runuvinnslusögunni.
+Ef fylgiskjalið inniheldur yfir 100 línur, verður bakfærsluferlið keyrt með runuvinnslunni. Þú getur skoðað niðurstöðurnar með því að skoða athugasemdir í runuvinnslunni. Öll viðskipti sem ekki var hægt að bakfæra verða skráð í sögu runuvinnslunnar.
 
-Ef fjöldi fylgiskjala er 100 línur eða minna, mun bakfærsluvinnslan keyra þegar í stað. Niðurstöðurnar verða kynntar í glugga sem sýnir öll fylgiskjöl sem ekki var hægt að bakfæra og ástæðu þess að ekki var hægt að bakfæra þau. Smelltu á OK til að loka svarglugganum.
+Ef fylgiskjalið inniheldur 100 línur eða færri mun bakfærsluvinnslan keyra þegar í stað. Niðurstöðurnar verða kynntar í glugga sem sýnir öll fylgiskjöl sem ekki var hægt að bakfæra, ásamt ástæðu þess að ekki var hægt að bakfæra þau. Veldu **Í lagi** til að loka svarglugganum.
 
 ## <a name="reversing-vouchers-from-the-voucher-transaction-list"></a>Bakfærsla fylgiskjala af færslulista fylgiskjala. 
 
 Þú getur líka bakfært fylgiskjöl úr **Fylgiskjalafærslulisti** yfir allar undirfærslubækur. Að auki geturðu bakfært fleiri en eitt fylgiskjal í einu. 
 
 Til að bakfæra eitt eða fleiri fylgiskjöl: 
-- Smelltu á bakfærsluvalmyndina efst á síðunni
-- Þú munt sjá heildarfjölda fylgiskjala og fylgiskjalalínur sem og heildarfjárhæð línanna sem verið er að bakfæra
-- Veldu Já til að nota núverandi færsludagsetningar eða Nei til að slá inn nýja. Í sumum tilvikum kann tímabil upphaflegrar færslu að vera lokað og þú vilt færa inn nýja færsludagsetningu fyrir bakfærsluna.
-- Ef þú valdir Nei, slærðu inn færsludagsetningu fyrir bakfærsluna. 
-- Sláðu inn athugasemd sem þú vilt bæta við bakfærsluna
-- Smelltu á hnappinn Bakfæra.
+
+- Veldu valmyndina **Bakfæra** efst á síðunni
+- Þú munt sjá heildarfjölda fylgiskjala og fylgiskjalalínur sem og heildarfjárhæð línanna sem verið er að bakfæra.
+- Veldu **Já** til að nota núverandi færsludagsetningar eða **Nei** til að slá inn nýja. Í sumum tilvikum kann tímabil upphaflegrar færslu að vera lokað og þú verður að færa inn nýja færsludagsetningu til að bakfæra hana.
+- Ef þú velur **Nei** slærðu inn færsludagsetningu fyrir bakfærsluna. 
+- Sláðu inn athugasemd til að lýsa bakfærslunni.
+- Veljið hnappinn **Bakfæra**.
 
 Færslunar verða bakfærðar. 
 
-Ef fjöldi fylgiskjala er yfir 100 línur, verður bakfærsluferlið keyrt með runuvinnslunni. Þú getur skoðað niðurstöður bakfærslu með því að skoða athugasemdir í runuvinnslunni sem var keyrð. Allar bilanir verða tilgreindar í runuvinnslusögunni.
+Ef það eru yfir 100 fylgiskjalalínur verður bakfærsluferlið keyrt með runuvinnslunni. Þú getur skoðað niðurstöðurnar með því að skoða athugasemdir í runuvinnslunni. Öll viðskipti sem ekki var hægt að bakfæra verða skráð í sögu runuvinnslunnar.
 
-Ef fjöldi fylgiskjala er 100 línur eða minna, mun bakfærsluvinnslan keyra þegar í stað. Niðurstöðurnar verða kynntar í glugga sem sýnir öll fylgiskjöl sem ekki var hægt að bakfæra og ástæðu þess að ekki var hægt að bakfæra þau. Smelltu á OK til að loka svarglugganum.
+Ef fjöldi fylgiskjala er 100 línur eða færri mun bakfærsluvinnslan keyra þegar í stað. Niðurstöðurnar munu birtast í glugga sem sýnir öll fylgiskjöl sem ekki var hægt að bakfæra, ásamt ástæðu þess. Veldu **Í lagi** til að loka svarglugganum.
+
+Aðeins er hægt að bakfæra færslur ef þær uppfylla viðskiptareglur um bakfærslur. Ekki er hægt að bakfæra lánardrottnagreiðslum með því að nota getu sem lýst er í þessu efni. Lánardrottnagreiðslur verður að bakfæra með því að fylgja skrefunum sem talin eru upp í [Bakfæra lánardrottnagreiðslu](https://docs.microsoft.com/en-us/dynamics365/finance/accounts-payable/reverse-vendor-payment).
 

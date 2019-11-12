@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Virkni sem getið er í þessu efnisatriði er tiltæk fyrir notendur sem hafa verið valdir fyrir prufuútgáfu. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í hlutanum [Framboð þjónustuuppfærslu](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+> Virkni sem getið er í þessu efnisatriði er tiltæk fyrir notendur sem hafa verið valdir fyrir prufuútgáfu. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í hlutanum [Algengar spurningar um uppfærslureglur fyrir „Ein útgáfa“](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/one-version).

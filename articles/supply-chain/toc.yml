@@ -42,6 +42,8 @@
               items:
                 - name: Uppsetningarvalkostir
                   href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Samanburður á skýi og eiginleikum á staðnum
+                  href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Uppsetning skýs
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Kerfiskröfur fyrir uppsetningu í skýi
@@ -60,16 +62,20 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Nýjungar eða breytingar
               items:
-                - name: Nýjungar eða breytingar – heimasíða
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md
-                - name: Eiginleikar í forútgáfu í forritum Finance and Operations 10.0.6 (nóvember 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-6.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Forrit fyrir Finance and Operations 10.0.5 (október 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations 10.0.4 (júlí 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'Finance and Operations, Enterprise Edition 7.3'
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Forskoða eiginleika í Supply Chain Management útgáfu 10.0.7 (desember 2019)
+                  href: get-started/whats-new-scm-10-0-7.md
+                - name: Supply Chain Management 10.0.6 (nóvember 2019)
+                  href: get-started/whats-new-scm-10-0-6.md
+                - name: Nýjungar eða breytingar í fyrri útgáfum
+                  items:
+                    - name: Nýjungar eða breytingar á heimasíðu Finance and Operations
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Forrit fyrir Finance and Operations 10.0.5 (október 2019)
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Finance and Operations 10.0.4 (júlí 2019)
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 'Finance and Operations, Enterprise Edition 7.3'
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: AX 2012 eiginleikar sem var frestað
@@ -1687,8 +1693,6 @@
                       href: production-control/register-material-consumption-hand-held-device.md
                     - name: Stjórna notkun hráefnis með birgðareglum
                       href: production-control/flushing-principles.md
-                    - name: Dreifing frá dreifingarstöð frá framleiðslupöntunum í úthlið
-                      href: production-control/cross-docking-opportunities.md
                     - name: Stilla framleiðslustað fyrir fullunna vöru
                       href: production-control/production-output-location.md
                     - name: Uppskrift tilkynnt sem lokið
@@ -2285,6 +2289,12 @@
                   href: warehousing/manage-warehouse-workers.md
                 - name: Frestuð vinnsla vöruhúsavinnu
                   href: warehousing/deferred-put.md
+            - name: Dreifing frá dreifingarstöð
+              items:
+                - name: Dreifing frá dreifingarstöð frá framleiðslupöntunum í úthlið
+                  href: production-control/cross-docking-opportunities.md
+                - name: Sjálfvirk losun sendinga fyrir dreifingu frá dreifingarstöð
+                  href: warehousing/auto-release-shipment-for-cross-docking.md
             - name: Losað að hluta og hlutaafhending
               items:
                 - name: Hlutaafhending farmflutnings
@@ -2311,6 +2321,8 @@
                   href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
                 - name: Setja upp endurúthlutun fyrir stutta vörutiltekt
                   href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                - name: Hætta við vöruhúsavinnu vegna frábrigðameðhöndlunar
+                  href: warehousing/cancel-warehouse-work.md
             - name: Birgðatalning
               items:
                 - name: Ástæðukóðar fyrir birgðatalningu

@@ -3,35 +3,35 @@ title: Eignagerðir
 description: Þetta efni útskýrir hvernig á að stofna eignagerðir í eignastýringu. Það lýsir einnig þeim þáttum sem tengjast eignategundum.
 author: josaw1
 manager: AnnBe
-ms.date: 06/26/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 2214
-ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 288dac77f9d999012ec930ef2bca5c0921c2955f
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.search.validFrom: 2019-09-30
+ms.dyn365.ops.version: 10.0.5
+ms.openlocfilehash: a19b8c40dd7d48b2d78723c4411f1699819c4026
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783354"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626086"
 ---
 # <a name="asset-types"></a>Eignagerðir
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að stofna eignagerðir. Það lýsir einnig þeim þáttum sem tengjast eignategundum. Tegundir eigna eru notaðar sem almennir flokkar eigna. Sem dæmi má nefna CNC vélar, mælitæki og vélar vörubíla. Eignategundir eru notaðar til að stjórna starfstegundunum (viðhaldsverkefnum), eignalífsferli, eignamælingum, eignareiginleikum, sniðmátum fyrir ástandsmat og eignalíkön sem hægt er að velja fyrir eign. Þegar eign er stofnuð verður að tilgreina eignagerð.
+
+Þetta efnisatriði útskýrir hvernig á að stofna eignagerðir. Það lýsir einnig þeim þáttum sem tengjast eignategundum. Tegundir eigna eru notaðar sem almennir flokkar eigna. Sem dæmi má nefna CNC vélar, mælitæki og vélar vörubíla. Eignategundir eru notaðar til að stjórna gerðum viðhaldsverka (viðhaldsverkefnum), eignalífsferli, teljurum, eignareiginleikum, sniðmátum fyrir ástandsmat og eignalíkönum sem hægt er að velja fyrir eign. Þegar eign er stofnuð verður að tilgreina eignagerð.
 
 Fyrir hverja eignategund er hægt að búa til afbrigði af skipulagi eignategundarinnar. Til dæmis, ef þú ert með eignategund sem er nefnd **Vörubílar**, geturðu búið til afbrigði af þeirri eignategund fyrir mismunandi eignaframleiðendur og eignamódel. Þú getur bætt við tilskildum varahlutum og viðhaldsáætlunum við hverja uppsetningu eigna.
 
@@ -39,35 +39,35 @@ Fyrir hverja eignategund er hægt að búa til afbrigði af skipulagi eignategun
 
 ## <a name="create-an-asset-type"></a>Stofna eignagerð
 
-1. Veldu **Eignastýring** \> **Uppsetning** \> **Eignagerðir** \> **Eignagerðir**.
+1. Veldu **Eignastýring** > **Uppsetning** > **Eignagerðir** > **Eignagerðir**.
 2. Veldu **Nýtt** til að búa til eignategund.
 3. Í **Tegund eigna** reit, slærðu inn kenni eignategund.
 4. Færið inn lýsandi nafn í reitinn **Heiti**.
 5. í reitnum **Líftímalíkan eignar** velurðu líftímalíkan eignar. Nánari upplýsingar um líftímastöður eigna og líftímalíkön eigna, sjá [Líftímastöður eigna](object-stages.md).
 6. Stilltu **Samtals** kostur á **Já** ef reikna ætti samanlögð gildi lykilafkastamælikvarða (KPI) fyrir eignir sem eru með þessa eignategund.
 7. Veljið **Vista**.
-8. Á flýtiflipanum **Gerðir eigna** veldu þá starfsgerðir sem eiga að tengjast eignagerðinni:
+8. Á flýtiflipanum **Gerðir viðhaldsverka** velurðu þær gerðir viðhaldsverka sem eiga að tengjast eignagerðinni:
 
-    - Til að velja starfstegund skaltu velja það í **Eftirstandandi starfstegundir** reitinn og veldu síðan hægri örvarhnappinn ![Hægri örvarhnappur](media/29-setup-for-objects.png) til að færa það til **Vinnutegundir valdar** kafla.
-    - Til að velja allar tiltækar starfstegundir velurðu hnappinn ![Áfram allar örvar](media/30-setup-for-objects.png). Allar tegundir starfa eru fluttar frá reitnum **Eftirstandandi starfstegundir** reit í reitinn **Vinnutegundir valdar**.
-    - Til að hætta við valið á starfstegund skaltu velja hana í **Valdar starfstegundir** reitinn og veldu síðan vinstri örvarhnappinn ![Vinstri örvarhnappur](media/31-setup-for-objects.png) til að færa hana í reitinn **Eftirstandandi Vinnutegundir**.
+    - Til að velja gerð viðhaldsverks skaltu velja það í reitnum **Eftirstandandi gerðir viðhaldsverka** og veldu síðan hægri örvarhnappinn ![Hægri örvarhnappur](media/29-setup-for-objects.png) til að færa það í kaflann **Valdar gerðir viðhaldsverka**.
+    - Til að velja allar tiltækar gerðir viðhaldsverka velurðu hnappinn ![Áfram allar örvar](media/30-setup-for-objects.png). Allar gerðir viðhaldsverka eru fluttar úr reitnum **Eftirstandandi gerðir viðhaldsverka** í reitinn **Valdar gerðir viðhaldsverka**.
+    - Til að hætta við valið á gerð viðhaldsverks skaltu velja hana í reitnum **Valdar gerðir viðhaldsverka** og veldu síðan vinstri örvarhnappinn ![Vinstri örvarhnappur](media/31-setup-for-objects.png) til að færa hana í reitinn **Eftirstandandi gerðir viðhaldsverka**.
 
-9. Þú getur einnig valið eignamælingarnar sem ættu að tengjast eignategundinni. Á flýtiflipanum **Eignamælingar**, gerðu val þitt með því að nota aðferðirnar sem lýst er fyrir starfstegundir í þrepi 8. Nánari upplýsingar um uppsetningu eignamælinga, sjá [Mælingar á viðhaldseignum](counters.md).
-10. Þú getur einnig valið eigindagerðir sem ættu að tengjast eignategundinni. Á flýtiflipanum **Eigindagerðir**, gerðu val þitt með því að nota aðferðirnar sem lýst er fyrir starfstegundir í þrepi 8. Til að búa til ákjósanlegustu röð eigindategunda skaltu velja eigindategundina **Valdar eigindagerðir** reitinn og notaðu upp örina og örvatakkana til að færa hann. Röð eigindagerða verður sýnd á eignum sem nota þessa eignategund. Nánari upplýsingar um eignareigindirnar, sjá [Gerðir viðhaldseiginda](../setup-for-functional-locations/specification-types.md).
+9. Þú getur einnig valið teljarana sem ættu að tengjast eignategundinni. Á flýtiflipanum **Teljarar** gerirðu val þitt með því að nota aðferðirnar sem lýst er fyrir gerðir viðhaldsverka í þrepi 8. Nánari upplýsingar um uppsetningu á teljurum er að finna í [Teljarar](counters.md).
+10. Þú getur einnig valið eigindagerðir sem ættu að tengjast eignategundinni. Á flýtiflipanum **Eigindagerðir**, gerðu val þitt með því að nota aðferðirnar sem lýst er fyrir gerðir viðhaldsverka í þrepi 8. Til að búa til ákjósanlegustu röð eigindategunda skaltu velja eigindategundina **Valdar eigindagerðir** reitinn og notaðu upp örina og örvatakkana til að færa hann. Röð eigindagerða verður sýnd á eignum sem nota þessa eignategund. Nánari upplýsingar um eignareigindirnar, sjá [Gerðir viðhaldseiginda](../setup-for-functional-locations/specification-types.md).
 
     > [!NOTE]
     > Þegar þú bætir við nýjum eigindategundum á flýtiflipanum **Eigindagerðir**, núverandi eignir eru sjálfkrafa uppfærðar með þeim upplýsingum.
 
-11. Þú getur einnig valið sniðmát ástandsmats sem ættu að tengjast eignategundinni. Á flýtiflipanum **Ástandsmat**, gerðu val þitt með því að nota aðferðirnar sem lýst er fyrir starfstegundir í þrepi 8. Fyrir frekari upplýsingar um sniðmát fyrir mat á ástandi og skráningu, sjá [Ástandsmat](../setup-for-objects/condition-assessment.md).
+11. Þú getur einnig valið sniðmát ástandsmats sem ættu að tengjast eignategundinni. Á flýtiflipanum **Ástandsmat**, gerðu val þitt með því að nota aðferðirnar sem lýst er fyrir gerðir viðhaldsverka í þrepi 8. Fyrir frekari upplýsingar um sniðmát fyrir mat á ástandi og skráningu, sjá [Ástandsmat](../setup-for-objects/condition-assessment.md).
 12. Flýtiflipinn **Eignalíkan** sýnir allar samsetningar eignaframleiðenda og gerða sem eru sett upp á völdum eignategundum. Veldu til að sjá samsetningar skiptar eftir framleiðanda **Eignalíkan** til að opna síðuna **Eignalíkan**.
 
     Á síðunni **Eignalíkan** er hægt að bæta við samskiptum eignalíkana – eignategunda. Að auki, á **Gerðir eigna** síðu er hægt að bæta samskiptum eignaframleiðanda við eignir beint við eignategund. Að lokum, á **Eignalíkan** síðu (**Eignastýring** \> **Uppsetning** \> **Eignir** \> **Eignalíkan**), getur þú búið til nýja eignatilbúnað framleiðanda – eignamódel - eignatengsl. Þess vegna eru þrjár leiðir til að setja upp og breyta eignum framleiðanda - eignalíkani - eignatengsl. Allar tiltækar samsetningar eru sýndar frá mismunandi sjónarhornum og þú getur valið valinn aðgangsstað þegar þú vinnur með uppsetninguna.
 
 > [!NOTE]
-> - Ef þú velur eignamælingar á eignategund eru valin uppfærð sjálfkrafa á **Eignaaðgerðir** síðu (**Eignastýring** \> **Uppsetning** \> **Eignir** \> **Gerðir eigna** \> **Eignamælingar**).
-> - Reitirnir í **Upplýsingar** kafla á flýtiflipanum **Almennt** sýnir fjölda starfstegunda, eignamælingar, eiginleika og svo framvegis sem eru sett upp á valda eignategund.
+> - Ef þú velur teljara á eignategund er valið sjálfkrafa uppfært á síðunni **Teljarar** (**Eignastýring** > **Uppsetning** > **Eignir** > **Eignagerðir** > **Teljarar**).
+> - Reitirnir í kaflanum **Upplýsingar** á flýtiflipanum **Almennt** sýna fjölda gerða viðhaldsverka, teljara, eiginleika og svo framvegis sem eru sett upp á valinni eignategund.
 
-Venjulega eru verkbeiðnir sem eru búnar til handvirkt tengdar leiðréttandi viðhaldi, en vinnupantanir sem eru búnar til sjálfkrafa tengjast fyrirbyggjandi viðhaldi. Þegar þú býrð til verkbeiðnir handvirkt eru aðeins þær tegundir starfa sem valdar eru á flýtiflipanum **Starfagerðir** á **Gerðir eigna** síðu er hægt að nota. Samt sem áður, sjálfkrafa stofnaðar vinnupantanir geta notað allar þær tegundir starfa sem þú býrð til á **Starfagerðir** síðu (**Eignastýring** \> **Uppsetning** \> **Störf** \> **Starfagerðir**).
+Venjulega eru verkbeiðnir sem eru búnar til handvirkt tengdar leiðréttandi viðhaldi, en vinnupantanir sem eru búnar til sjálfkrafa tengjast fyrirbyggjandi viðhaldi. Þegar þú býrð til verkbeiðnir handvirkt er aðeins hægt að nota þær gerðir viðhaldsverka sem valdar eru á flýtiflipanum **Gerðir viðhaldsverka** á síðunni **Eignagerðir**. Samt sem áður, sjálfkrafa stofnaðar vinnupantanir geta notað allar þær gerðir viðhaldsverka sem þú býrð til á síðunni **Gerðir viðhaldsverka** (**Eignastýring** \> **Uppsetning** \> **Vinnslur** \> **Gerðir viðhaldsverka**).
 
 ## <a name="create-asset-type-setup-lines"></a>Búðu til uppsetningarlínur fyrir eignategund
 

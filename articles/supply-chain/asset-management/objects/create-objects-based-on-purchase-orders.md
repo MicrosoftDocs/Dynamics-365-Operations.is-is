@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 536795ac8ac164a6cc16e9ba22b0aa7bf30ddfd8
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 6eba14e285f23338cad0243fca567b30c6d4d3f2
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783363"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571577"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Stofna eignir byggt á innkaupapöntunum
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Þetta efni útskýrir hvernig þú getur búið til lista yfir eignaliði sem hægt er að nota sem grunn til að búa til eignir fyrir viðhaldsverk í eignastýringu. Miðað við eignaratriðin geturðu skoðað lista yfir innkaupapöntunarlínurnar sem eru búnar til á þeim hlutum. Tilgangurinn með þessari virkni er að búa til eign í eignastýringu auðveldlega út frá innkaupapöntun.
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 660038060826ade9301e50143e49b53ba3fcd3ab
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: f96fcc7ebb8928c6d6b17b30465ad1625d9b5be4
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783353"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571071"
 ---
-# <a name="asset-criticalities"></a>Mikilvægi eigna
+# <a name="asset-criticality-types"></a>Mikilvægisgerðir eigna
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Umræðuefnið útskýrir gerðir eignamikilvægis í eignastýringu. Mikilvægi eigna er tengd eignum og færð yfir í verkbeiðnum. Það er ekki hægt að breyta því í verkbeiðni. Skilvirkni eigna er notuð til að reikna út gagnrýni á verkþörf meðan á tímasetningu verkbeiðni stendur. Með öðrum orðum, það er notað til að reikna út að hve miklu leyti viðhaldsstörf á eign hafa áhrif á framleiðsluáætlun og framleiðni fyrirtækisins. Nánari upplýsingar um uppsetninguna sem er tengd útreikningi á matseinkunnum fyrir tímasetningar verkbeiðni, sjá [Færibreytur eignastýringar](../setup-for-objects/enterprise-asset-management-parameters.md).
 
@@ -43,7 +43,7 @@ Til að setja upp gagnrýni skaparðu fyrst þær tegundir gagnrýni sem ætti a
 4. Á svæðinu **Heiti** skal færa inn einkvæmt heiti fyrir gerð mikilvægis.
 5. Í reitnum **Stuðull** skal slá inn stuðul. Þessi þáttur er notaður við útreikning á tímasetningu verkbeiðnaáætlana til að ákvarða mikilvægisskrá sem ætti að nota. (Færslan sem hefur hæsta þáttinn er alltaf notuð.) Þessi stilling skiptir máli ef, eins og sýnt er á eftirfarandi mynd, eru gagnrýni línur búnar til sem hafa sama gagnrýni gildi.
 
-    ![Mynd 1](media/23-setup-for-objects.png)
+    ![Síðan Gerðir mikilvægis](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Setja upp mikilvægi eigna
 

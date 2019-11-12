@@ -3,7 +3,7 @@ title: Algengar spurningar um samþættingu Dynamics 365 Talent til Dynamics 365
 description: Þetta efnisatriði útskýrir hvaða gögn eru samstillt í samþættingu á Talent og Finance.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/17/2019
+ms.date: 10/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5bb855e6dd7ff236b7bda9e59e12ed8cc8ab9bc9
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 8b9fa6b8d5109f873c784d384d49f685f94da228
+ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251015"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622769"
 ---
 # <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>Algengar spurningar um samþættingu Dynamics 365 Talent til Dynamics 365 Finance
 
@@ -35,6 +35,10 @@ ms.locfileid: "2251015"
 Fyrir Core HR er undirsafn af gögnunum samstillt við. Fyrir lista yfir allar einingarnar skal sjá [Samþætting frá Dynamics 365 Talent til Dynamics 365 Finance](talent-financeandoperations-integration.md).
 
 Fyrir Attract og Onboard eru öll gögn staðbundin við Common Data Service.
+
+## <a name="why-dont-i-see-any-data-synced-to-common-data-service"></a>Af hverju sé ég engin gögn samstillt við Common Data Service?
+
+Sjálfgefið er að slökkt sé á samþættingu Common Data Service í nýju umhverfi sem inniheldur ekki meðfylgjandi kynningargögn. Sjálfgefið er að kveikt sé á því í nýju umhverfi sem innihalda kynningargögn og samstilling gagna hefst þegar umhverfið er útvegað. Eftir að umhverfi þitt er tilbúið til að samstilla gögn geturðu kveikt á samþættingunni. Nánari upplýsingar er að finna í [Skilgreina Common Data Service samþættingu](hr-common-data-service-integration.md).
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Get ég búið til nýja vörpun án þess að nota sniðmátin?
 

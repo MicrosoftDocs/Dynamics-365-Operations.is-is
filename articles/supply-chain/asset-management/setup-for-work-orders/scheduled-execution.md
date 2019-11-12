@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8d9c8afc139c96e32efb3161d35fde685b8abcc5
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 89e13179e17b7cf075d631bc65d82da5f24da624
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874671"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569847"
 ---
 # <a name="scheduled-execution"></a>Áætluð keyrsla
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Þú getur notað þjónustustig fyrir verkbeiðni til að setja upp áætlaða framkvæmd. (Sjá nánari upplýsingar um þjónustustig í verkbeiðni [Þjónustustig og lýsing](service-level-and-description.md) .) Fyrirhuguð framkvæmd veitir sveigjanleika í verkáætlun fyrir viðhaldsstarfsmenn, vegna þess að þú getur sett upp ítarlegri eða minna nákvæmar kröfur um það bil sem ljúka skal verkbeiðni á. Sem dæmi má nefna að viðhaldsstarfsmaður sem lýkur verki hraðar en gert var ráð fyrir í framleiðslustöð gæti farið í annað starf í nágrenninu sem áætlað var fyrir núverandi viku en ekki endilega fyrir núverandi dag. Þessi aðferð gerir kleift að hámarka skipulagningu starfsmanna og verklok.
 
@@ -42,4 +42,4 @@ Tímasett framkvæmdaruppsetning, sem tengist verkbeiðnum, getur verið almenn 
 5. Í reitnum **Áætluð framkvæmd** velurðu tímamillibilið.
 6. Veljið **Vista**.
 
-![Mynd 1](media/20-setup-for-work-orders.png)
+![Áætluð keyrsla](media/20-setup-for-work-orders.png)

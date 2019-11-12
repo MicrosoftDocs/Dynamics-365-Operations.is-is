@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdfc5eda1ebf78abe823908324ed9c35215e562e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249569"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653512"
 ---
 # <a name="demand-forecasting-setup"></a>Uppsetning eftirspurnarspár
 
@@ -72,7 +72,7 @@ Til að búa til spá notar Supply Chain Management Machine Learning-vefþjónus
 
 **Athugasemd** Heiti og lykill fyrir Azure-geymslureikning eru nauðsynleg aðeisn ef þú notar sérsniðinn geymslureikning. Ef verslunarsvæðis á útgáfu er notuð, verður þú að hafa sérsniðinn geymslureikning í Azure, þannig að Machine Learning-þjónustan hafi aðgang að söguleg gögn. 
 
-Til að stofna spár um eftirspurn, er hægt að virkja eigin þjónustu með því að nota Machine Learning Studio eða Supply Chain Management Eftirspurnarspártilraunir. Leiðbeiningar fyrir virkjun eftirspurnarspártilrauna Finance and Operations sem vefþjónustu eru tiltækar í Finance and Operations. Á **Færibreytur eftirspurnarspár** síða, smellt er á **Azure Machine Learning** flipa.
+Til að stofna spár um eftirspurn, er hægt að virkja eigin þjónustu með því að nota Machine Learning Studio eða Supply Chain Management Eftirspurnarspártilraunir. Leiðbeiningar fyrir virkjun eftirspurnarspártilrauna Finance and Operations sem vefþjónustu eru tiltækar í Supply Chain Management. Á **Færibreytur eftirspurnarspár** síða, smellt er á **Azure Machine Learning** flipa.
 
 ## <a name="settings-for-the-demand-forecasting-machine-learning-service"></a>Stillingar fyrir námsvélaþjónustu eftirspurnarspár
 Til að skoða færibreytur sem hægt er að skilgreina fyrir á Eftirspurnarspárþjónustu, er farið í **aðaláætlanagerð** &gt; **Uppsetningu** &gt; **eftirspurnarspár** &gt; **færibreytur reiknirita fyrir Spá**. Í **færibreytur reiknirita** fyrir Spá síðu birtist sjálfgefin gildi fyrir færibreyturnar. Hægt er að skrifa yfir þessar færibreytur á **færibreytur Eftirspurnarspár** síðu. Nota **Almennt** flipann til að skrifa yfir færibreytur altækt eða nota **úthlutunarlykla Vöru** flipa til að skrifa yfir færibreytur á hvern úthlutunarlykil vöru. Færibreytur sem er skrifað yfir fyrir vöruúthlutunarlykil hafa eingöngu áhrif á spár fyrir vörur sem eru tengd þeim úthlutunarlykil vöru.

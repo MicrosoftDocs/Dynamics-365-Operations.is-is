@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71905d5b362c80d48b78210b59cacfb1e7899757
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: da60d098aff96780ca1e40832db34e3c9cc835e7
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874694"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569686"
 ---
 # <a name="warranty-agreements"></a>Ábyrgðarsamningar
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Í eignastjórnun geturðu sett upp ábyrgðarskilmála sem hægt er að tengja við eign eða eignategund. Ábyrgðarskilmálar eru búnir til fyrir tiltekið tímabil. Hægt er að setja upp ábyrgð til að veita fulla tryggingu eða hlutfallslega tryggingu og þú getur sett upp skilmála sem tengjast tíma, kostnaði og vörum.
@@ -54,4 +54,4 @@ Fyrsta skrefið er að búa til hvaða ábyrgðarsamninga lánardrottna sem þú
     3. Í reitinn **Tímabil** skal slá inn númer. Þessi reitur skilgreinir fjölda tímabila sem ábyrgðin ætti að gilda fyrir.
     4. Í reitnum **Prósenta** slærðu inn tryggingarhlutfall fyrir ábyrgðarlínuna. Hlutfallið gefur til kynna hve mikið fyrirtækið þitt tryggir.
 
-![Mynd 1](media/01-warranty.png)
+![Ábyrgðarsíða](media/01-warranty.png)

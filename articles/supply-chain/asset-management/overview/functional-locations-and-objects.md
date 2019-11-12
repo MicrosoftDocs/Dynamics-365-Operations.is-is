@@ -18,32 +18,32 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5271b673d758608cae8e43d72b7e75b259d5f142
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: e3a42d36fd137aa780886276a4235f1b8f3a3680
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024615"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653348"
 ---
 # <a name="functional-locations-and-assets"></a>Virkar staðsetningar og eignir
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Þetta efni lýsir virkum staðsetningum og eignum í eignastýringu. Eignastýring er ítarleg eining til að stjórna eignum og viðhaldsstörfum í Dynamics 365 Supply Chain Management.
 
 ## <a name="overview"></a>Yfirlit
 
-Eignastjórnun er samþætt óaðfinnanlega við nokkrar einingar í Finance and Operations. Eftirfarandi mynd sýnir viðmót við aðrar einingar.
+Eignastjórnun er samþætt óaðfinnanlega við nokkrar einingar við önnur forrit Finance and Operations. Eftirfarandi mynd sýnir viðmót við aðrar einingar.
 
-![Mynd 1](media/01-overview-image.png)
+![Skýringarmynd sem sýnir hvernig eignastjórnun tengist öðrum einingum](media/01-overview-image.png)
 
 Eignastjórnun gerir þér kleift að stjórna og framkvæma öll verkefni sem tengjast stjórnun og þjónustu á mörgum gerðum búnaðar í fyrirtækinu þínu. Þessi búnaður inniheldur vélar, framleiðslutæki og farartæki. Eignastjórnun styður einnig lausnir í fjölmörgum atvinnugreinum.
 
 Eftirfarandi mynd sýnir yfirlit yfir helstu virkni sem fellur undir eignastýringu.
 
-![Mynd 2](media/02-overview-image.png)
+![Skýringarmynd sem sýnir helstu virkni í eignastýringu](media/02-overview-image.png)
 
 ## <a name="functional-locations-and-assets"></a>Virkar staðsetningar og eignir
 
@@ -53,8 +53,8 @@ Eignakostnaður fylgir alltaf staðsetningu eignarinnar. Með öðrum orðum, ef
 
 Hvernig þú byggir stigveldi þitt yfir virkar staðsetningar fer eftir kröfum fyrirtækisins um viðhald á innri búnaði eða þjónustu við viðskiptavini. Eftirfarandi mynd sýnir dæmi um virkar staðsetningar sem eru byggðir á landfræðilegum stöðum.
 
-![Mynd 3](media/03-overview-image.png)
+![Skýringarmynd sem sýnir virkar staðsetningar út frá landfræðilegum stöðum](media/03-overview-image.png)
 
 Eftirfarandi mynd sýnir dæmi um virkar staðsetningar sem eru byggðir á viðskiptavinum.
 
-![Mynd 4](media/04-overview-image.png)
+![Skýringarmynd sem sýnir virkar staðsetningar út frá viðskiptavinum](media/04-overview-image.png)

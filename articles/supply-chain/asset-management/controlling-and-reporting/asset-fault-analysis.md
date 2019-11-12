@@ -18,37 +18,45 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7c9330cc7b3a8839d94c8945418548033254786b
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 43772903f6845409cb33c7f2a13a049a3e9aa208
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918442"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652403"
 ---
 # <a name="asset-fault-analysis"></a>Bilanagreining eignar
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Í eignastýringu er hægt að greina skráningar eignabilana til að fá yfirsýn yfir heildarfjölda bilana sem eru skráðir á tilteknu tímabili. Hægt er að greina bilanaskráningar frá mismunandi sjónarhornum, til dæmis með áherslu á eignir, eignagerðir, virkar staðsetningar, bilunareinkenni eða bilanagerðir.
 
 1. Smelltu á **Eignastýringu** > **Fyrirspurnir** > **Bilun eignar** > **Greiningu eignabilunar**.
 
-2. Í glugganum **Útreikningur á greiningu eignabilunar** geturðu notað reitinn **Stig** til að gefa til kynna hversu ítarlegar þú vilt að eignabilanalínurnar séu varðandi virkar staðsetningar. Til dæmis, ef þú setur inn töluna „1“ í reitinn, og þú ert með fjölþrepa skipulag virkra staðsetninga, verða allar eignabilanalínur fyrir virka staðsetningu sýndar á efsta stigi og því er hægt að bæta tímunum á línunni við af virkum staðsetningum sem eru staðsettar á lægra stigi. Ef þú setur töluna „0“ inn í reitinn **Stig** muntu sjá ítarlega niðurstöður sem sýna allar eignabilanalínur á öllum virkum staðsetningarstigum sem þær tengjast.
+2. Í glugganum **Útreikningur á greiningu eignabilunar** geturðu notað reitinn **Stig** til að gefa til kynna hversu ítarlegar þú vilt að eignabilanalínurnar séu varðandi virkar staðsetningar. 
+
+    Til dæmis, ef þú setur inn töluna „1“ í reitinn, og þú ert með fjölþrepa skipulag virkra staðsetninga, verða allar eignabilanalínur fyrir virka staðsetningu sýndar á efsta stigi og því er hægt að bæta tímunum á línunni við af virkum staðsetningum sem eru staðsettar á lægra stigi. 
+        
+    Ef þú setur töluna „0“ inn í reitinn **Stig** muntu sjá ítarlega niðurstöður sem sýna allar eignabilanalínur á öllum virkum staðsetningarstigum sem þær tengjast.
 
 3. Ef þú vilt takmarka leitina geturðu valið sérstakar eignir, bilunardagsetningar, bilunarástæður og bilunarúrræði á flýtiflipanum **Færslur til að taka með**.
 
 4. Smellið á **Í lagi** til að byrja að reikna.
 
-5. Á flipanum **Eignabilanagreining** smellirðu á einn eða fleiri hnappa í aðgerðarrúðahópunum **Flokka eftir...** til að birta smáatriðastigið sem þú vilt sjá. Virkjaðir hnappar eru auðkenndir. Virkjaður eða afvirkjaðu hnappa með því að smella á þá.
+5. Á flipanum **Eignabilanagreining** smellirðu á hnappana **Flokka eftir...** til að birta smáatriðastigið sem þú vilt sjá. Virkjaðir hnappar eru auðkenndir. Virkjaður eða afvirkjaðu hnappa með því að smella á þá.
 
 6. Smelltu á **Uppfæra útreikninga** til að sýna val þitt á skjánum. 
 
 >[!NOTE]
->Í hvert skipti sem þú virkjar eða afvirkjar hnappa í aðgerðarúðuhópunum **Flokka eftir...** skaltu muna að smella á hnappinn **Uppfæra útreikninga** eftir að þú breyttir valinu. Þetta er nauðsynlegt vegna þess að mikið magn af gögnum er unnið þar sem þú ert að endurreikna villulíkindi.
+>Í hvert skipti sem þú virkjar eða afvirkjar hnapp **Flokka eftir** skaltu muna að smella á hnappinn **Uppfæra útreikninga**. Þetta er nauðsynlegt vegna þess að mikið magn af gögnum er unnið þar sem þú ert að endurreikna villulíkindi.
 
-Það eru margar leiðir til að greina skráningar á bilunum. Hér að neðan sérðu dæmi í fimm skjámyndum um hvernig mismunandi gagnaval veita mismunandi upplýsingar. Þú munt sjá hvernig mismunandi valkostir veita meiri innsýn og smáatriði við greiningu á skráningum eignabilana.
+## <a name="examples"></a>Dæmi
+
+Það eru margar leiðir til að greina skráningar á bilunum. Þessi kafli er með fimm dæmi um hvernig mismunandi gagnaval getur veitt meiri innsýn og smáatriði við greiningu á skráningum eignabilana.
+
+### <a name="group-by-symptoms"></a>Flokka eftir einkennum
 
 Í skjámyndinni hér að neðan er aðeins hnappurinn **Einkenni** valinn.
 
@@ -57,6 +65,7 @@ ms.locfileid: "1918442"
 
 ![Mynd 1](media/06-controlling-and-reporting.png)
 
+### <a name="group-by-symptoms-and-time-period"></a>Flokka eftir einkennum og tímabili
 
 Í skjámyndinni hér að neðan er **Ári** og **Mánuði** bætt við til að sýna hvernig hægt er að skoða bilanaskráningar á völdu tímabili.
 
@@ -65,9 +74,13 @@ ms.locfileid: "1918442"
 
 ![Mynd 2](media/07-controlling-and-reporting.png)
 
+### <a name="group-by-multiple-symptoms-and-assets"></a>Flokka eftir margfeldi einkenna og eigna
 
-- Samsetning eigna og eignategund er notuð til grundvallar við útreikninga sem sýndir eru í þremur skjámyndunum hér að neðan sem munu aukast í smáatriðum.  
-- Almennt innihalda hnapparnir í aðgerðarrúðahópunum **Flokka eftir dagsetningu**, **Flokka eftir eign**, **Flokka eftir staðsetningu**, sem og hnappurinn **Bilun** (kenni bilunar), tímabil eða eignatengsl. Hnapparnir **Einkenni**, **Svæði**, **Gerð**, **Orsök** og **Úrræði** eru flokkanir sem notaðar eru í bilunastjórnun til að greina skráningu eignabilana og finna vandamálasvið.  
+Samsetning eigna og eignategund er notuð til grundvallar við útreikninga sem sýndir eru í þremur skjámyndunum hér að neðan sem munu aukast í smáatriðum.  
+
+Almennt innihalda hnapparnir í aðgerðarrúðahópunum **Flokka eftir dagsetningu**, **Flokka eftir eign**, **Flokka eftir staðsetningu**, sem og hnappurinn **Bilun** (kenni bilunar), tímabil eða eignatengsl. Hnapparnir **Einkenni**, **Svæði**, **Gerð**, **Orsök** og **Úrræði** eru flokkanir sem notaðar eru í bilunastjórnun til að greina skráningu eignabilana og finna vandamálasvið.  
+
+**Flokka eftir einkennum, eignum og eignategundum**
 
 Í skjámyndinni hér að neðan var **Eignir** og **Gerð eigna** bætt við til að veita nánari upplýsingar varðandi skráningar á bilunum.
 
@@ -76,6 +89,7 @@ ms.locfileid: "1918442"
 
 ![Mynd 3](media/08-controlling-and-reporting.png)
 
+**Flokka eftir tveimur einkennum, eignum og eignategundum**
 
 Í skjámyndinni hér að neðan var **Svæði** bætt við **Einkenni**, **Eign** og **Gerð eigna** til að veita nánari upplýsingar varðandi skráningar á bilunum.
 
@@ -83,6 +97,7 @@ ms.locfileid: "1918442"
 
 ![Mynd 4](media/09-controlling-and-reporting.png)
 
+**Flokka eftir þremur einkennum, eignum og eignategundum**
 
 Í skjámyndinni hér að neðan var **Gerð** bætt við og ítarlegasti útreikningurinn í þessu dæmi er sýndur.
  

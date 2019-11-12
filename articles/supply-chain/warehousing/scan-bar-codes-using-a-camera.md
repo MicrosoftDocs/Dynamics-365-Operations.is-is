@@ -1,6 +1,6 @@
 ---
-title: Skanna strikamerki með myndavél í forritinu Dynamics 365 Supply Chain Management - Warehousing
-description: Þetta efnisatriði útskýrir hvernig eigi að setja upp forritið Dynamics 365 Supply Chain Management - Warehousing til að skanna strikamerki með myndavél á fartæki.
+title: Skanna strikamerki með myndavél í forritinu Dynamics 365 for Finance and Operations – Warehousing
+description: Þetta efnisatriði útskýrir hvernig eigi að setja upp forritið Dynamics 365 for Finance and Operations – Warehousing til að skanna strikamerki með myndavél á fartæki.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 01/03/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8062a981f792bcfed2713d3cb6a42f414394f6a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 58cf27a250778d68bdffa1eefa5e939276e467fc
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251462"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578150"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>Skanna strikamerki með myndavél í forritinu Dynamics 365 Supply Chain Management - Warehousing
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig eigi að setja upp forritið Dynamics 365 Supply Chain Management - Warehousing til að skanna strikamerki með myndavél á fartæki. 
+Þetta efnisatriði útskýrir hvernig eigi að setja upp forritið Dynamics 365 for Finance and Operations – Warehousing til að skanna strikamerki með myndavél á fartæki. 
 
 ## <a name="prerequisites"></a>Forkröfur
 Til að nota þessa aðgerð þarf að vera með útgáfu 1.2.0.0 af forritinu Warehousing uppsetta og tækið þitt verður að vera með myndavél. Þegar forritið er opnað eftir uppfærslu mun forritið biðja um leyfi til að nota myndavélina. Ef tækið er ekki með myndavél mun engin beiðni koma upp og ekki verður hægt að nota myndavélina sem skanna. 
@@ -49,7 +49,7 @@ Myndavélasíðan mun ræsast fyrir allar síður þar sem ílagssvæðið er me
 
 | Verk- og upplýsingasíða | Myndavélasíða | 
 | :---------------------: | :--------------------: |
-| ![myndavél-skönnun-dæmi-verk-upplýsinga-síða](./media/camera-scanning-example-task-detail-page50.png)          | ![myndavél-skönnun-dæmi-myndavél-síða-minni](./media/camera-scanning-example-camera-page50.png)          |
+| ![Síðan Dæmi um verkupplýsingar myndavélarskönnunar](./media/camera-scanning-example-task-detail-page50.png)          | ![Minni síða myndavélar dæmi um myndavélarskönnun](./media/camera-scanning-example-camera-page50.png)          |
 
 Þegar smellt er á myndavélahnappinn á myndavélasíðunni mun hún sýnast deyfð á meðan reynt er að auðkenna strikamerki. Ef ekki er hægt að auðkenna strikamerki innan 5 sekúndna mun ferlið renna út á tíma og myndavélahnappurinn verður aftur tiltækur. Þá er aftur hægt að skanna strikamerki.
 

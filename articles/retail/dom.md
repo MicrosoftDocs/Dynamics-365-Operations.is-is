@@ -3,7 +3,7 @@ title: Dreifingarstjórnun pöntunar (DOM)
 description: Þetta efnisatriði lýsir virkni dreifingarstjórnunar pöntunar (DOM) í Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 11/15/2018
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fee0d9257af86a734a60b469db3a006435f1d3d2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0ebac1c3f9f79ee49ae11a121a4a0dd3bd456c8f
+ms.sourcegitcommit: bdbca89bd9b328c282ebfb681f75b8f1ed96e7a8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023420"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578485"
 ---
 # <a name="distributed-order-management-dom"></a>Dreifingarstjórnun pöntunar (DOM)
 
@@ -94,6 +94,7 @@ Eftirfarandi skýringarmynd sýnir ferli sölupöntunar í DOM-kerfi.
         - **Uppfylla hlutalínur?** – Ef þessi valkostur er stilltur á **Já** getur DOM aðeins uppfyllt hluta af magni pöntunarlína. Þessi uppfylling að hluta til er gerð með því að skipta pöntunarlínunni.
         - **Uppfylla pöntun aðeins frá einni staðsetningu** – Ef þessi valkostur er stilltur á **Já** gengur DOM úr skugga um að allar línur pöntunar séu uppfylltar frá einni staðsetningu.
 
+
         Eftirfarandi tafla útskýrir hegðunina þegar samsetning þessara færibreyta er skilgreind.
 
         |      | Uppfylla hlutapantanir | Uppfylla hlutalínur | Uppfylla pöntun aðeins frá einni staðsetningu | Lýsing |
@@ -108,21 +109,24 @@ Eftirfarandi skýringarmynd sýnir ferli sölupöntunar í DOM-kerfi.
         | 8    | Já                    | Nei                    | Nei                                   | Hægt er að uppfylla nokkrar línur pöntunarinnar, en ekki er hægt að uppfylla stakar línur að hluta til, og hægt er að uppfylla hinar ýmsu pöntunarlínur frá fleiri en einni staðsetningu í tilviki DOM-keyrslu. |
         | 9\*  | Nei                     | Á ekki við        | Já                                  | Uppfylla þarf allar pöntunarlínur og það frá aðeins einni staðsetningu. |
 
-        \* Ef **Uppfylla hlutapantanir** er stillt á **Nei**, er alltaf litið svo á að **Uppfylla hlutalínur** sé stillt á **Nei**, óháð því hver stillingin er í raun og veru.
+        \* Ef **Uppfylla hlutapantanir** er stillt á **Nei** er alltaf litið svo á að **Uppfylla hlutalínur** sé stillt á **Nei**, óháð því hver stillingin er í raun og veru.
 
-    - **Staðsetningarregla uppfyllingar utan nets** – Þessi regla gerir fyrirtækjum kleift að tilgreina staðsetningu eða flokk staðsetninga sem utan nets eða ekki tiltæka fyrir DOM, svo ekki sé hægt að úthluta pöntunum þar til uppfyllingar.
+> [!NOTE]
+> Í Retail, útgáfu 10.0.5, var færibreytunni **Uppfylla pöntun aðeins frá einni staðsetningu** breytt í **Hámarksstaðsetning uppfyllingar**. Í stað þess að leyfa notanda að skilgreina hvort aðeins sé hægt að uppfylla pantanir á einum stað eða uppfylla á eins mörgum stöðum og mögulegt er geta notendur nú tilgreint hvort hægt sé að uppfylla þær á ákveðnum fjölda staðsetninga (allt að fimm), eða frá eins mörgum stöðum og mögulegt er. Þetta veitir meiri sveigjanleika í fjölda staðsetninga sem hægt er að uppfylla pöntunina á.
+
+   - **Staðsetningarregla uppfyllingar utan nets** – Þessi regla gerir fyrirtækjum kleift að tilgreina staðsetningu eða flokk staðsetninga sem utan nets eða ekki tiltæka fyrir DOM, svo ekki sé hægt að úthluta pöntunum á þessar staðsetningar til uppfyllingar.
     - **Regla um hámark hafnana** – Þessi regla gerir fyrirtækjum kleift að skilgreina mörk fyrir hafnanir. DOM-vinnslan mun merkja pöntun eða pöntunarlínu sem undantekningu þegar mörkum er náð og útiloka hana frá frekari úrvinnslu.
 
         Eftir að pöntunarlínum er úthlutað á staðsetningu getur staðsetningin hafnað úthlutaðri pöntunarlínu vegna þess að hún getur mögulega ekki uppfyllt þessa línu af einhverjum ástæðum. Hafnaðar línur eru merktar sem undantekning og settar aftur í safnið til vinnslu í næstu keyrslu. Við næstu keyrslu reynir DOM að úthluta höfnuðum línum á aðra staðsetningu. Nýja staðsetningin getur einnig hafnað úthlutaðri pöntunarlínu. Þessi hringrás úthlutunar og höfnunar getur átt sér stað mörgum sinnum. Þegar talning höfnunar nær skilgreindum mörkum merkir DOM pöntunarlínuna sem varanlega undantekningu og kemur ekki til með að velja þessa línu til úthlutunar aftur. DOM tekur pöntunarlínuna eingöngu aftur til greina fyrir endurúthlutun ef notandi endurstillir stöðu pöntunarlínunnar handvirkt.
 
-    - **Regla um hámarksfjarlægð** – Þessi regla gerir fyrirtækjum kleift að skilgreina hámarksfjarlægð sem staðsetning eða flokkur staðsetninga getur verið í til að uppfylla pöntun. Ef skilgreindar reglur um hámarksfjarlægð fyrir staðsetningu skarast, notar DOM lægstu hámarksfjarlægð sem er skilgreind fyrir þá staðsetningu.
+   - **Regla um hámarksfjarlægð** – Þessi regla gerir fyrirtækjum kleift að skilgreina hámarksfjarlægð sem staðsetning eða flokkur staðsetninga getur verið í til að uppfylla pöntun. Ef skilgreindar reglur um hámarksfjarlægð fyrir staðsetningu skarast, notar DOM lægstu hámarksfjarlægð sem er skilgreind fyrir þá staðsetningu.
     - **Regla um hámarkspantanir** – Þessi regla gerir fyrirtækjum kleift að skilgreina hámarksfjölda pantana sem staðsetning eða flokkur staðsetninga getur unnið úr á almanaksdegi. Ef hámarksfjölda pantana er úthlutað á staðsetningu á einum degi úthlutar DOM ekki fleiri pöntunum á þessa staðsetningu það sem eftir lifir almanaksdagsins.
 
-    Hér eru nokkrar algengar eigindir sem hægt er að skilgreina fyrir allar undanfarandi gerðir af reglum:
+   Hér eru nokkrar algengar eigindir sem hægt er að skilgreina fyrir allar undanfarandi gerðir af reglum:
 
-    - **Upphafsdagur** og **Lokadagur** – Hægt er að gera allar reglur dagsetningamiðaðar með þessum reitum.
-    - **Gera óvirkar** – Einungis reglur sem hafa gildið **Nei** fyrir þennan reit eru teknar til greina í DOM-keyrslu.
-    - **Ströng takmarkandi** – Regla getur verið skilgreind sem annaðhvort ströng takmarkandi eða ekki ströng takmarkandi. Allar DOM-keyrslur fara í gegnum tvær ítrekanir. Í fyrri ítrekuninni er hver regla meðhöndluð sem ströng takmarkandi regla, óháð því hver stilling reitsins er. Það er að segja, allar reglur eru í gildi. Eina undantekningin er reglan **Forgangur staðsetningar**. Í seinni ítrekuninni eru reglurnar, sem ekki voru skilgreindar sem strangar takmarkandi reglur, fjarlægðar og pöntunum eða pöntunarlínum, sem ekki var úthlutað á staðsetningu þegar allar reglurnar voru í gildi, er úthlutað á staðsetningar.
+   - **Upphafsdagur** og **Lokadagur** – Hægt er að gera allar reglur dagsetningamiðaðar með þessum reitum.
+   - **Gera óvirkar** – Einungis reglur sem hafa gildið **Nei** fyrir þennan reit eru teknar til greina í DOM-keyrslu.
+   - **Ströng takmarkandi** – Regla getur verið skilgreind sem annaðhvort ströng takmarkandi eða ekki ströng takmarkandi. Allar DOM-keyrslur fara í gegnum tvær ítrekanir. Í fyrri ítrekuninni er hver regla meðhöndluð sem ströng takmarkandi regla, óháð því hver stilling reitsins er. Það er að segja, allar reglur eru í gildi. Eina undantekningin er reglan **Forgangur staðsetningar**. Í seinni ítrekuninni eru reglurnar, sem ekki voru skilgreindar sem strangar takmarkandi reglur, fjarlægðar og pöntunum eða pöntunarlínum, sem ekki var úthlutað á staðsetningu þegar allar reglurnar voru í gildi, er úthlutað á staðsetningar.
 
 10. Uppfyllingarsnið eru notuð til að flokka safn af reglum, lögaðilum, söluuppruna pantana og afhendingarmátum. Hver DOM-keyrsla er fyrir tiltekið uppfyllingarsnið. Á þennan hátt geta fyrirtæki skilgreint og keyrt safn af reglum fyrir safn af lögaðilum á pöntunum sem eru með tiltekinn söluuppruna pantana og tiltekinn afhendingarmáta. Því er hægt að skilgreina uppfyllingarsnið eins og við á ef keyra þarf ólík reglusöfn fyrir ólík söfn af söluuppruna pantana eða afhendingarmáta. Til að setja upp uppfyllingarsnið skal fylgja þessum skrefum:  
 

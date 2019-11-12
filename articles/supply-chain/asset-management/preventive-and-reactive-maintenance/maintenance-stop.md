@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c035f54e833b9bc25b4502901cf307213789b439
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: 4a7c57452b2f639b1f1b76bc79959c620c58ace1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922184"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571301"
 ---
 # <a name="maintenance-downtime"></a>Niðurtími vegna viðhalds
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Niðurtími vegna viðhalds er notaður til að fá yfirsýn yfir álag sem þarf til að sinna viðhaldsverkum á tilteknum eignum á tilteknu tímabili. Til dæmis er hægt að búa til skráningu á niðurtíma vegna viðhalds fyrir framleiðslulínu 10 í framleiðslusal 29-A á framleiðslusvæði 02. Viðhaldstími skráningar hefur upphafs- og lokatíma sem gefur til kynna tímabilið þegar eignir sem tengjast viðhaldsstöðvun eru ekki tiltækar til framleiðslu.
 
