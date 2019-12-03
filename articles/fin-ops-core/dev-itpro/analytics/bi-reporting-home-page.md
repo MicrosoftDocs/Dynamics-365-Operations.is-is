@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92fec444834be8ca4943932730b94beb8a1902e7
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 5da4272e65940708d301d465966dea3f53498b48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536848"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771565"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Viðskiptagreind (BI) og skýrslugerð – heimasíða
 
@@ -47,8 +47,8 @@ Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 - [Power BI fellt inn í vinnusvæði](embed-power-bi-workspaces.md)
 - [Power BI Embedded samþætting](power-bi-embedded-integration.md)
 - [Bæta greiningu við vinnusvæði með Power BI Embedded](add-analytics-tab-workspaces.md)
-- [Hjálpa til við að tryggja greiningarvinnusvæði og skýrslur með Power BI Embedded](secure-analytical-workspaces.md)
-- [Power BI efni fyrir Finance and Operations](power-bi-home-page.md)
+- [Hjálpa til við öryggi greiningarvinnusvæða og skýrslna með Power BI Embedded](secure-analytical-workspaces.md)
+- [Power BI efni – heimasíða](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>Viðskiptaskjöl og útprentun
 Skýrslugerðarlausnir eru oft notaðar til að fanga og miðla upplýsingum um viðskiptafærslur. Þess vegna þarf skýrslugerðarlausn að geta komið viðskiptagögnum á áþreifanlegt form með því að nota fyrirliggjandi tæki, eins og nettengda prentara. Dæmi um viðskiptaskjöl innihalda sölureikninga, viðskiptavinayfirlit og ávísanir.
@@ -57,9 +57,9 @@ Skýrslugerðarlausnir eru oft notaðar til að fanga og miðla upplýsingum um 
 
 Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 
-- [Yfirlit Document Reporting Services](document-reporting-services.md)
-- [Prentun í forritum fyrir Finance and Operations](print-documents.md)
-- [Setja upp eftirlitsbúnað skjalasendingar til að virkja nettengda prentara](install-document-routing-agent.md)
+- [Document Reporting Services](document-reporting-services.md)
+- [Yfirlit skjalaprentunar](print-documents.md)
+- [Setja upp eftirlitsbúnað skjalasendingar til að virkja nettengda prentun](install-document-routing-agent.md)
 
 ## <a name="electronic-reporting"></a>Rafræn skýrslugerð
 Rafræna skýrslugerðarverkfærið er verkfærið sem þú notar til að skilgreina rafræn skjalasnið sem uppfylla lagaskilyrði mismunandi landa eða svæða. Á meðal forrita rafrænnar skýrslugerðar eru fjárhagsleg endurskoðun, skattskýrslur og rafræn reikningsfærsla.
@@ -70,7 +70,7 @@ Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 
 - [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
 - [Stjórnun líftíma skilgreiningar fyrir rafræna skýrslugerð](general-electronic-reporting-manage-configuration-lifecycle.md)
-- [Skilgreining fyrir rafræna skýrslugerð búin til](electronic-reporting-configuration.md)
+- [Stofna skilgreiningar fyrir rafræna skýrslugerð](electronic-reporting-configuration.md)
 
 ## <a name="financial-reporting"></a>Fjárhagsskýrslugerð
 Staðlaðar fjárhagsskýrslur sem nota sjálfgefnar tegundir aðallykla eru veittar. Þú getur notað skýrsluhönnuðinn til að búa til eða breyta hefðbundnum fjárhagsskýrslum, eins og tekjuyfirlitum og efnahagsreikningum. Þú getur deilt niðurstöðunum með öðrum meðlimum í fyrirtækinu. Dæmi um fjárhagsskýrslugerð eru efnahagsreikningar, sjóðstreymi og samantekt á prófjöfnuði milli ára.
@@ -79,14 +79,14 @@ Staðlaðar fjárhagsskýrslur sem nota sjálfgefnar tegundir aðallykla eru vei
 
 Frekari upplýsingar er hægt að finna í eftirfarandi efni:
 
-- [Fjárhagsskýrslugerð fyrir Finance and Operations](financial-reporting-intro.md)
-- [Myndun fjárhagsskýrslu](generate-financial-report.md)
+- [Fjárhagsskýrslugerð](financial-reporting-intro.md)
+- [Búa til fjárhagsskýrslur](generate-financial-report.md)
 - [Fjárhagsskýrsluhlutar](financial-report-components.md)
 
 ## <a name="technical-reference-reports"></a>Skýrslur tæknilegs tilvísunarefnis
 Eftirfarandi skýrslur veita tilvísunarupplýsingar um hluti:
 
-- [Gagnaeiningaskýrsla](../data-entities/data-entities-report.md)
+- [Finna upplýsingar um staðlaðar gagnaeiningar](../data-entities/data-entities-report.md)
 - [Leyfiskóðar og skilgreiningarlyklaskýrsla](../sysadmin/license-codes-configuration-keys-report.md)
-- [Skýrslur SQL Server Reporting Services](SSRS-report.md)
+- [SQL Server Reporting Services (SSRS) skýrslur sem eru tiltækar](SSRS-report.md)
 - [Skýrsla um verkflæðisgerðir](../../fin-ops/organization-administration/workflow-types-report.md)

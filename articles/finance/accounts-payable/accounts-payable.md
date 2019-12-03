@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce6ce9c3c08a165ca19eb8d83643fd87b970f1ca
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: e9fbc0e3f3960f25930f9587d489009bc34181c7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658737"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772238"
 ---
 # <a name="accounts-payable-home-page"></a>Viðskiptaskuldir – heimasíða
 
@@ -41,7 +41,7 @@ Hægt er að færa inn reikninga lánardrottins handvirkt eða fá þá rafrænt
 
 Setja upp lánardrottnaflokka, lánardrottna, bókunarreglur, ýmsa greiðslukosti, færibreytur varðandi lánardrottna, gjöld, afhendingar- og ákvörðunarstaði, eigin víxla og aðrar gerðir af viðskiptaskuldaupplýsingum. 
 
-[Skilgreining viðskiptaskulda](accounts-payable-overview.md)
+[Yfirlit yfir skilgreiningu viðskiptaskulda](accounts-payable-overview.md)
 
 [Dreifing á fjárhagsupphæð og færslur í færslubók undirfjárhags fyrir reikninga lánardrottins](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
@@ -51,17 +51,17 @@ Setja upp lánardrottnaflokka, lánardrottna, bókunarreglur, ýmsa greiðslukos
 
 Nota Lánardrottna til þess að rekja alla reikninga og útgjöld til lánardrottna.
 
-[Reikningsjöfnun viðskiptaskulda](accounts-payable-invoice-matching.md)
+[Yfirlit yfir reikningsjöfnun viðskiptaskulda](accounts-payable-invoice-matching.md)
 
 [Bókunarreglur lánardrottins](vendor-posting-profiles.md)
 
 [Setja upp villuleit fyrir reikningsjöfnun viðskiptaskulda](tasks/set-up-accounts-payable-invoice-matching-validation.md)
 
-[Stefnur þríhliða jöfnunarregla](three-way-matching-policies.md)
+[Stefnur þríhliða jöfnunar](three-way-matching-policies.md)
 
 [Reikningsjöfnun og samstæðuinnkaupapantanir](invoice-matching-intercompany-purchase-orders.md)
 
-[Leyst úr ósamræmi við jöfnun samtalna reiknings](resolve-invoice-totals-invoice-matching-discrepancies.md)
+[Yfirlit yfir úrlausn á ósamræmi við jöfnun samtalna reiknings](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
 [Sjálfgefnir mótlyklar fyrir reikningabók lánardrottins og færslubókarsamþykkt reiknings](default-offset-accounts-vendor-invoice-journals.md)
 
@@ -93,11 +93,11 @@ Nota Lánardrottna til þess að rekja alla reikninga og útgjöld til lánardro
 
 [Staðgreiðsluafsláttur tekinn utan tímabils staðgreiðsluafsláttar](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[Rafræn skýrslugerð fyrir ávísanir lánardrottins](electronic-reporting-sample-vendor-checks.md)
+[Sýnishorn af ávísunum lánardrottins í rafrænni skýrslugerð](electronic-reporting-sample-vendor-checks.md)
 
 [Bakfærsla greiðslu lánardrottins](reverse-vendor-payment.md)
 
-[Yfirlit yfir fyrirframgreiðslureikninga og fyrirframgreiðslur](prepayments-invoices-vs-prepayments.md)
+[Fyrirframgreiðslureikningar samanborið við fyrirframgreiðslur](prepayments-invoices-vs-prepayments.md)
 
 [Miðstýrðar greiðslur fyrir viðskiptaskuldir](centralized-payments-accounts-payable.md)
 
@@ -107,27 +107,27 @@ Eftirfarandi efnisatriði veita upplýsingar um uppgjör. Uppgjör er það ferl
 
 [Skilgreina uppgjör](../cash-bank-management/configure-settlement.md)
 
-[Uppgjör hlutagreiðslu lánardrottins fyrir afsláttardagsetninguna](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+[Uppgjör hlutagreiðslu lánardrottins fyrir afsláttardagsetninguna með lokagreiðslu eftir afsláttardagsetninguna](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 
 [Uppgjör hlutagreiðslu lánardrottins sem er með afslætti á kreditnótum lánardrottins](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 
 [Uppgjör hlutagreiðslu lánardrottins sem er með mörg afsláttartímabil](settle-partial-vendor-payment-multiple-discount-periods.md)
 
-[Uppgjör hlutagreiðslu lánardrottins eða lokagreiðsla fyrir afslátt](settle-partial-vendor-payment-or-final-payment-before-discount.md)
+[Uppgjör hlutagreiðslu lánardrottins og lokagreiðslu fyrir afsláttardagsetninguna](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
 [Eitt fylgiskjal með mörgum viðskiptavina- eða lánardrottnafærslum](single-voucher-multiple-customer-vendor-records.md)
 
 
 
-### <a name="additional-resources"></a>Frekari upplýsingar
+### <a name="additional-resources"></a>Frekari tilföng
 
 #### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
 
-Í [útgáfuupplýsingum Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) sérðu hvaða nýju eiginleikar eru fyrirhugaðir. 
+Í [útgáfuáætlunum Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) sérðu hvaða nýju eiginleikar eru áætlaðir. 
 
 #### <a name="blogs"></a>Blogg
 
-Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) og [Microsoff Dynamics 365 Finance - Financials-blogginu](https://community.dynamics.com/365/financeandoperations/b/financials) er að finna umfjöllun, fréttir og aðrar upplýsingar um viðskiptaskuldir og aðrar lausnir.
+Á [Microsoft Dynamics 365-blogginu](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) og [Microsoft Dynamics 365 Finance - Financials-blogginu](https://community.dynamics.com/365/financeandoperations/b/financials) er að finna umfjöllun, fréttir og aðrar upplýsingar um viðskiptaskuldir og aðrar lausnir.
 
 Blogg [Microsoft Dynamics Operations-samstarfsaðila](https://community.dynamics.com/partner/b/operationspartnercommunityblog) veitir samstarfsaðilum Microsoft Dynamics aðgang að tæmandi upplýsingum um nýjungar og vinsæla eiginleika MBS Operations á einum stað.
 

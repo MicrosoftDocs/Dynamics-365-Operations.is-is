@@ -850,6 +850,8 @@
           items:
             - name: Yfirlit yfir vildarkerfi
               href: set-up-customer-loyalty-program.md
+            - name: Yfirlit yfir biðlaraþjónustu
+              href: clienteling-overview.md
         - name: Greiðslur
           items:
             - name: Greiðslumátar
@@ -1268,9 +1270,7 @@
                   href: Open-URL-in-POS.md
                 - name: Setja upp útlitshönnuð sölustaðar
                   href: install-pos-layout-designer.md
-                - name: Retail Modern POS án tengingar
-                  href: dev-itpro/retail-modern-pos-offline.md
-                - name: Víkka út POS Dual-skjá
+                - name: Víkka út tvöfaldan skjá sölustaðar
                   href: dev-itpro/pos-dual-display-extension.md
                 - name: Retail Modern POS og stækkunarhæfni kveikja í Cloud POS
                   href: dev-itpro/modern-pos-trigger-extensibility.md
@@ -1332,6 +1332,8 @@
                   href: dev-itpro/trigger-example-blocking-transaction.md
                 - name: Innleiða reglur um vöruskil með kveikjum
                   href: dev-itpro/trigger-example-return-policy.md
+                - name: Skrá viðbótartilvik á Application Insights
+                  href: dev-itpro/commerce-application-insights.md
             - name: Stækkunarhæfni rafrænna viðskipta
               items:
                 - name: Skilgreina netverslanir

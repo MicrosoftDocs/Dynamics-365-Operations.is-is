@@ -571,6 +571,8 @@
                   href: cost-management/inventory-close.md
                 - name: Leiðrétting kostnaðarvirðis lagerbirgða
                   href: cost-management/adjust-hand-inventory-cost-values.md
+                - name: Aldursgreiningaskýrsla birgða
+                  href: cost-management/inventory-aging-report-storage.md
             - name: Bókhald framleiðslu
               items:
                 - name: Útreikningur uppskrifta
@@ -868,7 +870,13 @@
                         - name: Sækja skilgreiningar úr geymslu rafrænnar skýrslugerðar fyrir RCS-gerð
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Flytja inn skilgreiningar úr RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Kennsla
+                      items:
+                        - name: Nota SAMTENGINGU gagnaveitna til að sækja gögn úr mörgum forritatöflum í vörpunum rafrænna skýrslugerðarlíkana
+                          href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Skilgreina varpanir rafrænna skýrslugerðarlíkana sem háð eru samhengi við lönd
+                          href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Nota lausnir rafrænnar skýrslugerðar í Finance and Operations
                   items:
                     - name: Skilgreina ramma
@@ -903,6 +911,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Yfirlit yfir stjórnun viðskiptaskjala
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Bæta nýjum svæðum við sniðmát viðskiptaskjals í Microsoft Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
                 - name: API fyrir ramma rafrænnar skýrslugerðar
                   items:
                     - name: Listi yfir virkni rafrænnar skýrslugerðar lengdur
@@ -1051,6 +1061,22 @@
           items:
             - name: Aðaláætlanagerð – heimasíða
               href: master-planning/master-planning-home-page.md
+            - name: Fínstilling áætlanagerðar
+              items:
+                - name: Yfirlit yfir fínstillingu áætlanagerðar
+                  href: master-planning/planning-optimization/planning-optimization-overview.md
+                - name: Hafist handa með fínstillingu áætlanagerðar
+                  href: master-planning/planning-optimization/get-started.md
+                - name: Samræmisgreining á fínstillingu áætlanagerðar
+                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Nota síur á áætlun
+                  href: master-planning/planning-optimization/plan-filters.md
+                - name: Skoða áætlunarferil og skipulagsannála
+                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: Sjálfvirk staðfesting með fínstillingu áætlanagerðar
+                  href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: Hætta við áætlunarverk
+                  href: master-planning/planning-optimization/cancel-planning-job.md
             - name: Aðaláætlanir
               items:
                 - name: Yfirlit aðaláætlana

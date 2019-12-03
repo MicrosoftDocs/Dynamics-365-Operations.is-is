@@ -1,6 +1,6 @@
 ---
 title: Velkomin(n) í Dynamics 365 Talent
-description: Talent einfaldar mörg reglubundin skráningarverk og gerir fjölda ferla tengda starfsfólki fyrirtækisins sjálfvirka. Á meðal þessara ferla eru viðhald starfsfólks og starfsánægju, fríðindastjórnun, þjálfun, frammistöðuviðtöl og breytingastjórnun.
+description: Talent einfaldar mörg reglubundin skráningarverk og gerir fjölda ferla tengda starfsfólki fyrirtækisins sjálfvirka. Á meðal þessara ferla eru viðhald starfsmanna og starfsánægju, fríðindastjórnun, þjálfun, frammistöðuviðtöl og breytingastjórnun.
 author: andreabichsel
 manager: AnnBe
 ms.date: 10/03/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: edc2f59752a32b9cd20902d0b7a1edfe3ba4d15b
-ms.sourcegitcommit: ff160a9f9879f3ec015ffef11fbc8b7c1b84a59d
+ms.openlocfilehash: 841ef8f2b7c319e0a6b3a9ce9a9e4959e70aa8cd
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552951"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812765"
 ---
 # <a name="welcome-to-dynamics-365-talent"></a>Velkomin(n) í Dynamics 365 Talent
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 Talent einfaldar mörg reglubundin skráningarverk og gerir fjölda ferla tengda starfsfólki fyrirtækisins sjálfvirka. Á meðal þessara ferla eru viðhald starfsfólks og starfsánægju, fríðindastjórnun, þjálfun, frammistöðuviðtöl og breytingastjórnun. Talent veitir einnig umgjörð um þau atriði sem starfsfólk mannauðsdeildar þarf að hafa yfirsýn yfir.
+Microsoft Dynamics 365 Talent einfaldar mörg reglubundin skráningarverk og gerir fjölda ferla tengda starfsmönnum fyrirtækisins sjálfvirka. Á meðal þessara ferla eru viðhald starfsmanna og starfsánægju, fríðindastjórnun, þjálfun, frammistöðuviðtöl og breytingastjórnun. Talent veitir einnig umgjörð um þau atriði sem starfsfólk mannauðsdeildar þarf að hafa yfirsýn yfir.
 
 Hægt er að nota Talent til að ljúka þessum verkum:
 
@@ -52,24 +52,24 @@ Hægt er að kynna sér Dynamics 365 Talent með því að horfa á myndskeiði�
 
 Þegar unnið er með Talent þarf að ákveða skipulag fyrirtækisins með notkun eininga á borð við deildir, störf og stöður. Þetta er nokkrar af grunneiningunum sem skilgreina þarf. Starfsmönnum er úthlutað stöðum sem tengjast störfum.
 
--   [Vinnuafl skipulagt með notkun deilda, starfa og staða](departments-jobs-positions.md)
--   [Uppsetning sérstakra mannauðsfæribreyta fyrir fyrirtæki](set-up-company-specific-hr-parameters.md)
--   [Uppsetning mannauðsfæribreyta þvert á lögaðila](set-up-hr-parameters-across-legal-entities.md) 
+-   [Skipuleggja starfsmenn með því að nota deildir, störf og stöður](departments-jobs-positions.md)
+-   [Uppsetning sérstakra mannauðsfæribreytna fyrir fyrirtæki](set-up-company-specific-hr-parameters.md)
+-   [Uppsetning mannauðsfæribreytna allra lögaðila](set-up-hr-parameters-across-legal-entities.md) 
 -   [Algengar spurningar um aðgerðir starfsfólks](personnel-actions-faq.md)
--   [Yfirlit yfir leyfi og fjarvistir](leave-absence-overview.md)
+-   [Umsjón leyfa og fjarvista](leave-absence-overview.md)
 -   [Hvernig á að nota Dynamics 365 Talent: Leyfi og fjarvistir (myndband)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
 -   [Hvernig á að stjórna starfsmönnum í Dynamics 365 Talent (myndband)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
 ## <a name="staffing-your-organization"></a>Mönnun fyrirtækis
 
-Talent inniheldur Attract, sem getur hjálpað þér að finna, taka við viðtöl og ráða umsækjendur sem hafa þá hæfni sem fyrirtækið þarf. Þegar farið er úr því að finna fólk í að ráða það getur nýliðaforritið hjálpað þér að aðlaga nýja starfsmanninn að fyrirtækinu þínu með því að setja viðeigandi væntingar, veita upplýsingar sem hann þarf til að byrja, koma á tengslum við samstarfsfólk og greiða götu hans í nýju hlutverki.  
+Talent inniheldur Attract, sem getur hjálpað þér að finna, taka við viðtöl og ráða umsækjendur sem hafa þá hæfni sem fyrirtækið þarf. Við ráðningarferli getur Onboard-forritið hjálpað þér að kynna stofnunina/fyrirtækið fyrir nýja starfsmanninum með því að setja fram viðeigandi væntingar, veita upplýsingar sem viðkomandi þarf til að hefja störf, koma á tengslum við samstarfsfólk og greiða götu hans í nýju hlutverki.  
 
-- [Yfirlit yfir Attract](attract-overview.md)
-- [Yfirlit yfir nýliðaforritið](create-onboarding-experience.md)
+- [Eiginleikar og færni Microsoft Dynamics 365 Talent – Attract](attract-overview.md)
+- [Hafist handa með Onboard](create-onboarding-experience.md)
 
 ## <a name="retain-and-motivate-employees"></a>Halda í og hvetja starfsmenn
 
-Hægt er að setja upp áætlanir fyrir skilvirka og sanngjarna launaumsýslu og stjórnun atriða á borð við tölvur og síma sem fyrirtækið úthlutar starfsfólki sínu. Hægt er að stofna launafyrirkomulag fastra og breytilegra launa, auk þess að skilgreina reglur sem tryggja að launafyrirkomulagið uppfylli skilyrði áætlunarinnar.
+Hægt er að setja upp áætlanir fyrir skilvirka og sanngjarna launaumsýslu og stjórnun atriða á borð við tölvur og síma sem fyrirtækið úthlutar starfsmönnum sínum. Hægt er að stofna launafyrirkomulag fastra og breytilegra launa, auk þess að skilgreina reglur sem tryggja að launafyrirkomulagið uppfylli skilyrði áætlunarinnar.
 
 -   [Launafyrirkomulag](compensation-plans.md)
 -   [Launaútreikningur](process-compensation.md)
@@ -82,18 +82,18 @@ Hægt er að setja upp áætlanir fyrir skilvirka og sanngjarna launaumsýslu og
 Hægt er að veita starfsmönnum stuðning við að ná markmiðum sínum í starfi um leið og þeir skila sínu hlutverki við rekstur með því að setja upp markmið, skipuleggja frammistöðumat og rekja endurgjöf. Einnig er hægt að setja upp leiðbeinendur, námskeiðsgerðir, námskeið, námskeiðslýsingar, dagskrár, námsleiðir og lotur sem gera starfsmönnum kleift að öðlast viðeigandi hæfni áður en leiðbeinanda er úthlutað á námskeið eða fólk er skráð í námskeið. Leiðbeinendur þurfa að hafa verið settir upp sem starfskraftar, umsækjendur eða tengiliðir.
 
 -   [Árangursstjórnun](performance-management-overview.md)
--   [Samþætting hæfni starfsfólks og rekstrarþarfa](skills.md)
--   [Þjálfun með námskeiðum](courses.md)
+-   [Samþætting hæfni starfsfólks við rekstrarþarfir](skills.md)
+-   [Uppsetning námskeiða](courses.md)
 -   [Hvernig á að stjórna starfsmannaþróun í Dynamics 365 Talent (myndband)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
 ## <a name="create-and-maintain-benefits"></a>Stofnun og viðhald fríðinda
 
 Auk þess að greiða starfsfólki laun og bónusa er hægt að koma á fót fríðindaáætlunum á borð við heilbrigðistryggingar og eftirlaunasjóði. Einnig er hægt að stjórna fríðindum á borð við lánsáætlanir þar sem fyrirtækið lánar starfsmönnum sínum hluti, t.d. tölvur og síma.
 
--   [Stjórnun fríðindaáætlunar](manage-benefit-program.md)
+-   [Skilgreina og stjórna fríðindaáætlun](manage-benefit-program.md)
 -   [Stefnur um hæfni til fríðinda](benefit-eligibility-policies.md)
--   [Stjórnun hluta sem starfsfólk fær lánaða](loan-items.md)
--   [Hvernig á að stjórna fríðindum starfsfólks í Dynamics 365 Talent (myndband)](https://www.youtube.com/watch?v=nUWkeJTad1o)
+-   [Stjórnun hluta sem starfskraftar fá lánaða](loan-items.md)
+-   [Hvernig á að stjórna fríðindum starfsmanna í Dynamics 365 Talent (myndband)](https://www.youtube.com/watch?v=nUWkeJTad1o)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Viðhald öryggis og reglufylgni á vinnustað
 
@@ -104,9 +104,9 @@ Talent getur hjálpað þér að viðhalda öruggu vinnuumhverfi sem uppfyllir g
 
 ## <a name="gather-information-using-questionnaires"></a>Upplýsingasöfnun með notkun spurningalista
 
-Hægt er að hanna og úthluta spurningalistum til að safna upplýsingum sem nýta má til ýmissa hluta. Spurningalistaeiginleikinn gerir þér kleift að hanna og búa til spurningalista. Þegar spurningalisti er tilbúinn er hægt að dreifa honum á alla eða tiltekinn svarenda. Þegar svarendur hafa lokið við að fylla spurningarlistann út er farið yfir svörin og niðurstöðurnar greindar.
+Hægt er að hanna og úthluta spurningalistum til að safna upplýsingum sem nýta má til ýmissa hluta. Spurningalistaeiginleikinn gerir þér kleift að hanna og búa til spurningalista. Þegar spurningalisti er tilbúinn er hægt að dreifa honum á alla eða tiltekinn svarenda. Þegar svarendur hafa lokið við að fylla spurningalistann út er farið yfir svörin og niðurstöðurnar greindar.
 
--   [Spurningarlistar](questionnaires.md)
--   [Hönnun spurningalista](design-questionnaires.md)
--   [Dreifing og útfylling spurningalista](distribute-questionnaires.md)
+-   [Spurningalistar](questionnaires.md)
+-   [Hanna spurningalista](design-questionnaires.md)
+-   [Dreifa og tímasetja spurningalista](distribute-questionnaires.md)
 -   [Yfirferð og mat á niðurstöðum spurningalista](evaluate-questionnaire-results.md)

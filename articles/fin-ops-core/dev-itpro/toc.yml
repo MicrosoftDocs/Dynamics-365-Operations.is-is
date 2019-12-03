@@ -2,6 +2,8 @@
   items:
     - name: Þróun og stjórnun fyrir Finance and Operations forrit
       items:
+        - name: Fylgiskjöl fyrir forritið Finance and Operations
+          href: ../fin-ops/index.md
         - name: Þróun og stjórnun fyrir Finance and Operations forrit
           href: index.md
         - name: Nýjungar eða breytingar
@@ -128,16 +130,28 @@
                           href: data-entities/dual-write-overview.md
                         - name: Stigveldi fyrirtækis í Common Data Service
                           href: data-entities/dual-write-organization.md
-                        - name: Fyrirtækishugtak í Common Data Service
-                          href: data-entities/dual-write-company.md
+                        - name: Samþætting fyrirtækis
+                          items:
+                            - name: Fyrirtækishugtak í Common Data Service
+                              href: data-entities/dual-write-company.md
+                            - name: Ræsing með fyrirtækisgögnum
+                              href: data-entities/dual-write-bootstrap.md
                         - name: Samþættur aðalviðskiptavinur
                           href: data-entities/dual-write-customer.md
+                        - name: Samþættur fjárhagur
+                          href: data-entities/dual-write-ledger.md
                         - name: Samræmd afurðaupplifun
                           href: data-entities/dual-write-product.md
-                        - name: Samþættur aðallánardrottinn
-                          href: data-entities/dual-write-vendor.md
+                        - name: Samþætting lánardrottna
+                          items:
+                            - name: Samþætt vinna með lánardrottinssniðmát
+                              href: data-entities/dual-write-vendor.md
+                            - name: Skipta á milli lánardrottnahönnunar
+                              href: data-entities/dual-write-vendor-switch.md
                         - name: Samþætt svæði og vöruhús
                           href: data-entities/dual-write-sites-and-warehouses.md
+                        - name: Samþætt aðalgögn skatta
+                          href: data-entities/dual-write-tax.md
                         - name: Upphafleg samstilling
                           href: data-entities/dual-write-initial.md
                         - name: Úrræðaleit gagnasamþættingar
@@ -418,6 +432,8 @@
                   href: user-interface/client-disconnected.md
                 - name: Úrræðaleit fyrir uppsetningar á staðnum
                   href: deployment/troubleshoot-on-prem.md
+                - name: Forskriftir til að leysa vandamál í innanhússumhverfi
+                  href: deployment/onprem-tsg-implementations.md
                 - name: Vottorðssnúningur
                   href: deployment/certificate-rotation-on-prem.md
             - name: Setja upp sérsniðinn kóða

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 058adaef91a7b30e25bea603625116e97009cf55
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 795e9f5b843ba8e50dc091949c9732b8b033355e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537025"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812089"
 ---
 # <a name="globalization-resources"></a>Altæk tilföng
 
@@ -45,10 +45,10 @@ Dynamics 365 Finance and Operations-forrit innihalda aðgerðir fyrir landið/sv
 
 ### <a name="developing-localized-solutions"></a>Þróun staðbundinna lausna
 Eftirfarandi tilföng veita leiðbeiningar og upplýsingar sem geta gagnast þróunaraðilum og óháðum hugbúnaðarsölum við gerð sérstillinga fyrir land/svæði eða við gerð lausna fyrir lönd sem Microsoft styður ekki.
--   [Aðskilin staðfærslulíkön](separate-localization-models.md)
--   [Nota lands-/svæðistengt samhengi](apply-country-context.md)
--   [Regluvottanir](regulatory-certifications.md)
--   [Flokka staðfærslueiginleika](classify-localization-features.md)
+-   [Aðskilnaður staðfærslulíkana](separate-localization-models.md)
+-   [Notkun lands-/svæðistengds samhengis](apply-country-context.md)
+-   [Upplýsingar um regluvottanir í heiti eiginleika](regulatory-certifications.md)
+-   [Flokkun staðfærslueiginleika](classify-localization-features.md)
 -   [Landsnúmer – ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
 ### <a name="regulatory-updates-and-communication"></a>Regluuppfærslur og samskipti
@@ -57,36 +57,36 @@ Eftirfarandi tilföng veita upplýsingar um áætlaða og nýja staðfærslueigi
 #### <a name="regulatory-updates"></a>Regluuppfærslur
 -   [Regluuppfærslur](../../../finance/localizations/regulatory-updates.md)
 -   [Staðfærslugátt](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (uppfært vikulega)
--   [LCS-vandamálaleit](../lifecycle-services/issue-search-lcs.md) (uppfært daglega)
+-   [Vandamálaleit í Lifecycle Services (LCS)](../lifecycle-services/issue-search-lcs.md) (uppfært daglega)
 
 #### <a name="communication-and-alerts"></a>Samskipti og viðvaranir
--   [Samskipti tengd reglueftirliti og uppfærslum á reglum](regulatory-watch-communication.md)
--   [Tilkynningar til Microsoft um lögboðnar viðvaranir lands/svæðis og rakning á stöðu eftirlitseiginleika](submit-localization-alerts.md)
+-   [Reglueftirlit og samskipti vegna regluuppfærslna](regulatory-watch-communication.md)
+-   [Senda inn viðvaranir um eftirlitseiginleika fyrir tiltekin lönd/svæði](submit-localization-alerts.md)
 
-#### <a name="dynamics-365-release-notes"></a>Útgáfuupplýsingar Dynamics 365
-[Útgáfuupplýsingar Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) lýsa nýjum og auknum möguleikum sem eru áætlaðir fyrir Dynamics 365 viðskiptaforrit og verkvanga forrita. 
+#### <a name="dynamics-365-release-plans"></a>Útgáfuáætlanir Dynamics 365
+[Útgáfuáætlanir Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) lýsa nýjum og auknum möguleikum sem eru áætlaðir fyrir Dynamics 365 viðskiptaforrit og verkvanga forrita. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Nýjungar í forritum Finance and Operations
-[Efnið í „Nýjasta nýtt“](../../fin-ops/get-started/whats-new-changed.md) birtir lista yfir eiginleika sem eru í tilgreindum útgáfum forrita fyrir Finance and Operations.
+[„Nýjungar eða breytingar“ á heimasíðu Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) birtir lista yfir eiginleika sem eru í tilgreindum útgáfum forrita fyrir Finance and Operations.
 
 ### <a name="electronic-reporting"></a>Rafræn skýrslugerð
 Rafræna skýrslugerðarverkfærið býður upp á skilgreiningu sniða fyrir rafræn skjöl í samræmi við lagaskilyrði mismunandi landa/svæða. Með rafrænni skýrslugerð er hægt að stjórna þessum sniðum á meðan þau eru í notkun. Frekari upplýsingar er að finna í eftirfarandi efnisatriðum:
 -   [Yfirlit yfir rafræna skýrslugerð](../analytics/general-electronic-reporting.md)
 -   [Stjórnun líftíma skilgreiningar fyrir rafræna skýrslugerð](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
--   [Skilgreining fyrir rafræna skýrslugerð búin til](../analytics/electronic-reporting-configuration.md)
--   [Listi yfir virkni rafrænnar skýrslugerðar lengdur](../analytics/general-electronic-reporting-formulas-list-extension.md)
--   [Viðtökustaðir rafrænnar skýrslugerðar](../analytics/electronic-reporting-destinations.md)
+-   [Stofna skilgreiningar fyrir rafræna skýrslugerð](../analytics/electronic-reporting-configuration.md)
+-   [Lengja lista yfir virkni rafrænnar skýrslugerðar](../analytics/general-electronic-reporting-formulas-list-extension.md)
+-   [Áfangastaðir fyrir rafræna skýrslugerð](../analytics/electronic-reporting-destinations.md)
 -   [Niðurhal skilgreininga fyrir rafræna skýrslugerð af Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [Innflutningur skilgreininga rafrænnar skýrslugerðar](../analytics/electronic-reporting-import-ger-configurations.md)
+-   [Innflutningur skilgreininga fyrir rafræna skýrslugerð](../analytics/electronic-reporting-import-ger-configurations.md)
 -   [Skilgreina rafræna skýrslugerð til að draga gögn inn í Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [Myndun rafrænna skjala og uppfærsla forritagagna með rafrænu skýrslugerðarverkfæri](../analytics/generate-electronic-documents-update-application-data.md)
+-   [Búa til rafræn skjöl og uppfæra forritsgögn með því að nota rafræna skýrslugerð](../analytics/generate-electronic-documents-update-application-data.md)
 
 ### <a name="task-guides"></a>Verkleiðbeiningar
 Verkleiðbeiningar eru aðgengilegar á hjálparsvæði vörunnar og veita leiðbeiningar um helstu viðskiptaferli. Hægt er að opna verkleiðbeiningar til að lesa um skrefin í viðskiptaferli eða spila myndband þar sem farið er í gegnum viðskiptaferli og upplýsingar færðar inn.
 
 Farið er á síðu í forritinu og smellt á „Hjálp“ til að finna verkleiðbeiningum . Verkleiðbeiningar sem nota síðuna eru tilgreindar á hjálparsvæðinu. Einnig er hægt að nota hjálparsvæðið til að leita að verkleiðbeiningum eftir titli.
 
-Frekari upplýsingar eru í [Verkleiðbeiningar](../../fin-ops/get-started/help-overview.md#task-guides).
+Frekari upplýsingar eru í [Hjálparkerfi](../../fin-ops/get-started/help-overview.md#task-guides).
 
 
 ### <a name="countryregion-specific-help-content"></a>Sértækt hjálparefni fyrir land/svæði
