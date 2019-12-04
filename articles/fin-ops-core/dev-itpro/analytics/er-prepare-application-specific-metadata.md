@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 74750397dc344d74c018c27114357d3d05b95b7e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 89d36c305bc9210f7906cd4288e33e5028baecdb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550108"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771261"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Undirbúa forritasértæk lýsigögn fyrir RCS og ER
 
@@ -43,7 +43,7 @@ Eftirfarandi ferli sýnir hvernig notandi sem er með hlutverkið **Kerfisstjór
 > Í þessu dæmi muntu stofna skilgreiningu fyrir sýnifyrirtækið, Litware, Inc. Þessi skref má framkvæma í hvaða fyrirtæki sem er.
 
 1. Fara í **Fyrirtækisstjórnun \> Vinnusvæði \> Rafræn skýrslugerð**.
-2. Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt **Virk**. Ef þú sérð skilgreiningarveituna ekki skaltu klára skrefin í ferlinu [Stofna skilgreiningaveitu og merkja hana sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
+2. Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt **Virk**. Ef þú sérð skilgreiningarveituna ekki skaltu klára skrefin í ferlinu [Stofna skilgreiningaveitur og merkja þær sem virkar](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
 3. Veldu **Skilgreiningar lýsigagna**.
 4. Veljið **Stofna skilgreiningu**.
 5. Í fellilistanum, í reitnum **Heiti** slærðu inn heiti. Fyrir þetta dæmi skaltu slá inn **Lýsigögn utanríkisviðskipta**.
@@ -54,14 +54,14 @@ Eftirfarandi ferli sýnir hvernig notandi sem er með hlutverkið **Kerfisstjór
     > [!NOTE]
     > Þú getur valið öll lýsigögn annaðhvort fyrir allt forritið eða fyrir valdin líkön eða einingar. Í báðum dæmum skaltu hafa í huga að eftirfarandi lýsigögnum verður sjálfkrafa bætt við: töflum yfir skrám, talningum og lengd gagnategunda (EDT). Þegar fleiri tegundir lýsigagna eru nauðsynlegar verður að bæta þeim handvirkt við.
 
-Þú verður að bæta við lýsigögnum sem tengjast utanríkisviðskiptadæealum og velja lýsigögn á handvirkan hátt.
+    Þú verður að bæta við lýsigögnum sem tengjast utanríkisviðskiptadæealum og velja lýsigögn á handvirkan hátt.
 
 9. Veldu **Bæta við gagnasafni \> Töflufærslur**.
 10. Sía á gildi **Intrastat** í reitnum **Heiti**.
 11. Veldu **Intrastat**-töflu.
 12. Veljið **Í lagi**.
 
-Þú verður að bæta við lýsigögnum um Intrastat-skráatöfluna.
+    Þú verður að bæta við lýsigögnum um Intrastat-skráatöfluna.
 
 13. Í trénu skaltu velja **Töflufærslur Intrastat \> \>Vensl \> IntrastatCommodity (Töflufærslur EcoResCategory)**.
 14. Veldu **Bæta við lýsigögnum**.
@@ -95,11 +95,11 @@ Eftirfarandi ferli sýnir hvernig RCS-notandi sem er með hlutverkið **Kerfisst
 
 Áður en hægt er að ljúka þessu verður fyrst að ljúka eftirfarandi ferlum:
 
-- [Stofna skilgreiningaveitu og merkja hana sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md)
+- [Stofna skilgreiningarveitendur og merkja þá sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md)
 - [Undirbúa lýsigögn forrits sem hægt er að nota í RCS](#prepare-application-metadata-that-can-be-used-in-rcs)
 
 1. Farðu í **Öll vinnusvæði \> Rafræn skýrslugerð**.
-2. Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt **Virk**. Ef þú sérð skilgreiningarveituna ekki skaltu klára skrefin í ferlinu [Stofna skilgreiningaveitu og merkja hana sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
+2. Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt **Virk**. Ef þú sérð skilgreiningarveituna ekki skaltu klára skrefin í ferlinu [Stofna skilgreiningaveitur og merkja þær sem virkar](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
 3. Flyttu inn lýsigögn rafrænnar skýrslugerðar sem inniheldur lýsigögn fyrir forritið og sem eru stillt til að búa til rafræn skjöl fyrir lén utanríkisviðskipta. Þú stofnaðir þessa skilgreiningu ER-lýsigagna og fluttir það sem XML-skrá í [Undirbúa lýsigögn forrits sem hægt er að nota í RCS-ferlinu](#prepare-application-metadata-that-can-be-used-in-rcs) fyrr í þessu efnisatriði.
 
     1. Veldu **Skilgreiningar lýsigagna**.
@@ -201,7 +201,7 @@ Eftirfarandi ferli sýnir hvernig RCS-notandi sem er með hlutverkið **Kerfisst
 
 Eftirfarandi ferli sýnir hvernig RCS-notandi sem er með hlutverkið **Kerfisstjóri** eða **Þróunaraðili rafrænnar skýrsluhönnunar** getur sett upp nýja ER-líkanavörpun með því að nota lýsigögn úr forritinu. Lýsigögn hugbúnaðar verða skoðuð á netinu með því að nota RCS -tengda forritið. Dæmi um ER-líkanavörpun verður skilgreint til að fá aðgang að utanríkisviðskiptafærslum.
 
-Til að ljúka þessu ferli verður fyrst að ljúka ferlinu [Stofna skilgreiningarveitu og merkja hana sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md) í RCS. Ef þú hefur ekki þegar lokið við ferlið [Aðgangur að lýsigögnum forrits með ER-skilgreiningu](#access-application-metadata-by-using-an-er-configuration) fyrri í þessu efnisatriði, skaltu fara á síðuna [Verkefnaleiðbeiningar rafrænnar skýrslugerðar fyrir Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739) til að sækja eftirfarandi ER-skilgreiningarskrár fyrirfram og vista þær staðbundið: **Foreign trade metadata.xml**, **Foreign trade model.xml** og **Foreign trade mapping.xml**.
+Til að ljúka þessu ferli verður fyrst að ljúka ferlinu [Stofna skilgreiningarveitur og merkja þær sem virkar](tasks/er-configuration-provider-mark-it-active-2016-11.md) í RCS. Ef þú hefur ekki þegar lokið við ferlið [Aðgangur að lýsigögnum forrits með ER-skilgreiningu](#access-application-metadata-by-using-an-er-configuration) fyrri í þessu efnisatriði, skaltu fara á síðuna [Verkefnaleiðbeiningar rafrænnar skýrslugerðar fyrir Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739) til að sækja eftirfarandi ER-skilgreiningarskrár fyrirfram og vista þær staðbundið: **Foreign trade metadata.xml**, **Foreign trade model.xml** og **Foreign trade mapping.xml**.
 
 
 ### <a name="get-required-er-configurations"></a>Sækja umbeðnar ER-skilgreiningar

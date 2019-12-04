@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cce822f76323b6ce514d3793ce19f0160957e7a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558220"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813387"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Heimasíða Innkaupa og aðfanga
 
@@ -36,17 +36,17 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 -   [Yfirlit innkaupabeiðni](purchase-requisitions-overview.md)
 -   [Stofna beiðni um notkun](tasks/create-requisition-consumption.md)
 -   [Stofna beiðni sem notar beiðni um TILBOÐ](tasks/create-requisition-uses-rfq.md)
--   [Setja upp heimildir til þess að panta afurðir fyrir hönd annars](tasks/set-up-permissions-ordering-products.md)
+-   [Setja upp heimildir fyrir pöntun afurða fyrir hönd annarra](tasks/set-up-permissions-ordering-products.md)
 
 ## <a name="requests-for-quotation"></a>Tilboðsbeiðni
--   [Beiðni um tilboð](request-quotations.md)
+-   [Yfirlit yfir beiðnir um tilboð](request-quotations.md)
 -   [Stofna beiðni um tilboð](tasks/create-request-quotation.md)
--   [Færa inn og bera saman kauptilboð vegna beiðni um TILBOÐ og veita aðilum samninga.](tasks/enter-compare-rfq-bids-award-contracts.md)
+-   [Færa inn og bera saman tilboð vegna tilboðsbeiðna og gera samninga](tasks/enter-compare-rfq-bids-award-contracts.md)
 -   [Stofna stigagjöf fyrir beiðnum um Tilboð](tasks/create-scoring-method-rfqs.md)
--   [Stofna beiðniflokka og skilyrði fyrir stigagjöf fyrir beiðnum um Tilboð](tasks/create-solicitation-types-scoring-criteria-rfqs.md)
+-   [Stofna gerðir auglýsinga og viðmið fyrir stigagjöf fyrir tilboðsbeiðnir](tasks/create-solicitation-types-scoring-criteria-rfqs.md)
 
-## <a name="vendor-management-and-collaboration"></a>Stjórnun og samvinna lánardrottna
--   [Setja upp reikninga lánardrottins](set-up-vendor-accounts.md)
+## <a name="vendor-management-and-collaboration"></a>Stjórnun og samstarf lánardrottna
+-   [Uppsetning lánardrottnalykla](set-up-vendor-accounts.md)
 -   [Stofna lánardrottnalykil](tasks/create-vendor-account.md)
 -   [Stofna bankareikning lánardrottins](tasks/create-vendor-bank-account.md)
 -   [Leita að lánardrottnum](tasks/search-vendors.md)
@@ -57,24 +57,24 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 -   [Uppsetning og viðhald samstarfs lánardrottna](set-up-maintain-vendor-collaboration.md)
 -   [Dæmi um forskrift fyrir vörusendingabirgðir á innleið fyrir Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(hvítbók)
 -   [Fylgjast með vörusendingabirgðum með samstarfi lánardrottna](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
--   [Samstarf við lánardrottna með því að nota Gátt Lánardrottins](collaborate-vendors-vendor-portal.md) (einungis febrúar 2016 og maí 2016 útgáfur Dynamics AX)
--   [Skilgreining á öryggi fyrir notendur gáttar lánardrottins](configure-security-vendor-portal-users.md) (2016 og maí 2016 útgáfur Finance and Operations eingöngu)
--   [Fartækjavinnusvæði samstarfs lánardrottna fyrir Microsoft Dynamics 365 for Finance and Operations forrit](vendor-collaboration-mobile-workspace.md)
+-   [Samstarf við lánardrottna með því að nota gátt lánardrottins](collaborate-vendors-vendor-portal.md) (einungis febrúar 2016 og maí 2016 útgáfur Dynamics AX)
+-   [Öryggi notanda í gátt lánardrottins](configure-security-vendor-portal-users.md) (2016 og maí 2016 útgáfur Finance and Operations eingöngu)
+-   [Fartækjavinnusvæði samstarfs lánardrottna](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Innkaupastjórnun afurða
--   [Innkaupavörulistar](procurement-catalogs.md)
--   [Stofna innkaupavörulista](tasks/create-procurement-catalog.md)
+-   [Yfirlit innkaupavörulista](procurement-catalogs.md)
+-   [Stofna innkaupapantanir](tasks/create-procurement-catalog.md)
 -   [Flytja inn vörulista lánardrottins](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/) (blogg póstur)
 -   [Setja upp stigveldi innkaupategundar](tasks/set-up-procurement-category-hierarchy.md)
 -   [Setja upp reglur fyrir tegundastigveldi innkaupa](tasks/set-up-policies-procurement-category-hierarchies.md)
 -   [Samþykkja lánardrottnar fyrir tilteknar innkaupategundir](tasks/approve-vendors-specific-procurement-categories.md)
 
 ## <a name="procurement"></a>Innkaup
--   [Yfirlit yfir „Innkaupapöntun“](purchase-order-overview.md)
+-   [Yfirlit yfir innkaupapöntun](purchase-order-overview.md)
 -   [Stofnun innkaupapöntunar](purchase-order-creation.md)
--   [Staðfesting innkaupapöntunar og samþykki](purchase-order-approval-confirmation.md)
+-   [Samþykkt og staðfesting innkaupapanta](purchase-order-approval-confirmation.md)
 -   [Stofna innkaupapöntun](tasks/create-purchase-order.md)
--   [Stofna endurtekna innkaupapöntun.](tasks/create-repeat-purchase-order.md)
+-   [Stofna endurtekna innkaupapöntun](tasks/create-repeat-purchase-order.md)
 -   [Stofna innkaupapöntun úr sölupöntun](../sales-marketing/tasks/create-purchase-order-sales-order.md)
 -   [Innkaupapöntun fyrir eins skiptis birgi](tasks/create-purchase-order-one-time-supplier.md)
 -   [Stofna innkaupapöntun með afhendingaráætlun.](tasks/create-purchase-order-delivery-schedule.md)
@@ -99,11 +99,8 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 -   [Skrá vörumóttöku í innkaupapöntun](tasks/record-receipt-goods-purchase-order.md)
 -   [Verkflæði innkaupabeiðni](purchase-requisitions-workflow.md)
 -   [Skilgreina viðskiptaferli verkflæði fyrir innkaupabeiðnir](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (hvítbók)
--   [Innkaupareglur](purchase-policies.md)
--   [Búa til innkaupastefnu](tasks/create-purchasing-policies.md)
-
-
-
+-   [Yfirlit yfir innkaupareglur](purchase-policies.md)
+-   [Stofna innkaupastefnu](tasks/create-purchasing-policies.md)
 
 
 

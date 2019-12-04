@@ -1,6 +1,6 @@
 ---
-title: Innfella PowerApps-forrit í Dynamics 365 - Core HR
-description: Þetta efnisatriði útskýrir hvernig á að leysa vandamál þar sem valmyndaratriði PowerApps hefur horfið úr kerfisstjórnunareiningunni.
+title: Innfella Power Apps-forrit í Dynamics 365 - Core HR
+description: Þetta efnisatriði útskýrir hvernig á að leysa vandamál þar sem valmyndaratriði Microsoft Power Apps hefur horfið úr kerfisstjórnunareiningunni.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,41 +17,41 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b510c10ebfcf4939eb2e1297972d27aa1812ae5a
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 6d1b7f1dd71e6bcbf10c4d91fe33e9494b041a2c
+ms.sourcegitcommit: ae0efac749ab34d423fac44d00a597801c143fbb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551004"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "2830210"
 ---
-# <a name="embed-powerapps-apps-in-dynamics-365---core-hr"></a>Innfella PowerApps-forrit í Dynamics 365 - Core HR
+# <a name="embed-power-apps-apps-in-dynamics-365---core-hr"></a>Innfella Power Apps-forrit í Dynamics 365 - Core HR
 
 [!include [banner](includes/banner.md)]
 
 **Úthreyfing**
 
-Valmyndaratriði **PowerApps** hefur horfið úr einingu **Kerfisstjórnunar**.
+Valmyndaratriði **Power Apps** hefur horfið úr einingu **Kerfisstjórnunar**.
 
 **Orsök**
 
-Hönnun notandaviðmótsins hefur verið breytt og Microsoft PowerApps er nú hluti af staðlaða sérsniðna líkaninu.
+Hönnun notandaviðmótsins hefur verið breytt og Microsoft Power Apps er nú hluti af staðlaða sérsniðna líkaninu.
 
 **Upplausn**
 
-Aðferðin við innfellingu PowerApps-forrita hefur verið breytt. PowerApps-forritum er nú bætt við í gegnum sérsniðna líkanið. Hægt er að bæta PowerApps-forritum við nánast allar síður í Microsoft Dynamics 365 Talent.
+Aðferðin við innfellingu Power Apps hefur verið breytt. Power Apps er nú bætt við í gegnum sérsniðna líkanið. Hægt er að bæta Power Apps við nánast allar síður í Microsoft Dynamics 365 Talent.
 
-Upplýsingar um það hvernig á að innfella PowerApps-forrit í Talent er að finna í [Innfella PowerApps-forrit](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
+Upplýsingar um það hvernig á að innfella Power Apps í Talent er að finna í [Innfella Microsoft Power Apps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 
-Allir viðskiptamenn PowerApps sem felldu inn forrit fyrir breytinguna ættu að hafa verið uppfærðir í nýja líkaninu.
+Allir viðskiptamenn Power Apps sem felldu inn forrit fyrir breytinguna ættu að hafa verið uppfærðir í nýja líkaninu.
 
-Hnappurinn **PowerApps** er efst í hægra horninu á nánast öllum síðum í Talent. Hægt er að nota þennan hnapp til að setja inn PowerApps-forrit.
+Hnappurinn **Power Apps** er efst í hægra horninu á nánast öllum síðum í Talent. Hægt er að nota þennan hnapp til að setja inn Power Apps.
 
 Eftirfarandi er dæmi.
 
 1. Opnið **Starfsmannastjórnun \> Tenglar \> Starfskraftar \> Starfsmenn**.
-2. Veljið hnappinn **PowerApps** og síðan **Setja inn PowerApp**.
+2. Veljið hnappinn **Power Apps** og síðan **Setja inn PowerApp**.
 
-    ![PowerApps-hnappur](media/png.png)
+    ![Power Apps-hnappur](media/png.png)
 
 3. Ljúkið við svæðin í svarglugganum **Setja inn PowerApp**.
 
@@ -67,4 +67,4 @@ Eftirfarandi er dæmi.
 
 2. Á tækjastikunni skal velja **Setja inn \> PowerApp**.
 
-    ![Setja inn PowerApps-forrit með tækjastiku sérstillinga](media/powerapp-bar.png)
+    ![Setja inn Power Apps-forrit með tækjastiku sérstillinga](media/powerapp-bar.png)

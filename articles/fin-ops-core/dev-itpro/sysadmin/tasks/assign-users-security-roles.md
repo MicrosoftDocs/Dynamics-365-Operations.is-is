@@ -3,7 +3,7 @@ title: Úthluta notendum á öryggishlutverk
 description: Til að fá aðgang að forritum Finance and Operations þurfa notendur að fá úthlutað öryggishlutverkum.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 11/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4daecc1acd589cd1656402244e5325382a407e7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e4f4ef4535de9e371829c2d86d4fdc1400510c7b
+ms.sourcegitcommit: 6aa74f66f1abd3a7977050a5339b0b17e62ff053
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180968"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2807997"
 ---
 # <a name="assign-users-to-security-roles"></a>Úthluta notendum á öryggishlutverk
 
@@ -37,6 +37,9 @@ Til að nota neitt annað en sameiginlega getu verður notendum að vera úthlut
 5. Á listanum **Heiti aðildarreglu** skaltu smella á tengilinn í valinni röð.
 6. Smelltu á **Breyta fyrirspurn**. Breyta skal fyrirspurninni eftir því sem þörf krefur.  
 7. Smellt er á **OK**.
+8. Smelltu á **Keyra sjálfvirka hlutverkaúthlutun**.
+9. Farðu í **Skoðunarrúðu > Kerfiseiningar > Kerfisstjórnun > Notendur > Notendur** (helst á sérstökum vafraflipa).
+10. Farðu yfir hlutverkin sem úthlutað var ýmsum notendum til að staðfesta að fyrirspurnin um hlutverkaskiptin hafi verið rétt. Stilla og keyra aftur ef þörf krefur.
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>Útiloka notendum frá sjálfvirka hlutverkaúthlutun
 1. Lokið síðunni.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37bb02dfc9cfcb3e2c1dcda446be3945563d6594
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: d326480cc03d80d1ce27f8762e300dca3b0d325e
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570581"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770644"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Útreikningsaðferðir virðisaukaskatts í reitnum Uppruni
 
@@ -125,9 +125,9 @@ Skjal / færslubók er stillt á Upphæðir með virðisaukaskatti = Nei Færslu
 <a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Ákvarða skatthlutfall virðisaukaskatts á grundvelli reitanna Jaðargrunnur og Útreikningsaðferð](marginal-base-field.md)
+[Virðisaukaskattur byggður á jaðargrunns- og útreikningsaðferðum](marginal-base-field.md)
 
-[Útreikningsaðferð heildarupphæðar og tímabils fyrir vsk-kóða](whole-amount-interval-options-sales-tax-codes.md)
+[Valkostir heildarupphæðar og tímabilsútreikninga fyrir VSK-kóða](whole-amount-interval-options-sales-tax-codes.md)
 
 
 

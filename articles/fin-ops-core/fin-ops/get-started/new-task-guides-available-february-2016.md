@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b220dfc90d4b850c774ff638c5b766f650dcef9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d4c912e8364a2503b98e511cbf22884528e467f0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190949"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811627"
 ---
 # <a name="new-task-guides-february-2016"></a>Nýjar verkefnaleiðbeiningar (febrúar 2016)
 
@@ -32,7 +32,7 @@ ms.locfileid: "2190949"
 
 ## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Verkefnaleiðbeiningar í (Febrúar 2016) APQC Unified Library fyrir Microsoft Dynamics AX
 
-APQC Unified Library (Febrúar 2016), inniheldur verkefnaleiðbeiningar sem er ætlað að nota til að fá Hjálp með Dynamics AX 7.0.0 útgáfunni. Ef þörf er á staðfært útgáfur þessara verkefnaleiðbeiningar, þær eru tiltækar í (Maí 2016) APQC Unified Library fyrir Microsoft Dynamics AX. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hafist handa með hjálp](help-overview.md).
+APQC Unified Library (Febrúar 2016), inniheldur verkefnaleiðbeiningar sem er ætlað að nota til að fá Hjálp með Dynamics AX 7.0.0 útgáfunni. Ef þörf er á staðfært útgáfur þessara verkefnaleiðbeiningar, þær eru tiltækar í (Maí 2016) APQC Unified Library fyrir Microsoft Dynamics AX. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hjálparkerfi](help-overview.md).
 
 ### <a name="accounts-payable"></a>Viðskiptaskuldir
 

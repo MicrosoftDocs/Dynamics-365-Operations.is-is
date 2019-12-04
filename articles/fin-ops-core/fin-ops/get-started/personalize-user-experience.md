@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 124609041163bbcaf1b86a6964fa3f56fcd8f755
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: d3cf2b82470887ee617704b72e47a53d299911e3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658761"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811532"
 ---
 # <a name="personalize-the-user-experience"></a>Sérsníða notandaupplifun
 
@@ -112,15 +112,12 @@ Eftirfarandi verkfæri eru í boði á **Sérstillingar** tækjastikunni:
 
 - Nota **Velja** verkfæri til að velja og breyta eiginleikum einingar. Til að nota þetta tól velurðu hnappinn **Velja** á verkfæraslánni og síðan viðkomandi einingu. Eiginleikagluggi einingarinnar birtist og þú getur breytt öllum eiginleikum þeirrar einingar. Þú getur endurtekið ferlið fyrir aðrar einingar sem hægt er að sérsníða á síðunni. Athugaðu að sumir eiginleikar sérstillinga eru mögulega ekki tiltækir í sumum aðstæðum. Til dæmis getur þú ekki læst reit sem er nauðsynlegur.
 - Nota **Fela** verkfærið til að fela einingu á síðunni. Til að nota þetta tól velurðu hnappinn **Fela** á verkfæraslánni og síðan einingu sem á að fela. Þegar þú notar verkfærið **Fela**, eru allar einingar sem eru faldar sem stendur gerðar sýnilegar en sýndar í skyggðum gám. Þú getur síðan gert þátt sýnilegan með því að velja hann. Til að sjá hvernig síðan mun líta út þegar þættir eru faldir skaltu skipta yfir í annað sérstillingaverkfæri.
-
-    Hægt er að fela nauðsynlega reiti og hluta sem innihalda nauðsynlega reiti. Þannig er hægt að stofna einfaldaða upplifun þar sem áskildir reitir eru ekki sýndir ef þeir eru með sjálfgildi sem eru fyllt út af viðskiptagrunni. Faldir áskildir reitir verða tímabundið sýnilegir ef þeir eru auðir þegar notandi reynir að vista síðuna.
-
-- Notaðu verkfærið **Bæta við reit** til að bæta reit við á síðuna. Þegar þú notar þetta verkfæri geturðu aðeins bætt við reitum sem eru hluti af skilgreiningunni á síðunni. Til að fá upplýsingar um hvernig skal búa til nýja reiti sem eru ekki hluti af núverandi skilgreiningu síðunnar, sjá [Sérsniðnir reitir](user-defined-fields.md). Eftir að þú velur hnappinn **Bæta við reit** á verkfæraslánni þarftu fyrst að velja hópinn eða svæðið þar sem þú vilt bæta við reit. Svargluggi mun sýna lista yfir reiti sem tengjast völdum hópi eða svæði. Í svarglugganum skal velja eitt eða fleiri reiti til að bæta við og velja síðan **Setja inn**. Til að fjarlægja reit sem þú hefur áður bætt við, skal endurtaka ferlið, en hreinsa val á reitnum í svarglugganum.
+- Notaðu verkfærið **Bæta við reit** til að bæta reit við á síðuna. Þegar þú notar þetta verkfæri geturðu aðeins bætt við reitum sem eru hluti af skilgreiningunni á síðunni. Til að fá upplýsingar um hvernig skal búa til nýja reiti sem eru ekki hluti af núverandi skilgreiningu síðunnar, sjá [Stofna og vinna með sérsniðna reiti](user-defined-fields.md). Eftir að þú velur hnappinn **Bæta við reit** á verkfæraslánni þarftu fyrst að velja hópinn eða svæðið þar sem þú vilt bæta við reit. Svargluggi mun sýna lista yfir reiti sem tengjast völdum hópi eða svæði. Í svarglugganum skal velja eitt eða fleiri reiti til að bæta við og velja síðan **Setja inn**. Til að fjarlægja reit sem þú hefur áður bætt við, skal endurtaka ferlið, en hreinsa val á reitnum í svarglugganum.
 - Nota **Færa** verkfærið til að færa einingar á annan stað í núverandi hóp eininga. Athugaðu að ekki er hægt að færa einingu utan yfirhóps hennar. Til að nota þetta tól velurðu hnappinn **Flytja** á verkfæraslánni og síðan einingu sem á að flytja. Þegar þú velur einingu ákvarðar forritið staðsetningar þar sem flytja má eininguna. Þessir staðir eru þekktir sem *sleppisvæði*. Þegar þú færir eininguna til í núverandi hóp er hvert sleppisvæði sýnt sem lituð, feitletruð lína við hliðina á því svæði þar sem má sleppa einingunni.
 - Nota **Sleppa** verkfærið til að fjarlægja einingu úr fliparöð lyklaborðs síðunnar. Þegar þú velur hnappinn **Sleppa** á verkfæraslánni eru allar einingar sem nú þegar er sleppt sýndar í skyggðum gámi. Þú getur fjarlægt eða bætt við reitum á fliparöðinni með gagnvirkum hætti.
 - Notaðu verkfærið **Sýna í haus** þegar þú vilt að reitur birtist í samantektarhlutanum fyrir flýtiflipa. Þegar þú velur hnappinn **Sýna í haus** á verkfæraslánni eru allir reitir sem hafa verið valdir sem samantektarreitir sýndar í skyggðum gámi. Með því að velja reitina getur þú með gagnvirkum hætti fjarlægt og bætt við reitum þaðan.
 - Notaðu verkfærið **Læsa** til að merkja einingu sem annaðhvort breytanlega eða óbreytanlega. Þegar þú velur hnappinn **Læsa** á verkfæraslánni eru allar einingar sem eru þegar óbreytanlegar sýndar í skyggðum gámi. Þú getur þá gert þær breytanlegar aftur. Athugaðu að sumir reitir eru nauðsynlegir og ekki hægt að gera þá óbreytanlega. Hengilásatákn birtist við hliðina á þessum reitum.
-- Notaðu hnappinn **Bæta við PowerApp** til að fella forrit inn í síðuna sem var búið til með því að nota Microsoft PowerApps. Nánari upplýsingar um hvernig á að fella PowerApps-forrit inn í síðu er að finna í [Innfelling á PowerApps](embed-power-apps.md).
+- Notaðu hnappinn **Bæta við PowerApp** til að fella forrit inn í síðuna sem var búið til með því að nota Microsoft PowerApps. Nánari upplýsingar um hvernig á að fella PowerApps-forrit inn í síðu er að finna í [Innfelling á PowerApps-forritum](embed-power-apps.md).
 - Notaðu verkfærið **Hreinsa** til að endurstilla síðuna í sjálfgefið, uppsett ástand. Allar sérstillingar á núverandi síðu verða hreinsaðar. Það er engin afturköllunaraðgerð til. Þess vegna skaltu aðeins nota þetta verkfæri ef þú ert viss um að þú viljir endurstilla síðuna.
 - Notaðu verkfærið **Flytja inn** til að hlaða inn sérstillingu úr skrá sem þú eða einhver annar bjó til áður. Þegar þú flytur inn sérstillingar fyrir síðu geturðu valið hvort þeim skuli bætt við eða komið í stað allra núverandi sérstillinga fyrir síðuna. Það er engin afturköllunaraðgerð til. Þess vegna, eftir að þú hefur flutt inn sérstillingar, verðurðu að hreinsa handvirkt eða afturkalla allar breytingar sem þú vilt ekki.
 - Notaðu verkfærið **Flytja út** til að vista sérstillingar þínar fyrir síðuna í skrá. Síðan geturðu deilt sérstillingunum þínum með öðrum notendum. Þessir notendur þurfa bara að flytja inn skrána sem inniheldur sérstillingarnar þínar fyrir síðuna.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0734db6f777de2bcd6ea024c9255f589c155e44f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec2874fb21184ccbf4f7039acf20db399e5cf5fb
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569823"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813340"
 ---
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>Nota ytri vörulista fyrir PunchOut eProcurement
 
@@ -41,7 +41,7 @@ Notkun á **Ytri vörulistar** línu aðgerð til að opna síðuna sem inniheld
 
 Breyta requester kaupa lögaðili og móttaka rekstrarfærslna einingu eftir heimildum þínum. Breytingar á þessum gildum breyst lista yfir ytri vörulistar eru tiltæk í requester. Ytri vörulistar sem eru tiltækar fara eftir núverandi virka innkaup reglurnar fyrir veitta lögaðili eða móttöku rekstrarfærslna eininguna. Þessar reglur má gera eða torvelda aðgang að tilteknum innkaupaflokkana. Þar af leiðandi lista yfir ytri vörulistar sem tengt er þessum innkaupaflokkana getur fyrir áhrifum.
 
-Frekari upplýsingar um hvernig reglur eru settir upp eru í [Innkaupastefnum](../procurement/purchase-policies.md).
+Frekari upplýsingar um hvernig reglur eru settir upp eru í [Yfirlit yfir innkaupastefnur](../procurement/purchase-policies.md).
 
 - Finna ytri vörulistar fyrir tiltekna innkaupaflokkana, færa inn texta í leitarsvæðið vörulista.
 - Til að bæta vörum úr vörulista lánardrottins ytri á vefsvæði lánardrottins, smellt er á utanaðkomandi vörulistann. Bættu síðan vörum við innkaupakörfuna og skráðu þig út. Innkaupakörfulínurnar verða fluttar í Microsoft Dynamics 365.

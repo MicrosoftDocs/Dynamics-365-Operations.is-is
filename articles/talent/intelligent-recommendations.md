@@ -1,6 +1,6 @@
 ---
-title: Snjallmeðmæli
-description: Þetta efnisatriði útskýrir hvernig hægt er að nota vélnám til að veita ráðleggingar fyrir störf og umsækjendur.
+title: Snjallmeðmæli í Attract
+description: Þessi grein útskýrir hvernig hægt er að nota vélnám til að veita ráðleggingar fyrir störf og umsækjendur í Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/16/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: fa06821c98e42dcd8590a764db9beb4a5c33fca2
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741753"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832792"
 ---
-# <a name="intelligent-recommendations"></a>Snjallmeðmæli
+# <a name="intelligent-recommendations-in-attract"></a>Snjallmeðmæli í Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Vélnám getur hjálpað ráðningaraðilum og mannauðsstjórum til að auðkenna skjótt bestu umsækjendurna fyrir starf. Það getur einnig hjálpað umsækjendum að finna starfið sem best hentar forstillingum þeirra og áhugamálum. Um leið og þessar aðgerðir eru notaðar og endurgjöf er veitt munu tillögur batna.
 
 > [!NOTE] 
 > - Eiginleikar snjallmeðmæla eru aðeins í boði með [Viðbót við alhliða ráðningar](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - Virkni sem getið er í þessu efnisatriði er í boði sem hluti af prufuútgáfu. Innihald og virkni geta tekið breytingum. Til að nota þennan eiginleika skal biðja stjórnanda að virkja hann með **Stjórnandamiðstöð** í Attract. Stilla skal **Umsækjandi sem mælt er með**, **Starf sem mælt er með** og **Viðfang sem mælt er með** á **Kveikt**. Frekari upplýsingar er að finna í [Fá aðgang að forskoðunareiginleikum í Talent](./access-preview-feature.md). 
+> - Virkni sem getið er í þessu efnisatriði er í boði sem hluti af prufuútgáfu. Innihald og virkni geta tekið breytingum. Til að nota þennan eiginleika skal biðja stjórnanda að virkja hann með **Stjórnandamiðstöð** í Attract. Stilla skal **Umsækjandi sem mælt er með**, **Starf sem mælt er með** og **Viðfang sem mælt er með** á **Kveikt**. Frekari upplýsingar er að finna í [Fá aðgang að forskoðunareiginleikum í Microsoft Dynamics 365 Talent](./access-preview-feature.md). 
 
 
 ## <a name="candidate-recommendations"></a>Umsækjendur sem mælt er með

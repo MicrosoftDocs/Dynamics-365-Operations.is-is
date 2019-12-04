@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a476163ba6f66ab60ed8bfea6198d02f13ac5136
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5020b523ca5d76d36f7436a8f43e8629c029e3e8
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182716"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769879"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Aðgangur að lýsigögnum forrits með tengdum forritum
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Eftirfarandi skref útskýra hvernig notandi Regulatory Configuration Service í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur sett upp nýja líkanavörpun rafrænnar skýrslugerðar með því að nota lýsigögnin í Finance and Operations. Lýsigögn hugbúnaðar verða skoðuð á netinu með því að nota RCS -tengda forritið. Dæmi um líkanavörpun rafrænnar skýrslugerðar verður skilgreint til að fá aðgang að utanríkisviðskiptafærslum. Til að ljúka þessum skrefum verður fyrst að ljúka skrefunum í efninu [Stofna skilgreiningaveitu og merkja hana sem virka](er-configuration-provider-mark-it-active-2016-11.md) í RCS. Ef þú hefur ekki lokið við skrefin í efninu [Fáðu aðgang að lýsigögnum hugbúnaðar með notkun á grunnstillingum rafrænnar skýrslugerðar](access-application-metadata-er-configuration.md), skaltu fara í [Síðu með dæmum um rafræna skýrslugerð](https://go.microsoft.com/fwlink/?linkid=862266) til að sækja og vista eftirfarandi skilgreiningar rafrænnar skýrslugerðar: Foreign trade metadata.xml; Foreign trade model.xml; Foreign trade mapping.xml, og ljúka síðan við skrefin í ferlinu.
+Eftirfarandi skref útskýra hvernig notandi Regulatory Configuration Service í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur sett upp nýja líkanavörpun rafrænnar skýrslugerðar með því að nota lýsigögnin í Finance and Operations. Lýsigögn hugbúnaðar verða skoðuð á netinu með því að nota RCS -tengda forritið. Dæmi um líkanavörpun rafrænnar skýrslugerðar verður skilgreint til að fá aðgang að utanríkisviðskiptafærslum. Til að ljúka þessum skrefum verður í RCS fyrst að ljúka skrefunum í efninu [Stofna skilgreiningaveitur og merkja þær sem virkar](er-configuration-provider-mark-it-active-2016-11.md). Ef þú hefur ekki lokið við skrefin í efninu [Fáðu aðgang að lýsigögnum hugbúnaðar með notkun á grunnstillingum rafrænnar skýrslugerðar](access-application-metadata-er-configuration.md), skaltu fara í [Síðu með dæmum um rafræna skýrslugerð](https://go.microsoft.com/fwlink/?linkid=862266) til að sækja og vista eftirfarandi skilgreiningar rafrænnar skýrslugerðar: Foreign trade metadata.xml; Foreign trade model.xml; Foreign trade mapping.xml, og ljúka síðan við skrefin í ferlinu.
 
 ## <a name="prerequisites"></a>Forkröfur
 1. Farðu í **Öll vinnusvæði** > **Rafræn skýrslugerð**. 
-2. Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt **Virk**. Ef þú sérð skilgreiningarveituna ekki skaltu klára skrefin í ferlinu [Stofna skilgreiningaveitu og merkja hana sem virka](er-configuration-provider-mark-it-active-2016-11.md). 
+2. Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt **Virk**. Ef þú sérð skilgreiningarveituna ekki skaltu klára skrefin í ferlinu [Stofna skilgreiningaveitur og merkja þær sem virkar](er-configuration-provider-mark-it-active-2016-11.md). 
 
 ## <a name="get-required-er-configurations"></a>Sækja umbeðnar ER-skilgreiningar
 1. Smellið á **Skilgreiningar skýrslugerðar**. 
-2. Ef þú hefur þegar lokið við skrefin í ferlinu [(RCS) Fá aðgang að lýsigögnum hugbúnaðar með notkun á grunnstillingum rafrænnar skýrslugerðar](access-application-metadata-er-configuration.md) hefurðu nú þegar allar nauðsynlegar skilgreiningar rafrænnar skýrslugerðar (skilgreiningar lýsigagna utanríkisviðskipta, líkans og vörpunar) í gildandi RCS-tilviki. Þú getur sleppt öllum eftirstandandi skrefum í þessu undirverkefni. 
+2. Ef þú hefur þegar lokið við skrefin í ferlinu [Fá aðgang að lýsigögnum hugbúnaðar með notkun á grunnstillingum rafrænnar skýrslugerðar](access-application-metadata-er-configuration.md) hefurðu nú þegar allar nauðsynlegar skilgreiningar rafrænnar skýrslugerðar (skilgreiningar lýsigagna utanríkisviðskipta, líkans og vörpunar) í gildandi RCS-tilviki. Þú getur sleppt öllum eftirstandandi skrefum í þessu undirverkefni. 
 3. Smelltu á **Skipta út**. 
 4. Smelltu á **Hlaða úr XML-skrá**. 
 5. Smelltu á **Skoða** og veldu skrána **Foreign trade metadata.xml**. 
@@ -72,8 +72,8 @@ Eftirfarandi skref útskýra hvernig notandi Regulatory Configuration Service í
 4. Í trénu skaltu velja **Líkan utanríkisviðskipta\Vörpun utanríkisviðskipta**. 
 5. Stækkaðu hlutann **Skilyrði**. 
 
-> [!NOTE]
-> Eins og er vísar þessi vörpun í skilgreiningu lýsigagna. Lýsigögn forrits úr þessari skilgreiningu verða boðin á meðan verið er að setja þessa líkanavörpun upp. 
+    > [!NOTE]
+    > Eins og er vísar þessi vörpun í skilgreiningu lýsigagna. Lýsigögn forrits úr þessari skilgreiningu verða boðin á meðan verið er að setja þessa líkanavörpun upp. 
 
 6. Smellið á **Hönnuður**. 
 7. Smellið á **Hönnuður**. 
@@ -81,8 +81,8 @@ Eftirfarandi skref útskýra hvernig notandi Regulatory Configuration Service í
 9. Smelltu á **Bæta rót við**. 
 10. Sláið inn eða veldu gildi í reitnum **Tafla**. 
 
-> [!NOTE]
-> Eins og er vísar þessi vörpun í skilgreiningu lýsigagna. Lýsigögn forrits úr þessari skilgreiningu verða boðin á meðan verið er að setja þessa líkanavörpun upp. 
+    > [!NOTE]
+    > Eins og er vísar þessi vörpun í skilgreiningu lýsigagna. Lýsigögn forrits úr þessari skilgreiningu verða boðin á meðan verið er að setja þessa líkanavörpun upp. 
 
 11. Smelltu á **Hætta við**. 
 12. Lokið síðunni. 
@@ -92,8 +92,8 @@ Eftirfarandi skref útskýra hvernig notandi Regulatory Configuration Service í
 1. Smellið á **Breyta**. 
 2. Veldu forritið **MyConnectedApp**. 
 
-> [!NOTE]
-> Eins og er, vísar þessi vörpun í lýsigögn valins tengds forrits. Þegar sama vöpun vísar í lýsigagnaskilgreiningu um leið og tengt forrit verða lýsigögn tengds forrits notuð. 
+    > [!NOTE]
+    > Eins og er, vísar þessi vörpun í lýsigögn valins tengds forrits. Þegar sama vöpun vísar í lýsigagnaskilgreiningu um leið og tengt forrit verða lýsigögn tengds forrits notuð. 
 
 3. Smellið á **Hönnuður**. 
 4. Smellið á **Hönnuður**. 
@@ -101,14 +101,14 @@ Eftirfarandi skref útskýra hvernig notandi Regulatory Configuration Service í
 6. Smelltu á **Bæta rót við**. 
 7. Sláið inn eða veldu gildi í reitnum **Tafla**. 
 
-> [!NOTE]
-> Fleiri en tvær forritstöflur voru boðnar núna þar sem þessi vörpun notar öll lýsigögn tengds forrits sem hefur verið úthlutað fyrir það. 
+    > [!NOTE]
+    > Fleiri en tvær forritstöflur voru boðnar núna þar sem þessi vörpun notar öll lýsigögn tengds forrits sem hefur verið úthlutað fyrir það. 
 
 8. Smelltu á **Hætta við**. 
 9. Smelltu á **Villuleita**. 
 
-> [!NOTE]
-> Okkur tókst að binda þætti gagnalíkans við atriði gagnagjafa sem er lýst með því að nota upplýsingar um lýsigögn forrits úr tengdu forriti sem hefue verið úthlutað fyrir þessa vörpun. 
+    > [!NOTE]
+    > Okkur tókst að binda þætti gagnalíkans við atriði gagnagjafa sem er lýst með því að nota upplýsingar um lýsigögn forrits úr tengdu forriti sem hefue verið úthlutað fyrir þessa vörpun. 
 
 10. Lokið síðunni. 
 11. Lokið síðunni. 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00e1956950154051d4a916a013c2200029772e37
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fd57b702220374ef5ac48e1af7c42827a21e7517
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547102"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813594"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Algengar spurningar um afbrigðalíkan afurðar
 
@@ -37,7 +37,7 @@ Hægt er að nota útreikninga fyrir útreiknings eða rökaðgerðir. Þeir bæ
 ## <a name="what-is-a-calculation"></a>Hvað er útreikningur?
 Útreikningur er einingu sem hægt er að nota í afbrigðalíkani afurðar. Útreikningar eru viðbót við skorður með því að leyfa þér að nota tugabrotum til að reikna gildi þegar afurð er skilgreind. Enn fremur hafa útreikningar stærri safn virknitákna tiltækt en skorður hafa.  
 
-Eins og skorða tengist útreikningur tilteknum íhlut í afbrigðalíkani afurðar og hann er ekki hægt að endurnýta af eða deila með öðrum hluti. Er ein mikilvæg mismunur milli útreikninga og skorður er að útreikningar eru óskilyrtir (einstefnu), en skorður eru yfirlýsingar (tvístefnu). Frekari upplýsingar um segðaskorður sjá [segðarskorður og töfluskorður](expression-constraints-table-constraints-product-configuration-models.md).  
+Eins og skorða tengist útreikningur tilteknum íhlut í afbrigðalíkani afurðar og hann er ekki hægt að endurnýta af eða deila með öðrum hluti. Er ein mikilvæg mismunur milli útreikninga og skorður er að útreikningar eru óskilyrtir (einstefnu), en skorður eru yfirlýsingar (tvístefnu). Sjá frekari upplýsingar um skorður í [segðaskorður og töfluskorður í afbrigðalíkönum afurða](expression-constraints-table-constraints-product-configuration-models.md).  
 
 Útreikningur samanstendur af markmiðseigind og útreikningssegð.
 
@@ -62,7 +62,7 @@ Nei, gildi fyrir markeigindi getur ekki takmarkað gildi fyrir inntaks eigindir 
 
 **Segð:** \[If Litur == "Grænt", 1,5, 1,0\]  
 
-Þegar vara er skilgreind er lengd rafmagnssnúru stillt á **1,5** ef **Grænt** er tilgreint sem litareigindi. Ef annar litur er er tilgreindur, er lengdin stillt á **1,0**. Hins vegar, þar sem útreikningar eru einstefnumiðaðir eru útreikning ekki með gildi stillt á eigindarlit **Grænt**þegar tilgreind er lengd **1,5**.
+Þegar vara er skilgreind er lengd rafmagnssnúru stillt á **1,5** ef **Grænt** er tilgreint sem litareigindi. Ef annar litur er er tilgreindur, er lengdin stillt á **1,0**. Hins vegar, þar sem útreikningar eru einstefnumiðaðir eru útreikning ekki með gildi stillt á eigindarlit **Grænt** þegar tilgreind er lengd **1,5**.
 
 ## <a name="what-happens-if-a-calculation-has-a-target-attribute-of-the-integer-type-but-a-calculation-generates-a-decimal-number"></a>Hvað gerist ef útreikningur hefur markmiðseigind af gerðinni heiltala og útreikning gefur tala aukastafa?
 ef markmiðseigind af gerðinni heiltala og útreikning gefur tala aukastafi, aðeins heiltöluhluti útreiknaðrar niðurstöðu er skilað. Aukastafshluti er fjarlægð og niðurstaðan er ekki sléttuð. Til dæmis er niðurstaða 12.70 sýnd sem 12.
@@ -88,7 +88,7 @@ Nei. Gildin sem þú setur fram þegar þú stillir vöru eru gildi sem notuð e
 Ef fjarlægt er innsett gildi í útreikningi, er gildi markmiðseigindin einnig fjarlægð.
 
 ## <a name="why-do-i-receive-an-error-message-that-says-that-my-model-is-in-contradiction"></a>Af hverju koma villuskilaboð sem gefur til kynna að líkanið mitt sé í mótsögn?
-Þessi boð birtast þegar útreikningur inniheldur villa eða þegar mótsögn er til staðar í einni eða fleiri skorðum. Sjá frekari upplýsingar um mótsagnir í skorðum í  [segðaskorður og töfluskorður](expression-constraints-table-constraints-product-configuration-models.md) Hér eru nokkrar aðstæðum þar sem villur getur átt sér stað í útreikninga:
+Þessi boð birtast þegar útreikningur inniheldur villa eða þegar mótsögn er til staðar í einni eða fleiri skorðum. Fyrir frekari upplýsingar um mótsagnir í skorðu skal sjá [segðaskorður og töfluskorður í afbrigðalíkönum afurða](expression-constraints-table-constraints-product-configuration-models.md). Hér eru nokkrar aðstæðum þar sem villur getur átt sér stað í útreikninga:
 
 -   Gildi er deilt með 0 (núlli).
 -   Árekstur er á milli þessara tveggja einingar:

@@ -1,6 +1,6 @@
 ---
-title: Birta störf á utanaðkomandi atvinnusíðum úr Attract
-description: Þetta efnisatriði útskýrir hvernig á að nota Dynamics 365 Talent - Attract til að auglýsa störf á utanaðkomandi ráðningarsíðum
+title: Birta störf á Broadbean úr Attract
+description: Þetta efnisatriði útskýrir hvernig á að nota Dynamics 365 Talent - Attract til að birta störf á Broadbean
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 2c822a1f799144bb9240fc0cbdeb6c5441e278af
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 41fa057606887069a9ea0f1f2178eeaff59f33ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551404"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832654"
 ---
-# <a name="post-jobs-to-external-career-sites-from-attract"></a>Birta störf á utanaðkomandi atvinnusíðum úr Attract
+# <a name="post-jobs-to-broadbean-from-attract"></a>Birta störf á Broadbean úr Attract
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Talent: Attract hjálpar þér að ná því hæfileikafólki sem þú þarft með því að gera þér kleift að birta störf þín beint úr Attract á Broadbean. Eftir að þú [stofnar starf](./creating-jobs-attract.md) er það eina sem þú þarft að gera að smella á hnapp til að setja starfið fyrir framan alla mögulega umsækjendur á Broadbean.
 
 Til að senda störf til Broadbean þarf viðeigandi Broadbean leyfi. Broadbean býður upp á ýmsar vörur og áætlanir. Fyrir frekari upplýsingar um leyfi og verðlagningu Broadbean skal [hafa samband við Broadbean](https://www.broadbean.com/contact-us/).
 
-Ef þú ert stjórnandi sem þarfnast frekari upplýsinga um hvernig stilla skuli Broadbean samþættingu við Attract skaltu sjá [Slá inn stillingar fyrir utanaðkomandi atvinnutorg](./attract-admin-job-board-settings.md).
+Ef þú ert stjórnandi sem þarf frekari upplýsingar um hvernig á að stilla Broadbean samþættingu við Attract, sjáðu þá [Virkja samþættingu við Broadbean í Dynamics 365 Talent - Attract](./attract-admin-job-board-settings.md).
 
 ## <a name="post-jobs-to-broadbean"></a>Birta störf á Broadbean
 
@@ -74,7 +74,7 @@ Hægt er að uppfæra starfsauglýsingu í Broadbean á tvenna vegu.
 2. Í hlutanum **Birtingar** skal velja hnappinn **Uppfæra auglýsingu** sem á við um Broadbean.
 3. Breyttu auglýsingunni í Broadbean-glugganum.
 
-– eða –
+    – eða –
 
 1. Opnaðu starfið í Attract sem þú vilt skoða á Broadbean.
 2. Í hlutanum **Birtingar** skal velja þrípunktahnappinn (**...**) sem á við um Broadbean og velja því næst **Skoða**.
@@ -99,6 +99,6 @@ Ef þú átt í vandræðum með að birta starf á Broadbean, reyndu þá þess
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Stofna störf](./creating-jobs-attract.md)
+[Búa til, samþykkja og birta störf í Attract](./creating-jobs-attract.md)
 
-[Sláðu inn stillingar fyrir utanaðkomandi atvinnutorg](./attract-admin-job-board-settings.md)
+[Virkja Broadbean-samþættingu í Microsoft Dynamics 365 Talent - Attract](./attract-admin-job-board-settings.md)

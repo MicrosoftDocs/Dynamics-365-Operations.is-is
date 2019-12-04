@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6bd76fc771c370d8d769a97d3b33003f632717f2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d0bf2f843401811d601b5fe90709bf995f550870
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174191"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771518"
 ---
 # <a name="cost-management-power-bi-content"></a>Kostnaðarstjórnun Power BI efni
 
@@ -37,7 +37,7 @@ ms.locfileid: "2174191"
 > [!NOTE]
 > **Kostnaðarstjórnun** Power BI efnið sem lýst er hér í þessu efnisatriði gildir um Dynamics 365 Finance and Operations 8.0.
 > 
-> **Kostnaðarstjórnun** Power BI efnispakki, tiltækur á AppSource síðuna, hefur verið felldur úr gildi. Nánari upplýsingar um þá afskrift er að finna í [Power BI efnispakki tiltækur á AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> **Kostnaðarstjórnun** Power BI efnispakki, tiltækur á AppSource síðuna, hefur verið felldur úr gildi. Nánari upplýsingar um gengislækkunina, sjá [Fjarlægðar eða úreltir aðgerðir fyrir Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Þetta Power BI efni útvegar flokkað snið sem hjálpar þér að fylgjast með afköstum birgða og sjá hvernig kostnaðurinn rennur í gegnum þær. Hægt er að öðlast innsýn í reksturinn, t.d. veltuhlutfall, fjöldi daga sem birgðir á lager, nákvæmni og „ABC-flokkun“ á völdu samanlögðu stigi (fyrirtæki, vöru, vöruflokki eða stað). Upplýsingarnar sem boðið er upp á er einnig hægt að nota sem ítarlega viðbót við fjárhagsskýrslu.
 

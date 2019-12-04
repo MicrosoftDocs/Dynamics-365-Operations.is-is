@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e0369be278519f39fc304b34ef3a270438f0bb1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 242e9fd5fd4b22f3081367cf33ff18ff5e4174a5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026257"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814744"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Dreifa og tímasetja spurningalista
 
@@ -54,7 +54,8 @@ Til að úthluta spurningalistaflokki á spurningalista, á **Spurningalisti** s
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Áætluð svarseta í spurningalista
 Áætlaðar svarsetur eru spurningalistar sem hefur verið hannaðar og búið að velja svarendur fyrir. 
 
-> **Athugið:** Áður en hægt er að setja upp áætlaða svarsetu verður að hanna spurningalista. 
+> [!NOTE]
+>   Áður en hægt er að setja upp áætlaða svarsetu verður að hanna spurningalista. 
 
 Á **Áætluð svarseta** síðu er hægt að stofna áætlaða svarlotu fyrir starfsmann. Listinn á síðunni birtir alla áætlaða spurningalista. 
 
@@ -108,12 +109,14 @@ Ef notuð er áætluð svarseta tilkynna þarf að tilkynna einstaklingurinn bei
 
 Nota **röðun fyrirspurnar** síðu til að útbúa og senda tölvupóst til allra svarenda sem eru tengdir við spurningalistann. Færa inn texta tölvupósts í **tölvupóstur fyrir sjálfsafgreiðslu starfsmanns** flipanum. Eftir að áætlun hefur verið ræst er smellt á **Aðgerðir** &gt; **Senda tölvupóst** til að búa til og senda í tölvupósti til svarenda. Svarendur geta síðan innskráð sig á vefsvæðið og svarað spurningalistanum. 
 
-> **Athugið:** Áður en hægt er að nota tölvupóstsvirkni þarf kerfisstjóri að færa inn stillingar fyrir tölvupóst á síðunni **Færibreytur tölvupósts**.
+> [!NOTE]
+>   Áður en hægt er að nota tölvupóstsvirkni þarf kerfisstjóri að færa inn stillingar fyrir tölvupóst á síðunni **Færibreytur tölvupósts**.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Ljúka áætluðum spurningalista
 Hægt er að loka röðuðum spurningalista eftir að allir svarendur hafa lokið úthlutuðum svarlotum. Eftir að röðun spurningalista er lokið er ekki lengur hægt að afrita stillingar hennar í nýja röðun. 
 
-> **Athugið:** Ef einn eða fleiri svarendur hafa ekki lokið við spurningalistann en þú vilt samt loka röðuninni verður þú fyrst að eyða þeim svarendum úr listanum í síðunni **Áætluð svarseta**. Að því loknu er hægt að loka röðuninni.
+> [!NOTE]
+>   Ef einn eða fleiri svarendur hafa ekki lokið við spurningalistann en þú vilt samt loka röðuninni verður þú fyrst að eyða þeim svarendum úr listanum í síðunni **Áætluð svarseta**. Að því loknu er hægt að loka röðuninni.
 
 ## <a name="completing-questionnaires"></a>Að klára spurningalista
 Eftir að búið er að hannað og dreift spurningalistum, má ljúka við spurningalista af valda svarendur. Hægt er að ljúka við spurningalistana sem eru tiltækir úr tveimur staðsetningum:
@@ -126,10 +129,10 @@ Hægt er að gera spurningalista tiltæka fyrir tiltekna notendur eða notendah�
 <a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Hönnun spurningalista](design-questionnaires.md)
+[Hanna spurningalista](design-questionnaires.md)
 
-[Nota spurningalista.](questionnaires.md)
+[Spurningarlistar](questionnaires.md)
 
-[Skoða og meta niðurstöður spurningalista](evaluate-questionnaire-results.md)
+[Yfirferð og mat á niðurstöðum spurningalista](evaluate-questionnaire-results.md)
 
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 83c523a23973f4fd146d8308fbb5ecb486224ad9
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865329"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813547"
 ---
 # <a name="product-lifecycle-state-overview"></a>Yfirlit yfir líftímastöðu afurðar
 
@@ -107,9 +107,9 @@ Notaðu eftirfarandi viðmiðanir til að velja og uppfæra útgefnar afurðir e
 
 ## <a name="related-topics"></a>Tengd efnisatriði
 
--  [Stofna nýja lífferilsstöðu afurðar (verkleiðbeiningar)](tasks/new-product-lifecycle-state.md)
--  [Stofna sjálfgefna lífferilsstöðu afurðar (verkleiðbeiningar)](tasks/default-product-lifecycle-state.md)
--  [Úthluta líftímastöðu afurðar til útgefins afurðarsniðmáts (verkleiðbeiningar)](tasks/product-lifecycle-state-released-product-master.md)
--  [Úthluta lífferilsstöðu afurðar til útgefinnar afurðar (verkleiðbeiningar)](tasks/product-lifecycle-state-released-product.md)
--  [Finna úrelt afurðaafbrigði og úthluta lífferilsstöðu afurðar (verkleiðbeiningar)](tasks/obsolete-product-variants.md)
--  [Stofna lífferlisstöðu afurðar til að útiloka afurðir frá aðaláætlanagerð (verkleiðbeiningar)](tasks/exclude-products-master-planning.md)
+-  [Stofna nýja líftímastöðu afurðar](tasks/new-product-lifecycle-state.md)
+-  [Stofna sjálfgefna líftímastöðu afurðar](tasks/default-product-lifecycle-state.md)
+-  [Úthluta líftímastöðu afurðar til útgefins afurðarsniðmáts](tasks/product-lifecycle-state-released-product-master.md)
+-  [Úthluta líftímastöðu afurðar til útgefinnar afurðar](tasks/product-lifecycle-state-released-product.md)
+-  [Finna úrelt afurðaafbrigði og úthluta lífferilsstöðu afurðar](tasks/obsolete-product-variants.md)
+-  [Búa til lífferlisstöðu afurðar til að útiloka afurðir frá aðaláætlanagerð](tasks/exclude-products-master-planning.md)

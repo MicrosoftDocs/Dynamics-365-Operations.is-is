@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1bddb65fd5fd73e879d8a95decc9f3e4f7f37e4
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: abf574293dac634bb4b4f6adc95b4598a66ed264
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653442"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813294"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Setja upp ytri vörulista fyrir PunchOut eProcurement
 
@@ -43,7 +43,7 @@ Ytri vörulista ætti að gera starfsmanns sem fer á innkaupabeiðni til að ve
 
 1. Setja upp tegundastigveldi innkaupa Sjá [Uppsetningarstefnur fyrir stigveldi innkaupaflokkunar](tasks/set-up-policies-procurement-category-hierarchies.md) fyrir frekari upplýsingar um hvernig setja á upp stigveldi innkaupategundar.
 2. Skráðu lánardrottinn í Supply Chain Management. Áður en hægt er að setja upp skilgreiningu til að fá aðgang að ytri vörulista lánardrottins, verður að setja lánardrottin upp og tengilið lánardrottins í Microsoft Dynamics 365. Lánardrottni ytri vörulista verður einnig að vera bætt við valda innkaupategund. Nánari upplýsingar um hvernig á að skrá lánardrottna er að finna í [Stjórna notendum fyrir samstarf lánardrottna](manage-vendor-collaboration-users.md). Sjá upplýsingar um hvernig á að úthluta á innkaupaflokknum lánardrottins [Samþykkja lánardrottnar fyrir tiltekið innkaupaflokkana](tasks/approve-vendors-specific-procurement-categories.md).
-3. Gangið úr skugga um að eininga mælieiningin og gjaldmiðilinn sem lánardrottinn notar eru settir. Til að fá upplýsingar hvernig eigi að stofna mælieiningu, sjá [Stjórnun mælieininga](../pim/tasks/manage-unit-measure.md).
+3. Gangið úr skugga um að eininga mælieiningin og gjaldmiðilinn sem lánardrottinn notar eru settir. Til að fá upplýsingar hvernig eigi að stofna mælieiningu, sjá [Stjórnun mælieiningar](../pim/tasks/manage-unit-measure.md).
 4. Skilgreinið vörulista ytri lánardrottni þarfir fyrir ytri vörulista setur við lánardrottinn. Frekari upplýsingar um þetta verk er að finna í [Grunnstilla ytri vörulista lánardrottins](#configure-the-external-vendor-catalog).
 5. Prófa málskipan lánardrottins ytri vörulista afbrigði til að staðfesta stillingar séu gildar og sem hægt er að nálgast ytri vörulista lánardrottins. Notaðu aðgerðina **Villuleita stillingar** til að villuleita skilaboð með beiðni um uppsetningu sem hefur verið skilgreind. Þessi skilaboð ættu að valda því að ytra vörulistasvæði lánardrottna verði opnað í vafraglugga. Við villuleit, ekki er hægt að panta vörur og þjónustu frá lánardrottni. Til að panta vörur og þjónustu, er verður að nálgast lánardrottins vörulista við innkaupabeiðnina.
 6. Virkjaðu ytri vörulista með því að nota hnappinn **Virkja vörulista** á síðunni **Ytri vörulistar**. Virkja verður ytri vörulista áður en starfsmenn geta notað hann. Hægt er að gera ytri vörulista hvenær sem er.

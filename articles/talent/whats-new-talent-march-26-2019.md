@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d4b59183116784f44f45fddacdfa4aa954383ecd
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b23860a7eda0ec9d75cca04728b7fc11d01bf967
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023885"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812742"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 Talent (26. mars 2019)
 
@@ -75,11 +75,11 @@ Með þessari breytingu sýnir síða ráðningarsögu nú færslur starfsmanns 
 Með þessari útgáfu getur þú nú fjarlægt starfsfærslur með því að nota valkostinn **Opna í Excel** í Talent.
 
 ### <a name="upgrade-to-common-data-service"></a>Uppfæra í Common Data Service
-Frestur til að uppfæra í Common Data Service rennur brátt út. Skráðu þig inn á stjórnandamiðstöð PowerApps til að ákvarða hvort þurfi að uppfæra gagnagrunninn þinn. Frekari upplýsingar um fresti og nauðsynlegar ráðstafanir til að uppfæra er að finna í [Uppfæra í Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Frestur til að uppfæra í Common Data Service rennur brátt út. Skráðu þig inn á stjórnandamiðstöð Power Apps til að ákvarða hvort þurfi að uppfæra gagnagrunninn þinn. Frekari upplýsingar um fresti og nauðsynlegar ráðstafanir til að uppfæra er að finna í [Uppfæra í Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Í kynningarútgáfu
 
-Nánari upplýsingar um virkun á forskoðunareiginleikum er að finna í [Fá aðgang að forskoðunareiginleikum í Talent](./access-preview-feature.md).
+Nánari upplýsingar um virkun á forskoðunareiginleikum er að finna í [Fá aðgang að forskoðunareiginleikum í Microsoft Dynamics 365 Talent](./access-preview-feature.md).
 
 ### <a name="allow-reason-codes-to-be-specified-on-leave-types"></a>Leyfa að tilgreina ástæðukóða fyrir leyfisgerðir
 Fyrirtæki gætu þurft viðbótarupplýsingar sem tengjast frítímabeiðnum. Til að fá þessar upplýsingar þurfa starfsmenn að hafa með ástæðukóða á frítímabeiðnum sínum. Með þessari útgáfu getur þú nú tilgreint ástæðukóðana sem tengjast ákveðinni leyfisgerð og gert starfsmönnum kleift að velja ástæðukóða fyrir frítímabeiðnir sínar.

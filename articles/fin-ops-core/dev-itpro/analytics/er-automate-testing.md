@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6da9447386e8e56e20507d985ebcdbfce934debd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: be641e1b2f90f4d19f7ed15e47413c0aa43d5073
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181612"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771445"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Sjálfvirk prófun með rafrænni skýrslugerð
 
@@ -44,8 +44,8 @@ Nánari upplýsingar um hvernig á að stofna sérsniðna útgáfu af sniði sem
 Virkir kraftnotendur geta samið notandasamþykki og samþættingarprófun án þess að þurfa að skrifa frumkóða.
 
 - Notaðu ER-grunnlínueiginleikann til að bera mynduð skjöl saman við aðaleintök. Nánari upplýsingar er að sjá í [Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi](er-trace-reports-compare-baseline.md).
-- Notaðu verkskráningu til að ská prófunardæmi og innifela gunnlínumat. Nánari upplýsingar er að finna [Verkskráningu](../user-interface/task-recorder.md).
-- Flokkaðu prófunardæmi fyrir nauðsynlegar prófunaraðstæður. Nánari upplýsingar er að finna [Stofna söfn prófana á notandasamþykktum með verkleiðbeiningum og BPM](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md).
+- Notaðu verkskráningu til að ská prófunardæmi og innifela gunnlínumat. Nánari upplýsingar er að finna [Tilföng verkskráningar](../user-interface/task-recorder.md).
+- Flokkaðu prófunardæmi fyrir nauðsynlegar prófunaraðstæður. Nánari upplýsingar er að finna í [Stofna og gera sjálfvirkt staðfestingarpróf notanda](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md).
 
     - Notaðu Viðskiptaferlavinnslu (BPM) í LCS til að búa til söfn fyrir samþykktarprófanir fyrir notendur.
     - Notaðu BPM prófunarsöfn til að búa til prófunaráætlun og prófunarpakka í Microsoft Azure DevOps-þjónusta (Azure DevOps).
@@ -59,7 +59,7 @@ Virkir kraftnotendur geta keyrt prófanir fyrir notandasamþykki og samþætting
 
 Áður en hægt er að ljúka þessum verkum í efninu verður að ljúka við eftirfarandi forsendur:
 
-- Nota grannfræði sem styður prófunarsjálfvirkni. Þú verður að hafa aðgang að tilviki í þessari grannfræði fyrir hlutverkið **Kerfisstjóri**. Þessi grannfræði verður að innihalda kynningargögn sem verða notuð í þessu dæmi. Nánari upplýsingar er að finna [Setja upp grannfræði sem styður samfellda smíði og sjálfvirkni prófunar](../perf-test/continuous-build-test-automation.md).
+- Nota grannfræði sem styður prófunarsjálfvirkni. Þú verður að hafa aðgang að tilviki í þessari grannfræði fyrir hlutverkið **Kerfisstjóri**. Þessi grannfræði verður að innihalda kynningargögn sem verða notuð í þessu dæmi. Nánari upplýsingar er að finna [Setja upp og nota umhverfi sem styður samfellda smíði og sjálfvirkni prófunar](../perf-test/continuous-build-test-automation.md).
 - Til að keyra notandasamþykki og samþættingarprófanir sjálfkrafa verður þú að setja upp RSAT í grannfræðinni sem þú notar og skilgreina það á viðeigandi hátt. Nánari upplýsingar um hvernig á að setja upp og skilgreina RSAT og skilgreina það til að vinna með forritum Finance and Operations og Azure DevOps er að finna í [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Gefðu gaum að forsendum fyrir notkun tækisins. Eftirfarandi skýringarmynd sýnir dæmi um stillingar á RSAT. Blái ferhyrningurinn nær utan um breytur sem tilgreina aðgang að Azure DevOps. Græni ferhyrningurinn nær utan um breytur sem tilgreina aðgang að tilvikinu.
 
     ![RSAT-stillingar](media/GER-Configure.png "Skjámynd af svarglugganum RSAT-stillingar")
@@ -81,7 +81,7 @@ Virkir kraftnotendur geta keyrt prófanir fyrir notandasamþykki og samþætting
     - **Vörpun greiðslulíkans 1611** ER skilgreining vörpunar greiðslulíkans
     - **BACS (UK)** ER sniðmátsskilgreining
 
-    ![Skilgreiningar rafrænnar skýrslugerðar](media/GER-Configurations.png "Skjámynd af skilgreiningarsíðu í rafrænni skýrslugerð")
+    ![Skilgreiningar rafrænnar skýrslugerðar](media/GER-Configurations.png "Skjámynd af stillingasíðunni í rafrænum skýrslum")
 
 3. Veldu **GBSI** sýnigagnafyrirtæki, sem er með lands-/svæðissamhengi í Bretlandi.
 4. Skilgreina færibreytur viðskiptaskulda:
@@ -93,7 +93,7 @@ Virkir kraftnotendur geta keyrt prófanir fyrir notandasamþykki og samþætting
         1. Á flýtiflipanum **Skráarsnið** stillirðu valkostinn **Almennt rafrænt útflutningssnið** á **Já**.
         2. Í reitnum **Skilgreining útflutningssniðs** velurðu **BACS (UK)**.
 
-    ![Síðan Greiðsluhættir](media/GER-APParameters.png "Skjámynd af síðunni Greiðsluháttum")
+    ![Síðan Greiðsluhættir](media/GER-APParameters.png "Skjámynd af síðunni Greiðslumátar")
 
     > [!NOTE]
     > Ef þú ert með afleidda útgáfu af þessu ER-sniði sem var stofnuð til að styðja sérstillingar geturðu valið þessa skilgreiningu í greiðsluhættinum **Rafrænt**.
@@ -103,7 +103,7 @@ Virkir kraftnotendur geta keyrt prófanir fyrir notandasamþykki og samþætting
     1. Farðu í **Viðskiptaskuldir \> Greiðslur \> Greiðslubók**.
     2. Gakktu úr skugga um að þú hafir ekki bókað greiðslubókina.
 
-        ![Síðan Greiðslubók](media/GER-APJournal.png "Skjámynd af síðunni Greiðslubók")
+        ![Síðan Heiti greiðslubókar](media/GER-APJournal.png "Skjámynd af síðunni Greiðslubók")
 
     3. Veldu **Línur** og sláðu inn línu sem er með eftirfarandi upplýsingar.
 
@@ -116,7 +116,7 @@ Virkir kraftnotendur geta keyrt prófanir fyrir notandasamþykki og samþætting
         | Mótlykill      | GBSI OPER       |
         | Greiðsluháttur   | Rafrænt      |
 
-    ![Síða fyrir greiðslur lánardrottna](media/GER-APJournalLines.png "Skjámynd af síðu fyrir greiðslur lánardrottna")
+    ![Síðan Greiðslur lánardrottna](media/GER-APJournalLines.png "Skjámynd af síðunni Greiðslur lánardrottna")
 
 ## <a name="prepare-the-er-framework-to-test-vendor-payment-processing"></a>Undirbúa ER-ramma til að prófa greiðsluvinnslu lánardrottins
 
@@ -125,7 +125,7 @@ Virkir kraftnotendur geta keyrt prófanir fyrir notandasamþykki og samþætting
 1. Farðu í **Fyrirtækisstjórnun \> Rafræn skýrslugerð \> Færibreytur rafrænnar skýrslugerðar**.
 2. Á flipanum **Viðhengi**, í reitnum **Grunnlína** velurðu **Skrá** sem þá skjalategund sem rammi skjalastjórnunarkerfis (DM) notar til að halda skjölum sem tengjast grunnlínueiginleikanum sem DM-viðhengjum.
 
-    ![Síðan Færibreytur rafrænnar skýrslugerðar](media/GER-ERParameters.png "Skjámynd af síðunni Færibreytur rafrænnar skýrslugerðar")
+    ![Síða rafrænna skýrslufæribreyta](media/GER-ERParameters.png "Skjámynd af síðunni Færibreytur rafrænna skýrslna")
 
 ### <a name="generate-baseline-copies-of-vendor-paymentrelated-documents"></a>Myndaðu grunnlínuafrit af skjölum sem tengjast lánardrottni
 
@@ -180,7 +180,7 @@ Með því að kveikja á breytunni **Keyra í kembistillingum** þvingarðu ram
     3. Flettu til að velja staðbundið vistuðu eftirlitsskýrsluna **ERVendOutPaymControlReport** á XLSX-sniði.
     4. Í reitnum **Lýsing** slærðu inn **XLSX-eftirlitsskýrsla greiðslu**.
 
-    ![Grunnlínur fyrir greiðsluskrá lánardrottins og eftirlitsskýrslu](media/GER-BaselineAttachments.png "Skjámynd af síðunni Skilgreiningar með XLSX-eftirlitsskýrsla greiðslu valið")
+    ![Grunnlínur fyrir skrá lánardrottinsgreiðslu og eftirlitsskýrslu](media/GER-BaselineAttachments.png "Skjámynd af stillingasíðunni með greiðslu XLSX stjórnunarskýrslu valinn")
 
 8. Lokið síðunni.
 9. Á flýtiflipanum **Grunnlínur** velurðu **Nýtt** til að skilgreina grunnlínu fyrir greiðsluskrá:
@@ -199,7 +199,7 @@ Með því að kveikja á breytunni **Keyra í kembistillingum** þvingarðu ram
     4. Í reitnum **Skráarheiti síu** slærðu inn **\*.XLSX** til að beita þessari grunnlínu aðeins á úttök af sniðíhlutnum **ERVendOutPaymControlReport** sem hafa skráarendinguna **.xlsx**.
     5. Í reitnum **Grunngildi** velurðu **Efitrlitsskýrsla XLSX-greiðslu** þannig að þessi grunnlína sé notuð til samanburðar við myndað úttak.
 
-    ![Flýtiflipinn Grunnlínur á síðunni Skilgreiningar](media/GER-BaselineRules.png "Skjámynd af flýtiflipanum Grunnlínur á síðunni Skilgreiningar")
+    ![Grunnlínur flýtiflipa á stillingasíðunni](media/GER-BaselineRules.png "Skjámynd af flýtiflipanum Grunnlínum á stillingasíðunni")
 
 ## <a name="record-tests-to-validate-vendor-payment-processing"></a>Skráðu prófanir til að sannreyna greiðsluvinnslu lánardrottins
 
@@ -229,15 +229,15 @@ Sem virkur kraftnotandi geturðu skráð eigin skref til að prófa greiðsluvin
 
 1. Stilltu stöðu unninnar greiðslulínu á **Ekkert**.
 
-    ![Verkskráningarskref 3 til 4](media/GER-Recording1Review1.png "Skjáskot af verkskráningarskrefum 3 til 4")
+    ![Verkskráningarskref 3 til 4](media/GER-Recording1Review1.png "Skjámynd af verkskráningarskrefum 3 til 4")
 
 2. Kveiktu á ER-notandabreytunni **Keyra í kembistillingum**.
 
-    ![Verkskráningarskref 9 til 10](media/GER-Recording1Review2.png "Skjáskot af verkskráningarskrefum 9 til 10")
+    ![Verkskráningarskref 9 til 10](media/GER-Recording1Review2.png "Skjámynd af verkskráningarskrefum 9 til 10")
 
 3. Hreinsaðu ER-kembikladdann sem inniheldur niðurstöður samanburðar á mynduðum skrám í grunnlínur.
 
-    ![Verkskráningarskref 13 til 15](media/GER-Recording1Review3.png "Skjáskot af verkskráningarskrefum 13 til 15")
+    ![Verkskráningarskref 13 til 15](media/GER-Recording1Review3.png "Skjámynd af verkskráningarskrefum 13 til 15")
 
 ### <a name="record-the-steps-to-test-vendor-payment-processing"></a>Skráðu skrefin til að prófa greiðsluvinnslu lánardrottins
 
@@ -256,21 +256,21 @@ Við mælum með að þú spilir (og breytir, eftir því sem við á) verkskrá
 1. Ræstu vinnslu lánardrottnagreiðslna.
 2. Veldu réttar keyrslutímabreytur og kveiktu á myndun eftirlitsskýrslu.
 
-    ![Verkskráningarskref 3 til 8](media/GER-Recording2Review1.png "Skjáskot af verkskráningarskrefum 3 til 8")
+    ![Verkskráningarskref 3 til 8](media/GER-Recording2Review1.png "Skjámynd af verkskráningarskrefum 3 til 8")
 
 3. Farðu í ER-kembikladdann til að skrá samanburðarniðurstöður á mynduðu úttaki við samsvarandi grunnlínur.
 
     Í ER-kembikladdanum birtast niðurstöður samanburðarins í reitnum **Myndaður texti**. Reitirnir **Sniðsþáttur** og **Sniðsslóð sem olli kladdafærslu** vísa til skráarþáttarins sem myndað úttak hefur verið borið saman við grunnlínuna fyrir.
 
-    ![Færslur á keyrslukladdasíðu Rafræn skýrslugerð](media/GER-ERDebugLog.png "Skjáskot af færslum á keyrslukladdasíðu rafrænnar skýrslugerðar")
+    ![Færslur í keyrslukladdasíðu rafrænnar skýrslugerðar](media/GER-ERDebugLog.png "Skjáskot af færslum í keyrslukladdasíðu rafrænnar skýrslugerðar")
 
 4. Samanburður á núverandi úttaki við grunnlínu er skráður með því að nota verskráningarkostinn **Staðfesta** og velja  **Núverandi gildi**.
 
-    ![Notkun á valkostinum Staðfesta fyrir samanburð við núverandi gildi](media/GER-TRRecordValidation.png "Skjámynd af notkun á valkostinum Staðfesta fyrir samanburð við núverandi gildi")
+    ![Notaðu villuleikarkostinn til samanburðar við núverandi gildi](media/GER-TRRecordValidation.png "Skjáskot af notkun villuleikarkosts til samanburðar við núverandi gildi")
 
     Eftirfarandi skýringarmynd sýnir hvernig skráð staðfestingarskref líta út í verkskráningunni.
 
-    ![Verkskráningarskref 13 og 15](media/GER-Recording2Review2.png "Skjáskot af verkskráningarskrefum 13 og 15")
+    ![Verkskráningarskref 13 og 15](media/GER-Recording2Review2.png "Skjámynd af verkskráningarskrefum 13 og 15")
 
 ## <a name="add-the-recorded-tests-to-azure-devops"></a>Bættu skráðum prófunum við Azure DevOps
 
@@ -287,7 +287,7 @@ Við mælum með að þú spilir (og breytir, eftir því sem við á) verkskrá
     1. Nefndu prófunardæmið **Prófvinnsla á lánardrottnagreiðslum með því að nota ER-sniðið BACS (UK)**.
     2. Hengdu við skrána **Recording.xml** úr möppunni **Vinna** sem þú sóttir áður.
 
-    ![Ný prófunardæmi fyrir valda prófunaráætlun](media/GER-RSAT-DevOps-Tests-Passed.png "Skjámynd af nýjum prófunardæmum fyrir valda prófunaráætlun")
+    ![Ný prófunarmál fyrir valda prófunaráætlun:](media/GER-RSAT-DevOps-Tests-Passed.png "Skjáskot af nýjum prófunarmálum fyrir valda prófunaráætlun:")
 
 > [!NOTE]
 > Gættu þess að framkvæmdaröðin sé rétt á þeim prófunum sem var bætt við.
@@ -299,14 +299,14 @@ Við mælum með að þú spilir (og breytir, eftir því sem við á) verkskrá
 1. Opnaðu staðbundna RSAT-forritið í núverandi grannfræði.
 2. Veldu **Hlaða** til að hlaða prófunum sem eru eins og stendur í Azure DevOps inn í RSAT.
 
-    ![Prófunum hlaðið inn í RSAT](media/GER-RSAT-RSAT-Tests-Loaded.png "Skjámynd af prófunum sem var hlaðið inn í RSAT")
+    ![Próf hlaðin í RSAT](media/GER-RSAT-RSAT-Tests-Loaded.png "Skjámynd af prófunum hlaðin í RSAT")
 
 ### <a name="create-automation-and-parameters-files"></a>Stofna sjálfvirkni- og færibreytuskrár
 
 1. Í RSAT skaltu velja þær prófanir sem þú hlóðst úr Azure DevOps.
 2. Veldu **Nýtt** til að stofna RSAT sjálfvirkni- og færibreytuskrár.
 
-    ![RSAT sjálfvirkni- og færibreytuskrar sem eru stofnaðar í RSAT](media/GER-RSAT-RSAT-Tests-Initiated.png "Skjámynd af RSAT sjálfvirkni- og færibreytuskrám í RSAT")
+    ![RSAT-sjálfvirkni- og færibreytuskrár stofnaðar í RSAT](media/GER-RSAT-RSAT-Tests-Initiated.png "Skjáskot af RSAT-sjálfvirkni- og færibreytuskrár stofnaðar í RSAT")
 
 ### <a name="modify-the-parameters-files"></a>Breyta færibreytuskrám
 
@@ -333,11 +333,11 @@ Athugaðu að prófunardæmin eru sjálfkrafa keyrð í forritinu með því að
 
 Niðurstöður prófunarinnar eru geymdar í RSAT. Athugaðu að báðar prófanirnar stóðust.
 
-![Prófanir sem stóðust í RSAT](media/GER-RSAT-RSAT-Tests-Passed.png "Skjámynd af prófunum sem stóðust í RSAT")
+![Próf sem stóðust í RSAT](media/GER-RSAT-RSAT-Tests-Passed.png "Skjámynd af prófunum sem stóðust í RSAT")
 
 Athugaðu að niðurstöður prófunar eru einnig sendar til Azure DevOps svo að þú getir gert frekari greiningu.
 
-![Niðurstöður prófunar í Azure DevOps](media/GER-RSAT-DevOps-Tests-Added.png "Skjámynd af niðurstöðum prófana í Azure DevOps")
+![Niðurstöður prófunar í Azure DevOps](media/GER-RSAT-DevOps-Tests-Added.png "Skjámynd af niðurstöðum prófsframkvæmda í Azure DevOps")
 
 ### <a name="simulate-a-situation-where-tests-fail"></a>Hermdu eftir aðstæðum þar sem prófanir mistakast
 
@@ -360,24 +360,24 @@ Athugaðu að prófunardæmin eru sjálfkrafa keyrð í forritinu með því að
 
 Niðurstöður prófunarinnar eru geymdar í RSAT. Athugaðu að annað próf bilaði meðan á seinni framkvæmdinni stóð.
 
-![Bilaðar prófunarniðurstöður í RSAT](media/GER-RSAT-RSAT-Tests-Failed.png "Skjámynd af biluðum prófunarniðurstöðum í RSAT")
+![Fallniðurstöður prófa í RSAT](media/GER-RSAT-RSAT-Tests-Failed.png "Skjámynd af fallniðurstöðum prófana í RSAT")
 
 Athugaðu að niðurstöður prófunar eru einnig sendar til Azure DevOps svo að þú getir gert frekari greiningu.
 
-![Bilaðar prófunarniðurstöður í Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed.png "Skjámynd af biluðum prófunarniðurstöðum í Azure DevOps")
+![Fallniðurstöður prófa í Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed.png "Skjámynd af fallniðurstöðum prófana í Azure DevOps")
 
 Þú getur fengið aðgang að stöðu hverrar prófunar. Þú getur einnig nálgast framkvæmdakladdann þannig að þú greinir ástæður fyrir bilun. Á eftirfarandi skýringarmynd sýnir framkvæmdakladdinn að bilun hafi átt sér stað út af muninum á innihaldi milli myndaðrar greiðsluskrár og grunnlínu hennar.
 
-![Framkvæmdakladdi til að greina bilun í Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Skjámynd af framkvæmdakladdanum til að greina bilun í Azure DevOps")
+![Framkvæmdaskrá til að greina bilun í Azure DevOps](media/GER-RSAT-DevOps-Tests-Failed-Log.png "Skjámynd af framkvæmdaskránni til að greina bilun í Azure DevOps")
 
 Eins og þú hefur séð, er þess vegna hægt að meta virkni ER-sniðs sjálfkrafa með því að nota RSAT sem prófunarvettvang og með því að nota prófunardæmi sem byggjast á verkskráningu og nota ER-grunnlínueiginleika.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-- [Verkskráning](../user-interface/task-recorder.md)
+- [Tilföng verkskráningar](../user-interface/task-recorder.md)
 - [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357)
-- [Stofna söfn prófana á notandasamþykktum með verkskráningum og BPM](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
-- [Nota grannfræði sem styður samfellda smíði og sjálfvirkni prófana](../perf-test/continuous-build-test-automation.md)
-- [Rekja myndaðar skýrsluniðurstöður og bera þær saman við ER-grunnlínugildi](er-trace-reports-compare-baseline.md)
-- [Uppfærðu ER-sniðið með því að taka upp nýja grunnútgáfu sniðsins](tasks/er-upgrade-format.md)
-- [Flytja inn ER-skilgreiningu úr Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
+- [Stofna samþykkisprófun notanda og gera hana sjálfvirka](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
+- [Beita og nota umhverfi sem styðja samfellda smíði og sjálfvirkni prófana](../perf-test/continuous-build-test-automation.md)
+- [Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi](er-trace-reports-compare-baseline.md)
+- [Rafræn skýrslugerð Uppfærðu snið með því að taka upp nýja grunnútgáfu sniðs](tasks/er-upgrade-format.md)
+- [Rafræn skýrslugerð Flytja inn skilgreiningu úr Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)

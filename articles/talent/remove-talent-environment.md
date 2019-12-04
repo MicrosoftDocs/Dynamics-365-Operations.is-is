@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: d608ee3ad90d23279557e5e9be4d398ffac3a266
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: bbc65a77b7c3df6545dfd7aa2109aba5c4e1b57b
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010616"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773035"
 ---
 # <a name="remove-talent-environments"></a>Fjarlægja Talent-umhverfi
 
@@ -34,7 +34,7 @@ ms.locfileid: "2010616"
 
 Talent prufukeyrslum er úthlutað með 60 daga gildistíma. Hins vegar hafa eigendur prufukeyrsluumhverfa kost á því að ljúka prufuútgáfu snemma með því að ljúka eftirfarandi skrefum. 
 
-1. Fara í [PowerApps Stjórnendamiðstöð](https://admin.businessplatform.microsoft.com/)
+1. Fara í [Power Apps Stjórnendamiðstöð](https://admin.businessplatform.microsoft.com/)
 2. Veldu **Umhverfi**.
 3. Veldu umhverfi prufukeyrslu, sem er með nafngiftarmynstur svipað þessu: Prufukeyrsla - alias@domain
 4. Veldu **Eyða** og staðfestu ákvörðunina. 
@@ -45,14 +45,14 @@ Núverandi umhverfi prufukeyrslu verður fjarlægt. Þegar það er fjarlægt ge
 
 Þetta efnisatriði gerir ráð fyrir að þú hafir keypt Talent í gegnum Cloud Solution Provider (CSP) eða Enterprise Architecture (EA). 
 
-Vegna þess að eitt Talent umhverfi er „innifalið“ í einu PowerApps umhverfi, eru tveir valkostir sem þarf að hafa í huga. Fyrsti valkosturinn felur í sér að fjarlægja allt PowerApps umhverfið; annar valkosturinn felur í sér að fjarlægja aðeins Talent. Fyrsti kosturinn er valinn þegar þú hefur búið til PowerApps umhverfi sérstaklega með það fyrir augum að ráðstafa Talent, og þú hefur nýverið hafið framkvæmd eða þú hefur ekki sett af stað neinar samþættingar. Annar kosturinn er viðeigandi þegar þú hefur komið fyrir PowerApps umhverfi sem er útfyllt af ríkulegum gögnum sem eru fengin úr PowerApps og Flows.
+Vegna þess að eitt Talent umhverfi er „innifalið“ í einu Power Apps umhverfi, eru tveir valkostir sem þarf að hafa í huga. Fyrsti valkosturinn felur í sér að fjarlægja allt Power Apps umhverfið; annar valkosturinn felur í sér að fjarlægja aðeins Talent. Fyrsti kosturinn er valinn þegar þú hefur búið til Power Apps umhverfi sérstaklega með það fyrir augum að ráðstafa Talent, og þú hefur nýverið hafið framkvæmd eða þú hefur ekki sett af stað neinar samþættingar. Annar kosturinn er viðeigandi þegar þú hefur komið fyrir Power Apps umhverfi sem er útfyllt af ríkulegum gögnum sem eru fengin úr Power Apps og Power Automate.
 
 > [!Important]
-> Áður en PowerApps umhverfið er fjarlægt skal tryggja að það sé ekki verið að nota það við samþættingu ríkulegra gagna utan Talent sviðsins. Athugaðu einnig að sjálfgefið PowerApps umhverfi er ekki hægt að fjarlægja. 
+> Áður en Power Apps umhverfið er fjarlægt skal tryggja að það sé ekki verið að nota það við samþættingu ríkulegra gagna utan Talent sviðsins. Athugaðu einnig að sjálfgefið Power Apps umhverfi er ekki hægt að fjarlægja. 
 
-Til að fjarlægja allt PowerApps umhverfið, þar á meðal Talent og tengd forrit og Flows:
+Til að fjarlægja allt Power Apps umhverfið, þar á meðal Talent og tengd forrit og flæði:
 
-1. Fara í [PowerApps Stjórnendamiðstöð](https://admin.businessplatform.microsoft.com/)
+1. Fara í [Power Apps Stjórnendamiðstöð](https://admin.businessplatform.microsoft.com/)
 2. Veldu **Umhverfi**.
 3. Veldu umhverfið sem á að fjarlægja.
 4. Veldu **Eyða** og staðfestu ákvörðunina. 
@@ -63,7 +63,7 @@ Til að fjarlægja allt PowerApps umhverfið, þar á meðal Talent og tengd for
 9. Veldu tilvikið sem á að fjarlægja. 
 10. Veldu **Fjarlægja tilvika** og staðfestu ákvörðun þína.  
 
-Til að fjarlægja Talent umhverfi úr núverandi PowerApps umhverfi skaltu ljúka eftirfarandi skrefum. Athugaðu að nauðsyn þess að blanda notendaþjónustu við og hafa samband við hugbúnaðarteymi þróunar og aðgerða (DevOps) fyrir Talent er tímabundið þar til þessi eiginleiki er virkjaður beint í LCS.
+Til að fjarlægja Talent umhverfi úr núverandi Power Apps umhverfi skaltu ljúka eftirfarandi skrefum. Athugaðu að nauðsyn þess að blanda notendaþjónustu við og hafa samband við hugbúnaðarteymi þróunar og aðgerða (DevOps) fyrir Talent er tímabundið þar til þessi eiginleiki er virkjaður beint í LCS.
 
 1. Hafðu samband við Notendaþjónustu til að hefja beiðni um fjarlægingu.
 2. Notendaþjónustan mun setja af stað beiðni um fjarlægingu með DevOps teymi fyrir Talent. 

@@ -1,6 +1,6 @@
 ---
-title: Búa til sniðmát ferlis í Attract
-description: Þetta efnisatriði gefur upplýsingar um hvernig á að búa til sniðmát ferlis í Attract.
+title: Búa til sniðmát fyrir ráðningarferli í Attract
+description: Þetta efnisatriði gefur upplýsingar um hvernig á að búa til sniðmát ráðningarferlis í Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 10/15/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.openlocfilehash: 533b9abd3d57c5bf8f3d9da85020c86012436f2f
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 82046d43cf7366b760c140bdb8b017337b4f41da
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622719"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832559"
 ---
-# <a name="create-a-process-template-in-attract"></a>Búa til sniðmát ferlis í Attract
+# <a name="create-a-hiring-process-template-in-attract"></a>Búa til sniðmát fyrir ráðningarferli í Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -48,7 +48,7 @@ Stjórnendur, ráðningaraðilar og mannauðsstjórar geta búið til sniðmát 
 > [!NOTE]
 > Heiti stiga eru sýnileg umsækjendurm á **Staða umsóknar** síðu. Þú ættir að íhuga þessa staðreynd þegar þú velur nöfn fyrir stig.
 
-Til að læra meira um aðgerðir, sjá [Ráðningarferli í Attract](./activities-attract.md).
+Til að læra meira um aðgerðir, sjá [Verkþættir í ráðningarferli](./activities-attract.md).
 
 Fylgdu þessum skrefum til að búa til sniðmát fyrir ráðningarferli.
 

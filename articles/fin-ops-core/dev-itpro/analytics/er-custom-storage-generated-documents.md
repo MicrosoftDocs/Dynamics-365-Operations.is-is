@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f65118b6a7393ced9d80c30fad7540a7b27da6c7
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2c7ee610c6e3c446a4bcc9d6d46ca72dd71cb23c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569085"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771399"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Tilgreina sérsniðinn geymslustað fyrir skjöl sem eru mynduð
 
@@ -54,7 +54,7 @@ Forritunarviðmót forritsins (API) fyrir ramma rafrænnar skýrslugerðar gerir
 
 ## <a name="create-a-new-document-type"></a>Stofna nýja gerð skjala
 
-Til að tilgreina hvernig skjöl eru send sem snið rafrænnar skýrslugerðar myndar er nauðsynlegt að skilgreina [Viðtökustaðir rafrænnar skýrslugerðar](electronic-reporting-destinations.md). Í sérhverjum viðtökustað rafrænnar skýrslugerðar sem er skilgreindur til að geyma mynduð skjöl sem skrár, þarf að tilgreina gerð skjals fyrir skjalastjórnunarramma. Mismunandi skjalagerðir er hægt að nota til að senda skjöl sem mismunandi snið rafrænnar skýrslugerðar mynda.
+Til að tilgreina hvernig skjöl eru send sem snið rafrænnar skýrslugerðar myndar er nauðsynlegt að skilgreina [Viðtökustaðir rafrænnar skýrslugerðar (ER)](electronic-reporting-destinations.md). Í sérhverjum viðtökustað rafrænnar skýrslugerðar sem er skilgreindur til að geyma mynduð skjöl sem skrár, þarf að tilgreina gerð skjals fyrir skjalastjórnunarramma. Mismunandi skjalagerðir er hægt að nota til að senda skjöl sem mismunandi snið rafrænnar skýrslugerðar mynda.
 
 1. Bæta við nýrri [skjalagerð](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) fyrir snið rafrænnar skýrslugerðar sem þú bjóst til eða fluttir inn áður. Í skýringarmyndinni sem fylgir er skjalagerðin **FileX**.
 2. Til að aðgreina þessa skjalategund frá öðrum skjalategundum skal hafa með tiltekið lykilorð í heitinu. Til dæmis, í skýringarmyndinni sem fylgir er heitið **(LOCAL) mappa**.
@@ -171,7 +171,7 @@ Tilvikið **AttachingFile()** kemur upp þegar unnið er úr eftirfarandi viðt�
 2. Farðu í **Fyrirtækisstjórnun \> Rafræn skýrslugerð \> Vinnslur rafrænnar skýrslugerðar**. Finndu skrána sem var búin til fyrir þetta vinnsluverk, og sem hefur myndaða skrá sem viðhengi.
 3. Kannaðu staðbundna **C:\\0** möppu til að finna sömu mynduðu skrá.
 
-## <a name="additional-resources"></a>Frekari tilföng
+## <a name="additional-resources"></a>Frekari upplýsingar
 
-- [Viðtökustaðir rafrænnar skýrslugerðar](electronic-reporting-destinations.md)
+- [Áfangastaðir rafrænnar skýrslugerðar (ER)](electronic-reporting-destinations.md)
 - [Heimasíða stækkunarhæfni](../extensibility/extensibility-home-page.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9c177f7a7b713e7b8490b718650daafeca0e937
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d84e3ed050bacf7632d03cf0123f682c43fd7b58
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189385"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772744"
 ---
 # <a name="three-way-matching-policies"></a>Stefnur þríhliða jöfnunarregla
 
@@ -141,7 +141,7 @@ Athugið eftirfarandi vörur:
 Ef samþykkis er krafist fyrir reikninga sem á að bóka með jöfnunarmisræmi verður að velja Samþykkja bókun með misræmi víxla á Reikningnum samsvarandi upplýsingasíða áður en hægt er að bóka reikning með jöfnunarvillu verðs og jöfnunarvillur magns. Ef samþykkis er krafist, úrvinnslu reikninga getur haldið áfram ef engar aðrar bókunarvillur eru til staðar.
 
 
-Nánari upplýsingar er að finna í [Reikningsjöfnun viðskiptaskulda](accounts-payable-invoice-matching.md).
+Nánari upplýsingar er að finna í [Yfirlit yfir reikningsjöfnun viðskiptaskulda](accounts-payable-invoice-matching.md).
 
 
 

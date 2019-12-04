@@ -1,5 +1,5 @@
 ---
-title: Búðu til, samþykkja og auglýsa störf í Attract
+title: Stofna starf í Attract
 description: Þetta umræðuefni lýsir grunnatriðum starfa í Attract. Það útskýrir einnig hvernig á að búa til starf.
 author: hasrivas
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: db725c230de5e3dfe971098249b280d9da47ae20
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9dcdbcea995285c879f91c0bff435103865cc10f
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551073"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832932"
 ---
-# <a name="create-approve-and-post-jobs-in-attract"></a>Búa til, samþykkja og birta störf í Attract
+# <a name="create-a-job-in-attract"></a>Stofna starf í Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -49,7 +49,7 @@ Ef stöðustjórnun er kveikt í stjórnendamiðstöðinni er **Uppfæra stöðu
 > [!NOTE]
 > Stöðustjórnun er í boði með Viðbót við alhliða ráðningar.
 
-Háð stillingum í tilboðsvirkni ráðningarferlisins, er hægt að nota staðarnúmer tvisvar í tilboði. Nánari upplýsingar er að finna í [Ráðningarferli](./activities-attract.md).
+Háð stillingum í tilboðsvirkni ráðningarferlisins, er hægt að nota staðarnúmer tvisvar í tilboði. Fyrir frekari upplýsingar fjá [Verkþættir í ráðningarferli](./activities-attract.md).
 
 Attract inniheldur sjálfgefið sett af **Hæfni**. Þessi hæfni birtistt sem tillögur þegar þú skrifar. Þú getur bætt við færni með því að slá inn nýja færnistexta í reitinn og styðja síðan á færslulykilinn.
 
@@ -67,7 +67,7 @@ Ráðningarteymið er hægt að uppfæra eftir að starfið er virk.
 
 Sjálfgefin upplýsingar um ráðningarferlið byggjast á sniðmáti ferlisins sem var valið þegar starfið var búin til. Ef tiltekið sniðmát var ekki valið þá var sjálfgefið sniðmát notað. Þegar þú skilgreinir ráðningarferlið getur þú bætt við eða fjarlægt ýmis stig, nema viðfangs-, umsóknar- og tilboðsstigið. Þrátt fyrir að ekki sé hægt að fjarlægja viðfangsstigið getur það verið slökkt. Innan hvers stigs er hægt að bæta við eða fjarlægja eina eða fleiri fyrirfram skilgreinda aðgerð.
 
-Nánari upplýsingar um aðgerð sem hægt er að bæta við ráðningarferlið er að finna í [Ráðningarferli í Attract](./activities-attract.md).
+Nánari upplýsingar um aðgerð sem hægt er að bæta við ráðningarferlið er að finna í [Verkþættir í ráðningarferli](./activities-attract.md).
 
 > [!NOTE]
 > Ekki er hægt að uppfæra ráðningarferlið eftir að starf hefur verið virkjað.
@@ -76,7 +76,7 @@ Nánari upplýsingar um aðgerð sem hægt er að bæta við ráðningarferlið 
 
 Eftir að starf er virkjað er hægt að auglýsa það laust. Aðeins ráðningaraðilar og stjórnendur geta auglýst laus störf. Starfið getur annaðhvort verið auglýst á Talent Careers (Dynamics 365 Talent starfsframasvæðinu) eða LinkedIn. Attract-teymið vinnur stöðugt í samstarfi við samantektaraðila starfatorga. Þessi listi stækkar með tímanum. Þegar starf er auglýst sem eingöngu innan fyrirtækis þurfa umsækjendur AAD-reikning til að skoða og sækja um starfið. Ef starfið er auglýst opinberlega geta umsækjendur skoðað og sótt um störf með því að nota alla valkosti sannvottunar. 
 
-Nánari upplýsingar um auglýsingar á störfum er að finna í [Virkni starfatorga í Attract](career-site.md).
+Nánari upplýsingar um auglýsingar á störfum er að finna í [Settu upp ferilssíðu í Microsoft Dynamics 365 Talent - Attract](career-site.md).
 
 > [!NOTE]
 > Auglýsing á störfum er aðeins í boði með Viðbót við alhliða ráðningar fyrir Attract.
@@ -90,7 +90,7 @@ Eftir að starf er virkjað er hægt að auglýsa það og hægt er að bæta vi
 
 ## <a name="prospects-and-applicants"></a>Horfur og umsækjendur
 
-Möguleiki á að bæta viðföngum við starf er stilltur í [Aðgerð fyrir viðföng](./activities-attract.md#prospect-activity) í ráðningarferlinu. Þessi valkostur ætti að vera stilltur áður en þú virkjar starfið. Eftir að starf er virkjað má bæta viðföngum og umsækjendum við það.
+Möguleiki á að bæta viðföngum við starf er stilltur í [Verkþættir í ráðningarferli](./activities-attract.md#prospect-activity) í ráðningarferlinu. Þessi valkostur ætti að vera stilltur áður en þú virkjar starfið. Eftir að starf er virkjað má bæta viðföngum og umsækjendum við það.
 
 ## <a name="approvals"></a>Samþykki
 

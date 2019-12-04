@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: fda94e77480b9d9455fc0e214e43772ab2921f2d
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: a987e75834ddde486421a425a621e66f0b6e063f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577901"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811166"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Uppsetning á samþættingu fjárhags fyrir smásölurásir
 
@@ -210,7 +210,7 @@ Valkostir villumeðhöndlunar sem eru í boði í samþættingu fjárhags eru st
 
 Til að gera kleift að keyra X/Z-skýrslur úr POS ættir þú að bæta nýjum hnöppum við POS-útlit.
 
-- Á síðunni **Hnappahnit** skal fylgja leiðbeiningunum í [Bæta sérsniðnum aðgerðarhnappi við POS-útlit í Retail Headquarters](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) til að setja upp hönnuðinn og uppfæra POS-útlit.
+- Á síðunni **Hnappahnit** skal fylgja leiðbeiningunum í [Bæta sölustaðaraðgerðum við POS-útlit með hnappahnitshönnuði](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) til að setja upp hönnuðinn og uppfæra POS-útlit.
 
     1. Veldu útlitið til að uppfæra. 
     2. Bættu við nýjum hnapp og stilltu eiginleika hnappsins **Prenta fjárhag X**.
@@ -221,7 +221,7 @@ Til að gera kleift að keyra X/Z-skýrslur úr POS ættir þú að bæta nýjum
 
 Til að virkja handvirka framkvæmd á frestaðri fjárhagsskráningu ættir þú að bæta nýjum hnappi við útlit sölustaðar.
 
-- Á síðunni **Hnappahnit** skal fylgja leiðbeiningunum í [Bæta sérsniðnum aðgerðarhnappi við POS-útlit í Retail Headquarters](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) til að setja upp hönnuðinn og uppfæra POS-útlit.
+- Á síðunni **Hnappahnit** skal fylgja leiðbeiningunum í [Bæta sölustaðaraðgerðum við POS-útlit með hnappahnitshönnuði](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) til að setja upp hönnuðinn og uppfæra POS-útlit.
 
     1. Veldu útlitið til að uppfæra.
     2. Bættu við nýjum hnapp og stilltu eiginleika hnappsins **Ljúka skráningarferli fjárhags**.

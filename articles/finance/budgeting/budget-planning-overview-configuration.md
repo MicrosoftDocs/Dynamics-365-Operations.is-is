@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce94f3bbb988640bc53ca2170c7ed54c6c01c18
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5a33ced073394f0f3aa1b0b2e177e4608ca5bcf6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178321"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772031"
 ---
 # <a name="budget-planning-overview"></a>Yfirlit áætlunar fjárhagsáætlunargerðar
 
@@ -155,7 +155,8 @@ Fyrir dæmaskema gætirðu viljar stofna dálka fyrir Sölu PY, Samninga, og Sp�
 
 Þú tilgreinir einnig hvort hverja útlitseining (dálk) er hægt að breyta, og hvort hún er tiltæk í vinnublaðssniðmát sem er stofnuð fyrir það útlit. Fyrir Dæmaskema, í útliti sem er notað fyrir áætlunarstig, eru spárdálkar hægt að breyta, meðan dálkar PY Sölu og Samninga eru skrifvarin.
 
-[!Note] Sjálfgefið að þú verður takmarkaður við 36 dálka óáreittir þú framlengir fjárhagsáætlunargerð með skrefunum í [Lengja skipulag fjárhagsáætlunar](./extending-budget-planning-layout.md).
+> [!NOTE] 
+> Sjálfgefið er að takmarkað sé við 36 dálka nema þú framlengir fjárhagsáætlunargerð með skrefunum í [Lengja skipulag fjárhagsáætlunar](./extending-budget-planning-layout.md).
 
 ### <a name="templates"></a>Sniðmát
 

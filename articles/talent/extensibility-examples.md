@@ -1,6 +1,6 @@
 ---
-title: Auka virkni Talent með því að nota PowerApps og Microsoft Flow - dæmi um atburðarásir
-description: Þetta efnisatriði lýsir sumum dæmum um atburðarás stækkunarhæfni fyrir Microsoft Dynamics 365 Talent sem notar Microsoft PowerApps og Microsoft Flow.
+title: Stækka Talent með Power Apps og Power Automate
+description: Þetta efnisatriði lýsir sumum dæmum um atburðarás stækkunarhæfni fyrir Microsoft Dynamics 365 Talent sem notar Microsoft Power Apps og Microsoft Power Automate.
 author: negudava
 manager: Annbe
 ms.date: 05/01/2019
@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7bc3a18327f2d32770176eddcb7200681f0fb0da
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 3bb61297e294aa3f2d06f542bebe29d7afae9c3b
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008060"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832839"
 ---
-# <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Auka virkni Talent með því að nota PowerApps og Microsoft Flow - dæmi um atburðarásir
+# <a name="extend-talent-with-power-apps-and-power-automate"></a>Stækka Talent með Power Apps og Power Automate
 
-Þetta efnisatriði lýsir sumum dæmum um atburðarás stækkunarhæfni fyrir Microsoft Dynamics 365 Talent sem notar Microsoft PowerApps og Microsoft Flow. Hægt er að flytja lausnapakkann sem tengist hverju dæmi inn í PowerApps-umhverfið. Síðan er hægt að nota pakkana annaðhvort sem leiðarvísi eða sem upphafspunkta til að innleiða atburðarásir sem eiga við um fyrirtækið þitt.
+[!include [banner](includes/banner.md)]
+
+Þetta efnisatriði lýsir sumum dæmum um atburðarás stækkunarhæfni fyrir Microsoft Dynamics 365 Talent sem notar Microsoft Power Apps og Microsoft Power Automate. Hægt er að flytja lausnapakkann sem tengist hverju dæmi inn í Power Apps-umhverfið. Síðan er hægt að nota pakkana annaðhvort sem leiðarvísi eða sem upphafspunkta til að innleiða atburðarásir sem eiga við um fyrirtækið þitt.
 
 > [!IMPORTANT]
 > Ef þú vilt nota sniðmátin og forritið sem lýst er í þessu efnisatriði „eins og það er“, skaltu vera viss um að prófa þau til að ganga úr skugga um þau nái utan um allar atburðarásirnar sem tengjast innleiðingunni þinni.
@@ -36,11 +38,11 @@ ms.locfileid: "2008060"
 ## <a name="prerequisites"></a>Forkröfur
 
 - Til að flytja inn pakka verða notendur að hafa heimildina **Umhverfishönnuður**.
-- Til að flytja forrit út eða inn verða notendur að hafa PowerApps Plan 2 leyfi eða PowerApps Plan 2 prufuleyfi.
+- Til að flytja forrit út eða inn verða notendur að hafa Power Apps Plan 2 leyfi eða Power Apps Plan 2 prufuleyfi.
 
-## <a name="flow--form-connect"></a>Flæði - Tengja skjámynd
+## <a name="power-automate--form-connect"></a>Power Automate - Skjámynd Connect
 
-Sniðmátið **Flæði - Tengja skjámynd** er hægt að nota til að lesa gögn úr Microsoft Forms og vista þau í Common Data Service einingunni.
+Sniðmátið **Power Automate - Skjámynd Connect** er hægt að nota til að lesa gögn úr Microsoft Forms og vista þau í einingunni Common Data Service.
 
 Þetta sniðmát er hægt að framlengja þannig að hægt sé að nota það í öðrum atburðarásum. Hér eru nokkur dæmi:
 
@@ -51,19 +53,19 @@ Sniðmátið **Flæði - Tengja skjámynd** er hægt að nota til að lesa gögn
 
 Í Microsoft Dynamics 365: Attract, skjámyndir geta birst í umsækjendagátt og umsækjendur geta fyllt út upplýsingar. Einnig er hægt að fella inn skjámyndir sem verkþætti í starfssniðmáti.
 
-Þegar umsækjandi sendir inn eyðublað, sækir Microsoft Flow innsent eyðublaðið, les gögnin og geymir þau í Common Data Service-einingunni.
+Þegar umsækjandi sendir inn eyðublað, sækir Microsoft Power Automate innsent eyðublaðið, les gögnin og geymir þau í Common Data Service-einingunni.
 
-Til að niðurhala sniðmátinu **Flæði - Tengja skjámynd** og sérsniðinni skipulagseiningu skal fara í [Flæði - Tengja skjámynd](https://go.microsoft.com/fwlink/?linkid=2081988) í Microsoft Download Center.
+Til að sækja sniðmátið **Power Automate - Skjámynd Connect** og sérsniðna skipulagseiningu skal fara í [Power Automate - Skjámynd Connect](https://go.microsoft.com/fwlink/?linkid=2081988) í Microsoft Download Center.
 
-## <a name="initiate-and-extract-parameters-passed-to-powerapps"></a>Hefja og draga út færibreytur sem sendar eru til PowerApps
+## <a name="initiate-and-extract-parameters-passed-to-power-apps"></a>Hefja og draga út færibreytur sem sendar eru í Power Apps
 
-Sniðmátið **Hefja og draga út færibreytur sem sendar eru til PowerApps** er hægt að nota sem upphafspunkt fyrir allar atburðarásir PowerApps sem miðast við Attract. Það inniheldur allar sjálfgefnu færibreyturnar sem sendar til Attract, t.d. **Starfsumsókn**, **Auðkenni umsækjanda** og **Auðkenni starfs**.
+Sniðmátið **Hefja og draga út færibreytur sem sendar eru til Power Apps** er hægt að nota sem upphafspunkt fyrir allar atburðarásir Power Apps sem miðast við Attract. Það inniheldur allar sjálfgefnu færibreyturnar sem sendar til Attract, t.d. **Starfsumsókn**, **Auðkenni umsækjanda** og **Auðkenni starfs**.
 
 Hægt er að nota þetta sniðmát til að sækja skjámynd fyrir mat á umsækjanda svo að ráðningarstjóri geti skoðað matið sem umsækjandi fyllti út.
 
-Forrit sem eru búin til með því að nota PowerApps geta verið felld inn í starfssniðmátið í Attract.
+Forrit sem eru búin til með því að nota Power Apps geta verið felld inn í starfssniðmátið í Attract.
 
-Til að hlaða niður sniðmátinu **Hefja og draga út færibreytur sem sendar eru til PowerApps** og sérsniðna skipulagseiningu skal fara í [Hefja og draga út færibreytur sem sendar eru til PowerApps](https://go.microsoft.com/fwlink/?linkid=2081991) í Microsoft Download Center.
+Til að hlaða niður sniðmátinu **Hefja og draga út færibreytur sem sendar eru í Power Apps** og sérsniðna skipulagseiningu skal fara í [Hefja og draga út færibreytur sem sendar eru í Power Apps](https://go.microsoft.com/fwlink/?linkid=2081991) í Microsoft Download Center.
 
 ## <a name="integration-with-office-365"></a>Samþætting með Office 365
 
@@ -73,33 +75,33 @@ Forritið **Samþætting við Office 365** er hægt að nota til að draga út u
 
 Til að hlaða niður forritinu **Samþætting við Office 365** og sérsniðnu skipulagseininguna skal fara í [Samþætting við Office 365](https://go.microsoft.com/fwlink/?linkid=2081787) í Microsoft Download Center.
 
-## <a name="flow--email-notification"></a>Flæði - Tilkynning í tölvupósti
+## <a name="power-automate--email-notification"></a>Power Automate – Tölvupósttilkynning
 
-Sniðmátið **Flæði - Tilkynning í tölvupósti** er hægt að nota í atburðarásum tölvupóststilkynningar. Hægt er að nota það til að ræsa tilkynningapósta til umsækjenda sem ráðningarhópurinn hafnar einhvern tímann á stigi ráðningarferlis.
+Sniðmátið **Power Automate - Tilkynning í tölvupósti** er hægt að nota í atburðarásum tölvupóststilkynningar. Hægt er að nota það til að ræsa tilkynningapósta til umsækjenda sem ráðningarhópurinn hafnar einhvern tímann á stigi ráðningarferlis.
 
 Hægt er að stækka sniðmátið til að fylgjast með breytingum á stigi umsækjanda í gegnum ráðningarferlið, og til að senda tilkynningapósta á ráðningarhóp og umsækjanda.
 
 Almennt, fyrir einingar sem eru geymdar í Common Data Service, er hægt að setja upp flæði til að senda tilkynningar á viðburðum sem eiga sér stað í Core HR, Attract eða Onboard.
 
-Til að hlaða niður sniðmátinu **Flæði - Tilkynning í tölvupósti** skal fara í [Flæði - Tilkynning í tölvupósti](https://go.microsoft.com/fwlink/?linkid=2082103) í Microsoft Download Center.
+Til að hlaða niður sniðmátinu **Power Automate - Tilkynning í tölvupósti** skal fara í [Power Automate - Tilkynning í tölvupósti](https://go.microsoft.com/fwlink/?linkid=2082103) í Microsoft Download Center.
 
-## <a name="flow--sql-connect-and-execute"></a>Flæði - Tengja og keyra SQL
+## <a name="power-automate--sql-connect-and-execute"></a>Power Automate - SQL Connect og framkvæmd
 
-Sniðmátið **Flæði - Tengja og keyra SQL** tengist við Microsoft SQL Server og virkjar keyrslu á SQL-fyrirspurnum.
+Sniðmátið **Power Automate - SQL Connect og framkvæmd** tengist við Microsoft SQL Server og virkjar keyrslu á SQL-fyrirspurnum.
 
 Þótt þetta sniðmát sé hannað til að lesa og uppfæra SQL-töflur, er hægt að stækka það til að nota við aðrar kringumstæður. Til dæmis er hægt að nota það til að fylla út millistigsvistunartöflu í Common Data Service með skrám úr SQL-þjóni, og til að gera reglubundna samstillingu á millistigsvistunartöflu með því að nota stigvaxandi færslu úr SQL-þjóni.
 
-Til að hlaða niður sniðmátinu **Flæði - Tengja og keyra SQL** skal fara í [Flæði - Tengja og keyra SQL](https://go.microsoft.com/fwlink/?linkid=2081789) í Microsoft Download Center.
+Til að hlaða niður sniðmátinu **Power Automate - SQL Connect og framkvæmd** skal fara í [Power Automate - SQL Connect og framkvæmd](https://go.microsoft.com/fwlink/?linkid=2081789) í Microsoft Download Center.
 
-## <a name="flow--sharepoint-integration"></a>Flæði - SharePoint Samþætting
+## <a name="power-automate--sharepoint-integration"></a>Power Automate – SharePoint samþætting
 
-Hægt er að nota sniðmátið **Flæði - SharePoint samþætting** til að lesa gögn úr Microsoft SharePoint-lista, bera listann saman við reitagildi fyrir allar Common Data Service-einingar og senda niðurstöður samanburðar sem tilkynningapóst. 
+Hægt er að nota sniðmátið **Power Automate – SharePoint samþætting** til að lesa gögn úr Microsoft SharePoint-lista, bera listann saman við reitagildi fyrir allar Common Data Service-einingar og senda niðurstöður samanburðar sem tilkynningapóst. 
 
 Fyrirtæki gæti verið með einhverja hæfni sem þarf nauðsynlega að uppfylla. Þessa hæfni er hægt að geyma í SharePoint sem SharePoint-lista. Þegar umsækjandi sækir um eitthvað starf þar sem ákveðin hæfni er tekin fram er tilkynningapóstur sendur ef góð samsvörun er milli hæfni umsækjanda og hæfninnar sem geymd er í SharePoint. Þannig er fyllt hraðar upp í stöður sem þarf nauðsynlega að ráða í, því að tilkynningarnar hjálpa ráðningaraðilum að ná til og endurráða umsækjendur innan fyrirtækisins.
 
 Hægt er að stækka þetta sniðmát svo nota megi það fyrir atburðarás sem hefur með SharePoint-samþættingu að gera.
 
-Til að hlaða niður sniðmátinu **Flæði - SharePoint samþætting** skal fara í [Flæði - SharePoint samþætting](https://go.microsoft.com/fwlink/?linkid=2082109) í Microsoft Download Center.
+Til að hlaða niður sniðmátinu **Power Automate - SharePoint samþætting** skal fara í [Power Automate - SharePoint samþætting](https://go.microsoft.com/fwlink/?linkid=2082109) í Microsoft Download Center.
 
 ## <a name="referral-app"></a>Tilvísunforrit
 Hægt er að nota tilvísunarforritið til að bæta við umbjóðendum í sameiginlegt hæfileikasafn. Tilvísandi getur fært inn **Fornafn**, **Eftirnafn**, **Netfang** og **Slóð í LinkedIn** við framlagningu umsækjanda. Lýsigögn umsækjandans eru síðan fyllt út með upplýsingum tilvísunaraðila.

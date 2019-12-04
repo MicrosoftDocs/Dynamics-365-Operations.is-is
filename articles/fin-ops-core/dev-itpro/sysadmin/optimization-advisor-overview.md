@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4e47aea3a9d1ce62a85aac9a4acce398b5847f1b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4bcc6937da0e9f66014d9c00668e0c6790433ba8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191409"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811971"
 ---
 # <a name="optimization-advisor-overview"></a>Yfirlit yfir Fínstillingarráðgjöf
 
@@ -38,7 +38,7 @@ Röng grunnstilling og uppsetning á einingu getur haft neikvæð áhrif á fram
 
 Vinnusvæðið **Fínstillingarráðgjöf** er verkfæri sem leyfir kraftnotendum, viðskiptagreinendum, hagnýtum ráðgjöfum og stuðningsaðgerðir í upplýsingatækni að greina vandamál í grunnstillingu á einingu og viðskiptagögnum. Fínstillingarráðgjöf bendir á bestu starfsvenjur við grunnstillingu á einingu og ber kennsl á viðskiptagögn sem eru úrelt eða röng.
 
-Fínstillingarráðgjöf keyrir reglulega safn af reglum um bestu starfsvenjur. Sjálfgefið reglusett er tiltækt, hins vegar geta notendur einnig stofnað reglur sem eru sérstakar fyrir sérstillingar þeirra, lausnir frá sjálfstæðum hugbúnaðaraðilum og fyrirtækjagögnum. Nánari upplýsingar um hvernig á að stofna reglur eru í [Búa til nýjar reglur](./create-rules-optimization-advisor.md).
+Fínstillingarráðgjöf keyrir reglulega safn af reglum um bestu starfsvenjur. Sjálfgefið reglusett er tiltækt, hins vegar geta notendur einnig stofnað reglur sem eru sérstakar fyrir sérstillingar þeirra, lausnir frá sjálfstæðum hugbúnaðaraðilum og fyrirtækjagögnum. Nánari upplýsingar um hvernig á að stofna reglur eru í [Stofna reglur fyrir Fínstillingarráðgjöf](./create-rules-optimization-advisor.md).
 
 Þegar brot á reglu greinist er búið til fínstillingartækifæri sem birtist á vinnusvæðinu **Fínstillingarráðgjöf**. Notandi getur tekið til viðeigandi aðgerða til úrbóta beint frá vinnusvæðinu **Fínstillingarrágjöf**.
 
@@ -92,6 +92,6 @@ Til að gera mat óvirkt á tilgreindum reglum skal velja tækifærið sem regla
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Stofna nýjar reglur](./create-rules-optimization-advisor.md)
+[Búa til reglur fyrir fínstillingarráðgjöf](./create-rules-optimization-advisor.md)
 
 [Fínstillingarráðgjöf í Dynamics 365 for Finance and Operations (myndband)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

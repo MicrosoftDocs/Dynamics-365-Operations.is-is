@@ -1,5 +1,5 @@
 ---
-title: Setja upp samþættingu með LinkedIn fyrir Microsoft Dynamics 365 Talent - Attract
+title: Setja upp samþættingu LinkedIn við Attract
 description: Þetta efni útskýrir hvernig á að stilla LinkedIn samþættingu fyrir Microsoft Dynamics 365 Talent - Attract svo að þú getir auðveldlega sent inn störf á LinkedIn úr Attract og svo að ráðningaraðilar þínir geti samstillt ráðningarupplýsingar sínar við LinkedIn prófíl umsækjanda.
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5cdce69396d6972d810e65e15b27c79119a0a9e6
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4c518fb7036d44aa52c8db859ee3616fc4e58a06
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552118"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833185"
 ---
-# <a name="set-up-integration-with-linkedin-for-microsoft-dynamics-365-talent---attract"></a>Setja upp samþættingu með LinkedIn fyrir Microsoft Dynamics 365 Talent - Attract
+# <a name="set-up-linkedin-integration-with-attract"></a>Setja upp samþættingu LinkedIn við Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Hjálpaðu ráðningaraðilum þínum og ráðningastjórum að laða að hæfileikafólk með því að stilla LinkedIn samþættingu við Microsoft Dynamics 365 Talent: Attract. Attract gerir þér kleift að birta störf beint á LinkedIn, stærsta faglega netkerfinu.
 
@@ -41,11 +41,11 @@ Attract veitir tvær leiðir til að samþætta við LinkedIn til að hjálpa þ
 Þú stillir báða valkostina á flipanum **LinkedIn-samþætting** í stjórnstöðinni. Til að opna stjórnendamiðstöðina ferðu í <https://attract.talent.dynamics.com/adminsettings>.
 
 > [!NOTE]
-> Til að nota LinkedIn Recruiter samþættingu við Attract þarftu leyfin [Viðbót við alhliða ráðningar](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) og [LinkedIn Recruiter](https://business.linkedin.com/talent-solutions/cx/17/08/recruiter-demo-fs2-k18). Sjá frekari upplýsingar, sjá [Hvaða útgáfa af Attract?](./attract-comprehensive-hiring.md).
+> Til að nota LinkedIn Recruiter samþættingu við Attract þarftu leyfin [Viðbót við alhliða ráðningar](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) og [LinkedIn Recruiter](https://business.linkedin.com/talent-solutions/cx/17/08/recruiter-demo-fs2-k18). Fyrir frekari upplýsingar, sjá [Hvaða útgáfa af Microsoft Dynamics 365 Talent - Attract](./attract-comprehensive-hiring.md).
 
-Ef þú ert í vandræðum með að birta störf á LinkedIn skaltu sjá [Úrræðaleit samþættingar við LinkedIn](./attract-troubleshoot-linkedin.md).
+Ef þú ert í vandræðum með að birta störf á LinkedIn skaltu sjá [Úrræðaleit samþættingar við LinkedIn og Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md).
 
-Fyrir upplýsingar um aðrar leiðir til að birta störf á LinkedIn, sjá [Algengar spurningar umLinkedIn](./attract-linkedin-faq.md).
+Fyrir upplýsingar um aðrar leiðir til að birta störf á LinkedIn, sjá [Samþætting Attract with algengar spurningar um LinkedIn](./attract-linkedin-faq.md).
 
 ## <a name="configure-job-posting-to-linkedin"></a>Stilla starfsbirtingu á LinkedIn
 
@@ -98,7 +98,7 @@ Til að leyfa ráðningaraðilum að finna störf í gegnum LinkedIn Recruiter v
 
 Þú getur leyft umsækjendum að sækja um störf þín með LinkedIn-forstillingum sínum. Fyrir frekari upplýsingar um Sækja um með LinkedIn, sjá [Máttur LinkedIn alls staðar: Sæktu um með LinkedIn](https://blog.linkedin.com/2011/07/24/apply-with-linkedin).
 
-Þessi eiginleiki er í forútgáfu sem stendur. Áður en þú fylgir þessum skrefum skaltu ganga úr skugga um að Sækja um með LinkedIn sé virkt. Nánari upplýsingar um virkjun á forskoðunareiginleikum er að finna í [Fá aðgang að forskoðunareiginleikum í Talent](./access-preview-feature.md).
+Þessi eiginleiki er í forútgáfu sem stendur. Áður en þú fylgir þessum skrefum skaltu ganga úr skugga um að Sækja um með LinkedIn sé virkt. Nánari upplýsingar um virkjun á forskoðunareiginleikum er að finna í [Fá aðgang að forskoðunareiginleikum í Microsoft Dynamics 365 Talent](./access-preview-feature.md).
 
 1. Í **Uppsetning** valmyndinni (táknið fyrir gír) efst í hægra horninu skaltu velja **Stjórnstöð**. Að öðrum kosti geturðu farið á <https://attract.talent.dynamics.com/adminsettings>.
 2. Veldu flipann **Samþætting við LinkedIn**.
@@ -109,12 +109,12 @@ Til að leyfa ráðningaraðilum að finna störf í gegnum LinkedIn Recruiter v
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Algengar spurningar um LinkedIn](./attract-linkedin-faq.md)
+[Algengar spurningar um samþættingu Attract við LinkedIn](./attract-linkedin-faq.md)
 
-[Birta störf á utanaðkomandi svæðum úr Attract](./posting-jobs-external.md)
+[Birta störf á utanaðkomandi atvinnusíðum úr Attract](./posting-jobs-external.md)
 
-[Finna umsækjendur með LinkedIn Recruiter](./attract-linkedin-recruiter.md)
+[Finna umsækjendur með LinkedIn Recruiter í Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
-[Stofna störf](./creating-jobs-attract.md)
+[Búa til, samþykkja og birta störf í Attract](./creating-jobs-attract.md)
 
-[Úrræðalaeit samþættingar við LinkedIn](./attract-troubleshoot-linkedin.md)
+[Úrræðaleit samþættingar við LinkedIn og Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9eef9d8c58d19b05901035f4c679ee7d9902819
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8196ddc879df1f398aabef0c1c4064bf0d4fff2c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178261"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771921"
 ---
 # <a name="set-up-fixed-assets"></a>Uppsetning eigna
 
@@ -51,7 +51,7 @@ Eftir að setja upp afskriftareglur, verður að stofna nauðsynleg bækur fyrir
 
 Aðalafskriftaregla er úthlutað á hvert bók. Bækur hafa einnig afskriftareglu umskipta, ef þessa gerð forstillingar á við. Til að láta hafa eignabók sjálfkrafa með í keyrslum afskrifta, þarf að virkja á **Reikna afskrift** valkostur. Ef þessi valkostur er ekki virkur fyrir eign sleppir afskriftartillagan eigninni.
 
-Einnig hægt að setja upp afleiddar bækur. Tilgreindar afleiddar færslur eru bókaðar á móti afleiddu bókunum sem nákvæm afrit af aðalfærslunni. Þar af leiðandi eru afleiddra færslna yfirleitt settir upp fyrir kaup og losanir, en ekki fyrir afskriftarfærslur. Nánari upplýsingar um það eru í [Setja upp bækur](tasks/set-up-value-models.md).
+Einnig hægt að setja upp afleiddar bækur. Tilgreindar afleiddar færslur eru bókaðar á móti afleiddu bókunum sem nákvæm afrit af aðalfærslunni. Þar af leiðandi eru afleiddra færslna yfirleitt settir upp fyrir kaup og losanir, en ekki fyrir afskriftarfærslur. Nánari upplýsingar um það eru í [Setja upp virðislíkön](tasks/set-up-value-models.md).
 
 ## <a name="fixed-asset-posting-profiles"></a>Bókunarreglur eigna
 

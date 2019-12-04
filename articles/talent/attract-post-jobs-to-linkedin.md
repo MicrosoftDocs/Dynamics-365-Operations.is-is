@@ -1,5 +1,5 @@
 ---
-title: Birta störf á LinkedIn úr Microsoft Dynamics 365 Talent - Attract
+title: Birta störf á LinkedIn úr Attract
 description: Þetta efnisatriði útskýrir hvernig á að nota Dynamics 365 Talent - Attract til að birta störf á LinkedIn.
 author: andreabichsel
 manager: AnnBe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: e2b8065fe2521694efb30478a5a41676cff45127
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 782a2e5de6edf0e85c4d32a0910f5f3c01981a01
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551496"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833002"
 ---
-# <a name="post-jobs-to-linkedin-from-microsoft-dynamics-365-talent---attract"></a>Birta störf á LinkedIn úr Microsoft Dynamics 365 Talent - Attract
+# <a name="post-jobs-to-linkedin-from-attract"></a>Birta störf á LinkedIn úr Attract
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 LinkedIn er stærsta faglega netkerfið, sem veitir þér aðgang að helsta hæfileikafólki heimsins. Microsoft Dynamics 365 Talent: Attract hjálpar þér að ná því hæfileikafólki sem þú þarft með því að gera þér kleift að birta störf þín beint úr Attract á LinkedIn.
 
@@ -46,7 +46,7 @@ Eftirfarandi tafla sýnir aðgerðirnar sem þú getur framkvæmt á LinkedIn, a
 
 Nánari upplýsingar um notandahlutverk í Attract, sjá [Öryggi og hlutverkastjórnun í Attract](./security-attract.md).
 
-Ef þú ert stjórnandi og þarft frekari upplýsingar um hvernig á að stilla LinkedIn samþættingu við Attract, sjáðu þá [Setja upp samþættingu við LinkedIn](./attract-admin-linkedin.md).
+Ef þú ert stjórnandi og þarft frekari upplýsingar um hvernig á að stilla LinkedIn samþættingu við Attract, sjáðu þá [Setja upp samþættingu við LinkedIn fyrir Dynamics 365 Talent - Attract](./attract-admin-linkedin.md).
 
 Störf sem eru auglýst á LinkedIn birtast á LinkedIn-svæðinu. LinkedIn er ekki með prófunarumhverfi til að birta störf. Þess vegna skaltu ganga úr skugga um að þú birtir engin prófunarstörf óvart.
 
@@ -67,15 +67,15 @@ Eftir að LinkedIn lýkur við birtinguna sýnir hlutinn **Birtingar** fyrir sta
 
 Allar starfsbirtingar sem eru gerðar í gegnum Attract eru takmarkaðar skráningar. Fyrir frekari upplýsingar um takmarkaðar skráningar á LinkedIn, sjá [Takmörkuð birting vs úrvalsstörf á lausu fyrir „starfspakka“](https://www.linkedin.com/help/recruiter/answer/79049).
 
-Ef þú ert í vandræðum með að birta störf á LinkedIn skaltu sjá [Úrræðaleit fyrir birtingu starfa á LinkedIn](./attract-troubleshoot-linkedin.md).
+Ef þú ert í vandræðum með að birta störf á LinkedIn skaltu sjá [Úrræðaleit samþættingar við LinkedIn og Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md).
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Algengar spurningar um LinkedIn](./attract-linkedin-faq.md)
+[Algengar spurningar um samþættingu Attract við LinkedIn](./attract-linkedin-faq.md)
 
-[Setja upp samþættingu með LinkedIn](./attract-admin-linkedin.md)
+[Setja upp samþættingu með LinkedIn fyrir Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md)
 
-[Stofna störf](./creating-jobs-attract.md)
+[Búa til, samþykkja og birta störf í Attract](./creating-jobs-attract.md)
 
 [Finna umsækjendur með LinkedIn Recruiter](./attract-linkedin-recruiter.md)
 

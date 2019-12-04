@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43700d68587cebfb4f897c8a5b619dd4771cc439
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e55ab83302cc75b1a9d9d3e4f06d2258697b31fc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181313"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771215"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formúluhönnuður í rafrænni skýrslugerð (ER)
 
@@ -773,9 +773,9 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 
 ### <a name="functions-list-extension"></a>Viðbót við lista yfir virkni
 
-Rafræn skýrslugerð styður möguleikann á að útvíkka listann yfir aðgerðir sem eru notaðar í segðir rafrænnar skýrslugerðar. Þetta krefst smá verkfræðikunnáttu. Fyrir ítarlegar upplýsingar sjá [Útvíkka listann fyrir aðgerðir rafrænnar skýrslugerðar](general-electronic-reporting-formulas-list-extension.md)
+Rafræn skýrslugerð styður möguleikann á að útvíkka listann yfir aðgerðir sem eru notaðar í segðir rafrænnar skýrslugerðar. Þetta krefst smá verkfræðikunnáttu. Fyrir ítarlegar upplýsingar sjá [Útvíkka listann fyrir aðgerðir rafrænnar skýrslugerðar (ER)](general-electronic-reporting-formulas-list-extension.md).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-- [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
+- [Yfirlit yfir rafræna skýrslugerð (ER)](general-electronic-reporting.md)
 - [Útvíkka listann yfir aðgerðir Rafrænnar skýrslugerðar](general-electronic-reporting-formulas-list-extension.md)

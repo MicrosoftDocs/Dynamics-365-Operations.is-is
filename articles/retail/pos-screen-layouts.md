@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c4636f5a023786e3871eb5d907e2e9546181827a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025274"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811781"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Skjáútlit fyrir sölustað (POS)
 
@@ -171,7 +171,7 @@ Hnappahnit hönnuður gerir þér kleift að grunnstilla hnappahnit sem hægt er
 
     - **Aðgerð** - Í listanum yfir viðeigandi POS aðgerðir, veldu þá aðgerð sem er kölluð fram þegar smellt er á hnappurinn í POS.
 
-        Til að sjá lista yfir studdar POS aðgerðir, skoðaðu [POS-aðgerðir, á netinu og utan nets](pos-operations.md).
+        Til að sjá lista yfir studdar POS aðgerðir, skoðaðu [Sölustaðaaðgerðir (POS) á netinu og utan nets](pos-operations.md).
 
     - **Færibreytur aðgerðar** - Sumar POS aðgerðir nota viðbótar færibreytur þegar þær eru kallaðar fram. Til dæmis, fyrir aðgerðina að bæta við vöru, geta notendur tilgreint vöruna sem á að bæta við.
     - **Hnappatexti** - Tilgreindu textann sem birtist á hnappinum í POS.
@@ -193,4 +193,4 @@ Hnappahnit hönnuður gerir þér kleift að grunnstilla hnappahnit sem hægt er
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Uppsetning útlitshönnunarbúnaðar Retail POS](install-pos-layout-designer.md)
+[Setja upp útlitshönnuð smásöluverslunar (POS)](install-pos-layout-designer.md)

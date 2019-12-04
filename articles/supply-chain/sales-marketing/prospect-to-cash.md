@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1a96b7cfa57ec72b25f21d94fadb2fbf9bc6ea3b
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: fb5abb983811ce736e3494bc85e8d9b23a2e373c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251360"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814076"
 ---
 # <a name="prospect-to-cash"></a>Viðfang til sjóðstreymis
 
@@ -36,12 +36,12 @@ Frekari upplýsingar um samþættingu Prospect to cash er hægt að skoða í st
 
 Í núverandi útgáfu býður Prospect to cash lausnin upp á eftirfarandi gerðir af beinni samstillingu:
 
-- [Viðhalda reikningum í Sales og samstilla þá beint úr Sales við Supply Chain Management](accounts-template-mapping-direct.md)
-- [Viðhalda afurðum í Supply Chain Management og samstilla þær beint við Sales](products-template-mapping-direct.md)
-- [Vinna með tengiliði í Sales og samstilla þá beint við tengiliði eða viðskiptavini í Supply Chain Management](contacts-template-mapping-direct.md)
-- [Samstilla sölutilboð beint úr Sales við Supply Chain Management](sales-quotation-template-mapping-sales-fin.md)
-- [Samstilla sölupantanir beint á milli Sales og Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
-- [Samstilla sölureikning beint úr Supply Chain Management við Sales](sales-invoice-template-mapping-direct.md)
+- [Samstilla lykla beint úr Sales við viðskiptavini í Supply Chain Management](accounts-template-mapping-direct.md)
+- [Samstilla vörur beint úr Sales við viðskiptavini í Supply Chain Management við vörur í Sales](products-template-mapping-direct.md)
+- [Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Supply Chain Management](contacts-template-mapping-direct.md)
+- [Samstilla hausa og línur sölutilboðs beint úr Sales í Supply Chain Management](sales-quotation-template-mapping-sales-fin.md)
+- [Samstilling sölupantana beint á milli Sales og Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
+- [Samstilla hausa og línur sölureiknings beint úr Supply Chain Management í Sales](sales-invoice-template-mapping-direct.md)
 
 ## <a name="system-requirements-for-supply-chain-management"></a>Kerfiskröfur fyrir Supply Chain Management
 Prospect to cash samþætting er studd í eftirfarandi útgáfum:

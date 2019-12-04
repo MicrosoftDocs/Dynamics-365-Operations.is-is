@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3251368e92eb2e24eb9e64bb615027d038ff660
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 11f6c96cc07c63d2c0c6a94385916b3396a77ed5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251086"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814974"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>Skilgreining svæðaheita í vöruhúsaforriti
 
@@ -32,7 +32,8 @@ ms.locfileid: "2251086"
 
 Þetta efnisatriði lýsir því hvernig á að skilgreina og grunnstilla reitaheiti og forgang í vöruhúsaforriti Dynamics 365 Supply Chain Management. 
 
-**Ábending:** Þetta efnisatriði á við aðgerðir í vöruhúsakerfi. Það á ekki við um aðgerðir í birgðastjórnun. Warehousing er forrit sem hægt er að nota í framkvæmd vöruhúsaverkefna. Hægt er að skilgreina og grunnstilla reitarheiti sem eru notuð í forritinu, ásamt því að grunnstilla forgang sem reitarheitum ætti að vera úthlutað eftir. Þetta efnisatriði útskýrir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang í vöruhúsaforriti og hvernig þau eru notuð í Warehousing. Nákvæmar upplýsingar um hvernig á að skilgreina tengingu við FWarehousing má sjá í sýnidæminu [Setja upp og skilgreina Warehousing](install-configure-warehousing-app.md).
+> [!NOTE]
+> Þetta efnisatriði á við aðgerðir í vöruhúsakerfi. Það á ekki við um aðgerðir í birgðastjórnun. Warehousing er forrit sem hægt er að nota í framkvæmd vöruhúsaverkefna. Hægt er að skilgreina og grunnstilla reitarheiti sem eru notuð í forritinu, ásamt því að grunnstilla forgang sem reitarheitum ætti að vera úthlutað eftir. Þetta efnisatriði útskýrir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang í vöruhúsaforriti og hvernig þau eru notuð í Warehousing. Nákvæmar upplýsingar um hvernig á að skilgreina tengingu við FWarehousing má sjá í sýnidæminu [Setja upp og skilgreina forritið Warehousing](install-configure-warehousing-app.md).
 
 ## <a name="configure-warehouse-app-field-names"></a>Grunnstilla reitarheiti vöruhúsaforrits
 
@@ -142,4 +143,4 @@ Eftirstandandi lýsigögn, til dæmis, Staðsetning, verða ekki birt á verkefn
 <a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Setja upp og skilgreina Microsoft Dynamics 365 for Finance and Operations – Vörugeymslu](install-configure-warehousing-app.md)
+[Yfirlit yfir uppsetningu og skilgreiningu vöruhúsaforrits](install-configure-warehousing-app.md)

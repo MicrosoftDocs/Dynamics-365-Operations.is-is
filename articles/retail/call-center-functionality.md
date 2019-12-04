@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 2e44770af4a30f539e56d38b21c897cacd2707e7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025772"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812340"
 ---
 # <a name="call-center-sales-functionality"></a>Söluvirkni símavers
 
@@ -44,17 +44,17 @@ Auk þess að styðja við stofnun pöntunar býður kerfiseining símavers einn
 
 ## <a name="configure-the-call-center"></a>Grunnstilla símaverið
 
-[Uppsetning valkosta pantanavinnslu](set-up-order-processing-options.md)
+[Setja upp símaversrásir](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Grunnstilla pöntunarvinnslu
 
-[Uppsetning svikaviðvarana](set-up-fraud-alerts.md)
+[Setja upp og vinna með viðvaranir vegna svika fyrir símaver](set-up-fraud-alerts.md)
 
-[Handvirk biðstaða pantana](work-with-order-holds.md)
+[Skilgreina og vinna með símaverspantanir í bið](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Grunnstilla greiðsluvinnslu
 
-[Greiðsluhættir í símaveri](work-with-payments.md)
+[Greiðslumátar í símaverum](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Grunnstilla afhendingarmáta
 
@@ -64,8 +64,8 @@ Auk þess að styðja við stofnun pöntunar býður kerfiseining símavers einn
 
 [Vörulistar símavers](call-center-catalogs.md)
 
-[Uppsetning RFM-greiningar](set-up-rfm-analysis.md)
+[Setja upp greiningu nýleika-, tíðni- og peningastigs (RFM)](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Grunnstilla samfelldniáætlun
 
-[Uppsetning samfelldniáætlunar fyrir símaver](set-up-continuity-program.md)
+[Setja upp samfelldniáætlanir fyrir símaver](set-up-continuity-program.md)

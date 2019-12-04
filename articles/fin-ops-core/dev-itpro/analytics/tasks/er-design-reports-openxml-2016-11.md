@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1229c89f43f9ded955dadf2f4d87825c9ab4e71
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182578"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769856"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>Rafræn skýrslugerð Hanna skilgreiningu til að mynda skýrslur á OPENXML-sniði (nóvember 2016)
 
@@ -36,7 +36,7 @@ Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Hlaða upp skilgreiningu greiðslugagnalíkans.
 1. Farðu í **Einingar > Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð**.
-2. Í listanum merkirðu skilgreiningarveitu fyrir dæmi um fyrirtæki, veljið Litware, Inc. Ef þessi skilgreiningarveita sést ekki verður fyrst að ljúka við skrefin í [Stofna skilgreiningarveitu og merkja hana sem virka](er-configuration-provider-mark-it-active-2016-11.md).
+2. Í listanum merkirðu skilgreiningarveitu fyrir dæmi um fyrirtæki, veljið Litware, Inc. Ef þessi skilgreiningarveita sést ekki verður fyrst að ljúka við skrefin í [Stofna skilgreiningarveitur og merkja þær sem virkar](er-configuration-provider-mark-it-active-2016-11.md).
 3. Veldu **Stilla sem virkt**.
 4. Veldu **Geymslur**. Velja gagnasafn fyrir gerðina Rekstrartilföng, ef tiltækur. Ef hennar er tiltæk, sleppa eftirfarandi skref um stofnun nýja gagnasafns.  
 5. Veldu **Bæta við** til að opna felligluggann.

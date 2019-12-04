@@ -3,7 +3,7 @@ title: Úrvinnsla á framleiðsluþyngd afurðar með vöruhúsakerfi
 description: Þetta efnisatriði lýsir hvernig eigi að nota vinnusniðmát og staðsetningarleiðbeiningar til að ákvarða hvernig og hvar vinna verður framkvæmd í vöruhúsinu.
 author: perlynne
 manager: AnnBe
-ms.date: 08/19/2019
+ms.date: 11/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 5800f95de0ec773f40c506662a031887810b8c92
+ms.sourcegitcommit: db222a1719d4756d9ccb73fc71e7eaf4521c23a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887136"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2696640"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Úrvinnsla á framleiðsluþyngd afurðar með vöruhúsakerfi
 
@@ -181,7 +181,7 @@ Virkni fyrir merki framleiðsluþyngdar er aðeins studd eins og er sem hluti af
 - Við vinnslu á birgðastöðubreytingu með því að nota vöruhúsaforritið.
 - Þegar vöruhúsaflutningur er gerður með því að nota vöruhúsaforritið.
 - Við vinnslu leiðréttingar á inn- og útleið í gegnum vöruhúsaforritið.
-- Þegar unnið er úr tiltektarvinnu fyrir sölu- og flutningspantanir. (Athugaðu að ekki er hægt að skrá merki framleiðsluþyngdar fyrir tiltekt á íhlutum framleiðslu.)
+- Þegar unnið er úr tiltektarvinnu fyrir útsölu, flutning og framleiðslulínur.
 - Þegar tínt magn er minnkað í farmlínum, óháð því hvort gámar eru notaðir.
 - Þegar afurðir eru pakkaðar í gáma á pökkunarstöð.
 - Þegar gámar eru enduropnaðir.

@@ -3,7 +3,7 @@ title: Frestuð vinnsla vöruhúsavinnu
 description: Þetta efnisatriði lýsir virkni sem gerir frestaða vinnslu vörugeymsluaðgerða tiltæka í Dynamics 365 Supply Chain Management.
 author: josaw1
 manager: AnnBe
-ms.date: 06/17/2019
+ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b67b3899a506c02b581d04f51691cb4408ee012e
+ms.sourcegitcommit: 0af4caa9f5ea6f6c1d1f4b30090e02e7f755df36
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026924"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2815789"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Frestuð vinnsla vöruhúsavinnu
 
@@ -30,7 +30,6 @@ ms.locfileid: "2026924"
 [!include [banner](../includes/pivate-preview-banner.md)]
 
 Þetta efnisatriði lýsir virkni sem gerir frestaða vinnslu vörugeymsluaðgerða tiltæka í Dynamics 365 Supply Chain Management.
-
 
 Frestuð vinnsluvirkni gerir vöruhússtarfsmönnum kleift að halda áfram að vinna önnur verk meðan aðgerðin er unnin í bakgrunni. Frestuð vinnsla er gagnleg þegar vinna þarf margar vinnulínur og starfsmaðurinn getur látið vinna þá vinnu ósamstillta. Það er einnig gagnlegt þegar netþjónninn getur haft tilfallandi eða óáætlaða aukningu á vinnslutíma og aukinn vinnslutími getur haft áhrif á framleiðni notandans.
 
@@ -50,6 +49,8 @@ Reglur eru stilltar á síðunni **Reglur um verkvinnslu**. Eftirfarandi tafla l
 | Aðferð vinnuferlisins          | Aðferðin sem notuð er til að vinna verklínuna. Ef aðferðin er stillt á **Strax** líkist hegðunin hegðuninni þegar engar verkvinnslureglur eru notaðar til að vinna línuna. Ef aðferðin er stillt á **Frestað** er frestuð vinnsla sem notar lotu ramma notuð. |
 | Þröskuldur fyrir frestað ferli   | Gildi **0** (núll) gefur til kynna að enginn þröskuldur sé til staðar. Í þessu tilfelli er frestuð vinnsla notuð ef hægt er að nota hana. Ef sérstakur þröskuldur útreiknings er undir viðmiðunarmörkum, er tafarlausa aðferðin notuð. Annars er frestuð aðferð notuð ef hægt er að nota hana. Fyrir sölu og flutningstengda vinnu er þröskuldurinn reiknaður sem fjöldi tilheyrandi upphleðslulína sem eru í vinnslu vegna verksins. Fyrir endurnýjunarvinnu er þröskuldurinn reiknaður sem fjöldi vinnulína sem verið er að endurnýja af verkinu. Með því að setja þröskuld á t.d. **5** fyrir sölu munu smærri verk sem eru með færri en fimm upphafsleðslulínur ekki nota frestaða vinnslu, en stærri verk munu nota það. Þröskuldurinn hefur aðeins áhrif ef vinnuvinnsluaðferðin er stillt á **Frestað**. |
 | Frestun vinnslu á runuhóp |Runuhópurinn sem er notaður við úrvinnslu. |
+
+Við frestaða söluvinnslu eru eftirfarandi verkbeiðnigerðir studdar: sölupöntun, útgáfu flutningspöntunar og endurnýjun.
 
 ## <a name="assigning-the-work-creation-policy"></a>Að úthluta stefnu um sköpun vinnu
 
@@ -99,7 +100,7 @@ Verkefnalistanum er eytt þegar verkefninu var lokað.
 - Handvirk vinnulok eru notuð.
 - Vinnunni er lokið með því að nota sjálfvirka útfyllingu.
 - Endurskoðunarsniðmát eru notuð.
-- Verkið notar gámar.
+
 
 ## <a name="monitoring-the-deferred-processing-tasks-from-the-outbound-work-monitoring-workspace"></a>Vöktun á frestuðum vinnsluverkefnum frá vinnusviði vöktunar á vinnu á útleið
 

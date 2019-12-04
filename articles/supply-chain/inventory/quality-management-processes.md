@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22372bd2d42b526d10e39174e7fb5ec5281d1b73
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 544721af404775a6d8b65628848caa84ceaebe30
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572789"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813825"
 ---
 # <a name="quality-management-processes"></a>Gæðastjórnunarferli
 
@@ -90,14 +90,14 @@ Góð hugmynd er að skilgreina einkvæma skjalgerð fyrir ósamkvæmni með þv
 <a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Virkja Gæðastjórnun](enable-quality-management.md)
+[Gæðastjórnunaryfirlit](enable-quality-management.md)
 
-[Virkja stjórnun ósamkvæmni](enable-nonconformance-management.md)
+[Stjórnun ósamkvæmi](enable-nonconformance-management.md)
 
-[Stöðvun í birgðum](inventory-blocking.md)
+[Birgðalæsing](inventory-blocking.md)
 
 [Biðgeymslupantanir](quarantine-orders.md)
 
-[Setja upp gæðapantanir (verkleiðbeiningar)](tasks/set-up-quality-orders.md)
+[Setja upp gæðapantanir](tasks/set-up-quality-orders.md)
 
-[Skoða gæði vara (verkleiðbeiningar)](tasks/inspect-quality-goods.md)
+[Skoða gæði vara](tasks/inspect-quality-goods.md)

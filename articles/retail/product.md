@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c78fc1f2f1bb08d01828a8b71ad5d3c16ad31b86
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 98c84e987c40adf136d0240117f7b0f119bf2f59
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278382"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811118"
 ---
 # <a name="product-recommendations-on-pos"></a>Afurðaráðleggingar í POS
 
@@ -40,13 +40,13 @@ Vöruráðleggingar eru virkjaðar fyrir eftirfarandi aðstæður sölustaðar. 
 
 1. Á síðunni **Upplýsingar um afurð**:
 
-    - • Ef aðili tengdur verslun fer á síðuna **Upplýsingar um afurð** þegar hann skoðar fyrri færslur þvert á mismunandi rásir stingur þjónustan upp á fleiri vörum sem eru líklegar til að vera keyptar saman.
+    - Ef aðili tengdur verslun fer á síðuna **Upplýsingar um afurð** þegar hann skoðar fyrri færslur þvert á mismunandi rásir stingur þjónustan upp á fleiri vörum sem eru líklegar til að vera keyptar saman.
 
     [![Meðmæli á upplýsingasíðu afurðar](./media/proddetails.png)](./media/proddetails.png)
 
 2. Á síðunni **Færsla**:
 
-    - • Ráðgjafarvélin leggur til hluti sem byggja á öllum listanum yfir hluti í körfunni sem oft eru keyptir saman.
+    - Ráðgjafarvélin leggur til hluti sem byggja á öllum listanum yfir hluti í körfunni sem oft eru keyptir saman.
 
     > [!NOTE]
     > Til að birta ráðleggingar á síðunni **Færsla** þarf smásöluaðilinn að uppfæra skjáútlitið í Dynamics 365 for Retail. Sleppa verður stýringunni **Ráðleggingar** á síðuna **Færsla**.
@@ -69,10 +69,12 @@ Til að setja upp vöruráðleggingar skal fylgja þessum skrefum:
 
 - Flettið upp á **Smásölufæribreytur** \> **Ráðleggingalistar** \> **Slökkva á ráðleggingum um vörur** og keyrið **Altæka skilgreiningarvinnslu \[9999\]**. 
 - Ef **Stýringu ráðleggingar** var bætt við færsluskjáinn með því að nota **Útlitshönnun afgreiðsluskjás** skaltu fjarlægja hana líka.
-- Ef þú hefur frekari spurningar skaltu skoða [Algengar spurningar um tillögur](../commerce/faq-recommendations.md) fyrir meiri upplýsingar.
+- Ef þú hefur frekari spurningar skaltu skoða [Algengar spurningar um afurðaráðleggingar](../commerce/faq-recommendations.md) fyrir meiri upplýsingar.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Bættu ráðleggingastjórnun við viðskiptasíðuna í POS-tæki](add-recommendations-control-pos-screen.md)
-[Yfirlit vöru tilmæla](../commerce/product-recommendations.md)
-[Virkja tillögur um vöru](../commerce/enable-product-recommendations.md) 
+[Bæta stýringu ráðleggingar á færsluskjá á sölustaðartækjum](add-recommendations-control-pos-screen.md)
+
+[Yfirlit yfir afurðarráðleggingar](../commerce/product-recommendations.md)
+
+[Virkja ráðleggingar um afurðir](../commerce/enable-product-recommendations.md) 

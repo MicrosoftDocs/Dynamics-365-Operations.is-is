@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0aeaa1ee4c35ca42a5382b3c7ff3519cba52996c
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 302ac0f456dd8a24dc02948ee657e359f5a9c844
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250531"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770336"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Samstilla rauntölur verks beint frá Project Service Automation til færslubókar verksamþættingar til að bóka í Finance and Operations
 
@@ -50,7 +50,7 @@ Eftirfarandi skýringarmynd sýnir hvernig gögnin eru samstillt milli Project S
 
 ### <a name="template-and-tasks"></a>Sniðmát og verkefni
 
-Til að fá aðgang að tiltækum sniðmátum, í stjórnendamiðstöð Microsoft PowerApps, skal velja **Verk** og síðan í efra hægra horninu skal velja **Nýtt verk** til að velja almenn sniðmát.
+Til að fá aðgang að tiltækum sniðmátum, í stjórnendamiðstöð Microsoft Power Apps, skal velja **Verk** og síðan í efra hægra horninu skal velja **Nýtt verk** til að velja almenn sniðmát.
 
 Eftirfarandi sniðmát og undirliggjandi verk eru notuð til að samstilla raunverk úr Project Service Automation við Finance:
 

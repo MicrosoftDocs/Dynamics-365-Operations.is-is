@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7be41e724cb715e4b7c9077bb30d26b2bd4899dd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c5401f310138d19f78412dff318959414c31a191
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181911"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770024"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Skilgreina rafræna skýrslugerð (ER) til að draga gögn inn í Power BI
 
@@ -184,7 +184,7 @@ Smellið á **Stillingar** hnappinn fyrir nýja færslu áfangastaðar. Síðan,
     [![Uppfært kort](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
 ## <a name="access-power-bi-report-in-finance"></a>Aðgangur Power BI-skýrslu í Finance
-Setja upp samþættingu við Power BI. Nánari upplýsingar, sjá [Skilgreining samþættingar Power BI fyrir vinnusvæði](configure-power-bi-integration.md).
+Setja upp samþættingu við Power BI. Nánari upplýsingar, sjá [Skilgreina samþættingu Power BI fyrir vinnusvæði](configure-power-bi-integration.md).
 
 1. Á vinnusvæðissíðunni **Rafræn skýrslugerð** sem styður samþættingu Power BI (**Fyrirtækisstjórnun** &gt; **Vinnusvæði** &gt; **Vinnusvæði rafrænnar skýrslugerðar**) skal smella á **Valkostir** &gt; **Opna skýrslulista**.
 2. Velja skal **Upplýsingar um Innflutning og útflutning** Power BI skýrsluna sem þú stofnaðir, til að sýna þá skýrslu sem aðgerðaratriði á valinni síðu.
@@ -194,6 +194,6 @@ Setja upp samþættingu við Power BI. Nánari upplýsingar, sjá [Skilgreining 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Viðtökustaðir rafrænnar skýrslugerðar](electronic-reporting-destinations.md)
+[Áfangastaðir rafrænnar skýrslugerðar (ER)](electronic-reporting-destinations.md)
 
-[Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
+[Yfirlit yfir rafræna skýrslugerð (ER)](general-electronic-reporting.md)

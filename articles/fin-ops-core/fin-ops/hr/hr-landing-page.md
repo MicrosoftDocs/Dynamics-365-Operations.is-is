@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9db36b528de097aae613a5fbf5ee94f4cc79a0f
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: f701a61a718469023dfa57c160229108afeb421c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553164"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812437"
 ---
 # <a name="human-resources-overview"></a>Mannauðsyfirlit
 
@@ -45,15 +45,15 @@ Hægt er að nota „Mannauður“ til að ljúka þessum verkum:
 
 Þegar unnið er með „Mannauður“ þarf að ákveða skipulag fyrirtækisins með notkun eininga á borð við deildir, störf og stöður. Þetta er nokkrar af grunneiningunum sem skilgreina þarf í mannauðsstjórnuninni. Starfsmönnum er úthlutað stöðum sem tengjast störfum.
 
-- [Vinnuafl skipulagt með notkun deilda, starfa og staða](../../../talent/departments-jobs-positions.md)
-- [Uppsetning sérstakra mannauðsfæribreyta fyrir fyrirtæki](../../../talent/set-up-company-specific-hr-parameters.md)
-- [Uppsetning mannauðsfæribreyta þvert á lögaðila](../../../talent/set-up-hr-parameters-across-legal-entities.md)
+- [Skipuleggja starfsfólk með því að nota deildir, störf og stöður](../../../talent/departments-jobs-positions.md)
+- [Setja upp færibreytur mannauðs bundnar tilteknu fyrirtæki](../../../talent/set-up-company-specific-hr-parameters.md)
+- [Setja upp færibreytur mannauðs (HR) á milli lögaðila](../../../talent/set-up-hr-parameters-across-legal-entities.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Ráðning og umbun starfsmanna
 
 Ráðningarverk stýra því hvað birtist í auglýsingum um opnar stöður og koma að gagni við meðhöndlun umsókna um störf. Hægt er að nota þau til að rekja viðbrögð við auglýstum störfum fyrir tiltekið ráðningarverk eða tiltekna umsækjendur og uppfæra stöðu auglýstra starfa. Einnig er hægt að ráða einn umsækjanda eða stjórna fjöldaráðningarverkum sem fela í sér ráðningu fjölda starfskrafta, t.d. til að anna árstíðabundnum þörfum.
 
-- [Stjórnun ráðningarferlis](manage-recruiting-process.md)
+- [Stjórna ráðningarferlum](manage-recruiting-process.md)
 - [Fjöldaráðningarverk](mass-hire-projects.md) 
 
 Eftir ráðningu starfsmanna er hægt að setja upp áætlanir fyrir skilvirka og sanngjarna launaumsýslu og stjórnun atriða á borð við tölvur og síma sem fyrirtækið úthlutar starfsfólki sínu. Hægt er að stofna launafyrirkomulag fastra og breytilegra launa, auk þess að skilgreina reglur sem tryggja að launafyrirkomulagið uppfylli skilyrði áætlunarinnar.
@@ -67,30 +67,30 @@ Eftir ráðningu starfsmanna er hægt að setja upp áætlanir fyrir skilvirka o
 Hægt er að veita starfsfólki stuðning við að ná markmiðum sínum í starfi um leið og það skilar sínu hlutverki við rekstur fyrirtækisins með því að setja upp markmið, skipuleggja frammistöðumat og rekja endurgjöf. Einnig er hægt að setja upp leiðbeinendur, námskeiðsgerðir, námskeið, námskeiðslýsingar, dagskrár, námsleiðir og lotur sem gera starfsmönnum kleift að öðlast viðeigandi hæfni áður en leiðbeinanda er úthlutað á námskeið eða fólk er skráð í námskeið. Leiðbeinendur þurfa að hafa verið settir upp sem starfskraftar, umsækjendur eða tengiliðir.
 
 - [Árangursstjórnun](../../../talent/performance-management-overview.md)
-- [Samþætting hæfni starfsfólks og rekstrarþarfa](../../../talent/skills.md)
-- [Þjálfun með námskeiðum](../../../talent/courses.md)
+- [Samþætting hæfni starfsfólks við rekstrarþarfir](../../../talent/skills.md)
+- [Uppsetning námskeiða](../../../talent/courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>Stofnun og viðhald fríðinda
 
 Auk þess að greiða starfsfólki laun og bónusa er hægt að koma á fót fríðindaáætlunum á borð við heilbrigðistryggingar og eftirlaunasjóði. Einnig er hægt að stjórna fríðindum á borð við lánsáætlanir þar sem fyrirtækið lánar starfsmönnum sínum hluti, t.d. tölvur og síma.
 
-- [Stjórnun fríðindaáætlunar](../../../talent/manage-benefit-program.md)
+- [Skilgreina og stjórna fríðindaáætlun](../../../talent/manage-benefit-program.md)
 - [Stefnur um hæfni til fríðinda](../../../talent/benefit-eligibility-policies.md)
-- [Stjórnun hluta sem starfskraftar fá lánaða](../../../talent/loan-items.md)
+- [Stjórna atriðum sem eru lánaðar til starfskrafta](../../../talent/loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Viðhald öryggis og reglufylgni á vinnustað
 
 Microsoft Dynamics AX getur hjálpað þér við að viðhalda öruggu vinnuumhverfi sem er í samræmi við gildandi lög, þar á meðal Bandaríkjamenn með fötlunarlög og meðal annars innflytjenda og lög um náttúruvernd. Til dæmis er hægt að stýra kröfum um líkamlegt atgervi fyrir tiltekin störf sem og að rekja beiðnir um breytingar sem gera fyrirtækinu kleift að fullnýta hæfni starfsfólksins.
 
-- [Staðfesting starfs með I-9 eyðublaði](localizations/noam-usa-form-i-9-verification.md)
-- [Eftirfylgni við lögin „Americans with Disabilities“](localizations/noam-usa-comply-ada.md)
-- [Rekja frítíma fyrir FMLA](localizations/noam-usa-track-time-for-fmla.md)
+- [Staðfesting I-9 eyðublaðs](localizations/noam-usa-form-i-9-verification.md)
+- [Eftirfylgni við lögin „Americans with Disabilities (ADA)“](localizations/noam-usa-comply-ada.md)
+- [Rekja frítíma fyrir „Family and Medical Leave Act“ (FMLA)](localizations/noam-usa-track-time-for-fmla.md)
 
 ## <a name="gather-information-using-questionnaires"></a>Upplýsingasöfnun með notkun spurningalista
 
 Hægt er að hanna og stjórna spurningalista til að safna upplýsingum til ýmissa nota. Spurningalistaeiginleikinn gerir þér kleift að hanna og búa til spurningalista. Þegar spurningalisti er tilbúinn er hægt að dreifa honum á alla eða tiltekinn svarenda. Þegar svarendur hafa lokið við að fylla spurningarlistann út er farið yfir svörin og niðurstöðurnar greindar.
 
 - [Spurningarlistar](../../../talent/questionnaires.md)
-- [Hönnun spurningalista](../../../talent/design-questionnaires.md)
-- [Dreifing og útfylling spurningalista](../../../talent/distribute-questionnaires.md)
+- [Hanna spurningalista](../../../talent/design-questionnaires.md)
+- [Dreifa spurningalistum á ákveðnum tímum](../../../talent/distribute-questionnaires.md)
 - [Yfirferð og mat á niðurstöðum spurningalista](../../../talent/evaluate-questionnaire-results.md)

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: adb88a5fb79b24a26aa2976464d3e838922322c6
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 480253d1401c567e27f636f8a2b19fa3937e89e5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653205"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770385"
 ---
 # <a name="regulatory-updates"></a>Regluuppfærslur
 
@@ -82,11 +82,11 @@ Fyrir nýjustu áætlanir á uppfærslu á reglum skal skoða eftirfarandi töfl
 |      2019. apríl          |   10.0.1      | Ungverjaland      |  Ungverjaland: Reikningsfærsla á netinu v.1.1 2019  |
 |      2019. apríl          |   10.0.1      | Japan      |  Breyting á tímum japanskra tímabila 2019  |
 |      2019. apríl          |   10.0.1      |    Rússland     |Skattskýrsla fyrir lóðarskatt breytist frá og með 2018 |
-|      2019. apríl          |   10.0.1      |    Rússland     |[Skattskýrsla fyrir eignaskatt breytist frá og með 2019](rus-assessed-tax-declaration.md)|
+|      2019. apríl          |   10.0.1      |    Rússland     |[Áætluð skattskýrsla](rus-assessed-tax-declaration.md)|
 |      2019. apríl          |   10.0.1      |    Rússland     |Skattskýrsla fyrir flutningsskatt breytist frá og með 2019  |
-|      2019. apríl          |   10.0.1      |    Rússland     |[Breytingar á sniði VSK-skýrslu frá 2019](rus-VAT-declaration.md) |
+|      2019. apríl          |   10.0.1      |    Rússland     |[VSK-skýrsla](rus-VAT-declaration.md) |
 |      2019. apríl          |   10.0.1      |    Rússland     |Breytingar á sniði VSK-skýrslu frá 2019 (Sölu- og innkaupabækur) |
-|      2019. apríl          |   10.0.1      |    Bretland     |[Breytingar á innsendingu VSK-yfirlits (Skattur gerður stafrænn)](emea-gbr-mtd-vat-integration.md)    |    
+|      2019. apríl          |   10.0.1      |    Bretland     |[Undirbúa Finance and Operations fyrir samþættingu við MTD fyrir VSK](emea-gbr-mtd-vat-integration.md)    |    
 |      2019. mars          |   10.0.0      |    Austurríki   |   Breytingar á Kammerumlage 2019 (innkaupagjald)    |
 |      2019. mars          |   10,0,0      |    Brasilía    |     SPED EFD-framlög - Útlit 004 og 005  |
 |      2019. mars          |   10,0,0      |    Malasía     |Malasía skiptir út vöru- og þjónustuskatti fyrir SST og þjónustuskatt        |

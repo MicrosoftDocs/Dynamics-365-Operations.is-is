@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c585bce468f87a32204893ea20ce6954e92b0e38
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 8619c6cde484c41ec01e96eb4626366f1955b5d4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571807"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811827"
 ---
 # <a name="install-assets-on-functional-locations"></a>Setja upp eignir á virkum staðsetningum
 
@@ -31,7 +31,7 @@ ms.locfileid: "2571807"
 
  
 
-Eftir að þú hefur búið til skipulag virkra staðsetninga er næsta skref að setja upp eignir á viðkomandi virkum staðsetningum. Þetta efni útskýrir hvernig á að setja upp eignir á þessum virku staðsetningum í eignastjórnun. Nánari upplýsingar um hvernig stofna eigi aðallykla, sjá [Eignir](../objects/introduction-to-objects.md).
+Eftir að þú hefur búið til skipulag virkra staðsetninga er næsta skref að setja upp eignir á viðkomandi virkum staðsetningum. Þetta efni útskýrir hvernig á að setja upp eignir á þessum virku staðsetningum í eignastjórnun. Nánari upplýsingar um hvernig stofna eigi aðallykla, sjá [Kynning á eignum](../objects/introduction-to-objects.md).
 
 Ef þú hefur búið til eignaskipulag verður að setja upp alla eignaskipan á virka staðsetningu. Þess vegna er aðeins hægt að velja yfireignir (efstu eignir sem hafa enga yfireign) á virkri staðsetnigu. Allar tengdar undireignir (undireignir) verða einnig settar upp á virkri staðsetningu. Þegar þú setur upp eignir á virkri staðsetningu, gætu fjárhagsvíddir virkrar staðsetningar verið fluttar sjálfkrafa yfir á þær, allt eftir uppsetningu á gerð virkrar staðsetningar sem er valin fyrir virka staðsetningu. Nánari upplýsingar um hvernig setja skal upp gerðir virkra staðsetinga er að finna í [Gerðir virkra staðsetninga](../setup-for-functional-locations/functional-location-types.md).
 

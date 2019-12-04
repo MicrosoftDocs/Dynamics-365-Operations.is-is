@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: a39654d4b6d74aa640db682fa052651736552db1
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
+ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553188"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "2810700"
 ---
 # <a name="one-voucher"></a>Eitt fylgiskjal
 
@@ -83,6 +83,9 @@ Byggt á samtölum við viðskiptavini hefur Microsoft tekið saman eftirfarandi
 
 Eftirtaldar tilfelli er aðeins hægt að ná með því að nota virknina Eitt fylgiskjal. Ef fyrirtækið hefur eitthvað af þessum atburðarrásum, þú verður að virkja margar færslur sem færa skal í fylgiskjalið með því að breyta stillingu á **Leyfa margar færslur í einu fylgiskjali** færibreytunni á **Fjárhagsfæribreytur** síðunni. Þessar virknigloppur verða fylltar með öðrum eiginleikum í síðari útgáfum.
 
+> [!Note]
+> [Fyrir sérhverja eftirfarandi sviðsmynda verður reiturinn **Leyfa margar færslur á einu fylgiskjali** að vera stilltur á Já í flýtiflipanum **Almennt** á síðunni **Fjárhagsfæribreytur**.]
+
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Bóka lánardrottin eða greiðslur viðskiptavinar á samantektarskjámynd bankareiknings
 
 **Dæmi** Fyrirtæki miðlar lista yfir lánardrottna og upphæðum á bankann sinn og bankinn notar listann til að greiða lánardrottnum fyrir hönd fyrirtækisins. Bankinn bókar samtölu greiðslnanna sem staka úttekt af bankareikningnum.
@@ -120,6 +123,9 @@ Eftirfarandi eignafærslur búa einnig til margar færslur innan eins fylgiskjal
 - Eign er skipt.
 - Breytur til að reikna afskriftir við förgun er kveikt á og þá er eignin fargað.
 - Þjónustudagsetning eignar er fyrir kaupdagsetningu. Þar af leiðandi er leiðrétting afskriftar bókuð.
+
+> [!Note]
+> Þegar þú ert að fara í færslur skaltu vera viss um að allar færslur eigi við um sömu fastafjármuni. Fylgiskjalið verður ekki bókað ef það inniheldur fleiri en eina fasta eign, jafnvel þó að reiturinn **Nýtt fylgiskjal** sé stilltur á Aðeins eitt fylgiskjal á síðunni **Færslubókaheiti** í fjárhag. Ef þú setur fleiri en eina fasta eign í fylgiskjali verða skilaboðin **Aðeins má vera ein eignarfærsla á hverju fylgiskjali** birt og þú munt ekki geta sent fylgiskjalið.  
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a>Víxlar og eigin víxlar
 Víxlar og eigin víxlar krefjast þess að Eitt fylgiskjal sé notaður vegna þess að færslurnar flytja stöðu viðskiptavinar eða lánardrottins frá einum viðskiptakröfum/viðskiptaskulda til annarra, miðað við stöðu greiðslunnar.

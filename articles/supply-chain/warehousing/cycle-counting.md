@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aef99a7e8964dba0e3c3a507bb214b79ae723357
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: d7ec95b230c5ea17f208bc1288c10fce15631a5d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251524"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813064"
 ---
 # <a name="cycle-counting"></a>Regluleg talning
 
@@ -136,7 +136,7 @@ Mismunur reglulegrar talningar kemur upp við eftirtaldar aðstæður ef valkost
 Hægt er að leiðrétta mismun talningargilda og samþykkja talið gildið á síðunni **Regluleg talning bíður yfirferðar**. Endurskoðuð magntalning vörunnar getur verið staðfest á síðunni **Lagerstaða eftir staðsetningu**. Talið gildi er hafnað ef ekki er hægt að samþykkja mismun.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
-[Skilgreina fartæki fyrir vöruhúsvinnu](configure-mobile-devices-warehouse.md)
+[Uppsetning fartækja fyrir vöruhúsavinnu](configure-mobile-devices-warehouse.md)
 
 
 

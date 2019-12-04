@@ -1,5 +1,5 @@
 ---
-title: Skilgreina fyrirtækisupplýsingar í Microsoft Dynamics 365 Talent - Attract
+title: Skilgreina fyrirtækisupplýsingar í Attract
 description: Þetta efni útskýrir hvernig á að stilla upplýsingar og vörumerki fyrirtækisins fyrir Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7013065a9494cb407020de2ebcad4058dd57c6c4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: db3ec965f3a52810d5f310697b9ed830c3abe681
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551597"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833255"
 ---
-# <a name="configure-company-information-in-microsoft-dynamics-365-talent---attract"></a>Skilgreina fyrirtækisupplýsingar í Microsoft Dynamics 365 Talent - Attract
-[!include[banner](../includes/banner.md)]
+# <a name="configure-company-information-in-attract"></a>Skilgreina fyrirtækisupplýsingar í Attract
+
+[!include [banner](includes/banner.md)]
 
 Stjórnandamiðstöðin í Microsoft Dynamics 365 Talent: Attract inniheldur grunnstillingar, samþættingarvalkosti og uppsetningarvalkosti fyrir Attract-forritið.
 
@@ -48,11 +49,11 @@ Setja upp samþættingu við LinkedIn Recruiter System Connect (RSC). Eftir að 
 
 ## <a name="template-management"></a>Stjórnun sniðmáts
 
-Sniðmát ferlis inniheldur allar aðgerðir sem ætti að vera hluti af ráðningarferli fyrir starf. Fyrirtækið getur leyft annaðhvort öllum teymismeðlimum eða bara stjórnendum að búa til sniðmát fyrir ráðningarferli. Til að leyfa teymismeðlimum að búa til eigin sniðmát fyrir ráðningarferli skaltu kveikja á Stjórnun sniðmáts virkni. Nánari upplýsingar um sniðmát ferla er að finna í [Sniðmát ferla í Attract](./process-templates-attract.md).
+Sniðmát ferlis inniheldur allar aðgerðir sem ætti að vera hluti af ráðningarferli fyrir starf. Fyrirtækið getur leyft annaðhvort öllum teymismeðlimum eða bara stjórnendum að búa til sniðmát fyrir ráðningarferli. Til að leyfa teymismeðlimum að búa til eigin sniðmát fyrir ráðningarferli skaltu kveikja á Stjórnun sniðmáts virkni. Nánari upplýsingar um sniðmát ferla er að finna í [Búðu til sniðmát ferlis í Attract](./process-templates-attract.md).
 
 ## <a name="email-template-settings"></a>Stillingar fyrir sniðmát tölvupósts
 
-Fyrirtæki geta búið til sniðmát fyrir tölvupóst fyrir mismunandi aðstæður. Þú getur valið hausmyndina sem sniðmát fyrir tölvupóst eiga að innihalda. Valið haus birtist þá í öllum sniðmátum fyrir tölvupóst. Í sniðmátarfót er hægt að bæta við tengil á yfirlýsingu fyrirtækisins um persónuvernd og notkunarskilmála við samskipti. Nánari upplýsingar er að finna í [Sniðmát fyrir tölvupóst í Attract](./email-templates.md).
+Fyrirtæki geta búið til sniðmát fyrir tölvupóst fyrir mismunandi aðstæður. Þú getur valið hausmyndina sem sniðmát fyrir tölvupóst eiga að innihalda. Valið haus birtist þá í öllum sniðmátum fyrir tölvupóst. Í sniðmátarfót er hægt að bæta við tengil á yfirlýsingu fyrirtækisins um persónuvernd og notkunarskilmála við samskipti. Fyrir frekari upplýsingar skal sjá [Sniðmát fyrir tölvupóst](./email-templates.md).
 
 ## <a name="offer-process"></a>Tilboðsferli
 

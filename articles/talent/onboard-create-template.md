@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a1fac239524d4873a782e6a3d177a573a382d0f6
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 55853418eacd179b7bb50b7e4385300bdcb27abe
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552040"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812903"
 ---
 # <a name="create-an-onboarding-template-by-using-dynamics-365-talent---onboard"></a>Búðu til sniðmát um borð með því að nota Dynamics 365 Talent - Onboard
 
@@ -59,6 +59,6 @@ Microsoft Dynamics 365 Talent: Onboard veitir ýmis sniðmát sem geta hjálpað
 ### <a name="see-also"></a>Sjá einnig
 
 - [Prófaðu eða keyptu Onboard-forritið](https://dynamics.microsoft.com/talent/onboard/)
-- [Nýjungar](./whats-new.md)
-- [Athugasemdir við útgáfu](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Fá aðstoð](./talent-support.md)
+- [Nýjungar eða breytingar í Dynamics 365 Talent](./whats-new.md)
+- [Útgáfuáætlanir](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Fá aðstoð fyrir Microsoft Dynamics 365 Talent](./talent-support.md)

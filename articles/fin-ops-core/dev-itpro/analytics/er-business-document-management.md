@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
+ms.search.form: ERBDWorkspace, ERBDParameters, ERSecurityAccessEditor
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -15,18 +16,18 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: ''
+ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 05dee1efc4e817795824e3fa1c41093d48a97d78
-ms.sourcegitcommit: 219a73371638a9a4c6076d4c88b95fb2ebe95b00
+ms.openlocfilehash: 0a2fa6a7f6efef05862a3727a80122c22d591487
+ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2652618"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "2824521"
 ---
 # <a name="business-document-management-overview"></a>Yfirlit yfir stjórnun viðskiptaskjala
 
-Fyrirtækjanotendur nota [Ramma rafrænnar skýrslugerðar (ER)](general-electronic-reporting.md) til að skilgreina snið fyrir skjöl á útleið í samræmi við lagaskilyrði mismunandi landa/svæða. Notendur geta einnig skilgreint gagnaflæðið til að tilgreina hvaða forritsgögn eru sett í skjöl sem eru búin til. ER-ramminn býr til skjöl á útleið í Microsoft Office-sniðum (Excel-vinnubækur eða Word-skjöl) með því að nota fyrirframskilgreind sniðmát. Sniðmátin eru fyllt út með tilskildum gögnum í samræmi við stillanlegt gagnaflæði meðan nauðsynleg skjöl eru búin til. Hægt er að birta hvert skilgreint snið sem hluta af ER lausn til að búa til sérstök skjöl á útleið. Þetta er táknað með ER sniði sem getur innihaldið sniðmát sem þú getur notað til að búa til mismunandi skjöl á útleið. Fyrirtækjanotendur geta notað þennan ramma til að stjórna nauðsynlegum viðskiptaskjölum.
+Fyrirtækjanotendur nota [Yfirlit rafrænnar skýrslugerðar (ER)](general-electronic-reporting.md) til að skilgreina snið fyrir skjöl á útleið í samræmi við lagaskilyrði mismunandi landa/svæða. Notendur geta einnig skilgreint gagnaflæðið til að tilgreina hvaða forritsgögn eru sett í skjöl sem eru búin til. ER-ramminn býr til skjöl á útleið í Microsoft Office-sniðum (Excel-vinnubækur eða Word-skjöl) með því að nota fyrirframskilgreind sniðmát. Sniðmátin eru fyllt út með tilskildum gögnum í samræmi við stillanlegt gagnaflæði meðan nauðsynleg skjöl eru búin til. Hægt er að birta hvert skilgreint snið sem hluta af ER lausn til að búa til sérstök skjöl á útleið. Þetta er táknað með ER sniði sem getur innihaldið sniðmát sem þú getur notað til að búa til mismunandi skjöl á útleið. Fyrirtækjanotendur geta notað þennan ramma til að stjórna nauðsynlegum viðskiptaskjölum.
 
 **Stjórnun viðskiptaskjala** er byggt ofan á ER ramma og gerir fyrirtækjanotendum kleift að breyta sniðmátum viðskiptaskjala með því að nota Microsoft Office 365 þjónustu eða viðeigandi Microsoft Office skjáborðsforrit. Breytingar á skjölunum gætu falist í því að breyta hönnun viðskiptaskjala og bæta við staðgenglum fyrir viðbótargögn án breytinga á frumkóða og nýjum uppsetningum. Engin vitneskja um ramma ER er nauðsynleg til að uppfæra sniðmát viðskiptaskjala.
 
@@ -58,21 +59,17 @@ Eftirfarandi skýrslur, með Excel-sniðmátum, verða tiltækar með útgáfu o
 
 Fleiri skýrslur verða tiltækar. Sérstakar tilkynningar um viðbótarskýrslur verða sendar sérstaklega. 
 
-Heildarlista yfir allar skýrslurnar sem fyrirhugaðar eru vegna útgáfunnar í október 2019 er að finna í [Stillanleg skýrsluviðskiptaskjöl í Word og Excel](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
-
-# <a name="example-enable-configure-and-use-business-document-management"></a>Dæmi: Virkja, skilgreina og nota viðskiptaskjalastjórnun
-
-Til að fá frekari upplýsingar um þennan eiginleika skaltu ljúka dæminu í þessu efni.
+Heildarlista yfir allar skýrslurnar sem fyrirhugaðar eru vegna útgáfunnar í október 2019 er að finna í [Stillanleg skýrsluviðskiptaskjöl í Word og Excel](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Til að fá frekari upplýsingar um þennan eiginleika skaltu ljúka dæminu í þessu efni.
 
 ## <a name="configure-er-parameters"></a>Skilgreina færibreytur Rafræn skýrslugerðar
 
-Þar sem stjórnun viðskiptaskjala er byggð ofan á ER ramma verður þú að stilla ER-færibreytur til að fara að vinna með stjórnun viðskiptaskjala. Til að gera þetta þarftu að setja upp ER-færibreytur eins og lýst er í [Skilgreina ER-ramma](electronic-reporting-er-configure-parameters.md). Þú þarft einnig að bæta við nýjum skilgreiningum sem lýst er í [Stofna skilgreiningarveitendur og merkja þá sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Þar sem stjórnun viðskiptaskjala er byggð ofan á ER ramma verður þú að stilla ER-færibreytur til að fara að vinna með stjórnun viðskiptaskjala. Til að gera þetta þarftu að setja upp ER-færibreytur eins og lýst er í [Skilgreina ramma rafrænnar skýrslugerðar (ER)](electronic-reporting-er-configure-parameters.md). Þú þarft einnig að bæta við nýjum skilgreiningum sem lýst er í [Stofna skilgreiningarveitendur og merkja þá sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ![ER-vinnusvæði](./media/BDM-Overview-ERSetting.png)
 
 ## <a name="import-er-solutions"></a>Flytja inn ER-lausnir
 
-Þú verður að flytja inn ER-skilgreiningar sem innihalda sniðmát viðskiptaskjala í núverandi tilvik. Hladdu niður og geymdu eftirfarandi skrár til að ljúka þessu ferli.
+Dæmi um ER-stillingar eru notaðar í dæminu um þetta ferli. Þú verður að flytja inn í núverandi tilvik af Dynamics 365 Finance, ER stillingar sem innihalda viðskiptaskjalasniðmát sem hægt er að breyta með því að nota viðskiptaskjalastjórnun. Hladdu niður og geymdu síðan eftirfarandi skrár til að ljúka þessu ferli.
 
 **Dæmi um reikningslausn viðskiptavina í ER**
 
@@ -105,7 +102,13 @@ Notaðu eftirfarandi ferli til að flytja inn hverja skrá. Flyttu inn skilgrein
 
 ![Skilgreiningarsíða í ER](./media/BDM-Overview-ERSolutions.png)
 
+
+Einnig er hægt að flytja opinberlega út ER-snið stillingar frá Microsoft Dynamics Lifecycle Service (LCS). Til dæmis, til að ljúka þessari aðferð, getur þú flutt inn nýjustu útgáfuna af **Ókeypis textareikningur (Excel)** skilgreiningu ER sniðs. Samsvarandi ER gagnalíkan og skilgreiningar ER-líkanavörpunar verða fluttar inn sjálfkrafa.
+
+![Efnissíðan LCS samnýtt eignasafn](./media/BDM-Overview-SharedAssetLibrary.png)
+
 Nánari upplýsingar um innflutning ER-skilgreininga er að finna í [Stjórna líftíma ER-stillinga](general-electronic-reporting-manage-configuration-lifecycle.md).
+
 
 ## <a name="enable-business-document-management"></a>Virkja stjórnun viðskiptaskjala
 
@@ -118,9 +121,12 @@ Notaðu eftirfarandi ferli til að virkja virknina Stjórnun viðskiptaskjala fy
 3. Veldu **Virkja núna** til að kveikja á völdum eiginleika.
 4. Endurnýjaðu síðuna til að fá aðgang að nýja eiginleikanum.
 
+>[!NOTE]
+> Einnig þarftu að virkja **Office-lík notandaviðmótsreynsla fyrir skjalastjórnun** til að nota nýtt viðskiptaskjal stjórnunarviðmót
+
 ![Vinnusvæði eiginleikastjórnunar](./media/BDM-Overview-FMEnabling.png)
 
-Nánari upplýsingar um að virkjun nýrra eiginleika er að finna í [Eiginleikastjórnunaryfirlit](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Nánari upplýsingar um að virkjun nýrra eiginleika er að finna í [Eiginleikastjórnunaryfirlit](../../fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="configure-parameters"></a>Skilgreina færibreytur
 
@@ -137,7 +143,7 @@ Fyrir þessa skjalagerð verður að velja eftirfarandi eigindagildi.
 | Hópur               | Skrá                  |
 | Staðsetning            | SharePoint            |
 
-Fyrir upplýsingar um hvernig á að setja upp nauðsynlegar færibreytur fyrir skjalastjórnun og skjalagerðir skal sjá [Skilgreina skjalastjórnun](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management).
+Fyrir upplýsingar um hvernig á að setja upp nauðsynlegar færibreytur fyrir skjalastjórnun og skjalagerðir skal sjá [Skilgreina skjalastjórnun](../../fin-ops/organization-administration/configure-document-management.md).
 
 ![Setja upp skjalagerð í skjalastjórnun](./media/BDM-Overview-DMSetting.png)
 
@@ -179,21 +185,21 @@ Notaðu eftirfarandi ferli til að setja upp aðgangsheimildir fyrir Stjórnun v
 1. Skráðu þig inn sem notandi með aðgang að síðunni **Stillingar fyrir aðgangsheimildir**.
 2. Farðu í **Samtök stjórnsýslu** \> **Rafræn skýrslugerð** \> **Stjórnun viðskiptaskjala** \> **Stjórna aðgangsheimildum**.
 
-Athugaðu tilkynninguna sem upplýsir þig um að notkun aðgangsheimilda fyrir stjórnun viðskiptakjala sé ekki virkjuð sem stendur.
+    Athugaðu tilkynninguna sem upplýsir þig um að notkun aðgangsheimilda fyrir stjórnun viðskiptakjala sé ekki virkjuð sem stendur.
 
-![Síðan Stillingar aðgangsheimilda stjórnunar viðskiptaskjala](./media/BDM-Overview-TemplatesAccess1.png)
+    ![Síðan Stillingar aðgangsheimilda stjórnunar viðskiptaskjala](./media/BDM-Overview-TemplatesAccess1.png)
 
-Með þessari stillingu er geta allir notendur sem er úthlutað á öryggishlutverk sem er skilgreint til að framkvæma skylduna **Stjórna sniðmátum viðskiptaskjala** (AOT-heiti **ERBDManageTemplates**) opnað vinnusvæðið Stjórnun viðskiptaskjala og breytt öllum sniðmátum sem eru í boði.
+    Með þessari stillingu er geta allir notendur sem er úthlutað á öryggishlutverk sem er skilgreint til að framkvæma skylduna **Stjórna sniðmátum viðskiptaskjala** (AOT-heiti **ERBDManageTemplates**) opnað vinnusvæðið Stjórnun viðskiptaskjala og breytt öllum sniðmátum sem eru í boði.
 
-Eftirfarandi mynd sýnir það sem er í boði á vinnusvæðinu Stjórnun viðskiptaskjala fyrir notendur sem úthlutað er á hlutverkið **Starfsmaður viðskiptakrafa**. Með núverandi stillingu aðgangsheimilda getur notandinn breytt sniðmátum viðskiptaskjala úr mismunandi starfssvæðum, þar með talið reikningum, lögboðnum skýrslum og greiðslum.
+    Eftirfarandi mynd sýnir það sem er í boði á vinnusvæðinu Stjórnun viðskiptaskjala fyrir notendur sem úthlutað er á hlutverkið **Starfsmaður viðskiptakrafa**. Með núverandi stillingu aðgangsheimilda getur notandinn breytt sniðmátum viðskiptaskjala úr mismunandi starfssvæðum, þar með talið reikningum, lögboðnum skýrslum og greiðslum.
 
-![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM-Overview-TemplatesForAlice1.png)
+    ![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM-Overview-TemplatesForAlice1.png)
 
 3. Á síðunni **Stillingar fyrir aðgangsheimildir** velurðu **Stillingar aðgangsheimilda**.
 4. Í valmyndinni **Stillingar aðgangsheimilda til að breyta sniðmátum** skaltu virkja valkostinn **Nota skilgreindar aðgangsheimildir**.
 5. Veldu **Í lagi** til að staðfesta að aðgangsheimildir stjórnunar viðskiptaskjala hafi verið gerðar virkar.
 
-![Síðan Stillingar aðgangsheimilda stjórnunar viðskiptaskjala](./media/BDM-Overview-TemplatesAccess2.png)
+    ![Síðan Stillingar aðgangsheimilda stjórnunar viðskiptaskjala](./media/BDM-Overview-TemplatesAccess2.png)
 
 6. Veldu **Bæta við** til að slá inn nýtt viðskiptahlutverk sem stilla þarf heimildir fyrir til að fá aðgang að sniðmátum stjórnunar viðskiptaskjala.
 7. Í valmyndinni **Öryggishlutverk** velurðu hlutverkið **Starfsmaður viðskiptakrafa** og síðan **Í lagi** til að staðfesta hlutverkavalið.
@@ -201,11 +207,11 @@ Eftirfarandi mynd sýnir það sem er í boði á vinnusvæðinu Stjórnun viðs
 9. Í reitnum **Gerð merkis** velurðu **Rekstrarsvæði** og í reitnum **Auðkenni** velurðu **Reikningsfærsla**.
 10. Veldu **Vista** til að geyma skilgreindar aðgangsheimildir fyrir valið hlutverk.
 
-  Núverandi stilling þýðir að fyrir hvern notanda sem er úthlutað á hlutverkið **Starfsmaður viðskiptakrafa** og gegnir skyldunni, **Stjórna sniðmátum viðskiptaskjala** (AOT-heiti **ERBDManageTemplates**) verða skilgreiningarsnið ER-sniða sem hafa gildið **Reikningsfærsla** fyrir merkið **Rekstrarsvæði** tiltæk til breytinga í vinnusvæði stjórnunar viðskiptaskjala.
+    Núverandi stilling þýðir að fyrir hvern notanda sem er úthlutað á hlutverkið **Starfsmaður viðskiptakrafa** og gegnir skyldunni, **Stjórna sniðmátum viðskiptaskjala** (AOT-heiti **ERBDManageTemplates**) verða skilgreiningarsnið ER-sniða sem hafa gildið **Reikningsfærsla** fyrir merkið **Rekstrarsvæði** tiltæk til breytinga í vinnusvæði stjórnunar viðskiptaskjala.
 
 11. Skiptu um rúðuna **Tengdar upplýsingar** frá hægri hlið þessarar síðu. Glugginn **Tengdar upplýsingar** sýnir hvernig skilgreindu aðgangsheimildunum verður beitt, þar með talið hvaða ER-skilgreininarsniðmát verða tiltæk fyrir notendur sem er úthlutað á hlutverkið **Starfsmaður viðskiptakrafa**.
 
-![Síðan Stillingar aðgangsheimilda stjórnunar viðskiptaskjala](./media/BDM-Overview-TemplatesAccess3.png)
+    ![Síðan Stillingar aðgangsheimilda stjórnunar viðskiptaskjala](./media/BDM-Overview-TemplatesAccess3.png)
 
 12. Á flipanum **Aðgangsheimildir fyrir hvert merki stillinga** velurðu valkostinn **Bæta við**.
 13. Í valmyndinni **Velja skilgreiningu** skaltu merkja við skilgreiningu ER-sniðs **Intrastat-skýrsla**.
@@ -252,21 +258,31 @@ Valkosturinn **Breyta sniðmáti** er í boði fyrir valið sniðmát. Þessi va
 
 ### <a name="initiate-editing-templates-owned-by-other-providers"></a>Byrjaðu að breyta sniðmátum í eigu annarra veitenda
 
-1. Í vinnusvæðinu Stjórnun viðskiptaskjala skaltu velja sniðmátið **Customer FTI report (GER)** af listanum.
-2. Velja flipann **Upplýsingar**.
+1. Í vinnusvæðinu fyrir viðskipti skjalastjórnunar velurðu **Nýtt skjal**.
 
-![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM-Overview-EditingTemplate3.png)
+![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM_overview_new_template1.png)
 
-Valkosturinn **Nýtt skjal** er í boði fyrir valið sniðmát. Þessi valkostur er alltaf tiltækur fyrir sniðmát í ER-sniðskilgreiningu sem er veitt af öðrum veitanda (**Microsoft** í þessu dæmi). Þegar **Nýtt skjal** er valið verður nýtt sniðmát tiltækt til breytinga. Síðan verður breytt sniðmátið geymt í nýrri skilgreiningu á ER-sniði sem er sjálfkrafa mynduð.
+2. Veldu skjalið sem á að nota sem sniðmát.
+
+![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM_overview_new_template2.png)
+
+3. Smelltu á **Stofna skjal**
+4. Í reitnum **Titill** skal breyta titlinum á breytanlegu sniðmáti ef þörf krefur. Textinn verður notaður til að nefna skilgreiningu ER-sniðsins sem er sjálfkrafa búin til. Athugaðu að drög að þessari skilgreiningu (**Afrit af skýrslu viðskiptamannareiknings með frjálsum texta (GER)**) sem mun innihalda breytt sniðmát verður sjálfkrafa merkt til að keyra þetta ER-snið fyrir núverandi notanda. Um leið verður hið óbreytta upprunalega sniðmát úr grunnstillingu ER-sniðsins notað til að keyra þetta ER-snið fyrir alla aðra notendur.
+5. Í reitnum **Heiti** breytirðu heiti fyrstu endurskoðunar á breyttu sniðmátinu sem verður búið til sjálfkrafa.
+6. Í reitnum **Athugasemd** breytirðu heiti fyrstu athugasemdar fyrir sjálfkrafa stofnaða endurskoðun á breyttu sniðmátinu.
+7. Veldu **Í lagi** til að staðfesta upphaf breytingarferilsins
+
+![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM_overview_new_template3.png)
+
+Valkosturinn **Nýtt skjal** er alltaf í boði fyrir sniðmát með skilgreiningu ER-sniðs sem er veitt af annarri veitu (Microsoft í þessu tilfelli). Þegar þú smellir **Nýtt skjal** sérðu öll sniðmát í eigu núverandi og annarra veitenda. Eftir að þú hefur valið sniðmátið verður það opnað fyrir breytingar. Síðan verður breytt sniðmátið geymt í nýrri skilgreiningu á ER-sniði sem er sjálfkrafa mynduð.
 
 ### <a name="start-editing-a-template"></a>Byrja á að breyta sniðmáti
 
-1. Úr völdu sniðmáti velurðu **Nýtt skjal**.
-2. Í reitnum **Titill** skal breyta titlinum á breytanlegu sniðmáti ef þörf krefur. Textinn verður notaður til að nefna skilgreiningu ER-sniðsins sem er sjálfkrafa búin til. Athugaðu að drög að þessari skilgreiningu (**Afrit af skýrslu viðskiptamannareiknings með frjálsum texta (GER)**) sem mun innihalda breytt sniðmát verður sjálfkrafa merkt til að keyra þetta ER-snið fyrir núverandi notanda. Um leið verður hið óbreytta upprunalega sniðmát úr grunnstillingu ER-sniðsins notað til að keyra þetta ER-snið fyrir alla aðra notendur.
-3. Í reitnum **Heiti** breytirðu heiti fyrstu endurskoðunar á breyttu sniðmátinu sem verður búið til sjálfkrafa.
-4. Í reitnum **Athugasemd** breytirðu heiti fyrstu athugasemdar fyrir sjálfkrafa stofnaða endurskoðun á breyttu sniðmátinu.
+1. Úr völdu sniðmáti velurðu **Breyta skjali**.
+2. Í reitnum **Heiti** breytirðu heiti fyrstu endurskoðunar á breyttu sniðmátinu sem verður búið til sjálfkrafa.
+3. Í reitnum **Athugasemd** breytirðu heiti fyrstu athugasemdar fyrir sjálfkrafa stofnaða endurskoðun á breyttu sniðmátinu.
 
-![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM-Overview-EditingTemplate4.png)
+    ![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM_overview_new_template4.png)
 
 5. Veldu **Í lagi** til að staðfesta upphaf breytingarferilsins.
 
@@ -285,15 +301,15 @@ Breyttu sniðmátinu með því að nota virkni Office 365. Til dæmis, í Offic
 1. Veldu valkostinn **Opna í skjáborðsforriti** til að breyta sniðmátinu með virkni Office-skjáborðsforrits (Excel í þessu dæmi). Breytanlega sniðmátið er afritað úr varanlegri geymslu yfir í tímabundna geymslu sem er skilgreind í breytum stjórnunar viðskiptaskjala sem SharePoint-mappa.
 2. Staðfestu að þú viljir opna sniðmátið úr tímabundinni skráageymslu í Excel Office-forritinu.
 
-![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM-Overview-EditingLayout3.png)
+    ![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM-Overview-EditingLayout3.png)
 
 3. Breyttu sniðmátinu. Til dæmis breyta leturgerð reitakvaðninganna í sniðmáthausnum með því að uppfæra litinn úr **Svart** í **Blátt**.
 
-![Síðan Ritill stjórnunarsniðmáts viðskiptaskjala](./media/BDM-Overview-EditingLayout4.png)
+    ![Síðan Ritill stjórnunarsniðmáts viðskiptaskjala](./media/BDM-Overview-EditingLayout4.png)
 
 4. Veldu **Vista** í Excel-skjáborðsforritinu til að geyma sniðmátsbreytingarnar í tímabundinni geymslu.
 
-![Síðan Ritill stjórnunarsniðmáts viðskiptaskjala](./media/BDM-Overview-EditingLayout5.png)
+    ![Síðan Ritill stjórnunarsniðmáts viðskiptaskjala](./media/BDM-Overview-EditingLayout5.png)
 
 5. Lokaðu Excel-skjáborðsforritinu.
 6. Veldu **Samstilla geymt afrit** til að samstilla tímabundna sniðmátgeymslu við varanlega geymslu sniðmáts.
@@ -307,7 +323,7 @@ Breyttu sniðmátinu með því að nota virkni Office 365. Til dæmis, í Offic
 2. Veldu **Sýna snið** til að skoða núverandi uppbyggingu sniðsins frá grunnstillingu ER-sniðs sem verður að vera í takt við breytt sniðmát. 
 3. Veldu **Fela snið** til að loka rúðunni.
 
-![BDM BDM ritilssíða](./media/BDM-Overview-EditingTemplate6.png)
+    ![BDM BDM ritilssíða](./media/BDM-Overview-EditingTemplate6.png)
 
 4. Lokið síðunni **BDM-sniðmátsritill**.
 
@@ -323,7 +339,7 @@ Uppfærða sniðmátið er sýnt á flipanum **Sniðmát**. Athugaðu að staða
 4. Veldu stigið **Eining - viðskiptakröfur** \> **Skjöl** \> **Frjáls textareikningur** \> **Upprunalegt skjal** til að tilgreina umfang reikninga til vinnslu.
 5. Í reitnum **Skýrslusnið** velurðu ER-sniðið **Afrit af skýrslu viðskiptamannareiknings með frjálsum texta (GER)** fyrir tilgreint skjalstig.
 
-![Síðan Prentstýringarstilling](./media/BDM-Overview-TestRun1.png)
+    ![Síðan Prentstýringarstilling](./media/BDM-Overview-TestRun1.png)
 
 6. Ýttu á **Escape** til að loka núverandi síðu.
 7. Veldu **Prenta** og smelltu síðan á **Valinn**.
@@ -340,9 +356,9 @@ Breytta sniðmátið er notað til að mynda skýrslu reiknings með frjálsum t
 3. Ef þörf er á skal í reitnum **Heiti** breyta heiti annarrar endurskoðunar og byggja hana á fyrstu endurskoðun sem er virk.
 4. Ef þörf er á skal í reitnum **Athugasemd** breyta heiti fyrstu athugasemdar fyrir sjálfkrafa stofnaða endurskoðun á breyttu sniðmátinu.
 
-![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM-Overview-AddRevision.png)
+    ![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM-Overview-AddRevision.png)
 
-Þú bjóst til nýja endurskoðun sniðmátsins sem hefur verið geymt í geymslu varanlegs sniðmáts. Nú geturðu haldið áfram að breyta sniðmátinu á annarri endurskoðuninni sem nú er valin sem virk.
+    Þú bjóst til nýja endurskoðun sniðmátsins sem hefur verið geymt í geymslu varanlegs sniðmáts. Nú geturðu haldið áfram að breyta sniðmátinu á annarri endurskoðuninni sem nú er valin sem virk.
 
 5. Veldu fyrstu endurskoðunina og veldu síðan **Stilla sem virkt**. Þú getur valið aðra endurskoðun sem virka ef þú vilt einhvern tíma fara aftur í þá endurskoðun á sniðmátinu.
 6. Veldu aðra endurskoðunina og smelltu svo á **Eyða**.
@@ -370,7 +386,7 @@ Breytta sniðmátið er notað til að mynda skýrslu reiknings með frjálsum t
 
 ## <a name="frequently-asked-questions"></a>Algengar spurningar
 
-#### <a name="i-selected-new-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>Ég valdi **Nýtt skjal**, en í stað þess að opna síðuna **Ritill BDM-sniðmáts** í Finance and Operations var ég send/ur á vefsíðu Office 365.
+#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>Ég valdi **Breyta skjali**, en í stað þess að opna síðuna **Ritill BDM-sniðmáts** í Finance and Operations var ég send/ur á vefsíðu Office 365.
 Þetta er þekkt vandamál með Office 365 endurbeiningu. Þetta gerist þegar þú skráir þig inn í Office 365 í fyrsta sinn. Til að vinna úr þessu vandamáli skaltu velja hnappinn **Til baka** í vafranum til að fara aftur.
 
 #### <a name="i-understand-how-to-edit-a-template-by-using-office-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>Ég skil hvernig á að breyta sniðmáti með því að nota Office 365 í fyrstu forritslotunni og hvernig á að nota sniðmátið í annarri forritslotunni með því að laga sniðmátið til að sjá hvernig breytingarnar hafa áhrif á myndað viðskiptaskjal. Get ég gert þetta með Office-skjáborðsforritinu?
@@ -386,12 +402,12 @@ Líklegast skráðir þú þig inn í núverandi tilvik forritsins í Azure AD-l
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
+[Yfirlit yfir rafræna skýrslugerð (ER)](general-electronic-reporting.md)
 
-[Hanna skilgreiningu til að mynda skýrslur á OPENXML-sniði](tasks/er-design-reports-openxml-2016-11.md)
+[Rafræn skýrslugerð Hanna skilgreiningu til að mynda skýrslur á OPENXML-sniði (nóvember 2016)](tasks/er-design-reports-openxml-2016-11.md)
 
 [Hanna grunnstillingar rafrænnar skýrslugerðar til að búa til skýrslur á Word-sniði](tasks/er-design-configuration-word-2016-11.md)
 
 [Felldu inn myndir og form í skjöl sem þú myndar með því að nota ER](electronic-reporting-embed-images-shapes.md)
 
-[Skilgreina rafræna skýrslugerð til að draga gögn inn í Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+[Skilgreina rafræna skýrslugerð (ER) til að draga gögn inn í Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c40877bc6557a81adc5c1b8d10afbbd26322b200
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3677db634366ecfe6a26f2f5e01532ce5a087593
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249935"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815250"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Losa uppskriftar- og formúlulínur í vöruhúsið
 
@@ -31,7 +31,7 @@ ms.locfileid: "2249935"
 Þetta efnisatriði lýsir ferlinu fyrir losun hráefnis fyrir uppskriftar- (BOM) og formúlulína í vöruhúsið. Þegar þú losar uppskriftar- eða formúlulínu í vöruhúsið ákvarðar kerfið fyrst hvort efni sé þegar í boði á staðsetningu framleiðsluinntaks í vinnusalnum þar sem efnið verður notað fyrir framleiðsluferlið.
 
 - Ef efnið er í boði á staðsetningu framleiðsluinntaks, er það tiltekið frá þeirri staðsetningu strax eftir að merki er gefið fyrir losun efnis í vöruhúsið.
-- Ef efnið er ekki tiltækt á staðsetningu framleiðsluinntaks, gefur losun efnis til kynna að efni skuli flutt frá staðsetningu í vöruhúsinu til staðsetningu framleiðsluinntaks. Efnið er flutt með vinnu vöruhúss fyrir tiltekt hráefnis. Þ.a.l. þarf vinnsla vöruhúss fyrir tiltekt hráefnis að vera grunnstillt. Frekari upplýsingar, sjá [Áfylling](../warehousing/replenishment.md) og [Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar](../warehousing/control-warehouse-location-directives.md).
+- Ef efnið er ekki tiltækt á staðsetningu framleiðsluinntaks, gefur losun efnis til kynna að efni skuli flutt frá staðsetningu í vöruhúsinu til staðsetningu framleiðsluinntaks. Efnið er flutt með vinnu vöruhúss fyrir tiltekt hráefnis. Þ.a.l. þarf vinnsla vöruhúss fyrir tiltekt hráefnis að vera grunnstillt. Frekari upplýsingar, sjá [Yfirlit áfyllingar](../warehousing/replenishment.md) og [Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar](../warehousing/control-warehouse-location-directives.md).
 
 ## <a name="methods-for-releasing-bom-and-formula-lines"></a>Aðferðir til að losa uppskriftarlínur og formúlulínur
 

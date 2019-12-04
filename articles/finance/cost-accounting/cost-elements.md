@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 037d4971fe0a5a9d08f0ed20d2482b8feb9aa4f2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 44d404aaafd124a5d5a9d92cac8add51f1ee846a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178294"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771985"
 ---
 # <a name="cost-element-dimensions"></a>Víddir kostnaðareiningar
 
@@ -66,7 +66,7 @@ Til eru tvær gerðir kostnaðareiningar: Aðal kostnaðareining og auka kostna�
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Víddir kostnaðareiningar og víddarstök kostnaðareiningar.
 Kostnaðareiningar eru vísað til sem *víddir kostnaðareiningar* . Einstaka víddargildi kallast *víddarstök kostnaðareiningar*. Til dæmis, þú ert með skipulag fyrir bókhaldslykill US (COA) sem er grunnur fyrir þinni lögboðnu skýrslugerð. Þessi COA er notað sem vídd kostnaðareiningar. Lyklar sem eru aðal kostnaðareiningar, eru sýndar sem víddarstök kostnaðareiningar í kostnaðarbókhaldi. Eftirfarandi skjámyndir sýna dæmi um Aðallykla sem vídd kostnaðareiningar með hennar raunverulegu aðallykla sem víddarstök kostnaðareiningar. 
 
-[![cost-element-dimensions](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![Skjámynd af aðalreikningum sem vídd kostnaðarþátta](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Flytja inn víddarstök kostnaðareiningar með gagnatengjum.
 Til að auðvelda uppsetningu víddarstök kostnaðareiningar í kostnaðarbókhald geturðu notað gagnatengi sem eru annað hvort for-innbyggð eða sérstaklega innbygð af þér til að sækja aðal kostnaðareiningar úr einu eða fleiru upprunakerfi.

@@ -1,5 +1,5 @@
 ---
-title: Fá aðgang að forskoðunareiginleikum í Microsoft Dynamics 365 Talent
+title: Vinna með eiginleika
 description: Þetta efnisatriði lýsir því hvernig stjórnandi getur virkjað forskoðunareiginleika í Microsoft Dynamics 365 Talent og listar þá eiginleika sem eru nú þegar virkjaðir fyrir forskoðun.
 author: tracykeya
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 0f9a83aeea3942d3c56d32956f79490c91565e9e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9f1fb4b929660bbe9018fb98169b3cfddcaec547
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551602"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833301"
 ---
-# <a name="access-preview-features-in-microsoft-dynamics-365-talent"></a>Fá aðgang að forskoðunareiginleikum í Microsoft Dynamics 365 Talent
+# <a name="manage-features"></a>Vinna með eiginleika
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Sem hluti af samfelldri kynningu okkar á afkastagetu mannauðsstjórnunar fyrir Microsoft Dynamics 365 Talent, viljum við að viðskiptavinir upplifi nýja eiginleika eins fljótt og auðið er. Stjórnendur geta séð og notað forskoðunareiginleika í umhverfi sínu. Þessar eiginleikar eru næstum tilbúnir til almenns framboðs og hafa farið í gegnum víðtækar prófanir. Við erum bara að falast eftir lokaumsögnum viðskiptavina og fullgildingu áður en við gefum þá út fyrir almenning.
 
@@ -117,6 +117,6 @@ Gakktu úr skugga um að persónuupplýsingar (allar upplýsingar sem þú gæti
 ## <a name="see-also"></a>Sjá einnig
 
 - [Prófaðu eða keyptu Talent-forrit](https://dynamics.microsoft.com/talent/overview/)
-- [Nýjungar](./whats-new.md)
-- [Athugasemdir við útgáfu](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Fá aðstoð fyrir Talent](./talent-support.md)
+- [Nýjungar eða breytingar í Dynamics 365 Talent](./whats-new.md)
+- [Útgáfuáætlanir](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Fá aðstoð fyrir Microsoft Dynamics 365 Talent](./talent-support.md)

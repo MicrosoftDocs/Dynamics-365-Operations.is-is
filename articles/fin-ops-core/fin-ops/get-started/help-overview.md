@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef630ca56888eb61ab0519a29c89c3ccb2f24a87
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537833"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811673"
 ---
 # <a name="help-system"></a>Hjálparkerfi
 
@@ -82,7 +82,7 @@ Fyrir nánari upplýsingar skal leita í [leiðbeiningar okkar fyrir þátttaken
 
 Verkefnaleiðbeiningar eru stýrð, leiðbeind, gagnvirka reynslu sem fer með þig í gegnum þrep í verki eða viðskiptaferli. Hægt er að opna (spila) verkefnaleiðbeiningar úr hjálparsvæðinu. Þegar er smellt í fyrsta skipti á verkefnaleiðbeiningar mun hjálparsvæði sýnir nákvæmar leiðbeiningar fyrir verkið. Staðfært verkleiðbeiningar eru í boði.
 
-Microsoft sendi verkefnaleiðbeiningar fyrir útgáfur í desember 2017 fyrir Dynamics 365 for Finance and Operations. Hlutinn [Fara í verkefnaleiðbeiningar úr hjálparsvæði](help-overview.md#accessing-task-guides-from-the-help-pane) lýsir því hvernig á að finna réttar verkefnaleiðbeiningar fyrir vöruna þína.
+Microsoft sendi verkefnaleiðbeiningar fyrir útgáfur í desember 2017 fyrir Dynamics 365 for Finance and Operations. Hlutinn [Hjálparkerfi](help-overview.md#accessing-task-guides-from-the-help-pane) lýsir því hvernig á að finna réttar verkefnaleiðbeiningar fyrir vöruna þína.
 
 ![Lesgluggi verkefnaleiðbeininga](./media/task-guide-ops.png)
 
@@ -144,13 +144,12 @@ Eftir að kerfisstjóri hefur lokið við þessi skref, er hægt að opna hjálp
 
 Hægt er að stofna hjálp fyrir notendur með því að stofna sérsniðnar verkefnaleiðbeiningar eða tengja eigið vefsvæði við hjálparsvæðið. Frekari upplýsingar eru í:
 
-- [Hvernig á að stofna verkskráningu til að nota sem fylgiskjöl eða þjálfun](../../dev-itpro/user-interface/task-recorder.md).
+- [Tilföng verkskráningar](../../dev-itpro/user-interface/task-recorder.md).
 - [Búðu til sérsniðna hjálp (hvítbók)](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-- [Verkskráning](../../dev-itpro/user-interface/task-recorder.md)
-- [Stofna fylgiskjölum eða þjálfun með verkskráningu](../../dev-itpro/user-interface/task-recorder.md)
+- [Tilföng verkskráningar](../../dev-itpro/user-interface/task-recorder.md)
 
 Í eftirfarandi töflu er listi yfir vefsíður okkar. Svæði sem hafa stjörnu (\*) við nafnið krefjast innskráningu með því að nota reikning sem tengist þjónustuáætlun.
 

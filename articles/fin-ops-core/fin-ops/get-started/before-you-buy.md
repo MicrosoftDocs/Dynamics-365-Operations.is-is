@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9b7cd06d820522d8db83b5b1480b95db1400e9cc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f8017ab23ce77a03469a6a6c82bc22986ec4478
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191248"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812627"
 ---
 # <a name="before-you-buy"></a>Áður en þú kaupir
 
@@ -41,8 +41,8 @@ Eftirfarandi atriði þarf að taka tillit til þegar þú velur virkjun á sta�
 
 - Nauðsynleg löggjöf og reglufylgni sem er ekki tiltæk í skýjavottunum
 - Aftengt viðskiptaferli með óreglulegri nettengingu sem þarf til að fá aðgang að Microsoft Dynamics Lifecycle Services (LCS) for application lifecycle management
-- [Eiginleikar sem eru ekki framkvæmdir með virkjun á staðnum](features-not-implemented-on-prem.md)
-- [Lágmarkskröfur innviða](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+- [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum](features-not-implemented-on-prem.md)
+- [Kerfiskröfur fyrir uppsetningu á staðnum](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
 > Virkjanir á staðnum á Microsoft Dynamics 365 for Finance and Operations eru ekki studdar á opnum skýjakerfum, þ.m.t Azure.
@@ -78,7 +78,7 @@ Microsoft veitandi skýjaþjónustu getur unnið náið með þér til að skilj
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Kaupa í gegnum Dynamics samstarfsaðila (á staðnum)
 
-Þú þarft að vinna með samstarfsaðila til að kaupa Finance and Operations á staðnum. Nánari upplýsingar er að finna í [Innkaup Dynamics 365 for Finance and Operations (á staðnum)](purchase-on-premises.md)
+Þú þarft að vinna með samstarfsaðila til að kaupa Finance and Operations á staðnum. Fyrir frekari upplýsingar skal sjá [Kaupa Finance + Operations (innanhúss)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Veldu þinn stuðningsvalkost
 
@@ -91,7 +91,7 @@ Frekari upplýsingar:
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Skref fjögur: Kynntu þér FastTrack og skipuleggðu þína virkjun
 
-Microsoft FastTrack fyrir Dynamics 365 er viðskiptavinaþjónusta okkar sem er hönnuð til að hjálpa þér að færa þig yfir í Dynamics 365 greiðlega og örugglega, svo þú öðlist fyrr rekstrarvirði. Þegar þú tekur þátt í FastTrack áætluninni færðu leiðsögn um bestu venjur og hvernig best er að skipuleggja vel heppnaðar innleiðingar. Þú lærir einnig leiðir til að virkja nýja notendur og auka getu, allt á þínum hraða. Þar að auki færðu aðgang að tilföngum Microsoft sem hafa það að markmiði að gera Dynamics 365 upplifun þína vel heppnaða. Frekari upplýsingar: [Microsoft FastTrack for Dynamics 365 yfirlit](fasttrack-dynamics-365-overview.md)
+Microsoft FastTrack fyrir Dynamics 365 er viðskiptavinaþjónusta okkar sem er hönnuð til að hjálpa þér að færa þig yfir í Dynamics 365 greiðlega og örugglega, svo þú öðlist fyrr rekstrarvirði. Þegar þú tekur þátt í FastTrack áætluninni færðu leiðsögn um bestu venjur og hvernig best er að skipuleggja vel heppnaðar innleiðingar. Þú lærir einnig leiðir til að virkja nýja notendur og auka getu, allt á þínum hraða. Þar að auki færðu aðgang að tilföngum Microsoft sem hafa það að markmiði að gera Dynamics 365 upplifun þína vel heppnaða. Meiri upplýsingar: [Microsoft FastTrack](fasttrack-dynamics-365-overview.md)
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Ef þú ert að uppfæra úr Dynamics AX 2012 eða flytja úr AX 2009
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 92ef83bc1783b00a4d7d9739ca1c17e863c7ff44
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8be4e225507a18a92d642ff0f3a6ca3d0ff68564
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185268"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772536"
 ---
 # <a name="parse-incoming-documents-in-json-format"></a>Þátta skjöl á innleið á JSON-sniði
 
@@ -46,7 +46,7 @@ Til að læra meira um þennan eiginleika skaltu hlaða niður skrám í eftirfa
 - JSON-fylki geta aðeins verið faldaðar einingar í eiginleikaeiningum hlutar.
 - JSON-fylki geta aðeins innihaldið JSON-hluti. Þau geta ekki innihaldið bein strengja-/tölugildi og faldaðar fylkingar. Einingar í þessum fylkjum verða þáttaðar í röð, eins og þær eru tilgreindar í forminu. Tekið verður tillit til margfeldisstillinga á hvern JSON-hlut.
 
-Að auki verður þú að ljúka verkleiðbeiningunum [ER Stofna nauðsynlegar skilgreiningar til að flytja inn gögn úr utanaðkomandi skrá til rafrænrar skýrslugerðar](tasks/er-required-configurations-import-data.md) ef þú hefur ekki þegar lokið þeim. Sæktu eftirfarandi skrá til að ljúka verkefnaleiðbeiningunni.
+Að auki verður þú að ljúka verkleiðbeiningunum [ER Stofna nauðsynlegar skilgreiningar til að flytja inn gögn úr utanaðkomandi skrá](tasks/er-required-configurations-import-data.md) ef þú hefur ekki þegar lokið þeim. Sæktu eftirfarandi skrá til að ljúka verkefnaleiðbeiningunni.
 
 | Titill                  | Skrárnafn |
 |------------------------|-----------|

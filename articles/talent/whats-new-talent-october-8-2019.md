@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-08
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 159320dcbdf257862378b347172ef71832e293dc
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 496603731eb343a64be1e8d9482ac8d42e6aa79a
+ms.sourcegitcommit: 7ef9e61f0388b5241894d40ff39f84a112232a5f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626063"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2694407"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-8-2019"></a>Nýjungar eða breytingar í Dynamics 365 Talent (8. október 2019)
 
@@ -57,15 +57,15 @@ Virkni fyrir starfsmannafærslur og leiðsögn er nú fáanleg í öllum umhverf
 
 Sjá frekari upplýsingar [Einfaldaður gagnainnsláttur starfsmanns](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/streamlined-employee-data-entry) í Dynamics 365: 2019 útgáfu bylgjuáætlun 2.
 
-### <a name="issue-attract-and-onboard-create-inactive-workers-in-core-hr-380517"></a>Mál: Attract og Onboard stofna óvirka starfsmenn í Core HR (380517)
+### <a name="attract-and-onboard-create-inactive-workers-in-core-hr-380517"></a>Attract og Onboard stofna óvirka starfsmenn í Core HR (380517)
 
 Útgáfa þessarar viku leiðréttir mál þar sem Attract og Onboard búa til óvirka starfsmenn í Core HR.
 
-### <a name="issue-the-workflow-fails-when-the-manager-is-signed-in-to-another-company-while-terminating-an-employee-346852"></a>Mál: Vinnuflæðið tekst ekki þegar stjórnandinn er skráður inn í annað fyrirtæki meðan hann segir upp starfsmanni (346852)
+### <a name="the-workflow-fails-when-the-manager-is-signed-in-to-another-company-while-terminating-an-employee-346852"></a>Vinnuflæðið tekst ekki þegar stjórnandinn er skráður inn í annað fyrirtæki meðan hann segir upp starfsmanni (346852)
 
 Verkflæðið bregst ekki lengur út frá lögaðilanum sem stjórnandinn er skráður inn á.
 
-### <a name="issue-missing-information-on-hcmonboardingworkerchecklisttaskentity-349591"></a>Mál: Upplýsingar vantar um HcmOnboardingWorkerChecklistTaskEntity (349591)
+### <a name="missing-information-on-hcmonboardingworkerchecklisttaskentity-349591"></a>Upplýsingar vantar um HcmOnboardingWorkerChecklistTaskEntity (349591)
 
 Þessi útgáfa inniheldur viðbótarupplýsingar um **HcmOnboardingWorkerChecklistTaskEntity**. Hér eru nokkur dæmi:
 
@@ -73,35 +73,35 @@ Verkflæðið bregst ekki lengur út frá lögaðilanum sem stjórnandinn er skr
 - **Heiti starfsmanns** þegar úthlutuð gerð er **starfsmaður**
 - **Heiti stjórnanda** þegar úthlutuð gerð er **stjórnandi**
 
-### <a name="issue-entities-arent-listed-in-alphabetical-order-in-common-data-service-administration-377414"></a>Mál: Einingar eru ekki skráðar í stafrófsröð í Common Data Service Aministration (377414)
+### <a name="entities-arent-listed-in-alphabetical-order-in-common-data-service-administration-377414"></a>Einingar eru ekki skráðar í stafrófsröð í Common Data Service Aministration (377414)
 
 Einingar eru núna skráðar í stafrófsröð í á síðunni **CDS Administration**.
 
-### <a name="issue-changing-the-employment-type-with-a-future-date-doesnt-allow-a-position-assignment-339958"></a>Mál: Að breyta starfstegundinni með framtíðardegi leyfir ekki stöðuverkefni (339958)
+### <a name="changing-the-employment-type-with-a-future-date-doesnt-allow-a-position-assignment-339958"></a>Að breyta starfstegundinni með framtíðardegi leyfir ekki stöðuverkefni (339958)
 
 Þessi breyting gerir ráð fyrir stöðuverkefnum þegar gerðum starfsmanna er breytt (til dæmis frá starfsmanni til verktaka).
 
-### <a name="issue-updating-the-common-data-service-leave-bank-transaction-entity-creates-a-new-record-in-talent-352938"></a>Mál: Uppfærsla á Common Data Service Eining orlofsbankafærslu stofnar nýja skrá í Talent (352938)
+### <a name="updating-the-common-data-service-leave-bank-transaction-entity-creates-a-new-record-in-talent-352938"></a>Uppfærsla á Common Data Service Eining orlofsbankafærslu stofnar nýja skrá í Talent (352938)
 
 Orlofsfærslan er nú uppfærð þegar uppfærsla er gerð á Common Data Service vegna orlofsbankafærslna.
 
-### <a name="issue-the-title-of-attachments-for-feedback-items-shows-the-feedback-description-343765"></a>Mál: Titill viðhengja fyrir athugasemdir sem sýnir endurgjöf sýnir athugasemdir viðbrögð (343765)
+### <a name="the-title-of-attachments-for-feedback-items-shows-the-feedback-description-343765"></a>Titill viðhengja fyrir athugasemdir sem sýnir endurgjöf sýnir athugasemdir viðbrögð (343765)
 
 Athugasemdalýsingin birtist ekki lengur í viðhengistitlinum.
 
-### <a name="issue-compensation-workflow-comments-field-shows-incorrect-content-339297"></a>Mál: Vinnuflæði fyrir bætur Athugasemdareit sýnir rangt efni (339297)
+### <a name="compensation-workflow-comments-field-shows-incorrect-content-339297"></a>Vinnuflæði fyrir bætur Athugasemdareit sýnir rangt efni (339297)
 
 Þessi breyting sýnir innihald reitsins **% HcmActionState.HcmWorkerActionComment.Comments%**.
 
-### <a name="issue-workcalendarentity-and-workcalendardayentity-arent-exposed-through-odata-376329"></a>Mál: WorkCalendarEntity og WorkCalendarDayEntity koma ekki í gegnum OData (376329)
+### <a name="workcalendarentity-and-workcalendardayentity-arent-exposed-through-odata-376329"></a>WorkCalendarEntity og WorkCalendarDayEntity koma ekki í gegnum OData (376329)
 
 Í þessari útgáfu segir m.a. **VinnaCalendarEntity** og **VinnaCalendarDayEntity** eru nú fáanlegar í gegnum Open Data Protocol (OData).
 
-### <a name="issue-hcmworkerentity-is-slow-when-odata-is-used-375221"></a>Mál: HCMWorkerEntity er hægt þegar OData er notað (375221)
+### <a name="hcmworkerentity-is-slow-when-odata-is-used-375221"></a>HCMWorkerEntity er hægt þegar OData er notað (375221)
 
 Breytingar bæta árangur **HCMWorkerEntity** þegar Microsoft Excel vinnubókaruppsetning er notuð.
 
-### <a name="issue-manager-performance-journal-entry-shows-an-error-after-deleting-a-performance-journal-and-creating-a-new-one-336061"></a>Mál: færsla dagbókar um frammistöðu stjórnanda sýnir villu eftir að eyðingu dagbókar var gerð og ný (336061)
+### <a name="manager-performance-journal-entry-shows-an-error-after-deleting-a-performance-journal-and-creating-a-new-one-336061"></a>Færsla dagbókar um frammistöðu stjórnanda sýnir villu eftir að eyðingu dagbókar var gerð og ný (336061)
 
 Þessi útgáfa leiðréttir mál sem kemur upp eftir að einni frammistöðubók er eytt og ný stofnuð strax eftir það. Þessi leiðrétting breytir hegðun í sjálfsafgreiðslu stjórnenda.
 

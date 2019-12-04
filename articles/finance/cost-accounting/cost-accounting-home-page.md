@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 074132af2111debee4bea894b559744b4470454d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78b3b20ed56cbb6404f5526e90fdcefcaec9bf3f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178292"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771962"
 ---
 # <a name="cost-accounting-home-page"></a>Heimasíða kostnaðarbókhalds
 
@@ -39,17 +39,17 @@ Eftirfarandi kennslukort sýnir helstu hugtök og verkefni sem eru í ramma eini
 
 |      |   |
 |------|---|
-|  [Grunnstilla grunneiningar (eLearning)](https://mbspartner.microsoft.com/Home) (krefst CustomerSource-reiknings)  |[Stofna víddir](cost-elements.md)  |
-|  [Stofna víddarstigveldi](dimension-hierarchy.md)  |[Stofna grunnuppsetningu](./tasks/define-cost-control-units.md)| 
-| [Skilgreina úthlutunargrunn](allocation-bases.md)|[Skilgreina reglur](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
-| [Gagnagjafi og gagnaveita](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Gagnagjafi og gagnaveita](./tasks/process-trace-source-data.md)     | 
-|[Útreikningur fastakostnaðar](overhead-calculation.md)  | [Greining og skýrslugerð](cost-control-workspace.md)   |
+|  [Grunnstilla grunneiningar (eLearning)](https://mbspartner.microsoft.com/Home) (krefst CustomerSource-reiknings)  |[Víddir kostnaðareiningar](cost-elements.md)  |
+|  [Víddarstigveldi](dimension-hierarchy.md)  |[Skilgreina kostnaðarstýringareiningar](./tasks/define-cost-control-units.md)| 
+| [Úthlutunargrunnar](allocation-bases.md)|[Stofna og úthluta kostnaðarúthlutunarreglu fyrir kostnaðarstýringareiningu](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [Stjórna gagnagjafa fyrir fjárhag kostnaðarbókhalds](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Vinna úr og rekja upprunagögn](./tasks/process-trace-source-data.md)     | 
+|[Útreikningur fastakostnaður](overhead-calculation.md)  | [Vinnusvæði kostnaðarstýringar](cost-control-workspace.md)   |
 
 ## <a name="get-started-videosbr"></a>Byrjendamyndskeið<br/>
 
 |  |  |                             |
 |------------------------|--------------------|-----------------------------|
 | [Hafist handa með kostnaðarbókhald](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [Fartækjavinnusvæði kostnaðarbókhalds](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [Nota Excel fyrir kostnaðarbókhaldsgreiningu](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
-|  |  |                             |
+
 
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2168b33c8495eab61ec0c8262b042cd16420031c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a643be553f3fcdfbe53f2024982a596e498830a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190098"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811294"
 ---
 # <a name="create-workflows-overview"></a>Stofna yfirlit yfir verkflæði
 
@@ -54,21 +54,21 @@ Fylgið eftirfarandi skrefum til að skilgreina eiginleika verkflæðis.
 
 1. Smellt er á striga til að tryggja að enginn verkflæðiseiningunni er valinn.
 2. Smellið á **eiginleikar** til að opna í **Eiginleika** fyrir verkflæðið.
-3. Farið að ferlinu í efninu [stilla eiginleika fyrir Verkflæði](configure-workflow-properties.md).
+3. Fylgdu ferlinu í efninu [Stilla verkflæðiseiginleika](configure-workflow-properties.md).
 
 ## <a name="configure-the-elements-of-the-workflow"></a>Skilgreinið einingar verkflæðisins
 
 Stilla hverja einingu sem er valinn og dreginn á striga. Nánari upplýsingar um hvernig á að skilgreina hverja verkflæðiseiningu er að finna í eftirfarandi efnisatriði.
 
-- [Skilgreina handvirkt verk](configure-manual-task-workflow.md)
-- [Skilgreina sjálfvirkt verk](configure-automated-task-workflow.md)
-- [Skilgreining samþykktarferlis](configure-approval-process-workflow.md)
-- [Skilgreining samþykktarskrefs](configure-approval-step-workflow.md)
-- [Skilgreining handvirkrar ákvörðunar](configure-manual-decision-workflow.md)
-- [Skilgreining skilyrtrar ákvörðunar](configure-conditional-decision-workflow.md)
-- [Skilgreining hliðstæðs verkþáttar](configure-parallel-activity-workflow.md)
-- [Skilgreina Hliðstæður grein](configure-parallel-branch-workflow.md)
-- [Skilgreina Verkflæði línuatriðis](configure-line-item-workflow.md)
+- [Skilgreina handvirk verk í verkflæði](configure-manual-task-workflow.md)
+- [Skilgreina sjálfvirk verk í verkflæði](configure-automated-task-workflow.md)
+- [Grunnstilla samþykktarferli í verkflæði](configure-approval-process-workflow.md)
+- [Grunnstilla samþykktarskref í verkflæði](configure-approval-step-workflow.md)
+- [Skilgreina handvirkar ákvarðanir í verkflæði](configure-manual-decision-workflow.md)
+- [Skilgreina skilyrtar ákvöarðanir í verkflæði](configure-conditional-decision-workflow.md)
+- [Skilgreina samhliða greinar í verkflæði](configure-parallel-activity-workflow.md)
+- [Skilgreining hliðstæðrar greinar](configure-parallel-branch-workflow.md)
+- [Skilgreina verkflæði línuatriða](configure-line-item-workflow.md)
 
 ## <a name="resolve-any-errors-or-warnings"></a>Leysa allar villur eða viðvaranir
 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bea02c6fe7b8e50be22be89eeb43a913851ddbfb
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 27c9bf32a88858ec2d2214f18ff96138c29e59bc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653534"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815158"
 ---
 # <a name="demand-forecasting-overview"></a>Yfirlit eftirspurnarspár
 
@@ -76,15 +76,15 @@ Eftirspurnarspá er verkfæri sem auðveldar viðskiptavini í framleiðsluiðna
 
 [Uppsetning eftirspurnarspár](demand-forecasting-setup.md)
 
-[Mynda tölfræðilega grunnlínuspá](generate-statistical-baseline-forecast.md)
+[Myndun tölfræðilegrar grunnlínuspár](generate-statistical-baseline-forecast.md)
 
 [Gera handvirkar leiðréttingar á grunnlínuspánni](manual-adjustments-baseline-forecast.md)
 
-[Heimila leiðrétta spá](authorize-adjusted-forecast.md)
+[Leiðrétt spá heimiluð](authorize-adjusted-forecast.md)
 
-[Fylgjast með nákvæmni spár](monitor-forecast-accuracy.md)
+[Eftirlit með nákvæmni spár](monitor-forecast-accuracy.md)
 
-[Fjarlægja frávik úr sögulegum færslugögn við útreikning á eftirspurnarspá](remove-historical-outliers-calculating-demand-forecast.md)
+[Fjarlægja einfara úr sögulegum færslugögnum við útreikning á eftirspurnarspá](remove-historical-outliers-calculating-demand-forecast.md)
 
 [Framlengja virkni eftirspurnarspár](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 731b6a61bd78388f3db0a7007478e3a5e9629a49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181428"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771284"
 ---
 # <a name="generate-printable-fti-forms"></a>Búa til eyðublöð fyrir reikninga með frjálsum texta sem hægt er að prenta
 
@@ -41,7 +41,7 @@ Til viðbótar við fyrirliggjandi getu til að búa til prentvæn eyðublöð r
 Sem hluti af sérsniðnu lausninni fyrir prentvæn eyðublöð reikninga með frjálsum texta getur þú búið til safn af grunnstillingum rafrænnar skýrslugerðar.
 
 ### <a name="configure-the-er-data-model"></a>Skilgreina gagnalíkan rafrænnar skýrslugerðar
-Jöfnunin þín verður að taka með skilgreiningu á gagnalíkani rafrænnar skýrslugerðar sem inniheldur gagnalíkan sem lýsir reikningsfærðu viðskiptaléni viðskiptavinar. Sem skilyrði verður heiti gagnalíkansins að vera **CustomersInvoicing**. Nánari upplýsingar um hvernig á að hanna gagnalíkön rafrænnar skýrslugerðar er að finna í [Hanna gagnalíkan fyrir sérstakt lén fyrir rafræna skýrslugerð (ER)](tasks/er-design-domain-specific-data-model-2016-11.md).
+Jöfnunin þín verður að taka með skilgreiningu á gagnalíkani rafrænnar skýrslugerðar sem inniheldur gagnalíkan sem lýsir reikningsfærðu viðskiptaléni viðskiptavinar. Sem skilyrði verður heiti gagnalíkansins að vera **CustomersInvoicing**. Nánari upplýsingar um hvernig á að hanna gagnalíkön rafrænnar skýrslugerðar er að finna í [ER-hönnunarlénsbundin gagnalíkön](tasks/er-design-domain-specific-data-model-2016-11.md).
 
 ### <a name="configure-the-er-model-mapping"></a>Skilgreina vörpun líkans rafrænnar skýrslugerðar
 Forritið þitt verður að innihalda vörpun líkans rafrænnar skýrslugerðar fyrir gagnalíkan CustomersInvoicing. Vörpun líkans getur verið í annaðhvort skilgreiningu gagnalíkans rafrænnar skýrslugerðar eða skilgreiningu fyrir vörpun líkans rafrænnar skýrslugerðar. Heiti rótarlýsingar fyrir vörpun líkans verður hins vegar að vera **FreeTextInvoice**.
@@ -62,7 +62,7 @@ Vörpunin verður að innihalda eftirfarandi gagnaveitur:
 
 Upplýsingar um samþættingu forritsins við ramma rafrænnar skýrslugerðar er hægt að finna í **ERPrintMgmtReportFormatSubscriber** klasanum (samþættingarlíkan fyrir forritapakka rafrænnar skýrslugerðar) í frumkóða forritsins.
 
-Nánari upplýsingar um hönnunina á líkanavörpun rafrænnar skýrslugerðar er að finna í [Skilgreina líkanavörpun og velja gagnaveitur fyrir rafræna skýrslugerð (ER)](tasks/er-define-model-mapping-select-data-sources-2016-11.md).
+Nánari upplýsingar um hönnunina á ER-líkanavörpun er að finna í [Skilgreina ER-líkanavarpanir og velja gagnaveitur fyrir þær](tasks/er-define-model-mapping-select-data-sources-2016-11.md).
 
 ### <a name="configure-the-er-format"></a>Skilgreina snið rafrænnar skýrslugerðar
 Í forritatilviki þínu verður þú að hafa þá grunnstillingu fyrir rafræna skýrslugerð sem verður notuð til að búa til eyðublöð reikninga með frjálsum texta. 
@@ -70,7 +70,7 @@ Nánari upplýsingar um hönnunina á líkanavörpun rafrænnar skýrslugerðar 
 > [!NOTE]
 > Þessi grunnstilling á sniði verður að vera búin til fyrir gagnalíkanið CustomersInvoicing og hún verður að nota vörpun líkans sem er með rótarlýsinguna **FreeTextInvoice**.
 
-Nánari upplýsingar um hvernig á að grunnstilla snið rafrænnar skýrslugerðar er að finna í [Stofna skilgreiningu sniðs fyrir rafræna skýrslugerð (ER)](tasks/er-format-configuration-2016-11.md). Nánari upplýsingar um hvernig á að hanna snið rafrænnar skýrslugerðar til að búa til skýrslur í OpenXML-sniði er að finna í [Hanna skilgreiningu fyrir myndun skýrslna á OpenXML-sniði fyrir rafræna skýrslugerð (ER)](tasks/er-design-reports-openxml-2016-11.md).
+Nánari upplýsingar um hvernig á að grunnstilla snið rafrænnar skýrslugerðar er að finna í [ER Stofna skilgreiningu (Nóvember 2016)](tasks/er-format-configuration-2016-11.md). Nánari upplýsingar um hvernig á að hanna snið rafrænnar skýrslugerðar til að búa til skýrslur í OpenXML-sniði er að finna í [ER Hanna skilgreiningu fyrir myndun skýrslna á OPENXML-sniði (nóvember 2016)](tasks/er-design-reports-openxml-2016-11.md).
 
 ## <a name="configure-print-management"></a>Skilgreina prentstýringu
 Til að búa til eyðublöð reikninga með frjálsum texta með því að nota ramma rafrænnar skýrslugerðar, getur þú úthlutað sniðum rafrænnar skýrslugerðar á sama hátt og þú úthlutar SSRS-skýrslum. Til að tengja snið rafrænnar skýrslugerðar við allar viðskiptakröfur reikninga með frjálsum texta skal fara í **Viðskiptakröfur** \> **Uppsetning** \> **Eyðublöð** \> **Uppsetning eyðublaðs** \> **Almennt** \> **Prentstýring** \> **Reikningur með frjálsum texta** \> **Upprunalegt**. Til að tengja snið rafrænnar skýrslugerðar við tiltekinn viðskiptavin eða reikning skal fylgja þessum skrefum.
@@ -94,7 +94,7 @@ Til að búa til eyðublöð reikninga með frjálsum texta er hægt að velja r
 
 ![Forskoðun reiknings](media/FTIbyGER-InvoiceExcelPreview.png)
 
-Þegar þú notar snið rafrænnar skýrslugerðar til að prenta eyðublöð reikninga með frjálsum texta á þennan hátt, eru sjálfgefnir viðtökustaðir fyrir skrár rafrænnar skýrslugerðar notaðir. Ekki er hægt að breyta viðtökustaðnum. Frekari upplýsingar um hvernig á að grunnstilla viðtökustaði rafrænnar skýrslugerðar fyrir ramma rafænnar skýrslugerðar er að finna í [Viðtökustaðir rafrænnar skýrslugerðar](electronic-reporting-destinations.md).
+Þegar þú notar snið rafrænnar skýrslugerðar til að prenta eyðublöð reikninga með frjálsum texta á þennan hátt, eru sjálfgefnir viðtökustaðir fyrir skrár rafrænnar skýrslugerðar notaðir. Ekki er hægt að breyta viðtökustaðnum. Frekari upplýsingar um hvernig á að grunnstilla viðtökustaði rafrænnar skýrslugerðar fyrir ramma rafænnar skýrslugerðar er að finna í [Viðtökustaðir rafrænnar skýrslugerðar (ER)](electronic-reporting-destinations.md).
 
 Þú getur einnig búið til eyðublöð reikninga með frjálsum texta þegar þú bókar reikning með frjálsum texta með því að kveikja á **Prenta reikning** og slökkva á **Nota viðtökustað prentstýringar**.
 
@@ -224,4 +224,4 @@ Segðin **Emailing.TxtToUse.Body** sýnishornasniðsins er skilgreind fyrir efti
 ![Netfang](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
-[Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
+[Yfirlit yfir rafræna skýrslugerð (ER)](general-electronic-reporting.md)

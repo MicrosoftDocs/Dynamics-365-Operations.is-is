@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d51b9a7684e460d555632c3896e9dd8a4e10d92c
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 005b04bd4c3476356f30ba8e97564f83307a64c7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626179"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811748"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Sjálfvirk uppfærsla á eignateljurum
 
@@ -43,16 +43,16 @@ Eins og getið er hér að ofan er hægt að uppfæra sjálfvirka teljara úr fr
 
 2. Í reitnum **Frá dagsetningu** velurðu upphafsdagsetningu sjálfvirku uppfærslunnar.
 
->[!NOTE]
->Dagsetningin í þessum reit er dagsetningin „verk í vinnslu“ frá og með **Leiðarfærslur** (reiturinn **Framleiðslustýring** > **Fyrirspurnir og skýrslur** > **Framleiðsla** > **Leiðarfærslur** > **Efnisleg dagsetning**).
+    >[!NOTE]
+    >Dagsetningin í þessum reit er dagsetningin „verk í vinnslu“ frá og með **Leiðarfærslur** (reiturinn **Framleiðslustýring** > **Fyrirspurnir og skýrslur** > **Framleiðsla** > **Leiðarfærslur** > **Efnisleg dagsetning**).
 
 3. Á flýtiflipanum **Færslur til að taka með** er hægt að velja tilteknar eignir, eignategundir eða tilföng fyrir sjálfvirka uppfærslu. Veldu **Sía** og gerðu viðeigandi val.
 
 4. Á flýtiflipanum **Keyra í bakgrunni** geturðu sett upp sjálfvirka uppfærslu sem runuvinnslu, eftir þörfum.
 
-Myndin hér að neðan sýnir dæmi um gluggann **Uppfæra eignateljara**.
+    Myndin hér að neðan sýnir dæmi um gluggann **Uppfæra eignateljara**.
 
-![Mynd 1](media/12-work-orders.png)
+    ![Mynd 1](media/12-work-orders.png)
 
 5. Veljið **Í lagi**. 
 

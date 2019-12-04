@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 0f4c68acfe021e736c259e91a40ce7d43d401246
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552003"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812880"
 ---
 # <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>Breyta nýliðakynnngu og -sniðmátum í Dynamics 365 Talent - Onboard
 
@@ -124,7 +124,7 @@ Til að senda breytingarnar þínar:
 
     - Til að bæta myndbandi við á YouTube skaltu draga **YouTube** liðinn yfir á klippusvæðið, slá inn heiti og lýsingu á verkþættinum og slá inn slóðina fyrir YouTube myndbandið.
     - Til að bæta við Sway-kynningu eða -fréttabréfi dregurðu **Sway**-liðinn yfir á klippusvæðið, slærð inn heiti og lýsingu á verkþættinum og slærð inn ívafna slóð fyrir Sway-kynninguna eða -fréttabréfið.
-    - Til að bæta við PowerApps-forriti skaltu draga **PowerApps**-liðinn yfir á klippusvæðið, slá inn heiti og lýsingu á verkþættinum og annaðhvort velja PowerApps-forritið eða slá inn PowerApps-forritsauðkenni.
+    - Til að bæta við Microsoft Power Apps-forriti skaltu draga **Power Apps**-liðinn yfir á klippusvæðið, slá inn heiti og lýsingu á verkþættinum og annaðhvort velja Power Apps-forritið eða slá inn Power Apps-forritsauðkenni.
     - Til að bæta myndbandi við á Microsoft Stream skaltu draga **Microsoft Stream** liðinn yfir á klippusvæðið, slá inn heiti og lýsingu á verkþættinum og slá inn slóðina fyrir Microsoft Stream myndbandið.
     - Til að bæta við Microsoft Forms-skjámynd skaltu draga **Microsoft Forms**-liðinn yfir á klippusvæðið, slá inn heiti og lýsingu á verkþættinum, slá inn slóðina fyrir Microsoft Forms-skjámyndina og tilgreina stærð skjásvæðisins.
     - Til að bæta við iframe sem inniheldur vefefni skaltu draga liðinn **Vefefni (iframe)** yfir á klippusvæðið, slá inn heiti og lýsingu á verkþættinum, slá inn slóðina fyrir Microsoft Forms-skjámyndina og tilgreina stærð skjásvæðisins.
@@ -186,6 +186,6 @@ Til að breyta tengilið velurðu hnappinn **Breyta** (blýantstáknið) til hæ
 ### <a name="see-also"></a>Sjá einnig
 
 - [Prófaðu eða keyptu Onboard-forritið](https://dynamics.microsoft.com/talent/onboard/)
-- [Nýjungar](./whats-new.md)
-- [Athugasemdir við útgáfu](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Fá aðstoð](./talent-support.md)
+- [Nýjungar eða breytingar í Dynamics 365 Talent](./whats-new.md)
+- [Útgáfuáætlanir](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Fá aðstoð fyrir Microsoft Dynamics 365 Talent](./talent-support.md)

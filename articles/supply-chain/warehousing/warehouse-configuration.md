@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: aa503f2ce3ae8ff6b221ea1d26a1c62d0ba37646
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653419"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814905"
 ---
 # <a name="warehouse-configuration-overview"></a>Yfirlit yfir skilgreiningu vöruhúss
 
@@ -31,7 +31,8 @@ ms.locfileid: "2653419"
 
 Þessi grein útskýrir hvernig eigi að stilla vöruhús. Þar er meðal annars að finna upplýsingar um hvernig á að virkja útlit vöruhús og ferli vöruhúsa.
 
-**Ábending:** Þessi grein á við um aðgerðir í á **Vöruhúsakerfi** einingunni (ítarlegt vöruhús). Það á ekki við um aðgerðir vöruhúss í **birgðastjórnunarkerfi**.
+> [!NOTE]
+> Þessi grein á við um aðgerðir í á einingunni **Vöruhúsakerfi** (ítarlegt vöruhús). Það á ekki við um aðgerðir vöruhúss í **birgðastjórnunarkerfi**.
 
 ## <a name="warehouse-layout"></a>Útlit Vöruhúss
 Stjórnkerfi Vöruhúss í Supply Chain Management býður upp á sveigjanlega leiðir til að skilgreina útlit vöruhúss til að mæta síbreytilegum þörfum þannig að hægt er að ná bestu skilvirkni vöruhúss.
@@ -114,7 +115,7 @@ Til að gera það auðveldara og fljótlegra að skilgreina aðgerðir sem eru 
 <a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Skilgreina staðsetningar í vöruhúsakerfisvirkjuðu vöruhúsi (verkefnaleiðbeiningar)](tasks/configure-locations-wms-enabled-warehouse.md)
+[Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi](tasks/configure-locations-wms-enabled-warehouse.md)
 
 
 

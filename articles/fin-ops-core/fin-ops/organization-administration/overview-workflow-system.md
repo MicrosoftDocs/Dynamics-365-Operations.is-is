@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e5e795ca6f7831ecd3fa28be9782f0b287eea6e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: eef77a5d81d12ec92eea86b1dd9902d9e3d80b33
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190006"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812364"
 ---
 # <a name="workflow-system-overview"></a>Yfirlit yfir verkflæðiskerfi
 
@@ -57,18 +57,18 @@ Nokkrir kostir eru við að nota verkflæðiskerfi í fyrirtækinu:
 
 ## <a name="workflow-content"></a>Samhengi verkflæðis
 
-+ [Uppbygging verkflæðis](workflow-system-architecture.md)
++ [Kerfisskipulag verkflæðis](workflow-system-architecture.md)
 + [Verkflæðiseiningar](workflow-elements.md)
-+ [Verkflæðisaðgerðir](workflow-actions.md)
-+ [Verkflæði stofnað](create-workflow.md)
++ [Verkþættir í samþykktarferli verkflæðis](workflow-actions.md)
++ [Yfirlit yfir stofnun verkflæðis](create-workflow.md)
 + [Skilgreining verkflæðiseiginleika](configure-workflow-properties.md)
-+ [Skilgreina handvirkt verk í verkflæði](configure-manual-task-workflow.md)
-+ [Skilgreina sjálfvirkt verki í verkflæði](configure-automated-task-workflow.md)
-+ [Skilgreina samþykktarferli í verkflæði](configure-approval-process-workflow.md)
-+ [Skilgreina samþykktarskref í verkflæði](configure-approval-step-workflow.md)
-+ [Skilgreina handvirka ákvörðun í verkflæði](configure-manual-decision-workflow.md)
-+ [Skilgreina skilyrta ákvörðun í verkflæði](configure-conditional-decision-workflow.md)
-+ [Grunnstilla hliðstæðan verkþátt í verkflæði](configure-parallel-activity-workflow.md)
-+ [Grunnstilla samhliða grein í verkflæði](configure-parallel-branch-workflow.md)
-+ [Skilgreining verkflæðis línuatriðis](configure-line-item-workflow.md)
++ [Skilgreina handvirk verk í verkflæði](configure-manual-task-workflow.md)
++ [Skilgreina sjálfvirk verk í verkflæði](configure-automated-task-workflow.md)
++ [Grunnstilla samþykktarferli í verkflæði](configure-approval-process-workflow.md)
++ [Grunnstilla samþykktarskref í verkflæði](configure-approval-step-workflow.md)
++ [Skilgreina handvirkar ákvarðanir í verkflæði](configure-manual-decision-workflow.md)
++ [Skilgreina skilyrtar ákvöarðanir í verkflæði](configure-conditional-decision-workflow.md)
++ [Skilgreina hliðstæða verkþætti í verkflæði](configure-parallel-activity-workflow.md)
++ [Skilgreina samhliða greinar í verkflæði](configure-parallel-branch-workflow.md)
++ [Skilgreina verkflæði línuatriða](configure-line-item-workflow.md)
 + [Algengar spurningar um verkflæði](workflow-FAQ.md)

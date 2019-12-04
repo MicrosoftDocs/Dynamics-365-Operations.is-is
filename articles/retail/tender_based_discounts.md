@@ -3,7 +3,7 @@ title: Útboðsbundin afsláttur
 description: Þetta efni veitir yfirlit yfir virkni sem við skulum láta smásala stilla afslátt fyrir ákveðnar útboðsgerðir.
 author: bebeale
 manager: AnnBe
-ms.date: 10/25/19
+ms.date: 10/30/19
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 245ee647a3b86303df046fda5bba406c7a2485b5
-ms.sourcegitcommit: b0c176d5d24939307c6d0a6dbe7656007ca53710
+ms.openlocfilehash: ed17b43ac16ebcd310716271b84bbbd904a3253a
+ms.sourcegitcommit: dc31a0f0d9216aa05be76046ac7410702b20706f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "2673566"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692224"
 ---
 # <a name="tender-based-discounts"></a>Útboðsbundin afsláttur
 
@@ -40,6 +40,7 @@ Að öðrum kosti gætu smásalar sem ekki bjóða upp á vörumerkt kreditkort 
 Útboðsbundin afsláttur keppir ekki við vöruafslátt, eins og reglubundinn eða handvirkan afslátt. Þeir eru alltaf samsettir á vöruafslætti. Þess vegna, jafnvel þótt beinn reglubundinn afsláttur sé notaður á vöru, er útboðsbundnum afslætti ennþá beitt ofan á beinan reglubundinn afslátt. Sömuleiðis, ef þröskuldarafslætti er beitt á færsluna og útboðsbundinn afsláttur lækkar samtöluna undir viðmiðunarmörk, er þröskuldafslætti enn beitt á færsluna.
 
 Jafnvel þó að útboðsbyggður afsláttur dragi úr millisamtölu færslunnar hefur það ekki áhrif á sjálfvirk gjöld sem er beitt á færsluna. Til dæmis, ef afhendingargjöld eru reiknuð sem $5 vegna þess að millisamtalan var yfir $100, og útboðsbundinn afsláttur minnkar magnið þannig að það er minna en $100, eru afhendingargjöldin ennþá $5 fyrir pöntunina.
+
 
 > [!NOTE]
 > Útboðsbundnum afslætti er hlutfallslega dreift til hæfra sölulína og lækkar upphæð fyrir skatta af einstökum línum. Ef margfeldi útboðsafsláttar er stillt fyrir útboðsgerð (til dæmis reiðufé) er aðeins besti útboðsbundna afslættinum beitt.
@@ -57,6 +58,7 @@ Við kortagreiðslur geta smásalar stillt útboðsbundinn afslátt á einni eð
 
 Til að koma í veg fyrir þetta ástand, ef viðskiptavinur borgar með kreditkorti, sér gjaldkerinn valmynd sem sýnir kreditkort sem munu veita viðskiptavininum viðbótarsparnað. Gjaldkeri getur síðan spurt hvort viðskiptavinurinn vilji nota eitt af völdu kortunum til að fá viðbótarafslátt. Ef gjaldkerinn notar valið kort er útboðsbundnum afslætti beitt á færsluna og lækkuð upphæð er sýnd á greiðsluskjánum. Heimildin verður fyrir lægri fjárhæð. Ef viðskiptavinurinn setur inn kort sem er frábrugðið kortinu sem gjaldkerinn valdi, birtast villuboð og heimildin fellur úr gildi.
 
+
 ## <a name="call-center-user-experience"></a>Reynsla af símaþjónustuverum
 
 Þegar notandinn velur **Lokið** meðan á pöntun miðstöðvar stendur er skjárinn **Heildartölur** sýndur. Til að byrja með eru heildartölurnar á þessum skjá ekki með afslætti sem byggir á útboðum því greiðslumátinn hefur ekki enn verið valinn. Á skjánum **Bæta við greiðslu**, ef notandinn velur greiðslumáta sem útboðsbundinn afsláttur er stilltur fyrir, er greiðslufjárhæðin sjálfkrafa leiðrétt þannig að hún endurspeglar upphæð með afslætti. Eins og viðskiptavinurinn í POS, getur viðskiptavinur símaþjónustunnar ákveðið hvort greiða eigi alla greiðsluna eða að hluta til. Miðað við fjárhæðina sem er greidd er útboðsbundnum afslætti beitt á sölupöntunina.
@@ -66,7 +68,7 @@ Til að koma í veg fyrir þetta ástand, ef viðskiptavinur borgar með kreditk
 
 ## <a name="exclude-items-from-discounts"></a>Útiloka vörur frá afslætti
 
-Söluaðilar velja oft að útiloka sumar vörur, svo sem nýja hluti eða eftirspurn, frá afslætti. Samt sem áður gætu þeir viljað beita afslætti sem byggir á útboðum. Til dæmis, smásali stillir Retail þannig að hún leyfir ekki vöruafslátt eða handvirkan afslátt. Hins vegar, ef viðskiptavinurinn greiðir með því að nota valið útboð, beitir Retail útboðsbundnum afslætti samt sem áður. Til að setja upp smásölu með þessum hætti verða smásalar að slökkva á **Koma í veg fyrir allan afslátt** og **Koma í veg fyrir útboðsbundinn afslátt** og kveikja á valkostinum **Koma í veg fyrir smásöluafslátt** og **Koma í veg fyrir handvirkan afslátt**. Valkostirnir eru á síðunni **Útgefnar afurðir** á flipanum **Retail**.
+Söluaðilar velja oft að útiloka sumar vörur, svo sem nýja hluti eða eftirspurn, frá afslætti. Samt sem áður gætu þeir viljað beita afslætti sem byggir á útboðum. Til dæmis, smásali stillir Retail þannig að hún leyfir ekki vöruafslátt eða handvirkan afslátt. Hins vegar, ef viðskiptavinurinn greiðir með því að nota valið útboð, beitir Retail útboðsbundnum afslætti samt sem áður. Til að setja upp Retail með þessum hætti verða smásalar að fara í **Vöruupplýsingastjórnun > Afurðir > Útgefnar afurðir**, velja vöruna og síðan, á flýtiflipanum **Retail**, stilla valkostina **Koma í veg fyrir alla afslætti** og **Koma í veg fyrir útboð á grundvelli útboða** á **Nei** og valkostina **Koma í veg fyrir smásöluafslátt** og **Koma í veg fyrir handvirka afslætti** á **Já**.
 
 > [!NOTE]
-> Þegar kveikt er á skilgreiningunni **Koma í veg fyrir allan afslátt** verður engum afslætti beitt á vöruna. Ekki einu sinni útboðsbundnum afslætti verður beitt.
+> Þegar skilgreiningin **Koma í veg fyrir allan afslátt** er stillt á **Já** verður engum afslætti beitt á vöruna. Ekki einu sinni útboðsbundnum afslætti verður beitt.

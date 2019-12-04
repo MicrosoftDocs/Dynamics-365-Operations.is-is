@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 039b5d7ace19fa93e6db4920153f4a1a67519c85
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d5bae90cf7c8f11fa5409014023d36cc68ae1bd0
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178316"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770874"
 ---
 # <a name="position-forecasting"></a>Stöðuspá
 
@@ -33,7 +33,7 @@ ms.locfileid: "2178316"
 
 ## <a name="position-forecasting-in-budget-planning"></a>Stöðuspá í fjárhagsáætlunargerð
 
-[![Efstu myndrænt](./media/graphic-top.png)](./media/graphic-top.png) 
+[![Íhlutir stöðuspár](./media/graphic-top.png)](./media/graphic-top.png) 
 
 Stöðuspá notar þrjá aðalíhluti til að veita nákvæmar áætlunarupphæðir fyrir stöðukostnað. Síðan má færa þessar upphæðir inn í fjárhagsáætlunargerð fyrir útreikning á fjárhagsáætlunagsáætlun. 
 
@@ -45,14 +45,14 @@ Aðalíhluturinn er **spástaða** sem stendur fyrir öll kostnaðargögn sem er
 
 ### <a name="position-forecasting-processes"></a>Ferli stöðuspár
 
-[![graphic1b](./media/graphic1b.png)](./media/graphic1b.png) 
+[![Skýringarmynd af ferlum stöðuspár](./media/graphic1b.png)](./media/graphic1b.png) 
 
 Í dæmigerðu ferli fyrir stöðuspár verður fyrst að stofna uppsetningaríhluti (kostnaðareiningar fjárhagsáætlunar og launaflokka). Spástöður eru síðan myndaðar, byggt á núverandi stöðum. Þá er hægt að gera breytingar. Til dæmis er hægt bæta við eða ljúka stöðum, breyta launatöxtum og kostnaði sem tengist fríðindium og bæta við launahækkunum. Hægt er að stofna margar útgáfur spástöðu til að auðvelda samanburð á ólíkum aðstæðum fjárhagsáætlunargerðar. Næst er hægt að taka spástöður inn í fjárhagsáætlunargerðir og færa inn kostnað úr spástöðunum sem línur fjárhagsáætlunargerðar.
 
 Hægt er að stofna viðbótarútgáfur spástöðu þegar fjárhagsáætlanir eru endurskoðaðar. Þessar nýjar útgáfur skapa grundvöll fyrir endurskoðanir.
 
 ## <a name="position-forecasting-setup"></a>Uppsetning stöðuspár
-[![graphic2](./media/graphic2-1024x327.png)](./media/graphic2.png)
+[![Uppsetning á auðkenningu skýringarmyndar](./media/graphic2-1024x327.png)](./media/graphic2.png)
 
 ### <a name="budget-cost-elements"></a>Kostnaðareiningar fyrir þessa fjárhagsáætlun
 
@@ -89,7 +89,7 @@ Reitirnir **Bæta við áætlun** og **Dagsetning aukningar** í launaflokknum e
 Kostnaðareining tekna sem er valin í launaflokknum er notuð þegar tekjur eru stofnaðar fyrir spástöður í flokknum, þar með talið grunnlaun og allar þrepaaukningar. Reiturinn **Fyrirkomulag fastra Launa** tengir launaflokk við fyrirkomulag fastra launa í mannauði. Þessi tengill getur úthlutað upplýsingum um föst laun starfsmanns á spástöðu og getur þess vegna gert fjárhagsáætlunargerð nákvæmari. Munið að skipan launanets (stig og þrep) fyrir launaflokk ætti að samsvara skipan launafyrirkomulags fastra launa. Annars getur kerfið ekki tengt launaflokk og launafyrirkomulag fastra launa á réttan hátt.
 
 ## <a name="creating-forecast-positions"></a>Stofnar nýja stöðuspá
-[![graphic3](./media/graphic3-1024x327.png)](./media/graphic3.png)
+[![Skýringarmyndi sem auðkennir „stofnun á spástöðum“](./media/graphic3-1024x327.png)](./media/graphic3.png)
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Stofna spástöður fyrir fyrirliggjandi stöður
 
@@ -105,7 +105,7 @@ Ef kostnaðareining fjárhagsáætlunar er valin er árlegri upphæð fastra lau
 
 Stillingin á valkostinum **Úthluta launaflokki** hefur forgang fram yfir stillinguna **Úthlutun kostnaðareiningar fjárhagsáætlunar**. Hægt er að nota stillingarnar tvær á sama tíma. 
 
-[![graphic4](./media/graphic4.png)](./media/graphic4.png) 
+[![Línuritið „Velja launaflokk“](./media/graphic4.png)](./media/graphic4.png) 
 
 Annar valkostur er að úthluta árlegri dagsetningu. Valin dagsetning (leiðréttur upphafsdagur, upphafsdagur starfsmanns, upphafsdagur starfs eða starfsaldursdagsetning) úthlutaðs starfsmanns er síðan stillt sem árleg dagsetning spástöðu og er notuð til upplýsinga og þegar launahækkanir eru myndaðar.
 
@@ -118,7 +118,7 @@ Hægt er að stofna nýja spástöður á tvo vegu: með afritun á fyrirliggjan
 Einnig er hægt að búa til alveg nýja spástöðu. Veldu fyrirliggjandi starf og veldu einnig ferli fjárhagsáætlunargerðar og aðstæður fjárhagsáætlunargerðar. Síðan er hægt að bæta við öðrum upplýsingum sem óskað er eftir. Enn aftur, ný staða stofnuð er um leið í mannauði.
 
 ## <a name="working-with-forecast-positions"></a>Unnið með spástöður
-[![graphic5](./media/graphic5-1024x327.png)](./media/graphic5.png)
+[![Skýringarmyndi sem auðkennir „breytingu á spástöðum“](./media/graphic5-1024x327.png)](./media/graphic5.png)
 
 ### <a name="multiple-versions-of-a-forecast-position"></a>Margar útgáfur spástöðu
 
@@ -174,7 +174,7 @@ Endurútreikningsferlið er sjálfkrafa notað á allar spástöður sem hafa br
 
 ## <a name="bringing-forecast-positions-into-budget-plans"></a>Spástöður settar inn í fjárhagsáætlanir
 
-[![graphic6](./media/graphic6-1024x327.png)](./media/graphic6.png)
+[![Mynd sem auðkennir „Bæta við fjárhagsáætlun“](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
 Tilgangur stofnunar og breytinga á spástöðum er að bæta þeim við fjárhagsáætlanir, svo að fjárhagsáætlanirnar innihaldi sem nákvæmastar upphæðir fjárhagsáætlunar. Það eru tvær aðferðir til að bæta spástöðum við fjárhagsáætlanir. Hægt er að nota myndunarferli eða valferli á fjárhagsáætlunargerðina.
 

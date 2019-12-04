@@ -1,5 +1,5 @@
 ---
-title: Settu upp ferilssíðu þína í Microsoft Dynamics 365 Talent - Attract
+title: Settu upp ferilssíðu í Attract
 description: Þetta efnisatriði veitir yfirlit um starfatorg sem snýr að umsækjendum í Microsoft Dynamics 365 Talent - Attract.
 author: hasrivas
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 256ef1b335ddf0c908704b14eca0883ee98d2038
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: d4a1e7c19ccec6ae32e46ec7d58604b162418953
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551096"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832955"
 ---
-# <a name="set-up-your-career-site-in-microsoft-dynamics-365-talent---attract"></a>Settu upp ferilssíðu þína í Microsoft Dynamics 365 Talent - Attract
+# <a name="set-up-your-career-site-in-attract"></a>Settu upp ferilssíðu í Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Þetta efnisatriði veitir yfirlit yfir starfatorg sem snýr að umsækjendum í Microsoft Dynamics 365 Talent: Attract. Það útskýrir einnig hvernig á að setja upp þessa virkni.
 

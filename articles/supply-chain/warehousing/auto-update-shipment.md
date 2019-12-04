@@ -3,7 +3,7 @@ title: Sjálfvirkar uppfærslur á sendingu
 description: Þetta efni veitir yfirlit yfir virkni sem veitir sjálfvirkar uppfærslur fyrir sendingar.
 author: josaw1
 manager: AnnBe
-ms.date: 08/13/2019
+ms.date: 11/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,15 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 160ad55a12d13fdb64e55effaabb1848179e71cf
-ms.sourcegitcommit: c35dfce2c0605d6f46365ce5d985c22187d21761
+ms.openlocfilehash: e42e7f19311adee7cc48f0ad0b59a4d0d54df9aa
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1986118"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773544"
 ---
 # <a name="shipment-auto-updates"></a>Sjálfvirkar uppfærslur á sendingu
 
-[!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
 
 Sjálfvirk uppfærsla flutnings uppfærir sjálfkrafa magn (bæði eykur og lækkar) á álagslínu sem er tengd sendingu, eftir að álagið hefur verið losað í vöruhús. Áfram er kveikt á þessari virkni þar til álagslínan á sendingu eða álagi er unnin í bylgju. Þegar það er notað geta pöntunaruppfærslur sjálfkrafa streymt til vörugeymslu, án þess að þurfa handvirkar íhlutanir, þar til vinna vörugeymslu er búin til.

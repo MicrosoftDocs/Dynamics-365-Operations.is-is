@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cf4eb74acbd305eb67861ab3f09648bf8af8f86c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: ba01f0d16341eb9b0ec0918798e458626b5ef90e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025054"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811194"
 ---
 # <a name="retail-peripherals"></a>Retail-jaðarbúnaður
 
@@ -35,11 +35,17 @@ ms.locfileid: "2025054"
 
 ### <a name="pos-registers"></a>Afgreiðslukassar
 
-Fletting: Smella á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning POS** &gt; **Afgreiðslukassar**. Punktur afgreiðslukassa á sölustað er eining sem er notuð til að skilgreina eiginleika sértækts tilviks í POS. Þessir eiginleikar taka til vélbúnaðarsniðs eða uppsetningar fyrir jaðarbúnað í smásölu sem verður notað hjá afgreiðslukassanum, verslunina sem afgreiðslukassinn er varpaður á og sjónræna upplifun fyrir notandann sem skráir sig inn í þann kassa.
+Fletting: Smella á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning POS** &gt; **Afgreiðslukassar**. 
+
+Punktur afgreiðslukassa á sölustað er eining sem er notuð til að skilgreina eiginleika sértækts tilviks í POS. Þessir eiginleikar taka til vélbúnaðarsniðs eða uppsetningar fyrir jaðarbúnað í smásölu sem verður notað hjá afgreiðslukassanum, verslunina sem afgreiðslukassinn er varpaður á og sjónræna upplifun fyrir notandann sem skráir sig inn í þann kassa.
 
 ### <a name="devices"></a>Tæki
 
-Fletting: Smella á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning POS** &gt; **Tæki**. Tæki er eining sem stendur fyrir efnislegt tilvik tækis sem er varpað í afgreiðslukassa. Þegar tæki er stofnað, er það varpað á afgreiðslukassa. Tækjaeiningin rekur upplýsingar um þegar afgreiðslukassi er virkjaður, gerð biðlara sem verið er að nota og forritapakka sem hefur verið virkjað á tiltekna tæki. Tækjum er hægt að varpa í eftirfarandi forrit: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android og Retail Modern POS – iOS.
+Fletting: Smella á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning POS** &gt; **Tæki**. 
+
+Tæki er eining sem stendur fyrir efnislegt tilvik tækis sem er varpað í afgreiðslukassa. Þegar tæki er stofnað, er það varpað á afgreiðslukassa. Tækjaeiningin rekur upplýsingar um þegar afgreiðslukassi er virkjaður, gerð biðlara sem verið er að nota og forritapakka sem hefur verið virkjað á tiltekna tæki. 
+
+Tækjum er hægt að varpa í eftirfarandi forrit: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android og Retail Modern POS – iOS.
 
 ### <a name="retail-modern-pos"></a>Retail Modern POS
 
@@ -63,11 +69,15 @@ POS-jaðartæki eru tæki sem sérstaklega eru studd fyrir aðgerðir POS. Þess
 
 ### <a name="hardware-station"></a>Hardware Station
 
-Fletting: Smellt er á **Smásölu** &gt; **miðlunarleiðir** &gt; **smásöluverslanir** &gt; **Allar smásöluverslanir**. Veljið verslun og smellið svo á flipann **vélbúnaðarstöðvar**. Stillingin **Vélbúnaðarstöð** er stilling á rásarstigi sem er notuð til að skilgreina tilvik þar sem rök jaðarbúnaðar smásölu verða notuð. Þessi stilling á stigi rásar er notuð til að ákvarða eiginleika vélbúnaðarstöðvar smásölu. Hún er einnig notuð til að lista vélbúnaðarstöðvar sem eru í boði fyrir tilvik Modern POS í tiltekinni verslun. Vélbúnaðarstöð smásölu er innbyggð í forritið Modern POS fyrir Windows. Einnig er hægt að nota vélbúnaðarstöð óháð sem sjálfstætt forrit Microsoft Internet Information Services (IIS). Í því tilfelli er hægt að nálgast það gegnum net.
+Fletting: Smellt er á **Smásölu** &gt; **miðlunarleiðir** &gt; **smásöluverslanir** &gt; **Allar smásöluverslanir**. 
+
+Veljið verslun og smellið svo á flipann **vélbúnaðarstöðvar**. Stillingin **Vélbúnaðarstöð** er stilling á rásarstigi sem er notuð til að skilgreina tilvik þar sem rök jaðarbúnaðar smásölu verða notuð. Þessi stilling á stigi rásar er notuð til að ákvarða eiginleika vélbúnaðarstöðvar smásölu. Hún er einnig notuð til að lista vélbúnaðarstöðvar sem eru í boði fyrir tilvik Modern POS í tiltekinni verslun. Vélbúnaðarstöð smásölu er innbyggð í forritið Modern POS fyrir Windows. Einnig er hægt að nota vélbúnaðarstöð óháð sem sjálfstætt forrit Microsoft Internet Information Services (IIS). Í því tilfelli er hægt að nálgast það gegnum net.
 
 ### <a name="hardware-profile"></a>Vélbúnaðarregla
 
-Fletting: Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstillingar sölustaðar** &gt; **Vélbúnaðarreglur**. Vélbúnaðarregla er listi yfir tæki sem eru grunnstillt fyrir afgreiðslukassa eða vélbúnaðarstöð. Vélbúnaðarreglum er úthlutað beint á afgreiðslukassa eða vélbúnaðarstöð.
+Fletting: Smelltu á **Smásala** &gt; **Uppsetning rásar** &gt; **Uppsetning sölustaðar** &gt; **Forstillingar sölustaðar** &gt; **Vélbúnaðarreglur**. 
+
+Vélbúnaðarregla er listi yfir tæki sem eru grunnstillt fyrir afgreiðslukassa eða vélbúnaðarstöð. Vélbúnaðarreglum er úthlutað beint á afgreiðslukassa eða vélbúnaðarstöð.
 
 ## <a name="devices-classes"></a>Tækjaklasar
 POS-jaðarbúnaði er yfirleitt skipt niður í klasa. Þessi hluti lýsir og gefur yfirlit yfir tæki sem Modern POS styður.
@@ -202,11 +212,11 @@ Rökin sem keyrir efnislega tengda og netléntengd jaðartæki eru geymd í vél
 
 ### <a name="hardware-station-installation"></a>Uppsetning vélbúnaðarstöðvar
 
-Nánari upplýsingar er að finna í [Skilgreining og uppsetning vélbúnaðarstöðvar smásölu](retail-hardware-station-configuration-installation.md).
+Nánari upplýsingar er að finna í [Skilgreina og setja upp vélbúnaðarstöð Retail](retail-hardware-station-configuration-installation.md).
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Uppsetning og skilgreining á Modern POS fyrir Windows
 
-Nánari upplýsingar er að finna í [Retail Modern POS skilgreining og uppsetning](retail-modern-pos-device-activation.md).
+Nánari upplýsingar er að finna í [Skilgreina, setja upp og virkja Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>Uppsetning og skilgreining á OPOS-tæki
 
@@ -523,7 +533,7 @@ Net jaðartækja geta verið studd beint í gegnum vélabúnaðarstöð smásöl
 
 ## <a name="configuration-for-supported-scenarios"></a>Skilgreining fyrir studdar aðstæður
 
-Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [Skilgreina og viðhalda rás biðlara, þar á meðal afgreiðslukassa og vélbúnaðarstöðvar](define-maintain-channel-clients-registers-hw-stations.md).
+Nánari upplýsingar um hvernig á að búa til vélbúnaðarsnið, sjá [Tengja jaðarbúnað við sölustað (POS)](define-maintain-channel-clients-registers-hw-stations.md).
 
 > [!NOTE]
 > Fyrir Retail útgáfu 1611, er vélbúnaðarregla ekki notuð lengur. Eigindir sem voru áður sett upp í vélbúnaðarreglunni eru nú hluti af sjálfri vélbúnaðarsröðinni.
@@ -566,8 +576,8 @@ Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [S
 4. Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.
 5. Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
 6. Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
-7. Setja upp vélbúnaðarstöð. Nánari upplýsingar um hvernig á að setja upp vélbúnaðarstöð er að finna í [Uppsetningu og skilgreiningu á vélbúnaðarstöð smásölu](retail-hardware-station-configuration-installation.md).
-8. Setja upp og virkja Modern POS. Nánari upplýsingar um hvernig á að setja upp Modern POS er að finna í [Retail Modern POS Uppsetningu og skilgreining](retail-modern-pos-device-activation.md).
+7. Setja upp vélbúnaðarstöð. Nánari upplýsingar um hvernig á að setja upp vélbúnaðarstöð er að finna í [Skilgreina og setja upp vélbúnaðarstöð Retail](retail-hardware-station-configuration-installation.md).
+8. Setja upp og virkja Modern POS. Nánari upplýsingar um hvernig á að setja upp Modern POS er að finna í [Skilgreina, setja upp og virkja Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 9. Innskráning á Modern POS og veljið **Framkvæma aðgerðir utan skúffu**.
 10. Byrja á **Stjórna vélbúnaðarstöðvar** aðgerð.
 11. Smellið á **Stjórna**.
@@ -595,8 +605,8 @@ Nánari upplýsingar um hvernig stofna á vélbúnaðarreglur er að finna í [S
 5. Smelltu á **Smásala** &gt; **Upplýsingatækni smásölu** &gt; **Dreifingaráætlun**.
 6. Velja skal **1090** dreifingaráætlun til að samstilla nýja vélbúnaðarreglu fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
 7. Velja skal **1040** dreifingaráætlun til að samstilla nýja vélbúnaðarstöð fyrir verslun. Smella skal á **Keyra nú** til að samstilla breytingar við POS.
-8. Setja upp vélbúnaðarstöð á hverri hýsitölvu sem sett er upp í skrefum 2 og 3. Nánari upplýsingar um hvernig á að setja upp vélbúnaðarstöð er að finna í [Uppsetningu og skilgreiningu á vélbúnaðarstöð smásölu](retail-hardware-station-configuration-installation.md).
-9. Setja upp og virkja Modern POS. Nánari upplýsingar um hvernig á að setja upp Modern POS er að finna í [Retail Modern POS Uppsetningu og skilgreining](retail-modern-pos-device-activation.md).
+8. Setja upp vélbúnaðarstöð á hverri hýsitölvu sem sett er upp í skrefum 2 og 3. Nánari upplýsingar um hvernig á að setja upp vélbúnaðarstöð er að finna í [Skilgreina og setja upp vélbúnaðarstöð Retail](retail-hardware-station-configuration-installation.md).
+9. Setja upp og virkja Modern POS. Nánari upplýsingar um hvernig á að setja upp Modern POS er að finna í [Skilgreina, setja upp og virkja Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 10. Innskráning á Modern POS og veljið **Framkvæma aðgerðir utan skúffu**.
 11. Byrja á **Stjórna vélbúnaðarstöðvar** aðgerð.
 12. Smellið á **Stjórna**.
@@ -655,7 +665,7 @@ Samkvæmt gildandi öryggisstöðlum á að nota eftirfarandi stillingar í fram
 
 ## <a name="peripheral-simulator"></a>Jaðarbúnaður
 
-Sjá upplýsingar [Jaðarbúnaðarhermir smásölu](dev-itpro/retail-peripheral-simulator.md).
+Sjá upplýsingar [Jaðarhermibúnaður fyrir Retail](dev-itpro/retail-peripheral-simulator.md).
 
 ## <a name="microsoft-tested-peripheral-devices"></a>Jaðartæki Microsoft-tested
 
@@ -896,4 +906,4 @@ Eftirfarandi jaðartæki voru prófuð með því að nota samnýtta (ekki sérh
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Smásölujaðarbúnaðarhermir](dev-itpro/retail-peripheral-simulator.md)
+[Jaðarhermibúnaður fyrir smásölu](dev-itpro/retail-peripheral-simulator.md)

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653512"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813800"
 ---
 # <a name="demand-forecasting-setup"></a>Uppsetning eftirspurnarspár
 
@@ -70,7 +70,8 @@ Til að búa til spá notar Supply Chain Management Machine Learning-vefþjónus
 -   Heiti Azure-geymslureiknings
 -   Lykill fyrir Azure-geymslureikning
 
-**Athugasemd** Heiti og lykill fyrir Azure-geymslureikning eru nauðsynleg aðeisn ef þú notar sérsniðinn geymslureikning. Ef verslunarsvæðis á útgáfu er notuð, verður þú að hafa sérsniðinn geymslureikning í Azure, þannig að Machine Learning-þjónustan hafi aðgang að söguleg gögn. 
+> [!NOTE]
+> Heiti og lykill fyrir Azure-geymslureikning eru nauðsynleg aðeisn ef þú notar sérsniðinn geymslureikning. Ef verslunarsvæðis á útgáfu er notuð, verður þú að hafa sérsniðinn geymslureikning í Azure, þannig að Machine Learning-þjónustan hafi aðgang að söguleg gögn. 
 
 Til að stofna spár um eftirspurn, er hægt að virkja eigin þjónustu með því að nota Machine Learning Studio eða Supply Chain Management Eftirspurnarspártilraunir. Leiðbeiningar fyrir virkjun eftirspurnarspártilrauna Finance and Operations sem vefþjónustu eru tiltækar í Supply Chain Management. Á **Færibreytur eftirspurnarspár** síða, smellt er á **Azure Machine Learning** flipa.
 
@@ -93,9 +94,9 @@ Til að skoða færibreytur sem hægt er að skilgreina fyrir á Eftirspurnarsp�
 <a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Kynning á eftirspurnarspá](introduction-demand-forecasting.md)
+[Yfirlit eftirspurnarspár](introduction-demand-forecasting.md)
 
-[Mynda tölfræðilega grunnlínuspá](generate-statistical-baseline-forecast.md)
+[Myndun tölfræðilegrar grunnlínuspár](generate-statistical-baseline-forecast.md)
 
 [Gera handvirkar leiðréttingar á grunnlínuspánni](manual-adjustments-baseline-forecast.md)
 

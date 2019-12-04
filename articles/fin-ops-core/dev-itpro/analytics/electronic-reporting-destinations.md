@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 5b52e1765d3afbe1730e96f58b601aebccd12787
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7154a6e8aff62b1ebf79edfecb1e1b99048f7c44
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181267"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771470"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Áfangastaðir rafrænnar skýrslugerðar (ER)
 
@@ -122,7 +122,7 @@ Ef **Virkt** er stillt á **Já**, er forskoðun á frálagi stofnuð. Hægt er 
 
 ### <a name="power-bi-destination"></a>Power BI áfangastaður
 
-Stilltu **Virkt** á **Já** til að nota skilgreiningu Rafræna skýrslugerðar til að sjá um flutning gagna úr tilviki Microsoft Power BI-þjónustu. Fluttar skrárnar eru vistaðar í tilviki Microsoft SharePoint Server sem verður að vera skilgreint fyrir þess háttar tilgang. Nánari upplýsingar er að finna í [Nota skilgreiningu rafrænnar skýrslugerðar til að láta Power BI fá gögn úr Finance](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+Stilltu **Virkt** á **Já** til að nota skilgreiningu Rafræna skýrslugerðar til að sjá um flutning gagna úr tilviki Microsoft Power BI-þjónustu. Fluttar skrárnar eru vistaðar í tilviki Microsoft SharePoint Server sem verður að vera skilgreint fyrir þess háttar tilgang. Frekari upplýsingar er að finna í [Skilgreina rafræna skýrslugerð (ER) til að draga gögn inn í Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
 > [!TIP]
 > Til Að hnekkja sjálfgefna hegðun (sem sagt svarglugganum fyrir skilgreiningu), er hægt að stofna tilvísun áfangastaðar og áfangastað skráar fyrir aðalfrálagsíhlutinn, og óvirkja svo alla áfangastaði.
@@ -163,4 +163,4 @@ Skilyrðið er skal snið verður að vera tiltæk í skilgreiningum rafrænnar 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
+[Yfirlit yfir rafræna skýrslugerð (ER)](general-electronic-reporting.md)

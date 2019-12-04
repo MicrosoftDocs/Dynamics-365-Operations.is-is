@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 86d81d60fcbc77375f3b8c525e8c084e3a3d8a99
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026074"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773694"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 Talent (2. apríl 2019)
 
@@ -63,7 +63,7 @@ Frekari upplýsingar um verkvangsuppfærslu 25 fyrir Finance and Operations er a
 Í mörgum fyrirtækjum er hugsanlegt að launa- og fríðindastjórar hafi aðeins aðgang að ákveðnum launafærslum. Þetta gæti falið í sér skrár fyrir stjórnendur eða svæðisbundna starfsmenn. Þessi breyting gerir mannauðsstjóra kleift að vinna með launafyrirkomulag fyrir mismunandi starfsmannahópa í fyrirtækinu. Hægt er að úthluta öryggishlutverkum á fastar eða breytilegar áætlanir. Þessi öryggishlutverk ákvarða aðgang að áætlunum og tengdum starfsmannagögnum á borð við launa- eða bónusfærslur, þannig að eingöngu þessi hlutverk geti unnið úr launum fyrir starfsmannahópana.
 
 ### <a name="upgrade-to-common-data-service"></a>Uppfæra í Common Data Service
-Frestur til að uppfæra í Common Data Service rennur brátt út. Skráðu þig inn á stjórnandamiðstöð PowerApps til að ákvarða hvort þurfi að uppfæra gagnagrunninn þinn. Frekari upplýsingar um fresti og nauðsynlegar ráðstafanir til að uppfæra er að finna í [Uppfæra í Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Frestur til að uppfæra í Common Data Service rennur brátt út. Skráðu þig inn á stjórnandamiðstöð Microsoft Power Apps til að ákvarða hvort þurfi að uppfæra gagnagrunninn þinn. Frekari upplýsingar um fresti og nauðsynlegar ráðstafanir til að uppfæra er að finna í [Uppfæra í Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Í kynningarútgáfu
 

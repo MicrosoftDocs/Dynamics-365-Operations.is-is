@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 1643e7fb3128faf6ad638d4cdad313b3667463b1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6cdfbbd7d4f41503e97620b8738679ad572b2a4a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181681"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771238"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi
 
@@ -44,10 +44,10 @@ Til að læra meira um þennan eiginleika skal spila verkefnaleiðbeiningarnar *
 
 Þetta ferli útskýrir hvernig á að skilgreina ER-ramma til að safna upplýsingum um framkvæmd ER-sniðs og síðan meta niðurstöður þessara framkvæmda. Sem hluti af því mati eru mynduð skjöl borin saman við grunnlínuskrár þeirra. Í þessu dæmi muntu stofna nauðsynlegar ER-skilgreiningar fyrir sýnifyrirtækið, Litware, Inc. Þetta ferli er hugsað fyrir þá notendur sem hefur verið úthlutað hlutverkum Kerfisstjóra eða Þróunaraðila rafrænnar skýrslugerðar. Þessi skref er hægt að klára með því að nota hvaða gagnasafn sem er.
 
-Til að ljúka skrefunum í þessu dæmi verður fyrst að ljúka skrefunum í [Stofna skilgreiningaveitu og merkja hana sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Til að ljúka skrefunum í þessu dæmi verður fyrst að ljúka skrefunum í [Stofna skilgreiningaveitur og merkja þær sem virkar](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.
-2. Á síðunni **Skilgreiningar staðsetningar**, í kaflanum **Skilgreiningaveitur** skaltu staðfesta að skilgreiningaveitan fyrir sýnifyrirtækið Litware, Inc. sé skráð og að það sé merkt sem **Virkt**. Ef þú sérð skilgreiningarveituna ekki skaltu fylgja skrefunum í [Stofna skilgreiningaveitu og merkja hana sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Á síðunni **Skilgreiningar staðsetningar**, í kaflanum **Skilgreiningaveitur** skaltu staðfesta að skilgreiningaveitan fyrir sýnifyrirtækið Litware, Inc. sé skráð og að það sé merkt sem **Virkt**. Ef þú sérð skilgreiningarveituna ekki skaltu fylgja skrefunum í [Stofna skilgreiningaveitur og merkja þær sem virkar](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ### <a name="configure-document-management-parameters"></a>Skilgreina færibreytur skjalastjórnunar
 
@@ -55,7 +55,7 @@ Til að ljúka skrefunum í þessu dæmi verður fyrst að ljúka skrefunum í [
 2. Í reitnum **Klasi** slærðu inn **Hengja skrá við**.
 3. Í reitnum **Flokkur** slærðu inn **Skrá**.
 
-![Síðan Gerðir skjala](media/GER-BaselineSample-SetupDocumentType.PNG "Skjámynd af síðunni Gerðir skjala")
+![Síðan Gerðir skjala](media/GER-BaselineSample-SetupDocumentType.PNG "Skjámynd af skjalategundarsíðunni")
 
 > [!NOTE]
 > Skilgreina verður nýja skjalagerð með sama nafni fyrir hvert gagnasafn þar sem þú ætlar að nota ER-grunnlínuatriði.
@@ -64,11 +64,11 @@ Til að ljúka skrefunum í þessu dæmi verður fyrst að ljúka skrefunum í [
 
 1. Í vinnusvæðinu **Rafræn skýrslugerð** í kaflanum **Skyldir tenglar**, velurðu **Færibreytur rafrænnar skýrslugerðar**.
 
-    ![Vinnusvæði rafrænnar skýrslugerðar](media/GER-BaselineSample-ERWorkspace.PNG "Skjámynd af vinnusvæði rafrænnar skýrslugerðar")
+    ![Vinnusvæði rafrænnar skýrslugerðar](media/GER-BaselineSample-ERWorkspace.PNG "Skjámynd af síðunni Vinnusvæði rafrænna skýrslna")
 
 2. Á flipanum **Viðhengi**, í reitnum **Grunnlína**, slærðu inn eða velur þá skjalagerð sem þú varst að búa til.
 
-    ![Flipinn Viðhengi á síðunni Færibreytur rafrænnar skýrslugerðar](media/GER-BaselineSample-ERParameters.PNG "Skjámynd af síðunni Færibreytur rafrænnar skýrslugerðar")
+    ![Viðhengisflipinn af síðunni Færibreytur rafrænna skýrslna](media/GER-BaselineSample-ERParameters.PNG "Skjámynd af Færibreytum rafrænna skýrslna")
 
 3. Veldu **Vista** og lokaðu síðan síðunni **Færibreytur rafrænnar skýrslugerðar**.
 
@@ -79,7 +79,7 @@ Til að ljúka skrefunum í þessu dæmi verður fyrst að ljúka skrefunum í [
 3. Í fellilistanum, í reitnum **Heiti**, slærðu inn **Líkan til að læra ER-grunnlínur**.
 4. Veldu **Stofna skilgreiningu** til að staðfesta stofnun nýrrar færslu ER-gagnalíkans.
 
-![Stofna fellilista skilgreiningar](media/GER-BaselineSample-ModelAdd.PNG "Skjámynd af fellilistanum Stofna skilgreiningu")
+![Stofna fellivalmynd stillinga](media/GER-BaselineSample-ModelAdd.PNG "Skjámynd af fellivalmyndinni Búa til stillingar")
 
 ### <a name="design-a-data-model"></a>Setja upp gagnalíkan
 
@@ -93,7 +93,7 @@ Til að ljúka skrefunum í þessu dæmi verður fyrst að ljúka skrefunum í [
 8. Veljið **Breyta stöðu**.
 9. Veldu **Ljúka** og síðan **Í lagi**.
 
-![Síðan Skilgreiningar](media/GER-BaselineSample-ModelComplete.PNG "Skjámynd af síðunni Skilgreiningar")
+![Skilgreiningasíða](media/GER-BaselineSample-ModelComplete.PNG "Skjámynd af síðunni Skilgreiningar")
 
 ### <a name="add-a-new-er-format-configuration"></a>Bæta við nýrri grunnstillingu sniðs í Rafræn skýrslugerð
 
@@ -102,7 +102,7 @@ Til að ljúka skrefunum í þessu dæmi verður fyrst að ljúka skrefunum í [
 3. Í reitnum **Heiti** slærðu inn **Sniðmát til að læra ER-grunnlínur**.
 4. Veldu **Stofna skilgreiningu** til að staðfesta stofnun nýrrar færslu ER-sniðmáts.
 
-![Stofna fellilista skilgreiningar](media/GER-BaselineSample-FormatAdd.PNG "Skjámynd af fellilistanum Stofna skilgreiningu")
+![Stofna fellivalmynd stillinga](media/GER-BaselineSample-FormatAdd.PNG "Skjámynd af fellivalmyndinni Búa til stillingar")
 
 ### <a name="design-a-format"></a>Setja upp snið
 
@@ -131,7 +131,7 @@ Til að ljúka skrefunum í þessu dæmi verður fyrst að ljúka skrefunum í [
     2. Í reitnum **Heiti** færirðu inn **Kenni**.
     3. Veljið **Í lagi**.
 
-    ![Síðan Sniðshönnuður](media/GER-BaselineSample-FormatLayoutDesign.PNG "Skjámynd af síðunni Sniðshönnuður")
+    ![Síða sniðshönnuðar](media/GER-BaselineSample-FormatLayoutDesign.PNG "Skjámynd af síðunni Sniðmátahönnuður")
 
 8. Á flipanum **Vörpun** velurðu **Eyða**.
 9. Veljið **Bæta við rót**.
@@ -144,7 +144,7 @@ Til að ljúka skrefunum í þessu dæmi verður fyrst að ljúka skrefunum í [
 11. Í trénu velurðu **Úttak\\Fylgiskjal\\Kenni**.
 12. Veldu **Binda** og síðan **Vista**.
 
-![Síðan Sniðshönnuður](media/GER-BaselineSample-FormatMappingDesign.PNG "Skjámynd af síðunni Sniðshönnuður")
+![Síða sniðshönnuðar](media/GER-BaselineSample-FormatMappingDesign.PNG "Skjámynd af síðunni Sniðmátahönnuður")
 
 Skilgreint snið mun mynda XML-skrá sem byggir á uppsettri uppbyggingu. Þetta XML inniheldur þáttinn **Rót** sem hefur eiginleikann **Kenni** sem er stillt á það gildi sem notandinn slær inn í svargluggann ER-svargluggi.
 
@@ -154,11 +154,11 @@ Skilgreint snið mun mynda XML-skrá sem byggir á uppsettri uppbyggingu. Þetta
 2. Í reitnum **Skráðu kenni** slærðu inn **1**.
 3. Veljið **Í lagi**.
 
-    ![Svarglugginn Færibreytur rafrænnar skýrslugerðar](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "Skjámynd af svarglugganum Færibreytur rafrænnar skýrslugerðar")
+    ![Svargluggi rafrænna skýrslufæribreyta](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "Skjámynd af svarglugganum Færibreytur rafrænna skýrslna")
 
 4. Vistaðu staðbundið afrit af skránni **out.Admin.xml** sem var mynduð, svo að þú getir notað hana seinna sem grunnlínu fyrir þetta ER-snið.
 
-    ![Tilkynning um myndaða skrá á síðunni Skilgreiningar](media/GER-BaselineSample-FormatRunToMakeBaselineFile2.PNG "Skjámynd af tilkynningunni um myndaða skrá á síðunni Skilgreiningar")
+    ![Tilkynning um myndaða skrá á stillingasíðunni](media/GER-BaselineSample-FormatRunToMakeBaselineFile2.PNG "Skjámynd af tilkynningu um myndaða skrá á stillingasíðunni")
 
 ### <a name="configure-er-parameters-to-use-the-baseline-feature"></a>Skilgreindu ER-breytur sem nota grunnlínueiginleikana
 
@@ -166,20 +166,20 @@ Skilgreint snið mun mynda XML-skrá sem byggir á uppsettri uppbyggingu. Þetta
 2. Stilltu valkostinn **Keyra í kembistillingum** á **Já**.
 3. Veljið **Í lagi**.
 
-![Svarglugginn Notendafæribreytur](media/GER-BaselineSample-ERUserParameters.PNG "Skjámynd af svarglugganum Notendafæribreytur")
+![Svarglugginn Notandafæribreytur](media/GER-BaselineSample-ERUserParameters.PNG "Skjámynd af svarglugganum Notandafæribreytur")
 
 ### <a name="add-a-new-baseline-for-designed-er-format"></a>Bæta nýrri grunnlínuskrá við fyrir uppsett ER-snið
 
 1. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Skilgreiningar**.
 2. Í aðgerðarúðunni velurðu **Grunnlínur**.
 
-    ![Hnappurinn Grunnlínur á síðunni Skilgreiningar](media/GER-BaselineSample-OpenBaselinePage.PNG "Skjámynd af hnappnum Grunnlínur á síðunni Skilgreiningar")
+    ![Grunnlínuhnappur á stillingasíðunni](media/GER-BaselineSample-OpenBaselinePage.PNG "Skjámynd af hnappnum Grunnlínum á stillingasíðunni")
 
 3. Í aðgerðarúðunni velurðu **Nýtt**.
 4. Veldu ER-sniðið **Snið til að læra ER-grunnlínur** sem þú settir áður upp.
 5. Veljið **Vista**.
 
-![Síðan Grunnlínur rafræns skýrslugerðarsniðs](media/GER-BaselineSample-AddBaseline.PNG "Skjámynd síðunni Grunnlínur rafræns skýrslugerðarsniðs")
+![Síðan Grunnlínusnið rafrænnar skýrslugerðar](media/GER-BaselineSample-AddBaseline.PNG "Skjámynd af grunnlínusíðuni Rafrænt skýrslugerðarsnið")
 
 Grunnlínu er bætt við fyrir sniðið **Snið til að læra ER-grunnlínur**.
 
@@ -189,7 +189,7 @@ Grunnlínu er bætt við fyrir sniðið **Snið til að læra ER-grunnlínur**.
 2. Í aðgerðarúðunni velurðu **Nýtt** \> **Skrá**. Í ER-breytum ætti skjalategundin **Skrá** að hafa verið valin áður sem sú skjalategund sem er notuð til að geyma grunnlínuskrár.
 3. Veldu **Fletta** og veldu skrána **out.Admin.xml** sem var búin til þegar þú keyrðir skilgreint ER-snið áður.
 
-    ![Síðan Viðhengi](media/GER-BaselineSample-UploadBaselineFile.PNG "Skjámynd af síðunni Viðhengi")
+    ![Síðan Fylgiskjöl](media/GER-BaselineSample-UploadBaselineFile.PNG "Skjámynd af síðunni Viðhengi")
 
 4. Lokaðu síðunni **Viðhengi**.
 5. Á flipanum **Grunnlínur** velurðu **Nýtt**.
@@ -204,7 +204,7 @@ Grunnlínu er bætt við fyrir sniðið **Snið til að læra ER-grunnlínur**.
 10. Í reitnum **Grunngildi** slærðu inn eða velur viðhengið **out.Admin**.
 11. Veljið **Vista**.
 
-![Síðan Grunnlínur rafræns skýrslugerðarsniðs](media/GER-BaselineSample-SetupBaselineLine.PNG "Skjámynd síðunni Grunnlínur rafræns skýrslugerðarsniðs")
+![Síðan Grunnlínusnið rafrænnar skýrslugerðar](media/GER-BaselineSample-SetupBaselineLine.PNG "Skjámynd af grunnlínusíðuni Rafrænt skýrslugerðarsnið")
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Keyrðu uppsett ER-snið og endurskoðaðu skrána til að greina niðurstöðurnar
 
@@ -215,7 +215,7 @@ Grunnlínu er bætt við fyrir sniðið **Snið til að læra ER-grunnlínur**.
 5. Veljið **Í lagi**.
 6. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Kembingarkladdar skilgreiningar**.
 
-    ![Síðan Keyrslukladdar rafrænnar skýrslugerðar](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Skjámynd af síðunni Keyrslukladdar rafrænnar skýrslugerðar")
+    ![Síðan Keyrsluskrár rafrænna skýrslufæribreyta](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Skjámynd af síðunni Keyrsluskrár rafrænna skýrslna")
 
     > [!NOTE]
     > Framkvæmdakladdinn inniheldur upplýsingar um niðurstöður samanburðar á myndaðri skrá við skilgreinda grunnlínu. Í þessu dæmi bendir kladdinn á að mynduð skrá og grunnlínan eru eins.
@@ -231,7 +231,7 @@ Grunnlínu er bætt við fyrir sniðið **Snið til að læra ER-grunnlínur**.
 5. Veljið **Í lagi**.
 6. Farðu í **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Kembingarkladdar skilgreiningar**.
 
-    ![Síðan Keyrslukladdar rafrænnar skýrslugerðar](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Skjámynd af síðunni Keyrslukladdar rafrænnar skýrslugerðar")
+    ![Síðan Keyrsluskrár rafrænna skýrslufæribreyta](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Skjámynd af síðunni Keyrsluskrár rafrænna skýrslna")
 
     > [!NOTE]
     > Framkvæmdakladdinn inniheldur upplýsingar um niðurstöður samanburðar á myndaðri skrá við skilgreinda grunnlínu. Í þessu dæmi bendir kladdinn á að mynduð skrá og grunnlínan eru ólíkar.
@@ -243,4 +243,4 @@ Grunnlínu er bætt við fyrir sniðið **Snið til að læra ER-grunnlínur**.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-- [Skilgreina ER-ramma](electronic-reporting-er-configure-parameters.md)
+- [Skilgreina rafrænan skýrslugerðarramma (ER)](electronic-reporting-er-configure-parameters.md)

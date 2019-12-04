@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2bfe007995c894d6cc86d07ef2b52da65e32e950
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: aa8444b081650e3d375e6f28f47866c8d4853721
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182739"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772464"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>Fá aðgang að lýsigögnum hugbúnaðar með notkun á grunnstillingum rafrænnar skýrslugerðar
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Eftirfarandi skref útskýra hvernig notandi Regulatory Configuration Service í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur sett upp nýja líkanavörpun rafrænnar skýrslugerðar með því að nota lýsigögn forritsins. Farið verður í lýsigögn forrits með því að nota skilgreiningar ER-lýsigagna sem innihalda sýnishorn af lýsigögnum til að fá aðgang að utanríkisviðskiptum. Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í RCS í efnisatriðinu, ferlinu [Stofna skilgreiningarveitendur og merkja þá sem virka](er-configuration-provider-mark-it-active-2016-11.md). Síðan lýkurðu við skrefin í efninu, [(ER) Undirbúa lýsigögn hugbúnaðar sem á að nota í RCS](prepare-application-metadata-rcs.md).
+Eftirfarandi skref útskýra hvernig notandi Regulatory Configuration Service í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur sett upp nýja líkanavörpun rafrænnar skýrslugerðar með því að nota lýsigögn forritsins. Farið verður í lýsigögn forrits með því að nota skilgreiningar ER-lýsigagna sem innihalda sýnishorn af lýsigögnum til að fá aðgang að utanríkisviðskiptum. Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í RCS í efnisatriðinu, ferlinu [Stofna skilgreiningarveitendur og merkja þá sem virka](er-configuration-provider-mark-it-active-2016-11.md). Síðan lýkurðu við skrefin í efninu, [Undirbúa lýsigögn hugbúnaðar sem á að nota í RCS](prepare-application-metadata-rcs.md).
 
 ## <a name="prerequisites"></a>Forkröfur
 1. Farðu í **Öll vinnusvæði** > **Rafræn skýrslugerð**. 
@@ -35,7 +35,7 @@ Eftirfarandi skref útskýra hvernig notandi Regulatory Configuration Service í
 
 ## <a name="import-metadata-configuration"></a>Flytja inn skilgreiningu lýsigagna 
 1. Smelltu á **Skilgreiningu lýsigagna**. 
-2. Flyttu inn lýsigögn rafrænnar skýrslugerðar sem inniheldur lýsigögn sem hafa verið stillt til að búa til rafræn skjöl fyrir utanríkisviðskipta. Þessi lýsigagnastilling rafrænnar skýrslugerðar hefur verið flutt út sem XML-skrá á meðan skrefin í ferlinu [(ER) Undirbúa umsóknardagatalið sem á að nota í RCS](prepare-application-metadata-rcs.md) hefur verið lokið. 
+2. Flyttu inn lýsigögn rafrænnar skýrslugerðar sem inniheldur lýsigögn sem hafa verið stillt til að búa til rafræn skjöl fyrir utanríkisviðskipta. Þessi lýsigagnastilling rafrænnar skýrslugerðar hefur verið flutt út sem XML-skrá á meðan skrefin í ferlinu [Undirbúa umsóknardagatalið sem á að nota í RCS](prepare-application-metadata-rcs.md) hefur verið lokið. 
 3. Smelltu á **Skipta út**. 
 4. Smelltu á **Hlaða úr XML-skrá**. 
 5. Smelltu á **Skoða** og veldu skrána „Foreign trade metadata.xml“. 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: d95429dde38a7a528b1c1d9036194a3bf8e6f986
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 8f790cae031b1a1d97f5409974b5d024ed6ceec5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009446"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814560"
 ---
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>Setja upp færibreytur mannauðs bundnar tilteknu fyrirtæki
 
@@ -59,7 +59,7 @@ Stillingar á í **FMLA** flipa skilgreina hversu margar stundir starfsmaður ve
 <a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Uppsetning mannauðsfæribreyta þvert á lögaðila](set-up-hr-parameters-across-legal-entities.md)
+[Setja upp færibreytur mannauðs (HR) á milli lögaðila](set-up-hr-parameters-across-legal-entities.md)
 
 
 
