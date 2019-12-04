@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: Skráðu þig fyrir prufuáskriftum
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
+            - name: Innsýn í greiðslur viðskiptavinar (forútgáfa)
+              href: accounts-receivable/payment-insights-overview.md
             - name: Þjónustuuppfærslur fyrir „Ein útgáfa“
               items:
                 - name: Yfirlit yfir þjónustuuppfærslur fyrir eina útgáfu
@@ -2239,6 +2241,8 @@
                       href: localizations/rus-currency-sale-purchase.md
                     - name: Sjóður
                       href: localizations/emea-petty-cash.md
+                    - name: Reiðufé - staðbundin aðaleyðublöð og samræmdar skýrslur
+                      href: localizations/rus-local-primary-forms-and-unified-reports.md
                 - name: VSK
                   items:
                     - name: Staðbundin sérstök bókun útskatts
@@ -2255,6 +2259,8 @@
                       href: localizations/rus-sales-books-purchase-books.md
                     - name: Stjórnun fyrirframgreiðslu
                       href: localizations/rus-prepayments-management.md
+                    - name: Endurheimtir VSK á innleið
+                      href: localizations/rus-incoming-VAT-restoring.md
                 - name: Eignir
                   items:
                     - name: Umsjón eigna
@@ -2313,6 +2319,14 @@
                       href: localizations/rus-cash-flow.md
                     - name: Úthlutun gjalda í hlutfalli við þyngd og magn
                       href: localizations/rus-miscellaneous-charges.md
+                    - name: Gjöld þriðju aðila
+                      href: localizations/rus-third-party-misc-charges.md
+                - name: Birgðir
+                  items:
+                    - name: Vörur í flutningi frá lánardrottni
+                      href: localizations/rus-goods-transit-vendor.md
+                    - name: Tollskýrslunúmer
+                      href: localizations/rus-custom-declaration-number.md
                 - name: Skýrslugjöf
                   items:
                     - name: Fjárhagsskýrslugerð
@@ -2335,6 +2349,8 @@
                       href: localizations/rus-officials.md
                     - name: Fyrirtækjasvið
                       href: localizations/rus-company-divisions.md
+                    - name: Rússneskt aðseturssnið og innflutningur frá FIAS
+                      href: localizations/rus-russian-address-format-and-import-from-FIAS.md
                 - name: Frestun
                   items:
                     - name: Setja upp frestanir
@@ -2869,6 +2885,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Flytja inn skilgreiningar úr RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: Kennsla
+                  items:
+                    - name: Nota SAMTENGINGU gagnaveitna til að sækja gögn úr mörgum forritatöflum í vörpunum rafrænna skýrslugerðarlíkana
+                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
+                    - name: Skilgreina varpanir rafrænna skýrslugerðarlíkana sem háð eru samhengi við lönd
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
                 - name: Nota lausnir rafrænnar skýrslugerðar í Finance and Operations
                   items:
                     - name: Skilgreina ramma
@@ -2903,6 +2925,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: Yfirlit yfir stjórnun viðskiptaskjala
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
+                    - name: Bæta nýjum svæðum við sniðmát viðskiptaskjals í Microsoft Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
                 - name: API fyrir ramma rafrænnar skýrslugerðar
                   items:
                     - name: Listi yfir virkni rafrænnar skýrslugerðar lengdur

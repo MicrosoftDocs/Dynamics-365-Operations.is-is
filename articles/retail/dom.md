@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ebac1c3f9f79ee49ae11a121a4a0dd3bd456c8f
-ms.sourcegitcommit: bdbca89bd9b328c282ebfb681f75b8f1ed96e7a8
+ms.openlocfilehash: 10d894bb65031741a5ec8365f7f8db76b58ab334
+ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578485"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2693113"
 ---
 # <a name="distributed-order-management-dom"></a>Dreifingarstjórnun pöntunar (DOM)
 
@@ -37,7 +37,7 @@ DOM hámarkar uppfyllingu pöntunar yfir mörg flókin kerfi og ferla. DOM reið
 
 Eftirfarandi skýringarmynd sýnir ferli sölupöntunar í DOM-kerfi.
 
-![Ferli sölupöntunar í samhengi við DOM](./media/flow.png "Ferli sölupöntunar í samhengi við DOM")
+![Ferli sölupöntunar í samhengi við DOM-staðalinn](./media/flow.png "Ferli sölupöntunar í samhengi við DOM-staðalinn")
 
 ## <a name="set-up-dom"></a>Setja upp DOM
 
@@ -112,7 +112,7 @@ Eftirfarandi skýringarmynd sýnir ferli sölupöntunar í DOM-kerfi.
         \* Ef **Uppfylla hlutapantanir** er stillt á **Nei** er alltaf litið svo á að **Uppfylla hlutalínur** sé stillt á **Nei**, óháð því hver stillingin er í raun og veru.
 
 > [!NOTE]
-> Í Retail, útgáfu 10.0.5, var færibreytunni **Uppfylla pöntun aðeins frá einni staðsetningu** breytt í **Hámarksstaðsetning uppfyllingar**. Í stað þess að leyfa notanda að skilgreina hvort aðeins sé hægt að uppfylla pantanir á einum stað eða uppfylla á eins mörgum stöðum og mögulegt er geta notendur nú tilgreint hvort hægt sé að uppfylla þær á ákveðnum fjölda staðsetninga (allt að fimm), eða frá eins mörgum stöðum og mögulegt er. Þetta veitir meiri sveigjanleika í fjölda staðsetninga sem hægt er að uppfylla pöntunina á.
+> Í Retail, útgáfu 10.0.5, var færibreytunni **Uppfylla pöntun aðeins frá einni staðsetningu** breytt í **Hámarksstaðsetning uppfyllingar**. Í stað þess að leyfa notanda að skilgreina hvort aðeins sé hægt að uppfylla pantanir á einni staðsetningu eða uppfylla á eins mörgum staðsetningum og mögulegt er geta notendur nú tilgreint hvort hægt sé að uppfylla þær á ákveðnum fjölda staðsetninga (allt að fimm), eða frá eins mörgum staðsetningum og mögulegt er. Þetta veitir meiri sveigjanleika í fjölda staðsetninga sem hægt er að uppfylla pöntunina á.
 
    - **Staðsetningarregla uppfyllingar utan nets** – Þessi regla gerir fyrirtækjum kleift að tilgreina staðsetningu eða flokk staðsetninga sem utan nets eða ekki tiltæka fyrir DOM, svo ekki sé hægt að úthluta pöntunum á þessar staðsetningar til uppfyllingar.
     - **Regla um hámark hafnana** – Þessi regla gerir fyrirtækjum kleift að skilgreina mörk fyrir hafnanir. DOM-vinnslan mun merkja pöntun eða pöntunarlínu sem undantekningu þegar mörkum er náð og útiloka hana frá frekari úrvinnslu.
@@ -177,7 +177,7 @@ Við vinnslu tekur DOM tillit til pöntunar og pöntunarlína eins og hér er l�
 
 - Pantanir sem eru ekki í bið
 
-DOM velur staðsetningu sem er næst afhendingaraðsetri viðskiptavinar eftir að það setur á reglur, birgðatakmarkanir og hámörkun.
+DOM velur staðsetningu sem er næst afhendingaraðsetri viðskiptavinar eftir að það beitir reglum, birgðatakmörkunum og hámörkun.
 
 ![Skilyrði sölupöntunar](./media/ordercriteria.png "Skilyrði sölupöntunar")
 

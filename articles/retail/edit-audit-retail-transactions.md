@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b0201d31cd83b4360f96a7d8e2113caf9d913715
-ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
+ms.openlocfilehash: f53573b8afb2003f6796930f5877185e533a4715
+ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622528"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2693067"
 ---
 # <a name="edit-and-audit-retail-store-transactions"></a>Breyta og endurskoða færslur smásöluverslunar
 
@@ -95,6 +95,6 @@ Smásölufærslur standast ekki villuleit af ýmsum ástæðum. Til dæmis gæti
        - **Greiðslufærslur í öryggisskáp**: Þetta vinnublað er með allar færsluupplýsingar um peningaflutning í öryggisskáp.
        - **Talning skiptimyntar**: Þetta vinnublað er með allar færsluupplýsingar um talningu skiptimyntar.
        - **Tekju-/útgjaldafærsla**: Þetta vinnublað er með allar upplýsingar um tekju/-útgjaldafærslulínu.
-       - **Greiðslufærslur**: Þetta vinnublað er með allar greiðslutengdar upplýsingar fyrir virknina **Greiða reikning**, sem og tekju/-útgjaldafærsluna.
+       - **Greiðslufærslur**: Þetta vinnublað er með allar greiðslutengdar upplýsingar fyrir aðgerðina **Greiða reikning**, sem og tekju/-kostnaðarfærsluna.
 
 3.  Villuleitir eru ekki framkvæmdar þegar fjöldabreyttar færslur eru birtar. Tryggja verður að allar breytingar séu réttar og að gögnin séu samsvarandi á öllum vinnublöðunum. Til dæmis, ef óskað er eftir að breyta færsludagsetningunni til að stjórna sviðsmyndum þar sem fjárhags- eða birgðahaldstíminn fyrir opnar smásölufærslur er lokaður þarf að breyta dagsetningunni á öllum Excel-vinnublöðunum sem eru með dálkinn **Viðskiptadagsetning**. Til að staðfesta færslur eftir að þeim hefur verið breytt er hægt að nota **Villuleita færslur aftur** á síðunni með **smásöluuppgjörunum**.

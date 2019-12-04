@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0c6a9e4dd3f3182c98a9f5491b07f8687c21e5c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 531fd219cc2db79e01a277c72eba66fb8a9b8bbd
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184072"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772652"
 ---
 # <a name="budgeting-home-page"></a>Fjárhagsáætlun – heimasíða
 
@@ -40,14 +40,14 @@ ms.locfileid: "2184072"
 
 Ferli fyrir bæði langtímaáætlanagerð og árlega fjárhagsáætlunargerð eru studd gegnum skjal fjárhagsáætlunargerðar. Fjárhagsáætlunarskjöl eru vel samþætt við Microsoft Excel. Notendur geta skilgreint ótakmarkaðar peningalegar og magnbundnar aðstæður og geta einnig skilgreint stigveldi fyrirtækis fjárhagsáætlunar til að styðja bæði fjárhagsáætlunaraðferðir að ofan og niður eða að neðan og upp. Þegar fjárhagsáætlun hefur verið búin til og samþykkt í forritinu er henni breytt yfir í færslu í fjárhagsáætlunarskrá. Færslur í fjárhagsáætlunarskrá veita verkfæri til að viðhalda fjárhagsáætluninni og til að halda upphæðum rekjanlegum gegnum fjárhagsáætlunarkóða. Færslur í fjárhagsáætlunarskrá gera kleift að endurskoða upphaflegar fjárhagsáætlanir og yfirfæra upphæðir fjárhagsáætlunar frá fyrra ári. Samkvæmt gerðri fjárhagsáætlun getur fyrirtæki virkjað fjárhagsáætlunarstýringu. Stig stýringar fer eftir fyrirtækjamenningu og aldri fyrirtækisins. Nýlegri fyrirtæki gætu látið áætlunina vera „eins og hún er“ og sýnt frekar viðbrögð en gagnvirkni þegar áætlun uppfyllir ekki væntingar. Önnur fyrirtæki gætu virkjað reglur fjárhagsáætlunarstýringar sem koma í veg fyrir að notendur kaupi inn ef fjármagn fjárhagsáætlunar er ekki tiltækt.
 
-Að lokum gætu eldri fyrirtæki komið á fót fyrirtækjamenningu þar sem starfsmenn fá fræðslu um skipulagsmarkmið og fylgja þeim markmiðum með reglum eins og „íhuga fund á netinu í stað þess að ferðast.“ Forritið býr yfir fjárhagsáætlunarstýringarramma sem leyfir stjórnendum fyrirtækisins að velja um annaðhvort harða stjórn (sem kemur í veg fyrir bókanir sem myndu fara fram úr fjárhagsáætlun) eða mjúka stjórn (þar sem notendur eru varaðir við því að þeir muni fara fram úr fyrirliggjandi fjármagni fjárhagsáætlunar en geta sjálfir ákveðið hvernig á að halda áfram). Að lokum er hægt að nota hlaupandi spár. Hlaupandi spá er venjulegur samanburður á fjárhagsáætlun við það sem er í raun og er notuð til að skilgreina hversu vel fyrirtækið er rekið í samræmi við fjárhagsáætlun. Hlaupandi spá er einnig notuð til að auðkenna þróun. Í Finance and Operations eru hlaupandi spár studdar gegnum skjal fjárhagsáætlunargerðar sem fyrstu verkþættir fjárhagsáætlunargerðar. Hlaupandi spár er hægt að gera samhliða áætlun fyrir væntanlegt fjárhagsáætlunarferli.
+Að lokum gætu eldri fyrirtæki komið á fót fyrirtækjamenningu þar sem starfsmenn fá fræðslu um skipulagsmarkmið og fylgja þeim markmiðum með reglum eins og „íhuga fund á netinu í stað þess að ferðast.“ Forritið býr yfir fjárhagsáætlunarstýringarramma sem leyfir stjórnendum fyrirtækisins að velja um annaðhvort harða stjórn (sem kemur í veg fyrir bókanir sem myndu fara fram úr fjárhagsáætlun) eða mjúka stjórn (þar sem notendur eru varaðir við því að þeir muni fara fram úr fyrirliggjandi fjármagni fjárhagsáætlunar en geta sjálfir ákveðið hvernig á að halda áfram). Að lokum er hægt að nota hlaupandi spár. Hlaupandi spá er venjulegur samanburður á fjárhagsáætlun við það sem er í raun og er notuð til að skilgreina hversu vel fyrirtækið er rekið í samræmi við fjárhagsáætlun. Hlaupandi spá er einnig notuð til að auðkenna þróun. Í Finance and Operations eru hlaupandi spár studdar gegnum skjal fjárhagsáætlunargerðar sem fyrstu verkþættir fjárhagsáætlunargerðar. Hlaupandi spár er hægt að gera samhliða áætlun fyrir væntanlegt ferli fjárhagsáætlunar.
 
--   [Grunnáætlanagerð: yfirlit og skilgreining](basic-budgeting-overview-configuration.md)
--   [Áætlunarstýring: yfirlit og skilgreining](budget-control-overview-configuration.md)
--   [Fjárhagsáætlunargerð: yfirlit og skilgreining](budget-planning-overview-configuration.md)
+-   [Yfirlit fjárhagsáætlunar](basic-budgeting-overview-configuration.md)
+-   [Yfirlit fjárhagsáætlunarstýringar](budget-control-overview-configuration.md)
+-   [Yfirlit fjárhagsáætlunargerðar](budget-planning-overview-configuration.md)
 -   [Stöðuspá](position-forecasting.md)
 -   [Rökstuðningsskjöl fjárhagsáætlunargerðar](budget-planning-justification-docs.md)
--   [Microsoft Excel-sniðmát fyrir fjárhagsáætlunargerð](budget-planning-excel-templates.md)
+-   [Sniðmát fjárhagsáætlunargerðar fyrir Excel](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Fjárhagsáætlunarverkfæri
 [![Fjárhagsáætlunarverkfæri](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
