@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 0588ad24cb28a32557361e1a2e5391502a8b46d7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250692"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814262"
 ---
 # <a name="master-planning-home-page"></a>Aðaláætlanagerð – heimasíða
 
@@ -39,9 +39,9 @@ Aðaláætlanagerð notar upplýsingarnar til að reikna út kröfur og búa til
 
 Þrír helstu ferlar áætlanagerðar eru:
 
--  **Aðaláætlanagerð** - Aðaláætlunin reiknar út nettókröfur. Það er byggt á grundvelli raunverulegra núgildandi pantana og gerir fyrirtækjum kleift að stjórna birgðaáfyllingu á daglegum skammtímagrunni. Annað hugtak til að lýsa því er *Nettókröfur áætlun*. Frekari upplýsingar, sjá [Aðaláætlanagerð](master-plans.md). 
+-  **Aðaláætlanagerð** - Aðaláætlunin reiknar út nettókröfur. Það er byggt á grundvelli raunverulegra núgildandi pantana og gerir fyrirtækjum kleift að stjórna birgðaáfyllingu á daglegum skammtímagrunni. Annað hugtak til að lýsa því er *Nettókröfur áætlun*. Fyrir frekari upplýsingar, sjá [Yfirlit yfir aðaláætlanir](master-plans.md). 
 
--  **Spáráætlanagerð** - Spáráætlunin reiknar út brúttókröfur. Það byggir á framreikningi til framtíðar (eða spám) og gerir fyrirtækjum kleift að gera langtíma áætlun fyrir efnisþarfir og afköst. Frekari upplýsingar, sjá [Spáráætlanagerð](introduction-demand-forecasting.md). 
+-  **Spáráætlanagerð** - Spáráætlunin reiknar út brúttókröfur. Það byggir á framreikningi til framtíðar (eða spám) og gerir fyrirtækjum kleift að gera langtíma áætlun fyrir efnisþarfir og afköst. Frekari upplýsingar eru í [Yfirlit eftirspurnarspár](introduction-demand-forecasting.md). 
 
 -  **Aðaláætlanagerð innan samsteypu** - Aðaláætlanagerð innan samsteypu reiknar nettókröfur yfir lögaðila. Það tengir eftirspurn og framboð milli fyrirtækja, ekki aðeins til skamms tíma, ákveðna eftirspurn og framboð heldur einnig til langs tíma, fyrirhuguð (það er ekki enn ákveðin) eftirspurn og framboð. Frekari upplýsingar, sjá [Aðaláætlanagerð innan samsteypu](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (eLearning) (krefst CustomerSource-reiknings). 
 
@@ -57,13 +57,13 @@ Eftirfarandi námskort sýnir helstu hugtök og verkefni sem finna má í grunns
 
 ## <a name="quick-links"></a>Flýtitenglar
 
-- [Aðaláætlanir](master-plans.md)  
+- [Yfirlit aðaláætlana](master-plans.md)  
 - [Mynda áætlun með skorðum](./tasks/constrained-plan.md)
 - [Búa til efnisáætlun fyrir aukaafurðir](./tasks/create-material-plan-co-products.md)
-- [Áætlanagerð og fjölsvæðiseiginleikinn](master-plan-multisite-functionality.md)
+- [Yfirlit yfir aðaláætlanir og virkni á mörgum svæðum](master-plan-multisite-functionality.md)
 - [Búa til áætlun innan samstæðu](./tasks/create-intercompany-plan.md)
 - [Yfirlit eftirspurnarspár](introduction-demand-forecasting.md)
-- [Minnkunarlyklar](reduction-keys.md)
+- [Minnkunarlyklar samkvæmt spá](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

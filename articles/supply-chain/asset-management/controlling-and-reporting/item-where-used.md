@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 511108e689c10e27a42253d95b02e5394f9eb713
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 476b01a4bae34a271203f34481ff18042783d4df
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652357"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811264"
 ---
 # <a name="item-where-used"></a>Notkunarstaður vöru
 
@@ -33,15 +33,15 @@ ms.locfileid: "2652357"
 
 Þú getur gert útreikning fyrir tiltekinn hlut til að fá yfirlit yfir hvar í eignastjórnun hluturinn hefur verið notaður. Niðurstöðurnar sýna samhengið sem hluturinn hefur verið notaður á meðan á líftíma hans stóð. Síðuna **Notkunarstaður vöru** er hægt að opna í aðalvalmyndinni fyrir eignastjórnun og einnig er hægt að nálgast hana af eftirfarandi síðum:
 
-- [Uppskrift eignar](../objects/object-BOM.md)
+- [Eignauppskriftir](../objects/object-BOM.md)
 
-- [Varahlutir í sjálfgefinni tegund eigna](../setup-for-objects/object-types.md)
+- [Varahlutir í sjálfgefinni tegund eigna](../setup-for-objects/object-types.md#spare-parts-on-the-asset-type-setup)
 
-- [Vöruspá í sjálfgefinni spá um gerð viðhaldsstarfa](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
+- [Flokkar viðhaldsverkgerðar og viðhaldsverkgerðir, afbrigði viðhaldsverkgerðar, viðskipti viðhaldsvinnslu og viðhaldsgátlistar](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
 
-- [Viðhaldsspá verkbeiðni](../work-orders/maintenance-forecasts.md)
+- [Viðhaldsspá](../work-orders/maintenance-forecasts.md)
 
-- [Innkaupabeiðni verkbeiðni](../work-orders/procurement.md)
+- [Innkaup](../work-orders/procurement.md)
 
 - [Innkaup verkbeiðni](../work-orders/procurement.md)
 

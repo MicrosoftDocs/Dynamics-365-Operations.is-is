@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 15a645c98fe38e8ddaa34c0c21581eac6636502f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 40317cdef777ca6524feb66caf66ddec3d855d32
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190972"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811602"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>Nýjar eða uppfærðar verkefnaleiðbeiningar (nóvember 2016)
 
@@ -30,7 +30,7 @@ ms.locfileid: "2190972"
 
 Þetta efnisatriði sýnir nýjar eða uppfærðar verkefnaleiðbeiningar sem voru gefnar út fyrir Microsoft (nóvember 2016 – öll tungumál) APQC, Unified Library fyrir Microsoft Dynamics 365 for Operations. Engin ný Safn hafist handa var losuð.
 
-(Nóvember 2016 -- öll tungumál) APQC Unified Library inniheldur verkleiðbeiningar sem ætlaðar eru til að fá Hjálp með Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations verkvangsuppfærsla 3, Microsoft Dynamics AX verkvangsuppfærsla 2, Dynamics AX uppfærsla frá maí 2016 og Microsoft Dynamics AX uppfærsla frá febrúar 2016. Nánari upplýsingar um útgáfuna eru í [Hvað er nýtt eða breytt](whats-new-changed.md). Staðfærðar útgáfur verkefnaleiðbeininga eru tiltækar í þessu safni. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hafist handa með hjálp](help-overview.md).
+(Nóvember 2016 -- öll tungumál) APQC Unified Library inniheldur verkleiðbeiningar sem ætlaðar eru til að fá Hjálp með Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations verkvangsuppfærsla 3, Microsoft Dynamics AX verkvangsuppfærsla 2, Dynamics AX uppfærsla frá maí 2016 og Microsoft Dynamics AX uppfærsla frá febrúar 2016. Nánari upplýsingar um þessar útgáfur er að finna í [Hvað er nýtt eða breytt á heimasíðu Finance and Operations](whats-new-changed.md). Staðfærðar útgáfur verkefnaleiðbeininga eru tiltækar í þessu safni. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hjálparkerfi](help-overview.md).
 
 > [!NOTE]
 > Stjarna (\*) við titil línunnar fyrir viðskiptaferlavinnslu (BPM) sýnir verkefnaleiðbeiningar fyrir viðskiptaferli sem var stofnað fyrir AX nóvember uppfærslu 2016 og er ekki studdur í eldri útgáfu af Dynamics 365 for Operations Microsoft Dynamics.
@@ -543,8 +543,8 @@ ms.locfileid: "2190972"
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Nýtt verk tiltæk leiðbeiningar (Febrúar 2016)](new-task-guides-available-february-2016.md)
+[Nýjar verkefnaleiðbeiningar (febrúar 2016)](new-task-guides-available-february-2016.md)
 
-[Nýjar eða uppfærðar verk tiltæk leiðbeiningar (Maí 2016)](new-updated-task-guides-available-may-2016.md)
+[Nýjar eða uppfærðar verkefnaleiðbeiningar (maí 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Nýjar eða uppfærðar verkefnaleiðbeiningar í boði (ágúst 2016)](new-updated-task-guides-available-august-2016.md)
+[Nýjar eða uppfærðar verkefnaleiðbeiningar (ágúst 2016)](new-updated-task-guides-available-august-2016.md)

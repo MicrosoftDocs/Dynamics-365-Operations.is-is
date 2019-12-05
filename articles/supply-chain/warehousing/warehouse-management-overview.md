@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abb78c9ac43dad80e45729f4b42651d9807f71f1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f50b950b8588f2b17611889e0cb0eeb6da359886
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251063"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813018"
 ---
 # <a name="warehouse-management-overview"></a>Yfirlit yfir vöruhúsakerfi
 
@@ -36,7 +36,7 @@ Til að byrja að vinna með vöruhúsastjórnun þarf að ljúka uppsetningu al
 
 Þú verður að stilla íhluti á innleið og útleið fyrir verkflæði vöruhúss samkvæmt viðskiptakröfum. Mikilvægustu þættir sem þarf að skilgreina eru bylgjusniðmát, vinnusniðmát, vinnuhópa og staðsetningarleiðbeiningar.
 
-- [Skilgreining vöruhúss](warehouse-configuration.md)
+- [Yfirlit yfir skilgreiningu vöruhúss](warehouse-configuration.md)
 - [Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar](control-warehouse-location-directives.md)
 - [Uppsetning fartækja fyrir vöruhúsavinnu](configure-mobile-devices-warehouse.md)
 - [Setja upp leiðbeiningar um staðsetningu fyrir frágang innkaupapöntunar](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)

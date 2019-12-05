@@ -3,7 +3,7 @@ title: Myndbönd
 description: Þessi síða sýnir „hvernig á að“ og tæknitalsmyndbönd sem Microsoft hefur búið til sem tengjast forritum Finance and Operations sem eru aðgengileg á YouTube og öðrum vefsíðum.
 author: josaw1
 manager: AnnBe
-ms.date: 10/20/2019
+ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: fb14ffa500fcf84030eca075545716a79d7b2b27
-ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
+ms.openlocfilehash: 00ea8de8ba0567e8cc086a754062b3fec9672937
+ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "2635104"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "2781851"
 ---
 # <a name="videos"></a>Myndbönd 
 
@@ -82,7 +82,7 @@ ms.locfileid: "2635104"
 
 ### <a name="customize-the-app"></a>Sérsníddu forritið
 - [Bæta við sérstilltum svæðum](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
-- [Fella inn PowerApps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
+- [Fella inn Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY)
 
 ### <a name="expenses"></a>Kostnaður
 - [Kostnaðarumhverfi](https://youtu.be/Ocy-MsTvEE0)
@@ -101,6 +101,9 @@ ms.locfileid: "2635104"
 ### <a name="organization-administration"></a>Fyrirtækisstjórnun
 
 - [Skjalastjórnun](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
+
+### <a name="revenue-recognition"></a>Tekjuskráning
+- [Hvernig á að nota tekjuskráningu](https://youtu.be/v3amIsiqvoo)
 
 ### <a name="tax-engine"></a>Skattkerfi
 

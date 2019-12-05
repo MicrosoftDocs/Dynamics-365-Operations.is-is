@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5db954d8847c252bee1c8e50acae546852ae9b94
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 9d12a4d48aa369884804c2a0bce9834534b1bec6
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026234"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832862"
 ---
 # <a name="extensibility-in-attract"></a>Stækkunarhæfni í Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 Talent er byggt ofan á Common Data Service og hægt er að stækka það með ýmsum hætti með því að nota Microsoft Power Platform og eiginleika sem Common Data Service býður upp á. Þar af leiðandi er hægt að grunnstilla og sérsníða kerfið með því að nota Microsoft PowerApps og Microsoft Flow. Þú getur einnig fengið frekari greiningar um fólk með því að nota Microsoft Power BI. Ennfremur gera nýjar sérsniðnar aðgerðir, svo sem aðgerðir PowerApps og Web Content (Iframe), ráðningarferlið meira aðlagað en nokkru sinni fyrr. Með því að nota þessar aðgerðir getur þú sérsniðið ráðningarferlið við viðskiptaþarfir þínar og ferli fyrirtækisins og getur tryggt að bæði ráðningarteymið og umsækjendur hafi óaðfinnanlega sérsniðna upplifun.
+Microsoft Dynamics 365 Talent er byggt ofan á Common Data Service og hægt er að stækka það með ýmsum hætti með því að nota Microsoft Power Platform og eiginleika sem Common Data Service býður upp á. Þar af leiðandi er hægt að grunnstilla og sérsníða kerfið með því að nota Microsoft Power Apps og Microsoft Power Automate. Þú getur einnig fengið frekari greiningar um fólk með því að nota Microsoft Power BI. Ennfremur gera nýjar sérsniðnar aðgerðir, svo sem aðgerðir Power Apps og Web Content (Iframe), ráðningarferlið meira aðlagað en nokkru sinni fyrr. Með því að nota þessar aðgerðir getur þú sérsniðið ráðningarferlið við viðskiptaþarfir þínar og ferli fyrirtækisins og getur tryggt að bæði ráðningarteymið og umsækjendur hafi óaðfinnanlega sérsniðna upplifun.
 
 ## <a name="extending-option-sets-in-attract"></a>Safn valkosta fyrir stækkunarhæfni í Attract
 
@@ -40,7 +40,7 @@ Microsoft Dynamics 365 Talent er byggt ofan á Common Data Service og hægt er a
 
 Hér fyrir neðan eru leiðbeiningar um uppfærslu á svæðinu **Ástæða fyrir höfnun** með gildum sem eru tiltekin fyrir reksturinn þinn.  
 
-1. Til að stækka safn valkosta fyrir **Ástæða fyrir höfnun** skal fara á [PowerApps Vefsvæði fyrir stjórnanda](https://admin.powerapps.com).
+1. Til að stækka safn valkosta fyrir **Ástæða fyrir höfnun** skal fara á [Power Apps Vefsvæði fyrir stjórnanda](https://admin.powerapps.com).
 2. Þú verður hugsanlega beðin/n um að skrá þig inn á reikninginn þinn. Gefðu upp notandakennið þitt og aðgangsorð sem þú notar til að skrá þig inn í Dynamics365 og/eða Office365, og smelltu síðan á **Næsta**.
 3. Í flipanum **Umhverfi** skal velja umhverfið sem á að stjórna og tvísmella til að komast í flipann **Upplýsingar**.
 4. Í flipanum **Upplýsingar** skal velja **Stjórnunarmiðstöð Dynamics 365**.
@@ -58,15 +58,15 @@ Hér fyrir neðan eru leiðbeiningar um uppfærslu á svæðinu **Ástæða fyri
 
 Vegna þess að öll gögnin frá Attract eru geymd í Common Data Service getur þú notað verkfæri af Microsoft Power Platform til að laga Attract að sértækum viðskiptaþörfum þínum.
 
-### <a name="powerapps"></a>PowerApps
+### <a name="power-apps"></a>Power Apps
 
-Þú getur notað PowerApps til að byggja upp forrit á auðveldan hátt sem tengjast Attract-gögnum þínum og nota tjáningu eins og segðirnar í Microsoft Excel til að bæta við rökum. Forrit sem þú byggir með því að nota PowerApps geta keyrt á vefnum og á Apple iOS og Google Android-tækjum.
+Þú getur notað Power Apps til að byggja upp forrit á auðveldan hátt sem tengjast Attract-gögnum þínum og nota tjáningu eins og segðirnar í Microsoft Excel til að bæta við rökum. Forrit sem þú byggir með því að nota Power Apps geta keyrt á vefnum og á Apple iOS og Google Android-tækjum.
 
-Til dæmis er hægt að gera kynningarfundi háskóla auðveldara fyrir ráðningaraðila með því að byggja upp lítið forrit sem gerir þeim kleift að skanna ferilskrár og mata umsækjendur á störfum í Attract. Einnig er hægt að byggja upp forrit sem hjálpar til við að uppfylla nauðsynlega reglufylgni fyrirtækisins þíns. Nánari upplýsingar um PowerApps og hvernig á að nota það til að byggja upp forrit er að finna í [Sameina gögn í Common Data Service](https://docs.microsoft.com/powerapps).
+Til dæmis er hægt að gera kynningarfundi háskóla auðveldara fyrir ráðningaraðila með því að byggja upp lítið forrit sem gerir þeim kleift að skanna ferilskrár og mata umsækjendur á störfum í Attract. Einnig er hægt að byggja upp forrit sem hjálpar til við að uppfylla nauðsynlega reglufylgni fyrirtækisins þíns. Nánari upplýsingar um Power Apps og hvernig á að nota það til að byggja upp forrit er að finna í [Sameina gögn í Common Data Service](https://docs.microsoft.com/powerapps).
 
-### <a name="microsoft-flow"></a>Microsoft Flow 
+### <a name="microsoft-power-automate"></a>Microsoft Power Automate 
 
-Þú getur notað Microsoft Flow til að búa til sjálfvirkan vinnuflæði sem keyrir ofan á Attract-gögnum. Þú getur auðveldlega tengst hundruðum vinsælra forrita og þjónustu án þess að þurfa að skrifa kóða. Með því að byggja upp flæði sem hafa samskipti við Attract Job, umsækjendur og umsóknareiningar í Common Data Service, geturðu gert ýmsar aðgerðir sjálfvirkar. Til dæmis, þegar frambjóðandi samþykkir tilboð, getur tilkynning verið sendur til þjálfunarteymisins eða fréttirnar geta verið tilkynntar á Twitter. Nánari upplýsingar um flæði er að finna í [Microsoft Flow fylgiskjölunum](https://docs.microsoft.com/flow/).
+Þú getur notað Microsoft Power Automate til að búa til sjálfvirkan vinnuflæði sem keyrir ofan á Attract-gögnum. Þú getur auðveldlega tengst hundruðum vinsælra forrita og þjónustu án þess að þurfa að skrifa kóða. Með því að byggja upp flæði sem hafa samskipti við Attract Job, umsækjendur og umsóknareiningar í Common Data Service, geturðu gert ýmsar aðgerðir sjálfvirkar. Til dæmis, þegar frambjóðandi samþykkir tilboð, getur tilkynning verið sendur til þjálfunarteymisins eða fréttirnar geta verið tilkynntar á Twitter. Nánari upplýsingar um flæði er að finna í [Microsoft Power Automate fylgiskjölunum](https://docs.microsoft.com/flow/).
 
 ### <a name="power-bi"></a>Power BI
 
@@ -74,18 +74,18 @@ Power BI gerir þér kleift að byggja upp og skoða sérsniðnar skýrslur og y
 
 ### <a name="custom-activities"></a>Sérsniðnir verkþættir 
 
-Þú getur bætt við sérsniðnum aðgerðum, svo sem aðgerðum PowerApps-forrita og vefefnis (iframe), á stigi sniðmáts starfsferlisins eða meðan þú býrð til nýtt starf. Þessar aðgerðir gera þér kleift að sérsníða ráðningarferlið og koma með viðskiptagrunn sem er einstakt fyrir fyrirtæki þitt í Attract.
+Þú getur bætt við sérsniðnum aðgerðum, svo sem aðgerðum Power Apps-forrita og vefefnis (iframe), á stigi sniðmáts starfsferlisins eða meðan þú býrð til nýtt starf. Þessar aðgerðir gera þér kleift að sérsníða ráðningarferlið og koma með viðskiptagrunn sem er einstakt fyrir fyrirtæki þitt í Attract.
 
-#### <a name="powerapps-activity"></a>PowerApps verkþáttur 
+#### <a name="power-apps-activity"></a>Power Apps verkþáttur 
 
-PowerApps-virkni leyfir stofnendum sniðmáta fyrir starf eða starfsferil að fella inn í PowerApps-forrit í ráðningarflæðinu. Eftir að þú hefur búið til og birta forritið getur þú slegið inn forritakenni þess í aðgerðarstillingunum. Með því að nota PowerApps-forrit geturðu lesið og skrifað gögn í Common Data Service. Þú getur jafnvel tengt forritið við flæði. Til dæmis hefur þú forrit sem ráðningaraðilar nota til að fylla út eyðublað meðan þeir halda starfsviðtal í síma. Í þessu tilfelli er hægt að tengja forritið við flæði sem metur hvort umsækjandi geti farið lengra í starfsumsóknarferlinu. Þessi tegund af aðgerðar má aðeins skoða af meðlimum ráðningarhópsins. Nánari upplýsingar um hvernig á að stilla PowerApps virkni er að finna í [Aðgerðir í Attract](./activities-attract.md).
+Power Apps-virkni leyfir stofnendum sniðmáta fyrir starf eða starfsferil að fella inn í Power Apps-forrit í ráðningarflæðinu. Eftir að þú hefur búið til og birta forritið getur þú slegið inn forritakenni þess í aðgerðarstillingunum. Með því að nota Power Apps-forrit geturðu lesið og skrifað gögn í Common Data Service. Þú getur jafnvel tengt forritið við flæði. Til dæmis hefur þú forrit sem ráðningaraðilar nota til að fylla út eyðublað meðan þeir halda starfsviðtal í síma. Í þessu tilfelli er hægt að tengja forritið við flæði sem metur hvort umsækjandi geti farið lengra í starfsumsóknarferlinu. Þessi tegund af aðgerðar má aðeins skoða af meðlimum ráðningarhópsins. Nánari upplýsingar um hvernig á að stilla Power Apps virkni er að finna í [Aðgerðir í ráðningarferli](./activities-attract.md).
 
 > [!NOTE]
-> PowerApps-aðgerð er aðeins í boði með Viðbót við alhliða ráðningar.
+> Power Apps-aðgerð er aðeins í boði með Viðbót við alhliða ráðningar.
 
 #### <a name="web-content-iframe-activity"></a>Vefefni (iframe) virkni
 
-Vefefni (iframe) virkni gerir þér kleift að fella inn sérsniðna veflausn sem þú hefur byggt upp í ráðningarferlinu eða í vefgátt umsækjanda. Þú getur lesið og skrifað gögn beint úr Common Data Service. Þú getur einnig sérsniðið lausnina þannig að það kalli fram flæði eða nýtir Microsoft Azure-eiginleika. Nánari upplýsingar um hvernig á að stilla virkni vefefnis sjá [Aðgerðir í Attract](./activities-attract.md).
+Vefefni (iframe) virkni gerir þér kleift að fella inn sérsniðna veflausn sem þú hefur byggt upp í ráðningarferlinu eða í vefgátt umsækjanda. Þú getur lesið og skrifað gögn beint úr Common Data Service. Þú getur einnig sérsniðið lausnina þannig að það kalli fram flæði eða nýtir Microsoft Azure-eiginleika. Nánari upplýsingar um hvernig á að stilla virkni vefefnis sjá [Aðgerðir í ráðningarferli](./activities-attract.md).
 
 > [!NOTE]
 > Vefefnisaðgerðin er aðeins í boði með Viðbót við alhliða ráðningar.

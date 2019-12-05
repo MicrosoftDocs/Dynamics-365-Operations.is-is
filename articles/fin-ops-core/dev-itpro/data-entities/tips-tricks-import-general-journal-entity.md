@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 167afa70bfa35b966081709f1587d61d401d318f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 23a4cff85bb5c9d119f9ec47e8421aa1964a3d4f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184348"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769611"
 ---
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Bestu starfsvenjur fyrir innflutning fylgiskjala með því að nota einingu almennrar færslubókar
 
@@ -57,7 +57,7 @@ Eftirfarandi kaflar lýsa áhrif þessara stillinga og einnig útskýrir hvernig
 
 ### <a name="voucher-number"></a>Fylgiskjalsnúmer
 
-- Þegar notuð er **samstæðubyggð úrvinnsla** stilling á einingu Almennri færslubók, verður að gefa upp númer fylgiskjals í innfluttu skránni. Hver færsla í Almennu færslubókinni er úthlutað fylgiskjalsnúmer sem er gefin upp í innfluttu skránni, jafnvel ef fylgiskjal er ekki jafnað. Ef óskað er að nota samstæðubyggða úrvinnslu en þú vilt einnig nota númeraröð sem skilgreind er fyrir fylgiskjalsnúmer hefur verið búin til bráðabót sem fyrir febrúar 2016 útgáfa. Númer bráðabótar er 3170316 og og má hlaða niður frá Lifecycle services (LCS). Nánari upplýsingar, sjá [Niðurhal bráðabóta af Lifecycle Services](../migration-upgrade/download-hotfix-lcs.md).
+- Þegar notuð er **samstæðubyggð úrvinnsla** stilling á einingu Almennri færslubók, verður að gefa upp númer fylgiskjals í innfluttu skránni. Hver færsla í Almennu færslubókinni er úthlutað fylgiskjalsnúmer sem er gefin upp í innfluttu skránni, jafnvel ef fylgiskjal er ekki jafnað. Ef óskað er að nota samstæðubyggða úrvinnslu en þú vilt einnig nota númeraröð sem skilgreind er fyrir fylgiskjalsnúmer hefur verið búin til bráðabót sem fyrir febrúar 2016 útgáfa. Númer bráðabótar er 3170316 og og má hlaða niður frá Lifecycle services (LCS). Nánari upplýsingar, sjá [Niðurhal á uppfærslum úr Lifecycle Services (LCS)](../migration-upgrade/download-hotfix-lcs.md).
 
     - Til að virkja þessa aðgerð, á færslubókarheiti sem notað er fyrir innflutningi skal stilla **úthlutun númers við bókun** á **Já**.
     - Samt sem áður þarf að skilgreina númer fylgiskjals í innfluttu skránni. Hins vegar er þetta númer tímabundin og skrifað er yfir það af fylgiskjalsnúmer þegar færslubókin er bókuð. Þú verður að ganga úr skugga um að línurnar í færslubókinni eru rétt flokkaðar eftir tímabundið fylgiskjalsnúmer. Til dæmis, við bókun, finnast þrjár línur sem hafa tímabundið fylgiskjalsnúmer 1. Tímabundið fylgiskjalsnúmer fyrir allar þrjár línur er skrifað yfir af næsta númeri í númeraröð. Ef þessar þrjár línur ekki eru jafnaðar færslur, er fylgiskjal ekki bókuð. Næst, ef línur finnast sem hafa tímabundið fylgiskjalsnúmer 2, er þetta númer yfirskrifað af næsta númer fylgiskjals í númeraröð, og svo framvegis.

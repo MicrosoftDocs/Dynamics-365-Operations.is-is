@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 491024c9c3d6c7d20ef212e167ceab6abac8dac7
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: 2955464aa8a220563db1b9ebbb348be52f520659
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537856"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812581"
 ---
 # <a name="connect-the-help-system"></a>Tengja hjálparkerfið
 
@@ -80,7 +80,7 @@ Hægt er að nota verkefnaleiðbeiningar til að stofna sérsniðna hjálp eða 
 
 Hægt er að stofna sérsniðna hjálp fyrir Finance and Operations, Supply Chain Management og Retail með því að stofna verkskráningar sem endurspegla innleiðingu þína og vista þær í LCS Business Process Library. Ekki er hægt að stofna sérsniðnar verkefnaleiðbeiningar fyrir Talent.
 
-Fyrir samstarfsaðila, ef þú færir safn inn í fyrirtækissafn og hefur það með í lausn, verður það tiltækt viðskiptavinum þínum. Einnig er hægt gera afrit af APQC Unified global library og síðan opna síðan afritið, opna verkskráningar úr því, breyta þeim og vista skráningar með breytingunum. Frekari upplýsingar er að finna í efnisatriðinu [Hvernig stofna á verkskráningu sem nota á sem fylgigögn eða þjálfun](../../dev-itpro/user-interface/task-recorder.md).
+Fyrir samstarfsaðila, ef þú færir safn inn í fyrirtækissafn og hefur það með í lausn, verður það tiltækt viðskiptavinum þínum. Einnig er hægt gera afrit af APQC Unified global library og síðan opna síðan afritið, opna verkskráningar úr því, breyta þeim og vista skráningar með breytingunum. Nánari upplýsingar er að finna [Tilföng verkskráningar](../../dev-itpro/user-interface/task-recorder.md).
 
 ### <a name="connect-a-custom-site"></a>Tengja sérsniðið svæði
 
@@ -91,8 +91,8 @@ Microsoft hefur útvegað hvítbók og sýnikóða sem lýsa því hvernig á a�
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Hjálparyfirlit](help-overview.md)
+[Hjálparkerfi](help-overview.md)
 
-[yfirlit verkskráningar](../../dev-itpro/user-interface/task-recorder.md)
+[Tilföng verkskráningar](../../dev-itpro/user-interface/task-recorder.md)
 
-[Stofna verkskráning til að nota sem fylgiskjölum eða þjálfun](../../dev-itpro/user-interface/task-recorder-training-docs.md)
+[Búa til fylgiskjöl eða þjálfun með verkskráningu](../../dev-itpro/user-interface/task-recorder-training-docs.md)

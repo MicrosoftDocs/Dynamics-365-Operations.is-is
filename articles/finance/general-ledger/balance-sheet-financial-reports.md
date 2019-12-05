@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9dcac902118c643b9a9d783c12f02fa5c90827b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e96552447182f3692a19d4cfd962afbcb28e5508
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178250"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771870"
 ---
 # <a name="balance-sheet-financial-reports"></a>Fjárhagsskýrslur efnahagsreikninga
 
@@ -74,9 +74,9 @@ Dálkskilgreiningar innihalda mismunandi gerðir dálka til að veita mismunandi
 <a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Fjárhagsskýrslugerð](financial-reporting-getting-started.md)
+[Yfirlitssíða fjárhagsskýrslugerðar](financial-reporting-getting-started.md)
 
-[Skoðun fjárhagsskýrslna](view-financial-reports.md)
+[Skoða fjárhagsskýrslur](view-financial-reports.md)
 
 [Dynamics Financial Reporting-blogg](https://blogs.msdn.com/b/dynamics_financial_reporting/)
 

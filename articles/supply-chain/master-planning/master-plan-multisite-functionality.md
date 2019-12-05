@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f05e3efd1716a27a659ae40145f37bb0b3d977f
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: d0b715e0c17263519a9bb1b3780170812271d93d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865406"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813754"
 ---
 # <a name="master-planning-and-multisite-functionality-overview"></a>Yfirlit yfir aðaláætlanir og virkni á mörgum svæðum
 
@@ -40,15 +40,15 @@ Ef stilling á vöruhúsi er ekki skyldubundin þekkist það ekki í upphaflegu
 
 Eftirfarandi efnisatriði lýsa því hvernig áætlunarforritið vinnur, þegar mismunandi stillingar eru skilgreindar til þess að ákvarða hvaða vöruhús verður notað.
 
-[Aðaláætlanagerð - trygging svæðis og vöruhúss, vöruhús lögbundið](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[Aðaláætlanagerð fyrir þekju svæðis og vöruhúss, vöruhús áskilið](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[Aðaláætlanagerð - trygging svæðis, vöruhús lögbundið](master-plan-site-coverage-warehouse-mandatory.md)
+[Aðaláætlanagerð fyrir þekju svæðis, vöruhús áskilið](master-plan-site-coverage-warehouse-mandatory.md)
 
-[Aðaláætlanagerð - trygging svæðis og vöruhúss, vöruhús ekki lögbundið](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[Aðaláætlanagerð fyrir þekju svæðis og vöruhúss, vöruhús ekki áskilið](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[Aðaláætlanagerð- trygging svæðis, vöruhús ekki lögbundið](master-plan-site-coverage-warehouse-not-mandatory.md)
+[Aðaláætlanagerð fyrir þekju svæðis, vöruhús ekki áskilið](master-plan-site-coverage-warehouse-not-mandatory.md)
 
-[Aðaláætlanagerð - Hvernig uppskriftaútgáfan er ákvörðuð](master-plan-bom-version-determined.md)
+[Uppskriftarútgáfa ákvörðuð](master-plan-bom-version-determined.md)
 
 
 

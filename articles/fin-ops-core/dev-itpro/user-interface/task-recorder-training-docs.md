@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c3d83334bcccc62a2cbe761272b13cc80e10c11
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: b4bb523c2817a220623d8a1b6cc1ac04d7b96283
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658811"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812650"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Búa til fylgiskjöl eða þjálfun með verkskráningu
 
@@ -84,7 +84,7 @@ Svona lítur athugasemdarskýring út í talblöðrunni í verkefnaleiðbeiningu
 
 [![Útlit athugasemdaritunar í verkefnahandbók](./media/screen4.png)](./media/screen4.png)
 
--   **Upplýsingaskref**: Þessar skýringar eru stofnaðar með því að hægri smella á stýringu eða einhvers staðar í skjámyndinni &lt; **Verkskráning** &lt; **Bæta við upplýsingaskrefi. **Upplýsingaskref birtast sem sem númeruð skref á þeim tímapunkti sem það er sett inn, jafnvel þótt engin aðgerð var skráð í notendaviðmóti. Hægt er að bæta upplýsingaskrefi á stigi skjámyndar eða upplýsingar sem eru tengdar stýringu. Þegar upplýsingaskref tengist skjámyndinni, birtist á talblaðra verkefnaleiðbeininga einhversstaðar á skjámynd þegar verkefnaleiðbeiningar eru spilaðar. Þegar upplýsingaskref tengist stýringu, bendir talblaðra verkefnaleiðbeininga á stýringuna á þegar verkefnaleiðbeiningar eru spilaðar. Í hjálparrúðunni birtist skýring upplýsingaskrefs sem númerað skref með hverjum þeim texta sem þú færðir inn. Notaðu upplýsingaskref til að undirbúa notanda fyrir næstu skref, til að lýsa skrefum sem þarf að gera utan við forritið eða til að vísa til annarra skráninga (þó að ekki sé hægt að búa til tengla í skýringum.).
+-   **Upplýsingaskref**: Þessar skýringar eru stofnaðar með því að hægrismella á stýringu eða einhvers staðar í skjámyndinni &lt; **Verkskráning** &lt; **Bæta við upplýsingaskrefi**. Upplýsingaskref birtast sem númeruð skref á hvaða tímapunkti sem það er setja inn, jafnvel þótt engin aðgerð var skráð í Notendaviðmóti. Hægt er að bæta upplýsingaskrefi á stigi skjámyndar eða upplýsingar sem eru tengdar stýringu. Þegar upplýsingaskref tengist skjámyndinni, birtist á talblaðra verkefnaleiðbeininga einhversstaðar á skjámynd þegar verkefnaleiðbeiningar eru spilaðar. Þegar upplýsingaskref tengist stýringu, bendir talblaðra verkefnaleiðbeininga á stýringuna á þegar verkefnaleiðbeiningar eru spilaðar. Í hjálparrúðunni birtist skýring upplýsingaskrefs sem númerað skref með hverjum þeim texta sem þú færðir inn. Notaðu upplýsingaskref til að undirbúa notanda fyrir næstu skref, til að lýsa skrefum sem þarf að gera utan við forritið eða til að vísa til annarra skráninga (þó að ekki sé hægt að búa til tengla í skýringum.).
 
 **Ákvarða hversu lengi á að gera upptökuna**
 
@@ -97,7 +97,7 @@ Svona lítur athugasemdarskýring út í talblöðrunni í verkefnaleiðbeiningu
 **Ákveða hvar í Notendaviðmóti til að hefja skráningu** Síðan sem þú ert á þegar byrjað er að skrá verkskráningu hefur áhrif á hvaða síðu sem verkefnaleiðbeiningar er birt fyrir. Til dæmis, ef óskað er eftir að verkskráning sé skráð í hjálparglugganum þegar notandi smellir á hjálp á síðunni færibreytur fjárhags, verður að hefja skráningu á síðunni færibreytur fjárhags. **Vista skráningar sem .axtr skrár** Þegar þú ert búinn að stofnaðar eða breyttar skráningu verki, færðu nokkrum valkosti fyrir hvernig á að sækja eða vista skráninguna. Hægt er að sækja skrána sem verkskráningarpakka (.axtr) hlaða niður sem hráa skráningarskrá (.xml), hlaða niður sem Word-skjal sem eða vista skrána í LCS safnið. Það er góð hugmynd að vista alltaf verkskráningu sem verkskráningarpakkaskrá(.axtr). Þetta hjálpar til við auðvelda viðhald skrárinnar ef skýringar eða ferlin þarf að breyta síðar. Ef óskað er að sækja skrána sem Word-skjal skaltu einnig vista það sem verkskráningar pakkaskrá.
 
 ## <a name="create-your-task-recording"></a>Stofna verkskráningu þína
-Fyrir nákvæm leiðbeiningaskref sjá [Hvernig stofna á verkskráningu](task-recorder.md).
+Fyrir nákvæm leiðbeiningaskref sjá [Tilföng verkskráningar](task-recorder.md).
 
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>Afrita og sérsníða Microsoft fyrir verkskráningu
 Hægt er að sækja og breyta verkskráningu Microsoft og nota þær fyrir eigin fylgigögn hjálpar eða þjálfunarefni. Til að sækja Microsoft verkskráningu, skal fylgja þessum skrefum:
@@ -115,14 +115,14 @@ Hægt er að sækja og breyta verkskráningu Microsoft og nota þær fyrir eigin
 11. Veldu hvernig Á að vista stillingarnar.
 
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Taka verkskráningu með í rúðunni Hjálp
-Til að sýna þína eigin sérsniðna verkskráningu í rúðunni hjálp þannig að hægt er að spila þau sem verkefnaleiðbeiningar eða skoða texta , þarf að vista verkskráningu í eigin safn BPM og síðan uppfæra færibreytum hjálparkerfis til að vísa í safn fyrir BPM. Fyrir nánari upplýsingar sjá [Tengja við hjálpargögnin.](../../fin-ops/get-started/help-connect.md)
+Til að sýna þína eigin sérsniðna verkskráningu í rúðunni hjálp þannig að hægt er að spila þau sem verkefnaleiðbeiningar eða skoða texta , þarf að vista verkskráningu í eigin safn BPM og síðan uppfæra færibreytum hjálparkerfis til að vísa í safn fyrir BPM. Fyrir nánari upplýsingar sjá [Tengja við hjálparkerfið](../../fin-ops/get-started/help-connect.md).
 
 <a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Hjálparyfirlit](../../fin-ops/get-started/help-overview.md)
+[Hjálparkerfi](../../fin-ops/get-started/help-overview.md)
 
-[Tengihjálp](../../fin-ops/get-started/help-connect.md)
+[Tengja hjálparkerfið](../../fin-ops/get-started/help-connect.md)
 
 [Verkskráning](task-recorder.md)
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: b5c54d921e2955bc866ffd1ca516169790d33127
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c8655af567ef56c535ce0e43cb76c28c58dc1eb3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024233"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814606"
 ---
 # <a name="questionnaires"></a>Spurningalistar
 
@@ -44,17 +44,17 @@ Eftirfarandi tafla útvegar tengla á upplýsingar um verkhluta spurningalista �
 | Efni| lýsing|
 |------|------------|
 | [Hanna spurningalista](design-questionnaires.md)  | Þessi grein veitir upplýsingar um hvernig hanna á spurningalista. Hönnunarferlið felur í sér uppsetningu á forkröfum, svörum og spurningum og°sameina þær í spurningalista. |
-| [Dreifa og ljúka spurningalista](distribute-questionnaires.md)  | Þessi grein veitir upplýsingar um hvernig á að dreifa spurningalista til svarernda og hvernig á að fylla út spurningalista.                                                                       |
-| [Skoða og meta niðurstöður spurningalista](evaluate-questionnaire-results.md) | Þessi grein veitir upplýsingar um hvernig skoða og meta á niðurstöður úr útfylltum spurningalistum.                                                                                        |
+| [Dreifa spurningalistum á ákveðnum tímum](distribute-questionnaires.md)  | Þessi grein veitir upplýsingar um hvernig á að dreifa spurningalista til svarernda og hvernig á að fylla út spurningalista.                                                                       |
+| [Yfirferð og mat á niðurstöðum spurningalista](evaluate-questionnaire-results.md) | Þessi grein veitir upplýsingar um hvernig skoða og meta á niðurstöður úr útfylltum spurningalistum.                                                                                        |
 
 
 
 <a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Hönnun spurningalista](design-questionnaires.md)
+[Hanna spurningalista](design-questionnaires.md)
 
-[Dreifa og ljúka°spurningalista](distribute-questionnaires.md)
+[Dreifa spurningalistum á ákveðnum tímum](distribute-questionnaires.md)
 
-[Skoða og meta niðurstöður spurningalista](evaluate-questionnaire-results.md)
+[Yfirferð og mat á niðurstöðum spurningalista](evaluate-questionnaire-results.md)
 

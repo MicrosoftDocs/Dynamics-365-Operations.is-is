@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74ccda77a97d1e104940bb10a605d3ebbf45af75
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 0468cb0b1717b7cf0ccb391da09a4e7d788124f3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571255"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812215"
 ---
 # <a name="functional-location-types"></a>Gerðir virkra staðsetninga
 
@@ -56,7 +56,7 @@ Núna hefur sjálfgefin gerð virkrar staðsetningar sem aðeins á að nota fyr
 3. Settu kenni virkrar staðsetningar inn í reitinn **Gerð virkrar staðsetningar** og heiti í reitinn **Heiti**.
 4. Veldu líftímalíkan í reitnum **Líftímalíkan virkrar staðsetningar**. Sjá [Líftímastöður virkrar staðsetningar](../setup-for-functional-locations/functional-location-stages.md) til að fá frekari upplýsingar um líftímastöður virkra staðsetninga og líftímalíkön.
 5. Veldu „Já“ á skiptihnappnum **Margar eignir** ef það á að vera hægt að setja upp margar eignir upp á virkri staðsetningu með því að nota þessa gerð virkrar staðsetningar. Ef þú velur „Nei“ geturðu aðeins sett upp *eina* eign á virkri staðsetningu með því að nota þessa gerð virkrar staðsetningar.
-6. Veldu „Já“ á skiptihnappnum **Uppfæra eignavídd** ef þú vilt að eignir séu settar upp á virkri staðsetningu af þessari gerð til að nota sjálfkrafa fjárhagsvíddir sem tengjast virkri staðsetningu. Þetta þýðir að ef þú breytir fjárhagslegum stærðum í forminu [Virk staðsetning](../functional-locations/create-functional-locations.md) og virka staðsetningin notar gerð virkrar staðsetningar með þessum skiptihnappi sem er stillt á „Já“ eru fjárhagvíddir eru sjálfkrafa uppfærðar á öllum eignum sem settar eru upp á þeirri virku staðsetningu.
+6. Veldu „Já“ á skiptihnappnum **Uppfæra eignavídd** ef þú vilt að eignir séu settar upp á virkri staðsetningu af þessari gerð til að nota sjálfkrafa fjárhagsvíddir sem tengjast virkri staðsetningu. Þetta þýðir að ef þú breytir fjárhagslegum stærðum í forminu [Stofna virkar staðsetningar](../functional-locations/create-functional-locations.md) og virka staðsetningin notar gerð virkrar staðsetningar með þessum skiptihnappi sem er stillt á „Já“ eru fjárhagvíddir eru sjálfkrafa uppfærðar á öllum eignum sem settar eru upp á þeirri virku staðsetningu.
 7. Reiturinn **Gerð eigna** er notaður ef þú vilt búa til sjálfkrafa *eina* eign fyrir virka staðsetningu með sama kenni og heiti og virka staðsetningin sem þú ert að búa til. Til dæmis getur þetta skipt máli ef þú býrð til kyrrstæða virka staðsetningu, svo sem byggingu eða leiðslu. Í því tilfelli skaltu velja eignategundina sem þú vilt nota fyrir sjálfvirkt stofnaða eignina. Mundu að ef þú gerir val á þessu sviði, þá verður skiptihnappurinn **Margar eignir** að vera stilltur á „Nei“.
 8. Á flýtiflipanum **Gerðir eigna** veldu þá eignategund sem á að tengjast gerð virku staðsetningarinnar. Veldu **Bæta við línu** og veldu eignagerðirnar. Ef þú bætir við eignategundum hér er aðeins hægt að setja upp eignir sem nota þessar eignategundir á virkri staðsetningu með því að nota þessa gerð virkrar staðsetningar. Ef engar eignategundir eru valdar á flýtiflipanum **Gerðir eigna** kunna allar eignategundir að vera settar upp.
 9. Á flýtiflipanum **Viðhaldsáætlanir** veldu viðhaldsáætlanir sem sjálfkrafa ætti að setja upp á nýjum virkum staðsetningum með því að nota þessa gerð virkrar staðsetningar. Veldu **Bæta við línu** og veldu viðhaldsáætlanir. Ef þú bætir við viðhaldsáætlunum hér, er aðeins hægt að nota þessar áætlanir á virkri staðsetningu með því að nota þessa gerð virkrar staðsetningar.

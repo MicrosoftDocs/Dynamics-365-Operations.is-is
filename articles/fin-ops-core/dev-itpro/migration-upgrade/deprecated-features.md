@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e1c5dea039ae6482bfd9e036642c23463f5bc3a
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 52ed93ae425a821ebce4ed63f154e155cb161e94
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658691"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811994"
 ---
 # <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Fjarlægðar eða úreltar aðgerðir fyrir Finance and Operations
 
@@ -348,7 +348,7 @@ Frá og með 15. febrúar, 2018, munu smásalar ekki lengur geta birt sérsniðn
 | **Staða**                         |Fjarlægt þann 15. febrúar, 2018. Þetta hefur áhrif á viðskiptavini sem keyra Dynamics 365 for Operations 1611 og eldri útgáfur.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Útvíkkun listans yfir aðgerðir Rafrænnar skýrslugerðar
-Möguleikinn á að kynna sérsniðnar aðgerðir sem notaðar eru í ER-tjáningarbyggingu (til að fá frekari upplýsingar, sjá [Útvíkka lista yfir aðgerðir Rafrænnar skýrslugerðar](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) er ekki studdur lengur. Vegna breytinga á ER API, varð API til að kalla innbyggðar aðgerðir frá ER tjáningarbyggingu innra API og ekki hægt að útvíkka lengur.
+Möguleikinn á að kynna sérsniðnar aðgerðir sem notaðar eru í ER-tjáningarbyggingu (til að fá frekari upplýsingar, sjá [Útvíkka lista yfir aðgerðir Rafrænnar skýrslugerðar (ER)](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) er ekki studdur lengur. Vegna breytinga á ER API, varð API til að kalla innbyggðar aðgerðir frá ER tjáningarbyggingu innra API og ekki hægt að útvíkka lengur.
 
 |   |  |
 |------------|--------------------|
@@ -474,7 +474,7 @@ Vöruhús fjarskiptatæki portal (WMDP) var sjálfstæður þáttur sem var gert
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Afrituð virkni.       |
-| **Skipt út fyrir aðra eiginleika?**   | Já. Þessari aðgerð hefur verið skipt út fyrir Finance and Operations - Warehousing. Nánari upplýsingar um uppsetningu og skilyrði er að finna í [Setja upp og skilgreina Microsoft Dynamics 365 for Finance and Operations - Vöruhús](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **Skipt út fyrir aðra eiginleika?**   | Já. Þessari aðgerð hefur verið skipt út fyrir Finance and Operations - Warehousing. Nánari upplýsingar um uppsetningu og skilyrði er að finna í [Setja upp og skilgreina yfirlit yfir forritið Warehousing](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Afurðasvæði sem haft er áhrif á**         | Vöruhúsastjórnun, flutningsstjórnun     |
 | **Dreifingarvalkostur**              | Vöruhús fjarskiptatæki portal (WMDP) var sjálfstæður þáttur sem var gert ráð fyrir verslunarsvæðis á sjálfnýtingu.               |
 | **Staða**                         | Úrelt: Tímarammi markmiðs um að fjarlægja virknina er Q4 2019.   |
@@ -1244,7 +1244,7 @@ Vörusamsetning (Product builder) var notaður til að setja saman á lifandi h�
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Product builder birti X ++ kóða til að endanotenda og er ekki studdur í þessari útgáfu af Dynamics AX. Það hefur verið fjarlægð til að koma í veg fyrir tvíteknar viðhaldsvinnu á kóðagrunnum sem skarast.  |
-| **Skipt út fyrir aðra eiginleika?**   | Já. Skorðuskilgreiningin var kynnt í Dynamics AX 2012 þar sem úrelding Vörusamsetningar í framtíðarútgáfum var þegar tilkynnt. Skorðuskilgreiningartæknin valin á vörustjórunum til að virkja grunnstillingarnar. Frekari upplýsingar, sjá [Byggja líkan vöruskilgreiningar](../../../supply-chain/pim/build-product-configuration-model.md). |
+| **Skipt út fyrir aðra eiginleika?**   | Já. Skorðuskilgreiningin var kynnt í Dynamics AX 2012 þar sem úrelding Vörusamsetningar í framtíðarútgáfum var þegar tilkynnt. Skorðuskilgreiningartæknin valin á vörustjórunum til að virkja grunnstillingarnar. Frekari upplýsingar, sjá [Yfirlit afurðarafbrigða](../../../supply-chain/pim/build-product-configuration-model.md). |
 | **Afurðasvæði sem haft er áhrif á**         | Stjórnun á upplýsingum um afurðir, Sölu og markaðssetningu  |
 | **Staða**                         | Fjarlægt frá og með Dynamics AX 7.0.      |
 

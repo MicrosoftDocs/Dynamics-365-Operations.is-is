@@ -16,25 +16,25 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: eadf0af285213a972cac83d7b6fc6a47317b21bb
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 86be6d4cc0af3f2fd92523d4ecd3825f2383fc48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551658"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770736"
 ---
 # <a name="online-financial-consolidations"></a>Sameiningar fjárhags á netinu
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er fjallað um sameiningu fjárhags á netinu í Fjárhag. Áður en þú lest þetta efnisatriði skaltu fyrst lesa efnisatriðið [Sameiningar fjárhags og umreikningur gjaldmiðils](financial-consolidations-currency-translation.md).
+Í þessu efnisatriði er fjallað um sameiningu fjárhags á netinu í Fjárhag. Áður en þú lest þetta efnisatriði skaltu fyrst lesa efnisatriðið [Yfirlit yfir sameiningar fjárhags og umreikning gjaldmiðils](financial-consolidations-currency-translation.md).
 
 Eftir að þú hefur lokið uppsetningunni, slærðu inn upplýsingar um sameiningu á síðunni **Sameina [á netinu]**. Þegar því er lokið geturðu smellt á **Í lagi** eða **Runa** til að vinna úr sameiningunni.
 
 ## <a name="criteria"></a>Skilyrði
 Á flipanum **Skilyrði** á síðunni **Sameina [á netinu]** skilgreinir þú reikningana, tímabilin og tegund af gögnum sem er verið að sameina.
 
-![Skilyrðisflipi](./media/criteria-consolidate-online.png "Skilyrðisflipi")
+![Flipinn Skilyrði](./media/criteria-consolidate-online.png "Flipinn Skilyrði")
 
 Hér er skýring á ýmsum reitum á þessum flipa:
 
@@ -60,16 +60,16 @@ Hér er skýring á ýmsum reitum á þessum flipa:
 ## <a name="financial-dimensions"></a>Fjárhagsvíddir
 Á flipanum **Fjárhagsvíddir** skilgreinir þú víddirnar sem ætti að hafa með í samstæðufyrirtækinu. Til að velja vídd skaltu stilla reitinn **Lýsing** á **Vídd** og þá skilgreina röð víddarinnar í samstæðufyrirtækinu.
 
-![Flipi fjárhagsvídda](./media/financial-dimensions-cons.png "Flipi fjárhagsvídda")
+![Flipinn Fjárhagsvíddir](./media/financial-dimensions-cons.png "Flipinn Fjárhagsvíddir")
 
 Burtséð frá röðinni sem þú skilgreinir, þá verður **Aðallykill** alltaf fyrsti hlutinn.
 
 ## <a name="legal-entities"></a>Lögaðilar
 Á flipanum **Lögaðila** skilgreinir þú fyrirtækin sem ætti að hafa með í fyrirtækjasamstæðunni. Þú skilgreinir einnig eignarhlutfall þessara fyrirtækja. Ef þú tilgreinir minna en 100 prósent eignarhald verður tilgreint hlutfall fært yfir á samstæðufyrirtækið. Fyrir allan mun í umreikningi er reiturinn **Lyklagerð fyrir umreikningsmun** notaður til að velja aðallykil frá uppsetningunni á síðunni **Lyklar fyrir sjálfvirkar færslur**.
 
-![Flipi lögaðila](./media/legal-entities-cons.png "Flipi lögaðila")
+![Flipinn Lögaðilar](./media/legal-entities-cons.png "Flipinn Lögaðilar")
 
-![Síða lykla fyrir sjálfvirkar færslur](./media/accounts-for-automatic-cons.png "Síða lykla fyrir sjálfvirkar færslur")
+![Síðan Lyklar fyrir sjálfvirkar færslur](./media/accounts-for-automatic-cons.png "Síðan Lyklar fyrir sjálfvirkar færslur")
 
 ## <a name="elimination"></a>Losun
 Á flipanum **Losun** hefur þú þrjá valkosti fyrir úrvinnslu á losunum:
@@ -78,7 +78,7 @@ Burtséð frá röðinni sem þú skilgreinir, þá verður **Aðallykill** allt
 - Veldu losunarregluna og þá í reitnum **Valkostir tillagna** skaltu velja **Aðeins bóka**. Þessi valkostur mun vinna úr losuninni meðan á samstæðuferlinu stendur, og hann mun bóka allt í einu skrefi.
 - Keyrðu losunartillögu aðskilið frá samstæðulykli með því að nota losunarfærslubókina.
 
-![Flipi losunar](./media/elimination-cons-onl.png "Flipi losunar")
+![Flipinn Losun](./media/elimination-cons-onl.png "Flipinn Losun")
 
 Frekari upplýsingar um brotthvarf er að finna í [Losunarreglur](./elimination-rules.md).
 
@@ -89,10 +89,10 @@ Frekari upplýsingar um brotthvarf er að finna í [Losunarreglur](./elimination
 - **Færsludagsetning** - Dagsetning hverrar færslu verður notuð til að velja gengi. Þessi valkostur er oftast notaður fyrir eign og er oft nefnt sögulegt gengi. Þú getur ekki séð forskoðun á genginu vegna þess að það eru mörg gengi fyrir hinar ýmsu færslur á sviði lykils.
 - **Notandaskilgreint gengi** - Eftir að þú hefur valið þennan valkost getur þú slegið inn það gengi sem þú vilt. Þessi valkostur getur verið gagnlegur fyrir meðalgengi eða ef þú sameinar gagnvart föstu gengi.
 
-![Flipi fyrir umreikning gjaldmiðils](./media/currency-translation-cons-online.png "Flipi fyrir umreikning gjaldmiðils")
+![Flipinn Umreikningur gjaldmiðils](./media/currency-translation-cons-online.png "Flipinn Umreikningur gjaldmiðils")
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-Nánari upplýsingar um samstæðuumreikning og umreikning gjaldmiðils er að finna í yfirefni þessa efnisatriðis, [Sameiningar fjárhags og umreikningur gjaldmiðils](./financial-consolidations-currency-translation.md).
+Nánari upplýsingar um samstæðuumreikning og umreikning gjaldmiðils er að finna í yfirefni þessa efnisatriðis, [Yfirlit yfir fjárhagssamstæður og umreikninga gjaldmiðils](./financial-consolidations-currency-translation.md).
 
 Nánari upplýsingar um aðstæður þar sem þú gætir búið til samstæðureikningsskil er að finna í [Búa til samstæðureikningsskil](./generating-consolidated-financial-statements.md).

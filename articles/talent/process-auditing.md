@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 448fceccb507bec5b60b686043a303c1997a9ac0
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 0b0be541416d2e4be78da223ec8e95c195d90bbc
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742672"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832639"
 ---
 # <a name="track-changes-in-recruiting-data"></a>Merkja breytingar í ráðningargögnum
+
+[!include [banner](includes/banner.md)]
 
 Hægt er að fylgjast með breytingum sem gerðar eru á umsækjendum, lausum störfum eða umsóknum um starf með því að nota endurskoðunarferli. Þetta er gagnlegt út af skýrslugerð eða af samræmisástæðum.
 
@@ -31,7 +33,7 @@ Hægt er að fylgjast með breytingum sem gerðar eru á umsækjendum, lausum st
 ## <a name="track-changes"></a>Rekja breytingar
 Til að setja upp rakningu breytinga í ráðningargögnum skal fylgja þessum skrefum:
 
-1. Í [PowerApps](https://web.powerapps.com) skal velja viðeigandi umhverfi.
+1. Í [Power Apps](https://web.powerapps.com) skal velja viðeigandi umhverfi.
 
 2. Veljið **Stillingar** (tannhjólstáknið), veljið **Ítarlegar sérstillingar** og síðan skal velja **Tilföng** undir **Tilföng fyrir þróunaraðila**. 
 

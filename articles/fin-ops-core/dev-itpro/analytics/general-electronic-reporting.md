@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11ed2101304c4e09744bbd10e94e9cd2a8db4da5
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: ad6c1c7544f3c9d53b9d5759b246f81dae6cfe2c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578242"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771074"
 ---
 # <a name="electronic-reporting-er-overview"></a>Yfirlit yfir rafræna skýrslugerð (ER)
 
@@ -71,7 +71,7 @@ Líkanavörpun sem styður rafræn skjöl á útleið hefur eftirfarandi getu:
 
 - Hægt er að nota mismunandi gagnagerðir sem gagnagjafa fyrir gagnalíkan. Til dæmis getur það notað töflur, gagnaeiningar, aðferðir eða upptalningar.
 - Það styður ílagsfæribreytur notanda sem má skilgreina sem gagnagjafa gagnalíkans þegar tilgreina þarf gögn á keyrslutíma.
-- Stuðningur er fyrir umbreytingu gagna í tilskilda hópa. Það leyfir þér einnig að sía, raða og leggja saman gögn og skeyta við rökrétta útreiknaða reiti sem eru hannaðir með formúlum sem líkjast Microsoft Excel-formúlum. Frekari upplýsingar er að finna í [Formúluhönnuður í rafrænni skýrslugerð](general-electronic-reporting-formula-designer.md)).
+- Stuðningur er fyrir umbreytingu gagna í tilskilda hópa. Það leyfir þér einnig að sía, raða og leggja saman gögn og skeyta við rökrétta útreiknaða reiti sem eru hannaðir með formúlum sem líkjast Microsoft Excel-formúlum. Frekari upplýsingar er að finna í [Formúluhönnuður í rafrænni skýrslugerð (ER)](general-electronic-reporting-formula-designer.md)).
 
 
 Líkanavörpun sem styður rafræn skjöl á innleið hefur eftirfarandi getu:
@@ -362,5 +362,5 @@ ER leyfir þér að taka sjálfkrafa í gagn breytingar á nýjustu útgáfu af 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-- [Kröfur um staðfæringu - stofna Skilgreining fyrir rafræna skýrslugerð](electronic-reporting-configuration.md)
-- [Stjórnun á lífsferli fyrir stillingar Rafrænnar skýrslugerðar](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Stofna skilgreiningar fyrir rafræna skýrslugerð (ER)](electronic-reporting-configuration.md)
+- [Stjórnun á lífsferli grunnstillingar fyrir rafræna skýrslugerð](general-electronic-reporting-manage-configuration-lifecycle.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d461b85f89eff63c8747fb17b3ee34ebfeb2218
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 79e12f39589f9cf3f4b1515fa3ab10bb10ffb97f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185636"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770360"
 ---
 # <a name="project-management-and-accounting-overview"></a>Yfirlit verkefnastjórnunar og bókhalds
 
@@ -72,7 +72,7 @@ Nánari upplýsingar um verksamninga er að finna í [Verksamningur](project-con
 
 Stig upplýsinga í WBS fer eftir því stigi nákvæmni sem krafist er í mati og stigi rakningar sem er krafist gegn þessu mati. Verk sem hafa mjög lág vikmörk fyrir verðskrið í áætlun eða kostnaði krefjast yfirleitt ítarlegra WBS og einnig nákvæmrar rakningar á framvindu vinnu og kostnaði á móti WBS. 
 
-Frekari upplýsingar eru í [Sundurliðanir verkþátta](work-breakdown-structures.md).
+Frekari upplýsingar eru í [Yfirlit yfir sundurliðanir verkþátta](work-breakdown-structures.md).
 
 ### <a name="create-project-forecasts-and-budgets"></a>Viðhalda verkspám og fjárhagsáætlunum
 
@@ -134,7 +134,7 @@ Við keyrslu verka skrá teymismeðlimir eða stjórnendur vinnu og útgjöld se
 
 Sundurliðun verkþátta er lýsing á vinnunni sem verður lokið fyrir verk. Sundurliðun verkþátta er stigveldi verkefna. Hún stendur ekki aðeins fyrir vinnu fyrir sérhvert verkefni, heldur einnig stærð, kostnað og tímalengd verkefnisins. 
 
-Frekari upplýsingar eru í [Sundurliðanir verkþátta](work-breakdown-structures.md).
+Frekari upplýsingar eru í [Yfirlit yfir sundurliðanir verkþátta](work-breakdown-structures.md).
 
 ### <a name="manage-project-forecasts-and-budgets"></a>Viðhalda verkspám og fjárhagsáætlunum
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b1334dcba7d12f2da301f70e21a08fceb88e2b4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d5d878b0fe4e6b65aa2439d7ef7312eda1895823
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559034"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814928"
 ---
 # <a name="schedule-workload-capacity"></a>Tímasetja afkastagetu vinnuálags
 
@@ -30,7 +30,7 @@ ms.locfileid: "1559034"
 
 Hægt er að spá fyrir um vinnuálagsgetu fyrir vöruhús og einnig er hægt að spá fyrir um núverandi og framtíðarvinnuálag fyrir starfsfólkið í einstökum vöruhúsum. Hægt er að spá fyrir um vinnuálag fyrir allt vöruhúsið eða spá fyrir um vinnuálagið aðskilið fyrir vinnuálag bæði á innleið og útleið.
 
-Til að spá fyrir um vinnuálagsframleiðslu fyrir valin vöruhús, verða gögn aðalröðunar að vera tiltæk fyrir þessi vöruhús. Fyrir frekari upplýsingar, sjá [Aðaláætlanir](../master-planning/master-plans.md).
+Til að spá fyrir um vinnuálagsframleiðslu fyrir valin vöruhús, verða gögn aðalröðunar að vera tiltæk fyrir þessi vöruhús. Fyrir frekari upplýsingar, sjá [Yfirlit yfir aðaláætlanir](../master-planning/master-plans.md).
 
 ## <a name="schedule-and-view-workloads-for-a-warehouse"></a>Raða og skoða vinnuálag fyrir vöruhús
 

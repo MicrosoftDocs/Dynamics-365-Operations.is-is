@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc1e1eb9d8ede1d07a873ca98a1c385cf0126c3f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5985042567a29f5a9cac38912cbf9c3c0eb9c8bd
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557524"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814468"
 ---
 # <a name="nonconformance-management"></a>Stjórnun ósamkvæmni
 
@@ -35,7 +35,7 @@ Fylgið eftirfarandi skrefum til að virkja ósamkvæmnistýringu:
 
 1.  Skilgreinið birgðafæribreyturnar pg vöruhúsafæribreyturnar sem eru tengdar ósamkvæmni.
     -   Setja skal **Nota gæðastjórnun** valkosturinn á **Já**.
-    -   Í reitinn **tímagjald**  skal færa inn tímagjald fyrir vinnu í gjaldmiðli landsins. Tímagjaldið er notuð til að reikna kostnað fyrir aðgerðir sem tengjast ósamkvæmni. Tímagjaldið og reiknaður kostnaður veita tilvísunarupplýsingar fyrir ósamkvæmni Þau eiga ekki í samskiptum við aðrar aðgerðir.
+    -   Í reitinn **tímagjald** skal færa inn tímagjald fyrir vinnu í gjaldmiðli landsins. Tímagjaldið er notuð til að reikna kostnað fyrir aðgerðir sem tengjast ósamkvæmni. Tímagjaldið og reiknaður kostnaður veita tilvísunarupplýsingar fyrir ósamkvæmni Þau eiga ekki í samskiptum við aðrar aðgerðir.
     -   Nota skal flipann **Gæðastjórnun** á síðunni **Skýrsluuppsetning** til að skilgreina gerð skjals til að prenta. Hægt er að prenta skýrslu um ósamkvæmni, ósamkvæmnimerki eða skýrslu um leiðréttingar. Hægt er að skilgreina fleiri en eina skráningu til að prenta mismunandi skjalategundir í skýrslu, eða til að prenta innri og ytri athugasemdir. Hjálplegt er að nota skjámyndina **Gerð fylgiskjals** til að skilgreina einkvæma gerð skjals fyrir ósamkvæmi og einkvæma gerð skjals fyrir leiðréttingu. Til dæmis á að færa inn athugasemdir um ósamkvæmni með því að nota einkvæma skjalgerð fyrir ósamkvæmni. Í þessu tilfelli auðkenna einkvæmu skjalgerðina í skýrsluvalkostum.
     -   Virkja númeraraðir fyrir ósamkvæmni og tilvísanir fyrir leiðréttingu.
 
@@ -49,8 +49,8 @@ Fylgið eftirfarandi skrefum til að virkja ósamkvæmnistýringu:
 <a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Ósamkvæmni stofnuð og unnið úr henni (verkleiðbeiningar)](tasks/create-process-non-conformance.md)
+[Stofna og vinna úr samræmi](tasks/create-process-non-conformance.md)
 
 [Gæðastjórnunarferli](quality-management-processes.md)
 
-[Setja upp forsendur fyrir ósamkvæmnistýringu (verkleiðbeiningar)](tasks/set-up-prerequisites-nonconformance-management.md)
+[Setja upp forsendur fyrir ósamkvæmistýringu.](tasks/set-up-prerequisites-nonconformance-management.md)

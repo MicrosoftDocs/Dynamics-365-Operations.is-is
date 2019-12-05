@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: b031fd95d2e7fc8405ad96139779091e00bb4d46
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 42065f3d6b7ae9e7ad99b26c7692e41f8c36934d
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551473"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832978"
 ---
 # <a name="troubleshoot-integration-with-linkedin-and-microsoft-dynamics-365-talent---attract"></a>Úrræðaleita samþættingu við LinkedIn og Microsoft Dynamics 365 Talent - Attract
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Notaðu eftirfarandi upplýsingar til að leysa úr vandamálum sem þú gætir haft þegar þú reynir að birta störf á LinkedIn úr Microsoft Dynamics 365 Talent: Attract.
 
@@ -42,18 +42,18 @@ Ef þú ert í vandræðum með að skrá þig inn á LinkedIn úr Attract skalt
 
 Ef starfið hefur ekki birst á LinkedIn eftir sólarhring skaltu prófa þessi skref:
 
-1. Gakktu úr skugga um að kenni fyrirtækisins á LinkedIn varpist á fyrirtækjasíðuna á LinkedIn og að þau séu rétt færð inn í stjórnandamiðstöðu í Attract. Nánari upplýsingar um hvernig breyta á LinkedIn stillingum í stjórnstöðinni, sjá [Setja upp samþættingu við LinkedIn](attract-admin-linkedin.md). Fyrir frekari upplýsingar um kenni fyrirtækisins á LinkedIn, sjá [Að tengja fyrirtækjakenni við atvinnutorgið á LinkedIn - algengar spurningar](https://www.linkedin.com/help/linkedin/answer/98972).
+1. Gakktu úr skugga um að kenni fyrirtækisins á LinkedIn varpist á fyrirtækjasíðuna á LinkedIn og að þau séu rétt færð inn í stjórnandamiðstöðu í Attract. Nánari upplýsingar um hvernig breyta á LinkedIn stillingum í stjórnstöðinni, sjá [Setja upp samþættingu við LinkedIn fyrir Microsoft Dynamics 365 Talent - Attract](attract-admin-linkedin.md). Fyrir frekari upplýsingar um kenni fyrirtækisins á LinkedIn, sjá [Að tengja fyrirtækjakenni við atvinnutorgið á LinkedIn - algengar spurningar](https://www.linkedin.com/help/linkedin/answer/98972).
 2. Athugaðu upplýsingar um starfið á LinkedIn til að ganga úr skugga um að netfangið sé rétt. Til að birta starf þarf LinkedIn að minnsta kosti borg og land eða svæði starfsins.
 3. Gakktu úr skugga um að starfið sé ekki tvítekning á öðru starfi sem hefur verið birt á LinkedIn. LinkedIn mun ekki birta störf sem eru tvítekningar á annaðhvort LinkedIn úrvalsstörf á lausu eða takmarkaðar skráningar af öðrum uppruna. Staðfestu að annar aðili hjá fyrirtækinu hafi ekki þegar birt starfið handvirkt.
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Algengar spurningar um LinkedIn](./attract-linkedin-faq.md)
+[Algengar spurningar um samþættingu Attract við LinkedIn](./attract-linkedin-faq.md)
 
-[Birta störf á LinkedIn úr Attract](./attract-post-jobs-to-linkedin.md)
+[Birta störf á LinkedIn úr Microsoft Dynamics 365 Talent - Attract](./attract-post-jobs-to-linkedin.md)
 
-[Finna umsækjendur með LinkedIn Recruiter](./attract-linkedin-recruiter.md)
+[Finna umsækjendur með LinkedIn Recruiter í Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
-[Stofna störf](./creating-jobs-attract.md)
+[Búa til, samþykkja og birta störf í Attract](./creating-jobs-attract.md)
 
-[Úrræðalaeit samþættingar við LinkedIn](./attract-troubleshoot-linkedin.md)
+[Úrræðaleit samþættingar við LinkedIn og Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)

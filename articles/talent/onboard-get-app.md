@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 28ed12bd8cf2df7c25e14a25465cad1229676cfd
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5849de38962967f0614ff7afd40296c0f12ff476
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551980"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812857"
 ---
 # <a name="get-the-dynamics-365-talent---onboard-app"></a>Sækja forritið Dynamics 365 Talent - Onboard
 
@@ -39,9 +39,9 @@ Meðan á prufu- eða kaupferlinu stendur muntu setja upp Microsoft 365 netfangi
 > [!WARNING]
 > Þú getur ekki flutt inn gögn úr prufuáskriftinni yfir í greitt áskriftarumhverfi þitt. <!--Reviewers: please verify.-->
 
-Til að lesa um nýja eiginleika í Talent er að finna í [Nýjungar eða breytingar í Dynamics 365 Talent](./whats-new.md) og [Dynamics 365 og Power Platform útgáfuupplýsingar](https://docs.microsoft.com/business-applications-release-notes/index). Ef þú vilt forskoða nýja eiginleika í Onboard skal sjá [Fá aðgang að forskoðunareiginleikum í Talent](./access-preview-feature.md).
+Til að lesa um nýja eiginleika í Talent er að finna í [Nýjungar eða breytingar í Dynamics 365 Talent](./whats-new.md) og [Dynamics 365 og Power Platform útgáfuupplýsingar](https://docs.microsoft.com/business-applications-release-notes/index). Ef þú vilt forskoða nýja eiginleika í Onboard skal sjá [Fá aðgang að forskoðunareiginleikum í Microsoft Dynamics 365 Talent](./access-preview-feature.md).
 
-Ef þú ert í upplýsingatækni og vilt læra meira um hvernig tvær útgáfur af Onboard-forritinu eru settar upp, sjáðu þá [Úthlutun fyrir Onboard-forritið](./modular-app-tech-faq.md).
+Ef þú ert í upplýsingatækni og vilt læra meira um hvernig tvær útgáfur af Onboard-forritinu eru settar upp, sjáðu þá [Úthlutun fyrir Dynamics 365 Talent - Onboard-forritið](./modular-app-tech-faq.md).
 
 ## <a name="get-started-with-onboard"></a>Hafist handa með Onboard
 
@@ -89,6 +89,6 @@ Ef þú samþykktir sjálfgefna lénið þegar þú skráðir þig hjá Onboard 
 ### <a name="see-also"></a>Sjá einnig
 
 - [Prófaðu eða keyptu Onboard-forritið](https://dynamics.microsoft.com/talent/onboard/)
-- [Nýjungar](./whats-new.md)
-- [Athugasemdir við útgáfu](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Fá aðstoð](./talent-support.md)
+- [Nýjungar eða breytingar í Dynamics 365 Talent](./whats-new.md)
+- [Útgáfuáætlanir](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Fá aðstoð fyrir Microsoft Dynamics 365 Talent](./talent-support.md)

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178239"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770690"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Búa til samstæðureikningsskil
 
@@ -45,15 +45,15 @@ Eftirfarandi skýringarmynd sýnir hvernig hægt er að nota skilgreiningu skipu
 
 Eins og samstæðuskýrslan á eftirfarandi skýringarmynd sýnir, þegar skipurit er notað saman með skýrsluskilgreiningu, er hægt að skoða hvert fyrirtæki sérstaklega. Sameinaðar upphæðir eru sýndar á samantektarstiginu.
 
-![Samantektarstig sameinaðar upphæðar](./media/consolidate-amount-summary-level.png "Samantektarstig sameinaðar upphæðar")
+![Sameina fjárhæð yfirlitsstigs](./media/consolidate-amount-summary-level.png "Sameina fjárhæð yfirlitsstigs")
 
 Einnig er hægt að búa til skipurit á mörgum stigum sem inniheldur eins mörg stig og þörf er á. Eftirfarandi skýringarmynd sýnir skilgreiningu skipurits á mörgum stigum sem hefur samantekt eftir heimssvæði.
 
-![Skilgreining skipurits á mörgum stigum með samantekt eftir svæði](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Skilgreining skipurits á mörgum stigum með samantekt eftir svæði")
+![Margþrepa skilgreining á skýrslugerðartré með samantekt eftir svæðum](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Margþrepa skilgreining á skýrslugerðartré með samantekt eftir svæðum")
 
 Eftirfarandi skýringarmynd sýnir skilgreiningu skipurits á mörgum stigum sem hefur samantekt eftir virkni.
 
-![Skilgreining skipurits á mörgum stigum með samantekt eftir virkni](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Skilgreining skipurits á mörgum stigum með samantekt eftir virkni")
+![Margþrepa skilgreining á skýrslugerðartré með samantekt eftir aðgerð](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Margþrepa skilgreining á skýrslugerðartré með samantekt eftir aðgerð")
 
 ### <a name="viewing-companies-side-by-side"></a>Fyrirtæki skoðuð hlið við hlið
 Margir viðskiptavinir vilja fá skýrslur þar sem fyrirtækin birtast hlið við hlið, og þar sem dálkur sýnir uppsafnaða samtölu. Auðvelt er að ná þessu sniði þegar skipuritið hefur verið búið til. Hér eru skrefin á hærri stigum til að skoða fyrirtæki hlið við hlið á samstæðureikningsskilum.
@@ -64,19 +64,19 @@ Margir viðskiptavinir vilja fá skýrslur þar sem fyrirtækin birtast hlið vi
 
 Eftirfarandi skýringarmynd sýnir dálkskilgreiningu í hlið við hlið sniði.
 
-![Dálkskilgreining í hlið við hlið sniði](./media/column-definition-side-by-side-format.png "Dálkskilgreining í hlið við hlið sniði")
+![Dálkaskilgreining í hlið við hlið-sniði](./media/column-definition-side-by-side-format.png "Dálkaskilgreining í hlið við hlið-sniði")
 
 ## <a name="consolidations-that-use-organization-structures-that-are-created-from-legal-entities"></a>Samstæður sem nota skipulag fyrirtækis sem er búið til út frá lögaðilum
 Stigveldi fyrirtækis sem inniheldur víddir eða lögaðila búa til gagnvirkt skilgreiningar skipurits í fjárhagsskýrslugerð. Auðveld leið til að einfalda samstæður er að bæta stigveldi fyrirtækis við skýrsluna þína í Financial reporting. Á grundvelli skýrsludagsetningar mun Financial reporting velja stigveldi fyrirtækis á eða fyrir gildistökudag, eins og sýnt er á eftirfarandi skýringarmynd.
 
-![Búa gagnvirkt til skilgreiningu skipurits](./media/dynamically-create-reporting-tree-definitions.png "Búa gagnvirkt til skilgreiningu skipurits")
+![Gagnvirkt stofna skilgreiningu skipurits](./media/dynamically-create-reporting-tree-definitions.png "Gagnvirkt stofna skilgreiningu skipurits")
 
 ## <a name="consolidations-that-involve-eliminations"></a>Samstæður sem fela í sér losun
 Losunarfærslur eru algengur hluti samstæðuferlisins. Í þessu dæmi eru fimm lyklar losaðir við samstæðu: 142600, 211400, 401420, 401180 og 510820. Fyrirtæki gætu sett upp lyklana sína innan samstæðu á annan hátt. Til dæmis velja sum fyrirtæki síðasta tölustafinn sem 9 ef lykillinn er notaður í færslum innan samstæðu. Óháð aðferðinni, ef þú þekkir lyklana innan samstæðu, geturðu sýnt losanir á samstæðureikningsskilum.
 
 Eftirfarandi skýringarmynd sýnir dálkskilgreiningu fyrir sameinaðan rekstrarreikning. Þrír rekstrarreikningar innan samstæðu eru skilgreindir fyrir hvert fyrirtæki með því að nota víddarsíuna. Dálkur D inniheldur losunarlykla eingöngu fyrir USMF-fyrirtækið og dálkur E inniheldur aðeins losanir fyrir DEMF-fyrirtækið. Bæði dálkur D og dálkur E eru settir upp þannig að þeir eru **ekki** prentaðir á fjárhagsskýrsluna.
 
-![Sameinaður rekstrarreikningur dálkskilgreiningar](./media/column-definition-consolidated-income-statement.png "Sameinaður rekstrarreikningur dálkskilgreiningar")
+![Dálkaskilgreining samstæðureikningsskila](./media/column-definition-consolidated-income-statement.png "Dálkaskilgreining samstæðureikningsskila")
 
 Þegar skýrslan er mynduð eru losunarupphæðir reiknaðar í dálkum F, G og H, og þær eru teknar saman í dálki I. Dálkur J sýnir sameinaða upphæð. Þessar samstæðuupphæðir útiloka losanir fyrir USMF-, USRT- og DEMF-fyrirtækin.
 
@@ -98,13 +98,13 @@ Fyrirtæki kann að eiga aðeins hluta af öðru fyrirtæki. Við þessar aðst�
 > [!NOTE]
 > Þú getur notað þetta eignarhlutfall í hvaða skýrslugerðareiningu sem er, ekki bara á fyrirtækjastigi. 
 
-![Notkun á hlutfalli í skilgreiningu skipurits](./media/Using-reporting-tree-definition-percentage.png "Notkun á hlutfalli í skilgreiningu skipurits")
+![Nota skilgreiningarprósentu skipurits](./media/Using-reporting-tree-definition-percentage.png "Nota skilgreiningarprósentu skipurits")
 
 Þegar skýrslan er búin til birtir skýrslan um Contoso Þýskaland 100 prósent af söluupphæðinni og 80 prósent af upphæðinni verður úthlutað og tekin saman upp á samstæðustig fyrir sölu.
 
 Ef þú átt minna en 1 prósent í fyrirtæki getur þú valið gátreitinn **Leyfa samantekt minni en 1%** í flipanum **Viðbótarvalkostir** á síðunni **Skýrslustillingar** eins og sýnt er á eftirfarandi skýringarmynd. Í þessu tilviki verða gildi í dálknum **Samantekin %** í skipuritinu meðhöndluð sem minna en 1 prósent. Ef þú til dæmis slærð inn **.8** verður 0,8 prósent tekið saman upp á samstæðustigið, ekki 80 prósent. Að öðrum kosti getur þú fengið sömu niðurstöðu með því að skilja gátreitinn **Leyfa samantekt minni en 1%** eftir auðan og slá inn **.008** í dálkinn **Samantekin %**.
 
-![Stillingarmöguleikar skýrslugerðar](./media/reporting-setting-options.png "Stillingarmöguleikar skýrslugerðar")
+![Valkostir skýrslugerðarstillinga](./media/reporting-setting-options.png "Valkostir skýrslugerðarstillinga")
 
 ### <a name="showing-ownership-as-a-separate-row-on-the-consolidated-report"></a>Sýnir eignarhald sem aðskilda línu í sameinuðu skýrslunni
 Annar möguleiki fyrir minnihlutahópa er að sýna 100 prósent af dótturfélaginu fyrir hverja línu í skýrslunni en draga minnihlutann frá nettótekjum.
@@ -125,11 +125,11 @@ Hægt er að bæta mörgum tenglum fjárhagsvídda við hverja línu í línuski
 > [!TIP]
 > Nánari upplýsingar um hólfið **Tengill í fjárhagsvíddir** er að finna í Tilgreina tengil í hólf fjárhagsvíddar.
 
-![Lyklasafn fyrsta tengils í fjárhagsvíddir](./media/set-accounts-first-Link-to-Financial-Dimensions.png "Lyklasafn fyrsta tengils í fjárhagsvíddir")
+![Veldu fyrsta tengil reikninga í fjárhagsvídd](./media/set-accounts-first-Link-to-Financial-Dimensions.png "Veldu fyrsta tengil reikninga í fjárhagsvídd")
 
 Hægt er að nota skipurit til að skilgreina hvaða tengill í fjárhagsvíddir úr línuskilgreiningunni er notaður með hverju fyrirtæki fyrir sig. Veldu línuskilgreiningu í dálki E, og veldu síðan viðeigandi línutengil í dálki F, eins og sýnt er á eftirfarandi skýringarmynd.
 
-![Línuskilgreining fyrir tengil í fjárhagsvíddir er notuð](./media/link-financial-dimensions-row-definition-used.png "Línuskilgreining fyrir tengil í fjárhagsvíddir er notuð")
+![Skilgreining á línu fjárhagsvíddar notuð](./media/link-financial-dimensions-row-definition-used.png "Skilgreining á línu fjárhagsvíddar notuð")
 
 > [!TIP]
 > Þegar þú býrð til tengla við fjárhagsvíddir skaltu nota lýsinguna til að bera kennsl á þau fyrirtæki sem hver tengill á við. Þannig getur þú auðveldlega valið rétt fyrirtæki þegar þú stofnar skipurit. Í dálkskilgreiningunni leyfir reiturinn **Skýrslueining** þér að takmarka hvern dálk við einingu í skipuritinu svo þú getir skoðað gögn hlið við hlið. Ef þú gefur ekki upp tiltekið fyrirtæki fyrir dálk verða sameinuð gögn sýnd fyrir öll fyrirtæki.
@@ -149,7 +149,7 @@ Mismunandi lögaðilar gætu haft mismunandi fjárhagsdagatöl en þurfa samt en
 
 Í eftirfarandi skýringarmynd er USMF-fyrirtæki tilgreint í reitnum **Heiti fyrirtækis** í skýrsluskilgreiningunni. Þess vegna verður fjárhagsdagatal USMF-fyrirtækisins notað sem grunnfjárhagsdagatal. Í þessu dæmi, þegar skýrsla er búin til fyrir 30. júní 2018, mun USMF-fyrirtækið nota GRUNNtímabilið, sem er skilgreint sem tímabil 12 í skýrsluskilgreiningunni. INMF-fyrirtækið mun nota GRUNN-6, sem er tímabil 6. Báðir dálkar munu innihalda gögn fyrir júní 2018.
 
-![Tilkynna grunntímabil](./media/report-base-period.png "Tilkynna grunntímabil")
+![Grunntímabil skýrslu](./media/report-base-period.png "Grunntímabil skýrslu")
 
 Eftirfarandi skýringarmynd sýnir valkosti í skýrsluskilgreiningu sem leyfir þér að velja hvort númer eða lokadagur tímabils er notað fyrir samstæðuna.
 
@@ -221,6 +221,6 @@ Til að fá rétt umreiknaðar upphæðir þegar gjaldmiðlar eru notaðir, nota
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-Nánari upplýsingar um samstæðuumreikning og umreikning gjaldmiðils er að finna í yfirefni þessa efnisatriðis, [Sameiningar fjárhags og umreikningur gjaldmiðils](./financial-consolidations-currency-translation.md).
+Nánari upplýsingar um samstæðuumreikning og umreikning gjaldmiðils er að finna í yfirefni þessa efnisatriðis, [Yfirlit yfir fjárhagssamstæður og umreikninga gjaldmiðils](./financial-consolidations-currency-translation.md).
 
-Nánari upplýsingar um hvernig á að slá inn upplýsingar um samstæður á netinu er að finna í [Samstæður á netinu](./consolidate-online.md).
+Nánari upplýsingar um hvernig á að slá inn upplýsingar um samstæður á netinu er að finna í [Sameiningar fjárhags á netinu](./consolidate-online.md).

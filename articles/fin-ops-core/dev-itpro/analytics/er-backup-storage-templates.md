@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 932ba44b4223bf9c9d93ffb19e17f6e57bb303b5
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 5dad101ffe56c9266c0d81ede8be1f72b684a8fb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553092"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771422"
 ---
 # <a name="backup-storage-of-er-templates"></a>Afritunargeymsla ER-sniðmáta
 
 [!include [banner](../includes/banner.md)]
 
-[Rammi rafrænnar skýrslugerðar (ER)](general-electronic-reporting.md) gerir fyrirtækjanotendum kleift að skilgreina snið fyrir skjöl á útleið í samræmi við lagaskilyrði mismunandi landa og svæða. Stillt ER-snið geta notað fyrirfram skilgreind sniðmát til að búa til útgönguskjöl á ýmsum sniðum, svo sem Microsoft Excel vinnubækur, Microsoft Word skjöl, eða PDF-skjöl. Sniðmátin eru fyllt með gögnum sem skilgreint gagnaflæði fyrir mynduð skjöl krefst.
+[Yfirlit rafrænnar skýrslugerðar (ER)](general-electronic-reporting.md) gerir fyrirtækjanotendum kleift að skilgreina snið fyrir skjöl á útleið í samræmi við lagaskilyrði mismunandi landa og svæða. Stillt ER-snið geta notað fyrirfram skilgreind sniðmát til að búa til útgönguskjöl á ýmsum sniðum, svo sem Microsoft Excel vinnubækur, Microsoft Word skjöl, eða PDF-skjöl. Sniðmátin eru fyllt með gögnum sem skilgreint gagnaflæði fyrir mynduð skjöl krefst.
 
 Hægt er að birta hvert skilgreint snið sem hluta af ER-lausn. Hægt er að flytja út allar lausnir frá einu tilviki Finance and Operations og flytja inn í annað tilvik.
 
-ER-ramminn notar [Ramma skjalastjórnunar](../../fin-ops/organization-administration/configure-document-management.md) til að geyma nauðsynleg sniðmát fyrir núverandi tilviki Finance and Operations. Það fer eftir stillingum ER-ramma, Microsoft Azure Blob-geymslu eða Microsoft SharePoint hvort hægt er að velja möppu sem aðal geymslupláss fyrir sniðmát. (Sjá frekari upplýsingar [Stilla ER ramma](electronic-reporting-er-configure-parameters.md).) DocuValue taflan hefur einstaka skrá fyrir hvert sniðmát. Í hverri skrá geymir reiturinn **AccessInformation** slóð sniðmátaskrár sem er staðsett á skilgreindum geymslustað.
+ER-ramminn notar [Skilgreina skjalastjórnun](../../fin-ops/organization-administration/configure-document-management.md) til að geyma nauðsynleg sniðmát fyrir núverandi tilviki Finance and Operations. Það fer eftir stillingum ER-ramma, Microsoft Azure Blob-geymslu eða Microsoft SharePoint hvort hægt er að velja möppu sem aðal geymslupláss fyrir sniðmát. (Sjá frekari upplýsingar [Stilla ramma rafrænnar skýrslugerðar (ER)](electronic-reporting-er-configure-parameters.md).) DocuValue taflan hefur einstaka skrá fyrir hvert sniðmát. Í hverri skrá geymir reiturinn **AccessInformation** slóð sniðmátaskrár sem er staðsett á skilgreindum geymslustað.
 
 Þegar þú hefur umsjón með tilvikum Finance and Operations gætirðu ákveðið að flytja núverandi tilvik yfir á annan stað. Til dæmis gætirðu flutt framleiðslutilvikið í nýtt sandkassaumhverfi. Ef þú stillir ER-ramma til að geyma sniðmát í Blob-geymslu, vísar DocuValue-taflan í nýja sandkassaumhverfi til tilviks Blob-geymslu í framleiðsluumhverfi. Hins vegar er ekki hægt að fá aðgang að þessu tilviki úr sandkassanumhverfinu, vegna þess að flutningsferlið styður ekki flutning á gripum í Blob-geymslu. Þess vegna, ef þú reynir að keyra ER-snið sem notar sniðmát til að búa til viðskiptaskjöl, kemur undantekning fyrir, og þér er tilkynnt um það sniðmát sem vantar. Þér er einnig leiðbeint um að nota ER-hreinsunartólið til að eyða og flytja síðan aftur upp skilgreiningu ER-sniðsins sem inniheldur sniðmátið. Vegna þess að þú gætir haft nokkrar stillingar á ER-sniði, getur þetta ferli verið tímafrekt.
 
@@ -94,6 +94,6 @@ Ef þú uppfærðir umhverfi þitt í Finance and Operations útgáfu 10.0.5 (ok
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
+[Yfirlit yfir rafræna skýrslugerð (ER)](general-electronic-reporting.md)
 
-[Skilgreina rafrænan skýrslugerðarramma](electronic-reporting-er-configure-parameters.md)
+[Skilgreina rafrænan skýrslugerðarramma (ER)](electronic-reporting-er-configure-parameters.md)

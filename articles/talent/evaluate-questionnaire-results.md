@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 38b694b6dd4b1b9a198452e409bd64d7934b4685
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6be2f79d4f0c234028c0cc98b81cfa8ff4fcc992
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518308"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813984"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Yfirferð og mat á niðurstöðum spurningalista
 
@@ -57,7 +57,8 @@ Einnig er hægt að mynda ýmsar skýrslur til að skoða niðurstöðurnar sem 
 -   **Svarskýrsla** – Þessi skýrsla sýnir svörin sem svarandi valdi fyrir hverja spurningu í spurningalistanum.
 -   **Röng svör** – Þessi skýrsla sýnir upplýsingar sem tengjast röngum svörum sem svarandi valdi.
 
-**Ábending:** **Niðurstöður** skýrsla býðst aðeins ef þú notar niðurstöðuflokka í spurningalista og ef valið er **niðurstöðusíðu** á **Spurningalista** síðu. Í **Svar** skýrslu og **Röng svör** skýrsla er aðeins tiltæk ef þú velur **Svar skýrsla** á í **Spurningalista** síðu.
+> [!NOTE]
+> Skýrslan **Niðurstöður** er aðeins í boði ef þú notar niðurstöðuflokka í spurningalista og ef þú velur **Niðurstöðusíðu** á síðunni **Spurningalistar**. Í **Svar** skýrslu og **Röng svör** skýrsla er aðeins tiltæk ef þú velur **Svar skýrsla** á í **Spurningalista** síðu.
 
 ## <a name="questionnaire-statistics"></a>Talnagögn spurningalista
 Hægt er að nota talnagögn spurningalista til að greina niðurstöður svaraðra spurningalista, byggðan á útreikningi sem þú skilgreinir. Til að skilgreina útreikninga, verður að ljúka eftirfarandi verkum:
@@ -75,9 +76,9 @@ Stillingarnar sem eru skilgreindar eru vistaðar og er hægt að nota þær til 
 <a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Hönnun spurningalista](design-questionnaires.md)
+[Hanna spurningalista](design-questionnaires.md)
 
-[Nota spurningalista.](questionnaires.md)
+[Spurningarlistar](questionnaires.md)
 
-[Dreifa og ljúka°spurningalista](distribute-questionnaires.md)
+[Dreifa spurningalistum á ákveðnum tímum](distribute-questionnaires.md)
 

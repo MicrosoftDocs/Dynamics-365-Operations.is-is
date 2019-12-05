@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2339c6f901a3ef39ad4f9586b2f391b966a3df98
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2058eaac77282946559cae11fcec8152658fc96b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190144"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811358"
 ---
 # <a name="configure-parallel-branches-in-a-workflow"></a>Skilgreina samhliða greinar í verkflæði
 
@@ -46,8 +46,8 @@ Fylgið þessum skrefum til að færa inn heiti á samhliða grein.
 Fylgdu þessum skrefum til að hanna og skilgreina einingarnar samhliða greinar
 
 1. Tvísmellið á samhliða grein.
-2. Dragið verkflæðiseiningar yfir á striga, og skilgreinið einingar, rétt eins og þú myndi stofna önnur verkflæði. Nánari upplýsingar sjá [Stofna verkflæði](create-workflow.md).
+2. Dragið verkflæðiseiningar yfir á striga, og skilgreinið einingar, rétt eins og þú myndi stofna önnur verkflæði. Nánari upplýsingar sjá [Stofna yfirlit yfir verkflæði](create-workflow.md).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Verkflæði stofnað](create-workflow.md)
+[Yfirlit yfir stofnun verkflæðis](create-workflow.md)

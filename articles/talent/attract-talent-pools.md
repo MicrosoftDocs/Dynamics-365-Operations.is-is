@@ -1,5 +1,5 @@
 ---
-title: Finna umsækjendur með hæfileikasöfnum í Microsoft Dynamics 365 Talent - Attract
+title: Finna umsækjendur með hæfileikasöfnum í Attract
 description: Þetta efni útskýrir hvernig á að búa til og setja upp hæfileikasöfn í Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 454ba987eef924d520af17e8b9ae694fe9b82ec2
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ea10ccd5e4b1f1ffbb8f736e886240e223a4eeb3
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551119"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833024"
 ---
-# <a name="source-candidates-with-talent-pools-in-microsoft-dynamics-365-talent---attract"></a>Finna umsækjendur með hæfileikasöfnum í Microsoft Dynamics 365 Talent - Attract
+# <a name="source-candidates-with-talent-pools-in-attract"></a>Finna umsækjendur með hæfileikasöfnum í Attract
 
-[!include[banner](../includes/banner.md)]
-
+[!include [banner](includes/banner.md)]
 
 Ráðningaraðilar og mannauðsstjórar geta skipulagt umsækjendur þeirra með því að nota virkni hæfileikasafna í Attract. Hæfileikasöfn geta hjálpað þér að fylgjast með og hafa samskipti við alla umsækjendur sem sækja um störf hjá fyrirtækinu þínu.
 
@@ -116,7 +115,7 @@ Allir notendur hafa sameiginlegt yfirlit yfir forstillingar umsækjenda. Flipinn
 
     Til að skoða skjal skaltu velja heiti skjalsins í listanum yfir skjöl. Þú getur skoðað Microsoft Word skjöl í forritinu með því að nota Microsoft Office 365. Þú getur einnig sótt skjölin á tölvuna þína með því að nota valkostinn **Sækja** fyrir hvert skjal.
 
-- **LinkedIn** flipinn sýnir LinkedIn upplýsingar umsækjanda. Til að nota þennan flipa verður þú að tengja LinkedIn-reikninginn þinn í notendastillingunum og setja verður á tengingu LinkedIn Recruiter umhverfisins. Frekari upplýsingar er að finna í [Fundið með LinkedIn Recruiter](./attract-linkedin-recruiter.md).
+- **LinkedIn** flipinn sýnir LinkedIn upplýsingar umsækjanda. Til að nota þennan flipa verður þú að tengja LinkedIn-reikninginn þinn í notendastillingunum og setja verður á tengingu LinkedIn Recruiter umhverfisins. Fyrir frekari upplýsingar skal sjá [Finna umsækjendur með LinkedIn Recruiter í Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > Aðeins umsækjendur geta uppfært hæfni sína, menntunarferli og starfsreynslu.

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 4343c875da05641c57b7784bf52f1c814dd26d20
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174902"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773646"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Innleiða sérstillta reiti fyrir Microsoft Dynamics 365 Project Timesheet-farsímaforritið í iOS og Android
 
@@ -321,13 +321,9 @@ Hér fyrir neðan er skjámynd úr farsímaforritinu af notanda að skoða vinnu
 
 ![Skipun fyrir að skoða frekari upplýsingar](media/show-more.png)
 
-
-
 Hér fyrir neðan er skjámynd úr farsímaforritinu sem sýnir „Meira“ hlutann í vinnukorti. Sérstilltur reitur sem kallast „Nýtingarhlutfall á þessu vinnukorti (reiknaður sérstilltur reitur)“ hefur verið bætt við í haus vinnukortsins. Skrifvarið gildi upp á „0,667“ er stillt fyrir sérstillta reitinn.
 
 ![Meira](media/more-section.jpg)
-
-
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Stækka TSTimesheetTable-töfluna svo hún sé með sérstilltan reit
 

@@ -1,5 +1,5 @@
 ---
-title: Skipulagning viðtala og ábendingar
+title: Bóka viðtöl við umsækjendur í Attract
 description: Þetta efnisatriði veitir upplýsingar um skipulagningu viðtala og ábendingar í Attract.
 author: hasrivas
 manager: AnnBe
@@ -14,18 +14,18 @@ ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.search.region: Global
 ms.author: shielas
-ms.openlocfilehash: 39b14f3ca855ca283a7484e480ff2547623938ef
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 33eba9796ca997fde4be9a46050207d313551bde
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518263"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832746"
 ---
-# <a name="interview-scheduling-and-feedback"></a>Skipulagning viðtala og ábendingar
+# <a name="schedule-interviews-in-attract"></a>Bóka viðtöl við umsækjendur í Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-## <a name="scheduler-activity"></a>Tímáætlunaraðgerð
+## <a name="scheduler-activity"></a>Virkni áætlana
 
 Tímaáætlunaraðgerðin er valfrjáls og er með tvo þætti: Beiðni um tímaupplýsingar umsækjanda og tímaáætlun. Tímaupplýsingar umsækjanda leyfir þér að nota tölvupóst til að biðja um tímaupplýsingar umsækjanda. Tímaáætlunin veitir möguleika á að skipuleggja viðtöl við umsækjanda og ráðningarteymið.
 

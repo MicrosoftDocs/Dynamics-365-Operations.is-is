@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8e5fd05f3114eb99b7e8b4390827d5ccd52832a
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c527735ea65dad84c5d3d405eac2ead35d3c792d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572207"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815366"
 ---
 # <a name="purchase-order-overview"></a>Yfirlit yfir „Innkaupapöntun“
 
@@ -41,9 +41,9 @@ Innkaupapöntunina (PO) er skjal sem stendur fyrir samningur við lánardrottinn
 
 Eftirfarandi greinum veita yfirlit yfir mismunandi stigum Innkaupapöntun fer í gegnum:
 
--   [Stofnun innkaupapöntunar](purchase-order-creation.md)
--   [Staðfesting innkaupapöntunar og samþykki](purchase-order-approval-confirmation.md)
--   [innhreyfingarskjal afurða gagnvart innkaupapantanir](product-receipt-against-purchase-orders.md)
+-   [Stofna innkaupapantanir](purchase-order-creation.md)
+-   [Samþykkt og staðfesting innkaupapanta](purchase-order-approval-confirmation.md)
+-   [Innhreyfingarskjal jafnað við innkaupapantanir](product-receipt-against-purchase-orders.md)
 -   [Yfirlit yfir lánardrottnareikninga](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Gerðir innkaupapantana
@@ -82,11 +82,11 @@ Innkaupapantanir hafa stöðusvæði sem sýna framvindu pöntunarinnar. Þessi 
 <a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Stofnun innkaupapöntunar](purchase-order-creation.md)
+[Stofna innkaupapantanir](purchase-order-creation.md)
 
-[Staðfesting innkaupapöntunar og samþykki](purchase-order-approval-confirmation.md)
+[Samþykkt og staðfesting innkaupapanta](purchase-order-approval-confirmation.md)
 
-[innhreyfingarskjal afurða gagnvart innkaupapantanir](product-receipt-against-purchase-orders.md)
+[Innhreyfingarskjal jafnað við innkaupapantanir](product-receipt-against-purchase-orders.md)
 
 [Yfirlit yfir lánardrottnareikninga](../../financials/accounts-payable/vendor-invoices-overview.md)
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 482febc91a04766216f9887ab59d30cc9aed5096
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7b0b3721c3b0755218c834d2bf77ec976be3bdcc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250508"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770313"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Samstilla kostnaðarflokka verks milli Finance and Operations og Project Service Automation
 
@@ -64,7 +64,7 @@ Eftirfarandi skýringarmynd sýnir hvernig gögnin eru samstillt milli Project S
 
 ### <a name="template-and-task"></a>Sniðmát og verkefni
 
-Til að fá aðgang að tiltækum sniðmátum, í stjórnendamiðstöð Microsoft PowerApps, skal velja **Verk** og síðan í efra hægra horninu skal velja **Nýtt verk** til að velja almenn sniðmát.
+Til að fá aðgang að tiltækum sniðmátum, í stjórnendamiðstöð Microsoft Power Apps, skal velja **Verk** og síðan í efra hægra horninu skal velja **Nýtt verk** til að velja almenn sniðmát.
 
 Eftirfarandi sniðmát og undirliggjandi verk eru notuð til að samstilla kostnaðarflokka verks úr Finance við Project Service Automation:
 

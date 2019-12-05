@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2e5144517a880c41cf04998ed53a826a75ecefb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3d1d8952324bb16bcfa6a8b42fc4f157edb75cf1
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178374"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811315"
 ---
 # <a name="electronic-signatures-overview"></a>Yfirlit rafrænna undirskrifta
 
@@ -44,7 +44,7 @@ Reglur kveða á um rafrænar undirskriftir innan ýmissa atvinnugreina sem eru 
 
 Hægt er að nota rafrænar undirskriftir fyrir mikilvæg viðskiptaferli. Rafrænar undirskriftir eru innbyggður hluti sumra ferla. Hægt er að búa til kröfur um rafrænar undirskriftir fyrir hvaða gagnagrunn eða svæði sem er.
 
-Rafrænar undirskriftir deila nokkrum eiginleikum með stafrænum undirskriftum. Allir notendur sem skrifa undir skjöl þurfa að hafa gilt dulritað skírteini. Þegar skjal er undirritað er einkalykillinn sem tengist skírteininu sannprófaður. Upplýsingar um rafrænar undirskriftir eru skráðar í kladda til þess að hægt sé að rekja slóð aðgerða. Setja upp rafrænar undirskriftir, sjá [Uppsetning rafrænna undirskrifta (verkefnaleiðbeiningar)](tasks/set-up-electronic-signatures.md).
+Rafrænar undirskriftir deila nokkrum eiginleikum með stafrænum undirskriftum. Allir notendur sem skrifa undir skjöl þurfa að hafa gilt dulritað skírteini. Þegar skjal er undirritað er einkalykillinn sem tengist skírteininu sannprófaður. Upplýsingar um rafrænar undirskriftir eru skráðar í kladda til þess að hægt sé að rekja slóð aðgerða. Setja upp rafrænar undirskriftir, sjá [Uppsetning rafrænna undirskrifta](tasks/set-up-electronic-signatures.md).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Notendur sem þarfnast aðgangs að rafrænar undirskriftir
 

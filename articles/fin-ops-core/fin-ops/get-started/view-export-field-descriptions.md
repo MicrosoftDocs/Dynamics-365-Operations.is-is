@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 974f99632738cfc6eec5ff85965f4e9f9608a8b5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3e110c7fe6881825fe2b075c1795bc4f7e938da4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178405"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811508"
 ---
 # <a name="view-and-export-field-descriptions"></a>Skoða og flytja út svæðalýsingar
 
@@ -35,7 +35,7 @@ Sumir af flóknari reitunum eru með lýsingar. Lýsingar á þessum birtist þe
 
 Ekki eru allar síður með lýsingum. Við viljum aðeins veita lýsingu fyrir flóknari svæði og ekki þau þar sem notkun svæðisins er augljós. Þess vegna sumar síður hafa engar lýsingum sumar síður hafa nokkrar lýsingar og sumar flóknari síðum, eins og margar síður færibreytur hafa margar lýsingar.
 
-Ef þú hefur aðgang að þróunarumhverfinu geturðu bæta við eigin reitalýsingum og sérsniðið eldri lýsingar. Til dæmis er hægt að bæta upplýsingum bundin tilteknu fyrirtæki í lýsing svæðis. Nánari upplýsingar eru í svæðahjálpinni í [svæðahjálpinni](../../dev-itpro/user-interface/customize-field-help.md).
+Ef þú hefur aðgang að þróunarumhverfinu geturðu bæta við eigin reitalýsingum og sérsniðið eldri lýsingar. Til dæmis er hægt að bæta upplýsingum bundin tilteknu fyrirtæki í lýsing svæðis. Nánari upplýsingar eru í svæðahjálpinni í [Sérstilla lýsingar á reit](../../dev-itpro/user-interface/customize-field-help.md).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Sjá svæðislýsingar í notendaviðmótinu
 
@@ -107,4 +107,4 @@ Upplýsingar um mismunandi aðferðir til að finna síður, sjá hlutann „Lei
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Sérsníða reit hjálp](../../dev-itpro/user-interface/customize-field-help.md)
+[Sérstilla lýsingar á reit](../../dev-itpro/user-interface/customize-field-help.md)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: b40f9a5677fd5375d7a19a75400d4305a8850392
-ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
+ms.openlocfilehash: c11123c0d53fcf4ba67e83fe64d2d6e692d5b6f1
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "2564938"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771353"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Skilgreina gagnainnflutning úr SharePoint
 
@@ -43,7 +43,7 @@ Til að ljúka dæmunum í þessu efnisatriði þarftu að hafa eftirfarandi að
 - ER-snið og grunnstillingar líkans fyrir 1099 greiðslur.
 
 ### <a name="create-required-er-configurations"></a>Búðu til nauðsynlegar ER grunnstillingar
-Spila **ER flytja inn gögn úr Microsoft Excel skrá** verkefnaleiðbeiningar, sem eru hluti af **7.5.4.3 Fá/Þróa upplýsingatækniþjónustu/lausn íhlutir (10677)** viðskiptaferli. Þessar verkefnaleiðbeiningar fylgja þér í gegnum ferlið við að hanna og nota ER grunnstillingar til að flytja inn lánardrottnafærslur á gagnvirkan máta frá Microsoft Excel skrám. Nánari upplýsingar er að finna í [Þátta skjöl á innleið í Microsoft Excel](parse-incoming-documents-excel.md). Eftir að þú hefur lokið við verkefnaleiðbeiningarnar verður uppsetningin eftirfarandi:
+Spila **ER flytja inn gögn úr Microsoft Excel skrá** verkefnaleiðbeiningar, sem eru hluti af **7.5.4.3 Fá/Þróa upplýsingatækniþjónustu/lausn íhlutir (10677)** viðskiptaferli. Þessar verkefnaleiðbeiningar fylgja þér í gegnum ferlið við að hanna og nota ER grunnstillingar til að flytja inn lánardrottnafærslur á gagnvirkan máta frá Microsoft Excel skrám. Nánari upplýsingar er að finna í [Þátta skjöl á innleið á Excel-sniði](parse-incoming-documents-excel.md). Eftir að þú hefur lokið við verkefnaleiðbeiningarnar verður uppsetningin eftirfarandi:
 
 #### <a name="er-configurations"></a>ER grunnstillingar
 

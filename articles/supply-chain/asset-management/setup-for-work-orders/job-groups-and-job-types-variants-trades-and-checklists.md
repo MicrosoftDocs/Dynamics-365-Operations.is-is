@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bdfd8ca5e4feb236bc1b4e88a4dd3817a07e8a3f
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2a5da707069966ea0dac282b2a0b2074ec5a41ff
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571002"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812238"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Flokkar viðhaldsverkgerðar og viðhaldsverkgerðir, afbrigði viðhaldsverkgerðar, viðskipti viðhaldsvinnslu og viðhaldsgátlistar
 
@@ -33,7 +33,7 @@ ms.locfileid: "2571002"
 
 Eignategund er fest við hverja eign. Eignategundir skilgreina gerðir viðhaldsstarfa (og þar með viðhaldsstörf) sem hægt er að framkvæma á eignum. Þegar þú stofnar verkbeiðni verður að velja gerð viðhaldsverks. Þú getur aðeins valið gerðir viðhaldsverka sem eru tengdar uppsetningunni á eignategundinni sem er notuð fyrir eignina.
 
-Fyrir myndrænt yfirlit yfir eignir og gerðir viðhaldsverka og tengsl þeirra við verkbeiðnir skal sjá [Eignir og verkbeiðnir](../overview/functional-locations-and-objects.md).
+Fyrir myndrænt yfirlit yfir eignir og gerðir viðhaldsverka og tengsl þeirra við verkbeiðnir skal sjá [Virkar staðsetningar og eignir](../overview/functional-locations-and-objects.md).
 
 Hægt er að setja upp tegundaafbrigði viðhaldsverka á viðhaldsstegundargerð. Tegundaafbrigði viðhaldsverka skilgreina afbrigði af starfsgerð, svo sem stærðir (lítið, meðalstórt eða stórt), tímabil (vikulegt, tveggja vikna, mánaðarlegt eða þriggja mánaða) og stillingar (lágur staðall, sveigjanlegt eða mikil afköst).
 

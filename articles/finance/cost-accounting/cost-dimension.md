@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a7db93e1877034051b6add4c11ddfe7cd7d17e0b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 575b27de845d931c990b1d19254b5218fa6e4199
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187913"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770851"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>Stofna víddir og flytja inn víddarstök
 
@@ -44,11 +44,10 @@ Eftirfarandi útlínumynd sýnir víddirnar sem eru notaðar við Kostnaðarbók
 Eftir að gögn eru flutt inn í Kostnaðarbókhald getur þú nota þau til að byggja ýmis sjónarhorn sem veita innsýn til stjórnenda á öllum stigum fyrirtækis. Eftirfarandi efnisatriði veita upplýsingar um stofnun vídda og innflutning víddarstaka. 
 
 -  [Víddir kostnaðareiningar](cost-elements.md)
--  [Stofna kostnaðareiningar (verkleiðbeiningar)](./tasks/create-cost-elements.md)
+-  [Stofna kostnaðareiningar](./tasks/create-cost-elements.md)
 -  [Víddir kostnaðarhlutar](cost-objects.md)
--  [Stofna kostnaðareiningar (verkleiðbeiningar)](./tasks/create-cost-objects.md)
 -  [Varpa víddarstökum kostnaðareiningar á almennt safn víddarstaka](map-cost-elements-dimension-members.md)
--  [Varpa kostnaðareiningarvídd (verkleiðbeiningar)](./tasks/map-cost-element-dimension.md)
+-  [Varpa kostnaðareiningarvídd](./tasks/map-cost-element-dimension.md)
 -  [Sniðmát meðlima tölfræðivídda og tölfræðiveita](statistical-measure-provider-template.md)
 
 

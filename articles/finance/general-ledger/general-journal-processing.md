@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2becf8213cfa46e2c0cf0c553f0b5e503dfc3704
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570241"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771823"
 ---
 # <a name="general-journal-processing"></a>Vinnsla almennrar færslubókar
 
@@ -85,9 +85,9 @@ Uppsetning aðallykils býður upp á marga valkosti fyrir úrvinnslu almennrar 
 Bókhaldsskipulag og skipulag ítarlegra reglna er mjög mikilvægt til að tryggja gögn sem þarf fyrir fjárhagslega skýrslugerð og afkastarakningu er sótt við úrvinnslu almennrar færslubókar og allra fylgiskjala. Bókhaldslykilskipulag og skipulag ítarlegra reglna leyfa þér að klæðskerasníða upplifun af gagnainnslætti. Hægt er að leyfa gagnaskráningu aðeins fyrir fjárhagsvíddir sem eiga við í hverjum aðstæðum fyrir sig, og sem getur framfylgt þeirri kröfu að áskilin og rétt gögn séu ávallt sótt.
 
 Frekari upplýsingar er hægt að finna í eftirfarandi efni:
-- [Áætlanagerð: bókhaldslykilsins](plan-chart-of-accounts.md). 
+- [Yfirlit yfir bókhaldslykil](plan-chart-of-accounts.md) 
 - [Stofna ítarlegar reglur fyrir færslubækur](tasks/create-advanced-rules-journals.md)
-- [Stofna færslu í færslubók með því að nota sniðmát](tasks/create-journal-entry-template.md)
+- [Stofna færslu í færslubók með sniðmáti](tasks/create-journal-entry-template.md)
 - [Stofna og sannprófa færslubækur](tasks/create-validate-journals.md)
 - [Bóka tímabilsbækur](tasks/post-periodic-journals.md)
 - [Vinna úr færslubók kostnaðarúthlutunar](tasks/process-ledger-allocation-journal.md)

@@ -1,5 +1,5 @@
 ---
-title: Algengar spurningar um samþættingu Attract við LinkedIn
+title: Algengar spurningar um LinkedIn-samþættingu
 description: Þetta efni svarar spurningum sem þú gætir haft varðandi samþættingu á milli LinkedIn og Microsoft Microsoft Dynamics 365 Talent - Attract.
 author: hasrivas
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: b77ad598ba209dbbd73765c49947e84a3995153d
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 35428da709f480e1d3842b7e92deacba200326ee
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550368"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833093"
 ---
-# <a name="attract-integration-with-linkedin-faq"></a>Algengar spurningar um samþættingu Attract við LinkedIn
+# <a name="linkedin-integration-faq"></a>Algengar spurningar um LinkedIn-samþættingu
 
 [!include [banner](includes/banner.md)]
 
@@ -41,8 +41,8 @@ Hér eru svör við algengum spurningum um hvernig skal nota Attract og LinkedIn
 Samþætting Attract við LinkedIn gerir þér kleift að framkvæma eftirfarandi verkefni:
 
 - [Birta störf á LinkedIn](./attract-post-jobs-to-linkedin.md) (sem ókeypis takmarkaðar skráningar).
-- [Flytja út upplýsingar um umsækjendur úr LinkedIn í Attract](./attract-linkedin-recruiter.md#export-linkedin-candidates-to-attract-with-one-click).
-- [Leyfa umsækjendum að sækja um störf þín með LinkedIn](./attract-admin-linkedin.md#set-up-apply-with-linkedin-in-attract).
+- [Finna umsækjendur með LinkedIn Recruiter í Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md#export-linkedin-candidates-to-attract-with-one-click).
+- [Setja upp samþættingu með LinkedIn fyrir Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md#set-up-apply-with-linkedin-in-attract).
 
 ### <a name="what-do-i-need-before-i-can-post-jobs-to-linkedin"></a>Hvað þarf ég áður en ég get birt störf á LinkedIn?
 
@@ -50,17 +50,17 @@ Stjórnandi þinn verður að [stilla LinkedIn-samþættingu í Attract](./attra
 
 ### <a name="how-do-i-post-jobs-to-linkedin-from-attract"></a>Hvernig birti ég störf á LinkedIn úr Attract?
 
-Eftir að þú hefur búið til starf í Attract þarftu bara að velja hnappinn **Birta núna** sem samsvarar LinkedIn. Sjá frekari upplýsingar [Birta störf á LinkedIn úr Attract](./attract-post-jobs-to-linkedin.md#post-jobs-to-linkedin).
+Eftir að þú hefur búið til starf í Attract þarftu bara að velja hnappinn **Birta núna** sem samsvarar LinkedIn. Sjá frekari upplýsingar [Birta störf á LinkedIn úr Microsoft Dynamics 365 Talent - Attract](./attract-post-jobs-to-linkedin.md#post-jobs-to-linkedin).
 
 ### <a name="can-i-get-candidate-information-from-linkedin-into-attract"></a>Get ég fært upplýsingar um umsækjendur úr LinkedIn inn í Attract?
 
-Já. Ef þú sérð góðan umsækjanda á LinkedIn geturðu auðveldlega flutt upplýsingar um umsækjandann yfir í Attract. Frekari upplýsingar er að finna í [Finna umsækjendur með LinkedIn Recruiter](attract-linkedin-recruiter.md).
+Já. Ef þú sérð góðan umsækjanda á LinkedIn geturðu auðveldlega flutt upplýsingar um umsækjandann yfir í Attract. Fyrir frekari upplýsingar skal sjá [Finna umsækjendur með LinkedIn Recruiter í Microsoft Dynamics 365 Talent - Attract](attract-linkedin-recruiter.md).
 
 ### <a name="how-can-i-get-help-accessing-linkedin-from-attract"></a>Hvernig get ég fengið hjálp við að fá aðgang að LinkedIn úr Attract?
 
-Ef þú ert í vandræðum með að skrá þig inn eða birta störf á LinkedIn úr Attract skaltu sjá [Úrræðaleit samþættingar við LinkedIn](./attract-troubleshoot-linkedin.md).
+Ef þú ert í vandræðum með að skrá þig inn eða birta störf á LinkedIn úr Attract skal sjá [Úrræðaleit samþættingar við LinkedIn og Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md).
 
-Sjá önnur vandamál varðandi Attract [Fáðu stuðning fyrir Talent](./talent-support.md). Hjálp með LinkedIn er að finna í [Stuðningssíða LinkedIn](https://www.linkedin.com/help).
+Fyrir önnur vandamál varðandi Attract skal sjá [Fá stuðning fyrir Microsoft Dynamics 365 Talent](./talent-support.md). Hjálp með LinkedIn er að finna í [Stuðningssíða LinkedIn](https://www.linkedin.com/help).
 
 ## <a name="for-admins-and-developers"></a>Fyrir stjórnendur og þróunaraðila
 
@@ -68,11 +68,11 @@ Hér eru svör við algengum spurningum um hvernig skal stilla samþættingu á 
 
 ### <a name="how-do-i-configure-attract-so-that-recruiters-and-hiring-managers-can-post-jobs-to-linkedin"></a>Hvernig stilla ég Attract svo að ráðningaraðilar og ráðningarstjórar geti birt störf á LinkedIn?
 
-Þú getur stillt fyrirliggjandi valkosti á flipanum **LinkedIn-samþætting** í stjórnstöðinni. Sjá frekari upplýsingar í [Setja upp samþættingu við LinkedIn](./attract-admin-linkedin.md).
+Þú getur stillt fyrirliggjandi valkosti á flipanum **LinkedIn-samþætting** í stjórnstöðinni. Fyrir nánari upplýsingar skal sjá [Setja upp samþættingu með LinkedIn fyrir Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md).
 
 ### <a name="can-i-export-candidate-information-from-linkedin"></a>Get ég flutt út upplýsingar um umsækjendur úr LinkedIn?
 
-Já, en þú verður fyrst að stilla samþættingu við LinkedIn Recruiter. Sjá frekari upplýsingar í [Setja upp samþættingu við LinkedIn](./attract-admin-linkedin.md).
+Já, en þú verður fyrst að stilla samþættingu við LinkedIn Recruiter. Fyrir nánari upplýsingar skal sjá [Setja upp samþættingu með LinkedIn fyrir Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md).
 
 ### <a name="how-can-i-post-jobs-to-premium-job-slots-on-linkedin"></a>Hvernig get ég birt störf á Premium Job Slots á LinkedIn?
 
@@ -103,17 +103,17 @@ Eftirfarandi tafla lýsir mismunandi valkostum við að auglýsa störf á Linke
 | **Hversu oft birtir LinkedIn störf?** | Einu sinni á dag | Einu sinni á dag | Mörgum sinnum á dag eins og skilgreint er af API |
 | **Mælt með af LinkedIn?** | Nr | Já | Nr |
 | **Hvað þarf ég?** | Kaup á Attract | Starfspakkasamningur við LinkedIn og kaup á Úrvalsstörf á lausu | API samningur við LinkedIn | 
-| **Hvar finn ég frekari upplýsingar?** | [Setja upp samþættingu með LinkedIn](./attract-admin-linkedin.md) | [Starfspakki í gegnum LinkedIn Recruiter - Yfirlit](https://www.linkedin.com/help/recruiter/answer/79037) | [Recruiter System Connect](https://docs.microsoft.com/linkedin/talent/recruiter-system-connect) |
+| **Hvar finn ég frekari upplýsingar?** | [Setja upp samþættingu með LinkedIn fyrir Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md) | [Starfspakki í gegnum LinkedIn Recruiter - Yfirlit](https://www.linkedin.com/help/recruiter/answer/79037) | [Recruiter System Connect](https://docs.microsoft.com/linkedin/talent/recruiter-system-connect) |
 
 > [!NOTE]
 > Þú þarft ekki LinkedIn Recruiter System Connect-leyfi til að auglýsa störf á LinkedIn með Attract.
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Setja upp samþættingu með LinkedIn](./attract-admin-linkedin.md)
+[Setja upp samþættingu með LinkedIn fyrir Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md)
 
-[Birta störf á LinkedIn úr Attract](./attract-post-jobs-to-linkedin.md)
+[Birta störf á LinkedIn úr Microsoft Dynamics 365 Talent - Attract](./attract-post-jobs-to-linkedin.md)
 
-[Finna umsækjendur með LinkedIn Recruiter](./attract-linkedin-recruiter.md)
+[Finna umsækjendur með LinkedIn Recruiter í Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
-[Úrræðalaeit samþættingar við LinkedIn](./attract-troubleshoot-linkedin.md)
+[Úrræðaleit samþættingar við LinkedIn og Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)

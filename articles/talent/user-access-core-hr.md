@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 80b1f8aeabfd033f393463f4be5a61447377f2d9
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 1a86936d756d8375761ce50c9d9bf33dc638dfad
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009307"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772920"
 ---
 # <a name="user-can-access-core-hr-but-not-onboard-or-attract"></a>Notandi getur opnað Core HR en ekki Onboard eða Attract
 
@@ -39,7 +39,7 @@ Notandi B getur opnað Core HR, en hann getur ekki opnað forritið Talent: Attr
 
 **Lausn**
 
-Nauðsynlegt er að úthluta réttindum á Notanda B til að skoða umhverfi Microsoft PowerApps sem notandi A stofnaði í úthlutunarferlinu.
+Nauðsynlegt er að úthluta réttindum á Notanda B til að skoða umhverfi Microsoft Power Apps sem notandi A stofnaði í úthlutunarferlinu.
 
 Upplýsingar er að finna í „Að veita aðgang að umhverfinu“ í kaflanum [Úthlutun Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 

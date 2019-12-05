@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d70bce4e47c05a7974c1b974fdca17682e5370aa
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550858"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772388"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>Samþætting gagna í næstum rauntíma við Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Í núverandi stafrænum heimi nota vistkerfi fyrirtækja Microsoft Dynamics 365 forritin sem heild. Vegna þess að gögn frá fólki, viðskiptavinum, aðgerðum og Internet of Things (IoT) tækjum streyma inn í eina uppsprettu er tækifæri fyrir stafrænar endurgjafarlykkjur. Til að ná þessari reynslu er samþætting á milli forrita Finance and Operations og annarra forrita Dynamics 365 nauðsynleg. Sum forrit eru byggð ofan á Common Data Service. Sameining gagna á milli forrita Finance and Operations við Common Data Service gerir öðrum forritum kleift að eiga samræmd og lipur samskipti við Finance and Operations.
 
@@ -38,13 +36,16 @@ Forrit Finance and Operations og Common Data Service bjóða upp á samstillingu
 
 ![Yfirlitsmynd arkitektúrs](media/dual-write-overview.jpg)
 
-Eftirfarandi gildistillögur eru í boði fyrir viðskiptavini:
+Eftirfarandi gildistillögur eru í boði:
 
 + [Stigveldi fyrirtækis í Common Data Service](dual-write-organization.md)
 + [Fyrirtækishugtak í Common Data Service](dual-write-company.md)
 + [Samþættur aðalviðskiptavinur](dual-write-customer.md)
++ [Samþættur fjárhagur](dual-write-ledger.md)
++ [Samræmd afurðaupplifun](dual-write-product.md)
 + [Samþættur aðallánardrottinn](dual-write-vendor.md)
-+ Sameinað afurðarsniðmát
++ [Samþætt svæði og vöruhús](dual-write-sites-and-warehouses.md)
++ [Samþættur aðalskattur](dual-write-tax.md)
 
 ## <a name="system-requirements"></a>Kerfiskröfur
 

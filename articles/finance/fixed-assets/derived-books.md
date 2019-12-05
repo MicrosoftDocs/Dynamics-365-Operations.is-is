@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a649fdbc355b3382bc6c80be03f8b37a06d5226
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5c31116ba234bd1fce445ac382fe8f8aea263a66
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178267"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769478"
 ---
 # <a name="derived-books"></a>Afleiddar bækur
 
@@ -44,7 +44,7 @@ Bók B og bók C eru uppsett sem afleidd bækur fyrir bók A fyrir kaupfærsluge
 > [!NOTE]                                                                                                                               
 > Bækur sem eru uppsett til að bóka færslur með öðrum millibilum en aðalbókar verða að vera tengd eigninni sem aðskilin bækur en ekki sem afleidd bækur.  
 
-Nánari upplýsingar eru í [Bókað í afleiddar bækur](post-derived-value-models.md).
+Nánari upplýsingar eru í [Bóka í afleiddar bækur](post-derived-value-models.md).
 
 
 

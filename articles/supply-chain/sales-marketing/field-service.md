@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 2a5c3e49f09bf4f1f90449db10d439f563ecc2c0
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: cf1c4cbc18728b6094f862792d20a893b2a8d6ea
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249841"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815273"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Samþætting við yfirlit Microsoft Dynamics 365 Field Service
 
@@ -41,9 +41,9 @@ Fyrsti áfangi samþættingar milli Field Service og Supply Chain Management ein
 
 Fyrsti áfangi samþættingar milli Field Service og Supply Chain Management virkjar samstillingu á eftirfarandi atriðum:
 
-- [Afurðir í Supply Chain Management við afurðir í Field Service sem innihalda upplýsingar um gerð afurðar](field-service-product.md)
-- [Vinnupantanir úr Field Service við sölupantanir í Supply Chain Management](field-service-work-order.md)
-- [Reikningar í Field Service við reikninga með frjálsum texta í Supply Chain Management](field-service-invoice.md)
+- [Samstilla vörur í Supply Chain Management við vörur í Field Service](field-service-product.md)
+- [Samstilla vinnupantanir úr Field Service við sölupantanir í Supply Chain Management](field-service-work-order.md)
+- [Samþætta reikningssamkomulag í Field Service við reikninga með frjálsum texta í Supply Chain Management](field-service-invoice.md)
 
 Til að sjá dæmi um hvernig þú getur samstillt vinnupöntun milli Field Service og Supply Chain Management skaltu horfa á stutta YouTube vídeóið [Hvernig á að samstilla vinnupöntun við Microsoft Dynamics 365 samþættingu](https://www.youtube.com/watch?v=46ylO7raZAo).
 

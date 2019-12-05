@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.openlocfilehash: 6ed1e4afcaeee03474d4c0ce20ac7864fb11ce78
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5538aef6599eeffee6d9b075f1b9630d55cf982a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551773"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812719"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-july-2018"></a>Nýjungar eða breytingar í Dynamics 365 Talent - Core HR (júlí 2018)
 
@@ -31,11 +31,11 @@ ms.locfileid: "2551773"
 
 Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Talent: Core HR.
 
-## <a name="powerapps-personalization"></a>PowerApps sérstilling
+## <a name="power-apps-personalization"></a>Power Apps sérstilling
 
-Talent styður samþættingu við Microsoft PowerApps-þjónustuna. PowerApps leyfir bæði þróunaraðilum og öðrum ekki tæknilegum notendum að byggja upp sérsniðin viðskiptaforrit fyrir fartæki, spjaldtölvur og netið án þess að skrifa kóða. Forrit sem þú, fyrirtæki þitt eða breiðara vistkerfi þróa með því að nota PowerApps er síðan hægt að fella inn í biðlara Talent til að auka virkni vörunnar. Til dæmis gætir þú byggt upp forrit sem bætir upplýsingum við Talent sem eru sótt frá öðru kerfi.
+Talent styður samþættingu við Microsoft Power Apps-þjónustuna. Power Apps leyfir bæði þróunaraðilum og öðrum ekki tæknilegum notendum að byggja upp sérsniðin viðskiptaforrit fyrir fartæki, spjaldtölvur og netið án þess að skrifa kóða. Forrit sem þú, fyrirtæki þitt eða breiðara vistkerfi þróa með því að nota Power Apps er síðan hægt að fella inn í biðlara Talent til að auka virkni vörunnar. Til dæmis gætir þú byggt upp forrit sem bætir upplýsingum við Talent sem eru sótt frá öðru kerfi.
 
-Frekari upplýsingar er að finna í [Fella inn PowerApps forrit](../fin-and-ops/get-started/embed-power-apps.md).
+Frekari upplýsingar er að finna í [Fella inn Power Apps forrit](../fin-and-ops/get-started/embed-power-apps.md).
 
 ## <a name="ceridian-payroll-integration"></a>Launasamþætting Ceridian
 
@@ -46,7 +46,7 @@ Samþætting milli Talent og Ceridian Dayforce er nú í boði fyrir Bandaríkin
 - Launagögn, svo sem greiðsluferli, greiðslutímabil og tekjukóðar
 - Starfsmannagögn
 
-Nánari upplýsingar er að finna í [Skilgreindu launasamþættinguna þína](configure-payroll-integration.md).
+Nánari upplýsingar er að finna í [Skilgreina launasamþættingu milli Talent og Dayforce](configure-payroll-integration.md).
 
 ## <a name="worker-tax-regions-have-been-expanded-beyond-the-us"></a>Skattumdæmi starfsmanns hefur verið stækkað út fyrir Bandaríkin
 

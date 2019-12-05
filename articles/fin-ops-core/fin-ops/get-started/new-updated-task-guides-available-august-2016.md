@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: c7675ca0ef2f2477d510c956e63d824a5e6b0980
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8747df5513cab16ee3b609f405740e660753e086
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178410"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812533"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Nýjar eða uppfærðar verkefnaleiðbeiningar (ágúst 2016)
 
@@ -32,7 +32,7 @@ ms.locfileid: "2178410"
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Verkefnaleiðbeiningar í (ágúst 2016 - öll tungumál) APQC Unified Library for Microsoft Dynamics AX
 
-(Ágúst 2016 - öll tungumál) APQC Unified Library inniheldur verkleiðbeiningar sem er ætlað að vera notuð til að fá Hjálp með Microsoft Dynamics AX verkvangsuppfærsla 2 (ágúst 2016), uppfærsla fyrir Dynamics AX maí 2016 Microsoft Dynamics AX útgáfa í febrúar 2016. Nánari upplýsingar um útgáfuna eru í [Hvað er nýtt eða breytt](whats-new-changed.md). Staðfærðar útgáfur verkefnaleiðbeininga eru tiltækar í þessu safni. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hafist handa með hjálp](help-overview.md).
+(Ágúst 2016 - öll tungumál) APQC Unified Library inniheldur verkleiðbeiningar sem er ætlað að vera notuð til að fá Hjálp með Microsoft Dynamics AX verkvangsuppfærsla 2 (ágúst 2016), uppfærsla fyrir Dynamics AX maí 2016 Microsoft Dynamics AX útgáfa í febrúar 2016. Nánari upplýsingar um þessar útgáfur er að finna í [Hvað er nýtt eða breytt á heimasíðu Finance and Operations](whats-new-changed.md). Staðfærðar útgáfur verkefnaleiðbeininga eru tiltækar í þessu safni. Nánari upplýsingar um hvernig tengja á hjálparkerfið við verkefnaleiðbeiningar er að finna í [Hjálparkerfi](help-overview.md).
 
 ### <a name="data-access"></a>Gagnaheimildir
 

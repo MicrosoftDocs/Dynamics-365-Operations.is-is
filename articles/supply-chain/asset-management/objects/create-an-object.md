@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a4759f55eceba923b47d906a764edcad34bf2f2
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 80236da5220aa9c70d5c488c09b457a470f0225a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571600"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811850"
 ---
 # <a name="create-an-asset"></a>Stofna eign
 
@@ -36,15 +36,15 @@ ms.locfileid: "2571600"
 1. Smelltu á **Eignastýring** > **Sameiginlegt** > **Eignir** > **Allar eignir** eða **Virkar eignir**.
 2. Smellið á hnappinn **Nýtt**.
 3. Í svarglugganum **Stofna eignir** seturðu inn gögn varðandi **Eignir** (eignakenni) og eignaheiti. Veldu dagsetningu og -tíma eignar í reitnum **Virkt**. Frá þeim degi geturðu sett eignina upp á virkri staðsetningu sem og flutt og skipt um eignina í eignaskipan.
-4. Í reitnum **Eignagerð** velurðu eignagerð fyrir eignina (skyldureitur). Ef með þarf skaltu velja **Eignaframleiðandi** og **Eignalíkan** fyrir eignina. Ef aðeins ein vara hefur verið sett upp er sú vara sjálfkrafa valin í reitnum **Eignaframleiðandi**. Valið sem er í boði í reitunum **Eignaframleiðandi** og **Eignalíkan** er háð uppsetningunni í [Framleiðandi og líkan fyrir eignir](../setup-for-objects/product-and-model.md).
+4. Í reitnum **Eignagerð** velurðu eignagerð fyrir eignina (skyldureitur). Ef með þarf skaltu velja **Eignaframleiðandi** og **Eignalíkan** fyrir eignina. Ef aðeins ein vara hefur verið sett upp er sú vara sjálfkrafa valin í reitnum **Eignaframleiðandi**. Valið sem er í boði í reitunum **Eignaframleiðandi** og **Eignalíkan** er háð uppsetningunni í [Eignaframleiðendur og líkön](../setup-for-objects/product-and-model.md).
 5. Í hópnum **Yfireign** er reiturinn **Eignir** sjálfgefið auður. Ef þess er krafist geturðu valið yfireign og þá verða allir reitir í hópnum **Yfireign** sjálfkrafa fylltir út.
 >[!NOTE]  
->Þegar þú velur yfireign eru tveir eða þrír flipar tiltækir: Flipinn **Mínar eignir** inniheldur eignir sem tengjast virkum staðsetningum sem þú (viðhaldsstarfsmaðurinn sem er skráður inn í kerfið) getur fengið úthlutað. Ef engar virkar staðsetningar eru settar upp á viðhaldsstarfsmanni í forminu [Viðhaldsstarfsmenn](../setup-for-objects/workers-and-worker-groups.md) verður flipinn **Mínar eignir** ekki sýnilegur. Flipinn **Virkar eignir** hefur að geyma lista yfir allar eignir með eignalíftímastöðuna „Virkt“. Flipinn **Eignayfirlit** sýnir trjáyfirlit yfir virkar staðseningar og eignir sem eru settar upp á þessum stöðum.
+>Þegar þú velur yfireign eru tveir eða þrír flipar tiltækir: Flipinn **Mínar eignir** inniheldur eignir sem tengjast virkum staðsetningum sem þú (viðhaldsstarfsmaðurinn sem er skráður inn í kerfið) getur fengið úthlutað. Ef engar virkar staðsetningar eru settar upp á viðhaldsstarfsmanni í forminu [Viðhaldsstarfsmenn og starfsmannahópar](../setup-for-objects/workers-and-worker-groups.md) verður flipinn **Mínar eignir** ekki sýnilegur. Flipinn **Virkar eignir** hefur að geyma lista yfir allar eignir með eignalíftímastöðuna „Virkt“. Flipinn **Eignayfirlit** sýnir trjáyfirlit yfir virkar staðseningar og eignir sem eru settar upp á þessum stöðum.
 
 6. Mælt er með virkri staðsetningu sem þú hefur sett upp fyrir eignina í hópnum **Eignir** > reitnum **Virk staðsetning**. Veldu aðra virka staðsetningu, ef þess er krafist.
 
 >[!NOTE]
->Þegar þú hefur stofnað eign geturðu sett hana upp á annarri virkri staðsetningu, ef þess er krafist. Aðeins efstu eignir (eignir án núverandi yfireignar) er hægt að setja upp á virkri staðsetningu. Þetta þýðir að þú setur upp efsta stigið sem og allar undireignir á valinni virkri staðsetningu. Lestu meira um uppsetningu eigna á virkum staðsetningum í [Virkar staðsetningar](../functional-locations/introduction-to-functional-locations.md).
+>Þegar þú hefur stofnað eign geturðu sett hana upp á annarri virkri staðsetningu, ef þess er krafist. Aðeins efstu eignir (eignir án núverandi yfireignar) er hægt að setja upp á virkri staðsetningu. Þetta þýðir að þú setur upp efsta stigið sem og allar undireignir á valinni virkri staðsetningu. Lestu meira um uppsetningu eigna á virkum staðsetningum í [Kynning á virkum staðsetningum](../functional-locations/introduction-to-functional-locations.md).
 
 7. Smellt er á **OK**.
 8. Veldu eignina í listanum **Allar eignir** og smelltu á hnappinn **Breyta** til að bæta frekari upplýsingum við eignina.
@@ -53,13 +53,13 @@ ms.locfileid: "2571600"
 
 Virka staðsetningin sem eignin tengist er sýnd í reitnum **Virk staðsetning**. Ef eignin er yfireign er fjöldi undireigna sem tengist eigninni sýndur í reitnum **Undirstig**. Ef eignin er undireign fyrirliggjandi eignar er kenni yfireignarinnar sýnt í reitnum **Yfirstig**.
 
-Þú getur breytt upplýsingum um **Eignaframleiðanda** og **Eignalíkan** um eignina, sem eru notaðar til að stjórna varahlutum, varahlutum og vanskilum í starfi. Vísa til [Framleiðandi og líkan fyrir eignir](../setup-for-objects/product-and-model.md) fyrir meiri upplýsingar. Þú getur líka bætt við upplýsingum um **Árgerð** og **Raðnúmer**, ef nauðsyn krefur.
+Þú getur breytt upplýsingum um **Eignaframleiðanda** og **Eignalíkan** um eignina, sem eru notaðar til að stjórna varahlutum, varahlutum og vanskilum í starfi. Vísa til [Eignaframleiðendur og líkön](../setup-for-objects/product-and-model.md) fyrir meiri upplýsingar. Þú getur líka bætt við upplýsingum um **Árgerð** og **Raðnúmer**, ef nauðsyn krefur.
 
 **Núverandi líftímastaða** er notuð til að skilgreina hvort eignin sé virk eða óvirk. Þegar þú stofnar eign er stigið alltaf stillt á fyrsta stigið í eignastigahópnum. Þegar þú ert tilbúin/n til að virkja eign skaltu smella á **Uppfæra eignastöðu** og velja þá líftímastöðu sem þú hefur skilgreint sem „eignavirka“ og smelltu á **Í lagi**.
 
 **Athugasemd:** Þegar eign er stillt á „óvirk“ er ekki lengur hægt að búa til verkbeiðnir fyrir eignina. Þú getur heldur ekki tímasett forvarnarviðhaldsverk fyrir óvirka eign.
 
-Reitirnir **Þjónustustig** og **Gagnrýni** tengjast verkbeiðnum sem eru stofnaðar fyrir eignina. Reitirnir sýna tölurnar **Þjónustustig** og **Markástand** reiknaðar fyrir núverandi uppsetningu eignarinnar. Vísa til [Þjónustustig](../setup-for-objects/object-priorities.md) og [Markástand eigna](../setup-for-objects/object-criticalities.md) varðandi uppsetningu þessara gilda.
+Reitirnir **Þjónustustig** og **Gagnrýni** tengjast verkbeiðnum sem eru stofnaðar fyrir eignina. Reitirnir sýna tölurnar **Þjónustustig** og **Markástand** reiknaðar fyrir núverandi uppsetningu eignarinnar. Vísa til [Þjónustustig](../setup-for-objects/object-priorities.md) og [Markástandgerðir eigna](../setup-for-objects/object-criticalities.md) varðandi uppsetningu þessara gilda.
 
 ## <a name="asset"></a>Eign
 

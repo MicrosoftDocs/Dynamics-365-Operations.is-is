@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365 Talent - Attract eiginleikar og færni
+title: Attract eiginleikar og færni
 description: Þetta efnisatriði lýsir þeim eiginleikum sem Microsoft Dynamics 365 Talent - Attract veitir til að stjórna ferli við ráðningu nýrra starfsmanna.
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c8860602bd293c158aa33ea22b5f73de15a6b6f
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4186dddc471de676cc6d26050f16711f581da7ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552072"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833070"
 ---
-# <a name="microsoft-dynamics-365-talent---attract-features-and-capabilities"></a>Microsoft Dynamics 365 Talent - Attract eiginleikar og færni
+# <a name="attract-features-and-capabilities"></a>Attract eiginleikar og færni
 
 [!include [banner](includes/banner.md)]
 
@@ -48,4 +48,4 @@ Attract veitir aðgang að forskilgreindu ráðningarferli með fjórum grunnsti
 Um leið og þeir hafa verið bættir við starf fá umsækjendur tölvupóst sem inniheldur tengil til að fá vefforritið. Forritið veitir upplýsingar um starf og er notað til að eiga samskipti við ráðningarteymið. Umsækjendur geta notað það til að leggja fram framboð sitt fyrir viðtöl.
 
 ## <a name="analytic-reports"></a>Greiningarskýrslur
-Ráðningarhópar geta notað yfirlit yfir helstu mælikvarða ráðningarferlisins fyrir ákveðið starf eða samansafn af öllum störfum með [greiningarskýrslur í Attract](analytic-reports.md). Þessi eiginleiki er í [forútgáfu](access-preview-feature.md) sem stendur fyrir viðskiptavini með [Viðbót við alhliða ráðningar](attract-comprehensive-hiring.md).
+Ráðningarhópar geta notað yfirlit yfir helstu mælikvarða ráðningarferlisins fyrir ákveðið starf eða samansafn af öllum störfum með [greiningarskýrslur í Attract](analytic-reports.md). Þessi aðgerð er í [forskoðun](access-preview-feature.md) fyrir viðskiptavini með [Hvaða útgáfa af Microsoft Dynamics 365 Talent - Attract](attract-comprehensive-hiring.md).

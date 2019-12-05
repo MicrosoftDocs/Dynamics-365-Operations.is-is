@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 38f0db7db0cc4f65d46cd241f75a7274f19f62cf
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 1a96fda4e7f7b6407c51ee4056088d05027462cf
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251386"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813248"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Samstilla vörur beint úr Sales við viðskiptavini í Supply Chain Management við vörur í Sales
 
@@ -43,7 +43,7 @@ Prospect to lausnin notar gagnasamþættingu til að samstilla gögn yfir tilvik
 
 ## <a name="templates-and-tasks"></a>Sniðmát og verkefni
 
-Til að opna fyrirliggjandi sniðmát skaltu opna [PowerApps Admin Center](https://admin.powerapps.com/dataintegration). Veldu **Verk** og svo, í efra hægra horninu, velurðu **Nýtt verk** til að velja opin sniðmát.
+Til að opna fyrirliggjandi sniðmát skaltu opna [Power Apps Admin Center](https://admin.powerapps.com/dataintegration). Veldu **Verk** og svo, í efra hægra horninu, velurðu **Nýtt verk** til að velja opin sniðmát.
 
 Eftirfarandi sniðmát og undirliggjandi verk eru notuð til að samstilla afurðir frá Supply Chain Management til Sales.
 
@@ -116,9 +116,9 @@ Eftirfarandi skýringarmynd sýnir dæmi um vörpunarsniðmát í gagnasamþætt
 
 [Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Supply Chain Management](contacts-template-mapping-direct.md)
 
-[Samstilla hausa og línur sölupöntunar beint úr Supply Chain Management í Sales](sales-order-template-mapping-direct-two-ways.md)
+[Samstilling sölupantana beint á milli Sales og Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
 
-[Samstilla hausa og línur sölureiknings beint úr Supply Chain ManagementSupply Chain Management í Sales](sales-invoice-template-mapping-direct.md)
+[Samstilla hausa og línur sölureiknings beint úr Supply Chain Management í Sales](sales-invoice-template-mapping-direct.md)
 
 
 

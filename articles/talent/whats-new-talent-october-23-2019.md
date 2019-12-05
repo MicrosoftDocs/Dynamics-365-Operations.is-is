@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 94243f83121a1306d8f9ae9be23d24e5c9b63a2d
-ms.sourcegitcommit: 07e109dec176a93eff0df8a37ba5d875f212e9f1
+ms.openlocfilehash: 66419d9093cff68aa6109b22ab57bcb46ac6c718
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "2662666"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772897"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>Nýjungar eða breytingar í Dynamics 365 Talent (23. október 2019)
 
@@ -47,7 +47,7 @@ Sjá frekari upplýsingar [Hvað er nýtt eða breytt í uppfærslu pallsins 30 
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>Fjarlægja ávinning opinn forskoðunareiginleika skráningar
 
-Í tengslum við tilkynningu okkar í Strategískar fjárfestingar í kjarnastarfsemi HR reka ágæti rekstrarins bloggfærslu, Microsoft er að fjarlægja ávinninginn fyrir opnun skráningar úr forsýningu almennings 18. október 2019. Í staðinn verður nýr virkni gefinn út í framtíðinni. Framleiðslunotkun kostanna opnar skráningaraðgerð sem nú er í forskoðun almennings verður ekki studd.
+Í tengslum við tilkynningu okkar í bloggfærslunni [Strategískar fjárfestingar í kjarnastarfsemi HR keyra gæðarekstur](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/10/02/strategic-investments-in-core-hr-drive-operational-excellence), Microsoft er að fjarlægja ávinninginn fyrir opnun skráningar úr forsýningu almennings 18. október 2019. Í staðinn verður nýr virkni gefinn út í framtíðinni. Framleiðslunotkun kostanna opnar skráningaraðgerð sem nú er í forskoðun almennings verður ekki studd.
 
 ### <a name="error-while-selecting-the-countryregion-on-the-worker-form-a-second-time-350294"></a>Villa við val á landi/svæði á verkamannaforminu í annað sinn (350294)
 
@@ -69,7 +69,7 @@ Með útgáfu vikunnar bætist nýju listagildi við núverandi sérsniðinn rei
 
 Með þessari útgáfu opnast aðeins ráðningarkjör starfsmanna sem valin eru í Excel. Öllu öryggi fyrirtækisins er einnig haldið.
 
-### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service---324178"></a>Það vantar tengsl milli frídagseiningar Vinnudagatals og Vinnudagatalseiningar í Common Data Service - (324178)
+### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service-324178"></a>Það vantar tengsl milli frídagseiningar Vinnudagatals og Vinnudagatalseiningar í Common Data Service (324178)
 
 Þessu sambandi hefur verið bætt við útgáfuna. Þessi breyting gerir vinnudegi starfsmanns kleift að birtast í PowerApps. 
 

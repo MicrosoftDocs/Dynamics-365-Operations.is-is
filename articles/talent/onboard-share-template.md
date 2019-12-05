@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 010d68b79300d15292dbcd4754eed8aac115cdce
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551450"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812834"
 ---
 # <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>Deildu efni með öðrum þátttakendum í Dynamics 365 Talent - Onboard
 
@@ -53,7 +53,7 @@ Microsoft Dynamics 365 Talent: Onboard gerir þér kleift að deila þjálfunarl
 
 3. Undir **Viðtakandi**, ef viðtakendur ættu að geta endurskoðað sniðmátið skaltu stilla valkostinn **Geta þessir einstaklingar gert breytingar?** á **Kveikt**. Ef tilkynna ætti viðtakendum með tölvupósti að þú hafir deilt sniðmátinu með þeim skaltu stilla valkostinn **Senda tilkynningu í tölvupósti til viðtakenda** á **Kveikt**.
 
-    [!Stilling aðgangs og tölvupóststillingar fyrir sniðmát](./media/onboard-share-template-access-and-email.png)] (./media/onboard-share-template-access-and-email.png)
+    [![Stilling aðgangs og tölvupóststillingar fyrir sniðmát](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
 
 4. Sláðu inn nafn eða netfang og veldu viðkomandi viðtakanda á fellivalmyndinni.
 5. Á flipanum **Stjórna aðgangi** geturðu skoðað eða breytt því hvað viðtakendur geta gert með sniðmátinu. Til að breyta aðgangi viðtakanda skaltu velja í fellivalmyndinni við hlið nafns viðtakanda **Getur skoðað**, **Getur breytt** eða **Fjarlægja**, eftir því sem við á.
@@ -68,6 +68,6 @@ Microsoft Dynamics 365 Talent: Onboard gerir þér kleift að deila þjálfunarl
 ### <a name="see-also"></a>Sjá einnig
 
 - [Prófaðu eða keyptu Onboard-forritið](https://dynamics.microsoft.com/talent/onboard/)
-- [Nýjungar](./whats-new.md)
-- [Athugasemdir við útgáfu](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Fá aðstoð](./talent-support.md)
+- [Nýjungar eða breytingar í Dynamics 365 Talent](./whats-new.md)
+- [Útgáfuáætlanir](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Fá aðstoð fyrir Microsoft Dynamics 365 Talent](./talent-support.md)

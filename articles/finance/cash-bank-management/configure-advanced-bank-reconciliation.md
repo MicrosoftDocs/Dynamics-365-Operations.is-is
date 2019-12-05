@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2922b00dffe8e99f8331d7aaa7e2f1b7dc4f9ea6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 405af4e3e122953bbfa74e7e91d2feef8f068708
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178312"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772629"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>Uppsetningarferli ítarlegrar bankaafstemmingar
 
@@ -31,7 +31,7 @@ ms.locfileid: "2178312"
 
 Ítarleg afstemming aðgerð gerir það mögulegt að flytja inn rafræn bankayfirlit sem er hægt að stemma sjálfkrafa af úr bankafærslu í Microsoft Dynamics 365 Finance. Þessi grein verður útskýra skal setja upp ferli fyrir afstemmingu.  
 
-Fjöldi eintaka sem verður að setja upp áður en að nota ítarlega afstemmingu aðgerðir. Nánari upplýsingar um uppsetningu á innflutning bankayfirlits eru í [Setja upp innflutningsferli bankayfirlits](set-up-advanced-bank-reconciliation-import-process.md).  Kröfur um uppsetningu á afstemmingu stendur nánar hér að neðan.
+Fjöldi eintaka sem verður að setja upp áður en að nota ítarlega afstemmingu aðgerðir. Nánari upplýsingar um uppsetningu á innflutning bankayfirlits eru í [Setja upp innflutningsferli ítarlegrar bankaafstemmingar](set-up-advanced-bank-reconciliation-import-process.md).  Kröfur um uppsetningu á afstemmingu stendur nánar hér að neðan.
 
 ## <a name="transaction-codes"></a>Færslukóðar
 Færslukóða má nota sem hluta af samsvörunarreglum bankaafstemmingar. Færslukóðar hjálpa til við að varpa sams konar færslum á milli Finance og bankayfirlits þíns. Til að framkvæma þessa tengingu verður fyrst að skilgreina þær færslugerðir sem notaðar eru fyrir bankafærslur úr Finance og síðan varpa þessum gerðum á færslukóða á yfirlitum sem notaðir eru af þínum banka. Færslugerðir fyrir bankafærslur eru skilgreindar á síðunni **Færslugerð banka**. Þetta er einnig þar sem skilgreina aðallykil til að nota fyrir bókanir færslugerð sem tengist. 

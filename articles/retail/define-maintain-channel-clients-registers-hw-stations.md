@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a21394daeb797995418c3b139191dd700c129e12
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 3f0180f63c32f3e88d7f5e245716ccc908cc026d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019394"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811241"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Tengja jaðarbúnað við sölustað (POS)
 
@@ -33,7 +33,7 @@ ms.locfileid: "2019394"
 Þessi efnisgrein fjallar um hvernig á að tengja jaðartæki við Retail POS.
 
 > [!NOTE]
-> Til að fá tilteknar leiðbeiningar, sjá [Skilgreining og uppsetning vélbúnaðarstöðvar smásölu](retail-hardware-station-configuration-installation.md) og [Retail Modern POS niðurhal/uppsetning í sjálfsafgreiðslu, og virkjun tækja fyrir Modern POS og sölukerfi í skýinu](retail-modern-pos-device-activation.md).
+> Sjá sérstakar leiðbeiningar um uppsetningu [Stilla og setja upp Retail vélbúnaðarstöð](retail-hardware-station-configuration-installation.md) og [Stilla, setja upp og virkja Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>Lykilþættir
 
@@ -139,7 +139,7 @@ Virkniforstilling er stillt á stigi verslana. Hann er notaður til að tilgrein
 
 - **upplýsingakóðar** flýtiflipi
 
-    - Allar hliðar á því hvernig upplýsingakóðum eru meðhöndlaðar á Sölustaðnum. Nánari upplýsingar eru í [upplýsingakóðum](info-codes-retail.md).
+    - Allar hliðar á því hvernig upplýsingakóðum eru meðhöndlaðar á Sölustaðnum. Nánari upplýsingar er að finna í [Upplýsingakóðar og upplýsingakóðaflokkar](info-codes-retail.md).
 
 - **Kvittananúmer** flýtiflipi´
 

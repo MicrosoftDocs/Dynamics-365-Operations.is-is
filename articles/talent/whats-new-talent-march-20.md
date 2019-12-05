@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c16082bb18ac5c170aab30f1a2033e0790cbacc1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a7a44e1c9d8dcb4b2cc81a682a044d26cdc1149e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026005"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812696"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-20-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 Talent (20. mars 2019)
 
@@ -43,7 +43,7 @@ Aðgerðir í kerfinu geta nú verið með notandahóp skilgreindan. Hægt er a�
 Ef umsækjandi gleymir aðgangsupplýsingum sem hann notaði til að sækja um starf með því að opna hlekk sem var vistaður eða sendur í tölvupósti, sér hann nú vísbendingu með nafni þjónustuaðilans og notandanafni (brenglað). Þetta hjálpar honum að nota réttar aðgangsupplýsingar til að opna starfsumsóknina sína.
 
 ### <a name="help-internal-candidates-explore-internal-jobs"></a>Hjálpa umsækjendum innan fyrirtækis að skoða störf innan fyrirtækis
-Vandamál hefur verið lagað þar sem umsækjendur utan fyrirtækis gátu séð nafn ráðningaraðilans eða ráðningarstjórans fyrir starf. Nú geta aðeins umsækjendur innan fyrirtækis séð meðlimi ráðningarhóps fyrir starf. Það er líka auðveldara fyrir umsækjendur innan fyrirtækis að skoða og sækja eingöngu um störf innan fyrirtækis. Þegar umsækjandi reynir að opna hlekkinn til að skoða eða sækja um starf sem er eingöngu innan fyrirtækis, neyðist hann til að sannvotta sig með Azure Active Directory-aðgangsupplýsingum. Umsækjendur innan fyrirtækis geta einnig haft samband við meðlim ráðningarhópsins til að láta í ljós áhuga á starfi eða til að fá að vita meira um starfið. Þessi möguleiki er í boði fyrir öll störf fyrir einungis umsækjendur innan fyrirtækis. Frekari upplýsingar er að finna í [Virkni starfatorgs í Attract](./career-site.md).
+Vandamál hefur verið lagað þar sem umsækjendur utan fyrirtækis gátu séð nafn ráðningaraðilans eða ráðningarstjórans fyrir starf. Nú geta aðeins umsækjendur innan fyrirtækis séð meðlimi ráðningarhóps fyrir starf. Það er líka auðveldara fyrir umsækjendur innan fyrirtækis að skoða og sækja eingöngu um störf innan fyrirtækis. Þegar umsækjandi reynir að opna hlekkinn til að skoða eða sækja um starf sem er eingöngu innan fyrirtækis, neyðist hann til að sannvotta sig með Azure Active Directory-aðgangsupplýsingum. Umsækjendur innan fyrirtækis geta einnig haft samband við meðlim ráðningarhópsins til að láta í ljós áhuga á starfi eða til að fá að vita meira um starfið. Þessi möguleiki er í boði fyrir öll störf fyrir einungis umsækjendur innan fyrirtækis. Nánari upplýsingar er að finna í [Settu upp ferilssíðu í Microsoft Dynamics 365 Talent - Attract](./career-site.md).
 
 ### <a name="designate-silver-medalists-to-assign-high-value-applicants-for-future-positions"></a>Merkja við silfurhafa til að úthluta verðmætum umsækjendum fyrir framtíðarstöður
 Ráðningaraðilar og ráðningarstjórar geyma oft lista yfir umsækjendur sem hentuðu stöðunni vel en var ekki hægt að bjóða þeim starfið því að annar fékk starfið. Slíkir umsækjendur, kallaðir silfurhafar, eru verðmætir því að þeir geta dregið úr tímanum sem tekur að ráða næst þegar svipuð staða opnast. Attract gerir nú ráðningaraðilum og ráðningarstjórum kleift að setja silfurhafa inn á umsækjendalistann ef umsækjandinn kemst á boðsstigið. Þeir sem eru merktir sem silfurhafar birtast á umsækjendalista fyrir starfið, en einnig í yfirliti hæfileikasafns þegar þessir umsækjendur eru meðlimir í einhverjum söfnum ráðningaraðila eða ráðningarstjóra. Að auki mun merkingin birtast í starfssögunni sem hluti af hæfileikasafni í notandaupplýsingum umsækjanda. Hægt er að forskoða þennan eiginleika með því að fá stjórnanda til að kveikja á honum með [Stjórnun eiginleika í stjórnandamiðstöðinni](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).

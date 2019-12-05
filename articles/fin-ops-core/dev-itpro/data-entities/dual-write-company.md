@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: aa4d54fd7b3ab407751ad6ca1032d742c23eed41
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 21c2143f4fa58d51f64e349c7963cb17e04bad97
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184532"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772438"
 ---
 ## <a name="company-concept-in-common-data-service"></a>Fyrirtækishugtak í Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Í Finance and Operations er hugtakið *fyrirtæki* bæði lögleg smíð og viðskiptasmíð. Það er einnig öryggis- og sýnileikamörk fyrir gögn. Notendur vinna alltaf í samhengi við eitt fyrirtæki og flest gögnin eru röndótt af fyrirtækinu.
 
@@ -60,12 +58,14 @@ Eins og myndin hér að ofan sýnir er þessi 1:1 kortlagning milli rekstrareini
 
 Lokaumræðan sem þarf að ræða er hvernig tvískipt skrifa ákvarðar hvaða eigendateymi það ætti að úthluta skrám til. Þessari hegðun er stjórnað af reitnum **Sjálfgefið eigendateymi** á cdm\_Fyrirtækjaskrá. Þegar cdm\_Fyrirtækjaskrá er virk fyrir tvískipta skrifun, stofna viðbætur sjálfkrafa tilheyrandi viðskiptaeiningu og eigendateymi (ef það er ekki þegar til) og stillir reitinn **Sjálfgefið eigendateymi**. Stjórnandi getur breytt þessum reit í annað gildi. Stjórnandi getur þó ekki hreinsað reitinn svo framarlega sem einingin er virk fyrir tvískipta skrifun.
 
+> [!div class="mx-imgBorder"]
 ![Reiturinn Sjálfgefið eigendateymi](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Fyrirtækjaskrár og ræsibönd
 
 Common Data Service-samþætting færir fyrirtækjajöfnun með því að nota auðkenni fyrirtækisins til að randa gögn. Eins og eftirfarandi mynd sýnir, eru allar fyrirtækjasértækar einingar útvíkkaðar þannig að þær hafa mörg-til-einn (N: 1) vensl við cdm\_Fyrirtækjaeining.
 
+> [!div class="mx-imgBorder"]
 ![N:1 vensl milli fyrirtækjasértakrar einingar og einingarinnar cdm_Company](media/dual-write-bootstrapping.png)
 
 + Fyrir skrár, eftir að fyrirtæki er bætt við og vistað, verður gildið aðeins lesanlegt. Þess vegna ættu notendur að gæta þess að þeir velja rétt fyrirtæki.

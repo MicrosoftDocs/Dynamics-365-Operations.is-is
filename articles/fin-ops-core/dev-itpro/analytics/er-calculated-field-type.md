@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 20d48795b23628bbba2896bf48940936a25e0435
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550085"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771330"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Stuðningur við færibreytur kallar á ER gagnagjafa af reitagerðinni Reiknað
 
@@ -55,7 +55,7 @@ Til að ljúka dæmunum í þessu efnisatriði þarftu að hafa eftirfarandi að
 | Sýnishorn af skilgreiningu á sniði rafrænnar skýrslugerðar        | Snimát til að læra breytur á calls.version.1.1.xml  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Skráðu þig inn á RCS tilvikið
-Í þessu dæmi mun notandi stofna skilgreiningu fyrir sýnifyrirtækið Litware, Inc. Í RCS verður fyrst að ljúka skrefum ferlisins [Stofna skilgreiningaveitu og merkja hana sem virka](tasks/er-configuration-provider-mark-it-active-2016-11.md):
+Í þessu dæmi mun notandi stofna skilgreiningu fyrir sýnifyrirtækið Litware, Inc. Í RCS verður fyrst að ljúka skrefum ferlisins [Stofna skilgreiningaveitur og merkja þær sem virkar](tasks/er-configuration-provider-mark-it-active-2016-11.md):
 
 1. Veldu á sjálfgefna mælaborðinu **Rafræn skýrslugerð**.
 2. Veldu **Skilgreiningar skýrslugerðar**.
@@ -75,21 +75,21 @@ Til að ljúka dæmunum í þessu efnisatriði þarftu að hafa eftirfarandi að
 3. Veljið **Hönnuður**.
 4. Veljið **Hönnuður**.  
    
-Þessi ER-líkanavörpun er hönnuð til að gera eftirfarandi:
+    Þessi ER-líkanavörpun er hönnuð til að gera eftirfarandi:
 
-- Sæktu lista yfir skattakóða (gagnagjafinn **Skattur**) sem er að finna í töflunni   **TaxTable**.
-- Sæktu lista yfir skattafærslur (gagnagjafinn **Trans**) sem er að finna í töflunni   **TaxTable**:
+    - Sæktu lista yfir skattakóða (gagnagjafinn **Skattur**) sem er að finna í töflunni **TaxTable**.
+    - Sæktu lista yfir skattafærslur (gagnagjafinn **Trans**) sem er að finna í töflunni **TaxTable**:
     
-    - Flokka lista yfir sóttar færslur (gagnagjafinn **Gr**) eftir skattakóða.
-    - Reiknaðu fyrir flokkaðar færslur eftirfarandi uppsöfnuð gildi á hvern   skattakóða:
+        - Flokka lista yfir sóttar færslur (gagnagjafinn **Gr**) eftir skattakóða.
+        - Reiknaðu fyrir flokkaðar færslur eftirfarandi uppsöfnuð gildi á hvern skattakóða:
 
-        - Summa skattstofnsgilda.
-        - Summa skattgilda.
-        - Lágmarksgildi beitts skatthlutfalls.
+            - Summa skattstofnsgilda.
+            - Summa skattgilda.
+            - Lágmarksgildi beitts skatthlutfalls.
 
-Vörpun líkansins í þessari stillingu útfærir grunngagnalíkanið fyrir hvaða ER-snið sem er búið til fyrir þetta líkan og keyrt í Finance and Operations. Fyrir vikið verður innihald gagnafjafanna **Tax** og **Gr** berskjaldað fyrir ER-sniðum eins og óhlutbundnum gagnagjöfum.
+    Vörpun líkansins í þessari stillingu útfærir grunngagnalíkanið fyrir hvaða ER-snið sem er búið til fyrir þetta líkan og keyrt í Finance and Operations. Fyrir vikið verður innihald gagnafjafanna **Tax** og **Gr** berskjaldað fyrir ER-sniðum eins og óhlutbundnum gagnagjöfum.
 
-  ![Hönnunarsíða fyrir líkanavörpun sem sýnir gagnagjafana Tax og Gr](media/er-calculated-field-type-01.png)
+    ![Hönnunarsíða fyrir líkanavörpun sem sýnir gagnagjafana Tax og Gr](media/er-calculated-field-type-01.png)
 
 5.  Lokið síðunni **Hönnuður líkanavörpunar**.
 6.  Lokið síðunni **Líkanavörpun**.
@@ -100,25 +100,25 @@ Vörpun líkansins í þessari stillingu útfærir grunngagnalíkanið fyrir hva
 2. Veldu **Sniðmát til að læra færibreytur á köll**.
 3. Veljið **Hönnuður**. Þetta ER-sniðmát er hannað til að gera eftirfarandi:
 
-  - Myndaðu skattauppgjör á XML-sniði.
-  - Settu fram eftirfarandi stig skattheimtu í skattauppgjöri: reglulega, lækkað og ekkert.
-  - Settu fram margar upplýsingar á hverju skattlagningarstigi, með mismunandi fjölda smáatriða í hverju stigi.
+    - Myndaðu skattauppgjör á XML-sniði.
+    - Settu fram eftirfarandi stig skattheimtu í skattauppgjöri: reglulega, lækkað og ekkert.
+    - Settu fram margar upplýsingar á hverju skattlagningarstigi, með mismunandi fjölda smáatriða í hverju stigi.
 
-  ![Síða sniðshönnuðar](media/er-calculated-field-type-02.png)
+    ![Síða sniðshönnuðar](media/er-calculated-field-type-02.png)
 
 4. Veldu **Vörpun**.
 5. Stækkaðu liðina **Líkan**, **Gögn,** og **Yfirlit**. 
 
-   Reiknaði reiturinn **Model.Data.Summary.Level** inniheldur segðina sem skilar kóða skattlagningarstigsins (**Venjulegur**, **Dregið úr**, **Enginn,** eða **Annað**) sem textagildi fyrir hvaða skattakóða sem hægt er að sækja úr gagnagjafanum **Model.Data.Summary** á keyrslutíma.
+    Reiknaði reiturinn **Model.Data.Summary.Level** inniheldur segðina sem skilar kóða skattlagningarstigsins (**Venjulegur**, **Dregið úr**, **Enginn,** eða **Annað**) sem textagildi fyrir hvaða skattakóða sem hægt er að sækja úr gagnagjafanum **Model.Data.Summary** á keyrslutíma.
 
-  ![Hönnunarsíðan sniðmáta sem sýnir upplýsingar um gagnalíkanið til að læra færibreytur á köll](media/er-calculated-field-type-03.png)
+    ![Hönnunarsíðan sniðmáta sem sýnir upplýsingar um gagnalíkanið til að læra færibreytur á köll](media/er-calculated-field-type-03.png)
 
 6. Stækkaðu liðinn **Model**.**Data2**.
 7. Stækkaðu liðinn **Model**.**Data2.Summary2**.
    
-   Gagnagjafinn **Model**.**Data2.Summary2** er stillt til að flokka færsluupplýsingar gagnagjafans **Model.Data.Summary** skattlagningarstig (skilað af reiknaða reitnum **Model.Data.Summary.Level**) og reikna uppsafnanirnar.
+    Gagnagjafinn **Model**.**Data2.Summary2** er stillt til að flokka færsluupplýsingar gagnagjafans **Model.Data.Summary** skattlagningarstig (skilað af reiknaða reitnum **Model.Data.Summary.Level**) og reikna uppsafnanirnar.
 
-  ![Hönunnarsíða sniðmáta sem sýnir upplýsingar um gagnagjafann Model.Data2.Summary2](media/er-calculated-field-type-04.png)
+    ![Hönunnarsíða sniðmáta sem sýnir upplýsingar um gagnagjafann Model.Data2.Summary2](media/er-calculated-field-type-04.png)
 
 8. Farðu yfir reiknaða reiti **Model**.**Data2.Level1**, **Model**.**Data2.Level2**, og **Model**.**Data2.Level3.** Þessir reiknaðir reitir eru notaðir til að sía **Model**.**Data2.Summary2** skráningalistann og skila aðeins skrám sem tákna tiltekið skattlagningarstig.
 9. Lokaðu síðunni **Sniðshönnuður**.
@@ -309,7 +309,7 @@ Endurtekin köll í reiknaða reiti með færibreytu eru ekki studd.
 Þú getur keyrt upphafsuppbót og endurbætt ER snið til að ganga úr skugga um að skilgreindir útreiknaðir reitir með færibreytur virki rétt.
 
 ### <a name="import-er-configurations"></a>Flytja inn rafræn skýrslugerð grunnstillingar
-Þú getur flutt inn yfirfarnar stillingar úr RCS með því að nota ER-geymslu af gerðinni **RCS**. Ef þú hefur þegar gengið í gegnum skrefin í efninu, [Flytja inn rafrænar skýrslustillingar frá Regulatory Configuration Services](rcs-download-configurations.md), notaðu stilla ER geymslu til að flytja inn stillingar sem fjallað var um áður í þessu efni til umhverfisins. Að ð öðrum kosti skal fylgja þessum skrefum:
+Þú getur flutt inn yfirfarnar stillingar úr RCS með því að nota ER-geymslu af gerðinni **RCS**. Ef þú hefur þegar gengið í gegnum skrefin í efninu, [Flytja inn rafrænar skýrslustillingar (ER) úr Regulatory Configuration Services (RCS)](rcs-download-configurations.md), notaðu stilla ER geymslu til að flytja inn stillingar sem fjallað var um áður í þessu efni til umhverfisins. Að ð öðrum kosti skal fylgja þessum skrefum:
 
 1. Veldu fyrirtækið **DEMF** og veldu á sjálfgefna yfirlitinu **Rafræn skýrsla**.
 2. Veldu **Skilgreiningar skýrslugerðar**.
@@ -339,4 +339,4 @@ Endurtekin köll í reiknaða reiti með færibreytu eru ekki studd.
 8. Berðu saman innihald í mynduðu úttaki.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
-[Formúluhönnuður í rafrænni skýrslugerð](general-electronic-reporting-formula-designer.md)
+[Formúluhönnuður í rafrænni skýrslugerð (ER)](general-electronic-reporting-formula-designer.md)

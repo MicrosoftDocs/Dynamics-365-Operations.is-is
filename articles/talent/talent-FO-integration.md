@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8b9fa6b8d5109f873c784d384d49f685f94da228
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 747922294eaf971795177beeb73839d453f6475a
+ms.sourcegitcommit: ae0efac749ab34d423fac44d00a597801c143fbb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622769"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "2830187"
 ---
 # <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>Algengar spurningar um samþættingu Dynamics 365 Talent til Dynamics 365 Finance
 
@@ -48,7 +48,7 @@ Sniðmát eru upphafspunktur. Hægt er að búa til sitt eigið sniðmát, en al
 
 Sem stendur eru fjárhagsvíddir ekki í Common Data Service og eru þar af leiðandi ekki hluti af sjálfgefna sniðmátinu. Þessi eining er fyrirhuguð en engin tímalína útgáfu er til eins og er.
 
-Fyrir gögn sem eru í Finance en eru ekki til í Talent, skal tengja kerfin tvö saman með **Skilgreina tengla** í Talent. Nánari upplýsingar um hvernig á að skilgreina tengla milli Talent og Finance er að finna í [Hvað er nýtt eða breytt í Dynamics 365 Talent: Core HR (31. október 2018)](whats-new-talent-october-31.md).
+Fyrir gögn sem eru í Finance en eru ekki til í Talent, skal tengja kerfin tvö saman með **Skilgreina tengla** í Talent. Nánari upplýsingar um hvernig á að skilgreina tengla milli Talent og Finance er að finna í [Hvað er nýtt eða breytt í Dynamics 365 Talent - Core HR (31. október 2018))](whats-new-talent-october-31.md).
 
 ![Varpa fjárhagsvíddum](media/MapFinancialDimensions.png)
 
@@ -69,7 +69,7 @@ Með því að nota „Ítarleg fyrirspurn“ geturðu síað og mótað uppruna
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Get ég tilgreint hvaða svæði skal senda til Finance fyrir tiltekna einingu?
 
 Hægt er að bæta við eða fjarlægja svæði úr samþættingarverkinu. Ekki öll gagnasvæði sem til eru í einingu Common Data Service verða fylltir út frá Core HR.
-Hægt er að fylla út viðbótargögn í gegnum PowerApps.
+Hægt er að fylla út viðbótargögn í gegnum Power Apps.
 
 ![Bæta við eða fjarlægja reiti í eða úr samþættingarverki](media/SpecifyFieldsIncludedInIntegration.png)
 
@@ -119,19 +119,19 @@ Rektu tímann frá framkvæmdaferil Data Integrator og leitaðu að vísinum -1 
 
 1. Sæktu vísi verksins úr Data Integrator (í þessu dæmi er hann „9“).
 
-![Sæktu vísi verks úr Data Integrator](media/CaptureTaskIndex.png)
+    ![Sæktu vísi verks úr Data Integrator](media/CaptureTaskIndex.png)
 
 2. Rektu tíma framkvæmdar fyrir verkið.
 
-![Rektu tíma framkvæmdar fyrir verk](media/CaptureTimeOfExecution.png)
+    ![Rektu tíma framkvæmdar fyrir verk](media/CaptureTimeOfExecution.png)
 
 3. Í Fjármálum skaltu bera kennsl á vísitölu - 1. Í þessu dæmi passar verkið með viðskeytið „8“ og tíma framkvæmdar með vísi „0“ við tíma framkvæmdar í skrefi 2.
 
-![Auðkenna vísi](media/IdentifyIndex.png)
+    ![Auðkenna vísi](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-talent-and-finance-i-dont-see-my-talent-data-in-finance-what-do-i-do"></a>Eftir að hafa samþætt Talent og Finance, sé ég ekki Talent-gögnin mín í Finance. Hvað geri ég?
 
-Samþættingin við Finance er ferli í tveimur skrefum. Fyrst skaltu staðfesta að Talent-gögnin séu uppfærð og tiltæk í Common Data Service. Þetta er nærri því samstilling í rauntíma og hægt er að sannprófa hana í PowerApps með því að líta á gögnin innan gagnaeininganna.
+Samþættingin við Finance er ferli í tveimur skrefum. Fyrst skaltu staðfesta að Talent-gögnin séu uppfærð og tiltæk í Common Data Service. Þetta er nærri því samstilling í rauntíma og hægt er að sannprófa hana í Power Apps með því að líta á gögnin innan gagnaeininganna.
 
 ![Gögn í Common Data Service](media/DataInCDS.png)
 
@@ -168,7 +168,7 @@ Uppfæra gagnaeiningarnar í Finance með því að fara í **Gagnastjórnun \> 
 
   - [Villumeðhöndlun og úrræðaleit Data Integrator](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [Viðbrögð við DSR-beiðnum fyrir kerfismyndaða kladda í PowerApps, Microsoft Flow og Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Viðbrögð við DSR-beiðnum fyrir kerfismyndaða kladda í Power Apps, Microsoft Power Automate og Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Stjórnun gagna:
 

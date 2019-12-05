@@ -1,5 +1,5 @@
 ---
-title: Sniðmát fyrir tölvupóst
+title: Stofna tölvupóstsniðmát í Attract
 description: Þetta umræðuefni veitir upplýsingar um sniðmátin fyrir tölvupóst sem þú getur búið til og notað í Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7174fd96e5ddc9ba5a91eb423d08afd1daa45f48
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 55c12010cfd055ee6977f50e566b70f76a2e1682
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008037"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832885"
 ---
-# <a name="email-templates"></a>Sniðmát fyrir tölvupóst
-[!include[banner](../includes/banner.md)]
+# <a name="create-email-templates-in-attract"></a>Stofna tölvupóstsniðmát í Attract
+
+[!include [banner](includes/banner.md)]
 
 Með því að nota sniðmátasafnið fyrir tölvupóst geta stjórnendur búið til samræmda þema og vörumerki fyrir öll tölvupóst sem eru send með Microsoft Dynamics 365 Talent: Attract and Offer. Stjórnendur geta einnig stýrt sniðmátum fyrir efni tölvupósts sem aðrir notendur geta notað. Ráðningarteymið getur notað þessi sniðmát í verkflæði sínu til að senda tölvupóst á skilvirkan hátt. Sumir tölvupóstar eru skilgreindir til að senda sjálfkrafa og stjórnandinn getur notað sniðmátasafnið fyrir tölvupóst til að sérsníða efni fyrir þessa tölvupósta.
 

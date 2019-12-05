@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 43f14a1cbd016335b857fdff1147740b27d5c765
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 3d23375ec7ebe9b43c2d2e3e376e26c348131bd3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653324"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812261"
 ---
 # <a name="register-consumption"></a>Skrá notkun
 
@@ -33,7 +33,7 @@ ms.locfileid: "2653324"
 
 Þegar viðhaldsverkum hefur verið lokið í verkbeiðni er næsta skref að gera notkunarskráningar og bóka færslubækurnar. Þú getur gert skráningar á eftirfarandi notkunargerðum: Tímum, vörum og kostnaði. Mismunandi notkunargerðir eru skráðar og bókaðar á síðunni **Færslubækur verkbeiðna**. Uppsetning færslubókarinnar í **Eignastjórnun** er notuð til að stofna og bóka aðskildar færslubækur fyrir tíma, vörur og kostnað í einingunni **Verkefnisstjórnun og bókhald**.
 
-Í sumum tilfellum kann að vera hægt að bæta við eða eyða spálínum í verkbeiðni. Uppsetning á líftímastöðu verkbeiðni, tengdri verkefnisgerð og stigareglum sem tengjast verkgerðinni ákvarðar hvort þú getur bætt við eða breytt færslubókarlínum. Lestu meira um líftímastöður verkbeiðna og tengd verkefnisstig í [Sameining við verkefnastjórnun og bókhald](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
+Í sumum tilfellum kann að vera hægt að bæta við eða eyða spálínum í verkbeiðni. Uppsetning á líftímastöðu verkbeiðni, tengdri verkefnisgerð og stigareglum sem tengjast verkgerðinni ákvarðar hvort þú getur bætt við eða breytt færslubókarlínum. Lestu nánar um líftímastöður verkbeiðna og tengd verkefnastig í [Spár, verkbeiðnir og verk](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
 >[!NOTE]
 >Það er mögulegt að setja upp sjálfvirka bókun færslubóka í líftímastöður verkbeiðni. Sjá [Líftímastöður verkbeiðni](../setup-for-work-orders/work-order-lifecycle-states.md) fyrir meiri upplýsingar.

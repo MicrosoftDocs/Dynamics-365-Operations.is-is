@@ -1,5 +1,5 @@
 ---
-title: Fylgjast með stöðum til að finna notendaupplýsingar og umsóknir umsækjenda
+title: Rekja uppruna umsækjenda í Attract
 description: Þessi efnisatriði veitir upplýsingar um hvernig á að fylgjast með uppruna fyrir notendaupplýsingar og umsóknir umsækjanda.
 author: hachandr
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5b368e97a716cd1ce4f668c2a97326877a2d3dff
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 8860f508eebc377042c4e101eeb08a14a737ba0c
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551888"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832661"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>Fylgjast með stöðum til að finna notendaupplýsingar og umsóknir umsækjenda
+# <a name="track-candidate-sources-in-attract"></a>Rekja uppruna umsækjenda í Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 > [!NOTE] 
 > Virkni sem getið er í þessu efnisatriði er í boði sem hluti af prufuútgáfu. Innihald og virkni geta tekið breytingum. Til að nota þennan eiginleika skal biðja stjórnanda að virkja hann með **Stjórnandastillingar** í Attract. Síðari útgáfa mun bjóða upp á rakningarskýrslur á uppruna. Frekari upplýsingar er að finna í [Fá aðgang að forskoðunareiginleikum í Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).

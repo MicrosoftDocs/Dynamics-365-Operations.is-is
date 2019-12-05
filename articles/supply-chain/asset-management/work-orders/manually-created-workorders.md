@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8a8494bdefcf11dc331be18bfe02e0df1e39d602
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 2652458a5fea9e46b8b68d3b197d2ccb1385731d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626248"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811746"
 ---
 # <a name="manually-created-work-orders"></a>Handvirkt stofnaðar verkbeiðnir
 
@@ -70,7 +70,7 @@ Athugið eftirfarandi stig:
 
 - Á listasíðunni **Allar verkbeiðnir** er hægt að bæta nokkrum eignum við verkbeiðni í smáatriðum með því að bæta við línum á flýtiflipanum **Viðhaldsverk verkbeiðna**. Á eign er aðeins hægt að velja gerðir viðhaldsverka sem eru skilgreindar á eignategundinni sem er valin á eigninni.  
 
-- Ef þú breytir þjónustustigi eigna eða mikilvægi eigna eftir að þú hefur notað eignina í verkbeiðni, er þjónustustigið eða mikilvægi á verkbeiðninnar ekki uppfært til samræmis. Fyrir frekari upplýsingar um þjónustustig og mikilvægi, sjá [Þjónustustig eigna](../setup-for-objects/object-priorities.md) og [Mikilvægi eigna](../setup-for-objects/object-criticalities.md).
+- Ef þú breytir þjónustustigi eigna eða mikilvægi eigna eftir að þú hefur notað eignina í verkbeiðni, er þjónustustigið eða mikilvægi á verkbeiðninnar ekki uppfært til samræmis. Fyrir frekari upplýsingar um þjónustustig og mikilvægi, sjá [Þjónustustig eigna](../setup-for-objects/object-priorities.md) og [Mikilvægisgerðir eigna](../setup-for-objects/object-criticalities.md).
 
 - Mikilvægi á verkbeiðni er endurútreiknað í hvert skipti sem vinnslu verkbeiðni er bætt við eða henni eytt úr verkbeiðninni.
 

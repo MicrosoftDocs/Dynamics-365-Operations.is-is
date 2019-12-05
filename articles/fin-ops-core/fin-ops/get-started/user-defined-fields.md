@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: af2066c095c675aa0003ac2cf66bebba48a1e8a5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9146921c47e89c5895a1a727de874b0ffbc93c37
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190857"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812506"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Stofna og vinna með sérstillt svæði
 
@@ -103,7 +103,7 @@ Að auki, fyrir svæði tínslulista, er hægt að endurskipuleggja gildu gildin
 
 ### <a name="exposing-custom-fields-on-data-entities"></a>Birtu sérstillt svæði í gagnaeiningum
 
-Það kann einnig að vera mikilvægt að leyfa sérstilltum svæðum að vera sýnileg á gagnaeiningum. Gagnaeiningar eru notaðar í [Opna í Office](../../dev-itpro/office-integration/office-integration.md) eiginleikanum, sem og fyrir inn- og útflutning á gögnum framvinduna.
+Það kann einnig að vera mikilvægt að leyfa sérstilltum svæðum að vera sýnileg á gagnaeiningum. Gagnaeiningar eru notaðar í [Yfirlit yfir Office-samþættingu](../../dev-itpro/office-integration/office-integration.md) eiginleikanum, sem og fyrir inn- og útflutning á gögnum framvinduna.
 
 Fylgdu þessum skrefum til að sýna sérstillt svæði á gagnaeiningu:
 

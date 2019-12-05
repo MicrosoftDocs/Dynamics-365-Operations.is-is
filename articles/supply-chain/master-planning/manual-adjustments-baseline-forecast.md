@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df9692dc168e9efb653b20c677cd6e3bb0bd8756
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 8897e0fe01e7ed5af9a8d5b99de6b9b4506554f1
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250715"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815135"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Gera handvirkar leiðréttingar á grunnlínuspánni
 
@@ -66,7 +66,7 @@ Hægt er að opna **upplýsingar eftirspurnarspár** síðu til að skoða freka
 -   Ný gildi eftirspurnarspár og upphæðir sem þeir hafa verið breytt handvirkt eftir.
 -   Áreiðanleikabil fyrir spáð gildi.
 -   Spárlíkan sem var notað til að búa til spá. Ef verið er að skoða uppsöfnuð gögn , sérðu lista yfir allar aðferðir sem voru notaðir fyrir allar uppsafnaðar tímaraðir.
--   Innri nákvæmni líkans (MAPE). Nánari upplýsingar um nákvæmni eftirspurnarspár í [eftirlit með nákvæmni spár](monitor-forecast-accuracy.md).
+-   Innri nákvæmni líkans (MAPE). Nánari upplýsingar um nákvæmni eftirspurnarspár í [Eftirlit með nákvæmni spár](monitor-forecast-accuracy.md).
 
 **Athugasemdir :**
 
@@ -78,9 +78,9 @@ Einnig er hægt að gera handvirkar leiðréttingar á spá í **upplýsingar ef
 <a name="additional-resources"></a>Frekari upplýsingar
 --------
 
-[Fylgjast með nákvæmni spár](monitor-forecast-accuracy.md)
+[Eftirlit með nákvæmni spár](monitor-forecast-accuracy.md)
 
-[Mynda tölfræðilega grunnlínuspá](generate-statistical-baseline-forecast.md)
+[Myndun tölfræðilegrar grunnlínuspár](generate-statistical-baseline-forecast.md)
 
 
 

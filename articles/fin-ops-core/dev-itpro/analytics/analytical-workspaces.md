@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 76564c440d52f7eae4faa704cf9010c7754c3751
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 4e466e6b1bbec0915b6fdb9b86d3b5cbb45364ad
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536871"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771611"
 ---
 # <a name="analytical-workspaces"></a>Greiningarvinnusvæði
 [!include[banner](../includes/banner.md)]
@@ -34,15 +34,15 @@ ms.locfileid: "2536871"
 - [Kostnaðarstjórnun Power BI efni](cost-management-content-pack.md)
 - [Skulda- og innheimtuumsjón Power BI efni](../../../finance/accounts-receivable/credit-collections-power-bi.md)
 - [Starfsmannaþróun Power BI efni](employee-development-PBI.md) 
-- [Fjármálainnsýn Power BI efni](financial-insights.md)
-- [Fjárhagsleg frammistaða Power BI efni](financial-performance-power-bi-content-pack.md)
-- [Eignastýring Power BI efni](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
+- [Fjármálainnsýn](financial-insights.md)
+- [PowerBI.com lausn fjárhagslegrar frammistöðu](financial-performance-power-bi-content-pack.md)
+- [Vinnusvæði eignastýringar](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
 - [Fræðsla Power BI efni](learning-power-bi.md)
 - [Aðferðastjóri Power BI efni](practice-manager-power-bi.md)
 - [Framleiðsluafköst Power BI efni](production-performance-power-bi.md)
 - [Eyðslugreining innkaupa Power BI efni](purchase-content-pack-for-power-bi.md) 
 - [Ráðning Power BI efni](recruiting-analysis-power-bi-content-pack.md) 
 - [Sölu- og arðsemisframmistaða Power BI efni](sales-profitability-performance-content-pack.md)
-- [Greiðslur lánardrottins Power BI efni](../../../finance/accounts-payable/Vendor-payments-workspace.md)
+- [Vinnusvæði greiðslna lánardrottna](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [Afköst vöruhúss Power BI efni](warehouse-power-bi-content.md)
 - [Mælikvarðar vinnuafls Power BI efni](workforce-analysis-power-bi-content-pack.md)

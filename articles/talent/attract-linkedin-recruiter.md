@@ -1,5 +1,5 @@
 ---
-title: Finna umsækjendur með LinkedIn Recruiter í Microsoft Dynamics 365 Talent - Attract
+title: Finna umsækjendur með LinkedIn Recruiter í Attract
 description: Notaðu LinkedIn samþættingu við Microsoft Dynamics 365 Talent - Attract til að finna umsækjendur til starfa í gegnum LinkedIn Recruiter.
 author: andreabichsel
 manager: AnnBe
@@ -19,15 +19,16 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8f2e95e74bbc8d78ed5d970f29b61150a45c6740
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: e05b902d745c26c08d1bac133991f51fd58c3e93
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551565"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833047"
 ---
-# <a name="source-candidates-with-linkedin-recruiter-in-microsoft-dynamics-365-talent---attract"></a>Finna umsækjendur með LinkedIn Recruiter í Microsoft Dynamics 365 Talent - Attract
-[!include[banner](../includes/banner.md)]
+# <a name="source-candidates-with-linkedin-recruiter-in-attract"></a>Finna umsækjendur með LinkedIn Recruiter í Attract
+
+[!include [banner](includes/banner.md)]
 
 LinkedIn er heimsins stærsta faglega netkerfið, sem veitir þér aðgang að helsta hæfileikafólki heimsins. Microsoft Dynamics 365 Talent: Attract gerir þér kleift að finna umsækjendur beint hjá LinkedIn. Þess vegna er auðveldara en nokkru sinni fyrr að finna hæfileikafólkið sem þú þarft til að ráða í opnar stöður. Eftir að þú hefur sett upp tenginguna við LinkedIn í gegnum Attract geturðu skoðað hugsanlega LinkedIn umsækendur um stöðurnar og flutt þá út í Attract með einum smelli.
 
@@ -100,12 +101,12 @@ Ef umsækjendur samþykkja að deila LinkedIn forstillingum sínum með notendum
 
 ## <a name="see-also"></a>Sjá einnig
 
-[Algengar spurningar um LinkedIn](./attract-linkedin-faq.md)
+[Algengar spurningar um samþættingu Attract við LinkedIn](./attract-linkedin-faq.md)
 
-[Setja upp samþættingu með LinkedIn](./attract-admin-linkedin.md)
+[Setja upp samþættingu með LinkedIn fyrir Microsoft Dynamics 365 Talent - Attract](./attract-admin-linkedin.md)
 
-[Stofna störf](./creating-jobs-attract.md)
+[Búa til, samþykkja og birta störf í Attract](./creating-jobs-attract.md)
 
-[Birta störf á LinkedIn úr Attract](./attract-post-jobs-to-linkedin.md)
+[Birta störf á LinkedIn úr Microsoft Dynamics 365 Talent - Attract](./attract-post-jobs-to-linkedin.md)
 
-[Úrræðalaeit samþættingar við LinkedIn](./attract-troubleshoot-linkedin.md)
+[Úrræðaleit samþættingar við LinkedIn og Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
