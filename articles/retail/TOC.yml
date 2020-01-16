@@ -46,7 +46,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/retail/toc.json
                 - name: Uppsetning skýs
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/retail/toc.json
-                - name: Kerfiskröfur fyrir uppsetningu í skýi
+                - name: Kerfiskröfur fyrir biðlaraíhluti Retail
                   href: get-started/system-requirements.md
                 - name: Uppsetning á staðnum
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/retail/toc.json
@@ -62,20 +62,14 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/retail/toc.json
             - name: Nýjungar eða breytingar
               items:
-                - name: 'Eiginleikar forútgáfu Retail, útgáfu 10.0.7'
+                - name: 'Retail, útgáfa 10.0.7'
                   href: get-started/whats-new-10-0-7.md
                 - name: 'Retail, útgáfa 10.0.6'
                   href: get-started/whats-new-10-0-6.md
-                - name: 'Retail, útgáfa 10.0.5'
-                  href: get-started/whats-new-10-0-5.md
                 - name: Nýjungar eða breytingar í fyrri útgáfum
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Finance and Operations
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/retail/toc.json
-                    - name: Forrit fyrir Finance and Operations 10.0.5 (október 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/retail/toc.json
-                    - name: Finance and Operations 10.0.4 (júlí 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/retail/toc.json
                     - name: 'Finance and Operations, Enterprise Edition 7.3'
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/retail/toc.json
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
@@ -346,7 +340,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/retail/toc.json
                 - name: Stjórna vörpunarlíkani rafrænnar skýrslugerðar í aðskilinni skilgreiningu rafrænnar skýrslugerðar
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/retail/toc.json
-                - name: Velja skilgreiningar gagnalíkans þegar snið eru búið til
+                - name: Velja skilgreiningar gagnalíkans þegar snið eru búin til
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/retail/toc.json
                 - name: Búa til skýrslur með því að setja inn efni í óunnu XML-formi
                   href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/retail/toc.json
@@ -788,10 +782,8 @@
               href: ../supply-chain/pim/product-information.md?toc=/dynamics365/retail/toc.json
             - name: Smásölustigveldi
               href: retail-hierarchies.md
-            - name: Eigindir og eigindaflokkar
+            - name: Stjórna eigindum og eigindahópum
               href: attribute-attributegroups-lifecycle.md
-            - name: Búa til og stjórna eigindum
-              href: create-manage-attributes.md
             - name: Setja upp smásöluafurðir
               href: set-up-retail-products.md
             - name: Stofna afurð
@@ -910,7 +902,7 @@
               href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/retail/toc.json
             - name: Birgðabækur
               href: ../supply-chain/inventory/inventory-journals.md?toc=/dynamics365/retail/toc.json
-            - name: Birgðatalning
+            - name: Birgðamerkjatalning
               href: ../supply-chain/inventory/inventory-tag-counting.md?toc=/dynamics365/retail/toc.json
             - name: FIFO (fyrst inn - fyrst út) með efnislegt virði og merkingu
               href: ../supply-chain/cost-management/fifo-physical-value-marking.md?toc=/dynamics365/retail/toc.json
@@ -1146,7 +1138,9 @@
               items:
                 - name: Afgreiðslukassavirkni
                   href: localizations/emea-swe-cash-registers.md
-                - name: Dæmi um Retail POS-samþættingu fyrir stjórntæki
+                - name: Dæmi um samþættingu stjórntækja fyrir Svíþjóð
+                  href: localizations/emea-swe-fi-sample.md
+                - name: Dæmi um Retail POS-samþættingu fyrir stjórntæki (eldra efni)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Retail-verk
           items:
