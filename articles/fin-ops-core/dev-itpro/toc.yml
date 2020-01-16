@@ -8,7 +8,9 @@
           href: index.md
         - name: Nýjungar eða breytingar
           items:
-            - name: Forskoðunareiginleikar í Platform update 31 (janúar 2020)
+            - name: Forskoðunareiginleikar í Platform update 32 (febrúar 2020)
+              href: get-started/whats-new-platform-update-32.md
+            - name: Platform update 31 (janúar 2020)
               href: get-started/whats-new-platform-update-31.md
             - name: Platform update 30 (nóvember 2019)
               href: ../fin-ops/get-started/whats-new-platform-update-30.md
@@ -34,6 +36,10 @@
               href: ../fin-ops/get-started/whats-new-platform-update-20.md
             - name: Platform update 15 (mars 2018)
               href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: Nýjungar eða breytingar í fyrri útgáfum
+              items:
+                - name: Nýjungar eða breytingar á heimasíðu Finance and Operations
+                  href: ../fin-ops/get-started/whats-new-changed.md
         - name: Viðskiptatilvik
           items:
             - name: Yfirlit viðskiptatilvika
@@ -410,7 +416,7 @@
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: PowerBI.com-samþætting við innanhússumhverfi
                   href: analytics/entity-store-on-prem.md
-                - name: Skilgreina gagnstæða staðgengla fyrir innanhússumhverfi
+                - name: Skilgreina staðgengla fyrir innanhússumhverfi
                   href: deployment/onprem-reverseproxy.md
                 - name: Nota uppfærslur fyrir uppsetningu á staðnum
                   href: deployment/apply-updates-on-premises.md
@@ -926,6 +932,8 @@
                   href: lifecycle-services/whats-new-lcs.md
                 - name: Þekkt vandamál
                   href: lifecycle-services/known-issues.md
+                - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Lifecycle Services (LCS)
+                  href: lifecycle-services/removed-deprecated-features.md
             - name: Notkunarleiðbeiningar Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
             - name: Áskriftaráætlun
