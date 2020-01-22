@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 072564446b74318ffc8e8e6ad4fd16f4421e7854
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772388"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853907"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>Samþætting gagna í næstum rauntíma við Common Data Service
 
@@ -59,7 +59,7 @@ Samstillt, tvíátta, nær rauntíma gagnaflæði krefst eftirfarandi útgáfa:
 Fylgdu þessum skrefum til að setja upp samþættingu á milli forritum Finance and Operations og Common Data Service.
     
 1. Upplýsingar um uppsetningu tvískiptakerfisins er að finna í [skref-fyrir-skref leiðbeiningar](https://aka.ms/dualwrite-docs) um tilkynningu forskoðunar á tvöföldum skrifum.
-2. Sæktu og settu upp lausnina úr [Finance and Operations, Common Data Service og samþættingu Customer Engagement](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096) Yammer hópur. Pakkinn inniheldur fimm lausnir:
+2. Sæktu og settu upp lausnina úr [Fin Ops og CDS/CE samþætting í gegnum tvískipt skrif](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096) Yammer-hópnum. Pakkinn inniheldur fimm lausnir:
 
     + Dynamics365Company
     + CurrencyExchangeRates

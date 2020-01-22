@@ -3,7 +3,7 @@ title: Skipuleggja altæku aðsetursbókina og aðrar aðsetursbækur
 description: Þetta efnisatriði lýsir umhugsunarefni og ákvarðanir sem þarf að taka í áætlunarferli, áður en hægt er setja upp og stilla altæka aðsetursbók og allar aðrar aðsetursbækur.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25a99284b2773e7c9d473357356c69a39f23c92d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 89c6e71e5f537f0f9309eca1025c8e74cdce6716
+ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190029"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883412"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Skipuleggja altæku aðsetursbókina og aðrar aðsetursbækur
 
@@ -35,7 +35,7 @@ ms.locfileid: "2190029"
 
 Áður en byrjað er að vinna með í altækri aðsetursbók verður að ákvarða sjálfgefin gildi fyrir hana. Þessi sjálfgildi eru síðan notaðar fyrir allar aðrar aðsetursbækur sem eru stofnaðar.
 
-**Ákvarðanir:**
+**Ákvarðanir**
 
 - Hvaða röð ætti nöfn að birtast í fyrir aðilafærslur fyrir gerðina **Einstaklingur**? Til dæmis er ein röð eftirnafn, millinafn fornafn.
 - Á eyða aðilafærslur úr aðsetursbókinni þegar hlutverk færslu er eytt? Til dæmis, ef færslu um viðskiptavin er eytt er á einnig að eyða færslu aðila?
@@ -58,11 +58,3 @@ ms.locfileid: "2190029"
 **Ákvörðun:**
 
 - Hversu margar viðbótar aðsetursbækur muntu stofna?
-
-### <a name="address-book-security"></a>Öryggi Aðsetursbókar
-
-Hægt er að stofna aðsetursbækur hvenær sem er, og einnig er hægt að stilla öryggisfæribreytur fyrir aðsetursbækurnar hvenær sem er. Ekki þarf að setja öryggisréttindi fyrir aðsetursbók, en það er ekki gert geta alla starfsmenn í fyrirtækinu þínu skoða allar færslur allra aðila sem eru í aðsetursbók. Hægt er að setja upp öryggisréttindi fyrir aðilafærslu í gegnum aðsetursbækur. Öryggisréttindi á grundvölluð á teymi. Þessi nálgun tryggir að aðeins starfsmenn sem eru úthlutaðar teymi sem hefur aðgang að aðsetursbók geta skoðað færslur aðila í þeirri aðsetursbók. Þú verður að velja hópa sem hefur aðgang að hverju aðsetursbók. Fyrir hverja aðsetursbók hægt er að setja öryggisréttindi sem heimila eða hafna aðgang fyrir tilteknum teymi. Þegar er hóp er veittur réttindi fyrir aðgang að aðsetursbók, geta allir hópmeðlimum skoða færslurnar í aðsetursbók. Þegar er hóp er ekki veittur aðgangur fyrir aðgang að aðsetursbók, geta hópmeðlimir ekki skoða færslurnar í aðsetursbók eða efni hennar.
-
-**Ákvörðun:**
-
-- Hvaða teymi ætti að hafa aðgang að hverju nýja aðsetursbók sem verður stofnað?

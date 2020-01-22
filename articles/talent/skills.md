@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: d5fe56c949975f8cd07b54308cec43f833cc9d69
-ms.sourcegitcommit: 0dd8d0510214f92936a9dd214b404c5c8103587b
+ms.openlocfilehash: 7e1e5123d2702a4d9e1056d28a38a8075f117ee3
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2419224"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898042"
 ---
 # <a name="align-workforce-skills-with-business-needs"></a>Jafna hæfni vinnuafls við viðskiptaþarfir
-
-[!include [banner](includes/banner.md)]
 
 Hægt er að rekja hæfni sem starfsmenn, umsækjendur eða tengiliðir hafa eða ættu að hafa til að uppfylla hlutverk sín á skilvirkan hátt. Einnig er hægt að tilgreina hæfni sem krafist er fyrir tiltekna vinnslu.
 
