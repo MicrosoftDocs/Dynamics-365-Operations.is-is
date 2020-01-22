@@ -3,7 +3,7 @@ title: Stjórnun smásöluverðs
 description: Þetta efnisatriði lýsir hugmyndum um stofnun og stjórnun á söluverðum í Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 081fadf0c120eba50af9e6c396fb3e492051bb3c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: d8c6f8d7d368be8ffa192f8dee6b46a753b04cad
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025219"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934772"
 ---
 # <a name="retail-sales-price-management"></a>Retail-verðstjórnun
 
@@ -221,11 +221,11 @@ Ein verðlagningarvél er notuð til að reikna smásöluverð yfir allar rásir
 
 Retail verðlagning er hönnuð til að vinna með smásölueiningar í stað eininga sem snúa ekki að smásölu. Nánar tiltekið er hún hönnuð til að setja verð eftir verslun, ekki eftir vöruhúsi.
 
-Verðlagningarvél smásölunnar styður ekki eftirfarandi verðlagningareiginleika:
+Verðlagningarvél smásölunnar **styður ekki** eftirfarandi verðlagningareiginleika:
 
-- Setja verð með því að nota geymsluvíddir svæðis og vöruhúss
-- Eigindatengd verðlagning
-- Farið í gegnum afslátt lánardrottins
+- Það er ekki stutt að setja verð eftir geymsluvídd vefsvæða eða vefsvæðis og vörugeymslu. Ef þú tilgreinir aðeins vídd vefsvæðis á viðskiptasamningunum, þá mun smásöluverðlagning hunsa vefinn og beita viðskiptasamningnum á allar síður. Ef þú tilgreinir bæði svæði og vöruhús, þá er hegðunin óskilgreind/óprófuð vegna þess að búast má við að smásalar noti vöruhópana til að stjórna verði fyrir hverja verslun/vöruhús.
+- Eigindabyggð verðlagning ekki studd.
+- Gegnumferð lánardrottnaafsláttar er ekki studd.
 
 Að auki **aðeins** verðlagningarvél smásölu styður eftirfarandi verðlagningareiginleika:
 

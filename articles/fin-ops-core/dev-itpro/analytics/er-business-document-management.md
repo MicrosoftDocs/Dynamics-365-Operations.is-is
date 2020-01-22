@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0a2fa6a7f6efef05862a3727a80122c22d591487
-ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
+ms.openlocfilehash: 3aac66cc39d854cabdb3d29bde029d93683e2ef7
+ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "2824521"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2933909"
 ---
 # <a name="business-document-management-overview"></a>Yfirlit yfir stjórnun viðskiptaskjala
 
-Fyrirtækjanotendur nota [Yfirlit rafrænnar skýrslugerðar (ER)](general-electronic-reporting.md) til að skilgreina snið fyrir skjöl á útleið í samræmi við lagaskilyrði mismunandi landa/svæða. Notendur geta einnig skilgreint gagnaflæðið til að tilgreina hvaða forritsgögn eru sett í skjöl sem eru búin til. ER-ramminn býr til skjöl á útleið í Microsoft Office-sniðum (Excel-vinnubækur eða Word-skjöl) með því að nota fyrirframskilgreind sniðmát. Sniðmátin eru fyllt út með tilskildum gögnum í samræmi við stillanlegt gagnaflæði meðan nauðsynleg skjöl eru búin til. Hægt er að birta hvert skilgreint snið sem hluta af ER lausn til að búa til sérstök skjöl á útleið. Þetta er táknað með ER sniði sem getur innihaldið sniðmát sem þú getur notað til að búa til mismunandi skjöl á útleið. Fyrirtækjanotendur geta notað þennan ramma til að stjórna nauðsynlegum viðskiptaskjölum.
+Fyrirtækjanotendur nota ramma [Rafrænnar skýrslugerðar (ER)](general-electronic-reporting.md) til að skilgreina snið fyrir skjöl á útleið í samræmi við lagaskilyrði mismunandi landa/svæða. Notendur geta einnig skilgreint gagnaflæðið til að tilgreina hvaða forritsgögn eru sett í skjöl sem eru búin til. ER-ramminn býr til skjöl á útleið í Microsoft Office-sniðum (Excel-vinnubækur eða Word-skjöl) með því að nota fyrirframskilgreind sniðmát. Sniðmátin eru fyllt út með tilskildum gögnum í samræmi við stillanlegt gagnaflæði meðan nauðsynleg skjöl eru búin til. Hægt er að birta hvert skilgreint snið sem hluta af ER lausn til að búa til sérstök skjöl á útleið. Þetta er táknað með ER sniði sem getur innihaldið sniðmát sem þú getur notað til að búa til mismunandi skjöl á útleið. Fyrirtækjanotendur geta notað þennan ramma til að stjórna nauðsynlegum viðskiptaskjölum.
 
 **Stjórnun viðskiptaskjala** er byggt ofan á ER ramma og gerir fyrirtækjanotendum kleift að breyta sniðmátum viðskiptaskjala með því að nota Microsoft Office 365 þjónustu eða viðeigandi Microsoft Office skjáborðsforrit. Breytingar á skjölunum gætu falist í því að breyta hönnun viðskiptaskjala og bæta við staðgenglum fyrir viðbótargögn án breytinga á frumkóða og nýjum uppsetningum. Engin vitneskja um ramma ER er nauðsynleg til að uppfæra sniðmát viðskiptaskjala.
 
@@ -59,7 +59,7 @@ Eftirfarandi skýrslur, með Excel-sniðmátum, verða tiltækar með útgáfu o
 
 Fleiri skýrslur verða tiltækar. Sérstakar tilkynningar um viðbótarskýrslur verða sendar sérstaklega. 
 
-Heildarlista yfir allar skýrslurnar sem fyrirhugaðar eru vegna útgáfunnar í október 2019 er að finna í [Stillanleg skýrsluviðskiptaskjöl í Word og Excel](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Til að fá frekari upplýsingar um þennan eiginleika skaltu ljúka dæminu í þessu efni.
+Heildarlista yfir allar skýrslurnar sem fyrirhugaðar eru vegna útgáfunnar í október 2019 er að finna í [Stillanleg skýrsluviðskiptaskjöl í Word og Excel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Til að fá frekari upplýsingar um þennan eiginleika skaltu ljúka dæminu í þessu efni.
 
 ## <a name="configure-er-parameters"></a>Skilgreina færibreytur Rafræn skýrslugerðar
 
@@ -274,7 +274,7 @@ Valkosturinn **Breyta sniðmáti** er í boði fyrir valið sniðmát. Þessi va
 
 ![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM_overview_new_template3.png)
 
-Valkosturinn **Nýtt skjal** er alltaf í boði fyrir sniðmát með skilgreiningu ER-sniðs sem er veitt af annarri veitu (Microsoft í þessu tilfelli). Þegar þú smellir **Nýtt skjal** sérðu öll sniðmát í eigu núverandi og annarra veitenda. Eftir að þú hefur valið sniðmátið verður það opnað fyrir breytingar. Síðan verður breytt sniðmátið geymt í nýrri skilgreiningu á ER-sniði sem er sjálfkrafa mynduð.
+Valkosturinn **Nýtt skjal** er alltaf í boði fyrir sniðmát með skilgreiningu ER-sniðs sem er veitt af annarri veitu (Microsoft í þessu tilfelli). Þegar þú smellir á **Nýtt skjal** sérðu öll sniðmát í eigu núverandi og annarra veitenda. Eftir að þú hefur valið sniðmátið verður það opnað fyrir breytingar. Síðan verður breytt sniðmátið geymt í nýrri skilgreiningu á ER-sniði sem er sjálfkrafa mynduð.
 
 ### <a name="start-editing-a-template"></a>Byrja á að breyta sniðmáti
 

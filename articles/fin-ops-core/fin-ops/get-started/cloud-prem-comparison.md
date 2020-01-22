@@ -3,7 +3,7 @@ title: Samanburður á skýi og eiginleikum á staðnum
 description: Efnisatriðið sýnir hvaða eiginleikar eru studdir í skýi og staðbundið.
 author: sericks007
 manager: AnnBe
-ms.date: 10/11/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 8fa5ff0de4e97d5dc178581f721f3a6ea72fc974
-ms.sourcegitcommit: 70c6257bd6833de3e8de34d9a7561088194e59cc
+ms.openlocfilehash: 7837fbaaffdbd61a1adce1698800017bf4f6a018
+ms.sourcegitcommit: 282552609fdb82ec4463f801023b4bc01bc151d5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "2573931"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935388"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Samanburður á skýi og eiginleikum á staðnum
 
@@ -48,7 +48,7 @@ Upplýsingar um [þróun og stjórnunaraðgerðir](cloud-prem-comparison.md#deve
 | Gagnastjórnun og samþætting      |                                                                                           | Já       | Já             |
 |                                      | Skilgreiningastýrð viðbót                                                            | Já       | Númer              |
 |                                      | Flytja út gögn í eigin gagnavöruhús                                                    | Já       | Já             |
-|                                      | Virkja útflutning á stigvaxandi uppfærslum á gagnaeiningu                                 | Já       | Númer              |
+|                                      | Virkja útflutning á stigvaxandi uppfærslum á gagnaeiningu                                 | Já       | Já              |
 |                                      | Gagnasamþættingar                                                                         | Já       | Já             |
 | Skjalastjórnun                  |                                                                                           | Já       | Já             |
 | Fjármálastjórnun                 |                                                                                           | Já       | Já             |
@@ -148,7 +148,7 @@ Upplýsingar um [þróun og stjórnunaraðgerðir](cloud-prem-comparison.md#deve
 
 ## <a name="dynamics-365-retail"></a>Dynamics 365 Retail 
 
-Til að sjá lista yfir smásölueiginleika sem eru tiltækir í uppsetningu á staðnum skal skoða [Smásölueiginleikar sem eru í boði í uppsetningu á staðnum](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/PeterRFriis-patch-1/articles/retail/retail-onprem.md).
+Til að sjá lista yfir smásölueiginleika sem eru tiltækir í uppsetningu á staðnum skal skoða [Smásölueiginleikar sem eru í boði í uppsetningu á staðnum](../../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-talent"></a>Dynamics 365 Talent 
 

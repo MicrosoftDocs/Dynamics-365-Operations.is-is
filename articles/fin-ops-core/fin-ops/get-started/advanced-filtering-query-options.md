@@ -3,7 +3,7 @@ title: Ítarleg sía og málskipan fyrirspurna
 description: Þessi grein lýsir síunar- og fyrirspurnarmöguleikum sem eru tiltækar þegar þú notar svargluggann fyrir sía/raða ítarlega eða samsvörun virknitáknið á síusvæðinu eða síur fyrir dálkhaus hnitanets.
 author: jasongre
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9e57cac740a26c6c5b451c92d856e533c6db33e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c5a96921436311440ba60c3fa31135457cf9f291
+ms.sourcegitcommit: 8585de8acf579bcc033671ef270fa9d92230121b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180830"
+ms.lasthandoff: 01/02/2020
+ms.locfileid: "2931289"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Ítarleg sía og málskipan fyrirspurna
 
@@ -114,6 +114,12 @@ ms.locfileid: "2180830"
 <td>Samsvarar gildunum sem eru aðskilin með kommum.</td>
 <td>Færa inn öll þín skilyrði, og aðskiljið þau með kommu.</td>
 <td><strong>A, D, F, G</strong> finnur nákvæmlega &quot;A&quot;, &quot;D&quot;, &quot;F&quot;, og &quot;G&quot;. <strong>10, 20, 30, 100</strong> finnur nákvæmlega &quot;10, 20, 30, 100&quot;.</td>
+</tr>
+<tr>
+<td>"" (tvær tvöföldar tilvitnanir)</td>
+<td>Samsvarar auðu gildi</td>
+<td>Sláðu inn tvær tvöfaldar tilvitnanir í röð til að sía fyrir auð gildi í þeim reit.</td>
+<td>Tvær tvöföldar tilvitnanir í röð (<strong>""</strong>) finna línur án gildis fyrir núverandi dálk.</td>
 </tr>
 <tr>
 <td>(<span class="code">Sql-strengur</span>) (Sql-strengur milli sviga)</td>

@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a095fe97b05898403b501763204a462ee8dcc12a
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 2371d86165390503312c2848842acf4745a8ed7a
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814629"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898249"
 ---
-# <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-talent---onboard"></a>Stofna og senda nýliðakynningu með notkun á Dynamics 365 Talent - Onboard
+# <a name="create-and-send-an-onboarding-guide"></a>Búa til og senda nýliðakynningu
 
 [!include [banner](includes/banner.md)]
 
@@ -42,7 +42,7 @@ Microsoft Dynamics 365 Talent: Onboard gerir þér kleift að búa til leiðbein
 
 5. Í glugganum **Búa til kynningu**, undir **Hver er nýliðinn?**, slærðu inn nafn eða netfang nýliðans. Ef nýliðinn er ekki kominn inn í kerfið skaltu velja **Bæta við núna** og slá inn upplýsingar starfsmanns.
 
-    ![[Færðu inn upplýsingar um þjálfunarleiðbeiningar](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
+    ![[Innsláttur upplýsinga fyrir þjálfunarleiðbeiningarnar](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
 6. Undir **Hvenær byrja þeir** velurðu upphafsdagsetningu.
 7. Ef þjálfunarleiðbeiningarnar skulu sendar sjálfkrafa til nýliðans á tilteknum degi skaltu vera viss um að kveikt sé á valkostinum **Áætla sjálfvirkan sendingardag** og veldu síðan sjálfvirkan sendingardag. Til að senda handbókina strax skaltu slökkva á valkostinum **Áætla sjálfvirkan sendingardag**.
@@ -92,7 +92,7 @@ Onboard gerir þér kleift að senda þjálfunarleiðbeiningar á margra nýlið
 1. Á vinstri valmyndinni velurðu **Leiðbeiningar** og veldu síðan hnappinn **Bæta við** (plúsmerki \[**+**\]).
 2. Í glugganum **Búa til kynningu**, undir **Hver er nýliðinn?**, slærðu inn nafn eða netfang nýliðans. Ef nýliðinn er ekki kominn inn í kerfið skaltu velja **Bæta við núna** og slá inn upplýsingar starfsmanns.
 
-    ![[Færðu inn upplýsingar um þjálfunarleiðbeiningar](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
+    ![[Innsláttur upplýsinga fyrir þjálfunarleiðbeiningarnar](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
 3. Undir **Hvenær byrja þeir** velurðu upphafsdagsetningu.
 4. Ef þjálfunarleiðbeiningarnar skulu sendar sjálfkrafa til nýliðans á tilteknum degi skaltu vera viss um að kveikt sé á valkostinum **Áætla sjálfvirkan sendingardag** og veldu síðan sjálfvirkan sendingardag. Til að senda handbókina strax skaltu slökkva á valkostinum **Áætla sjálfvirkan sendingardag**.

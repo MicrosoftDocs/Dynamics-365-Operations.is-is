@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: abe921b8658322bcf77aeea8fa05843e539f97f8
+ms.sourcegitcommit: 523d22f31010339b4ff5b4fbe0a75aa909843ba6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813363"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902433"
 ---
 # <a name="purchase-agreements"></a>Innkaupasamningar
 
@@ -36,7 +36,14 @@ Innkaupasamningurinn getur átt við tiltekið magn af afurð, ákveðna gjaldmi
 
 Á **innkaupasamnings** síðunni er hægt að stofna, beita og fylgja eftir innkaupasamningum sem eru til á milli fyrirtækisins þíns og lánardrottnanna. Þegar búið er að stofna innkaupasamning er hægt að panta beitn af því. Sérhver innkaupasamningur hefur gildistíma sem er skilgreint af þeim aðila sem býr til innkaupasamninginn. Afhendingardagur innkaupa verður að vera innan gildisdagsetninga gildistímans.  
 
-Þegar búið er að stofna innkaupasamning þarf að virkja hann áður en hann tekur gildi. Til að virkja innkaupasamning; Stilla valkost **Merkja samning sem gildan** á **Já**.
+Þegar búið er að stofna innkaupasamning þarf að virkja hann áður en hann tekur gildi. Til að virkja innkaupasamning; Stilla valkost **Merkja samning sem gildan** á **Já**. 
+
+Til að koma í veg fyrir að innkaupasamningur þinn sé notaður og staðfestur skaltu merkja stöðu samningsins sem **Lokað**. Þú getur samt uppfært stöðuna í **Virkt** hvenær sem er eftir þessi breyting er gerð.
+
+## <a name="responsible-workers-on-purchase-agreements"></a>Ábyrgir starfsmenn vegna innkaupasamninga
+
+Þú getur borið kennsl á aðalábyrgðan starfskraft og annan ábyrgðan starfskraft í flokkun innkaupasamningsins. Þessi gildi efast með innkaupasamningi sem af því leiðir. Þú þarft ekki að bæta ábyrgum starfskröftum við innkaupasamninginn og þeim er hægt að breyta beint hverju sinni í innkaupasamningnum sjálfum. Þú getur ekki tilgreint annan ábyrgðan starfskraft án aðalábyrgs starfskrafts, jafnvel þó að þú sért ekki með annan ábyrgðan starfskraft. Þú getur ekki tilgreint sama starfskraft sem bæði aðal- og annan ábyrgan starfskraft. 
+
 
 ## <a name="commitment-types"></a>Ráðstöfunargerðir
 Hver lína í innkaupasamningi er skuldbinding til að kaupa eitthvað. Þú getur notað línur frá mörgum innkaupapöntununum til að uppfylla skuldbindingar. Til eru fjórar tegundir skuldbindinga:

@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 701ce0d710c20deb793534581c276edf02426a4b
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 380f72f564d800d3f5b2e9f8fd3a5f8e8c9e81d5
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833162"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898542"
 ---
-# <a name="choose-a-version-of-attract"></a>Veldu útgáfu af Attract
+# <a name="choose-a-version-of-attract"></a>Velja útgáfu af Attract
 
-[[!include [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Útgáfan af Microsoft Dynamics 365 Talent: Attract sem hentar þér fer eftir stærð og þörfum fyrirtækisins þíns. Grunnútgáfan af Attract veitir undirflokk af virkni sem miðast við smærri hópa og fyrirtæki þar sem ráðningarstjórinn er helsti notandinn. Þú getur byrjað að nota grunnútgáfuna af Attract með einu eða fleiri leyfum.
 

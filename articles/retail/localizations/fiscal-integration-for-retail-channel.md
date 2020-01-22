@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 03853e1f80bd32c1dfe5cfcbcd77e79168f26249
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7e32f408e5c68a3422906347981c6fc4a4579daf
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812308"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915248"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Yfirlit yfir fjárhagssamþættingu fyrir smásölurásir
 
@@ -138,9 +138,14 @@ Eftirfarandi sýnishorn fjárhagssamþættingar eru eins og er í boði í Retai
 - [Dæmi um samþættingu strimlaprentara fyrir Pólland](emea-pol-fpi-sample.md)
 - [Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Austurríki](emea-aut-fi-sample.md)
 - [Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Tékkland](emea-cze-fi-sample.md)
+- [Dæmi um samþættingu stjórntækis fyrir Svíþjóð](./emea-swe-fi-sample.md)
 
 Eftirfarandi virkni fjárhagssamþættingar er einnig í boði í Retail SDK en hún nýtir sér ekki ramma fjárhagssamþættingar eins og er. Flutningur á þessari virkni í ramma fjárhagssamþættingar er á dagskrá í seinni útgáfum.
 
-- [Afgreiðslukassavirkni fyrir Frakkland](emea-fra-cash-registers.md)
-- [Afgreiðslukassavirkni fyrir Noreg](emea-nor-cash-registers.md)
-- [Dæmi um Retail POS samþættingu fyrir stjórntæki fyrir Svíþjóð](./retail-sdk-control-unit-sample.md)
+
+- [Stafræn undirskrift fyrir Frakkland](emea-fra-cash-registers.md)
+- [Stafræn undirskrift fyrir Noreg](emea-nor-cash-registers.md)
+
+Eftirfarandi eldri virkni fjárhagssamþættingar sem er fáanleg í Retail SDK notar ekki ramma fjárhagssamþættingar og verður úrelt í síðari uppfærslum:
+
+- [Dæmi um samþættingu stjórntækja fyrir Svíþjóð (eldra)](./retail-sdk-control-unit-sample.md)

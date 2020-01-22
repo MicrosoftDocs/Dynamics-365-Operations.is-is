@@ -1,6 +1,6 @@
 ---
-title: Skipta á milli hönnunar lánardrottna
-description: ''
+title: Skipta á milli lánardrottnahönnunar
+description: Þetta efni lýsir hvernig skuli skipta á milli samþættingar lánardrottnagagna milli forrita Finance and Operations og Common Data Service.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 09/20/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 4e97ff0b0e6195b5e3703e15a0bb0de7644ef8d1
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 204d788e72e79e7acf744d24cbeacb0f9b47da7d
+ms.sourcegitcommit: 3306e451f04df01c51d8d332306b135d8ae1e254
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772365"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902726"
 ---
-# <a name="switch-between-vendor-designs"></a>Skipta á milli hönnunar lánardrottna
+# <a name="switch-between-vendor-designs"></a>Skipta á milli lánardrottnahönnunar
 
 [!include [banner](../includes/banner.md)]
 
@@ -34,11 +34,11 @@ ms.locfileid: "2772365"
 
 Ef þú notar önnur forrit Dynamics 365 við stjórnun lánardrottins og þú vilt einangra upplýsingar lánardrottins frá viðskiptavinum, notarðu þessa grunn lánardrottinshönnun.  
 
-![Grunnlánardrottnaflæði](media/dual-write-switch-1.png)
+![Grunnlánardrottnaflæði](media/dual-write-vendor-data-flow.png)
  
 Ef þú notar önnur forrit Dynamics 365 við stjórnun lánardrottins og þú vilt halda áfram að nota eininguna **Lykill** til að geyma upplýsingar lánardrottins geturðu notað þessa útvíkkuðu lánardrottinshönnun. Í þessari hönnun eru stækkaðar upplýsingar um lánardrottinn, eins og staða lánardrottins í bið og lánardrottinssniðs vistaðar í einingunni **lánardrottnar** í Common Data Service. 
 
-![Útvíkkað lánardrottnaflæði](media/dual-write-switch-2.png)
+![Útvíkkað lánardrottnaflæði](media/dual-write-vendor-detail.jpg)
  
 Fylgdu skrefunum hér að neðan til að nota stækkaða lánardrottnahönnun: 
  
@@ -60,5 +60,5 @@ Fylgdu skrefunum hér að neðan til að nota stækkaða lánardrottnahönnun:
     4. Þú getur stillt verkflæði sem rauntíma eða bakgrunnsverkflæði út frá þörfum þínum. 
         > [!div class="mx-imgBorder"]
         > ![Umbreyta í bakgrunnsverkflæði](media/dual-write-switch-8.png)
-    5. Virkjaðu verkflæðin sem þú stofnaðir í einingunum **Lykill** og **Lánardrottinn** til að hefja notkun á Customer Engagement-einingunni **Lykill** til að geyma upplýsingar lánardrottins. 
+    5. Virkjaðu verkflæðin sem þú stofnaðir í einingunum **Lykill** og **Lánardrottinn** til að hefja notkun á einingunni **Lykill** til að geyma upplýsingar lánardrottins. 
  

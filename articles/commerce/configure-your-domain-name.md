@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7a988f533757cc3f8555fcf4fb724a22a5b014f8
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 8f73c034563fb1cc6b05091b4c47e2a788d1a8b6
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770459"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945537"
 ---
 # <a name="configure-your-domain-name"></a>Skilgreina lénsheiti
 
@@ -43,16 +43,16 @@ Til að tengja ný lén við netverslunarumhverfi þitt eftir frumstillingu á n
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit netverslunar](online-store-overview.md)
+[Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
 
 [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
 
-[Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
-
 [Tengja netsvæði við rás](associate-site-online-store.md)
+
+[Stjórna robots.txt-skrám](manage-robots-txt-files.md)
+
+[Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)
 
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
 
 [Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)
-
-[Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)

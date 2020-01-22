@@ -3,7 +3,7 @@ title: Uppsetning eftirspurnarspár
 description: Þetta efnisatriði lýsir uppsetningarverk sem þarf að framkvæma til að undirbúa eftirspurnarspár.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 09/16/2017
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f56157be8cc61486801fc4c01bb191432dd9a541
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813800"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935492"
 ---
 # <a name="demand-forecasting-setup"></a>Uppsetning eftirspurnarspár
 
@@ -63,7 +63,7 @@ Hægt er að bæta spávíddir við lista yfir víddir sem eru notaðar fyrir ef
 
 Ekki allar vörur haga sér á saman hátt úr sjónarhorn eftirspurnarspár. Hægt er að flokka líkar vörur í einni vöruúthlutunarlykill og hægt er að stilla færibreytur eins og færslugerðir og stillingar spáraðferðar á hvern úthlutunarlykil vöru. Smellt er á **úthlutunarlykla vöru** í vinstri rúðu í **færibreytur eftirspurnarspár** síðu. 
 
-Til að búa til spá notar Supply Chain Management Machine Learning-vefþjónustu. Til að tengja við þjónustuna, verður að gefa upp eftirfarandi upplýsingar ef innskráningu er í Microsoft Azure Machine Learning Studio:
+Til að búa til spá notar Supply Chain Management Machine Learning-vefþjónustu. Til að tengja við þjónustuna, verður að gefa upp eftirfarandi upplýsingar ef innskráningu er í Microsoft Azure Machine Learning Studio (hefðbundið):
 
 -   API-lykill vefþjónustu (lykill forritunarviðmóts)
 -   vefslóð endapunkts fyrir vefþjónustu
@@ -71,7 +71,7 @@ Til að búa til spá notar Supply Chain Management Machine Learning-vefþjónus
 -   Lykill fyrir Azure-geymslureikning
 
 > [!NOTE]
-> Heiti og lykill fyrir Azure-geymslureikning eru nauðsynleg aðeisn ef þú notar sérsniðinn geymslureikning. Ef verslunarsvæðis á útgáfu er notuð, verður þú að hafa sérsniðinn geymslureikning í Azure, þannig að Machine Learning-þjónustan hafi aðgang að söguleg gögn. 
+> Heiti og lykill fyrir Azure-geymslureikning eru nauðsynleg aðeisn ef þú notar sérsniðinn geymslureikning. Ef verslunarsvæðis á útgáfu er notuð, verður þú að hafa sérsniðinn geymslureikning í Azure, þannig að Machine Learning hafi aðgang að söguleg gögn. 
 
 Til að stofna spár um eftirspurn, er hægt að virkja eigin þjónustu með því að nota Machine Learning Studio eða Supply Chain Management Eftirspurnarspártilraunir. Leiðbeiningar fyrir virkjun eftirspurnarspártilrauna Finance and Operations sem vefþjónustu eru tiltækar í Supply Chain Management. Á **Færibreytur eftirspurnarspár** síða, smellt er á **Azure Machine Learning** flipa.
 

@@ -3,7 +3,7 @@ title: Yfirlit yfir líftímastöðu afurðar
 description: Lífferilsstaða afurðar skráir lífferilsstöðu útgefinnar vöru eða vöruafbrigðis.
 author: cvocph
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: b5b0ceb1926de6efda239fdbc69fb36a9d4b28e0
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813547"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934841"
 ---
 # <a name="product-lifecycle-state-overview"></a>Yfirlit yfir líftímastöðu afurðar
 
@@ -74,11 +74,7 @@ Nánari upplýsingar um hvernig á að nota lífferilsstöðu afurðar til að �
 
 ## <a name="default-migration-import-and-export"></a>Sjálfgefinn flutningur, innflutningur, og útflutningur 
 
-Lífferilsstaða afurðar eru ekki studd af gagnaeiningum, og lífferilsstaða afurðar er ekki hægt að stilla í breytilega stöðu gegnum gagnaeiningar útgefnu afurðarinnar.
-
--  Um flutning frá fyrri útgáfum verður lífferilsstaða allra afurða og afurðaafbrigða auð.  
--  Þegar flutt eru inn útgefnar afurðir gegnum gagnaeiningu, verður sjálfgefið lífferilsstöðu afurðar beitt við stofnun.  
--  Þegar flutt eru inn útgefnar afurðaafbrigði gegnum gagnaeiningu, verður lífferilsstaða afurðar útgefins afurðasniðmáts flutt inn.   
+Líftímastöður afurðar eru ekki studdar af gagnaeiningum og líftímastöðu er hægt að stilla í breytilega stöðu gegnum annaðhvort gagnaeiningu útgefinnar afurðar eða gagnaeiningu útgefins afbrigðis.
 
 ## <a name="find-obsolete-products-and-products-variants"></a>Finna úreltar afurðir og afurðarafbrigði 
 

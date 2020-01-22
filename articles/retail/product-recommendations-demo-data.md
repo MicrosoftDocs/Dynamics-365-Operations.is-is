@@ -3,7 +3,7 @@ title: Upplýsingar um kynningu á kynningu á afurðarásum
 description: Þetta skjal miðar að því að veita leiðbeiningar um hvernig skuldsetja megi ráðleggingar um omni-rás vöru í Tier-1 umhverfi með einum reit með því að nota fyrirfram byggðar, sérhannaðar kynningargögn.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 12/1/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 81af4c1bb7828c9b346a3ef514d8657e853dcefb
-ms.sourcegitcommit: c526cfd1f823df1ff33ded95e599a72f0a15cc5a
+ms.openlocfilehash: 31aa5dbd2fa814fd572024a4ae36b9d9b46a2fb0
+ms.sourcegitcommit: 398c0652acde12c953de007d06055456d6e0a516
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2226047"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2872327"
 ---
 # <a name="omni-channel-product-recommendations-demo-data"></a>Upplýsingar um kynningu á kynningu á afurðarásum
 
 Þetta skjal miðar að því að veita leiðbeiningar um hvernig skuldsetja megi ráðleggingar um omni-rás vöru í Tier-1 umhverfi með einum reit með því að nota fyrirfram byggðar, sérhannaðar kynningargögn.
 
-Ráðleggingar með Omni-rásum bjóða upp á safn ritstjóralista eða forritaðs myndaðs lista yfir vörur. Hægt er að nota þessa lista í nokkrum tilfellum, allt eftir viðskiptaþörf. Nánari upplýsingar um ráðleggingarlista vöru er að finna í [yfirliti yfir ráðleggingar um vörur í POS-skjölum.](product-recommendaitons-overview.md)
+Ráðleggingar með Omni-rásum bjóða upp á safn ritstjóralista eða forritaðs myndaðs lista yfir vörur. Hægt er að nota þessa lista í nokkrum tilfellum, allt eftir viðskiptaþörf. Nánari upplýsingar um ráðleggingarlista vöru er að finna í [yfirliti yfir ráðleggingar um vörur í POS-skjölum.](../commerce/product-recommendations.md)
 
 Fyrir Tier-2 og hærra Dynamics Environments eru ráðleggingar sjálfkrafa reiknaðar út frá gögnum viðskiptavina.
 Með því að nota kynningargögn um vörur er ekki gert ráð fyrir neinum lausnum sem hafa þegar verið veittar í umhverfinu og kostnaði sem tengist notkun þeirra.
@@ -68,6 +68,6 @@ Viðbyggingin hefur að geyma gagnapakka sem kallast RecoMockDataset.csv sem ger
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[yfirlit yfir ráðleggingar um afurðir](product-recommendations-overview.md)
+[yfirlit yfir ráðleggingar um afurðir](../commerce/product-recommendations.md)
 
-[Umhverfisskipulagning](environment-planning.md)
+[Umhverfisskipulagning](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)

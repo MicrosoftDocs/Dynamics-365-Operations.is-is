@@ -3,7 +3,7 @@ title: Árangursstjórnun
 description: Frammistöðustjórnun ferli leyfir starfsmenn skrá og ræða um frammistöðu með yfirmaður. Í staðin, yfirmaður getur gefið athugasemdir og leiðbeiningar til starfsmaður.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05d8986d69abba4dbba7c30aad5a7e4626ceb5b1
-ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
+ms.openlocfilehash: 18e9606e62bc2739da99b75ab56161bd7cc7eafe
+ms.sourcegitcommit: 724b72412861d342c138a7935319da700b63c234
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1590506"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2921151"
 ---
 # <a name="performance-management"></a>Árangursstjórnun
-
-[!include [banner](includes/banner.md)]
 
 Frammistöðustjórnun ferli leyfir starfsmenn skrá og ræða um frammistöðu með yfirmaður. Í staðin, yfirmaður getur gefið athugasemdir og leiðbeiningar til starfsmaður.  
 
@@ -91,6 +89,8 @@ Fyrir ítarlegri yfirferð er hægt að nota virk og lokið markmið og slá inn
 Einnig er hægt að nota **Hæfni** hlutann til að ræða, endurskoða og gefa hæfni starfmanns einkunn. Hægt er að bæta eins mörgum hæfni og þú þarft, og þú getur valið hvort hæfni þarf að meta. 
 
 Þú getur stofna ný umsögn byggð á sniðmátum sem þú hefur stofnað. Til dæmis getur þú haft sniðmát fyrir tveggja manna viðtöl, þróunaráætlanir eða reglubundin endurskoðun. Velja má sniðmát þegar stofna á nýja umsögn.
+
+Til að prenta umsagnir skaltu velja **Prenta umsögn**. Ef þú sérð ekki hnappinn á síðunni **Umsögn** skaltu athuga hvort þú hafir virkjað eiginleikann á vinnusvæðinu **Stjórnun eiginleika**. Nánari upplýsingar um stjórnun eiginleika er að finna í [Eiginleikastjórnunaryfirlit](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 ## <a name="components-you-can-include-in-performance-reviews"></a>Íhlutir sem hægt er að taka með í frammistöðurýni
 Hægt er að taka með fjölda gerða upplýsinga í frammistöðurýni. Þeir innihalda upplýsingar um endurskoðun, mælingar, aðgerðir, einkunn, útskráningar og viðengi.

@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 35cceb97442b05abc243cf7341e0ce7a0d09c613
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009423"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915202"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Einfaldaður innsláttur og skoðun starfsmanns
 
-[!include [banner](includes/banner.md)]
-
 Dynamics 365 Talent leyfir skilvirka færslu starfsmanna- og atvinnugagna. Þú getur fljótt uppfært upplýsingar um vinnusögu fyrir starfsmenn og verktaka í fortíðinni, virkir og í framtíðinni.
 
-Þú getur einnig gert einfaldaðri leiðsöguupplifun kleift að finna fljótt tengdar upplýsingar og gera allar nauðsynlegar breytingar. Þessi aðgerð er nú fáanleg í sandkassaumhverfi. Til að kveikja á þessum eiginleika skaltu fara á **Kerfisstjórnun > Tenglar > Uppsetning > Kerfisfæribreytur > Forskoðunaraðgerðir**. Veldu **Bætt skjámynd starfskrafta og yfirlit**. Þetta mun virkja þessar breytingar fyrir alla notendur. Þú getur slökkt á þessum möguleika hvenær sem er.
+Þú getur einnig gert einfaldaðri leiðsöguupplifun kleift að finna fljótt tengdar upplýsingar og gera allar nauðsynlegar breytingar. Þessi aðgerð er nú fáanleg í öllu sandkassaumhverfi. Til að kveikja á þessum eiginleika flettirðu að **Kerfisstjórnun > Stjórnun eiginleika > Nýtt > Einfaldaður innsláttur starfsmanns > Virkja**. Þetta mun virkja þessar breytingar fyrir alla notendur. Þú getur slökkt á þessum möguleika hvenær sem er.
 
 ## <a name="view-options"></a>Skoða valkosti
 

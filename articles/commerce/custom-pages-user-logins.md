@@ -3,7 +3,7 @@ title: Setja upp sérsniðnar síður fyrir innskráningu notenda
 description: Þetta efni lýsir því hvernig á að smíða sérsniðnar síður í Microsoft Dynamics 365 Commerce sem sjá um sérsniðnar innskráningar fyrir notendur Azure Active Directory (Azure AD) leigjendur fyrirtækja til neytenda (B2C).
 author: brianshook
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 644d937ddd3c219ae869f22d977d2846dffc20e1
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 20bfacbc2374003814e12e7737644d118d404cc0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697567"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945560"
 ---
 # <a name="set-up-custom-pages-for-user-logins"></a>Setja upp sérsniðnar síður fyrir innskráningu notenda
 
@@ -136,11 +136,11 @@ Til að uppfæra regluna „Skráning og innskráning“ með sérsniðnum síð
 1. Í reglunni **Skráning og innskráning** sem þú stilltir áður skaltu velja í leiðsöguskjánum **Síðuútlit**.
 1. Veldu útlitið **Samræmd skráningar- eða innskráningarsíða**.
 1. Stilltu valkostinn **Nota sérsniðið síðuefni** á **Já**.
-1. Í reitinn **Sérsniðin URI** slærðu inn alla innskráningarslóðina. Hafðu viðskeytið **?preloadscripts=true** með. Til dæmis, sláðu inn **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. Í reitinn **Sérsniðin URI** slærðu inn alla innskráningarslóðina. Hafðu viðskeytið **?preloadscripts=true** með. Til dæmis er slegið inn ``www.<my domain>.com/sign-in?preloadscripts=true``.
 1. Í reitnum **Útgáfa síðuútlits (forskoða)** velurðu **1.2.0**.
 1. Veldu útlitið **Skráningarsíða staðbundins reiknings**.
 1. Stilltu valkostinn **Nota sérsniðið síðuefni** á **Já**.
-1. Í reitinn **Sérsniðin URI** slærðu inn alla innskráningarslóðina. Hafðu viðskeytið **?preloadscripts=true** með. Til dæmis, sláðu inn **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. Í reitinn **Sérsniðin URI** slærðu inn alla skráningarslóðina. Hafðu viðskeytið **?preloadscripts=true** með. Til dæmis er slegið inn ``www.<my domain>.com/sign-up?preloadscripts=true``.
 1. Í reitnum **Útgáfa síðuútlits (forskoða)** velurðu **1.2.0**.
 1. Í hlutanum **Eiginleikar notenda**, fylgdu þessum skrefum:
 
@@ -156,7 +156,7 @@ Til að uppfæra regluna „Forstillingum breytt“ með sérsniðnum síðuuppl
 1. Í reglunni **Forstillingum breytt** sem þú stilltir áður skaltu velja í leiðsöguskjánum **Síðuútlit**.
 1. Veldu útlitið **Síðan Breyta forstillingum**.
 1. Stilltu valkostinn **Nota sérsniðið síðuefni** á **Já**.
-1. Í reitinn **Sérsniðin URI** slærðu inn alla innskráningarslóðina. Hafðu viðskeytið **?preloadscripts=true** með. Til dæmis, sláðu inn **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. Í reitinn **Sérsniðin URI** slærðu inn alla slóðina til að breyta forstillingum. Hafðu viðskeytið **?preloadscripts=true** með. Til dæmis er slegið inn ``www.<my domain>.com/profile-edit?preloadscripts=true``.
 1. Í reitnum **Útgáfa síðuútlits (forskoða)** velurðu **1.2.0**.
 1. Í hlutanum **Eiginleikar notenda**, fylgdu þessum skrefum:
 
@@ -170,12 +170,14 @@ Til að uppfæra regluna „Aðgangsorð endurstillt“ með sérsniðnum síðu
 1. Í reglunni **Aðgangsorð endurstillt** sem þú stilltir áður skaltu velja í leiðsöguskjánum **Síðuútlit**.
 1. Veldu útlitið **Ný aðgangsorðasíða**.
 1. Stilltu valkostinn **Nota sérsniðið síðuefni** á **Já**.
-1. Í reitinn **Sérsniðin URI** slærðu inn alla innskráningarslóðina. Hafðu viðskeytið **?preloadscripts=true** með. Til dæmis, sláðu inn **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. Í reitinn **Sérsniðin URI** slærðu inn alla slóðina til að endurstilla aðgangsorð. Hafðu viðskeytið **?preloadscripts=true** með. Til dæmis er slegið inn ``www.<my domain>.com/passwordreset?preloadscripts=true``.
 1. Í reitnum **Útgáfa síðuútlits (forskoða)** velurðu **1.2.0**.
 1. Veldu útlitið **Síðan Staðfesting á reikningi**.
 1. Stilltu valkostinn **Nota sérsniðið síðuefni** á **Já**.
-1. Í reitinn **Sérsniðin URI** slærðu inn alla innskráningarslóðina. Hafðu viðskeytið **?preloadscripts=true** með. Til dæmis, sláðu inn **www.\<my domain\>.com/sign-in?preloadscripts=true**.
+1. Í reitinn **Sérsniðin URI** slærðu inn alla stafestingarslóðina fyrir endurstillt aðgangsorð. Hafðu viðskeytið **?preloadscripts=true** með. Til dæmis er slegið inn ``www.<my domain>.com/passwordreset-verification?preloadscripts=true``.
 1. Í reitnum **Útgáfa síðuútlits (forskoða)** velurðu **1.2.0**.
+
+
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>Sérsníða sjálfgefna textastrengi fyrir merki og lýsingar
 
@@ -193,15 +195,15 @@ Eftir að þú hefur uppfært global.json skrána og birt breytingarnar, birtist
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit netverslunar](online-store-overview.md)
-
-[Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
+[Skilgreina lénsheiti](configure-your-domain-name.md)
 
 [Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
 
+[Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
+
 [Tengja netsvæði við rás](associate-site-online-store.md)
 
-[Skilgreina lénsheiti](configure-your-domain-name.md)
+[Vinna með skrárnar robots.txt](manage-robots-txt-files.md)
 
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
 
