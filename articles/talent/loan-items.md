@@ -18,42 +18,40 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 73ffe05d8c869418f7601025e8ce19e1b05c952f
-ms.sourcegitcommit: 0dd8d0510214f92936a9dd214b404c5c8103587b
+ms.openlocfilehash: 03dbc4028ecd6e6247e20119c5c8be806b350406
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2419247"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898272"
 ---
-# <a name="manage-items-that-are-lent-to-workers"></a><span data-ttu-id="11666-103">Stjórna atriðum sem eru lánaðar til starfskrafta</span><span class="sxs-lookup"><span data-stu-id="11666-103">Manage items that are lent to workers</span></span>
+# <a name="manage-items-that-are-lent-to-workers"></a><span data-ttu-id="4afdf-103">Stjórna atriðum sem eru lánaðar til starfskrafta</span><span class="sxs-lookup"><span data-stu-id="4afdf-103">Manage items that are lent to workers</span></span>
 
-[!include [banner](includes/banner.md)]
+<span data-ttu-id="4afdf-104">Lánshlutir eru færslur sem aðstoða stjórnendur við að rekja efnislegu vörurnar sem fyrirtækið lánar til starfsmanna.</span><span class="sxs-lookup"><span data-stu-id="4afdf-104">Loan items are records that help managers track the physical items that your company lends to its workers.</span></span> 
 
-<span data-ttu-id="11666-104">Lánshlutir eru færslur sem aðstoða stjórnendur við að rekja efnislegu vörurnar sem fyrirtækið lánar til starfsmanna.</span><span class="sxs-lookup"><span data-stu-id="11666-104">Loan items are records that help managers track the physical items that your company lends to its workers.</span></span> 
+<span data-ttu-id="4afdf-105">Eftirfarandi atriði eru dæmi um vörur sem fyrirtæki gæti verið að lána starfsmönnum:</span><span class="sxs-lookup"><span data-stu-id="4afdf-105">The following points list examples of items that a company might lend to workers:</span></span>
+-   <span data-ttu-id="4afdf-106">Farsímar</span><span class="sxs-lookup"><span data-stu-id="4afdf-106">Mobile telephones</span></span>
+-   <span data-ttu-id="4afdf-107">Bifreiðar</span><span class="sxs-lookup"><span data-stu-id="4afdf-107">Automobiles</span></span>
+-   <span data-ttu-id="4afdf-108">Tölvubúnaður</span><span class="sxs-lookup"><span data-stu-id="4afdf-108">Computer equipment</span></span>
 
-<span data-ttu-id="11666-105">Eftirfarandi atriði eru dæmi um vörur sem fyrirtæki gæti verið að lána starfsmönnum:</span><span class="sxs-lookup"><span data-stu-id="11666-105">The following points list examples of items that a company might lend to workers:</span></span>
--   <span data-ttu-id="11666-106">Farsímar</span><span class="sxs-lookup"><span data-stu-id="11666-106">Mobile telephones</span></span>
--   <span data-ttu-id="11666-107">Bifreiðar</span><span class="sxs-lookup"><span data-stu-id="11666-107">Automobiles</span></span>
--   <span data-ttu-id="11666-108">Tölvubúnaður</span><span class="sxs-lookup"><span data-stu-id="11666-108">Computer equipment</span></span>
+<span data-ttu-id="4afdf-109">Hver efnislegt vara verður að hafa samsvarandi lánshlut.</span><span class="sxs-lookup"><span data-stu-id="4afdf-109">Each physical item must have a corresponding loan item.</span></span> <span data-ttu-id="4afdf-110">Hvert skrá yfir lánshluts ætti að lýsa hvað er verið að lána, hver er ábyrgur fyrir láni og fjölda daga sem hlutur getur°verið í láni hjá starfsmanni.</span><span class="sxs-lookup"><span data-stu-id="4afdf-110">Each loan item record should describe what is being loaned, who is responsible for the loan, and the number of days the item can loaned to a worker.</span></span> <span data-ttu-id="4afdf-111">Hægt er að stofna marga lánshluti, eins og lykla, aðgangskort eða einkennisbúninga, á sama tíma.</span><span class="sxs-lookup"><span data-stu-id="4afdf-111">You can create multiple loan items, for items such as keys, access cards or uniforms, at the same time.</span></span> 
 
-<span data-ttu-id="11666-109">Hver efnislegt vara verður að hafa samsvarandi lánshlut.</span><span class="sxs-lookup"><span data-stu-id="11666-109">Each physical item must have a corresponding loan item.</span></span> <span data-ttu-id="11666-110">Hvert skrá yfir lánshluts ætti að lýsa hvað er verið að lána, hver er ábyrgur fyrir láni og fjölda daga sem hlutur getur°verið í láni hjá starfsmanni.</span><span class="sxs-lookup"><span data-stu-id="11666-110">Each loan item record should describe what is being loaned, who is responsible for the loan, and the number of days the item can loaned to a worker.</span></span> <span data-ttu-id="11666-111">Hægt er að stofna marga lánshluti, eins og lykla, aðgangskort eða einkennisbúninga, á sama tíma.</span><span class="sxs-lookup"><span data-stu-id="11666-111">You can create multiple loan items, for items such as keys, access cards or uniforms, at the same time.</span></span> 
+<span data-ttu-id="4afdf-112">Þegar hlutur er lánaður, skráið útlánsdagsetningu ásamt áætluðum skiladegi.</span><span class="sxs-lookup"><span data-stu-id="4afdf-112">When loaning an item, enter the date that the item was loaned, and the planned return date.</span></span> <span data-ttu-id="4afdf-113">Þegar hlut er skilað skal skrá raunverulegan skiladag.</span><span class="sxs-lookup"><span data-stu-id="4afdf-113">When the item is returned, enter the actual return date.</span></span>
 
-<span data-ttu-id="11666-112">Þegar hlutur er lánaður, skráið útlánsdagsetningu ásamt áætluðum skiladegi.</span><span class="sxs-lookup"><span data-stu-id="11666-112">When loaning an item, enter the date that the item was loaned, and the planned return date.</span></span> <span data-ttu-id="11666-113">Þegar hlut er skilað skal skrá raunverulegan skiladag.</span><span class="sxs-lookup"><span data-stu-id="11666-113">When the item is returned, enter the actual return date.</span></span>
+<span data-ttu-id="4afdf-114">Starfsmenn geta skoðað°færslur fyrir vörur sem þeir hafa fengið lánaðar með°sjálfsafgreiðsla vinnusvæði starfsmanna.</span><span class="sxs-lookup"><span data-stu-id="4afdf-114">Employees can view the records of the items that have been loaned to them using the Employee self-service workspace.</span></span> <span data-ttu-id="4afdf-115">Þeir geta einnig breytt fyrirliggjandi færslum°eða fært inn°nýja lánshluti°ef þeir hafa fengið efnislegar viðbótarvörur.</span><span class="sxs-lookup"><span data-stu-id="4afdf-115">They can also edit the existing records or enter new loan items, if they've received additional physical items.</span></span>  <span data-ttu-id="4afdf-116">Hægt er að setja upp verkflæði til að rekja breytingar á nýjum eða fyrirliggjandi lánshlutum gegnum samþykktarferli.</span><span class="sxs-lookup"><span data-stu-id="4afdf-116">Workflow can be set up to route changes to new or existing loan items through an approval process.</span></span> 
 
-<span data-ttu-id="11666-114">Starfsmenn geta skoðað°færslur fyrir vörur sem þeir hafa fengið lánaðar með°sjálfsafgreiðsla vinnusvæði starfsmanna.</span><span class="sxs-lookup"><span data-stu-id="11666-114">Employees can view the records of the items that have been loaned to them using the Employee self-service workspace.</span></span> <span data-ttu-id="11666-115">Þeir geta einnig breytt fyrirliggjandi færslum°eða fært inn°nýja lánshluti°ef þeir hafa fengið efnislegar viðbótarvörur.</span><span class="sxs-lookup"><span data-stu-id="11666-115">They can also edit the existing records or enter new loan items, if they've received additional physical items.</span></span>  <span data-ttu-id="11666-116">Hægt er að setja upp verkflæði til að rekja breytingar á nýjum eða fyrirliggjandi lánshlutum gegnum samþykktarferli.</span><span class="sxs-lookup"><span data-stu-id="11666-116">Workflow can be set up to route changes to new or existing loan items through an approval process.</span></span> 
+<span data-ttu-id="4afdf-117">Stjórnendur geta skoðað°lánshluti fyrir beinar skýrslur þeirra.</span><span class="sxs-lookup"><span data-stu-id="4afdf-117">Managers can view loaned items for their direct reports.</span></span> <span data-ttu-id="4afdf-118">Þeir geta einnig fengið heimild til að bæta við nýjum lánshlutum fyrir hönd starfsmanna sinna.</span><span class="sxs-lookup"><span data-stu-id="4afdf-118">They can also be granted permission to add new loan items on behalf of their employees.</span></span>
 
-<span data-ttu-id="11666-117">Stjórnendur geta skoðað°lánshluti fyrir beinar skýrslur þeirra.</span><span class="sxs-lookup"><span data-stu-id="11666-117">Managers can view loaned items for their direct reports.</span></span> <span data-ttu-id="11666-118">Þeir geta einnig fengið heimild til að bæta við nýjum lánshlutum fyrir hönd starfsmanna sinna.</span><span class="sxs-lookup"><span data-stu-id="11666-118">They can also be granted permission to add new loan items on behalf of their employees.</span></span>
-
- <a name="account-for-lost-or-misplaced-loan-items"></a><span data-ttu-id="11666-119">Lykill fyrir týnda eða tapaða lánshluti</span><span class="sxs-lookup"><span data-stu-id="11666-119">Account for lost or misplaced loan items</span></span>
+ <a name="account-for-lost-or-misplaced-loan-items"></a><span data-ttu-id="4afdf-119">Lykill fyrir týnda eða tapaða lánshluti</span><span class="sxs-lookup"><span data-stu-id="4afdf-119">Account for lost or misplaced loan items</span></span>
 -----------------------------------------
 
-<span data-ttu-id="11666-120">Eyðileggist hlutur eða hann týnist skal skrá gerviskil.</span><span class="sxs-lookup"><span data-stu-id="11666-120">If an item becomes damaged or misplaced, enter a fictitious return record.</span></span> <span data-ttu-id="11666-121">Þá er hægt að eyða hlutnum úr skrá eða gefa það til kynna í lýsingu að hann sé týndur.</span><span class="sxs-lookup"><span data-stu-id="11666-121">Then either delete the item or keep it in the overview and change the description to indicate that the item is not available.</span></span>
+<span data-ttu-id="4afdf-120">Eyðileggist hlutur eða hann týnist skal skrá gerviskil.</span><span class="sxs-lookup"><span data-stu-id="4afdf-120">If an item becomes damaged or misplaced, enter a fictitious return record.</span></span> <span data-ttu-id="4afdf-121">Þá er hægt að eyða hlutnum úr skrá eða gefa það til kynna í lýsingu að hann sé týndur.</span><span class="sxs-lookup"><span data-stu-id="4afdf-121">Then either delete the item or keep it in the overview and change the description to indicate that the item is not available.</span></span>
 
 
-<a name="additional-resources"></a><span data-ttu-id="11666-122">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="11666-122">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="4afdf-122">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="4afdf-122">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="11666-123">Mannauður</span><span class="sxs-lookup"><span data-stu-id="11666-123">Human resources</span></span>](index.yml)
+[<span data-ttu-id="4afdf-123">Mannauður</span><span class="sxs-lookup"><span data-stu-id="4afdf-123">Human resources</span></span>](index.yml)
 
 
 
