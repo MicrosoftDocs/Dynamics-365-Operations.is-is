@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fb757672fffb56892837c066d552773908dd1ec1
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: d2d64f0de5287a764cb2e40b99a08084494bf53c
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2696969"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945629"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Bæta við stuðningi fyrir efnisbirtingarnet (CDN)
 
@@ -140,16 +140,16 @@ CDN ætti nú að vera rétt stillt þannig að það sé hægt að nota það m
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit netverslunar](online-store-overview.md)
-
-[Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
+[Skilgreina lénsheiti](configure-your-domain-name.md)
 
 [Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
 
+[Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
+
 [Tengja netsvæði við rás](associate-site-online-store.md)
 
-[Skilgreina lénsheiti](configure-your-domain-name.md)
-
-[Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)
+[Stjórna robots.txt-skrám](manage-robots-txt-files.md)
 
 [Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)
+
+[Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)

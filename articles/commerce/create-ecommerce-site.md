@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fd87a51b73deae64867b0420c00db9fce7c79336
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697130"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945836"
 ---
 # <a name="create-an-e-commerce-site"></a>Stofna svæði fyrir rafræn viðskipti
 
@@ -59,20 +59,16 @@ Eftir að vefsvæðið þitt er búið til geturðu staðfest að það er tengt
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit netverslunar](online-store-overview.md)
+[Skilgreina lénsheiti](configure-your-domain-name.md)
 
 [Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
 
 [Tengja netsvæði við rás](associate-site-online-store.md)
 
-[Skilgreina lénsheiti](configure-your-domain-name.md)
+[Vinna með skrárnar robots.txt](manage-robots-txt-files.md)
+
+[Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)
 
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
 
 [Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)
-
-[Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)
-
-[Heimasíðuyfirlit höfunda](authoring-home-overview.md)
-
-[Bæta við nýrri síðu á svæði](add-new-page.md)

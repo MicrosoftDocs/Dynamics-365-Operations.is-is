@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: bicyclingfool
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e0fad51fcb092c95103356f17618a647dd166b95
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 62d3c168967bd680b3ded56e627730324f2a5ec6
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697364"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945583"
 ---
 # <a name="associate-an-e-commerce-site-with-an-online-channel"></a>Tengja svæði fyrir rafræn viðskipti við netrás
 
@@ -40,16 +40,16 @@ Eftir að vefsvæðið þitt er búið til geturðu staðfest að það sé teng
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit netverslunar](online-store-overview.md)
-
-[Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
+[Skilgreina lénsheiti](configure-your-domain-name.md)
 
 [Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
 
-[Skilgreina lénsheiti](configure-your-domain-name.md)
+[Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
+
+[Stjórna robots.txt-skrám](manage-robots-txt-files.md)
+
+[Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)
 
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
 
 [Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)
-
-[Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)

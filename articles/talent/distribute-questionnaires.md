@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 242e9fd5fd4b22f3081367cf33ff18ff5e4174a5
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: bc392c965a0d3bc308e0396263e84ecf1e713491
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814744"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898364"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Dreifa og tímasetja spurningalista
-
-[!include [banner](includes/banner.md)]
 
 Þetta efnisatriði útskýrt hvernig dreifa á spurningalista sem er hannaður af þér, þannig að þær eru tiltækar fyrir einstakling eða hóp einstaklinga sem munu ljúka við þær. 
 

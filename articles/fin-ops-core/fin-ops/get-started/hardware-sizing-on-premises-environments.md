@@ -1,9 +1,9 @@
 ---
 title: Kröfur um vélbúnaðarþörf fyrir staðbundin umhverfi
 description: Þetta efnisatriði tilgreinir kröfur um vélbúnaðarþörf fyrir staðbundin umhverfi.
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 65f21d71c22d295902b968e6c18134e1577e01f2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8fa644f35a086af99cde74fd6a2062f9b59a6ff7
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812558"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870265"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Kröfur um vélbúnaðarþörf fyrir staðbundin umhverfi
 
@@ -137,7 +137,7 @@ Fyrir AD FS stærðarþörf skal sjá [Fylgiskjöl fyrir afkastagetu þjóns AD
 
 ## <a name="environment-orchestrator"></a>Environment Orchestrator
 
-Orchestrator þjónustan er þjónustan sem hefur umsjón með þinni virkjun og tengdum samskiptum við LCS. Þessi þjónusta er notuð sem Service Fabric aðalþjónustua og krefst að minnsta kost þriggja VM. Þessi þjónusta er á sama stað og niðurröðunarþjónusta Service Fabric. Stærðin ætti að miðast við hámarksálag klasans. Nánari upplýsingar eru í [Umhugsunarefni fyrir afkastaveitu klasa Service Fabric](/azure/service-fabric/service-fabric-cluster-capacity).
+Orchestrator þjónustan er þjónustan sem hefur umsjón með þinni virkjun og tengdum samskiptum við LCS. Þessi þjónusta er notuð sem Service Fabric aðalþjónustua og krefst að minnsta kost þriggja VM. Þessi þjónusta er á sama stað og niðurröðunarþjónusta Service Fabric. Stærðin ætti að miðast við hámarksálag klasans. Nánari upplýsingar er að finna í [Skipuleggðu og undirbúðu virkjun á sjálfstæðum Service Fabric klasa](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Sýndaruppsetning og ofáskrift
 

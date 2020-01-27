@@ -3,7 +3,7 @@ title: Gera handvirkar leiðréttingar á grunnlínuspánni
 description: Þetta efnisatriði útskýrir hvernig á að gera handvirkar leiðréttingar á grunnlínuspá og skoða upplýsingar um spá.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8897e0fe01e7ed5af9a8d5b99de6b9b4506554f1
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 1c9963a54a052549a6bfeabcb3d91b7b0f3cf68e
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815135"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935417"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Gera handvirkar leiðréttingar á grunnlínuspánni
 
@@ -70,8 +70,9 @@ Hægt er að opna **upplýsingar eftirspurnarspár** síðu til að skoða freka
 
 **Athugasemdir :**
 
+-   Ef þú virkjar **Spá fyrir um líkanaval í Upplýsingum um eftirspurnarspá** úr Stjórnun eiginleika muntu geta valið spárlíkönin til að hafa með í sögulegri spá á síðunni **Upplýsingar um eftirspurnarspá**.
 -   Áreiðanleikabil sem birtist í á **Spá** hluta síðan sýnir mismuninn á milli efri mörk áreiðanleikabils og neðri mörk áreiðanleikabils. Til að sjá gildi fyrir efri og neðri mörk , settu músabendil yfir línurit í á **söguleg eftirspurn og spá myndrænt** hluta.
--   Ef notuð er eftirspurnarspá í Microsoft Azure Machine Learning service, er hægt að tilgreina prósentu áreiðanleikastigs sem mynduð spá á að hafa. Áreiðanleikabil samanstendur af sviði gilda sem virka sem áreiðanlegt mat fyrir eftirspurnarspána. Til dæmis gefur 95% áreiðanleikastig til kynna að það séu 5% líkur á að eftirspurnarspá falli utan sviðs áreiðanleikabils.
+-   Ef notuð er eftirspurnarspá í Microsoft Azure Machine Learning er hægt að tilgreina prósentu áreiðanleikastigs sem mynduð spá á að hafa. Áreiðanleikabil samanstendur af sviði gilda sem virka sem áreiðanlegt mat fyrir eftirspurnarspána. Til dæmis gefur 95% áreiðanleikastig til kynna að það séu 5% líkur á að eftirspurnarspá falli utan sviðs áreiðanleikabils.
 
 Einnig er hægt að gera handvirkar leiðréttingar á spá í **upplýsingar eftirspurnarspár** síðu með því að breyta gildum í á **Spá** línunni í á **Spá** hluta.
 

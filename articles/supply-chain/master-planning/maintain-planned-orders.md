@@ -3,7 +3,7 @@ title: Vinna með áætlaðar pantanir
 description: Þetta efnisatriði gefur upplýsingar um hvernig á að stjórna áætluðum pöntunum. Hún lýsir því hvernig hægt er að uppfæra stöðu áætlaðra pantana, staðfesta þær og sía fyrir áætluðum pöntunum sem hafa sömu stöðu og valin áætluð pöntun.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 11/07/2019
+ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68bccb632255eac975dc150cf322d4c579ff2f24
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: ec67caf596b0efc256c957eca17a04509fe86855
+ms.sourcegitcommit: 274ff2bb6872ff714781b348b29fd9f1affff9d0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813777"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "2904037"
 ---
 # <a name="maintain-planned-orders"></a>Vinna með áætlaðar pantanir
 
@@ -39,10 +39,10 @@ Hægt er að nota svæðið **Staða** til að aðstoða við að rekja framgang
 
 -   Þegar aðaláætlunagerð°myndar áætlaðar pantanir, hafa áætlaðar pantanir stöðuna **Óunnið**.
 -   Þegar valið er að staðfesta ekki áætlaða pöntun getur hún fengið stöðuna **Lokið**.
--   Ef þú vilt festa skipulagða pöntun geturðu breytt stöðunni í **Samþykkt**. Skipulagðar pantanir með stöðuna **Samþykkt** eru virtar af aðaláætlanagerð, svo þeim er ekki breytt eða þeim eytt í síðari keyrslu á aðaláætlanagerð. 
+-   Ef þú vilt festa skipulagða pöntun geturðu breytt stöðunni í **Samþykkt**. Skipulagðar pantanir með stöðuna **Samþykkt** eru virtar af aðaláætlanagerð, svo þeim er ekki breytt eða þeim eytt í síðari keyrslu á aðaláætlanagerð. Til að ná þessu afritar áætlunargrunnurinn **Samþykktar** áætlaðar pantanir úr gömlu áætlunarútgáfunni yfir í nýju áætlunarútgáfuna við aðalskipulagningu.
 
 ## <a name="firming-planned-orders"></a>Staðfesting á tillögum 
-Með því að staðfesta tillögur eru raunverulegar pantanir búnar til. Þetta eru líka þekkt sem *losaðar* eða *opnar pantanir*. Þegar áætluð pöntun er staðfest er hún færð í pöntunarhluta í viðeigandi einingu.
+Með því að staðfesta tillögur eru raunverulegar pantanir búnar til. Þær eru líka þekkar sem *losaðar* eða *opnar pantanir*. Þegar áætluð pöntun er staðfest er hún færð í pöntunarhluta í viðeigandi einingu.
 
 Þú getur valið tvo staðfestingarvalkosti af síðunni **Tillögur**:
 
@@ -58,6 +58,8 @@ Ef þú ætlar að vinna margar pantanir í einu getur samhliða keyrsla bætt k
 -   **Samhliða staðfesting** - Ef **Já** verður staðfestingarferlið gert samhliða með fjölda þráða sem skilgreindir eru í **Fjöldi þráða**.
 -   **Fjöldi þráða** - Stýrir fjölda þráða sem notaðir eru til að gera staðfestingarferlið samhliða. Færiubreytan er aðeins sýnd þegar **Samhliða staðfesting** er stillt á **Já**.
 
+> [!NOTE]
+> Valkosturinn fyrir **Samhliða staðfesting** er aðeins sýndur þegar fleiri en ein áætluð röð er valin til staðfestngar.
 
 <a name="additional-resources"></a>Frekari upplýsingar
 --------

@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b3eb53943546166eee845749a070ed2fca1a03b8
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 99a7e6130d45229011a185087d4872fe34b8224a
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023954"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897627"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-9-2019"></a>Nýjungar eða breytingar í Dynamics 365 Talent (9. júlí 2019)
-
-[!include [banner](includes/banner.md)]
 
 Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Talent.
 
@@ -36,6 +34,7 @@ ms.locfileid: "2023954"
 Þessi útgáfa inniheldur minniháttar villuleiðréttingar fyrir Dynamics 365 Talent: Attract.
 
 ### <a name="coming-soon-in-attract"></a>Væntanlegt í Attract
+
 #### <a name="job-approvals-appear-on-the-home-page"></a>Vinnslusamþykktir birtast á heimasíðunni
 
 Samþykktir birtast í hlutanum **Samþykktir** í yfirlitinu. Samþykktaraðilar geta yfirfarið samþykktir sínar undir **Úthlutað á þig**, sem sýnir auðkenni vinnslu, titil vinnslu, aðra samþykktaraðila og dagsetningu þegar vinnslunni var úthlutað. Notendur sem senda inn vinnslu til samþykktar geta yfirfarið vinnslur sínar undir **Beiðni frá þér**, sem sýnir samþykktaraðilana sem eiga enn eftir að samþykkja innsenda vinnslu.
@@ -50,7 +49,7 @@ Breytingum sem lýst er í þessum kafla gilda um byggingarnúmer 8.1.2374.
 
 ### <a name="platform-update-28-for-finance-and-operations"></a>Verkvangsuppfærsla 28 fyrir Finance and Operations
 
-Frekari upplýsingar um verkvangsuppfærslu 28 fyrir Finance and Operations er að finna í [Forskoðun á eiginleikum í Dynamics 365 Finance and Operations verkvangsuppfærslu 28 í (júlí 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
+Frekari upplýsingar um verkvangsuppfærslu 28 fyrir Finance and Operations er að finna í [Forskoðun á eiginleikum í Dynamics 365 Finance and Operations verkvangsuppfærslu 28 í (júlí 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
 
 ### <a name="entity-support-for-custom-fields-in-common-data-service"></a>Stuðningur við einingar fyrir sérsniðna reiti í Common Data Service 
 

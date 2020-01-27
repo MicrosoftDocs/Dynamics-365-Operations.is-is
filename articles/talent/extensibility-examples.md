@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 3bb61297e294aa3f2d06f542bebe29d7afae9c3b
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 6c8a583a93c2ceb70d8c3b0e0047e2bf2047b56d
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832839"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898318"
 ---
 # <a name="extend-talent-with-power-apps-and-power-automate"></a>Stækka Talent með Power Apps og Power Automate
-
-[!include [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir sumum dæmum um atburðarás stækkunarhæfni fyrir Microsoft Dynamics 365 Talent sem notar Microsoft Power Apps og Microsoft Power Automate. Hægt er að flytja lausnapakkann sem tengist hverju dæmi inn í Power Apps-umhverfið. Síðan er hægt að nota pakkana annaðhvort sem leiðarvísi eða sem upphafspunkta til að innleiða atburðarásir sem eiga við um fyrirtækið þitt.
 
@@ -108,7 +106,7 @@ Hægt er að nota tilvísunarforritið til að bæta við umbjóðendum í samei
 
 Hægt er að fella þetta forrit inn í starfsmannaþjónustuna (ESS) til að senda tilvísanir, eða nota það sem tengil á fyrirtækjagáttina og keyrt sem sjálfstætt forrit.
 
-Til að sækja **forritið Referral** ferðu í [Dynamics 365 Talent viðbótarlausnina: Referral App](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) í Microsoft Download Center. Þú getur flutt þetta forrit inn og sérsniðið það til að bæta við viðbótarvirkni.
+Til að sækja **forritið Referral** ferðu í [Dynamics 365 Talent viðbótarlausnina: Referral App](https://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) í Microsoft Download Center. Þú getur flutt þetta forrit inn og sérsniðið það til að bæta við viðbótarvirkni.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

@@ -18,19 +18,17 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0f89c6098db9e2e3a9aa4ee3666e4b9ae608f054
-ms.sourcegitcommit: d8f1135cdbc2deca70bc4b2805a0519253c9a31f
+ms.openlocfilehash: 1a1a32495b63a5a67a49bf3b02710aba63c1e2f0
+ms.sourcegitcommit: bfd6142569196a060e3f37893c78f00c40a2a18c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1992358"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2946191"
 ---
 # <a name="wave-step-codes"></a>Kóðar bylgjuskrefs
 
 [!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
-
-## <a name="about-wave-step-codes"></a>Um bylgjuskrefakóða
 
 Bylgjuskrefakóðar eru kóðar sem notendur geta sett upp og notað til að tengja sérstök tilvik bylgjuaðferða við samsvarandi sniðmát. Sniðmátin innihalda sniðmát fyrir áfyllingu, gámagerð, prentun merkimiða, byggingu álags og flokkun.
 
@@ -39,7 +37,7 @@ Bylgjuskrefakóðar eru kóðar sem notendur geta sett upp og notað til að ten
 Bylgjuskrefakóðar fyrir ákveðna gerð bylgjuskrefa eru settir upp á aðskildri síðu. Fyrir hvert tilvik um bylgjuþrep í bylgjusniðmát sem krefst bylgjuþrepskóða verður að velja bylgjuskrefakóðann í fellilistanum. Val í fellivalmynd kemur í staðinn fyrir frjálsan texta og hjálpar til við að draga úr hættu og áhrifum mannlegra mistaka. Uppsetningarkóðar eru notaðir til að tengja bylgjuþrep aðferð í bylgjusniðmát við marksnið fyrir aðferðina.
 
 > [!NOTE]
-> Notkun eiginleika bylgjuskrefakóða er valkvæð og upptaka er á lögaðila. Þess vegna, ef sérstakur lögaðili notar eiginleikann, eru allir fyrirliggjandi bylgjuskrefakóðar í lögaðilanum uppfærðir í nýja uppbygginguna.
+> Notkun kóðaeiginleika bylgjuskrefa er valkvæð. Hún er virkjum í öllu fyrirtækinu fyrir alla lögaðila.
 
 ## <a name="setup-demo"></a>Setja upp kynningu 
 
@@ -49,20 +47,20 @@ Fyrir þessa kynningu verða kynningargögn að vera sett upp og þú verður a�
 
 Fylgdu þessum skrefum til að kveikja á bylgjuskrefakóða.
 
-1. Farðu í **vöruhúsakerfi \> Uppsetning \> Færibreytur vöruhúsakerfis**.
-2. Á flipanum **Almennt** á flýtiflipanum **Úrvinnsla bylgna** skal stilla valkostinn **Virkja bylgjuskrefakóða** á **Já**.
+1. Farðu í **Stjórnun eiginleika**.
+2. Veldu til að virkja eiginleikann sem heitir **Kóði bylgjuskrefa í öllu fyrirtækinu**.
 
-Allir fyrirliggjandi frjálsir textar bylgjuskrefa eru uppfærðir í nýja uppbygginguna. Eftir að þessari uppfærslu er lokið fyrir lögaðila er valkosturinn **Virkja bylgjuskrefakóða** er ekki lengur tiltækur á síðunni **Færibreytur vöruhúsastjórnunar**.
+Allir fyrirliggjandi frjálsir textar bylgjuskrefa í öllum lögaðilum eru uppfærðir í nýja uppbygginguna. Eftir að þessari uppfærslu er lokið fyrir alla lögaðila er eiginleikinn virkur. Ef ekki er hægt að virkja eiginleikann fyrir einn eða fleiri lögaðila er hann ekki virkur fyrir neina lögaðila.
 
-Staðfestingar eru gerðar við uppfærsluna og ef uppfærslan mistekst færðu villuboð. Uppfærsla gæti mistekist vegna eftirfarandi árekstra:
+Meðan á virkjuninni stendur er staðfesting gerð við uppfærslu gagna. Ef uppfærsla mistekst færðu villuboð. Uppfærsla gæti mistekist vegna eftirfarandi árekstra:
 
 - Tvíteknir frjálsir textar bylgjuskrefa eru til.
 - Sérsnið er til staðar.
 - Frjáls texti bylgjuskrefa sem er tengdur dæmi um aðferð við bylgjuþrep passar ekki við gerð sniðmátsins.
 
-Eftir að þú hefur leyst alla árekstra sem eru greindir við staðfestingarnar geturðu keyrt uppfærsluferlið aftur.
+Eftir að þú hefur leyst alla árekstra sem eru greindir við staðfestingarnar geturðu reynt aftur að virkja eiginleikann.
 
-Þegar uppfærslan tekst verður síðan **Bylgjuskrefakóðar** (**Vöruhúsastjórnun \> Uppsetning \> Bylgjur \> Bylgjuskrefakóðar**) í boði. Þessi síða sýnir bylgjuskrefakóða sem voru uppfærðir þegar kveikt var á eiginleikum bylgjuskrefakóða.
+Þegar eiginleikinn hefur verið virkjaður verður síðan **Bylgjuskrefakóðar** (**Vöruhúsastjórnun \> Uppsetning \> Bylgjur \> Bylgjuskrefakóðar**) í boði. Þessi síða sýnir bylgjuskrefakóða sem voru uppfærðir þegar eiginleikinn Kóði bylgjuskrefa í öllu fyrirtækinu var virkjaður.
 
 ### <a name="create-new-wave-step-codes"></a>Stofna nýja bylgjuskrefakóða
 
@@ -94,3 +92,5 @@ Eftirfarandi aðferð hjálpar til við að tryggja að endurnýjunarsniðmáti�
 4. Farðu í **Vöruhúsastjórnun \> Uppsetning \> Bylgjur \> Bylgjusniðmát** og veldu bylgjusniðmátið sem þú ætlar að nota.
 5. Í sniðmátinu á flýtiflipanum **Aðferðir** velurðu aðferðina **Áfylling**.
 6. Í reitnum **Bylgjuskrefakóði** velurðu bylgjuskrefakóðann sem þú valdir í áfyllingarsniðinu.
+
+Þú framkvæmir þessi skref fyrir hvern lögaðila.

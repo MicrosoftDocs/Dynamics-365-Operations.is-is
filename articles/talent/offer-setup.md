@@ -3,7 +3,7 @@ title: Setja upp stjórnun tilboða í Attract
 description: Þetta efni lýsir því hvernig á að setja upp tilboð í Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/04/2019
+ms.date: 12/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63f45f1493935f543cfd25a7d8ed7b54170800a0
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: bc91a83afd5ce1627376685bcf612d6998ddbc02
+ms.sourcegitcommit: 5022d63a81c3715c9a3dcf2a68217bb6b17c7805
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832723"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "2890556"
 ---
 # <a name="set-up-offer-management-in-attract"></a>Setja upp stjórnun tilboða í Attract
 
@@ -45,9 +45,11 @@ Tilboðsgögn eru minnstu einingin innan sniðmáts tilboðspakkans. Dæmigerð 
 
     >[!NOTE]
     > Á **Tilboðsgögn** síðunni eru **Upplýsingar umsækjanda** og **Upplýsingar um starf** kafla. Attract veitir nokkra tilbúna staðgengla tilboðsgagna.
-    
+    > 
     > Það eru köflum á síðunni til að skipuleggja mismunandi staðgengla tilboðsgagna saman í rökréttum hópum. Þessar köflum geta hjálpað við viðhald á tilboðsgögnum og keyrslu gagna á meðan stofnun tilboða stendur.
-
+    > 
+    > Til að búa til lista yfir gildi fyrir staðgengil skaltu hlaða upp Excel töflureikni sem er með einn dálk með staðgengli sem dálkatitil og lista yfir val í línunum hér að neðan. Ef vísað er til sama staðgengils í annarri gagnareglusamsetningu skal tryggja að þeir hafi sameiginleg gildi.
+    
 1.  Til að búa til nýjan tilboðsgagnahluta skaltu smella á **Bæta við hluta** og slá inn einkvæmt heiti fyrir hlutann.
 
 1.  Til að bæta staðgenglum tilboðsgagna við hvaða hluta sem er skaltu smella á **Bæta við tilboðsgögnum** og sláðu inn einkvæmt heiti fyrir staðgengilinn.

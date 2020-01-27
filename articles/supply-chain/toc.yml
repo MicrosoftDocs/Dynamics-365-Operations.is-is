@@ -62,7 +62,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Nýjungar eða breytingar
               items:
-                - name: Forskoða eiginleika í Supply Chain Management útgáfu 10.0.7 (desember 2019)
+                - name: 'Supply Chain Management, útgáfa 10.0.7 (desember 2019)'
                   href: get-started/whats-new-scm-10-0-7.md
                 - name: Supply Chain Management 10.0.6 (nóvember 2019)
                   href: get-started/whats-new-scm-10-0-6.md
@@ -70,10 +70,6 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Finance and Operations
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Forrit fyrir Finance and Operations 10.0.5 (október 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Finance and Operations 10.0.4 (júlí 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 'Finance and Operations, Enterprise Edition 7.3'
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
@@ -264,7 +260,7 @@
                 - name: Stofna eignir byggt á innkaupapöntunum
                   href: asset-management/objects/create-objects-based-on-purchase-orders.md
                 - name: Uppskrift eignar
-                  href: /asset-management/objects/object-bom.md
+                  href: asset-management/objects/object-bom.md
                 - name: Viðburðarferill eignar
                   href: asset-management/objects/object-timeline.md
                 - name: Eignayfirlit
@@ -592,7 +588,7 @@
                 - name: Kostnaðargreining framleiðslupöntunar
                   href: cost-management/production-order-cost-analysis.md
                 - name: Kostnaðarmat framleiðslupöntunar
-                  href: /cost-management/production-order-cost-estimation.md
+                  href: cost-management/production-order-cost-estimation.md
                 - name: Skoða núverandi VÍV-stöðu framleiðslupöntunar
                   href: cost-management/tasks/view-current-wip-status-production-order.md
                 - name: 'Bera saman virkan, áætlaðan og innleystan kostnað í framleiðslupöntun'
@@ -751,7 +747,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Stjórna vörpunarlíkani rafrænnar skýrslugerðar í aðskilinni skilgreiningu rafrænnar skýrslugerðar
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Velja skilgreiningar gagnalíkans þegar snið eru búið til
+                - name: Velja skilgreiningar gagnalíkans þegar snið eru búin til
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Búa til skýrslur með því að setja inn efni í óunnu XML-formi
                   href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/supply-chain/toc.json
@@ -1013,7 +1009,7 @@
                   href: inventory/tasks/transfer-physical-inventory-within-warehouse.md
                 - name: Leiðrétta birgðastöðu í vöruhúsi (grunnvöruhús)
                   href: inventory/tasks/adjust-stock-levels-warehouse-basic-warehousing.md
-                - name: Birgðatalning
+                - name: Birgðamerkjatalning
                   href: inventory/inventory-tag-counting.md
                 - name: Telja birgðir í vöruhúsi
                   href: inventory/tasks/count-inventory-warehouse.md
@@ -1099,6 +1095,8 @@
                   href: master-planning/safety-stock-replenishment.md
                 - name: Seinkanir
                   href: master-planning/delays.md
+                - name: Hætta við aðaláætlunarverk
+                  href: master-planning/cancel-master-planning-job.md
                 - name: Nota rakningu fyrir niðurbrot
                   href: master-planning/trace-explosion.md
                 - name: Aðgerðaboð
@@ -1511,10 +1509,12 @@
                   href: pim/tasks/create-product-master.md
                 - name: Stofna forskilgreind afurðarafbrigði
                   href: pim/tasks/create-predefined-product-variants.md
-                - name: Umskráning mælieiningar eftir afurðarafbrigði
+                - name: Umreikningur mælieiningar eftir afurðarafbrigði
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Stofna útgefna afurð fyrir stakt fyrirtæki
                   href: pim/tasks/create-released-product-single-company.md
+                - name: Nota gagnaeiningar
+                  href: pim/data-entities.md
                 - name: Líftímastaða afurðar
                   items:
                     - name: Yfirlit yfir líftímastöðu afurðar
@@ -2349,6 +2349,10 @@
                   href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                 - name: Hætta við vöruhúsavinnu vegna frábrigðameðhöndlunar
                   href: warehousing/cancel-warehouse-work.md
+                - name: Kerfisstýrð klasatiltekt
+                  href: warehousing/system-directed-cluster-pick.md
+                - name: Flokkun tiltektarlínu
+                  href: warehousing/pick-line-grouping.md
             - name: Birgðatalning
               items:
                 - name: Ástæðukóðar fyrir birgðatalningu
@@ -2369,7 +2373,7 @@
                   href: inventory/inventory-locations.md
                 - name: Birgðastaða
                   href: inventory/inventory-statuses.md
-                - name: Birgðatalning
+                - name: Birgðamerkjatalning
                   href: inventory/inventory-tag-counting.md
             - name: Áfylling
               items:

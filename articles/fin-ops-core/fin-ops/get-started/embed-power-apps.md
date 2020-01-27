@@ -3,7 +3,7 @@ title: Fella inn Power Apps
 description: Þetta efnisatriði lýsir því hvernig á að fella Power Apps inn í biðlarann til að auka virkni vörunnar.
 author: jasongre
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 755a30f89725ca0a7e1c14252984c617d6ba280e
-ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
+ms.openlocfilehash: 8b5e64cb9ba916f9cbd628703394318b4044867b
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "2824494"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870242"
 ---
 # <a name="embed-microsoft-power-apps"></a>Fella inn Microsoft Power Apps
 
@@ -55,7 +55,7 @@ Eftirfarandi leiðbeiningar sýna hvernig á að fella Power Apps inn í vefbið
 
     - Reiturinn **Heiti** gefur til kynna textann sem er sýndur fyrir hnappinn eða flipann sem mun innihalda innfellt Power Apps. Oft getur verið að þú viljir endurtaka heiti Power Apps í þessum reit.
     - **Kenni forrits** er GUID fyrir Power Apps sem þú vilt fella inn. Til að sækja þetta gildi skaltu finna Power Apps á [web.powerapps.com](https://web.powerapps.com) og finna síðan reitinn **Kenni forrits** undir **Upplýsingar**.
-    - Fyrir **Setja inn gögn fyrir Power Apps** er valfrjálst hægt að velja reitinn sem inniheldur gögnin sem þú vilt flytja yfir í Power Apps sem inntak. Sjá kaflann síðar í þessu efnisatriði undir heitinu [Búa til Power Apps sem nýtir gögn úr forritum Finance and Operations](#building-a-powerapp-that-leverages-data-sent-from-finance-and-operations-apps) til að fá upplýsingar um hvernig Power Apps getur nálgast gögn sem send eru úr forritum Finance and Operations.
+    - Fyrir **Setja inn gögn fyrir Power Apps** er valfrjálst hægt að velja reitinn sem inniheldur gögnin sem þú vilt flytja yfir í Power Apps sem inntak. Sjá kaflann síðar í þessu efnisatriði undir heitinu [Búa til Power Apps sem nýtir gögn úr forritum Finance and Operations](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps) til að fá upplýsingar um hvernig Power Apps getur nálgast gögn sem send eru úr forritum Finance and Operations.
     - Veldu **Stærð forrits** sem passar við Power Apps-gerðina sem þú ert að fella inn. Veldu **Mjótt** fyrir Power Apps byggt fyrir fartæki og **Breitt** fyrir Power Apps byggt fyrir spjaldtölvur. Þetta tryggir að nægilegt magn af plássi sé úthlutað fyrir innfellt Power Apps.
     - Flýtiflipinn **Lögaðilar** veitir möguleika á að velja lögaðilana sem Power Apps er í boði fyrir. Sjálfgefið er að sýna Power Apps í öllum lögaðilum.
 
@@ -101,7 +101,7 @@ Fylgdu þessum skrefum til að breyta grunnstillingu á innfelldu Power Apps:
 
 Eftir að Power Apps hefur verið fellt inn á síðu eru tvær leiðir til að fjarlægja það ef þörf krefur:
 
-- Farðu á svæðið **Breyta Power Apps** samkvæmt leiðbeiningunum úr kaflanum [Breyta innfelldu Power Apps](#editing-an-embedded-powerapp) fyrr í þessu efnisatriði. Staðfestu að svæðið birti upplýsingar um innbyggða Power Apps sem þú vilt fjarlægja og smelltu síðan á hnappinn **Eyða**.
+- Farðu á svæðið **Breyta Power Apps** samkvæmt leiðbeiningunum úr kaflanum [Breyta innfelldu Power Apps](#editing-an-embedded-power-app) fyrr í þessu efnisatriði. Staðfestu að svæðið birti upplýsingar um innbyggða Power Apps sem þú vilt fjarlægja og smelltu síðan á hnappinn **Eyða**.
 - Vegna þess að innfellt Power Apps er vistað sem sérstillt gögn, mun hreinsun á sérstillingum síðunnar einnig fjarlægja innfelldu Power Apps á þessari síðu. Athugaðu að hreinsun á sérstillingum síðunnar er varanleg og ekki hægt að afturkalla. Til að fjarlægja sérstillingar þínar á síðu skaltu velja **Valkostir** og smella síðan á **Sérsníða þessa skjámynd**. Undir valmyndinni **Stjórna** skal velja hnappinn **Hreinsa**. Allar fyrri sérstillingar fyrir þessa síðu verða fjarlægðar þegar vafrinn er uppfærður. Sjá [Sérstilla notandaupplifun](personalize-user-experience.md) til að fá frekari upplýsingar um hvernig á að fínstilla síður með sérstillingu.
 
 ## <a name="appendix"></a>Viðauki

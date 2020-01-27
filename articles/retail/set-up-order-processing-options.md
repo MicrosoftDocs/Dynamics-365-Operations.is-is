@@ -3,7 +3,7 @@ title: Setja upp símaversrásir
 description: Þetta efnisatriði veitir upplýsingar um hvernig á að vinna úr pöntunum fyrir símaver með því að nota Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 04/16/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 36491e4d2e63819ce637afb69744089d820c69b0
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 4ebe25f91cd4228537254dc0b7891c8584981775
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024822"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934701"
 ---
 # <a name="set-up-call-center-channels"></a>Setja upp símaversrásir
 
@@ -81,3 +81,6 @@ Notendur sem eru ekki tengdir við rás símavers nota staðlaða eiginleika pö
 
 
 Þegar stillingu á rás símavers og skilgreiningu á rásarnotendum er lokið, til að hjálpa að tryggja æskilega kerfishegðun, skal ganga úr skugga um að allar nauðsynlegar færibreytur símavers séu skilgreindar í **Retail** \> **Uppsetning rásar** \> **Uppsetning símavers** \> **Færibreytur símavers**. Tryggja skal að tengdar númeraraðir séu einnig skilgreindar.
+
+> [!NOTE]
+> Til að nota símaversvirkni Retail verður stillingarlykilinn fyrir **Sent mörgum** að vera virkur. Þennan stillingarlykil er að finna í lyklunum **Stillingu viðskipta** undir **Kerfisstjórnun**\> **Uppsetning** \> **Stilling leyfis**. Þetta er nauðsynlegt vegna símaversaðgerða sem framkvæma ýmsar sannprófanir á grundvelli afhendingarfangs sem er stillt á sölupöntunarlínustig. 

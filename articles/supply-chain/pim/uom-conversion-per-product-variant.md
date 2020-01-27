@@ -3,12 +3,12 @@ title: Mælieiningarumreikningur á afurðarafbrigði
 description: Í þessu efnisatriði er fjallað um hvernig hægt er að setja upp mælieiningarumreikninga fyrir afurðarafbrigði.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 12/18/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: josaw
@@ -17,34 +17,26 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 196b68db02867f8d864be8bcc593aa01f554f7c3
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c8181f0bda9b781a6c2b0feb0aba1beb51bfea65
+ms.sourcegitcommit: af36eb17b36092a3101bbfc96486b25036676558
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249449"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2935100"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Mælieiningarumreikningur á afurðarafbrigði
 
 [!include [banner](../includes/banner.md)]
 
-[!include [pivate-preview](../includes/pivate-preview-banner.md)]
-
 Í þessu efnisatriði er fjallað um hvernig hægt er að setja upp mælieiningarumreikninga fyrir afurðarafbrigði. Dæmi um uppsetninguna fylgir með.
 
 Þessi eiginleiki gerir fyrirtækjum kleift að skilgreina mismunandi umreikninga eininga milli afbrigða sömu afurðarinnar. Eftirfarandi dæmi er notað í þessu efnisatriði. Fyrirtæki selur stuttermaboli í eftirfarandi stærðum: litlir, miðlungs, stórir og mjög stórir. Stuttermabolur er skilgreindur sem afurð og mismunandi stærðir eru skilgreindar sem afbrigði af vörunni. Stuttermabolunum er pakkað í kassa og það geta verið fimm bolir í kassa, fyrir utan þá mjög stóru þar sem aðeins er pláss fyrir fjóra boli. Fyrirtækið vill rekja ólík afbrigði af stuttermabolunum í einingunni **Stykki** en selur bolina í einingunni **Kassar**. Umreikningur milli birgðaeiningar og sölueiningar er 1 kassi = 5 stykki, fyrir utan afbrigðið Mjög stór þar sem umreikningurinn er 1 kassi = 4 stykki.
-
-## <a name="setup"></a>Uppsetning
-
-Hægt er að skilgreina færibreyturnar til að nota eiginleikann fyrir afurðir sem **Öll ferli** eða eingöngu fyrir afurð sem er virkjuð fyrir **Vöruhúsaferli** með því að nota valkostinn **Kveikja á mælieiningarumreikningum** á síðunni **Færibreytur afurðarupplýsinga**.
 
 ### <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Setja upp afurð fyrir umreikning einingar fyrir hvert afbrigði
 
 Aðeins er hægt að búa til afurðarafbrigði fyrir afurðir af **Undirgerð afurðar**: **Afurðarsniðmát**. Nánari upplýsingar er að finna í [Stofna afurðarsniðmát](tasks/create-product-master.md).
 
 Eiginleikinn er ekki virkjaður fyrir afurðir sem eru settar upp fyrir ferli framleiðsluþyngdar. 
-
-Við stofnun afurðarsniðmáts skal virkja mælieiningarumreikning með því að nota valkostinn **Virkja umreikninga mælieiningar** á síðunni **Upplýsingar um afurð**.
 
 Þegar afurðarsniðmát með útgefnum afurðarafbrigðum er búið til, er hægt að setja upp umreikninga eininga fyrir hvert afbrigði. Hægt er að finna valmyndaratriðið til að opna síðu fyrir umreikning eininga í samhengi við afurð eða afurðarafbrigði á eftirfarandi síðum.
 

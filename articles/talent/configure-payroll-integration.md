@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ec1d14cb14ab709dfc1bead4be0785904efcce4e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 075b2bdfa08bb190f66b6d60074e1263feedcf70
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251040"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898535"
 ---
-# <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Skilgreina launasamþættingu milli Talent og Dayforce
-
-[!include [banner](includes/banner.md)]
+# <a name="configure-payroll-integration-between-talent-and-dayforce"></a>Skilgreina launasamþættinguna milli Talent og Dayforce
 
 Samþættingin milli Microsoft Dynamics 365 Talent og Ceridian Dayforce er byggir á nokkrum skilgreiningarskrefum sem er fjallað um í þessu efnisatriði. Nauðsynlegt er að skilgreina samþættinguna bæði í Talent og Dayforce áður en hafist er handa við að afgreiða launakeyrslu.
 

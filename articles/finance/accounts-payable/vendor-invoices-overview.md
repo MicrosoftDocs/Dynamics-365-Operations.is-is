@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9708c37f10cd08e6b98167fe24d9ae0380c3dac
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 411daa5bc08df530750fd5c09ca8b54bf537b548
+ms.sourcegitcommit: ba1c76497acc9afba85257976f0d4e96836871d1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772169"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2890328"
 ---
 # <a name="vendor-invoices-overview"></a>Yfirlit yfir reikninga lánardrottna
 
@@ -76,7 +76,7 @@ Hægt er að stofna reikning lánardrottins á grundvelli línuvara innhreyfinga
 
 Þetta ferli gerir ráð fyrir að minnsta kosti eitt innhreyfingarskjal afurða hafi verið bókað fyrir innkaupapöntunina. Reikningur lánardrottisins er byggður á viðkomandi innhreyfingarskjali afurða og endurspeglar magnið á þeim. Fjárhagslegar upplýsingar sem koma fram á reikningnum eru byggðar á upplýsingunum sem færðar eru inn þegar reikningurinn er bókaður.
 
-Frekari upplýsingar, sjá [Skrá reikning lánardrottins og bera saman við móttekið magn](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md).
+Frekari upplýsingar, sjá [Skrá reikning lánardrottins og bera saman við móttekið magn](../accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md).
 
 ## <a name="working-with-multiple-invoices"></a>Vinna með marga reikninga
 

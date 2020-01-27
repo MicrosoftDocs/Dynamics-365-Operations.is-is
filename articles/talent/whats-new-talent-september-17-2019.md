@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 97e55919309e3e95d21b4fdb14f913cf511280eb
-ms.sourcegitcommit: f853c8d46ffc8e578387bac4cd48a948916983ef
+ms.openlocfilehash: b7bdbbee7468eba100dedc96b5bcee7e03f249e1
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "2002574"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897282"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-september-17-2019"></a>Nýjungar eða breytingar í Dynamics 365 for Talent (17. september 2019)
-
-[!include [banner](includes/banner.md)]
 
 Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 for Talent.
 

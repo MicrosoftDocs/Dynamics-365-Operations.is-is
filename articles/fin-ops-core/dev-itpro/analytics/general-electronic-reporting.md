@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad6c1c7544f3c9d53b9d5759b246f81dae6cfe2c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7cd3e2ac729bdb3ecc8e7bfacb060e433b185f09
+ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771074"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2933933"
 ---
 # <a name="electronic-reporting-er-overview"></a>Yfirlit yfir rafræna skýrslugerð (ER)
 
@@ -51,12 +51,12 @@ ER-vélin hefur eftirfarandi getu:
 
 ER styður tvær gerðir íhluta **gagnalíkan** og **Snið**.
 
-#### <a name="data-model-components"></a>Íhlutir gagnalíkana
+#### <a name="data-model-and-model-mapping-components"></a>Gagnalíkan og íhlutir líkanavörpunar
 
 Þáttur gagnalíkans er óhlutbundin framsetning á gagnaskipulagi. Hann er notaður til að lýsa tilteknu viðskiptasviði með nægilegum upplýsingum til að tilkynningaskylda fyrir það svið sé uppfyllt. Íhlutir gagnalíkans samanstendur af eftirfarandi hluta:
 
-- Gagnalíkan sem hópur af viðskiptaeiningum fyrir tiltekin svið auk stigskiptra tengslaskilgreininga á milli þessara eininga.
-- líkanavörpun sem tengir völdum gagnagjöfum forrits við einstakar einingar gagnalíkans sem tilgreinir, við keyrslutíma, gagnaflæði og reglur viðskiptagagna við þætti gagnalíkans.
+- <a name="DataModelComponent"></a>Gagnalíkan sem hópur af viðskiptaeiningum fyrir tiltekin svið auk stigskiptra tengslaskilgreininga á milli þessara eininga.
+- <a name="ModelMappingComponent"></a>líkanavörpun sem tengir völdum gagnagjöfum forrits við einstakar einingar gagnalíkans sem tilgreinir, við keyrslutíma, gagnaflæði og reglur viðskiptagagna við þætti gagnalíkans.
 
 Viðskiptaeining gagnalíkans er birt sem geymir (skýrsla). Eiginleikar viðskiptaeininga eru sýndir sem gagnaatriði (svæði). Hvert gagnaatriði hefur einstakt heiti, merki, lýsingu og gildi. Hægt er að hanna virði hvers atriðis svo það sé viðurkennt sem strengur, heiltala, raunverulegt, dagsetning, tölusett, Boole-gildi o.s.frv. Þar að auki getur það verið önnur færsla eða færslulisti.
 
@@ -81,7 +81,7 @@ Líkanavörpun sem styður rafræn skjöl á innleið hefur eftirfarandi getu:
 
 Þáttur gagnalíkans er hannaður fyrir hvert viðskiptasvið sem nota á sem sameinaðan gagnagjafa fyrir skýrslugerð sem einangrar skýrslugerð frá efnislegri innleiðingu gagnagjafa. Hann sýnir viðskiptahugtök fyrir tiltekin svið og virkni í skjámynd sem gerir frumhönnun og frekara viðhald á skýrslugerðarsniði skilvirkara.
 
-#### <a name="format-components-for-outgoing-electronic-documents"></a>Sniðsþáttur fyrir rafræn skjöl á útleið
+#### <a name="FormatComponentOutbound"></a>Sniðsþáttur fyrir rafræn skjöl á útleið
 
 Snið er skema skýrsluúttaks sem myndast á keyrslutíma. Skema samanstendur af eftirfarandi þáttum:
 
@@ -107,7 +107,7 @@ Eftirfarandi dæmi sýnir gagnaflæðið fyrir þessi snið.
 
 Til að keyra eina sniðsskilgreiningu fyrir rafræna skýrslugerð og búa til rafrænt skjal til að senda út verður þú að auðkenna vörpun skilgreiningarsniðsins.
 
-#### <a name="format-components-for-incoming-electronic-documents"></a>Sniðsþættir fyrir rafræn skjöl á innleið
+#### <a name="FormatComponentInbound"></a>Sniðsþættir fyrir rafræn skjöl á innleið
 Sniðsþáttur er skema skjals á innleið sem er flutt inn á keyrslutíma. Skema samanstendur af eftirfarandi þáttum:
 
 - Snið sem skilgreinir skipulag og innihald rafræns skjals á innleið sem inniheldur gögn sem eru flutt inn á keyrslutíma. Sniðsþáttur er notaður til að þátta skjal á innleið á ýmis snið, eins og texta og XML.
@@ -144,7 +144,7 @@ Aðgangur ER sniðþátta fer eftir ISO-lands-/ svæðiskóða stillingum. Þega
 
 Mismunandi útgáfur af gagnasniðsþáttum mega vera með mismunandi stillingar ISO lands-/ svæðiskóða.
 
-#### <a name="configuration"></a>Stilling
+#### <a name="Configuration"></a>Stilling
 
 Skilgreining rafrænnar skýrslugerðar er pökkun tiltekins þáttar í rafrænni skýrslugerð. Sá þáttur getur annaðhvort verið gagnalíkansþáttur eða sniðsþáttur. Stilling getur innihaldið mismunandi útgáfur þáttar rafrænnar skýrslugerðar. Hver stilling er merkt sem eign tiltekinnar stillingarveitu. Útgáfan **Drög** af stillingarþætti er má breyta þegar eigandi stillingar hefur verið valinn sem virkur veitandi í ER-stillingum forritsins.
 
@@ -154,13 +154,13 @@ Sniðsskilgreining sem er stofnuð inniheldur sniðsþátt. Gagnalíkansþáttur
 
 Skilgreining ER er samnýtt fyrir forritsfyrirtækin.
 
-#### <a name="provider"></a>Veita
+#### <a name="Provider"></a>Veita
 
 ER-veitan er auðkenni aðila sem er notuð til að tilgreina höfund (eiganda) fyrir hverja ER-skilgreiningu. ER leyfir þér að að stjórna lista yfir veitendur skilgreininga. Skilgreiningarsnið sem eru gefin út fyrir rafrænt skjal sem hluti af lausn Finance and Operations eru merktar sem í eigu **Microsoft** skilgreiningarveitu.
 
 Til að fræðast um hvernig á að skrá nýja þjónustuveitu rafrænnar skýrslugerðar skaltu spila verkleiðbeiningarnar **Stofna veitanda skilgreiningar í rafrænni skýrslugerð og merkja sem virkan** (hluti af viðskiptaferlinu **7.5.4.3 Komast yfir/þróa þætti fyrir upplýsingatækniþjónustu/lausnir (10677)**).
 
-#### <a name="repository"></a>Geymsla
+#### <a name="Repository"></a>Geymsla
 
 ER-gagnasafn vistar ER-skilgreiningar. Eftirfarandi ER-gagnasöfn eru studd sem stendur: 
 

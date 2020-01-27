@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 474c7cc82aaccf6b3bcfb3bbe879725497961c43
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812834"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897144"
 ---
-# <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>Deildu efni með öðrum þátttakendum í Dynamics 365 Talent - Onboard
+# <a name="share-content-with-other-contributors"></a>Deildu efni með öðrum þátttakendum
 
 [!include [banner](includes/banner.md)]
 
@@ -34,7 +34,7 @@ Microsoft Dynamics 365 Talent: Onboard gerir þér kleift að deila þjálfunarl
 1. Á vinstri valmyndinni velurðu **Leiðbeiningar** og síðan leiðbeiningarnar sem þú vilt deila.
 2. Veldu hnappinn **Meira** (þrír lóðréttu punktarnir) efst í hægra horni síðunnar og veldu síðan **Deila**.
 
-    ![[Deildu þjálfunarleiðbeiningum með öðrum þátttakendum](/media/onboard-share-guide.png)](./media/onboard-share-guide.png)
+    ![[Deildu þjálfunarleiðbeiningum með öðrum þátttakendum](./media/onboard-share-guide.png)](./media/onboard-share-guide.png)
 
 3. Undir **Deila með**, ef viðtakendur ættu að geta endurskoðað leiðbeiningarnar skaltu stilla valkostinn **Geta þessir einstaklingar gert breytingar?** á **Kveikt**. Ef tilkynna ætti viðtakendum með tölvupósti að þú hafir deilt leiðbeiningunum með þeim skaltu stilla valkostinn **Senda tilkynningu í tölvupósti til viðtakenda** á **Kveikt**.
 

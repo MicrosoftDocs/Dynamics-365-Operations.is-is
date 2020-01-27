@@ -3,7 +3,7 @@ title: Skilgreina og viðhalda Smásölurásir
 description: Þessi skrá veitir yfirlit yfir ferlið fyrir uppsetningu hefðbundinna verslana sem vísað er til sem smásöluverslanir í Dynamics 365 Retail. Það felur í sér upplýsingar um þau verk sem ljúka verður bæði áður en eða eftir að þú hefur lokið við að setja upp smásöluverslun.
 author: mugunthanm
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f55099ad283e665965aad0684b3c9d87223d5ed7
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 45d0386d215da15103a417502debb245c91f6309
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019371"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934609"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Skilgreina og viðhalda Smásölurásir
 
@@ -85,3 +85,6 @@ Eftir að þú slærð inn upplýsingar fyrir smásöluverslun þarf að ljúka 
 ## <a name="organization-hierarchies"></a>Stigveldi fyrirtækis
 
 Retail notar stigveldi stofnunar fyrir uppbyggingu smásölurás. Stigveldi fyrirtækis standa fyrir vensl á milli fyrirtækja sem þú ert með saman í rekstri. Þegar að settar eru upp verslanir er hægt að bæta þeim við stigveldi fyrirtækis. Verslanir deila sem notaður er fyrir úrval áfyllingar og skýrslugerð.
+
+> [!NOTE]
+> Til að nota söluaðgerðir Retail verður stillingarlykilinn fyrir **Sent mörgum** að vera virkur. Þennan stillingarlykil er að finna í lyklunum **Stillingu viðskipta** undir **Kerfisstjórnun**\> **Uppsetning** \> **Stilling leyfis**. Þetta er nauðsynlegt vegna Retail- aðgerða sem framkvæma ýmsar sannprófanir á grundvelli afhendingarfangs sem er stillt á sölupöntunarlínustig.

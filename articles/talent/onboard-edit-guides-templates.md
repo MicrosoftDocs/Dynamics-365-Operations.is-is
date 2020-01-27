@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 291f7aefac61c26dfab81cfff28c1c6580d46de5
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812880"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897121"
 ---
-# <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>Breyta nýliðakynnngu og -sniðmátum í Dynamics 365 Talent - Onboard
+# <a name="edit-onboarding-guides-and-templates"></a>Breyta nýliðakynnngu og -sniðmátum
 
 [!include [banner](includes/banner.md)]
 
@@ -129,7 +129,7 @@ Til að senda breytingarnar þínar:
     - Til að bæta við Microsoft Forms-skjámynd skaltu draga **Microsoft Forms**-liðinn yfir á klippusvæðið, slá inn heiti og lýsingu á verkþættinum, slá inn slóðina fyrir Microsoft Forms-skjámyndina og tilgreina stærð skjásvæðisins.
     - Til að bæta við iframe sem inniheldur vefefni skaltu draga liðinn **Vefefni (iframe)** yfir á klippusvæðið, slá inn heiti og lýsingu á verkþættinum, slá inn slóðina fyrir Microsoft Forms-skjámyndina og tilgreina stærð skjásvæðisins.
 
-    ![[Nýju ríkulegu efni bætt við þjálfunarleiðbeiningar eða -sniðmát](./media/onboard-edit-rich-content.png)](./media/onboard-edit-add-rich-content.png)
+    ![[Nýju ríkulegu efni bætt við þjálfunarleiðbeiningar eða -sniðmát](./media/onboard-edit-add-rich-content.png)](./media/onboard-edit-add-rich-content.png)
 
 2. Valfrjálst: Á svæðinu hægra megin við hvern verkþátt skal úthluta verkþættinum á ákveðinn aðila eða hlutverk, bæta við gjalddaga og tengilið og úthluta lit á flokkinn. Þegar þú úthlutar verkþætti á annan einstakling eða hlutverk er verkefni stofnað fyrir hvern einstakling. Þetta verkefni birtist á valmyndinni **Verk** í Onboard.
 

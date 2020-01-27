@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2632632b9b21dd3a88e9a4df0e65cfd28e579d2
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 10dab1e62446ff7f60ad48fd0841bde5cfd29e12
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697452"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945514"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Uppsetning á nýjum leigjanda rafrænna viðskipta
 
@@ -88,16 +88,16 @@ Til að fá aðgang að höfundarumhverfinu skaltu fara í flipann **rafræn vi�
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit netverslunar](online-store-overview.md)
+[Skilgreina lénsheiti](configure-your-domain-name.md)
 
 [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
 
 [Tengja netsvæði við rás](associate-site-online-store.md)
 
-[Skilgreina lénsheiti](configure-your-domain-name.md)
+[Stjórna robots.txt-skrám](manage-robots-txt-files.md)
+
+[Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)
 
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
 
 [Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)
-
-[Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)

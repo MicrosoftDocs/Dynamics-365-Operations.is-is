@@ -3,7 +3,7 @@ title: Afurðasafnseiningar
 description: Þetta efni veitir yfirlit yfir afurðasafnseiningar í Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 44f78b55b8e67b7358be75aa63c40a0147507e26
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: 31307035014f2fae6146f33bc23e3e06103f82eb
+ms.sourcegitcommit: c237123ad94d9418994ac095fbd8634c05a927b1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785468"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943264"
 ---
-# <a name="product-collection-modules"></a>Afurðasafnseiningar  
+# <a name="product-collection-modules"></a>Afurðasafnseiningar
 
 [!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
@@ -37,18 +37,19 @@ Vöruuppgötvun er aðalverkfærið sem smásalar nota til að eiga samskipti vi
 
 Afurðasafnseiningar tákna efnislegar vörur og þjónustu á vefsíðunni. Afurðasafnseining er venjulega tengd við upplýsingasíðu þar sem viðskiptavinir geta keypt vöru eða þjónustu, eða kynnt sér það meira. 
 
-Heimildir fyrir afurðasafni geta verið listar af þremur gerðum:
+Heimildir fyrir afurðasafni geta verið listar af eftirfarandi fjórum gerðum:
 
 - Ristjórnartlistar yfir afurðir sem eru skilgreindar handvirkt í Dynamics 365 Retail sem skyldar afurðir fyrir afurð, eða afurðalista
 - Reikniritlistar, svo sem listar yfir nýjar, mest seldu eða vinsælar afurðir
 - Tilmælalistar sem eru byggðir á vélanámi
+- Sérstillingarlistar sem styðja aðlagaðar niðurstöður fyrir viðskiptavini. Viðskiptavinir verða að vera skráðir inn á netverslunarsíðuna til að sjá aðlagaðar niðurstöður. Gestanotendur sjá ekki aðlagaðar niðurstöður. Viðskiptavinir geta afþakkað sérstillingu af [stjórnunarsíðu reikninga](account-management.md).
 
 Eftirfarandi mynd sýnir mismunandi gerðir af afurðasöfnum sem notaðar eru á netverslunarsíðu.
 
 ![Dæmi um mismunandi tegundir afurðasafna á netverslunarsíðu](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
 
 > [!NOTE]
-> Notaðu ávallt afurðasafnseiningar til að sýna hóp af afurðum af svipaðri gerð eða þema.
+> Notaðu ávallt afurðasafnseiningar til að sýna hóp af afurðum af svipaðri gerð.
 
 ## <a name="product-collection-modules-and-types"></a>Afurðasafnseiningar og gerðir
 
@@ -56,15 +57,15 @@ Eftirfarandi tafla lýsir ýmsum gerðum af afurðasafnseiningum í Dynamics 365
 
 | Afurðasafnseining  | Gerð | Lýsing |
 |----------------------------|------|-------------|
-| Flett í tegund            | Ritill | Þessi gerð af afurðasafnseiningunni notar tegundastigveldi yfirlitsflokks sem smásalinn bjó til fyrir smásölurás til að sýna flettiflæði fyrir afurðir sem eru í boði í tilteknum vefflokki. |
-| Leitarniðurstöður             | Leitarfyrirspurn | Þessi gerð afurðasafnseininga sýnir lista yfir vörur sem passa best við leitarfyrirspurnina sem viðskiptavinurinn sló inn. |
-| Tengdar afurðir           | Ritill | Þessi gerð af afurðasafnseiningum sýnir lista yfir afurðir sem verslunarstjóri hefur stillt sem tengdar afurðir í Retail, fyrir þá tengslagerð sem höfundur valdi. |
-| Sérvaldir afurðalistar      | Ritill | Þessi gerð afurðasafnseininga sýnir sérsniðna lista sem söluaðilar og ritstjórar hafa búið til í Retail. |
-| Nýjar                        | Reiknirit | Þessi gerð af afurðasafnseiningum sýnir lista yfir nýjustu vörurnar sem hafa verið settar á rásir og vörulista. |
-| Mest selt               | Reiknirit | Þessi gerð af afurðasafnseiningum sýnir lista yfir vörur sem raðað er eftir mestum fjölda sölu. |
-| Vinsælt                   | Reiknirit | Þessi gerð afurðasafnseininga sýnir lista yfir vörur sem skila mestum árangri á tilteknu tímabili. |
-| Oft keypt saman | Gervigreind/Vélanám | Þessi gerð af afurðasafnseiningunni notar vélnám til að greina kaupmynstur neytenda og mæla með skyldum vörum sem eru oft keyptar ásamt tiltekinni afurð. |
-| Fólki líkar einnig við           | Gervigreind/Vélanám | Þessi gerð af afurðasafnseiningunni notar vélnám til að greina kaupmynstur neytenda og mæla með vörum sem eru skyldar tiltekinni afurð. |
+| Tegund                   | Tegund | Þessi eining sýnir lista yfir vörur í flokknum eins og hann er skilgreindur í stigveldi flokksins sem smásalinn bjó til fyrir smásölurás. |
+| Tengdar afurðir           | Ritill | Þessi eining sýnir lista yfir afurðir sem verslunarstjóri hefur stillt sem tengdar afurðir í Retail, fyrir þá tengslagerð sem höfundur hefur valið. |
+| Sérvaldir afurðalistar      | Ritill | Þessi eining sýnir sérsniðna lista sem söluaðilar og ritstjórar hafa búið til í Retail. |
+| Nýjar                        | Reiknirit | Þessi eining sýnir lista yfir nýjustu afurðirnar sem hafa verið flokkaðar í rásir og vörulista. Þessi listi getur sýnt sérsniðnar niðurstöður fyrir innritaðan notanda ef vefhöfundur velur þann valkost. |
+| Mest selt               | Reiknirit | Þessi eining sýnir lista yfir vörur sem eru metnar með mesta sölu. Þessi listi getur sýnt sérsniðnar niðurstöður fyrir innritaðan notanda ef vefhöfundur velur þann valkost. |
+| Vinsælt                   | Reiknirit | Þessi eining sýnir lista yfir vörur sem skila mestum árangri á tilteknu tímabili. Þessi listi getur sýnt sérsniðnar niðurstöður fyrir innritaðan notanda ef vefhöfundur velur þann valkost. |
+| Oft keypt saman | Gervigreind/Vélanám | Þessi eining notar vélnám til að greina kaupmynstur neytenda og mæla með skyldum vörum sem eru oft keyptar ásamt tiltekinni afurð. Þessi listi getur sýnt sérsniðnar niðurstöður fyrir innritaðan notanda ef vefhöfundur velur þann valkost. |
+| Fólki líkar einnig við           | Gervigreind/Vélanám | Þessi eining notar vélnám til að greina kaupmynstur neytenda og mæla með vörum sem tengjast tiltekinni afurð. Þessi listi getur sýnt sérsniðnar niðurstöður fyrir innritaðan notanda ef vefhöfundur velur þann valkost. |
+| Tillögur fyrir þig              | Gervigreind/Vélanám | Þessi eining notar vélnám til að greina kaupmynstur innritaðs notanda og veita persónulegar ráðleggingar sem eru byggðar á þessum kaupmynstri. Fyrir gestanotanda verður þessi listi felldur saman. |
 
 ## <a name="add-a-product-collection-module-to-a-category-page"></a>Bæta afurðasafnseiningu við flokksíðu
 
@@ -74,7 +75,8 @@ Til að bæta afurðasafnseiningu við flokksíðu skaltu fylgja þessum skrefum
 1. Í síðuútlínunum velurðu hólfið **Undirsíðufótur**, velur úrfellingarhnappinn (**...**) og velur síðan **Bæta við einingu**.
 1. Í svarglugganum **Bæta við einingu** skal velja **Gám** og síðan smella á **Í lagi**.
 1. Í gámaeiningunni skaltu velja úrfellingarhnappinn og veldu síðan **Bæta við einingu**.
-1. Í svarglugganum **Bæta við einingu** skal velja **Afurðasafn** og síðan smella á **Í lagi**.
+1. Í svarglugganum **Bæta við einingu** skal velja **Afurðasafn** og síðan smella á **Í lagi**.  
+![Dæmi um leiðsagnarflæði vöruöflunareiningar](./media/productCollectionModule.png)
 1. Stilltu stillingar með því að velja viðeigandi gagnagjafa og inntak fyrir afurðasafnið.
 1. Í eiginleikaglugganum fyrir afurðasafnseininguna velurðu **Bæta við afurðalista**.
 1. Í valmyndinni **Velja stillingu afurðalista** velurðu gerð listans, slærð inn fjölda vara og veldu hvaða valkosti sem eru tiltækir fyrir listategundina. Nánari upplýsingar um listagerðir er að sjá í töflunni sem fylgir. 
@@ -82,15 +84,16 @@ Til að bæta afurðasafnseiningu við flokksíðu skaltu fylgja þessum skrefum
 1. Vistaðu síðuna og skráðu hana inn.
 
 Eftirfarandi tafla sýnir listagerðirnar sem hægt er að velja í valmyndinni **Velja stillingu afurðalista**.
-   
-| Gerð                       | Lýsing | Almenn venja | Samhengi sem hægt er að fá út frá samhengi síðunnar | Samhengi sem höfundur getur hnekkt síðusamhengi með |
-|----------------------------|-------------|------------------|-------------------------------------|-----------------------------------------------|
-| Afurðir eftir flokki       | Listi yfir afurðir sem tilheyra tilteknum flokki. Þessi flokkur er ákvörðaður út frá annaðhvort síðasamhengi eða samhengi sem höfundur býður upp á. | Auðgaðu flokksíðu, heimasíðuna, kassa- og körfusíður og vörusíður | Tegund | Flokkur ákveðinn af höfundi |
-| Tengdar afurðir           | Listi yfir afurðir sem verslunarstjóri hefur stillt sem tengdar vörur í Retail fyrir tengslagerð. | Afurðasíður, kassa- og körfusíður, óskalistasíða og síður viðskiptavinareikninga | Afurð, tengslagerð (skylda)  | Afurðar, tengslagerð |
-| Sérvalið                    | Sérsniðinn listi sem söluaðilar og ritstjórar hafa búið til í Retail. | Auðgaðu flokksíðu, heimasíðuna, kassa- og körfusíður og vörusíður | Á ekki við | Listatiltekt |
-| Reiknirit                | <ul><li>**Nýtt** - Listi yfir nýjustu afurðirnar sem hafa verið flokkaðar í rásir og vörulista.</li><li>**Mest selt** - Listi yfir vörur sem eru metnar með mesta sölu.</li><li>**Vinsælt** - Listi yfir vörur sem skila mestum árangri á tilteknu tímabili.</li></ul> | Heimasíða, auðguð flokkasíða og kassa- og körfusíður | Tegund | Flokkur ákveðinn af höfundi |
-| Oft keypt saman | Listi sem notar vélnám til að greina kaupmynstur neytenda og mæla með skyldum vörum sem eru oft keyptar ásamt tiltekinni afurð. | Afurðasíður og kassa- og körfusíður | Afurð, karfa | Hafa körfu með |
-| Fólki líkar einnig við           | Listi sem notar vélnám til að greina kaupmynstur neytenda og mæla með vörum sem tengjast tiltekinni afurð. | Afurðasíður og kassa- og körfusíður | Afurð, karfa | Á ekki við |
+
+| Gerð                       | Lýsing | Notkun | Samhengi síðu | Tilgreint samhengi | Sérstilling |
+|----------------------------|-------------|-------|--------------|------------------|-----------------|
+| Afurðir eftir flokki       | Listi yfir afurðir sem tilheyra tilteknum flokki. Þessi flokkur er ákvörðaður út frá annaðhvort síðasamhengi eða samhengi sem höfundur býður upp á. | Þessa tegund lista er hægt að nota á hvaða síðu sem er (til dæmis heimasíða, flokkasíðu, markaðssíðu eða upplýsingasíðu vöru \[PDP\]) til að kynna ákveðinn vöruflokk. | Flokkur úr samhengi síðunnar, þar sem það er tiltækt (til dæmis flokkasíðu) | Höfundur getur veitt ákveðinn flokk sem samhengi fyrir listann. | Á ekki við |
+| Tengdar afurðir           | Listi yfir afurðir sem verslunarstjóri hefur stillt sem tengdar vörur fyrir tengslagerð í Retail. | Þessi tegund lista er aðallega notuð á PDP, en það er hægt að nota það á hvaða síðu sem er ef móðurvara er til staðar. | Vara af síðunni, tengslagerð (skylda) | Hægt er að velja vöruna í valinu og tengslagerðin er notuð. | Á ekki við |
+| Sérvalið                    | Sérsniðinn listi sem söluaðilar og ritstjórar hafa búið til í Retail. | Auðgaðu flokksíðu, heimasíðuna, kassa- og körfusíður og vörusíður | Á ekki við | Á ekki við | Á ekki við |
+| Reiknirit                | <ul><li>**Nýtt** - Listi yfir nýjustu afurðirnar sem hafa verið flokkaðar í rásir og vörulista.</li><li>**Mest selt** - Listi yfir vörur sem eru metnar með mesta sölu.</li><li>**Vinsælt** - Listi yfir vörur sem skila mestum árangri á tilteknu tímabili.</li></ul> | Heimasíða, auðguð flokkasíða og kassa- og körfusíður | Flokkur úr samhengi síðunnar (til dæmis flokkasíðu) | Flokkurinn sem ræðst af höfundi vefsvæðisins | Stutt |
+| Oft keypt saman | Listi sem notar vélnám til að greina kaupmynstur neytenda og mæla með skyldum vörum sem eru oft keyptar ásamt tiltekinni afurð. | Þessi tegund af lista á aðeins við um körfusíðuna. | Karfa | Á ekki við | Stutt |
+| Fólki líkar einnig við           | Listi sem notar vélnám til að greina kaupmynstur neytenda og mæla með vörum sem tengjast tiltekinni afurð. | Þessi tegund lista er notuð á PDP til að sýna vörur sem aðrir viðskiptavinir hafa keypt. | Vörusamhengi af síðunni | Varan sem er úthlutuð af höfundi vefsvæðisins | Stutt |
+| Tillögur fyrir þig              | Listi sem notar vélnám til að ákvarða óskir viðskiptavina. | Þessa tegund lista er hægt að nota á hvaða síðu sem er. | Á ekki við| Á ekki við | Stutt | 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -98,7 +101,7 @@ Eftirfarandi tafla sýnir listagerðirnar sem hægt er að velja í valmyndinni 
 
 [Myndaræmueining](add-carousel.md)
 
-[Eining með fjölbreyttu efni](add-content-rich-block.md)
+[Eining fyrir bálk með fjölbreytt efni](add-content-rich-block.md)
 
 [Eining staðsetningar efnis](add-content-placement-modules.md)
 
@@ -106,3 +109,4 @@ Eftirfarandi tafla sýnir listagerðirnar sem hægt er að velja í valmyndinni 
 
 [Kaupgluggaeining](add-buy-box.md)
 
+[Yfirlit yfir afurðarráðleggingar](product-recommendations.md)

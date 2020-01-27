@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a2ff8b46d20fa012cbce817ae4e95b4799149ec
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f72f12e8afdf190865a77fc6153c0c0a111e5a7
+ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175468"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2888610"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Skoða bókaðar VSK-færslur
 
@@ -29,13 +29,13 @@ ms.locfileid: "2175468"
 
 Þetta efni lýsir nokkrum leiðum til að skoða bókaðar færslur virðisaukaskatts. Hægt er að skoða bókaðar færslur virðisaukaskatts af ýmsum síðum eftir því hvað þarf að skoða. Þetta verkefni notar USMF-sýnifyrirtækið.
 
-# <a name="posted-sales-tax-page"></a>Síðan Bókaður virðisaukaskattur
+## <a name="posted-sales-tax-page"></a>Síðan Bókaður virðisaukaskattur
 
 1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Skattur > Fyrirspurnir og skýrslur > Fyrirspurnir um virðisaukaskatt > Bókaður virðisaukaskattur**.
 2. Veldu **Sýna síur** til að þrengja útsýnið að sérstökum færslum.
 3. Lokið síðunni.
 
-# <a name="sales-tax-settlement-periods-page"></a>Síðan uppgjörstímabil virðisaukaskatts
+## <a name="sales-tax-settlement-periods-page"></a>Síðan uppgjörstímabil virðisaukaskatts
 
 1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Skattur > Óbeinir skattar > Virðisaukaskattur- > VSK-uppgjörstímabil**.
 2. Útvíkkaðu hlutann **Tímabil**.
@@ -43,7 +43,7 @@ ms.locfileid: "2175468"
 4. Frekar er hægt að sía lista yfir bókaðar virðisaukaskattsfærslur.
 5. Lokið síðunni.
 
-# <a name="sales-tax-codes-page"></a>Síðan Kóðar virðiskaukaskatts
+## <a name="sales-tax-codes-page"></a>Síðan Kóðar virðiskaukaskatts
 
 1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Skattur > Óbeinir skattar > Virðisaukaskattur > Kóðar virðisaukaskatts**.
 2. Á Aðgerðasvæðinu skal velja **Kóði virðisaukaskatts**.

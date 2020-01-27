@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ebfaeb0696d7200ddf3c715f96a259b91db08e7a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3376a9aec5c0003e9cc7c076c4d221a697df61ce
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518256"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898295"
 ---
 # <a name="leave-and-absence-management"></a>Stjórnun leyfis og fjarvista
-
-[!include [banner](includes/banner.md)]
 
 **Stjórnun leyfa og fjarvista** kerfiseining býður upp á sveigjanlegan rammi til að skilgreina stjórnunarferlið tengt fjarvistum. Áætlanir um leyfi og fjarvistir er hægt að stofna til að ákvarða hvernig starfsmenn safna upp eða er veitt leyfi. Eftir að starfsmenn eru skráðir í áætlun, geta þeir sent inn beiðnir um leyfi fyrir stjórnendur að samþykkja. Rakning leyfis sýnir bæði fyrsta-stigs stjórnendum og mannauðsstjórum (HR) hver er í leyfi og hversu langt leyfi hver starfsmaður á ennþá inni.  
 

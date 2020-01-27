@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 2a245891e2e3e8c0eae4f28d0932776c3ee976dc
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 0f4d2b8e5f78c5815c5ad7e5eae0d13ad7d15c12
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832816"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898690"
 ---
 # <a name="formalize-business-processes"></a>Gera viðskiptaferli formleg
-
-[!include [banner](includes/banner.md)]
 
 Eiginleikinn Viðskiptaferli gerir þér kleift að búa til sniðmát viðskiptaferlis, fyrir viðskiptaferli sem ljúka verður innan fyrirtækisins. Til dæmis lýkur fyrirtækið þitt endurskoðun mannauðsstjórnunar á hverju ári. Í þessu tilviki er hægt að búa til sniðmát sem fylgist með öllum verkþáttum sem endurskoðunarferlið samanstendur af. Þetta sniðmát getur þá hjálpað til við að tryggja að allir verkþættir séu framkvæmdir í hvert skipti sem endurskoðunin er gerð. Að auki, ef verkþáttum skal lokið í ákveðinni röð, getur sniðmátið hjálpað til við að tryggja að þeir séu framkvæmdir í réttri röð.
 

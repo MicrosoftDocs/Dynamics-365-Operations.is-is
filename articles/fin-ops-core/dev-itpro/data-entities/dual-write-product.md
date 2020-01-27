@@ -3,7 +3,7 @@ title: Sameinuð vöruupplifun
 description: Þetta efni lýsir samþættingu afurðargagna milli forrita Finance and Operations og Common Data Service.
 author: t-benebo
 manager: AnnBe
-ms.date: 09/3/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: bcc2c3d2530153a225a94fa0fb3cc990abbf65b4
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7df9097feeb9566705f50f8a62809aa79dc10cd7
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769730"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914772"
 ---
 # <a name="unified-product-experience"></a>Sameinuð vöruupplifun
 
@@ -52,7 +52,7 @@ Afurðarupplýsingar innihalda allar upplýsingar sem tengjast vörunni og skilg
 
 Finance and Operations | Önnur Dynamics 365 forrit | Lýsing
 -----------------------|--------------------------------|---
-Útgefnar afurðir V2 | msdyn\_sharedproductdetails | Einingin **msdyn\_sharedproductdetails** inniheldur reitina úr forritum Finance and Operations sem skilgreina afurðina og innihalda fjárhags- og stjórnunarupplýsingar afurðarinnar. Eftirfarandi tafla sýnir vörpun.
+Útgefnar afurðir V2 | msdyn\_sharedproductdetails | Einingin **msdyn\_sharedproductdetails** inniheldur reitina úr forritum Finance and Operations sem skilgreina afurðina og innihalda fjárhags- og stjórnunarupplýsingar afurðarinnar. 
 Common Data Service útgefnar einkvæmar afurðir | Afurð | Einingin **Afurð** inniheldur reitina sem skilgreina afurðina. Hún felur í sér einstakar afurðir (afurðir með undirgerðaafurð) og afurðarafbrigðin. Eftirfarandi tafla sýnir vörpun.
 Afurðarnúmer sem eru auðkennd með strikamerki | msdyn\_productbarcodes | Strikamerki afurða eru notuð til að bera kennsl á afurðir á einkvæman hátt.
 Sjálfgefnar pöntunarstillingar | msdyn\_productdefaultordersettings
@@ -74,7 +74,7 @@ Umreikningur eininga | msdyn_ unitofmeasureconversions
 Afurðatengd umskráning mælieiningar | msdyn_productspecificunitofmeasureconversion
 Afurðartegundir | msdyn_productcategories | Hver vöruflokkur og upplýsingar um uppbyggingu hans og einkenni eru að finna í vöruflokkseiningunni. 
 Tegundastigveldi afurðar | msdyn_productcategoryhierarhies | Þú notar vöruveldi til að flokka eða flokka vörur. Flokkastigveldin eru fáanleg í Common Data Service með því að nota afurðaflokkastigveldið. 
-Hlutverk tegundastigveldis afurðar | msdyn_productcategoryhierarchies | Hægt er að nota vöruveldi fyrir mismunandi hlutverk í D365 Finance and Operations. Tilgreindu hvaða flokkur er notaður í hverju hlutverki hlutaflokkurinn fyrir vöruflokkinn er notaður með eftirfarandi vörpunum. 
+Hlutverk tegundastigveldis afurðar | msdyn_productcategoryhierarchies | Hægt er að nota vöruveldi fyrir mismunandi hlutverk í D365 Finance and Operations. Tilgreindu hvaða flokkur er notaður í hverju hlutverki hlutaflokkurinn fyrir vöruflokkinn er notaður. 
 Úthlutanir afurðategundar | msdyn_productcategoryassignments | Til að úthluta vöru í flokk er hægt að nota eininguna fyrir vöruflokkaúthlutanir.
 
 ## <a name="integration-of-products"></a>Samþætting á afurðum

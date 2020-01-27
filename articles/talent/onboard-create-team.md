@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8090fafc891d874c3f4fb646fe22a2b783ce37aa
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7057c5b24ee3ae03574ec106a0c7d268dfffb98e
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814836"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897190"
 ---
-# <a name="create-a-hiring-team-by-using-dynamics-365-talent---onboard"></a>Stofna ráðningarteymi með Dynamics 365 Talent - Onboard
+# <a name="create-a-hiring-team"></a>Búa til ráðningarhóp
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +35,7 @@ ms.locfileid: "2814836"
 2. Undir **Teymin** velurðu reitinn **Bæta við** (plúsmerki \[**+**\]).
 3. Í valmyndinni **Stofna nýtt teymi**, undir **Heiti hóps**, slærðu inn heiti ráðningateymisins.
 
-    ![[Að búa til nýtt teymi í Onboard](./ media / onboard-create-team.png)](./media/onboard-create-team.png)
+    ![[Að búa til nýtt teymi í Onboard](./media/onboard-create-team.png)](./media/onboard-create-team.png)
 
 4. Undir **Velja hópmeðlimi** slærðu inn nafn eða netfang hvers hópmeðlims.
 
@@ -51,11 +51,11 @@ ms.locfileid: "2814836"
 2. Veljdu teymið.
 3. Á flipanum **Kynningar** velurðu **Bæta við kynningum**.
 
-    ![[Að bæta við þjálfunarleiðbeiningar í teymi](./media/onboard-add-guide-to-team.png)](./media/onboard-add-guides-to-team.png)
+    ![[Að bæta við þjálfunarleiðbeiningum í teymi](./media/onboard-add-guides-to-team.png)](./media/onboard-add-guides-to-team.png)
 
 4. Veldu gátreitinn fyrir hverjar þjálfunarleiðbeiningar sem þú vilt úthluta teyminu og veldu síðan **Bæta við**.
 
-    ![[Að velja þjálfunarleiðbeiningar til að bæta við í teymi](./media/onboard-add-guide-to-team.png)](./media/onboard-select-guides.png)
+    ![[Að velja þjálfunarleiðbeiningar til að bæta við í teymi](./media/onboard-select-guides.png)](./media/onboard-select-guides.png)
 
 ## <a name="assign-onboarding-templates-to-a-hiring-team"></a>Úthlutaðu sniðmátum nýliðaþjálfunar til ráðningateymis
 
