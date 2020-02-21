@@ -1,9 +1,9 @@
-Þegar gagnagrunnur er afritaður á milli umhverfa þarftu að keyra endurúthlutunarverkfæri áður en afritaði gagnagrunnurinn nær fullri virkni til að tryggja að allir Retail-íhlutir séu uppfærðir.
+Þegar gagnagrunnur er afritaður á milli umhverfa þarf að keyra endurúthlutunarverkfæri áður en afritaði gagnagrunnurinn nær fullri virkni til að tryggja að allir Commerce-íhlutir séu uppfærðir.
 
 > [!IMPORTANT]
-> Mælt er með því að þetta ferli sér keyrt hvort sem Retail-íhlutir eru notaðir eða ekki þar sem virkni Retail er hluti af öllum tegundum umhverfis. 
+> Mælt er með því að þetta ferli sé keyrt hvort sem Commerce-íhlutir eru notaðir eða ekki þar sem virkni Commerce er hluti af öllum tegundum umhverfis. 
 
-Áður en þú heldur áfram þarftu að ganga úr skugga um að eftirfarandi skilyrði séu uppfyllt:
+Áður en haldið er áfram þarf að ganga úr skugga um að eftirfarandi skilyrði séu uppfyllt:
 1. Ef þú ert að uppfæra í útgáfuna frá júlí 2017 (einnig kölluð 7.2) 7.2.11792.56024 skaltu nota eftirfarandi X++ bráðabætur forrits í umhverfi viðtökustaðar áður en gagnauppfærslan er keyrð í því umhverfi. Þetta kemur í veg fyrir að fjöldi af villum komi upp við gagnauppfærsluna:
 
     - KB 4036156 – uppfærsla á lítilli útgáfu Retail – „númeraröð vöruvíddasamsetningar er ekki tilgreind.“ Þessi lagfæringarpakki inniheldur einnig KB 4035399 og KB 4035751. Athugið að til að nota þennan pakka þarf verkvangsuppfærsla 9 eða nýrri að vera til staðar. Ef óvissa er um það skal setja upp nýjustu tvíundaskrár.

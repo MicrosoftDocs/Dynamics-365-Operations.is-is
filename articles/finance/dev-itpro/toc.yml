@@ -76,7 +76,7 @@
       href: ../../dev-itpro/data-entities/integration-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: API samþættingar gagna
       items:
-        - name: Gagnastjórnunarpakki REST API
+        - name: REST API-gagnastjórnunarpakki
           href: ../../dev-itpro/data-entities/data-management-api.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Endastöðvar þjónustu
           items:
@@ -92,7 +92,7 @@
           href: ../../dev-itpro/data-entities/recurring-integrations.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Prófa þjónustu með hjálparforriti þriðju aðila
           href: ../../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: Tengill Finance and Operations
+    - name: Finance and Operations Tengill
       href: ../../dev-itpro/data-entities/fin-ops-connector.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: Þróun fyrir samþættingu
       items:
@@ -120,13 +120,13 @@
                   href: ../../dev-itpro/data-entities/dual-write-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: Stigveldi fyrirtækis í Common Data Service
                   href: ../../dev-itpro/data-entities/dual-write-organization.md?toc=/dynamics365/unified-operations/financials/toc.json
-                - name: Fyrirtækishugtak í Common Data Service
+                - name: Fyrirtækishugtak í Common Data Services
                   href: ../../dev-itpro/data-entities/dual-write-company.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: Samþættur aðalviðskiptavinur
                   href: ../../dev-itpro/data-entities/dual-write-customer.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: Samræmd afurðaupplifun
                   href: ../../dev-itpro/data-entities/dual-write-product.md?toc=/dynamics365/unified-operations/financials/toc.json
-                - name: Samþættur aðallánardrottinn
+                - name: Samþætt lánardrottinssniðmát
                   href: ../../dev-itpro/data-entities/dual-write-vendor.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: Samþætt svæði og vöruhús
                   href: ../../dev-itpro/data-entities/dual-write-sites-and-warehouses.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -146,7 +146,7 @@
                       href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: Samstilla tengiliði beint úr Sales við tengiliði eða viðskiptavini í Finance and Operations
                       href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: Samstilla hausa og línur sölutilboðs beint úr Sales við Finance and Operations
+                    - name: Samstilla hausa og línur sölutilboðs beint úr Sales í Finance and Operations
                       href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: Samstilling sölupantana beint milli Sales og Finance and Operations
                       href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -168,9 +168,9 @@
                       href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: Samstilla afurðir með birgðaeiningu úr Finance and Operations við Field Service
                       href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: Samstilla verklista úr Finance and Operations við Field Service
+                    - name: Samstilla verklista úr Finance and Operations í Field Service
                       href: ../../supply-chain/sales-marketing/synchronize-project-list.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: Samstilla vöruhús úr Finance and Operations við Field Service
+                    - name: Samstilla vöruhús úr Finance and Operations í Field Service
                       href: ../../supply-chain/sales-marketing/synchronize-warehouse.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: Samstilla vinnupantanir við verk úr Field Service í Finance and Operations
                       href: ../../supply-chain/sales-marketing/synchronize-work-orders.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -332,7 +332,7 @@
           href: ../../dev-itpro/deployment/arm-onboarding.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Azure ExpressRoute og Finance and Operations
           href: ../../dev-itpro/deployment/expressroute.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: Skipulag Finance and Operations
+        - name: Finance and Operations skipulag
           href: ../../fin-and-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Nota uppfærslur á skýjaumhverfi
           href: ../../dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -472,7 +472,7 @@
           href: ../../dev-itpro/dev-tools/metadata-search-visual-studio.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Líkön og pakkar
           href: ../../dev-itpro/dev-tools/models.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: Gerð verks í Finance and Operations
+        - name: Finance and Operations verkgerð
           href: ../../dev-itpro/dev-tools/projects.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Verkfærainnbætur fyrir Visual Studio
           href: ../../dev-itpro/dev-tools/developer-tools-add-ins.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -862,7 +862,7 @@
           href: ../../dev-itpro/gdpr/gdpr-extend-person-search-report.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Stjórna aðgangi að viðkvæmum gögnum
           href: ../../dev-itpro/gdpr/gdpr-auditing-sensitive-data.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: Svara beiðnum um persónuleg gögn með Talent
+        - name: Svara beiðnum um persónuleg gögn með mannauði
           href: ../../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Svara beiðnum um persónuleg gögn í AX 2012
           href: ../../dev-itpro/gdpr/gdpr-ax2012.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -1206,11 +1206,11 @@
           href: ../../dev-itpro/lcs-solutions/submit-localization-alerts.md?toc=/dynamics365/unified-operations/financials/toc.json
 - name: Stuðningur
   items:
-    - name: Fá stuðning fyrir Finance and Operations og Lifecycle Services
+    - name: Fá aðstoð fyrir Finance and Operations og Lifecycle Services
       href: ../../dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: Yfirlit yfir þjónustu við Dynamics 365
       href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/retail/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
-    - name: Fá stuðning fyrir Finance and Operations sem er rekið af 21Vianet í Kína
+    - name: Fá aðstoð fyrir Finance and Operations sem er rekið af 21Vianet í Kína
       href: ../../dev-itpro/lifecycle-services/21vianet-support.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: Skrá Premier-þjónustubeiðni
       href: ../../dev-itpro/lifecycle-services/premier-support.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -1298,7 +1298,7 @@
       href: ../../dev-itpro/migration-upgrade/upgrade-home-page.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: Uppfæra úr AX 2012
       items:
-        - name: Uppfærsla úr AX 2012 í Finance and Operations
+        - name: Uppfæra úr AX 2012 í Finance and Operations
           href: ../../dev-itpro/migration-upgrade/upgrade-overview-2012.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: AX 2012 uppfærsla - Nota uppfærslugreiningarverkfæri til áætlunar
           href: ../../dev-itpro/migration-upgrade/upgrade-analyzer-tool.md?toc=/dynamics365/unified-operations/financials/toc.json

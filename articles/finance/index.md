@@ -1,5 +1,5 @@
 ---
-title: Fjárhagsstjórnun – heimasíða
+title: Heimasíða Finance
 description: Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng fyrir fjárhagsstjórnunareiginleika í Microsoft Dynamics 365 Finance.
 author: roschlom
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b5ed05e9c53b17632e94e913f7f3663676c3e91
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 797c549623a727e92a3dbe5e3457e1ddc09a5b0a
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770575"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000326"
 ---
-# <a name="financial-management-home-page"></a>Fjárhagsstjórnun – heimasíða
+# <a name="finance-home-page"></a>Heimasíða Finance
 
 [!include [banner](includes/banner.md)]
 
@@ -60,11 +60,11 @@ Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
 - [Microsoft Dynamics Operations-samstarfsaðilabloggið](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
 
 ### <a name="task-guides"></a>Verkleiðbeiningar
-Frekari hjálp er í boði sem verkleiðbeiningar í Finance and Operations. Smellið á hnappinn Hjálp á hvaða síðu sem er til að fá aðgang að verkleiðbeiningum.
+Frekari aðstoð er í boði í verkleiðbeiningum í Finance and Operations. Smellið á hnappinn Hjálp á hvaða síðu sem er til að fá aðgang að verkleiðbeiningum.
 
 ### <a name="videos"></a>Myndbönd
 
-Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 YouTube-rásinni ](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+Kynnið ykkur kennslumyndböndin sem eru aðgengileg á [Microsoft Dynamics 365 YouTube-rásinni](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ### <a name="countryregion-functionality"></a>Virkni lands/svæðis
 
