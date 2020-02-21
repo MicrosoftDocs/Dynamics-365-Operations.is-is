@@ -1,0 +1,8 @@
+## <a name="payment-days-cds-to-msdyn_paymentdays"></a><span data-ttu-id="00351-101">Greiðsludagar skuldatryggingar í msdyn_paymentdays</span><span class="sxs-lookup"><span data-stu-id="00351-101">Payment days CDS to msdyn_paymentdays</span></span>
+
+<span data-ttu-id="00351-102">Þetta sniðmát samstillir gögn á milli Finance and Operations -forrita og Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="00351-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="00351-103">Svæði í Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="00351-103">Finance and Operations field</span></span> | <span data-ttu-id="00351-104">Gerð vörpunar</span><span class="sxs-lookup"><span data-stu-id="00351-104">Map type</span></span> | <span data-ttu-id="00351-105">Annar Dynamics 365 reitur</span><span class="sxs-lookup"><span data-stu-id="00351-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="00351-106">Sjálfgildi</span><span class="sxs-lookup"><span data-stu-id="00351-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="00351-107">HEITI</span><span class="sxs-lookup"><span data-stu-id="00351-107">NAME</span></span> | = | <span data-ttu-id="00351-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="00351-108">msdyn_name</span></span> | 
+<span data-ttu-id="00351-109">LÝSING</span><span class="sxs-lookup"><span data-stu-id="00351-109">DESCRIPTION</span></span> | = | <span data-ttu-id="00351-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="00351-110">msdyn_description</span></span> | 

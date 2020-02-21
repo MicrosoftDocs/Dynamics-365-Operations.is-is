@@ -1,0 +1,9 @@
+## <a name="name-affixes-to-msdyn_nameaffixes"></a><span data-ttu-id="56149-101">Viðskeyti nafna í msdyn_nameaffixes</span><span class="sxs-lookup"><span data-stu-id="56149-101">Name affixes to msdyn_nameaffixes</span></span>
+
+<span data-ttu-id="56149-102">Þetta sniðmát samstillir gögn á milli Finance and Operations -forrita og Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="56149-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="56149-103">Svæði í Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="56149-103">Finance and Operations field</span></span> | <span data-ttu-id="56149-104">Gerð vörpunar</span><span class="sxs-lookup"><span data-stu-id="56149-104">Map type</span></span> | <span data-ttu-id="56149-105">Annar Dynamics 365 reitur</span><span class="sxs-lookup"><span data-stu-id="56149-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="56149-106">Sjálfgildi</span><span class="sxs-lookup"><span data-stu-id="56149-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="56149-107">AFFIX</span><span class="sxs-lookup"><span data-stu-id="56149-107">AFFIX</span></span> | = | <span data-ttu-id="56149-108">msdyn_affix</span><span class="sxs-lookup"><span data-stu-id="56149-108">msdyn_affix</span></span> | 
+<span data-ttu-id="56149-109">GERÐ</span><span class="sxs-lookup"><span data-stu-id="56149-109">TYPE</span></span> | >< | <span data-ttu-id="56149-110">msdyn_affixtype</span><span class="sxs-lookup"><span data-stu-id="56149-110">msdyn_affixtype</span></span> | 
+<span data-ttu-id="56149-111">LÝSING</span><span class="sxs-lookup"><span data-stu-id="56149-111">DESCRIPTION</span></span> | = | <span data-ttu-id="56149-112">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="56149-112">msdyn_description</span></span> | 

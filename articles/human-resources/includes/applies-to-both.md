@@ -1,0 +1,2 @@
+> [!NOTE]
+> <span data-ttu-id="03b8f-101">Þessi grein á bæði við um Dynamics 365 Human Resources og vinnusvæði **Mannauðs** í Dynamics 365 Finance.</span><span class="sxs-lookup"><span data-stu-id="03b8f-101">This article applies to both Dynamics 365 Human Resources and the **Human resources** workspace in Dynamics 365 Finance.</span></span>

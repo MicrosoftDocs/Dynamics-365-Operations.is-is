@@ -1,0 +1,8 @@
+## <a name="fiscal-calendar-integration-entity-to-msdyn_fiscalcalendars"></a><span data-ttu-id="267a2-101">Samþættingareining fjárhagsdagatals í msdyn_fiscalcalendars</span><span class="sxs-lookup"><span data-stu-id="267a2-101">Fiscal calendar integration entity to msdyn_fiscalcalendars</span></span>
+
+<span data-ttu-id="267a2-102">Þetta sniðmát samstillir gögn á milli Finance and Operations -forrita og Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="267a2-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="267a2-103">Svæði í Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="267a2-103">Finance and Operations field</span></span> | <span data-ttu-id="267a2-104">Gerð vörpunar</span><span class="sxs-lookup"><span data-stu-id="267a2-104">Map type</span></span> | <span data-ttu-id="267a2-105">Annar Dynamics 365 reitur</span><span class="sxs-lookup"><span data-stu-id="267a2-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="267a2-106">Sjálfgildi</span><span class="sxs-lookup"><span data-stu-id="267a2-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="267a2-107">CALENDARID</span><span class="sxs-lookup"><span data-stu-id="267a2-107">CALENDARID</span></span> | = | <span data-ttu-id="267a2-108">msdyn_calendar</span><span class="sxs-lookup"><span data-stu-id="267a2-108">msdyn_calendar</span></span> | 
+<span data-ttu-id="267a2-109">LÝSING</span><span class="sxs-lookup"><span data-stu-id="267a2-109">DESCRIPTION</span></span> | = | <span data-ttu-id="267a2-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="267a2-110">msdyn_description</span></span> | 
