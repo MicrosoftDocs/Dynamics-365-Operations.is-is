@@ -1,5 +1,5 @@
 ---
-title: Innfella Power Apps-forrit í Dynamics 365 - Core HR
+title: Fella Power Apps-forrit inn í Dynamics 365 Human Resources
 description: Þetta efnisatriði útskýrir hvernig á að leysa vandamál þar sem valmyndaratriði Microsoft Power Apps hefur horfið úr kerfisstjórnunareiningunni.
 author: andreabichsel
 manager: AnnBe
@@ -17,52 +17,52 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b1dd1756be349d85af8e6d7159623a2a95e75526
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 8275a8a7c68fa13d6b9880c4c411deaa2dcbb998
+ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898713"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3017874"
 ---
-# <a name="embed-power-apps-apps-in-dynamics-365---core-hr"></a><span data-ttu-id="a38fd-103">Innfella Power Apps-forrit í Dynamics 365 - Core HR</span><span class="sxs-lookup"><span data-stu-id="a38fd-103">Embed Power Apps apps in Dynamics 365 - Core HR</span></span>
+# <a name="embed-power-apps-apps-in-dynamics-365-human-resources"></a><span data-ttu-id="b186d-103">Fella Power Apps-forrit inn í Dynamics 365 Human Resources</span><span class="sxs-lookup"><span data-stu-id="b186d-103">Embed Power Apps apps in Dynamics 365 Human Resources</span></span>
 
-<span data-ttu-id="a38fd-104">**Úthreyfing**</span><span class="sxs-lookup"><span data-stu-id="a38fd-104">**Issue**</span></span>
+<span data-ttu-id="b186d-104">**Úthreyfing**</span><span class="sxs-lookup"><span data-stu-id="b186d-104">**Issue**</span></span>
 
-<span data-ttu-id="a38fd-105">Valmyndaratriði **Power Apps** hefur horfið úr einingu **Kerfisstjórnunar**.</span><span class="sxs-lookup"><span data-stu-id="a38fd-105">The **Power Apps** menu item has disappeared from the **System administration** module.</span></span>
+<span data-ttu-id="b186d-105">Valmyndaratriði **Power Apps** hefur horfið úr einingu **Kerfisstjórnunar**.</span><span class="sxs-lookup"><span data-stu-id="b186d-105">The **Power Apps** menu item has disappeared from the **System administration** module.</span></span>
 
-<span data-ttu-id="a38fd-106">**Orsök**</span><span class="sxs-lookup"><span data-stu-id="a38fd-106">**Cause**</span></span>
+<span data-ttu-id="b186d-106">**Orsök**</span><span class="sxs-lookup"><span data-stu-id="b186d-106">**Cause**</span></span>
 
-<span data-ttu-id="a38fd-107">Hönnun notandaviðmótsins hefur verið breytt og Microsoft Power Apps er nú hluti af staðlaða sérsniðna líkaninu.</span><span class="sxs-lookup"><span data-stu-id="a38fd-107">The user interface (UI) design has been changed, and Microsoft Power Apps is now included in the standard personalization model.</span></span>
+<span data-ttu-id="b186d-107">Hönnun notandaviðmótsins hefur verið breytt og Microsoft Power Apps er nú hluti af staðlaða sérsniðna líkaninu.</span><span class="sxs-lookup"><span data-stu-id="b186d-107">The user interface (UI) design has been changed, and Microsoft Power Apps is now included in the standard personalization model.</span></span>
 
-<span data-ttu-id="a38fd-108">**Upplausn**</span><span class="sxs-lookup"><span data-stu-id="a38fd-108">**Resolution**</span></span>
+<span data-ttu-id="b186d-108">**Upplausn**</span><span class="sxs-lookup"><span data-stu-id="b186d-108">**Resolution**</span></span>
 
-<span data-ttu-id="a38fd-109">Aðferðin við innfellingu Power Apps hefur verið breytt.</span><span class="sxs-lookup"><span data-stu-id="a38fd-109">The way that Power Apps are embedded has been changed.</span></span> <span data-ttu-id="a38fd-110">Power Apps er nú bætt við í gegnum sérsniðna líkanið.</span><span class="sxs-lookup"><span data-stu-id="a38fd-110">Power Apps are now added through the personalization model.</span></span> <span data-ttu-id="a38fd-111">Hægt er að bæta Power Apps við nánast allar síður í Microsoft Dynamics 365 Talent.</span><span class="sxs-lookup"><span data-stu-id="a38fd-111">You can add Power Apps to almost all pages in Microsoft Dynamics 365 Talent.</span></span>
+<span data-ttu-id="b186d-109">Aðferðin við innfellingu Power Apps hefur verið breytt.</span><span class="sxs-lookup"><span data-stu-id="b186d-109">The way that Power Apps are embedded has been changed.</span></span> <span data-ttu-id="b186d-110">Power Apps er nú bætt við í gegnum sérsniðna líkanið.</span><span class="sxs-lookup"><span data-stu-id="b186d-110">Power Apps are now added through the personalization model.</span></span> <span data-ttu-id="b186d-111">Hægt er að bæta Power Apps við nánast allar síður í Microsoft Dynamics 365 Talent.</span><span class="sxs-lookup"><span data-stu-id="b186d-111">You can add Power Apps to almost all pages in Microsoft Dynamics 365 Talent.</span></span>
 
-<span data-ttu-id="a38fd-112">Upplýsingar um það hvernig á að innfella Power Apps í Talent er að finna í [Innfella Microsoft Power Apps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).</span><span class="sxs-lookup"><span data-stu-id="a38fd-112">For information about how to embed Power Apps in Talent, see [Embed Microsoft Power Apps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).</span></span>
+<span data-ttu-id="b186d-112">Upplýsingar um það hvernig á að innfella Power Apps í Talent er að finna í [Innfella Power Apps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).</span><span class="sxs-lookup"><span data-stu-id="b186d-112">For information about how to embed Power Apps in Talent, see [Embed Power Apps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).</span></span>
 
-<span data-ttu-id="a38fd-113">Allir viðskiptamenn Power Apps sem felldu inn forrit fyrir breytinguna ættu að hafa verið uppfærðir í nýja líkaninu.</span><span class="sxs-lookup"><span data-stu-id="a38fd-113">Any Power Apps customer who embedded apps before the change should have been upgraded to the new model.</span></span>
+<span data-ttu-id="b186d-113">Allir viðskiptamenn Power Apps sem felldu inn forrit fyrir breytinguna ættu að hafa verið uppfærðir í nýja líkaninu.</span><span class="sxs-lookup"><span data-stu-id="b186d-113">Any Power Apps customer who embedded apps before the change should have been upgraded to the new model.</span></span>
 
-<span data-ttu-id="a38fd-114">Hnappurinn **Power Apps** er efst í hægra horninu á nánast öllum síðum í Talent.</span><span class="sxs-lookup"><span data-stu-id="a38fd-114">The **Power Apps** button is in the upper-right corner of almost every page in Talent.</span></span> <span data-ttu-id="a38fd-115">Hægt er að nota þennan hnapp til að setja inn Power Apps.</span><span class="sxs-lookup"><span data-stu-id="a38fd-115">You can use this button to insert Power Apps.</span></span>
+<span data-ttu-id="b186d-114">Hnappurinn **Power Apps** er efst í hægra horninu á nánast öllum síðum í Talent.</span><span class="sxs-lookup"><span data-stu-id="b186d-114">The **Power Apps** button is in the upper-right corner of almost every page in Talent.</span></span> <span data-ttu-id="b186d-115">Hægt er að nota þennan hnapp til að setja inn forrit.</span><span class="sxs-lookup"><span data-stu-id="b186d-115">You can use this button to insert apps.</span></span>
 
-<span data-ttu-id="a38fd-116">Eftirfarandi er dæmi.</span><span class="sxs-lookup"><span data-stu-id="a38fd-116">Here is an example.</span></span>
+<span data-ttu-id="b186d-116">Eftirfarandi er dæmi.</span><span class="sxs-lookup"><span data-stu-id="b186d-116">Here is an example.</span></span>
 
-1. <span data-ttu-id="a38fd-117">Opnið **Starfsmannastjórnun \> Tenglar \> Starfskraftar \> Starfsmenn**.</span><span class="sxs-lookup"><span data-stu-id="a38fd-117">Go to **Personnel management \> Links \> Workers \> Employees**.</span></span>
-2. <span data-ttu-id="a38fd-118">Veljið hnappinn **Power Apps** og síðan **Setja inn PowerApp**.</span><span class="sxs-lookup"><span data-stu-id="a38fd-118">Select the **Power Apps** button, and then select **Insert a PowerApp**.</span></span>
+1. <span data-ttu-id="b186d-117">Opnið **Starfsmannastjórnun \> Tenglar \> Starfskraftar \> Starfsmenn**.</span><span class="sxs-lookup"><span data-stu-id="b186d-117">Go to **Personnel management \> Links \> Workers \> Employees**.</span></span>
+2. <span data-ttu-id="b186d-118">Veldu hnappinn **Power Apps** og veldu síðan **Bæta við forriti frá Power Apps**.</span><span class="sxs-lookup"><span data-stu-id="b186d-118">Select the **Power Apps** button, and then select **Add an app from Power Apps**.</span></span>
 
     ![Power Apps-hnappur](media/png.png)
 
-3. <span data-ttu-id="a38fd-120">Ljúkið við svæðin í svarglugganum **Setja inn PowerApp**.</span><span class="sxs-lookup"><span data-stu-id="a38fd-120">Complete the fields in the **Insert a PowerApp** dialog box.</span></span>
+3. <span data-ttu-id="b186d-120">Ljúktu við reitina í valmyndinni **Bæta við forriti frá Power Apps**.</span><span class="sxs-lookup"><span data-stu-id="b186d-120">Complete the fields in the **Add an app from Power Apps** dialog box.</span></span>
 
-    ![Svarglugginn „Setja inn PowerApp“](media/insert-powerapp.png)
+    ![Bæta við forriti úr valmynd Power Apps](media/insert-powerapp.png)
 
-<span data-ttu-id="a38fd-122">Önnur leið er að fylgja þessum skrefum:</span><span class="sxs-lookup"><span data-stu-id="a38fd-122">Alternatively, follow these steps.</span></span>
+<span data-ttu-id="b186d-122">Önnur leið er að fylgja þessum skrefum:</span><span class="sxs-lookup"><span data-stu-id="b186d-122">Alternatively, follow these steps.</span></span>
 
-1. <span data-ttu-id="a38fd-123">Á aðgerðasvæði síðunnar, á flipanum **Valkostir** í flokknum **Sérsníða**, skal velja **Sérsníða þessa skjámynd**.</span><span class="sxs-lookup"><span data-stu-id="a38fd-123">On the page's Action Pane, on the **Options** tab, in the **Personalize** group, select **Personalize this form**.</span></span>
+1. <span data-ttu-id="b186d-123">Á aðgerðasvæði síðunnar, á flipanum **Valkostir** í flokknum **Sérsníða**, skal velja **Sérsníða þessa síðu**.</span><span class="sxs-lookup"><span data-stu-id="b186d-123">On the page's Action Pane, on the **Options** tab, in the **Personalize** group, select **Personalize this page**.</span></span>
 
     ![Sérsníða flokk á flipanum „Valkostir“](media/options.png)
 
-    <span data-ttu-id="a38fd-125">Tækjastika sérstillinga birtist.</span><span class="sxs-lookup"><span data-stu-id="a38fd-125">The personalization toolbar appears.</span></span>
+    <span data-ttu-id="b186d-125">Tækjastika sérstillinga birtist.</span><span class="sxs-lookup"><span data-stu-id="b186d-125">The personalization toolbar appears.</span></span>
 
-2. <span data-ttu-id="a38fd-126">Á tækjastikunni skal velja **Setja inn \> PowerApp**.</span><span class="sxs-lookup"><span data-stu-id="a38fd-126">On the toolbar, select **Insert \> PowerApp**.</span></span>
+2. <span data-ttu-id="b186d-126">Á tækjastikunni velurðu **Bæta við forriti úr Power Apps**.</span><span class="sxs-lookup"><span data-stu-id="b186d-126">On the toolbar, select **Add an app from Power Apps**.</span></span>
 
-    ![Setja inn Power Apps-forrit með tækjastiku sérstillinga](media/powerapp-bar.png)
+    ![Bæta við forriti úr Power Apps með tækjastiku sérstillinga](media/powerapp-bar.png)

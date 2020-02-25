@@ -19,40 +19,40 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8f73c034563fb1cc6b05091b4c47e2a788d1a8b6
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 4db774783dba4b1cea9552da3cff29a9528bd496
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945537"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002175"
 ---
-# <a name="configure-your-domain-name"></a><span data-ttu-id="eda5b-103">Skilgreina lénsheiti</span><span class="sxs-lookup"><span data-stu-id="eda5b-103">Configure your domain name</span></span>
+# <a name="configure-your-domain-name"></a><span data-ttu-id="6cbc3-103">Skilgreina lénsheiti</span><span class="sxs-lookup"><span data-stu-id="6cbc3-103">Configure your domain name</span></span>
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="eda5b-104">Þetta efni útskýrir hvernig á að stilla lén fyrir Microsoft Dynamics 365 netverslunarsíðu.</span><span class="sxs-lookup"><span data-stu-id="eda5b-104">This topic explains how to configure a domain name for a Microsoft Dynamics 365 e-commerce site.</span></span> 
+<span data-ttu-id="6cbc3-104">Þetta efni útskýrir hvernig á að stilla lén fyrir Microsoft Dynamics 365 netverslunarsíðu.</span><span class="sxs-lookup"><span data-stu-id="6cbc3-104">This topic explains how to configure a domain name for a Microsoft Dynamics 365 e-commerce site.</span></span> 
 
-## <a name="add-domains-during-e-commerce-initialization"></a><span data-ttu-id="eda5b-105">Bættu við lénum við frumstillingu netverslunar</span><span class="sxs-lookup"><span data-stu-id="eda5b-105">Add domains during e-Commerce initialization</span></span>
+## <a name="add-domains-during-e-commerce-initialization"></a><span data-ttu-id="6cbc3-105">Bættu við lénum við frumstillingu netverslunar</span><span class="sxs-lookup"><span data-stu-id="6cbc3-105">Add domains during e-Commerce initialization</span></span>
 
-<span data-ttu-id="eda5b-106">Til að tengja lén við netverslunarumhverfi þitt skaltu frumstilla netverslun eins og lýst er í [Uppsetning á nýju vefsvæði fyrir netverslun](deploy-ecommerce-site.md).</span><span class="sxs-lookup"><span data-stu-id="eda5b-106">To associate domains with your e-commerce environment, initialize e-Commerce as described in [Deploy a new e-Commerce site](deploy-ecommerce-site.md).</span></span> <span data-ttu-id="eda5b-107">Við frumstilling er beðið um að upplýsingar séu látnar í té sem notaðar verða til að bjóða upp á netverslunarumhverfi þitt.</span><span class="sxs-lookup"><span data-stu-id="eda5b-107">During initialization, you're asked to provide information that will be used to provision your e-Commerce environment.</span></span> <span data-ttu-id="eda5b-108">Í reitnum **Studd hýsilnöfn** bætirðu við öllum lénum sem þú ætlar að nota með þessu umhverfi.</span><span class="sxs-lookup"><span data-stu-id="eda5b-108">In the **Supported host names** field, add all the domains that you plan to use with this environment.</span></span> <span data-ttu-id="eda5b-109">Margfeldi lén ætti að aðgreina með semi-kommu.</span><span class="sxs-lookup"><span data-stu-id="eda5b-109">Multiple domains should be separated with semi-colon.</span></span> <span data-ttu-id="eda5b-110">Með þessum hætti eru lénin skilgreind í öllum nauðsynlegum íhlutum netverslunar og þau eru tilbún til notkunar þegar þú skiptir úr umferð frá efnisbirtingarnetinu (CDN) eða netþjóninum og beinir henni á framvinnslu netverslunar.</span><span class="sxs-lookup"><span data-stu-id="eda5b-110">In this way, the domains are configured in all the required e-Commerce components, and they are ready to be used when you switch traffic from your content delivery network (CDN) or web server and point it to the e-Commerce front ends.</span></span>
+<span data-ttu-id="6cbc3-106">Til að tengja lén við netverslunarumhverfi þitt skaltu frumstilla netverslun eins og lýst er í [Uppsetning á nýju vefsvæði fyrir netverslun](deploy-ecommerce-site.md).</span><span class="sxs-lookup"><span data-stu-id="6cbc3-106">To associate domains with your e-commerce environment, initialize e-Commerce as described in [Deploy a new e-Commerce site](deploy-ecommerce-site.md).</span></span> <span data-ttu-id="6cbc3-107">Við frumstilling er beðið um að upplýsingar séu látnar í té sem notaðar verða til að bjóða upp á netverslunarumhverfi þitt.</span><span class="sxs-lookup"><span data-stu-id="6cbc3-107">During initialization, you're asked to provide information that will be used to provision your e-Commerce environment.</span></span> <span data-ttu-id="6cbc3-108">Í reitnum **Studd hýsilnöfn** bætirðu við öllum lénum sem þú ætlar að nota með þessu umhverfi.</span><span class="sxs-lookup"><span data-stu-id="6cbc3-108">In the **Supported host names** field, add all the domains that you plan to use with this environment.</span></span> <span data-ttu-id="6cbc3-109">Margfeldi lén ætti að aðgreina með semi-kommu.</span><span class="sxs-lookup"><span data-stu-id="6cbc3-109">Multiple domains should be separated with semi-colon.</span></span> <span data-ttu-id="6cbc3-110">Með þessum hætti eru lénin skilgreind í öllum nauðsynlegum íhlutum netverslunar og þau eru tilbún til notkunar þegar þú skiptir úr umferð frá efnisbirtingarnetinu (CDN) eða netþjóninum og beinir henni á framvinnslu netverslunar.</span><span class="sxs-lookup"><span data-stu-id="6cbc3-110">In this way, the domains are configured in all the required e-Commerce components, and they are ready to be used when you switch traffic from your content delivery network (CDN) or web server and point it to the e-Commerce front ends.</span></span>
 
-## <a name="add-domains-after-e-commerce-initialization"></a><span data-ttu-id="eda5b-111">Bættu við lénum eftir frumstillingu netverslunar</span><span class="sxs-lookup"><span data-stu-id="eda5b-111">Add domains after e-Commerce initialization</span></span>
+## <a name="add-domains-after-e-commerce-initialization"></a><span data-ttu-id="6cbc3-111">Bættu við lénum eftir frumstillingu netverslunar</span><span class="sxs-lookup"><span data-stu-id="6cbc3-111">Add domains after e-Commerce initialization</span></span>
 
-<span data-ttu-id="eda5b-112">Til að tengja ný lén við netverslunarumhverfi þitt eftir frumstillingu á netverslun verður þú að leggja fram þjónustubeiðni.</span><span class="sxs-lookup"><span data-stu-id="eda5b-112">To associate new domains with your e-Commerce environment after e-Commerce initialization, you must submit a service request.</span></span>
+<span data-ttu-id="6cbc3-112">Til að tengja ný lén við netverslunarumhverfi þitt eftir frumstillingu á netverslun verður þú að leggja fram þjónustubeiðni.</span><span class="sxs-lookup"><span data-stu-id="6cbc3-112">To associate new domains with your e-Commerce environment after e-Commerce initialization, you must submit a service request.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="eda5b-113">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="eda5b-113">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="6cbc3-113">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="6cbc3-113">Additional resources</span></span>
 
-[<span data-ttu-id="eda5b-114">Uppsetning á nýju vefsvæði fyrir rafræn viðskipti</span><span class="sxs-lookup"><span data-stu-id="eda5b-114">Deploy a new e-Commerce site</span></span>](deploy-ecommerce-site.md)
+[<span data-ttu-id="6cbc3-114">Uppsetning á nýju vefsvæði fyrir rafræn viðskipti</span><span class="sxs-lookup"><span data-stu-id="6cbc3-114">Deploy a new e-Commerce site</span></span>](deploy-ecommerce-site.md)
 
-[<span data-ttu-id="eda5b-115">Stofna svæði fyrir rafræn viðskipti</span><span class="sxs-lookup"><span data-stu-id="eda5b-115">Create an e-Commerce site</span></span>](create-ecommerce-site.md)
+[<span data-ttu-id="6cbc3-115">Stofna svæði fyrir rafræn viðskipti</span><span class="sxs-lookup"><span data-stu-id="6cbc3-115">Create an e-Commerce site</span></span>](create-ecommerce-site.md)
 
-[<span data-ttu-id="eda5b-116">Tengja netsvæði við rás</span><span class="sxs-lookup"><span data-stu-id="eda5b-116">Associate an online site with a channel</span></span>](associate-site-online-store.md)
+[<span data-ttu-id="6cbc3-116">Tengja netsvæði við rás</span><span class="sxs-lookup"><span data-stu-id="6cbc3-116">Associate an online site with a channel</span></span>](associate-site-online-store.md)
 
-[<span data-ttu-id="eda5b-117">Stjórna robots.txt-skrám</span><span class="sxs-lookup"><span data-stu-id="eda5b-117">Manage robots.txt files</span></span>](manage-robots-txt-files.md)
+[<span data-ttu-id="6cbc3-117">Stjórna robots.txt-skrám</span><span class="sxs-lookup"><span data-stu-id="6cbc3-117">Manage robots.txt files</span></span>](manage-robots-txt-files.md)
 
-[<span data-ttu-id="eda5b-118">Setja upp sérsniðnar síður fyrir innskráningu notenda</span><span class="sxs-lookup"><span data-stu-id="eda5b-118">Set up custom pages for user logins</span></span>](custom-pages-user-logins.md)
+[<span data-ttu-id="6cbc3-118">Setja upp sérsniðnar síður fyrir innskráningu notenda</span><span class="sxs-lookup"><span data-stu-id="6cbc3-118">Set up custom pages for user logins</span></span>](custom-pages-user-logins.md)
 
-[<span data-ttu-id="eda5b-119">Bæta við stuðningi fyrir efnisbirtingarnet (CDN)</span><span class="sxs-lookup"><span data-stu-id="eda5b-119">Add support for a content delivery network (CDN)</span></span>](add-cdn-support.md)
+[<span data-ttu-id="6cbc3-119">Bæta við stuðningi fyrir efnisbirtingarnet (CDN)</span><span class="sxs-lookup"><span data-stu-id="6cbc3-119">Add support for a content delivery network (CDN)</span></span>](add-cdn-support.md)
 
-[<span data-ttu-id="eda5b-120">Virkja greiningu á verslun eftir staðsetningu</span><span class="sxs-lookup"><span data-stu-id="eda5b-120">Enable location-based store detection</span></span>](enable-store-detection.md)
+[<span data-ttu-id="6cbc3-120">Virkja greiningu á verslun eftir staðsetningu</span><span class="sxs-lookup"><span data-stu-id="6cbc3-120">Enable location-based store detection</span></span>](enable-store-detection.md)
