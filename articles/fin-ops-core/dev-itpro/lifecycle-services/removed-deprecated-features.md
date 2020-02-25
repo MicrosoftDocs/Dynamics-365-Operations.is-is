@@ -1,9 +1,9 @@
 ---
 title: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Lifecycle Services (LCS)
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir úr Microsoft Dynamics Lifecycle Services (LCS).
-author: sericks007
+author: AngelMarshall
 manager: AnnBe
-ms.date: 12/02/2019
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -12,15 +12,15 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c792d06e9b0aa42919de924bdcc9118358779b72
-ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
+ms.openlocfilehash: 96ecd040ef8661765c0a3861d8e07fee3c241161
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2885456"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027981"
 ---
 # <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Lifecycle Services (LCS)
 
@@ -53,7 +53,7 @@ ms.locfileid: "2885456"
 </tr>
 <tr>
 <td><strong>Staða</strong></td>
-<td>Úrelt: Gert er ráð fyrir að flæðirit skýringarmyndar í BPM verði fjarlægt í byrjun febrúar 2020. Eftirfarandi virkni verður fjarlægð:
+<td>Úrelt: Gert er ráð fyrir að flæðirit skýringarmyndar í BPM verði fjarlægt í febrúar 2020. Eftirfarandi virkni verður fjarlægð:
 <ul>
 <li>Núverandi flæðirit verða ekki tiltæk til að skoða eða breyta. Formeiginleikarnir sem tengjast virkni flæðirita verða heldur ekki tiltækir, vegna þess að allur flipinn <strong>Flæðirit</strong> verður fjarlægður. Þessi flæðirit eru bæði með sjálfgefnum flæðiritum sem eru sjálfkrafa mynduð og sérsniðin flæðirit sem er breytt miðað við þessi sjálfgefnu flæðirit.</li>
 <li>Eldri eiginleikinn hæfni/gloppugreining verður ekki tiltækur. Þess vegna verður enginn gloppulisti búinn til sjálfkrafa eða fáanlegur til útflutnings.

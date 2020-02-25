@@ -3,7 +3,7 @@ title: Yfirlit yfir stjórnun viðskiptaskjala
 description: Þetta efni veitir upplýsingar um hvernig á að nota viðskiptaskjalastjórnunaraðgerð ER-ramma.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/09/2019
+ms.date: 01/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3aac66cc39d854cabdb3d29bde029d93683e2ef7
-ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
+ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
+ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2933909"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "2957368"
 ---
 # <a name="business-document-management-overview"></a>Yfirlit yfir stjórnun viðskiptaskjala
 
@@ -122,7 +122,7 @@ Notaðu eftirfarandi ferli til að virkja virknina Stjórnun viðskiptaskjala fy
 4. Endurnýjaðu síðuna til að fá aðgang að nýja eiginleikanum.
 
 >[!NOTE]
-> Einnig þarftu að virkja **Office-lík notandaviðmótsreynsla fyrir skjalastjórnun** til að nota nýtt viðskiptaskjal stjórnunarviðmót
+> Nánari upplýsingar um notkun nýja skjal notendaviðmótsins í viðskiptaskjalastjórnun, sjá [Nýtt notendaviðmót skjala í viðskiptaskjalastjórnun](er-business-document-management-new-template-ui.md).
 
 ![Vinnusvæði eiginleikastjórnunar](./media/BDM-Overview-FMEnabling.png)
 
@@ -147,7 +147,7 @@ Fyrir upplýsingar um hvernig á að setja upp nauðsynlegar færibreytur fyrir 
 
 ![Setja upp skjalagerð í skjalastjórnun](./media/BDM-Overview-DMSetting.png)
 
-### <a name="set-up-parameters"></a>Setja upp færibreytur
+### <a name="SetupBdmParameters">Setja upp færibreytur</a>
 
 Hægt er að setja upp grunnfæribreytur fyrir viðskipti skjal á síðunni **Færibreytur viðskiptaskjala**. Aðeins tilteknir notendur geta nálgast síðuna. Þar á meðal eru:
 
@@ -166,6 +166,9 @@ Notaðu eftirfarandi ferli til að setja upp grunnfæribreytur fyrir alla löga�
 ![Settu upp færibreytur viðskiptaskjalastjórnunar](./media/BDM-Overview-BDMSetting.png)
 
 Valin skjalategund er fyrirtækjasértæk og verður notuð þegar notandinn er að vinna með viðskiptaskjalastjórnun í fyrirtækinu sem valin skjalategund er skilgreind fyrir. Þegar notandinn er að vinna með viðskiptaskjalastjórnun í öðru fyrirtæki, verður sama valda skjalategund notuð ef skjalategund hefur ekki verið skilgreind fyrir fyrirtækið. Þegar gerð skjals hefur verið skilreind verður hún notuð í stað þeirrar sem var valin í reitnum **SharePoint-skjalagerð**.
+
+> [!NOTE]
+> Færibreytan **SharePoint-skjalagerðar** skilgreinir SharePoint-möppu sem tímabundna geymslu fyrir sniðmát sem hægt er að breyta með annaðhvort Microsoft Excel eða Word. Þú verður að setja þessa færibreytu upp ef þú ætlar að nota þessi Office skrifborðsforrit til að breyta sniðmátum. Fyrir frekari upplýsingar, sjá [Breyta sniðmáti í Office skrifborðsforritinu](#EditInOfficeDesktopApp). Þú getur haldið þessum færibreytum auðum ef þú ætlar að breyta sniðmátinu með því að nota aðeins virkni í Office 365. Nánari upplýsingar er að finna í [Breyta sniðmáti í Office 365](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>Skilgreina aðgangsheimildir
 
@@ -258,23 +261,18 @@ Valkosturinn **Breyta sniðmáti** er í boði fyrir valið sniðmát. Þessi va
 
 ### <a name="initiate-editing-templates-owned-by-other-providers"></a>Byrjaðu að breyta sniðmátum í eigu annarra veitenda
 
-1. Í vinnusvæðinu fyrir viðskipti skjalastjórnunar velurðu **Nýtt skjal**.
+1. Veldu vinnusvæðið fyrir viðskipti skjalastjórnunar og veldu skjalið sem þú vilt nota sem sniðmát.
 
-![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM_overview_new_template1.png)
+![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM-Overview-EditingTemplate3.png)
 
-2. Veldu skjalið sem á að nota sem sniðmát.
+3. Veldu **Nýtt skjal** og í reitnum **Titill** breytirðu titlinum á breytanlegu sniðmáti ef þörf krefur. Textinn verður notaður til að nefna skilgreiningu ER-sniðsins sem er sjálfkrafa búin til. Athugaðu að drög að þessari skilgreiningu (**Afrit af skýrslu viðskiptamannareiknings með frjálsum texta (GER)**) sem mun innihalda breytt sniðmát verður sjálfkrafa merkt til að keyra þetta ER-snið fyrir núverandi notanda. Um leið verður hið óbreytta upprunalega sniðmát úr grunnstillingu ER-sniðsins notað til að keyra þetta ER-snið fyrir alla aðra notendur.
+4. Í reitnum **Heiti** breytirðu heiti fyrstu endurskoðunar á breyttu sniðmátinu sem verður búið til sjálfkrafa.
+5. Í reitnum **Athugasemd** breytirðu heiti fyrstu athugasemdar fyrir sjálfkrafa stofnaða endurskoðun á breyttu sniðmátinu.
+6. Veldu **Í lagi** til að staðfesta upphaf breytingarferilsins
 
-![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM_overview_new_template2.png)
+![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM-Overview-EditingTemplate4.png)
 
-3. Smelltu á **Stofna skjal**
-4. Í reitnum **Titill** skal breyta titlinum á breytanlegu sniðmáti ef þörf krefur. Textinn verður notaður til að nefna skilgreiningu ER-sniðsins sem er sjálfkrafa búin til. Athugaðu að drög að þessari skilgreiningu (**Afrit af skýrslu viðskiptamannareiknings með frjálsum texta (GER)**) sem mun innihalda breytt sniðmát verður sjálfkrafa merkt til að keyra þetta ER-snið fyrir núverandi notanda. Um leið verður hið óbreytta upprunalega sniðmát úr grunnstillingu ER-sniðsins notað til að keyra þetta ER-snið fyrir alla aðra notendur.
-5. Í reitnum **Heiti** breytirðu heiti fyrstu endurskoðunar á breyttu sniðmátinu sem verður búið til sjálfkrafa.
-6. Í reitnum **Athugasemd** breytirðu heiti fyrstu athugasemdar fyrir sjálfkrafa stofnaða endurskoðun á breyttu sniðmátinu.
-7. Veldu **Í lagi** til að staðfesta upphaf breytingarferilsins
-
-![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM_overview_new_template3.png)
-
-Valkosturinn **Nýtt skjal** er alltaf í boði fyrir sniðmát með skilgreiningu ER-sniðs sem er veitt af annarri veitu (Microsoft í þessu tilfelli). Þegar þú smellir á **Nýtt skjal** sérðu öll sniðmát í eigu núverandi og annarra veitenda. Eftir að þú hefur valið sniðmátið verður það opnað fyrir breytingar. Síðan verður breytt sniðmátið geymt í nýrri skilgreiningu á ER-sniði sem er sjálfkrafa mynduð.
+Valkosturinn **Nýtt skjal** er alltaf í boði fyrir sniðmát með skilgreiningu ER-sniðs sem er veitt af núverandi og annarri veitu (Microsoft í þessu tilfelli) sem ekki er með neina endurskoðun. Síðan verður breytt sniðmátið geymt í nýrri skilgreiningu á ER-sniði sem er sjálfkrafa mynduð.
 
 ### <a name="start-editing-a-template"></a>Byrja á að breyta sniðmáti
 
@@ -282,7 +280,7 @@ Valkosturinn **Nýtt skjal** er alltaf í boði fyrir sniðmát með skilgreinin
 2. Í reitnum **Heiti** breytirðu heiti fyrstu endurskoðunar á breyttu sniðmátinu sem verður búið til sjálfkrafa.
 3. Í reitnum **Athugasemd** breytirðu heiti fyrstu athugasemdar fyrir sjálfkrafa stofnaða endurskoðun á breyttu sniðmátinu.
 
-    ![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM_overview_new_template4.png)
+    ![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM-Overview-EditingTemplate5.png)
 
 5. Veldu **Í lagi** til að staðfesta upphaf breytingarferilsins.
 
@@ -290,13 +288,16 @@ Síðan **BDM-sniðmátsritill** mun opnast. Valið sniðmát verður tiltækt t
 
 ![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="edit-a-template-in-office-365"></a>Breyta sniðmáti í Office 365
+### <a name="EditInOffice365">Breyta sniðmáti í Office 365</a>
 
-Breyttu sniðmátinu með því að nota virkni Office 365. Til dæmis, í Office á netinu skal breyta leturgerð reitakvaðninganna í sniðmáthausnum úr **Venjulegt** í **Feitletrað**. Þessar breytingar eru sjálfkrafa geymdar fyrir það breytanlega sniðmát sem er geymt í geymslu aðalsniðmátsins (sjálfgefið að það sé Azure blob-geymsla) sem er skilgreind fyrir ER-ramma.
+Ekki er hægt að breyta sniðmáti með Office 365. Til dæmis, í Office á netinu skal breyta leturgerð reitakvaðninganna í sniðmáthausnum úr **Venjulegt** í **Feitletrað**. Þessar breytingar eru sjálfkrafa geymdar fyrir það breytanlega sniðmát sem er geymt í geymslu aðalsniðmátsins (sjálfgefið að það sé Azure blob-geymsla). Þetta er stillt fyrir ER ramma.
 
 ![Síðan Ritill stjórnunarsniðmáts viðskiptaskjala](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="edit-a-template-in-the-office-desktop-application"></a>Breyta sniðmáti í Office-skjáborðsforriti
+### <a name="EditInOfficeDesktopApp">Breyta sniðmáti í Office-skjáborðsforriti</a>
+
+> [!NOTE]
+> Þessi aðgerð er aðeins tiltæk þegar **SharePoint skjalagerð** færibreytan er rétt stillt. Nánari upplýsingar er að finna í [Skilgreina færibreytur](#SetupBdmParameters).
 
 1. Veldu valkostinn **Opna í skjáborðsforriti** til að breyta sniðmátinu með virkni Office-skjáborðsforrits (Excel í þessu dæmi). Breytanlega sniðmátið er afritað úr varanlegri geymslu yfir í tímabundna geymslu sem er skilgreind í breytum stjórnunar viðskiptaskjala sem SharePoint-mappa.
 2. Staðfestu að þú viljir opna sniðmátið úr tímabundinni skráageymslu í Excel Office-forritinu.
@@ -411,3 +412,4 @@ Líklegast skráðir þú þig inn í núverandi tilvik forritsins í Azure AD-l
 [Felldu inn myndir og form í skjöl sem þú myndar með því að nota ER](electronic-reporting-embed-images-shapes.md)
 
 [Skilgreina rafræna skýrslugerð (ER) til að draga gögn inn í Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+

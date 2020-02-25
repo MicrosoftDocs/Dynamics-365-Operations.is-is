@@ -3,7 +3,7 @@ title: Sérsníða notandaupplifun
 description: Þessi grein útskýrir hvernig hægt er að sérsníða forritið.
 author: jasongre
 manager: AnnBe
-ms.date: 01/07/2020
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac8f154fdf892553f69d135727589bf13efd6076
-ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
+ms.openlocfilehash: c745248a0c7e54b58b1d3e491f3bbb067ec0e2c2
+ms.sourcegitcommit: d8a2301eda0e5d0a6244ebbbe4459ab6caa88a95
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935466"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "3029363"
 ---
 # <a name="personalize-the-user-experience"></a>Sérsníða notandaupplifun
 
@@ -59,7 +59,8 @@ Fyrir utan að breyta notandastillingum þínum geturðu einnig nota síðuna **
 
 Óbeinar sérstillingar eru þær sérstillingar sem þú gerir aðeins með því að hafa samskipti við stjórntæki sem geyma núverandi sýnilegt ástand þeirra.
 
-- **Dálkar í hnitaneti** - Hægt er að stilla breidd dálks í hnitaneti með því að velja stækkunarstikuna vinstra eða hægra megin við dálkhausinn og síðan renna henni til vinstri eða hægri þar til dálkurinn nær ákjósanlegri breidd. Fottirtið geymir breiddina sem þú stillir fyrir dálk. Forritið breytir síðan dálknum í þá breidd í hvert sinn sem þú opnar síðuna sem inniheldur það hnitanet.
+- **Breidd dálka í hnitaneti** - Hægt er að stilla breidd dálks í hnitaneti með því að velja stækkunarstikuna vinstra eða hægra megin við dálkhausinn og síðan renna henni til vinstri eða hægri þar til dálkurinn nær ákjósanlegri breidd. Fottirtið geymir breiddina sem þú stillir fyrir dálk. Forritið breytir síðan dálknum í þá breidd í hvert sinn sem þú opnar síðuna sem inniheldur það hnitanet.
+- **Dálkasamtölur hnitanets** - (Aðeins fáanlegt með nýju ristjórninni virkt) Þú getur ákveðið hvort heildar skuli sýndur neðst í hvaða tölustafa dálki sem er í töflunni, og hvort netfætinn sé sýnilegur. Forritið geymir þessi gögn þannig að þessar stillingar eru munaðar næst þegar þú opnar síðuna. Sjáðu [Hnitanetsgeta](grid-capabilities.md) efni fyrir frekari upplýsingar. 
 - **Flýtiflipar** - Sumar síður hafa stækkanlega hluta sem eru þekktir sem *Flýtiflipar*. Forritið geymir upplýsingar um flýtiflipana sem þú hefur víkkað út og dregið saman. Í næsta skipti sem þú opnar síðan síðuna, verða sömu flýtifliparnir annaðhvort víkkaðir út eða dregnir saman, byggt á síðustu samskiptum þínum við síðuna. Í sumum tilfellum geturðu hjálpað til við að auka afköst kerfisins með því að draga saman flýtiflipa, því forritið þarf ekki að sækja upplýsingar um þá flýtiflipa þar til þeir eru stækkaðir. Eins og útskýrt er síðar í þessu efnisatriði geturðu einnig breytt röð flýtiflipanna á síðu.
 - **Staðreyndareitir** - Sumar síður eru með gluggann **Tengdar upplýsingar** sem sýnir skrifvarðar upplýsingar sem tengjast núverandi efni síðunnar. Sérhver hluti í glugganum **Tengdar upplýsingar** kallast *Upplýsingareitur*. Þú getur stækkað eða minnkað gluggann **Tengdar upplýsingar** og þú getur einnig útvíkkað eða dregið saman einstaka upplýsingareiti. Forritið geymir þetta kjörval. Í næsta skipti sem þú opnar síðuna verður glugginn **Tengdar upplýsingar** og stakir upplýsingareitir annaðhvort stækkaðir eða minnkaðir, byggt á síðustu samskiptum þínum við síðuna. Í sumum tilfellum geturðu hjálpað til við að auka afköst kerfisins með því að draga saman upplýsingareit, því forritið þarf ekki að sækja upplýsingar um þá upplýsingareiti fyrr en þeir eru stækkaðir.
 - **Aðgerðarsvæði** - *Aðgerðarsvæði* birtist ofarlega á flestum síðum. Aðgerðarsvæðið inniheldur hnappa fyrir margar af aðgerðunum sem þú getur framkvæmt á þessari síðu. Þessum hnöppum er oft raðað niður á flipa. Þú getur „fest“ alla aðgerðarsíðuna sem opna eða þú getur valið að hafa hana samandregna að sjálfgefnu. Í næsta skipti sem þú opnar síðan síðuna, verðut aðgerðaglugginn annaðhvort opinn eða dreginn saman, byggt á síðustu samskiptum þínum við síðuna. Ef þú festir aðgerðargluggann sem opinn verður síðasti flipinn sem þú notaðir sýndur.
@@ -95,7 +96,7 @@ Eiginleikaglugginn gæti falið í sér aðrar sérstillingareiginleika, en þa�
 
 Ef þú vilt gera margar breytingar á síðu eða gera breytingar sem ekki eru í boði í gegnum annan búnað (t.d. ef þú vilt endurraða einingum) getur þú notað tækjastikuna **Sérstillingar**. Til að opna verkfæraslána **Sérstillingar** skaltu fylgja einu af þessum skrefum:
 
-- Veldu **Aðlaga þessa skjámynd** í eiginleikaglugga einingarinnar.
+- Veldu **Aðlaga þessa síðu** í eiginleikaglugga einingarinnar.
 - Veldu **Sérsníða þessa síðu** í flokknum **Sérsníða** á flipanum **Valkostir** í aðgerðaglugga einhverrar síðu.
 - Veldu hnappinn **Stillingar** (gírtáknið) á leitarstikunni og veldu síðan **Sérsníða**.
 
@@ -116,7 +117,8 @@ Eftirfarandi verkfæri eru í boði á **Sérstillingar** tækjastikunni:
 - Nota **Sleppa** verkfærið til að fjarlægja einingu úr fliparöð lyklaborðs síðunnar. Þegar þú velur hnappinn **Sleppa** á verkfæraslánni eru allar einingar sem nú þegar er sleppt sýndar í skyggðum gámi. Þú getur fjarlægt eða bætt við reitum á fliparöðinni með gagnvirkum hætti.
 - Notaðu verkfærið **Sýna í haus** þegar þú vilt að reitur birtist í samantektarhlutanum fyrir flýtiflipa. Þegar þú velur hnappinn **Sýna í haus** á verkfæraslánni eru allir reitir sem hafa verið valdir sem samantektarreitir sýndar í skyggðum gámi. Með því að velja reitina getur þú með gagnvirkum hætti fjarlægt og bætt við reitum þaðan.
 - Notaðu verkfærið **Læsa** til að merkja einingu sem annaðhvort breytanlega eða óbreytanlega. Þegar þú velur hnappinn **Læsa** á verkfæraslánni eru allar einingar sem eru þegar óbreytanlegar sýndar í skyggðum gámi. Þú getur þá gert þær breytanlegar aftur. Athugaðu að sumir reitir eru nauðsynlegir og ekki hægt að gera þá óbreytanlega. Hengilásatákn birtist við hliðina á þessum reitum.
-- Notaðu hnappinn **Bæta við PowerApp** til að fella forrit inn í síðuna sem var búið til með því að nota Microsoft PowerApps. Nánari upplýsingar um hvernig á að fella PowerApps-forrit inn í síðu er að finna í [Innfelling á PowerApps-forritum](embed-power-apps.md).
+- Notaðu hnappinn **Bæta við forriti úr Power Apps** til að fella forrit inn á síðuna sem var búið til með því að nota Microsoft Power Apps. Nánari upplýsingar um hvernig á að fella inn forrit frá Power Apps á síðu er að finna í [Innfelling á forritum úr Power Apps](embed-power-apps.md). Þessi valkostur er aðeins í boði þegar aðgerðin [Vistaðar skoðanir](saved-views.md) er óvirk.  
+- Notaðu hnappinn **Bæta við forriti** til að fella inn forrit, annaðhvort forrit stofnað í Microsoft Power Apps eða frá þriðja aðila, á síðuna. Þessi valkostur er aðeins í boði þegar aðgerðin [Vistaðar skoðanir](saved-views.md) er virkjuð. 
 - Notaðu verkfærið **Hreinsa** til að endurstilla síðuna í sjálfgefið, uppsett ástand. Allar sérstillingar á núverandi síðu verða hreinsaðar. Það er engin afturköllunaraðgerð til. Þess vegna skaltu aðeins nota þetta verkfæri ef þú ert viss um að þú viljir endurstilla síðuna.
 - Notaðu verkfærið **Flytja inn** til að hlaða inn sérstillingu úr skrá sem þú eða einhver annar bjó til áður. Þegar þú flytur inn sérstillingar fyrir síðu geturðu valið hvort þeim skuli bætt við eða komið í stað allra núverandi sérstillinga fyrir síðuna. Það er engin afturköllunaraðgerð til. Þess vegna, eftir að þú hefur flutt inn sérstillingar, verðurðu að hreinsa handvirkt eða afturkalla allar breytingar sem þú vilt ekki.
 - Notaðu verkfærið **Flytja út** til að vista sérstillingar þínar fyrir síðuna í skrá. Síðan geturðu deilt sérstillingunum þínum með öðrum notendum. Þessir notendur þurfa bara að flytja inn skrána sem inniheldur sérstillingarnar þínar fyrir síðuna.
@@ -152,7 +154,7 @@ Yfirlitið er iðulega fyrsta síða sem þú sérð þegar þú opnar forritið
 Til að sérsníða yfirlitið, hægri-smelltu á hvaða flís sem er og veldu síðan **Sérsníða** til að opna eiginleikaglugga flísarinnar.
 
 - Ef þú vilt fela eða endurnefna valda flís, getur þú breytt því beint í eiginleikaglugganum.
-- Til að endurraða vinnusvæðisflísar skaltu velja **Sérsníða þetta form** í einginleikaglugganum, til að opna **Sérstillingar** tækjastikuna. Þú getur síðan notað **Færa** verkfærið til að endurraða reitunum eins og þú vilt.
+- Til að endurraða vinnusvæðisflísar skaltu velja **Sérsníða þetta form** í einginleikaskjámyndinni, til að opna **Sérstillingar** tækjastikuna. Þú getur síðan notað **Færa** verkfærið til að endurraða reitunum eins og þú vilt.
 - Til að bæta við nýjum vinnusvæðisreit skaltu velja **Bæta við vinnusvæði** í eiginleikaglugganum. Ný vinnusvæðisflís er búin til neðst á yfirlitinu. Þú getur endurnefnt þennan nýja vinnusvæðisflís eins og þú vilt. Þú getur einnig bætt við listum, flísum og tenglum á vinnusvæðið eins og lýst er í [Bæta við listum, flísum eða tenglum á vinnusvæði](#adding-a-tile-list-or-link-to-a-workspace) kafla þessa efnisatriðis.
 
 ## <a name="administration-of-personalizations"></a>Stjórnun sérstillinga

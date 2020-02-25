@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ea06713af69659c205686a971393892fa584072
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 1e7da7bf5c473746413e92babfa943f546b7724d
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945721"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003465"
 ---
 # <a name="manage-seo-metadata"></a>Stjórna SEO-lýsigögnum
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig hægt er að stjórna lýsigögnum um SEO (SEO) í Microsoft Dynamics 365 Commerce.

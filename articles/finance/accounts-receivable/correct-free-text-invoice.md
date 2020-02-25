@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76cf1f24a31f246a41601908ebba308551925d90
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bf6e7a070d7c151c6ff5d868f4f916359b82683
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178336"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030993"
 ---
 # <a name="correct-a-free-text-invoice"></a>Leiðrétting textareiknings
 
@@ -47,7 +47,7 @@ Hægt er að þekkja afturköllunarreikninga og leiðrétta reikninga á tvo veg
 -   Haus textareikningsins sýnir stöðuna **Afturköllunarreikningur ‚\[reikningsnúmer\]'** eða **Leiðréttur reikningur '\[reikningsnúmer\]'**.
 
 > [!NOTE]
-> Þessi aðgerð er bara tiltæk ef **Leiðrétting á textareikningi** skilgreiningarlykill er valinn. Nánari upplýsingar um hvernig á að virkja stillingarlyklana er að finna í hlutanum Virkja (eða slökkva) á stillingarlyklum í efninu [Viðhaldsstilling](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/maintenance-mode). 
+> Þessi aðgerð er bara tiltæk ef **Leiðrétting á textareikningi** skilgreiningarlykill er valinn. Nánari upplýsingar um hvernig á að virkja stillingarlyklana er að finna í hlutanum Virkja (eða slökkva) á stillingarlyklum í efninu [Viðhaldsstilling](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md). 
 
 
 

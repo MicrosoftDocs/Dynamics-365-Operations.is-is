@@ -1,5 +1,5 @@
 ---
-title: Yfirlit yfir forskoðunarumhverfi Commerce
+title: Dynamics 365 Commerce yfirlit yfir forskoðunarumhverfi
 description: Þetta efni gefur yfirlit yfir forskoðunarumhverfi Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 901583afde4739be5313fa129ff0e52f11326881
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 1ff96aeb5963df9ddee56783a089dad129bbb71c
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906071"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024684"
 ---
-# <a name="commerce-preview-environment-overview"></a>Yfirlit yfir forskoðunarumhverfi Commerce
+# <a name="dynamics-365-commerce-preview-environment-overview"></a>Dynamics 365 Commerce yfirlit yfir forskoðunarumhverfi
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Þetta efni gefur yfirlit yfir forskoðunarumhverfi Microsoft Dynamics 365 Commerce.
@@ -52,10 +52,10 @@ Til að úthluta forskoðunarumhverfi Commerce skal sjá [Veita forskoðunarumhv
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Úthluta forskoðunarumhverfi Commerce](provisioning-guide.md)
+[Úthluta Dynamics 365 Commerce forsýningarumhverfi](provisioning-guide.md)
 
-[Skilgreina forskoðunarumhverfi Commerce](cpe-post-provisioning.md)
+[Skilgreina Dynamics 365 Commerce forskoðunarumhverfi](cpe-post-provisioning.md)
 
-[Stilltu valfrjálsa eiginleika fyrir forsýningarumhverfi Commerce](cpe-optional-features.md)
+[Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce forskoðunarumhverfi](cpe-optional-features.md)
 
-[Algengar spurningar um forskoðunarumhverfi Commerce](cpe-faq.md)
+[Dynamics 365 Commerce yfirlitsumhverfi algengra spurninga](cpe-faq.md)

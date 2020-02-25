@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-17
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 938d2eea7b9e85b19e9c1e3e0930f625224b880d
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 229ae14b9e2dedcd0ade094a772f16c0524d32a7
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898620"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006079"
 ---
 # <a name="accrue-time-off-based-on-hours-worked"></a>Uppsöfnun frís sem byggist á vinnustundum
 
 ## <a name="overview"></a>Yfirlit
 
-Fyrirtæki með starfsmenn í tímavinnu geta veitt frí sem byggist á vinnustundum í stað ráðningartíma hjá fyrirtækinu. Upplýsingar um vinnustundir eru venjulega geymdar tíma- og viðverukerfi. Í Talent: Core HR, hægt er að flytja inn þessa reglulegu vinnutíma og yfirvinnutíma og nota þá sem grundvöll fyrir umbun starfsmanns.
+Fyrirtæki með starfsmenn í tímavinnu geta veitt frí sem byggist á vinnustundum í stað ráðningartíma hjá fyrirtækinu. Upplýsingar um vinnustundir eru venjulega geymdar tíma- og viðverukerfi. 
 
 ## <a name="leave-plans"></a>Leyfisáætlanir
 

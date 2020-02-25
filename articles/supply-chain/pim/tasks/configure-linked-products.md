@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f3ef8314c3b6122627de0a730e912c7ebcd99be
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec7a2c5a2b2b7ef22fd3dcf7f7d3859e8e07ea5e
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568651"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003951"
 ---
 # <a name="configure-linked-products"></a>Skilgreina tengdar afurðir
 
@@ -30,9 +30,9 @@ ms.locfileid: "1568651"
 
 1. Fara í upplýsingar um afurðastjórnun > Afurðir > Útgefnar afurðir.
 2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-3. Í aðgerðasvæðinu er smellt á Smásala.
+3. Í aðgerðasvæðinu er smellt á Retail og Commerce.
 4. Smellt er á Tengdar afurðir.
-5. Smellið á „Breyta“.
+5. Smella á Breyta.
 6. Í reitnum númer tengdrar afurðar skal smella á fellilistahnappinn til að opna leitina.
 7. Í listanum skal smella á tengilinn í valinni línu.
 8. Í reitnum Eining skal smella á fellilistahnappinn til að opna leitina.

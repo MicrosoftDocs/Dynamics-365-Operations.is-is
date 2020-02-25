@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 2f76c4e50649d3eda951940a2186348c29474dc6
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 62d7dc1bd877cd1267f87ed24f8fb8be8f6c74a3
+ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658668"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3017705"
 ---
 # <a name="saved-views"></a>Vistuð yfirlit
 
@@ -37,7 +37,7 @@ Með hefðbundinni sérstillingu gátu notendur aðeins verið með eitt sett af
 
 -    Yfirlit búin til fyrir sérstakar gerðir af síðum geta einnig innihaldið síur eða flokkanir sem notandi bætir við, sem gerir notendum kleift að snúa sér fljótt að algengum síuðum gagnasöfnum. Sjá hlutann [Hvaða síður styðja yfirlit](saved-views.md#what-pages-support-views) fyrir frekari upplýsingar. 
 
--    Hægt er að birta skoðanir til notenda í sérstökum öryggishlutverkum og sérstökum lögaðilum. Þess vegna getur hver notandi sem hefur tiltekið hlutverk í tilteknum lögaðila fengið aðgang að og notað þá skoðun, jafnvel þó að sá notandi gæti ekki getað sérsniðið það. Þessi útgáfumöguleiki leyfir fyrirtækjum að skilgreina stöðluð yfirlit stofnunar sem eru aðlöguð að rekstrinum. Nánari upplýsingar er að finna í hlutanum [Stjórnun sérstillinga á fyrirtækisstigi með yfirlitum](saved-views.md#managing-personalizations-at-an-organizational-level-with-views).
+-    Hægt er að birta skoðanir til notenda í sérstökum öryggishlutverkum og sérstökum lögaðilum. Þess vegna getur hver notandi sem hefur tiltekið hlutverk í og aðgang að tilteknum lögaðila fengið aðgang að og notað þá skoðun, jafnvel þó að sá notandi gæti ekki getað sérsniðið það. Þessi útgáfumöguleiki leyfir fyrirtækjum að skilgreina stöðluð yfirlit stofnunar sem eru aðlöguð að rekstrinum. Nánari upplýsingar er að finna í hlutanum [Stjórnun sérstillinga á fyrirtækisstigi með yfirlitum](saved-views.md#managing-personalizations-at-an-organizational-level-with-views).
 
 -    Ólíkt hefðbundinni sérstillingu eru yfirlit ekki vistuð sjálfkrafa þegar notandi framkvæmir ákveðnar sérstillingar eða síanir á lista. Ákveðnar vistanir eru nauðsynlegar til að bjóða upp á sveigjanleika við stofnun á yfirliti á undan eða eftir breytingarnar sem tengjast þessu yfirliti hafa verið gerðar og til að tryggja að skilgreiningar yfirlits hafi ekki óvart verið breytt með síum eða sérstillingum sem ekki eru ætlaðar til langtímanotkunar.  
 
@@ -71,7 +71,7 @@ Ef þú vilt vista þessar breytingar skaltu fylgja þessum skrefum.
 2.  Til að breyta núverandi yfirliti:
      1. Veljið **Vista**. Takið eftir að þessi aðgerð verður ekki virkjuð fyrir læst yfirlit. 
 3.  Til að búa til nýtt yfirlit:
-     1.    Veljið **Vista sem**. 
+     1.    Veljið **Vista sem...**. 
      2.    Færið inn heiti yfirlits (valkvætt) og lýsingu.
      3.    Veljið **Vista**.
 
@@ -83,7 +83,7 @@ Til að breyta sjálfgefnu yfirliti fyrir síðu skal fylgja þessum skrefum:
 2.  Veldu heiti yfirlitsins til að opna yfirlitsvalið. 
 3.  Veljið **Fleiri** og síðan **Festa sem sjálfgefið**.  
 
-Að öðrum kosti, þegar nýtt yfirlit er stonað (með aðgerðinni **Vista sem**), er hægt að gera þetta nýja yfirlit að sjálfgefna yfirlitinu með því að stilla valkostinn **Festa sem sjálfgefið** áður en yfirlitið er vistað.
+Að öðrum kosti, þegar nýtt yfirlit er stonað (með aðgerðinni **Vista sem...**), er hægt að gera þetta nýja yfirlit að sjálfgefna yfirlitinu með því að stilla valkostinn **Festa sem sjálfgefið** áður en yfirlitið er vistað.
 
 Athugið að í sumum tilfellum keyrir fyrirspurnin ekki sem tengist sjálfgefnu yfirliti þegar fyrst er farið inn á síðu. Til dæmis ef farið er frá reit og yfir á síðu verður fyrirspurn reitsins keyrt óháð fyrirspurninni sem tengist sjálfgefnu yfirliti. Einnig, ef farið er á síðu þar sem klassískt yfirlit er þegar með skilgreinda fyrirspurn, mun upprunaleg fyrirspurn keyrast í stað fyrirspurnar sjálfgefins yfirlits. Þegar þetta gerist verður látið vita með upplýsandi skilaboðum þegar yfirlitið er að hlaðast inn. Að skipta milli yfirlita eftir að síðunni hefur verið hlaðið inn ætti að leyfa fyrirspurn yfirlits að keyra eins og búast má við.
 
@@ -99,11 +99,11 @@ Fyrir lista yfir tiltæk yfirlit fyrir þessa síðu eru eftirfarandi aðgerðar
 Allar breytingar gerðar á þessum svarglugga taka gildi eftir að hnappurinn **Vista** er valinn.
 
 ## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Stjórnun sérstillinga á fyrirtækisstigi með yfirlitum
-Til að hjálpa þér að skilja hvernig vistuð yfirlit hjálpa til við að bæta stjórnun á sérstillingum á skipulagsstigi, lýsir þessi hluti því hvernig sérstillingastjórnun virkaði áður en yfirlit voru tiltæk.
+Til að hjálpa þér að skilja hvernig vistuð yfirlit hjálpa til við að bæta stjórnun á sérstillingum á skipulagsstigi, lýsir þessi hluti mismun á sérstillingastjórnun með eða án eiginleika vistaðra skjáyfirlita.
 
 Án yfirlita notuðu stjórnendur sett af sérstillingum fyrir síðu handa notanda eða hóp notenda í gegnum síðuna Sérstillingar. Ef þessir notendur voru með sérstillingarheimildir tóku sérstillingarnar gildi á þessari síðu. Hinsvegar var enginn möguleiki á því að koma í veg fyrir að notendur sérstilltu síðuna enn frekar, sem þýddi að fyrirtækið gat ekki tryggt að samræmi væri á notandaviðmóti notenda. Ef einhver þessara notenda var ekki með heimildir til sérstillinga voru sérstillingar sem stjórnandi veitti þeim ekki hlaðnar inn. Ennfremur, ef nýir notendur voru ráðnir inn í fyrirtæki, þurftu stjórnendur að hlaða inn handvirkt safni af sérstillingum fyrir notendurna. Ekkert sérstakt sjálfvirkt ferli var til staðar sem tilgreindi að ákveðið safn sérstillinga ætti að vera í boði fyrir notendur í því hlutaverki.
 
-Eiginleikinn fyrir vistun yfirlita gerir fyrirtækisstjórnun á sérstillingum umtalsvert auðveldari, þá sérstaklega vegna þess að hægt er að gefa yfirlit út til hópta notenda. Eftir að yfirlit hefur verið birt mun sérhver notandi sem hefur eitt af skilgreindum öryggishlutverkum og er í tilgreindum lögaðilum geta fengið aðgang að og notað yfirlitið, jafnvel þó að notandinn geti ekki sérstillt það. Þótt hver notandi sé með afrit af útgefnu yfirliti þar sem síðunotkun (óbeinar sérstillingar) er sjálfkrafa notuð, getur enginn notandi vistað beinar sérstillingar eða uppfærslur á fyrirspurninni til útgefna yfirlitsins. (Með öðrum orðum, birtar skoðanir eru læstar.) Ef nýir notendur fá hlutverk í lögaðilum sem skoðanir voru birtar, munu þeir sjálfkrafa sjá skoðanirnar sem tengjast hlutverkum þeirra og lögaðilum. Ekki er þörf á viðbótaraðgerðum af stjórnandanum. Sömuleiðis, ef notendur skipta um hlutverk í stofnun eða fá aðgang að mismunandi lögaðilum, gætu þeir ekki lengur haft aðgang að þeim yfirlitum sem áður voru birt þeim. Aftur er engin viðbótaraðgerð nauðsynleg frá stjórnandanum.
+Eiginleikinn fyrir vistun yfirlita gerir fyrirtækisstjórnun á sérstillingum umtalsvert auðveldari, þá sérstaklega vegna þess að hægt er að gefa yfirlit út til hópta notenda. Eftir að yfirlit hefur verið birt mun sérhver notandi sem hefur eitt af skilgreindum öryggishlutverkum og hefur aðgang að tilgreindum lögaðilum geta séð og notað yfirlitið, jafnvel þó að notandinn geti ekki sérstillt það. Þótt hver notandi sé með afrit af útgefnu yfirliti þar sem síðunotkun (óbeinar sérstillingar) er sjálfkrafa notuð, getur enginn notandi vistað beinar sérstillingar eða uppfærslur á fyrirspurninni til útgefna yfirlitsins. Með öðrum orðum, birt yfirlit eru læst. Þar að auki, ef nýir notendur fá hlutverk í lögaðilum sem skoðanir voru birtar, munu þeir sjálfkrafa sjá skoðanirnar sem tengjast hlutverkum þeirra og lögaðilum. Engin viðbótaraðgerð er nauðsynleg frá stjórnandanum. Sömuleiðis, ef notendur skipta um hlutverk í stofnun eða fá aðgang að mismunandi lögaðilum, gætu þeir ekki lengur haft aðgang að þeim yfirlitum sem áður voru birt þeim. Aftur er engin viðbótaraðgerð nauðsynleg frá stjórnandanum.
 
 Uppfærslur á útgefnu yfirliti er auðveldlega hægt að úthluta til notenda með því að endurútgefa yfirlitið til viðeigandi öryggishlutverka og lögaðila.
 
@@ -119,7 +119,8 @@ Til að birta yfirlit skal fylgja þessum skrefum:
 4.  Sláðu inn heiti og (valkvætt) lýsingu á yfirlitinu. Heitið sem þú slærð inn er heitið sem notendur, sem fá þetta yfirlit, munu sjá í yfirlitsvalinu. Nöfn birtra skoðana fyrir síðu verða að vera einstök. Engin tvítekin heiti eru leyfð, jafnvel þótt listinn yfir hlutverk eða lögaðila sem yfirlitunum er beitt á séu ólík.
 5.  Bættu öryggishlutverkum við sem samsvara notendunum sem fá þetta yfirlit.
 6. Bættu við lögaðilum sem þetta yfirlit ætti að vera tiltækt fyrir. 
-7.  Velja **Birta**.
+7. [10.0.9/uppfærsla verkvangs 33 eða nýrri] Ákveðið hvort skoða skuli útsýnið sem sjálfgefið skjá fyrir valda notendur. Að gera yfirlit sjálfgefið þýðir að þetta er útsýnið sem notendur munu sjá næst þegar þeir opna miðasíðuna. Þetta mun breyta sjálfgefnu skjánum fyrir þessa notendur; notendur geta þó enn breytt sjálfgefnu yfirliti eftir að útgáfan hefur átt sér stað.    
+8.  Velja **Birta**.
 
 Athugið að í sumum umhverfum getur tekið smástund (allt að klukkustund) áður en notendur sjá birt yfirlit.
 
@@ -132,7 +133,8 @@ Ef breytingarnar sem þú vilt gera á útgefnu yfirliti eiga einungis við um f
 3.  Veljið **Já** ef á að uppfæra núverandi yfirlit (eða **Nei** ef á að birta þetta undir öðru heiti).
 4.  Uppfærið heitið, lýsingu og/eða öryggishlutverk fyrir yfirlitið. 
 5.  Velja **Birta**. 
-6.  Ef heitið á birta yfirlitinu var uppfært þarf einnig að eyða birta yfirlitinu með gamla heitinu (sjá hlutann **Stjórnun birtra yfirlita** fyrir frekari upplýsingar). 
+6.  [10.0.8/verkvangsuppfærsla 32 eða yngri] Ef heitið á birta yfirlitinu var uppfært þarf einnig að eyða birta yfirlitinu með gamla heitinu (sjá hlutann **Stjórnun birtra yfirlita** fyrir frekari upplýsingar). 
+7. [10.0.9 / Uppfærsla pallsins 33 eða nýrri] Ef þú hefðir upphaflega valið þessa birtu skoðun til að vera sjálfgefið yfirlit, þá verður það sjálfgefið yfirlit fyrir þessa notendur aftur eftir útgáfuna að nýju.  
 
 Ef breytingarnar á birtu yfirliti fela í sér breytingu á sérstillingum eða síum sem tengjast yfirlitinu skal fylgja þessum skrefum: 
 1.  Skiptið yfir í útgefið yfirlit sem á að breyta. 
@@ -148,13 +150,15 @@ Líkt og með stjórnun á persónulegum yfirlitum gefur svarglugginn **Stjórna
 Fyrir listann yfir öll birt yfirlit fyrir þessa síðu eru eftirfarandi sett af aðgerðum tiltæk. 
 
 -    **Birta**: Notið aðgerðina **Birta** til að endurbirta yfirlit eftir að færibreytum birtingar (heiti, lýsingu, öryggishlutverkum eða lögaðilum) er breytt.
--    **Fjarlægja**: Notið aðgerðina **Fjarlægja** til að fjarlægja að fullu birt yfirlit. Þessi aðgerð fjarlægir yfirlitið hjá öllum notendum í kerfinu.  
- 
-Allar breytingar gerðar á þessum svarglugga taka gildi eftir að hnappurinn **Vista** er valinn.
+-    **Fjarlægja**: Notið aðgerðina **Fjarlægja** til að fjarlægja að fullu birt yfirlit. Þessi aðgerð fjarlægir yfirlitið hjá öllum notendum í kerfinu. Ef birtar skoðanir eru fjarlægðar tekur gildi eftir að hnappurinn **Vista** er valinn.
 
 ## <a name="frequently-asked-questions"></a>Algengar spurningar
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Hvernig virkja ég vistuð yfirlit í umhverfinu mínu? 
-Fylgdu skrefunum hér fyrir neðan til að gera vistaðar skoðanir virkar meðan aðgerðin er í forskoðun: 
+Athugasemd: Eiginleikinn **Vistaðar skoðanir** krefst sérstillingarkerfisins í Finance and Operations til að vera virk. Ef slökkt er á sérstillingu fyrir allt umhverfið verða yfirlit afvirkjuð jafnvel þótt þú fylgir skrefunum hér að neðan. 
+
+**10.0.9 / uppfærsla pallsins 33 og nýrri** Eiginleikinn **Vistaðar skoðanir** er fáanlegur beint í lögun stjórnun í hvaða umhverfi sem er. Eins og aðrir opnir forskoðunareiginleikar, þá er það kleift að virkja þennan eiginleika í framleiðslu [Viðbótarskilmálar um notkunarskilmála](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8 / uppfærsla verkvangs 32 og yngri** Eiginleikinn **Vistuð yfirlit** er hægt að virkja í umhverfi 1. lagi (þróun/prófun) og 2. lagi (sandkassi) til að veita frekari prófunar- og hönnunarbreytingar með því að fylgja skrefunum hér að neðan.
 
 1.  **Virkja flugið**: Framkvæma eftirfarandi SQL staðhæfingu: 
 
@@ -168,15 +172,12 @@ Fylgdu skrefunum hér fyrir neðan til að gera vistaðar skoðanir virkar meða
 
 Allar síðari notendatímabil munu byrja með vistaðar skoðanir virka.
 
-Vistuð yfirlit eru aðeins til notkunar í umhverfi Tier 1 (Dev/Test) og Tier 2 (Sandkassi) til að veita frekari prófunar- og hönnunarbreytingar. Forsmekk af vistuðum yfirlitum verður fáanlegt í framleiðsluumhverfi í framtíðinni.
-
-Athugið að ef slökkt er á sérstillingu fyrir umhverfið verða yfirlit afvirkjuð jafnvel þótt þú fylgir skrefunum hér að ofan. Ástæðan er vegna þess að eiginleiki yfirlita er byggður ofan á undirkerfi sérstillingar.
 
 ### <a name="what-happens-to-existing-personalizations-when-views-are-enabled"></a>Hvað verður um núverandi sérstillingar þegar yfirlit eru virkjuð? 
 Þegar yfirlit eru virkjuð eru allar núverandi sérstillingar fyrir notanda og skjámynd vistaðar í nýtt yfirlit sem ber heitið **Yfirlitið mitt** sem er sjálfkrafa stillt sem sjálfgefið yfirlit. Þetta er til að tryggja að samræmi í notendaupplifun áður og eftir að yfirlit eru virkjuð, fyrir utan stjórnun yfirlitsvals sem birtist í skjámyndum.  
 
 ### <a name="what-pages-support-views"></a>Hvaða síður styðja yfirlit? 
-Yfirlit eru tiltæk á flestum en ekki öllum síðum. Nánar tiltekið eru yfirlit tiltæk sem stendur á síðum sem fylla allan skjáinn fyrir utan yfirlitssvæði og vinnusvæði. Síður sem fylla ekki út í allan skjáinn, sem eru svargluggar, fellilistar svarglugga, uppflettingar, endurbættar forskoðanir, styðja einnig ekki yfirlit. Stuðningur fyrir yfirlit fyrir aðrar síðugerðir, t.d. vinnusvæði og svarglugga, verður hugsanlega tekinn til greina fyrir framtíðaruppfærslu.   
+Yfirlit eru tiltæk á flestum en ekki öllum síðum. Nánar tiltekið eru yfirlit tiltæk sem stendur á síðum sem fylla allan skjáinn fyrir utan yfirlitssvæði og vinnusvæði. Síður sem fylla ekki út í allan skjáinn, sem eru svargluggar, fellilistar svarglugga, uppflettingar, endurbættar forskoðanir, styðja ekki yfirlit. Stuðningur fyrir yfirlit fyrir aðrar síðugerðir, t.d. vinnusvæði og svarglugga, verður hugsanlega tekinn til greina fyrir framtíðaruppfærslu.   
 
 ### <a name="who-is-allowed-to-publish-views"></a>Hver má birta yfirlit?
 Aðeins kerfisstjórar og notendur sem hefur verið úthlutað á hlutverkið **Stjórnandi vistaðra yfirlita** hafa réttindi til að birta yfirlit. 
@@ -184,12 +185,14 @@ Aðeins kerfisstjórar og notendur sem hefur verið úthlutað á hlutverkið **
 ### <a name="why-am-i-not-able-to-save-filters-with-this-view"></a>Af hverju get ég ekki vistað síur með þessu yfirliti? 
 Það eru nokkrar ástæður fyrir því að sía virðist ekki vistast með yfirliti: 
 
-- Hugsanlega styður síðan ekki vistun á síum sem hluti af skilgreiningu yfirlits. Athugið að aðeins síður með stórt yfirlitsval leyfir að vista í yfirliti breytingar á sérstillingum og fyrirspurn. Sjá hlutann „Skipt á milli yfirlita“ fyrir frekari upplýsingar. 
-
-- Ef yfirlitið er sjálfgefið yfirlit og slóðin að síðunni inniheldur fyrirspurn kann að vera að fyrirspurn yfirlitsins verði ekki notað í upphafi. Tvær helstu atburðarásirnar fyrir þetta eru: 
-     - Ef farið er á síðu frá reit verður fyrirspurn reitsins keyrð óháð fyrirspurninni sem tengist sjálfgefnu yfirliti. 
-     - Ef farið er á síðu og sá upphafspunktur inniheldur fyrirspurn, mun upprunaleg fyrirspurn keyra í stað fyrirspurnar sjálfgefins yfirlits. 
-     
-  Þú ættir að fá viðvörun þegar þessar aðstæður koma upp á með upplýsandi skilaboðum þegar yfirlitið er að hlaðast. Einnig er hægt að staðfesta með því að skipta yfir í þetta yfirlit eftir að síðan hleðst inn, því að þetta ætti að leyfa keyrslu á fyrirspurn yfirlits óháð öðru.  
+- Hugsanlega styður síðan ekki vistun á síum sem hluti af skilgreiningu yfirlits. Athugið að aðeins síður með stórt yfirlitsval leyfir að vista í yfirliti breytingar á sérstillingum og fyrirspurn. Sjá hlutann **Skipt á milli yfirlita** fyrir frekari upplýsingar. 
 
 - Umrædd blaðsíða styður ef til vill ekki viðhorf á réttan hátt, þar sem hún getur hunsað fyrirspurnina að fullu eða kann að starfa á tímabundinni töflu þar sem gögn eru ekki viðvarandi. 
+
+### <a name="what-data-will-i-see-when-i-visit-a-page"></a>Hvaða gögn mun ég sjá þegar ég heimsæki síðu? 
+Fyrir síður með litla skjávalda (aðeins er hægt að vista persónusnið á skjánum) munt þú sjá sömu gögn og þú hefur alltaf þegar þú heimsækir síðuna. 
+
+Fyrir síður með stóra skjávalda (sérsniðnar og fyrirspurnir er hægt að vista á skjánum) sérðu fyrst og fremst gögnin sem tengjast fyrirspurninni sem tengist sjálfgefnu skjánum. Það eru tvær aðalundantekningar á þessu: - Ef farið er á síðu frá reit verður fyrirspurn reitsins keyrð óháð fyrirspurninni sem tengist sjálfgefnu yfirliti. Ef þú stofnaðir þann reit eftir að skoðanir hafa verið virkjaðar mun val á reit opna síðuna með skjánum sem tengist þeim reit.   
+     - Ef farið er á síðu og sá upphafspunktur inniheldur fyrirspurn, mun upprunaleg fyrirspurn keyra í stað fyrirspurnar sjálfgefins yfirlits. Þú ættir að vera látin/n vita þegar þetta gerist með upplýsandi skilaboðum þegar yfirlitið er að hlaðast inn. Einnig er hægt að staðfesta með því að skipta yfir í þetta yfirlit eftir að síðan hleðst inn, því að þetta ætti að leyfa keyrslu á fyrirspurn yfirlits óháð öðru.  
+
+

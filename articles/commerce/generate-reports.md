@@ -1,6 +1,6 @@
 ---
 title: Búa til skýrslur fyrir netrás
-description: Þetta efni lýsir því hvernig á að búa til skýrslur fyrir netrásina þína í Microsoft Dynamics 365 Retail.
+description: Þetta efni lýsir því hvernig á að búa til skýrslur fyrir netrásina þína í Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
 ms.date: 10/01/2019
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77737c134df8f3ba598fe9026fa7c01ca9976733
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: fd40aabdf40e0f2bb257b914326df5595a0e6945
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698051"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003005"
 ---
 # <a name="generate-online-channel-reports"></a>Búa til skýrslur fyrir netrás
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Þetta efni lýsir því hvernig á að búa til skýrslur fyrir netrásina þína í Microsoft Dynamics 365 Retail.
+Þetta efni lýsir því hvernig á að búa til skýrslur fyrir netrásina þína í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 
-Þú getur búið til og skoðað nokkrar skýrslur í Retail til að sjá hvernig netrásin þín gengur.
+Þú getur búið til og skoðað nokkrar skýrslur í Commerce til að sjá hvernig netrásin þín gengur.
 
 ## <a name="channel-summary-report"></a>Yfirlitsskýrsla rásar
 
@@ -46,7 +46,7 @@ Skýrslan **Samantekt rásar** sýnir yfirlit yfir eftirfarandi færslur fyrir v
 
 Til að búa til skýrsluna **Samantekt rásar** fylgirðu þessum skrefum.
 
-1. Fara til **Retail \> Fyrirspurnir og skýrslur \> Söluskýrslur \> Samantektarskýrsla rásar**.
+1. Fara til **Retail og Commerce \> Fyrirspurnir og skýrslur \> Söluskýrslur \> Samantektarskýrsla rásar**.
 1. Í reitnum **Frá dags.** færirði inn dagsetningu.
 1. Í reitnum **Til dags.** færirðu inn dagsetningu.
 1. Í reitnum **Rás** velurðu netrásina.
@@ -58,7 +58,7 @@ Skýrslan **Rásarsala eftir árum** sýnir samanburð á sölu milli ára fyrir
 
 Til að búa til skýrsluna **Rásarsala eftir árum** fylgirðu þessum skrefum.
 
-1. Farðu í **Retail \> Fyrirspurnir og skýrslur \> Söluskýrslur \> Skýrslan rásarsala eftir árum**.
+1. Fara til **Retail og Commerce \> Fyrirspurnir og skýrslur \> Söluskýrslur \> Skýrsla um rásarsölu eftir árum**.
 1. Í reitnum **Frá almanaksári** færirðu inn ár.
 1. Í reitnum **Til almanaksárs** færirðu inn ár.
 1. Í reitnum **Rás** velurðu netrásina.
@@ -70,7 +70,7 @@ Skýrslan **Rásarsala eftir klukkustund** sýnir sölutölur á klukkustund fyr
 
 Til að búa til skýrsluna **Rásarsala eftir klukkustund** fylgirðu þessum skrefum.
 
-1. Farðu í **Retail \> Fyrirspurnir og skýrslur \> Söluskýrslur \> Skýrslan rásarsala eftir klukkustund**.
+1. Fara til **Retail og Commerce \> Fyrirspurnir og skýrslur \> Söluskýrslur \> Skýrsla um rásarsölu eftir klukkustundum**.
 1. Í reitnum **Frá dags.** færirði inn dagsetningu.
 1. Í reitnum **Til dags.** færirðu inn dagsetningu.
 1. Í reitnum **Rás** velurðu netrásina.
@@ -82,7 +82,7 @@ Skýrslan **Helstu viðskiptavinir** sýnir sölutölur fyrir efstu *N* viðskip
 
 Til að búa til skýrsluna **Helstu viðskiptavinir** fylgirðu þessum skrefum.
 
-1. Fara til **Retail \> Fyrirspurnir og skýrslur \> Söluskýrslur \> Skýrslan Helstu viðskiptavinir**.
+1. Fara til **Retail og Commerce \> Fyrirspurnir og skýrslur \> Söluskýrslur \> Skýrsla um stærstu viðskiptavinina**.
 1. Í reitnum **Frá dags.** færirði inn dagsetningu.
 1. Í reitnum **Til dags.** færirðu inn dagsetningu.
 1. Í reitnum **Rás** velurðu netrásina.
@@ -94,7 +94,7 @@ Skýrslan **Hæstu afslættir** sýnir sölutölur fyrir efstu *N* afslættina f
 
 Til að búa til skýrsluna **Helstu afslættir** fylgirðu þessum skrefum.
 
-1. Fara til **Retail \> Fyrirspurnir og skýrslur \> Söluskýrslur \> Skýrslan Helstu afslættir**.
+1. Fara til **Retail og Commerce \> Fyrirspurnir og skýrslur \> Söluskýrslur \> Skýrsla um hæstu afslætti**.
 1. Í reitnum **Frá dags.** færirði inn dagsetningu.
 1. Í reitnum **Til dags.** færirðu inn dagsetningu.
 1. Í reitnum **Rás** velurðu netrásina.
@@ -106,7 +106,7 @@ Skýrslan **Mest seldu afurðir** sýnir sölutölur fyrir efstu *N* afurðirnar
 
 Til að búa til skýrsluna **Mest seldu afurðir** fylgirðu þessum skrefum.
 
-1. Fara til **Retail \> Fyrirspurnir og skýrslur \> Söluskýrslur \> Skýrslan Mest seldu afurðir**.
+1. Fara til **Retail og Commerce \> Fyrirspurnir og skýrslur \> Söluskýrslur \> Skýrsla um mest seldu afurðirnar**.
 1. Í reitnum **Frá dags.** færirði inn dagsetningu.
 1. Í reitnum **Til dags.** færirðu inn dagsetningu.
 1. Í reitnum **Rás** velurðu netrásina.
@@ -118,7 +118,7 @@ Skýrslan **Flokkasala** sýnir sölumælingar yfir valið tímabil fyrir hvern 
 
 Til að búa til skýrsluna **Flokkasala** fylgirðu þessum skrefum.
 
-1. Farðu í **Retail \> Fyrirspurnir og skýrslur \> Söluskýrslur \> Flokkar söluskýrsla**.
+1. Farðu í **Retail og Commerce \> Fyrirspurnir og skýrslur \> Skýrslur um sölu \> Söluskýrsla tegund**.
 1. Í reitnum **Frá dags.** færirði inn dagsetningu.
 1. Í reitnum **Til dags.** færirðu inn dagsetningu.
 1. Í reitnum **Rás** velurðu netrásina.
@@ -126,11 +126,11 @@ Til að búa til skýrsluna **Flokkasala** fylgirðu þessum skrefum.
 
 ## <a name="organization-sales-report"></a>Söluyfirlit fyrirtækis
 
-Skýrslan **Sala fyrirtækis** sýnir afkomu smásöluverslana þinna eftir fyrirtækjaeiningum. Þessi skýrsla inniheldur sölumagn og magn eftir verslun og hagnaðarhlutfall fyrir hverja verslun. Fyrirtækjaeiningin er byggð á sjálfgefnu skýrslustigveldi.
+Skýrslan **Sala fyrirtækis** sýnir afkomu verslana þinna eftir fyrirtækjaeiningum. Þessi skýrsla inniheldur sölumagn og magn eftir verslun og hagnaðarhlutfall fyrir hverja verslun. Fyrirtækjaeiningin er byggð á sjálfgefnu skýrslustigveldi.
 
 Til að búa til skýrsluna **Fyrirtækjasala** fylgirðu þessum skrefum.
 
-1. Farðu í **Retail \> Fyrirspurnir og skýrslur \> Söluskýrslur \> Skýrslan fyrirtækjasala**.
+1. Farðu í **Retail og Commerce \> Fyrirspurnir og skýrslur \> Skýrslur um sölu \> Söluskýrsla fyrirtækis**.
 1. Í reitnum **Frá dags.** færirði inn dagsetningu.
 1. Í reitnum **Til dags.** færirðu inn dagsetningu.
 1. Veljið **Í lagi**.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: adfb8ffce3f91c0e8e8b996c284414f5ddc1baf1
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562531"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004066"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Rakning á vörum og hráefni í birgðum, framleiðslu og sölu
 
@@ -44,7 +44,7 @@ Vörurakning er viðskiptagreindartól sem gefur uppsprettu og áfangastað vara
 -   Rannsaka þar sem vara eða hráefni var notuð í framleiðslu á annarri vöru.
 
 ## <a name="what-can-i-trace-and-are-there-any-limitations"></a>Það getur I rekja og það eru engar takmarkanir?
-Hægt er að rekja sögulegar birgðafærslur fyrir vörur og hráefni samkvæmt vörunúmeri og rakningarvídd, svo sem raðnúmer, rununúmer eða rununúmer lánardrottins. Ef rakningarvídd er ekki úthlutað er ekki hægt að rekja vöruna eða hráefnið. Þar sem rakning er byggð á birgðafærslum, eru einhverjar takmarkanir þegar vörur eru raktar. Til dæmis eru takmarkanir tengdar færslum fyrir verk, eignir og smásölu. Þar að auki eru aukaafurðir sýndar í rakningaratriðum, en hliðarafurðir eru ekki hafðar með. Rakningin inniheldur allar vöruhúsafærslur frá einni staðsetningu til annarar. Þess vegna gætu notendur fundið magn upplýsinga svolítið yfirþyrmandi. Rakningin er sýnd fyrir einn lögaðila í einu. Engin eiginleikar milli fyrirtækja eru í samhengi innan samstæðu. Það þarf að hefja nýja rakningu fyrir hvert fyrirtæki þar sem vara er móttekin eða gefin út.
+Hægt er að rekja sögulegar birgðafærslur fyrir vörur og hráefni samkvæmt vörunúmeri og rakningarvídd, svo sem raðnúmer, rununúmer eða rununúmer lánardrottins. Ef rakningarvídd er ekki úthlutað er ekki hægt að rekja vöruna eða hráefnið. Þar sem rakning er byggð á birgðafærslum, eru einhverjar takmarkanir þegar vörur eru raktar. Til dæmis eru takmarkanir tengdar færslum fyrir verk, eignir og viðskipti. Þar að auki eru aukaafurðir sýndar í rakningaratriðum, en hliðarafurðir eru ekki hafðar með. Rakningin inniheldur allar vöruhúsafærslur frá einni staðsetningu til annarar. Þess vegna gætu notendur fundið magn upplýsinga svolítið yfirþyrmandi. Rakningin er sýnd fyrir einn lögaðila í einu. Engin eiginleikar milli fyrirtækja eru í samhengi innan samstæðu. Það þarf að hefja nýja rakningu fyrir hvert fyrirtæki þar sem vara er móttekin eða gefin út.
 
 ## <a name="what-criteria-can-i-specify-for-an-item-trace"></a>Hvaða skilyrði geta I tilgreina vöru rakningu?
 Skilyrðin sem krafist er fyrir vörurakningu eru vörunúmer, rakningarvídd (eins og rununúmer eða raðnúmer) og stefna. Eftirfarandi tafla lýsir þeim skilyrðum sem hægt er að nota í vöru rakningu.
@@ -127,7 +127,7 @@ Eftir að þú hefur keyrt rakningu er hægt að nota valkostina á hnappnum **R
 Viljir þú nota valkostina **Nýtt afturábak** eða **Nýtt fram á við**, verður að nota aðgerðina **Opna í nýjum glugga** til að hafa nýja rakningu í nýjum glugga.
 
 ## <a name="can-i-save-the-trace-details"></a>Get ég vista rakningaratriðunum?
-Hægt er að vista upplýsingar sem xml-skrá í flipanum <strong>Upplýsingar</strong> með því að smella á <strong>Flytja út</strong> fyrir neðan aðgerðina *<strong><em>Rakning</em></strong>* á aðgerðasvæðinu. Til viðbótar upplýsingum um rakningu, inniheldur xml skráin rakningarskilyrði, yfirhnúta og magn á lager. Getan til að vista upplýsingar um rakningu er gagnleg, til dæmis, ef óskað er að tengja upplýsingar gæðapöntun eða öðrum samræmingarskjölum. Hægt er að tilgreina hvar vista skrána. Veljið valkostinn <strong>Sýna skjal</strong> til að skoða skrána þegar í stað. <strong>Athugið:</strong>Skráin er alltaf vistuð, jafnvel ef eingöngu á að skoða hana. Að sjálfgefnu opnar xml-skrána í vafra glugga. Hins vegar er hægt að hægrismella á skrána, velja <strong>Opna með</strong>, og velja síðan forritið sem nota skal til að birta efnið.
+Hægt er að vista upplýsingar sem xml-skrá í flipanum <strong>Upplýsingar</strong> með því að smella á <strong>Flytja út</strong> fyrir neðan aðgerðina *<strong><em>Rakning</em></strong>* á aðgerðasvæðinu. Til viðbótar upplýsingum um rakningu, inniheldur xml skráin rakningarskilyrði, yfirhnúta og magn á lager. Getan til að vista upplýsingar um rakningu er gagnleg, til dæmis, ef óskað er að tengja upplýsingar gæðapöntun eða öðrum samræmingarskjölum. Hægt er að tilgreina hvar vista skrána. Veljið valkostinn <strong>Sýna skjal</strong> til að skoða skrána þegar í stað. <strong>Athugið:</strong> Skráin er alltaf vistuð, jafnvel ef eingöngu á að skoða hana. Að sjálfgefnu opnar xml-skrána í vafra glugga. Hins vegar er hægt að hægrismella á skrána, velja <strong>Opna með</strong>, og velja síðan forritið sem nota skal til að birta efnið.
 
 ## <a name="can-i-calculate-a-balance-for-a-particular-item-or-ingredient"></a>Get ég að reiknað út stöðu fyrir tiltekna vöru eða innihaldsefnisins?
 Hægt er að flytja upplýsingar úr samantektarskjámyndum yfir í Microsoft Excel. Opnið viðeigandi síðu, smellið á táknið **Opna í Microsoft Office** og veljið svo **Flytja út í Microsoft Excel**. Þetta er sérlega gagnlegt þegar á að reikna út fjöldajanfvægi fyrir vöru eða efni frá síðunni **Samantekt á færslum**. Á síðunni **Samantekt á færslum** er hægt að afmarka vöruna eða efnið, og framleiðslulotu ef óskað er, og flytja síðan upplýsingarnar til Excel. Í Excel er til dæmis hægt að einangra magn á lager, magn sem var selt, og upphæð sem var notuð í framleiðslu.
@@ -136,7 +136,7 @@ Hægt er að flytja upplýsingar úr samantektarskjámyndum yfir í Microsoft Ex
 Rakningaratriðin innihalda upplýsingar um gæðapantanir og ósamkvæmnitilvik sem snerta vöru eða hráefni. Hægt er að skoða yfirlit yfir gæðapantanir og ósamkvæmni með því að smella á **Gæðapantanir** eða **Ósamkvæmnitilvik** á Aðgerðarrúðunni. **Athugið:** Eyðileggingargæðapantanir geta birst oftar en einu sinni í rakningarupplýsingunum. Þegar eyðileggingargæðapöntun er stofnuð fyrir skjal eins og innkaupapöntun, birtist hún fyrir hverja færslu fyrir skjalið.
 
 ## <a name="are-there-any-reporting-capabilities-that-are-related-to-item-tracing"></a>Eru einhverjar skýrslugerðaraðgerðir sem eru tengdar vörurakningu?
-Hægt er að mynda skýrsluna **Sent til viðskiptavina** til að auðkenna magn vöru eða hráefnis sem hefur verið sent og viðskiptavinina  sem það var sent til. Fyrir fyrirspurn sem tengist samræmi, er hægt að mynda skýrslu fyrir alla viðskiptavini. Fyrir fyrirspurn sem tengist þjónustudeild, er hægt að mynda skýrslu fyrir valinn viðskiptavin. Ef varan var hráefni sem var notaður í framleiðslu á tilbúinni vöru, tilbúna vöru er einnig tekin með. **Athugið:** Ef verið er að nota aðgerðir fyrir eyðingu- eða safnvistun sölupantana, hafa niðurstöður skýrslunnar einnig með allar sölupantanir sem hefur verið eytt eða safnvistaðar.
+Hægt er að mynda skýrsluna **Sent til viðskiptavina** til að auðkenna magn vöru eða hráefnis sem hefur verið sent og viðskiptavinina sem það var sent til. Fyrir fyrirspurn sem tengist samræmi, er hægt að mynda skýrslu fyrir alla viðskiptavini. Fyrir fyrirspurn sem tengist þjónustudeild, er hægt að mynda skýrslu fyrir valinn viðskiptavin. Ef varan var hráefni sem var notaður í framleiðslu á tilbúinni vöru, tilbúna vöru er einnig tekin með. **Athugið:** Ef verið er að nota aðgerðir fyrir eyðingu- eða safnvistun sölupantana, hafa niðurstöður skýrslunnar einnig með allar sölupantanir sem hefur verið eytt eða safnvistaðar.
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Get ég rakið aukaafurðir og hliðarafurðir?
 Hægt er að rekja aukaafurðir, en ekki er hægt að rekja hliðarafurð því rakningarvíddum er yfirleitt ekki úthlutað á þær. Þegar vara er rakin, eru allar tengdar aukaafurðir teknar með í rakningarupplýsingunum. Hnútur sem inniheldur aukaafurð inniheldur orðið "aukaafurð" í upplýsingar. Einnig er hægt að skoða upplýsingar um aukaafurð með því að velja hnútinn í rakningarupplýsingunum, og smella svo á flýtiflipann **Framleiðsla**.

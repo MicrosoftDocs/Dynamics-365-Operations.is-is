@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af8a30e69d9ed143e045950efdcece207f6da14c
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 6abac72b7530dc7b82c8e95faebdce791cf7dbd1
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697935"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003235"
 ---
 # <a name="get-product-recommendations-using-demo-data"></a>Fá afurðartillögur með því að nota sýnigögn
 Þetta skjal veitir leiðbeiningar um hvernig skuldsetja megi ráðleggingar um omni-rás vöru í Tier-1 umhverfi með einum reit með því að nota fyrirfram byggðar, sérhannaðar kynningargögn.
@@ -39,11 +39,11 @@ Fyrir Tier-1 umhverfi eru afurðatillögur byggðar eingöngu á stöðluðum ky
 Til að virkja kynningargögn afurðatillagna þarftu að setja upp Dynamics 365 Commerce Forskoða kynningarviðbót í viðkomandi umhverfi. Með því að gera það sjálfkrafa er gert ráð fyrir kynningu gagna um afurðatillögur.
 
 ## <a name="default-demo-data"></a>Sjálfgefin sýndargögn
-Hver umhverfisgerð Onebox er með forsóttu safni af kynningargögnum afurðatillagna sem eru geymd í kommuaðskildri 'reco_demo_data.csv' skrá, sem er staðsett í sömu möppu og þetta skjal á Retail Server.
+Hver umhverfisgerð Onebox er með forsóttu safni af kynningargögnum afurðatillagna sem eru geymd í kommuaðskildri 'reco_demo_data.csv' skrá, sem er staðsett í sömu möppu og þetta skjal á Commerce Scale Unit.
 
 Gögnin eru byggð upp meðfram eftirfarandi dálkum.
 
-| Dálkheiti         | Skylda          | Lýsing                                                                                                                                 | Möguleg gildi                                                              |
+| Heiti dálks         | Skylda          | Lýsing                                                                                                                                 | Möguleg gildi                                                              |
 |---------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | RecoList            | :heavy_check_mark: | Sú sértæka gerð afurðatilmælalistans sem kynningargagnapunkturinn á að mynda.                                                    | <ul><li>RecoBestSelling</li><li>RecoNew</li><li>RecoTrending</li><li>RecoCart</li><li>RecoPeopleAlsoBuy</li></ul> |
 | OperatingUnitNumber | :heavy_check_mark: | Sértækt númer rekstrareiningarinnar þar sem gert er ráð fyrir að yfirborð vöru tilmæli komi upp.                                        |                                                                              |

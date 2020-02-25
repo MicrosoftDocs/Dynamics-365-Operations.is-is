@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4594da0feeb3b74eb066fb5761e36398804b4fc2
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811673"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005704"
 ---
 # <a name="help-system"></a>Hjálparkerfi
 
@@ -32,9 +32,9 @@ ms.locfileid: "2811673"
 Þetta efnisatriði veitir yfirlit yfir þætti í hjálparkerfisins. Eftirfarandi vörur samnýta Hjálparkerfið:
 
 - Dynamics 365 Finance 
-- Dynamics 365 Retail
+- Dynamics 365 Commerce
 - Dynamics 365 Supply Chain Management
-- Dynamics 365 Talent
+- Dynamics 365 Human Resources
 
 Þú getur fengið aðgang að hjálp frá hjálparsvæðinu í hvaða vöru þú notar. 
 
@@ -42,7 +42,7 @@ ms.locfileid: "2811673"
 
 ## <a name="help-on-docsmicrosoftcom"></a>Hjálp á docs.microsoft.com
 
-Svæðið docs.microsoft.com ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/) er aðaluppspretta vöruskjala fyrir forritin sem eru skráð hér að ofan. Svæðið býður upp á eftirfarandi eiginleika:
+Svæðið docs.microsoft.com ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/)) er aðaluppspretta vöruskjala fyrir forritin sem eru skráð hér að ofan. Svæðið býður upp á eftirfarandi eiginleika:
 
 - **Aðgangur að nýjasta efninu** – svæðið gefur okkur hraðar og sveigjanlegri leið til að stofna, afhenda og uppfæra fylgiskjal vöru. Því hjálpar það að tryggja að þú hafir aðgang að nýjustu tækniupplýsingunum.
 - **Efni sem er skrifuð af sérfræðingum**– Svæðið veitir ríkulegra safn vöruskjala sem hægt er að bæta af aðilum samfélagsins bæði innan og utan Microsoft.
@@ -73,7 +73,7 @@ Ef þú vilt láta í ljós viðbrögð eða spyrja spurninga um efni skaltu lá
 
 Myndbandið [Hvernig á að leggja sitt af mörkum til skjala Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (sýnt hér að ofan) er innifalið í rás Microsoft Dynamics 365 á YouTube.
 
-Fyrir nánari upplýsingar skal leita í [leiðbeiningar okkar fyrir þátttakendur](https://docs.microsoft.com/en-us/contribute).
+Fyrir nánari upplýsingar skal leita í [leiðbeiningar okkar fyrir þátttakendur](https://docs.microsoft.com/contribute).
 
 > [!NOTE]
 > Við samþykkjum aðeins framlög á ensku efni okkar eins og stendur.
@@ -106,12 +106,12 @@ Til að fá aðgang að hjálparefni skal smella annaðhvort á táknið **Hjál
 Úr á Hjálp rúðunni er hægt að opna wiki-greinar sem fjalla um biðlarann. Þegar þú opnar hjálparsvæðið og smellir á flipann **Hjálp**, munt þú sjá þær greinar sem eiga við um síðuna sem þú ert nú á. Ef engar greinar finnast er hægt að færa inn lykilorð til þess að fínstilla leitina. Þegar þú smellir á grein í hjálparsvæði opnast nýr flipi og vafrinn þinn sýnir greinina.
 
 > [!IMPORTANT]
-> Þessi hluti gildir ekki um Dynamics 365 Talent. Hjálparkerfið fyrir Talent er sjálfkrafa tengt við verkefnaleiðbeiningar fyrir vöruna. Að auki getur þú ekki stofnað sérsniðnar verkefnaleiðbeiningar fyrir Talent.
+> Þessi hluti gildir ekki um Dynamics 365 Human Resources. Hjálparkerfið fyrir Human Resources er sjálfkrafa tengt við verkefnaleiðbeiningar fyrir vöruna. Að auki getur þú ekki stofnað sérsniðnar verkefnaleiðbeiningar fyrir Human Resources.
 
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Fara í verkefnaleiðbeiningar úr hjálparsvæði
 
-Áður en hægt er að opna verkefnaleiðbeiningar úr hjálparsvæði þarf kerfisstjóri að fara á síðuna **Kerfisfæribreytur** í Finance, Supply Chain Management og Retail og skilgreina nokkrar stillingar.
+Áður en hægt er að opna verkefnaleiðbeiningar úr hjálparsvæði þarf kerfisstjóri að fara á síðuna **Kerfisfæribreytur** í Finance, Supply Chain Management og Commerce og skilgreina nokkrar stillingar.
 
 > [!NOTE]
 > - Til að stilla hjálp, verðurðu að vera skráður inn með reikningi í sama leigjanda og leigjandinn sem verið er að nota forritið í.

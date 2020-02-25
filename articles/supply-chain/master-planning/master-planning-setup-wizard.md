@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 8fbccce6e23c9bc965f66f761f4c1cab32224ef1
-ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
+ms.openlocfilehash: 9d7da31f2df31c7e5cbac73b3232233090ac369e
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "2635127"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3031068"
 ---
 # <a name="master-planning-setup-wizard"></a>Leiðsagnarforrit fyrir uppsetningu áætlanagerðar
 
@@ -32,9 +32,9 @@ ms.locfileid: "2635127"
 
 Þetta efni veitir leiðbeiningar fyrir **Leiðsagnarforrit fyrir uppsetningu áætlanagerðar**. Það útskýrir hvernig færibreytutillögur eru reiknaðar og einnig eru dæmi sem sýna hvernig mismunandi fyrirtæki setja upp aðalskipulagningu, byggt á viðskiptaþörf þeirra.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3YnSB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 
-Myndbandið [Leiðsagnarforrit fyrir uppsetningu áætlanagerðar í Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (sýnt hér að ofan) er innifalið í [Spilunarlista Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er tiltækt í YouTube.
+[Leiðsagnarforrit fyrir uppsetningu áætlanagerðar í Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (sýnt hér að ofan) er innifalið í [Finance and Operations spilunarlista](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er tiltækur í YouTube.
 
 
 ## <a name="specific-requirements-of-your-company"></a>Sérstakar kröfur fyrirtækisins
@@ -184,7 +184,7 @@ Contoso Framleiðandi er framleiðslufyrirtæki sem framleiðir hátalara. Það
 Contoso smásala er dreifingarfyrirtæki í tískuiðnaðinum. Það notar aðalskipulagningu til að reikna út hvenær innkaupapantanir eiga að vera settar út frá spá þess sem velta hefur. Hér eru nokkur einkenni þess:
 
 - Smásali Contoso notar eftirspurnarspá til að spá fyrir um sölu. Innkaupapantanir verða skipulagðar samkvæmt spánni.
-- Smásala notar beiðnir um áfyllingu.
+- Verslanir nota beiðnir um áfyllingu.
 - Afgreiðslutími frá aðalvörugeymslu í hverja verslun er um það bil tvær vikur fyrir allar vörur.
 
 Í leiðsagnarforritinu eru eftirfarandi gildi færð fyrir Contoso smásala:
@@ -208,4 +208,4 @@ Contoso smásala er dreifingarfyrirtæki í tískuiðnaðinum. Það notar aðal
     - **Spurning:** "Viltu láta fylgja eftirspurn frá viðurkenndum beiðnum um að bæta við verslanir?"
     - **Svar:** "Já, eins og skilgreint er í þessu aðalskipulagi." **1 dagur** er slegið inn.
 
-    Contoso notar samþykktar kröfur frá smásöluverslunum sínum til að búa til fyrirhugaðar innkaupapantanir til að bæta við þær verslanir. Þar sem aðalskipulagning er rekin á hverjum degi, verða beiðnir frá síðasta degi með í skipulagningu.
+    Contoso notar samþykktar kröfur frá verslunum sínum til að búa til fyrirhugaðar innkaupapantanir til að bæta við þær verslanir. Þar sem aðalskipulagning er rekin á hverjum degi, verða beiðnir frá síðasta degi með í skipulagningu.

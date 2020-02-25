@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 642cb5c145dec68631eb9ab27d926ba8ab75c59b
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: c2235510c7ef386d66fe3b137f8e791d14706379
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914911"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001830"
 ---
 # <a name="customize-site-navigation"></a>Sérstilla yfirlit svæðis
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig á að búa til sérsniðið yfirlitsstigveldi á netinu til að skipuleggja vörur þínar til að vafra á Microsoft Dynamics 365 Commerce síðunni.
@@ -35,11 +35,11 @@ ms.locfileid: "2914911"
 
 Vefverslanir á netinu láta viðskiptavini gjarnan uppgötva og skoða vörur með því að fletta í gegnum vöruflokka. Þessi geta er yfirleitt til staðar með flipum efst á síðunni eða með stýristiku vinstra megin. Í Dynamics 365 Commerce geturðu stofnað og stjórnað stigveldisskipulagi flokksleiðsagnar þinna og vörunum sem eru í ýmsum flokkum.
 
-## <a name="create-a-retail-channel-navigation-hierarchy"></a>Stofna yfirlitsstigveldi smásölurásar
+## <a name="create-a-channel-navigation-hierarchy"></a>Stofna yfirlitsstigveldi rásar
 
 Fylgdu þessum skrefum til að stofna yfirlitsstigveldi rásar.
 
-1. Farðu í **Retail \> Afurðir og flokkar \> Flokka- og afurðastjórnun**.
+1. Farðu í **Retail og Commerce \> Afurðir og tegundir \> Flokka- og afurðastjórnun**.
 1. Veldu **Tegundastigveldi** og veldu síðan **Nýtt**.
 1. Gefðu stigveldinu heiti.
 
@@ -57,28 +57,28 @@ Sjálfgefið er að flokkarnir sem þú skilgreinir munu birtast í stafrófsrö
 
 ## <a name="assign-a-category-hierarchy-type"></a>Úthluta gerð tegundastigveldis
 
-1. Farðu í **Retail \> Afurðir og flokkar \> Flokka- og afurðastjórnun**.
+1. Farðu í **Retail og Commerce \> Afurðir og tegundir \> Flokka- og afurðastjórnun**.
 1. Veldu **Tegundastigveldi**.
 1. Í aðgerðarúðunni á flipanum **Tegundastigveldi** í flokknum **Uppsetning** skal velja **Tengja stigveldisgerð**.
 1. Veljið **Nýtt**.
-1. Í reitnum **Gerð tegundastigveldis** velurðu **Yfirlitsstigveldi smásölurásar**.
+1. Í reitnum **Gerð tegundastigveldis** velurðu **Yfirlitsstigveldi rásar**.
 1. Í reitnum **Tegundastigveldi** velurðu yfirlitsstigveldi rásarinnar sem þú bjóst til áður.
 
 ## <a name="publish-new-or-updated-navigation-hierarchies"></a>Birta ný eða uppfærð yfirlitsstigveldi
 
 Fylgdu þessum skrefum til að gera yfirlitsstigveldið aðgengilegt fyrir netverslunina.
 
-1. Farðu í **Retail \> Uppsetning rásar \> Tegundir rása og afurðareigindi**.
+1. Farðu í **Retail og Commerce \> Uppsetning rásar \> Rásarflokkar og afurðareigindir**.
 1. Veldu netverslunina þína í trénu til vinstri.
 1. Veldu **Birta uppfærslur rásar**.
-1. Farðu í **Retail \> Upplýsingatækni smásölu \> Dreifingaráætlun**.
+1. Farðu í **Retail og Commerce \> Upplýsingatækni í Retail og Commerce \> Dreifingaráætlun**.
 1. Á listanum finnurðu og velur **Vinnslu 1040**.
 1. Veljið **Keyra núna**.
 1. Endurtaktu skref 5 og 6 fyrir vinnslur 1070 og 1150.
 
 ## <a name="show-categories-on-your-site"></a>Sýna flokka á síðunni þinni
 
-Til að sýna flokkunarveldi í netverslun þinni verður þú að bæta við yfirlitseiningunni á viðeigandi stað í sniðmáti eða broti. Eining yfirlitsvalmyndar mun síðan sýna yfirlitsstigveldi, að því tilskildu að þú hafir birt smásöluyfirlitsstigveldi þitt á rásinni sem vefsvæðið þitt er bundið við.
+Til að sýna flokkunarveldi í netverslun þinni verður þú að bæta við yfirlitseiningunni á viðeigandi stað í sniðmáti eða broti. Eining yfirlitsvalmyndar mun síðan sýna yfirlitsstigveldi, að því tilskildu að þú hafir birt yfirlitsstigveldi þitt á rásinni sem vefsvæðið er bundið við.
 
 > [!NOTE]
 > Eining yfirlitsvalmyndar sem er innifalin í byrjendaeiningu verslunarinnar gerir notendum kleift að vafra aðeins til flokka sem hafa ekki undirflokka. Ef viðskiptavinir þínir ættu að geta farið í flokka sem eru með undirflokka verður þú að sérsníða valmyndareininguna.

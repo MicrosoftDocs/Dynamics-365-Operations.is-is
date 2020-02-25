@@ -3,7 +3,7 @@ title: Reikningsstjórnunarsíður og -einingar
 description: Þetta efni fjallar um reikningsstjórnunarsíður og -einingar í Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/02/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f9fc3731cd9d21294b0161e1d419f255096d7790
-ms.sourcegitcommit: 96bfc20eb748f4090a2b5e1ff9f54997d5a5d359
+ms.openlocfilehash: 8787a7b01ecf15752569d2a3a8d7804fe492e63d
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "2885810"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025697"
 ---
 # <a name="account-management-pages-and-modules"></a>Reikningsstjórnunarsíður og -einingar
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Þetta efni fjallar um reikningsstjórnunarsíður og -einingar í Microsoft Dynamics 365 Commerce.
@@ -40,13 +40,12 @@ Með stjórnun reikninga er átt við hóp síðna sem notaðar eru til að stj�
 
 Lendingasíða reikningsstjórnunar notar eftirfarandi einingar:
 
-- **Staðsetning efnis** - Þessi eining er gámaeining sem geymir allar einingar á lendingasíðu reikningsstjórnunar.
-- **Móttökuskilaboð reiknings** - Þessi eining er notuð til að veita móttökuskilaboð á reikningssíðu. Hún felur í sér eiginleika fyrir fyrirsögnina og reitastærðina. Eiginleikinn **Reitastærð** skilgreinir breidd einingarinnar í staðsetningareiningu efnis. Gildin eru frá **1** til **12**, þar sem **12** táknar alla breidd staðsetningargáms efnisins.
-- **Staðsetningarliður reikningspöntunar** - Þessi eining er notuð til að gefa yfirlit yfir fjölda pantana sem hafa verið gerðar af notendareikningnum. Hún felur í sér eiginleika fyrir fyrirsögnina, reitastærðina og tengilinn „Skoða upplýsingar“. Stilla ætti tengilinn „skoða upplýsingar“ til að framsenda á pöntunarferilsíðuna.
-- **Staðsetningarliður reikningsforstillinga** - Þessi eining er notuð til að gefa yfirlit yfir notandaforstillingarnar. Hún felur í sér eiginleika fyrir fyrirsögnina, reitastærðina og tengilinn „Skoða upplýsingar“. Stilla ætti tengilinn „skoða upplýsingar“ til að framsenda á notandaforstillingasíðuna.
-- **Óskalistaliður reiknings** - Þessi eining er notuð til að gefa yfirlit yfir hluti á óskalista viðskiptavinar. Til dæmis gæti hann fullyrt: „Þú ert með 10 atriði á óskalistanum þínum.“ Hún felur í sér eiginleika fyrir fyrirsögnina, reitastærðina og tengilinn „Skoða upplýsingar“. Stilla ætti tengilinn „skoða upplýsingar“ til að framsenda á óskalistasíðuna.
-- **Netfangaliður reiknings** - Þessi eining er notuð til að gefa yfirlit yfir netföng notandans. Til dæmis gæti hún fullyrt: „Þú ert með 2 netföng bætt við reikninginn þinn.“ Hún felur í sér eiginleika fyrir fyrirsögnina, reitastærðina og tengilinn „Skoða upplýsingar“. Stilla ætti tengilinn „skoða upplýsingar“ til að framsenda á notandanetfangasíðuna.
-- **Vildaratriði reiknings** - Þessi eining er notuð til að sýna og tengjast upplýsingum um vildarkerfi. Hún felur í sér eiginleika fyrir fyrirsögnina, reitastærðina, tengilinn „Skoða upplýsingar“ og tengilinn „Gerast meðlimur“. Stilla ætti tengilinn „skoða upplýsingar“ til að framsenda á vildarkerfissíðuna. Stilla ætti tengilinn „gerast meðlimur“ til að framsenda á síðu þar sem notendur geta tekið þátt í vildarkerfinu.
+- **Gámur** - Allar lendingarsíðueiningar reikningsstjórnunar skulu settar í gám. 
+- **Móttökureitur reiknings** - Þessi eining er notuð til að veita móttökuskilaboð á reikningssíðu. Hann felur í sér eiginleika fyrir fyrirsögnina.
+- **Almennir reitir reiknings** - Þessa einingu er hægt að nota til að útvega fyrirsagnir og tengla á reikningastjórnarsíður, svo sem „Pöntunarferill“ eða „Prófíllinn minn“. Hægt er að nota almenna reitaeiningu til að stilla reit fyrir hvaða síðu sem er. Í Fabrikam er þessi eining notuð fyrir tengilinn „Pöntunarferill“ og „Prófíllinn minn“ á lendingasíðu reikningsstjórnunar.
+- **Óskalistareitur reiknings** - Þessi eining er notuð til að gefa yfirlit yfir hluti á óskalista viðskiptavinar. Til dæmis gæti hann fullyrt: „Þú ert með 10 atriði á óskalistanum þínum.“ Hún felur í sér eiginleika fyrir fyrirsögnina og tengilinn „Skoða upplýsingar“. Stilla ætti tengilinn „Skoða upplýsingar“ til að framsenda á óskalistasíðuna. 
+- **Netfangareitur reiknings** - Þessi eining er notuð til að gefa yfirlit yfir netföng notandans. Til dæmis gæti hún fullyrt: „Þú ert með 2 netföng bætt við reikninginn þinn.“ Hún felur í sér eiginleika fyrir fyrirsögnina og tengilinn „Skoða upplýsingar“. Stilla ætti tengilinn „Skoða upplýsingar“ til að framsenda á notandanetfangasíðuna.
+- **Vildarreitur reiknings** - Þessi eining er notuð til að sýna og tengjast upplýsingum um vildarkerfi. Þessir reitir eru með tvær stöður: Ein staða sýnir tengla til að taka þátt í vildarkerfi ef notandinn er ekki meðlimur nú þegar. Hin staðan sýnir tengla til að skoða síðu vildarupplyýsinga þegar notandinn er þegar meðlimur. Eiginleikar fela í sér fyrirsögnina, tengilinn „Skráning“ og tengilinn „Skoða hollustu“. Stilla ætti tengilinn „Skoða vildarupplýsingar“ til að framsenda á vildarkerfissíðuna. Stilla ætti tengilinn „Innskráning“ til að framsenda á síðu þar sem notendur geta tekið þátt í vildarkerfinu. 
 
 ### <a name="order-history-page"></a>Pöntunarferilssíða
 
@@ -58,7 +57,7 @@ Pöntunarupplýsingasíðan veitir ítarlegar upplýsingar um hverja pöntun og 
 
 ### <a name="user-profile-page"></a>Notandaforstillingasíða
 
-Notandaforstillingasíðan sýnir upplýsingar um notandareikning, svo sem nafn notanda og netfang. Hún notar notandaforstillingaeininguna. Þrátt fyrir að ekki sé hægt að fjarlægja netfangið er hægt að breyta því. Notandasniðssíðan sýnir einnig óskir notenda sem gera notanda kleift að velja eða afþakka ákveðna eiginleika eins og að sérsníða meðmælalista. 
+Notandaforstillingasíðan sýnir upplýsingar um notandareikning, svo sem nafn notanda og netfang. Það notar upplýsingar um notandasnið og notendasnið til að breyta. Þrátt fyrir að ekki sé hægt að fjarlægja netfangið er hægt að breyta því. Notandasniðssíðan sýnir einnig óskir notenda sem gera notanda kleift að velja eða afþakka ákveðna eiginleika eins og að sérsníða meðmælalista. 
 
 ### <a name="user-address-page"></a>Netfangssíða notanda
 
@@ -70,7 +69,9 @@ Netfangasíða notanda sýnir lista yfir netföng sem tengjast notendareikningnu
 
 ### <a name="loyalty-page"></a>Síða vildarkerfis
 
-Vildarkerfissíðan gerir viðskiptavinum kleift að ganga í vildarkerfi eða, ef þeir eru nú þegar meðlimir í vildarkerfi, skoða upplýsingar um kerfið«». Þeir geta einnig skoðað stigin sem þeir hafa unnið og innleyst í nýlegum færslum.
+Vildarkerfissíðan gerir viðskiptavinum kleift að skoða í vildarupplýsingar sínar ef þeir eru nú þegar meðlimir í vildarkerfi. Þeir geta einnig skoðað stigin sem þeir hafa unnið og innleyst í nýlegum færslum. Síðan notar vildarupplýsingareininguna til að sýna upplýsingar um vildarkerfi. 
+
+Til að taka þátt í vildarkerfi er hægt að búa til markaðssíðu með vildarskráningar og einingar fyrir vildarskilmála. Ef notandinn er ekki meðlimur í vildarkerfi munu þessar einingar gera notandanum kleift að skrá sig.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

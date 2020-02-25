@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: bcceeb1bc68c6432442c863ca06b7ba81d0abed8
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 4477a0a43971b5322c6acd6971cba2e79e2dc8c6
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697107"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001131"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Búa til sérstilltar svarsíður fyrir 4xx/5xx stöðukóðunarvillur
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig á að búa til sérsniðnar svarsíður fyrir villur í 4xx og 5xx stöðukóða með því að nota höfundatólin í Microsoft Dynamics 365 Commerce.

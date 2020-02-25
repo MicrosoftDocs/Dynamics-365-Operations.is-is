@@ -1,5 +1,5 @@
 ---
-title: Skilgreina forskoðunarumhverfi viðskipta
+title: Skilgreina forskoðunarumhverfi fyrir Dynamics 365 Commerce
 description: Þetta efni útskýrir hvernig á að stilla forsýningarumhverfi Microsoft Dynamics 365 Commerce eftir að það er úthlutað.
 author: psimolin
 manager: annbe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f19d03f3f2f5a9f6f7ba08b682277e4e3b764d10
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 12d3a86698e9250f5d1645de51e0749c8d929f75
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906140"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024707"
 ---
-# <a name="configure-a-commerce-preview-environment"></a>Skilgreina forskoðunarumhverfi viðskipta
+# <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Skilgreina forskoðunarumhverfi fyrir Dynamics 365 Commerce
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Þetta efni útskýrir hvernig á að stilla forsýningarumhverfi Microsoft Dynamics 365 Commerce eftir að það er úthlutað.
@@ -142,13 +142,13 @@ Til að stilla valfrjálsa eiginleika fyrir forskoðunarumhverfi Commerce skal s
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit yfir forskoðunarumhverfi Commerce](cpe-overview.md)
+[Dynamics 365 Commerce yfirlit yfir forskoðunarumhverfi](cpe-overview.md)
 
-[Úthluta forskoðunarumhverfi Commerce](provisioning-guide.md)
+[Úthluta Dynamics 365 Commerce forsýningarumhverfi](provisioning-guide.md)
 
-[Stilltu valfrjálsa eiginleika fyrir forsýningarumhverfi Commerce](cpe-optional-features.md)
+[Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce forskoðunarumhverfi](cpe-optional-features.md)
 
-[Algengar spurningar um forskoðunarumhverfi Commerce](cpe-faq.md)
+[Dynamics 365 Commerce yfirlitsumhverfi algengra spurninga](cpe-faq.md)
 
 [Microsoft Dynamics Lifecycle Services (LSC)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
@@ -157,5 +157,3 @@ Til að stilla valfrjálsa eiginleika fyrir forskoðunarumhverfi Commerce skal s
 [Microsoft Azure-gátt](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce vefsvæði](https://aka.ms/Dynamics365CommerceWebsite)
-
-[Hjálpartilföng fyrir Dynamics 365 Retail](../retail/index.md)

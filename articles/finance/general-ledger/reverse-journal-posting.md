@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d18b71c1fc7f3f0c39172bd9edf19b4e60a2bf8
-ms.sourcegitcommit: cfaad79bcb1460ee0e7ad5a2c596f9199e14c53a
+ms.openlocfilehash: 08aec836ce4b7b6a59c445f138365f101a78c68e
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2944429"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030923"
 ---
 # <a name="reverse-journal-posting"></a>Bókun í bakfærslubók
 
@@ -68,5 +68,5 @@ Ef það eru yfir 100 fylgiskjalalínur verður bakfærsluferlið keyrt með run
 
 Ef fjöldi fylgiskjala er 100 línur eða færri mun bakfærsluvinnslan keyra þegar í stað. Niðurstöðurnar munu birtast í glugga sem sýnir öll fylgiskjöl sem ekki var hægt að bakfæra, ásamt ástæðu þess. Veldu **Í lagi** til að loka svarglugganum.
 
-Aðeins er hægt að bakfæra færslur ef þær uppfylla viðskiptareglur um bakfærslur. Ekki er hægt að bakfæra lánardrottnagreiðslum með því að nota getu sem lýst er í þessu efni. Lánardrottnagreiðslur verður að bakfæra með því að fylgja skrefunum sem talin eru upp í [Bakfæra lánardrottnagreiðslu](https://docs.microsoft.com/en-us/dynamics365/finance/accounts-payable/reverse-vendor-payment).
+Aðeins er hægt að bakfæra færslur ef þær uppfylla viðskiptareglur um bakfærslur. Ekki er hægt að bakfæra lánardrottnagreiðslum með því að nota getu sem lýst er í þessu efni. Lánardrottnagreiðslur verður að bakfæra með því að fylgja skrefunum sem talin eru upp í [Bakfæra lánardrottnagreiðslu](https://docs.microsoft.com/dynamics365/finance/accounts-payable/reverse-vendor-payment).
 

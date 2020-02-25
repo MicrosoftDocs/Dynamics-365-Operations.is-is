@@ -3,7 +3,7 @@ title: Vinna með einingar
 description: Þetta efni lýsir því hvernig og hvenær á að nota einingar í Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,18 +17,18 @@ ms.search.industry: ''
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3c4161e7a40cdbbb40292a6ce9acab58347460bd
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 769d6754fa944830b989d657e0dad9cc42212932
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914795"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025880"
 ---
 # <a name="work-with-modules"></a>Vinna með einingar
 
 Þetta efni lýsir því hvernig og hvenær á að nota einingar í Microsoft Dynamics 365 Commerce.
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 ## <a name="overview"></a>Yfirlit
@@ -99,12 +99,10 @@ Eftirfarandi aðferðir lýsa því hvernig á að skilgreina efnis- og gámaein
 
 Fylgdu þessum skrefum til að stilla efniseiningu á síðu.
 
-1. Veldu útlínugluggann til vinstri, veldu gerð eininga fyrir efni (til dæmis, **Eiginleiki**, **Hetja** eða **Borði**).
-1. Í eiginleikaglugganum til hægri skaltu stækka ívafðar stýringarnar með því að velja hausana og stilla öll nauðsynleg stjórnunargildi.
-1. Ef eiginleikaglugginn er með hlutann **Grunnstilling gagna** skaltu velja hann til að stækka hann. Að öðrum kosti ferðu í skref 5.
-1. Ef hnappurinn **Bæta við gagnagjafa** er til staðar skaltu velja hann og veldu síðan innihaldsatriðin sem á að bæta við.
-1. Sláðu inn stillingar fyrir nauðsynlegar eða viðeigandi einingarstýringar.
-1. Veljið **Vista**.
+1. Veldu útlínugluggann til vinstri stækkarðu tréð og velur einhverja eininga fyrir efni (til dæmis, **Eiginleiki**, **Hetja** eða **Borði**).
+1. Finndu innihald og stillingarstýringar einingarinnar á eiginleikaglugganum til hægri.
+1. Sláðu inn eiginleika fyrir allar viðeigandi einingarstýringar.
+1. Veldu **Vista** í skipanastikunni. Þetta mun einnig endurnýja forskoðunardúkinn.
 
 ### <a name="configure-a-container-module"></a>Stillla gámaeiningu
 
@@ -112,7 +110,7 @@ Fylgdu þessum skrefum til að stilla gámaeiningu á síðu.
 
 1. Veldu gámaeiningu á síðunni (til dæmis hringekju- eða vökvagámaeiningu).
 1. Í eiginleikaglugganum til hægri skaltu stækka ívafðar stýringarnar með því að velja hausana og stilla öll nauðsynleg stjórnunargildi.
-1. Í útlínuglugganum til vinstri velurðu úrfellingarhnappinn við hliðina á heiti annaðhvort gámsins eða hólfa innan í gámnum og síðan velurðu **Bæta við einingu**. Bættu síðan undireiningum við valinn gám. Fyrir frekari upplýsingar, sjá ferlið [Bæta við einingu](#add-a-module) fyrr í þessu efni.
+1. Í útlínuglugganum til vinstri velurðu úrfellingarhnappinn við hliðina á heiti annaðhvort gámsins eða hólfa innan í gámnum og síðan velurðu **Bæta við einingu**. Bættu síðan undireiningum við valinn gám. Fyrir frekari upplýsingar, sjá hlutann [Vinna með einingar](#add-a-module) fyrr í þessu efni.
 1. Ef margar undireiningar eru til sem systkini í yfirgámi geturðu breytt skjápöntun þeirra í yfirgámnum. Veldu úrfellingarhnappinn fyrir eininguna og notaðu síðan upp örina og örvatakkana.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
@@ -127,7 +125,5 @@ Fylgdu þessum skrefum til að stilla gámaeiningu á síðu.
 
 [Bæta gámaeiningu við síðu](add-container-module.md)
 
-[Bæta við staðsetningareiningum á síðu](add-content-placement-modules.md)
-
-[Unnið með birta hópa](publish-groups.md)
+[Vinna með birtingarhópa](publish-groups.md)
 

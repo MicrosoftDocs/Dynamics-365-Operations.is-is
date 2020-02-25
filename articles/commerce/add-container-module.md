@@ -3,7 +3,7 @@ title: Hólfeining
 description: Þetta efni fjallar um gámaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,27 +17,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 22a09b61fbe3bd1cca96011d3fb81a12ef1bc844
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 93c16da0988cc955835231bdd1f7342f19063f85
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697061"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025529"
 ---
 # <a name="container-module"></a>Hólfeining
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Þetta efni fjallar um gámaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 
-Gámaeining er eining sem hýsir aðrar einingar. Það er algengasti gámurinn sem er notaður í Dynamics 365 Commerce. Megintilgangur gámaeiningar er að skilgreina með eiginleikum sem eru settir fyrir það skipulag eininganna sem eru í henni. Til dæmis geta þessir einingar birst hlið við hlið í tveggja dálka, þriggja dálka, fjögurra dálka eða sex dálka skipulagi. Þær geta einnig verið takmarkaðar við breidd gámsins, eða þær geta fyllt skjáinn. Einnig er hægt að bæta við fyrirsögn í hverja gámaeiningu.
+Gámaeining er eining sem hýsir aðrar einingar. Megintilgangur gámaeiningar er að skilgreina með eiginleikum sem eru settir fyrir það skipulag eininganna sem eru hún inniheldur. Til dæmis geta þessir einingar birst hlið við hlið í tveggja dálka, þriggja dálka, fjögurra dálka eða sex dálka skipulagi. Þær geta einnig verið takmarkaðar við breidd gámsins, eða þær geta fyllt skjáinn. Einnig er hægt að bæta við fyrirsögn í hverja gámaeiningu.
 
-Það eru þrjár staðlaðar gerðir gámaeininga: gámur, gámur með 2 hólfum og gámur með 3 hólfum. Hægt er að setja einingar af hvaða gerð einingar sem er í þessa gáma. Það eru líka til sérstakar gerðir gámaeininga, svo sem myndaræma, eining með fjölbreyttu efni, staðsetning innihalds, karfa, kassi, kaupbox, fyrirsögn og neðanmálseinig. Þessir gámar hafa sérstakan tilgang og aðeins er hægt að setja sérstakar studdar gerðir af einingum í þær.
+Þrjár gámaeiningar eru studdar: gámur, gámur með 2 hólfum og gámur með 3 hólfum. Hægt er að setja einingar af hvaða gerð sem er í þessa gáma. 
 
-Við mælum með að þú setjir einingar í gám, svo að þær geti takmarkast við breidd gámsins.
+> [!NOTE] 
+> Við mælum með að þú setjir einingar alltaf í gámaeiningu, svo að þær geti takmarkast við breidd gámsins.
 
 ## <a name="examples-of-container-modules-in-e-commerce"></a>Dæmi um gámaeiningar í rafrænum viðskiptum
 
@@ -98,20 +99,19 @@ Hægt er að nota viðbótareiginleika til að hámarka skipulag fyrir mismunand
 
 Fylgdu þessum skrefum til að bæta gámaspilaraeiningu við nýja síðu og stilla nauðsynlega eiginleika.
 
-1. Búðu til síðusniðmát sem heitir **gámasniðmát**.
-1. Í hólfinu **Aðal** á sjálfgefnu síðunni bætirðu við gámaeiningu.
-1. Í gámaeiningunni bætirðu við eiginleikaeiningu.
-1. Skráðu brotið út í sniðmátinu og birtu það.
+1. Búðu til síðusniðmát sem heitir **gámasniðmát**. 
+1. Í hólfinu **Meginmál** bætirðu við einingunni **Sjálfgefin síða**.
+1. Ljúktu við að breyta sniðmátinu, vistaðu það og birtu.
 1. Notaðu gámasniðmátið sem þú bjóst til til að búa til síðu sem heitir **gámasíða**.
 1. Í hólfinu **Aðal** á nýju síðunni bætirðu við gámaeiningu.
-1. Í eiginleikaglugganum fyrir gámaeininguna stillirðu eiginleikann **Fjöldi dálka** á **1** og eiginleikann **Breidd** á **Passa í gám**.
-1. Í gámaeiningunni bætirðu við eiginleikaeiningu.
-1. Stilltu fyrirsögn í eiginleikareit fyrir eiginleikaeininguna.
+1. Í eiginleikaglugganum fyrir gámaeininguna stillirðu eiginleikann **Fjöldi dálka** á **1** og eiginleikann **Breidd** á **Fylla gám**.
+1. Bættu innihaldsbálkseiningu við í gámaeiningunni.
+1. Stilltu fyrirsögnina, myndina og skipulagið í eiginleikaglugganum fyrir innihaldsbálkseininguna.
 1. Vistaðu og forskoðaðu síðuna. Þú ættir að sjá eina eiginleikaeiningu sem passar innan breiddar gámaeiningarinnar.
 1. Í eiginleikaglugganum fyrir gámaeininguna skaltu breyta gildi eiginleikans **Fjöldi dálka** í **3**.
-1. Bættu tveimur eiginleikaeiningum í viðbót við gámaeininguna.
-1. Vistaðu og forskoðaðu síðuna. Núna ættirðu að sjá þrjár eiginleikaeiningar sem birtast hlið við hlið.
-1. Eftir að þú hefur náð því skipulagi sem þú vilt skaltu skrá síðuna inn og birta hana.
+1. Bættu tveimur innihaldsbálkseiningum í viðbót við gámaeininguna.
+1. Vistaðu og forskoðaðu síðuna. Núna ættirðu að sjá þrjár innihaldsbálkseiningar sem birtast hlið við hlið.
+1. Eftir að þú hefur náð því skipulagi sem þú vilt skaltu ljúka við að breyta síðunni og birta hana.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
@@ -119,16 +119,14 @@ Fylgdu þessum skrefum til að bæta gámaspilaraeiningu við nýja síðu og st
 
 [Myndaræmueining](add-carousel.md)
 
-[Eining með fjölbreyttu efni](add-content-rich-block.md)
+[Textabálkseining](add-content-rich-block.md)
 
-[Staðsetningareining efnis](add-content-placement-modules.md)
-
-[Kaupkassaeining](add-buy-box.md)
+[Kaupgluggaeining](add-buy-box.md)
 
 [Körfueining](add-cart-module.md)
 
 [Greiðsluferliseining](add-checkout-module.md)
 
-[Fyrirsagnareining](author-header-module.md)
+[Eining síðuhauss](author-header-module.md)
 
-[Neðanmálseining](author-footer-module.md)
+[Eining síðufótar](author-footer-module.md)

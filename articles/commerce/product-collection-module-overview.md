@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 31307035014f2fae6146f33bc23e3e06103f82eb
-ms.sourcegitcommit: c237123ad94d9418994ac095fbd8634c05a927b1
+ms.openlocfilehash: 069fa1cb6acad4b8d6618cebb754cbc0892ca9cf
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943264"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025949"
 ---
 # <a name="product-collection-modules"></a>Afurðasafnseiningar
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Þetta efni veitir yfirlit yfir afurðasafnseiningar í Microsoft Dynamics 365 Commerce.
@@ -39,7 +39,7 @@ Afurðasafnseiningar tákna efnislegar vörur og þjónustu á vefsíðunni. Afu
 
 Heimildir fyrir afurðasafni geta verið listar af eftirfarandi fjórum gerðum:
 
-- Ristjórnartlistar yfir afurðir sem eru skilgreindar handvirkt í Dynamics 365 Retail sem skyldar afurðir fyrir afurð, eða afurðalista
+- Ristjórnartlistar yfir afurðir sem eru skilgreindar handvirkt í Dynamics 365 Commerce sem skyldar afurðir fyrir afurð, eða afurðalista
 - Reikniritlistar, svo sem listar yfir nýjar, mest seldu eða vinsælar afurðir
 - Tilmælalistar sem eru byggðir á vélanámi
 - Sérstillingarlistar sem styðja aðlagaðar niðurstöður fyrir viðskiptavini. Viðskiptavinir verða að vera skráðir inn á netverslunarsíðuna til að sjá aðlagaðar niðurstöður. Gestanotendur sjá ekki aðlagaðar niðurstöður. Viðskiptavinir geta afþakkað sérstillingu af [stjórnunarsíðu reikninga](account-management.md).
@@ -57,9 +57,10 @@ Eftirfarandi tafla lýsir ýmsum gerðum af afurðasafnseiningum í Dynamics 365
 
 | Afurðasafnseining  | Gerð | Lýsing |
 |----------------------------|------|-------------|
-| Tegund                   | Tegund | Þessi eining sýnir lista yfir vörur í flokknum eins og hann er skilgreindur í stigveldi flokksins sem smásalinn bjó til fyrir smásölurás. |
-| Tengdar afurðir           | Ritill | Þessi eining sýnir lista yfir afurðir sem verslunarstjóri hefur stillt sem tengdar afurðir í Retail, fyrir þá tengslagerð sem höfundur hefur valið. |
-| Sérvaldir afurðalistar      | Ritill | Þessi eining sýnir sérsniðna lista sem söluaðilar og ritstjórar hafa búið til í Retail. |
+| Tegund                   | Tegund | Þessi eining sýnir lista yfir vörur í flokknum eins og hann er skilgreindur í stigveldi flokksins sem smásalinn bjó til fyrir rás. |
+| Tengdar afurðir           | Ritill | Þessi eining sýnir lista yfir afurðir sem verslunarstjóri hefur stillt sem tengdar afurðir í Commerce, fyrir þá tengslagerð sem höfundur hefur valið. |
+| Leitarniðurstöður             | Leitarfyrirspurn | Þessi gerð afurðasafnseininga sýnir lista yfir vörur sem passa best við leitarfyrirspurnina sem viðskiptavinurinn sló inn. |
+| Sérvaldir afurðalistar      | Ritill | Þessi eining sýnir sérsniðna lista sem söluaðilar og ritstjórar hafa búið til í Commerce. |
 | Nýjar                        | Reiknirit | Þessi eining sýnir lista yfir nýjustu afurðirnar sem hafa verið flokkaðar í rásir og vörulista. Þessi listi getur sýnt sérsniðnar niðurstöður fyrir innritaðan notanda ef vefhöfundur velur þann valkost. |
 | Mest selt               | Reiknirit | Þessi eining sýnir lista yfir vörur sem eru metnar með mesta sölu. Þessi listi getur sýnt sérsniðnar niðurstöður fyrir innritaðan notanda ef vefhöfundur velur þann valkost. |
 | Vinsælt                   | Reiknirit | Þessi eining sýnir lista yfir vörur sem skila mestum árangri á tilteknu tímabili. Þessi listi getur sýnt sérsniðnar niðurstöður fyrir innritaðan notanda ef vefhöfundur velur þann valkost. |
@@ -76,7 +77,6 @@ Til að bæta afurðasafnseiningu við flokksíðu skaltu fylgja þessum skrefum
 1. Í svarglugganum **Bæta við einingu** skal velja **Gám** og síðan smella á **Í lagi**.
 1. Í gámaeiningunni skaltu velja úrfellingarhnappinn og veldu síðan **Bæta við einingu**.
 1. Í svarglugganum **Bæta við einingu** skal velja **Afurðasafn** og síðan smella á **Í lagi**.  
-![Dæmi um leiðsagnarflæði vöruöflunareiningar](./media/productCollectionModule.png)
 1. Stilltu stillingar með því að velja viðeigandi gagnagjafa og inntak fyrir afurðasafnið.
 1. Í eiginleikaglugganum fyrir afurðasafnseininguna velurðu **Bæta við afurðalista**.
 1. Í valmyndinni **Velja stillingu afurðalista** velurðu gerð listans, slærð inn fjölda vara og veldu hvaða valkosti sem eru tiltækir fyrir listategundina. Nánari upplýsingar um listagerðir er að sjá í töflunni sem fylgir. 
@@ -88,8 +88,8 @@ Eftirfarandi tafla sýnir listagerðirnar sem hægt er að velja í valmyndinni 
 | Gerð                       | Lýsing | Notkun | Samhengi síðu | Tilgreint samhengi | Sérstilling |
 |----------------------------|-------------|-------|--------------|------------------|-----------------|
 | Afurðir eftir flokki       | Listi yfir afurðir sem tilheyra tilteknum flokki. Þessi flokkur er ákvörðaður út frá annaðhvort síðasamhengi eða samhengi sem höfundur býður upp á. | Þessa tegund lista er hægt að nota á hvaða síðu sem er (til dæmis heimasíða, flokkasíðu, markaðssíðu eða upplýsingasíðu vöru \[PDP\]) til að kynna ákveðinn vöruflokk. | Flokkur úr samhengi síðunnar, þar sem það er tiltækt (til dæmis flokkasíðu) | Höfundur getur veitt ákveðinn flokk sem samhengi fyrir listann. | Á ekki við |
-| Tengdar afurðir           | Listi yfir afurðir sem verslunarstjóri hefur stillt sem tengdar vörur fyrir tengslagerð í Retail. | Þessi tegund lista er aðallega notuð á PDP, en það er hægt að nota það á hvaða síðu sem er ef móðurvara er til staðar. | Vara af síðunni, tengslagerð (skylda) | Hægt er að velja vöruna í valinu og tengslagerðin er notuð. | Á ekki við |
-| Sérvalið                    | Sérsniðinn listi sem söluaðilar og ritstjórar hafa búið til í Retail. | Auðgaðu flokksíðu, heimasíðuna, kassa- og körfusíður og vörusíður | Á ekki við | Á ekki við | Á ekki við |
+| Tengdar afurðir           | Listi yfir afurðir sem verslunarstjóri hefur stillt sem tengdar vörur fyrir tengslagerð í Commerce. | Þessi tegund lista er aðallega notuð á PDP, en það er hægt að nota það á hvaða síðu sem er ef móðurvara er til staðar. | Vara af síðunni, tengslagerð (skylda) | Hægt er að velja vöruna í valinu og tengslagerðin er notuð. | Á ekki við |
+| Sérvalið                    | Sérsniðinn listi sem söluaðilar og ritstjórar hafa búið til í Commerce. | Auðgaðu flokksíðu, heimasíðuna, kassa- og körfusíður og vörusíður | Á ekki við | Á ekki við | Á ekki við |
 | Reiknirit                | <ul><li>**Nýtt** - Listi yfir nýjustu afurðirnar sem hafa verið flokkaðar í rásir og vörulista.</li><li>**Mest selt** - Listi yfir vörur sem eru metnar með mesta sölu.</li><li>**Vinsælt** - Listi yfir vörur sem skila mestum árangri á tilteknu tímabili.</li></ul> | Heimasíða, auðguð flokkasíða og kassa- og körfusíður | Flokkur úr samhengi síðunnar (til dæmis flokkasíðu) | Flokkurinn sem ræðst af höfundi vefsvæðisins | Stutt |
 | Oft keypt saman | Listi sem notar vélnám til að greina kaupmynstur neytenda og mæla með skyldum vörum sem eru oft keyptar ásamt tiltekinni afurð. | Þessi tegund af lista á aðeins við um körfusíðuna. | Karfa | Á ekki við | Stutt |
 | Fólki líkar einnig við           | Listi sem notar vélnám til að greina kaupmynstur neytenda og mæla með vörum sem tengjast tiltekinni afurð. | Þessi tegund lista er notuð á PDP til að sýna vörur sem aðrir viðskiptavinir hafa keypt. | Vörusamhengi af síðunni | Varan sem er úthlutuð af höfundi vefsvæðisins | Stutt |
@@ -102,8 +102,6 @@ Eftirfarandi tafla sýnir listagerðirnar sem hægt er að velja í valmyndinni 
 [Myndaræmueining](add-carousel.md)
 
 [Eining fyrir bálk með fjölbreytt efni](add-content-rich-block.md)
-
-[Eining staðsetningar efnis](add-content-placement-modules.md)
 
 [Hólfeining](add-container-module.md)
 

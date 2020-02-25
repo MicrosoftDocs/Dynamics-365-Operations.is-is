@@ -3,7 +3,7 @@ title: Setja upp lánardrottnalykla
 description: Þetta efnisatriði lýsir gerðir upplýsinga sem þarf að tilgreina þegar þú stofnar nýjan lykil lánardrottins.
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5ab1f10f0874df36d1227e39f2d2146e85de41e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 63843381207fbe6cb72ac1b5533eda754b1ba55b
+ms.sourcegitcommit: 5457cbec3399d8ed9f87c3a9dc586173b5616c11
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249394"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3012446"
 ---
 # <a name="set-up-vendor-accounts"></a>Setja upp lánardrottnalykla
 
@@ -88,7 +88,7 @@ Hægt er að setja lánardrottinn í bið fyrir ýmsar færslugerðir. Eftirtald
 -   **Reikningur** – Ekki má stofna neina reikninga fyrir þennan lánardrottinn.
 -   **Allir** – Lánardrottininn er í bið fyrir allar færslugerðir. Þessar færslugerðir innifela innkaupabeiðnir, reikningar og greiðslur.
 -   **Greiðsla** – Ekki er hægt að mynda neinar greiðslur fyrir þennan lánardrottin.
--   **Beiðni** - Aðeins er hægt að stofna innkaupabeiðnir Ekki er hægt að stofna neinar aðrar færslur.
+-   **Beiðni** - Ekki er hægt að búa til innkaupabeiðnir fyrir lánardrottinn og ekki er hægt að breyta beiðnislínum sem þegar voru búnar til áður en söluaðilinn var settur í bið. Beiðnilínur fyrir lánardrottinn verða felldar niður ef stefna þín er stillt á að búa til innkaupapantanir sjálfkrafa.
 -   **Aldrei** – lánardrottins er aldrei sett í bið vegna óvirkni.
 
 Þegar lánardrottinn er sett í bið er einnig hægt að tilgreina ástæðu og dagsetning þegar biðstöðunni skal ljúka. Ef ekki er fært inn lokadagsetningu, endist biðstaða lánardrottins í óráðinn tíma.

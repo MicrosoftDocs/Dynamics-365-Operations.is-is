@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 347db3af36521e11dc70d5188dcc54b07efa1fbe
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 07905b9a843eb42d3031dcc80b4e185c122a9e50
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697843"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002936"
 ---
 # <a name="overview-of-cart-and-checkout-pages"></a>Yfirlit yfir síður körfu og greiðsluferlis
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði veitir yfirlit yfir körfu- og greiðslusíður í Microsoft Dynamics 365 Commerce.
@@ -65,11 +65,11 @@ Meginhluti greiðslusíðunnar er þar sem öllum pöntunarupplýsingum er safna
 
 ### <a name="shipping-address"></a>Aðsetur sendingar
 
-Sendingar heimilisfang er krafist ef hlutir verða að vera sendir. Hægt er að stilla snið sendingarföngs fyrir hvert land í Dynamics 365 Retail. Til dæmis, ef hlutirnir verða fluttir til Bandaríkjanna, verður flutningsfangið að innihalda götuheiti, ástand og póstnúmer. Nokkur grunninntaksprófun er gerð fyrir sendingarfangareiti, svo sem staðfestingu á stafrófsröddum, hámarkslengd og tölur. Þótt réttmæti heimilisfangsins sjálfs sé ekki staðfest, er hægt að gera þessa staðfestingu með því að nota sérsniðna þjónustu þriðja aðila.
+Sendingar heimilisfang er krafist ef hlutir verða að vera sendir. Hægt er að stilla snið sendingarföngs fyrir hvert land í Dynamics 365 Commerce. Til dæmis, ef hlutirnir verða fluttir til Bandaríkjanna, verður flutningsfangið að innihalda götuheiti, ástand og póstnúmer. Nokkur grunninntaksprófun er gerð fyrir sendingarfangareiti, svo sem staðfestingu á stafrófsröddum, hámarkslengd og tölur. Þótt réttmæti heimilisfangsins sjálfs sé ekki staðfest, er hægt að gera þessa staðfestingu með því að nota sérsniðna þjónustu þriðja aðila.
 
 Póstfangið er notað á alla hluti í körfunni sem „skipið“ er valinn fyrir. Ef þú notar stöðvunarrennslið sem er að finna í byrjunarbúnaðinum á netinu er ekki hægt að senda einstaka körfuhluti á mismunandi netföng. Ef þú þarft þessa hæfileika er hægt að útfæra hana með því að aðlaga kassaeiningarnar.
 
-Eftir að sendingarfangið hefur verið gefið upp eru sendingaraðferðir sem fáanlegar eru frá Dynamics 365 Commerce netverslun er sýnd. Hægt er að stilla sendingaraðferðirnar og netföngin sem þeir styðja í smásölu.
+Eftir að sendingarfangið hefur verið gefið upp eru sendingaraðferðir sem fáanlegar eru frá Dynamics 365 Commerce netverslun er sýnd. Hægt er að stilla sendingaraðferðirnar og netföngin sem þeir styðja í Commerce.
 
 ### <a name="payment"></a>Greiðsla
 

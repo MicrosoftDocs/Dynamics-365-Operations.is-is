@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 654685a382ca5f3f462ad8a9c506b51b52c3758c
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 026d1d743b5150f152ef70aa642dcf6841a4e398
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811650"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025805"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>Notaðu kennsluefni fyrir Regression Suite Automation Tool
 
@@ -93,7 +93,7 @@ Nánari upplýsingar um þennan eiginleika er að finna í [Breyta núverandi ve
 
 - Til að nota þennan eiginleika, skaltu opna skrána **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** í RSAT-uppsetningarmöppunni (til dæmis, **C:\\Program Files (x86)\\Regression Suite Automation Tool**) og breyta gildinu í eftirfarandi einingu úr **rangt** í **rétt**.
 
-    ```
+    ```xml
     <add key="AddOperatorFieldsToExcelValidation" value="false" />
     ```
 
@@ -136,7 +136,7 @@ Nú, ef gildi reitsins **Samtals magn til ráðstöfunar** fyrir tilgreint atri�
 
 - Til að nota þennan eiginleika, skaltu opna skrána **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** í RSAT-uppsetningarmöppunni (til dæmis, **C:\\Program Files (x86)\\Regression Suite Automation Tool**) og breyta gildinu í eftirfarandi einingu úr **rangt** í **rétt**.
 
-    ```
+    ```xml
     <add key="LogGeneration" value="false" />
     ```
 
@@ -155,7 +155,7 @@ Nú, ef gildi reitsins **Samtals magn til ráðstöfunar** fyrir tilgreint atri�
 
 - Til að nota þennan eiginleika, skaltu opna skrána **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** í RSAT-uppsetningarmöppunni (til dæmis, **C:\\Program Files (x86)\\Regression Suite Automation Tool**) og breyta gildinu í eftirfarandi einingu úr **rangt** í **rétt**.
 
-    ```
+    ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
@@ -196,7 +196,7 @@ Eftirfarandi mynd sýnir viðskiptaferlin fyrir þessar aðstæður í RSAT.
 - Notaðu endurheimt Azure Point-In-Time til að endurkeyra prófanir í umhverfi sem ekki eru í 1. lagi.
 - Þó að þú getir notað Excel-aðgerðirnar **RANDOM** og **NOW** til að mynda einkvæma samsetningu er framlagið tiltölulega hátt. Eftirfarandi er dæmi.
 
-    ```
+    ```Excel
     product = "AT" &TEXT(NOW(),"yyymmddhhmm")
     ```
 
@@ -227,13 +227,13 @@ Hægt er að kalla RSAT úr glugganum **Skipanakvaðning**.
 1. Opnaðu gluggann **Skipanakvaðning** sem stjórnandi.
 2. Keyrðu verkfærið úr skráarsafni uppsetningar.
 
-    ```
+    ```Console
     cd "c:\Program Files (x86)\Regression Suite Automation Tool\"
     ```
 
 3. Listi yfir alla skipanir.
 
-    ```
+    ```Console
     C:\Program Files (x86)\Regression Suite Automation Tool>Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe help
 
     Usage:
@@ -275,7 +275,7 @@ Eftirfarandi dæmi notar eina breytu, **byrja**, til að skilgreina fyrsta núme
 
 Opnaðu Microsoft Windows PowerShell Integrated Scripting Environment (ISE) í stjórnandaham og límdu eftirfarandi kóða inn í gluggann sem heitir **Untitled1.ps1**.
 
-```
+```powershell
 param ( [int]$start = 1, [int]$nr = 1 )
 function UpdateCustomer
 {
@@ -314,7 +314,7 @@ for ($i = $start; $i -lt $start + $nr; $i++ )
 
 Eftirfarandi dæmi notar Open Data Protocol (OData)-kall til að finna pöntunarstöðu innkaupapöntunar. Ef staðan er ekki **innheimt**, getur þú til dæmis kallað í RSAT-prófunardæmi sem bókar reikninginn.
 
-```
+```xpp
 function Odata_Get
 {
     Param ( [string] $environment, [string] $cmd )

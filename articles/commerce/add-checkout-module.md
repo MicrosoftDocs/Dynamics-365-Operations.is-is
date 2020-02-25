@@ -3,7 +3,7 @@ title: Greiðsluferliseining
 description: Þetta efni lýsir hvernig bæta skal greiðsluferliseiningu við nýja síðu og stilla nauðsynlega eiginleika.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,31 +17,29 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b810441fd25d41ee0893b119b4f7d91e7435d21
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 3805c0faabc8afc3decffb924b7f25332ff1ab16
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697084"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025391"
 ---
 # <a name="checkout-module"></a>Greiðsluferliseining
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Þetta efni lýsir hvernig bæta skal greiðsluferliseiningu við nýja síðu og stilla nauðsynlega eiginleika.
 
 ## <a name="overview"></a>Yfirlit
 
-Greiðsluferliseining er sérstakur gámur sem hýsir allar einingar sem þarf til að búa til pöntun. Greiðsluferliseining getur innihaldið einingar sem sjá um póstfang, sendingaraðferðir, innheimtuupplýsingar, pöntunaryfirlit og aðrar upplýsingar sem tengjast pöntun viðskiptavina. Hún býður upp á skref fyrir skref flæði sem viðskiptavinur notar til að færa inn allar viðeigandi upplýsingar til að kaupa.
+Greiðsluferliseining er sérstakur gámur sem hýsir allar einingar sem þarf til að búa til pöntun. Hún býður upp á skref fyrir skref flæði sem viðskiptavinur notar til að færa inn allar viðeigandi upplýsingar til að kaupa. Hún tekur upp sendingarfang, sendingaraðferð og innheimtuupplýsingar. Hún veitir einnig pöntunaryfirlit og aðrar upplýsingar sem tengjast pöntun viðskiptavina.
 
 Í greiðsluferliseiningu eru gögn byggð á auðkenni körfunnar. Auðkenni þessa körfu er vistað sem vafrakaka. Auðkenni körfu er krafist til að afhenda upplýsingar í greiðsluferliseiningunni, svo sem hlutina í pöntuninni, heildarupphæðinni og afslætti.
 
 ## <a name="checkout-module-properties"></a>Eiginleikar greiðsluferliseiningar
 
-Greiðsluferliseining hýsir mengi eininga innan þess. Breiddareiginleiki gerir þér kleift að tilgreina hvort hlutirnir í greiðsluferliseiningunni skuli passa breiddinni eða fylla skjáinn.
-
-Greiðsluferliseining hefur mörg hólf, eins og hólfið **Greiðslupplýsingar**, hólfið **Samantekt pöntunar** og hólfið **Panta**. Hvert hólf styður mengi eininga sem munu birtast í ákveðnu skipulagi á síðunni. Til dæmis inniheldur hólfið **Greiðslupplýsingar** allar einingarnar sem þarf til að kveikja á greiðsluferli, eins og einingar fyrir póstfang og greiðslumáta. Hólfið **Samantekt pöntunar** sýnir pöntunarsamantekt og styður aðgerðina til að gera pöntunina. Hólfið **Gera pöntun** styður einnig aðgerðina til að setja pöntunina. Hægt er að skilgreina pöntunareiningar í tvær rásir til að hámarka ferlið við að leggja inn pantanir úr ýmsum kerfum.
+Greiðsluferliseining sýnir pöntunaryfirlit og veitir virkni til að ganga frá pöntun. Til að safna öllum upplýsingum viðskiptavinarins sem þarf áður en hægt er að ganga frá pöntun þarf að bæta viðbótareiningum við greiðsluferliseininguna. Þess vegna hafa smásalar sveigjanleika til að bæta sérsniðnum einingum við greiðsluferlisflæðið eða útiloka einingar, byggðar á kröfum þeirra.
 
 ### <a name="modules-that-can-be-used-in-the-checkout-module"></a>Einingar sem hægt er að nota í greiðsluferliseiningu
 
@@ -50,15 +48,12 @@ Greiðsluferliseining hefur mörg hólf, eins og hólfið **Greiðslupplýsingar
 - **Gámur í greiðsluferlishlutanum** - Þessi eining er gámur sem þú getur sett margar einingar í til að stofna hluta innan greiðsluferlisflæðisins. Til dæmis er hægt að setja allar greiðslutengdar einingar í þennan gám til að láta þær birtast sem einn hluta. Þessi eining hefur aðeins áhrif á skipulag flæðisins.
 - **Gjafakort** - Þessi eining gerir viðskiptavini kleift að greiða fyrir pöntun með því að nota gjafakort. Hún styður aðeins Microsoft Dynamics 365 Commerce gjafabréf. Hægt er að nota eitt eða fleiri gjafakort á pöntun. Ef inneign gjafakortsins nær ekki yfir upphæðina í körfunni er hægt að sameina gjafakortið með öðrum greiðslumáta. Aðeins er hægt að innleysa gjafakort ef viðskiptavinurinn er skráður inn.
 - **Vildarpunktar** - Þessi eining gerir viðskiptavini kleift að greiða fyrir pöntun með því að nota vildarpunkta. Hún veitir samantekt á tiltækum punktum og stigum sem eru að renna út og lætur viðskiptavininn velja fjölda stiga sem á að innleysa. Ef viðskiptavinurinn er ekki skráður inn eða er ekki meðlimur vildarkerfis eða ef heildarupphæðin í körfunni er 0 (núll) er þessi eining sjálfkrafa falin.
-- **Kreditkort** - Þessi eining gerir viðskiptavini kleift að greiða fyrir pöntun með því að nota kreditkort. Ef vildarpunktar eða gjafakort ná yfir heildarupphæðina í körfunni eða ef hún er 0 (núll) er þessi eining sjálfkrafa falin. Kreditkortasamþætting er veitt af Adyen greiðslutenglinum. Fyrir frekari upplýsingar um notkun þessa tengils, sjá [Adyen greiðslutengil](https://).
+- **Greiðsla** - Þessi eining gerir viðskiptavini kleift að greiða fyrir pöntun með því að nota kreditkort. Ef vildarpunktar eða gjafakort ná yfir heildarupphæðina í körfunni eða ef hún er 0 (núll) er þessi eining sjálfkrafa falin. Kreditkortasamþætting er veitt af Adyen greiðslutenglinum fyrir þessa einingu. Fyrir frekari upplýsingar um notkun þessa tengils, sjá [Dynamics 365 Adyen greiðslutengil](dev-itpro/adyen-connector.md).
 - **Innheimtuaðsetur** - Þessi eining gerir viðskiptavini kleift að veita innheimtuupplýsingar. Þessar upplýsingar eru unnar ásamt kreditkortaupplýsingum af Adyen. Þessi eining felur í sér valkost sem gerir það að verkum að viðskiptavinir nota innheimtuaðsetur sitt sem póstfang.
 - **Upplýsingar um tengiliði** - Þessi eining gerir viðskiptavini kleift að bæta við eða breyta tengiliðaupplýsingum (netfangi) fyrir pöntun.
-- **Panta** - Þessi eining gerir viðskiptavini kleift að setja inn pöntun.
-- **Eining með fjölbreyttu efni** - Þessi eining inniheldur öll skilaboð sem eru knúin áfram af innihaldsstjórnunarkerfinu (CMS). Til dæmis gæti hún innihaldið skilaboð sem segja: „Fyrir vandamál með pöntunina þína, vinsamlegast hafðu samband við 1-800-FABRIKAM.“ 
-- **Samantekt pöntunar** - Þessi eining sýnir kostnaðarsundurliðun pöntunar.
-- **Línuhlutir pöntunar** - Þessi eining sýnir yfirlit yfir vörurnar sem verða innifalin í pöntun.
+- **Textabálkur** - Þessi eining inniheldur öll skilaboð sem eru knúin áfram af innihaldsstjórnunarkerfinu (CMS). Til dæmis gæti hún innihaldið skilaboð sem segja: „Fyrir vandamál með pöntunina þína skaltu hafa samband í 1-800-Fabrikam.“ 
 
-## <a name="retail-server-interaction"></a>Samskipti Retail Server
+## <a name="commerce-scale-unit-interaction"></a>Samskipti við Commerce Scale Unit
 
 Flestar greiðsluupplýsingar, svo sem póstfang og sendingaraðferð, eru geymdar í körfunni og unnar sem hluti af pöntuninni. Eina undantekningin er kreditkortaupplýsingarnar. Þessar upplýsingar eru unnar beint með því að nota Adyen greiðslutengilinn. Greiðslan er heimil en er ekki gjaldfærð.
 
@@ -69,13 +64,10 @@ Fylgdu þessum skrefum til að bæta greiðsluferliseiningu við nýja síðu og
 1. Farðu í **Brot \> Nýtt brot** og nefndu nýja brotið **Greiðsluferlisbrot**.
 1. Bættu greiðsluferlieiningu við brotið.
 1. Bæta fyrirsögn við greiðsluferlieininguna.
-1. Í hólfinu **Greiðsluupplýsingar** bætirðu við sendingaraðfangi, afhendingarvalkostum, gámi fyrir greiðsluferlishluta og upplýsingum um tengiliði. Nú ættu að vera fjórir hlutar í hólfinu **Greiðsluupplýsingar**.
-1. Bætið við gjafakorti, vildarpöntum og kreditkortaeiningum í gámaeiningadeild greiðsluhlutans. Með þessum hætti tryggirðu að allir greiðslumáta birtist saman í hluta.
-1. Í hólfinu **Samantekt pöntunar** bætirðu við pöntunarsamantekt, pöntun og einingu með fjölbreyttu efni.
-1. Í einingu með fjölbreyttu efni bætirðu við eftirfarandi texta: **Hafðu samband við 1-800-FABRIKAM fyrir spurningar um pöntunina.**
-1. Í hólfinu **Panta** bætirðu við einingu fyrir pöntun.
-1. Veljið **Vista**. Ekki er víst að sumar einingar séu sýndar í forskoðuninni, þar sem þær eru ekki með körfusamhengi.
-1. Skráðu brotið inn og birtu það.
+1. Bættu við sendingaraðfangi, afhendingarvalkostum, gámi fyrir greiðsluferlishluta og upplýsingum um tengiliði. 
+1. Bætið við gjafakorti, vildarpöntum og greiðslueiningum í gámaeiningadeild greiðsluhlutans. Með þessum hætti tryggirðu að allir greiðslumáta birtist saman í hluta.
+1. Vistaðu og forskoðaðu brotið. Ekki er víst að sumar einingar sem ekki eru með körfusamhengi séu sýndar í forskoðuninni.
+1. Ljúktu við að breyta brotinu, vistaðu það og birtu.
 1. Búðu til sniðmát sem notar nýja greiðsluferlisbrotið.
 1. Búðu til greiðslusíðu sem notar nýja sniðmátið.
 

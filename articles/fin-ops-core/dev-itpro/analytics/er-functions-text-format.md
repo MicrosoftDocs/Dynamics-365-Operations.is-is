@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df158e80bd1c11832376678a631a9e0e162534ad
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: b09efeb6b5d8bd2ea452dbf7a9ddaeec2ab75c92
+ms.sourcegitcommit: 0455a024185f79ecb82df61e6d994bd71dee5c10
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915718"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "2974293"
 ---
 # <a name="FORMAT">FORMAT ER-aðgerð</a>
 
@@ -96,7 +96,7 @@ Ef sama skýrslan er unnin fyrir viðskiptavininn **Litware Retail** þann 17. d
 >[!NOTE]
 > Eftirfarandi setningafræði er beitt í formúlum rafrænnar skýrslugerðar fyrir merki:
 >
-> - **Fyrir merki úr tilföngum í forriti Microsoft Dynamics 365 Finance:** **@X**, þar sem **X** er merkjakennið í hugbúnaðarhlutatrénu (AOT)
+> - **Fyrir merki úr tilföngum í forriti Microsoft Dynamics 365 Finance:** **\@X**, þar sem **X** er merkjakennið í hugbúnaðarhlutatrénu (AOT)
 > - **Fyrir merki sem eru í ER-skilgreiningum:** **@GER_LABEL:X"**, þar sem **X** er merkjakenni í ER-skilgreiningu
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
