@@ -3,7 +3,7 @@ title: Bæta við listum með afurðartillögum við síður
 description: Þetta efnisatriði útskýrir hvernig á að bæta vöruframboðslista við síðu með e-verslun.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 01/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,26 +19,26 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4f2b1e9768b34d341adb3c11e475daa7a1d1882f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 5c71c1cf91b1913f44546f40620aff358cf256b2
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770506"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001301"
 ---
-# <a name="add-product-recommendation-lists-to-e-commerce-pages"></a>Bæta við listum með afurðartillögum við síður fyrir rafræn viðskipti
+# <a name="add-recommendation-lists-to-a-site"></a>Bættu tilmælalistum við vefsíðu
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig á að bæta vöruframboðslista við síðu með e-verslun.
 
-1. Af fyrirliggjandi höfundarsíðu rafrænna viðskipta velurðu **Bæta við einingu**.
+1. Af fyrirliggjandi síðu vefsvæðishönnuðar rafrænna viðskipta velurðu **Bæta við einingu**.
 2. Leitaðu að einingunni **vörusafn**.
 3. Veldu listann sem á að bæta við á síðuna í einingarhjálpinni.
 4. Vista breytingarnar.
 
-Til að læra meira um þær tegundir lista sem þú getur bætt við á síðu, sjá [Yfirlit afurðaráðlegginga](product-recommendations.md).
+Til að læra meira um þær tegundir lista sem þú getur bætt við á síðu, sjá [Yfirlit afurðasafneininga](product-collection-module-overview.md).
 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
@@ -50,3 +50,5 @@ Til að læra meira um þær tegundir lista sem þú getur bætt við á síðu,
 [Búa til lista með sérvöldum afurðartillögum](create-editorial-recommendation-lists.md)
 
 [Stjórna niðurstöðum afurðartillagna sem byggjast á AI-ML](modify-product-recommendation-results.md)
+
+[Yfirlit yfir vörusafnseiningu](product-collection-module-overview.md)

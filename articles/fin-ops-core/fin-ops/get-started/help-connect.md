@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2955464aa8a220563db1b9ebbb348be52f520659
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4427388d75c1aef40a978ce35c831d5b714f2562
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812581"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006173"
 ---
 # <a name="connect-the-help-system"></a>Tengja hjálparkerfið
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni lýsir íhlutum hjálparkerfisins fyrir forrit Finance and Operations, eins og Dynamics 365 Finance, Supply Chain Management, Retail og Talent. Það veitir yfirlit yfir hvernig á að tengja þá og yfirlit yfir hvernig á að stofna sérsniðna hjálp.
+Þetta efni lýsir íhlutum hjálparkerfisins fyrir forrit Finance and Operations, eins og Dynamics 365 Finance, Supply Chain Management, Commerce og Human Resources. Það veitir yfirlit yfir hvernig á að tengja þá og yfirlit yfir hvernig á að stofna sérsniðna hjálp.
 
 ## <a name="help-architecture"></a>Högun Hjálpar
 
@@ -43,7 +43,7 @@ Eftirfarandi skýringarmynd sýnir hluta hjálparkerfisins. Hjálparkerfi innan 
 ## <a name="connecting-the-help-system"></a>Tenging við hjálparkerfi
 
 > [!NOTE]
-> Flipinn **Verkleiðbeiningar** er ekki í boði eins og stendur í Dynamics 365 Talent eða Retail. Við erum að vinna í því að virkja þessa aðgerð í útgáfum í framtíðinni. Verkefnaleiðbeiningarnar í Hafist handa í Talent eru enn tiltækar og í þeim er farið yfir grunnvirkni. Málsmeðferð til vinnu er einnig fáanleg á docs.microsoft.com vefsvæðinu fyrir bæði Retail og Talent.
+> Flipinn **Verkleiðbeiningar** er ekki í boði eins og stendur í Dynamics 365 Human Resources eða Commerce. Við erum að vinna í því að virkja þessa aðgerð í útgáfum í framtíðinni. Verkefnaleiðbeiningarnar í Hafist handa í Human Resources eru enn tiltækar og í þeim er farið yfir grunnvirkni. Málsmeðferð til vinnu er einnig fáanleg á docs.microsoft.com vefsvæðinu fyrir bæði Human Resources og Commerce.
 
 Með skjámyndinni **Kerfisfæribreytur** tengja kerfisstjórar stykki í hjálparkerfinu fyrir innleiðingu.
 
@@ -64,7 +64,7 @@ Eftir að þessum skrefum hefur verið lokið, er hægt að opna rúðuna **Hjá
 
 ### <a name="showing-translated-task-guides"></a>Sýnir þýddar leiðbeiningar verkefninu
 
-Þýddar verkefnaleiðbeiningar voru sendar í maí 2016 APQC Unified Library, og í safninu Hafist handa (getting started). Ef þú notar forrit Finance and Operations og vilt sjá staðbundna verkefnahjálp skaltu ganga úr skugga um að þú sért tengd(ur) við safnið fyrir maí. Tungumálið sem leiðarvísir fyrir verk birtist í er stjórnað fyrir hvern notanda samkvæmt tungumálastillingar undir **Valkostir** &gt; **> Kjörstillingar**.
+Þýddar verkefnaleiðbeiningar voru sendar í maí 2016 APQC Unified Library, og í safninu Hafist handa (getting started). Í forritum Finance and Operations til að sjá staðfærða hjálp leiðarvísis fyrir verk , skal tryggja að þú sért tengd/ur við maí safnið. Tungumálið sem leiðarvísir fyrir verk birtist í er stjórnað fyrir hvern notanda samkvæmt tungumálastillingar undir **Valkostir** &gt; **> Kjörstillingar**.
 
 > [!NOTE]
 > Þó margar verkefnaleiðbeiningar hafi verið þýdd, er biðlarinn ekki að sýna þýdd heiti verkefnaleiðbeininga. Einnig, aðeins verkefnaleiðbeiningar sem voru gefnar út í febrúar 2016 eru í boði í þýðingu í maí safninu. Við munum gefa út uppfærða safn með fleiri þýðingum.
@@ -78,7 +78,7 @@ Hægt er að nota verkefnaleiðbeiningar til að stofna sérsniðna hjálp eða 
 
 ### <a name="create-custom-help-with-task-guides"></a>Stofna sérsniðna hjálp með verkefnaleiðbeiningum
 
-Hægt er að stofna sérsniðna hjálp fyrir Finance and Operations, Supply Chain Management og Retail með því að stofna verkskráningar sem endurspegla innleiðingu þína og vista þær í LCS Business Process Library. Ekki er hægt að stofna sérsniðnar verkefnaleiðbeiningar fyrir Talent.
+Hægt er að stofna sérsniðna hjálp fyrir Finance and Operations, Supply Chain Management og Commerce með því að stofna verkskráningar sem endurspegla innleiðingu þína og vista þær í LCS Business Process Library. Að auki getur þú ekki stofnað sérsniðnar verkefnaleiðbeiningar fyrir Human Resources.
 
 Fyrir samstarfsaðila, ef þú færir safn inn í fyrirtækissafn og hefur það með í lausn, verður það tiltækt viðskiptavinum þínum. Einnig er hægt gera afrit af APQC Unified global library og síðan opna síðan afritið, opna verkskráningar úr því, breyta þeim og vista skráningar með breytingunum. Nánari upplýsingar er að finna [Tilföng verkskráningar](../../dev-itpro/user-interface/task-recorder.md).
 
@@ -86,7 +86,7 @@ Fyrir samstarfsaðila, ef þú færir safn inn í fyrirtækissafn og hefur það
 
 Microsoft hefur útvegað hvítbók og sýnikóða sem lýsa því hvernig á að stofna og tengja sérsniðið svæði hjálpar við hjálparsvæðið. Frekari upplýsingar má finna á
 
-- [Stofna sérsniðna hjálp fyrir forrit Finance and Operations (hvítbók)](https://go.microsoft.com/fwlink/?linkid=2041185)
+- [Búðu til sérsniðna hjálp fyrir forrit Finance and Operations (hvítbók)](https://go.microsoft.com/fwlink/?linkid=2041185)
 - [Sérsniðin hjálp GitHub-geymslu](https://github.com/microsoft/dynamics356f-o-custom-help)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar

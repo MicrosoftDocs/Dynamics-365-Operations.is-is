@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ffbb29fb89ed6a3fd6db11f2c8d656ab565c43f3
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 8d89b1251429281521f32338f642cc7034420e0b
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897650"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005987"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-23-2019"></a>Nýjungar eða breytingar í Dynamics 365 Talent (23. júlí 2019)
 
@@ -73,6 +73,6 @@ Ný valkostur mun gera stjórnendum kleift að skoða árangur af bæði beinum 
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Svæðisstuðningur fyrir Kanada og Suðaustur-Asíu
 
-Okkur er ánægja að tilkynna að svæðin Kanada og Suðaustur-Asíu verða tiltæk fyrir Talent þann 1. ágúst 2019. Með þessari breytingu geturðu búið til umhverfi á kanadískum og asískum svæðum og öllum gögnum í Talent verður einungis viðhaldið innan þessara staða. Þú getur búið til umhverfi á þessum nýju svæðum með því að velja staðsetningu í glugganum Nýtt umhverfi og nota það umhverfi til að útvega Talent í LCS eins og lýst er hér [Úthluta Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Okkur er ánægja að tilkynna að svæðin Kanada og Suðaustur-Asíu verða tiltæk fyrir Talent þann 1. ágúst 2019. Með þessari breytingu geturðu búið til umhverfi á kanadískum og asískum svæðum og öllum gögnum í Talent verður einungis viðhaldið innan þessara staða. Þú getur búið til umhverfi á þessum nýju svæðum með því að velja staðsetningu í glugganum Nýtt umhverfi og nota það umhverfi til að útvega Talent í LCS eins og lýst er hér [Úthluta Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
 Gagnaflutningur fyrirliggjandi verkefna af öðrum svæðum til svæða Kanada og Asíu er ekki studdur. Aðeins er hægt að úthluta nýjum verkum til þessara nýstuddu svæða.

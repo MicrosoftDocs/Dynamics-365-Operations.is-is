@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb9c850aa045b72137b8a1d3c8cdae51cf2fd7b6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ec17fc31df1daed943f9bc3f4cbe25a683c8ac7e
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843242"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026315"
 ---
 # <a name="reconcile-freight-manually"></a>Afstemma farmbréf handvirkt
 
@@ -37,7 +37,7 @@ ms.locfileid: "1843242"
 3. Velja farms sem hefur farmkenni 00006 á listanum.
 
 ## <a name="create-a-carrier-invoice"></a>Stofna reikning flutningsaðila
-    * Ef afstemmingu farms handvirkt og ekki sjálfkrafa mótteknir reikningar flutningsaðila, er hægt að stofna reikning á grundvelli farmbréfs.  
+Ef afstemmingu farms handvirkt og ekki sjálfkrafa mótteknir reikningar flutningsaðila, er hægt að stofna reikning á grundvelli farmbréfs.  
 1. Smelltu á Tengdar upplýsingar.
 2. Skoða upplýsingar farmbréfs.
 3. Smelltu á Stofna farmbréfsreikning.
@@ -45,7 +45,7 @@ ms.locfileid: "1843242"
 5. Smellið á „Í lagi“.
 
 ## <a name="reconcile-the-invoice"></a>Afstemma reikning
-    * Til að stemma af farmflytjanda reiknings og til farmbréfs, er þetta gert línu fyrir lína.  
+Til að stemma af farmflytjanda reiknings og til farmbréfs, er þetta gert línu fyrir lína.  
 1. Smelltu á Jafna farmbréf og reikninga.
 2. Útvíkka hlutann Reikningsupplýsingar.
 3. Útvíkkið hlutann Ójafnaðar upplýsingar farmbréfs.

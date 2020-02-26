@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bfec4660d9e6b0898cf81e1f1fdd2e4c1fdcaef
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 0a51d443e40dbf948a06657293dcca77dc177896
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815343"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003654"
 ---
 # <a name="purchase-requisition-overview"></a>Yfirlit yfir „Innkaupabeiðni“
 
@@ -81,7 +81,7 @@ Heildarstaða innkaupabeiðninnar ræðst af stöðu innkaupabeiðnilínanna. Þ
 <li><strong>Í yfirferð</strong> – Innkaupabeiðnilínur hafa verið sendar til endurskoðunar. Þegar verkflæðisferlið er lokið fyrir innkaupabeiðnilínu, eftir stöðu línuna <strong>í yfirferð</strong> þar til allar eftirstöðvar innkaupabeiðnilínur hafa verið yfirfarnar.</li>
 <li><strong>Hafnað</strong> – Innkaupabeiðnilínu hefur verið hafnað. Hægt er að breyta og endursenda innkaupabeiðnilínur sem er hafnað.</li>
 </ul>
-Ef innkaupabeiðnilína sem hefur verið hafnað er endursend hefst endurskoðunarferli aftur fyrir allar línur í innkaupabeiðninni sem eru enn í yfirferð. <strong>Ábending:</strong> Hægt er að afturkalla innkaupabeiðni sem þegar hefur verið send. Þegar innkaupabeiðni er afturkölluð eru allar aðrar innkaupabeiðnilínur einnig afturkallaðar. Ekki er hægt að eyða innkaupabeiðnilínum sem hafa verið afturkallaðar.</td>
+Ef innkaupabeiðnilína sem hefur verið hafnað er endursend hefst endurskoðunarferli aftur fyrir allar línur í innkaupabeiðninni sem eru enn í yfirferð. </br><strong>Ábending:</strong> Hægt er að afturkalla innkaupabeiðni sem þegar hefur verið send. Þegar innkaupabeiðni er afturkölluð eru allar aðrar innkaupabeiðnilínur einnig afturkallaðar. Ekki er hægt að eyða innkaupabeiðnilínum sem hafa verið afturkallaðar.</td>
 </tr>
 <tr class="odd">
 <td>Hafnað</td>
@@ -109,7 +109,7 @@ Ef innkaupabeiðnilína sem hefur verið hafnað er endursend hefst endurskoðun
 <tr class="odd">
 <td>Hætt við</td>
 <td>Hætt við</td>
-<td>Hætt hefur verið við innkaupabeiðni og allar innkaupabeiðnilínur. <strong>Ábending:</strong> Ef vöru sem er í innkaupabeiðnilínu er ekki lengur þörf, verður að hætta við innkaupabeiðnilínuna ef hún hefur þegar verið samþykkt. Aðeins er hægt að afturkalla innkaupabeiðnilínur sem hafa verið samþykkiar. Ef einhverjar innkaupabeiðnilínur eru í yfirferð mun innkaupabeiðnin hafa stöðuna <strong>í yfirferð</strong>. Í þessu tilfelli er hægt að afturkalla innkaupabeiðnina og eyða viðeigandi innkaupabeiðnilínu.</td>
+<td>Hætt hefur verið við innkaupabeiðni og allar innkaupabeiðnilínur.</br> <strong>Ábending:</strong> Ef vöru sem er í innkaupabeiðnilínu er ekki lengur þörf, verður að hætta við innkaupabeiðnilínuna ef hún hefur þegar verið samþykkt. Aðeins er hægt að afturkalla innkaupabeiðnilínur sem hafa verið samþykkiar. Ef einhverjar innkaupabeiðnilínur eru í yfirferð mun innkaupabeiðnin hafa stöðuna <strong>í yfirferð</strong>. Í þessu tilfelli er hægt að afturkalla innkaupabeiðnina og eyða viðeigandi innkaupabeiðnilínu.</td>
 </tr>
 <tr class="even">
 <td>Lokað</td>
@@ -156,7 +156,8 @@ Til að nota beiðnir með tilganginn áfyllingu verður að setja röðun upp �
 
 Hægt er að setja innkaupabeiðni í bið með því að velja gátreitinn **í bið** á síðunni **upplýsingar um innkaupabeiðni**. Vinnsla innkaupabeiðninnar getur aðeins haldið áfram eftir að taka þær úr bið með því að hreinsa gátreitinn.  
 
-**Ábending:** í eProcurement, gæti beiðni um TILBOÐ fyrir innkaupabeiðni leyft lánardrottnum að bæta við aðrar línur. Í því tilfelli munu samþykktir varakostir endurspeglast í innkaupabeiðninni.
+> [!NOTE]
+> í eProcurement, gæti beiðni um TILBOÐ fyrir innkaupabeiðni leyft lánardrottnum að bæta við aðrar línur. Í því tilfelli munu samþykktir varakostir endurspeglast í innkaupabeiðninni.
 
 ## <a name="demand-consolidation"></a>Samlegð eftirspurnar
 Með sameiningu innkaupabeiðnilína úr mörgum innkaupabeiðnum, er hægt að treysta samningsstöðu sína við lánardrottna ykkar til að ná betri verðlagningu, lægri sendingar- og afgreiðslukostnaði og minni rekstrarkostnað.  
@@ -172,7 +173,8 @@ Samþykktar innkaupabeiðnilínur sem uppfylla skilyrði fyrir handvirka úrvinn
 
 Eftir að þú bæta innkaupabeiðnilínum við samlegðartækifæri og gera einhverjar breytingar sem þarf, getur þú stofnað innkaupapöntun fyrir sameinaðar innkaupabeiðnilínur.  
 
-**Ábending:** Breytingar sem gerðar eru á innkaupabeiðnilínu á síðunni **Samlegð innkaupabeiðni** koma fram í innkaupapöntuninni sem er stofnuð. Hins vegar er línan óbreytt í innkaupabeiðninni þannig að saga hennar er varðveitt.  
+> [!NOTE]
+> Breytingar sem gerðar eru á innkaupabeiðnilínu á síðunni **Samlegð innkaupabeiðni** koma fram í innkaupapöntuninni sem er stofnuð. Hins vegar er línan óbreytt í innkaupabeiðninni þannig að saga hennar er varðveitt.  
 
 Til að stofna innkaupabeiðnilínur sem eru ekki hæfar fyrir sameiningu eftirspurnar eða sem eru ekki valdar fyrir sameiningartækifærið verður að vera unnin handvirkt til að stofna innkaupapöntun.
 

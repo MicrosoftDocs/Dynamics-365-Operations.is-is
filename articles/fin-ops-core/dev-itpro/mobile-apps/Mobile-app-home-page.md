@@ -1,9 +1,9 @@
 ---
 title: Heimasíða fartækjaforrits
-description: Þessi efnisgrein lýsir Finance and Operations fartækjaforritinu og veitir tengla á tilföng sem geta hjálpað til við að taka það upp í fyrirtæki þínu.
+description: Þessi efnisgrein lýsir Finance and Operations (Dynamics 365) fartækjaforritinu og veitir tengla á tilföng sem geta hjálpað til við að taka það upp í fyrirtæki þínu.
 author: sericks007
 manager: AnnBe
-ms.date: 11/26/2019
+ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: aaff4e3b3bfb079e183a12a5a85e452eed6df51d
-ms.sourcegitcommit: e30ced8f136ef23017d2d8215a756236e42eec25
+ms.openlocfilehash: 012b51b66c831a66a54c7c868735e310f05eb8c1
+ms.sourcegitcommit: f939bc6292840e29bc0f498efc8f4641dfe8f994
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "2853933"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "2975198"
 ---
 # <a name="mobile-app-home-page"></a>Heimasíða fartækjaforrits
 
 [!include [banner](../includes/banner.md)]
 
-Þessi efnisgrein lýsir Finance and Operations fartækjaforritinu og veitir tengla á tilföng sem geta hjálpað til við að taka það upp í fyrirtæki þínu.
+Þessi efnisgrein lýsir **Finance and Operations (Dynamics 365)** fartækjaforritinu og veitir tengla á tilföng sem geta hjálpað til við að taka það upp í fyrirtæki þínu.
 
 <a name="overview"></a>Yfirlit
 --------
@@ -80,7 +80,7 @@ Eftirfarandi tafla inniheldur tengla á tilföng sem geta hjálpað til við að
 <tr class="odd">
 <td>1</td>
 <td>Kerfisstjóri</td>
-<td>Innleiða forrit Finance and Operations í þitt fyrirtæki.</td>
+<td>Innleiddu forritið Finance and Operations í fyrirtækinu þínu.</td>
 <td><ul><li>Ef þú hefur ekki enn notað útgáfu af &#39;Microsoft Dynamics 365 skaltu sjá <a href="../deployment/deploy-demo-environment.md">Virkja sýniútgáfuumhverfi</a>.</li><li>Lista yfir fartækjavinnusvæði sem hægt er að nota má sjá á <a href="mobile-workspaces-released.md">Fartækjavinnusvæði, nýlega útgefin</a>.</li></ul></td>
 </tr>
 <tr class="even">
@@ -135,8 +135,8 @@ Eftirfarandi tafla inniheldur tengla á tilföng sem geta hjálpað til við að
 <td>Notandi</td>
 <td>Sæktu og settu upp fartækjaforritið.</td>
 <td>
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Forrit Finance and Operations fyrir Android</a><BR/>
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">Forrit Finance and Operations fyrir iOS</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Finance and Operations forrit fyrir Android</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Finance and Operations forrit fyrir iOS</a><BR/>
 (Styður ekki Windows Phone)
 </td>
 </tr>

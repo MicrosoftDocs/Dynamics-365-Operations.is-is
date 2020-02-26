@@ -1,9 +1,9 @@
 ---
 title: Leiðir til að bæta við efni
-description: Þetta efni veitir upplýsingar um hvernig á að bæta við og stjórna efni á Microsoft Dynamics 365 Commerce síðunni þinni.
+description: Þetta efni veitir yfirlit og velur tengla fyrir hvar og hvernig skuli hefja umsjón með efni með Microsoft Dynamics 365 Commerce höfundatóli fyrir byggingu vefsvæða.
 author: phinneyridge
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,43 +17,40 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2232dc7cdd24416b0df0919b96cd5d1f8113299f
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 916e28c2628613332246d19af0fae81f258404b0
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914655"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025730"
 ---
 # <a name="ways-to-add-content"></a>Leiðir til að bæta við efni
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Þetta efni veitir upplýsingar um hvernig á að bæta við og stjórna efni á Microsoft Dynamics 365 Commerce síðunni þinni.
+Þetta efni veitir yfirlit og tengla á fylgiskjöl um hvernig skuli hafa umsjón með efni með Microsoft Dynamics 365 Commerce höfundatóli fyrir byggingu vefsvæða.
 
 ## <a name="overview"></a>Yfirlit
 
-Það eru margar leiðir til að breyta útliti og innihaldi vefsvæðisins. Það fer eftir áskildu stigi sérstillinga, en margar af þessum breytingum er hægt að innleiða af þeim sem eru ekki forritarar. Til dæmis þarf ekki að skrifa neinn kóða til að smíða sniðmát, velja þemu og velja og stilla einingar. Aftur á móti þarf forritunarhæfileika til að búa til nýtt þema eða einingu, vegna þess að nota verður hugbúnaðarþróunarbúnað rafrænna viðskipta (SDK) og Microsoft Dynamics virkjunarverkflæði fyrir Lifecycle Services (LCS).
+Það eru margar leiðir til að breyta útliti og innihaldi vefsvæðisins. Aðrir en forritarar geta útfært margar þessara breytinga í vefhöfundatólið fyrir byggingu vefsvæða sem fylgir með Dynamics 365 Commerce, eftir því hvaða stig sérsniðs vantar. Vefsvæðistólið gerir þér kleift að smíða sniðmát, velja þemu og velja og stilla einingar án þess að skrifa neinn kóða. Aftur á móti þarf forritunarhæfileika til að búa til nýtt þema eða einingu, vegna þess að nota verður hugbúnaðarþróunarbúnað rafrænna viðskipta (SDK) og Microsoft Dynamics virkjunarverkflæði fyrir Lifecycle Services (LCS).
 
-Eftirfarandi efnisatriði veita upplýsingar um hvernig á að bæta við og stjórna efni á vefsvæði. Þau leggja áherslu á svæði á vefsvæðinu sem þarfnast ekki forritara. Eftir því sem þarf, benda þeir á verkefni sem krefjast SDK-vinnu.
+Eftirfarandi efni eru góðir byrjunarpunktar til að byrja að skilja hvernig á að bæta við og stjórna innihaldi vefsvæðisins. Flest af efnisatriðunum leggja áherslu á svæði á vefsvæðinu sem þarfnast ekki forritara. Sum fjalla um grunnefnisvinnslu en önnur einbeita sér að kerfisstjóraverkum vefsvæðis. Hvert þessara efnisgreina gefur til kynna sérstök verkefni sem gætu þurft SDK-vinnu. Hvert umræðuefni gengur út frá því að þú hafir þegar veitt vefsvæði og fengið aðgang að verkfærasíðunni fyrir vefsvæðið þitt.
 
+Veldu eitt af eftirfarandi efnisatriðum til að byrja.
+
+- Sjá upplýsingar um hugtakanotkun stjórnenda sem notuð eru í byggingaraðila vefsvæða og innan þessara skjala [Orðalisti síðulíkans](page-elements-overview.md).
+- Til að skilja hvernig einingar vinna innan verkferla efnisstjórnunar skal sjá [Vinna með einingar](work-with-modules.md).
 - Til að breyta texta, myndum eða myndskeiði á núverandi síðu skal sjá [Vinna með einingar](work-with-modules.md).
-- Til að hjálpa þér að tryggja höfundarétt reynslu af höfundarétti á vörumerkjum skal sjá [Vinna með sniðmát](work-with-templates.md).
+- Til að sjá hvernig brot geta gert innihaldsstjórnun skilvirkari og sveigjanlegri, sjáðu [Unnið með brot](work-with-fragments.md).
+- Til að hjálpa til við að tryggja höfundarupplifun á vörumerki á vörumerki skal sjá [Yfirlit yfir sniðmát og útlit](templates-layouts-overview.md) og [Vinna með sniðmát](work-with-templates.md).
 - Til að endurraða hlutum á vefsíðunni skal sjá [Vinna með skipulag](work-with-layouts.md).
-- Til að breyta letri, litum og almennu útliti vefsíðna skal sjá [Veldu þema síðunnar](select-site-theme.md).
+- Til að breyta letri, litum og almennu útliti vefsíðna skal sjá [Velja þema síðu](select-site-theme.md) eða [Vinna með CSS-hnekkingarskrár](css-override-files.md).
+- Til að endurraða eða bæta við nýjum leiðsöguvalkostum skal sjá [Sérstilla yfirlit svæðis](customize-site-navigation.md).
+- Til að læra að sviðsetja, forskoða og birta breitt safn af samtímis breytingum á innihaldi á vefnum, sjá [Vinna með birtingarhópa](publish-groups.md).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Orðalisti síðulíkans](page-elements-overview.md)
+[Síðuyfirlit höfunda](authoring-home-overview.md)
 
 [Staða og líftími skjala](document-states-overview.md)
-
-[Unnið með birta hópa](publish-groups.md)
-
-[Vinna með einingar](work-with-modules.md)
-
-[Vinna með brot](work-with-fragments.md)
-
-[Yfirlit yfir sniðmát og útlit](templates-layouts-overview.md)
-
-[Sérstilla yfirlit svæðis](customize-site-navigation.md)

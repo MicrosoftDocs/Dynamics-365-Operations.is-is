@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4ddae5b77c36151a279a463033079099722d166e
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: d805c39b77d653eaa9935751ae89012c98b930d2
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914842"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002683"
 ---
 # <a name="templates-and-layouts-overview"></a>Yfirlit yfir sniðmát og útlit
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Sniðmát er grunnþáttur Microsoft Dynamics 365 Commerce síðulíkani. Ef markmið þitt er að hámarka skilvirkni og samræmi í vinnuferlum höfundar er mikilvægt að þú kynnir þér hvernig þú getur nýtt þér sniðmát fyrir vefsíðuna. Snemmbærar ákvarðanir um uppbyggingu sniðmáts eru mikilvægar og geta haft veruleg áhrif á kostnað og snerpu við daglegar, árstíðabundnar og vefsvæðis vörumerkisuppfærslur. Vel skipulögð sniðmát hafa líka aðra kosti. Til dæmis hjálpa þau til við að bæta stig á SEO (SEO) og lágmarka fjölda galla.

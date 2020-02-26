@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0028d1f64aced1bbff91b18456c81adbb95bce30
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 14539ed6c00915b7d59a5a3c4870ab6d1a96ad95
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914819"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002521"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formúluhönnuður í rafrænni skýrslugerð (ER)
 
@@ -51,7 +51,7 @@ Rafræn skýrslugerð styður formúluhönnuðinn. Á hönnunartíma er því h�
 - Skilgreining á skilyrðum fyrir villuleit ferlisstýringar.
 - Skilgreining á texta í skilaboðum fyrir villuleit á ferlisstýringu.
 
-## <a name="Binding">gagnatengsl</a>
+## <a name="Binding"></a>gagnatengsl
 
 Formúluhönnuður rafrænnar skýrslugerðar er hægt að nota til að skilgreina segð sem umbreytir gögnum sem eru móttekin frá gagnagjöfum, þannig að hægt sé að slá gögnin inn í gagnanotanda á eftirfarandi vegu á keyrslutíma:
 
@@ -69,7 +69,7 @@ Eftirfarandi mynd sýnir hvernig hægt er að nota segð af þessari gerð. Í �
 
 Á keyrslutíma námundar hannaða formúlan `ROUND (Intrastat.AmountMST, 2)` gildið í reitnum **AmountMST** fyrir hverja skrá í Intrastat töflunni í tvo aukastafi. Hún slær þá inn námundaða gildið í **Transaction.InvoicedAmount** hlutann af gagnalíkani **skattaskýrslunnar**.
 
-## <a name="Transformation">Gagnasnið</a>
+## <a name="Transformation"></a>Gagnasnið
 
 Formúluhönnuður ER hægt að nota til að skilgreina segð sem forsníður gögn sem er tekið úr gagnagjafa, þannig að gögn geta verið send sem hluti af myndandi rafrænu skjali. Þú gætir haft snið sem þarf að nota sem dæmigerða reglu sem þarf að endurnýta sem snið. Í þessu tilviki getur þú lagt sniðið fram einu sinni í skilgreiningu sniðs, sem nefnda umbreytingu sem hefur sniðsegð. Þessi nefnda umbreyting er síðan hægt að tengja við margar sniðseiningar þar sem úttakið verður að vera sniðið í samræmi við sniðsegðina sem þú bjóst til.
 
@@ -87,7 +87,7 @@ Ef þú ert með snið sem þarf að nota eitt og sér, getur þú sett fram þa
 
 [![Sækja um snið fyrir einstaka þætti](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
-## <a name="Validation">Vinnsla vinnsluflæðis</a>
+## <a name="Validation"></a>Vinnsla vinnsluflæðis
 
 Formúluhönnuður rafrænnar skýrslugerðar er hægt að nota til að skilgreina segðir sem stýra vinnsluflæðinu við stofnun rafrænna skjala. Hægt er að framkvæma eftirfarandi verk:
 
@@ -112,7 +112,7 @@ Formúluhönnuður rafrænnar skýrslugerðar er einnig hægt að nota til að s
 
 [![Vinnsla vinnsluflæðis](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
-## <a name="Enabled">Efnisstýring skjals</a>
+## <a name="Enabled"></a>Efnisstýring skjals
 
 Hægt er að nota ER-formúluhönnuðinn til að stilla segðir sem stjórna hvaða gögn verða sett inn í mynduð rafræn skjöl á keyrslutíma. Segðirnar geta virkjað eða afvirkjað úttak tiltekinna eininga sniðsins, eftir því hver vinnslugögn og skilgreindur grunnur er. Hægt er að færa þessar segðir inn fyrir stakt snið í reitnum **Virkt** á flipanum **Vörpun** á síðunni **Rekstrarhönnuður**. Þú getur slegið inn orðin sem röklegt skilyrði sem skilar *Boole*-gildi:
 
@@ -139,7 +139,7 @@ Eftirfarandi skýringarmynd sýnir segðir af þessari gerð. (Útgáfa 11.12.11
 > 
 > Byggt á þessari uppsetningu munu skilaboðin sem myndast fyrir hverja greiðslu skuldara, XML-eininguna **Ustrd**, innihalda annaðhvort texta greiðsluseðla eða, þegar slíkur texti er auður, texta aðskilinn með kommu reikningsnúmer sem notuð eru til að jafna þessa greiðslu.
 
-## <a name="TestFormula">Staðfesting á uppsettum formúlum</a>
+## <a name="TestFormula"></a>Staðfesting á uppsettum formúlum
 
 Á síðunni **Formúluhönnuður** velurðu **Prófa** til að sannreyna hvernig uppsetta formúlan virkar.
 

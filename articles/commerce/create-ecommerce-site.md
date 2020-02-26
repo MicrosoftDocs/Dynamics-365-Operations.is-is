@@ -1,9 +1,9 @@
 ---
 title: Stofna svæði fyrir rafræn viðskipti
-description: Þetta efnisatriði lýsir verkum sem tengjast stofnun nýrrar netverslunarsíðu í Dynamics 365 Commerce.
+description: Þetta efni lýsir skrefum og upplýsingum sem þarf til að stofna nýja netverslunarsíðu á Dynamics 365 Commerce vefsvæðishönnuðinum.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,29 +19,31 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 3d3d8a290f06d9734be21f2d59152acac6857506
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945836"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002014"
 ---
 # <a name="create-an-e-commerce-site"></a>Stofna svæði fyrir rafræn viðskipti
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir verkum sem tengjast stofnun nýrrar netverslunarsíðu í Dynamics 365 Commerce.
+Þetta efni lýsir skrefum og upplýsingum sem þarf til að stofna nýja netverslunarsíðu á Dynamics 365 Commerce vefsvæðishönnuðinum.
 
-## <a name="overview"></a>Yfirlit
+Áður en hægt er að hefja þróun á netverslunarsíðunni verðurðu fyrst að stofna nýja síðu í vefsvæðishönnuðinum. 
 
-Til að byrja að þróa netverslunarsíðuna þína verðurðu fyrst að stofna nýja síðu í umhverfi höfundaréttarins. Áður en þú getur búið til nýja síðu verður að búa til að minnsta kosti eina netverslun í Dynamics 365 Retail. 
+
+Til að byrja að þróa netverslunarsíðuna þína verðurðu fyrst að stofna nýja síðu í umhverfi höfundaréttarins. Áður en þú getur búið til nýja síðu verður að búa til að minnsta kosti eina netverslun í Commerce. 
+
 
 ## <a name="set-up-your-site"></a>Setja upp síðuna
 
 Til að setja upp síðuna þína skaltu gera eftirfarandi.
 
-1. Í Microsoft Lifecycle Services (LCS) skaltu velja tengilinn fyrir höfundarumhverfið. 
+1. Opnaðu umhverfi vefsvæðishönnuðar. Þú getur fundið tengil á vefsvæði byggingaraðila í Microsoft Lifecycle Services (LCS) á umhverfisaðgerðarsíðunni fyrir Commerce.
 1. Á heimasíðunni fyrir höfundarumhverfi svæðisins velurðu **Ný síða**.
 1. Í svarglugganum **Nýtt svæði** gefurðu upp eftirfarandi upplýsingar.
 

@@ -1,5 +1,5 @@
 ---
-title: Innfella Power Apps-forrit í Dynamics 365 - Core HR
+title: Fella Power Apps-forrit inn í Dynamics 365 Human Resources
 description: Þetta efnisatriði útskýrir hvernig á að leysa vandamál þar sem valmyndaratriði Microsoft Power Apps hefur horfið úr kerfisstjórnunareiningunni.
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b1dd1756be349d85af8e6d7159623a2a95e75526
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 8275a8a7c68fa13d6b9880c4c411deaa2dcbb998
+ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898713"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3017874"
 ---
-# <a name="embed-power-apps-apps-in-dynamics-365---core-hr"></a>Innfella Power Apps-forrit í Dynamics 365 - Core HR
+# <a name="embed-power-apps-apps-in-dynamics-365-human-resources"></a>Fella Power Apps-forrit inn í Dynamics 365 Human Resources
 
 **Úthreyfing**
 
@@ -38,31 +38,31 @@ Hönnun notandaviðmótsins hefur verið breytt og Microsoft Power Apps er nú h
 
 Aðferðin við innfellingu Power Apps hefur verið breytt. Power Apps er nú bætt við í gegnum sérsniðna líkanið. Hægt er að bæta Power Apps við nánast allar síður í Microsoft Dynamics 365 Talent.
 
-Upplýsingar um það hvernig á að innfella Power Apps í Talent er að finna í [Innfella Microsoft Power Apps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
+Upplýsingar um það hvernig á að innfella Power Apps í Talent er að finna í [Innfella Power Apps](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 
 Allir viðskiptamenn Power Apps sem felldu inn forrit fyrir breytinguna ættu að hafa verið uppfærðir í nýja líkaninu.
 
-Hnappurinn **Power Apps** er efst í hægra horninu á nánast öllum síðum í Talent. Hægt er að nota þennan hnapp til að setja inn Power Apps.
+Hnappurinn **Power Apps** er efst í hægra horninu á nánast öllum síðum í Talent. Hægt er að nota þennan hnapp til að setja inn forrit.
 
 Eftirfarandi er dæmi.
 
 1. Opnið **Starfsmannastjórnun \> Tenglar \> Starfskraftar \> Starfsmenn**.
-2. Veljið hnappinn **Power Apps** og síðan **Setja inn PowerApp**.
+2. Veldu hnappinn **Power Apps** og veldu síðan **Bæta við forriti frá Power Apps**.
 
     ![Power Apps-hnappur](media/png.png)
 
-3. Ljúkið við svæðin í svarglugganum **Setja inn PowerApp**.
+3. Ljúktu við reitina í valmyndinni **Bæta við forriti frá Power Apps**.
 
-    ![Svarglugginn „Setja inn PowerApp“](media/insert-powerapp.png)
+    ![Bæta við forriti úr valmynd Power Apps](media/insert-powerapp.png)
 
 Önnur leið er að fylgja þessum skrefum:
 
-1. Á aðgerðasvæði síðunnar, á flipanum **Valkostir** í flokknum **Sérsníða**, skal velja **Sérsníða þessa skjámynd**.
+1. Á aðgerðasvæði síðunnar, á flipanum **Valkostir** í flokknum **Sérsníða**, skal velja **Sérsníða þessa síðu**.
 
     ![Sérsníða flokk á flipanum „Valkostir“](media/options.png)
 
     Tækjastika sérstillinga birtist.
 
-2. Á tækjastikunni skal velja **Setja inn \> PowerApp**.
+2. Á tækjastikunni velurðu **Bæta við forriti úr Power Apps**.
 
-    ![Setja inn Power Apps-forrit með tækjastiku sérstillinga](media/powerapp-bar.png)
+    ![Bæta við forriti úr Power Apps með tækjastiku sérstillinga](media/powerapp-bar.png)

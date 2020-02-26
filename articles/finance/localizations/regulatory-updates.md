@@ -3,7 +3,7 @@ title: Regluuppfærslur
 description: Þetta efnisatriði gefur lista yfir áætlaðar og útgefnar reglulegar uppfærslur á Microsoft Dynamics 365 Finance.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 01/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: dc919d232f0e4f0cfbab372b9fdded2657906a1d
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: d596a543ca8aacc2c6530672111001a9dd161aa7
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934678"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000002"
 ---
 # <a name="regulatory-updates"></a>Regluuppfærslur
 
@@ -40,44 +40,41 @@ Reglulegar uppfærslur sem eru gefnar út sem hluti af mánaðarlegu uppfærslun
 
 Fyrir nýjustu áætlanir á uppfærslu á reglum skal skoða eftirfarandi töflu.   
 
-|Áætluð útgáfudagsetning|Losunarútgáfa|Land|Regluuppfærsla|
+|Land|Áætluð útgáfudagsetning|Losunarútgáfa|Regluuppfærsla|
 |--------------------|---------------|-------|-------|
-|      Brasilía        |   2019. desember       | 10.0.8      |   Hraða fjárhagslega skipulag 014 |
-|      Brasilía         |   Nóvember - ágúst 2019       | 10.0.7, 10.0.6HF, 10.0.5HF, 10.0.4HF      |   Ný útgáfa af tæknilegum athugasemdum fyrir NF-e: NT 2019.001 Útgáfa 1.20    |
-|      Brasilía          |   Nóvember - ágúst 2019       | 10.0.7, 10.0.6      |   DRCST yfirlýsing SC   |
-|      Brasilía         |   Ágúst 2019       | 10.0.6HF, 10.0.5HF, 10.0.4HF      |   Ný útgáfa af tæknilegum athugasemdum fyrir NF-e: NT 2019.001 Útgáfa 1.10    |
-|      Brasilía          |   Ágúst 2019      | 10.0.6HF, 10.0.5HF, 10.0.4HF     |   Ný útgáfa af tæknilegum athugasemdum fyrir NF-e: NT 2019.001 Útgáfa 1.10    |
-|      Brasilía          |   Ágúst 2019      | 10.0.6, 10.0.5HF     |   Ný löggjöf er innleidd af RJ ríki varðandi EFD-ICMS/IPI. Ályktun 13/19 um framkvæmd Rio de Janeiro (RJ) er að „Sérstökum aðferðum sem beitt skal vegna frelsis     |
-|      Brasilía          |   Ágúst 2019      | 10.0.6        |   Skattauppgjör CAT 42/18    |
-|      Brasilía          |   Júlí 2019     | 10.0.5, 10.0.4HF, 10.0.2HF      |   Ný útgáfa af tæknilegum athugasemdum fyrir NF-e: NT 2019.001 Útgáfa 1.00  |
-|      Brasilía          |   Júlí 2019     | 10.0.5      |   Hagnýt handbók um sped-framlög 1.31. ný leiðsögn    |
-|      Brasilía          |   20191. maí     | 10.0.4      |   Fjármálaskjal á innleið, líkan 66    |
-|      Brasilía          |   2019. maí      | 10.0.4      |   NF-e Decree 54.308/18 - RS    |
-|      Brasilía          |   2019. maí      | 10.0.4      |   NF-e og NFC-e - Upplausn 13/2019 og reglugerð SUCIEF 55/2019- RJ - ný skilyrði fyrir úttak undanþeginna merkja í NF-e    |
-|      Indland          |   Ágúst 2019     | 10.0.6       |   Retail: Stjórnun á skráningarnúmerum viðskiptavina úr POS fyrir Indland    |
-|      Indland          |   2019. maí     | 10.0.4      |   Birting „Birgðastaðar“ og „Ríkis“ á VÞS-skattareikningi    |
-|      Ítalía          |   2019. desember       | 10.0.8      |   Breytingar á stjórnun virðisaukaskatts hjá D.L. 119 frá 23. okt. 2018: Árleg skattsamskipti |
-|      Ítalía         |   Nóvember 2019       | 10.0.7      |   Breytingar á stjórnun virðisaukaskatts hjá D.L. 119 frá 23. október 2019: Ársfjórðungslega virðisaukaskattssamskipti („Lipe 2018“)    |
-|      Ítalía         |   Nóvember 2019     | 10.0.7      |   Retail - Stjórnun upplýsinga um viðskiptavin í POS |
-|      Ítalía         |   Nóvember 2019      | 10.0.7      |   Retail - Prentun upplýsinga viðskiptavina í ríkisfjármálum |
-|      Ítalía         |   Nóvember - ágúst 2019     | 10.0.7, 10.0.6      |   Breytingar á stjórnun virðisaukaskatts hjá D.L. 119 frá 23. október 2018 - Dynamics 365 for Finance and Operations  |
-|      Ítalía          |   Ágúst 2019      | 10.0.6      |   Dagsetning VSK-skrár    |
-|      Ítalía          |   Ágúst 2019     | 10.0.6      |   VSK stjórnun eftir dagsetningu virðisaukaskattsskrár    |
-|      Japan          |   Desember - nóvember 2019     | 10.0.8, 10.0.7HF       |   Neysluskattsbreyting og lækkað skatthlutfall er tekið upp (Neysluskattskýrsla) |
-|      Japan         |   Nóvember 2019      | 10.0.7       |   Neysluskattsbreyting og lækkað skatthlutfall er tekið upp (útlit reikninga) |
-|      Japan          |   Nóvember 2019     | 10.0.6HF     |   Neysluskattsbreyting og lækkað skatthlutfall er tekið upp (Neysluskattskýrsla)  |
-|      Japan          |   Ágúst 2019      | 10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      |   Neysluskattsbreyting og lækkað skatthlutfall er tekið upp    |
-|      Mexíkó          |   Desember - október 2019    | 10.0.8, 10.0.7HF, 10.0.6HF        |   Retail - CFDI Global: Ýmislegt. Resol 2019 - c_CodigoPostal og tímabelti |
-|     Mexíkó          |   Nóvember - september 2019       | 10.0.7, 10.0.6HF      |   Uppfærsla reglu 2.7.2.9 - Notkun tímabeltis póstnúmers fyrirtækisins sem gefur út CFDI skjalið |
-|      Mexíkó           |   Desember - október 2019      | 10.0.8, 10.0.7HF, 10.0.6HF     |   Sannprófun á kóða í vörulista og þjónustu |
-|      Mexíkó         |   Júlí 2019     | 10.0.5      |   MX -CFDI 3.3 - Upplýsingar um IEPS-skattafærslur í XML skulu vera valkvæðar eftir því hverjar forstillingar viðskiptavinarins eru    |
-|      Mexíkó          |   2019. maí     | 10.0.4      |   DIOT þriðja aðila yfirlýsing - breytingar á skipulagi 2019    |
-|      Pólland          |   Nóvember - október 2019     | 10.0.7, 10.0.6HF Pólland     |   Lögbundin skipting greiðslu - 10.0.7 |
-|      Singapúr           |   2019. desember     | 10.0.7      |   Skýrslur GST-Skil |
-|      Spánn          |   Ágúst - júlí 2019      | 10.0.5, 10.0.4HF      |   Spánn: SII: Löggildingarreglur breytast frá 1. október 2019    |
-|      Bretland          |   2019. desember       | 10.0.8      |   Making Tax Digital (MTD) - Samþykki kerfisstjóra til að senda upplýsingar utan D365 með samþættingunni við HMRC |
-|      Bretland          |   Nóvember 2019     | 10.0.7     |   Gerð skatta stafrænna - skattaframtal skýrsla gerð fyrir fyrirtæki sem tilkynna sem VSK hóp innan sama kerfis gagnagrunns v.10 |
-|      Bretland          |   Júní - júlí 2019      | 10.0.5     |   Skattur gerður stafrænn - færibreytur gegn svikum varðandi upphafstæki - 10.0.5    |
+|      Brasilía         |   2020. mars       | 10.0.9      |   Sped-fjárhagur - breytingar á skrá D100 reitnum COD_MUN_ORI    |
+|      Brasilía         |   Mars 2020 - desember 2019       | 10.0.9, 10.0.8, 10.0.7HF      |   DRCST SC - reglugerð SEF Nº 254/19    |
+|      Brasilía         |   Janúar 2020 - desember 2019       | 10.0.8, 10.0.7HF      |   Viðbótarupplýsingar um ICMS-ST    |
+|      Brasilía        |   Mars 2020 - desember 2019       | 10.0.9, 10.0.8HF, 10.0.7HF      |   Hraða fjárhagslega skipulag 014 |
+|      Brasilía         |   2019. desember       | 10.0.7      |   Ný útgáfa af tæknilegum athugasemdum fyrir NF-e: NT 2019.001 Útgáfa 1.20    |
+|      Brasilía         |   2019. desember       | 10.0.7      |   DRCST yfirlýsing SC    |
+|      Brasilía          |   Mars 2020 - janúar 2020       | 10.0.9, 10.0.8HF, 10.0.7HF      |   DRCST SC - reglugerð SEF Nº 343DR   |
+|      Frakkland          |   2020. mars       | 10.0.9      |   Frönsk staðsetning: ISO 20022 snið fyrir alþjóðlega greiðslu og yfirfærslu ríkissjóðs   |
+|      Indland          |   2020. mars       | 10.0.9      |   Nýtt GSTR (ANX-1 & ANX-2) Til baka tæki án nettengingar   |
+|      Ítalía          |   2020. janúar       | 10.0.8      |   Breytingar á stjórnun virðisaukaskatts hjá D.L. 119 frá 23. okt. 2018: Árleg skattsamskipti |
+|      Ítalía         |   2019. desember       | 10.0.7      |   Breytingar á stjórnun virðisaukaskatts hjá D.L. 119 frá 23. október 2019: Ársfjórðungslega virðisaukaskattssamskipti („Lipe 2018“)    |
+|      Ítalía         |   Mars 2020 - desember 2019     | 10.0.9, 10.0.8HF, 10.0.7HF      |   Retail - Stjórnun upplýsinga um viðskiptavin í POS |
+|      Ítalía         |   Mars 2020 - desember 2019      | 10.0.9, 10.0.8HF, 10.0.7HF      |   Retail - Prentun upplýsinga viðskiptavina í ríkisfjármálum |
+|      Ítalía         |   2019. desember     | 10.0.7      |   Breytingar á stjórnun virðisaukaskatts hjá D.L. 119 frá 23. okt 2018: Reikningssamskipti  |
+|      Japan          |   Mars 2020 - desember 2019     | 10.0.9, 10.0.8HF, 10.0.7HF     |   Japanskir bankamannafélög í stað JBA með fastri lengd greiðslusniðs með ISO20022 |
+|      Japan          |   Janúar 2020 - desember 2019     | 10.0.8, 10.0.7HF       |   Neysluskattsbreyting og lækkað skatthlutfall er tekið upp (Neysluskattskýrsla) |
+|      Japan         |   2019. desember      | 10.0.7       |   Neysluskattsbreyting og lækkað skatthlutfall er tekið upp (útlit reikninga) |
+|      Mexíkó          |   Janúar 2020 - desember 2019    | 10.0.8, 10.0.7HF        |   Retail - CFDI Global: Ýmislegt. Resol 2019 - c_CodigoPostal og tímabelti |
+|     Mexíkó          |   2019. desember       | 10.0.7      |   Uppfærsla reglu 2.7.2.9 - Notkun tímabeltis póstnúmers fyrirtækisins sem gefur út CFDI skjalið |
+|      Mexíkó           |   Janúar 2020 - desember 2019      | 10.0.8, 10.0.7HF     |   Sannprófun á kóða í vörulista og þjónustu |
+|      Noregur          |   Mars 2020 - desember 2019   | 10.0.9, 10.0.8HF, 10.7.7HF     |   SAF-T XSD uppfærsla í útgáfu 1.1 fyrir Dynamics 365 for Finance and Operations |
+|      Pólland          |   2020. mars    | 10.0.9     |   Kaup VSK skrá og SAF virðisaukaskattsskrá: Skipt verður um sérsniðna umboðsskrifstofu úr SAD skjölum fyrir þriðja hluta nafns og undanþegin númer skatta |
+|      Pólland          |   Mars 2020 - janúar 2020   | 10.0.9, 10.0.8HF     |   Retail - Stjórnun upplýsinga um viðskiptavin í POS |
+|      Pólland          |   Mars 2020 - janúar 2020     | 10.0.9, 10.0.8HF     |   Retail - Prentun upplýsinga viðskiptavina í ríkisfjármálum |
+|      Pólland          |   Mars 2020 - desember 2019     | 10.0.9, 10.0.8, 10.0.7     |   SAF-reikningar (JPK_FA) v.2 frá 2des2019 |
+|      Pólland          |   Mars 2020 - janúar 2019     | 10.0.9, 10.0.8     |   JPK_VDEK kemur í stað JPK_VAT (SAF VSK) |
+|      Pólland          |   2019. desember     | 10.0.7     |   Lögbundin skipting greiðslu |
+|      Rússland          |   2020. mars     | 10.0.9     |   Sniðmát skattskýrslu eignaskatts fyrir skýrslugerð árið 2019 |
+|      Rússland          |   2020. mars     | 10.0.9     |   Uppfærslur á tekjuskattsskýrslu |
+|      Singapúr           |   Janúar 2020 - desember 2019     | 10.0.8, 10.0.7HF      |   Skýrslur GST-Skil |
+|      Sviss           |   2020. mars     | 10.0.9      |   Svissneskur greiðsluseðill ISR fær nýtt snið (QR-kóða) |
+|      Bretland          |   2020. janúar       | 10.0.8      |   Making Tax Digital (MTD) - Samþykki kerfisstjóra til að senda upplýsingar utan D365 með samþættingunni við HMRC |
+|      Bretland          |   2019. desember     | 10.0.7     |   Gerð skatta stafrænna - skattaframtal skýrsla gerð fyrir fyrirtæki sem tilkynna sem VSK hóp innan sama kerfis gagnagrunns v.10 |
 
 
 

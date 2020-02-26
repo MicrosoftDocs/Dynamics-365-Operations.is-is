@@ -1,5 +1,5 @@
 ---
-title: Setja upp Skuldir og innheimta
+title: Setja upp innheimtu
 description: Þessi skrá útskýrir hvernig á að setja upp innheimtuvirkni.
 author: ShivamPandey-msft
 manager: AnnBe
@@ -18,18 +18,30 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2ed075484f79d7ef7d0d4e6d62d037bb3e9cc96f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 58d3e7f66ab5816849d393098d073ea7629e6b7c
+ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178330"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3013164"
 ---
-# <a name="set-up-credit-and-collections"></a>Setja upp Skuldir og innheimta
+# <a name="set-up-collections"></a>Setja upp innheimtu
 
 [!include [banner](../includes/banner.md)]
 
-Þessi skrá útskýrir hvernig á að setja upp innheimtuvirkni.
+Þessi skrá útskýrir hvernig á að setja upp innheimtuvirkni. Þú verður að ljúka nokkrum uppsetningarskrefum þegar safnhæfileikinn er notaður. Það eru einnig nokkrar valfrjálsar getu, þar á meðal hópar viðskiptavina og söfnun teymi. 
+
+- Skilgreiningar aldurstímabila
+- Aldursgreiningarmyndir
+- Færslubókanöfn
+- Ástæðukóði fyrir afskriftafærslur
+- Innheimtufulltrúar
+- Afskriftalykill
+- Upplýsingar um ónóga inneign
+- Stillingar Outlook fyrir þá sem nota síðuna **Innheimtu**
+- Netföng
+
+Nánar er fjallað um þessi atriði í öllu þessu efni. 
 
 <a name="set-up-aging-period-definitions"></a>Setja upp skilgreiningar aldurstímabila
 -------------------------------
@@ -46,7 +58,7 @@ Hægt er að setja upp viðskiptavinaflokka til að tákna flokka af viðskiptav
 Ef fjöldi einstaklinga í fyrirtækinu sjá um innheimtuvinnu er hægt að setja upp innheimtuhóp. Hægt er að velja hóps á **Færibreytur viðskiptakrafna** síðunni. Ef þú ekki stofna innheimtuhóp, verður ein slík búin til sjálfkrafa þegar notandinn setur upp innheimtufulltrúa í **innheimtufulltrúi** skjámynd.
 
 ## <a name="set-up-a-collections-case-category"></a>Setja upp innheimtumálstegund
-Ef skipuleggja á innheimtuvinnu með því að nota mál skal setja upp málstegund með gerð flokks **innheimtur**. Þessi uppsetning er bara nauðsynleg ef á að nota málsvirkni á síðunni **Innheimtur**.
+Ef skipuleggja á innheimtuvinnu með því að nota mál skal setja upp málstegund með gerð flokks **Innheimta**. Þetta er bara nauðsynleg ef á að nota málsvirkni á síðunni **Innheimta**.
 
 ## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Setja upp færslubókarnöfn (jöfnun, afskrift, og innistæðulaus sjóður)
 Setja upp færslubókarnöfn sem eru notaðar þegar færslur eru unnin á **innheimtur** síðunni. Þetta ferli innifelur jöfnun á færslu, afskrift færslu, og vinnslu á innistæðulaust (NSF).
@@ -78,16 +90,19 @@ Uppfæra bankareikningum þannig að þeir hafi rétta færslubók þegar FSF-gr
 ## <a name="set-up-outlook-settings-for-users-of-the-collections-page"></a>Uppsetning Outlook - stillinga fyrir notendur innheimtusíðunnar
 Áður en starfsmenn geta stofna verkþætti eða senda tölvupóstsskilaboð með því að nota síðuna **Innheimtur**, verður að staðfesta að **Microsoft Outlook samstilling** skilgreiningarlykill er valinn og að samstilling Outlook sé sett upp fyrir þessa starfsmenn.
 
-## <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Setja upp tölvupóststillingar og aðseturstillingar fyrir tengiliði viðskiptamanna fyrir innheimtu.
-Setja upp tölvupóstsaðsetur fyrir tengiliði viðskiptamanna ef senda á tölvupóstsskilaboð til þeirra tengiliða úr **innheimtur** síðu. Tengiliður innheimtu er notaður sem sjálfgefinn tengiliður í **Innheimtur** skjámynd. Hægt er að setja upp uppgjörsaðsetur fyrir viðskiptamanns ef uppgjör á að nota aðsetur sem er annað en aðalaðsetri. 
+## <a name="set-up-email-and-addresses"></a>Settu upp tölvupóst og netföng
+Þú getur notað tölvupóst til að eiga samskipti við bæði viðskiptavini og afgreiðslufólk um málefni safns til að senda tölvupóst frá **Innheimta** síðu. 
+
+### <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Setja upp tölvupóststillingar og aðseturstillingar fyrir tengiliði viðskiptamanna fyrir innheimtu.
+Setja upp tölvupóstsaðsetur fyrir tengiliði viðskiptamanna til að senda tölvupóstsskilaboð til þeirra tengiliða úr **Innheimta** síðu. Tengiliður innheimtu er notaður sem sjálfgefinn tengiliður í **Innheimtur** skjámynd. Hægt er að setja upp uppgjörsaðsetur fyrir viðskiptamanns ef uppgjör á að nota aðsetur sem er annað en aðalaðsetri. 
 
 Á **Skulda og Innheimtu** flýtiflipi fyrir viðskiptavin, í **innheimtutengiliður** skal velja einstaklings í fyrirtæki viðskiptavinar sem vinnur með þínum innheimtufulltrúi. Tengiliðurinn er notaður sem sjálfgefinn tengiliður í **innheimtur** síðu og er sú persóna sem tölvupóstsskilaboð eru send til. 
 
 > [!NOTE] 
 > Ef innheimtutengiliður fyrir viðskiptamann er ekki tilgreindur er aðaltengiliðar viðskiptamannsins notað. Ef aðaltengiliður er ekki tilgreint, tölvupóstskilaboð verður sent í fyrsta aðsetur sem er skráð í **Tengiliður** síðu.
 
-## <a name="set-up-email-settings-for-salespeople"></a>Setja upp stillingar fyrir tölvupóst sölumanna
-Setja upp tölvupóstsaðsetur fyrir sölufólk ef senda á tölvupóstsskilaboð til sölufólks úr **innheimtur** síðu. Setja upp tölvunetfang fyrir hvern sölufulltrúa í hverjum þóknunarsöluflokki. Sölufulltrúi sem hefur **tengiliður** gátreitinn valinn er sjálfgefinn sölumaður sem tölvupóstsskilaboð eru send til. 
+### <a name="set-up-email-settings-for-salespeople"></a>Setja upp stillingar fyrir tölvupóst sölumanna
+Setja upp tölvupóstsaðsetur fyrir sölufólk til að senda tölvupóstsskilaboð til sölufólks úr **innheimta** síðu. Setja upp tölvunetfang fyrir hvern sölufulltrúa í hverjum þóknunarsöluflokki. Sölufulltrúi sem hefur **tengiliður** gátreitinn valinn er sjálfgefinn sölumaður sem tölvupóstsskilaboð eru send til. 
 
 Ef sölufulltrúi er ekki tilgreindur er aðalsölumaður fyrirtækis viðskiptamanns notað. Ef aðalsölumaður er ekki tilgreindur, verða tölvupóstsskilaboð send til fyrsta sölumanns á listanum á síðunni.
 

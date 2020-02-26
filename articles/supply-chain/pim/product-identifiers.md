@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934887"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004020"
 ---
 # <a name="product-identifiers"></a>Afurðarkenni 
 
@@ -88,7 +88,7 @@ Fyrir útgefnar afurðir er hægt að viðhalda vörunúmerum, vöruheitum og v�
 | lýsing | Heitið sem viðskiptavinurinn tengir við vöruna | Heitið sem lánardrottinn tengir við vöruna |
 | Ytri vörutexti | Vörulýsing viðskiptavinar | Vörulýsing lánardrottins |
 
-Ef margir viðskiptavinir eða lánardrottnar nota sömu vörunúmerin (eins og í tilfelli tengdra innkaupa eða smásöluhóps sem dæmi), getur þú stofnað flokk viðskiptavina eða lánardrottna til að einfalda viðhald á ytri afurðarupplýsingum.
+Ef margir viðskiptavinir eða lánardrottnar nota sömu vörunúmerin (eins og í tilfelli tengdra innkaupa eða viðskiptahóps sem dæmi), getur þú stofnað flokk viðskiptavina eða lánardrottna til að einfalda viðhald á ytri afurðarupplýsingum.
 
 - Fyrir viðskiptavinaflokka skaltu fara í **Sala** &gt; **Uppsetning** &gt; **Vörur** &gt; **Ytri vörulýsing** til að stofna og vinna með flokkunum og tengdum vörunúmerum. Til að tengja viðskiptavini við flokk skal fara í **Viðskiptakröfur** &gt; **Viðskiptavinir** &gt; **Allir viðskiptavinir** og þá á flýtiflipanum **Sjálfgefnar stillingar sölupantana** skal tilgreina gildi í reitnum **Vara - viðskiptavinaflokkur**.
 - Fyrir flokka lánardrottna skaltu fara í **Innkaup og aðföng** &gt; **Uppsetning** &gt; **Ytri vörulýsingarflokkur** til að stofna og vinna með flokkunum og tengdum vörunúmerum. Til að tengja lánardrottna við flokk skaltu fara í **Viðskiptaskuldir** &gt; **Lánardrottnar** &gt; **Allir lánardrottnar** og síðan á flýtiflipanum **Sjálfgefnar stillingar sölupantana** skal tilgreina gildi í reitnum **Vara - lánardrottnaflokkur**.

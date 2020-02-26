@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8e25007cc4a204aeaf73a2e819c129fa8fa29d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f38c2ad9561cc1a1c775c27aec54681124cffeec
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563390"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004089"
 ---
 # <a name="cross-dock-products-from-receiving-warehouse-to-stores"></a>Hjáskipa afurðir úr viðtökuvöruhúsi í verslanir
 
@@ -31,9 +31,9 @@ ms.locfileid: "1563390"
 
 1. Fara í Allar innkaupapantanir.
 2. Veljið innkaupapöntun af listanum og smelltu á tengil til að opna pöntunina.
-3. Í aðgerðasvæðinu er smellt á Smásala.
+3. Í aðgerðasvæðinu er smellt á Retail og Commerce.
 4. Smellt er á frá Dreifingarstöð.
-5. Smellið á „Breyta“.
+5. Smella á Breyta.
     * Hægt er að nota tegundina til að sía vörur í kaflanum línur.  
 6. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 7. í reitnum magn fyrir Dreifing frá dreifingarstöð, Færa inn gildi til að tilgreina hversu mikið magn er keypt fyrir valda afurð að vera dreifð 

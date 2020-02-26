@@ -3,7 +3,7 @@ title: Körfueining
 description: Þetta efni fjallar um körfueiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,76 +17,63 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1c910f08e5999ec586b5cb656d5769e9d4abd069
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: f6dd8fb56f7342eb9c877eda503a92f4a31e5863
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2696762"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025437"
 ---
 # <a name="cart-module"></a>Körfueining
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Þetta efni fjallar um körfueiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 
-Körfueining er gámur sem er notaður til að hýsa alla einingar sem þarf til að sýna hluti sem eru í körfunni. Til dæmis felur hún í sér alla hluti sem hafa verið settir í körfuna, samantekt pöntunarinnar og kynningarkóða.
+Körfueining er notuð til að sýna hluti sem hafa verið settir í körfuna áður en viðskiptavinurinn heldur áfram að kassa. Til dæmis felur hún í sér alla hluti sem hafa verið settir í körfuna og samantekt pöntunarinnar. Það gerir viðskiptavininum einnig kleift að beita eða fjarlægja kynningarkóða.
+
+Körfueiningin styður innskráð greiðsluferli og greiðslu sem gestur. Hún styður einnig tengilinn **Til baka í verslun**. Þú getur stillt leiðina fyrir þennan hlekk á **Svæðisstillingar \> Viðbætur \> Leiðir**.
 
 Í körfueiningunni eru gögn byggð á auðkenni körfunnar. Auðkenni körfunnar er vafrakaka sem er fáanleg á þessu svæði.
 
 ## <a name="cart-module-properties-and-slots"></a>Eiginleikar og hólf körfueininga
 
-Sem gámur stjórnar körfueining sumum grunneiginleikum, svo sem fyrirsögn og breidd. Yfirskriftin er venjulega texti eins og **Innkaupapoki**, **Karfan þín** eða **Vörur í körfunni þinni**. Breiddarstillingin ákvarðar hvort einingarnar í gámnum verða að passa innan í þann gám eða hvort þær geta fyllt skjáinn.
-
-Körfusíðunni er skipt í mörg svæði: línuatriði körfu, samantekt pöntunar og kassa og virknina „finna í verslun“. Hverju svæði er varpað í hólf í körfueiningunni og sérhvert hólf samþykkir fyrirfram skilgreindar einingar.
+Körfueiningin er með eiginleikann **Fyrirsögn** sem hægt er að stilla á gildi eins og **Innkaupapoki** og **Vörur í körfunni þinni**. 
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Einingar sem hægt er að nota í körfueiningu
 
-- **Línuatriði körfu** - Þessi eining sýnir yfirlit yfir hvert atriði sem hefur verið bætt í körfuna. Upplýsingarnar innihalda afurðarheiti, valdar víddir, verð, magn og afslætti. Þessi eining styður einnig aðgerðir eins og „fjarlægja úr körfu“ og „bæta við óskalista.“ Fyrir hvert línuatriði er möguleiki að senda vöruna eða sækja hana úr versluninni. Þennan valkost verður að stilla sérstaklega í einingunni Sækja í verslun.
-- **Samantekt pöntunar** - Þessi eining sýnir pöntunarsamantekt. Upplýsingarnar innihalda millisamtölu, sendingu, skatta og sparnað. Hægt er að stilla fyrirsögn fyrir þessa einingu.
-- **Kynningarkóði** - Þessi eining gerir viðskiptavininum kleift að innleysa kynningarkóða. Hægt er að nota eða fjarlægja kynningarkóða.
-- **Greiðsluferli** - Þessi eining byrjar á greiðsluferlisaðgerðinni og vísar notandanum á greiðslusíðuna. Þrjá tengla verður að stilla fyrir þessa einingu:
-
-    - **Greiðsluferli** - Þessi tengill neyðir viðskiptavini til að skrá sig inn ef þeir eru ekki þegar innskráðir.
-    - **Greiðsla sem gestur** - Þessi tengill gerir kleift að nafnlausir viðskiptavinir setji inn pantanir. Hann er aðeins sýndur þegar viðskiptavinir eru ekki innskráðir.
-    - **Til baka í verslun** - Þessi tengill gerir viðskiptavinum kleift að fara á heimasíðuna eða aðra síðu, svo að þeir geti haldið áfram að versla.
-
-- **Eining með fjölbreyttu efni** - Þessi eining styður sérsniðin skilaboð í körfueiningunni. Skilaboðin eru keyrð af efnisstjórnunarkerfinu (CMS). Hægt er að bæta við hvaða skilaboðum sem er, svo sem „Fyrir vandamál með pöntunina, hafið samband við 1-800-Fabrikam.“
-- **Sækja í verslun** - Þessi eining sýnir lista yfir nærliggjandi verslanir þar sem hægt er að sækja vöru. Sjálfgefið er að þessi eining sýnir verslanir sem eru innan 50 mílna radíuss frá staðsetningu viðskiptavinarins. Hins vegar er hægt að aðlaga leitaradíusinn í einingunni. Fyrir hverja verslun er úttekt á birgðum gerð, ef kveikt er á virkni birgðaeftirlitsins og viðeigandi skilaboð eru sýnd um að vara sé á lager eða ekki á lager.
-- **Leita að verslunum með Bing Maps** – Hægt er að nota þessa einingu í einingunni Sækja í verslun. Hún gerir viðskiptavinum kleift að leita að verslunum með því að slá inn staðsetningu. Bing Maps forritunarviðmót (API) landskóðunar er notað til að umbreyta þá staðsetningu sem viðskiptavinurinn sló inn í breiddar- og lengdargráðu. Ef þessi eining er ekki notuð eru aðeins verslanir sem eru nálægt núverandi staðsetningu viðskiptavinarins sýndar og viðskiptavinurinn getur ekki leitað að öðrum stað.
+- **Textabálkur** – Þessi eining styður sérsniðin skilaboð í körfueiningunni. Skilaboðin eru keyrð af efnisstjórnunarkerfinu (CMS). Hægt er að bæta við hvaða skilaboðum sem er, eins og „Vegna vandamála með pöntunina, hafið samband við 1-800-Fabrikam.“
+- **Verslunarval** – Þessi eining sýnir lista yfir nærliggjandi verslanir þar sem hægt er að sækja vöru. Það gerir notendum kleift að slá inn staðsetningu til að finna verslanir í nágrenninu. Verslunarvalseiningin er samþætt við Bing Maps Geocoding forritunarviðmót (API) landskóðunar til að umbreyta staðsetningunni í breiddar- og lengdargráðu. Bing Maps API lykils er krafist og bæta verður honum við Retail sameiginlegar færibreytusíðuna í Dynamics 365 Retail. Þessi eining styður tvo eiginleika, **Leitarradíus** og **Tengil í þjónustuskilmála**. Eiginleikinn **Leitarradíus** skilgreinir leitarradíus fyrir verslanir, í mílum. Ef ekkert gildi er tilgreint er sjálfgefinn leitarradíus notaður, 50 mílur. Ef Bings kort eða utanaðkomandi þjónusta er notuð er hægt að nota eiginleikann **Tengill í þjónustuskilmála** til að veita tengil á þjónustuskilmálana. Þjónustuskilmálatengils er krafist fyrir þjónustuna Bing Maps. 
 
 ## <a name="cart-module-settings"></a>Stillingar körfueiningar
 
-Körfueiningar hafa þrjár stillingar sem hægt er að stilla:
+Körfueiningar hafa eftirfarandi stillingar sem hægt er að stilla á **Svæðisstillingar \> Viðbætur**:
 
-- **Hámarksmagn** - Hámarksfjöldi hvers hlutar sem hægt er að bæta við körfuna. Til dæmis gæti smásali ákveðið að aðeins megi selja 10 stykki af hverri afurð í sömu færslunni.
+- **Hámarksmagn** - Þessi eiginleiki er notaður til að tilgreina hámarksfjölda hvers hlutar sem hægt er að bæta við körfuna. Til dæmis gæti smásali ákveðið að aðeins megi selja 10 stykki af hverri afurð í sömu færslunni.
 - **Birgðakönnun** - Þegar gildi er stillt á **Satt** er vara aðeins sett í körfuna eftir að kaupkassaeiningin tryggir að hún sé til á lager. Þessi úttekt á birgðum er gerð bæði fyrir atburðarás þar sem hluturinn verður sendur og fyrir atburðarás þar sem hann verður sóttur í verslunina. Ef gildi er stillt á **Rangt** er engin úttekt á birgðum gerð áður en hlutur er settur í körfuna og pöntunin er gerð.
-- **Biðminni birgða** - Birgðunum er viðhaldið í rauntíma og þegar margir viðskiptavinir leggja inn pantanir getur verið erfitt að viðhalda nákvæmri birgðatalningu. Þess vegna er hægt að skilgreina biðminni fyrir birgðir. Þegar úttekt á birgðum er framkvæmd og birgðahaldið er minna en biðmagnið er varan meðhöndluð sem ekki til á lager. Þess vegna, þegar sala á sér stað hratt í gegnum nokkrar rásir, þannig að birgðir eru ekki samstilltar að fullu, er minni hætta á að hlutur sem er ekki á lager verði seldur.
+- **Birgðabiðminni** - Þessi eiginleiki er notaður til að tilgreina biðminnisnúmer fyrir birgðir. Birgðunum er viðhaldið í rauntíma og þegar margir viðskiptavinir leggja inn pantanir getur verið erfitt að viðhalda nákvæmri birgðatalningu. Þegar úttekt á birgðum er framkvæmd og birgðahaldið er minna en biðmagnið er varan meðhöndluð sem ekki til á lager. Þess vegna, þegar sala á sér stað hratt í gegnum nokkrar rásir og birgðir eru ekki samstilltar að fullu, er minni hætta á að hlutur sem er ekki á lager verði seldur.
+- **Til baka í verslun** - Þessi eiginleiki er notaður til að tilgreina leiðina fyrir tengilinn **Til baka í verslun**. Hægt er að stilla þessa leið á vettvangsstigi. Þessar stillingar gera smásölum færa viðskiptavininn til baka á heimasíðuna eða aðra síðu á vefsvæðinu.
 
-## <a name="retail-server-interaction"></a>Samskipti Retail Server
+## <a name="commerce-scale-unit-interaction"></a>Samskipti við Commerce Scale Unit
 
-Körfueiningin sækir upplýsingar um vörur með API fyrir Retail Server. Auðkenni körfunnar frá vafrakökunni er notað til að sækja allar vöruupplýsingar frá Retail Server.
+Körfueiningin sækir upplýsingar um afurðir með API kvörðunareiningu fyrir Commerce. Auðkenni körfunnar frá vafrakökunni er notað til að sækja allar vöruupplýsingar frá Commerce Scale Unit.
 
 ## <a name="add-a-cart-module-to-a-page"></a>Bæta körfueiningu við síðu
 
 Fylgdu þessum skrefum til að bæta körfueiningu við nýja síðu og stilla nauðsynlega eiginleika.
 
-1. Búðu til brot sem er nefnt **körfubrot** og bættu körfueiningunni við það.
-1. Í hólfinu **Línuatriði körfu** í körfueiningunni bætirðu við einingu fyrir línuatriði körfu.
-1. Í hólfinu **Samantekt pöntunar** bætirðu við einingu fyrir samantekt á pöntun.
-1. Í hólfinu **Kynningarkóði** bætirðu við einingu fyrir kynningarkóða.
-1. Í hólfinu **Greiðsluferli** bætirðu við einingu fyrir greiðsluferli.
-1. Í hólfinu **Finna í verslun** bætirðu við einingu til að sækja í verslun.
-1. Í einingunni Sækja í verslun velurðu hólfið **Leita að verslun** og bætir við leit að verslunum með einingunni Bing Maps.
-1. Athugaðu brotið og birtu það.
-1. Búðu til sniðmát sem heitir **körfusniðmát** og bættu körfubrotinu sem þú bjóst til við það.
-1. Vistaðu sniðmátið, athugaðu það og gefðu það út.
+1. Búðu til brot sem er nefnt **Körfubrot** og bættu körfueiningunni við það.
+1. Bæta fyrirsögn við körfueininguna.
+1. Bættu verslunarvalseiningu við körfueininguna.
+1. Vistaðu brotið, ljúktu við að breyta því og birtu það.
+1. Búðu til sniðmát sem heitir **Körfusniðmát** og bættu körfubrotinu sem þú bjóst til við það.
+1. Vistaðu sniðmátið, ljúktu við að breyta því og birtu það.
 1. Búðu til síðu sem notar nýja sniðmátið.
 1. Vistaðu og forskoðaðu síðuna.
-1. Athuga á síðunni og birtu hana.
+1. Ljúktu við að breyta síðunni, vistaðu hana og birtu.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

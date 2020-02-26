@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9280a2580d20d64f6542902aab1dbf55434bf84c
-ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
+ms.openlocfilehash: ca463d821292a2ad53462a3575f2d5712b9e53cc
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935515"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004043"
 ---
 # <a name="demand-forecasting-overview"></a>Yfirlit eftirspurnarspár
 
@@ -50,7 +50,7 @@ Hér eru sumar aðal aðgerðir eftirspurnarspár:
 -   **Einingastig** – eftirspurnarspár eru°uppbyggðar úr einingum og auðvelt að skilgreina. Hægt er að kveikja og slökkva á virkninni með því að breyta skilgreiningarlyklinum á **Viðskipti** &gt; **Birgðaspá** &gt; **Eftirspurnarspár**.
 -   **Endurnýting stafla Microsoft**– Microsoft°ýtti úr vör vélnámssvæði í Febrúar 2015. Vélnám sem er nú hluti af Microsoft Cortana Greiningarsafni gerir kleift á fljótlegan og auðveldan hátt að stofna spágreiningartilraunir, svo sem eftirspurnaráætlunartilraunir, með því að nota°algoritma R eða Python forritunartungumál og einfalt draga-sleppa viðmót.
     -   Hægt er að hlaða niður Eftirspurnarspátilraunum, breyta þeim til að uppfylla þínar viðskiptaþarfir, °gefa þau út sem vefþjónustu á Azure og nota þau°til að mynda eftirspurnarspár. Tilraunirnar eru tiltækar fyrir niðurhal ef áskrift að Supply Chain Management fyrir skipulagningu framleiðslu hefur verið keypt af notanda á fyrirtækissviði.
-    -   Hægt er að hlaða niður öllum fyrirliggjandi eftirspurnarspátilraunum úr [Cortana Greiningar Gallery](https://gallery.cortanaanalytics.com/). Aftur á móti, þar sem eftirspurnarspártilraunir eru sjálfkrafa samþættar Supply Chain Management, þurfa viðskiptavinir og samstarfsaðilar að beita samþættingu tilrauna sem þeir hlaða niður úr [Cortana-greiningasafni](https://gallery.cortanaanalytics.com/). Þess vegna eru tilraunir úr [Cortana-greiningarsafni](https://gallery.cortanaanalytics.com/) ekki jafneinfaldar í notkun og eftirspurnarspátilraunir Finance and Operations. Það þarf að breyta kóða á tilraununum þannig að þær noti forritunarviðmót (API) Finance and Operations.
+    -   Hægt er að hlaða niður öllum fyrirliggjandi eftirspurnarspátilraunum úr [Cortana Greiningar Gallery](https://gallery.cortanaanalytics.com/). Aftur á móti, þar sem eftirspurnarspártilraunir eru sjálfkrafa samþættar Supply Chain Management, þurfa viðskiptavinir og samstarfsaðilar að beita samþættingu tilrauna sem þeir hlaða niður úr [Cortana-greiningasafni](https://gallery.cortanaanalytics.com/). Þess vegna eru tilraunir úr [Cortana Greiningar Gallery](https://gallery.cortanaanalytics.com/) ekki jafn einfaldar í notkun og Finance and Operations eftirspurnarspátilraunir. Það°þarf að breyta kóða á tilraununum þannig að þær nota forritunarviðmót (API) Finance and Operations forritsins.
     -   Hægt er að stofna eigin tilraunir í Microsoft Azure Machine Learning Studio (hefðbundið), birta þær sem þjónustu á Azure og nota þær til að stofna eftirspurnarspár.
     -   Ef ekki er krafist mikilla afkasta eða ef ekki þarf að vinna°mikið af gögnum er hægt að nota ókeypis Vélnáms Lag. Mælt er með að alltaf ræsa úr°þessu lagi,°sérstaklega°við innleiðingu og prófana áfanga. Ef°krafist er meiri afkasta og°viðbótar geymslu, hægt er að nota staðlaða lags Vél Nám. Þetta lag krefst Azure áskriftar og felur í sér auka kostnað. Nánari upplýsingar um verðlagningu Vélnáms er að finna í [Verðlagning vélnámsstúdíós](https://aka.ms/machine-learning-price-info).
 -   **Lækkun spár á hvaða aftengingarpunkti sem er** – Eftirspurnarspár byggir á þessari virkni, sem gerir kleift að spá bæði háðri og óháðri eftirspurn á hvaða aftengingarpunkti sem er.
@@ -69,7 +69,7 @@ Spár, söguleg gögn og allar breytingar sem gerðar voru á eftirspurnarspám 
 Hægt er að nota Supply Chain Management til að sjá fyrir og breyta grunnlínuspám. Handvirkar leiðréttingar°þarf að heimila áður en hægt er að nota spár til að gera áætlanir.
 
 ## <a name="limitations"></a>Takmarkanir
-Eftirspurnarspá er verkfæri sem auðveldar viðskiptavini í framleiðsluiðnaði að stofna°spáferli. Hún býður upp á grunnaðgerðir lausn eftirspurnarspár og er hönnuð þannig að auðvelt sé að víkka hana út. Eftirspurnarspá hentar hugsanlega ekki vel fyrir viðskiptavini í iðnaði eins og smásölu, heildsölu, vöruhúsum, flutningi eða annars konar°fagþjónustu.
+Eftirspurnarspá er verkfæri sem auðveldar viðskiptavini í framleiðsluiðnaði að stofna°spáferli. Hún býður upp á grunnaðgerðir lausn eftirspurnarspár og er hönnuð þannig að auðvelt sé að víkka hana út. Eftirspurnarspá hentar hugsanlega ekki vel fyrir viðskiptavini í iðnaði eins og viðskipti, heildsölu, vöruhúsum, flutningi eða annars konar°fagþjónustu.
 
 <a name="additional-resources"></a>Frekari upplýsingar
 --------

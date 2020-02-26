@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c28c9e8c2573bcd82434f88daa8f9cadc946209
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: fc9064f0386fe7c0f4093fc30587be4baa259eb0
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812387"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003680"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Yfirlit yfir fyrirtæki og fyrirtækjastigveldi
 
@@ -47,7 +47,7 @@ Fyrirtæki er lögaðila. Eins og stendur eru fyrirtæki aðeins ein tegund af l
 
 Rekstrareining er fyrirtæki sem er notað til að skipta stýringu verðmæta og rekstrarferlis í viðskiptum. Fólk í rekstrareiningu hefur skyldu til að hámarka notkun takmarkaðra auðlinda, bæta ferli og bera ábyrgð á afköstum sínum.
 
-Tegundir rekstrareininga eru kostnaðarstaðir teknir með, viðskiptaeiningar, deildir og virðisstraumar og smásölurásir. Eftirfarandi tafla veitir frekari upplýsingar um hverja tegund rekstrareiningar.
+Tegundir rekstrareininga eru kostnaðarstaðir teknir með, viðskiptaeiningar, deildir og virðisstraumar og viðskiptarásir. Eftirfarandi tafla veitir frekari upplýsingar um hverja tegund rekstrareiningar.
 
 | Gerð rekstrareiningar | Lýsing | Tilgangur |
 |---------------------|-------------|---------|
@@ -55,7 +55,7 @@ Tegundir rekstrareininga eru kostnaðarstaðir teknir með, viðskiptaeiningar, 
 | Viðskiptaeining       | Er hálf-sjálfstæð rekstrareining sem er stofnuð til að uppfylla viðskiptamarkmið áætlunar. | Notuð við fjárhagsskýrslugerð sem byggir á industries eða línur afurða sem fyrirtækið þjónar óháð lögaðila. |
 | Virðisstraumur        | Rekstrareining sem stýrir einn eða fleiri framleiðsluflæði. | Almennt notað í lean manufacturing til að stjórna aðgerðum og flæði sem þarf til að útvega vöru eða þjónustu til neytenda. |
 | Deild          | Rekstrareining sem táknar flokk eða hagnýtan hluta fyrirtækis sem sinnir ákveðnu verki, svo sem sölu eða bókhald. | Notað til að gefa skýrslu um rekstrarsvið. Deild kann að borið ábyrgð á hagnaði og tapi og getur verið samsett úr hóp kostnaðarstaða. |
-| Smásölurás      | Rekstrareining sem táknar verslunarhúsnæði, netverslun eða netmarkaður. | Notað fyrir stjórnun og rekstraráætlanagerðar stýringu á eina eða fleiri verslanir fyrir innan eða í lögaðila. |
+| Commerce-rás      | Rekstrareining sem táknar verslunarhúsnæði, netverslun eða netmarkaður. | Notað fyrir stjórnun og rekstraráætlanagerðar stýringu á eina eða fleiri verslanir fyrir innan eða í lögaðila. |
 
 ### <a name="teams"></a>Teymi
 

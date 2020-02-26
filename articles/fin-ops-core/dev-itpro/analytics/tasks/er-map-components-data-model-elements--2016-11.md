@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a033853be17d6013daa5550ca9c061198bb0330
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 548f16034ebdf7e0f29e8e89d85aac880f6323a1
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184739"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026241"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>Rafræn skýrslugerð Varpa efnisþætti ef stofnað snið einingar gagnalíkans (nóvember 2016)
 
@@ -98,7 +98,7 @@ Eftirfarandi ferli sýnir hvernig notandi í annaðhvort hlutverk kerfisstjóri 
 2. Lokið síðunni.
 
 ## <a name="change-status-of-the-current-version-of-format-configuration"></a>Breyta stöðu á gildandi útgáfu af skilgreiningarsniði
-    * Í næsta skref verður breytt stöðu grunnstillingarsniðs úr Drög í Lokið til að gera það tiltækan fyrir myndun greiðsluskjala.  
+Í næsta skref verður breytt stöðu grunnstillingarsniðs úr Drög í Lokið til að gera það tiltækan fyrir myndun greiðsluskjala.  
 1. Smellið á „Breyta stöðu“.
 2. Smelltu á Ljúka.
 3. Sláið inn gildi í reitnum „Lýsing“.
@@ -108,7 +108,7 @@ Eftirfarandi ferli sýnir hvernig notandi í annaðhvort hlutverk kerfisstjóri 
     * Athugið að sniðið er vistað sem lokin útgáfa 1.1. útgáfa 1 af sniðinu, sem er byggð á útgáfu 1 af gagnalíkaninu.  
 
 ## <a name="define-effective-date-for-completed-version-of-format"></a>Tilgreina gildisdagsetning fyrir lokið útgáfa sniðs
-    * Hægt er að skilgreina hverja sniðsútgáfa sem tiltæk fyrir notkun frá tilteknum degi. Þegar fleiri en ein útgáfa sniðs er virk á tilteknum degi, verður síðasta snið (á grundvelli útgáfunúmers) valið fyrir notkun. Dagsetningargildi lotu er notað til að velja rétta útgáfu.  
+Hægt er að skilgreina hverja sniðsútgáfa sem tiltæk fyrir notkun frá tilteknum degi. Þegar fleiri en ein útgáfa sniðs er virk á tilteknum degi, verður síðasta snið (á grundvelli útgáfunúmers) valið fyrir notkun. Dagsetningargildi lotu er notað til að velja rétta útgáfu.  
 
 ## <a name="restrict-access-to-created-format-from-companies"></a>Takmarka aðgang að stofnuðu sniði frá fyrirtækjum
 1. Víkka út hlutann ISO lands-/svæðiskóða.

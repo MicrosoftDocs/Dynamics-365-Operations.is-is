@@ -1,0 +1,531 @@
+- name: Dynamics 365 Human Resources
+  href: hr-welcome.md
+  items:
+    - name: Nýjungar
+      items:
+        - name: Nýjungar eða breytingar í Human Resources
+          href: hr-admin-whats-new.md
+        - name: 7. febrúar 2020
+          href: hr-whats-new-2020-02-07.md
+        - name: 3. febrúar 2020
+          href: hr-whats-new-2020-02-03.md
+    - name: Leiðbeiningar stjórnanda
+      items:
+        - name: Yfirlit
+          href: hr-admin-overview.md
+        - name: Kerfiskröfur
+          href: hr-admin-system-requirements.md
+        - name: Setja upp og vinna með tilvik
+          items:
+            - name: Ráðstafa mannauði
+              href: hr-admin-setup-provision.md
+            - name: Afrita tilvik
+              href: hr-admin-setup-copy-instance.md
+            - name: Fjarlægja tilvik
+              href: hr-admin-setup-remove-instance.md
+            - name: Uppfærsluferli
+              href: hr-admin-setup-update-process.md
+        - name: Setja upp samþættingu gagna
+          items:
+            - name: Velja tækni við samþættingu gagna
+              href: hr-admin-integration-choose-technology.md
+            - name: Skilgreina Common Data Service-samþættingu
+              href: hr-admin-integration-common-data-service.md
+            - name: Common Data Service einingar
+              href: hr-developer-entities.md
+            - name: Skilgreina samþættingu við Finance
+              href: hr-admin-integration-finance.md
+            - name: Skilgreina samþættingu við Dayforce
+              href: hr-admin-integration-dayforce.md
+            - name: Búa til útflutningsforrit fyrir endurtekin gögn
+              href: hr-admin-integration-recurring-data-export.md
+            - name: Samþætt við Office
+              items:
+                - name: Kennsla í Office-samþættingu
+                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Uppfæra einingagögn í Excel
+                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Búa til „Opna í Excel“-upplifanir
+                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Nota úrræðaleit fyrir Office-samþættingu
+                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Vinna með eiginleika
+          href: hr-admin-manage-features.md
+        - name: Notandaviðmót skoðað
+          items:
+            - name: Einingar notandaviðmóts
+              href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json
+            - name: Aðgengiseiginleikar
+              href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json
+            - name: Eiginleikastjórnunaryfirlit
+              href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json
+            - name: Algengar spurningar biðlara
+              href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json
+            - name: Aðgerðaleit
+              href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json
+            - name: Ítarleg sía og málskipan fyrirspurna
+              href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json
+            - name: Skilgreining og síun vinnusvæða
+              href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json
+            - name: Birta síður hlið við hlið með því að nota „Opna í nýjum glugga“-eiginleikann
+              href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/human-resources/toc.json
+            - name: Flýtilyklar
+              href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/human-resources/toc.json
+            - name: Breyta borðum eða kennimerkismyndum fyrir lögaðila
+              href: ../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/human-resources/toc.json
+            - name: Flettingaleit
+              href: ../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/human-resources/toc.json
+            - name: Sérsníða notandaupplifun
+              href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/human-resources/toc.json
+            - name: Vistuð yfirlit
+              href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
+            - name: Stofna og vinna með sérstillt svæði
+              href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
+            - name: Fella inn PowerApps forrit
+              href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
+            - name: Leita að upplýsingum með uppflettingum
+              href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
+            - name: Breyta dagsetningu lotu
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json
+            - name: Stilla æskilegt tímabelti notanda
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
+            - name: Kynning á Lifecycle Services
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
+        - name: Skjalatilföng
+          items:
+            - name: Hjálparkerfi
+              href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
+            - name: Tengja hjálparkerfið
+              href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
+            - name: Tengja sérstillt hjálparsvæði
+              href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json
+            - name: Skoða og flytja út lýsingar á reit
+              href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
+            - name: Verkskráning
+              href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json
+            - name: Búa til fylgiskjöl eða þjálfun með verkskráningu
+              href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json
+        - name: Úrræðaleit fyrir mannauð
+          items:
+            - name: Fá aðstoð
+              href: hr-admin-troubleshooting-support.md
+            - name: Auka afköst með sjálfvirkum hreinsunarverkum
+              href: hr-admin-troubleshooting-batch-history.md
+            - name: Greiningarskýrslur eru ekki uppfærðar
+              href: hr-admin-troubleshooting-analytic-reports.md
+            - name: Ekki er hægt að stofna umhverfi í stjórnendamiðstöð Power Apps
+              href: hr-admin-troubleshooting-power-apps.md
+            - name: Biðlari rýfur tengingu
+              href: hr-admin-troubleshooting-disconnect.md
+            - name: Forðast styttan texta í stigveldi stöðu
+              href: hr-admin-troubleshooting-truncate.md
+            - name: Keyra launavinnslu
+              href: hr-admin-troubleshooting-compensation.md
+            - name: Vista verkleiðbeiningar í LCS
+              href: hr-admin-troubleshooting-task-guide.md
+            - name: Opna einkaaðsetur samkvæmt öryggishlutverki
+              href: hr-admin-troubleshooting-private-addresses.md
+            - name: Human Resources birtist ekki í Dynamics 365 forritum
+              href: hr-admin-troubleshooting-not-in-apps.md
+            - name: Valkostir tilkynninga
+              href: hr-admin-troubleshooting-reporting.md
+            - name: Algengar spurningar um samþættingu
+              href: hr-admin-troubleshooting-integration.md
+    - name: Leiðbeiningar þróunaraðila
+      items:
+        - name: Yfirlit
+          href: hr-developer-overview.md
+        - name: Stækka með Power Apps og Power Automate
+          href: hr-developer-power-apps.md
+        - name: Common Data Service einingar
+          href: hr-developer-entities.md
+        - name: Sérstilltir reitir
+          href: hr-developer-custom-fields.md
+        - name: Setja upp samþættingu gagna
+          items:
+            - name: Velja tækni við samþættingu gagna
+              href: hr-admin-integration-choose-technology.md
+            - name: Skilgreina Common Data Service-samþættingu
+              href: hr-admin-integration-common-data-service.md
+            - name: Skilgreina samþættingu við Finance
+              href: hr-admin-integration-finance.md
+            - name: Skilgreina samþættingu við Dayforce
+              href: hr-admin-integration-dayforce.md
+            - name: Búa til útflutningsforrit fyrir endurtekin gögn
+              href: hr-admin-integration-recurring-data-export.md
+            - name: Samþætt við Office
+              items:
+                - name: Kennsla í Office-samþættingu
+                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Uppfæra einingagögn í Excel
+                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Búa til „Opna í Excel“-upplifanir
+                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Nota úrræðaleit fyrir Office-samþættingu
+                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Einingartilvísun API
+          items:
+            - name: Sannvottun
+              href: hr-developer-api-authentication.md
+            - name: Einingar
+              items:
+                - name: MyLeaveRequests
+                  items:
+                    - name: Yfirlit MyLeaveRequests
+                      href: hr-developer-api-myleaverequests-overview.md
+                    - name: Senda leyfisbeiðni í verkflæði
+                      href: hr-developer-api-myleaverequests-submit.md
+    - name: Notkunarleiðbeiningar
+      items:
+        - name: Yfirlit
+          href: hr-hrpro-overview.md
+        - name: Setja upp Mannauð
+          items:
+            - name: Grunnstilla færibreytur Mannauðs
+              href: hr-setup-parameters.md
+            - name: Grunnstilla samnýttar færibreytur Mannauðs
+              href: hr-setup-shared-parameters.md
+            - name: Setja upp verkflæði Mannauðs
+              href: hr-setup-workflows.md
+            - name: Skilja svæði fyrir dagsetningu og tíma
+              href: hr-setup-date-time-fields.md
+        - name: Grunnstilla stillingar fyrirtækis
+          items:
+            - name: Fyrirtækisstjórnun – heimasíða
+              href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json
+            - name: Númeraraðir
+              items:
+                - name: Yfirlit númeraraða
+                  href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: Uppsetning númeraraða á einstaklingsgrunni
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/human-resources/toc.json
+                - name: Uppsetning númeraraða með leiðsögn
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/human-resources/toc.json
+            - name: Fyrirtæki og fyrirtækjastigveldi
+              items:
+                - name: Yfirlit yfir fyrirtæki og fyrirtækjastigveldi
+                  href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skipuleggja stigveldi fyrirtækisins
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/human-resources/toc.json
+                - name: Stofna stigveldi fyrirtækis/stofnunar
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/human-resources/toc.json
+                - name: Stofna lögaðila
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/human-resources/toc.json
+                - name: Stofna rekstrareiningar
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/human-resources/toc.json
+            - name: Altæk aðsetursbók
+              items:
+                - name: Yfirlit yfir altæka aðsetursbók
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skipuleggja altæku aðsetursbókina og aðrar aðsetursbækur
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skilgreina altæku aðsetursbókina
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: Algengar spurningar um aðsetursbækur
+                  href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skilgreina aðsetursbók
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
+            - name: Verkflæðiskerfi
+              items:
+                - name: Yfirlit yfir verkflæðiskerfi
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+                - name: Kerfisskipulag verkflæðis
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+                - name: Verkflæðiseiningar
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+                - name: Verkflæðisaðgerðir
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+                - name: Stofna verkflæði
+                  items:
+                    - name: Yfirlit yfir stofnun verkflæðis
+                      href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Skilgreina verkflæðiseiginleika
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Skilgreina handvirk verk
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Skilgreina sjálfvirk verk
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Skilgreina samþykktarferli
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Skilgreina samþykktarskref
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Skilgreina handvirkar ákvarðanir
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Skilgreina skilyrtar ákvarðanir
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Skilgreina hliðstæða verkþætti
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Skilgreina hliðstæð útibú
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Skilgreina verkflæði línuatriða
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skilgreina runuvinnslu skilaboðaferlis fyrir verkflæði sem mikilvægt
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+                - name: Úthluta vinnuliðum í verkflæði
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skoða verkflæðissögu
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skilgreina kerfið til að senda tölvupósta tengda verkflæði til notenda
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+                - name: Verkflæðisgerðir
+                  items:
+                    - name: Verkflæðisgerð búin til
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Gátlisti verkflæðisgerðar
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Búa til verkflæðisflokk
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Búa til fyrirspurn fyrir verkflæðisgerð
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Búa til nýja verkflæðisgerð
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Búa til klasa fyrir verkflæðiskjal
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Búa til SubmitToWorkflow-klasa
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Tengja verkflæðisskjalaklasa við verkflæðisgerð
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skýrsla um verkflæðisgerðir
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+                - name: Algengar spurningar um verkflæði
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
+            - name: Viðvaranir
+              items:
+                - name: Yfirlit yfir viðvaranir
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: Stofna viðvörunarreglur
+                  href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/human-resources/toc.json
+                - name: Runuvinnsla viðvarana
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
+                - name: Viðvörunartilkynningar biðlara með tölvupósti
+                  href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
+            - name: Rafrænar undirskriftir
+              items:
+                - name: Yfirlit rafrænna undirskrifta
+                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: Uppsetning rafrænna undirskrifta
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
+            - name: Málastjórnun
+              items:
+                - name: Málastjórnunaryfirlit
+                  href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/human-resources/toc.json
+                - name: 'Skipuleggja öryggi, vinnslu og flokkun mála'
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/human-resources/toc.json
+            - name: Skrá sniðmát
+              items:
+                - name: Yfirlit sniðmátsskráningar
+                  href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/human-resources/toc.json
+                - name: Stofna færslusniðmát
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/human-resources/toc.json
+                - name: Nota færslusniðmát til að búa til nýja færslu
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/human-resources/toc.json
+            - name: Stilla skjalastjórnun
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/human-resources/toc.json
+            - name: Skilgreining og sending tölvupósts
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/human-resources/toc.json
+            - name: Dagsetningar-/tímagögn og tímabelti
+              href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/human-resources/toc.json
+        - name: Stjórna starfsfólki
+          items:
+            - name: Skipuleggja starfsfólk
+              href: hr-personnel-departments-jobs-positions.md
+            - name: Setja upp íhluti verks
+              href: hr-personnel-jobs.md
+            - name: Skilgreina deildir
+              href: hr-personnel-define-departments.md
+            - name: Bæta deild við stigveldi
+              href: hr-personnel-add-department-hierarchy.md
+            - name: Skilgreina störf
+              href: hr-personnel-define-jobs.md
+            - name: Búa til dagatal fyrir vinnutíma
+              href: hr-personnel-create-working-time-calendar.md
+            - name: Algengar spurningar um aðgerðir starfsfólks
+              href: hr-personnel-actions-faq.md
+            - name: Nota verkflæði til að haga starfsmannaupplýsingum
+              href: hr-workflow-manage-employee-information.md
+            - name: Breyta skýrslugjafarvenslum fyrir stöðu
+              href: hr-personnel-modify-reporting-relationships-position.md
+            - name: Færa inn upplýsingar um starfsmann
+              href: hr-personnel-enter-worker-information.md
+            - name: Lána starfsfólki vörur
+              href: hr-personnel-loan-item-worker.md
+            - name: Stofna lánaliði
+              href: hr-personnel-create-loan-items.md
+            - name: Stjórna lánshlutum
+              href: hr-personnel-loan-items.md
+            - name: Þróa áætlun um röðun starfsmanna
+              href: hr-personnel-develop-succession-plan.md
+            - name: Færa inn Project Timesheets
+              href: hr-personnel-enter-project-timesheets.md
+            - name: Fjöldaráðningarverk
+              href: hr-personnel-mass-hire-projects.md
+            - name: Stofna fjöldaráðningarverk
+              href: hr-personnel-create-mass-hire-project.md
+            - name: Setja upp stöður
+              href: hr-personnel-set-up-positions.md
+            - name: Uppsetning upplýsinga um meiðsl og veikindi
+              href: hr-personnel-set-up-injury-illness-information.md
+            - name: Vinna með upplýsingar um meiðsl og veikindi starfsmanna
+              href: hr-personnel-maintain-employee-injury-illness-information.md
+        - name: Setja upp launafyrirkomulag
+          items:
+            - name: Yfirlit yfir launafyrirkomulag
+              href: hr-compensation-overview.md
+            - name: Uppsetning launanets
+              href: hr-compensation-grids.md
+            - name: Þróa launaskipulag og -áætlun
+              href: hr-compensation-structure.md
+            - name: Stofna launafyrirkomulag fastra launa
+              href: hr-compensation-fixed-plans.md
+            - name: Stofna launafyrirkomulag breytilegra launa
+              href: hr-compensation-variable-plans.md
+            - name: Skrá starfsmenn í launafyrirkomulag fastra launa
+              href: hr-compensation-enroll-employees-fixed.md
+            - name: Skrá starfsmenn í breytilegt launafyrirkomulag
+              href: hr-compensation-enroll-employees-variable.md
+            - name: Skilgreina launavinnslu og reikna niðurstöður
+              href: hr-compensation-define-process.md
+            - name: Vinna úr launafyrirkomulagi
+              href: hr-compensation-process.md
+        - name: Umsjón með fríðindum
+          items:
+            - name: 'Forskoðunareiginleiki: Fríðindastjórnun'
+              items:
+                - name: Yfirlit fríðindastjórnunar
+                  href: hr-benefits-management-overview.md
+                - name: Grunnstilla fríðindastjórnun
+                  items:
+                    - name: Stilla færibreytur fríðindastjórnunar
+                      href: hr-benefits-setup-parameters.md
+                    - name: Grunnstilla hæfnireglur og valkosti
+                      href: hr-benefits-setup-eligibility-rules.md
+                    - name: Grunnstilla hæfnisvalkosti persónulegs tengiliðar
+                      href: hr-benefits-setup-contact-eligibility-options.md
+                    - name: Stofna tryggingarvalkosti
+                      href: hr-benefits-setup-coverage-options.md
+                    - name: Setja upp greiðslutíðni
+                      href: hr-benefits-setup-payment-frequencies.md
+                    - name: Grunnstilla gerðir viðburða
+                      href: hr-benefits-setup-life-event-types.md
+                    - name: Stofna gerðir áætlana
+                      href: hr-benefits-setup-plan-types.md
+                    - name: Setja upp ástæðukóða
+                      href: hr-benefits-setup-reason-codes.md
+                    - name: Setja upp kóða fyrir lög
+                      href: hr-benefits-setup-tier-codes.md
+                    - name: Grunnstilla taxta
+                      href: hr-benefits-setup-rates.md
+                    - name: Grunnstilla frádrætti
+                      href: hr-benefits-setup-deductions.md
+                    - name: Grunnstilla biðdaga
+                      href: hr-benefits-setup-waiting-days.md
+                    - name: Grunnstilla biðtímabil
+                      href: hr-benefits-setup-waiting-periods.md
+                    - name: Setja upp sléttunarreglur
+                      href: hr-benefits-setup-rounding-rules.md
+                    - name: Stofna atvinnuflokka
+                      href: hr-benefits-setup-employment-categories.md
+                    - name: Setja upp ráðningargerðir
+                      href: hr-benefits-setup-employment-types.md
+                    - name: Grunnstilla sjálfsafgreiðslu starfsmanns
+                      href: hr-benefits-setup-employee-self-service.md
+                - name: Stofna fríðindaáætlanir
+                  items:
+                    - name: Uppsetning fríðindaáætlana
+                      href: hr-benefits-plans-setup.md
+                    - name: Stofna fríðindaáætlanir starfskrafts
+                      href: hr-benefits-plans-worker.md
+                    - name: Setja upp sveigjanlegar útgjaldaáætlanir
+                      href: hr-benefits-plans-flex-credit-programs.md
+                    - name: Grunnstilla viðburði í framtíðinni
+                      href: hr-benefits-plans-future-life-events.md
+                - name: Vinna úr fríðindaáætlunum
+                  items:
+                    - name: Vinna úr fríðindahæfni
+                      href: hr-benefits-process-enrollment-eligibility.md
+                    - name: Vinna úr viðburðum
+                      href: hr-benefits-process-life-events.md
+                    - name: Vinna úr breytingum á viðburðum
+                      href: hr-benefits-process-life-event-changes.md
+                    - name: Vinna úr hæfni viðburðar
+                      href: hr-benefits-process-life-event-eligibility.md
+                    - name: Vinna úr breytingum á hlutfalli
+                      href: hr-benefits-process-rate-changes.md
+            - name: Skilgreina og stjórna fríðindaáætlun
+              href: hr-benefits-manage-program.md
+            - name: Stefnur um hæfni til fríðinda
+              href: hr-benefits-eligibility-policies.md
+            - name: Ferli tengt hæfni til fríðinda
+              href: hr-benefits-eligibility-process.md
+            - name: Skilgreina reglur og stefnur um hæfi til fríðinda
+              href: hr-benefits-define-eligibility-rules.md
+            - name: Leggja fram starfskjaraáætlun starfsmanns
+              href: hr-benefits-deliver-employee-benefits-program.md
+            - name: Stofna ný fríðindi
+              href: hr-benefits-create.md
+            - name: Skrá starfsmenn fyrir fríðindum
+              href: hr-benefits-enroll-workers.md
+            - name: Vinna með lokadaga fríðinda
+              href: hr-benefits-expiration-dates.md
+            - name: Mynda ACA-skýrslur
+              href: hr-benefits-aca-reports.md
+        - name: Vinna með leyfi og fjarvistir
+          items:
+            - name: Yfirlit
+              href: hr-leave-and-absence-overview.md
+            - name: Grunnstilla færibreytur leyfis og fjarvista
+              href: hr-leave-and-absence-parameters.md
+            - name: Búa til dagatal fyrir vinnutíma
+              href: hr-leave-and-absence-working-time-calendar.md
+            - name: Stofna verkflæði fyrir beiðni um leyfi
+              href: hr-leave-and-absence-workflow.md
+            - name: Grunnstilla gerðir leyfis og fjarvista
+              href: hr-leave-and-absence-types.md
+            - name: Búa til leyfis- og fjarvistaáætlun
+              href: hr-leave-and-absence-plans.md
+            - name: Úthluta starfsmönnum á leyfisáætlun
+              href: hr-leave-and-absence-enroll.md
+            - name: Uppsöfnunaráætlanir fyrir leyfi og fjarvistir
+              href: hr-leave-and-absence-accrue.md
+            - name: Skoða greiningu á leyfum og fjarvistum
+              href: hr-leave-and-absence-analytics.md
+            - name: Vinna með beiðnir um leyfi og fjarvistir
+              href: hr-employee-self-service-manage-requests.md
+            - name: Biðja um frí
+              href: hr-employee-self-service-request-time-off.md
+            - name: Skoða dagbækur hóps og fyrirtækis
+              href: hr-employee-self-service-calendar.md
+        - name: Þróa starfsmenn
+          items:
+            - name: Árangursstjórnunaryfirlit
+              href: hr-develop-performance-management-overview.md
+            - name: Raða saman hæfni vinnuafls
+              href: hr-develop-skills.md
+            - name: Bæta við frammistöðubókina þína
+              href: hr-develop-add-performance-journal.md
+            - name: Búa til markmið
+              href: hr-develop-create-goal.md
+            - name: Stofna frammistöðumat
+              href: hr-develop-create-performance-review.md
+        - name: Stofna námskeið
+          items:
+            - name: Uppsetning námskeiða
+              href: hr-learning-courses.md
+            - name: Yfirlit yfir spurningalista
+              href: hr-learning-questionnaires.md
+            - name: Hanna spurningalista
+              href: hr-learning-design-questionnaires.md
+            - name: Dreifa og tímasetja spurningalista
+              href: hr-learning-distribute-questionnaires.md
+            - name: Dreifa spurningalistum með áætlanagerð
+              href: hr-learning-distribute-questionnaires-scheduling.md
+            - name: Skoða niðurstöður spurningalista
+              href: hr-learning-evaluate-questionnaire-results.md
+            - name: Greina niðurstöður úr spurningalista
+              href: hr-learning-analyze-questionnaire-results.md
+            - name: Búa til opna spurningu
+              href: hr-learning-create-open-ended-question.md
+            - name: Búa til lokaða spurningu
+              href: hr-learning-create-closed-ended-question.md
+            - name: Búa til textaháða spurningu
+              href: hr-learning-depending-question.md

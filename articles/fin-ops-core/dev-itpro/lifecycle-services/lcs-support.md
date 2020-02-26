@@ -1,5 +1,5 @@
 ---
-title: Fá stuðning fyrir forrit Finance and Operations eða Lifecycle Services (LCS)
+title: Fá aðstoð fyrir forrit Finance and Operations eða Lifecycle Services (LCS)
 description: Í þessu efni er útskýrt hvernig skal fá hjálp varðandi forrit Finance and Operations eða Microsoft Dynamics Lifecycle Services (LCS).
 author: kfend
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e62e406de5d972b3e66319cf293d3d420c69d46
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8ac2cf0c2b78dd3456c5c1a69981a4e498b115ae
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812136"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005517"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Fá stuðning fyrir forrit Finance and Operations eða Lifecycle Services (LCS)
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Fá aðstoð fyrir forrit Finance and Operations eða Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "2812136"
 
 Notið upplýsingarnar í þessari grein til að hafa samband við Microsoft ef tæknilegar spurningar vakna, eða ef þörf er á hjálp við að komast inn í Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="finance-and-operations-apps-support"></a>Notendaþjónusta fyrir forrit Finance and Operations
+### <a name="finance-and-operations-apps-support"></a>Finance and Operations stuðning forrita
 
 Notið tilföng í eftirfarandi töflu til að fá stuðning. Þessum úrræðum er raðað á listann í þeirri röð sem ráðlagt er nota þau í, þegar þú ert í úrræðaleit.
 
@@ -72,12 +72,12 @@ Athugið: Microsoft Premier viðskiptavinir og félagar geta líka sent inn Prem
 <td>Ef þú ert í vandræðum með að senda inn beiðni til Microsoft úr reitnum <strong>Stuðningur</strong> í LCS, sjá <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">Hafa samband við stuðning Microsoft Business Solutions</span></a> fyrir upplýsingar um að hvernig skuli hafa samband við svæðisbundna aðgerðarmiðstöð Microsoft Dynamics. Þjónustuverið getur hjálpað þér að leysa úr eftirfarandi tæknivandamálum:
 <ul>
 <li>Villur sem koma fram þegar þú notar LCS eða vandamál sem koma fram þegar þú reynir að komast inn í LCS.</li>
-<li>Villur sem koma fram þegar þú notar forrit Finance and Operations.</li>
+<li>Villur sem koma upp þegar þú notar forrit Finance and Operations.</li>
 </ul>
 Fyrir tæknilegar spurningar sem tengjast innskráningu og aðgangi að CustomerSource, netnámi, leit, þekkingargrunni, niðurhali skráa, og villum á síðu eða í kerfi, skal fara í <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">Stuðningur fyrir vefsvæði</span></a>.</td>
 </tr>
 <tr class="odd">
-<td>Fá hjálp varðandi spurningar um forrit Finance and Operations leyfisveiting.</td>
+<td>Fáðu hjálp varðandi spurningar um leyfisveitingu forrita Finance and Operations.</td>
 <td>Hafðu samband við samstarfsaðila, stærri endursöluaðila (LAR) eða Microsoft sölufulltrúa.</td>
 </tr>
 <tr class="even">
@@ -90,6 +90,6 @@ Fyrir tæknilegar spurningar sem tengjast innskráningu og aðgangi að Customer
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 - [Fá aðstoð fyrir Dynamics 365 Retail](../../../retail/retail-support.md)
-- [Fá aðstoð fyrir Microsoft Dynamics 365 Talent](../../../talent/talent-support.md)
+- [Fá aðstoð fyrir Microsoft Dynamics 365 Human Resources](../../../human-resources/hr-admin-troubleshooting-support.md)
 - Nánari upplýsingar um Microsoft Dynamics aðstoð í boði er að finna í [Stjórna aðstoð í boði fyrir forrit Finance and Operations](cloud-powered-support-lcs.md).
 

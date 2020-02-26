@@ -3,7 +3,7 @@ title: Birgðalæsing
 description: Þetta efni veitir yfirlit yfir birgðalæsingu, sem er partur af gæðaskoðunarferli í Supply Chain Management. Hægt er að nota birgðalæsingu til að koma í veg fyrir að vörur séu unnar eða notaðar.
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41fbe6e2034c0e58fc03d1dfbbd87844f3a4466
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: e1a870936619d07db01d5a8fe83b3fab73693187
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814376"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971488"
 ---
-# <a name="inventory-blocking"></a>Stöðvun í birgðum
+# <a name="inventory-blocking"></a>Birgðalæsing
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir yfirlit yfir birgðalæsingu, sem er partur af gæðaskoðunarferli í Supply Chain Management. Hægt er að nota birgðalæsingu til að koma í veg fyrir að vörur séu unnar eða notaðar.
+Þetta efni veitir yfirlit yfir birgðalæsingu, sem er partur af gæðaskoðunarferli í Supply Chain Management. Hægt er að nota birgðalæsingu til að koma í veg fyrir að vörur séu unnar eða notaðar.
 
 Hægt er að loka vörubirgðum á eftirfarandi vegu.
 -   Handvirkt
@@ -43,6 +43,9 @@ Hægt er að loka á magn af vöru með því að stofna færslu í síðunni **
 
 ## <a name="blocking-items-by-creating-a-quality-order"></a>Læsa vörum með því að stofna gæðapöntun
 Hægt er að tilgreina vörurnar sem verða skoðaðar með því að stofna gæðapöntun á í **gæðapantanir** síðu. Þegar gæðapöntun er stofnuð er magn vöru sem tilgreint er lokað. Þegar gæðapöntun er mynduð sjálfkrafa er úrtaksáætlun vörunnar sem er tengd við gæðapöntunina stjórnar aðeins magni vara sem verður að skoða, ekki magni sem eru læst. magn vöru sem er færð inn á gæðapöntunina er magnið sem er lokað Óháð því magni sem er sent til skoðunar, eins og tilgreint er af úrtaksáætlun
+
+> [!NOTE]
+> Að nota bæði fyrningardagsetningu lotunnar og loka fyrir birgðastöðuaðgerðir er ekki studdur af aðalskipulagningu. Þetta gæti leitt til tvöfalds útilokunar á lagerbirgðum sem getur komið fram við skipulagningu meistarans. Við mælum með því að þú reiðir þig á kóðana á lotunotkun, í stað birgðastöðu, til að loka fyrir útrunnið lotur.
 
 ## <a name="blocking-items-by-using-a-process-that-generates-a-quality-order"></a>Læsa vörum með ferli sem myndar gæðapöntun
 Ef gæðaferli tilgreinir að vara verður að vera skoðuð, er magn af vörunni læst sjálfkrafa. Þessvegna, Þegar gæðapöntun er mynduð sjálfkrafa er úrtaksáætlun vörunnar sem er tengd við gæðapöntunina stjórnar bæði magni vara sem eru útilokaðar og magni vara sem verður að skoða. Ef valkosturinn **full læsing** í **vöruúrtak** síðu er valinn er lokað fyrir fullt magn af til dæmis innkaupapöntunarlína við skoðun, óháð magni vörusýnishorns.

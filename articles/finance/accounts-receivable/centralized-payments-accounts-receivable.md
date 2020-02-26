@@ -3,7 +3,7 @@ title: Miðstýrðar greiðslur fyrir viðskiptakröfur
 description: Fyrirtæki sem innihalda marga lögaðila geta stofnað og stjórnað greiðslum með því að nota einn lögaðila sem sér um allar greiðslur. Þess vegna þarf ekki að færa inn sömu færslu í marga lögaðila. Þessi skrá gefur dæmi sem sýna hvernig bókanir fyrir miðstýrðar greiðslur eru meðhöndlaðar í mismunandi aðstæðum.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 02/13/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59942fadb0fb702c59c95f75359f1a3036e4668f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78c72bb9632d3501638d528822a3c30b05686796
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178339"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000094"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Miðstýrðar greiðslur fyrir viðskiptakröfur
 
@@ -88,8 +88,8 @@ Fabrikam tekur á móti greiðslu að upphæð 580.00 fyrir Fabrikam viðskiptav
 
 | Lykill                             | Debetupphæð | Kreditupphæð |
 |-------------------------------------|--------------|---------------|
-| Viðskiptavinir (Fabrikam East) | 600,00       |               |
-| Sala (Fabrikam East)               |              | 600,00        |
+| Viðskiptavinir (Fabrikam East) | 580.00       |               |
+| Sala (Fabrikam East)               |              | 580.00        |
 
 ### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a>Greiðsla er móttekin og bókuð í Fabrikam fyrir Fabrikam viðskiptavin 4000
 

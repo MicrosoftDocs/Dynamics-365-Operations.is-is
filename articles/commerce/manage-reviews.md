@@ -3,7 +3,7 @@ title: Stjórna einkunnum og umsögnum
 description: Þetta efni útskýrir hvernig á að stjórna einkunnagjöf og umsögnum með því að nota Microsoft Dynamics 365 Commerce einkunnir og umsagnir stjórnunar tól.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,15 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e9becdce5ae36ac637043b9d0febfbbff2392aa9
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: a7fa2ae3124a0a68b3890987c5dce2730e5c2183
+ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698027"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027243"
 ---
 # <a name="manage-ratings-and-reviews"></a>Stjórna einkunnum og umsögnum
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Þetta efni útskýrir hvernig á að stjórna einkunnagjöf og umsögnum með því að nota Microsoft Dynamics 365 Commerce einkunnir og umsagnir stjórnunar tól.
@@ -39,6 +38,16 @@ Dynamics 365 Commerce notar Microsoft Azure Cognitive Services til að miðla sj
 - Breyta umsögnum með því að svara þeim eða fjarlægja þær.
 - Eyða umsögnum viðskiptavinarins að beiðni viðskiptavinarins.
 - Flyttu inn einkunnir og umsagnir fyrir allar vörur í Microsoft Power BI-sniðmáti, svo að hægt sé að greina þróun á einkunnum og umsögnum.
+
+## <a name="access-ratings-and-reviews-moderation-features"></a>Fara í eiginleika einkunnagjafar og stjórnunar
+
+Fylgdu þessum skrefum til að fá aðgang að einkunnagjöf og yfirfara stjórnunaraðgerðir í stjórnunartólinu fyrir rafræn viðskipti.
+
+1. Skráðu þig inn í [Microsoft Lifecycle Services (LCS)](https://lcs.dynamics.com).
+1. Opnaðu verkefnið sem inniheldur umhverfið þar sem þú vilt frumstilla rafræn viðskipti.
+1. Í hlutanum **Umhverfi**, veldu umhverfið.
+1. Undir **Eiginleikar umhverfis** velurðu **Stjórna Retail**.
+1. Á **rafræn viðskipti** flipinn undir **Krækjur**, veldu **tól til að stjórna netverslun**.
 
 ## <a name="read-a-review"></a>Lesa umsögn 
 

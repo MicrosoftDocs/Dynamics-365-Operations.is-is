@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1a357c4623f4f9dc441fe328ec0d5481c14ae4af
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771634"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025855"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Bæta greiningu við vinnusvæði með Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Þessi eiginleiki er studdur í Finance and Operations (útgáfu 7.2 og seinni).
+> Þessi eiginleiki er studdur í Finance and Operations (útgáfa 7.2 og síðar).
 
 ## <a name="introduction"></a>Inngangur
 Þetta efnisatriði sýnir hvernig á að fella inn Microsoft Power BI skýrslu í flipanum **Greiningar** á vinnusvæði. Í dæminu sem er gefið hér stækkum við vinnusvæðið **Stjórnun bókana** í forritinu Bílaflotastjórnun til að fella inn greiningarvinnusvæði á **Greiningarflipa**.
@@ -111,7 +111,7 @@ Fylgdu eftirfarandi skrefum til að bæta við viðskiptagrunni sem virkjar ský
 2. Ýttu á F7 til að opna kóðann á bak við kóðaskilgreininguna.
 3. Bættu við eftirfarandi X++ kóða.
 
-    ```
+    ```xpp
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
@@ -156,7 +156,7 @@ Nú hefurðu lokið því verki að bæta við viðskiptagrunni til að virkja i
 Þessi kafli veitir upplýsingar um hjálparklasann sem er notaður til að fella inn Power BI skýrslu (.pbix-tilfang) í stýringu skjámyndarflokks.
 
 #### <a name="syntax"></a>Málskipun
-```
+```xpp
 public static void initializeReportControl(
     str                 _resourceName,
     FormGroupControl    _formGroupControl,

@@ -3,7 +3,7 @@ title: Bæta við lógói
 description: Þetta efni lýsir því hvernig á að bæta merki við á vefsvæði í Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 12/12/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,16 +19,16 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 23bac9aae6beb59912bbc9e1f2c6958c007550b0
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 5fc0673dcdcc8b761089be2c2d201c8488128865
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914623"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025703"
 ---
 # <a name="add-a-logo"></a>Bæta við lógói
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Þetta efni lýsir því hvernig á að bæta merki við á vefsvæði í Microsoft Dynamics 365 Commerce.
@@ -43,7 +43,7 @@ ms.locfileid: "2914623"
 
 Það verður að ljúka þessum verkefnum áður en þú getur bætt merki við allar síður vefsvæðisins.
 
-1. Flyttu merkið þitt upp á stafræna eignastjórann sem þú getur fengið aðgang að af síðunni **Eignir**.
+1. Hladdu upp lógóinu þínu í fjölmiðlasafnið.
 1. Stofna hausbrot. Fyrir frekari upplýsingar um hvernig á að búa til og nota brot, sjá [Unnið með brot](work-with-fragments.md).
 1. Láttu hausbrotið fylgja með í sniðmátinu sem vefsíður þínar nota fyrir skipulags- og einingavalkosti. Nánari upplýsingar um sniðmát er að finna í [Unnið með sniðmát](work-with-templates.md).
 
@@ -51,13 +51,11 @@ ms.locfileid: "2914623"
 
 Fylgdu þessum skrefum til að bæta við merki við hausbrotið fyrir vefsvæðið.
 
-1. Í yfirlitssvæðinu til vinstri velurðu **Brot** og velur síðan hausbrotið sem var stofnað.
-2. Velja **Skrá út**.
-3. Stækkaðu hólfið **Haus** og hólfið **Merki**.
-4. Veldu úrfellingarhnappinn (**...**) fyrir hólfið **Merki** og veldu síðan **Bæta við einingu**.
-5. Veldu merkiseininguna.
-6. Í eiginleikaglugganum til hægri stillirðu merkjaeininguna þannig að hún sýni merkið þitt.
-7. Vistaðu fyrirsagnarbrotið, skráðu það inn og gefðu það út.
+1. Í stýriglugganum vinstra megin velurðu **Síðubrot**.
+1. Veldu hausbrotið sem þú bjóst til og veldu síðan **Breyta**.
+1. Stækkaðu hausseininguna.
+1. Settu upp mynd og tengil fyrir lógóið í eiginleikaglugganum fyrir hausseininguna. 
+1. Vistaðu hausbrotið, ljúktu við að breyta því og birtu það.
 
 Eftir að þú hefur birt uppfært hausbrot birta allar vefsíðurnar sem nota sniðmátið sem inniheldur hausbrotið merkið þitt.
 

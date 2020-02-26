@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 94c782bf4fc28f2d2f34a101c3c96467ce0766f7
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 9ab26ba80ea53b4138c3aaa60f93815af64987d7
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897811"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005964"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-20-2019"></a>Nýjungar eða breytingar í Dynamics 365 Talent (20. ágúst 2019)
 
@@ -67,6 +67,6 @@ Ný valkostur mun gera stjórnendum kleift að skoða árangur af bæði beinum 
 
 ### <a name="coming-soon"></a>Væntanlegt
 
-#### <a name="platform-update-29-for-finance-and-operations"></a>Verkvangsuppfærsla 29 fyrir Finance and Operations
+#### <a name="platform-update-29-for-finance-and-operations"></a>Uppfærsla 29 fyrir verkvang fyrir Finance and Operations
 
-Frekari upplýsingar um verkvangsuppfærslu 29 fyrir Finance and Operations er að finna í [Forskoðun á eiginleikum í Dynamics 365 Finance and Operations verkvangsuppfærslu 29 í (október 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Frekari upplýsingar um verkvangsuppfærslu 29 fyrir Finance and Operations er að finna í [Forskoðun á eiginleikum í Dynamics 365 Finance and Operations verkvangsuppfærslu 29 (október 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).

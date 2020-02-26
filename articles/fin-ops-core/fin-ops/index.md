@@ -1,6 +1,6 @@
 ---
-title: Fylgiskjöl fyrir forritið Finance and Operations
-description: Fylgiskjöl fyrir forrit Finance and Operations.
+title: Finance and Operations fylgiskjöl hugbúnaðar
+description: Fylgiskjöl fyrir Finance and Operations forrit.
 author: robinarh
 manager: AnnBe
 ms.date: 07/25/2019
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89139c149146b64125370c3840f8d3011b92e067
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4249f2ec09e6742c843122c189cc7db7f72d1146
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770920"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005541"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Fylgiskjöl fyrir forritið Finance and Operations
+# <a name="finance-and-operations-application-documentation"></a>Finance and Operations fylgiskjöl hugbúnaðar
 
 [!include [banner](includes/banner.md)]
 
 Lærðu að nýta forrit Finance and Operations í þágu fyrirtækisins. Í þessum tilföngum er að finna frábært efni fyrir notendur, þróunaraðila og fagfólk á sviði upplýsingatækni. 
 
-Mikið af þessu efni á einnig við um tengdar vörur: Dynamics 365 Retail og Talent. 
+Mikið af þessu efni á einnig við um tengdar vörur: Dynamics 365 Commerce og Dynamics 365 Human Resources. 
 
 <table>
 <colgroup>
@@ -44,7 +44,7 @@ Mikið af þessu efni á einnig við um tengdar vörur: Dynamics 365 Retail og T
 <h3><a href="get-started/before-you-buy.md">Áður en þú kaupir</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Skráðu þig fyrir prufuáskrift</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Veldu innleiðingarvalkost</a></p>
- <p><a href="get-started/purchase-on-premises.md">Kaupa Finance and Operations (on-premises)</a></p>
+ <p><a href="get-started/purchase-on-premises.md">Kaupa Finance and Operations (á staðnum)</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Innleiðingarferli</a></h3>
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
@@ -84,9 +84,9 @@ Mikið af þessu efni á einnig við um tengdar vörur: Dynamics 365 Retail og T
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Svæðisbundnir eftirlitseiginleikar</a></p>
 
 <h3><a href="hr/hr-landing-page.md">Mannauður</a></h3>
-<p><a href="../../talent/manage-benefit-program.md">Fríðindi</a></p>
-<p><a href="../../talent/performance-management-overview.md">Þróun og þjálfun starfsmanns</a></p>
-<p><a href="../../talent/questionnaires.md">Spurningalisti</a></p>
+<p><a href="../../human-resources/hr-benefits-manage-program.md">Fríðindi</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Þróun og þjálfun starfsmanns</a></p>
+<p><a href="../../human-resources/hr-learning-questionnaires.md">Spurningalistar</a></p>
 <p><a href="hr/manage-recruiting-process.md">Ráðningar</a></p>
 <p><a href="hr/localizations/noam-usa-payroll.md">Bandarísk laun</a></p>
 
@@ -129,16 +129,17 @@ Mikið af þessu efni á einnig við um tengdar vörur: Dynamics 365 Retail og T
 </td>
 <td>
 <h3>Tengdar afurðir</h3>
-<h4><a href="../../retail/index.md">Dynamics 365 Retail</a></h4>
+<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
 <p><a href="../../retail/call-center-functionality.md">Símaver</p>
 <p><a href="../../retail/define-maintain-retail-channels.md">Uppsetning og stjórnun rásar</p>
 <p><a href="../../retail/retail-peripherals-overview.md">MPOS og sölukerfi í skýinu</p>
-<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Retail-hönnuður og stjórnun</p>
+<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Þróunaraðili viðskipta og stjórnun</p>
 
-<h4><a href="../../talent/index.yml">Dynamics 365 Talent</a></h4>
-<p><a href="../../talent/manage-benefit-program.md">Fríðindi</a></p>
-<p><a href="../../talent/performance-management-overview.md">Þróun og þjálfun starfsmanns</a></p>
-<p><a href="../../talent/questionnaires.md">Spurningalisti</a></p>
+<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
+<p><a href="../../human-resources/hr-admin-overview.md">Leiðbeiningar stjórnanda</a></p>
+<p><a href="../../human-resources/hr-developer-overview.md">Leiðbeiningar þróunaraðila</a></p>
+<p><a href="../../human-resources/hr-hrpro-overview.md">Notkunarleiðbeiningar</a></p>
+
 
 </td>
 </tr>

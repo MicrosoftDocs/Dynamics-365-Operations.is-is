@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: ff9cfdff410001f08f920e3c05df6bc4ab1b77fd
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c3a2881ede53e4adfba775b9bb23071468c8f602
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024250"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006518"
 ---
 # <a name="get-started-with-talent"></a>Hafist handa með Talent
 
@@ -31,7 +31,7 @@ ms.locfileid: "2024250"
 Í Microsoft Dynamics 365 Talent er auðvelt að breyta notendaviðmótinu og stilla valkosti sem gera hugbúnaðinn næmari fyrir þörfum þínum. Þetta efnisatriði inniheldur tengla á efnisatriði sem veita upplýsingar um hvernig á að laga notendaviðmótið að óskir þínar. Þetta efnisatriði inniheldur einnig tengla á upplýsingar sem aðstoða þig við að finna upplýsingar í kerfinu á skilvirkan og nákvæman hátt. 
 
 > [!NOTE] 
-> Eftirfarandi vörur eru nátengdar: Dynamics 365 Finance; Dynamics 365 Retail; og Dynamics 365 Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þar af leiðandi verður vöruheiti í efnisatriðum sem helst tengjast Retail, Dynamics 365 Retail; í efnisatriðum sem tengjast fyrst og fremst Talent verður vöruheitið Dynamics 365 Talent; og í efnisatriðum sem tengjast undirstöðuvöru verður vöruheitið Dynamics 365 Finance. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
+> Eftirfarandi vörur eru nátengdar: Dynamics 365 Finance; Dynamics 365 Commerce; og Dynamics 365 Talent. Sama virkni kann að koma fyrir í öllum þremur vörunum. Þar af leiðandi verður vöruheiti í efnisatriðum sem helst tengjast Commerce, Dynamics 365 Commerce; í efnisatriðum sem tengjast fyrst og fremst Talent verður vöruheitið Dynamics 365 Talent; og í efnisatriðum sem tengjast undirstöðuvöru verður vöruheitið Dynamics 365 Finance. Efnisatriði sem samin eru fyrir eina vöru kunna einnig að gilda um sömu virkni í tengdri vöru.
 
 ## <a name="personalizing-talent"></a>Sérsníða Talent 
 Eftirfarandi efnisatriði sýna hvernig á að setja upp marga eiginleika í Talent sem auðvelda þér að klára vinnuna tímanlega. 

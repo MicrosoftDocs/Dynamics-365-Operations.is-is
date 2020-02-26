@@ -58,22 +58,24 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Grunnstilla vöruhús fyrir uppsetningu á staðnum
                   href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
-                - name: Forrit fyrir Finance and Operations rekin af 21Vianet í Kína
+                - name: Finance and Operations-forrit rekin af 21Vianet í Kína
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/finance/toc.json
-                - name: Forrit fyrir Finance and Operations í Frakklandi
+                - name: Finance and Operations forrit í Frakklandi
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/finance/toc.json
             - name: Nýjungar eða breytingar
               items:
-                - name: 'Finance, útgáfa 10.0.7 (janúar 2020)'
-                  href: get-started/whats-new-changed-10-0-7.md
-                - name: 'Finance, útgáfa 10.0.6 (nóvember 2019)'
-                  href: get-started/whats-new-finance-10-0-6.md
-                - name: Nýjungar eða breytingar í fyrri útgáfum
+                - name: Nýjungar eða breytingar í Finance and Operations-forritum
+                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
+                - name: Nýjungar eða breytingar í Finance
                   items:
-                    - name: Nýjungar eða breytingar á heimasíðu Finance and Operations
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Finance and Operations, Enterprise Edition 7.3'
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/finance/toc.json
+                    - name: Nýjungar eða breytingar á heimasíðu Finance
+                      href: get-started/whats-new-home-page.md
+                    - name: 'Finance, útgáfa 10.0.9 (apríl 2020)'
+                      href: get-started/whats-new-changed-10-0-9.md
+                    - name: 'Finance, útgáfa 10.0.8 (febrúar 2020)'
+                      href: get-started/whats-new-changed-10-0-8.md
+                    - name: 'Finance, útgáfa 10.0.7 (janúar 2020)'
+                      href: get-started/whats-new-changed-10-0-7.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
                 - name: AX 2012 eiginleikar sem var frestað
@@ -164,7 +166,7 @@
               items:
                 - name: Heimasíða stjórnunar innleiðingarferlis
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/finance/toc.json
-                - name: Hönnun fyrir forrit Finance and Operations
+                - name: Hönnun fyrir Finance and Operations -forrit
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Microsoft FastTrack
                   href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/finance/toc.json
@@ -204,6 +206,8 @@
                   href: accounts-payable/tasks/key-invoice-data-into-ap-system-approval-journal.md
                 - name: Færa reikningsgögn inn í viðskiptaskuldakerfi með reikningasafni
                   href: accounts-payable/tasks/key-invoice-data-into-ap-system-invoice-pool.md
+                - name: Afrita lánardrottna með því að nota samnýttar númeraraðir
+                  href: accounts-payable/vendor-copy.md
                 - name: Skrá reikning lánardrottins í reikningabók
                   href: accounts-payable/tasks/record-vendor-invoice-invoice-journal.md
             - name: Endurskoða reikninga og lykilgögn í viðskiptaskuldum
@@ -264,7 +268,7 @@
                   href: cash-bank-management/tasks/vendor-payment-overview.md
                 - name: Vinnusvæði fyrir greiðslur lánardrottna
                   href: accounts-payable/vendor-payments-workspace.md
-                - name: Tilgreina meðalgengi
+                - name: Tilgreina meðalgengið
                   href: accounts-payable/specify-cross-rate.md
                 - name: Skilgreina greiðsluþóknanir lánardrottna
                   href: accounts-payable/tasks/define-vendor-payment-fees.md
@@ -274,7 +278,7 @@
                   href: accounts-payable/create-vendor-payments-payment-proposal.md
                 - name: Bakfærsla greiðslu lánardrottins
                   href: accounts-payable/reverse-vendor-payment.md
-                - name: Rafræn skýrslugerð fyrir ávísanir lánardrottins
+                - name: Sýnishorn af ávísunum lánardrottins í rafrænni skýrslugerð
                   href: accounts-payable/electronic-reporting-sample-vendor-checks.md
                 - name: Yfirlit yfir fyrirframgreiðslureikninga og fyrirframgreiðslur
                   href: accounts-payable/prepayments-invoices-vs-prepayments.md
@@ -300,6 +304,18 @@
           items:
             - name: Viðskiptakröfur – heimasíða
               href: accounts-receivable/accounts-receivable.md
+            - name: Setja greiðsluskilmála fyrir viðskiptavin
+              href: general-ledger/tasks/establish-customer-payment-terms.md
+            - name: Setja upp greiðslumáta fyrir viðskiptavin
+              href: accounts-receivable/tasks/establish-customer-method-payment.md
+            - name: Setja upp greiðsluþóknanir viðskiptavina
+              href: accounts-receivable/tasks/establish-customer-payment-fees.md
+            - name: Bókunarreglur viðskiptavina
+              href: accounts-receivable/customer-posting-profiles.md
+            - name: Afrita viðskiptavini með því að nota samnýttar númeraraðir
+              href: accounts-receivable/copy-customer.md
+            - name: Verkflæði viðskiptavinar
+              href: accounts-receivable/customer-workflow.md
             - name: Skuldir og innheimta í viðskiptakröfum
               href: accounts-receivable/collections-credit-accounts-receivable.md
             - name: Skilgreining viðskiptakrafna og skulda og innheimtu
@@ -322,68 +338,54 @@
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: Bókunarreglur viðskiptavina
               href: accounts-receivable/customer-posting-profiles.md
-            - name: Yfirlit yfir SEPA-umboð fyrir beint debet
+            - name: Yfirlit yfir SEPA-beingreiðslu
               href: accounts-receivable/sepa-direct-debit-overview.md
-            - name: SEPA-umboð fyrir beint debet
+            - name: Setja upp tilskipun fyrir SEPA-umboð fyrir beint debet
               href: accounts-receivable/sepa-direct-debit-mandate.md
             - name: 'Uppsetning kreditkorts, heimild og úthlutun'
               href: accounts-receivable/credit-card-authorizations.md
             - name: Stofna reikning með frjálsum texta
               href: accounts-receivable/create-free-text-invoice-new.md
+            - name: Dreifing á fjárhagsupphæð og færslur í færslubók undirfjárhags fyrir reikninga með frjálsum texta
+              href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: Stofna sniðmát fyrir reikning með frjálsum texta
               href: accounts-receivable/create-free-text-invoice-template-new.md
             - name: Leiðrétting reikninga með frjálsum texta
               href: accounts-receivable/correct-free-text-invoice.md
             - name: Úthluta sniðmáti reiknings með frjálsum texta á viðskiptavin
               href: accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
+            - name: Uppsetning og vinnsla endurtekinna reikninga
+              href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: Mynda og bóka endurtekna reikninga með frjálsum texta
               href: accounts-receivable/tasks/post-recurring-free-text-invoices.md
             - name: Stofna sölupantanareikninga
               href: accounts-receivable/tasks/create-sales-order-invoices.md
-            - name: Uppsetning vaxta fyrir vaxtakóða
-              href: accounts-receivable/set-up-interest-rates-interest-code.md
-            - name: 'Niðurfelling, endurskipun eða bakfærsla vaxta eða gjalda'
-              href: accounts-receivable/waive-reinstate-reverse-interest-fees.md
-            - name: Reikna vexti
-              href: accounts-receivable/tasks/process-interest.md
             - name: Stofnun reiknings viðskiptavinar
               href: accounts-receivable/configure-customer-invoices.md
-            - name: Leggja inn greiðslur viðskiptavina
-              href: accounts-receivable/tasks/deposit-customer-payments.md
-            - name: Setja greiðsluskilmála fyrir viðskiptavin
-              href: general-ledger/tasks/establish-customer-payment-terms.md
-            - name: Setja upp greiðslumáta fyrir viðskiptavin
-              href: accounts-receivable/tasks/establish-customer-method-payment.md
-            - name: Setja upp greiðsluþóknanir viðskiptavina
-              href: accounts-receivable/tasks/establish-customer-payment-fees.md
+            - name: Listasíða með færslum viðskiptavinar
+              href: accounts-receivable/customer-transactions-list-page.md
             - name: Uppsetning víxils
               href: accounts-receivable/set-up-bills-exchange.md
             - name: Viðskiptakröfum lokað
               href: accounts-receivable/close-accounts-receivable.md
-            - name: Stofna innheimtubréfaröð
-              href: accounts-receivable/tasks/create-collection-letter-sequence.md
-            - name: Vinna úr innheimtubréfum
-              href: accounts-receivable/tasks/process-collection-letters.md
-            - name: Stofna beingreiðsluumboð fyrir viðskiptavin
-              href: accounts-receivable/tasks/create-direct-debit-mandate-customer.md
-            - name: Stofna vaxtakóða með sviði
-              href: accounts-receivable/tasks/create-interest-code-range.md
-            - name: Stofna afskriftabók fyrir viðskiptavin
-              href: accounts-receivable/tasks/create-write-off-journal-customer.md
-            - name: Setja upp og mynda aldursgreiningarupplýsingar fyrir viðskiptakröfur
-              href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
-            - name: Afrita viðskiptavini með því að nota samnýttar númeraraðir
-              href: accounts-receivable/copy-customer.md
-            - name: Verkflæði viðskiptavinar
-              href: accounts-receivable/customer-workflow.md
             - name: Greiðslur og uppgjör
               items:
+                - name: Yfirlit tekjuskráningar
+                  href: accounts-receivable/revenue-recognition-overview.md
                 - name: Greiðsluyfirlit viðskiptavina
                   href: cash-bank-management/tasks/customer-payment-overview.md
-                - name: Greiðsla viðskiptavinar notuð til að gera upp marga reikninga sem ná yfir mörg afsláttartímabil
-                  href: accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md
                 - name: Miðstýrðar greiðslur fyrir viðskiptakröfur
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
+                - name: Leggja inn greiðslur viðskiptavina
+                  href: accounts-receivable/tasks/deposit-customer-payments.md
+                - name: Yfirlit yfir SEPA-beingreiðslu
+                  href: accounts-receivable/sepa-direct-debit-overview.md
+                - name: SEPA-umboð fyrir beint debet
+                  href: accounts-receivable/sepa-direct-debit-mandate.md
+                - name: Stofna beingreiðsluumboð fyrir viðskiptavin
+                  href: accounts-receivable/tasks/create-direct-debit-mandate-customer.md
+                - name: Greiðsla viðskiptavinar notuð til að gera upp marga reikninga sem ná yfir mörg afsláttartímabil
+                  href: accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md
                 - name: Uppgjör hlutagreiðslu viðskiptavinar eða lokagreiðslu fyrir afslátt
                   href: accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md
                 - name: Uppgjör hlutagreiðslu viðskiptavinar fyrir afsláttardagsetninguna með lokagreiðslu eftir afsláttardagsetninguna
@@ -396,8 +398,48 @@
                   href: accounts-receivable/reimburse-customers.md
                 - name: Greiðslur viðskiptavinar fyrir hlutaupphæð
                   href: accounts-receivable/customer-payments-partial-amount.md
-                - name: Listasíða með færslum viðskiptavinar
-                  href: accounts-receivable/customer-transactions-list-page.md
+            - name: Skuldir og innheimta
+              items:
+                - name: Yfirlit skulda og innheimtu
+                  href: accounts-receivable/cm-credit-and-collections-overview.md
+                - name: Uppsetning á lánastýringu
+                  href: accounts-receivable/cm-credit-mgmt-setup.md
+                - name: Upplýsingar um uppsetningu lánastýringar
+                  href: accounts-receivable/cm-setup-information.md
+                - name: Bæta við upplýsingum um lánastýringu fyrir viðskiptavin
+                  href: accounts-receivable/cm-add-credit-mgmt-information-customer.md
+                - name: Lánaflokkar viðskiptavina
+                  href: accounts-receivable/cm-customer-credit-groups.md
+                - name: Leiðréttingar á lánamörkum
+                  href: accounts-receivable/cm-credit-limit-adjustments.md
+                - name: Lán í biðstöðu fyrir sölupantanir
+                  href: accounts-receivable/cm-sales-order-credit-holds.md
+                - name: Reglubundin verk lánastýringar
+                  href: accounts-receivable/cm-periodic-tasks.md
+                - name: Lykilhugtök innheimtustýringar
+                  href: accounts-receivable/cm-collections-concepts.md
+                - name: Skilgreining viðskiptakrafna og skulda og innheimtu
+                  href: accounts-receivable/accounts-receivables-set-up-overview.md
+                - name: Uppsetning skulda og innheimtu
+                  href: accounts-receivable/set-up-collections.md
+            - name: Uppsetning vaxta fyrir vaxtakóða
+              href: accounts-receivable/set-up-interest-rates-interest-code.md
+            - name: Stofna vaxtakóða með sviði
+              href: accounts-receivable/tasks/create-interest-code-range.md
+            - name: 'Niðurfelling, endurskipun eða bakfærsla vaxta eða gjalda'
+              href: accounts-receivable/waive-reinstate-reverse-interest-fees.md
+            - name: Reikna vexti
+              href: accounts-receivable/tasks/process-interest.md
+            - name: Fara yfir innheimtuupplýsingar
+              href: accounts-receivable/tasks/review-collections-information.md
+            - name: Stofna innheimtubréfaröð
+              href: accounts-receivable/tasks/create-collection-letter-sequence.md
+            - name: Vinna úr innheimtubréfum
+              href: accounts-receivable/tasks/process-collection-letters.md
+            - name: Setja upp og mynda aldursgreiningarupplýsingar fyrir viðskiptakröfur
+              href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Stofna afskriftabók fyrir viðskiptavin
+              href: accounts-receivable/tasks/create-write-off-journal-customer.md
         - name: Fjárhagsáætlanir
           items:
             - name: Fjárhagsáætlun – heimasíða
@@ -416,6 +458,8 @@
               href: budgeting/create-budget-transaction-accounts-total-accounts.md
             - name: Sniðmát fjárhagsáætlunargerðar fyrir Excel
               href: budgeting/budget-planning-excel-templates.md
+            - name: Stækka útlit fjárhagsáætlunargerðar
+              href: budgeting/extending-budget-planning-layout.md
             - name: Stöðuúrræðaleit fjárhagsáætlunar
               href: budgeting/position-budgeting-set-up-issues.md
             - name: Fjárhagsáætlunargerð
@@ -452,7 +496,7 @@
               href: cash-bank-management/tasks/set-up-bank-facilities-posting-profiles-letter-credit.md
             - name: Bankaábyrgðir og innflutningssöfn
               href: cash-bank-management/letters-of-credit-import-collections.md
-            - name: Flytja út bankaábyrgð
+            - name: Flytja út kreditbréf
               href: cash-bank-management/tasks/export-letter-credit.md
             - name: Flytja inn bankaábyrgð
               href: cash-bank-management/tasks/import-letter-credit.md
@@ -486,11 +530,11 @@
               href: cash-bank-management/set-up-centralized-payments.md
             - name: Sjálfvirkt uppgjör og forgangsröðun
               href: accounts-receivable/automatic-settlement-prioritization.md
-            - name: Einföld bankaafstemming
+            - name: Afstemma bankareikning
               href: cash-bank-management/reconcile-bank-account.md
             - name: Ítarleg bankaafstemming
               items:
-                - name: Uppsetning ítarlegra bankaafstemmingarverka
+                - name: Uppsetningarferli ítarlegrar bankaafstemmingar
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
                 - name: Uppsetning innflutningsferlis ítarlegrar bankaafstemmingar
                   href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
@@ -562,7 +606,7 @@
               href: cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
             - name: Stofna reglu fyrir samantekt kostnaðar
               href: cost-accounting/tasks/create-cost-rollup-policy.md
-            - name: Stjórna gagnaveitu fyrir fjárhag kostnaðarbókhalds
+            - name: Stjórna gagnagjafa fyrir fjárhag kostnaðarbókhalds
               href: cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
             - name: Vinna úr og rekja upprunagögn
               href: cost-accounting/tasks/process-trace-source-data.md
@@ -598,6 +642,10 @@
               href: expense-management/expense-workflows.md
             - name: Verkflæði kostnaðarstýringar
               href: expense-management/expense-workflow.md
+            - name: Vinna með úthlutun kostnaðar
+              href: expense-management/manage-expense-delegation.md
+            - name: Úrvinnsla kostnaðarkvittunar
+              href: expense-management/expense-receipt-processing.md
             - name: Flytja inn og vinna með kreditkortafærslur
               href: expense-management/import-credit-card.md
             - name: Dreifingar á kostnaðarskýrslu
@@ -790,7 +838,7 @@
                   href: general-ledger/process-allocations.md
                 - name: Fjárhagsvíddir
                   href: general-ledger/financial-dimensions.md
-                - name: Samstæðulykilflokkar og lyklar
+                - name: Hópar samstæðulykla og samstæðulyklar til viðbótar
                   href: budgeting/consolidation-account-groups-consolidation-accounts.md
                 - name: Yfirlit yfir samstæðu og niðurfellingu
                   href: budgeting/consolidation-elimination-overview.md
@@ -830,6 +878,8 @@
                   href: general-ledger/tasks/create-journal-entry-template.md
                 - name: Stofna höfuðbókaruppsöfnunarfærslu
                   href: general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: Flutningur undirbókar í Fjárhag
+                  href: general-ledger/subledger-transfer.md
                 - name: Birting færslubókarlína og skjala úr Excel
                   href: general-ledger/open-lines-excel-journals-documents.md
                 - name: Skoðun færslubókarfærslna
@@ -916,7 +966,7 @@
               href: project-management/tasks/configure-intercompany-project-invoicing.md
             - name: Skilgreina staðalkostnað fyrir útgjöld og laun
               href: project-management/tasks/configure-standard-costs-labor-expenses.md
-            - name: Innkaupakvittanir uppsafnaðs kostnaðar verks
+            - name: Uppsöfnun kostnaðar verks á innkaupakvittunum
               href: accounts-payable/project-cost-accrual-purchase-receipts.md
             - name: Reikningsfærsla verks
               href: accounts-payable/project-invoicing.md
@@ -962,6 +1012,8 @@
               href: public-sector/forecast-positions.md
             - name: Stöðuskýrslur spár í opinbera geiranum
               href: public-sector/forecast-position-reports.md
+            - name: Setja upp og keyra fyrirspurn um reiðufjárstöðu
+              href: public-sector/cash-position-inquiry-setup.md
             - name: Viðskiptaskuldir hjá hinu opinbera
               items:
                 - name: Yfirlit yfir viðskiptaskuldir hjá hinu opinbera
@@ -1068,6 +1120,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: Fjárhagsskýrsluhlutar
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: Gjaldmiðilsgeta í fjárhagsskýrslugerð
+              href: general-ledger/financial-reporting-currency-capability.md
             - name: Fjárhagsskýrslur efnahagsreiknings
               href: general-ledger/balance-sheet-financial-reports.md
             - name: Búa til fjárhagsskýrslur
@@ -1242,6 +1296,8 @@
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
                 - name: SPED-fjárhagur 2020 – viðbótarupplýsingar ICMA-ST fyrir SPED-fjárhagsuppsetningu 014
                   href: localizations/latam-bra-complementary-information-icms-st-sped-fiscal-2020-layout-014.md
+                - name: SPED-fjárhagur – útlit 014
+                  href: localizations/latam-bra-sped-fiscal-layout-014.md
                 - name: Færibreytur fyrir lögaðila
                   href: localizations/latam-bra-legal-entity-parameters.md
                 - name: Setja upp færibreytur lögaðila
@@ -1554,6 +1610,8 @@
                   href: localizations/emea-tax-directives.md
                 - name: Birtingaraðferð upphæða á skýrslum og fylgiskjölum uppfærð
                   href: localizations/emea-amount-printing-forms.md
+                - name: Nota fjárhagsupplýsingar frá reikningslykli
+                  href: localizations/use-fiscal-data-from-invoice-account.md
                 - name: Virðisaukaskattur (VSK)
                   items:
                     - name: Setja upp VSK-númer
@@ -1911,10 +1969,16 @@
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: Umsjón með ítarlegum minnismiðum
                   href: localizations/emea-ita-exil-structured-notes.md
+                - name: Viljayfirlýsingar - reikningsfæra venjulega útflutningsaðila
+                  href: localizations/emea-ita-exil-intent-letter.md
                 - name: Skattareikningur fyrir vörur sem eru afhentar án kostnaðar
                   href: localizations/emea-ita-exil-goods-for-free.md
                 - name: Betrumbætt fyrirspurn um debet-/kredituppgjör
                   href: localizations/emea-ita-exil-improved-inquiry-settlement.md
+                - name: Hermilíkön fjárhagsuppgjörs (Ítalía)
+                  href: localizations/emea-ita-exil-general-ledger-simulations.md
+                - name: Einkvæm vottun
+                  href: localizations/emea-ita-exil-unique-certification.md
             - name: Japan
               items:
                 - name: Yfirlit yfir Japan
@@ -2099,6 +2163,8 @@
                   href: localizations/tasks/lt-00003-fixed-asset-transfer.md
                 - name: VSK-yfirlitsupplýsingar
                   href: localizations/emea-ltu-vat-statement-details.md
+                - name: i.SAF-skýrslugerð fyrir Litháen
+                  href: localizations/emea-ltu-isaf.md
             - name: Malasía
               items:
                 - name: Yfirlit yfir Malasíu
@@ -2231,6 +2297,10 @@
                       href: general-ledger/import-currency-exchange-rates.md
                     - name: Fjárhagsþýðing
                       href: localizations/rus-ledger-translation-procedure.md
+                    - name: Skýrslur veltu- og stöðuyfirlita
+                      href: localizations/rus-turnover-balance-statement-reports.md
+                    - name: Skýrslur um hreyfingar á reikningi
+                      href: localizations/rus-account-activity-reports.md
                 - name: Handhafar fyrirframgreiðslu
                   items:
                     - name: Yfirlit yfir handhafa fyrirframgreiðslu fyrir Rússland
@@ -2339,12 +2409,26 @@
                       href: localizations/rus-miscellaneous-charges.md
                     - name: Gjöld þriðju aðila
                       href: localizations/rus-third-party-misc-charges.md
+                    - name: Samningar
+                      items:
+                        - name: Yfirlit samninga
+                          href: localizations/rus-agreements.md
+                        - name: Setja upp og búa til samninga
+                          href: localizations/rus-set-up-and-create-agreements.md
+                        - name: Skrá færslur með tilvísun í samninga
+                          href: localizations/rus-register-transactions-with-reference-to-agreements.md
+                        - name: Fyrirspurnir og skýrslur með samningum
+                          href: localizations/rus-inquiries-reports-agreements.md
                 - name: Birgðir
                   items:
                     - name: Vörur í flutningi frá lánardrottni
                       href: localizations/rus-goods-transit-vendor.md
                     - name: Tollskýrslunúmer
                       href: localizations/rus-custom-declaration-number.md
+                    - name: Skipulag birgðakostnaðar
+                      href: localizations/rus-inventory-cost-structure.md
+                    - name: Leiðsagnarforrit leiðréttingar á birgðaskrá
+                      href: localizations/rus-inventory-adjustment-wizard.md
                 - name: Skýrslugjöf
                   items:
                     - name: Fjárhagsskýrslugerð
@@ -2359,6 +2443,8 @@
                       href: localizations/rus-transport-tax-declaration.md
                     - name: Lóðarskattsskýrsla
                       href: localizations/rus-land-tax-declaration.md
+                    - name: Skattskýrsla fyrir skatt á hagnað
+                      href: localizations/rus-profit-tax-declaration.md
                 - name: Fyrirtækisstjórnun
                   items:
                     - name: Skattskráningarupplýsingar sem tengjast aðsetri
@@ -2457,6 +2543,10 @@
                   href: localizations/apac-tha-unrealized-vat.md
                 - name: Staðgreiðsluskattur
                   href: localizations/apac-tha-withholding-tax.md
+            - name: Sameinuðu arabísku furstadæmin (UAE)
+              items:
+                - name: Setja upp og tilkynna virðisaukaskatt (VSK)
+                  href: localizations/uae-vat-setup-reporting.md
             - name: Bretland
               items:
                 - name: Yfirlit yfir Bretland
@@ -2471,7 +2561,7 @@
                   href: localizations/tasks/gb-00002-sales-order.md
                 - name: Setja upp VSK-flokka vara fyrir bakfærð gjöld
                   href: localizations/tasks/gb-00002-item-sales-tax-groups-reverse-charge-vat.md
-                - name: 'Seta upp vöruflokka, reglur og færibreytur bakfærðra gjalda'
+                - name: 'Seta upp afurðaflokka, reglur og færibreytur bakfærðra gjalda'
                   href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                 - name: Uppsetning VSK-flokka fyrir bakfærð gjöld
                   href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
@@ -2489,51 +2579,59 @@
           items:
             - name: Mannauðsyfirlit
               href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
-            - name: Þróun mannauðsáætlunar
+            - name: Setja upp Mannauð
               items:
-                - name: Búa til markmið
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-goal.md
-                - name: 'Vinnuafl skipulagt með notkun deilda, starfa og staða'
-                  href: ../talent/departments-jobs-positions.md?toc=/dynamics365/finance/toc.json
-                - name: Uppsetning starfsþátta
-                  href: ../talent/create-job.md?toc=/dynamics365/finance/toc.json
-                - name: Skilgreina nýjar deildir
-                  href: ../fin-ops-core/fin-ops/hr/tasks/define-new-departments.md
-                - name: Skilgreina ný störf
-                  href: ../fin-ops-core/fin-ops/hr/tasks/define-new-jobs.md
-                - name: Stofnun deildar og tenging hennar við deildastigveldið
-                  href: ../talent/create-department-add-department-hierarchy.md?toc=/dynamics365/finance/toc.json
-                - name: Stofna dagatöl og mynda vinnutíma
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-calendar-working-times.md
-                - name: Setja upp mannauðsfæribreytur þvert á lögaðila
-                  href: ../talent/set-up-hr-parameters-across-legal-entities.md?toc=/dynamics365/finance/toc.json
-                - name: Uppsetning sérstakra mannauðsfæribreyta fyrir fyrirtæki
-                  href: ../talent/set-up-company-specific-hr-parameters.md?toc=/dynamics365/finance/toc.json
+                - name: Grunnstilla færibreytur Mannauðs
+                  href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
+                - name: Grunnstilla samnýttar færibreytur Mannauðs
+                  href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
+                - name: Setja upp verkflæði Mannauðs
+                  href: ../human-resources/hr-setup-workflows.md?toc=/dynamics365/finance/toc.json
+                - name: Skilja svæði fyrir dagsetningu og tíma
+                  href: ../human-resources/hr-setup-date-time-fields.md?toc=/dynamics365/finance/toc.json
+            - name: Stjórna starfsfólki
+              items:
+                - name: Skipuleggja starfsfólk
+                  href: ../human-resources/hr-personnel-departments-jobs-positions.md?toc=/dynamics365/finance/toc.json
+                - name: Setja upp íhluti verks
+                  href: ../human-resources/hr-personnel-jobs.md?toc=/dynamics365/finance/toc.json
+                - name: Skilgreina deildir
+                  href: ../human-resources/hr-personnel-define-departments.md?toc=/dynamics365/finance/toc.json
+                - name: Bæta deild við stigveldi
+                  href: ../human-resources/hr-personnel-add-department-hierarchy.md?toc=/dynamics365/finance/toc.json
+                - name: Skilgreina störf
+                  href: ../human-resources/hr-personnel-define-jobs.md?toc=/dynamics365/finance/toc.json
+                - name: Búa til dagatal fyrir vinnutíma
+                  href: ../human-resources/hr-personnel-create-working-time-calendar.md?toc=/dynamics365/finance/toc.json
                 - name: Algengar spurningar um aðgerðir starfsfólks
-                  href: ../talent/personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
+                  href: ../human-resources/hr-personnel-actions-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Nota verkflæði til að haga starfsmannaupplýsingum
-                  href: ../talent/workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
-                - name: Breyta skýrslugjafarvenslum fyrir stöður
-                  href: ../fin-ops-core/fin-ops/hr/tasks/modify-reporting-relationships-position.md
-                - name: Samþykkja innhólfsfærslur forrits
-                  href: ../fin-ops-core/fin-ops/hr/tasks/approve-application-inbox-records.md
+                  href: ../human-resources/hr-workflow-manage-employee-information.md?toc=/dynamics365/finance/toc.json
+                - name: Breyta skýrslugjafarvenslum fyrir stöðu
+                  href: ../human-resources/hr-personnel-modify-reporting-relationships-position.md?toc=/dynamics365/finance/toc.json
                 - name: Færa inn upplýsingar um starfsmann
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-worker-information.md
+                  href: ../human-resources/hr-personnel-enter-worker-information.md?toc=/dynamics365/finance/toc.json
                 - name: Lána starfsfólki vörur
-                  href: ../fin-ops-core/fin-ops/hr/tasks/loan-item-worker.md
+                  href: ../human-resources/hr-personnel-loan-item-worker.md?toc=/dynamics365/finance/toc.json
                 - name: Stofna lánaliði
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-loan-items.md
-                - name: Stjórnun hluta sem starfsfólk fær lánaða
-                  href: ../talent/loan-items.md?toc=/dynamics365/finance/toc.json
+                  href: ../human-resources/hr-personnel-create-loan-items.md?toc=/dynamics365/finance/toc.json
+                - name: Stjórna lánshlutum
+                  href: ../human-resources/hr-personnel-loan-items.md?toc=/dynamics365/finance/toc.json
                 - name: Þróa áætlun um röðun starfsmanna
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-succession-plan.md
+                  href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
                 - name: Færa inn Project Timesheets
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enter-project-timesheets.md
-                - name: Haga sniðmáti fyrir tölvupóst
-                  href: ../fin-ops-core/fin-ops/hr/tasks/manage-email-templates.md
-                - name: Haga fjarvistarleyfi
-                  href: ../fin-ops-core/fin-ops/hr/tasks/manage-leave-absence.md
-            - name: Ráðningar
+                  href: ../human-resources/hr-personnel-enter-project-timesheets.md?toc=/dynamics365/finance/toc.json
+                - name: Fjöldaráðningarverk
+                  href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
+                - name: Stofna fjöldaráðningarverk
+                  href: ../human-resources/hr-personnel-create-mass-hire-project.md?toc=/dynamics365/finance/toc.json
+                - name: Setja upp stöður
+                  href: ../human-resources/hr-personnel-set-up-positions.md?toc=/dynamics365/finance/toc.json
+                - name: Uppsetning upplýsinga um meiðsl og veikindi
+                  href: ../human-resources/hr-personnel-set-up-injury-illness-information.md?toc=/dynamics365/finance/toc.json
+                - name: Vinna með upplýsingar um meiðsl og veikindi starfsmanna
+                  href: ../human-resources/hr-personnel-maintain-employee-injury-illness-information.md?toc=/dynamics365/finance/toc.json
+            - name: Ráða umsækjendur
               items:
                 - name: Stjórna ráðningarferlum
                   href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
@@ -2553,76 +2651,80 @@
                   href: ../fin-ops-core/fin-ops/hr/tasks/hire-existing-employee-through-recruiting.md
                 - name: Auðkenna og beita verkfærum við val á umsækjendum
                   href: ../fin-ops-core/fin-ops/hr/tasks/identify-deploy-candidate-selection-tools.md
-            - name: Virkja starfsmenn
+            - name: Setja upp launafyrirkomulag
               items:
-                - name: Launafyrirkomulag
-                  href: ../talent/compensation-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Launafyrirkomulag fastra launa stofnað
-                  href: ../talent/create-fixed-compensation-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Launafyrirkomulag breytilegra launa
-                  href: ../talent/create-variable-compensation-plans.md?toc=/dynamics365/finance/toc.json
-                - name: Skilgreina launavinnslur og reikna niðurstöður
-                  href: ../fin-ops-core/fin-ops/hr/tasks/define-compensation-process-calculate-results.md
-                - name: Launaútreikningur
-                  href: ../talent/process-compensation.md?toc=/dynamics365/finance/toc.json
+                - name: Yfirlit yfir launafyrirkomulag
+                  href: ../human-resources/hr-compensation-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Uppsetning launanets
-                  href: ../fin-ops-core/fin-ops/hr/tasks/set-up-compensation-grids.md
-                - name: Þróa uppbyggingu launa og launafyrirkomulag
-                  href: ../fin-ops-core/fin-ops/hr/tasks/develop-salary-compensation-structure-plan.md
-                - name: Bæta upplýsingum við frammistöðubók og senda hrós
-                  href: ../fin-ops-core/fin-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md
+                  href: ../human-resources/hr-compensation-grids.md?toc=/dynamics365/finance/toc.json
+                - name: Þróa launaskipulag og -áætlun
+                  href: ../human-resources/hr-compensation-structure.md?toc=/dynamics365/finance/toc.json
+                - name: Stofna launafyrirkomulag fastra launa
+                  href: ../human-resources/hr-compensation-fixed-plans.md?toc=/dynamics365/finance/toc.json
+                - name: Stofna launafyrirkomulag breytilegra launa
+                  href: ../human-resources/hr-compensation-variable-plans.md?toc=/dynamics365/finance/toc.json
                 - name: Skrá starfsmenn í launafyrirkomulag fastra launa
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enroll-employee-fixed-compensation-plan.md
+                  href: ../human-resources/hr-compensation-enroll-employees-fixed.md?toc=/dynamics365/finance/toc.json
                 - name: Skrá starfsmenn í breytilegt launafyrirkomulag
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enroll-employee-variable-compensation-plan.md
-                - name: Stofna afkomuendurskoðun
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-performance-review.md
-            - name: Þróa og þjálfa starfsmenn
+                  href: ../human-resources/hr-compensation-enroll-employees-variable.md?toc=/dynamics365/finance/toc.json
+                - name: Skilgreina launavinnslu og reikna niðurstöður
+                  href: ../human-resources/hr-compensation-define-process.md?toc=/dynamics365/finance/toc.json
+                - name: Vinna úr launafyrirkomulagi
+                  href: ../human-resources/hr-compensation-process.md?toc=/dynamics365/finance/toc.json
+            - name: Umsjón með fríðindum
+              items:
+                - name: Skilgreina og stjórna fríðindaáætlun
+                  href: ../human-resources/hr-benefits-manage-program.md?toc=/dynamics365/finance/toc.json
+                - name: Stefnur um hæfni til fríðinda
+                  href: ../human-resources/hr-benefits-eligibility-policies.md?toc=/dynamics365/finance/toc.json
+                - name: Ferli tengt hæfni til fríðinda
+                  href: ../human-resources/hr-benefits-eligibility-process.md?toc=/dynamics365/finance/toc.json
+                - name: Skilgreina reglur og stefnur um hæfi til fríðinda
+                  href: ../human-resources/hr-benefits-define-eligibility-rules.md?toc=/dynamics365/finance/toc.json
+                - name: Leggja fram starfskjaraáætlun starfsmanns
+                  href: ../human-resources/hr-benefits-deliver-employee-benefits-program.md?toc=/dynamics365/finance/toc.json
+                - name: Stofna ný fríðindi
+                  href: ../human-resources/hr-benefits-create.md?toc=/dynamics365/finance/toc.json
+                - name: Skrá starfsmenn fyrir fríðindum
+                  href: ../human-resources/hr-benefits-enroll-workers.md?toc=/dynamics365/finance/toc.json
+                - name: Vinna með lokadaga fríðinda
+                  href: ../human-resources/hr-benefits-expiration-dates.md?toc=/dynamics365/finance/toc.json
+                - name: Mynda ACA-skýrslur
+                  href: ../human-resources/hr-benefits-aca-reports.md?toc=/dynamics365/finance/toc.json
+            - name: Þróa starfsmenn
               items:
                 - name: Árangursstjórnunaryfirlit
-                  href: ../talent/performance-management-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Samþætting hæfni starfsfólks við rekstrarþarfir
-                  href: ../talent/skills.md?toc=/dynamics365/finance/toc.json
+                  href: ../human-resources/hr-develop-performance-management-overview.md?toc=/dynamics365/finance/toc.json
+                - name: Raða saman hæfni vinnuafls
+                  href: ../human-resources/hr-develop-skills.md?toc=/dynamics365/finance/toc.json
+                - name: Bæta við frammistöðubókina þína
+                  href: ../human-resources/hr-develop-add-performance-journal.md?toc=/dynamics365/finance/toc.json
+                - name: Búa til markmið
+                  href: ../human-resources/hr-develop-create-goal.md?toc=/dynamics365/finance/toc.json
+                - name: Stofna frammistöðumat
+                  href: ../human-resources/hr-develop-create-performance-review.md?toc=/dynamics365/finance/toc.json
+            - name: Stofna námskeið
+              items:
                 - name: Uppsetning námskeiða
-                  href: ../talent/courses.md?toc=/dynamics365/finance/toc.json
-            - name: Stofnun og viðhald fríðinda
-              items:
-                - name: Stjórnun fríðindaáætlunar
-                  href: ../talent/manage-benefit-program.md?toc=/dynamics365/finance/toc.json
-                - name: Reglur um hæfni til fríðinda
-                  href: ../talent/benefit-eligibility-policies.md?toc=/dynamics365/finance/toc.json
-                - name: Ferli tengt hæfni til fríðinda
-                  href: ../fin-ops-core/fin-ops/hr/tasks/benefit-eligibility-process.md
-                - name: Skilgreina reglur og stefnur um hæfi til fríðinda
-                  href: ../fin-ops-core/fin-ops/hr/tasks/define-benefit-eligibility-rules-policies.md
-                - name: Leggja fram starfskjaraáætlun starfsmanns
-                  href: ../fin-ops-core/fin-ops/hr/tasks/deliver-employee-benefits-program.md
-                - name: Stofna ný fríðindi
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-new-benefit.md
-                - name: Skrá starfsfólk í fríðindi og taka fríðindi af starfsfólki
-                  href: ../fin-ops-core/fin-ops/hr/tasks/enroll-remove-benefits-workers.md
-                - name: Haga lokadögum fríðinda
-                  href: ../fin-ops-core/fin-ops/hr/tasks/manage-benefit-expiration-dates.md
-            - name: Safna upplýsingum með notkun spurningalista
-              items:
-                - name: Spurningalistar
-                  href: ../talent/questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Hönnun spurningalista
-                  href: ../talent/design-questionnaires.md?toc=/dynamics365/finance/toc.json
-                - name: Dreifing og útfylling spurningalista
-                  href: ../talent/distribute-questionnaires.md?toc=/dynamics365/finance/toc.json
+                  href: ../human-resources/hr-learning-courses.md?toc=/dynamics365/finance/toc.json
+                - name: Yfirlit yfir spurningalista
+                  href: ../human-resources/hr-learning-questionnaires.md?toc=/dynamics365/finance/toc.json
+                - name: Hanna spurningalista
+                  href: ../human-resources/hr-learning-design-questionnaires.md?toc=/dynamics365/finance/toc.json
+                - name: Dreifa og tímasetja spurningalista
+                  href: ../human-resources/hr-learning-distribute-questionnaires.md?toc=/dynamics365/finance/toc.json
                 - name: Dreifa spurningalistum með áætlanagerð
-                  href: ../fin-ops-core/fin-ops/hr/tasks/distribute-questionnaires-scheduling.md
-                - name: Meta niðurstöður spurningalista
-                  href: ../talent/evaluate-questionnaire-results.md?toc=/dynamics365/finance/toc.json
+                  href: ../human-resources/hr-learning-distribute-questionnaires-scheduling.md?toc=/dynamics365/finance/toc.json
+                - name: Skoða niðurstöður spurningalista
+                  href: ../human-resources/hr-learning-evaluate-questionnaire-results.md?toc=/dynamics365/finance/toc.json
                 - name: Greina niðurstöður úr spurningalista
-                  href: ../fin-ops-core/fin-ops/hr/tasks/analyze-questionnaire-results.md
-                - name: Búa til opnar spurningar
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-open-ended-question.md
-                - name: Búa til lokaðar spurningar
-                  href: ../fin-ops-core/fin-ops/hr/tasks/create-closed-ended-question.md
-                - name: Gera spurningar háðar svarinu sem gefið var við spurningunni sem kom á undan
-                  href: ../fin-ops-core/fin-ops/hr/tasks/make-question-dependent-answer-previous-question.md
+                  href: ../human-resources/hr-learning-analyze-questionnaire-results.md?toc=/dynamics365/finance/toc.json
+                - name: Búa til opna spurningu
+                  href: ../human-resources/hr-learning-create-open-ended-question.md?toc=/dynamics365/finance/toc.json
+                - name: Búa til lokaða spurningu
+                  href: ../human-resources/hr-learning-create-closed-ended-question.md?toc=/dynamics365/finance/toc.json
+                - name: Búa til textaháða spurningu
+                  href: ../human-resources/hr-learning-depending-question.md?toc=/dynamics365/finance/toc.json
             - name: Öryggi og reglufylgni á vinnustað (Bandaríkin)
               items:
                 - name: Staðfesting I-9 eyðublaðs
@@ -2635,10 +2737,6 @@
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
                 - name: Haga aðlögun starfsfólks
                   href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
-                - name: Uppsetning upplýsinga um meiðsl og veikindi
-                  href: ../fin-ops-core/fin-ops/hr/tasks/set-up-injury-illness-information.md
-                - name: Vinna með upplýsingar um meiðsl og veikindi starfsmanna
-                  href: ../fin-ops-core/fin-ops/hr/tasks/maintain-employee-injury-illness-information.md
         - name: Greind
           items:
             - name: Gervigreind – heimasíða
@@ -2653,7 +2751,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/dynamics365/finance/toc.json
                 - name: Fríðindi
                   href: ../fin-ops-core/dev-itpro/analytics/benefits-power-bi.md?toc=/dynamics365/finance/toc.json
-                - name: Yfirlit yfir reiðufé
+                - name: Sjóðstreymi Power BI efnisyfirlit
                   href: cash-bank-management/Cash-Overview-Power-BI-content.md
                 - name: CFO-yfirlit
                   href: ../fin-ops-core/dev-itpro/analytics/CFO-power-bi.md?toc=/dynamics365/finance/toc.json
@@ -2779,8 +2877,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/finance/toc.json
                     - name: Uppfæra snið með því að nota nýja grunnútgáfu af viðkomandi sniði
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/finance/toc.json
-                - name: Formúluhönnuður í rafrænni skýrslugerð
-                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
+                - name: Formúluhönnuðir í rafrænni skýrslugerð
+                  items:
+                    - name: Formúluhönnuður
+                      href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
+                    - name: Ítarlegur formúluhönnuður
+                      href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
                 - name: Formúlutungumál og aðgerðir
                   items:
                     - name: Formúlutungumál
@@ -2883,7 +2985,7 @@
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-mathematical.md?toc=/dynamics365/finance/toc.json
                             - name: Abs
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-abs.md?toc=/dynamics365/finance/toc.json
-                            - name: Power
+                            - name: Veldi
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-power.md?toc=/dynamics365/finance/toc.json
                             - name: Round
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-round.md?toc=/dynamics365/finance/toc.json
@@ -2895,10 +2997,10 @@
                           items:
                             - name: Færsluaðgerðir
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-record.md?toc=/dynamics365/finance/toc.json
-                            - name: NullContainer
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/finance/toc.json
                             - name: EmptyRecord
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-emptyrecord.md?toc=/dynamics365/finance/toc.json
+                            - name: NullContainer
+                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/finance/toc.json
                         - name: Text
                           items:
                             - name: Textaaðgerðir
@@ -2973,8 +3075,6 @@
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-curcredref.md?toc=/dynamics365/finance/toc.json
                             - name: FA_Balance
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365/finance/toc.json
-                            - name: CH_Bank_Mod_10
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-chbankmode10.md?toc=/dynamics365/finance/toc.json
                             - name: FA_Sum
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fasum.md?toc=/dynamics365/finance/toc.json
                             - name: GetCurrentCompany
@@ -2995,37 +3095,37 @@
                           items:
                             - name: Aðgerðir fyrir umbreytingu á gerð
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-type-conversion.md?toc=/dynamics365/finance/toc.json
-                            - name: Int64Value
+                            - name: 'Gerð: Int64Value'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-int64value.md?toc=/dynamics365/finance/toc.json
-                            - name: IntValue
+                            - name: 'Gerð: IntValue'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-intvalue.md?toc=/dynamics365/finance/toc.json
-                            - name: NumberValue
+                            - name: 'Gerð: NumberValue'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/finance/toc.json
-                            - name: Value
+                            - name: 'Gerð: Gildi'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Dagsetningar- og tímaflokkur: DateTimeValue'
+                            - name: 'Dagsetning og tími: DateTimeValue'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Dagsetningar- og tímaflokkur: DateToDateTime'
+                            - name: 'Dagsetning og tími: DateToDateTime'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Dagsetningar- og tímaflokkur: DateValue'
+                            - name: 'Dagsetning og tími: DateValue'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Listaflokkur: Listi'
+                            - name: 'Listi: List'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Listaflokkur: ListOfFields'
+                            - name: 'Listi: ListOfFields'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Listaflokkur: Skipta upp'
+                            - name: 'Listi: Split'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Listaflokkur: StringJoin'
+                            - name: 'Listi: StringJoin'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Textaflokkur: Char'
+                            - name: 'Texti: Char'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Textaflokkur: GuidValue'
+                            - name: 'Texti: GuidValue'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Textaflokkur: NumberFormat'
+                            - name: 'Texti: NumberFormat'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Textaflokkur: QrCode'
+                            - name: 'Texti: QrCode'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Textaflokkur: Texti'
+                            - name: 'Texti: Text'
                               href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
                 - name: Stjórna vörpunarlíkani rafrænnar skýrslugerðar í aðskilinni skilgreiningu rafrænnar skýrslugerðar
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
@@ -3151,7 +3251,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
                 - name: Kennsla
                   items:
-                    - name: Nota SAMTENGINGU gagnaveitna til að sækja gögn úr mörgum forritatöflum í vörpunum rafrænna skýrslugerðarlíkana
+                    - name: Nota SAMTENGINGU gagnaveitna til að sækja gögn úr mörgum forritatöflum
                       href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
                     - name: Skilgreina varpanir rafrænna skýrslugerðarlíkana sem háð eru samhengi við lönd
                       href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
@@ -3159,6 +3259,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md
                     - name: Setja upp færibreytur á sniði rafrænnar skýrslugerðar fyrir hvern lögaðila
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md
+                    - name: Fresta keyrslu á atriðum í sniðum rafrænnar skýrslugerðar
+                      items:
+                        - name: Fresta keyrslu á röðunareiningu
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
+                        - name: Fresta keyrslu á XML-einingu
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
                 - name: Nota lausnir rafrænnar skýrslugerðar í Finance and Operations
                   items:
                     - name: Skilgreina ramma
@@ -3173,8 +3279,24 @@
                       items:
                         - name: Yfirlit viðtökustaða
                           href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-destinations.md?toc=/dynamics365/finance/toc.json
+                        - name: Gerðir viðtökustaða
+                          items:
+                            - name: Safnvista viðtökustað
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md
+                            - name: Viðtökustaður tölvupósts
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md
+                            - name: Viðtökustaður skráar
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md
+                            - name: Power BI viðtökustaður
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md
+                            - name: Viðtökustaður prentara
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md
+                            - name: Viðtökustaður skjás
+                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
                         - name: Skilgreina viðtökustaði
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Setja upp tilvísun í sniðum rafrænnar skýrslugerðar
+                      href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: Villuleita sjálfkrafa skýrslur sem búnar eru til
                       items:
                         - name: Rekja myndaðar skýrsluniðurstöður og bera þær saman við grunnlínugildi
@@ -3195,6 +3317,8 @@
                       items:
                         - name: Yfirlit yfir stjórnun viðskiptaskjala
                           href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
+                        - name: Nýtt notandaviðmót fyrir skjöl í stjórnun viðskiptaskjala
+                          href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md
                         - name: Bæta nýjum svæðum við sniðmát viðskiptaskjals í Microsoft Excel
                           href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
                 - name: API fyrir ramma rafrænnar skýrslugerðar
@@ -3553,13 +3677,15 @@
               items:
                 - name: Stofna gengisveitur
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-providers.md
-                - name: 'Stofna gengisveitur í Finance and Operations, útgáfu 8.0'
+                - name: Stofna gengisveitur í Finance and Operations útgáfu 8.0
                   href: ../fin-ops-core/dev-itpro/financial/create-exchange-rate-8.md
             - name: 'Jafna færslur með CustTrans::settleTransaction'
               href: ../fin-ops-core/dev-itpro/financial/settletransact-obsolete.md
-    - name: Þróun og stjórnun forrita fyrir Finance and Operations
+    - name: hönnun og stjórnun Finance and Operations -forrita
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
+    - name: Dynamics 365 Commerce
+      href: ../commerce/index.md
     - name: Dynamics 365 Retail
-      href: ../retail/index.md
+      href: ../commerce/index.md

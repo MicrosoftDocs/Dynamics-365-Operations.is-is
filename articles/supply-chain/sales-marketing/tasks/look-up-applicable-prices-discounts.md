@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db9caaa7f425133eda7a5f225b39ca52e11e0716
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: debf66029d6efa42fe6d85eadb3866aadb312a97
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835584"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025829"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Fletta upp gildandi verði og afslætti
 
@@ -49,7 +49,7 @@ ms.locfileid: "1835584"
 10. Lokið síðunni.
 
 ## <a name="find-the-applicable-discount"></a>Finna viðeigandi afsláttur
-    * Gangið úr skugga um að svæðið viðskiptavinalykill innihaldi númer viðskiptavinar US-001   
+Gangið úr skugga um að svæðið viðskiptavinalykill innihaldi númer viðskiptavinar US-001   
 1. Sláið inn „T0012“ á svæðinu „Vörunúmer“.
     * Gangið úr skugga um að svæðið Magn er stillt á 1.  
     * Eftirfarandi verðupplýsingum sem sýnd eru fyrir afurð T0012 koma úr einni eða fleiri verðsamninga: einingarverð er 1.000 CAD og afsláttarprósentan er 5.  

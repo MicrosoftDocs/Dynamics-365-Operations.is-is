@@ -3,7 +3,7 @@ title: Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeininga
 description: Þetta efnisatriði lýsir hvernig eigi að nota vinnusniðmát og staðsetningarleiðbeiningar til að ákvarða hvernig og hvar vinna verður framkvæmd í vöruhúsinu.
 author: perlynne
 manager: AnnBe
-ms.date: 09/21/2018
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9a5292e88fe022482ab9c6c5a8f016745946988
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 4645cf36201aa1b87c22ba4dbfb1b8d8117f425a
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026941"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3028029"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar
 
@@ -152,7 +152,7 @@ Veldu til að nota runuáætlanir fyrir vörurnar sem eru með runur virkar. Ef 
 ### <a name="strategy"></a>Stjórnunarstefna
 
 -   **Sameina** - Þessi aðferð er notuð til að sameina vörur í tiltekinni staðsetningu þegar líkar vörur eru þegar fyrir hendi. Þetta virkar aðeins fyrir frágangsgerð staðsetningarleiðbeiningar. Algeng uppsetning fyrir frágang verður að sameina í fyrstu aðgerðalínunni og síðan reyna frágang í annarri línunni án sameiningar. Sameining á vörum gerir seinni tiltektir skilvirkari.
--   **Jafna umbúðamagn** - Þessi aðferð er notuð til að sannreyna hvort staðsetning tiltektar hefur tilgreint umbúðamagn. Þetta mun aðeins virka fyrir staðsetningarleiðbeiningar af gerðinni Tiltekt. 
+-   **Jafna umbúðamagn** - Með þessari stefnu er að finna staðsetningu sem inniheldur leyfismerki með nákvæmu magni sem krafist er. Það er ekki hægt að nota það með staðsetningum sem ekki er stjórnað af númeraplötum. Þessi stefna virkar eingöngu fyrir staðsetningarleiðbeiningu af vinnutegundinni Tiltekt.
 -   **Frátekt á FEFO-runu** - Þessi aðferð er notuð þegar birgðir eru staðsettar með lokadag runu og er úthlutað fyrir frátekningu á runu. Aðeins er hægt að nota þessa stjórnunarstefnu fyrir vörur með virka runu. Þetta virkar eingöngu fyrir staðsetningarleiðbeiningu af vinnutegundinni Tiltekt. 
 -   **Slétta upp í heila númeraplötu** - Þessi aðferð er notuð til að slétta upp birgðamagnið til að samræma magn á númeraplötu (LP) sem er úthlutað á vörur sem á að taka til. Aðeins er hægt að nota þessa aðferð fyrir áfyllingargerð staðsetningarleiðbeiningar af tiltektargerð. 
 -   **Tóm staðsetning með engin verk á innleið** - Þessi aðferð er notuð til að finna tómar staðsetningar. Staðsetning telst autt ef það hefur engar efnislegar birgðir og engin áætluð vinna innleið. Þessi aðferð er aðeins notuð fyrir frágangsgerð staðsetningarleiðbeiningar. 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7506953c797f5a55a93f1169bf48af8b06eb440e
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 68e3f428215bdc4f9a4ce0dd69cfd4482c72fbf3
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896797"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006265"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>Nýjungar eða breytingar í Dynamics 365 Talent (23. október 2019)
 
@@ -39,9 +39,9 @@ ms.locfileid: "2896797"
 
 Breytingum sem lýst er í þessum kafla gilda um byggingarnúmer 8.1.2569. Tölurnar í sviga í sumum fyrirsögnum vísa til stuðningsnúmera í Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-30-for-finance-and-operations-apps"></a>Verkvangsuppfærsla 30 fyrir forrit Finance and Operations
+### <a name="platform-update-30-for-finance-and-operations-apps"></a>Uppfærsla pallsins 30 fyrir forrit Finance and Operations
 
-Sjá frekari upplýsingar [Hvað er nýtt eða breytt í uppfærslu pallsins 30 fyrir forrit Finance and Operations (nóvember 2019)](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-platform-update-30).
+Sjá frekari upplýsingar [Hvað er nýtt eða breytt í uppfærslu verkvangs 30 fyrir forrit Finance and Operations (nóvember 2019)](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-platform-update-30).
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>Fjarlægja ávinning opinn forskoðunareiginleika skráningar
 
@@ -89,4 +89,4 @@ Sjá [Prenta árangursumsagnir](https://docs.microsoft.com/dynamics365-release-p
 
 Eiginleikum er bætt við og þeir uppfærðir í hverri útgáfu. Upplifun eiginleikastjórnunar veitir vinnusvæði þar sem hægt er að skoða lista yfir eiginleika sem hafa verið gefnir út í hverri útgáfu. Sjálfgefið er að slökkt sé á nýjum eiginleikum. Hægt er að nota vinnusvæðið til að kveikja á þeim og skoða fylgiskjölin fyrir þá.
 
-Til að læra meira um breytingarnar sem fylgja eiginleikastjórnun, sjá [Eiginleikastjórnunaryfirlit](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Til að læra meira um breytingarnar sem fylgja eiginleikastjórnun, sjá [Eiginleikastjórnunaryfirlit](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).

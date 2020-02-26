@@ -3,7 +3,7 @@ title: Vinna með brot
 description: Þetta efni lýsir því hvers vegna, hvenær og hvernig skuli nota brot í Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.industry: retail
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 32482538b2913e6585257bcf7a1cbe780d3cdd30
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: f29046ded47ed9c49a2cc841aa7c1f6492b49aec
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914701"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026041"
 ---
 # <a name="work-with-fragments"></a>Vinna með brot 
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Þetta efni lýsir því hvers vegna, hvenær og hvernig skuli nota brot í Microsoft Dynamics 365 Commerce.
@@ -57,25 +57,34 @@ Eftirfarandi mynd sýnir hvernig brot er hægt að nota til að miðstýra höfu
 
 Þú getur annaðhvort búið til nýtt brot eða vistað fyrirliggjandi einingarstillingu sem brot.
 
+### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Vistaðu núverandi einingarstillingu sem brot
+
+Fylgdu þessum skrefum til að umbreyta áður uppsettri einingu í endurnýtanlegt brot.
+
+1. Opnaðu síðu eða sniðmát sem inniheldur eininguna sem þú vilt breyta í brot.
+1. Í útlínuglugganum til vinstri velurðu úrfellingarhnappinn (**...**) við hliðina á einingunni. 
+1. Veldu **Deila sem broti**. 
+1. Svargluggi birtist. Sláðu inn heiti og lýsigögn fyrir brotið.
+1. Veldu **Í lagi** til að vista einingastillinguna sem brot sem hægt er að bæta við aðrar síður.
+
+Eftirfarandi mynd sýnir hvernig vista má einingastillingu sem brot.
+
+![Skjámynd um hvernig á að vista einingastillingu sem brot](./media/save-as-fragment.png)
+
 ### <a name="create-a-new-fragment"></a>Stofna nýtt brot
 
 Fylgið eftirfarandi skrefum til að stofna nýtt brot.
 
 1. Í stýriglugganum vinstra megin velurðu **Brot**.
 1. Veljið **Nýtt síðubrot**. Gluggi birtist sem sýnir allar tiltækar gerðir eininga. Eins og áður var getið er hægt að búa til brot úr hvaða einingartegund sem er.
-1. Veldu gerð einingar fyrir brotið þitt og veldu síðan **Í lagi**.
+1. Veldu tegund einingar fyrir brotið þitt.
 
-    > [!TIP]
-    > Með því að velja almenna gámaeiningagerð færðu mestan sveigjanleika þegar þú verður að uppfæra og stilla brotið þitt seinna.
+Eftirfarandi mynd sýnir hvar á að búa til nýtt brot.
 
-### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Vistaðu núverandi einingarstillingu sem brot
+![Skjámynd um hvar eigi að búa til nýtt brot](./media/fragment-nav-menu.png)
 
-Fylgdu þessum skrefum til að umbreyta áður uppsettri einingu í endurnýtanlegt brot.
-
-1. Opnaðu síðu eða sniðmát sem inniheldur eininguna sem þú vilt breyta í brot.
-1. Í útlínuglugganum til vinstri velurðu úrfellingarhnappinn (**...**) við hliðina á heiti einingarinnar og síðan velurðu **Vista sem brot**. Svargluggi birtist.
-1. Sláðu inn heiti og lýsigögn fyrir brotið.
-1. Veldu **Í lagi** til að vista einingastillinguna sem brot sem hægt er að bæta við aðrar síður.
+> [!TIP]
+> Með því að velja almenna gámaeiningagerð færðu mestan sveigjanleika þegar þú þarft að uppfæra og stilla brotið þitt seinna.
 
 ## <a name="add-remove-or-edit-fragments-on-a-page"></a>Bættu við, fjarlægðu eða breyttu brotum á síðu
 
@@ -88,11 +97,15 @@ Til að bæta broti við síðu skaltu fylgja þessum skrefum.
 1. Í útlínuglugganum til vinstri velurðu gám eða hólf sem hægt er að bæta undireiningum við.
 1. Veldu úrfellingarhnappinn við hliðina á heiti gámsins eða hólfsins og velur síðan **Bæta við broti**. Svargluggi birtist.
 
+    ![Skjámynd um hvernig bæta má núverandi broti við rauf eða ílát](./media/add-fragment.png)
+ 
     > [!NOTE]
     > Ef gámurinn eða hólfið styðja ekki nýjar undireiningar er valkosturinn **Bæta við broti** er ekki í boði.
-
+    
 1. Leitaðu að og veldu broti til að bæta við í valmyndinni. Ef engin tiltæk brot eru tilgreind gætirðu fyrst þurft að búa til brot úr einingagerð sem valinn gámur eða hólf styður.
-1. Veldu **Í lagi** til að bæta völdu broti við valinn gám eða hólf á síðunni þinni.
+1. Veldu brotið sem þú vilt til að bæta því við gám eða hólf á síðunni þinni.
+
+    ![Skjámynd af staðfestingaglugga brotavals](./media/fragment-picker.png)
 
 > [!NOTE]
 > Einingarnar sem eru leyfðar í gámi eða hólfi eru skilgreindar af sniðmáti síðunnar eða eigin skilgreiningum eininganna.

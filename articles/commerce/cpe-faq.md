@@ -1,5 +1,5 @@
 ---
-title: Algengar spurningar um forskoðunarumhverfi Commerce
+title: Dynamics 365 Commerce yfirlitsumhverfi algengra spurninga
 description: Þetta efnisatriði veitir svör við algengum spurningum um forskoðunarumhverfi Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
@@ -17,16 +17,15 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 53e593931850d6b8b22bb756d5828f742416aa4d
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 061a160380e500ea52afbc35f0a95fe84d971bcf
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906094"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024753"
 ---
-# <a name="commerce-preview-environment-faq"></a>Algengar spurningar um forskoðunarumhverfi Commerce
+# <a name="dynamics-365-commerce-preview-environment-faq"></a>Dynamics 365 Commerce yfirlitsumhverfi algengra spurninga
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Þetta efnisatriði veitir svör við algengum spurningum um forskoðunarumhverfi Microsoft Dynamics 365 Commerce.
@@ -83,10 +82,10 @@ Ef þú lendir í vandamálum þegar þú reynir að fá aðgang að Yammer-hóp
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit yfir forskoðunarumhverfi Commerce](cpe-overview.md)
+[Dynamics 365 Commerce yfirlit yfir forskoðunarumhverfi](cpe-overview.md)
 
-[Úthluta forskoðunarumhverfi Commerce](provisioning-guide.md)
+[Úthluta Dynamics 365 Commerce forsýningarumhverfi](provisioning-guide.md)
 
-[Skilgreina forskoðunarumhverfi Commerce](cpe-post-provisioning.md)
+[Skilgreina Dynamics 365 Commerce forskoðunarumhverfi](cpe-post-provisioning.md)
 
-[Stilltu valfrjálsa eiginleika fyrir forsýningarumhverfi Commerce](cpe-optional-features.md)
+[Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce forskoðunarumhverfi](cpe-optional-features.md)

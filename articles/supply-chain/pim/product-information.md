@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21ee0b835cbe6cc3a238247be29f8a8d3de42a8d
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: bdbff802ca85f7cc568efb8a1aacaf6f8fb2874a
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570749"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003997"
 ---
 # <a name="product-information-overview"></a>Yfirlit afurðarupplýsinga
 
@@ -32,7 +32,7 @@ ms.locfileid: "2570749"
 
 Í þessu efnisatriði er að finna upplýsingar um afurðastjórnun. Stjórnun afurðarupplýsinga nýtist með skilgreiningu á samnýttum afurðum, flokkun og auðkennum fyrir alla lögaðila og einnig tilteknar skilgreiningar afurðar þannig að þær passa vel í viðskiptaferla. 
 
-Afurðarupplýsingar eru grundvöllur fyrir birgðakeðju og smásöluforrit í öllum greinum. Þær vísa til ferla og tækni þar sem lögð er áhersla á miðlæga stjórnun afurðaupplýsinga (til dæmis í birgðakeðju). Það er mikilvægt að samnýttar afurðaskilgreiningar, skjöl, eigindir og auðkenni séu notuð. Í ýmsum kerfum viðskiptalausna eru afurðaháðar upplýsingar og skilgreiningar nauðsynlegar til stýringar á viðskiptaferlum sem tengjast tilteknum afurðum, afurðafjölskyldum eða afurðaflokkum.
+Afurðarupplýsingar eru grundvöllur fyrir birgðakeðju og viðskiptaforrit í öllum greinum. Þær vísa til ferla og tækni þar sem lögð er áhersla á miðlæga stjórnun afurðaupplýsinga (til dæmis í birgðakeðju). Það er mikilvægt að samnýttar afurðaskilgreiningar, skjöl, eigindir og auðkenni séu notuð. Í ýmsum kerfum viðskiptalausna eru afurðaháðar upplýsingar og skilgreiningar nauðsynlegar til stýringar á viðskiptaferlum sem tengjast tilteknum afurðum, afurðafjölskyldum eða afurðaflokkum.
 
 ## <a name="product-definition"></a>Afurðarskilgreining
 

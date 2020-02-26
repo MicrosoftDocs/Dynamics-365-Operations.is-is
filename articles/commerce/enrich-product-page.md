@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9c0f329d21cdda5c36a39a8c602d5925b720f52
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: d4c495fc6dfe4aa6561a1bb703253ef8ec71dc13
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945744"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003074"
 ---
 # <a name="enrich-a-product-page"></a>Bæta vörusíðu
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Þetta efni lýsir því hvernig á að bæta afurðasíðu í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 
-Sjálfgefið er að vefsíðan þín noti almenna síðu til að sýna vörugögn. Þessi síða inniheldur grunnupplýsingar um vöruna og stjórntæki sem þarf til að selja hana. Hins vegar geturðu bætt við upplýsingarnar sem koma frá Retail Server með viðbótarmyndum eða texta fyrir tiltekna vöru. Þetta ferli er þekkt sem að auðga vörusíðuna.
+Sjálfgefið er að vefsíðan þín noti almenna síðu til að sýna vörugögn. Þessi síða inniheldur grunnupplýsingar um vöruna og stjórntæki sem þarf til að selja hana. Hins vegar geturðu bætt við upplýsingarnar sem koma frá Commerce Scale Unit með viðbótarmyndum eða texta fyrir tiltekna afurð. Þetta ferli er þekkt sem að auðga vörusíðuna.
 
-Í mörgum tilvikum viltu nota sérstakt viðbótarefni fyrir vörur þínar. Þegar þú ferð til **Retail** í höfundatólinu sérðu lista yfir vörur af rásinni sem er úthlutað á síðuna. Í þessum lista gefur dálkurinn **Auðgað** til kynna hvort vörusíðan fyrir vöru hafi verið auðguð. Ef gátmerki birtist í dálknum er auðguð vörusíða til staðar fyrir vöruna. Ef ekkert hak birtist er sjálfgefna vörusíðan og innihald notað fyrir vöruna. Þú getur forskoðað bæði auðgaðar og óauðgaðar vörusíður með því að velja vöruheiti á listanum.
+Í mörgum tilvikum viltu nota sérstakt viðbótarefni fyrir vörur þínar. Þegar þú ferð til **Retail og Commerce** í höfundatólinu sérðu lista yfir afurðir af rásinni sem er úthlutað á svæðið. Í þessum lista gefur dálkurinn **Auðgað** til kynna hvort vörusíðan fyrir vöru hafi verið auðguð. Ef gátmerki birtist í dálknum er auðguð vörusíða til staðar fyrir vöruna. Ef ekkert hak birtist er sjálfgefna vörusíðan og innihald notað fyrir vöruna. Þú getur forskoðað bæði auðgaðar og óauðgaðar vörusíður með því að velja vöruheiti á listanum.
 
 ## <a name="enrich-a-product-page"></a>Bæta vörusíðu
 

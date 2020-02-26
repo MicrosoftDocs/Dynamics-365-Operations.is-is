@@ -3,7 +3,7 @@ title: Byrjaðu með hagræðingu skipulags
 description: Þetta efnisatriði útskýrir hvernig skuli hefja notkun á virkninni Fínstilling skipulagningar.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/29/2019
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 37c2acb2397b2a0ad69272c0645bd200a8d7910d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 3e0371c6addc0412dc2fc105891b012941e92a06
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773979"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971465"
 ---
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
@@ -47,15 +47,17 @@ Til að nota fínstillingu skipulagningar skaltu setja upp innbótina fínstilli
 
 1. Skráðu þig inn á LCS og opnaðu viðkomandi umhverfi.
 1. Farðu í **Fullar upplýsingar**.
-1. Veldu **Viðhalda** eða skrunaðu niður að flýtiflipanum **Umhverfisinnbætur**.
+1. Flettu niður að flýtiflipanum **Umhverfisinnbætur**.
 1. Veldu **Setja upp nýja innbót**.
 1. Veldu **Fínstillingu skipulagningar**.
 1. Fylgdu uppsetningarleiðbeiningunum og samþykktu skilmála og skilyrði.
 1. Velja **Setja upp**.
+1. Á flýtiflipanum **Umhverfisviðbætur** ættir þú að sjá að hagræðing skipulags er að setja upp.
+1. Eftir nokkrar mínútur ætti **Setur upp** að breytast í **Uppsett** (þú gætir þurft að endurnýja síðuna). Þegar það er sett upp ertu tilbúinn til að virkja hagræðingu skipulags í Dynamics 365 Supply Chain Management.
 
 ### <a name="planning-optimization-integration"></a>Samþætting fínstillingar skipulagningar
 
-Til að stilla hvort nota eigi innbótina fínstilling skipulagningara fyrir aðaláætlanagerð, farðu í **Aðaláætlanargerð** \> **Uppsetning** \> **Samþætting fínstillingar skipulagningar** \> **Samþættingarfæribreytur**.
+Til að stilla hvort nota eigi innbótina fínstilling skipulagningara fyrir aðaláætlanagerð, farðu í **Aðaláætlanargerð** \> **Uppsetning** \> **Færibreytur fínstillingar skipulagningar**.
 
 #### <a name="connection-status"></a>Staða tengingar
 
