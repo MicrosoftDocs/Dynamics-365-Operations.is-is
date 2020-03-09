@@ -150,6 +150,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/finance/toc.json
                 - name: Vistuð yfirlit
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/finance/toc.json
+                - name: Eiginleikar hnitanets
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Stofna og vinna með sérstillt svæði
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
                 - name: Fella inn PowerApps forrit
@@ -940,6 +942,8 @@
                   href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
                 - name: Setja upp skýrslugerðarkóða virðisaukaskatts
                   href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: Stuðningur fyrir tvöfaldan gjaldmiðil fyrir virðisaukaskatt
+                  href: general-ledger/dual-currency-for-tax.md
                 - name: Skýrsla VSK-forskriftar eftir fjárhagsfærslum
                   href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                 - name: Setja upp VSK-uppgjörstímabil
@@ -1102,6 +1106,8 @@
                   href: public-sector/interest-distribution.md
             - name: Innkaup og aðföng hjá hinu opinbera
               href: public-sector/procurement-sourcing-public-sector.md
+            - name: 'Reikna út afhendingardag línu, út frá afhendingartíma'
+              href: public-sector/po-delivery-date.md
             - name: Öryggishlutverk hjá hinu opinbera
               href: public-sector/security-roles-public-sector.md
             - name: Sjóðir hjá hinu opinbera
@@ -1298,6 +1304,8 @@
                   href: localizations/latam-bra-complementary-information-icms-st-sped-fiscal-2020-layout-014.md
                 - name: SPED-fjárhagur – útlit 014
                   href: localizations/latam-bra-sped-fiscal-layout-014.md
+                - name: Stilla SPED EFD-framlög
+                  href: localizations/latam-bra-sped-contributions.md
                 - name: Færibreytur fyrir lögaðila
                   href: localizations/latam-bra-legal-entity-parameters.md
                 - name: Setja upp færibreytur lögaðila
@@ -2807,6 +2815,8 @@
               items:
                 - name: Yfirlit Document Reporting Services
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/finance/toc.json
+                - name: Studdar leturgerðir
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/finance/toc.json
                 - name: Skilgreina SSRS fyrir uppsetningu á staðnum
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Prentun
@@ -3686,6 +3696,4 @@
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
     - name: Dynamics 365 Commerce
-      href: ../commerce/index.md
-    - name: Dynamics 365 Retail
       href: ../commerce/index.md
