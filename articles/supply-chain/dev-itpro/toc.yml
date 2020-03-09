@@ -456,8 +456,6 @@
           items:
             - name: Búa til yfirlit yfir líkön og gagnalíkanseiningar
               href: ../../dev-itpro/dev-tools/create-data-model-elements.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-            - name: Leiðbeiningar um heiti viðbóta
-              href: ../../dev-itpro/extensibility/NamingGuidelines.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
             - name: Slökkva á sérstillingu líkans og afskriftavirkni
               href: ../../dev-itpro/dev-tools/lock-models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Skýrsla um greiningu sérstillinga

@@ -1,6 +1,6 @@
 ---
 title: Stofnun hlutastraumspöntunar fyrir færslur smásöluverslunar
-description: Þetta efnisatriði lýsir stofnun hlutastraumspöntunar fyrir færslur smásöluverslunar í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir stofnun hlutastraumspöntunar fyrir færslur verslunar í Microsoft Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
 ms.date: 10/14/2019
@@ -18,18 +18,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3f691017ad06d3416e4ba0e86d7a0bc207aba5bd
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 7d5812893edff24a60a0e2eb3607701ac47a8a78
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004275"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057160"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions-public-preview"></a>Stofnun hlutastraumspöntunar fyrir færslur smásöluverslunar (opin forútgáfa)
 
 [!include [banner](includes/banner.md)]
-
-
 
 Í Dynamics 365 Retail útgáfu 10.0.4 og eldri útgáfum er uppgjör bókað í lok dags og allar færslur eru bókfærðar í lok dags. Vinna verður úr háum færslum innan takmarkaðs tímaramma sem leiðir stundum til álags, læsingar og vandamála við bókun á uppgjöri. Einnig kemur það í veg fyrir að söluaðilar geti skráð tekjur og greiðslur í bókhaldið yfir daginn.
 
