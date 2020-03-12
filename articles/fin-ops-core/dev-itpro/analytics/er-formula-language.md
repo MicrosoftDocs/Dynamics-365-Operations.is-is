@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b1c6a3f3fd5b55012d89a6c9f0bf2ed5dddd13c
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: bdd8b9c120fc4a860717a66b9dfa66e6b0daed93
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916661"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042712"
 ---
 # <a name="electronic-reporting-formula-language"></a>Formúlutungumál í rafrænni skýrslugerð
 
@@ -154,7 +154,7 @@ Rafræn skýrslugerð styður möguleikann á að útvíkka listann yfir aðger�
 
 Hægter að stofna samsettar segðir sem nota aðgerðir úr mismunandi flokkum, að því tilskildu að gagnagerðirnar stemmi. Þegar þú notar aðgerðir saman skaltu stemma gagnagerð framleiðslunnar frá einni aðgerð við innsláttargagnagerðina sem önnur aðgerð krefst. Til dæmis, til að forðast hugsanlega "list-is-empty" villu í bindingu á reit við ER-sniðmátsþátt skal blanda saman aðgerðum úr flokknum [Listi](er-functions-category-list.md) við aðgerð úr flokknum [Röklegt](er-functions-category-logical.md), eins og eftirfarandi dæmi sýnir. Hér notar formúlan aðgerðina [IF](er-functions-logical-if.md) til að prófa hvort listinn **IntrastatTals** sé tómur áður en hann skilar gildi nauðsynlegrar uppsöfnunar af þeim lista. Ef listinn **IntrastatTotals** er tómur skilar formúlan **0** (núlli).
 
-```
+```vb
 IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded') 
 ```
 
@@ -162,7 +162,7 @@ IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded'
 
 Oft geturðu fengið sömu gagnaflutninganiðurstöðu á marga vegu með því að nota aðgerðir úr mismunandi flokkum eða mismunandi aðgerðir úr sama flokki. Til dæmis er einnig hægt að stilla fyrri segð með því að nota aðgerðina [COUNT](er-functions-list-count.md) úr flokknum [Listi](er-functions-category-list.md).
 
-```
+```vb
 IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded') 
 ```
 

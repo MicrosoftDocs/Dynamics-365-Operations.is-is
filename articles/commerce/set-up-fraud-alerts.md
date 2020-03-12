@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b4ee6b128e473d0999885f1cb1b4dbb015026c4e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022927"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057210"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Setja upp og vinna með viðvaranir vegna svika fyrir símaver
 
@@ -54,6 +54,7 @@ Að lokum skaltu nota **Gerð athugasemdar svik** reitinn til að tilgreina þá
 Kerfið vísar til tvær tegundir af svikaviðmiðum til að ákvarða hvort pöntun verði sett í bið fyrir svik endurskoðun:
 
 - **Föst svikagögn** nota tiltekið gildi, eins og símanúmer sem hefur verið sett á svartan lista eða netfang sem hefur verið flaggað vegna sviksamlegra færslna í fortíðinni. Til að setja upp föst svikagögn, farðu í **Retail og Commerce** \> **Uppsetning rásar** \> **Uppsetning símavers** \> **Svik** \> **Föst svikagögn**. Á **Föst svikagögn** síðunni er hægt að bæta svikaviðmiðum handvirkt eða með gagnainnflutningi. Skor er fest við sviksamlegar upplýsingar. Ef kveikt er á eiginleika fyrir svikaathugun, mun sérhver sölupöntun sem færð er inn borin saman við föstu gögnin. Ef gögnin er að finna í annaðhvort greiðsluaðsetri viðskiptavinarins eða afhendingaraðsetri sem er tengt við pöntunarhausinn eða ef gögnin finnast á afhendingaraðsetri sem tengjast einhverjum af línum sölupöntunarinnar, er skor fyrir einstæða samsvörun bætt saman og borinn saman við **Lágmarksfjöldi stiga** gildi til að ákvarða hvort pöntunin ætti að vera í bið.
+
 - **Svikareglur** samanstanda af notendaskilgreindum breytur og skilyrðum sem eru skilgreind fyrir þessar breytur. Til að búa til reglur skaltu fara í **Retail og Commerce** \> **Uppsetning rásar** \> **Uppsetning símavers** \> **Svik** \> **Reglur**. Svikareglur leyfa fyrirtækinu að grunnstilla flóknara regluverk sem getur innihaldið **OG** eða **EÐA** staðhæfingar til að meta margvíslegar skilyrði. Til dæmis vill notandi allar pantanir fyrir viðskiptavini sem tilheyra tilteknum hópi viðskiptavina og sem pantaði tiltekna vöru til að setja í bið fyrir svikaleit. Í þessu tilviki, skilyrði til að sannprófa viðskiptavininn og vörur eru skilgreindar á **Reglur** síðu, og OG ástand er notað. Röð er því aðeins sett í bið ef báðir aðstæður eru sönn og ef gildi skors sem er úthlutað til þessa reglu, auk gildi skors annarra reglna sem pöntunin samsvarar, veldur því að heildarfjöldi svikastiga pöntunarinnar fer yfir **Lágmarksfjöldi stiga** gildið sem er skilgreint á **Færibreytur símavea** síðu.
 
 > [!NOTE]

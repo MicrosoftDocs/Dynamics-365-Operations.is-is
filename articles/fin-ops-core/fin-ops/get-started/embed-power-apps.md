@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 9585d5a399ebf45b0ad7640f3c4e48d8afc46cd8
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 90422a34499dab7302ad7722cf84d40e1815991c
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3017729"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042943"
 ---
 # <a name="embed-microsoft-power-apps"></a>Fella inn Microsoft Power Apps
 
@@ -55,7 +55,7 @@ Eftirfarandi leiðbeiningar sýna hvernig á að fella forrit úr Power Apps inn
 
     - Reiturinn **Heiti** gefur til kynna textann sem er sýndur fyrir hnappinn eða flipann sem mun innihalda innfellt forrit. Oft getur verið að þú viljir endurtaka heiti forritsins í þessum reit.
     - **Kenni forrits** er GUID fyrir forritið sem þú vilt fella inn. Til að sækja þetta gildi skaltu finna forritið á [web.powerapps.com](https://web.powerapps.com) og finna síðan reitinn **Kenni forrits** undir **Upplýsingar**.
-    - Fyrir **Setja inn samhengi fyrir forritið** er valfrjálst hægt að velja reitinn sem inniheldur gögnin sem þú vilt flytja yfir í forritið sem inntak. Sjá kaflann síðar í þessu efnisatriði undir heitinu [Búa til forrit sem nýtir gögn úr forritum Finance and Operations](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps) til að fá upplýsingar um hvernig forritið getur nálgast gögn sem send eru úr forritum Finance and Operations.
+    - Fyrir **Setja inn samhengi fyrir forritið** er valfrjálst hægt að velja reitinn sem inniheldur gögnin sem þú vilt flytja yfir í forritið sem inntak. Sjá kaflann síðar í þessu efnisatriði undir heitinu [Búa til forrit sem nýtir gögn úr forritum Finance and Operations](#building-an-app-that-leverages-data-sent-from-finance-and-operations-apps) til að fá upplýsingar um hvernig forritið getur nálgast gögn sem send eru úr forritum Finance and Operations.
     - Veldu **Stærð forrits** sem passar við forritsgerðina sem þú ert að fella inn. Veldu **Mjór** fyrir forrit byggt fyrir fartæki og **Breiður** fyrir forrit byggt fyrir spjaldtölvur. Þetta tryggir að nægilegt magn af plássi sé úthlutað fyrir innfellt forrit.
     - Flýtiflipinn **Lögaðilar** veitir möguleika á að velja lögaðilana sem forritið er í boði fyrir. Sjálfgefið er að gera forritið aðgengilegt í öllum lögaðilum. Þessi valkostur er aðeins í boði þegar aðgerðin [Vistaðar skoðanir](saved-views.md) er óvirk. 
 
@@ -76,7 +76,7 @@ Mikilvægur liður í því að byggja upp forrit úr Power Apps sem verður fel
 
 Til dæmis, í OnStart aðgerðinni í forritinu getur þú stillt inntaksgögnin úr forritum Finance and Operations sem í breytu eins og þessa:
 
-```
+```powerapps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
 ```
 
@@ -101,7 +101,7 @@ Fylgdu þessum skrefum til að breyta grunnstillingu á innfelldu forriti:
 
 Eftir að forit hefur verið fellt inn á síðu eru tvær leiðir til að fjarlægja það ef þörf krefur:
 
-- Farðu á svæðið **Breyta forriti** samkvæmt leiðbeiningunum úr kaflanum [Breyta innfelldu forriti](#editing-an-embedded-power-app) fyrr í þessu efnisatriði. Staðfestu að svæðið birti upplýsingar um innbyggða forritið sem þú vilt fjarlægja og smelltu síðan á hnappinn **Eyða**.
+- Farðu á svæðið **Breyta forriti** samkvæmt leiðbeiningunum úr kaflanum [Breyta innfelldu forriti](#editing-an-embedded-app) fyrr í þessu efnisatriði. Staðfestu að svæðið birti upplýsingar um innbyggða forritið sem þú vilt fjarlægja og smelltu síðan á hnappinn **Eyða**.
 - Vegna þess að innfellt forrit er vistað sem sérstillt gögn, mun hreinsun á sérstillingum síðunnar einnig fjarlægja innfelld forrit á þessari síðu. Athugaðu að hreinsun á sérstillingum síðunnar er varanleg og ekki hægt að afturkalla. Til að fjarlægja sérstillingar þínar á síðu skaltu velja **Valkostir** og smella síðan á **Sérsníða þessa síðu** og að lokum á hnappinn **Hreinsa**. Allar fyrri sérstillingar fyrir þessa síðu verða fjarlægðar þegar vafrinn er uppfærður. Sjá [Sérstilla notandaupplifun](personalize-user-experience.md) til að fá frekari upplýsingar um hvernig á að fínstilla síður með sérstillingu.
 
 ## <a name="appendix"></a>Viðauki
@@ -115,7 +115,7 @@ Að sjálfgefnu geta notendur fellt forrit inn á hvaða síðu sem er, annaðhv
 
 Eftirfarandi dæmi sýnir nýja tegund með þeim tveimur aðferðum sem þarf til að skilgreina hvar hægt er að fella inn forrit.
 
-```
+```powerapps
 [ExtensionOf(classStr(FormRunConfigurationPowerAppsConfiguration))]
 
 public final class ClassTest_Extension

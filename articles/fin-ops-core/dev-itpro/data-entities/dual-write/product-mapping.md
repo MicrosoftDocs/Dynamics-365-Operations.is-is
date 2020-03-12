@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a52e8f65e7e2a8d90ddf5efa47c07d6995ef645d
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
+ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019837"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3081152"
 ---
 # <a name="unified-product-experience"></a>Samræmd afurðaupplifun
 
@@ -109,7 +109,7 @@ Athugaðu að samstilling vara fer fram úr forritum Finance and Operations í C
 
 Afurðavíddir eru einkenni sem auðkenna afurðarafbrigði. Fjórar vöruvíddir (Litur, Stærð, Stíll og Stilling) er einnig varpað á Common Data Service til að skilgreina afbrigði afurða. Eftirfarandi mynd sýnir gagnalíkanið fyrir afurðavíddina Litur. Sama líkani er beitt á stærðir, stíl og stillingar. 
 
-![Gagnamódel fyrir afurðir](media/dual-write-product-2.PNG)
+![Gagnamódel fyrir afurðir](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +145,7 @@ Sjálfgefið pöntunarstillingar skilgreina svæði og vöruhús þar sem afurð
 
 Mælieiningarnar og umreikningur á þeim eru aðgengilegar í Common Data Service eftir gagnalíkaninu sem sýnt er á myndinni.
 
-![Gagnamódel fyrir afurðir](media/dual-write-product-3.PNG)
+![Gagnamódel fyrir afurðir](media/dual-write-product-three.png)
 
 Mælieiningin er samþætt á milli forrita Finance and Operations og annarra forrita Dynamics 365. Fyrir hvern einingaflokk í forriti Finance and Operations er einingahópur búinn til í forriti Dynamics 365, sem hefur að geyma einingar sem tilheyra einingaflokknum. Sjálfgefin grunneining er einnig búin til fyrir hvern einingahóp. 
 
@@ -201,17 +201,17 @@ Afurðareglurnar eru reglur sem notaðar eru til að skilgreina afurðir og eigi
 
 ## <a name="integration-key-for-products"></a>Sameiningartakki fyrir vörur 
 
-Til að auðkenna vörur á milli Dynamics 365 for Finance and Operations og vörur í Common Data Service eru samstillingarlyklarnir notaðir. Fyrir afurðir er **(productnumber)** einkvæmur lykill sem auðkennir afurð í Common Data Service. Hann er samsettur með samtengingu af: **(company, msdyn_productnumber)**. **Fyrirtækið** gefur til kynna lögaðila í Finance and Operations og **msdyn_productnumber** sýnir vörunúmer fyrir tiltekna vöru í Finance and Operations. 
+Til að auðkenna vörur á milli Dynamics 365 for Finance and Operations og vörur í Common Data Service eru samstillingarlyklarnir notaðir. Fyrir afurðir er **(productnumber)** einkvæmur lykill sem auðkennir afurð í Common Data Service. Hann er samsettur með samtengingu á: **(company, msdyn_productnumber)**. **Fyrirtækið** gefur til kynna lögaðila í Finance and Operations og **msdyn_productnumber** sýnir vörunúmer fyrir tiltekna vöru í Finance and Operations. 
 
 Fyrir annan notanda Dynamics 365 forrits er varan auðkennd í UI með **msdyn_productnumber** (athugið að merki reitsins er **Vörunúmer**). Á vöruforminu eru bæði fyrirtækið og msydn_productnumber sýnt. Hins vegar er reiturinn (productnumber), sem er einstakur lykill fyrir afurð, ekki sýndur. 
 
-Athugaðu að ef forrit eru byggð ofan á Common Data Service, ber að fylgjast sérstaklega með því að nota (productnumber), það er einstakt vöruauðkenni, sem samþættingarlykil en ekki msdyn_productnumber, vegna þess að hið síðara er ekki einstakt. 
+Ef þú byggir forrit á Common Data Service, ættir þú að passa að nota **productnumber** (einkvæmt afurðakenni) sem samþættingarlykill. Ekki nota **msdyn_productnumber** þar sem það er ekki einkvæmt. 
 
 ## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>Upphafleg samstilling vöru og flutningur gagna úr Common Data Service í Finance and Operations
 
 ### <a name="initial-synchronization-of-products"></a>Upphafleg samstilling á afurðum 
 
-Þegar tvöföld skrift er virkjuð eru afurðir úr Dynamics 365 Finance and Operations samstilltar við Common Data Service og önnur Dynamics 365 forrit. Athugaðu að vörur búnar til í Common Data Service og öðrum forritum Dynamics 365 á undan tvöfaldri ritun, verða ekki uppfærð eða passa við vörugögn úr Finance and Operations.
+Þegar tvöföld skrift er virkjuð eru afurðir úr forritum Finance and Operations samstilltar við Common Data Service og önnur líkanadrifin forrit Dynamics 365. Afurðir stofnaðar í Common Data Service og öðrum forritum Dynamics 365 áður en tvöfaldri ritun var gefin út verða ekki uppfærðar eða jafnaðar við afurðaögn úr forritum Finance and Operations.
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Samsvarandi vörugögn úr Finance and Operations og öðrum Dynamics 365 forritum
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98919f40751a77465ae26acbd46af4396c588b13
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 9e550b0c7634c7aac3f8c597a1c1eac3f8125e3b
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916408"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070714"
 ---
 # <a name="DATETIMEFORMAT">DATETIMEFORMAT ER-aðgerð</a>
 
@@ -33,13 +33,13 @@ Aðgerðin `DATETIMEFORMAT` skilar *String*-gildi sem setur fram tiltekið dagse
 
 ## <a name="syntax-1"></a>Málskipun 1
 
-```
+```vb
 DATETIMEFORMAT (datetime, format)
 ```
 
 ## <a name="syntax-2"></a>Málskipun 2
 
-```
+```vb
 DATETIMEFORMAT (datetime, format, culture)
 ```
 

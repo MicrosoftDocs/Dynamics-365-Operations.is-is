@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
-ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
+ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "2810700"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3058018"
 ---
 # <a name="one-voucher"></a>Eitt fylgiskjal
 
@@ -156,7 +156,7 @@ Fyrirtæki vilja oft bóka í samantekt fjárhagsbókar til að lágmarka gagnam
 
 ### <a name="settle-multiple-unposted-payments-to-the-same-invoice"></a>Gera upp margar óbókaðar greiðslur á sama reikninginn
 
-Þessi atburðarás er venjulega að finna í smásölufyrirtækjum þar sem viðskiptavinir geta notað margar greiðsluaðferðir til að greiða fyrir innkaup. Í þessari tilfelli verður fyrirtækið að geta skráð margar óbókaðar greiðslur og jafna þær á móti reikningi viðskiptavinar.
+Þessi atburðarás er venjulega að finna í fyrirtækjum þar sem viðskiptavinir geta notað margar greiðsluaðferðir til að greiða fyrir innkaup. Í þessari tilfelli verður fyrirtækið að geta skráð margar óbókaðar greiðslur og jafna þær á móti reikningi viðskiptavinar.
 
 Nýr eiginleiki sem var bætt í Microsoft Dynamics 365 for Operations útgáfa 1611 (nóvember 2016) gerir kleift að gera upp margar óbókaðar greiðslur á móti einum reikningi. Margar greiðslur viðskiptavina þurfa ekki lengur að vera færðar inn í eitt fylgiskjal.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f819139e74d81d24810c63bae1de19358983b9
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 316a626e6a18f0afda632111138482f62f6809db
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015270"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057671"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Kreditbið fyrir sölupantanir
 [!include [banner](../includes/banner.md)]
@@ -264,7 +264,7 @@ Ekki er hægt að vinna með sölupantanir sem hafa verið þvingaðar í bið m
 #### <a name="releasing-orders-that-were-added-to-the-credit-management-hold-list-with-a-forced-credit-hold"></a>Slepptu pöntunum sem bættust við lánalistastjórnina með neyddri lánsheimild
 Ekki er hægt að gefa út sölupantanir sem eru með nauðungarástæður sjálfkrafa. Ef sölupöntuninni var þvingað í bið og þú hefur notað ferli sem sleppir sjálfkrafa sölupöntunum birtist sölupöntunin sem **Tilbúin til losunar** og vera áfram á biðlistanum. Þú verður að nota valmyndina **Losa** til að losa pöntunina.
  
-## <a name="free-text-invoices-retail-orders-and-project-invoice-support-in-credit-management"></a>Reikningar með frjálsum texta, smásölupantanir og stuðningur við reikninga vegna verkefna í lánamálastjórnun 
-Lánastjórnun er aðeins hægt að nota sem stendur við sölupantanir. Frítextareikningar, smásölupunktur sölupantana og pantanir í símaþjónustuverum nota tímabundin lánamörk og tryggingar / ábyrgðir sem þú bætir við til að laga lánsheimildina. Þeir munu ekki nota hindrunarreglurnar og þær verða ekki settar á biðlista ef það er vandamál með lánsfjárhæðina.
+## <a name="free-text-invoices-orders-and-project-invoice-support-in-credit-management"></a>Reikningar með frjálsum texta, pantanir og stuðningur við reikninga vegna verkefna í lánastýringu 
+Lánastjórnun er aðeins hægt að nota sem stendur við sölupantanir. Frítextareikningar, sölupunktur sölupantana og pantanir í símaþjónustuverum nota tímabundin lánamörk og tryggingar/ábyrgðir sem þú bætir við til að laga lánsheimildina. Þeir munu ekki nota hindrunarreglurnar og þær verða ekki settar á biðlista ef það er vandamál með lánsfjárhæðina.
 
 Það er enginn stuðningur við reikninga verkefna í lánamálum.

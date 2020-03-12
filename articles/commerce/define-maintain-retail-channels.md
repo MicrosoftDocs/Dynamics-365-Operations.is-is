@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 63639d69af90c6aa37bbf7af7868bca71942063f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0fbca2c9178cd372653287afdf72deaf75442604
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022866"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057915"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Skilgreina og vinna með smásölurásir
 
@@ -47,9 +47,9 @@ Commerce styður fjölda smásölurása, þ.m.t. netverslanir og markaðstorg á
 3. Setja upp númeraraðir fyrir verslanir, verslunaruppgjör og uppgjör fylgiskjöl.
 4. Skilgreina færibreytur fyrir Commerce.
 5. Setja upp greiðsluhátt sem verslunin tekur á móti.
-6. Til að vinna úr kreditkortafærslum á sölustað (POS) smásölukassa, er einnig hægt að setja upp greiðsluþjónustu.
+6. Til að vinna úr kreditkortafærslum á sölustað (POS) kassa, er einnig hægt að setja upp greiðsluþjónustu.
 7. Setja upp VSK-flokka.
-8. Setja upp smásöluafurðir. Sem hluti af þessu verki, er einnig sett upp stigveldi afurðar, afurðarafbrigði og úrvali afurða.
+8. Setja upp afurðir. Sem hluti af þessu verki, er einnig sett upp stigveldi afurðar, afurðarafbrigði og úrvali afurða.
 9. Setja upp verðflokka afurðar.
 10. Setja upp afurðaverðlagningu. Sem hluti af þessu verki, er einnig sett upp verðleiðrétting, afslættir og afsláttartímabil.
 11. Setja upp starfsfólk
@@ -87,5 +87,5 @@ Eftir að þú slærð inn upplýsingar fyrir verslun þarf að ljúka þessum v
 Commerce notar stigveldi stofnunar fyrir uppbyggingu á rásum. Stigveldi fyrirtækis standa fyrir vensl á milli fyrirtækja sem þú ert með saman í rekstri. Þegar að settar eru upp verslanir er hægt að bæta þeim við stigveldi fyrirtækis. Verslanir deila sem notaður er fyrir úrval áfyllingar og skýrslugerð.
 
 > [!NOTE]
-> Til að nota söluaðgerðir Retail verður stillingarlykilinn fyrir **Sent mörgum** að vera virkur. Þennan stillingarlykil er að finna í lyklunum **Stillingu viðskipta** undir **Kerfisstjórnun**\> **Uppsetning** \> **Stilling leyfis**. Þetta er nauðsynlegt vegna Retail- aðgerða sem framkvæma ýmsar sannprófanir á grundvelli afhendingarfangs sem er stillt á sölupöntunarlínustig.
+> Til að nota söluaðgerðir Commerce verður stillingarlykilinn fyrir **Sent mörgum** að vera virkur. Þennan stillingarlykil er að finna í lyklunum **Stillingu viðskipta** undir **Kerfisstjórnun**\> **Uppsetning** \> **Stilling leyfis**. Þetta er nauðsynlegt vegna ýmissa sannprófana á grundvelli afhendingarfangs sem er stillt á sölupöntunarlínustig.
 

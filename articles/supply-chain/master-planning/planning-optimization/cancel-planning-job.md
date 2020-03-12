@@ -3,7 +3,7 @@ title: Hætta við áætlunarvinnslu
 description: Þetta efni útskýrir hvernig á að hætta við virka áætlunarvinnslu sem notar virknina fínstillingu skipulagningar.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/26/2019
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,21 +19,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a2d90f04985fdd66ca83582ee676100fffb26981
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 18c5c7b8030fc6adbc548dab750e4f454aebc867
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773984"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076347"
 ---
+# <a name="cancel-a-planning-job"></a>Hætta við áætlunarverk
+
 [!include [banner](../../includes/banner.md)]
 [!include [banner](../../includes/preview-banner.md)]
 
-# <a name="cancel-a-planning-job"></a>Hætta við áætlunarvinnslu
+Í Microsoft Dynamics 365 Supply Chain Management er hægt að hætta við virka áætlunarvinnslu sem notar virknina fínstillingu skipulagningar. Þegar þú velur **Hætta við** í glugganum þegar fínstillingarvinnsla áætlunar virkjast beint úr notendaviðmótinu (ekki í bakgrunni) mun þetta ekki afturkalla fínstillingarvinnsluna. Jafnvel þó þú fáir viðvörun eins og „Aðgerð afturkölluð“, verður þú samt að nota eftirfarandi skref til að hætta við áætlunarvinnslu með fínstillingu áætlanagerðar.
 
-Í Microsoft Dynamics 365 Supply Chain Management er hægt að hætta við virka áætlunarvinnslu sem notar virknina fínstillingu skipulagningar.
 
-Fylgdu þessum skrefum til að hætta við virka áætlunarvinnslu.
+Fylgdu þessum skrefum til að hætta við virka áætlunarvinnslu. 
 
 > [!NOTE]
 > Aðeins er hægt að hætta við virkar vinnslur.
@@ -49,11 +50,11 @@ Vinnslustaðan verður **Hættir við** þar til fínstillingarþjónusta áætl
 > [!NOTE]
 > Til að sjá stöðubreytingar verður þú að endurnýja síðuna með því að velja hnappinn **Endurhlaða**.
 
-## <a name="related-resources"></a>Tengd tilföng
+## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit yfir fínstillingu skipulagningar](planning-optimization-overview.md)
+[Yfirlit yfir fínstillingu áætlanagerðar](planning-optimization-overview.md)
 
-[Byrjaðu með hagræðingu skipulags](get-started.md)
+[Hafist handa með fínstillingu áætlanagerðar](get-started.md)
 
 [Greining á samsvörun áætlunarfínstillingar](planning-optimization-fit-analysis.md)
 

@@ -19,17 +19,17 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a61529da63bc20fdd591afc94db960b05c284bb9
-ms.sourcegitcommit: b806f0c94d703bec39680fead827733361d47045
+ms.openlocfilehash: 25f3b39d0e6e88eb3f042ab93773e9724528ab0f
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935876"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076179"
 ---
+# <a name="planning-optimization-fit-analysis"></a>Greining á samsvörun áætlunarfínstillingar
+
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
-
-# <a name="planning-optimization-fit-analysis"></a>Greining á samsvörun áætlunarfínstillingar
 
 Til að sjá hversu samhæf núverandi uppsetning og gögn eru við virkni fínstillingar áætlunarinnar ferðu í **Aðaláætlunargerð** \> **Uppsetning** \> **Greining á samsvörun áætlunarfínstillingar** og veldu síðan **Keyra greiningu**. Ef greiningin finnur fyrir ósamræmi eru þau skráð á sömu síðu. (Greiningin getur tekið nokkrar mínútur í keyrslu.)
 

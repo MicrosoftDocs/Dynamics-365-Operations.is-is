@@ -1,9 +1,9 @@
 ---
-title: Samþætting gagna í næstum rauntíma við Common Data Service
-description: Þetta efnisatriði veitir yfirlit yfir samþættingu á milli Finance and Operations og Common Data Service.
+title: Yfirlit yfir tvöfalt skriftarverk
+description: Þetta efni veitir yfirlit tvöföld skriftarverk. Tvöföld skriftarverk er grunngerð sem veitir nær rauntíma samskipti á milli Microsoft Dynamics 365 líkanaknúinna forrita og Finance and Operations forrita.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/15/2019
+ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,59 +18,91 @@ ms.search.region: global
 ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1c09b0c0bb695e7695acb7a8821ffb99ae1f6f06
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 12c6a39700a260c138fab67ed370f94b3aa04213
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019842"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3075988"
 ---
-# <a name="near-real-time-data-integration-with-common-data-service"></a>Samþætting gagna í næstum rauntíma við Common Data Service
+# <a name="dual-write-overview"></a>Yfirlit yfir tvöfalt skriftarverk
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
-Í núverandi stafrænum heimi nota vistkerfi fyrirtækja Microsoft Dynamics 365 forritin sem heild. Vegna þess að gögn frá fólki, viðskiptavinum, aðgerðum og Internet of Things (IoT) tækjum streyma inn í eina uppsprettu er tækifæri fyrir stafrænar endurgjafarlykkjur. Til að ná þessari reynslu er samþætting á milli forrita Finance and Operations og annarra forrita Dynamics 365 nauðsynleg. Sum forrit eru byggð ofan á Common Data Service. Samþætting milli forritsgagna Finance and Operations og Common Data Service gerir öðrum forritum kleift að eiga samræmd og lipur samskipti við Finance and Operations.
+## <a name="what-is-dual-write"></a>Hvað er tvískipt skriftarverk?
 
-Forrit Finance and Operations og Common Data Service bjóða upp á samstillingu gagna í rauntíma milli forrita Finance and Operations og annarra forrita Dynamics 365 með tvískiptum ramma. Umfjöllunin er breið og spannar 28 yfirborðssvið í forritinu. Markmiðið er að bjóða upp á „One Dynamics 365“ notendaupplifun með óaðfinnanlegu gagnastreymi sem tengir viðskiptaferla milli forrita.
+Tvöföld skriftarverk er tilbúin grunngerð sem veitir nær rauntíma samskipti á milli líkanaknúninna forrita í Microsoft Dynamics 365 og Finance and Operations forrita. Þegar gögn um viðskiptavini, afurðir, fólk og rekstur streyma út fyrir forritamörk, verðar allar deildir fyrirtækis öflugri.
 
-![Yfirlitsmynd arkitektúrs](media/dual-write-overview.jpg)
+Tvöföld skriftarverk veitir þétt samtengingu, tvíátta samþættingu milli Finance and Operations forrita og Common Data Service. Allar gagnabreytingar í forritum Finance and Operations valda skrifum í Common Data Service og allar gagnabreytingar í Common Data Service valda skrifum í forrit Finance and Operations. Þetta sjálfvirka gagnaflæði veitir samþætta notendaupplifun í forritunum.
 
-Eftirfarandi gildistillögur eru í boði:
+![Gagnasamband milli forrita](media/dual-write-overview.jpg)
 
-+ [Stigveldi fyrirtækis í Common Data Service](organization-mapping.md)
-+ [Fyrirtækishugtak í Common Data Service](company-data.md)
-+ [Samþættur aðalviðskiptavinur](customer-mapping.md)
-+ [Samþættur fjárhagur](ledger-mapping.md)
-+ [Samræmd afurðaupplifun](product-mapping.md)
-+ [Samþættur aðallánardrottinn](vendor-mapping.md)
-+ [Samþætt svæði og vöruhús](sites-warehouses-mapping.md)
-+ [Samþættur aðalskattur](tax-mapping.md)
+Tvíritun hefur tvo þætti: *Innviðaþátt* og *forritsþátt*.
 
-## <a name="system-requirements"></a>Kerfiskröfur
+### <a name="infrastructure"></a>Grunnvirki
 
-Samstillt, tvíátta, nær rauntíma gagnaflæði krefst eftirfarandi útgáfa:
+Innbyggingin með tvískiptum skrifum er teygjanleg og áreiðanleg og inniheldur eftirfarandi lykilatriði:
 
-+ Microsoft Dynamics 365 for Finance and Operations útgáfa 10.0.4 (júlí 2019) með verkvangsuppfærslu 28 eða hærra
-+ Microsoft Dynamics 365 for Customer Engagement útgáfa 9.1. (4.2) eða nýrri
++ Samstillt og tvíátta gagnaflæði milli forrita
++ Samstilling, ásamt spilunar-, hlé- og tímaflakksstillingum til að styðja við kerfið í net- og ótengdum/ósamstilltum stillingum.
++ Geta til að samstilla upphafsgögn milli forritanna
++ Samþjöppuð sýn á verkþátta- og villuskrár fyrir gagnastjórnendur
++ Geta til að stilla sérsniðnar viðvaranir og viðmiðunarmörk og gerast áskrifandi að tilkynningum
++ Leiðandi notendaviðmót (UI) fyrir síun og umbreytingu
++ Geta til að stilla og skoða ósjálfstæði og sambönd eininga
++ Stækkanleiki fyrir bæði staðlaðar og sérsniðnar einingar og kort
++ Áreiðanleg stjórnun á líftíma forrits
++ Tilbúin uppsetningarupplifun viðskiptavina fyrir nýja viðskiptavini
 
-## <a name="setup-instructions"></a>Leiðbeiningar um uppsetningu
+### <a name="application"></a>Forrit
 
-Fylgið eftirfarandi skrefum til að setja upp samþættingu milli forrita Finance and Operations og Common Data Service.
-    
-1. Upplýsingar um uppsetningu tvískiptakerfisins er að finna í [skref-fyrir-skref leiðbeiningar](https://aka.ms/dualwrite-docs) um tilkynningu forskoðunar á tvöföldum skrifum.
-2. Sæktu og settu upp lausnina úr [Fin Ops og CDS/CE samþætting í gegnum tvískipt skrif](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096) Yammer-hópnum. Pakkinn inniheldur fimm lausnir:
+Tvöföld skriftarverk búa til vörpun á milli hugtaka í Finance and Operations forritum og hugtökum í líkanaknúnum forritum í Dynamics 365. Þessi samþætting styður eftirfarandi atburðarásir:
 
-    + Dynamics365Company
-    + CurrencyExchangeRates
-    + Dynamics365FinanceAndOperationsCommon
-    + Dynamics365FinanceCommon
-    + Dynamics365SupplyChainCommon
++ Samþættur aðalviðskiptavinur
++ Aðgangur að vildarkortum viðskiptavina og verðlaunapunkta
++ Samræmd afurðarsniðmátaupplifun
++ Meðvitund um stigveldi fyrirtækis
++ Samþætt lánardrottinssniðmát
++ Aðgangur að fjárhags- og skattatilvísunargögnum
++ Reynsla verðvélar eftir þörfum
++ Samþætt reynsla viðfangs til sjóðstreymis
++ Geta til að þjóna bæði eigin eignum og eignum viðskiptavina í gegnum umboðsmenn svæðisins
++ Samþætt reynsla af öflun til að greiða
++ Innbyggt athæfi og athugasemdir fyrir gögn viðskiptavina og skjöl
++ Geta til að leita að tiltækum birgðum og smáatriðum
++ Verk til reiðfjár-upplifun
++ Geta til að takast á við mörg heimilisföng og hlutverk í gegnum aðilahugtakið
++ Stjórnun á einum stað fyrir notendur
++ Innbyggðar rásir fyrir smásölu og markaðssetningu
++ Sýnileiki í kynningum og afslætti
++ Biðja um þjónustu aðgerðir
++ Staumlínulagaðar þjónustuaðgerðir
 
-3. Fylgdu framkvæmdarskipuninni fyrir [samstilla fyrstu tilvísunargögn](initial-sync.md).
-4. Ef þú lendir í tvískiptum samstillingarvandamálum skaltu skoða [Úrræðaleiðbeiningar fyrir samþættingu gagna](dual-write-troubleshooting.md).
+## <a name="top-reasons-to-use-dual-write"></a>Helstu ástæður til að nota tvískipt skrif
 
-> [!IMPORTANT]
-> Þú getur ekki keyrt tvískipt skrif og [Viðfang til sjóðsstreymis](../../../../supply-chain/sales-marketing/prospect-to-cash.md) hlið við hlið. Ef þú ert að keyra lausnina Viðfang til sjóðsstreymis verður þú að fjarlægja hana. Þú verður einnig að slökkva á tvöföldum skrifasniðmátum viðskiptavinar og lánardrottins sem eru hluti af lausninni Viðfang til sjóðsstreymis.
+Tvöföld skrifa veitir samþættingu gagna í öllu forritum Microsoft Dynamics 365. Þessi öflugi rammi tengir umhverfi og gerir ólíkum viðskiptaforritum kleift að vinna saman. Hér eru helstu ástæður þess að þú ættir að nota tvískipt skrif:
+
++ Tvöföld skrifa veitir þétt samtengd, næstum rauntíma og tvíátta samþættingu milli forrita Finance and Operations og líkanadrifinna forrita í Dynamics 365. Þessi samþætting gerir Microsoft Dynamics 365 að því eina sem þarf fyrir allar viðskiptalausnir þínar. Viðskiptavinir sem nota Dynamics 365 Finance og Dynamics 365 Supply Chain Management, en sem nota lausnir utan Microsoft fyrir stjórnun tengsla við viðskiptavini (CRM), fara í átt að Dynamics 365 fyrir tvískiptan stuðning.
++ Gögn frá viðskiptavinum, vörum, rekstri, verkefnum og net hlutanna (IoT) renna sjálfkrafa til Common Data Service í gegnum tvískipt skrif. Þessi tenging er mjög gagnleg fyrir fyrirtæki sem hafa áhuga á Microsoft Power Platform stækkanir.
++ Tvöfaldur-skrifa innviði fylgir meginreglunni um enga kóða/lágkóða. Lágmarks verkfræðiátak er krafist til að framlengja venjulegar varpanir frá töflu til töflu og fela í sér sérsniðnar varpanir.
++ Tvöföld skriftarverk styðja bæði netstillingu og ótengda stillingu. Microsoft er eina fyrirtækið sem býður upp á stuðning við net- og ótengdar stillingar.
+
+## <a name="what-does-dual-write-mean-for-users-and-architects-of-crm-products"></a>Hvað þýðir tvískipt skrif fyrir notendur og arkitekta CRM vörur?
+
+Tvöfaldur skrifa sjálfvirkt gagnaflæðið á milli Finance and Operations forrita og Common Data Service. Í framtíðarútgáfum verða hugtök í líkanaknúnum forritum í Dynamics 365 (til dæmis viðskiptavini, tengiliður, tilvitnun og röð) stiguð til viðskiptavina á miðjum markaði og efri miðju markaðarins.
+
+Í fyrstu útgáfunni er mest af sjálfvirkni meðhöndluð með tvískiptum lausnum. Í framtíðarútgáfum verða þessar lausnir hluti af Common Data Service. Með því að skilja væntanlegar breytingar á Common Data Service, þú getur sparað þér áreynslu til langs tíma. Hér eru sumar af mikilvægum breytingunum:
+
++ Common Data Service mun hafa ný hugtök, svo sem fyrirtæki og aðila. Þessi hugtök hafa áhrif á öll forrit sem eru byggð á Common Data Service, svo sem Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service og Dynamics 365 Field Service.
++ Starfsemi og athugasemdir eru sameinaðar og stækkaðar til að styðja bæði C1 (notendur kerfisins) og C2 (viðskiptavini kerfisins).
++ Hér eru sumar af komandi breytingunum í Common Data Service:
+
+    - Tugagagnagerð kemur í stað peningagagnagerðarinnar.
+    - Dagvirkni mun styðja fyrri, nútíð og framtíðargögn á sama stað.
+    - Það verður meiri stuðningur við gjaldmiðil og gengi og **Gengi** forritunarviðmót forrita (API) verður endurskoðað.
+    - Stuðningur við umreiking eininga verður studdur.
+
+Fyrir frekari upplýsingar um væntanlegar breytingar, sjá [Gögn í Common Data Service - áfangi 1 og 2](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/extensibility/extensibility-roadmap).

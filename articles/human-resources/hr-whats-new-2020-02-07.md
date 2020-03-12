@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 78043273fb98a12a8d33f7bb94ba8ad2e9fb49fb
-ms.sourcegitcommit: 13c4a6f98ccce243d6befde90992aefcf562bdab
+ms.openlocfilehash: c6ca9877eb172794c67ac55b8dc54ed28af9576d
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029958"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076271"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-7-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (7. febrúar 2020)
 
@@ -47,7 +47,7 @@ Eftirfarandi forskoðunaraðgerðir eru í boði 3. febrúar 2020:
 
 - **Forskoðunareiginleikar Leyfis og fjarvista** - Frekari upplýsingar um stjórnun leyfa og fjarvista er að finna í [Forskoðunareiginleikar leyfis og fjarvista](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
 
-- **Forskoðunareiginleiki fríðindastjórnunar** - Sjá frekari upplýsingar, þ.mt þekkt mál [Yfirlit yfir ávinning stjórnenda](hr-benefits-management-overview.md).
+- **Forskoðunareiginleiki fríðindastjórnunar** - Frekari upplýsingar, þ.m.t. þekkt vandamál, er að finna í [Yfirlit yfir ávinning stjórnenda](hr-benefits-management-overview.md).
 
 ## <a name="coming-soon"></a>Væntanlegt
 
@@ -68,5 +68,11 @@ Nýtt Common Data Service lausn mun liggja fyrir fljótlega með eftirfarandi br
 | Nýir uppsetningaraðilar breytilegra bóta | **Fyrirkomulagsgerð breytilegra uppbóta**</br>**Fyrirkomulag breytilegra uppbóta**</br>**Veitireglur**</br>**Fyrirkomulagsstig breytilegra uppbóta** |
 | Nýtt **Starfsmaður dagatal atvinnu** eining | **Vinnudagatalseining** bætt við |
 | Ný eining **Upplýsinga um launastöðu** | **Upplýsingar um launastöðu** bætt við |
-| Einingin nýr **Titill** | **Titill** bætt við. Nýji **Titill** eining verður með í samstillingarferlinu milli Human Resources og Common Data Service, en upphaflega verður ekki vísað frá því **Starfsstaða** eða **Starf** einingar. |
+| Einingin nýr **Titill** | **Titill** bætt við. Nýja einingin **Titill** verður með í samstillingarferlinu milli Human Resources og Common Data Service. Ekki verður upphaflega vísað í hana úr einingunum **Staða starfs** eða **Starf**. |
 
+## <a name="see-also"></a>Sjá einnig
+
+[Nýjungar eða breytingar í Human Resources](hr-admin-whats-new.md)</br>
+[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Uppfærsluferli](hr-admin-setup-update-process.md)</br>
+[Vinna með eiginleika](hr-admin-manage-features.md)

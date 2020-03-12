@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ff9d722640c86333cb1f9174c640adc2e76e9a5f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 45677681ebae40210d6e2d896323f7e691b765e2
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022976"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057557"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Yfirlit yfir fjárhagssamþættingu fyrir Commerce-rásir
 
@@ -36,7 +36,7 @@ ms.locfileid: "3022976"
 - Senda inn upplýsingar á öruggan hátt sem tengjast sölu og skilum sem er lokið í Retail POS til utanaðkomandi vefþjónustu sem er starfrækt af skattyfirvöldum.
 - Hjálpar til við að tryggja stöðugleika sölufærslugagna með stafrænum undirskriftum.
 
-Virkni fjárhagssamþættingar er rammi sem veitir algenga lausn fyrir frekari þróun og sérstillingu á samþættingunni milli Retail POS og fjárhagstæki og þjónustu. Virknin felur einnig í sér sýnishorn fjárhagssamþættingar sem styður einfaldar aðstæður smásölu fyrir tilgreind lönd eða svæði, og sem vinna með tiltekin fjárhagstæki og þjónustu. Sýnishorn fjárhagssamþættingar samanstendur af nokkrum viðbótum af Commerce-íhlutum og er hluti af þróunarpakka hugbúnaðarins (SDK). Nánari upplýsingar um dæmi fjárhagssamþættingar er að finna í [Dæmi um fjárhagssamþættingu í Retail SDK](#fiscal-integration-samples-in-the-retail-sdk). Upplýsingar um hvernig skuli setja upp og nota Retail SDK er að finna í [Skipulag Retail hugbúnaðarþróunarsetts (SDK)](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+Virkni fjárhagssamþættingar er rammi sem veitir algenga lausn fyrir frekari þróun og sérstillingu á samþættingunni milli Retail POS og fjárhagstæki og þjónustu. Virknin felur einnig í sér sýnishorn fjárhagssamþættingar sem styður einfaldar aðstæður fyrir tilgreind lönd eða svæði, og sem vinna með tiltekin fjárhagstæki og þjónustu. Sýnishorn fjárhagssamþættingar samanstendur af nokkrum viðbótum af Commerce-íhlutum og er hluti af þróunarpakka hugbúnaðarins (SDK). Nánari upplýsingar um dæmi fjárhagssamþættingar er að finna í [Dæmi um fjárhagssamþættingu í Retail SDK](#fiscal-integration-samples-in-the-retail-sdk). Upplýsingar um hvernig skuli setja upp og nota Retail SDK er að finna í [Skipulag Retail hugbúnaðarþróunarsetts (SDK)](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Til að styðja við aðrar aðstæður sem ekki eru studdar af sýnishorni fjárhagssamþættingar, til að samþætta Retail POS við önnur fjárhagstæki eða þjónustur, eða til að ná utan um kröfur annarra landa eða svæða, verður þú annaðhvort að stækka núverandi sýnishorn fjárhagssamþættingar eða stofna nýtt sýnishorn með því að nota núverandi sýnishorn sem dæmi.
 

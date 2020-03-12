@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: de0981d3200c2b1d62cab7600d2382bd11dd4b20
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 5501f4d39709990eb352511477b1427fb265afde
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002244"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057834"
 ---
 # <a name="cloud-powered-search-overview"></a>Leitaryfirlit í skýinu
 
@@ -33,7 +33,7 @@ ms.locfileid: "3002244"
 
 ## <a name="overview"></a>Yfirlit
 
-Vöruuppgötvun hjálpar til við að tryggja að viðskiptavinir geti fundið vörur fljótt og auðveldlega með því að vafra um flokka, leita og sía. Smásalar líta á vöruuppgötvun sem aðalverkfæri til að hafa samskipti við viðskiptavini á öllum smásölurásum.
+Vöruuppgötvun hjálpar til við að tryggja að viðskiptavinir geti fundið vörur fljótt og auðveldlega með því að vafra um flokka, leita og sía. Smásalar líta á vöruuppgötvun sem aðalverkfæri til að hafa samskipti við viðskiptavini á öllum rásum.
 
 Viðskiptavinir eru vanir nánast samstundis svartímum vefleitarvéla, háþróuðum netverslunarsíðum, félagslegum forritum, sjálfvirkum uppástungum sem birtast þegar þeir slá inn leitarskilyrði, hliðarleiðsögn og auðkenningu. Ef viðskiptavinir geta ekki fundið vöruna sem þeir eru að leita að nógu fljótt í einni verslun með netverslun, munu þeir ekki hika við að fara í aðra netverslun.
 

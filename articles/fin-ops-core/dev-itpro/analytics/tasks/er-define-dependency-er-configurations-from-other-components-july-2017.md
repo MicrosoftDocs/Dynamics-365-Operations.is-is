@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97aedf17bb6fa67fd08497ec6e15a7c92866fa4d
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 468a2637f4a5b2b7ff3514c92c52fb26b9231bc4
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026111"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042920"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Skilgreina hversu mikil áhrif ER grunnstillingar hafa á aðra hluta
 
@@ -140,4 +140,3 @@ Við munum eyða stofnuðum grunnstillingum úr kerfinu og hlaða þeim aftur ni
 26. Stækkið „Sýnigagnalíkan“, í trénu.
     * Athugið að grunnstillingum líkans „Sýnivörpun“ vörpun hefur verið hlaðið niður með völdum grunnstillingum gagnalíkans. Þessum tveimur skrám er hlaðið saman niður vegna þess að „Sýnivörpun“ hefur verið skilgreind sem framkvæmd valins gagnalíkans, og vegna þess að þær eru nothæfar í forritinu. Grunnstillingu „Sýnivörpun (valmöguleiki)“ hefur ekki verið hlaðið niður vegna þess að skilyrði fyrir útgáfu forritsins sem er krafist eru ekki uppfyllt.   
     * Ef þú skráir þig inn í Finance and Operations, skráir sömu veitu, færð aðgang að sama LCS verkinu, og hleður niður sömu grunnstillingum fyrir gagnalíkan, mun „Sýnivörpun (valmöguleiki)“ grunnstillingar hlaðast niður, en „Sýnivörpun“ grunnstillingar verður sleppt.  
-

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dd72c8a54498cc6ffae7125c5c2f44bfac5a5995
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 88ba96b1d9d2f722528a4a920eabe4ab64304a7a
+ms.sourcegitcommit: 4f668b23f5bfc6d6502858850d2ed59d7a79cfbb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658645"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3059429"
 ---
 # <a name="mobile-invoice-approvals"></a>Reikningssamþykktir í fartækjum
 
@@ -54,8 +54,8 @@ Hvert fyrirtæki skipuleggur og skilgreinir mismunandi viðskiptaferli fyrir rei
     -   Hversu margar dreifingar á fjárhagsupphæð (heildarverð, vsk, gjöld, skipti og svo framvegis) eru fyrir reikningslínu? Aftur skal nota 80-20 reglu.
     -   Eru reikningarnir einnig með dreifingu fjárhagsupphæða í haus reiknings? Ef svo er, ættu þessar dreifingar á fjárhagsupphæð að vera tiltækar í tækinu?
 
-> [!NOTE]
-> Þetta efnisatriði útskýrir ekki hvernig á að breyta dreifingu fjárhagsupphæða þar sem þessi virkni er ekki studd eins og stendur fyrir farsímaaðstæður.
+    > [!NOTE]
+    > Þetta efnisatriði útskýrir ekki hvernig á að breyta dreifingu fjárhagsupphæða þar sem þessi virkni er ekki studd eins og stendur fyrir farsímaaðstæður.
 
 -   Munu notendur vilja sjá viðhengi fyrir reikninginn í tækinu?
 
@@ -158,9 +158,9 @@ Fyrsta farsímasíðan sem ætti að hanna er listi yfir reikninga sem eru úthl
     - Númer reiknings
     - Reikningsdagsetning
 
-  Eftir að svæðum er bætt við síðuna verður farsímasíðan að líkjast eftirfarandi dæmi. 
+    Eftir að svæðum er bætt við síðuna verður farsímasíðan að líkjast eftirfarandi dæmi. 
     
-   [![Síðan eftir að svæðum hefur verið bætt við](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+    [![Síðan eftir að svæðum hefur verið bætt við](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
 
 9.  Einnig verður að bæta eftirfarandi dálkum við núna, svo að við getum virkjað verkflæðisaðgerðir síðar.
     - Sýna lokin verk
@@ -247,9 +247,10 @@ Til að bæta við verkflæðisaðgerðum skal nota síðuna **VendMobileInvoice
     - Hann felur aukalega dálka sem tengjast verkflæði, sem við bættum við áður á fartæki listasíðu. Við bættum þessum dálkum við svo að forritið hafi upplýsingar í samhengi og geti framkvæmt næsta skref.
     - Á grunni verkflæðisskrefsins sem er virkt notar það rök til að sýna aðeins þær aðgerðir.
 
-> [!NOTE]
-> Heiti síðnanna og annarra stýringa í kóðanum verða að vera þau sömu og heitin í vinnusvæðinu.
+    > [!NOTE]
+    > Heiti síðnanna og annarra stýringa í kóðanum verða að vera þau sömu og heitin í vinnusvæðinu.
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -308,6 +309,7 @@ Til að bæta við verkflæðisaðgerðum skal nota síðuna **VendMobileInvoice
                  },
            };
         }
+    ```
 
 2.  Hlaða upp kóðaskrá á vinnusvæðið með því að velja flipann **Röklegt**
 3.  Smellið á **Lokið** til að fara úr breytingarstillinigu.
@@ -341,7 +343,7 @@ Kröfur fyrir þetta dæmi staðfesta að það verða aðeins dreifingar á lí
 
 1.  Í vefslóðinni skiptirðu út heiti valmyndaratriðis, eins og þú gerðir áður. Síðan sem birtist á líkjast eftirfarandi mynd.
 
-[![Síðan Allar dreifingar](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+    [![Síðan Allar dreifingar](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 
 2.  Opnið hönnuðinn fartæki með hnappninum **Stillingar** (tannhjól).
 
@@ -367,16 +369,18 @@ Kröfur fyrir þetta dæmi staðfesta að það verða aðeins dreifingar á lí
 
 10. Smelltu á **Birta vinnusvæði** til að vista verkið
 
-> [!NOTE] 
-> Eins og er er fartækjasíðan **Skoða bókhald** ekki tengd við neina af þeim fartækjasíðum sem við höfum hannað hingað til. Þar sem notandinn ætti að geta flett að síðunni **Skoða bókhald** af síðunni **Upplýsingar um reikning** í fartækinu, verðum við að veita flettingar af síðunni **Upplýsingar um reikning** á síðuna **Skoða bókhald**. Við komum þessari flettingu á með því að nota viðbótar rök í gegnum JavaScript.
+#### <a name="adding-navigation-to-view-accounting-page"></a>Leiðsögn bætt við síðuna „Skoða bókhald“
+
+Eins og er er fartækjasíðan **Skoða bókhald** ekki tengd við neina af þeim fartækjasíðum sem við höfum hannað hingað til. Þar sem notandinn ætti að geta flett að síðunni **Skoða bókhald** af síðunni **Upplýsingar um reikning** í fartækinu, verðum við að veita flettingar af síðunni **Upplýsingar um reikning** á síðuna **Skoða bókhald**. Við komum þessari flettingu á með því að nota viðbótar rök í gegnum JavaScript.
 
 1.  Opnaðu .js-skrána sem þú stofnaðir áður og bættu við línum sem eru auðkenndar í eftirfarandi kóða. Þessi kóði gerir tvennt:
     1.  Hann hjálpar við að tryggja að notendur geti ekki farið beint af vinnusvæðinu á síðuna **Skoða bókhald**.
     2.  Hann kemur á flettistýringu af síðunni **Upplýsingar um reikning** á síðuna **Skoða bókhald**.
 
-> [!NOTE] 
-> Heiti síðnanna og annarra stýringa í kóðanum verða að vera þau sömu og heitin í vinnusvæðinu.
+    > [!NOTE] 
+    > Heiti síðnanna og annarra stýringa í kóðanum verða að vera þau sömu og heitin í vinnusvæðinu.
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -439,7 +443,8 @@ Kröfur fyrir þetta dæmi staðfesta að það verða aðeins dreifingar á lí
                  },
            };
         }
-
+    ```
+    
 2.  Hlaða upp skrá kóða vinnusvæðið með því að velja flipann **Röklegt** til að yfirskrifa fyrri kóða
 3.  Smellið á **Lokið** til að fara úr breytingarstillinigu.
 4.  Smellið á **Til baka** og síðan **Lokið** til að fara af vinnusvæðinu

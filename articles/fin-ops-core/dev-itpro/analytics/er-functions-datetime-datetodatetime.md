@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9ce977b36cd96a27a228dba1bc8c8445bafd879
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 961ccd18e70d4f9851027492366a7d9408a668c5
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916385"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042413"
 ---
 # <a name="DATETODATETIME">DATETODATETIME ER-aðgerð</a>
 
@@ -33,7 +33,7 @@ Aðgerðin `DATETODATETIME` skilar *DateTime*-gildi sem er umreiknað úr gefnu 
 
 ## <a name="syntax"></a>Málskipun
 
-```
+```vb
 DATETODATETIME (date)
 ```
 
@@ -51,7 +51,7 @@ Dagsetningar-/tímagildið sem verður til.
 
 ## <a name="example-1"></a>Dæmi 1
 
-`DATETODATETIME (CompInfo. 'getCurrentDate()')` skilar dagsetningu gildandi Microsoft Dynamics 365 Finance-setu, 24. desember, 2015, sem **12/24 / 2015 12:00:00 AM**. Í þessu dæmi er **CompInfo** gagnagjafi rafrænnar skýrslugerðar (ER) fyrir **Finance and Operations/tafla** gerð og vísar til CompanyInfo töflunnar.
+`DATETODATETIME (CompInfo. 'getCurrentDate()')` skilar dagsetningu gildandi Microsoft Dynamics 365 Finance-setu, 24. desember, 2015, sem **12/24 / 2015 12:00:00 AM**. Í þessu dæmi er **CompInfo** gagnagjafi rafrænnar skýrslugerðar (ER) fyrir gerðina **Finance and Operations/tafla** og vísar til CompanyInfo töflunnar.
 
 ## <a name="example-2"></a>Dæmi 2
 

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 48854c15e429d51dcf30ea804eb636dee7965443
+ms.sourcegitcommit: a356299be9a593990d9948b3a6b754bd058a5b3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773646"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3080773"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Innleiða sérstillta reiti fyrir Microsoft Dynamics 365 Project Timesheet-farsímaforritið í iOS og Android
 
@@ -183,7 +183,7 @@ Eftirfarandi dæmi sýnir strengjareit í tímafærslum. Þessi reitur hefur tvo
 
 Athugið notkun á aðferðinni **TSTimesheetCustomField::newFromMetadata()** til að einfalda frumstillingu á eiginleikum sérstillts reits: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** og **numberOfDecimals**. Einnig er hægt að stilla þessar færibreytur handvirkt eins og hentar.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -212,7 +212,7 @@ final class TSTimesheetSettings_Extension
 
 Aðferðin **buildCustomFieldListForEntry** er notuð til að færa gildi í vistuðu vinnukortslínunum inn í farsímaforritið. Hún tekur TSTimesheetTrans-færslu sem færibreytu. Reiti úr þeirri færslu er hægt að nota til að setja inn gildið fyrir sérstilltan reit í forritinu.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetEntry))]
 final class TsTimesheetEntry_Extension
@@ -250,7 +250,7 @@ Til að vista sérstilltan reit aftur í gagnagrunninn við dæmigerða notkun, 
 > [!NOTE]
 > Eftirfarandi dæmi vistar gildið **firstOption** eða **secondOption** sem notandinn velur í gagnagrunninn sem óunnið strengjagildi. Ef gagnagrunnsreiturinn er reitur af gerðinni **Fasttexti** er hægt að varpa þessum gildum handvirkt í fasttextagildi og síðan vista þau í fasttextareit í gagnagrunnstöflunni.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetEntryService))]
 final class TSTimesheetEntryService_Extension
@@ -339,7 +339,7 @@ Reitir í hausnum eru alltaf skrifvarðir í forritinu.
 
 Eftirfarandi dæmi sýnir reiknað gildi í hausnum í forritinu.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -369,7 +369,7 @@ final class TSTimesheetSettings_Extension
 Aðferðin **buildCustomFieldListForHeader** er notuð til að fylla út upplýsingar vinnukortahauss í farsímaforritinu. Hún notar TSTimesheetTable-færslu sem færibreytu. Reiti úr þeirri færslu er hægt að nota til að setja inn gildið fyrir sérstilltan reit í forritinu. Eftirfarandi dæmi les ekki nein gildi úr gagnagrunninum. Þess í stað notar það X++ reikniaðgerðir til að búa til reiknað gildi sem síðan er sýnt í forritinu.
 
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetDetails))]
 final class TSTimesheetDetails_Extension

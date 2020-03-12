@@ -3,7 +3,7 @@ title: Viðvörunarreglur stofnaðar
 description: Þetta efnisatriði veitir upplýsingar um viðvaranir og útskýrir hvernig á að búa til viðvörunarreglu svo þú fáir tilkynningu um tilvik eins og dagsetningu sem kemur eða tilgreinda breytingu sem á sér stað.
 author: tjvass
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: c37ddc52ef576a15dd35cc155e99821c74631a46
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 85d4774bc710f0c48b384601e5505f11394cf5d5
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180715"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3075925"
 ---
 # <a name="create-alert-rules"></a>Viðvörunarreglur stofnaðar
 
@@ -31,7 +31,11 @@ ms.locfileid: "2180715"
 
 Áður en þú setur upp viðvörunarreglu skaltu ákveða hvenær eða í hvaða aðstæðum þú vilt fá viðvaranir. Þegar þú veist hvaða atvik þú vilt fá tilkynningu um skaltu finna síðuna með gögnunum sem eru þess valdandi að atvikið birtist. Atvikið getur verið dagsetning sem kemur eða tilteknar breytingar sem eiga sér stað. Þess vegna verður þú að finna síðuna þar sem dagsetningin er tilgreind eða hvar reiturinn er sem breytist eða hvar nýja færslan birtist sem er búin til. Eftir að þú hefur þessar upplýsingar er hægt að búa til viðvörunarregluna.
 
-Þegar þú býrð til viðvörunarreglu skilgreinirðu skilyrðin sem þarf að uppfylla áður en kveikt er á viðvörun. Þú getur hugsað um skilyrði sem samsvörun milli tilviks sem á sér stað og uppfyllingu á tilgreindum skilyrðum. Þegar tilvik á sér stað byrjar kerfið að framkvæma eftirlit samkvæmt skilyrðum sem sett eru upp.
+Þegar þú býrð til viðvörunarreglu skilgreinirðu skilyrðin sem þarf að uppfylla áður en kveikt er á viðvörun. Skilyrði eru í grundvallaraðtriðum samsvörun milli tilviks sem á sér stað og uppfyllingar á tilgreindum skilyrðum. Þegar tilvik á sér stað byrjar kerfið að framkvæma eftirlit samkvæmt skilyrðum sem sett eru upp.
+
+## <a name="ensure-the-alert-batch-jobs-are-running"></a>Gakktu úr skugga um að viðvörunarrunuvinnslur séu í gangi
+
+Runuvinnslur fyrir gagnabreytingar og tilkynningar um gjalddaga þurfa að vera í gangi til að viðvörunarskilyrði séu afgreidd og tilkynningarnar sendar. Til að keyra runuvinnslur ferðu í **Kerfisstjórnun** > **Reglubundin verk** > **Viðvaranir** og bætir við nýrri runuvinnslu fyrir **Viðvaranir vegna breytinga** og/eða **Skiladagsviðvaranir**. Ef þörf er á langri runuvinnslu sem keyrir oft skaltu velja **Endurtekning** og stilla **Engin lokadagsetning** með **Endurtekningarmynstur** á **Mínútur** og **Talning** á **1**.
 
 ## <a name="events"></a>Tilvik
 
@@ -51,7 +55,7 @@ Breytingar sem eiga sér stað geta byrjað af notanda. Til dæmis breytir notan
 
 ## <a name="conditions"></a>Skilyrði
 
-Á flýtiflipanum **Láta mig vita um** í svarglugganum **Búa til viðvörunarreglu** er hægt að nota skilyrði til að stjórna því þegar þú færð viðvörðun um tilvik.
+Á flýtiflipanum **Láta mig vita um** í svarglugganum **Stofna viðvörunarreglu** er hægt að nota skilyrði til að stjórna því þegar þú færð viðvörðun um tilvik.
 
 Til dæmis getur þú tilgreint að kerfið eigi að láta þig vita þegar staða innkaupapantana breytist, en aðeins ef staðan passar við tiltekið safn skilyrða. Þú vilt sérstklega fá viðvörun þegar staða innkaupapöntunar er stillt á **Móttekin**. Þessi breyting á stöðu er tilvikið sem kallar fram viðvörunina.
 
@@ -70,16 +74,21 @@ Næst verður þú að ákveða hvaða innkaupapantanir þú vilt fá viðvarani
 
 ## <a name="user-id"></a>Kenni notanda
 
-Á flýtiflipanum **Láta mig vita með** í svarglugganum **Búa til viðvörunarreglu** er hægt að tilgreina hvaða notandi eigi að fá viðvörunarskilaboðin. Að sjálfgefnu er notandakenni þitt valið. Þessi valkostur er takmarkaður við stjórnendur fyrirtækis.
+Á flýtiflipanum **Láta mig vita með** í svarglugganum **Búa til viðvörunarreglu** er hægt að tilgreina hvaða notandi eigi að fá viðvörunarskilaboðin. Að sjálfgefnu er notandakenni þitt valið. Hæfni til að breyta notanda sem fær viðvörun er takmörkuð við stjórnendur fyrirtækja.
+
+## <a name="alerts-as-business-events"></a>Viðvaranir sem viðskiptatilvik
+
+Hægt er að senda viðvaranir að utan með ramma viðskiptatilvika. Þegar þú býrð til viðvörun skaltu stilla **Í öllu fyrirtækinu** á **Nei** og stilla **Senda að utan** á **Já**. Þegar viðvörunin hefur komið viðskiptatilvikinu af stað er hægt að virkja flæði sem er innbyggt í Power Automate með virkjanum **Þegar viðskiptatilvik á sér stað** í tengi Finance and Operations eða senda tilvikið beint á endastöð viðskiptatilvika í gegnum **Lista yfir viðskiptatilvik**.
 
 ## <a name="create-an-alert-rule"></a>Búa til viðvörunarreglu
 
+0. Gakktu úr skugga um að viðvörunarrunuvinnslur séu í gangi (sjá hér að ofan).
 1. Opnaðu síðuna sem inniheldur gögnin sem á að fylgjast með.
 2. Á aðgerðasvæðinu, á flipanum **Valkostir**, í flokknum **Deila** skal velja **Búa til viðvörunarreglu**.
 3. Í svarglugganum **Búa til viðvörunarreglu**, í reitnum **Reitur** skal velja reitinn sem á að fylgjast með.
 4. Í reitnum **Tilvik** skal velja gerð tilviks.
-5. Á flýtiflipanum **Láta mig vita af** skal velja valkost.
+5. Á flýtiflipanum **Láta mig vita af** skal velja æskilegan valkost. Ef þú vilt senda viðvörunina sem viðskiptatilvik skaltu tryggja að **Í öllu fyrirtækinu** sé stillt á **Nei**.
 6. Ef viðvörunarreglan verður óvirk á tilteknum degi skaltu velja lokadag á flýtiflipanum **Láta mig vita þangað til**.
-7. Á flýtiflipanum **Láta mig vita með**, í reitnum **Efni** skal samþykkja sjálfgefna fyrirsögn efnis fyrir tölvupóstinn eða færa inn nýtt efni. Textinn er notaður í efnislínu fyrirsagnarfyrir tölvupóst sem berst þegar viðvörun er gefin.
+7. Á flýtiflipanum **Láta mig vita með**, í reitnum **Efni** skal samþykkja sjálfgefna fyrirsögn efnis fyrir tölvupóstinn eða færa inn nýtt efni. Textinn er notaður í efnislínu fyrirsagnarfyrir tölvupóst sem berst þegar viðvörun er gefin. Ef þú vilt senda viðvörunina sem viðskiptatilvik skaltu stilla **Senda að utan** á **Já**.
 8. Í reitnum **Skilaboð** skal færa inn valfrjáls skilaboð. Textinn er notaður sem skilaboðin sem er tekið á móti þegar viðvörun er ræst.
 9. Veldu **Í lagi** til að vista stillingarnar og búa til viðvörunarregluna.

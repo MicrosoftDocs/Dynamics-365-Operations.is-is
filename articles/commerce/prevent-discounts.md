@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 822bd39bca3a95f073bacea90a8ee58eada50ae2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6a683ffce487dc4388711ad160c2e8dc55a690dd
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022959"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057465"
 ---
 # <a name="options-for-preventing-discounts-for-retail-products"></a>Valkostir til að koma í veg afslætti á smásöluafurðir
 
@@ -32,7 +32,7 @@ ms.locfileid: "3022959"
 
 Það eru ýmsar ástæður fyrir því að smásalar gætu viljað koma í veg fyrir afslætti á sumum vörum, annað hvort frá kynningu eða á meðan sölu á sölustað stendur.
 
-Eftirfarandi valmöguleikar, sem finna má á **Commerce** flipa útgefinna vara, gerir þér kleift að forða vörunni frá öllum afslætti eða handvirkum afslætti. Stillingarnar geta líka verið tilgreindar á stigi flokka frá stigveldi smásöluflokka.
+Eftirfarandi valmöguleikar, sem finna má á **Commerce** flipa útgefinna vara, gerir þér kleift að forða vörunni frá öllum afslætti eða handvirkum afslætti. Stillingarnar geta líka verið tilgreindar á stigi flokka frá tegundastigveldi.
 
 - **Engir afslættir leyfðir** – Veldu þennan valkost til að tryggja að engin tegund afsláttar verði sett á vöruna. Þetta á við um kynningartilboð eins og blandað tilboð, magn- eða þröskuldaafslætti, sem og handvirka línu- og færsluafslætti sem eru settir á vöruna á meðan á sölu stendur hjá notanda sölustaðar.
 - **Engir handvirkir afslættir leyfðir** – Veldu þennan valkost aðeins til að koma í veg fyrir að handvirkir línu- eða færsluafslættir séu settir á vöruna á meðan á sölu stendur hjá notanda sölustaðar. Vörur með þennan valkost valinn eru samt sem áður tækar til kynningartilboðs, eins og blandað tilboð, magn- og þröskuldatilboð.
