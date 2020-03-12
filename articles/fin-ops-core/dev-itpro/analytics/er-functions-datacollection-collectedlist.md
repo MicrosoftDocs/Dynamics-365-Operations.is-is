@@ -18,63 +18,63 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4650cfce76b1c2a66df820fa7660c9c421411343
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 8a66ba364a7d06cd5ac03b57f07e2c5d4eb7a46d
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916500"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042597"
 ---
-# <span data-ttu-id="79dfb-103"><a name="COLLECTEDLIST">COLLECTEDLIST ER aðgerð</a></span><span class="sxs-lookup"><span data-stu-id="79dfb-103"><a name="COLLECTEDLIST">COLLECTEDLIST ER function</a></span></span>
+# <span data-ttu-id="50919-103"><a name="COLLECTEDLIST">COLLECTEDLIST ER aðgerð</a></span><span class="sxs-lookup"><span data-stu-id="50919-103"><a name="COLLECTEDLIST">COLLECTEDLIST ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="79dfb-104">Aðgerðin `COLLECTEDLIST` skilar *Skráalista*-gildi sem inniheldur lista yfir gildi sem skilað var af eiginleikanum **Gildi lykils fyrir söfnuð gögn** í sniðþáttum og safnað þegar sniðþættirnir voru notaðir til að búa til útleiðarskjöl við sniðkeyrsluna og sem fullnægir tilgreindum skilyrðum.</span><span class="sxs-lookup"><span data-stu-id="79dfb-104">The `COLLECTEDLIST` function a *Record list* value that contains the list of values that were returned by the **Collected data key value** property of format elements and collected when the format elements were used to generate outbound documents during the format run, and that satisfies the specified conditions.</span></span> <span data-ttu-id="79dfb-105">Hvert skilyrði samanstendur af lykilsviði og lykilgildi.</span><span class="sxs-lookup"><span data-stu-id="79dfb-105">Each condition consists of a key range and a key value.</span></span>
+<span data-ttu-id="50919-104">Aðgerðin `COLLECTEDLIST` skilar *Skráalista*-gildi sem inniheldur lista yfir gildi sem skilað var af eiginleikanum **Gildi lykils fyrir söfnuð gögn** í sniðþáttum og safnað þegar sniðþættirnir voru notaðir til að búa til útleiðarskjöl við sniðkeyrsluna og sem fullnægir tilgreindum skilyrðum.</span><span class="sxs-lookup"><span data-stu-id="50919-104">The `COLLECTEDLIST` function a *Record list* value that contains the list of values that were returned by the **Collected data key value** property of format elements and collected when the format elements were used to generate outbound documents during the format run, and that satisfies the specified conditions.</span></span> <span data-ttu-id="50919-105">Hvert skilyrði samanstendur af lykilsviði og lykilgildi.</span><span class="sxs-lookup"><span data-stu-id="50919-105">Each condition consists of a key range and a key value.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="79dfb-106">Málskipun</span><span class="sxs-lookup"><span data-stu-id="79dfb-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="50919-106">Málskipun</span><span class="sxs-lookup"><span data-stu-id="50919-106">Syntax</span></span>
 
-```
+```vb
 COLLECTEDLIST (condition 1 range, condition 1 value[, condition 2 range, condition 2 value, …, condition N range, condition N value])
 ```
 
-## <a name="arguments"></a><span data-ttu-id="79dfb-107">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="79dfb-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="50919-107">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="50919-107">Arguments</span></span>
 
-<span data-ttu-id="79dfb-108">`condition 1 range`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="79dfb-108">`condition 1 range`: *String*</span></span>
+<span data-ttu-id="50919-108">`condition 1 range`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="50919-108">`condition 1 range`: *String*</span></span>
 
-<span data-ttu-id="79dfb-109">Gildi sem er skilað með segðinni sem hefur verið stillt í eiginleikanum **Heiti lykils fyrir söfnuð gögn** í sniðsíhluta rafrænnar skýrslugerðar (ER).</span><span class="sxs-lookup"><span data-stu-id="79dfb-109">A value that is returned by the expression that has been configured in the **Collected data key name** property of an Electronic reporting (ER) format component.</span></span> <span data-ttu-id="79dfb-110">Þessi frumbreyta er skylda.</span><span class="sxs-lookup"><span data-stu-id="79dfb-110">This argument is mandatory.</span></span>
+<span data-ttu-id="50919-109">Gildi sem er skilað með segðinni sem hefur verið stillt í eiginleikanum **Heiti lykils fyrir söfnuð gögn** í sniðsíhluta rafrænnar skýrslugerðar (ER).</span><span class="sxs-lookup"><span data-stu-id="50919-109">A value that is returned by the expression that has been configured in the **Collected data key name** property of an Electronic reporting (ER) format component.</span></span> <span data-ttu-id="50919-110">Þessi frumbreyta er skylda.</span><span class="sxs-lookup"><span data-stu-id="50919-110">This argument is mandatory.</span></span>
 
-<span data-ttu-id="79dfb-111">`condition 1 value`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="79dfb-111">`condition 1 value`: *String*</span></span>
+<span data-ttu-id="50919-111">`condition 1 value`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="50919-111">`condition 1 value`: *String*</span></span>
 
-<span data-ttu-id="79dfb-112">Gildi sem er skilað með segðinni sem hefur verið stillt í eiginleikanum **Gildi lykils fyrir söfnuð gögn** í ER-sniðsíhluta.</span><span class="sxs-lookup"><span data-stu-id="79dfb-112">A value that is returned by the expression that has been configured in the **Collected data key value** property of an ER format component.</span></span> <span data-ttu-id="79dfb-113">Þessi frumbreyta er skylda.</span><span class="sxs-lookup"><span data-stu-id="79dfb-113">This argument is mandatory.</span></span>
+<span data-ttu-id="50919-112">Gildi sem er skilað með segðinni sem hefur verið stillt í eiginleikanum **Gildi lykils fyrir söfnuð gögn** í ER-sniðsíhluta.</span><span class="sxs-lookup"><span data-stu-id="50919-112">A value that is returned by the expression that has been configured in the **Collected data key value** property of an ER format component.</span></span> <span data-ttu-id="50919-113">Þessi frumbreyta er skylda.</span><span class="sxs-lookup"><span data-stu-id="50919-113">This argument is mandatory.</span></span>
 
-<span data-ttu-id="79dfb-114">`condition N range`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="79dfb-114">`condition N range`: *String*</span></span>
+<span data-ttu-id="50919-114">`condition N range`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="50919-114">`condition N range`: *String*</span></span>
 
-<span data-ttu-id="79dfb-115">Gildi sem er skilað með segðinni sem hefur verið stillt í eiginleikanum **Heiti lykils fyrir söfnuð gögn** í ER-sniðsíhluta.</span><span class="sxs-lookup"><span data-stu-id="79dfb-115">A value that is returned by the expression that has been configured in the **Collected data key name** property of an ER format component.</span></span> <span data-ttu-id="79dfb-116">Þessar viðbótarfrumbreytur eru valkvæðar.</span><span class="sxs-lookup"><span data-stu-id="79dfb-116">These additional arguments are optional.</span></span>
+<span data-ttu-id="50919-115">Gildi sem er skilað með segðinni sem hefur verið stillt í eiginleikanum **Heiti lykils fyrir söfnuð gögn** í ER-sniðsíhluta.</span><span class="sxs-lookup"><span data-stu-id="50919-115">A value that is returned by the expression that has been configured in the **Collected data key name** property of an ER format component.</span></span> <span data-ttu-id="50919-116">Þessar viðbótarfrumbreytur eru valkvæðar.</span><span class="sxs-lookup"><span data-stu-id="50919-116">These additional arguments are optional.</span></span>
 
-<span data-ttu-id="79dfb-117">`condition N value`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="79dfb-117">`condition N value`: *String*</span></span>
+<span data-ttu-id="50919-117">`condition N value`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="50919-117">`condition N value`: *String*</span></span>
 
-<span data-ttu-id="79dfb-118">Gildi sem er skilað með segðinni sem hefur verið stillt í eiginleikanum **Gildi lykils fyrir söfnuð gögn** í ER-sniðsíhluta.</span><span class="sxs-lookup"><span data-stu-id="79dfb-118">A value that is returned by the expression that has been configured in the **Collected data key value** property of an ER format component.</span></span> <span data-ttu-id="79dfb-119">Þessar viðbótarfrumbreytur eru valkvæðar.</span><span class="sxs-lookup"><span data-stu-id="79dfb-119">These additional arguments are optional.</span></span>
+<span data-ttu-id="50919-118">Gildi sem er skilað með segðinni sem hefur verið stillt í eiginleikanum **Gildi lykils fyrir söfnuð gögn** í ER-sniðsíhluta.</span><span class="sxs-lookup"><span data-stu-id="50919-118">A value that is returned by the expression that has been configured in the **Collected data key value** property of an ER format component.</span></span> <span data-ttu-id="50919-119">Þessar viðbótarfrumbreytur eru valkvæðar.</span><span class="sxs-lookup"><span data-stu-id="50919-119">These additional arguments are optional.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="79dfb-120">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="79dfb-120">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="50919-120">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="50919-120">Return values</span></span>
 
-<span data-ttu-id="79dfb-121">*Skráalisti*</span><span class="sxs-lookup"><span data-stu-id="79dfb-121">*Record list*</span></span>
+<span data-ttu-id="50919-121">*Skráalisti*</span><span class="sxs-lookup"><span data-stu-id="50919-121">*Record list*</span></span>
 
-<span data-ttu-id="79dfb-122">Sá listi yfir skrár sem er búinn til.</span><span class="sxs-lookup"><span data-stu-id="79dfb-122">The resulting list of records.</span></span>
+<span data-ttu-id="50919-122">Sá listi yfir skrár sem er búinn til.</span><span class="sxs-lookup"><span data-stu-id="50919-122">The resulting list of records.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="79dfb-123">Notkunarbréf</span><span class="sxs-lookup"><span data-stu-id="79dfb-123">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="50919-123">Notkunarbréf</span><span class="sxs-lookup"><span data-stu-id="50919-123">Usage notes</span></span>
 
-<span data-ttu-id="79dfb-124">Eiginleikana **Heiti lykils fyrir söfnuð gögn** og **Gildi lykils fyrir söfnuð gögn** er hægt að stilla fyrir annaðhvort íhlutinn **Röð** eða íhlutinn **XML-þáttur** í ER-sniði sem er að finna undir íhlutnum **Common\\File** þar sem kveikt er á valkostinum **Safna saman upplýsingum um framleiðslu**.</span><span class="sxs-lookup"><span data-stu-id="79dfb-124">The **Collected data key name** and **Collected data key value** properties can be configured for either the **Sequence** component or the **XML Element** component of an ER format that resides under the **Common\\File** component where the **Collect output details** option is turned on.</span></span>
+<span data-ttu-id="50919-124">Eiginleikana **Heiti lykils fyrir söfnuð gögn** og **Gildi lykils fyrir söfnuð gögn** er hægt að stilla fyrir annaðhvort íhlutinn **Röð** eða íhlutinn **XML-þáttur** í ER-sniði sem er að finna undir íhlutnum **Common\\File** þar sem kveikt er á valkostinum **Safna saman upplýsingum um framleiðslu**.</span><span class="sxs-lookup"><span data-stu-id="50919-124">The **Collected data key name** and **Collected data key value** properties can be configured for either the **Sequence** component or the **XML Element** component of an ER format that resides under the **Common\\File** component where the **Collect output details** option is turned on.</span></span>
 
-<span data-ttu-id="79dfb-125">Þessi aðgerð skilar tómum lista þegar slökkt er á valkostinum **Safna saman upplýsingum um framleiðslu** í gildandi íhlutnum **Common\\File**.</span><span class="sxs-lookup"><span data-stu-id="79dfb-125">This function returns an empty list when the **Collect output details** option of the current **Common\\File** component is turned off.</span></span>
+<span data-ttu-id="50919-125">Þessi aðgerð skilar tómum lista þegar slökkt er á valkostinum **Safna saman upplýsingum um framleiðslu** í gildandi íhlutnum **Common\\File**.</span><span class="sxs-lookup"><span data-stu-id="50919-125">This function returns an empty list when the **Collect output details** option of the current **Common\\File** component is turned off.</span></span>
 
-<span data-ttu-id="79dfb-126">Í frumbreytunum `condition range` er hægt að nota algildisstafinn **"\*"** til að tákna hvaða marga stafi sem er.</span><span class="sxs-lookup"><span data-stu-id="79dfb-126">In `condition range` arguments, the wildcard character **"\*"** can be used to represent any multiple characters.</span></span>
+<span data-ttu-id="50919-126">Í frumbreytunum `condition range` er hægt að nota algildisstafinn **"\*"** til að tákna hvaða marga stafi sem er.</span><span class="sxs-lookup"><span data-stu-id="50919-126">In `condition range` arguments, the wildcard character **"\*"** can be used to represent any multiple characters.</span></span>
 
-<span data-ttu-id="79dfb-127">Í frumbreytunum `condition value` er hægt að nota algildisstafinn **"\*"** til að tákna hvaða marga stafi sem er.</span><span class="sxs-lookup"><span data-stu-id="79dfb-127">In `condition value` arguments, the wildcard character **"\*"** can be used to represent any multiple characters.</span></span>
+<span data-ttu-id="50919-127">Í frumbreytunum `condition value` er hægt að nota algildisstafinn **"\*"** til að tákna hvaða marga stafi sem er.</span><span class="sxs-lookup"><span data-stu-id="50919-127">In `condition value` arguments, the wildcard character **"\*"** can be used to represent any multiple characters.</span></span>
 
-## <a name="example"></a><span data-ttu-id="79dfb-128">Dæmi</span><span class="sxs-lookup"><span data-stu-id="79dfb-128">Example</span></span>
+## <a name="example"></a><span data-ttu-id="50919-128">Dæmi</span><span class="sxs-lookup"><span data-stu-id="50919-128">Example</span></span>
 
-<span data-ttu-id="79dfb-129">Nánari upplýsingar um hvernig á að nota þessa aðgerð er að finna í [Rafræn skýrslugerð nota gögn sniðúttaks til að telja og leggja saman](tasks/er-format-counting-summing-1.md) leiðarvísir, sem er hluti af **Veita/þróa IT þjónustu/þáttum** viðskiptaferli.</span><span class="sxs-lookup"><span data-stu-id="79dfb-129">For more information about how to use this function, see the [ER Use data of format output for counting and summing](tasks/er-format-counting-summing-1.md) task guide, which is part of the **Acquire/Develop IT service/solution components** business process.</span></span>
+<span data-ttu-id="50919-129">Nánari upplýsingar um hvernig á að nota þessa aðgerð er að finna í [Rafræn skýrslugerð nota gögn sniðúttaks til að telja og leggja saman](tasks/er-format-counting-summing-1.md) leiðarvísir, sem er hluti af **Veita/þróa IT þjónustu/þáttum** viðskiptaferli.</span><span class="sxs-lookup"><span data-stu-id="50919-129">For more information about how to use this function, see the [ER Use data of format output for counting and summing](tasks/er-format-counting-summing-1.md) task guide, which is part of the **Acquire/Develop IT service/solution components** business process.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="79dfb-130">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="79dfb-130">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="50919-130">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="50919-130">Additional resources</span></span>
 
-[<span data-ttu-id="79dfb-131">Gagnasöfnunaraðgerðir</span><span class="sxs-lookup"><span data-stu-id="79dfb-131">Data collection functions</span></span>](er-functions-category-data-collection.md)
+[<span data-ttu-id="50919-131">Gagnasöfnunaraðgerðir</span><span class="sxs-lookup"><span data-stu-id="50919-131">Data collection functions</span></span>](er-functions-category-data-collection.md)

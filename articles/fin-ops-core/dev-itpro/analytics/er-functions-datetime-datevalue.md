@@ -18,65 +18,65 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 700a48d2c5a77398267e6daaaea3ecb6c95e7f6e
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: ef617ebfcaeb75e0284ea3cb4e889a204120b3d3
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916362"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042367"
 ---
-# <span data-ttu-id="6e9c4-103"><a name="DATEVALUE">DATEVALUE ER-aðgerð</a></span><span class="sxs-lookup"><span data-stu-id="6e9c4-103"><a name="DATEVALUE">DATEVALUE ER function</a></span></span>
+# <span data-ttu-id="5629d-103"><a name="DATEVALUE">DATEVALUE ER-aðgerð</a></span><span class="sxs-lookup"><span data-stu-id="5629d-103"><a name="DATEVALUE">DATEVALUE ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="6e9c4-104">Aðgerðin `DATEVALUE` skilar *Date*-gildi sem er umreiknað úr gefnu textagildi á tilteknu sniði og í valinni tiltekinni [menningu](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) í dagsetningargildi.</span><span class="sxs-lookup"><span data-stu-id="6e9c4-104">The `DATEVALUE` function returns a *Date* value that is converted from a given text value in the specified format and in an optionally specified [culture](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) to a date value.</span></span> <span data-ttu-id="6e9c4-105">Fyrir upplýsingar um studd snið skal sjá [staðlað](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) og [sérsniðna](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).</span><span class="sxs-lookup"><span data-stu-id="6e9c4-105">For information about the supported formats, see [standard](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) and [custom](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).</span></span>
+<span data-ttu-id="5629d-104">Aðgerðin `DATEVALUE` skilar *Date*-gildi sem er umreiknað úr gefnu textagildi á tilteknu sniði og í valinni tiltekinni [menningu](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) í dagsetningargildi.</span><span class="sxs-lookup"><span data-stu-id="5629d-104">The `DATEVALUE` function returns a *Date* value that is converted from a given text value in the specified format and in an optionally specified [culture](https://docs.microsoft.com/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) to a date value.</span></span> <span data-ttu-id="5629d-105">Fyrir upplýsingar um studd snið skal sjá [staðlað](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) og [sérsniðna](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).</span><span class="sxs-lookup"><span data-stu-id="5629d-105">For information about the supported formats, see [standard](https://msdn.microsoft.com/library/az4se3k1(v=vs.110).aspx) and [custom](https://msdn.microsoft.com/library/8kb3ddd4(v=vs.110).aspx).</span></span>
 
-## <a name="syntax-1"></a><span data-ttu-id="6e9c4-106">Málskipun 1</span><span class="sxs-lookup"><span data-stu-id="6e9c4-106">Syntax 1</span></span>
+## <a name="syntax-1"></a><span data-ttu-id="5629d-106">Málskipun 1</span><span class="sxs-lookup"><span data-stu-id="5629d-106">Syntax 1</span></span>
 
-```
+```vb
 DATEVALUE (text, format)
 ```
 
-## <a name="syntax-2"></a><span data-ttu-id="6e9c4-107">Málskipun 2</span><span class="sxs-lookup"><span data-stu-id="6e9c4-107">Syntax 2</span></span>
+## <a name="syntax-2"></a><span data-ttu-id="5629d-107">Málskipun 2</span><span class="sxs-lookup"><span data-stu-id="5629d-107">Syntax 2</span></span>
 
-```
+```vb
 DATEVALUE (text, format, culture)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="6e9c4-108">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="6e9c4-108">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="5629d-108">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="5629d-108">Arguments</span></span>
 
-<span data-ttu-id="6e9c4-109">`text`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="6e9c4-109">`text`: *String*</span></span>
+<span data-ttu-id="5629d-109">`text`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="5629d-109">`text`: *String*</span></span>
 
-<span data-ttu-id="6e9c4-110">Texti sem táknar gildið til að forsníða.</span><span class="sxs-lookup"><span data-stu-id="6e9c4-110">Text that represents the value to format.</span></span>
+<span data-ttu-id="5629d-110">Texti sem táknar gildið til að forsníða.</span><span class="sxs-lookup"><span data-stu-id="5629d-110">Text that represents the value to format.</span></span>
 
-<span data-ttu-id="6e9c4-111">`format`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="6e9c4-111">`format`: *String*</span></span>
+<span data-ttu-id="5629d-111">`format`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="5629d-111">`format`: *String*</span></span>
 
-<span data-ttu-id="6e9c4-112">Snið gefins texta.</span><span class="sxs-lookup"><span data-stu-id="6e9c4-112">The format of the given text.</span></span>
+<span data-ttu-id="5629d-112">Snið gefins texta.</span><span class="sxs-lookup"><span data-stu-id="5629d-112">The format of the given text.</span></span>
 
-<span data-ttu-id="6e9c4-113">`culture`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="6e9c4-113">`culture`: *String*</span></span>
+<span data-ttu-id="5629d-113">`culture`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="5629d-113">`culture`: *String*</span></span>
 
-<span data-ttu-id="6e9c4-114">Menningin sem er notuð til að forsníða gefinn texta.</span><span class="sxs-lookup"><span data-stu-id="6e9c4-114">The culture that is used for formatting of the given text.</span></span>
+<span data-ttu-id="5629d-114">Menningin sem er notuð til að forsníða gefinn texta.</span><span class="sxs-lookup"><span data-stu-id="5629d-114">The culture that is used for formatting of the given text.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="6e9c4-115">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="6e9c4-115">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="5629d-115">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="5629d-115">Return values</span></span>
 
-<span data-ttu-id="6e9c4-116">*Dagsetning*</span><span class="sxs-lookup"><span data-stu-id="6e9c4-116">*Date*</span></span>
+<span data-ttu-id="5629d-116">*Dagsetning*</span><span class="sxs-lookup"><span data-stu-id="5629d-116">*Date*</span></span>
 
-<span data-ttu-id="6e9c4-117">Dagsetningargildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="6e9c4-117">The resulting date value.</span></span>
+<span data-ttu-id="5629d-117">Dagsetningargildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="5629d-117">The resulting date value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="6e9c4-118">Notkunarbréf</span><span class="sxs-lookup"><span data-stu-id="6e9c4-118">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="5629d-118">Notkunarbréf</span><span class="sxs-lookup"><span data-stu-id="5629d-118">Usage notes</span></span>
 
-<span data-ttu-id="6e9c4-119">Þegar menningin er ekki skilgreind sem frumbreyta kallaðrar aðgerðar er gildið `culture` skilgreint af köllunarsamhenginu.</span><span class="sxs-lookup"><span data-stu-id="6e9c4-119">When the culture isn't defined as an argument of the called function, the value of `culture` is defined by the calling context.</span></span> <span data-ttu-id="6e9c4-120">Til dæmis, ef aðgerðin `DATEVALUE` er kölluð með því að nota málskipan 1 á rafrænni skýrslugerð (ER) sniði fyrir **FILE**-þáttinn sem er stillt til að nota þýska menningu verður umbreytingin gerð með því að nota þýska menninguna.</span><span class="sxs-lookup"><span data-stu-id="6e9c4-120">For example, if the `DATEVALUE` function is called by using syntax 1 in an Electronic reporting (ER) format for a **FILE** element that is configured to use the German culture, the conversion will be done by using the German culture.</span></span> <span data-ttu-id="6e9c4-121">Sjálfgefið gildi `culture` er **EN-US**.</span><span class="sxs-lookup"><span data-stu-id="6e9c4-121">The default `culture` value is **EN-US**.</span></span>
+<span data-ttu-id="5629d-119">Þegar menningin er ekki skilgreind sem frumbreyta kallaðrar aðgerðar er gildið `culture` skilgreint af köllunarsamhenginu.</span><span class="sxs-lookup"><span data-stu-id="5629d-119">When the culture isn't defined as an argument of the called function, the value of `culture` is defined by the calling context.</span></span> <span data-ttu-id="5629d-120">Til dæmis, ef aðgerðin `DATEVALUE` er kölluð með því að nota málskipan 1 á rafrænni skýrslugerð (ER) sniði fyrir **FILE**-þáttinn sem er stillt til að nota þýska menningu verður umbreytingin gerð með því að nota þýska menninguna.</span><span class="sxs-lookup"><span data-stu-id="5629d-120">For example, if the `DATEVALUE` function is called by using syntax 1 in an Electronic reporting (ER) format for a **FILE** element that is configured to use the German culture, the conversion will be done by using the German culture.</span></span> <span data-ttu-id="5629d-121">Sjálfgefið gildi `culture` er **EN-US**.</span><span class="sxs-lookup"><span data-stu-id="5629d-121">The default `culture` value is **EN-US**.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="6e9c4-122">Dæmi 1</span><span class="sxs-lookup"><span data-stu-id="6e9c4-122">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="5629d-122">Dæmi 1</span><span class="sxs-lookup"><span data-stu-id="5629d-122">Example 1</span></span>
 
-<span data-ttu-id="6e9c4-123">`DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")` skilar dagsetnigargildinu **21. desember, 2016**, byggt á tilteknu sérsniðnu sniði og sjálfgefninni menningu **EN-BNA** fyrir hugbúnaðinn.</span><span class="sxs-lookup"><span data-stu-id="6e9c4-123">`DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")` returns the date value **December 21, 2016**, based on the specified custom format and the default application's **EN-US** culture.</span></span>
+<span data-ttu-id="5629d-123">`DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")` skilar dagsetnigargildinu **21. desember, 2016**, byggt á tilteknu sérsniðnu sniði og sjálfgefninni menningu **EN-BNA** fyrir hugbúnaðinn.</span><span class="sxs-lookup"><span data-stu-id="5629d-123">`DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")` returns the date value **December 21, 2016**, based on the specified custom format and the default application's **EN-US** culture.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="6e9c4-124">Dæmi 2</span><span class="sxs-lookup"><span data-stu-id="6e9c4-124">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="5629d-124">Dæmi 2</span><span class="sxs-lookup"><span data-stu-id="5629d-124">Example 2</span></span>
 
-<span data-ttu-id="6e9c4-125">`DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "IT")` skilar dagsetningargildinu **21. janúar, 2016**, byggt á tilgreindu sérsniðnu sniði og menningu.</span><span class="sxs-lookup"><span data-stu-id="6e9c4-125">`DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "IT")` returns the date value **January 21, 2016**, based on the specified custom format and culture.</span></span>
+<span data-ttu-id="5629d-125">`DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "IT")` skilar dagsetningargildinu **21. janúar, 2016**, byggt á tilgreindu sérsniðnu sniði og menningu.</span><span class="sxs-lookup"><span data-stu-id="5629d-125">`DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "IT")` returns the date value **January 21, 2016**, based on the specified custom format and culture.</span></span>
 
-<span data-ttu-id="6e9c4-126">Hins vegar beitir `DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")` undantekningu til að upplýsa notandann um að tilgreindur strengur sé ekki viðurkenndur sem gild dagsetning fyrir tilgreinda menningu.</span><span class="sxs-lookup"><span data-stu-id="6e9c4-126">However, `DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")` throws an exception to inform the user that the specified string isn't recognized as a valid date for the specified culture.</span></span>
+<span data-ttu-id="5629d-126">Hins vegar beitir `DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")` undantekningu til að upplýsa notandann um að tilgreindur strengur sé ekki viðurkenndur sem gild dagsetning fyrir tilgreinda menningu.</span><span class="sxs-lookup"><span data-stu-id="5629d-126">However, `DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")` throws an exception to inform the user that the specified string isn't recognized as a valid date for the specified culture.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="6e9c4-127">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="6e9c4-127">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="5629d-127">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="5629d-127">Additional resources</span></span>
 
-[<span data-ttu-id="6e9c4-128">Dagsetningar og tímavirkni</span><span class="sxs-lookup"><span data-stu-id="6e9c4-128">Date and time functions</span></span>](er-functions-category-datetime.md)
+[<span data-ttu-id="5629d-128">Dagsetningar og tímavirkni</span><span class="sxs-lookup"><span data-stu-id="5629d-128">Date and time functions</span></span>](er-functions-category-datetime.md)

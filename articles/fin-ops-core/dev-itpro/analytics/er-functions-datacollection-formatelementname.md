@@ -18,39 +18,39 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d66fed3815188fa7e31735e3523376ae4ea1cf46
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 5f299a4bb697afce152a61ec35fcefab7157f356
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917673"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042528"
 ---
-# <span data-ttu-id="271e9-103"><a name="FORMATELEMENTNAME">FORMATELEMENTNAME ER aðgerð</a></span><span class="sxs-lookup"><span data-stu-id="271e9-103"><a name="FORMATELEMENTNAME">FORMATELEMENTNAME ER function</a></span></span>
+# <span data-ttu-id="81622-103"><a name="FORMATELEMENTNAME">FORMATELEMENTNAME ER aðgerð</a></span><span class="sxs-lookup"><span data-stu-id="81622-103"><a name="FORMATELEMENTNAME">FORMATELEMENTNAME ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="271e9-104">Aðgerðin `FORMATELEMENTNAME` skilar *Strengja*-gildi sem táknar nafn á gildandi sniðmátsþætti rafrænnar skýrslugerðar (ER).</span><span class="sxs-lookup"><span data-stu-id="271e9-104">The `FORMATELEMENTNAME` function returns a *String* value that represents the name of the current Electronic reporting (ER) format's element.</span></span>
+<span data-ttu-id="81622-104">Aðgerðin `FORMATELEMENTNAME` skilar *Strengja*-gildi sem táknar nafn á gildandi sniðmátsþætti rafrænnar skýrslugerðar (ER).</span><span class="sxs-lookup"><span data-stu-id="81622-104">The `FORMATELEMENTNAME` function returns a *String* value that represents the name of the current Electronic reporting (ER) format's element.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="271e9-105">Málskipun</span><span class="sxs-lookup"><span data-stu-id="271e9-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="81622-105">Málskipun</span><span class="sxs-lookup"><span data-stu-id="81622-105">Syntax</span></span>
 
-```
+```vb
 FORMATELEMENTNAME ()
 ```
 
-## <a name="return-values"></a><span data-ttu-id="271e9-106">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="271e9-106">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="81622-106">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="81622-106">Return values</span></span>
 
-<span data-ttu-id="271e9-107">*Strengur*</span><span class="sxs-lookup"><span data-stu-id="271e9-107">*String*</span></span>
+<span data-ttu-id="81622-107">*Strengur*</span><span class="sxs-lookup"><span data-stu-id="81622-107">*String*</span></span>
 
-<span data-ttu-id="271e9-108">Textagildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="271e9-108">The resulting text value.</span></span>
+<span data-ttu-id="81622-108">Textagildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="81622-108">The resulting text value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="271e9-109">Notkunarbréf</span><span class="sxs-lookup"><span data-stu-id="271e9-109">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="81622-109">Notkunarbréf</span><span class="sxs-lookup"><span data-stu-id="81622-109">Usage notes</span></span>
 
-<span data-ttu-id="271e9-110">Þessa aðgerð er hægt að kalla í ER-segðum sem voru stilltar fyrir eiginleikana **Heiti lykils fyrir söfnuð gögn** og **Gildi lykils fyrir söfnuð gögn** í ER-sniðsíhlut úr hópnum **Texti** sem er að finna undir hlutanum **Common\\File** þar sem kveikt er á valkostinum **Safna saman upplýsingum um framleiðslu**.</span><span class="sxs-lookup"><span data-stu-id="271e9-110">This function can be called in ER expressions that were configured for the **Collected data key name** and **Collected data key value** properties of an ER format component from the **Text** group that resides under the **Common\\File** component where the **Collect output details** option is turned on.</span></span>
+<span data-ttu-id="81622-110">Þessa aðgerð er hægt að kalla í ER-segðum sem voru stilltar fyrir eiginleikana **Heiti lykils fyrir söfnuð gögn** og **Gildi lykils fyrir söfnuð gögn** í ER-sniðsíhlut úr hópnum **Texti** sem er að finna undir hlutanum **Common\\File** þar sem kveikt er á valkostinum **Safna saman upplýsingum um framleiðslu**.</span><span class="sxs-lookup"><span data-stu-id="81622-110">This function can be called in ER expressions that were configured for the **Collected data key name** and **Collected data key value** properties of an ER format component from the **Text** group that resides under the **Common\\File** component where the **Collect output details** option is turned on.</span></span>
 
-## <a name="example"></a><span data-ttu-id="271e9-111">Dæmi</span><span class="sxs-lookup"><span data-stu-id="271e9-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="81622-111">Dæmi</span><span class="sxs-lookup"><span data-stu-id="81622-111">Example</span></span>
 
-<span data-ttu-id="271e9-112">Nánari upplýsingar um hvernig á að nota þessa aðgerð er að finna í [Rafræn skýrslugerð nota gögn sniðúttaks til að telja og leggja saman](tasks/er-format-counting-summing-1.md) leiðarvísir, sem er hluti af **Veita/þróa IT þjónustu/þáttum** viðskiptaferli.</span><span class="sxs-lookup"><span data-stu-id="271e9-112">For more information about how to use this function, see the [ER Use data of format output for counting and summing](tasks/er-format-counting-summing-1.md) task guide, which is part of the **Acquire/Develop IT service/solution components** business process.</span></span>
+<span data-ttu-id="81622-112">Nánari upplýsingar um hvernig á að nota þessa aðgerð er að finna í [Rafræn skýrslugerð nota gögn sniðúttaks til að telja og leggja saman](tasks/er-format-counting-summing-1.md) leiðarvísir, sem er hluti af **Veita/þróa IT þjónustu/þáttum** viðskiptaferli.</span><span class="sxs-lookup"><span data-stu-id="81622-112">For more information about how to use this function, see the [ER Use data of format output for counting and summing](tasks/er-format-counting-summing-1.md) task guide, which is part of the **Acquire/Develop IT service/solution components** business process.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="271e9-113">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="271e9-113">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="81622-113">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="81622-113">Additional resources</span></span>
 
-[<span data-ttu-id="271e9-114">Gagnasöfnunaraðgerðir</span><span class="sxs-lookup"><span data-stu-id="271e9-114">Data collection functions</span></span>](er-functions-category-data-collection.md)
+[<span data-ttu-id="81622-114">Gagnasöfnunaraðgerðir</span><span class="sxs-lookup"><span data-stu-id="81622-114">Data collection functions</span></span>](er-functions-category-data-collection.md)

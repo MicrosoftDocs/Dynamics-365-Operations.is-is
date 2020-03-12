@@ -18,74 +18,74 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 459123a66dae7a3d87a22b042e1be6585959ac15
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 31fd4076d04ce7d849555bc8301c4d23ad8e1a7e
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915626"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041011"
 ---
-# <span data-ttu-id="d17a6-103"><a name="NUMERALSTOTEXT">NUMERALSTOTEXT ER-aðgerð</a></span><span class="sxs-lookup"><span data-stu-id="d17a6-103"><a name="NUMERALSTOTEXT">NUMERALSTOTEXT ER function</a></span></span>
+# <span data-ttu-id="25440-103"><a name="NUMERALSTOTEXT">NUMERALSTOTEXT ER-aðgerð</a></span><span class="sxs-lookup"><span data-stu-id="25440-103"><a name="NUMERALSTOTEXT">NUMERALSTOTEXT ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d17a6-104">Aðgerðin `NUMERALSTOTEXT` skilar tilteknu tölunni sem *Strengja*-gildi eftir að það hefur verið stafsett (það er, breytt í textastrengi) á tilgreindu tungumáli.</span><span class="sxs-lookup"><span data-stu-id="d17a6-104">The `NUMERALSTOTEXT` function returns the specified number as a *String* value after it has been spelled out (that is, converted to text strings) in the specified language.</span></span>
+<span data-ttu-id="25440-104">Aðgerðin `NUMERALSTOTEXT` skilar tilteknu tölunni sem *Strengja*-gildi eftir að það hefur verið stafsett (það er, breytt í textastrengi) á tilgreindu tungumáli.</span><span class="sxs-lookup"><span data-stu-id="25440-104">The `NUMERALSTOTEXT` function returns the specified number as a *String* value after it has been spelled out (that is, converted to text strings) in the specified language.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d17a6-105">Málskipun</span><span class="sxs-lookup"><span data-stu-id="d17a6-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="25440-105">Málskipun</span><span class="sxs-lookup"><span data-stu-id="25440-105">Syntax</span></span>
 
-```
+```vb
 NUMERALSTOTEXT (number, language, currency, print currency name flag, decimal points)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="d17a6-106">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="d17a6-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="25440-106">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="25440-106">Arguments</span></span>
 
-<span data-ttu-id="d17a6-107">`number`: *Heiltala* eða *Raun*</span><span class="sxs-lookup"><span data-stu-id="d17a6-107">`number`: *Integer* or *Real*</span></span>
+<span data-ttu-id="25440-107">`number`: *Heiltala* eða *Raun*</span><span class="sxs-lookup"><span data-stu-id="25440-107">`number`: *Integer* or *Real*</span></span>
 
-<span data-ttu-id="d17a6-108">Tölugildi sem tilgreinir töluna sem verður að stafa.</span><span class="sxs-lookup"><span data-stu-id="d17a6-108">A numeric value that specifies the number that must be spelled out.</span></span>
+<span data-ttu-id="25440-108">Tölugildi sem tilgreinir töluna sem verður að stafa.</span><span class="sxs-lookup"><span data-stu-id="25440-108">A numeric value that specifies the number that must be spelled out.</span></span>
 
-<span data-ttu-id="d17a6-109">`language`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="d17a6-109">`language`: *String*</span></span>
+<span data-ttu-id="25440-109">`language`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="25440-109">`language`: *String*</span></span>
 
-<span data-ttu-id="d17a6-110">Gildið *Strengur* sem táknar tungumálakóðann.</span><span class="sxs-lookup"><span data-stu-id="d17a6-110">A *String* value that represents the language code.</span></span>
+<span data-ttu-id="25440-110">Gildið *Strengur* sem táknar tungumálakóðann.</span><span class="sxs-lookup"><span data-stu-id="25440-110">A *String* value that represents the language code.</span></span>
 
-<span data-ttu-id="d17a6-111">`currency`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="d17a6-111">`currency`: *String*</span></span>
+<span data-ttu-id="25440-111">`currency`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="25440-111">`currency`: *String*</span></span>
 
-<span data-ttu-id="d17a6-112">Gildið *Strengur* sem táknar gjaldmiðilskóðann.</span><span class="sxs-lookup"><span data-stu-id="d17a6-112">A *String* value that represents the currency code.</span></span>
+<span data-ttu-id="25440-112">Gildið *Strengur* sem táknar gjaldmiðilskóðann.</span><span class="sxs-lookup"><span data-stu-id="25440-112">A *String* value that represents the currency code.</span></span>
 
-<span data-ttu-id="d17a6-113">`print currency name flag`: *Boole-gildi*</span><span class="sxs-lookup"><span data-stu-id="d17a6-113">`print currency name flag`: *Boolean*</span></span>
+<span data-ttu-id="25440-113">`print currency name flag`: *Boole-gildi*</span><span class="sxs-lookup"><span data-stu-id="25440-113">`print currency name flag`: *Boolean*</span></span>
 
-<span data-ttu-id="d17a6-114">*Boolean*-gildi sem gefur til kynna hvort gjaldeyrisheiti verði að bæta við stafsetta textann.</span><span class="sxs-lookup"><span data-stu-id="d17a6-114">A *Boolean* value that indicates whether a currency name must be added to the spelled-out text.</span></span>
+<span data-ttu-id="25440-114">*Boolean*-gildi sem gefur til kynna hvort gjaldeyrisheiti verði að bæta við stafsetta textann.</span><span class="sxs-lookup"><span data-stu-id="25440-114">A *Boolean* value that indicates whether a currency name must be added to the spelled-out text.</span></span>
 
-<span data-ttu-id="d17a6-115">`decimal points`: *Heiltala*</span><span class="sxs-lookup"><span data-stu-id="d17a6-115">`decimal points`: *Integer*</span></span>
+<span data-ttu-id="25440-115">`decimal points`: *Heiltala*</span><span class="sxs-lookup"><span data-stu-id="25440-115">`decimal points`: *Integer*</span></span>
 
-<span data-ttu-id="d17a6-116">*Heiltölu*-gildi sem gefur til kynna fjölda aukastafa sem stafsettur texti ætti að hafa.</span><span class="sxs-lookup"><span data-stu-id="d17a6-116">An *Integer* value that indicates the number of decimal places that the spelled-out text should have.</span></span>
+<span data-ttu-id="25440-116">*Heiltölu*-gildi sem gefur til kynna fjölda aukastafa sem stafsettur texti ætti að hafa.</span><span class="sxs-lookup"><span data-stu-id="25440-116">An *Integer* value that indicates the number of decimal places that the spelled-out text should have.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="d17a6-117">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="d17a6-117">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="25440-117">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="25440-117">Return values</span></span>
 
-<span data-ttu-id="d17a6-118">*Strengur*</span><span class="sxs-lookup"><span data-stu-id="d17a6-118">*String*</span></span>
+<span data-ttu-id="25440-118">*Strengur*</span><span class="sxs-lookup"><span data-stu-id="25440-118">*String*</span></span>
 
-<span data-ttu-id="d17a6-119">Textagildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="d17a6-119">The resulting text value.</span></span>
+<span data-ttu-id="25440-119">Textagildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="25440-119">The resulting text value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="d17a6-120">Notkunarbréf</span><span class="sxs-lookup"><span data-stu-id="d17a6-120">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="25440-120">Notkunarbréf</span><span class="sxs-lookup"><span data-stu-id="25440-120">Usage notes</span></span>
 
-<span data-ttu-id="d17a6-121">Tungumálakóðinn er valfrjáls.</span><span class="sxs-lookup"><span data-stu-id="d17a6-121">The language code is optional.</span></span> <span data-ttu-id="d17a6-122">Ef hann er skilgreindur sem tómur strengur er tungumálakóðinn fyrir samhengið sem er í keyrslu notaður.</span><span class="sxs-lookup"><span data-stu-id="d17a6-122">If it's defined as an empty string, the language code for the running context is used.</span></span> <span data-ttu-id="d17a6-123">Sjálfgefinn tungumálakóði er **EN-US**.</span><span class="sxs-lookup"><span data-stu-id="d17a6-123">The default language code is **EN-US**.</span></span> <span data-ttu-id="d17a6-124">Tungumálakóðinn fyrir keyrandi samhengi er skilgreindur í þáttunum **möppu** eða **Skrá** í keyrandi sniði rafrænnar skýrslugerðar (ER).</span><span class="sxs-lookup"><span data-stu-id="d17a6-124">The language code for the running context is defined in a **Folder** or **File** element of the Electronic reporting (ER) format that is running.</span></span>
+<span data-ttu-id="25440-121">Tungumálakóðinn er valfrjáls.</span><span class="sxs-lookup"><span data-stu-id="25440-121">The language code is optional.</span></span> <span data-ttu-id="25440-122">Ef hann er skilgreindur sem tómur strengur er tungumálakóðinn fyrir samhengið sem er í keyrslu notaður.</span><span class="sxs-lookup"><span data-stu-id="25440-122">If it's defined as an empty string, the language code for the running context is used.</span></span> <span data-ttu-id="25440-123">Sjálfgefinn tungumálakóði er **EN-US**.</span><span class="sxs-lookup"><span data-stu-id="25440-123">The default language code is **EN-US**.</span></span> <span data-ttu-id="25440-124">Tungumálakóðinn fyrir keyrandi samhengi er skilgreindur í þáttunum **möppu** eða **Skrá** í keyrandi sniði rafrænnar skýrslugerðar (ER).</span><span class="sxs-lookup"><span data-stu-id="25440-124">The language code for the running context is defined in a **Folder** or **File** element of the Electronic reporting (ER) format that is running.</span></span>
 
-<span data-ttu-id="d17a6-125">Gjaldmiðilskóðinn er valkostur.</span><span class="sxs-lookup"><span data-stu-id="d17a6-125">The currency code is optional.</span></span> <span data-ttu-id="d17a6-126">Ef hann er skilgreindur sem tómur strengur er fyrirtækjagjaldmiðillinn fyrir samhengið sem er í keyrslu notaður.</span><span class="sxs-lookup"><span data-stu-id="d17a6-126">If it's defined as an empty string, the company currency for the running context is used.</span></span>
+<span data-ttu-id="25440-125">Gjaldmiðilskóðinn er valkostur.</span><span class="sxs-lookup"><span data-stu-id="25440-125">The currency code is optional.</span></span> <span data-ttu-id="25440-126">Ef hann er skilgreindur sem tómur strengur er fyrirtækjagjaldmiðillinn fyrir samhengið sem er í keyrslu notaður.</span><span class="sxs-lookup"><span data-stu-id="25440-126">If it's defined as an empty string, the company currency for the running context is used.</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="d17a6-127">Frumbreyturnar `print currency name flag` og `decimal points` eru aðeins greindar fyrir eftirfarandi tungumálakóða: **CS**, **ET**, **HU**, **LT**, **LV**, **PL** og **RU**.</span><span class="sxs-lookup"><span data-stu-id="d17a6-127">The `print currency name flag` and `decimal points` arguments are analyzed only for the following language codes: **CS**, **ET**, **HU**, **LT**, **LV**, **PL**, and **RU**.</span></span> <span data-ttu-id="d17a6-128">Þar að auki er frumbreytan `print currency name flag` aðeins greind fyrir fyrirtæki þar sem samhengi landsins eða svæðisins styður frávik frá gjaldmiðlaheiti.</span><span class="sxs-lookup"><span data-stu-id="d17a6-128">Additionally, the `print currency name flag` argument is analyzed only for companies where the country's or region's context supports declension of currency names.</span></span>
+> <span data-ttu-id="25440-127">Frumbreyturnar `print currency name flag` og `decimal points` eru aðeins greindar fyrir eftirfarandi tungumálakóða: **CS**, **ET**, **HU**, **LT**, **LV**, **PL** og **RU**.</span><span class="sxs-lookup"><span data-stu-id="25440-127">The `print currency name flag` and `decimal points` arguments are analyzed only for the following language codes: **CS**, **ET**, **HU**, **LT**, **LV**, **PL**, and **RU**.</span></span> <span data-ttu-id="25440-128">Þar að auki er frumbreytan `print currency name flag` aðeins greind fyrir fyrirtæki þar sem samhengi landsins eða svæðisins styður frávik frá gjaldmiðlaheiti.</span><span class="sxs-lookup"><span data-stu-id="25440-128">Additionally, the `print currency name flag` argument is analyzed only for companies where the country's or region's context supports declension of currency names.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="d17a6-129">Dæmi 1</span><span class="sxs-lookup"><span data-stu-id="d17a6-129">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="25440-129">Dæmi 1</span><span class="sxs-lookup"><span data-stu-id="25440-129">Example 1</span></span>
 
-<span data-ttu-id="d17a6-130">`NUMERALSTOTEXT (1234.56, "EN-US", "", false, 2)` skilar **"One Thousand Two Hundred Thirty Four and 56"**.</span><span class="sxs-lookup"><span data-stu-id="d17a6-130">`NUMERALSTOTEXT (1234.56, "EN-US", "", false, 2)` returns **"One Thousand Two Hundred Thirty Four and 56"**.</span></span>
+<span data-ttu-id="25440-130">`NUMERALSTOTEXT (1234.56, "EN-US", "", false, 2)` skilar **"One Thousand Two Hundred Thirty Four and 56"**.</span><span class="sxs-lookup"><span data-stu-id="25440-130">`NUMERALSTOTEXT (1234.56, "EN-US", "", false, 2)` returns **"One Thousand Two Hundred Thirty Four and 56"**.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="d17a6-131">Dæmi 2</span><span class="sxs-lookup"><span data-stu-id="d17a6-131">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="25440-131">Dæmi 2</span><span class="sxs-lookup"><span data-stu-id="25440-131">Example 2</span></span>
 
-<span data-ttu-id="d17a6-132">`NUMERALSTOTEXT (120, "PL", "", false, 0)` skilar **"Sto dwadzieścia"**.</span><span class="sxs-lookup"><span data-stu-id="d17a6-132">`NUMERALSTOTEXT (120, "PL", "", false, 0)` returns **"Sto dwadzieścia"**.</span></span> 
+<span data-ttu-id="25440-132">`NUMERALSTOTEXT (120, "PL", "", false, 0)` skilar **"Sto dwadzieścia"**.</span><span class="sxs-lookup"><span data-stu-id="25440-132">`NUMERALSTOTEXT (120, "PL", "", false, 0)` returns **"Sto dwadzieścia"**.</span></span> 
 
-## <a name="example-3"></a><span data-ttu-id="d17a6-133">Dæmi 3</span><span class="sxs-lookup"><span data-stu-id="d17a6-133">Example 3</span></span>
+## <a name="example-3"></a><span data-ttu-id="25440-133">Dæmi 3</span><span class="sxs-lookup"><span data-stu-id="25440-133">Example 3</span></span>
 
-<span data-ttu-id="d17a6-134">`NUMERALSTOTEXT (120.21, "RU", "EUR", true, 2)` skilar **"Сто двадцать евро 21 евроцент"**.</span><span class="sxs-lookup"><span data-stu-id="d17a6-134">`NUMERALSTOTEXT (120.21, "RU", "EUR", true, 2)` returns **"Сто двадцать евро 21 евроцент"**.</span></span>
+<span data-ttu-id="25440-134">`NUMERALSTOTEXT (120.21, "RU", "EUR", true, 2)` skilar **"Сто двадцать евро 21 евроцент"**.</span><span class="sxs-lookup"><span data-stu-id="25440-134">`NUMERALSTOTEXT (120.21, "RU", "EUR", true, 2)` returns **"Сто двадцать евро 21 евроцент"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="d17a6-135">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="d17a6-135">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="25440-135">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="25440-135">Additional resources</span></span>
 
-[<span data-ttu-id="d17a6-136">Textavirkni</span><span class="sxs-lookup"><span data-stu-id="d17a6-136">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="25440-136">Textavirkni</span><span class="sxs-lookup"><span data-stu-id="25440-136">Text functions</span></span>](er-functions-category-text.md)
