@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 51d344d7b7a792d0cdf3eeb7f5c6e1a9b2b8bf19
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ec64cb8a7c490c6798a897fd20a56e5af5c8be3a
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022867"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057938"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Tengja jaðarbúnað við sölustað (POS)
 
@@ -43,7 +43,7 @@ Nokkra þætti eru notaðar til að skilgreina sambönd milli verslunar, afgrei�
 
 Leiðsögn: Smelltu á **Retail og Commerce** &gt; **Uppsetning rásar** &gt; **Uppsetning smásölustaðar** &gt; **Afgreiðslukassar**.
 
-Afgreiðslukassi er eining sem er notuð til að skilgreina eiginleika tiltekins tilviks af sölustað. Þessir eiginleikar taka til vélbúnaðarsniðs eða uppsetningar fyrir jaðarbúnað í smásölu sem verður notaður hjá afgreiðslukassanum, verslunina sem afgreiðslukassinn er varpaður á, og sjónræn upplifun fyrir notandann sem skráir sig inn í þann kassa.
+Afgreiðslukassi er eining sem er notuð til að skilgreina eiginleika tiltekins tilviks af sölustað. Þessir eiginleikar taka til vélbúnaðarsniðs eða uppsetningar fyrir jaðarbúnað sem verður notað hjá afgreiðslukassanum, verslunina sem afgreiðslukassinn er varpaður á og sjónræna upplifun fyrir notandann sem skráir sig inn í þann kassa.
 
 ### <a name="devices"></a>Tæki
 
@@ -67,7 +67,7 @@ Vélbúnaðarregla tilgreinar vélbúnaðinum sem tengdur er við afgreiðslukas
 
 ### <a name="hardware-station"></a>Hardware Station
 
-Skoðun: Smelltu á **Retail og Commerce** &gt; **Rásir** &gt; **Smásöluverslanir** &gt; **Allar smásöluverslanir**. Veljið verslun og smellið svo á flipann **vélbúnaðarstöðvar**.
+Skoðun: Smelltu á **Retail og Commerce** &gt; **Rásir** &gt; **Verslanir** &gt; **Allar verslanir**. Veljið verslun og smellið svo á flipann **vélbúnaðarstöðvar**.
 
 Vélbúnaðarstöð er tilvik af viðskiptagrunninn sem keyrir jaðartæki sölustaðar. Vélbúnaðarstöð er sjálfkrafa sett upp ásamt MPOS. Einnig er hægt að setja upp vélbúnaðarstöð sem stakan sjálfstæðan íhlut, og fá aðgagng með MPOS eða Cloud POS í gegnum vefþjónusta. Vélbúnaðarstöð þarf að skilgreina á stigi rásar.
 
@@ -87,7 +87,7 @@ Til að tengja MPOS við jaðarbúnað smásölustaðar í hefðbundnu, föstum 
 
 Eftir að vélbúnaðarreglunni hefur verið úthlutað skal samstilla breytingar í gagnagrunn rásar með dreifingaráætlun **Afgreiðslukassa**. Þú getur fundið dreifingaráætlanir á **Retain og Commerce** &gt; **Upplýsingatækni í Retail og Commerce** &gt; **Dreifingaráætlun**. 
 
-Næst skal setja upp "staðbundna" vélbúnaðarstöð á rásinni. Smelltu á **Retail og Commerce** &gt; **Rásir** &gt; **Smásöluverslanir** &gt; **Allar smásöluverslanir** og veldu verslun. 
+Næst skal setja upp "staðbundna" vélbúnaðarstöð á rásinni. Smelltu á **Retail og Commerce** &gt; **Rásir** &gt; **Verslanir** &gt; **Allar verslanir** og veldu verslun. 
 
 Svo á **vélbúnaðarstöðvar** flýtiflipi, smellið á **Bæta við** til að bæta við vélbúnaðarstöð. Færðu inn lýsingu, færa inn **localhost** sem hýsilheiti, og samstilla síðan breytingar við smásölurásina með því að nota dreifingaráætlunina **Skilgreining rásar**. Þú getur fundið dreifingaráætlanir á **Retain og Commerce** &gt; **Upplýsingatækni í Retail og Commerce** &gt; **Dreifingaráætlun**. 
 
@@ -104,7 +104,7 @@ Að lokum, í MPOS, notið **Velja vélbúnaðarstöð** aðgerð til að velja 
 
 Í þessu dæmi er sjálfstæðri vélbúnaðarstöð deilt á meðal MPOS og cloud POS biðlara. Þessar Aðstæðurnar krefjast þess að stofnuð sé vélbúnaðarreglu til að tilgreina niðurhalspakka, gátt, og vélbúnaðarreglu sem vélbúnaðarstöðin notar. Hægt er að finna reglu vélbúnaðarstöðvarinnar á **Retail og Commercer** &gt; **Rásaruppsetningu** &gt; **Uppsetning sölustaðar** &gt; **Forstilling sölustaðar** &gt; **Reglur vélabúnaðarstöðvar**. 
 
-Eftir að búið er að stofna reglur vélbúnaðarstöðvar, flettu í tiltekna smásölurás (**Retail og Commerce** &gt; **Rásir** &gt; **Verslanir** &gt; **Allar verslanir**) og bæta við nýrri vélbúnaðarstöð. Varpa þessi nýja vélbúnaðarstöð vélbúnaðarregluna sem áður var stofnuð. 
+Eftir að búið er að stofna reglur vélbúnaðarstöðvar, flettu í tiltekna rás (**Retail og Commerce** &gt; **Rásir** &gt; **Verslanir** &gt; **Allar verslanir**) og bæta við nýrri vélbúnaðarstöð. Varpa þessi nýja vélbúnaðarstöð vélbúnaðarregluna sem áður var stofnuð. 
 
 Næst skal veita lýsingu sem hjálpar gjaldkerinn að tilgreina vélbúnaðarstöð. Í **hýsilheiti** svæðinu, færið inn vefslóð hýsilvélar á eftirfarandi sniði: `https://<MachineName:Port>/HardwareStation`. (Skipta út **&lt;Vélarheiti:Gátt&gt;** með raunverulega vélarheiti vélbúnaðarstöðvar og gáttinni sem er tiltekin í reglu vélbúnaðarstöðvar.) Fyrir sjálfstæða vélbúnaðarstöð, ætti einnig að tilgreina kenni fyrir rafrænu kortamillifærsluna (EFT). Þetta gildi auðkennir afgreiðslustöð kortamillifærslu sem er tengd við vélbúnaðarstöð þegar greiðslutengillinn hefur samskipti við greiðsluþjónustuaðila. 
 

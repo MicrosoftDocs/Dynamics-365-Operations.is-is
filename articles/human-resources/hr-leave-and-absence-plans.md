@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 08fb278a3de0c06715dcd9c252ee6c21b2172cff
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: ed7a47068c451cd3ffaa26ee709599373858721b
+ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009451"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "3087301"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Búa til leyfis- og fjarvistaáætlun
 
@@ -61,8 +61,8 @@ Til dæmis, með skipulagðri áætlun, geturðu veitt nýjum starfsmönnum 80 t
 
       | Tímabilsgrunnur uppsöfnunar | Lýsing |
       | --- | --- |
-      | Upphafsdagsetning áætlunar | Upphafsdagur uppsöfnunarstímabilsins er dagsetningin sem áætlunin liggur fyrir. |
-      | Starfsmannasértæk dagsetning | Upphafsdagur uppsöfnunartímabils fer eftir atburði starfsmanns:</br><ul><li>Sérsniðin (þú verður að tilgreina uppsöfnunargrundvöll fyrir hverja einstaka skráningu)</li><li>Dagsetning starfsafmælis</li><li>Upprunaleg ráðningardagsetning</li><li>Starfsaldursdagsetning</li><li>Breyttur fyrsti starfsdagur starfskrafts</li><li>Fyrsti starfsdagur starfskrafts</li></ul> |
+      | **Upphafsdagsetning áætlunar** | Upphafsdagur uppsöfnunarstímabilsins er dagsetningin sem áætlunin liggur fyrir. |
+      | **Starfsmannasértæk dagsetning** | Upphafsdagur uppsöfnunartímabils fer eftir atburði starfsmanns:</br><ul><li>Sérsniðin (þú verður að tilgreina uppsöfnunargrundvöll fyrir hverja einstaka skráningu)</li><li>Dagsetning starfsafmælis</li><li>Upprunaleg ráðningardagsetning</li><li>Starfsaldursdagsetning</li><li>Breyttur fyrsti starfsdagur starfskrafts</li><li>Fyrsti starfsdagur starfskrafts</li></ul> |
 
    3. Veldu valkost úr **Uppsöfnun verðlaunadags** fellilisti:
 

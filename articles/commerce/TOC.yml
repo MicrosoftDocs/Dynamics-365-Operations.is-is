@@ -166,6 +166,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/commerce/toc.json
                 - name: Vistuð yfirlit
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/commerce/toc.json
+                - name: Eiginleikar hnitanets
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Stofna og vinna með sérstillt svæði
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: Fella inn PowerApps forrit
@@ -438,8 +440,6 @@
                   href: configure-call-center-delivery.md
                 - name: Setja upp og vinna með svikaviðvaranir
                   href: set-up-fraud-alerts.md
-                - name: Setja upp samfelldniáætlanir fyrir símaver
-                  href: set-up-continuity-program.md
             - name: Ítarlegri grunnstilling rásar
               items:
                 - name: Bæta rás við stigveldi fyrirtækis
@@ -450,6 +450,12 @@
                       href: omni-auto-charges.md
                     - name: Skipta gjöldum í haus í hlutfalli við samsvarandi sölulínur
                       href: pro-rate-charges-matching-lines.md
+                - name: Stjórna samfelldniáætlunum
+                  items:
+                    - name: Setja upp samfelldniáætlanir fyrir símaver
+                      href: set-up-continuity-program.md
+                    - name: Skilgreina samfelldniáætlanir
+                      href: tasks/define-continuity-schedules.md
                 - name: Stjórnun smásöluverslunar
                   items:
                     - name: Búa til og breyta afgreiðslutíma verslunar
@@ -460,8 +466,6 @@
                   items:
                     - name: Skilgreina og vinna með símaverspantanir í bið
                       href: work-with-order-holds.md
-                    - name: Skilgreina samfelldniáætlanir
-                      href: tasks/define-continuity-schedules.md
                 - name: Greiðslur
                   items:
                     - name: Greiðslumátar
@@ -478,6 +482,8 @@
                       href: dev-itpro/adyen-connector.md
                     - name: Vista netgreiðslumáta með Adyen-tengli
                       href: dev-itpro/adyen-connector-listpi.md
+                    - name: Þægilegur rofi án nettengingar fyrir gjafakort og notkun kreditreikninga
+                      href: dev-itpro/seamless-offline-improvements.md
                     - name: Uppsetning á greiðsluaðstæðum reikninga
                       href: payinvoice.md
                     - name: Vörn fyrir tvíteknar greiðslur
@@ -494,9 +500,9 @@
                   href: ../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json
                 - name: Setja upp smásöluafurðir
                   href: set-up-retail-products.md
-                - name: Stigveldi smásöluafurða
+                - name: Afurðarstigveldi
                   items:
-                    - name: Smásölustigveldi
+                    - name: Stigveldi Commerce
                       href: retail-hierarchies.md
                     - name: Stofna nýtt afurðastigveldi
                       href: create-product-hierarchy.md
@@ -624,6 +630,12 @@
                       href: tasks/push-products-distribution-center-store-buyers-push.md
                     - name: Setja upp reglur og færibreytur fyrir dreifingu frá dreifingarstöð og lager
                       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+                    - name: Birgðaaðgerð á innleið á sölustað
+                      href: pos-inbound-inventory-operation.md
+                    - name: Birgðaaðgerð á útleið á sölustað
+                      href: pos-outbound-inventory-operation.md
+                    - name: Reikna tiltækar birgðir fyrir smásölurásir
+                      href: calculated-inventory-retail-channels.md
                 - name: Innkaupapantanir
                   items:
                     - name: Yfirlit yfir innkaupapöntun
@@ -726,6 +738,18 @@
               href: tasks/store-configurations-retail-statements.md
             - name: Bókun á netsölu og -greiðslum
               href: tasks/posting-online-sales-payments.md
+        - name: Stjórna verkum starfskrafts
+          items:
+            - name: Yfirlit verkstjórnunar
+              href: task-mgmt-overview.md
+            - name: Skilgreina verkstjórnun
+              href: task-mgmt-configure.md
+            - name: Búa til verkefnalista og bæta við verkum
+              href: task-mgmt-create-lists.md
+            - name: Úthluta verkefnalistum til verslana eða starfsmanna
+              href: task-mgmt-assign-lists.md
+            - name: Verkstjórnun á sölustað
+              href: task-mgmt-pos.md
         - name: Vinna með svæðið þitt fyrir rafræn viðskipti
           items:
             - name: Yfirlit netverslunar
@@ -880,6 +904,8 @@
                   items:
                     - name: Kaupgluggaeining
                       href: add-buy-box.md
+                    - name: Einkunna- og umsagnaeiningar
+                      href: ratings-reviews-modules.md
                 - name: Innkaupaeiningar
                   items:
                     - name: Körfueining
@@ -1056,6 +1082,8 @@
               items:
                 - name: Yfirlit Document Reporting Services
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/commerce/toc.json
+                - name: Studdar leturgerðir
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreina SSRS fyrir uppsetningu á staðnum
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Prentun
@@ -1834,8 +1862,6 @@
                       href: e-commerce-extensibility/add-module-config-fields.md
                     - name: Fara yfir og kemba einingar
                       href: e-commerce-extensibility/test-module.md
-                    - name: Kemba einingar
-                      href: e-commerce-extensibility/debug-modules.md
                     - name: Prófa einingar með því að nota gerviútgáfur
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: Prófa einingar með því að nota gervisíður
@@ -1976,6 +2002,8 @@
                   href: dev-itpro/pos-run-samples.md
                 - name: Leiðbeiningar við innleiðingu tækjastjórnunar
                   href: implementation-considerations-devices.md
+                - name: Tilvik og reklar yfirlits körfu sölustaðar
+                  href: dev-itpro/cart-view-handlers.md
             - name: Stækkunarhæfni Hardware Station
               items:
                 - name: Hardware Station og stækkunarhæfni
@@ -2032,6 +2060,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-samples.md
                 - name: Skrá viðbótartilvik á Application Insights
                   href: dev-itpro/commerce-application-insights.md
+                - name: Búa til API fyrir Async Commerce (CRT) í viðskiptagrunni
+                  href: dev-itpro/async-commerce-extension.md
             - name: Stækkunarhæfni greiðslutengils
               items:
                 - name: Stofna greiðslusamþættingu fyrir greiðslustöð
@@ -2048,6 +2078,8 @@
                   href: payment-connector-data-fields.md
                 - name: Kveikja á vörn gegn tvítekinni greiðslu fyrir greiðslutengil
                   href: dev-itpro/duplicate-payment-protection.md
+                - name: Búa til greiðsluumbúðir fyrir forritaskoðara í uppsetningu Service Fabric
+                  href: dev-itpro/payment-connector-package.md
             - name: Stækkunarhæfni rafrænna viðskipta þriðja aðila
               items:
                 - name: Skilgreina netverslanir
@@ -2060,8 +2092,6 @@
               href: dev-itpro/extension-resource-localization.md
     - name: hönnun og stjórnun Finance and Operations -forrita
       href: ../fin-ops-core/dev-itpro/index.md
-    - name: Dynamics 365 Retail
-      href: index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Supply Chain Management

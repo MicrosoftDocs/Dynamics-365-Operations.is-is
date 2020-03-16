@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: feb28b9c801786f63282c4189d3eeb6d53ed07e1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 320f21916a5f451ebf4f21e0075017a121ba6d6a
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003143"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057615"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Setja upp forstillingu tilkynningar í tölvupósti
 
@@ -41,7 +41,7 @@ Frekari upplýsingar um hvernig á að skilgreina tölvupóst er að finna í [S
 
 Fylgdu þessum skrefum til að búa til tilkynningar um tölvupóst.
 
-1. Í skoðunarrúðunni ferðu í **Einingar \> Retail og Commerce \> Uppsetning höfuðstöðva \> Forstilling tilkynningar í tölvupósti í Retail**.
+1. Í skoðunarrúðunni ferðu í **Einingar \> Retail og Commerce \> Uppsetning höfuðstöðva \> Forstilling tilkynningar í tölvupósti í Commerce**.
 1. Í aðgerðasvæðinu er smellt á **Nýtt**.
 1. Í reitinn **Tilkynning um tölvupóst** slærðu inn heiti til að bera kennsl á forstillinguna.
 1. Í reitnum **Lýsing** skal færa inn viðeigandi lýsingu.
@@ -71,16 +71,16 @@ Eftirfarandi mynd sýnir nokkur dæmi um sniðmátsstillingar tölvupósts.
 
 Til að stofna tölvupóststilvik, skal fylgja eftirfarandi skrefum.
 
-1. Í skoðunarrúðunni ferðu í **Einingar \> Retail og Commerce \> Uppsetning höfuðstöðva \> Forstilling tilkynningar í tölvupósti í Retail**.
+1. Í skoðunarrúðunni ferðu í **Einingar \> Retail og Commerce \> Uppsetning höfuðstöðva \> Forstilling tilkynningar í tölvupósti í Commerce**.
 1. Í listanum skal finna og velja þá skráningu sem óskað er eftir. 
 1. Velja tölvupóstssniðmát af fellislistanum **Tölvupóstskenni**.
 1. Veldu viðeigandi **Gerð tilkynningar í tölvupósti** af fellilistanum.
 1. Velja skal gátreitinn **Virkt** .
 1. Í aðgerðaglugganum velurðu **Vista.**
 
-Eftirfarandi mynd sýnir nokkur dæmi um stillingar tilkynningar smásölutilviks.
+Eftirfarandi mynd sýnir nokkur dæmi um stillingar tilkynningar tilviks.
 
-![Tilkynningastillingar smásölutilvika](media/email-notification-profile.png)
+![Tilkynningastillingar tilvika](media/email-notification-profile.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

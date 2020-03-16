@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 12d3a86698e9250f5d1645de51e0749c8d929f75
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: d72caee25c03e8167b94dd387c7861f98bd0f4cb
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024707"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057718"
 ---
 # <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Skilgreina forskoðunarumhverfi fyrir Dynamics 365 Commerce
 
@@ -35,7 +35,7 @@ ms.locfileid: "3024707"
 
 Ljúktu verklagsreglunum í þessu efni aðeins eftir að forskoðunarumhverfi Commerce hefur verið útvegað. Fyrir upplýsingar um hvernig skuli úthluta þér forskoðunarumhverfi Commerce skal sjá [Veita forskoðunarumhverfi Commerce](provisioning-guide.md).
 
-Eftir að forskoðunarumhverfi Commerce hefur verið úthlutað á öllum sviðum verður að ljúka eftirúthlutunarstillingarþrepunum áður en þú getur byrjað að meta umhverfið. Til að klára þessi skref verður þú að nota Microsoft Dynamics Lifecycle Services (LCS), Dynamics 365 Commerce, og Dynamics 365 Retail.
+Eftir að forskoðunarumhverfi Commerce hefur verið úthlutað á öllum sviðum verður að ljúka eftirúthlutunarstillingarþrepunum áður en þú getur byrjað að meta umhverfið. Til að klára þessi skref verður þú að nota Microsoft Dynamics Lifecycle Services (LCS) og Dynamics 365 Commerce.
 
 ## <a name="before-you-start"></a>Áður en byrjað er
 
@@ -53,7 +53,7 @@ Eftir að forskoðunarumhverfi Commerce hefur verið úthlutað á öllum sviðu
 
 Fylgdu þessum skrefum til að tengja starfsmann við kenni þitt í LCS.
 
-1. Notaðu valmyndina til vinstri til að fara í **Einingar \> Retail \> Starfsmenn \> Starfskraftar**.
+1. Notaðu valmyndina til vinstri til að fara í **Einingar \> Retail og Commerce \> Starfsmenn \> Starfskraftar**.
 1. Í listanum skal finna og velja eftirfarandi skrá: **000713 - Andrew Colette**.
 1. Í aðgerðarúðunni skal velja **Retail**.
 1. Veldu **Tengja fyrirliggjandi kenni**.
@@ -91,12 +91,12 @@ Fylgdu þessum skrefum til að byrja að setja upp forskoðunarsíðuna í Comme
 1. Hafðu gildið í reitnum **Slóð** eins og það er.
 1. Veljið **Í lagi**. Listinn yfir síður svæðisins birtist.
 
-## <a name="enable-jobs-in-retail"></a>Virkja störf í Retail
+## <a name="enable-jobs"></a>Virkja vinnslur
 
-Til að virkja vinnslur í Retail skal fylgja þessum skrefum.
+Til að virkja vinnslur í Commerce skal fylgja þessum skrefum.
 
 1. Skráðu þig inn í umhverfið (HQ).
-1. Notaðu valmyndina til vinstri til að fara í **Retail \> Fyrirspurnir og skýrslur \> Runuvinnslur**.
+1. Notaðu valmyndina til vinstri til að fara í **Retail og Commerce \> Fyrirspurnir og skýrslur \> Runuvinnslur**.
 
     Hinum skrefum þessa ferlis verður að vera lokið fyrir sérhverja af eftirfarandi vinnslum:
 
@@ -112,11 +112,11 @@ Til að virkja vinnslur í Retail skal fylgja þessum skrefum.
     1. Í aðgerðaglugganum á flipanum **Runuvinnsla** velurðu **Breyta stöðu**.
     1. Veldu **Bíður** og síðan **Í lagi**.
 
-### <a name="run-full-data-synchronization-in-retail"></a>Keyra fulla samstillingu gagna í Retail
+### <a name="run-full-data-synchronization"></a>Keyra fulla samstillingu gagna
 
-Fylgdu þessum skrefum til að keyra fulla samstillingu gagna í Retail.
+Fylgdu þessum skrefum til að keyra fulla samstillingu gagna í Commerce.
 
-1. Notaðu valmyndina til vinstri til að fara í **Einingar \> Retail \> Uppsetning höfuðstöðva \> Retail Verkraðari \> Rásagagnagrunnur**.
+1. Notaðu valmyndina til vinstri til að fara í **Einingar \> Retail og Commerce \> Uppsetning höfuðstöðva \> Retail Verkraðari \> Rásagagnagrunnur**.
 1. Á listanum til vinstri er rásin **Sjálfgefið** valin. Veldu hina rásina sem er tiltæk. Þessi rás heitir **scXXXXXXXXX**.
 1. Í aðgerðaglugganum velurðu **Samstilling allra gagna**.
 1. Skráðu **9999** sem dreifingaráætlun.

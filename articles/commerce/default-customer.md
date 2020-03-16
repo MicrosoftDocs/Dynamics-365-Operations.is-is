@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9e1087821b357c578993cdd5742399c5ec0ecc95
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ba1d10a897f349703737068d772423f7d0292944
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001807"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057963"
 ---
 # <a name="create-a-default-customer"></a>Stofnun sjálfvirks viðskiptavinar
 
@@ -33,7 +33,7 @@ ms.locfileid: "3001807"
 
 ## <a name="overview"></a>Yfirlit
 
-Þegar þú býrð til smásölu eða á netinu rás þarftu að bjóða upp á sjálfgefinn viðskiptavin. Auðvelt er að búa til sjálfgefinn viðskiptavin eftir að hafa búið til viðskiptavinahópinn og aðsetursbók viðskiptavinarins.
+Þegar þú býrð til rás þarftu að bjóða upp á sjálfgefinn viðskiptavin. Auðvelt er að búa til sjálfgefinn viðskiptavin eftir að hafa búið til viðskiptavinahópinn og aðsetursbók viðskiptavinarins.
 
 ## <a name="create-a-customer-group"></a>Viðskiptavinaflokkur stofnaður
 

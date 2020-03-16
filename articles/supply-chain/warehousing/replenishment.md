@@ -3,7 +3,7 @@ title: Yfirlit áfyllingar
 description: Þetta efnisatriði lýsir áfyllingaráætlunum sem eru tiltækar fyrir vöruhús sem nota aðgerðirnar sem eru tiltækar í vöruhúsakerfi.
 author: Mirzaab
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3c1989f11563db343129c678623725e2e61b27fc
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7aa17df3c3632c89f35a69022084bbd9f4171f36
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251470"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076360"
 ---
 # <a name="replenishment-overview"></a>Yfirlit áfyllingar
 
@@ -49,6 +49,8 @@ Staðsetningarleiðbeiningar eru notaðar til að ákvarða hvaða staðsetningu
 Auk þess að stofna sniðmát, verður að tilgreina einhverjar áfyllingarstillingar í bylgjusniðmátið. Bylgjusniðmátið ætti að innihalda bylgjuskref fyrir áfyllingu sem er einungis keyrð ef úthlutun vöru tekst ekki. Þetta áfyllingarskref bylgju notar bylgjuskrefskóða til að ákvarða hvaða áfyllingarsniðmát skuli nota. Auk þess að þurfa skrefbylgju fyrir áfyllingu, þarf að tryggja að **Fylla á** er valin í á **Aðferðir** hluta bylgjusniðmáts. 
 
 **áfyllingarsniðmát** síða inniheldur **Leyfa bylgjueftirspurn til að nota ófrátekið magn** gátreit. Veljið þennan gátreit ef leyfa á eftirspurnaráfyllingu til að draga ófrátekið magn af vinnu sem er mynduð úr völdu áfyllingarsniðmáti. Hakaðu við í þennan gátreit fyrir hvert fyrirliggjandi áfyllingarsniðmát svo sniðmát fyrir bylgjuáfyllingu geti notað þessa reglu. Þegar eftirspurnaráfylling er ræst í vöruhúsi, mun það draga eftirspurn frá fyrirliggjandi áfyllingarvinnu sem er með ófrátekið magn, ef vinnan er upprunnið úr áfyllingarsniðmáti þar sem gátreiturinn **Leyfa bylgjueftirspurn að nota ófrátekið magn** er valinn.
+
+**Áfyllingareining** er lágmarkseiningin sem á að fylla á. Þetta verður að vera heil tala sem er margfeldi af einingunni. Kerfið verður námundað upp að hæstu einingu sem mögulegt er við stofnun á vinnu.
 
 Áfyllingareftirspurn er studd fyrir sölupantanir, flutningspantanir, framleiðslupantanir og kanban-kerfi. 
 

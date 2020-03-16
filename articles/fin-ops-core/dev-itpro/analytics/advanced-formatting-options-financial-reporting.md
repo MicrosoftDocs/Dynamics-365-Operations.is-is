@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a46ff0a1d6e29cc567a86fae60ff803a102d1a2e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3b04f78f2a8210837e16c8246609ad2fddd804f0
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181221"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071591"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Ítarlegir sniðsvalkostir í fjárhagsskýrslugerð
 
@@ -216,7 +216,7 @@ Reikniformúla notar flóknari virkja en formúla fyrir línusamtölu. Hins vega
 Þegar línu í línuskilgreiningu er með sniðkóðann **CAL**, og notandi færir inn reikniformúlu í hólfið **Tengdar formúlur/línur/einingar** verður einnig að færa inn staf tengda dálksins og línunnar í skýrslunni. Til dæmis færirðu inn **A.120** til að tákna dálk A, línu 120. Einnig er hægt að nota á-merkið (@) til að tilgreina allra dálka. Til dæmis færirðu inn **@120** til að tákna alla dálka í línu 120. Allar reikniformúlur sem eru ekki með dálkstaf eða @-tákn teljast vera tölustafur.
 
 > [!NOTE]
-> Ef línukóðamerki er notað til að vísa í línu verður að nota punkt (.) sem skiltákn milli dálkstafs og merkis (t.d. **A.GROSS\_MARGIN/A.SALES**). Ef nota á-merki (@) er skiltákn óþarfi (t.d. **@GROSS\_MARGIN/@SALES**).
+> Ef línukóðamerki er notað til að vísa í línu verður að nota punkt (.) sem skiltákn milli dálkstafs og merkis (t.d. **A.GROSS\_MARGIN/A.SALES**). Ef nota á-merki (@) er skiltákn óþarfi (t.d. **\@GROSS\_MARGIN/@SALES**).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Dæmi um útreikningsformúlu fyrir tiltekinn dálk
 

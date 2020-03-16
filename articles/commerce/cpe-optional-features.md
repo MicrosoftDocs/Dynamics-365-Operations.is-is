@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 43b23b9ef881b2ab2f3d005d4ba761848a7fa4ed
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 4b17f8e9b0d8a9a62714d0073561e66642b2eaf9
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024730"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057741"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Skilgreina valfrjálsa eiginleika forskoðunarumhverfis fyrir Dynamics 365 Commerce
 
@@ -63,8 +63,8 @@ Ef þú vilt meta eiginleika stafrænna eignaumsjónarmiða með því að taka 
 
 ### <a name="update-the-media-base-url"></a>Uppfærðu grunnvefslóð miðla
 
-1. Innskráning í Dynamics 365 Retail.
-1. Notaðu valmyndina til vinstri til að fara í **Einingar \> Retail \> Uppsetning rásar \> Rásaforstillingar**.
+1. Innskráning í Dynamics 365 Commerce.
+1. Notaðu valmyndina til vinstri til að fara í **Einingar \> Retail og Commerce \> Uppsetning rásar \> Rásaforstillingar**.
 1. Veljið **Breyta**.
 1. Undir **Forstillingareiginleikum** skiptirðu út gildinu fyrir eiginleikann **Grunnvefslóð miðlaþjóns** með þeirri grunnvefslóð miðla sem þú stofnaðir áður.
 1. Á listanum til vinstri, undir rásinni **Sjálfgefið**, velurðu aðra rás.
@@ -77,7 +77,7 @@ Ef þú vilt meta eiginleika stafrænna eignaumsjónarmiða með því að taka 
 > [!NOTE]
 > SMTP-miðlarinn eða tölvupóstþjónustan sem þú slærð inn hér verða að vera aðgengileg innan Azure áskriftarinnar sem þú notar fyrir umhverfið.
 
-1. Skráðu þig inn á Retail.
+1. Innskráning í Commerce.
 1. Notaðu valmyndina til vinstri til að fara í **Einingar \> Kerfisstjórnun \> Uppsetning \> Tölvupóstur \> Færibreytur tölvupósts**.
 1. Á flipanum **SMTP-stillingar**, í reitnum **Þjónn fyrir sendan póst**, slærðu inn FQDN eða IP-tölu SMTP-netþjónsins eða tölvupóstþjónustunnar.
 1. Í reitnum **SMTP-númer tengis** slærðu inn númer tengisins. (Ef þú ert ekki að nota Secure Sockets Layer \[SSL\] er sjálfgefið númer tengis **25**.)
@@ -92,7 +92,7 @@ Ef þú vilt meta eiginleika stafrænna eignaumsjónarmiða með því að taka 
 
 Uppfæra verður tölvupóstsniðmátið fyrir hvert færslutilvik sem þú vilt senda tölvupóst með gildu netfangi sendanda.
 
-1. Skráðu þig inn á Retail.
+1. Innskráning í Commerce.
 1. Notaðu valmyndina til vinstri til að fara í **Einingar \> Fyrirtækisstjórnun \> Uppsetning \> Sniðmát tölvupósts fyrirtækis**.
 1. Veldu **Sýna lista**.
 1. Fyrir hvert sniðmát á listanum skal fylgja eftirfarandi skrefum:
@@ -115,7 +115,7 @@ Uppfæra verður tölvupóstsniðmátið fyrir hvert færslutilvik sem þú vilt
     - Tiltektarpöntunarsniðmát
 
 1. Sérsniðið sniðmátin með texta- eða HTML-ritil. Sjá lista yfir [studd tákn](#supported-tokens-in-the-email-template) seinna í þessu efni.
-1. Skráðu þig inn á Retail.
+1. Innskráning í Commerce.
 1. Notaðu valmyndina til vinstri til að fara í **Einingar \> Fyrirtækisstjórnun \> Uppsetning \> Sniðmát tölvupósts fyrirtækis**.
 1. Stækkaðu listann vinstra megin til að sjá öll sniðmát.
 1. Fylgdu þessum skrefum fyrir hvert sniðmát sem þú vilt aðlaga:

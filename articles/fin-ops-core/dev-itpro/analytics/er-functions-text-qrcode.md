@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bac0910d213ee05a2a7a7b218a6714d4f935be16
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 8a52dbce29140591baf4be97baef237dce1f2511
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916753"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3040849"
 ---
 # <a name="QRCODE">QRCODE ER-aðgerð</a>
 
@@ -33,7 +33,7 @@ Aðgerðin `QRCODE` skilar *Íláts*-gildi sem sýnir Quick Response Code (QR-k�
 
 ## <a name="syntax"></a>Málskipun
 
-```
+```vb
 QRCODE (text)
 ```
 
@@ -53,7 +53,7 @@ Tvíundarstraumurinn sem myndast.
 
 Þú getur stillt rafræn skýrslugerð (ER) snið til að búa til útgagnaskjal í Microsoft Office snið (Excel-vinnubækur eða Word-skjöl) með því að nota fyrirfram skilgreint sniðmát. Þetta sniðmát getur innihaldið hlutinn **Mynd** (Excel-vinnubók) eða **Myndstjórnun** (Word-skjal) sem staðgengil fyrir mynd QR-kóða. Þú verður að bæta við stillt ER-snið þættinum **Hólf** sem verður notaður til að fylla inn í þennan staðgengil. Til að tilgreina hvaða upplýsingar verða geymdar í QR-kóða þarf að skilgreina bindingu fyrir þennan þátt **Hólf**. Til dæmis er hægt að stilla slíka bindingu sem inniheldur eftirfarandi segð:
 
-```
+```vb
 QRCODE (model.ListOfShelfLabels.LabelText)`
 ```
 

@@ -3,7 +3,7 @@ title: Algengar spurningar um verkflæði
 description: Þetta efnisatriði svarar algengum spurningum um verkflæðiskerfið.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdddd26a662e9334f6d3c9806871df5b58ec03c7
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934910"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076087"
 ---
 # <a name="workflow-faq"></a>Algengar spurningar um verkflæði
 
@@ -34,7 +34,7 @@ ms.locfileid: "2934910"
 Hver tilkynning er fyrir mismunandi vinnulið, en líkindin geta valdið ruglingi. Við erum að skoða leiðir til að bæta þetta í framtíðarútgáfu.
 
 ## <a name="why-are-my-workflow-exports-failing"></a>Afhverju eru útflutningar á verkflæðum að mistakast?
-Sem stendur eru takmörk á eiginleikanum fyrir útflutning verkflæðis sem koma í veg fyrir að heiti verkflæða séu lengri en 48 stafir. Að nota heiti sem er lengra en 48 stafir getur leitt til villunnar „Þjónn gat ekki sannvottað beiðnina“ og/eða komið í veg fyrir að skrá verði flutt út án skráargerðar. Eftirfarandi bloggfærsla veitir frekari upplýsingar [Úrræðaleit fyrir útflutning verkflæðis](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).
+Sem stendur eru takmörk á eiginleikanum fyrir útflutning verkflæðis sem koma í veg fyrir að heiti verkflæða séu lengri en 48 stafir. Að nota heiti sem er lengra en 48 stafir getur leitt til villunnar „Þjónn gat ekki sannvottað beiðnina“ og/eða komið í veg fyrir að skrá verði flutt út án skráargerðar. Eftirfarandi bloggfærsla veitir frekari upplýsingar, [Úrræðaleit fyrir útflutning verkflæðis](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>Getur sendandi verkflæðis einnig samþykkt verkflæðið?
 Já, sendandi verkflæðis getur einnig samþykkt verkflæðið ef það er stillt þannig. Til að koma í veg fyrir þessa hegðun skaltu stilla **Kerfisstjórnun > Verkflæði > Færibreytur verkflæðis > Almennar > Samþykktaraðili > Afturkalla heimild innsendingaraðila** á **Já**.
@@ -52,5 +52,9 @@ Hér eru nokkrur lykilatriði til að hafa í huga varðandi viðbót viðvarana
 
 Í stuttu máli, ef notandi fær ekki rétta tilkynningu frá aðgerðamiðstöðinni þegar honum er úthlutað verkflæðisliður, þá notar hann [Viðskiptatilvik verkflæðis](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) með Microsoft Power Automate til að veita viðbótar eða mismunandi tilkynningar.
 
-## <a name="workflow-editor-has-trouble-starting-under-adfs"></a>Ritstjóri verkflæðis á í vandræðum með að byrja undir ADFS 
+## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Af hverju er ritstjórinn á verkflæðinu ekki fær um að byrja undir AD FS?
 Þegar keyrt er undir Active Directory Federation Services (AD FS) í uppfærðu umhverfi, getur ritstjórinn á verkflæðinu átt í vandræðum með að byrja. Ef það gerist skaltu passa að slóðinni „https://dynamicsaxworkfloweditor/" hafi verið bætt við eiginleikann **Microsoft Dynamics 365 for Operations Innanhúss - Vinnuflæði - Native forrit** í ADFS-stillingum.
+
+## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>Af hverju fæ ég SQL sjálfheldu við vinnsluflæðisvinnslu? 
+Sjálfgefna reitgildið fyrir **Fjöldi verkflæðisatriða á runu** á síðunni **Færibreytur verkflæðis** er 0. Gildi 0 veldur því að sjálfgefið breytist í 20 hluti í hverri runu. Vertu varkár þegar þú stillir þetta gildi vegna þess að mikill fjöldi atriða í hverri runu (> 40) getur valdið SQL sjálfheldum.
+

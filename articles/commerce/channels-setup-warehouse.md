@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: fe785e3bfd503193a588958ae5df0d1c0fdb9e52
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9ba12876a8c8f841733d8ec49c33e900211c4ab4
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002313"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057857"
 ---
 # <a name="warehouse-set-up"></a>Uppsetning vöruhúss
 
@@ -59,7 +59,7 @@ Til að setja upp vöruhús skal fylgja þessum skrefum.
 
 1. Í yfirlitsglugganum ferðu í **Einingar \> Retail og Commerce \> Uppsetning rásar \> Vöruhús**.
 1. Í aðgerðaglugganum velurðu **Nýtt**.
-1. Í reitnum **Vöruhús** slærðu inn gildi.  Ef þetta er 1:1 vörpun í smásöluverslun skaltu íhuga að nota heiti verslunarinnar eða nafn svæðisbundinnar dreifingarmiðstöðvar.
+1. Í reitnum **Vöruhús** slærðu inn gildi.  Ef þetta er 1:1 vörpun í verslun skaltu íhuga að nota heiti verslunarinnar eða nafn svæðisbundinnar dreifingarmiðstöðvar.
 1. Í reitinn **Heiti** skal slá inn gildi.
 1. Í fellivalmyndinni **Vefsvæði** velurðu vörugeymslusíðuna sem áður var búin til.
 1. Í reitnum **Tegund** velurðu **Sjálfgildi**.

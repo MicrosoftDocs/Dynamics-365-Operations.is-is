@@ -1,6 +1,6 @@
 ---
 title: Stofna virknireglu fyrir smásölu
-description: Þetta efnisatriði lýsir því hvernig á að búa til virkniforstillingar smásölu í Microsoft Dynamics 365 Commerce.
+description: Þetta efnisatriði lýsir því hvernig á að búa til virkniforstillingar í Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9fb0fd63b11e55f2b153fc9c135f148a6e343057
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6bee51eb25b04eb65e588dd4cf54a0cef587aa15
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002844"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057349"
 ---
 # <a name="create-a-retail-functionality-profile"></a>Stofna virknireglu fyrir smásölu
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að búa til virkniforstillingar smásölu í Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði lýsir því hvernig á að búa til virkniforstillingar í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 
-Smásöluvirkni sniðið veitir ýmsar stillingar sem notaðar eru fyrir netrásir. Hver smásölurás verður að tilgreina virknireglu fyrir smásölu.
+Forstillingar viðskiptavirkni veita ýmsar stillingar sem notaðar eru fyrir netrásir. Hver rás verður að tilgreina virknireglu.
 
-## <a name="create-a-retail-functionality-profile"></a>Stofna virknireglu fyrir smásölu
+## <a name="create-a-functionality-profile"></a>Stofna virkniforstillingu
 
-Til að stofna virknireglu smásölu, skal fylgja þessum skrefum.
+Til að stofna virknireglu skal fylgja þessum skrefum.
 
 1. Farðu í **Einingar \> Uppsetning rásar \> POS-virknireglur \> Virknireglur**.
 1. Í aðgerðaglugganum velurðu **Nýtt**.
@@ -51,9 +51,9 @@ Til að stofna virknireglu smásölu, skal fylgja þessum skrefum.
 1. Í kaflanum **Upplýsingakóðar**, breyttu stillingum, eftir þörfum.
 1. Í kaflanum **Kvittananúmer**, breyttu stillingum, eftir þörfum. 
   
-Eftirfarandi mynd sýnir dæmi um virknireglu smásölu.
+Eftirfarandi mynd sýnir dæmi um virknireglu.
   
-![Dæmi um virknireglur smásölu](media/retail-functionality-profile.png)
+![Virknireglur fyrir forstillingu](media/retail-functionality-profile.png)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

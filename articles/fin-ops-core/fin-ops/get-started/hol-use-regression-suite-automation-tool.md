@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 026d1d743b5150f152ef70aa642dcf6841a4e398
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 6cdaa89fb6d50ebaaaefe7f92d7224a1567d17d1
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025805"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070821"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>Notaðu kennsluefni fyrir Regression Suite Automation Tool
 
@@ -217,15 +217,15 @@ Eftirfarandi mynd sýnir viðskiptaferlin fyrir þessar aðstæður í RSAT.
 
 ## <a name="advanced-scripting"></a>Ítarlegri forskriftir
 
-### <a name="command-line"></a>Skipunarlína
+### <a name="cli"></a>CLI
 
-Hægt er að kalla RSAT úr glugganum **Skipanakvaðning**.
+Hægt er að kalla RSAT úr glugganum **Skipanakvaðning** eða **PowerShell**.
 
 > [!NOTE]
 > Staðfestu að umhverfisbreytan **TestRoot** sé stillt á RSAT-uppsetningarslóðina. (Í Microsoft Windows skaltu opna **Stjórnborð**, velja **Kerfi og öryggi \> Kerfi \> Ítarlegir kerfisstillingar** og velja síðan **Umhverfisbreytur** .)
 
-1. Opnaðu gluggann **Skipanakvaðning** sem stjórnandi.
-2. Keyrðu verkfærið úr skráarsafni uppsetningar.
+1. Opnaðu gluggann **Skipanakvaðning** eða **PowerShell** sem stjórnandi.
+2. Farðu í RSAT uppsetningarskrána.
 
     ```Console
     cd "c:\Program Files (x86)\Regression Suite Automation Tool\"
@@ -242,22 +242,273 @@ Hægt er að kalla RSAT úr glugganum **Skipanakvaðning**.
         Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe /settings "C:\Path to\file.settings" command
 
     Available commands:
-        list
-        listtestsuite suite_name
-        download test_case_id output_dir
-        generate test_case_id output_dir
-        generatederived parent_test_case_id test_plan_id test_suite_id
-        generatetestonly test_case_id output_dir
-        edit excel_file
-        playback excel_file
-        playbackmany excel_file1 [excel_file2 [.. excel_fileN]]
-        playbackbyid test_case_id1 [test_case_id2 [.. test_case_idN]]
-        playbacksuite suite_name
-        clear
-        help
+        ?
         about
+        cls
+        download
+        edit
+        generate
+        generatederived
+        generatetestonly
+        generatetestsuite
+        help
+        list
+        listtestplans
+        listtestsuite
+        listtestsuitenames
+        playback
+        playbackbyid
+        playbackmany
+        playbacksuite
         quit
+        upload
+        uploadrecording
+        usage
     ```
+
+#### <a name=""></a>? 
+Sýnir hjálp um allar tiltækar skipanir og færibreytur þeirra.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``?``**``[command]``
+
+##### <a name="optional-parameters"></a>Valfrjálsar færibreytur
+
+**``command``**
+
+
+Hvar ``[command]`` er ein skipan sem tilgreind er hér að neðan.
+
+
+#### <a name="about"></a>um
+Birtir núverandi útgáfu.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``about``**
+
+#### <a name="cls"></a>cls
+Hreinsar skjáinn.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``cls``**
+
+
+#### <a name="download"></a>sækja
+Sækir viðhengi fyrir tilgreint prófatilfelli í úttaksskrána. Þú getur notað skipunina ``list`` til að fá öll tiltæk prófatilvik. Notaðu eitthvert gildi úr fyrsta dálki sem færibreytuna **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>Áskildar færibreytur
+**``test_case_id``** táknar kenni próftilfellis.  
+**``output_dir``** táknar úttaksskráarsafnið. Skráasafnið verður að vera til.
+
+##### <a name="examples"></a>Dæmi
+
+``download 123 c:\temp\rsat``   
+``download 765 c:\rsat\last``
+
+
+#### <a name="edit"></a>breyta
+Gerir þér kleift að opna færibreytuskrá í Excel-forritinu og breyta henni.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``edit``**``[excel_file]``
+
+##### <a name="required-parameters"></a>Áskildar færibreytur
+**``excel_file``** Verður að innihalda fulla slóð að núverandi Excel-skrá.
+
+##### <a name="examples"></a>Dæmi
+``edit c:\RSAT\TestCase_123_Base.xlsx``  
+``edit e:\temp\TestCase_456_Base.xlsx``
+
+
+#### <a name="generate"></a>generate
+Myndar prófaframkvæmdar- og færibreytuskrár fyrir tilgreint próftilfelli í úttaksskráasafninu.
+Þú getur notað skipunina ``list`` til að fá öll tiltæk prófatilvik. Notaðu eitthvert gildi úr fyrsta dálki sem færibreytuna **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>Áskildar færibreytur
+**``test_case_id``** táknar kenni próftilfellis.  
+**``output_dir``** táknar úttaksskráarsafnið. Skráasafnið verður að vera til.
+
+##### <a name="examples"></a>Dæmi
+``generate 123 c:\temp\rsat``  
+``generate 765 c:\rsat\last``
+
+
+#### <a name="generatederived"></a>generatederived
+Býr til nýtt prófatilvik, unnið úr gefnu prófatilviki. Þú getur notað skipunina ``list`` til að fá öll tiltæk prófatilvik. Notaðu eitthvert gildi úr fyrsta dálki sem færibreytuna **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[parent_test_case_id] [test_plan_id] [test_suite_id]``
+
+##### <a name="required-parameters"></a>Áskildar færibreytur
+**``parent_test_case_id``** táknar kenni yfirpróftilfellis.  
+**``test_plan_id``** táknar kenni prófáætlunar.  
+**``test_suite_id``** táknar kenni prófunarflokks.
+
+##### <a name="examples"></a>Dæmi
+``generatederived 123 8901 678``
+
+
+#### <a name="generatetestonly"></a>generatetestonly
+Myndar aðeins prófunarframkvæmdarskrá fyrir tilgreint prófunartilfelli í úttaksskráasafninu. Þú getur notað skipunina ``list`` til að fá öll tiltæk prófatilvik. Notaðu eitthvert gildi úr fyrsta dálki sem færibreytuna **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[test_case_id] [output_dir]``
+
+##### <a name="required-parameters"></a>Áskildar færibreytur
+**``test_case_id``** táknar kenni próftilfellis.  
+**``output_dir``** táknar úttaksskráarsafnið. Skráasafnið verður að vera til.
+
+##### <a name="examples"></a>Dæmi
+``generatetestonly 123 c:\temp\rsat``  
+``generatetestonly 765 c:\rsat\last``
+
+
+#### <a name="generatetestsuite"></a>generatetestsuite
+Býr til öll prófunartilvik fyrir tilgreindan flokk í úttaksskráasafninu.
+Þú getur notað skipunina ``listtestsuitenames`` til að fá alla tiltæka prófunaarflokka. Notaðu eitthvert gildi úr dálknum sem færibreytuna **test_suite_name**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[test_suite_name] [output_dir]``
+
+##### <a name="required-parameters"></a>Áskildar færibreytur
+**``test_suite_name``** táknar heiti prófunarflokks.  
+**``output_dir``** táknar úttaksskráarsafnið. Skráasafnið verður að vera til.
+
+##### <a name="examples"></a>Dæmi
+``generatetestsuite Tests c:\temp\rsat``   
+``generatetestsuite Purchase c:\rsat\last``
+
+
+#### <a name="help"></a>help
+Eins og [?](####?) command
+
+
+#### <a name="list"></a>Listi
+Listar yfir öll tiltæk prófunartilvik.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``list``**
+
+
+#### <a name="listtestplans"></a>listtestplans
+Listar yfir allar tiltækar prófunaráætlanir.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestplans``**
+
+
+#### <a name="listtestsuite"></a>listtestsuite
+Listar yfir prófunartilvik fyrir tilgreindan prófunarflokk. Þú getur notað skipunina ``listtestsuitenames`` til að fá alla tiltæka prófunaarflokka. Notaðu eitthvert gildi úr fyrsta dálknum sem færibreytuna **suite_name**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[suite_name]``
+
+##### <a name="required-parameters"></a>Áskildar færibreytur
+**``suite_name``** Heiti viðkomandi flokks.
+
+##### <a name="examples"></a>Dæmi
+``listtestsuite "sample suite name"``  
+``listtestsuite NameOfTheSuite``
+
+
+#### <a name="listtestsuitenames"></a>listtestsuitenames
+Listar yfir alla tiltæka prófunarflokka.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitenames``**
+
+
+#### <a name="playback"></a>playback
+Spilar prófunartilvik með Excel-skrá.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[excel_file]``
+
+##### <a name="required-parameters"></a>Áskildar færibreytur
+**``excel_file``** Full slóð að Excel-skránni. Skrá verður að vera til. 
+
+##### <a name="examples"></a>Dæmi
+``
+playback c:\RSAT\TestCaseParameters\sample1.xlsx
+playback e:\temp\test.xlsx
+``
+
+
+#### <a name="playbackbyid"></a>playbackbyid
+Spilar mörg prófunartilvik í einu.
+Þú getur notað skipunina ``list`` til að fá öll tiltæk prófatilvik. Notaðu eitthvert gildi úr fyrsta dálki sem færibreytuna **test_case_id**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[test_case_id1] [test_case_id2] ... [test_case_idN]``
+
+##### <a name="required-parameters"></a>Áskildar færibreytur
+**``test_case_id1``** Auðkenni núverandi prófunartilviks.  
+**``test_case_id2``** Auðkenni núverandi prófunartilviks.  
+**``test_case_idN``** Auðkenni núverandi prófunartilviks.  
+
+##### <a name="examples"></a>Dæmi
+``playbackbyid 878``  
+``playbackbyid 2345 667 135``
+
+
+#### <a name="playbackmany"></a>playbackmany
+Spilar mörg prófunartilvik í einu með Excel-skrám.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[excel_file1] [excel_file2] ... [excel_fileN]``
+
+##### <a name="required-parameters"></a>Áskildar færibreytur
+**``excel_file1``** Full slóð að Excel-skránni. Skrá verður að vera til.  
+**``excel_file2``** Full slóð að Excel-skránni. Skrá verður að vera til.  
+**``excel_fileN``** Full slóð að Excel-skránni. Skrá verður að vera til.  
+
+##### <a name="examples"></a>Dæmi
+``playbackmany c:\RSAT\TestCaseParameters\param1.xlsx``  
+``playbackmany e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx``
+
+
+#### <a name="playbacksuite"></a>playbacksuite
+Spilar öll prófunartilvik úr tilgreinda prófunarflokknum. Þú getur notað skipunina ``listtestsuitenames`` til að fá alla tiltæka prófunaarflokka. Notaðu eitthvert gildi úr fyrsta dálknum sem færibreytuna **suite_name**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[suite_name]``
+
+##### <a name="required-parameters"></a>Áskildar færibreytur
+**``suite_name``** Heiti viðkomandi flokks.
+
+##### <a name="examples"></a>Dæmi
+``playbacksuite suiteName``  
+``playbacksuite sample_suite``
+
+
+#### <a name="quit"></a>quit
+Lokar forritinu.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``quit``**
+
+
+#### <a name="upload"></a>upload
+Hleður inn öllum skrám sem tilheyra tilgreindum prófunarflokk eða prófunartilvikum.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``[suite_name] [testcase_id]``
+
+#### <a name="required-parameters"></a>Áskildar færibreytur
+**``suite_name``** Öllum skrám sem tilheyra tilgreindum prófunarflokki verður hlaðið upp.
+**``testcase_id``** Öllum skrám sem tilheyra tilgreindum prófunartilvikum verður hlaðið upp.
+
+##### <a name="examples"></a>Dæmi
+``upload sample_suite``  
+``upload 123``  
+``upload 123 456``
+
+
+#### <a name="uploadrecording"></a>uploadrecording
+Hleður aðeins inn upptökuskránni sem tilheyrir tilgreindum prófunartilvikum.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[testcase_id]``
+
+##### <a name="required-parameters"></a>Áskildar færibreytur
+**``testcase_id``** Upptökuskrá sem tilheyrir tilgreindum prófunartilvikum verður hlaðið upp.
+
+##### <a name="examples"></a>Dæmi
+``uploadrecording 123``  
+``uploadrecording 123 456``
+
+
+#### <a name="usage"></a>usage
+Sýnir tvær leiðir til að kalla á þetta forrit: önnur sem notar sjálfgefna stillingaskrá og önnur með stillingarskrá.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``usage``**
+
 
 ### <a name="windows-powershell-examples"></a>Windows PowerShell-dæmi
 

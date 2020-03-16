@@ -3,7 +3,7 @@ title: Byrjaðu með hagræðingu skipulags
 description: Þetta efnisatriði útskýrir hvernig skuli hefja notkun á virkninni Fínstilling skipulagningar.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/17/2020
+ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,17 +19,17 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 3e0371c6addc0412dc2fc105891b012941e92a06
-ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
+ms.openlocfilehash: 3e64699005387adcc92e2e7c9fefad68a9de85c0
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "2971465"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076133"
 ---
+# <a name="get-started-with-planning-optimization"></a>Byrjaðu með hagræðingu skipulags
+
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
-
-# <a name="get-started-with-planning-optimization"></a>Byrjaðu með hagræðingu skipulags
 
 Virkni fínstillingar áætlunar styður ekki eins og er alla þá eiginleika sem eru fáanlegir í áætlunarvélinni sem er innbyggð í Microsoft Dynamics 365 Supply Chain Management. Þess vegna er mikilvægt að þú metir hvort eiginleikasettið sem nú er fáanlegt í fínstillingu skipulagsins uppfylli kröfur þínar. Sjálfgefið er að ekki er kveikt á virkni fínstillingar skipulagningar í Dynamics Lifecycle Services (LCS). Þess vegna hefurðu tækifæri til að gera úttektina áður en kveikt er á henni.
 
@@ -44,6 +44,9 @@ Ef þú getur keyrt aðalskipulagningu með því að nota núverandi leyfi þit
 ### <a name="install-the-add-in"></a>Setja upp innbótina
 
 Til að nota fínstillingu skipulagningar skaltu setja upp innbótina fínstilling skipulagningar fyrir Dynamics 365 Supply Chain Management. Þú getur fengið aðgang að viðbótinni frá LCS verkinu og kveikt á virkni fínstillingar skipulagningar úr notendaviðmóti (UI) Supply Chain Management.
+
+> [!NOTE]
+> Krafan um fínstillingu áætlanagerðar er LCS-virkjað umhverfi með miklu framboði (ekki OneBox-umhverfi) með Dynamics 365 Supply Chain Management útgáfa 10.0.7 eða nýrri.
 
 1. Skráðu þig inn á LCS og opnaðu viðkomandi umhverfi.
 1. Farðu í **Fullar upplýsingar**.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6af7113031fd77a0a7e06ec23a149a3fa7ad0012
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 759869577ef30cd3f81eb74103a93cc5d1a3d608
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026064"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042851"
 ---
 # <a name="generate-documents-that-have-application-data"></a>Búa til skjöl sem eru með forritsgögnum
 
@@ -40,10 +40,14 @@ Skrefin í þessu ferli sýna hvernig skal hanna Rafræna skýrslugerð (ER) gru
 ## <a name="set-up-foreign-trade-parameters"></a>Setja upp færibreytur erlendra viðskipta
 1. Fara í Skattur > Uppsetning > Erlend viðskipti > Færibreytur erlendra viðskipta.
 2. Smellt er á flipann Númeraraðir.
-    * Skjala upplýsingar um Intrastat skýrslugerð, við þurfum að bera kennsl á skrár fyrir hvert safn sem við búum til. Fyrir það verður að skilgreina sérstök númeraröð.  
+
+    Skjala upplýsingar um Intrastat skýrslugerð, við þurfum að bera kennsl á skrár fyrir hvert safn sem við búum til. Fyrir það verður að skilgreina sérstök númeraröð.  
+
 3. Veljið „Intrastat safnkenni“ tilvísunina“.
 4. Í reitinn kóði númeraraðar skal slá inn gildi.
-    * Í reitnum „Kóði númeraraðar“, skal færa inn eða velja gildið „Fremri_2“.  
+
+    Í reitnum „Kóði númeraraðar“, skal færa inn eða velja gildið „Fremri_2“.  
+
 5. ÚtkljáBreytingar Kóði númeraraðar.
 6. Smellið á „Vista“.
 7. Lokið síðunni.
@@ -52,20 +56,25 @@ Skrefin í þessu ferli sýna hvernig skal hanna Rafræna skýrslugerð (ER) gru
 1. Fara í Fyrirtækisstjórnun > Rafræn skýrslugerð > Grunnstillingar.
 2. Í trénu skal víkka út „Intrastat (líkan)“.
 3. Í trénu skal velja „Intrastat (líkan)\Intrastat (Snið)“.
-4. Smellið á „Keyra“.
+4. Smella á Keyra.
 5. Í reitinn Færið inn skráarheiti skal rita „intrastat2.xml“.
-    * intrastat2.xml  
-6. Smellið á „Í lagi“.
+6. Smellt er á Í lagi.
 
 ## <a name="review-er-format-executions-results"></a>Yfirfara snið Rafræn skýrslugerð niðurstöður framkvæmdar
 Yfirfara myndaða XML-skrá  
 1. Lokið síðunni.
 2. Fara í Skattur > Yfirlýsingar > Erlend viðskipti > Intrastat.
-    * Opnið þessa skjámynd sem inniheldur Intrastat færslur sem hafa verið innifaldar í rafrænt skjal sem er myndað.  
+
+    Opnið þessa skjámynd sem inniheldur Intrastat færslur sem hafa verið innifaldar í rafrænt skjal sem er myndað.  
+
 3. Smellið á Intrastat-safn.
-    * Þar sem framkvæmt snið Rafræn skýrslugerð inniheldur nú stillingar fyrir gagnauppfærslu fyrir forrit, hafa upplýsingar um Intrastat skýrslugerðina í heild verið skjöluð. Í þessari skjámynd er hægt að sjá skráningarhaus safnsins sem stofnað var.  
+
+    Þar sem framkvæmt snið Rafræn skýrslugerð inniheldur nú stillingar fyrir gagnauppfærslu fyrir forrit, hafa upplýsingar um Intrastat skýrslugerðina í heild verið skjöluð. Í þessari skjámynd er hægt að sjá skráningarhaus safnsins sem stofnað var.  
+
 4. Smellið á Details.
-    * Í þessari skjámynd er hægt að sjá upplýsingar um safnið sem stofnað var.  
+
+    Í þessari skjámynd er hægt að sjá upplýsingar um safnið sem stofnað var.  
+
 5. Lokið síðunni.
 6. Lokið síðunni.
 7. Lokið síðunni.

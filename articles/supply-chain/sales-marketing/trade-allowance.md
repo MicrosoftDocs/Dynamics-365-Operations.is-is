@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: t-benebo
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 623c25490964ccdf6abc37acaffee7ac0844cf39
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 35aad9bf89ba8c1ed6451304d8fc4fc6ffa575b5
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251156"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057780"
 ---
 # <a name="trade-allowance-management"></a>Stjórnun afsláttar
 
 [!include [banner](../includes/banner.md)]
 
-Stjórnun afsláttar hjálpar fyrirtækjum að stjórna sölukynningaráætlunum sem bjóða viðskiptavinum, sem ná settum markmiðum hvað varðar magn og kauphegðun, upp á peningaumbun fyrir smásölu í formi „árangurstengdra greiðslna.“ Eiginleikinn er hannaður fyrir fyrirtæki sem leggja áherslu á alhliða ferli sem stuðla að hagnaði, frá fjárhagsáætlunargerð og úthlutun úr sölukynningarsjóði til uppsetningar á afsláttarsamningi, til stofnunar og úrvinnslu á kröfum, til greiðsluvinnslu, til greiningar á skilvirkni sölukynningar.
+Stjórnun afsláttar hjálpar fyrirtækjum að stjórna sölukynningaráætlunum sem bjóða viðskiptavinum, sem ná settum markmiðum hvað varðar magn og kauphegðun, upp á peningaumbun í formi „árangurstengdra greiðslna.“ Eiginleikinn er hannaður fyrir fyrirtæki sem leggja áherslu á alhliða ferli sem stuðla að hagnaði, frá fjárhagsáætlunargerð og úthlutun úr sölukynningarsjóði til uppsetningar á afsláttarsamningi, til stofnunar og úrvinnslu á kröfum, til greiðsluvinnslu, til greiningar á skilvirkni sölukynningar.
 
 
 Þessi grein mun veita víðtæka yfirsýn yfir eiginleikann Stjórnun afsláttar og mun kynna þér fyrir dæmigerðum verkefnum sem eru hluti af umsjón sölukynningaráætlunar. Gert er ráð fyrir því að notendur af ýmsu tagi, sem bera ábyrgð á rekstri og ákvarðanatökum, noti þessa virkni til að ná fram markmiðum sínum:
@@ -61,7 +61,7 @@ Afsláttarsamningur er hvatningaráætlun þar sem viðskiptavinum, sem ná mark
 
 Sjóðum sem er úthlutað í afsláttarsamninga eru skráðir á síðunni **Sjóðir**. Til að opna síðuna **Sjóðir** skal velja **Sala og markaðssetning** \> **Afslættir** \> **Sjóðir** \> **Sjóðir**.
 
-![Síða fyrir sjóði](./media/trade-allowance-management-funds-page.png "Síða fyrir sjóði")
+![Síðan Sjóðir](./media/trade-allowance-management-funds-page.png "Síðan Sjóðir")
 
 Á síðunni **Sjóðir** er hægt að skoða upplýsingar um kynningarsjóði.
 
@@ -77,7 +77,7 @@ Eftir að skilgreiningin á sjóðnum er til staðar, er næsta skref í áætla
 
 Afsláttarsamningar eru skráðir á síðunni **Afsláttarsamningar**. Til að opna síðuna **Afsláttarsamningar** skal velja **Sala og markaðssetning** \> **Afslættir** \> **Afsláttarsamningar**.
 
-![Síða afsláttarsamninga](./media/trade-allowance-management-agreements-page.png "Síða afsláttarsamninga")
+![Síðan Afsláttarsamningar](./media/trade-allowance-management-agreements-page.png "Síðan Afsláttarsamningar")
 
 #### <a name="header"></a>Haus
 
@@ -105,7 +105,7 @@ Flipinn **Smásölutilvik** sýnir gerðir tilvika sem falla undir samning. Til 
 
 Þegar þú velur smásölutilvik og velur síðan flipann **Upphæðir**, finnast upplýsingar um viðburðinn.
 
-![Línur afsláttarsamnings](./media/trade-allowance-management-agreements-lines.png "Línur afsláttarsamnings")
+![Línur afsláttarsamninga](./media/trade-allowance-management-agreements-lines.png "Línur afsláttarsamninga")
 
 Í kaflanum **Afsláttarlínur** tilgreinir þú magn eða upphæð á einhverju bili sem viðskiptavinurinn þarf að ná svo skilgreiningar fái umbunina.
 

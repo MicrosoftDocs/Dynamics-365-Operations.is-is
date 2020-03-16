@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 27066cd860d78743d5ae7c851876eb62fe019245
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e14949b871534868c42d2b26a116e10ff9f05179
+ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180991"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3081997"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>Stofna reglur fyrir Fínstillingarráðgjöf
 
@@ -36,7 +36,7 @@ ms.locfileid: "2180991"
 
 Til að búa til nýja reglu fyrir **Fínstillingarráðgjafann** skaltu bæta við nýjum klasa sem nær yfir **SelfHealingRule** abstrakt klasann, útfærir **IDiagnosticsRule** viðmótið og er skreyttur af **DiagnosticRule** eigindinni. Klasinn verður einnig að hafa aðferð skreyttri með **DiagnosticsRuleSubscription** eigindinni. Samkvæmt venju er það gert á **opportunityTitle** aðferðinni, sem verður fjallað um síðar. Hægt er að bæta þessum nýja klasa við sérsniðið líkan sem er háð **SelfHealingRules** líkaninu. Í eftirfarandi dæmi er reglan sem er framkvæmd kölluð **RFQTitleSelfHealingRule**.
 
-```
+```xpp
 [DiagnosticsRule] 
 public final class RFQTitleSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule 
 { 
@@ -46,7 +46,7 @@ public final class RFQTitleSelfHealingRule extends SelfHealingRule implements ID
 
 **SelfHealingRule** abstrakt klasinn hefur abstrakt aðferðir sem verða að vera framkvæmdar í skyldum klösum. Kjarninn er **meta** aðferðin, sem skilar lista yfir tækifærin sem eru tilgreind í reglunum. Tækifæri geta verið fyrir lögaðila eða geta átt við um allt kerfið.
 
-```
+```xpp
 protected List evaluate() 
 { 
     List results = new List(Types::Record); 
@@ -82,7 +82,7 @@ Tækifæri geta einnig farið á milli fyrirtækja. Í þessu tilfelli er lykkja
 
 Eftirfarandi kóði sýnir **findRFQCasesWithEmptyTitle** aðferðina, sem skilar kennimerkjum RFQ tilvika sem hafa tóma titla.
 
-```
+```xpp
 private container findRFQCasesWithEmptyTitle() 
 { 
     container result; 
@@ -115,7 +115,7 @@ Titlinum sem var skilað af **opportunityTitle** birtist undir **Fínstillingart
 
 Eftirfarandi er dæmi um framkvæmd. Hrástrengir eru notaðir til einföldunar en rétt framkvæmd krefst merkja. 
 
-```
+```xpp
 [DiagnosticsRuleSubscription(DiagnosticsArea::SCM, 
                              'Assign titles to Request for Quotation cases', 
                              DiagnosticsRunFrequency::Daily,  
@@ -128,7 +128,7 @@ public str opportunityTitle()
 
 Lýsingin sem er skilað með **opportunityDetails** birtist í hliðarglugganum sem sýnir frekari upplýsingar um tækifærið. Þetta tekur **SelfHealingOpportunity** frumbreytuna, sem er **Gagna** reitur sem hægt er að nota til að veita frekari upplýsingar um tækifærið. Í dæminu skilar aðferðin auðkenni RFQ tilvikanna með tómum titli. 
 
-```
+```xpp
 public str opportunityDetails(SelfHealingOpportunity _opportunity) 
 { 
     str details = ''; 
@@ -153,7 +153,7 @@ Abstrakt aðferðirnar tvær sem á eftir að framkvæma eru **provideHealingAct
 
 **provideHealingAction** skilar rétt ef græðandi aðgerð er útveguð, annars skilar það rangt. Ef skilað er rétt, þá verður að framkvæma aðferðina **performAction** eða villa mun koma upp. **PerformAction** aðferðin tekur **SelfHealingOpportunity** frumbreytu, þar sem hægt er að nota gögnin fyrir aðgerðina. Í dæminu opnast aðgerðin **PurchRFQCaseTableListPage**, fyrir handvirka leiðréttingu. 
 
-```
+```xpp
 public boolean providesHealingAction() 
 { 
     return true; 
@@ -172,7 +172,7 @@ protected void performAction(SelfHealingOpportunity _opportunity)
 > [!NOTE]
 > Valmyndaratriðið verður að vera aðgerð valmyndaratriðis svo öryggi starfi rétt. Aðrar gerðir valmyndaratriða líkt og **Yfirlitsvalmyndaratriði** munu ekki starfa rétt.
 
-```
+```xpp
 public MenuName securityMenuItem() 
 { 
     return menuItemActionStr(PurchRFQCaseTitleAction); 
@@ -181,7 +181,7 @@ public MenuName securityMenuItem()
 
 Eftir að reglan hefur verið þýdd skaltu keyra eftirfarandi verk til að það birtist í notandaviðmótinu (UI).
 
-```
+```xpp
 class ScanNewRulesJob 
 {         
     public static void main(Args _args) 
@@ -197,7 +197,7 @@ Reglan birtist á sniði **Greiningar villuleitarreglu**, sem er tiltæk hjá **
 
 Eftirfarandi dæmi er kóðabútur með drög að reglu sem inniheldur allar nauðsynlegar aðferðir og eigindi. Hún auðveldar þér að hefjast handa við að skrifa nýjar reglur. Merkin og aðgerðir valmyndaratriða í þessu dæmi eru eingöngu notuð til útskýringar.
 
-```
+```xpp
 [DiagnosticsRuleAttribute]
 public final class SkeletonSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule
 {

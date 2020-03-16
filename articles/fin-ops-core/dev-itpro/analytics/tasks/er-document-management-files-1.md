@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b82b1719990caeb1b383ab806a3e09a4c4a6e41a
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c6085f2f06fb374887d504c332a34705f0fd9e99
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026135"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042828"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>Rafræn skýrslugerð nota skrár skjalastjórnunar í sniðsúttökum(Hluti 1 - Undirbúa gagnalíkan)
 
@@ -36,10 +36,14 @@ Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu 
 
 ## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a>Fá aðgang að lista yfir skilgreiningar sem Microsoft veitir
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
-    * Gakktu úr skugga um að „Litware, Inc.“ veitandi sé tiltæk og merkt Virk.  
+
+    Gakktu úr skugga um að „Litware, Inc.“ veitandi sé tiltæk og merkt Virk.  
+
 2. Velja Litware, Inc. veita.
 3. Smella á Geymslur.
-    * Sleppa önnur þrep í núverandi undirverki ef gagnasafn af gerð 'Rekstrartilföngum' er þegar til.  
+
+    Sleppa önnur þrep í núverandi undirverki ef gagnasafn af gerð 'Rekstrartilföngum' er þegar til.  
+
 4. Smelltu á Bæta við til að opna felligluggann.
 5. Í reitnum gerð gagnasafns fyrir skilgreiningar, færðu inn "rekstrartilföng".
 6. Smellið á Stofna gagnasafn.
@@ -51,9 +55,13 @@ Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu 
 3. Smellt er á Sýna síur.
 4. Smellt er á Opin.
 5. Í trénu, veljið 'Customer invoice model'.
-    * Velja skilgreiningu líkans 'líkan reiknings viðskiptavinar' til að flytja það inn.  
+
+    Velja skilgreiningu líkans 'líkan reiknings viðskiptavinar' til að flytja það inn.  
+
 6. Smelltu á Flytja inn.
-    * Smelltu á innflutning fyrir útgáfu 1 fyrir valda skilgreiningu.  
+
+    Smelltu á innflutning fyrir útgáfu 1 fyrir valda skilgreiningu.  
+
 7. Smella á Já.
 8. Lokið síðunni.
 9. Lokið síðunni.
@@ -65,6 +73,5 @@ Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu 
 1. Smellt er á stofna skilgreiningu til að opna fellilistanum.
 2. Í svæðinu Nýtt, veljið 'Leiða af nafni: líkan reiknings viðskiptavinar, Microsoft'.
 3. Í svæðið Heiti, Færðu inn 'líkan reiknings viðskiptavinar (sérstillt)'.
-    * Líkan Reiknings viðskiptavinar (sérstillt)  
 4. Smelltu á Stofna skilgreiningu.
 

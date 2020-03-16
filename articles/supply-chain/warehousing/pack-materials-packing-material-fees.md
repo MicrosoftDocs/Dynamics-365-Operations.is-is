@@ -1,68 +1,114 @@
 ---
 title: Umbúðaefni og gjöld
-description: Umbúðaefnisgjald er greitt með ákveðnu millibili til endurvinnslufyrirtækis. Upphæð byggð á þyngdareiningu er greidd fyrir hvern þann efnivið sem umbúðaeining samanstendur af. Umbúðaefnisgjald er reiknað út og tilkynnt en engar fjárhagsfærslur eru bókaðar þar sem gjöldin eru ekki reiknuð sem skattur sem greiða skal yfirvöldum.
+description: Þetta efni veitir upplýsingar um pökkunarefnisgjöld sem eru greidd til endurvinnslufyrirtækja með ákveðnu millibili.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2194
 ms.assetid: 040b65dc-43c9-4256-b69f-b2d6e736fbe9
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c188651fe8ba3fe3f9678f36ab11ae886ef6f1cf
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a2351cce9dc6e1a554800817f75591c4a4e24d43
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546019"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076248"
 ---
 # <a name="packing-materials-and-fees"></a>Umbúðaefni og gjöld
 
 [!include [banner](../includes/banner.md)]
 
-Umbúðaefnisgjald er greitt með ákveðnu millibili til endurvinnslufyrirtækis. Upphæð byggð á þyngdareiningu er greidd fyrir hvern þann efnivið sem umbúðaeining samanstendur af. Umbúðaefnisgjald er reiknað út og tilkynnt en engar fjárhagsfærslur eru bókaðar þar sem gjöldin eru ekki reiknuð sem skattur sem greiða skal yfirvöldum.
+Umbúðaefnisgjald er greitt með ákveðnu millibili til endurvinnslufyrirtækis. Upphæð byggð á þyngdareiningu er greidd fyrir hvern þann efnivið sem umbúðaeining samanstendur af. Þó að umbúðaefnisgjald sé reiknað út og tilkynnt eru engar fjárhagsfærslur bókaðar þar sem gjöldin eru ekki reiknuð sem skattur sem greiða skal yfirvöldum.
 
 Þyngd umbúðaefnis og gjöld eru reiknuð bæði fyrir sölu- og innkaupapantanalínur.
 
-Þú Getur skilgreina einn eða fleiri umbúðaeining fyrir vöru, fyrir pökkunarflokk vörum eða fyrir öll atriði. Umbúðaeining samanstendur af ýmsum umbúðaefnum, þyngd þess, og vörufjölda sem tilheyrir umbúðaeiningu. Umbúðaefniskóða er úthlutað á hverja gerð umbúðaefnis sem  er skilgreint. Byggt á umbúðaefniskóðanum, er hægt að tilgreina verð fyrir tiltekið tímabil. Umbúðaefnisgjald er reiknað á grundvelli þessara upplýsinga.
+Þú getur skilgreint eina eða fleiri umbúðaeiningar fyrir staka vöru, fyrir vöruflokk (pökkunarflokk) eða fyrir allar vörur. Umbúðaeining samanstendur af ýmsum umbúðaefnum, þyngd þess, og vörufjölda sem tilheyrir umbúðaeiningu. Umbúðaefniskóða er úthlutað á hverja gerð umbúðaefnis sem  er skilgreint. Byggt á umbúðaefniskóðanum, er hægt að tilgreina verð fyrir tiltekið tímabil. Umbúðaefnisgjald er reiknað á grundvelli þessara upplýsinga.
 
-| **Ábending**                                                                                                                                             |
-|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Jafnvel þótt fyrirtækið greiði ekki umbúðaefnisgjald er hægt að nota aðgerðina til að reikna talnagögn fyrir umbúðaþyngd. |
+> [!NOTE]
+> Jafnvel þótt fyrirtækið greiði ekki umbúðaefnisgjald er hægt að nota aðgerðina til að reikna talnagögn fyrir umbúðaþyngd.
 
-## <a name="setup-requirements-for-packing-material-fees"></a>Uppsetningarþarfir fyrir umbúðaefnisgjald
-Áður en reiknað er þyngd umbúðaefnis, umbúðaefnisgjald eða bæði þarf að stofna eftirfarandi grunngögn:
+## <a name="allocations"></a>Setja upp úthlutun á umbúðaefni
 
--   Umbúðaflokkar - stofna umbúðaflokka til að úthluta á vörur.
--   Umbúðefnakóðar – Stofnið umbúðaefniskóða fyrir hverja gerð umbúðaefnis sem er skilgreint.
--   Umbúðaeiningar - tilgreina umbúðaeiningu fyrir vörur, fyrir umbúðaflokk eða allar vörur. Fyrir hverja efniseiningu skal skilgreina hvaða umbúðaefni hún innifelur, úthluta þyngd, og reitnum umbúðaeiningarstuðull, færið inn umreiknistuðullinn úr birgðaeiningunni.
--   Umbúðaefnisgjald - Tilgreinið umbúðaefnisgjald á hvern umbúðaefniskóða. Tilgreinið fyrir hverja efnisgerð gildistíma, verð á efni, gjaldmiðil og einingu.
+Áður en þú getur reiknað út þyngd pökkunarefnis, efnisgjald, eða hvort tveggja, verður þú að kveikja á útreikningnum og skilgreina hvaða efni og gjöld gilda um hvaða vörur.
+
+1. Farðu í **Birgðastjórnun \> Uppsetning \> Færibreytur birgða- og vöruhúsakerfis**.
+1. Á flipanum **Almennt**, í hlutanum **Umbúðaefni**, stillirðu valkostinn **Reikna umbúðaefnisgjöld** á **Já**.
+1. Farðu í **Birgðastjórnun \> Uppsetning \> Umbúðaefni \> Umbúðaflokkar**, og búðu til alla umbúðahópa sem þú notar. Allir hlutir í umbúðahópi nota sömu úthlutun umbúðaefna. Ef þú notar ekki umbúðahópa geturðu sleppt þessu skrefi.
+
+    > [!TIP]
+    > Eftir að þú hefur búið til umbúðahópana geturðu úthlutað hóp á hverja afurð eins og þú þarft. Farðu í **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**, veldu afurð og síðan á flýtiflipanum **Stjórna birgðum**, í reitnum **Umbúðaflokkur** velurðu viðeigandi umbúðaflokk.
+
+1. Farðu í **Birgðastjórnun \> Uppsetning \> Umbúðaefni \> Umbúðefnakóðar**, skilgreindu sérhverja gerð umbúðaefnis sem þú notar og tilgreindu eininguna þar sem umbúðaefnið er notað þegar þú undirbýr sendingar.
+1. Fara til **Birgðastjórnun \> Uppsetning \> Umbúðaefni \> Umbúðaefnisgjöld**, og stilltu gjald fyrir sérhverja gerð af umbúðaefni sem þú varst að skilgreina. Gjöld eru reiknuð út frá verðinu á hverja einingu sem neytt er.
+1. Til að úthluta umbúðaefni á vörur skaltu fara í **Birgðastjórnun \> Uppsetning \> Umbúðaefni \> Úthlutun umbúða** og stofna úthlutanir. Hægt er að stofna eins margar úthlutanir og þarf. Þú getur úthlutað umbúðaefni fyrir stakar vörur, vöruflokka (pökkunarflokka) eða allar vörur, allt eftir því hversu nákvæmar úthlutanir þínar ættu að vera.
+
+    Fyrir hverja úthlutun sem þú stofnar skal fylgja þessum skrefum.
+
+    1. Á flýtiflipanum **Almennt** stillirðu eftirfarandi reiti:
+
+        - **Vörukóði** - Veldu umfang úthlutunar:
+
+            - **Tafla** - Búðu til úthlutun fyrir eina tiltekna vöru.
+            - **Hópur** - Búðu til úthlutun fyrir allar þær vörur sem tilheyra pökkunarflokki sem er skilgreindur á síðunni **Pökkunarflokkar**.
+            - **Allt** - Búðu til úthlutun fyrir allar vörur.
+
+            > [!NOTE]
+            > Venjulega ættir þú að gera allar úthlutanir þínar á sama stigi (**Tafla**, **Hópur** eða **Allt**). Ef þú notar fleiri en eitt stig verður sérstök samsvörunarúthlutun notuð fyrir hverja vöru. (Stigið **Tafla** hefur forgang fram yfir stigið **Hópur** og bæði þessi stig hafa forgang fram yfir stigið **Allt**.)
+
+        - **Vöruvensl** - Ef þú ert að úthluta fyrir eina vöru skaltu velja vöruna. Ef þú ert að úthluta fyrir hóp af vörum skaltu velja pökkunarflokkinn. Ef þú ert að úthluta fyrir allar vörur skaltu skilja þennan reit eftir.
+        - **Stillingar**, **Stærð**, **Litur** og **Stíll** - Sláðu inn gildi fyrir þessar víddir eftir þörfum til að skilgreina nánar vöruna sem þú ert að úthluta fyrir.
+        - **Umbúðaeining** - Veldu eininguna þar sem vörunni er pakkað í þegar umbúðaefnið er notað. Þessi eining gæti verið frábrugðin einingunni sem varan er keypt og geymd í.
+        - **Stuðull umbúðaeiningar** - Sláðu inn umreikningsstuðulinn sem er notaður til að umreikna úr birgðaeiningunni í umbúðaeininguna. (Umbreytingin notar formúluna *Umbúðaeiningar* = *Vörueiningar* × *Stuðull umbúðaeiningar*.)
+
+    1. Á flýtiflipanum **Umbúðaefni** bætirðu við línu fyrir hvert stykki af umbúðaefni sem þarf til núverandi úthlutunar. Tilgreindu á hverja línu tegund efnisins (eins og skilgreint er á síðunni **Umbúðefnakóðar**) og magn þess sem er neytt fyrir hverja senda einingu núverandi vöru.
 
 ## <a name="packing-units-on-sales-order-lines"></a>Umbúðaeiningar í sölupöntunarlínum
-Þegar sölupöntunarlína er stofnuð er athugun framkvæmd til að sjá hvort umbúðaeiningar hafi verið tilgreindar fyrir vöruna. Ef svo er mun sölupöntunarlínan uppfærast sjálfkrafa af kerfinu með tilgreindri umbúðaeiningu og magni umbúðaeiningar. Magn umbúðaeiningar er reiknað á grundvelli pantaðs magns deilt með fjölda vara í valinni pökkunareiningu. Hafi pökkunareining ekki verið tilgreind er hægt að færa inn umbúðaeiningu og magn handvirkt á sölupöntunarlínu. Einnig er mögulegt að breyta pökkunareiningu og magni hennar þegar sölupöntunarlína er bókuð. Þetta á við ef sölupöntunarlína er aðeins afhent eða reikningsfærð að hluta. Þegar þú reikningsfærir sölupöntun er stofnuð nýja umbúðaefnisfærslu Umbúðaefnisfærslur innihalda þyngd umbúðaefnis fyrir sölulínuna. Einnig er hægt að breyta færslum eftir reikningsfærslu og stofna síðan nýjar færslur.
+
+Eftir að þú hefur gert það [kveiktu á útreikningnum fyrir umbúðaefnisgjöld og settu upp úthlutanir þínar](#allocations), kerfið staðfestir að umbúðaeiningar eru tilgreindar fyrir hverja vöru sem er bætt við sölupöntun. Það reiknar síðan út öll gjöld sem þarf. Þegar hlut er bætt við sölupöntun á sér stað eitt af eftirfarandi skrefum:
+
+- **Ef umbúðaúthlutun á við um vöruna:** Kerfið uppfærir sölupöntunarlínuna með tilgreindri umbúðaeiningu og magni umbúðaeiningar. (Magn fyrir umbúðaeiningu er reiknað með því að nota formúluna *Magn í umbúðaeiningu* = *Pantað magn* ÷ *Fjöldi vara í valinni pökkunareiningu*.)
+- **Ef engin umbúðaúthlutun á við um vöruna:** Hægt er að færa inn umbúðaeiningu og magn handvirkt á sölupöntunarlínu.
+
+Einnig er mögulegt að breyta pökkunareiningu og magni hennar þegar sölupöntunarlína er bókuð. Þessi geta á við ef sölupöntunarlína er aðeins afhent eða reikningsfærð að hluta.
+
+Þegar þú reikningsfærir sölupöntun stofnar kerfið nýjar umbúðaefnisfærslur. Umbúðaefnisfærslur innihalda þyngd umbúðaefnis fyrir sölulínuna. Þú getur breytt færslunum eftir að þú hefur reikningsfært þær. Síðan er hægt að stofna nýjar færslur.
 
 ## <a name="packing-units-on-purchase-order-lines"></a>Umbúðaeiningar í innkaupapöntunarlínum
-Umbúðaefnisfærslur fyrir innkaupapöntunarlínu eru ekki stofnaðar af kerfinu. Þú Stofna færslur fyrir reikningsfærðar innkaupapöntunarlínur handvirkt í **umbúðaefnisfærslur** síðu.
 
-## <a name="set-up-customer-packaging-material-fee-license-numbers"></a>Setja upp leyfiskóða fyrir pökkunarefnisgjöld handa viðskiptavini
-Ef viðskiptavinir greiða gjöld vegna pökkunarefnis skal tilgreina leyfisnúmer umbúðaefnisgjalds viðskiptavinarins í síðunni **viðskiptavinur**. Þegar leyfisnúmer hefur verið úthlutað viðskiptavini, eru gjöld vegna pökkunarefnis reiknuð sjálfkrafa þegar sölupantanir eru reikningsfærðar. Að lokinni reikningsfærslu er gátreiturinn  **Reikna gjald** hreinsaður í síðunni **umbúðaefnisfærslur** þar sem ekki er þörf á að prenta og reikna út skýrsluna . Mögulegt er að prenta þyngd umbúða á reikninginn og tilkynna viðskiptavini að hann greiði viðkomandi gjöld. 
+Kerfið stofnar ekki umbúðaefnisfærslur fyrir innkaupapöntunarlínur. Þess í stað stofnar þú færslur fyrir reikningsfærðar innkaupapöntunarlínur á síðunni **Umbúðaefnisfærslur**.
 
-Ef fyrirtækið þitt greiðir gjöld fyrir umbúðir skal ekki fylla inn leyfiskóða viðskiptavinar. Að lokinni reikningsfærslu er gátreiturinn  **Reikna gjald** valinn í síðunni **umbúðaefnisfærslur**. Þetta gefur til kynna að gjöldin eru reiknuð þegar skýrsla er stofnuð. Mögulegt er að prenta þyngd umbúða á reikninginn og gefa til kynna að fyrirtæki þitt greiði viðkomandi gjöld.
+## <a name="set-up-license-numbers-for-customers-that-are-charged-packing-material-fees"></a>Settu upp leyfisnúmer fyrir viðskiptavini sem eru rukkaðir um umbúðaefnisgjöld
 
-## <a name="print-packaging-material-weights-on-invoices"></a>Prenta þyngd pökkunarefnis á reikninga
-Mögulegt er að prenta þyngd umbúða og gefa til kynna á reikningnum hver greiðir umbúðagjöld. Þyngd er dregin saman fyrir hvern pökkunarkóða.
+Ef sölupantanir tiltekins viðskiptavinar eiga að innihalda gjöld fyrir umbúðaefnið sem er notað fyrir hverja pöntun, fylgdu þessum skrefum.
 
+1. Farðu í **Viðskiptakröfur \> Viðskiptavinir \> Alla viðskiptavini**.
+1. Veldu viðskiptavininn sem á að rukka fyrir umbúðaefni.
+1. Á flýtiflipanum **Reikningur og afhending** stillirðu eftirfarandi reiti:
 
+    - Í hlutanum **Virðisaukaskattur**, í reitnum **Leyfisnúmer fyrir umbúðagjald**, slærðu inn leyfisnúmer fyrirtækisins.
+    - Í hlutanum **Umbúðaefnisgjald**, í reitnum **Leyfisnúmer**, slærðu inn leyfisnúmer fyrirtækisins.
 
+Þegar þú býrð til og reikningsfærir sölupöntun sem inniheldur eina eða fleiri vörur sem nota umbúðaefni mun reikningurinn sýna umbúðaefnisgjöldin.
 
+Fylgdu þessum sömu skrefum fyrir viðskiptavini sem ættu ekki að greiða umbúðaefnisgjöld en hreinsaðu leyfisnúmerin úr reitunum **Leyfisnúmer fyrir umbúðagjald**og **Leyfisnúmer**. Reikningar fyrir viðskiptavini sem ekki greiða umbúðaefnisgjald sýna þyngd umbúðaefnanna, en þeir sýna ekki gjöldin.
 
+Til að búa til skýrslu sem sýnir öll umbúðaefnisgjöld sem fyrirtæki þitt skuldar fyrir tiltekið tímabil ferðu á **Birgðastjórnun \> Fyrirspurnir og skýrslur \> Skýrslur um umbúðaefni \> Útreikningur umbúðaefnisgjalds**, tilgreinir dagsetningarsvið og velur síðan **Í lagi**.
+
+## <a name="print-packing-material-weights-on-invoices"></a>Prenta þyngd umbúðaefnis á reikninga
+
+Mögulegt er að prenta þyngd umbúða og gefa til kynna á reikningnum hver greiðir tengd gjöld. Þyngd er dregin saman fyrir hvern pökkunarkóða.
+
+1. Opnið **Viðskiptakröfur \> Setja upp \> Færibreytur viðskiptakrafna**.
+1. Á flipanum **Uppfærslur**, á flýtflipanum **Reikningur**, stillirðu valkostinn **Prenta þyngd umbúðaefnis** á **Já**.

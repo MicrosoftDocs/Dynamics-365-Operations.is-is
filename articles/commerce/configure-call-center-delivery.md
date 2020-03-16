@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9f043d66fbd417633de71b5fa12b13b3f04e3452
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022871"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057811"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Grunnstilla afhendingarmáta og gjöld í símaveri
 
@@ -66,7 +66,7 @@ Hægt er að grunnstilla gjöld þannig að þau eru sett á tiltekinn afhending
 
 Í **Línur** hlutanum er hægt að skilgreina einn eða fleiri gjöld eftir gjaldeyri, eins og þú þarfnast. Gjöld verða að vera tengd við gjaldakóða sem skilgreinir fjárhagsbókunarreglurnar fyrir gjaldið. **Flokkur** reiturinn er notaður til að skilgreina hvernig gjöld eru reiknuð. Til dæmis, ef viðskiptavinir ættu að vera rukkaðir um fastagjald sem nemur 9,95 USD fyrir að fá pöntun senda með tilteknum afhendingarmáta, skaltu nota **Fast** flokkinn. Ef fyrirtæki ákveður að rukka viðskiptavini um prósentuhlutfall af pöntuninni í heild til að standa straum af afhendingargjöldum skaltu nota **Prósent** flokkinn. Raunverulegur gjald til viðskiptavina er skilgreindur í **Virði gjalda** reitnum.
 
-Smásölufyrirtæki grunnstilla oft stigskipt gjöld. Í því tilviki er sú upphæð sem viðskiptavinir greiða fyrir afhendingu byggð á pöntunarvirði. Til að grunnstilla stigskipt gjöld skal slá inn gildi í **Frá upphæð** og **Til upphæðar** reitina auk þess að ákvarða gjaldið sjálft í **Virði gjalda** reitnum. Til dæmis, fyrir pantanir sem hafa minna virði en 50 USD, rukkar smásöluaðili 5,95 USD fyrir flutninga á jörðu niðri. Fyrir pantanir sem hafa virði sem er jafnt og eða meira en 50 USD, en minna en 100 USD, rukkar smásöluaðili 7,95 USD. Að lokum, fyrir pantanir sem hafa virði sem er jafnt og eða meira en 100 USD, rukkar smásöluaðili engin flutningsgjöld. Eftirfarandi mynd sýnir grunnstillingu þessara gjalda.
+Fyrirtæki grunnstilla oft stigskipt gjöld. Í því tilviki er sú upphæð sem viðskiptavinir greiða fyrir afhendingu byggð á pöntunarvirði. Til að grunnstilla stigskipt gjöld skal slá inn gildi í **Frá upphæð** og **Til upphæðar** reitina auk þess að ákvarða gjaldið sjálft í **Virði gjalda** reitnum. Til dæmis, fyrir pantanir sem hafa minna virði en 50 USD, rukkar smásöluaðili 5,95 USD fyrir flutninga á jörðu niðri. Fyrir pantanir sem hafa virði sem er jafnt og eða meira en 50 USD, en minna en 100 USD, rukkar smásöluaðili 7,95 USD. Að lokum, fyrir pantanir sem hafa virði sem er jafnt og eða meira en 100 USD, rukkar smásöluaðili engin flutningsgjöld. Eftirfarandi mynd sýnir grunnstillingu þessara gjalda.
 
 ![Föst stigskipt gjöld dæmi](media/fixedtieredcharges.png)
 

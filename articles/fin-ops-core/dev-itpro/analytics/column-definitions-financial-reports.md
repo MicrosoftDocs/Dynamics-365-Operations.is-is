@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 68a92610a880c574b4a3a48951c432bc2764c24b
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 408767539628a14f8ea039155c72f5e9aa6803af
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771542"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070761"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Dálkaskilgreiningar í Fjárhagsskýrslum
 
@@ -120,11 +120,11 @@ Eftirfarandi tafla lýsir kóðum dálktakmarkana.
 | ADJ                     | Takmarkar upphæðirnar sem birtar eru í dálkinum við upphæðir tímabilsleiðréttinga, ef þessar upphæðir eru til staðar. |
 | XAD                     | Takmarkar upphæðirnar sem birtar eru í dálkinum svo upphæðir tímabilsleiðréttinga sé sleppt. |
 | PT                      | Takmarkar upphæðirnar sem birtar eru í dálkinum svo aðeins bókaðar færslur séu hafðar með, ef þessar færslur eru til staðar. |
-| UPT                     | Takmarkar upphæðirnar sem birtar eru í dálkinum svo aðeins óbókaðar færslur séu hafðar með, ef þessar færslur eru til staðar.<p><strong>Ábending:</strong> Sumar gagnaveitur styðja ekki óbókaðar færslur. Frekari upplýsingar er að finna í <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>leiðarvísi gagnasamþættingar</a> fyrir Microsoft Dynamics ERP kerfið þitt.</p> |
+| UPT                     | Takmarkar upphæðirnar sem birtar eru í dálkinum svo aðeins óbókaðar færslur séu hafðar með, ef þessar færslur eru til staðar.<p><strong>Ábending:</strong> Sumar gagnaveitur styðja ekki óbókaðar færslur. </p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>dálkur takmarkaður við einingu skipurits
 
-1. Opnið dálkskilgreiningu í Report Designer til að gera breytingar.
+1. Opnið dálkskilgreiningu í Skýrsluhönnun til að gera breytingar.
 2. Tvísmellið á hólfið **Eining skipurits** til að takmarka dálkinn.
 3. Í svarglugganum **Einingaval skipurits** skal velja skipurit af listanum **Skipurit**.
 4. Stækkið eða fellið saman listann yfir einingar og veljið svo einingu skipurits og smellið á **Í lagi**.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 02d7e2238e58098428397121de848a1947a991ad
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: b4234ac428cc80836852d4edfb0f37098b4a1e8e
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015267"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071661"
 ---
 # <a name="credit-management-parameters-setup"></a>Færibreytuuppsetning kreditstjórnunar
 
@@ -38,8 +38,8 @@ ms.locfileid: "3015267"
 - Stilltu valkostinn **Leyfa breytingu á virði sölupantana eftir að pöntun er losuð úr bið** á **Já** til að krefjast þess að bókunarreglurnar verði kannaðar aftur ef sölupöntunarvirði (heildarverð) hefur verið breytt síðan sölupöntunin var losuð af biðlistanum. .
 - Í reitnum **Ástæður niðurfelldra pantana** velurðu losunarástæðuna sem verður sjálfkrafa notuð þegar sölupöntun sem var í lánastýringarbið er felld niður.
 - Stilltu valkostinn **Athuga lánamörk viðskiptavinahópa** á **Já** til að athuga lánamörk viðskiptavinahóps þegar viðskiptavinurinn í sölupöntun tilheyrir lánshópi viðskiptavina. Lánamörk hópsins verða athuguð og síðan, ef það er nægjanlegt, verður lánsfjárhæðin fyrir viðskiptavininn athuguð.
-- Stilltu valkostinn **Athuga lánamörk þegar greiðsluskilmálar eru hækkaðir** á **Já** til að kanna röðun á greiðsluskilmálum til að ákvarða hvort greiðsluskilmálar í sölupöntuninni eru frábrugðnir greiðsluskilmálunum í sölupöntuninni. Ef nýju greiðsluskilmálarnir eru hærri en upphaflegir greiðsluskilmálar, þá er pöntunin sett á kreditstjórnunarbið.
-- Stilltu valkostinn **Athuga lánamörk þegar uppgjörsafsláttur er hækkaður** á **Já** til að kanna röðun á uppgjörsafslætti til að ákvarða hvort staðgreiðsluafsláttur í sölupöntuninni eru frábrugðinn staðgreiðsluafslættinum í sölupöntuninni. Ef nýi staðgreiðsluafslátturinn er hærri en upphaflegur staðgreiðsluafsláttur, þá er pöntunin sett á kreditstjórnunarbið.
+- Stilltu valkostinn **Athuga lánamörk þegar greiðsluskilmálar eru hækkaðir** á **Já** til að kanna röðun á greiðsluskilmálum til að ákvarða hvort greiðsluskilmálar í sölupöntuninni eru frábrugðnir sjálfgefnum greiðsluskilmálum fyrir viðskiptavininn. Ef nýju greiðsluskilmálarnir eru hærri en upphaflegir greiðsluskilmálar, þá er pöntunin sett á kreditstjórnunarbið.
+- Stilltu valkostinn **Athuga lánamörk þegar uppgjörsafsláttur er hækkaður** á **Já** til að kanna röðun á uppgjörsafslætti til að ákvarða hvort staðgreiðsluafsláttur í sölupöntuninni eru frábrugðinn sjálfgefnum staðgreiðsluafslætti fyrir viðskiptavininn. Ef nýi staðgreiðsluafslátturinn er hærri en upphaflegur staðgreiðsluafsláttur, þá er pöntunin sett á kreditstjórnunarbið.
 - Í reitnum **Ástæða fyrir losun á breyttum pöntunum** velurðu losunarástæðuna sem verður sjálfkrafa notuð þegar breyttar pantanir eru sjálfkrafa gefnar út úr lánastýringarstjórninni.
 - Stilltu valkostinn **Hunsa útrunna lokunarreglu lánamarka þegar gildistími er auður** á **Já** til að stjórna hegðun reglunnar **Lánamark rann út**. Stilltu valkostinn á **Nei** til að loka fyrir pöntun þegar gildistími er auður.
 - Í vöruhúsastjórnun er hægt að búa til farm við sölupöntunarfærslu. Stilltu valkostinn **Fjarlægja læstar farmlínur** á **Nei** til að láta sölupöntunarlínur vera á farminum þegar sölupöntun er í kreditbið. Ekki er hægt að vinna með álagið meðan sölupöntunin er í bið. Stilltu valkostinn á **Já** til að fjarlægja sölupantanalínur úr farminum þegar sölupöntun er í kreditbið. Síðan er hægt að vinna úr álaginu.

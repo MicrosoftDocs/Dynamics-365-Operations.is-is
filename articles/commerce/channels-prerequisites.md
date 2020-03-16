@@ -3,7 +3,7 @@ title: Skilyrði fyrir rásauppsetningu
 description: Þetta efni birtir yfirlit yfir forsendur fyrir uppsetningu rása í Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
-ms.date: 01/27/2020
+ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b861d90f1333c8f6e61a83602ed74e30b65f3dc1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 8a0927f6ee9b2d5bed1327bb223ceca85ecc16a0
+ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002290"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "3081316"
 ---
 # <a name="channel-setup-prerequisites"></a>Skilyrði fyrir rásauppsetningu
 
@@ -40,16 +40,16 @@ ms.locfileid: "3002290"
 
 ## <a name="initialization"></a>Frumstilling
 
-- [Frumstilla grunngögn](../retail/enable-configure-retail-functionality.md)
+- [Frumstilla grunngögn](enable-configure-retail-functionality.md)
 
 ## <a name="global-prerequisities-required-for-all-channel-types"></a>Altækar forsendur sem krafist er fyrir allar rásategundir
 
 - [Skilgreina og stilla uppbyggingu lögaðila](channels-legal-entities.md) 
 - [Skilgreindu fyrirtækjastigveldið](channels-org-hierarchies.md)
 - [Setja upp vöruhús](channels-setup-warehouse.md)
-- [Stilla virðisaukaskatt](https://docs.microsoft.com/en-us/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json)
+- [Stilla virðisaukaskatt](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json)
 - [Setja upp forstillingu tilkynningar í tölvupósti](email-notification-profiles.md)
-- [Setja upp númeraraðir](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/commerce/toc.json)
+- [Setja upp númeraraðir](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/commerce/toc.json)
 - [Settu upp sjálfgefna viðskiptavini og heimilisfangabók](default-customer.md)
 <!--
 - [Configure commerce parameters](commerce-parameters.md)
@@ -57,23 +57,21 @@ ms.locfileid: "3002290"
 
 ## <a name="retail-channel-prerequisites"></a>Skilyrði fyrir rásum í Retail
 
-- [Upplýsingakóðar og upplýsingakóðaflokkar](https://docs.microsoft.com/en-us/dynamics365/retail/info-codes-retail?toc=/dynamics365/commerce/toc.json)
+- [Upplýsingakóðar og upplýsingakóðaflokkar](info-codes-retail.md)
 - [Setja upp virknireglu f. smásölu](retail-functionality-profile.md)
 - [Setja upp heimilifangabók starfsmanna](new-address-book.md)
-- [Setja upp útlit afgreiðsluskjás](https://docs.microsoft.com/en-us/dynamics365/retail/pos-screen-layouts?toc=/dynamics365/commerce/toc.json)
-- [Setja upp vélbúnaðarstöð](https://docs.microsoft.com/en-us/dynamics365/retail/retail-hardware-station-configuration-installation?toc=/dynamics365/commerce/toc.json)
+- [Setja upp útlit afgreiðsluskjás](pos-screen-layouts.md)
+- [Setja upp vélbúnaðarstöð](retail-hardware-station-configuration-installation.md)
 
 ## <a name="call-center-channel-prerequisites"></a>Forsendur rásar símavers
 
 - Færibreytur símavers
-- Endurgreiðslumátar símavers
-- Leigugerð
-- Greiðsluþjónustur
-- Biðkóðar pantana
+- [Símaverspöntun og endurgreiðslumátar](work-with-payments.md)
+- [Stillingar afhendingarmáta og gjalda símavers](configure-call-center-delivery.md)
 
-## <a name="online-channel-prerequisites"></a>Skilyrði fyrir netrásum
+## <a name="online-channel-prerequisites"></a>Skilyrði netrásar
 
-- [Stofna virknireglu fyrir netverslun.](online-functionality-profile.md)
+- [Búa til virkniforstillingu á netinu](online-functionality-profile.md)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

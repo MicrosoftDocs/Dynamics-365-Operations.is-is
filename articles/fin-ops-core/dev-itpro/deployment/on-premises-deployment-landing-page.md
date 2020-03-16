@@ -1,9 +1,9 @@
 ---
 title: Uppsetning á staðnum – heimasíða
 description: Þetta efnisatriði veitir upplýsingar og tengla í efni um uppsetningu á staðnum
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 11/04/2019
+ms.date: 02/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 81698517dc501a6001f62216f3804510144c1045
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 50fb53902e9f9796cac958f7cea2605ba00ba1bd
+ms.sourcegitcommit: ae8625f44453a71a94df6fb98d054c1c56b76700
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770947"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "3090590"
 ---
 # <a name="on-premises-deployment-home-page"></a>Uppsetning á staðnum – heimasíða
 
@@ -56,11 +56,11 @@ ms.locfileid: "2770947"
 - [Virkja uppfærslur í uppsetningum á staðnum](apply-updates-on-premises.md)
 - [Enduruppsetja umhverfi á staðnum](redeploy-on-prem.md)
 
-## <a name="retail"></a>Retail
-- [Smásölueiginleikar serm eru tiltækir fyrir uppsetningu á staðnum](../../../retail/retail-onprem.md)
+## <a name="commerce"></a>Commerce
+- [Commerce-eiginleikar sem eru tiltækir fyrir uppsetningu á staðnum](../../../retail/retail-onprem.md)
 - [Uppsetningarskref fyrir hluta Retail-rásar í staðbundnu umhverfi](deploy-retail-onprem.md)
-- [Skilgreina, setja upp og virkja Retail Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
-- [Skilgreina og setja upp Retail Store Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [Skilgreina, setja upp og virkja Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
+- [Grunnstilla og setja upp Commerce Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
 ## <a name="upgrade"></a>Uppfæra
 - [Uppfærsluferli fyrir umhverfi á staðnum](../migration-upgrade/on-prem-upgrade.md)
@@ -71,6 +71,6 @@ ms.locfileid: "2770947"
 - [Vottorðssnúningur](certificate-rotation-on-prem.md)
 - [Greining á staðnum](on-premises-diagnostics.md)
 - [Eiginleikar sem eru ekki innleiddir við uppsetningu á staðnum](../../fin-ops/get-started/features-not-implemented-on-prem.md)
-- [Fjarlægðar eða úreltar aðgerðir fyrir Finance and Operations](../migration-upgrade/deprecated-features.md)
+- [Eiginleikar sem hafa verið fjarlægðir eða úreltir fyrir Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Reglur um stuðningstíma hugbúnaðar og útgáfur á staðnum](../migration-upgrade/on-prem-version-update-policy.md)
  
