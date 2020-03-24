@@ -1,6 +1,6 @@
 ---
 title: Setja upp ástæðukóða
-description: ''
+description: Dynamics 365 Human Resources notar ástæðukóða til að útskýra hvers vegna fríðindi starfsmanns er að breytast.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,28 +18,28 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ebc49f99eb7d64def6f4a8bd9e6f2810d42dc421
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: f52d19f3d5303d59c560aa4c8cd45fe2b873c771
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009417"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092473"
 ---
-# <a name="set-up-reason-codes"></a><span data-ttu-id="390d9-102">Setja upp ástæðukóða</span><span class="sxs-lookup"><span data-stu-id="390d9-102">Set up reason codes</span></span>
+# <a name="set-up-reason-codes"></a><span data-ttu-id="a5e38-103">Setja upp ástæðukóða</span><span class="sxs-lookup"><span data-stu-id="a5e38-103">Set up reason codes</span></span>
 
 [!include [banner](includes/preview-feature.md)]
 
-<span data-ttu-id="390d9-103">Dynamics 365 Human Resources notar ástæðukóða til að útskýra hvers vegna fríðindi starfsmanns er að breytast.</span><span class="sxs-lookup"><span data-stu-id="390d9-103">Dynamics 365 Human Resources uses reason codes to explain why an employee’s benefits are changing.</span></span> 
+<span data-ttu-id="a5e38-104">Dynamics 365 Human Resources notar ástæðukóða til að útskýra hvers vegna fríðindi starfsmanns er að breytast.</span><span class="sxs-lookup"><span data-stu-id="a5e38-104">Dynamics 365 Human Resources uses reason codes to explain why an employee’s benefits are changing.</span></span> 
 
-1. <span data-ttu-id="390d9-104">Í vinnusvæðinu **Fríðindastjórnun**, undir **Skipulag**, veldu **Ástæðukóða**.</span><span class="sxs-lookup"><span data-stu-id="390d9-104">In the **Benefits management** workspace, under **Setup**, select **Reason codes**.</span></span>
+1. <span data-ttu-id="a5e38-105">Í vinnusvæðinu **Fríðindastjórnun**, undir **Skipulag**, veldu **Ástæðukóða**.</span><span class="sxs-lookup"><span data-stu-id="a5e38-105">In the **Benefits management** workspace, under **Setup**, select **Reason codes**.</span></span>
 
-2. <span data-ttu-id="390d9-105">Veljið **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="390d9-105">Select **New**.</span></span>
+2. <span data-ttu-id="a5e38-106">Veljið **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="a5e38-106">Select **New**.</span></span>
 
-3. <span data-ttu-id="390d9-106">Tilgreina gildi fyrir eftirfarandi reiti:</span><span class="sxs-lookup"><span data-stu-id="390d9-106">Specify values for the following fields:</span></span>
+3. <span data-ttu-id="a5e38-107">Tilgreina gildi fyrir eftirfarandi reiti:</span><span class="sxs-lookup"><span data-stu-id="a5e38-107">Specify values for the following fields:</span></span>
 
-   | <span data-ttu-id="390d9-107">Svæði</span><span class="sxs-lookup"><span data-stu-id="390d9-107">Field</span></span> | <span data-ttu-id="390d9-108">Lýsing</span><span class="sxs-lookup"><span data-stu-id="390d9-108">Description</span></span> |
+   | <span data-ttu-id="a5e38-108">Svæði</span><span class="sxs-lookup"><span data-stu-id="a5e38-108">Field</span></span> | <span data-ttu-id="a5e38-109">Lýsing</span><span class="sxs-lookup"><span data-stu-id="a5e38-109">Description</span></span> |
    | --- | --- |
-   | <span data-ttu-id="390d9-109">Ástæðukóði</span><span class="sxs-lookup"><span data-stu-id="390d9-109">Reason code</span></span> | <span data-ttu-id="390d9-110">Einstakt nafn til að bera kennsl á ástæðu þess að starfsmaður myndi breyta skráningu í fríðindaáætlun.</span><span class="sxs-lookup"><span data-stu-id="390d9-110">A unique name to identify the reason an employee would change a benefit plan enrollment.</span></span> |
-   | <span data-ttu-id="390d9-111">Lýsing</span><span class="sxs-lookup"><span data-stu-id="390d9-111">Description</span></span> | <span data-ttu-id="390d9-112">Lýsing á ástæðukóðanum.</span><span class="sxs-lookup"><span data-stu-id="390d9-112">A description of the reason code.</span></span> |
+   | <span data-ttu-id="a5e38-110">Ástæðukóði</span><span class="sxs-lookup"><span data-stu-id="a5e38-110">Reason code</span></span> | <span data-ttu-id="a5e38-111">Einstakt nafn til að bera kennsl á ástæðu þess að starfsmaður myndi breyta skráningu í fríðindaáætlun.</span><span class="sxs-lookup"><span data-stu-id="a5e38-111">A unique name to identify the reason an employee would change a benefit plan enrollment.</span></span> |
+   | <span data-ttu-id="a5e38-112">Lýsing</span><span class="sxs-lookup"><span data-stu-id="a5e38-112">Description</span></span> | <span data-ttu-id="a5e38-113">Lýsing á ástæðukóðanum.</span><span class="sxs-lookup"><span data-stu-id="a5e38-113">A description of the reason code.</span></span> |
 
-4. <span data-ttu-id="390d9-113">Veljið **Vista**.</span><span class="sxs-lookup"><span data-stu-id="390d9-113">Select **Save**.</span></span> 
+4. <span data-ttu-id="a5e38-114">Veljið **Vista**.</span><span class="sxs-lookup"><span data-stu-id="a5e38-114">Select **Save**.</span></span> 

@@ -1,9 +1,9 @@
 ---
 title: Sérstilltir reitir
-description: ''
+description: Hægt er að bæta sérstilltum reitum við síður í Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,27 +18,23 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6de1bcc6df5f8e4ab1ebbccb4b9a56f6f019c37f
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 7348fb9d3457da23fc4e250a1fd3f6cac82bdb5e
+ms.sourcegitcommit: 8493593e1405cde8cde23a3d9eb90385136088e1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009405"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3116000"
 ---
-# <a name="custom-fields"></a><span data-ttu-id="e7b2b-102">Sérstilltir reitir</span><span class="sxs-lookup"><span data-stu-id="e7b2b-102">Custom fields</span></span>
+# <a name="custom-fields"></a><span data-ttu-id="b2dfa-103">Sérstilltir reitir</span><span class="sxs-lookup"><span data-stu-id="b2dfa-103">Custom fields</span></span>
 
-<span data-ttu-id="e7b2b-103">Hægt er að bæta sérstilltum reitum við síður í Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="e7b2b-103">You can add custom fields to pages in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="e7b2b-104">Sjá frekari upplýsingar um hvernig á að stofna sérstillta reiti á síðu [Stofna og vinna með sérstillta reiti](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).</span><span class="sxs-lookup"><span data-stu-id="e7b2b-104">For more information about how to create custom fields on a page, see [Create and work with custom fields](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).</span></span>
+<span data-ttu-id="b2dfa-104">Hægt er að bæta sérstilltum reitum við síður í Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="b2dfa-104">You can add custom fields to pages in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="b2dfa-105">Sjá frekari upplýsingar um stofnun sérstilltra reita [Stofna og vinna með sérstillta reiti](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).</span><span class="sxs-lookup"><span data-stu-id="b2dfa-105">For more information about creating custom fields, see [Create and work with custom fields](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).</span></span>
 
-<span data-ttu-id="e7b2b-105">Eftirfarandi einingar í Common Data Service styðja nú sérstillta reiti sem eru stofnaðir í Human Resources:</span><span class="sxs-lookup"><span data-stu-id="e7b2b-105">The following entities in Common Data Service support custom fields created in Human Resources:</span></span>
+<span data-ttu-id="b2dfa-106">Flestar Common Data Service einingar styðja sérstillta reiti.</span><span class="sxs-lookup"><span data-stu-id="b2dfa-106">Most Common Data Service entities support custom fields.</span></span> <span data-ttu-id="b2dfa-107">Fyrir fullan lista yfir Common Data Service einingar, sjá [Common Data Service einingar](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).</span><span class="sxs-lookup"><span data-stu-id="b2dfa-107">For a full list of Common Data Service entities, see [Common Data Service entities](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).</span></span> 
 
-- <span data-ttu-id="e7b2b-106">Starfskraftur</span><span class="sxs-lookup"><span data-stu-id="e7b2b-106">Worker</span></span>
-- <span data-ttu-id="e7b2b-107">Þjóðernisuppruni</span><span class="sxs-lookup"><span data-stu-id="e7b2b-107">Ethnic origin</span></span>
-- <span data-ttu-id="e7b2b-108">Uppgjafahermennskustaða</span><span class="sxs-lookup"><span data-stu-id="e7b2b-108">Veteran status</span></span>
-- <span data-ttu-id="e7b2b-109">Tungumálskóði</span><span class="sxs-lookup"><span data-stu-id="e7b2b-109">Language code</span></span>
-- <span data-ttu-id="e7b2b-110">Vinnsla</span><span class="sxs-lookup"><span data-stu-id="e7b2b-110">Job</span></span>
-- <span data-ttu-id="e7b2b-111">Vinnslugerð</span><span class="sxs-lookup"><span data-stu-id="e7b2b-111">Job type</span></span>
-- <span data-ttu-id="e7b2b-112">Starfshlutverk</span><span class="sxs-lookup"><span data-stu-id="e7b2b-112">Job function</span></span>
-- <span data-ttu-id="e7b2b-113">Staða</span><span class="sxs-lookup"><span data-stu-id="e7b2b-113">Position</span></span>
-- <span data-ttu-id="e7b2b-114">Tegund stöðu</span><span class="sxs-lookup"><span data-stu-id="e7b2b-114">Position type</span></span>
+<span data-ttu-id="b2dfa-108">Vertu viss um að virkja sérsniðna reiti sem þú býrð til svo þú getir notað þá í Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="b2dfa-108">Be sure to enable any custom fields that you create so you can use them in Common Data Service.</span></span> <span data-ttu-id="b2dfa-109">Fyrir frekari upplýsingar, sjá [Að afhjúpa sérsniðna reiti fyrir gagnaeiningar](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).</span><span class="sxs-lookup"><span data-stu-id="b2dfa-109">For more information, see [Exposing custom fields on data entities](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).</span></span>
 
-<span data-ttu-id="e7b2b-115">Vertu viss um að virkja sérsniðna reiti sem þú býrð til svo þú getir notað þá í Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="e7b2b-115">Be sure to enable any custom fields that you create so you can use them in Common Data Service.</span></span> <span data-ttu-id="e7b2b-116">Fyrir frekari upplýsingar, sjá [Að afhjúpa sérsniðna reiti fyrir gagnaeiningar](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).</span><span class="sxs-lookup"><span data-stu-id="e7b2b-116">For more information, see [Exposing custom fields on data entities](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).</span></span>
+## <a name="see-also"></a><span data-ttu-id="b2dfa-110">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="b2dfa-110">See also</span></span>
+
+[<span data-ttu-id="b2dfa-111">Common Data Service einingar</span><span class="sxs-lookup"><span data-stu-id="b2dfa-111">Common Data Service entities</span></span>](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
+[<span data-ttu-id="b2dfa-112">Stofna og vinna með sérstillt svæði</span><span class="sxs-lookup"><span data-stu-id="b2dfa-112">Create and work with custom fields</span></span>](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
+[<span data-ttu-id="b2dfa-113">Birtu sérstillt svæði í gagnaeiningum</span><span class="sxs-lookup"><span data-stu-id="b2dfa-113">Exposing custom fields on data entities</span></span>](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
