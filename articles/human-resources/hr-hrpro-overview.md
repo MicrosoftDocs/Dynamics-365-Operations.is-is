@@ -1,6 +1,6 @@
 ---
 title: Yfirlit
-description: ''
+description: Notendahandbók Dynamics 365 Human Resources veitir þér leiðbeiningar um að setja upp Human Resources, setja upp bætur og bætur fyrir starfsmenn þína og stjórna vinnuafli þínu.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c489ddaec0363a5a6d68f0464786dfbe1b0e1349
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 7bef82f83de150df69a1a001fa9c07e34270742d
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009402"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091725"
 ---
 # <a name="overview"></a>Yfirlit
 
@@ -70,8 +70,8 @@ Notendahandbók Dynamics 365 Human Resources veitir þér leiðbeiningar um að 
 [Yfirlit yfir launafyrirkomulag](hr-compensation-overview.md)</br>
 [Uppsetning launanets](hr-compensation-grids.md)</br>
 [Þróa launaskipulag og -áætlun](hr-compensation-structure.md)</br>
-[Launafyrirkomulag fastra launa stofnað](hr-compensation-fixed-plans.md)</br>
-[Launafyrirkomulag breytilegra launa](hr-compensation-variable-plans.md)</br>
+[Stofna launafyrirkomulag fastra launa](hr-compensation-fixed-plans.md)</br>
+[Stofna launafyrirkomulag breytilegra launa](hr-compensation-variable-plans.md)</br>
 [Skrá starfsmenn í launafyrirkomulag fastra launa](hr-compensation-enroll-employees-fixed.md)</br>
 [Skrá starfsmenn í breytilegt launafyrirkomulag](hr-compensation-enroll-employees-variable.md)</br>
 [Skilgreina launavinnslu og reikna niðurstöður](hr-compensation-define-process.md)</br>
@@ -87,7 +87,7 @@ Notendahandbók Dynamics 365 Human Resources veitir þér leiðbeiningar um að 
 [Leggja fram starfskjaraáætlun starfsmanns](hr-benefits-deliver-employee-benefits-program.md)</br>
 [Stofna ný fríðindi](hr-benefits-create.md)</br>
 [Skrá starfsmenn fyrir fríðindum](hr-benefits-enroll-workers.md)</br>
-[Haga lokadögum fríðinda](hr-benefits-expiration-dates.md)</br>
+[Vinna með lokadaga fríðinda](hr-benefits-expiration-dates.md)</br>
 [Mynda ACA-skýrslur](hr-benefits-aca-reports.md)</br>
 
 ## <a name="manage-leave-and-absence"></a>Vinna með leyfi og fjarvistir
@@ -122,8 +122,8 @@ Notendahandbók Dynamics 365 Human Resources veitir þér leiðbeiningar um að 
 [Dreifa spurningalistum með áætlanagerð](hr-learning-distribute-questionnaires-scheduling.md)</br>
 [Skoða niðurstöður spurningalista](hr-learning-evaluate-questionnaire-results.md)</br>
 [Greina niðurstöður úr spurningalista](hr-learning-analyze-questionnaire-results.md)</br>
-[Stofna Opnar spurning](hr-learning-create-open-ended-question.md)</br>
-[Stofna lokaða spurningu](hr-learning-create-closed-ended-question.md)</br>
+[Búa til opna spurningu](hr-learning-create-open-ended-question.md)</br>
+[Búa til lokaða spurningu](hr-learning-create-closed-ended-question.md)</br>
 [Búa til textaháða spurningu](hr-learning-depending-question.md)</br>
 
 

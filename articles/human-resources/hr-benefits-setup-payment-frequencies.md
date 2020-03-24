@@ -1,6 +1,6 @@
 ---
 title: Setja upp greiðslutíðni
-description: ''
+description: Microsoft Dynamics 365 Human Resources notar greiðslutíðni til að reikna árleg hlunnindi, ákvarða álagsupphæð sem starfsmaður greiðir hvert launatímabil og skilgreina tíðni greiðslna eru gerðar til veitenda.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5fe0a16c4abbb9241fcdac88fd56e92bf04788c
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: b786485ab53dcdb3b7e5ff02562f674a7f8e6eae
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009469"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092592"
 ---
 # <a name="set-up-payment-frequencies"></a>Setja upp greiðslutíðni
 

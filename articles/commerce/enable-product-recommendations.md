@@ -3,7 +3,7 @@ title: Virkja ráðleggingar um afurðir
 description: Þetta efni útskýrir hvernig hægt er að gera tillögur um vörur sem byggjast á námi gervigreindarvélar (AI-ML) í boði fyrir viðskiptavini Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2d3f1bc2526eeacb4bd6338a0679eadd95a75989
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: 879fccb063ca0b74e0f022a9edf6a15f7d1311ae
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024957"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127883"
 ---
 # <a name="enable-product-recommendations"></a>Virkja ráðleggingar um afurðir
 
@@ -38,7 +38,7 @@ ms.locfileid: "3024957"
 
 Sjá leiðbeiningar um hvernig virkja skuli ADLS [Hvernig á að virkja ADLS í Dynamics 365 umhverfi](enable-ADLS-environment.md).
 
-Að auki skal tryggja að RetailSale mælingar hafi verið gerðar virkar. Til að læra meira um þetta uppsetningarferli skaltu fara [hingað.](https://docs.microsoft.com/en-us/dynamics365/ai/customer-insights/pm-measures)
+Að auki skal tryggja að RetailSale mælingar hafi verið gerðar virkar. Til að læra meira um þetta uppsetningarferli skaltu fara [hingað.](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures)
 
 
 ## <a name="turn-on-recommendations"></a>Kveikja á tillögum
@@ -70,13 +70,23 @@ Til að læra meira um hvernig á að fá persónulegar ráðleggingar, sjá [Vi
 
 [Yfirlit yfir afurðarráðleggingar](product-recommendations.md)
 
-[Virkja sérsniðnar ráðleggingar](personalized-recommendations.md)
+[Virkja ADLS í Dynamics 365 Commerce umhverfi](enable-adls-environment.md)
 
-[Bæta við listum með afurðartillögum við síður](add-reco-list-to-page.md)
+[Kveikja á sérsniðnum tillögum](personalized-recommendations.md)
 
-[Bæta tillöguglugga við POS tæki](add-recommendations-control-pos-screen.md)
+[Afþakka sérsniðnar tillögur](personalization-gdpr.md)
 
-[Yfirlit yfir vörusafnseiningu](product-collection-module-overview.md)
+[Bæta við tillögulistum við vefsvæði fyrir rafræn viðskipti](add-reco-list-to-page.md)
 
-[Virkja ADLS í Dynamics 365-umhverfinu](enable-ADLS-environment.md)
+[Bæta afurðaráðleggingum við sölustað](product.md)
+
+[Bæta við tillögum á færsluskjáinn](add-recommendations-control-pos-screen.md)
+
+[Aðlagaðu niðurstöður AI-ML](modify-product-recommendation-results.md)
+
+[Búðu til handvirkt myndaðar ráðleggingar](create-editorial-recommendation-lists.md)
+
+[Búðu til tillögur með kynningargögnum](product-recommendations-demo-data.md)
+
+[Algengar spurningar um afurðaráðleggingar](faq-recommendations.md)
 

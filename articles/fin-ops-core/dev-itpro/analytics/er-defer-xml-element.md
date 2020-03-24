@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
 ms.openlocfilehash: e9f6161186d04b690ee560dac7ee12974d070506
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.sourcegitcommit: 9c401a4adba260704b0b1cb9fe8e148bbb5afeed
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015260"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3120879"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>Frestaðu framkvæmd XML-þátta á ER sniði
 
@@ -47,7 +47,7 @@ Valkosturinn **Frestuð framkvæmd** er aðeins studdur fyrir XML þætti sem er
 
 Valkosturinn **Frestuð framkvæmd** er ekki studdur fyrir XML þætti sem búa í sniðmátsþáttunum **Sameiginlegt\\Skrá** þegar valkosturinn **Skipta skrá** er stilltur á **Já**. Nánari upplýsingar um hvernig á að skipta XML-skrám er að finna í [Skipta mynduðum XML-skrám út frá stærð og efnismagni](er-split-files.md).
 
-## <a name="Example"></a>Dæmi: Frestaðu framkvæmd XML-þáttar á ER-sniði
+## <a name="example-defer-the-execution-of-an-xml-element-in-an-er-format"></a><a name="Example"></a>Dæmi: Frestaðu framkvæmd XML-þáttar á ER-sniði
 
 Eftirfarandi skref útskýra hvernig notandi í kerfisstjóra eða rafrænni skýrslugerð virkur ráðgjafi [hlutverk](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) getur stillt ER snið sem inniheldur XML-þátt þar sem framkvæmd röð er frábrugðin röðinni í snið stigveldisins.
 

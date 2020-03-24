@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 320f21916a5f451ebf4f21e0075017a121ba6d6a
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 9e5d90eaf1815bbe54b0bea40d92a0a993a23b75
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057615"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113806"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Setja upp forstillingu tilkynningar í tölvupósti
 
@@ -35,7 +35,7 @@ ms.locfileid: "3057615"
 
 Áður en þú stofnar rásir þarftu að setja upp prófíl til að tryggja að hægt sé að senda tölvupósttilkynningar vegna ýmissa viðburða, svo sem til pöntunar, pöntunarstöðu og greiðslubilun.
 
-Frekari upplýsingar um hvernig á að skilgreina tölvupóst er að finna í [Stilling og sending tölvupósts](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-email).
+Frekari upplýsingar um hvernig á að skilgreina tölvupóst er að finna í [Stilling og sending tölvupósts](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
 ## <a name="create-an-email-notification-profile"></a>Stofna forstillingu tilkynningar í tölvupósti
 
@@ -84,7 +84,7 @@ Eftirfarandi mynd sýnir nokkur dæmi um stillingar tilkynningar tilviks.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Skilgreining og sending tölvupósts](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-email)
+[Skilgreining og sending tölvupósts](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json)
 
 [Yfirlit yfir rásir](channels-overview.md)
 

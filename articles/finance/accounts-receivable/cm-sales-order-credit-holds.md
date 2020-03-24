@@ -1,6 +1,6 @@
 ---
-title: Kreditbið fyrir sölupantanir
-description: ''
+title: Lán í biðstöðu fyrir sölupantanir
+description: Þetta efni lýsir uppsetningu reglna sem notaðar eru til að setja sölupöntun í kreditbið.
 author: mikefalkner
 manager: AnnBe
 ms.date: 01/25/2019
@@ -9,25 +9,23 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschloma
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 316a626e6a18f0afda632111138482f62f6809db
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 8a0e006be8a72f35d6c6009ca9d67d083b8fac89
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057671"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124255"
 ---
-# <a name="credit-holds-for-sales-orders"></a>Kreditbið fyrir sölupantanir
+# <a name="credit-holds-for-sales-orders"></a>Lán í biðstöðu fyrir sölupantanir
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-
-Þetta efni lýsir uppsetningu reglna sem notaðar eru til að setja sölupöntun í kreditbið. Reglur um útilokun á lánamálum geta átt við um einstaka viðskiptavini eða hóp viðskiptavina.  Reglur um útilokun skilgreina svör við eftirfarandi kringumstæðum:
+Þetta efni lýsir uppsetningu reglna sem notaðar eru til að setja sölupöntun í kreditbið. Reglur um útilokun á lánamálum geta átt við um einstaka viðskiptavini eða hóp viðskiptavina. Reglur um útilokun skilgreina svör við eftirfarandi kringumstæðum:
 
 1. Fjöldi vanskiladaga
 2. Bókhaldsstaða
@@ -57,7 +55,7 @@ Opnaðu flipann **Vanskiladagar** ef hindrunarreglan gildir um viðskiptavini me
    - Fyrir sviðið **Tafla** mun uppflettingin bjóða upp á lista yfir viðskiptavini sem þú getur valið. 
    - Veldu **Hópur** ef reglan gildir um lánshóp viðskiptavina.
    - Veldu **Allt** ef reglan á við alla viðskiptavini. 
-3. Veldu **Áhættuhópur** til að nota viðmið til að beita lánsfjárstýringu á viðskiptavini sem eru flokkaðir eftir sameiginlegum þáttum, svo sem lánshæfiseinkunn Dun og Bradstreet, fjölda ára sem þeir hafa verið í viðskiptum, þann tíma sem þeir hafa verið viðskiptavinur og svo framvegis.  
+3. Veldu **Áhættuhóp** til að nota viðmið til að beita lánsfjárstýringu á viðskiptavini sem eru flokkaðir eftir sameiginlegum þáttum, svo sem lánshæfiseinkunn Dun og Bradstreet, fjölda ára sem þeir hafa verið í viðskiptum, þann tíma sem þeir hafa verið viðskiptavinur og svo framvegis.  
 4. Velja gerð reglunnar sem verið er að setja upp. Valkosturinn **Lokun** mun búa til reglu sem lokar fyrir pöntun. Valkostur **Útilokun** mun búa til reglu sem útilokar aðra reglu frá að loka fyrir pöntun. 
 5. Veljið **Gerð gildis**. Sjálfgefna færslan er fastur fjöldi daga. Ef þú ert að búa til útilokun geturðu tilgreint fastan fjölda daga eða upphæð í staðinn. 
 6. Sláðu inn fjölda daga **Í vanskilum** sem verður leyft fyrir valda útilokunarreglu áður en pöntun er sett á lánstrauststjórn til endurskoðunar. Fjöldi vanskiladaga táknar viðbótarfjölda biðdaga sem bætast við fjölda daga umfram gjalddaga greiðslu sem reikningurinn getur haft áður en hann er talinn í vanskilum. Ef þú tilgreindir **Gildisgerð** sem upphæð fyrir útilokun, sláðu síðan inn fjárhæð og gjaldmiðil fyrir þá upphæð.
@@ -87,9 +85,9 @@ Opnaðu flipann **Útlánamörkin runnu út** ef hindrunarreglan á við um við
    - Veldu **Allt** ef reglan á við alla viðskiptavini. 
 3. Veldu **Áhættuhóp** til að takmarka enn frekar lista yfir viðskiptavini sem settir verða í kreditstjórnunarbið. 
 4. Velja gerð reglunnar sem verið er að setja upp. 
-  - Veldu **Lokun** til að stofna reglu sem lokar fyrir pöntun. 
-  - Veldu **Útilokun** til að stofna reglu sem útilokar aðra reglu frá að loka fyrir pöntun. 
-6. Sláðu inn **Útlánaviðmiðunardagur rann út** fyrir valda útilokunarreglu áður en pöntun er sett í bið lánastjórnunar. Fjöldi vanskiladaga táknar viðbótar biðdaga sem er bætt við þann fjölda daga sem lánsfjárhámarkið er útrunnið.
+   - Veldu **Lokun** til að stofna reglu sem lokar fyrir pöntun. 
+   - Veldu **Útilokun** til að stofna reglu sem útilokar aðra reglu frá að loka fyrir pöntun. 
+5. Sláðu inn **Útlánaviðmiðunardagur rann út** fyrir valda útilokunarreglu áður en pöntun er sett í bið lánastjórnunar. Fjöldi vanskiladaga táknar viðbótar biðdaga sem er bætt við þann fjölda daga sem lánsfjárhámarkið er útrunnið.
 
 ### <a name="overdue-amount"></a>Upphæð í vanskilum
 
@@ -104,11 +102,10 @@ Opnaðu flipann **Vanskilaupphæð** ef hindrunarreglan á við um viðskiptavin
    - Veldu **Allt** ef reglan á við alla viðskiptavini. 
 3. Veldu **Áhættuhóp** ef þú vilt takmarka enn frekar lista yfir viðskiptavini sem fara í kreditstjórnunarbið. 
 4. Velja gerð reglunnar sem verið er að setja upp. 
-  - Veldu **Lokun** til að stofna reglu sem lokar fyrir pöntun. 
-  - Veldu **Útilokun** til að stofna reglu sem útilokar aðra reglu frá að loka fyrir pöntun. 
+   - Veldu **Lokun** til að stofna reglu sem lokar fyrir pöntun. 
+   - Veldu **Útilokun** til að stofna reglu sem útilokar aðra reglu frá að loka fyrir pöntun. 
 5. Sláðu inn **Vanskilaupphæð** fyrir valda útilokunarreglu áður en pöntun er sett í bið lánastjórnunar til endurskoðunar. 
-6. Veldu **Gildisgerð** sem skilgreinir þá tegund verðmæta sem verður notuð til að prófa einnig hversu mikið af lánamörkum hefur verið notað. Lokunarreglur krefjast prósentu en útilokun getur verið með fasta fjárhæð eða prósentu.
-skal. Þröskuldurinn tengist lánamörkum.
+6. Veldu **Gildisgerð** sem skilgreinir þá tegund verðmæta sem verður notuð til að prófa einnig hversu mikið af lánamörkum hefur verið notað. Lokunarreglur krefjast prósentu en útilokun getur verið með fasta fjárhæð eða prósentu. Þröskuldurinn tengist lánamörkum.
 7. Sláðu inn gildið fyrir **Viðmiðunarmörk lána** fyrir valda reglu áður en viðskiptavinur heldur úti lánstrausti. Þetta getur verið upphæð eða prósentutala byggð á gildistegundinni sem valin er í gildistegundinni.
 8. Reglan athugar að farið hafi verið fram yfir **Vanskilaupphæð** og **Viðmiðunarmörk lána**. 
 
@@ -125,9 +122,9 @@ Veldu **Sölupöntun** ef hindrunarreglan á við um verðmæti sölupöntunarin
    - Veldu **Allt** ef reglan á við alla viðskiptavini. 
 3. Veldu **Áhættuhóp** ef þú vilt takmarka enn frekar lista yfir viðskiptavini sem fara í kreditstjórnunarbið. 
 4. Velja gerð reglunnar sem verið er að setja upp.  
-  - Veldu **Lokun** til að stofna reglu sem lokar fyrir pöntun. 
-  - Veldu **Útilokun** til að stofna reglu sem útilokar aðra reglu frá að loka fyrir pöntun. 
-6. Sláðu inn **Sölupöntunarupphæð** fyrir valda útilokunarreglu áður en pöntun er sett í bið lánastjórnunar. 
+   - Veldu **Lokun** til að stofna reglu sem lokar fyrir pöntun. 
+   - Veldu **Útilokun** til að stofna reglu sem útilokar aðra reglu frá að loka fyrir pöntun. 
+5. Sláðu inn **Sölupöntunarupphæð** fyrir valda útilokunarreglu áður en pöntun er sett í bið lánastjórnunar. 
 
 Reglan um sölupöntun felur í sér viðbótarstillingu sem gengur framhjá öllum öðrum reglum. Til að búa til útilokun sem sleppir sölupöntuninni án þess að taka gildi aðrar reglur, veldu gátreitinn **Losa sölupöntun** á útilokunarlínu.
 
@@ -216,8 +213,8 @@ Lokunarástæðan birtist fyrir hverja sölupöntun á biðlistanum. Ef það er
 2) Veldu **Losunarástæðu** fyrir pöntunina sem hefur verið valin til losunar.  
 3) Sláðu inn **Ednurskoðunardagsetningu** fyrir hverja pöntun sem hefur verið valin til losunar.  
 4) Veldu valmyndina **Losa** í aðgerðarrúðunni til að gefa út pöntun. Þessi valmynd verður aðeins tiltæk eftir að færslur hafa verið valdar. Notandanum er boðið upp á tvo möguleika:
- - Veldu **Með bókun** til að fjarlægja biðina og bóka skjalið með sama bókunarferli og var notað þegar það var sett í bið. Til dæmis, ef staðfesting sölupöntunar var sett í bið, verður staðfestingu sölupöntunarinnar lokið eftir útgáfuna. Sölupöntunarformið með sölupöntun verður birt þannig að notandinn getur sent staðfestinguna.
- - Veldu **Án bókunar** til að fjarlægja biðina án þess að gera frekari úrvinnslu. Nú er hægt að bóka sölupöntunina handvirkt.
+   - Veldu **Með bókun** til að fjarlægja biðina og bóka skjalið með sama bókunarferli og var notað þegar það var sett í bið. Til dæmis, ef staðfesting sölupöntunar var sett í bið, verður staðfestingu sölupöntunarinnar lokið eftir útgáfuna. Sölupöntunarformið með sölupöntun verður birt þannig að notandinn getur sent staðfestinguna.
+   - Veldu **Án bókunar** til að fjarlægja biðina án þess að gera frekari úrvinnslu. Nú er hægt að bóka sölupöntunina handvirkt.
 
 ### <a name="rejecting-orders-in-the-hold-list"></a>Hafna pöntunum í biðlistanum
 Þú getur notað valmyndina **Hafna** í aðgerðaglugganum til að hafna sölupöntun

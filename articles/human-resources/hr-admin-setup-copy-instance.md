@@ -1,6 +1,6 @@
 ---
 title: Afritið tilvik
-description: ''
+description: Þú getur notað Microsoft Dynamics Lifecycle Services (LCS) til að afrita Microsoft Dynamics 365 Human Resources gagnagrunn í sandkassaumhverfi.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0bbe325edb65cad0c1912e0a6ade559e5675dc58
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: bb363369994d99f358be0c23cdaf1dbc80b644e5
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009364"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092293"
 ---
 # <a name="copy-an-instance"></a>Afritið tilvik
 
@@ -68,7 +68,7 @@ Til að ljúka þessu verkefni afritarðu fyrst dæmi og skráir þig síðan in
 
 4. Í verkglugganum **Afritaðu dæmi**, veldu dæmið sem á að skrifa yfir og veldu síðan **Afrita**. Bíddu eftir því að gildið í reitnum **Afrita stöðu** sé uppfært í **Lokið**.
 
-   ![[Veldu dæmi til að skrifa yfir](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Velja tilvik til að skrifa yfir](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Veldu **Power Platform** og skráðu þig inn í Admin Center Microsoft Power Platform.
 

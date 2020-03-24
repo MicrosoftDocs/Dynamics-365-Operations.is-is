@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8ac01f36912fa5e8a09bb4f324ef272cec737aa1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a9291dddf7d4dc080b6eb1ec60702de32a761f45
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002382"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113829"
 ---
 # <a name="set-up-a-retail-channel"></a>Setja upp smásölurás
 
@@ -66,7 +66,7 @@ Eftirfarandi mynd sýnir dæmi um smásölurás.
 
 Það eru fjölmargar aðrar valkvæðar stillingar sem hægt er að stilla í hlutunum **Yfirlýsing/lokun** og **Ýmislegt**, miðað við þarfir smásöluverslunarinnar.
 
-Að auki, sjá [Skjáupplýsingar fyrir sölustað (POS)](https://docs.microsoft.com/en-us/dynamics365/retail/pos-screen-layouts?toc=/dynamics365/commerce/toc.json) til að fá upplýsingar um uppsetningu á sjálfgefinni skjáuppsetningu í hlutanum **Skjáskipulag** og [Stilla og setja upp Retail vélbúnaðarstöð](https://docs.microsoft.com/en-us/dynamics365/retail/retail-hardware-station-configuration-installation) fyrir uppsetningarupplýsingar um hlutann **Vélbúnaðarstöðvar**.
+Að auki, sjá [Skjáupplýsingar fyrir sölustað (POS)](pos-screen-layouts.md) til að fá upplýsingar um uppsetningu á sjálfgefinni skjáuppsetningu í hlutanum **Skjáskipulag** og [Stilla og setja upp Retail vélbúnaðarstöð](retail-hardware-station-configuration-installation.md) fyrir uppsetningarupplýsingar um hlutann **Vélbúnaðarstöðvar**.
 
 Eftirfarandi mynd sýnir dæmi um uppsetningarstillingu smásölurásar.
 

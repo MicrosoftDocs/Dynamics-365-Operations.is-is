@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8a0927f6ee9b2d5bed1327bb223ceca85ecc16a0
-ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
+ms.openlocfilehash: 0da0457240cf12686fff2fa929c7fb510c11f242
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "3081316"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113783"
 ---
 # <a name="channel-setup-prerequisites"></a>Skilyrði fyrir rásauppsetningu
 
@@ -47,9 +47,9 @@ ms.locfileid: "3081316"
 - [Skilgreina og stilla uppbyggingu lögaðila](channels-legal-entities.md) 
 - [Skilgreindu fyrirtækjastigveldið](channels-org-hierarchies.md)
 - [Setja upp vöruhús](channels-setup-warehouse.md)
-- [Stilla virðisaukaskatt](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json)
+- [Stilla virðisaukaskatt](../finance/general-ledger/indirect-taxes-overview.md?toc=/dynamics365/commerce/toc.json)
 - [Setja upp forstillingu tilkynningar í tölvupósti](email-notification-profiles.md)
-- [Setja upp númeraraðir](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/commerce/toc.json)
+- [Setja upp númeraraðir](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/commerce/toc.json)
 - [Settu upp sjálfgefna viðskiptavini og heimilisfangabók](default-customer.md)
 <!--
 - [Configure commerce parameters](commerce-parameters.md)

@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 411daa5bc08df530750fd5c09ca8b54bf537b548
-ms.sourcegitcommit: ba1c76497acc9afba85257976f0d4e96836871d1
+ms.openlocfilehash: 0cfa7d55f5d4d219c0bc43eb6313c0c6bd014ab6
+ms.sourcegitcommit: ac7c457bda3d8545ee8c0de45e4fcc24d677ffdc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "2890328"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3133897"
 ---
 # <a name="vendor-invoices-overview"></a>Yfirlit yfir reikninga lánardrottna
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Þetta efnisatriði veitir almennar upplýsingar um reikninga lánardrottins. Reikningar lánardrottins eru beiðnir um greiðslu fyrir vörur og þjónustu sem voru mótteknar. Lánardrottnareikningar geta táknað reikning fyrir yfirstandandi þjónustu, eða þær geta verið byggðir á innkaupapantanir fyrir tilteknar vörur og þjónustu.
 
@@ -44,7 +45,7 @@ Reikning lánardrottins úr innkaupapöntun er reikningur sem er búinn til þeg
 - Ásamt Reikningasafn lánardrottna, leyfir komubók lánardrottins að slá hratt inn reikninga til að safna upp kostnaðar. Hægt er að opna tengd innkaupapantanir seinna til að bóka reikning gagnvart á kostnaðarlykil.
 - **Opna lánardrottnareikninga** og **Biðreikninga lánardrottins** síður gera mögulegt að stofna reikninga lánardrottna frá staðfestar innkaupapantanir.
 
-Eftirfarandi umræðu veita meiri upplýsingar um hvernig á að nota **Opna lánardrottnareikninga** eða **Biðreikninga lánardrottins** síðu til að búa til reikning lánardrottins úr innkaupapöntun.
+Eftirfarandi umræðu veita meiri upplýsingar um hvernig á að nota síðurnar **Opna lánardrottnareikninga** eða **Biðreikninga lánardrottins** til að búa til reikning lánardrottins úr innkaupapöntun.
 
 ## <a name="understanding-invoice-line-quantities"></a>Skilja magn reikningslínu
 
@@ -66,6 +67,16 @@ Hægt er að bæta við línu sem ekki var á innkaupapöntun við reikning lán
 
 Fyrirtækið gæti notað verkflæði til að stjórna endurskoðunarferli fyrir lánardrottnareikninga. Hægt er að nota verkflæði yfirferðar fyrir reikningshausa, reikningslínu, eða bæði. Verkflæðisstýringin á við haus eða línu, eftir því hvað áherslan liggur áður en stýringin er valin. Í stað **Bóka** hnappinn sjást í **Senda** hnappur sem hægt er að nota til að senda reikning lánardrottins í gegnum yfirferðarferlið.
 
+### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Kemur í veg fyrir að reikningur verði sendur inn í verkflæði 
+
+Eftirfarandi eru nokkrar leiðir til að koma í veg fyrir að reikningi sé sent inn í verkflæði.
+
+- **Heildarupphæð reiknings og skráðar heildartölur stemma ekki.** Sá eða sú sem sendi inn reikninginn mun fá viðvörun um að samtölurnar stemmi ekki svo viðkomandi geti leiðrétt stöðuna áður en reikningurinn er sendur aftur í verkflæði. Þessi eiginleiki er tiltækur ef kveikt er á færibreytunni **Banna innsendingu í verkflæði þegar heildarupphæð reiknings og skráð heildarupphæð reiknings stemma ekki** á síðunni **Eiginleikastjórnun**. 
+
+- **Reikningur inniheldur óúthlutuð gjöld.** Sá eða sú sem sendi inn reikninginn mun fá viðvörun um að reikningurinn sé með óúthlutuð gjöld svo viðkomandi geti leiðrétt reikninginn áður en hann er sendur aftur í verkflæði. Þessi eiginleiki er tiltækur ef kveikt er á færibreytunni **Banna innsendingu í verkflæði þegar það eru óúthlutuð gjöld á reikningi lánardrottins** á síðunni **Eiginleikastjórnun**.
+
+- **Reikningur inniheldur sama reikningsnúmer og annar bókaður reikningur.** Sá eða sú sem sendi inn reikninginn mun fá viðvörun um að reikningur með tvítekið númer hafi fundist svo viðkomandi geti leiðrétt hann áður en hann er sendur aftur í verkflæði. Þessi viðvörun verður birt þegar færibreytan Viðskiptaskuldir merkt **Athuga reikningsnúmerið sem notað var** er stillt á **Hafna tvítekningu**. Þessi eiginleiki er tiltækur ef kveikt er á færibreytuni **Banna innsendingu í verkflæði þegar reikningsnúmerið er þegar til á bókuðum reikningi og kerfið er ekki sett upp til að samþykkja tvítekin reikningsnúmer** á síðunni **Eiginleikastjórnun**.  
+
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Jafna lánardrottnareikninga við innhreyfingarskjöl afurða
 
 Hægt er að færa inn og vista upplýsingar fyrir reikninga lánardrottins og hægt er að jafna reikningslínur við línur í innhreyfingarskjali afurðar. Einnig er hægt að jafna hlutamagn fyrir línu
@@ -78,9 +89,19 @@ Hægt er að stofna reikning lánardrottins á grundvelli línuvara innhreyfinga
 
 Frekari upplýsingar, sjá [Skrá reikning lánardrottins og bera saman við móttekið magn](../accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md).
 
+## <a name="configure-an-automated-task-for-vendor-invoice-workflow-to-post-the-vendor-invoice-using-a-batch-job"></a>Stilltu sjálfvirkt verk fyrir verkflæði reikninga lánardrottins til að bóka reikning lánardrottins með runuvinnslu
+
+Þú getur bætt sjálfvirku bókunarverki við verkflæði fyrir reikninga lánardrottins svo að reikningar séu unnir í runu. Með því að setja inn reikninga í runu getur verkflæðisferlið haldið áfram án þess að þurfa að bíða eftir að bókuninni ljúki, sem bætir árangur allra verka sem eru send inn í verkflæðið.
+
+Til að bóka reikning lánardrottins í runu skal á síðunni **Eiginleikastjórnun** kveikja á færibreytunni **Runubókun reiknings lánardrottins**. Verkflæði fyrir lánardrottna eru stillt með því að fara í **Viðskiptaskuldir > Uppsetning > Verkflæði viðskiptaskulda**.
+
+Þú getur séð verkið **Bóka reikning lánardrottins með runu** í verkflæðiritlinum, óháð því hvort færibreytan **Runubókun reiknings lánardrottins** sé virk. Þegar færibreytan er ekki virk mun reikningur sem inniheldur **Bóka reikning lánardrottins með runuverki** ekki vera unninn í verkflæði fyrr en breytan er virk. Verkið **Bóka reikning lánardrottins með runu** má ekki vera notaður í sama verkflæði og sjálfvirka verkið **Bóka reikninga lánardrottins**. Einnig ætti verkið **Bóka reikning lánardrottins með runu** ætti að vera síðasti þátturinn í verkflæðisstillingunni.
+
+Þú getur tilgreint fjölda reikninga sem á að taka með í rununa og fjölda klukkustunda sem á að bíða áður en runa er enduráætluð með því að fara í **Viðskiptaskuldir > Uppsetning > Færibreytur viðskiptaskulda > Reikningur > Verkflæði reikninga**. 
+
 ## <a name="working-with-multiple-invoices"></a>Vinna með marga reikninga
 
-Hægt er að vinna með marga reikninga á sama tíma og bókaðar þá svo samtímis. Ef stofna þarf marga reikninga eru notuð **Biðreikninga lánardrottins** síðu. Ef þarf að bóka og prenta marga reikninga lánardrottna skal nota færslubókarsamþykkt reiknings. Ef þú ert að nota samþykktarbók reikninga, þarf að minnsta kosti eitt innhreyfingarskjal afurða hafi verið bókað fyrir innkaupapöntunina og að reikningur fyrir innkaupapöntunina þarf að hafa verið bókaður í komubók. Fjárhagsupplýsingarnar fyrir reikninginn koma úr reikningnum sem var bókaður í komubókina.
+Hægt er að vinna með marga reikninga á sama tíma og bóka þá alla samtímis. Ef stofna þarf marga reikninga skal nota síðuna **Reikningar frá lánardrottni í bið**. Ef þarf að bóka og prenta marga reikninga lánardrottna skal nota færslubókarsamþykkt reiknings. Ef þú ert að nota samþykktarbók reikninga, þarf að minnsta kosti eitt innhreyfingarskjal afurða hafi verið bókað fyrir innkaupapöntunina og að reikningur fyrir innkaupapöntunina þarf að hafa verið bókaður í komubók. Fjárhagsupplýsingarnar fyrir reikninginn koma úr reikningnum sem var bókaður í komubókina.
 
 ## <a name="recovering-vendor-invoices-that-are-being-used"></a>Endurheimta reikninga lánardrottna sem eru notaðir
 
@@ -94,7 +115,7 @@ Aðeins er hægt að fá aðgang að síðunni **Endurheimta reikninga lánardro
 
 Verkflæðistilvik sem hefur stöðvast út af óendurkræfri villu verður með stöðu verkflæðis sem **Óendurkræft**. Þegar staðan á verkflæði fyrir reikning lánardrottins er **Óendurkræf** er hægt að endurstilla hana á **Drög** með því að velja **Afturkalla**. Síðan er hægt að breyta reikningi lánardrottins. Þessi eiginleiki er í boði ef kveikt er á færibreytunni **Endurstilla stöðuna drög fyrir verkflæði reiknings lánardrottins** á síðunni **Eiginleikastjórnun**.
 
-Hægt er að nota síðuna **Sama verkflæðis** til að endurstilla verkflæðisstöðuna sem **Drög**. Þú getur opnað þessa síðu frá **Reikningur lánardrottins** eða frá **Algengar > Fyrirspurnir > Verkflæði** siglingar. Til að núllstilla stöðu flæðis á **Drög**, veldu **afturkalla**. Þú getur einnig endurstillt stöðu flæðis á Drög með því að velja **Afturkalla** aðgerð á **Reikningur lánardrottins** eða **Bíður reikninga lánardrottins** síðu. Eftir að verkflæðisstaðan hefur verið endurstillt í **Drög** verður hún opin fyrir breytingar á síðunni **Reikningur lánardrottnins**.
+Hægt er að nota síðuna **Sama verkflæðis** til að endurstilla verkflæðisstöðuna sem **Drög**. Þú getur opnað þessa síðu úr **Reikningur lánardrottins** eða úr **Algengar > Fyrirspurnir > Verkflæði** siglingar. Til að núllstilla stöðu flæðis á **Drög**, veldu **afturkalla**. Þú getur einnig endurstillt stöðu flæðis á Drög með því að velja **Afturkalla** aðgerð á **Reikningur lánardrottins** eða **Bíður reikninga lánardrottins** síðu. Eftir að verkflæðisstaðan hefur verið endurstillt í **Drög** verður hún opin fyrir breytingar á síðunni **Reikningur lánardrottnins**.
 
 
 

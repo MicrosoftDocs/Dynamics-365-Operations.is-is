@@ -3,7 +3,7 @@ title: Gagnaúthlutun fjárhagsáætlunargerðar
 description: Þetta efni lýsir mismunandi úthlutunaraðferðum sem eru tiltækar í Microsoft Dynamics 365 Finance og hvernig nota má þau.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,23 +18,26 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8bcfb4d3720d03ce84024766a66ccfc546767ab
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ceddeda5760d961568d58e7e4805955ea972c586
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772077"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106883"
 ---
 # <a name="budget-planning-data-allocation"></a>Gagnaúthlutun fjárhagsáætlunargerðar
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein lýsir mismunandi úthlutunaraðferðum sem eru tiltækar í Microsoft Dynamics 365 Finance og hvernig nota má þær.  
+Þetta efni lýsir mismunandi úthlutunaraðferðum sem eru tiltækar í Microsoft Dynamics 365 Finance og hvernig nota má þau.  
 
 Hægt er að dreifa gögnum í fjárhagsáætlun á ýmsa vegu til að sýna nákvæmlega áætlaðar upphæðir.
 
 ## <a name="allocation-methods"></a>Úthlutunarreglur
 Hægt er að nota þrjár úthlutunaraðferðir (Úthlutun yfir mörg tímabil, Úthlutun á víddir og Nota úthlutunarreglur höfuðbókar) til að stofna línur fjárhagsáætlunargerðar sem byggja á línum í sömu fjárhagsáætlunargerð. Þrjár aðrar aðferðir (uppsöfnun, dreifing og afrita úr fjárhagsáætlunargerð) er hægt að nota til að stofna línur fjárhagsáætlunargerðar í öðrum fjárhagsáætlunum. Fyrir allar sex úthlutunaraðferðirnar þarf að tilgreina aðstæður endastaðar. Aðstæður endastaðar geta verið annaðhvort sama og upprunaaðstæður eða frábrugðnar upprunaaðstæðum. Þar að auki er hægt að tilgreina hvort nýjum línum er skeytt við fjárhagsáætlunargerðina eða gildandi línum skipt út fyrir nýjar línur í fjárhagsáætlunargerð.
+
+> [!NOTE] 
+> Nota ætti einstaka atburðarás fyrir samsöfnun sem er frábrugðin atburðarásinni sem var notuð við dreifingu eða aðrar breytingar sem áður voru framkvæmdar í yfiráætluninni.  
 
 [![Úthlutunaraðferðin Úthlutun yfir mörg tímabil](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
 **Úthlutun yfir mörg tímabil** – flokkur fyrir tímabilsúthlutun er notaður til að úthluta fjárhagsáætlunarlínum úr uppruna fjárhagsáætlunargerðarinnar yfir mörg tímabil í aðstæðum endastaðar. Upprunaupphæð er úthlutað á margar línur í aðstæðum endastaðar, byggt á prósentu og dagsetningu sem eru skilgreindar í flokknum tímabilsúthlutun.         

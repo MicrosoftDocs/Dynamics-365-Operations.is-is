@@ -3,7 +3,7 @@ title: Yfirlit yfir inn- og útflutningsvinnslu gagna
 description: Notaðu vinnusvæðið Gögnastjórnun til að búa til og stjórna Inn- og útflutningsvinnslu gagna.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 02/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b852a73268251241cd66a07d7e4f4720706c0d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184555"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124613"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Yfirlit yfir inn- og útflutningsvinnslu gagna
 
@@ -191,8 +191,11 @@ Við tímasetningu hreinsunarferilsins verður að tilgreina eftirfarandi breytu
 
 -   **Fjöldi daga til að halda sögu** - Þessi stilling er notuð til að stjórna magni af framkvæmdarsögunni sem á að varðveita. Þetta er tilgreint í fjölda daga. Þegar hreinsunarstarfið er tímaáætlað sem endurtekið hópastarf mun þessi stilling virka eins og stöðugur hreyfanlegur gluggi, þannig að sagan verður alltaf skilin eftir tiltekinn fjölda daga ósnortinn meðan afganginum er eytt. Sjálfgildið er 7 dagar.
 
--   **Fjöldi klukkustunda til að framkvæma vinnsluna** - Það fer eftir upphæðinni sem þarf að hreinsa upp, heildar framkvæmdatími fyrir hreinsunarstarfið getur verið breytilegt frá nokkrum mínútum til nokkurra klukkustunda. Vegna þess að hreinsun á nefndum töflum verður að gera þegar engin önnur gagnaumsýslu er í kerfinu verður mikilvægt að ganga úr skugga um að hreinsunarstarfið gangi og ljúki fyrir upphaf viðskipta.
+-   **Fjöldi klukkustunda til að framkvæma vinnsluna** - Það fer eftir upphæðinni sem þarf að hreinsa upp, heildar framkvæmdatími fyrir hreinsunarstarfið getur verið breytilegt frá nokkrum mínútum til nokkurra klukkustunda. Þessi færibreyta verður að vera stillt á fjölda klukkustunda sem vinnslan mun keyra. Eftir að hreinsunarvinnslan hefur keyrt í tiltekinn fjölda klukkustunda mun vinnslan stöðvast og hefja hreinsunina næst þegar hún er keyrð út frá endurkomuáætlun.
 
     Hægt er að tilgreina hámarks framkvæmdartíma með því að setja hámarksmörk á fjölda klukkustunda sem starfið verður að keyra með þessari stillingu. Hreinsunarmöguleikinn fer í gegnum eitt kennsl á framkvæmdastarfi í einu í tímaröð sem er raða, þar sem elsta er fyrst fyrir hreinsun tengdra framkvæmdasögu. Það mun hætta að taka upp ný framkvæmdarauðkenni til hreinsunar þegar eftirstöðvunartíminn er innan síðustu 10% af tiltekinni tímalengd. Í sumum tilvikum er búist við að hreinsunarstarfið haldi áfram yfir tilgreindan hámarkstíma. Þetta mun að mestu leyti ráðast af fjölda gagna sem á að eyða fyrir núverandi framkvæmdarauðkenni sem byrjað var áður en 10% þröskuldinum var náð. Hreinsun sem var hafin verður að vera lokið til að tryggja heilleika gagna, sem þýðir að hreinsunin mun halda áfram þrátt fyrir að fara yfir tilgreind mörk. Þegar þessu er lokið, eru ný framkvæmdarauðkenni ekki sótt og hreinsunarvinnslunni lokið. Sú framkvæmdaferð sem eftir er sem ekki var hreinsuð upp vegna skorts á nægum framkvæmdartíma, verður sótt næst þegar áætlað er að gera upp hreinsunarvinnsluna. Sjálfgefið og lágmarksgildi fyrir þessa stillingu er stillt á 2 klukkustundir.
 
 -   **Endurtekin runa** - Hægt er að keyra hreinsunarstarfið sem staka, handvirka framkvæmd eða einnig er hægt að skipuleggja endurtekna framkvæmd í runu. Hægt er að skipuleggja rununa með stillingunum **Keyra í bakgrunni**, sem er venjulegi hópurinn sem settur er upp.
+
+> [!NOTE]
+> Ef færslur í sviðsetningatöflunum eru ekki hreinsaðar alveg upp skaltu tryggja að hreinsunarvinnslan sé áætluð til að keyra endurtekið. Eins og lýst er hér að ofan, í öllum hreinsunarframkvæmdum mun vinnslan aðeins hreinsa upp eins mörg framkvæmdakenni og hægt er innan hámarkstímanna. Til að halda áfram að hreinsa allar eftirstandandi sviðsetningarskrár verður að vinnslan að vera áætluð í reglulega keyrslu.

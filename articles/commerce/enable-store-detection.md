@@ -3,7 +3,7 @@ title: Virkja greiningu á verslun eftir staðsetningu
 description: Þetta efnisatriði lýsir því hvernig á að kveikja á staðsetningarbundinni verslun fyrir þitt Dynamics 365 Commerce svæði.
 author: brianshook
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 304d8d2f05916295b9c6320561d6a25ff40df955
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 66ffe56f9d969c9d62ed4ff49f0848fab7e58a56
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003097"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096870"
 ---
 # <a name="enable-location-based-store-detection"></a>Virkja greiningu á verslun eftir staðsetningu
 
@@ -54,12 +54,20 @@ Fylgdu þessum skrefum til að kveikja á staðsetningarbyggðri greiningu versl
 
 [Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
 
+[Setja upp netverslunarrás](online-stores.md)
+
 [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
 
 [Tengja netsvæði við rás](associate-site-online-store.md)
 
-[Stjórna robots.txt-skrám](manage-robots-txt-files.md)
+[Vinna með skrárnar robots.txt](manage-robots-txt-files.md)
+
+[Hlaða upp mörgum slóðartilvísunum í einu](upload-bulk-redirects.md)
+
+[Setja upp B2C-leigjanda í Commerce](set-up-B2C-tenant.md)
 
 [Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)
+
+[Stilla marga B2C leigjendur í viðskiptaumhverfi](configure-multi-B2C-tenants.md)
 
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)

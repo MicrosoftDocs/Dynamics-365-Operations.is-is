@@ -1,6 +1,6 @@
 ---
-title: Ráðstafa Human Resources
-description: ''
+title: Ráðstafa mannauði
+description: Þessi grein fer með þig í gegnum úthlutunarferli nýs framleiðsluumhverfis fyrir Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/18/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f105144047c64fc8e9d42da8d7525a8cc3912c33
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: f982f3c3b2703a71e6c8a1a0d1be15fb260a6ef1
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071615"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092247"
 ---
-# <a name="provision-human-resources"></a>Ráðstafa Human Resources
+# <a name="provision-human-resources"></a>Ráðstafa mannauði
 
 Þessi grein fer með þig í gegnum úthlutunarferli nýs framleiðsluumhverfis fyrir Microsoft Dynamics 365 Human Resources. Þeessi grein gerir ráð fyrir að þú hafir keypt Human Resources í gegnum Cloud Solution Provider (CSP) eða Enterprise Architecture (EA). Ef þú ert með fyrirliggjandi Microsoft Dynamics 365 leyfi sem nú þegar inniheldur þjónustuáætlun Human Resources og getur ekki lokið við skrefin í þessari grein, skaltu hafa samband við notendaþjónustu.
 

@@ -1,9 +1,9 @@
 ---
 title: Stofna og vinna með sérstillt svæði
-description: Þetta efnisatriði sýnir hvernig á að stofna sérsniðin svæði til að laga forritið að sínum viðskiptum.
+description: Þetta efnisatriði sýnir hvernig á að stofna sérsniðna reiti með notandaviðmóti til að laga forritið að sínum viðskiptum.
 author: jasongre
 manager: AnnBe
-ms.date: 07/16/2018
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 9146921c47e89c5895a1a727de874b0ffbc93c37
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f689bb3ec844459d1dd6e199804a30f3e0cb38bc
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812506"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112337"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Stofna og vinna með sérstillt svæði
 
 [!include [banner](../includes/banner.md)]
 
-Þótt það sé víðtækt úrval reita út fyrir kassann til að stjórna fjölmörgum viðskiptaferlum, er stundum þörf fyrir fyrirtæki til að fylgjast með viðbótarupplýsingum í kerfinu. Til að mæta þessari þörf geturðu stofnað sérsniðna reiti til að laga forritið að þínum viðskiptum, að því tilskildu að þú hafir heimild fyrir eiginleikanum.
+Þótt það sé víðtækt úrval reita út fyrir kassann til að stjórna fjölmörgum viðskiptaferlum, er stundum þörf fyrir fyrirtæki til að fylgjast með viðbótarupplýsingum í kerfinu. Þó að hægt sé að nota forritara til að bæta við þessum reitum sem viðbætum í verkfærum framkvæmdaraðila, þá gerir eiginleiki sérsniðinna reita kleift að bæta við reitum beint úr notendaviðmóti og leyfa þér þannig að sérsníða forritið að viðskiptum þínum með vafranum þínum.
 
-Möguleikinn til að bæta við sérstilltum svæðum er í boði í verkvangsuppfærslu 13 og síðar.
+Möguleikinn til að bæta við sérstilltum svæðum er í boði í verkvangsuppfærslu 13 og síðar. Aðeins notendur með sérstakar heimildir hafa aðgang að þessum eiginleika.
 
 Þetta myndband sýnir hversu auðvelt það er að bæta við sérsniðnum reit á síðu: [Bæta við sérsniðnum reitum í](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
@@ -159,3 +159,7 @@ Til að vernda kerfið, getur aðeins kerfisstjóri stofnað sérstillt svæði.
 - Taflan getur ekki víkkað út aðra töflu.
 - Ekki er hægt að merkja töfluna sem kerfistöflu.
 - Taflan getur ekki verið tímabundin tafla.
+
+### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Get ég vísað til sérsniðinna reita úr forritunartólunum?  
+
+Aðeins er hægt að stjórna sérsniðnum reitum í gegnum notendaviðmótið og ekki er hægt að vísa í þá með kóða. 

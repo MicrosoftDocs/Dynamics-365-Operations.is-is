@@ -3,7 +3,7 @@ title: Bæta við stuðningi fyrir efnisbirtingarnet (CDN)
 description: Þetta efnisatriði lýsir því hvernig á að bæta efnisbirtingarnet (CDN) við Microsoft Dynamics 365 Commerce umhverfi þitt.
 author: brianshook
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: bf5a0da2803f985e6c0c04dd9916977397173d11
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 23ac9d8844c2a8ae20bd316c40078319601a3a4d
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001623"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096726"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Bæta við stuðningi fyrir efnisbirtingarnet (CDN)
 
@@ -144,12 +144,20 @@ CDN ætti nú að vera rétt stillt þannig að það sé hægt að nota það m
 
 [Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
 
+[Setja upp netverslunarrás](online-stores.md)
+
 [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
 
 [Tengja netsvæði við rás](associate-site-online-store.md)
 
-[Stjórna robots.txt-skrám](manage-robots-txt-files.md)
+[Vinna með skrárnar robots.txt](manage-robots-txt-files.md)
+
+[Hlaða upp mörgum slóðartilvísunum í einu](upload-bulk-redirects.md)
+
+[Setja upp B2C-leigjanda í Commerce](set-up-B2C-tenant.md)
 
 [Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)
+
+[Stilla marga B2C leigjendur í viðskiptaumhverfi](configure-multi-B2C-tenants.md)
 
 [Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)

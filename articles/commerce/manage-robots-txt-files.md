@@ -3,7 +3,7 @@ title: Vinna með skrárnar robots.txt
 description: Þetta efni lýsir hvernig á að stjórna robots.txt skrám í Microsoft Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 01/08/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brishoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d0ce49f2968030ca4656a01c7646819c01635e12
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d248dae36e6e038749ee17a5a6ccb32f1dde0aed
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003488"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096844"
 ---
 # <a name="manage-robotstxt-files"></a>Vinna með skrárnar robots.txt
 
@@ -92,11 +92,19 @@ Til að eyða robots.txt-skrá á síðunni þinni í Commerce skaltu fylgja þe
 
 [Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
 
+[Setja upp netverslunarrás](online-stores.md)
+
 [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
 
 [Tengja netsvæði við rás](associate-site-online-store.md)
 
+[Hlaða upp mörgum slóðartilvísunum í einu](upload-bulk-redirects.md)
+
+[Setja upp B2C-leigjanda í Commerce](set-up-B2C-tenant.md)
+
 [Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)
+
+[Stilla marga B2C leigjendur í viðskiptaumhverfi](configure-multi-B2C-tenants.md)
 
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
 

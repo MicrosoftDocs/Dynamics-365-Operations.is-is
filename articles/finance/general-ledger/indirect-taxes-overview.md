@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16a67ef625fdde0755e96c959be1fb2989ca53b6
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e827ede0508d07b6800ecdc4cc99cb2b6a0bcc78
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770667"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124498"
 ---
 # <a name="sales-tax-overview"></a>Yfirlit virðisaukaskatts
 
@@ -46,7 +46,7 @@ Hver vsk-kóði verður að vera°tengdur við vsk-tímabil. VSK-uppgjörstímab
 
 Hvern vsk-kóða þarf einnig að°tengja við fjárhagsbókunarflokk. Fjárhagsbókunarflokkur tilgreinir aðallykla sem upphæðir vsk-kóða varða bókaðar fyrir. 
 
-Einnig er hægt að skilgreina valfrjálsa skýrslugerðarkóða virðisaukaskatts. Hægt er að úthluta þeim á vsk-kóðum fyrir mismunandi gerðir°upphæða sem reiknaðar eru út fyrir vsk-kóða. Í **Vsk-greiðsla eftir kóða** skýrslu sjást samtölur fyrir vsk-skýrslukóða fyrir ákveðið vsk-tímabil og millibil. 
+Einnig er hægt að skilgreina valfrjálsa skýrslugerðarkóða virðisaukaskatts. Hægt er að úthluta þeim á vsk-kóðum fyrir mismunandi gerðir°upphæða sem reiknaðar eru út fyrir vsk-kóða. Í skýrslunni **Vsk-greiðsla eftir kóða** sjást samtölur fyrir vsk-skýrslukóða fyrir ákveðið vsk-tímabil og millibil. 
 
 VSK-flokkur og VSK-flokkur vöru verða að tengjast hverri færslu sem snertir virðisaukaskatt. Vsk-flokkar eru tengdir aðila (til dæmis,°viðskiptavinur eða lánardrottinn) færslunnar, á meðan vsk-flokkar vöru tengjast tilfangi (til dæmis,°vöru eða innkaupa tegund)°færslunnar. Vsk-flokkar inniheldur lista yfir vsk-kóða. Skattkóðar sem eru til staðar fyrir bæði vsk-flokk og vsk-flokk fyrir færslu vöru eru skattkóðar sem eiga við þá færslu. 
 

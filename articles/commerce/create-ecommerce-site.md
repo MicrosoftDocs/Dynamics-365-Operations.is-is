@@ -3,7 +3,7 @@ title: Stofna svæði fyrir rafræn viðskipti
 description: Þetta efni lýsir skrefum og upplýsingum sem þarf til að stofna nýja netverslunarsíðu á Dynamics 365 Commerce vefsvæðishönnuðinum.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 01/23/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3d3d8a290f06d9734be21f2d59152acac6857506
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 7177bae911dfa91a645b40581bf23b3ed76562a3
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002014"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096775"
 ---
 # <a name="create-an-e-commerce-site"></a>Stofna svæði fyrir rafræn viðskipti
 
@@ -65,11 +65,19 @@ Eftir að vefsvæðið þitt er búið til geturðu staðfest að það er tengt
 
 [Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
 
+[Setja upp netverslunarrás](online-stores.md)
+
 [Tengja netsvæði við rás](associate-site-online-store.md)
 
 [Vinna með skrárnar robots.txt](manage-robots-txt-files.md)
 
+[Hlaða upp mörgum slóðartilvísunum í einu](upload-bulk-redirects.md)
+
+[Setja upp B2C-leigjanda í Commerce](set-up-B2C-tenant.md)
+
 [Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)
+
+[Stilla marga B2C leigjendur í viðskiptaumhverfi](configure-multi-B2C-tenants.md)
 
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
 

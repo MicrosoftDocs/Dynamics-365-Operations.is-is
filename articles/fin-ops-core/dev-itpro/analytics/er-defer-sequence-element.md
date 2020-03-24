@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
 ms.openlocfilehash: 6efa4466dbf7f5ca1d3945acf15fac65d628d691
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015259"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124544"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Frestaðu framkvæmd raðarþátta á ER sniði
 
@@ -45,7 +45,7 @@ Valkosturinn **Frestuð framkvæmd** er aðeins studdur fyrir raðarþætti sem 
 
 Valkosturinn **Frestuð framkvæmd** á ekki við um raðir sem hafa verið stilltar sem snyrtar raðir þar sem hámarkslengd er takmörkuð.
 
-## <a name="Example"></a>Dæmi: Frestaðu framkvæmd raðarþáttar á ER-sniði
+## <a name="example-defer-the-execution-of-a-sequence-element-in-an-er-format"></a><a name="Example"></a>Dæmi: Frestaðu framkvæmd raðarþáttar á ER-sniði
 
 Eftirfarandi skref útskýra hvernig notandi í kerfisstjóra eða rafrænni skýrslugerð virkur ráðgjafi [hlutverk](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) getur stillt ER snið sem inniheldur röð frumefnis þar sem framkvæmd röð er frábrugðin röðinni í snið stigveldisins.
 

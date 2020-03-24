@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6c19542089526c1e17fb1133d52cf042f244fb80
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 29d4b686cbb66715196fca06e4642fbb8a337ace
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002336"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113852"
 ---
 # <a name="set-up-organization-hierarchies"></a>Setja upp stigveldi fyrirtækis
 
@@ -41,9 +41,9 @@ Hægt er að nota stigveldi fyrirtækis til að skoða og gefa skýrslu um rekst
 
 
 Frekari upplýsingar er hægt að finna í eftirfarandi efni.
-- [Yfirlit yfir fyrirtæki og fyrirtækjastigveldi](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies)
-- [Skipuleggja stigveldi fyrirtækis](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy?toc=/dynamics365/commerce/toc.json)
-- [Stofna fyrirtækjastigveldi](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy?toc=/dynamics365/commerce/toc.json)
+- [Yfirlit yfir fyrirtæki og fyrirtækjastigveldi](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+- [Skipuleggja stigveldi fyrirtækis](../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/commerce/toc.json)
+- [Stofna fyrirtækjastigveldi](../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/commerce/toc.json)
 
 ## <a name="create-an-organizational-hierarchy"></a>Búa til stigveldi fyrirtækis
 
