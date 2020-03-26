@@ -3,7 +3,7 @@ title: Úrvinnsla á framleiðsluþyngd afurðar með vöruhúsakerfi
 description: Þetta efnisatriði lýsir hvernig eigi að nota vinnusniðmát og staðsetningarleiðbeiningar til að ákvarða hvernig og hvar vinna verður framkvæmd í vöruhúsinu.
 author: perlynne
 manager: AnnBe
-ms.date: 01/10/2020
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8bc3e3e7bea15127062edfcd362476de97bff07d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3014a7b22c47f99b5c57fd6acd9be8d89c6fb8ab
+ms.sourcegitcommit: 75974ae567bb0eacf0f65cac992b34ce5c680b93
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004112"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095798"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Úrvinnsla á framleiðsluþyngd afurðar með vöruhúsakerfi
 
@@ -30,10 +30,10 @@ ms.locfileid: "3004112"
 
 ## <a name="feature-exposure"></a>Útsetning eiginleika
 
-Til að nota vöruhúsakerfi til að vinna úr framleiðsluþyngdum afurða þarftu að nota skilgreiningarlykil leyfis til að kveikja á virkninni. (Opnið **Kerfisstjórnun \> Setja upp \> Skilgreining leyfis**. Síðan í flipanum **Skilgreiningarlyklar** skal stækka **Viðskipti \> Vöruhúsakerfi og flutningsstjórnun** og velja gátreitinn fyrir **Framleiðsluþyngd fyrir vöruhús**).
+Til að nota vöruhúsakerfi til að vinna úr framleiðsluþyngdum afurða þarftu að nota skilgreiningarlykil leyfis til að kveikja á virkninni. Opnið **Kerfisstjórnun \> Setja upp \> Skilgreining leyfis**. Síðan í flipanum **Skilgreiningarlyklar** skal stækka **Viðskipti \> Vöruhúsakerfi og flutningsstjórnun** og velja gátreitinn fyrir **Framleiðsluþyngd fyrir vöruhús**.
 
 > [!NOTE]
-> Einnig verður að vera kveikt á skilgreiningarlyklunum **Vöruhúsakerfi og flutningsstjórnun** og **Vinnsludreifing \> framleiðsluþyngd**. Til að stilla stillingarlykla fyrir framleiðsluþyngd, verður þú einnig að kveikja á aðgerðinni með því að nota vinnusvæðið **Eiginleikastjórnun**. Aðalaðgerðin sem verður að vera kveikt á er **Úrvinnsla á framleiðsluþyngd afurðar með vöruhúsakerfi**. Annar tengdur en valfrjáls eiginleiki sem þú gætir viljað kveikja á er **Birgðastöðubreytingar fyrir framleiðsluþyngdarafurðir**. Þessi aðgerð bætir við stuðningi við breytingar á birgðastöðu fyrir vörur sem eru virkar fyrir framleiðsluþyngd.
+> Einnig verður að vera kveikt á skilgreiningarlyklunum **Vöruhúsakerfi og flutningsstjórnun** og **Vinnsludreifing \> framleiðsluþyngd**. Til að stilla stillingarlykla fyrir framleiðsluþyngd, verður þú einnig að kveikja á aðgerðinni með því að nota vinnusvæðið **Eiginleikastjórnun**. Aðalaðgerðin sem verður að vera kveikt á er **Úrvinnsla á framleiðsluþyngd afurðar með vöruhúsakerfi**. Tveir tengdir en valfrjálsir eiginleikar sem þú gætir viljað kveikja á eru **Birgðastöðubreytingar fyrir framleiðsluþyngdarafurðir** og **Nota fyrirliggjandi merki framleiðsluþyngdar þegar framleiðslupantanir eru tilkynntar sem lokið**.
 
 Eftir að kveikt er á skilgreiningarlyklinum, þegar þú býrð til útgefna afurð, getur þú valið **Framleiðsluþyngd**. Þú getur einnig tengt útgefna afurð við geymsluvíddarflokk sem færibreytan **Nota ferli vöruhúsakerfis** er valin fyrir.
 
@@ -107,6 +107,7 @@ Að auki, þegar atriði er rakið með merkum er til breytan **Aðferð við a�
 **Þegar rakning á merki framleiðsluþyngdar er notað**, verður alltaf að stofna merki fyrir hverja framleiðsluþyngdareiningu sem tekið er á móti, og öll merki verða alltaf að tengjast þyngd.
 
 Til dæmis er **Kassi** framleiðsluþyngdareiningin og þú tekur á móti vörubretti með átta kössum. Í þessu tilfelli verður að búa til átta einkvæm merki fyrir framleiðsluþyngd og tengja verður þyngd við hvert merki. Það fer eftir framleiðsluþyngd afurðar á innleið, annaðhvort er hægt að sækja þyngd fyrir alla átta kassana og svo er meðalþyngd úthlutað á hvern kassa, eða hægt er að sækja þyngd fyrir hvern kassa fyrir sig.
+Þegar þú notar eiginleikann **Nota fyrirliggjandi merki framleiðsluþyngdar þegar framleiðslupantanir eru tilkynntar sem lokið** þar sem ferlið er virkjað í valmyndaratriði í fartæki, verða birgðir uppfærðar miðað við fyrirliggjandi upplýsingar um merki framleiðsluþyngdar. Fyrir vikið biður Vörugeymsluforritið ekki um að safna gögnum um merki framleiðsluþyngdar sem hluta af framleiðsluskýrslu sem fullgerðri aðgerð.
 
 **Þegar rakning á merki fyrir framleiðsluþyngd er ekki notuð** er hægt að sækja þyngdina fyrir hverja víddasamstæðu (til dæmis fyrir hverja númeraplötu og rakningarvídd). Að öðrum kosti er hægt að sækja þyngdina sem byggist á samanlögðu stigi, svo sem fimm númeraplötur (vörubretti).
 

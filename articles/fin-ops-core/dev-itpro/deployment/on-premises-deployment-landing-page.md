@@ -3,7 +3,7 @@ title: Uppsetning á staðnum – heimasíða
 description: Þetta efnisatriði veitir upplýsingar og tengla í efni um uppsetningu á staðnum
 author: sericks007
 manager: AnnBe
-ms.date: 02/27/2020
+ms.date: 03/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 50fb53902e9f9796cac958f7cea2605ba00ba1bd
-ms.sourcegitcommit: ae8625f44453a71a94df6fb98d054c1c56b76700
+ms.openlocfilehash: b251125323bb74eb8be4172cb1b143c4866a8eac
+ms.sourcegitcommit: ec4df51e17be0b2df393635605ea17250c991ee9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "3090590"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3099731"
 ---
 # <a name="on-premises-deployment-home-page"></a>Uppsetning á staðnum – heimasíða
 
@@ -55,6 +55,7 @@ ms.locfileid: "3090590"
 - [Tengigeta biðlara við internet](../user-interface/client-disconnected.md)
 - [Virkja uppfærslur í uppsetningum á staðnum](apply-updates-on-premises.md)
 - [Enduruppsetja umhverfi á staðnum](redeploy-on-prem.md)
+- [Notaðu sama AD FS dæmi fyrir mörg umhverfi](onprem-reuseadfs.md)
 
 ## <a name="commerce"></a>Commerce
 - [Commerce-eiginleikar sem eru tiltækir fyrir uppsetningu á staðnum](../../../retail/retail-onprem.md)

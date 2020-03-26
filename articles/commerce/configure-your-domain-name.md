@@ -3,7 +3,7 @@ title: Skilgreina lénsheiti
 description: Þetta efni útskýrir hvernig á að stilla lén fyrir Microsoft Dynamics 365 netverslunarsíðu.
 author: psimolin
 manager: AnnBe
-ms.date: 10/01/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4db774783dba4b1cea9552da3cff29a9528bd496
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2ad9ca3aee21301ef6d830d7b29982a45cd53f60
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002175"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096821"
 ---
 # <a name="configure-your-domain-name"></a>Skilgreina lénsheiti
 
@@ -45,13 +45,21 @@ Til að tengja ný lén við netverslunarumhverfi þitt eftir frumstillingu á n
 
 [Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
 
+[Setja upp netverslunarrás](online-stores.md)
+
 [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
 
 [Tengja netsvæði við rás](associate-site-online-store.md)
 
-[Stjórna robots.txt-skrám](manage-robots-txt-files.md)
+[Vinna með skrárnar robots.txt](manage-robots-txt-files.md)
+
+[Hlaða upp mörgum slóðartilvísunum í einu](upload-bulk-redirects.md)
+
+[Setja upp B2C-leigjanda í Commerce](set-up-B2C-tenant.md)
 
 [Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)
+
+[Stilla marga B2C leigjendur í viðskiptaumhverfi](configure-multi-B2C-tenants.md)
 
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
 

@@ -3,7 +3,7 @@ title: Úthlutun Talent
 description: Þetta efnisatriði fer með þig í gegnum úthlutunarferli nýs umhverfis fyrir Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/15/2019
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: d06c0d14fb99e5544a5da05078f5b3a559f9e806
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: d7c4a8174007384370ae320b3874e104c04b71a5
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025510"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124705"
 ---
 # <a name="provision-talent"></a>Úthluta Talent
 
@@ -34,17 +34,23 @@ Til að byrja, þá ætti stjórnandi á heimsvísu að skrá sig inn í [Micros
 Til að nota LCS til að stjórna Talent umhverfi þínu, þarftu fyrst að búa til LCS-verk.
 
 1. Skráðu þig inn á [LCS](https://lcs.dynamics.com/Logon/Index) með því að nota reikninginn sem þú notaðir til að gerast áskrifandi að Talent.
+
 2. Velja skal plúsmerki (**+**) til að stofna verk.
+
 3. Velja **Microsoft Dynamics 365 Talent** sem nafn á verki og útgáfa verks.
+
 4. Veldu **Dynamics 365 Talent** aðferðafræðina.
-5. Velja **Stofna**.
+
+5. Velja **Stofna**. 
 
 Nánari upplýsingar um hvernig á að hefjast handa í Talent er að sjá í **Talent** aðferðafræðinni sem þú bjóst til í nýju verkinu. Eftir að þú hefur lokið við að búa til verkið skaltu ljúka eftirfarandi ferli til að úthluta Talent umhverfi þínu.
 
 ## <a name="provision-a-talent-project"></a>Úthluta Talent verki
+
 Eftir að þú hefur búið til LCS verk, getur þú úthlutað Talent inn í umhverfi.
 
 1. Í LCS verkinu skaltu velja **Talent Stjórnun Forrits** reitinn.
+
 2. Tilgreinið hvort þetta sé sandkassa- eða framleiðslutilvik fyrir Talent. Snemmbúnir forskoðunareiginleikar kunna að vera í boði í Sandkassatilvikum til að leyfa ábendingar og prófanir sem fyrst. 
 
     > [!NOTE]
@@ -52,13 +58,13 @@ Eftir að þú hefur búið til LCS verk, getur þú úthlutað Talent inn í um
 
     > [!NOTE]
     > Gerð Talent-tilviks er aðskilin frá tilviksgerð í Microsoft Power Apps-umhverfi, sem þú stillir í Power Apps Admin Center.
+
 3. Veldu valkostinn **Hafa sýnigögn með** ef þú vilt að umhverfið þitt innihaldi sama sýnigagnasafnið sem notað er í prufukeyrsluupplifun Talent. Þetta er gagnlegt fyrir langvarandi prufuútgáfu eða þjálfunarumhverfi og ætti aldrei að nota í vinnsluumhverfi.  Athugaðu að þú verður að velja þennan möguleika við upphaflega uppsetningu. Þú getur ekki uppfært fyrirliggjandi uppsetningu seinna.
+
 4. Talent er alltaf úthlutað inn í Microsoft Power Apps umhverfi, til að virkja Power Apps samþættingu og stækkunarhæfni. Lestu kaflann „Val á Power Apps umhverfi“ í þessu efnisatriði áður en þú heldur áfram. Ef þú ert ekki með Power Apps umhverfi skaltu velja Stjórna umhverfum í LCS eða fara í Stjórnandamiðstöð Power Apps. Fylgdu síðan skrefunum til að [Stofna Power Apps umhverfi](https://docs.microsoft.com/powerapps/administrator/create-environment).
 
-    > [!NOTE]
-    > Til að skoða núverandi umhverfi eða búa til ný umhverfi, verður leigjanda sem stjórnar, sem úthlutar Talent, að vera úthlutað á Power Apps P2 leyfið. Ef fyrirtækið þitt hefur ekki Power Apps P2 leyfi geturðu fengið slíkt frá þínu CSP eða [Power Apps verðlagsíðunni](https://powerapps.microsoft.com/pricing/).
-
 5. Veljið umhverfið til að úthluta Talent í.
+
 6. Velja **Já** til að samþykkja skilmálana og hefja virkjun.
 
     Nýja umhverfið þitt birtist á lista yfir umhverfi á yfirlitssvæðinu vinstra megin. Hins vegar getur þú ekki byrjað að nota umhverfið fyrr en virkjunarstaða er uppfærð í **Virkjað**. Þetta ferli tekur venjulega nokkrar mínútur. Ef úthlutunarferlið mistekst þarftu að hafa samband við notendaþjónustu.
@@ -77,9 +83,13 @@ Samþætting milli Talent og Power Apps-umhverfa leyfir þér að samþætta og 
 Notaðu eftirfarandi leiðbeiningar þegar þú ákveður hvaða Power Apps-umhverfi til að virkja Talent inn í: 
 
 1. Í LCS skaltu velja **Stjórna umhverfum**, eða fara beint í stjórnendamiðstöð Power Apps, þar sem þú getur skoðað núverandi umhverfi og stofnað ný umhverfi.
+
 2. Einu Talent umhverfi er varpað á eitt Power Apps-umhverfi.
+
 3. Power Apps-umhverfi inniheldur Talent ásamt samsvarandi forritum Power Apps, Power Automate og Common Data Service. Ef Power Apps-umhverfinu er eytt, þá á það einnig við um forritin innan þess. Þegar Talent umhverfi er úthlutað er hægt að veita annaðhvort umhverfið **Prufuútgáfa** eða **Framleiðsla**. Veldu tegund umhverfis byggt á því hvernig umhverfið verður notað. 
+
 4. Gagnasamþætting og prófunaraðferðir ætti að hafa í huga, eins og Sandbox, UAT eða Framleiðsla. Mælt er með því að þú hafir í huga ýmsar afleiðingar á uppsetningunni, því það er ekki auðvelt að breyta því síðar hvaða Talent umhverfi er varpað á Power Apps-umhverfi.
+
 5. Ekki er hægt að nota eftirfarandi Power Apps-umhverfi fyrir Talent og verður síað úr vallistanum innan LCS:
  
     - **Sjálfgefin Power Apps-umhverfi** - Þó að hverjum leigjanda sé sjálfkrafa úthlutað sjálfgefnu Power Apps-umhverfi, mælum við ekki með því að nota það með Talent vegna þess að allir leigunotendur hafa aðgang að Power Apps-umhverfi og geta óvart spillt framleiðslugögnum þegar þeir prófa og kanna samþættingar Power Apps eða Power Automate.
@@ -91,4 +101,5 @@ Notaðu eftirfarandi leiðbeiningar þegar þú ákveður hvaða Power Apps-umhv
 6. Eftir að þú hefur ákveðið rétt umhverfi sem til að nota, getur þú haldið áfram með úthlutunarferlið. 
  
 ## <a name="grant-access-to-the-environment"></a>Veita aðgang að umhverfinu
+
 Að sjálfgefnu hefur altæki stjórnandinn sem bjó til umhverfið aðgang að því. Hins vegar þarf sérstaklega að veita öðrum notendum forritsins aðgang. Til að veita aðgang er nauðsynlegt að bæta við notendum og úthluta þeim viðeigandi hlutverkum í Human Resources-umhverfinu. Altæki stjórnandinn, sem virkjaði Talent, verður einnig að ræsa bæði Attract og Onboard til að ljúka frumstillingunni og virkja aðgang fyrir aðra leigunotendur.  Þar til þetta gerist munu aðrir notendur ekki geta opnað Attract og Onboard og fá upp villur vegna brots á aðgangi. Frekari upplýsingar má finna í [Stofna nýja notendur](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) og [Úthluta notendum á öryggishlutverk](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 

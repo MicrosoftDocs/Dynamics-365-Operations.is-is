@@ -3,7 +3,7 @@ title: Setja upp netverslunarrás
 description: Þessi grein gefur upplýsingar um netverslanarásir og hvernig setja skal þær upp í Dynamics 365 Commerce.
 author: kfend
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 03/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c427b0eba2120123a47f52029d70896be88b9ec0
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b719e40720b091eec879edf332ab63db710a1ebc
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022971"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096895"
 ---
 # <a name="set-up-an-online-store-channel"></a>Setja upp netverslunarrás
 
@@ -71,3 +71,27 @@ Fyrirtækjastigveldi eru notuð til að skipuleggja viðskiptarásir og til að 
 Þegar stofnað er stigveldi fyrirtækis, er málefni úthlutað til þess. Málefni gefur til kynna hvernig stigveldi er notað í uppbyggingu business. Hægt er að stofna eitt stigveldi fyrirtækis fyrir verslunaraðgerðir þínar og nota það stigveldi úrval, áfyllingar og skýrslugerð. 
 
 Einnig er hægt að stofna sérstakt stigveldi fyrirtækis fyrir hvern tilgang. Einnig er hægt að stofna mörg stigveldi sem hafa sama tilgangi og úthluta aðskilinni rás til hvers og eins. Ef ætlunin er að birta vörulista á netverslun, ætti að lágmarki að bæta netverslanir við stigveldi fyrirtækis fyrir úrval. Afurðir í vörulista eru valdar úr úrvali afurða sem eru úthlutað til netverslana. Þegar vörulistinn er birtur ber birtingu ferli gildisdagsetninga fyrir úrval sem tengdur er við netverslun með afurðir sem eru í vörulista til að ákvarða hvaða vörur skulu vera tiltækar í netversluninni.
+
+## <a name="additional-resources"></a>Frekari upplýsingar
+
+[Skilgreina lénsheiti](configure-your-domain-name.md)
+
+[Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
+
+[Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
+
+[Tengja netsvæði við rás](associate-site-online-store.md)
+
+[Vinna með skrárnar robots.txt](manage-robots-txt-files.md)
+
+[Hlaða upp mörgum slóðartilvísunum í einu](upload-bulk-redirects.md)
+
+[Setja upp B2C-leigjanda í Commerce](set-up-B2C-tenant.md)
+
+[Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)
+
+[Stilla marga B2C leigjendur í viðskiptaumhverfi](configure-multi-B2C-tenants.md)
+
+[Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
+
+[Virkja greiningu á verslun eftir staðsetningu](enable-store-detection.md)

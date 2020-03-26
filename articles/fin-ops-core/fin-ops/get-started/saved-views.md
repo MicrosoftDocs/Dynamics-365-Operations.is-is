@@ -3,7 +3,7 @@ title: Vistuð yfirlit
 description: Þetta efnisatriði lýsir því hvernig á að nota eiginleika fyrir vistuð yfirlit.
 author: jasongre
 manager: AnnBe
-ms.date: 10/16/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 62d7dc1bd877cd1267f87ed24f8fb8be8f6c74a3
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: c6a5880c6ae9470dbf7986f39798ec888d0c22ea
+ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3017705"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "3100309"
 ---
 # <a name="saved-views"></a>Vistuð yfirlit
 
@@ -71,7 +71,7 @@ Ef þú vilt vista þessar breytingar skaltu fylgja þessum skrefum.
 2.  Til að breyta núverandi yfirliti:
      1. Veljið **Vista**. Takið eftir að þessi aðgerð verður ekki virkjuð fyrir læst yfirlit. 
 3.  Til að búa til nýtt yfirlit:
-     1.    Veljið **Vista sem...**. 
+     1.    Veljið **Vista sem**. 
      2.    Færið inn heiti yfirlits (valkvætt) og lýsingu.
      3.    Veljið **Vista**.
 
@@ -83,9 +83,9 @@ Til að breyta sjálfgefnu yfirliti fyrir síðu skal fylgja þessum skrefum:
 2.  Veldu heiti yfirlitsins til að opna yfirlitsvalið. 
 3.  Veljið **Fleiri** og síðan **Festa sem sjálfgefið**.  
 
-Að öðrum kosti, þegar nýtt yfirlit er stonað (með aðgerðinni **Vista sem...**), er hægt að gera þetta nýja yfirlit að sjálfgefna yfirlitinu með því að stilla valkostinn **Festa sem sjálfgefið** áður en yfirlitið er vistað.
+Að öðrum kosti, þegar nýtt yfirlit er stonað (með aðgerðinni **Vista sem**), er hægt að gera þetta nýja yfirlit að sjálfgefna yfirlitinu með því að stilla valkostinn **Festa sem sjálfgefið** áður en yfirlitið er vistað.
 
-Athugið að í sumum tilfellum keyrir fyrirspurnin ekki sem tengist sjálfgefnu yfirliti þegar fyrst er farið inn á síðu. Til dæmis ef farið er frá reit og yfir á síðu verður fyrirspurn reitsins keyrt óháð fyrirspurninni sem tengist sjálfgefnu yfirliti. Einnig, ef farið er á síðu þar sem klassískt yfirlit er þegar með skilgreinda fyrirspurn, mun upprunaleg fyrirspurn keyrast í stað fyrirspurnar sjálfgefins yfirlits. Þegar þetta gerist verður látið vita með upplýsandi skilaboðum þegar yfirlitið er að hlaðast inn. Að skipta milli yfirlita eftir að síðunni hefur verið hlaðið inn ætti að leyfa fyrirspurn yfirlits að keyra eins og búast má við.
+Athugið að í sumum tilfellum keyrir fyrirspurnin ekki sem tengist sjálfgefnu yfirliti þegar fyrst er farið inn á síðu. Til dæmis ef farið er frá reit og yfir á síðu verður fyrirspurn reitsins keyrt óháð fyrirspurninni sem tengist sjálfgefnu yfirliti. Einnig, ef farið er á síðu með staðlað yfirlit sem er þegar með skilgreinda fyrirspurn, mun upprunaleg fyrirspurn keyrast í stað fyrirspurnar sjálfgefins yfirlits. Þegar þetta gerist verður látið vita með upplýsandi skilaboðum þegar yfirlitið er að hlaðast inn. Að skipta milli yfirlita eftir að síðunni hefur verið hlaðið inn ætti að leyfa fyrirspurn yfirlits að keyra eins og búast má við. Byrjað er á útgáfu 10.0.10 pallborðsuppfærslu 34, upplýsingaskilaboðin eru með innfelld aðgerð sem gerir þér kleift að hlaða fyrirspurn sjálfgefins skjás beint.
 
 ## <a name="managing-personal-views"></a>Umsjón með persónulegum yfirlitum 
 Svarglugginn **Stjórna yfirlitum mínum** veitir þér grunnmöguleika á umsjón með persónulegum yfirlitum þínum og röð á yfirlitum í yfirlitsvalinu. Til að opna þessa síðu skal smella á heiti yfirlits til að opna fellivalmynd yfirlitsvals og velja **Fleiri** og síðan velja **Stjórna yfirlitunum mínum**.  
@@ -134,7 +134,7 @@ Ef breytingarnar sem þú vilt gera á útgefnu yfirliti eiga einungis við um f
 4.  Uppfærið heitið, lýsingu og/eða öryggishlutverk fyrir yfirlitið. 
 5.  Velja **Birta**. 
 6.  [10.0.8/verkvangsuppfærsla 32 eða yngri] Ef heitið á birta yfirlitinu var uppfært þarf einnig að eyða birta yfirlitinu með gamla heitinu (sjá hlutann **Stjórnun birtra yfirlita** fyrir frekari upplýsingar). 
-7. [10.0.9 / Uppfærsla pallsins 33 eða nýrri] Ef þú hefðir upphaflega valið þessa birtu skoðun til að vera sjálfgefið yfirlit, þá verður það sjálfgefið yfirlit fyrir þessa notendur aftur eftir útgáfuna að nýju.  
+7. [10.0.9/verkvangsuppfærsla 33 eða nýrri] Ef þú hefðir upphaflega valið þessa birtu skoðun til að vera sjálfgefið yfirlit, þá verður það sjálfgefið yfirlit fyrir þessa notendur aftur eftir útgáfuna að nýju.  
 
 Ef breytingarnar á birtu yfirliti fela í sér breytingu á sérstillingum eða síum sem tengjast yfirlitinu skal fylgja þessum skrefum: 
 1.  Skiptið yfir í útgefið yfirlit sem á að breyta. 

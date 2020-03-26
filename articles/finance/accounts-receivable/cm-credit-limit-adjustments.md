@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5e2fbe74d24c729711c6b96d5ff2b7f0c82922c
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 9b236f489fa2045bdff05f76fadbeacc2f9ed2f4
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015265"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124209"
 ---
 # <a name="credit-limit-adjustments"></a>Leiðréttingar á lánamörkum 
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Leiðréttingar á lánamörkum gera lánastjórnendum kleift að uppfæra lánamörk og gildistíma eins viðskiptavinar, hóps viðskiptavina eða allra viðskiptavina með bókunarferli. Þú getur bætt við færslum leiðréttingar á lánamörkum til að uppfæra viðskiptavini og lánshópa viðskiptavina, eða þú getur notað þær til að reikna út sjálfvirk lánamörk. Síðan er hægt að skoða færslurnar, senda þær til samþykktar í gegnum verkflæði og setja þær á reikninga viðskiptavina.
 

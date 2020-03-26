@@ -16,14 +16,16 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5e2989906c5aa3ead9e46b8ed5333e880e5cf1c6
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 10795c90cb90961c17a4326b71ed43dc72039f2b
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769948"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117426"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>Flytja inn skrár á XML-sniði með valeigindum
+
+[!include [banner](../includes/banner.md)]
 
 Hægt er að setja upp snið rafrænnar skýrslugerðar (ER) til að þátta skjöl á innleið í XML-sniði. Hægt er að tilgreina ákveðna eiginleika XML-eininga í uppsettu ER-sniði sem valfrjálsa. Það mun gera þér kleift að meðhöndla skrár á innleið og án slíkra XML-eiginleika rétt. Síðan er hægt að nota efnið úr þessum skrám til að uppfæra hugbúnaðargögn.
 
@@ -52,17 +54,17 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þr
 7. Smelltu á **Bæta við**.
 8. Smelltu á **Nýtt** til að opna felligluggann.
 9. Í reitnum **Heiti** skaltu færa inn „Listi“.
-10. Í reitnum **Gerð vöru** velurðu **Skráalisti**.
-11. Smelltu á **Bæta við**.
-12. Smelltu á **Nýtt** til að opna felligluggann.
-13. Í reitnum **Heiti** skal færa inn „kóða“.
-14. Í reitnum **Gerð vöru** velurðu **Strengur**.
-15. Smelltu á **Bæta við**.
-16. Smellt er á **Vista**.
-17. Lokið síðunni.
-18. Smelltu á **Breyta stöðu**.
-19. Smelltu á **Ljúka**.
-20. Smellt er á **OK**.
+10.    Í reitnum **Gerð vöru** velurðu **Skráalisti**.
+11.    Smelltu á **Bæta við**.
+12.    Smelltu á **Nýtt** til að opna felligluggann.
+13.    Í reitnum **Heiti** skal færa inn „kóða“.
+14.    Í reitnum **Gerð vöru** velurðu **Strengur**.
+15.    Smelltu á **Bæta við**.
+16.    Smellt er á **Vista**.
+17.    Lokið síðunni.
+18.    Smelltu á **Breyta stöðu**.
+19.    Smelltu á **Ljúka**.
+20.    Smellt er á **OK**.
 
 ## <a name="create-a-format-for-data-import"></a>Stofnaðu snið fyrir gagnaflutning
 1. Smellið á **Stofna skilgreiningu** til að opna felligluggann.
@@ -81,32 +83,32 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þr
 7. Í trénu skal velja **XML/Element**.
 8. Í reitnum **Heiti** skaltu færa inn „skjal“.
 9. Í reitnum **Margfeldi** skaltu velja **Einn margir**.
-10. Smellt er á **OK**.
-11. Í trénu velurðu **rót\skjal**.
-12. Smellið á **Bæta við** til að opna felligluggann.
-13. Í trénu skal velja **XML\Attribute**.
-14. Í reitinn **Heiti** ritarðu „kenni“.
-15. Smellt er á **OK**.
-16. Smellt er á **Vista**.
+10.    Smellt er á **OK**.
+11.    Í trénu velurðu **rót\skjal**.
+12.    Smellið á **Bæta við** til að opna felligluggann.
+13.    Í trénu skal velja **XML\Attribute**.
+14.    Í reitinn **Heiti** ritarðu „kenni“.
+15.    Smellt er á **OK**.
+16.    Smellt er á **Vista**.
 
 ## <a name="design-a-format-mapping-to-save-parsed-information-to-data-model"></a>Settu upp sniðvörpun til að vista þáttaðar upplýsingar í gagnalíkan
-1.  Smelltu á **Varpa sniði á líkan**.
-2.  Smellt er á **Nýtt**.
-3.  Í reitnum **Skilgreining** skaltu slá inn eða velja gildi.
-4.  Í reitnum **Heiti** skaltu færa inn „Vörpun“.
-5.  Smellt er á **Vista**.
-6.  Smellið á **Hönnuður**.
-7.  Í trénu skal víkka út **snið**.
-8.  Í trénu skal útvíkka **format\root: XML Element(root)**.
-9.  Í trénu skal velja **format\root: XML Element(root)\document: XML Element 1..* (fylgiskjal)**.
-10. Smelltu á **Binda**.
-11. Í trénu skal útvíkka **format\root: XML Element(root)\document: XML Element 1..* (fylgiskjal)**.
-12. Í trénu skal velja **format\root: XML Element(root)\document: XML Element 1..* (fylgiskjal)\kenni**.
-13. Í trénu skaltu stækka **List = format.root.document**.
-14. Í trénu skaltu velja **List = format.root.document\Code**.
-15. Smelltu á **Binda**.
-16. Smellt er á **Vista**.
-17. Lokið síðunni.
+1.    Smelltu á **Varpa sniði á líkan**.
+2.    Smellt er á **Nýtt**.
+3.    Í reitnum **Skilgreining** skaltu slá inn eða velja gildi.
+4.    Í reitnum **Heiti** skaltu færa inn „Vörpun“.
+5.    Smellt er á **Vista**.
+6.    Smellið á **Hönnuður**.
+7.    Í trénu skal víkka út **snið**.
+8.    Í trénu skal útvíkka **format\root: XML Element(root)**.
+9.    Í trénu skal velja **format\root: XML Element(root)\document: XML Element 1..* (fylgiskjal)**.
+10.    Smelltu á **Binda**.
+11.    Í trénu skal útvíkka **format\root: XML Element(root)\document: XML Element 1..* (fylgiskjal)**.
+12.    Í trénu skal velja **format\root: XML Element(root)\document: XML Element 1..* (fylgiskjal)\kenni**.
+13.    Í trénu skaltu stækka **List = format.root.document**.
+14.    Í trénu skaltu velja **List = format.root.document\Code**.
+15.    Smelltu á **Binda**.
+16.    Smellt er á **Vista**.
+17.    Lokið síðunni.
 
 ## <a name="run-format-mapping"></a>Keyra sniðsvörpun
 1. Smelltu á **Keyra**.

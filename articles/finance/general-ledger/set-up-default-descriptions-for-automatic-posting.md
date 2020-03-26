@@ -17,14 +17,16 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: eb89f50a3d227cad80226ce30f71c4f210129245
-ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
+ms.openlocfilehash: f5fc73f636a5cac25c259ce2cbae5c5407dca9b7
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622690"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117362"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Setja upp sjálfgefnar lýsingar fyrir sjálfvirka bókun
+
+[!include [banner](../includes/banner.md)]
 
 Þetta efnisatriði útskýrir hvernig hægt er að setja upp sjálfgefinn texta sem er notaður til að fylla í svæðið fyrir bókhaldsfærslur sem eru bókaðar sjálfkrafa í fjárhag. Fyrir allar færslugerðir er hægt að setja upp sjálfgefna lýsingu með því að nota frjálsan texta eða með því að velja fastar breytur.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 326d9375670cb4f4990a4f7070bf923a28b2c025
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2b8ce102086535a5462d3fa0e8ac76e9ec3dd15c
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178323"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106860"
 ---
 # <a name="process-collection-letters"></a>Vinna úr innheimtubréfum
 
@@ -70,7 +70,11 @@ ms.locfileid: "2178323"
     1. Í reitnum **Prentað** skal velja valkost.
 
 ## <a name="control-collection-letters-at-the-customer-level"></a>Stjórna innheimtubréfum á stigi viðskiptavinar
-Einnig er hægt að að setja upp innheimtubréf á stigi viðskiptavinar þannig að kóði innheimtubréfs fyrir hverja færslu sé rakinn, en úrvinnsla innheimtubréfs mun byggjast á einu stigi innheimtubréfs sem er geymt fyrir viðskiptavininn. Eitt stakt innheimtubréf mun innihalda allar færslur sem eru gjaldfallnar fyrir viðskiptavininn. Vegna þess að biðdagar eru nú raktir á stigi viðskiptavinar verður næsta innheimtubréf ekki sent fyrr en fjöldi biðdaga er liðinn fyrir næsta innheimtubréf í röðinni, jafnvel þótt færslur falla á gjalddaga eftir að síðasta innheimtubréf var sent. Þessi valkostur dregur úr fjölda innheimtubréfa sem þú sendir á hvern viðskiptavin. 
+Ef innheimtubréf eru sett upp á færslustiginu gætu mörg stafir verið útbúin fyrir viðskiptavin, byggð á aldursgreiningu færslu. Ef færslur birtast í mismunandi stafaröðum verða sérstök innheimtubréf búin til fyrir hvern hóp gjaldfallinna færslna fyrir viðskiptavininn. Þess vegna gæti einstök viðskiptavinur fengið til dæmis eitt innheimtubréf fyrir færslur sem eru 60 daga fram yfir gjalddaga og annað innheimtubréf fyrir færslur sem eru 90 daga yfir gjalddaga. 
+
+Hvert innheimtubréf er einnig tengt innheimtubréfakóða. Innheimtubréfakóðinn er tengdur við stakar færslur og er notaður til að ákvarða hvenær næsta innheimtubréf skal myndað fyrir hverja færslu. Til dæmis, ef færsla er komin yfir 30 daga fram yfir gjalddaga ákvarðar innheimtubréfakóðinn að næsta innheimtubréf verði sent þegar færslan verður 60 daga fram yfir, ef hún hefur ekki verið greitt fyrir þann tíma. 
+
+Einnig er hægt að setja upp innheimtubréf á viðskiptavinastigi. Í þessu tilviki er innheimtubréfakóðinn fyrir hverja færslu rakinn en úrvinnsla innheimtubréfs mun byggjast á einu stigi innheimtubréfs sem er geymt fyrir viðskiptavininn. Eitt stakt innheimtubréf mun innihalda allar færslur sem eru gjaldfallnar fyrir viðskiptavininn. Vegna þess að biðdagar eru nú raktir á stigi viðskiptavinar verður næsta innheimtubréf ekki sent fyrr en fjöldi biðdaga er liðinn fyrir næsta innheimtubréf í röðinni, jafnvel þótt færslur falla á gjalddaga eftir að síðasta innheimtubréf var sent. Þessi valkostur dregur úr fjölda innheimtubréfa sem þú verður að senda á hvern viðskiptavin.
 
 ### <a name="set-up-the-customer-to-control-collection-letters-at-the-customer-level"></a>Setja upp viðskiptavininn til að stjórna innheimtubréfum á stigi viðskiptavinar
 1.  Farðu í **Skoðunarrúða > Kerfiseiningar > Skuldir og innheimta > Uppsetning > Færibreytur viðskiptakrafna** og veldu flipann **Innheimtur**. 

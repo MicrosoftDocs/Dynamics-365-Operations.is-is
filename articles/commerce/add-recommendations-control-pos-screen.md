@@ -1,9 +1,9 @@
 ---
-title: Bæta stýringu ráðleggingar á færsluskjá á sölustaðartækjum
+title: Bæta við tillögum á færsluskjáinn
 description: Þetta efnisatriði lýsir hvernig á að bæta við ráðleggingastýringu við færsluskjáinn á sölustaðartæki (POS) sem notar útlitshönnun skjás í Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,14 +19,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6d6f48197a36f633e3cd63cbad4518f53946fc7f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9117f398ee1d9edbd3aee9bed366eea225964184
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022863"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127676"
 ---
-# <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Bæta stýringu ráðleggingar á færsluskjá á sölustaðartækjum
+# <a name="add-recommendations-to-the-transaction-screen"></a>Bæta við tillögum á færsluskjáinn
 
 [!include [banner](includes/banner.md)]
 
@@ -98,6 +98,24 @@ Tvær skilgreiningar eru í boði: Veldu valkostinn sem virkar best fyrir verslu
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Afurðaráðleggingar á sölustað](product.md)
+[Yfirlit yfir afurðarráðleggingar](product-recommendations.md)
 
-[Yfirlit yfir afurðarráðleggingar](../commerce/product-recommendations.md)
+[Virkja ADLS í Dynamics 365 Commerce umhverfi](enable-adls-environment.md)
+
+[Virkja ráðleggingar um afurðir](enable-product-recommendations.md)
+
+[Kveikja á sérsniðnum tillögum](personalized-recommendations.md)
+
+[Afþakka sérsniðnar tillögur](personalization-gdpr.md)
+
+[Bæta við tillögulistum við vefsvæði fyrir rafræn viðskipti](add-reco-list-to-page.md)
+
+[Bæta afurðaráðleggingum við sölustað](product.md)
+
+[Aðlagaðu niðurstöður AI-ML](modify-product-recommendation-results.md)
+
+[Búðu til handvirkt myndaðar ráðleggingar](create-editorial-recommendation-lists.md)
+
+[Búðu til tillögur með kynningargögnum](product-recommendations-demo-data.md)
+
+[Algengar spurningar um afurðaráðleggingar](faq-recommendations.md)

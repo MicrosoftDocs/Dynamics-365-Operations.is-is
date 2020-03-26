@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
-ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
+ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "2957368"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117338"
 ---
 # <a name="business-document-management-overview"></a>Yfirlit yfir stjórnun viðskiptaskjala
+
+[!include [banner](../includes/banner.md)]
 
 Fyrirtækjanotendur nota ramma [Rafrænnar skýrslugerðar (ER)](general-electronic-reporting.md) til að skilgreina snið fyrir skjöl á útleið í samræmi við lagaskilyrði mismunandi landa/svæða. Notendur geta einnig skilgreint gagnaflæðið til að tilgreina hvaða forritsgögn eru sett í skjöl sem eru búin til. ER-ramminn býr til skjöl á útleið í Microsoft Office-sniðum (Excel-vinnubækur eða Word-skjöl) með því að nota fyrirframskilgreind sniðmát. Sniðmátin eru fyllt út með tilskildum gögnum í samræmi við stillanlegt gagnaflæði meðan nauðsynleg skjöl eru búin til. Hægt er að birta hvert skilgreint snið sem hluta af ER lausn til að búa til sérstök skjöl á útleið. Þetta er táknað með ER sniði sem getur innihaldið sniðmát sem þú getur notað til að búa til mismunandi skjöl á útleið. Fyrirtækjanotendur geta notað þennan ramma til að stjórna nauðsynlegum viðskiptaskjölum.
 
@@ -147,7 +149,7 @@ Fyrir upplýsingar um hvernig á að setja upp nauðsynlegar færibreytur fyrir 
 
 ![Setja upp skjalagerð í skjalastjórnun](./media/BDM-Overview-DMSetting.png)
 
-### <a name="SetupBdmParameters">Setja upp færibreytur</a>
+### <a name=""></a><a name="SetupBdmParameters">Setja upp færibreytur</a>
 
 Hægt er að setja upp grunnfæribreytur fyrir viðskipti skjal á síðunni **Færibreytur viðskiptaskjala**. Aðeins tilteknir notendur geta nálgast síðuna. Þar á meðal eru:
 
@@ -158,7 +160,7 @@ Notaðu eftirfarandi ferli til að setja upp grunnfæribreytur fyrir alla löga�
 
 1. Skráðu þig inn sem notandi með aðgang að síðunni **Færibreytur viðskiptaskjala**.
 2. Farðu í **Samtök stjórnsýslu** \> **Rafræn skýrslugerð** \> **Stjórnun viðskiptaskjala** \> **Færibreytur viðskiptaskjala**.
-3.  Á síðunni **Færibreytur viðskiptaskjala**, á flipanum **Viðhengi**, í reitnum **SharePoint skjalagerð** skaltu skilgreina gerð skjalsins sem á að nota til að geyma sniðmát tímabundið á Office-sniðum meðan þeim er breytt með Office-skjáborðsforritunum. 
+3.    Á síðunni **Færibreytur viðskiptaskjala**, á flipanum **Viðhengi**, í reitnum **SharePoint skjalagerð** skaltu skilgreina gerð skjalsins sem á að nota til að geyma sniðmát tímabundið á Office-sniðum meðan þeim er breytt með Office-skjáborðsforritunum. 
 
 > [!NOTE]
 > Aðeins skjalategundir sem eru stilltar með SharePoint-staðsetningu eru tiltækar fyrir þessa færibreytu.
@@ -288,13 +290,13 @@ Síðan **BDM-sniðmátsritill** mun opnast. Valið sniðmát verður tiltækt t
 
 ![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="EditInOffice365">Breyta sniðmáti í Office 365</a>
+### <a name=""></a><a name="EditInOffice365">Breyta sniðmáti í Office 365</a>
 
 Ekki er hægt að breyta sniðmáti með Office 365. Til dæmis, í Office á netinu skal breyta leturgerð reitakvaðninganna í sniðmáthausnum úr **Venjulegt** í **Feitletrað**. Þessar breytingar eru sjálfkrafa geymdar fyrir það breytanlega sniðmát sem er geymt í geymslu aðalsniðmátsins (sjálfgefið að það sé Azure blob-geymsla). Þetta er stillt fyrir ER ramma.
 
 ![Síðan Ritill stjórnunarsniðmáts viðskiptaskjala](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="EditInOfficeDesktopApp">Breyta sniðmáti í Office-skjáborðsforriti</a>
+### <a name=""></a><a name="EditInOfficeDesktopApp">Breyta sniðmáti í Office-skjáborðsforriti</a>
 
 > [!NOTE]
 > Þessi aðgerð er aðeins tiltæk þegar **SharePoint skjalagerð** færibreytan er rétt stillt. Nánari upplýsingar er að finna í [Skilgreina færibreytur](#SetupBdmParameters).

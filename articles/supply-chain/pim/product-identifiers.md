@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: adac308a17ac51ed6da28d04d8c69b01f579aab7
+ms.sourcegitcommit: 7789ef6b0d337bee6aa05110c40e002f02eec71b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004020"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095618"
 ---
 # <a name="product-identifiers"></a>Afurðarkenni 
 
@@ -43,9 +43,6 @@ ms.locfileid: "3004020"
 Þegar Supply Chain Management er innleitt ætti að taka sérstakt tillit til stefnunar er varðar afurðarnúmer. Gott númerakerfi bætir flæði vörustjórnunar og hjálpar til við að koma í veg fyrir villur. Gott afurðarkenni er að hámarki 15 stafir. Helst hefur það færri en 10 stafi og inniheldur ekki meira en fimm stafaflokka. Einnig er hægt að nota leitarheiti til að virkja flýtileitir. Leitarheiti er viðbótarheiti sem táknar flokkanir afurða.
 
 Þegar þú notar Common Data Service, vörunúmerið í Supply Chain Management er einnig vörunúmerið í Common Data Service. Afurðarafbrigði eru samstillt við Common Data Service sem einkvæmar afurðir.
-
-> [!NOTE]
-> Vörunúmerið getur ekki byrjað á „%“.
 
 ## <a name="item-number-and-product-dimensions"></a>Vörunúmer og afurðarvíddir
 

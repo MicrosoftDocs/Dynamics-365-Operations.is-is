@@ -1,9 +1,9 @@
 ---
-title: Stjórna niðurstöðum afurðartillagna sem byggjast á AI-ML
+title: Leiðrétta niðurstöður afurðartillagna sem byggjast á AI-ML
 description: Þetta efni útskýrir hvernig á að sníða niðurstöður afurðatillagna byggt á námi gervigreindarvéla (AI-ML) að fyrirtæki þínu.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5da77f71fb2569adc011bb9ee9c8c795d85545f8
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: 4631ef03e1d73b70d80e774d1efa4909e619bbc0
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3025003"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127929"
 ---
-# <a name="manage-ai-ml-based-product-recommendation-results"></a>Stjórna niðurstöðum afurðartillagna sem byggjast á AI-ML
+# <a name="adjust-ai-ml-based-product-recommendation-results"></a>Leiðrétta niðurstöður afurðartillagna sem byggjast á AI-ML
 
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að sníða niðurstöður afurðatillagna byggt á námi gervigreindarvéla (AI-ML) að fyrirtæki þínu. 
+Þetta efni útskýrir hvernig á að leiðrétta niðurstöður afurðatillagna byggt á námi gervigreindarvéla (AI-ML) að fyrirtæki þínu. 
 
 Eftir að hafa gert afurðatillögur virkar munu sjálfgefnar stillingar taka gildi; þessar færibreytur munu vinna fyrir geta unnið fyrir margar þarfir. Best er að skipuleggja að eyða tíma í að meta hvort árangurinn passi við söluhreyfingu afurða. Við mælum með að meta niðurstöður í nokkra daga áður en færibreytum er breytt eftir þörfum áður en prófað er aftur. 
 
@@ -102,10 +102,22 @@ Fylgdu þessum skrefum til að bæta við eða fjarlægja niðurstöður fyrir g
 
 [Yfirlit yfir afurðarráðleggingar](product-recommendations.md)
 
+[Virkja ADLS í Dynamics 365 Commerce umhverfi](enable-adls-environment.md)
+
 [Virkja ráðleggingar um afurðir](enable-product-recommendations.md)
 
 [Kveikja á sérsniðnum tillögum](personalized-recommendations.md)
 
-[Bæta við listum með afurðartillögum við síður](add-reco-list-to-page.md)
+[Afþakka sérsniðnar tillögur](personalization-gdpr.md)
 
-[Yfirlit yfir vörusafnseiningu](product-collection-module-overview.md)
+[Bæta við tillögulistum við vefsvæði fyrir rafræn viðskipti](add-reco-list-to-page.md)
+
+[Bæta afurðaráðleggingum við sölustað](product.md)
+
+[Bæta við tillögum á færsluskjáinn](add-recommendations-control-pos-screen.md)
+
+[Búðu til handvirkt myndaðar ráðleggingar](create-editorial-recommendation-lists.md)
+
+[Búðu til tillögur með kynningargögnum](product-recommendations-demo-data.md)
+
+[Algengar spurningar um afurðaráðleggingar](faq-recommendations.md)

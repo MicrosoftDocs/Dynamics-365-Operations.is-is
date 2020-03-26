@@ -1,6 +1,6 @@
 ---
 title: Stofna tryggingarvalkosti
-description: ''
+description: Umfjöllunarvalkostir í Microsoft Dynamics 365 Human Resources eru umfjöllunarstig vegna kosninga þátttakenda í bótakerfi eða áætlun, svo sem eingöngu starfsmaður vegna læknisáætlunar, eða 2x laun fyrir líftryggingaráætlun.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 27b43d858a92beac526ac0fc40b544649ef658b0
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 0af2b6ae0853b4c7f64c4d4f04299c87089d622b
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009356"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092707"
 ---
 # <a name="create-coverage-options"></a>Stofna tryggingarvalkosti
 

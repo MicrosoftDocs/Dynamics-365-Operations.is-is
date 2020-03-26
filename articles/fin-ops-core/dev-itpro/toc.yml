@@ -14,6 +14,8 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu uppfærslna á verkvangi
                   href: get-started/whats-new-home-page.md
+                - name: Platform update 34 (maí 2020)
+                  href: get-started/whats-new-platform-update-34.md
                 - name: Platform update 33 (apríl 2020)
                   href: get-started/whats-new-platform-update-33.md
                 - name: Platform update 32 (febrúar 2020)
@@ -146,41 +148,67 @@
                   items:
                     - name: Yfirlit yfir samþættingu gagna með Common Data Service
                       href: data-entities/data-integration-cds.md
-                    - name: 'Samstillt, tvíátta samþætting'
+                    - name: Tvöföld skrif – samþætting
                       items:
                         - name: Tvöföld skrif – heimasíða
                           href: data-entities/dual-write/dual-write-home-page.md
                         - name: Tvöföld skrif – yfirlit
                           href: data-entities/dual-write/dual-write-overview.md
-                        - name: Stigveldi fyrirtækis í Common Data Service
-                          href: data-entities/dual-write/organization-mapping.md
-                        - name: Samþætting fyrirtækis
+                        - name: Tvöföld skrif – uppsetning
                           items:
-                            - name: Fyrirtækishugtak í Common Data Services
-                              href: data-entities/dual-write/company-data.md
-                            - name: Ræsing með fyrirtækisgögnum
-                              href: data-entities/dual-write/bootstrap-company-data.md
-                        - name: Samþættur aðalviðskiptavinur
-                          href: data-entities/dual-write/customer-mapping.md
-                        - name: Samþættur fjárhagur
-                          href: data-entities/dual-write/ledger-mapping.md
-                        - name: Samræmd afurðaupplifun
-                          href: data-entities/dual-write/product-mapping.md
-                        - name: Samþætting lánardrottna
+                            - name: Kerfiskröfur fyrir tvöföld skrif
+                              href: data-entities/dual-write/dual-write-system-req.md
+                            - name: Studdar atburðarásir fyrir uppsetningu tvöfaldra skrifa
+                              href: data-entities/dual-write/connection-setup.md
+                            - name: Uppsetning tvöfaldra skrifa úr Lifecycle Services
+                              href: data-entities/dual-write/lcs-setup.md
+                        - name: Vörpun hugtaka á milli forrita
                           items:
-                            - name: Samþætt lánardrottinssniðmát
-                              href: data-entities/dual-write/vendor-mapping.md
-                            - name: Skipta á milli lánardrottnahönnunar
-                              href: data-entities/dual-write/vendor-switch.md
-                        - name: Samþætt svæði og vöruhús
-                          href: data-entities/dual-write/sites-warehouses-mapping.md
-                        - name: Samþætt aðalgögn skatta
-                          href: data-entities/dual-write/tax-mapping.md
-                        - name: Upphafleg samstilling
-                          href: data-entities/dual-write/initial-sync.md
-                        - name: Úrræðaleit gagnasamþættingar
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: 'Ósamstillt, einátta samþætting'
+                            - name: Stigveldi fyrirtækis í Common Data Service
+                              href: data-entities/dual-write/organization-mapping.md
+                            - name: Samþætting fyrirtækis
+                              items:
+                                - name: Fyrirtækishugtak í Common Data Services
+                                  href: data-entities/dual-write/company-data.md
+                                - name: Ræsing með fyrirtækisgögnum
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: Samþættur aðalviðskiptavinur
+                              href: data-entities/dual-write/customer-mapping.md
+                            - name: Samþætting afurða
+                              items:
+                                - name: Samræmd afurðaupplifun
+                                  href: data-entities/dual-write/product-mapping.md
+                                - name: Samþætt svæði og vöruhús
+                                  href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: Fjármála- og skattagögn
+                              items:
+                                - name: Aðgangur að tilvísunargögnum um fjármál og skatta
+                                  href: data-entities/dual-write/finance-tax-reference.md
+                                - name: Samþættur fjárhagur
+                                  href: data-entities/dual-write/ledger-mapping.md
+                                - name: Samþætt aðalsniðmátskatta
+                                  href: data-entities/dual-write/tax-mapping.md
+                            - name: Samþætting lánardrottna
+                              items:
+                                - name: Samþætt lánardrottinssniðmát
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: Skipta á milli lánardrottnahönnunar
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Viðfang til sjóðstreymis í tvöföldum skrifum
+                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: Eignir til þjónustu innanhúss
+                              href: data-entities/dual-write/in-house-assets.md
+                            - name: 'Samþættur starfskraftur, starf og staða'
+                              href: data-entities/dual-write/integrated-hr.md
+                        - name: Notendaþjónusta fyrir tvöföld skrif
+                          items:
+                            - name: Stuðningur fyrir Field Service-lausnir og Project Service Automation-lausnir
+                              href: data-entities/dual-write/field-service-project-service-automation.md
+                            - name: Upphafleg samstilling
+                              href: data-entities/dual-write/initial-sync.md
+                            - name: Úrræðaleit gagnasamþættingar
+                              href: data-entities/dual-write/dual-write-troubleshooting.md
+                    - name: Samþætting við Power Platform samþáttara gagna
                       items:
                         - name: Skilgreina PTC-aðstæður
                           items:
@@ -332,6 +360,8 @@
                   href: database/import-database.md
                 - name: Endurheimt tímapunkts gagnagrunns
                   href: database/database-point-in-time-restore.md
+                - name: Endurheimt tímapunkts framleiðslugagnagrunns í sandkassaumhverfi
+                  href: database/database-pitr-prod-sandbox.md
             - name: Kennsla
               items:
                 - name: Uppfærið fyrir þjálfun
@@ -430,7 +460,9 @@
                       href: deployment/setup-deploy-on-premises-pu8-pu11.md
                     - name: Uppsetningarskref fyrir hluta Retail-rásar í staðbundnu umhverfi
                       href: deployment/deploy-retail-onprem.md
-                - name: Þróa og virkja sérstillt líkön í umhverfi á staðnum
+                    - name: Nota sama AD FS tilvik aftur fyrir mörg umhverfi
+                      href: deployment/onprem-reuseadfs.md
+                - name: Þróa og virkja sérstillt líkön í innanhússumhverfi
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: PowerBI.com-samþætting við innanhússumhverfi
                   href: analytics/entity-store-on-prem.md
@@ -970,24 +1002,34 @@
               href: lifecycle-services/configure-execute-code-upgrade.md
             - name: Stofna eða uppfæra aðferðafræði
               href: lifecycle-services/create-methodology.md
-            - name: Viðskiptaferlavinnsla
-              href: lifecycle-services/bpm-overview.md
-            - name: Viðskiptaferlasöfn í viðskiptaferlavinnslu
-              href: lifecycle-services/business-process-libraries-business-process-modeler.md
-            - name: 'Stofna, breyta og vafra söfn viðskiptaferlavinnslu'
-              href: lifecycle-services/creating-editing-browsing.md
-            - name: Ljúka verkum í viðskiptaferlavinnslu
-              href: lifecycle-services/complete-tasks-bpm.md
-            - name: Vinna með virkniskýringarmyndir í BPM-söfnum
-              href: lifecycle-services/using-activity-diagrams.md
-            - name: Samstilla BPM-söfn og Azure DevOps
-              href: lifecycle-services/synchronize-bpm-vsts.md
-            - name: Stofna söfn prófana á notandasamþykktum með verkleiðbeiningum og BPM
-              href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-            - name: Flæðirit í viðskiptaferlavinnslu
-              href: lifecycle-services/flowcharts-business-process-modeler.md
-            - name: Hlaða upp sérstilltum viðskiptaferlum í viðskiptaferlavinnslu
-              href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: Viðskiptaferlavinnsla (BPM)
+              items:
+                - name: Yfirlit viðskiptaferlavinnslu (BPM)
+                  href: lifecycle-services/bpm-overview.md
+                - name: Viðskiptaferlasöfn í viðskiptaferlavinnslu
+                  href: lifecycle-services/business-process-libraries-business-process-modeler.md
+                - name: 'Stofna, breyta og fletta í gegnum söfn viðskiptaferlavinnslu'
+                  href: lifecycle-services/creating-editing-browsing.md
+                - name: Ljúka verkum í viðskiptaferlavinnslu
+                  href: lifecycle-services/complete-tasks-bpm.md
+                - name: Vinna með virkniskýringarmyndir í BPM-söfnum
+                  href: lifecycle-services/using-activity-diagrams.md
+                - name: Samstilla BPM-söfn og Azure DevOps
+                  href: lifecycle-services/synchronize-bpm-vsts.md
+                - name: Stofna söfn prófana á notandasamþykktum með verkleiðbeiningum og BPM
+                  href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+                - name: Flæðirit í viðskiptaferlavinnslu
+                  href: lifecycle-services/flowcharts-business-process-modeler.md
+                - name: Hlaða upp sérstilltum viðskiptaferlum í viðskiptaferlavinnslu
+                  href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: Þjónustubeiðnir
+              items:
+                - name: Aðgerðir og þjónusta í skýi
+                  href: lifecycle-services/cloud-operations-servicing.md
+                - name: Senda inn þjónustubeiðnir til tæknimanna Dynamics
+                  href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
+                - name: Algengar spurningar um tímaramma áætlaðs viðhalds
+                  href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Eftirlit og greiningar
               href: lifecycle-services/monitoring-diagnostics.md
             - name: Endurræsa umhverfisþjónustu
@@ -1282,14 +1324,8 @@
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: Fá aðstoð fyrir Finance and Operations sem er rekið af 21Vianet í Kína
               href: lifecycle-services/21vianet-support.md
-            - name: Senda inn beiðnir til starfsfólks Dynamics Service Engineering
-              href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
             - name: Setja upp tæknilegan stuðning fyrir Finance and Operations
               href: lifecycle-services/support-experience.md
-            - name: Algengar spurningar um tímaramma áætlaðs viðhalds
-              href: lifecycle-services/planned-maintenance-window-faq.md
-            - name: Aðgerðir og þjónusta í skýi
-              href: lifecycle-services/cloud-operations-servicing.md
             - name: Stjórna upplifun stuðnings fyrir Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: Kerfisstjórnun

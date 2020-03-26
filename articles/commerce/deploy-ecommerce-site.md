@@ -3,7 +3,7 @@ title: Uppsetning á nýjum leigjanda rafrænna viðskipta
 description: Þetta efni lýsir því hvernig nota á nýjan leigjanda í netverslun með því að nota Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6d7dfcaf244260de5f39a1201ec1ea78e94351e7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d5cf2804c44e81ad135a3248d38c228148b530cc
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001784"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096679"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Uppsetning á nýjum leigjanda rafrænna viðskipta
 
@@ -97,11 +97,19 @@ Farðu á flipann **e-Commerce** á síðunni **Verslunarstjórnun** í LCS og v
 
 [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
 
+[Setja upp netverslunarrás](online-stores.md)
+
 [Tengja netsvæði við rás](associate-site-online-store.md)
 
-[Stjórna robots.txt-skrám](manage-robots-txt-files.md)
+[Vinna með skrárnar robots.txt](manage-robots-txt-files.md)
+
+[Hlaða upp mörgum slóðartilvísunum í einu](upload-bulk-redirects.md)
+
+[Setja upp B2C-leigjanda í Commerce](set-up-B2C-tenant.md)
 
 [Setja upp sérsniðnar síður fyrir innskráningu notenda](custom-pages-user-logins.md)
+
+[Stilla marga B2C leigjendur í viðskiptaumhverfi](configure-multi-B2C-tenants.md)
 
 [Bæta við stuðningi fyrir efnisbirtingarnet (CDN)](add-cdn-support.md)
 
