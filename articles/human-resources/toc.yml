@@ -5,6 +5,8 @@
       items:
         - name: Nýjungar eða breytingar í Human Resources
           href: hr-admin-whats-new.md
+        - name: 19. mars 2020
+          href: hr-whats-new-2020-03-19.md
         - name: 10. mars 2020
           href: hr-whats-new-2020-03-10.md
         - name: 3. mars 2020
@@ -539,3 +541,9 @@
               href: hr-learning-create-closed-ended-question.md
             - name: Búa til textaháða spurningu
               href: hr-learning-depending-question.md
+        - name: Setja upp sjálfsafgreiðslu starfsmanns og stjórnanda
+          items:
+            - name: Yfirlit yfir sjálfsafgreiðslu starfsmanns og stjórnanda
+              href: hr-employee-manager-self-service-overview.md
+            - name: Breyta persónuupplýsingum
+              href: hr-employee-manager-self-service-edit-personal-information.md
