@@ -454,6 +454,8 @@
                   items:
                     - name: Skilgreina og nota ítarleg sjálfvirk gjöld
                       href: omni-auto-charges.md
+                    - name: Kveikja á og grunnstilla sjálfvirk gjöld eftir rás
+                      href: auto-charges-by-channel.md
                     - name: Skipta gjöldum í haus í hlutfalli við samsvarandi sölulínur
                       href: pro-rate-charges-matching-lines.md
                 - name: Stjórna samfelldniáætlunum
@@ -525,7 +527,7 @@
                 - name: Stofna nýja afurð
                   items:
                     - name: Stofna nýja afurð í Commerce
-                      href: create-new-product.md
+                      href: create-new-product-commerce.md
                     - name: Stjórna afurðategundum og afurðum
                       href: category-management-product-creation.md
                 - name: Afurðareigindir
@@ -598,8 +600,6 @@
                       href: personalized-recommendations.md
                     - name: Afþakka sérsniðnar tillögur
                       href: personalization-gdpr.md
-                - name: Bæta tillögulista við svæði fyrir rafræn viðskipti
-                  href: add-reco-list-to-page.md
                 - name: Reynsla af sölustað
                   items:
                     - name: Bæta við afurðatillögum á sölustað
@@ -944,6 +944,8 @@
                       href: add-checkout-module.md
                     - name: Eining pöntunarstaðfestingar
                       href: order-confirmation-module.md
+                    - name: Vista valeiningu
+                      href: store-selector.md
                 - name: Einingar fyrir stjórnun reikninga
                   items:
                     - name: Síður og einingar fyrir stjórnun reikninga
@@ -2115,7 +2117,7 @@
                 - name: Notkun greiðslugagna
                   href: payment-connector-data-fields.md
                 - name: Kveikja á vörn gegn tvítekinni greiðslu fyrir greiðslutengil
-                  href: dev-itpro/duplicate-payment-protection.md
+                  href: dev-itpro/duplicate-payments-protection.md
                 - name: Búa til greiðsluumbúðir fyrir forritaskoðara í uppsetningu Service Fabric
                   href: dev-itpro/payment-connector-package.md
             - name: Stækkunarhæfni rafrænna viðskipta þriðja aðila
