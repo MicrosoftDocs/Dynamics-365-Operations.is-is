@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbed62c80c14e7cfe96d38d43a5db39b0469d939
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6132d48f276b27797e86fbcde11746b7e4da7d3b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184923"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142456"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Breyta sniðum til að búa til skjöl sem eru með forritsgögnum
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Til að ljúka skrefunum í þessu ferli verður fyrst að ljúka við ferlið, „Rafræn skýrslugerð Búa til skjöl með gagnauppfærslum fyrir forrit (Hluti 3: Breyta líkani og vörpun)“.
 
@@ -96,8 +96,8 @@ Skrefin í þessu ferli sýna hvernig skal hanna Rafræna skýrslugerð (ER) gru
 
 ## <a name="modify-format-to-memorize-details-of-reporting"></a>Breyta sniði til að geyma í minni upplýsingar um skýrslugerð
 1. Smellt er á Varpa sniði á líkan.
-2. Smellið á „Nýtt“.
-3. Sláið inn eða veldu gildið „Fyrir gagnauppfærslu fyrir forrit“ rótaratriði í reitnum Skilgreining.
+2. Smellið á Nýtt.
+3. Sláið inn eða veldu rótaratriðið „Fyrir gagnauppfærslu fyrir forrit“ í reitnum Skilgreining.
     * Fyrir uppfærsla gagna hugbúnaðarins  
 4. Í reitnum Heiti skal færa inn „Vörpun til að uppfæra gögn“.
     * Vörpun fyrir uppfærslu gagna  

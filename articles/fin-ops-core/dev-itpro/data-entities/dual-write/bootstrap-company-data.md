@@ -19,18 +19,17 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 6ce6c4e85ac1ef27060b53f43732f095a4efe9e7
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 1ed97d7c388347eb5afe101f51173b6d48b18fcd
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019844"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172924"
 ---
 # <a name="bootstrap-with-company-data-faq"></a>Ræsiband með algengum spurningum um fyrirtæki
  
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
 ## <a name="why-do-i-need-bootstrapping"></a>Af hverju þarf ég ræsibönd? 
 Þú gætir verið með fyrirliggjandi Common Data Service eða annað Dynamics 365 forritstilvik með viðskiptagögnum og vilt virkja tvískipta tengingu á móti því. Í því tilfelli þarf að ræsa Common Data Service eða önnur Dynamics 365 forritsgögn með fyrirtækisupplýsingum áður en hægt er að virkja tvískipta tengingu.  

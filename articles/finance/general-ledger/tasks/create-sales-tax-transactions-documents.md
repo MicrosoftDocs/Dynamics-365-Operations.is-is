@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 653b93744f5b891655cade0cb669d34179fca9cd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bdc4b5c31d9a478a5226ae6b5e8c776de3b661dd
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186142"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144836"
 ---
 # <a name="create-sales-tax-transactions-on-documents"></a>Búa til VSK-færslur í skjölum
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Virðisaukaskattur á skjölum er reiknaður með því að gefa Vsk-flokk og vsk-flokk Vöru á línur upprunaskjals. Þær eru sjálfgefnar úr aðalgögnum en því má breyta handvirkt ef þörf krefur. Hægt er að athuga reiknaðan virðisaukaskatt á stigi línu og skjals. Þetta verkefni notar USMF-sýnifyrirtækið.
 

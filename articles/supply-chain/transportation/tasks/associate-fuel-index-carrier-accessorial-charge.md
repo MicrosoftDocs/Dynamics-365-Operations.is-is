@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae0aa90cfd673704bcd8e19f795499283ff01d44
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0fbd58fb6b03f3c6eb5e54f811d98ad636e65a94
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560956"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146377"
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Tengja eldsneytisvísi flutningsaðila sem aukagjald
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Þessar leiðbeiningar sýnir hvernig stofna á aukaúthlutunina, aukalegt gjald flutningsaðila, aukalega sniðmát fyrir eldsneytisálag og tengja eldsneytisvísi flutningsaðila við flutningsaðila. Það Þarf að vera uppsettur eldsneytisvísi flutningsaðila áður en þessari leiðbeiningar er keyrð. Hægt er að nota "Setja upp eldsneytisvísi flutningsaðila" leiðbeiningar til að gera þetta. Þessi uppsetningarverk eru yfirleitt gert með stjórnanda í Vörustjórnun. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
+Þessar leiðbeiningar sýnir hvernig stofna á aukaúthlutunina, aukalegt gjald flutningsaðila, aukalega sniðmát fyrir eldsneytisálag og tengja eldsneytisvísi flutningsaðila við flutningsaðila. Það Þarf að vera uppsettur eldsneytisvísi flutningsaðila áður en þessari leiðbeiningar er keyrð. Hægt er að nota leiðbeiningarnar "Setja upp eldsneytisvísi flutningsaðila" til að gera þetta. Þessi uppsetningarverk eru yfirleitt gert með stjórnanda í Vörustjórnun. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
 
 ## <a name="create-an-accessorial-master"></a>Stofna aukalegt sniðmát

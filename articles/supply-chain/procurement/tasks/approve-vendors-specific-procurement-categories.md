@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e47124e22dd6c0e756bf42429327254f966b48a2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 135b3a6bea2c0a8940550299504139551c9c3559
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2018090"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147504"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>Samþykkja lánardrottna fyrir tiltekna innkaupaflokka
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þetta efni útskýrir hvernig eigi að samþykkja lánardrottna fyrir tiltekna innkaupaflokka í Dynamics 365 Supply Chain Management. Þegar innkaupabeiðni er stofnuð, gæti verið þörf á að velja samþykktum eða æskilegum lánardrottins, eftir því hvernig innkaupareglur eru settar upp. Þessi verklýsing sýnir hvernig á að tilgreina að lánardrottin er samþykkt eða æskilegur fyrir tiltekna innkaupategund. Þetta verk myndi venjulega framkvæmtaf fagmanni á sviði innkaupa. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF.
 
@@ -35,7 +35,7 @@ ms.locfileid: "2018090"
 4. Veldu **Flokkar**.
 5. Velja **Bæta við flokki**.
 6. Í retinum **Flokkur** velurðu **OFFICE AND DESK ACCESSORIES (SKRIFSTOFU- OG SKRIFBORÐSFYLGIHLUTIR)**.
-7. Í reitnum **Flokkastaða lánardrottins** velurðu **Æskilegt**. Það er hægt að tilgreina fleiri en einn æskilegan lánardrottin fyrir tegund.  
+7. Í reitnum **Flokkastaða lánardrottins** velurðu **Æskilegt**. Það er hægt að tilgreina fleiri en einn æskilegan lánardrottin fyrir flokk.  
 8. Veljið **Vista**.
 9. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Innkaup og aðföng > Innkaupaflokkar**.
 10. Veljið **CORP PROCUREMENT CATEGORIES\OFFICE AND DESK ACCESSORIES** í trénu.

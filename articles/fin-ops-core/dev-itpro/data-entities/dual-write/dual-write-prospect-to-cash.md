@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 249fde6f7bba5d6e0bc6cfde62fd792dee3f1301
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: 12a0e07d1c60a359b3ba6c0d20176927ffe89431
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112457"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172809"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Viðfang til sjóðstreymis í tvískiptingu
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+
 
 Mikilvægt markmið flestra fyrirtækja er að umbreyta viðföngum í viðskiptavini og halda síðan áframhaldandi viðskiptasambandi við þá viðskiptavini. Í forritum Microsoft Dynamics 365 verður ferli viðfanga til sjóðstreymis með tilboðum eða verkflæði pöntunarvinnslu og fjárhagurinn er afstemmdur og viðurkenndur. Samþætting möguleika á peningum með tvískiptri skrifun skapar verkflæði sem tekur tilvitnun og pöntun sem er upprunnin í annaðhvort Dynamics 365 Sales eða Dynamics 365 Supply Chain Management, og gerir tilboðið og pöntunina aðgengileg í báðum forritunum.
 

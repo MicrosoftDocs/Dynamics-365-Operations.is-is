@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd51fa667fd48b7bab64c3566b616631c6f9bcd1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: df8552aab5f1566dccf0b905c2d5db372671ec09
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249633"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144112"
 ---
 # <a name="cost-management-home-page"></a>Heimasíða kostnaðarstjórnunar
 
@@ -32,12 +32,13 @@ ms.locfileid: "2249633"
 
 [Kostnaðarstjórnun (myndband)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) leyfir notanda að vinna með mat og bókhald á hráefnum, hálfunnum vörum, fullunnum vörum og eignum í vinnslu. Þetta er skilgreiningar-, stjórnunar- og skýrsluferli [Birgðabókhalds](cost-object.md) og [Bókhalds framleiðslu](bom-calculations.md).
 
-Hægt er að skilgreina kostnaðarreglur fyrir eftirfarandi svæði: 
--  [Fyrirframákveðinn kostnaður](costing-versions.md)
--  [Birgðabókhald](cost-object.md)
--  [Bókhald framleiðslu](bom-calculations.md)
--  [Óbeint kostnaðarbókhald](costing-sheets.md)
--  [Fjárhagssamþætting](production-order-cost-analysis.md)
+Hægt er að skilgreina kostnaðarreglur fyrir eftirfarandi svæði:
+
+- [Fyrirframákveðinn kostnaður](costing-versions.md)
+- [Birgðabókhald](cost-object.md)
+- [Bókhald framleiðslu](bom-calculations.md)
+- [Óbeint kostnaðarbókhald](costing-sheets.md)
+- [Fjárhagssamþætting](production-order-cost-analysis.md)
 
 Sem dæmi er hægt að skilgreina hvaða birgðamatsaðferð, líkt og [FIFO](fifo-physical-value-marking.md), [Vegið meðaltal](weighted-average-physical-value-marking.md), [Staðalkostnaður](prerequisites-standard-costs.md) eða [Hlaupandi meðaltal](moving-average.md), eigi að nota á afurðir í [Vörulíkanaflokki](../inventory/reserve-inventory-quantities.md) í birgðabókhaldi.
 
@@ -51,23 +52,16 @@ Bókhald framleiðslu leyfir notanda að sjá um [Kostnaðaraðferð vinnupöntu
 
 #### <a name="whats-new-and-in-development"></a>Nýjungar og eiginleikar á þróunarstigi
 
-Á [Microsoft Dynamics 365-leiðarvísinum](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi. 
+Á [Microsoft Dynamics 365-leiðarvísinum](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi.
 
 #### <a name="white-paper"></a>Hvítbók
-[Útreikningur uppskriftar með notkun kostnaðarskjals](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) lýsir því hvernig á að setja upp kostnaðarskjal sem nær yfir efni og framleiðslu og hvernig uppsetningin hefur áhrif á niðurstöður útreiknings á uppskrift. Til að útskýra betur efnisatriðin þá útvegar hann heildstæð dæmi og gögn sem sýna fram á áhrif hinna ýmsu stillinga og skilgreininga. Ekki er ætlast til þess að notandinn fylgi öllum þessum dæmum vegna þess að þetta skjal veitir ekki nægar upplýsingar til að skilgreina þau. Engu að síður getur notandi með grunnþekkingu prófað að spila verkleiðbeiningarnar í þeirri röð sem þær eru útlistaðar hér fyrir neðan. Notið vitneskjuna sem fæst með lestri þessa skjals til að gera greiningu uppskriftaútreiknings. 
 
--  [Búa til tilbúin afurð](tasks/create-finished-product-2016-02.md)
--  [Búa til hálfunnin vara](tasks/create-semi-finished-product-2016-02.md)
--  [Stofna hráefni](tasks/create-raw-materials-2016-02.md)
--  [Stofna uppskriftir](tasks/create-boms-2016-02.md)
--  [Stofna leiðir](tasks/create-routes-2016-02.md)
--  [Reikna út uppskrift og nota uppbyggingu á einu stigi](tasks/calculate-bom-single-level-structure-2016-02.md)
--  [Reikna út uppskrift og nota uppbyggingu með mörgum stigum](tasks/calculate-bom-multilevel-structure-2016-02.md)
-
+[Útreikningur uppskriftar með notkun kostnaðarskjals](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) lýsir því hvernig á að setja upp kostnaðarskjal sem nær yfir efni og framleiðslu og hvernig uppsetningin hefur áhrif á niðurstöður útreiknings á uppskrift. Til að útskýra betur efnisatriðin þá útvegar hann heildstæð dæmi og gögn sem sýna fram á áhrif hinna ýmsu stillinga og skilgreininga.
 
 #### <a name="blogs"></a>Blogg
+
 Finna má skoðanir, fréttir og aðrar upplýsingar um kostnaðarstjórnun á [Dynamics AX Manufacturing R&D Team blog](https://blogs.msdn.microsoft.com/axmfg) og [Aðfangakeðjustjórnun í Dynamics AX R&D Team blog](https://blogs.msdn.microsoft.com/dynamicsaxscm). Þó svo sumar þessara færslna hafi verið skrifaðar fyrir eldri útgáfu Kostnaðarstjórnunar eiga sömu hugtök enn við og ferlin eru svipuð í nýjustu útgáfunni.
 
 #### <a name="task-guides"></a>Verkleiðbeiningar
-Frekari hjálp er tiltæk sem leiðbeiningar fyrir verkefni. Smellið á hnappinn Hjálp á hvaða síðu sem er til að fá aðgang að verkleiðbeiningum.
 
+Frekari hjálp er tiltæk sem leiðbeiningar fyrir verkefni. Smellið á hnappinn Hjálp á hvaða síðu sem er til að fá aðgang að verkleiðbeiningum.

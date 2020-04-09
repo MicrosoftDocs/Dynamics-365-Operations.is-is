@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b2485eaf31226b11106895074ae0ad95e561777b
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 2408addea3615ffe6dbc4db8baecfdef6a65e839
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916600"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145825"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>Stofna og viðhalda á birgðalæsing
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þessi verklýsing sýnir hvernig á að koma í veg fyrir að efnislegar lagerbirgðir séu frátekinn af önnur upprunaskjöl á útleið með því að nota lokun birgða. Hægt er að keyra ferlið sýnigögn fyrirtækisins USMF með dæmagildum sem eru sýndar. Þú þarft að hafa vöru á lager raunbirgðum tiltækt áður en byrjað er að þetta ferli.
 
@@ -35,11 +35,11 @@ ms.locfileid: "1916600"
 1. Í **skoðunarrúðunni** ferðu í **Kerfiseiningar > Birgðastýring > Reglubundin verk > Birgðalæsing**.
 2. Smellt er á **Nýtt**.
 3. Í reitnum **Vörunúmer** skal smella á fellilistahnappinn til að opna leitina.
-4. Veljið vöruna sem á að velja af listanum. Veljið vörunúmer með efnislegar lagerbirgðir sem á að loka. Ef verið er að nota USMF er hægt að velja vöru M9201.  
-5. Í reitnum **Magn** slærðu inn tölu. Ef verið er að nota vöru M9201, þarf að velja minna en 200.
+4. Veljið vöruna sem á að velja af listanum. Veljið vörunúmer með efnislegar lagerbirgðir sem á að loka. Ef þú ert að nota USMF er hægt að velja vöru M9201.  
+5. Í reitnum **Magn** slærðu inn tölu. Ef þú ert að nota vöru M9201, þarf að velja minna en 200.
 6. Útvíkkaðu flýtiflipann **Birgðavíddir**.
 7. Í reitnum **Vöruhús** skal smella á fellilistahnappinn til að opna leitina.
-8. Í listanum skal finna og velja þá skráningu sem óskað er eftir. Ef verið er að nota M9201 vöru er hægt að velja vöruhús 51.  
+8. Í listanum skal finna og velja þá skráningu sem óskað er eftir. Ef þú ert að nota M9201 vöru er hægt að velja vöruhús 51.  
 9. Smellt er á **Vista**.
 
 ## <a name="update-the-conditions-of-the-inventory-blocking"></a>Uppfæra skilyrðum fyrir birgðalæsing

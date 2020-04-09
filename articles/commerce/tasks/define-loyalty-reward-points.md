@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9557b25af0fba6429d34564e1a3e158b6258698a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4e40ebcbf3ab1befc641ae34571a8b974bd0425a
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022899"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140877"
 ---
 # <a name="define-loyalty-reward-points"></a>Skilgreina vildarpunkta smásölu
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta ferli fer í gegnum skilgreina vildarpunkta. Setja ætti upp vildarpunkta áður en að setja upp vildarkerfis. Þessi aðferð notar USRT sýnigögn fyrirtækisins.
 
@@ -42,7 +42,7 @@ ms.locfileid: "3022899"
 8. Í reitinn innleysa röðun skal slá inn númer.
     * Innleysa röðun er notaður þegar tvær eða fleiri innleysanlega vildarpunkta er hægt að nota til að greiða fyrir afurðir. Ef tvö vildarpunktar hafa sama innleysa vægi, svo það eina sem þarf í neðri fjölda stiga sem verður notað.  
 9. Í reitinn gildistími skal slá inn númer.
-    * Vildarpunktar renna út eftir tilgreindan fjölda daga, mánaða eða ára eftir þegar punkta eru gefin út. Gildið "0" þýðir vildarumbun vildarpunkta rennur aldrei út.  
+    * Vildarpunktar renna út eftir tilgreindan fjölda daga, mánaða eða ára eftir þegar punkta eru gefin út. Gildið „0” þýðir vildarumbun vildarpunkta rennur aldrei út.  
 10. Veljið valkost í reitnum eining Gildistíma.
 11. Smellið á „Vista“.
 

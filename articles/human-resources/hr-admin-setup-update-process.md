@@ -3,7 +3,7 @@ title: Uppfærsluferli
 description: Microsoft Dynamics 365 Human Resources er sannur hugbúnaður sem þjónusta (SaaS) sem veitir stöðugar, snertilausar þjónustuuppfærslur fyrir breytingar á forriti og verkvangi.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 02/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -16,14 +16,14 @@ ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
-ms.search.validFrom: 2020-02-03
+ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 267682f4497bacf70f93840a948d0e525dfa4aa1
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 424027e82717b8636d59289b28978d6ce3c6db4d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092202"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154506"
 ---
 # <a name="update-process"></a>Uppfærsluferli
 
@@ -37,52 +37,39 @@ Uppfærslur eru gefnar út með reglubundnum hætti fyrir öll umhverfi. Human R
 
 Uppfærslum á Human Resources er beitt sjálfkrafa í öll umhverfi. Human Resources veitir tvenns konar útgáfur:
 
-- **Þjónustuuppfærslur**: Vikulegar uppfærslur sem innihalda villuleiðréttingar og nýja eiginleika. Þjónustuuppfærslur innihalda einnig viðeigandi uppfærslur á palli þegar þær eru gefnar út. Sjá til að fá hugmynd um hvenær uppfærslur á verkvangi eru gefnar út [Tafla 3: Verkvangsútgáfur](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). Vikulegar uppfærslur koma venjulega út á miðvikudögum. Nánari upplýsingar um vikulegar uppfærslur eru í [Hvað er nýtt eða breytt í Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365/talent/whats-new).
+- **Þjónustuuppfærslur**: Uppfærslur verða á tveggja vinkna fresti sem innihalda villuleiðréttingar og nýja eiginleika. Þjónustuuppfærslur innihalda einnig viðeigandi uppfærslur á palli þegar þær eru gefnar út. Sjá til að fá hugmynd um hvenær uppfærslur á verkvangi eru gefnar út [Tafla 3: Verkvangsútgáfur](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). Uppfærslur á tveggja vikna fresti eru settar á svið alþjóðlegt útbreiðsla milli svæða. Nánari upplýsingar um uppfærslur á tveggja vikna fresti eru í [Hvað er nýtt eða breytt í Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
-    Allar studdar gagnaver uppfæra vikulega nema annað sé tekið fram. Vikulegar uppfærslur hefjast venjulega á miðvikudag og lýkur fyrir sunnudag. Bandaríkin, Ástralía, Evrópa, Bretland, Asía og Kanada eru með í vikulegum uppfærslum. 
+    Öll studd gagnaver uppfæra á tveggja vikna fresti nema annað sé tekið fram. Bandaríkin, Ástralía, Evrópa, Bretland, Asía og Kanada eru með í uppfærslum á tveggja vikna fresti. 
 
-- **Common Data Service lausnir uppfærslur**: Þessar uppfærslur eiga sér stað um það bil á sex vikna fresti eftir þörfum. Þau fela í sér nýja aðila og breytingar á núverandi aðilum í Common Data Service. Þessar uppfærslur koma út á sömu svæðum og vikulega uppfærslurnar og það tekur um sex vikur að endurtaka í gegnum allar gagnaver. Lausn uppfærslna kann eða er ekki í samræmi við vikulega þjónustuuppfærslur.
-
-Eftirfarandi tafla sýnir sýnishorn áætlun:
-
-| Vika | Uppfærslugerð |
-| --- | --- |
-| 1 | Uppfærsla á þjónustu (öll svæði) |
-| 2 | Þjónustuuppfærsla (öll svæði) + Lausn uppfærsla (vika 1 svæði) |
-| 3 | Þjónustuuppfærsla (öll svæði) + Lausn uppfærsla (vika 2 svæði) |
-| 4 | Þjónustuuppfærsla (öll svæði) + Lausn uppfærsla (vika 3 svæði) |
-| 5 | Þjónustuuppfærsla (öll svæði) + Lausn uppfærsla (vika 4 svæði) |
-| 6 | Þjónustuuppfærsla (öll svæði) + Lausn uppfærsla (vika 5 svæði) |
-| 7 | Þjónustuuppfærsla (öll svæði) + Lausn uppfærsla (vika 6 svæði) |
-| 8 | Uppfærsla á þjónustu (öll svæði) |
+- **Common Data Service lausnir uppfærslur**: Þessar uppfærslur eiga sér stað um það bil á sex vikna fresti eftir þörfum. Þau fela í sér nýja aðila og breytingar á núverandi aðilum í Common Data Service. Þessar uppfærslur koma út á sömu svæðum og uppfærslur á tveggja vikna fresti og það tekur um sex vikur að endurtaka í gegnum öll gagnaver. Lausn uppfærslna kann eða er ekki í samræmi við þjónustuuppfærslur á tveggja vikna fresti.
 
 > [!NOTE]
 > Lausnaruppfærslur eru fáanlegar á öllum gagnaverum þegar þeim er sleppt. Ef þú vilt ekki bíða eftir að uppfærslurnar endurtaki sig sjálfkrafa geturðu beitt þessum uppfærslum handvirkt á hvaða umhverfi sem er í hvaða gagnaveri sem er.
 
 Þegar þörf er á veitir Human Resources einnig eftirfarandi gerðir af lagfæringum:
 
-- **Endurskoðun (leiðrétting)**: villuleiðréttingar sem geta komið fram annað hvort með eða fyrir utan vikulega þjónustuuppfærslu
+- **Endurskoðun (leiðrétting)**: villuleiðréttingar sem geta komið fram annaðhvort með eða fyrir utan þjónustuuppfærslu á tveggja vikna fresti
 
-- **Neyðarúrræði**: fyrirbyggjandi og viðbrögð hotfixes sem eru sjálfstætt í eðli sínu, geta innihaldið eingöngu stillingar eða kóðabreytingar til að leysa vandamál á vefnum og geta komið fyrir utan vikulega útgáfu þjónustuuppfærslu
+- **Neyðarúrræði**: Fyrirbyggjandi og viðbragðsbráðabirgafærslur sem eru sjálfstætt í eðli sínu, geta innihaldið eingöngu stillingar eða kóðabreytingar til að leysa vandamál á vefnum og geta komið fyrir utan útgáfu þjónustuuppfærslu á tveggja vikna fresti
 
 Útgáfur eru skoðaðar, prófaðar og staðfestar í innra umhverfi. Eftir að búið er að slökkva á smíðum er þeim síðan sent til framleiðslu.
 
-## <a name="exceptions-in-2019"></a>Undantekningar árið 2019
+## <a name="release-cadence-exceptions-in-2020"></a>Undantekningar á útgáfutíðni árið 2020
 
 Eftirfarandi dagsetningar eru undantekningar frá venjulegri útgáfuáætlun:
 
-| Dagsetning | Lýsing |
+| Dagsetning | lýsing |
 | --- | --- |
-| Vikan 25. nóvember | Engar uppfærslur |
-| Vikan 16. desember | Aðeins minni uppfærslur |
-| Vikan 23. desember | Engar uppfærslur |
-| Vikan 30. desember | Engar uppfærslur |
+| Vikan 23. nóvember | Engar uppfærslur |
+| Vikan 14. desember | Aðeins minni uppfærslur |
+| Vikan 21. desember | Engar uppfærslur |
+| Vikan 28. desember | Engar uppfærslur |
 
 ## <a name="communications"></a>Samskipti
 
 Þú getur fundið út hvað er í verkunum fyrir Human Resources og hvað við höfum sent frá okkur á eftirfarandi stöðum:
 
-- [Dynamics 365 Human Resources leiðarvísir](https://dynamics.microsoft.com/roadmap/talent/)
+- [Dynamics 365 Human Resources leiðarvísir](https://dynamics.microsoft.com/roadmap/human-resources/)
 
 - [Útgáfuáætlanir Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/)
 
@@ -114,7 +101,7 @@ Nánari upplýsingar um vistun á sandkassaumhverfi, sjá [Veita verk Human Reso
 
 ## <a name="see-also"></a>Sjá einnig
 
-- [Útgáfuáætlanir Dynamics 365 og Power Platform](https://docs.microsoft.com/dynamics365/release-plans)
-- [Nýjungar eða breytingar í Dynamics 365 Human Resources](hr-admin-whats-new.md)
-- [Reglur um stuðningstíma hugbúnaðar](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
+[Útgáfuáætlanir Dynamics 365 og Power Platform](https://docs.microsoft.com/dynamics365/release-plans)</br>
+[Nýjungar eða breytingar í Dynamics 365 Human Resources](hr-admin-whats-new.md)</br>
+[Reglur um stuðningstíma hugbúnaðar](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 

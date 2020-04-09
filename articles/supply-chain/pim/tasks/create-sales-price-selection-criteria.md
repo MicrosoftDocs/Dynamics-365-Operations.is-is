@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72940f719baca5e8042c2f2caa8abbacb7d8264e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ed8c60b188b7c7090546e8367455e0f58ce9359b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844490"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147688"
 ---
 # <a name="create-sales-price-selection-criteria"></a>Stofna valskilyrði fyrir söluverð
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þessi verklýsing sýnir hvernig á að stofna valskilyrði söluverðs fyrir eigindabyggð söluverðslíkön. Þetta ferli krefst þess að að minnsta kosti eitt afbrigðalíkan afurðar sé tiltækt. Þetta dæmi notar verðlíkanið fyrir söluverðslíkan hátalaralausnar í sýnigagnafyrirtækinu USMF. Venjulega notar framleiðslustjóri þetta ferli.
 
@@ -36,8 +36,8 @@ ms.locfileid: "1844490"
 3. Á listanum velurðu línuna fyrir vörulíkan hátalaralausnar, en smelltu ekki á tengilinn fyrir heiti líkans.
 4. Í aðgerðasvæðinu er smellt á líkan.
 5. Smelltu á Skilyrði verðlíkans.
-6. Smellið á „Nýtt“.
-7. Í svæðið Heiti, slærðu inn 'Customer group 10'.
+6. Smellið á Nýtt.
+7. Í reitinn Heiti, slærðu inn „Customer group 10”.
     * Heiti verðlíkans er notað til að finna undirliggjandi valskilyrði.  
 8. Í reitinn Verðlíkan skal slá inn eða veldu gildi.
 9. Í reitnum Gerð pöntunar velurðu Sölupöntun.

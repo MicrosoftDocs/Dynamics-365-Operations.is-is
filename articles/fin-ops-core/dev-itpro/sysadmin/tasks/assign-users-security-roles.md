@@ -1,6 +1,6 @@
 ---
 title: Úthluta notendum á öryggishlutverk
-description: Til að fá aðgang að forritum Finance and Operations þurfa notendur að fá úthlutað öryggishlutverkum.
+description: Til að fá aðgang að forritum Finance and Operations, þarf að úthluta notendum á öryggishlutverk.
 author: ChrisGarty
 manager: AnnBe
 ms.date: 11/14/2019
@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e4f4ef4535de9e371829c2d86d4fdc1400510c7b
-ms.sourcegitcommit: 6aa74f66f1abd3a7977050a5339b0b17e62ff053
+ms.openlocfilehash: 0744f45ac91dfb9b5aae35091e3675202c9144f9
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2807997"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143548"
 ---
 # <a name="assign-users-to-security-roles"></a>Úthluta notendum á öryggishlutverk
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Til að nota neitt annað en sameiginlega getu verður notendum að vera úthlutað öryggishlutverkum. Þessu ferli útskýrt hvernig kerfisstjórum geta sjálfvirkt úthlutað notendum á hlutverk, byggt á viðskiptagögnum. 
 

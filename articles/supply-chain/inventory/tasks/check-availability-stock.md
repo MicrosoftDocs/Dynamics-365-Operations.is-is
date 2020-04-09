@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e0c00b2a79ab588ff47c249f73570544d884b79e
-ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
+ms.openlocfilehash: a6ced839f93103a62bcfa8ea14ca463f0f1e174e
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "1995249"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145848"
 ---
 # <a name="check-the-availability-of-stock"></a>Athuga framboð birgðaframboð
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Þetta ferli sýnir hvernig athuga birgðir á lager og efnislegar lagerbirgðir fyrir ákveðið vörunúmer. Það sýnir líka hvernig á að fá upplýsingar um framboð tengdar vöru. Lagerbirgðir sem eru efnislegar birgðir eru tiltækar birgðir á lager – sem hefur verið keypt, móttekin og skráð. Lagerbirgðir inniheldur tiltækar birgðir á lager, en einnig birgðirnar sem hefur verið pöntuð er vænst en hefur enn ekki verið móttekin og skráð. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Ef verið er að nota USMF má nota dæmagildin sem eru sýndar. Þessi verkefnum myndu venjulega vera framkvæmd af starfsmanni í vöruhúsi.
+Þetta ferli sýnir hvernig athuga birgðir á lager og efnislegar lagerbirgðir fyrir ákveðið vörunúmer. Það sýnir líka hvernig á að fá upplýsingar um framboð tengdar vöru. Lagerbirgðir sem eru efnislegar birgðir eru tiltækar birgðir á lager – sem hafa verið keyptar, mótteknar og skráðar. Lagerbirgðir innihalda tiltækar birgðir á lager, en einnig birgðirnar sem hafa verið pantaðar og er vænst en hafa ekki enn verið mótteknar og skráðar. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Ef verið er að nota USMF má nota dæmagildin sem eru sýndar. Þessi verkefnum myndu venjulega vera framkvæmd af starfsmanni í vöruhúsi.
 
 
 ## <a name="check-on-hand-inventory-for-an-item"></a>Kanna birgðir á lager fyrir vöru
@@ -37,7 +37,7 @@ ms.locfileid: "1995249"
 4. Smellt er á **OK**.
 5. Í **Aðgerðaglugganum** smellirðu á **Víddir**. Flipinn **Víddir** leyfir að velja hversu miklar upplýsingar til að sjá um birgðir á lager. Ef þarf gögn sem tengjast frátekningu, verður að birta birgðavíddir á vörum sem nota ferli ítarlegrar vöruhúsa (WHS).
 6. Smellt er á **OK**.
-7. Á **Aðgerðasvæðinu** skal smellt á **Tengdar upplýsingar**. Ef þessi valkostur sést ekki, gæti þurft að smella á hnappinn Ellipsis (...) til að sjá valkostir frekari aðgerða.
+7. Á **Aðgerðasvæðinu** skal smellt á **Tengdar upplýsingar**. Ef þessi valkostur sést ekki, gæti þurft að smella á úrfellingarhnappinn (...) til að sjá aukavalkosti aðgerðaglugga.
 8. Smelltu á **Birgðayfirlit**. Flipinn **Birgðayfirlit** veitir birgðaupplýsingar fyrir tiltekna vöru, eins og magn á lager, afhendingartíma og lánardrottnaupplýsingar.  
 9. Víkkið út hlutann **Á lager**.
 10. Stækkaðu hlutann **Lánardrottnar**.

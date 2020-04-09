@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9274a90ffbf6e5703d3ed97a8b974227b25c2a0
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: 6383576302789d268d64edcbbe05305b03e956d0
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924379"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148706"
 ---
 # <a name="confirm-sales-orders"></a>Staðfesta sölupantanir
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Þetta ferli sýnir hvernig á að staðfesta sölupantanir. Þér verður sýnt hvernig á að staðfesta eina pöntun og hvernig staðfesta á margar pantanir í einu. Þessi verkefni eru yfirleitt framkvæmd af sölupantanavinnslu. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Áður en byrjað er, gangið úr skugga um að það eru nokkrar opnar sölupantanir fyrir sama viðskiptavininn. Ef verið er að nota USMF er hægt að velja lykil US-027..
+Þetta ferli sýnir hvernig á að staðfesta sölupantanir. Þér verður sýnt hvernig á að staðfesta eina pöntun og hvernig staðfesta á margar pantanir í einu. Þessi verkefni eru yfirleitt framkvæmd af sölupantanavinnslu. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Áður en byrjað er, gangið úr skugga um að það eru nokkrar opnar sölupantanir fyrir sama viðskiptavininn. Ef verið er að nota USMF er hægt að velja lykil US-027.
 
 
 ## <a name="confirm-a-single-sales-order"></a>Staðfesta eina sölupöntun.
@@ -53,7 +53,7 @@ ms.locfileid: "1924379"
 2. Smellið á **Velja**.
 3. í listanum á flipanum **Afmörkun** skaltu finna og velja færsluna sem vísar í reitinn **Viðskiptavinalykill**.
 4. Í reitnum **Skilyrði** skal smella á fellilistahnappinn til að opna leitina.
-5. Finna og veljið lykil viðskiptavinar sem er með margar pantanir sem óskað er að staðfesta margar í einu, af listanum. Ef verið er að nota USMF er hægt að velja lykil US-027..  
+5. Finna og veljið lykil viðskiptavinar sem er með margar pantanir sem óskað er að staðfesta margar í einu, af listanum. Ef verið er að nota USMF er hægt að velja lykil US-027.  
 6. Smellt er á **OK**.
     - Flipinn **Yfirlit** sýnir lista yfir pantanir sem uppfylla skilyrði fyrirspurnar. Þær verða teknar með í staðfestingu.  
     - Reiturinn **Safnuppfærsla fyrir** í hlutanum **Færibreytur** tilgreinir færibreytu sem farið er eftir þegar margar pantanir eru teknar saman í eina staðfestingarskjal. Að sjálfgefnu er valkosturinn afritaður úr **Sjálfgildum fyrir stillingu safnuppfærslu** á síðunni **Færibreytur viðskiptakrafna**.  

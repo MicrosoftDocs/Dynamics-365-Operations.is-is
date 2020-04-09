@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d785b321037645837dbcbaf28c8ede9b8e97b79
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 20188438a4ca623fc926e6c373fb002f148c3df4
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550603"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142479"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-2---configure-computations"></a>Rafræn skýrslugerð Skilgreina snið til að gera talningu og samlagningu (Hluti 2 - skilgreina útreikninga)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt snið rafrænnar skýrslugerðar (ER) til að telja og taka saman á grundvelli gagna textaúttaks sem þegar var myndað. Hægt er að framkvæma þessum skrefum í Hvaða fyrirtæki sem er.
 
-Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í á “Rafræn skýrslugerð skilgreingasnið sér um að telja og taka saman (Hluti 1: stofna snið)” ferli.
+Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu „Rafræn skýrslugerð skilgreingasnið sér um að telja og taka saman (Hluti 1: stofna snið)”.
 
 Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.
 
@@ -82,37 +82,37 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í á “R
 31. Lokið síðunni.
 32. Smellið á „Í lagi“.
 33. Í trénu skal velja 'Intrastat\Data'.
-34. Smeltu á hnappinn breyta fyrir reitinn ‘heiti lykils fyrir söfnuð gögn’.
+34. Smeltu á hnappinn breyta fyrir reitinn „Heiti lykils fyrir söfnuð gögn”.
 35. Smellt er á Bæta við gagnagjafa.
     * $BlockName  
-36. Smellið á „Vista“.
+36. Smelltu á Vista.
 37. Lokið síðunni.
 38. Smellið á hnappinn Breyta fyrir reitinn gildi lykils uppsafnaðra gagna
 39. Í reitinn Formúlu skal færa inn 'IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export")'.
     * IF(Intrastat.CommodityRecord.Direction=Direction.Import, “Import”, “Export”)  
 40. Smellið á „Vista“.
 41. Lokið síðunni.
-    * Telja línur í þessari röð. Niðurstöður verður notað með heitinu "útiloka" aðskilið fyrir mismunandi stefnur. Gildið “Innflutningur” verður notað fyrir allar intrastat-færslur fyrir komur. Gildið “Útflutningur” verður notað fyrir allar intrastat-færslur fyrir sendingar. Líttu á þetta sem sýndar Excel-töflu. Fyrir hverja færslu er lína þar sem fyrsta “blokk” dálkinn er fyllt út með gildunum “Innflutningur” og “Útflutning” til samræmis.  
+    * Telja línur í þessari röð. Niðurstöður verður notað með heitinu „útiloka” aðskilið fyrir mismunandi stefnur. Gildið „Innflutningur” verður notað fyrir allar intrastat-færslur fyrir komur. Gildið „Útflutningur” verður notað fyrir allar intrastat-færslur fyrir færslur. Líttu á þetta sem sýndar Excel-töflu. Fyrir hverja færslu er lína þar sem fyrsti dálkurinn „blokk” er fylltur út með gildunum „Innflutningur” og „Útflutningur” til samræmis.  
 42. Í trénu skal víkka út 'Intrastat\Data: Sequence'.
 43. Í trénu skal velja 'Intrastat\Data: Sequence\Arrivals?'.
-44. Smeltu á hnappinn breyta fyrir reitinn ‘heiti lykils fyrir söfnuð gögn’.
-    * Telja línur í þessari röð. Niðurstöðurnar eru geymdar í minni með því að nota skrána “færsla”.  
+44. Smeltu á hnappinn breyta fyrir reitinn „Heiti lykils fyrir söfnuð gögn”.
+    * Telja línur í þessari röð. Niðurstöðurnar eru geymdar í minni með því að nota heitið „skrá”.  
 45. Í trénu skal velja '$RecName'.
 46. Smellt er á Bæta við gagnagjafa.
-47. Smellið á „Vista“.
+47. Smelltu á Vista.
 48. Lokið síðunni.
-49. Smeltu á hnappinn breyta fyrir reitinn "gildi lykils fyrir söfnuð gögn".
+49. Smeltu á hnappinn breyta fyrir reitinn „Gildi lykils fyrir söfnuð gögn”.
 50. Í Formúlu svæðinu, færið inn 'Intrastat.CommodityRecord.CommodityCode'.
 51. Smellið á „Vista“.
 52. Lokið síðunni.
-    * Telja línur í þessari röð. Niðurstöður verður notað með heitinu “færsla” aðskilið fyrir mismunandi vörukóða. Líttu á þetta sem sýndar Excel-töflu. Fyrir hverja færslu er lína þar sem fyrsta “blokk” dálkinn er fyllt út með gildunum "Innflutningur" og “Útflutning” til samræmis og næsta blokkin “færsla” er fyllt með gildi vörukóða.  
+    * Telja línur í þessari röð. Niðurstöður verður notað með heitinu „skrá” aðskilið fyrir mismunandi vörukóða. Líttu á þetta sem sýndar Excel-töflu. Fyrir hverja færslu er lína þar sem fyrsti dálkurinn „blokk” er fylltur út með gildunum „Innflutningur” og „Útflutningur” til samræmis og næsta blokkin „skrá” er fyllt með gildi vörukóða.  
 53. Í trénu skal velja 'Intrastat\Data: Sequence\Dispatches?'.
-54. Smeltu á hnappinn breyta fyrir reitinn ‘heiti lykils fyrir söfnuð gögn’.
+54. Smeltu á hnappinn breyta fyrir reitinn „Heiti lykils fyrir söfnuð gögn”.
 55. Í trénu skal velja '$RecName'.
 56. Smellt er á Bæta við gagnagjafa.
-57. Smellið á „Vista“.
+57. Smelltu á Vista.
 58. Lokið síðunni.
-59. Smeltu á hnappinn breyta fyrir reitinn "gildi lykils fyrir söfnuð gögn".
+59. Smeltu á hnappinn breyta fyrir reitinn „Gildi lykils fyrir söfnuð gögn”.
 60. Í Formúlu svæðinu, færið inn 'Intrastat.CommodityRecord.CommodityCode'.
 61. Smelltu á Vista.
 62. Lokið síðunni.
@@ -121,18 +121,18 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í á “R
 65. Smellið á flipann snið.
 66. Í trénu skal velja 'Intrastat\Data\Dispatches\Record\Invoice amount EUR'.
 67. Smelltu á flipann Vörpun.
-68. Smeltu á hnappinn breyta fyrir reitinn ‘heiti lykils fyrir söfnuð gögn’.
+68. Smeltu á hnappinn breyta fyrir reitinn „Heiti lykils fyrir söfnuð gögn”.
 69. Í trénu skal velja '$InvName'.
 70. Smellt er á Bæta við gagnagjafa.
 71. Smellið á „Vista“.
 72. Lokið síðunni.
-    * Taka saman gildi reikningsfærð upphæð fyrir línur í þessari röð. Niðurstöður verður notað með heitinu “InvoicedAmountEUR” aðskilið fyrir mismunandi intrastat-stefnur og vörukóða. Líttu á þetta sem sýndarsköpun í Excel-töflu. Fyrir hverja færslu er lína þar sem fyrsta “blokk” dálkinn er fyllt út með gildunum “Innflutningur” og “Útflutning” til samræmis. Önnur blokk "færsla" er fyllt út með gildi vörukóða og þriðja dálkinn "InvoicedAmountEUR" er fyllt út með gildi upphæðar reiknings.  
+    * Taka saman gildi reikningsfærð upphæð fyrir línur í þessari röð. Niðurstöður verður notað með heitinu „InvoicedAmountEUR” aðskilið fyrir mismunandi intrastat-stefnur og vörukóða. Líttu á þetta sem sýndarsköpun í Excel-töflu. Fyrir hverja færslu er lína þar sem fyrsti dálkurinn „blokk” er fylltur út með gildunum „Innflutningur” og „Útflutningur” til samræmis. Önnur blokk „skrá” er fyllt út með gildi vörukóða og þriðja dálkinn „InvoicedAmountEUR” er fyllt út með gildi upphæðar reiknings.  
 73. Í trénu skal víkka út 'Intrastat\Data\Arrivals?'.
 74. Í trénu skal víkka út 'Intrastat\Data\Arrivals?\Record = Intrastat.CommodityRecord'.
 75. Smellið á flipann snið.
 76. Í trénu skal velja 'Intrastat\Data\Arrivals\Record\Invoice amount EUR'.
 77. Smelltu á flipann Vörpun.
-78. Smeltu á hnappinn breyta fyrir reitinn ‘heiti lykils fyrir söfnuð gögn’.
+78. Smeltu á hnappinn breyta fyrir reitinn „Heiti lykils fyrir söfnuð gögn”.
 79. Í trénu skal velja '$InvName'.
 80. Smellt er á Bæta við gagnagjafa.
 81. Smellið á „Vista“.

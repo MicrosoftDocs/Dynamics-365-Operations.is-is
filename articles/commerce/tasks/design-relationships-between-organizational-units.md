@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a5592e41ef8f2a082646b9024af0d91917bb451a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2c6502a05d3cc53d8031b9f8e365454556513c3c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022898"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140847"
 ---
 # <a name="design-the-relationships-between-organizational-units"></a>Hanna tengsl milli eininga fyrirtækisins
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta ferli fer í gegnum hvernig hanna skal tengslin á milli fyrirtækiseininga. Verður að stofna nýtt málefni fyrirtækis áður en vensl eru skilgreind, eða hægt er að nota fyrirliggjandi málefni fyrirtækis. Sýnigögn fyrirtækisins fyrir að ljúka þetta ferli er USRT. Þetta verk er ætluð fyrir á hlutverk stjórnanda.
 

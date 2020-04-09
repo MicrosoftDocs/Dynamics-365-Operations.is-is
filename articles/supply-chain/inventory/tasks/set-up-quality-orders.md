@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0119ae07e490f048dbb021983e25889cb1cb42b3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 9760aeb823730581aa1f02db1574e6f5eccd1f75
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845352"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145641"
 ---
 # <a name="set-up-quality-orders"></a>Setja upp gæðapantanir
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þessi verklýsing sýnir hvernig á að virkja gæðastjórnunarferli þar sem innhreyfingar birgða verða skoðaðar strax eftir komuskráningu. Ferlið er yfirleitt framkvæma með gæðastjóra. Ferlið inniheldur stofnun gæðaflokks til að skilgreina vörurnar sem á að nota sem sýni, og prófunarflokk til að flokka prófanir sem á að framkvæma á vörum í gæðaflokkinn. Hægt er að keyra þessari leiðbeiningar í sýnigögnum USMF-fyrirtækisins.
 
@@ -35,7 +35,7 @@ ms.locfileid: "1845352"
 1. Farðu í **Skoðunarrúðu > Kerifseiningar > Birgðastýring > Uppsetning > Birgðir og færibreytur vöruhúsakerfis**.
 2. Smelltu á flipann **Gæðastjórnun**.
 3. Setja skal **Nota gæðastjórnun** valkosturinn á Já.
-4. Smelltu á **Uppsetningu Skýrslu**. Á USMF, er skýrsluuppsetning fyrir gæðastjórnun er þegar skilgreind. Hafi þetta ekki verið gert myndirðu bæta við nýjum línum hér fyrir mismunandi skýrslugerðir, og veldu gerð skjals sem á að nota fyrir hverja skýrslu.  
+4. Smelltu á **Uppsetningu Skýrslu**. Á USMF, er skýrsluuppsetning fyrir gæðastjórnun er þegar skilgreind. Ef þetta var ekki gert myndirðu bæta við nýjum línum hér fyrir mismunandi skýrslugerðir, og veldu gerð skjals sem á að nota fyrir hverja skýrslu.  
 5. Lokið síðunni.
 6. Lokið síðunni.
 
@@ -72,7 +72,7 @@ ms.locfileid: "1845352"
 2. Smellt er á **Nýtt**.
 3. Í reitnum **vörusýnishorn** færirðu inn gildi.
 4. Í reitinn **Lýsing** skal slá inn gildi.
-5. Í reitnum **Gildi** skal slá inn númer. Gildið á við um tilgreint magn sem er valin í aðliggjandi svæði.  
+5. Í reitnum **Gildi** skal slá inn númer. Gildið á við um tilgreint magn sem er valið í aðliggjandi reit.  
 6. Stækka eða fella saman hlutann **ferli**.
 7. Veljið eða hreinsið gátreitinn **Full lokun**. Ef þessi valkostur er valinn er heil lota eða pöntunarlínumagn læst ef prófun mistókst. Ef þú velur hana ekki, eru aðeins vörur í gæðapöntuninni læstar.  
 8. Smellt er á **Vista**.
@@ -96,7 +96,7 @@ ms.locfileid: "1845352"
 ## <a name="create-a-test-group"></a>Stofna prófunarflokk
 1. Farðu í **Birgðastjórnun > Uppsetning > gæðaeftirlit > prófunarflokkar**.
 2. Smellt er á **Nýtt**.
-3. Færa inn gildi í svæðinu **prófunarflokkur**. Gefðu **prófunarflokksins** heiti sem auðveldar að muna hvers konar prófanir verið er að keyra og hvaða gæðaflokk það ætti að vera tengd við. Til dæmis, það er til að nota með gæðaflokk sem velur vörur frá og með "T", hægt væri að kalla það "T vöru prófanir".  
+3. Færa inn gildi í svæðinu **prófunarflokkur**. Gefðu **prófunarflokksins** heiti sem auðveldar að muna hvers konar prófanir verið er að keyra og hvaða gæðaflokk það ætti að vera tengd við. Til dæmis, það er til að nota með gæðaflokk sem velur vörur frá og með „T”, hægt væri að kalla það „T vöru prófanir”.  
 4. Í reitinn **Lýsing** skal slá inn gildi.
 5. Í svæðinu **vörusýni**, veljið línu vörusýnis sem var stofnuð áður.
 6. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
@@ -116,7 +116,7 @@ ms.locfileid: "1845352"
 1. Fara í **Birgðastjórnun > Uppsetning > gæðaeftirlit > gæðatengingar**.
 2. Smellt er á **Nýtt**.
 3. Veljið valkost í svæðinu **Gerð tilvísunar**.
-4. Í reitnum **vörukóði** er valið 'flokkur'. Í þessu dæmi er velja "Flokkur" og nota gæðaflokkinn sem var stofnuð áður. Þú gæti einnig stillt þetta á "Töflu" til að tilgreina vörur handvirkt eða velja "Allt" til að bæta öllum vörum við gæðapöntun.  
+4. Í reitnum **vörukóði** er valið 'flokkur'. Í þessu dæmi veljum við „Flokkur” og notum gæðaflokkinn sem var stofnaður áður. Þú gæti einnig stillt þetta á "Töflu" til að tilgreina vörur handvirkt eða velja "Allt" til að bæta öllum vörum við gæðapöntun.  
 5. Í svæðinu **vara**, veljið gæðaflokk sem var stofnuð áður. Tiltækir valkostir í svæðinu Vöru eru háð stillingu í svæðinu fyrir vörukóði.  
 6. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 7. Stækka eða fella saman hlutann ferli.

@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c54f7a9800bb0fcfb23f0c6c4d16f48bee8c28d
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: c391a29e72b004cf4f7f998de5a74cf5ec1ac520
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867126"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149735"
 ---
 # <a name="create-a-purchase-order"></a>Stofna innkaupapöntun
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Þetta efni sýnir hvernig á að stofna innkaupapöntun handvirkt. Dæmigerðara er fyrir innkaupapantanir að stofnast sjálfkrafa sem afleiðing af aðaláætlanagerð, bein afhending og önnur ferli. Innkaupapöntun eru yfirleitt stofnaðar af innkaupastjórar. Dæmi sýnd hér er hægt að nota í USMF sýnigögn fyrirtækis með gildum sem eru lögð til í athugasemdir fyrir mismunandi skref.
+Þetta efni sýnir hvernig á að stofna innkaupapöntun handvirkt. Dæmigerðara er fyrir innkaupapantanir að stofnast sjálfkrafa sem afleiðing af aðaláætlanagerð, beinni afhendingu og öðrum ferlum. Innkaupapöntun eru yfirleitt stofnaðar af innkaupastjórar. Dæmi sýnd hér er hægt að nota í USMF sýnigögn fyrirtækis með gildum sem eru lögð til í athugasemdir fyrir mismunandi skref.
 
 
 ## <a name="create-the-purchase-order-header"></a>Stofna haus innkaupapöntunar
@@ -57,7 +57,7 @@ ms.locfileid: "1867126"
 
     - Tilgreinið magnið sem á að kaupa. Reiturinn **Magn** er sjálfkrafa fylltur út með minnsta pöntunarmagn afurðar ef þetta er sett upp, eða með gildinu 1.  
     - Í reitnum **Eining** er gefin til kynna mælieining fyrir pantað magn. Venjulega er einingin er sjálfkrafa gefið úr innkaupaeiningu á afurðarsniðmáti, en hægt er að breyta þessu.  
-    - Yfirleitt inniheldur reiturinn **Einingarverð** gildi úr annaðhvort innkaupasamningi eða viðskiptasamningi. Mögulegt er að breyta einingarverðinu í einstaka pöntunarlínum, til dæmis ef einkvæmt verð er samið við lánardrottininn.  
+    - Yfirleitt inniheldur reiturinn **Einingarverð** gildi úr annaðhvort innkaupasamningi eða viðskiptasamningi. Hægt er að breyta einingarverðinu í einstaka pöntunarlínum, til dæmis ef samið er um einkvæmt verð við lánardrottininn.  
     - Reiturinn **Afsláttur** inniheldur afsláttarupphæð á einingu. Þessi afsláttur minnkar því einingarverð samkvæmt afsláttinn. Þennan afslátt er yfirleitt fengið sjálfkrafa frá innkaupasamningum eða viðskiptasamninga en mögulegt er að hnekkja honum í einstökum línum ef einkvæmt afsláttur hefur verið samið við lánardrottininn.  
     - Afsláttarprósenta er hægt að færa inn sem minnkar nettóupphæð línunnar, samkvæmt því. Þessi afsláttarprósenta er oft fengið sjálfkrafa frá innkaupasamningum eða viðskiptasamninga en mögulegt er að hnekkja honum í einstökum línum ef einkvæmt afsláttarprósenta hefur verið samið við lánardrottininn.  
     - Gildið í reitnum **Nettóupphæð** er reiknað úr öðrum reitum í línunni, þar með talið magni, einingarverði, afslætti og afsláttarprósentu. Hægt er að breyta nettóupphæðinni en þá verða reitirnir **Einingaverð**, **Afsláttur** og **Afsláttarprósenta** auðir og þegar bókað er á línuna verður bókuð upphæð í hlutfalli við nettóupphæðina. Yfirleitt er reiturinn **Nettóupphæð** einungis notaður til að birta nettóupphæð línunnar.  
@@ -68,7 +68,7 @@ ms.locfileid: "1867126"
 ## <a name="review-order-totals"></a>Fara yfir samtölu pöntunar
 1. Veldu **Samtals**.
 
-    - Ef þú sérð ekki aðgerðina **Samtölur** skaltu smella á flipann **Innkaupapöntun** á aðgerðastiku.  
+    - Ef þú sérð ekki aðgerðina **Samtölur** skaltu smella á flipann **Innkaupapöntun** á aðgerðastikunni.  
     - Svarglugginn sýnir samtölur fyrir alla pöntunina.  
     - Reiturinn **Val** gerir þér kleift að breyta grundvellinum sem notaður er til að reikna samtölur. Til dæmis gætirðu valið **Magn á innhreyfingarskjali afurða** til að sýna samtölur sem tengjast fjölda afurða sem hafa verið mótteknar, eða **Pantað magn** til að sýna fjölda pantaðra afurða.  
 

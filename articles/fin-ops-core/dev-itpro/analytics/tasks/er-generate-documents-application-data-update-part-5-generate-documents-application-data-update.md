@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 759869577ef30cd3f81eb74103a93cc5d1a3d608
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: dcc00bba4aa92ad089bcab83ee22f79c21ccc252
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042851"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141857"
 ---
-# <a name="generate-documents-that-have-application-data"></a>Búa til skjöl sem eru með forritsgögnum
+# <a name="generate-documents-that-have-application-data"></a>Búa til skjöl sem eru með forritsgögn
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Til að ljúka skrefunum í þessu ferli verður fyrst að ljúka við ferlið, „Rafræn skýrslugerð Búa til skjöl með gagnauppfærslum fyrir forrit (Hluti 4: Breyta sniði)“.
 
@@ -49,7 +49,7 @@ Skrefin í þessu ferli sýna hvernig skal hanna Rafræna skýrslugerð (ER) gru
     Í reitnum „Kóði númeraraðar“, skal færa inn eða velja gildið „Fremri_2“.  
 
 5. ÚtkljáBreytingar Kóði númeraraðar.
-6. Smellið á „Vista“.
+6. Smelltu á Vista.
 7. Lokið síðunni.
 
 ## <a name="run-modified-er-format"></a>Keryra breytt snið Rafræn skýrslugerð

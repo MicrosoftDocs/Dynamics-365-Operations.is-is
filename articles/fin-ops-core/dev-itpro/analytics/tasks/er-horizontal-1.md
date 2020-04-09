@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b616998738d6b6986f157d136fc56e061900ef41
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 501936734b6ec970062d0d2cbcc8a3cdc11b934f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550533"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142364"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>Rafræn skýrslugerð notar svið sem má stækka lárétt til að bæta við dálkum gagnvirkt við í Excel skýrslum (Hluti 1 - Hanna snið)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt snið rafrænnar skýrslugerðar (ER) til að mynda skýrslur sem OPENXML-vinnublöð (Excel) skrár þar sem hægt er að stofna nauðsynlega dálka gagnvirkt sem svið sem má stækka lárétt. Hægt er að framkvæma þessum skrefum í Hvaða fyrirtæki sem er.
 
 Til að ljúka þessum skrefum, verður að ljúka þessum þremur verkefnaleiðbeiningum: 
 
-„Rafræn skýrslugerð Stofna skilgreiningaveitu og merkja hana sem virka“
+„ER Stofna skilgreiningaveitu og merkja hana sem virka”
 
-„Rafræn skýrslugerð Nota fjárhagsvíddir sem gagnaveita (Hluti 1: Hanna gagnalíkan)“
+„Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 1 - hanna gagnalíkan)”
 
-„Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 2: líkanavörpun)“
+„Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 2 - líkanavörpun)”
 
 Einnig þarf að hlaða niður og vista staðbundið afrit af sniðinu með sýniskýrslu sem hægt er að finna hér: [Dæmi um fjárhagsvíddir vefþjónustuskýrslu](https://go.microsoft.com/fwlink/?linkid=862266).
 
@@ -57,12 +57,12 @@ Einnig þarf að hlaða niður og vista staðbundið afrit af sniðinu með sýn
 
 ## <a name="design-the-report-format"></a>Hannaðu snið skýrslu
 1. Smellið á Hönnuður.
-2. Kveikt er á víxlhnappur ‘Birta upplýsingar’.
+2. Kveiku á víxlhnappnum „Birta upplýsingar”.
 3. Í aðgerðasvæðinu er smellt á innflutningur.
 4. Smella á Flytja inn úr Excel
 5. Smellt er á viðhengi
     * Flytja inn sniðmát skýrslu. Notaðu Excel-skráin sem þú sóttir til þess.  
-6. Smellið á „Nýtt“.
+6. Smellið á Nýtt.
 7. Smella á Skrá
 8. Lokið síðunni.
 9. Sláið inn eða veldu gildi í reitnum sniðmát.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 1ba4d09240888f0c533fb07614e75ffecea0742c
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 863403dc3b2444f00f0cac27a494fc49d3d70de7
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124094"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161593"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Tvöfaldur gjaldeyrisstuðningur fyrir virðisaukaskatt
 [!include [banner](../includes/banner.md)]
@@ -34,7 +34,7 @@ Eiginleikinn Tvískiptur gjaldmiðill fyrir Dynamics 365 Finance var kynntur í 
 
 Í fyrri útgáfum var færslum breytt í skýrslugjaldmiðilinn í eftirfarandi röð: 
 
-Heildarfjárhæð færslna var reiknuð í færslugjaldmiðlinum > Færsluupphæðin var umreiknuð í bókhaldsgjaldmiðil > Upphæð bókhaldsgjaldmiðils var umreiknuð í skýrslugjaldmiðilinn
+- Heildarfjárhæð færslna var reiknuð í færslugjaldmiðlinum > Færsluupphæðin var umreiknuð í bókhaldsgjaldmiðil > Upphæð bókhaldsgjaldmiðils var umreiknuð í skýrslugjaldmiðilinn
 
 Eftir að kveikt var á tvískiptum gjaldeyriseiginleika voru færslur umreiknaðar í skýrslugjaldmiðilinn í eftirfarandi röð:
 
@@ -48,8 +48,6 @@ Sem afleiðing af stuðningi við tvískipta gjaldmiðla eru tveir nýir mögule
 - Sjálfvirk staða skattauppgjörs í skýrslugjaldmiðli (losað í útgáfu 10.0.11)
 
 Tvöfaldur gjaldmiðilsstuðningur við virðisaukaskatta tryggir að skattar eru reiknaðir nákvæmlega í skattagjaldmiðlinum og að uppgjörsstaða virðisaukaskatts er reiknuð nákvæmlega bæði í bókhaldsgjaldmiðli og skýrslugjaldmiðli. 
-
-Nýju eiginleikarir eru virkjaðir fyrir viðskiptavini með forskoðun. Til að virkja eiginleikana skaltu hefja þjónustubeiðni um samsvarandi rásir til Microsoft.
 
 ## <a name="sales-tax-conversion"></a>Umskráning virðisaukaskatts
 

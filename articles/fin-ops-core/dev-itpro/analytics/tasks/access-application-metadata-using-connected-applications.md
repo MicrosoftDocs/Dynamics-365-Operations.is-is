@@ -1,6 +1,6 @@
 ---
 title: Aðgangur að lýsigögnum forrits með tengdum forritum
-description: Skrefin í þessu efni útskýra hvernig notandi Regulatory Configuration Service (RCS) getur sett upp nýja líkanavörpun rafrænnar skýrslugerðar með notkun á lýsigögnunum í Finance and Operations
+description: Skrefin í þessu efni útskýra hvernig notandi Regulatory Configuration Service (RCS) getur sett upp nýja líkanavörpun rafrænnar skýrslugerðar með notkun á lýsigögnunum í Finance and Operations.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/29/2019
@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5020b523ca5d76d36f7436a8f43e8629c029e3e8
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 28b8346b916729669af42ca47fe9a882e7a77bd0
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769879"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142202"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Aðgangur að lýsigögnum forrits með tengdum forritum
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Eftirfarandi skref útskýra hvernig notandi Regulatory Configuration Service í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur sett upp nýja líkanavörpun rafrænnar skýrslugerðar með því að nota lýsigögnin í Finance and Operations. Lýsigögn hugbúnaðar verða skoðuð á netinu með því að nota RCS -tengda forritið. Dæmi um líkanavörpun rafrænnar skýrslugerðar verður skilgreint til að fá aðgang að utanríkisviðskiptafærslum. Til að ljúka þessum skrefum verður í RCS fyrst að ljúka skrefunum í efninu [Stofna skilgreiningaveitur og merkja þær sem virkar](er-configuration-provider-mark-it-active-2016-11.md). Ef þú hefur ekki lokið við skrefin í efninu [Fáðu aðgang að lýsigögnum hugbúnaðar með notkun á grunnstillingum rafrænnar skýrslugerðar](access-application-metadata-er-configuration.md), skaltu fara í [Síðu með dæmum um rafræna skýrslugerð](https://go.microsoft.com/fwlink/?linkid=862266) til að sækja og vista eftirfarandi skilgreiningar rafrænnar skýrslugerðar: Foreign trade metadata.xml; Foreign trade model.xml; Foreign trade mapping.xml, og ljúka síðan við skrefin í ferlinu.
 
@@ -54,7 +54,7 @@ Eftirfarandi skref útskýra hvernig notandi Regulatory Configuration Service í
 2. Lokið síðunni. 
 3. Farðu í **Öll vinnusvæði** > **Rafræn skýrslugerð**. 
 4. Smelltu á **Tengd forrit**. 
-5. Gakktu úr skugga um að skilgreint forrit sé byggt á Azura og aðgengilegt fyrir núverandi notanda RCS. Þess er einnig krafist að núverandi notandi RCS hafi aðgang að völdu forriti og hafi verið skráður sem notandi þessara forrits, sem gegnir hlutverki í að gefa honum réttindi til að fá aðgang að lýsigögnum forritsins. 
+5. Gakktu úr skugga um að skilgreint forrit sé byggt á Azure og aðgengilegt fyrir núverandi notanda RCS. Þess er einnig krafist að núverandi notandi RCS hafi aðgang að völdu forriti og hafi verið skráður sem notandi þessara forrits, sem gegnir hlutverki í að gefa honum réttindi til að fá aðgang að lýsigögnum forritsins. 
 6. Smellt er á **Nýtt**. 
 7. Í reitinn **Heiti** slærðu inn „MyConnectedApp“. 
 8. Í reitinn **Forrit** slærðu inn „https:// mycompany.operations.dynamics.com“. 

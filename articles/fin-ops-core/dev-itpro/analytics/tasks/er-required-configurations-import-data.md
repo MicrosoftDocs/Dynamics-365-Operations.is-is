@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48a327fc5033a7478d2ae5e401ffdce6e4546ad0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042874"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143316"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>Rafræn skýrslugerð Stofna nauðsynlegt grunnstillingar til að flytja inn gögn úr ytri skrá
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur sett upp grunnstillingar fyrir Rafræn skýrslugerð til að flytja inn gögn í Microsoft-forritið úr ytri skrá. Í þessu dæmi mun stofna nauðsynlega grunnstillingu Rafræn skýrslugerð fyrir dæmi um fyrirtæki, Litware, Inc. Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar “Stofna grunnstillingarveitu í Rafræna skýrslugerð og merkja hana sem virka”. Hægt er að ljúka þessum skrefum með USMF-gagnasafn. Skrefin er hægt að klára með því að nota USMF gagnasafnið. Þú verður einnig að hlaða niður og vista eftirfarandi skrár á staðnum með því að nota tengla úr efnisatriðinu um rafræna skýrslugerð (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
+Eftirfarandi skref útskýra hvernig notandi í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur sett upp grunnstillingar fyrir Rafræn skýrslugerð til að flytja inn gögn í Microsoft-forritið úr ytri skrá. Í þessu dæmi mun stofna nauðsynlega grunnstillingu Rafræn skýrslugerð fyrir dæmi um fyrirtæki, Litware, Inc. Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar „Stofna grunnstillingarveitu í Rafræna skýrslugerð og merkja hana sem virka”. Skrefin er hægt að klára með því að nota USMF gagnasafnið. Þú verður einnig að hlaða niður og vista eftirfarandi skrár á staðnum með því að nota tengla úr efnisatriðinu um rafræna skýrslugerð (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 
 Rafræn skýrslugerð býður notendum í viðskiptum upp á að geta grunnstillt innflutningsferli á ytri gagnaskjölum í töflur, annaðhvort í .XML eða .TXT sniði. Fyrst verður að setja upp grunnstilling óhlutbundins gagnalíkans og gagnalíkan fyrir Rafræn skýrslugerð, til að standa fyrir gögnin sem flutt eru inn. Næst þarf að skilgreina uppbygging skráarinnar sem flutt er inn og aðferð sem nota til að tengja gögnin úr skránni í óhlutbundið gagnalíkan. Grunnstilling á sniði Rafræn skýrslugerðar sem varpar í uppsett gagnalíkan verður að vera stofnað fyrir þetta óhlutbundið gagnalíkan. Síðan þarf að víkka út grunnstillingu gagnalíkans með vörpun sem lýsir því hvernig innflutt gögn er haldið áfram sem óhlutbundið gögn í gagnalíkani og hvernig notað til að uppfæra töflur.  Grunnstilling gagnalíkans Rafræn skýrslugerðar verður að fylgja ný líkansvörpun sem lýsir bindingu gagnalíkans við áfangastaði forrits.  
 
@@ -36,7 +36,7 @@ Eftirfarandi sviðsmynd sýnir innflutningsmöguleika gagna í Rafræn skýrslug
 ## <a name="add-a-new-er-model-configuration"></a>Bæta við nýrri grunnstillingu líkans í Rafræn skýrslugerð
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
 
-    Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, „Litware, Inc.“ sé tiltæk og merkt Virk. Ef ekki sést þessi skilgreiningarveita, verður fyrst að ljúka við skrefin í ferlinu "Stofna skilgreiningarveitu og merkja hana sem virka".   
+    Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, „Litware, Inc.“ sé tiltæk og merkt Virk. Ef ekki sést þessi skilgreiningarveita, verður fyrst að ljúka við skrefin í ferlinu „Stofna skilgreiningarveitu og merkja hana sem virka”.   
 
 2. Smelltu á Grunnstillingar skýrslugerðar
 
@@ -148,7 +148,7 @@ Framkvæmið þessar vörpun sniðs til prófunar. Notið skrána 1099entries.xm
 8. Smellið á „Breyta“.
 9. Smellt er á Breyta formúla.
 
-    Þegar a.m.k. ein prófun virkar ekki fyrir staka innflutta færslu er þessi færsla merkt sem misheppnuð með eigind gagnaveitu ‘$failed’.  
+    Þegar a.m.k. ein prófun virkar ekki fyrir staka innflutta færslu er þessi færsla merkt sem misheppnuð með eigind gagnaveitu „$failed”.  
 
 10. Lokið síðunni.
 11. Smellið á Hætta við.
@@ -235,7 +235,7 @@ Framkvæmið þessar vörpun sniðs til prófunar. Notið skrána 1099entries.xm
 17. Smellið á „Vista“.
 18. Lokið síðunni.
 19. Lokið síðunni.
-20. Smellið á „Breyta“.
+20. Smella á Breyta.
 
     Ef bráðabótin „KB 4012871 Stuðningur fyrir GER líkanavörpun í aðskildum grunnstillingum með getu til að tilgreina ólíkar gerðir af frumskilyrðum til að nota þær á ólíkar gerðir af Dynamics 365 Finance“ (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ) skal framkvæma næsta skref „Kveikja á flagginu „Sjálfgefið fyrir líkanavörpun““ fyrir grunnstillingu sniðs sem slegin inn. Annars skal sleppa næsta skrefi.  
 

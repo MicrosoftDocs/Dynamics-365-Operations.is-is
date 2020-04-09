@@ -3,7 +3,7 @@ title: Prentari ER-gerð áfangastaðar
 description: Þetta efni útskýrir hvernig þú getur stillt áfangastað prentara fyrir hvern FOLDER eða FILE hluti á rafrænu skýrslugerðarsniðinu (ER) sem er stillt til að búa til skjöl á útleið í annaðhvort PDF eða Microsoft Office snið (Excel\Word).
 author: NickSelin
 manager: AnnBe
-ms.date: 01/16/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 58e067baa130458e3a8e788d978604f208140a03
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 148da191ce4ea99c237895c40ec007a1aa0cd537
+ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019827"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150793"
 ---
-# <a name="PrinterDestinationType"></a>Áfangastaður prentara
+# <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Áfangastaður prentara
 
 [!include [banner](../includes/banner.md)]
 
@@ -64,6 +64,8 @@ Til að gera **Prentari** ákvörðunarstaður í boði í núverandi tilviki Mi
 
 > [!NOTE]
 > Ekki þarf að vera kveikt á valkostinum **Umbreyta í PDF** þegar þú stillir ákvörðunarstað **Prentara**. PDF-umbreytingin í prentunarskyni mun eiga sér stað jafnvel þó að slökkt sé á valkostinum.
+
+Til að nota ákveðna [síðustefnu](electronic-reporting-destinations.md#SelectPdfPageOrientation) þegar þú prentar skjá á útleið á Excel-sniði verðurðu að kveikja á valkostinum **Umbreyta í PDF**. Þegar þú stillir valkostinn **Umbreyta í PDF** á **Já** verður reiturinn **Síðustefna** tiltækur. Í reitnum **Síðustefna** geturðu valið síðustefnu.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

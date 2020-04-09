@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aea3f08ea2d1bd584448c3033aea41eca2a0e3ce
-ms.sourcegitcommit: 0e2e4d8419c03a30d2223662ba8d403a28fa31eb
+ms.openlocfilehash: 54c75696f7147a7a4eb7b9d984936af9c28ef501
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "1870917"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146216"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Setja upp leiðbeiningar um staðsetningu fyrir frágang innkaupapöntunar
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Í þessu efnisatriði er útskýrt hvernig á að setja upp einfaldar staðsetningarleiðbeiningar. Dæmið sem er sýnt stofnar staðsetningarleiðbeiningar til að nota til að ákvarða hvar á að setja vörur sem hafa verið mótteknar fyrir innkaupapöntun. Hægt er að nota þessar verkefnaleiðbeiningar með nefndum gögnum með notkun sýnifyrirtækisins USMF. Frumskilyrði: Þú þarft að stofna ráðstöfunarkóða. Í þessu ferli notum við ráðstöfunarkóða sem kallast Endurmerkja. Ef þú ert að stofna staðsetningarleiðbeiningar í eigin gögnum þarftu að hafa sett upp ítarlegt vöruhúsakerfi fyrir vöruhúsið þitt og vörurnar. Þetta ferli er ætluð fyrir stjórnanda í vöruhúsi.
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 116085a71e872c13bbf2820f4408e3c7d1261d17
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: ba585a9bb1a296bbf7181530e151d737bfa22fc2
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924424"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149597"
 ---
 # <a name="create-a-vendor-account"></a>Stofna lánardrottnalykil
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þessi verklýsing sýnir hvernig á að stofna lánardrottnalykill, og bæta við aðsetur og tengslaupplýsingar. Ferli sem sýna ekki hvernig á að fylla út alla reiti fyrir málefni innkaupa og fjármála. Frekari upplýsingar um þessi svæði, vinsamlegast lesið í lýsingum svæða. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Lánardrottnalykla eru yfirleitt stofnaðar eftir fagmanns á sviði innkaupa eða starfsfólks í viðskiptakröfum.
 
@@ -35,8 +35,8 @@ ms.locfileid: "1924424"
 2. Smellt er á **Nýtt**.
 3. Í svæðinu **Lánardrottnalykill** skal slá inn gildi.
     - Gildið gæti verið fyllt út sjálfkrafa. Ef svo er má Sleppa þessu skrefi  
-    - Hægt er að stofna lánardrottnalykla fyrir einstakling eða fyrirtæki. Þetta hefur áhrif á hvaða svæði eru tiltæk. Í þessu dæmi munum við stofna lánardrottinslykil fyrir fyrirtæki   
-4. Sláið inn eða veldu gildi í reitnum **Heiti**. Ef lánardrottinn er til þegar skráður aðila í kerfinu þínu er hægt nota fellilista og velja þau í þessu svæði og nýja lánardrottnalykil munu erfa aðsetur og upplýsingar tengiliðs sem þegar eru skráðar.
+    - Hægt er að stofna lánardrottnalykla fyrir einstakling eða fyrirtæki. Þetta hefur áhrif á hvaða svæði eru tiltæk. Í þessu dæmi munum við stofna lánardrottinslykil fyrir fyrirtæki.   
+4. Sláið inn eða veldu gildi í reitnum **Heiti**. Ef lánardrottinn er til þegar skráður aðili í kerfinu er hægt nota fellilista og velja þau í þessum reit og nýr lánardrottnalykill mun erfa aðsetur og upplýsingar tengiliðs sem þegar eru skráðar.
 5. Sláið inn eða veldu gildi í reitnum **Hópur**. Flokkur lánardrottins er notuð til að flokka lánardrottna sem hafa einhverjar eftirfarandi færibreytur: Greiðsluskilmála; jafna tímabil; birgðabókunarfjárhagslyklar, þar á meðal vsk-flokkur; sjálfgefna fjárhagslykla; afurðasíukóðar eða skilgreiningu eftirspurnarspár.
 6. Í reitinn **Fjöldi starfsmanna** skal færa inn tölu.
 7. Í reitinn **Númer fyrirtækis** skal slá inn gildi.

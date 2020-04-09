@@ -3,7 +3,7 @@ title: Virkja ADLS í Dynamics 365 Commerce umhverfi
 description: Þetta efni útskýrir hvernig á að virkja og prófa Azure Data Lake Storage (ADLS) fyrir Dynamics 365 Commerce umhverfi, sem er forsenda þess að hægt sé að gera ráð fyrir afurð.
 author: bebeale
 manager: AnnBe
-ms.date: 03/12/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 553e1512ba72559923403eef741ce08222172a09
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: 3c037f5603af5af84917084eefa1edd508891c0d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127768"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154437"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>Virkja ADLS í Dynamics 365 Commerce umhverfi
 
@@ -98,8 +98,6 @@ Ef ekki er lokið þegar, fylgdu skrefunum fyrir [sem gerir ráð fyrir vöru og
 [Kveikja á sérsniðnum tillögum](personalized-recommendations.md)
 
 [Afþakka sérsniðnar tillögur](personalization-gdpr.md)
-
-[Bæta við tillögulistum við vefsvæði fyrir rafræn viðskipti](add-reco-list-to-page.md)
 
 [Bæta afurðaráðleggingum við sölustað](product.md)
 

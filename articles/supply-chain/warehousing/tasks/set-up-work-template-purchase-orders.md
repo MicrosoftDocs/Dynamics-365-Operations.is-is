@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 227a6865df826caf8ce154f9c44ebe082acd76a5
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 473bb133159bb6cdcbbd30ab2c8452eb69f8cfaf
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916739"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148197"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Setja upp vinnusniðmát fyrir innkaupapantanir
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þetta efni lýsir hvernig setja skal upp einfalt vinnusniðmát sem nota á þegar taka á frá mótteknar vörur. Vinnusniðmát ákvarða safn leiðbeiningarnar sem birtast starfsmanns vöruhús í farsíma þegar fluttar eru vörur frá móttöku svæði. Hægt er að nota þessi ferli með gögn sem eru nefnd í sýnigögn fyrirtækisins USMF. Áður en byrjað er í þessari handbók, stofna kenni vinnuhóps. Í þessu dæmi er kenni vinnuhóps kallað inn í Á innleið notað. Þetta ferli er ætluð fyrir stjórnanda í vöruhúsi.
 

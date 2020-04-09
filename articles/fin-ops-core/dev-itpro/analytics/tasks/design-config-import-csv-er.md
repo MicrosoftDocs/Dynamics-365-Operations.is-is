@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf27590d80bbaf7749a0b6e69adc63ddcf4f9380
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c8511b83a5d327f6a1d5c9ace091eae9e546307b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185153"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142250"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>Hanna ER skilgreiningar til að flytja inn gögn úr ytri CSV-skrám
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Nota skal þetta til að hanna grunnstillingar rafrænnar skýrslugerðar til að flytja inn gögn í forritið, úr ytri skrá á CSV-sniði. Í þessu ferli mun notandi flytja inn þær grunnstillingar rafrænnar skýrslugerðar sem krafist er fyrir sýnifyrirtækið Litware, Inc. Til að ljúka þessum skrefum verður fyrst að ljúka skrefum ferlisins „Rafræn skýrslugerð Stofna grunnstillingarveitu og merkja hana sem virka“. 
 
@@ -35,7 +35,7 @@ Enn fremur þarftu að hlaða niður og vista eftirfarandi skrár staðbundið: 
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
     * Hægt er að stilla ferli á að flytja ytri skrár á XML, TXT eða CSV-sniði í töflur í forritið. Í fyrsta lagi þarf að búa til sértækt gagnalíkan til að tákna innflutt gögn, frá sjónarmiði fyrirtækis - stilling gagnalíkans rafrænnar skýrslugerðar er búin til fyrir það. Næst skal skilgreina uppbyggingu innfluttu skráarinnar sem er varpað í viðkomandi gagnalíkan sem leið til að flytja inn gögn úr skránni í sértaka gagnalíkanið - stilling sniðs rafrænnar skýrslugerðar er búið til fyrir það. Síðan þarf að víkka út stillingu gagnalíkans fyrir rafræna skýrslugerð með nýrri líkanavörpun sem lýsir því hvernig gögnin í innfluttu skránni og varanlegum gögnum úr sértæka gagnalíkaninu eru notuð til að uppfæra forritatöflurnar eða gagnaeiningar.  
     * Eftirfarandi skref sýna hvernig raktar færslur ytri lánardrottins eru fluttar inn úr ytri CSV-skrá til síðari notkunar í uppgjöri lánardrottins fyrir 1099 formið.   
-    * Sannprófið að grunnstillingarveita fyrir sýnifyrirtækið Litware, Inc. sé tiltæk og merkt sem virk. Ef þessi skilgreiningarveita sést ekki, verður fyrst að ljúka við skrefin í ferlinu „Stofna skilgreiningarveitu og merkja hana sem virka“.  
+    * Sannprófið að grunnstillingarveita fyrir sýnifyrirtækið Litware, Inc. sé tiltæk og merkt sem virk. Ef ekki sést þessi skilgreiningarveita, verður fyrst að ljúka við skrefin í ferlinu „Stofna skilgreiningarveitu og merkja hana sem virka”.  
 2. Smelltu á Grunnstillingar skýrslugerðar
 3. Notaðu síuna '1099 Greiðslulíkan'. Ef ferlinu „Búa til nauðsynlegar skilgreiningar til að flytja inn gögn úr ytri skrá fyrir rafræna skýrslugerð (ER)“ og „1099 Greiðslulíkan“ stillingin er í boði í stillingatrénu skal sleppa öllum skrefunum í næsta undirverkefni.   
 
@@ -74,20 +74,20 @@ Enn fremur þarftu að hlaða niður og vista eftirfarandi skrár staðbundið: 
 7. Í trénu skal velja „Á innleið: Skrá\Rót: Röð\Lína: Röð 1..* \Gerðir: Tilvik\Haus: Röð 1..1 “.
     * Einingin Rót\Lína\Gerðir\Haus af gerðinni SEQUENCE inniheldur faldaða STRING einingu þar sem gildið hefur verið skilgreint sem fast strengjagildi. Þessi röð mun þátta hauslínuna á þáttunarskránni.   
 8. Í trénu skal velja „Á innleið: Skrá\Rót: Röð\Lína: Röð 1..* \Gerðir: Tilvik\Færsla: Röð 1..1 (,)“.
-    * Einingin Rót\Lína\Gerðir\Færsla af gerðinni SEQUENCE hefur verið stillt á að þátta færslulínurnar. Athugið að stafavalkosturinn 'Sérsniðið skiltákn' hefur verið stillt sem komma. Þetta þýðir að komman verður notuð sem aðgreining fyrir þessa gerð línu í þáttunarskránni.   
-    * Athugið að nokkrir faldaðir þættir af mismunandi gagnagerðum hefur verið bætt við eininguna Rót\Lína\Gerðir\Færsla fyrir þáttun færslulínanna sem aðskildir reitir. Athugaðu að valkosturinn „Tilboðs“ hefur verið stilltur sem „Ekkert“. Þetta þýðir að í þáttunarskránni verður litið svo á að allir reitir af þessari gerð hafi enga meðfylgjandi stafi.   
+    * Einingin Rót\Lína\Gerðir\Færsla af gerðinni SEQUENCE hefur verið stillt á að þátta færslulínurnar. Athugið að stafavalkosturinn „Sérsniðið skiltákn” hefur verið stilltur sem komma. Þetta þýðir að komman verður notuð sem aðgreining fyrir þessa gerð línu í þáttunarskránni.   
+    * Athugið að nokkrir faldaðir þættir af mismunandi gagnagerðum hefur verið bætt við eininguna Root\Line\Types\Record fyrir þáttun færslulínanna sem aðskildir reitir. Athugaðu að valkosturinn „Notkun gæsalappa“ hefur verið stilltur sem „Ekkert“. Þetta þýðir að í þáttunarskránni verður litið svo á að allir reitir af þessari gerð hafi enga meðfylgjandi stafi.   
 9. Í trénu skal velja „Á innleið: Skrá\Rót: Röð\Lína: Röð 1..* \Gerðir: Tilvik\Færsla: Röð 1..1 (,)\Dagsetning færslu: DateTime“.
-    * Til dæmis er einingin Root\Line\Types\Record\TransactionDate af gerðinni DATETIME stillt á að fá færsludagsetningar og tímagildi úr þáttunarskrá á „M/d/áááá“-sniði.   
+    * Til dæmis er einingin Root\Line\Types\Record\TransactionDate af gerðinni DATETIME stillt á að fá færsludagsetningar og tímagildi úr þáttunarskrá á „M/d/yyyy“-sniði.   
 10. Í trénu skal velja „Á innleið: Skrá\Rót: Röð\Lína: Röð 1..* \Gerðir: Tilvik\Færsla: Röð 1..1 (,)\Landskóði: Strengur 0..1“.
     * Athugið að einingin Rót\Lína\Gerðir\Færsla\Landskóði af gerðinni STRING hefur verið stillt þannig að hún hafi valkostinn „Núll einn“ í reitnum „Margfeldi“. Þessi stilling tekur gildi CountryCode reitsins í flokkalínunni sem valfrjálst.   
 11. Í trénu skal velja „Á innleið: Skrá\Rót: Röð\Lína: Röð 1..* \Gerðir: Tilvik\Færsla: Röð 1..1 (,)\Athugasemd: Röð 1..1 (,)“.
-    * Athugið að einingin Rót\Lína\Gerðir\Færsla\Athugasemd af gerðinni SEQUENCE hefur verið stillt þannig að hún hafi valkostinn „Allt“ í reitnum „Notkun gæsalappa“ og staf með tvöföldum gæsalöppum í reitnum 'Gæsalappir'. Það þýðir að allir reitir af þessari gerð af línum í þáttaskránni (sem lýst er með földuðum einingum: Texti af STRING-gerð) telst vera innan gæsalappa.  
+    * Athugið að einingin Rót\Lína\Gerðir\Færsla\Athugasemd af gerðinni SEQUENCE hefur verið stillt þannig að hún hafi valkostinn „Allt“ í reitnum „Notkun gæsalappa“ og staf með tvöföldum gæsalöppum í reitnum „Gæsalappir”. Það þýðir að allir reitir af þessari gerð af línum í þáttaskránni (sem lýst er með földuðum einingum: Texti af STRING-gerð) telst vera innan gæsalappa.  
 12. Í trénu skal velja „Á innleið: Skrá\Rót: Röð\Lína: Röð 1..* \Gerðir: Tilvik\Óþáttað: Röð 1..1 “.
     * Einingin Rót\Lína\Gerðir\Óþáttað af gerðinni SEQUENCE hefur verið stillt á að þátta færslulínurnar fyrir uppbygginguna sem passar ekki við uppbygginguna sem lýst er hér að ofan í CASE yfireiningunni.   
 
 ## <a name="review-the-setting-of-the-format-mapping-to-the-data-model"></a>Fara yfir stillingu á vörpun sniðs í gagnalíkan
 1. Smellt er á Varpa sniði á líkan.
-    * Líkanavörpunin 'Kortlagning á líkani úr CSV-sniði' lýsir gagnaflæði gagnaflutningsins frá móttekinni CSV-skrá í gagnasniðið.   
+    * Líkanavörpunin „Kortlagning á líkani úr CSV-sniði” lýsir gagnaflæði gagnaflutningsins frá móttekinni CSV-skrá í gagnasniðið.   
 2. Smellið á Hönnuður.
 3. Í trénu skal víkka út „snið“.
     * Athugið að uppsett snið er sett hér fram sem íhlutur gagnaveitu.  
@@ -102,7 +102,7 @@ Enn fremur þarftu að hlaða niður og vista eftirfarandi skrár staðbundið: 
     * Athugið að skyldubundnar og valkvæmar sniðseiningar, á borð við TransactionDate og CountryCode, líta öðruvísi út í fyrirframskilgreindum íhluti gagnaveitu „sniðs“.   
 12. Í trénu skal víkka út 'Transactions = '$both''.
     * Athugið að einingar sniðsins sem skilgreinir uppbyggingu innfluttrar skrár eru festar við einingar í gagnalíkani. Út frá þessum bindingum verður innihald þessara innfluttu CSV-skráa vistað í keyrslutíma í fyrirliggjandi gagnalíkani. Athugið sérstaklega bindingu CountryRegion einingarinnar. Fyrir hverja færslueiningu í skrá á innleið sem ekki er með slíka gagnakóðagildi verður fyllt út í gagnalíkan með sjálfgefnum landskóða „USA“.   
-13. Velja skal „Sýna upplýsingar“.
+13. Kveikið á „Sýna upplýsingar“.
 14. Smellt er á flipann Sannprófanir.
 15. Smellið á leita.
 16. Í svæðinu Finna færirðu inn „vend“.

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec792ca27bf0245ff25e59cfe28122f17caec7fc
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 81b0e33d8f721cfcfd437e34b42a909798a6514b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1866851"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147458"
 ---
 # <a name="create-a-purchase-agreement"></a>Stofna innkaupasamning
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þetta efni leiðbeinir við stofnun innkaupasamnings. Þetta verk myndi yfirleitt gert af innkaupastjóra. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Þú Þarft að hafa sett upp flokkanir innkaupasamnings áður en byrjað er. Þegar Innkaupapöntun er stofnuð og hægt er að nota hana þegar þú stofnar innkaupapöntun, og það afrita skilyrði innkaupasamnings í haus og allar línur í pöntun sem verða fyrir áhrifum af samninginn.
 
@@ -42,8 +42,8 @@ ms.locfileid: "1866851"
 
 7. Í reitinn **Heiti skjals** skal færa inn heiti fyrir innkaupasamninginn.
 
-    - Hafðu reitinn **Sjálfgefin ráðstöfun** að vera stillt á **Ráðstafað afurðarmagn** (eða breyttu honum, ef hann er ekki stilltur á þetta).  
-    - Sjálfgefin ráðstöfunargildið ákvarðar valkostirnir þínir á samningslínur. Ef ný ráðstöfunargerð er þörf þegar verið er að stofna samningslínur, þarftu að breyta sjálfgefin ráðstöfun í haus. Til eru 4 gerðir ráðstafana: **Ráðstöfun afurðarmagns** - fyrir ákveðið magn afurðar; **Ráðstöfunarvirði afurðar** - fyrir tiltekna gjaldmiðilsupphæð afurðar; **Ráðstöfunarvirði vörutegundar** - fyrir upphæð í tilteknum gjaldmiðli í innkaupaflokki þar sem upphæðin getur verið fyrir vöru í vörulista eða vöru sem er ekki á vörulista; **Ráðstöfunarvirði** - fyrir tiltekna gjaldmiðilsupphæð sem getur verið uppfyllt af hvaða vöru eða af hvaða innkaupategund sem er.  
+    - Hafðu reitinn **Sjálfgefin ráðstöfun** stilltan á **Ráðstafað afurðarmagn** (eða breyttu honum, ef hann er ekki stilltur á þetta).  
+    - Sjálfgefin ráðstöfunargildið ákvarðar valkostirnir þínir á samningslínur. Ef nýrrar ráðstöfunargerðar er þörf þegar verið er að stofna samningslínur, þarftu að breyta sjálfgefinni ráðstöfun í hausnum. Til eru 4 gerðir ráðstafana: **Ráðstöfun afurðarmagns** - fyrir ákveðið magn afurðar; **Ráðstöfunarvirði afurðar** - fyrir tiltekna gjaldmiðilsupphæð afurðar; **Ráðstöfunarvirði vörutegundar** - fyrir upphæð í tilteknum gjaldmiðli í innkaupaflokki þar sem upphæðin getur verið fyrir vöru í vörulista eða vöru sem er ekki á vörulista; **Ráðstöfunarvirði** - fyrir tiltekna gjaldmiðilsupphæð sem getur verið uppfyllt af hvaða vöru eða af hvaða innkaupategund sem er.  
 
 8. Veljið **Í lagi**.
 

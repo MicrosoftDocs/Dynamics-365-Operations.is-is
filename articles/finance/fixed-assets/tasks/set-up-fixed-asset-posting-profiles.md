@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 494af854d408f0b0c02d753ff3d24eb3d6216fd9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 07961d8613b6b5e0e1c5dc6a91b554305dcb17f5
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178255"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138162"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Setja upp bókunarreglur fyrir eignir
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þessi leiðarvísi fyrir verk setja upp bókunarreglur eigna.  Það notar Bókari hlutverk og sýnigögn fyrir USMF lögaðila.  Dæmi í leiðarvísi fyrir verk eru fyrir grunn bókunarreglu, þó verður að stofna bókunarreglur fyrir tiltekinn bókhaldslykil og kröfur fyrir fjárhagsskýrslu.
 
@@ -34,7 +34,7 @@ ms.locfileid: "2178255"
 3. Í reitinn **bókunarregla** skal færa inn gildi.
 4. Í reitinn **Lýsing** skal slá inn gildi. Þarf að stofna bókunarreglu fyrir hverja tegund eignafærslu sem verður notuð þegar unnið er með eignir. Þessi leiðarvísi fyrir verk byrja á ferðinni kaupfærsla.  
 5. Smellið á **Bæta við** á tækjastikunni.
-6. Sláið inn eða veldu gildi í reitnum **Bók**. svæðið **Flokkanir** gerir kleift að skilgreina bókunarreglu niður í Töflu (einum lykli sett upp fyrir hverja eign) eða Flokkur (einum lykli sett upp fyrir hvern eignaflokk). Í þessum verkefnaleiðbeiningar skal skilja eftir gildið stillt á „Allt“ til að nota á allar eignir í tilgreindan bók.  
+6. Sláið inn eða veldu gildi í reitnum **Bók**. svæðið **Flokkanir** gerir kleift að skilgreina bókunarreglu niður í Töflu (einum lykli sett upp fyrir hverja eign) eða Flokkur (einum lykli sett upp fyrir hvern eignaflokk). Í þessum verkefnaleiðbeiningar skal skilja eftir gildið stillt á „Allt“ til að nota á allar eignir í tilgreinda bók.  
 7. Í reitnum **Aðallykill** skal skilgreina æskileg gildi. Fyrir Kaup, hægt að færa inn mótlykil eða hafa það autt til að fylla út fyrir tiltekna færslu.    
 8. Í fellivalmyndinni undir flýtiflipanum **Fjárhagslyklar**, veldu „Aðlögun yfirtöku“. Fyrir Leiðréttingarfærslna kaupa, nota sömu lyklar sem notað fyrir kaupfærsla.  
 9. Smelltu á **Bæta við**.
@@ -63,7 +63,7 @@ ms.locfileid: "2178255"
 32. Sláið inn eða veldu gildi í reitnum **Bók**.
 33. í svæðinu **Bóka gildi** Veljið 'Kaupvirði'.
     * Kaupvirði verður á við um Kaup og leiðréttinggildi kaupa fyrir öll árin. Einnig er hægt að skilgreina lykla fyrir þessar færslugerð sérstaklega.  
-    * Hægt er að setja afskráningarferlið til að nota á mismunandi lykla eftir því hvort afskráning leiðir hagnaður eða taps. Gerð söluvirði verður stillt á "Allt" til að nota sömu lyklar fyrir allar gerðir afskráningar.  
+    * Hægt er að setja afskráningarferlið til að nota á mismunandi lykla eftir því hvort afskráning leiðir hagnaður eða taps. Gerð söluvirði verður stillt á „Allt” til að nota sömu lyklar fyrir allar gerðir afskráningar.  
 34. Í reitnum **Aðallykill** skal skilgreina æskileg gildi.
 35. Í reitnum **Mótlykill** skal skilgreina æskileg gildi.
 36. Smelltu á **Bæta við**.

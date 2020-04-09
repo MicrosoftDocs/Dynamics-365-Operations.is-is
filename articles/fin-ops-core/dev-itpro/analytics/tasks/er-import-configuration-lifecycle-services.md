@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0830707885e8ed52581aa789df0279d78e3a9c10
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 67e09e3187ac49e12727116f55066b64a386e2de
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184831"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142387"
 ---
 # <a name="er-import-a-configuration-from-lifecycle-services"></a>Rafræn skýrslugerð Flytja inn skilgreiningu úr Lifecycle Services
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur flutt inn nýja útgáfu af skilgreiningarsnið fyrir rafræna skýrslugerð (ER) úr Microsoft Lifecycle Services (LCS).
 
@@ -36,15 +36,15 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þr
 
 ## <a name="delete-a-shared-version-of-data-model-configuration"></a>Eyða samnýttu útgáfu skilgreiningar gagnalíkans.
 1. Veljið 'dæmi um skilgreiningu líkans', í trénu.
-    * Fyrsta útgáfa af dæmi um skilgreiningu gagnalíkans hefur verið stofnuð og birt í LVS á meðan á ferlinu "hlaða upp skilgreiningu Rafræn skýrslugerð í Lifecycle Services" stóð. Í þessu ferli verður að eyða þessi útgáfa skilgreiningar Rafræn skýrslugerð. Þessi útgáfa af dæmi um skilgreiningu gagnalíkans verður flutt inn síðar úr LCS.  
+    * Fyrsta útgáfa af dæmi um skilgreiningu gagnalíkans hefur verið stofnuð og birt í LVS á meðan á ferlinu „Hlaða upp skilgreiningu Rafræn skýrslugerð í Lifecycle Services” stóð. Í þessu ferli verður að eyða þessi útgáfa skilgreiningar Rafræn skýrslugerð. Þessi útgáfa af dæmi um skilgreiningu gagnalíkans verður flutt inn síðar úr LCS.  
 2. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-    * Veljið útgáfu þessarar skilgreiningar sem er í stöðunni "samnýtt". Þessi staða tilgreinir að skilgreiningin sé nú birt í LCS.  
+    * Veljið útgáfu þessarar skilgreiningar sem er í stöðunni „Samnýtt”. Þessi staða tilgreinir að skilgreiningin sé nú birt í LCS.  
 3. Smellið á „Breyta stöðu“.
 4. Smellið á hætta notkun.
-    * Breyta stöðu valda útgáfu úr 'Samnýttum' til 'hætt í notkun" til að gera tiltækt fyrir eyðingu.  
-5. Smellið á „Í lagi“.
+    * Breyta stöðu valinnar útgáfu úr „Samnýtt” í „Hætt í notkun” til að gera tiltækt fyrir eyðingu.  
+5. Smellt er á Í lagi.
 6. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-    * Veljið útgáfu þessarar skilgreiningar sem hefur stöðuna "hætt í notkun".  
+    * Veljið útgáfu þessarar skilgreiningar sem hefur stöðuna „Hætt í notkun”.  
 7. Smellið á Eyða.
 8. Smella á Já.
     * Athugið að eina drög að útgáfu 2 hinnar völdu skilgreiningar gagnalíkans er tiltækt.  
@@ -67,6 +67,6 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þr
 9. Smellt er á Skilgreiningum.
 10. Veljið 'dæmi um skilgreiningu líkans', í trénu.
 11. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-    * Veljið útgáfu þessarar skilgreiningar sem hefur stöðuna "samnýtt".  
+    * Veljið útgáfu þessarar skilgreiningar sem hefur stöðuna "Samnýtt".  
     * Athugið að samnýtt útgáfu 1 hinnar völdu skilgreiningar gagnalíkans er tiltækt nú líka.  
 

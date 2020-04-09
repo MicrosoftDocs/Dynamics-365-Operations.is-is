@@ -3,7 +3,7 @@ title: Kaupkassaeining
 description: Þetta efni fjallar um kaupakassaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 13d044a150651dd18c3a09c4db6a783fe8f42287
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 3417156cbf3cb20a5190e5e51b61b3423816895a
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025460"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154064"
 ---
 # <a name="buy-box-module"></a>Kaupkassaeining
 
@@ -58,7 +58,7 @@ Magnval er veitt svo að viðskiptavinir geti tilgreint magn varanna sem á að 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Einingar sem hægt er að nota í kaupkassaeiningu
 
 - **Miðlasafn** - Þessi eining er notuð til að sýna myndir af afurð á upplýsingasíðu afurðar. Það getur stutt eina til margar myndir. Það styður einnig smámyndir. Hægt er að raða smámyndunum annaðhvort lárétt (sem röð fyrir neðan myndina) eða lóðrétt (sem dálki við hliðina á myndinni). Hægt er að bæta miðlasafnseiningunni við hólfið **Miðlar** í kaupkassaeiningunni. Eins og stendur styður það aðeins myndir. 
-- **Verslunarval** – Þessi eining sýnir lista yfir nærliggjandi verslanir þar sem hægt er að sækja vöru. Það gerir notendum kleift að slá inn staðsetningu til að finna verslanir í nágrenninu. Verslunarvalseiningin er samþætt við Bing Maps Geocoding forritunarviðmót (API) landskóðunar til að umbreyta staðsetningunni í breiddar- og lengdargráðu. Bing Maps API lykils er krafist og bæta verður honum við Retail sameiginlegar færibreytusíðuna í Dynamics 365 Retail. Þessi eining styður tvo eiginleika, **Leitarradíus** og **Tengil í þjónustuskilmála**. Eiginleikinn **Leitarradíus** skilgreinir leitarradíus fyrir verslanir, í mílum. Ef ekkert gildi er tilgreint er sjálfgefinn leitarradíus notaður, 50 mílur. Ef Bings kort eða utanaðkomandi þjónusta er notuð er hægt að nota eiginleikann **Tengill í þjónustuskilmála** til að veita tengil á þjónustuskilmálana. Þjónustuskilmálatengils er krafist fyrir þjónustuna Bing Maps. 
+- **Verslunarval** – Þessi eining sýnir lista yfir nærliggjandi verslanir þar sem hægt er að sækja vöru. Það gerir notendum kleift að slá inn staðsetningu til að finna verslanir í nágrenninu. Fyrir frekari upplýsingar um þessa einingu, sjá [Verslunarvalseiningu](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Stillingar kaupkassaeiningar
 
@@ -93,13 +93,15 @@ Fylgdu þessum skrefum til að bæta kaupkassaeiningu við nýja síðu og still
 
 [Yfirlit byrjendaeiningar](starter-kit-overview.md)
 
+[Verslunarvalseining](store-selector.md)
+
 [Hólfeining](add-container-module.md)
 
 [Körfueining](add-cart-module.md)
 
 [Greiðsluferliseining](add-checkout-module.md)
 
-[Pöntunarstaðfestingareining](order-confirmation-module.md)
+[Eining pöntunarstaðfestingar](order-confirmation-module.md)
 
 [Fyrirsagnareining](author-header-module.md)
 

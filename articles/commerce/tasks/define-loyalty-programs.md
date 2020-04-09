@@ -16,16 +16,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b178f1c6a71b34b70db4dbcd1765117215a4d2a1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 91f30d4d1b66e5b4b90f7df67d8f76a95a100338
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022901"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141316"
 ---
 # <a name="define-loyalty-programs"></a>Skilgreina vildarkerfi
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þessi verklýsing sýnir hvernig á að setja upp vildarkerfi með tveimur vildarlög. Þessi aðferð notar USRT sýnigögn fyrirtækisins.
 
@@ -73,7 +73,7 @@ ms.locfileid: "3022901"
 35. Smellt er á verðflokkur.
     * Ef óskað er að veita vildarviðskiptavini afslætti . Þú þarft að úthluta eina eða fleiri verðflokkum fyrir vildarkerfi og úthluta verðflokkum á afslætti. Góðir starfshættir eru að blanda ekki verðflokkum yfir mismunandi gerðir af afsláttareiningum.  Til dæmis ekki nota sömu verðflokk fyrir afslátt vildarkorts og afslátt rásar.  
 36. Í reitnum verðflokkur skal smella á fellilistahnappinn til að opna leitina.
-    * Verðflokkatengill flokka efst á síðunni er fyrir vildarkerfi. Verðflokkatengillinn í lögum forrits hjá flýtiflipanum er fyrir í tilteknu vildarlag aðeins.  
+    * Verðflokkatengill flokka efst á síðunni er fyrir vildarkerfi. Verðflokkatengillinn í lögum forrits hjá flýtiflipanum er aðeins fyrir tiltekið vildarlag.  
 37. Í listanum skal smella á tengilinn í valinni línu.
 38. Smellið á „Vista“.
 39. Lokið síðunni.

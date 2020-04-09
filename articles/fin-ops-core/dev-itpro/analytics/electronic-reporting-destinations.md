@@ -3,7 +3,7 @@ title: Áfangastaðir fyrir rafræna skýrslugerð
 description: Þetta efni veitir upplýsingar um stjórnun áfangastaða fyrir rafræna skýrslugerð, tegundir áfangastaða sem eru studdir og öryggissjónarmið.
 author: nselin
 manager: AnnBe
-ms.date: 02/07/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2e4c6951afbff367dc93072d20395c3a37fffbcb
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 8a6536c82cd3407626fc0d8e102e3819c80cfd4b
+ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030774"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150816"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Áfangastaðir rafrænnar skýrslugerðar (ER)
 
@@ -114,7 +114,7 @@ Eftir að þú hefur lokið þessari uppsetningu verður valkosturinn **Keyra dr
 
 [![Valkosturinn Keyra drög](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
 
-## <a name="DestinationFailure"></a>Villumeðhöndlun ákvörðunarstaðar
+## <a name="destination-failure-handling"></a><a name="DestinationFailure"></a>Villumeðhöndlun ákvörðunarstaðar
 
 Venjulega er ER snið keyrt innan gildissviðs ákveðins viðskiptaferlis. Hins vegar verður afhending á útgefnu skjali sem myndast við framkvæmd ER sniðs stundum að teljast hluti af því viðskiptaferli. Í þessu tilfelli, ef afhending á mynduðu útgefnu skjali til uppsetts ákvörðunarstaðar er ekki árangursrík, verður að hætta við framkvæmd viðskiptaferlisins. Til að stilla viðeigandi ER áfangastað, veldu valkostinn **Hætta að vinna við villu**.
 
@@ -124,7 +124,7 @@ Til dæmis stillirðu greiðsluvinnslu lánardrottins þannig að **ISO20022 lá
 
 Ef þú hreinsar gátreitinn **Hætta að vinna við bilun** fyrir hlutann **CoveringLetter** í áfangastaðnum, mun greiðsla teljast hafa tekist jafnvel þó að upplýsingabréf hafi ekki borist í tölvupósti. Stöðu greiðslunnar verður breytt úr **Ekkert** í **Sent** jafnvel þó ekki sé hægt að senda fylgibréf vegna þess að til dæmis vantar póstfang viðtakanda eða sendanda eða rangt.
 
-## <a name="OutputConversionToPDF"></a>Útfærsla í PDF
+## <a name="output-conversion-to-pdf"></a><a name="OutputConversionToPDF"></a>Útfærsla í PDF
 
 Þú getur notað PDF viðskipti möguleika til að umbreyta framleiðsla í Microsoft Office-snið (Excel/Word) á PDF snið.
 
@@ -157,6 +157,19 @@ Aðeins er hægt að kveikja á PDF-umbreytingarvalkostinum fyrir skráhluta sem
 Til að kveikja á PDF-ummyndun fyrir skráarstað, veldu gátreitinn **Umbreyta í PDF**.
 
 [![Kveikt á PDF-ummyndun fyrir skráarstað](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+
+### <a name=""></a><a name="SelectPdfPageOrientation">Veldu síðu stefnu fyrir PDF umbreytingu</a>
+
+Ef þú býrð til ER skilgreiningu á Excel sniði og vilt umbreyta því á PDF snið, geturðu tilgreint síðustefnu PDF. Þegar þú velur gátreitinn **Umbreyta í PDF** til að kveikja á PDF umbreytingu fyrir skráarstað sem framleiðir úttaksskrá á Excel-sniði verður reiturinn **Síðustefna** fáanlegur á flýtiflipanum **PDF-umbreytingarstillingar**. Í reitnum **Síðustefna** velurðu valda stefnu.
+
+[![Val á síðustefnu fyrir PDF-umbreytingu](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
+
+> [!NOTE]
+> Til að eiga möguleika á að velja stefnu PDF síðu verður þú að setja upp Microsoft Dynamics 365 Finance útgáfa 10.0.10 (maí 2020) eða nýrri.
+>
+> Valin síðustefna er notuð á allar ER stillingar sem eru búnar til á Excel sniði og síðan breytt í PDF snið.
+>
+> Ef umbreytt PDF er búið til úr ER stillingu á Word sniði er stefnumörkun PDF tekin úr Word skjalinu.
 
 ## <a name="security-considerations"></a>Öryggisatriði
 

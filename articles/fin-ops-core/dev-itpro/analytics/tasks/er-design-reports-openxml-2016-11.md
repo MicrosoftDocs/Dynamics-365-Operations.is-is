@@ -16,22 +16,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ea5b17873dea4508230f39ffb41a50e2f427584f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769856"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142133"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>Rafræn skýrslugerð Hanna skilgreiningu til að mynda skýrslur á OPENXML-sniði (nóvember 2016)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þetta efni útskýrir hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stofnað nýja skilgreiningarveitu fyrir rafræna skýrslugerð (ER) sem inniheldur snið til að mynda rafræn skjöl í OPENXML-sniði. Þessi skilgreining verður notuð til að vinna greiðslur lánardrottna.
 
 Í þessu dæmi, verður að stofna skilgreiningu fyrir dæmi um fyrirtæki, Litware, Inc. Þessi skref má framkvæma í GBSI fyrirtæki.
 
-Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu "Stofna skilgreiningarveitu og merkja hana sem virka". Einnig verður að hafa Excel-skráin sem verður flutt inn þegar sniðmátið er stofnuð. Hægt er að fá aðgang að þessari skrá í [Sniðmát greiðsluskýrslu](https://go.microsoft.com/fwlink/?linkid=862266).
+Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu „Stofna skilgreiningarveitu og merkja hana sem virka”. Einnig verður að hafa Excel-skráin sem verður flutt inn þegar sniðmátið er stofnuð. Hægt er að fá aðgang að þessari skrá í [Sniðmát greiðsluskýrslu](https://go.microsoft.com/fwlink/?linkid=862266).
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Hlaða upp skilgreiningu greiðslugagnalíkans.
@@ -55,7 +55,7 @@ Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu 
 3. Veldu **Stofna skilgreiningu** til að opna felligluggann.
 4. Í reitinn **Nýtt** skal slá inn `Format based on data model PaymentModel`. Stofna snið sem byggir á gagnalíkani PaymentModel.
 5. Í reitinn **Heiti** skaltu færa inn `Sample worksheet report`. Dæmi um vinnublaðsskýrslu  
-6. Á svæðinu **Lýsing** skal færa inn `Sample worksheet report for vendors’ payments`. Dæmi um vinnublaðsskýrslu fyrir greiðslur lánardrottna.  
+6. Á svæðinu **Lýsing** skal færa inn `Sample worksheet report for vendors' payments`. Dæmi um vinnublaðsskýrslu fyrir greiðslur lánardrottna.  
 7. Í svæðinu **Skilgreining gagnalíkans** skal færa inn eða velja gildi. Veljið skilgreininguna **CustomerCreditTransferInitiation**.  
 8. Veljið **Stofna skilgreiningu**.
 

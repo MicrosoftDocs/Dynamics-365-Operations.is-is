@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4a34a03dc5bb3cec37bbccdf913bee5088af6a0
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: c5306d41ab91213fdc7de0d3dd23d6845c5b8657
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844610"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147734"
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Stofna útgefna afurð fyrir stakt fyrirtæki
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þetta ferli fer í gegnum hvernig skal stofna eina losaða afurð í einni einingu lögaðila. Eftir að útgefin afurð er stofnuð er hún strax tiltæk í þessari einingu aðeins. Þú getur farið í gegnum þetta ferli í sýnifyrirtækinu USMF. Þetta verk er yfirleitt framkvæmd af vöruhönnuður.
 
@@ -62,7 +62,7 @@ ms.locfileid: "1844610"
 21. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 22. Í listanum skal smella á tengilinn í valinni línu.
 23. Í reitnum Sölueining skal smella á fellilistahnappinn til að opna leitina.
-    * Innkaupaeining ákvarðar hvernig afurð er magnbundin þegar hún er seld viðskiptavinur.  
+    * Innkaupaeining ákvarðar hvernig afurð er magnbundin þegar hún er seld til viðskiptavinar.  
 24. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 25. Í listanum skal smella á tengilinn í valinni línu.
 26. Í reitnum Uppskriftaeining skal smella á fellilistahnappinn til að opna leitina.

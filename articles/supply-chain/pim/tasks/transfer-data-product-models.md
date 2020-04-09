@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d1c14009cf4bbb16d21566e2aae56689f6c0791
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: cd2ac37fd1885a199e1af2ea74748650c2589b25
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844258"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147528"
 ---
 # <a name="transfer-data-for-product-models"></a>Flytja gögn fyrir vörulíkan
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Útflutningar gagna fyrir afbrigðalíkan afurðar þarf að hafa tiltækar minnst eitt vörulíkan. Þessi aðferð notar hágæða hátalara líkanið í USMF sýnigögn fyrirtæki til að sýna hvernig á að flytja út gögn fyrir þetta líkan.
 

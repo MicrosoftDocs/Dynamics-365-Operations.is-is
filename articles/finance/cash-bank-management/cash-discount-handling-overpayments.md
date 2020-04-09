@@ -1,5 +1,5 @@
 ---
-title: Umsýsla staðgreiðsluafslátta fyrir ofgreiðslur
+title: Staðgreiðsluafslættir vegna ofgreiðslu
 description: Þessi grein er sýnir aðstæður sem sýna hvernig greiðsla er meðhöndluð þegar viðskiptavinurinn tekur notar staðgreiðsluafslátt en borgar einnig of mikið.
 author: ShylaThompson
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 803cb478bb7631439ebde66ad96182193d3dd1ae
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e2fafe2fba9dd71fc09c60bfa20d72fa59510b7f
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188350"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154157"
 ---
-# <a name="handling-cash-discounts-for-overpayments"></a>Umsýsla staðgreiðsluafslátta fyrir ofgreiðslur
+# <a name="cash-discounts-for-overpayments"></a>Staðgreiðsluafslættir vegna ofgreiðslu
 
 [!include [banner](../includes/banner.md)]
 

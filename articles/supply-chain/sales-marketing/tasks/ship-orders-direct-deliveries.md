@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1bce2674b321475bc516724f74bac2d3a648e257
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 81ebd845d9900d891b17618b3719d45060a1968f
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843362"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148424"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Senda pantanir sem beinar afhendingar
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þetta efni sýnir hvernig á að búa til beina afhendingu fyrir sölupöntun. Nota beina afhendingu þegar á að senda vörurnar viðskiptavininum beint frá lánardrottni í staðinn fyrir sendingu þær í eigin vöruhúsi fyrirtækisins fyrst. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum. Til að ljúka seinni undirverki "Stofna beinar afhendingar úr vinnusvæði", ganga úr skugga um vöru sem er valin á sölupöntun hefur sjálfgefið Lánardrottins tilgreindan á Flýtiflipanum Innkaupa fyrir Útgefnar afurðarsniðmát.
 
@@ -37,7 +37,7 @@ ms.locfileid: "1843362"
 5. Á Aðgerðarúða velurðu **sölupöntun** og síðan **bein afhending** Stofna afhendingu síðu sýnir allar opnar sölupöntunarlínurnar sem afritað er úr sölupöntuninni. Hægt er að skoða upplýsingar um pöntun, og ef þörf krefur, er hægt að breyta upplýsingum um slíkar innkaupamagn og verðskilmálar áður en hægt er að stofna beina afhendingu.  
 6. Velja skal **Já** í reitnum **Taka með öll**.
     - Ef mynda á beina afhendingu fyrir aðeins hlutmengi sölupöntunarlínur, veljið þær sérstaklega.  
-    - Svæðið **Lánardrottnalykill** getur eða ekki þegar vera með númer lánardrottins. Ef sjálfgefinn lánardrottinn er sett upp fyrir afurðina (á tengda vöruþekju) verður þessi lánardrottinn afritaður í línuna. Annars þarf að færa lánardrottinn handvirkt. Í þessu dæmi veljum við nýja lánardrottins í næsta skref jafnvel þótt þegar sé fyllt út.   
+    - Svæðið **Lánardrottnalykill** getur eða ekki þegar vera með númer lánardrottins. Ef sjálfgefinn lánardrottinn er sett upp fyrir afurðina (á tengda vöruþekju) verður þessi lánardrottinn afritaður í línuna. Annars þarf að færa lánardrottinn handvirkt. Í þessu dæmi veljum við nýjan lánardrottinn í næsta skrefi jafnvel þótt þegar sé fyllt út.   
 7. Færa inn eða veljið gildi í svæðinu **Lánardrottnalykill** og veldu síðan **Í lagi**. Skilaboðin tilkynnir að innkaupapöntunin hefur nú verið stofnuð.   
 8. Útvíkkaðu hlutann **upplýsingar Línu**.
 9. Veldu **Afhending** flipann og sannreyndu að **Bein afhending** reiturinn er stilltur á **Já**.

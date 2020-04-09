@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 65227bb05bcbe0ba0d62100fecfb6aa0a49330f6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8e57ca517ff90036408715fdc3f511b524cb709e
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836214"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146354"
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Inn- og útskrá ökumann vegna erindis
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Þessi verklýsing sýnir hvernig á að skrá inn innskráningu ökumanns og útskráningu ökumanns. Þetta er yfirleitt gert af samræmingaraðila flutninga. Hægt er að nota þetta ferli í sýnigögn fyrirtækisins USMF. Áður en byrjað er, verður að vera sett upp mót fyrir hleðslu. Til að stofna fund er hægt að keyra ferlið "Setja upp fund fyrir hleðslu" sem skilyrði.
+Þessi verklýsing sýnir hvernig á að skrá inn innskráningu ökumanns og útskráningu ökumanns. Þetta er yfirleitt gert af samræmingaraðila flutninga. Hægt er að nota þetta ferli í sýnigögn fyrirtækisins USMF. Áður en byrjað er, verður að vera sett upp mót fyrir hleðslu. Til að stofna fund er hægt að keyra ferlið „Setja upp fund fyrir hleðslu” sem skilyrði.
 
 
 ## <a name="select-an-appointment"></a>Veljið fund

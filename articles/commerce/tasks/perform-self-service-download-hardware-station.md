@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7a9b77916f02d32049690f12b97ec7ba7d515d97
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a4ad389a18d2b6d79ef9fb25da810323927e5f04
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022893"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140724"
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a>Framkvæma Sjálfsafgreiðslu til að sækja vélbúnaðarstöð
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta ferli fer í gegnum hvernig á að hlaða niður nýja fyrirfram skilgreinda vébúnaðarstöð Sýnigögn fyrirtækisins fyrir þetta ferli er USRT. verður að hafa stofnuð er ný forstilling vélbúnaðarstöðvar og vélbúnaðarstöð áður en verkið er ræst.
 

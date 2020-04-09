@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 39ccb68ba76cd710412df6a46fc624608d02902b
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: cafd6e01800b55f316179c481aaa110b2cbcbc80
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844538"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150039"
 ---
 # <a name="create-a-sales-order-for-a-configurable-product"></a>Stofna sölupöntun fyrir skilgreinanlega afurð
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þetta verkefni sýnir hvernig á að nota grunnstillingarsniðmát fyrir afurð á sölupöntun. Þetta dæmi notar D0006 líkanið í USMF sýnigögnum fyrirtækis. Venjulega notar sölupantanavinnsla þetta ferli.
 
@@ -43,7 +43,7 @@ ms.locfileid: "1844538"
     * Athugið að verði hefur verið breytt, byggt á stillingunni sem var valin, og að Taka köplum svæðið er núna stillt á Satt.  
     * Athugið sjálfgefna verð- og stillingar sem eru valdar fyrir á köplum.  
 9. Smellt er á Hlaða sniðmáti.
-    * Þetta dæmi sýnir hvernig hægt er að nota sniðmát til að velja forskilgreind afbrigði. Ef þetta ferli er notað sem leiðarvísi fyrir verk og til að sjá aðrar eigindargildin sem eru tiltækar verður að smella á hnappinn Aflæsa.  
+    * Þetta dæmi sýnir hvernig hægt er að nota sniðmát til að velja forskilgreind afbrigði. Ef þetta ferli er notað sem verkleiðbeiningar og til að sjá hin eigindagildin sem eru tiltæk verður að smella á hnappinn Aflæsa.  
 10. Smellið á „Í lagi“.
 11. Smellið á „Í lagi“.
 12. Víkkið út hlutann „Upplýsingar um línu“.

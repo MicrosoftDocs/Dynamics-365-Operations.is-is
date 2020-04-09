@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4bac365217c20bececa1b4ff2b9de12288326dcc
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: f15b035c01801041d637a2d315d8a3ddcc9d6540
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022908"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140943"
 ---
 # <a name="create-online-channel-and-define-channel-attributes"></a>Stofna netrás og skilgreina eigindi rásar
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta ferli fer með þig í gegnum til að stofna nýja netrás og henni er bætt við stigveldi fyrirtækisins. Þú verður að Stofna stigveldi fyrirtækis áður en hægt er að stofna nýja netrás. Þessi aðferð notar USRT sýnigögn fyrirtækisins.
 

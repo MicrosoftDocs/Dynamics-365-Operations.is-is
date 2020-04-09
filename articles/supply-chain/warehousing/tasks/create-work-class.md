@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5def9be0966d65728ffb0897229c0d749e7e13a0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6afbd9f54ef9046da10d0abc24ed545b5735a069
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571794"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146101"
 ---
 # <a name="create-a-work-class"></a>Stofna vinnuklasa
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Þessi verklýsing sýnir hvernig á að setja upp vinnuklasa. Vinnuklasar eru notaðir til að beina og/eða takmarka gerð vinnupöntunarlínur sem starfsmaður í vöruhúsi er hægt að vinna í farsíma. Línur sem starfsmanns getur unnið ákvarðast af vinnuklösum á valmyndaratriði fartækis sem starfsmaður í vöruhúsi hefur aðgang að og vinnuklasa sem er tilgreind á vinnulínum. Einnig er hægt að nota vinnuklösum til að villuleita frágangsstaðsetningu fyrir pöntunarlínu vinnu. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum. Þetta ferli er ætluð fyrir stjórnanda í vöruhúsi.
+Þessi verklýsing sýnir hvernig á að setja upp vinnuklasa. Vinnuklasar eru notaðir til að beina og/eða takmarka gerð vinnupöntunarlínur sem starfsmaður í vöruhúsi er hægt að vinna í farsíma. Línur sem starfskraftur getur unnið ákvarðast af vinnuklösum á valmyndaratriði fartækis sem starfskraftur í vöruhúsi hefur aðgang að og vinnuklasa sem er tilgreindur á vinnulínum. Einnig er hægt að nota vinnuklösum til að villuleita frágangsstaðsetningu fyrir pöntunarlínu vinnu. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum. Þetta ferli er ætluð fyrir stjórnanda í vöruhúsi.
 
 1. Fara í vöruhúsakerfi > Uppsetning > Vinna > Vinnuklasar.
 2. Smellið á „Nýtt“.
@@ -36,6 +36,6 @@ ms.locfileid: "1571794"
 5. Í svæðinu gerð vinnupöntunar, skal velja valkost.
 6. Smellið á „Nýtt“.
 7. Í reitinn Gerð staðsetningar skal slá inn gildi.
-    * Ef gerð staðsetningar er valin, setur þetta takmarkanir á hvar hægt er að setja vörur eftir að þeim hefur verið tekið til. Þessi stilling er notuð þegar staðsetningarleiðbeiningar reynir að leysa úr staðsetningu, eða ef starfsmaður vöruhússins veitir staðsetningu handvirkt fyrir valmyndaratriði fartækis.  
+    * Ef gerð staðsetningar er valin, setur þetta takmarkanir á hvar hægt er að setja vörur eftir að þær hafa verið teknar til. Þessi stilling er notuð þegar staðsetningarleiðbeiningar reynir að leysa úr staðsetningu, eða ef starfsmaður vöruhússins veitir staðsetningu handvirkt fyrir valmyndaratriði fartækis.  
 8. Lokið síðunni.
 

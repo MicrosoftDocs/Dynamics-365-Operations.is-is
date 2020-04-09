@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdd7a07d041373b266103f313df1bf2810e9c858
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bfa09fe7059925249f20e1d93bc9d091d6bc63d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182348"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141903"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Flytja inn skilgreiningar til að búa til skjöl sem eru með forritsgögnum
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Til að ljúka þessum skrefum í ferlinu verður fyrst að ljúka við ferlið „Rafræn skýrslugerð Stofna skilgreiningarveitu og merkja hana sem virka“.
 
 Skrefin í þessu ferli sýna hvernig skal hanna Rafræna skýrslugerð (ER) grunnstillingar þannig að þær búi til rafræn skjöl. Í þessu ferli muntu flytja inn þær grunnstillingar Rafræn skýrslugerð (ER) sem krafist er, sem hafa verið stofnaðar fyrir sýnifyrirtækið, Litware, Inc. og nota þær til að búa til rafræn skjöl. Þetta ferli er hugsað fyrir þá notendur sem hefur verið úthlutað hlutverkum Kerfisstjóra eða Þróunaraðila rafrænnar skýrslugerðar. Skrefin er hægt að klára með því að nota DEMF gagnasafn. Áður en þú byrjar, skal hlaða niður og vista skrárnar sem eru á listanum í Hjálp efnisatriði, „Mynda rafræn skjöl og uppfæra gögn forrits með Rafræn skýrslugerð verkfæri“ (generate-electronic-documents-update-application-data/). Skrárnar eru Intrastat (líkan).xml, Intrastat (vörpun).xml, og Intrastat (snið).xml.
 
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
-    * Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt Virk. Ef þú sérð skilgreiningarveituna ekki, skal klára skrefin í ferlinu, Stofna skilgreiningarveitu og merkja hana sem virka.  
+    * Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt Virk. Ef þú sérð skilgreiningarveituna ekki, skal klára skrefin í ferlinu Stofna skilgreiningarveitu og merkja hana sem virka.  
     * Skrefin í þessu ferli sýna hvernig skal nota getu Rafræn skýrslugerð til að ljúka við uppfærslu á gögnum forrits og hvernig á að búa til Intrastat-skýrslu Upplýsingar um skýrslugerðarferlið eru skjalaðar í töflum forritsins. Þegar Intrastat-skýrslugerðarferlið er virkjað úr Intrastat skjámyndinni, er skjölun framkvæmd og byggð á rökfræðinni sem var forrituð í fyrirliggjandi frumkóða. Í þessu ferli muntu grunnstilla sambærilega en einfaldaða rökfræði fyrir gögn forritsins með því að nota eingöngu umgjörð Rafræn skýrslugerð. Frumkóðanum verður ekki breytt.   
 
 ## <a name="import-er-configurations"></a>Flytja inn rafræn skýrslugerð grunnstillingar

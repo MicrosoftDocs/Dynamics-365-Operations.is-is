@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2e9db489383d9c6ef05bc25d190d380b3150d311
-ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
+ms.openlocfilehash: f313aafb79faaf1344b7e70759405b3bab2d7e45
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "1995005"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148717"
 ---
 # <a name="create-and-edit-sales-quotations"></a>Stofna og breyta sölutilboðum
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þetta ferli sýnir hvernig á að stofna og uppfæra sölutilboð. Hægt er að keyra þetta ferli á eigin gögn eða í sýnigögn USMF fyrirtækis.
 
@@ -52,7 +52,7 @@ ms.locfileid: "1995005"
 17. Á **aðgerðasvæðinu** er smellt á **Tilboð**.
 18. Smelltu á **Senda tilboð**.
 19. Veldu Já í reitnum **Prenta tilboð**.
-20. Smellt er á **OK**. Skýrslan getur tekið mínútu til að mynda. Ekki að loka síðunni fyrr en það hefur verið gert.
+20. Smellt er á **OK**. Skýrslan getur tekið mínútu til að mynda. Lokaðu ekki síðunni fyrr en það hefur verið gert.
 
 ## <a name="update-a-sales-quotation"></a>Uppfæra sölutilboð
 1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Sala og markaðssetning > Sölutilboð > Öll tilboð**.

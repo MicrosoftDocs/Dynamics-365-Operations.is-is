@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 73f2c10d7462c4b52a2b36dd5f221593707d2f4f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5408fd883e91bbff465434ab23974f22bb0f07da
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184670"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143001"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>Breyta sniðum með því að endurnýta Excel-sniðmát
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Til að ljúka skrefunum í þessu ferli verður fyrst að ljúka við ferlið, Rafræn skýrslugerð - Hanna grunnstillingu til að mynda skýrslur í OPENXML-sniði.
 
 Þetta ferli útskýrir hvernig skal breyta Rafræn skýrslugerð (ER) grunnstillingu sniðs með því að endurnýta Microsoft Excel sniðmát sem hefur verið breytt. Í þessu ferli, muntu flytja breytt Excel sniðmát í Rafræn skýrslugerð grunnstillingar sniðs sem hefur verið stofnað fyrir sýnifyrirtækið, Litware, Inc., og síðan búa til rafræn skjöl. Þetta ferli er hugsað fyrir þá notendur sem hefur verið úthlutað hlutverkum Kerfisstjóra eða Þróunaraðila rafrænnar skýrslugerðar. Skrefin er hægt að klára með því að nota GBSI gagnasafn. Áður en þú byrjar, skal hlaða niður og vista skránna, SampleVendPaymWsReport2.xlsx, sem er á lista í Hjálp efnisatriði, breyta sniði Rafræn skýrslugerð með því að endurnýta Excel sniðmát (modify-electronic-reporting-format-reapply-excel-template/).
 
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
-    * Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt Virk. Ef þú sérð skilgreiningarveituna ekki, skal klára skrefin í ferlinu, Stofna skilgreiningarveitu og merkja hana sem virka.  
+    * Vertu viss um að skilgreiningarveitan fyrir sýnifyrirtækið, Litware, Inc., sé tiltæk og merkt Virk. Ef þú sérð skilgreiningarveituna ekki, skal klára skrefin í ferlinu Stofna skilgreiningarveitu og merkja hana sem virka.  
 
 ## <a name="select-the-er-format"></a>Veljið snið Rafræn skýrslugerð
 1. Smelltu á Grunnstillingar skýrslugerðar
@@ -49,7 +49,7 @@ Til að ljúka skrefunum í þessu ferli verður fyrst að ljúka við ferlið, 
     * Opnið drög að sniði valinnar Rafræn skýrslugerð til að breyta.  
 2. Í aðgerðasvæðinu er smellt á innflutningur.
 3. Smellið á Uppfæra úr Excel
-    * Smellið á „Uppfæra sniðmát“ og veljið svo skránna, SampleVendPaymWsReport2.xlsx.  
+    * Smellið á „Uppfæra sniðmát“ og veljið svo skrána SampleVendPaymWsReport2.xlsx.  
     * Smellið á Uppfæra sniðmát og flettið til að ná í SampleVendPaymWsReport2.xlsx skránna sem var halað niður áður.  
 4. Smellið á „Í lagi“.
     * SampleVendPaymWsReport2.xlsx sniðmátið er virkt. Skipan sniðs Rafræn skýrslugerð er samstillt við innihald sniðmátsins, hvers einingum er bætt við snið Rafræn skýrslugerð. Allar einingar sem enn eru til í sniði Rafræn skýrslugerð, en eru ekki innifaldar í sniðinu, eru teknar út úr skilgreiningu sniðsins.  
