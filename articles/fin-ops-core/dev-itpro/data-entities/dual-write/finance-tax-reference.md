@@ -19,22 +19,22 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 28f47f8cebca6c7249e0596c53f3589dc6541e26
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: 50f906d62ad6f1e0b79c9c1bb6fcd373ba350c98
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112456"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172599"
 ---
-# <a name="access-to-finance-and-tax-reference-data"></a><span data-ttu-id="16651-103">Aðgangur að fjárhags- og skattatilvísunargögnum</span><span class="sxs-lookup"><span data-stu-id="16651-103">Access to finance and tax reference data</span></span>
+# <a name="access-to-finance-and-tax-reference-data"></a><span data-ttu-id="20cec-103">Aðgangur að fjárhags- og skattatilvísunargögnum</span><span class="sxs-lookup"><span data-stu-id="20cec-103">Access to finance and tax reference data</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
-<span data-ttu-id="16651-104">Sérhver viðskipti vinnur með grunnupplýsingar af fjárhagslegum gögnum, svo sem reikningsárinu, gjaldmiðlinum sem viðskipti eru í, reikninga sem peningarnir til að reka fyrirtækið koma til eða fara út úr, skatthlutföll og endurgreiðsla.</span><span class="sxs-lookup"><span data-stu-id="16651-104">Every business works with a basic set of financial data, such as the fiscal calendar year, the currency that business is transacted in, the accounts that the money to run the business comes in to or goes out of, tax rates, and remittance.</span></span> <span data-ttu-id="16651-105">Þessi gögn eru í forritum Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="16651-105">This data resides in Finance and Operations apps.</span></span> <span data-ttu-id="16651-106">Hins vegar er það útsett fyrir Common Data Service svo að líkanadrifin forrit í Microsoft Dynamics 365 geta verið með eina heimild til fjár- og skattaupplýsinga.</span><span class="sxs-lookup"><span data-stu-id="16651-106">However, it's exposed to Common Data Service so that model-driven apps in Microsoft Dynamics 365 can have a single source for finance and tax data.</span></span> <span data-ttu-id="16651-107">Á þennan hátt eru gögn samræmd yfir vistkerfi fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="16651-107">In this way, data is uniform across the business ecosystem.</span></span> 
 
-<span data-ttu-id="16651-108">Fjárhags- og skattagögn eru samþætt með eftirfarandi vörpunum:</span><span class="sxs-lookup"><span data-stu-id="16651-108">Finance and tax data is integrated by using the following mappings:</span></span>
+<span data-ttu-id="20cec-104">Sérhver viðskipti vinnur með grunnupplýsingar af fjárhagslegum gögnum, svo sem reikningsárinu, gjaldmiðlinum sem viðskipti eru í, reikninga sem peningarnir til að reka fyrirtækið koma til eða fara út úr, skatthlutföll og endurgreiðsla.</span><span class="sxs-lookup"><span data-stu-id="20cec-104">Every business works with a basic set of financial data, such as the fiscal calendar year, the currency that business is transacted in, the accounts that the money to run the business comes in to or goes out of, tax rates, and remittance.</span></span> <span data-ttu-id="20cec-105">Þessi gögn eru í forritum Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="20cec-105">This data resides in Finance and Operations apps.</span></span> <span data-ttu-id="20cec-106">Hins vegar er það útsett fyrir Common Data Service svo að líkanadrifin forrit í Microsoft Dynamics 365 geta verið með eina heimild til fjár- og skattaupplýsinga.</span><span class="sxs-lookup"><span data-stu-id="20cec-106">However, it's exposed to Common Data Service so that model-driven apps in Microsoft Dynamics 365 can have a single source for finance and tax data.</span></span> <span data-ttu-id="20cec-107">Á þennan hátt eru gögn samræmd yfir vistkerfi fyrirtækisins.</span><span class="sxs-lookup"><span data-stu-id="20cec-107">In this way, data is uniform across the business ecosystem.</span></span> 
 
-+ [<span data-ttu-id="16651-109">Samþættur fjárhagur</span><span class="sxs-lookup"><span data-stu-id="16651-109">Integrated ledger</span></span>](ledger-mapping.md)
-+ [<span data-ttu-id="16651-110">Samþætt aðalgögn skatta</span><span class="sxs-lookup"><span data-stu-id="16651-110">Integrated tax master</span></span>](tax-mapping.md)
+<span data-ttu-id="20cec-108">Fjárhags- og skattagögn eru samþætt með eftirfarandi vörpunum:</span><span class="sxs-lookup"><span data-stu-id="20cec-108">Finance and tax data is integrated by using the following mappings:</span></span>
+
++ [<span data-ttu-id="20cec-109">Samþættur fjárhagur</span><span class="sxs-lookup"><span data-stu-id="20cec-109">Integrated ledger</span></span>](ledger-mapping.md)
++ [<span data-ttu-id="20cec-110">Samþætt aðalgögn skatta</span><span class="sxs-lookup"><span data-stu-id="20cec-110">Integrated tax master</span></span>](tax-mapping.md)

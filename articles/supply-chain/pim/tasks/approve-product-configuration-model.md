@@ -16,36 +16,36 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eef6568e012c311c0e5438245c011b876fc4d522
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 317aa9ad5bc5953b7148846622b893e5b525c637
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844971"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150195"
 ---
-# <a name="approve-a-product-configuration-model"></a><span data-ttu-id="a1d72-103">Samþykkja afbrigðalíkan afurða</span><span class="sxs-lookup"><span data-stu-id="a1d72-103">Approve a product configuration model</span></span>
+# <a name="approve-a-product-configuration-model"></a><span data-ttu-id="b8d2d-103">Samþykkja afbrigðalíkan afurða</span><span class="sxs-lookup"><span data-stu-id="b8d2d-103">Approve a product configuration model</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="a1d72-104">Keyra þetta ferli krefst sem að minnsta kosti eitt afbrigðalíkan afurðar er tiltækt.</span><span class="sxs-lookup"><span data-stu-id="a1d72-104">Running this procedure requires that at least one product configuration model is available.</span></span> <span data-ttu-id="a1d72-105">Þessi aðferð notar hágæða hátalara líkanið gögn fyrirtækisins sýnigögn USMF.</span><span class="sxs-lookup"><span data-stu-id="a1d72-105">This procedure uses the High end speaker model in the demo data company USMF.</span></span> <span data-ttu-id="a1d72-106">Athugið að þetta líkan hefur þegar verið samþykkt en ferlinu fer í gegnum allt ferlið.</span><span class="sxs-lookup"><span data-stu-id="a1d72-106">Note that this model has already been approved, but the procedure walks you through the entire process.</span></span>
+<span data-ttu-id="b8d2d-104">Keyra þetta ferli krefst sem að minnsta kosti eitt afbrigðalíkan afurðar er tiltækt.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-104">Running this procedure requires that at least one product configuration model is available.</span></span> <span data-ttu-id="b8d2d-105">Þessi aðferð notar hágæða hátalara líkanið gögn fyrirtækisins sýnigögn USMF.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-105">This procedure uses the High end speaker model in the demo data company USMF.</span></span> <span data-ttu-id="b8d2d-106">Athugið að þetta líkan hefur þegar verið samþykkt en ferlinu fer í gegnum allt ferlið.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-106">Note that this model has already been approved, but the procedure walks you through the entire process.</span></span>
 
-1. <span data-ttu-id="a1d72-107">Smellið á Skilgreining afurðarafbrigðislíkans</span><span class="sxs-lookup"><span data-stu-id="a1d72-107">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="a1d72-108">Smella á Afbrigðalíkan afurðar</span><span class="sxs-lookup"><span data-stu-id="a1d72-108">Click Product configuration models.</span></span>
-3. <span data-ttu-id="a1d72-109">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="a1d72-109">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="a1d72-110">Veljið hágæða hátalara líkan fyrir þetta ferli.</span><span class="sxs-lookup"><span data-stu-id="a1d72-110">Select the High end speaker model for this procedure.</span></span>  
-4. <span data-ttu-id="a1d72-111">Smellt er á Útgáfum.</span><span class="sxs-lookup"><span data-stu-id="a1d72-111">Click Versions.</span></span>
-5. <span data-ttu-id="a1d72-112">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="a1d72-112">Click New.</span></span>
-6. <span data-ttu-id="a1d72-113">Sláðu inn eða veldu gildi í reitnum afurðarnúmer.</span><span class="sxs-lookup"><span data-stu-id="a1d72-113">In the Product number field, enter or select a value.</span></span>
-    * <span data-ttu-id="a1d72-114">Tilvísun í afurð táknar útgáfa afbrigðalíkans afurðar.</span><span class="sxs-lookup"><span data-stu-id="a1d72-114">The reference to a product represents a version of a product configuration model.</span></span> <span data-ttu-id="a1d72-115">Aðeins afurðarsniðmát sem hafa skorðumiðaðar afbrigðistækni munu birtast í þessum lista.</span><span class="sxs-lookup"><span data-stu-id="a1d72-115">Only product masters which have the constraint-based configuration technology will appear in this list.</span></span>  
-7. <span data-ttu-id="a1d72-116">Dagsetning er rituð í reitinn Frá dags.</span><span class="sxs-lookup"><span data-stu-id="a1d72-116">In the From date field, enter a date.</span></span>
-    * <span data-ttu-id="a1d72-117">Velja þegar útgáfu vörulíkans verða tiltækar.</span><span class="sxs-lookup"><span data-stu-id="a1d72-117">Select when the product model version will be available.</span></span>  
-8. <span data-ttu-id="a1d72-118">Í reitinn Til dagsetningar skal slá inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="a1d72-118">In the To date field, enter a date.</span></span>
-    * <span data-ttu-id="a1d72-119">Veljið lokadagsetningu þegar þessa útgáfu vörulíkans mun renna út eða velja Aldrei.</span><span class="sxs-lookup"><span data-stu-id="a1d72-119">Select an end date when this product model version will expire, or select Never.</span></span>  
-9. <span data-ttu-id="a1d72-120">Smelltu á samþykki til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="a1d72-120">Click Approve to open the drop dialog.</span></span>
-10. <span data-ttu-id="a1d72-121">Sláið inn eða veldu gildi í reitnum samþykki eftir.</span><span class="sxs-lookup"><span data-stu-id="a1d72-121">In the Approved by field, enter or select a value.</span></span>
-    * <span data-ttu-id="a1d72-122">Velja einstaklinginn sem ber ábyrgð á að samþykkja vörulíkan í aðgerðir.</span><span class="sxs-lookup"><span data-stu-id="a1d72-122">Select the person who is responsible for approving product models for use in operations.</span></span>  
-11. <span data-ttu-id="a1d72-123">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="a1d72-123">Click OK.</span></span>
-12. <span data-ttu-id="a1d72-124">Veljið valkost í svæðinu verðlagningaraðferð.</span><span class="sxs-lookup"><span data-stu-id="a1d72-124">In the Pricing method field, select an option.</span></span>
-    * <span data-ttu-id="a1d72-125">Virkja útgáfu vörulíkans.</span><span class="sxs-lookup"><span data-stu-id="a1d72-125">Activate the product model version.</span></span> <span data-ttu-id="a1d72-126">Aðeins er hægt að hafa eina afurð virkt fyrir eitt vörulíkan í einu.</span><span class="sxs-lookup"><span data-stu-id="a1d72-126">It is only possible to have one product active for one product model at a time.</span></span>  
-13. <span data-ttu-id="a1d72-127">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="a1d72-127">Close the page.</span></span>
+1. <span data-ttu-id="b8d2d-107">Smellið á Skilgreining afurðarafbrigðislíkans</span><span class="sxs-lookup"><span data-stu-id="b8d2d-107">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="b8d2d-108">Smella á Afbrigðalíkan afurðar</span><span class="sxs-lookup"><span data-stu-id="b8d2d-108">Click Product configuration models.</span></span>
+3. <span data-ttu-id="b8d2d-109">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-109">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="b8d2d-110">Veljið hágæða hátalara líkan fyrir þetta ferli.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-110">Select the High end speaker model for this procedure.</span></span>  
+4. <span data-ttu-id="b8d2d-111">Smellt er á Útgáfum.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-111">Click Versions.</span></span>
+5. <span data-ttu-id="b8d2d-112">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-112">Click New.</span></span>
+6. <span data-ttu-id="b8d2d-113">Sláðu inn eða veldu gildi í reitnum afurðarnúmer.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-113">In the Product number field, enter or select a value.</span></span>
+    * <span data-ttu-id="b8d2d-114">Tilvísun í afurð táknar útgáfa afbrigðalíkans afurðar.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-114">The reference to a product represents a version of a product configuration model.</span></span> <span data-ttu-id="b8d2d-115">Aðeins afurðarsniðmát sem hafa skorðumiðaðar afbrigðistækni munu birtast í þessum lista.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-115">Only product masters which have the constraint-based configuration technology will appear in this list.</span></span>  
+7. <span data-ttu-id="b8d2d-116">Dagsetning er rituð í reitinn Frá dags.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-116">In the From date field, enter a date.</span></span>
+    * <span data-ttu-id="b8d2d-117">Velja þegar útgáfu vörulíkans verða tiltækar.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-117">Select when the product model version will be available.</span></span>  
+8. <span data-ttu-id="b8d2d-118">Í reitinn Til dagsetningar skal slá inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-118">In the To date field, enter a date.</span></span>
+    * <span data-ttu-id="b8d2d-119">Veljið lokadagsetningu þegar þessa útgáfu vörulíkans mun renna út eða velja Aldrei.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-119">Select an end date when this product model version will expire, or select Never.</span></span>  
+9. <span data-ttu-id="b8d2d-120">Smelltu á samþykki til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-120">Click Approve to open the drop dialog.</span></span>
+10. <span data-ttu-id="b8d2d-121">Sláið inn eða veldu gildi í reitnum samþykki eftir.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-121">In the Approved by field, enter or select a value.</span></span>
+    * <span data-ttu-id="b8d2d-122">Velja einstaklinginn sem ber ábyrgð á að samþykkja vörulíkan í aðgerðir.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-122">Select the person who is responsible for approving product models for use in operations.</span></span>  
+11. <span data-ttu-id="b8d2d-123">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-123">Click OK.</span></span>
+12. <span data-ttu-id="b8d2d-124">Veljið valkost í svæðinu verðlagningaraðferð.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-124">In the Pricing method field, select an option.</span></span>
+    * <span data-ttu-id="b8d2d-125">Virkja útgáfu vörulíkans.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-125">Activate the product model version.</span></span> <span data-ttu-id="b8d2d-126">Aðeins er hægt að hafa eina afurð virkt fyrir eitt vörulíkan í einu.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-126">It is only possible to have one product active for one product model at a time.</span></span>  
+13. <span data-ttu-id="b8d2d-127">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="b8d2d-127">Close the page.</span></span>
 

@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dfa5bfa2eba39b981c5dc1d029f4847651c8fc6f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1982c8dffbc7a65263babce7738045b744db2592
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844034"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149528"
 ---
-# <a name="search-for-vendors"></a><span data-ttu-id="fed04-103">Leita að lánardrottnum</span><span class="sxs-lookup"><span data-stu-id="fed04-103">Search for vendors</span></span>
+# <a name="search-for-vendors"></a><span data-ttu-id="e533f-103">Leita að lánardrottnum</span><span class="sxs-lookup"><span data-stu-id="e533f-103">Search for vendors</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="fed04-104">Fræðast um hvernig á að leita að lánardrottnum samkvæmt ákveðnum skilyrðum.</span><span class="sxs-lookup"><span data-stu-id="fed04-104">Learn how to search for vendors based on specific criteria.</span></span> <span data-ttu-id="fed04-105">Þetta dæmi sýnir hvernig á að leita að lánardrottnum sem hafa verið samþykktar fyrir tiltekna innkaupategund og hafa aðalaðsetur í tilteknu landi.</span><span class="sxs-lookup"><span data-stu-id="fed04-105">This example shows you how to search for vendors that are approved for a particular procurement category and have their primary address in a specific country.</span></span> <span data-ttu-id="fed04-106">Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.</span><span class="sxs-lookup"><span data-stu-id="fed04-106">You can run this procedure in demo data company USMF, or on your own data.</span></span> <span data-ttu-id="fed04-107">Þetta verk myndi venjulega framkvæmtaf fagmanni á sviði innkaupa.</span><span class="sxs-lookup"><span data-stu-id="fed04-107">This task would usually be carried out by a procurement professional.</span></span>
+<span data-ttu-id="e533f-104">Fræðast um hvernig á að leita að lánardrottnum samkvæmt ákveðnum skilyrðum.</span><span class="sxs-lookup"><span data-stu-id="e533f-104">Learn how to search for vendors based on specific criteria.</span></span> <span data-ttu-id="e533f-105">Þetta dæmi sýnir hvernig á að leita að lánardrottnum sem hafa verið samþykktar fyrir tiltekna innkaupategund og hafa aðalaðsetur í tilteknu landi.</span><span class="sxs-lookup"><span data-stu-id="e533f-105">This example shows you how to search for vendors that are approved for a particular procurement category and have their primary address in a specific country.</span></span> <span data-ttu-id="e533f-106">Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.</span><span class="sxs-lookup"><span data-stu-id="e533f-106">You can run this procedure in demo data company USMF, or on your own data.</span></span> <span data-ttu-id="e533f-107">Þetta verk myndi venjulega framkvæmtaf fagmanni á sviði innkaupa.</span><span class="sxs-lookup"><span data-stu-id="e533f-107">This task would usually be carried out by a procurement professional.</span></span>
 
-1. <span data-ttu-id="fed04-108">Farið í innkaup og aðföng > Lánardrottnar > Allir lánardrottnar.</span><span class="sxs-lookup"><span data-stu-id="fed04-108">Go to Procurement and sourcing > Vendors > Vendor search.</span></span>
-2. <span data-ttu-id="fed04-109">Smellið á Plústáknið á til þess að opna síðuna val á innkaupategund.</span><span class="sxs-lookup"><span data-stu-id="fed04-109">Click on the Plus icon to open the Procurement category selection page.</span></span>  
-3. <span data-ttu-id="fed04-110">Veljið 'CORP PROCUREMENT CATEGORIES\OFFICE MACHINES'., í trénu.</span><span class="sxs-lookup"><span data-stu-id="fed04-110">In the tree, select 'CORP PROCUREMENT CATEGORIES\OFFICE MACHINES'.</span></span>
-    * <span data-ttu-id="fed04-111">Ef verið er að keyra ferlið sem leiðarvísi fyrir verk, gæti þurft að smella á hnappinn Aflæsa áður en hægt er að velja réttan hnút.</span><span class="sxs-lookup"><span data-stu-id="fed04-111">If you're running this procedure as a task guide, you may have to click the Unlock button before you can select the correct node.</span></span> <span data-ttu-id="fed04-112">Ef ekki er verið að nota USMF, veljið eina af tegundunum sem þú hefur.</span><span class="sxs-lookup"><span data-stu-id="fed04-112">If you're not using USMF, select one of the categories that you have.</span></span>  
-4. <span data-ttu-id="fed04-113">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="fed04-113">Click Add.</span></span>
-    * <span data-ttu-id="fed04-114">Mögulegt er að velja fleiri en einn flokk hér.</span><span class="sxs-lookup"><span data-stu-id="fed04-114">It’s possible to select more than one category here.</span></span> <span data-ttu-id="fed04-115">Ef svo er gert er leitað er að alla lánardrottna sem hafa verið samþykktar fyrir minnst eina af tegundunum.</span><span class="sxs-lookup"><span data-stu-id="fed04-115">If you do so, the search will find all the vendors that are approved for at least one of the categories.</span></span>  
-5. <span data-ttu-id="fed04-116">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="fed04-116">Click OK.</span></span>
-6. <span data-ttu-id="fed04-117">Í reitinn land/svæði skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="fed04-117">In the Country/region field, type a value.</span></span>
-7. <span data-ttu-id="fed04-118">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="fed04-118">Click OK.</span></span>
+1. <span data-ttu-id="e533f-108">Farið í innkaup og aðföng > Lánardrottnar > Allir lánardrottnar.</span><span class="sxs-lookup"><span data-stu-id="e533f-108">Go to Procurement and sourcing > Vendors > Vendor search.</span></span>
+2. <span data-ttu-id="e533f-109">Smellið á Plústáknið á til þess að opna síðuna val á innkaupategund.</span><span class="sxs-lookup"><span data-stu-id="e533f-109">Click on the Plus icon to open the Procurement category selection page.</span></span>  
+3. <span data-ttu-id="e533f-110">Veljið 'CORP PROCUREMENT CATEGORIES\OFFICE MACHINES'., í trénu.</span><span class="sxs-lookup"><span data-stu-id="e533f-110">In the tree, select 'CORP PROCUREMENT CATEGORIES\OFFICE MACHINES'.</span></span>
+    * <span data-ttu-id="e533f-111">Ef verið er að keyra ferlið sem leiðarvísi fyrir verk, gæti þurft að smella á hnappinn Aflæsa áður en hægt er að velja réttan hnút.</span><span class="sxs-lookup"><span data-stu-id="e533f-111">If you're running this procedure as a task guide, you may have to click the Unlock button before you can select the correct node.</span></span> <span data-ttu-id="e533f-112">Ef ekki er verið að nota USMF, veljið eina af tegundunum sem þú hefur.</span><span class="sxs-lookup"><span data-stu-id="e533f-112">If you're not using USMF, select one of the categories that you have.</span></span>  
+4. <span data-ttu-id="e533f-113">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="e533f-113">Click Add.</span></span>
+    * <span data-ttu-id="e533f-114">Hægt er að velja fleiri en einn flokk hér.</span><span class="sxs-lookup"><span data-stu-id="e533f-114">It's possible to select more than one category here.</span></span> <span data-ttu-id="e533f-115">Ef svo er gert er leitað er að alla lánardrottna sem hafa verið samþykktar fyrir minnst eina af tegundunum.</span><span class="sxs-lookup"><span data-stu-id="e533f-115">If you do so, the search will find all the vendors that are approved for at least one of the categories.</span></span>  
+5. <span data-ttu-id="e533f-116">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="e533f-116">Click OK.</span></span>
+6. <span data-ttu-id="e533f-117">Í reitinn land/svæði skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="e533f-117">In the Country/region field, type a value.</span></span>
+7. <span data-ttu-id="e533f-118">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="e533f-118">Click OK.</span></span>
 

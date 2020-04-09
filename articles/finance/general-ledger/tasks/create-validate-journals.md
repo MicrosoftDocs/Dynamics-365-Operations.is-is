@@ -16,32 +16,32 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ad1399d8ca96b9fdc5d316b6d9de8d9e04af55e8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 212227afb21ac1a20d29c33b40f6c44561da14fe
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178226"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144354"
 ---
-# <a name="create-and-validate-journals"></a><span data-ttu-id="bfa0e-103">Stofna og sannprófa færslubækur</span><span class="sxs-lookup"><span data-stu-id="bfa0e-103">Create and validate journals</span></span>
+# <a name="create-and-validate-journals"></a><span data-ttu-id="e30b4-103">Stofna og sannprófa færslubækur</span><span class="sxs-lookup"><span data-stu-id="e30b4-103">Create and validate journals</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="bfa0e-104">Þessar verkefnaleiðbeiningar stofna og staðfesta færslubækur og færslubókarlínur.</span><span class="sxs-lookup"><span data-stu-id="bfa0e-104">This task guide creates and validates journals and journal lines.</span></span> <span data-ttu-id="bfa0e-105">Þessir verkhlutar nota USMF sýnigögn fyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="bfa0e-105">This tasks uses the USMF demo company.</span></span>  
+<span data-ttu-id="e30b4-104">Þessar verkefnaleiðbeiningar stofna og staðfesta færslubækur og færslubókarlínur.</span><span class="sxs-lookup"><span data-stu-id="e30b4-104">This task guide creates and validates journals and journal lines.</span></span> <span data-ttu-id="e30b4-105">Þessir verkhlutar nota USMF sýnigögn fyrirtæki.</span><span class="sxs-lookup"><span data-stu-id="e30b4-105">This tasks uses the USMF demo company.</span></span>  
 
 
 
-1. <span data-ttu-id="bfa0e-106">Fara í fjárhag > Færslubókarfærslur > Almennar færslubækur.</span><span class="sxs-lookup"><span data-stu-id="bfa0e-106">Go to General ledger > Journal entries > General journals.</span></span>
-2. <span data-ttu-id="bfa0e-107">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="bfa0e-107">Click New.</span></span>
-3. <span data-ttu-id="bfa0e-108">Í reitnum Heiti skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="bfa0e-108">In the Name field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="bfa0e-109">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="bfa0e-109">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="bfa0e-110">Smellið á Línur.</span><span class="sxs-lookup"><span data-stu-id="bfa0e-110">Click Lines.</span></span>
-6. <span data-ttu-id="bfa0e-111">Í reitnum Lykill skal færa inn viðeigandi lykil samkvæmt gerð lykils.</span><span class="sxs-lookup"><span data-stu-id="bfa0e-111">In the Account field enter an appropriate account based on the Account type.</span></span>
-7. <span data-ttu-id="bfa0e-112">Í reitinn Lýsing skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="bfa0e-112">In the Description field, type a value.</span></span>
-8. <span data-ttu-id="bfa0e-113">Færa inn upphæð fyrir lykil í annaðhvort Debet eða Kredit.</span><span class="sxs-lookup"><span data-stu-id="bfa0e-113">Enter an amount for the Account in either Debit or Credit.</span></span> <span data-ttu-id="bfa0e-114">Þessar verkefnaleiðbeiningar gera ráð fyrir debetupphæð.</span><span class="sxs-lookup"><span data-stu-id="bfa0e-114">This task guide is assuming a debit amount.</span></span>
-9. <span data-ttu-id="bfa0e-115">Í reitnum Mótlykill skal færa inn viðeigandi lykil samkvæmt gerð mótlykils.</span><span class="sxs-lookup"><span data-stu-id="bfa0e-115">In the Offset account field enter an appropriate account based on the Offset account type.</span></span>
-10. <span data-ttu-id="bfa0e-116">Smella á Villuleita.</span><span class="sxs-lookup"><span data-stu-id="bfa0e-116">Click Validate.</span></span>
-11. <span data-ttu-id="bfa0e-117">Smella á Villuleita.</span><span class="sxs-lookup"><span data-stu-id="bfa0e-117">Click Validate.</span></span>
-12. <span data-ttu-id="bfa0e-118">Smellið á „Bóka“.</span><span class="sxs-lookup"><span data-stu-id="bfa0e-118">Click Post.</span></span>
-13. <span data-ttu-id="bfa0e-119">Smellt er á Fylgiskjalið.</span><span class="sxs-lookup"><span data-stu-id="bfa0e-119">Click Voucher.</span></span>
+1. <span data-ttu-id="e30b4-106">Fara í fjárhag > Færslubókarfærslur > Almennar færslubækur.</span><span class="sxs-lookup"><span data-stu-id="e30b4-106">Go to General ledger > Journal entries > General journals.</span></span>
+2. <span data-ttu-id="e30b4-107">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="e30b4-107">Click New.</span></span>
+3. <span data-ttu-id="e30b4-108">Í reitnum Heiti skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="e30b4-108">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="e30b4-109">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="e30b4-109">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="e30b4-110">Smellið á Línur.</span><span class="sxs-lookup"><span data-stu-id="e30b4-110">Click Lines.</span></span>
+6. <span data-ttu-id="e30b4-111">Í reitnum Lykill skal færa inn viðeigandi lykil samkvæmt gerð lykils.</span><span class="sxs-lookup"><span data-stu-id="e30b4-111">In the Account field enter an appropriate account based on the Account type.</span></span>
+7. <span data-ttu-id="e30b4-112">Í reitinn Lýsing skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="e30b4-112">In the Description field, type a value.</span></span>
+8. <span data-ttu-id="e30b4-113">Færa inn upphæð fyrir lykil í annaðhvort Debet eða Kredit.</span><span class="sxs-lookup"><span data-stu-id="e30b4-113">Enter an amount for the Account in either Debit or Credit.</span></span> <span data-ttu-id="e30b4-114">Þessar verkefnaleiðbeiningar gera ráð fyrir debetupphæð.</span><span class="sxs-lookup"><span data-stu-id="e30b4-114">This task guide is assuming a debit amount.</span></span>
+9. <span data-ttu-id="e30b4-115">Í reitnum Mótlykill skal færa inn viðeigandi lykil samkvæmt gerð mótlykils.</span><span class="sxs-lookup"><span data-stu-id="e30b4-115">In the Offset account field enter an appropriate account based on the Offset account type.</span></span>
+10. <span data-ttu-id="e30b4-116">Smella á Villuleita.</span><span class="sxs-lookup"><span data-stu-id="e30b4-116">Click Validate.</span></span>
+11. <span data-ttu-id="e30b4-117">Smella á Villuleita.</span><span class="sxs-lookup"><span data-stu-id="e30b4-117">Click Validate.</span></span>
+12. <span data-ttu-id="e30b4-118">Smellið á „Bóka“.</span><span class="sxs-lookup"><span data-stu-id="e30b4-118">Click Post.</span></span>
+13. <span data-ttu-id="e30b4-119">Smellt er á Fylgiskjalið.</span><span class="sxs-lookup"><span data-stu-id="e30b4-119">Click Voucher.</span></span>
 

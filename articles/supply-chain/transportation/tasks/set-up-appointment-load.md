@@ -17,33 +17,33 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d3987fcd696994251afbc1ff50b1121a2c0577df
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: b5832c10e038b7853e9cdf37400a703a1a5e0341
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836099"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146270"
 ---
-# <a name="set-up-an-appointment-for-a-load"></a><span data-ttu-id="7c776-103">Setja upp erindi fyrir farm</span><span class="sxs-lookup"><span data-stu-id="7c776-103">Set up an appointment for a load</span></span>
+# <a name="set-up-an-appointment-for-a-load"></a><span data-ttu-id="ba3d9-103">Setja upp erindi fyrir farm</span><span class="sxs-lookup"><span data-stu-id="ba3d9-103">Set up an appointment for a load</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="7c776-104">Þessi verklýsing sýnir hvernig á að setja upp og áætla fundaáætlun fyrir hleðslu.</span><span class="sxs-lookup"><span data-stu-id="7c776-104">This procedure shows how to set up and plan a dock appointment for a load.</span></span> <span data-ttu-id="7c776-105">Þetta er yfirleitt gert af samræmingaraðila flutninga.</span><span class="sxs-lookup"><span data-stu-id="7c776-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="7c776-106">Hægt er að nota þetta ferli í sýnigögn fyrirtækisins USMF.</span><span class="sxs-lookup"><span data-stu-id="7c776-106">You can use this procedure in the USMF demo data company.</span></span>
+<span data-ttu-id="ba3d9-104">Þessi verklýsing sýnir hvernig á að setja upp og áætla fundaáætlun fyrir hleðslu.</span><span class="sxs-lookup"><span data-stu-id="ba3d9-104">This procedure shows how to set up and plan a dock appointment for a load.</span></span> <span data-ttu-id="ba3d9-105">Þetta er yfirleitt gert af samræmingaraðila flutninga.</span><span class="sxs-lookup"><span data-stu-id="ba3d9-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="ba3d9-106">Hægt er að nota þetta ferli í sýnigögn fyrirtækisins USMF.</span><span class="sxs-lookup"><span data-stu-id="ba3d9-106">You can use this procedure in the USMF demo data company.</span></span>
 
 
-## <a name="select-the-load"></a><span data-ttu-id="7c776-107">Veldu farminn</span><span class="sxs-lookup"><span data-stu-id="7c776-107">Select the load</span></span>
-1. <span data-ttu-id="7c776-108">Fara í flutningsstjórnun > Áætlanagerð > Vinnusvæði hleðsluáætlunar.</span><span class="sxs-lookup"><span data-stu-id="7c776-108">Go to Transportation management > Planning > Load planning workbench.</span></span>
-2. <span data-ttu-id="7c776-109">Hreinsa gátreitinn Fela sent og móttekið.</span><span class="sxs-lookup"><span data-stu-id="7c776-109">Clear the Hide shipped and received check box.</span></span>
-3. <span data-ttu-id="7c776-110">Á listanum, veljið farm sem hefur stöðuna Sent.</span><span class="sxs-lookup"><span data-stu-id="7c776-110">In the list, select the load that has a status of Shipped.</span></span>
-4. <span data-ttu-id="7c776-111">Smelltu á Flutning.</span><span class="sxs-lookup"><span data-stu-id="7c776-111">Click Transportation.</span></span>
-5. <span data-ttu-id="7c776-112">Smelltu á fundaáætlun.</span><span class="sxs-lookup"><span data-stu-id="7c776-112">Click Appointment scheduling.</span></span>
+## <a name="select-the-load"></a><span data-ttu-id="ba3d9-107">Veldu farminn</span><span class="sxs-lookup"><span data-stu-id="ba3d9-107">Select the load</span></span>
+1. <span data-ttu-id="ba3d9-108">Fara í flutningsstjórnun > Áætlanagerð > Vinnusvæði hleðsluáætlunar.</span><span class="sxs-lookup"><span data-stu-id="ba3d9-108">Go to Transportation management > Planning > Load planning workbench.</span></span>
+2. <span data-ttu-id="ba3d9-109">Hreinsa gátreitinn Fela sent og móttekið.</span><span class="sxs-lookup"><span data-stu-id="ba3d9-109">Clear the Hide shipped and received check box.</span></span>
+3. <span data-ttu-id="ba3d9-110">Á listanum, veljið farm sem hefur stöðuna Sent.</span><span class="sxs-lookup"><span data-stu-id="ba3d9-110">In the list, select the load that has a status of Shipped.</span></span>
+4. <span data-ttu-id="ba3d9-111">Smelltu á Flutning.</span><span class="sxs-lookup"><span data-stu-id="ba3d9-111">Click Transportation.</span></span>
+5. <span data-ttu-id="ba3d9-112">Smelltu á fundaáætlun.</span><span class="sxs-lookup"><span data-stu-id="ba3d9-112">Click Appointment scheduling.</span></span>
 
-## <a name="create-an-appointment"></a><span data-ttu-id="7c776-113">Stofna fund</span><span class="sxs-lookup"><span data-stu-id="7c776-113">Create an appointment</span></span>
-1. <span data-ttu-id="7c776-114">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="7c776-114">Click New.</span></span>
-2. <span data-ttu-id="7c776-115">Sláið inn eða veldu gildi í reitnum Mótaregla.</span><span class="sxs-lookup"><span data-stu-id="7c776-115">In the Appointment rule field, enter or select a value.</span></span>
-3. <span data-ttu-id="7c776-116">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="7c776-116">Click Save.</span></span>
-4. <span data-ttu-id="7c776-117">Smella á Uppfæra stöðu</span><span class="sxs-lookup"><span data-stu-id="7c776-117">Click Update status.</span></span>
-5. <span data-ttu-id="7c776-118">Smellið á „Fastáætla“.</span><span class="sxs-lookup"><span data-stu-id="7c776-118">Click Firm.</span></span>
-6. <span data-ttu-id="7c776-119">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="7c776-119">Click Save.</span></span>
-7. <span data-ttu-id="7c776-120">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="7c776-120">Close the page.</span></span>
+## <a name="create-an-appointment"></a><span data-ttu-id="ba3d9-113">Stofna fund</span><span class="sxs-lookup"><span data-stu-id="ba3d9-113">Create an appointment</span></span>
+1. <span data-ttu-id="ba3d9-114">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="ba3d9-114">Click New.</span></span>
+2. <span data-ttu-id="ba3d9-115">Sláið inn eða veldu gildi í reitnum Mótaregla.</span><span class="sxs-lookup"><span data-stu-id="ba3d9-115">In the Appointment rule field, enter or select a value.</span></span>
+3. <span data-ttu-id="ba3d9-116">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="ba3d9-116">Click Save.</span></span>
+4. <span data-ttu-id="ba3d9-117">Smella á Uppfæra stöðu</span><span class="sxs-lookup"><span data-stu-id="ba3d9-117">Click Update status.</span></span>
+5. <span data-ttu-id="ba3d9-118">Smellið á „Fastáætla“.</span><span class="sxs-lookup"><span data-stu-id="ba3d9-118">Click Firm.</span></span>
+6. <span data-ttu-id="ba3d9-119">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="ba3d9-119">Click Save.</span></span>
+7. <span data-ttu-id="ba3d9-120">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="ba3d9-120">Close the page.</span></span>
 
