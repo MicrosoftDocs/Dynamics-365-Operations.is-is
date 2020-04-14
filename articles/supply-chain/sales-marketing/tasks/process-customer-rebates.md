@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3a6678b09ce4011b7f80d40979209cc2f588df8
-ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
+ms.openlocfilehash: 73bc22949d0b19fa04bf27e6fd7df7b27832795b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "1994935"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148585"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Mynda og vinna úr eftirágreiddum afslætti viðskiptavina
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þetta ferli sýnir hvernig á að meðhöndla eftirágreiddan afslátt viðskiptavinar úr myndun kröfu til að senda þær sem uppsafnanir á viðskiptakröfur. Það fer í gegnum tiltekið dæmi til að útskýra hvernig mismunandi skilyrði í línum fyrir eftirágreiddan afslátt hafa áhrif endanleg upphæðir sem verður kreditfærð á viðskiptavininn. Nauðsynlegt er að nota USMF sýnigögn fyrirtækisins og framkvæma eftirfarandi verkefni áður en byrjað er á leiðarvísi: (1) Fara á síðu færibreytur viðskiptakrafna og útvíkka á flipanum Verð og svo flipann upplýsingar um Verð og athuga að valkosturinn Virkja verðupplýsingar er stilltur á Já. (2) fara í samningur um eftirágreiddan afslátt síðunni og velja samning um eftirágreiddan afslátt viðskiptavinar: USMF 000001. Ef svæði stöðu verkflæðissamþykkis er ekki stilltur á Samþykkt, þarf að smella á Villuleit í aðgerðarúðunni til að samþykkja hana.
 
@@ -36,7 +36,7 @@ ms.locfileid: "1994935"
     - Samningurinn er fyrir einstaka viðskiptavin, í þessu dæmi viðskiptavinar US-009.  
     - Eftirágreiddir afslættir eru gefnar viðskiptavinar þegar þeir kaupa tiltekna afurð. Í þessu tilfelli hefur afurðar T0020 vörunúmer.   
     - afköst í sölu Viðskiptavinar, sem upphæðir eftirágreidds afsláttur er metið, á að taka saman vikulega.  
-    - Stillingin fyrir "Verð er tekið úr" er Brúttó, sem þýðir að söluupphæð línu á hvaða grunn kröfunni er áætluð er ekki lækkað sem nemur línuafslátt.  
+    - Stillingin fyrir „Verð er tekið úr” er Brúttó, sem þýðir að söluupphæð línu á hvaða grunn kröfunni er áætluð er ekki lækkað sem nemur línuafslátt.  
     - Svæðið gerð hlés fyrir Eftirágreiddur Afsláttur sýnir aðferð fyrir útreikning á eftirágreiddum afslætti. Í þessu tilfelli er sölumarkmið sem eftirágreidda eru metnir gegn stillt á Magn.   
     - Línur samnings tilgreina gerð upphæðar eftirágreidds afsláttar, virði raunverulegt eftirágreidds afsláttar og í þröskulda. Í þessu dæmi viðskiptavinar uppfylla skilyrði fyrir eftirágreiddan afslátt uppá 20 USA á hverja einingu sem er seld, ef þeirra vikulegt innkaup þeirra á afurðarinnar fellur innan einingar 1 til 50; og eftirágreiddum afslætti uppá 40 usd á hverja einingu, ef þeir kaupa ofan 50 einingar.  
 2. Lokið síðunni.
@@ -65,10 +65,10 @@ ms.locfileid: "1994935"
 
 ## <a name="process-rebate-claims"></a>Vinna úr kröfur um eftirágreiddan afslátt
 1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Sala- og markaðssetning > Eftirágreiddir afslættir > Eftirágreiddur afsláttur**.
-    - síða Eftirágreiddir Afslættir þjónar sem vinnusvæði þar sem hægt er að endurskoða, samþykkja og vinna kröfur um eftirágreiddan afslátt. Nú muntu vinna kröfur sem voru stofnaðar þegar reikningsfært var sölupöntun fyrir viðskiptavin U.S.-009 sem er viðfangsefni samnings um eftirágreiddan afslátt USMF 000001 .   
+    - síða Eftirágreiddir Afslættir þjónar sem vinnusvæði þar sem hægt er að endurskoða, samþykkja og vinna kröfur um eftirágreiddan afslátt. Nú muntu vinna kröfur sem voru stofnaðar þegar reikningsfært var sölupöntun fyrir viðskiptavin US-009 sem er viðfangsefni samnings um eftirágreiddan afslátt USMF-000001 .   
     - Fyrsta lína stendur fyrir kröfu um eftirágreiddan afslátt fyrir 800 USD sem er byggð á sölu 40 eininga afurðar T0020, reiknaður sem 20 USD á hverja einingu. Þetta uppfyllir skilyrði fyrir fyrsta hlé í magni í samning um eftirágreiddan afslátt.  
     - Önnur kröfu er fyrir 2,400 USD sem er byggð á sölu 60 eininga afurðar T0020 reiknaður 40 USD á hverja einingu samkvæmt seinni hlé í magni í samningnum.  
-    - Bæði krafa eru í “Til útreiknings” staða. Þetta þýðir að þær séu tengd við samning sem rekur afköst í sölu viðskiptavinar með reglulegu millibili og að þær verða að vera reiknuð aftur á lykil fyrir sölu umfang heildarsölu innan viðkomandi tímabils.   
+    - Báðar kröfurnar eru í stöðunni „Til útreiknings”. Þetta þýðir að þær séu tengd við samning sem rekur afköst í sölu viðskiptavinar með reglulegu millibili og að þær verða að vera reiknuð aftur á lykil fyrir sölu umfang heildarsölu innan viðkomandi tímabils.   
 2. Smellt er á **Uppsafna**.
 3. Í reitnum **Viðskiptavinur** skal færa inn eða velja gildi.
 4. Í reitnum **Upphafsdagur** skaltu velja daginn í dag.

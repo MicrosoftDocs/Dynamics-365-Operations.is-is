@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc28149aa56302e09eb0e7be581a582f58a76416
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 9c813a429d7837493663625bde341638eecfc5ee
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847352"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148506"
 ---
 # <a name="configure-wave-processing"></a>Skilgreina bylgjuvinnslu
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Í þessum leiðbeiningum er lýst hvernig eigi að setja upp skilyrði sem ákvarða hvort bylgjur eru unnar handvirkt eða sjálfvirkt og vinnu sem er mynduð fyrir vöruhús þegar unnið er úr bylgju. Tilgreina skal skilyrði með því að setja upp bylgjusniðmát og fyrirspurnir sem samsvara bylgju með losaðar línur í sölupantanir, framleiðslupantanir og kanban pantanir. Bylgjuvinnslu er notað í vöruhús sem nota aðgerðirnar í vöruhúsakerfiseiningunni og ekki þau sem nota aðgerðirnar í kerfinu birgðastjórnun. Hægt er að keyra þetta ferli fyrir sýnigögn fyrirtækisins USMF.
 
@@ -34,7 +34,7 @@ ms.locfileid: "1847352"
 2. Smellt er á **Nýtt**.
 3. Í reitnum **Heiti bylgjusniðmáts** skal slá inn gildi. Þegar sett er upp bylgjusniðmát er að tilgreina Röðina sem sniðmát eru samsvöruð við losuð lína á sölupantanir, framleiðslupantanir og kanbana. Þegar línu er losuð í vöruhús eða framleiðslu, notar hún fyrstu bylgjusniðmát sem hún uppfyllir skilyrði fyrir. Mælt er með því að setja sniðmát með nákvæmasta skilyrði efst á listanum. Því breiðara sem skilyrði er, því líklegra er fyrir línu til að uppfylla skilyrði, sem gæti leitt til að línur sé úthlutað á röng bylgju.  
 4. í reitnum **Lýsing bylgjusniðmáts** slærðu inn gildi.
-5. Í reitnum **Svæði** slærðu inn eða velur gildi. Ef verið er að nota USMF er hægt að velja ‚svæði 2‘.  
+5. Í reitnum **Svæði** slærðu inn eða velur gildi. Ef verið er að nota USMF er hægt að velja svæði 2.  
 6. Í reitnum **Vöruhús** slærðu inn eða velur gildi. Ef verið er að nota USMF er hægt að velja vöruhús 24.  
 7. Stilltu reitinn **Gera stofnun bylgju sjálfvirka** á **Já**. Veljið þennan valkost til að stofna bylgju sjálfkrafa þegar sölupöntun, framleiðslupöntun eða kanban-losaðar í vöruhúsið.  
 8. Stilltu valkostinn **Vinna úr bylgju við losun í vörugeymslu** á **Já**. Veljið þennan valkost til að vinna úr bylgjunni sjálfkrafa og stofna vinnu þegar lína er losuð í vöruhús.  
@@ -44,7 +44,7 @@ ms.locfileid: "1847352"
 12. Stilltu valkostinn **Gera áfyllingarvinnu sjálfvirka** á **Já**. Veljið þennan valkost til að stofna vinnu áfyllingar út frá eftirspurn og losa sjálfkrafa. Verður að bæta aðferð bylgju áfylling bylgjusniðmátið og stofna áfyllingarsniðmát af gerðinni Bylgjueftirspurn.  
 13. Víkkið út hlutann **Aðferðir**.
 
-    - Aðferðir bylgjusniðmáts gera þér kleift að stýra röð verkþátta sem hver bylgja fer í gegnum þegar hún er unnin. Til dæmis gæti verið til aðferð fyrir áfyllingu bylgja . Þegar þú bætir við aðferð, er hún sjálfkrafa skráð í viðeigandi stað í röð af skrefum. Hafirðu stillt valkostinn útgefinn fyrir sjálfvirka áfyllingarvinnu á Já, þarftu að bæta við áfyllingarmáta hér.  
+    - Aðferðir bylgjusniðmáts gera þér kleift að stýra röð verkþátta sem hver bylgja fer í gegnum þegar hún er unnin. Til dæmis gæti verið til aðferð fyrir áfyllingu bylgja . Þegar þú bætir við aðferð er hún sjálfkrafa skráð í viðeigandi stað í röð af skrefum. Hafirðu stillt útgáfuvalkostinn fyrir sjálfvirka áfyllingarvinnu á Já, þarftu að bæta við áfyllingarmáta hér.  
     - Bylgjueigindir virka sem síur til að takmarka þær vörur sem geta notað bylgjuna. Til dæmis gætir þú tilgreint flokkvöru.  
 14. Smellt er á **Vista**.
 15. Lokið síðunni.

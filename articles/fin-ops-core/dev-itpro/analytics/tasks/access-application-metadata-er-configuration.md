@@ -1,6 +1,6 @@
 ---
 title: Fá aðgang að lýsigögnum hugbúnaðar með notkun á grunnstillingum rafrænnar skýrslugerðar
-description: Skrefin í þessu efni útskýra hvernig notandi Regulatory Configuration Service (RCS) getur sett upp nýja líkanavörpun rafrænnar skýrslugerðar með notkun á lýsigögnum í Finance and Operations
+description: Skrefin í þessu efni útskýra hvernig notandi Regulatory Configuration Service (RCS) getur sett upp nýja líkanavörpun rafrænnar skýrslugerðar með notkun á lýsigögnunum í Finance and Operations.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/28/2019
@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aa8444b081650e3d375e6f28f47866c8d4853721
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: a4c7341941df3ba7bf0a0dfeef8cb3009726838e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772464"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142709"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>Fá aðgang að lýsigögnum hugbúnaðar með notkun á grunnstillingum rafrænnar skýrslugerðar
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Eftirfarandi skref útskýra hvernig notandi Regulatory Configuration Service í hlutverki kerfisstjóra eða þróunaraðila rafrænnar skýrslulausnar getur sett upp nýja líkanavörpun rafrænnar skýrslugerðar með því að nota lýsigögn forritsins. Farið verður í lýsigögn forrits með því að nota skilgreiningar ER-lýsigagna sem innihalda sýnishorn af lýsigögnum til að fá aðgang að utanríkisviðskiptum. Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í RCS í efnisatriðinu, ferlinu [Stofna skilgreiningarveitendur og merkja þá sem virka](er-configuration-provider-mark-it-active-2016-11.md). Síðan lýkurðu við skrefin í efninu, [Undirbúa lýsigögn hugbúnaðar sem á að nota í RCS](prepare-application-metadata-rcs.md).
 
@@ -52,28 +52,28 @@ Eftirfarandi skref útskýra hvernig notandi Regulatory Configuration Service í
 7. Í reitnum **Heiti** skaltu færa inn „Rót“. 
 8. Smelltu á **Bæta við**. 
 9. Smelltu á **Nýtt** til að opna felligluggann. 
-10. Í reitinn **Heiti** slærðu inn „Færsla“. 
-11. Í reitnum **Gerð vöru** velurðu **Skráalisti**. 
-12. Smelltu á **Bæta við**. 
-13. Smelltu á **Nýtt** til að opna felligluggann. 
-14. Í reitinn **Heiti** slærðu inn „Grunnvörukóði“. 
-15. Í reitnum **Gerð vöru** velurðu **Strengur**. 
-16. Smelltu á **Bæta við**. 
-17. Smelltu á **Nýtt** til að opna felligluggann. 
-18. Í reitinn **Heiti** slærðu inn „Reikningsfærð upphæð“. 
-19. Í reitnum **Gerð vöru** velurðu **Rauntala**. 
-20. Smelltu á **Bæta við**. 
-21. Smelltu á **Nýtt** til að opna felligluggann. 
-22. Í reitinn **Heiti** slærðu inn „Dags.“. 
-23. Í reitnum **Gerð vöru** velurðu **Dags.**. 
-24. Smelltu á **Bæta við**. 
-25. Smelltu á **Rótartilvísun**. 
-26. Smellt er á **OK**. 
-27. Smellt er á **Vista**. 
-28. Lokið síðunni. 
-29. Smelltu á **Breyta stöðu**. 
-30. Smelltu á **Ljúka**. 
-31. Smellt er á **OK**. 
+10.    Í reitinn **Heiti** slærðu inn „Færsla“. 
+11.    Í reitnum **Gerð vöru** velurðu **Skráalisti**. 
+12.    Smelltu á **Bæta við**. 
+13.    Smelltu á **Nýtt** til að opna felligluggann. 
+14.    Í reitinn **Heiti** slærðu inn „Grunnvörukóði“. 
+15.    Í reitnum **Gerð vöru** velurðu **Strengur**. 
+16.    Smelltu á **Bæta við**. 
+17.    Smelltu á **Nýtt** til að opna felligluggann. 
+18.    Í reitinn **Heiti** slærðu inn „Reikningsfærð upphæð“. 
+19.    Í reitnum **Gerð vöru** velurðu **Rauntala**. 
+20.    Smelltu á **Bæta við**. 
+21.    Smelltu á **Nýtt** til að opna felligluggann. 
+22.    Í reitinn **Heiti** slærðu inn „Dags.“. 
+23.    Í reitnum **Gerð vöru** velurðu **Dags.**. 
+24.    Smelltu á **Bæta við**. 
+25.    Smelltu á **Rótartilvísun**. 
+26.    Smellt er á **OK**. 
+27.    Smellt er á **Vista**. 
+28.    Lokið síðunni. 
+29.    Smelltu á **Breyta stöðu**. 
+30.    Smelltu á **Ljúka**. 
+31.    Smellt er á **OK**. 
 
 ## <a name="create-model-mapping-configuration"></a>Búa til skilgreiningu líkanavörpunar 
 1. Smellið á **Stofna skilgreiningu** til að opna felligluggann. 
@@ -85,43 +85,43 @@ Eftirfarandi skref útskýra hvernig notandi Regulatory Configuration Service í
 7. Smellt er á **Nýtt**. 
 8. Í listanum skal merkja valda línu. 
 9. Í reitnum **Gerð forkröfuíhlutar** velurðu **Skilgreining**. 
-10. Veldu skilgreininguna **Lýsigögn utanríkisviðskipta**. 
-11. Smellt er á **Vista**. 
-12. Við bættum tilvísuninni við í útgáfu 1 af skilgreiningunni „Lýsigögn utanríkisviðskipta“. Lýsigögn forrits úr þessari skilgreiningu verða boðin á meðan verið er að setja þessa líkanavörpun upp. 
-13. Lokið síðunni. 
-14. Smellið á **Hönnuður**. 
-15. Smellið á **Hönnuður**. 
-16. Í trénu velurðu **Dynamics 365 for Operations\Töflufærslur**. 
-17. Smelltu á **Bæta rót við**. 
-18. Í reitinn **Heiti** slærðu inn „Intrastat“. 
-19. Veldu **Intrastat**-töflufærslur. 
-20. Smellt er á **OK**. 
+10.    Veldu skilgreininguna **Lýsigögn utanríkisviðskipta**. 
+11.    Smellt er á **Vista**. 
+12.    Við bættum tilvísuninni við í útgáfu 1 af skilgreiningunni „Lýsigögn utanríkisviðskipta“. Lýsigögn forrits úr þessari skilgreiningu verða boðin á meðan verið er að setja þessa líkanavörpun upp. 
+13.    Lokið síðunni. 
+14.    Smellið á **Hönnuður**. 
+15.    Smellið á **Hönnuður**. 
+16.    Í trénu velurðu **Dynamics 365 for Operations\Töflufærslur**. 
+17.    Smelltu á **Bæta rót við**. 
+18.    Í reitinn **Heiti** slærðu inn „Intrastat“. 
+19.    Veldu **Intrastat**-töflufærslur. 
+20.    Smellt er á **OK**. 
 
 > [!NOTE]
 > Einu 2 töflurnar voru boðnar þar sem aðeins 2 töflum var bætt í sett af lýsigögnum sem eru í notkun. 
 
-21. Smelltu á **Binda**. 
-22. Í trénu víkkarðu út **Intrastat**. 
-23. Í trénu velurðu **Intrastat\AmountMST**. 
-24. Í trénu víkkarðu út **Færsla = Intrastat**. 
-25. Í trénu velurðu **Færsla = Intrastat\Reikningsfærð upphæð**. 
-26. Smelltu á **Binda**. 
-27. Í trénu velurðu **Intrastat\TransDate**. 
-28. Í trénu velurðu **Færsla = Intrastat\Dags.**. 
-29. Smelltu á **Binda**. 
-30. Í trénu víkkarðu út **Intrastat\>Vensl**. 
-31. Í trénu víkkarðu út **Intrastat\>Vensl\IntrastatCommodity**. 
-32. Í trénu víkkarðu út **Intrastat\>Vensl\IntrastatCommodity\Kóði**. 
-33. Í trénu velurðu **Færsla = Intrastat\Grunnvörukóði**. 
-34. Smelltu á **Binda**. 
-35. Smelltu á **Villuleita**. 
+21.    Smelltu á **Binda**. 
+22.    Í trénu víkkarðu út **Intrastat**. 
+23.    Í trénu velurðu **Intrastat\AmountMST**. 
+24.    Í trénu víkkarðu út **Færsla = Intrastat**. 
+25.    Í trénu velurðu **Færsla = Intrastat\Reikningsfærð upphæð**. 
+26.    Smelltu á **Binda**. 
+27.    Í trénu velurðu **Intrastat\TransDate**. 
+28.    Í trénu velurðu **Færsla = Intrastat\Dags.**. 
+29.    Smelltu á **Binda**. 
+30.    Í trénu víkkarðu út **Intrastat\>Vensl**. 
+31.    Í trénu víkkarðu út **Intrastat\>Vensl\IntrastatCommodity**. 
+32.    Í trénu víkkarðu út **Intrastat\>Vensl\IntrastatCommodity\Kóði**. 
+33.    Í trénu velurðu **Færsla = Intrastat\Grunnvörukóði**. 
+34.    Smelltu á **Binda**. 
+35.    Smelltu á **Villuleita**. 
 
 > [!NOTE]
 > Okkur tókst að binda þætti gagnalíkans við atriði gagnagjafa sem er lýst með því að nota upplýsingar um lýsigögn forrits úr þeirri skilgreiningu lýsigagna rafrænnar skýrslugerðar. 
-36. Smellt er á **Vista**. 
-37. Lokið síðunni. 
-38. Lokið síðunni. 
-39. Þegar þess er þörf geturðu lengt núverandi lýsigagnasett og flutt síðan út nýja lokna útgáfu af ER lýsigögnum. Þú getur síðan flutt það inn í RCS og uppfært forsendur fyrir samstillta gerð kortagerðar með vísan til nýrrar útgáfu af innfluttum lýsigagnasamsetningum. 
+36.    Smellt er á **Vista**. 
+37.    Lokið síðunni. 
+38.    Lokið síðunni. 
+39.    Þegar þess er þörf geturðu lengt núverandi lýsigagnasett og flutt síðan út nýja lokna útgáfu af ER lýsigögnum. Þú getur síðan flutt það inn í RCS og uppfært forsendur fyrir samstillta gerð kortagerðar með vísan til nýrrar útgáfu af innfluttum lýsigagnasamsetningum. 
 
 > [!NOTE]
 > Þessi leið til að sækja upplýsingar um lýsigögn hugbúnaðar er sú eina sem er í boði fyrir staðbundið uppsett forrit (þegar uppsetningarlíkan staðbundinna eða innanhúss viðskiptagagna (LBD) er notað).

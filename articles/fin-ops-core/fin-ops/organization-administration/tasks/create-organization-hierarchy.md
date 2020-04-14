@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48c8564694b22a5110341d853a79096fbe805c91
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dde06f758be57fb646696c861218565476abcadc
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178368"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140560"
 ---
 # <a name="create-an-organization-hierarchy"></a>Stofna stigveldi fyrirtækis
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Notaðu eftirfarandi ferli til að stofna stigveldi fyrirtækis Hægt er að nota stigveldi fyrirtækis til að skoða og gefa skýrslu um reksturinn frá ýmsum sjónarhornum. Til dæmis er hægt að setja upp eitt stigveldi fyrir skattalega-, lagalega- eða lögboðna skýrslugerð. Hægt að setja upp annað stigveldi til að gefa skýrslu um fjárhagslegar upplýsingar sem ekki er krafist samkvæmt lögum, en sem er notuð við innri skýrslugerð. 
 
-Áður en hægt er að stofna stigveldisskipan fyrirtækis þarf að stofna fyrirtæki. Frekari upplýsingar eru í "Stofna lögaðila" eða "Stofna rekstrareiningu" verk. Einnig er hægt að stofna deildir og teymi. 
+Áður en hægt er að stofna stigveldisskipan fyrirtækis þarf að stofna fyrirtæki. Frekari upplýsingar eru í verkunum "Stofna lögaðila" eða "Stofna rekstrareiningu". Einnig er hægt að stofna deildir og teymi. 
 
 Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 

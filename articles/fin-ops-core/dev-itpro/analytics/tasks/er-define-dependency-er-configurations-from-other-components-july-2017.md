@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 468a2637f4a5b2b7ff3514c92c52fb26b9231bc4
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e06fdda7d2d73c3fe4a4b9ee5bd44e6ef857b8d5
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042920"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142246"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Skilgreina hversu mikil áhrif ER grunnstillingar hafa á aðra hluta
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar, Rafræn skýrslugerð Stýring grunnstillinga vörpunar líkans, og hafa aðgang að Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -41,8 +41,8 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verkefn
     * Við völdum útgáfu drög að grunnstillingum „Sýnivörpun“ vörpun líkans. Nú munum við skilgreina fylgni þess við aðra hluti hugbúnaðarins. Þetta skref er hugsað sem skilyrði fyrir stjórnun niðurhals á þessari útgáfu grunnstillinga frá Rafræn skýrslugerð Geymsla og allri frekari notkun á þessari útgáfu.   
 3. Stækka hlutann Skilyrði
     * Athugið að skilyrðaflokkur „Framkvæmdir“ hefur á þessu stigi verið bætt sjálfkrafa við. Flokkurinn inniheldur skilyrðahlutana sem taka til grunnstillingar gagnalíkansins og er merkt sem Framkvæmd. Þessi merking þýðir að „Sýnivörpun“ grunnstillingar vörpunar er talið samsvara því að setja „Sýnigagnalíkan“ gagnalíkanið í framkvæmd. Þar af leiðandi mun þessi hluti neyða Rafræn skýrslugerð til að hlaða niður grunnstillingum vörpunarinnar, „Sýnivörpun“ frá geymslu Rafræn skýrslugerð í hvert sinn sem grunnstillingar líkans „Sýnigagnalíkan“ er hlaðið niður.   
-4. Smellið á „Breyta“.
-    * Hægt er að tilgreina staka fylgni núverandi útgáfu grunnstillingar hugbúnaðarhluta með því að nota skilgreiningu tegundar hlutans, og annað hvort útgáfu af hlutanum eða flokk útgáfna af hlutanum.  
+4. Smella á Breyta.
+    * Hægt er að tilgreina staka fylgni núverandi útgáfu grunnstillingar hugbúnaðarhluta með því að nota skilgreiningu tegundar hlutans, og annaðhvort útgáfu af hlutanum eða flokk útgáfna af hlutanum.  
     * Ákjósanlega fylgni er hægt að setja saman í flokk. Þegar „Allir“ tegundaflokkar eru valdir, er fylgniskilyrði þessa flokks talið uppfyllt þegar hvert fylgniskilyrði frá þessum flokki og undirstigsflokki er uppfyllt. Þegar „Einn af“ tegundaflokkum er valinn, er fylgniskilyrði þessa flokks talið uppfyllt þegar að minnsta kosti eitt fylgniskilyrði frá þessum flokki er uppfyllt.   
 5. Smellið á „Nýtt“.
 6. Veljið Hluti afurðaskilyrða
@@ -83,7 +83,7 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verkefn
 9. Smellið á Stofna gagnasafn.
 10. Færa inn eða veljið gildi í svæðinu verk.
     * Veljið viðeigandi LCS-verk úr uppflettingu í reitnum „Verk“.  
-11. Smellið á „Í lagi“.
+11. Smellt er á Í lagi.
 12. Lokið síðunni.
 
 ## <a name="upload-configurations-to-lcs"></a>Hlaða upp Grunnstillingar í LCS

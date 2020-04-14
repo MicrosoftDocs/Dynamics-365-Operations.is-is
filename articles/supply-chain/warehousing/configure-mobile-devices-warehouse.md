@@ -3,7 +3,7 @@ title: Uppsetning fartækja fyrir vöruhúsavinnu
 description: Þetta efnisatriði lýsir því hvernig á að skilgreina valmyndaratriði sem starfsmenn í vöruhúsi nota til að framkvæma vinnu í fartæki.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 04/18/2019
+ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df3968c01006d773300593b966a69b5283a889a2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4c4b131c14101722593f685cbe1133b1aa1319b0
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813041"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161829"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Uppsetning fartækja fyrir vöruhúsavinnu
 
@@ -95,11 +95,11 @@ Ef reiturinn **Máti** fyrir valmyndaratriði er stilltur á **Óbeint** er hæg
 </tr>
 <tr>
 <td>Móttaka númeraplötu</td>
-<td>Taka við hleðslu á innleið með kenni númeraplötu.</td>
+<td>Taka við tilkynningu um sendingu á innleið (ASN) með kenni númeraplötu.</td>
 </tr>
 <tr>
 <td>Móttaka og frágangur númeraplötu</td>
-<td>Taka við og ganga frá hleðslu á innleið með kenni númeraplötu.</td>
+<td>Taka við og ganga frá tilkynningu um sendingu á innleið (ASN) með kenni númeraplötu.</td>
 </tr>
 <tr>
 <td>Móttaka farmvöru</td>
@@ -119,7 +119,7 @@ Ef reiturinn **Máti** fyrir valmyndaratriði er stilltur á **Óbeint** er hæg
 <td>Skrá inngreiðsla á magn vara með því að skrá RMA-númer og ganga frá vörur. Sami starfsmaður framkvæmir báðar aðgerðir.</td>
 </tr>
 <tr>
-<td rowspan="4">Flutningspöntun</td>
+<td rowspan="6">Flutningspöntun</td>
 <td>Móttaka flutningspöntunarvöru</td>
 <td>Skrá móttöku á vörumagni og stofna frágang vinnu fyrir annan starfsmann.
 
@@ -140,7 +140,15 @@ Ef reiturinn **Máti** fyrir valmyndaratriði er stilltur á **Óbeint** er hæg
 <td>Skrá inngreiðsla á magn af vöru og frágangur vörur. Sami starfsmaður framkvæmir báðar aðgerðir.</td>
 </tr>
 <tr>
-<td rowspan="4">Framleiðsla</td>
+<td>Móttaka númeraplötu</td>
+<td>Taka við tilkynningu um sendingu á innleið (ASN) með kenni númeraplötu.</td>
+</tr>
+<tr>
+<td>Móttaka og frágangur númeraplötu</td>
+<td>Taka við og ganga frá tilkynningu um sendingu á innleið (ASN) með kenni númeraplötu.</td>
+</tr>
+<tr>
+<td rowspan="4">Vinnsla</td>
 <td>Bóka tilbúið</td>
 <td>Skrá inn magn tilbúinnar vöru sem hefur verið lokið fyrir framleiðslu og stofna frágangsvinnu fyrir annan starfsmann. Magnið má sum eða öll magnið sem var áætlað fyrir framleiðslu.</td>
 </tr>

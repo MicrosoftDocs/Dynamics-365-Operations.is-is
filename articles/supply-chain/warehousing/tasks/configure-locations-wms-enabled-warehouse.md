@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fca4d8673ef7ccb00bc1b216fbe7d56acc2ff142
-ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
+ms.openlocfilehash: 43fd5a293671d63c1c0db3019ba89fdf84f9fff8
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "1994982"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146170"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þessi handbók sýnir hvernig á að grunnstilla uppsetningu á staðsetningu fyrir nýtt vöruhúsakerfisvirkjað vöruhús (vöruhús sem notar ítarleg vöruhúsaferli). Ferlið er yfirleitt gert af stjórnanda vöruhúss. Hægt er að keyra þessa handbók í sýnifyrirtækinu USMF eða í eigin gögnum. Forkröfur eru að minnsta kosti eitt svæði sé grunnstillt.
 
@@ -82,7 +82,7 @@ ms.locfileid: "1994982"
 9. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
 10. Í listanum skal smella á tengilinn í valinni línu.
 11. Merktu eða afmerktu gátreitinn **Heimila blandaða birgðastöðu**. Virkja þennan valkost ef óskað er að heimila stöðugildi blandaðra birgða í staðsetningum sem eru flokkaðar eftir þessa forstillingu staðsetningar. 
-12. Merkja eða afmerkja gátreitinn **Hnekkja reglum fyrir runudaga**. Virkja þennan valkost til að hnekkja reglu fyrir hversu marga daga lokadaga birgðir runuvinnslu getur verið önnur, til að leyfa blöndun birgðaruna sem hlýðir þessari reglu ekki.  
+12. Merkja eða afmerkja gátreitinn **Hnekkja reglum fyrir runudaga**. Virkjaðu þennan valkost til að hnekkja reglu fyrir hversu marga daga lokadaga birgðir runuvinnslu getur verið önnur, til að leyfa blöndun birgðaruna sem hlýðir þessari reglu ekki.  
 13. Merkja eða afmerkja gátreitinn **Leyfa reglulega talningu**. Virkja þennan valkost til að leyfa vinnslu reglulegrar talningar í öllum staðsetningum sem verða flokkaðar eftir þessar staðsetningarforstillingu. 
 14. Stækka eða fella saman hlutann **Víddir**. Flipinn Víddir gerir kleift að skilgreina færibreytur og aðferðir til að virkja nákvæmari útreikninga á afkastagetu innan hverrar staðsetningar.  
 15. Lokið síðunni.

@@ -3,7 +3,7 @@ title: Rafræn skýrsla ítarlegur ritill fyrir formúlu
 description: Þetta efni lýsir því hvernig hægt er að nota háþróaða formúluritilinn til að stilla segðir í líkanavörpun rafrænnar skýrslugerðar (ER) og sniðhlutum.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/22/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: d183f77da1dda0c4f04e4e48ab3db0133f494a55
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: df402bc20753d2ba14295592f4b40e20f9fdc7bf
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015258"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138899"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Rafræn skýrsla ítarlegur ritill fyrir formúlu
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Í viðbót við [Rafræn skýrslugerð](general-electronic-reporting.md) [formúluritill](general-electronic-reporting-formula-designer.md) geturðu notað ítarlegan formúluritil rafrænnar skýrslugerðar til að bæta upplifunina af því að stilla segðir rafrænnar skýrslugerðar (ER). Ítarlegur ritillinn er byggður á vafra og knúinn af [Mónakó-ritli](https://microsoft.github.io/monaco-editor). Mest notuðu ítarlegu aðgerðum ritilsins er lýst í þessu efni:
 
@@ -42,7 +40,7 @@ ms.locfileid: "3015258"
 - [Gagnalíming](#DataPasting)
 - [Málskipunarlýsing](#SyntaxColorization)
 
-## <a name="ActivateAdvEditor">Kveikja á ítarlega formúluritlinum</a>
+## <a name=""></a><a name="ActivateAdvEditor">Kveikja á ítarlega formúluritlinum</a>
 
 Ljúktu eftirfarandi skrefum til að byrja að nota ítarlega formúluritara í þínu tilviki Microsoft Dynamics 365 Finance.
 
@@ -55,7 +53,7 @@ Ljúktu eftirfarandi skrefum til að byrja að nota ítarlega formúluritara í 
 > [!NOTE]
 > Hafðu í huga að þessi færibreyta er notandasértæk og fyrirtækjasértæk.
 
-## <a name="Autoformatting">Sjálfvirk snið á kóðum</a>
+## <a name=""></a><a name="Autoformatting">Sjálfvirk snið á kóðum</a>
 
 Þegar þú skrifar flókna segð sem samanstendur af mörgum línum af kóða verður inndráttur á nýrri innfellda línu sjálfkrafa byggður á inndrætti fyrri raðar. Þú getur valið línur og breytt ídrætti þeirra með því að slá inn **Flipi** eða **Shift+Tab**.
 
@@ -63,13 +61,13 @@ Ljúktu eftirfarandi skrefum til að byrja að nota ítarlega formúluritara í 
 
 Sjálfvirk snið gerir þér kleift að halda allri segðinni vel sniðinni til að gera frekara viðhald auðveldara og til að einfalda skilning á stilltu rökfræði.
 
-## <a name="IntelliSense">IntelliSense</a>
+## <a name=""></a><a name="IntelliSense">IntelliSense</a>
 
 Ritillinn veitir lok orða til að hjálpa þér að skrifa segð hraðar og forðast innsláttarvillur. Þegar þú byrjar að bæta við nýjum texta býður ritillinn sjálfkrafa upp lista yfir aðgerðir studdar í ER aðgerðum sem innihalda stafi sem þú hefur slegið inn. Þú getur einnig kveikt á IntelliSense á hverjum stað sem er stillt með því að slá inn **Ctrl+Bil**.
 
 [![ER-formúluritill](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
 
-## <a name="CodeCompletion">Kóðalok</a>
+## <a name=""></a><a name="CodeCompletion">Kóðalok</a>
 
 Ritillinn gefur sjálfkrafa út kóðalok með:
 
@@ -81,7 +79,7 @@ Ritillinn gefur sjálfkrafa út kóðalok með:
 
 Þegar þú bendir á innsleginn sviga er seinni sviginn í parinu sjálfkrafa auðkenndur til að sýna uppbygginguna sem þeir styðja.
 
-## <a name="CodeNavigation">Kóðayfirlit</a>
+## <a name=""></a><a name="CodeNavigation">Kóðayfirlit</a>
 
 Þú getur fundið nauðsynleg tákn eða línur í segðinni með því að slá inn skipunina **Fara í** með skipanatöflu eða samhengisvalmyndinni.
 
@@ -95,7 +93,7 @@ Til dæmis, til að hoppa til línu **8** gerirðu eftirfarandi:
 
 [![ER-formúluritill](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
 
-## <a name="CodeStructuring">Uppbygging kóða</a>
+## <a name=""></a><a name="CodeStructuring">Uppbygging kóða</a>
 
 Kóðinn fyrir sumar aðgerðir, svo sem [IF](er-functions-logical-if.md) eða [CASE](er-functions-logical-case.md), er sjálfkrafa skipulagður. Þú getur stækkað og hrunið einhverju eða öllu samanbrotnu svæði þessa kóða til að draga úr breytanlegum hluta segðarinnar til að einbeita sér aðeins að því stykki af kóða sem þarfnast athygli þinnar. Hægt er að nota skipanirnar brjóta saman/brjóta sundur fyrir það.
 
@@ -117,7 +115,7 @@ Til að brjóta öll svæði sundur gerirðu eftirfarandi:
 
 [![ER-formúluritill](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
 
-## <a name="FindAndReplace">Finna og skrifa yfir</a>
+## <a name=""></a><a name="FindAndReplace">Finna og skrifa yfir</a>
 
 Til að finna tilvik ákveðins texta skaltu velja textann í segðinni og gera eftirfarandi:
 
@@ -145,13 +143,13 @@ Til að breyta öllum tilvikum ákveðins texta skaltu velja textann í segðinn
 
 [![ER-formúluritill](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
 
-## <a name="DataPasting">Gagnaheimildir og aðgerðir líma</a>
+## <a name=""></a><a name="DataPasting">Gagnaheimildir og aðgerðir líma</a>
 
 Þú getur valið **Bæta við gagnagjafa**, sem límir við núverandi segð gagnagjafa sem er nú valinn á vinstra spjaldinu **Gagnagjafi**. Eins geturðu valið **Bæta við aðgerð**, sem límir við núverandi segð aðgerð sem er nú valinn á hægra spjaldinu **Aðgerðir**. Ef þú notar ER formúluritilinn, verður valin aðgerð eða valinn gagnagjafi alltaf límd í lok stilltrar segðarinnar. Þegar þú notar ítarlegan ER-formúluritilinn er hægt að líma valda aðgerð eða valinn gagnagjafa við einhvern hluta stilltrar segðarinnar. Þú verður að nota bendilinn til að tilgreina hvar þú vilt líma gögnin.
 
 [![ER-formúluritill](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
 
-## <a name="SyntaxColorization">Málskipunarlýsing</a>
+## <a name=""></a><a name="SyntaxColorization">Málskipunarlýsing</a>
 
 Eins og er eru mismunandi litir notaðir til að varpa ljósi á eftirfarandi hluta segða:
 

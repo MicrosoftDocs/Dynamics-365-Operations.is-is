@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adb2300e51f8b5383eee4dea0dffe4129dc8a536
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: ae45dc0ed5332242a12efbb7f8ca37f97a244cce
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934818"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147987"
 ---
 # <a name="add-variant-products-to-purchase-orders-using-variant-weights"></a>Bæta afbrigðum afurða við innkaupapantanir með því að nota þyngd afbrigða
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Þetta ferli fer í gegnum skrefin til að nota vöruvíddasamsetningar þyngdar til að sjálfvirk útfylla innkaupapöntunarlínur fyrir hverja vöruvíddasamsetningu vöru. Þegar magn vörunnar sem á að kaupa valið, er innkaupapöntunarlínur stofnaðar fyrir vöruvíddasamsetningar afurðar með tillögur byggðar á þyngd sem skilgreind var fyrir afurðarafbrigði. Þetta ferli ekki innihalda skref til að skilgreina gildi þyngdar á víddir afurð og afurðarafbrigði. Þetta ferli notar sýnigögn fyrirtæki USRT.
+Þetta ferli fer í gegnum skrefin til að nota vöruvíddasamsetningar þyngdar til að sjálfvirk útfylla innkaupapöntunarlínur fyrir hverja vöruvíddasamsetningu vöru. Þegar magn vörunnar sem á að kaupa valið, er innkaupapöntunarlínur stofnaðar fyrir vöruvíddasamsetningar afurðar með tillögur byggðar á þyngd sem skilgreind var fyrir afurðarafbrigði. Þetta ferli inniheldur ekki skref til að skilgreina gildi þyngdar á afurðarvíddir og afurðarafbrigði. Þetta ferli notar sýnigögn fyrirtæki USRT.
 
 1. Fara í Viðskiptaskuldir > Innkaupapantanir > Allar innkaupapantanir.
 2. Smellið á „Nýtt“.

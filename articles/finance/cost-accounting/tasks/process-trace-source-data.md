@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6e913f3630862ba07718592cdd039940c5d40b8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 34cd29c4c31e1941c4e4acdbc1609210ea46934f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187683"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142295"
 ---
 # <a name="process-and-trace-source-data"></a>Vinna úr og rekja upprunagögn
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Öll gagnavinnsla er keyrð af verkum. Fyrir hvert verk og gagnaveitu er stofnuð færslubók til að skrá að ferlið hafi verið keyrt, og að færslurnar hafi verið unnar í núgildandi verki. Nota þetta ferli til að setja upp gagnaforða og svo rekja uppruna tilgreindrar kostnaðarfærslu. Þessi skráning notar USP2 sýnigagnafyrirtækið USP2. Áður en þú lýkur þessum verkhluta skaltu vera viss um að spila eftifarandi verkefnaleiðbeiningar „Stofna kostnaðarbókhald fjárhags“, „Skilgreina kostnaðarstýringareiningar“ og „Stjórna gagnaforða fyrir kostnaðarbókhald fjárhags“.
 

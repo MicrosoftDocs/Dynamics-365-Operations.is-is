@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1cf45e838afcb55e15175811f4d38be07d7a484d
-ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
+ms.openlocfilehash: 8200e0235fa78cbef4fdadd1d1c124446b89e72a
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "1874878"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145881"
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>Breyta eiganda vörusendingabirgða samkvæmt eftirspurn eftir framleiðslu
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þessi verklýsing sýnir hvernig á að breyta eiganda vörusendingabirgða úr lánardrottni í þinn lögaðila þegar eftirspurn er til staðar fyrir birgðirnar í framleiðslu. Þessi breyting á eignarhaldi er gert með því að stofna og bóka birgðabók eignarhaldsbreytingar. Hægt er að stofna Færslubókarlínur eignarhaldsbreytingar handvirkt eða, eins og sést í þessari skráningu, byggt á fyrirliggjandi framleiðslueftirspurn. Yfirleitt, getur yfirmaður í vinnusal framkvæmt verkið. Hægt er að nota þetta ferli í sýnigögn fyrirtækisins USMF eða þín eigin gögn. Ef verið er að nota eigin gögn, skal ganga úr skugga um að vera með eftirfarandi forsendur: heiti birgðabókar sem hefur verið sett upp fyrir breytingu á eignarhaldi birgða, efnislega skráð vara á lager í eigu lánardrottins og ein eða fleiri framleiðslupöntunarlínur fyrir efni. Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.
 

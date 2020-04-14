@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ac75d390b8bbb94c6e039b374b51462d348e355
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 001bdd61f9266798dadae2ac7c96a4f4c19dbb94
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057166"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141454"
 ---
 # <a name="create-and-associate-registers"></a>Búa til og tengja afgreiðslukassa
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta ferli sýnir hvernig á að stofna Afgreiðslukassi á sölustað (POS). Þessi aðferð notar sýnifyrirtækið USRT.
 
@@ -41,6 +41,6 @@ ms.locfileid: "3057166"
 7. Sláið inn eða veldu gildi í reitnum sjónræn forstilling.
     * Sjónrænar reglur eru notaðir til að tilgreina myndir í POS-bakgrunninum og innskráningarsíðunni, auk þema fyrir Sölustað.  
 8. Í reitnum kortamillifærslunúmer afgreiðslukassa skal slá inn gildi.
-    * Kortamillifærslunúmer Afgreiðslukassa er notað til að upplýsa greiðsluvinnslu um það hvaða greiðslustaður er að senda beiðnir um heimild. Þetta gildi er oft kallað "Kenni afgreiðslustöðvar" eða "TID". Yfirleitt má finna TID á límmiða á greiðslutækinu.  
+    * Kortamillifærslunúmer Afgreiðslukassa er notað til að upplýsa greiðsluvinnslu um það hvaða greiðslustaður er að senda beiðnir um heimild. Þetta gildi er oft kallað „Kenni afgreiðslustöðvar” eða „TID”. Yfirleitt má finna TID á límmiða á greiðslutækinu.  
 9. Smellið á „Vista“.
 

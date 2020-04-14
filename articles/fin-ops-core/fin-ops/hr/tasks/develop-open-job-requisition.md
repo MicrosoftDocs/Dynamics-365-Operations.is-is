@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 556f99d34521cce70efb64c5fbababd815e8429d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 55260a4d25f41bc649f5e1f1f8c950c6b438ecfb
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190466"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144042"
 ---
 # <a name="develop-and-open-job-requisition"></a>Þróa og opna tilkynningar um lausar stöður
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ráðningarverk hjálpa til við að stjórna ráðningarferlið. Fyrir hvert ráðningarverk, getur þú sett upp upplýsingar, svo sem verk sem ráðningu er fyrir, nafn ráðningaraðila, stöðu verkefnisins og deild sem starfið verður staðsett í. Eftir stofnun ráðningarverks, er hægt skrifa atvinnuauglýsingu fyrir verkið, birta auglýsinguna í sjálfsafgreiðslusíðum Starfsmanna, tengja starfsumsóknir við verkið og rekja aðgerðir fyrir verkið. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Til að hefja ferlið, farið í Mannauður > Ráðningar > Ráðningarverk > Ráðningarverk
 

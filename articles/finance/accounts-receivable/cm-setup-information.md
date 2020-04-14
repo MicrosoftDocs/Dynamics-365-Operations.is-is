@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 65b1d1a232558efbe05e83d51706a78b12439e47
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 524ae7b3062893ed07170227ea9b8908cd5858e1
+ms.sourcegitcommit: 1fb34abfe3382bc00237a2c00184fe201c12229f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124140"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "3151298"
 ---
 # <a name="credit-management-setup"></a>Uppsetning á lánastýringu 
 
@@ -40,13 +40,17 @@ Fara til **Skuldir og innheimta \> Uppsetning \> Verkflæði lánaumsýslu** til
 
 Þú getur sett sölupöntun í bið ef greiðsluskilmálar pöntunarinnar passa ekki við sjálfgefna greiðsluskilmála viðskiptavinarins. Hins vegar eru greiðsluskilmálar stundum ólíkir en eru nógu líkir til að þú viljir ekki setja pöntunina í bið. Þú getur raðað greiðsluskilmálum þannig að sumir þeirra séu með sömu stöðu en aðrir hærri eða lægri.
 
-Ef röðun greiðsluskilmála er virk verða sölupantanir settar í bið ef greiðsluskilmálar pöntunarinnar eru hærri en sjálfgefnir greiðsluskilmálar viðskiptavinarins.
+Ef röðun greiðsluskilmála er virk og ef greiðsluskilmálar pöntunarinnar eru hærri en sjálfgefnir greiðsluskilmálar viðskiptavinarins verður sölupöntunin sett í bið.
+
+Til að setja röðun greiðsluskilmála ferðu á **Skuldir og innheimta \> Uppsetning \> Uppsetning lánamála \>Raða greiðsluskilmálum**  
 
 ### <a name="ranking-settlement-discounts"></a>Röðun uppgjörsafsláttar
 
 Þú getur sett sölupöntun í bið ef staðgreiðsluafsláttur pöntunarinnar passar ekki við sjálfgefinn staðgreiðsluafslátt viðskiptavinarins. Hins vegar er staðgreiðsluafsláttur stundum ólíkur en nógu líkur til að þú viljir ekki setja pöntunina í bið. Þú getur raðað staðgreiðsluafsláttum þannig að sumir þeirra séu með sömu stöðu en aðrir hærri eða lægri.
 
-Ef röðun uppgjörsafsláttar er virk verða sölupantanir settar í bið ef staðgreiðsluafsláttur pöntunarinnar er hærri en sjálfgefnir staðgreiðsluafsláttur viðskiptavinarins.
+Ef röðun uppgjörsafsláttar er virk og ef staðgreiðsluafsláttur pöntunarinnar er hærri en sjálfgefnir staðgreiðsluafsláttur viðskiptavinarins verður sölupöntunin sett í bið.
+
+Til að setja röðun greiðsluskilmála ferðu á **Skuldir og innheimta \> Uppsetning \> Uppsetning lánamála \>Flokka uppgjörsafslætti**  
 
 ## <a name="reasons"></a>Ástæður
 
@@ -56,7 +60,7 @@ Margvíslegar ástæður eru notaðar í lánamálum:
 - Sleppingarástæðum er úthlutað til pöntunar þegar henni er sleppt úr bið.
 - Stöðuástæður segja til um hvers vegna lykilstöðu var úthlutað til viðskiptavinar.
 
-Þú getur sett upp ástæður á síðunni **Ástæður lánaumsýslu** (**Lánastjórnun \> Uppsetning \> Lánastjórnun \> Ástæður lánaumsýslu**).
+Þú getur sett upp ástæður á síðunni **Ástæður lánaumsýslu** (**Skuldir og innheimta \> Uppsetning \> Uppsetning lánastjórnunar \> Ástæður lánaumsýslu**).
 
 1. Í reitnum **Ástæðugerð** velurðu gerð ástæðunnar: **Bið**, **Losun** eða **Staða**.
 2. Í svæðið **Ástæða** er fært inn nafn fyrir ástæðuna.
@@ -66,7 +70,7 @@ Margvíslegar ástæður eru notaðar í lánamálum:
 
 Lánastjórnunarhópar eru notaðir til að bera kennsl á viðskiptavini eða hópa viðskiptavina sem hafa sömu lánstrausteiginleika. Til dæmis er hægt að nota lánastjórnunarhópa til að ákvarða reglur um útilokun og útilokun lána fyrir viðskiptavini.
 
-Þú getur stofnað kreditstjórnunarhópa á síðunni **Kreditstjórnunarhópar** (**Lánastjórnun \> Uppsetning \> Lánastjórnun> Hópauppsetning**).
+Þú getur stofnað kreditstjórnunarhópa á síðunni **Kreditstjórnunarhópar** (**Skuldir og innheimta \> Uppsetning> Uppsetning á lánastýringu \> Lánastýringarflokkar**).
 
 1. Veldu **Nýtt** til að búa til nýja línu.
 2. Færið inn kenni fyrir hópinn. Kennið getur haft allt að 10 stafi.
@@ -78,7 +82,7 @@ Kreditstjórnunarhópurinn er úthlutaður á viðskiptavin á flýtiflipanum **
 
 Þú getur búið til stöðu reikninga til að bera kennsl á lánstraust viðskiptavinarreiknings. Þú getur skilgreint stöðu og áhrif hennar á reikninga og afhendingar í biðferlum. Einnig er hægt að nota stöðu reikninga til að ákvarða útilokunarreglur fyrir viðskiptavin.
 
-Þú getur búið til stöðu reikninga á síðunni **Lykilstöður** (**Lánastjórnun \> Uppsetning> Uppsetning hópa \> Lykilstöður**).
+Þú getur búið til stöðu reikninga á síðunni **Lykilstöður** (**Skuldir og innheimta \> Uppsetning> Uppsetning á lánastýringu \> Lykilstöður**).
 
 1. Bættu við stöðu reiknings og sláðu inn lýsingu sem táknar lánstraust viðskiptavinar. Notaðu til dæmis **Venjulegt** til að gefa til kynna að viðskiptavinur sé í góðu ástandi og opnar pantanir eru háðar stöðluðu vinnslu lánamála.
 2. Í reitunum **Reikningsfærsla** og **Afhending í bið** velurðu þá tegund bið sem ætti að eiga sér stað fyrir viðskiptavini sem hafa þessa reikningsstöðu. Þú getur haldið allri vinnslu, haldið aðeins á reikningsvinnslu eða ekki haft neina vinnslu þegar lánamörkunarreglunum er beitt.
@@ -87,7 +91,7 @@ Kreditstjórnunarhópurinn er úthlutaður á viðskiptavin á flýtiflipanum **
 
 Þú getur sett upp stigahópa til að skilgreina áhættuþætti og viðmið sem eru notuð til að mæla þá. Þegar upplýsingum um viðskiptavin er beitt á stigahóp er stig reiknað fyrir hvern áhættuþátt og notaður til að setja viðskiptavininn í áhættuhóp. Hægt er að nota áhættuhópinn til að bera kennsl á lánstraust og reikna sjálfvirk lánamörk.
 
-Þú getur búið til stigahópa á síðunni **Stigahópar** (**Lánastjórnun \> Uppsetning \> Uppsetning áhættu \> Stigahópar**).
+Þú getur búið til stigahópa á síðunni **Stigahópar** (**Skuldir og innheimta \> Uppsetning \> Uppsetning á lánastýringu \> Áhætta \> Stigahópar**).
 
 1. Stofnaðu stigahóp og skráðu heiti fyrir hann.
 2. Sláðu inn lýsingu til að lýsa stigahópnum frekar.
@@ -108,11 +112,11 @@ Kreditstjórnunarhópurinn er úthlutaður á viðskiptavin á flýtiflipanum **
     1. Í reitnum **Gildi** sláðu inn notendaskilgreint gildi sem ætti að vera veitt frá upplýsingum viðskiptavinarins.
     2. Í reitinn **Stig** sláðu inn stig sem ætti að vera úthlutað þegar gildið sem er gefið er í sviðinu "frá" / "til".
 
-## <a name="risk-assessments"></a>Áhættumat
+## <a name="risk-classification"></a>Áhættuflokkun
 
 Þú getur skilgreint áhættumat sem hægt er að úthluta viðskiptavinum, út frá áhættustiginu. Áhættustig er reiknað með því að bera saman upplýsingar viðskiptavina við hvern stigahóp. Stigin eru dregin saman og heildarstigið er borið saman við gildin í uppstillingu áhættuhópsins til að bera kennsl á áhættuhópinn sem viðskiptavinurinn tilheyrir. Stig áhættuhópsins er síðan notað til að skilgreina útilokunar- og útilokunarreglur fyrir lánastjórnun fyrir viðskiptavininn.
 
-Þú getur sett upp áhættuhópa á síðunni **Áhættumat** (**Lánastjórnun \> Uppsetning \> Uppsetning áhættu \> Áhættumat**).
+Þú getur sett upp áhættuhópa á síðunni **Áhættumat** (**Skuldir og innheimta \> Uppsetning \> Uppsetning á lánastýringu \> Áhætta \> Áhættuflokkun**).
 
 1. Sláðu inn auðkenni áhættuhóps.
 2. Sláðu inn lýsingu til að útskýrir áhættuhópinn frekar.
@@ -121,7 +125,7 @@ Kreditstjórnunarhópurinn er úthlutaður á viðskiptavin á flýtiflipanum **
 
 ## <a name="guaranteeinsurance-types"></a>Gerðir ábyrgða/trygginga
 
-Þú getur sett upp gerðir ábyrgða/trygginga á síðunni **Gerðir ábyrgða/trygginga** (**Lánastjórnun \> Uppsetning \> Uppsetning á ábyrgð/tryggingu \> Gerðir ábyrgða/trygginga**).
+Þú getur sett upp gerðir ábyrgða/trygginga á síðunni **Gerðir ábyrgða/trygginga** (**Skuldir og innheimta \> Uppsetning \> Uppsetning á lánastýringu \> Trygging og ábyrgðir \> Gerðir tryggingar og ábyrgðar**).
 
 1. Sláðu inn ábyrgð eða tryggingategund sem auðkennir nafn ábyrgðaraðila eða vátryggingamiðlara.
 2. Sláðu inn lýsingu til að lýsa ábyrgðarmanni / vátryggingamiðlara.
@@ -130,14 +134,14 @@ Kreditstjórnunarhópurinn er úthlutaður á viðskiptavin á flýtiflipanum **
 
 Hægt er að nota umfjöllunargerðir til að flokka tryggingar frekar. Þeir geta ekki verið notaðir með ábyrgðir.
 
-Þú getur bætt við vátryggingagerðum á síðunni **Gerðir vátrygginga** (**Lánastjórnun \> Uppsetning \> Uppsetning á ábyrgð/tryggingu \> Gerðir vátrygginga**).
+Þú getur bætt við vátryggingagerðum á síðunni **Gerðir vátrygginga** (**Skuldir og innheimta \> Uppsetning \> Uppsetning á lánastýringu \> Trygging og ábyrgðir \> Gerðir vátrygginga**).
 
 1. Sláðu inn gerð vátryggingar til að bera kennsl á gerð vátryggingar sem ætti að bæta við sem tryggingu eða ábyrgð.
 2. Færa inn lýsingu til að lýsa gerð vátryggingar.
 
 ## <a name="automatic-credit-limits"></a>Sjálfvirk lánamörk
 
-Þú getur búið til viðmið fyrir sjálfvirk lánamörk á síðunni **Sjálfvirk lánamörk** (**Lánastjórnun \> Uppsetning \> Uppsetning áhættu \> Sjálfvirk lánamörk**).
+Þú getur búið til viðmið fyrir sjálfvirk lánamörk á síðunni **Sjálfvirk lánamörk** (**Skuldir og innheimta \> Uppsetning \> Uppsetning á lánastýringu \> Áhætta \> Sjálfvirk lánamörk**).
 
 1. Veldu áhættuhóp sem sjálfvirka lánsfjárhæðinni skal úthlutað til.
 2. Veldu gjaldmiðil fyrir sjálfvirka lánamörk. Þú getur búið til mörg sjálfvirk lánamörk í mismunandi gjaldmiðlum fyrir sama áhættuhóp.

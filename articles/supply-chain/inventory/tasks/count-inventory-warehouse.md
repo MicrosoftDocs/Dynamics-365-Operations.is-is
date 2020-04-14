@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a0909625f31d15fe6b1387ff9ab7fd5d9a9135f4
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 53e9457074b696efaf5958b3a3b4616f06f5a6ff
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836450"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145761"
 ---
 # <a name="count-inventory-in-a-warehouse"></a>Telja birgðir í vöruhúsi
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Þetta efni lýsir ferlinu við stofnun og bókun birgðatalningabók til að telja tiltekna vöru á staðsetningu í vöruhúsinu. Ferlið á við "grunn vöruhús" aðgerðir, sem tiltækar eru í kerfinu birgðastjórnun, ekki á vöruhúsaaðgerð sem tiltæk er í kerfiseiningunni vöruhúsakerfi. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Ef verið er að nota eigin gögn, tryggja þarf afurðir og staðsetningar eru uppsettar og að hefur verið stofnað heiti birgðabókar fyrir talningarbækur. Birgðatalning er yfirleitt framkvæmd af starfsmanni í vöruhúsi.
+Þetta efni lýsir ferlinu við stofnun og bókun birgðatalningabók til að telja tiltekna vöru á staðsetningu í vöruhúsinu. Ferlið á við virkni „grunnvöruhúss”, sem er tiltækt í birgðastjórnunareiningunni, ekki við vöruhúsavirknina sem er tiltæk í kerfiseiningunni vöruhúsakerfi. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Ef verið er að nota eigin gögn, tryggja þarf afurðir og staðsetningar eru uppsettar og að hefur verið stofnað heiti birgðabókar fyrir talningarbækur. Birgðatalning er yfirleitt framkvæmd af starfsmanni í vöruhúsi.
 
 
 ## <a name="create-an-inventory-counting-journal"></a>Stofna færslubóka fyrir birgðatalningu
@@ -49,7 +49,7 @@ ms.locfileid: "1836450"
 7. Veljið **Vista**.
 
 ## <a name="post-the-inventory-counting-journal"></a>Bóka færslubók fyrir birgðatalningu
-1. Veldu **Bóka**. Þegar bókað er birgðatalningabók, ef talin upphæð er önnur en upphæð sem skráð er í reitnum **Á lager** er innhreyfing eða úthreyfing birgða bókuð, birgðastigi og birgðagildi breytt og fjárhagsfærslur stofnaðar.
+1. Veldu **Bóka**. Þegar birgðatalningabók er bókuð, ef talin upphæð er önnur en upphæð sem skráð er í reitnum **Á lager** er innhreyfing eða úthreyfing birgða bókuð, birgðastigi og birgðagildi breytt og fjárhagsfærslur stofnaðar.
 2. Veljið **Í lagi**.
 
 ## <a name="view-inventory-transactions"></a>Skoða birgðafærslur

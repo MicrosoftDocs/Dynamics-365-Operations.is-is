@@ -16,23 +16,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 980ce00ae702ea0a3394efa15419e0f7b7dc2530
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5def757de8fb9d347f5fd0f828039dad5c989c19
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182210"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143288"
 ---
 # <a name="er-upload-a-configuration-into-lifecycle-services"></a>Rafræn skýrslugerð Hlaða upp skilgreiningu í Lifecycle Services
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stofnað skilgreiningarsnið fyrir rafræna skýrslugerð (ER) og hlaða upp í Microsoft Lifecycle Services (LCS).
 
-Í þessu dæmi, verður að stofna skilgreiningu og hlaða henni upp í LCS fyrir sýnifyrirtæki, Litware, Inc. Þessi skref má framkvæma í hvaða fyrirtæki sem er þar sem ER skilgreiningar eru samnýttar á milli fyrirtækja. Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu "Stofna skilgreiningarveitu og merkja hana sem virka". Aðgangur að LCS er einnig nauðsynlegur til að ljúka þessum skrefum.
+Í þessu dæmi, verður að stofna skilgreiningu og hlaða henni upp í LCS fyrir sýnifyrirtæki, Litware, Inc. Þessi skref má framkvæma í hvaða fyrirtæki sem er þar sem ER skilgreiningar eru samnýttar á milli fyrirtækja. Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu „Stofna skilgreiningarveitu og merkja hana sem virka”. Aðgangur að LCS er einnig nauðsynlegur til að ljúka þessum skrefum.
 
 1. Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.
-2. Velja Litware, Inc. og stillið sem virka.
+2. Veldu „Litware, Inc.” og stillið sem virka.
 3. Smellt er á Skilgreiningum.
 
 ## <a name="create-a-new-data-model-configuration"></a>Stofna nýjan skilgreiningu gagnalíkans
@@ -79,19 +79,19 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þr
 2. Veljið 'dæmi um skilgreiningu líkans', í trénu.
     * Velja stofnaða skilgreiningu sem þegar hefur verið lokið.  
 3. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-    * Veljið útgáfu valinnar skilgreiningar með stöðuna "Lokið".  
+    * Veljið útgáfu valinnar skilgreiningar með stöðuna „Lokið”.  
 4. Smellið á „Breyta stöðu“.
 5. Smellt er á samnýta.
-    * Staða Skilgreiningar breytist úr "Lokið" til 'Samnýttar' þegar hún er birt á LCS.  
-6. Smellið á „Í lagi“.
+    * Staða Skilgreiningar breytist úr „Lokið” í „Samnýtt” þegar hún er birt á LCS.  
+6. Smellt er á Í lagi.
 7. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
     * Veldu Útgáfa skilgreiningar stöðuna samnýtt.  
-    * Athugið að staða valda útgáfu hefur breyst úr "Lokið" í 'Samnýttar'.  
+    * Athugið að staða valda útgáfu hefur breyst úr „Lokið” í „Samnýtt”.  
 8. Lokið síðunni.
 9. Smella á Geymslur.
     * Þannig er hægt að opna lista yfir gagnasöfn fyrir Litware, Inc. skilgreiningaveituna.  
 10. Smellt er á Opin.
     * Velja lcs-gagnasafn og opna hana.  
     * Athugið að valin skilgreining er sýnd sem eign valins LCS verks.  
-    * Opna LCS með https://lcs.dynamics.com. Opna verkið sem var notuð áður til skráningar gagnasafns, opna 'eignasafni' þessa verks og útvíkka innihald eignagerðarinnar 'GER skilgreining' – upphlaðin skilgreining Rafrænnar skýrslugerðar verða tiltæk. Athugaðu að upphalaðri LCS skilgreiningu er hægt að flytja inn í annað tilvik ef veiturnar hafa aðgang að þessu LCS verkinu.  
+    * Opna LCS með https://lcs.dynamics.com. Opna verkið sem var notuð áður til skráningar gagnasafns, opna „eignasafni” þessa verks og útvíkka innihald eignagerðarinnar „GER skilgreining” – upphlaðin skilgreining Rafrænnar skýrslugerðar verða tiltæk. Athugaðu að upphalaðri LCS skilgreiningu er hægt að flytja inn í annað tilvik ef veiturnar hafa aðgang að þessu LCS verkinu.  
 

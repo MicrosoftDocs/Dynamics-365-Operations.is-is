@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
-ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
+ms.openlocfilehash: 7de7af1084b62a7248eeda54df215e56f2541286
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "3081152"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173201"
 ---
 # <a name="unified-product-experience"></a>Samræmd afurðaupplifun
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 Þegar vistkerfi fyrirtækja samanstendur af Dynamics 365 forritum, svo sem Finance, Supply Chain Management og Sales, nota fyrirtæki þessi forrit oft til að fá upplýsingar um vöru. Þetta er vegna þess að þessi forrit bjóða upp á öfluga vöruinnviði ásamt háþróuðum verðlagningarhugtökum og nákvæmum birgðagögnum fyrir lagermagn. Fyrirtæki sem nota utanaðkomandi vörukerfisstjórnunarkerfi (PLM) til að afla vörugagna geta sett vörur úr forritum Finance and Operations í rásir í öðrum forritum Dynamics 365. Sameinuð vöruupplifunin færir samþætt vörugagnalíkan inn í Common Data Service, þannig að allir notendur forritsins þ.m.t. notendur Power Platform geta nýtt sér þau ríku vörugögn sem koma úr forritum Finance and Operations.
 
@@ -52,7 +52,7 @@ Kortin með tvískiptum skrifum fyrir vörur hafa verið hönnuð til að streym
 
 Afurðarupplýsingar innihalda allar upplýsingar sem tengjast vörunni og skilgreiningu hennar, svo sem afurðarvíddir eða mælingar og geymsluvíddir. Eins og meðfylgjandi tafla sýnir, er safn af einingakortum búið til til að samstilla vörur og tengdar upplýsingar.
 
-Finance and Operations | Önnur Dynamics 365 forrit | Lýsing
+Finance and Operations-smáforrit | Önnur Dynamics 365 forrit | lýsing
 -----------------------|--------------------------------|---
 Útgefnar afurðir V2 | msdyn\_sharedproductdetails | Einingin **msdyn\_sharedproductdetails** inniheldur reitina úr forritum Finance and Operations sem skilgreina afurðina og innihalda fjárhags- og stjórnunarupplýsingar afurðarinnar. 
 Common Data Service útgefnar einkvæmar afurðir | Afurð | Einingin **Afurð** inniheldur reitina sem skilgreina afurðina. Hún felur í sér einstakar afurðir (afurðir með undirgerðaafurð) og afurðarafbrigðin. Eftirfarandi tafla sýnir vörpun.
@@ -75,8 +75,8 @@ Eining | uoms
 Umreikningur eininga | msdyn_ unitofmeasureconversions
 Afurðatengd umskráning mælieiningar | msdyn_productspecificunitofmeasureconversion
 Afurðartegundir | msdyn_productcategories | Hver vöruflokkur og upplýsingar um uppbyggingu hans og einkenni eru að finna í vöruflokkseiningunni. 
-Tegundastigveldi afurðar | msdyn_productcategoryhierarhies | Þú notar vöruveldi til að flokka eða flokka vörur. Flokkastigveldin eru fáanleg í Common Data Service með því að nota afurðaflokkastigveldið. 
-Hlutverk tegundastigveldis afurðar | msdyn_productcategoryhierarchies | Hægt er að nota vöruveldi fyrir mismunandi hlutverk í D365 Finance and Operations. Tilgreindu hvaða flokkur er notaður í hverju hlutverki hlutaflokkurinn fyrir vöruflokkinn er notaður. 
+Tegundastigveldi afurðar | msdyn_productcategoryhierarhies | Stigveldi afurðar eru notuð til að flokka eða flokka afurðir. Flokkastigveldin eru fáanleg í Common Data Service með því að nota einingu tegundastigveldi afurðar. 
+Hlutverk tegundastigveldis afurðar | msdyn_productcategoryhierarchies | Hægt er að nota vöruveldi fyrir mismunandi hlutverk í D365 Finance and Operations. Þau tilgreina hvaða flokkur er notaður í hverju hlutverki hlutverkaeiningar afurðaflokks er notaður. 
 Úthlutanir afurðategundar | msdyn_productcategoryassignments | Til að úthluta vöru í flokk er hægt að nota eininguna fyrir vöruflokkaúthlutanir.
 
 ## <a name="integration-of-products"></a>Samþætting á afurðum
@@ -153,7 +153,7 @@ Mælieiningin er samþætt á milli forrita Finance and Operations og annarra fo
 
 [!include [unit of measure conversions](includes/UnitOfMeasureConversionEntity-msdyn-unitofmeasureconversions.md)]
 
-[!include [product specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
+[!include [product-specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
 
 ## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-common-data-service"></a>Upphafleg samstilling á samsvörun einingagagna á milli Finance and Operations og Common Data Service
 
@@ -167,12 +167,12 @@ Mælieiningin er samþætt á milli forrita Finance and Operations og annarra fo
 
 Fyrir samsvarandi/skarandi einingar í forritum Finance and Operations og öðrum Dynamics 365 forritum:
 
-+ **Einingin tilheyrir einingahópi í öðrum Dynamics 365 forritum sem samsvarar tengdum einingaflokki í forritum Finance and Operations**. Í þessu tilfelli verður að fylla út svæðið msdyn_symbol í öðrum Dynamics 365 forritum með einingartákninu úr forritum Finance and Operations. Þess vegna, þegar gögnin verða jöfnuð og einingahópurinn stilltur sem „utanaðkomandi viðhald“ í öðrum Dynamics 365 forritum.
++ **Einingin tilheyrir einingahópi í öðrum Dynamics 365 forritum sem samsvarar tengdum einingaflokki í forritum Finance and Operations**. Í þessu tilfelli verður að fylla út svæðið msdyn_symbol í öðrum Dynamics 365 forritum með einingartákninu úr forritum Finance and Operations. Þess vegna, þegar gögnin verða jöfnuð og einingahópurinn stilltur sem „Utanaðkomandi viðhald“ í öðrum Dynamics 365 forritum.
 + **Einingin tilheyrir einingahópi í öðrum Dynamics 365 forritum sem samsvarar ekki tilheyrandi einingaflokki í forritum Finance and Operations (engin núverandi einingaflokkur í forritum Finance and Operations fyrir einingaflokkinn í öðrum Dynamics 365 forritum).** Í þessu tilfelli verður að fylla út msdyn_symbol með streng af handahófi. Athugaðu að þetta gildi verður að vera einstakt í öðrum Dynamics 365 forritum.
 
 Fyrir einingar og einingaflokka í Finance and Operations sem eru ekki til í öðrum Dynamics 365 forritum:
 
-Sem hluti af tvískrifun eru einingarhóparnir úr forritum Finance and Operations og samsvarandi einingar stofnaðar og samstilltar í öðrum Dynamics 365 forritum og Common Data Service og einingahópurinn verður stilltur sem „utanaðkomandi viðhald“. Ekki er þörf á neinu auka átaki fyrir ræsingu.
+Sem hluti af tvískrifun eru einingarhóparnir úr forritum Finance and Operations og samsvarandi einingar stofnaðar og samstilltar í öðrum Dynamics 365 forritum og Common Data Service og einingahópurinn verður stilltur sem „Utanaðkomandi viðhald“. Ekki er þörf á neinu auka átaki fyrir ræsingu.
 
 Fyrir einingar í öðrum forritum Dynamics 365 sem eru ekki til í forritum Finance and Operations:
 
@@ -203,7 +203,7 @@ Afurðareglurnar eru reglur sem notaðar eru til að skilgreina afurðir og eigi
 
 Til að auðkenna vörur á milli Dynamics 365 for Finance and Operations og vörur í Common Data Service eru samstillingarlyklarnir notaðir. Fyrir afurðir er **(productnumber)** einkvæmur lykill sem auðkennir afurð í Common Data Service. Hann er samsettur með samtengingu á: **(company, msdyn_productnumber)**. **Fyrirtækið** gefur til kynna lögaðila í Finance and Operations og **msdyn_productnumber** sýnir vörunúmer fyrir tiltekna vöru í Finance and Operations. 
 
-Fyrir annan notanda Dynamics 365 forrits er varan auðkennd í UI með **msdyn_productnumber** (athugið að merki reitsins er **Vörunúmer**). Á vöruforminu eru bæði fyrirtækið og msydn_productnumber sýnt. Hins vegar er reiturinn (productnumber), sem er einstakur lykill fyrir afurð, ekki sýndur. 
+Fyrir notendur Dynamics 365 forrits er afurðin auðkennd í UI með **msdyn_productnumber** (athugið að merki reitsins er **Vörunúmer**). Á vöruforminu eru bæði fyrirtækið og msydn_productnumber sýnt. Hins vegar er reiturinn (productnumber), sem er einstakur lykill fyrir afurð, ekki sýndur. 
 
 Ef þú byggir forrit á Common Data Service, ættir þú að passa að nota **productnumber** (einkvæmt afurðakenni) sem samþættingarlykill. Ekki nota **msdyn_productnumber** þar sem það er ekki einkvæmt. 
 

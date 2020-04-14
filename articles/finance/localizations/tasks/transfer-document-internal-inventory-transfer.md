@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4da59781f3357a6713eebba03d87c5127b8cd3b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5cb0d3d51bf30717f05a4daf1a098565d5d48621
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174905"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143410"
 ---
 # <a name="generate-a-transfer-document-for-an-internal-inventory-transfer"></a>Mynda flutningsskjal fyrir innri birgðaflutning
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Þetta ferli sýnir hvernig á að stofna flutningsskjöl fyrir hreyfingu á vörum innan fyrirtækis Þetta ferli er aðeins tiltæk fyrir lögaðila með aðalaðsetur í Litháen. Þetta ferli var stofnuð með því að nota sýnigögn fyrirtækisins DEMF með aðalaðsetur í Litháen. Áður en hægt er að ljúka þessu ferli verður að ljúka ferlinu “Setja upp flutningsskjöl fyrir hreyfingu á vörum innan fyrirtækis”. Þetta ferli er ætluð fyrir bókhaldara birgða. Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.
+Þetta ferli sýnir hvernig á að stofna flutningsskjöl fyrir hreyfingu á vörum innan fyrirtækis Þetta ferli er aðeins tiltæk fyrir lögaðila með aðalaðsetur í Litháen. Þetta ferli var stofnuð með því að nota sýnigögn fyrirtækisins DEMF með aðalaðsetur í Litháen. Áður en hægt er að ljúka þessu ferli verður að ljúka ferlinu „Setja upp flutningsskjöl fyrir hreyfingu á vörum innan fyrirtækis”. Þetta ferli er ætluð fyrir bókhaldara birgða. Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.
 
 
 ## <a name="create-a-transfer-order"></a>Flutningspöntun stofnuð

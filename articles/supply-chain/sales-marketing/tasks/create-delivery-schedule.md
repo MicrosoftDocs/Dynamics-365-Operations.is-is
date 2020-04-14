@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dccc90321977382c7625ca1785427a6d26a14f27
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 90ddb1f26dc3bf23fe5fc44281d74ed80f59e675
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835634"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146555"
 ---
 # <a name="create-delivery-schedule"></a>Stofna afhendingaráætlun
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þetta ferli sýnir hvernig á að stofna afhendingaráætlun fyrir sölupöntun. Afhendingaráætlun er notaður þegar magn í pöntun beðið er um að afhenda í margar sendingar. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum.
 
@@ -45,10 +45,10 @@ ms.locfileid: "1835634"
 10. Smellt er á Nýtt.
 11. Í reitnum Magn skal slá inn eftirstandandi magn.
 12. Í reitnum Umbeðinni sendingardagsetningu skal færa inn dagsetningu sem er eina viku á undan dagsetningu fyrstu afhendingarlínu.
-    * Tveir valmöguleikar á flýtiflipanum Gjöld fyrir umreikning stýrir hvernig á að dreifa á milli afhendingar á að raða línum þegar þeim hefur verið búið að úthluta upprunalegu pöntunarlínunni. Ef valið er Afrita brúttóupphæðir, er sömu upphæð gjalda afritað í hverja línu. Valkosturinn Úthlutun á afhendingarlínur skiptir gjöld jafnt yfir í afhendingarlínur.  
+    * Valkostirnir tveir á flýtiflipanum Gjöld fyrir umreikning stýra hvernig á að dreifa á milli afhendingar á að raða línum þegar þeim hefur verið úthlutað á upprunalegu pöntunarlínuna. Ef valið er Afrita brúttóupphæðir, er sömu upphæð gjalda afritað í hverja línu. Valkosturinn Úthlutun á afhendingarlínur skiptir gjöld jafnt yfir í afhendingarlínur.  
     * Aðeins föst gjöld hægt er að skipta niður, en enn verða afritaðar breytileg gjöld í línur.  
 13. Færðu Bendillinn frá önnur afhendingarlína til að uppfæra síðu.
-    * Þú getur fylgst með heildarmagn sem úthlutað er til í línur afhendingaráætlunar með því að líta á svæðin Samtölu og Eftirstandandi. Þegar eftirstöðvar magns eru núll, allt magnið í upphaflegu línunni hefur verið úthlutað á áætlun.   
+    * Þú getur fylgst með því heildarmagni sem úthlutað er til í línur afhendingaráætlunar með því að líta á reitina Samtölu og Eftirstandandi. Þegar eftirstöðvar magns eru núll, allt magnið í upphaflegu línunni hefur verið úthlutað á áætlun.   
 14. Smellið á „Í lagi“.
     * Afhendingaráætlunin hefur nú verið afrituð í pöntunarlínurnar.   
     * Upprunalegri pöntunarlínunni, nefnt Heildarsöluverðmæti línu, hefur verið breytt í pöntunarlínu með margar afhendingar. Hún er merkt með áberandi tákni og þjónar sem haus fyrir afhendingarlínur.  

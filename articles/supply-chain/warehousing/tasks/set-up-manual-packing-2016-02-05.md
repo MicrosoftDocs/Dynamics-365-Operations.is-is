@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30bbb404e624c33e047c5505c5b21565ed8cce10
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ec4d86673555f594bb2f81010235fd7eb6e83f27
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847184"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148286"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>Setja upp handvirka pökkun (febrúar 2016 & maí 2016)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Pökkunarferli gerir kleift að sannprófa og pakka afurðir í gáma. Í þessu ferli starfsmenn vöruhússins taka vörur frá staðsetningum geymslu og flytja þær í pökkunarstöð þar sem þær athuga vörumagn og gerðir og úthluta þeim til viðeigandi gáma. Þegar gámur er alveg fullur, geta þeir loka honum og færa hana til úthliða, og vörurnar eru tilbúnar til sendingar. Þessi aðferð notar sýnigögn USMF fyrirtækisins. Þetta ferli er fyrir Febrúar 2016 og Maí 2016 útgáfur af Dynamics 365 for Operations eingöngu.
 

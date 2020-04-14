@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f715be8c151f62a4bbb4cc295d3158fe5a17e084
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: f5639a46c105e735d028e903513b4fcfb1f0d968
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550810"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142617"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>Rafræn skýrslugerð nota skrár skjalastjórnunar í sniðsúttökum (Hluti 4 - keyra snið)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt snið rafrænnar skýrslugerðar (ER) svo það noti skrár skjalastjórnunar (viðhengi) í rafrænar skýrslur. Hægt er að framkvæma þessum skrefum í DEMF fyrirtækinu.
 
-Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í á “Rafræn skýrslugerð nota skrár skjalastjórnunar í sniðsúttökum (Hluti 3: stofna snið)” ferli.
+Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu „Rafræn skýrslugerð nota skrár skjalastjórnunar í sniðsúttökum (Hluti 3: stofna snið)”.
 
 Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.
 
@@ -38,7 +38,7 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í á “R
 1. Farið í Viðskiptakröfur > Reikningar > Opna reikninga viðskiptavina.
 2. Nota flýtiafmörkun til að finna færslur Til dæmis sía á reitnum reikningur með gildinu 'CIV-000148'.
     * CIV-000148  
-3. Smellið til að fylgja tenglinum í valdan reikning.
+3. Smellið til að fylgja tengli í valdinn reikning.
     * CIV-000148  
 4. Smellið til að velja tengilinn í reitnum sölupöntun.
     * 000148  
@@ -65,8 +65,8 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í á “R
 7. Smellt er á Síu.
 8. Velja línu reikningabókar viðskiptavinar og reitinn sölupöntun.
 9. Í svæðinu Skilyrði skal færa inn '000148'.
-    * Í forsendusvæðinu “sölupöntun”, skal færa inn pöntunarnúmer 000148.  
-10. Smellið á „Í lagi“.
-11. Smellið á „Í lagi“.
+    * Í forsendusvæðinu „sölupöntun” skal færa inn pöntunarnúmer 000148.  
+10. Smellt er á Í lagi.
+11. Smellt er á Í lagi.
     * Fara yfir myndað úttak. Athugið að fyrir hvert viðhengi hefur verið stofnað einu xml-hnútur. Innihald viðhengis er notað til að fylla út í úttak XML í MIME (base64) textasnið.  
 

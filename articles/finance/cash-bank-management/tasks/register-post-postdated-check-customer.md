@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f27675a2aa2160619bf78eea33bba2ce0b7bd81
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 11089584e150a1a302eb969a5fb61cb9d1900901
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188097"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141742"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Skrá og bóka fyrirframdagsetta ávísun fyrir viðskiptavin
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Hægt er að skrá upplýsingar um fyrirframdagsetta ávísun sem er móttekin frá viðskiptavini. Einnig er hægt að bóka fyrirframdagsettu ávísunina og mynda fjárhagslegar færslur.   Ljúkið eftirtöldum verkefnum áður en hægt er að skrá og bóka fyrirframdagsettar ávísanir sem bárust frá viðskiptavini: • Setja upp fyrirframdagsettar ávísanir á síðunni Reiðufjár- og bankastjórnun • Setja upp greiðsluhátt fyrir fyrirframdagsettar ávísanir Hlutverk þessa ferlis er fjárreiðustjóri. Þessi aðferð notar sýnigögn USMF fyrirtækisins.
+Hægt er að skrá upplýsingar um fyrirframdagsetta ávísun sem er móttekin frá viðskiptavini. Einnig er hægt að bóka fyrirframdagsettu ávísunina og mynda fjárhagslegar færslur.   Ljúkið eftirtöldum verkefnum áður en hægt er að skrá og bóka fyrirframdagsettar ávísanir sem bárust frá viðskiptavini: * Setja upp fyrirframdagsettar ávísanir á síðunni Reiðufjár- og bankastjórnun * Setja upp greiðsluhátt fyrir fyrirframdagsettar ávísanir   Hlutverk þessa ferlis er fjárreiðustjóri. Þessi aðferð notar sýnigögn USMF fyrirtækisins.
 
 1. Fara í Viðskiptakröfur > Greiðslur > Greiðslubók.
 2. Smellið á „Nýtt“.

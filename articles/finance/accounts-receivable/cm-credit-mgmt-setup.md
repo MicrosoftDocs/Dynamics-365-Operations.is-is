@@ -3,7 +3,7 @@ title: Færibreytuuppsetning kreditstjórnunar
 description: Þetta efni lýsir valkostunum sem þú getur notað til að stilla lánastjórnun til að uppfylla kröfur fyrirtækisins.
 author: mikefalkner
 manager: AnnBe
-ms.date: 09/04/2019
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ba0b047fe984f6bc164cbe137320d6bf6c13dafc
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 6d4ced14e51dd28d51d2081d8e92891e31eea49d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124186"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154529"
 ---
 # <a name="credit-management-parameters-setup"></a>Færibreytuuppsetning kreditstjórnunar
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efni lýsir valkostunum sem þú getur notað til að stilla lánastjórnun til að uppfylla kröfur fyrirtækisins. Til að byrja að nota aðgerðir fyrir kreditstjórnun skaltu setja upp færibreyturnar á síðunni **Færibreytur kreditstjórnunar** (**Kreditstjórnun \> Uppsetning \> Færibreytur kreditstjórnunar**).
+Þetta efni lýsir valkostunum sem þú getur notað til að stilla lánastjórnun til að uppfylla kröfur fyrirtækisins. Til að nota aðgerðir fyrir kreditstjórnun skaltu setja upp færibreyturnar á síðunni **Færibreytur skulda og innheimtu** (**Skuldir og innheimta \> Uppsetning \> Færibreytur skulda og innheimtu**).
 
 ## <a name="credit-parameters"></a>Kreditfæribreytur
 
-Það eru fjórir flýtiflipar þar sem hægt er að breyta færibreytum sem stjórna kreditstjórnun: **Kredit í bið**, **Gátstaður kreditstjórnunar**, **Tölfræði um kreditstjórnun** og **Lánamörk**. Eftirfarandi hlutar lýsa stillingum sem eru fáanlegar á hverjum flýtiflipa.
+Það eru fjórir flýtiflipar í hlutanum **Kredit** þar sem hægt er að breyta færibreytum sem stjórna kreditstjórnun: **Lán í biðstöðu**, **Gátstaður lánastýringar**, **Talnagögn lánastýringar** og **Lánamörk**. Eftirfarandi hlutar lýsa stillingum sem eru fáanlegar á hverjum flýtiflipa.
 
 ### <a name="credit-holds"></a>Lán í biðstöðu
 

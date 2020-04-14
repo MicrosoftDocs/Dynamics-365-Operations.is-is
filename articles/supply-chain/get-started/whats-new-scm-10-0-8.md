@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: fb34ecc0ff5966ae09fdb00e80134a11eceb30a2
-ms.sourcegitcommit: c6be9706bca05089d4a4dc898d991410edb5c609
+ms.openlocfilehash: d62cf8be089eb8bccaf323041bf446b7f120b93f
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097481"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164536"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.8. (febrúar 2020)
 
@@ -32,13 +32,14 @@ ms.locfileid: "3097481"
 
 - **Forskoðun útgáfa:** Desember 2019
 - **Almennt framboð (sjálf uppfærsla):** Janúar 2020
-- **Sjálfvirk uppfærsla:** Febrúar 2020 
+- **Sjálfvirk uppfærsla:** Febrúar 2020
 
 ## <a name="features-included-in-this-release"></a>Eiginleikar innifaldir í þessari útgáfu
 
 Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengjast fleiri upplýsingum á vefsvæðinu [Útgáfuáætlanir](https://docs.microsoft.com/dynamics365/release-plans/). Viðbótartenglar benda á viðbótargögn eða myndbönd sem eru tiltæk fyrir þann eiginleika. Sumir af þessum eiginleikum kunna einnig að hafa verið með fyrri stigvaxandi útgáfu, en var ekki tilkynnt í fyrri efnisatriðum *Hvað er nýtt*, svo við erum að bæta þeim við hér. Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
 
 - [Viðbótargögn um staðsetningu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
+- [Eignastýring](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management) - Nánari upplýsingar er að finna í [Yfirlit yfir eignastýringu](../asset-management/index.md).
 - [Hætt við vinnu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work) - Sjá frekari upplýsingar [Hætta við vöruhúsavinnu vegna frábrigðameðhöndlunar](../warehousing/cancel-warehouse-work.md).
 - [Breyta vinnuhópi á vinnu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)
 - [Staðsetning klasa er full](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)

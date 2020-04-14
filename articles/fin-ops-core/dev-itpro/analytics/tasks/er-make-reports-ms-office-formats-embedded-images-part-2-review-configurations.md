@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d05020c5b83137d977d7260e269cb7d8c219406
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8f81f0f86c255d048393047965c0aa29cbef09d0
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184785"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143077"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Yfirfara skilgreiningar til að búa til skýrslur á Office-sniði með innfelldum myndum
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í verkefnaleiðbeiningar „Rafræn skýrslugerð í MS Office sniði með ívafnar myndir (Hluti 1: Setja upp færibreytur)“.
 
@@ -76,8 +76,8 @@ Ferlið sýnir hvernig skal hanna Rafræna skýrslugerð (ER) grunnstillingar þ
 3. Smellið á Hönnuður.
 4. Smellt er á viðhengi
 5. Smellt er á Opin.
-    * Opna viðhengt sniðmát skrár í Excel.  
-    * Yfirfara viðhengt Ecxel-sniðmát skrárinnar sem verður notuð til að prenta ávísanirnar. Sniðmátið inniheldur tvær ávísanir fyrir hverja síðu og er hannað til að prenta ávísanir til forprentaðs forms. Athugið að tvær auðar myndir eru ívafðar. Þessar auðu myndir eru fyrir lógó fyrirtækisins og undirskrift þess aðila sem heimilar greiðslu. Staðfesta að myndirnar heita CompLogo og SignatureImage í Excel.   
+    * Opna viðhengt sniðmát skýrslu í Excel.  
+    * Yfirfara viðhengt Ecxel-sniðmát skýrslunnar sem verður notuð til að prenta ávísanirnar. Sniðmátið inniheldur tvær ávísanir fyrir hverja síðu og er hannað til að prenta ávísanir til forprentaðs forms. Athugið að tvær auðar myndir eru ívafðar. Þessar auðu myndir eru fyrir lógó fyrirtækisins og undirskrift þess aðila sem heimilar greiðslu. Staðfesta að myndirnar heita CompLogo og SignatureImage í Excel.   
 6. Lokið síðunni.
 7. Stækkið „skýrsla“ í trénu.
 8. Í trénu skal víkka út „Skýrsla\ChequeLines“.

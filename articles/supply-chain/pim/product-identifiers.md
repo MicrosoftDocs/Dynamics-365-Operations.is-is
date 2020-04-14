@@ -3,7 +3,7 @@ title: Afurðarkenni
 description: Þetta efnisatriði veitir upplýsingar um mismunandi tegundir afurðarkenna og útskýrir hvernig hægt er að bæta við afurðarkennum í afurðargögnum þínum.
 author: cvocph
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: adac308a17ac51ed6da28d04d8c69b01f579aab7
-ms.sourcegitcommit: 7789ef6b0d337bee6aa05110c40e002f02eec71b
+ms.openlocfilehash: 0aa8baf5802ccdd9a502e2a7d291a76fc4afe932
+ms.sourcegitcommit: d91d96c98b31ae59bc82ec91efbb7da86ffb25fa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3095618"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172026"
 ---
-# <a name="product-identifiers"></a>Afurðarkenni 
+# <a name="product-identifiers"></a>Afurðarkenni
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,7 +36,7 @@ ms.locfileid: "3095618"
 
 ## <a name="unique-product-numberproduct-id"></a>Einkvæm afurðarnúmer/afurðarkenni
 
-Í Dynamics 365 Supply Chain Management er afurðarnúmerið aðalauðkenni afurðar (þ.e. einkvæma afurðarkennið). Hægt er að búa númerið til sjálfkrafa með númeraröð eða tengja það handvirkt við afurð. Fyrir afurðarafbrigði er hægt að skilgreina númerin með nafnakerfissniði afurðar.
+Í Dynamics 365 Supply Chain Management er afurðarnúmerið aðalauðkenni afurðar (þ.e. einkvæma afurðarkennið). Hægt er að mynda númerið sjálfkrafa með númeraröð eða tengja handvirkt við afurð. Fyrir afurðarafbrigði er hægt að skilgreina númerin með nafnakerfissniði afurðar.
 
 Í mörgum tilvikum er afurðarnúmerið ekki upphaflega stofnað í Dynamics 365 Supply Chain Management. Þess í stað er það tengt afurð í lífferilssstjórnunarkerfi afurðar (PLM) eða gagnastjórnunarkerfi afurðar (PDM). Í þessu tilviki eru gagnaeiningar notaðar til að flytja inn afurðir og afurðarafbrigði. Supply Chain Management notar síðan tölurnar í öllum aðgerðum.
 
@@ -53,6 +53,9 @@ Að auki er ekki hægt að auðkenna afurðarafbrigði með vörunúmeri á eink
 Margar síður hafa enn vörunúmer og afurðarvíddir sem aðalauðkenni. Hins vegar er hægt að nota afurðarnúmerin við leit. Á **Sala og markaðssetning** &gt; **Uppsetning** &gt; **Leita** &gt; **Leita að færibreytum** er hægt að breyta uppflettingu leitar þannig að hún noti afurðarnúmer í stað vörunúmera sem aðalleitarstefnu. Ef þú stillir valkostinn **Virkja uppflettingu fyrir afurðarleit** á **Já** mun uppflettingin ekki aðeins sýna afurðarsniðmát heldur líka afurðarafbrigði. Nánari upplýsingar er að finna í [Leita að afurðum og afurðarafbrigðum við pöntunarfærslu](search-products-product-variants.md).
 
 Auk þess getur þú leitað og afmarkað afurðarnúmerið, afurðarheiti og lýsingu og kenni afurðarvíddar á afurðarafbrigði. Þegar þú velur afbrigði verður viðkomandi vörunúmer og öll kenni afurðarvídda valin. Þess vegna getur þú auðveldlega fundið og valið rétta afbrigðið. Mælt er með þessari stillingu ef notuð eru afurðarafbrigði og einkvæm afurðarnúmer sem aðalauðkenni fyrir afurðir. Eina undantekningin gæti verið tískuiðnaðurinn, þar sem viðskiptaferlarnir krefjast oft að aðalsniðmát sé valið áður en afbrigði er valið. Þú ættir að meta þennan valkost vandlega áður en þú setur inn númerakerfið.
+
+> [!NOTE]
+> Ekki er hægt að breyta vörunúmeri fyrir vöru þegar ein eða fleiri viðskipti eru fyrir hendi fyrir þá vöru.
 
 ## <a name="product-name-and-description"></a>Afurðarheiti og lýsing
 
@@ -123,7 +126,7 @@ Hægt er að skilgreina ytri kóða fyrir marga aðila. Til dæmis getur þú sk
 | Afurðir V2 | Afurðarnúmer, leitarheiti afurðar, afurðarheiti, afurðarlýsing | Afurðarnúmer, leitarheiti afurðar, afurðarheiti, afurðarlýsing | Það fer eftir stillingum á einingu og númeraröð afurðarnúmers hvort hægt sé að stofna sjálfkrafa afurðarnúmer við innflutning. |
 | Afurðarafbrigði | Afurðarnúmer, leitarheiti afurðar, afurðarheiti, afurðarlýsing | Afurðarnúmer, leitarheiti afurðar, afurðarheiti, afurðarlýsing | Það fer eftir nafnakerfissniði afurðar hvort hægt sé að stofna sjálfkrafa afurðarnúmerið við innflutning. Þó er hægt að flytja inn einkvæmt afurðarnúmer og það afurðarnúmer þarf ekki að fylgja skipulaginu á nafnakerfissniði afurðar. |
 | Þýðingar afurðar | Afurðarheiti, afurðarlýsing | Afurðarheiti, afurðarlýsing | Þessi eining skrifar yfir hvaða tungumál sem er. Athugaðu að þegar skrifað er yfir heitið eða lýsinguna á aðaltungumáli lögaðila, breytist heitið og lýsingin á sjálfri vörunni. |
-| Útgefnar afurðir V2 | Vörunúmer, afurðarnúmer, leitarheiti vöru| Vörunúmer, afurðarnúmer, leitarheiti vöru, leitarheiti afurðar, afurðarheiti | Þessi eining getur verið áskorun þegar númeraraðir eru notaðar við stofnun á nýjum útgefnum afurðum. Báðar númeraraðirnar **Vörunúmer** og **Afurðarnúmer** hafa áhrif. Hins vegar er númeraröðin **Vörunúmer** fyrir hvern lögaðila, en númeraröðin **Afurðarnúmer** er alþjóðleg. Því mælum við með því að þú notir númeraröðina **Vörunúmer** þegar þú setur upp nýjar útgefnar afurðir. Augljóslega, þegar einingin er notuð til að gefa út fyrirliggjandi afurð verður afurðarnúmerið að vera gefið í einingunni. Nánari upplýsingar er að finna í kaflanum „Afurðar- og vörunúmeraraðir" í þessu efnisatriði. |
+| Útgefin stofnun afurðar V2 | Vörunúmer, afurðarnúmer, leitarheiti vöru| Vörunúmer, afurðarnúmer, leitarheiti vöru, leitarheiti afurðar, afurðarheiti | Þessi eining getur verið áskorun þegar númeraraðir eru notaðar við stofnun á nýjum útgefnum afurðum. Báðar númeraraðirnar **Vörunúmer** og **Afurðarnúmer** hafa áhrif. Hins vegar er númeraröðin **Vörunúmer** fyrir hvern lögaðila, en númeraröðin **Afurðarnúmer** er alþjóðleg. Því mælum við með því að þú notir númeraröðina **Vörunúmer** þegar þú setur upp nýjar útgefnar afurðir. Augljóslega, þegar einingin er notuð til að gefa út fyrirliggjandi afurð verður afurðarnúmerið að vera gefið í einingunni. Nánari upplýsingar er að finna í kaflanum „Afurðar- og vörunúmeraraðir" í þessu efnisatriði. |
 | Útgefin afurðarafbrigði | Vörunúmer, afurðarvíddir, afurðarnúmer | Afurðarnúmer, leitarheiti afurðar, afurðarheiti, afurðarlýsing, afurðarvíddir | Eins og einingin **Afurðarafbrigði**, er hægt að nota þessa einingu til að stofna nýjar afurðir sem annaðhvort fylgja nafnakerfissniði afurðar eða nota sín eigin afurðarnúmer fyrir afbrigðið. |
 | Ytri vörulýsing fyrir viðskiptavini | Vörunúmer viðskiptavinar, vöruheiti viðskiptavinar, lýsing viðskiptavinar, viðskiptavinalykill | Vörunúmer viðskiptavinar, vöruheiti viðskiptavinar, lýsing viðskiptavinar, viðskiptavinalykill | Hóp af viðskiptavinum (t.d. samtök kaupenda) er hægt að sameina í einn flokk með því að nota eininguna **Viðskiptavinaflokkar ytri vörulýsinga**. |
 | Ytri vörulýsing fyrir lánardrottna | Vörunúmer lánardrottins, vöruheiti lánardrottins, lýsing lánardrottins, lánardrottnalykill | Vörunúmer lánardrottins, vöruheiti lánardrottins, lýsing lánardrottins, lánardrottnalykill | Hóp af lánardrottnum (t.d. samtök lánardrottna eða iðnaðarsamtök) er hægt að safna saman í einn flokk með því að nota eininguna **Lánardrottnaflokkar ytri vörulýsinga**. |
@@ -144,7 +147,7 @@ Hægt er að skilgreina ytri kóða fyrir marga aðila. Til dæmis getur þú sk
 > [!NOTE]
 > Þú ættir aðeins að nota vörunúmerið sem aðskilið auðkenni þegar þú flytur mismunandi lögaðila frá mismunandi upprunastöðum sem höfðu mismunandi númerakerfi. Þú ættir alltaf að reyna að nota vörukenni sem er einkvæmt þvert yfir alla lögaðila. Þess vegna ættir þú að stilla valkostinn **Handvirkt** á **Já** fyrir númeraröðina **Vörunúmer**. Þannig mun vörunúmerið fylgja afurðarnúmerinu við stofnunina. Ef Supply Chain Management er ekki leiðandi kerfið fyrir ný afurðarnúmer, þá ættir þú að stilla valkostinn **Handvirkt** á **Já** fyrir báðar númeraraðirnar **Vörunúmer** og **Afurðarnúmer**.
 
-Þegar þú notar eininguna **Útgefin afurð V2** til að stofna afurðir, geta margar stillingar haft áhrif á hvernig númeraraðirnar eru notaðar til að stofna afurðarnúmer og vörunúmer:
+Þegar þú notar eininguna **Útgefin afurðarstofnun V2** til að stofna afurðir, geta margar stillingar haft áhrif á hvernig númeraraðirnar eru notaðar til að stofna afurðarnúmer og vörunúmer:
 
 - Stillingar á númeraröðinni **Afurðarnúmer**
 - Stillingar á númeraröðinni **Vörunúmer**
@@ -155,9 +158,9 @@ Eftirfarandi tafla veitir yfirlit yfir niðurstöður innflutnings og handvirkra
 
 | Númeraröð afurðarnúmers | Númeraröð vörurnúmers | Vörpun vörunúmers | Vörpun afurðarnúmersins | Niðurstaða innflutnings eininga | Niðurstaða handvirkrar stofnunar | Niðurstaða |
 |--------------------------------|-----------------------------|----------------------------|-------------------------------|-------------------------|----------------------------|-----------|
-| Handvirkt = Nei | Handvirkt = Nei | Engin vörpun | Engin vörpun | Afurðarnúmer nota númeraröðina **Afurðarnúmer**. Vörunúmer nota númeraröðina **Vörunúmer**. | Afurðarnúmer nota númeraröðina **Afurðarnúmer**. Vörunúmer nota númeraröðina **Vörunúmer**. | Þessar stillingar er hægt að nota ef þú þarft mismunandi númer fyrir afurðir og vörur. Hins vegar mælum við ekki með því að þú notir mismunandi númer fyrir vörur og afurðir. |
-| Handvirkt = Nei | Handvirkt = Já | Mynda sjálfkrafa | Engin vörpun | Bæði afurðarnúmer og vörunúmer nota númeraröðina **Vörunúmer**. | Bæði afurðarnúmer og vörunúmer nota númeraröðina **Afurðarnúmer**. | Þessar stillingar eru ekki ráðlagðar. Innflutningur og handvirk stofnun virka á annan hátt. |
-| Handvirkt = Nei | Handvirkt = Já | Engin vörpun | Engin vörpun | Bæði afurðarnúmer og vörunúmer nota númeraröðina **Afurðarnúmer**. | Bæði afurðarnúmer og vörunúmer nota númeraröðina **Afurðarnúmer**. | Þessar stillingar eru ráðlagðar ef afurðir eiga að hafa samræmda sjálfvirka númerun, óháð því hvort innflutningur eða handvirk stofnun er notuð. |
+| Handvirkt = Nei | Handvirkt = Nei | Engin vörpun | Engin vörpun | Afurðarnúmer nota númeraröðina **Afurðarnúmer**. Vörunúmer nota númeraröðina **Vörunúmer**. | Afurðarnúmer nota númeraröðina **Afurðarnúmer**. Vörunúmer nota númeraröðina **Vörunúmer**. | Með þessari stillingu munu vörunúmer fylgja vörunúmeraröðinni og vörunúmer fylgja röð númeraraðar. Samt sem áður mun þessi stilling ekki virka ef það er meira en einn hlutur (röð) til að flytja inn. |
+| Handvirkt = Nei | Handvirkt = Já | Mynda sjálfkrafa | Engin vörpun | Bæði afurðarnúmer og vörunúmer nota númeraröðina **Vörunúmer**. | Bæði afurðarnúmer og vörunúmer nota númeraröðina **Afurðarnúmer**. | Bæði afurðarnúmer og vörunúmer munu fylgja númeraröð afurðarnúmers. Þetta er mælt með aðferð til að flytja inn magnafurðir með V2 gagnaeiningunni fyrir afurðaútgáfu. |
+| Handvirkt = Nei | Handvirkt = Já | Engin vörpun | Engin vörpun | Bæði afurðarnúmer og vörunúmer nota númeraröðina **Afurðarnúmer**. | Bæði afurðarnúmer og vörunúmer nota númeraröðina **Afurðarnúmer**. | Bæði afurðarnúmer og vörunúmer munu nota númeraröð afurðarnúmers. Samt sem áður mun þessi stilling ekki virka ef það er meira en einn hlutur (röð) til að flytja inn. |
 | Handvirkt = Já | Ekki tiltækt | Ekki tiltækt | Mynda sjálfkrafa | Þú færð eftirfarandi villuboð: "Númeraröð er ekki hægt að greina." | Samkvæmt númeraröðinni **Vörunúmer** | Þessi stilling er ekki studd fyrir innflutning. |
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Kenni afurðareiningar (Flytja út öll afurðarkenni)

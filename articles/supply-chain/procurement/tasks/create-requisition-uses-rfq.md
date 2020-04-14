@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4429bda6efddbb4f1fa7da06e91e51d885919c05
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: abe6745682030766eabcd4411121866c9d890be0
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914955"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149627"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>Stofna beiðni sem notar tilboðsbeiðni
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þetta efni útskýrir hvernig á að bæta verð og upplýsingar um lánardrottin við innkaupabeiðni úr Tilboðsbeiðniferli. Dæmi sem sýnd eru í þessari handbók má nota í USMF fyrirtækisins sýnigögnum og þú verður að vera skráður inn sem Kerfisstjóra til að ljúka við skrefin. Verkin í þessari handbók væri yfirleitt gert af innkaupasérfræðingum.
 
@@ -56,7 +56,7 @@ Næsta verki er að stofna beiðni um TILBOÐ til að fá tilboð frá lánardro
 2. Veldu **Skoða sögu**.
 3. Endurhlaðið síðuna.
 4. Útvíkkaðu kaflann **Rakningarupplýsingar**.
-5. Í trénu velurðu línuna sem hefst á „Verkflæði virkjað á“.
+5. Í trénu velurðu línuna sem hefst á „Línuverkflæði virkjað þann“.
 6. Veldu **Skoða upplýsingar um verkflæði**.
 7. Útvíkkaðu kaflann **Vinnuliðir**.
 8. Velja **Endurúthluta**.
@@ -68,7 +68,7 @@ Næsta verki er að stofna beiðni um TILBOÐ til að fá tilboð frá lánardro
 
 1. Endurhlaðið síðuna.
 2. Veldu **Beiðni um tilboð**.
-3. Í reitnum **Innkaupalögaðili** velurðu **USMF**. Velja þarf sama lögaðila sem er í innkaupabeiðnilína.  
+3. Í reitnum **Innkaupalögaðili** velurðu **USMF**. Velja þarf sama lögaðila sem er í innkaupabeiðnilínunni.  
 4. Í listanum skal merkja valda línu. Hafirðu haft margar línur á innkaupabeiðni þinni, veldu allar línur sem þú vilt bæta við beiðni um tilboð.  
 5. Veljið **Í lagi**.
 6. Endurhlaðið síðuna.

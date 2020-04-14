@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5e9151adbadffa54633cb10a37522c065e86dd5c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: bb201dac1cbfa59f1a46ef42da3822040f74e620
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022915"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141477"
 ---
 # <a name="create-and-associate-a-device"></a>Búa til og tengja tæki
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Þetta ferli fer í gegnum hvernig á að stofna nýja tækið og tengja hana við afgreiðslukassa. Gert er ráð fyrir að afgreiðslukassinn er stofnaður þegar.  Þetta verk notar sýnigögn fyrirtæki USRT . Þetta verk er ætluð fyrir hlutverk stjórnendur, sérfræðinga í upplýsingatækni eða upplýsingatækni í Commerce og Verslunarstjóri .
 

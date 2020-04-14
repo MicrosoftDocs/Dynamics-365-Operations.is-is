@@ -162,38 +162,62 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: Uppsetning tvöfaldra skrifa úr Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
+                            - name: Upphafleg samstilling
+                              href: data-entities/dual-write/initial-sync.md
+                            - name: Kveikja á tvöföldum skrifum fyrir fyrirliggjandi Finance and Operations-forrit
+                              items:
+                                - name: Kveikja á tvöföldum skrifum fyrir fyrirliggjandi Finance and Operations-forrit
+                                  href: data-entities/dual-write/enable-dual-write.md
+                                - name: Kerfiskröfur og forsendur
+                                  href: data-entities/dual-write/requirements-and-prerequisites.md
+                                - name: Hvernig á að nota leiðsagnarforrit fyrir tvöföld skrif til að tengja umhverfin þín
+                                  href: data-entities/dual-write/link-your-environment.md
+                                - name: Kveikja á vörpun eininga fyrir tvöföld skrif
+                                  href: data-entities/dual-write/enable-entity-map.md
+                        - name: Umsjón með tvöföldum skrifum
+                          items:
+                            - name: Sérstilling á vörpun eininga og reita
+                              href: data-entities/dual-write/customizing-mappings.md
+                            - name: Umsjón með villum og viðvörunartilkynningum
+                              href: data-entities/dual-write/errors-and-alerts.md
+                            - name: Líftímastjórnun forrits
+                              href: data-entities/dual-write/app-lifecycle-management.md
                         - name: Vörpun hugtaka á milli forrita
                           items:
-                            - name: Stigveldi fyrirtækis í Common Data Service
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: Samþætting fyrirtækis
-                              items:
-                                - name: Fyrirtækishugtak í Common Data Services
-                                  href: data-entities/dual-write/company-data.md
-                                - name: Ræsing með fyrirtækisgögnum
-                                  href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: Samþættur aðalviðskiptavinur
+                            - name: Samþætt aðalsniðmát viðskiptavinar
                               href: data-entities/dual-write/customer-mapping.md
-                            - name: Samþætting afurða
-                              items:
-                                - name: Samræmd afurðaupplifun
-                                  href: data-entities/dual-write/product-mapping.md
-                                - name: Samþætt svæði og vöruhús
-                                  href: data-entities/dual-write/sites-warehouses-mapping.md
-                            - name: Fjármála- og skattagögn
-                              items:
-                                - name: Aðgangur að tilvísunargögnum um fjármál og skatta
-                                  href: data-entities/dual-write/finance-tax-reference.md
-                                - name: Samþættur fjárhagur
-                                  href: data-entities/dual-write/ledger-mapping.md
-                                - name: Samþætt aðalsniðmátskatta
-                                  href: data-entities/dual-write/tax-mapping.md
                             - name: Samþætting lánardrottna
                               items:
                                 - name: Samþætt lánardrottinssniðmát
                                   href: data-entities/dual-write/vendor-mapping.md
                                 - name: Skipta á milli lánardrottnahönnunar
                                   href: data-entities/dual-write/vendor-switch.md
+                            - name: Vildarkort og vildarpunktar viðskiptavinar
+                              href: data-entities/dual-write/loyalty-mapping.md
+                            - name: Samþætting afurða
+                              items:
+                                - name: Samræmd afurðaupplifun
+                                  href: data-entities/dual-write/product-mapping.md
+                                - name: Samþætt svæði og vöruhús
+                                  href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: Samþætting fyrirtækis
+                              items:
+                                - name: Fyrirtækishugtak í Common Data Services
+                                  href: data-entities/dual-write/company-data.md
+                                - name: Ræsing með fyrirtækisgögnum
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: Stigveldi fyrirtækis í Common Data Service
+                              href: data-entities/dual-write/organization-mapping.md
+                            - name: Fjármála- og skattagögn
+                              items:
+                                - name: Aðgangur að tilvísunargögnum um fjármál og skatta
+                                  href: data-entities/dual-write/finance-tax-reference.md
+                                - name: Samþættur fjárhagur
+                                  href: data-entities/dual-write/ledger-mapping.md
+                                - name: Samþætt aðalsniðmát skatta
+                                  href: data-entities/dual-write/tax-mapping.md
+                            - name: Samstilling við Dynamics 365 Supply Chain Management verðlagningarkerfi eftir eftirspurn
+                              href: data-entities/dual-write/pricing-engine.md
                             - name: Viðfang til sjóðstreymis í tvöföldum skrifum
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
                             - name: Eignir til þjónustu innanhúss
@@ -204,11 +228,25 @@
                           items:
                             - name: Stuðningur fyrir Field Service-lausnir og Project Service Automation-lausnir
                               href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: Upphafleg samstilling
-                              href: data-entities/dual-write/initial-sync.md
-                            - name: Úrræðaleit gagnasamþættingar
-                              href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: Samþætting við Power Platform samþáttara gagna
+                            - name: Úrræðaleit
+                              items:
+                                - name: Sannprófa að tvöföld skrif hafi verið skilgreind í Finance and Operations-forritum og Common Data Service
+                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                                - name: Leysa úr vandamálum við fyrstu uppsetningu
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                                - name: Leysa úr vandamálum við fyrstu samstillingu
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                                - name: Leysa úr vandamálum við einingu fyrir tvöföld skrif í Finance and Operations-forritum
+                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                                - name: Leysa úr vandamálum við samstillingu í beinni
+                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                                - name: Leysa úr vandamálum tengdum lausnavitund
+                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                                - name: Leysa úr vandamálum tengdum uppfærslum á Finance and Operations-forritum
+                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                                - name: Almenn úrræðaleit
+                                  href: data-entities/dual-write/dual-write-troubleshooting.md
+                    - name: Samþætting við Power Platform
                       items:
                         - name: Skilgreina PTC-aðstæður
                           items:
@@ -392,6 +430,8 @@
                       href: database/api/v1/reference-list-backups.md
                     - name: Stofna uppfærslu gagnagrunns
                       href: database/api/v1/reference-create-refresh.md
+                    - name: Stofna forstillingu gagnagrunns
+                      href: database/api/v1/reference-create-export.md
                     - name: Sækja stöðu verkþáttarvirkni
                       href: database/api/v1/reference-get-status.md
         - name: Sýnigögn
@@ -1032,6 +1072,8 @@
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Eftirlit og greiningar
               href: lifecycle-services/monitoring-diagnostics.md
+            - name: Áhrifagreiningarskýrsla
+              href: lifecycle-services/impact-analysis-report.md
             - name: Endurræsa umhverfisþjónustu
               href: lifecycle-services/restart-environment-services.md
             - name: Tilkynna framleiðslustöðvun
@@ -1396,6 +1438,10 @@
                   href: sysadmin/create-rules-optimization-advisor.md
             - name: Tilkynna framleiðslustöðvun
               href: lifecycle-services/report-production-outage.md
+            - name: Skilgreina og stjórna gagnagrunnsskráningu
+              href: sysadmin/configure-manage-database-log.md
+            - name: Byggja skyndiminni OData-lýsigagna þegar AOS er ræst
+              href: sysadmin/odata-warmup.md
         - name: Uppfærslur og bráðabætur
           items:
             - name: Tilföng uppfærslna og bráðabóta

@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd87ded3bcc20b94fae723424d9cc6b94049a1a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9c5d8dbc5204464b2265029b6a11fcac7b79b464
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558772"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147159"
 ---
 # <a name="copy-a-formula"></a>Afrita formúlu
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þetta ferli leggur áherslu á stofnun formúlu sem inniheldur sömu efni og fyrirliggjandi formúla, en með minniháttar breytingum. til að stofna línur í formúlu, er Hægt að nota afritunaraðgerðina til að afrita fyrirliggjandi formúlu sem inniheldur flest efnanna sem þarf  Síðan er hægt að gera nauðsynlegar breytingar á einstaka línur í nýju útgáfunni. Með því að nota afritunaraðgerðina þarf ekki að stofna margar formúlur sem eru nánast eins. Sýnigögn gögn fyrirtækisins til að stofna verkið er USP2.
 

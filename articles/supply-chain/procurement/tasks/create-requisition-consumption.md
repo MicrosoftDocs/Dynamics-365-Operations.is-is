@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2948282d8b40f7d34ffbae072a195cf954ab6e2
-ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
+ms.openlocfilehash: 6ca44b4793f61d1067b9e0740b9a447d3a2363c2
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "1738905"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147389"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Stofna beiðni um notkun
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Þetta efnisatriði lýsir ferlinu við stofnun beiðni. Hún sýnir mismunandi leiðir til að leita að afurðum í þínu innkaupavörulista og hvernig á að bæta við afurð sem er ekki í vörulistanum þínum. Áður en þetta ferli er hafið, verður að hafa innkaupastefna uppsetta með Notkun sem sjálfgefna gerð beiðni. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Ferlið getur aðeins verið framkvæmt af forstillingu notanda sem þegar er sett upp sem starfsmaður. Þetta verk myndi venjulega framkvæmt af starfsmanni. Öryggishlutverk **Starfsmanns** gerir þér kleift að framkvæma þau verk, eða ef verið er að nota USMF er hægt að skrá sig inn sem **Alicia**.
+Þetta efnisatriði lýsir ferlinu við stofnun beiðni. Hún sýnir mismunandi leiðir til að leita að afurðum í innkaupavörulistanum og hvernig á að bæta við afurð sem er ekki í vörulistanum þínum. Áður en þetta ferli er hafið, verður að hafa innkaupastefna uppsetta með Notkun sem sjálfgefna gerð beiðni. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn. Ferlið getur aðeins verið framkvæmt af forstillingu notanda sem þegar er sett upp sem starfsmaður. Þetta verk myndi venjulega framkvæmt af starfsmanni. Öryggishlutverk **Starfsmanns** gerir þér kleift að framkvæma þau verk, eða ef verið er að nota USMF er hægt að skrá sig inn sem **Alicia**.
 
 
 ## <a name="create-a-new-requisition"></a>Stofna nýja innkaupabeiðni

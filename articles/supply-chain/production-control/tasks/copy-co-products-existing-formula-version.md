@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 626c0fc8a60eeb84060d7279833de583d55a95a2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 93742819f492c0c169a6ca8dc2d486fe35ec4a5c
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838752"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149344"
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a>Afrita aukaafurðir úr fyrirliggjandi formúluútgáfu
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þessi verklýsing sýnir hvernig á að afrita aukaafurðir úr eldri útgáfu formúlu yfir í mismunandi formúluútgáfu fyrir útgefna afurð. Það er skilyrði að minnsta kosti ein formúluútgáfn tengist aukaafurðum. Sýnifyrirtækjagögn USP2 eru notuð til að stofna þetta ferli.
 

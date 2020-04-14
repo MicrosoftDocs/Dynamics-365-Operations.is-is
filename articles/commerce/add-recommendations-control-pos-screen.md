@@ -3,7 +3,7 @@ title: Bæta við tillögum á færsluskjáinn
 description: Þetta efnisatriði lýsir hvernig á að bæta við ráðleggingastýringu við færsluskjáinn á sölustaðartæki (POS) sem notar útlitshönnun skjás í Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 03/12/20
+ms.date: 03/19/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9117f398ee1d9edbd3aee9bed366eea225964184
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: a39389da0908953cbbc161f07d067ce3fc569a1b
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127676"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154133"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Bæta við tillögum á færsluskjáinn
 
@@ -108,9 +108,7 @@ Tvær skilgreiningar eru í boði: Veldu valkostinn sem virkar best fyrir verslu
 
 [Afþakka sérsniðnar tillögur](personalization-gdpr.md)
 
-[Bæta við tillögulistum við vefsvæði fyrir rafræn viðskipti](add-reco-list-to-page.md)
-
-[Bæta afurðaráðleggingum við sölustað](product.md)
+[Bæta við afurðatillögum á sölustað](product.md)
 
 [Aðlagaðu niðurstöður AI-ML](modify-product-recommendation-results.md)
 

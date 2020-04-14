@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3084882dd4b51f067793b3a7999ce89cda1257d9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0912b620fc70f8ed33e336da9ecefacd1f4e376e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184601"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143178"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Nota grunnstillingar líkanavörpunar fyrir samanlagða útreikninga á gagnagrunnsstigi
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þessi aðferð gefur upplýsingar um hvernig á að hanna nýja stillingu fyrir vörpun rafrænnar skýrslugerðar og nota innbyggðar aðgerðir rafrænnar skýrslugerðar fyrir skilvirka samanlagða útreikninga. Í þessu dæmi muntu stofna skilgreiningu fyrir sýnifyrirtækið, Litware, Inc. 
 
@@ -69,7 +69,7 @@ ms.locfileid: "2184601"
     * Veljið uppsöfnunargerð.  
 27. Í svæðið Heiti skal slá inn „SumOfAmountMST“.
     * Tilgreinið heiti þessarar uppsöfnunar í stilltum gagnagjafa.  
-28. Smellið á „Vista“.
+28. Smelltu á Vista.
     * Athugið að reiturinn „Framkvæmd við“ gefur til kynna að þessi flokkun verði framkvæmd á keyrslutíma í SQL gagnagrunninum.  
 29. Lokið síðunni.
 30. Smellið á „Í lagi“.
@@ -103,7 +103,7 @@ ms.locfileid: "2184601"
 55. Smelltu á Binda.
 56. Í trénu skal víkka út „TransactionsGroups“.
 57. Í trénu skal velja „TransactionsGroups“.
-58. Smellið á „Breyta“.
+58. Smella á Breyta.
 59. Smella á Breyta hópi eftir
     * Athugaðu að reiturinn „Framkvæmd við“ gefur til kynna að þessi flokkun verði framkvæmd á keyrslutíma í minni vegna þess að báðar uppsafnanir sama svæðis eru bundnar við gagnalíkanahlutana.   
 60. Merkið eða afmerkið allar línur í listanum.
@@ -114,6 +114,6 @@ ms.locfileid: "2184601"
 65. Smellt er á Bæta reit við
 66. Veldu hvað skal flokka
 67. Í trénu skal víkka út „Grunnvörufærsla(Intrastat)“.
-68. Smellið á „Vista“.
+68. Smelltu á Vista.
     * Athugaðu að reiturinn „Framkvæmd við“ gefur til kynna að þessi flokkun verði framkvæmd á keyrslutíma í minni þrátt fyrir að engar uppsafnanir séu skilgreindar og valdir gagnagjafar af gerðinni „Töflufærslur“ vísa í sömu „Intrastat“-töflu. Þetta er vegna þess að gagnagjafinn inniheldur nokkra útreiknaða reiti sem ekki er hægt að þýða yfir í SQL gagnagrunnsstig.  
 

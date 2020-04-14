@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 46dc13416aa094f33879c017c1a1815fc791409d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a6287fa95b7ce7341e99d1b1a6b972db68a30398
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185107"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142169"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>Skilgreina líkanavörpun rafrænnar skýrslugerðar og velja gagnagjafa
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur valið gagnaveitur fyrir Rafræna skýrslugerð (ER) gagnalíkan. Gagnaveita verður bundin vup einstaka íhluti fyrir valið gagnalíkan á þegar það var hannað og fylla viðskiptagögn á það gagnalíkan þegar það var keyrt. Í þessu dæmi er valinn gagnagjafi fyrir fyrirliggjandi gagnalíkan sem hefur verið stofnað fyrir sýnisfyrirtæki, í þessu dæmi Litware, Inc. Til að ljúka þessum skrefum, þarf fyrst að ljúka við skrefin í ferlinu "Stofna nýtt gagnalíkan".
 
@@ -78,7 +78,7 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þr
 17. Veljið 'Transactions\Voucher', í trénu.
 18. Smellt er á Bæta við gagnagjafa.
 19. Í svæði Formúla slá inn 'CONCATENATE(Transactions.Voucher, "-", '.
-    * Sláðu inn [ , “-“, ] aftast í formúlu.  
+    * Sláðu inn [ , "-", ] aftast í formúlu.  
 20. Í trénu skal velja „String/TEXT“.
 21. Smelltu á Bæta við Aðgerð.
 22. Veljið 'Transactions\Record-ID(RecId)', í trénu.
@@ -128,7 +128,7 @@ Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þr
 52. Smella á bæta Við rót.
     * Færið inn gagnaveitu til að hafa aðgang að upplýsingar um fyrirmæli fyrirtækis.  
 53. Í reitnum Heiti skal færa inn ‚Fyrirtæki‘.
-    * Fyrirtæki  
+    * Fyrirt.    
 54. Í reitinn Merki skal slá inn gildi.
     * Fyrirtækið  
 55. Í reitinn Hjálp skal færa inn ‚Fyrirtækjaupplýsingar‘.

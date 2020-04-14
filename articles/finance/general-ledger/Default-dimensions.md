@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0e2b98bde04b221730413bcd7ddd028074b19d47
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: e65d371486d53d0fe4f039da68fbb4dcc35074d1
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030946"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154575"
 ---
 # <a name="financial-dimensions-and-posting"></a>Fjárhagsvíddir og bókanir 
 
@@ -37,7 +37,7 @@ Ríkulegt, reglubundið kerfi er nota til að skilgreina gildar samsetningar að
 
 ### <a name="account-structures"></a>Lykilskipulag
 
-Krafist er lykilskipulags þegar þú setur upp fjárhaginn þinn. Nauðsynlegt er að skilgreina og virkja að minnsta kosti eitt lykilskipulag og úthluta því til fjárhagsins. Lykilskipulagið verður að innihalda aðallykil. Hægt er að skilgreina þá röð hluta sem virkar best fyrir fyrirtækið. Eftir að aðallykill hefur verið skilgreindur, getur kerfið ákvarðað hvaða lykilskipulag skal nota. Með því að setja aðallykilinn fremst eða nálægt fremsta hluta skipulags, geturðu hjálpað til við að takmarka gildin og einnig aðstoðað kerfið við að nota síðasta þekkta gildið sem sjálfgildi. Hægt að hafa allt að 10 fjárhagsvíddir aukalega í lykilskipulaginu. Lykilskipulagið skilgreinir hvaða víddargildi eru gild í samsetningu þeirra og annarra gilda. það skilgreinir einnig hvort þarf að færa inn víddargildin.
+Krafist er lykilskipulags þegar þú setur upp fjárhaginn þinn. Nauðsynlegt er að skilgreina og virkja að minnsta kosti eitt lykilskipulag og úthluta því til fjárhagsins. Lykilskipulagið verður að innihalda aðallykil. Hægt er að skilgreina þá röð hluta sem virkar best fyrir fyrirtækið. Eftir að aðallykill hefur verið skilgreindur, getur kerfið ákvarðað hvaða lykilskipulag skal nota. Með því að setja aðallykilinn fremst eða nálægt fremsta hluta skipulags, geturðu hjálpað til við að takmarka gildin og einnig aðstoðað kerfið við að nota síðasta þekkta gildið sem sjálfgildi. Hægt að hafa allt að 10 fjárhagsvíddir aukalega í lykilskipulaginu. Lykilskipulagið skilgreinir hvaða víddargildi eru gild í samsetningu þeirra og annarra gilda. Það skilgreinir einnig hvort færa þarf inn víddargildin.
 
 ### <a name="advanced-rules"></a>Ítarlegar reglur
 

@@ -1,6 +1,6 @@
 ---
 title: Breyta líkani og vörpun til að búa til skjöl sem eru með forritsgögnum
-description: 'Til að ljúka skrefunum í þessu ferli verður fyrst að ljúka við ferlið, „Rafræn skýrslugerð Búa til skjöl með gagnauppfærslum fyrir forrit (Hluti 2: Búa til skjöl)“.'
+description: 'Til að ljúka skrefunum í þessu ferli verður fyrst að ljúka við ferlið „Rafræn skýrslugerð Búa til skjöl með gagnauppfærslum fyrir forrit (Hluti 2: Búa til skjöl)“.'
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5df6128228b9ff620c606c550c5eb7a6039b915
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a4546de2c5c1773aadce0ec084ee7058ff2ae153
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182302"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141880"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>Breyta líkani og vörpun til að búa til skjöl sem eru með forritsgögnum
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Til að ljúka skrefunum í þessu ferli verður fyrst að ljúka við ferlið, „Rafræn skýrslugerð Búa til skjöl með gagnauppfærslum fyrir forrit (Hluti 2: Búa til skjöl)“. 
+Til að ljúka skrefunum í þessu ferli verður fyrst að ljúka við ferlið „ER Búa til skjöl með gagnauppfærslum fyrir forrit (Hluti 2: Búa til skjöl)“. 
 
 Skrefin í þessu ferli sýna hvernig skal hanna Rafræna skýrslugerð (ER) grunnstillingar þannig að þær búi til rafræn skjöl og uppfæri gögn fyrir forrit. Í þessu ferli muntu breyta Rafræna skýrslugerð (ER) grunnstillingar þannig að hægt sé að byrja að nota þær til að búa til rafræn skjöl og uppfæra gögn fyrir forrit. Þetta ferli er hugsað fyrir þá notendur sem hefur verið úthlutað hlutverkum Kerfisstjóra eða Þróunaraðila rafrænnar skýrslugerðar. Skrefin er hægt að klára með því að nota DEMF gagnasafn.
 
@@ -103,7 +103,7 @@ Skrefin í þessu ferli sýna hvernig skal hanna Rafræna skýrslugerð (ER) gru
     * líkan  
 12. Sláið inn eða veldu gildið „Fyrir gagnauppfærslu fyrir forrit“ í reitnum Skilgreining.
     * Fyrir uppfærsla gagna hugbúnaðarins  
-13. Smellið á „Í lagi“.
+13. Smellt er á Í lagi.
 14. Í trénu skal víkka út 'model'.
 15. Veljið 'Functions\Calculated svæðið', í trénu.
 16. Í trénu skal velja „Líkan\Safn haus“.

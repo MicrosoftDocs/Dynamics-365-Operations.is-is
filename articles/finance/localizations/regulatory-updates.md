@@ -3,7 +3,7 @@ title: Regluuppfærslur
 description: Þetta efnisatriði gefur lista yfir áætlaðar og útgefnar reglubundnar uppfærslur á Microsoft Dynamics 365 Finance.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 03/09/2020
+ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2aea83f99c7e5b017ae0cf9d755882739e22ccb7
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: f35ab4b3ad49edfd0b68f906f44b8a2b04787f1a
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3112756"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161806"
 ---
 # <a name="regulatory-updates"></a>Regluuppfærslur
 
@@ -42,34 +42,38 @@ Fyrir nýjustu áætlanir á uppfærslu á reglum skal skoða eftirfarandi töfl
 
 |Land|Áætluð útgáfudagsetning|Losunarútgáfa|Regluuppfærsla|
 |--------------------|---------------|-------|-------|
-|      Brasilía         |   Mars 2020 - janúar 2020      | 10.0.9, 10.0.8      |   DRCST SC - reglugerð SEF Nº 416    |
-|      Brasilía         |   Mars 2020 - janúar 2020     | 10.0.9, 10.0.8      |   SPED Framlag - Skipulag fyrir jan-2020    |
+|      Brasilía         |   Apríl 2020 - janúar 2020      | 10.0.10, 10.0.9HF, 10.0.8HF      |   DRCST SC - reglugerð SEF Nº 416    |
+|      Brasilía         |   2020. apríl      | 10.0.10      |   SPED Contribuições (PIS / COFINS) - Blokkir M115 og M515    |
+|      Brasilía         |   2020. apríl      | 10.0.10      |   Sped-framlög - Uppfærslur á skrá C100 og D100 þegar inneignin er ekki endurheimt    |
+|      Brasilía         |   Apríl 2020  - janúar 2020     | 10.0.10, 10.0.9HF, 10.0.8HF      |   SPED Framlag - Skipulag fyrir jan-2020    |
 |      Brasilía         |   2020. mars       | 10.0.9      |   Sped-fjárhagur - breytingar á skrá D100 reitnum COD_MUN_ORI    |
 |      Brasilía         |   Mars 2020 - janúar 2020       | 10.0.9, 10.0.8      |   DRCST SC - reglugerð SEF Nº 254/19    |
 |      Brasilía         |   2020. janúar       | 10.0.8      |   Viðbótarupplýsingar um ICMS-ST    |
-|      Brasilía        |   Mars 2020 - janúar 2020       | 10.0.9, 10.0.8HF      |   Hraða fjárhagslega skipulag 014 |
-|      Brasilía          |   Mars 2020 - janúar 2020       | 10.0.9, 10.0.8HF      |   DRCST SC - reglugerð SEF Nº 343DR   |
-|      Frakkland          |   2020. mars       | 10.0.9      |   Frönsk staðsetning: ISO 20022 snið fyrir alþjóðlega greiðslu og yfirfærslu ríkissjóðs   |
-|      Ungverjaland          |   2020. mars       | 10.0.9, 10.0.8      |   Reikningskerfi á netinu v.2.0 í Finance and Operations    |
-|      Indland          |   2020. mars       | 10.0.9      |   Nýtt GSTR (ANX-1 & ANX-2) Til baka tæki án nettengingar   |
-|      Ítalía          |   2020. janúar       | 10.0.8      |   Breytingar á stjórnun virðisaukaskatts hjá D.L. 119 frá 23. okt. 2018: Árleg skattsamskipti |
-|      Ítalía         |   2020. mars     | 10.0.9, 10.0.8HF      |   Retail - Stjórnun upplýsinga um viðskiptavin í POS |
+|      Brasilía         |   Mars 2020 - janúar 2020       | 10.0.9, 10.0.8HF      |   Hraða fjárhagslega skipulag 014 |
+|      Brasilía         |   Mars 2020 - janúar 2020       | 10.0.9, 10.0.8HF      |   DRCST SC - reglugerð SEF Nº 343DR   |
+|      Frakkland         |   2020. apríl       | 10.0.10      |   Lögfræðikostnaðaryfirlýsing til skattyfirvalda fyrir sjálfstætt starfandi einstaklinga (DAS2)    |
+|      Frakkland         |   2020. mars       | 10.0.9      |   Frönsk staðsetning: ISO 20022 snið fyrir alþjóðlega greiðslu og yfirfærslu ríkissjóðs    |
+|      Indland         |   2020. mars      | 10.0.9      |   Nýtt GSTR (ANX-1 & ANX-2) Til baka tæki án nettengingar    |
+|      Ítalía         |   2020. janúar      | 10.0.8      |   Breytingar á stjórnun virðisaukaskatts hjá D.L. 119 frá 23. okt. 2018: Árleg skattsamskipti    |
+|      Ítalía         |   2020. mars      | 10.0.9, 10.0.8HF      |   Retail - Stjórnun upplýsinga um viðskiptavin í POS |
 |      Ítalía         |   2020. mars      | 10.0.9, 10.0.8HF      |   Retail - Prentun upplýsinga viðskiptavina í ríkisfjármálum |
 |      Japan          |   2020. mars     | 10.0.9, 10.0.8HF     |   Japanskir bankamannafélög í stað JBA með fastri lengd greiðslusniðs með ISO20022 |
 |      Japan          |   2020. janúar      | 10.0.8       |   Neysluskattsbreyting og lækkað skatthlutfall er tekið upp (Neysluskattskýrsla) |
 |      Mexíkó          |   2020. janúar     | 10.0.8        |   Retail - CFDI Global: Ýmislegt. Resol 2019 - c_CodigoPostal og tímabelti |
 |      Mexíkó           |   2020. janúar       | 10.0.8     |   Sannprófun á kóða í vörulista og þjónustu |
+|      Holland          |   2020. apríl   | 10.0.10     |   Ný útgáfa af hollenskri flokkun - NT14 |
 |      Noregur          |   2020. mars   | 10.0.9, 10.0.8HF     |   SAF-T XSD uppfærsla í útgáfu 1.1 fyrir Dynamics 365 for Finance and Operations |
 |      Pólland          |   2020. mars    | 10.0.9     |   Kaup VSK skrá og SAF virðisaukaskattsskrá: Skipt verður um sérsniðna umboðsskrifstofu úr SAD skjölum fyrir heiti þriðja aðila og undanþegin númer skatta |
 |      Pólland          |   Mars 2020 - janúar 2020   | 10.0.9, 10.0.8HF     |   Retail - Stjórnun upplýsinga um viðskiptavin í POS |
 |      Pólland          |   Mars 2020 - janúar 2020     | 10.0.9, 10.0.8HF     |   Retail - Prentun upplýsinga viðskiptavina í ríkisfjármálum |
 |      Pólland          |   Mars 2020 - janúar 2020     | 10.0.9, 10.0.8     |   SAF-reikningar (JPK_FA) v.2 frá 2des2019 |
-|      Pólland          |   Mars 2020 - janúar 2020     | 10.0.9, 10.0.8     |   JPK_VDEK kemur í stað JPK_VAT (SAF VSK) |
+|      Pólland          |   Apríl 2020 - janúar 2020     | 10.0.10, 10.0.9, 10.0.8     |   JPK_VDEK kemur í stað JPK_VAT (SAF VSK) |
 |      Rússland          |   2020. mars     | 10.0.9     |   Sniðmát skattskýrslu eignaskatts fyrir skýrslugerð árið 2019 |
 |      Rússland          |   2020. mars     | 10.0.9     |   Uppfærslur á tekjuskattsskýrslu |
 |      Singapúr           |   2020. janúar     | 10.0.8      |   Skýrslur GST-Skil |
 |      Sviss           |   2020. mars     | 10.0.9      |   Svissneskur greiðsluseðill ISR fær nýtt snið (QR-kóða) |
-|      Bretland          |   2020. janúar       | 10.0.8      |   Making Tax Digital (MTD) - Samþykki kerfisstjóra til að senda upplýsingar utan D365 með samþættingunni við HMRC |
+|      Bretland           |   2020. apríl     | 10.0.10      |   MTD svik forvarnir viðbót pakki |
+|      Bretland         |   2020. janúar      | 10.0.8      |   Making Tax Digital (MTD) - Samþykki kerfisstjóra til að senda upplýsingar utan D365 með samþættingunni við HMRC    |
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Setja upp verkflæði fyrir kostnað
+title: Setja upp verkflæði fyrir kostnaðarstýringu
 description: Hægt er að setja upp verkflæði sem er notað til að skoða og samþykkja ferða- og kostnaðarskjöl.
 author: ShylaThompson
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86cadf7277fbb7e08dad4b5dc2a46e1c6ce5a888
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cdd4d69cb86da12e4a265f89c021c238d00cad08
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178279"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3153995"
 ---
-# <a name="set-up-workflows-for-expense"></a>Setja upp verkflæði fyrir kostnað
+# <a name="set-up-workflows-for-expense-management"></a>Setja upp verkflæði fyrir kostnaðarstýringu
 
 [!include [banner](../includes/banner.md)]
 

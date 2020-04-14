@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7e05ebbec1ffb3e3cdd683d847ffc1d2cf817357
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: e17778d0fb05a1a5f7562027dc4e7f037e95e555
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837783"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149160"
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>Stofna kanban-regla sölutilviks
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þetta ferli leggur áherslu á uppsetningu sem þarf til að stofna kanban-reglu sem er ræst við stofnun sölupöntunar. Tilviksreglur kanbans fylla á kröfur sem eiga upphaf sitt í sölupöntunarlínum. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF. Það er ætlað fyrir ferlishönnuð eða virðisstraumsstjóra þegar þeir undirbúa framleiðslu nýrrar eða breyttrar afurðar.
 

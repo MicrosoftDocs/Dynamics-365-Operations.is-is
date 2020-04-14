@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8dd3664d86ffdb8bf731a6ff1e0ed60b50eed61
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: be06343aba974ff23a7f328d2175f00768a76465
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916830"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149574"
 ---
 # <a name="create-a-vendor-bank-account"></a>Stofna bankareikning lánardrottins
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þessi verklýsing sýnir hvernig á að stofna bankareikning fyrir lánardrottinn. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF.
 
@@ -37,12 +37,12 @@ ms.locfileid: "1916830"
 6. Í reitinn **Bankareikningar** skal slá inn gildi. Þetta Kenni verður notuð til að auðkenna bankareikninginn á lánardrottinsfærslu.  
 7. Í reitinn **Heiti** skal slá inn gildi.
 8. Í reitnum **Bankaflokkur** skal rita eða velja gildi.
-9. Í reitnum **Gerð leiðarnúmer** skal velja valkost. Þetta er Gerð leiðarnúmers sem notað er fyrir alþjóðlegar greiðslur.  
+9. Í reitnum **Gerð leiðarnúmer** skal velja valkost. Þetta er gerð leiðarnúmers sem er notuð fyrir alþjóðlegar greiðslur.  
 10. Í reitinn **Bankareikningsnúmer** skal slá inn gildi.
 11. Í reitinn **SWIFT-kóði** skal rita gildi.
 12. Í reitinn **IBAN** skal slá inn gildi.
     - Iban-númeri verður að vera á réttu sniði. Til dæmis er hægt að nota DE89370400440532013000.  
-    - Staða bankareikningsins er Virkur ef Virkri dagsetningu hefur verið náð og lokadagur er ekki liðinn. Einnig er hann virkur ef svæðin Virka dagsetningu og dagsetning Gildistíma eru auð. Ef dagsetningarnar í svæðunum Virk dagsetning og Lokadagur eru báðar í framtíðinni er ekki hægt að gera rafrænar greiðslur. Aðrar greiðslugerðir eru mögulegar og bankareikningurinn er virkur.  
+    - Staða bankareikningsins er Virkur ef Virkri dagsetningu hefur verið náð og lokadagur er ekki liðinn. Hún er einnig virk ef reitirnir Virk dagsetning og Gildistími eru auðir. Ef dagsetningarnar í svæðunum Virk dagsetning og Lokadagur eru báðar í framtíðinni er ekki hægt að gera rafrænar greiðslur. Aðrar greiðslugerðir eru mögulegar og bankareikningurinn er virkur.  
 13. Útvíkkaðu kaflann **Uppsetning**.
 14. Í reitinn **Textakóði** skal rita gildi. Þetta svæði tilgreinir kóða sem mun birtast á bankayfirliti viðtakanda.  
 15. Í reitinn **Skilaboð til banka** skal slá inn gildi.
@@ -55,6 +55,6 @@ ms.locfileid: "1916830"
 22. Lokið síðunni.
 23. Smellið á **Breyta**.
 24. Útvíkkaðu kaflann **Greiðslur**.
-25. Í svæðinu **Bankareikningur** skal velja lykil sem var nýlega stofnaður.
+25. Í reitnum **Bankareikningur** skal velja lykil sem var nýlega stofnaður.
 26. Smellt er á **Vista**. Aðsetrið má erfa frá bankaflokki, ef slíkt er tilgreint, eða hægt er að bæta honum við hér.  
 

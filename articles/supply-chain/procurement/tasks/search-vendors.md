@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dfa5bfa2eba39b981c5dc1d029f4847651c8fc6f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1982c8dffbc7a65263babce7738045b744db2592
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844034"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149528"
 ---
 # <a name="search-for-vendors"></a>Leita að lánardrottnum
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Fræðast um hvernig á að leita að lánardrottnum samkvæmt ákveðnum skilyrðum. Þetta dæmi sýnir hvernig á að leita að lánardrottnum sem hafa verið samþykktar fyrir tiltekna innkaupategund og hafa aðalaðsetur í tilteknu landi. Hægt er að keyra þessa ferli í sýnifyrirtækinu USMF eða í eigin gögnum. Þetta verk myndi venjulega framkvæmtaf fagmanni á sviði innkaupa.
 
@@ -34,7 +34,7 @@ Fræðast um hvernig á að leita að lánardrottnum samkvæmt ákveðnum skilyr
 3. Veljið 'CORP PROCUREMENT CATEGORIES\OFFICE MACHINES'., í trénu.
     * Ef verið er að keyra ferlið sem leiðarvísi fyrir verk, gæti þurft að smella á hnappinn Aflæsa áður en hægt er að velja réttan hnút. Ef ekki er verið að nota USMF, veljið eina af tegundunum sem þú hefur.  
 4. Smelltu á Bæta við.
-    * Mögulegt er að velja fleiri en einn flokk hér. Ef svo er gert er leitað er að alla lánardrottna sem hafa verið samþykktar fyrir minnst eina af tegundunum.  
+    * Hægt er að velja fleiri en einn flokk hér. Ef svo er gert er leitað er að alla lánardrottna sem hafa verið samþykktar fyrir minnst eina af tegundunum.  
 5. Smellið á „Í lagi“.
 6. Í reitinn land/svæði skal slá inn gildi.
 7. Smellið á „Í lagi“.

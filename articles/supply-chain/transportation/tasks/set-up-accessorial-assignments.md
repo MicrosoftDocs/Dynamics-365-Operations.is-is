@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b69bd2029914efd31569c57272339e27ef1bd6a3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cd951a65d9cfd20952865db81ac58c698aa124a7
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560890"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146331"
 ---
 # <a name="set-up-accessorial-assignments"></a>Setja upp úthlutun á aukaþjónustu
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þessi verklýsing sýnir hvernig á að setja upp aukalegu úthlutun. Þetta er yfirleitt gert af samræmingaraðila flutninga. Áður en þessari handbók er notuð þarf að keyra í "Setja upp aukagjald og aukalegt sniðmát".
 

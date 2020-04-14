@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90c24e9d89c055ea95ca5f25cd85ef4042476a90
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 07337063c01f146c72ca6d9e0f9096907cdc9638
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187062"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142824"
 ---
 # <a name="create-a-depreciation-proposal"></a>Stofna afskriftartillögu
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þetta efnisatriði lýsir því hvernig afskriftartillögur runu vinnu og útskýrir hvernig á að leggja afskriftir eigna. Þetta verk notar USMF sýnigögn fyrirtækis og hlutverk bókhaldara.
 
@@ -36,7 +36,7 @@ ms.locfileid: "2187062"
 3. Í reitnum **Til dags.** færirðu inn dagsetningu.
 
     - Velja skal valkostinn **Sundurliða afskriftir** til að taka saman mánaðarlegar afskriftir í eina færslubókarlínu.  
-    - Sem dæmi, ef gildið Til dags er mars 31, 2015, eftirfarandi lýsing er stofnuð: “Afskrift frá 31. janúar, 2015.” Reiturinn **Dagsetning** á tillögðum færslubókarlínum er síðan stilltur á 31. mars, 2015.  
+    - Sem dæmi, ef gildið Til dags er mars 31, 2015, eftirfarandi lýsing er stofnuð: „Afskrift frá 31. janúar, 2015.” Reiturinn **Dagsetning** á tillögðum færslubókarlínum er síðan stilltur á 31. mars, 2015.  
     - Hægt er að sía afskriftatillögu af eign, eignaflokki eða öðrum skilyrðum með því að nota valkostinn **Síu**.  
     - Þegar skjámyndin **Stofna tillögur um eignarmyndun eða afskrifir fastra eigna** er notuð er hægt að leggja til afskriftir í runum. Þetta er það ráðlagt fyrir stærri tillögur sem á að nota fleiri kerfistilföng. Ef valið er valkostur runu, er enn hægt að ljúka öðrum verkefnum á meðan. Þegar lagðar eru til afskriftir á þennan hátt er afskrift reiknuð út fyrir virðislíkön eigna.  
 

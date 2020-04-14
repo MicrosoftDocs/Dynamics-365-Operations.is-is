@@ -3,7 +3,7 @@ title: Búa til fylgiskjöl eða þjálfun með verkskráningu
 description: Í þessu efnisatriði er útskýrt hvað verkskráning og leiðbeiningar um verkið eru, hvernig á að stofna verkskráningu, og hvernig á að sérsníða verkefni í Microsoft leiðir og hafa þau með í þínu Hjálp.
 author: josaw1
 manager: AnnBe
-ms.date: 10/24/2017
+ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 268b95aad57c2e4863a3f58cd54828dbb0e09465
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 927f6475e60b5b93aac0e0c2840cb0b4fc7f0ac8
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006196"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164559"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Búa til fylgiskjöl eða þjálfun með verkskráningu
 
@@ -40,8 +40,6 @@ ms.locfileid: "3006196"
 Verkskráning er verkfæri sem hægt er að nota til að skrá aðgerðir sem framkvæmdar eru í notendaviðmótinu (UI). Þegar notuð er verkskráning eru öll atvik sótt sem framkvæmt er í Notendaviðmóti og eru keyrðir gagnvart þjóninum — þar á meðal bæta við gildum, breytt stillingum og fjarlægir gögn. Skrefin sem þú skráir kallast í sameiningu við *verkskráning*. Hægt er að nota verkskráningu á marga vegu:
 
 -   **Hægt er að spila verkskráningu sem verkefnaleiðbeiningar.** Verkefni leiðbeiningunum eru integral stykki hinnar Hjálp reynslu. Verkefnaleiðbeiningar eru stýrð, leiðbeind, gagnvirk reynsla sem fer með þig í gegnum þrep viðskiptaferlis. Notandi er leiðbeint um að ljúka við hvert skref með sprettigluggum (eða "talblaðra"), sem verður lifandi í Notendaviðmóti og benda á UI einingar sem notandinn ætti að eiga samskipti við. "Talblaðra" veitir einnig upplýsingar um hvernig á að eiga samskipti við einingar, svo sem „Smella skal hér“ eða „Í þessu svæði er fært inn gildi“. Verkefnaleiðbeiningar keyra gagnvart gildandi gagnasafni notanda og gögnin sem færð er inn eru vistuð í umhverfi notanda.
--   **Verkskráning getur birst sem skref ferlis í hjálparrúðu.** Nota má hjálparrúðuna til að leita að og sýna verkskráningar. Hægt er að opna rúðuna Hjálp með því að smella á **?** táknið í efstu skoðunarrein eða hægt er að nota flýtivísunarlykilsamsetningu, **Ctrl + Shift +?**. Hægt er að lesa þrep verkskráningar í hjálparglugganum eða hægt er að kjósa að spila verkskráningu sem leiðarvísi fyrir verk, svo það leiðir notandann í gegnum Notendaviðmóti.
--   **Hægt er að vista verkskráningu í BPM.** Hægt er að vista verkskráningu í línu stigveldis í BPM safni í Lifecycle Services (LCS). Lista yfir skef og flæðirit viðskiptaferlis verður mynduð úr skráningunni. Hægt er að sýna verkskráningu sem hafa verið vistaðar í BPM-safn sem Hjálp.
 -   **Hægt er að vista verkskráningu í sem Word-skjöl.** Þannig geturðu auðveldlega búið til prentanlegar þjálfunarleiðbeiningar.
 
 Hægt er að stofna eigin verkskráningu, spila verkskráningar sem veittar eru af Microsoft eða breyta verkskráningu sem veitt er af Microsoft til að endurspegla skilgreininguna. Nánari upplýsingar um verkskráningu er að finna í [Verkskráning](task-recorder.md).
@@ -114,8 +112,7 @@ Hægt er að sækja og breyta verkskráningu Microsoft og nota þær fyrir eigin
 10. Eftir að skráning hefur sinnt spilast til enda, smellið á **Stöðva** í slá verkskráningar efst á skjánum.
 11. Veldu hvernig Á að vista stillingarnar.
 
-## <a name="include-your-task-recordings-in-the-help-pane"></a>Taka verkskráningu með í rúðunni Hjálp
-Til að sýna þína eigin sérsniðna verkskráningu í rúðunni hjálp þannig að hægt er að spila þau sem verkefnaleiðbeiningar eða skoða texta , þarf að vista verkskráningu í eigin safn BPM og síðan uppfæra færibreytum hjálparkerfis til að vísa í safn fyrir BPM. Fyrir nánari upplýsingar sjá [Tengja við hjálparkerfið](../../fin-ops/get-started/help-connect.md).
+
 
 <a name="additional-resources"></a>Frekari upplýsingar
 --------
