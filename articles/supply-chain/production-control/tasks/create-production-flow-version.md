@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9a76e5bb6f63f793e4644c2ccf70cef21785ff10
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5512c30be586c75d2571d60588a1179c0d47570b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564087"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146998"
 ---
 # <a name="create-a-production-flow-version"></a>Stofna útgáfu framleiðsluflæðis
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Þetta ferli sýnir hvernig ný útgáfa framleiðsluflæðis er stofnuð. Fyrir þetta ferli verður að skilgreina framleiðslufæribreytur fyrir lean-framleiðslu og mælieiningar fyrir klasatíma. Einnig þarf að skilgreina virðisstraum og framleiðsluflokk. Frekari upplýsingar um framleiðsluflæði og aðgerðir í lean-framleiðslu má sjá í hvítblöð um Lean-framleiðslu fyrir Microsoft Dynamics AX. Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.
 
