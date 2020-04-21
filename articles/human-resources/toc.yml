@@ -5,6 +5,12 @@
       items:
         - name: Nýjungar eða breytingar í Human Resources
           href: hr-admin-whats-new.md
+        - name: 13. apríl 2020
+          href: hr-whats-new-2020-04-13.md
+        - name: 3. apríl 2020
+          href: hr-whats-new-2020-04-03.md
+        - name: 24. mars 2020
+          href: hr-whats-new-2020-03-24.md
         - name: 19. mars 2020
           href: hr-whats-new-2020-03-19.md
         - name: 10. mars 2020
@@ -401,7 +407,7 @@
               href: hr-compensation-process.md
         - name: Umsjón með fríðindum
           items:
-            - name: 'Forskoðunareiginleiki: Fríðindastjórnun'
+            - name: Fríðindastjórnun
               items:
                 - name: Yfirlit fríðindastjórnunar
                   href: hr-benefits-management-overview.md
@@ -445,12 +451,8 @@
                   items:
                     - name: Uppsetning fríðindaáætlana
                       href: hr-benefits-plans-setup.md
-                    - name: Stofna fríðindaáætlanir starfskrafts
-                      href: hr-benefits-plans-worker.md
                     - name: Setja upp sveigjanlegar útgjaldaáætlanir
                       href: hr-benefits-plans-flex-credit-programs.md
-                    - name: Grunnstilla viðburði í framtíðinni
-                      href: hr-benefits-plans-future-life-events.md
                 - name: Vinna úr fríðindaáætlunum
                   items:
                     - name: Vinna úr fríðindahæfni
@@ -495,10 +497,12 @@
               href: hr-leave-and-absence-types.md
             - name: Búa til leyfis- og fjarvistaáætlun
               href: hr-leave-and-absence-plans.md
-            - name: Úthluta starfsmönnum á leyfisáætlun
+            - name: Úthluta starfskröftum á leyfisáætlun
               href: hr-leave-and-absence-enroll.md
             - name: Uppsöfnunaráætlanir fyrir leyfi og fjarvistir
               href: hr-leave-and-absence-accrue.md
+            - name: Fresta leyfi
+              href: hr-leave-and-absence-suspend-leave.md
             - name: Skoða greiningu á leyfum og fjarvistum
               href: hr-leave-and-absence-analytics.md
             - name: Vinna með beiðnir um leyfi og fjarvistir
