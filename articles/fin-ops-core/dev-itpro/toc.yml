@@ -14,7 +14,9 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu uppfærslna á verkvangi
                   href: get-started/whats-new-home-page.md
-                - name: Platform update 34 (maí 2020)
+                - name: Verkvangsuppfærslur fyrir 10.0.11 (júlí 2020)
+                  href: get-started/whats-new-platform-update-35.md
+                - name: Verkvangsuppfærslur fyrir 10.0.10 (maí 2020)
                   href: get-started/whats-new-platform-update-34.md
                 - name: Platform update 33 (apríl 2020)
                   href: get-started/whats-new-platform-update-33.md
@@ -324,8 +326,6 @@
                       href: data-entities/configuration-data-packages.md
                     - name: Skilgreiningargagnapakkar (aðeins útgáfa frá júlí 2017)
                       href: data-entities/configuration-data-packages.md
-                    - name: Gera einingaverslun tiltæka sem Data Lake
-                      href: data-entities/entity-store-data-lake.md
                 - name: Sniðmát skilgreiningargagna
                   href: data-entities/configuration-data-templates.md
                 - name: Rekja breytingar til einingar
@@ -384,6 +384,14 @@
               href: user-interface/data-validation-workspace.md
             - name: Villulýsingar gagnastjórnunar
               href: data-entities/dm-error-descriptions.md
+        - name: Azure Data Lake
+          items:
+            - name: Yfirlit fyrir Azure Data Lake
+              href: data-entities/azure-data-lake-overview.md
+            - name: Finance and Operations-forrit í Azure Data Lake
+              href: data-entities/finance-data-azure-data-lake.md
+            - name: Gera einingaverslun tiltæka sem Data Lake
+              href: data-entities/entity-store-data-lake.md
         - name: Aðgerðir í flutningi gagnagrunns
           items:
             - name: Yfirlit
@@ -482,38 +490,46 @@
               items:
                 - name: Uppsetning á staðnum – heimasíða
                   href: deployment/on-premises-deployment-landing-page.md
-                - name: Yfirlit yfir uppsetningu á staðnum
-                  href: deployment/on-premises-overview.md
-                - name: Áætlun og undirbúningur fyrir uppsetningu á staðnum
-                  href: deployment/plan-onprem-deployment.md
-                - name: Kröfur um vélbúnaðarþörf
-                  href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                - name: Setja upp verk á staðnum
-                  href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                - name: Undirbúningur fyrir uppsetningum á staðnum
+                  items:
+                    - name: Yfirlit yfir uppsetningu á staðnum
+                      href: deployment/on-premises-overview.md
+                    - name: Áætlun og undirbúningur fyrir uppsetningu á staðnum
+                      href: deployment/plan-onprem-deployment.md
+                    - name: Kröfur um vélbúnaðarþörf
+                      href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                 - name: Setja upp og virkja umhverfi á staðnum
                   items:
-                    - name: Setja upp og nota innanhússumhverfi – heimasíða
-                      href: deployment/setup-deploy-on-premises-environments.md
-                    - name: Virkja umhverfi á staðnum í (Platform update 12 og síðari útgáfur)
+                    - name: Setja upp verk á staðnum í LCS
+                      href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                    - name: Setja upp og virkja umhverfi á staðnum
                       href: deployment/setup-deploy-on-premises-pu12.md
-                    - name: Virkja umhverfi á staðnum í (Platform update 8 og 11)
-                      href: deployment/setup-deploy-on-premises-pu8-pu11.md
                     - name: Uppsetningarskref fyrir hluta Retail-rásar í staðbundnu umhverfi
                       href: deployment/deploy-retail-onprem.md
+                    - name: Þróa og virkja sérstillt líkön í innanhússumhverfi
+                      href: deployment/develop-deploy-custom-models-on-premises.md
+                - name: Viðhald umhverfis
+                  items:
+                    - name: Nota uppfærslur fyrir uppsetningu á staðnum
+                      href: deployment/apply-updates-on-premises.md
+                    - name: Vottorðssnúningur
+                      href: deployment/certificate-rotation-on-prem.md
+                    - name: Tengigeta biðlara við internet
+                      href: user-interface/client-disconnected.md
+                    - name: Skilgreina staðgengla fyrir innanhússumhverfi
+                      href: deployment/onprem-reverseproxy.md
+                    - name: Greining á staðnum
+                      href: deployment/on-premises-diagnostics.md
+                    - name: PowerBI.com-samþætting við innanhússumhverfi
+                      href: analytics/entity-store-on-prem.md
+                    - name: Endurskilgreina umhverfi
+                      href: lifecycle-services/reconfigure-environment.md
+                    - name: Setja uppsetningar á staðnum aftur upp
+                      href: deployment/redeploy-on-prem.md
+                    - name: Fjarlægja og setja upp AOS-hnút
+                      href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Nota sama AD FS tilvik aftur fyrir mörg umhverfi
                       href: deployment/onprem-reuseadfs.md
-                - name: Þróa og virkja sérstillt líkön í innanhússumhverfi
-                  href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: PowerBI.com-samþætting við innanhússumhverfi
-                  href: analytics/entity-store-on-prem.md
-                - name: Skilgreina staðgengla fyrir innanhússumhverfi
-                  href: deployment/onprem-reverseproxy.md
-                - name: Nota uppfærslur fyrir uppsetningu á staðnum
-                  href: deployment/apply-updates-on-premises.md
-                - name: Greining á staðnum
-                  href: deployment/on-premises-diagnostics.md
-                - name: Setja uppsetningar á staðnum aftur upp
-                  href: deployment/redeploy-on-prem.md
                 - name: Umboðsmaður á staðnum
                   items:
                     - name: AD FS Office 365 samhæfi
@@ -522,16 +538,12 @@
                       href: lifecycle-services/pre-post-scripts.md
                     - name: Uppfæra staðbundinn eftirlitsbúnað
                       href: lifecycle-services/update-local-agent.md
-                - name: Endurskilgreina umhverfi
-                  href: lifecycle-services/reconfigure-environment.md
-                - name: Tengigeta biðlara við internet
-                  href: user-interface/client-disconnected.md
-                - name: Úrræðaleit fyrir uppsetningar á staðnum
-                  href: deployment/troubleshoot-on-prem.md
-                - name: Forskriftir til að leysa vandamál í innanhússumhverfi
-                  href: deployment/onprem-tsg-implementations.md
-                - name: Vottorðssnúningur
-                  href: deployment/certificate-rotation-on-prem.md
+                - name: Úrræðaleit
+                  items:
+                    - name: Úrræðaleit fyrir uppsetningar á staðnum
+                      href: deployment/troubleshoot-on-prem.md
+                    - name: Forskriftir til að leysa vandamál í innanhússumhverfi
+                      href: deployment/onprem-tsg-implementations.md
             - name: Setja upp sérsniðinn kóða
               items:
                 - name: Stofna virkjanlega pakka af líkönum
@@ -928,6 +940,8 @@
                       href: extensibility/extensibility-attributes.md
                     - name: Breytingum skipt
                       href: extensibility/breaking-changes.md
+                    - name: Samhæfisprófunarverkfæri
+                      href: extensibility/compatibility-checker-tool.md
             - name: Afköst
               items:
                 - name: Taka rakningar með Trace-þáttara
@@ -1442,6 +1456,8 @@
               href: sysadmin/configure-manage-database-log.md
             - name: Byggja skyndiminni OData-lýsigagna þegar AOS er ræst
               href: sysadmin/odata-warmup.md
+            - name: Biðlari Azure-lyklageymslu settur upp
+              href: ../../finance/localizations/setting-up-azure-key-vault-client.md
         - name: Uppfærslur og bráðabætur
           items:
             - name: Tilföng uppfærslna og bráðabóta
@@ -1538,11 +1554,11 @@
                   href: migration-upgrade/compile-considerations.md
             - name: Uppfæra í nýlega uppfærslu (á staðnum)
               items:
-                - name: Virkja uppfærslur í uppsetningum á staðnum
+                - name: Virkja uppfærslur í uppsetningu á staðnum
                   href: deployment/apply-updates-on-premises.md
                 - name: Setja uppsetningu á staðnum aftur upp
                   href: deployment/redeploy-on-prem.md
-                - name: Uppfærsla sett upp á staðnum fyrir 7.x til 8.1
+                - name: Uppfærsluferli á staðnum fyrir innanhússumhverfi
                   href: migration-upgrade/on-prem-upgrade.md
             - name: Bráðabætur
               items:
