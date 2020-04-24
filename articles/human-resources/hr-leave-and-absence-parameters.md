@@ -3,7 +3,7 @@ title: Grunnstilla færibreytur leyfis og fjarvista
 description: Skilgreindu færibreytur Human Resources fyrir leyfi og fjarvistir í Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2acb8502ebcab122a0a1ff21e9f5e23931026327
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: eb992cbfbed33f88e125d3a8b721f8815414599a
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009393"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197982"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Grunnstilla færibreytur leyfis og fjarvista
 
@@ -50,18 +50,25 @@ ms.locfileid: "3009393"
 
 7. Veljið **Vista**.
 
-## <a name="configure-calendar-parameters"></a>Skilgreina færibreytur dagatals
-
-Ef þú hefur virkjað forskoðunareiginleikann Leyfi og fjarvistir, verður þú að stilla viðbótarstika. 
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-> [!NOTE]
-> Fyrir forskoðunarútgáfu þann 3. febrúar 2020 er aðeins **Beiðni um orlof** virkjaðar.
+## <a name="view-and-change-leave-and-absence-parameters"></a>Skoða og breyta færibreytum leyfis og fjarvista
 
 1. Á síðunni **Leyfi og fjarvera** velurðu flipann **Tenglar**.
 
-2. Undir **Skipulag**, veldu **Færirbreytur Human Resources**.
+2. Undir **Uppsetning** velurðu **Færibreytur leyfis og fjarvista**.
+
+3. Á flipanum **Almennt** skal stilla eftirfarandi færibreytur:
+ 
+    - Stilltu **Eining fyrir leyfi og fjarvistir** á annaðhvort klukkutíma eða daga. Ef dagar, getur þú valið **Virkja skilgreining á hálfum degi** til að gera starfsmönnum kleift að velja annaðhvort fyrri eða seinni hluta dags í beiðnum sínum um frí. 
+
+    - Veldu **Mánuðir gildistíma þjónustu** til að stilla hvenær uppsöfnunarhlutfallið tekur gildi vegna leyfisáætlana sem nota mánaðalega þjónustu.
+
+    - Veldu **Stöðuútreikningur** til að sýna stöðubirtingu sem birt er í dag eða frá uppsöfnunartímabilinu. Ef þú velur **Staðan frá deginum í dag** sýnir staðan samtölu allra uppsafnana, leiðréttinga og beiðna frá og með deginum í dag. Ef þú velur **Staða frá og með uppsöfnunartímabili** sýnir staðan samtölu allra uppsafnana, leiðréttinga og beiðna frá og með uppsöfnunartímabilinu sem skilgreint er af tíðni í leyfisáætluninni. 
+
+## <a name="configure-calendar-parameters"></a>Skilgreina færibreytur dagatals
+
+1. Á síðunni **Leyfi og fjarvera** velurðu flipann **Tenglar**.
+
+2. Undir **Uppsetning** velurðu **Færibreytur leyfis og fjarvista**.
 
 3. Á **Dagatal** flipanum, skal breyta stillingu dagatals eftir þörfum.
 

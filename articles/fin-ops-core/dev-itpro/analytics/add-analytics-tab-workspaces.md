@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 442557a01b25e13b76074c865dfe5468bbc9fde0
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025855"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259633"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Bæta greiningu við vinnusvæði með Power BI Embedded
 
@@ -84,7 +84,7 @@ Fylgið eftirfarandi skrefum til að víkka út skjámyndarskilgreininguna fyrir
 8. Hægrismelltu og veldu svo **Ný flipasíða**.
 9. Gefðu flipasíðunni nýtt og auðskilið heiti, eins og **Greiningar**.
 10. Veldu **Greiningar (Flipasíða)** í skjámyndarhönnuðinum.
-11. Stilltu eiginleikann **Myndatexti** á **Greiningar**.
+11. Stilltu eiginleikann **Yfirskrift** á **Greining** og stilltu eiginleikann **Sjálfvirk skýrsla** á **Já**.
 12. Hægrismelltu á stýringuna og veldu síðan **Nýr** \> **Hópur** til að bæta við nýrri skjámyndarhópsstýringu.
 13. Gefðu skjámyndarhópnum nýtt og auðskilið heiti, eins og **powerBIReportGroup**.
 14. Veldu **PanoramaBody (Flipi)** í skjámyndarhönnuðinum, og dragðu svo stýringuna á flipann **Vinnusvæði**.

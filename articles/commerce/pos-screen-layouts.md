@@ -1,9 +1,9 @@
 ---
-title: Skjáútlit fyrir sölustað (POS)
+title: POS notendaviðmót sjónrænna stillinga
 description: Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás fyrir Dynamics 365 Commerce sölustaður (POS) upplifun.
-author: jblucher
-manager: AnnBe
-ms.date: 05/20/2019
+author: boycezhu
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,23 +16,22 @@ ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: jeffbl
+ms.author: boycezhu
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5bf7b3d20ff0b42eb9eaedf584b2a508c1307707
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3a84318f7156ef42f7e00f1e89228f541b1634ce
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022960"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261468"
 ---
-# <a name="screen-layouts-for-the-point-of-sale-pos"></a>Skjáútlit fyrir sölustað (POS)
+# <a name="pos-user-interface-visual-configurations"></a>POS notendaviðmót sjónrænna stillinga
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás fyrir Dynamics 365 Commerce sölustaður (POS) upplifun.
-
-Hægt er að grunnstilla POS notendaviðmótið (UI) með því að nota blöndu af sjónrænum forstillingum og skjáútliti sem eru úthlutað til verslunum, afgreiðslukassa og/eða notendum.
+Hægt er að grunnstilla notendaviðmótið (UI) á sölustað (POS) Microsoft Dynamics 365 Commerce með því að nota blöndu af sjónrænum forstillingum og skjáútliti sem eru úthlutað til verslunum, afgreiðslukassa og/eða notendum. Þetta efni veitir upplýsingar um þessa stillingarvalkosti.
 
 Eftirfarandi mynd sýnir tengsl milli hinna ýmsu eininga sem mynda hina stillanlegu útlitsþætti POS notendaviðmótsins (UI).
 
@@ -40,7 +39,7 @@ Eftirfarandi mynd sýnir tengsl milli hinna ýmsu eininga sem mynda hina stillan
 
 ## <a name="visual-profile"></a>Sjónræn regla
 
-Sjónrænum forstillingum er úthlutað á afgreiðslukassa, og þær tilgreina sjónrænu þættina sem eru sértækir fyrir afgreiðslukassa og er deilt á meðal notenda. Sérhver notandi sem skráir sig inn í afgreiðslukassa sér sama þema, liti og myndir.
+Sjónrænum forstillingum er úthlutað á afgreiðslukassa, og þær tilgreina sjónrænu þættina sem eru sértækir fyrir afgreiðslukassa og er deilt á meðal notenda. Sérhver notandi sem skráir sig inn í afgreiðslukassa sér sama þema, útlit, liti og myndir.
 
 ![POS upphafsskjár með ljósu þema](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
 
@@ -48,16 +47,24 @@ Sjónrænum forstillingum er úthlutað á afgreiðslukassa, og þær tilgreina 
 
 - **Forstillingarnúmer** - Forstillingarnúmerið er hið einkvæma kennimerki sjónrænu forstillingarinnar.
 - **Lýsing** - Þú getur tilgreint merkingarbært nafn sem mun hjálpa til við að bera kennsl á rétta forstillingu fyrir þínar aðstæður.
-- **Þema** - Þú getur valið á milli ljóst og dökkt þema fyrir forrit. Þemað hefur áhrif á leturgerð og bakgrunnslit allsstaðar í forritinu.
+- **Þema** - Þú getur valið á milli þemanna **Ljóst** og **Dökkt** fyrir forrit. Þemað hefur áhrif á leturgerð og bakgrunnslit allsstaðar í forritinu.
 - **Áherslulitur** - Áherslulitur er notaður í gegnum allt POS til að aðgreina eða merkja tilteknar sjónrænar einingar, eins og t.d. flísar, skipunarhnappa og tengla. Þessar einingar eru yfirleitt aðgerðir.
-- **Hauslitur** - Þú getur grunnstillt lit blaðsíðuhaussins til að uppfylla kröfur um vörumerkjaþróun frá smásöluaðila. Þessi eiginleiki er aðeins í boði í Retail, útgáfu 1611.
-- **Sýna dagsetningu/tíma** - Þegar virkjað verður núverandi dagur og tími sýndur í haus sölustaðar.
-- **Innskráning bakgrunnur** - Þú getur tilgreint bakgrunnsmynd fyrir innskráningarskjáinn. Skráarstærð bakgrunnsmynda ætti að vera eins lítil og mögulegt er, því að geyma og hlaða stórum skrám getur haft áhrif á hegðun forrits og afköst.
-- **Bakgrunnur forrits** - Þú getur tilgreint bakgrunnsmynd sem er notuð í staðinn fyrir samfelldan þemalitinn alls staðar í forritið. Þegar kemur að innskráningarbakgrunn skal skráarstærðin vera eins lítil og mögulegt er.
+- **Hauslitur** - Þú getur grunnstillt lit blaðsíðuhaussins til að uppfylla kröfur um vörumerkjaþróun frá smásöluaðila.
+- **Leturkerfi** - Þú getur valið á milli leturkerfanna **Staðlað** og **Stórt**. Leturkerfið hefur áhrif á leturstærðina í öllu forritinu. Sjálfgefið val er **Staðlað**.
+- **Sýna alltaf forritastikamerki** - Þegar kveikt er á þessum valkosti er texti merkimiða alltaf sýnilegur undir hnöppunum á forritastikunni.
+- **Útlit** - Þú getur valið á milli útlitanna **Miðja** og **Hægri**. Útlitið hefur áhrif á röðun innskráningarboxsins á innskráningarskjánum. Sjálfgefið val er **Miðja**.
+- **Sýna dagsetningu/tíma** - Þegar kveikt er á þessum möguleika eru núverandi dagsetning og tími sýndur í POS hausnum og á innskráningarskjánum.
+- **Lyklaborð** - Þú getur valið á milli **Gera OS lyklaborð sjálfgefið** og **Sýna talnaborð** til að tilgreina sjálfgefið lyklaborð sem er notað til innsláttar á innskráningarskjánum. Talnaborðið er sýndarlyklaborð sem er aðallega notað fyrir snertitæki. Sjálfvalið er **Gera OS lyklaborð sjálfgefið**.
+- **Fyrirtækismerki** - Þú getur tilgreint fyrirtækismerki sem sést á innskráningarskjánum. Við mælum með að þú notir mynd sem hefur gegnsæjan bakgrunn. Skráarstærð ætti að vera eins lítil og mögulegt er, þar sem hegðun og frammistaða forrits getur orðið fyrir áhrifum þegar stórar skrár eru geymdar og hlaðið upp.
+- **Innskráningarbakgrunnur** - Þú getur tilgreint bakgrunnsmynd fyrir innskráningarskjáinn. Skráarstærð bakgrunnsmynda ætti að vera eins lítil og hægt er.
+- **Bakgrunnur** - Þú getur tilgreint bakgrunnsmynd sem er notuð í staðinn fyrir samfelldan þemalitinn alls staðar í forritið. Hvað varðar bakgrunnsmyndir fyrir innskráningarskjáinn, ætti að hafa skráarstærðina eins litla og hægt er.
+
+> [!NOTE]
+> **Hægri** útlit og birting dagsetningar/tíma gilda ekki fyrir innskráningarskjáinn í þjappaði skoðun.
 
 ## <a name="screen-layouts"></a>Útlit afgreiðsluskjás
 
-Grunnstillingar skjáútlits ákvarða aðgerðir, innihald og staðsetningu stjórnborðs notandaviðmóts á POS upphafsskjánum og **Færsla** skjánum.
+Grunnstillingar skjáútlits ákvarða aðgerðir, innihald og staðsetningu stjórnborðs notandaviðmóts á **upphafsskjá** POS og **færsluskjánum**.
 
 ![POS skjáútlit yfirlit](../commerce/media/POS-Screen-Layout-View.png)
 

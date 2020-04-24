@@ -3,7 +3,7 @@ title: Uppsöfnunaráætlanir fyrir leyfi og fjarvistir
 description: Þú getur safnað orlofi og fjarveru í Dynamics 365 Human Resources fyrir marga starfsmenn eða einstakling.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba60fc2e5b17ec32aa6ad7eb104e8ae55ddee3bb
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 3048f9b6b52a150219067430abb54e5b5bf5c3e4
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092339"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197314"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Uppsöfnunaráætlanir fyrir leyfi og fjarvistir
 
@@ -35,7 +35,7 @@ ms.locfileid: "3092339"
 
 2. Undir **Stjórna leyfi**, veldu **Safna orlofs- og fjarveruáætlunum**.
 
-3. Í **Safna orlofs- og fjarveruáætlunum** glugga, í **Rennur upp frá og með**, veldu annaðhvort **Dagsetning dagsins** eða veldu **Sérsniðin dagsetning** og sláðu inn sérsniðna dagsetningu.
+3. Valmyndin **Uppsöfnunaráætlanir fyrir leyfi og fjarvistir** birtist. Í **Safna upp frá og með** velurðu annaðhvort **Dagurinn í dag** eða **Sérsniðin dagsetning** og slærð inn sérsniðna dagsetningu.
 
 4. Ef þú vilt keyra uppsöfnunarferlið í bakgrunni skaltu velja **Keyra í bakgrunni** og framkvæma eftirfarandi verk:
 
@@ -53,7 +53,7 @@ ms.locfileid: "3092339"
 
 2. Veldu **Uppsöfnunaráætlanir fyrir leyfi og fjarvistir**.
 
-3. Í **Safna orlofs- og fjarveruáætlunum** glugga, í **Rennur upp frá og með**, veldu annaðhvort **Dagsetning dagsins** eða veldu **Sérsniðin dagsetning** og sláðu inn sérsniðna dagsetningu.
+3. Valmyndin **Uppsöfnunaráætlanir fyrir leyfi og fjarvistir** birtist. Í **Safna upp frá og með** velurðu annaðhvort **Dagurinn í dag** eða **Sérsniðin dagsetning** og slærð inn sérsniðna dagsetningu.
 
 4. Ef þú vilt keyra uppsöfnunarferlið í bakgrunni skaltu velja **Keyra í bakgrunni** og framkvæma eftirfarandi verk:
 
@@ -65,15 +65,43 @@ ms.locfileid: "3092339"
 
    4. Veljið **Í lagi**. Uppsöfnunarferlið keyrir með breytunum sem þú stillir.
 
-## <a name="preview-features-for-leave-and-absence"></a>Forskoðaðu aðgerðir fyrir leyfi og fjarveru
+## <a name="delete-leave-and-absence-accruals-for-multiple-employees"></a>Eyða uppsöfnunum orlofs og fjarvista margra starfsmanna
 
-[!include [banner](includes/preview-feature-leave-absence.md)]
+Eyða rekstrarreikningum fyrir ákveðna áætlun og tímabil. Uppsöfnunardagsetningar verða að vera dagsettar í dag eða í framtíðinni.
 
-Þú getur gert eftirfarandi forskoðunaraðgerðir virkar fyrir leyfi og fjarveru:
+1. Á síðunni **Leyfi og fjarvera** velurðu flipann **Tenglar**.
 
-- **Eyða uppsöfnunum fyrir leyfi og fjarvistir**. Eyða rekstrarreikningum fyrir ákveðna áætlun og tímabil. Uppsöfnunardagsetningar verða að vera dagsettar í dag eða í framtíðinni.
+2. Undir **Stjórna leyfi**, veldu **Eyða uppsöfnunum á leyfis- og fjarvistaáætlunum**.
 
-- **Úttekt leyfisuppsöfnunar**. Sýnir í hvert skipti sem einhver rekur eða eyðir uppsöfnun fyrir einn eða alla starfsmenn, ásamt dagsetningunni og hver framkvæmdi aðgerðina.
+3. Í valmyndinni **Eyða uppsöfnunum á leyfis- og fjarvistaáætlunum** veldurðu **Leyfisáætlun**. 
+
+4. Ef við á skaltu velja **Eyða leiðréttingum á stöðum**.
+
+5. Sláðu inn eða veldu **Dagsetningu leyfisuppsöfnunar**. Þessi dagsetning verður að vera annaðhvort í dag eða í framtíðinni. 
+
+6. Veljið **Í lagi**. Uppsöfnunarferlið mun eyða uppsetningar með breytunum sem þú stillir. 
+
+## <a name="delete-leave-and-absence-accruals-for-a-single-employee"></a>Eyða uppsöfnunum orlofs og fjarvista eins starfsmanns
+
+1. Veldu á skrá starfsmannsins **Leyfi**.
+
+2. Veldu **Eyða uppsöfnunum fyrir leyfis- og fjarvistaáætlanir**.
+
+3. Í valmyndinni **Eyða uppsöfnunum á leyfis- og fjarvistaáætlunum** veldurðu **Leyfisáætlun**. 
+
+4. Ef við á skaltu velja **Eyða leiðréttingum á stöðum**.
+
+5. Sláðu inn eða veldu **Dagsetningu leyfisuppsöfnunar**. Þessi dagsetning verður að vera annaðhvort í dag eða í framtíðinni. 
+
+6. Veljið **Í lagi**. Uppsöfnunarferlið mun eyða uppsetningar með breytunum sem þú stillir. 
+
+## <a name="review-leave-accrual-and-deletion-processes"></a>Farið yfir uppsöfnunar- og eyðingarferli leyfis
+
+**Úttekt leyfisuppsöfnunar** birtist í hvert skipti sem þú keyrir eða eyðir uppsöfnun fyrir einn eða alla starfsmenn. Dagsetning og einstaklingur sem framkvæmdi aðgerðina eru einnig sýnd.
+
+1. Á síðunni **Leyfi og fjarvera** velurðu flipann **Tenglar**.
+
+2. Undir **Stjórna leyfi**, veldu **Eyða úttekt leyfisuppsöfnunar**.
 
 ## <a name="see-also"></a>Sjá einnig
 

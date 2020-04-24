@@ -3,7 +3,7 @@ title: Árslokalokun
 description: Þetta efnisatriði lýsir áskilinni uppsetningu og skrefum til að keyra lokun árslokaferlis fjárhags.
 author: kweekley
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3071365640eb6c012cb9af5461e885bb3f135143
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f5b81ed788536a8b81ca53d6b6f12200836b6f5
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175466"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259772"
 ---
 # <a name="year-end-close"></a>Árslokalokun
 
@@ -74,7 +74,7 @@ Flipinn **Fjárhagsvídd** er notaður til að skilgreina hvaða fjárhagslegar 
 Ferli árslokalokunar fylgja ekki lykilskipulagi. Þetta er vegna þess að lykilskipulag getur breyst á meðan fjárhagsári stendur og ekki er alltaf hægt að auðkenna viðkomandi lykilskipulag vegna þessara breytinga.  Þegar opnunarfærslur eru stofnaðar verða stöður teknar fram með fjárhagsvíddir eins og skilgreindar í sniðmáti árslokalokunar. Upphafsstöðufærslur gætu innihaldið fjárhagsvíddir sem eru ekki lengur í gildandi lykilskipulagi og hlutasamsetningar sem eru ekki lengur gild í núgildandi lykilskipulagi. Ef fyrirtækið vill útiloka fjárhagsvídd fyrir upphafsstöðu varðveitts tekjukóða skal stilla fjárhagsvídd á **Loka einni** og hafa víddargildin auð.
 
 ## <a name="run-the-year-end-close-process"></a>Keyra árslokalokunarferlið
-Eftir að sniðmát árslokalokunar eru stofnuð, er ferli árslokalokunar ræst með því að velja **Keyra fjárhagsár** í Aðgerðarúðunni. Veldu annaðhvort allt eða hlutmengi lögaðila úr sniðmátinu sem á að keyra árslokalokunina úr. Þegar árslokalokun er keyrð í fyrsta skipti á fjárhagsári muntu líklega velja alla lögaðila til að stofna upphafsstöður fyrir alla lögaðila. Ef árslokalokun er keyrð aftur má velja að keyra vinnslu fyrir aðeins þá lögaðila sem leiðréttingarfærslur voru bókaðar fyrir. 
+Eftir að sniðmát árslokalokunar eru stofnuð, er ferli árslokalokunar ræst með því að velja **Keyra fjárhagslokun** í Aðgerðarúðunni. Veldu annaðhvort allt eða hlutmengi lögaðila úr sniðmátinu sem á að keyra árslokalokunina úr. Þegar árslokalokun er keyrð í fyrsta skipti á fjárhagsári muntu líklega velja alla lögaðila til að stofna upphafsstöður fyrir alla lögaðila. Ef árslokalokun er keyrð aftur má velja að keyra vinnslu fyrir aðeins þá lögaðila sem leiðréttingarfærslur voru bókaðar fyrir. 
 
 Veldu fjárhagsár sem keyra á ferli árslokalokunar gegn. Ef fleiri en eitt lokunartímabil er til á síðasta tímabili fjárhagsársins, verður svæðið **Heiti tímabils** tiltækt svo að hægt sé að velja á hvaða lokunartímabil á að bóka lokunarfærsluna ef uppsetning er skilgreind til að stofna Lokunarfærslu. 
 

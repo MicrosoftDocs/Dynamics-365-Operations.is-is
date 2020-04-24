@@ -1,30 +1,30 @@
 ---
 title: Samþykkt og staðfesting innkaupapanta
 description: Þetta efnisatriði lýsir stöðum sem innkaupapöntunin fer í gegnum þegar hún hefur verið stofnuð og áhrif þess að virkja breytingastjórnun á innkaupapöntunum.
-author: FrankDahl
-manager: AnnBe
-ms.date: 06/20/2017
+author: mkirknel
+manager: tfehr
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: fdahl
+ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d0fc75f233ee2eab42317f835834ff24b6ada2f
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 6b331b7e7725b3dd284deb02e59fcf2d699822c4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813432"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207995"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Samþykkt og staðfesting innkaupapanta
 
@@ -69,9 +69,10 @@ Lánardrottinn gæti beðið um einhver trygging væri lögð fram fyrir greiðs
 
 Ef Innkaupapöntunin var stofnuð með því að nota ferli breytingastjórnunar, er hægt að gera breytingar með því að kalla aftur fram pöntun eða, ef pöntunin hefur þegar verið samþykkt, með því að nota **Breytingabeiðni** aðgerð. Í þessu tilfelli er samþykktarstaðan breytt aftur í **Drög**, og síðan er hægt að breyta pöntuninni. Eftir að lokið hefur verið við breytingarnar, gæti þurft að senda innkaupapöntunina til samþykktar aftur. Hægt er að skilgreina gerðir breytinga sem krefjast endursamþykktar með því að nota í **endursamþykktarregla fyrir innkaupapantanir** stefnureglu á **Innkaupareglur** síðuna.
 
-Ef hluti af pöntuðu magni fyrir línu Innkaupapöntunar hefur verið afhentu, er ekki hægt að breyta pantaða magninu. Hins vegar er hægt að breyta **Eftirstöðvar afhendingar** magninu á línunni. Síðan er hægt að nota **Ljúka** aðgerð til að hætta við línur og koma í veg fyrir frekari vinnslu. 
+Ef hluti af pöntuðu magni fyrir línu Innkaupapöntunar hefur verið afhentu, er ekki hægt að breyta pantaða magninu þegar innkaupapöntunin er **Drög**. Hins vegar getur þú breytt magninu **Eftirstöðvar afhendingar** á línunni fyrir innkaupapöntunina sem er í stöðunni **Drög**.
 
-Eftir að pöntun hefur verið staðfest getur þú ekki lengur eytt henni. Hins vegar er hægt að hætta við heildarmagn eða eftirstöðvum magns í pöntun, svo lengi sem ekki hefur verið móttekið magnið eða reikningsfært magnið.
+Eftir að pöntun hefur verið staðfest getur þú ekki lengur eytt henni. Hins vegar er hægt að hætta við heildarmagn eða eftirstöðvum magns í pöntun, svo lengi sem ekki hefur verið móttekið magnið eða reikningsfært magnið. Síðan er hægt að nota **Ljúka** aðgerð til að koma í veg fyrir frekari vinnslu. 
+
 
 ## <a name="canceling-purchase-orders"></a>Hætt við innkaupapantanir
 

@@ -3,7 +3,7 @@ title: Rafræn skýrsla ítarlegur ritill fyrir formúlu
 description: Þetta efni lýsir því hvernig hægt er að nota háþróaða formúluritilinn til að stilla segðir í líkanavörpun rafrænnar skýrslugerðar (ER) og sniðhlutum.
 author: NickSelin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: df402bc20753d2ba14295592f4b40e20f9fdc7bf
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: d9911c858d6832aa70378d37e0fd5cf7d7831b1b
+ms.sourcegitcommit: dce8c5d3b2fc4a752d676cf9ba91e0dea2fa80d8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138899"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "3257062"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Rafræn skýrsla ítarlegur ritill fyrir formúlu
 
@@ -156,6 +156,16 @@ Eins og er eru mismunandi litir notaðir til að varpa ljósi á eftirfarandi hl
 - Textinn í tvöföldum sviga sem getur táknað merkimiða kennis textafasta.
 
 [![ER-formúluritill](./media/ER-AdvEditor-SyntaxColorization.png)](./media/ER-AdvEditor-SyntaxColorization.png)
+
+## <a name="limitations"></a>Takmarkanir
+
+Ritillinn er nú studdur í eftirfarandi vöfrum:
+
+- Chrome
+- Edge
+- Firefox
+- Opera
+- Safari
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

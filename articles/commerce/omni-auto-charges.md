@@ -3,7 +3,7 @@ title: Ítarleg sjálfvirk gjöld fyrir omni-rás
 description: Þetta efnisatriði lýsir möguleikunum til að stjórna gjaldfærslum vegna pantana fyrir pantanir Commerce-rásar með því að nota eiginleika fyrir ítarleg sjálfvirk gjöld.
 author: hhaines
 manager: annbe
-ms.date: 03/08/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: fd02a81f35b40e5075ccfe5c9a617d7de4e8250d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 826c955b7c99073ff41c8a5ed75254c824359925
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022973"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175155"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Ítarleg sjálfvirk gjöld fyrir omni-rás
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði veitir upplýsingar um stillingar og uppsetningu á eiginleika ítarlegra sjálfvirkra gjalda sem eru í boði í Dynamics 365 for Retail útgáfu 10.0.
+Þetta efnisatriði veitir upplýsingar um stillingar og uppsetningu á eiginleikum ítarlegra sjálfvirkra gjalda sem eru í boði í Dynamics 365 for Retail útgáfu 10.0.
 
 Þegar eiginleikinn fyrir ítarlega sjálfvirk gjöld er virkjaður geta pantanir, sem eru stofnaðar í hvaða studdu Commerce-rás sem er (sölustaður (POS), símaver og á netinu), nýtt sér stillingarnar [sjálfvirk gjöld](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) sem eru skilgreind í ERP-forritinu fyrir gjöld sem tengjast bæði haus og línustigi.
 
@@ -77,7 +77,7 @@ Mikilvægt er að hafa í huga að einnig sé hægt að bæta við ofangreindum 
 
 #### <a name="use-case-scenario"></a>Atburðarás notkunar
 
-Smásali vill bæta gjöldum við sjálfvirkt fyrir farm þegar færslur eru stofnaðar í Commerce-rás sem krefst sendingar á afurðum til viðskiptavinar. Smásali býður upp á tvo afhendingarmáta: land og flug. Ef viðskiptavinur kýs afhendingu á landi og virði pöntunar er minna en $100 vill smásalinn rukka viðskiptavininn um farmgjald sem nemur $10.00. Ef virði pöntunar er yfir $100 og viðskiptavinurinn velur flutning á landi, verður hann ekki rukkaður um nein aukaleg farmgjöld. Ef viðskiptavinurinn velur flugið sem afhendingarmáta fyrir allar pantanir, verður hann rukkaður um farmgjald sem nemur $20.00, óháð heildarvirði pöntunar.
+Smásali vill bæta gjöldum við sjálfvirkt fyrir farm þegar færslur eru stofnaðar í Commerce-rás sem krefst sendingar á afurðum til viðskiptavinar. Smásali býður upp á tvo afhendingarmáta: Land og flug. Ef viðskiptavinur kýs afhendingu á landi og virði pöntunar er minna en $100 vill smásalinn rukka viðskiptavininn um farmgjald sem nemur $10.00. Ef virði pöntunar er yfir $100 og viðskiptavinurinn velur flutning á landi, verður hann ekki rukkaður um nein aukaleg farmgjöld. Ef viðskiptavinurinn velur flugið sem afhendingarmáta fyrir allar pantanir, verður hann rukkaður um farmgjald sem nemur $20.00, óháð heildarvirði pöntunar.
 
 #### <a name="setup-and-configuration"></a>Uppsetning og skilgreining
 
@@ -157,7 +157,7 @@ Hægt er að nota þetta ferli símaverinu með því að nota núverandi eiginl
 
 #### <a name="use-case-scenario"></a>Atburðarás notkunar
 
-Viðskiptavinur hefur óskað eftir því að 2 af 5 vörum í sölupöntuninni hans verði pakkaðar inn í gjafapappír. Söluaðilinn býður upp á þessa þjónustu gegn gjaldi sem nemur $2,00 á vöru. Viðtakandi pöntunar verður að bæta þessum gjöldum við tilgreindar vörur sem þarf að pakka inn í gjafapappír.
+Viðskiptavinur hefur óskað eftir því að tvær af fimm vörum í sölupöntuninni hans verði pakkaðar inn í gjafapappír. Söluaðilinn býður upp á þessa þjónustu gegn gjaldi sem nemur $2,00 á vöru. Viðtakandi pöntunar verður að bæta þessum gjöldum við tilgreindar vörur sem þarf að pakka inn í gjafapappír.
 
 #### <a name="setup-and-configuration"></a>Uppsetning og skilgreining
 
@@ -215,3 +215,10 @@ Sum fyrirtæki kunna að vilja bíða þar til notandinn hefur lokið við að b
 ### <a name="charges-override-reports"></a>Skýrslur vegna hnekkingar gjalda
 
 Ef notendur handvirkt hunsa reiknuð gjöld eða bæta gjaldi handvirkt við færsluna, verða þessi gögn tiltæk til endurskoðunar í skýrslunni **Ferill fyrir hnekkingu gjalda**. Skýrsluna er hægt að skoða úr **Retail og Commerce \> Fyrirspurnir og skýrslur \> Ferill fyrir hnekkingu gjalda**. Mikilvægt er að hafa í huga að gögnin sem eru nauðsynleg fyrir þessa skýrslu eru flutt frá gagnagrunni rásar inn í höfuðstöðvar í gegnum „P“ vinnslur dreifingaráætlunar. Þess vegna er ekki hægt að fá upplýsingar um hnekkingar sem hafa nýlega verið gerðar í POS í þessari skýrslu fyrr en þessi vinnsla hefur hlaðið upp færslugögnum verslunar í höfuðstöðvar.
+
+## <a name="additional-resources"></a>Frekari upplýsingar
+
+[Kveikja á og grunnstilla sjálfvirk gjöld eftir rás](auto-charges-by-channel.md)
+
+[Skipta gjöldum í haus í hlutfalli við samsvarandi sölulínur](pro-rate-charges-matching-lines.md)
+

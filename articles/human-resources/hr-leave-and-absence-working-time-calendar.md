@@ -3,7 +3,7 @@ title: Búa til dagatal fyrir vinnutíma
 description: Tilgreindu vinnutímadagatal, frídaga og vinnutíma í Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 641f66c75875cfba51af3753223a070d7cb7dc50
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: dc209b62836011b18362f78b63cdd3fcda884dc3
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009449"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198028"
 ---
 # <a name="create-a-working-time-calendar"></a>Búa til dagatal fyrir vinnutíma
 
@@ -68,10 +68,6 @@ Settu upp að minnsta kosti eitt vinnutímadagatal sem sýnir daga og vinnutíma
 1. Á síðunni **Fyrirtækisstjórnun** skal velja **Tími án vinnu**.
 
 2. Veldu **Nýtt** og sláðu inn heiti og tímabil fyrir tíma án vinnu.
-
-## <a name="leave-and-absence-preview-feature"></a>Forskoðunareiginleiki leyfis og fjarveru
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
 
 Ef þú hefur gert kleift að forskoða eiginleikann Leyfi og fjarvistir vegna orlofsréttinda, notar Human Resources frídaga og lokunardagsetningar til að ákvarða fjölda daga til að aðlaga fyrir starfsmenn sem skráðir eru í dagatalið.
 

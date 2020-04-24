@@ -2,7 +2,7 @@
 title: Dagatöl og aðaláætlanagerð
 description: Þetta efnisatriði veitir yfirlit yfir aðfangakeðjudagatöl og hvernig þau hafa áhrif á aðaláætlanagerð.
 author: t-benebo
-manager: AnnBe
+manager: tfehr
 ms.date: 05/08/2019
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ca473de65135ddddea12ddc72e902056cc7b1db7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d542c52623c1b3c0aa4b23159d56791cdc981f48
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845295"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213493"
 ---
 # <a name="calendars-and-master-planning"></a>Dagatöl og aðaláætlanagerð
 

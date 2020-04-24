@@ -3,7 +3,7 @@ title: Búa til hópdagatal
 description: Skoða og stofna hópsdagatöl í Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,26 +18,32 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 22350e0a9da593d52278090dde298923d490cb8c
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 71637a659b26ea6912da993f1e899e33f7082512
+ms.sourcegitcommit: 9940ca772807d3c4e1ff3bf47f45b7251c4469ac
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009403"
+ms.lasthandoff: 04/04/2020
+ms.locfileid: "3226208"
 ---
 # <a name="view-team-and-company-calendars"></a>Skoða dagbækur hóps og fyrirtækis
 
 [!include [banner](includes/preview-feature.md)]
 
-Hægt er að skoða dagbækur hóps og fyrirtækis í Dynamics 365 Human Resources.
+Hægt er að skoða dagbækur hóps og fyrirtækis í Dynamics 365 Human Resources. Dagatöl hópa sýnir aðeins beinar skýrslur eins og skilgreint er í línustigveldinu.
 
-## <a name="view-your-team-calendar"></a>Skoða dagatal hópsins
-
-Stjórnendur geta skoðað dagatöl hópa. Dagatöl hópa sýnir aðeins beinar skýrslur eins og skilgreint er í línustigveldinu.
+## <a name="view-your-team-calendar-as-an-employee"></a>Skoðaðu dagatal hópsins sem starfsmaður
 
 1. Á vinnusvæðinu **Sjálfsafgreiðsla starfsmanna** velurðu **Hópurinn minn**.
 
 2. Veldu **Leyfi og fjarvera** og veldu síðan **Skoða dagatal hópsins**.
+
+## <a name="view-your-team-calendar-as-a-manager"></a>Skoðaðu dagatal hópsins sem stjórnandi
+
+1. Á vinnusvæðinu **Sjálfsafgreiðsla starfsmanna** velurðu **Hópurinn minn**.
+
+2. Veldu **Leyfi og fjarvera** og veldu síðan **Skoða dagatal hópsins**.
+
+Stjórnendur geta einnig nálgast dagatal hópsins úr **Beiðnir um frí í bið vegna hóps míns**, **Samþykkt frí**, og **Beiðnir um frí**. 
 
 ## <a name="view-a-company-calendar"></a>Skoða dagatal fyrirtækisins
 
@@ -47,5 +53,7 @@ Fólk sem er í starfsmannahlutverki getur skoðað dagatal fyrirtækja. Dagatö
 
 2. Veldu **Orlof og fjarvistardagatal**.
 
-Sjá upplýsingar um dagbókarstillingar [Stilla dagatal breytur](hr-leave-and-absence-parameters.md?configure-calendar-parameters)
+Hlutverk Human resources geta einnig farið í dagatal fyrirtækisins úr **Beiðnir um leyfi og fjarvistir**, **Samþykkt frí** og **Beiðnir um frí**. 
+
+Fyrir upplýsingar um stillingar dagatals, sjá [Skilgreina færibreytur dagatals](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 

@@ -3,7 +3,7 @@ title: Búa til leyfis- og fjarvistaáætlun
 description: Búðu til orlofstímabil í Dynamics 365 Human Resources fyrir mismunandi tegundir orlofs.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ed7a47068c451cd3ffaa26ee709599373858721b
-ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
+ms.openlocfilehash: 532d9b276692858c77e4de41018775e9520f1882
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087301"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197360"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Búa til leyfis- og fjarvistaáætlun
 
@@ -42,6 +42,11 @@ Til dæmis, með skipulagðri áætlun, geturðu veitt nýjum starfsmönnum 80 t
 1. Á síðunni **Áætlanir leyfis og fjarvista** skal velja **Stofna nýja áætlun**.
 
 2. Undir **Upplýsingar**, sláðu inn **Nafn**, **Upphafsdagur**, **Lýsing**, og **Skildu eftir tegund** fyrir áætlun þína.
+
+Ef aðgerðin **Stilla margar leyfisgerðir fyrir eina orlofs- og fjarveruáætlun** er virkjuð eru leyfisgerðir stilltar í **Uppsöfnunaráætlun** í stað undir **Upplýsingar**. Fyrir hverja færslu í uppsöfnunartöflu töflunni er hægt að skilgreina leyfisgerð.
+
+ > [!IMPORTANT]
+   > Eftir að þessi eiginleiki hefur verið virkjaður er ekki hægt að slökkva á honum.
 
 3. Skilgreina uppsafnanir í **Uppsagnir** flipann. Uppsöfnun ákvarðar hvenær og hversu oft starfsmanni er veittur frí. Í þessu skrefi skilgreinir þú stefnu um það hvenær verðlaunin eiga að fá úthlutun og stefnu um hagnað orlofsuppbótar.
 
@@ -95,8 +100,8 @@ Til dæmis, með skipulagðri áætlun, geturðu veitt nýjum starfsmönnum 80 t
    Hægt er að stofna lög til að veita frítíma á grunni mismunandi stiga.
 
    Ef þú ert með starfsmenn í tímavinnu er hægt að veita frí sem byggist á vinnustundum í stað ráðningartíma hjá fyrirtækinu. Upplýsingar um vinnustundir eru venjulega geymdar tíma- og viðverukerfi. Þú getur flutt inn venjulega og yfirvinnutíma sem unnið er úr tíma- og mætingarkerfinu og notað þær sem grunn fyrir verðlaun starfsmanns.
-
-   1. Veldu valkost úr **Uppsöfnunargerð** fellilisti:
+   
+    1. Veldu valkost úr **Uppsöfnunargerð** fellilisti:
 
       - **Mánaðarlega þjónusta** - Byggðu uppsöfnunaráætlunina á mánaða þjónustu.
 
@@ -117,6 +122,13 @@ Til dæmis, með skipulagðri áætlun, geturðu veitt nýjum starfsmönnum 80 t
       - **Hámarksyfirfærsla** - Uppsöfnunarferlið mun jafna stöðu leyfa sem fara yfir stöðu hámarksyfirfærslu á árlegri upphafsdagsetningu.
 
       - **Styrksupphæð** - Upprunalegur fjöldi vinnustunda eða daga sem starfsmenn fá þegar þeir skrá sig í fyrsta sinn í leyfisáætlunina. Upphæðin safnast ekki upp fyrir hvert uppsöfnunartímabil.
+      
+Ef aðgerðin **Stilla margar leyfisgerðir fyrir eina orlofs- og fjarveruáætlun** er virkjuð velurðu valkost úr **Leyfisgerð**. 
+
+   > [!IMPORTANT]
+   > Eftir að þessi eiginleiki hefur verið virkjaður er ekki hægt að slökkva á honum.
+
+Ef eiginleikinn **Nota fullt stöðugildi** er virkur notar Human Resources fullt stöðugildi (FTE) sem er skilgreint fyrir stöðuna til að hlutfallsskipta uppsöfnun starfsmanns. Til dæmis, ef FTE er .5 og uppsöfnunarfjárhæðin er 10, þá mun starfsmaðurinn safna 5. Þú getur aðeins notað þennan möguleika ef þú gerir kleift að nota margar leyfisgerðir.  
 
 5. Veljið **Vista**.
 
@@ -357,19 +369,6 @@ Spáð staða (30) = Uppsöfnunarupphæð (10 x 1) + Núgildandi staða (40) –
 |---------------------|-------------------|-----------------|------------|----------------|-----------------|---------|
 | Jeannette Nicholson | 0,00              | 6/1/2018        | 6/1/2018   | 1,00           | 9/1/2018        | 3.00    |
 | Jay Norman          | 0,00              | 6/15/2018       | 6/15/2018  | 1.00           | 9/1/2018        | 2.00    |
-
-## <a name="configure-preview-features"></a>Stilla forskoðunareiginleika
-
-Ef þú hefur gert forskoðunareiginleika virka fyrir leyfi og fjarveru þarftu líka að stilla stillingar fyrir þá.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-1. **Forskoðunaraðgerð: Stilla margar orlofstegundir fyrir eina orlofs- og fjarveruáætlun**. Fyrir hverja færslu í uppsöfnunartöflu töflunni er hægt að skilgreina leyfisgerð.
-
-   > [!IMPORTANT]
-   > Eftir að þessi eiginleiki hefur verið virkjaður er ekki hægt að slökkva á honum.
-
-2. **Forskoðunaraðgerð: Notaðu stöðugildi**. Ef þú kveikir á þessari forsýningaraðgerð notar Human Resources stöðugildi (FTE) sem er skilgreint fyrir stöðuna til að pródata uppsögn starfsmanns. Til dæmis, ef FTE er .5 og uppsöfnunarfjárhæðin er 10, þá mun starfsmaðurinn safna 5. Þú getur aðeins notað þennan möguleika ef þú gerir kleift að nota margar leyfisgerðir.
 
 ## <a name="see-also"></a>Sjá einnig
 

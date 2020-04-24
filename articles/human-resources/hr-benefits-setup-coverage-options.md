@@ -1,9 +1,9 @@
 ---
 title: Stofna tryggingarvalkosti
-description: Umfjöllunarvalkostir í Microsoft Dynamics 365 Human Resources eru umfjöllunarstig vegna kosninga þátttakenda í bótakerfi eða áætlun, svo sem eingöngu starfsmaður vegna læknisáætlunar, eða 2x laun fyrir líftryggingaráætlun.
+description: Umfjöllunarvalkostir í Microsoft Dynamics 365 Human Resources eru umfjöllunarstig fyrir kosningu þátttakenda í bótakerfi eða áætlun.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0af2b6ae0853b4c7f64c4d4f04299c87089d622b
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 021fea7604af2fff833ddc6868d55a316ef70aae
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092707"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230178"
 ---
 # <a name="create-coverage-options"></a>Stofna tryggingarvalkosti
 
-[!include [banner](includes/preview-feature.md)]
+Umfjöllunarvalkostir í Microsoft Dynamics 365 Human Resources eru umfjöllunarstig fyrir kosningu þátttakenda í bótakerfi eða áætlun. Til dæmis gætu umfjöllunarkostirnir falið í sér **Aðeins starfsmaður** vegna læknisáætlunar, eða **2x laun** vegna líftryggingaráætlunar. Þegar það er skilgreint geturðu notað valkosti um umfjöllun um fríðindi. Þú getur tengt valkost við eina eða fleiri áætlanir.
 
-Umfjöllunarvalkostir í Microsoft Dynamics 365 Human Resources eru umfjöllunarstig vegna kosninga þátttakenda í bótakerfi eða áætlun, svo sem eingöngu starfsmaður vegna læknisáætlunar, eða 2x laun fyrir líftryggingaráætlun. Þegar þeir eru skilgreindir eru möguleikar á umfjöllun um ávinning endurnotanlegir og þú getur tengt valkost við eitt eða fleiri áætlanir.
-
-Þegar umfjöllunarvalkostirnir eru skilgreindir skaltu hengja umfjöllunarvalkostina við gerð bótaáætlunar. Áætlunartegundin er síðan tengd fríðindaáætlun eða áætlun. Umfjöllunarvalkostir sem tengjast áætlunartegundum verða tiltækir öllum áætlunum sem eru búnar til með þeirri áætlunartegund. 
+Þegar þú hefur skilgreint umfjöllunarvalkostina skaltu hengja þá við gerð bótaáætlunar. Áætlunartegundin er síðan tengd fríðindaáætlun eða áætlun. Umfjöllunarvalkostir sem tengjast áætlunartegundum eru tiltækir öllum áætlunum sem eru búnar til með þeirri áætlunartegund. 
 
 1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Skipulag**, veldu **Tryggingarvalkostir**.
 

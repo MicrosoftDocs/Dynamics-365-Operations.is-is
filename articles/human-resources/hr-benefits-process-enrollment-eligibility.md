@@ -3,7 +3,7 @@ title: Vinna úr fríðindahæfni
 description: Þessi grein útskýrir hvernig á að keyra hæfisferlið fyrir innritun.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0344c48460a7d1540481e09ba106526e119de72b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 1d978982213e713e362798c49aa57e6dc8b7a862
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009357"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230017"
 ---
 # <a name="process-enrollment-eligibility"></a>Vinna úr fríðindahæfni
-
-[!include [banner](includes/preview-feature.md)]
 
 Þessi grein útskýrir hvernig á að keyra hæfisferlið fyrir innritun.
 
@@ -37,10 +35,10 @@ ms.locfileid: "3009357"
 
    | Svæði | Lýsing |
    | --- | --- |
-   | Skráningartímabil | Innritunartímabilið til að vinna úr hæfi innritunar. |
-   | Lögaðili | Lögaðilinn til að vinna úr hæfi innritunar fyrir. |
-   | Starfskraftur | Starfskrafturinn til að vinna úr hæfi innritunar fyrir. Ef þú skilur þennan reit eftir auðan verður vinnufærni allra starfsmanna afgreidd. |
-   | Fríðindaáætlun | Fríðindaáætlun til að vinna úr hæfi innritunar fyrir.
+   | **Skráningartímabil** | Innritunartímabilið til að vinna úr hæfi innritunar. |
+   | **Lögaðili** | Lögaðilinn til að vinna úr hæfi innritunar fyrir. |
+   | **Starfskraftur** | Starfskrafturinn til að vinna úr hæfi innritunar fyrir. Ef þú skilur þennan reit eftir auðan verður vinnufærni allra starfsmanna afgreidd. |
+   | **Fríðindaáætlun** | Fríðindaáætlun til að vinna úr hæfi innritunar fyrir.
 
 3. Ef þú vilt keyra ferlið í bakgrunni skaltu velja **Keyra í bakgrunni** og framkvæma eftirfarandi verk:
 
@@ -53,3 +51,24 @@ ms.locfileid: "3009357"
    4. Veljið **Í lagi**. Ferlið keyrir með breytunum sem þú stillir.
 
 4. Veljið **Í lagi**.
+
+## <a name="view-process-results"></a>Skoða niðurstöður vinnslu
+
+Þessi grein útskýrir hvernig á að skoða niðurstöður vinnslu.
+
+1.  Í vinnusvæðinu **Fríðindastjórnun**, undir **Í vinnslu**, veldu **Niðurstöður vinnslu**.
+
+2.  Í forminu **Afgreiða niðurstöður** eru eftirfarandi reitir tilgreindir:
+
+   | Svæði | lýsing |
+   | --- | --- |
+   | **Vinnslukenni** | Einstakt auðkenni fyrir samsetningu starfsmanns, lögaðila og vinnslu keyrslu. |
+   | **Gerð ferlis** | Þetta greinir ferlið sem var keyrt. Til dæmis:  Skráning. |
+   | **Tímastilling** | Tíminn sem hæfisferlið var keyrt. |
+   | **Lögaðili** | Lögaðilinn sem er tilgreindur við innritunarferlið. |
+   | **Starfsmaður** | Starfsmaðurinn sem var unninn. |
+   | **Fyrirkomulag | Fríðindaátlunin sem reynt var að taka þátt í. |
+   | **Hæfnisregla** | Hæfisreglan sem var afgreidd. Ef villa kom upp áður en hæfni var keyrð verður þetta tómt. Til dæmis: Ef ekki hafa verið skilgreindar bætur fyrir starfsmann mun hæfisferlið ekki keyra og þessi reitur verður skilinn auður. |
+   | **Niðurstöður** | Þetta verður gjaldgeng eða óhæfur. Niðurstaðan verður óhæf ef starfsmaðurinn uppfyllti ekki skilyrði fyrir hæfisreglu, ef starfsmanninn vantar nauðsynlegar upplýsingar, svo sem launatíðni eða fastar bætur, eða ef það vantar upplýsingar í bótakerfið sem kemur í veg fyrir að starfsmenn séu skráðir. |
+   | **Niðurstöðuskilaboð** | Gefur til kynna hvers vegna starfsmaður er óhæfur til fríðindaáætlunar eða ef hæfisreglan var samþykkt. |
+

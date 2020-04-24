@@ -3,7 +3,7 @@ title: Búa til fríðindaáætlun
 description: Uppsetning fríðindaáætlana í Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 97c3acf1294b7a8c2496f23a32918152f50a9e5e
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 6e3822a1071023898e459a82c14ff648d8cdebed
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009426"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230109"
 ---
 # <a name="create-a-benefits-plan"></a>Búa til fríðindaáætlun
-
-[!include [banner](includes/preview-feature.md)]
 
 Þessi grein sýnir þér hvernig á að setja upp fríðindaáætlun í Dynamics 365 Human Resources.
 
@@ -39,16 +37,16 @@ ms.locfileid: "3009426"
 
    | Svæði | Lýsing |
    | --- | --- |
-   | Fyrirkomulag | Einkvæmt auðkenni fyrir áætlunina. |
-   | Lýsing | Lýsing á áætluninni. |
-   | Gerð áætlunar | Þegar þú býrð til nýja áætlun þarftu að tilgreina gerð áætlunarinnar. Áætlun gerð er há stigi flokkun á tilteknum tegundum af fríðindum. Hver áætlunartegund tilgreinir hvort starfsmaður geti skráð sig í margar áætlanir af þeirri gerð, tilgreinir hvort tengiliðir séu styrkþegar eða á framfæri og skilgreini umfjöllunarvalkosti. Þú getur búið til nýjar sérsniðnar áætlunartegundir til að uppfylla þarfir á fríðindatilboðum þínum. Helstu tegundir fríðindaáætlana eru: <ul><li>401K</li><li>ADD</li><li>Tannlæknaþjónusta</li><li>Líkamsrækt</li><li>FSA</li><li>Viðburður</li><li>LTD</li><li>Heilsufar</li><li>PTO</li><li>STD</li><li>Sýn</li></ul> |
-   | Gerð kóða áætlunargerðar | Kóði áætlunartegundar áætlunartegundarinnar. |
-   | Áætlun | Tilgreinir forrit til að tengja áætlunina mögulega. |
-   | Búnt | Tilgreinir búnt til að tengja áætlunina mögulega. |
-   | Næstefsta stig | Tilgreinir hvort áætlunin sem aðaláætlunin í búntinu sem hún tilheyrir. |
-   | Staða | Tilgreinir gildandi stöðu á fríðindaáætlunar. Sjálfgildið er Virkt. Ef þú breytir stöðunni í Óvirk er áætlunin ekki tiltæk sem val við innritun. |
-   | Gildir frá dagsetningu og tíma | Lokadagsetning og tími þegar áætlunin hefst. Sjálfgefið gildi er núverandi kerfisdagsetning. |
-   | Gildir til dagsetningu og tíma | Dagsetningin og tíminn sem áætluninni lýkur (staðan er stillt á Óvirk). Sjálfgefið gildi er 12/31/2154, sem táknar aldrei. |
+   | **Fyrirkomulag** | Einkvæmt auðkenni fyrir áætlunina. |
+   | **Lýsing** | Lýsing á áætluninni. |
+   | **Gerð áætlunar** | Þegar þú býrð til nýja áætlun þarftu að tilgreina gerð áætlunarinnar. Áætlun gerð er há stigi flokkun á tilteknum tegundum af fríðindum. Hver áætlunartegund tilgreinir hvort starfsmaður geti skráð sig í margar áætlanir af þeirri gerð, tilgreinir hvort tengiliðir séu styrkþegar eða á framfæri og skilgreini umfjöllunarvalkosti. Þú getur búið til nýjar sérsniðnar áætlunartegundir til að uppfylla þarfir á fríðindatilboðum þínum. Helstu tegundir fríðindaáætlana eru: <ul><li>401K</li><li>ADD</li><li>Tannlæknaþjónusta</li><li>Líkamsrækt</li><li>FSA</li><li>Viðburður</li><li>LTD</li><li>Heilsufar</li><li>PTO</li><li>STD</li><li>Sýn</li></ul> |
+   | **Gerð kóða áætlunargerðar** | Kóði áætlunartegundar áætlunartegundarinnar. |
+   | **Áætlun** | Tilgreinir forrit til að tengja áætlunina mögulega. |
+   | **Búnt** | Tilgreinir búnt til að tengja áætlunina mögulega. |
+   | **Næstefsta stig** | Tilgreinir hvort áætlunin sem aðaláætlunin í búntinu sem hún tilheyrir. |
+   | **Staða** | Tilgreinir gildandi stöðu á fríðindaáætlunar. Sjálfgildið er Virkt. Ef þú breytir stöðunni í Óvirk er áætlunin ekki tiltæk sem val við innritun. |
+   | **Gildir frá dagsetningu og tíma** | Lokadagsetning og tími þegar áætlunin hefst. Sjálfgefið gildi er núverandi kerfisdagsetning. |
+   | **Gildir til dagsetningu og tíma** | Dagsetningin og tíminn sem áætluninni lýkur (staðan er stillt á Óvirk). Sjálfgefið gildi er 12/31/2154, sem táknar aldrei. |
 
 4. Á **Stillingar** flipann, tilgreindu gildi fyrir eftirfarandi reiti, allt eftir gerð áætlunarinnar sem þú ert að búa til:
 
@@ -77,42 +75,42 @@ ms.locfileid: "3009426"
 
    | Svæði | Lýsing |
    | --- | --- |
-   | Leyfa/halda við skráningu | Tilgreinir hvort starfsmenn geti skráð sig í áætlunina ef þeir uppfylla hæfiskröfur.</br></br>Ef þetta er stillt á Nei verður áætlunin ekki tiltæk starfsmönnum þegar þú afgreiðir hæfi. |
-   | Sjálfvirk skráning frá fyrra ári | Tilgreinir hvort skrá skuli skrá hæfan starfsmann sjálfkrafa í áætlunina ef hann var skráður árið á undan. |
-   | Sjálfgefin, sjálfvirk skráning | Tilgreinir hvort sjálfkrafa eigi að velja áætlunina fyrir innritun. Áætlunin er ekki skylda, þannig að starfsmaðurinn getur breytt sjálfgefnu valinu. |
-   | Lokað er fyrir nýskráningar | Tilgreinir hvort takmarka eigi áætlunina við aðeins hæfa starfsmenn sem voru skráðir í áætlunina árið áður. |
-   | Áskilin áætlun | Tilgreinir hvort skrái eigi starfsmenn sjálfkrafa í áætlunina. Starfsmenn geta ekki breytt skráningarvalinu. |
-   | Stofndagur | Dagsetningin sem áætlunin var búin til í fyrirtækinu. |
-   | Söluaðilareikningur (fríðindabirgir) | Söluaðilinn sem fyrirtækið greiðir iðgjöld fyrir áætlunina. |
-   | Heiti (fríðindabirgir) | Nafn lánardrottins. |
-   | Söluaðilatilvísun (fríðindabirgir) | Tilvísun seljanda vegna áætlunarinnar. Til dæmis hópáætlunarnúmer fyrirtækisins. |
-   | Önnur tilvísun (fríðindabirgir) | Önnur tilvísun seljanda vegna áætlunarinnar. Til dæmis reikningsnúmer fyrirtækisins. |
-   | Gjaldmiðill (fríðindabirgir) | Gjaldmiðillinn sem er notaður til að greiða iðgjöld til birgjans. |
-   | Kostnaðarreikningur (fríðindabirgir) | Almennur reikningur sem notaður er sem kostnaðareikningur vegna iðgjalda. |
-   | Söluaðilareikningur (fríðindastjórnandi) | Söluaðilinn sem fyrirtækið greiðir til að stjórna áætluninni. Ef áætlunin er sjálfsstýrð, skyldu svæðið eftir autt. |
-   | Nafn (fríðindastjórnandi) | Nafn lánardrottins fríðindastjórnanda. |
-   | Söluaðilatilvísun (fríðindastjórnandi) | Tilvísun stjórnandalánardrottins vegna áætlunarinnar. |
-   | Önnur tilvísun (fríðindastjórnandi) | Önnur tilvísun stjórnandalánardrottins vegna áætlunarinnar. |
-   | Gjaldmiðill (fríðindastjórnandi) | Gjaldmiðillinn sem er notaður til að greiða fríðindastjórnanda. |
-   | Kostnaðarreikningur (fríðindastjórnandi) | Almennur reikningur sem er notaður sem kostnaðareikningur fyrir kostnað sem fylgir stjórnun áætlunarinnar. |
+   | **Leyfa/halda við skráningu** | Tilgreinir hvort starfsmenn geti skráð sig í áætlunina ef þeir uppfylla hæfiskröfur.</br></br>Ef þetta er stillt á Nei verður áætlunin ekki tiltæk starfsmönnum þegar þú afgreiðir hæfi. |
+   | **Sjálfvirk skráning frá fyrra ári** | Tilgreinir hvort skrá skuli skrá hæfan starfsmann sjálfkrafa í áætlunina ef hann var skráður árið á undan. |
+   | **Sjálfgefin, sjálfvirk skráning** | Tilgreinir hvort sjálfkrafa eigi að velja áætlunina fyrir innritun. Áætlunin er ekki skylda, þannig að starfsmaðurinn getur breytt sjálfgefnu valinu. |
+   | **Lokað er fyrir nýskráningar** | Tilgreinir hvort takmarka eigi áætlunina við aðeins hæfa starfsmenn sem voru skráðir í áætlunina árið áður. |
+   | **Áskilin áætlun** | Tilgreinir hvort skrái eigi starfsmenn sjálfkrafa í áætlunina. Starfsmenn geta ekki breytt skráningarvalinu. |
+   | **Stofndagur** | Dagsetningin sem áætlunin var búin til í fyrirtækinu. |
+   | **Söluaðilareikningur** (fríðindabirgir) | Söluaðilinn sem fyrirtækið greiðir iðgjöld fyrir áætlunina. |
+   | **Heiti** (fríðindabirgir) | Nafn lánardrottins. |
+   | **Söluaðilatilvísun** (fríðindabirgir) | Tilvísun seljanda vegna áætlunarinnar. Til dæmis hópáætlunarnúmer fyrirtækisins. |
+   | **Önnur tilvísun** (fríðindabirgir) | Önnur tilvísun seljanda vegna áætlunarinnar. Til dæmis reikningsnúmer fyrirtækisins. |
+   | **Gjaldmiðill** (fríðindabirgir) | Gjaldmiðillinn sem er notaður til að greiða iðgjöld til birgjans. |
+   | **Kostnaðarreikningur** (fríðindabirgir) | Almennur reikningur sem notaður er sem kostnaðareikningur vegna iðgjalda. |
+   | **Söluaðilareikningur** (fríðindastjórnandi) | Söluaðilinn sem fyrirtækið greiðir til að stjórna áætluninni. Ef áætlunin er sjálfsstýrð, skyldu svæðið eftir autt. |
+   | **Nafn** (fríðindastjórnandi) | Nafn lánardrottins fríðindastjórnanda. |
+   | **Söluaðilatilvísun** (fríðindastjórnandi) | Tilvísun stjórnandalánardrottins vegna áætlunarinnar. |
+   | **Önnur tilvísun** (fríðindastjórnandi) | Önnur tilvísun stjórnandalánardrottins vegna áætlunarinnar. |
+   | **Gjaldmiðill** (fríðindastjórnandi) | Gjaldmiðillinn sem er notaður til að greiða fríðindastjórnanda. |
+   | **Kostnaðarreikningur** (fríðindastjórnandi) | Almennur reikningur sem er notaður sem kostnaðareikningur fyrir kostnað sem fylgir stjórnun áætlunarinnar. |
 
 6. Á flipann **Síur**, síaðu eftir þörfum. Þú getur síað eftir eftirfarandi reitum:
 
-   - Viðskiptaeining
-   - Deild
-   - Lögaðili
-   - Staðsetning
-   - Staða
+   - **Viðskiptaeining**
+   - **Deild**
+   - **Lögaðili**
+   - **Staðsetning**
+   - **Staða**
 
 7. Í flipanum **Hæfnireglur** skal tilgreina gildi fyrir eftirfarandi reiti:
 
    | Svæði | Lýsing |
    | --- | --- |
-   | Línunúmer | Línunúmer hæfnireglu. |
-   | Hæfnisregla | Hæfniregla sem gildir um fríðindaáætlunina. Þessi hæfisregla verður notuð á samsvarandi aðgerðartegund og tengd tilgreindum biðtíma og frádrætti umfjöllunar. |
-   | Gerð aðgerðar | Aðgerðin til að beita hæfisreglunni á: skráning fríðinda eða lokadagur fríðinda. |
-   | Biðtími tryggingar | Gildi frá formi biðtíma. Biðtímabil umfjöllunar er sá fjöldi daga eða mánaða sem starfsmaður bíður eftir umfjöllun um bætur eða rennur út bætur miðað við forsendur hæfisreglunnar og gerðar aðgerða. |
-   | Biðtími frádráttar | Gildi frá formi biðtíma. Biðtímabil frádráttar er sá fjöldi daga eða mánaða sem starfsmaður bíður eftir umfjöllun um frádrátt frá fríðindum af launagreiðslu sinni miðað við forsendur hæfisreglunnar og gerðar aðgerða. |
+   | **Línunúmer** | Línunúmer hæfnireglu. |
+   | **Hæfnisregla** | Hæfniregla sem gildir um fríðindaáætlunina. Þessi hæfisregla verður notuð á samsvarandi aðgerðartegund og tengd tilgreindum biðtíma og frádrætti umfjöllunar. |
+   | **Gerð aðgerðar** | Aðgerðin til að beita hæfisreglunni á: skráning fríðinda eða lokadagur fríðinda. |
+   | **Biðtími tryggingar** | Gildi frá formi biðtíma. Biðtímabil umfjöllunar er sá fjöldi daga eða mánaða sem starfsmaður bíður eftir umfjöllun um bætur eða rennur út bætur miðað við forsendur hæfisreglunnar og gerðar aðgerða. |
+   | **Biðtími frádráttar** | Gildi frá formi biðtíma. Biðtímabil frádráttar er sá fjöldi daga eða mánaða sem starfsmaður bíður eftir umfjöllun um frádrátt frá fríðindum af launagreiðslu sinni miðað við forsendur hæfisreglunnar og gerðar aðgerða. |
 
 8. Veljið **Vista**.
 

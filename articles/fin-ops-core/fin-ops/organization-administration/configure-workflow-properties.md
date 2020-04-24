@@ -3,7 +3,7 @@ title: Skilgreining verkflæðiseiginleika
 description: Þetta efnisatriði útskýrir hvernig skilgreina á mismunandi eiginleika verkflæðis.
 author: sericks007
 manager: AnnBe
-ms.date: 07/17/2018
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76d44c472989a73d71c2edd19f1187ecd09827ae
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
+ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190121"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3199437"
 ---
 # <a name="configure-workflow-properties"></a>Skilgreining verkflæðiseiginleika
 
@@ -75,9 +75,11 @@ Hægt er að veita þeim notendum leiðbeiningar sem senda skjöl til vinnslu og
     5. Hægt er að sérsníða texta með því að færa inn staðgengla. Sjá skref 3 til að fá leiðbeiningar um hvernig á að færa inn staðgengill.
     6. Smellið á **Loka**.
 
-## <a name="specify-when-this-workflow-is-used"></a>Tilgreina skal hvenær á að nota þetta verkflæði
+## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Tilgreindu hvenær þetta verkflæði er notað í gegnum virkjunarskilyrði
 
-Hægt er að stofna mörg verkflæði á grundvelli sama gerð. Til dæmis er hægt að stofna innkaupabeiðniverkflæði fyrir hvert land eða svæði starfseminnar, eins og Innkaupabeiðni Danmörk og Innkaupabeiðni Spánn. Þegar búið er að stofna mörg verkflæði á grundvelli sama gerðar, verður að tilgreina hvenær á nota hvert verkflæði. Fyrir dæmið hér á undan, tilgreinið eftirfarandi skilyrði:
+Hægt er að stofna mörg verkflæði á grundvelli sömu verkflæðisgerðar. Þegar búið er að stofna mörg verkflæði á grundvelli sama gerðar, verður að tilgreina hvenær nota skal hvert verkflæði með virkjunarskilyrðum. Ef virkjunarskilyrðum er ekki fullnægt er sjálfgefið verkflæði notað. Á sama hátt, ef það er aðeins ein verkflæðisstilling skilgreind fyrir verkflæðisgerð, þá verður sú verkflæðisstilling notuð óháð virkjunarskilyrðum.
+
+Til dæmis er hægt að stofna innkaupabeiðniverkflæði fyrir hvert land eða svæði starfseminnar, eins og Innkaupabeiðni Danmörk og Innkaupabeiðni Spánn, með eftirfarandi skilyrðum:
 
 - Innkaupabeiðni Danmörk er notað þegar: landið/svæðið er = DK.
 - Innkaupabeiðni spánn er notað þegar: landið/svæðið er = ES.

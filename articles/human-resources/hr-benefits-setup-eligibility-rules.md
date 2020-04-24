@@ -3,7 +3,7 @@ title: Grunnstilla hæfnireglur og valkosti
 description: Settu hæfisreglur og valkosti í fríðindastjórnun hjá Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 448156a2428e99d8b95de547cb6f1621d49b1c7b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 07dd8a6ca7edb460769f761950dc0c143112f708
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009473"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229902"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Grunnstilla hæfnireglur og valkosti
-
-[!include [banner](includes/preview-feature.md)]
 
 Eftir að þú hefur stillt nauðsynlegar breytur fyrir fríðindastjórnun í Microsoft Dynamics 365 Human Resources, getur þú búið til hæfisreglur, knippi, tímabil og forrit sem þú verður að tengja við fríðindaáætlanir þínar.
 
@@ -57,6 +55,7 @@ Meðan á opinni innritun stendur geta starfsmenn valið bótaráætlanir. Ef þ
    | **Starfsgrein** | Starfsmannaflokkur starfsmanns ef **Notaðu atvinnuflokk** rofi er stillt á **Já**. |
    | **Nota nýja ráðningarreglu** | Tilgreinir hvort nota eigi nýtt gildi leigutíma á nýjum leigutíma sem hluta af hæfisreglunni fyrir bætur. |
    | **Skráningartímabil** | Tímabilið þegar nýskráning á leigu er leyfð. Ef þú stillir þetta einnig í færibreytur, hefur færibreytustillingin forgang fram yfir þessa. |
+   | **Nota fyrri stöðu á vinnumarkaði** | Tilgreinir hvort nota eigi fyrri atvinnustöðu starfsmanns sem hluta af hæfisreglu fríðinda. Til dæmis er hægt að tilgreina hæfisreglu sem afsalar biðtíma umfjöllunar fyrir alla starfsmenn sem hafa farið úr stöðunni **Sagt upp** í stöðuna **Ráðin(n)** innan 90 daga frá fyrri atvinnu þeirra. |
 
 4. Undir **Viðbótarviðmið**, veldu eftirfarandi valkosti og bættu við upplýsingum eftir þörfum:
 

@@ -3,7 +3,7 @@ title: Hlutfallsskipting hausagjalda á samsvarandi sölulínur
 description: Þetta efnisatriði lýsir viðbótarmöguleikum til að reikna út og nota sjálfvirk gjöld í pantanir Commerce-rásar með því að nota ítarlegan eiginleika sjálfvirkra gjalda.
 author: hhaines
 manager: annbe
-ms.date: 04/23/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 5c03b1a1db11098058022a6916dc5bddf5518f9b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 048885cac7a316e144b2df072da405d74096203f
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022955"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175132"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Hlutfallsskipting hausagjalda á samsvarandi sölulínur
 
@@ -37,7 +37,7 @@ ms.locfileid: "3022955"
 
 Þessi nýja virkni veitir fyrirtækjum meiri sveigjanleika í því hvernig sjálfvirk gjöld á hausstigi eru reiknuð og notuð í sölufærslum.
 
-Í útgáfum af forritinu sem eru eldri en útgáfa 10.0.1 eru sjálfvirk gjöld fyrir hausstig sem eru með tiltekin tengsl flutningsmáta reiknuð aðeins þegar það er samsvörun við flutningsmáta sem er skilgreindur í sölupöntunarhaus.
+Í útgáfum forritsins sem eru eldri en útgáfa 10.0.1 eru sjálfvirk gjöld fyrir hausstig sem eru með tiltekin tengsl flutningsmáta reiknuð aðeins þegar það er samsvörun við flutningsmáta sem er skilgreindur í sölupöntunarhaus.
 
 Til dæmis eru sjálfvirk gjöld fyrir hausstig skilgreind fyrir flutningsmáta **99** og flutningsmáta **11**. Sölupöntun er búin til og flutningsmátinn **99** er skilgreindur í pöntunarhaus. Hins vegar eru nokkrar sölulínur settar upp þannig að þær eru fluttar með því að nota flutningsmátann **11**. Í þessu tilfelli eru aðeins gjöld á hausstigi sem eru tengd við flutningsmátann **99** tekin til greina og notuð í sölupöntun.
 
@@ -169,3 +169,9 @@ Vegna þess að skilgreining sjálfvirks gjalds er stillt til að hlutfallsskipt
 ![Hlutfallslega skipt gjöld í sölulínu fyrir vöru 81334](media/proratedlinecharge.png)
 
 Þegar þessi útreikningsaðferð er notuð í atburðarás fyrir hlutaskil, ef gjaldakóðinn er endurgreiðanlegur, verður aðeins hluti gjaldsins sem er úthlutað á þá línu endurgreiddur þegar vörunni er skilað.
+
+## <a name="additional-resources"></a>Frekari upplýsingar
+
+[Ítarleg sjálfvirk gjöld fyrir omni-rás](omni-auto-charges.md)
+
+[Kveikja á og grunnstilla sjálfvirk gjöld eftir rás](auto-charges-by-channel.md)

@@ -2,7 +2,7 @@
 title: Fartækjavinnusvæði fyrir samþykkt innkaupapöntunar
 description: Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæði fyrir samþykkt innkaupapöntunar, sem gerir kleift að skoða innkaupapantanir og bregðast við þeim með aðgerðum. Til dæmis er hægt að samþykkja eða hafna innkaupapöntun.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
 ms.custom: 30211
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 33e5993f57a8c0248ac2e314f91cc40a2b355858
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 68676fba895dcc91fd3dba065788f3be3a6e9ee4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653465"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207949"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Fartækjavinnusvæði fyrir samþykkt innkaupapöntunar
 
@@ -73,7 +73,7 @@ Ef Microsoft Dynamics 365 for Operations útgáfa 1611 með verkvangsuppfærslu 
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Sæktu og settu upp fartækjaforritið
-Sæktu og settu upp fyrir Finance and Operations farsímaforritið:
+Sæktu og settu upp fartækjaforritið Finance and Operations:
 
 - [Fyrir Android síma](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Fyrir iPhone síma](https://go.microsoft.com/fwlink/?linkid=850663)

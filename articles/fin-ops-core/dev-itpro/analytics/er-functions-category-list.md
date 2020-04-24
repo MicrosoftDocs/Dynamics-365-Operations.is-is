@@ -3,7 +3,7 @@ title: Listi yfir ER-aðgerðir í listaflokknum
 description: Þetta efni veitir upplýsingar um listaaðgerðir sem eru studdar í rafrænni skýrslugerð (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9461d0afd75f421cf03ddefed5dac379f1369ec7
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: dcf1b755959c7ae25928e3f44e988f800027786a
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917765"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201044"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Listi yfir ER-aðgerðir í listaflokknum
 
@@ -46,6 +46,7 @@ Hægt er að nota rafræn skýrslugerð (ER) lista aðgerðir til að draga uppl
 | [Index](er-functions-list-index.md)                       | Þessi aðgerð skilar gildinu *Ílát (skrá)* sem er valið með því að nota tilgreindan töluvísi í tilgreindum lista. Ef vísirinn utan marka fyrir skrárnar í tilgreindum lista beitir þessi aðgerð undantekningu. |
 | [IsEmpty](er-functions-list-isempty.md)                   | Þessi aðgerð skilar *Boolean*-gildinu **SATT** ef tilgreindur listi inniheldur engar skrár. Að öðrum kosti skilar hún *Boolean* gildinu **FALSE**. |
 | [Listi](er-functions-list-list.md)                         | Þessi aðgerð skilar *Skráalista*-gildi sem samanstendur af nýjum lista sem er stofnaður úr tilgreindum segðum.|
+| [ListiJoin](er-functions-list-listjoin.md)                 | Þessi aðgerð skilar *Skráalista*-gildi sem sýnir nýjan sameinaðan lista sem er stofnaður úr tilgreindum segðum.|
 | [ListOfFields](er-functions-list-listoffields.md)         | Þessi aðgerð skilar *Skráalista*-gildi sem er stofnað byggt á skipulagi tilgreindrar segðar af gerðinni *Upptalning* eða *Ílát (skrá)*. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Þessi aðgerð skilar *Skráalista*-gildi sem samanstendur af aðeins fyrstu skránni á tilgreindum lista.|
 | [OrderBy](er-functions-list-orderby.md)                   | Þessi aðgerð skilar tilgreindum lista sem *Skráalista*-gildi eftir að því hefur verið raðað í samræmi við tilgreindar segðir. Þessi frumbreytur geta verið skilgreindar sem segðir. |

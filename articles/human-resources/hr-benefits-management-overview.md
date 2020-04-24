@@ -1,9 +1,9 @@
 ---
 title: Yfirlit fríðindastjórnunar
-description: Yfirlit yfir forskoðunareiginleika stjórnunar fríðinda í Dynamics 365 Human Resources. Bjóddu starfsmönnum þínum framlengda valkosti með auðveldri notkun á netinu.
+description: Yfirlit yfir eiginleika stjórnunar fríðinda í Dynamics 365 Human Resources. Bjóddu starfsmönnum þínum framlengda valkosti með auðveldri notkun á netinu.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 63db1b55bae9150dd87d9981136b96d72ffd0c59
-ms.sourcegitcommit: 523049c363a999050c58d20695f1c7d151b3fd3e
+ms.openlocfilehash: 91a4425b4f020f90843bb3b0b280b7ee28463670
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029464"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230155"
 ---
 # <a name="benefits-management-overview"></a>Yfirlit fríðindastjórnunar
 
-[!include [banner](includes/preview-feature.md)]
-
-Til að vera samkeppnishæfur verður þú að bjóða upp á mikið af fríðindum til að laða að og halda bestu starfsmönnum þínum. Til viðbótar við venjulegan ávinning eins og læknisfræðilega og tannlæknaþjónustu, gætirðu líka viljað bjóða upp á stækkaða þjónustu eins og ættleiðingaraðstoð, afþreyingarforrit og fatapeninga. Forskoðunaraðgerð fríðindastjórnunar í Microsoft Dynamics 365 Human Resources veitir þér sveigjanlega lausn sem styður fjölbreytt úrval af kostum. Human Resources felur einnig í sér nothæfa reynslu starfsmanna sem sýnir framboð þitt.
+Til að vera samkeppnishæfur verður þú að bjóða upp á mikið af fríðindum til að laða að og halda bestu starfsmönnum þínum. Til viðbótar við venjulegan ávinning eins og læknisfræðilega og tannlæknaþjónustu, gætirðu líka viljað bjóða upp á stækkaða þjónustu eins og ættleiðingaraðstoð, afþreyingarforrit og fatapeninga. Fríðindastjórnun í Microsoft Dynamics 365 Human Resources veitir þér sveigjanlega lausn sem styður fjölbreytt úrval af kostum. Human Resources felur einnig í sér nothæfa reynslu starfsmanna sem sýnir framboð þitt.
 
 - Auknar fríðindaáætlanir gera þér kleift að búa til og hafa umsjón með einstökum fríðindaáætlunum og styðja flóknar töflur um fríðindahlutfall og ívafin stig. Þú getur auðveldlega búið til fríðindaáætlanir, knippi og sjálfvirkar innritunarreglur til að auðvelda starfsmannaupplifun.
 
@@ -39,30 +37,30 @@ Til að vera samkeppnishæfur verður þú að bjóða upp á mikið af fríðin
 
 - Netskráning í fríðindi veitir starfsmönnum þínum auðvelda reynslu.
 
-- Viðurkennd vinnsla atburða á atburði í lífinu fellur saman við sjálfsafgreiðslu starfsmanna og styður einnig framtíðarviðburði.
+- Hæf vinnsla á atburði í lífinu styður framtíðarviðburði.
 
 Ef þú vilt fá aðgang að kynningargögnum þarftu að dreifa sandkassumhverfinu þínu á nýjan leik.
 
-Þú getur veitt bein viðbrögð eða tilkynnt mál til: D365BenefitsPreview@microsoft.com.
-
 ## <a name="benefits-management-known-issues"></a>Þekkt vandamál í yfirliti fríðindastjórnunar
 
-### <a name="eligibility-processing"></a>Hæfni metin
+### <a name="flex-credit-programs"></a>Sveigjanlegar útgjaldaáætlanir
 
-Þegar þú keyrir á hæfi fyrir bætur sem nota 1-5X laun,% af launum og flatarmagnsupphæð, verður að stilla dagsetningu **Fríðindaupplýsinga** á **upphafsdag starfsmanns** í **Atvinnusaga**, með vinnustundum, greiðslutíðni og ársupphæð launafjárhæðar. Þú verður einnig að taka með **Vinnutíma**, **Greiðslutíðni** og **Ársupphæð launaupphæðar**. Ef starfsmaðurinn hefur fastar bætur, sláðu inn **Vinnutímar** og **Greiðslutíðni**. Árslaun upphæðin mun reikna út. Ef starfsmaðurinn er launaður þarf ekki að slá inn **vinnustundunir**. Við mælum með því að þegar nýir starfsmenn eru stofnaðir séu föst laun færð fyrst inn. Til að uppfæra upplýsingar um fríðindi skal fara á **Starfskraftur > Saga starfsmanna> Upplýsingar um atvinnumál**. Aðlagaðu dagsetninguna að upphafsdegi starfsmannsins.
-
-### <a name="employee-self-service"></a>Sjálfsafgreiðsla starfsmanns
-
-Ekki er verið að reikna fjárhæð starfsmanna við uppfærslu á umfjöllunarfjárhæð líftrygginga. Til dæmis þegar starfsmanni er boðið líftryggingaráætlun geta þeir valið allt að $50.000 í tryggingar á kostnað $ 0,36 á $1.000 af tryggingu.  Þegar starfsmaður uppfærir tryggingarupphæðina er tilheyrandi kostnaður starfsmannsins núll.
-
-Fyrir fríðindaáætlun sem leyfir aðeins eitt úrval af þeirri áætlun fær notandinn villu ef þeir reyna að afsala sér áætlun eftir að hafa valið áætlun. Til dæmis velur notandi læknisáætlun og setur hana í körfuna sína. Notandinn velur síðan **Veita undanþágu** vegna annarrar læknisáætlunar. Notandinn mun fá villu.
+Heildarinneignin sem er skilgreind fyrir flex-lánaforrit birtist ekki í forminu **Fríðindaáætlanir starfskrafta**. Einnig, ef þú stillir sveigjanlega útgjaldaáætlun til að hafa hlutfallsskiptiregluna **Enginn** færðu villu í glugganum **Fríðindaáætlanir starfskrafts** þegar þú velur og staðfestir áætlanir.
 
 ## <a name="enable-benefits-management"></a>Virkja fríðindastjórnun
 
-Hagur stjórnun er forsýning lögun, og er aðeins fáanleg í **Sandkassi** umhverfi. Þessar greinar lýsa því hvernig hægt er að kveikja á forskoðunaraðgerðum í Human Resources. Þeir segja einnig frá hvaða eiginleikum sem eru fyrir hendi í starfsmannamálum sem bótastjórnun kemur í stað eða er óvirk þegar þú kveikir á Fríðindastjórnun.
+Þessi grein lýsir því hvernig skal kveikja á eigileikum í Human Resources. Hún segir einnig frá hvaða eiginleikum sem eru fyrir hendi í starfsmannamálum sem bótastjórnun kemur í stað eða er óvirk þegar þú kveikir á Fríðindastjórnun.
+
+> [!IMPORTANT]
+> ÞEgar þú hefur virkjað fríðindastjórnun í umhverfi **Framleiðslu** er ekki hægt að afvirkja hana. Við mælum með að virkja og prófa ávinning stjórnunar í umhverfinu **Sandkassi** áður en það er gert kleift í umhverfi **Framleiðslu**. Það er verulegur munur á gamall fríðindavirkni og nýrrar virkni stjórnunar fríðinda sem krefst viðbótaruppsetningar og ætti að prófa áður en þeir eru settir í framleiðslu.
 
 - [Vinna með eiginleika](hr-admin-manage-features.md)
-- [Forskoðunareiginleiki: Fríðindastjórnun](hr-admin-manage-features.md?preview-feature-benefits-management)
+
+## <a name="configure-employee-information"></a>Stilla starfsmannaupplýsingum
+
+Áður en þú getur skráð starfsmenn í fríðindi verður þú að veita nauðsynlegar upplýsingar. Þú verður að skrá starfsmann í **Áætlun fastra launa** á upphafsdegi hans og þú verður að velja **Greiðslutíðni fríðinda** í **Atvinnuupplýsingar** í glugganum **Starfskraftur**.
+
+Þegar þú býrð til bótaáætlun þar sem notast er við tíðni sem byggist á kyni eða aldri, verður þú að færa inn fæðingardag og kyn starfsmanns til að reikna út fríðindakostnaðinn.
 
 ## <a name="configure-benefits-management"></a>Grunnstilla fríðindastjórnun
 
@@ -91,9 +89,7 @@ Hagur stjórnun er forsýning lögun, og er aðeins fáanleg í **Sandkassi** um
 Þessar greinar sýna hvernig á að búa til fríðindaáætlun, þar með talið knippi og flex kredit forrit.
 
 - [Uppsetning fríðindaáætlana](hr-benefits-plans-setup.md)
-- [Stofna fríðindaáætlanir starfskrafts](hr-benefits-plans-worker.md)
 - [Setja upp sveigjanlegar útgjaldaáætlanir](hr-benefits-plans-flex-credit-programs.md)
-- [Grunnstilla viðburði í framtíðinni](hr-benefits-plans-future-life-events.md)
 
 ## <a name="process-benefit-plans"></a>Vinna úr fríðindaáætlunum
 

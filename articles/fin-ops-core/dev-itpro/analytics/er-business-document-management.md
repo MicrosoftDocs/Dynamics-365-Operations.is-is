@@ -3,7 +3,7 @@ title: Yfirlit yfir stjórnun viðskiptaskjala
 description: Þetta efni veitir upplýsingar um hvernig á að nota viðskiptaskjalastjórnunaraðgerð ER-ramma.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/15/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
-ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
+ms.openlocfilehash: 5a57b96387ca5746a30b2e438d6b5f0ce3040f54
+ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117338"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "3258558"
 ---
 # <a name="business-document-management-overview"></a>Yfirlit yfir stjórnun viðskiptaskjala
 
@@ -248,9 +248,18 @@ Notaðu eftirfarandi ferli til að breyta sniðmátum frjáls texta í vinnusvæ
 1. Skráðu þig inn sem notandi með aðgang að vinnusvæðinu Stjórnun viðskiptaskjala.
 2. Opnaðu vinnusvæðið Stjórnun viðskiptaskjala.
 
+Þegar slökkt er á eigineikanum **Office-lík notandaviðmótsreynsla fyrir skjalastjórnun** á vinnusvæðinu **Eiginleikastjórnun** sýnir aðalhnitanetið á vinnusvæðinu **Stjórnun viðskiptaskjala** eftirfarandi sniðmát:
+
+- Sniðmát sem eru í eigu ER stillingaveitanda þíns (það er, veitandinn sem nú er merktur sem virkur á vinnusvæðinu **Rafræn skýrslugerð**). Þegar þú hefur valið eitt af þessum sniðmátum geturðu valið **Breyta sniðmáti** til að byrja eða halda áfram að breyta því.
+- Sniðmát sem eru í eigu annarra veitenda ER-stillinga. Þegar þú hefur valið eitt af þessum sniðmátum geturðu valið **Nýtt skjal** til að búa til afrit af því sem er í eigu veitanda ER-stillinganna og byrja síðan að breyta afritinu.
+
 ![Vinnusvæðissíðan Yfirlit yfir stjórnun viðskiptaskjala](./media/BDM-Overview-EditingTemplate1.png)
 
 Flipinn **Sniðmát** sýnir innihald valins sniðmáts. Veldu flipann **Upplýsingar** til að skoða upplýsingar um valið sniðmát sem og upplýsingar um skilgreiningu ER-sniðs sem þetta sniðmát er í. Taktu eftir að öll sniðmátin eru með stöðuna **Birt** og innihalda engar upplýsingar í dálknum **Endurskoðun**. Þetta þýðir að ekki er verið að breyta þessum sniðmátum eins og er.
+
+Þegar kveikt er á eiginleikanum **Office-lík notandaviðmótsreynsla fyrir skjalastjórnun** á vinnusvæðinu **Eiginleikastjórnun** sýnir aðalnetið á vinnusvæðinu **Stjórnun viðskiptaskjala** sýnir sniðmát sem eru í eigu veitanda ER-stillinganna (það er veitandinn sem nú er merktur sem virkur á vinnusvæðinu **Rafræn skýrslugerð**). Þegar þú hefur valið eitt af þessum sniðmátum geturðu valið **Breyta sniðmáti** til að byrja eða halda áfram að breyta því.
+
+Til að vinna með sniðmát sem eru í eigu annarra veitenda ER-stillinga velurðu **Nýtt skjal** til að búa til afrit af sniðmátinu sem er í eigu ER þjónustuveitunnar. Síðan er hægt að hefja breytingar á afritinu. Nánari upplýsingar er að finna í [Nýtt notandaviðmót fyrir skjöl í stjórnun viðskiptaskjala](er-business-document-management-new-template-ui.md).
 
 ### <a name="initiate-editing-templates-owned-by-your-configuration-provider"></a>Byrjaðu að breyta sniðmátum í eigu veitanda skilgreiningarinnar
 
