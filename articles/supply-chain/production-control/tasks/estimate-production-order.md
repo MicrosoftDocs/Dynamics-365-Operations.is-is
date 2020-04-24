@@ -2,43 +2,43 @@
 title: Áætla framleiðslupöntun
 description: Hægt er að keyra þetta ferli fyrir sýnifyrirtækið USMF eða eigin gögnum.
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e99d7c84171e4affe59fb896a7e93c2a328740
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 5bbb541a09809c1f1bfada42094d840a2f6e7764
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3146768"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207049"
 ---
-# <a name="estimate-a-production-order"></a><span data-ttu-id="6751e-103">Áætla framleiðslupöntun</span><span class="sxs-lookup"><span data-stu-id="6751e-103">Estimate a production order</span></span>
+# <a name="estimate-a-production-order"></a><span data-ttu-id="16060-103">Áætla framleiðslupöntun</span><span class="sxs-lookup"><span data-stu-id="16060-103">Estimate a production order</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="6751e-104">Hægt er að keyra þetta ferli fyrir sýnifyrirtækið USMF eða eigin gögnum.</span><span class="sxs-lookup"><span data-stu-id="6751e-104">You can run this procedure by using the USMF demo data company or your own data set.</span></span> <span data-ttu-id="6751e-105">Í báðum tilvikum þarf að hafa opna framleiðslupöntun með stöðuna Stofnað.</span><span class="sxs-lookup"><span data-stu-id="6751e-105">In both cases, you need to have an open production order that has the Created status.</span></span> <span data-ttu-id="6751e-106">Þetta er annað ferli af sjö sem útskýrir líftíma framleiðslupöntunar.</span><span class="sxs-lookup"><span data-stu-id="6751e-106">This is the second procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="16060-104">Hægt er að keyra þetta ferli fyrir sýnifyrirtækið USMF eða eigin gögnum.</span><span class="sxs-lookup"><span data-stu-id="16060-104">You can run this procedure by using the USMF demo data company or your own data set.</span></span> <span data-ttu-id="16060-105">Í báðum tilvikum þarf að hafa opna framleiðslupöntun með stöðuna Stofnað.</span><span class="sxs-lookup"><span data-stu-id="16060-105">In both cases, you need to have an open production order that has the Created status.</span></span> <span data-ttu-id="16060-106">Þetta er annað ferli af sjö sem útskýrir líftíma framleiðslupöntunar.</span><span class="sxs-lookup"><span data-stu-id="16060-106">This is the second procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="estimate-a-production-order"></a><span data-ttu-id="6751e-107">Áætla framleiðslupöntun</span><span class="sxs-lookup"><span data-stu-id="6751e-107">Estimate a production order</span></span>
-1. <span data-ttu-id="6751e-108">Fara í Framleiðslustýringar > Framleiðslupantanir > Allar framleiðslupantanir.</span><span class="sxs-lookup"><span data-stu-id="6751e-108">Go to Production control > Production orders > All production orders.</span></span>
-2. <span data-ttu-id="6751e-109">Veldu pöntun sem hefur stöðuna Stofnað í hnitanetinu.</span><span class="sxs-lookup"><span data-stu-id="6751e-109">Select an order that has the Created status in the grid.</span></span>
-3. <span data-ttu-id="6751e-110">Smellið á „Framleiðslupöntun“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="6751e-110">On the Action Pane, click Production order.</span></span>
-4. <span data-ttu-id="6751e-111">Smellt er á Mat.</span><span class="sxs-lookup"><span data-stu-id="6751e-111">Click Estimate.</span></span>
-    * <span data-ttu-id="6751e-112">Í þessu skrefi er áætlaður kostnaður fyrir eina framleiðslupöntun reiknaður út.</span><span class="sxs-lookup"><span data-stu-id="6751e-112">In this step, the estimated costs of a single production order is calculated.</span></span>   
-5. <span data-ttu-id="6751e-113">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="6751e-113">Click OK.</span></span>
+## <a name="estimate-a-production-order"></a><span data-ttu-id="16060-107">Áætla framleiðslupöntun</span><span class="sxs-lookup"><span data-stu-id="16060-107">Estimate a production order</span></span>
+1. <span data-ttu-id="16060-108">Fara í Framleiðslustýringar > Framleiðslupantanir > Allar framleiðslupantanir.</span><span class="sxs-lookup"><span data-stu-id="16060-108">Go to Production control > Production orders > All production orders.</span></span>
+2. <span data-ttu-id="16060-109">Veldu pöntun sem hefur stöðuna Stofnað í hnitanetinu.</span><span class="sxs-lookup"><span data-stu-id="16060-109">Select an order that has the Created status in the grid.</span></span>
+3. <span data-ttu-id="16060-110">Smellið á „Framleiðslupöntun“ á aðgerðarúðunni.</span><span class="sxs-lookup"><span data-stu-id="16060-110">On the Action Pane, click Production order.</span></span>
+4. <span data-ttu-id="16060-111">Smellt er á Mat.</span><span class="sxs-lookup"><span data-stu-id="16060-111">Click Estimate.</span></span>
+    * <span data-ttu-id="16060-112">Í þessu skrefi er áætlaður kostnaður fyrir eina framleiðslupöntun reiknaður út.</span><span class="sxs-lookup"><span data-stu-id="16060-112">In this step, the estimated costs of a single production order is calculated.</span></span>   
+5. <span data-ttu-id="16060-113">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="16060-113">Click OK.</span></span>
 
-## <a name="view-the-calculation-details"></a><span data-ttu-id="6751e-114">Skoða útreikningsupplýsingar</span><span class="sxs-lookup"><span data-stu-id="6751e-114">View the calculation details</span></span>
-1. <span data-ttu-id="6751e-115">Á Aðgerðasvæðinu skal smella á Stjórna kostnaði.</span><span class="sxs-lookup"><span data-stu-id="6751e-115">On the Action Pane, click Manage costs.</span></span>
-2. <span data-ttu-id="6751e-116">Smellt er á Skoða útreikningsupplýsingar.</span><span class="sxs-lookup"><span data-stu-id="6751e-116">Click View calculation details.</span></span>
-    * <span data-ttu-id="6751e-117">Þessi síða sýnir sundurliðun kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="6751e-117">This page displays the cost breakdown.</span></span> <span data-ttu-id="6751e-118">Til dæmis er hægt að skoða samtals kostnaðarverð á einingu fyrir endanlegu vöruna í fyrstu línunni.</span><span class="sxs-lookup"><span data-stu-id="6751e-118">For example, you can view the total cost price per unit for the finished product in the first row.</span></span> <span data-ttu-id="6751e-119">Síðari línurnar innihalda kostnað samkvæmt uppskrift, framleiðsluleið og óbeinum kostnaði.</span><span class="sxs-lookup"><span data-stu-id="6751e-119">The subsequent rows contain costs according to the bill of materials, production route, and indirect costs.</span></span>  
+## <a name="view-the-calculation-details"></a><span data-ttu-id="16060-114">Skoða útreikningsupplýsingar</span><span class="sxs-lookup"><span data-stu-id="16060-114">View the calculation details</span></span>
+1. <span data-ttu-id="16060-115">Á Aðgerðasvæðinu skal smella á Stjórna kostnaði.</span><span class="sxs-lookup"><span data-stu-id="16060-115">On the Action Pane, click Manage costs.</span></span>
+2. <span data-ttu-id="16060-116">Smellt er á Skoða útreikningsupplýsingar.</span><span class="sxs-lookup"><span data-stu-id="16060-116">Click View calculation details.</span></span>
+    * <span data-ttu-id="16060-117">Þessi síða sýnir sundurliðun kostnaðar.</span><span class="sxs-lookup"><span data-stu-id="16060-117">This page displays the cost breakdown.</span></span> <span data-ttu-id="16060-118">Til dæmis er hægt að skoða samtals kostnaðarverð á einingu fyrir endanlegu vöruna í fyrstu línunni.</span><span class="sxs-lookup"><span data-stu-id="16060-118">For example, you can view the total cost price per unit for the finished product in the first row.</span></span> <span data-ttu-id="16060-119">Síðari línurnar innihalda kostnað samkvæmt uppskrift, framleiðsluleið og óbeinum kostnaði.</span><span class="sxs-lookup"><span data-stu-id="16060-119">The subsequent rows contain costs according to the bill of materials, production route, and indirect costs.</span></span>  

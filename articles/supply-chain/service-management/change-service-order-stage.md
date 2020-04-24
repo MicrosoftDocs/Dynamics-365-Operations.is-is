@@ -2,7 +2,7 @@
 title: Breyta þjónustupöntunarstigi
 description: Þú getur breytt þjónustupöntunarstiginu.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,26 +18,26 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4bad6ebdac9c61e31ac97cfdf97b040d868a5c4b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 45d4533211e7f64635c9523c177aa569b6a2f8a4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564532"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202952"
 ---
-# <a name="change-the-service-order-stage"></a><span data-ttu-id="0c41e-103">Breyta þjónustupöntunarstigi</span><span class="sxs-lookup"><span data-stu-id="0c41e-103">Change the service order stage</span></span> 
+# <a name="change-the-service-order-stage"></a><span data-ttu-id="52e84-103">Breyta þjónustupöntunarstigi</span><span class="sxs-lookup"><span data-stu-id="52e84-103">Change the service order stage</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="0c41e-104">Fylgdu þessum leiðbeiningum til að færa þjónustupöntun á næsta stig í þjónustuverkflæði eða færa hana aftur á fyrra stig.</span><span class="sxs-lookup"><span data-stu-id="0c41e-104">Follow these steps to move a service order to the next stage in the service workflow or revert it to a previous stage.</span></span>
+<span data-ttu-id="52e84-104">Fylgdu þessum leiðbeiningum til að færa þjónustupöntun á næsta stig í þjónustuverkflæði eða færa hana aftur á fyrra stig.</span><span class="sxs-lookup"><span data-stu-id="52e84-104">Follow these steps to move a service order to the next stage in the service workflow or revert it to a previous stage.</span></span>
 
-1.  <span data-ttu-id="0c41e-105">Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.</span><span class="sxs-lookup"><span data-stu-id="0c41e-105">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="52e84-105">Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.</span><span class="sxs-lookup"><span data-stu-id="52e84-105">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="0c41e-106">Veldu þjónustupöntunina, og smelltu síðan á flipann **Afgreiða**.</span><span class="sxs-lookup"><span data-stu-id="0c41e-106">Select the service order, and then click the **Dispatch** tab.</span></span>
+2.  <span data-ttu-id="52e84-106">Veldu þjónustupöntunina, og smelltu síðan á flipann **Afgreiða**.</span><span class="sxs-lookup"><span data-stu-id="52e84-106">Select the service order, and then click the **Dispatch** tab.</span></span>
 
-3.  <span data-ttu-id="0c41e-107">Á **Aðgerðarúða** , smelltu annaðhvort á **Næsta stig** eða **Fyrri stig**.</span><span class="sxs-lookup"><span data-stu-id="0c41e-107">On the **Action Pane**, click either **Next stage** or **Previous stage**.</span></span>
+3.  <span data-ttu-id="52e84-107">Á **Aðgerðarúða** , smelltu annaðhvort á **Næsta stig** eða **Fyrri stig**.</span><span class="sxs-lookup"><span data-stu-id="52e84-107">On the **Action Pane**, click either **Next stage** or **Previous stage**.</span></span>
 
-4.  <span data-ttu-id="0c41e-108">Í **Breyta þjónustustigi** skjámynd skaltu velja viðeigandi stig.</span><span class="sxs-lookup"><span data-stu-id="0c41e-108">In the **Change service stage** form, select the appropriate stage.</span></span>
+4.  <span data-ttu-id="52e84-108">Í **Breyta þjónustustigi** skjámynd skaltu velja viðeigandi stig.</span><span class="sxs-lookup"><span data-stu-id="52e84-108">In the **Change service stage** form, select the appropriate stage.</span></span>
 
 

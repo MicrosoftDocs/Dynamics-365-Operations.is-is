@@ -2,7 +2,7 @@
 title: Skoða stöðu þjónustupantana
 description: Þú getur notað skjámynd sendingartöflunnar til að skoða stöður þjónustuverkþátta í þjónustupöntunum.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,39 +18,39 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67f8f9a24aeb88496d5b694dff550455bae6aa17
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 14f9132479bac8a6bfd632a91e0acb94b9bde4e5
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742981"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3206359"
 ---
-# <a name="view-the-status-of-service-orders"></a><span data-ttu-id="afda1-103">Skoða stöðu þjónustupantana</span><span class="sxs-lookup"><span data-stu-id="afda1-103">View the status of service orders</span></span> 
+# <a name="view-the-status-of-service-orders"></a><span data-ttu-id="7fa4b-103">Skoða stöðu þjónustupantana</span><span class="sxs-lookup"><span data-stu-id="7fa4b-103">View the status of service orders</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="afda1-104">Þú getur notað skjámyndina **Sendingartafla** til að skoða stöður þjónustuverkþátta í þjónustupöntunum.</span><span class="sxs-lookup"><span data-stu-id="afda1-104">You can use the **Dispatch board** form to view the status of service activities in service orders.</span></span>
+<span data-ttu-id="7fa4b-104">Þú getur notað skjámyndina **Sendingartafla** til að skoða stöður þjónustuverkþátta í þjónustupöntunum.</span><span class="sxs-lookup"><span data-stu-id="7fa4b-104">You can use the **Dispatch board** form to view the status of service activities in service orders.</span></span>
 
-## <a name="more-information-about-service-orders"></a><span data-ttu-id="afda1-105">Nánari upplýsingar um þjónustupantanir</span><span class="sxs-lookup"><span data-stu-id="afda1-105">More information about service orders</span></span>
+## <a name="more-information-about-service-orders"></a><span data-ttu-id="7fa4b-105">Nánari upplýsingar um þjónustupantanir</span><span class="sxs-lookup"><span data-stu-id="7fa4b-105">More information about service orders</span></span>
 
-<span data-ttu-id="afda1-106">Skjámyndin veitir einnig verkfæri til að fylgjast með flæði þjónustupantana og inniheldur viðbótarupplýsingar til að auðvelda þér að meta hversu brýn þjónustupöntun er, t.d. þjónustusamningurinn og þjónustustigssamningurinn sem pöntunin tengdist.</span><span class="sxs-lookup"><span data-stu-id="afda1-106">The form also provides tools to track the flow of service orders and includes additional details to help you evaluate the urgency of a service order, such the service agreement and service level agreement that it is associated with.</span></span>
+<span data-ttu-id="7fa4b-106">Skjámyndin veitir einnig verkfæri til að fylgjast með flæði þjónustupantana og inniheldur viðbótarupplýsingar til að auðvelda þér að meta hversu brýn þjónustupöntun er, t.d. þjónustusamningurinn og þjónustustigssamningurinn sem pöntunin tengdist.</span><span class="sxs-lookup"><span data-stu-id="7fa4b-106">The form also provides tools to track the flow of service orders and includes additional details to help you evaluate the urgency of a service order, such the service agreement and service level agreement that it is associated with.</span></span>
 
-<span data-ttu-id="afda1-107">Til að geta á fljótlegan hátt auðveldað þér að meta hversu brýn þjónustupöntunin er, styður Gantt-ritið notkun á litum.</span><span class="sxs-lookup"><span data-stu-id="afda1-107">In order to help you quickly gauge the urgency of a service order, the Gantt chart supports the use of colors.</span></span> <span data-ttu-id="afda1-108">Litir eru notaðir til að greina forgang þjónustusímtals.</span><span class="sxs-lookup"><span data-stu-id="afda1-108">Colors are used to distinguish the priority of a service call.</span></span> <span data-ttu-id="afda1-109">Sjálfgefið eru þessar litir rauðir fyrir mikinn forgang, gulir fyrir dæmigerðan forgang og grænir fyrir lítinn forgang.</span><span class="sxs-lookup"><span data-stu-id="afda1-109">By default, these colors are red for high priority, yellow for typical priority, and green for low priority.</span></span>
+<span data-ttu-id="7fa4b-107">Til að geta á fljótlegan hátt auðveldað þér að meta hversu brýn þjónustupöntunin er, styður Gantt-ritið notkun á litum.</span><span class="sxs-lookup"><span data-stu-id="7fa4b-107">In order to help you quickly gauge the urgency of a service order, the Gantt chart supports the use of colors.</span></span> <span data-ttu-id="7fa4b-108">Litir eru notaðir til að greina forgang þjónustusímtals.</span><span class="sxs-lookup"><span data-stu-id="7fa4b-108">Colors are used to distinguish the priority of a service call.</span></span> <span data-ttu-id="7fa4b-109">Sjálfgefið eru þessar litir rauðir fyrir mikinn forgang, gulir fyrir dæmigerðan forgang og grænir fyrir lítinn forgang.</span><span class="sxs-lookup"><span data-stu-id="7fa4b-109">By default, these colors are red for high priority, yellow for typical priority, and green for low priority.</span></span>
 
 
 > [!TIP]
-> <P><span data-ttu-id="afda1-110">Hægt er að breyta litum á flipanum <STRONG>Afgreiðsla</STRONG> í skjámyndinni <STRONG>Færibreytur þjónustustjórnunar</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="afda1-110">You can change the colors on the <STRONG>Dispatching</STRONG> tab in the <STRONG>Service management parameters</STRONG> form.</span></span></P>
+> <P><span data-ttu-id="7fa4b-110">Hægt er að breyta litum á flipanum <STRONG>Afgreiðsla</STRONG> í skjámyndinni <STRONG>Færibreytur þjónustustjórnunar</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="7fa4b-110">You can change the colors on the <STRONG>Dispatching</STRONG> tab in the <STRONG>Service management parameters</STRONG> form.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="afda1-111">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="afda1-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7fa4b-111">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="7fa4b-111">See also</span></span>
 
-[<span data-ttu-id="afda1-112">Forgangsröðun þjónustupantana</span><span class="sxs-lookup"><span data-stu-id="afda1-112">Prioritize service orders</span></span>](prioritize-service-orders.md)
+[<span data-ttu-id="7fa4b-112">Forgangsröðun þjónustupantana</span><span class="sxs-lookup"><span data-stu-id="7fa4b-112">Prioritize service orders</span></span>](prioritize-service-orders.md)
 
-[<span data-ttu-id="afda1-113">Fylgjast með þjónustuþáttum</span><span class="sxs-lookup"><span data-stu-id="afda1-113">Monitor service activities</span></span>](monitor-service-activities.md)
+[<span data-ttu-id="7fa4b-113">Fylgjast með þjónustuþáttum</span><span class="sxs-lookup"><span data-stu-id="7fa4b-113">Monitor service activities</span></span>](monitor-service-activities.md)
 
-<span data-ttu-id="afda1-114">[Sendingartafla (skjámynd)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="afda1-114">[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span></span>
+<span data-ttu-id="7fa4b-114">[Sendingartafla (skjámynd)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="7fa4b-114">[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span></span>
 
   
 

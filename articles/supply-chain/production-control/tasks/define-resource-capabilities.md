@@ -2,7 +2,7 @@
 title: Skilgreina möguleika tilfanga
 description: Tilfangageta lýsa því hvað rekstrartilföng getur gert.
 author: sorenva
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,42 +10,42 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrCapability
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6bd3f2b1efc1e6a883ad2a25d127e74a8925de8f
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: c07d3fe1969f3baea484991e74f668eade813d78
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3146791"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212044"
 ---
-# <a name="define-resource-capabilities"></a><span data-ttu-id="74be3-103">Skilgreina möguleika tilfanga</span><span class="sxs-lookup"><span data-stu-id="74be3-103">Define resource capabilities</span></span>
+# <a name="define-resource-capabilities"></a><span data-ttu-id="d4504-103">Skilgreina möguleika tilfanga</span><span class="sxs-lookup"><span data-stu-id="d4504-103">Define resource capabilities</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="74be3-104">Tilfangageta lýsa því hvað rekstrartilföng getur gert.</span><span class="sxs-lookup"><span data-stu-id="74be3-104">Resource capabilities describe what operations resources can do.</span></span> <span data-ttu-id="74be3-105">Við áætlunargerð, eru allar kröfur vinnslu og jafnaðar gagnvart getu tiltæk tilfanga.</span><span class="sxs-lookup"><span data-stu-id="74be3-105">During scheduling, the requirements of each job and operation are matched against the capabilities of the available resources.</span></span> <span data-ttu-id="74be3-106">Þessi leiðarvísi fyrir verk aðstoðar við að stofna getu tilfangs og úthluta á tilföngum.</span><span class="sxs-lookup"><span data-stu-id="74be3-106">This task guide will help you create a resource capability and assign it to a resource.</span></span> <span data-ttu-id="74be3-107">Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF.</span><span class="sxs-lookup"><span data-stu-id="74be3-107">The demo data company used to create this task is USMF.</span></span>
+<span data-ttu-id="d4504-104">Tilfangageta lýsa því hvað rekstrartilföng getur gert.</span><span class="sxs-lookup"><span data-stu-id="d4504-104">Resource capabilities describe what operations resources can do.</span></span> <span data-ttu-id="d4504-105">Við áætlunargerð, eru allar kröfur vinnslu og jafnaðar gagnvart getu tiltæk tilfanga.</span><span class="sxs-lookup"><span data-stu-id="d4504-105">During scheduling, the requirements of each job and operation are matched against the capabilities of the available resources.</span></span> <span data-ttu-id="d4504-106">Þessi leiðarvísi fyrir verk aðstoðar við að stofna getu tilfangs og úthluta á tilföngum.</span><span class="sxs-lookup"><span data-stu-id="d4504-106">This task guide will help you create a resource capability and assign it to a resource.</span></span> <span data-ttu-id="d4504-107">Sýnigögn gögn fyrirtækisins til að stofna verkið er USMF.</span><span class="sxs-lookup"><span data-stu-id="d4504-107">The demo data company used to create this task is USMF.</span></span>
 
 
-## <a name="create-a-resource-capability"></a><span data-ttu-id="74be3-108">Stofna tilfangagetu.</span><span class="sxs-lookup"><span data-stu-id="74be3-108">Create a resource capability</span></span>
-1. <span data-ttu-id="74be3-109">Fara á Tilfangagetu</span><span class="sxs-lookup"><span data-stu-id="74be3-109">Go to Resource capabilities.</span></span>
-2. <span data-ttu-id="74be3-110">Smellt er á Nýtt.</span><span class="sxs-lookup"><span data-stu-id="74be3-110">Click New.</span></span>
-3. <span data-ttu-id="74be3-111">Færið inn Kenni tilfangagetu í svæðinu Getu.</span><span class="sxs-lookup"><span data-stu-id="74be3-111">In the Capability field, type the ID of the resource capability.</span></span>
-    * <span data-ttu-id="74be3-112">Fyrir tiltekna aðgerð, notarðu auðkenni getu til að tilgreina að tilfanga verður að hafa þennan getu til að framkvæma aðgerðina.</span><span class="sxs-lookup"><span data-stu-id="74be3-112">For a given operation, you use the capability ID to specify that resources must have this capability to perform the operation.</span></span>  
-4. <span data-ttu-id="74be3-113">Í reitinn Lýsing er færð stutt lýsing á getunni.</span><span class="sxs-lookup"><span data-stu-id="74be3-113">In the Description field, enter a description of the capability.</span></span>
+## <a name="create-a-resource-capability"></a><span data-ttu-id="d4504-108">Stofna tilfangagetu.</span><span class="sxs-lookup"><span data-stu-id="d4504-108">Create a resource capability</span></span>
+1. <span data-ttu-id="d4504-109">Fara á Tilfangagetu</span><span class="sxs-lookup"><span data-stu-id="d4504-109">Go to Resource capabilities.</span></span>
+2. <span data-ttu-id="d4504-110">Smellt er á Nýtt.</span><span class="sxs-lookup"><span data-stu-id="d4504-110">Click New.</span></span>
+3. <span data-ttu-id="d4504-111">Færið inn Kenni tilfangagetu í svæðinu Getu.</span><span class="sxs-lookup"><span data-stu-id="d4504-111">In the Capability field, type the ID of the resource capability.</span></span>
+    * <span data-ttu-id="d4504-112">Fyrir tiltekna aðgerð, notarðu auðkenni getu til að tilgreina að tilfanga verður að hafa þennan getu til að framkvæma aðgerðina.</span><span class="sxs-lookup"><span data-stu-id="d4504-112">For a given operation, you use the capability ID to specify that resources must have this capability to perform the operation.</span></span>  
+4. <span data-ttu-id="d4504-113">Í reitinn Lýsing er færð stutt lýsing á getunni.</span><span class="sxs-lookup"><span data-stu-id="d4504-113">In the Description field, enter a description of the capability.</span></span>
 
-## <a name="assign-capability-to-a-resource"></a><span data-ttu-id="74be3-114">Úthluta getu á tilföng</span><span class="sxs-lookup"><span data-stu-id="74be3-114">Assign capability to a resource</span></span>
-1. <span data-ttu-id="74be3-115">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="74be3-115">Click Add.</span></span>
-2. <span data-ttu-id="74be3-116">Færið inn Kenni tilfanga í svæðinu Tilfanga.</span><span class="sxs-lookup"><span data-stu-id="74be3-116">In the Resource field, type the ID of the resource.</span></span>
-    * <span data-ttu-id="74be3-117">Hægt er að úthluta getu tilfangs á ein eða fleiri tilföng.</span><span class="sxs-lookup"><span data-stu-id="74be3-117">A resource capability can be assigned to one or more resources.</span></span>  
-3. <span data-ttu-id="74be3-118">Í reitinn lokadagsetning, skal færa inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="74be3-118">In the Expiration field, enter a date.</span></span>
-    * <span data-ttu-id="74be3-119">Hægt er að nota þetta svæði til að tilgreina að tilföng hefur getuna fyrir aðeins takmarkaðan tíma.</span><span class="sxs-lookup"><span data-stu-id="74be3-119">You can use this field to specify that a resource has the capability for only a limited time.</span></span>  
-4. <span data-ttu-id="74be3-120">Í reitinn forgangur skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="74be3-120">In the Priority field, enter a number.</span></span>
-    * <span data-ttu-id="74be3-121">Þegar þú áætlar vinnslur og aðgerðir, hægt er að tilgreina hvort að velja tilföng eftir forgangi.</span><span class="sxs-lookup"><span data-stu-id="74be3-121">When you schedule jobs and operations, you can specify whether to select resources by priority.</span></span> <span data-ttu-id="74be3-122">Ef valið er að gera þetta, og fleiri en einn tilföng geta framkvæmt vinnslu eða aðgerðar á umbeðna dagsetningu, er valið tilfang með minnstan forgang með tilliti til getu sem krafist er.</span><span class="sxs-lookup"><span data-stu-id="74be3-122">If you choose to do this, and more than one resource can perform the job or operation by the requested date, the resource that has the lowest priority with respect to the required capability is selected.</span></span>  
-5. <span data-ttu-id="74be3-123">Í reitinn Stig skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="74be3-123">In the Level field, enter a number.</span></span>
-    * <span data-ttu-id="74be3-124">Þegar tilgreindur er vinnslu eða aðgerð sem krefst tiltekna getu, er einnig hægt að tilgreina lágmarksstig sem krafist er.</span><span class="sxs-lookup"><span data-stu-id="74be3-124">When you specify that a job or operation requires a particular capability, you can also specify the minimum level that is required.</span></span> <span data-ttu-id="74be3-125">Notaðu getistig til að aðgreina tilföng sem geta framkvæmt sömu vinnslu en með mismunandi hraða, styrkleikum, stærðir og svo framvegis.</span><span class="sxs-lookup"><span data-stu-id="74be3-125">Use the capability level to differentiate resources that can perform the same job, but at different speeds, strengths, sizes, and so on.</span></span>  
+## <a name="assign-capability-to-a-resource"></a><span data-ttu-id="d4504-114">Úthluta getu á tilföng</span><span class="sxs-lookup"><span data-stu-id="d4504-114">Assign capability to a resource</span></span>
+1. <span data-ttu-id="d4504-115">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="d4504-115">Click Add.</span></span>
+2. <span data-ttu-id="d4504-116">Færið inn Kenni tilfanga í svæðinu Tilfanga.</span><span class="sxs-lookup"><span data-stu-id="d4504-116">In the Resource field, type the ID of the resource.</span></span>
+    * <span data-ttu-id="d4504-117">Hægt er að úthluta getu tilfangs á ein eða fleiri tilföng.</span><span class="sxs-lookup"><span data-stu-id="d4504-117">A resource capability can be assigned to one or more resources.</span></span>  
+3. <span data-ttu-id="d4504-118">Í reitinn lokadagsetning, skal færa inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="d4504-118">In the Expiration field, enter a date.</span></span>
+    * <span data-ttu-id="d4504-119">Hægt er að nota þetta svæði til að tilgreina að tilföng hefur getuna fyrir aðeins takmarkaðan tíma.</span><span class="sxs-lookup"><span data-stu-id="d4504-119">You can use this field to specify that a resource has the capability for only a limited time.</span></span>  
+4. <span data-ttu-id="d4504-120">Í reitinn forgangur skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="d4504-120">In the Priority field, enter a number.</span></span>
+    * <span data-ttu-id="d4504-121">Þegar þú áætlar vinnslur og aðgerðir, hægt er að tilgreina hvort að velja tilföng eftir forgangi.</span><span class="sxs-lookup"><span data-stu-id="d4504-121">When you schedule jobs and operations, you can specify whether to select resources by priority.</span></span> <span data-ttu-id="d4504-122">Ef valið er að gera þetta, og fleiri en einn tilföng geta framkvæmt vinnslu eða aðgerðar á umbeðna dagsetningu, er valið tilfang með minnstan forgang með tilliti til getu sem krafist er.</span><span class="sxs-lookup"><span data-stu-id="d4504-122">If you choose to do this, and more than one resource can perform the job or operation by the requested date, the resource that has the lowest priority with respect to the required capability is selected.</span></span>  
+5. <span data-ttu-id="d4504-123">Í reitinn Stig skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="d4504-123">In the Level field, enter a number.</span></span>
+    * <span data-ttu-id="d4504-124">Þegar tilgreindur er vinnslu eða aðgerð sem krefst tiltekna getu, er einnig hægt að tilgreina lágmarksstig sem krafist er.</span><span class="sxs-lookup"><span data-stu-id="d4504-124">When you specify that a job or operation requires a particular capability, you can also specify the minimum level that is required.</span></span> <span data-ttu-id="d4504-125">Notaðu getistig til að aðgreina tilföng sem geta framkvæmt sömu vinnslu en með mismunandi hraða, styrkleikum, stærðir og svo framvegis.</span><span class="sxs-lookup"><span data-stu-id="d4504-125">Use the capability level to differentiate resources that can perform the same job, but at different speeds, strengths, sizes, and so on.</span></span>  
 

@@ -2,7 +2,7 @@
 title: Hefja og stöðva tímaskráningu fyrir þjónustupöntun
 description: Hefja og stöðva tímaskráningu fyrir þjónustupöntun.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c442eed4e9e8d868db253ae0c042f0b6c977f20
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 8f4c101f6d52366898492b6c9c70fb6cd12edfb9
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743050"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3206635"
 ---
-# <a name="start-and-stop-time-recording-on-a-service-order"></a><span data-ttu-id="6dd5f-103">Hefja og stöðva tímaskráningu fyrir þjónustupöntun</span><span class="sxs-lookup"><span data-stu-id="6dd5f-103">Start and stop time recording on a service order</span></span> 
+# <a name="start-and-stop-time-recording-on-a-service-order"></a><span data-ttu-id="393e3-103">Hefja og stöðva tímaskráningu fyrir þjónustupöntun</span><span class="sxs-lookup"><span data-stu-id="393e3-103">Start and stop time recording on a service order</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="6dd5f-104">Notið þetta ferli til að hefja og stöðva tímaskráningu fyrir þjónustupöntun sem þjónustustigssamningur er skilgreindur fyrir.</span><span class="sxs-lookup"><span data-stu-id="6dd5f-104">Use this procedure to start and stop time recording for a service order for which a service level agreement is defined.</span></span>
+<span data-ttu-id="393e3-104">Notið þetta ferli til að hefja og stöðva tímaskráningu fyrir þjónustupöntun sem þjónustustigssamningur er skilgreindur fyrir.</span><span class="sxs-lookup"><span data-stu-id="393e3-104">Use this procedure to start and stop time recording for a service order for which a service level agreement is defined.</span></span>
 
-## <a name="start-time-recording"></a><span data-ttu-id="6dd5f-105">Hefja tímaskráningu</span><span class="sxs-lookup"><span data-stu-id="6dd5f-105">Start time recording</span></span>
+## <a name="start-time-recording"></a><span data-ttu-id="393e3-105">Hefja tímaskráningu</span><span class="sxs-lookup"><span data-stu-id="393e3-105">Start time recording</span></span>
 
-1.  <span data-ttu-id="6dd5f-106">Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.</span><span class="sxs-lookup"><span data-stu-id="6dd5f-106">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="393e3-106">Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.</span><span class="sxs-lookup"><span data-stu-id="393e3-106">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="6dd5f-107">Smelltu á flipann **Þjónustupöntun**. Í **Aðgerðasvæði**, í flokknum **Þjónustustigssamningur**, skal smella á **Hefja**.</span><span class="sxs-lookup"><span data-stu-id="6dd5f-107">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Start**.</span></span>
+2.  <span data-ttu-id="393e3-107">Smelltu á flipann **Þjónustupöntun**. Í **Aðgerðasvæði**, í flokknum **Þjónustustigssamningur**, skal smella á **Hefja**.</span><span class="sxs-lookup"><span data-stu-id="393e3-107">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Start**.</span></span>
 
-3.  <span data-ttu-id="6dd5f-108">Færið inn dagsetninguna og tímann sem tímaskráningu á að hefjast á.</span><span class="sxs-lookup"><span data-stu-id="6dd5f-108">Enter the date and time that the time recording should be started.</span></span>
+3.  <span data-ttu-id="393e3-108">Færið inn dagsetninguna og tímann sem tímaskráningu á að hefjast á.</span><span class="sxs-lookup"><span data-stu-id="393e3-108">Enter the date and time that the time recording should be started.</span></span>
 
-## <a name="stop-time-recording"></a><span data-ttu-id="6dd5f-109">Stöðva tímaskráningu</span><span class="sxs-lookup"><span data-stu-id="6dd5f-109">Stop time recording</span></span>
+## <a name="stop-time-recording"></a><span data-ttu-id="393e3-109">Stöðva tímaskráningu</span><span class="sxs-lookup"><span data-stu-id="393e3-109">Stop time recording</span></span>
 
-1.  <span data-ttu-id="6dd5f-110">Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.</span><span class="sxs-lookup"><span data-stu-id="6dd5f-110">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="393e3-110">Smelltu á **Þjónustustjórnun** \> **Almennt** \> **Þjónustupantanir** \> **Þjónustupantanir**.</span><span class="sxs-lookup"><span data-stu-id="393e3-110">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="6dd5f-111">Smelltu á flipann **Þjónustupöntun**. Í **Aðgerðasvæði**, í flokknum **Þjónustustigssamningur**, skal smella á **Stöðva**.</span><span class="sxs-lookup"><span data-stu-id="6dd5f-111">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Stop**.</span></span>
+2.  <span data-ttu-id="393e3-111">Smelltu á flipann **Þjónustupöntun**. Í **Aðgerðasvæði**, í flokknum **Þjónustustigssamningur**, skal smella á **Stöðva**.</span><span class="sxs-lookup"><span data-stu-id="393e3-111">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Stop**.</span></span>
 
-3.  <span data-ttu-id="6dd5f-112">Færið inn dagsetninguna og tímann sem tímaskráningu á að ljúka á.</span><span class="sxs-lookup"><span data-stu-id="6dd5f-112">Enter the date and time that the time recording should be stopped.</span></span>
+3.  <span data-ttu-id="393e3-112">Færið inn dagsetninguna og tímann sem tímaskráningu á að ljúka á.</span><span class="sxs-lookup"><span data-stu-id="393e3-112">Enter the date and time that the time recording should be stopped.</span></span>
 
-4.  <span data-ttu-id="6dd5f-113">Veldu **Bæta við afturköllunarástæðu** og veldu ástæðukóða í listanum **Stiga ástæðukóða** til að gefa ástæðu til að stöðva tímaskráninguna.</span><span class="sxs-lookup"><span data-stu-id="6dd5f-113">Select **Add a revocation reason**, and select a reason code in the **Stage reason code** list to provide a reason for stopping the time recording.</span></span>
+4.  <span data-ttu-id="393e3-113">Veldu **Bæta við afturköllunarástæðu** og veldu ástæðukóða í listanum **Stiga ástæðukóða** til að gefa ástæðu til að stöðva tímaskráninguna.</span><span class="sxs-lookup"><span data-stu-id="393e3-113">Select **Add a revocation reason**, and select a reason code in the **Stage reason code** list to provide a reason for stopping the time recording.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="6dd5f-114">Ef <STRONG>Ástæðukóði fyrir að fara yfir á tíma</STRONG> er valinn í skjámyndinni <STRONG>Færibreytur þjónustustjórnunar</STRONG> verður þú að gefa upp ástæðukóða áður en þú getur stöðvað tímaskráningu.</span><span class="sxs-lookup"><span data-stu-id="6dd5f-114">If <STRONG>Reason code on exceeding time</STRONG> is selected in the <STRONG>Service management parameters</STRONG> form, you must provide a reason code before you can stop the time recording.</span></span></P>
+> <P><span data-ttu-id="393e3-114">Ef <STRONG>Ástæðukóði fyrir að fara yfir á tíma</STRONG> er valinn í skjámyndinni <STRONG>Færibreytur þjónustustjórnunar</STRONG> verður þú að gefa upp ástæðukóða áður en þú getur stöðvað tímaskráningu.</span><span class="sxs-lookup"><span data-stu-id="393e3-114">If <STRONG>Reason code on exceeding time</STRONG> is selected in the <STRONG>Service management parameters</STRONG> form, you must provide a reason code before you can stop the time recording.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="6dd5f-115">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="6dd5f-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="393e3-115">Sjá einnig</span><span class="sxs-lookup"><span data-stu-id="393e3-115">See also</span></span>
 
-<span data-ttu-id="6dd5f-116">[Hefja SLA tímaskráningu (skjámynd)](https://technet.microsoft.com/library/hh242297\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="6dd5f-116">[Start SLA time recording (form)](https://technet.microsoft.com/library/hh242297\(v=ax.60\))</span></span>
+<span data-ttu-id="393e3-116">[Hefja SLA tímaskráningu (skjámynd)](https://technet.microsoft.com/library/hh242297\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="393e3-116">[Start SLA time recording (form)](https://technet.microsoft.com/library/hh242297\(v=ax.60\))</span></span>
 
-<span data-ttu-id="6dd5f-117">[Stöðva SLA tímaskráningu (skjámynd)](https://technet.microsoft.com/library/hh242241\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="6dd5f-117">[Stop SLA time recording (form)](https://technet.microsoft.com/library/hh242241\(v=ax.60\))</span></span>
+<span data-ttu-id="393e3-117">[Stöðva SLA tímaskráningu (skjámynd)](https://technet.microsoft.com/library/hh242241\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="393e3-117">[Stop SLA time recording (form)](https://technet.microsoft.com/library/hh242241\(v=ax.60\))</span></span>
 
   
 

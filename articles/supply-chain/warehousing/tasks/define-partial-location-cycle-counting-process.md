@@ -2,73 +2,73 @@
 title: 'Skilgreina hlutastaðsetning reglulegrar talningar '
 description: Þegar þú notar áætlun um reglulega talningu til að stofna talningarvinnu, geturðu stýrt hinum raunverulegu talningaraðgerðum með því að fara fram á að aðeins sérstakar vörur og vöruafbrigði verði talin í staðinn fyrir allar lagerbirgðir á staðsetningunni.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67f719d5990a4331559cab34412bf82f15eca735
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: c3d80171ec524e3401d7971cb743d73abdda87ff
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3148355"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3217035"
 ---
-# <a name="define-partial-location-cycle-counting-process"></a><span data-ttu-id="77d80-103">Skilgreina hlutastaðsetning reglulegrar talningar </span><span class="sxs-lookup"><span data-stu-id="77d80-103">Define partial location cycle counting process</span></span> 
+# <a name="define-partial-location-cycle-counting-process"></a><span data-ttu-id="821a2-103">Skilgreina hlutastaðsetning reglulegrar talningar </span><span class="sxs-lookup"><span data-stu-id="821a2-103">Define partial location cycle counting process</span></span> 
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="77d80-104">Þegar þú notar áætlun um reglulega talningu til að stofna talningarvinnu, geturðu stýrt hinum raunverulegu talningaraðgerðum með því að fara fram á að aðeins sérstakar vörur og vöruafbrigði verði talin í staðinn fyrir allar lagerbirgðir á staðsetningunni.</span><span class="sxs-lookup"><span data-stu-id="77d80-104">When you use cycle count plans to create counting work, you can guide the actual counting operations by requesting that only specific products and product variants be counted instead of all on-hand inventory at the location.</span></span> <span data-ttu-id="77d80-105">Með því að afmarka sérstakar vörur, getur stjórnandi vöruhússins minnkað fastan kostnað við endurmat, minnkað líkur á samstæðumistökum og sparað tíma.</span><span class="sxs-lookup"><span data-stu-id="77d80-105">By filtering on specific products, the warehouse manager can reduce review overhead, help prevent consolidation mistakes, and save time.</span></span> <span data-ttu-id="77d80-106">Stjórnandi vöruhúss framkvæmir yfirleitt verkin sem tengjast uppsetningu.</span><span class="sxs-lookup"><span data-stu-id="77d80-106">Typically, a warehouse manager performs the setup tasks.</span></span> <span data-ttu-id="77d80-107">Hægt er að fara í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða þín eigin gögn.</span><span class="sxs-lookup"><span data-stu-id="77d80-107">You can go through this procedure in the USMF demo data company or in your own data.</span></span>
+<span data-ttu-id="821a2-104">Þegar þú notar áætlun um reglulega talningu til að stofna talningarvinnu, geturðu stýrt hinum raunverulegu talningaraðgerðum með því að fara fram á að aðeins sérstakar vörur og vöruafbrigði verði talin í staðinn fyrir allar lagerbirgðir á staðsetningunni.</span><span class="sxs-lookup"><span data-stu-id="821a2-104">When you use cycle count plans to create counting work, you can guide the actual counting operations by requesting that only specific products and product variants be counted instead of all on-hand inventory at the location.</span></span> <span data-ttu-id="821a2-105">Með því að afmarka sérstakar vörur, getur stjórnandi vöruhússins minnkað fastan kostnað við endurmat, minnkað líkur á samstæðumistökum og sparað tíma.</span><span class="sxs-lookup"><span data-stu-id="821a2-105">By filtering on specific products, the warehouse manager can reduce review overhead, help prevent consolidation mistakes, and save time.</span></span> <span data-ttu-id="821a2-106">Stjórnandi vöruhúss framkvæmir yfirleitt verkin sem tengjast uppsetningu.</span><span class="sxs-lookup"><span data-stu-id="821a2-106">Typically, a warehouse manager performs the setup tasks.</span></span> <span data-ttu-id="821a2-107">Hægt er að fara í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða þín eigin gögn.</span><span class="sxs-lookup"><span data-stu-id="821a2-107">You can go through this procedure in the USMF demo data company or in your own data.</span></span>
 
 
-## <a name="create-a-cycle-counting-work-template"></a><span data-ttu-id="77d80-108">Stofna Vinnusniðmát reglulegrar talningar</span><span class="sxs-lookup"><span data-stu-id="77d80-108">Create a cycle counting work template</span></span>
-1. <span data-ttu-id="77d80-109">Fara í vöruhúsakerfi  > Uppsetning  > Vinna  > Vinnusniðmát.</span><span class="sxs-lookup"><span data-stu-id="77d80-109">Go to Warehouse management > Setup > Work > Work templates.</span></span>
-2. <span data-ttu-id="77d80-110">Í svæðinu gerð vinnupöntunar, skal velja „Regluleg talning“.</span><span class="sxs-lookup"><span data-stu-id="77d80-110">In the Work order type field, select 'Cycle counting'.</span></span>
-3. <span data-ttu-id="77d80-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="77d80-111">Click New.</span></span>
-4. <span data-ttu-id="77d80-112">Í reitinn raðnúmer skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="77d80-112">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="77d80-113">Röðunarpöntunin er frá lægsta númerinu til hæsta númersins.</span><span class="sxs-lookup"><span data-stu-id="77d80-113">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="77d80-114">Gildið verður að vera meira en 0 (núll).</span><span class="sxs-lookup"><span data-stu-id="77d80-114">The value must be more than 0 (zero).</span></span>  
-5. <span data-ttu-id="77d80-115">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="77d80-115">In the list, mark the selected row.</span></span>
-6. <span data-ttu-id="77d80-116">Færa inn gildi í reitnum Vinnusniðmát.</span><span class="sxs-lookup"><span data-stu-id="77d80-116">In the Work template field, type a value.</span></span>
-7. <span data-ttu-id="77d80-117">Færa inn gildi í reitnum lýsingu Vinnusniðmáts.</span><span class="sxs-lookup"><span data-stu-id="77d80-117">In the Work template description field, type a value.</span></span>
-8. <span data-ttu-id="77d80-118">Færa inn eða velja gildi í reitnum Kenni Vinnuklasa.</span><span class="sxs-lookup"><span data-stu-id="77d80-118">In the Work pool ID field, enter or select a value.</span></span>
-9. <span data-ttu-id="77d80-119">Í reitinn Vinnuforgangur skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="77d80-119">In the Work priority field, enter a number.</span></span>
-10. <span data-ttu-id="77d80-120">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="77d80-120">Click Save.</span></span>
-11. <span data-ttu-id="77d80-121">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="77d80-121">Click New.</span></span>
-12. <span data-ttu-id="77d80-122">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="77d80-122">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="77d80-123">Veljið „Talning“ í svæðinu vinnutegund.</span><span class="sxs-lookup"><span data-stu-id="77d80-123">In the Work type field, select 'Counting'.</span></span>
-14. <span data-ttu-id="77d80-124">Færa inn eða velja gildi í reitnum Kenni Vinnuklasa.</span><span class="sxs-lookup"><span data-stu-id="77d80-124">In the Work class ID field, enter or select a value.</span></span>
-15. <span data-ttu-id="77d80-125">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="77d80-125">Click Save.</span></span>
-16. <span data-ttu-id="77d80-126">Smella á Vinnulínuskil.</span><span class="sxs-lookup"><span data-stu-id="77d80-126">Click Work line breaks.</span></span>
-17. <span data-ttu-id="77d80-127">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="77d80-127">Click New.</span></span>
-18. <span data-ttu-id="77d80-128">Í reitinn raðnúmer skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="77d80-128">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="77d80-129">Röðunarpöntunin er frá lægsta númerinu til hæsta númersins.</span><span class="sxs-lookup"><span data-stu-id="77d80-129">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="77d80-130">Gildið verður að vera meira en 0 (núll).</span><span class="sxs-lookup"><span data-stu-id="77d80-130">The value must be more than 0 (zero).</span></span>  
-19. <span data-ttu-id="77d80-131">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="77d80-131">Click Save.</span></span>
-20. <span data-ttu-id="77d80-132">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="77d80-132">Close the page.</span></span>
-21. <span data-ttu-id="77d80-133">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="77d80-133">Close the page.</span></span>
+## <a name="create-a-cycle-counting-work-template"></a><span data-ttu-id="821a2-108">Stofna Vinnusniðmát reglulegrar talningar</span><span class="sxs-lookup"><span data-stu-id="821a2-108">Create a cycle counting work template</span></span>
+1. <span data-ttu-id="821a2-109">Fara í vöruhúsakerfi  > Uppsetning  > Vinna  > Vinnusniðmát.</span><span class="sxs-lookup"><span data-stu-id="821a2-109">Go to Warehouse management > Setup > Work > Work templates.</span></span>
+2. <span data-ttu-id="821a2-110">Í svæðinu gerð vinnupöntunar, skal velja „Regluleg talning“.</span><span class="sxs-lookup"><span data-stu-id="821a2-110">In the Work order type field, select 'Cycle counting'.</span></span>
+3. <span data-ttu-id="821a2-111">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="821a2-111">Click New.</span></span>
+4. <span data-ttu-id="821a2-112">Í reitinn raðnúmer skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="821a2-112">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="821a2-113">Röðunarpöntunin er frá lægsta númerinu til hæsta númersins.</span><span class="sxs-lookup"><span data-stu-id="821a2-113">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="821a2-114">Gildið verður að vera meira en 0 (núll).</span><span class="sxs-lookup"><span data-stu-id="821a2-114">The value must be more than 0 (zero).</span></span>  
+5. <span data-ttu-id="821a2-115">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="821a2-115">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="821a2-116">Færa inn gildi í reitnum Vinnusniðmát.</span><span class="sxs-lookup"><span data-stu-id="821a2-116">In the Work template field, type a value.</span></span>
+7. <span data-ttu-id="821a2-117">Færa inn gildi í reitnum lýsingu Vinnusniðmáts.</span><span class="sxs-lookup"><span data-stu-id="821a2-117">In the Work template description field, type a value.</span></span>
+8. <span data-ttu-id="821a2-118">Færa inn eða velja gildi í reitnum Kenni Vinnuklasa.</span><span class="sxs-lookup"><span data-stu-id="821a2-118">In the Work pool ID field, enter or select a value.</span></span>
+9. <span data-ttu-id="821a2-119">Í reitinn Vinnuforgangur skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="821a2-119">In the Work priority field, enter a number.</span></span>
+10. <span data-ttu-id="821a2-120">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="821a2-120">Click Save.</span></span>
+11. <span data-ttu-id="821a2-121">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="821a2-121">Click New.</span></span>
+12. <span data-ttu-id="821a2-122">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="821a2-122">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="821a2-123">Veljið „Talning“ í svæðinu vinnutegund.</span><span class="sxs-lookup"><span data-stu-id="821a2-123">In the Work type field, select 'Counting'.</span></span>
+14. <span data-ttu-id="821a2-124">Færa inn eða velja gildi í reitnum Kenni Vinnuklasa.</span><span class="sxs-lookup"><span data-stu-id="821a2-124">In the Work class ID field, enter or select a value.</span></span>
+15. <span data-ttu-id="821a2-125">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="821a2-125">Click Save.</span></span>
+16. <span data-ttu-id="821a2-126">Smella á Vinnulínuskil.</span><span class="sxs-lookup"><span data-stu-id="821a2-126">Click Work line breaks.</span></span>
+17. <span data-ttu-id="821a2-127">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="821a2-127">Click New.</span></span>
+18. <span data-ttu-id="821a2-128">Í reitinn raðnúmer skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="821a2-128">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="821a2-129">Röðunarpöntunin er frá lægsta númerinu til hæsta númersins.</span><span class="sxs-lookup"><span data-stu-id="821a2-129">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="821a2-130">Gildið verður að vera meira en 0 (núll).</span><span class="sxs-lookup"><span data-stu-id="821a2-130">The value must be more than 0 (zero).</span></span>  
+19. <span data-ttu-id="821a2-131">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="821a2-131">Click Save.</span></span>
+20. <span data-ttu-id="821a2-132">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="821a2-132">Close the page.</span></span>
+21. <span data-ttu-id="821a2-133">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="821a2-133">Close the page.</span></span>
 
-## <a name="create-a-cycle-counting-plan"></a><span data-ttu-id="77d80-134">Stofna áætlun um reglulega talningu</span><span class="sxs-lookup"><span data-stu-id="77d80-134">Create a cycle counting plan</span></span>
-1. <span data-ttu-id="77d80-135">Fara í vöruhúsakerfi > Uppsetning > Reglulega talningu > Áætlanir um reglulega talningu.</span><span class="sxs-lookup"><span data-stu-id="77d80-135">Go to Warehouse management > Setup > Cycle counting > Cycle count plans.</span></span>
-2. <span data-ttu-id="77d80-136">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="77d80-136">Click New.</span></span>
-3. <span data-ttu-id="77d80-137">Í reitnum Auðkenni fyrir áætlun um reglulega talningu skal færa inn gildi.</span><span class="sxs-lookup"><span data-stu-id="77d80-137">In the Cycle counting plan ID field, type a value.</span></span>
-4. <span data-ttu-id="77d80-138">Í reitinn Lýsing skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="77d80-138">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="77d80-139">Í reitnum Hámarksfjöldi reglulegrar talningar skal færa inn tölu.</span><span class="sxs-lookup"><span data-stu-id="77d80-139">In the Maximum number of cycle counts field, enter a number.</span></span>
-6. <span data-ttu-id="77d80-140">Sláið inn eða veldu gildi í reitnum vinnusniðmát.</span><span class="sxs-lookup"><span data-stu-id="77d80-140">In the Work template field, enter or select a value.</span></span>
-7. <span data-ttu-id="77d80-141">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="77d80-141">Click New.</span></span>
-8. <span data-ttu-id="77d80-142">Í reitinn raðnúmer skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="77d80-142">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="77d80-143">Röðunarpöntunin er frá lægsta númerinu til hæsta númersins.</span><span class="sxs-lookup"><span data-stu-id="77d80-143">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="77d80-144">Gildið verður að vera meira en 0 (núll).</span><span class="sxs-lookup"><span data-stu-id="77d80-144">The value must be more than 0 (zero).</span></span>  
-9. <span data-ttu-id="77d80-145">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="77d80-145">In the Description field, type a value.</span></span>
-10. <span data-ttu-id="77d80-146">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="77d80-146">Click Save.</span></span>
-11. <span data-ttu-id="77d80-147">Smella á Skilgreina fyrirspurn um afurð</span><span class="sxs-lookup"><span data-stu-id="77d80-147">Click Define product query.</span></span>
-12. <span data-ttu-id="77d80-148">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="77d80-148">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="77d80-149">Í reitinn Skilyrði skal slá inn eða veldu gildi.</span><span class="sxs-lookup"><span data-stu-id="77d80-149">In the Criteria field, enter or select a value.</span></span>
-14. <span data-ttu-id="77d80-150">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="77d80-150">Click OK.</span></span>
-15. <span data-ttu-id="77d80-151">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="77d80-151">Close the page.</span></span>
+## <a name="create-a-cycle-counting-plan"></a><span data-ttu-id="821a2-134">Stofna áætlun um reglulega talningu</span><span class="sxs-lookup"><span data-stu-id="821a2-134">Create a cycle counting plan</span></span>
+1. <span data-ttu-id="821a2-135">Fara í vöruhúsakerfi > Uppsetning > Reglulega talningu > Áætlanir um reglulega talningu.</span><span class="sxs-lookup"><span data-stu-id="821a2-135">Go to Warehouse management > Setup > Cycle counting > Cycle count plans.</span></span>
+2. <span data-ttu-id="821a2-136">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="821a2-136">Click New.</span></span>
+3. <span data-ttu-id="821a2-137">Í reitnum Auðkenni fyrir áætlun um reglulega talningu skal færa inn gildi.</span><span class="sxs-lookup"><span data-stu-id="821a2-137">In the Cycle counting plan ID field, type a value.</span></span>
+4. <span data-ttu-id="821a2-138">Í reitinn Lýsing skal slá inn gildi.</span><span class="sxs-lookup"><span data-stu-id="821a2-138">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="821a2-139">Í reitnum Hámarksfjöldi reglulegrar talningar skal færa inn tölu.</span><span class="sxs-lookup"><span data-stu-id="821a2-139">In the Maximum number of cycle counts field, enter a number.</span></span>
+6. <span data-ttu-id="821a2-140">Sláið inn eða veldu gildi í reitnum vinnusniðmát.</span><span class="sxs-lookup"><span data-stu-id="821a2-140">In the Work template field, enter or select a value.</span></span>
+7. <span data-ttu-id="821a2-141">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="821a2-141">Click New.</span></span>
+8. <span data-ttu-id="821a2-142">Í reitinn raðnúmer skal slá inn númer.</span><span class="sxs-lookup"><span data-stu-id="821a2-142">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="821a2-143">Röðunarpöntunin er frá lægsta númerinu til hæsta númersins.</span><span class="sxs-lookup"><span data-stu-id="821a2-143">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="821a2-144">Gildið verður að vera meira en 0 (núll).</span><span class="sxs-lookup"><span data-stu-id="821a2-144">The value must be more than 0 (zero).</span></span>  
+9. <span data-ttu-id="821a2-145">Sláið inn gildi í reitnum „Lýsing“.</span><span class="sxs-lookup"><span data-stu-id="821a2-145">In the Description field, type a value.</span></span>
+10. <span data-ttu-id="821a2-146">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="821a2-146">Click Save.</span></span>
+11. <span data-ttu-id="821a2-147">Smella á Skilgreina fyrirspurn um afurð</span><span class="sxs-lookup"><span data-stu-id="821a2-147">Click Define product query.</span></span>
+12. <span data-ttu-id="821a2-148">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="821a2-148">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="821a2-149">Í reitinn Skilyrði skal slá inn eða veldu gildi.</span><span class="sxs-lookup"><span data-stu-id="821a2-149">In the Criteria field, enter or select a value.</span></span>
+14. <span data-ttu-id="821a2-150">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="821a2-150">Click OK.</span></span>
+15. <span data-ttu-id="821a2-151">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="821a2-151">Close the page.</span></span>
 

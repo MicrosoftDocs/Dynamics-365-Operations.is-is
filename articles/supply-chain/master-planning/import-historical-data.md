@@ -2,7 +2,7 @@
 title: Gögn flutt út fyrir eftirspurnarspár
 description: Til að fá nákvæmar spár um eftirspurn þarf að hafa söguleg eftirspurnargögn fyrir hverja vöru eða vöruúthlutunarlykil. Þetta efnisatriði útskýrir hvernig á að nota gagnaeiningar til að flytja inn söguleg eftirspurnargögn úr hvaða kerfi sem er þannig að notandi hafi lengri sögu yfir eftirspurnargögn.
 author: roxanadiaconu
-manager: AnnBe
+manager: tfehr
 ms.date: 05/10/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.assetid: 59c0d269-9db0-48e7-b8c7-9a388781a9ca
 ms.search.region: Global
@@ -18,44 +18,44 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69e5511507512f62a4a6d8b1d189f0bf12f0b0a8
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 97e84b478b8fd65313d8c3be5c9a50756d8b4924
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2017436"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213843"
 ---
-# <a name="import-historical-data-for-demand-forecasts"></a><span data-ttu-id="9cd2f-104">Gögn flutt út fyrir eftirspurnarspár</span><span class="sxs-lookup"><span data-stu-id="9cd2f-104">Import historical data for demand forecasts</span></span>
+# <a name="import-historical-data-for-demand-forecasts"></a><span data-ttu-id="08d1b-104">Gögn flutt út fyrir eftirspurnarspár</span><span class="sxs-lookup"><span data-stu-id="08d1b-104">Import historical data for demand forecasts</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="9cd2f-105">Til að tryggja aukna nákvæmni spár um eftirspurn þarf að hafa eins mikið af sögulegum eftirspurnargögnum og hægt er að fá fyrir hverja vöru eða hvern vöruúthlutunarlykil.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-105">To help guarantee the accuracy of demand forecasts, you must have as much historical demand data as you can get per item or item allocation key.</span></span> <span data-ttu-id="9cd2f-106">Ef söguleg eftirspurnargögn hafa ekki þegar verið flutt inn skal nota gagnaeininguna **Söguleg ytri eftirspurn** (ReqDemPlanHistoricalExternalDemandEntity) í Dynamics 365 Supply Chain Management til að flytja þau inn.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-106">If the historical demand data isn't already imported, use the **Historical external demand** (ReqDemPlanHistoricalExternalDemandEntity) data entity in Dynamics 365 Supply Chain Management to import it.</span></span>
+<span data-ttu-id="08d1b-105">Til að tryggja aukna nákvæmni spár um eftirspurn þarf að hafa eins mikið af sögulegum eftirspurnargögnum og hægt er að fá fyrir hverja vöru eða hvern vöruúthlutunarlykil.</span><span class="sxs-lookup"><span data-stu-id="08d1b-105">To help guarantee the accuracy of demand forecasts, you must have as much historical demand data as you can get per item or item allocation key.</span></span> <span data-ttu-id="08d1b-106">Ef söguleg eftirspurnargögn hafa ekki þegar verið flutt inn skal nota gagnaeininguna **Söguleg ytri eftirspurn** (ReqDemPlanHistoricalExternalDemandEntity) í Dynamics 365 Supply Chain Management til að flytja þau inn.</span><span class="sxs-lookup"><span data-stu-id="08d1b-106">If the historical demand data isn't already imported, use the **Historical external demand** (ReqDemPlanHistoricalExternalDemandEntity) data entity in Dynamics 365 Supply Chain Management to import it.</span></span>
 
-<span data-ttu-id="9cd2f-107">Á vinnusvæðinu **Gagnastjórnun** er hægt að sjá yfirlit yfir alla reiti í einingunni.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-107">In the **Data management** workspace, you can see an overview of all the fields in the entity.</span></span>
+<span data-ttu-id="08d1b-107">Á vinnusvæðinu **Gagnastjórnun** er hægt að sjá yfirlit yfir alla reiti í einingunni.</span><span class="sxs-lookup"><span data-stu-id="08d1b-107">In the **Data management** workspace, you can see an overview of all the fields in the entity.</span></span>
 
-1. <span data-ttu-id="9cd2f-108">Opnaðu vinnusvæðið **Gagnastjórnun**.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-108">Open the **Data management** workspace.</span></span>
-2. <span data-ttu-id="9cd2f-109">Smellið á reitinn **Gagnaeiningar**.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-109">Click the **Data entities** tile.</span></span>
-3. <span data-ttu-id="9cd2f-110">Leitið í einingalistanum fyrir **Söguleg ytri eftirspurn**.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-110">Search the entity list for **Historical external demand**.</span></span>
-4. <span data-ttu-id="9cd2f-111">Smellið á **Markreitir**.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-111">Click **Target fields**.</span></span> <span data-ttu-id="9cd2f-112">Eftirfarandi einingareitir eru áskildir: vefsvæði (**DeliveringSiteId**), dagsetning (**DemandDate**), magn (**DemandQuantity**) og annað hvort vörunúmer (**ItemNumber**) eða úthlutunarlykill vöru (**ProductAllocationKeyId**).</span><span class="sxs-lookup"><span data-stu-id="9cd2f-112">The following entity fields are mandatory: site (**DeliveringSiteId**), date (**DemandDate**), quantity (**DemandQuantity**), and either item number (**ItemNumber**) or item allocation key (**ProductAllocationKeyId**).</span></span>
+1. <span data-ttu-id="08d1b-108">Opnaðu vinnusvæðið **Gagnastjórnun**.</span><span class="sxs-lookup"><span data-stu-id="08d1b-108">Open the **Data management** workspace.</span></span>
+2. <span data-ttu-id="08d1b-109">Smellið á reitinn **Gagnaeiningar**.</span><span class="sxs-lookup"><span data-stu-id="08d1b-109">Click the **Data entities** tile.</span></span>
+3. <span data-ttu-id="08d1b-110">Leitið í einingalistanum fyrir **Söguleg ytri eftirspurn**.</span><span class="sxs-lookup"><span data-stu-id="08d1b-110">Search the entity list for **Historical external demand**.</span></span>
+4. <span data-ttu-id="08d1b-111">Smellið á **Markreitir**.</span><span class="sxs-lookup"><span data-stu-id="08d1b-111">Click **Target fields**.</span></span> <span data-ttu-id="08d1b-112">Eftirfarandi einingareitir eru áskildir: vefsvæði (**DeliveringSiteId**), dagsetning (**DemandDate**), magn (**DemandQuantity**) og annað hvort vörunúmer (**ItemNumber**) eða úthlutunarlykill vöru (**ProductAllocationKeyId**).</span><span class="sxs-lookup"><span data-stu-id="08d1b-112">The following entity fields are mandatory: site (**DeliveringSiteId**), date (**DemandDate**), quantity (**DemandQuantity**), and either item number (**ItemNumber**) or item allocation key (**ProductAllocationKeyId**).</span></span>
 
-<span data-ttu-id="9cd2f-113">Til að nota gagnaeininguna verður að hafa annað hvort Microsoft Excel-skrá eða skrá með gildum aðgreindum með kommum (CSV) sem inniheldur sögulegu eftirspurnargögnin.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-113">To use the data entity, you must have a Microsoft Excel file or comma-separated values (CSV) file that contains the historical demand data.</span></span> <span data-ttu-id="9cd2f-114">Eftirfarandi dæmi sýnir hvernig á að flytja gögn úr CSV-skrá.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-114">The following example shows how to import the data from a CSV file.</span></span>
+<span data-ttu-id="08d1b-113">Til að nota gagnaeininguna verður að hafa annað hvort Microsoft Excel-skrá eða skrá með gildum aðgreindum með kommum (CSV) sem inniheldur sögulegu eftirspurnargögnin.</span><span class="sxs-lookup"><span data-stu-id="08d1b-113">To use the data entity, you must have a Microsoft Excel file or comma-separated values (CSV) file that contains the historical demand data.</span></span> <span data-ttu-id="08d1b-114">Eftirfarandi dæmi sýnir hvernig á að flytja gögn úr CSV-skrá.</span><span class="sxs-lookup"><span data-stu-id="08d1b-114">The following example shows how to import the data from a CSV file.</span></span>
 
-## <a name="example"></a><span data-ttu-id="9cd2f-115">Dæmi</span><span class="sxs-lookup"><span data-stu-id="9cd2f-115">Example</span></span>
+## <a name="example"></a><span data-ttu-id="08d1b-115">Dæmi</span><span class="sxs-lookup"><span data-stu-id="08d1b-115">Example</span></span>
 
-<span data-ttu-id="9cd2f-116">Hægt er að nota eftirfarandi skrá sem dæmi.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-116">You can use the following file as an example.</span></span> <span data-ttu-id="9cd2f-117">Sæktu [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast).</span><span class="sxs-lookup"><span data-stu-id="9cd2f-117">Download the [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast).</span></span> <span data-ttu-id="9cd2f-118">Þessi skrá inniheldur gögn sögulegar eftirspurnar vöru D0001.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-118">This file contains the historical demand data for item D0001.</span></span> <span data-ttu-id="9cd2f-119">Hún inniheldur aðeins fyrir eftirfarandi skyldusvæði: svæði, magn og dagsetningu eftirspurnar.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-119">It contains only the following mandatory fields: site, quantity, and the demand date.</span></span>
+<span data-ttu-id="08d1b-116">Hægt er að nota eftirfarandi skrá sem dæmi.</span><span class="sxs-lookup"><span data-stu-id="08d1b-116">You can use the following file as an example.</span></span> <span data-ttu-id="08d1b-117">Sæktu [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast).</span><span class="sxs-lookup"><span data-stu-id="08d1b-117">Download the [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast).</span></span> <span data-ttu-id="08d1b-118">Þessi skrá inniheldur gögn sögulegar eftirspurnar vöru D0001.</span><span class="sxs-lookup"><span data-stu-id="08d1b-118">This file contains the historical demand data for item D0001.</span></span> <span data-ttu-id="08d1b-119">Hún inniheldur aðeins fyrir eftirfarandi skyldusvæði: svæði, magn og dagsetningu eftirspurnar.</span><span class="sxs-lookup"><span data-stu-id="08d1b-119">It contains only the following mandatory fields: site, quantity, and the demand date.</span></span>
 
-1. <span data-ttu-id="9cd2f-120">Velja fyrirtæki til að flytja söguleg eftirspurnargögn inn í.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-120">Select the company to import the historical demand data into.</span></span>
-2. <span data-ttu-id="9cd2f-121">Opnaðu vinnusvæðið **Gagnastjórnun**.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-121">Open the **Data management** workspace.</span></span>
-3. <span data-ttu-id="9cd2f-122">Smellið á reitinn **Flytja inn**.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-122">Click the **Import** tile.</span></span>
-4. <span data-ttu-id="9cd2f-123">Færið inn heiti fyrir innflutningsverkið, t.d. **Flytja inn sögulega eftirspurn fyrir vöruna D0001**.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-123">Enter a name for the import project, such as **Import historical demand for item D0001**.</span></span>
-5. <span data-ttu-id="9cd2f-124">Í reitinn **Snið upprunagagna** skal velja skráarsnið skráarinnar sem þú ert að flytja inn.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-124">In the **Source data format** field, select the file format of the file that you're importing.</span></span> <span data-ttu-id="9cd2f-125">Til þess að flytja inn skrána HistoricalDemandData í þessu dæmi skal velja **CSV**.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-125">To import the HistoricalDemandData file for this example, select **CSV**.</span></span>
-6. <span data-ttu-id="9cd2f-126">Í reitinn **Heiti Einingar** skal velja **Söguleg ytri eftirspurn**.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-126">In the **Entity name** field, select **Historical external demand**.</span></span>
-7. <span data-ttu-id="9cd2f-127">Vistaðu skrána í tölvunni og hladdu henni svo upp.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-127">Save the file to your computer, and then upload it.</span></span>
-8. <span data-ttu-id="9cd2f-128">Smelltu á **Flytja inn**.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-128">Click **Import**.</span></span>
-9. <span data-ttu-id="9cd2f-129">Síðan **Samantekt framkvæmdar** opnast sjálfkrafa.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-129">The **Execution summary** page is opened automatically.</span></span> <span data-ttu-id="9cd2f-130">Sannprófaðu innfluttu gögnin á síðunni.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-130">Verify the imported data on the page.</span></span>
+1. <span data-ttu-id="08d1b-120">Velja fyrirtæki til að flytja söguleg eftirspurnargögn inn í.</span><span class="sxs-lookup"><span data-stu-id="08d1b-120">Select the company to import the historical demand data into.</span></span>
+2. <span data-ttu-id="08d1b-121">Opnaðu vinnusvæðið **Gagnastjórnun**.</span><span class="sxs-lookup"><span data-stu-id="08d1b-121">Open the **Data management** workspace.</span></span>
+3. <span data-ttu-id="08d1b-122">Smellið á reitinn **Flytja inn**.</span><span class="sxs-lookup"><span data-stu-id="08d1b-122">Click the **Import** tile.</span></span>
+4. <span data-ttu-id="08d1b-123">Færið inn heiti fyrir innflutningsverkið, t.d. **Flytja inn sögulega eftirspurn fyrir vöruna D0001**.</span><span class="sxs-lookup"><span data-stu-id="08d1b-123">Enter a name for the import project, such as **Import historical demand for item D0001**.</span></span>
+5. <span data-ttu-id="08d1b-124">Í reitinn **Snið upprunagagna** skal velja skráarsnið skráarinnar sem þú ert að flytja inn.</span><span class="sxs-lookup"><span data-stu-id="08d1b-124">In the **Source data format** field, select the file format of the file that you're importing.</span></span> <span data-ttu-id="08d1b-125">Til þess að flytja inn skrána HistoricalDemandData í þessu dæmi skal velja **CSV**.</span><span class="sxs-lookup"><span data-stu-id="08d1b-125">To import the HistoricalDemandData file for this example, select **CSV**.</span></span>
+6. <span data-ttu-id="08d1b-126">Í reitinn **Heiti Einingar** skal velja **Söguleg ytri eftirspurn**.</span><span class="sxs-lookup"><span data-stu-id="08d1b-126">In the **Entity name** field, select **Historical external demand**.</span></span>
+7. <span data-ttu-id="08d1b-127">Vistaðu skrána í tölvunni og hladdu henni svo upp.</span><span class="sxs-lookup"><span data-stu-id="08d1b-127">Save the file to your computer, and then upload it.</span></span>
+8. <span data-ttu-id="08d1b-128">Smelltu á **Flytja inn**.</span><span class="sxs-lookup"><span data-stu-id="08d1b-128">Click **Import**.</span></span>
+9. <span data-ttu-id="08d1b-129">Síðan **Samantekt framkvæmdar** opnast sjálfkrafa.</span><span class="sxs-lookup"><span data-stu-id="08d1b-129">The **Execution summary** page is opened automatically.</span></span> <span data-ttu-id="08d1b-130">Sannprófaðu innfluttu gögnin á síðunni.</span><span class="sxs-lookup"><span data-stu-id="08d1b-130">Verify the imported data on the page.</span></span>
 
-<span data-ttu-id="9cd2f-131">Eftir að söguleg eftirspurnargögn hafa verið flutt inn er hægt að mynda eftirspurnarspá.</span><span class="sxs-lookup"><span data-stu-id="9cd2f-131">After you've imported the historical demand data, you can generate a demand forecast.</span></span>
+<span data-ttu-id="08d1b-131">Eftir að söguleg eftirspurnargögn hafa verið flutt inn er hægt að mynda eftirspurnarspá.</span><span class="sxs-lookup"><span data-stu-id="08d1b-131">After you've imported the historical demand data, you can generate a demand forecast.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="9cd2f-132">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="9cd2f-132">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="08d1b-132">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="08d1b-132">Additional resources</span></span>
 
-[<span data-ttu-id="9cd2f-133">Myndun tölfræðilegrar grunnlínuspár</span><span class="sxs-lookup"><span data-stu-id="9cd2f-133">Generate a statistical baseline forecast</span></span>](generate-statistical-baseline-forecast.md)
+[<span data-ttu-id="08d1b-133">Myndun tölfræðilegrar grunnlínuspár</span><span class="sxs-lookup"><span data-stu-id="08d1b-133">Generate a statistical baseline forecast</span></span>](generate-statistical-baseline-forecast.md)

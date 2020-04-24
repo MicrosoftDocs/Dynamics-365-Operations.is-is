@@ -2,14 +2,14 @@
 title: Fartækjavinnusvæði sölupantana
 description: Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið Sölupantanir. Þetta vinnusvæði hjálpar þér að hafa yfirsýn yfir sölupantanir þínar hvar og hvenær sem er.
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 267134
 ms.assetid: 0ce96511-002b-4de7-b31e-4303f94edc84
@@ -18,127 +18,127 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2e57a410c0c7a73d8ab9e14254fe107d5e5c10db
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7e586496212c0cf5c964b434e442725fcdb25fca
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251622"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212941"
 ---
-# <a name="sales-orders-mobile-workspace"></a><span data-ttu-id="48eb1-104">Fartækjavinnusvæði sölupantana</span><span class="sxs-lookup"><span data-stu-id="48eb1-104">Sales orders mobile workspace</span></span>
+# <a name="sales-orders-mobile-workspace"></a><span data-ttu-id="fb72f-104">Fartækjavinnusvæði sölupantana</span><span class="sxs-lookup"><span data-stu-id="fb72f-104">Sales orders mobile workspace</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="48eb1-105">Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Sölupantanir**.</span><span class="sxs-lookup"><span data-stu-id="48eb1-105">This topic provides information about the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="48eb1-106">Þetta vinnusvæði hjálpar þér að hafa yfirsýn yfir sölupantanir þínar hvar og hvenær sem er.</span><span class="sxs-lookup"><span data-stu-id="48eb1-106">This workspace helps you stay up to date about your sales orders anywhere and anytime.</span></span> 
+<span data-ttu-id="fb72f-105">Þetta efnisatriði veitir upplýsingar um fartækjavinnusvæðið **Sölupantanir**.</span><span class="sxs-lookup"><span data-stu-id="fb72f-105">This topic provides information about the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="fb72f-106">Þetta vinnusvæði hjálpar þér að hafa yfirsýn yfir sölupantanir þínar hvar og hvenær sem er.</span><span class="sxs-lookup"><span data-stu-id="fb72f-106">This workspace helps you stay up to date about your sales orders anywhere and anytime.</span></span> 
 
-<span data-ttu-id="48eb1-107">Þetta fartækjavinnusvæði er ætlað til að nota með farsímaforritið Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="48eb1-107">This mobile workspace is intended to be used with the Finance and Operations mobile app.</span></span>
+<span data-ttu-id="fb72f-107">Þetta fartækjavinnusvæði er ætlað til að nota með farsímaforritið Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="fb72f-107">This mobile workspace is intended to be used with the Finance and Operations mobile app.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="48eb1-108">Yfirlit</span><span class="sxs-lookup"><span data-stu-id="48eb1-108">Overview</span></span>
-<span data-ttu-id="48eb1-109">Í **sölupantanir** farsímaforrit vinnusvæði gerir það mögulegt að skoða nákvæmar upplýsingar um hverja sölupöntun.</span><span class="sxs-lookup"><span data-stu-id="48eb1-109">The **Sales orders** mobile workspace lets you view detailed information about each sales order.</span></span> <span data-ttu-id="48eb1-110">Þessar upplýsingar innihalda einnig stöðu pöntunar, upplýsingar fyrir viðskiptavininn og samskiptaupplýsingar fyrir þann sem pantar.</span><span class="sxs-lookup"><span data-stu-id="48eb1-110">This information includes the status of the order, contact information for the customer, and contact information for the order taker.</span></span> <span data-ttu-id="48eb1-111">Farsímavinnusvæðið **Sölupantanir** veitir fljótlegt yfirlit sölupantana.</span><span class="sxs-lookup"><span data-stu-id="48eb1-111">The **Sales orders** mobile workspace provides an instant view of sales orders.</span></span> <span data-ttu-id="48eb1-112">Hægt er að skoða allar sölupantanir, sölupantanir eftir viðskiptavini, eða skoða upplýsingar um tiltekna sölupöntun.</span><span class="sxs-lookup"><span data-stu-id="48eb1-112">You can view all sales orders, view sales orders by customer, or view information about a specific sales order.</span></span> 
+## <a name="overview"></a><span data-ttu-id="fb72f-108">Yfirlit</span><span class="sxs-lookup"><span data-stu-id="fb72f-108">Overview</span></span>
+<span data-ttu-id="fb72f-109">Í **sölupantanir** farsímaforrit vinnusvæði gerir það mögulegt að skoða nákvæmar upplýsingar um hverja sölupöntun.</span><span class="sxs-lookup"><span data-stu-id="fb72f-109">The **Sales orders** mobile workspace lets you view detailed information about each sales order.</span></span> <span data-ttu-id="fb72f-110">Þessar upplýsingar innihalda einnig stöðu pöntunar, upplýsingar fyrir viðskiptavininn og samskiptaupplýsingar fyrir þann sem pantar.</span><span class="sxs-lookup"><span data-stu-id="fb72f-110">This information includes the status of the order, contact information for the customer, and contact information for the order taker.</span></span> <span data-ttu-id="fb72f-111">Farsímavinnusvæðið **Sölupantanir** veitir fljótlegt yfirlit sölupantana.</span><span class="sxs-lookup"><span data-stu-id="fb72f-111">The **Sales orders** mobile workspace provides an instant view of sales orders.</span></span> <span data-ttu-id="fb72f-112">Hægt er að skoða allar sölupantanir, sölupantanir eftir viðskiptavini, eða skoða upplýsingar um tiltekna sölupöntun.</span><span class="sxs-lookup"><span data-stu-id="fb72f-112">You can view all sales orders, view sales orders by customer, or view information about a specific sales order.</span></span> 
 
-<span data-ttu-id="48eb1-113">Farsímavinnusvæði veitir tvö yfirlit til aðstoðar við að greina sölupantanir í dýpt.</span><span class="sxs-lookup"><span data-stu-id="48eb1-113">The mobile workspace provides two views to help you analyze sale orders in depth.</span></span>
+<span data-ttu-id="fb72f-113">Farsímavinnusvæði veitir tvö yfirlit til aðstoðar við að greina sölupantanir í dýpt.</span><span class="sxs-lookup"><span data-stu-id="fb72f-113">The mobile workspace provides two views to help you analyze sale orders in depth.</span></span>
 
-### <a name="view-all-sales-orders"></a><span data-ttu-id="48eb1-114">Skoða allar sölupantanir</span><span class="sxs-lookup"><span data-stu-id="48eb1-114">View all sales orders</span></span>
-<span data-ttu-id="48eb1-115">Þetta yfirlit sýnir allar sölupantanir.</span><span class="sxs-lookup"><span data-stu-id="48eb1-115">This view lists all sales orders.</span></span>
+### <a name="view-all-sales-orders"></a><span data-ttu-id="fb72f-114">Skoða allar sölupantanir</span><span class="sxs-lookup"><span data-stu-id="fb72f-114">View all sales orders</span></span>
+<span data-ttu-id="fb72f-115">Þetta yfirlit sýnir allar sölupantanir.</span><span class="sxs-lookup"><span data-stu-id="fb72f-115">This view lists all sales orders.</span></span>
 
--   <span data-ttu-id="48eb1-116">Notið eina af eftirfarandi síum til að velja sölupantanir sem skoða á:</span><span class="sxs-lookup"><span data-stu-id="48eb1-116">Use one of the following filters to select the sales orders to view:</span></span>
+-   <span data-ttu-id="fb72f-116">Notið eina af eftirfarandi síum til að velja sölupantanir sem skoða á:</span><span class="sxs-lookup"><span data-stu-id="fb72f-116">Use one of the following filters to select the sales orders to view:</span></span>
 
-    -   <span data-ttu-id="48eb1-117">Leita eftir sölupöntun</span><span class="sxs-lookup"><span data-stu-id="48eb1-117">Search by sales order</span></span>
-    -   <span data-ttu-id="48eb1-118">Leita eftir viðskiptavinalykli</span><span class="sxs-lookup"><span data-stu-id="48eb1-118">Search by customer account</span></span>
-    -   <span data-ttu-id="48eb1-119">Leita eftir nafni viðskiptavinar</span><span class="sxs-lookup"><span data-stu-id="48eb1-119">Search by customer name</span></span>
-    -   <span data-ttu-id="48eb1-120">Leita eftir stöðu</span><span class="sxs-lookup"><span data-stu-id="48eb1-120">Search by status</span></span>
-    -   <span data-ttu-id="48eb1-121">Leita eftir losunarstöðu</span><span class="sxs-lookup"><span data-stu-id="48eb1-121">Search by release status</span></span>
-    -   <span data-ttu-id="48eb1-122">Leita eftir stofndagsetningu og -tíma</span><span class="sxs-lookup"><span data-stu-id="48eb1-122">Search by created date and time</span></span>
+    -   <span data-ttu-id="fb72f-117">Leita eftir sölupöntun</span><span class="sxs-lookup"><span data-stu-id="fb72f-117">Search by sales order</span></span>
+    -   <span data-ttu-id="fb72f-118">Leita eftir viðskiptavinalykli</span><span class="sxs-lookup"><span data-stu-id="fb72f-118">Search by customer account</span></span>
+    -   <span data-ttu-id="fb72f-119">Leita eftir nafni viðskiptavinar</span><span class="sxs-lookup"><span data-stu-id="fb72f-119">Search by customer name</span></span>
+    -   <span data-ttu-id="fb72f-120">Leita eftir stöðu</span><span class="sxs-lookup"><span data-stu-id="fb72f-120">Search by status</span></span>
+    -   <span data-ttu-id="fb72f-121">Leita eftir losunarstöðu</span><span class="sxs-lookup"><span data-stu-id="fb72f-121">Search by release status</span></span>
+    -   <span data-ttu-id="fb72f-122">Leita eftir stofndagsetningu og -tíma</span><span class="sxs-lookup"><span data-stu-id="fb72f-122">Search by created date and time</span></span>
     
--   <span data-ttu-id="48eb1-123">Eftir að sölupantanir eru valdar er hægt að skoða upplýsingar um ákveðnar pantanir.</span><span class="sxs-lookup"><span data-stu-id="48eb1-123">After you select sales orders, you can view the details of specific orders.</span></span> <span data-ttu-id="48eb1-124">Sérstaklega er hægt að skoða eftirfarandi upplýsingar:</span><span class="sxs-lookup"><span data-stu-id="48eb1-124">Specifically, you can view the following information:</span></span>
+-   <span data-ttu-id="fb72f-123">Eftir að sölupantanir eru valdar er hægt að skoða upplýsingar um ákveðnar pantanir.</span><span class="sxs-lookup"><span data-stu-id="fb72f-123">After you select sales orders, you can view the details of specific orders.</span></span> <span data-ttu-id="fb72f-124">Sérstaklega er hægt að skoða eftirfarandi upplýsingar:</span><span class="sxs-lookup"><span data-stu-id="fb72f-124">Specifically, you can view the following information:</span></span>
 
-    -   <span data-ttu-id="48eb1-125">Upplýsingar um nafn og aðsetur viðskiptavinar</span><span class="sxs-lookup"><span data-stu-id="48eb1-125">Customer name and address information</span></span>
-    -   <span data-ttu-id="48eb1-126">Mismunandi dagsetningar fyrir sölupöntun, svo sem umbeðin sendingardagsetning og staðfest sendingardagsetning</span><span class="sxs-lookup"><span data-stu-id="48eb1-126">Various dates for the sales order, such as the requested ship date and the confirmed ship date</span></span>
-    -   <span data-ttu-id="48eb1-127">Samskiptaupplýsingar fyrir þann sem pantar</span><span class="sxs-lookup"><span data-stu-id="48eb1-127">Contact information for the order taker</span></span>
-    -   <span data-ttu-id="48eb1-128">Tengslaupplýsingar viðskiptavinar</span><span class="sxs-lookup"><span data-stu-id="48eb1-128">Customer contact information</span></span>
-    -   <span data-ttu-id="48eb1-129">Pantanalínur</span><span class="sxs-lookup"><span data-stu-id="48eb1-129">Order lines</span></span>
-    -   <span data-ttu-id="48eb1-130">Sendingar sem sýna hvar og hvenær sölupöntun hefur verið send</span><span class="sxs-lookup"><span data-stu-id="48eb1-130">Shipments that show how and when a sales order was shipped</span></span>
+    -   <span data-ttu-id="fb72f-125">Upplýsingar um nafn og aðsetur viðskiptavinar</span><span class="sxs-lookup"><span data-stu-id="fb72f-125">Customer name and address information</span></span>
+    -   <span data-ttu-id="fb72f-126">Mismunandi dagsetningar fyrir sölupöntun, svo sem umbeðin sendingardagsetning og staðfest sendingardagsetning</span><span class="sxs-lookup"><span data-stu-id="fb72f-126">Various dates for the sales order, such as the requested ship date and the confirmed ship date</span></span>
+    -   <span data-ttu-id="fb72f-127">Samskiptaupplýsingar fyrir þann sem pantar</span><span class="sxs-lookup"><span data-stu-id="fb72f-127">Contact information for the order taker</span></span>
+    -   <span data-ttu-id="fb72f-128">Tengslaupplýsingar viðskiptavinar</span><span class="sxs-lookup"><span data-stu-id="fb72f-128">Customer contact information</span></span>
+    -   <span data-ttu-id="fb72f-129">Pantanalínur</span><span class="sxs-lookup"><span data-stu-id="fb72f-129">Order lines</span></span>
+    -   <span data-ttu-id="fb72f-130">Sendingar sem sýna hvar og hvenær sölupöntun hefur verið send</span><span class="sxs-lookup"><span data-stu-id="fb72f-130">Shipments that show how and when a sales order was shipped</span></span>
 
-### <a name="view-orders-for-a-customer"></a><span data-ttu-id="48eb1-131">Skoða pantanir fyrir viðskiptavin</span><span class="sxs-lookup"><span data-stu-id="48eb1-131">View orders for a customer</span></span>
-<span data-ttu-id="48eb1-132">Þetta yfirlit sýnir sölupantanir eftir viðskiptavini.</span><span class="sxs-lookup"><span data-stu-id="48eb1-132">This view lists sales orders by customer.</span></span>
+### <a name="view-orders-for-a-customer"></a><span data-ttu-id="fb72f-131">Skoða pantanir fyrir viðskiptavin</span><span class="sxs-lookup"><span data-stu-id="fb72f-131">View orders for a customer</span></span>
+<span data-ttu-id="fb72f-132">Þetta yfirlit sýnir sölupantanir eftir viðskiptavini.</span><span class="sxs-lookup"><span data-stu-id="fb72f-132">This view lists sales orders by customer.</span></span>
 
--   <span data-ttu-id="48eb1-133">Notið eina af eftirfarandi síum til að skoða pantanir fyrir viðskiptavin:</span><span class="sxs-lookup"><span data-stu-id="48eb1-133">Use one of the following filters to view orders for a customer:</span></span>
+-   <span data-ttu-id="fb72f-133">Notið eina af eftirfarandi síum til að skoða pantanir fyrir viðskiptavin:</span><span class="sxs-lookup"><span data-stu-id="fb72f-133">Use one of the following filters to view orders for a customer:</span></span>
 
-    -   <span data-ttu-id="48eb1-134">Leita eftir nafni</span><span class="sxs-lookup"><span data-stu-id="48eb1-134">Search by name</span></span>
-    -   <span data-ttu-id="48eb1-135">Leita eftir lykli</span><span class="sxs-lookup"><span data-stu-id="48eb1-135">Search by account</span></span>
+    -   <span data-ttu-id="fb72f-134">Leita eftir nafni</span><span class="sxs-lookup"><span data-stu-id="fb72f-134">Search by name</span></span>
+    -   <span data-ttu-id="fb72f-135">Leita eftir lykli</span><span class="sxs-lookup"><span data-stu-id="fb72f-135">Search by account</span></span>
 
--   <span data-ttu-id="48eb1-136">Þegar viðskiptavinur er valinn er hægt að skoða eftirfarandi upplýsingar:</span><span class="sxs-lookup"><span data-stu-id="48eb1-136">After you select a customer, you can view the following information:</span></span>
+-   <span data-ttu-id="fb72f-136">Þegar viðskiptavinur er valinn er hægt að skoða eftirfarandi upplýsingar:</span><span class="sxs-lookup"><span data-stu-id="fb72f-136">After you select a customer, you can view the following information:</span></span>
 
-    -   <span data-ttu-id="48eb1-137">Heiti og flokkur viðskiptavinar</span><span class="sxs-lookup"><span data-stu-id="48eb1-137">Customer name and group</span></span>
-    -   <span data-ttu-id="48eb1-138">Tengslaupplýsingar viðskiptavinar</span><span class="sxs-lookup"><span data-stu-id="48eb1-138">Customer contact information</span></span>
-    -   <span data-ttu-id="48eb1-139">Sölupantanir viðskiptavinar og upplýsingar um sölupantanirnar:</span><span class="sxs-lookup"><span data-stu-id="48eb1-139">Customer sales orders and details about those sales orders:</span></span>
+    -   <span data-ttu-id="fb72f-137">Heiti og flokkur viðskiptavinar</span><span class="sxs-lookup"><span data-stu-id="fb72f-137">Customer name and group</span></span>
+    -   <span data-ttu-id="fb72f-138">Tengslaupplýsingar viðskiptavinar</span><span class="sxs-lookup"><span data-stu-id="fb72f-138">Customer contact information</span></span>
+    -   <span data-ttu-id="fb72f-139">Sölupantanir viðskiptavinar og upplýsingar um sölupantanirnar:</span><span class="sxs-lookup"><span data-stu-id="fb72f-139">Customer sales orders and details about those sales orders:</span></span>
     
-        -   <span data-ttu-id="48eb1-140">Upplýsingar um nafn og aðsetur viðskiptavinar</span><span class="sxs-lookup"><span data-stu-id="48eb1-140">Customer name and address information</span></span>
-        -   <span data-ttu-id="48eb1-141">Mismunandi dagsetningar sölupöntunar</span><span class="sxs-lookup"><span data-stu-id="48eb1-141">Various sales order dates</span></span>
-        -   <span data-ttu-id="48eb1-142">Samskiptaupplýsingar fyrir þann sem pantar</span><span class="sxs-lookup"><span data-stu-id="48eb1-142">Contact information for the order taker</span></span>
-        -   <span data-ttu-id="48eb1-143">Tengslaupplýsingar viðskiptavinar</span><span class="sxs-lookup"><span data-stu-id="48eb1-143">Customer contact information</span></span>
-        -   <span data-ttu-id="48eb1-144">Pantanalínur</span><span class="sxs-lookup"><span data-stu-id="48eb1-144">Order lines</span></span>
-        -   <span data-ttu-id="48eb1-145">Sendingar sem sýna hvar og hvenær sölupöntun hefur verið send</span><span class="sxs-lookup"><span data-stu-id="48eb1-145">Shipments that show how and when a sales order was shipped</span></span>
+        -   <span data-ttu-id="fb72f-140">Upplýsingar um nafn og aðsetur viðskiptavinar</span><span class="sxs-lookup"><span data-stu-id="fb72f-140">Customer name and address information</span></span>
+        -   <span data-ttu-id="fb72f-141">Mismunandi dagsetningar sölupöntunar</span><span class="sxs-lookup"><span data-stu-id="fb72f-141">Various sales order dates</span></span>
+        -   <span data-ttu-id="fb72f-142">Samskiptaupplýsingar fyrir þann sem pantar</span><span class="sxs-lookup"><span data-stu-id="fb72f-142">Contact information for the order taker</span></span>
+        -   <span data-ttu-id="fb72f-143">Tengslaupplýsingar viðskiptavinar</span><span class="sxs-lookup"><span data-stu-id="fb72f-143">Customer contact information</span></span>
+        -   <span data-ttu-id="fb72f-144">Pantanalínur</span><span class="sxs-lookup"><span data-stu-id="fb72f-144">Order lines</span></span>
+        -   <span data-ttu-id="fb72f-145">Sendingar sem sýna hvar og hvenær sölupöntun hefur verið send</span><span class="sxs-lookup"><span data-stu-id="fb72f-145">Shipments that show how and when a sales order was shipped</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="48eb1-146">Forkröfur</span><span class="sxs-lookup"><span data-stu-id="48eb1-146">Prerequisites</span></span>
-<span data-ttu-id="48eb1-147">Skilyrðin eru breytileg, byggt á útgáfu Microsoft Dynamics 365 sem hefur verið sett upp fyrir fyrirtækið þitt.</span><span class="sxs-lookup"><span data-stu-id="48eb1-147">The prerequisites differ, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="fb72f-146">Forkröfur</span><span class="sxs-lookup"><span data-stu-id="fb72f-146">Prerequisites</span></span>
+<span data-ttu-id="fb72f-147">Skilyrðin eru breytileg, byggt á útgáfu Microsoft Dynamics 365 sem hefur verið sett upp fyrir fyrirtækið þitt.</span><span class="sxs-lookup"><span data-stu-id="fb72f-147">The prerequisites differ, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-supply-chain-management"></a><span data-ttu-id="48eb1-148">Forkröfur ef þú notar Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="48eb1-148">Prerequisites if you use Supply Chain Management</span></span> 
-<span data-ttu-id="48eb1-149">Ef Supply Chain Management hefur verið innleitt í fyrirtækinu verður kerfisstjóri að birta fartækjavinnusvæðið **Sölupantanir**.</span><span class="sxs-lookup"><span data-stu-id="48eb1-149">If Supply Chain Management has been deployed for your organization, the system administrator must publish the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="48eb1-150">Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).</span><span class="sxs-lookup"><span data-stu-id="48eb1-150">For instructions, see [Publish a mobile workspace](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).</span></span>
+### <a name="prerequisites-if-you-use-supply-chain-management"></a><span data-ttu-id="fb72f-148">Forkröfur ef þú notar Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="fb72f-148">Prerequisites if you use Supply Chain Management</span></span> 
+<span data-ttu-id="fb72f-149">Ef Supply Chain Management hefur verið innleitt í fyrirtækinu verður kerfisstjóri að birta fartækjavinnusvæðið **Sölupantanir**.</span><span class="sxs-lookup"><span data-stu-id="fb72f-149">If Supply Chain Management has been deployed for your organization, the system administrator must publish the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="fb72f-150">Leiðbeiningar er að finna í [Fartækjavinnusvæði birt](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).</span><span class="sxs-lookup"><span data-stu-id="fb72f-150">For instructions, see [Publish a mobile workspace](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).</span></span>
 
-### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="48eb1-151">Skilyrði ef þú notar Dynamics 365 for Operations útgáfu 1611 með verkvangsuppfærslu 3 eða síðar</span><span class="sxs-lookup"><span data-stu-id="48eb1-151">Prerequisites if you use Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
-<span data-ttu-id="48eb1-152">Ef Dynamics 365 for Operations útgáfa 1611 með verkvangsuppfærslu 3 eða síðar hefur verið sett upp fyrir fyrirtækið þitt, verður kerfisstjórinn að ljúka eftirfarandi skilyrðum.</span><span class="sxs-lookup"><span data-stu-id="48eb1-152">If Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
+### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="fb72f-151">Skilyrði ef þú notar Dynamics 365 for Operations útgáfu 1611 með verkvangsuppfærslu 3 eða síðar</span><span class="sxs-lookup"><span data-stu-id="fb72f-151">Prerequisites if you use Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="fb72f-152">Ef Dynamics 365 for Operations útgáfa 1611 með verkvangsuppfærslu 3 eða síðar hefur verið sett upp fyrir fyrirtækið þitt, verður kerfisstjórinn að ljúka eftirfarandi skilyrðum.</span><span class="sxs-lookup"><span data-stu-id="fb72f-152">If Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="48eb1-153">Skilyrði</span><span class="sxs-lookup"><span data-stu-id="48eb1-153">Prerequisite</span></span></th>
-<th><span data-ttu-id="48eb1-154">Hlutverk</span><span class="sxs-lookup"><span data-stu-id="48eb1-154">Role</span></span></th>
-<th><span data-ttu-id="48eb1-155">lýsing</span><span class="sxs-lookup"><span data-stu-id="48eb1-155">Description</span></span></th>
+<th><span data-ttu-id="fb72f-153">Skilyrði</span><span class="sxs-lookup"><span data-stu-id="fb72f-153">Prerequisite</span></span></th>
+<th><span data-ttu-id="fb72f-154">Hlutverk</span><span class="sxs-lookup"><span data-stu-id="fb72f-154">Role</span></span></th>
+<th><span data-ttu-id="fb72f-155">lýsing</span><span class="sxs-lookup"><span data-stu-id="fb72f-155">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="48eb1-156">Innleiða KB 4013633.</span><span class="sxs-lookup"><span data-stu-id="48eb1-156">Implement KB 4013633.</span></span></td>
-<td><span data-ttu-id="48eb1-157">Kerfisstjóri</span><span class="sxs-lookup"><span data-stu-id="48eb1-157">System administrator</span></span></td>
+<td><span data-ttu-id="fb72f-156">Innleiða KB 4013633.</span><span class="sxs-lookup"><span data-stu-id="fb72f-156">Implement KB 4013633.</span></span></td>
+<td><span data-ttu-id="fb72f-157">Kerfisstjóri</span><span class="sxs-lookup"><span data-stu-id="fb72f-157">System administrator</span></span></td>
 
-<td><span data-ttu-id="48eb1-158">KB 4013633 er X++ uppfærsla eða lýsigagnabráðabót sem inniheldur fartækjavinnusvæðið <strong>Sölupantanir</strong>.</span><span class="sxs-lookup"><span data-stu-id="48eb1-158">KB 4013633 is an X++ update or metadata hotfix that contains the <strong>Sales orders</strong> mobile workspace.</span></span> <span data-ttu-id="48eb1-159">Til að setja upp KB 4013633 verður kerfisstjóri að fylgja eftirfarandi skrefum.</span><span class="sxs-lookup"><span data-stu-id="48eb1-159">To implement KB 4013633, your system administrator must follow these steps.</span></span>
+<td><span data-ttu-id="fb72f-158">KB 4013633 er X++ uppfærsla eða lýsigagnabráðabót sem inniheldur fartækjavinnusvæðið <strong>Sölupantanir</strong>.</span><span class="sxs-lookup"><span data-stu-id="fb72f-158">KB 4013633 is an X++ update or metadata hotfix that contains the <strong>Sales orders</strong> mobile workspace.</span></span> <span data-ttu-id="fb72f-159">Til að setja upp KB 4013633 verður kerfisstjóri að fylgja eftirfarandi skrefum.</span><span class="sxs-lookup"><span data-stu-id="fb72f-159">To implement KB 4013633, your system administrator must follow these steps.</span></span>
 <ol>
-<li><span data-ttu-id="48eb1-160"><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Sækja bráðabót lýsigagna frá Microsoft Dynamics Lifecycle Services (LCS)</a>.</span><span class="sxs-lookup"><span data-stu-id="48eb1-160"><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
-<li><span data-ttu-id="48eb1-161"><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Setja upp bráðabót lýsigagna</a>.</span><span class="sxs-lookup"><span data-stu-id="48eb1-161"><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Install the metadata hotfix</a>.</span></span></li>
-<li><span data-ttu-id="48eb1-162"><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Stofna virkjanlegan pakka</a> sem inniheldur <strong>SCMMobile</strong> líkanið og hlaða síðan virkjanlega pakkann í LCS.</span><span class="sxs-lookup"><span data-stu-id="48eb1-162"><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Create a deployable package</a> that contains the <strong>SCMMobile</strong> model, and then upload the deployable package to LCS.</span></span></li>
-<li><span data-ttu-id="48eb1-163"><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Notaðu virkjanlega pakkann</a>.</span><span class="sxs-lookup"><span data-stu-id="48eb1-163"><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Apply the deployable package</a>.</span></span></li>
+<li><span data-ttu-id="fb72f-160"><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Sækja bráðabót lýsigagna frá Microsoft Dynamics Lifecycle Services (LCS)</a>.</span><span class="sxs-lookup"><span data-stu-id="fb72f-160"><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
+<li><span data-ttu-id="fb72f-161"><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Setja upp bráðabót lýsigagna</a>.</span><span class="sxs-lookup"><span data-stu-id="fb72f-161"><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="fb72f-162"><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Stofna virkjanlegan pakka</a> sem inniheldur <strong>SCMMobile</strong> líkanið og hlaða síðan virkjanlega pakkann í LCS.</span><span class="sxs-lookup"><span data-stu-id="fb72f-162"><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Create a deployable package</a> that contains the <strong>SCMMobile</strong> model, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="fb72f-163"><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Notaðu virkjanlega pakkann</a>.</span><span class="sxs-lookup"><span data-stu-id="fb72f-163"><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Apply the deployable package</a>.</span></span></li>
 
 </ol></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="48eb1-164">Gefa út á <strong>sölupantanir</strong> farsímaforrit vinnusvæðisins.</span><span class="sxs-lookup"><span data-stu-id="48eb1-164">Publish the <strong>Sales orders</strong> mobile workspace.</span></span></td>
-<td><span data-ttu-id="48eb1-165">Kerfisstjóri</span><span class="sxs-lookup"><span data-stu-id="48eb1-165">System administrator</span></span></td>
-<td><span data-ttu-id="48eb1-166">Sjáið <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Fartækjavinnusvæði birt</a>.</span><span class="sxs-lookup"><span data-stu-id="48eb1-166">See <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Publish a mobile workspace</a>.</span></span></td>
+<td><span data-ttu-id="fb72f-164">Gefa út á <strong>sölupantanir</strong> farsímaforrit vinnusvæðisins.</span><span class="sxs-lookup"><span data-stu-id="fb72f-164">Publish the <strong>Sales orders</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="fb72f-165">Kerfisstjóri</span><span class="sxs-lookup"><span data-stu-id="fb72f-165">System administrator</span></span></td>
+<td><span data-ttu-id="fb72f-166">Sjáið <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Fartækjavinnusvæði birt</a>.</span><span class="sxs-lookup"><span data-stu-id="fb72f-166">See <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="48eb1-167">Sæktu og settu upp fartækjaforritið</span><span class="sxs-lookup"><span data-stu-id="48eb1-167">Download and install the mobile app</span></span>
-<span data-ttu-id="48eb1-168">Sæktu og settu upp fyrir Finance and Operations farsímaforritið:</span><span class="sxs-lookup"><span data-stu-id="48eb1-168">Download and install the Finance and Operations mobile app:</span></span>
+## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="fb72f-167">Sæktu og settu upp fartækjaforritið</span><span class="sxs-lookup"><span data-stu-id="fb72f-167">Download and install the mobile app</span></span>
+<span data-ttu-id="fb72f-168">Sæktu og settu upp fartækjaforritið Finance and Operations:</span><span class="sxs-lookup"><span data-stu-id="fb72f-168">Download and install the Finance and Operations mobile app:</span></span>
 
--   [<span data-ttu-id="48eb1-169">Fyrir Android síma</span><span class="sxs-lookup"><span data-stu-id="48eb1-169">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
--   [<span data-ttu-id="48eb1-170">Fyrir iPhone síma</span><span class="sxs-lookup"><span data-stu-id="48eb1-170">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
+-   [<span data-ttu-id="fb72f-169">Fyrir Android síma</span><span class="sxs-lookup"><span data-stu-id="fb72f-169">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [<span data-ttu-id="fb72f-170">Fyrir iPhone síma</span><span class="sxs-lookup"><span data-stu-id="fb72f-170">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="48eb1-171">Innskráning í fartækjaforritið</span><span class="sxs-lookup"><span data-stu-id="48eb1-171">Sign in to the mobile app</span></span>
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="fb72f-171">Innskráning í fartækjaforritið</span><span class="sxs-lookup"><span data-stu-id="fb72f-171">Sign in to the mobile app</span></span>
 
-1.  <span data-ttu-id="48eb1-172">Ræstu forritið í fartækinu þínu.</span><span class="sxs-lookup"><span data-stu-id="48eb1-172">Start the app on your mobile device.</span></span>
-2.  <span data-ttu-id="48eb1-173">Færðu inn vefslóð þína fyrir Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="48eb1-173">Enter your Dynamics 365 URL.</span></span>
-3.  <span data-ttu-id="48eb1-174">Í fyrsta sinn sem þú skráir þig inn, er beðið um notandanafn og aðgangsorð þitt.</span><span class="sxs-lookup"><span data-stu-id="48eb1-174">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="48eb1-175">Færðu inn skilríki</span><span class="sxs-lookup"><span data-stu-id="48eb1-175">Enter your credentials.</span></span>
-4.  <span data-ttu-id="48eb1-176">Eftir að þú hefur skráð þig inn, birtast tiltæk vinnusvæði fyrir fyrirtækið.</span><span class="sxs-lookup"><span data-stu-id="48eb1-176">After you sign in, the available workspaces for your company is shown.</span></span> <span data-ttu-id="48eb1-177">Athugið að ef kerfisstjóri gefur út nýtt vinnusvæði síðar, verður að endurræsa listann yfir fartækjavinnusvæði.</span><span class="sxs-lookup"><span data-stu-id="48eb1-177">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
+1.  <span data-ttu-id="fb72f-172">Ræstu forritið í fartækinu þínu.</span><span class="sxs-lookup"><span data-stu-id="fb72f-172">Start the app on your mobile device.</span></span>
+2.  <span data-ttu-id="fb72f-173">Færðu inn vefslóð þína fyrir Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="fb72f-173">Enter your Dynamics 365 URL.</span></span>
+3.  <span data-ttu-id="fb72f-174">Í fyrsta sinn sem þú skráir þig inn, er beðið um notandanafn og aðgangsorð þitt.</span><span class="sxs-lookup"><span data-stu-id="fb72f-174">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="fb72f-175">Færðu inn skilríki</span><span class="sxs-lookup"><span data-stu-id="fb72f-175">Enter your credentials.</span></span>
+4.  <span data-ttu-id="fb72f-176">Eftir að þú hefur skráð þig inn, birtast tiltæk vinnusvæði fyrir fyrirtækið.</span><span class="sxs-lookup"><span data-stu-id="fb72f-176">After you sign in, the available workspaces for your company is shown.</span></span> <span data-ttu-id="fb72f-177">Athugið að ef kerfisstjóri gefur út nýtt vinnusvæði síðar, verður að endurræsa listann yfir fartækjavinnusvæði.</span><span class="sxs-lookup"><span data-stu-id="fb72f-177">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-<span data-ttu-id="48eb1-178">[![Togið upp til að uppfæra](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="48eb1-178">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
+<span data-ttu-id="fb72f-178">[![Togið upp til að uppfæra](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="fb72f-178">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="view-information-about-sales-orders-for-a-customer-by-using-the-sales-order-mobile-workspace"></a><span data-ttu-id="48eb1-179">Skoða upplýsingar um sölupantanir fyrir viðskiptavin með því að nota fartækjavinnusvæðið Sölupantanir</span><span class="sxs-lookup"><span data-stu-id="48eb1-179">View information about sales orders for a customer by using the Sales order mobile workspace</span></span>
+## <a name="view-information-about-sales-orders-for-a-customer-by-using-the-sales-order-mobile-workspace"></a><span data-ttu-id="fb72f-179">Skoða upplýsingar um sölupantanir fyrir viðskiptavin með því að nota fartækjavinnusvæðið Sölupantanir</span><span class="sxs-lookup"><span data-stu-id="fb72f-179">View information about sales orders for a customer by using the Sales order mobile workspace</span></span>
 
-1.  <span data-ttu-id="48eb1-180">Í farsímanum velurðu vinnusvæðið **Sölupantanir**.</span><span class="sxs-lookup"><span data-stu-id="48eb1-180">On your mobile device, select the **Sales orders** workspace.</span></span>
-2.  <span data-ttu-id="48eb1-181">Veldu **Skoða pantanir fyrir viðskiptavin**.</span><span class="sxs-lookup"><span data-stu-id="48eb1-181">Select **View orders for a customer**.</span></span>
-3.  <span data-ttu-id="48eb1-182">Notið lykil eða nafn viðskiptavinar til að finna viðskiptavininn.</span><span class="sxs-lookup"><span data-stu-id="48eb1-182">Use account or customer name information to find the customer.</span></span>
-4.  <span data-ttu-id="48eb1-183">Velja viðskiptavin.</span><span class="sxs-lookup"><span data-stu-id="48eb1-183">Select the customer.</span></span>
-5.  <span data-ttu-id="48eb1-184">Veldu **Tengslaupplýsingar** eða **Sölupantanir**.</span><span class="sxs-lookup"><span data-stu-id="48eb1-184">Select **Contact information** or **Sales orders**.</span></span> <span data-ttu-id="48eb1-185">Ef **Sölupantanir** er valið birtist listi yfir sölupantanir fyrir viðskiptavininn.</span><span class="sxs-lookup"><span data-stu-id="48eb1-185">If you select **Sales orders**, a list of sales orders for the customer is shown.</span></span>
-6.  <span data-ttu-id="48eb1-186">Veldu **Velja sölupöntun**.</span><span class="sxs-lookup"><span data-stu-id="48eb1-186">Select **Sales order**.</span></span> <span data-ttu-id="48eb1-187">Hér er hægt að skoða upplýsingar um sölupöntunarlínur, sendingar, tengslaupplýsingar viðskiptavinar og tengslaupplýsingar þess sem pantar.</span><span class="sxs-lookup"><span data-stu-id="48eb1-187">You can now view information about sales order lines, information about shipments, customer contact information, and contact information for the order taker.</span></span>
+1.  <span data-ttu-id="fb72f-180">Í farsímanum velurðu vinnusvæðið **Sölupantanir**.</span><span class="sxs-lookup"><span data-stu-id="fb72f-180">On your mobile device, select the **Sales orders** workspace.</span></span>
+2.  <span data-ttu-id="fb72f-181">Veldu **Skoða pantanir fyrir viðskiptavin**.</span><span class="sxs-lookup"><span data-stu-id="fb72f-181">Select **View orders for a customer**.</span></span>
+3.  <span data-ttu-id="fb72f-182">Notið lykil eða nafn viðskiptavinar til að finna viðskiptavininn.</span><span class="sxs-lookup"><span data-stu-id="fb72f-182">Use account or customer name information to find the customer.</span></span>
+4.  <span data-ttu-id="fb72f-183">Velja viðskiptavin.</span><span class="sxs-lookup"><span data-stu-id="fb72f-183">Select the customer.</span></span>
+5.  <span data-ttu-id="fb72f-184">Veldu **Tengslaupplýsingar** eða **Sölupantanir**.</span><span class="sxs-lookup"><span data-stu-id="fb72f-184">Select **Contact information** or **Sales orders**.</span></span> <span data-ttu-id="fb72f-185">Ef **Sölupantanir** er valið birtist listi yfir sölupantanir fyrir viðskiptavininn.</span><span class="sxs-lookup"><span data-stu-id="fb72f-185">If you select **Sales orders**, a list of sales orders for the customer is shown.</span></span>
+6.  <span data-ttu-id="fb72f-186">Veldu **Velja sölupöntun**.</span><span class="sxs-lookup"><span data-stu-id="fb72f-186">Select **Sales order**.</span></span> <span data-ttu-id="fb72f-187">Hér er hægt að skoða upplýsingar um sölupöntunarlínur, sendingar, tengslaupplýsingar viðskiptavinar og tengslaupplýsingar þess sem pantar.</span><span class="sxs-lookup"><span data-stu-id="fb72f-187">You can now view information about sales order lines, information about shipments, customer contact information, and contact information for the order taker.</span></span>

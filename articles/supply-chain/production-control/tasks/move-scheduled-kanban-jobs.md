@@ -2,7 +2,7 @@
 title: Færa áætlaðar kanban-vinnslur
 description: Þetta ferli leggur áherslu á að færa áætluðum ferli kanban-vinnslum á annað tímabil.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 11/07/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,55 +10,55 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cad61ad292f80d6092ecea679645f729469b8a8f
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: bb95bab2173cb45300560f59c394cd2d558fe69f
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3148987"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3206980"
 ---
-# <a name="move-scheduled-kanban-jobs"></a><span data-ttu-id="43beb-103">Færa áætlaðar kanban-vinnslur</span><span class="sxs-lookup"><span data-stu-id="43beb-103">Move scheduled kanban jobs</span></span>
+# <a name="move-scheduled-kanban-jobs"></a><span data-ttu-id="006d9-103">Færa áætlaðar kanban-vinnslur</span><span class="sxs-lookup"><span data-stu-id="006d9-103">Move scheduled kanban jobs</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="43beb-104">Þetta ferli leggur áherslu á að færa áætluðum ferli kanban-vinnslum á annað tímabil.</span><span class="sxs-lookup"><span data-stu-id="43beb-104">This procedure focuses on moving planned process kanban jobs to a different period.</span></span> <span data-ttu-id="43beb-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="43beb-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="43beb-106">Þetta ferli er ætluð fyrir yfirmaður vinnusals eða framleiðslustjóri sem vinnur með kanban.</span><span class="sxs-lookup"><span data-stu-id="43beb-106">This procedure is intended for the shop floor supervisor or production planner working with kanbans.</span></span>
+<span data-ttu-id="006d9-104">Þetta ferli leggur áherslu á að færa áætluðum ferli kanban-vinnslum á annað tímabil.</span><span class="sxs-lookup"><span data-stu-id="006d9-104">This procedure focuses on moving planned process kanban jobs to a different period.</span></span> <span data-ttu-id="006d9-105">Sýnigögn fyrirtækisins til að stofna þetta ferli er USMF.</span><span class="sxs-lookup"><span data-stu-id="006d9-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="006d9-106">Þetta ferli er ætluð fyrir yfirmaður vinnusals eða framleiðslustjóri sem vinnur með kanban.</span><span class="sxs-lookup"><span data-stu-id="006d9-106">This procedure is intended for the shop floor supervisor or production planner working with kanbans.</span></span>
 
-## <a name="select-scheduled-kanban-jobs"></a><span data-ttu-id="43beb-107">Velja áætlaðar kanban-vinnslur.</span><span class="sxs-lookup"><span data-stu-id="43beb-107">Select scheduled kanban jobs.</span></span> 
+## <a name="select-scheduled-kanban-jobs"></a><span data-ttu-id="006d9-107">Velja áætlaðar kanban-vinnslur.</span><span class="sxs-lookup"><span data-stu-id="006d9-107">Select scheduled kanban jobs.</span></span> 
 
-1. <span data-ttu-id="43beb-108">Opna **Framleiðslustýring > Kanban > Kanban-vinnsluröðun**.</span><span class="sxs-lookup"><span data-stu-id="43beb-108">Go to **Production control > Kanban > Kanban job scheduling**.</span></span> 
+1. <span data-ttu-id="006d9-108">Opna **Framleiðslustýring > Kanban > Kanban-vinnsluröðun**.</span><span class="sxs-lookup"><span data-stu-id="006d9-108">Go to **Production control > Kanban > Kanban job scheduling**.</span></span> 
 
-2. <span data-ttu-id="43beb-109">Í reitnum **Vinnuflokkur** skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="43beb-109">In the **Work cell** field, click the drop-down button to open the lookup.</span></span> 
+2. <span data-ttu-id="006d9-109">Í reitnum **Vinnuflokkur** skal smella á fellilistahnappinn til að opna leitina.</span><span class="sxs-lookup"><span data-stu-id="006d9-109">In the **Work cell** field, click the drop-down button to open the lookup.</span></span> 
 
-3. <span data-ttu-id="43beb-110">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="43beb-110">In the list, mark the selected row.</span></span> 
-   - <span data-ttu-id="43beb-111">Velja vinnuflokkur 1250.</span><span class="sxs-lookup"><span data-stu-id="43beb-111">Select work cell 1250.</span></span> 
-4. <span data-ttu-id="43beb-112">Smellið á **Velja**.</span><span class="sxs-lookup"><span data-stu-id="43beb-112">Click **Select**.</span></span> 
+3. <span data-ttu-id="006d9-110">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="006d9-110">In the list, mark the selected row.</span></span> 
+   - <span data-ttu-id="006d9-111">Velja vinnuflokkur 1250.</span><span class="sxs-lookup"><span data-stu-id="006d9-111">Select work cell 1250.</span></span> 
+4. <span data-ttu-id="006d9-112">Smellið á **Velja**.</span><span class="sxs-lookup"><span data-stu-id="006d9-112">Click **Select**.</span></span> 
 
-5. <span data-ttu-id="43beb-113">Í reitnum **Birta stöðu á vinnslu** skal velja **Áætlað**.</span><span class="sxs-lookup"><span data-stu-id="43beb-113">In the **Display job status** field, select **Scheduled**.</span></span> <span data-ttu-id="43beb-114">Þetta síar vinnslu til að birta aðeins áætlað kanban-vinnslurnar.</span><span class="sxs-lookup"><span data-stu-id="43beb-114">This filters the job list to display only the scheduled kanban jobs.</span></span> 
+5. <span data-ttu-id="006d9-113">Í reitnum **Birta stöðu á vinnslu** skal velja **Áætlað**.</span><span class="sxs-lookup"><span data-stu-id="006d9-113">In the **Display job status** field, select **Scheduled**.</span></span> <span data-ttu-id="006d9-114">Þetta síar vinnslu til að birta aðeins áætlað kanban-vinnslurnar.</span><span class="sxs-lookup"><span data-stu-id="006d9-114">This filters the job list to display only the scheduled kanban jobs.</span></span> 
 
-## <a name="move-kanban-jobs-to-a-different-period"></a><span data-ttu-id="43beb-115">Flytja kanban-vinnslur á annað tímabil.</span><span class="sxs-lookup"><span data-stu-id="43beb-115">Move kanban jobs to a different period.</span></span> 
+## <a name="move-kanban-jobs-to-a-different-period"></a><span data-ttu-id="006d9-115">Flytja kanban-vinnslur á annað tímabil.</span><span class="sxs-lookup"><span data-stu-id="006d9-115">Move kanban jobs to a different period.</span></span> 
 
-1. <span data-ttu-id="43beb-116">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="43beb-116">In the list, find and select the desired record.</span></span> <span data-ttu-id="43beb-117">Veljið vinnslu sem er með stöðuna **Áætluð vinnsla**, t.d. vinnslu sem er tímasett 20. desember 2012 í reitnum **Áætlað tímabil**.</span><span class="sxs-lookup"><span data-stu-id="43beb-117">Select a job that has the **Planned job** status, for example, a job scheduled on December 20, 2012 in the **Planned period** field.</span></span> <span data-ttu-id="43beb-118">Færið síðan vinnsluna í fyrra tímabil</span><span class="sxs-lookup"><span data-stu-id="43beb-118">Then move the job to the previous period.</span></span> 
+1. <span data-ttu-id="006d9-116">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="006d9-116">In the list, find and select the desired record.</span></span> <span data-ttu-id="006d9-117">Veljið vinnslu sem er með stöðuna **Áætluð vinnsla**, t.d. vinnslu sem er tímasett 20. desember 2012 í reitnum **Áætlað tímabil**.</span><span class="sxs-lookup"><span data-stu-id="006d9-117">Select a job that has the **Planned job** status, for example, a job scheduled on December 20, 2012 in the **Planned period** field.</span></span> <span data-ttu-id="006d9-118">Færið síðan vinnsluna í fyrra tímabil</span><span class="sxs-lookup"><span data-stu-id="006d9-118">Then move the job to the previous period.</span></span> 
 
-2. <span data-ttu-id="43beb-119">Smellið á **Fyrra tímabil**.</span><span class="sxs-lookup"><span data-stu-id="43beb-119">Click **Previous period**.</span></span> 
+2. <span data-ttu-id="006d9-119">Smellið á **Fyrra tímabil**.</span><span class="sxs-lookup"><span data-stu-id="006d9-119">Click **Previous period**.</span></span> 
 
-3. <span data-ttu-id="43beb-120">Smellið á **Aftast** til að færa vinnsluna aftast í vinnslulista og gera hana að síðustu vinnslunni á fyrra tímabili.</span><span class="sxs-lookup"><span data-stu-id="43beb-120">Click **End** to move the job to the end of the job list as the last job in the previous period.</span></span> 
+3. <span data-ttu-id="006d9-120">Smellið á **Aftast** til að færa vinnsluna aftast í vinnslulista og gera hana að síðustu vinnslunni á fyrra tímabili.</span><span class="sxs-lookup"><span data-stu-id="006d9-120">Click **End** to move the job to the end of the job list as the last job in the previous period.</span></span> 
 
-4. <span data-ttu-id="43beb-121">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="43beb-121">In the list, find and select the desired record.</span></span> <span data-ttu-id="43beb-122">Veljið vinnslu sem er með stöðuna **Áætluð vinnsla**, t.d. vinnslu sem er tímasett 18. desember 2012 í reitnum **Áætlað tímabil**.</span><span class="sxs-lookup"><span data-stu-id="43beb-122">Select a job that has the **Planned job** status, for example, a job scheduled on December 18, 2012 in the **Planned period** field.</span></span> <span data-ttu-id="43beb-123">Færið síðan vinnsluna í næsta tímabil.</span><span class="sxs-lookup"><span data-stu-id="43beb-123">Then move the job to the next period.</span></span> 
+4. <span data-ttu-id="006d9-121">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="006d9-121">In the list, find and select the desired record.</span></span> <span data-ttu-id="006d9-122">Veljið vinnslu sem er með stöðuna **Áætluð vinnsla**, t.d. vinnslu sem er tímasett 18. desember 2012 í reitnum **Áætlað tímabil**.</span><span class="sxs-lookup"><span data-stu-id="006d9-122">Select a job that has the **Planned job** status, for example, a job scheduled on December 18, 2012 in the **Planned period** field.</span></span> <span data-ttu-id="006d9-123">Færið síðan vinnsluna í næsta tímabil.</span><span class="sxs-lookup"><span data-stu-id="006d9-123">Then move the job to the next period.</span></span> 
 
-5. <span data-ttu-id="43beb-124">Smellið á **Næsta tímabil**.</span><span class="sxs-lookup"><span data-stu-id="43beb-124">Click **Next period**.</span></span> 
+5. <span data-ttu-id="006d9-124">Smellið á **Næsta tímabil**.</span><span class="sxs-lookup"><span data-stu-id="006d9-124">Click **Next period**.</span></span> 
 
-6. <span data-ttu-id="43beb-125">Smellið á **Fremst** til að færa vinnsluna fremst í vinnslulista og gera hana að fyrstu vinnslunni á fyrra tímabili.</span><span class="sxs-lookup"><span data-stu-id="43beb-125">Click **Start** to move the job to the start of the job list as the first job in the previous period.</span></span> 
+6. <span data-ttu-id="006d9-125">Smellið á **Fremst** til að færa vinnsluna fremst í vinnslulista og gera hana að fyrstu vinnslunni á fyrra tímabili.</span><span class="sxs-lookup"><span data-stu-id="006d9-125">Click **Start** to move the job to the start of the job list as the first job in the previous period.</span></span> 
 
-## <a name="move-a-job-within-a-period"></a><span data-ttu-id="43beb-126">Færa vinnslu innan tímabils.</span><span class="sxs-lookup"><span data-stu-id="43beb-126">Move a job within a period.</span></span> 
+## <a name="move-a-job-within-a-period"></a><span data-ttu-id="006d9-126">Færa vinnslu innan tímabils.</span><span class="sxs-lookup"><span data-stu-id="006d9-126">Move a job within a period.</span></span> 
 
-1. <span data-ttu-id="43beb-127">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="43beb-127">In the list, find and select the desired record.</span></span> <span data-ttu-id="43beb-128">Veljið vinnslu sem er með stöðuna „Áætluð vinnsla“, t.d. önnur vinnslan sem er tímasett 19. desember 2012 í reitnum **Áætlað tímabil**.</span><span class="sxs-lookup"><span data-stu-id="43beb-128">Select a job that has the Planned job status, for example, the second job scheduled on December 19, 2012 in the **Planned period** field.</span></span> <span data-ttu-id="43beb-129">Færa næst vinnslu innan þess tímabils sem er áætlað.</span><span class="sxs-lookup"><span data-stu-id="43beb-129">Then move the job within the planned period.</span></span> 
+1. <span data-ttu-id="006d9-127">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="006d9-127">In the list, find and select the desired record.</span></span> <span data-ttu-id="006d9-128">Veljið vinnslu sem er með stöðuna „Áætluð vinnsla“, t.d. önnur vinnslan sem er tímasett 19. desember 2012 í reitnum **Áætlað tímabil**.</span><span class="sxs-lookup"><span data-stu-id="006d9-128">Select a job that has the Planned job status, for example, the second job scheduled on December 19, 2012 in the **Planned period** field.</span></span> <span data-ttu-id="006d9-129">Færa næst vinnslu innan þess tímabils sem er áætlað.</span><span class="sxs-lookup"><span data-stu-id="006d9-129">Then move the job within the planned period.</span></span> 
 
-2. <span data-ttu-id="43beb-130">Smellið á **Áfram**.</span><span class="sxs-lookup"><span data-stu-id="43beb-130">Click **Forward**.</span></span> <span data-ttu-id="43beb-131">Athugað að vinnslan er fluttur einnar línu niður á listanum.</span><span class="sxs-lookup"><span data-stu-id="43beb-131">Notice that the job is moved one line down on the list.</span></span> 
+2. <span data-ttu-id="006d9-130">Smellið á **Áfram**.</span><span class="sxs-lookup"><span data-stu-id="006d9-130">Click **Forward**.</span></span> <span data-ttu-id="006d9-131">Athugað að vinnslan er fluttur einnar línu niður á listanum.</span><span class="sxs-lookup"><span data-stu-id="006d9-131">Notice that the job is moved one line down on the list.</span></span> 
 
-3. <span data-ttu-id="43beb-132">Smellið á **Til baka**.</span><span class="sxs-lookup"><span data-stu-id="43beb-132">Click **Backward**.</span></span> <span data-ttu-id="43beb-133">Athugaðu að vinnslan er fluttur einnar línu upp á listanum.</span><span class="sxs-lookup"><span data-stu-id="43beb-133">Notice that the job is moved one line up on the list.</span></span>
+3. <span data-ttu-id="006d9-132">Smellið á **Til baka**.</span><span class="sxs-lookup"><span data-stu-id="006d9-132">Click **Backward**.</span></span> <span data-ttu-id="006d9-133">Athugaðu að vinnslan er fluttur einnar línu upp á listanum.</span><span class="sxs-lookup"><span data-stu-id="006d9-133">Notice that the job is moved one line up on the list.</span></span>

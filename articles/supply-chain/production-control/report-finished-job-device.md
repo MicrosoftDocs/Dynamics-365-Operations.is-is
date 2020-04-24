@@ -2,7 +2,7 @@
 title: Skrá sem lokið í númeraplötustýrða staðsetningu úr verkspjaldstækinu
 description: Þetta efni lýsir ferlinu til að klára fullunnar vörur í framleiðslupöntun til birgða þegar númeraplata stjórnar staðsetningu.
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistration, ProdJournalTransJob, ProdJournalTransRoute, ProdParmReportFinished
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19351
 ms.assetid: bcc9e242-b4b8-4144-b14d-c3c106fb40ec
@@ -19,23 +19,23 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2019-09-06
 ms.dyn365.ops.version: AX 10.0.6
-ms.openlocfilehash: 5f61c1abfb115f02e6ff314f6a3e42bb1d3b543f
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: f5863202facc83afb91b380ba5666334783ccbcf
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092569"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211170"
 ---
 [!include [banner](../includes/banner.md)]
 
-# <a name="report-as-finished-to-a-license-plate-controlled-location-from-the-job-card-device"></a><span data-ttu-id="41078-103">Skrá sem lokið í númeraplötustýrða staðsetningu úr verkspjaldstækinu</span><span class="sxs-lookup"><span data-stu-id="41078-103">Report as finished to a license plate controlled location from the Job card device</span></span> 
+# <a name="report-as-finished-to-a-license-plate-controlled-location-from-the-job-card-device"></a><span data-ttu-id="5322b-103">Skrá sem lokið í númeraplötustýrða staðsetningu úr verkspjaldstækinu</span><span class="sxs-lookup"><span data-stu-id="5322b-103">Report as finished to a license plate controlled location from the Job card device</span></span> 
 
-<span data-ttu-id="41078-104">Ferlið sem kallast Tilkynnt sem lokið lýkur fullunnum vörum í framleiðslupöntun til birgða.</span><span class="sxs-lookup"><span data-stu-id="41078-104">The process called Reporting as finished completes finished products on a production order to the inventory.</span></span> <span data-ttu-id="41078-105">Ef fullunnin afurð er virk fyrir háþróuð vörugeymsluferli er tilkynnt um afurðina sem lokið á stað sem kallast framleiðslu framleiðslustaðarins.</span><span class="sxs-lookup"><span data-stu-id="41078-105">If the finished product is enabled for the advanced warehouse processes, the product is reported as finished to a location called the production output location.</span></span> <span data-ttu-id="41078-106">Nánari upplýsingar um að setja upp framleiðslu framleiðslunnar, sjá [Staðsetning framleiðsluúttaks](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/production-output-location).</span><span class="sxs-lookup"><span data-stu-id="41078-106">For information about setting up the production output location, see [Production output location](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/production-output-location).</span></span>
+<span data-ttu-id="5322b-104">Ferlið sem kallast Tilkynnt sem lokið lýkur fullunnum vörum í framleiðslupöntun til birgða.</span><span class="sxs-lookup"><span data-stu-id="5322b-104">The process called Reporting as finished completes finished products on a production order to the inventory.</span></span> <span data-ttu-id="5322b-105">Ef fullunnin afurð er virk fyrir háþróuð vörugeymsluferli er tilkynnt um afurðina sem lokið á stað sem kallast framleiðslu framleiðslustaðarins.</span><span class="sxs-lookup"><span data-stu-id="5322b-105">If the finished product is enabled for the advanced warehouse processes, the product is reported as finished to a location called the production output location.</span></span> <span data-ttu-id="5322b-106">Nánari upplýsingar um að setja upp framleiðslu framleiðslunnar, sjá [Staðsetning framleiðsluúttaks](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/production-output-location).</span><span class="sxs-lookup"><span data-stu-id="5322b-106">For information about setting up the production output location, see [Production output location](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/production-output-location).</span></span>
 
-<span data-ttu-id="41078-107">Ef framleiðslustað framleiðslunnar er stjórnað með leyfisplötum verður að gefa upp leyfisplötu þegar skýrslu er lokið.</span><span class="sxs-lookup"><span data-stu-id="41078-107">If the production output location is license plate controlled, then a license plate must be provided when reporting as finished.</span></span> <span data-ttu-id="41078-108">Reiturinn **Númeraplata** er sýnilegur í kvaðningunni **Gera framvinduskýrslu** á síðunni **Verkspjaldstæki**.</span><span class="sxs-lookup"><span data-stu-id="41078-108">The **License plate** field is visible on the **Report progress** prompt on the **Job card device** page.</span></span> <span data-ttu-id="41078-109">Reiturinn er aðeins sýnilegur á kvaðningunni **Gera framvinduskýrslu** þegar tilkynnt er um síðustu aðgerð framleiðslupöntunar og hlutur framleiðslupöntunar er gerður virkur fyrir vöruhúsakerfisferli.</span><span class="sxs-lookup"><span data-stu-id="41078-109">The field is only visible on the **Report progress** prompt when reporting on the last operation of the production order and the item for the production order is enabled for the warehouse management processes.</span></span> 
+<span data-ttu-id="5322b-107">Ef framleiðslustað framleiðslunnar er stjórnað með leyfisplötum verður að gefa upp leyfisplötu þegar skýrslu er lokið.</span><span class="sxs-lookup"><span data-stu-id="5322b-107">If the production output location is license plate controlled, then a license plate must be provided when reporting as finished.</span></span> <span data-ttu-id="5322b-108">Reiturinn **Númeraplata** er sýnilegur í kvaðningunni **Gera framvinduskýrslu** á síðunni **Verkspjaldstæki**.</span><span class="sxs-lookup"><span data-stu-id="5322b-108">The **License plate** field is visible on the **Report progress** prompt on the **Job card device** page.</span></span> <span data-ttu-id="5322b-109">Reiturinn er aðeins sýnilegur á kvaðningunni **Gera framvinduskýrslu** þegar tilkynnt er um síðustu aðgerð framleiðslupöntunar og hlutur framleiðslupöntunar er gerður virkur fyrir vöruhúsakerfisferli.</span><span class="sxs-lookup"><span data-stu-id="5322b-109">The field is only visible on the **Report progress** prompt when reporting on the last operation of the production order and the item for the production order is enabled for the warehouse management processes.</span></span> 
 
-<span data-ttu-id="41078-110">Það eru tveir möguleikar til að útvega leyfisplötuna</span><span class="sxs-lookup"><span data-stu-id="41078-110">There are two options for providing the license plate</span></span>
-- <span data-ttu-id="41078-111">Notandinn er að velja fyrirliggjandi leyfisplötu í reitnum fyrir leyfisplötu.</span><span class="sxs-lookup"><span data-stu-id="41078-111">The user is selecting an existing license plate in the license plate field.</span></span>
-- <span data-ttu-id="41078-112">Leyfisplatan er sjálfkrafa búin til úr númeraröð og er sjálfgefin í reiti leyfisplötunnar.</span><span class="sxs-lookup"><span data-stu-id="41078-112">The license plate is automatically generated from a number sequence and defaulted to the license plate field.</span></span>
+<span data-ttu-id="5322b-110">Það eru tveir möguleikar til að útvega leyfisplötuna</span><span class="sxs-lookup"><span data-stu-id="5322b-110">There are two options for providing the license plate</span></span>
+- <span data-ttu-id="5322b-111">Notandinn er að velja fyrirliggjandi leyfisplötu í reitnum fyrir leyfisplötu.</span><span class="sxs-lookup"><span data-stu-id="5322b-111">The user is selecting an existing license plate in the license plate field.</span></span>
+- <span data-ttu-id="5322b-112">Leyfisplatan er sjálfkrafa búin til úr númeraröð og er sjálfgefin í reiti leyfisplötunnar.</span><span class="sxs-lookup"><span data-stu-id="5322b-112">The license plate is automatically generated from a number sequence and defaulted to the license plate field.</span></span>
 
-<span data-ttu-id="41078-113">Valkosturinn að láta leyfisplötuna myndast sjálfkrafa er stilltur með því að velja valkostinn **Mynda leyfisplötu** á síðunni **Stilla vinnslukort fyrir tæki**.</span><span class="sxs-lookup"><span data-stu-id="41078-113">The option to have the license plate generated automatically is configured by selecting the option **Generate license plate** on the **Configure job card for devices** page.</span></span>
+<span data-ttu-id="5322b-113">Valkosturinn að láta leyfisplötuna myndast sjálfkrafa er stilltur með því að velja valkostinn **Mynda leyfisplötu** á síðunni **Stilla vinnslukort fyrir tæki**.</span><span class="sxs-lookup"><span data-stu-id="5322b-113">The option to have the license plate generated automatically is configured by selecting the option **Generate license plate** on the **Configure job card for devices** page.</span></span>

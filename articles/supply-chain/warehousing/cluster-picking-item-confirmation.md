@@ -2,7 +2,7 @@
 title: Staðfesting afurðar fyrir klasatiltekt
 description: Þetti efnisatriði lýsir uppsetningu á sannprófun vöru með klasatilekt.
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
@@ -10,33 +10,33 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d2ce787e6a7d677bc997bff363f34850ff9899b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7e6493afb64acb4d7644aac8dad71a0917c76549
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568213"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205783"
 ---
 [!include [banner](../includes/banner.md)]
 
-# <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="37c46-103">Staðfesting afurðar fyrir klasatiltekt</span><span class="sxs-lookup"><span data-stu-id="37c46-103">Product confirmation for cluster picking</span></span>
-<span data-ttu-id="37c46-104">Klasatiltekt gerir kleift að taka til vörur fyrir margar pantanir samtímis.</span><span class="sxs-lookup"><span data-stu-id="37c46-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="37c46-105">Þegar klasatiltekt er notuð, er vörustaðfesting nauðsynleg svo hægt sé að staðfesta þær vörur sem bætt er við klasa.</span><span class="sxs-lookup"><span data-stu-id="37c46-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="37c46-106">Hægt er að staðfesta vörur í klasatiltekt á meðan klasatiltekt stendur yfir.</span><span class="sxs-lookup"><span data-stu-id="37c46-106">You can verify items in cluster picking during the cluster picking process.</span></span>
+# <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="45f48-103">Staðfesting afurðar fyrir klasatiltekt</span><span class="sxs-lookup"><span data-stu-id="45f48-103">Product confirmation for cluster picking</span></span>
+<span data-ttu-id="45f48-104">Klasatiltekt gerir kleift að taka til vörur fyrir margar pantanir samtímis.</span><span class="sxs-lookup"><span data-stu-id="45f48-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="45f48-105">Þegar klasatiltekt er notuð, er vörustaðfesting nauðsynleg svo hægt sé að staðfesta þær vörur sem bætt er við klasa.</span><span class="sxs-lookup"><span data-stu-id="45f48-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="45f48-106">Hægt er að staðfesta vörur í klasatiltekt á meðan klasatiltekt stendur yfir.</span><span class="sxs-lookup"><span data-stu-id="45f48-106">You can verify items in cluster picking during the cluster picking process.</span></span>
 
-## <a name="where-it-applies"></a><span data-ttu-id="37c46-107">Þar sem það á við</span><span class="sxs-lookup"><span data-stu-id="37c46-107">Where it applies</span></span>
-<span data-ttu-id="37c46-108">Vörustaðfesting fyrir klasatiltekt gengur eins fyrir sig og þegar vörur eru staðfestar í tiltekt sem er ekki klasatiltekt.</span><span class="sxs-lookup"><span data-stu-id="37c46-108">Item verification for cluster picking works the same way as when you verify items in a non-cluster picking processes.</span></span> <span data-ttu-id="37c46-109">Uppsetning byggist á strikamerkjauppsetningu vöru.</span><span class="sxs-lookup"><span data-stu-id="37c46-109">The setup is based on the product bar code setup.</span></span>
+## <a name="where-it-applies"></a><span data-ttu-id="45f48-107">Þar sem það á við</span><span class="sxs-lookup"><span data-stu-id="45f48-107">Where it applies</span></span>
+<span data-ttu-id="45f48-108">Vörustaðfesting fyrir klasatiltekt gengur eins fyrir sig og þegar vörur eru staðfestar í tiltekt sem er ekki klasatiltekt.</span><span class="sxs-lookup"><span data-stu-id="45f48-108">Item verification for cluster picking works the same way as when you verify items in a non-cluster picking processes.</span></span> <span data-ttu-id="45f48-109">Uppsetning byggist á strikamerkjauppsetningu vöru.</span><span class="sxs-lookup"><span data-stu-id="45f48-109">The setup is based on the product bar code setup.</span></span>
 
-## <a name="set-up-item-verification-with-cluster-picking"></a><span data-ttu-id="37c46-110">Setja upp vörustaðfestingu með klasatiltekt</span><span class="sxs-lookup"><span data-stu-id="37c46-110">Set up item verification with cluster picking</span></span>
-1.  <span data-ttu-id="37c46-111">Opna uppsetningarskjámynd fyrir vinnustaðfestingu í valmyndaratriði fartækis: **Vöruhúsastjórnun** > **Vöruhúsastjórnun** > **Uppsetning** > **Fartæki** > **Valmyndaratriði fartækis**.</span><span class="sxs-lookup"><span data-stu-id="37c46-111">On a mobile device menu item, open the setup form for work confirmation: **Warehouse management** > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span>
-2.  <span data-ttu-id="37c46-112">Opna **Uppsetning vinnustaðfestingar** í valmyndaratriði fartækis.</span><span class="sxs-lookup"><span data-stu-id="37c46-112">From the mobile device menu item, open **Work confirmation setup**.</span></span>
+## <a name="set-up-item-verification-with-cluster-picking"></a><span data-ttu-id="45f48-110">Setja upp vörustaðfestingu með klasatiltekt</span><span class="sxs-lookup"><span data-stu-id="45f48-110">Set up item verification with cluster picking</span></span>
+1.  <span data-ttu-id="45f48-111">Opna uppsetningarskjámynd fyrir vinnustaðfestingu í valmyndaratriði fartækis: **Vöruhúsastjórnun** > **Vöruhúsastjórnun** > **Uppsetning** > **Fartæki** > **Valmyndaratriði fartækis**.</span><span class="sxs-lookup"><span data-stu-id="45f48-111">On a mobile device menu item, open the setup form for work confirmation: **Warehouse management** > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span>
+2.  <span data-ttu-id="45f48-112">Opna **Uppsetning vinnustaðfestingar** í valmyndaratriði fartækis.</span><span class="sxs-lookup"><span data-stu-id="45f48-112">From the mobile device menu item, open **Work confirmation setup**.</span></span>
 
-|        <span data-ttu-id="37c46-113">Valkostur</span><span class="sxs-lookup"><span data-stu-id="37c46-113">Option</span></span>        |                                    <span data-ttu-id="37c46-114">lýsing</span><span class="sxs-lookup"><span data-stu-id="37c46-114">Description</span></span>                                    |
+|        <span data-ttu-id="45f48-113">Valkostur</span><span class="sxs-lookup"><span data-stu-id="45f48-113">Option</span></span>        |                                    <span data-ttu-id="45f48-114">lýsing</span><span class="sxs-lookup"><span data-stu-id="45f48-114">Description</span></span>                                    |
 |----------------------|-----------------------------------------------------------------------------------|
-| <span data-ttu-id="37c46-115">Staðfesting afurðar</span><span class="sxs-lookup"><span data-stu-id="37c46-115">Product confirmation</span></span> | <span data-ttu-id="37c46-116">Gerir kleift að staðfesta hverja birgðaeiningu úr fartækinu þegar skannað er.</span><span class="sxs-lookup"><span data-stu-id="37c46-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span> |
+| <span data-ttu-id="45f48-115">Staðfesting afurðar</span><span class="sxs-lookup"><span data-stu-id="45f48-115">Product confirmation</span></span> | <span data-ttu-id="45f48-116">Gerir kleift að staðfesta hverja birgðaeiningu úr fartækinu þegar skannað er.</span><span class="sxs-lookup"><span data-stu-id="45f48-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span> |
 
