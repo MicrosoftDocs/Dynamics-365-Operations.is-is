@@ -3,7 +3,7 @@ title: Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úr
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða áætlað að fjarlægja úr Dynamics 365 for Finance and Operations og fyrri útgáfum þeirrar vöru.
 author: sericks007
 manager: AnnBe
-ms.date: 03/05/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2e079f1eb43d46acdc39819ae81e0472bba6aa1
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124567"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225129"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
 
@@ -263,11 +263,11 @@ Innfellda afkastavísa (KPI) er hægt að þróa í Visual Studio af þróunara�
 
 |   |  |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Mögulegt er fyrir skilgreiningar á lýsigögnum töflu að hafa reitahópa sem innihalda ógilda tilvísanareiti. Þetta vandamál er sem stendur flokkað sem *viðvörun þýðanda* frekar en *villa* sem þýðir að stofnun virkjanlegs pakka og uppsetning geti haldið áfram án þess að laga vandamálið. Ef sett upp getur það leitt til keyrsluvillu í Fjárhagsskýrslugerð og SQL Server Reporting Services (SSRS). Til að leysa þennan vanda þarf að:<br><br>1. Fjarlægja ógilda tilvísunarreitinn úr skilgreiningu töflureitahópsins.<br><br>2. Endurþýða.<br><br>3. Tryggja að tekið sé á öllum viðvörunum og villum. |
-| **Skipt út fyrir aðra eiginleika?**   | Þessi viðvörun verður skipt út fyrir þýðingarvillu í framtíðinni.  |
-| **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri. |
-| **Dreifingarvalkostur**              | Allt. |
-| **Staða**                         | Úrelt: Viðvörunin verður þýðingartímavilla í framtíðinni. Sem stendur stefnum við á verkvangsuppfærslu 30. |
+| **Ástæða úreldingar/fjarlægingar** | Mögulegt er fyrir skilgreiningar á lýsigögnum töflu að hafa reitahópa sem innihalda ógilda tilvísanareiti. Ef sett upp getur það leitt til keyrsluvillu í Fjárhagsskýrslugerð og SQL Server Reporting Services (SSRS). Þetta vandamál er sem stendur flokkað sem *viðvörun þýðanda* frekar en *villa* sem þýðir að stofnun virkjanlegs pakka og uppsetning geti haldið áfram án þess að laga vandamálið. Til að leysa þennan vanda þarf að:<br><br>1. Fjarlægja ógilda tilvísunarreitinn úr skilgreiningu töflureitahópsins.<br><br>2. Endurþýða.<br><br>3. Tryggja að tekið sé á öllum viðvörunum og villum. |
+| **Skipt út fyrir aðra eiginleika?**   | Þessi viðvörun verður skipt út fyrir þýðingarvillu í framtíðinni. |
+| **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt: Viðvörunin verður þýðingartímavilla í framtíðinni. Þessari breytingu miðast við uppfærslur verkvangs fyrir útgáfu 10.0.11 á forritum Finance and Operations. |
 
 #### <a name="complete-list"></a>Heildarlisti
 Til að fá aðgang að heildarlista afkastavísa sem verið er að úrelda skal sjá [Úrelding á aðferðum og einingum lýsigagna](deprecation-deletion-apis.md).

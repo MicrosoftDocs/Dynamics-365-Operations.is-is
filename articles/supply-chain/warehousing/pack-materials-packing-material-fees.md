@@ -2,7 +2,7 @@
 title: Umbúðaefni og gjöld
 description: Þetta efni veitir upplýsingar um pökkunarefnisgjöld sem eru greidd til endurvinnslufyrirtækja með ákveðnu millibili.
 author: MarkusFogelberg
-manager: AnnBe
+manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2351cce9dc6e1a554800817f75591c4a4e24d43
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 1061f336701461df7a2cf78661788e4c6100c84d
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076248"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3215701"
 ---
 # <a name="packing-materials-and-fees"></a>Umbúðaefni og gjöld
 
@@ -39,7 +39,7 @@ Umbúðaefnisgjald er greitt með ákveðnu millibili til endurvinnslufyrirtæki
 > [!NOTE]
 > Jafnvel þótt fyrirtækið greiði ekki umbúðaefnisgjald er hægt að nota aðgerðina til að reikna talnagögn fyrir umbúðaþyngd.
 
-## <a name="allocations"></a>Setja upp úthlutun á umbúðaefni
+## <a name="set-up-packing-material-allocation"></a><a name="allocations"></a>Setja upp úthlutun á umbúðaefni
 
 Áður en þú getur reiknað út þyngd pökkunarefnis, efnisgjald, eða hvort tveggja, verður þú að kveikja á útreikningnum og skilgreina hvaða efni og gjöld gilda um hvaða vörur.
 

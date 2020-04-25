@@ -3,7 +3,7 @@ title: Setja upp ráðningargerðir
 description: Setja má upp atvinnugerðir í Dynamics 365 Human Resources til að para saman starfsmenn þína.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 89a6045bebbb67251ee4a65dab71ce5771acc2af
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: dc9e9c2c948d654904041faa72110cc245308e64
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092615"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229718"
 ---
 # <a name="set-up-employment-types"></a>Setja upp ráðningargerðir
 
-[!include [banner](includes/preview-feature.md)]
-
 Setja upp atvinnutegundir í Dynamics 365 Human Resources til að jafna starfsmenn þína.
 
-1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Skipulag**, veldu **Gerðir starfa**.
+1. Í vinnusvæðinu **Starfsmannastjórnun**, undir **Uppsetning**, veldu **Gerðir starfa**.
 
 2. Veljið **Nýtt**.
 
@@ -39,7 +37,7 @@ Setja upp atvinnutegundir í Dynamics 365 Human Resources til að jafna starfsme
 
    | Svæði | Lýsing |
    | --- | --- |
-   | Starfsgerð | Einkvæmt kenni fyrir gerð starfs. |
-   | Lýsing | Lýsing á gerð starfs. |
+   | **Starfsgerð** | Einkvæmt kenni fyrir gerð starfs. |
+   | **Lýsing** | Lýsing á gerð starfs. |
 
 4. Veljið **Vista**. 

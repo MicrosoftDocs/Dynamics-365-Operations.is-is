@@ -1,7 +1,7 @@
 ---
 title: Nota kennslu fyrir Regression Suite Automation Tool
 description: Þetta efni sýnir hvernig á að nota Regression Suite Automation Tool (RSAT). Það lýsir ýmsum eiginleikum og gefur dæmi sem nota ítarlegar forskriftir.
-author: kfend
+author: robinarh
 manager: AnnBe
 ms.date: 06/09/2019
 ms.topic: article
@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
-ms.author: kfend
+ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 6cdaa89fb6d50ebaaaefe7f92d7224a1567d17d1
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: 2d3dde69b102ce161e5c1f1dd393ffceca608bcb
+ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070821"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3248737"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>Notaðu kennsluefni fyrir Regression Suite Automation Tool
 
@@ -30,79 +30,13 @@ ms.locfileid: "3070821"
 > [!NOTE]
 > Notaðu verkfæri þín í internetvafranum til að sækja og vista þessa síðu á pdf-sniði. 
 
-Þetta kennsluefni fer í gegnum nokkra ítarlega eiginleika Regression Suite Automation Tool (RSAT), inniheldur sýniúthlutun og lýsir stefnu og lykilatriðum.
+Þetta kennsluefni fer í gegnum nokkra ítarlega eiginleika Regression Suite Automation Tool (RSAT), inniheldur sýniúthlutun og lýsir stefnu og lykilatriðum. 
 
-## <a name="features-of-rsattask-recorder"></a>Eiginleikar RSAT/verkskráningar
+## <a name="notable-features-of-rsat-and-task-recorder"></a>Athyglisverðir eiginleikar RSAT og verkskráning
 
 ### <a name="validate-a-field-value"></a>Villuleita reitargildi
 
-Nánari upplýsingar um þennan eiginleika er að finna í [Stofna nýja verkskráningu sem hefur staðfestingaraðgerð](./hol-set-up-regression-suite-automation-tool.md#create-a-new-task-recording-that-has-a-validate-function).
-
-### <a name="saved-variable"></a>Vistuð breyta
-
-Nánari upplýsingar um þennan eiginleika er að finna í [Breyta núverandi verkskráningu til að búa til vistað breytu](./hol-set-up-regression-suite-automation-tool.md#modify-an-existing-task-recording-to-create-a-saved-variable).
-
-### <a name="derived-test-case"></a>Afleitt prófunardæmi
-
-1. Opnaðu Regression Suite Automation Tool (RSAT) og veldu bæði prófunardæmin sem þú stofnaðir í kennsluefninu [Setja upp Regression Suite Automation Tool](./hol-set-up-regression-suite-automation-tool.md).
-2. Veldu **Nýtt \> Stofna afleitt prófunardæmi**.
-
-    ![Stofna afleidda prófunardæmisskipun í valmyndinni Nýtt](./media/use_rsa_tool_01.png)
-
-3. Þú færð skilaboð sem kveða á um að stofnað verði prófunardæmi fyrir hvert valið prófunardæmi í núverandi prófunarpakka og að hvert afleidd prófunardæmi muni hafa eigið afrit af Excel-færibreytuskránni. Veljið **Í lagi**.
-
-    > [!NOTE]
-    > Þegar þú keyrir afleidd prófunardæmi notar það verkskráningu yfirprófunardæmis og eigið afrit af Excel-færibreytuskránni. Þannig geturðu keyrt sama prófið með mismunandi færibreytum, án þess að þurfa að viðhalda fleiri en einni verkskráningu. Afleitt prófunardæmi þarf ekki að vera hluti af sama prófunarpakka og yfirprófunardæmið.
-
-    ![Skilaboðagluggi](./media/use_rsa_tool_02.png)
-
-    Tvö afleidd prófunardæmi eru stofnuð og hakreiturinn **Afleidd?** er valinn fyrir þau.
-
-    ![Afleidd prófunardæmi stofnuð](./media/use_rsa_tool_03.png)
-
-    Afleidd prófunardæmi eru sjálfvirkt stofnuð í Azure DevOps. Það er undiratriði í prófunardæminu **Stofna nýja afurð** og er merkt með sérstöku lykilorði: **RSAT: DerivedTestSteps**. Þessum prófunardæmum er einnig sjálfkrafa bætt við prófunaráætlunina í Azure DevOps.
-
-    ![Lykilorðið RSAT: DerivedTestSteps](./media/use_rsa_tool_04.png)
-
-    > [!NOTE]
-    > Ef afleidd prófunardæmi sem eru af einhverjum ástæðum stofnuð eru ekki í réttri röð, skaltu fara í Azure DevOps og endurraða prófdæmunum í prófunarpakkanum, þannig að RSAT geti keyrt þau í réttri röð.
-
-4. Veldu aðeins afleidd prófunardæmi og veldu síðan **Breyta** til að opna samsvarandi Excel-færibreytuskrár.
-5. Breyttu þessum Excel-færibreytuskrám á sama hátt og þú breyttir yfirskránum. Með öðrum orðum skaltu ganga úr skugga um að afurðakennið sé stillt þannig að það sé sjálfkrafa myndað. Passaðu einnig að vistuð breyta sé afrituð í viðeigandi reiti.
-6. Á flipanum **Almennt** í báðum Excel-færibreytuskránum skaltu uppfæra gildi reitsins **Fyrirtæki** í **USSI**, þannig að afleidd prófunardæmi verði keyrð gegn öðrum lögaðila en yfirprófunardæmið. Til að keyra prófdæmin gegn ákveðnum notanda (eða hlutverki sem tengist ákveðnum notanda) getur þú uppfært gildi reitsins **Prófa notanda**.
-7. Veldu **Keyra** og sannreyndu að afurðin sé stofnuð bæði í USMF-lögaðilanum og USSI-lögaðilanum.
-
-### <a name="validate-notifications"></a>Sannprófa tilkynningar
-
-Þennan eiginleika er hægt að nota til að staðfesta hvort aðgerð hafi átt sér stað. Til dæmis, þegar framleiðslupöntun er stofnuð, áætluð og síðan hafin sýnir forritið skilaboðin „Production - Start“ til að tilkynna þér að framleiðslupöntun hafi verið hafin.
-
-![Framleiðsla – Ræsa tilkynningu](./media/use_rsa_tool_05.png)
-
-Þú getur valið þessi skilaboð í gegnum RSAT með því að slá inn skilaboðartexta á flipann **MessageValidation** í Excel-færibreytuskránni fyrir viðeigandi skráningu.
-
-![Flipinn Sannprófun skilaboða](./media/use_rsa_tool_06.png)
-
-Þegar prófunardæmið hefur verið keyrt eru skilaboðin í Excel-færibreytuskránni borin saman við skilaboðin sem birtast. Ef skilaboðin stemma ekki mun prófunardæmið ekki takast.
-
-> [!NOTE]
-> Þú getur slegið inn fleiri en eina skilaboð á flipann **MessageValidation** í Excel-færibreytuskránni. Skilaboðin geta einnig verið villuboð eða viðvörunarboð í stað upplýsingaboða.
-
-### <a name="validate-values-by-using-operators"></a>Staðfesta gildi með því að nota virkja
-
-Í fyrri útgáfum af RSAT var aðeins hægt að sannprófa gildi ef eftirlitsgildi jafngild áætluðu gildi. Hinn nýi eiginleiki gerir þér kleift að staðfesta að breyta sé ekki jafnt og, sé minna en eða meira en tilgreint gildi.
-
-- Til að nota þennan eiginleika, skaltu opna skrána **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** í RSAT-uppsetningarmöppunni (til dæmis, **C:\\Program Files (x86)\\Regression Suite Automation Tool**) og breyta gildinu í eftirfarandi einingu úr **rangt** í **rétt**.
-
-    ```xml
-    <add key="AddOperatorFieldsToExcelValidation" value="false" />
-    ```
-
-    Í Excel-færibreytuskránni birtist nýi reiturinn **Virki**.
-
-    > [!NOTE]
-    > Ef þú hefur verið að nota eldri útgáfu af RSAT verður þú að búa til nýjar Excel-færibreytuskrár.
-
-    ![Reiturinn Virki](./media/use_rsa_tool_07.png)
+RSAT gerir þér kleift að setja staðfestingarskref í prófatilvikið þitt til að staðfesta vænt gildi. Upplýsingar um þennan eiginleika er að finna í greininni [Staðfesta væntanleg gildi](../../dev-itpro/perf-test/rsat/rsat-validate-expected.md).
 
 Eftirfarandi dæmi sýnir hvernig hægt er að nota þennan eiginleika til að sannreyna hvort lagerbirgðir séu meiri en 0 (núll).
 
@@ -115,7 +49,7 @@ Eftirfarandi dæmi sýnir hvernig hægt er að nota þennan eiginleika til að s
     5. Í listanum skal merkja valda línu.
     6. Sannprófaðu að gildi reitsins **Samtals magn til ráðstöfunar** sé **411,0000000000000000**.
 
-2. Vistaðu verkskráninguna í BPM-safnið í LCS og samstilltu það við Azure DevOps.
+2. Vistaðu verkskráninguna og hengdu hana við prófmálið þitt í Azure DevOps.
 3. Bættu prófunardæminu við prófunaráætlunina og settu prófunardæmið í RSAT.
 4. Opnaðu Excel-færibreytuskrána. Á flipanum **InventOnhandItem** muntu sjá hlutann **Staðfesta InventOnhandItem** sem inniheldur reitinn **Virki**.
 
@@ -130,28 +64,32 @@ Eftirfarandi dæmi sýnir hvernig hægt er að nota þennan eiginleika til að s
 
 Nú, ef gildi reitsins **Samtals magn til ráðstöfunar** fyrir tilgreint atriði í birgðum er meira en 0 (núll), prófanir munu standast, óháð raunverulegu gildi lagerbirgða.
 
-### <a name="generator-logs"></a>Kladdar skýrslugerðar
+### <a name="saved-variables-and-chaining-of-test-cases"></a>Vistaðar breytur og keðjupróf
 
-Þessi eiginleiki býr til möppu sem inniheldur kladdana í prófunardæmunum sem hafa verið keyrð.
+Eitt af lykileiginleikunum í RSAT er keðja prófunardæma, það er að segja, geta prófunar til að gefa breytur til annarra prófana. Nánari upplýsingar er að finna í greininni [Afrita breytur í keðjuprófatilfelli](../../dev-itpro/perf-test/rsat/rsat-chain-test-cases.md).
 
-- Til að nota þennan eiginleika, skaltu opna skrána **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** í RSAT-uppsetningarmöppunni (til dæmis, **C:\\Program Files (x86)\\Regression Suite Automation Tool**) og breyta gildinu í eftirfarandi einingu úr **rangt** í **rétt**.
+### <a name="derived-test-case"></a>Afleitt prófunardæmi
 
-    ```xml
-    <add key="LogGeneration" value="false" />
-    ```
+RSAT gerir þér kleift að nota sömu verkefnaskráningu með mörgum prófatilvikum, sem gerir verki kleift að keyra með mismunandi gagnaskipan. Sjá greinina [Afleidd prófunartilvik](../../dev-itpro/perf-test/rsat/rsat-derived-test-cases.md) fyrir meiri upplýsingar.
 
-Þegar prófunardæmin hafa verið keyrð geturðu fundið kladdaskrárnar undir **C:\\Notendur\\\<Notendanafn\>\\AppData\\Roaming\\regressionTool\\generatorLogs**.
+### <a name="validate-notifications-and-messages"></a>Staðfesta tilkynningar og skilaboð
 
-![Mappan GeneratorLogs](./media/use_rsa_tool_10.png)
+Þennan eiginleika er hægt að nota til að staðfesta hvort aðgerð hafi átt sér stað. Til dæmis, þegar framleiðslupöntun er stofnuð, áætluð og síðan hafin sýnir forritið skilaboðin „Production - Start“ til að tilkynna þér að framleiðslupöntun hafi verið hafin.
+
+![Framleiðsla – Ræsa tilkynningu](./media/use_rsa_tool_05.png)
+
+Þú getur valið þessi skilaboð í gegnum RSAT með því að slá inn skilaboðartexta á flipann **MessageValidation** í Excel-færibreytuskránni fyrir viðeigandi skráningu.
+
+![Flipinn Sannprófun skilaboða](./media/use_rsa_tool_06.png)
+
+Þegar prófunardæmið hefur verið keyrt eru skilaboðin í Excel-færibreytuskránni borin saman við skilaboðin sem birtast. Ef skilaboðin stemma ekki mun prófunardæmið ekki takast.
 
 > [!NOTE]
-> Ef það voru til staðar prófunardæmi áður en þú breyttir gildinu í .config-skránni verða kladdar ekki myndaðir fyrir þessi prófdæmi fyrr en þú myndar nýjar prófunarkeyrsluskrár.
-> 
-> ![Skipunin Mynda textakeyrsluskrár í valmyndinni Nýtt](./media/use_rsa_tool_11.png)
+> Þú getur slegið inn fleiri en eina skilaboð á flipann **MessageValidation** í Excel-færibreytuskránni. Skilaboðin geta einnig verið villuboð eða viðvörunarboð í stað upplýsingaboða.
 
 ### <a name="snapshot"></a>Skyndimynd
 
-Þessi eiginleiki tekur skjámyndir af þeim skrefum sem voru gerð meðan á verkskráningu stóð.
+Þessi eiginleiki tekur skjámyndir af þeim skrefum sem voru gerð meðan á verkskráningu stóð. Það er gagnlegt fyrir endurskoðun eða kembiforrit.
 
 - Til að nota þennan eiginleika, skaltu opna skrána **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** í RSAT-uppsetningarmöppunni (til dæmis, **C:\\Program Files (x86)\\Regression Suite Automation Tool**) og breyta gildinu í eftirfarandi einingu úr **rangt** í **rétt**.
 
@@ -159,13 +97,7 @@ Nú, ef gildi reitsins **Samtals magn til ráðstöfunar** fyrir tilgreint atri�
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Undir **C:\\Notendur\\\<Notendanafn\>\\AppData\\Roaming\\regressionTool\\playback**, sérstakri möppu er stofnuð fyrir hvert prófunardæmi sem er keyrt.
-
-![Mappan Skyndimynd fyrir prófunardæmi](./media/use_rsa_tool_12.png)
-
-Í sérhverri af þessum möppum er hægt að finna skyndimyndir af þeim skrefum sem voru gerð meðan prófunardæmin voru keyrð.
-
-![Skyndimyndaskrár](./media/use_rsa_tool_13.png)
+Þegar þú keyrir prófunartilvikið mun RSAT búa til myndatökur (myndir) af skrefunum í spilunarmöppunni á prófatilvikunum í vinnumiðstöðinni. Ef þú ert að nota eldri útgáfu af RSAT eru myndirnar vistaðar á **C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback**, sérstök mappa er búin til fyrir hvert prófunartilvik sem er keyrt.
 
 ## <a name="assignment"></a>Verkefni
 
@@ -183,7 +115,7 @@ Eftirfarandi mynd sýnir flæðið fyrir þessar aðstæður.
 
 ![Flæði fyrir kynningaraðstæður](./media/use_rsa_tool_14.png)
 
-Eftirfarandi mynd sýnir viðskiptaferlin fyrir þessar aðstæður í RSAT.
+Eftirfarandi mynd sýnir stigveldi viðskiptaferla fyrir þessa atburðarás í LCS Viðskiptaferlavinnslu.
 
 ![Viðskiptaferli fyrir kynningaraðstæður](./media/use_rsa_tool_15.png)
 
@@ -377,7 +309,7 @@ Býr til öll prófunartilvik fyrir tilgreindan flokk í úttaksskráasafninu.
 
 
 #### <a name="help"></a>help
-Eins og [?](####?) command
+Eins og [?](#section) command
 
 
 #### <a name="list"></a>Listi
@@ -512,6 +444,8 @@ Sýnir tvær leiðir til að kalla á þetta forrit: önnur sem notar sjálfgefn
 
 ### <a name="windows-powershell-examples"></a>Windows PowerShell-dæmi
 
+[!IMPORTANT] Dæmisforskriftirnar hér að neðan eru afhent eins og þau eru til skýringar og eru ekki studd af Microsoft.
+
 #### <a name="run-a-test-case-in-a-loop"></a>Keyrðu prófunardæmi í lykkju
 
 Þú ert með prófunarforskrift sem stofnar nýjan viðskiptavin. Með forskriftum er hægt að keyra þetta prófunardæmi í lykkju með slembiröðun á eftirfarandi gögnum áður en hver ítrekun er keyrð:
@@ -551,7 +485,7 @@ function RunTestCase
     $cmd = $cmd + $filename
     cmd /c $cmd
 }
-$excelFilename = "full path to excel file parameter file"
+$excelFilename = "full path to Excel parameter file"
 l$sheetName = "DirPartyQuickCreateForm"
 for ($i = $start; $i -lt $start + $nr; $i++ )
 {

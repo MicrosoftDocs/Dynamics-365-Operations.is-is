@@ -2,15 +2,15 @@
 title: Seinkanir
 description: Þetta efnisatriði veitir upplýsingar um seinkanir á dagsetningum í aðaláætlanagerð. Frestuð dagsetning er raunhæfur gjalddagi sem færsla fær ef fyrsta uppfyllingardagsetning sem aðaláætlanagerð reiknar út er síðar en umbeðin dagsetning.
 author: roxanadiaconu
-manager: AnnBe
-ms.date: 03/15/2019
+manager: tfehr
+ms.date: 03/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransFuturesListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1a8c738fffda76f2a8492c20e2c67a154c68559
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 34252e5cd9ee5151b1cba47975fc0cc612521a17
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1522290"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203849"
 ---
 # <a name="delays"></a>Seinkanir
 
@@ -40,10 +40,16 @@ Ef aðaláætlanagerð°reiknar pöntunardagsetningu sem kemur á undan núveran
 
 Hægt er að skilgreina hvernig seinkanir°eru reiknaðar fyrir þekjuflokk. Hægt er að tengja þekjuflokk°við vöru seinna. 
 
-Á síðunni**Færibreytur aðaláætlanagerðar** er hægt að stilla upphafstíma fyrir útreikning°seinkana. Ef pöntun er uppfyllt að loknum tímafrestinum er einum degi°bætt við seinkunardagsetningu pöntunarinnar. 
+Á síðunni **Færibreytur aðaláætlanagerðar** er hægt að stilla upphafstíma fyrir útreikning á seinkunum. Ef pöntun er uppfyllt að loknum tímafrestinum er einum degi°bætt við seinkunardagsetningu pöntunarinnar. 
 
 > [!NOTE]
 > Í eldri útgáfum voru útreiknaðar seinkanir kallaðar *Framvirk boð*, seinkunardagsetning var kölluð *Framvirk dagsetning* og frestuð færsla kallaðist *Færsla sem var sett í framtíðinni*.
+
+## <a name="limited-delays-in-production-setup-with-multiple-bom-levels"></a>Takmarkaðar tafir á framleiðsluuppsetningunni með mörgum BOM-stigum
+Þegar þú vinnur með tafir í framleiðsluuppsetningunni sem hefur mörg BOM stig, er mikilvægt að hafa í huga að aðeins vörurnar beint fyrir ofan vöruna (í BOM-skipulagingunni) sem valda seinkuninni, verða uppfærðar með töf sem hluti af keyrslu aðaláætlunar. Töfum verður ekki beitt á aðrar vörur í BOM-skipulaginu fyrr en í fyrstu keyrslu aðaláætlunar, þegar fyrirhuguð pöntun fyrir efsta stigið er samþykkt eða styrkt. 
+
+Til að vinna í kringum þessa þekktu takmörkun er hægt að samþykkja (eða stýra) framleiðslupöntunum efst í BOM-skipulaginu með seinkunum áður en næsta aðaláætlunargerð er keyrð. Þannig verður seinkun frá seinkaðri fyrirhugaðri framleiðslupöntun haldið og allir undirliggjandi íhlutir uppfærðir til samræmis.
+Aðgerðaskilaboð er einnig hægt að nota til að bera kennsl á fyrirhugaðar pantanir sem hægt er að færa á síðari dagsetningu, vegna annarra tafa á BOM-skipulagi.
 
 ## <a name="desired-date"></a>Æskileg dagsetning
 

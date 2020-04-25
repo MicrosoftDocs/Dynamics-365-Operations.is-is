@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a37436eb15ee4c561d5d0c15c90e37815cb80860
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa61a70e14b7997258376beaf389129a4ad2fa73
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897926"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197268"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Hvað er nýtt eða breytt í Dynamics 365 Talent (16. apríl 2019)
 
@@ -46,10 +46,6 @@ Breytingum sem lýst er í þessum kafla gilda um byggingarnúmer 8.1.2239. Töl
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Einingar fyrir launasvæði, launastig, fríðindavalkost og hæfnisgerð í Common Data Service uppfærðar til að innihalda stuðningssvæði fyrir viðskiptavin
 
 Með þessari útgáfu hafa þessar Common Data Service-einingar verið uppfærðar til að innihalda möguleikann á því að bæta við sérstilltu svæði í gegnum Talent: Core HR.
-
-### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Nýr stuðningur Common Data Service-einingar fyrir: veitireglur launa, breytilegt launafyrirkomulag, breytileg laun
-
-Með þessari útgáfu hefur einingum fyrir veitireglur launa, breytilegt launafyrirkomulag og breytileg laun verið bætt við Common Data Service. Þessar einingar styðja einnig sérstillt svæði sem er bætt við í gegnum Talent: Core HR.
 
 ### <a name="powerbi-refresh-issues-314342"></a>Uppfærsluvandamál PowerBI (314342)
 
@@ -93,6 +89,6 @@ Með þessari breytingu er borið kennsl á tvítekningar á meðan þú færir 
 
 ### <a name="email-support-for-alerts"></a>Tölvupóstur út af viðvörunum
 
-Með verkvangsuppfærslu 25 fyrir Finance and Operations geta notendur stofnað viðvörunarreglur sem senda sjálfkrafa tilkynningar í tölvupósti á tengiliði þegar þær ræsast út af tilviki.
+Í verkvangsuppfærslu 25 fyrir Finance and Operations geta notendur stofnað viðvörunarreglur sem senda sjálkrafa tilkynningar í tölvupósti á tengiliði þegar þær ræsast út af tilviki.
 
 

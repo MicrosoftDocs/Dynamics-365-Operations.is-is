@@ -3,7 +3,7 @@ title: Sérsníða notandaupplifun
 description: Þessi grein útskýrir hvernig hægt er að sérsníða forritið.
 author: jasongre
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c745248a0c7e54b58b1d3e491f3bbb067ec0e2c2
-ms.sourcegitcommit: d8a2301eda0e5d0a6244ebbbe4459ab6caa88a95
+ms.openlocfilehash: d0a995d25cfc5e78cc76dd73ddea2fb8bd904328
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029363"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260507"
 ---
 # <a name="personalize-the-user-experience"></a>Sérsníða notandaupplifun
 
@@ -80,15 +80,16 @@ Sumir af mest dæmigerðu og mikilvægustu breytingum sem hægt er að gera á s
 
 Að auki eru helstu tegundir beinna sérstillinga tiltækar með því að hægrismella á einingu og síðan velja **Sérsníða**. (Athugaðu að ekki er hægt að sérsníða allar einingar á síðunni þinni.) Þegar þú notar þessa sérstillingaraðferð birtist eiginleikagluggi einingarinnar.
 
-![Sérsníða eiginleika í einingu](./media/personalization-element-properties.png)
+![Sérsníða eiginleika í einingu](./media/cli-element-property-window.png)
 
 Þú getur notað eiginleikagluggann til að sérsníða einingu á eftirfarandi hátt:
 
 - Breyta merkimiða einingarinnar.
 - Fela eininguna þannig að hún verði ekki sjáanleg á síðunni. Gögnin í reitnum hefur ekki verið eytt eða breytt. Upplýsingarnar birtast bara ekki lengur á síðunni.
 - Hafa upplýsingarnar í samantektarhlutanum fyrir flýtiflipa (ef einingin er á flýtiflipa).
-- Slepptu reitnum, svo að hann fái aldrei fókus þegar þú flettir í gegnum síðuna.
+- Slepptu reitnum svo að hann fái aldrei fókus þegar þú flettir í gegnum síðuna.
 - Koma í veg fyrir breytingar á gögnum í reitnum (fyrir allar skrár).
+- Tilnefnið reit sem krafist er fyrir færslu gagna. Ef ekkert gildi hefur verið slegið inn í þennan reit mun það birtast með rauða ramma og stjörnu til að gefa til kynna þessa stöðu. Þessi valkostur er aðeins í boði frá útgáfu 10.0.11 þegar aðgerðirnar [Vistaðar skoðanir](saved-views.md) og **Tilnefnið reiti eftir þörfum með því að nota persónugervingu** eru virkar.
 
 Eiginleikaglugginn gæti falið í sér aðrar sérstillingareiginleika, en það fer eftir einingunni. Til dæmis gæti eiginleikagluggi fyrir flís gefið þér kost á að færa þá flís yfir á mælaborð, og eiginleikaglugginn fyrir mælaborð gæti gefið þér kost á að búa til nýtt vinnusvæði á þeim mælaborði.
 
@@ -116,6 +117,7 @@ Eftirfarandi verkfæri eru í boði á **Sérstillingar** tækjastikunni:
 - Nota **Færa** verkfærið til að færa einingar á annan stað í núverandi hóp eininga. Athugaðu að ekki er hægt að færa einingu utan yfirhóps hennar. Til að nota þetta tól velurðu hnappinn **Flytja** á verkfæraslánni og síðan einingu sem á að flytja. Þegar þú velur einingu ákvarðar forritið staðsetningar þar sem flytja má eininguna. Þessir staðir eru þekktir sem *sleppisvæði*. Þegar þú færir eininguna til í núverandi hóp er hvert sleppisvæði sýnt sem lituð, feitletruð lína við hliðina á því svæði þar sem má sleppa einingunni.
 - Nota **Sleppa** verkfærið til að fjarlægja einingu úr fliparöð lyklaborðs síðunnar. Þegar þú velur hnappinn **Sleppa** á verkfæraslánni eru allar einingar sem nú þegar er sleppt sýndar í skyggðum gámi. Þú getur fjarlægt eða bætt við reitum á fliparöðinni með gagnvirkum hætti.
 - Notaðu verkfærið **Sýna í haus** þegar þú vilt að reitur birtist í samantektarhlutanum fyrir flýtiflipa. Þegar þú velur hnappinn **Sýna í haus** á verkfæraslánni eru allir reitir sem hafa verið valdir sem samantektarreitir sýndar í skyggðum gámi. Með því að velja reitina getur þú með gagnvirkum hætti fjarlægt og bætt við reitum þaðan.
+- Notaðu verkfærið **Krefjast** til að tilnefna þátt eins og krafist er fyrir færslu gagna. Þegar þú velur hnappinn **Krefjast** á verkfæraslánni eru allar einingar sem hafa verið sérsniðnar sem krafist sýndar í skyggðum gámi. Þú getur þá aftur gert þær sem ekki krafist. Þessi valkostur er aðeins í boði í seinni útgáfu þegar aðgerðirnar [Vistaðar skoðanir](saved-views.md) og **Tilnefnið reiti eftir þörfum með því að nota persónugervingu** eru virkar.
 - Notaðu verkfærið **Læsa** til að merkja einingu sem annaðhvort breytanlega eða óbreytanlega. Þegar þú velur hnappinn **Læsa** á verkfæraslánni eru allar einingar sem eru þegar óbreytanlegar sýndar í skyggðum gámi. Þú getur þá gert þær breytanlegar aftur. Athugaðu að sumir reitir eru nauðsynlegir og ekki hægt að gera þá óbreytanlega. Hengilásatákn birtist við hliðina á þessum reitum.
 - Notaðu hnappinn **Bæta við forriti úr Power Apps** til að fella forrit inn á síðuna sem var búið til með því að nota Microsoft Power Apps. Nánari upplýsingar um hvernig á að fella inn forrit frá Power Apps á síðu er að finna í [Innfelling á forritum úr Power Apps](embed-power-apps.md). Þessi valkostur er aðeins í boði þegar aðgerðin [Vistaðar skoðanir](saved-views.md) er óvirk.  
 - Notaðu hnappinn **Bæta við forriti** til að fella inn forrit, annaðhvort forrit stofnað í Microsoft Power Apps eða frá þriðja aðila, á síðuna. Þessi valkostur er aðeins í boði þegar aðgerðin [Vistaðar skoðanir](saved-views.md) er virkjuð. 

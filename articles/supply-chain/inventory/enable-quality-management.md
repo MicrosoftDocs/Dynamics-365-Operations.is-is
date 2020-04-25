@@ -2,7 +2,7 @@
 title: Yfirlit yfir gæðastjórnun
 description: Þessi grein lýsir því hvernig hægt er að nota gæðastjórnun í Dynamics 365 Supply Chain Management til að bæta gæði afurða innan aðfangakeðju þinnar.
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2d51c659d9d06f075458359d81de978e7a6d14b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
+ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814399"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3224910"
 ---
 # <a name="quality-management-overview"></a>Yfirlit yfir gæðastjórnun
 
@@ -303,123 +303,7 @@ Eftirfarandi tafla veitir frekari upplýsingar um hvernig hægt er að mynda gæ
 - Ef valkosturinn **Eftir uppfærðu magni** er stilltur á **Já** myndast gæðapöntun fyrir hverja innhreyfingu gegn innkaupapöntuninni, byggð á mótteknu magni og stillingum í vörusýni. Í hvert skipti sem magn er móttekið gegn innkaupapöntuninni myndast nýjar gæðapantanir miðað við nýlega fengið magn.
 - Ef valkosturinn **Eftir uppfærðu magni** er stilltur á **Nei** myndast gæðapöntun fyrir fyrstu innhreyfinguna gegn innkaupapöntuninni, byggð á mótteknu magni. Að auki eru ein eða fleiri gæðapantanir búnar til miðað við eftirstandandi magn, eftir því hverjar rakningarvíddirnar eru. Gæðapantanir eru ekki myndaðar fyrir síðari innhreyfingar gegn innkaupapöntuninni.
 
-<table>
-<tbody>
-<tr>
-<th>Gæðaforskriftir</th>
-<th>Uppfært magn á</th>
-<th>Á rakningarvídd</th>
-<th>Niðurstaða</th>
-</tr>
-<tr>
-<td>Prósenta: 10%</td>
-<td>Já</td>
-<td>
-<p>Rununúmer: Nr.</p>
-<p>Raðnúmer: Nr.</p>
-</td>
-<td>
-<p>Pöntunarmagn: 100</p>
-<ol>
-<li>Tilkynna sem lokið fyrir 30
-<ul>
-<li>Gæðapöntun #1 fyrir 3 (10% af 30)</li>
-</ul>
-</li>
-<li>Tilkynna sem lokið fyrir 70
-<ul>
-<li>Gæðapöntun # 2 fyrir 7 (10% af pöntunarmagni sem eftir er, sem jafngildir 70 í þessu tilfelli)</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>Fast magn: 1</td>
-<td>Nr</td>
-<td>
-<p>Rununúmer: Nr.</p>
-<p>Raðnúmer: Nr.</p>
-</td>
-<td>Pöntunarmagn: 100
-<ol>
-<li>Tilkynna sem lokið fyrir 30
-<ul>
-<li>Gæðapöntun #1 er búin til fyrir 1 (fyrir fyrsta magn sem var tilkynnt sem lokið, sem hefur fast gildi 1).</li>
-<li>Fleiri gæðapantanir eru ekki myndaðar á móti eftirstandandi magni.</li>
-</ul>
-</li>
-<li>Tilkynna sem lokið fyrir 10
-<ul>
-<li>Engar gæðapantanir eru búnar til.</li>
-</ul>
-</li>
-<li>Tilkynna sem lokið fyrir 60
-<ul>
-<li>Engar gæðapantanir eru búnar til.</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>Fast magn: 1</td>
-<td>Já</td>
-<td>
-<p>Rununúmer: Já</p>
-<p>Raðnúmer: Já</p>
-</td>
-<td>
-<p>Pöntunarmagn: 10</p>
-<ol>
-<li>Tilkynna sem lokið fyrir 3
-<ul>
-<li>Gæðapöntun #1 fyrir 1 í lotu #b1, raðnúmer #s1</li>
-<li>Gæðapöntun #2 fyrir 1 í lotu #b2, raðnúmer #s2</li>
-<li>Gæðapöntun #3 fyrir 1 í lotu #b3, raðnúmer #s3</li>
-</ul>
-</li>
-<li>Tilkynna sem lokið fyrir 2
-<ul>
-<li>Gæðapöntun #4 fyrir 1 í lotu #b4, raðnúmer #s4</li>
-<li>Gæðapöntun #5 fyrir 1 í lotu #b5, raðnúmer #s5</li>
-</ul>
-</li>
-</ol>
-<p><strong>Ath.:</strong> Hægt er að endurnýta rununa.</p>
-</td>
-</tr>
-<tr>
-<td>Fast magn: 2</td>
-<td>Nr</td>
-<td>
-<p>Rununúmer: Já</p>
-<p>Raðnúmer: Já</p>
-</td>
-<td>
-<p>Pöntunarmagn: 10</p>
-<ol>
-<li>Tilkynna sem lokið fyrir 4
-<ul>
-<li>Gæðapöntun #1 fyrir 1 í lotu #b1, raðnúmer #s1.</li>
-<li>Gæðapöntun #2 fyrir 1 í lotu #b2, raðnúmer #s2.</li>
-<li>Gæðapöntun #3 fyrir 1 í lotu #b3, raðnúmer #s3.</li>
-<li>Gæðapöntun #4 fyrir 1 í lotu #b4, raðnúmer #s4.</li>
-<li>Fleiri gæðapantanir eru ekki myndaðar á móti eftirstandandi magni.</li>
-</ul>
-</li>
-<li>Tilkynna sem lokið fyrir 6
-<ul>
-<li>Engar gæðapantanir eru búnar til.</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-</tbody>
-</table>
-
-### <a name="production"></a>Framleiðsla
+### <a name="production"></a>Vinnsla
 
 Í framleiðslu, ef þú stillir reitinn **Gerð tilviks** á **Tilkynna sem lokið** og reitinn **Framkvæmd** á **Eftir** á síðunni **Gæðatengingar** færðu eftirfarandi niðurstöður:
 

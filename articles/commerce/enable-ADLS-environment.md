@@ -3,7 +3,7 @@ title: Virkja ADLS í Dynamics 365 Commerce umhverfi
 description: Þetta efni útskýrir hvernig á að virkja og prófa Azure Data Lake Storage (ADLS) fyrir Dynamics 365 Commerce umhverfi, sem er forsenda þess að hægt sé að gera ráð fyrir afurð.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c037f5603af5af84917084eefa1edd508891c0d
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: ba428765babb9ca7566da7a457368959b1c29083
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154437"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259749"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>Virkja ADLS í Dynamics 365 Commerce umhverfi
 
@@ -48,7 +48,8 @@ Nánari upplýsingar um ADLS er að finna í [ADLS opinberum fylgiskjölum](http
   
 ## <a name="configuration-steps"></a>Skref skilgreiningar
 
-Þessi hluti fjallar um nauðsynlegar stillingar til að gera ADLS kleift í umhverfi.
+Þessi hluti fjallar um nauðsynlegar stillingar til að virkja ADLS í umhverfi þar sem það tengist afurðatillögum.
+Fyrir nánari yfirsýn yfir skrefin sem þarf til að virkja ADLS, sjá [Gera einingaverslun tiltæka sem Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 
 ### <a name="enable-adls-in-the-environment"></a>Virkja ADLS í umhverfinu
 
@@ -91,6 +92,8 @@ Ef ekki er lokið þegar, fylgdu skrefunum fyrir [sem gerir ráð fyrir vöru og
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
+[Gera einingaverslun tiltæka sem Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)
+
 [Yfirlit yfir afurðarráðleggingar](product-recommendations.md)
 
 [Virkja ráðleggingar um afurðir](enable-product-recommendations.md)
@@ -110,5 +113,3 @@ Ef ekki er lokið þegar, fylgdu skrefunum fyrir [sem gerir ráð fyrir vöru og
 [Búðu til tillögur með kynningargögnum](product-recommendations-demo-data.md)
 
 [Algengar spurningar um afurðaráðleggingar](faq-recommendations.md)
-
-

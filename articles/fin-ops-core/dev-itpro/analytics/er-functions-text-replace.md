@@ -3,7 +3,7 @@ title: REPLACE ER-aðgerð
 description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin REPLACE í rafrænni skýrslugerð (ER) er notuð.
 author: NickSelin
 manager: kfend
-ms.date: 12/10/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba2590635ba465dae9ea50d3e4da989365548f3b
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 83d5095620a938f1ac4b8428fff9209fda7a7831
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040987"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201067"
 ---
-# <a name="REPLACE">REPLACE ER-aðgerð</a>
+# <a name=""></a><a name="REPLACE">REPLACE ER-aðgerð</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -69,7 +69,7 @@ Textagildið sem verður til.
 
 Ef frumbreytan `regular expression flag` er **TRUE** skilar þessi aðgerð tilgreindum streng eftir að henni hefur verið breytt með því að beita venjulegu segð sem er tilgreind af frumbreytunni `pattern`. Reglulega segðin er notuð til að finna stafina sem verður að skipta út.
 
-Ef frumbreytan `regular expression flag` er **FALSE** hagar þessi aðgerð sér eins og [TRANSLATE](er-functions-text-translate.md). Stafirnir sem eru tilgreindir af staðgengilsbreytunni `replacement` eru notaðir til að skipta út stöfum sem finnast. 
+Ef frumbreytan `regular expression flag` er **FALSE** skilar þessi aðgerð tilteknum streng á eftir stafasamstæðan sem er skilgreind í frumbreytunni `pattern` hefur verið skipt út fyrir stafina í frumbreytunni `replacement`. 
 
 ## <a name="example-1"></a>Dæmi 1
 

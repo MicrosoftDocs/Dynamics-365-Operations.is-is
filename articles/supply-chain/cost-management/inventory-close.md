@@ -2,7 +2,7 @@
 title: Birgðalokun
 description: Sem hluti af ferlinu við að jafna úthreyfingarfærslur við innhreyfingarfærslur, er einnig hægt að velja að láta uppfæra fjárhag til að endurspegla leiðréttingarnar sem hafa verið gerðar.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 10/24/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 61973
 ms.assetid: c210c882-6849-4704-b78c-a777dd6cfdb6
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a705853ea27d117c99a00893b862348bbac0b9b0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 83c88a5fe52e41df5a0371d6666f544996bd3c76
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560784"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201641"
 ---
 # <a name="inventory-close"></a>Birgðalokun
 
@@ -34,7 +34,7 @@ Sem hluti af ferlinu við að jafna úthreyfingarfærslur við innhreyfingarfær
 
 Birgðalokunarferlið jafnar úthreyfingafærslur við innhreyfingafærslur samkvæmt birgðamatsaðferð sem er valin í birgðalíkanaflokki vörunnar. Sem hluti af jöfnunarferlinu er hægt að tilgreina að það eigi að uppfæra fjárhag, þannig að hann endurspegli leiðréttingarnar sem hafa verið gerðar. Hinsvegar, þangað til birgðalokun eða endurútreikningar eru keyrðir, eru úthreyfingarfærslur bókaðar skv. útreiknuðu hlaupandi meðaltali kostnaðarverðs. 
 
-Eftir að birgðalokun hefur farið fram, er ekki lengur hægt að bóka á tímabilum sem voru fyrir dagsetningu birgðalokunar sem skilgreind var, nema fullgert birgðalokunarferli sé afturkallað. Til dæmis, ef birgðalokun er keyrð á tímabilinu sem endar 31 Janúar, er ekki hægt að bóka færslur sem hafa dagsetningu sem er fyrir 31 Janúar.  
+Eftir að birgðalokun hefur farið fram, er ekki lengur hægt að bóka á tímabilum sem voru fyrir dagsetningu birgðalokunar sem skilgreind var, nema fullgert birgðalokunarferli sé afturkallað. Til dæmis, ef birgðalokun er keyrð á tímabilinu sem endar 31. janúar, er ekki hægt að bóka færslur sem hafa dagsetningu sem er fyrir 31. janúar. 
 
 Birgðavörur eru tengdar einni af tveimur tegundum birgða: vara, eða þjónusta Birgðalokun framkvæmir sömu aðgerðir í báðum gerðum. Hins vegar fyrir þjónustuvöru, jafnar birgðalokun samt sem áður úthreyfingar við innhreyfingar. 
 
@@ -68,7 +68,7 @@ Fjárhagslyklar sem eru uppfærðir vegna þessara verka eru tengdir upphaflegu 
 ## <a name="the-inventory-close-log"></a>birgðalokunarkladdi
 Þegar birgðalokunarferli er lokið geta komið upp skilaboð sem segja að kostnaðarverð einingar sé hugsanlega rangt því ekki hafi tekist að fulljafna færslu. 
 
-Áður en þessi boð birtast tilgreinir Dynamics AX vörunúmer og viðkomandi færslu. Þessi boð segja að kostnaðarupphæðin sem var notuð fyrir færsluna hafi ekki verið uppfærð vegna birgðalokunar. Þau birtast þegar ekki er hægt að jafna færslu af gerðinni úthreyfing. 
+Áður en þessi skilaboð eru sýnd tilkynnir kerfið vörunúmer og færsluna sem fellur undir þetta. Þessi boð segja að kostnaðarupphæðin sem var notuð fyrir færsluna hafi ekki verið uppfærð vegna birgðalokunar. Þau birtast þegar ekki er hægt að jafna færslu af gerðinni úthreyfing. 
 
 Við lokun birgðalokununarferlis er hver fjárhagsvídd athuguð til að gá hvort eru fleiri úthreyfingar en innhreyfingar fram að tilgreindri lokunardagsetningu. Þetta ójafnvægi getur orðið þegar birgðafærsla úr innkaupapöntun er ekki fyllilega jöfnuð fjárhagslega vegna þess að reikningur lánardrottins hefur ekki verið móttekinn eða vegna þess að uppskriftaríhlutir sem eru með í framleiðslu á hærra stigi eru ekki fjárhagslega bókaðir. Ef þetta gerist leiðréttir síðari lokun ekki allar úthreyfingar yfir í gildandi kostnaðarverð því ekki eru fullnægjandi upplýsingar um innhreyfingar. 
 

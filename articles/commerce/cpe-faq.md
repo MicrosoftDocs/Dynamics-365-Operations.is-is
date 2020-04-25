@@ -3,7 +3,7 @@ title: Dynamics 365 Commerce yfirlitsumhverfi algengra spurninga
 description: Þetta efnisatriði veitir svör við algengum spurningum um forskoðunarumhverfi Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 061a160380e500ea52afbc35f0a95fe84d971bcf
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 5321d7937a9de3ba39f7a88bf0e9c26f4e62d7bc
+ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024753"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "3254725"
 ---
 # <a name="dynamics-365-commerce-preview-environment-faq"></a>Dynamics 365 Commerce yfirlitsumhverfi algengra spurninga
 
@@ -77,8 +77,6 @@ Við veitum kvóta af einu forskoðunarumhverfi Commerce fyrir hverja beiðni se
 ## <a name="dynamics-365-commerce-preview-environment-contact-information"></a>Dynamics 365 Commerce forskoðunarumhverfi upplýsinga tengiliði
 
 Til að hafa samband við Microsoft ef þú hefur spurningar eða beiðnir sem tengjast forskoðunarumhverfi Commerce skaltu fara á [Microsoft Dynamics 365 Commerce Forskoða Yammer hóp](https://aka.ms/Dynamics365CommercePreviewYammer) fyrir hjálp.
-
-Ef þú lendir í vandamálum þegar þú reynir að fá aðgang að Yammer-hóp geturðu haft samband við Microsoft með tölvupósti á <Dynamics365Commerce@microsoft.com>. Ekki er fylgst með þessu netfangi með virkum hætti. Því má búast við seinkun á viðbrögðum.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

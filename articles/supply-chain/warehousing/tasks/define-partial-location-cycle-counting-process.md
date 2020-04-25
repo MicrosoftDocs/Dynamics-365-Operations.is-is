@@ -2,25 +2,25 @@
 title: 'Skilgreina hlutastaðsetning reglulegrar talningar '
 description: Þegar þú notar áætlun um reglulega talningu til að stofna talningarvinnu, geturðu stýrt hinum raunverulegu talningaraðgerðum með því að fara fram á að aðeins sérstakar vörur og vöruafbrigði verði talin í staðinn fyrir allar lagerbirgðir á staðsetningunni.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67f719d5990a4331559cab34412bf82f15eca735
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: c3d80171ec524e3401d7971cb743d73abdda87ff
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3148355"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3217035"
 ---
 # <a name="define-partial-location-cycle-counting-process"></a>Skilgreina hlutastaðsetning reglulegrar talningar  
 

@@ -3,7 +3,7 @@ title: Regluuppfærslur
 description: Þetta efnisatriði gefur lista yfir áætlaðar og útgefnar reglubundnar uppfærslur á Microsoft Dynamics 365 Finance.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 03/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f35ab4b3ad49edfd0b68f906f44b8a2b04787f1a
-ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
+ms.openlocfilehash: 6e403e3d18aec616d0c569b16ba77eaefdf4b0ea
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "3161806"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262627"
 ---
 # <a name="regulatory-updates"></a>Regluuppfærslur
 
@@ -51,8 +51,11 @@ Fyrir nýjustu áætlanir á uppfærslu á reglum skal skoða eftirfarandi töfl
 |      Brasilía         |   2020. janúar       | 10.0.8      |   Viðbótarupplýsingar um ICMS-ST    |
 |      Brasilía         |   Mars 2020 - janúar 2020       | 10.0.9, 10.0.8HF      |   Hraða fjárhagslega skipulag 014 |
 |      Brasilía         |   Mars 2020 - janúar 2020       | 10.0.9, 10.0.8HF      |   DRCST SC - reglugerð SEF Nº 343DR   |
+|      Brasilía         |   Maí 2020 - mars 2020      | 10.0.11, 10.0.10HF, 10.0.9HF      |   SPED ECD útlit 8   |
+|      Brasilía         |   Maí 2020 - apríl 2020      | 10.0.11, 10.0.10HF, 10.0.9HF, 10.0.8HF      |   Tæknilýsing NT2019.001 v1.40   |
 |      Frakkland         |   2020. apríl       | 10.0.10      |   Lögfræðikostnaðaryfirlýsing til skattyfirvalda fyrir sjálfstætt starfandi einstaklinga (DAS2)    |
 |      Frakkland         |   2020. mars       | 10.0.9      |   Frönsk staðsetning: ISO 20022 snið fyrir alþjóðlega greiðslu og yfirfærslu ríkissjóðs    |
+|      Ungverjaland         |   Maí 2020 - mars 2020       | 10.0.11, 10.0.9HF, 10.0.8HF     |   Reikningskerfi á netinu v.2.0 í Finance and Operations    |
 |      Indland         |   2020. mars      | 10.0.9      |   Nýtt GSTR (ANX-1 & ANX-2) Til baka tæki án nettengingar    |
 |      Ítalía         |   2020. janúar      | 10.0.8      |   Breytingar á stjórnun virðisaukaskatts hjá D.L. 119 frá 23. okt. 2018: Árleg skattsamskipti    |
 |      Ítalía         |   2020. mars      | 10.0.9, 10.0.8HF      |   Retail - Stjórnun upplýsinga um viðskiptavin í POS |
@@ -68,6 +71,9 @@ Fyrir nýjustu áætlanir á uppfærslu á reglum skal skoða eftirfarandi töfl
 |      Pólland          |   Mars 2020 - janúar 2020     | 10.0.9, 10.0.8HF     |   Retail - Prentun upplýsinga viðskiptavina í ríkisfjármálum |
 |      Pólland          |   Mars 2020 - janúar 2020     | 10.0.9, 10.0.8     |   SAF-reikningar (JPK_FA) v.2 frá 2des2019 |
 |      Pólland          |   Apríl 2020 - janúar 2020     | 10.0.10, 10.0.9, 10.0.8     |   JPK_VDEK kemur í stað JPK_VAT (SAF VSK) |
+|      Pólland          |   2020. maí     | 10.0.11     |   Skiptu AP/AR innleystri gengismunarupphæð í gengismun á reikningsvirði og virðisaukaskattsupphæð  |
+|      Pólland          |   2020. maí     | 10.0.11     |   SAF bókhaldsbækur - endurbætur á síun bókunarlaga |
+|      Pólland          |   2020. maí     | 10.0.11     |   JPK_VDEK viðbótarpakki I |
 |      Rússland          |   2020. mars     | 10.0.9     |   Sniðmát skattskýrslu eignaskatts fyrir skýrslugerð árið 2019 |
 |      Rússland          |   2020. mars     | 10.0.9     |   Uppfærslur á tekjuskattsskýrslu |
 |      Singapúr           |   2020. janúar     | 10.0.8      |   Skýrslur GST-Skil |

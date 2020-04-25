@@ -2,7 +2,7 @@
 title: Flytja inn vörulista lánardrottins
 description: Þetta efnisatriði lýsir ferlinu til að flytja inn vörulistagögn lánardrottins.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 03/20/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9f85b1d1f0b1c2378dd3f278640d984c31923c35
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 35b8e2a87708c88b12c5c7605a7977712a35a0f4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2017875"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207375"
 ---
 # <a name="import-vendor-catalogs"></a>Flytja inn vörulista lánardrottins
 [!include[banner](../includes/banner.md)]
@@ -35,17 +35,16 @@ ms.locfileid: "2017875"
 Hægt er að hlaða upp vörulistagögnum sem lánardrottinn hefur sent með biðlara Microsoft Dynamics 365.
 
 Afurðargögnin sem lánardrottinn sendir til þín sem skáarformið viðhaldsbeiðni vörulista (CMR) verður að vera á XML-skráarsniði. CMR-skráin ætti að innihalda upplýsingar um afurðirnar sem lánardrottinn veitir fyrirtækinu þínu.
-
+''''
 ## <a name="import-vendor-catalog-data"></a>Flytja inn vörulistagögn lánardrottins
-
-Til að flytja inn vörulistagögn lánardrottins þarf að ljúka eftirfarandi verkum:
+'' Til að flytja inn vörulistagögn lánardrottins þarf að ljúka eftirfarandi verkum:
 
 1.  Settu upp verk á vinnusvæði Gagnastjórnunar þar sem þú hefur skilgreint reglur gagnavörpunar. Veldu **Gagnastjórnun** og veldu síðan **Setja upp hlutverk fyrir gagnaverk**. 
-
+    ''
 2.  Settu upp tegundastigveldi innkaupa og úthlutaðu lánardrottnum þínum á innkaupaflokka. Ef þú notar vörukóða skaltu bæta vörukóðanum við innkaupaflokka. Til að fá upplýsingar um uppsetningu á tegundastigveldi innkaupa skaltu sjá [Setja upp tegundastigveldi innkaupa](../procurement/tasks/set-up-procurement-category-hierarchy.md).
-
+    ''
 3.  Stilla lánardrottinn fyrir innflutning vörulista. Veldu lánardrottin og veldu síðan **Innkaup** > **Setja upp** > **Stilla lánardrottin fyrir vörulistainnflutning**.
-
+''''
 4.  Stilla verkflæði fyrir vörulistainnflutning. Stofna CMR-skráarsniðmát og deila því með lánardrottni.
 
 5.  Veldu **Innkaup og aðföng** \> **Algengt** \> **Vörulistar** \> **Vörulistar lánardrottins** til að stofna vörulista lánardrottins. Skrárnar fyrir viðhaldsbeiðni vörulista (CMR) sem þú færð frá lánardrottni eru flokkaðar í þessum vörulista. 

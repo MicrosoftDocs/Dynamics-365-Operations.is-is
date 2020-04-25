@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f0a80e5b1a79c874ce0a8d24c85be71d0dc5c9c8
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: b89d08d8f6a4223eb592ffa2b918504839e5287b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550557"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142410"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-4---run-format"></a>Rafræn skýrslugerð Skilgreina snið til að gera talningu og samlagningu (Hluti 4 - keyra snið)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt snið rafrænnar skýrslugerðar (ER) til að telja og taka saman á grundvelli gagna textaúttaks sem þegar var myndað. Hægt er að framkvæma þessum skrefum í DEMF fyrirtækinu.
 
-Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í á "Rafræn skýrslugerð skilgreingasnið sér um að telja og taka saman (Hluti 3: Nota útreikninga til að búa til úttak)" ferli.
+Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu „Rafræn skýrslugerð skilgreingasnið sér um að telja og taka saman (Hluti 3: Nota útreikninga til að búa til úttak)”.
 
 Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.
 
@@ -49,9 +49,9 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í á "Raf
 12. Smellið á „Vista“.
 13. Fara í Skattur > Uppsetning > Erlend viðskipti > Færibreytur erlendra viðskipta.
 14. Útvíkka hlutann Rafræn skýrslugerð.
-15. Veljið skilgreininguna „Intrastat (DE) með talningu & samlagningu“.
-16. Veljið skilgreininguna „Intrastat (DE) með talningu & samlagningu“.
-17. Smellið á „Vista“.
+15. Veljið skilgreininguna „Intrastat (DE) með talningu og samlagningu“.
+16. Veljið skilgreininguna „Intrastat (DE) með talningu og samlagningu“.
+17. Smelltu á Vista.
 18. Lokið síðunni.
 19. Fara í Skattur > Yfirlýsingar > Erlend viðskipti > Intrastat.
 20. Smellið á úttak

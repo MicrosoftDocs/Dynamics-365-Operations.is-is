@@ -1,9 +1,9 @@
 ---
 title: Velja tækni við samþættingu gagna
-description: Þessi grein veitir leiðbeiningar um ýmsa möguleika til að samþætta við gögn sem stjórnað er af Human Resources og lýsa einkennum mismunandi aðlögunartækni svo samþættingar geti tekið upplýstar ákvarðanir varðandi hvaða tækni hentar best þeirra þörfum.
+description: Þessi grein veitir upplýsingar um samþættingu við gögn sem stjórnað er af Human Resources. Það lýsir mismunandi samþættingartækni til að hjálpa þér að ákveða hvaða tækni hentar þínum þörfum best.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 02/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,25 +18,27 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f2de5dd41c00e6546b4a4feadaf5774430d572bb
-ms.sourcegitcommit: 13c4a6f98ccce243d6befde90992aefcf562bdab
+ms.openlocfilehash: 6bb754ca80af0a0793b5ee162a378ebbe92524c5
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029889"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197291"
 ---
 # <a name="choose-a-data-integration-technology"></a>Velja tækni við samþættingu gagna
 
-Dynamics 365 Human Resources heldur utan um viðskiptagögn sem eru gagnleg í ýmsum viðskiptaferlum. Þessi grein veitir leiðbeiningar um ýmsa möguleika til að samþætta við gögn sem stjórnað er af Human Resources og lýsa einkennum mismunandi aðlögunartækni svo samþættingar geti tekið upplýstar ákvarðanir varðandi hvaða tækni hentar best þeirra þörfum.
+Þessi grein veitir upplýsingar um samþættingu við gögn sem stjórnað er af Dynamics 365 Human Resources. Það lýsir mismunandi samþættingartækni til að hjálpa þér að ákveða hvaða tækni hentar þínum þörfum best.
 
-## <a name="data-integration-vision"></a>Samþættingarstefna gagna
+## <a name="data-integration-background"></a>Bakgrunnur gagnasamþættingar
 
-Microsoft lítur á viðskiptagögn sem lykil eign sem gerir fyrirtæki þitt einstakt. Gögn fyrirtækisins eru mjög dýrmæt. Gögn sem safnað er og viðhaldið af einum hluta starfseminnar tengjast gögnum sem safnað er af öðrum hluta starfseminnar og þessi samskipti geta verið notuð til að bæta viðskiptaferla og viðskiptagreind í öllum fyrirtækjum þínum. Að veita greiðan, öruggan, stöðugan aðgang að viðskiptagögnum þínum, óháð því hvaða kerfi „á“ gögnin, er lykilatriðið í þeirri framtíðarsýn sem við höfum varðandi samþættingu gagna við Human Resources.
+Viðskiptagögn eru lykileign sem gerir fyrirtæki þitt einstakt. Gögn fyrirtækisins eru mjög dýrmæt. Þú getur notað venslin milli gagna sem safnað er í öllu fyrirtæki þínu til að bæta viðskiptaferla og viðskiptagreind í öllum fyrirtækjum þínum. Við leggjum okkur fram um að veita greiðan, öruggan og stöðugan aðgang að viðskiptagögnum þínum hvað sem kerfið kemur frá.
 
 Sögulega hefur verið erfitt að samþætta gögn milli margra kerfa.
 Microsoft tekur skref til að auðvelda samþættingu gagna og stórt skref í átt að því markmiði er náð með [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro).
 
-Framundan er Human Resources að gera Common Data Service valinn almenningsviðmót fyrir gögn í Human Resources. Með tímanum gerum við ráð fyrir að öll mikilvægustu gögn sem stjórnað er af Human Resources verði afhjúpuð í Common Data Service. Við mælum með Common Data Service sem valin tækni fyrir flest samþætt forrit. Þó að við gerum okkur grein fyrir að ekki eru öll gögn sem umsókn þín þarfnast nú til Common Data Service, og að tímalínur verkefna þinna geti þurft aðra tækni, vinsamlegast láttu okkur vita hvenær Common Data Service uppfyllir ekki samþættingarþörf þína.
+Human Resources er að gera Common Data Service að völdu almenningsviðmóti fyrir gögn í Human Resources. Með tímanum gerum við ráð fyrir að öll mikilvægustu gögn sem stjórnað er af Human Resources verði afhjúpuð í Common Data Service. Við mælum með Common Data Service sem valin tækni fyrir flest samþætt forrit.
+
+Við gerum okkur grein fyrir því Common Data Service gæti ekki enn geymt öll gögnin sem umsókn þín þarfnast. Við gerum okkur einnig grein fyrir því að tímalína verkefnisins gæti þurft aðra tækni. Passaðu að láta okkur vita þegar Common Data Service uppfyllir ekki samþættingarþarfir þínar.
 
 ## <a name="integration-technologies"></a>Samþættingartækni
 
@@ -44,32 +46,34 @@ Eftirfarandi kaflar lýsa mismunandi gagnaaðlögunartækni sem hægt er að not
 
 ### <a name="common-data-service-entities"></a>Common Data Service einingar
 
-Common Data Service er ákjósanlegt almenningsgagnaviðmót Human Resources. Common Data Service er byggður á þroskuðum vettvangi og hefur vaxið úr Dynamics 365 "XRM" pallinum, sem [Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/#pivot=business-apps&panel=customer-engagement) lausnir eru byggðar.
+Common Data Service er ákjósanlegt almenningsgagnaviðmót Human Resources. Það þróaðist úr Dynamics 365 XRM verkvanginum, sem er notaður af lausnum [Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/#pivot=business-apps&panel=customer-engagement).
 
-Common Data Service veitir vettvang fyrir gagnaeiningar og API til að fá aðgang að þeim einingum. Þegar starfsmannamálum er komið fyrir í fyrirtækinu þínu er mannauðsmál tengt a Common Data Service tilvik og þær einingar sem halda uppi mannauðsgögnum eru settir inn í það Common Data Service tilvik, sem gerir aðilana og gögn þeirra aðgengileg öllum forritum sem geta tengst við Common Data Service tilvik. Eftir því hvaða mannauðsforrit þú notar, framkvæmir mannauður annaðhvort gagnaaðgerðir beint gegn Common Data Service einingum (þetta á við um Attract og Onboard) eða samstilla gögn til / frá Common Data Service einingar.
+Common Data Service veitir verkvang og API fyrir gagnaeiningar. Þegar þú setur upp Human Resources tengist það tilviki Common Data Service. Einingar fyrir gögn Human Resources eru settar upp í það tilvik Common Data Service. Einingarnar og gögn þeirra eru tiltæk öllum forritum sem geta tengst við tilvik Common Data Service. Human Resources samstillir gögn í og úr einingum Common Data Service.
 
-Þegar gagnaeiningar sem afhjúpa gögnin sem samþættingarforritin þín þarfnast eru til staðar í Common Data Service, þú getur nýtt þér að fullu [Common Data Service og API sem það styður](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer). Meðal forritaðra API er [Dynamics 365 Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api), sem veitir OData framkvæmd til að fá aðgang Common Data Service gögnum.
+Þegar gagnaeiningarnar sem samþættingarforritin þín þarfnast eru í Common Data Service getur þú notað að fullu [Common Data Service og API sem það styður](https://docs.microsoft.com/powerapps/#pivot=home&panel=developer). Meðal forritaðra API er [Dynamics 365 Web API](https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api), sem veitir OData framkvæmd til að fá aðgang Common Data Service gögnum.
 
-Einingar Common Data Service og tengd API eru besti kosturinn til að fá aðgang að mannauðsgögnum frá vefforritum, vefþjónustum / API, og frá öðru forriti sem tengist OData straumum.
+Einingar Common Data Service og tengd API þeirra eru besti kosturinn til að fá aðgang að mannauðsgögnum frá vefforritum, vefþjónustum / API, og frá öðru forriti sem tengist OData straumum.
 
 > [!NOTE]
-> Með þeirri ákvörðun að taka Common Data Service þar sem ákjósanlegt gagnaviðmót Human Resources er tiltölulega nýlegt gætir þú fundið að þeim mannauðsgagnaeiningum sem þú þarft fyrir samþættingu þína eru ekki enn tiltækar í Common Data Service<sup>1</sup>. Ef einingar Human Resources, sem krafist er fyrir samþættingu þína, eru ekki enn tiltækir, verður þú að bíða eftir að gagnaeiningarnar verða gerðar aðgengilegar eða þú verður að nota eina af hinum samþættingartæknunum sem lýst er hér að neðan.
-> 
+> Þar sem sú ákvörðun að gera Common Data Service að ákjósanlegu gagnaviðmót Human Resources er tiltölulega nýleg gætir þú fundið að þær gagnaeiningar Human Resources sem þú þarft fyrir samþættingu þína eru ekki enn tiltækar í Common Data Service.
+</br>
+> Fyrir lista yfir einingar Human Resources sem fáanlegar eru í Common Data Service, sjá [Human Resources og Common Data Service](https://docs.microsoft.com/dynamics365/unified-operations/talent/corehrentities).
+> </br>
+> Ef einingar Human Resources, sem krafist er fyrir samþættingu þína, eru ekki enn tiltækir, verður þú að bíða eftir að gagnaeiningarnar verða gerðar aðgengilegar eða nota eina af hinum samþættingartæknunum sem lýst er hér að neðan.
+> </br>
 > Sjálfgefið er að slökkt sé á samþættingu Common Data Service í nýju umhverfi sem inniheldur ekki meðfylgjandi kynningargögn. Kveikt er á því í nýju umhverfi sem innihalda kynningargögn og samstilling gagna hefst þegar umhverfið er útvegað. Eftir að umhverfi þitt er tilbúið til að samstilla gögn geturðu kveikt á samþættingunni.
-
-<sup>1</sup>Fyrir lista yfir einingar Human Resources sem fáanlegar eru í Common Data Service, sjáðu [Human Resources og Common Data Service](https://docs.microsoft.com/dynamics365/unified-operations/talent/corehrentities). Fyrir Attract og Onboard eru allar einingar fáanlegar í Common Data Service.
 
 ### <a name="dmfdixf-entities"></a>DMF/DIXF einingar
 
-Human Resources byggður fyrst og fremst á sama vettvang og Finance and Operations forrit, veitir [Gagnastjórnunarramma (DMF)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json), stundum einnig þekkt sem Data Import Export Framework eða DIXF, og safn gagnaeininga sem hægt er að nota til að flytja / flytja út gögn til / frá Human Resources. Meðan einingar Common Data Service eru valinn viðmót gagnagrunna fyrir Human Resources, DMF einingar munu enn vera gagnlegar við sumar kringumstæður, svo sem:
+Human Resources byggist fyrst og fremst á sama verkvangi og forrit Finance and Operations og veitir [Gagnastjórnunarramma (DMF)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json). DMF er einnig þekkt sem DIXF (Data Import Export Framework). Human Resources veitir safn gagnaeininga sem þú getur notað til að flytja inn og flytja út mannauðsgögn. Meðan einingar Common Data Service eru valið gagnasamþættingarviðmót fyrir Human Resources eru DMF-einingar enn gagnlegar við sumar kringumstæður, eins og:
 
 - Common Data Service einingar eru ekki enn tiltækar.
 
-- Samþættingin krefst mikillar flutnings / útflutningsgetu magns gagna.
+- Samþættingin krefst mikillar flutnings-/útflutningsgetu magns gagna.
 
 Stofnanir DMF veita um þessar mundir fullkomnustu gagnaumfjöllun vegna gagna Human Resources.
 
-DMF hentar ekki í rauntíma samþættingu (svo sem þegar tafarlaus viðbrögð notenda í notendaviðmóti er krafist), vegna þess að pakkaðgerðir eru áætlaðar runuvinnslur og munu oft hafa að lágmarki 1-2 mínútna leynd áður en runuþjónustan velur upp starfið til framkvæmdar, auk þess sem tími þarf til að ljúka innflutningi / útflutningi.
+DMF hentar ekki í rauntíma samþættingu, svo sem þegar þú þarft strax endurgjöf notenda í notendaviðmóti. Pakkaaðgerðir eru áætlaðar runuvinnslur og hafa oft að lágmarki 1-2 mínútna biðtíma áður en runuþjónustan sækir starfið til framkvæmdar, auk þess tíma þarf til að ljúka innflutningi/útflutningi.
 
 DMF getur verið besti kosturinn þegar mikil afköst eru nauðsynleg (svo sem daglega innflutning / útflutning á mörg þúsund plötum á nóttunni).
 
@@ -90,9 +94,9 @@ DMF pakki REST API er fyllilega studdur í Human Resources: Core HR.
 
 ### <a name="azure-sql-db-byod"></a>Azure SQL DB (BYOD)
 
-DMF býður einnig upp á öflugan eiginleika (almennt þekktur sem [Komdu með eigin gagnagrunn](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/export-entities-to-your-own-database), eða BYOD) sem gerir Human Resources kleift að flytja gögn út til þíns eigin Microsoft Azure SQL gagnagrunnur. Þetta veitir gríðarlegan sveigjanleika, vegna þess að þegar gögnin eru til staðar í eigin SQL gagnagrunni geturðu notað öll forrit eða millitæki sem geta tengst SQL gagnageymslu.
+DMF býður einnig upp á öflugan eiginleika (þekktur sem [Komdu með eigin gagnagrunn](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/export-entities-to-your-own-database), eða BYOD) sem gerir Human Resources kleift að flytja gögn út til þíns eigin Microsoft Azure SQL gagnagrunnur. Þessi hæfileiki veitir gríðarlegan sveigjanleika. Þegar gögnin eru til staðar í eigin SQL gagnagrunni geturðu notað öll forrit eða millitæki sem geta tengst SQL gagnageymslu.
 
-BYOD ætti almennt að teljast skrifvarin lausn. Þó að þú getir unnið og geymt hvaða gögn sem þú vilt hafa í Azure SQL gagnagrunninum (svo sem vegna gagnauppsveiflu), verða gögn sem eru geymd í Azure SQL gagnagrunninum ekki samstillt aftur til mannauðs.
+BYOD er aðallega skrifvarin lausn. Þó að þú getir unnið og geymt hvaða gögn sem þú vilt hafa í Azure SQL gagnagrunninum (svo sem vegna gagnauppsveiflu), eru gögn sem eru geymd í Azure SQL gagnagrunninum ekki samstillt við Human Resources.
 
 BYOD er viðeigandi fyrir skýrslugerð lausna, samþættingu gagna, gagnaupptöku, sem gagnaheimild fyrir [Azure Data Factory](https://docs.microsoft.com/azure/data-factory/) leiðsla.
 
@@ -101,7 +105,7 @@ BYOD er viðeigandi fyrir skýrslugerð lausna, samþættingu gagna, gagnaupptö
 
 ### <a name="odata-enabled-entities"></a>Aðilar sem gera OData kleift
 
-Flestir DMF aðilar eru einnig gerðir virkir fyrir aðgang í gegnum Human Resources gagnaþjónustuna (OData). Gögnin sem veitt voru fyrir [Finance and Operations OData þjónusta](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/odata) almennt á einnig við um Human Resources, þó að skjöl um stofnun eigin OData-aðila sem verða fyrir áhrifum muni ekki eiga við.
+Flestir DMF aðilar eru einnig gerðir virkir fyrir aðgang í gegnum Human Resources gagnaþjónustuna (OData). Fylgiskjöl sem veitt voru fyrir [Finance and Operations OData þjónustu](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/odata) eiga við um Human Resources, nema að búa til þínar eigin einingar sem birtast í OData.
 
 Meðan Common Data Service og útfærslan á OData sem veitt er af Common Data Service (í gegnum [Dynamics 365 Web API](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/developers-guide/mt593051(v=crm.8))) er ákjósanlegra yfir gagnaþjónustuna Human Resources, upplýsingaþjónusta Human Resources hefur nú fullkomnari umfjöllun um einingar vegna gagna Human Resources.
 
@@ -113,18 +117,17 @@ Excel-viðbætið er viðeigandi fyrir sértækan innflutning / útflutning gagn
 
 ### <a name="data-integrator"></a>Gagnasamþætting
 
-Stjórnandareynsla Common Data Service veitir [Gagnaaðlögunarþjónustu](https://docs.microsoft.com/powerapps/administrator/data-integrator) sem hægt er að nota til að samþætta gögn til / frá Common Data Service. Hægt er að nota gagnasamþættara til að skilgreina samþættingarverkefni (oft byggð á fyrirfram skilgreindum sniðmátum sem forritarar hafa sniðið að tilteknum samþættingum). Hægt er að áætla samþættingarverkefnin sjálfkrafa á endurteknum tímaáætlun eða vera keyrð handvirkt.
+Þú getur notað [Gagnaaðlögunarþjónustu](https://docs.microsoft.com/powerapps/administrator/data-integrator) til að samþætta gögn í og úr Common Data Service. Gagnasamþættari gerir kleift að skilgreina samþættingarverk, oft byggð á fyrirfram skilgreindum sniðmátum sem forritarar hafa sniðið að tilteknum samþættingum. Þú getur áætlað samþættingarverk til að keyra sjálfkrafa á endurtekninni áætlun eða keyrt þau handvirkt.
 
-Gagnasamþættarverkefni henta Common Data Service runusamþættingar og gera frábært val fyrir samþættingu Dynamics 365 forritafjölskyldunnar. Sem dæmi, Microsoft býður upp á útbúið sniðmát fyrir gagnaflutning sem hægt er að nota til að samþætta gögn úr Human Resources í Dynamics 365 Finance. Nánari upplýsingar er að finna í [Samþætting úr Dynamics 365 Human Resources í Dynamics 365 Finance](hr-admin-integration-finance.md).
+Gagnasamþættingarverk henta fyrir Common Data Service runusamþættingar. Þau eru frábær valkostur fyrir samþættingu Dynamics 365 forritafjölskyldunnar. Til dæmis býður Microsoft upp á sniðmát fyrir gagnaflutning til að samþætta gögn úr Human Resources í Dynamics 365 Finance. Þú getur lært meira um sniðmátið í [Samþætting úr Dynamics 365 Human Resources í Dynamics 365 Finance](hr-admin-integration-finance.md).
 
 ### <a name="power-query"></a>Power Query
 
-Gagnaaðili styður einnig [Power Fyrirspurn](https://docs.microsoft.com/power-query/power-query-what-is-power-query) (í gegnum þess [Ítarleg fyrirspurn lögun](https://docs.microsoft.com/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering)).
-Power Fyrirspurn veitir öfluga, sveigjanlega gagnasíun og umbreytingu, þar með talið auðugt M formúlutungumál, og mun líklega þekkja þá sem hafa reynslu af þróun Power BI skýrslur.
+Gagnasamþætting styður [Power Query](https://docs.microsoft.com/power-query/power-query-what-is-power-query) í gegnum [eiginleikann Ítarleg fyrirspurn](https://docs.microsoft.com/powerapps/administrator/data-integrator#advanced-data-transformation-and-filtering). Power Query veitir öfluga, sveigjanlega gagnasíun og umbreytingu, þar með talið fjölbreytt M formúlutungumálið. Power Query verður líklega kunnugleg ef þú hefur þróað Power BI skýrslur.
 
 ## <a name="deciding-on-an-integration-technology"></a>Ákveðið að samþættingu tækni
 
-Með svo mörgum mismunandi aðlögunartækni sem til eru, getur það verið yfirþyrmandi að ákveða hvaða samþættingaraðferð til að nota. Með tímanum, og sérstaklega þegar umfjöllun gagna í Common Data Service þroskast, ákvörðunin verður auðveldari, með Common Data Service að vera ákjósanlegt gagnatengi í flestum tilvikum. En þangað til gætirðu fundið það Common Data Service fullnægir ekki enn þínum þörfum. Eftirfarandi tafla hjálpar til við að draga saman lykil einkenni ýmissa valkosta samþættingartækni.
+Með svo mörgum mismunandi aðlögunartækni sem til eru, getur það verið yfirþyrmandi að ákveða hvaða samþættingaraðferð til að nota. Þegar umfjöllun gagna í Common Data Service þroskast verður ákvörðunin auðveldari, með Common Data Service sem ákjósanlegt gagnaviðmót í flestum tilvikum. En þangað til gætirðu fundið það Common Data Service fullnægir ekki enn þínum þörfum. Eftirfarandi tafla dregur saman nokkur af lykileinkennum valkosta samþættingartækni.
 
 | Tækni/Tool/API    | Endurteknar samþættingar                   | Samstilltur / ósamstilltur                    | Forritunaraðgangur í gegnum API        | Viðeigandi gagnamagn                                   | Gagnaþekja                       |
 |------------------------|------------------------------------------|---------------------------------------------|-------------------------------------------|------------------------------------------------------------|-------------------------------------|
@@ -136,11 +139,6 @@ Með svo mörgum mismunandi aðlögunartækni sem til eru, getur það verið yf
 | Innbótin Excel           | Nr                                       | Samstilla                                        | Nr                                        | Miðlungs (tugþúsundir skráa)                      | Styður alla aðila sem gera OData kleift |
 | Gagnasamþætting        | Já, tímaáætlun í Gagnasamþættinum        | Async, runa                                | Nr                                        | Misjafnt hvað varðar notkun                                       | Styður alla Common Data Service einingar           |
 
-<sup>2</sup>Microsoft fjárfestir mikið í að auka gagnaumfjöllun fyrir Common Data Service einingar, og mælir með Common Data Service sem ákjósanlegt gagnatengi þegar þekja er tiltæk. Sem stendur Common Data Service gagnaþekja er lítil miðað við DMF og OData-virkar einingar.
+<sup>2</sup>Microsoft fjárfestir mikið í að auka gagnaumfjöllun fyrir einingar Common Data Service. Við mælum með að nota Common Data Service þegar umfjöllun er fyrir hendi. Sem stendur Common Data Service gagnaþekja er lítil samanborið við DMF og OData-virkar einingar.
 
 <sup>3</sup>Hægt er að nálgast SQL gagnagrunn með forritun.
-
-## <a name="summary"></a>Samantekt
-
-Fyrirtækjagögn þín eru dýrmæt eign en hægt er að draga verulega úr gildi þeirra ef það er erfitt að nota gögnin í sérstökum tilgangi þínum (svo sem skýrslugerð, gagnaöflun eða sérsniðin forrit). Dynamics 365 Human Resources býður upp á ýmsa tækni til að vinna með gögnin þín utan notendaviðmóta Human Resources-forritsins (UI), sem gerir samþættingu aðgangs að gögnunum kleift. Þetta efni hefur lýst fyrirliggjandi samþættingartækni og nokkrum lykil einkennum þeirra. Þessar upplýsingar ættu að hjálpa þér að taka betri ákvarðanir um hvaða aðferðir við skuldsetningu fyrir samþættingarverkefni þín.
-

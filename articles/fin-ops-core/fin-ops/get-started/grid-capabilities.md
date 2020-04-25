@@ -3,7 +3,7 @@ title: Hnitanetsgeta
 description: Þetta efni lýsir nokkrum kröftugum eiginleikum netstýringar. Það verður að gera nýja hnitanetsaðgerðina kleift að hafa aðgang að þessum möguleikum.
 author: jasongre
 manager: AnnBe
-ms.date: 02/10/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7136edba828bf97b6e0c8d2a698b884640d680e5
-ms.sourcegitcommit: 880f617d1d6e95eccbed762c7ea04398553c2ec0
+ms.openlocfilehash: 0fd0e15ea88e9f5f34d8dff82606a8d26616a16d
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3036266"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260461"
 ---
 # <a name="grid-capabilities"></a>Hnitanetsgeta
 
@@ -90,4 +90,23 @@ Til að afturkalla flokkun í rist skaltu hægrismella á flokkunarsúluna og ve
 ## <a name="evaluating-math-expressions"></a>Mat á stærðfræðisegðum
 Sem framleiðniörvun geta notendur slegið inn stærðfræðiformúlur í tölureiti í töflu. Þeir þurfa ekki að gera útreikninginn í forriti utan kerfisins. Til dæmis ef þú slærð inn **=15\*4** og ýttu síðan á lykilinn **Flipi** til að fara út úr reitnum, mun kerfið meta segðina og vista gildi upp á **60** fyrir reitinn.
 
-Til að gera kerfið að viðurkenna gildi sem tjáningu, byrjaðu gildið með jöfnu merki (**=**). Nánari upplýsingar um rekstraraðila sem studd er og setningafræði, sjá [Studd stærðfræðitákn](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).  
+Til að gera kerfið að viðurkenna gildi sem tjáningu, byrjaðu gildið með jöfnu merki (**=**). Nánari upplýsingar um rekstraraðila sem studd er og setningafræði, sjá [Studd stærðfræðitákn](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
+
+## <a name="frequently-asked-questions"></a>Algengar spurningar
+### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Hvernig virkja ég nýja netstýringu í umhverfi mínu? 
+
+**10.0.9 / uppfærsla verkvangs 33 og nýrri** Eiginleikinn **Ný netstýring** er fáanlegur beint í eiginleikastjórnun í hvaða umhverfi sem er. Eins og aðrir opnir forskoðunareiginleikar, þá er það kleift að virkja þennan eiginleika í framleiðslu [Viðbótarskilmálar um notkunarskilmála](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8 / uppfærsla verkvangs 32 og 10.0.7 / uppfærsla verkvangs 31** Eiginleikinn **Ný netstýring** er hægt að virkja í umhverfi 1. lagi (þróun/prófun) og 2. lagi (sandkassi) til að veita frekari prófunar- og hönnunarbreytingar með því að fylgja skrefunum hér að neðan.
+
+1.  **Virkja flugið**: Framkvæma eftirfarandi SQL staðhæfingu: 
+
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
+
+2. **Núllstilla IIS** til að skola fast flýtiminni. 
+
+3.  **Finndu eiginleikann**: Farðu í vinnusvæði **Stjórnun eiginleika**. Ef **Ný netstjórnun** birtist ekki á listanum yfir alla eiginleika, veldu **Athuga með uppfærslur**.   
+
+4.  **Virkja aðgerðina**: Finndu aðgerðina **Ný netstýring** á listanum yfir aðgerðir og veldu hnappinn **Virkja núna** í upplýsingaglugganum. Athugið að endurræsingar vafra er krafist. 
+
+Allar síðari notendatímabil munu byrja með virkjaða nýja netstýringu.

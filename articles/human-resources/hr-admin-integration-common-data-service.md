@@ -1,9 +1,9 @@
 ---
 title: Skilgreina Common Data Service-samþættingu
-description: Þú getur kveikt eða slökkt á samþættingu á milli Common Data Service og tilviks af Microsoft Dynamics 365 Human Resources. Þú getur einnig skoðað upplýsingar um samstillingu, hreinsað mælingargögn og endurstillt eining til að hjálpa til við að leysa úr gögnum á milli umhverfanna tveggja.
+description: Þú getur kveikt eða slökkt á samþættingu á milli Common Data Service og Dynamics 365 Human Resources. Þú getur einnig skoðað upplýsingar um samstillingu, hreinsað mælingargögn og endurstillt eining til að hjálpa til við að leysa úr gögnum á milli umhverfanna tveggja.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,31 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 042daf3fdf7a906086af726472da050467d217e3
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 04280aa0908ed6dab86ef87b6c1843e4b4348e08
+ms.sourcegitcommit: c9657b44adb9c1a77c7c2f6ab63a58cc848974ea
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009384"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198423"
 ---
 # <a name="configure-common-data-service-integration"></a>Skilgreina Common Data Service-samþættingu
 
-Þú getur kveikt eða slökkt á samþættingu á milli Common Data Service og tilviks af Microsoft Dynamics 365 Human Resources. Þú getur einnig skoðað upplýsingar um samstillingu, hreinsað mælingargögn og endurstillt eining til að hjálpa til við að leysa úr gögnum á milli umhverfanna tveggja.
+Þú getur kveikt eða slökkt á samþættingu á milli Common Data Service og Dynamics 365 Human Resources. Þú getur einnig skoðað upplýsingar um samstillingu, hreinsað mælingargögn og endurstillt eining til að hjálpa til við að leysa úr gögnum á milli umhverfanna tveggja.
 
 Þegar þú slekkur á samþættingu geta notendur gert breytingar á starfsmannahaldi eða Common Data Service, en þessar breytingar eru ekki samstilltar milli umhverfisins tveggja.
 
-Sjálfgefið er annaðhvort er slökkt eða kveikt á samþættingu Human Resources og Common Data Service slökkt eða slökkt, allt eftir tilvist sýnigagna í umhverfinu:
-
-- **Slökkt** fyrir nýtt umhverfi sem inniheldur ekki kynningargögn
-- **Kveikt** fyrir nýtt umhverfi sem inniheldur kynningargögn
-
-Nýtt umhverfi sem inniheldur prufugögn mun byrja að samstilla gögn þegar þeim er úthlutað.
+Sjálfgefið er að slökktu sé á samþættingu gagna milli Human Resources og Common Data Service.
 
 Þú gætir viljað slökkva á samþættingu við þessar aðstæður:
 
 - Þú ert að fylla út gögn í gegnum Data Management Framework og verður að flytja gögnin inn nokkrum sinnum til að koma þeim í rétt ástand.
 
-- Það eru vandamál með gögn í annaðhvort Human Resources eða Common Data Service. Ef slökkt er á samþættingu geturðu eytt skrá í einu umhverfi án þess að eyða því í hinu. Þegar þú kveikir aftur á samþættingu verður skráin í umhverfinu þar sem henni var ekki eytt samstillt aftur við umhverfið þar sem henni var eytt. Samstilling hefst næst þegar runuvinnslan **Common Data Service samstilling missti af beiðni samstillingar** keyrir.
+- Það eru vandamál með gögn í annaðhvort Human Resources eða Common Data Service. Ef slökkt er á samþættingu geturðu eytt skrá í einu umhverfi án þess að eyða því í hinu. Þegar þú kveikir aftur á samþættingu samstillist skráin í umhverfinu þar sem henni var ekki eytt við umhverfið þar sem henni var eytt. Samstilling hefst næst þegar runuvinnslan **Common Data Service samstilling missti af beiðni samstillingar** keyrir.
 
 > [!WARNING]
 > Þegar þú slekkur á samþættingu gagna, vertu viss um að þú breytir ekki sömu skránni í báðum umhverfunum. Þegar þú kveikir aftur á samþættingu verður skráin sem þú breyttir síðast samstillt. Þess vegna, ef þú gerðir ekki sömu breytingar á skránni í báðum umhverfunum, getur gagnatap orðið.
@@ -103,9 +98,17 @@ Sjá næstu aðferð til að keyra fulla samstillingu á einingunni eftir að þ
 
 ## <a name="sync-an-entity-between-human-resources-and-common-data-service"></a>Samstilltu eining milli Human Resources og Common Data Service
 
-Notaðu þessa aðferð ef breytingar eru frá Common Data Service tekur of langan tíma að birtast í Human Resources, eða ef þú verður að endurnýja mælingarborðið eftir að þú hefur hreinsað mælingarnar.
+Notaðu þetta ferli þegar:
 
-- Til að keyra fulla samstillingu á aðila milli mannauðs og Common Data Service, veldu eininguna í reitnum **Heiti CDS einingar** og veldu síðan **Samstilla núna**.
+- Breytingar úr Common Data Service taka of langan tíma að birtast í Human Resources.
+
+- Þú verður að endurræsa rakningartöfluna þegar þú hefur eytt rakningunni.
+
+Til að keyra fulla samstillingu á einingu milli Human Resources og Common Data Service:
+
+1. Veldu einingu í reitnum **Heiti CDS-einingar**.
+
+2. Veldu **Samstilla núna**.
 
 [![Keyri fulla samstillingu](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
 

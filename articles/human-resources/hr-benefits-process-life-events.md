@@ -3,7 +3,7 @@ title: Vinna úr viðburðum
 description: Í líftíma starfsmannsins í Microsoft Dynamics 365 Human Resources, getur hver starfsmaður lent í ýmsum breytingum á atburði í lífinu.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 91812432ead4b0afccfba30f8023f014e216236a
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: ba8d21482a18c6baa93437fc65c165907bdb515d
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009422"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229931"
 ---
 # <a name="process-life-events"></a>Vinna úr viðburðum
-
-[!include [banner](includes/preview-feature.md)]
 
 Í líftíma starfsmannsins í Microsoft Dynamics 365 Human Resources, getur hver starfsmaður lent í ýmsum breytingum á atburði í lífinu. Til dæmis hjónaband, breyting á atvinnu eða breyting á skjólstæðingi/rétthafi. Til að nota atburði í lífinu verður þú að virkja lífatburði á formi hagur breytur, setja upp gerðir atburða fyrir líf og setja upp val á atburði fyrir áætlunartegundir.
 
@@ -43,10 +41,10 @@ Til dæmis, ef í dag er 1. febrúar, og þann 14. febrúar, áætlar starfsmað
 
    | Svæði | Lýsing |
    | --- | --- |
-   | Skráningartímabil | Innritunartímabilið til að vinna úr viðburðum fyrir. |
-   | Lögaðili | Lögaðilinn til að vinna úr viðburðum fyrir. |
-   | Dagsetning viðburðar | Kerfið vinnur alla atburði á innritunartímabilinu sem eiga sér stað fram til þessa dags. |
-   | Starfskraftur | Starfskrafturinn til að vinna úr viðburðum fyrir. Ef þú skilur þennan reit eftir auðan verða viðburðir allra starfsmanna afgreiddir. |
+   | **Skráningartímabil** | Innritunartímabilið til að vinna úr viðburðum fyrir. |
+   | **Lögaðili** | Lögaðilinn til að vinna úr viðburðum fyrir. |
+   | **Dagsetning viðburðar** | Kerfið vinnur alla atburði á innritunartímabilinu sem eiga sér stað fram til þessa dags. |
+   | **Starfskraftur** | Starfskrafturinn til að vinna úr viðburðum fyrir. Ef þú skilur þennan reit eftir auðan verða viðburðir allra starfsmanna afgreiddir. |
 
 3. Ef þú vilt keyra ferlið í bakgrunni skaltu velja **Keyra í bakgrunni** og framkvæma eftirfarandi verk:
 
