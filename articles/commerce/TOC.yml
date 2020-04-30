@@ -44,6 +44,8 @@
                   href: provisioning-guide.md
                 - name: Skilgreina Dynamics 365 Commerce forskoðunarumhverfi
                   href: cpe-post-provisioning.md
+                - name: Skilgreina BOPIS í Dynamics 365 Commerce-umhverfi
+                  href: cpe-bopis.md
                 - name: Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce forskoðunarumhverfi
                   href: cpe-optional-features.md
                 - name: algengar spurningar um Dynamics 365 Commerce forskoðunarumhverfi
@@ -86,6 +88,8 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.11 (júlí 2020)
+                      href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (maí 2020)
                       href: get-started/whats-new-commerce-10-0-10.md
                     - name: Commerce 10.0.9 (apríl 2020)
@@ -206,6 +210,8 @@
                   href: retail-onprem.md
             - name: Uppsetning og bráðabætur
               items:
+                - name: Samstilla uppsetningarforrit sjálfsafgreiðslu í Dynamics 365 Commerce
+                  href: dev-itpro/Synchronize-installers.md
                 - name: Commerce Scale Unit
                   href: dev-itpro/retail-store-system-begin.md
                 - name: Grunnstilla og setja upp Commerce Scale Unit
@@ -216,7 +222,7 @@
                   href: set-up-activation-accounts-validate-devices-hq.md
                 - name: Virkjun tækis á sölustað
                   href: dev-itpro/retail-device-activation.md
-                - name: Hjálpa til við að tryggja sölukerfi í skýinu í samnýttu umhverfi
+                - name: Hjálpa til við að tryggja Cloud POS í samnýttu umhverfi
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Skilgreining og uppsetning Retail Hardware Station
                   href: retail-hardware-station-configuration-installation.md
@@ -226,6 +232,8 @@
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
                 - name: Nota virkjanlegan pakka
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
+                - name: Frumstilla grunngögn í nýju Commerce-umhverfi
+                  href: enable-configure-retail-functionality.md
             - name: Stjórnun innleiðingarferlis
               items:
                 - name: Heimasíða stjórnunar innleiðingarferlis
@@ -330,9 +338,9 @@
                   href: channel-setup-retail.md
                 - name: Skilgreina starfsmenn í smásölu
                   href: tasks/worker.md
-                - name: Nútíma sölustaður (MPOS) og sölukerfi í skýinu
+                - name: Nútíma sölustaður (MPOS) og Cloud POS
                   items:
-                    - name: Velja á milli MPOS og sölukerfis í skýinu
+                    - name: Velja á milli MPOS og Cloud POS
                       href: MPOS-or-CPOS.md
                     - name: Aðgerðir sölustaðar á neti og utan nets
                       href: pos-operations.md
@@ -340,7 +348,7 @@
                       href: dev-itpro/retail-POS-activation-changes.md
                     - name: Virkja Azure Active Directory-auðkenningu fyrir innskráningu sölustaðar
                       href: aad-pos-logon.md
-                    - name: Skjáútlit sýnigagna í MPOS og sölukerfi í skýinu
+                    - name: Skjáútlit sýnigagna í MPOS og Cloud POS
                       href: demo-data.md
                     - name: Afurða- og viðskiptavinaleit á sölustaðnum
                       href: POS-search-improvements.md
@@ -362,7 +370,7 @@
                       href: charge-send.md
                     - name: Fela afhendingarmáta sem ekki eiga við um flutningsaðila úr svarglugga sendingar sölustaðar
                       href: hide-non-carrier-modes.md
-                    - name: Verkskráning og hjálp fyrir MPOS og sölukerfi í skýinu
+                    - name: Verkskráning og hjálp fyrir MPOS og Cloud POS
                       href: task-recorder-retail-pos.md
                     - name: Jaðarvélbúnaður
                       items:
@@ -376,9 +384,9 @@
                           href: pos-healthcheck.md
                     - name: Skjáútlit
                       items:
-                        - name: Skjáútlit sýnigagna í MPOS/sölukerfi í skýinu
+                        - name: Skjáútlit sýnigagna í MPOS/CPOS
                           href: demo-data.md
-                        - name: Skjáútlit fyrir sölustaðinn
+                        - name: Sjónrænar skilgreiningar fyrir notandaviðmót sölustaðar
                           href: pos-screen-layouts.md
                         - name: Setja upp útlitshönnuð sölustaðar
                           href: install-pos-layout-designer.md
@@ -404,7 +412,7 @@
                       items:
                         - name: 'Skilgreina, setja upp og virkja MPOS'
                           href: retail-modern-pos-device-activation.md
-                        - name: Setja upp aukna innskráningarvirkni fyrir MPOS og sölukerfi í skýinu
+                        - name: Setja upp aukna innskráningarvirkni fyrir MPOS og Cloud POS
                           href: extended-logon.md
                         - name: Stjórna virknilyklum og villuleita tæki
                           href: set-up-activation-accounts-validate-devices-hq.md
@@ -906,6 +914,8 @@
                   href: cookie-compliance.md
                 - name: Bæta við persónuverndarstefnusíðu
                   href: add-privacy-page.md
+                - name: Skipta um notandakenni sem tengjast röktum efnisbreytingum
+                  href: replace-IDs-tracked-changes.md
             - name: Byrjendaeining
               items:
                 - name: Yfirlit byrjendaeiningar
@@ -942,12 +952,16 @@
                   items:
                     - name: Körfueining
                       href: add-cart-module.md
+                    - name: Körfutáknseining
+                      href: cart-icon-module.md
                     - name: Greiðsluferliseining
                       href: add-checkout-module.md
                     - name: Eining pöntunarstaðfestingar
                       href: order-confirmation-module.md
                     - name: Vista valeiningu
                       href: store-selector.md
+                    - name: Gjafakortseining
+                      href: add-giftcard.md
                 - name: Einingar fyrir stjórnun reikninga
                   items:
                     - name: Síður og einingar fyrir stjórnun reikninga
@@ -1940,6 +1954,8 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: Skilgreina þemastillingar
                       href: e-commerce-extensibility/configure-theme-settings.md
+                    - name: Stækka þema
+                      href: e-commerce-extensibility/extend-theme.md
                 - name: Setja inn forskrift
                   items:
                     - name: Innsetning forskriftar
@@ -1962,6 +1978,8 @@
                   href: dev-itpro/UpcomingSDKChanges.md
                 - name: Sameina byggingarkerfin fyrir Commerce og Finance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
+                - name: Flytja Retail SDK úr Visual Studio 2015 í Visual Studio 2017
+                  href: dev-itpro/retail-sdk/migrate-sdk.md
                 - name: Dæmi um stækkunarhæfni Retail SDK
                   href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
                 - name: Búa til virkjanlega pakka
@@ -1978,7 +1996,7 @@
                   href: install-pos-layout-designer.md
                 - name: Víkka út tvöfaldan skjá sölustaðar
                   href: dev-itpro/pos-dual-display-extension.md
-                - name: Modern POS og sölukerfi í skýinu framkalla stækkunarhæfni
+                - name: Modern POS og Cloud POS framkalla stækkunarhæfni
                   href: dev-itpro/modern-pos-trigger-extensibility.md
                 - name: Bæta sérstilltum stjórntækjum við gagnabirtingu sölustaðar
                   href: dev-itpro/pos-custom-control.md
@@ -1998,7 +2016,7 @@
                   href: dev-itpro/pos-handler.md
                 - name: Skoða upplýsingar um viðbótarpakka fyrir sölustaði
                   href: dev-itpro/view-pos-extension-package-details.md
-                - name: Prófa skráningarforrit og verkfærið Regression Suite Automation Tool fyrir sölukerfi í skýinu
+                - name: Prófa skráningarforrit og verkfærið Regression Suite Automation Tool fyrir Cloud POS
                   href: dev-itpro/pos-rsat.md
                 - name: Bæta sérstilltum reitum við samtölusvæði sölustaðar
                   href: dev-itpro/custom-field-pos-totals.md

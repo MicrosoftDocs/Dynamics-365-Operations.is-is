@@ -70,12 +70,12 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.11 (júlí 2020)
+                      href: get-started/whats-new-changed-10-0-11.md
                     - name: Finance 10.0.10 (maí 2020)
                       href: get-started/whats-new-changed-10-0-10.md
                     - name: Finance 10.0.9 (apríl 2020)
                       href: get-started/whats-new-changed-10-0-9.md
-                    - name: Finance 10.0.8 (febrúar 2020)
-                      href: get-started/whats-new-changed-10-0-8.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
@@ -978,12 +978,16 @@
               href: project-management/tasks/configure-intercompany-project-invoicing.md
             - name: Skilgreina staðalkostnað fyrir útgjöld og laun
               href: project-management/tasks/configure-standard-costs-labor-expenses.md
+            - name: Setja upp og nota „greiðist-þegar-greitt“ greiðslur lánardrottins
+              href: project-management/setup-manage-vendor-payments.md
             - name: Uppsöfnun kostnaðar verks á innkaupakvittunum
               href: accounts-payable/project-cost-accrual-purchase-receipts.md
             - name: Reikningsfærsla verks
               href: accounts-payable/project-invoicing.md
             - name: Verksamningar
               href: project-management/project-contracts.md
+            - name: Stofna ítarlega samninga fyrir greiðslur sem miðast við framvindu
+              href: project-management/project-create-advanced-contracts-for-billing-based-progress.md
             - name: Verkspár og fjárhagsáætlanir
               href: project-management/project-forecasts-budgets.md
             - name: Flytja fjárhagsáætlanir verks við lok fjárhagsárs
@@ -1014,6 +1018,8 @@
                   href: project-management/mobile-timesheets.md
                 - name: Innleiða sérstillta reiti fyrir fartækjaforrit fyrir vinnukort verka
                   href: project-management/custom-fields-mobile.md
+            - name: Verkefnisstyrkir
+              href: project-management/project-grants.md
         - name: Hið opinbera
           items:
             - name: Hið opinbera – heimasíða
@@ -2016,6 +2022,8 @@
                   href: localizations/emea-ita-exil-unique-certification.md
                 - name: Innflutningur á afsögn á víxli
                   href: localizations/emea-ita-exil-protest-boe.md
+                - name: Skattaþak
+                  href: localizations/emea-ita-exil-tax-plafond.md
             - name: Japan
               items:
                 - name: Yfirlit yfir Japan

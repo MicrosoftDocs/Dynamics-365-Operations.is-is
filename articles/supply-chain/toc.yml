@@ -70,12 +70,12 @@
                   items:
                     - name: Nýjungar eða breytingar á upphafssíðu fyrir Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.11 (júlí 2020)
+                      href: get-started/whats-new-scm-10-0-11.md
                     - name: Supply Chain Management 10.0.10 (maí 2020)
                       href: get-started/whats-new-scm-10-0-10.md
                     - name: Supply Chain Management 10.0.9 (apríl 2020)
                       href: get-started/whats-new-scm-10-0-9.md
-                    - name: Supply Chain Management 10.0.8 (febrúar 2020)
-                      href: get-started/whats-new-scm-10-0-8.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
@@ -349,6 +349,8 @@
               items:
                 - name: 'Spár, verkbeiðnir og verk'
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+            - name: Samþætta eignastýringu með eignum
+              href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
             - name: Viðhald sem er fyrirbyggjandi og bregst við
               items:
                 - name: Yfirlit yfir fyrirbyggjandi viðhald
@@ -565,6 +567,8 @@
                   href: cost-management/lifo-physical-value-marking.md
                 - name: Hlaupandi meðaltal
                   href: cost-management/moving-average.md
+                - name: 'Hlaupandi meðaltal, röð varakostnaðar'
+                  href: cost-management/moving-average-fallback.md
                 - name: Efnislegar og fjárhagslegar uppfærslur
                   href: cost-management/physical-financial-updates.md
                 - name: Keyrsla á meðalkostnaðarverði
@@ -579,7 +583,9 @@
                   href: cost-management/inventory-close.md
                 - name: Leiðrétting kostnaðarvirðis lagerbirgða
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Aldursgreiningaskýrsla birgða
+                - name: Skýrsla um birgðavirði í geymslu
+                  href: cost-management/inventory-value-report-storage.md
+                - name: Skýrsla um aldursgreiningu birgða
                   href: cost-management/inventory-aging-report-storage.md
             - name: Bókhald framleiðslu
               items:
@@ -1223,6 +1229,8 @@
                   href: inventory/enable-quality-management.md
                 - name: Gæðastjórnunarferli
                   href: inventory/quality-management-processes.md
+                - name: Gæðastjórnun fyrir vöruhúsaferli
+                  href: inventory/quality-management-for-warehouses-processes.md
                 - name: Stjórnun ósamkvæmi
                   href: inventory/enable-nonconformance-management.md
                 - name: Setja upp forsendur fyrir stjórnun
@@ -2549,6 +2557,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                 - name: Kerfisflokkun á opnum verkefnalista
                   href: warehousing/system-group-on-open-work-list.md
+                - name: Skipulag skjalaleiðar fyrir númeraplötumerki
+                  href: warehousing/document-routing-layout-for-license-plates.md
                 - name: Skanna strikamerki með myndavél í Dynamics 365 for Finance and Operations
                   href: warehousing/scan-bar-codes-using-a-camera.md
                 - name: Stuðningur við strikamerki í fartæki
@@ -2653,6 +2663,8 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: Uppsetning fartækja fyrir vöruhúsavinnu
                   href: warehousing/configure-mobile-devices-warehouse.md
+                - name: Móttaka númeraplötu með fartækjaforriti vöruhúss
+                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: Setja upp valmyndaratriði fartækis fyrir frágang verks í innkaupapöntun
                   href: warehousing/tasks/set-up-mobile-device-menu.md
                 - name: Setja upp valmyndaratriði fartækis til að skrá mótteknar vörur
@@ -2673,6 +2685,8 @@
                   href: warehousing/upgrade-migration-warehouse-management-processes.md
             - name: Kvittanir fyrir skráningu og frágangi
               items:
+                - name: Meðhöndlun vöruhúss á farmi á innleið fyrir innkaupapantanir
+                  href: warehousing/inbound-load-handling.md
                 - name: Skrá vörur fyrir vöru með ítarlegt vöruhúsakerfi virkt með því að nota komubók
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Skrá vörur fyrir vöru með grunnvöruhúsakerfi virkt með því að nota komubók
@@ -2682,6 +2696,7 @@
                 - name: Setja upp leiðbeiningar um staðsetningu fyrir frágang innkaupapöntunar
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Setja upp vinnusniðmát fyrir innkaupapantanir
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
         - name: Þróun Supply Chain Management
           items:
             - name: Leiðbeiningar fyrir þróun Gantt-stýringar
