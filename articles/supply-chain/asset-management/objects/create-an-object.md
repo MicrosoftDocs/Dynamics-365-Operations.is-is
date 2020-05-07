@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f734def69ff50549acae1506015ce9b23a1b8a93
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5c77f32caad5e2e79cbc0e21f72a3daa79acecb
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209905"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274166"
 ---
 # <a name="create-an-asset"></a>Stofna eign
 
@@ -38,13 +38,13 @@ ms.locfileid: "3209905"
 3. Í svarglugganum **Stofna eignir** seturðu inn gögn varðandi **Eignir** (eignakenni) og eignaheiti. Veldu dagsetningu og -tíma eignar í reitnum **Virkt**. Frá þeim degi geturðu sett eignina upp á virkri staðsetningu sem og flutt og skipt um eignina í eignaskipan.
 4. Í reitnum **Eignagerð** velurðu eignagerð fyrir eignina (skyldureitur). Ef með þarf skaltu velja **Eignaframleiðandi** og **Eignalíkan** fyrir eignina. Ef aðeins ein vara hefur verið sett upp er sú vara sjálfkrafa valin í reitnum **Eignaframleiðandi**. Valið sem er í boði í reitunum **Eignaframleiðandi** og **Eignalíkan** er háð uppsetningunni í [Eignaframleiðendur og líkön](../setup-for-objects/product-and-model.md).
 5. Í hópnum **Yfireign** er reiturinn **Eignir** sjálfgefið auður. Ef þess er krafist geturðu valið yfireign og þá verða allir reitir í hópnum **Yfireign** sjálfkrafa fylltir út.
->[!NOTE]  
->Þegar þú velur yfireign eru tveir eða þrír flipar tiltækir: Flipinn **Mínar eignir** inniheldur eignir sem tengjast virkum staðsetningum sem þú (viðhaldsstarfsmaðurinn sem er skráður inn í kerfið) getur fengið úthlutað. Ef engar virkar staðsetningar eru settar upp á viðhaldsstarfsmanni í forminu [Viðhaldsstarfsmenn og starfsmannahópar](../setup-for-objects/workers-and-worker-groups.md) verður flipinn **Mínar eignir** ekki sýnilegur. Flipinn **Virkar eignir** hefur að geyma lista yfir allar eignir með eignalíftímastöðuna „Virkt“. Flipinn **Eignayfirlit** sýnir trjáyfirlit yfir virkar staðseningar og eignir sem eru settar upp á þessum stöðum.
+    >[!NOTE]  
+    >Þegar þú velur yfireign eru tveir eða þrír flipar tiltækir: Flipinn **Mínar eignir** inniheldur eignir sem tengjast virkum staðsetningum sem þú (viðhaldsstarfsmaðurinn sem er skráður inn í kerfið) getur fengið úthlutað. Ef engar virkar staðsetningar eru settar upp á viðhaldsstarfsmanni í forminu [Viðhaldsstarfsmenn og starfsmannahópar](../setup-for-objects/workers-and-worker-groups.md) verður flipinn **Mínar eignir** ekki sýnilegur. Flipinn **Virkar eignir** hefur að geyma lista yfir allar eignir með eignalíftímastöðuna „Virkt“. Flipinn **Eignayfirlit** sýnir trjáyfirlit yfir virkar staðseningar og eignir sem eru settar upp á þessum stöðum.
 
 6. Mælt er með virkri staðsetningu sem þú hefur sett upp fyrir eignina í hópnum **Eignir** > reitnum **Virk staðsetning**. Veldu aðra virka staðsetningu, ef þess er krafist.
 
->[!NOTE]
->Þegar þú hefur stofnað eign geturðu sett hana upp á annarri virkri staðsetningu, ef þess er krafist. Aðeins efstu eignir (eignir án núverandi yfireignar) er hægt að setja upp á virkri staðsetningu. Þetta þýðir að þú setur upp efsta stigið sem og allar undireignir á valinni virkri staðsetningu. Lestu meira um uppsetningu eigna á virkum staðsetningum í [Kynning á virkum staðsetningum](../functional-locations/introduction-to-functional-locations.md).
+    >[!NOTE]
+    >Þegar þú hefur stofnað eign geturðu sett hana upp á annarri virkri staðsetningu, ef þess er krafist. Aðeins efstu eignir (eignir án núverandi yfireignar) er hægt að setja upp á virkri staðsetningu. Þetta þýðir að þú setur upp efsta stigið sem og allar undireignir á valinni virkri staðsetningu. Lestu meira um uppsetningu eigna á virkum staðsetningum í [Kynning á virkum staðsetningum](../functional-locations/introduction-to-functional-locations.md).
 
 7. Smellt er á **OK**.
 8. Veldu eignina í listanum **Allar eignir** og smelltu á hnappinn **Breyta** til að bæta frekari upplýsingum við eignina.

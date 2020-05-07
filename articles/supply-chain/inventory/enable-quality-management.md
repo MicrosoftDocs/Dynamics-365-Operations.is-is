@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
-ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
+ms.openlocfilehash: e1d7828e6bb9a3684c1d76e2cfac96174a8dfbf4
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3224910"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268817"
 ---
 # <a name="quality-management-overview"></a>Yfirlit yfir gæðastjórnun
 
@@ -43,7 +43,11 @@ Gæðastjórnun er sveigjanleg og hægt er að innleiða hana á mismunandi vegu
 
 -   Hefja ferli gæðaeftirlits sjálfvirkt, byggt á fyrirfram skilgreindum skilyrðum (við vöruhússkráningu innkaupapöntunar frá tilteknum lánardrottni).
 -   Læsa birgðum við skoðun til að koma í veg fyrir að ósamþykktar birgðir séu notaðar (alger stöðvun á pöntunarmagni innkaup).
--   Vörusýnishorn eru notuð sem hluti af gæðatengingu til að skilgreina magn gildandi efnislegra birgða sem verður að skoða. Sýnishorn geta verið byggð á föstu magni eða hlutfalli.
+-   Vörusýnishorn eru notuð sem hluti af gæðatengingu til að skilgreina magn gildandi efnislegra birgða sem verður að skoða. Sýnataka getur verið byggð á föstu magni, prósentu eða fullri númeraplötu.
+
+> [!NOTE]
+> Eiginleikinn _Gæðastjórnun fyrir vöruhúsaferla_ eykur möguleika gæðastjórnunar. Ef þú ert að nota þennan eiginleika skaltu skoða [Gæðastjórnun fyrir vöruhúsaferli](quality-management-for-warehouses-processes.md) fyrir dæmi um hvernig gæðastjórnun virkar þegar hún er virkjuð.
+
 -   Stofna gæðapantanir fyrir hluta móttöku. Til að stofna gæðapöntun sem byggir á magni sem tekið er við efnislega með pöntun verður að velja gátreitinn **Eftir uppfærðu magni** á skjámyndinni **Vörusýnishorn**.
 -   Stofna prófunargerðir sem innihalda lágmark, hámark og markprófunargildi og framkvæma eigindlega-samanborið við-eigindlega prófun sem hefur fyrirfram skilgreindar niðurstöður villuleitar.
 -   Tilgreina viðunandi gæðastig (AQL) til að stjórna vikmörkum gæðaráðstafana.
@@ -428,6 +432,9 @@ Eftirfarandi tafla veitir frekari upplýsingar um hvernig hægt er að mynda gæ
 </tbody>
 </table>
 
+> [!NOTE]
+> Eiginleikinn *Gæðastjórnun fyrir vöruhúsaferli* bætir við möguleikum fyrir úrvinnslu gæðapantana fyrir framleiðslu með **Gerð tilviks** stillt á *Tilkynna sem lokið* og **Framkvæmd** stillt á *Eftir* og fyrir innkaup með **Gerð tilviks** stillt á *Skráning*. Frekari upplýsingar er að finna í [Gæðastjórnun fyrir vöruhúsaferli](quality-management-for-warehouses-processes.md).
+
 ## <a name="quality-management-pages"></a>Gæðastjórnunarsíður
 <table>
 <colgroup>
@@ -438,7 +445,7 @@ Eftirfarandi tafla veitir frekari upplýsingar um hvernig hægt er að mynda gæ
 <thead>
 <tr class="header">
 <th>Síða</th>
-<th>Lýsing</th>
+<th>lýsing</th>
 <th>Dæmi</th>
 </tr>
 </thead>
@@ -495,3 +502,5 @@ Gæðatengingu verður að skilgreina fyrir hvert afbrigði viðskiptaferlis sem
 [Gæðastjórnunarferli](quality-management-processes.md)
 
 [Stjórnun ósamkvæmi](enable-nonconformance-management.md)
+
+[Gæðastjórnun fyrir vöruhúsaferli](quality-management-for-warehouses-processes.md)

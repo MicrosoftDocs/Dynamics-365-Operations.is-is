@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 12a0e07d1c60a359b3ba6c0d20176927ffe89431
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 57aabeef0ee94b4b13bbe6e3925bcafe1e809ab2
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172809"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270289"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Viðfang til sjóðstreymis í tvískiptingu
 
@@ -66,6 +66,14 @@ Sölutilboð má stofna í annaðhvort Sales eða Supply Chain Management. Ef þ
 + Þú getur bætt afslátt við vöruna í tilboðinu. Í þessu tilfelli verður afslátturinn samstilltur við Supply Chain Management. Reitirnir **Afsláttur**, **Gjöld** og **Skattur** á hausnum er stjórnað af uppsetningu í Supply Chain Management. Þessi uppsetning styður ekki samþættingarvörpun. Þess í stað er reitunum **Verð**, **Afsláttur**, **Gjöld** og **Skattur** viðhaldið og þeir meðhöndlaðir í Supply Chain Management.
 + Reitirnir **Afsláttur %**, **Afsláttur** og **Flutningsupphæð** í sölutilboðshausnum eru aðeins með lesaðgangi.
 + Reitirnir **Flutningsskilmálar**, **Afhendingarskilmálar**, **Sendingaraðferð** og **Afhendingarmáti** eru ekki hluti af sjálfgefnum vörpunum. Til að varpa þessum reitum, verður þú að setja upp gildisvörpun sem er bundin við gögnin í þeim fyrirtækjum sem einingin er samstillt á milli.
+
+Ef þú notar líka Field Service-lausnina skaltu vertu viss um að virkja færibreytuna **Flýtistofnun tilboðslínu**. Með því að virkja breytuna aftur geturðu haldið áfram að búa til tilboðslínur með flýtiaðgerðinni.
+1. Farðu í Dynamics 365 Sales forritið.
+2. Veldu stillingartáknið efst í yfirlitsstikunni.
+3. Veljið **Ítarlegar stillingar**.
+4. Veldu valkostinn **Sérsníða kerfið**.
+5. Veldu valmyndaratriðið **Tilboðslína**.
+6. Farðu í hlutann **Gagnaþjónusta** og veldu gátreitinn **Leyfa flýtistofnun**.
 
 ## <a name="sales-orders"></a>Sölupantanir
 

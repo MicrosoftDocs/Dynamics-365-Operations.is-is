@@ -3,7 +3,7 @@ title: Stjórna SEO-lýsigögnum
 description: Þetta efnisatriði lýsir því hvernig hægt er að stjórna lýsigögnum um SEO (SEO) í Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e7da7bf5c473746413e92babfa943f546b7724d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 74229628e48ffb8ac974acd868e325eeca77d91e
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003465"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270051"
 ---
 # <a name="manage-seo-metadata"></a>Stjórna SEO-lýsigögnum
 
@@ -72,13 +72,10 @@ Til að breyta lýsigögnum síðu skal fylgja þessum skrefum.
 1. Undir **Svæði** velurðu **Fabrikam** (eða heiti svæðisins).
 1. Í stýriglugganum vinstra megin velurðu **Síður**.
 1. Veldu heimasíðuna til að opna hana í ritlinum.
-1. Í aðgerðasvæðinu velurðu **Skrá út**.
+1. Á skipanastikunni velurðu **Breyta**.
 1. Í eiginleikaglugganum til hægri stækkarðu **Sjálfgild lýsimerki**.
-1. Til að bæta við nýju lýsimerki **Bæta við** og sláðu síðan inn merkið í reitinn.
-
-    Til að fjarlægja fyrirliggjandi lýsimerki velurðu ruslatunnutáknið hægra megin við það.
-
-1. Veldu **Vista** og síðan **Skrá inn**.
+1. Til að bæta við nýju lýsimerki **Bæta við** og sláðu síðan inn merkið í reitinn. Til að fjarlægja fyrirliggjandi lýsimerki velurðu ruslatunnutáknið hægra megin við það.
+1. Veldu **Vista** og síðan **Ljúka við breytingar**.
 1. Í reitnum **Athugasemdir** slærðu inn **Uppfærð lýsimerki** og velur síðan **Í lagi**.
 1. Veldu **Forskoðun** til að forskoða síðuna. Þegar þú hefur lokið því skaltu loka forskoðunarflipanum til að fara aftur í höfundatólið.
 1. Velja **Birta**.

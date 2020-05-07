@@ -3,7 +3,7 @@ title: Skulda- og innheimtuumsjón Power BI efni
 description: Þetta efnisatriði lýsir því hvað er innifalið í skulda- og innheimtuumsjón Power BI efnis. Það lýsir einnig hvernig eigi að fara í Power BI-skýrslur og veitir upplýsingar um gagnalíkan og einingar sem notaðar eru til að búa til efnið.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/25/2019
+ms.date: 04/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5ac47ee086569cdaaa3c30f76435432e64f8fac6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5c4a2289d7fa0f062735c93cf26cba9ac29ab94e
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189109"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3278875"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Skulda- og innheimtuumsjón Power BI efni
 
@@ -49,7 +49,7 @@ Eftirfarandi uppsetningu þarf að vera lokið svo að gögn birtist í myndefni
 1. Farðu í **Kerfisstjórnun > Uppsetning > Kerfisfæribreytur** til að stilla **Kerfisgjaldmiðil** og **Kerfisgengi**.
 2. Farðu í **Fjárhag> Uppsetning> Fjárhag** og stilltu **Bókhaldsgjaldmiðil** og **Gerð gengis**.
 3. Skilgreindu gengi á milli færslugjaldmiðla og bókhaldsgjaldmiðils, bókhaldsgjaldmiðils og kerfisgjaldmiðils. Til að gera þetta skaltu fara í **Fjárhag> Gjaldmiðla> Gengi gjaldmiðla**.
-4. Farðu í **Kerfisstjórnun > Uppsetning > Einingaverslun** til að endurnýja uppsafnaða mælingu **CustCollectionsBIMeasurements**.
+4. Farðu í **Fara í Kerfisstjórnun > Uppsetning > Eining averslun** til að uppfæra **CustCollectionsBIMeasurementsV2** uppsöfnuðu mælingarnar.
 
 ## <a name="accessing-the-power-bi-content"></a>Aðgangur að Power BI efni
 

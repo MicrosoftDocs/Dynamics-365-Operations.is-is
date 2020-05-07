@@ -3,7 +3,7 @@ title: Tvöfaldur gjaldmiðill
 description: Þetta umræðuefni veitir upplýsingar um tvöfaldan gjaldmiðil þar sem skýrslugjaldmiðillinn er notaður sem annar bókhaldsgjaldmiðill fyrir Microsoft Dynamics 365 Finance.
 author: kweekley
 manager: AnnBe
-ms.date: 08/07/2019
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4a01b8387afd45648f1205d4246378edc8a9e79b
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 8b71b571b03e8fa2648c90258bbcaa020baeabc0
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249012"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270313"
 ---
 # <a name="dual-currency"></a>Tvöfaldur gjaldmiðill
 
@@ -174,10 +174,10 @@ Að auki hafa verulegar breytingar verið gerðar á afskriftarferlinu. Þessar 
 
         | Eign | Bóka      | Færslugerð | Færsludagsetning | Gjaldmiðill | Upphæð í færslugjaldmiðli | Upphæð  | Gengi | Skýrslugjaldmiðilsupphæð |
         |-------------|-----------|------------------|------------------|----------|--------------------------------|---------|-----------|---------------------------|
-        | BUIL-00001  | 200\_SLLT | Kaup      | 6/3/2016         | DKK      | 1.000.000                      | 500,000 | 2,5       | 250,000                   |
-        | BUIL-00001  | 200\_SLLT | Afskrift     | 6/3/2016         | DKK      | 50.000                         | 50.000  | 2,5       | 250,000                   |
-        | BUIL-00001  | 200\_SLLT | Afskrift     | 6/3/2016         | DKK      | 50.000                         | 50.000  | 2,5       | 250,000                   |
-        | BUIL-00001  | 200\_SLLT | Afskrift     | 6/3/2016         | DKK      | 50.000                         | 50.000  | 2,5       | 250,000                   |
+        | BUIL-00001  | 200\_SLLT | Kaup      | 6/3/2016         | DKK      | 1.000.000                      | 500,000 | 2.5       | 250,000                   |
+        | BUIL-00001  | 200\_SLLT | Afskrift     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
+        | BUIL-00001  | 200\_SLLT | Afskrift     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
+        | BUIL-00001  | 200\_SLLT | Afskrift     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
 
     - Margir viðskiptavinir röktu færsluupplýsingum sína í vinnubókum. Þessar upplýsingar innihalda gengi og upphæðir. Ef þú hefur þessar gögn í vinnubók getur þú búið til sérsniðin gengisgerð og uppfært það með gengi frá vinnubókinni. Þessi gengisgerð verður síðan notuð til að slá inn sjálfgefið gengi á kaupdegi og reikna út skýrslugjaldmiðilsupphæð. Ef gengisgerð er ekki valin, notar leiðsagnarforritið gengið sem var skilgreindur í fjárhag.
     - Hægt er að breyta gengi og skýrslugjaldmiðilsupphæðum. Ef gengi er breytt er skýrslugjaldmiðilsupphæð endurreiknuð með því að nota nýtt gengi.

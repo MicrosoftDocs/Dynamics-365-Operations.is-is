@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cfb1b4c8baa87f5d894d55c5a52180ae87801a86
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b25fd3fffe153e1a07a1f8b21f0cc96f633fb894
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002152"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275372"
 ---
 # <a name="cookie-compliance"></a>Kökusamræmi
 
@@ -41,6 +41,8 @@ Til að læra meira um grundvallarreglurnar sem Microsoft notar fyrir samræmi v
 
 [Aðgengiseiginleikar og -geta](accessibility.md)
 
-[Yfirlit yfir samræmi](compliance-overview.md)
+[Yfirlit yfir reglufylgni](compliance-overview.md)
 
-[Bæt við síðu persónuverndarstefnu](add-privacy-page.md)
+[Bæta við persónuverndarstefnusíðu](add-privacy-page.md)
+
+[Skipta um notandakenni sem tengjast röktum efnisbreytingum](replace-IDs-tracked-changes.md)

@@ -3,7 +3,7 @@ title: Bæta við opnunarkveðju
 description: Þetta efnisatriði lýsir því hvernig á að bæta móttökuskilaboðum við Microsoft Dynamics 365 Commerce vefsvæði.
 author: psimolin
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ca10b01268b5dcd4c6fe448d90cd0ebd65a2673b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d2a125b4e71016ad620f128af2e3c9f29aa04f4c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001255"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269614"
 ---
 # <a name="add-a-welcome-message"></a>Bæta við opnunarkveðju
 
@@ -41,17 +41,14 @@ Viðvörunareiningunni ætti að bæta við hólfið **Villu-/upplýsingaskilabo
 
 Fylgdu þessum skrefum til að bæta við móttökuskilaboðum á svæðið.
 
-1. Í Dynamics 365 Commerce, farðu á vefsíðuna.
+1. Opnaðu síðuna þína á svæðissmið Commerce.
 1. Veldu **Brot**.
 1. Veldu fyrirsagnarbrot til að bæta skilaboðunum við.
 1. Stækkaðu í útlínutrénu **Villu-/upplýsingaskilaboð**.
-1. Veldu viðvörunareininguna.
-
-    Ef viðvörunareining er ekki ennþá til skaltu velja úrfellingarhnappinn (**...**) við hliðina á **Villu-/upplýsingaskilaboð** og velja síðan **Bæta við einingu**. Veldu viðvörunareininguna og veldu síðan **Í lagi**.
-
+1. Veldu viðvörunareininguna og veldu síðan **Í lagi**. Ef viðvörunareining er ekki enn til, veldu fyrst hnappinn fyrir úrfellingarmerki (**...**) **Villu-/upplýsingaboð** og veldu síðan **Bæta við einingu**.
 1. Í eiginleikaglugganum til hægri, á flipanum **Gögn** velurðu **Bæta við gagnagjafa** og velur síðan **Innihald**.
 1. Í reitinn **Inntakstexti** slærðu inn texta móttökuskilaboðanna.
-1. Vistaðu fyrirsagnarbrotið, skráðu það inn og gefðu það út.
+1. Smelltu á **Vista**, veldu **Ljúka við breytingar** til að athuga hausbrotið og smelltu síðan á **Birta** til að birta það. 
 
 Móttökuskilaboðin birtast nú efst á hverri síðu svæðis sem notar valið fyrirsagnarbrot.
 

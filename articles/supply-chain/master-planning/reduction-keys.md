@@ -3,7 +3,7 @@ title: Minnkunarlyklar samkvæmt spá
 description: Þetta efnisatriði veitir dæmi sem sýna hvernig á að setja upp minnkunarlykil. Hún felur í sér upplýsingar um mismunandi stillingar minnkunarlykla og niðurstöður hverrar fyrir sig. Hægt er að nota minnkunarlykil til að skilgreina hvernig á að lækka spárþarfir.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 04/03/2020
+ms.date: 04/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25cdde073878ed090a4d981eff75a337a79b37af
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: 6191b4809c3785d92395bec1b7d51bfc978f9245
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225106"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262697"
 ---
 # <a name="forecast-reduction-keys"></a>Minnkunarlyklar samkvæmt spá
 
@@ -222,7 +222,7 @@ Minnkunarlykill samkvæmt spá er notaður í aðferðunum **Færslur - minnkuna
 
 ## <a name="reduce-a-forecast-by-transactions"></a>Lækka spá með færslum
 
-Þegar valið er **Færslur - minnkunarlykill** eða **Færslur - breytilegt tímabil** sem aðferð til að lækka spárþarfir, er hægt að tilgreina hvaða færslur lækka spána. Á síðunni **Útgefnar afurðir**, í flýtiflipanum **Annað**, í reitnum **Lækka spá um**, skal velja **Allar færslur** ef allar færslur eiga að lækka spána eða **Pantanir** ef sölupantanir ættu eingöngu að lækka spána.
+Þegar valið er **Færslur - minnkunarlykill** eða **Færslur - breytilegt tímabil** sem aðferð til að lækka spárþarfir, er hægt að tilgreina hvaða færslur lækka spána. Á síðunni **Þekjuflokkar**, í flýtiflipanum **Annað**, í reitnum **Lækka spá um**, skal velja **Allar færslur** ef allar færslur eiga að lækka spána eða **Pantanir** ef sölupantanir ættu eingöngu að lækka spána.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

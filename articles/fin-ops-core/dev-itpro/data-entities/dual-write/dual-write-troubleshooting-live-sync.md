@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 60839bbd1b3ae642cdd419c7df2388292776a461
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: d45b19c1e88e6a27bde4335d4a356f2173bdfcd3
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172738"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275418"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Úrræðaleit í beinni samstillingarvandamál
 
@@ -102,7 +102,7 @@ Til að laga málið verður þú að úthluta réttu öryggishlutverki til teym
 
 Svona lítur villan út í líkanadrifnu forritinu í Dynamics 365:
 
-*Óvænt villa kom upp úr ISV kóða. (ErrorType = ClientError) Óvænt undantekning frá viðbót (Framkvæmd): Microsoft.Dynamics.Integrator.CrmPlugins.Plugin: System.Exception: tókst ekki að vinna úr einingareikningi - (Tengingartilraun mistókst vegna þess að tengdur aðili svaraði ekki almennilega eftir a tíma eða komið var á fót tengingu vegna þess að tengdur gestgjafi hefur ekki svarað*
+*Óvænt villa kom upp úr ISV kóða. (ErrorType = ClientError) Óvænt undantekning frá viðbót (Keyra): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: tókst ekki að vinna úr einingareikningi - (Tengingartilraun mistókst vegna þess að tengdur aðili svaraði ekki á fullnægjandi hátt eftir nokkurn tíma, eða ekki tókst að koma á tengingu vegna þess að tengdur hýsill svaraði ekki*
 
 Þessi villa kemur upp þegar Common Data Service umhverfi er rangt endurstillt á sama tíma og þú reynir að búa til gögn í forriti Finance and Operations.
 

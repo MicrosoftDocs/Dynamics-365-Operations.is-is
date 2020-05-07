@@ -1,9 +1,9 @@
 ---
 title: Bestu starfsvenjur fyrir innflutning fylgiskjala með því að nota einingu almennrar færslubókar
 description: Þetta efnisatriði veitir ábendingar fyrir innflutning gagna í Almenna færslubók með því að nota einingu almennrar færslubókar.
-author: ShylaThompson
+author: rcarlson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23a4cff85bb5c9d119f9ec47e8421aa1964a3d4f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 13ea54a6fc4ccdfbcc917b533fe9896d57bcb347
+ms.sourcegitcommit: f1bef1cb4b3d2c9261e89820d624e4b0fe60d25c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769611"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3281487"
 ---
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Bestu starfsvenjur fyrir innflutning fylgiskjala með því að nota einingu almennrar færslubókar
 
@@ -30,9 +30,9 @@ ms.locfileid: "2769611"
 
 Þetta efnisatriði veitir ábendingar fyrir innflutning gagna í Almenna færslubók með því að nota einingu almennrar færslubókar.
 
-Hægt er að nota eininguna Almenna færslubók til að flytja einungis inn fylgiskjöl sem hafa reikningsgerðina **Fjárhag, Viðskiptavin, Lánardrottin eða Banka**. Fylgiskjal er hægt að færa inn sem eina lína með því að nota bæði svæðið **Lykill** og **Mótlykill**, eða í margra línu fylgiskjali, þar sem aðeins svæðið **Lykill** er notað (og **Mótlykill** er haft autt í hverri línu). Einingin Almenn færslubók styður ekki allar gerð lykils. Þess í stað eru til aðrar einingar fyrir aðstæður ar sem mismunandi samsetningar gerða lykla er krafist. Til dæmis til að flytja inn verkfærslu, skal nota verkeiningu kostnaðarskýrslu færslubókar. Hver eining er hönnuð til að styðja við tilteknar aðstæður sem þýðir að viðbótarreitir gætu verið í einingum fyrir þær aðstæður en ekki í einingum fyrir mismunandi aðstæður.
+Hægt er að nota eininguna Almenna færslubók til að flytja einungis inn fylgiskjöl sem hafa reikningsgerðina **Fjárhag**, **Viðskiptavin**, **Lánardrottinn** eða **Banka**. Fylgiskjal er hægt að færa inn sem eina lína með því að nota bæði svæðið **Lykill** og **Mótlykill**, eða í margra línu fylgiskjali, þar sem aðeins svæðið **Lykill** er notað (og **Mótlykill** er haft autt í hverri línu). Einingin Almenn færslubók styður ekki allar gerð lykils. Þess í stað eru til aðrar einingar fyrir aðstæður ar sem mismunandi samsetningar gerða lykla er krafist. Til dæmis til að flytja inn verkfærslu, skal nota verkeiningu kostnaðarskýrslu færslubókar. Hver eining er hönnuð til að styðja við tilteknar atburðarásir. Þetta þýðir að fleiri reitir geta verið tiltækir í einingum fyrir þessar atburðarásir. Hins vegar gætu viðbótarreitir ekki verið í boði í einingum fyrir mismunandi atburðarásir.
 
-## <a name="setup"></a>Uppsetning
+## <a name="setup"></a>Setja upp
 Áður en flutt er inn með því að nota einingu almennrar færslubókar, skal staðfesta eftirfarandi uppsetningu:
 
 - **Uppsetningu númeraraða fyrir rununúmer færslubókar** – að Sjálfgefnu þegar flutt er inn með einingu Almennrar færslubókar, nota rununúmer færslubókar númeraröðina sem er skilgreind í færibreytum fjárhags. Ef þú stillir númeraröð fyrir rununúmer færslubókar í **Handvirkt**, er sjálfgefinn númer ekki notuð. Þessi uppsetning er ekki studd.
@@ -44,7 +44,7 @@ Tvær stillingar í gagnastjórnun hafa áhrif á hvernig sjálfgefið rununúme
 - **Samstæðubyggð úrvinnsla** (á gagnaeiningu)
 - **Sjálfmynduð** (á reitavörpun)
 
-Eftirfarandi kaflar lýsa áhrif þessara stillinga og einnig útskýrir hvernig rununúmer færslubókar og fylgiskjalsnúmer eru myndaðar.
+Eftirfarandi hlutar lýsa áhrifum þessara stillinga. Þeir útskýra einnig hvernig kerfið býr til rununúmer fyrir færslubækur og fylgiskjalsnúmer.
 
 ### <a name="journal-batch-number"></a>Rununúmer færslubókar
 
@@ -57,10 +57,10 @@ Eftirfarandi kaflar lýsa áhrif þessara stillinga og einnig útskýrir hvernig
 
 ### <a name="voucher-number"></a>Fylgiskjalsnúmer
 
-- Þegar notuð er **samstæðubyggð úrvinnsla** stilling á einingu Almennri færslubók, verður að gefa upp númer fylgiskjals í innfluttu skránni. Hver færsla í Almennu færslubókinni er úthlutað fylgiskjalsnúmer sem er gefin upp í innfluttu skránni, jafnvel ef fylgiskjal er ekki jafnað. Ef óskað er að nota samstæðubyggða úrvinnslu en þú vilt einnig nota númeraröð sem skilgreind er fyrir fylgiskjalsnúmer hefur verið búin til bráðabót sem fyrir febrúar 2016 útgáfa. Númer bráðabótar er 3170316 og og má hlaða niður frá Lifecycle services (LCS). Nánari upplýsingar, sjá [Niðurhal á uppfærslum úr Lifecycle Services (LCS)](../migration-upgrade/download-hotfix-lcs.md).
+- Þegar notuð er **samstæðubyggð úrvinnsla** stilling á einingu Almennri færslubók, verður að gefa upp númer fylgiskjals í innfluttu skránni. Hver færsla í Almennu færslubókinni er úthlutað fylgiskjalsnúmer sem er gefin upp í innfluttu skránni, jafnvel ef fylgiskjal er ekki jafnað. Athugaðu eftirfarandi punkta ef óskað er eftir því að nota samstæðubyggða úrvinnslu en þú vilt einnig nota númeraröð sem skilgreind er fyrir fylgiskjalsnúmer.
 
     - Til að virkja þessa aðgerð, á færslubókarheiti sem notað er fyrir innflutningi skal stilla **úthlutun númers við bókun** á **Já**.
-    - Samt sem áður þarf að skilgreina númer fylgiskjals í innfluttu skránni. Hins vegar er þetta númer tímabundin og skrifað er yfir það af fylgiskjalsnúmer þegar færslubókin er bókuð. Þú verður að ganga úr skugga um að línurnar í færslubókinni eru rétt flokkaðar eftir tímabundið fylgiskjalsnúmer. Til dæmis, við bókun, finnast þrjár línur sem hafa tímabundið fylgiskjalsnúmer 1. Tímabundið fylgiskjalsnúmer fyrir allar þrjár línur er skrifað yfir af næsta númeri í númeraröð. Ef þessar þrjár línur ekki eru jafnaðar færslur, er fylgiskjal ekki bókuð. Næst, ef línur finnast sem hafa tímabundið fylgiskjalsnúmer 2, er þetta númer yfirskrifað af næsta númer fylgiskjals í númeraröð, og svo framvegis.
+    - Samt sem áður þarf að skilgreina númer fylgiskjals í innfluttu skránni. Hins vegar er þetta númer tímabundið og mun fylgiskjalsnúmer skrifa yfir það þegar færslubókin er bókuð. Gakktu úr skugga um að línurnar í færslubókinni eru rétt flokkaðar eftir tímabundið fylgiskjalsnúmer. Til dæmis, við bókun, finnast þrjár línur sem hafa tímabundið fylgiskjalsnúmer 1. Tímabundið fylgiskjalsnúmer fyrir allar þrjár línur er skrifað yfir af næsta númeri í númeraröð. Ef þessar þrjár línur ekki eru jöfnuð færsla er fylgiskjal ekki bókað. Næst, ef línur finnast sem hafa tímabundið fylgiskjalsnúmer 2, er þetta númer yfirskrifað af næsta númer fylgiskjals í röð, og svo framvegis.
 
 - Þegar ekki er notuð stillingin **samstæðubyggð úrvinnsla** þarf ekki að gefa upp neitt númer fylgiskjals í innfluttu skránni. Fylgiskjalsnúmer eru stofnaðar við innflutning, byggt á uppsetningu færslubókarheitis (**Eitt fylgiskjal einungis**, **í samhengi við jöfnun** og svo framvegis). Til dæmis, ef færslubókarheiti er skilgreint sem **í samhengi við jöfnun**, fær fyrsta lína nýtt sjálfgefið fylgiskjalsnúmer. Kerfið metur síðan línu til að ákvarða hvort debet er jafn mikið og kredit. Ef mótlykill er til staðar í línunni, fær næstu línu sem flutt er inn nýtt fylgiskjalsnúmer. Ef enginn mótlykill er til staðar, metur kerfið hvort debet er jafn mikið og kredit um leið og hver ný lína er innflutt.
 - Ef í **Fylgiskjalsnúmer** reitur er stillt á **sjálfmynduð**, tekst innflutningurinn ekki. **sjálfmynduð** stilling fyrir reitinn **Fylgiskjalsnúmer** er ekki studd.

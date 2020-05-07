@@ -3,7 +3,7 @@ title: Kaupkassaeining
 description: Þetta efni fjallar um kaupakassaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35b7027e0f0b680dd82ebfcea754fef1617c0163
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 095374c14cddf1ae3608ae1427a7144b3e7ca7b2
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261399"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269752"
 ---
 # <a name="buy-box-module"></a>Kaupkassaeining
 
@@ -80,15 +80,15 @@ Fylgdu þessum skrefum til að bæta kaupkassaeiningu við nýja síðu og still
 1. Búðu til brot sem er nefnt **kaupa kassabrot** og bættu kaupkassaeiningunni við það.
 1. Í hólfinu **Miðlar** í kaupkassaeiningunni bætirðu við miðlasafnseiningu.
 1. Í hólfinu **Verslunarval** í kaupkassaeiningunni skal bæta við verslunarvalseiningunni.
-1. Athuga á síðunni og birtu hana.
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila brotinu og veldu síðan **Birta** til að birta það.
 1. Búðu til sniðmát fyrir vöruupplýsingasíðu og nefndu það **PDP-sniðmát**.
 1. Bæta við sjálfgefinni síðu.
 1. Í hólfinu **Aðal** á sjálfgefnu síðunni bætirðu við kaupkassabroti.
-1. Vistaðu sniðmátið, ljúktu við að breyta því og birtu það.
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
 1. Notaðu sniðmátið sem þú bjóst til til að búa til síðu sem heitir **PDP-síðu**.
 1. Í hólfinu **Aðal** á nýju síðunni bætirðu við kaupkassabroti.
 1. Vistaðu og forskoðaðu síðuna. Bættu færibreytustreng fyrirspurnar **?productid=&lt;product id&gt;** við slóðina á forskoðunarsíðunni. Þannig er vörusamhengið notað til að hlaða og birta forskoðunarsíðuna.
-1. Vistaðu síðuna, ljúktu við að breyta henni og birtu hana. Kaupkassi ætti að birtast á upplýsingasíðu afurða.
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila síðunni og veldu síðan **Birta** til að birta hana. Kaupkassi ætti að birtast á upplýsingasíðu afurða.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

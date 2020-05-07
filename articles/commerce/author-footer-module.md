@@ -3,7 +3,7 @@ title: Neðanmálseining
 description: Þetta efni fjallar um neðanmálseiningar og hvernig á að stofna þær í Microsoft Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f8e0290b5af9d0c1fc9ad0279b0d7f81c9feb2fc
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 51f8d26d6223dcd1f6961058cd9d772a67c69670
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001153"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269637"
 ---
 # <a name="footer-module"></a>Neðanmálseining  
 
@@ -37,7 +37,7 @@ Neðanmálseiningin er sérstakur gámur sem er notaður til að hýsa einingarn
 
 ## <a name="footer-module-properties"></a>Eiginleikar neðanmálseiningar 
 
-Eins og flestir gámar, styður neðanmálseining eiginleika fyrir fyrirsögnina og breiddina. Hún styður einnig að bæta við mörgum einingum neðanmálsflokka. Hver eining neðanmálsflokks sem er bætt við er gerð sem dálkur í neðanmálseiningunni.
+Eins og á við um flesta gáma, styður neðanmálseiningin eiginleika fyrir fyrirsögnina og breiddina. Hún styður einnig að bæta við mörgum einingum neðanmálsflokka. Hver eining neðanmálsflokks sem er bætt við er gerð sem dálkur í neðanmálseiningunni.
 
 ## <a name="modules-available-in-a-footer-module"></a>Einingar eru fáanlegar í neðanmálseiningunni
 
@@ -58,12 +58,12 @@ Eins og flestir gámar, styður neðanmálseining eiginleika fyrir fyrirsögnina
 1. Til að bæta við tenglinum „Efst á síðu“ velurðu úrfellingarhnappinn fyrir neðanmálsflokkseininguna og velur síðan **Bæta við einingu**.
 1. Í valmyndinni **Bæta við einingu** velurðu eininguna Efst á síðu og velur síðan **Í lagi**.
 1. Í útlínutrénu velurðu eininguna Efst á síðu. Síðan skaltu stilla eininguna Efst á síðu í eiginleikaglugganum til hægri eins og þú þarft.
-1. Vistaðu síðusagnarbrotið, skráðu það inn og gefðu það út.
+1. Smelltu á **Vista**, veldu **Ljúka við breytingar** til að athuga síðubrotið og smelltu síðan á **Birta** til að birta það.
 
 Fylgdu þessum skrefum á hvert síðusniðmát sem búið er til fyrir svæðið.
 
 1. Í hólfinu **Aðal** á sjálfgefnu síðunni, í neðanmálseiningunni skaltu bæta við neðanmálsbrotinu sem þú bjóst til.
-1. Vistaðu sniðmátið, athugaðu það og gefðu það út.
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
 
 Með því að bæta síðusniðinu við síðusniðmát tryggirðu að neðanmálið sé sett á hverja síðu.
 
