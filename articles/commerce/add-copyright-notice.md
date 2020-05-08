@@ -3,7 +3,7 @@ title: Bæta við yfirlýsingu um höfundarrétt
 description: Þetta efni lýsir því hvernig þú bætir við höfundarréttarbréfi á vefsíðu rafrænna viðskipta.
 author: psimolin
 manager: AnnBe
-ms.date: 01/23/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 54b48ee74bc9d9f2b77f0584a0bf1739a8dfdbdb
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: a2ed52dbd19508e07fcced92a7fad831180b1d1d
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025483"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269591"
 ---
 # <a name="add-a-copyright-notice"></a>Bæta við yfirlýsingu um höfundarrétt
-
 
 [!include [banner](includes/banner.md)]
 
@@ -51,12 +50,12 @@ Fylgdu þessum skrefum til að bæta við höfundarréttartilkynningu neðst á 
 1. Í valmyndinni velurðu **Textabálkur** og velur síðan **Í lagi**.
 1. Veldu á leiðsöguskjánum **Textabálkur**.
 1. Í eiginleikarrúðunni til hægri, í reitnum **Málsgrein**, bætirðu höfundarréttarskilaboðunum við. Til dæmis, færðu inn **(C) Fabrikam 2019**.
-1. Veldu **Vista**, veldu **Innskráning** og veldu síðan **Birta**.
-1. Farðu í **Sniðmát**, veldu sniðmátið og veldu síðan **Skrá út**.
+1. Veldu **Vista**, veldu **Ljúka við breytingar** og veldu síðan **Birta**.
+1. Opnaðu **Sniðmát**, veldu sniðmátið og veldu síðan **Breyta**.
 1. Undir **Útlínur síðu** stækkarðu **Meginmál** og stækkar síðan **Sjálfgefin síða**.
 1. Veldu úrfellingarhnappinn við hliðina **Síðufótarhólf** og velur síðan **Bæta við broti**.
 1. Veldu brotið sem þú bjóst til áður og veldu síðan **Velja**.
-1. Skráðu brotið út í sniðmátinu og birtu það.
+1. Veldu **Ljúka við breytingar** til að athuga með sniðmátið og veldu síðan **Birta** til að birta það.
 
 Síðufótur sem inniheldur höfundarréttartilkynningu birtist sjálfkrafa neðst á öllum síðunum sem nota valda sniðmátið.
 

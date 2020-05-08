@@ -18,18 +18,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3da8bdf6feb932e074680b6cb80e1b7b71f9a82b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: eb5c7389ba29d50232f9321e40bccceecd5f5fc6
+ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004252"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3265619"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Samræmisprófun smásölufærslna
 
-
 [!include [banner](includes/banner.md)]
-[!include [preview banner](includes/preview-banner.md)]
 
 Þetta efnisatriði lýsir virkni samræmisprófunar færslna í Microsoft Dynamics 365 Commerce. Í samræmisprófuninni eru færslur með ósamræmi greindar og einangraðar áður en þær eru teknar inn í bókunarferlið.
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f7ee0b5aa4e72614205e129acd986376b33efc70
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: d5d9dbce0c74d32107db6bbae033b921e4201693
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172692"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275651"
 ---
 # <a name="general-troubleshooting"></a>Almenn úrræðaleit
 
@@ -70,14 +70,12 @@ Fylgdu þessum skrefum til að kveikja á rakningarkladda.
 Fylgdu þessum skrefum til að skoða rakningarkladdann.
 
 1. Skráðu þig inn í forrit Finance and Operations, opnaðu síðuna **Stillingar** og síðan, undir **Sérsnið**, velurðu **Rakningarkladdi viðbótar**.
-2. Finndu rakningarkladdana þar sem reiturinn **Heiti gerðar** er stilltur á **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**.
+2. Findu rakningarkladda þar sem reiturinn **Heiti gerðar** er stilltur á **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Tvísmelltu á hlut til að skoða alla skrána og síðan á flýtiflipanum **Framkvæmd**, skoðarðu textann **Skilaboðablokk**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Kveiktu á kembiforriti til að leysa vandamál samstillingar í beinni í forritum Finance and Operations
 
-**Nauðsynlegt hlutverk til að skoða villurnar:** Kerfisstjóri
-
-Tvíritunarvillur sem eiga uppruna sinn í Common Data Service geta komið fram í forriti Finance and Operations. Í sumum tilvikum er allur texti villuboðanna ekki tiltækur vegna þess að skeytið er of langt eða inniheldur persónugreinanlegar upplýsingar (PII). Þú getur kveikt á fjölorðri skráningu á villum með því að fylgja þessum skrefum.
+**Nauðsynlegt hlutverk til að skoða villurnar:** Kerfisstjóri Tvíritaðar villur sem eiga uppruna sinn í Common Data Service geta birst í Finance and Operations forritinu. Í sumum tilvikum er allur texti villuboðanna ekki tiltækur vegna þess að skeytið er of langt eða inniheldur persónugreinanlegar upplýsingar (PII). Þú getur kveikt á fjölorðri skráningu á villum með því að fylgja þessum skrefum.
 
 1. Allar verkefnisstillingar í forritum Finance and Operations eru með eiginleikann **IsDebugMode** í eingunni **DualWriteProjectConfiguration**. Opnaðu eininguna **DualWriteProjectConfiguration** með því að nota Excel-viðbótina.
 
@@ -104,7 +102,7 @@ Tvíritunarvillur sem eiga uppruna sinn í Common Data Service geta komið fram 
 
 ## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>Taktu af og tengdu annað Common Data Service umhverfi úr forrit Finance and Operations
 
-**Nauðsynleg skilríki til að aftengja umhverfið:** Azure AD leigjandastjóri
+**Nauðsynlegt hlutverk til að aftengja umhverfið:** Kerfisstjóri fyrir Finance and Operations forritið eða Common Data Service.
 
 1. Innskráning í forritið Finance and Operations.
 2. Farðu í **Vinnusvæði \> Gagnastjórnun** og veldu reitinn **Tvöfalt skrif**.
@@ -113,3 +111,13 @@ Tvíritunarvillur sem eiga uppruna sinn í Common Data Service geta komið fram 
 5. Veldu **Já** til að staðfesta aðgerðina.
 
 Þú getur nú tengt nýtt umhverfi.
+
+## <a name="unable-to-view-the-sales-order-line-information-form"></a>Ekki er hægt að skoða Upplýsingar sölupöntunarlínu 
+
+Þegar þú býrð til sölupöntun í Dynamics 365 Sales og smellir á **+ Bæta við afurðum** kanntu að fara á Dynamics 365 Project Operations pöntunarlínu. Ekki er hægt að skoða **Upplýsingar** sölupöntunarlínu úr þeirri skjámynd. Valkosturinn fyrir **Upplýsingar** birtist ekki í fellivalmyndinni fyrir neðan **Ný pöntunarlína**. Þetta gerist vegna þess að Project Operations hefur verið sett upp í umhverfi þínu.
+
+Fylgdu þessum skrefum til að gera virkja valkostinn **Upplýsingar** aftur:
+1. Fara í eigindina **Pöntunarlína**.
+2. Finndu **Upplýsingar** undir skjámyndum. 
+3. Veldu **Upplýsingar** og smelltu á **Virkja öryggishlutverk**. 
+4. Breyttu öryggisstillingunni í **Sýna öllum**.

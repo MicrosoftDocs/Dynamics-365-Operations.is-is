@@ -3,7 +3,7 @@ title: Ráðstafa mannauði
 description: Þessi grein fer með þig í gegnum úthlutunarferli nýs framleiðsluumhverfis fyrir Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/18/2020
+ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4f2fd2b7bf9f09a61d07e1bc35ad48fe2c5d7383
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: 88a0be50a9b861190e7ce9b3f56bb4e583b791d1
+ms.sourcegitcommit: 33685a5cc37081a189279e917def7f122d3beaef
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138360"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "3285490"
 ---
 # <a name="provision-human-resources"></a>Ráðstafa mannauði
 
@@ -53,13 +53,13 @@ Eftir að þú hefur búið til LCS verk, getur þú úthlutað Human Resources 
 
 1. Í LCS verkinu skaltu velja **Human Resources Stjórnun Forrits** reitinn.
 
-2. Tilgreinið hvort þetta sé sandkassa- eða framleiðslutilvik fyrir Human Resources. Snemmbúnir forskoðunareiginleikar kunna að vera í boði í Sandkassatilvikum til að leyfa ábendingar og prófanir sem fyrst.
+2. Tilgreinið hvort þetta umhverfi sé sandkassa- eða framleiðslutilvik fyrir Mannauð. Snemmbúnir forskoðunareiginleikar kunna að vera í boði í Sandkassatilvikum til að leyfa ábendingar og prófanir sem fyrst.
    
     > [!NOTE]
     > Ekki er hægt að breyta tilviksgerð Human Resources þegar hún hefur verið stillt. Gakktu úr skugga um að rétt tilviksgerð sé valin áður en haldið er áfram.</br></br>
     > Gerð Human Resources-tilviks er aðskilin frá tilviksgerð í Microsoft Power Apps-umhverfi, sem þú stillir í Power Apps Admin Center.
     
-3. Veldu valkostinn **Hafa sýnigögn með** ef þú vilt að umhverfið þitt innihaldi sama sýnigagnasafnið sem notað er í prufukeyrsluupplifun Human Resources. Þetta er gagnlegt fyrir langvarandi prufuútgáfu eða þjálfunarumhverfi og ætti aldrei að nota í vinnsluumhverfi.  Athugaðu að þú verður að velja þennan möguleika við upphaflega uppsetningu. Þú getur ekki uppfært fyrirliggjandi uppsetningu seinna.
+3. Veldu valkostinn **Hafa sýnigögn með** ef þú vilt að umhverfið þitt innihaldi sama sýnigagnasafnið sem notað er í prufukeyrsluupplifun Human Resources. Sýnigögn eru gagnleg fyrir langvarandi prufuútgáfu eða þjálfunarumhverfi og ætti aldrei að nota í vinnsluumhverfi. Þú verður að velja þennan möguleika við upphaflega uppsetningu. Þú getur ekki uppfært núverandi uppsetningu seinna.
 
 4. Human Resources er alltaf úthlutað inn í Microsoft Power Apps umhverfi, til að virkja Power Apps samþættingu og stækkunarhæfni. Lestu kaflann „Val á Power Apps umhverfi“ í þessari grein áður en þú heldur áfram. Ef þú ert ekki með Power Apps umhverfi skaltu velja Stjórna umhverfum í LCS eða fara í Stjórnandamiðstöð Power Apps. Fylgdu síðan skrefunum til að [Stofna Power Apps umhverfi](https://docs.microsoft.com/powerapps/administrator/create-environment).
 
@@ -69,34 +69,34 @@ Eftir að þú hefur búið til LCS verk, getur þú úthlutað Human Resources 
 
    Nýja umhverfið þitt birtist á lista yfir umhverfi á yfirlitssvæðinu vinstra megin. Hins vegar getur þú ekki byrjað að nota umhverfið fyrr en virkjunarstaða er uppfærð í **Virkjað**. Þetta ferli tekur venjulega nokkrar mínútur. Ef úthlutunarferlið mistekst þarftu að hafa samband við notendaþjónustu.
 
-7. Velja **Innskráning í Human Resources** til að nota nýja umhverfið þitt.
+7. Veldu **Innskráning í Mannauð** til að nota nýja umhverfið þitt.
 
     > [!NOTE]
     > Ef þú hefur ekki ennþá skráð þig út á síðustu skilyrðin getur þú virkjað prufutilvik af Human Resources í verkinu. Þú getur síðan notað þetta tilvik til að prófa lausnina þína þar til þú skráir þig út. Ef þú notar nýtt umhverfi þitt til að prófa þarftu að endurtaka þetta ferli til að búa til framleiðsluumhverfi.
 
-    > Þú gætir íhugað að nýta ókeypis 60 daga [Prófunarumhverfi Human Resources](https://dynamics.microsoft.com/talent/overview/). Þótt prófunarumhverfið sé í eigu notandans sem óskaði eftir því er samt hægt að bjóða öðrum notendum aðgang í gegnum upplifun kerfisstjóra fyrir Human Resources. Prófunarumhverfi innihalda uppskálduð gögn sem hægt er að nota til að skoða forritið á öruggan hátt. Þau eru ætluð til þess að nota sem framleiðsluumhverfi. Athugaðu að þegar prófunarumhverfið rennur út að 60 dögum liðnum verður öllum gögnum í því eytt og ekki verður hægt að endurheimta þau. Þú getur skráð þig fyrir nýju prófunarumhverfi eftir að núverandi umhverfi rennur út.
+    > Þú gætir íhugað að nýta ókeypis 60 daga [Prófunarumhverfi Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962). Þótt prófunarumhverfið sé í eigu notandans sem óskaði eftir því er samt hægt að bjóða öðrum notendum aðgang í gegnum upplifun kerfisstjóra fyrir Human Resources. Prófunarumhverfi innihalda uppskálduð gögn sem hægt er að nota til að skoða forritið á öruggan hátt. Þau eru ætluð til þess að nota sem framleiðsluumhverfi. Athugaðu að þegar prófunarumhverfið rennur út að 60 dögum liðnum verður öllum gögnum í því eytt og ekki verður hægt að endurheimta þau. Þú getur skráð þig fyrir nýju prófunarumhverfi eftir að núverandi umhverfi rennur út.
 
 ## <a name="select-a-power-apps-environment"></a>Velja Power Apps-umhverfi
 
-Samþætting milli Human Resources og Power Apps-umhverfa leyfir þér að samþætta og útvíkka notkun á Human Resources gögnum með Power Apps-verkfærum. Skilningur á tilgangi Power Apps-umhverfi hjálpar ekki aðeins við að búa til forrit til að stækka Human Resources, heldur hjálpar þér einnig að velja rétta umhverfið þegar þú úthlutar Human Resources. Frekari upplýsingar um Power Apps-umhverfin, þ.á.m. umfang umhverfis, aðgangur að umhverfi og stofnun og val á umhverfi eru í [Umhverfi Power Apps kynnt til sögunnar](https://powerapps.microsoft.com/blog/powerapps-environments/). 
+Þú getur samþætt og aukið notkun Human Resources gagna með Power Apps verkfærum. Frekari upplýsingar um Power Apps-umhverfin, þ.á.m. umfang umhverfis, aðgangur að umhverfi og stofnun og val á umhverfi eru í [Umhverfi Power Apps kynnt til sögunnar](https://powerapps.microsoft.com/blog/powerapps-environments/). 
 
 Notaðu eftirfarandi leiðbeiningar þegar þú ákveður hvaða Power Apps-umhverfi til að virkja Human Resources inn í: 
 
-1. Í LCS skaltu velja **Stjórna umhverfum**, eða fara beint í stjórnendamiðstöð Power Apps, þar sem þú getur skoðað núverandi umhverfi og stofnað ný umhverfi.
+1. Veljið **Stjórna umhverfi** í LCS. Einnig er hægt að fara beint í stjórnendamiðstöð Power Apps, þar sem þú getur skoðað núverandi umhverfi og stofnað ný.
 
 2. Einu Human Resources umhverfi er varpað á eitt Power Apps-umhverfi.
 
 3. Power Apps-umhverfi inniheldur Human Resources ásamt samsvarandi forritum Power Apps, Power Automate og Common Data Service. Ef Power Apps-umhverfinu er eytt, þá á það einnig við um forritin innan þess. Þegar Human Resources umhverfi er úthlutað er hægt að veita annaðhvort umhverfið **Prufuútgáfa** eða **Framleiðsla**. Veldu tegund umhverfis byggt á því hvernig umhverfið verður notað. 
 
-4. Gagnasamþætting og prófunaraðferðir ætti að hafa í huga, eins og Sandbox, UAT eða Framleiðsla. Mælt er með því að þú hafir í huga ýmsar afleiðingar á uppsetningunni, því það er ekki auðvelt að breyta því síðar hvaða Human Resources umhverfi er varpað á Power Apps-umhverfi.
+4. Gagnasamþætting og prófunaraðferðir ætti að hafa í huga, eins og Sandbox, UAT eða Framleiðsla. Hugsaðu vandlega út í afleiðingar uppsetningarinnar því að ekki er auðvelt að breyta því hvaða umhverfi Human Resources er varpað í Power Apps-umhverfi.
 
-5. Ekki er hægt að nota eftirfarandi Power Apps-umhverfi fyrir Human Resources og verður síað úr vallistanum innan LCS:
+5. Þú getur ekki notað eftirfarandi Power Apps-umhverfi fyrir Human Resources. Þau eru síuð úr lista yfir valkosti innan LCS:
  
-    - **Sjálfgefin Power Apps-umhverfi** - Þó að hverjum leigjanda sé sjálfkrafa úthlutað sjálfgefnu Power Apps-umhverfi, mælum við ekki með því að nota það með Human Resources vegna þess að allir leigunotendur hafa aðgang að Power Apps-umhverfi og geta óvart spillt framleiðslugögnum þegar þeir prófa og kanna samþættingar Power Apps eða Power Automate.
+    - **Sjálfgefið Power Apps-umhverfi** - Þótt hverjum leigjanda sé sjálfkrafa úthlutað sjálfgefnu Power Apps-umhverfi mælum við ekki með því að þau séu notuð með Human Resources. Allir leigunotendur hafa aðgang að Power Apps-umhverfinu og gætu óvart skemmt framleiðslugögn þegar þeir prófa og kanna með Power Apps eða Power Automate-samþættingar.
    
-    - **Prófunarumhverfi** - Þessi umhverfi eru stofnuð með lokadegi og renna út eftir þann tíma, sem veldur því að umhverfið þitt og öll Human Resources-tilvik innan þess verða sjálfkrafa fjarlægð.
+    - **Prófunarumhverfi** - Þessi umhverfi eru búin til með lokadagsetningu. Þegar umhverfið rennur út verður það og öll tilvik Human Resources innan þess fjarlægð sjálfkrafa.
    
-    - **Óstudd svæði** Að svo stöddu er Human Resources aðeins stutt á eftirfarandi svæðum: Bandaríkjunum, Evrópu, Bretlandi, Ástralíu, Kanada eða Ástralíu.
+    - **Óstudd svæði** Að svo stöddu er Human Resources aðeins stutt á eftirfarandi svæðum: Bandaríkjunum, Evrópu, Bretlandi, Ástralíu, Kanada og Asíu.
 
     > [!NOTE]
     > Starfsumhverfi er staðsett á sama svæði þar sem Power Apps umhverfi er veitt. Ekki er hægt að flytja Human Resources umhverfi til annars svæðis.
@@ -105,4 +105,4 @@ Notaðu eftirfarandi leiðbeiningar þegar þú ákveður hvaða Power Apps-umhv
  
 ## <a name="grant-access-to-the-environment"></a>Veita aðgang að umhverfinu
 
-Að sjálfgefnu hefur altæki stjórnandinn sem bjó til umhverfið aðgang að því. Hins vegar þarf sérstaklega að veita öðrum notendum forritsins aðgang. Til að veita aðgang er nauðsynlegt að bæta við notendum og úthluta þeim viðeigandi hlutverkum í Human Resources-umhverfinu. Altæki stjórnandinn, sem virkjaði Human Resources, verður einnig að ræsa bæði Attract og Onboard til að ljúka frumstillingunni og virkja aðgang fyrir aðra leigunotendur.  Þar til þetta gerist munu aðrir notendur ekki geta opnað Attract og Onboard og fá upp villur vegna brots á aðgangi. Frekari upplýsingar má finna í [Stofna nýja notendur](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) og [Úthluta notendum á öryggishlutverk](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Að sjálfgefnu hefur altæki stjórnandinn sem bjó til umhverfið aðgang að því. Þú verður að veita sérstaklega aðgang til viðbótarnotenda forritsins. Þú verður að bæta við notendum og úthluta þeim viðeigandi hlutverkum í umhverfi Human Resources. Altæki stjórnandinn, sem virkjaði Human Resources, verður einnig að ræsa bæði Attract og Onboard til að ljúka frumstillingunni og virkja aðgang fyrir aðra leigunotendur. Þar til þetta gerist munu aðrir notendur ekki geta opnað Attract og Onboard og fá upp villur vegna brots á aðgangi. Frekari upplýsingar má finna í [Stofna nýja notendur](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) og [Úthluta notendum á öryggishlutverk](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 

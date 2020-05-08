@@ -3,7 +3,7 @@ title: Birgðalokun
 description: Sem hluti af ferlinu við að jafna úthreyfingarfærslur við innhreyfingarfærslur, er einnig hægt að velja að láta uppfæra fjárhag til að endurspegla leiðréttingarnar sem hafa verið gerðar.
 author: AndersGirke
 manager: tfehr
-ms.date: 10/24/2017
+ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83c88a5fe52e41df5a0371d6666f544996bd3c76
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9e9f0608c9afc25e7ca6657f6a2e87d088d4cbad
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201641"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3283991"
 ---
 # <a name="inventory-close"></a>Birgðalokun
 
@@ -59,11 +59,10 @@ Nokkur þeirra verka sem hægt er að framkvæma á síðunni **Lokun og leiðr�
 
 Fjárhagslyklar sem eru uppfærðir vegna þessara verka eru tengdir upphaflegu birgðafærslunni. Til dæmis ef sölupöntun er jöfnuð við innkaupapöntun verða fjárhagslyklarnir sem voru notaðir fyrir upprunalega sölupöntun leiðréttir. Þetta gerist jafnvel þó að fjárhagslyklarnir fyrir vöruflokkinn sem er úthlutaður þessari vöru hafi breyst síðan sölupöntunin var bókuð. Eftir að birgðalokun stofnar upphæð til jöfnunar, er jöfnunarupphæð samt bókuð á upprunalegu fjárhagslyklana, í staðinn fyrir þá nýju fjárhagslykla sem úthlutað var á vöruna. Einnig gæti fjárhagur verið uppfærður ef birgðalokun er bakfærð. 
 
-**Athugasemdir :**
-
--   Ekki er krafist birgðalokunar með Matsaðferð staðlaðs kostnaðar.
--   Áður en lokunarferlið er keyrt, geturðu skoðað lista yfir vörur sem ekki er hægt að jafna við uppfærslu.
--   Mælt er með því að birgðalokun sé keyrð utan háannatíma til þess að tölvubúnaðurinn nýtist betur.
+> [!NOTE] 
+> - Lokun birgða er nauðsynlegt skref í lokunarferli mánaðarins fyrir öll birgðalíkön. Þetta felur í sér venjulegan kostnað og kostnað hlaupandi meðaltals. Þú munt ekki geta lokað fjárhagstímabilinu fyrr en birgðalokun hefur verið framkvæmd frá lokadegi tímabilsins.
+> - Áður en lokunarferlið er keyrt, geturðu skoðað lista yfir vörur sem ekki er hægt að jafna við uppfærslu.
+> - Mælt er með því að birgðalokun sé keyrð utan háannatíma til þess að tölvubúnaðurinn nýtist betur.
 
 ## <a name="the-inventory-close-log"></a>birgðalokunarkladdi
 Þegar birgðalokunarferli er lokið geta komið upp skilaboð sem segja að kostnaðarverð einingar sé hugsanlega rangt því ekki hafi tekist að fulljafna færslu. 
@@ -85,7 +84,6 @@ Ef margar viðvaranir berast í skilaboðunum, er mælt með að bregðast við 
 ## <a name="reversing-a-completed-inventory-close"></a>Afturkalla birgðalokun sem lokið hefur verið við
 Í sumum tilvikum getur þurft að bakfæra birgðalokun sem hefur verið framkvæmd, og koma birgðajöfnunum aftur á það form sem þær höfðu áður en jöfnun var framkvæmd. Þegar lokin birgðalokun er bakfærð, eru birgðir enduropnaðar til að virkja bókun á tímabilinu sem nær yfir birgðalokunina. Tengdar breytingar má einnig gera í fjárhag. Þegar þú hefur lokið að gera leiðréttingar getur þú keyrt birgðaskrá aftur fyrir tímabilið sem þú ert að vinna með. 
 
-**Athugið:** Aðeins er hægt að opna aftur síðasta birgðatímabil sem var lokað. Til að bakfæra fyrri birgðalokun verður að bakfæra hverja síðari birgðalokun eina í einu, byrja á nýjustu lokuninni.
-
-
+> [!NOTE] 
+> Aðeins er hægt að opna aftur síðasta birgðatímabil sem var lokað. Til að bakfæra fyrri birgðalokun verður að bakfæra hverja síðari birgðalokun eina í einu, byrja á nýjustu lokuninni.
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: e20c9c5e1250c8e65b5642a7c45d7ae859315697
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 76e104c9ebd7db7ebcbaf214e84be6c4353e8a73
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172669"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275442"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Úrræðaleit vandamála við fyrstu uppsetningu
 
@@ -39,7 +39,7 @@ ms.locfileid: "3172669"
 
 ## <a name="you-cant-link-a-finance-and-operations-app-to-common-data-service"></a>Þú getur ekki tengt forrit Finance and Operations við Common Data Service
 
-**Nauðsynleg skilríki til að setja upp tvískipt skrifun:** Azure AD leigjandastjóri
+**Nauðsynlegt hlutverk til að setja upp tvískipt skrif:** Kerfisstjóri í Finance and Operations forritum og Common Data Service.
 
 Villur á síðunni **Setja upp tengil á Common Data Service** orsakast venjulega af ólokinni uppsetningu eða heimildavandamálum. Gakktu úr skugga um að öll ástandsskoðunin standist á síðunni **Setja upp tengil á Common Data Service** eins og sýnt er á eftirfarandi mynd. Þú getur ekki tengt tvískipt skrif nema öll ástandsskoðunin standist.
 

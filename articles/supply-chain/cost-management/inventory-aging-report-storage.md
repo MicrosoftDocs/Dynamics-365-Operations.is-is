@@ -1,5 +1,5 @@
 ---
-title: Aldursskýrsla birgða
+title: Skýrsla um aldursgreiningu birgða
 description: Þetta efni lýsir virkni sem gerir þér kleift að keyra aldursgreiningarskýrslu birgða og gera úttakið tiltækt sem form og töflu.
 author: AndersGirke
 manager: tfehr
@@ -19,24 +19,31 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 790c8fe3a52bce652227f1cef97eff6496476100
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9148a9032615222a1fdfe453488e716bacadbabc
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201621"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275580"
 ---
-# <a name="inventory-aging-report"></a>Aldursskýrsla birgða
+# <a name="inventory-aging-report-storage"></a>Skýrsla um aldursgreiningu birgða
 
 
 [!include [banner](../includes/banner.md)]
 [!include [banner](../includes/preview-banner.md)]
 
-Í Microsoft Dynamics 365 Supply Chain Management geturðu keyrt skýrsluna **Aldursgreiningu birgða** og gera úttakið tiltækt sem form og töflu. Á forminu er dálkum og samanlögðum stöðum gagnvirkt breytt, allt eftir því skipulagi sem er stillt. Grafið gefur sjónrænt yfirlit sem styður síun og gerir þér kleift að bora niður í smáatriði. Að auki gerir gagnaeining sem heitir **Aldursskýrsla birgða** þér kleift að flytja út niðurstöður skýrslunnar **Aldursgreining birgða** sem var keyrð á snið eins og Microsoft Excel-skjal eða PDF-skjal.
+Í Microsoft Dynamics 365 Supply Chain Management er hægt að keyra skýrsluna **Geymsla aldursgreiningarskýrslu birgða** og gera niðurstöðurnar tiltækar sem skjámynd og graf. Á forminu er dálkum og samanlögðum stöðum gagnvirkt breytt, allt eftir því skipulagi sem er stillt. Grafið gefur sjónrænt yfirlit sem styður síun og gerir þér kleift að bora niður í smáatriði. Að auki leyfir gagnaeining sem kölluð er **Skýrsla um aldursgreiningu birgða** að flytja út niðurstöður á keyrslu á skýrslu **Geymsla aldursgreiningarskýrslu birgða** á form eins og Microsoft Excel-skrá eða PDF-skrá.
 
-Þessi aðferð til að keyra skýrsluna **Aldursgreining birgða** er gagnlegt í tilvikum þar sem úttakið inniheldur margar línur. Til dæmis mun úttakið innihalda margar línur ef þú ert með 50.000 hluti og 300 verslanir sem eru stofnaðar sem vöruhús og þú biður um aldursgreiningu birgða eftir hlut, síðu og vörugeymslu.
+Þessi aðferð við að keyra **Geymsla aldursgreiningarskýrslu birgða** skýrslu er gagnleg í tilfellum þegar niðurstöðurnar innihalda margar línur. Til dæmis mun úttakið innihalda margar línur ef þú ert með 50.000 hluti og 300 verslanir sem eru stofnaðar sem vöruhús og þú biður um aldursgreiningu birgða eftir hlut, síðu og vörugeymslu.
 
-## <a name="run-an-inventory-aging-report"></a>Keyra aldursskýrslu birgða
+## <a name="enable-the-inventory-value-storage-report-feature"></a>Virkja eiginleika fyrir geymslu aldursgreiningarskýrslu birgða
+
+Áður en hægt er að nota þennan eiginleika þarf að virkja hann í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleika og virkja hann ef þörf krefur. Hérna er eiginleikinn skráður sem:
+
+- **Eining** - Kostnaðarstjórnun
+- **Heiti eiginleika** - Skýrsla um aldursgreiningu birgða
+
+## <a name="run-an-inventory-aging-report-storage"></a>Keyra skýrslu um aldursgreiningu birgða
 
 1. Farðu í **Kostnaðarstjórnun \> Fyrirspurnir og skýrslur \> Geymsla aldursgreiningarskýrslu birgða**.
 1. Veljið **Nýtt**.
@@ -51,4 +58,4 @@ ms.locfileid: "3201621"
     > [!NOTE]
     > Formið mun ekki innihalda millisamtölur sem eru skilgreindar í skýrsluútliti.
 
-Gagnaeiningin **Aldursskýrsla birgða** gerir þér kleift að flytja úttakið úr skýrslunni **Aldursgreining birgða** með því að beita síu fyrir reitinn **Kenni ferlis – Heiti** á hvaða snið sem gagnastjórnun styður.
+Gagnaeiningin **Skýrsla um aldursgreiningu birgða** gerir þér kleift að flytja niðurstöðurnar af **Geymsla aldursgreiningarskýrslu birgða** skýrslu út með því að nota síu fyrir reitinn **Kenni ferlis - Heiti** á hvaða snið sem gagnastjórnun styður.

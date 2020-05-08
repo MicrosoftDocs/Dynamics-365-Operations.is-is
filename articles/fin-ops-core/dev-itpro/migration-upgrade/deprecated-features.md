@@ -3,7 +3,7 @@ title: Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úr
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða áætlað að fjarlægja úr Dynamics 365 for Finance and Operations og fyrri útgáfum þeirrar vöru.
 author: sericks007
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225129"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284015"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
 
@@ -230,7 +230,7 @@ Stuðningur fyrir stofnun á verkmiðuðum sölupöntunum þar sem verksamningur
 | **Skipt út fyrir aðra eiginleika?**   | Nei. |
 | **Afurðasvæði sem haft er áhrif á**         | Vöruupplýsingastjórnun |
 | **Dreifingarvalkostur**              | Allir  |
-| **Staða**                         | Fjarlægt frá og með Finance and Operations 10.0.0. með verkvangsuppfærslu 24. (Ef og aðeins ef þú þarft að laga gögnum spillingu af völdum fyrri endurnefna aðallykils útgáfu vöru, vinsamlegast hafðu samband við þjónustudeild Microsoft til að biðja um tímabundna fjarlægingu á þessari takmörkun.) |
+| **Staða**                         | Fjarlægt frá og með Finance and Operations 10.0.0. með verkvangsuppfærslu 24.|
 
 
 ## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 með verkvangsuppfærslu 23
@@ -267,7 +267,7 @@ Innfellda afkastavísa (KPI) er hægt að þróa í Visual Studio af þróunara�
 | **Skipt út fyrir aðra eiginleika?**   | Þessi viðvörun verður skipt út fyrir þýðingarvillu í framtíðinni. |
 | **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | Úrelt: Viðvörunin verður þýðingartímavilla í framtíðinni. Þessari breytingu miðast við uppfærslur verkvangs fyrir útgáfu 10.0.11 á forritum Finance and Operations. |
+| **Staða**                         | Úrelt: Viðvörunin er þýðingartímavilla í framtíðinni með uppfærslum á verkvangi fyrir útgáfu 10.0.11 af Finance and Operations forritum. |
 
 #### <a name="complete-list"></a>Heildarlisti
 Til að fá aðgang að heildarlista afkastavísa sem verið er að úrelda skal sjá [Úrelding á aðferðum og einingum lýsigagna](deprecation-deletion-apis.md).

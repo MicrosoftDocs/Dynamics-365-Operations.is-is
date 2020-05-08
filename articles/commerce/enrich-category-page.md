@@ -3,7 +3,7 @@ title: Bæta lendingarsíðu flokks
 description: Þetta efni fjallar um auðgun flokksíðna í Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71348efba9fc1374b9e6599eb23f198d3851036e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ca31ec7d2eee7d2b0c863506338341a870ff07ee
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003051"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269844"
 ---
 # <a name="enrich-a-category-landing-page"></a>Bæta lendingarsíðu flokks
 
@@ -39,18 +39,16 @@ Commerce býður upp á sjálfgefna áfangasíðu flokks sem er notuð þegar fl
 
 ![Bætt lendingarsíða flokks](./media/CategoryLandingPages.png)
 
-Í höfundatólinu inniheldur síðan **Afurð** lista yfir flokka úr rásinni sem er úthlutað á síðuna. Ef staðan **Auðgað** er valin fyrir flokksíðu hefur sú flokksíða verið auðguð. Að öðrum kosti er sjálfgefna flokkasíðan og innihaldið notað fyrir flokkinn. Þú getur forskoðað bæði auðgaðar og óauðgaðar flokkasíður fyrir flokk með því að velja flokksheitið.
+Í svæðissmið Commerce inniheldur síðan **Vörur** lista yfir flokka frá rásinni sem er úthlutað á svæðið. Ef staðan **Auðgað** er valin fyrir flokksíðu hefur sú flokksíða verið auðguð. Að öðrum kosti er sjálfgefna flokkasíðan og innihaldið notað fyrir flokkinn. Þú getur forskoðað bæði auðgaðar og óauðgaðar flokkasíður fyrir flokk með því að velja flokksheitið.
 
 Til að auðga flokkasíðu skaltu gera eftirfarandi.
 
-1. Á síðunni **Afurðir** velurðu nafn þess flokks sem þú vilt auðga flokkasíðuna fyrir. Sjálfgefin flokksíða fyrir valinn flokk er opnuð í ritlinum.
+1. Á síðunni **Vörur** velur þú heiti flokksins sem þú vilt bæta við flokkasíðuna. Sjálfgefin flokksíða fyrir valinn flokk er opnuð í ritlinum.
 2. Veldu **Auðga flokkasíðu**.
 3. Veldu sniðmát fyrir auðgaða flokkasíðu. Ef þú ert að gera aðeins smávægilegar breytingar geturðu valið sjálfgefna flokkasíðuna. Þú getur einnig valið ákveðið sniðmát fyrir flokksíðu. Þegar þú velur sniðmátið opnast ritstjórinn og valda sniðmátið er notað til að búa til nýja flokksíðu fyrir valinn flokk. Síðan er skráð út til þín og þú getur nú gert breytingarnar.
 
 > [!NOTE]
-> Einingar sem nota flokkagerðargögn nota gögnin úr völdum flokknum.
->
-> Stillingar sniðmátsins sem þú velur ákvarða breytingar sem þú getur gert.
+> Einingar sem nota flokkagerðargögn nota gögnin úr völdum flokknum. Stillingar sniðmátsins sem þú velur ákvarða breytingar sem þú getur gert.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

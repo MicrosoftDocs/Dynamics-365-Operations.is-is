@@ -3,7 +3,7 @@ title: Búa til sérstilltar svarsíður fyrir 4xx/5xx stöðukóðunarvillur
 description: Þetta efnisatriði lýsir því hvernig á að búa til sérsniðnar svarsíður fyrir villur í 4xx og 5xx stöðukóða með því að nota höfundatólin í Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4477a0a43971b5322c6acd6971cba2e79e2dc8c6
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001131"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269545"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Búa til sérstilltar svarsíður fyrir 4xx/5xx stöðukóðunarvillur
 
@@ -46,19 +46,21 @@ Fylgdu þessum skrefum til að byrja að búa til villusvörunarsíðu með stö
 
 Fylgdu þessum skrefum til að byrja að búa til sniðmát fyrir villusvörunarsíðu með stöðukóða.
 
-1. Farðu í **Sniðmát \> Nýtt sniðmát**.
-1. Gefðu nýja sniðmátinu heiti.
+1. Farðu í **Sniðmát**.
+1. Veljið **Ný** til að stofna nýtt síðusniðmát.
+1. Í svarglugganum **Nýtt sniðmát** undir **Heiti sniðmáts** skaltu slá inn heiti fyrir nýja sniðmátið og velja síðan **Í lagi**.
 1. Búðu til sniðmát, byggt á uppbyggingunni sem þú vilt að villusvörunarsíða stöðukóðans hafi.
-1. Skráðu sniðmátið inn og birtu það.
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það. 
 
 ### <a name="build-the-status-code-error-response-page"></a>Búðu til síðu viðbragðsstöðu við villukóða
 
 Fylgdu þessum skrefum til að búa til villusvörunarsíðu með stöðukóða.
 
-1. Farðu á **Síður \> Ný síða**.
-1. Nefndu villusvörusíðu stöðukóða, en stilltu **ekki** reitinn **Vefslóð**.
+1. Fara á **Síður**.
+1. Veljið **Ný** til að búa til síðu.
+1. Í svarglugganum **Veljið sniðmát** skal velja sniðmát og svo, undir **Síðuheiti** skal slá inn heiti fyrir svarsíð stöðukóðavillunnar. Skildu reitinn **Vefslóð síðu** eftir auðann.
 1. Búðu síðuna til.
-1. Skráðu síðuna inn og birtu hana.
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila síðunni og veldu síðan **Birta** til að birta hana.
 
 > [!NOTE]
 > Þú getur búið til aðskildar svörunarsíður stöðukóða fyrir stöðukóðavillur 4xx og 5xx. Að öðrum kosti er hægt að nota sömu svörunarsíðu með almennum stöðukóða fyrir báða villuflokkana.

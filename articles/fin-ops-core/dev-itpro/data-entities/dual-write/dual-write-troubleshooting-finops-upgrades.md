@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 59384d8e8d043eb14231a471c7218ced2dddf739
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 53df00de82b101aa02160d865a9c3bbebcfcae15
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172878"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275465"
 ---
 # <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Úrræðaleit vandamál sem tengjast uppfærslu á forritum Finance and Operations
 
@@ -85,9 +85,8 @@ Ef málið er enn ekki lagað skaltu fylgja þessum skrefum.
 > Þessi skref leiðbeina þér í gegnum ferlið við að eyða einingu og bæta henni síðan við aftur. Vertu viss um að fylgja leiðbeiningunum nákvæmlega til að forðast vandamál.
 
 1. Í forriti Finance and Operations ferðu í **Vinnusvæði \> Gagnastjórnun** og velur reitinn **Gagnaeiningar**.
-2. Finndu eininguna sem vantar reitinn. Skrifaðu mið af einingunni, stigatöflu, heiti einingarinnar og öðrum dálkagildum.
-3. Ef einhver af vinnsluhópunum þínum er háður þessari einingu, gerðu viðeigandi ráðstafanir fyrir vinnsluhópana áður en þú eyðir einingunni.
-4. Eyddu einingunni sem vantar reitinn.
-5. Veldu **Nýtt** og bættu einingunni aftur við. Tilgreindu gildin sem þú tókst eftir í skrefi 2.
-6. Opnaðu síðuna **Vörpun eininga** af síðunni **Tvöfalt skrif** í forriti Finance and Operations.
-7. Veldu **Uppfæra einingalista** til að fylla sjálfkrafa reitina í vörpunum eininga.
+2. Finndu eininguna sem vantar eigindina. Smelltu á **Breyta markvörpun** á tækjastikunni.
+3. Á **Varpa sviðsetningu á mark** svæðinu skaltu smella á **Búa til vörpun**.
+4. Opnaðu síðuna **Vörpun eininga** af síðunni **Tvöfalt skrif** í forriti Finance and Operations.
+5. Ef vörpunin býr ekki sjálfkrafa til eigindina skaltu bæta henni við með því að smella á **Bæta við eigind** hnappinn og svo **Vista**. 
+6. Veldu vörpunina og smelltu á **Keyra**.

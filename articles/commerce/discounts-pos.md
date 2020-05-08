@@ -19,17 +19,16 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 54201de6b242f8100c19a78468476a6308b1b18a
-ms.sourcegitcommit: 5554b3abb4365666992efad692ae28e943faebd4
+ms.openlocfilehash: 89f7b79733f01c089a16c507b127b23ada5df1a6
+ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3116557"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3265584"
 ---
 # <a name="show-discounts-in-pos"></a>Sýna afslátt í POS
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Kynningar gegna mikilvægu hlutverki við að hvetja viðskiptavini sem taka ákvarðanir um kaup. Sem dæmi má nefna að frí geta framleitt mesta sölu fyrir smásala, vegna þess að allur smásölumarkaðurinn fyllist af lokkandi kynningum og afslætti. Ef verslunaraðilar vita um og skilja kynningarnar sem eru í boði geta þeir auðveldlega nýtt sér þessar kynningar til að krossselja og viðbótarselja vörur. Þetta efni útskýrir hvernig Microsoft Dynamics 365 Commerce hjálpar söluaðilum að fræðast um kynningar og hvernig hægt er að nota þær til að selja og viðbótarselja áætlanir.
 

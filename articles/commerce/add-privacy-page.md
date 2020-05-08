@@ -3,7 +3,7 @@ title: Bæt við síðu persónuverndarstefnu
 description: Þetta efni lýsir því hvernig á að bæta síðu persónuverndarstefnu við á vefsvæði í Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 01/08/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ee9a68f46c91299065732e5f65479906f9e06079
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 59a2d9712a73c607cf5521f8e79e8e2558854fc4
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001324"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274212"
 ---
 # <a name="add-a-privacy-policy-page"></a>Bæt við síðu persónuverndarstefnu
 
@@ -54,36 +54,33 @@ Til að hefjast handa skaltu í höfundatækjunum fara á síðuna sem þú vilt
 
 Fylgið eftirfarandi skrefum til að stofna sniðmát.
 
-1. Farðu í **Sniðmát \> Nýtt sniðmát**.
-1. Sláðu inn heiti sniðmáts og veldu síðan **Í lagi**.
-1. Í sniðmátinu skaltu bæta við þeim einingum sem þarf í þar til gerð hólf á síðunni. Til leiðbeiningar skaltu halda músabendlinum yfir rauðu upphrópunarmerkjunum.
-
-    Til dæmis kann hólfið **HTML-haus** að krefjast einingarinnar **Sjálfvirk ytri forskrift**.
-
+1. Farðu í **Sniðmát** og veldu síðan **Nýtt** til að búa til síðusniðmát.
+1. Í svarglugganum **Nýtt sniðmát** undir **Heiti sniðmáts** skaltu slá inn **Sniðmát tilboðsborða** og velja síðan **Í lagi**.
+1. Í sniðmátinu skaltu bæta við þeim einingum sem þarf í þar til gerð hólf á síðunni. Til leiðbeiningar skaltu halda músabendlinum yfir rauðu upphrópunarmerkjunum. (Til dæmis gæti hólfið **HTML-haus** þurft eininguna **Sjálfgefin ytri forskrift**.)
 1. Í hólfinu **Meginmál** bætirðu við einingunni **Sjálfgefin síða**.
 1. Í einingunni **Sjálfgefin síða**, í hólfinu **Aðal**, skaltu bæta við einingunni **Bálkur með fjölbreyttu efni**.
 1. Í einingunni **Bálkur með fjölbreyttu efni** skaltu bæta við einingunni **Bálkaliður með fjölbreyttu efni**.
-1. Skráðu sniðmátið inn og birtu það.
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
 
 ### <a name="build-a-privacy-policy-page"></a>Byggja upp síðu persónuverndarstefnu
 
 Fylgdu þessum skrefum til að byggja upp persónuverndarstefnusíðu.
 
-1. Farðu á **Síður \> Ný síða**.
-1. Veldu sniðmát fyrir persónuverndarstefnusíðuna.
-1. Sláðu inn heiti og slóð síðu og veldu síðan **Í lagi**. 
+1. Farðu á **Síður** og veldu **Ný** til að búa til síðu.
+1. Í svarglugganum **Velja sniðmát** skal velja sniðmátið fyrir síðu persónuverndarstefnu.
+1. Sláðu inn síðuheiti og vefslóð síðu og veldu síðan **Í lagi**. 
 1. Í hólfinu **Aðal** á síðunni bætirðu við einingunni **Bálkur með fjölbreyttu efni**.
 1. Í einingunni **Bálkur með fjölbreyttu efni** skaltu bæta við einingunni **Bálkaliður með fjölbreyttu efni**.
 1. Í eiginleikaglugganum fyrir eininguna **Bálkur með fjölbreyttu efni** velurðu **Bæta við gagnagjafa** og velur síðan **RTF-efni**.
 1. Sláðu inn innihaldið fyrir persónuverndarstefnusíðuna í RTF-ritlinum. Stækkaðu textaritilinn í fulla skjástillingu eftir þörfum.
 1. Þegar þú hefur lokið við að slá inn efni skaltu velja **Forskoðun** til að forskoða síðuna í vafranum.
 1. Ljúktu öllu eftirstandandi viðbætum við síðuna og einingareiginleikana.
-1. Skráðu persónuverndarsíðuna inn og birtu hana.
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila síðunni og veldu síðan **Birta** til að birta hana.
 
 Til að birta slóðina fyrir persónuverndarstefnusíðuna skaltu fylgja þessum skrefum.
 
 1. Farðu á **Vefslóðir** og veldu slóðina fyrir persónuverndarstefnusíðuna.
-1. Birtu valda slóð.
+1. Veldu **Birta** til að birta valda vefslóð.
 
 ### <a name="create-a-link-to-the-privacy-policy-page-in-a-footer"></a>Búðu til tengil á persónuverndarstefnusíðu í síðufæti
 
@@ -91,15 +88,14 @@ Til að birta slóðina fyrir persónuverndarstefnusíðuna skaltu fylgja þessu
 
 Til að bæta tengli við síðufótarbrot skaltu fylgja þessum skrefum.
 
-1. Farðu í **Síðubrot \> Ný síðubrot**.
-1. Veldu eininguna **Síðufótur** og sláðu síðan inn heiti í reitinn **Heiti blaðbrots**.
+1. Farðu í **Síðubrot** og veldu síðan **Nýtt** til að búa til síðubrot.
+1. Í svarglugganum **Nýtt síðubrot** skal velja eininguna **Síðufótur**.
+1. Undir **Heiti síðubrots** slærðu inn heiti fyrir brotið og veldu síðan **Í lagi**.
 1. Í hólfinu **Síðufótaflokkur** bætirði við einingunni **Neðanmálsatriði**.
 1. Í eiginleikaglugganum til hægri velurðu **Tengja texta**.
 1. Í glugganum **Tengja texta** skal slá inn tenglatextinn og tengja mark persónuverndarstefnunnar og smella síðan á **Í lagi**.
-
-    Til að fá slóðina á persónuverndarstefnusíðuna ferðu á **Síður**, farðu svo á persónuverndarstefnusíðuna og afritaðu slóðina úr eignarrúðunni.
-
-1. Vistaðu brotið, skráðu það inn og gefðu það út.
+1. Til að fá slóðina á persónuverndarstefnusíðuna ferðu á **Síður**, farðu svo á persónuverndarstefnusíðuna og afritaðu slóðina úr eignarrúðunni.
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila brotinu og veldu síðan **Birta** til að birta það.
 1. Forskoðaðu brotið og prófaðu hlekkinn á persónuverndarstefnusíðuna.
 
 Nú er hægt að vísa í brotið í sniðmátinu fyrir aðrar vefsíður. Þegar vísað er í þetta brot í einingunni **Síðufótur** í sniðmáti mun tilvísun tengilsins birtast á öllum síðum sem eru smíðaðar með því sniðmáti.
@@ -110,4 +106,6 @@ Nú er hægt að vísa í brotið í sniðmátinu fyrir aðrar vefsíður. Þega
 
 [Aðgengiseiginleikar og -geta](accessibility.md)
 
-[Kökusamræmi](cookie-compliance.md)
+[Reglufylgni köku](cookie-compliance.md)
+
+[Skipta um notandakenni sem tengjast röktum efnisbreytingum](replace-IDs-tracked-changes.md)

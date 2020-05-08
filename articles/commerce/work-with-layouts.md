@@ -3,7 +3,7 @@ title: Vinna með forstillt útlit
 description: Þetta efni lýsir því hvernig á að vinna með forstillt skipulag í Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c8149c6e443c77dabfa641a698c931176bedbc98
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: f31dfa1fdbb3732610748abe4a9de851033f2b89
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002637"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269890"
 ---
 # <a name="work-with-preset-layouts"></a>Vinna með forstillt útlit
 
@@ -44,7 +44,7 @@ Tvær aðferðir eru við að stofna forstillt skipulag. Þú getur vistað núv
 Til að stofna forstillt skipulag úr núverandi sérsniðnu skipulagi skaltu fylgja þessum skrefum.
 
 1. Opnaðu fyrirliggjandi síðu sem notar ekki forstillt skipulag eins og er og sem er með einingarskipulag sem þú vilt endurnýta fyrir aðrar síður á vefsvæðinu.
-1. Velja **Skrá út**.
+1. Veldu **Breyta** til að skoða síðuna.
 1. Veldu **Vista sem nýtt útlit**. Valmyndin **Vista sem nýtt skipulag** birtist.
 1. Sláðu inn heiti og lýsingu fyrir forstillta skipulagið. Gildin sem þú slærð inn verða sýnd öðrum höfundum þegar þeir búa til nýjar síður úr útliti þínu eða skipta yfir í það. Sláðu því inn gildi sem munu nýtast síðuhöfundum.
 1. Veljið **Í lagi**.
@@ -91,14 +91,14 @@ Fylgdu þessum skrefum til að stilla eða breyta þema fyrir allar undirsíður
 Til að vista og skrá inn forstillt skipulag skal fylgja þessum skrefum.
 
 1. Veldu **Vista** efst í skipulagsritli. Vistaðar breytingar hafa ekki áhrif á forstreymissíðum fyrr en þær eru skráðar inn.
-1. Veldu **Skrá inn**. Nú er hægt að uppgötva breytingarnar fyrir forstreymisflæði.
+1. Veldu **Ljúka við breytingar**. Nú er hægt að uppgötva breytingarnar fyrir forstreymisflæði.
 
 Til að forskoða breytingarnar skaltu annaðhvort opna fyrirliggjandi síðu sem notar forstillt skipulag eða búa til nýja síðu úr skipulaginu.
 
 Eftir að þú hefur forskoðað breytingarnar á forstilltu skipulagi skaltu fylgja einu af þessum skrefum til að birta skipulagið á lifandi vefsvæði:
 
 * Farðu í **Skipulag**, veldu skipulagið og veldu síðan **Birta**.
-* Í skipulagsritlinum velurðu **Birta**.
+* Veldu útlitsheiti til að opna útlitsritil og veldu svo **Birta**.
 * Birta síðu sem vísar til óbirta skipulagsins. Skipulagið verður sjálfkrafa birt.
 
 > [!WARNING]

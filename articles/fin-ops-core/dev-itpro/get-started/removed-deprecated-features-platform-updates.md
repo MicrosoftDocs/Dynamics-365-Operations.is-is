@@ -3,7 +3,7 @@ title: Fjarlægðir eða úreltir eiginleikar verkvangs
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í verkvangsuppfærslum á forritum Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0072ca507301fdb880f0595a06377ff01366ca20
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: f6365d42de5d19d960641f188cb6052ef07d721f
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260530"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268748"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fjarlægðir eða úreltir eiginleikar verkvangs
 
@@ -46,7 +46,7 @@ ms.locfileid: "3260530"
 | **Skipt út fyrir aðra eiginleika?**   | Þessi þýðingarvilla kemur í staðinn fyrir viðvörun þýðandans.  |
 | **Afurðasvæði sem haft er áhrif á**         | Visual Studio þróunarverkfæri |
 | **Dreifingarvalkostur**              | Allir |
-| **Staða**                         | **Afskrifað:** Viðvörun þýðandans er nú þýðingarvilla í uppfærslum vettvangs fyrir útgáfu 10.0.11 á forritum Finance and Operations. |
+| **Staða**                         | **Úrelt:** Viðvörunin er þýðingartímavilla í framtíðinni með uppfærslum á verkvangi fyrir útgáfu 10.0.11 af Finance and Operations forritum. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>ISV leyfi búin til með því að nota endamerkja reikniritið SHA1
 

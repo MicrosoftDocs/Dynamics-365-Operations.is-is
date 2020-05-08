@@ -19,22 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 4adb2c8d57ad8f67346b8d34212b7a4b0bd052ab
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 9ae14703941b97308bca5845eeac3eb9b181ae75
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173132"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275488"
 ---
 # <a name="entity-dependency-chain-synchronization-order"></a>Ósjálfstæð keðja einingar (samstillingarröð)
 
 [!include [banner](../../includes/banner.md)]
 
-
-
-Í eftirfarandi töflum eru einingarnar skráðar í þeirri röð sem ætti að virkja þá. Þegar þú gerir kort virkt fyrir fyrstu samstillingu finna tvöföld skrif sjálfkrafa önnur kort sem verður að vera virk. Þú getur notað síðuna **Tvöföld skrif** í forritum Finance and Operations til að velja eða hætta við val á einingum við fyrstu samstillingu.
-
-Í nýjustu útgáfunni af tvískiptri skrifun er hægt að virkja aðeins sumar einingar og tengsl eru meðhöndluð fyrir þig.
+Þetta efnisatriði tilgreinir röð samstillingarinnar sem þú verður að fylgja til að búa til upphafsgögnin ef þú ert ekki að nota einingatengsl frá eiginleikanum **fyrsta samstilling**. Ef þú ert ekki að nota **fyrstu samstillingu**, verður þú að keyra hvert einingakort fyrir sig.
 
 ## <a name="dynamics-365-supply-chain-management-entities"></a>Dynamics 365 Supply Chain Management einingar
 

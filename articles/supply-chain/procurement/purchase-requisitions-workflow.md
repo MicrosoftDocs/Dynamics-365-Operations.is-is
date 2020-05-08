@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a3d0b6c4ef9e6f21e1542bece9046e98edcab6b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5cbf313666e03c0006bee985bcf622a20ce4e51
+ms.sourcegitcommit: f1bef1cb4b3d2c9261e89820d624e4b0fe60d25c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207834"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3281510"
 ---
 # <a name="purchase-requisition-workflow"></a>Verkflæði fyrir innkaupabeiðni
 
@@ -85,6 +85,9 @@ Eftirfarandi dæmi sýnir hvernig einstakar innkaupabeiðnilínur má setja í l
 3.  Stjórnandi línu umsækjandans fer yfir innkaupabeiðnilínurnar og samþykkir þær. Samþykktin gæti verið sett í leið til stjórnanda umsækjanda ef, til dæmis, upphæð innkaupabeiðnilínu fer yfir eyðsluþak umsækjanda við fyrir innkaupabeiðnilínur. Stjórnanda getur samþykkja eða hafnað einni eða báðum í innkaupapöntunarlínum.
 4.  Deildarstjóri fyrir markaðsdeild endurskoðar innkaupabeiðnilínur fyrir bæði veggspjöld og stuttermaboli. Deildarstjóri söludeildar fer yfir innkaupabeiðnilínu aðeins fyrir veggspjöld, þar sem það er eini kostnaður sem er gjaldfæra í söludeild.
 5.  Stjórnandi hópsins fer yfir og samþykkir innkaupabeiðnilínu fyrir stuttermaboli aðeins ef krafist er samþykkis stjórnandi hóps vegna, til dæmis, upphæð á línu innkaupabeiðninnar er hærri en í samþykkistakmörk deildarstjóra. Hópstjóri þarf ekki að samþykkja innkaupabeiðnilínu á veggspjöld.
+
+> [!NOTE]
+> Stilla þarf kerfisgjaldmiðilinn ef verkflæði fyrir haus fyrir innkaupabeiðni krefst samþykkis sem tengist ráðningartakmörkunum.
 
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>Skilgreina verkflæði fyrir innkaupabeiðnir
 Til að vísa innkaupabeiðnina til endurskoðunar, þarf að skilgreina ferli verkflæðiferli innkaupabeiðninnar. Verkflæðisskilgreiningin sem þú skilgreinir stjórnar samspilinu milli notandans sem bað um vörurnar (umsækjandans) og yfirlesarans og samþykkjandans í verkflæðinu. Leið sem innkaupabeiðnin fer fer eftir skilyrðum sem eru tilgreind í verkflæðisskilgreiningunni. Til dæmis þessara skilyrða ákvarða hvenær innkaupabeiðnir ætti að setja í leið, notandi eða hlutverk sem ætti að leiða hana til, og aðgerðir sem notendur geta framkvæmt.  

@@ -22,32 +22,6 @@
                   href: get-started/whats-new-platform-update-33.md
                 - name: Platform update 32 (febrúar 2020)
                   href: get-started/whats-new-platform-update-32.md
-                - name: Platform update 31 (janúar 2020)
-                  href: get-started/whats-new-platform-update-31.md
-                - name: Platform update 30 (nóvember 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-30.md
-                - name: Platform update 29 (október 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-29.md
-                - name: Platform update 28 (júlí 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-28.md
-                - name: Platform update 27 (júní 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-27.md
-                - name: Platform update 26 (maí 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-26.md
-                - name: Platform update 25 (apríl 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-25.md
-                - name: Platform update 24 (mars 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-24.md
-                - name: Platform Update 23 (janúar 2019)
-                  href: ../fin-ops/get-started/whats-new-platform-update-23.md
-                - name: Platform Update 22 (desember 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-22.md
-                - name: Platform update 21 (nóvember 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-21.md
-                - name: Platform update 20 (september 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-20.md
-                - name: Platform update 15 (mars 2018)
-                  href: ../fin-ops/get-started/whats-new-platform-update-15.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Platform eiginleikar sem hafa verið fjarlægðir eða eru úreltir
@@ -104,7 +78,9 @@
               href: dev-tools/exclude-test-packages.md
             - name: Stjórna líkönum þriðju aðila og keyrslupökkum með upprunastýringu
               href: dev-tools/manage-runtime-packages.md
-            - name: Uppfæra útgáfur af líkönum í sjálfvirkum smíðum
+            - name: Alhliða virkjanlegir pakkar
+              href: dev-tools/aio-deployable-packages.md
+            - name: Uppfæra útgáfur af líkönum í sjálfvirkri smíð
               href: dev-tools/version-models-build.md
         - name: Samþætting gagna
           items:
@@ -526,7 +502,7 @@
                       href: lifecycle-services/reconfigure-environment.md
                     - name: Setja uppsetningar á staðnum aftur upp
                       href: deployment/redeploy-on-prem.md
-                    - name: Fjarlægja og setja upp AOS-hnút
+                    - name: Fjarlægja og setja upp AOS-hnút eða bæta honum við
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: Nota sama AD FS tilvik aftur fyrir mörg umhverfi
                       href: deployment/onprem-reuseadfs.md

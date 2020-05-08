@@ -3,7 +3,7 @@ title: Vinna með sniðmát
 description: Þetta efni lýsir því hvernig á að vinna með sniðmát í Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 815565dd203925fa0acca9336c4ddc56db8c4058
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a3fc4259a76f6edcfaa0b8f6e08292477c6c0835
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002568"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269867"
 ---
 # <a name="work-with-templates"></a>Vinna með sniðmát
 
@@ -132,14 +132,14 @@ Fylgið eftirfarandi skrefum til að bæta forskrift við sniðmát.
 Til að vista sniðmát og skrá það inn skal fylgja þessum skrefum.
 
 1. Veldu **Vista** efst í sniðmátsritli. Vistaðar breytingar hafa ekki áhrif á forstreymissíðum fyrr en þær eru skráðar inn.
-1. Veldu **Skrá inn**. Nú er hægt að uppgötva breytingarnar fyrir forstreymisflæði.
+1. Veldu **Ljúka við breytingar**. Nú er hægt að uppgötva breytingarnar fyrir forstreymisflæði.
 
 Til að forskoða breytingarnar skaltu annaðhvort opna fyrirliggjandi síðu sem notar sniðmátið eða búa til nýja síðu úr sniðmátinu.
 
 Eftir að þú hefur forskoðað breytingarnar á sniðmátinu skaltu fylgja einu af þessum skrefum til að birta sniðmátið á lifandi vefsvæði:
 
 * Farðu í **Sniðmát**, veldu sniðmátið og veldu síðan **Birta**.
-* Í sniðmátsritlinum velurðu **Birta**.
+* Veldu útlitsheiti til að opna útlitsritil og veldu svo **Birta**.
 * Birta síðu sem vísar til óbirta sniðmátsins. Sniðmátið er sjálfkrafa birt.
 
 > [!WARNING]

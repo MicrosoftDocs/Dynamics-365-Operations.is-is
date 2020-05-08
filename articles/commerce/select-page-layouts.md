@@ -3,7 +3,7 @@ title: Velja síðuútlit
 description: Þetta efni útskýrir hvernig á að búa til og velja síðuútlit í Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a3e8efcdc236911ac79007c606d5d1da56f6c424
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0cbcba7ce4f40298e0f2665fa811b125f11e9490
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002775"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269913"
 ---
 # <a name="select-page-layouts"></a>Velja síðuútlit
 
@@ -39,7 +39,7 @@ ms.locfileid: "3002775"
 Fylgdu þessum skrefum til að búa til útlit fyrir fyrirliggjandi síðu.
 
 1. Farðu á **Síður** og finndu fyrirliggjandi síðu á listanum. Notaðu leitareiginleikann eins og þú vilt.
-1. Veldu síðuna, skráðu hana út og veldu síðan til að opna hana. Skráið niður einingaröðina.
+1. Veldu síðuna, veldu **Breyta** til að athuga það og veldu síðan síðuheitið til að opna hana. Skráið niður einingaröðina.
 1. Veldu **Vista sem nýtt útlit**.
 1. Sláðu inn nafn fyrir útlitið og veldu síðan **Í lagi**.
 1. Veldu **Umbreyta í innfellt skipulag**.
@@ -47,6 +47,7 @@ Fylgdu þessum skrefum til að búa til útlit fyrir fyrirliggjandi síðu.
 1. Veldu **Vista sem nýtt útlit**.
 1. Sláðu inn nafn fyrir útlitið og veldu síðan **Í lagi**.
 1. Veldu **Breyta skipulagi**, veldu fyrsta skipulagið sem þú bjóst til og veldu síðan **Í lagi**. Skráið niður einingaröðina. Breyttu því þannig að það passi við einingapöntunina sem var vistuð með skipulaginu.
+1. Veldu**Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana. 
 
 ## <a name="select-a-different-layout-for-an-existing-page"></a>Veldu annað skipulag fyrir núverandi síðu
 
@@ -56,9 +57,10 @@ Fylgdu þessum skrefum til að búa til útlit fyrir fyrirliggjandi síðu.
 Fylgdu þessum skrefum til að velja annað skipulag fyrir fyrirliggjandi síðu.
 
 1. Farðu á **Síður** og finndu fyrirliggjandi síðu á listanum. Notaðu leitareiginleikann eins og þú vilt.
-1. Veldu síðuna, skráðu hana út og veldu síðan til að opna hana.
+1. Veldu síðuna, veldu **Breyta** til að athuga það og veldu síðan síðuheitið til að opna hana.
 1. Velja **Breyta útliti**.
 1. Veldu nýja skipulag síðunnar og veldu síðan **Í lagi**. Síðuritillinn er endurnýjaður til að sýna nýja skipulagið.
+1. Veldu**Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

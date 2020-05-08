@@ -3,7 +3,7 @@ title: Lífsferilsstöður viðhaldsbeiðni
 description: Þetta efnisatriði lýsir því hvernig á að setja upp líftímastöður viðhaldsbeiðna í eignastjórnun.
 author: josaw1
 manager: tfehr
-ms.date: 07/26/2019
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1e4412af0619b57467b5bcba75ea7259604d1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 08c45742b064f3a13a0ea2704f8873b9c53aad4e
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209008"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275627"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Lífsferilsstöður viðhaldsbeiðni
 
@@ -44,10 +44,10 @@ Líftímastöður viðhaldsbeiðna skilgreinir stigin sem beiðni getur farið �
     Á flýtiflipanum **Upplýsingar** sýnir reiturinn **Líftímalíkön** fjölda líftímalíkana viðhaldsbeiðna sem nota þessa líftímastöðu.
 
 5. Á flýtiflipanum **Almennt**, stilltu **Virkur** kostur á **Já** ef viðhaldsbeiðni ætti að vera virk meðan hún er í þessari líftímastöðu.
-6. Stilltu valkostinn **Setja raunverulegan endi** á **Já** ef sjálfkrafa ætti að slá inn raunverulegan lokadag og tíma í viðhaldsbeiðni sem er í þessu líftímastöðu.
+6. Stilltu valkostinn **Stilla raunveruleg lok** á **Já** ef sjálfkrafa ætti að slá inn raunverulegan lokadag og tíma í viðhaldsbeiðni í þessari líftímastöðu.
 7. Stilltu valkostinn **Stofna verkbeiðni** á **Já** ef hægt er að búa til verkbeiðni út frá viðhaldsbeiðni sem er í þessu líftíma ástand.
 8. Stilltu **Eyða** kostur á **Já** ef hægt er að eyða viðhaldsbeiðni meðan hún er í þessu líftíma ástand.
-9. Á flýtiflipanum **Uppfæra** eru valkostirnir **Á innleið** og **Á útleið** í hlutanum **Eignir** eru viðeigandi ef þú notar Depot Repair.cSetjið viðeigandi valkost til **Já** ef sjálfstætt líftíma eigna sem eru valdar í viðhaldsbeiðni ætti sjálfkrafa að uppfæra í **Á innleið** eða **Á útleið** þegar líftíma viðhaldsbeiðni vegna viðhaldsbeiðninnar er stillt á **Á innleið** eða **Á útleið**.
+9. Á flýtiflipanum **Uppfærsla** eiga valkostirnir **Á innleið** og **Á útleið** í hlutanum **Eign** við ef þú notar viðgerð á útibúi. Stilltu viðeigandi valmöguleika á **Já** ef líftímastaða eigna sem eru valdar í viðhaldsbeiðni ætti sjálfkrafa að vera uppfærður í **Á innleið** eða **Á útleið** þegar líftímastaða viðhaldsbeiðninnar er stillt á **Á innleið** eða **Á útleið**.
 
 Eftirfarandi mynd sýnir dæmi um síðuna **Líftímastöður viðhaldsbeiðna**.
 

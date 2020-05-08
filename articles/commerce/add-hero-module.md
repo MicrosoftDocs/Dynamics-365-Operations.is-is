@@ -3,7 +3,7 @@ title: Innihaldsbálkseining
 description: Þetta efni fjallar um innihaldsbálseiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f91de93ce5ed4813f9f2adbe7678229189b5af2f
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: daf9193a7fdc3b57defbb3250ae902f6eb6ee6c4
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025759"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269683"
 ---
 # <a name="content-block-module"></a>Innihaldsbálkseining
 
@@ -79,10 +79,10 @@ Eftirfarandi mynd sýnir dæmi um innihaldsbálkseiningu með eiginleikauppsetni
 
 Fylgdu þessum skrefum til að bæta hetjueiningu við nýja síðu og stilla nauðsynlega eiginleika.
 
-1. Farðu í **Sniðmát** og búðu til síðusniðmát sem heitir **innihaldsbálkssniðmát**.
+1. Farðu í **Sniðmát** og búðu til síðusniðmát sem heitir **Sniðmát útilokunar á efni**.
 1. Í hólfinu **Aðal** á sjálfgefnu síðunni bætirðu við hetjueiningu.
-1. Skráðu brotið út í sniðmátinu og birtu það.
-1. Notaðu hetjusniðmátið sem þú bjóst til til að búa til síðu sem heitir **innihaldsbálkssíða**.
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
+1. Notaðu sniðmátið fyrir aðalsíðuna sem þú varst að búa til, til að búa til síðu sem heitir **Síða útilokunar á efni**.
 1. Í hólfinu **Aðal** á sjálfgefnu síðunni velurðu úrfellingarhnappinn (**...**) og velur síðan **Bæta við einingu**.
 1. Í valmyndinni **Bæta við einingu** undir **Velja einingar** velurðu hetjueiningu og velur síðan **Í lagi**.
 1. Veldu innihaldsbálkseininguna í útlínutrénu til vinstri.
@@ -93,14 +93,14 @@ Fylgdu þessum skrefum til að bæta hetjueiningu við nýja síðu og stilla na
 1. Veldu **Bæta við tengli**.
 1. Í valmyndinni **Tengill** bætirðu við texta, slóð og ARIA-merki fyrir tengilinn og velur síðan **Í lagi**.
 1. Veldu skipulagið **Hetja**.
-1. Vistaðu síðuna og forskoðaðu breytingarnar.
-1. Athuga á síðunni og birtu hana.
+1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna.
+1. Veldu **Ljúka við breytingar** til að athuga með sniðmátið og veldu síðan **Birta** til að birta það. 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit byrjendaeiningar](starter-kit-overview.md)
 
-[Kynningarborðaeining](add-alert.md)
+[Tilboðsborðaeining](add-alert.md)
 
 [Myndaræmueining](add-carousel.md)
 

@@ -3,7 +3,7 @@ title: Yfirlitssíða fjárhagsskýrslugerðar
 description: Þetta efnisatriði lýsir hvar á að opna fjárhagslegar skýrslugerð í Microsoft Dynamics 365 Finance og hvernig á að nota getu fjárhagsskýrslugerðar. Inniheldur lýsing á sjálfgefið fjárhagsskýrslur sem er veitt.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01fcc7c4f3e1eb7aadfc93b120cd57e62077d0c0
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 6cd77e22f9c6f90f6aa9934d70a121008e1274dd
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249061"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262650"
 ---
 # <a name="financial-reporting-overview"></a>Yfirlitssíða fjárhagsskýrslugerðar
 
@@ -83,13 +83,15 @@ Eftir að°notanda er bætt við eða hlutverki er breytt, á notandinn að geta
 ## <a name="report-deletions-and-expirations"></a>Tilkynna eyðingu og fyrningu
 Notendur sem búa til skýrslu geta eytt eigin skýrslum. Notendur með skylduna **Vinna með öryggi fjárhagsskýrslna** geta eytt skýrslum annarra. 
 
-Frá og með útgáfu 10.0.7 hefur hugtakið yfir fyrningardagsetningar verið kynnt. Nýr lögboðinn eiginleiki verður gerður virkur í vinnusvæðinu eiginleikastjórnunar. Þessi eiginleiki inniheldur eftirfarandi breytingar:
+Í útgáfu 10.0.8 hefur hugtak lokadaga verið kynnt. Nýr nauðsynlegur eiginleiki verður gerður virkur á síðunni **Allt** á vinnusvæði eiginleikastjórnunar. Eiginleikinn **Varðveislureglur fjárhagsskýrslu** inniheldur eftirfarandi breytingar:
 * Nýlega myndaðar skýrslur verða sjálfkrafa merktar með lokadag sem er 90 dagar frá því þær eru myndaðar
-* Allar fyrirliggjandi skýrslur frá því áður en eiginleikinn var settur upp munu fá 90 daga gildistímabil. Dagsetningin kann að birtast auð í stuttan tíma þar til þjónustan Financial Reporting er í gangi, skýrsla er búin til og þjónustan framkvæmir uppfærsluna á fyrirliggjandi skýrslum með auðan lokadag. 
-* Notendur með **Vinna með öryggi fjárhagsskýrslna** hafa aðgang að þessari virkni. Sérhver notandi í skyldunni **Vinna með fjárhagsskýrslu** sem er veitt réttindin **Vinna með gildistíma fjárhagsskýrslu** munu einnig geta breytt gildistíma. Nú eru tveir valkostir varðandi varðveislu í boði - 
-  * 90 daga gildistími
-  * Valkostur til að stilla skýrsluna á að fyrnast aldrei
-
+* Lokadagur allra fyrirliggjandi skýrslna áður en eiginleikinn var settur upp er 90 dagar. Dagsetningin kann að birtast auð í stuttan tíma þar til þjónustan Financial Reporting er í gangi, skýrsla er búin til og þjónustan framkvæmir uppfærsluna á fyrirliggjandi skýrslum með auðan lokadag. 
+* Notendur sem **Vinna með öryggi fjárhagsskýrslna** hafa aðgang að þessum eiginleika. Sérhver notandi í skyldunni **Vinna með fjárhagsskýrslu** sem er veitt réttindin **Vinna með gildistíma fjárhagsskýrslu** munu einnig geta breytt gildistíma. Eins og stendur eru tveir valkostir varðandi varðveislu í boði. 
+  * Gildistími 90 dagar.
+  * Valkostur til að stilla skýrsluna þannig að hún falli aldrei úr gildi.
+  
+Aukavalkostir verða teknir til greina fyrir virknina í framtíðinni. Gildistíminn í 90 daga verður sjálfgefið og notendur með viðeigandi heimildir geta hnekkt sjálfgefna tímanum á listasíðunni **Fjárhagsskýrslur**.    
+  
 Þegar gildistími eins og 90 dagar er valinn veitir hann 90 daga frá og með deginum í dag, sem er önnur hegðun en 90 dagar frá upphaflegum myndunardegi sem var stilltur við gerð skýrslunnar. 
 
 ## <a name="default-reports"></a>Sjálfgefnar skýrslur

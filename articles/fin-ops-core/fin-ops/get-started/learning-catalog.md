@@ -3,20 +3,20 @@ title: Námskrá fyrir Finance and Operations
 description: Finndu alla þjálfunarvalkostina fyrir Finance and Operations.
 author: loreleishannonmsft
 ms.topic: article
-ms.date: 02/19/2020
+ms.date: 04/17/2020
 ms.author: v-lshann
-audience: Application User
+audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: Operations
 ms.search.region: Global
-ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 751e0ec649d962af084f992957f0e4821ea9509d
-ms.sourcegitcommit: 41950e3b5e4d1d0014bef308ac017cb4c2b8e134
+ms.search.validFrom: 2019-1-29
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 32b67cfd4c007ddc590cd0ee95255d6f3fbc1d17
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3077994"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3279010"
 ---
 # <a name="learning-catalog-for-finance-and-operations"></a>Námskrá fyrir Finance and Operations
 
@@ -33,6 +33,10 @@ Finndu rétta þjálfun á netinu, í eigin vinnustofum og viðburði fyrir hlut
     Ákvarðar þú hvort fjárfesta skuli í nýrri tækni? 
 
     [Námsskrá viðskiptamanna og tæknilegra ákvarðana](learning-catalog-bdm.md#)
+
+    [Hafist handa](learning-catalog-bdm.md#get-started)
+
+    [Próf](learning-catalog-bdm.md#exam)
 
         :::column-end:::
     :::column:::
@@ -53,12 +57,14 @@ Finndu rétta þjálfun á netinu, í eigin vinnustofum og viðburði fyrir hlut
 
     [Fjármálastjórnun](learning-catalog-business-user.md#financial-management)
 
+    [Próf](learning-catalog-business-user.md#exam)
+
     :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
 
-        ### <a name="implementation-project-managers"></a>Verkefnastjórar innleiðingar
+    ### <a name="implementation-project-managers"></a>Verkefnastjórar innleiðingar
 
     Ert þú í forsvari fyrir að sjá til þess að framkvæmd fyrirtækisins fari vel?
 
@@ -73,6 +79,9 @@ Finndu rétta þjálfun á netinu, í eigin vinnustofum og viðburði fyrir hlut
     [Framleiðsla](learning-catalog-project-manager.md#manufacturing)
 
     [Birgðakeðjustjórnun](learning-catalog-project-manager.md#supply-chain-management)
+
+    [Próf](learning-catalog-project-manager.md#exams)
+
         :::column-end:::
     :::column:::
 
@@ -82,15 +91,19 @@ Finndu rétta þjálfun á netinu, í eigin vinnustofum og viðburði fyrir hlut
 
     [Námsskrá stjórnenda](learning-catalog-administrator.md)
 
-    [Leiðsögn](learning-catalog-administrator.md#get-started)
+    [Hafist handa](learning-catalog-administrator.md#get-started)
 
     [Þekking á algerlega vettvangi](learning-catalog-administrator.md#core-platform-knowledge)
+
+    [Kjarnaþróun](learning-catalog-administrator.md#core-development)
 
     [Flutningur og uppfærsla](learning-catalog-administrator.md#migration-and-upgrade)
 
     [Þjónusta](learning-catalog-administrator.md#servicing)
 
     [Í prófun](learning-catalog-administrator.md#testing)
+
+    [Próf](learning-catalog-administrator.md#exam)
 
   :::column-end:::
 :::row-end:::
@@ -131,6 +144,8 @@ Finndu rétta þjálfun á netinu, í eigin vinnustofum og viðburði fyrir hlut
 
     [Birgðakeðjustjórnun](learning-catalog-functional-consultant.md#supply-chain-management)
 
+    [Próf](learning-catalog-functional-consultant.md#exams)
+
     :::column-end:::
 :::row-end:::
 :::row:::
@@ -141,6 +156,10 @@ Finndu rétta þjálfun á netinu, í eigin vinnustofum og viðburði fyrir hlut
     Berðu ábyrgð á því að hjálpa viðskiptavinum þínum að kaupa réttu lausnina? 
 
     [Sölu- og markaðsnámsskrá Microsoft Partner](learning-catalog-partner-sales.md)
+
+    [Hafist handa](learning-catalog-partner-sales.md#get-started)
+
+    [Próf](learning-catalog-partner-sales.md#exam)
 
         :::column-end:::
     :::column:::

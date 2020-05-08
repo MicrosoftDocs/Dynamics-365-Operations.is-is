@@ -1,9 +1,9 @@
 ---
 title: Pöntun lofað
-description: Þessi grein gefur upplýsingar um það þegar pöntun er lofað Pöntun lofað hjálpar þér lofa áreiðanlegum afhendingartíma til viðskiptavina þinna og gefur þér sveigjanleika þannig að þú getur staðið við þessar dagsetningar.
+description: Í þessu efnisatriði er að finna upplýsingar um lofaðar pantanir. Pöntun lofað hjálpar þér lofa áreiðanlegum afhendingartíma til viðskiptavina þinna og gefur þér sveigjanleika þannig að þú getur staðið við þessar dagsetningar.
 author: ShylaThompson
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78b81431d44ea5f85676b6999eece1330d3101a4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ccb7ef432553c0516eb49013eaad68dd21bf752c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210056"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270028"
 ---
 # <a name="order-promising"></a>Pöntun lofað
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein gefur upplýsingar um það þegar pöntun er lofað Pöntun lofað hjálpar þér lofa áreiðanlegum afhendingartíma til viðskiptavina þinna og gefur þér sveigjanleika þannig að þú getur staðið við þessar dagsetningar.
+Í þessu efnisatriði er að finna upplýsingar um lofaðar pantanir. Pöntun lofað hjálpar þér lofa áreiðanlegum afhendingartíma til viðskiptavina þinna og gefur þér sveigjanleika þannig að þú getur staðið við þessar dagsetningar.
 
 Pöntun lofað reiknar fyrstu sendingar- og innhreyfingardagsetningu, og er byggð á stýringaraðgerð afhendingardags og flutningsdaga. Hægt er að velja á milli fjögurra stýringaraðferða afhendingardags
 
@@ -47,11 +47,13 @@ ATP er reiknað út með því að nota eftirfarandi formúlu:
 
 ATP = ATP fyrir undangengið tímabil + innhreyfingarnar fyrir gildandi tímabil - úthreyfingarnar fyrir gildandi tímabil - magn netúthreyfinga fyrir hvert tímabil í framtíðinni þar til að tímabilinu þegar heild innhreyfinga fyrir öll tímabil í framtíðinni, upp að og með framtíðartímabilinu, er umfram heild úthreyfinga, upp að og með framtíðartímabilinu.  
 
+Taktu eftir að ATP-útreikningurinn inniheldur ekki upplýsingar um lokadag og fram yfir ATP-tímamörkin sem kerfið gerir ráð fyrir þegar hægt er að lofa einhverju magni.
+
 Þegar það eru engar innhreyfingar eða úthreyfingar að athuga, er ATP-magnið fyrir eftirfarandi dagsetningar það sama og ATP-magnið sem var reiknað út síðast.  
 
 Ef að allar víddirnar sem eru notaðar fyrir vöru eru ekki gefnar upp þegar athugun ATP er lokið, gætu þær enn verið tilgreindar á innhreyfingum og úthreyfingum. Í því tilfelli, í ATP-útreikningi, verður að leggja saman innhreyfingarnar og úthreyfingarnar í fyrirliggjandi víddir til að draga úr fjölda innhreyfinga- og úthreyfingalína sem notaður eru í ATP-útreikningi.  
 
-Atp-magnið sem er sýnt er alltaf meira en eða jafnt og 0 (núll). Ef að útreikningur skilar neikvæðu ATP-magni (til dæmis ef að meira magn en tiltæku magni hafði verið lofað áður), stillir forritið magnið sjálfvirkt á **0**.
+Atp-magnið sem er sýnt er alltaf meira en eða jafnt og 0 (núll). Ef útreikningur skilar neikvæðu ATP-magni (til dæmis ef að meira magn en tiltæku magni hafði verið lofað áður), stillir magnið sjálfkrafa stillt á 0.
 
 ### <a name="example"></a>Dæmi
 

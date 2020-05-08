@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 24132e5c43948232bb8ae3c08577d7505b5df3e4
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: c9965d72474e5fa39fbc0a43753f7645df6881a5
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261212"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275698"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.9. (apríl 2020)
 
@@ -46,7 +46,7 @@ Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengj
 - [Sameina aukahluti sendingar](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/consolidate-shipment-enhancements)
 - [Dreifing frá dreifingarstöð](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planned-cross-docking) - Nánari upplýsingar, sjá [Áætluð dreifing frá dreifingarstöð](https://www.microsoft.com/videoplayer/embed/RE4f7LF).
 - Frekari samþætting framleiðsluþyngdar [10.0.1](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.1), [10.0.2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.2), [10.0.3](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.3), [10.0.4](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.4), [10.0.5](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.5), [10.0.6](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.6), [10.0.7](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.7) - Sjá frekari upplýsingar í [Úrvinnsla á framleiðsluþyngd afurðar með vöruhúsakerfi](../warehousing/catch-weight-processing.md) og einnig myndskeiðið [Úrbætur á framleiðsluþyngd afurðar](https://www.microsoft.com/videoplayer/embed/RE4jzx8).
-- [Fastafjármunaaðlögun við líftíma eignastýringar](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/fixed-assets-integration-asset-management-lifecycle)
+- [Samþætting eigna ásamt líftíma eignastýringar](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/fixed-assets-integration-asset-management-lifecycle) - Sjá frekari upplýsingar í [Samþætta eignastýringu með eignum](../asset-management/integration-to-fixed-assets/fixed-asset-integration.md)
 - [Sveigjanleg frátektarregla á vídd vöruhúsastigs](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/flexible-warehouse-level-dimension-reservation) - Sjá frekari upplýsingar í [Reglan Sveigjanleg frátektarregla á vídd vöruhúsastigs](../warehousing/flexible-warehouse-level-dimension-reservation.md).
 - [Bætt verkspjaldstæki](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/improved-job-card-device) - Sjá frekari upplýsingar í [Tilkynna um framvindu í fartæki](../production-control/tasks/report-progress-mobile-job-device.md) og [Skrá sem lokið í númeraplötustýrða staðsetningu úr verkspjaldstækinu](../production-control/report-finished-job-device.md)
 - [Gæðaprófun á innleið](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inbound-quality-check)
@@ -64,7 +64,7 @@ Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengj
 - [Fá flokkun](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/receive-sortation)
 - [Sending lítilla pakka (SPS)](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/small-package-shipping-sps)
 - [Tilboð lánardrottins—spurningar frá lánardrottnum og samantekin svör](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/vendor-bidding-questions-vendors-summarized-responses)
-- [Sjónræn tímasetning fyrir vinnupantanir í eignastjórnun](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/visual-scheduling-work-orders-asset-management)
+- [Sjónræn áætlun fyrir verkbeiðnir í eignastýringu](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/visual-scheduling-work-orders-asset-management) - Sjá frekari upplýsingar í [Vinna með áætlaðar verkbeiðnir með því að nota gantt töflu](../asset-management/work-order-scheduling/schedule-work-orders.md#gantt)
 - [Hólfaskipting vöruhúss](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-slotting)
 - [Aukahlutir prentunar á bylgjumerki](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-label-printing-enhancements)
 - [Kóði bylgjuskrefs](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-step-code)

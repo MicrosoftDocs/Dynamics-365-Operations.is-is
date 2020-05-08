@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bdd8b9c120fc4a860717a66b9dfa66e6b0daed93
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 79b4640a23d4fc78ade4de57e4071abe6c9ecb56
+ms.sourcegitcommit: 0d7b700950b1f95dc030ceab5bbdfd4fe1f79ace
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042712"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284357"
 ---
 # <a name="electronic-reporting-formula-language"></a>Formúlutungumál í rafrænni skýrslugerð
 
 [!include [banner](../includes/banner.md)]
 
-Rafræn skýrslugerð (ER) veitir öfluga upplifun gagnabreytinga. Tungumálið sem er notað til að tjá nauðsynlegar gagnaframkvæmdir í ER formúluhönnuðinum líkist formúlutungumálinu í Microsoft Excel.
+Rafræn skýrslugerð (ER) veitir öfluga upplifun gagnabreytinga. Tungumálið sem er notað til að sýna nauðsynlegar gagnaframkvæmdir í [formúluhönnuði rafrænnar skýrslugerðar](general-electronic-reporting-formula-designer.md) líkist formúlutungumálinu í Microsoft Excel.
 
 ## <a name="basic-syntax"></a>Grunnmálskipan
 
@@ -41,13 +41,13 @@ Segðir rafrænnar skýrslugerðar geta innihaldið hverja sem er eða allar af 
 - [Slóðir](#Paths)
 - [Aðgerðir](#Functions)
 
-## <a name="Constants">Fastagildi</a>
+## <a name=""></a><a name="Constants">Fastagildi</a>
 
 Þegar þú hannar segð getur þú notað texta og tölfræðilega fasta (það er gildi sem ekki er reiknað út). Til dæmis, tölulegt fastagildi `VALUE ("100") + 20` notar tölulegt fastagildið **20** og fastagildi strengs **"100"** og skilar tölulegu gildi **120**.
 
 Formúluhönnuður rafrænnar skýrslugerðar styður lausnarrunur. Þess vegna er hægt að tilgreina segðarstreng sem ætti að meðhöndla á annan hátt. Til dæmis skilar segðin `"Leo Tolstoy ""War and Peace"" Volume 1"` textastrengnum **Leo Tolstoy „Stríð og friður“ 1. bindi**.
 
-## <a name="Operators">Virknitákn</a>
+## <a name=""></a><a name="Operators">Virknitákn</a>
 
 Eftirfarandi tafla sýnir reikniaðgerðir sem þú getur notað til að gera grunn stærðfræðilegar aðgerðir, svo sem viðbót, frádráttur, margföldun og deiling.
 
@@ -91,7 +91,7 @@ Röðin sem hlutar samsettrar segðar eru metnir í er mikilvæg. Til dæmis er 
 
 Ef segð felur í sér margar aðgerðir sem hafa sama forgang, eru þessar aðgerðir metnar frá vinstri til hægri. Til dæmis, er segðin `1 + 6 / 2 \* 3 > 5` skilar **satt**. Við mælum með því að þú notar sviga til að tilgreina sérstaklega viðkomandi röð aðgerða í segðum, svo að segðirnar séu auðveldari að lesa og viðhalda.
 
-## <a name="References">Tilvísanir</a>
+## <a name=""></a><a name="References">Tilvísanir</a>
 
 Öll gagnasöfn í núverandi hluta rafrænnar skýrslugerðar sem eru tiltækar við hönnun segðar geta verið notaðir sem tilvísanir með heiti. Núverandi ER íhlutur getur verið annaðhvort líkanavörpun eða sniði. Til dæmis inniheldur gildandi ER-líkanavörpun gagnagjafann **ReportingDate**, sem skilar gildi gagnagerðar *DateTime*. Til að forsníða þetta gildi á réttan hátt í skjalinu sem er búið til geturðu vísað til gagnagjafans í segðinni sem `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
 
@@ -112,7 +112,7 @@ Ef aðferðir gagnagjafa forrits hafa breytur er eftirfarandi málskipan notuð 
 - Aðeins fastar geta verið notaðir í aðferðum af þessari gerð. Gildi fastanna eru skilgreind á hönnunartíma.
 - Aðeins frumstæðar (grunn) gagnagerðir eru studdar fyrir breytur af þessu tagi. Frumstæðu gagnagerðirnar eru *heiltala*, *rauntala*, *Boolean* og *strengur*.
 
-## <a name="Paths">Slóðir</a>
+## <a name=""></a><a name="Paths">Slóðir</a>
 
 Þegar segð vísar í skipulögð gagnagjafa, geturðu nota skilgreiningu slóðar til að velja tiltekna frumstæðar einingu þess gagnagjafa. Stafurinn punktur (.) er notuð til að aðskilja einstakar einingar skipulagðs gagnagjafa. Til dæmis, núverandi ER-líkanavörpun inniheldur **InvoiceTransactions** gagnagjafa og þessi gögn skila lista yfir skrár. Uppsetningin **InvoiceTransactions** inniheldur **AmountDebit** og **AmountCredit** svæðin og bæði svæðin skila tölugildum. Þess vegna getur þú hannað eftirfarandi segð til að reikna út reiknaða upphæð: `InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`. Skilgreiningin `InvoiceTransactions.AmountDebit` í þessari segð er slóðin sem er notuð til að fá aðgang að reitnum **AmountDebit** í gagnagjafanum **InvoiceTransactions** af gerðinni *Skráalisti*.
 
@@ -130,7 +130,7 @@ Dæmið á eftirfarandi mynd sýnir hvernig tengd slóð er notuð. Tengda sló�
 
 ![Eftirstandandi hluti af algildu slóðinni á hönnunarsíðu ER-formúlu](./media/ER-FormulaLanguage-RelativePath2.png)
 
-## <a name="Functions">Aðgerðir</a>
+## <a name=""></a><a name="Functions">Aðgerðir</a>
 
 Innbyggðar aðgerðir ER geta verið notaðar í ER-segðum. Allir gagnagjafar segðarsamhengis (þ.e.a.s., núverandi ER-líkanavörpun eða ER-snið) er hægt að nota sem breytur kallaðgerða, í samræmi við lista yfir frumbreytur fyrir kallaðgerðir. Fastar geta einnig verið notaðir sem breytur kallaðgerða. Til dæmis, núverandi ER-líkanavörpun inniheldur **InvoiceTransactions** gagnagjafa og þessi gögn skila lista yfir skrár. Uppsetningin **InvoiceTransactions** inniheldur **AmountDebit** og **AmountCredit** svæðin og bæði svæðin skila tölugildum. Þar af leiðandi er hægt að hanna tjáningu til að reikna út reikningsfærða upphæð sem notar innbyggða ER-námundunaraðgerð: `ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)`.
 

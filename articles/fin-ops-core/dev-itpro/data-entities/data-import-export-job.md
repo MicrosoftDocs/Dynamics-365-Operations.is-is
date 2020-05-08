@@ -3,7 +3,7 @@ title: Yfirlit yfir inn- og útflutningsvinnslu gagna
 description: Notaðu vinnusvæðið Gögnastjórnun til að búa til og stjórna Inn- og útflutningsvinnslu gagna.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 02/20/2020
+ms.date: 04/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: b25edf9fe09c130ea3d55b11f2698b29c7a39a8b
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124613"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3278899"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Yfirlit yfir inn- og útflutningsvinnslu gagna
 
@@ -151,6 +151,18 @@ Upplýsingar um framkvæmd sýna stöðu hverrar gagnaeiningar sem unnin var í 
 Þú getur sótt sviðsetningargögn í skrá fyrir útflutningsvinnslu eða sótt hana sem pakka til að flytja inn og flytja störf.
 
 Eftir framkvæmdarupplýsingunum er einnig hægt að opna framkvæmdarkladda
+
+## <a name="parallel-imports"></a>Samhliða innflutningur
+Til að flýta fyrir innflutningi gagna er hægt að virkja samhliða vinnslu á að flytja inn skrá ef einingin styður samhliða innflutning. Til að stilla samhliða innflutning fyrir eining verður að fylgja eftirfarandi skrefum.
+
+1. Opnaðu **Kerfisstjórnun \> Vinnusvæði \> Gagnastjórnun**.
+2. Í hlutanum **Innflutningur / útflutningur** skaltu velja **Færibreytur ramma** til að opna síðuna **Færibreytur ramma fyrir inn- og útflutning gagna**.
+3. Á flipanum **Stillingar einingar** skaltu velja **Grunnstilla framkvæmdafæribreytur einingar** til að opna síðuna **Framkvæmdafæribreytur innflutningseininga** page.
+4. Stilltu eftirfarandi svæði til að grunnstilla samhliða innflutning fyrir einingu:
+
+    - Veldu eininguna á svæðinu **Eining**.
+    - Færðu inn færslufjölda innflutningsmarka til innflutnings á svæðinu **Færslufjöldi innflutningsmarka**. Þetta ákvarðar færslufjöldann sem á að vinna úr þræði. Ef skrá er með 10K færslur þýðir færslufjöldinn 2500 með verkfjölda 4 að hver þráður vinnur úr 2500 færslum.
+    - Sláðu inn fjölda innflutningsverka á svæðið **Fjöldi innflutningsverka**. Þetta má ekki fara yfir hámark runuþráða sem úthlutað er til lotuvinnslu í **Kerfisstjórnun \>Grunnstilling netþjóns**.
 
 ## <a name="clean-up-the-staging-tables"></a>Hreinsa sviðsetningartöflurnar
 Frá og með uppfærslu 29 á palli hefur þessari aðgerð verið úrelt. Þessu er skipt út fyrir nýja útgáfu af starfssöguhreinsunaraðgerðum sem lýst er hér að neðan.

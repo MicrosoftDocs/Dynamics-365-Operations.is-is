@@ -3,7 +3,7 @@ title: Sérstilla yfirlit svæðis
 description: Þetta efnisatriði lýsir því hvernig á að búa til sérsniðið yfirlitsstigveldi á netinu til að skipuleggja vörur þínar til að vafra á Microsoft Dynamics 365 Commerce síðunni.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2235510c7ef386d66fe3b137f8e791d14706379
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ae7696dcb5cdd99cd46b89ed1de1b03c16146e2d
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001830"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269660"
 ---
 # <a name="customize-site-navigation"></a>Sérstilla yfirlit svæðis
 
@@ -93,7 +93,7 @@ Fylgdu þessum skrefum til að bæta við sérsniðnum yfirlitsvalkostum fyrir y
 1. Í einingaglugganum, á flipanum **Gögn**, velurðu **Bæta hlut við** til að búa til nýjan yfirlitslið efnisstjórnunarkerfi (CMS).
 1. Sláðu inn tenglatexta og slóð.
 1. Endurtaktu skref 2 og 3 til að bæta við fleiri sérsniðnum leiðsöguvalkostum.
-1. Þegar því er lokið skaltu vista sniðmátið eða brotið og haka við það.
+1. Þegar þessu er lokið skaltu velja **Vista** til að vista sniðmátið eða hlutann og velja **Ljúka við breytingar** til að skrá það inn.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a09b90c19d8d4fe5d08abc892ed0c42d9d4592d8
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: a594bacb1fcf53ae4a278dbb26f1de174e22288c
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211722"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275603"
 ---
 # <a name="schedule-work-orders"></a>Áætla verkbeiðnir
 
@@ -102,14 +102,14 @@ Ef stig stig þjónustunnar er hækkað í '100' í stað '5' verður tímasetni
 
 Matseinkunnir sem varða útreikning á því hvaða viðhaldsstarfsmenn ættu að vinna í verkbeiðnunum eru allar settar upp sem tölur, sem er bætt við hvern útreikning viðhaldsaðila við tímasetningu verkbeiðni. Viðhaldsstarfsmaðurinn með hæstu einkunn er valinn í verkbeiðninni. Hér er stutt lýsing á skorum starfsmanna viðhalds:
 
-| Einkunn viðhaldsstarfskrafts       | Lýsing                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ábyrgur starfskraftur | Ef viðhaldsstarfsmaður er valinn sem ábyrgur starfsmaður í verkbeiðninni er stiginu bætt við.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Hópur ábyrgra viðhaldsstarfskrafta | Ef viðhaldsstarfsmaður er hluti af ábyrgum viðhaldsstarfsmannahóp í verkbeiðninni er stiginu bætt við.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Æskilegur starfskraftur viðhalds         | Ef viðhaldsstarfsmaður er valinn sem forgangsstarfsmaður viðhalds á eigninni er stiginu bætt við.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Æskilegur hópur viðhaldsstarfskrafta   | Ef viðhaldsstarfsmaður er hluti af forgangsstarfsmannahóp viðhalds á eigninni er stiginu bætt við.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Staðsetning                 | Ef fyrirtæki þitt notar virkar staðsetningar fá viðhaldsstarfsmenn fulla einkunn ef þeir eru staðsettir á virkri staðsetningu sem tengist eigninni. Ef virk staðsetning eignarinnar hefur yfirstaðsetningu, þá fá viðhaldsstarfsmenn á þeirri virku staðsetningu 1/2 stig. Ef þessi staðsetning er einnig með yfireiningu fá viðhaldsstarfsmenn á þeim stað 1/3 stig. Ef þessi staðsetning er einnig með yfireiningu fá viðhaldsstarfsmenn á þeim stað 1/4 stig o.s.frv. Ef fyrirtækið notar eignastaðsetningu, sem við mælum ekki með, er staðsetning, landsvæði og svæði notað til að reikna staðsetningarskor. Starfsmenn fá fulla einkunn ef þeir eru staðsettir á staðsetningu og landsvæði og svæði sem tengjast eigninni. Ef staðsetning starfskrafts passar aðeins við staðsetningu og landsvæði er einkunnagjöf fyrir viðhaldsstarfsmanninn 2/3 af fullri einkunn. Ef staðsetning viðhaldsstarfsmanns passar aðeins við staðsetningu og landsvæði er einkunnagjöf fyrir viðhaldsstarfsmanninn 1/3 af fullri einkunn. |
-| Fyrsti starfsdagur starfskrafts               | Fyrir hverja dagsetningu sem áætlaður upphafsdagur er síðar en væntur upphafsdagur er dregið frá stiginu.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Einkunn viðhaldsstarfskrafts| Lýsing |
+|---|---|
+| Ábyrgur starfskraftur | Ef viðhaldsstarfsmaður er valinn sem ábyrgur starfsmaður í verkbeiðninni er stiginu bætt við. |
+| Hópur ábyrgra viðhaldsstarfskrafta | Ef viðhaldsstarfsmaður er hluti af ábyrgum viðhaldsstarfsmannahóp í verkbeiðninni er stiginu bætt við. |
+| Æskilegur starfskraftur viðhalds         | Ef viðhaldsstarfsmaður er valinn sem forgangsstarfsmaður viðhalds á eigninni er stiginu bætt við. |
+| Æskilegur hópur viðhaldsstarfskrafta   | Ef viðhaldsstarfsmaður er hluti af forgangsstarfsmannahóp viðhalds á eigninni er stiginu bætt við.  |
+| Staðsetning  | Ef fyrirtæki þitt notar virkar staðsetningar fá viðhaldsstarfsmenn fulla einkunn ef þeir eru staðsettir á virkri staðsetningu sem tengist eigninni. Ef virk staðsetning eignarinnar hefur yfirstaðsetningu, þá fá viðhaldsstarfsmenn á þeirri virku staðsetningu 1/2 stig. Ef þessi staðsetning er einnig með yfireiningu fá viðhaldsstarfsmenn á þeim stað 1/3 stig. Ef þessi staðsetning er einnig með yfireiningu fá viðhaldsstarfsmenn á þeim stað 1/4 stig o.s.frv. Ef fyrirtækið notar eignastaðsetningu, sem við mælum ekki með, er staðsetning, landsvæði og svæði notað til að reikna staðsetningarskor. Starfsmenn fá fulla einkunn ef þeir eru staðsettir á staðsetningu og landsvæði og svæði sem tengjast eigninni. Ef staðsetning starfskrafts passar aðeins við staðsetningu og landsvæði er einkunnagjöf fyrir viðhaldsstarfsmanninn 2/3 af fullri einkunn. Ef staðsetning viðhaldsstarfsmanns passar aðeins við staðsetningu og landsvæði er einkunnagjöf fyrir viðhaldsstarfsmanninn 1/3 af fullri einkunn. |
+| Fyrsti starfsdagur starfskrafts  | Fyrir hverja dagsetningu sem áætlaður upphafsdagur er síðar en væntur upphafsdagur er dregið frá stiginu.  |
 
 >[!NOTE]
 >Ef stig er stillt á „0“ er það stig ekki reiknað. Þetta er gagnlegt ef þú t.d. vilt ekki taka ábyrgan starfskraft inn í tímasetninguna.
@@ -120,3 +120,21 @@ Hægt er að setja upp hæfileika og vottorðskröfur um gerðir viðhaldsstarfa
 
 Gerðir viðhaldsverka og viðskipti með viðhaldsverk eru valin á verkbeiðnaverkum. Ef færni eða skírteini hafa verið valin í gerð viðhaldsverka eða viðskiptum með viðhaldsverk og sú gerð viðhaldsverka eða viðskipti með viðhaldsverk eru notuð í verkbeiðniverki eru einungis viðhaldsstarfsmenn með samsvarandi færni og skírteini áætlaðir að vinna í verkbeiðninni.
 
+<a name="gantt"></a>
+
+## <a name="work-with-scheduled-work-orders-using-a-gantt-chart"></a>Vinna með tímasettar vinnupantanir með gantt-grafi
+
+**Gantt-graf áætlaðra vinnupantana** býður upp á myndrænt viðmót þar sem hægt er að skoða og enduráætla vinnupantanir.
+
+Til að skoða og vinna með gantt-grafið:
+
+1. Farðu í **Eignastýring > Vinnupantanir > Gantt-graf áætlaðra vinnupantana**.
+
+1. Notaðu fellilistana og reitina í hlutanum **Stillingar** til að setja upp hvaða virku staðsetningu, tímabil og tímakvarða á að sýna í gantt-grafi.
+
+1. Veljið **Bæta við**.
+
+    - Gantt-grafið uppfærist til að sýna áætlaðar vinnupantanir sem passa við stillingarnar þínar. Hver vinnupöntun er sýnd með bláum ferhyrningi.
+    - Til að enduráætla sýnda vinnupöntun skal velja hana og sleppa á nýja dagsetningu og tíma.
+
+1. Ef þú gerðir einhverjar breytingar skaltu velja **Vista** á aðgerðasvæðinu til að vista þær.
