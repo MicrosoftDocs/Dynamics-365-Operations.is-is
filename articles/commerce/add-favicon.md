@@ -3,7 +3,7 @@ title: Bæta við táknmynd
 description: Þetta efni útskýrir hvernig á að bæta við táknmynd á vefsíðuna.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 287663817232e7ce86e8fdb1fb5c2fcfeed33d20
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2d95e8b799c3b89418657342868e0ec7e94a86f9
+ms.sourcegitcommit: ce79fb570e299a26a644e29da7ceb5a57a1374e6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001539"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "3295081"
 ---
 # <a name="add-a-favicon"></a>Bæta við táknmynd
-
 
 [!include [banner](includes/banner.md)]
 
@@ -41,23 +40,48 @@ Táknmynd er lítil myndaskrá sem er sýnd á flipa vafra, á heimilisfangsstik
 
 Til að hlaða upp táknmynd í eignasafn vefsvæðisins skaltu fylgja þessum skrefum.
 
-1. Farðu í **Eignir \> Hlaða upp \> Hlaða upp eignum**.
-1. Finndu og veldu táknmyndina í skráarkerfinu.
-1. Sláðu inn titil og veldu síðan **Í lagi**. 
-1. Afritaðu opinberu vefslóð hugbúnaðarins í eiginleikaglugganum til hægri.
+1. Í vinstri stýriglugganum velurðu **Margmiðlunarsafn**.
+1. Veldu á skipanastikunni **Hlaða inn \> Hlaða upp margmiðlun**.
+1. Í glugga skráavafrans skal fara í myndaskrá táknmyndarinnar sem á að hlaða upp, velja hana og velja síðan **Opna**.
+1. Í valmyndinni **Hlaða upp margmiðlun** slærðu inn nauðsynlegan titil og annan texta.
+1. Ef ætlunin er að birta myndina strax eftir upphleðslu skal velja gátreitinn **Birta margmiðlunaratriði eftir upphleðslu**.
 
-> [!NOTE]
-> Ef þú velur ekki valkostinn **Birta eignir eftir upphleðslu** verður þú að fara til baka á síðuna **Eignir** og birta táknmyndina handvirkt síðar.
+    > [!NOTE]
+    > Ef gátreiturinn **Birta margmiðlunaratriði eftir upphleðslu** er ekki valinn er nauðsynlegt að fara aftur á síðuna **Margmiðlunarefni** og birta táknmyndina handvirkt seinna.
 
-## <a name="create-the-html-for-the-favicon"></a>Búðu til HTML fyrir táknmyndina
+1. Veljið **Í lagi**.
+1. Afritaðu opinberu vefslóð hugbúnaðarins í eiginleikaglugganum til hægri. Þú munt nota þessa vefslóð síðar.
 
-Notaðu eftirfarandi HTML bút til að búa til HTML fyrir táknmyndina. Fyrir **href**-eigindið skaltu skipta út **"Public\_URL\_for\_your\_favicon"** fyrir opinberu slóðina sem þú afritaðir áður.
+## <a name="create-the-html-for-your-favicon"></a>Búa til HTML fyrir táknmynd
+
+Til að búa til HTML fyrir táknmyndina skal nota eftirfarandi HTML-streng. Fyrir **href** eigindina skal skipta út **Opin\_vefslóð\_fyrir\_þína\_táknmynd** fyrir opnu vefslóðina sem var afrituð á undan.
 
 `<link rel="shortcut icon" href="Public_URL_for_your_favicon">`
 
-## <a name="add-the-html-for-the-favicon-to-the-head-element-of-your-pages"></a>Bættu við HTML fyrir táknmyndina við \<höfuð\>-hluta af vefsíðunum
+## <a name="create-a-page-fragment-that-contains-a-metatag-for-your-favicon"></a>Búa til síðubrot sem inniheldur lýsimerki fyrir táknmyndina þína
 
-Til að bæta táknmyndinni við vefsvæðið notarðu sömu aðferð og er notuð til að bæta hvers konar HTML eða handriti við **\<höfuð\>**-hlutann af vefsíðunum.
+Til að búa til síðubrot sem inniheldur lýsimerki fyrir táknmyndina þína skal fylgja þessum skrefum.
+
+1. Farðu í **Síðubrot** og veldu **Nýtt**.
+1. Í svarglugganum **Nýtt síðubrot** skal velja **Lýsimerki** sem eininguna sem síðubrotið byggir á.
+1. Sláðu inn heiti fyrir síðubrotið og veldu **Í lagi**.
+1. Í trjástigveldi brotsins skal velja undireininguna **Sjálfgefin lýsimerki**.
+1. Í svæðinu hægra megin, undir **Lýsimerki**, skal velja **Bæta við** og síðan slá inn HTML-strenginn sem var áður búinn til fyrir táknmyndina. 
+1. Veldu **Ljúka við breytingar** og síðan **Birta** til að birta síðubrotið.
+
+## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a>Bæta síðubroti lýsimerkis við HTML-haus síðanna þinna
+
+Til að bæta síðubroti lýsimerkis við **haus** HTML-svæðis síðanna þinna skal fylgja þessum skrefum.
+
+1. Farðu í **Sniðmát**, opnaðu sniðmátið fyrir síðurnar sem þú vilt bæta táknmyndinni þinni við og veldu síðan **Breyta**.
+1. Í trjástigveldi sniðmátsins skal velja hnapp úrfellingarmerkis (**...**) hægra megin við hólfið **HTML-haus** og velja síðan **Bæta við síðubroti**.
+1. Í svarglugganum **Velja síðubrot** skal velja síðubrot lýsimerkis sem var áður búið til og velja síðan **Í lagi**.
+1. Veldu **Ljúka við breytingar** og síðan **Birta** til að birta sniðmátið.
+
+> [!NOTE]
+> Ef svæðið þitt notar meira en eitt sniðmát þarftu að bæta síðubroti lýsismerkjanna við þau öll.
+
+Þegar síður, sem byggja á sniðmátinu sem síðubrot lýsimerkjanna var bætt við, eru forskoðaðar ættir þú að sjá táknmyndina í vafraglugganum.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

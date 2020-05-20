@@ -1,6 +1,6 @@
 ---
-title: Móttaka númeraplötu í gegnum fartækjaforritið Warehousing
-description: Þetta efni útskýrir hvernig á að setja upp fartækjaforritið Warehousing til að styðja með því að nota móttökuferli númeraplötu til að móttaka efnislegar birgðir.
+title: Móttaka númeraplötu í gegnum vöruhúsaforritið
+description: Þetta efnisatriði útskýrir hvernig á að setja upp vöruhúsaforrit til að styðja notkun móttökuferlis númeraplötu til að taka á móti efnislegum birgðum.
 author: perlynne
 manager: tfehr
 ms.date: 03/31/2020
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 98cd608edea1d5365d0d3532244f1fcdb6293d3c
-ms.sourcegitcommit: 3a823444005d316bd95fc663e2dbc8252ac7d93a
+ms.openlocfilehash: 7d5ac6598ab80ece0164d7c92f5d84e91d21b385
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261342"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346377"
 ---
-# <a name="license-plate-receiving-via-the-warehousing-mobile-app"></a>Móttaka númeraplötu í gegnum fartækjaforritið Warehousing
+# <a name="license-plate-receiving-via-the-warehousing-app"></a>Móttaka númeraplötu í gegnum vöruhúsaforritið
 
-Þetta efni útskýrir hvernig á að setja upp fartækjaforritið Warehousing svo að það styðji notkun á móttökuferli númeraplötu til að móttaka efnislegar birgðir.
+Þetta efnisatriði útskýrir hvernig á að setja upp vöruhúsaforrit þannig að það styðji notkun móttökuferlis númeraplötu til að taka á móti efnislegum birgðum.
 
 Þú getur notað þessa aðgerð til að skrá fljótt móttöku á birgðum á innleið sem tengjast tilkynningu um sendingu (ASN). Kerfið stofnar sjálfkrafa ASN þegar ferli vöruhússtjórnunar eru notuð til að senda flutningspöntun. Fyrir innkaupapöntunarferlið er hægt að skrá ASN handvirkt eða flytja það sjálfkrafa inn með því að nota ASN gagnaeiningarferli á innleið.
 
@@ -63,7 +63,7 @@ For more information about the *Report as finished* production scenario, see the
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Sýna eða sleppa móttökuyfirlitssíðu
 
-Þú getur notað aðgerðina *Stjórna því hvort sýna skuli móttökuyfirlitssíðu í fartækjum* til að nýta sér viðbótar ítarlegt forritsflæði vöruhúss sem hluta af móttökuferli fyrir númeraplötur.
+Hægt er að nota eiginleikann *Stjórna því hvort á að birta yfirlitssíðu móttöku í fartækjum* til að nýta sér ítarlegra flæði vöruhúsaforrits sem hluta af móttöku númeraplötu.
 
 Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Í vinnusvæðinu **Stjórnun eiginleika** er þessi eiginleiki skráður á eftirfarandi hátt:
 

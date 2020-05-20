@@ -3,7 +3,7 @@ title: Áfangastaðir fyrir rafræna skýrslugerð
 description: Þetta efni veitir upplýsingar um stjórnun áfangastaða fyrir rafræna skýrslugerð, tegundir áfangastaða sem eru studdir og öryggissjónarmið.
 author: nselin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8a6536c82cd3407626fc0d8e102e3819c80cfd4b
-ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
+ms.openlocfilehash: 1bad9e5094f0daa260f66ecd429233f20a2545a5
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3150816"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323693"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Áfangastaðir rafrænnar skýrslugerðar (ER)
 
@@ -52,7 +52,36 @@ Einnig er hægt að setja upp einn af eftirfarandi skilyrðum. Hins vegar þarft
 
 ## <a name="overview"></a>Yfirlit
 
-Hægt er að setja upp áfangastaði aðeins fyrir skilgreiningar rafrænnar skýrslugerðar sem hafa verið [fluttar inn](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) í gildandi tilvik Finance og fyrir sniðin sem eru tiltæk á síðunni **Skilgreiningar rafrænnar skýrslugerðar**. Virkni ER-stjórnunar áfangastaða er tiltæk á **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Viðtökustaður rafrænnar skýrslugerðar**. Á síðunni **Viðtökustaður rafrænnar skýrslugerðar** er hægt að hnekkja sjálfgefinni hegðun fyrir stillingar. Innfluttar skilgreiningar eru ekki sýnd á þessari síðu fyrr en þú velur **Nýtt** og síðan, í reitnum **Tilvísun** skal velja skilgreiningu til að stofna stillingar fyrir áfangastað fyrir.
+Hægt er að setja upp áfangastaði aðeins fyrir skilgreiningar rafrænnar skýrslugerðar sem hafa verið [fluttar inn](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) í gildandi tilvik Finance og fyrir sniðin sem eru tiltæk á síðunni **Skilgreiningar rafrænnar skýrslugerðar**. Virkni ER-stjórnunar áfangastaða er tiltæk á **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Viðtökustaður rafrænnar skýrslugerðar**.
+
+### <a name="default-behavior"></a>Sjálfgefin hegðun
+
+Sjálfgefin hegðun fyrir skilgreiningu sniðs rafrænnar skýrslugerðar veltur á keyrslugerð sem er tilgreind þegar það hefst.
+
+Í svarglugganum **Intrastat-skýrsla** á flipanum **Keyra í bakgrunni**, ef valkosturinn **Runuvinnsla** er stilltur á **Nei** er snið rafrænnar skýrslugerðar keyrt strax í gagnvirkri stillingu. Þegar þessari keyrslu er lokið er hægt að sækja tilbúið skjal á útleið.
+
+Ef valkosturinn **Runuvinnsla** er stilltur á **Já** er snið rafrænnar skýrslugerðar keyrt í stillingunni [runa](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview). Viðeigandi runuvinnsla er stofnuð á grundvelli færibreytna sem tilgreindar eru í **Keyra í bakgrunni** flipa í flipanum í svarglugganum **Færibreytur rafrænnar skýrslugerðar** .
+
+> [!NOTE]
+> Starfslýsing er ræst til að láta vita um keyrslu á vörpun með sniði rafrænnar skýrslugerðar. Það inniheldur einnig heiti hluta rafrænnar skýrslugerðar sem var keyrður.
+
+[![Keyrir snið rafrænnar skýrslugerðar](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+
+Hægt er að fá upplýsingar um þetta starf á nokkrum stöðum:
+
+- Farið á **Almennt** \> **Fyrirspurnir** \> **Runuvinnslur** \> **Runuvinnslur mínar** til að skoða stöðu áætlaðrar vinnslu.
+- Opnaðu **Fyrirtækisstjórnun** \> **Rafræn skýrslugerð** \> **Rafræn skýrslugerðarvinnsla** til að skoða stöðu áætlaðrar vinnslu og niðurstöður lokinna verka. Þegar vinnslunni er lokið skal velja **Sýna skrár** á síðunni **Rafræn skýrslugerðarvinnsla** til að fá skjal á útleið.
+
+    > [!NOTE]
+    > Þetta skjal er vistað sem viðhengi núverandi vinnslufærslu og er stjórnað af ramma [Skjalastjórnun](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). [Skjalagerðin](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) sem er notuð til að vista ER gervinga af þessari gerð eru stilltir í [ER færibreytum](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+
+- Á síðunni **Rafræn skýrslugerðarvinnsla** skal velja **Sýna skrár** til að skoða lista yfir hugsanlegar villur og viðvaranir sem komu fram við keyrslu.
+
+    [![Skoða starfalista rafrænnar skýrslugerðar](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+
+### <a name="user-configured-behavior"></a>Notandaskilgreind hegðun
+
+Á síðunni **Viðtökustaður rafrænnar skýrslugerðar** er hægt að hnekkja sjálfgefinni hegðun fyrir stillingar. Innfluttar skilgreiningar eru ekki sýnd á þessari síðu fyrr en þú velur **Nýtt** og síðan, í reitnum **Tilvísun** skal velja skilgreiningu til að stofna stillingar fyrir áfangastað fyrir.
 
 [![Velja skilgreiningu í svæðinu Tilvísun](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
@@ -148,7 +177,7 @@ Aðeins er hægt að kveikja á PDF-umbreytingarvalkostinum fyrir skráhluta sem
 >
 > Framleitt PDF er takmarkað við hámarksfjölda 300 blaðsíður.
 >
-> Um þessar mundir er aðeins stuðning við landslagssíðu stuðning í PDF skjalinu sem er framleitt úr Excel framleiðsla.
+> Microsoft Dynamics 365 Finance útgáfa 10.0.9 (apríl 2020) styður aðeins langsnið í PDF-skjali sem er búið til úr Excel. Með Dynamics 365 Finance útgáfu 10.0.10 (maí 2020) er hægt að [tilgreina síðuuppsetningu](#SelectPdfPageOrientation) í PDF-skjalinu sem er búið til úr Excel meðan áfangastaður fyrir rafræna skýrslugerð er skilgreindur.
 >
 > Aðeins algeng kerfis leturgerðir Window stýrikerfisins eru notuð til að umbreyta framleiðsla sem inniheldur engin innbyggð letur.
 

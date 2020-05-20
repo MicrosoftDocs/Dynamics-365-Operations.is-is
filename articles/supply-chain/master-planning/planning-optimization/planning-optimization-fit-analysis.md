@@ -3,7 +3,7 @@ title: Greining á samsvörun áætlunarfínstillingar
 description: Þetta efni útskýrir hvernig á að sannreyna núverandi uppsetningu og gögn gagnvart getu virkni fínstillingar skipulagningar.
 author: ChristianRytt
 manager: tfehr
-ms.date: 04/17/2020
+ms.date: 05/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0382e78942e6cb2047e37b76f1daf5725638d5c3
-ms.sourcegitcommit: 915ee7c59ef5fbd4927c10840e5c5e8652f667a9
+ms.openlocfilehash: 9bf19604d246988e05b91c8a41b1f57b523d2192
+ms.sourcegitcommit: 73ae66c9464bcc9ddc1efbf4e76abb2758862fe6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3277799"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346654"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Greining á samsvörun áætlunarfínstillingar
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 Til að sjá hversu samhæf núverandi uppsetning og gögn eru við virkni fínstillingar áætlunarinnar ferðu í **Aðaláætlunargerð** \> **Uppsetning** \> **Greining á samsvörun áætlunarfínstillingar** og veldu síðan **Keyra greiningu**. Ef greiningin finnur fyrir ósamræmi eru þau skráð á sömu síðu. (Greiningin getur tekið nokkrar mínútur í keyrslu.)
@@ -73,6 +72,7 @@ Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna efti
 | Innan samstæðu | Aðaláætlanir þ.m.t. áætluð eftirspurn forstreymis: _\#_ | Þessi eiginleiki í bið. Eins og er inniheldur aðaláætlanagerð ekki áætlaða seinni tíma eftirspurn þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. Athugið að útgefnar/staðfestar pantanir virka enn með hefðbundnu samstæðuaðgerðinni og nær utan um flestar atburðarásir. |
 | Kanban | Vöruþekjufærslur með áætlaða kanban-pöntunargerð: _\#_ | Þessi eiginleiki í bið. Sem stendur verður vöruþekja sem stillt er á kanban hunsuð þegar fínstilling áætlanagerðar er virk. Áætluð kanban-pöntunargerð býr til viðvörun við aðaláætlanagerð og áætlaðar innkaupapantanir verða búnar til til að ná yfir viðeigandi eftirspurn. |
 | Kanban | Vörur með sjálfgefna kanban-pöntunargerð: _\#_ | Sem stendur verður sjálfgefin pöntunargerð sem stillt er á kanban hunsuð þegar fínstilling áætlanagerðar er virk. Áætluð kanban-pöntunargerð býr til viðvörun við aðaláætlanagerð og áætlaðar innkaupapantanir verða búnar til til að ná yfir viðeigandi eftirspurn. |
+| Lífferilsstaða afurðar   | Lífferilsstaða afurðar ekki virk fyrir áætlanagerð: _\#_ | Þetta er eiginleiki í bið. Sem stendur er Lífferilsstaða afurðar hunsuð þegar fínstilling áætlanagerðar er virk. Hægt er að stilla afurðarsíu áætlunarstigs til að koma í veg fyrir að vörur þar sem líftímastaða afurðar er gerð óvirk fyrir áætlanagerð séu teknar með. |
 | Vinnsla | Uppskriftarlínur með sléttun eða margfeldi í uppsetningu: _\#_ | Þessi eiginleiki í bið. Sem stendur verða uppsetningar með sléttun og margfeldi hunsaðar í uppskriftarlínum þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. |
 | Vinnsla | Uppskriftar-/formúlulínur með formúlumælingu: _\#_ | Þessi eiginleiki í bið. Sem stendur er formúlumæling hunsuð í uppskriftar- og formúlulínum þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. |
 | Vinnsla | Uppskriftar-/formúlulínur með staðgengilsvöru (áætlunarflokka): _\#_ | Þessi eiginleiki í bið. Sem stendur er staðgengilsvara (áætlunarflokkar) hunsaður í uppskriftar- og formúlulínum þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. |
@@ -99,7 +99,7 @@ Eftirfarandi tafla sýnir hinar ýmsu niðurstöður sem hægt er að sýna efti
 | Sölutilboð | Aðaláætlanir með virk sölutilboð: _\#_ | Þessi eiginleiki í bið. Sem stendur er ekki tekið tillit til tilboða þegar fínstilling áætlanagerðar er virk. Þær verða hunsaðar, óháð þessari stillingu. |
 | Endingartími | Aðaláætlanir með virkan endingartíma: _\#_ | Þessi eiginleiki í bið. Sem stendur er ekki tekið tillit til endingartíma þegar fínstilling áætlanagerðar er virk, óháð þessari stillingu. |
 
-## <a name="related-resources"></a>Tengd tilföng
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit yfir fínstillingu áætlanagerðar](planning-optimization-overview.md)
 

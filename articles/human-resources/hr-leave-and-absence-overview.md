@@ -3,7 +3,7 @@ title: Yfirlit
 description: Í Dynamics 365 Human Resources veitir vinnusvæðið Leyfi og fjarvera sveigjanlegan ramma til að stofna nýjar orlofsáætlanir, verkflæði til að stjórna beiðnum og innsæi sjálfsþjónustusíða þar sem starfsmenn geta beðið um frí.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f7ba32b31a67d81ee5be568b0e64842f343f96b
-ms.sourcegitcommit: 9940ca772807d3c4e1ff3bf47f45b7251c4469ac
+ms.openlocfilehash: 2bb123b808615ff7d770c7c6b83338a32d922be3
+ms.sourcegitcommit: de217452a85429675994e9cc0e06eb4821cab3e5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/04/2020
-ms.locfileid: "3226231"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3325766"
 ---
 # <a name="overview"></a>Yfirlit
 
@@ -78,8 +78,16 @@ Starfsmenn þínir geta sent inn beiðnir um frí og þú getur stjórnað þeim
 
 ## <a name="leave-and-absence-preview-features"></a>Forskoðunareiginleikar leyfis og fjarveru
 
-Þú getur prófað nýja forskoðunareiginleika leyfis og fjarveru í **Sandkassi** umhverfi. Upplýsingar um stillingu forútgáfueiginleika er að finna í [Vinna með eiginleika](hr-admin-manage-features.md). Forskoðunareiginleikar eru:
+Þú getur prófað nýja forskoðunareiginleika leyfis og fjarveru í **Sandkassi** umhverfi. Upplýsingar um stillingu forútgáfueiginleika er að finna í [Vinna með eiginleika](hr-admin-manage-features.md). 
 
-- **Frestun leyfis** - Þú getur frestað leyfi og fjarvistum í Human Resources fyrir starfsmann. Frestun leyfis stöðvar leyfisuppsöfnun fyrir valdar leyfisgerðir. Ef frestunin á sér stað eftir að uppsöfnun er unnin skapar frestun leyfis hlutfallslega leiðréttingu á leyfisstöðu starfsmanns. 
+[!include [banner](includes/preview-feature.md)]
+
+Forskoðunareiginleikar eru:
+
+- **Frestun leyfis** - Þú getur frestað leyfi og fjarvistum í Human Resources fyrir starfsmann. Frestun leyfis stöðvar leyfisuppsöfnun fyrir valdar leyfisgerðir. Ef frestunin á sér stað eftir að uppsöfnun er unnin skapar frestun leyfis hlutfallslega leiðréttingu á leyfisstöðu starfsmanns. Einnig er hægt að taka með ástæðukóða þegar hætt er við leyfi starfsmanns. Upplifun notanda hefur verið uppfærð til að tákna frestur. 
 
 - **Yfirfærslureglur** - Hægt er að tilgreina yfirfærsluorlofsgerð fyrir yfirfærslustöður þar sem yfirfærsluleiðréttingar eru fluttar. Til dæmis, ef starfsmaður yfirfærir 10 daga getur þú valið aðra leyfisgerð fyrir þessa 10 daga. 
+
+- **Taka með ástæðukóða og skrifa athugasemdir vegna leiðréttinga** -Hægt er að taka með ástæðukóða og skrifa athugasemd þegar leiðrétting er gerð á leyfisstöðu starfsmanns. 
+
+- **Breyting á færibreytum leyfis og fjarvista** - Nú er aðeins hægt að nota færibreytur leyfis og fjarvista í stað þess að nota færibreytur Human Resources. 

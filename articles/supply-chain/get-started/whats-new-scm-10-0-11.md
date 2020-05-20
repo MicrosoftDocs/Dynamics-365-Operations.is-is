@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 479a7edd456a1f4d121ceef292d2559c400c31a2
-ms.sourcegitcommit: c30a9956d9c29a504856487a3a98090eef9aab2b
+ms.openlocfilehash: 0b71a76b348941f5a010e2f3e4bbb2fa60d37101
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3266324"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346354"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.11 (júlí 2020)
 
@@ -40,7 +40,7 @@ ms.locfileid: "3266324"
 Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengjast fleiri upplýsingum á vefsvæðinu [Útgáfuáætlanir](https://docs.microsoft.com/dynamics365/release-plans/). Viðbótartenglar benda á viðbótargögn eða myndbönd sem eru tiltæk fyrir þann eiginleika. Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
 
 - [Birgðalagersskýrsla](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
-- [Viðbætur við móttöku númeraplötu fyrir fartækjaforritið Warehousing](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) - Sjá frekari upplýsingar [Móttaka númeraplötu í gegnum fartækjaforritið Warehousing](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Móttaka viðbóta númeraplata fyrir vöruhúsaforrit](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) - Frekari upplýsingar má finna í [Móttaka númeraplötu í gegnum vöruhúsaforritið](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 - [Viðbætur við línufrátekningu fyrir frátekningarform lotunúmers](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form) - Nánari upplýsingar er að finna í [Frátekning sömu runu fyrir sölupöntun](../sales-marketing/reserve-same-batch-sales-order.md)
 - [Nýjar gagnaeiningar fyrir framleiðslusvæðið](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 - [Ofmóttaka á farmmagni](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) - Nánari upplýsingar er að finna í [Vöruhúsafgreiðsla á farmi á innleið fyrir innkaupapantanir](../warehousing/inbound-load-handling.md).

@@ -3,7 +3,7 @@ title: Byrjaðu með hagræðingu skipulags
 description: Þetta efnisatriði útskýrir hvernig skuli hefja notkun á virkninni Fínstilling skipulagningar.
 author: ChristianRytt
 manager: tfehr
-ms.date: 02/10/2020
+ms.date: 05/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 4f9124e824a0b6d5035b2567cb19c2c494390d55
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ce1bbb18e9a448e84d001a4195421d2b0e4af5be
+ms.sourcegitcommit: c0d37fdd70f3dec4605fdee6f981f84a49be9b9e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213516"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3339879"
 ---
 # <a name="get-started-with-planning-optimization"></a>Byrjaðu með hagræðingu skipulags
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 Virkni fínstillingar áætlunar styður ekki eins og er alla þá eiginleika sem eru fáanlegir í áætlunarvélinni sem er innbyggð í Microsoft Dynamics 365 Supply Chain Management. Þess vegna er mikilvægt að þú metir hvort eiginleikasettið sem nú er fáanlegt í fínstillingu skipulagsins uppfylli kröfur þínar. Sjálfgefið er að ekki er kveikt á virkni fínstillingar skipulagningar í Dynamics Lifecycle Services (LCS). Þess vegna hefurðu tækifæri til að gera úttektina áður en kveikt er á henni.
@@ -36,6 +35,11 @@ Virkni fínstillingar áætlunar styður ekki eins og er alla þá eiginleika se
 Að lokum mun fínstilling skipulagningar koma í stað núverandi innbyggðrar áætlunarvélar Supply Chain Management.
 
 Áður en þú kveikir á fínstillingu skipulags mælum við eindregið með því að þú metir niðurstöður greiningar á fínstillingu skipulagningar. Frekari upplýsingar er að finna í [Greining á samsvörun áætlunarfínstillingar](planning-optimization-fit-analysis.md).
+
+### <a name="availability"></a>Til ráðstöfunar
+Fínstilling áætlanagerðar er í boði í eftirfarandi Azure-svæðum: Bandaríkin, Kanada, Evrópa, Bretland og Ástralía. Ef reynt er að setja upp innbæturnar á öðru svæði birtir LCS skilaboð um að svæðið sé ekki stutt.
+
+Athugið að fínstilling áætlanagerðar styður ekki uppsetningu á staðnum á Dynamics 365 Supply Chain Management.
 
 ### <a name="licensing"></a>Leyfisveiting
 
@@ -46,7 +50,7 @@ Ef þú getur keyrt aðalskipulagningu með því að nota núverandi leyfi þit
 Til að nota fínstillingu skipulagningar skaltu setja upp innbótina fínstilling skipulagningar fyrir Dynamics 365 Supply Chain Management. Þú getur fengið aðgang að viðbótinni frá LCS verkinu og kveikt á virkni fínstillingar skipulagningar úr notendaviðmóti (UI) Supply Chain Management.
 
 > [!NOTE]
-> Krafan um fínstillingu áætlanagerðar er LCS-virkjað umhverfi með miklu framboði (ekki OneBox-umhverfi) með Dynamics 365 Supply Chain Management útgáfa 10.0.7 eða nýrri.
+> Þörf fyrir fínstillingu áætlanagerðar er öflugt LCS virkt umhverfi, á stigi 2 eða hærra (ekki OneBox-umhverfi), með Dynamics 365 Supply Chain Management útgáfu 10.0.7 eða nýrri. Ef reynt er að setja upp viðbótina í OneBox-umhverfi verður uppsetningunni ekki lokið og því verður að hætta við uppsetninguna.
 
 1. Skráðu þig inn á LCS og opnaðu viðkomandi umhverfi.
 1. Farðu í **Fullar upplýsingar**.
@@ -88,11 +92,11 @@ Stilling á valkostinum **Nota fínstillingu skipulags** ákvarðar hvaða áæt
 
 Ef kveikt er á forskoðun fínstillingar skipulags er aðaláætlunargerð gerð með því að nota viðbótaráætlun fyrir fínstillingu skipulags. Í þessu tilfelli verða niðurstöður og eiginleikar aðaláætlunargerðar fyrir áhrifum.
 
-## <a name="related-resources"></a>Tengd tilföng
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Ákvæði og skilmálar fyrir forskoðunina](https://go.microsoft.com/fwlink/?linkid=2015274)
 
-[Yfirlit yfir fínstillingu skipulagningar](planning-optimization-overview.md)
+[Yfirlit yfir fínstillingu áætlanagerðar](planning-optimization-overview.md)
 
 [Greining á samsvörun áætlunarfínstillingar](planning-optimization-fit-analysis.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Skilgreining svæðaheita í vöruhúsaforriti
-description: Þetta efnisatriði lýsir því hvernig á að skilgreina og grunnstilla reitaheiti og forgang í vöruhúsaforriti Dynamics 365 Supply Chain Management.
+description: Þetta efnisatriði lýsir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang vöruhúsaforriti í Dynamics 365 Supply Chain Management.
 author: MarkusFogelberg
 manager: tfehr
 ms.date: 06/20/2017
@@ -19,23 +19,23 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f9b02b93895757580b323a4cd891909d5551ea55
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0390900d97e74bb9fd8deac913b1606cb775aa7c
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205760"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346400"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>Skilgreining svæðaheita í vöruhúsaforriti
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði lýsir því hvernig á að skilgreina og grunnstilla reitaheiti og forgang í vöruhúsaforriti Dynamics 365 Supply Chain Management. 
+Þetta efnisatriði lýsir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang vöruhúsaforriti í Dynamics 365 Supply Chain Management. 
 
 > [!NOTE]
-> Þetta efnisatriði á við aðgerðir í vöruhúsakerfi. Það á ekki við um aðgerðir í birgðastjórnun. Warehousing er forrit sem hægt er að nota í framkvæmd vöruhúsaverkefna. Hægt er að skilgreina og grunnstilla reitarheiti sem eru notuð í forritinu, ásamt því að grunnstilla forgang sem reitarheitum ætti að vera úthlutað eftir. Þetta efnisatriði útskýrir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang í vöruhúsaforriti og hvernig þau eru notuð í Warehousing. Nákvæmar upplýsingar um hvernig á að skilgreina tengingu við FWarehousing má sjá í sýnidæminu [Setja upp og skilgreina forritið Warehousing](install-configure-warehousing-app.md).
+> Þetta efnisatriði á við aðgerðir í vöruhúsakerfi. Það á ekki við um aðgerðir í birgðastjórnun. Warehousing er forrit sem hægt er að nota í framkvæmd vöruhúsaverkefna. Hægt er að skilgreina og grunnstilla reitarheiti sem eru notuð í forritinu, ásamt því að grunnstilla forgang sem reitarheitum ætti að vera úthlutað eftir. Þetta efnisatriði útskýrir því hvernig á að skilgreina og grunnstilla svæðaheiti og forgang vöruhúsaforriti og hvernig þau eru notuð í Warehousing. Nákvæmar upplýsingar um hvernig á að skilgreina tengingu við FWarehousing má sjá í sýnidæminu [Setja upp og skilgreina forritið Warehousing](install-configure-warehousing-app.md).
 
-## <a name="configure-warehouse-app-field-names"></a>Grunnstilla reitarheiti vöruhúsaforrits
+## <a name="configure-warehousing-app-field-names"></a>Grunnstilla reitarheiti vöruhúsaforrits
 
 Þegar þú notar Warehousing í fartækinu geturðu skilgreint hvernig lýsigögn skulu birt í tækinu á síðunni **Reitarheiti vöruhúsaforrits**. Í nýju fyrirtæki skal velja **Stofna sjálfgefna uppsetningu** til að mynda öll reitaheiti sem verða notuð í verkflæðum vöruhússfartækja og svo úthluta æskilegan ílagsham og ílagsgerð á þau. Eftir að þú hefur myndað öll reitarheiti, geturðu valið eftirfarandi ílagsvalkosti.
 
@@ -68,7 +68,7 @@ ms.locfileid: "3205760"
 </tbody>
 </table>
 
-## <a name="configure-warehouse-app-field-priority"></a>Grunnstilla reitaforgang vöruhúsaforrits
+## <a name="configure-warehousing-app-field-priority"></a>Grunnstilla reitaforgang vöruhúsaforrits
 
 Á síðunni **Svæðisforgangur vöruhúsaforrits** síða, geturðu sett reitarheiti inn í mismunandi forgangsflokka. Þetta gerir kleift að ákveða hvaða upplýsingar ætti að birta á aðalverkefnasíðunni þegar starfsmaður í vöruhúsi framkvæmir verkefni með notkun forritsins. Ef smellt er á **Stofna sjálfgefna uppsetningu**, verður sjálfgefinn hópur forgangsflokks myndaður. Hægt er að stofna eins marga forgangsflokka og þörf er á, en aðeins þrír forgangsflokkar verða sýndir á verkefnasíðunni. Þegar kerfið sendir lýsigögn í forritið mun það úthluta hverju svæði hlutfallslegum forgangi eftir forgangsflokki og forritið mun birta fyrstu þrjá forgangsflokkana sem eru birtir í lýsigögnunum á verkefnasíðu. Afgangurinn af yfirfylltum lýsigögnum verða birt á síðu með aukaupplýsingum. Eftirfarandi tafla sýnir dæmi um fimm forgangsflokka.
 

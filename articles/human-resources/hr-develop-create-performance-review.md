@@ -1,9 +1,9 @@
 ---
 title: Stofna afkomuendurskoðun
-description: Þessi grein útskýrir hvernig á að stofna mat á frammistöðu og lýsir tilgangi hvers hluta yfirferðar.
+description: Þetta efni útskýrir hvernig á að stofna mat á frammistöðu og lýsir tilgangi hvers hluta yfirverðar.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/06/2019
+ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 50ef3f305756f1ab0db895854cd7e1c71237cb48
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 22f3e82e7a1ebba689c1aa1ebbe75603a5c09188
+ms.sourcegitcommit: f06e48c7d487299aa4e2cff3e8f60cb8be0790df
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009410"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3334684"
 ---
 # <a name="create-performance-reviews"></a>Stofna afkomuendurskoðun
 
 
-
-Þessi grein útskýrir hvernig á að stofna mat á frammistöðu og lýsir tilgangi hvers hluta yfirferðar. Þetta ferli var stofnað með því að nota sýnigögn fyrirtækisins USMF.
+Þetta efni útskýrir hvernig á að stofna mat á frammistöðu og lýsir tilgangi hvers hluta yfirverðar. Þetta ferli var stofnað með því að nota sýnigögn fyrirtækisins USMF.
 
 1. Á heimasíðunni velurðu vinnusvæðið **Sjálfsafgreiðsla starfsmanns**.
 2. Veldu **Ný yfirferð** til að stofna nýja yfirferð.
@@ -37,7 +36,7 @@ ms.locfileid: "3009410"
 6. Veljið **Í lagi**. Einnig er hægt að stofna yfirferð úr sniðmáti. Þetta er besta leiðin til að stofna yfirferð þar sem hver kafli inniheldur upplýsingar sem þarf til að hefja yfirferð.  
 7. Þú getur sýnt eða falið flipa eins og viðhengisflipann:
 
-    1. Veldu aðgerðarrúðuna **Sýna hluta** til að opna felligluggann.
+    1. Í aðgerðasvæði skal velja **Sýna hluta** til að opna svargluggann.
     1. Veldu **Já** eða **Nei** í reitnum **Sýna viðhengi** til að sýna eða fela viðhengisflipann.
     1. Veljið **Vista**.
 
@@ -51,7 +50,7 @@ ms.locfileid: "3009410"
 15. Veldu **Bæta við athugasemd**.
 16. Veldu **Bóka**.
 17. Veldu flipann **Mælingar**.
-18. Veldu **Bæta við mælingu** til að opna felligluggann.
+18. Velja **Bæta við mælingu** til að opna svargluggann.
 19. Sláið inn eða veldu gildi í reitnum **Mælingu**.
 26. Í reitinn **Upphæð markmiðs** skal slá inn númer.
 20. Veljið **Í lagi**.
@@ -66,14 +65,14 @@ ms.locfileid: "3009410"
 29. Veljið **Vista**.
 30. Velja flipann **Einkunnir**.  
 
-    - Flýtiflipinn **upplýsingar um einkunnir** leyfir starfsmönnum að gefa sjálfum sér einkunnir og stjórnanda að gefa starfsmanni einkunn. Ef vægi er notað, er gildi vægis fyrir stig er reiknað út sjálfkrafa.  
-    - Virkja færibreytustillingar fyrir starfsmanns til að sýna einkunnir starfsmanns til að sjá þennan hluta.  
+    - Flýtiflipinn **Upplýsingar um mat** leyfir starfsmönnum að gefa sjálfum sér einkunnir og stjórnanda að gefa starfsmanni einkunn. Ef vægi er notað, er gildi vægis fyrir stig er reiknað út sjálfkrafa.  
+    - Virkja færibreytustillingar fyrir starfsmanns til að sýna einkunnir starfsmanns til að skoða þennan hluta.  
 
 31. Veldu flipann **Útskráningar**. Ef yfirferð notar verkflæði, munu samþykktir eingöngu birtast eftir að verkflæði er lokið. Ef engin verkflæði er notað, þá eru bæði starfsmanns og stjórnanda taldar upp hér. Áskilið gátreitur er valinn, byggt á stillingum fyrir gerð yfirferðar.  
 32. Veldu flipann **Almennt**.
 
     - Afkastatímabilið stofnar sjálfgefna upphafs- og lokadagsetningu. Þessum dagsetningum er hægt að breyta.  
-    - Stöðurnar stýra aðgangi að yfirferð. Staðan **Ekki hafið** leyfir öllum að breyta yfirferð. Staðan **Í gangi** heimilar aðeins einum starfsmanni að skoða og breyta yfirferð. Tilbúnar til endurskoðunar heimilar aðeins manager til að skoða eða breyta yfirferð. Endanleg endurskoðunarstaða leyfir bæði starfsmanni og stjórnanda að skoða endurskoðunina og einnig að breyta henni ef sett upp í gerð endurskoðunar. Stöðurnar **Lokið**, **Hafnað** og **Hætt við** gera yfirferðina skrifvarða.  
+    - Stöðurnar stýra aðgangi að yfirferð. Staðan **Ekki hafið** leyfir öllum að breyta yfirferð. Staðan **Í gangi** heimilar aðeins einum starfsmanni að skoða og breyta yfirferð. **Tilbúið fyrir endurskoðun** heimilar aðeins stjórnanda að skoða og breyta endurskoðuninni. **Endanleg endurskoðun** staðan leyfir bæði starfsmanni og stjórnanda að skoða endurskoðunina og einnig að breyta henni ef sett upp í gerð endurskoðunar. Stöðurnar **Lokið** og **Hætt við** gera yfirferðina skrifvarða. Ef umsögn er **Hafnað** og hún send aftur til starfsmannsins geta bæði starfsmaðurinn og yfirmaður gert nauðsynlegar breytingar svo starfsmaðurinn geti sent hana aftur.
 
 33. Í reitinn **Yfirlit** skal slá inn gildi.
 34. Veldu flipann **Endurskoða**. Þegar yfirferðin fer í gegnum stöðurnar geta starfsmaður og stjórnandi bætt við athugasemdum fyrir hvert markmið eða hæfni.  
