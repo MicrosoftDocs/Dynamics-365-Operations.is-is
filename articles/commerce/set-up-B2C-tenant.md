@@ -3,7 +3,7 @@ title: Setja upp B2C-leigjanda í Commerce
 description: Þetta efni lýsir því hvernig á að setja upp þitt Azure Active Directory (Azure AD) leigjendur fyrirtækja til neytenda (B2C) til að auðkenna notendasíðu í Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 04/17 /2020
+ms.date: 04/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f4768eede43003aac892b861b4a86ababe98a189
-ms.sourcegitcommit: 063c4d7155be6c2cadcafa1630d16ee235285479
+ms.openlocfilehash: 22d62419c703c64470723cf82864a4782306ea8a
+ms.sourcegitcommit: 1b00e21faf89de8b3450936253a4c02cb4d12a3d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3270211"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "3295270"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Setja upp B2C-leigjanda í Commerce
 
@@ -87,7 +87,7 @@ Til að stofna B2C forrit skal fylgja þessum skrefum.
 
 ### <a name="reply-urls"></a>Svarslóðir
 
-Svarslóðir eru mikilvægar þar sem þær leyfa hvítlista yfir lénsskilaboð þegar vefsvæðið þitt kallar í Azure AD B2C til að sannvotta notanda. Þetta gerir kleift að skila staðfestum notanda aftur til lénsins sem þeir skrá sig inn á (lén vefsvæðisins). 
+Svarvefslóðir eru mikilvægar þar sem þær gefa upp heimildarlista skilalén þegar vefsvæðið kallar á Azure AD B2C til að sannvotta notanda. Þetta heimilar endursendingu staðfests notanda til baka á lén sem hann er að skrá sig inn á (vefsvæðið þitt). 
 
 Í reitnum **Svarslóð** á skjánum **Azure AD B2c - Forrit \> Nýtt forrit** þarftu að bæta við aðskildum línum fyrir bæði lén vefsvæðisins og (þegar umhverfi þitt er útvegað) Commerce-myndaðri vefslóðinni. Þessar vefslóðir verða alltaf að nota gilt slóðarsnið og verða að vera eingöngu grunnslóðir (engin skástrik eða slóðir fyrir aftan). Strengurinn ``/_msdyn365/authresp`` þarf síðan að vera bætt aftan við grunnslóðina, eins og í eftirfarandi dæmum.
 
@@ -121,7 +121,7 @@ Til að stofna innskráningu og skrá inn notendaflæðisstefnu skal fylgja þes
 
     | **Innheimtueigind** | **Skila kröfu** |
     | ---------------------- | ----------------- |
-    |                        | Netföng   |
+    | Tölvupóstfang          | Netföng   |
     | Fornafn             | Fornafn        |
     |                        | Auðkennisveitandi |
     | Eftirnafn                | Eftirnafn           |
@@ -246,10 +246,6 @@ Til að uppfæra höfuðstöðvar með nýjum Azure AD B2C upplýsingum, fylgdu 
     1. Í reitnum **Gerð** slærðu inn **Opinbert**.
     1. Í reitnum **Notandagerð** slærðu inn **Viðskiptavinur**.
 1. Í aðgerðaglugganum velurðu **Vista.**
-1. Leitaðu að í leitarreitnum fyrir viðskipti **Númeraraðir** (Fyrirtækisstjórnun > Númeraraðir).
-1. Í aðgerðarglugganum velurðu **Breyta** undir **Viðhalda**.
-1. Á flýtiflipanum **Almennt** velurðu **Nei** fyrir **Handbók**.
-1. Í aðgerðaglugganum velurðu **Vista.** 
 1. Í leitarreit Commerce leitarðu að **Dreifingaráætlun**
 1. Í vinstri valmyndinni á síðunni **Dreifingaráætlanir** velurðu vinnsluna **1110 altæk stilling**.
 1. Í aðgerðarúðunni skal velja **Keyra núna**.
@@ -304,13 +300,14 @@ Fylgdu þessum skrefum til að bæta forritsupplýsingum um AAD B2C leigjanda í
 1. Sláðu inn eftirfarandi nauðsynlega hluti í glugganum sem birtist, með gildum úr B2C leigjanda þínum og forriti. Reitir sem ekki er krafist (þeir sem eru án stjörnu) kunna að vera auðir.
 
     - **Heiti forrits**: Heiti B2C forritsins, til dæmis „Fabrikam B2C“.
-    - **Heiti leigjanda**: Heiti B2C leigjanda, til dæmis „Fabrikam“.
+    - **Nafn leigjanda**: Heiti B2C leigjanda (til dæmis er notað „fabrikam“ ef lénið birtist sem „fabrikam.onmicrosoft.com“ fyrir B2C leigjandann). 
     - **Gleymdu auðkenni lykilorðsstefnu**: Notandastraumur fyrir gleymt lykilorð notendastreymis, til dæmis „B2C_1_PasswordReset“.
     - **Auðkenni kennsluskilríkja við innskráningu**: Auðkenni skráningar og innskráningarflæði notendastreymis, til dæmis „B2C_1_signup_signin“.
     - **GUID biðlara**: Auðkenni B2C forritsins, til dæmis „22290eb2-c52e-42e9-8b35-a2b0a3bcb9e6”.
     - **Breyta auðkenni prófílstefnu**: Auðkenni sniðs sem breytir notendastreymi, til dæmis „B2C_1A_ProfileEdit“.
 
 1. Veljið **Í lagi**. Þú ættir nú að sjá nafn B2C forritsins þíns birtast á listanum.
+1. Veldu **Vista** til að vista breytingarnar.
 
 ### <a name="associate-the-b2c-application-to-your-site-and-channel"></a>Tengdu B2C forritið við síðuna þína og rás
 

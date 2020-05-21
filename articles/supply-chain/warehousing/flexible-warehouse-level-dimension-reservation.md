@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0fe9ed9f2bebe8683f3b8bb37b33e8a63b9521f6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6c462a87494c434a6047542d448a85b3bce9f769
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205668"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346469"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Sveigjanleg frátektarregla á vídd vöruhúsastigs
 
@@ -233,7 +233,7 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 <td>Já</td>
 <td>
 <ol>
-<li>Veldu <strong>Hnekkja staðsetningu</strong> valmyndaratriði í Warehouse Mmobile App (WMA) þegar þú byrjar að tína vinnu.</li>
+<li>Veljið valmyndaratriðið <strong>Yfirskrifa staðsetningu</strong> í vöruhúsaforritinu þegar tiltektarverk er hafið.</li>
 <li>Veldu <strong>Stinga upp</strong>.</li>
 <li>Staðfestu nýja staðsetninguna sem lagt er til með tilliti til framboðs í fjölda magns.</li>
 </ol>
@@ -244,13 +244,13 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 <li>Ef magnið er að finna á fleiri en einni leyfisplötu á nýjum stað, er upprunalegu vallínunni skipt í margar línur sem passa við hvern kennitala.</li>
 </ul>
 </td>
-<td>Á ekki við</td>
+<td>Ekki tiltækt</td>
 </tr>
 <tr>
-<td>Nr</td>
+<td>Ekkert</td>
 <td>
 <ol>
-<li>Veldu <strong>Hnekkja staðsetningu</strong> valmyndaratriði í WMA þegar þú byrjar að tína vinnu.</li>
+<li>Veljið valmyndaratriðið <strong>Yfirskrifa staðsetningu</strong> í vöruhúsaforritinu þegar tiltektarverk er hafið.</li>
 <li>Færa handvirkt inn staðsetningu.</li>
 </ol>
 </td>
@@ -275,10 +275,10 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 <tbody>
 <tr>
 <td>Valkosturinn <strong>Leyfa verkaskiptingu</strong> er virkur í valmyndaratriðinu fyrir farsíma.</td>
-<td>Á ekki við</td>
+<td>Ekki tiltækt</td>
 <td>
 <ol>
-<li>Veldu <strong>Fullt</strong> valmyndaratriði í WMA þegar þú vinnur úr tínsluvinnu.</li>
+<li>Veljið valmyndaratriðið <strong>Fullt</strong> í vöruhúsaforritinu þegar tiltektarverk er hafið.</li>
 <li>Í <strong>Veldu fjölda</strong> reitinn, sláðu inn hluta magns af nauðsynlegu valinu til að gefa til kynna fullan afköst.</li>
 </ol>
 </td>
@@ -353,7 +353,7 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 <td>Já</td>
 <td>
 <ol>
-<li>Hefja hreyfingu á WMA.</li>
+<li>Hefja færslu í vöruhúsaforritinu.</li>
 <li>Sláið inn staðsetningar „frá” og „til”.</li>
 </ol></td>
 <td>
@@ -469,7 +469,7 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 <td>Já</td>
 <td>
 <ol>
-<li>Veldu <strong>Of lítil tiltekt</strong> valmyndaratriði í WMA þegar þú keyrir tínsluvinnu.</li>
+<li>Veljið <strong>Of lítil tiltekt</strong> -valmyndaratriðið í vöruhúsaforritinu þegar tiltektarverk er hafið.</li>
 <li>Í <strong>Tiltekið magn</strong> reitinn er fært inn <strong>0</strong> (núll).</li>
 <li>Í reitinn <strong>Ástæða</strong> slærðu inn <strong>Engin endurúthlutun</strong>.</li>
 </ol>
@@ -498,7 +498,7 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 <td>Já</td>
 <td>
 <ol>
-<li>Veldu <strong>Of lítil tiltekt</strong> valmyndaratriði í WMA þegar þú keyrir tínsluvinnu.</li>
+<li>Veljið <strong>Of lítil tiltekt</strong> -valmyndaratriðið í vöruhúsaforritinu þegar tiltektarverk er hafið.</li>
 <li>Í <strong>Tiltekið magn</strong> reitinn er fært inn <strong>0</strong> (núll).</li>
 <li>Í reitinn <strong>Ástæða</strong> slærðu inn <strong>Engin endurúthlutun</strong>.</li>
 </ol>
@@ -522,7 +522,7 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 <td>Já</td>
 <td>
 <ol>
-<li>Veldu <strong>Of lítil tiltekt</strong> valmyndaratriði í WMA þegar þú keyrir tínsluvinnu.</li>
+<li>Veljið <strong>Of lítil tiltekt</strong> -valmyndaratriðið í vöruhúsaforritinu þegar tiltektarverk er hafið.</li>
 <li>Í <strong>Magn með of litla tiltekt</strong> reitinn er fært inn <strong>0</strong> (núll).</li>
 <li>Í <strong>Ástæða</strong> reit, veldu <strong>Stuttur velja með handvirkri úthlutun</strong>.</li>
 <li>Veldu staðsetningu / kennitala á listanum.</li>
@@ -545,10 +545,10 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 </tr>
 <tr>
 <td>Vinnuundantekning frá <strong>Stutt val</strong> gerð er sett upp, hvar <strong>Endurúthlutun hlutar</strong> = <strong>Handvirkt</strong>, <strong>Stilla lager</strong> = <strong>Já</strong> og <strong>Fjarlægðu fyrirvara</strong> = <strong>Nei</strong>. Að auki, er <strong>Leyfa endurúthlutun handvirkra atriða</strong> valkostur virkur á starfsmanninum.</td>
-<td>Nr</td>
+<td>Ekkert</td>
 <td>
 <ol>
-<li>Veldu <strong>Of lítil tiltekt</strong> valmyndaratriði í WMA þegar þú keyrir tínsluvinnu.</li>
+<li>Veljið <strong>Of lítil tiltekt</strong> -valmyndaratriðið í vöruhúsaforritinu þegar tiltektarverk er hafið.</li>
 <li>Í <strong>Magn með of litla tiltekt</strong> reitinn er fært inn <strong>0</strong> (núll).</li>
 <li>Í <strong>Ástæða</strong> reit, veldu <strong>Stuttur velja með handvirkri úthlutun</strong>.</li>
 </ol>
@@ -558,10 +558,10 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 </tr>
 <tr>
 <td>Vinnuundantekning frá <strong>Stutt val</strong> gerð er sett upp, hvar <strong>Endurúthlutun hlutar</strong> = <strong>Handvirkt</strong>, <strong>Stilla lager</strong> = <strong>Já</strong> og <strong>Fjarlægðu fyrirvara</strong> = <strong>Já</strong>. Að auki, er <strong>Leyfa endurúthlutun handvirkra atriða</strong> valkostur virkur á starfsmanninum.</td>
-<td>Nr</td>
+<td>Ekkert</td>
 <td>
 <ol>
-<li>Veldu <strong>Of lítil tiltekt</strong> valmyndaratriði í WMA þegar þú keyrir tínsluvinnu.</li>
+<li>Veljið <strong>Of lítil tiltekt</strong> -valmyndaratriðið í vöruhúsaforritinu þegar tiltektarverk er hafið.</li>
 <li>Í <strong>Magn með of litla tiltekt</strong> reitinn er fært inn <strong>0</strong> (núll).</li>
 <li>Í <strong>Ástæða</strong> reit, veldu <strong>Stuttur velja með handvirkri úthlutun</strong>.</li>
 <li>Veldu staðsetningu / kennitala á listanum.</li>
@@ -582,10 +582,10 @@ Eftirfarandi töflur veita yfirlit sem sýnir hvernig kerfið meðhöndlar pönt
 </tr>
 <tr>
 <td>Vinnuundantekning frá <strong>Stutt val</strong> gerð er sett upp, hvar <strong>Endurúthlutun hlutar</strong> = <strong>Sjálfvirkt</strong>, <strong>Stilla lager</strong> = <strong>Já/Nei</strong> og <strong>Fjarlægðu fyrirvara</strong> = <strong>Já/Nei</strong>.</td>
-<td>Á ekki við</td>
+<td>Ekki tiltækt</td>
 <td>
 <ol>
-<li>Veldu <strong>Of lítil tiltekt</strong> valmyndaratriði í WMA þegar þú keyrir tínsluvinnu.</li>
+<li>Veljið <strong>Of lítil tiltekt</strong> -valmyndaratriðið í vöruhúsaforritinu þegar tiltektarverk er hafið.</li>
 <li>Í <strong>Magn með of litla tiltekt</strong> reitinn er fært inn <strong>0</strong> (núll).</li>
 <li>Í <strong>Ástæða</strong> reit, veldu <strong>Stuttur velja með sjálfvirkri endurúthlutun</strong>.</li>
 </ol>

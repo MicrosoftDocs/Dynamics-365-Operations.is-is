@@ -3,7 +3,7 @@ title: Notaðu JOIN gagnaheimildir í ER-líkanavörpun til að fá gögn úr m�
 description: Þetta efnisatriði útskýrir hvernig hægt er að nota gagnagjafa af JOIN-gerð í rafrænni skýrslugerð (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 10/25/2019
+ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: 224acc19ee5dda430cd9471aa50e9d870a4f8c60
-ms.sourcegitcommit: 564aa8eec89defdbe2abaf38d0ebc4cca3e28109
+ms.openlocfilehash: 668ab28297ee7baf8f28cbbaf179d13cb5151dc4
+ms.sourcegitcommit: 248369a0da5f2b2a1399f6adab81f9e82df831a1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2667955"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3332323"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Notaðu JOIN gagnaheimildir til að fá gögn úr mörgum forritatöflum í líkanavörpun í rafrænni skýrslugerð (ER)
 
@@ -140,7 +140,7 @@ Skoðaðu stillingar á vörpunaríhluta ER-líkansins. Íhluturinn er stilltur 
 
 7.  Lokið síðunni.
 
-### <a name="review"></a>Skoðaðu vörpun ER-líkans (hluti 2)
+### <a name="review-er-model-mapping-part-2"></a><a name="review"></a>Skoðaðu vörpun ER-líkans (hluti 2)
 
 Skoðaðu stillingar á vörpunaríhluta ER-líkansins. Íhluturinn er stilltur til að fá aðgang að upplýsingum um útgáfur af ER-stillingum, upplýsingum um stillingar og stillingarveitendur með notkun á gagnagjafa af gerðinni **Join**.
 
@@ -185,7 +185,7 @@ Skoðaðu stillingar á vörpunaríhluta ER-líkansins. Íhluturinn er stilltur 
 9.  Lokið síðunni.
 10. Veldu **Hætta við**.
 
-### <a name="executeERformat"></a> Framkvæma ER-snið
+### <a name="execute-er-format"></a><a name="executeERformat"></a> Framkvæma ER-snið
 
 1.  Fáðu aðgang að Finance eða RCS í annarri lotu vafrans þíns með sömu persónuskilríkjum og fyrirtæki og í fyrstu lotunni.
 2.  Opnið **Fyrirtækisstjórnun \> Rafræn skýrslugerð \> Skilgreiningar**.
@@ -240,7 +240,7 @@ Skoðaðu stillingar á vörpunaríhluta ER-líkansins. Íhluturinn er stilltur 
 
     ![ER notendagluggasíða](./media/GER-JoinDS-Set2Run.PNG)
 
-#### <a name="analyze"></a> Greindu framkvæmdarakningu fyrir ER snið
+#### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> Greindu framkvæmdarakningu fyrir ER snið
 
 1.  Í fyrstu lotu af Finance eða RCS velurðu **Hönnuður**.
 2.  Veldu **Afkastarakningu**.
@@ -256,6 +256,33 @@ Skoðaðu stillingar á vörpunaríhluta ER-líkansins. Íhluturinn er stilltur 
     - Forritagagnagrunnur hefur verið kallaður einu sinni til að reikna út fjölda stillingarútgáfa með því að nota sameiningar sem voru stilltar í gagnagjafanum **Upplýsingar**.
 
     ![Hönnuðarsíðan ER-líkanavörpun](./media/GER-JoinDS-Set2Run3.PNG)
+
+## <a name="limitations"></a>Takmarkanir
+
+Eins og sjá má í dæminu í þessu efnisatriði er hægt að smíða gagnagjafann **TENGJAST** úr ýmsum gagnagjöfum sem útskýra hvert gagnasafn færslanna fyrir sig sem þarf að lokum að tengja saman. Hægt er að skilgreina þessa gagnagjafa með því að nota innbyggðu rafrænu skýrslugerðarvirknina [SÍA](er-functions-list-filter.md). Þegar gagnagjafinn er skilgreindur þannig að hann er kallaður fram yfir gagnagjafann **TENGJAST** er hægt að nota fyrirtækjasvið sem hluta af skilyrðinu fyrir gagnavalið. Fyrsta innleiðingin á gagnagjafanum **TENGJAST** styður ekki gagnagjafa af þessari gerð. Til dæmis þegar kallað er á gagnagjafa sem byggir á [SÍU](er-functions-list-filter.md) innan umfangs keyrslunnar á gagnagjafa **TENGJAST**, ef gagnagjafinn sem kallað er á inniheldur fyrirtækjasvið sem hluta af skilyrðinu fyrir gagnavalinu, á undantekning sér stað.
+
+Í Microsoft Dynamics 365 Finance útgáfu 10.0.12 (ágúst 2020) er hægt að nota fyrirtækjasvið sem hluta af skilyrðinu fyrir gagnavali í gagnagjöfum sem byggja á [SÍU](er-functions-list-filter.md) sem er kallað á innan umfangs keyrslunnar á gagnagjafa **TENGJAST**. Vegna takmarkanna á smið [fyrirspurnar](../dev-ref/xpp-library-objects.md#query-object-model) í forritinu eru fyrirtækjasviðin aðeins studd fyrir fyrsta gagnagjafa af gagnagjafanum **TENGJAST**.
+
+### <a name="example"></a>Dæmi
+
+Til dæmis verður þú að kalla einu sinni á gagnagrunn forritsins til að fá listann yfir erlendar viðskiptafærslur margra fyrirtækja og upplýsingar um birgðavöruna sem vísað er til í þessum færslum.
+
+Í slíku tilfelli skilgreinir þú eftirfarandi gervinga í líkanavörpun rafrænu skýrslugerðarinnar:
+
+- **Intrastat** rótargagnagjafinn sem sýnir **Intrastat** töfluna.
+- **Vörur** rótargagnagjafinn sem sýnir **InventTable** töfluna.
+- **Fyrirtæki** rótargagnagjafinn sem skilar lista yfir fyrirtæki (**DEMF** og **GBSI** í þessu dæmi) þar sem aðgangur að færslunum er nauðsynlegur. Fyrirtækjakóðinn er fáanlegur úr reitnum **Companies.Code**.
+- **X1** rótargagnagjafinn sem er með segðina `FILTER (Intrastat, VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code))`. Sem hluti af skilyrðinu fyrir gagnaval, inniheldur þessi segð skilgreininguna á fyrirtækjasviðunum `VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code)`.
+- **X2** gagnagjafinn sem faldað atriði gagnagjafans **X1**. Þar á meðal segðina `FILTER (Items, Items.ItemId = X1.ItemId)`.
+
+Að lokum er hægt að skilgreina gagnagjafann **TENGJAST** þar sem **X1** er fyrri gagnagjafinn og **X2** er seinni gagnagjafinn. Hægt er að tilgreina **Fyrirspurn** sem valkostinn **Keyra** til að þvinga rafræna skýrslugerð til að keyra þennan gagnagjafa á gagnagrunnsstigi sem beint SQL-kall.
+
+Þegar skilgreindur gagnagjafi er keyrður á meðan keyrsla rafrænnar skýrslugerðar er [rakin](trace-execution-er-troubleshoot-perf.md) er eftirfarandi yfirlýsing sýnd í hönnuði fyrir líkanavörpun rafrænnar skýrslugerðar sem hluti af afkastarakningu rafrænnar skýrslugerðar.
+
+`SELECT ... FROM INTRASTAT T1 CROSS JOIN INVENTTABLE T2 WHERE ((T1.PARTITION=?) AND (T1.DATAAREAID IN (N'DEMF',N'GBSI') )) AND ((T2.PARTITION=?) AND (T2.ITEMID=T1.ITEMID AND (T2.DATAAREAID = T1.DATAAREAID) AND (T2.PARTITION = T1.PARTITION))) ORDER BY T1.DISPATCHID,T1.SEQNUM`
+
+> [!NOTE]
+> Villa kemur upp ef keyrður er **TENGJAST** gagnagjafi sem hefur verið skilgreindur þannig að hann innihaldi skilyrði gagnavals sem er með fyrirtækjasvið fyrir frekari gagnagjafa af keyrða gagnagjafanum **TENGJAST**.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

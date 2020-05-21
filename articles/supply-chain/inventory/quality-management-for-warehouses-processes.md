@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: c11821db796220cd61d776428fb6890480f27b8e
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.openlocfilehash: 481f7787e21cd9a00ed1798d4d2588e93ca73b56
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269438"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346538"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gæðastjórnun fyrir vöruhúsaferli
 
@@ -46,7 +46,7 @@ Eiginleikinn _Gæðastjórnun fyrir vöruhúsaferli_ býr sjálfkrafa til vinnu 
 
 Þegar kveikt er á eiginleikanum _Gæðastjórnun fyrir vörugeymslur_ breytir það skipulagi lykilstjórnunar og gæðastjórnunaraðila. Eftirfarandi mynd sýnir yfirlit yfir einingarnar sem virkja gæðapantanir fyrir vöruhúsaferli. Texti í sviga tilgreinir ráðlagðar aðgerðir þegar gæðastjórnun var notuð áður en kveikt var á eiginleikanum _Gæðastjórnun fyrir vöruhúsakerfisferla_.
 
-![Gæðastjórnunareiningar](media/quality-management-entity-diagram.png "Gæðastjórnunareiningar")
+![![Gæðastjórnunareiningar](media/quality-management-entity-diagram.png "Gæðastjórnunareiningar")](media/quality-management-entity-diagram.png "Quality management entities")
 
 ## <a name="enablers-the-quality-item-sampling-and-quality-order-work-order-types"></a>Virkjarar: Vörusýnataka gæðaskoðunar og verkbeiðnigerðir gæðapöntunar
 
@@ -61,7 +61,7 @@ Verkbeiðnigerðirnar _Vörusýnataka gæðaskoðunar_ og _Gæðapöntun_ eru no
 
 Áður en hægt er að búa til vöruhúsavinnu til að sjálfkrafa flytja birgðir til gæðastjórnunar þarf að fylgja þessum skrefum til að setja upp kerfið.
 
-1. Búa skal til aðskilda vinnuklasa fyrir verkbeiðnigerðirnar _Vörusýnataka gæðaskoðunar_ og _Gæðapöntun_. Með þessu móti tryggir þú að sjálfkrafa sé hægt að búa til viðeigandi vinnu á samkvæmt tveimur verkbeiðnigerðum og að þessa vinnu sé síðan hægt að keyra með því að nota farsímaforrit vöruhúss.
+1. Búa skal til aðskilda vinnuklasa fyrir verkbeiðnigerðirnar _Vörusýnataka gæðaskoðunar_ og _Gæðapöntun_. Með þessu móti tryggir þú að sjálfkrafa sé hægt að búa til viðeigandi vinnu á samkvæmt tveimur verkbeiðnigerðum og að þessa vinnu sé síðan hægt að keyra með því að nota vöruhúsaforritið.
 1. Þú getur sett upp vinnusniðmát fyrir hverja verkbeiðnistegund.
 
     - Settu upp vinnusniðmát sem notar verkbeiðnigerðina _Vörusýnataka gæðaskoðunar_ til að flytja sjálfkrafa skráðar birgðir til staðsetningar gæðastjórnunar.
@@ -165,7 +165,7 @@ Valkosturinn **Skipta talningu eftir vöru** stýrir því hvort talning númera
 
 Gildið í reitnum **Fyrir hverja n númeraplötu** stýrir því hversu oft gæðapantanir eru stofnaðar í tengslum við vörufjöldann sem er skráður. Til dæmis mun gildið *3* senda þriðju hverja vöru til gæðastjórnunar, sem hefst á fyrstu vörunni. Gildið verður að vera meira en 0 (núll).
 
-Á meðan starfskraftar taka á móti vörum með því að nota fartækjaforrit vöruhúss staðfestir kerfið hvort gæðatenging sé uppsett fyrir sérhverja vöru á innleið. Ef gæðatenging er sett upp, notar kerfið færslu vörusýnatöku sem stillt er fyrir gæðatengingu sem um ræðir til að ákvarða hvernig það mun stofna gæðapantanir, gæðavinnu vörusýnatöku og innkaupapöntunarvinnu.
+Á meðan starfskraftar taka á móti vörum með því að nota vöruhúsaforrit staðfestir kerfið hvort gæðatenging sé uppsett fyrir sérhverja vöru á innleið. Ef gæðatenging er sett upp, notar kerfið færslu vörusýnatöku sem stillt er fyrir gæðatengingu sem um ræðir til að ákvarða hvernig það mun stofna gæðapantanir, gæðavinnu vörusýnatöku og innkaupapöntunarvinnu.
 
 > [!NOTE]
 > Þegar móttökuskráningu lýkur í vefbiðlaranum (með því að nota litlu skráningasíðuna eða komubók vörunnar fyrir innkaupapöntunarlínur) verður engin gæðavinna vörusýnatöku eða innkaupapöntunarvinna stofnuð, burtséð frá uppsetningunni. Fyrir vörur sem passa við gæðatengingu verður tilvísuð vörusýnataka í staðinn notuð til að stjórna stofnun á gæðapöntunum eingöngu.
@@ -180,14 +180,14 @@ Gildið **Tilvísunargerð** fyrir eftirfarandi dæmi er _Innkaup_ og gildið **
 
 | Umfang sýnatöku | Uppsetning magns | Uppfært magn á | Á geymsluvídd | Skipta talningu eftir vöru | Á x númeraplötu | Niðurstaða |
 |---|---|---|---|---|---|---|
-| Pöntun | Full númeraplata | Já _(læst/ekki hægt að breyta)_ | <p>Staðsetning: Já</p><p>Númeraplata: Já _(læst/ekki hægt að breyta)_</p> | Ekkert | 3 | <p>**Pöntunarlínamagn: 100 EA**</p><ol><li>Skrá kvittun í WMA fyrir 20 EA, LP1<p>Gæðavinna sýnatöku fyrir 20 EA</p><p>Gæðapöntun 1 fyrir 20 EA</p></li><li>Skrá kvittun í WMA fyrir 20 EA, LP2<p>Innkaupapöntunarvinna fyrir 20 EA (frágangur)</p></li><li>Skrá kvittun í WMA fyrir 20 EA, LP3<p>Innkaupapöntunarvinna fyrir 20 EA (frágangur)</p></li><li>Skrá kvittun í WMA fyrir 20 EA, LP4<p>Gæðavinna sýnatöku fyrir 20 EA</p></li><li>Skrá kvittun í WMA fyrir 20 EA, LP5<p>Innkaupapöntunarvinna fyrir 20 EA (frágangur)</p></li></ol> |
-| Pöntun | Fast magn = 1 | Já | <p>Staðsetning: Já</p><p>Númeraplata: Já</p> | Ekkert | Ekki tiltækt | <p>**Pöntunarlínamagn: 100**</p><ol><li>Skrá kvittun í WMA fyrir 20 EA, LP1<p>Gæðavinna sýnatöku fyrir 1 EA</p><p>Gæðapöntun 1 fyrir 1 EA</p><p>Innkaupapöntunarvinna fyrir 19 EA (frágangur)</p></li><li>Skrá kvittun í WMA fyrir 20 EA, LP2<p>Gæðavinna sýnatöku fyrir 1 EA</p><p>Gæðapöntun 1 fyrir 1 EA</p><p>Innkaupapöntunarvinna fyrir 19 (frágangur)</p></li><li>Skrá kvittun í WMA fyrir 20 EA, LP3<p>Gæðavinna sýnatöku fyrir 1 EA</p><p>Gæðapöntun 1 fyrir 1 EA</p><p>Innkaupapöntunarvinna fyrir 19 EA (frágangur)</p></li><li>Skrá kvittun í WMA fyrir 20 EA, LP4<p>Gæðavinna sýnatöku fyrir 1 EA</p><p>Gæðapöntun 1 fyrir 1 EA</p><p>Innkaupapöntunarvinna fyrir 19 EA (frágangur)</p></li><li>Skrá kvittun í WMA fyrir 20 EA, LP5<p>Gæðavinna sýnatöku fyrir 1 EA</p><p>Gæðapöntun 1 fyrir 1 EA</p><p>Innkaupapöntunarvinna fyrir 19 EA (frágangur)</p></li></ol> |
-| Pöntun | Prósenta = 10 | Ekkert | <p>Staðsetningin: Nei</p><p>Númeraplata: Nr.</p> | Ekkert | Ekki tiltækt | <p>**Pöntunarlínamagn: 100 EA**</p><ol><li>Skrá kvittun í WMA fyrir 50 EA, LP1<p>Gæðavinna sýnatöku fyrir 10 EA</p><p>Gæðapöntun 1 fyrir 10 EA</p><p>Innkaupapöntunarvinna fyrir 40 EA (frágangur)</p></li><li>Skrá kvittun í WMA fyrir 50 EA, LP2<p>Innkaupapöntunarvinna fyrir 50 EA (frágangur)</p></li></ol> |
-| Sækja | Prósenta = 5 | Já _(læst/ekki hægt að breyta)_ | <p>Staðsetningin: Nei</p><p>Númeraplata: Nr.</p> | Ekkert | Ekki tiltækt | <p>**Pöntunarlínamagn: 500 EA**</p><p>**Tvær hleðslur: fyrri hleðsla 200 EA, seinni hleðsla 300 EA**</p><ol><li>Skráið kvittun í WMA fyrir fyrsta álag fyrir 100 EA<p>Gæðavinna sýnatöku fyrir 5 EA</p><p>Gæðapöntun 1 fyrir 5 EA</p><p>Innkaupapöntunarvinna fyrir 95 EA (frágangur)</p></li><li>Skráið kvittun í WMA fyrir fyrsta álag fyrir 100 EA<p>Gæðavinna sýnatöku fyrir 5 EA</p><p>Gæðapöntun 1 fyrir 5 EA</p><p>Innkaupapöntunarvinna fyrir 95 EA (frágangur)</p></li><li>Skráið kvittun í WMA fyrir seinni hleðsluna fyrir 300 EA<p>Gæðavinna sýnatöku fyrir 15 EA</p><p>Gæðapöntun 1 fyrir 15 EA</p><p>Innkaupapöntunarvinna fyrir 285 EA (frágangur)</p></li></ol> |
-| Pöntun | Prósenta = 10 | Ekkert | <p>Staðsetning: Já</p><p>Númeraplata: Já</p> | Ekkert | Ekki tiltækt | <p>**Pöntunarlínamagn: 100**</p><ol><li>Skrá kvittun í WMA fyrir 50 EA, LP1<p>Gæðavinna sýnatöku fyrir 5 EA</p><p>Gæðapöntun 1 fyrir 5 EA</p><p>Innkaupapöntunarvinna fyrir 45 EA (frágangur)</p></li><li>Skrá kvittun í WMA fyrir 50 EA, LP2<p>Gæðavinna sýnatöku fyrir 5 EA</p><p>Gæðapöntun 1 fyrir 5 EA</p><p>Innkaupapöntunarvinna fyrir 45 (frágangur)</p></li></ol> |
-| Sækja | Full númeraplata | Já _(læst/ekki hægt að breyta)_ | <p>Staðsetning: Já</p><p>Númeraplata: Já _(læst/ekki hægt að breyta)_</p> | Ekkert | 3 | <p>**Tveir hlutir:**</p><ul><li>**Magn pöntunarlínu fyrir vöru A: 120 EA (4 bretti)**</li><li>**Pöntunarlínamagn fyrir atriði B: 90 EA (3 bretti)**</li></ul><p>**Ein hleðsla, tvær hleðslulínur með sitthvora pöntunarlínu**</p><ol><li>Skrá kvittun í WMA fyrir atriði A, 30 EA, LP1<p>Gæðavinna sýnatöku fyrir 30 EA</p><p>Gæðapöntun 1 fyrir 30 EA</p></li><li>Skrá kvittun í WMA fyrir atriði A, 30 EA, LP2<p>Innkaupapöntunarvinna fyrir 30 EA (frágangur)</p></li><li>Skrá kvittun í WMA fyrir atriði A, 30 EA, LP3<p>Innkaupapöntunarvinna fyrir 30 EA (frágangur)</p></li><li>Skrá kvittun í WMA fyrir atriði A, 30 EA, LP4<p>Gæðavinna sýnatöku fyrir 30 EA</p><p>Gæðapöntun 1 fyrir 30 EA</p></li><li>Skrá kvittun í WMA fyrir atriði A, 30 EA, LP5<p>Innkaupapöntunarvinna fyrir 30 EA (frágangur)</p></li><li>Skrá kvittun í WMA fyrir atriði A, 30 EA, LP6<p>Innkaupapöntunarvinna fyrir 30 EA (frágangur)</p></li><li>Skrá kvittun í WMA fyrir atriði A, 30 EA, LP7<p>Gæðavinna sýnatöku fyrir 30 EA</p><p>Gæðapöntun 1 fyrir 30 EA</p></li></ol> |
-| Sækja | Full númeraplata | Já _(læst/ekki hægt að breyta)_ | <p>Staðsetning: Já</p><p>Númeraplata: Já _(læst/ekki hægt að breyta)_</p> | Já | 3 | <p>**Tveir hlutir:**</p><ul><li>**Magn pöntunarlínu fyrir vöru A: 120 EA (4 bretti)**</li><li>**Pöntunarlínamagn fyrir atriði B: 90 EA (3 bretti)**</li></ul><p>**Ein hleðsla, tvær hleðslulínur með sitthvora pöntunarlínu**</p><ol><li>Skrá kvittun í WMA fyrir atriði A, 30 EA, LP1<p>Gæðavinna sýnatöku fyrir 30 EA</p><p>Gæðapöntun 1 fyrir 30 EA</p></li><li>Skrá kvittun í WMA fyrir atriði A, 30 EA, LP2<p>Innkaupapöntunarvinna fyrir 30 EA (frágangur)</p></li><li>Skrá kvittun í WMA fyrir atriði A, 30 EA, LP3<p>Innkaupapöntunarvinna fyrir 30 EA (frágangur)</p></li><li>Skrá kvittun í WMA fyrir atriði A, 30 EA, LP4<p>Gæðavinna sýnatöku fyrir 30 EA</p><p>Gæðapöntun 1 fyrir 30 EA</p></li><li>Skrá kvittun í WMA fyrir atriði A, 30 EA, LP5<p>Gæðavinna sýnatöku fyrir 30 EA</p><p>Gæðapöntun 1 fyrir 30 EA</p></li><li>Skrá kvittun í WMA fyrir atriði A, 30 EA, LP6<p>Innkaupapöntunarvinna fyrir 30 EA (frágangur)</p></li><li>Skrá kvittun í WMA fyrir atriði A, 30 EA, LP7<p>Innkaupapöntunarvinna fyrir 30 EA (frágangur)</p></li></ol> |
-| Sækja | Prósenta = 10 | Já _(læst/ekki hægt að breyta)_ | <p>Staðsetningin: Nei</p><p>Númeraplata: Nr.</p> | Ekkert | Ekki tiltækt | <p>**Pöntunarlínamagn: 100 EA**</p><p>**Engar hleðslur eru búnar til. Umfang pöntunar er notað.**</p><ol><li>Skrá kvittun í WMA fyrir 50 EA, LP1<p>Gæðavinna sýnatöku fyrir 5 EA</p><p>Gæðapöntun 1 fyrir 5 EA</p><p>Innkaupapöntunarvinna fyrir 45 EA (frágangur)</p></li><li>Skrá kvittun í WMA fyrir 50 EA, LP2<p>Gæðavinna sýnatöku fyrir 5 EA</p><p>Gæðapöntun 1 fyrir 5 EA</p><p>Innkaupapöntunarvinna fyrir 45 EA (frágangur)</p></li></ol> |
+| Pöntun | Full númeraplata | Já _(læst/ekki hægt að breyta)_ | <p>Staðsetning: Já</p><p>Númeraplata: Já _(læst/ekki hægt að breyta)_</p> | Ekkert | 3 | <p>**Pöntunarlínamagn: 100 EA**</p><ol><li>Skrá kvittun í vöruhúsaforrit fyrir 20 EA, LP1<p>Gæðavinna sýnatöku fyrir 20 EA</p><p>Gæðapöntun 1 fyrir 20 EA</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir 20 EA, LP2<p>Innkaupapöntunarvinna fyrir 20 EA (frágangur)</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir 20 EA, LP3<p>Innkaupapöntunarvinna fyrir 20 EA (frágangur)</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir 20 EA, LP4<p>Gæðavinna sýnatöku fyrir 20 EA</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir 20 EA, LP5<p>Innkaupapöntunarvinna fyrir 20 EA (frágangur)</p></li></ol> |
+| Pöntun | Fast magn = 1 | Já | <p>Staðsetning: Já</p><p>Númeraplata: Já</p> | Ekkert | Ekki tiltækt | <p>**Pöntunarlínamagn: 100**</p><ol><li>Skrá kvittun í vöruhúsaforrit fyrir 20 EA, LP1<p>Gæðavinna sýnatöku fyrir 1 EA</p><p>Gæðapöntun 1 fyrir 1 EA</p><p>Innkaupapöntunarvinna fyrir 19 EA (frágangur)</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir 20 EA, LP2<p>Gæðavinna sýnatöku fyrir 1 EA</p><p>Gæðapöntun 1 fyrir 1 EA</p><p>Innkaupapöntunarvinna fyrir 19 (frágangur)</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir 20 EA, LP3<p>Gæðavinna sýnatöku fyrir 1 EA</p><p>Gæðapöntun 1 fyrir 1 EA</p><p>Innkaupapöntunarvinna fyrir 19 EA (frágangur)</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir 20 EA, LP4<p>Gæðavinna sýnatöku fyrir 1 EA</p><p>Gæðapöntun 1 fyrir 1 EA</p><p>Innkaupapöntunarvinna fyrir 19 EA (frágangur)</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir 20 EA, LP5<p>Gæðavinna sýnatöku fyrir 1 EA</p><p>Gæðapöntun 1 fyrir 1 EA</p><p>Innkaupapöntunarvinna fyrir 19 EA (frágangur)</p></li></ol> |
+| Pöntun | Prósenta = 10 | Ekkert | <p>Staðsetningin: Nei</p><p>Númeraplata: Nr.</p> | Ekkert | Ekki tiltækt | <p>**Pöntunarlínamagn: 100 EA**</p><ol><li>Skrá kvittun í vöruhúsaforrit fyrir 50 EA, LP1<p>Gæðavinna sýnatöku fyrir 10 EA</p><p>Gæðapöntun 1 fyrir 10 EA</p><p>Innkaupapöntunarvinna fyrir 40 EA (frágangur)</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir 50 EA, LP2<p>Innkaupapöntunarvinna fyrir 50 EA (frágangur)</p></li></ol> |
+| Sækja | Prósenta = 5 | Já _(læst/ekki hægt að breyta)_ | <p>Staðsetningin: Nei</p><p>Númeraplata: Nr.</p> | Ekkert | Ekki tiltækt | <p>**Pöntunarlínamagn: 500 EA**</p><p>**Tvær hleðslur: fyrri hleðsla 200 EA, seinni hleðsla 300 EA**</p><ol><li>Skrá kvittun í vöruhúsaforriti fyrir fyrsta álag fyrir 100 EA<p>Gæðavinna sýnatöku fyrir 5 EA</p><p>Gæðapöntun 1 fyrir 5 EA</p><p>Innkaupapöntunarvinna fyrir 95 EA (frágangur)</p></li><li>Skrá kvittun í vöruhúsaforriti fyrir fyrsta álag fyrir 100 EA<p>Gæðavinna sýnatöku fyrir 5 EA</p><p>Gæðapöntun 1 fyrir 5 EA</p><p>Innkaupapöntunarvinna fyrir 95 EA (frágangur)</p></li><li>Skráið kvittun í vöruhúsaforrit fyrir seinni hleðsluna fyrir 300 EA<p>Gæðavinna sýnatöku fyrir 15 EA</p><p>Gæðapöntun 1 fyrir 15 EA</p><p>Innkaupapöntunarvinna fyrir 285 EA (frágangur)</p></li></ol> |
+| Pöntun | Prósenta = 10 | Ekkert | <p>Staðsetning: Já</p><p>Númeraplata: Já</p> | Ekkert | Ekki tiltækt | <p>**Pöntunarlínamagn: 100**</p><ol><li>Skrá kvittun í vöruhúsaforrit fyrir 50 EA, LP1<p>Gæðavinna sýnatöku fyrir 5 EA</p><p>Gæðapöntun 1 fyrir 5 EA</p><p>Innkaupapöntunarvinna fyrir 45 EA (frágangur)</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir 50 EA, LP2<p>Gæðavinna sýnatöku fyrir 5 EA</p><p>Gæðapöntun 1 fyrir 5 EA</p><p>Innkaupapöntunarvinna fyrir 45 (frágangur)</p></li></ol> |
+| Sækja | Full númeraplata | Já _(læst/ekki hægt að breyta)_ | <p>Staðsetning: Já</p><p>Númeraplata: Já _(læst/ekki hægt að breyta)_</p> | Ekkert | 3 | <p>**Tveir hlutir:**</p><ul><li>**Magn pöntunarlínu fyrir vöru A: 120 EA (4 bretti)**</li><li>**Pöntunarlínamagn fyrir atriði B: 90 EA (3 bretti)**</li></ul><p>**Ein hleðsla, tvær hleðslulínur með sitthvora pöntunarlínu**</p><ol><li>Skrá kvittun í vöruhúsaforrit fyrir atriði A, 30 EA, LP1<p>Gæðavinna sýnatöku fyrir 30 EA</p><p>Gæðapöntun 1 fyrir 30 EA</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir atriði A, 30 EA, LP2<p>Innkaupapöntunarvinna fyrir 30 EA (frágangur)</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir atriði A, 30 EA, LP3<p>Innkaupapöntunarvinna fyrir 30 EA (frágangur)</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir atriði A, 30 EA, LP4<p>Gæðavinna sýnatöku fyrir 30 EA</p><p>Gæðapöntun 1 fyrir 30 EA</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir atriði B, 30 EA, LP5<p>Innkaupapöntunarvinna fyrir 30 EA (frágangur)</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir atriði B, 30 EA, LP6<p>Innkaupapöntunarvinna fyrir 30 EA (frágangur)</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir atriði A, 30 EA, LP7<p>Gæðavinna sýnatöku fyrir 30 EA</p><p>Gæðapöntun 1 fyrir 30 EA</p></li></ol> |
+| Sækja | Full númeraplata | Já _(læst/ekki hægt að breyta)_ | <p>Staðsetning: Já</p><p>Númeraplata: Já _(læst/ekki hægt að breyta)_</p> | Já | 3 | <p>**Tveir hlutir:**</p><ul><li>**Magn pöntunarlínu fyrir vöru A: 120 EA (4 bretti)**</li><li>**Pöntunarlínamagn fyrir atriði B: 90 EA (3 bretti)**</li></ul><p>**Ein hleðsla, tvær hleðslulínur með sitthvora pöntunarlínu**</p><ol><li>Skrá kvittun í vöruhúsaforrit fyrir atriði A, 30 EA, LP1<p>Gæðavinna sýnatöku fyrir 30 EA</p><p>Gæðapöntun 1 fyrir 30 EA</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir atriði A, 30 EA, LP2<p>Innkaupapöntunarvinna fyrir 30 EA (frágangur)</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir atriði A, 30 EA, LP3<p>Innkaupapöntunarvinna fyrir 30 EA (frágangur)</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir atriði A, 30 EA, LP4<p>Gæðavinna sýnatöku fyrir 30 EA</p><p>Gæðapöntun 1 fyrir 30 EA</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir atriði B, 30 EA, LP5<p>Gæðavinna sýnatöku fyrir 30 EA</p><p>Gæðapöntun 1 fyrir 30 EA</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir atriði B, 30 EA, LP6<p>Innkaupapöntunarvinna fyrir 30 EA (frágangur)</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir atriði A, 30 EA, LP7<p>Innkaupapöntunarvinna fyrir 30 EA (frágangur)</p></li></ol> |
+| Sækja | Prósenta = 10 | Já _(læst/ekki hægt að breyta)_ | <p>Staðsetningin: Nei</p><p>Númeraplata: Nr.</p> | Ekkert | Ekki tiltækt | <p>**Pöntunarlínamagn: 100 EA**</p><p>**Engar hleðslur eru búnar til. Umfang pöntunar er notað.**</p><ol><li>Skrá kvittun í vöruhúsaforrit fyrir 50 EA, LP1<p>Gæðavinna sýnatöku fyrir 5 EA</p><p>Gæðapöntun 1 fyrir 5 EA</p><p>Innkaupapöntunarvinna fyrir 45 EA (frágangur)</p></li><li>Skrá kvittun í vöruhúsaforrit fyrir 50 EA, LP2<p>Gæðavinna sýnatöku fyrir 5 EA</p><p>Gæðapöntun 1 fyrir 5 EA</p><p>Innkaupapöntunarvinna fyrir 45 EA (frágangur)</p></li></ol> |
 
 Þegar starfsmaður staðfestir eina af gæðapöntunum sem sýndar eru í fyrri töflu býr kerfið sjálfkrafa til gæðapöntunarvinnu til að flytja birgðir frá staðsetningu gæðastjórnunar til staðsetningarinnar sem skilgreind er í staðsetningarleiðbeiningunni fyrir verkbeiðnigerðina _Gæðapöntun_. Hægt er að setja upp hvaða staðsetningu sem er í þessum tilgangi, t.d. sem skila- eða geymslustaðsetningu, fer eftir niðurstöðu prófunar fyrir gæðapöntunina. Dæmi um þessa uppsetningu er að finna í [dæmi um atburðarás](#example-scenario) í lokin á þessu efnisatriði.
 
@@ -239,7 +239,7 @@ Gildið **Tilvísunargerð** í eftirfarandi dæmi er _Innkaup_.
     - **Prófunarflokkur:** *Keila*
     - **Vörusýnishorn:** *10%*
 
-Innkaupapöntun með magn upp á 10 fyrir vöruna A0001 er nú stofnuð fyrir lánardrottin 104. Þá er innkaupapöntunarlína sem hefur magnið 10 skráð sem móttekin á einni númeraplötu með því að nota WMA. Niðurstaða er:
+Innkaupapöntun með magn upp á 10 fyrir vöruna A0001 er nú stofnuð fyrir lánardrottin 104. Þá er innkaupapöntunarlína sem hefur magnið 10 skráð sem móttekin á einni númeraplötu með því að nota vöruhúsaforrit. Niðurstaða er:
 
 - Það er ein gæðapöntun frá fyrstu gæðatengingunni fyrir prófunarflokkinn *Lokað rými*. Magnið 5. Það er engin gæðapöntun frá seinni gæðatengingunni vegna þess að skilyrðið fyrir fyrstu gæðatenginguna er sértækara miðað við prófunarflokkinn *Lokað rými*.
 - Það er ein gæðapöntun fyrir þriðju gæðatenginguna fyrir prófunarflokkinn *Viðnám*. Magnið 10. Það er engin gæðapöntun frá fjórðu gæðatengingunni vegna þess að skilyrðið fyrir fyrstu gæðatenginguna er sértækara en prófunarflokkurinn *Viðnám*.
@@ -457,7 +457,7 @@ Til að ljúka uppsetningunni til að flytja vörur á staðsetningu gæðastjó
     - **Vöruhús:** *51*
 
 1. Skrifaðu niður númer innkaupapöntunar svo þú getir notað það seinna.
-1. Farðu í fartæki eða hermi sem keyrir WMA og skráðu þig inn í vöruhús 51 með því að nota *51* sem notandakenni og *1* sem aðgangsorð.
+1. Farðu í fartæki eða hermi sem keyrir vöruhúsaforrit og skráðu þig inn í vöruhús 51 með því að nota *51* sem notandakenni og *1* sem aðgangsorð.
 1. Farðu í **Á innleið \> Móttaka innkaupa** og sláðu inn eftirfarandi gildi:
 
     - **PONum:** Númer innkaupapöntunarinnar sem var stofnuð
@@ -465,7 +465,7 @@ Til að ljúka uppsetningunni til að flytja vörur á staðsetningu gæðastjó
     - **Prófhópur:** *ea*
 
 1. Haltu áfram að taka á móti fyrir línuna, *5 ea* í einu, þar til línan er móttekin að fullu. (Alls verða fjórar númeraplötur búnar til.)
-1. Skrá út af WMA.
+1. Skrá út á vöruhúsaforriti.
 1. Í vefþjóninum skal fara í **Innkaup og aðföng \> Innkaupapantanir \> Allar innkaupapantanir**.
 1. Finndu og opnaðu innkaupapöntunina.
 1. Í hlutanum **Innkaupapöntunarlínur** skal velja línuna fyrir vörunúmerið *M9201* og síðan velja **Innkaupapöntunarlínur \> Upplýsingar um verk**.
@@ -475,7 +475,7 @@ Til að ljúka uppsetningunni til að flytja vörur á staðsetningu gæðastjó
 
 Nú færir þú númeraplöturnar yfir á tilgreindar staðsetningar. Fyrsta og fjórða númeraplatan fer á staðsetningu gæðastjórnunar, en önnur og þriðja númeraplatan fer beint í geymslu.
 
-1. Farðu í fartæki eða hermi sem keyrir WMA og skráðu þig inn í vöruhús 51 með því að nota *51* sem notandakenni og *1* sem aðgangsorð.
+1. Farðu í fartæki eða hermi sem keyrir vöruhúsaforrit og skráðu þig inn í vöruhús 51 með því að nota *51* sem notandakenni og *1* sem aðgangsorð.
 1. Farðu í **Á innleið \> Frágangur innkaupa** og gakktu frá hverri númeraplötu úr fyrra ferli þar til þú hefur lokað öllu verkinu.
 
 #### <a name="summary-process-quality-management-work"></a>Samantekt: Vinna úr verki gæðastjórnunar
@@ -617,7 +617,7 @@ Starfsmenn í vöruhúsi geta nú tekið til gæðapöntunarverk með því að 
 
 1. Farðu í **Vöruhúsastjórnun \> Öll verk**.
 1. Veldu verkið sem var nýlega stofnað og taktu eftir að annar verkhaus gæðapöntunar var búinn til þar sem frágangsstaðsetningin er *BULK-001*.
-1. Farðu í fartæki eða hermi sem keyrir WMA og skráðu þig inn í vöruhús 51 með því að nota *51* sem notandakenni og *1* sem aðgangsorð.
+1. Farðu í fartæki eða hermi sem keyrir vöruhúsaforrit og skráðu þig inn í vöruhús 51 með því að nota *51* sem notandakenni og *1* sem aðgangsorð.
 1. Fara skal í **Gæðaskoðun \> Frágangur frá QMS** og vinna úr báðum númeraplötunum sem tengjast báðum verkunum þannig að allri vinnu er lokað.
 
 > [!NOTE]

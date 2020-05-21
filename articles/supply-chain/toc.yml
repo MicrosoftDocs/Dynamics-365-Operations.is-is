@@ -425,6 +425,8 @@
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: Staða viðhalds
                   href: asset-management/controlling-and-reporting/maintenance-status.md
+            - name: Samþætta eignastýringu með Dynamics 365 Guides
+              href: asset-management/asset-management-guides-integration.md
             - name: Fartækjavinnusvæði eignastýringar
               href: asset-management/asset-management-mobile-workspace.md
         - name: Gagnastjórnun
@@ -703,7 +705,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Bæta fjárhagsvíddum við uppsafnaðar mælingar
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Búa til greiningarskýrslur með PowerBI Desktop
+                - name: Stofna greiningarskýrslur með Power BI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Bæta greiningu við vinnusvæði með Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -1135,7 +1137,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
             - name: Kennsla
               items:
-                - name: Nota SAMTENGINGU gagnaveitna til að sækja gögn úr mörgum forritatöflum
+                - name: Nota TÖFLUTENGINGU gagnaveitna til að sækja gögn úr mörgum forritatöflum
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Skilgreina varpanir rafrænna skýrslugerðarlíkana sem háð eru samhengi við lönd
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
@@ -1319,7 +1321,7 @@
               items:
                 - name: Yfirlit yfir fínstillingu áætlanagerðar
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Neikvæð atriði á lager eru meðhöndluð sem engin atriði á lager
+                - name: Áætlanagerð með neikvæðu magni á lager
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Hafist handa með fínstillingu áætlanagerðar
                   href: master-planning/planning-optimization/get-started.md
@@ -2653,8 +2655,6 @@
                   href: warehousing/material-replenishment-withdrawal-kanban.md
                 - name: Setja upp lágmark og hámark fyrir áfyllingarferli
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
-                - name: Setja upp vinnusniðmát fyrir innkaupapantanir
-                  href: ../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md
             - name: Setja upp og skilgreina vöruhúsaforrit
               items:
                 - name: Yfirlit yfir uppsetningu og skilgreiningu
@@ -2663,7 +2663,7 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: Uppsetning fartækja fyrir vöruhúsavinnu
                   href: warehousing/configure-mobile-devices-warehouse.md
-                - name: Móttaka númeraplötu með fartækjaforriti vöruhúss
+                - name: Móttaka númeraplötu með vöruhúsaforriti
                   href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: Setja upp valmyndaratriði fartækis fyrir frágang verks í innkaupapöntun
                   href: warehousing/tasks/set-up-mobile-device-menu.md

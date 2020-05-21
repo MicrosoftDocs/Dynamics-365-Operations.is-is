@@ -3,7 +3,7 @@ title: SUMIF ER aðgerð
 description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin SUMIF í rafrænni skýrslugerð (ER) er notuð.
 author: NickSelin
 manager: kfend
-ms.date: 12/04/2019
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 374569d3bbe59f1b96eee9c789b97b7b2a6004bf
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 9df7be0825203f91434d348385c1ee358ae555ea
+ms.sourcegitcommit: ef6fd78c817f93610771cfb2477f52f16b882164
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042482"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "3290201"
 ---
-# <a name="SUMIF">SUMIF ER aðgerð</a>
+# <a name=""></a><a name="SUMIF">SUMIF ER aðgerð</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -62,6 +62,8 @@ Tölugildið sem verður til.
 ## <a name="example"></a>Dæmi
 
 Nánari upplýsingar um hvernig á að nota þessa aðgerð er að finna í [Rafræn skýrslugerð nota gögn sniðúttaks til að telja og leggja saman](tasks/er-format-counting-summing-1.md) leiðarvísir, sem er hluti af **Veita/þróa IT þjónustu/þáttum** viðskiptaferli.
+
+Frekari upplýsingar og dæmi um notkun þessarar aðgerðar er að finna í [Keyrslu raðeininga í sniði rafrænnar skýrslugerðar fresta](er-defer-sequence-element.md#Example) og [Keyrslu XML-eininga í sniði rafrænnar skýrslugerðar frestað](er-defer-xml-element.md#Example).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

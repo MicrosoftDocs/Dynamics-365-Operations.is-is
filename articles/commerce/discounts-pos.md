@@ -3,7 +3,7 @@ title: Sýna afslátt í POS
 description: Þetta efni útskýrir hvernig Microsoft Dynamics 365 Commerce hjálpar söluaðilum að fræðast um kynningar og hvernig hægt er að nota þær til að selja og viðbótarselja áætlanir.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/06/2020
+ms.date: 05/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 89f7b79733f01c089a16c507b127b23ada5df1a6
-ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
+ms.openlocfilehash: 0ffa7ca6294c7b523ec743f1cb9bc4aef8ef46a8
+ms.sourcegitcommit: 4d5bcda288341572076364559125c86e2ec05273
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3265584"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3334709"
 ---
 # <a name="show-discounts-in-pos"></a>Sýna afslátt í POS
 
@@ -54,9 +54,9 @@ Síðan **Allir afslættir** sýnir aðeins nokkra afsláttarmiða sem byggir á
 
 Fjölskiptur afsláttur, svo sem magnafsláttur, blanda-og-passa afsláttur og þröskuldafsláttur, er frábær leið til að hvetja viðskiptavini til að kaupa fleiri vörur til að fá stærri afslátt. Þess vegna hjálpa þeir einnig við að auka stærð körfu viðskiptavina og tekjur smásala. Hægt er að birta þessa afslætti á vefsíðum í netverslun, á samfélagsmiðlum og á borðum í versluninni.
 
-En jafnvel þegar allar þessar kynningaraðferðir eru notaðar gætu viðskiptavinir misst af tækifærinu til að nýta sér kynningar. Til að auðvelda söluaðilum að læra hvaða kynningar eiga við um valda línu, eða jafnvel fyrir alla körfuna, geta smásalar bætt hnappinum fyrir „Skoða alla afslætti“ við hvaða hnappanet sem er í POS. Við mælum með því að hnappinum verði bætt við hnappagitið fyrir síðuna **Færsla**. Þannig getur söluaðili valið viðskiptalínu og síðan valið hnappinn til að sýna alla afsláttinn sem er í boði fyrir valda línuna. Sölumaðurinn getur einnig valið annan flipa til að sýna afslætti sem eiga við um alla færsluna.
+En jafnvel þegar allar þessar kynningaraðferðir eru notaðar gætu viðskiptavinir misst af tækifærinu til að nýta sér kynningar. Til að auðvelda söluaðilum að fá upplýsingar um það hvaða tilboð hægt er að nota fyrir valda línu, eða jafnvel alla körfuna, geta smásalar bætt við hnappnum fyrir aðgerðina „Skoða afslætti sem eru í boði“ á hnappahnitinu á síðunni **Færsla**. Á þennan hátt getur sölutengiliður valið færslulínu og síðan valið hnappinn til að sýna alla afslætti sem eru í boði fyrir völdu línuna. Sölumaðurinn getur einnig valið annan flipa til að sýna afslætti sem eiga við um alla færsluna.
 
-Síðan **Allir afslættir** sem áður var getið sýnir aðeins afslátt sem keppir ekki við neinn af þeim afslætti sem beitt er. Þessi hegðun hjálpar til við að tryggja að ef söluaðili upplýsir viðskiptavin um afslátt og viðskiptavinurinn grípur til nauðsynlegra aðgerða (til dæmis kaupir viðskiptavinurinn einn hlut til viðbótar til að fá 10 prósent afslátt), þá er afslátturinn notaður á færsluna. Eins og nefnt var áður er afsláttarmiðatengdur afsláttur aðeins sýndur þegar kveikt er á valkostinum **Sækja um án afsláttarmiðakóða**.
+Síðan **Allir afslættir** sýna aðeins afslætti sem ekki keppa við þá afslætti sem eru notaðir. Þessi hegðun hjálpar til við að tryggja að ef söluaðili upplýsir viðskiptavin um afslátt og viðskiptavinurinn grípur til nauðsynlegra aðgerða (til dæmis kaupir viðskiptavinurinn einn hlut til viðbótar til að fá 10 prósent afslátt), þá er afslátturinn notaður á færsluna. Afslættir sem byggjast á afsláttarmiðum eru aðeins birtir þegar kveikt er á valkostinum **Nota án kóða afsláttarmiða**.
 
 Í einföldri atburðarás þar sem allir afslættir hafa sama forgang er afsláttur með samhæði **Samsett**, og er jafnvægisstýring á afslætti stillt á **Besta verð og blanda innan forgangs, aldrei blandað yfir forgangsröðun**, síðan **Allir afslættir** sýnir alla tiltæka afslætti fyrir vöru, vegna þess að allir afslættir eru samsettir og keppa ekki hver við annan.
 

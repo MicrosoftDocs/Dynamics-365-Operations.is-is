@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-update-34.md
                 - name: Platform update 33 (apríl 2020)
                   href: get-started/whats-new-platform-update-33.md
-                - name: Platform update 32 (febrúar 2020)
-                  href: get-started/whats-new-platform-update-32.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Platform eiginleikar sem hafa verið fjarlægðir eða eru úreltir
@@ -140,8 +138,6 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: Uppsetning tvöfaldra skrifa úr Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
-                            - name: Upphafleg samstilling
-                              href: data-entities/dual-write/initial-sync.md
                             - name: Kveikja á tvöföldum skrifum fyrir fyrirliggjandi Finance and Operations-forrit
                               items:
                                 - name: Kveikja á tvöföldum skrifum fyrir fyrirliggjandi Finance and Operations-forrit
@@ -556,6 +552,16 @@
                   href: dev-tools/development-system-requirements.md
             - name: 'Útgáfueftirlit, leit að lýsigögnum og yfirlit'
               href: dev-tools/version-control-metadata-navigation.md
+            - name: Smíða sjálfvirkni með Azure
+              items:
+                - name: Smíða sjálfvirkni með fulltrúum hýstum hjá Microsoft og Azure Pipelines
+                  href: dev-tools/hosted-build-automation.md
+                - name: Bæta við leyfiskrám á virkjanlegan pakka í Azure Pipelines
+                  href: dev-tools/pipeline-add-license-package.md
+                - name: Stofna virkjanlegan pakka í Azure Pipelines
+                  href: dev-tools/pipeline-create-deployable-package.md
+                - name: X++ útgáfa líkans í Azure Pipelines
+                  href: dev-tools/pipeline-model-version.md
             - name: Prufuforrit bílaflotastjórnunar
               items:
                 - name: Heildrænt ferli sviðsett fyrir prufuforrit bílaflotastjórnunar
@@ -1396,6 +1402,8 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Úthluta notendum á öryggishlutverk
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: Öryggisgreining fyrir verkskráningu
+                  href: sysadmin/tasks/security-diagstics-task-recordings.md
             - name: Runuvinnsla
               items:
                 - name: Yfirlit runuvinnslu
