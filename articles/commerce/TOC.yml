@@ -2,15 +2,15 @@
   items:
     - name: Dynamics 365 Commerce
       items:
-        - name: Dynamics 365 Commerce
+        - name: Dynamics 365 Commerce upphafssíða
           href: index.md
         - name: Hefjast handa
           items:
             - name: Áður en þú kaupir
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/commerce/toc.json
-            - name: Þjónustuuppfærslur fyrir „Ein útgáfa“
+            - name: Þjónustuuppfærslur fyrir One Version
               items:
-                - name: Yfirlit yfir þjónustuuppfærslur fyrir „Ein útgáfa“
+                - name: Yfirlit yfir þjónustuuppfærslur fyrir One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Algengar spurningar um uppfærslureglur fyrir „Ein útgáfa“
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/commerce/toc.json
@@ -79,7 +79,7 @@
                 - name: 'Stigvaxandi útfærsla (N-1) uppsetningar, skilgreiningar og kerfaskiptingar'
                   href: dev-itpro/n-1-installation-configuration.md
                 - name: Uppfæra viðbót Retail í nýjasta Retail SDK
-                  href: dev-itpro/retailSDK-update.md
+                  href: dev-itpro/RetailSDK-update.md
             - name: Nýjungar eða breytingar
               items:
                 - name: Nýjungar eða breytingar í Finance and Operations-forritum
@@ -112,8 +112,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Tengja hjálparkerfið
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/commerce/toc.json
-                - name: Tengja sérstillt hjálparsvæði
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/commerce/toc.json
+                - name: Sérsniðið hjálparyfirlit
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Skoða og flytja út lýsingar á reit
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/commerce/toc.json
                 - name: Verkskráning
@@ -499,7 +499,9 @@
                     - name: Adyen-greiðslutengill
                       href: dev-itpro/adyen-connector.md
                     - name: Vista netgreiðslumáta með Adyen-tengli
-                      href: dev-itpro/adyen-connector-listpi.md
+                      href: dev-itpro/adyen-connector-listPI.md
+                    - name: Öflug sannvottun viðskiptavinar (SCA) með Adyen-tengli
+                      href: adyen_redirect.md
                     - name: Þægilegur rofi án nettengingar fyrir gjafakort og notkun kreditreikninga
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Uppsetning á greiðsluaðstæðum reikninga
@@ -510,6 +512,8 @@
                       href: omni-channel-payments.md
                     - name: Algengar spurningar um greiðslur
                       href: dev-itpro/payments-retail.md
+                - name: Stjórna Bing-kortum fyrir þitt fyrirtæki
+                  href: dev-itpro/manage-bing-maps.md
         - name: Markaðssetja afurðir þínar og þjónustu
           items:
             - name: 'Flokkar, afurðir og úrval'
@@ -824,6 +828,8 @@
                   href: search-engine-optimization-considerations.md
                 - name: Stjórna öryggisreglu fyrir efni (CSP)
                   href: manage-csp.md
+                - name: Afþakka söfnun aðgerðatilvika á vef
+                  href: web-activity-opt-out.md
             - name: Stjórna efni svæðis
               items:
                 - name: Leiðir til að bæta við efni
@@ -1468,7 +1474,7 @@
               href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/commerce/toc.json
             - name: (Rafræn skýrslugerð) Gagnagjafar þvert á fyrirtæki í rafrænni skýrslugerð
               href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/commerce/toc.json
-            - name: Hanna snið rafrænnar skýrslugerðar til að mynd rafræn skjöl á mismunandi sniðum
+            - name: Hanna snið rafrænnar skýrslugerðar til að mynda rafræn skjöl á mismunandi sniðum
               items:
                 - name: (Rafræn skýrslugerð) Hanna skilgreiningu fyrir myndun skýrslna á OPENXML-sniði
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
@@ -1512,7 +1518,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/commerce/toc.json
                 - name: Keyra snið til að framkvæma talningu og samlagningu
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/commerce/toc.json
-            - name: Væta við dálkum í Excel skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
+            - name: Bæta við dálkum í Excel skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
               items:
                 - name: Hanna snið til að bæta við dálkum í Excel-skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/commerce/toc.json
@@ -1714,6 +1720,8 @@
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
             - name: Skilgreining og sending tölvupósts
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
+            - name: Stofna sniðmát fyrir tölvupóst fyrir færslutilvik
+              href: email-templates-transactions.md
             - name: Þróun tölvupóstsumhverfis
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/commerce/toc.json
             - name: Nota úrræðaleit fyrir Office-samþættingu
@@ -1856,7 +1864,7 @@
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/commerce/toc.json
         - name: Stækkunarhæfni
           items:
-            - name: Viðskiptaþróun og stækkunarhæfni
+            - name: Þróun og stækkunarhæfni Commerce
               href: dev-itpro/dev-retail-home-page.md
             - name: Stækkunarhæfni netrásar
               items:
@@ -2086,7 +2094,7 @@
                   href: dev-itpro/commerce-runtime-extensibility.md
                 - name: Bæta kjörstillingargögnum viðskiptavinar við gagnagrunn rásar
                   href: dev-itpro/add-customer-preference-channel.md
-                - name: Stjórna leynilyklum fyrir smásölurásir
+                - name: Stjórna leynilyklum fyrir Retail-rásir
                   href: dev-itpro/manage-secrets.md
                 - name: Bæta eiginleikum við sölupantanir
                   href: dev-itpro/add-properties-sales-order.md
@@ -2112,10 +2120,12 @@
                   href: dev-itpro/retail-sdk/retail-sdk-samples.md
                 - name: Skrá viðbótartilvik á Application Insights
                   href: dev-itpro/commerce-application-insights.md
-                - name: Búa til API fyrir ósamstilltCommerce (CRT) í viðskiptagrunni
+                - name: Búa til API fyrir ósamstillt Commerce (CRT) í viðskiptagrunni
                   href: dev-itpro/async-commerce-extension.md
                 - name: Forlengdir dálkar í gagnagrunni rásar
                   href: dev-itpro/extended-columns.md
+                - name: Stækka Commerce Data Exchange - rauntímaþjónusta
+                  href: dev-itpro/extend-commerce-data-exchange.md
             - name: Stækkunarhæfni greiðslutengils
               items:
                 - name: Stofna greiðslusamþættingu fyrir greiðslustöð

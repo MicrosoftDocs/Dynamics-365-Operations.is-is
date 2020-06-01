@@ -1,5 +1,5 @@
 ---
-title: Hjálpartilföng fyrir Supply Chain Management
+title: Heimasíða „Supply Chain Management“
 description: Á þessari síðu er að finna skrá yfir hjálparatriði og önnur tilföng fyrir eiginleika Supply Chain Management.
 author: josaw1
 manager: tfehr
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 014b5db6efc15fbed7401d9a857586912c7578f2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cf505f3e84cb8a8b4a1ac0af9f776587c06acf77
+ms.sourcegitcommit: 261b70ea358b2c231e20f320ed8bd6adc1e7d715
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201526"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "3386388"
 ---
-# <a name="help-resources-for-supply-chain-management"></a>Hjálpartilföng fyrir Supply Chain Management
+# <a name="supply-chain-management-home-page"></a>Heimasíða „Supply Chain Management“
 
 [!include [banner](includes/banner.md)]
 
@@ -42,6 +42,7 @@ Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.
 - [Kostnaðarbókhald](../finance/cost-accounting/cost-accounting-home-page.md)
 - [Kostnaðarstjórnun](cost-management/cost-management-home-page.md)  
 - [Birgðastjórnun](inventory/inventory-home-page.md)
+- [IoT gervigreind](iot/iot-intelligence-home-page.md)
 - [Aðaláætlanagerð](master-planning/master-planning-home-page.md)
 - [Innkaup og aðföng](procurement/procurement-sourcing-overview.md)
 - [Afurðaupplýsingastjórnun](pim/product-information.md)
