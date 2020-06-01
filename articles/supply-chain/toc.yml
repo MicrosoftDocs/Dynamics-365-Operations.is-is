@@ -2,7 +2,7 @@
   items:
     - name: Dynamics 365 Supply Chain Management
       items:
-        - name: Dynamics 365 Supply Chain Management
+        - name: Dynamics 365 Supply Chain Management upphafssíða
           href: index.md
         - name: Hefjast handa
           items:
@@ -94,8 +94,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Tengja hjálparkerfið
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Tengja sérstillt hjálparsvæði
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Sérsniðið hjálparyfirlit
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Skoða og flytja út lýsingar á reit
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Verkskráning
@@ -1021,7 +1021,7 @@
               href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/supply-chain/toc.json
             - name: (Rafræn skýrslugerð) Gagnagjafar þvert á fyrirtæki í rafrænni skýrslugerð
               href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Hanna snið rafrænnar skýrslugerðar til að mynd rafræn skjöl á mismunandi sniðum
+            - name: Hanna snið rafrænnar skýrslugerðar til að mynda rafræn skjöl á mismunandi sniðum
               items:
                 - name: (Rafræn skýrslugerð) Hanna skilgreiningu fyrir myndun skýrslna á OPENXML-sniði
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/supply-chain/toc.json
@@ -1065,7 +1065,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Keyra snið til að framkvæma talningu og samlagningu
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Væta við dálkum í Excel skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
+            - name: Bæta við dálkum í Excel skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
               items:
                 - name: Hanna snið til að bæta við dálkum í Excel-skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/supply-chain/toc.json
@@ -1313,6 +1313,22 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Rakning keyrslu á meðalkostnaðarverði eftir birgðavídd
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+        - name: IoT gervigreind
+          items:
+            - name: IoT gervigreind – heimasíða
+              href: iot/iot-intelligence-home-page.md
+            - name: Setja upp Azure-tilföng
+              href: iot/iot-azure-setup.md
+            - name: Snið skilaboðaskema fyrir IoT-miðstöð
+              href: iot/iot-schema-format.md
+            - name: Setja upp innbót í LCS
+              href: iot/iot-lcs-setup.md
+            - name: Setja upp mælieiningar
+              href: iot/iot-metrics-setup.md
+            - name: Uppsetning sviðsmyndar
+              href: iot/iot-scenario-setup.md
+            - name: Fylgjast með og stjórna
+              href: iot/iot-management.md
         - name: Aðaláætlanagerð
           items:
             - name: Aðaláætlanagerð – heimasíða
@@ -1335,6 +1351,8 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Hætta við áætlunarverk
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Úrræðaleit fínstillingar áætlanagerðar
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: Aðaláætlanir
               items:
                 - name: Yfirlit aðaláætlana
@@ -2657,7 +2675,7 @@
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
             - name: Setja upp og skilgreina vöruhúsaforrit
               items:
-                - name: Yfirlit yfir uppsetningu og skilgreiningu
+                - name: Setja upp og tengja vöruhúsaforrit
                   href: warehousing/install-configure-warehousing-app.md
                 - name: Skilgreining svæðaheita í vöruhúsaforriti
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
@@ -2697,6 +2715,22 @@
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Setja upp vinnusniðmát fyrir innkaupapantanir
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
+            - name: Samstæðureglur sendingar
+              items:
+                - name: Samstæðureglur sendingar
+                  href: warehousing/about-shipment-consolidation-policies.md
+                - name: Skilgreina samstæðureglur sendingar
+                  href: warehousing/configure-shipment-consolidation-policies.md
+                - name: Sviðsmynd 1 - sameina sendingar þegar þær eru losaðar í vöruhús með því að nota sjálfvirka losun sölupantana
+                  href: warehousing/consolidate-shipments-automatic.md
+                - name: Sviðsmynd 2 - sameina sendingar þegar samstæðureglu sendingar hefur verið hnekkt á síðunni „Losa í vöruhús“
+                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                - name: Sviðsmynd 3 - sameina sendingar með því að nota „Losa í vöruhús“ á vinnusvæði farmáætlunar
+                  href: warehousing/consolidate-shipments-load-planning-workbench.md
+                - name: Sviðsmynd 4 - sameina sendingar með því að nota samstæðuvinnusvæði sendinga
+                  href: warehousing/consolidate-shipments-manual-workbench.md
+                - name: Sviðsmynd 5 - sameina sendingar handvirkt með því að nota síðuna „Sameina sendingar“
+                  href: warehousing/consolidate-shipments-manual-form.md
         - name: Þróun Supply Chain Management
           items:
             - name: Leiðbeiningar fyrir þróun Gantt-stýringar

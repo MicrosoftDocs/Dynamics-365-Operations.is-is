@@ -94,8 +94,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Tengja hjálparkerfið
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/finance/toc.json
-                - name: Tengja sérstillt hjálparsvæði
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/finance/toc.json
+                - name: Sérsniðið hjálparyfirlit
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Skoða og flytja út lýsingar á reit
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/finance/toc.json
                 - name: Verkskráning
@@ -1736,6 +1736,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Rafræn innsending VSK-skýrslu (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
+                - name: VSK-skýrsla fyrir Þýskaland
+                  href: localizations/emea-de-vat-declaration.md
                 - name: Færslubókarlistaskýrsla
                   href: localizations/emea-deu-journal-list-report.md
                 - name: Uppsetning rafrænna skattskýrslna
@@ -2286,7 +2288,7 @@
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL samþætting
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: 'Endurskoðunarskrá (XML Auditfile Financieel, XAF)'
+                - name: 'Endurskoðunarskrá – XML Auditfile Financieel, XAF'
                   hred: localizations/emea-nl-audit-file.md
             - name: Noregur
               items:
@@ -2398,6 +2400,8 @@
                       href: localizations/rus-prepayments-management.md
                     - name: Endurheimt VSK á innleið
                       href: localizations/rus-incoming-VAT-restoring.md
+                    - name: Vinna úr reikningum fyrir útflutning
+                      href: localizations/rus-export-trade.md
                 - name: Eignir
                   items:
                     - name: Yfirlit yfir eignir
@@ -2496,6 +2500,12 @@
                       href: localizations/rus-inventory-adjustment-wizard.md
                     - name: Birgðaskýrslur
                       href: localizations/rus-inventory-reports.md
+                    - name: Yfirlit yfir birgðaforstillingu
+                      href: localizations/rus-inventory-profile-overview.md
+                    - name: Setja upp birgðaforstillingu
+                      hreF: localizations/rus-set-up-inventory-profile.md
+                    - name: Nota birgðaforstillingu í skjölum og fyrirspurnum
+                      href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Skýrslugjöf
                   items:
                     - name: Fjárhagsskýrslugerð
@@ -3246,36 +3256,42 @@
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: Velja skilgreiningar gagnalíkans þegar snið eru búin til
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: Hanna snið rafrænnar skýrslugerðar til að mynd rafræn skjöl á mismunandi sniðum
+            - name: Hanna snið rafrænnar skýrslugerðar til að mynda rafræn skjöl á mismunandi sniðum
               items:
-                - name: (Rafræn skýrslugerð) Hanna skilgreiningu fyrir myndun skýrslna á OPENXML-sniði
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
-                - name: (Rafræn skýrslugerð) Hanna skilgreiningar til að búa til skýrslur á Word-sniði
+                - name: Hanna skilgreiningar til að mynda skjöl á Excel-sniði á útleið
+                  items:
+                    - name: Hanna skilgreiningu fyrir myndun skjala á Excel-sniði
+                      href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
+                    - name: Dæmi um myndun skýrslna á OPENXML-sniði
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Breyta rafrænum skýrslugerðarsniðum með því að endurnýta Excel-sniðmát
+                      href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: Bæta við dálkum í Excel-skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
+                      items:
+                        - name: Hanna snið til að bæta við dálkum í Excel-skýrslur á gagnvirkan hátt
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
+                        - name: Keyra snið til að bæta við dálkum í Excel-skýrslur á gagnvirkan hátt
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                - name: Hanna skilgreiningar til að búa til skýrslur á Word-sniði
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Hanna skilgreiningar til að fylla inn í PDF-sniðmát
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
-            - name: Innfeldar myndir og form
-              items:
-                - name: (Rafræn skýrslugerð) Fella inn myndir og form í viðskiptaskjöl sem búin eru til
-                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
-                - name: Dæmi um innfeldar myndir og form
+                - name: Innfeldar myndir og form
                   items:
-                    - name: Hanna skilgreiningar til að búa til skýrslur á Office-sniði sem eru með innfelldar myndir
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
-                    - name: Yfirfara skilgreiningar til að búa til skýrslur á Office-sniði sem eru með innfelldar myndir
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: Búa til skýrslur á Office-sniði sem eru með innfelldar myndir
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
-            - name: Breyta rafrænum skýrslugerðarsniðum með því að endurnýta Excel-sniðmát
-              href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: (Rafræn skýrslugerð) Fella inn myndir og form í viðskiptaskjöl sem búin eru til
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
+                    - name: Dæmi um innfeldar myndir og form
+                      items:
+                        - name: Hanna skilgreiningar til að búa til skýrslur á Office-sniði sem eru með innfelldar myndir
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
+                        - name: Yfirfara skilgreiningar til að búa til skýrslur á Office-sniði sem eru með innfelldar myndir
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Búa til skýrslur á Office-sniði sem eru með innfelldar myndir
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                - name: Skipta mynduðum XML-skrám út frá skráarstærð og efnismagni
+                  href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
             - name: Skilgreina hversu mikil áhrif skilgreiningar rafrænnar skýrslugerðar hafa á aðra hluta
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: Væta við dálkum í Excel skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
-              items:
-                - name: Hanna snið til að bæta við dálkum í Excel-skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
-                - name: Keyra snið til að bæta við dálkum í Excel-skýrslur á gagnvirkan hátt sem hægt er að stækka lárétt
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
             - name: Uppfæra forritagögn með rafrænni skýrslugerð
               items:
                 - name: Búa til rafræn skjöl og uppfæra forritsgögn
@@ -3306,8 +3322,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/finance/toc.json
                     - name: Skilgreina snið rafrænnar skýrslugerðar til að flytja inn skrár á XML-sniði með valkvæmum eigindum
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
-            - name: Skipta mynduðum XML-skrám út frá skráarstærð og efnismagni
-              href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
             - name: Tími skilgreiningar
               items:
                 - name: Stjórna tíma skilgreiningar
@@ -3327,12 +3341,16 @@
                     - name: Sækja skilgreiningar úr geymslu rafrænnar skýrslugerðar fyrir RCS-gerð
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Flytja inn skilgreiningar úr RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: Stofna skilgreiningar rafrænnar skýrslugerðar í RCS og hlaða þeim upp í altæka geymslu
+                  href: localizations/rcs-global-repo-upload.md
+                - name: Deila skilgreiningum rafrænnar skýrslugerðar í RCS með utanaðkomandi fyrirtækjum
+                  href: localizations/rcs-global-repo-share-configuration.md
             - name: Kennsla
               items:
                 - name: Kynntu þér hvernig þú notar gagnaveitur
                   items:
-                    - name: Nota TÖFLUTENGINGU til að sækja gögn úr mörgum töflum
+                    - name: Nota SAMTENGINGU til að sækja gögn úr mörgum töflum
                       href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Nota óunnið XML-form til að setja inn efni
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
