@@ -19,23 +19,24 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2019-09-06
 ms.dyn365.ops.version: AX 10.0.6
-ms.openlocfilehash: f5863202facc83afb91b380ba5666334783ccbcf
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 74e1e30f5afe51cd0ecec2530ffcb9a59eec5fee
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211170"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367246"
 ---
-[!include [banner](../includes/banner.md)]
+# <a name="report-as-finished-to-a-license-plate-controlled-location-from-the-job-card-device"></a>Skrá sem lokið í númeraplötustýrða staðsetningu úr verkspjaldstækinu
 
-# <a name="report-as-finished-to-a-license-plate-controlled-location-from-the-job-card-device"></a>Skrá sem lokið í númeraplötustýrða staðsetningu úr verkspjaldstækinu 
+[!include [banner](../includes/banner.md)]
 
 Ferlið sem kallast Tilkynnt sem lokið lýkur fullunnum vörum í framleiðslupöntun til birgða. Ef fullunnin afurð er virk fyrir háþróuð vörugeymsluferli er tilkynnt um afurðina sem lokið á stað sem kallast framleiðslu framleiðslustaðarins. Nánari upplýsingar um að setja upp framleiðslu framleiðslunnar, sjá [Staðsetning framleiðsluúttaks](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/production-output-location).
 
-Ef framleiðslustað framleiðslunnar er stjórnað með leyfisplötum verður að gefa upp leyfisplötu þegar skýrslu er lokið. Reiturinn **Númeraplata** er sýnilegur í kvaðningunni **Gera framvinduskýrslu** á síðunni **Verkspjaldstæki**. Reiturinn er aðeins sýnilegur á kvaðningunni **Gera framvinduskýrslu** þegar tilkynnt er um síðustu aðgerð framleiðslupöntunar og hlutur framleiðslupöntunar er gerður virkur fyrir vöruhúsakerfisferli. 
+Ef framleiðslustað framleiðslunnar er stjórnað með leyfisplötum verður að gefa upp leyfisplötu þegar skýrslu er lokið. Reiturinn **Númeraplata** er sýnilegur í kvaðningunni **Gera framvinduskýrslu** á síðunni **Verkspjaldstæki**. Reiturinn er aðeins sýnilegur á kvaðningunni **Gera framvinduskýrslu** þegar tilkynnt er um síðustu aðgerð framleiðslupöntunar og hlutur framleiðslupöntunar er gerður virkur fyrir vöruhúsakerfisferli.
 
-Það eru tveir möguleikar til að útvega leyfisplötuna
-- Notandinn er að velja fyrirliggjandi leyfisplötu í reitnum fyrir leyfisplötu.
+Valkostirnir eru tveir til að veita númeraplötuna:
+
+- Notandinn velur fyrirliggjandi númeraplötu í reit númeraplötu.
 - Leyfisplatan er sjálfkrafa búin til úr númeraröð og er sjálfgefin í reiti leyfisplötunnar.
 
 Valkosturinn að láta leyfisplötuna myndast sjálfkrafa er stilltur með því að velja valkostinn **Mynda leyfisplötu** á síðunni **Stilla vinnslukort fyrir tæki**.

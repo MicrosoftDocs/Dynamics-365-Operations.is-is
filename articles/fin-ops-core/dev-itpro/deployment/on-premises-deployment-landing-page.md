@@ -3,7 +3,7 @@ title: Uppsetning á staðnum – heimasíða
 description: Þetta efnisatriði veitir upplýsingar og tengla í efni um uppsetningu á staðnum
 author: sericks007
 manager: AnnBe
-ms.date: 03/04/2020
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b251125323bb74eb8be4172cb1b143c4866a8eac
-ms.sourcegitcommit: ec4df51e17be0b2df393635605ea17250c991ee9
+ms.openlocfilehash: 90285c8f2e0e86e04c8f2ac401c324c888740e99
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3099731"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367059"
 ---
 # <a name="on-premises-deployment-home-page"></a>Uppsetning á staðnum – heimasíða
 
@@ -41,7 +41,6 @@ ms.locfileid: "3099731"
 ## <a name="onboard"></a>Ráðningar
 - [Setja upp verk á staðnum í Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
 - [Setja upp og innleiða umhverfi á staðnum (verkvangsuppfærsla 12 og nýrri)](setup-deploy-on-premises-pu12.md)
-- [Uppsetning á staðbundnu umhverfi (verkvangsútgáfur 8 og 11)](setup-deploy-on-premises-pu8-pu11.md)
 - [Setja upp nettengda prentara á staðnum](../analytics/install-network-printer-onprem.md)
 - [Skilgreina SQL Server Reporting Services fyrir staðbundna uppsetningu](../analytics/configure-ssrs-on-premises.md)
 - [Þróa og setja upp og nota líkön fyrir staðbundið umhverfi](develop-deploy-custom-models-on-premises.md)

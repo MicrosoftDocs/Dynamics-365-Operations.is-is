@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e6a29dce877a53d125c5a151da6cfbb13d46b29
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0d157470527a986ea1c9fe0a9a02e2ba6ee8819e
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201595"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3382999"
 ---
 # <a name="set-up-shipping-carriers"></a>Setja upp farmflytjendur
 
@@ -32,7 +32,7 @@ ms.locfileid: "3201595"
 
 ## <a name="create-a-new-shipping-carrier"></a>Stofna nýtt farmflytjandi
 1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Uppsetning > Flutningsaðilar > Farmflytjendur**.
-2. Veldu **Nýtt** í aðgerðarrúðunni.
+2. Veljið **Nýtt** á aðgerðasvæðinu.
 3. Í reitnum **Farmflytjandi** skal færa inn gildi.
 4. Í reitinn **Heiti** skal slá inn gildi.
 5. Í reitnum **Stilling** velurðu valkost úr fellivalmyndinni.

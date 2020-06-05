@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ccaeea8d0494644b4d55c29a778d9a8239de10b9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fafa2f7da5575206d452f31bb297790874369dfd
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207785"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383275"
 ---
 # <a name="approve-vendors-for-specific-products"></a>Samþykkja lánardrottna fyrir tilteknar afurðir
 
@@ -42,10 +42,10 @@ ms.locfileid: "3207785"
 11. **Færa inn eða veljið gildi í svæðinu lánardrottinn.**
 12. **Í reitinn lokadagsetning, skal færa inn dagsetningu.** Veljið dagsetningu sem er annað en fyrri lokadagsetningu.  
 13. Lokið síðunni.
-14. Smellið á **Samþykktir lánardrottnar** á aðgerðarúðunni.
+14. Á aðgerðasvæðinu er smellt á **Samþykktir lánardrottnar**.
 15. **Í reitinn lokadagsetning, skal færa inn dagsetningu.** Þessi dagsetning virkar eins og sía þannig að hægt er að hverjir eru samþykkta lánardrottna, fram að tilteknum degi.  
 16. Lokið síðunni.
-17. Smellið á **Gildistímabil** á aðgerðarúðunni.
+17. Á aðgerðasvæðinu er smellt á **Gildistímabil**.
 18. **Í reitinn sýna lánardrottna sem renna út samkvæmt, skal færa inn dagsetningu.** Nota þessa síðu til að auðkenna lánardrottnum þar sem staða samþykkis rennur út eftir tiltekna dagsetningu.  
 19. Lokið síðunni.
 20. Smellið á **Breyta**.
@@ -57,7 +57,7 @@ ms.locfileid: "3207785"
 26. Lokið síðunni.
 27. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Innkaup og aðföng > Lánardrottnar > Allir lánardrottnar**. Einnig er hægt að byrja frá lánardrottni og fara síðan í listann yfir samþykktar afurðir fyrir þann lykil lánardrottins.  
 28. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-29. Á aðgerðasvæðinu smellirðu á **Innkaup**.
+29. Á aðgerðasvæðinu er smellt á **Innkaup**.
 30. Smelltu á **Listi yfir Samþykktir lánardrottinn eftir lánardrottni**.
 31. Lokið síðunni.
 32. Lokið síðunni.

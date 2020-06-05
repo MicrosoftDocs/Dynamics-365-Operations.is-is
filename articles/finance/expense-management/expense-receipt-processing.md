@@ -3,7 +3,7 @@ title: Vinnsla á kostnaðarinnhreyfingum
 description: Þetta efni veitir upplýsingar um vinnslu á ljósstafalínu (OCR) fyrir innhreyfingar. Þessi eiginleiki er hannaður til að bæta upplifun notenda þegar kostnaðarskýrslur eru búnar til í Microsoft Dynamics 365 Finance.
 author: stsporen
 manager: AnnBe
-ms.date: 11/20/2019
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: efba2faf9428d9b556d74273bc7daadba7211c48
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
+ms.sourcegitcommit: 15c5ec742d648c5f3506d031a2ab6150dcbae348
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248964"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3378232"
 ---
 # <a name="expense-receipt-processing"></a>Úrvinnsla kostnaðarkvittunar
 
@@ -36,24 +36,24 @@ ms.locfileid: "3248964"
 
 ## <a name="usage-examples"></a>Dæmi um notkun
 
-- **Hengdu sjálfkrafa við innhreyfingar sem innihalda kreditkortafærslur þegar kostnaðarskýrsla er búin til.**
+Til að tengja sjálfkrafa innhreyfingar sem innihalda kreditkortafærslur þegar kostnaðarskýrsla er stofnuð skal gera eftirfarandi:
 
-    1. Opnaðu vinnusvæðið **Kostnaðarstjórnun**.
-    2. Á flipanum **Innhreyfingar** staðfestirðu að óviðhengdar innhreyfingar séu til staðar. Þú getur líka hlaðið inn innhreyfingum á flipann **Innhreyfingar**.
-    3. Á flipanum **Kostnaður** staðfestirðu að óviðhengdur kostnaður sé til staðar. Venjulega flytur kostnaðarstjórinn inn þennan kostnað frá kreditkortafyrirtækinu.
-    4. Veldu **Nýja kostnaðarskýrslu**. Taktu eftir að þú getur líka haft kostnað og innhreyfingar þegar þú býrð til kostnaðarskýrslu. Ef þú bætir bæði við kostnaði og innhreyfingum er sjálfvirk samsvörun innhreyfinga gagnvart kostnaðinum sett af stað.
+  1. Opnaðu vinnusvæðið **Kostnaðarstjórnun**.
+  2. Á flipanum **Innhreyfingar** staðfestirðu að óviðhengdar innhreyfingar séu til staðar. Þú getur líka hlaðið inn innhreyfingum á flipann **Innhreyfingar**.
+  3. Á flipanum **Kostnaður** staðfestirðu að óviðhengdur kostnaður sé til staðar. Venjulega flytur kostnaðarstjórinn inn þennan kostnað frá kreditkortafyrirtækinu.
+  4. Veldu **Nýja kostnaðarskýrslu**. Taktu eftir að þú getur líka haft kostnað og innhreyfingar þegar þú býrð til kostnaðarskýrslu. Ef þú bætir bæði við kostnaði og innhreyfingum er sjálfvirk samsvörun innhreyfinga gagnvart kostnaðinum sett af stað.
 
-- **Búðu til kostnað eða samsvaraðu kostnaði við kvittun.**
+Til að stofna kostnað, eða jafna kostnað úr kvittun, skal gera eftirfarandi:
 
-    1. Í kostnaðarskýrslu, á flipanum **Innhreyfingar**, festirðu innhreyfingu við með því að velja **Bæta við innhreyfingum**.
-    2. Undir upphlaðinni mynd af innhreyfingunni skaltu taka eftir valkostunum **Stofna** og **Jafna**.
+  1. Í kostnaðarskýrslu, á flipanum **Innhreyfingar**, festirðu innhreyfingu við með því að velja **Bæta við innhreyfingum**.
+  2. Undir upphlaðinni mynd af innhreyfingunni skaltu taka eftir valkostunum **Stofna** og **Jafna**.
 
-        - Veldu **Stofna** til að búa til handvirkt færðar kostnaðarfærslur og fylla út gildin sem eru dregin út úr innhreyfingunni.
-        - Ef þú velur **Jafna** reynir kerfið að passa núverandi kostnað við innhreyfinguna.
+      - Veldu **Stofna** til að búa til handvirkt færðar kostnaðarfærslur og fylla út gildin sem eru dregin út úr innhreyfingunni.
+      - Ef þú velur **Jafna** reynir kerfið að passa núverandi kostnað við innhreyfinguna.
 
 ## <a name="installation"></a>Uppsetning
 
-Þessi aðgerð virkar ásamt eiginleikanum **Kostnaðarskýrslur endurhugsaðar** til að auðvelda kostnaðarupplifunina.
+Þessi aðgerð virkar ásamt eiginleikanum **Kostnaðarskýrslur endurhugsaðar** til að auðvelda kostnaðarupplifunina. Þessi eiginleiki er aðeins í boði fyrir lagið Tier 2+ umhverfi sem er Sandkassi og Framleiðsla.
 
 Til að nota þessa ítarlegu kostnaðarmöguleika skaltu setja upp innbótina Þjónusta kostnaðarstýringar fyrir Microsoft Dynamics 365 Finance og kveikja á aðgerðum í þínu tilviki. Þú getur fengið aðgang að viðbótinni frá verkefninu í Microsoft Dynamics Lifecycle Services (LCS).
 

@@ -526,6 +526,32 @@
                   href: deployment/uninstall-deployable-package.md
                 - name: Úrræðaleit vegna vandamála í forritapakka
                   href: deployment/deployable-package-troubleshooting.md
+            - name: Nota sérsniðna hjálp
+              items:
+                - name: Sérsniðið hjálparyfirlit
+                  href: help/custom-help-overview.md
+                - name: Undirbýr efni til notkunar með hjálparsvæði
+                  href: help/preparing-content.md
+                - name: Notar sérsniðna hjálp fyrir Azure
+                  href: help/walkthrough-help-azure.md
+                - name: Tengja sérsniðna hjálp við hjálparsvæðið
+                  href: help/connect-help-pane.md
+                - name: Verkfærasett fyrir sérsniðna hjálp
+                  items:
+                    - name: Yfirlit
+                      href: help/custom-help-toolkit.md
+                    - name: Verkfærið HTML From Repo Generator
+                      href: help/custom-help-toolkit-HtmlFromRepoGenerator.md
+                    - name: Verkfærið Convert HTML To JSON
+                      href: help/custom-help-toolkit-ConvertHtmlToJson.md
+                    - name: Verkfærið HTML Locale Changer
+                      href: help/custom-help-toolkit-HtmlLocaleChanger.md
+                    - name: Breyta sérsniðinni hjálp í Dynamics AX til að nota í Dynamics 365
+                      href: help/migrate-dynamicsax2012.md
+                - name: Lýsingar tungumáls og landsstaðals í öllum vörum og hjálparsvæðum
+                  href: help/language-locale.md
+                - name: 'Stækka, sérstilla og vinna saman með hjálpinni'
+                  href: help/contributor-guide.md
         - name: Þróa og sérstilla
           items:
             - name: Þróa og sérstilla heimasíðu
@@ -835,7 +861,7 @@
                     - name: 'Breytingar á stækkunarhæfni, útgáfa 8.0.1'
                       href: extensibility/extensibility-changes-801.md
                     - name: Breytingar á stækkunarhæfni í útgáfu 8.0
-                      href: extensibility/changes-80.md
+                      href: extensibility/Changes-80.md
                     - name: Breytingar á stækkunarhæfni í útgáfu 7.3
                       href: extensibility/extensibility-changes-73.md
                     - name: 'Breytingar á stækkunarhæfni, júlí 2017'

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d10904414b8c35960e421caeb7cae838edd312dd
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1503ef3646657a4b7bb7e240144af2ac559a62d0
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3217058"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383022"
 ---
 # <a name="define-cycle-counting"></a>Skilgreina reglulega talningu  
 
@@ -49,7 +49,7 @@ Reglulega talningu er vöruhúsið ferli sem hægt er að nota til að endursko�
 10. Í reitnum **Kenni vinnuklasa** skal velja gildi.
 11. Smellt er á **Nýtt**.
 12. Í reitnum **Kenni vinnuklasa** skal velja gildi.
-13. Í **Aðgerðasvæðinu** smellirðu á **Vista**.
+13. Á **Aðgerðasvæði** er smellt á **Vista**.
 14. Lokið síðunni.
 15. Í **Skoðunarrúðunni** ferðu í **Einingar > Vöruhúsakerfi > Uppsetning > Fartæki > Valmyndaratriði fartækis**.
 16. Í listanum skal finna og velja þá skráningu sem óskað er eftir.

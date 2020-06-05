@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaab2093eb2531b63f27717d828f7064a8f9ed1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e45c80718c73ad785643c2a5fc0e712b291104d5
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207509"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383114"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Setja upp stigveldi innkaupategundar
 
@@ -31,8 +31,8 @@ ms.locfileid: "3207509"
 
 ## <a name="add-a-new-procurement-category"></a>Bæta við nýrri innkaupategund
 1. Farðu í **Skoðunarrúðu > Kerfiseiningar > Innkaup og aðföng > Vörusending > Innkaupaflokkar**.
-2. Í aðgerðarúðunni velurðu **Breyta tegundastigveldi**. Núverandi tegundastigveldi birtist vinstra megin á síðunni. Verið er að breyta stigveldi.  
-3. Í aðgerðarúðunni velurðu **Nýr tegundahnútur**. Kerfið velur topphnútinn sjálfgefið. Ef verið er að keyra þetta ferli sem leiðarvísi fyrir verk, er hægt að smella á hnappinn Aflæsa og velja annan yfirhnút til að setja inn nýjan hnútinn þinn. Þegar því er lokið, skal loka aftur leiðarvísi fyrir verk og smellið síðan á Nýjan tegundahnút.  
+2. Á aðgerðasvæðinu skal velja **Breyta tegundastigveldi**. Núverandi tegundastigveldi birtist vinstra megin á síðunni. Verið er að breyta stigveldi.  
+3. Á aðgerðasvæðinu skal velja **Nýr tegundarhnútur**. Kerfið velur topphnútinn sjálfgefið. Ef verið er að keyra þetta ferli sem leiðarvísi fyrir verk, er hægt að smella á hnappinn Aflæsa og velja annan yfirhnút til að setja inn nýjan hnútinn þinn. Þegar því er lokið, skal loka aftur leiðarvísi fyrir verk og smellið síðan á Nýjan tegundahnút.  
 4. Í reitinn **Heiti** skal slá inn gildi.
 5. Í reitinn **Lýsing** skal slá inn gildi.
 6. Í reitnum **Stutt heiti** skal slá inn gildi. Stutt heiti er valfrjálst. Það verður birt í uppflettingu tegunda ásamt heiti flokks.  

@@ -17,26 +17,28 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e6493afb64acb4d7644aac8dad71a0917c76549
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 272c3a13b68e2b862faf20cc269ca790322b61de
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205783"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367293"
 ---
+# <a name="product-confirmation-for-cluster-picking"></a>Staðfesting afurðar fyrir klasatiltekt
+
 [!include [banner](../includes/banner.md)]
 
-# <a name="product-confirmation-for-cluster-picking"></a>Staðfesting afurðar fyrir klasatiltekt
 Klasatiltekt gerir kleift að taka til vörur fyrir margar pantanir samtímis. Þegar klasatiltekt er notuð, er vörustaðfesting nauðsynleg svo hægt sé að staðfesta þær vörur sem bætt er við klasa. Hægt er að staðfesta vörur í klasatiltekt á meðan klasatiltekt stendur yfir.
 
 ## <a name="where-it-applies"></a>Þar sem það á við
+
 Vörustaðfesting fyrir klasatiltekt gengur eins fyrir sig og þegar vörur eru staðfestar í tiltekt sem er ekki klasatiltekt. Uppsetning byggist á strikamerkjauppsetningu vöru.
 
 ## <a name="set-up-item-verification-with-cluster-picking"></a>Setja upp vörustaðfestingu með klasatiltekt
-1.  Opna uppsetningarskjámynd fyrir vinnustaðfestingu í valmyndaratriði fartækis: **Vöruhúsastjórnun** > **Vöruhúsastjórnun** > **Uppsetning** > **Fartæki** > **Valmyndaratriði fartækis**.
-2.  Opna **Uppsetning vinnustaðfestingar** í valmyndaratriði fartækis.
+
+1. Opna uppsetningarskjámynd fyrir vinnustaðfestingu í valmyndaratriði fartækis: **Vöruhúsastjórnun** > **Vöruhúsastjórnun** > **Uppsetning** > **Fartæki** > **Valmyndaratriði fartækis**.
+1. Opna **Uppsetning vinnustaðfestingar** í valmyndaratriði fartækis.
 
 |        Valkostur        |                                    lýsing                                    |
 |----------------------|-----------------------------------------------------------------------------------|
 | Staðfesting afurðar | Gerir kleift að staðfesta hverja birgðaeiningu úr fartækinu þegar skannað er. |
-

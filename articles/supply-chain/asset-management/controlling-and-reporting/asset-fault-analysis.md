@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 67ccbb742bb4e2283c30b4dec055d137b4a51e40
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 32cd8fb55cd9245a9a7c426a7c956bb40c3fdb0e
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216414"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383551"
 ---
 # <a name="asset-fault-analysis"></a>Bilanagreining eignar
 
@@ -78,7 +78,7 @@ ms.locfileid: "3216414"
 
 Samsetning eigna og eignategund er notuð til grundvallar við útreikninga sem sýndir eru í þremur skjámyndunum hér að neðan sem munu aukast í smáatriðum.  
 
-Almennt innihalda hnapparnir í aðgerðarrúðahópunum **Flokka eftir dagsetningu**, **Flokka eftir eign**, **Flokka eftir staðsetningu**, sem og hnappurinn **Bilun** (kenni bilunar), tímabil eða eignatengsl. Hnapparnir **Einkenni**, **Svæði**, **Gerð**, **Orsök** og **Úrræði** eru flokkanir sem notaðar eru í bilunastjórnun til að greina skráningu eignabilana og finna vandamálasvið.  
+Almennt innihalda hnapparnir í **Flokka eftir dagsetningu**, **Flokka eftir eign**, **Flokka eftir virkri staðsetningu** aðgerðasvæðinu, sem og **Villa** hnappurinn (bilunarkenni), tímabil eða eignatengsl. Hnapparnir **Einkenni**, **Svæði**, **Gerð**, **Orsök** og **Úrræði** eru flokkanir sem notaðar eru í bilunastjórnun til að greina skráningu eignabilana og finna vandamálasvið.  
 
 **Flokka eftir einkennum, eignum og eignategundum**
 

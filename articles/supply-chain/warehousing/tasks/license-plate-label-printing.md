@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 484a1465dd41429fe201de18aac55f118a483cab
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 43dc913e84fa53179855d7ab8dbbf4d179e2cc63
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3217012"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383045"
 ---
 # <a name="enable-license-plate-label-printing"></a>Virkja prentun merkis á númeraplötu
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni sýnir hvernig á að virkja sjálfvirka prentun raðnúmerskóða fyrir sendingu gáms (SSCC) merki eftir að síðasta vara er tekin úr birgðum í tiltektarferli sölu. Hægt er að keyra þetta ferli fyrir sýnigögn fyrirtækisins USMF. Ef verið er að keyra hana með eigin gögn, þarf að hafa sett upp númeraröð fyrir númeraplötur. Þarf að setja upp merkimiði prentarinn áður en byrjað er að þetta verkefni. Fara á fyrirtækisstjórnun > Uppsetning > Prentarar á neti. Á aðgerðasvæðinu skal smellt er á Valkostum og smella svo á uppsetningarhnapp fyrir niðurhal skjals leiðarfulltrúa. Keyra uppsetningarforritið og gangið úr skugga um að þú hefur virkan prentara á neti stilltan áður en haldið er áfram með ferlið.
+Þetta efni sýnir hvernig á að virkja sjálfvirka prentun raðnúmerskóða fyrir sendingu gáms (SSCC) merki eftir að síðasta vara er tekin úr birgðum í tiltektarferli sölu. Hægt er að keyra þetta ferli fyrir sýnigögn fyrirtækisins USMF. Ef verið er að keyra hana með eigin gögn, þarf að hafa sett upp númeraröð fyrir númeraplötur. Þarf að setja upp merkimiði prentarinn áður en byrjað er að þetta verkefni. Fara á fyrirtækisstjórnun > Uppsetning > Prentarar á neti. Á aðgerðasvæðinu er smellt á Valkostir og svo á uppsetningarhnapp fyrir niðurhal skjals leiðarfulltrúa. Keyra uppsetningarforritið og gangið úr skugga um að þú hefur virkan prentara á neti stilltan áður en haldið er áfram með ferlið.
 
 
 ## <a name="set-up-the-gs1-company-prefix"></a>Setja upp GS1-fyrirtækjaforskeyti

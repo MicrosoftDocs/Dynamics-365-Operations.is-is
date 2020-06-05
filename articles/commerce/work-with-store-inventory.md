@@ -3,7 +3,7 @@ title: Birgðastjórnun verslunar
 description: Þetta efnisatriði lýsir gerðum af skjölum sem hægt er að nota til að stjórna birgðum.
 author: rubencdelgado
 manager: AnnBe
-ms.date: 04/23/2019
+ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,56 +18,54 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3f7f228bbf312a2ccdc96d3e95287898bee01de4
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a3e6450c358d12dc62c2ffa20e7ff529be86bbe5
+ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022879"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3379260"
 ---
 # <a name="store-inventory-management"></a>Birgðastjórnun verslunar
 
 [!include [banner](includes/banner.md)]
 
-Þegar unnið er með birgðir í Dynamics 365 Commerce og POS forritið er notað, er mikilvægt að hafa í huga að POS veitir takmarkaðan stuðning fyrir birgðavíddir og ákveðnar gerðir af birgðavörum.
+Þegar unnið er með birgðaupplýsingar í Microsoft Dynamics 365 Commerce og forritið sölustaður (POS) er notað er mikilvægt að sölustaður veiti takmarkaðan stuðning fyrir sumar birgðavíddir og einhverjar birgðavörutegundir. POS-forritið styður ekki fullt úrval af getu vöruafbrigða sem eru í boði í vöruafbrigðakostunum í Dynamics 365 Supply Chain Management.
 
-POS-lausnin styður ekki eftirfarandi vöruafbrigði:
+Sölustaðarlausn sem stendur styður ekki eftirfarandi afurðarvíddir og vöruafbrigði:
 
-- Uppskriftarvörur (nema afurðarsett, sem nota suma hluti af uppskriftarrammanum)
+- Afbrigði afurðavíddar og uppskriftavörur (fyrir utan afurðir smásölusetts, sem nota suma hluti uppskriftaramma)
 - Vörur framleiðsluþyngdar
-- Runustýrðar vörur
+- Stýrð atriði útgáfu afurðavíddar
 
 Sem stendur styður POS-forritið ekki eftirfarandi rakningarvíddir í POS:
 
 - Runurakningarvídd
 - Eigandavídd
 
-POS-lausnin veitir takmarkaðan stuðning fyrir eftirfarandi víddir. Takmarkaður stuðningur bendir til þess að POS geti færi sumar þessara vídda sjálfkrafa inn í birgðafærslur sem byggjast á skilgreiningu fyrir uppsetningu vöruhúss/verslunar. POS styður víddirnar ekki að fullu eins og þær eru studdar ef sölufærsla er slegin handvirkt inn í ERP. 
+POS veitir takmarkaðan stuðning fyrir eftirfarandi víddir. Í öðrum orðum gæti POS sjálfkrafa fært inn sumar þessara vídda í birgðafærslum, byggt á skilgreiningu vöruhúss eða uppsetningu verslunar. POS styður víddirnar ekki að fullu eins og þær eru studdar ef sölufærsla er slegin handvirkt inn í Commerce Headquarters. 
 
-- **Staðsetning vöruhúss** - Notendur hafa ekki möguleikann á að stjórna staðsetningu á viðtökuvöruhúsi fyrir vörur sem eru mótteknar í vöruhúsi verslunar þegar verslunin hefur ekki verið skilgreind til að nota ferli vöruhúsakerfis. Sjálfgefin staðsetning móttöku skilgreind í vöruhúsi verslunar verður notuð fyrir þessar vörur. Ef ferli fyrir vöruhúsakerfi hefur verið virkjað fyrir verslunina, verður takmarkaður stuðningur sem biður notanda um að velja móttökustaðsetningu fyrir allri móttökunni ræstur. Vörur seldar úr versluninni verða alltaf seldar úr sjálfgefinni staðsetningu eins og hún er skilgreind í uppsetningu vöruhúss. Staðsetningin til að stjórna skilum á birgðum er hægt að stjórna í gegnum sjálfgefna skilgreiningu skilastaðsetningar í vöruhúsi verslunar eða samkvæmt ástæðukóðum skila eins og þeir eru skilgreindir í reglu skilastaðsetningar.
-- **Númeraplata** - Númeraplötur eiga aðeins við þegar **Nota ferli vöruhúsakerfis** hefur verið virkjað í vörunni og vöruhúsi verslunar. Á sölustað, ef tekið er á móti birgðum í vöruhúsi verslunar þar sem ferli vöruhúsakerfis hefur verið virkjað, og í staðsetningu sem valin er til að taka á móti vörunni er bundin við staðsetningarforstillingu sem krefst stjórnunar á númeraplötu, mun forrit sölustaðar kerfisbundið bæta númeraplötu við móttökulínuna. Notendur á sölustað hafa ekki möguleika á því að breyta eða stjórna þessum gögnum númeraplötu. Ef þörf er á fullri stjórnun á númeraplötum er mælt með því að verslunin noti farsímaforrit vöruhúsakerfis eða ERP-biðlara bakvinnslu til að stjórna móttöku á þessum vörum.
-- **Raðnúmer** - Forrit sölustaðar er með takmarkaðan stuðning fyrir stakt raðnúmer sem á að skrá í sölulínu færslu fyrir pantanir sem eru stofnaðar í sölustað með númeruðum vörum. Þetta raðnúmer er ekki sannprófað gagnvart skráðum raðnúmerum sem eru nú þegar í birgðum. Ef sölupöntun er stofnuð í rás símavers eða uppfyllt í gegnum ERP og mörg raðnúmer eru skráð á staka sölulínu í uppfyllingarferlinu í ERP, verður ekki hægt að nota eða sannprófa þessi raðnúmer ef unnið er úr skilum á sölustað fyrir þessar pantanir.
-- **Birgðastaða** - Fyrir vörur sem nota ferli vöruhúsakerfis og þurfa birgðastöðu, verður ekki hægt að stilla eða breyta þessum stöðureit í gegnum forrit sölustaðar. Sjálfgefin birgðastaða eins og hún er skilgreind í skilgreiningu fyrir vöruhús verslunar verður notuð þegar vörur eru mótteknar í birgðum.
+- **Staðsetning vöruhúss** – þegar þær nota nýja [aðgerð á innleið](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) og [aðgerð á útleið](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation) geta notendur sölustaðaaðgerða valið staðsetningu vöruhúsabirgða til að taka á móti vörum í eða sent vörur út frá. Ef þeir nota úreltu aðgerðina **tiltekt og móttaka**, er takmarkaður staðsetningarstuðningur í boði fyrir móttöku og flutning á útleið. Þessi stuðningur er aðeins tiltækur ef hægt er að nota valkostinn **Nota vöruhúsakerfisferli** fyrir vöruna og vöruhús verslunarinnar. Ekki er hægt að nota birgðastaðsetningu með aðgerðina **birgðatalning** eða **birgðauppfletting**.
+- **Númeraplata** – númeraplötur gilda aðeins þegar valkosturinn **Nota vöruhúsakerfisferli** hefur verið virkjaður fyrir vöruna og vöruhús verslunar. Á sölustað, ef tekið er á móti birgðum í vöruhúsi verslunar með því að nota **aðgerð á innleið** eða **Tiltekt og móttaka** þar sem ferli vöruhúsakerfis hefur verið virkjað, og ef staðsetningu sem valin er til að taka á móti vörunni er tengd við staðsetningarforstillingu sem krefst stjórnunar á númeraplötu, bætir forrit sölustaðar kerfisbundið númeraplötu við móttökulínuna. Sölustaðarnotendur geta ekki breytt eða stjórnað þessum gögnum númeraplötu. Ef þörf er á fullri stjórnun á númeraplötum er mælt með því að verslunin noti [vöruhúsaforrit](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/install-configure-warehousing-app) eða biðlara bakvinnslu til að stjórna móttöku á þessum vörum.
+- **Raðnúmer** – sölustaðarforrit býður upp á takmarkaðan stuðning við skráningu á einu raðnúmeri í sölufærslulínu fyrir pantanir sem eru stofnaðar á sölustað og taka með raðaðar vörur. Þetta raðnúmer er ekki sannprófað gagnvart skráðum raðnúmerum sem eru nú þegar í birgðum. Ef sölupöntun er stofnuð í rás símavers eða uppfyllt í gegnum ERP og mörg raðnúmer eru skráð á staka sölulínu í uppfyllingarferlinu í ERP, verður ekki hægt að nota eða sannprófa þessi raðnúmer ef unnið er úr skilum á sölustað fyrir þessa pöntun. Þegar birgðir hafa verið mótteknar með aðgerðinni **aðgerð á innleið** geta notendur [skráð inn eða staðfest raðnúmerin sem eru móttekin](https://docs.microsoft.com/dynamics365/commerce/pos-serialized-items).
+- **Birgðastaða** – Fyrir vörur sem nota ferli vöruhúsakerfis og þurfa birgðastöðu, verður ekki hægt að stilla eða breyta þessum stöðureit í gegnum forrit sölustaðar. Sjálfgefin birgðastaða eins og hún er skilgreind í skilgreiningu fyrir vöruhús verslunar verður notuð þegar vörur eru mótteknar í birgðum.
 
 > [!NOTE]
-> Öll fyrirtæki verða að prófa vöruafbrigðin í gegnum POS í þróun eða prófunarumhverfi áður en þau eru innleidd í framleiðslu. Prófaðu vörurnar þínar með því að framkvæma reglulegar sölufærslur fyrir „staðgreiða og afhenda“ og stofna pantanir viðskiptavinar (ef á við) í gegnum POS með vörunum þínum. Prófun verður að fela í sér að keyra ítarleg bókunarferli uppgjörs í prófunarumhverfinu þínu og staðfesta að engin vandamál séu til staðar.
+> Öll fyrirtæki verða að prófa vöruafbrigðin í gegnum POS í þróun eða prófunarumhverfi áður en þau eru innleidd í vinnsluumhverfi. Prófaðu vörurnar þínar með því að nota þær til að framkvæma reglulegar sölufærslur í reiðufé og búðu til pantanir viðskiptavinar (ef það á við) í gegnum sölustaði. Einnig ætti að prófa uppfyllingar sölustaðar og birgðaferli (svo sem móttaka birgða og uppfyllingaraðgerðir pöntunar) áður en ný vöruafbrigði eru sett upp, til að ganga úr skugga um að sölustaðarforrit geti stutt þau. Prófun verður að fela í sér að keyra ítarleg bókunarferli uppgjörs í prófunarumhverfinu þínu og staðfesta að engin vandamál séu til staðar þegar pantanir fyrir þessar vörur eru stofnaðar og birtar í Commerce Headquarters.
 >
-> Stillingar á vörum á þann hátt sem er ekki studdur af POS forritinu, án almennilegrar prófunar, getur leitt til þess að bókunarferli uppgjörs mistakist í framleiðslu án auðveldrar leiðar til að lagfæra vandamálið. Sérstillingar samstarfsaðila eða viðskiptavinar fyrir forritið er einnig hægt að hugleiða til að leyfa þessum bókunarferlum að klára án vandamála. Ef ekki er þörf á sérstillingum þarf fyrirtækið að tryggja að vöruafbrigði varanna þinna hafi verið gerðar á þann hátt sem studd er með stöðluðu POS-forriti/stofnun pöntunar/bókunarferli uppgjörs.
+> Ef vörur eru skilgreindar á hátt sem sölustaðarforrit styður ekki og viðeigandi prófun er ekki lokið, geta gagnabilanir sem ekki er auðvelt að leiðrétta eða sem falla ekki undir staðlaða afurðaraðstoð komið upp þegar pantanir eru stofnaðar.
 
 ## <a name="purchase-orders"></a>Innkaupapantanir
 
-Innkaupapantanir eru stofnaðar á aðalskrifstofu. Ef vöruhús er innifalið í haus innkaupapöntunar er hægt að taka við pöntuninni í verslun með því að nota Modern POS (MPOS) eða Cloud POS í gegnum aðgerðina **Tiltekt/móttaka**. Eftir að magn sem er móttekið í verslun er slegið inn í reitinn **Móttaka nú** á sölustað fyrir skjal innkaupapöntunar, er hægt að vista það staðbundið eða ráðstafað. Vistun þessara gagna á staðnum hefur engin áhrif á birgðir á lager. Aðeins ætti að vista ef notandi er ekki tilbúinn til að bóka móttökuna í höfuðstöðvum og þarf aðeins leið til að geyma tímabundið áður innslegnu gögnin **Móttaka nú**. Þetta vistar gögnin staðbundið í gagnagrunni rásar notanda fyrir það sem er móttekið núna. Þegar unnið er úr skjalinu með valkostinum **Ráðstafa** eru gögnin **Móttekið nú** send til höfuðstöðva og móttaka innkaupapöntunar verður bókuð. 
+Innkaupabeiðnir eru stofnaðar í Commerce Headquarters. Ef vöruhús verslunar er tekin með í haus innkaupapöntunar eða á innkaupapöntunarlínum er hægt að taka á móti línunum í versluninni með aðgerðinni [aðgerð á innleið](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) á sölustað. 
 
 ## <a name="transfer-orders"></a>Flutningspantanir
 
-Flutningspöntun getur tilgreint að ákveðin verslun sé staðsetning sem hægt er að senda vörurnar úr eða staðsetning sem birgðir verða mótteknar í. Ef notandi sölustaðar er afhendingarvöruhús fyrir flutningspöntun getur hann slegið inn magnið fyrir **Senda núna** úr sölustað. Gögnin sem afhendingarverslun slær inn er hægt að vista staðbundið eða ráðstafa. Þegar vistað er á staðnum eru engar uppfærslur gerðar á skjali flutningspöntunar í höfuðstöðvum. Aðeins ætti að vista ef notandi er ekki tilbúinn til að bóka afhendingu í höfuðstöðvum og þarf leið til að geyma tímabundið áður innslegnu gögnin **Afhenda núna**. Eftir að verslun er tilbúin til að staðfesta sendingu ætti að velja valkostinn **Ráðstafa**. Þetta bókar sendingu á flutningspöntun í höfuðstöðvum svo að viðtökuvöruhús geti nú móttekið. 
-
-Ef notandi sölustaðar er viðtökuvöruhús fyrir flutningspöntun getur hann slegið inn magnið fyrir **Móttaka núna** úr sölustað. Gögnin sem móttökuverslun slær inn er hægt að vista staðbundið eða ráðstafa. Aðeins ætti að vista ef notandi er ekki tilbúinn til að bóka móttökuna í höfuðstöðvum og þarf leið til að geyma tímabundið áður innslegnu gögnin **Móttaka nú**. Þetta vistar gögnin staðbundið í gagnagrunni rásar notanda fyrir það sem er móttekið núna. Þegar unnið er úr skjalinu með valkostinum **Ráðstafa** eru gögnin **Móttekið nú** send til höfuðstöðva og móttaka flutningspöntunar verður bókuð. Mikilvægt er að hafa í huga að móttökuverslun takmarkast við að geta aðeins ráðstafað mótteknu magni sem jafngildir eða er minna en sent magn. Tilraun til að taka á móti magni flutningspöntunar sem hefur ekki verið afhent leiðir til villu og móttaka verður ekki staðfest í höfuðstöðvum.
+Hægt er að stofna flutningspantanir í Commerce Headquarters eða í gegnum annað hvort [aðgerð á innleið](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) eða [aðgerð á útleið](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation) í sölustað. Notið **aðgerð á innleið** POS-aðgerð til að stofna flutningspöntunarbeiðni til að hafa birgðir sendar í verslun frá öðru vöruhúsi eða geymslustað. Notaðu **aðgerð á útleið** POS-aðgerð til að stofna flutningspöntunarbeiðni til að hafa birgðir sendar úr versluninni í annað vöruhús eða geymslustað. Eftir að flutningspöntun fyrir verslun er stofnuð getur þessi verslun stjórnað móttöku birgða fyrir flutningspöntunina í gegnum **aðgerð á innleið** á sölustað. Ef verslunin er að senda birgðir á aðra staðsetningu, er **aðgerð á útleið** á sölustaðnum notuð til að stjórna sendingu á útleið í þessari verslun.
 
 ## <a name="stock-counts"></a>Birgðatalning
 
-Birgðatalningar geta verið annaðhvort áætlaðar eða óskipulagðar. Áætluð birgðatalning – Þessar birgðatalningar eru gerðar að frumkvæði aðalskrifstofunnar og það er hún sem ákveður hvaða vörur á að telja. Aðalskrifstofa útbýr talningarskjal og sendir versluninni það og þar eru upplýsingar um birgðastöðu færðar inn í MPOS eða Cloud POS. Óundirbúin birgðatalning er hafin í verslun og magn raunbirgða á lager er uppfært í annaðhvort MPOS eða Cloud POS. Ólíkt áætlaðri birgðatalningu hafa óundirbúnar birgðatalningar ekki fyrirfram skilgreindan lista yfir vörur. Þegar birgðatalningu af annarri hvorri gerð er lokið er henni ráðstafað og send til aðalskrifstofu. Á aðalskrifstofu er talningin villuleituð og bókuð sem aukaskref.
+Birgðatalningar geta verið annaðhvort áætlaðar eða óskipulagðar. Áætlaðar birgðatalningar eru stofnaðar í gegnum Commerce Headquarters með því að stofna talningarbókarskjal sem er tengt við vöruhúsið fyrir verslunina. Þessi færslubók tilgreinir vörurnar sem þarf að telja. Í versluninni er síðan hægt að fá aðgang að þessum fyrirframgefnu talningarbókum og vinna með þær með því að nota **birgðatalning** í sölustað. Notendur verslunar hafa frumkvæði að óundirbúinni birgðatalningu þar sem þess er krafist þegar þeir nota **birgðatalning** í sölustað. Ólíkt áætlaðri birgðatalningu hafa óundirbúnar birgðatalningar ekki fyrirfram skilgreindan lista yfir vörur. Þegar birgðatalningu af annarri hvorri gerð er lokið á sölustað er henni ráðstafað og hún send til aðalskrifstofu. Á aðalskrifstofu er talningin villuleituð og bókuð sem aukaskref í Commerce Headquarters.
 
 ## <a name="inventory-lookup"></a>Birgðauppfletting
 
-Núverandi afurðarmagn á lager fyrir margar verslanir og vöruhús er hægt að skoða á síðunni **Uppfletting á birgðum**. Fyrir utan núverandi lagermagn má skoða tiltækt magn loforðs (ATP) um fyrir hverja einstaka verslun. Til að gera það skal velja þá verslun sem á að skoða ATP fyrir og smella svo á **Sýna framboð verslunar**.
+Núverandi afurðarmagn á lager fyrir margar verslanir og vöruhús er hægt að skoða á síðunni **Uppfletting á birgðum**. Til viðbótar við núverandi magn á lager er hægt að skoða magn sem tiltækt er að lofa í framtíðinni (ATP) fyrir hverja verslun. Veldu verslunina til að skoða ATP-magn fyrir og veldu síðan **Sýna tiltækileika verslunar**. Upplýsingar um skilgreiningarvalkostina sem eru í boði er að finna í [Reikna út birgðaframboð fyrir smásölurásir](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels).

@@ -3,7 +3,7 @@ title: Reiknið birgðir til ráðstöfunar fyrir smásölurásir
 description: Þetta efni lýsir þeim valkostum sem eru í boði til að sýna lagerbirgðir fyrir verslunina og netrásirnar.
 author: hhainesms
 manager: annbe
-ms.date: 02/25/2020
+ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.openlocfilehash: 51e6633caa49daeedca685f3323eaf4e14e788a5
+ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3113921"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3379237"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Reiknið birgðir til ráðstöfunar fyrir smásölurásir
 
@@ -50,12 +50,7 @@ Bæði API sækja gögn frá Commerce-miðlaranum og veita mat á lagerbirgðum 
 
 ### <a name="get-started-with-e-commerce-calculated-inventory-availability"></a>Byrjaðu með reiknuðum birgðum til ráðstöfunar í e-Commerce
 
-Áður en þú notar tvö API sem fyrr voru nefnd, verður þú að gera breytingu í Commerce Headquarters til að tryggja að mynd af birgðagildum sem Commerce Headquarters reiknar með vinnslunni **Tiltækar afurðir** færir inn gögn í réttar töflur.
-
-Fylgdu þessum skrefum til að stillta færibreytuna.
-
-1. Opnið **Smásala og viðskipti \> Uppsetning höfuðstöðva \> færibreytur \> Samnýttar færibreytur Commerce**.
-1. Á flipanum **Birgðir**, í hlutanum **Vinnsla tiltækra afurða**, velurðu **Nota fínstillingarferli fyrir vinnslu á tiltækum afurðum**. Þessi stilling tryggir að ákjósanlegasti eiginleikasettið er notað til að reikna út tiltækar birgðir rásarinnar í gegnum Commerce-miðlarann.
+Áður en hægt er að nota þau tvö API sem minnst var á áður verður að virkja eiginleikann **Fínstilltur útreikningur á framboði afurðar** í gegnum vinnusvæðið **Eiginleikastjórnun** í Commerce Headquarters.
 
 Áður en API geta reiknað besta mat á birgðum til ráðstöfunar fyrir vöru, verður að vinna reglulega skyndimynd af birgðaframboði frá Commerce Headquarters og senda í rásagagnagrunninn sem Commerce Scale Unit fyrir e-Commerce notar. Skyndimyndin táknar upplýsingarnar sem aðalstöðvar Commerce hafa um framboð birgða fyrir ákveðna samsetningu afurðar eða afurðaafbrigða og vörugeymsla. Það getur falið í sér birgðaleiðréttingar eða -hreyfingar sem orsakast af innhreyfingum birgða eða af sendingum eða öðrum ferlum sem eru framkvæmdir í Commerce Headquarters og að rás e-Commerce hafi aðeins upplýsingar um vegna samstillingarferilsins.
 
@@ -85,20 +80,15 @@ Fylgdu þessum skrefum til að taka mynd af birgðum í Commerce Headquarters.
 
 ### <a name="get-started-with-pos-channel-side-calculated-inventory-availability"></a>Byrjaðu með reiknuðum birgðum til ráðstöfunar í sölustaðarrás
 
-Til að nota útreikningaútgáfu rásarhliða og slökkva á rauntíma þjónustuköllum vegna birgðauppflettingar úr POS forritinu, verður þú fyrst að gera tvær breytingar á færibreytum. Síðan verðurðu að samstilla breytingarnar á rásinni í gegnum dreifingaráætlunarferlið.
+Til að nota útreikningsrökin fyrir rásarhlið og slökkva á símtölum rauntímaþjónustu fyrir uppflettingu birgða úr sölustaðarforritinu verður fyrst að virkja eiginleikann **Fínstilltur útreikningur á framboði afurðar** á vinnusvæðinu **Eiginleikastjórnun** í Commerce Headquarters. Til viðbótar við að virkja eiginleikann verður að gera breytingar á **Virkniregla**.
 
-Fylgdu þessum skrefum til að stillta fyrri færibreytuna.
-
-1. Opnið **Retail og Commerce \> Uppsetning höfuðstöðva \> Færibreytur \> Samnýttar færibreytur Commerce**.
-1. Á flipanum **Birgðir**, í hlutanum **Vinnsla tiltækra afurða**, velurðu **Nota fínstillingarferli fyrir vinnslu á tiltækum afurðum**. Þessi stilling tryggir að ákjósanlegasti eiginleikasettið er notað til að reikna út tiltækar birgðir rásarinnar í gegnum Commerce-miðlarann.
-
-Fylgdu þessum skrefum til að stillta seinni færibreytuna.
+Til að breyta **Virknireglu** skal fylgja þessum skrefum:
 
 1. Farðu í **Retail og Commerce \> Uppsetning rásar \> Uppsetning sölustaðar \> Forstillingar sölustaðar \> Virknireglur**.
 1. Veldu virkniforstillingu.
 1. Á flýtiflipanum **Aðgerðir**, í hlutanum **Útreikningur á birgðaframboði**, breytirðu gildi í reitnum **Útreikningsaðferð birgðaframboðs** úr **Rauntímaþjónusta** í **Rás**. Sjálfgefið er að allar virkniforstillingar nota rauntíma þjónustuköll. Þess vegna verður þú að breyta gildi þessa reits ef þú vilt nota útreikningarök í rásinni. Þessi breyting hefur áhrif á sérhverja smásöluverslun sem er tengd við valdar virkniforstillingar.
 
-Fylgdu þessum skrefum til að uppfæra þjónana.
+Þá þarf að samstilla breytingarnar við rásina í gegnum vinnslu áætlanadreifingar með því að framkvæma eftirfarandi skref:
 
 1. Farðu í **Retail og Commerce \> Upplýsingatækni í Retail og Commerce \> Dreifingaráætlun**.
 1. Keyrðu vinnsluna **1070** (**Stilling rásar**).

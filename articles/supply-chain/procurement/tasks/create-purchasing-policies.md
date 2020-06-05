@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4e13a9a594e8c4041a586734df53321d57b43586
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d4ba2a23f84972391283eaf01cef70a161c75226
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204794"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383171"
 ---
 # <a name="create-purchasing-policies"></a>Stofna innkaupastefnu
 
@@ -32,7 +32,7 @@ ms.locfileid: "3204794"
 
 ## <a name="set-up-policy-parameters"></a>Setja upp færibreytur reglna
 1. Í skoðunarrúðunni ferðu í **Kerfiseiningar > Innkaup og aðföng > Uppsetning > Reglur > Innkaupareglur**.
-2. Í aðgerðarúðunni velurðu **Færibreytur**.
+2. Á aðgerðasvæðinu skal velja **Færibreytur**.
 - Reglugerðir um forgang eiga við um mismunandi stig innan fyrirtækisins. Skipulagseiningar sem eru sýndar fara eftir því stigveldi fyrirtækis og á hvaða stigi í stigveldi er búið að úthluta tilgangi fyrir innra eftirlit innkaupa. Til dæmis, gæti fyrirtækið verið með lögaðila, kostnaðarstaði, svæði og deildir, en hugsanlega er aðeins sumar þessara eininga með tilgang stigveldis fyrir innra eftirlit innkaupa. Sjálfgefið er að fyrirtækisins af gerðinni Fyrirtæki tiltæk.  
 3. Veldu flipann **Færibreytur stefnureglugerðar**.
 4. Í trénu ferðu í **Innkaupastefna > Stjórnunarregla innkaupastefnu**.

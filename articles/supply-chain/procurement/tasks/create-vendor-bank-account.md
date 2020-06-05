@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0a108b5c8b7f2f90a4d33d8a9ff088335c18d4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f8092ab7f960fd36515afb8448dfe1e262197595
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207661"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383137"
 ---
 # <a name="create-a-vendor-bank-account"></a>Stofna bankareikning lánardrottins
 
@@ -31,7 +31,7 @@ ms.locfileid: "3207661"
 
 1. Farði í **Skoðunarrúðuna > Kerfiseiningar > Innkaup og aðföng > Lánardrottnar > Allir lánardrottnar**.
 2. Veljið lánardrottinn sem á að stofna bankareikning fyrir, og smellið síðan á tengil í reitnum **Kenni lánardrottnalykils**.
-3. Í **aðgerðasvæðinu** er smellt á **Lánardrottinn**.
+3. Á **Aðgerðasvæði** er smellt á **Lánardrottinn**.
 4. Smelltu á **Bankareikninga**.
 5. Í **aðgerðasvæðinu** er smellt á **Nýtt**.
 6. Í reitinn **Bankareikningar** skal slá inn gildi. Þetta Kenni verður notuð til að auðkenna bankareikninginn á lánardrottinsfærslu.  

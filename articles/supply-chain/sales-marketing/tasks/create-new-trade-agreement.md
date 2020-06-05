@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9aa46f959c35c209791457aa697ab829264b3275
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1642da7b06363d1f704e51276b5cb36823707231
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211952"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383423"
 ---
 # <a name="create-a-new-trade-agreement"></a>Stofna nýja verðsamning
 
@@ -34,7 +34,7 @@ ms.locfileid: "3211952"
 2. Smellt er á **Nýtt**.
 3. Í reitnum **Heiti** skal smella á fellilistahnappinn til að opna leitina.
 4. Í listanum skal finna og velja þá skráningu sem óskað er eftir.
-5. Í **Aðgerðasvæðinu** smellirðu á **Línur**.
+5. Á **Aðgerðasvæði** er smellt á **Línur**.
 6. Í reitnum **Reikningskóði** velurðu „Tafla“.
     
     Í þessu dæmi er verið að uppfæra verð fyrir tiltekinn viðskiptavin, sem þýðir að þarf að velja Töflu. Ef verið var að uppfæra listaverð afurðar, myndirðu velja „Allt“, þannig að nýtt verð myndi gilda fyrir alla viðskiptavini. Ef þú værir að sundurgreina verð milli ólíkra hluta viðskiptavinar þá myndiðu velja Flokk. Til að velja Flokk, verður að hafa að sett upp verðflokka viðskiptavinar.  
