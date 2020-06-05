@@ -1,9 +1,9 @@
 ---
-title: Mælieiningarumreikningur á afurðarafbrigði
-description: Í þessu efnisatriði er fjallað um hvernig hægt er að setja upp mælieiningarumreikninga fyrir afurðarafbrigði.
+title: Umreikningur mælieiningar eftir afurðarafbrigði
+description: Þetta efnisatriði útskýrir hvernig á að setja upp umreikning mælieiningar fyrir afurðarafbrigði. Dæmi um uppsetninguna fylgir með.
 author: johanhoffmann
 manager: tfehr
-ms.date: 01/06/2020
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,71 +17,93 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: e50be7fa6fa686a90b2dd5c5200c881e4629f019
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 71d35d47a703f0931ba3b4ab5df21c7199c7ea5b
+ms.sourcegitcommit: 92611ec276da6f7211d722cfcd66739b612296dc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204494"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3382798"
 ---
-# <a name="unit-of-measure-conversion-per-product-variant"></a>Mælieiningarumreikningur á afurðarafbrigði
+# <a name="unit-of-measure-conversion-per-product-variant"></a>Umreikningur mælieiningar eftir afurðarafbrigði
 
 [!include [banner](../includes/banner.md)]
 
-Í þessu efnisatriði er fjallað um hvernig hægt er að setja upp mælieiningarumreikninga fyrir afurðarafbrigði. Dæmi um uppsetninguna fylgir með.
+Þetta efnisatriði útskýrir hvernig á að setja upp umreikning mælieiningar fyrir ýmis afurðarafbrigði.
 
-Þessi eiginleiki gerir fyrirtækjum kleift að skilgreina mismunandi umreikninga eininga milli afbrigða sömu afurðarinnar. Eftirfarandi dæmi er notað í þessu efnisatriði. Fyrirtæki selur stuttermaboli í eftirfarandi stærðum: litlir, miðlungs, stórir og mjög stórir. Stuttermabolur er skilgreindur sem afurð og mismunandi stærðir eru skilgreindar sem afbrigði af vörunni. Stuttermabolunum er pakkað í kassa og það geta verið fimm bolir í kassa, fyrir utan þá mjög stóru þar sem aðeins er pláss fyrir fjóra boli. Fyrirtækið vill rekja ólík afbrigði af stuttermabolunum í einingunni **Stykki** en selur bolina í einingunni **Kassar**. Umreikningur milli birgðaeiningar og sölueiningar er 1 kassi = 5 stykki, fyrir utan afbrigðið Mjög stór þar sem umreikningurinn er 1 kassi = 4 stykki.
+Í stað þess að búa til margar stakar afurðir sem þarf að vinna með er hægt að nota afurðarafbrigði til að búa til afbrigði af einni afurð. Til dæmis gæti afurðarafbrigðið verið stuttermabolur af tiltekinni stærð og lit.
 
-### <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Setja upp afurð fyrir umreikning einingar fyrir hvert afbrigði
+Áður var aðeins hægt að setja umreikning eininga upp á afurðarsniðmáti. Þess vegna voru öll afurðarafbrigði með sömu umreikningsreglur einingar. Hins vegar þegar kveikt er á *Umreikningur mælieiningar fyrir afurðarafbrigði*, ef stuttermabolirnir eru seldir í kössum, og fjöldi stuttermabola sem hægt er að pakka í kassa fer eftir stærð stuttermabolanna, er hægt að setja upp umreikning eininga á milli mismunandi bolastærða og kassa sem notaðir eru sem umbúðir.
 
-Aðeins er hægt að búa til afurðarafbrigði fyrir afurðir af **Undirgerð afurðar**: **Afurðarsniðmát**. Nánari upplýsingar er að finna í [Stofna afurðarsniðmát](tasks/create-product-master.md).
+## <a name="turn-on-the-feature-in-your-system"></a>Kveikja á eiginleikanum í kerfinu
 
-Eiginleikinn er ekki virkjaður fyrir afurðir sem eru settar upp fyrir ferli framleiðsluþyngdar. 
+Ef þessi eiginleiki er ekki þegar til staðar í kerfinu skal fara á [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), og kveikja á *Umreikningur mælieiningar fyrir afurðarafbrigði*.
 
-Þegar afurðarsniðmát með útgefnum afurðarafbrigðum er búið til, er hægt að setja upp umreikninga eininga fyrir hvert afbrigði. Hægt er að finna valmyndaratriðið til að opna síðu fyrir umreikning eininga í samhengi við afurð eða afurðarafbrigði á eftirfarandi síðum.
+## <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Setja upp afurð fyrir umreikning einingar fyrir hvert afbrigði
 
--   Síðan **Upplýsingar um afurð**
--   Síðan **Upplýsingar um útgefnar afurðar**
--   Síðan **Útgefin afurðarafbrigði**
+Aðeins er hægt að stofna afurðarafbrigði fyrir afurðir sem eru afurðarsniðmát. Nánari upplýsingar er að finna í [Stofna afurðarsniðmát](tasks/create-product-master.md). *Umreikningur mælieiningar fyrir afurðarafbrigði* er ekki tiltækur fyrir afurðir sem eru settar upp fyrir ferli fyrir þyngd afurðar.
 
-Þegar þú opnar síðuna **Umreikningur eininga** í samhengi við afurðarsniðmát eða útgefið afurðarafbrigði getur þú valið hvort þú vilt setja upp umreikning eininga fyrir afurðina eða fyrir afurðarafbrigðið. Þú gerir það með því að velja annaðhvort **Afurðarafbrigði** eða **Afurð** í reitnum **Búa til umreikning fyrir**.
+Til að skilgreina afurðarsniðmát til að styðja umbreytingu eininga á hvert afbrigði skal fylgja þessum skrefum.
 
-### <a name="product-variant"></a>Afurðarafbrigði
+1. Opna **upplýsingar um afurðastjórnun \> Afurðir \> Afurðarsniðmát**.
+1. Stofna eða opna afurðarsniðmát til að fara á **Upplýsingar um afurð**-síðuna.
+1. Stilltu **Virkja umreikning mælieiningar** á *Já*.
+1. Á aðgerðarúðunni á flipanum **Afurð** í flokknum **Uppsetning** skal velja **Umreikningur eininga**.
+1. **Umreikningur eininga** síðan opnast. Velja einn af eftirfarandi flipum:
 
-Ef þú velur **Afurðarafbrigði** getur þú valið fyrir hvaða afbrigði þú vilt setja upp umreikning eininga í reitnum **Afurðarafbrigði**.
+    - **Umreikningur innan flokks** – Veljið þennan flipa til að umbreyta á milli eininga sem tilheyra sama mælieiningaflokki.
+    - **Umreikningur milli flokka** – Veljið þennan flipa til að umbreyta á milli eininga sem tilheyra mismunandi mælieiningaflokkum.
 
-### <a name="product"></a>Afurð
+1. Ef bæta á nýrri einingu við er smellt á **Nýtt**.
+1. Stillið **Búa til umreikning fyrir** reitinn á eitt af eftirfarandi gildum:
 
-Ef þú velur **Afurð** getur þú sett upp umreikning eininga fyrir afurðarsniðmát. Þessi umreikningur eininga á við um öll afurðarafbrigði með engan skilgreindan umreikning eininga.
+    - **Afurð** – Ef þú velur þetta gildi getur þú sett upp umreikning eininga fyrir afurðarsniðmát. Þessi umreikningur eininga verður notaður til vara fyrir öll afurðarafbrigði sem enginn umreikningur eininga er skilgreindur fyrir.
+    - **Afurðarafbrigði** – ef þetta gildi er valið er hægt að setja upp umreikning eininga fyrir tilgreint afurðarafbrigði. Notaðu reitinn **Afurðarafbrigði** til að velja afbrigðið.
 
-### <a name="example"></a>Dæmi
+    ![Nýjum umreikningi eininga bætt við](media/uom-new-conversion.png "Nýjum umreikningi eininga bætt við")
 
-Afurðarsniðmát, **Stuttermabolur**, er með fjögur útgefin afurðarafbrigði: Lítill, Miðlungs, Stór og Mjög stór. Stuttermabolunum er pakkað í kassa og það geta verið fimm bolir í kassa, fyrir utan þá Mjög stóru þar sem aðeins er pláss fyrir fjóra boli.
+1. Notaðu önnur svæði sem eru gefin upp til að setja upp umreikning eininga.
+1. Veljið **Í lagi** til að vista nýja umreikning eininga.
 
-Fyrst skaltu opna síðuna **Umreikningur eininga** á upplýsingasíðu útgefinna afurða fyrir **Stuttermabolir.**
+> [!TIP]
+> Hægt er að opna **Umreikningur eininga** síðu afurðar eða afurðarafbrigðis af einhverri eftirfarandi síðna:
+> 
+> - Upplýsingar um afurð
+> - Upplýsingar um losaðar afurðir
+> - Útgefin afurðarafbrigði
 
-Á síðunni **Umreikningur eininga** skal setja upp umreikning eininga fyrir útgefna afurðarafbrigðið Mjög stór.
+## <a name="example-scenario"></a>Dæmi
 
-| **Svæði**             | **Stilling**             |
-|-----------------------|-------------------------|
-| Búa til umskráningu fyrir | Afurðarafbrigði         |
-| Afurðarafbrigði       | Stuttermabolur : : Mjög stór : : |
-| Frá einingu             | Kassar                   |
-| Stuðull                | 4                       |
-| Til einingar               | Stykki                  |
+Í þessu tilviki selur fyrirtæki stuttermaboli í eftirfarandi stærðum: litlir, miðlungs, stórir og mjög stórir. Stuttermabolur er skilgreindur sem afurð og mismunandi stærðir eru skilgreindar sem afbrigði af afurðinni. Bolirnir eru pakkaðir í kössum. Fyrir stærðir lítill, meðalstór og stór geta verið fimm bolir í hverjum kassa. Hins vegar, fyrir mjög stóra, er ekki til pláss nema fyrir fjóra boli í hverjum kassa.
 
-Útgefnu afurðarafbrigðin Lítill, Miðlungs og Stór eru með sama umreikning eininga milli eininganna Kassi og Stykki, sem þýðir að hægt er að skilgreina umreikning eininga fyrir þessi afurðarafbrigði í afurðarsniðmátinu.
+Fyrirtækið vill rekja mismunandi afbrigði í einingunni *Stykki*, en það selur þær í einingunni *Kassar*. Fyrir stærðir lítill, miðlungs og stór er umreikningur milli birgðaeiningar og sölueiningar 1 kassi = 5 stykki. Fyrir stærð mjög stór er umreikningurinn 1 kassi = 4 stykki.
 
-| **Svæði**             | **Stilling** |
-|-----------------------|-------------|
-| Búa til umskráningu fyrir | Afurð     |
-| Afurð               | Stuttermabolur     |
-| Frá einingu             | Kassar       |
-| Stuðull                | 5           |
-| Til einingar               | Stykki      |
+1. Á síðunni **Upplýsingar um losaðar afurðir** fyrir vöruna **Stuttermabolir** opnaðu síðuna **Umreikningur eininga**.
+1. Á síðunni **Umreikningur eininga** skal setja upp eftirfarandi umreikning eininga fyrir útgefna afurðarafbrigðið **Mjög stór**.
 
-### <a name="using-excel-to-update-the-unit-conversions"></a>Nota Excel til að uppfæra umreikning eininga
+    | Svæði                 | Stilling                 |
+    |-----------------------|-------------------------|
+    | Búa til umskráningu fyrir | Afurðarafbrigði         |
+    | Afurðarafbrigði       | Stuttermabolur : : Mjög stór : : |
+    | Frá einingu             | Kassar                   |
+    | Stuðull                | 4                       |
+    | Til einingar               | Stykki                  |
 
-Ef afurð er með mörg afurðarafbrigði með mismunandi umreikningum eininga, er góð hugmynd að flytja út umreikninga eininga úr síðunni **Umreikningur eininga** í Excel-töflureikni, uppfæra umreikningana, og síðan senda þá til baka til Supply Chain Management.
+1. Útgefnu afurðarafbrigðin **Lítill**, **Miðlungs** og **Stór** eru með sama umreikning eininga milli eininganna *Kassi* og *Stykki*, sem þýðir að hægt er að skilgreina umreikning eininga fyrir þessi afurðarafbrigði í afurðarsniðmátinu.
 
-Valmöguleikinn að flytja út í Excel og senda breytingarnar aftur til Supply Chain Management er virkjuð í valmyndaratriðinu **Opna í Microsoft Office** í aðgerðarúðunni á síðunni **Umreikningur eininga**.
+    | Svæði                 | Stilling |
+    |-----------------------|---------|
+    | Búa til umskráningu fyrir | Afurð |
+    | Afurð               | Stuttermabolur |
+    | Frá einingu             | Kassar   |
+    | Stuðull                | 5       |
+    | Til einingar               | Stykki  |
+
+## <a name="using-excel-to-update-the-unit-conversions"></a>Nota Excel til að uppfæra umreikning eininga
+
+Ef afurð er með mörg afurðarafbrigði með mismunandi umreikningum eininga, er góð hugmynd að flytja út umreikninga eininga í Microsoft Excel vinnubók, uppfæra umreikningana, og síðan senda þá til baka til Dynamics 365 Supply Chain Management.
+
+Til að flytja út umreikninga eininga í Excel, á síðunni **Umreikningur eininga**, í aðgerðasvæði, skal velja **Opna í Microsoft Office**.
+
+## <a name="additional-resources"></a>Frekari upplýsingar
+
+[Stjórna mælieiningu](tasks/manage-unit-measure.md)

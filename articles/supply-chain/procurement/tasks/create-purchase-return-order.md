@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c83cafd3a8934c488bb7a9f315bd5cb154f88c09
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b4587c9d64c2456e5f9f27cdb19625d9537f1e29
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204831"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383206"
 ---
 # <a name="create-a-purchase-return-order"></a>Stofna innkaupaskilapöntun
 
@@ -34,7 +34,7 @@ ms.locfileid: "3204831"
 2. Smellt er á **Nýtt**.
 3. Í reitnum **Lánardrottnalykill** skal slá inn „US-102“.
 4. Smellt er á **OK**.
-5. Í **aðgerðasvæðinu** er smellt á **Innkaup**.
+5. Á **Aðgerðasvæði** skal smella á **Innkaup**.
 6. Smelltu á **Kreditnótu**. Þetta er síðuna þaðan sem hægt er að afrita úr fyrirliggjandi reikningur lánardrottins yfir í þína skilapöntun. Þetta er sama síða og er notuð fyrir aðrar afritunaraðgerðir. En þar sem við opnuðum síðuna úr kreditnótuaðgerð er hún skilgreind til að styðja við stofnun skilapöntunar sem mótbókar reikninga lánardrottins.  
 7. Útvíkkaðu hlutann **Færibreytur**.
     - Valkosturinn **Snúa við formerki** er sjálfvirkt valinn og er ekki hægt að breyta. Þetta tryggir að merkið er breytt fyrir magn, og að pöntunarlínur sem bætt verður við verða mótfærð gagnvart reikningi lánardrottins.  

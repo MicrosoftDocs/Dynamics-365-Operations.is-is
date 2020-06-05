@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26112a9d25c0097bdbf30003247ce6dd4b4fb634
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7ed359521dd018047fdbd5312d0cb73d764de925
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204885"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383229"
 ---
 # <a name="create-a-purchase-order"></a>Stofna innkaupapöntun
 
@@ -68,7 +68,7 @@ ms.locfileid: "3204885"
 ## <a name="review-order-totals"></a>Fara yfir samtölu pöntunar
 1. Veldu **Samtals**.
 
-    - Ef þú sérð ekki aðgerðina **Samtölur** skaltu smella á flipann **Innkaupapöntun** á aðgerðastikunni.  
+    - Ef aðgerðin **Samtölur** sést ekki skal velja **Innkaupapöntun** á aðgerðasvæðinu.  
     - Svarglugginn sýnir samtölur fyrir alla pöntunina.  
     - Reiturinn **Val** gerir þér kleift að breyta grundvellinum sem notaður er til að reikna samtölur. Til dæmis gætirðu valið **Magn á innhreyfingarskjali afurða** til að sýna samtölur sem tengjast fjölda afurða sem hafa verið mótteknar, eða **Pantað magn** til að sýna fjölda pantaðra afurða.  
 

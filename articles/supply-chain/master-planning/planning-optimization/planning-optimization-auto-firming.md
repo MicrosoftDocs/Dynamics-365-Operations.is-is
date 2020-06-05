@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: 81c26b8a99f86d663d91ac4f549987262c0541ad
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: e412ccbc7c44d41e0a70ef8b5436901e01c671e6
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323532"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383689"
 ---
 # <a name="auto-firming-with-planning-optimization"></a>Sjálfvirk styrking með fínstillingu skipulags
 
@@ -47,7 +47,7 @@ Fylgdu þessum skrefum til að kveikja á sjálfvirkri staðfestingu.
 Staðfestingartímamörkin eru framreiknuð frá keyrsludagsetningu aðaláætlunargerðar. Þau eru skilgreind af fjölda daga sem eru færð inn. Þú getur stjórnað tímamörkum staðfestingar á eftirfarandi hátt:
 
 - Til að skilgreina sjálfgefinn girðingartíma girðingar fyrir umfjöllunarhóp ferðu í **Aðaláætlunargerð** \> **Uppsetning** \> **Þekja** \> **Þekjuhópar** og veldu þekjuhóp. Síðan, á flýtiflipanum **Annað**, í reitinn **Sjálfvirk tímamörk staðfestinga (dagar)**, sláðu inn fjölda daga.
-- Til að skrifa yfir tímamörk staðfestingar sem eru skilgreind fyrir þekjuhópinn fyrir tiltekinn hlut ferðu í **Afurðaupplýsingastjórnun** \> **Útgefnar afurðir**, veldu síðan af aðgerðarrúðunni **Áætlun** og veldu síðan **Vöruþekja**. Síðan, á flipanum **Almennt** velurðu **Hnekkja tímamörkum** og í reitinn **Sjálfvirk tímamörk staðfestinga (dagar)** slærðu inn fjölda daga.
+- Til að skrifa yfir tímamörk staðfestingar sem eru skilgreind fyrir þekjuflokkinn fyrir tiltekna vöru er farið í **Afurðarupplýsingastjórnun** \> **Útgefnar afurðir**, síðan á aðgerðasvæðinu er valið **Áætlun** og síðan valið **Vöruþekja**. Síðan, á flipanum **Almennt** velurðu **Hnekkja tímamörkum** og í reitinn **Sjálfvirk tímamörk staðfestinga (dagar)** slærðu inn fjölda daga.
 - Til að skrifa yfir þau tímamörk staðfestingar sem eru skilgreind fyrir þekjuhópinn og vöruþekju fyrir tiltekið aðalskipulag **Aðaláætlunargerð** \> **Uppsetning** \> **Aðaláætlanir** og velur aðalskipulag. Síðan, á flýtiflipanum **Tímamörk í dögum**, stillirðu **Frysta** á **Já** og slærð inn fjölda daga.
 
 Ef kveikt er á sjálfvirkri staðfestingu fyrir keyrslu aðaláætlunargerðar sem notar fínstillingu skipulags er ferli sjálfvirkrar staðfestingar gert samkvæmt uppsetningu á sjálfvirkri staðfestingu. Ef ekki er kveikt á sjálfvirkri staðfestingu eða ef áætlunargerð er hafin af síðunni **Nettóþörf** er sjálfvirkt staðfestandi ferli sleppt.

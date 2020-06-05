@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8491fd7c5af015989d409391e3ac143d88b6ad92
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 29930fdb65f96e281e0f0f01db41ec1475ad81c2
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207164"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383068"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Stjórna notendum fyrir samstarf lánardrottna
 
@@ -49,7 +49,7 @@ Ef óskað er að eyða tengilið er aðeins hægt að eyða þeim sem þú hefu
 Hægt að setja fram notendabeiðnir samstarf lánardrottna af innkaupasérfræðingi, eða af ytri lánardrottinn sem er stjórnandi.
 
 -   Ef þú ert ytri lánardrottinn sendirðu inn beiðnir frá síðunni **Alla tengiliði** innan einingarinnar **Samstarf lánardrottna**.
--   Ef þú ert innkaupasérfræðingur sendirðu inn beiðnir frá **Skoða tengiliði** síðuna. Til að gera þetta má, á færslu lánardrottins í **Uppsetningu** hlutanum í aðgerðarúðu, velja **Tengiliði** &gt; **Skoða tengiliðina**.
+-   Ef þú ert innkaupasérfræðingur sendirðu inn beiðnir frá **Skoða tengiliði** síðuna. Til að gera þetta má, á færslu lánardrottins í **Uppsetningu** hlutanum á aðgerðasvæði, velja **Tengiliðir** &gt; **Skoða tengiliði**.
 
 Þú getur beðið um að gerðar séu ráðstafanir fyrir notanda, að gera notanda óvirkan, eða að breyta öryggishlutverkum. Ef þú ert ytri lánardrottinn sem er stjórnandi verður þú að vera skráður sem tengiliður fyrir lánardrottnalykla sem þú vilt gera notandabeiðnir fyrir, og þú verður að hafa aðgang að viðmóti fyrir samstarf lánardrottna fyrir þá lánardrottnalykla.  
 

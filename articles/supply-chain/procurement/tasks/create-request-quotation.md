@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2c13ed20ec86108bcb9edc0d20d53ff98732b9d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 68624a0288f9eaaf8f74b361bb308b8ca3c03b29
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204747"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383172"
 ---
 # <a name="create-a-request-for-quotation"></a>Stofna beiðni um tilboð
 
@@ -67,7 +67,7 @@ Eftir að þú hefur tilgreint grunnupplýsingar um tilboðsbeiðnir þínar til
 7. Í reitinn **Lánardrottnalykill** skal færa inn eða velja gildi. Þegar lánardrottinn hefur verið valinn er staðan Stofnuð. Upplýsingar lánardrottinsins hafa samkvæmt þessu verið vistaðar í beiðninni um tilboð, en notandi hefur ekki sent beiðni um tilboð til lánardrottins. Hægt er að bæta lánardrottni við tilboðsbeiðni óháð stöðu lánardrottins.  
 
 ## <a name="send-the-rfq-to-vendors"></a>Senda beiðni um tilboð til lánardrottna
-1. Í **Aðgerðarúðunni** smellirðu á **Senda**. Í síðunni senda beiðni um tilboð skal gengið úr skugga um að lánardrottnar í listanum séu þeir sem á að senda tilboðsbeiðni til.  
+1. Í **aðgerðasvæðinu** er smellt á **Senda**. Í síðunni senda beiðni um tilboð skal gengið úr skugga um að lánardrottnar í listanum séu þeir sem á að senda tilboðsbeiðni til.  
 2. Smelltu á **Prenta**. Þessi svargluggi gerir notanda kleift að prenta beiðni um tilboð. Ef kosið er að prenta svarblað er innihald þessa skilgreint í færibreytum innkaupa og aðfanga. Til að velja hvernig á að prenta svarblöð, þegar búið er að opna prentglugga smellirðu á Ítarlegir prentunarvalkostir. Ein beiðni um tilboð verður prentuð fyrir hvern lánardrottinn sem inniheldur línur sem hafa stöðuna Stofnað eða Sent. Línur sem hætt var við og línur með skráðum svörum verða ekki prentaðar.   
 3. Smelltu á **Hætta við**.
 4. Smellt er á **OK**.

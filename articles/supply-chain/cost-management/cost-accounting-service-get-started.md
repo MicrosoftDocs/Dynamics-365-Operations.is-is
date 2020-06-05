@@ -1,5 +1,5 @@
 ---
-title: Hafist handa með kostnaðarbókhaldsþjónustu
+title: Hafist handa með kostnaðarbókhaldsþjónustu (einkaforskoðun)
 description: Þetta efnisatriði inniheldur leiðbeiningar varðandi leyfi og leiðbeiningar um uppsetningu á kostnaðarbókhaldsþjónustuna.
 author: AndersGirke
 manager: tfehr
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: cbbce7eaac264973bf0b95ad5175bf70ed2b4ae9
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: a82af9e8ec1806f470103897389d0316d33a4a06
+ms.sourcegitcommit: 7fec9dc5297ed6e687d4a0dff099922d59d6a830
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276928"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372737"
 ---
-# <a name="get-started-with-the-cost-accounting-service"></a>Hafist handa með kostnaðarbókhaldsþjónustu
+# <a name="get-started-with-the-cost-accounting-service-private-preview"></a>Hafist handa með kostnaðarbókhaldsþjónustu (einkaforskoðun)
 
 [!INCLUDE [banner](../includes/banner.md)]
 
@@ -43,16 +43,22 @@ Kostnaðarbókhaldsþjónustan er viðbót. Til að gera aðgerðir þess aðgen
 
 Kostnaðarbókhaldsþjónustan styður ekki sem stendur alla þá kostnaðarstjórnunareiginleika sem eru innbyggðir í Dynamics 365 Supply Chain Management. Þess vegna er mikilvægt að þú metir hvort grunneiginleikarnir sem nú eru tiltækir uppfylli kröfur þínar.
 
-## <a name="licensing"></a>Leyfisveiting
-
-Kostnaðarbókhaldþjónustan er háð leyfi ásamt stöðluðu eiginleikum birgðabókhalds sem eru í boði fyrir Supply Chain Management. Þú þarft ekki að kaupa viðbótarleyfi til að nota kostnaðarbókhaldsþjónustuna.
-
-## <a name="install-the-add-in"></a>Setja upp innbótina
+## <a name="how-to-get-the-cost-accounting-service-private-preview"></a><a name="sign-up"></a>Hvernig á að sækja kostnaðarbókhaldsþjónustu (einkaforskoðun)
 
 > [!IMPORTANT]
 > Til að nota kostnaðarbókhaldsþjónustuna verður þú að vera með LCS-virkt umhverfi með mikið framboð (ekki OneBox umhverfi) og þú verður að keyra útgáfu 10.0.11 af Dynamics 365 Supply Chain Management eða nýrri.
 
+Til að skrá sig fyrir einkasniðforskoðun kostnaðarbókhalds skulu notendur senda umhverfiskenni LCS í tölvupósti á [Kostnaðarbókhaldsþjónusta (einkaforskoðun)](mailto:aevengir@microsoft.com?subject=Cost%20accounting%20service%20%28private%20preview%29). Þegar notandi er samþykktur fær hann sendan tölvupóst sem inniheldur beta-lykil fyrir kostnaðarbókhaldsþjónustu. Þegar beta-lykllinn er móttekinn er hægt að halda áfram með því að [setja upp innbótina](#install).
+
+## <a name="licensing"></a>Leyfisveiting
+
+Kostnaðarbókhaldþjónustan er háð leyfi ásamt stöðluðu eiginleikum birgðabókhalds sem eru í boði fyrir Supply Chain Management. Þú þarft ekki að kaupa viðbótarleyfi til að nota kostnaðarbókhaldsþjónustuna.
+
+## <a name="install-the-add-in"></a><a name="install"></a>Setja upp innbótina
+
 Til að nota kostnaðarbókhaldsþjónustuna, skaltu setja upp viðbót kostnaðarbókhaldsþjónustu fyrir Supply Chain Management eins og lýst er í eftirfarandi aðferð.
+
+1. [Skráning](#sign-up) fyrir kostnaðarbókhaldsþjónustu (einkasforskoðun).
 
 1. Skráðu þig inn í LCS.
 

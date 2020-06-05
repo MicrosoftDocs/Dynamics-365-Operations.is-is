@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e76c123ffbeb33cbc3ba01b4b2758208ed0c445f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 66b6b365958820a76f733df5eb2aabf6c3c4ebac
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204218"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383501"
 ---
 # <a name="check-the-availability-of-stock"></a>Athuga framboð birgðaframboð
 
@@ -35,9 +35,9 @@ ms.locfileid: "3204218"
 2. Velurðu **línu vörunúmers**. Til að spyrjast fyrir um birgðir á lager eftir vörunúmeri, veljið línuna þar sem Taflan er stillt á **Birgðir á lager** og reitur er stilltur á **Vörunúmer**.
 3. Í reitnum **Skilyrði** velurðu vöruna sem þú vilt gera fyrirspurn um. Ef verið er að nota sýnigögn USMF-fyrirtækis er hægt að velja 'M9201'.  
 4. Smellt er á **OK**.
-5. Í **Aðgerðaglugganum** smellirðu á **Víddir**. Flipinn **Víddir** leyfir að velja hversu miklar upplýsingar til að sjá um birgðir á lager. Ef þarf gögn sem tengjast frátekningu, verður að birta birgðavíddir á vörum sem nota ferli ítarlegrar vöruhúsa (WHS).
+5. Í **Aðgerðasvæði** er smellt á **Víddir**. Flipinn **Víddir** leyfir að velja hversu miklar upplýsingar til að sjá um birgðir á lager. Ef þarf gögn sem tengjast frátekningu, verður að birta birgðavíddir á vörum sem nota ferli ítarlegrar vöruhúsa (WMS).
 6. Smellt er á **OK**.
-7. Á **Aðgerðasvæðinu** skal smellt á **Tengdar upplýsingar**. Ef þessi valkostur sést ekki, gæti þurft að smella á úrfellingarhnappinn (...) til að sjá aukavalkosti aðgerðaglugga.
+7. Á **Aðgerðasvæðinu** skal smellt á **Tengdar upplýsingar**. Ef það sést ekki, gæti þurft að smella á hnappinn „Úrfellingarmerki“ (…) til að sjá fleiri valkosti aðgerðasvæðis.
 8. Smelltu á **Birgðayfirlit**. Flipinn **Birgðayfirlit** veitir birgðaupplýsingar fyrir tiltekna vöru, eins og magn á lager, afhendingartíma og lánardrottnaupplýsingar.  
 9. Víkkið út hlutann **Á lager**.
 10. Stækkaðu hlutann **Lánardrottnar**.
@@ -48,7 +48,7 @@ ms.locfileid: "3204218"
 1. Fara í **Skoðunarglugga > Kerfiseiningar > Vöruhússtjórnun > Fyrirspurnir og skýrslur > Efnislegar lagerbirgðir**.
 2. Í reitnum **Vörunúmer** skal slá inn gildi. Hægt er að nota svæðin Svæðis og Vöruhúss til að sía listann yfir vörur. 
 3. Endurhlaðið síðuna.
-4. Á **Aðgerðasvæði** skal smella á **Sýna víddir**. Birtingarflipinn Víddir gerir kleift að velja hversu miklar upplýsingar til að sjá um birgðir á lager.
+4. Í **Aðgerðasvæði** er smellt á **Sýna víddir**. Birtingarflipinn Víddir gerir kleift að velja hversu miklar upplýsingar til að sjá um birgðir á lager.
 5. Smellt er á **OK**.
 6. Lokið síðunni.
 

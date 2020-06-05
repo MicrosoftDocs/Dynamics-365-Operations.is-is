@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 438e13d6887decc9867d474467efc06d7a2f3274
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6ae7587fc46d2907241a5da3b6329465d77b3555
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205714"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383091"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Uppsetning fartækja fyrir vöruhúsavinnu
 
@@ -257,7 +257,7 @@ Auk þess að setja upp valmyndaratriði til að stofna vöruhúsavinnu, er hæg
 </tr>
 <tr class="even">
 <td>Flokkun reglulegrar talningar</td>
-<td>Starfsmaðurinn velur svæði, vinnuhópi eða staðsetningu, og Supply Chain Management úthlutar vinnu sem byggir á vali. Ef þessi valkostur er valinn, er einnig hægt að smella á <strong>Regluleg talning</strong> til að tilgreina viðbótarupplýsingar til að birta og tilgreina hversu oft starfsmaðurinn verður að endurtaka talninguna ef mismunur fannst.</td>
+<td>Starfsmaðurinn velur svæði, vinnuhópi eða staðsetningu, og Supply Chain Management úthlutar vinnu sem byggir á vali. Ef þessi valkostur er valinn, er einnig hægt að smella á <strong>Regluleg talning</strong> til að tilgreina viðbótarupplýsingar til að birta og tilgreina hversu oft starfskrafturinn verður að endurtaka talninguna ef mismunur fannst.</td>
 </tr>
  <tr class="odd">
 <td>Farmflutningur</td>

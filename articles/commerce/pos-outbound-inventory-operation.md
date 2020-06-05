@@ -3,7 +3,7 @@ title: Útleið birgðaaðgerð í POS
 description: Þetta efni lýsir getu sölustaðar (POS) á útleið birgðaaðgerð.
 author: hhaines
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 26d8d67ac6d2fde0753104483fd2127f9acbaa05
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 22f057c20898bb4b4c34e38d62313d2634a33511
+ms.sourcegitcommit: 3b6fc5845ea2a0de3db19305c03d61fc74f4e0d4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123923"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3384130"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Útleið birgðaaðgerð í POS
 
@@ -117,6 +117,18 @@ Hver skönnun á strikamerki uppfærir magnið í reitnum **Sendingar núna** um
 ### <a name="over-delivery-shipping-validations"></a>Staðfestingar á sendingum ofafhendingar
 
 Villuleitir eiga sér stað í móttökuferli skjalalínanna. Þær fela í sér staðfestingar vegna ofafhendingar. Ef notandi reynir að fá meiri birgðir en pantað var í innkaupapöntun, en annaðhvort er ofafhending ekki stillt eða magnið sem er móttekið fer fram úr vikmörkum ofafhendingar sem eru stilltar fyrir innkaupapöntunarlínuna, fær notandinn villu og er ekki leyft að taka á móti umframmagni.
+
+### <a name="underdelivery-close-lines"></a>Lokalínur vanafhendingar
+
+Í Commerce útg. 10.0.12 var virkni bætt við sem gerir notendum sölustaðar kleift að loka eða hætta við eftirstöðvar magns við afhendingu á útleið ef vöruhúsið á útleið ákvarðar að það geti ekki sent allt magnið sem beðið var um. Einnig er hægt að loka eða hætta við magn síðar. Til að nota þessa getu verður fyrirtækið að vera grunnstillt á að leyfa vanafhendingar á flutningspöntunum. Þar að auki verður að skilgreina vanafhendingarhlutfall fyrir flutningspöntunarlínuna.
+
+Til að grunnstilla fyrirtækið til að leyfa vanafhendingu á flutningspöntunum í Commerce Headquarters skal fara í **Birgðastjórnun \> Uppsetning \> Færibreytur birgða- og vöruhúsakerfis**. Á síðunni **Færibreytur birgða- og vöruhúsakerfis** á **Flutningspantanir** flipanum skal kveikja á **Samþykkja vanafhendingu** færibreytuna. Keyrið **1070** verk verkraðaradreifingar til að samstilla breytingar á færibreytuna í verslunarrásina.
+
+Vanafhendingarprósentur fyrir flutningspöntunarlínu geta verið fyrirframskilgreindar á afurðum sem hluta af afurðarafbrigði í Commerce Headquarters. Að öðrum kosti er hægt að stilla eða skrifa þær yfir tiltekna flutningspöntunarlínu í gegnum Commerce Headquarters.
+
+Eftir að fyrirtæki hefur lokið við að skilgreina vanafhendingu flutningspöntunar munu notendur sjá nýja **Loka eftirstandandi magni** valkostinum í **Upplýsingar** þegar þeir velja flutningspöntunarlínu á útleið gegnum **Aðgerð á útleið** aðgerð á sölustað. Síðan þegar notendur ljúka sendingunni með aðgerðinni **Ljúka við uppfyllingu** er hægt að senda beiðni í Commerce Headquarters til að hætta við eftirstandandi ósent magn. Ef notandi velur að loka eftirstandandi magni mun Commerce sannprófa til að staðfesta að magnið sem verið er að hætta við sé innan vikmarka prósentu vanafhendingar sem skilgreind er í flutningspöntunarlínunni. Ef farið er yfir vikmörk vanafhendingar fær notandinn villuboð og ekki er hægt að loka eftirstandandi magni fyrr en áður sent og „senda núna“ magn uppfyllir eða fer yfir vikmörk vanafhendingar.
+
+Eftir að sendingin er samstillt við Commerce Headquarters er magnið sem er skilgreint í reitnum **Senda núna** fyrir flutningspöntunarlínuna í sölustað uppfært í stöðuna Sent í Commerce Headquarters. Allt ósent magn sem áður hefði verið talið „senda eftirstöðvar“ magn (þ.e. magn sem verður sent síðar) teljast hætt við magn í staðinn. Magnið „senda eftirstöðvar“ fyrir flutningspöntunarlínuna er stillt á **0** (núll), og línan er talin send að fullu.
 
 ### <a name="shipping-location-controlled-items"></a>Sending á staðstýrðir vörum
 

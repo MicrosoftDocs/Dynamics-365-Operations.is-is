@@ -3,7 +3,7 @@ title: Sjálfvirkni reikninga lánardrottins
 description: Í þessu efnisatriði er fjallað um aðgerðir sem eru tiltækar fyrir lok við lok sjálfvirkni reikninga lánardrottins, jafnvel reikninga með viðhengi.
 author: abruer
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 05/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba986afb5c17c7a317b47d1e9cf4ae57ac29da97
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4560d7b61fa8f014f9a1185da087df8b1c8e61ba
+ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178343"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "3396010"
 ---
 # <a name="vendor-invoice-automation"></a>Sjálfvirkni reikninga lánardrottins
 
@@ -61,7 +61,7 @@ Gagnapakki er sú vinnueining sem þarf að senda svo að hægt sé að stofna r
 
 Skjalaviðhengi lánardrottnareikningsins er ný gagnaeining sem er kynnt sem hluti af þessari aðgerð. Hauseining lánardrottnareiknings hefur verið breytt þannig að hann styður viðhengi. Línueining lánardrottnareiknings hefur ekki verið breytt fyrir þetta sérkenni.
 
-Þetta efnisatriði veitir ekki nákvæma skilgreiningu á gagnapakka. Það útskýrir ekki heldur hvernig á að stofna gagnapakka. Þessar upplýsingar eru í [Rammi fyrir gagnaeiningar og -pakka](../../dev-itpro/data-entities/data-entities-data-packages.md).
+Ítarlegar upplýsingar um gagnapakka er að finna í [Yfirlit gagnastjórnunar](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Frekari upplýsingar um hvernig á að búa til gagnapakka með vinnusvæði gagnastjórnunar er að finna í [Meðhöndla og nota gagnapakka í Dynamics 365 Finance and Operations forritslausn](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Fylgið eftirfarandi skrefum til að mynda prófun gagna sem inniheldur reikninga og viðhengja.
 
@@ -89,7 +89,7 @@ Reikningar sem eru innfluttir með gagnapakka er hægt að tengja lögaðila sem
 
 ## <a name="exception-processing"></a>Undantekningavinnsla
 
-Í tilvikum þar sem reikningar lánardrottna koma inn í Finance and Operations í gegnum samþættingu, verður að vera auðveld leið fyrir inn Reikninga lánardrottna hópur undantekningar ferli eða mistekist reikninga og til að stofna reikninga í bið úr reikningum sem mistakast. Þessi undantekningavinnsla á reikningum lánadrottna er nú hluti af Finance and Operations.
+Í aðstæðum þar sem lánardrottinsreikningar koma inn Finance and Operations með samþættingu þarf að vera til staðar auðveld leið fyrir meðlimi viðskiptaskulda til að vinna úr undantekningum eða reikninga sem ekki eru samþykktir og stofna reikninga í bið út frá reikningum sem mistókst. Þessi frábrigðavinnsla fyrir reikninga lánardrottins er nú hluti af Finance and Operations.
 
 ### <a name="exceptions-list-page"></a>Listasíða undantekninga
 

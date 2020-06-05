@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8feea75bb223bdbd013b11cdf3a63d504afb04f5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 91c5b2e70ee083bf2741e245f1ca840ab939ad3f
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208203"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3382976"
 ---
 # <a name="maintenance-schedule-cost"></a>Kostnaður viðhaldsáætlunar
 
@@ -46,7 +46,7 @@ ms.locfileid: "3208203"
 
 5. Smellið á **Í lagi** til að hefja kostnaðarútreikning.
 
-6. Á flipanum **Kostnaður viðhaldsskema** > í aðgerðarúðuhópunum **Flokka eftir...** skaltu smella á viðeigandi hnappa til að sýna umbeðið upplýsingastil kostnaðarútreiknings. Valdir hóphnappar aðgerðarrúðu eru auðkenndir. Smelltu á hnappinn til að virkjaðu eða afvirkjaðu hann.
+6. Á flipanum **Kostnaður viðhaldsáætlunar** > í **Flokka eftir...** aðgerðarsvæðishópum skal smella á viðeigandi hnappa til að sýna nauðsynlegt upplýsingastig kostnaðarútreikningsins. Hnappar valinna aðgerðasvæðahóps eru auðkenndir. Smelltu á hnappinn til að virkjaðu eða afvirkjaðu hann.
 
 7. Smelltu á hnappinn **Reikna kostnað** ef þú vilt gera nýjan kostnaðarútreikning.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8946baa4597ad4b696bcb6bcc49d4202163a41a9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c1b219d352b6b090c5c2cd3c063d7f890beaa35c
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214861"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383528"
 ---
 # <a name="maintenance-downtime"></a>Niðurtími vegna viðhalds
 
@@ -75,7 +75,7 @@ Myndin hér að neðan sýnir dæmi um ítarupplýsingarnar **Niðurtímaaðger�
 
 9. Í glugganum **Reikna álag** skal breyta upphafs- og lokatíma ef þess er krafist og velja hvort þú viljir taka verkbeiðnir og viðhaldsskemu með í útreikninginn. Þú getur notað reitinn **Stig** til að gefa til kynna hversu ítarlegur þú vilt að útreikningur á álagi sé varðandi virkar staðsetningar. Til dæmis, ef þú setur inn töluna "1" í reitinn, og þú ert með fjölþrepa skipulag virkrar staðsetningar, verða allar eignir fyrir virka staðsetningu, sem eru valdar í aðgerðum niðurtíma vegna viðhalds, sýndar á efsta stigi og því er hægt að leggja saman klukkustundirnar á línu frá virkum staðsetningum á lægra stigi. Ef þú setur töluna „0“ inn í reitinn **Stig** muntu sjá ítarlega niðurstöður sem sýna allar álagslínur á öllum virkum staðsetningarstigum sem þær tengjast.
 
-10. Smellið á **Í lagi** til að byrja að reikna. Heildarfjöldi klukkustunda er sýndur í yfirlitinu **Álag**. Á flipanum **Álag** > aðgerðahópunum **Flokka eftir...** skaltu smella á viðeigandi hnappa til að fá nánara yfirlit yfir úthlutun spáðra tíma. Myndin hér að neðan sýnir niðurstöður útreiknings á **Getuálagi**.
+10. Smellið á **Í lagi** til að byrja að reikna. Heildarfjöldi klukkustunda er sýndur í yfirlitinu **Álag**. Á flipanum **Álag** > **Flokka eftir...** aðgerðasvæðisflokkar, smellið á viðeigandi hnappa til að fá ítarlegra yfirlit yfir úthlutun áætlaðra vinnustunda. Myndin hér að neðan sýnir niðurstöður útreiknings á **Getuálagi**.
 
 ![Mynd 3](media/21-preventive-maintenance.png)
 
@@ -92,7 +92,7 @@ Myndin hér að neðan sýnir dæmi um ítarupplýsingarnar **Niðurtímaaðger�
 
 15. Í glugganum **Reikna vöruspá** skal breyta upphafs- og lokatíma ef þess er krafist og velja hvort þú viljir taka verkbeiðnir og viðhaldsskemu með í útreikninginn. Þú getur notað reitinn **Stig** til að gefa til kynna hversu ítarlegur þú vilt að útreikningur á álagi sé varðandi virkar staðsetningar. Til dæmis, ef þú setur inn töluna "1" í reitinn, og þú ert með fjölþrepa skipulag virkrar staðsetningar, verða allar eignir fyrir virka staðsetningu, sem eru valdar í aðgerðum niðurtíma vegna viðhalds, sýndar á efsta stigi og því er hægt að leggja saman klukkustundirnar á línu frá virkum staðsetningum á lægra stigi. Ef þú setur töluna „0“ inn í reitinn **Stig** muntu sjá ítarlega niðurstöður sem sýna allar álagslínur á öllum virkum staðsetningarstigum sem þær tengjast.
 
-16. Smellið á **Í lagi** til að byrja að reikna. Heildarfjöldi vöruspáa er sýndur í yfirlitinu **Vöruspá**. Á flipanum **Vöruspá** > aðgerðahópunum **Flokka eftir...** skaltu smella á viðeigandi hnappa til að fá nánara yfirlit yfir úthlutun spáðra vara. Myndin hér að neðan sýnir niðurstöður úr útreikningi á **Vöruspá**.
+16. Smellið á **Í lagi** til að byrja að reikna. Heildarfjöldi vöruspáa er sýndur í yfirlitinu **Vöruspá**. Á flipanum **Vöruspá** > **Flokka eftir...** aðgerðasvæðisflokkar, smellið á viðeigandi hnappa til að fá ítarlegra yfirlit yfir úthlutun áætlaðra vara. Skýringarmyndin hér fyrir neðan sýnir niðurstöður útreikninga úr **Vöruspá**.
 
 ![Mynd 4](media/22-preventive-maintenance.png)
 

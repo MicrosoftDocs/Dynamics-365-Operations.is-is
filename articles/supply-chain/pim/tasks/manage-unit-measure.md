@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7f7e2220a8eca9f9bf45216491f606ef0a2eb18
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: abc02c73ae36975fa4872d638fe53cbf0379d15d
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203542"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383666"
 ---
 # <a name="manage-unit-of-measure"></a>Stjórna mælieiningu
 
@@ -41,13 +41,13 @@ ms.locfileid: "3203542"
 6. Smellt er á **Vista**.
 
 ## <a name="define-unit-translations"></a>Skilgreina þýðingar eininga
-1. Í **Aðgerðasvæðinu**, smellirðu á **Einingatextar**.
+1. Á **Aðgerðasvæði** er smellt á **Einingatexti**.
 2. Smellt er á **Nýtt**. Einingatexti skal nota til að stofna þýðing fyrir Kenni eða tákn sem standa fyrir mælieiningu sem nota á á ytri skjöl í tungumálum fyrir viðskiptavin eða lánardrottin.  
 3. Í reitnum **Tungumál** skal færa inn eða velja gildi.
 4. Í reitnum **Texti** skal slá inn gildi.
 5. Smellt er á **Vista**.
 6. Lokið síðunni.
-7. Í **Aðgerðasvæðinu**, smellirðu á **Þýddar einingalýsingar**.
+7. Í **aðgerðasvæðinu** er smellt á **Þýddar lýsingar á einingum**.
 8. Smellt er á **Nýtt**. Skilgreina lýsingar fyrir tiltekin tungumál fyrir mælieiningu.  
 9. Í reitnum **Tungumál** skal færa inn eða velja gildi.
 10. Í reitinn **Lýsing** skal slá inn gildi.
@@ -55,7 +55,7 @@ ms.locfileid: "3203542"
 12. Lokið síðunni.
 
 ## <a name="define-unit-conversion-rules"></a>Skilgreina umreikningsreglur eininga
-1. Í **Aðgerðasvæðinu**, smellirðu á **Einingaumreikningur**. Skilgreina reglur til að umreikna mælieininguna í og frá öðrum mælieiningar í völdu einingaflokknum.  
+1. Á **Aðgerðasvæðinu** er smellt á **Umreikningur eininga**. Skilgreina reglur til að umreikna mælieininguna í og frá öðrum mælieiningar í völdu einingaflokknum.  
 2. Smelltu á **Nýtt** til að opna felligluggann.
 3. Í reitnum **Stuðull** skal slá inn tölu. Umreiknistuðull milli Frá einingu og Til einingar. til dæmis er umreiknistuðullinn úr sentímetrum í metra 100 þar sem 100 sentímetrar eru í einum metra.  
 4. Í reitnum **Til einingar** skal færa inn eða velja gildi.
