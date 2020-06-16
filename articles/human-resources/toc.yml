@@ -3,8 +3,10 @@
   items:
     - name: Nýjungar
       items:
-        - name: Nýjungar eða breytingar í Human Resources
+        - name: Nýjungar í Human Resources
           href: hr-admin-whats-new.md
+        - name: 28. maí 2020
+          href: hr-whats-new-2020-05-28.md
         - name: 14. maí 2020
           href: hr-whats-new-2020-05-14.md
         - name: 1. maí 2020
@@ -39,7 +41,7 @@
           href: hr-admin-system-requirements.md
         - name: Setja upp og vinna með tilvik
           items:
-            - name: Ráðstafa mannauði
+            - name: Ráðstafa Human Resources
               href: hr-admin-setup-provision.md
             - name: Afrita tilvik
               href: hr-admin-setup-copy-instance.md
@@ -129,7 +131,7 @@
               href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json
             - name: Búa til fylgiskjöl eða þjálfun með verkskráningu
               href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json
-        - name: Úrræðaleit fyrir mannauð
+        - name: Úrræðaleit fyrir Human Resources
           items:
             - name: Fá aðstoð
               href: hr-admin-troubleshooting-support.md
@@ -203,13 +205,13 @@
       items:
         - name: Yfirlit
           href: hr-hrpro-overview.md
-        - name: Setja upp Mannauð
+        - name: Setja upp Human Resources
           items:
-            - name: Grunnstilla færibreytur Mannauðs
+            - name: Grunnstilla færibreytur Human Resources
               href: hr-setup-parameters.md
-            - name: Grunnstilla samnýttar færibreytur Mannauðs
+            - name: Grunnstilla samnýttar færibreytur Human Resources
               href: hr-setup-shared-parameters.md
-            - name: Setja upp verkflæði Mannauðs
+            - name: Setja upp verkflæði Human Resources
               href: hr-setup-workflows.md
             - name: Skilja svæði fyrir dagsetningu og tíma
               href: hr-setup-date-time-fields.md
@@ -503,12 +505,14 @@
               href: hr-leave-and-absence-types.md
             - name: Búa til leyfis- og fjarvistaáætlun
               href: hr-leave-and-absence-plans.md
-            - name: Úthluta starfsmönnum á leyfisáætlun
+            - name: Úthluta starfskröftum á leyfisáætlun
               href: hr-leave-and-absence-enroll.md
             - name: Uppsöfnunaráætlanir fyrir leyfi og fjarvistir
               href: hr-leave-and-absence-accrue.md
             - name: Fresta leyfi
               href: hr-leave-and-absence-suspend-leave.md
+            - name: Beiðni um fjarvistarleyfi
+              href: hr-employee-self-service-request-leave-of-absence.md
             - name: Stjórna leyfi starfsmanns
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: Skoða greiningu á leyfum og fjarvistum
@@ -519,6 +523,10 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Skoða dagbækur hóps og fyrirtækis
               href: hr-employee-self-service-calendar.md
+            - name: Stjórna reglum fyrir kaup og sölu á leyfisdögum
+              href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
+            - name: Kaupa og selja leyfisdaga
+              href: hr-employee-self-service-buy-sell-leave.md
         - name: Stjórna leyfisbeiðnum í Teams
           href: hr-teams-leave-app.md
         - name: Þróa starfsmenn

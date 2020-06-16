@@ -88,6 +88,8 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.12 (ágúst 2020)
+                      href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (júlí 2020)
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (maí 2020)
@@ -212,9 +214,9 @@
               items:
                 - name: Samstilla uppsetningarforrit sjálfsafgreiðslu í Dynamics 365 Commerce
                   href: dev-itpro/Synchronize-installers.md
-                - name: Commerce Scale Unit
+                - name: Commerce Scale Unit (hýsing á eigin vegum)
                   href: dev-itpro/retail-store-system-begin.md
-                - name: Grunnstilla og setja upp Commerce Scale Unit
+                - name: Grunnstilla og setja upp Commerce Scale Unit (hýsing á eigin vegum)
                   href: dev-itpro/retail-store-scale-unit-configuration-installation.md
                 - name: Skilgreining og uppsetning á Modern POS
                   href: retail-modern-pos-device-activation.md
@@ -416,7 +418,7 @@
                           href: extended-logon.md
                         - name: Stjórna virknilyklum og villuleita tæki
                           href: set-up-activation-accounts-validate-devices-hq.md
-                    - name: Stofna fjárhagsvíddir fyrir POS-afgreiðslukassa og skilgreina víddagildi í afgreiðslukössum
+                    - name: Stofna fjárhagsvíddir fyrir sölustaði og skilgreina víddagildi í afgreiðslukössum
                       href: tasks/create-financial-dimensions-pos.md
                     - name: Stofna heimildaflokk sölustaða
                       href: tasks/create-pos-permission-groups.md
@@ -492,7 +494,7 @@
                       href: work-with-payments.md
                     - name: 'Uppsetning kreditkorts, heimild og úthlutun'
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/commerce/toc.json
-                    - name: Skilgreina verðgildi reiðufjár fyrir POS
+                    - name: Skilgreina verðgildi reiðufjár fyrir sölustaði
                       href: cash-denominations.md
                     - name: Skilgreina kreditkortavinnslu
                       href: tasks/configure-credit-card-processing.md
@@ -604,7 +606,7 @@
               items:
                 - name: Yfirlit yfir afurðarráðleggingar
                   href: product-recommendations.md
-                - name: Virkja ADLS í Dynamics 365 Commerce -umhverfi
+                - name: Virkja Azure Data Lake Storage í Dynamics 365 Commerce-umhverfi
                   href: enable-ADLS-environment.md
                 - name: Virkja ráðleggingar um afurðir
                   href: enable-product-recommendations.md
@@ -646,8 +648,8 @@
                   items:
                     - name: Birgðastjórnun verslunar
                       href: work-with-store-inventory.md
-                    - name: Unnið með röðuð atriði
-                      href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
+                    - name: Skilgreina birgðabiðminni og birgðastöðu
+                      href: inventory-buffers-levels.md
                     - name: Vinna með röðuð atriði á sölustað
                       href: pos-serialized-items.md
                     - name: Ýta afurðum úr dreifingarmiðstöð í verslun með dreifingu frá lager
@@ -824,6 +826,8 @@
                   href: authoring-home-overview.md
                 - name: Stjórna notendum og hlutverkum
                   href: manage-ecommerce-users-roles.md
+                - name: Nota birgðastillingar
+                  href: inventory-settings.md
                 - name: Hugsanleg leitarvélabestun (SEO) fyrir vefsvæðið þitt
                   href: search-engine-optimization-considerations.md
                 - name: Stjórna öryggisreglu fyrir efni (CSP)
@@ -848,6 +852,8 @@
                       href: select-site-theme.md
                     - name: Vinna með CSS-hnekkingarskrár
                       href: css-override-files.md
+                    - name: Vinna með forstillta stíla
+                      href: style-presets.md
                     - name: Bæta við táknmynd
                       href: add-favicon.md
                     - name: Bæta við opnunarkveðju
@@ -932,6 +938,10 @@
                   items:
                     - name: Hólfeining
                       href: add-container-module.md
+                    - name: Fellingareining
+                      href: add-accordion.md
+                    - name: Flipaeining
+                      href: add-tab.md
                 - name: Markaðssetningareiningar
                   items:
                     - name: Tilboðsborðaeining
@@ -978,7 +988,11 @@
                   items:
                     - name: Afurðasafnseiningar
                       href: product-collection-module-overview.md
-            - name: Leita
+                - name: Yfirlitseiningar
+                  items:
+                    - name: Brauðmylsnueining
+                      href: add-breadcrumb.md
+            - name: Leit
               items:
                 - name: Sjálfgefin lendingarsíða og leitarniðurstöðusíða
                   href: category-search-page-overview.md
@@ -1048,6 +1062,10 @@
                   href: localizations/emea-fra-cash-registers.md
                 - name: Leiðbeiningar um uppsetningu á afgreiðslukössum
                   href: localizations/emea-fra-deployment.md
+            - name: Þýskaland
+              items:
+                - name: Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Þýskaland
+                  href: localizations/emea-deu-fi-sample.md
             - name: Indland
               items:
                 - name: Samþætting vöru- og þjónustuskatts (VÞS) fyrir afgreiðslukassa
@@ -1590,7 +1608,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
             - name: Kennsla
               items:
-                - name: Nota TÖFLUTENGINGU gagnaveitna til að sækja gögn úr mörgum forritatöflum
+                - name: Nota TÖFLUTENGING gagnaveitna til að sækja gögn úr mörgum forritatöflum
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Skilgreina varpanir rafrænna skýrslugerðarlíkana sem háð eru samhengi við lönd
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
@@ -1976,7 +1994,9 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: Skilgreina þemastillingar
                       href: e-commerce-extensibility/configure-theme-settings.md
-                    - name: Stækka þema
+                    - name: Stækka þema til að bæta við einingaviðbótum
+                      href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Stækka þema úr grunnþema
                       href: e-commerce-extensibility/extend-theme.md
                 - name: Setja inn forskrift
                   items:
@@ -2072,17 +2092,17 @@
                   href: dev-itpro/hardware-device-extension.md
             - name: Stækkunarhæfni Retail Server
               items:
-                - name: Stækka Retail Server OData-stýringu
+                - name: Stækka OData-stýringu fyrir Commerce Scale Unit
                   href: dev-itpro/extend-retail-server-odata-controller.md
-                - name: API viðskiptavinar og neytanda á Retail Server
+                - name: API viðskiptavina og neytenda Commerce Scale Unit
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: Stækka sjálfgefna lýsigagnastýringu Retail Server
+                - name: Stækka sjálfgefna lýsigagnastýringu Commerce Scale Unit
                   href: dev-itpro/extend-metadata.md
                 - name: Hringja í CRT-þjónustuna án nets
                   href: dev-itpro/call-crt-service-offline.md
                 - name: Búa til nýja viðbót Retail Server
                   href: dev-itpro/retail-server-extension.md
-                - name: 'Retail Typescript og C#-staðgengill'
+                - name: Retail Typescript og C#-staðgengill
                   href: dev-itpro/typescript-proxy-retail-pos.md
             - name: Commerce Runtime (CRT) stækkunarhæfni
               items:
@@ -2094,10 +2114,8 @@
                   href: dev-itpro/commerce-runtime-extensibility.md
                 - name: Bæta kjörstillingargögnum viðskiptavinar við gagnagrunn rásar
                   href: dev-itpro/add-customer-preference-channel.md
-                - name: Stjórna leynilyklum fyrir Retail-rásir
+                - name: Stjórna leynilyklum fyrir smásölurásir
                   href: dev-itpro/manage-secrets.md
-                - name: Bæta eiginleikum við sölupantanir
-                  href: dev-itpro/add-properties-sales-order.md
                 - name: Stækkunarhæfni og kveikjur CRT
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: Útiloka færslur með kveikjum
