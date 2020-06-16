@@ -70,12 +70,12 @@
                   items:
                     - name: Nýjungar eða breytingar á upphafssíðu fyrir Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.12 (ágúst 2020)
+                      href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (júlí 2020)
                       href: get-started/whats-new-scm-10-0-11.md
                     - name: Supply Chain Management 10.0.10 (maí 2020)
                       href: get-started/whats-new-scm-10-0-10.md
-                    - name: Supply Chain Management 10.0.9 (apríl 2020)
-                      href: get-started/whats-new-scm-10-0-9.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
@@ -595,6 +595,8 @@
                   href: cost-management/bom-calculations.md
                 - name: Flokkar uppskriftarútreikninga
                   href: cost-management/bom-calculation-groups.md
+                - name: Kostnaðarútreikningsstig
+                  href: cost-management/cost-calculation-level.md
                 - name: Bakfærslukostnaðaraðferð
                   href: cost-management/backflush-costing.md
                 - name: Algengur uppruni framleiðslufrávika
@@ -1137,7 +1139,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
             - name: Kennsla
               items:
-                - name: Nota TÖFLUTENGINGU gagnaveitna til að sækja gögn úr mörgum forritatöflum
+                - name: Nota TÖFLUTENGING gagnaveitna til að sækja gögn úr mörgum forritatöflum
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Skilgreina varpanir rafrænna skýrslugerðarlíkana sem háð eru samhengi við lönd
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
@@ -1341,13 +1343,15 @@
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Hafist handa með fínstillingu áætlanagerðar
                   href: master-planning/planning-optimization/get-started.md
-                - name: Samræmisgreining á fínstillingu áætlanagerðar
+                - name: Samræmisgreining á fínstillingu skipulagningar
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: Nota síur á áætlun
                   href: master-planning/planning-optimization/plan-filters.md
+                - name: Áætlanagerð með innkaupaverðsamningum
+                  href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Skoða áætlunarferil og skipulagsannála
                   href: master-planning/planning-optimization/plan-history-logs.md
-                - name: Sjálfvirk staðfesting með fínstillingu áætlanagerðar
+                - name: Sjálfvirk staðfesting með fínstillingu skipulagningar
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Hætta við áætlunarverk
                   href: master-planning/planning-optimization/cancel-planning-job.md
@@ -1989,7 +1993,9 @@
                       href: production-control/release-production-orders.md
                     - name: Framleiðslupantanir tilkynntar sem loknar
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Bóka sem tilbúið fyrir númeraplötustýrða staðsetningu
+                    - name: Skilgreina verkspjald fyrir tæki
+                      href: production-control/config-job-card-device.md
+                    - name: Bóka sem tilbúið af verkspjaldi fyrir tæki
                       href: production-control/report-finished-job-device.md
                     - name: Bakfærsla á stöðu framleiðslupöntunar
                       href: production-control/reverse-production-order-status.md
@@ -2259,6 +2265,16 @@
                   href: sales-marketing/tasks/register-sales-commissions.md
                 - name: Setja upp reglur söluþóknunar
                   href: sales-marketing/tasks/set-up-sales-commission-rules.md
+            - name: Viðskiptavinagátt fyrir Dynamics 365 Supply Chain Management
+              items:
+                - name: Yfirlit viðskiptavinagáttar
+                  href: sales-marketing/customer-portal-overview.md
+                - name: Setja upp og uppfæra viðskiptavinagátt
+                  href: sales-marketing/customer-portal-setup.md
+                - name: Stofna og stjórna notendum fyrir viðskiptavinagátt
+                  href: sales-marketing/customer-portal-user-admin.md
+                - name: Sérsníða og nota viðskiptavinagátt
+                  href: sales-marketing/customer-portal-customize.md
             - name: Afsláttur
               href: sales-marketing/trade-allowance.md
             - name: Stofna nýja verðsamning
@@ -2653,8 +2669,10 @@
                   href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
                 - name: Hlutastaðsetning reglulegrar talningar
                   href: warehousing/partial-location-cycle-counting.md
-                - name: 'Skilgreina hlutastaðsetning reglulegrar talningar '
+                - name: Skilgreina hlutastaðsetningu reglulegrar talningar
                   href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                - name: Hreinsunarvinnsla lagerbirgðafærslna vöruhúsakerfis
+                  href: warehousing/onhand-cleanup.md
                 - name: Birgðabók
                   href: inventory/inventory-journals.md
                 - name: Birgðastaðsetning

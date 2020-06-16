@@ -14,6 +14,8 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu uppfærslna á verkvangi
                   href: get-started/whats-new-home-page.md
+                - name: Verkvangsuppfærslur fyrir 10.0.12 (ágúst 2020)
+                  href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Verkvangsuppfærslur fyrir 10.0.11 (júlí 2020)
                   href: get-started/whats-new-platform-update-35.md
                 - name: Verkvangsuppfærslur fyrir 10.0.10 (maí 2020)
@@ -198,6 +200,8 @@
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 'Samþættur starfskraftur, starf og staða'
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: Birgðir til ráðstöfunar
+                              href: data-entities/dual-write/inventory-availability.md
                         - name: Notendaþjónusta fyrir tvöföld skrif
                           items:
                             - name: Stuðningur fyrir Field Service-lausnir og Project Service Automation-lausnir
@@ -452,9 +456,9 @@
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Nota uppfærslur á skýjaumhverfi
                   href: deployment/apply-deployable-package-system.md
-                - name: Nota uppfærslur og viðbætur við hluta Retail-rásar í skýi
+                - name: Nota uppfærslur og viðbætur fyrir Commerce Scale Unit (ský)
                   href: deployment/Update-retail-channel.md
-                - name: Frumstilla Retail Cloud Scale Unit
+                - name: Frumstilla Commerce Scale Unit (ský)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Staðsetning gagna fyrir Retail
                   href: deployment/retail-data-residency.md
@@ -488,6 +492,8 @@
                       href: deployment/certificate-rotation-on-prem.md
                     - name: Tengigeta biðlara við internet
                       href: user-interface/client-disconnected.md
+                    - name: Grunnstilla AOS-hnúta sem eru eingöngu fyrir runu og eingöngu gagnvirkir í uppsetningu á staðnum
+                      href: deployment/onprem-batchonly.md
                     - name: Skilgreina staðgengla fyrir innanhússumhverfi
                       href: deployment/onprem-reverseproxy.md
                     - name: Greining á staðnum
@@ -646,11 +652,11 @@
                   href: dev-tools/debug-xpp.md
                 - name: EventHandlerResult-klasar í sviðsmyndum tengdum beiðnum og svörum
                   href: dev-tools/event-handler-result-class.md
-                - name: 'Skrifa viðskiptagrunn með C# og X++ frumkóða'
+                - name: Skrifa viðskiptagrunn með C# og X++ frumkóða
                   href: dev-tools/write-business-logic.md
                 - name: Breytingar í X++ og X++ þýðanda
                   href: dev-tools/programming-language-support.md
-                - name: 'LINQ-veita fyrir C#'
+                - name: LINQ-veita fyrir C#
                   href: dev-tools/linq-provider-c.md
                 - name: Skrifa reglur um bestu venjur
                   href: dev-tools/author-best-practice-rules.md
@@ -710,7 +716,7 @@
                       href: dev-ref/xpp-macros.md
                     - name: X++ eigindaklasar
                       href: dev-ref/xpp-attribute-classes.md
-                    - name: 'Samanburður á X++ og C#'
+                    - name: Samanburður á X++ og C#
                       href: dev-ref/xpp-cs-comparison.md
                     - name: Málskipan X++
                       href: dev-ref/xpp-syntax.md
@@ -1024,7 +1030,7 @@
                   href: gdpr/gdpr-extend-person-search-report.md
                 - name: Stjórna aðgangi að viðkvæmum gögnum
                   href: gdpr/gdpr-auditing-sensitive-data.md
-                - name: Svara beiðnum um persónuleg gögn með mannauði
+                - name: Svara beiðnum um persónuleg gögn með Human Resources
                   href: gdpr/respond-dsr-request-talent.md
                 - name: Svara beiðnum um persónuleg gögn í AX 2012
                   href: gdpr/gdpr-ax2012.md
@@ -1048,6 +1054,8 @@
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Notkunarleiðbeiningar Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
+            - name: Innleiðing verks
+              href: lifecycle-services/project-onboarding.md
             - name: Áskriftaráætlun
               href: lifecycle-services/subscription-estimator.md
             - name: Skilgreina öryggi
@@ -1118,6 +1126,20 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Skrár þýðingaminnis
                   href: lifecycle-services/use-translation-service-tm.md
+        - name: Samþætting Microsoft Power Platform
+          items:
+            - name: Microsoft Power Platform samþætting við Finance and Operations
+              href: power-platform/overview.md
+            - name: Einingalíkön
+              href: power-platform/entity-modeling.md
+            - name: Líftímastjórnun forrits
+              href: power-platform/application-lifecycle-management.md
+            - name: Tilvísun stjórnanda Finance and Operations og Common Data Service
+              href: power-platform/admin-reference.md
+            - name: Power Apps-gáttir með Finance and Operations
+              href: power-platform/power-portal-reference.md
+            - name: Algengar spurningar um sýndareiningar Finance and Operations
+              href: power-platform/faq.md
         - name: Fartækjaverkvangur
           items:
             - name: Tilföng fartækjaverkvangs
@@ -1330,9 +1352,7 @@
               href: perf-test/rsat/rsat-overview.md
             - name: Uppsetning og grunnstilling
               href: perf-test/rsat/rsat-install-configure.md
-            - name: Prófun óháð gögnum með Regression Suite Automation Tool
-              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
-            - name: Keyra prófunardæmi
+            - name: Nota Regression Suite Automation Tool
               href: perf-test/rsat/rsat-run.md
             - name: Framkvæma villuleit á væntanlegum gildum
               href: perf-test/rsat/rsat-validate-expected.md
@@ -1340,10 +1360,12 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Afleidd prófunardæmi
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: Nota kennslu fyrir Regression Suite Automation Tool
+            - name: Kennsla fyrir Regression Suite Automation Tool og aðrir eiginleikar
               href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
             - name: Bestu starfsvenjur
               href: perf-test/rsat/rsat-best-practices.md
+            - name: Prófun óháð gögnum með Regression Suite Automation Tool
+              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: Úrræðaleit
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Gefa út lausnir með Lifecycle Services
@@ -1442,6 +1464,8 @@
                   href: sysadmin/copy-batch-job.md
                 - name: Virk runutímabil
                   href: sysadmin/activeperiod.md
+                - name: Sumartímastuðningur fyrir virk runutímabil
+                  href: sysadmin/batch-active-period-dst.md
                 - name: Öryggishlutverk runuumsjónar
                   href: sysadmin/runby.md
                 - name: Runuvinnsla fyrir endurröðun SQL-atriðaskráar
