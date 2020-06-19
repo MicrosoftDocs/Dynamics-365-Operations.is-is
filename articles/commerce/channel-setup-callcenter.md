@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 14cee020cc8aead627180343c82bf23534ae83c4
-ms.sourcegitcommit: 0681a00d60c9f8cc8f7b9888b8c5ddf07279fc04
+ms.openlocfilehash: bdaabad39484cb12537bc5f94c34dcb2575a5b2f
+ms.sourcegitcommit: ef27189efc15ce79c3c31ce2e41ef8a606fc5429
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3131732"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410414"
 ---
 # <a name="set-up-a-call-center-channel"></a>Setja upp rás símavers
 
@@ -34,7 +34,7 @@ ms.locfileid: "3131732"
 ## <a name="overview"></a>Yfirlit
 
 
-Í Dynamics 365 Commerce er símaver tegund smásölurásar sem hægt er að skilgreina í forritinu. Að skilgreina rás fyrir símaþjónustueiningar þínar gerir kerfinu kleift að binda tiltekin gögn og sjálfgildi pöntunarvinnslu við sölupantanir. Þó fyrirtæki geti skilgreint margar símaversrásir í Commerce, er mikilvægt að hafa í huga að stakur notandi getur aðeins verið tengd einni símaversrás. 
+Í Dynamics 365 Commerce er símaver tegund Commerce-rásar sem hægt er að skilgreina í forritinu. Að skilgreina rás fyrir símaþjónustueiningar þínar gerir kerfinu kleift að binda tiltekin gögn og sjálfgildi pöntunarvinnslu við sölupantanir. Þó fyrirtæki geti skilgreint margar símaversrásir í Commerce, er mikilvægt að hafa í huga að stakur notandi getur aðeins verið tengd einni símaversrás. 
 
 Áður en ný rás símavers er stofnuð skaltu ganga úr skugga um að þú hafir lokið við [Skilyrði fyrir rásauppsetningu](channels-prerequisites.md).
 
@@ -84,7 +84,7 @@ Fylgdu þessum skrefum til að setja upp greiðslumáta fyrir hverja greiðsluge
 
 Eftirfarandi mynd sýnir dæmi um greiðsluaðferð í reiðufé.
 
-![Dæmi um greiðslumáta](media/channel-setup-retail-5.png)
+![Dæmi um greiðslumáta](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Setja upp afhendingarmáta
 

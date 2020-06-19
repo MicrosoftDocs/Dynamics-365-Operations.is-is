@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: v-olbara
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: e879ec53a88e5e30257608cba7604b404ac2368a
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e11ccdf138adbf05ae1fc8ef739687b9212ae1fe
+ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383792"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3403336"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Skilgreina samstæðureglur sendingar
 
@@ -270,7 +270,7 @@ Fylgið eftirfarandi skrefum til að stofna samstæðureglu sendingar fyrir þet
 
 - Reglan mun leita tilteknu pöntunarsetti til að auðkenna viðskiptavini sem samþykkja sameinaðar sendingar.
 - Slökkt er á „Samstæða við opnar sendingar“.
-- Samstæða er þvert á pantanir með því að nota reitina sem valdir eru með sjálfgefnu CrossOrder-reglunni (til að endurtaka fyrri gátreitinn **Vöruhús**).
+- Samstæða er gerð yfir allar pantanir með því að nota reitina sem valdir eru með sjálfgefnu CrossOrder-reglunni (til að endurtaka fyrri gátreitinn **Sameina sendingar við losun í vöruhús**).
 
 - Hægt er að hnekkja reglunni á sölupöntun með því að velja annan pöntunarsett.
 
@@ -306,7 +306,7 @@ Fylgið eftirfarandi skrefum til að stofna samstæðureglu sendingar fyrir þet
 
 - Reglan mun leita tilteknu pöntunarsetti til að auðkenna vöruhús sem geta sameinað sendingar.
 - Slökkt er á „Samstæða við opnar sendingar“.
-- Samstæða er þvert á pantanir með því að nota reitina sem valdir eru með sjálfgefnu CrossOrder-reglunni (til að endurtaka fyrri gátreitinn **Vöruhús**).
+- Samstæða er gerð yfir allar pantanir með því að nota reitina sem valdir eru með sjálfgefnu CrossOrder-reglunni (til að endurtaka fyrri gátreitinn **Sameina sendingar við losun í vöruhús**).
 
 Yfirleitt er hægt að vinna þetta viðskiptatilvik með því að nota sjálfgefnu reglurnar sem voru stofnaðar í [aðstæðum 1](#scenario-1). Hins vegar er einnig hægt að stofna svipaðar reglur handvirkt með því að fylgja þessum skrefum.
 

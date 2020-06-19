@@ -3,12 +3,12 @@ title: Uppsöfnunaráætlanir fyrir leyfi og fjarvistir
 description: Þú getur safnað orlofi og fjarveru í Dynamics 365 Human Resources fyrir marga starfsmenn eða einstakling.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3048f9b6b52a150219067430abb54e5b5bf5c3e4
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: f045cb7ab9f5e7aa4259f29e1b026f110425c236
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3197314"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3429060"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Uppsöfnunaráætlanir fyrir leyfi og fjarvistir
 
@@ -103,7 +103,19 @@ Eyða rekstrarreikningum fyrir ákveðna áætlun og tímabil. Uppsöfnunardagse
 
 2. Undir **Stjórna leyfi**, veldu **Eyða úttekt leyfisuppsöfnunar**.
 
+## <a name="configure-preview-features"></a>Stilla forskoðunareiginleika
+
+[!include [banner](includes/preview-feature-leave-absence.md)]
+
+Ef þú hefur gert forskoðunareiginleika virka fyrir leyfi og fjarveru þarftu líka að stilla stillingar fyrir þá.
+
+### <a name="accrue-leave-per-company-or-per-leave-plan"></a>Uppsafnað leyfi á fyrirtæki eða leyfisáætlun
+
+Þegar leyfi og fjarveru er safnað saman er hægt að velja um að safna saman fyrir öll fyrirtæki. Ef öll fyrirtæki eru valin er ekki hægt að velja stakar leyfisáætlanir. Ef valið er að safna ekki öllum fyrir öll fyrirtæki er hægt að safna fyrir tiltekna leyfisáætlun. 
+
+Þessir valmöguleikar eru í boði þegar uppsöfnun er fyrir alla starfsmenn eða einstaka starfsmenn. 
+
 ## <a name="see-also"></a>Sjá einnig
 
-- [Yfirlit yfir leyfi og fjarvistir](hr-leave-and-absence-overview.md)
-- [Búa til leyfis- og fjarvistaáætlun](hr-leave-and-absence-plans.md)
+[Yfirlit yfir leyfi og fjarvistir](hr-leave-and-absence-overview.md)</br>
+[Búa til leyfis- og fjarvistaáætlun](hr-leave-and-absence-plans.md)

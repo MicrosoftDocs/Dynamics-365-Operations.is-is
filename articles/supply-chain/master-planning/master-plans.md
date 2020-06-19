@@ -3,7 +3,7 @@ title: Yfirlit aðaláætlana
 description: Notið mismunandi aðaláætlanir til að styðja við daglegar aðgerðir fyrirtækisins, líkja eftir áætlanastefnu sem fylgjast á með og koma fyrirtækisstefnu á fót, hvað varðar t.d. innri afköst eða ánægju viðskiptavina.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56c9c3f910c5c5386cdab25566b43198288eb419
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5b37347cf2d5b720ed7ac364800fb8cfe2d67ca
+ms.sourcegitcommit: ace6451fde3e4b20cbcaa6279fa1da4d7151ad1e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213539"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3409523"
 ---
 # <a name="master-plans-overview"></a>Yfirlit aðaláætlana
 
@@ -35,7 +35,7 @@ Notið mismunandi aðaláætlanir til að styðja við daglegar aðgerðir fyrir
 Hægt er að stilla aðaláætlun á síðunni **Aðaláætlanir**.
 
 Það eru tvær gerðir áætlana:
--   **Föst áætlun** – Áætlunarútreikningur notar gildandi gögn til að mynda áætlun fyrir nettóþarfir. Áætlunin helst óbreytt þar til næst þegar áætlanagerð er keyrð. Það er að aðgerðaáætlun sem ýmsir starfsmenn fyrirtækisins, s.s. kaupendur eða framleiðslustjórar geta notað til grundvallar ákvörðunum sínum og til að framkvæma dagleg verk og verkþætti.
+-   **Föst áætlun** – Áætlunarútreikningur notar gildandi gögn til að mynda áætlun fyrir nettóþarfir. Þessi áætlun helst óbreytt þar til næst þegar aðaláætlanagerð er keyrð eða áætlun er breytt handvirkt. Þetta er aðgerðaráætlun sem ýmsir starfsmenn fyrirtækisins, s.s. kaupendur eða framleiðslustjórar, geta notað til grundvallar ákvörðunum sínum og til að framkvæma daglega verkþætti.
 -   **Breytileg áætlun** – Þessi áætlun byrjar með sömu áætlun fyrir nettóþarfir og aðaláætlun myndaði. Hins vegar þarf að uppfæra breytilega áætlun í hvert sinn sem aðalgögn breytast. Það gæti t.d verið þegar ný sölupöntun er stofnuð. Með þessu er gert mögulegt að fylgjast með breytingum í pöntunum og vöruframboði án þess að hafa áhrif á föstu áætlunina sem aðrir starfsmenn nota í sínu verkferli.
 
 Fyrirtæki gæti ákveðið að nota aðeins fasta áætlun eða bæði fasta áætlun og breytilega. Auk þess er hægt að stilla aðaláætlun þannig að hún endurspegli vissa stefnu eða snerti tiltekið málefni. Dæmi eru sem hér segir:

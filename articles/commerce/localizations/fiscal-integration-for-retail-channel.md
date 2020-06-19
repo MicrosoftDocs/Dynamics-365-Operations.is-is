@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 45677681ebae40210d6e2d896323f7e691b765e2
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: d2455f775fcf41bbcb1388b2e8053ede8512335d
+ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057557"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3403216"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Yfirlit yfir fjárhagssamþættingu fyrir Commerce-rásir
 
@@ -138,7 +138,8 @@ Eftirfarandi sýnishorn fjárhagssamþættingar eru eins og er í boði í Retai
 - [Dæmi um samþættingu strimlaprentara fyrir Pólland](emea-pol-fpi-sample.md)
 - [Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Austurríki](emea-aut-fi-sample.md)
 - [Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Tékkland](emea-cze-fi-sample.md)
-- [Dæmi um samþættingu stjórntækis fyrir Svíþjóð](./emea-swe-fi-sample.md)
+- [Dæmi um samþættingu stjórntækja fyrir Svíþjóð](./emea-swe-fi-sample.md)
+- [Dæmi um samþættingu þjónustu fjárhagsskráningar fyrir Þýskaland](./emea-deu-fi-sample.md)
 
 Eftirfarandi virkni fjárhagssamþættingar er einnig í boði í Retail SDK en hún nýtir sér ekki ramma fjárhagssamþættingar eins og er. Flutningur á þessari virkni í ramma fjárhagssamþættingar er á dagskrá í seinni útgáfum.
 

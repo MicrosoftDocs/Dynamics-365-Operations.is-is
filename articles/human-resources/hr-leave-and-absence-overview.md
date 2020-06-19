@@ -3,12 +3,12 @@ title: Yfirlit
 description: Í Dynamics 365 Human Resources veitir vinnusvæðið Leyfi og fjarvera sveigjanlegan ramma til að stofna nýjar orlofsáætlanir, verkflæði til að stjórna beiðnum og innsæi sjálfsþjónustusíða þar sem starfsmenn geta beðið um frí.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/30/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bb123b808615ff7d770c7c6b83338a32d922be3
-ms.sourcegitcommit: de217452a85429675994e9cc0e06eb4821cab3e5
+ms.openlocfilehash: ec72d2d741f7f8428a7daa97bb982e9fc00b8c3f
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3325766"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428968"
 ---
 # <a name="overview"></a>Yfirlit
 
@@ -84,10 +84,9 @@ Starfsmenn þínir geta sent inn beiðnir um frí og þú getur stjórnað þeim
 
 Forskoðunareiginleikar eru:
 
-- **Frestun leyfis** - Þú getur frestað leyfi og fjarvistum í Human Resources fyrir starfsmann. Frestun leyfis stöðvar leyfisuppsöfnun fyrir valdar leyfisgerðir. Ef frestunin á sér stað eftir að uppsöfnun er unnin skapar frestun leyfis hlutfallslega leiðréttingu á leyfisstöðu starfsmanns. Einnig er hægt að taka með ástæðukóða þegar hætt er við leyfi starfsmanns. Upplifun notanda hefur verið uppfærð til að tákna frestur. 
+- **Uppsafnað leyfi á fyrirtæki eða áætlun** - Hægt er að keyra uppsöfnunarferlið annaðhvort fyrir öll fyrirtæki eða fyrir eitt fyrirtæki. Einnig er hægt að keyra uppsöfnunarferlið fyrir tiltekna áætlun leyfis og fjarveru fyrir tiltekið fyrirtæki. 
 
-- **Yfirfærslureglur** - Hægt er að tilgreina yfirfærsluorlofsgerð fyrir yfirfærslustöður þar sem yfirfærsluleiðréttingar eru fluttar. Til dæmis, ef starfsmaður yfirfærir 10 daga getur þú valið aðra leyfisgerð fyrir þessa 10 daga. 
+- **Kaupa leyfi** - Hægt er að virkja og búa til reglur um kaup á leyfum fyrir starfsmenn til að senda inn kaupbeiðni. Starfsmenn geta sent inn beiðnir um kaup og fengið stöður uppfærðar sjálfkrafa til að endurspegla beiðnina.  
 
-- **Taka með ástæðukóða og skrifa athugasemdir vegna leiðréttinga** -Hægt er að taka með ástæðukóða og skrifa athugasemd þegar leiðrétting er gerð á leyfisstöðu starfsmanns. 
+- **Bæta viðhengjum við samþykktar leyfisbeiðnir** - Hægt er að bæta viðhengi við leyfisbeiðni sem hefur þegar verið samþykkt. 
 
-- **Breyting á færibreytum leyfis og fjarvista** - Nú er aðeins hægt að nota færibreytur leyfis og fjarvista í stað þess að nota færibreytur Human Resources. 

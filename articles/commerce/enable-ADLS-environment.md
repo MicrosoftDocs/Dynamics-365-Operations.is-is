@@ -1,6 +1,6 @@
 ---
-title: Virkja ADLS í Dynamics 365 Commerce umhverfi
-description: Þetta efni útskýrir hvernig á að virkja og prófa Azure Data Lake Storage (ADLS) fyrir Dynamics 365 Commerce umhverfi, sem er forsenda þess að hægt sé að gera ráð fyrir afurð.
+title: Virkja Azure Data Lake Storage í Dynamics 365 Commerce-umhverfi
+description: Þetta efnisatriði útskýrir hvernig á að virkja og prófa Azure Data Lake Storage fyrir Dynamics 365 Commerce-umhverfi, sem er forsenda fyrir því að virkja afurðartillögur.
 author: bebeale
 manager: AnnBe
 ms.date: 04/13/2020
@@ -19,57 +19,57 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ba428765babb9ca7566da7a457368959b1c29083
-ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
+ms.openlocfilehash: 83b829306c2da2d10924e547fd3cac6ae6781db3
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "3259749"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404187"
 ---
-# <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>Virkja ADLS í Dynamics 365 Commerce umhverfi
+# <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Virkja Azure Data Lake Storage í Dynamics 365 Commerce-umhverfi
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að virkja og prófa Azure Data Lake Storage (ADLS) fyrir Dynamics 365 Commerce umhverfi, sem er forsenda þess að hægt sé að gera ráð fyrir afurð.
+Þetta efnisatriði útskýrir hvernig á að virkja og prófa Azure Data Lake Storage fyrir Dynamics 365 Commerce-umhverfi, sem er forsenda fyrir því að virkja afurðartillögur.
 
 ## <a name="overview"></a>Yfirlit
 
-Í Dynamics 365 Commerce-lausn eru allar upplýsingar um vöru og viðskipti raktar í Entity verslun umhverfisins. Til að gera þessi gögn aðgengileg öðrum Dynamics 365 þjónustu, svo sem gagnagreiningum, viðskiptagreind og persónulegum ráðleggingum, er nauðsynlegt að tengja umhverfið við viðskiptavini í eigu Azure Data Lake Storage Gen 2 (ADLS) lausn.
+Í Dynamics 365 Commerce-lausn eru allar upplýsingar um vöru og viðskipti raktar í Entity verslun umhverfisins. Til að gera þessi gögn aðgengileg öðrum þjónustum Dynamics 365, t.d. gagnagreiningu, viðskiptagreind og sérsniðnum tillögum, er nauðsynlegt að tengja umhverfið við Azure Data Lake Storage Gen 2 lausn í eigu viðskiptavinar.
 
-Þar sem ADLS er stillt í umhverfi eru öll nauðsynleg gögn spegluð úr Entity versluninni meðan þau eru enn vernduð og undir stjórn viðskiptavinarins.
+Þar sem Azure Data Lake Storage er skilgreint í umhverfi eru öll nauðsynleg gögn spegluð úr einingaversluninni og á sama tíma vernduð og undir stjórn viðskiptavinar.
 
-Ef tillögur um vöru eða sérsniðnar ráðleggingar eru einnig gerðar virkar í umhverfinu, þá mun vöruframkvæmdastakkanum fá aðgang að sérstaka möppu í ADLS til að sækja gögn viðskiptavinarins og reikna meðmæli byggða á þeim.
+Ef afurðartillögur eða sérsniðnar tillögur eru einnig virkjaðar í umhverfinu verður stafli afurðartillagna gefin aðgangur að sérstakri möppu í Azure Data Lake Storage til að sækja gögn viðskiptavinar og reikna út tillögur byggt á þeim.
 
 ## <a name="prerequisites"></a>Forkröfur
 
-Viðskiptavinir þurfa að hafa ADLS stillt í Azure áskrift sem þeir eiga. Þetta efni fjallar ekki um kaup á Azure áskrift eða uppsetningu ADLS-geymslureiknings.
+Viðskiptavinir verða að hafa Azure Data Lake Storage skilgreint í Azure-áskrift sem þeir eru með. Þetta efnisatriði nær ekki yfir kaup á Azure-áskrift eða uppsetningu Azure Data Lake Storage-virkjaðs geymslulykils.
 
-Nánari upplýsingar um ADLS er að finna í [ADLS opinberum fylgiskjölum](https://azure.microsoft.com/pricing/details/storage/data-lake).
+Frekari upplýsingar um Azure Data Lake Storage eru í [Azure Data Lake Storage Gen2 opinberum skjölum](https://azure.microsoft.com/pricing/details/storage/data-lake).
   
 ## <a name="configuration-steps"></a>Skref skilgreiningar
 
-Þessi hluti fjallar um nauðsynlegar stillingar til að virkja ADLS í umhverfi þar sem það tengist afurðatillögum.
-Fyrir nánari yfirsýn yfir skrefin sem þarf til að virkja ADLS, sjá [Gera einingaverslun tiltæka sem Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
+Þessi hluti nær yfir skilgreiningarskrefin sem nauðsynleg eru til að virkja Azure Data Lake Storage í umhverfi því að það tengist afurðartillögum.
+Fyrir ítarlegra yfirlit yfir skrefin sem þarf til að virkja Azure Data Lake Storage skal skoða [Gera einingaverslun tiltæka sem Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 
-### <a name="enable-adls-in-the-environment"></a>Virkja ADLS í umhverfinu
+### <a name="enable-azure-data-lake-storage-in-the-environment"></a>Gera Azure Data Lake Storage virkt í umhverfinu
 
 1. Skráðu þig inn á bakgagnasafn umhverfisins.
 1. Leitapu að **Kerfisfæribreytum** og farðu á flipann **Gagnatengingar**. 
 1. Stilltu **Virkja samþættingu Data Lake** á **Já**.
 1. Stilltu **Hlutauppfærsla Data Lake** á **Já**.
 1. Næst færirðu inn eftirfarandi áskildar upplýsingar:
-    1. **Auðkenni forrits** // **Leynilykill forrits** // **DNS-heiti** - Nauðsynlegt til að tengjast KeyVault þar sem ADLS-leynilykillinn er geymdur.
-    1. **Leyniheiti** - Leyniheitið sem geymt er í KeyVault og notað til að sannvotta með ADLS.
+    1. **Forritsauðkenni** // **Leynilykill forrits** // **DNS-heiti** - Nauðsynlegt til að tengjast við KeyVault þar sem Azure Data Lake Storage-leynilykillinn er geymdur.
+    1. **Leyniheiti** - Leyniheitið sem geymt er í KeyVault og notað til að sannvotta við Azure Data Lake Storage.
 1. Vistaðu breytingarnar þínar efst í vinstra horninu á síðunni.
 
-Eftirfarandi mynd sýnir dæmi um ADLS-stillingu.
+Eftirfarandi mynd sýnir dæmi um skilgreiningu Azure Data Lake Storage.
 
-![Dæmi um ADLS-stillingu](./media/exampleADLSConfig1.png)
+![Dæmi um skilgreiningu Azure Data Lake Storage](./media/exampleADLSConfig1.png)
 
-### <a name="test-the-adls-connection"></a>Prófa ADLS-tengingu
+### <a name="test-the-azure-data-lake-storage-connection"></a>Prófa Azure Data Lake Storage-tenginguna
 
 1. Prófaðu tenginguna við KeyVault með því að nota tengilinn **Prófa Azure-lykil**.
-1. Prófaðu tenginguna við ADLS með því að nota tengilinn **Prófa Azure-geymslu**.
+1. Prófið tenginguna við Azure Data Lake Storage með því að nota tengilinn **Azure Storage**.
 
 > [!NOTE]
 > Ef prófunin tekst ekki skaltu athuga aftur hvort allar viðbættar KeyVault-upplýsingar hér að ofan séu réttar og reyna síðan aftur.
@@ -86,7 +86,7 @@ Eftirfarandi mynd sýnir dæmi um Entity verslun með sjálfvirka endurnýjun vi
 
 ![Dæmi um verslun Entity með sjálfvirka endurnýjun virka](./media/exampleADLSConfig2.png)
 
-ADLS er nú stillt fyrir umhverfið. 
+Azure Data Lake Storage er nú skilgreint fyrir umhverfið. 
 
 Ef ekki er lokið þegar, fylgdu skrefunum fyrir [sem gerir ráð fyrir vöru og sérstillingu](enable-product-recommendations.md) fyrir umhverfið.
 

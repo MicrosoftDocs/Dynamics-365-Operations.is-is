@@ -3,7 +3,7 @@ title: Stjórnun smásöluverðs
 description: Þetta efnisatriði lýsir hugmyndum um stofnun og stjórnun á söluverðum í Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1eb0b218b9008b255cc5a09eefb8c7fa35836cd7
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 84d673bef8597bd7d376c5c74737d5c7db247759
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057488"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3432002"
 ---
 # <a name="retail-sales-price-management"></a>Retail-verðstjórnun
 
@@ -53,7 +53,9 @@ Eftirfarandi mynd sýnir hvernig verðflokkar eru notaðir. Taktu eftir, í þes
 
 Þegar verðflokkur er stofnaður ætti ekki að nota einn verðflokk fyrir margar gerðir viðskiptaeininga. Annars getur verið erfitt að ákvarða hvers vegna tiltekið verð eða afsláttur er notaður á færslu.
 
-Eins og rauða punktalínan á skýringarmyndinni sýnir, styður Commerce kjarnavirkni Microsoft Dynamics 365 á verðflokki sem er settur beint á viðskiptavin. En í þessu tilviki færðu aðeins viðskiptasamninga söluverðs. Ef þú vilt nota verð sem eru sértæk viðskiptavini mælum við með að þú setjir ekki verðflokka beint á viðskiptavininn. Þess í stað ættir þú að nota fyrirtækjatengsl.
+Eins og rauða punktalínan á skýringarmyndinni sýnir, styður Commerce kjarnavirkni Microsoft Dynamics 365 á verðflokki sem er settur beint á viðskiptavin. En í þessu tilviki færðu aðeins viðskiptasamninga söluverðs. Ef þú vilt nota verð sem eru sértæk viðskiptavini mælum við með að þú setjir ekki verðflokka beint á viðskiptavininn. Þess í stað ættir þú að nota fyrirtækjatengsl. 
+
+Athugið að ef verðflokkurinn er stilltur á viðskiptavininn, verður þessi verðflokkur tengdur við sölupöntunarhaus pantana sem stofnaðar eru fyrir þennan viðskiptavin. Ef notandinn breytir verðflokknum í pöntunarhausnum verður gamla verðflokknum skipt út fyrir nýja verðflokkinn fyrir núverandi pöntun. Til dæmis mun gamli verðflokkurinn ekki hafa áhrif á núverandi pöntun, en hann verður samt sem áður tengdur við viðskiptavininn fyrir komandi pantanir.
 
 Eftirfarandi kaflar veita frekari upplýsingar um viðskiptaeiningar sem hægt er að nota til að stilla sérstök verð þegar verðflokkarnir eru notaðir. Skilgreiningar á verðum og afsláttum fyrir allar þessar einingar er tveggja skrefa ferli. Hægt er að framkvæma þessi skref í hvorri röð sem er. Hins vegar er rökrétt röð að stilla verðflokkana á einingarnar fyrst vegna þess að þetta skref er líklega uppsetning sem er gerð aðeins einu sinni við innleiðingu. Þar sem verð og afslættir eru búnir til er því hægt að stilla hvern verðflokk fyrir sig fyrir verðin og afslættina.
 
@@ -226,6 +228,7 @@ Verðlagningarvélin **styður ekki** eftirfarandi verðlagningareiginleika:
 - Það er ekki stutt að setja verð eftir geymsluvídd vefsvæða eða vefsvæðis og vörugeymslu. Ef þú tilgreinir aðeins vídd vefsvæðis á viðskiptasamningunum, þá mun verðlagningarvélin hunsa vefinn og beita viðskiptasamningnum á allar síður. Ef þú tilgreinir bæði svæði og vöruhús, þá er hegðunin óskilgreind/óprófuð vegna þess að búast má við að smásalar noti vöruhópana til að stjórna verði fyrir hverja verslun/vöruhús.
 - Eigindabyggð verðlagning ekki studd.
 - Gegnumferð lánardrottnaafsláttar er ekki studd.
+- Stöðluð verðlagningarvél Supply Chain Management styður verðútreikninginn sem byggir á „Umbeðin sendingardagsetning“ og „Umbeðin móttökudagsetning“ ásamt deginum í dag. Hins vegar styður smásöluverðlagning ekki þessi gildi. Ástæðan er sú að fyrir B2C-aðstæður gera viðskiptavinir ekki ráð fyrir að umbeðinn afhendingardagur hafi áhrif á vöruverðið. Í sumum tilfellum eru smásalar með reikniaðgerðir fyrir bæði B2B og B2C. Fyrir B2B-reikniaðgerðir er algengt að breyta verðum samkvæmt afhendingardögum. Þessir smásöluaðilar geta notað verðlagningu Supply Chain Management fyrir B2B-viðskiptin og smásöluverðlagningu fyrir B2C-viðskiptin. Verðlagning í smásölu kemur aðeins til sögunnar ef notanda forritsins er bætt við sem notanda símavers, þannig að smásöluaðilar geta úthlutað ákveðnum notendum sem vinna með verðlagningu Supply Chain Management og úthlutað nokkrum sem vinna verðlagningu í smásölu, þ.e. þessum notendum ætti að bæta við sem notendum símavers. Þar að auki verður að vera kveikt á eiginleikanum **Nota daginn í dag fyrir verðútreikning** í hlutanum **Commerce-færibreytur > verðlagning og afslættir > Ýmislegt**. Með þessum hætti er hægt að halda áfram að nota gildi fyrir færibreytu viðskiptakrafna fyrir umbeðna sendingardagsetningu eða umbeðna móttökudagsetningu fyrir verðlagningu Supply Chain Management, en verðlagning í smásölu notar áfram daginn í dag fyrir verðútreikning.
 
 Að auki **aðeins** verðlagningarvél styður eftirfarandi verðlagningareiginleika:
 
