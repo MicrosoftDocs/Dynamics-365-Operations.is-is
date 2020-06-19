@@ -3,7 +3,7 @@ title: Vinna með raðaðar vörur á sölustaðnum
 description: Í þessu efnisatriði er útskýrt hvernig á að stjórna röðuðum vörum í forriti sölustaðar.
 author: boycezhu
 manager: annbe
-ms.date: 04/21/2020
+ms.date: 05/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,17 +15,16 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 1e0d6aa7cd5576578378e70c6ee808833314aff3
-ms.sourcegitcommit: 919620b4aca425e6a1248ee12f50a622d2531e58
+ms.openlocfilehash: eedb64ae04345cb94bdd8cc68de833cfcfd40119
+ms.sourcegitcommit: 39981582778b0a62567324452485a6721ca18284
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "3290771"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "3407499"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Vinna með raðaðar vörur á sölustaðnum
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Margir smásalar selja vörur sem krefjast raðstjórnunar. Þessar vörur eru nefndar *raðaðar vörur*. Sumir smásalar gætu viljað viðhalda raðnúmerum til rakningar. Aðrir smásalar gætu viljað sækja raðnúmer í söluferlinu vegna þjónustu og ábyrgðar. Í þessu efnisatriði er útskýrt hvernig þú getur stjórnað röðuðum vörum í Microsoft Dynamics 365 Commerce forriti sölustaðar.
 

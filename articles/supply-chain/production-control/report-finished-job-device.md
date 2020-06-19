@@ -1,42 +1,150 @@
 ---
-title: Skrá sem lokið í númeraplötustýrða staðsetningu úr verkspjaldstækinu
-description: Þetta efni lýsir ferlinu til að klára fullunnar vörur í framleiðslupöntun til birgða þegar númeraplata stjórnar staðsetningu.
+title: Bóka sem tilbúið úr verkspjaldstæki
+description: Þetta efnisatriði lýsir því hvernig skilgreina á kerfið þannig að notendur verkspjaldtækis geti bókað tilbúnar afurðir úr framleiðslupöntun í birgðir.
 author: johanhoffmann
 manager: tfehr
-ms.date: 01/06/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgRegistration, ProdJournalTransJob, ProdJournalTransRoute, ProdParmReportFinished
+ms.search.form: JmgRegistrationSetupTouch
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
-ms.custom: 19351
-ms.assetid: bcc9e242-b4b8-4144-b14d-c3c106fb40ec
 ms.search.region: Global
-ms.search.industry: Manufacturing
 ms.author: johanho
-ms.search.validFrom: 2019-09-06
-ms.dyn365.ops.version: AX 10.0.6
-ms.openlocfilehash: 74e1e30f5afe51cd0ecec2530ffcb9a59eec5fee
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.search.validFrom: 2020-05-18
+ms.dyn365.ops.version: Release 10.0.12
+ms.openlocfilehash: f5d34893ddc8adc3785ec50dbd72438cf8f68c5d
+ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367246"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3403263"
 ---
-# <a name="report-as-finished-to-a-license-plate-controlled-location-from-the-job-card-device"></a>Skrá sem lokið í númeraplötustýrða staðsetningu úr verkspjaldstækinu
+# <a name="report-as-finished-from-the-job-card-device"></a>Bóka sem tilbúið úr verkspjaldstæki
 
 [!include [banner](../includes/banner.md)]
 
-Ferlið sem kallast Tilkynnt sem lokið lýkur fullunnum vörum í framleiðslupöntun til birgða. Ef fullunnin afurð er virk fyrir háþróuð vörugeymsluferli er tilkynnt um afurðina sem lokið á stað sem kallast framleiðslu framleiðslustaðarins. Nánari upplýsingar um að setja upp framleiðslu framleiðslunnar, sjá [Staðsetning framleiðsluúttaks](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/production-output-location).
+Starfsmenn nota síðuna **Tilkynna um framvindu** í verkspjaldstækinu til að tilkynna magn sem hefur verið lokið fyrir framleiðsluverk.
 
-Ef framleiðslustað framleiðslunnar er stjórnað með leyfisplötum verður að gefa upp leyfisplötu þegar skýrslu er lokið. Reiturinn **Númeraplata** er sýnilegur í kvaðningunni **Gera framvinduskýrslu** á síðunni **Verkspjaldstæki**. Reiturinn er aðeins sýnilegur á kvaðningunni **Gera framvinduskýrslu** þegar tilkynnt er um síðustu aðgerð framleiðslupöntunar og hlutur framleiðslupöntunar er gerður virkur fyrir vöruhúsakerfisferli.
+## <a name="control-whether-quantities-that-are-reported-as-finished-are-added-to-inventory"></a>Stjórna því hvort magn sem er tilkynnt sem lokið verði bætt við birgðir
 
-Valkostirnir eru tveir til að veita númeraplötuna:
+Til að stjórna því hvort og hvernig magnið sem tilkynnt er sem lokið í síðustu aðgerð eigi að vera bætt við birgðir skal fylgja þessum skrefum.
 
-- Notandinn velur fyrirliggjandi númeraplötu í reit númeraplötu.
-- Leyfisplatan er sjálfkrafa búin til úr númeraröð og er sjálfgefin í reiti leyfisplötunnar.
+1. Farið í **Framleiðslustjórnun \> Uppsetning \> Framkvæmd framleiðslu \> Sjálfgildi framleiðslupöntunar**.
+1. Í flipanum **Tilkynna sem lokið** skal stilla reitinn **Uppfæra skýrslu um tilbúið á netinu** á eitt af eftirfarandi gildum:
 
-Valkosturinn að láta leyfisplötuna myndast sjálfkrafa er stilltur með því að velja valkostinn **Mynda leyfisplötu** á síðunni **Stilla vinnslukort fyrir tæki**.
+    - **Ekkert** - Engu magni verður bætt við birgðir þegar magn er tilkynnt í síðustu aðgerðinni. Staða framleiðslupöntunar breytist aldrei.
+    - **Staða + magn** – Staða framleiðslupöntunar breytist í *Tilkynna sem lokið* og magnið verður gefið upp sem lokið í birgðum.
+    - **Magn** - Magnið verður tilkynnt sem lokið í birgðum, en staða framleiðslupöntunarinnar breytist aldrei.
+    - **Staða** - Aðeins staða framleiðslupöntunar breytist. Engu magni verður bætt við birgðir þegar magn er tilkynnt í síðustu aðgerð.
+
+> [!NOTE]
+> Magn er ekki rakið í birgðum ef aðgerðirnar sem það er skráð sem lokið í eru ekki skilgreindar sem síðasta aðgerð. Hins vegar er hægt að nota þetta magn til að skoða framvindu. Einnig er hægt að taka það með í reglur sem stjórna því hvort starfsmenn geti hafið næstu aðgerð áður en skilgreindum mörkum um tilkynnt magn úr síðustu aðgerð er náð. Hægt er að skilgreina þessar reglur í flipanum **Staðfesting magns** á síðunni **Sjálfgildi framleiðslupöntunar**.
+
+Frekari upplýsingar um hvernig á að vinna með síðuna **Sjálfgildi framleiðslupöntunar** er að finna í [Færibreytur framleiðslu í framkvæmd framleiðslu](production-parameters-manufacturing-execution.md).
+
+## <a name="report-batch-controlled-items-as-finished"></a>Skrá runustýrðar vörur sem tilbúnar
+
+Verkspjaldstækið styður þrjár atburðarásir fyrir tilkynningu á vörum með runu. Þessar atburðarásir eiga bæði við um vörur sem eru virkjaðar fyrir ítarlega vöruhúsaferla og vörur sem ekki eru virkjaðar fyrir ítarlega vöruhúsaferla.
+
+- **Rununúmer úthlutuð handvirkt:** Starfsmenn slá inn sérsniðið rununúmer. Þetta rununúmer gæti komið frá ytri uppruna sem kerfið þekkir ekki.
+- **Fyrirframskilgreind rununúmer:** Starfsmenn velja rununúmer í lista yfir rununúmer sem kerfið myndar sjálfkrafa áður en framleiðslupöntunin er losuð í verkspjaldstækið.
+- **Föst rununúmer:** Starfsmenn slá ekki inn eða velja rununúmer. Þess í stað úthlutar kerfið sjálfkrafa rununúmeri á framleiðslupöntunina áður en hún er losuð.
+
+Til að virkja hverja atburðarás skal fylgja þessum skrefum.
+
+1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
+1. Veljið afurð til að skilgreina.
+1. Í flýtiflipanum **Birgðastjórnun**, í reitnum **Rununúmeraflokkur**, skal velja flokk rakningarnúmera sem er settur upp til að styðja atburðarásina.
+
+> [!NOTE]
+> Ef engum flokki rununúmera er úthlutað á runustýrða afurð, býður verkspjaldstækið sjálfkrafa upp á handvirkan innslátt fyrir rununúmerið fyrir tilkynningu um lokið.
+
+Eftirfarandi undirkaflar lýsa því hvernig á að setja upp flokka rakningarnúmera til að styðja hverja atburðarás fyrir tilkynningu um vörur með rununúmeri.
+
+### <a name="enable-batch-number-reporting-on-the-job-card-device"></a>Virkja tilkynningu um rununúmer í verkspjaldstækinu
+
+Til að gera verkspjaldstæki kleift að samþykkja rununúmer við tilkynningu um lokið þarf að nota [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eftirfarandi eiginleikum (í þessari röð):
+
+1. Enn notandavænni svargluggi fyrir gerð framvinduskýrslu á verkspjaldstækinu.
+1. Virkja til að færa inn runu og raðnúmer þegar skýrslugerð er lokið úr verkspjaldstækinu (forútgáfa).
+
+### <a name="set-up-a-tracking-number-group-that-lets-workers-manually-assign-a-batch-number"></a>Setja upp flokk rakningarnúmera sem gerir starfsmönnum kleift að úthluta rununúmeri handvirkt
+
+Til að leyfa handvirka úthlutun rununúmera skal fylgja þessum skrefum til að setja upp flokk rakningarnúmera.
+
+1. Farið í **Birgðastjórnun \> Uppsetning \> Víddir \> Flokkar rakningarnúmera**.
+1. Stofna eða velja flokk rakningarnúmera sem á að setja upp.
+1. Í flipanum **Almennt** skal stilla valkostinn **Handvirkt** á **Já**.
+
+    ![Síða rakningarnúmeraflokka](media/tracking-number-group-manual.png "Síðaa rakningarnúmeraflokka")
+
+1. Stillið önnur gildi eftir þörfum og veljið síðan þennan flokk rakningarnúmera sem flokk rununúmera fyrir útgefnar afurðir sem á að nota í þessari atburðarás.
+
+Þegar þessi atburðarás er notuð er reiturinn **Rununúmer** sem síðan **Tilkynna framvindu** í verkspjaldstækinu býður upp á textareitur þar sem starfsmenn geta slegið inn hvaða gildi sem er.
+
+![Tilkynningarsíða framvindu með reit fyrir handvirk rununúmer](media/job-card-device-batch-manual.png "Tilkynningarsíða framvindu með reit fyrir handvirk rununúmer")
+
+### <a name="set-up-a-tracking-number-group-that-provides-a-list-of-predefined-batch-numbers"></a>Setja upp flokk rakningarnúmera sem býður upp á lista af fyrirframskilgreindum rununúmerum
+
+Til að bjóða upp á lista af fyrirframskilgreindum rununúmerum skal fylgja þessum skrefum til að setja upp flokk rakningarnúmera.
+
+1. Farið í **Birgðastjórnun \> Uppsetning > Víddir \> Flokkar rakningarnúmera**.
+1. Stofna eða velja flokk rakningarnúmera sem á að setja upp.
+1. Í flipanum **Almennt** skal stilla valkostinn **Aðeins fyrir birgðafærslur** á **Já**.
+1. Notið reitinn **Á magn** til að skipta rununúmerum eftir magni byggt á gildinu sem slegið er inn. Til dæmis er hægt að hafa framleiðslupöntun fyrir tíu stykki og reiturinn **Á magn** er stilltur á *2*. Í þessu tilfelli verður fimm rununúmerum úthlutað á framleiðslupöntunina þegar hún er stofnuð.
+
+    ![Síða rakningarnúmeraflokka](media/tracking-number-group-predefined.png "Síða rakningarnúmeraflokka")
+
+1. Stillið önnur gildi eftir þörfum og veljið síðan þennan flokk rakningarnúmera sem flokk rununúmera fyrir útgefnar afurðir sem á að nota í þessari atburðarás.
+
+Þegar þessi atburðarás er notuð er reiturinn **Rununúmer** sem síðan **Tilkynna framvindu** í verkspjaldstækinu býður upp á fellilisti þar sem starfsmenn verða að velja fyrirframskilgreint gildi.
+
+![Tilkynningarsíða framvindu með lista yfir fyrirframskilgreind rununúmer](media/job-card-device-batch-predefined.png "Tilkynningarsíða framvindu með lista yfir fyrirframskilgreind rununúmer")
+
+### <a name="set-up-a-tracking-number-group-that-automatically-assigns-batch-numbers"></a>Setja upp flokk rakningarnúmera sem sjálfkrafa úthluta rununúmerum
+
+Ef úthluta á rununúmerum sjálfkrafa, án innsláttar starfsmanns, skal fylgja þessum skrefum til að setja upp flokk rakningarnúmera.
+
+1. Farið í **Birgðastjórnun \> Uppsetning \> Víddir \> Flokkar rakningarnúmera**.
+1. Stofna eða velja flokk rakningarnúmera sem á að setja upp.
+1. Í flipanum **Almennt** skal stilla valkostinn **Aðeins fyrir birgðafærslur** á **Nei**.
+1. Stillið **Handvirkt** valkostinn á **Nei**.
+
+    ![Síða rakningarnúmeraflokka](media/tracking-number-group-fixed.png "Síðaa rakningarnúmeraflokka")
+
+1. Stillið önnur gildi eftir þörfum og veljið síðan þennan flokk rakningarnúmera sem flokk rununúmera fyrir útgefnar afurðir sem á að nota í þessari atburðarás.
+
+Þegar þessi atburðarás er notuð mun reiturinn **Rununúmer** sem síðan **Tilkynna framvindu** í verkspjaldstækinu býður upp á sýna gildi, en starfsmenn geta ekki breytt því.
+
+![Tilkynningarsíða framvindu með ákveðnu rununúmeri](media/job-card-device-batch-fixed.png "Tilkynningarsíða framvindu með ákveðnu rununúmeri")
+
+## <a name="report-as-finished-to-a-license-plate"></a>Tilkynna sem lokið til númeraplötu
+
+Ítarleg vöruhúsaferli geta notað númeraplötuvídd til að rekja birgðir í vöruhúsastaðsetningum sem hafa verið settar upp í þessum tilgangi. Í þessu tilvikum er krafist númer númeraplötu starfskraftur tilkynnir magn sem lokið.
+
+### <a name="enable-license-plate-reporting-and-label-printing"></a>Virkja tilkynningu númeraplötu og prentun merkis
+
+Til að nota eiginleikana sem lýst er í þessum hluta þarf að nota [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að kveikja á eftirfarandi eiginleikum (í þessari röð):
+
+1. Númeraplata fyrir tilkynningu um lok var bætt við verkspjaldstækið
+1. Kveiktu á sjálfvirkri myndun á númeraplötunúmeri þegar tilkynnt er um lok í verkspjaldstækinu.
+1. Prenta merki úr verkspjaldstæki
+
+### <a name="set-up-reporting-as-finished-to-a-license-plate"></a>Setja upp tilkynna sem lokið til númeraplötu
+
+Til að geta stjórnað því hvort starfsmenn ættu að endurnýta fyrirliggjandi númeraplötu eða mynda nýja númeraplöttu þegar þeir tilkynna að magn sé búið skal fylgja þessum skrefum.
+
+1. Farið í **Framleiðslustjórnun \> Uppsetning \> Framkvæmd framleiðslu \> Skilgreina verkspjald fyrir tæki**.
+2. Velja eftirfarandi valmöguleika fyrir hvert tæki:
+
+    - **Mynda númeraplötu** - Stillið þennan valkost á **Já** til að mynda nýja númeraplötu fyrir hverja tilkynningu um lokið. Stillið hann á **Nei** ef nota á fyrirliggjandi númeraplötu fyrir hverja tilkynningu um lokið.
+    - **Prenta merki** – Stillið þennan valkost á **Já** ef starfsmaðurinn verður að prenta númeraplötumerki fyrir hverja tilkynningu um lokið. Stillið þetta á **Nei** ef engra merkinga er krafist. 
+
+![Síðan fyrir skilgreiningu verkspjalds fyrir tæki](media/config-job-card-raf.png "Síðan fyrir skilgreiningu verkspjalds fyrir tæki")
+
+> [!NOTE]
+> Til að skilgreina merkið skal fara í **Vöruhúsastjórnun \> Uppsetning \> Skjalaleið \> Skjalaleið**. Frekari upplýsingar er að finna í [Leyfa prentun númeraplötumerkis](../warehousing/tasks/license-plate-label-printing.md).

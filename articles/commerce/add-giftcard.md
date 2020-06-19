@@ -3,7 +3,7 @@ title: Gjafakortseining
 description: Þetta efni fjallar um gjafakortseiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 70047376cec44523cc9cfe4df792bde23c776d8c
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: a8428963e105e422dcd048863c17df0926a409ac
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261573"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411113"
 ---
 # <a name="gift-card-module"></a>Gjafakortseining
 
@@ -35,6 +35,10 @@ ms.locfileid: "3261573"
 Gjafakort eru algeng greiðsluform og hægt er að nota gjafakortseininguna í kassaeiningu til að taka við gjafakortum. Gjafakortseiningin styður Dynamics 365, SVS og Givex gjafakort. Gjafakort SVS og Givex eru innleyst með Adyen greiðsluþjónustuaðila.
 
 Nánari upplýsingar um stuðning við utanaðkomandi gjafakort eins og SVS og Givex er að finna í [Stuðningur við utanaðkomandi gjafakort](./dev-itpro/gift-card.md)
+
+Eftirfarandi mynd sýnir dæmi um gjafakortseiningu á greiðsluferlissíðu.
+
+![Dæmi um gjafakortseiningu](./media/ecommerce-giftcard.PNG)
 
 ## <a name="module-properties"></a>Eiginleikar einingar
 

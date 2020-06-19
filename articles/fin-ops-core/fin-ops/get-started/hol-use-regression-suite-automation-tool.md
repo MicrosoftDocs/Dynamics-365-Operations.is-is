@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2d3dde69b102ce161e5c1f1dd393ffceca608bcb
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 0c2babc3144cae5c68075bd853a2587505263776
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248737"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410151"
 ---
-# <a name="use-the-regression-suite-automation-tool-tutorial"></a>Notaðu kennsluefni fyrir Regression Suite Automation Tool
+# <a name="regression-suite-automation-tool-tutorial"></a>Kennsla í Regression Suite Automation Tool
 
 [!include [banner](../includes/banner.md)]
 
@@ -97,7 +97,7 @@ RSAT gerir þér kleift að nota sömu verkefnaskráningu með mörgum prófatil
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Þegar þú keyrir prófunartilvikið mun RSAT búa til myndatökur (myndir) af skrefunum í spilunarmöppunni á prófatilvikunum í vinnumiðstöðinni. Ef þú ert að nota eldri útgáfu af RSAT eru myndirnar vistaðar á **C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback**, sérstök mappa er búin til fyrir hvert prófunartilvik sem er keyrt.
+Þegar þú keyrir prófunartilvikið mun RSAT búa til myndatökur (myndir) af skrefunum í spilunarmöppunni á prófatilvikunum í vinnumiðstöðinni. Ef verið er að nota eldri útgáfu af RSAT eru myndirnar vistaðar í **C:\\Notendur\\\<Username\>\\AppData\\Roaming\\regressionTool\\spilun**, aðskilin mappa er búin til fyrir hvert prófunartilvik sem er keyrt.
 
 ## <a name="assignment"></a>Verkefni
 
@@ -454,7 +454,7 @@ Sýnir tvær leiðir til að kalla á þetta forrit: önnur sem notar sjálfgefn
 - Nafn viðskiptavinar
 - Aðsetur viðskiptavinar
 
-Kenni viðskiptavinar verður á sniðinu *ATCUS\<númer\>*, þar sem \<númer\> er gildi á milli **000000001** og **999999999**.
+Viðskiptavinakennið verður á sniðinu *ATCUS\<number\>* þar sem \<number\> er gildi á milli **000000001** og **999999999**.
 
 Eftirfarandi dæmi notar eina breytu, **byrja**, til að skilgreina fyrsta númerið sem er notað. Er notuð önnur færibreyta, **nr**, til að skilgreina fjölda viðskiptavina sem verður að stofna. Fyrir hverja ítrekun er færibreytunum í Excel-færibreytuskránni breytt með því að nota virknina UpdateCustomer. Síðan er RSAT-skipanalínan kölluð í virkninni RunTestCase.
 

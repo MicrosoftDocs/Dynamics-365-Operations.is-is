@@ -3,7 +3,7 @@ title: Vistuð yfirlit
 description: Þetta efnisatriði lýsir því hvernig á að nota eiginleika fyrir vistuð yfirlit.
 author: jasongre
 manager: AnnBe
-ms.date: 04/10/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: fe79558b9d2ac4ef1c83918b949d11983b2cc0d8
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: f6b7f1c64c273f52dc1d414185ba54efdfb8e5c0
+ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260484"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412332"
 ---
 # <a name="saved-views"></a>Vistuð yfirlit
 
@@ -137,7 +137,7 @@ Ef breytingarnar sem þú vilt gera á útgefnu yfirliti eiga einungis við um f
 7. [10.0.9/verkvangsuppfærsla 33 eða nýrri] Ef þú hefðir upphaflega valið þessa birtu skoðun til að vera sjálfgefið yfirlit, þá verður það sjálfgefið yfirlit fyrir þessa notendur aftur eftir útgáfuna að nýju.  
 
 Ef breytingarnar á birtu yfirliti fela í sér breytingu á sérstillingum eða síum sem tengjast yfirlitinu skal fylgja þessum skrefum: 
-1.  Skiptið yfir í útgefið yfirlit sem á að breyta. 
+1.  Hlaðið útgefnu yfirliti sem á að breyta. 
 2.  Vistið afrit af útgefnu yfirliti til að búa til staðbundin drög að útgefnu yfirliti. 
 3.  Breytið staðbundnum drögum með nauðsynlegum breytingum.
 4.  Birtið yfirlitið með upprunalega heitinu. 
@@ -149,14 +149,27 @@ Líkt og með stjórnun á persónulegum yfirlitum gefur svarglugginn **Stjórna
 
 Fyrir listann yfir öll birt yfirlit fyrir þessa síðu eru eftirfarandi sett af aðgerðum tiltæk. 
 
--    **Birta**: Notið aðgerðina **Birta** til að endurbirta yfirlit eftir að færibreytum birtingar (heiti, lýsingu, öryggishlutverkum eða lögaðilum) er breytt.
--    **Fjarlægja**: Notið aðgerðina **Fjarlægja** til að fjarlægja að fullu birt yfirlit. Þessi aðgerð fjarlægir yfirlitið hjá öllum notendum í kerfinu. Ef birtar skoðanir eru fjarlægðar tekur gildi eftir að hnappurinn **Vista** er valinn.
+-    **Birta** - Notið aðgerðina **Birta** til að endurbirta yfirlit eftir að færibreytum birtingar (heiti, lýsing, öryggishlutverk eða lögaðilar) hefur verið breytt.
+-    **Vista sem eigið** - Notið aðgerðina **Vista sem eigið** til að búa til eigin drög af birtu yfirliti. Þessi möguleiki getur varpað betra ljósi á innihald yfirlits sem var ekki birt notanda eða sem hefur ekki verið birt að svo stöddu. Einnig er hægt að nota hann til að breyta og birta svo aftur yfirlit. Þessi hæfileiki er kynntur í útgáfu 10.0.12.  
+-    **Fjarlægja** - Notið aðgerðina **Fjarlægja** til að fjarlægja að fullu birt yfirlit. Þessi aðgerð fjarlægir yfirlitið hjá öllum notendum í kerfinu. Ef birtar skoðanir eru fjarlægðar tekur gildi eftir að hnappurinn **Vista** er valinn.
+
+## <a name="managing-views-globally"></a>Stjórna yfirlitum á altækan hátt
+Þrátt fyrir að einhverjir stjórnunarmöguleikar komi fram á öllum síðum eins og minnst er á í þessu efnisatriði, geta **kerfisstjórar** og **vistað yfirlit kerfisstjóra** haft betri yfirsýn yfir stjórnun yfirlita fyrir kerfið í gegnum síðuna **Sérstillingar**. Einkum hefur þessi síða eftirfarandi hluta og möguleika: 
+
+- **Birt yfirlit** - Þessi hluti sýnir öll yfirlit sem hafa verið birt fyrir fyrirtækið. Héðan er hægt að endurbirta yfirlit þegar öryggishlutverkum eða lögaðilum hefur verið breytt sem yfirlitið hefur augastað á. Þú getur líka flutt út eða eytt einni eða fleiri útgefnum skoðunum. Í útgáfu 10.0.12 og síðar er hægt að nota aðgerðina **Vista sem eigið** til að búa til eigið afrit af yfirlitinu til að geta uppfært yfirlitið eða öðlast betri skilning á efni þess. 
+- **Óbirt yfirlit** - Þessi hluti sýnir öll yfirlit sem hafa verið flutt inn í kerfið en hafa enn ekki verið birt. Þú getur birt, flutt út eða eytt þessum skoðunum. Aðgerðin **Flýtibirting** sem var bætt við í útgáfu 10.0.12 býður upp á að birta mörg yfirlit úr þessum hluta í einni aðgerð með því að nota fyrirliggjandi skilgreiningar öryggishlutverks og lögaðila. Í útgáfu 10.0.12 og síðar er hægt að nota aðgerðina **Vista sem eigið** til að búa til eigið afrit af þessum yfirlitum til að öðlast betri skilning á efni þeirra.   
+- **Eigin yfirlit** – Þessi hluti sýnir öll yfirlit sem notendur hafa búið til í kerfinu. Héðan er hægt að birta persónulegt yfirlit til stofnunar/fyrirtækis eða afrita eitt eða fleiri af þessum yfirlitum til annarra notenda. Einnig er hægt að birta, flytja út eða eyða þessum skoðunum, eftir þörfum.
+- **Notendur** – Veljið notanda til að skoða lista yfir síðurnar sem notandinn hefur heimsótt. Síðan er hægt að breyta getu notanda til að nota sérstillingar fyrir tilteknar síður eða fyrir allt kerfið. Þú getur einnig flutt inn, flutt út eða hreinsað sérstillingar notanda. Að auki geturðu endurstillt skýringartexta eiginleika fyrir notandann. Ef notandinn hafnaði sprettigluggum sem kynntu nýja eiginleika, birtast þessir sprettigluggar aftur næst þegar þessir eiginleikar verða á vegi notanda.
+- **Kerfi** - Einnig er hægt að slökkva á sérstillingum allra notendur kerfisins tímabundið. Í þessu tilfelli er öllum sérstillingum eytt fyrir alla notendur og allar síður eru endurstilltar í sjálfgefna stöðu. Ef þú kveikir aftur á sérstillingum verður öllum sérstillingumaftur beitt. Einnig er hægt að eyða öllum sérstillingum endanlega fyrir alla notendur kerfisins. Ekki er hægt að endurheimta sérstillingar sem hefur verið eytt. Áður en þú framkvæmir þetta verkefni skaltu þess vegna vera viss um að flytja út allar sérstillingar sem þú gætir viljað síðar.
+
+Notendur sem hafa aðgang að síðunni **Sérstillingar** geta einnig flutt inn persónulegar skoðanir eða sniðmát með því að nota hnappinn **Flytja inn skoðanir** á aðgerðarrúðunni. Í útgáfu 10.0.12 og síðar hefur fyrirkomulagi verið bætt við til að birta yfirlit um leið og þau eru flutt inn.  
 
 ## <a name="frequently-asked-questions"></a>Algengar spurningar
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Hvernig virkja ég vistuð yfirlit í umhverfinu mínu? 
-Athugasemd: Eiginleikinn **Vistaðar skoðanir** krefst sérstillingarkerfisins í Finance and Operations til að vera virk. Ef slökkt er á sérstillingu fyrir allt umhverfið verða yfirlit afvirkjuð jafnvel þótt þú fylgir skrefunum hér að neðan. 
+> [!NOTE]
+> Eiginleikinn **Vistuð yfirlit** krefst þess að sérsniðna kerfið í Finance and Operations verði virkjað. Ef slökkt er á sérstillingu fyrir allt umhverfið verða yfirlit afvirkjuð jafnvel þótt þú fylgir skrefunum hér að neðan. 
 
-**10.0.9 / uppfærsla pallsins 33 og nýrri** Eiginleikinn **Vistaðar skoðanir** er fáanlegur beint í lögun stjórnun í hvaða umhverfi sem er. Eins og aðrir opnir forskoðunareiginleikar, þá er það kleift að virkja þennan eiginleika í framleiðslu [Viðbótarskilmálar um notkunarskilmála](https://go.microsoft.com/fwlink/?linkid=2105274).  
+**10.0.9 / uppfærsla pallsins 33 og nýrri** Eiginleikinn **Vistaðar skoðanir** er fáanlegur beint í lögun stjórnun í hvaða umhverfi sem er. Líkt og með aðra forútgáfueiginleika, heyrir virkjun þessa eiginleika í framleiðslu undir [Viðbótarnotkunarskilmálar](https://go.microsoft.com/fwlink/?linkid=2105274).  
 
 **10.0.8 / uppfærsla verkvangs 32 og yngri** Eiginleikinn **Vistuð yfirlit** er hægt að virkja í umhverfi 1. lagi (þróun/prófun) og 2. lagi (sandkassi) til að veita frekari prófunar- og hönnunarbreytingar með því að fylgja skrefunum hér að neðan.
 

@@ -3,7 +3,7 @@ title: Fyrirsagnareining
 description: Þetta efni fjallar um fyrirsagnareiningar og lýsir því hvernig á að stofna síðuhausa í Microsoft Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cec138ebefbd2beb2f1cf6302ce58d8bbc5c4bbd
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: a5f7ad7d9c5ff63c3c3a8fe38275eec0d138891d
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261445"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411210"
 ---
 # <a name="header-module"></a>Eining síðuhauss
-
 
 [!include [banner](includes/banner.md)]
 
@@ -36,6 +35,10 @@ ms.locfileid: "3261445"
 Í Dynamics 365 Commerce samanstendur síðuhaus af mörgum einingum, eins og haus, yfirlitsvalmynd, leit, auglýsingarborða og samþykkiseiningum fyrir smákökur. 
 
 Hausseiningin inniheldur merki vefsvæða, tengla á leiðsöguveldi, tengla á aðrar síður á vefnum, körfitákn, óskalistatákn, innskráningarvalkosti og leitarstikuna. Fyrirsagnareining er sjálfkrafa fínstillt fyrir tækið sem vefurinn er skoðaður á (með öðrum orðum, fyrir skjáborðstæki eða fartæki). Til dæmis, í fartæki er leiðsagnarstikan smækkuð niður í hnappinn **Valmynd** (sem er stundum kallaður *hamborgaravalmynd*).
+
+Eftirfarandi mynd sýnir dæmi um fyrirsagnareiningu á heimasíðu.
+
+![Dæmi um fyrirsagnareiningu](./media/ecommerce-header.png)
 
 ## <a name="properties-of-a-header-module"></a>Eiginleikar fyrirsagnareiningar
 
@@ -50,31 +53,40 @@ Hægt er að nota eiginleikann **Mínir reikningstenglar** til að skilgreina re
 Eftirfarandi einingar er hægt að nota í fyrirsagnareiningu:
 
 - **Leiðasagnarvalmynd** - Leiðsagnarvalmyndin táknar leiðsagnarstigveldi rásarinnar og fleiri fasta leiðsagnartengla. Hægt er að stilla leiðsagnarstigveldi rásar í Dynamics 365 Commerce. Yfirlitsvalmyndin er með eiginleikann **Uppruni yfirlits** sem er notaður til að tilgreina valmyndaratriðin í Retail Server og grunnvalmyndaratriði sem uppsprettu. Ef grunnvalmyndaratriði eru tilgreind sem uppspretta er hægt að veita tengda tengla við aðrar síður á vefsvæðinu. Stilltir hlutir birtast síðan sem fyrirsagnarleiðsögn. 
+
 - **Leit** - Leitareiningin gerir notendum kleift að slá inn leitarskilyrði til að leita að vörum. Vefslóð sjálfgefnu leitarsíðunnar og færibreytur leitarfyrirspurna vera að vera gefnar upp í **Svæðisstillingar \> Viðbætur**. Leitareiningin hefur eiginleika sem gera þér kleift að fela leitarhnappinn eða merkimiðann eins og þú þarfnast. Leitareiningin styður einnig valkosti með sjálfvirkum tillögum, svo sem leitarniðurstöðum afurðar, leitarorða og flokka.
+
 - **Körfutákn** - Körfutákneiningin táknar körfutáknið sem sýnir fjölda af vörum í körfunni á hverjum tíma. Fyrir frekari upplýsingar, sjá [Körfutáknseining](cart-icon-module.md).
 
 ## <a name="create-a-header-module-for-a-page"></a>Stofna hauseiningu fyrir síðu
 
 Til að stofna fyrirsagnareiningu skal fylgja eftirfarandi skrefum.
 
-1. Búðu til brot sem er nefnt **hausbrot** og bættu gámaeiningunni við það.
-1. Í eiginleikaglugganum fyrir gámaeininguna stillirðu eiginleikann **Breidd** á **Fylla gám**.
-1. Bættu auglýsingaborða og samþykkiseiningum fyrir smákökur við gámaeininguna.
-1. Bættu annarri gámaeiningu við brotið og stilltu eiginleikann **Breidd** á **Fylla gám**.
-1. Bættu hauseiningu við seinni gámaeininguna.
-1. Í hólfi **Yfirlitsvalmyndar** í hausseiningunni bætiður við einingu yfirlitsvalmyndar. 
-1. Stilltu eiginleika aðgerðar einingar yfirlitsvalmyndar í eiginleikaglugganum í yfirlitsvalmyndareiningunni.
-1. Í hólfinu **Leita** í hausseiningunni skal bæta leitareiningu við. 
-1. Í eiginleikaglugga fyrir leitareininguna stillirðu eiginleika leitareiningarinnar. 
-1. Í raufinni **Körfutákn** í hauseiningunni bætirðu við körfutáknseiningunni. 
-1. Í eiginleikaglugga fyrir körfutáknseininguna stillirðu eiginleika körfutáknseiningarinnar. Ef þú vilt að körfutáknið sýni smákörfu þegar músin sveimar yfir skaltu velja **Satt** fyrir **Sýna smákörfu**.
-1. Vistaðu síðubrotið, ljúktu við að breyta því og birtu það. 
-
+1. Farðu í **Síðubrot** og veldu **Nýtt** til að búa til nýtt síðubrot.
+1. Í glugganum **Nýtt síðubrot** skal velja eininguna **Hólf**, slá inn heiti fyrir síðubrotið og síðan velja **Í lagi**.
+1. Velja skal hólfið **Sjálfgefið hólf** og síðan, hægra megin á eiginleikasvæðinu, skal stilla eiginleikann **Breidd** á **Fylla hólf**.
+1. Í hólfinu **Sjálfgefið hólf** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja einingarnar **Tilboðsborði** og **Samþykki á kökum** og velja síðan **Í lagi**.
+1. Í hólfinu **Sjálfgefið hólf** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Hólf** og síðan velja **Í lagi**.
+1. Velja skal hólfið **Hólf** og síðan, hægra megin á eiginleikasvæðinu, skal stilla eiginleikann **Breidd** á **Fylla hólf**.
+1. Í hólfinu **Hólf** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Fyrirsögn** og síðan velja **Í lagi**.
+1. Í hólfinu **Yfirlitsvalmynd** í fyrirsagnareiningunni skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Yfirlitsvalmynd** og síðan velja **Í lagi**.
+1. Á eiginleikasvæðinu fyrir einingu yfirlitsvalmyndar skal stilla eiginleikana eftir því sem þörf krefur.
+1. Í hólfinu **Leita** í fyrirsagnareiningunni skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Leita** og síðan velja **Í lagi**.
+1. Á eiginleikasvæðinu fyrir leitareininguna skal stilla eiginleikana eftir því sem þörf krefur.
+1. Í hólfinu **Körfutákn** í fyrirsagnareiningunni skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Körfutákn** og síðan velja **Í lagi**.
+1. Á eiginleikasvæðinu fyrir einingu körfutákns skal stilla eiginleikana eftir því sem þörf krefur. Ef óskað er eftir að körfutáknið sýni samantekt körfu (einnig þekkt sem smákarfa) þegar notendur fara með bendilinn yfir það, skal velja **Sýna smákörfu**.
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila brotinu og veldu síðan **Birta** til að birta það.
 
 Til að tryggja að haus birtist á hverri síðu, fylgdu þessum skrefum á hverju síðusniðmáti sem er búið til fyrir svæðið.
 
-1. Í hólfinu **Aðal** á sjálfgefnu síðunni bætirðu við haussíðbrotinu sem inniheldur hauseiningunni við hausinn.
-1. Vistaðu sniðmátið, ljúktu við að breyta því og birtu það.
+1. Í hólfinu **Fyrirsögn** í einingunni **Sjálfgefin síða** skal bæta við neðanmálsbrotinu sem var búið til.
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

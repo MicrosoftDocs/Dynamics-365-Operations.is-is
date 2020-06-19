@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b2d65be5163e5dcb7971f04ebcad2fce55a06dad
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 9da6fc7338942e97a1a7417dbd4dfca55fa95272
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009365"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410059"
 ---
 # <a name="overview"></a>Yfirlit
 
@@ -33,7 +33,7 @@ ms.locfileid: "3009365"
 
 - Setja upp og vinna með tilvik
   - [Ráðstafa mannauði](hr-admin-setup-provision.md)
-  - [Afritið tilvik](hr-admin-setup-copy-instance.md)
+  - [Afrita tilvik](hr-admin-setup-copy-instance.md)
   - [Fjarlægja tilvik](hr-admin-setup-remove-instance.md)
   - [Uppfærsluferli](hr-admin-setup-update-process.md)
 
@@ -75,7 +75,6 @@ ms.locfileid: "3009365"
 - Skjalatilföng
   - [Hjálparkerfi](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)
   - [Tengja hjálparkerfið](../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json)
-  - [Tengja sérstillt hjálparsvæði](../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json        )
   - [Skoða og flytja út lýsingar á reit](../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json)
   - [Verkskráning](../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json)
   - [Búa til fylgiskjöl eða þjálfun með verkskráningu](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)

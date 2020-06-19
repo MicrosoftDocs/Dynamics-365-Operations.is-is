@@ -11,12 +11,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d2c029f6e5654f0da399ee7fc26ead6d787e59f5
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 69db88dd5a30d35cbc2c5b46f0ab3fbce057f799
+ms.sourcegitcommit: 840230f3dc500852791953d05c2737dd539ed0b3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3279012"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3418516"
 ---
 # <a name="microsoft-partner-sales-and-marketing-learning-catalog"></a>Sölu- og markaðsnámsskrá Microsoft Partner
 
@@ -31,7 +31,7 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 | [Lærðu viðskiptaverðmæti Microsoft Dynamics 365 og Power Platform](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Hefur þú áhuga á að læra um viðskiptaforrit? Þú veist ef til vill ekki hvar þú átt að byrja á Microsoft Dynamics 365 og Power Platform forritum? Kynntu þér hvernig þú nýtir forrit fyrir fyrirtæki til að breyta viðskiptum þínum.  | Ókeypis, sjálfstýr skref á námsleið                                          | 7 klst. |
 | [Dynamics 365 og Power Platform grundvallaratriði](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/)  | Hefur þú áhuga á að læra um viðskiptaforrit? Byrjaðu á þessari námsleið til að sjá hvernig Dynamics 365 forrit eru notuð. Lærðu um skýjahugtök, Power Platform og hvernig hægt er að byrja með Dynamics 365 forrit. | 5.5 klst. |
 | [Hafist handa með Finance and Operations forritum](https://docs.microsoft.com/learn/paths/get-started-with-dynamics-365-for-finance-and-ops/)  | Lærðu hvernig Finance and Operations forrit styðja fyrirtæki við að stjórna fjármálum sínum á alþjóðavísu, rekstrarferlum og straumlínulagaðri birgðakeðju til að gera fólki kleift að taka skjótar og upplýstar ákvarðanir. Sem fyrsta skrefið á ferli þínum í að vinna með Finance and Operations forrit verður þú að kynna þér eiginleika þeirra og virkni, óháð hlutverki þeirra. | Ókeypis, sjálfstýr skref á námsleið   | 2 klst. |
-| [Námskeið MB-900T01-A: Grundvallaratriði Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01)  | Þetta námskeið kynnir nemandanum Dynamics 365 virkni og viðskiptagildi. Námskeiðið mun fjalla um Dynamics 365 forrit, Power Platform, skýjahugtök, öryggislíkanið og leyfissjónarmið.  | Leiðbeinandi í eigin persónu eða þjálfun á netinu; kostnaður er breytilegur eftir svæðum og félagi | 1 dagur     |
+
 
 
 ## <a name="exam"></a>Próf<a name="exam"></a>

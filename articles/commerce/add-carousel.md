@@ -3,7 +3,7 @@ title: Myndaræmueining
 description: Þetta efni fjallar um myndaræmueiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f399e4c5618b65b781fdd3ec835e841614579313
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 35aaf35419a8c5b83b2a3e1136a02200bf347c6b
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269729"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411297"
 ---
 # <a name="carousel-module"></a>Myndaræmueining
 
-
+[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Þetta efni fjallar um myndaræmueiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
@@ -44,9 +44,13 @@ Myndaræmueining er notuð til að setja margar kynningarvörur (þar með tali�
 - Hægt er að nota myndaræmu með mörgum kynningareiningum á vöruupplýsingasíðunni.
 - Hægt er að nota myndaræmu á hvaða markaðssíðu sem er til að auglýsa margar kynningar eða vörur.
 
+Eftirfarandi mynd sýnir dæmi um myndaræmueiningu sem er notuð á heimasíðu. Þessi myndaræmueining inniheldur mörg efnissvæði.
+
+![Dæmi um myndaræmueiningu](./media/Hero.PNG)
+
 ## <a name="carousel-module-properties"></a>Eiginleikar myndaræmueiningar
 
-| Nafn eiginleika             | Virði                 | Lýsing |
+| Nafn eiginleika             | Virði                 | lýsing |
 |---------------------------|-----------------------|-------------|
 | Sjálfvirk spilun                  | **Satt** eða **Ósatt** | Ef gildi er stillt á **Satt** á breytingin á milli hluta í myndaræmunni sér stað sjálfkrafa. Ef gildi er stillt á **Rangt** eiga engin umskipti sér stað nema viðskiptavinurinn noti lyklaborðið eða músina til að fara frá einum hlut til næsta hlutar. |
 | Tími á milli skyggna | Gildi í sekúndum    | Bilið fyrir umbreytingar milli atriða. |
@@ -58,7 +62,7 @@ Myndaræmueining er notuð til að setja margar kynningarvörur (þar með tali�
 
 Fylgdu þessum skrefum til að bæta myndaræmueiningu við nýja síðu og stilla nauðsynlega eiginleika.
 
-1. Veljið **Ný** til að stofna nýtt síðusniðmát.
+1. Farðu í **Sniðmát** og veldu **Nýtt** til að búa til nýtt sniðmát.
 1. Í svarglugganum **Nýtt sniðmát** fyrir neðan undir **Heiti sniðmáts**, slærðu inn **Sniðmát myndaræmu** og smellir síðan á **Í lagi**.
 1. Í hólfinu **Meginmál** bætirðu við einingunni **Sjálfgefin síða**.
 1. Veldu **Ljúka við breytingar** til að athuga með sniðmátið og veldu síðan **Birta** til að birta það.  

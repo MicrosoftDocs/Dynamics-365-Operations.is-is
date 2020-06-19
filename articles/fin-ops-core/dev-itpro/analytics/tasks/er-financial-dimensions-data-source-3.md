@@ -3,7 +3,7 @@ title: Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 3 - han
 description: Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt líkan rafrænnar skýrslugerðar (ER) svo það noti fjárhagsvíddir sem gagnaveitu fyrir rafrænar skýrslur.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7bbbc81eaf8c13e8d13e30a0276e38453e07ead9
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: cef61787e50561eaac4fd52741ab5f90d9c4171d
+ms.sourcegitcommit: d9125c20b21459076e4fd92fd9ebfe2e53a0431b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142525"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "3406498"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 3 - hanna skýrslu)
 
@@ -94,7 +94,8 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 58. Smellið á „Í lagi“.
 59. Smella á Bæta við eigind.
 60. Í svæðið Heiti, færðu inn 'lýsing'.
-61. Smellið á „Í lagi“.
+61. Smellt er á Í lagi.
+![Síða aðgerðarhönnuðar rafrænnar skýrslugerðar](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Varpa skýrslueiningum í gagnagjafa
 1. Smelltu á flipann Vörpun.
@@ -141,6 +142,7 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 42. Í trénu, skal velja 'Root: XML Element\Company: XML Attribute'.
 43. Í trénu, skal velja 'model: Data model Financial dimensions sample model\Company: String'.
 44. Smelltu á Binda.
-45. Smellið á „Vista“.
+45. Smelltu á Vista.
 46. Lokið síðunni.
+![Síða aðgerðarhönnuðar rafrænnar skýrslugerðar](../media/er-financial-dimensions-guides-format2.png)
 

@@ -3,7 +3,7 @@ title: Úthluta forskoðunarumhverfi fyrir Dynamics 365 Commerce
 description: Þetta efni útskýrir hvernig á að úthluta forskoðunarumhverfi Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 04/10/2020
+ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d54db89372a0f9ef5b267d25e14067e3243a803c
-ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
+ms.openlocfilehash: c109c2326cf01739255b49587c15aa34ad884f6a
+ms.sourcegitcommit: be7e4378c8122c6e7cfc4e7991efbdffee45e006
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "3254749"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "3426466"
 ---
 # <a name="provision-a-dynamics-365-commerce-preview-environment"></a>Úthluta forskoðunarumhverfi fyrir Dynamics 365 Commerce
 
@@ -39,7 +39,7 @@ ms.locfileid: "3254749"
 
 ## <a name="overview"></a>Yfirlit
 
-Til að úthluta forskoðunarumhverfi Commerce með góðum árangri verður þú að búa til verk sem hefur tiltekið vöruheiti og tegund. Umhverfið og Commerce Scale Unit (CSU) hafa einnig nokkrar sérstakar færibreytur sem þú þarft að nota við úthlutun rafrænna viðskipta síðar. Leiðbeiningarnar í þessu efni lýsa öllum nauðsynlegum skrefum sem þarf til að ljúka úthlutun og breytunum sem þú verður að nota.
+Til að úthluta forskoðunarumhverfi Commerce með góðum árangri verður þú að búa til verk sem hefur tiltekið vöruheiti og tegund. Umhverfið og Commerce Scale Unit (CSU) eru einnig með nokkrar ákveðnar færibreytur sem verður að nota þegar rafrænum viðskiptum er úthlutað. Leiðbeiningarnar í þessu efni lýsa öllum nauðsynlegum skrefum sem þarf til að ljúka úthlutun og breytunum sem þú verður að nota.
 
 Eftir árangursríka úthlutun á forskoðunarumhverfi Commerce þarf að ljúka nokkrum eftirúthlutunarskrefum til að undirbúa það. Sum skref eru valkvæð, eftir þeim þáttum kerfisins þú vilt meta. Þú getur alltaf klárað valfrjálsu skrefin seinna.
 
@@ -193,7 +193,7 @@ Til að virkja umhverfið skaltu fylgja þessum skrefum.
 
 1. Áður en lengra er haldið skaltu ganga úr skugga um að staða umhverfisins sé **Uppsett**.
 
-### <a name="initialize-the-commerce-scale-unit-csu"></a>Frumstilla Commerce Scale Unit (CSU)
+### <a name="initialize-the-commerce-scale-unit-cloud"></a>Frumstilla Commerce Scale Unit (ský)
 
 Fylgið eftirfarandi skrefum til að hefja CSU.
 
@@ -215,7 +215,7 @@ Fylgið eftirfarandi skrefum til að frumstilla e-Commerce.
 
 1. Á flipanum **e-Commerce** skoðarðu samþykki fyrir forskoðun og velir síðan **Uppsetning**.
 1. Í reitnum **Leigjandaheiti í e-Commerce** færirðu inn heiti. Hafðu þó í huga að þetta heiti mun birtast í sumum slóðum sem vísa til netverslunartilviksins.
-1. Í reitnum **Heiti Commerce Cloud Scale Unit** velurðu þitt CSU á listanum. (Listinn ætti aðeins að hafa einn valkost.)
+1. Í reitnum **Heiti Commerce Scale Unit** skal velja CSU í listanum. (Listinn ætti aðeins að hafa einn valkost.)
 
     Reiturinn **Landafræði rafrænna viðskipta** er stilltur sjálfkrafa og ekki er hægt að breyta gildinu.
 
@@ -251,7 +251,7 @@ Til að halda áfram úthlutunar- og stillingarferli forskoðunarumhverfis Comme
 
 [Microsoft Dynamics Lifecycle Services (LSC)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Commerce Scale Unit (ský)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure-gátt](https://azure.microsoft.com/features/azure-portal)
 
