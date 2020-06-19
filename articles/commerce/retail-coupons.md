@@ -3,7 +3,7 @@ title: Setja upp afsláttarmiða fyrir smásölu
 description: Þetta efnisatriði gefur yfirlit yfir afsláttarmiða og útskýrir hvernig á að setja þá upp.
 author: scott-tucker
 manager: AnnBe
-ms.date: 05/22/2017
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4c580e40ae1f0398ab9f8437d42ddcb2979558c3
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057372"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431979"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Setja upp afsláttarmiða fyrir smásölu
 
@@ -48,8 +48,10 @@ Hægt er að skilgreina afsláttarmiða þannig að notkun þeirra sé takmörku
 
 Þessum mörkum er beitt fyrir hvern kóða á afsláttarmiða. Til dæmis er hægt að nota einnota afsláttarmiða sem hefur tvo kóða tvisvar sinnum, einu sinni fyrir hvorn afsláttarmiðakóða. Hægt er að stilla hvorn kóðann á afsláttarmiða sem virkan, óháð hvorum öðrum.
 
+Afsláttarmiða er hægt að nota í öllum sölurásum en hinsvegar fyrir símaverspantanir geta afsláttarmiðar með takmarkaðir notkun verði notaðir fyrir þessar símaverspantanir eingöngu þar sem stillingin **Lok pöntunar** í símaverinu er virkjuð. Ef þetta er ekki virkjað er aðeins hægt að nota afsláttarmiða með ótakmarkaðri notkun í pöntunum í gegnum símaver.
+
 > [!NOTE]
-> Þegar kóða afsláttarmiða hefur náð notkunartakmörkum breytir kerfið *ekki* sjálfkrafa stöðu kóða afsláttarmiðans í „Notaður“. Kerfið leyfir þó ekki frekari notkun á kóða afsláttarmiða sem hefur náð notkunartakmörkum sínum. Ef staða á kóða afsláttarmiða er handvirkt stillt á allt nema „Virkur“ þá er ekki hægt að nota þennan kóða afsláttarmiða í neinni rás.
+> Þegar kóða afsláttarmiða hefur náð notkunartakmörkum breytir kerfið *ekki* sjálfkrafa stöðu kóða afsláttarmiðans í „Notaður“. Hins vegar hefur þessi kóði afsláttarmiða náð notkunarmörkum og er ekki hægt að nota. Ef staða á kóða afsláttarmiða er handvirkt stillt á eitthvað annað en **Virkur** þá er ekki hægt að nota þennan afsláttarmiðakóða í neinni rás.  
 
 ## <a name="managing-coupons"></a>Stjórnun afsláttarmiða
 

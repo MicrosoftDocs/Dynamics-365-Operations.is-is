@@ -3,7 +3,7 @@ title: Hnitanetsgeta
 description: Þetta efni lýsir nokkrum kröftugum eiginleikum netstýringar. Það verður að gera nýja hnitanetsaðgerðina kleift að hafa aðgang að þessum möguleikum.
 author: jasongre
 manager: AnnBe
-ms.date: 04/23/2020
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: fd45f71fc15e467c461433682310ab7b7cc0158a
-ms.sourcegitcommit: 0d7b700950b1f95dc030ceab5bbdfd4fe1f79ace
+ms.openlocfilehash: 88a4e2fe69000f8034729d468ad5fd108d435c3e
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3284405"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431361"
 ---
 # <a name="grid-capabilities"></a>Hnitanetsgeta
 
@@ -89,11 +89,11 @@ Til að afturkalla flokkun í rist skaltu hægrismella á flokkunarsúluna og ve
 ## <a name="typing-ahead-of-the-system"></a>Vélritun á undan kerfinu
 Í mörgum atburðarásum í viðskiptum er möguleikinn til að færa gögn fljótt inn í kerfið mjög mikilvægur. Áður en nýja hnitanetsstýringin var kynnt gátu notendur aðeins breytt gögnum í núverandi línu. Áður en notendur gátu búið til nýja línu eða skipt yfir í aðra línu neyddust þeir til að bíða eftir að kerfið staðfesti allar breytingar. Til að reyna að draga úr þeim tíma sem notendur bíða eftir að þessum staðfestingum ljúki, og til að bæta afköst notanda, aðlagar nýja hnitanetið þessar staðfestingar svo þær séu ósamstilltar. Þess vegna getur notandinn fært sig yfir í aðrar línur til að gera breytingar á meðan beðið er eftir fyrri staðfestingum á línum. 
 
-Til að styðja við þessa nýju hegðun hefur nýjum dálki fyrir línustöðuna verið bætt við efst í hnitanetinu þegar það er í breytingastillingu. Þessari dálkur sýnir eina af eftirfarandi stöðum:
+Til að styðja við þessa nýju hegðun hefur nýjum dálki fyrir línustöðuna verið bætt við hægra megin við dálk línuvals þegar hnitanetið er í breytingastillingu. Þessari dálkur sýnir eina af eftirfarandi stöðum:
 
 - **Autt** - Engin stöðumynd gefur til kynna að kerfið hafi náð að vista línuna.
 - **Vinnsla í bið** - Þessi staða gefur til kynna að netþjónninn hafi enn ekki vistað breytingar í línunni en að þær séu í biðröð breytinga sem þarf að vinna úr. Áður en gripið er til aðgerða utan hnitanetsins þarf að bíða eftir að unnið er úr öllum breytingum. Að auki er textinn í þessum línum skáletraður til að gefa til kynna óvistaða stöðu á línum. 
-- **Staðfestingarviðvörun** - Þessi staða gefur til kynna að kerfið geti ekki vistað breytingarnar í línunni út af nokkrum vandamálum við staðfestingu. Í gamla hnitanetinu var notandi þvingaður til baka í línuna til að laga vandamálið strax. Í nýja hnitanetinu er notandi hinsvegar látinn vita að vandamál við staðfestingu hafi komið upp, en að notandi geti ákveðið hvenær hann vilji laga vandann í línunni. Þegar þú ert tilbúinn til að laga vandann geturðu fært áhersluna handvirkt til baka í línuna. Einnig er hægt að velja aðgerðina **Lagfæra þetta vandamál**. Þessi aðgerð færir áhersluna strax til baka á línuna þar sem vandinn kom upp og leyfir notanda að gera breytingar innan og utan hnitanetsins. Athugið að vinnsla á síðari línum í bið er stöðvuð þar til leyst hefur verið úr þessari staðfestingarviðvörun. 
+- **Ógild staða** - Þessi staða sýnir að viðvörun eða skilaboð hafi verið ræst við úrvinnslu á línunni og að það hafi hugsanlega komið í veg fyrir að kerfið vistaði breytingarnar í þessari línu. Í gamla hnitanetinu, ef vistunaraðgerðin tókst ekki, var notandi þvingaður til baka í línuna til að laga vandamálið strax. Í nýja hnitanetinu er notandi hinsvegar látinn vita að vandamál við staðfestingu hafi komið upp, en að notandi geti ákveðið hvenær hann vilji laga vandann í línunni. Þegar þú ert tilbúinn til að laga vandamál geturðu fært áhersluna handvirkt til baka í línuna. Einnig er hægt að velja aðgerðina **Lagfæra þetta vandamál**. Þessi aðgerð færir áhersluna strax til baka á línuna þar sem vandinn kom upp og leyfir notanda að gera breytingar innan og utan hnitanetsins. Athugið að vinnsla á síðari línum í bið er stöðvuð þar til leyst hefur verið úr þessari staðfestingarviðvörun. 
 - **Gert hlé** - Þessi staða gefur til kynna að hlé hafi verið gert á vinnslu netþjónsins því að staðfesting línunnar hafi ræst sprettiglugga sem krefst innslátt notanda. Vegna þess að notandinn gæti verið að slá inn gögn í einhverri annarri línu, er honum ekki birtur sprettiglugginn strax. Í staðinn verður glugginn birtur þegar notandinn kýs að halda áfram vinnslu. Þessari stöðu fylgir tilkynning sem upplýsir notandann um ástandið. Tilkynningin felur í sér aðgerðina **Halda vinnslu áfram** sem ræsir sprettigluggann.  
     
 Þegar notendur eru að slá inn gögn á undan þeim stað þar sem netþjónninn er að vinna, mega þeir búist við afkastaminnkun við gagnaskráninguna, t.d. færri uppflettingar, staðfestingar eftirlitsstigs og færslna á sjálfgefnum gildum. Notendur sem þurfa fellilista til að finna gildi eru hvattir til að bíða eftir að þjónninn vinni sig að núverandi línu. Staðfesting eftirlitsstigs og færsla sjálfgefinna gilda gerast einnig netþjónninn vinnur úr þeirri línu.   
@@ -135,55 +135,62 @@ Allar síðari notendatímabil munu byrja með virkjaða nýja netstýringu.
 
 - Kortalistar sem voru gefnir upp sem margir dálkar eru nú gefnir upp sem einn dálkur.
 - Flokkaðir listar eru ekki gefnir upp sem flokkar eða í aðskildum dálkum.
-- Ábendingar eru ekki sýndar fyrir myndir.
-- Skjámynd fyrir hnitanetslínur virkar ekki fyrir allar gerðir reita.
-- Ekki er hægt að smella utan hnitanetsins þegar búið er að velja nokkrar línur.
-- Valkostir verkskráningar **Sannprófa** og **Afrita** eru ekki í boði fyrir stjórnun dagsetningar/númers.
+
+### <a name="fixed-as-part-of-10013"></a>Lagað sem hluti af 10.0.13
+
+> [!NOTE]
+> Eftirfarandi upplýsingar eru gefnar upp svo hægt sé að gera áætlun í samræmi við það. Nánari upplýsingar um áætlaða markútgáfu á útgáfu 10.0.13 er að finna í [Þjónustuuppfærsla í boði](../../fin-ops/get-started/public-preview-releases.md).
+
+- [KB 4563317] Ábendingar eru ekki sýndar fyrir myndir.
 
 ### <a name="fixed-as-part-of-10012"></a>Lagað sem hluti af 10.0.12
 
-> [!Note]
-> Eftirfarandi upplýsingar eru gefnar upp svo hægt sé að gera áætlun í samræmi við það. Nánari upplýsingar um áætlaða markútgáfu á útgáfu 10.0.12 er að finna í [Þjónustuuppfærsla í boði](../../fin-ops/get-started/public-preview-releases.md).
-
-- [Mál 429126] Stýringar utan hnitanetsins eru ekki uppfærðar eftir að síðustu færslu er eytt.
-- [Mál 430575] Töflustýringar uppfæra ekki innihald uppgefinna atriða.
+- [KB 4558545] Töflustýringar uppfæra ekki innihald uppgefinna atriða.
 - [KB 4558570] Atriði eru enn sýnd á síðunni eftir að færslunni hefur verið eytt.
-- [KB 4558584] Neikvæðar tölur eru ekki gefnar upp á réttan hátt.
-- [KB 4558575] Reitir eru ekki uppfærðir eftir línubreytingu / Úrvinnsla hnitanets festist eftir eyðingu línu.
-- [Mál 436980] Stíll sem er tengdur listaglugganum **ExtendedStyle** er ekki notaður.
+- [KB 4558572] Stíll sem er tengdur listaglugganum **ExtendedStyle** er ekki notaður.
 - [KB 4558573] Ekki er hægt að laga villur sem koma upp við villuleit þegar nauðsynleg breyting er utan hnitanetsins.
-    
-### <a name="quality-update-for-10011"></a>Gæðauppfærsla fyrir 10.0.11
-
-- [KB 4558381] Neikvæðar tölur eru ekki gefnar rétt upp / Notendur festast stundum þegar vandamál við villuleit koma upp.
+- [KB 4558584] Neikvæðar tölur eru ekki gefnar upp á réttan hátt.
+- [KB 4560726] „Óvænt biðlaravilla“ kemur upp þegar farið er á milli lista með því að nota stjórnun listayfirlits.
+- [KB 4562141] Slökkt er á vísum hnitanets þegar nýrri færslu er bætt við.
+- [KB 4562151] Valkostir verkskráningar **Sannprófa** og **Afrita** eru ekki í boði fyrir stjórnun dagsetningar/númers. 
+- [KB 4562153] Fjölvalsgátreitir eru ekki sýnilegir í hnitanetum lista/spjalds.
+- [KB 4562646] Stundum er ekki hægt að smella utan hnitanetsins eftir að margar línur eru valdar í hnitanetinu.
+- [KB 4562647] Fókus er núllstilltur á fyrstu stýringu í svarglugganum **Gefa út** þegar nýrri línu er bætt við í hnitaneti öryggishlutverka.
+- [KB 4563310] Aukin forskoðun er ekki lokað eftir að línu er breytt.
+- [KB 4563313] „Óvænt biðlaravilla“ á sér stað í Internet Explorer þegar gildi er valið í uppflettingu.
+- [KB 4563324] Fletting virkar ekki eftir að vinnusvæðið **Starfsmannastjórnun** er opnað.
 
 ### <a name="fixed-as-part-of-10011"></a>Lagað sem hluti af 10.0.11
 
+- [Útgáfa 432458] Tómar eða tvíteknar línur eru sýndar í byrjun sumra undirsafna.
+- [KB 4549711] Ekki er hægt að fjarlægja línur í greiðslutillögu á réttan hátt þegar nýja hnitanetsstýringin er virkjuð.
 - [KB 4558374] Ekki er hægt að búa til skrár sem krefjast svarglugga með fjölbreyttu vali.
-- [KB 4558382] Óvæntar villur biðlara koma upp.
 - [KB 4558375] Hjálpartexti er ekki sýndur í dálkum í nýja hnitanetinu.
 - [KB 4558376] Hnitanet listaglugga eru ekki sýnd í réttri hæð í Internet Explorer.
 - [KB 4558377] Dálkar samsetts glugga sem eru með breiddina **SizeToAvailable** sjást ekki á sumum síðum.
-- [KB 4549711] Ekki er hægt að fjarlægja línur í greiðslutillögu á réttan hátt þegar nýja hnitanetsstýringin er virkjuð.
 - [KB 4558378] Köfun opnar stundum ranga skrá.
 - [KB 4558379] Villa kemur upp þegar uppflettingar eru opnaðar þar sem **ReplaceOnLookup**=**Nei**.
 - [KB 4558380] Tiltækt pláss í hnitanetinu er ekki fyllt strax þegar að hluti síðunnar er dreginn saman.
-- [Útgáfa 432458] Tómar eða tvíteknar línur eru sýndar í byrjun sumra undirsafna.
+- [KB 4558381] Neikvæðar tölur eru ekki gefnar rétt upp / Notendur festast stundum þegar vandamál við villuleit koma upp.
+- [KB 4558382] Óvæntar villur biðlara koma upp.
+- [KB 4558383] Stýringar utan hnitanetsins eru ekki uppfærðar eftir að síðustu færslu er eytt.
 - [KB 4558587] Tilvísunarflokkar sem eru með samsetta glugga fyrir skiptireiti sýna ekki gildi.
+- [KB 4562143] Reitir eru ekki uppfærðir eftir línubreytingu / Úrvinnsla hnitanets festist eftir eyðingu línu.
+- [KB 4562645] Undantekning á sér stað þegar uppfletting er opnuð á meðan prófanir á stjórnunarverkfærum fjartengds þjóns eru keyrðar.
 
 ### <a name="fixed-as-part-of-10010"></a>Lagað sem hluti af 10.0.10
 
 - [Mál 414301] Sum gögn frá fyrri línum hverfa þegar nýjar línur eru búnar til.
-- [KB 4550367] Tímagildin eru á röngu sniði.
-- [KB 4549734] Virkar línur eru ekki meðhöndlaðar sem merktar ef merkingardálkurinn er falinn.
 - [Bug 417044] Engin tóm skilaboð hnitanets eru til fyrir hnitanet listastíls.
-- [KB 4558367] Ósamræmi er í textavali þegar línum er breytt.
-- [KB 4558372] Nýja hnitanetið festist í vinnslustillingu ef fjöldi dálka í efni sem er límt inn er meiri en fjöldi dálka sem eftir eru hnitanetinu.
-- [KB 4558368] Fjölval með lyklaborði er leyft í atburðarásum einvals.
 - [KB 4539058] Sum hnitanet (venjulega flýtiflipar) sjást stundum ekki (en munu sjást ef aðdráttur er minnkaður).
+- [KB 4549734] Virkar línur eru ekki meðhöndlaðar sem merktar ef merkingardálkurinn er falinn.
+- [KB 4549796] Ekki er hægt að breyta gildum í hnitaneti þegar það er í skoðunarstillingu.
+- [KB 4558367] Ósamræmi er í textavali þegar línum er breytt.
+- [KB 4558368] Fjölval með lyklaborði er leyft í atburðarásum einvals.
 - [KB 4558369] Stöðumyndir hverfa í stigveldistöflunni.
 - [KB 4558370] Ekki er flett að nýrri línu.
-- [KB 4549796] Ekki er hægt að breyta gildum í hnitaneti þegar það er í skoðunarstillingu.
+- [KB 4558372] Nýja hnitanetið festist í vinnslustillingu ef fjöldi dálka í efni sem er límt inn er meiri en fjöldi dálka sem eftir eru hnitanetinu.
+- [KB 4562631] Tímagildin eru á röngu sniði.
 
 ### <a name="quality-update-for-1009platform-update-33"></a>Gæðauppfærsla fyrir 10.0.9/verkvangsuppfærsla 33
 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55820d7376750c210d2b7f214f705ffcb222c6cd
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0513392fe066e02f0789bcfadb0ee676559cb223
+ms.sourcegitcommit: f3456df4d91cf0c51cd395ae64e3c192bd46835e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212504"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428401"
 ---
 # <a name="production-setup-requirements"></a>Uppsetningarkröfur framleiðslu
 
@@ -71,7 +71,7 @@ Ef unnið er með leiðir þarf að skilgreina aðgerðir fyrir hverja framleið
 2.  **Kostnaðarflokkar** - Setja upp kostnaðarflokka til að stofna og hafa umsjón með mörgum gerðum kostnaðar.
 3.  **Leiðarflokkar** - Setja upp leiðaflokka til að skilgreina færibreytur sem eiga við um hópa af leiðum. Það verður að setja upp leiðaflokka áður en farið er að stofna framleiðsluleiðir.
 4.  **Leiðir** Setja upp framleiðsluleiðir og skilgreinið sjálfgefnar stillingar til að stjórna röðun, kostnaðarútreikning og verðlagningu leiðaaðgerða og framvinduskýrslur.
-5.  **Leiðir** - Setja upp leiðaútgáfur til að virkja vöruafbrigði í framleiðslu.
+5.  **Leiðarútgáfa** - Setja upp leiðarútgáfur til að virkja vöruafbrigði í framleiðslu.
 
 ## <a name="optional-advanced-settings"></a>Valfrjálsar, ítarlegar stillingar
 1.  **Framleiðsluflokkar** - Setja upp framleiðsluflokka til koma á tengslum milli framleiðslupöntunar og fjárhagslykla. Pantanir verða bókaðar í fjárhagslyklana eða flokkaðar í þá við skýrslugerð.
