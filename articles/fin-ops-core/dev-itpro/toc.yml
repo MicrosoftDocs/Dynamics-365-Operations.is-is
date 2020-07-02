@@ -20,11 +20,9 @@
                   href: get-started/whats-new-platform-update-35.md
                 - name: Verkvangsuppfærslur fyrir 10.0.10 (maí 2020)
                   href: get-started/whats-new-platform-update-34.md
-                - name: Platform update 33 (apríl 2020)
-                  href: get-started/whats-new-platform-update-33.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
-                - name: Platform eiginleikar sem hafa verið fjarlægðir eða eru úreltir
+                - name: Eiginleikar verkvangs sem hafa verið fjarlægðir eða eru úreltir
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -150,6 +148,8 @@
                                   href: data-entities/dual-write/link-your-environment.md
                                 - name: Kveikja á vörpun eininga fyrir tvöföld skrif
                                   href: data-entities/dual-write/enable-entity-map.md
+                            - name: Flutningur gagnagerðar gjaldmiðils fyrir tvöföld skrif
+                              href: data-entities/dual-write/currrency-decimal-places.md
                         - name: Umsjón með tvöföldum skrifum
                           items:
                             - name: Sérstilling á vörpun eininga og reita
@@ -364,6 +364,8 @@
           items:
             - name: Yfirlit fyrir Azure Data Lake
               href: data-entities/azure-data-lake-overview.md
+            - name: Grunnstilla útflutning í Azure Data Lake
+              href: data-entities/configure-export-data-lake.md
             - name: Finance and Operations-forrit í Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
             - name: Gera einingaverslun tiltæka sem Data Lake
@@ -498,6 +500,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: Greining á staðnum
                       href: deployment/on-premises-diagnostics.md
+                    - name: Skilgreining endurheimtar eftir stóráfall á staðnum
+                      href: deployment/onprem-dr.md
                     - name: PowerBI.com-samþætting við innanhússumhverfi
                       href: analytics/entity-store-on-prem.md
                     - name: Endurskilgreina umhverfi
@@ -1436,6 +1440,8 @@
                   href: sysadmin/role-based-security.md
                 - name: Öryggisskipulag
                   href: sysadmin/security-architecture.md
+                - name: Dulritun í Finance and Operations-forritum
+                  href: sysadmin/encryption.md
                 - name: Velja hvenær tími rennur út vegna aðgerðaleysis
                   href: sysadmin/session-idle-timeout.md
                 - name: Tilbúnar öryggisskýrslur
