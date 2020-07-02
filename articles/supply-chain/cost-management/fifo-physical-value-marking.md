@@ -3,7 +3,7 @@ title: Um FIFO með merkingu og efnislegt virði
 description: Fyrst inn, fyrst út (FIFO) er birgðalíkan þar sem fyrstu innhreyfingar eru úthreyfðar fyrst. Fjárhagslega uppfærð vandamál úr birgðum eru jöfnuð á móti fyrstu fjárhagslega uppfærðu móttöku í birgðir, byggt á fjárhagsdagsetningu birgðafærslu.
 author: AndersGirke
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e237d1e9f9bb83d0fe65556eca07c8757f920664
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: a66a1b977a4e36f9ad057683366c39a81ba1d833
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201756"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454627"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>Um FIFO með merkingu og efnislegt virði
 
@@ -49,8 +49,8 @@ Fyrst inn, fyrst út (FIFO) er birgðalíkan þar sem fyrstu innhreyfingar eru �
 -   4a. Efnisleg innhreyfing birgða fyrir magn 1 með kostnaðinn 30,00 USD á hverja.
 -   4b. Fjárhagsleg innhreyfing birgða fyrir magnið 1 með kostnaðinn 30,00 USD á hverja.
 -   5a. Efnisleg úthreyfing birgða fyrir magnið 1 með kostnaðinn USD 20.00 á hverja (hlaupandi meðaltal fjárhagslega uppfærðra færslna).
--   5b. Fjárhagsleg úthreyfing birgða fyrir magnið 1 með kostnaðinn USD 20.00 á hverja (hlaupandi meðaltal fjárhagslega uppfærðra færslna).
--   6. Birgðalokun er framkvæmd. Á grundvelli FIFO aðferðarinnar, verður fyrsta fjárhagslega uppfærða úthreyfingin jöfnuð gagnvart fyrstu fjárhagslega uppfærðu innhreyfingunni. Leiðrétting upp á 10,00 USD er gerð á úthreyfingarfærslunni.
+-   5b. Fjárhagsleg úthreyfing birgða fyrir magnið 1 með kostnaðinn USD 15.00 á hverja (hlaupandi meðaltal fjárhagslega uppfærðra færslna).
+-   6. Birgðalokun er framkvæmd. Á grundvelli FIFO aðferðarinnar, verður fyrsta fjárhagslega uppfærða úthreyfingin jöfnuð gagnvart fyrstu fjárhagslega uppfærðu innhreyfingunni. Leiðrétting upp á 5,00 USD er gerð á úthreyfingarfærslunni.
 
 Nýja meðalkostnaðarverðið endurspeglar meðaltal fjárhagslega uppfærðu færslnanna. Eftirfarandi sýnidæmi sýnir áhrifum birgðalíkans FIFO á þessar tegundir færslna þegar **Taka efnislegt virði með** valkosturinn er ekki notuð. 
 

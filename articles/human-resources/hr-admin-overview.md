@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9da6fc7338942e97a1a7417dbd4dfca55fa95272
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: 981a66706c07bb350dd08307213f654e56b232ac
+ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410059"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "3443419"
 ---
 # <a name="overview"></a>Yfirlit
 
@@ -50,6 +50,8 @@ ms.locfileid: "3410059"
     - [Nota úrræðaleit fyrir Office-samþættingu](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [Vinna með eiginleika](hr-admin-manage-features.md)
+
+- [Skilgreina og stjórna gagnagrunnsskráningu](hr-admin-database-logging.md)
 
 - Notandaviðmót skoðað
   - [Einingar notandaviðmóts](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)
@@ -79,7 +81,7 @@ ms.locfileid: "3410059"
   - [Verkskráning](../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json)
   - [Búa til fylgiskjöl eða þjálfun með verkskráningu](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
-- Úrræðaleit fyrir mannauð
+- Úrræðaleit fyrir Human Resources
   - [Fá aðstoð](hr-admin-troubleshooting-support.md)
   - [Auka afköst með sjálfvirkum hreinsunarverkum](hr-admin-troubleshooting-batch-history.md)
   - [Greiningarskýrslur eru ekki uppfærðar](hr-admin-troubleshooting-analytic-reports.md)

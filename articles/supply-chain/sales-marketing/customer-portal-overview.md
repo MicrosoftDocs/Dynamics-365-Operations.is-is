@@ -3,7 +3,7 @@ title: Viðskiptavinagátt fyrir Dynamics 365 Supply Chain Management-yfirlit
 description: Þetta efnisatriði fjallar um viðskiptavinagáttina og útskýrir hver ætti að nota hana og hvernig hún virkar.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6b57365d8042c1d791ee2c50c5458a6595a58270
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 709ba18be9e2edd5d0a7f143aaed5ef94f365b91
+ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413973"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456927"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Viðskiptavinagátt fyrir Dynamics 365 Supply Chain Management-yfirlit
 
@@ -37,6 +37,12 @@ Sniðmát viðskiptavinagáttar er með alla sérstillingarmöguleika sem gátti
 
 > [!NOTE]
 > Fylgiskjölum viðskiptavinagáttar er beint að stjórnendum, hönnuðum og þróunaraðilum kerfis sem setja upp viðskiptavinagáttina fyrir uppsetningu Supply Chain Management. Það notar hugtökin _viðskiptavinur_ og _notandi_ til að lýsa einstaklingum sem eru viðskiptavinir fyrirtækisins sem keyrir Supply Chain Management, og sem nota sjálfa lokagáttina.
+
+## <a name="video"></a>Myndband
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
+
+Myndbandið [Yfirlit yfir sniðmát viðskiptavinagáttar í Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (sýnt hér að ofan) er innifalið í [Finance and Operations spilunarlistanum](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) á YouTube.
 
 ## <a name="who-should-use-it"></a>Hver ætti að nota hana?
 
@@ -58,6 +64,6 @@ Viðskiptavinargátt er gefin upp sem Power Apps gáttasniðmát. Það fer efti
 
 [Tvöföld skrif](https://docs.microsoft.com/powerapps/maker/portals/overview) er tilbúin kerfisafurð sem býður upp á næstum rauntíma samskipti milli líkanadrifinni forrita í Dynamics 365 og Finance and Operations-forrita. Tvöföld skrif veitir tvíátta samþættingu milli Finance and Operations-forrita og Common Data Service. Þau bjóða þar af leiðandi upp á samþætta notandaupplifun í öllum forritunum. Viðskiptavinagáttin veltur á einingum sem eru samstilltar með tvöföldum skrifum. Áður en hægt er að fara með gögn úr Supply Chain Management í viðskiptavinagáttina verða tvöföld skrif að vera virk fyrir allar viðeigandi einingar.
 
-![![Tengsl viðskiptavinagáttar](media/customer-portal-elements.png "Tengsl viðskiptavinagáttar")](media/customer-portal-elements.png "Customer portal dependencies")
+![Tengsl viðskiptavinagáttar](media/customer-portal-elements.png "Tengsl viðskiptavinagáttar")
 
 Viðskiptavinagáttin virkar sem upphafspunktur fyrir fyrirtæki sem vilja nota Power Apps-gáttir til að búa til vefsvæði út á við sem notar gögn úr uppsetningu Supply Chain Management. Hún hjálpar fyrirtækjum að tengja saman tvöföld skrif, Supply Chain Management og Power Apps-gáttir.

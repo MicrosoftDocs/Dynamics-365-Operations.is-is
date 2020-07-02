@@ -3,7 +3,7 @@ title: Greiðsluhættir
 description: Það þarf að skilgreina hverja greiðslugerð sem smásali samþykkir þegar kerfið er uppsett. Þetta grein lýsir þær gerðir greiðslna sem hægt er að setja upp og lýsir ferlinu við uppsetninguna.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 6afbddad869c70e4527c49fc5d4b520d7602f825
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 710c2f3bbe5b76af6d0bc0bf9a469e52c98c18d2
+ms.sourcegitcommit: 550006e6376815237c21b5b30e928353f62fd97c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022967"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "3463161"
 ---
 # <a name="payment-methods"></a>Greiðsluhættir
 
@@ -39,7 +39,7 @@ Smásalar geta tekið við ýmsum gerðum af greiðslu í staðinn fyrir afurði
 - **Gjaldmiðill –** Algengasta form greiðslna fyrir utan sjálfgefinn gjaldmiðil fyrirtækisins. Mynt og seðlar eru gjaldmiðilsform. Greiðsluháttur með gjaldmiðli tekur til allra gjaldmiðla sem eru notaðir. Áður en þessi greiðslumáti er notaður þarf að setja upp gjaldmiðla og tilgreina gengisupplýsingar fyrir gjaldmiðlana.
 - **Kort** – Allar gerðir korta sem notaðar eru, svo sem debetkort og kreditkort. Góð hugmynd er að setja upp einn greiðsluhátt með korti á stigi fyrirtækis, til að sýna hverja tegund korts. Í hverri verslun má síðan setja upp greiðsluhátt fyrir hvert kort eða mörg kort sem á að vinna með með sömu stillingum. Setja verður upp kort framleiðanda sem eru í boði á markaðnum, svo sem debetkort og kreditkort , áður en hægt er að samþykkja þau sem greiðslu í verslun.
 - **Kreditreikningur** – Kreditreikningar sem eru gefnar út eða leystar út á sölustaðnum. Kreditreikningurinn getur kreditreikningur eða skilakreditreikningur sem er gefin út á móti skilavöru. Ef kreditreikningar eru aðeins innleystar að hluta gefur forritið út nýja kreditreikning með nýju númeri fyrir eftirstandandi stöðu. Ný kreditreikningurinn hefur nýtt númer. Aðeins er hægt að nota kreditreikning einu sinni og heldur forritið þá utan um lista yfir öll númer sem eru notuð. Færsluna má skoða á í **kreditreikningstafla** síðu. Viðskiptavinur getur ekki innleyst fleiri en eitt gildi á kreditreikningi.
-- **Gjafakort -** Gjafakort sem eru gefin út og leyst út á sölustað. Ofgreiðslur eru ekki leyfðar fyrir gjafakort.
+- **Gjafakort -** Gjafakort sem eru gefin út og leyst út á sölustað. Ofgreiðslur eru ekki leyfðar fyrir gjafakort. Öll gjafakort ættu að vera með kortanúmeravarpanir. 
 - **Viðskiptavinalykill** - greiðslur sem má skuldfæra á viðskiptavinalykil við sölu á afgreiðslukassa. Einnig er hægt að nota þennan greiðsluhátt til að safna upplýsingum á sölu eða afslætti fyrir viðskiptavin þegar viðskiptavinur greiðir inn með því að nota annan greiðslumáta. Í því tilfelli verður að skrá upplýsingar um viðskiptavininn.
 - **Vildarpunktar** – punktar sem viðskiptavinir safnast upp í vildarkerfi. Ef stofna á vildarkerfi, geta viðskiptavinir unnið inn punkta og innleyst þá á mismunandi vegu. Til dæmis í sumum vildarkerfi, geta viðskiptavinir innleysa vildarpunkta sem afslátt eða jafnvel nota þá sem greiðslu.
 

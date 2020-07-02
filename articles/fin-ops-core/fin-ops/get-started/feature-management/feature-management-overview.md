@@ -1,9 +1,9 @@
 ---
 title: Eiginleikastjórnunaryfirlit
 description: Þetta efnisatriði lýsir eiginleika eiginleikastjórnunar og hvernig hægt er að nota hann.
-author: mikefalkner
+author: ChrisGarty
 manager: AnnBe
-ms.date: 09/12/2019
+ms.date: 06/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,17 +13,17 @@ audience: IT Pro, Application user
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: cgarty
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: a9be51c4a5cdadd968de160dc0b1406c95382eeb
-ms.sourcegitcommit: 260a820038c29f712e8f1483cca9315b6dd3df55
+ms.openlocfilehash: 416c19dcf5b2c983afff7d2e8a9797fb0c0e2780
+ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2778706"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456598"
 ---
 # <a name="feature-management-overview"></a>Eiginleikastjórnunaryfirlit
 
@@ -144,3 +144,34 @@ Eiginleikastjórnun gerir þér kleift að stjórna eiginleikunum sem eru gefnir
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Að nota eiginleikastjórnun til að kveikja á eiginleika óháðs hugbúnaðarsala eða sérsniðnum eiginleikum
 
 Eiginleikastjórnun er ekki tiltæk sem stendur fyrir eiginleika frá óháðum hugbúnaðarsölum og sérsniðna eiginleika. Hins vegar er Microsoft að bæta við frekari virkni til að bæta eiginleikastjórnun. Eftir að þessum viðbótum er lokið gerir Microsoft eiginleikastjórnun tiltæka fyrir alla eiginleika og býður upp á leiðbeiningar um uppfærslu á eiginleikunum til að nota þær.
+
+## <a name="frequently-asked-questions-faq"></a>Algengar spurningar
+
+### <a name="when-are-features-added-removed-or-changed"></a>Hvenær er eiginleikum bætt við, breytt eða þeir fjarlægðir? 
+Eiginleikum er bætt við, breytt og þeir fjarlægðir í gegnum breytingar á kóðum. Uppfæra þarf umhverfi til að fá þessar breytingar.
+
+### <a name="does-a-feature-become-mandatory-automatically"></a>Verður eiginleiki áskilinn sjálfkrafa? 
+Nei, að gera eiginleika áskilinn er ekki sjálfvirk aðgerð. Vöruteymin þurfa að gera kóðabreytingu.
+
+### <a name="when-do-features-become-mandatory"></a>Hvenær verða eiginleikar áskildir? 
+Stefnan er sú að allir nýir eiginleikar verði valdir fyrir 12 mánaða tímabil og þurfa ekki neinar breytingar á stjórnun fyrr en þú hefur gert eiginleikann virkan. Vöruteymin geta valið hvort gera eigi eiginleika áskilinn eftir að því tímabili lýkur. 
+
+### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Af hverju er ekki til sérstök „áskilin dagsetning virkjunar“? 
+Tímasetning uppfærslu er breytileg, tímasetning á uppfærslu umhverfis er breytileg og viðskiptavinir geta valið um að sleppa sumum uppfærslum. Fyrir vikið er erfitt að ákveða tilteknar dagsetningar. 
+
+### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Hvar er fylgiskjal fyrir eiginleika sem gerðir eru áskildir? 
+Þetta fylgiskjal kemur frá forritsteyminu. Oft verður þess getið í [Fjarlægðir eða úreltir eiginleikar](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features). 
+
+### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Er tilkynning um vöru eða merki um að eiginleiki verði áskilið virkjaður? 
+Tilkynningakerfi sem tengist því að gera eiginleika áskilinn er ekki til í dag.
+
+### <a name="do-features-ever-get-enabled-without-the-customer-knowing-about-it"></a>Verða eiginleikar einhvern tímann virkjaðir án þess að viðskiptavinurinn viti um það? 
+Já, ef eiginleikar hafa ekki virk áhrif er hægt að virkja þá sjálfgefið.
+
+### <a name="what-is-feature-flighting-and-how-does-it-relate-to-feature-management"></a>Hvað er tilraunaútgáfa eiginleika og hvernig tengist hún eiginleikastjórnun? 
+Tilraunaútgáfur eiginleika eru rauntímaskipting milli kveikt/slökkt sem Microsoft stýrir. Þær eru aðskildar frá stjórnun viðskiptavinar sem eiginleikastjórnun býður upp á. 
+- Eiginleikar einkaforskoðunar verða ekki sýndir í eiginleikastjórnun fyrr en þeir tilraunaútgáfa þeirra er gefin út. Við framleiðslu þarf viðskiptavinurinn að samþykkja að vera hluti af sérstakri áætlun til að það geti átt sér stað.
+- Opin forútgáfa og útgefnir (almennt í boði) eiginleikar verða sýndir í eiginleikastjórnun nema tilraunaútgáfa sé tekin úr umferð. Að taka tilraunaútgáfu úr umferð er talið síðasta úrræði fyrir vöruteymi ef alvarlegt vandamál kemur upp og venjulega tengt aðgerð viðskiptavinar.
+
+### <a name="do-features-ever-get-flighted-off-without-the-customer-knowing-about-it"></a>Eru eiginleikar einhvern tímann teknir úr umferð án þess að viðskiptavinurinn viti um það? 
+Já, ef eiginleikinn hefur áhrif á virkni umhverfis sem þjónar engum tilgangi er hægt að virkja hann að sjálfgefnu.

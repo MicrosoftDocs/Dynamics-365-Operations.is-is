@@ -3,7 +3,7 @@ title: Skilgreina handvirkar ákvarðanir í verkflæði
 description: Þetta efnisatriði útskýrir hvernig skilgreina á eiginleika handvirkrar ákvörðunar.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f46b875f52d3d3e7c755ee92dcd5faddf0d94356
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 130cb50369c13bc3478340023c94f169ee5250cf
+ms.sourcegitcommit: a5009c8958037afbaa1dd4f1469255b187ced93a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178376"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3455034"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Skilgreina handvirkar ákvarðanir í verkflæði
 
@@ -239,26 +239,6 @@ Farið að þessum skrefum til að tilgreina á hvern skal úthluta Handvirk Ák
     <li>Eftir að þú velur <strong>Notanda</strong>, skal smellið á <strong>Notanda</strong> flipa.</li>
     <li>Listinn <strong>Tiltækir notendur</strong> inniheldur alla notendur. Veldu Notendur til að úthluta Ákvörðun á, og færa síðan þessa notendur í <strong>Valdir notendur</strong> lista.</li>
     </ol>
-    </td>
-    </tr>
-    <tr>
-    <td>Biðröð</td>
-    <td>Vinnuliðalisti</td>
-    <td>
-    <ol>
-    <li>Eftir að <strong>Biðröð</strong> er valin, smellið á <strong>byggt á Biðröð</strong> flipa.</li>
-    <li>Fylgið eftirfarandi skrefum til að úthluta Ákvörðun á tiltekna biðröð: <ol>
-    <li>Í listanum <strong>gerð biðraðar</strong> skal velja <strong>vinnuliðalisti</strong></li>
-    <li>Í <strong>heiti biðraðar</strong> listanum skal velja biðröðinni.</li>
-    </ol>
-    </li>
-    <li>Ef tiltekin skilyrði ætti að ákvarða hvaða biðröð Ákvörðun er úthlutað á, skal fylgja þessum skrefum: <ol>
-    <li>Í listanum <strong>gerð biðraðar</strong> skal velja <strong>skilyrtir vinnuliðalistar</strong></li>
-    <li>Í <strong>heiti biðraðar</strong> listanum skal velja <strong>skilyrt biðröð</strong>.</li>
-    </ol>
-    </li>
-    </ol>
-    <blockquote>[!NOTE] Þessi valkostur er notaður fyrir aðeins nokkur verkflæði, á borð við Málastjórnun.</blockquote>
     </td>
     </tr>
     </tbody>

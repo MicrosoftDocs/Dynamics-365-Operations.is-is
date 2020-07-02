@@ -3,7 +3,7 @@ title: Fjarlægðir eða úreltir eiginleikar verkvangs
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í verkvangsuppfærslum á forritum Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 06/02/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6fc699907d30fff2d05e752ea055cae8d1134d9b
-ms.sourcegitcommit: 3eaa71c889545318737b3bc88b05eae1a47ad2c0
+ms.openlocfilehash: 1faee75c9112b3aa584ad021ffdc1144fcf4ba32
+ms.sourcegitcommit: 3485d7f36058151cb4fff5c425ef27f56e3ee7d6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "3433923"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3457567"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fjarlægðir eða úreltir eiginleikar verkvangs
 
@@ -36,6 +36,22 @@ ms.locfileid: "3433923"
 > [!NOTE]
 > Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
 
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.13 á forritum Finance and Operations
+
+> [!NOTE]
+> Útgáfa 10.0.13 hefur ekki verið gefin út ennþá. Þessar upplýsingar eru veittar til áætlunargerðar. Innihald og virkni útgáfu 10.0.13 getur tekið breytingum. Frekari upplýsingar um útgáfur er að finna í [Framboð uppfærslu á þjónustu](../../fin-ops/get-started/public-preview-releases.md).
+
+
+### <a name="upgrade-of-three-jquery-component-libraries"></a>Uppfærsla á þremur jQuery-þáttasöfnum 
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Verið er að uppfæra þrjú jQuery-þáttasöfn í tengslum við öryggisuppfærslur og uppfærslu upplýsinga.   
+| **Skipt út fyrir aðra eiginleika?**   | Eftirfarandi söfn eru uppfærð: jQuery (að útgáfu 3.5.0 frá útgáfu 2.1.4), jQuery UI (að útgáfu 1.12.1 frá útgáfu 1.11.4), jQuery qTip (að útgáfu 3.0.3 frá útgáfu 2.2.1). jQuery hefur birt leiðbeiningar um flutninga á netinu.  |
+| **Afurðasvæði sem haft er áhrif á**         | Stækkanlegt stjórntæki, sérsniðinn JavaScript-kóði sem nýtir API sem er búið að úrelda eða fjarlægja |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Með útgáfu 10.0.13/uppfærslu 37 geta viðskiptavinir fært nýjustu söfnin með því að virkja eiginleikann „Uppfæra þrjú jQuery-þáttasöfn“. Áskilið verður að flytja nýju söfnin með útgáfunni í apríl 2021 til að bjóða upp á tíma fyrir flutning viðeigandi API.   |
+
 ## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.12 á forritum Finance and Operations
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Viðbætur í hnitaneti eða hópstýringarsniði sem innihalda ógildar reitartilvísanir
@@ -50,11 +66,11 @@ ms.locfileid: "3433923"
 
 ## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.11 á forritum Finance and Operations
 
-### <a name="explicit-whitelisting-for-self-service-environments"></a>Ítarlegur undanþágulisti fyrir sjálfsafgreiðsluumhverfi
+### <a name="explicit-safe-lists-for-self-service-environments"></a>Öruggir listar fyrir sjálfsafgreiðsluumhverfi
 
 |   |  |
 |------------|--------------------|
-| **Ástæða úreldingar/fjarlægingar** | Ferlið fyrir undanþágulista IP-talna hefur breyst. Sjálfsafgreiðsla styður ekki lengur undanþágulista IP-talna. |
+| **Ástæða úreldingar/fjarlægingar** | Ferlið við að færa IP-tölur yfir á undanþágulista hefur breyst. Sjálfsafgreiðsla styður ekki lengur undanþágulista IP-talna. |
 | **Skipt út fyrir aðra eiginleika?**   | Nánari upplýsingar er að finna í [Skilgreining Azure Active Directory Skilyrðisbundinn aðgangur](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
 | **Afurðasvæði sem haft er áhrif á**         | Öryggi |
 | **Dreifingarvalkostur**              | Ský |

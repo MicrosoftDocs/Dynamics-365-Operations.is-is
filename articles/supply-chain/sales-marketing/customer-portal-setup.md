@@ -3,7 +3,7 @@ title: Setja upp og uppfæra viðskiptavinagátt
 description: Þetta efnisatriði inniheldur upplýsingar um leyfi og uppsetningarleiðbeiningar fyrir viðskiptavinagáttina.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b9d1e742f78254d949dc49fda008d63b8bff4d65
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 0343100362c4d7bc3e09334fb7890919bdb84941
+ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413974"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435609"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Setja upp og uppfæra viðskiptavinagátt
 
@@ -35,7 +35,7 @@ Til að innleiða viðskiptavinagáttina þarf að hafa eftirfarandi leyfi:
 
 Viðskiptavinagáttin er háð Power Apps-gáttum og tvöföldum skrifum eins og sýnt er á eftirfarandi mynd.
 
-![![Tengsl viðskiptavinagáttar](media/customer-portal-elements.png "Tengsl viðskiptavinagáttar")](media/customer-portal-elements.png "Customer portal dependencies")
+![Tengsl viðskiptavinagáttar](media/customer-portal-elements.png "Tengsl viðskiptavinagáttar")
 
 Ólíkt öðrum eiginleikum frá Supply Chain Management er sniðmát viðskiptavinagáttar að finna í Power Apps-gáttum. Þess vegna takmarkast viðskiptavinagáttin við virknina og möguleikana sem boðið er upp á af Power Apps-gáttum og einingunum í tvöföldum skrifum.
 
@@ -59,7 +59,7 @@ Ganga skal úr skugga um að virkja eftirfarandi einingavarpanir í tvöföldum 
 
 1. Opnið [make.powerapps.com](https://make.powerapps.com/).
 2. Gangið úr skugga um að notað sé umhverfið þar sem tvöföld skrif voru virkjuð.
-3. Í flipanum **Stofna** skal fletta niður á hlutann **Byrja á sniðmáti** og velja sniðmátið sem heitir **Supply Chain Management Customer**.
+3. Á flipanum **Stofna** skal fletta niður á hlutann **Byrja á sniðmáti** og velja sniðmátið sem heitir **Viðskiptavinagátt**.
 4. Fylgdu leiðbeiningunum á skjánum.
 
 Eftir að úthlutun er lokið er hægt að fá aðgang að viðskiptavinagáttinni í hlutanum **Forritin þín** á síðunni **Heim**.
@@ -71,7 +71,7 @@ Eftir að úthlutun er lokið er hægt að fá aðgang að viðskiptavinagáttin
 
 Meiri virkni verður hugsanlega bætt við viðskiptavinagáttina síðar. Allar breytingar sem Microsoft gerir á undirliggjandi hlutum lausnar munu sjálfkrafa birtast í umhverfinu. Hins vegar mun vefsvæðið sem er úthlutað í umhverfinu ekki sjálfkrafa endurspegla breytingar sem eru gerðar á skilgreiningargögnunum. Bæta verður þessum breytingum við handvirkt með því að ná í kóða frá nýja sniðmátinu og sameina það við úthlutað vefsvæði.
 
-## <a name="resources"></a>Forði
+## <a name="additional-resources"></a>Frekari upplýsingar
 
 Til að komast að því hvernig á að setja upp og sérsníða viðskiptavinagáttina ætti að byrja á því að fara yfir eftirfarandi fylgiskjöl fyrir undirliggjandi tækni:
 
