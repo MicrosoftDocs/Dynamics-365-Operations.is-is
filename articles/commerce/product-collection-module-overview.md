@@ -3,7 +3,7 @@ title: Afurðasafnseiningar
 description: Þetta efni veitir yfirlit yfir afurðasafnseiningar í Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 01/07/2020
+ms.date: 06/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 069fa1cb6acad4b8d6618cebb754cbc0892ca9cf
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 698bdd22cffad26bc9126fca5649f091fbeef4dd
+ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025949"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "3464954"
 ---
 # <a name="product-collection-modules"></a>Afurðasafnseiningar
 
@@ -72,16 +72,17 @@ Eftirfarandi tafla lýsir ýmsum gerðum af afurðasafnseiningum í Dynamics 365
 
 Til að bæta afurðasafnseiningu við flokksíðu skaltu fylgja þessum skrefum.
 
-1. Í Dynamics 365 Commerce ferðu á vefsvæðið og býrð til síðu sem notar sama sniðmát og sjálfgefna flokkasíðan þín.
-1. Í síðuútlínunum velurðu hólfið **Undirsíðufótur**, velur úrfellingarhnappinn (**...**) og velur síðan **Bæta við einingu**.
-1. Í svarglugganum **Bæta við einingu** skal velja **Gám** og síðan smella á **Í lagi**.
-1. Í gámaeiningunni skaltu velja úrfellingarhnappinn og veldu síðan **Bæta við einingu**.
-1. Í svarglugganum **Bæta við einingu** skal velja **Afurðasafn** og síðan smella á **Í lagi**.  
-1. Stilltu stillingar með því að velja viðeigandi gagnagjafa og inntak fyrir afurðasafnið.
+1. Farðu í **Síður** og veldu **Ný** til að búa til nýja síðu.
+1. Veljið sama sniðmát og er notað á sjálfgefnu flokkasíðunni í glugganum **Velja sniðmát**. Undir **Síðuheiti** skal færa inn viðeigandi heiti og velja síðan **Í lagi**.
+1. Í hólfinu **Undirsvæði síðufótar**, skal velja úrfellingarmerkið (**...**) og síðan **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Hólf** og síðan velja **Í lagi**.
+1. Í hólfinu **Hólf** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Vörusafn** og síðan velja **Í lagi**.  
 1. Í eiginleikaglugganum fyrir afurðasafnseininguna velurðu **Bæta við afurðalista**.
-1. Í valmyndinni **Velja stillingu afurðalista** velurðu gerð listans, slærð inn fjölda vara og veldu hvaða valkosti sem eru tiltækir fyrir listategundina. Nánari upplýsingar um listagerðir er að sjá í töflunni sem fylgir. 
+1. Í glugganum **Velja grunnstillingu afurðalista** skal velja gerð listans og uppruna listans og slá inn fjölda vara. Grunnstillið aðra valkosti sem eru í boði fyrir listagerðina. Nánari upplýsingar um listagerðir er að sjá í töflunni sem fylgir. 
 1. Veljið **Í lagi**.
-1. Vistaðu síðuna og skráðu hana inn.
+1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna.
+1. Veldu**Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
 
 Eftirfarandi tafla sýnir listagerðirnar sem hægt er að velja í valmyndinni **Velja stillingu afurðalista**.
 

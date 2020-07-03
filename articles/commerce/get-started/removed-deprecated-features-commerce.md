@@ -3,7 +3,7 @@ title: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 36
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir úr Dynamics 365 Commerce.
 author: josaw
 manager: AnnBe
-ms.date: 05/04/2020
+ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: c47c5430a8f5d67e13c95db609a95d5ad66933ae
-ms.sourcegitcommit: a8b6cd799eddaf5be9aec9ea3c2b55e2c3231652
+ms.openlocfilehash: 64241ef1c25359c7b3b305c4e8f2b24de7e8f5e4
+ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3335277"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "3443919"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Commerce
 
@@ -35,6 +35,16 @@ ms.locfileid: "3335277"
 
 > [!NOTE]
 > Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Commerce 10.0.11 útgáfu
+### <a name="data-action-hooks"></a>Krókar gagnaaðgerða
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Krókar gagnaaðgerða hafa verið teknir úr umferð vegna afkastatengdra vandamála. |
+| **Skipt út fyrir aðra eiginleika?**   | Mælt er með notkun [gagnaaðgerðahnekkinga](../e-commerce-extensibility/data-action-overrides.md) í staðinn þegar breyta þarf viðskiptagrunni í gagnaaðgerðarlagi.|
+| **Afurðasvæði sem haft er áhrif á**         | Gagnaaðgerðir stækkunarhæfni rafrænna viðskipta |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt: frá og með útgáfu 10.0.11 |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10010-release"></a>Eiginleikar sem eru úreltir eða hafa verið fjarlægðir í Commerce 10.0.10 útgáfu
 ### <a name="pos-operation-803---picking-and-receiving"></a>POS-aðgerð 803 - Tiltekt og móttaka

@@ -3,12 +3,12 @@ title: Grunnstilla gerðir leyfis og fjarvista
 description: Settu upp tegundir orlofs sem starfsmenn geta tekið í Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df6e34fe6a23e6f0a8307a035752a35a15a3431c
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: 1802938f54a1d78e6ea60572a76177a037192ae0
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3198051"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428594"
 ---
 # <a name="configure-leave-and-absence-types"></a>Grunnstilla gerðir leyfis og fjarvista
 
@@ -56,7 +56,9 @@ Gerðir leyfa í Dynamics 365 Human Resources skilgreina hinar ýmsu gerðir fja
 
 8. Undir **Takmarka aðgang að völdum hlutverkum**, veldu hvort þú vilt takmarka aðgang. Veldu síðan öryggishlutverkin undir **Öryggishlutverk fyrir þessa leyfisgerð**. Öryggishlutverkin eru skilgreind í verkflæðinu sem þú valdir undir **Auðkenni vinnuflæðis** fyrr í þessu ferli.
 
-9. Veljið **Vista**.
+9. Undir **Frestunartengsl** skal velja hvort eigi að fresta þessari leyfisgerð eða fresta annarri leyfisgerð eða láta fresta vegna annarrar leyfisgerðar. Þegar beiðni um fjarvist er send inn fyrir frestaða leyfisgerð verður frestun leyfis sjálfkrafa búin til fyrir frestaða leyfisgerð. 
+
+10. Veljið **Vista**.
 
 ## <a name="configure-leave-type-rules"></a>Stilla reglur leyfisgerða
 
@@ -66,16 +68,15 @@ Gerðir leyfa í Dynamics 365 Human Resources skilgreina hinar ýmsu gerðir fja
 
    Frí er stillt í vinnutímadagatalinu. Fyrir frekari upplýsingar, sjá [Búðu til vinnutímadagatal](hr-leave-and-absence-working-time-calendar.md)
    
-## <a name="configure-preview-features"></a>Stilla forskoðunareiginleika
-
-Ef þú hefur gert forskoðunareiginleika virka fyrir leyfi og fjarveru þarftu líka að stilla stillingar fyrir þá.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-1. Veldu leyfisgerð fyrir yfirfærslustöður sem á að flytja til. Þú getur líka búið til nýja leyfisgerð til að yfirfæra. 
-
+ 3. Stillið **Yfirfærð leyfisgerð** fyrir leyfisgerð. Þegar þessi valkostur er valinn verða allar yfirfærðar stöður fluttar í tilgreinda gerð leyfis. Yfirfærsluleyfisgerðin þarf einnig að vera með í áætlun um leyfi og fjarveru. 
+ 
+ 4. Skilgreinið **Gildistímareglur** fyrir leyfisgerðina. Þegar þessi valkostur er skilgreindur er hægt að velja einingu daga eða mánaða og stilla tímalengd gildistímans. Einnig er hægt að stilla gildisdagsetningu gildistímareglunnar. Allar leyfisstöður sem eru til staðar þegar gildistíminn rennur út verða dregnar frá leyfisgerðinni og teknar inn í leyfsstöðuna. 
+ 
+ 
 ## <a name="see-also"></a>Sjá einnig
 
 - [Yfirlit yfir leyfi og fjarvistir](hr-leave-and-absence-overview.md)
 - [Búa til leyfis- og fjarvistaáætlun](hr-leave-and-absence-plans.md)
 - [Búa til dagatal fyrir vinnutíma](hr-leave-and-absence-working-time-calendar.md)
+- [Fresta leyfi](hr-leave-and-absence-suspend-leave.md)
+

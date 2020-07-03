@@ -3,7 +3,7 @@ title: Algengar spurningar um afurðaráðleggingar
 description: Þetta efni veitir upplýsingar um ferla og verkfæri sem þú getur notað til að leysa vandamál sem tengjast afurðatillögum eða niðurstöðum þeirra.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2e30d29516dff6b2128e21bfa6e449e396884d00
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: e27e4c4d8bdf614d6f55f44daeac3bc152219004
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154391"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404303"
 ---
 # <a name="product-recommendations-faq"></a>Algengar spurningar um afurðaráðleggingar
 
@@ -81,7 +81,7 @@ Eftir að hafa gert afurðatillögur virkar þarftu að bæta við tillöguborð
 
 [Yfirlit yfir afurðarráðleggingar](product-recommendations.md)
 
-[Virkja ADLS í Dynamics 365 Commerce umhverfi](enable-adls-environment.md)
+[Virkja Azure Data Lake Storage í Dynamics 365 Commerce-umhverfi](enable-adls-environment.md)
 
 [Virkja ráðleggingar um afurðir](enable-product-recommendations.md)
 

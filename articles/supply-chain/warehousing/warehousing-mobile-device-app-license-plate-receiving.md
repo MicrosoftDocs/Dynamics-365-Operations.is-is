@@ -3,7 +3,7 @@ title: Móttaka númeraplötu í gegnum vöruhúsaforritið
 description: Þetta efnisatriði útskýrir hvernig á að setja upp vöruhúsaforrit til að styðja notkun móttökuferlis númeraplötu til að taka á móti efnislegum birgðum.
 author: perlynne
 manager: tfehr
-ms.date: 03/31/2020
+ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 7d5ac6598ab80ece0164d7c92f5d84e91d21b385
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: 82b4f40510d5bbf829508f17f1064886620a4aed
+ms.sourcegitcommit: a3cd2783ae120ac6681431c010b9b126a9ca7d94
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346377"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410886"
 ---
 # <a name="license-plate-receiving-via-the-warehousing-app"></a>Móttaka númeraplötu í gegnum vöruhúsaforritið
 
@@ -33,58 +33,59 @@ ASN gögnin eru tengd við farm og sendingar um *pakkaskipan*, þar sem bretti (
 > [!NOTE]
 > Til að fækka birgðafærslum þegar pakkaskipan sem hefur faldaðar númeraplötur er notuð skráir kerfið efnislegar lagerbirgðir á yfirnúmeraplötuna. Til að kveikja á hreyfingu efnislegrar lagerbirgða frá yfirnúmeraplötunni yfir á faldaðar númeraplötur, byggðar á pakkaskipunargögnum, verður fartækið að bjóða upp á valmyndaratriði sem er byggt á vinnusköpunarferlinu *Pakka á faldaðar númeraplötur*.
 
-<!-- To be used later (will require further editing):
-## Warehousing mobile device app processing
+## <a name="warehousing-mobile-device-app-processing"></a>Úrvinnsla fartækjaforrits vöruhúss
 
-When a worker scans an incoming license plate ID, the system initializes a license plate receiving process. Based on this information, the content of the license plate (data coming from the ASN) gets physically registered at the inbound dock location. The flows that follow will depend your business process needs.
+Þegar starfsmaður skannar númeraplötukenni á innleið setur kerfið móttökuferli númeraplötu af stað. Á grundvelli þessara upplýsinga verður efni númeraplötunnar (gögn sem koma frá ASN) efnislega skráð á staðsetningu innhliðs. Verkflæðin sem fylgja munu fara eftir þörfum viðskiptaferlisins.
 
-## Work policies
+## <a name="work-policies"></a>Vinnureglur
 
-As with (for example) the *Report as finished* mobile device menu item process, the license plate receiving process supports several workflows based on the defined setup.
+Eins og við um (sem dæmi) vinnslu valmyndaratriði fartækis *Bóka sem tilbúið*, styður móttökuferli númeraplötu ýmis verkflæði samkvæmt skilgreindri uppsetningu.
 
-### Work policies with work creation
+### <a name="work-policies-with-work-creation"></a>Vinnureglur með stofnun vinnu
 
-Registration of physical on-hand where either the same warehouse worker immediately process a put-away work process following the inbound receiving (License plate receiving and put away) or where the registration and put away process gets handled as two different warehouse operations (License plate receiving) following the processing of the put-away work by using the existing work process via another mobile device menu item.
+Þegar vörur á innleið eru skráðar með því að nota vinnureglu sem stofnar vinnu, býr kerfið til og vistar færslur frágangsvinnu fyrir hverja skráningu. Ef notað er vinnuferlið *Móttaka og frágangur númeraplötu* eru skráning og frágangur meðhöndluð sem ein aðgerð með því að nota eitt valmyndaratriði fartækis. Ef notað er ferlið *Móttaka númeraplötu* eru móttöku- og frágangsferlin meðhöndluð sem tvær mismunandi vöruhúsaaðgerðir, hver með sitt eigið valmyndaratriði fartækis.
 
-## Work policies without work creation
+### <a name="work-policies-without-work-creation"></a>Vinnureglur án stofnun vinnu
 
-You can use the license plate receiving process without creating work by using the *License plate receiving without creating work* feature.
+Hægt er að nota móttökuferli númeraplötu án þess að stofna vinnu. Ef vinnureglur eru skilgreindar sem eru með verkbeiðnigerðina *Millifærslumóttaka* og/eða *Innkaupapantanir* og notað er ferlið *Móttaka (og frágangur) númeraplötu*, munu eftirfarandi tvö ferli Warehousing mobile app ekki stofna vinnu. Þess í stað skrá þau aðeins efnislegar birgðir á innleið á númeraplötunni við móttökuhliðið.
 
-By defining **Work policies** with a **Work order type** of *Transfer receipt* and/or *Purchase orders*, and using the **Process** for **License plate receiving (and put away)**, the two Warehousing app process:
+- *Móttaka númeraplötu*
+- *Móttaka og frágangur númeraplötu*
 
-- License plate receiving
-- License plate receiving and put away
+> [!NOTE]
+> - Skilgreina verður að minnsta kosti eina staðsetningu fyrir vinnureglu í hlutanum **Birgðastaðsetningar**. Ekki er hægt að tilgreina sömu staðsetninguna fyrir margar vinnureglur.
+> - Valkosturinn **Prenta merki** fyrir valmyndaratriði fartækis vöruhúss prentar ekki númeraplötumerki án stofnunar vinnu.
 
-will not create work, but only register the inbound physical inventory on the license plate at the inbound receiving dock.
+Til að bjóða upp á þessa virkni í kerfinu verður að kveikja á eiginleikanum *Endurbætur á móttöku númeraplötu* í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-For more information about the *Report as finished* production scenario, see the [Warehouse work policies overview](warehouse-work-policies.md).
+### <a name="receive-inventory-on-a-location-that-doesnt-track-license-plates"></a>Taka á móti birgðum á staðsetningu sem heldur ekki utan um númeraplötur
 
--->
+Hægt er að nota vöruhúsastaðsetningu sem er úthlutað á staðsetningarforstillingu jafnvel þegar ekki er kveikt á **Nota rakningu númeraplötu**. Þegar tekið er á móti birgðum er þar af leiðandi hægt skrá lagerbirgðirnar á staðsetningu án þess að stofna vinnu.
+
+## <a name="add-mobile-device-menu-items-for-each-receiving-location-in-a-warehouse"></a>Bæta við valmyndaratriðum fartækis fyrir hverja móttökustaðsetningu í vöruhúsi
+
+Eiginleikinn *Endurbætur á móttöku númeraplötu* gerir kleift að taka á móti á hvaða staðsetningu sem er í vöruhúsi með því að bæta valmyndaratriði staðsetningarmiðaðrar móttöku (og frágangs) númeraplötu við Warehousing mobile app. Áður studdi kerfið að taka aðeins á móti á sjálfgefinni staðsetningu sem er skilgreind fyrir hvert vöruhús. Hins vegar, þegar kveikt er á þessum eiginleika, bjóða valmyndaratriði fyrir móttöku (eða frágang) númeraplötu í fartæki upp á valkostinn **Nota sjálfgefin gögn** sem gerir kleift að velja sérstillta „til“ staðsetningu fyrir hvert valmyndaratriði. (Þessi valkostur var þegar tiltækur fyrir nokkrar aðrar gerðir valmyndaratriða.)
+
+Til að bjóða upp á þessa virkni í kerfinu verður að kveikja á eiginleikanum *Endurbætur á móttöku númeraplötu* í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Sýna eða sleppa móttökuyfirlitssíðu
 
-Hægt er að nota eiginleikann *Stjórna því hvort á að birta yfirlitssíðu móttöku í fartækjum* til að nýta sér ítarlegra flæði vöruhúsaforrits sem hluta af móttöku númeraplötu.
-
-Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Í vinnusvæðinu **Stjórnun eiginleika** er þessi eiginleiki skráður á eftirfarandi hátt:
-
-- **Eining:** *Vöruhúsakerfi*
-- **Eiginleikaheiti:** *Stjórna því hvort sýna á viðtakandi samantektarsíðu í fartækjum*
+Þú getur notað aðgerðina *Stjórna því hvort sýna skuli móttökuyfirlitssíðu í fartækjum* til að nýta sér viðbótar ítarlegt forritsflæði vöruhúss sem hluta af móttökuferli fyrir númeraplötur.
 
 Þegar kveikt er á þessari aðgerð munu valmyndaratriðin í fartækinu fyrir móttöku númeraplötu eða móttöku og frágang númeraplötu veita stillinguna **Birta yfirlitssíðu móttöku**. Þessi stilling hefur eftirfarandi valkosti:
 
 - **Birta ítarlegt yfirlit** - Við móttöku númeraplötu munu starfsmenn sjá auka síðu sem sýnir allar ASN upplýsingar.
 - **Sleppa yfirlitinu** - Starfsmenn sjá ekki allar ASN upplýsingar. Starfsmenn vörugeymsluhússins ekki heldur sett upp ráðstöfunarkóða eða bætt við undantekningum meðan á móttökuferlinu stendur.
 
+Til að bjóða upp á þessa virkni í kerfinu verður að kveikja á eiginleikanum *Stjórna því hvort á að birta yfirlitssíðu móttöku í fartækjum* í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Komdu í veg fyrir að númeraplötur með flutningspöntunum–sent séu notaðar í vöruhúsum öðrum en ákvörðunarvöruhúsinu
 
-Ekki er hægt að nota móttökuferli númeraplötu ef ASN inniheldur kenni númeraplötu sem þegar eru til og eru með efnisleg gögn á lager í öðru vöruhúsi en vöruhússtaðnum þar sem skráningarmerki skráningar er að gerast.
+Ekki er hægt að nota móttökuferli númeraplötu ef ASN inniheldur númeraplötukenni sem er þegar til og er með gögn efnislegra lagerbirgða á staðsetningu vöruhúss, önnur en staðsetningu vöruhúss þar sem skráning á númeraplötunni fer fram.
 
 Fyrir aðstæður flutningspöntunar þar sem flutningsvöruhúsið rekur ekki númeraplöturnar (og rekur þar af leiðandi ekki heldur efnislegar lagerbirgðir á hverja númeraplötu) er hægt að nota eiginleikann *Koma í veg fyrir að númeraplötur með sendum flutningspöntunum séu notaðar í öðrum vöruhúsum en ákvörðunarvöruhúsinu* til að koma í veg fyrir efnislegar birgðauppfærslur á númeraplötum sem eru í flutningi.
 
-Áður en hægt er að nota þennan eiginleika þarf að kveikja á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Í vinnusvæðinu **Stjórnun eiginleika** er þessi eiginleiki skráður á eftirfarandi hátt:
-
-- **Eining:** *Vöruhúsakerfi*
-- **Heiti eiginleika:** *Koma í veg fyrir að númeraplötur með sendum flutningspöntunum séu notaðar í öðrum vöruhúsum en ákvörðunarvöruhúsinu*
+Til að bjóða upp á þessa virkni í kerfinu verður að kveikja á eiginleikanum *Koma í veg fyrir að númeraplötur, sem afgreiddar voru með flutningspöntun, verði notaðar í öðrum vöruhúsum en vöruhúsi áfangastaðar* í [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Fylgdu þessum skrefum til að stjórna virkni þegar þessi eiginleiki er tiltækur.
 
@@ -96,6 +97,8 @@ Fylgdu þessum skrefum til að stjórna virkni þegar þessi eiginleiki er tilt�
 
 ## <a name="more-information"></a>Meiri upplýsingar
 
-<!-- To read more about inbound loads, see [Link for Inbound load (Olga's doc.)] -->
-
 Nánari upplýsingar um valmyndaratriði fartækja, sjá [Uppsetning fartækja fyrir vöruhúsavinnu](configure-mobile-devices-warehouse.md).
+
+Frekari upplýsingar um framleiðsluaðstæðurnar *Bóka sem tilbúið* er að finna í [Yfirlit yfir vinnureglur vöruhúss](warehouse-work-policies.md).
+
+Frekari upplýsingar um stjórnun á farmi á innleið er að finna í [Meðhöndlun vöruhúss á farmi á innleið fyrir innkaupapantanir](inbound-load-handling.md).

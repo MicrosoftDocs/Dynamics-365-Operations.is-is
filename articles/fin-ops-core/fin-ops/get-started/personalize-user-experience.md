@@ -3,7 +3,7 @@ title: Sérsníða notandaupplifun
 description: Þessi grein útskýrir hvernig hægt er að sérsníða forritið.
 author: jasongre
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0a995d25cfc5e78cc76dd73ddea2fb8bd904328
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: bb66db1e41dce6987bdfc52dd58e2b704ce36720
+ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260507"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412355"
 ---
 # <a name="personalize-the-user-experience"></a>Sérsníða notandaupplifun
 
@@ -117,7 +117,11 @@ Eftirfarandi verkfæri eru í boði á **Sérstillingar** tækjastikunni:
 - Nota **Færa** verkfærið til að færa einingar á annan stað í núverandi hóp eininga. Athugaðu að ekki er hægt að færa einingu utan yfirhóps hennar. Til að nota þetta tól velurðu hnappinn **Flytja** á verkfæraslánni og síðan einingu sem á að flytja. Þegar þú velur einingu ákvarðar forritið staðsetningar þar sem flytja má eininguna. Þessir staðir eru þekktir sem *sleppisvæði*. Þegar þú færir eininguna til í núverandi hóp er hvert sleppisvæði sýnt sem lituð, feitletruð lína við hliðina á því svæði þar sem má sleppa einingunni.
 - Nota **Sleppa** verkfærið til að fjarlægja einingu úr fliparöð lyklaborðs síðunnar. Þegar þú velur hnappinn **Sleppa** á verkfæraslánni eru allar einingar sem nú þegar er sleppt sýndar í skyggðum gámi. Þú getur fjarlægt eða bætt við reitum á fliparöðinni með gagnvirkum hætti.
 - Notaðu verkfærið **Sýna í haus** þegar þú vilt að reitur birtist í samantektarhlutanum fyrir flýtiflipa. Þegar þú velur hnappinn **Sýna í haus** á verkfæraslánni eru allir reitir sem hafa verið valdir sem samantektarreitir sýndar í skyggðum gámi. Með því að velja reitina getur þú með gagnvirkum hætti fjarlægt og bætt við reitum þaðan.
-- Notaðu verkfærið **Krefjast** til að tilnefna þátt eins og krafist er fyrir færslu gagna. Þegar þú velur hnappinn **Krefjast** á verkfæraslánni eru allar einingar sem hafa verið sérsniðnar sem krafist sýndar í skyggðum gámi. Þú getur þá aftur gert þær sem ekki krafist. Þessi valkostur er aðeins í boði í seinni útgáfu þegar aðgerðirnar [Vistaðar skoðanir](saved-views.md) og **Tilnefnið reiti eftir þörfum með því að nota persónugervingu** eru virkar.
+- Notaðu verkfærið **Krefjast** til að tilnefna þátt eins og krafist er fyrir færslu gagna. Þegar hnappurinn **Krafist** er valinn í tækjastikunni birtast allar einingar sem hafa verið sérsniðnar til að gera þær nauðsynlegar í skyggðu hólfi. Þú getur þá aftur gert þær sem ekki krafist. Þessi valkostur er tiltækur í útgáfu 10.0.12 og síðar þegar eiginleikinn **Gera reiti nauðsynlega með sérstillingu** er virkjaður.
+
+    > [!IMPORTANT]
+    > Útgáfa 10.0.12 er forútgáfa. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í hlutanum [Framboð þjónustuuppfærslu](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
 - Notaðu verkfærið **Læsa** til að merkja einingu sem annaðhvort breytanlega eða óbreytanlega. Þegar þú velur hnappinn **Læsa** á verkfæraslánni eru allar einingar sem eru þegar óbreytanlegar sýndar í skyggðum gámi. Þú getur þá gert þær breytanlegar aftur. Athugaðu að sumir reitir eru nauðsynlegir og ekki hægt að gera þá óbreytanlega. Hengilásatákn birtist við hliðina á þessum reitum.
 - Notaðu hnappinn **Bæta við forriti úr Power Apps** til að fella forrit inn á síðuna sem var búið til með því að nota Microsoft Power Apps. Nánari upplýsingar um hvernig á að fella inn forrit frá Power Apps á síðu er að finna í [Innfelling á forritum úr Power Apps](embed-power-apps.md). Þessi valkostur er aðeins í boði þegar aðgerðin [Vistaðar skoðanir](saved-views.md) er óvirk.  
 - Notaðu hnappinn **Bæta við forriti** til að fella inn forrit, annaðhvort forrit stofnað í Microsoft Power Apps eða frá þriðja aðila, á síðuna. Þessi valkostur er aðeins í boði þegar aðgerðin [Vistaðar skoðanir](saved-views.md) er virkjuð. 
@@ -159,28 +163,21 @@ Til að sérsníða yfirlitið, hægri-smelltu á hvaða flís sem er og veldu s
 - Til að endurraða vinnusvæðisflísar skaltu velja **Sérsníða þetta form** í einginleikaskjámyndinni, til að opna **Sérstillingar** tækjastikuna. Þú getur síðan notað **Færa** verkfærið til að endurraða reitunum eins og þú vilt.
 - Til að bæta við nýjum vinnusvæðisreit skaltu velja **Bæta við vinnusvæði** í eiginleikaglugganum. Ný vinnusvæðisflís er búin til neðst á yfirlitinu. Þú getur endurnefnt þennan nýja vinnusvæðisflís eins og þú vilt. Þú getur einnig bætt við listum, flísum og tenglum á vinnusvæðið eins og lýst er í [Bæta við listum, flísum eða tenglum á vinnusvæði](#adding-a-tile-list-or-link-to-a-workspace) kafla þessa efnisatriðis.
 
+
+## <a name="sharing-personalizations"></a>Sérstillingar samnýttar
+Eftir að þú hefur sérsniðið síðu, getur deilt stillingunum með öðrum notendum með því að flytja út sérstilltu síðuna. Þú getur þá beðið aðra notendur að opna sérsniðnu síðuna og flytja inn sérstillingarskrána sem þú bjóst til. Að öðrum kosti getur þú gefið notanda, sem hefur stjórnunarheimildir, sérstillinguna þína. Þessi notandi getur síðan virkjað sérstillingarskrána þína í þágu margra notenda á sama tíma með því að nota stjórnendasíðuna **Sérstillingar**.
+
 ## <a name="administration-of-personalizations"></a>Stjórnun sérstillinga
+Síðan **Sérstillingar** er miðstöð stjórnunar sérstillinga á fyrirtækisstigi. Innihald og möguleikar á þessari síðu fara eftir því hvort eiginleikinn **Vistuð yfirlit** hafi verið virkjuð.  
 
-Eftir að þú hefur sérsniðið síðu, getur deilt stillingunum með öðrum notendum með því að flytja út sérstilltu síðuna. Þú getur þá beðið aðra notendur að opna sérsniðnu síðuna og flytja inn sérstillingarskrána sem þú bjóst til. Að öðrum kosti getur þú gefið notanda, sem hefur stjórnunarheimildir, sérstillinguna þína. Þessi notandi getur síðan virkjað sérstillingarskrána þína í þágu margra notenda á sama tíma.
+Fyrir viðskiptavini sem hafa virkjað eiginleikann **Vistuð yfirlit** skal skoða „Stjórna yfirlitum á altækan hátt“ í efnisatriðinu [Vistuð yfirlit](saved-views.md).  
 
-Notendur sem hafa stjórnunarréttindi geta einnig stýrt sérstillingum fyrir aðra notendur á síðunni **Sérstillingar**.
-
-Fyrir viðskiptavini sem hafa ekki kveikt á eiginleikanum [Vistaðar skoðanir](saved-views.md) er þessi síða með fjóra flipa:
+Fyrir viðskiptavini sem hafa ekki enn virkjað eiginleikann [Vistuð yfirlit](saved-views.md) hefur þessi síða fjóra flipa:
 
 - **Virkja** - Hægt er að flytja inn eða velja sérstillingu fyrir einn eða fleiri notendur. Til að virkja sérstillingu í þágu eins eða fleiri notenda, skal velja fyrst hlutverk og notendur sem hafa það hlutverk. Síðan skal velja annaðhvort fyrirliggjandi sérstillingu til að virkja í þágu valdra notenda, eða flytja inn sérstillingarskrá. Sérstillingin er sannprófuð og verður virkjuð í þágu allra valdra notenda næst þegar þeir opna völdu síðuna.
 - **Hreinsa** - Þú getur hreinsað allar sérstillingar fyrir síðu eða vinnusvæði fyrir einn eða fleiri notendur. Veldu fyrst síðu eða vinnusvæði til að sjá lista yfir notendur sem hafa notað sérstillingu á það. Veldu síðan þá notendur sem hreinsa skal sérstillingar síðu eða vinnusvæðis hjá og veldu **Hreinsa**. Allar sérstillingar sem völdu notendur hafa virkjað á valdri síðu eða vinnusvæði er eytt. Ekki er hægt að afturkalla þessa aðgerð. Ef sérstilling var hins vegar var vistuð fyrir síðuna eða vinnusvæðið, er hægt að flytja þá sérstillingu inn aftur.
 - **Notendur** - Veldu notanda til að sjá lista yfir síður sem notandinn hefur sérstillt. Síðan geturðu kveikt eða slökkt á getu valins notanda til að nota sérstillingar fyrir tilteknar síður eða fyrir allt kerfið. Þú getur einnig flutt inn, flutt út eða hreinsað sérstillingar notanda. Að auki geturðu endurstillt skýringartexta eiginleika fyrir notandann. Í þessu tilfelli, ef notandi hefur áður sagt upp öllum sprettigluggum sem kynna nýja eiginleika, munu þeir birtast aftur næst þegar notandinn lendir í þessum aðgerðum.
 - **Kerfi** - Einnig er hægt að slökkva á sérstillingum allra notendur kerfisins tímabundið. Í þessu tilfelli er öllum sérstillingum eytt fyrir alla notendur og allar síður eru endurstilltar í sjálfgefna stöðu. Ef þú kveikir aftur á sérstillingum verður öllum sérstillingumaftur beitt. Einnig er hægt að eyða öllum sérstillingum endanlega fyrir alla notendur kerfisins. Ekki er hægt að endurheimta sérstillingar sem hefur verið eytt. Áður en þú framkvæmir þetta verkefni skaltu þess vegna vera viss um að flytja út allar sérstillingar sem þú gætir viljað síðar.
-
-Fyrir viðskiptavini sem hafa kveikt á eiginleikanum [Vistaðar skoðanir](saved-views.md) er síðan **Sérstillingar** með fimm flipa:
-
-- **Útgefnar skoðanir** - Þessar skoðanir hafa verið gefnar út fyrir fyrirtækið. Til að breyta notendum sem þessar skoðanir miðast við geturðu breytt öryggishlutverkum eða lögaðilum sem tengjast hverri skoðun. Þú getur líka flutt út eða eytt einni eða fleiri útgefnum skoðunum.
-- **Óbirt yfirlit** - Þessar skoðanir eru sniðmát sem hefur verið flutt inn í kerfið þitt en hefur ekki enn verið birt. Þú getur birt, flutt út eða eytt þessum skoðunum.
-- **Persónuleg yfirlit** - Þessar skoðanir hafa verið búnar til af notendum í kerfinu. Þú getur gefið út persóunlegt yfirlit til fyrirtækisins, eða afritað eina eða fleiri af þessum skoðunum til annarra notenda. Einnig er hægt að birta, flytja út eða eyða þessum skoðunum, eftir þörfum.
-- **Notendur** - Veldu notanda til að sjá lista yfir síður sem notandinn hefur sérstillt. Síðan geturðu kveikt eða slökkt á getu valins notanda til að nota sérstillingar fyrir tilteknar síður eða fyrir allt kerfið. Þú getur einnig flutt inn, flutt út eða hreinsað sérstillingar notanda. Að auki geturðu endurstillt skýringartexta eiginleika fyrir notandann. Í þessu tilfelli, ef notandi hefur áður sagt upp öllum sprettigluggum sem kynna nýja eiginleika, munu þeir birtast aftur næst þegar notandinn lendir í þessum aðgerðum.
-- **Kerfi** - Einnig er hægt að slökkva á sérstillingum allra notendur kerfisins tímabundið. Í þessu tilfelli er öllum sérstillingum eytt fyrir alla notendur og allar síður eru endurstilltar í sjálfgefna stöðu. Ef þú kveikir aftur á sérstillingum verður öllum sérstillingumaftur beitt. Einnig er hægt að eyða öllum sérstillingum endanlega fyrir alla notendur kerfisins. Ekki er hægt að endurheimta sérstillingar sem hefur verið eytt. Áður en þú framkvæmir þetta verkefni skaltu þess vegna vera viss um að flytja út allar sérstillingar sem þú gætir viljað síðar.
-
-Notendur sem hafa aðgang að síðunni **Sérstillingar** geta einnig flutt inn persónulegar skoðanir eða sniðmát með því að nota hnappinn **Flytja inn skoðanir** á aðgerðarrúðunni.
 
 ## <a name="personalizing-inventory-dimensions"></a>Sérstilling birgðavídda
 

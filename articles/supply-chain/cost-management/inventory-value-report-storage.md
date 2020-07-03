@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 03426e86186c6aa283531eb37ae26527e6891042
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 2742c5c12dcc554745b618dd1ff819c8c1e1d05f
+ms.sourcegitcommit: b0e4fa3fb43cf05fce4c833da73012cb01450125
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276926"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3413100"
 ---
 # <a name="inventory-value-storage-report"></a>Skýrsla um birgðavirði í geymslu
 
@@ -50,7 +50,7 @@ Fylgdu þessum skrefum til að búa til og geyma skýrslu um **Birgðarvirði í
 1. Veljið **Nýtt**.
 1. Í valmyndinni **Birgðavirði** sem birtist skaltu stilla eftirfarandi gildi til að skilgreina hvaða skrár skal taka með í skýrslunni:
 
-    - Sláðu inn einkvæmt heiti skýrslunnar í flýtiflipanum **Færibreytur** og notaðu svæðin í hlutanum **Dagsetningabil** til að skilgreina hvaða skrár eru teknar með í skýrslunni. Til að tilgreina dagsetningabilið geturðu annað hvort valið forstillt svið (miðað við hvenær skýrslan var búin til) í svæðinu **Kóði dagsetningabils** eða valið ákveðin dagsetningar í reitunum **Frá dagsetningu** og **Til dagsetningar**. <!-- KFM: What is the ID setting for here? What do its values mean? -->
+    - Sláðu inn einkvæmt heiti skýrslunnar í flýtiflipanum **Færibreytur** og notaðu svæðin í hlutanum **Dagsetningabil** til að skilgreina hvaða skrár eru teknar með í skýrslunni. Til að tilgreina dagsetningabilið geturðu annað hvort valið forstillt svið (miðað við hvenær skýrslan var búin til) í svæðinu **Kóði dagsetningabils** eða valið ákveðin dagsetningar í reitunum **Frá dagsetningu** og **Til dagsetningar**.
     - Á flýtiflipanum **Færslur til að taka með** skaltu setja upp síur og takmarkanir til að skilgreina hvaða gögn á að taka með í skýrslunni.
     - Á flýtiflipanum **Keyra í bakgrunni** skaltu tilgreina hvernig, hvenær og hversu oft á að búa skýrsluna til.
 

@@ -3,7 +3,7 @@ title: Afþakka sérsniðnar tillögur
 description: Þetta efni útskýrir hvernig þú getur látið viðskiptavini afþakka að fá persónulegar ráðleggingar í Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e88980ef6ad585826762c8be35304aecbcc02ab
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 87c031c045249dbcde274d7c741beb72c3216aa8
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154296"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404280"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Afþakka sérsniðnar tillögur
 
@@ -85,7 +85,7 @@ Eftirfarandi dæmi sýnir hvernig smásala getur sinnt þessu verkefni.
 
 [Yfirlit yfir afurðarráðleggingar](product-recommendations.md)
 
-[Virkja ADLS í Dynamics 365 Commerce umhverfi](enable-adls-environment.md)
+[Virkja Azure Data Lake Storage í Dynamics 365 Commerce-umhverfi](enable-adls-environment.md)
 
 [Virkja ráðleggingar um afurðir](enable-product-recommendations.md)
 

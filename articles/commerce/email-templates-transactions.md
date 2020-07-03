@@ -3,7 +3,7 @@ title: Stofna sniðmát fyrir tölvupóst fyrir færslutilvik
 description: Þetta efnisatriði lýsir því hvernig á að búa til, hlaða upp og skilgreina tölvupóstssniðmát fyrir færslutilvik í Microsoft Dynamics 365 Commerce.
 author: stuharg
 manager: annbe
-ms.date: 05/11/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5cd928e90654cca639ed1e163be9192c0dffd9ad
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: a02839088addfa9b405af486f3b795eace1671cc
+ms.sourcegitcommit: 4db8c30c2f26af1896938dd3ece3756577374ecb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367176"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3416580"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Stofna sniðmát fyrir tölvupóst fyrir færslutilvik
 
@@ -40,7 +40,7 @@ Dynamics 365 Commerce býður upp á lausn til að senda tölvupóst til að lá
 
 Til að stofna tölvupóstsniðmát, skal fylgja eftirfarandi skrefum.
 
-1. Í Commerce Headquarters þarf að opna **Smásala og viðskipti \> Uppsetning höfuðstöðva \> Tölvupóstssniðmát fyrirtækis**.
+1. Í höfuðstöðvum Commerce skal opna **Tölvupóstssniðmát fyrirtækis**, sem er undir **Smásala og viðskipti \> Uppsetning höfuðstöðva \> Tölvupóstssniðmát fyrirtækis** eða **Fyrirtækisstjórnun \> Uppsetning \> Tölvupóstssniðmát fyrirtækis**.
 1. Veljið **Nýtt**.
 1. Undir **Almennt** skal stilla eftirfarandi reiti:
 

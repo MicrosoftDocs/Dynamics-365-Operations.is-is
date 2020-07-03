@@ -3,7 +3,7 @@ title: Yfirlit yfir aðgerðir viðskiptavina
 description: Í þessu efnisatriði er að finna yfirlit yfir nýja aðgerðagetu viðskiptavina sem er í boði í verslunarforritinu.
 author: bebeale
 manager: AnnBe
-ms.date: 11/01/19
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 4f045f8509a6b5027fd3cf8e5ca9e382457a5e83
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d76668fa16a7634e7fbd953afaa6c89eed5457a2
+ms.sourcegitcommit: 21943fa91c35f063a5bd064290bf2c005394df52
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022872"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456508"
 ---
 # <a name="clienteling-overview"></a>Yfirlit yfir biðlaraþjónustu
 
@@ -115,7 +115,7 @@ Fylgdu þessum skrefum til að setja samþættinguna upp.
 3. Búðu til Azure lykilgeymslu og vistaðu forritsleyndarmálið. Fyrir leiðbeiningar skal sjá [Stuttur leiðarvísir: Stilla og sækja leyndarmál úr Azure lyklageymslu með Azure vefsíðunni](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
 4. Kveiktu á aðgangi að Azure lykilgeymslu úr Commerce. Til að ljúka þessu skrefi verður þú að hafa auðkenni umsóknar og leyndarmál. Forritið getur verið sama forrit og þú bjóst til í skrefi 1, eða það getur verið nýtt forrit. (Með öðrum orðum, þú getur notað forritið sem þú bjóst til í skrefi 1 fyrir bæði lykilgeymsluaðgang og þjónustuaðgang Customer Insights, eða þú getur búið til einstakt forrit fyrir hverja tegund aðgangs.) Fyrir leiðbeiningar skal sjá [Geymið helstu skilríki í Azure Stack lykilgeymslunni](https://docs.microsoft.com/azure-stack/user/azure-stack-key-vault-store-credentials?view=azs-1908#create-a-service-principal).
 5. Í Headquarters ferðu í **Kerfisstjórnun \> Uppsetning \> Færibreytur lykilgeymslu** og sláðu inn nauðsynlegar upplýsingar um lykilgeymslu. Síðan, í reitnum **Biðlari lyklageymslu**, slærðu inn forritskennið sem þú notaðir í skrefi 4, svo að Commerce geti nálgast leyndarmál í lyklageymslunni.
-6. Til að bæta forritinu sem þú bjóst til í skrefi 1 á lista yfir örugg forrit (stundum vísað til sem hvítlista) skaltu fara í Customer Insights og veita aðganginn **Skoða** að forritinu. Fyrir leiðbeiningar skal sjá [Heimildir](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
+6. Til að bæta forritinu sem þú bjóst til í skrefi 1 við listann yfir örugg forrit (stundum kallað öruggur listi) skal fara í Customer Insights og veita forritinu aðganginn **Skoða**. Fyrir leiðbeiningar skal sjá [Heimildir](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
 7. Í Commerce, á síðunni **Færibreytur Commerce**, á flipanum **Viðskiptavinir**, á flýtiflipanum **Dynamics 365 Customer Insights**, fylgirðu þessum skrefum:
 
     1. Í reitinn **Forritskenni** slærðu inn forritskennið sem þú notaðir í skrefi 1.

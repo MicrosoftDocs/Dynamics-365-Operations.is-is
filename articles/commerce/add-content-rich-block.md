@@ -3,7 +3,7 @@ title: Textabálkseining
 description: Þetta efni fjallar um textabálkseiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fc5b2fa35633b1ce7f7ffefacec318e14fa8db3f
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 93ad09a05d188a30b099b9a44c35e15839be80a7
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025598"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411136"
 ---
 # <a name="text-block-module"></a>Textabálkseining
 
@@ -46,9 +46,13 @@ Hægt er að nota textabálkseiningar á eftirfarandi hátt:
 * Til að bæta við sérsniðnum skilaboðum á upplýsingasíðu. (til dæmis „Ókeypis sending fyrir pantanir yfir $50“).
 * Fyrir fyrirvara og samskiptaupplýsingar á vöruupplýsingasíðum, körfusíðum, kassasíðum og öðrum síðum (til dæmis „Sendingar og skil falla undir verslunarstefnu“).
 
+Eftirfarandi mynd sýnir dæmi um textabálkseiningu sem er notuð á heimasíðu.
+
+![Dæmi um einingu textabálks](./media/ecommerce-textblock.PNG)
+
 ## <a name="text-block-module-properties"></a>Eiginleikar textabálkseiningar
 
-| Nafn eiginleika     | Value                                            | Lýsing |
+| Nafn eiginleika     | Virði                                            | lýsing |
 |-------------------|--------------------------------------------------|-------------|
 | RTF-snið         | RTF-snið                                        | Texti efnisgreinar. Stuðningur er við nokkra grunntextaeiginleika, eins og feitletrun, undirstrikun og skáletrun texta. |
 | Sérsniðið heiti klasa | Klasaheiti Cascading Style Sheets (CSS)        | Heiti sérsniðins CSS-klasa sem forritari veitir til að forsníða þessa einingu. Skilgreina ætti klasaheitið í þemapakkanum. |
@@ -58,21 +62,27 @@ Hægt er að nota textabálkseiningar á eftirfarandi hátt:
 
 Fylgdu þessum skrefum til að bæta textabálkseiningu við nýja síðu og stilla nauðsynlega eiginleika.
 
-1. Búðu til síðusniðmát sem heitir **Efnissniðmát**. 
-1. Í hólfinu **Meginmál** bætirðu við einingunni **Sjálfgefin síða**.
-1. Ljúktu við að breyta sniðmátinu, vistaðu það og birtu.
-1. Notaðu efnissniðmátið sem þú bjóst til til að búa til síðu sem heitir **Efnissíða**.
-1. Í hólfinu **Aðal** á nýju síðunni bætirðu við gámaeiningu.
+1. Farðu í **Sniðmát** og veldu **Nýtt** til að búa til nýtt sniðmát.
+1. Í svarglugganum **Nýtt sniðmát**, undir **Heiti sniðmáts**, skal slá inn **Efnissniðmát**.
+1. Í hólfinu **Meginmál**, skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Sjálfgefin síða** og síðan velja **Í lagi**.
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
+1. Farðu í **Síður** og veldu **Ný** til að búa til nýja síðu.
+1. Í svarglugganum **Velja sniðmát** skal velja **Efnissniðmát**. Undir **Síðuheiti** skal færa inn **Efnissíða** og síðan velja **Í lagi**.
+1. Í hólfinu **Aðalsvæði** á nýju síðunni skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Hólf** og síðan velja **Í lagi**.
 1. Í eiginleikaglugganum fyrir gámaeininguna stillirðu eiginleikann **Breidd** á **Fylla gám**.
-1. Bættu textabálkseiningu við gámaeininguna. 
+1. Í hólfinu **Hólf** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Textabálkur** og síðan velja **Í lagi**. 
 1. Í eiginleikaglugga textabálkseiningarinnar bætirðu texta við í reitinn **Mótaður texti**.
-1. Ljúktu við að breyta síðunni, vistaðu hana og birtu.
+1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna.
+1. Veldu**Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit byrjendaeiningar](starter-kit-overview.md)
 
-[Kynningarborðaeining](add-alert.md)
+[Tilboðsborðaeining](add-alert.md)
 
 [Myndaræmueining](add-carousel.md)
 

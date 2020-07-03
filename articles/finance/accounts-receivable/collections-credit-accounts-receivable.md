@@ -1,5 +1,5 @@
 ---
-title: Skuldir og innheimtur í viðskiptakröfum
+title: Innheimta í viðskiptakröfum
 description: Innheimtuupplýsingum viðskiptakrafna er stjórnað í einu miðlægu yfirliti með því að nota síðuna Söfn Microsoft Dynamics 365 Finance. Stjórnendur kredit- og innheimtubréfa geta notað þetta miðlæga yfirlit til að stjórna innheimtu. Innheimtustjórar getur hafið ferli innheimtuaðgerða úr lista viðskiptavina sem er myndaður með því að nota forskilgreind skilyrði um innheimtubréf eða frá síðunni Viðskiptavinir.
 author: ShivamPandey-msft
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 471de43bc0d171e60100613a6d779a249cd9e92f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c150eb7283b34c82e728da36ed0e1e6643eff46a
+ms.sourcegitcommit: be7e4378c8122c6e7cfc4e7991efbdffee45e006
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189178"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "3426397"
 ---
-# <a name="credit-and-collections-in-accounts-receivable"></a>Skuldir og innheimtur í viðskiptakröfum
+# <a name="collections-in-accounts-receivable"></a>Innheimta í viðskiptakröfum
 
 [!include [banner](../includes/banner.md)]
 
@@ -68,7 +68,7 @@ Eftirfarandi listasíður aðstoða við skipulagningu upplýsingar um innheimtu
 
 > [!NOTE]
 > Stofna skal aldursgreiningarmynd áður en hægt er að skoða upplýsingar á þessum listasíðum. Upplýsingar eru aðeins sýndar vegna viðskiptavina sem aldursgreiningarmynd hefur verið stofnuð fyrir. Færslurnar sem eru birtar á listasíðunni geta verið síaðar að auki sem hér segir:
-> <li>Að sjálfgefnu hefur notandi Finance and Operations aðgang að öllum viðskiptavinum sem hafa aldursgreiningarmynd.</li>
+> <li>Að sjálfgefnu hefur Finance and Operations-notandi aðgang að öllum viðskiptavinum sem hafa aldursgreiningarmynd.</li>
 > <li>Ef viðskiptavinahópar eru til staðar verður að setja notanda upp sem innheimtufulltrúa til að nota hópana til að sía upplýsingar í listasíður innheimtu. Upplýsingar takmarkast við viðskiptavini sem eru hafðir með í valda viðskiptavinahópnum.</li>
 > <li>Ef notandi er settur upp sem innheimtufulltrúi eru aðeins þeir hópar sem eru valdar fyrir þann innheimtufulltrúa tiltækar á listasíðu. Ef breytan Leyfa fulltrúa að skoða allar viðskiptavinahópa er valin í Innheimtufulltrúa síðunni fyrir innheimtufulltrúann eru allir hópar tiltækir fyrir þann fulltrúa.</li>
 

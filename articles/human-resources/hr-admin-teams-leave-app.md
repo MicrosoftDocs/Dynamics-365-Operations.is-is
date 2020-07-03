@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: FeatureManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 423ec36a73e8af9d915c5cfe16bd4d552448e2b6
-ms.sourcegitcommit: d1541831d556b722a71aed442043ffb4a4576d87
+ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "3388117"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431131"
 ---
 # <a name="human-resources-app-in-teams"></a>Forritið „Human Resources“ í Teams
 
@@ -45,6 +45,7 @@ Frekari upplýsingar um stjórnun forritsheimilda í Teams er að finna í [Stj�
 
 | Úthreyfing | Staða |
 | --- | --- |
+| Villa: Vandamál kom upp við að finna umhverfi til að tengjast við. | Þessi villa gæti komið upp jafnvel þótt búið sé að staðfesta að notandinn megi fá aðgang að einu eða fleiri mannauðsumhverfum. Að auki er ekki víst að öll umhverfin sjáist eins og vonast var eftir. Þangað til leyst verður úr þessu vandamáli þarf að eyða notandanum og flytja hann síðan inn aftur til að komast hjá þessum vanda. |
 | Staðan er röng þegar sendur er frítími fyrir dagsetningu í framtíðinni. | Spár eru ekki enn til staðar. Staðan birtist fyrir núverandi dagsetningu. |
 | Þegar tekinn fjöldi stunda er minnkaður í fyrirliggjandi beiðni fer **Eftirstandandi staða** niður í stað þess að fara upp. | Við munum leysa úr þessu vandamáli í framtíðinni. Birting er röng, en réttar upphæðir eru leiðréttar við sendingu. |
 | Tvö **Væntanlegt frí** kort birtast fyrir sömu dagsetningar. | Kortin tákna einstakar sendingar. Við munum halda áfram að taka við ábendingum og gera breytingar. |

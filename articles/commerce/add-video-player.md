@@ -3,7 +3,7 @@ title: Myndspilaraeining
 description: Þetta efni fjallar um myndspilaraeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e94658eed12b12d6666e63d2c06b86646c81a120
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 0612682d310362c7523bf08db40faf51c80ea2e3
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025650"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411160"
 ---
 # <a name="video-player-module"></a>Myndspilaraeining
 
@@ -47,9 +47,13 @@ Myndbandsspilaeiningin styður einnig aðrar hljóðrásir. Þegar myndskeiði e
 - Kynningarmyndbönd eða myndbönd um stefnu á hvaða markaðssíðu sem er
 - Markaðssetningarmyndbönd sem varpa ljósi á vöruaðgerðir á upplýsingasíðum eða markaðssíðum
 
+Eftirfarandi mynd sýnir dæmi um myndspilaraeiningu á heimasíðu.
+
+![Dæmi um myndspilaraeiningu](./media/ecommerce-videoplayer.PNG)
+
 ### <a name="video-player-module-properties"></a>Eiginleikar myndspilaraeiningar
 
-| Nafn eiginleika         | Virði                               | Lýsing |
+| Nafn eiginleika         | Virði                               | lýsing |
 |-----------------------|-------------------------------------|-------------|
 | Sjálfvirk spilun             | **Satt** eða **Ósatt**               | Þegar gildi er stillt á **Satt** er myndskeiðið sjálfkrafa spilað. |
 | Þagga                  | **Satt** eða **Ósatt**               | Þegar gildi er stillt á **Satt** er skrúfað fyrir hljóðið. Fyrir þennan spilara er sjálfgildið **Ósatt**. Í Chrome-vafranum er sjálfvirk spilun myndskeiða sjálfgefið þögguð og hljóðið er aðeins spilað ef notandinn spilar myndbandið handvirkt. |
@@ -68,22 +72,34 @@ Myndbandsspilaeiningin styður einnig aðrar hljóðrásir. Þegar myndskeiði e
 
 Fylgdu þessum skrefum til að bæta myndspilaraeiningu við nýja síðu og stilla nauðsynlega eiginleika.
 
-1. Búðu til síðusniðmát sem heitir **myndspilarasniðmát**.
-1. Í hólfinu **Aðal** á sjálfgefnu síðunni bætirðu við gámaeiningu.
-1. Bætið við myndspilara- og umhverfismyndspilaraeiningunum í gámaeiningunni.
-1. Ljúktu við að breyta sniðmátinu, vistaðu það og birtu.
-1. Notaðu myndspilarasniðmátið sem þú stofnaðir til að búa til síðu sem heitir **myndspilarasíða**.
-1. Í hólfinu **Aðal** á nýju síðunni bætirðu við einingu myndspilara.
-1. Í eiginleikaglugganum fyrir myndspilaraeininguna velurðu **Bæta við myndskeiði**.
+1. Farðu í **Sniðmát** og veldu **Nýtt** til að búa til nýtt sniðmát.
+1. Í svarglugganum **Nýtt sniðmát**, undir **Heiti sniðmáts**, skal slá inn **Sniðmát myndspilara** og velja síðan **Í lagi**.
+1. Í hólfinu **Meginmál**, skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Sjálfgefin síða** og síðan velja **Í lagi**.
+1. Í hólfinu **Aðalsvæði** í einingunni **Sjálfgefin síða** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Hólf** og síðan velja **Í lagi**.
+1. Í hólfinu **Hólf** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Myndspilari** og síðan velja **Í lagi**.
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það. 
+1. Farðu í **Síður** og veldu **Ný** til að búa til nýja síðu.
+1. Í svarglugganum **Velja sniðmát** skal velja það sniðmát myndspilara sem var búið til. Undir **Síðuheiti** skal færa inn **Myndspilarasíða** og síðan velja **Í lagi**.
+1. Í hólfinu **Aðalsvæði** á nýju síðunni skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Hólf** og síðan velja **Í lagi**.
+1. Í hólfinu **Hólf** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Myndspilari** og síðan velja **Í lagi**.
+1. Á eiginleikasvæði myndspilaraeiningar skal velja **Bæta við myndbandi**.
 1. Í valmyndinni **Miðlaval** velurðu myndskeið og velur síðan **Hlaða upp nýjum miðli**.
-1. Vistaðu og forskoðaðu síðuna. Þú ættir að sjá myndskeiðseininguna á síðunni. Þú getur breytt viðbótarstillingum til að sérsníða hegðun einingarinnar.
-1. Ljúktu við að breyta síðunni, vistaðu hana og birtu.
+1. Í File Explorer skal velja myndbandsskrá og velja síðan **Opna**.
+1. Í glugganum **Hlaða upp margmiðlunarefni** skal slá inn titil og aðrar upplýsingar eftir þörfum og velja síðan **Í lagi**.
+1. Í glugganum **Val á miðli** skal velja **Loka**.
+1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna. Þú ættir að sjá myndskeiðseininguna á síðunni. Þú getur breytt viðbótarstillingum til að sérsníða hegðun einingarinnar.
+1. Veldu**Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana. 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit byrjendaeiningar](starter-kit-overview.md)
 
-[Kynningarborðaeining](add-alert.md)
+[Tilboðsborðaeining](add-alert.md)
 
 [Myndaræmueining](add-carousel.md)
 

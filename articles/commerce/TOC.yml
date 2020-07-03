@@ -70,11 +70,11 @@
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Finance and Operations-forrit rekin af 21Vianet í Kína
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
-                - name: Finance and Operations forrit í Frakklandi
+                - name: Finance and Operations-forrit í Frakklandi
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Uppfærsla og N-1 stuðningur
               items:
-                - name: Uppfærsla og N-1 stuðningur við Retail
+                - name: Uppfærsla og N-1 stuðningur við Commerce
                   href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: 'Stigvaxandi útfærsla (N-1) uppsetningar, skilgreiningar og kerfaskiptingar'
                   href: dev-itpro/n-1-installation-configuration.md
@@ -94,8 +94,6 @@
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (maí 2020)
                       href: get-started/whats-new-commerce-10-0-10.md
-                    - name: Commerce 10.0.9 (apríl 2020)
-                      href: get-started/whats-new-10-0-9.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Finance and Operations
@@ -504,6 +502,8 @@
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: Öflug sannvottun viðskiptavinar (SCA) með Adyen-tengli
                       href: adyen_redirect.md
+                    - name: Sérnýttar greiðslustöðvar og kvaðningar fyrir prentara og peningaskúffu
+                      href: pos-multi-hws.md
                     - name: Þægilegur rofi án nettengingar fyrir gjafakort og notkun kreditreikninga
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Uppsetning á greiðsluaðstæðum reikninga
@@ -572,6 +572,10 @@
                       href: set-up-bar-codes.md
                     - name: Setja upp strikamerkjasíur
                       href: set-up-bar-code-masks.md
+                - name: Ábyrgðir
+                  items:
+                    - name: Búa til og skilgreina framlengdar ábyrgðir
+                      href: extended-warranty.md
             - name: Verðlagning og afslættir
               items:
                 - name: Afslættir
@@ -974,7 +978,7 @@
                       href: cart-icon-module.md
                     - name: Greiðsluferliseining
                       href: add-checkout-module.md
-                    - name: Eining pöntunarstaðfestingar
+                    - name: Pöntunarupplýsingaeining
                       href: order-confirmation-module.md
                     - name: Vista valeiningu
                       href: store-selector.md
@@ -1896,6 +1900,8 @@
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: Skilgreina þróunarumhverfisskrá (.env)
                       href: e-commerce-extensibility/configure-env-file.md
+                    - name: Kemba með hliðsjón af þróunarumhverfi lags 1 í Commerce
+                      href: e-commerce-extensibility/debug-tier-1.md
                     - name: Setja upp kóðadeilingu fyrir Azure DevOps og búa til sölukeðju smíðar
                       href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: Yfirlit yfir verkvang
@@ -2028,11 +2034,13 @@
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
                 - name: Þróun í þróunarumhverfi sem hýst er í skýi án stjórnandaaðgangs
                   href: dev-itpro/cloud-dev-box.md
+                - name: Setja upp sölukeðju Commerce SDK smíðar
+                  href: dev-itpro/retail-sdk/SDK-build-pipeline.md
             - name: Stækkunarhæfni sölustaðar
               items:
                 - name: Útlitshönnun sölustaðarskjás
                   href: pos-screen-layouts.md
-                - name: Opna vefslóð í POS
+                - name: Opna vefslóð á sölustað
                   href: Open-URL-in-POS.md
                 - name: Setja upp útlitshönnuð sölustaðar
                   href: install-pos-layout-designer.md

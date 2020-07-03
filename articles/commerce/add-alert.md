@@ -3,7 +3,7 @@ title: Auglýsingaborðaeining
 description: Þetta efni fjallar um auglysingaborðaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,15 +18,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 12cabbf0b8d9f337f15a8cd6cb1f2a85100b75f7
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: dae824cdbaaf56f85f125c5f36aaa56171bbd6bc
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269775"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411366"
 ---
 # <a name="promo-banner-module"></a>Auglýsingaborðaeining
-
 
 [!include [banner](includes/banner.md)]
 
@@ -48,9 +47,15 @@ Hægt er að nota auglýsingaborða í haus síðunnar til að sýna kynningar e
 
 „Stórsparnaður með útsölu fyrir skólann. Verslaðu núna."
 
+„Verslaðu á þakkargjörðarútsölunni!“ 
+
+Eftirfarandi mynd sýnir dæmi um tilboðsborða.
+
+![Dæmi um einingu tilboðsborða](./media/ecommerce-Promobanner.PNG)
+
 ## <a name="promo-banner-module-properties"></a>Eiginleikar auglýsingaborðaeiningar
 
-| Nafn eiginleika             | Value                              | Lýsing |
+| Nafn eiginleika             | Virði                              | lýsing |
 |---------------------------|------------------------------------|-------------|
 | Skilaboð vefborða           | Texti og tenglar                     | Úrval texta og tengla. |
 | Sjálfvirk spilun                  | **Satt** eða **Ósatt**              | Gildi sem gefur til kynna hvort skilaboðum sé sjálfkrafa hleypt í gegn, ef mörg skilaboð eru stillt. |
@@ -64,7 +69,7 @@ Hægt er að nota auglýsingaborða í haus síðunnar til að sýna kynningar e
 
 Fylgdu þessum skrefum til að bæta auglýsingaborðaeiningu við síðu og stilla nauðsynlega eiginleika.
 
-1. Veljið **Ný** til að stofna nýtt síðusniðmát.
+1. Farðu í **Sniðmát** og veldu **Nýtt** til að búa til nýtt sniðmát.
 1. Í svarglugganum **Nýtt sniðmát** undir **Heiti sniðmáts** skaltu slá inn **Sniðmát tilboðsborða** og velja síðan **Í lagi**.
 1. Undir **Útlínur síðu** bætirðu við einingunni **Sjálfgefin síða** við hólfið **Meginmál**. 
 1. Veldu **Ljúka við breytingar** til að athuga með sniðmátið og veldu síðan **Birta** til að birta það. 
@@ -74,7 +79,7 @@ Fylgdu þessum skrefum til að bæta auglýsingaborðaeiningu við síðu og sti
 1. Undir **Útlínur síðu** bæirðu auglýsingaborðaeiningu við gámaeininguna.
 1. Bættu við einum eða fleiri borðaskilaboðum í stillingunum fyrir borðaeininguna. Hver skilaboð geta verið með texta ásamt tengli. Þú getur breytt öðrum eiginleikum til að sérsníða eininguna frekar.
 1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna. Efst á síðunni ættirðu að sjá viðvörun sem sýnir textann sem þú bættir við.
-1. Veldu**Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana. 
+1. Veldu**Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
 
 > [!NOTE]
 > Auglýsingaborði er venjulega notaður í hólfi síðuhausa eða hólfi undirhauss.

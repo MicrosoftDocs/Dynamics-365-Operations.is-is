@@ -3,7 +3,7 @@ title: Gera notendum kleift að fá tölvupóst sem tengjast verkflæði
 description: Hægt er að grunnstilla kerfið til að senda tölvupóst til notenda þegar tilvik verkflæðis sem tengjast eiga sér stað.
 author: jasongre
 manager: AnnBe
-ms.date: 07/01/2019
+ms.date: 06/01/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4c9f2f22bc4b5ca5b4351f7956ad2eb6d3b903d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 40ad380c7bfb2b3fc518b0278286ae03532668ed
+ms.sourcegitcommit: 4db8c30c2f26af1896938dd3ece3756577374ecb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140422"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3416554"
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a>Gera notendum kleift að fá tölvupóst sem tengjast verkflæði
 
@@ -40,3 +40,5 @@ Hægt er að grunnstilla kerfið til að senda tölvupóst til notenda þegar ti
 6. Smellt er á **Vista**.
 7. Lokið síðunni.
 
+> [!NOTE]
+> Tölvupóstssniðmát verkflæðis verða fengin frá annaðhvort tölvupóstssniðmátum kerfis eða fyrirtækis, fer eftir því hvort verkflæðið is á kerfisstigi (miðast ekki við fyrirtæki) eða verkflæði á fyrirtækisstigi (miðast við fyrirtæki).

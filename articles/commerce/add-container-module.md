@@ -3,7 +3,7 @@ title: Hólfeining
 description: Þetta efni fjallar um gámaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 93c16da0988cc955835231bdd1f7342f19063f85
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c7d607047aab92144932b4b59db050a588d6483d
+ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025529"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3417347"
 ---
 # <a name="container-module"></a>Hólfeining
-
 
 [!include [banner](includes/banner.md)]
 
@@ -46,9 +45,13 @@ Gámaeining er eining sem hýsir aðrar einingar. Megintilgangur gámaeiningar e
 - Vefhöfundur vill sex dálka skipulag, þar sem sex einingar birtast hlið við hlið. Þess vegna notar vefhöfundur gám af efnisgerðinni sem hefur sex dálka í sér.
 - Vefhöfundur vill setja einingu á síðu en vill ekki að hún fylli skjáinn. Þess vegna bætir vefhöfundur einingunni við gámaeininguna og stillir eiginleikann **Breidd** á **Passa í gám** fyrir gáminn.
 
+Eftirfarandi mynd sýnir dæmi um hólfaeiningu sem inniheldur myndaræmueiningu í svæðissmið Commerce. Í þessu dæmi er eiginleikinn **Breidd** í hólfaeiningunni stilltur á **Fylla skjáinn**.
+
+![Dæmi um hólfaeiningu](./media/ecommerce-container.PNG)
+
 ## <a name="container-module-properties"></a>Eiginleikar geymiseiningar
 
-| Nafn eiginleika     | Gildi | Lýsing |
+| Nafn eiginleika     | Gildi | lýsing |
 |-------------------|--------|-------------|
 | Fyrirsögn           | Texti og merki fyrirsagnar (**H1**, **H2**, **H3**, **H4**, **H5** eða **H6**) | Hægt er að veita valfrjálsa fyrirsögn fyrir gáminn. Sjálfgefið er að fyrirsagnarmerkið **H2** er notað fyrir fyrirsögnina. Hins vegar er hægt að breyta merkinu til að uppfylla kröfur um aðgengi. |
 | Breidd             | **Passa í gám** eða **Fylla skjáinn** | Ef gildi er stillt á **Passa í gám** (sjálfgildið) eru einingarnr í myndaræmunni takmarkaðir við breidd gámsins. Ef gildið er stillt á **Fylla skjáinn** eru einingarnar ekki takmarkaðar við breidd gámsins en geta fyllt allan skjáinn. |
@@ -99,23 +102,32 @@ Hægt er að nota viðbótareiginleika til að hámarka skipulag fyrir mismunand
 
 Fylgdu þessum skrefum til að bæta gámaspilaraeiningu við nýja síðu og stilla nauðsynlega eiginleika.
 
-1. Búðu til síðusniðmát sem heitir **gámasniðmát**. 
-1. Í hólfinu **Meginmál** bætirðu við einingunni **Sjálfgefin síða**.
-1. Ljúktu við að breyta sniðmátinu, vistaðu það og birtu.
-1. Notaðu gámasniðmátið sem þú bjóst til til að búa til síðu sem heitir **gámasíða**.
-1. Í hólfinu **Aðal** á nýju síðunni bætirðu við gámaeiningu.
+1. Farðu í **Sniðmát** og veldu **Nýtt** til að búa til nýtt sniðmát.
+1. Í svarglugganum **Nýtt sniðmát**, undir **Heiti sniðmáts**, skal slá inn **Hólfasniðmát** og velja síðan **Í lagi**.
+1. Í hólfinu **Meginmál**, skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Sjálfgefin síða** og síðan velja **Í lagi**.
+1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það. 
+1. Farðu í **Síður** og veldu **Ný** til að búa til nýja síðu.
+1. Í svarglugganum **Velja sniðmát** skal velja það sniðmát myndspilara sem var búið til. Undir **Síðuheiti** skal færa inn **Hólfasíðu** og síðan velja **Í lagi**.
+1. Í hólfinu **Aðalsvæði** á nýju síðunni skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Hólf** og síðan velja **Í lagi**.
 1. Í eiginleikaglugganum fyrir gámaeininguna stillirðu eiginleikann **Fjöldi dálka** á **1** og eiginleikann **Breidd** á **Fylla gám**.
-1. Bættu innihaldsbálkseiningu við í gámaeiningunni.
+1. Í hólfinu **Hólf** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Innihaldsbálkur** og síðan velja **Í lagi**.
 1. Stilltu fyrirsögnina, myndina og skipulagið í eiginleikaglugganum fyrir innihaldsbálkseininguna.
-1. Vistaðu og forskoðaðu síðuna. Þú ættir að sjá eina eiginleikaeiningu sem passar innan breiddar gámaeiningarinnar.
+1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna. Þú ættir að sjá eina eiginleikaeiningu sem passar innan breiddar gámaeiningarinnar.
 1. Í eiginleikaglugganum fyrir gámaeininguna skaltu breyta gildi eiginleikans **Fjöldi dálka** í **3**.
-1. Bættu tveimur innihaldsbálkseiningum í viðbót við gámaeininguna.
-1. Vistaðu og forskoðaðu síðuna. Núna ættirðu að sjá þrjár innihaldsbálkseiningar sem birtast hlið við hlið.
-1. Eftir að þú hefur náð því skipulagi sem þú vilt skaltu ljúka við að breyta síðunni og birta hana.
+1. Bæta tveimur einingum innihaldsbálks við hólfaeininguna og stilla þær.
+1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna. Núna ættirðu að sjá þrjár innihaldsbálkseiningar sem birtast hlið við hlið.
+1. Þegar settu útliti er náð skal velja **Ljúka við breytingar** til að skila síðunni og velja síðan **Birta** til að birta hana.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Yfirlit byrjendaeiningar](starter-kit-overview.md)
+
+[Fellingareining](add-accordion.md)
+
+[Flipaeining](add-tab.md)
 
 [Myndaræmueining](add-carousel.md)
 

@@ -3,24 +3,24 @@ title: Virkja Azure Active Directory sannvottun fyrir POS innskráningu
 description: Þetta efni útskýrir hvernig á að stilla innskráningarupplifunina fyrir Microsoft Dynamics 365 Commerce sölustað (POS) þannig að hún noti Azure Active Directory auðkenningu.
 author: boycezhu
 manager: annbe
-ms.date: 03/08/2020
+ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: v-chgri
 ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: dfc49585434383385b6b993893d93b95ef888384
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 4f5a02348e8cef44424ae5d6a49de02d762ba245
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248941"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410036"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Virkja Azure Active Directory sannvottun fyrir POS innskráningu
 [!include [banner](includes/banner.md)]
@@ -47,6 +47,8 @@ Fylgdu þessum skrefum til að beita stillingunum til POS viðskiptavina.
 
 > [!NOTE]
 > Azure AD sannvottun krefst internettengingar. Það virkar ekki þegar POS er í stillingu án nettengingar.
+> 
+> Sem stendur styður aðgerðin **Hnekking stjórnanda** ekki Azure AD sem sannvottunaraðferð. Krafist er notandakennis og aðgangsorðs jafnvel þótt Azure AD er skilgreint sem sannvottunaraðferðin fyrir innskráningu sölustaðar.
 
 ## <a name="associate-an-azure-ad-account-with-a-worker"></a>Tengja við Azure AD reikning hjá starfsmanni
 

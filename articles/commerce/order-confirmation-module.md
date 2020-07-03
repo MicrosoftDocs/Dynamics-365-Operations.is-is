@@ -3,7 +3,7 @@ title: Upplýsingaeining pöntunar
 description: Þetta efni fjallar um upplýsingaeiningar pantana og lýsir því hvernig á að nota þær í Microsoft Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 06/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cb09a0b6ce1e48707f96021e9fad0006d9c1c55c
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c2ec629d9fd027be01652351ab1c99001e063e30
+ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026018"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "3464931"
 ---
 # <a name="order-details-module"></a>Upplýsingaeining pöntunar
 
@@ -35,11 +35,11 @@ ms.locfileid: "3026018"
 
 Eftir að pöntun hefur verið gerð er hægt að nota staðfestingarhlutann til að sýna staðfestingarupplýsingar. Hún sýnir auðkenni pöntunarstaðfestingar, upplýsingar um pöntunarupplýsingar og aðrar pöntunarupplýsingar, svo sem hlutina sem voru keyptir, greiðsluupplýsingar og sendingaraðferð.
 
-## <a name="order-confirmation-module-properties"></a>Eiginleikar staðfestingareiningar pöntunar
+## <a name="order-details-module-properties"></a>Eiginleikar upplýsingaeiningar pöntunar
 
-| Nafn eiginleika  | Gildi | Lýsing |
+| Nafn eiginleika  | Gildi | lýsing |
 |----------------|--------|-------------|
-| Fyrirsögn        | Texti og merki fyrirsagnar (**H1**, **H2**, **H3**, **H4**, **H5** eða **H6**) | Pöntunarstaðfestingareiningin getur haft fyrirsögn. Sjálfgefið er að fyrirsagnarmerkið **H2** er notað fyrir fyrirsögnina. Hins vegar er hægt að breyta merkinu til að uppfylla kröfur um aðgengi. |
+| Yfirskrift        | Texti og merki fyrirsagnar (**H1**, **H2**, **H3**, **H4**, **H5** eða **H6**) | Upplýsingaeining pöntunar getur verið með haus. Sjálfgefið er að fyrirsagnarmerkið **H2** er notað fyrir fyrirsögnina. Hins vegar er hægt að breyta merkinu til að uppfylla kröfur um aðgengi. |
 | Númer tengiliðar | Text | Hægt er að gefa upp tengiliðanúmer fyrir pöntunarskyldar spurningar. |
 
 ## <a name="modules-that-can-be-used-on-an-order-details-page"></a>Einingar sem hægt er að nota á pöntunarupplýsingasíðu
@@ -49,22 +49,26 @@ Eftir að pöntun hefur verið gerð er hægt að nota staðfestingarhlutann til
 - **Tillögueining** - Hægt er að bæta tillögueiningunni við á upplýsingasíðu pöntunar til að benda viðskiptavinum á aðrar vörur.
 - **Markaðseiningar** - Hægt er að bæta hvaða markaðsseining sem er við pöntunarsíðuna til að sýna markaðsefni.
 
-## <a name="create-an-order-details-page-module"></a>Búa til einingu pöntunarupplýsingasíðu
+## <a name="add-an-order-details-module-to-a-page"></a>Bæta upplýsingaeiningu pöntunar við síðu
 
-1. Búðu til síðusniðmát sem heitir **Sniðmát pöntunarstaðfestingar**.
-1. Í hólfinu **Aðal** á sjálfgefnu síðunni bætirðu við pöntunarupplýsingaeiningu.
-1. Bættu við tillögueiningu í pöntunarupplýsingaeiningunni.
-1. Vistaðu og forskoðaðu sniðmátið. Pöntunarupplýsingaeiningin verður ekki látin af hendi sem hún þarf samhengi við pöntunarstaðfestingarnúmerið.
-1. Ljúktu við að breyta sniðmátinu, vistaðu það og birtu.
-1. Notaðu pöntunarupplýsingasniðmátið sem þú bjóst til til að búa til síðu sem heitir **pöntunarupplýsingasíða**.
-1. Bættu sjálfgefnu síðunni við útlínur síðunnar.
-1. Í hólfið **Fyrirsögn** bætirðu við fyrirsagnarbroti.
-1. Í hólfið **Síðufótur** bætirðu við síðufótarbroti.
-1. Í hólfinu **Aðal** bætirðu við pöntunarupplýsingaeiningu.
-1. Í eiginleikaglugganum í einingu pöntunarupplýsinga bætirðu við fyrirsögninni **Pöntunarupplýsingar**.
-1. Fyrir neðan pöntunarupplýsingaeininguna skaltu bæta við tillögueiningunni og stilla hana þannig að hún noti stillingarnar **Nýtt** og **Mest selt**.
-1. Vistaðu og forskoðaðu síðuna.
-1. Ljúktu við að breyta síðunni, vistaðu hana og birtu.
+Til að bæta upplýsingaeiningu pöntunar við nýja síðu og stilla nauðsynlega eiginleika skal fylgja þessum skrefum.
+
+1. Farðu í **Sniðmát** og veldu **Nýtt** til að búa til nýtt sniðmát.
+1. Í svarglugganum **Nýtt sniðmát**, undir **Heiti sniðmáts**, skal slá inn heitið **Sniðmát pöntunarupplýsinga** og velja síðan **Í lagi**.
+1. Í hólfinu **Meginmál**, skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í glugganum **Bæta við einingu** skal velja eininguna **Sjálfgefin síða** og síðan velja **Í lagi**.
+1. Í hólfinu **Aðalsvæði** í einingunni **Sjálfgefin síða** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í svarglugganum **Bæta við einingu** skal velja eininguna **Upplýsingar um pöntun** og síðan velja **Í lagi**.
+1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða sniðmátið. Pöntunarupplýsingaeiningin verður ekki látin af hendi sem hún þarf samhengi við pöntunarstaðfestingarnúmerið.
+1. Veldu **Ljúka við breytingar** til að athuga með sniðmátið og veldu síðan **Birta** til að birta það.
+1. Farðu í **Síður** og veldu **Ný** til að búa til nýja síðu.
+1. Í svarglugganum **Velja sniðmát** skal velja **Sniðmát pöntunarupplýsinga**. Undir **Síðuheiti** skal færa inn **Upplýsingasíða pöntunar** og síðan velja **Í lagi**.
+1. Í hólfinu **Aðalsvæði** í einingunni **Sjálfgefin síða** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
+1. Í svarglugganum **Bæta við einingu** skal velja eininguna **Upplýsingar um pöntun** og síðan velja **Í lagi**.
+1. Á eiginleikasvæðinu fyrir upplýsingaeiningu pöntunar skal velja **Fyrirsögn** við hliðina á blýantstákninu.
+1. Í reitinn **Fyrirsagnartexti** í svarglugganum **Fyrirsögn** skal slá inn fyrirsagnartextanum **Upplýsingar pöntunar** og velja síðan **Í lagi**.
+1. Veldu **Vista** og veldu síðan **Forskoðun** til að forskoða síðuna.
+1. Veldu**Ljúka við breytingar** til að athuga á síðunni og veldu síðan **Birta** til að birta hana.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

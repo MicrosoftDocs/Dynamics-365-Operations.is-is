@@ -3,7 +3,7 @@ title: Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 4 - key
 description: Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stillt líkan rafrænnar skýrslugerðar (ER) svo það noti fjárhagsvíddir sem gagnaveitu fyrir rafrænar skýrslur.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ae9f72df5d6ff6add4eb97836cf32509aebd511
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: a9a6f07d6c665097fabab4d3ec6d7fa5ba80b65d
+ms.sourcegitcommit: d9125c20b21459076e4fd92fd9ebfe2e53a0431b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141970"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "3406475"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>Rafræn skýrslugerð Nota Fjárhagsvíddir sem gagnaveita (Hluti 4 - keyra skýrslu)
 
@@ -37,13 +37,16 @@ Til að ljúka þessum skrefum, verður fyrst að ljúka við skrefin í ferlinu
 2. Í trénu skal víkka út 'Financial dimensions sample model'.
 3. Í trénu skal velja 'Financial dimensions sample model\Ledger journal report'.
 4. Smella á Keyra.
-5. Í svæðinu heiti víddar, í svæðinu heiti víddar, skal færa inn eða velja gildi.
-    * Til að velja allar víddir fyrir núverandi fyrirtæki skal færa inn eftirfarandi:BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project  
+![Skilgreiningarsíða í ER](../media/er-financial-dimensions-guides-run1.png)
+5. Sláið inn eða veljið gildi í reitnum heiti víddar.
+    * Til að velja allar víddir í núverandi fyrirtæki skal færa inn eftirfarandi upplýsingar:  
+![Skilgreiningarsíða í ER](../media/er-financial-dimensions-guides-run2.png)
 6. Útvíkka Færslur til að taka hluta.
 7. Smellt er á Síu.
 8. Velja línuna fyrir töflu færslubókar fjárhags og reitinn rununúmer bókarkeyrslu.
 9. Í svæðinu Skilyrði skal færa inn '00057'.
-10. Smellið á „Í lagi“.
-11. Smellið á „Í lagi“.
-    * Fara yfir myndað úttak. Athugið að fyrir hverja færslu fyrir valda runu eru birtar fjárhagsvíddir úr viðeigandi víddarmengjum. Keyra þessa skýrslu og veljið mismunandi víddir til að sjá að skýrslan er ekki háð fjölda valinna vídda eða fjölda vídda sem skilgreint er fyrir þetta tilvik.  
-
+10. Smellt er á Í lagi.
+11. Smellt er á Í lagi.
+![Skilgreiningarsíða í ER](../media/er-financial-dimensions-guides-run3.png)
+    * Fara yfir myndað úttak. Fyrir hverja færslu fyrir valda runu eru birtar fjárhagsvíddir úr viðeigandi víddarmengjum. Keyra þessa skýrslu og veljið mismunandi víddir til að sjá að skýrslan er ekki háð fjölda valinna vídda eða fjölda vídda sem skilgreint er fyrir þetta tilvik.  
+![Skilgreiningarsíða í ER](../media/er-financial-dimensions-guides-run4.png)
