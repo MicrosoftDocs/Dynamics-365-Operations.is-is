@@ -92,8 +92,6 @@
                       href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (júlí 2020)
                       href: get-started/whats-new-commerce-10-0-11.md
-                    - name: Commerce 10.0.10 (maí 2020)
-                      href: get-started/whats-new-commerce-10-0-10.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Finance and Operations
@@ -192,6 +190,8 @@
               items:
                 - name: Yfirlit yfir skipulag Dynamics 365 Commerce
                   href: commerce-architecture.md
+                - name: Dynamics 365 Commerce sannvottunarflæði
+                  href: arch-auth-flow.md
                 - name: Skipulag Commerce Scale Unit
                   href: dev-itpro/retail-server-architecture.md
                 - name: Velja grannfræði í verslun
@@ -748,15 +748,15 @@
               href: edit-audit-retail-transactions.md
             - name: 'Stofna, reikna og bóka uppgjör fyrir smásöluverslun'
               href: tasks/create-calculate-post-statement-retail-store.md
-            - name: Endurbætur á virkni uppgjörsbókunar
-              href: statement-posting-eod.md
             - name: Stofnun hlutastraumspöntunar fyrir færslur smásöluverslunar
               href: trickle-feed.md
             - name: 'Stofna, reikna og bóka uppgjör fyrir smásöluverslun'
               href: tasks/create-calculate-post-statement-retail-store.md
+            - name: Fjárhagsafstemming í smásöluverslunum
+              href: fin-recon.md
             - name: Endurbætur á virkni uppgjörsbókunar
               href: statement-posting-eod.md
-            - name: Betri meðhöndlun á runuröktum vörum
+            - name: Betri meðhöndlun á runuröktum atriðum
               href: batch.md
             - name: Grunnstilla færibreytur í Commerce sem hafa áhrif á uppgjör
               href: tasks/parameter-configurations-retail-statements.md
@@ -792,8 +792,6 @@
                   href: configure-your-domain-name.md
                 - name: Uppsetning á nýjum leigjanda rafrænna viðskipta
                   href: deploy-ecommerce-site.md
-                - name: Setja upp netverslunarrás
-                  href: online-stores.md
                 - name: Stofna svæði fyrir rafræn viðskipti
                   href: create-ecommerce-site.md
                 - name: Tengja svæði rafrænna viðskipta við netrás
@@ -814,11 +812,9 @@
                   href: enable-store-detection.md
             - name: Dæmi um yfirlit svæðis
               items:
-                - name: Yfirlit heimasíðunnar
+                - name: Yfirlit heimasíðu
                   href: quick-tour-home-page.md
-                - name: Yfirlit sjálfgefinnar lendingarsíðu flokks og leitarniðurstöðusíðu
-                  href: category-search-page-overview.md
-                - name: Yfirlit yfir upplýsingasíður afurða
+                - name: Yfirlýt upplýsingasíðu afurða
                   href: quick-tour-pdp.md
                 - name: Yfirlit yfir síður körfu og greiðsluferlis
                   href: quick-tour-cart-checkout.md
@@ -998,11 +994,11 @@
                       href: add-breadcrumb.md
             - name: Leit
               items:
-                - name: Sjálfgefin lendingarsíða og leitarniðurstöðusíða
+                - name: Yfirlit yfir sjálfgefna lendingarsíðu og leitarniðurstöðusíðu
                   href: category-search-page-overview.md
                 - name: Leitaryfirlit í skýinu
                   href: cloud-powered-search-overview.md
-            - name: Skýrslugjöf
+            - name: Skýrslugerð
               items:
                 - name: Búa til skýrslur fyrir netrás
                   href: generate-reports.md
@@ -1180,7 +1176,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Bæta fjárhagsvíddum við uppsafnaðar mælingar
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: Stofna greiningarskýrslur með Power BI Desktop
+                - name: Stofna greiningarskýrslur með PowerBI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Bæta greiningu við vinnusvæði með Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
@@ -2000,6 +1996,8 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: Skilgreina þemastillingar
                       href: e-commerce-extensibility/configure-theme-settings.md
+                    - name: Skilgreina stílforstillingar
+                      href: e-commerce-extensibility/theme-style-presets.md
                     - name: Stækka þema til að bæta við einingaviðbótum
                       href: e-commerce-extensibility/theme-module-extensions.md
                     - name: Stækka þema úr grunnþema
@@ -2036,18 +2034,18 @@
                   href: dev-itpro/cloud-dev-box.md
                 - name: Setja upp sölukeðju Commerce SDK smíðar
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
+                - name: Algengar spurningar Retail SDK
+                  href: dev-itpro/retail-sdk/sdk-faq.md
             - name: Stækkunarhæfni sölustaðar
               items:
                 - name: Útlitshönnun sölustaðarskjás
                   href: pos-screen-layouts.md
-                - name: Opna vefslóð á sölustað
+                - name: Opna vefslóð í sölustað
                   href: Open-URL-in-POS.md
                 - name: Setja upp útlitshönnuð sölustaðar
                   href: install-pos-layout-designer.md
                 - name: Víkka út tvöfaldan skjá sölustaðar
                   href: dev-itpro/pos-dual-display-extension.md
-                - name: Modern POS og Cloud POS framkalla stækkunarhæfni
-                  href: dev-itpro/modern-pos-trigger-extensibility.md
                 - name: Bæta sérstilltum stjórntækjum við gagnabirtingu sölustaðar
                   href: dev-itpro/pos-custom-control.md
                 - name: Bæta aðgerðum sölustaðar við útlit sölustaðar með hnappahnitshönnuði
@@ -2078,11 +2076,11 @@
                   href: dev-itpro/pos-view-extension.md
                 - name: Bæta sérstilltum stjórntækjum við færslusíður Modern POS
                   href: dev-itpro/pos-custom-transaction.md
-                - name: Bæta sérstilltum dálkum við hnitanet POS-færslu
+                - name: Bæta sérstilltum dálkum við hnitanet sölustaðarfærslu
                   href: dev-itpro/pos-custom-transaction-column.md
                 - name: Hringja í API sölustaðar eða aðgerðir úr smásöluviðbótum
                   href: dev-itpro/pos-api-extension.md
-                - name: Kveikjur og prentun í Modern POS
+                - name: Kveikjur og prentun í Modern POS (MPOS)
                   href: dev-itpro/pos-trigger-printing.md
                 - name: Bæta sérstilltum stjórntækjum við þá gerð gagnabirtingar sölustaðar sem ekki er hönnuð sérstaklega fyrir skjá
                   href: dev-itpro/pos-control-non-screen.md

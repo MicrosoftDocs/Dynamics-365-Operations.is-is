@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Verkvangsuppfærslur fyrir 10.0.11 (júlí 2020)
                   href: get-started/whats-new-platform-update-35.md
-                - name: Verkvangsuppfærslur fyrir 10.0.10 (maí 2020)
-                  href: get-started/whats-new-platform-update-34.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Eiginleikar verkvangs sem hafa verið fjarlægðir eða eru úreltir
@@ -713,9 +711,29 @@
                         - name: Tilvik
                           href: dev-ref/xpp-events.md
                     - name: X++ gagnaval og beiting
-                      href: dev-ref/xpp-data-query.md
-                    - name: Gagnaaðgangur með SysDa API
-                      href: dev-ref/sysda.md
+                      items:
+                        - name: X++ gagnaval og beitingaryfirlit
+                          href: dev-ref/xpp-data/xpp-data-home-page.md
+                        - name: Velja yfirlit
+                          href: dev-ref/xpp-data/xpp-select-statement.md
+                        - name: Velja gögn
+                          href: dev-ref/xpp-data/xpp-select.md
+                        - name: Setja inn gögn
+                          href: dev-ref/xpp-data/xpp-insert.md
+                        - name: Uppfæra gögn
+                          href: dev-ref/xpp-data/xpp-update.md
+                        - name: Eyða gögnum
+                          href: dev-ref/xpp-data/xpp-delete.md
+                        - name: Þegar yfirlit er valið
+                          href: dev-ref/xpp-data/xpp-while-select.md
+                        - name: Skrifa val á yfirliti sem segð
+                          href: dev-ref/xpp-data/xpp-select-expression.md
+                        - name: Áreiðanleiki færslna
+                          href: dev-ref/xpp-data/xpp-transaction.md
+                        - name: Umbreyting virkni úr hópi í færslur
+                          href: dev-ref/xpp-data/xpp-data-perf.md
+                        - name: Gagnaaðgangur með SysDa API
+                          href: dev-ref/sysda.md
                     - name: X++ fjölvar
                       href: dev-ref/xpp-macros.md
                     - name: X++ eigindaklasar
@@ -754,76 +772,58 @@
                   href: dev-ref/system-tables.md
                 - name: Kerfisklasar
                   items:
-                    - name: A-klasar
-                      href: dev-ref/a-classes.md
-                    - name: B-klasar
-                      href: dev-ref/b-classes.md
-                    - name: C-klasar
-                      href: dev-ref/c-classes.md
-                    - name: D-klasar
-                      href: dev-ref/d-classes.md
-                    - name: E-klasar
-                      href: dev-ref/e-classes.md
-                    - name: F-klasar (FieldBinding til FormBuildAnimateControl)
-                      href: dev-ref/fieldbinding-classes.md
-                    - name: F-klasar (FormBuildButtonControl til FormBuildFastTabSummarySeparator)
-                      href: dev-ref/formbuildbuttoncontrol-classes.md
-                    - name: F-klasar (FormBuildFilterPaneControl til FormBuildRealControl)
-                      href: dev-ref/formbuildfilterpanecontrol-classes.md
-                    - name: F-klasar (FormBuildReferenceControl til FormButtonSeparatorControl)
-                      href: dev-ref/formbuildreferencecontrol-classes.md
-                    - name: F-klasar (FormChangeTracker til FormControlEventArgs)
-                      href: dev-ref/formchangetracker-classes.md
-                    - name: F-klasar (FormDataObject til FormFastTabHeaderControl)
-                      href: dev-ref/formdataobject-classes.md
-                    - name: F-klasar (FormFastTabSummarySeparator til FormGridControl)
-                      href: dev-ref/formfasttabsummaryseparator-classes.md
-                    - name: F-klasar (FormGroupControl til FormIntControl)
-                      href: dev-ref/formgroupcontrol-classes.md
-                    - name: F-klasar (FormListBoxControl til FormNotifyEventArgs)
-                      href: dev-ref/formlistboxcontrol-classes.md
-                    - name: F-klasar (FormObject til FormRealControl)
-                      href: dev-ref/formobject-classes.md
-                    - name: F-klasar (FormReferenceControl til FormStringControl)
-                      href: dev-ref/formreferencecontrol-classes.md
-                    - name: F-klasar (FormTabControl til FormWindowControl)
-                      href: dev-ref/formtabcontrol-classes.md
-                    - name: G-klasar
-                      href: dev-ref/g-classes.md
-                    - name: H-klasar
-                      href: dev-ref/h-classes.md
-                    - name: I-klasar
-                      href: dev-ref/i-classes.md
-                    - name: J-klasar
-                      href: dev-ref/j-classes.md
-                    - name: K-klasar
-                      href: dev-ref/k-classes.md
-                    - name: L-klasar
-                      href: dev-ref/l-classes.md
-                    - name: M-klasar
-                      href: dev-ref/m-classes.md
-                    - name: N-klasar
-                      href: dev-ref/n-classes.md
-                    - name: O-klasar
-                      href: dev-ref/o-classes.md
-                    - name: P-klasar
-                      href: dev-ref/p-classes.md
-                    - name: Q-klasar
-                      href: dev-ref/q-classes.md
-                    - name: R-klasar
-                      href: dev-ref/r-classes.md
-                    - name: S-klasar
-                      href: dev-ref/s-classes.md
-                    - name: T-klasar
-                      href: dev-ref/t-classes.md
-                    - name: U-klasar
-                      href: dev-ref/u-classes.md
-                    - name: V-klasar
-                      href: dev-ref/v-classes.md
-                    - name: W-klasar
-                      href: dev-ref/w-classes.md
-                    - name: X-klasar
-                      href: dev-ref/x-classes.md
+                    - name: Kerfisklasalisti
+                      href: dev-ref/system-classes/toc.yml
+                    - name: Kerfisklasar flokkaðir í stafrófsröð
+                      items:
+                        - name: A-klasar
+                          href: dev-ref/a-classes.md
+                        - name: B-klasar
+                          href: dev-ref/b-classes.md
+                        - name: C-klasar
+                          href: dev-ref/c-classes.md
+                        - name: D-klasar
+                          href: dev-ref/d-classes.md
+                        - name: E-klasar
+                          href: dev-ref/e-classes.md
+                        - name: F-klasar
+                          href: dev-ref/f-classes.md
+                        - name: G-klasar
+                          href: dev-ref/g-classes.md
+                        - name: H-klasar
+                          href: dev-ref/h-classes.md
+                        - name: I-klasar
+                          href: dev-ref/i-classes.md
+                        - name: J-klasar
+                          href: dev-ref/j-classes.md
+                        - name: K-klasar
+                          href: dev-ref/k-classes.md
+                        - name: L-klasar
+                          href: dev-ref/l-classes.md
+                        - name: M-klasar
+                          href: dev-ref/m-classes.md
+                        - name: N-klasar
+                          href: dev-ref/n-classes.md
+                        - name: O-klasar
+                          href: dev-ref/o-classes.md
+                        - name: P-klasar
+                          href: dev-ref/p-classes.md
+                        - name: Q-klasar
+                          href: dev-ref/q-classes.md
+                        - name: R-klasar
+                          href: dev-ref/r-classes.md
+                        - name: S-klasar
+                          href: dev-ref/s-classes.md
+                        - name: T-klasar
+                          href: dev-ref/t-classes.md
+                        - name: U-klasar
+                          href: dev-ref/u-classes.md
+                        - name: V-klasar
+                          href: dev-ref/v-classes.md
+                        - name: W-klasar
+                          href: dev-ref/w-classes.md
+                        - name: X-klasar
+                          href: dev-ref/x-classes.md
             - name: Stækkunarhæfni
               items:
                 - name: Heimasíða stækkunarhæfni
@@ -1434,6 +1434,8 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: Flytja notendur milli fyrirtækja í Azure AD
               href: sysadmin/implement-b2b.md
+            - name: Sjálfvirkni ferlis
+              href: sysadmin/process-automation.md
             - name: Öryggi
               items:
                 - name: Öryggi byggt á hlutverkum
@@ -1458,6 +1460,8 @@
                   href: sysadmin/tasks/assign-users-security-roles.md
                 - name: Öryggisgreining fyrir verkskráningu
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
+            - name: Sjálfvirkni ferlis
+              href: /sysadmin/process-automation.md
             - name: Runuvinnsla
               items:
                 - name: Yfirlit runuvinnslu
@@ -1518,6 +1522,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: AX 2012 uppfærsla - Gagnauppfærsla í sandkassaumhverfi
                   href: migration-upgrade/upgrade-data-sandbox.md
+                - name: AX 2012 uppfærsla - Innanhússumhverfi
+                  href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: AX 2012 uppfærsla - Flutningsprófun
                   href: migration-upgrade/upgrade-cutover-testing.md
                 - name: AX 2012 uppfærsla - verk eftir uppfærslu
