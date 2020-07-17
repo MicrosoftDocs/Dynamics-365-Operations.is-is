@@ -1,6 +1,6 @@
 ---
-title: Skanna strikamerki með myndavél í forritinu Dynamics 365 for Finance and Operations – Warehousing
-description: Þetta efnisatriði útskýrir hvernig eigi að setja upp forritið Dynamics 365 for Finance and Operations – Warehousing til að skanna strikamerki með myndavél á fartæki.
+title: Skanna strikamerki með myndavél í vöruhúsaforriti
+description: Þetta efnisatriði útskýrir hvernig eigi að setja upp vöruhúsaforritið til að skanna strikamerki með því að nota myndavél á fartæki.
 author: MarkusFogelberg
 manager: tfehr
 ms.date: 01/03/2018
@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 9d3b807b18a0a9c7d24763a2a2a7ea9eccf9c2bb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fd4818ab936e1c93000793da756c97df6d05b2a9
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205861"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530007"
 ---
-# <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>Skanna strikamerki með myndavél í forritinu Dynamics 365 Supply Chain Management - Warehousing
+# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-app"></a>Skanna strikamerki með myndavél í vöruhúsaforriti
 
 [!include [banner](../includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig eigi að setja upp forritið Dynamics 365 for Finance and Operations – Warehousing til að skanna strikamerki með myndavél á fartæki. 
+Þetta efnisatriði útskýrir hvernig eigi að setja upp vöruhúsaforritið til að skanna strikamerki með því að nota myndavél á fartæki. 
 
 ## <a name="prerequisites"></a>Forkröfur
-Til að nota þessa aðgerð þarf að vera með útgáfu 1.2.0.0 af forritinu Warehousing uppsetta og tækið þitt verður að vera með myndavél. Þegar forritið er opnað eftir uppfærslu mun forritið biðja um leyfi til að nota myndavélina. Ef tækið er ekki með myndavél mun engin beiðni koma upp og ekki verður hægt að nota myndavélina sem skanna. 
+Til að nota þessa aðgerð þarf að vera með útgáfu 1.2.0.0 af vöruhúsaforrit uppsetta og tækið þitt verður að vera með myndavél. Þegar forritið er opnað eftir uppfærslu mun forritið biðja um leyfi til að nota myndavélina. Ef tækið er ekki með myndavél mun engin beiðni koma upp og ekki verður hægt að nota myndavélina sem skanna. 
 
 ## <a name="setup"></a>Setja upp
 Í skjástillingum vöruhúsaforrits er hægt að velja hvort eigi að nota myndavélina til að skanna strikamerki. Ef þú virkjar **Nota myndavél sem skanna** getur þú notað myndavélina fyrir öll ílagssvæði sem eru með æskilegan ílagsham stilltan á **Skönnun**. 

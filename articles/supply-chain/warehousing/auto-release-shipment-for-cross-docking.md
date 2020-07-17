@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: d11db378be6b2ba845de0ac0a2252092a50bc96a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2d8d6e67040f19cac99f8e0164296ef49768496e
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201480"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530237"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Losa sendingu sjálfkrafa fyrir dreifingu frá dreifingarstöð
 
@@ -164,7 +164,7 @@ Fylgdu þessum skrefum til að dreifa magni fullunninna vara frá dreifingastö�
 8. Á síðunni **Framleiðslupöntun**, á aðgerðarrúðunni, á flipanum **Framleiðslupöntun**, í hópnum **Ferli**, velurðu **Mat** og veldu síðan **Í lagi**. Pöntunin er metin og magn hráefnis er frátekið fyrir framleiðsluna.
 9. Í aðgerðarúðunni, á flipanum **Framleiðslupöntun**, í hópnum **Ferli**, velurðu **Losa**, og síðan velurðu **Í lagi**. Tiltektarvinna vöruhúss er búin til fyrir hráefnin.
 10. Opnaðu og skoðaðu verkið. Á aðgerðarrúðunni, á flipanum **Vöruhús**, í hópnum **Almennt** skaltu velja **Upplýsingar um vinnu**. Skráið niður vinnukennið.
-11. Opnaðu og skráðu þig inn á Dynamics 365 for Finance and Operations - Vöruhúsaforrit til að keyra vinnu í vöruhúsi 51.
+11. Skráðu þig inn í vöruhúsaforritið til að keyra verk í vöruhúsi 51.
 12. Fara til **Framleiðsla** \> **Framleiðslutiltekt**.
 13. Sláðu inn vinnukennið til að hefja og ljúka við hráefnistiltektina. 
 

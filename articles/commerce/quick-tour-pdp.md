@@ -1,5 +1,5 @@
 ---
-title: Yfirlit yfir upplýsingasíður afurða
+title: Yfirlýt upplýsingasíðu afurða
 description: Þetta efni veitir yfirlit yfir afurðaupplýsingasíður (PDP) í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dbf8f4c1ea479a508f4a0294020b7201b32fe228
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c53e74204fad2960dfba972a38c511df7d6672d8
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025926"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527540"
 ---
-# <a name="overview-of-product-details-pages"></a>Yfirlit yfir upplýsingasíður afurða
-
+# <a name="product-details-pages-overview"></a>Yfirlýt upplýsingasíðu afurða
 
 [!include [banner](includes/banner.md)]
 
@@ -82,12 +81,10 @@ Ef markaðsefni er einstakt fyrir ákveðna afurð er hægt að bæta hvaða mar
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit heimasíðunnar](quick-tour-home-page.md)
-
-[Yfirlit sjálfgefinnar lendingarsíðu flokks og leitarniðurstöðusíðu](category-search-page-overview.md)
+[Yfirlit heimasíðu](quick-tour-home-page.md)
 
 [Yfirlit yfir síður körfu og greiðsluferlis](quick-tour-cart-checkout.md)
 
-[Yfirlit yfir síður reikningastjórnunar](quick-tour-account-management.md)
+[Yfirlit yfir síður fyrir stjórnun reikninga](quick-tour-account-management.md)
 
 [Bæta upplýsingasíðu afurða](enrich-product-page.md)

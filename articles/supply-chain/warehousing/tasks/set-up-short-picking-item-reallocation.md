@@ -1,9 +1,9 @@
 ---
 title: Setja upp endurúthlutun fyrir stutta vörutiltekt
-description: Þessi verklýsing sýnir hvernig starfsmenn vöruhúss geta fundið aðrar staðsetningar fljótt ef það eru ekki nægilegar birgðir á staðsetningunni þangað sem þeim var beint.
+description: Í þessu efnisatriði er sýnt hvernig á að gera starfsmönnum vöruhúss kleift að finna aðrar staðsetningar á fljótlegan hátt ef ekki eru nægar birgðir á staðsetningunni sem þeim var vísað á.
 author: ShylaThompson
 manager: tfehr
-ms.date: 08/29/2018
+ms.date: 06/29/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,35 +17,50 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e860a54c2306f8140947b77cdcb538160a84e06f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e14a4fc72d256bea31296bff80d5b5818b95ea9d
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216806"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527420"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>Setja upp endurúthlutun fyrir stutta vörutiltekt
 
 [!include [banner](../../includes/banner.md)]
 
-Þessi verklýsing sýnir hvernig starfsmenn vöruhúss geta fundið aðrar staðsetningar fljótt ef það eru ekki nægilegar birgðir á staðsetningunni þangað sem þeim var beint. Það er hægt að nota sjálfvirkt endurúthlutunarferli, sem notar staðsetningarleiðbeiningar til að sækja vörur ef þær eru tiltækar á aðra staðsetningu. Einnig er þegar handvirka endurúthlutunin er notuð, er lista yfir staðsetningar með tiltæku magni sýndur í fartækinu, þar sem starfsmaður í vöruhúsi getur valið hvaða staðsetningar til að nota birgðir úr. Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF. Þetta ferli er fyrir eiginleika sem var bætt við í Dynamics 365 for Operations, útgáfu 1611.
+Þessi verklýsing sýnir hvernig starfsmenn vöruhúss geta fundið aðrar staðsetningar fljótt ef það eru ekki nægilegar birgðir á staðsetningunni þangað sem þeim var beint. 
 
+Endurúthlutunarferlinu er stjórnað af **Vinnuundantekningu** og notað af **starfsmanni** vöruhúss.
+
+Mögulegt er að nota sjálfvirka, handvirka eða bæði endurúthlutunarferlin:
+
+- Sjálfvirk endurúthlutun - Staðsetningarleiðbeiningar eru notaðar til að ákvarða hvort vörur eru tiltækar á annarri staðsetningu. Ef það er hægt verður vinnan uppfærð og notanda vöruhúss verður vísað á hina staðsetninguna.
+- Handvirk endurúthlutun - Gerir notanda vöruhúss kleift að velja úr einni eða fleiri staðsetningum með ófráteknu magni af vörum. 
+- Sjálfvirkt og handvirkt - Ef kerfið getur ekki framkvæmt sjálfvirka endurúthlutun og staðsetningar eru tiltækar fyrir ófrátekið magn, verður notandinn beðinn um að velja staðsetningu.
 
 ## <a name="set-up-work-exceptions"></a>Setja upp vinnuundantekningar
+Það er hægt að skilgreina margar vinnuundantekningar ásamt mismunandi endurúthlutunarreglum til að gera starfsmaður í vöruhúsi mögulegt að velja eitt á grundvelli þess sem sendingin sem verið er að vinna þarf.
+
+USMF sýniútgáfu fyrirtækis notað til að stofna þetta ferli.
+
 1. Í **Skoðunarrúðu** ferðu í **Vöruhúsakerfi > Uppsetning > Vinna > Undantekningar verks**.
-2. Smellt er á **Nýtt**. Það er hægt að skilgreina margar vinnuundantekningar ásamt mismunandi endurúthlutunarreglum til að gera starfsmaður í vöruhúsi mögulegt að velja eitt á grundvelli þess sem sendingin sem verið er að vinna þarf.  
-3. Í reitinn **Kenni undantekningar verks** skaltu færa inn gildi. Gefðu vinnuundantekningunni titil sem segir til um tilgang hennar. Til dæmis, handbók fyrir of litla tiltekt.  
-4. Í reitinn **Lýsing** skal slá inn gildi.
-5. í reitnum **Gerð undantekningar** skaltu velja „of lítil tiltekt“.
-6. Veldu gátreitinn **Leiðrétta birgðir**. Þessi valkostur þýðir að birgðir verða sjálfvirkt leiðréttar á 0 á staðsetningu þar sem tiltekt er of lítil.  
-7. Í reitinn **Sjálfgefinn kóði leiðréttingargerðar** skal færa inn eða velja gildi. Til dæmis í USMF er hægt að velja "Remove Res Adj Out".  
-8. Í reitnum **Endurúthlutun vöru** er valið "Handvirkt". Ef valið er Handvirkt, eða Sjálfvirkar og Handvirkar, þarf starfsmaður í vöruhúsi að geta notað handvirka endurúthlutun.  
+2. Smelltu á **Nýtt** 
+3. Í reitinn **Kenni undantekningar verks** skaltu færa inn gildi. Þetta verður titill þessarar undantekningar. Til dæmis, handbók fyrir of litla tiltekt.
+4. Í reitinn **Lýsing** skal slá inn gildi. Þetta verður stutt lýsing á notkun þessarar undantekningar. Til dæmis, Of lítil tiltekt - vara ekki í boði.
+5. Í reitnum **Undantekning** skal velja **Of lítil tiltekt**.
+6. Veldu gátreitinn **Leiðrétta birgðir**. Ef valinn, verða birgðir sjálfvirkt leiðréttar á 0 á staðsetningu þar sem tiltekt er of lítil.
+7. Í reitinn **Sjálfgefinn kóði leiðréttingargerðar** skal færa inn eða velja gildi. Til dæmis í USMF er hægt að velja **Fjarlægja leiðrétta frátekt á útleið**. Hver kóði leiðréttingargerðar inniheldur fjóra eiginleika: heiti, lýsing, færslubókarheiti og **Fjarlægja frátekningar**. Ef **Fjarlægja frátekningu** er virkjað verða frátekningar pöntunarlínu of lítillar tiltektar fjarlægðar.  
+8. Í reitnum **Endurúthlutun vöru** skal velja gildi, t.d. handvirkt. Ef valið er Handvirkt, eða Sjálfvirkar og Handvirkar, þarf starfsmaður í vöruhúsi að geta notað handvirka endurúthlutun.
 
 ## <a name="set-up-a-worker-to-use-manual-item-reallocation"></a>Setja upp starfsmann til að nota handvirka endurúthlutun vöru
+
+USMF sýniútgáfu fyrirtækis notað til að stofna þetta ferli.
+
 1. Lokið síðunni.
 2. Í **Skoðunarrúðu** ferðu í **Vöruhúsakerfi > Uppsetning > Vinna > Starfskraftur**.
 3. Smellið á **Breyta**.
-4. Í listanum skal velja starfskraft 24.
-5. Útvíkkaðu flýtiflipann **Vinna**.
-6. Veldu „Já“ í reitnum **Leyfa handvirka endurúthlutun vöru**.
-
+4. Í listanum skal velja starfskraft. Til dæmis Julia Funderburk.
+5. Stækkið flýtiflipann **Notendur**.
+6. Í listanum skal velja **Notandakenni**. Til dæmis 24.
+7. Stækkið flýtiflipann **Verk**.
+8. Velja skal **Já** í svæðinu **Leyfa handvirka endurúthlutun vöru**.

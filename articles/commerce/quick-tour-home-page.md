@@ -1,9 +1,9 @@
 ---
-title: Yfirlit heimasíðunnar
+title: Yfirlit heimasíðu
 description: Þetta efnisatriði veitir yfirlit yfir heimasíðuna í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f337af0b598322e9542a3c9462402e61dc11a88
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c51c5af38f4ba50bbad124de4ac7f66be4001fa6
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025972"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527585"
 ---
-# <a name="overview-of-the-home-page"></a>Yfirlit heimasíðunnar
-
+# <a name="home-page-overview"></a>Yfirlit heimasíðu
 
 [!include [banner](includes/banner.md)]
 
@@ -69,10 +68,8 @@ Aðalhluti heimasíðunnar getur bent á vörur, flokka eða kynningar með þv�
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit sjálfgefinnar lendingarsíðu flokks og leitarniðurstöðusíðu](category-search-page-overview.md)
+[Yfirlýt upplýsingasíðu afurða](quick-tour-pdp.md)
 
-[Yfirlit yfir upplýsingasíður afurðar](quick-tour-pdp.md)
+[Yfirlit yfir síður körfu og greiðsluferlis](quick-tour-cart-checkout.md)
 
-[Yfirlit yfir á körfu- og greiðsluferlissíður](quick-tour-cart-checkout.md)
-
-[Yfirlit yfir síður reikningastjórnunar](quick-tour-account-management.md)
+[Yfirlit yfir síður fyrir stjórnun reikninga](quick-tour-account-management.md)

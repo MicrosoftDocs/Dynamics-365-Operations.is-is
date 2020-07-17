@@ -15,11 +15,11 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 05e6ccdce21ccc5f3e83ad860163cccadcea2edc
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: 1cc1040393d843f39ca8c741a7c51435c7169c00
+ms.sourcegitcommit: edb46dce498df42b09e8f5ad6de00f86c8022dfa
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2020
+ms.lasthandoff: 07/03/2020
 ms.locfileid: "3346423"
 ---
 # <a name="subcontracting"></a>Úthýsing
@@ -211,7 +211,7 @@ Framleiðslupöntun upp á 10 stykki er búin til fyrir afurðina D8100, „Hú�
 
     ![Tvö sett af verkum fyrir hráefnatiltekt á Verksíðunni](./media/subcontract22_work-page.png)
 
-26. Opnaðu vöruhúsaforritið til að vinna við vöruhúsaverkið fyrir aðgerð 10.
+26. Byrjaðu vöruhúsaforritið til að vinna úr vöruhúsaverkinu fyrir aðgerð 10.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 

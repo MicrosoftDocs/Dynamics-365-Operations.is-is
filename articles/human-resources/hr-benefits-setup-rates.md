@@ -3,7 +3,7 @@ title: Grunnstilla taxta
 description: Verð í Microsoft Dynamics 365 Human Resources skilgreina hve mikið vinnuveitendur og starfsmenn leggja sitt af mörkum til fríðinda.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/06/2020
+ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c90a45b79f2a383f0ace0cb07e791f6613d7a3c3
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e397e20b6b6307349020c8dfd238b4b59eeca527
+ms.sourcegitcommit: 1e6a7b50596eaf9d965e0155f3f2c50f7f50747e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429912"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3497357"
 ---
 # <a name="configure-rates"></a>Grunnstilla taxta
 
@@ -75,15 +75,15 @@ Notaðu taxta til að ákvarða hversu mikið launþegar og vinnuveitendur grei�
 
 3. Tilgreina gildi fyrir eftirfarandi reiti:
 
-   | Svæði | Lýsing |
+   | Svæði | lýsing |
    | --- | --- | 
-   | **Lýsing** | Gildið fyrir lýsingarreitinn verður beitt út frá lýsingunni í skrárhraðaprósentunni. Þetta hjálpar þér að bera kennsl á hvaða hlutfall skipulag stig stig eru tengd við. |
+   | **Lýsing** | Reitargildið **Lýsing** er fengið úr lýsingunni í færslunni fyrir uppsetningu hlutfalls. Þetta hjálpar þér að bera kennsl á hvaða hlutfall skipulag stig stig eru tengd við. |
    | **Kóði lags** | Veldu kóða fyrir lög. Kóðar fyrir lög eru skilgreindir í gluggnaum Kóðar fyrir lög. Kerfið birtir sjálfkrafa lýsingu á kóða fyrir lög í töflunni til vinstri. |
-   | **Gerð þreps** | Tilgreinir hvaða reit ætti að nota sem valviðmið fyrir útreikningsferli kóða fyrir lög. Dæmi:</br></br><ul><li>Ef aldur er notaður mun kerfið nota fæðingardegi starfsmanns í útreikningsferli bótahlutfallsins.</li><li>Ef laun eru notuð mun kerfið nota árleg hlunnindi starfsmanns í útreikningsferli bótahlutfallsins.</li><li>Ef starfstegund er notuð mun kerfið nota núverandi virka stöðuupplýsingar starfsmannsins til að ákvarða tegund gerðar eftir starfssetningu sem tengd er stöðunni.</li></ul></br></br>Flokkaupplýsingarnar eru Aldur, Laun, Líkamleg, Kyn, Stöðugildi, Störf, starfssvið og Stig. | 
-   | **Stig** | Gildið sem á að nota með tegundinni við útreikning á fríðindataxta. Dæmi:</br></br><ul><li>Ef flokkaupplýsingar eru Aldur, þá væri þetta aldursgildið.</li><li>Ef flokkaupplýsingar eru Laun, þá væri þetta launaupphæðin.</li><li> Ef flokkaupplýsingar eru Starfsgerð, þá væri þetta starfsgerðin.</li></ul></br></br>Með flokkun aldurs eða launa notar kerfið hækkandi nálgun við val á stigahlutfalli, sem þýðir að gildi í stigsviðinu er neðri mörk stigsins. Með flokkaupplýsingar af starfsgerð notar kerfið nákvæma samsvörunaraðferð við val á stigi. |
+   | **Gerð þreps** | Tilgreinir hvaða reit ætti að nota sem valviðmið fyrir útreikningsferli kóða fyrir lög. Dæmi:</br></br><ul><li>Ef **Aldur** er notaður mun kerfið nota fæðingardag starfsmannsins við útreikningsferli fríðindahlutfallsins.</li><li>Ef **Laun** eru notuð mun kerfið nota árlegt hlutfall fríðinda af launum starfsmannsins við útreikningsferli fríðindahlutfallsins.</li><li>Ef **Vinnslugerð** er notuð mun kerfið nota núverandi starf starfsmanns til að ákvarða vinnslugerðina með verkfærslunni sem tengist stöðunni.</li></ul></br></br>Gerðir lagsins eru **Aldur**, **Laun**, **Líkamlegt ástand**, **Kyn**, og **Jafngildi fulls starfs**, **Tegund starfs**, **Launasvæði** og **Stig**. | 
+   | **Stig** | Gildið sem á að nota með tegundinni við útreikning á fríðindataxta. Dæmi:</br></br><ul><li>Ef gerð lagsins er **Aldur**, verður þetta aldursgildið.</li><li>Til dæmis: Þegar gerð lagsins er **Laun**, verður það launaupphæðin.</li><li> Til dæmis: Þegar gerð lagsins er **Starfsgerð**, verður það starfsgerðin.</li></ul></br></br>Þegar gerð lagsins er **Aldur** eða **Laun**, táknar gildið í reitnum **Stig** efri mörk lagsins. Þegar gerð lagsins er **Starfsgerð**, notar kerfið nálgun nákvæmrar samsvörunar við val á hlutfalli lags. |
    | **Reiknigerð** | Tilgreinir hvernig á að nota upphæðina í reitnum útreikningsfjárhæðar og hvaða stærðfræðiútreikning á að framkvæma ef þörf krefur. Ef útreikningsgerðin er flöt upphæð notar kerfið upphæðarsviðina eins og er. Ef útreikningsgerðin er á hverja $ upphæð af launum eða umfjöllun notar kerfið útreikningsupphæðina og útreikningsstefnuna í stærðfræðiútreikningi sínum.</br></br>Ef útreikningartegundin er á hverja $ upphæð launa notar kerfið eftirfarandi stærðfræðijöfnur:</br></br>Árleg bótagreiðsla deilt með Útreikningsupphæð (ávöl upp eða niður) sinnum upphæðir fyrir reykingamann eða ekki reykingarmann fyrir starfsmann eða vinnuveitanda.</br></br>Ef útreikningartegundin er á hverja $ upphæð tryggingar notar kerfið eftirfarandi stærðfræðijöfnur:</br></br>Tryggingarupphæð deilt með Útreikningsupphæð (ávöl upp eða niður) sinnum upphæðir fyrir reykingamann eða ekki reykingarmann fyrir starfsmann eða vinnuveitanda.</br></br>Í báðum útreikningum er útreikningsstefnan notuð til að ákvarða hvort fara skuli niður árleg hlunnindi eða tryggingarupphæð deilt með útreikningsupphæð upp eða niður. |
    | **Reikningsupphæð** | Upphæðin sem á að nota við útreikningsferli fríðinda. Þessi upphæð verður deilir í stærðfræðiútreikning á stighlutfalli. |
-   | **Stefna útreiknings** | Stefnan (hækka eða lækka) sem reiknuð niðurstöðuupphæð ætti að vera námunduð við. Kerfið styður þrjár útreikningsleiðbeiningar: Autt (nákvæm aðferð), Hækka og Lækka.</br></br><ul><li>Ef það er autt mun kerfið nota nákvæma útreikning á launum / umfjöllunarfjárhæð deilt með útreikningsupphæðinni. Ef þetta gildi hefur brot, þá mun kerfið nota þetta við útreikning.</li><li>Ef Hækkun eykur kerfið stærðfræðiútreikning á launa / umfjöllunarfjárhæð deilt með útreikningsupphæðinni á næsta heiltölu, sem þýðir að 12,25 myndi hækka í 13.</li><li>Ef Lækkun lækkar kerfið stærðfræðiútreikning á launa / umfjöllunarfjárhæð deilt með útreikningsupphæðinni á núverandi heiltölu, sem þýðir að 12,25 myndi lækka í 12.</li></ul> |
+   | **Stefna útreiknings** | Átt jöfnunar á upphæð reiknaðrar niðurstöðu. Kerfið styður þrjár áttir útreiknings: Auða (nákvæma aðferð), **Hækkun** og **Lækkun**.</br></br><ul><li>Ef það er autt mun kerfið nota nákvæma útreikning á launum / umfjöllunarfjárhæð deilt með útreikningsupphæðinni. Ef þetta gildi hefur brot, þá mun kerfið nota þetta við útreikning.</li><li>Þegar **Hækkun** er notuð, hækkar kerfið stærðfræðilega útreikninga á launum/tryggingarupphæð sem er deilt með reikningsupphæðinni í næstu heiltölu, sem þýðir að 12,25 hækka í 13.</li><li>Þegar **Lækkun** er notuð, lækkar kerfið stærðfræðilega útreikninga á launum/tryggingarupphæð sem er deilt með reikningsupphæðinni í núverandi heiltölu, sem þýðir að 12,25 lækka í 12.</li></ul> |
    | **Upphæð starfsmanns fyrir þann sem reykir ekki** | Upphæðin sem veitandi fríðinda veitir fyrir starfsmann sem reykir ekki. Þetta er upphæðin sem vinnuveitandinn greiðir til bótaveitunnar og ætti að vera byggð á greiðslutíðni fyrir uppsetningar taxta. |
    | **Upphæð vinnuveitanda fyrir þann sem reykir ekki** | Upphæðin sem veitandi fríðinda veitir fyrir starfsmann sem reykir ekki. Þetta er upphæðin sem vinnuveitandinn greiðir til bótaveitunnar og ætti að vera byggð á greiðslutíðni fyrir uppsetningar taxta. |
    | **Upphæð starfsmanns fyrir reykingamann** | Upphæðin sem veitandi fríðinda veitir fyrir starfsmann sem reykir ekki. Þetta er upphæðin sem vinnuveitandinn greiðir til bótaveitunnar og ætti að vera byggð á greiðslutíðni fyrir uppsetningar taxta. |

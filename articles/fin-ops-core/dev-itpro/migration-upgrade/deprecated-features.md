@@ -3,7 +3,7 @@ title: Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úr
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða áætlað að fjarlægja úr Dynamics 365 for Finance and Operations og fyrri útgáfum þeirrar vöru.
 author: sericks007
 manager: AnnBe
-ms.date: 04/17/2020
+ms.date: 06/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
-ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
+ms.openlocfilehash: 8a73231a8286a412e9ec8a4eef6c58d7afd73ec0
+ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3284015"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3500413"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Eiginleikar úr fyrri útgáfum sem hafa verið fjarlægðir eða eru úreltir
 
@@ -588,7 +588,7 @@ eGiro byggir á alþjóðlegum staðli Sameinuðu þjóðanna EDIFACT CREMUL, (M
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau greiðslusnið eru ekki lengur notaður.                                                     |
-| **Skipt út fyrir aðra eiginleika?**   | Nei. Snið verður skipt út af ISO 20022 innflutningssniði fyrir yfirlit í síðari útgáfum. |
+| **Skipt út fyrir aðra eiginleika?**   | Já, innflutningstilkynning ISO20022 Camt. 054. |
 | **Afurðasvæði sem haft er áhrif á**         | Viðskiptakröfur                                                                       |
 | **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika.                            |
 
@@ -621,7 +621,7 @@ Hægt er að velja innflutningssnið fyrir finnskar greiðslur sem flytur inn gr
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau greiðslusnið eru ekki lengur notaður.                                                     |
-| **Skipt út fyrir aðra eiginleika?**   | Nei. Snið verður skipt út af ISO 20022 innflutningssniði fyrir yfirlit í síðari útgáfum. |
+| **Skipt út fyrir aðra eiginleika?**   | Já, innflutningstilkynning ISO20022 Camt. 054. |
 | **Afurðasvæði sem haft er áhrif á**         | Viðskiptakröfur                                                                       |
 | **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika.                            |
 
@@ -632,7 +632,7 @@ Sniðið sem er tiltekið fyrir Finnland er notað til að flytja inn bókhaldsf
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau greiðslusnið eru ekki lengur notaður.                                                     |
-| **Skipt út fyrir aðra eiginleika?**   | Nei. Snið verður skipt út af ISO 20022 innflutningssniði fyrir yfirlit í síðari útgáfum. |
+| **Skipt út fyrir aðra eiginleika?**   | Já, ISO20022 Camt. 053-innflutningur bankayfirlits með ítarlegri bankaafstemmingu. |
 | **Afurðasvæði sem haft er áhrif á**         | Viðskiptakröfur                                                                       |
 | **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika.                            |
 
@@ -698,7 +698,7 @@ Telehansa og TeleTeenus-snið notuð til að flytja inn greiðslu banka.
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau greiðslusnið eru ekki lengur notaður.                                                    |
-| **Skipt út fyrir aðra eiginleika?**   | Nei. Sniðum verður skipt út af ISO 20022 innflutningssniði fyrir yfirlit í síðari útgáfum. |
+| **Skipt út fyrir aðra eiginleika?**   | Já, bankainnflutningstilkynning ISO20022 Camt. 054. |
 | **Afurðasvæði sem haft er áhrif á**         | Viðskiptakröfur                                                                        |
 | **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika.                             |
 
@@ -784,7 +784,7 @@ Greiðslusnið Telepay innihalda útflutning greiðsla lánardrottins (millifær
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Þau greiðslusnið eru ekki lengur notaður.                                                        |
-| **Skipt út fyrir aðra eiginleika?**   | Já, ISO20022 greiðslusnið millifærsla fjármuna og greiðslusnið viðskiptavinar AvtaleGiro fyrir Svíþjóð |
+| **Skipt út fyrir aðra eiginleika?**   | Já, ISO20022 greiðslusnið kreditfærslu og AvtaleGiro-greiðslusnið viðskiptavinar fyrir Noreg, ásamt innflutningi á skilaskrám banka pain.002 og camt.054. |
 | **Afurðasvæði sem haft er áhrif á**         | Viðskiptakröfur, viðskiptaskuldir                                                          |
 | **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika.                                 |
 
@@ -844,7 +844,7 @@ Verkflæði til að stjórna stofnun starfsmannamarkmiða er eitt af nokkrum ver
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF AxD og AxBC samþættingar
 
-Í samþættingarramma Kerfa (AIF), er hægt að skiptast á gögnum við ytri kerfi gegnum viðskiptagrunninn með viðskiptagrunn sem er sem þjónustu. Dynamics AX felur í sér þjónustu sem byggir á skjölum og .NET Business Connector (AxBC). Skjal er stofnað með notkun XML. XML inniheldur hausupplýsingar sem bætt er við til að stofna *skilaboð* sem hægt er að flytja inn eða út úr Dynamics AX. Dæmi um skjöl fela í sér sölupantanir og innkaupapantanir. Hins vegar getur skjal staðið fyrir nánast hvaða einingu sem er, eins og viðskiptavin. Þjónustur sem byggja á skjölum nota **Axd \<Skjal\>** klasana.
+Í samþættingarramma Kerfa (AIF), er hægt að skiptast á gögnum við ytri kerfi gegnum viðskiptagrunninn með viðskiptagrunn sem er sem þjónustu. Dynamics AX felur í sér þjónustu sem byggir á skjölum og .NET Business Connector (AxBC). Skjal er stofnað með notkun XML. XML inniheldur hausupplýsingar sem bætt er við til að stofna *skilaboð* sem hægt er að flytja inn eða út úr Dynamics AX. Dæmi um skjöl fela í sér sölupantanir og innkaupapantanir. Hins vegar getur skjal staðið fyrir nánast hvaða einingu sem er, eins og viðskiptavin. Þjónustur sem byggja á skjölum nota **Axd \<Document\>** klasana.
 
 |   |  |
 |------------|--------------------|
@@ -1125,13 +1125,13 @@ Myndun fyrirframkvittunar er ekki hægt að gera með því að nota runu en sam
 | **Afurðasvæði sem haft er áhrif á**         | Allar einingar  |
 | **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika. |
 
-### <a name="german-dtazv-payment-format"></a>Þýska dtazv greiðslusnið
+### <a name="german-dtazv-payment-format-in-domestic-currency"></a>Þýska DTAZV-greiðslusniðið í innlendum gjaldmiðli
 
 |   |  |
 |------------|--------------------|
 | **Ástæða úreldingar/fjarlægingar** | Snið gildir ekki lengur í þýskalandi, þar sem því hefur verið skipt út fyrir SEPA-virkni. |
 | **Skipt út fyrir aðra eiginleika?**   | SEPA greiðsluútflutningur    |
-| **Afurðasvæði sem haft er áhrif á**         | Allar einingar   |
+| **Afurðasvæði sem haft er áhrif á**         | Viðskiptaskuldir   |
 | **Staða**                         | Úrelt: Fjarlægingardagsetning hefur ekki verið stilltur fyrir þennan eiginleika.    |
 
 ### <a name="german-mt940-import"></a>Flytja inn Þýska MT940

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 481f7787e21cd9a00ed1798d4d2588e93ca73b56
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: 3469c8936dd2eaa53e541f0ea684ea1eb12db4cb
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346538"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530122"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gæðastjórnun fyrir vöruhúsaferli
 
@@ -46,7 +46,7 @@ Eiginleikinn _Gæðastjórnun fyrir vöruhúsaferli_ býr sjálfkrafa til vinnu 
 
 Þegar kveikt er á eiginleikanum _Gæðastjórnun fyrir vörugeymslur_ breytir það skipulagi lykilstjórnunar og gæðastjórnunaraðila. Eftirfarandi mynd sýnir yfirlit yfir einingarnar sem virkja gæðapantanir fyrir vöruhúsaferli. Texti í sviga tilgreinir ráðlagðar aðgerðir þegar gæðastjórnun var notuð áður en kveikt var á eiginleikanum _Gæðastjórnun fyrir vöruhúsakerfisferla_.
 
-![![Gæðastjórnunareiningar](media/quality-management-entity-diagram.png "Gæðastjórnunareiningar")](media/quality-management-entity-diagram.png "Quality management entities")
+![Gæðastjórnunareiningar](media/quality-management-entity-diagram.png "Gæðastjórnunareiningar")
 
 ## <a name="enablers-the-quality-item-sampling-and-quality-order-work-order-types"></a>Virkjarar: Vörusýnataka gæðaskoðunar og verkbeiðnigerðir gæðapöntunar
 

@@ -3,7 +3,7 @@ title: Setja upp netrás
 description: Þetta efni lýsir því hvernig á að stofna nýja netrás í Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
-ms.date: 01/27/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9b7a2b8fd157df8b39e9e227d188a3802cacb4e3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0d803b23f9de9daf624537d1d1ef30f17dc05fea
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002428"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533322"
 ---
 # <a name="set-up-an-online-channel"></a>Setja upp netrás
 
@@ -35,9 +35,9 @@ ms.locfileid: "3002428"
 
 Dynamics 365 Commerce styður margar smásölurásir. Meðal þessara smásölurásir eru netverslanir, símaver, og smásöluverslanir (einnig kallað hefðbundnar verslanir). Netverslun gefur viðskiptavinum val um að kaupa afurðir úr netverslun smásala til viðbótar við smásöluverslanir þeirra.
 
-Til að stofna netverslun í Commerce verðurðu fyrst að búa til netrás. 
+Til að stofna netverslun í Commerce verðurðu fyrst að búa til netrás. Áður en ný netrás er stofnuð skaltu ganga úr skugga um að þú hafir lokið við [Skilyrði fyrir rásauppsetningu](channels-prerequisites.md).
 
-Áður en ný netrás er stofnuð skaltu ganga úr skugga um að þú hafir lokið við [Skilyrði fyrir rásauppsetningu](channels-prerequisites.md).
+Áður en þú getur búið til nýja síðu verður að búa til að minnsta kosti eina netverslun í Commerce. Frekari upplýsingar eru í [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md).
 
 ## <a name="create-and-configure-a-new-online-channel"></a>Stofna og stilla nýja netrás
 

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 826c955b7c99073ff41c8a5ed75254c824359925
-ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
+ms.openlocfilehash: c397354ade1ac1d4f5f9bc0e6bb5d4be5a7ae9f3
+ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175155"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3505612"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Ítarleg sjálfvirk gjöld fyrir omni-rás
 
@@ -52,7 +52,7 @@ Með eiginleika ítarlegra sjálfvirkra gjalda geta POS-notendur haft kerfisbund
 
 Þegar ítarleg sjálfvirk gjöld eru virkjuð eru núverandi **Færibreytur Commerce** fyrir **Sendingargjaldakóða** og **Endurgreiða sendingargjöld** ekki lengur notaðar. Þessar færibreytur eiga aðeins við ef færibreytan **Nota ítarleg sjálfvirk gjöld** er stillt á **Nei**.
 
-Áður en þessi aðgerð er virkjuð skal tryggja að starfsmaður hafi verið prófaður og fengið þjálfun, því að þetta mun breyta flæði viðskiptaferlisins um hvernig sending eða önnur gjöld eru reiknuð út og bætt við sölupantanir sölustaðar. Gakktu úr skugga um að þú hafir skilið áhrif flæðiferlisins á stofnun færslna fyrir sölustað. Fyrir pantanir í símaveri og rafrænum viðskiptum eru áhrifin vegna virkjunar á ítarlegum sjálfvirkum gjöldum í lágmarki. Forrit símavers og rafrænna viðskipta verður áfram með sömu hegðunina og áður sem tengjast töflum sjálfvirkra gjalda til að reikna út viðbótarþóknanir pöntunar. Notendur símaversrásar munu áfram geta breytt handvirkt öllum sjálfvirkum gjöldum sem kerfið reiknar í haus og línustigi, eða bætta handvirkt við viðbótargjöldum í haus eða línustigi.
+Áður en þessi aðgerð er virkjuð skal tryggja að starfsmaður hafi verið prófaður og fengið þjálfun, því að virkjaði eiginleikinn mun breyta flæði viðskiptaferlisins um hvernig sending eða önnur gjöld eru reiknuð út og bætt við sölupantanir sölustaðar. Gakktu úr skugga um að þú hafir skilið áhrif flæðiferlisins á stofnun færslna fyrir sölustað. Fyrir pantanir í símaveri og rafrænum viðskiptum eru áhrifin vegna virkjunar á ítarlegum sjálfvirkum gjöldum í lágmarki. Forrit símavers og rafrænna viðskipta verður áfram með sömu hegðunina og áður sem tengjast töflum sjálfvirkra gjalda til að reikna út viðbótarþóknanir pöntunar. Notendur símaversrásar munu áfram geta breytt handvirkt öllum sjálfvirkum gjöldum sem kerfið reiknar í haus og línustigi, eða bætta handvirkt við viðbótargjöldum í haus eða línustigi.
 
 ## <a name="additional-pos-operations"></a>Viðbótaraðgerðir í POS
 
@@ -89,7 +89,7 @@ Skilgreindu tvö mismunandi sjálfvirk gjöld á hausstigi. Skilgreindu eitt fyr
 
 Fyrir sendingargjöld á landi, í línuhlutanum á síðunni **Sjálfvirk gjöld** skaltu skilgreina gjald sem verður notað fyrir pantanir á milli $0,01 og $100 sem $10.00. Búðu til aðra gjaldalínu til að gefa til kynna að pantanir sem eru yfir $100,01 verði án gjalds.
 
-![Dæmi um sjálfvirk gjöld](media/headerchargesexample.png)
+![Dæmi um tvær sjálfvirkar gjaldatöflur](media/headerchargesexample.png)
 
 Fyrir sendingargjöld í flugi, í línuhlutanum í skjámynd sjálfvirkra gjalda, skaltu skilgreina gjald sem nemur $20.00 sem verður notað fyrir allar pantanir (fyrir virði á bilinu $0,01 til $9.999.999).
 
@@ -119,7 +119,7 @@ Farðu í **Viðskiptakröfur \> Uppsetning gjalda \> Sjálfvirk gjöld**.
 
 Stilltu fellivalmyndina **Stig** á **Lína** og búðu til nýja færslu sjálfvirkra gjalda fyrir alla viðskiptavini og fyrir tiltekna vöru eða vöruflokk þar sem stofngjöldin vera innheimt.
 
-![Dæmi um sjálfvirk gjöld](media/linechargesexample.png)
+![Dæmi um sjálfvirka gjaldatöflu með eitt línustig](media/linechargesexample.png)
 
 Sendu gjöldin í Commerce Scale Unit/gagnagrunn rásar þannig að POS geti nýtt þær með því að keyra vinnsluna **1040 dreifingaráætlun**.
 
@@ -173,7 +173,7 @@ Aðgerðin **Bæta við línugjaldi** verður að vera skilgreind í [Skjáútli
 
 Til að framkvæma atburðarásina í POS-forritinu mun POS-notandinn stofna sölufærslu eins og venjulega, bætir vörum og öðrum skilgreiningum við söluna. Áður en greiðsla er innheimt ætti notandinn að velja tiltekna línu þar sem gjaldið mun eiga við úr vörulista sölustaðar og framkvæma aðgerðina **Bæta við gjaldi**. Notandinn verður beðinn um að velja gjaldakóða og slá inn gildi fyrir gjöldin. Þegar notandi hefur lokið við ferlið verður gjaldið tengt við línuna og bætt við samtölu pöntunar sem gjald á línustigi. Notandinn getur endurtekið ferlið til að bæta við viðbótarlínugjöldum við aðrar vörulínur í færslunni ef þörf krefur.
 
-Sama ferli er hægt að beita í símaverinu með því að nota eiginleikann „viðhalda gjöldum“ sem er að finna í fellivalmyndinni **Fjármál** í hlutanum **Sölupöntunarlínur** á síðunni **Sölupöntun**. Þetta mun opna síðuna **Viðhalda gjöldum** þar sem notandinn getur bætt nýju tilteknu línugjaldi við færsluna.
+Sama ferli er hægt að beita í símaverinu með því að nota eiginleikann „viðhalda gjöldum“ sem er að finna í fellivalmyndinni **Fjármál** í hlutanum **Sölupöntunarlínur** á síðunni **Sölupöntun**. Að velja þennan kost mun opna síðuna **Viðhalda gjöldum** þar sem notandinn getur bætt nýju línutengdu gjaldi við færsluna.
 
 ## <a name="additional-features"></a>Viðbótareiginleikar
 

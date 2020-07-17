@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: boycezhu
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3a84318f7156ef42f7e00f1e89228f541b1634ce
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: a037c8514d7838b3a4797f21b3ef3f6d5736e840
+ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261468"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3505635"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>POS notendaviðmót sjónrænna stillinga
 
@@ -101,7 +101,7 @@ Við ræsingu velur POS forritið sjálfkrafa nálægasta útlitsstærð sem er 
 > [!TIP]
 > Þú getur fengið upplýsingar um útlitsstærðina sem krafist er fyrir POS-skjá með því að skoða upplausnina í forritinu. Ræstu POS og farðu í **Stillingar \> Upplýsingar um lotu**. POS sýnir skjáútlitið sem er nú hlaðið, útlitsstærð og upplausn forritsgluggans.
 
-![POS útlitsstærðir](../commerce/media/POS-Session-Information.png)
+![Upplýsingasíða um sölustaðarlotu sem sýnir skjáútlit, útlitsstærð og upplausn forritagluggans sem er hlaðinn](../commerce/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Hnappahnit
 
