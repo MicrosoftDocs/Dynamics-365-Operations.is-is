@@ -3,7 +3,7 @@ title: Yfirlit yfir síður körfu og greiðsluferlis
 description: Þetta efnisatriði veitir yfirlit yfir körfu- og greiðslusíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07905b9a843eb42d3031dcc80b4e185c122a9e50
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: c879b90cf49dcab9cf069e4f3613602bd6673aa9
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002936"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527564"
 ---
-# <a name="overview-of-cart-and-checkout-pages"></a>Yfirlit yfir síður körfu og greiðsluferlis
-
+# <a name="cart-and-checkout-pages-overview"></a>Yfirlit yfir síður körfu og greiðsluferlis
 
 [!include [banner](includes/banner.md)]
 
@@ -103,10 +102,8 @@ Nánari upplýsingar um hvernig á að skrifa greiðsluferlissíðu er að finna
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit yfir heimasíðuna](quick-tour-home-page.md)
+[Yfirlit heimasíðu](quick-tour-home-page.md)
 
-[Yfirlit sjálfgefinnar lendingarsíðu flokks og leitarniðurstöðusíðu](category-search-page-overview.md)
+[Yfirlýt upplýsingasíðu afurða](quick-tour-pdp.md)
 
-[Yfirlit yfir upplýsingasíður afurðar](quick-tour-pdp.md)
-
-[Yfirlit yfir síður reikningastjórnunar](quick-tour-account-management.md)
+[Yfirlit yfir síður fyrir stjórnun reikninga](quick-tour-account-management.md)

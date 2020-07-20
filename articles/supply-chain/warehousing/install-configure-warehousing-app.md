@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 290888dbf7d194b8cf259d7218d01d4a4f911db0
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 88bce09a6d3bf154592955a6fb2dada6247f1993
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367083"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530076"
 ---
-# <a name="install-and-connect-the-warehousing-app"></a>Setja upp og tengja vöruhúsaforrit
+# <a name="install-and-connect-the-warehouse-app"></a>Setja upp og tengja vöruhúsaforrit
 
 [!include [banner](../includes/banner.md)]
 
@@ -47,7 +47,7 @@ Vöruhúsaforritið er í boði fyrir bæði Windows- og Android-stýrikerfi. Ti
 > [!NOTE]
 > Ef styðja þarf við eldri Windows-tæki sem ekki geta keyrt nýjustu útgáfu af Windows er enn hægt að sækja útgáfu 1.6.3.0 af vöruhúsaforritinu úr Microsoft Store. Sú útgáfa mun keyra á Windows 10 (UWP) nóvemberuppfærslu 1511 (smíði 10.0.10586) eða nýrri. Hins vegar skal hafa í huga að þessi útgáfa vöruhúsaforritsins styður ekki fjöldauppsetningu tengingarstillinga. Þess vegna þarf að [skilgreina tenginguna handvirkt](#config-manually) í hverju tæki sem keyrir þessa útgáfu forritsins.
 
-## <a name="get-the-warehousing-app"></a>Sækja vöruhúsaforrit
+## <a name="get-the-warehouse-app"></a>Sækja vöruhúsaforrit
 
 Notaðu einn eftirfarandi tengla til að sækja forritið:
 
@@ -107,7 +107,7 @@ Til að virkja Supply Chain Management til að nota Azure AD-forritið skal fylg
 
     ![Úthluta fartækjanotanda í vöruhúsi](media/app-connect-app-users.png "Úthluta fartækjanotanda í vöruhúsi")
 
-1. Tengdu Azure AD forritið þitt við notanda vöruhússforrits fyrir fartæki:
+1. Tengdu Azure AD forritið þitt við notanda vöruhúsaforrits fyrir fartæki:
 
     1. Opnið **Kerfisstjórnun \> Uppsetning \> Azure Active Directory forrita**.
     1. Stofna línu.

@@ -3,7 +3,7 @@ title: Afstemma bankayfirlit með ítarlegri bankaafstemmingu
 description: Ítarleg bankaafstemming aðgerð gerir það mögulegt að flytja inn rafrænt bankayfirlit og afstemma þau sjálfkrafa við bankafærslu í Microsoft Dynamics 365 Finance. Þessi skrá útskýrir ferli afstemmingar.
 author: saraschi2
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b37cf8d83c7134ae65da6a885bffeb01d16f9f06
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c13203217af1788fe3b8a6f9bbf805e03b650a0d
+ms.sourcegitcommit: 8a1621327568edf49758b70964e0a3e637527e1b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178306"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3497146"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Afstemming bankayfirlits með ítarlegri bankaafstemmingu
 
@@ -41,9 +41,9 @@ Hægt er að hlaða upp bankayfirlit sem inniheldur upplýsingar annað hvort um
 -   Til að flytja staka bankayfirlitsskránn fyrir einn lykil, er stilltur **Flytja yfirlit fyrir mörgum bankareikningum í öllum lögaðilum** valkostinn til á **Nei**, og veljið bankareikning sem er tengd við yfirlitið. Smellið á **Fletta** til að velja tengda bankayfirlitsskránni og smellið síðan á **hlaða upp**.
 -   Til að flytja marga bankayfirlitsskrár fyrir einn lykil, er stilltur **Flytja yfirlit fyrir mörgum bankareikningum í öllum lögaðilum** valkostinn til á **já**. Smellið á **Fletta** til að velja tengda bankayfirlitsskránni og smellið síðan á **hlaða upp**.
 
-Ef eitthvað uppgjör í rafræna skrá getur ekki verið tengt við bankareikning með auðkennandi svæðunum, verða þær ekki fluttar inn. Hins vegar er enn hægt að flytja inn önnur yfirlit í skránni. Notandinn fær skilaboð sem tilgreinir að innflutningur bankayfirlits mistókst fyrir tiltekna bankareikninga. Athugið að notandinn sem flytur inn bankayfirlitsskránni þarf að hafa aðgang að lögaðila til að flytja inn yfirlit fyrir bankareikninga þess lögaðila. 
+Ef eitthvað uppgjör í rafrænni skrá getur ekki verið tengt við bankareikning, eða ef það er tengt með mörgum bankareikningum með auðkennandi svæðunum, verður það ekki flutt inn. Hins vegar er enn hægt að flytja inn önnur yfirlit í skránni. Notandinn fær skilaboð sem tilgreinir að innflutningur bankayfirlits mistókst fyrir tiltekna bankareikninga. Athugið að notandinn sem flytur inn bankayfirlitsskránni þarf að hafa aðgang að lögaðila til að flytja inn yfirlit fyrir bankareikninga þess lögaðila. 
 
-Einnig er hægt að hlaða upp margar yfirlitsskrár í Finance í einu ferli með því að nota zip-skrár. Til að flytja margar bankayfirlitsskrár fyrir marga lykla, skal sameina allar bankayfirlitsskrár í eina zip-skrá. Í á **flytja Inn bankayfirlit** svargluggann er stilltur valkosturinn **flytja Inn yfirlit fyrir mörgum bankareikningum í öllum lögaðilum** á **Já**. Smellið á **Fletta** til að velja zip-skrá sem inniheldur bankayfirlitsskrárnar og smellið síðan á **hlaða upp**. Innflutningsferli þekkja zip-skrá og hleður upp hverju yfirliti sem er innifalin í því, óháð lögaðila bankareikningsins. 
+Einnig er hægt að hlaða upp margar yfirlitsskrár í Finance í einu ferli með því að nota zip-skrár. Til að flytja margar bankayfirlitsskrár fyrir marga lykla, skal sameina allar bankayfirlitsskrár í eina zip-skrá. Í á **flytja Inn bankayfirlit** svargluggann er stilltur valkosturinn **flytja Inn yfirlit fyrir mörgum bankareikningum í öllum lögaðilum** á **Já**. Smellið á **Fletta** til að velja zip-skrá sem inniheldur bankayfirlitsskrárnar og smellið síðan á **hlaða upp**. Innflutningsferli þekkja zip-skrá og hleður upp hverju yfirliti sem er innifalin í því, óháð lögaðila bankareikningsins.
 
 Valkosturinn **Stemma af eftir innflutning** er tiltækur. Þegar þessi valkostur er stilltur á **Já**, villuleitar kerfið sjálfkrafa bankayfirlit, stofnar nýja bankaafstemmingu og vinnublað, og keyrir Sjálfgefna samsvörunarreglusettið þegar bankayfirlitið hefur verið hlaðið upp. Þessi aðgerð gerir ferliið sjálfvirkt upp að þeim punkti þar sem færslur þarft að handvirkt jafna.
 

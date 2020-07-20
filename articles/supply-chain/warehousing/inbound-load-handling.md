@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 709a75a259b1f8daa5b72e76b56942573c403f43
-ms.sourcegitcommit: 3a823444005d316bd95fc663e2dbc8252ac7d93a
+ms.openlocfilehash: 9a030f2e219c7c389d6255254545f3f895eff75b
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261340"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530582"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Vöruhúsafgreiðsla á farmi á innleið fyrir innkaupapantanir
 
@@ -66,7 +66,7 @@ Microsoft Dynamics 365 Supply Chain Management styður nokkrar rekstraraðferði
 
 - **Valmynd fartækis sem er stillt til að styðja við móttöku farms**
 
-    [Dynamics 365 for Finance and Operations - forritið Warehousing](install-configure-warehousing-app.md) fyrir fartæki styður eftirfarandi vinnustofnunarferla:
+    [Vöruhúsaforritið](install-configure-warehousing-app.md) fyrir fartæki styður eftirfarandi stofnun verka:
 
     - Móttaka farmvöru
     - Móttaka og frágangur farmvöru
@@ -285,7 +285,7 @@ Til að vinna í gegnum þessar atburðarásir með því að nota tilgreind sý
 
 Áður en starfsmaður vöruhúss getur notað fartæki til að skrá birgðir á innleið sem eru tengdar við álag verður þú að búa til valmyndaratriði fartækis í þeim tilgangi.
 
-Í þessum hluta muntu búa til valmyndaratriði fartækis og bæta því við núverandi valmynd. Starfsmaður vöruhúss getur síðan valið valmyndaratriðið í forritinu Warehousing.
+Í þessum hluta muntu búa til valmyndaratriði fartækis og bæta því við núverandi valmynd. Starfskraftur í vöruhúsi getur síðan valið valmyndaratriði í vöruhúsaforritinu.
 
 1. Farðu í **Vöruhúsastjórnun \> Uppsetning \> Fartæki \> Valmyndaratriði fartækis** og gakktu úr skugga um að valmynd fartækisins innihaldi valmyndaratriði sem hefur eftirfarandi stillingar:
 

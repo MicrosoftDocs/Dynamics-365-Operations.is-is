@@ -3,8 +3,10 @@
   items:
     - name: Nýjungar
       items:
-        - name: Nýjungar í Human Resources
+        - name: Nýjungar eða breytingar í Human Resources
           href: hr-admin-whats-new.md
+        - name: 25. júní 2020
+          href: hr-whats-new-2020-06-23.md
         - name: 11. júní 2020
           href: hr-whats-new-2020-06-11.md
         - name: 28. maí 2020
@@ -141,6 +143,8 @@
           items:
             - name: Fá aðstoð
               href: hr-admin-troubleshooting-support.md
+            - name: Bæta frammistöðu með því að tímasetja runuvinnslur utan vinnutíma
+              href: hr-admin-troubleshooting-batch-jobs.md
             - name: Auka afköst með sjálfvirkum hreinsunarverkum
               href: hr-admin-troubleshooting-batch-history.md
             - name: Greiningarskýrslur eru ekki uppfærðar

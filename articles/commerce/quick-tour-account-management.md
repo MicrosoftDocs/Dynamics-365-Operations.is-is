@@ -1,9 +1,9 @@
 ---
-title: Yfirlit yfir síður reikningastjórnunar
+title: Yfirlit yfir síður fyrir stjórnun reikninga
 description: Þetta efni veitir yfirlit yfir reikningsstjórnunarsíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 722da2755734a85e915dd90e7868a5e1c7753f5a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 03a2ebd07c2a95198f506df3fd94c967ad0315e8
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002959"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527609"
 ---
-# <a name="overview-of-account-management-pages"></a>Yfirlit yfir síður reikningastjórnunar
-
+# <a name="account-management-pages-overview"></a>Yfirlit yfir síður fyrir stjórnun reikninga
 
 [!include [banner](includes/banner.md)]
 
@@ -91,11 +90,9 @@ Nánari upplýsingar um reikningastjórnunareiningar og hvernig á að skrifa þ
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit yfir heimasíðuna](quick-tour-home-page.md)
+[Yfirlit heimasíðu](quick-tour-home-page.md)
 
-[Yfirlit sjálfgefinnar lendingarsíðu flokks og leitarniðurstöðusíðu](category-search-page-overview.md)
+[Yfirlýt upplýsingasíðu afurða](quick-tour-pdp.md)
 
-[Yfirlit yfir upplýsingasíður afurðar](quick-tour-pdp.md)
-
-[Yfirlit yfir á körfu- og greiðsluferlissíður](quick-tour-cart-checkout.md)
+[Yfirlit yfir síður körfu og greiðsluferlis](quick-tour-cart-checkout.md)
 

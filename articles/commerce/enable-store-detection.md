@@ -3,7 +3,7 @@ title: Virkja greiningu á verslun eftir staðsetningu
 description: Þetta efnisatriði lýsir því hvernig á að kveikja á staðsetningarbundinni verslun fyrir þitt Dynamics 365 Commerce svæði.
 author: brianshook
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 66ffe56f9d969c9d62ed4ff49f0848fab7e58a56
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: 4d3a423bf64900e547a23f2e5eeb90aa679ec5d1
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096870"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533391"
 ---
 # <a name="enable-location-based-store-detection"></a>Virkja greiningu á verslun eftir staðsetningu
 
@@ -53,8 +53,6 @@ Fylgdu þessum skrefum til að kveikja á staðsetningarbyggðri greiningu versl
 [Skilgreina lénsheiti](configure-your-domain-name.md)
 
 [Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
-
-[Setja upp netverslunarrás](online-stores.md)
 
 [Stofna svæði fyrir rafræn viðskipti](create-ecommerce-site.md)
 

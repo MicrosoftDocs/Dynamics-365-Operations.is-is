@@ -1,9 +1,9 @@
 ---
 title: Úthluta vinnuliðir í verkflæði
 description: Ef þú verður ekki á skrifstofunni í einhvern tíma eða munt ekki vera tiltækur til að bregðast við vinnulið getur þú úthlutað, eða endurúthlutað vinnuliðunum, til annars notanda.
-author: jasongre
+author: ChrisGarty
 manager: AnnBe
-ms.date: 07/01/2019
+ms.date: 06/23/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: jasongre
+ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aceafbe8dfcdac2ac7b97a4f77a9a30599c60c51
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7d98d84b89f1f3322a9c896b74b63a3b6425b13b
+ms.sourcegitcommit: 267864eb0dccd6e26d49d280bd4ad1b770a73a77
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140583"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "3515765"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Úthluta vinnuliðum í verkflæði
 
@@ -30,6 +30,16 @@ ms.locfileid: "3140583"
 ## <a name="manually-delegate-a-work-item"></a>Úthluta vinnulið handvirkt
 
 Til að úthluta einstökum vinnulið skal velja valkostinn **Úthluta** í valmyndinni **Verkflæði** og síðan færa inn notandann sem úthluta á til ásamt athugasemd. Þetta mun endurúthluta vinnuliðnum á þann notanda svo hann geti lokið vinnunni.
+
+## <a name="manually-delegate-multiple-work-items"></a>Úthluta mörgum vinnuliðum handvirkt
+
+Hægt er að úthluta mörgum vinnuliðum saman á síðunni **Vinnuliðum sem mér er úthlutað**. Eftirfarandi verkflæðisgerðir er hægt að fjöldaúthluta: innkaupasamningur, samþykktarverkflæði, verkflæði innkaupapöntunar, yfirferð innkaupabeiðni og verkflæði lánardrottnareiknings. Slökkt er á eiginleikanum **Úthluta mörgum vinnuliðum** að sjálfgefnu og hægt er að virkja hann í **Vinnusvæði > Eiginleikastjórnun**. Hafið samband við kerfisstjóra til að fá aðstoð við að kveikja á eiginleikanum.
+1.  Farið á **Algengt > Algengt > Vinnuliðir > Vinnuliðir sem úthlutað er á mig**.
+2.  Veljið vinnuliði sem verður úthlutað.
+3.  Smellið á valmyndina **Úthluta vinnuliðum**.
+4.  Í reitnum **Notandi** skal velja notandann sem á að úthluta vinnuliði á.
+5.  Í reitnum **Athugasemd** skal færa inn athugasemd og útskýra hvers vegna vinnuliðum er úthlutað.
+6.  Smellið á hnappinn **Úthluta vinnuliðum** til að ljúka úthlutun vinnuliðar.
 
 ## <a name="automatically-delegate-work-items"></a>Úthluta vinnuliðum sjálfvirkt
 
@@ -47,5 +57,5 @@ Ef þú verður ekki á skrifstofunni í einhvern tíma eða munt ekki vera tilt
 6. Í reitnum **Upphafsdagsetning/-tími** skal slá inn dagsetningu og tíma.
 7. Í reitnum **Lokadagsetning/-tími** skal slá inn dagsetningu og tíma.
 8. Veljið gátreitinn **Virkjað** til að gera úthlutunarregluna virka. Ef **Eining** er valið sem umfang verður að velja einingu í reitnum Heiti. Ef **Verkflæði** er valið sem umfang verður að velja sérstakt verkflæði til að úthluta í reitinn Heiti.  
-9. Í reitinn **Athugasemd** skal færa inn athugasemd og útskýra hvers vegna vinnuliðum er úthlutað.
+9. Í reitnum **Athugasemd** skal færa inn athugasemd og útskýra hvers vegna vinnuliðum er úthlutað.
 

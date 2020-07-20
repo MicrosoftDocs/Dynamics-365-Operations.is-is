@@ -74,8 +74,6 @@
                       href: get-started/whats-new-changed-10-0-12.md
                     - name: Finance 10.0.11 (júlí 2020)
                       href: get-started/whats-new-changed-10-0-11.md
-                    - name: Finance 10.0.10 (maí 2020)
-                      href: get-started/whats-new-changed-10-0-10.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
@@ -1184,6 +1182,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/dynamics365/finance/toc.json
             - name: Dálkskilgreiningar
               href: ../fin-ops-core/dev-itpro/analytics/column-definitions-financial-reports.md?toc=/dynamics365/finance/toc.json
+            - name: Skilgreiningar skipurits í fjárhagsskýrslum
+              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md?toc=/dynamics365/finance/toc.json
             - name: Breyta hólfum línuskilgreiningar
               href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
             - name: Endurstilla gagnaskemmu fyrir fjárhagsskýrslugerð
@@ -2546,7 +2546,7 @@
                       hreF: localizations/rus-set-up-inventory-profile.md
                     - name: Nota birgðaforstillingu í skjölum og fyrirspurnum
                       href: localizations/rus-use-inventory-profile-documents-queries.md
-                - name: Skýrslugjöf
+                - name: Skýrslugerð
                   items:
                     - name: Fjárhagsskýrslugerð
                       href: localizations/rus-financial-reports.md
@@ -2984,7 +2984,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/finance/toc.json
                 - name: Bæta fjárhagsvíddum við uppsafnaðar mælingar
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/finance/toc.json
-                - name: Stofna greiningarskýrslur með Power BI Desktop
+                - name: Stofna greiningarskýrslur með PowerBI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Bæta greiningu við vinnusvæði með Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/finance/toc.json
@@ -3386,12 +3386,18 @@
                       items:
                         - name: Flytja inn skilgreiningar úr GR
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Flytja inn uppfærðar útgáfur skilgreininga rafrænnar skýrslugerðar
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=dynamics365/finance/toc.json
                         - name: Aukin síun til að finna skilgreiningar í GR
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: Hlaða skilgreiningum upp í GR
                           href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                         - name: Deila skilgreiningum í GR
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+            - name: Stuttir leiðarvísar
+              items:
+                - name: Stilla snið rafrænnar skýrslugerðar til að búa til sérsniðið rafrænt skjal
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md
             - name: Kennsla
               items:
                 - name: Kynntu þér hvernig þú notar gagnaveitur

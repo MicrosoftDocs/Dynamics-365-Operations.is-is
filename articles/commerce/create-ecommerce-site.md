@@ -3,7 +3,7 @@ title: Stofna svæði fyrir rafræn viðskipti
 description: Þetta efni lýsir skrefum og upplýsingum sem þarf til að stofna nýja netverslunarsíðu á Dynamics 365 Commerce vefsvæðishönnuðinum.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 03/02/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,25 +19,20 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7177bae911dfa91a645b40581bf23b3ed76562a3
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: ea3517a4f2b84db8a87a97d2f644bb4436f8693f
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096775"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533437"
 ---
 # <a name="create-an-e-commerce-site"></a>Stofna svæði fyrir rafræn viðskipti
-
 
 [!include [banner](includes/banner.md)]
 
 Þetta efni lýsir skrefum og upplýsingum sem þarf til að stofna nýja netverslunarsíðu á Dynamics 365 Commerce vefsvæðishönnuðinum.
 
-Áður en hægt er að hefja þróun á netverslunarsíðunni verðurðu fyrst að stofna nýja síðu í vefsvæðishönnuðinum. 
-
-
-Til að byrja að þróa netverslunarsíðuna þína verðurðu fyrst að stofna nýja síðu í umhverfi höfundaréttarins. Áður en þú getur búið til nýja síðu verður að búa til að minnsta kosti eina netverslun í Commerce. 
-
+Þegar veitt er heimild fyrir rafrænum viðskiptamöguleikum, fær vefhönnuður úthlutað upphafssíðu sem hægt er að nota sem grunn fyrir eigin síðu. Ef þú vilt hins vegar byrja frá grunni eða ef þú vilt koma á öðru vefsvæði þarftu að koma á fót nýju svæði í hönnunarumhverfi vefsvæðis. 
 
 ## <a name="set-up-your-site"></a>Setja upp síðuna
 
@@ -64,8 +59,6 @@ Eftir að vefsvæðið þitt er búið til geturðu staðfest að það er tengt
 [Skilgreina lénsheiti](configure-your-domain-name.md)
 
 [Uppsetning á nýju vefsvæði fyrir rafræn viðskipti](deploy-ecommerce-site.md)
-
-[Setja upp netverslunarrás](online-stores.md)
 
 [Tengja netsvæði við rás](associate-site-online-store.md)
 

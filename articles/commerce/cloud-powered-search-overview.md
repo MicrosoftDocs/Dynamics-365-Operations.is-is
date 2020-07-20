@@ -1,9 +1,9 @@
 ---
 title: Leitaryfirlit í skýinu
 description: Þetta efni gefur yfirlit yfir leit í skýi í Microsoft Dynamics 365 Commerce.
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5501f4d39709990eb352511477b1427fb265afde
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057834"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527444"
 ---
 # <a name="cloud-powered-search-overview"></a>Leitaryfirlit í skýinu
 
@@ -73,8 +73,12 @@ Eftirfarandi mynd sýnir dæmi þar sem verið er að nota heildstæða sjálfvi
 
 Aukin flokkun í Dynamics 365 Commerce gerir viðskiptavinum kleift að flokka, leita og fletta í leitarniðurstöðum og betrumbæta þær eftir forsendum eins og verði, vöruheiti og vörunúmeri. Viðskiptavinir geta einnig flokkað niðurstöður út frá því hvort vara er ný, mest seld eða nýlega bætt við.
 
+>[!NOTE]
+>Þessir leitareiginleikar í skýi eru tiltækir frá útgáfu 10.0.8. Gangið úr skugga um að undir **Viðskiptafæribreytur > Skilgreiningarfæribreytur** sé færsla fyrir „ProductSearch.UseAzureSearch stillt á true“. 
+![Færibreytur skilgreininga fyrir leit í skýinu](./media/CloudPoweredSearchConfigurationParameters.png)
+
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Sjálfgefin lendingarsíða og leitarniðurstöðusíða](category-search-page-overview.md)
+[Yfirlit yfir sjálfgefna lendingarsíðu og leitarniðurstöðusíðu](category-search-page-overview.md)
 
 [Stjórna SEO-lýsigögnum](manage-seo-metadata.md)

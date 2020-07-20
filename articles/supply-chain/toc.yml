@@ -74,8 +74,6 @@
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (júlí 2020)
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: Supply Chain Management 10.0.10 (maí 2020)
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
@@ -709,7 +707,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Bæta fjárhagsvíddum við uppsafnaðar mælingar
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Stofna greiningarskýrslur með Power BI Desktop
+                - name: Stofna greiningarskýrslur með PowerBI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Bæta greiningu við vinnusvæði með Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -2559,198 +2557,236 @@
               href: transportation/tasks/set-up-rate-masters.md
             - name: Setja upp farmflytjendur
               href: transportation/tasks/set-up-shipping-carriers.md
-            - name: Setja upp flutningsskorður fyrir vöru
+            - name: Setja upp flutningsskorður fyrir atriði
               href: transportation/tasks/set-up-transportation-constraints-item.md
         - name: Vöruhúsakerfi
           items:
             - name: Yfirlit yfir vöruhúsakerfi
               href: warehousing/warehouse-management-overview.md
-            - name: Skilgreining vöruhúss
+            - name: Vöruhúsaaðgerðir á innleið
               items:
-                - name: Yfirlit yfir skilgreiningu vöruhúss
-                  href: warehousing/warehouse-configuration.md
-                - name: Setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss
-                  href: inventory/warehouse-template.md
-                - name: Stjórnun vinnu með vinnusniðmátum og staðsetningarleiðbeiningum
-                  href: warehousing/control-warehouse-location-directives.md
-                - name: Kóðar bylgjuskrefs
-                  href: warehousing/wave-step-codes.md
-                - name: Skilgreina bylgjuvinnslu
-                  href: warehousing/tasks/configure-wave-processing.md
-                - name: Uppfæra sendingar sjálfkrafa
-                  href: warehousing/auto-update-shipment.md
-                - name: Stofna staðsetningarforstillingu
-                  href: warehousing/tasks/create-location-profile.md
-                - name: Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi
-                  href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
-                - name: Tímasetja álagsnýtingu
-                  href: warehousing/schedule-load-utilization.md
-                - name: Tímasetja afkastagetu vinnuálags
-                  href: warehousing/schedule-workload-capacity.md
-                - name: Setja upp ráðstöfunarkóða
-                  href: warehousing/tasks/set-up-dispositions-codes.md
-                - name: Mælieining og birgðastefnur
-                  href: warehousing/unit-measure-stocking-policies.md
-                - name: Power BI-efni fyrir vöruhús
-                  href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
-                - name: Kerfisflokkun á opnum verkefnalista
-                  href: warehousing/system-group-on-open-work-list.md
-                - name: Skipulag skjalaleiðar fyrir númeraplötumerki
-                  href: warehousing/document-routing-layout-for-license-plates.md
-                - name: Skanna strikamerki með myndavél í Dynamics 365 for Finance and Operations
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: Stuðningur við strikamerki í fartæki
-                  href: warehousing/mobile-barcode-support.md
-                - name: Setja upp vöruhús fyrir flutningspantanir
-                  href: warehousing/transfer-orders-warehouse.md
-            - name: Frátekningar í vöruhúsakerfi
+                - name: Kvittanir fyrir skráningu og frágangi
+                  items:
+                    - name: Meðhöndlun vöruhúss á farmi á innleið fyrir innkaupapantanir
+                      href: warehousing/inbound-load-handling.md
+                    - name: Skrá vörur fyrir vöru með ítarlegt vöruhúsakerfi virkt með því að nota komubók
+                      href: warehousing/tasks/register-items-advanced-warehousing.md
+                    - name: Skrá vörur fyrir vöru með grunnvöruhúsakerfi virkt með því að nota komubók
+                      href: warehousing/tasks/register-items-basic-warehousing.md
+                    - name: Hjáskipa afurðir úr viðtökuvöruhúsi í verslanir
+                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                    - name: Setja upp leiðbeiningar um staðsetningu fyrir frágang innkaupapöntunar
+                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                    - name: Setja upp vinnusniðmát fyrir innkaupapantanir
+                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                    - name: Blöndun á afurðarvídd staðsetningar
+                      href: warehousing/location-product-dimension-mixing.md
+            - name: Vöruhúsaaðgerðir á útleið
               items:
-                - name: Sveigjanleg frátektarregla á vídd vöruhúsastigs
-                  href: warehousing/flexible-warehouse-level-dimension-reservation.md
-            - name: Vinnureglur vöruhúss
-              items:
-                - name: Yfirlit yfir vinnureglur vöruhúss
-                  href: warehousing/warehouse-work-policies.md
-                - name: Setja upp vinnureglur vöruhúss
-                  href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
-                - name: Hreyfing birgða með tengdri vinnu í vöruhúsakerfi
-                  href: warehousing/move-inventory-associated-work.md
-                - name: Stofna vinnuklasa
-                  href: warehousing/tasks/create-work-class.md
-                - name: Stjórnun starfskrafta í vöruhúsi
-                  href: warehousing/manage-warehouse-workers.md
-                - name: Frestuð vinnsla vöruhúsavinnu
-                  href: warehousing/deferred-put.md
-            - name: Dreifing frá dreifingarstöð
-              items:
-                - name: Dreifing frá dreifingarstöð frá framleiðslupöntunum í úthlið
-                  href: production-control/cross-docking-opportunities.md
-                - name: Sjálfvirk losun sendinga fyrir dreifingu frá dreifingarstöð
-                  href: warehousing/auto-release-shipment-for-cross-docking.md
-            - name: Losað að hluta og hlutaafhending
-              items:
-                - name: Hlutaafhending farmflutnings
-                  href: warehousing/partial-shipping-of-transport-loads.md
-                - name: Keyrsla á flutningspöntunum sem eru fráteknar að hluta til
-                  href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
-            - name: Tiltekt og pökkun
-              items:
-                - name: Setja upp klasatiltekt
-                  href: warehousing/set-up-cluster-picking.md
-                - name: Setja upp gámun
-                  href: warehousing/tasks/set-up-containerization.md
-                - name: Staðfesting lotu og númeraplötu
-                  href: warehousing/batch-and-license-plate-confirmation.md
-                - name: Virkja prentun merkis á númeraplötu
-                  href: warehousing/tasks/license-plate-label-printing.md
-                - name: Skanna strikamerki með myndavél í Dynamics 365 for Finance and Operations
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: Staðfesting einingatiltektar
-                  href: warehousing/piece-picking-confirmation.md
-                - name: Umbúðaefni og gjöld
-                  href: warehousing/pack-materials-packing-material-fees.md
-                - name: Setja upp handvirka pökkun (aðeins febrúar og maí 2016)
-                  href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
-                - name: Setja upp endurúthlutun fyrir stutta vörutiltekt
-                  href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                - name: Hætta við vöruhúsavinnu vegna frábrigðameðhöndlunar
-                  href: warehousing/cancel-warehouse-work.md
-                - name: Kerfisstýrð klasatiltekt
-                  href: warehousing/system-directed-cluster-pick.md
-                - name: Flokkun tiltektarlínu
-                  href: warehousing/pick-line-grouping.md
-            - name: Birgðatalning
-              items:
-                - name: Ástæðukóðar fyrir birgðatalningu
-                  href: warehousing/reason-codes-for-counting-journals.md
-                - name: Birgðum læst
-                  href: inventory/inventory-blocking.md
-                - name: Regluleg talning
-                  href: warehousing/cycle-counting.md
-                - name: 'Skilgreina reglulega talningu '
-                  href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
-                - name: Hlutastaðsetning reglulegrar talningar
-                  href: warehousing/partial-location-cycle-counting.md
-                - name: Skilgreina hlutastaðsetningu reglulegrar talningar
-                  href: warehousing/tasks/define-partial-location-cycle-counting-process.md
-                - name: Hreinsunarvinnsla lagerbirgðafærslna vöruhúsakerfis
-                  href: warehousing/onhand-cleanup.md
-                - name: Birgðabók
-                  href: inventory/inventory-journals.md
-                - name: Birgðastaðsetning
-                  href: inventory/inventory-locations.md
-                - name: Birgðastaða
-                  href: inventory/inventory-statuses.md
-                - name: Birgðamerkjatalning
-                  href: inventory/inventory-tag-counting.md
-            - name: Áfylling
-              items:
-                - name: Yfirlit áfyllingar
-                  href: warehousing/replenishment.md
-                - name: Tafarlaus áfylling
-                  href: warehousing/immediate-replenishment.md
-                - name: Áfylling með afturkölluðum kanban
-                  href: warehousing/material-replenishment-withdrawal-kanban.md
-                - name: Setja upp lágmark og hámark fyrir áfyllingarferli
-                  href: warehousing/tasks/set-up-min-max-replenishment-process.md
-            - name: Setja upp og skilgreina vöruhúsaforrit
-              items:
-                - name: Setja upp og tengja vöruhúsaforrit
-                  href: warehousing/install-configure-warehousing-app.md
-                - name: Skilgreining svæðaheita í vöruhúsaforriti
-                  href: warehousing/configure-app-field-names-priorities-warehouse.md
-                - name: Uppsetning fartækja fyrir vöruhúsavinnu
-                  href: warehousing/configure-mobile-devices-warehouse.md
-                - name: Móttaka númeraplötu með vöruhúsaforriti
-                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                - name: Setja upp valmyndaratriði fartækis fyrir frágang verks í innkaupapöntun
-                  href: warehousing/tasks/set-up-mobile-device-menu.md
-                - name: Setja upp valmyndaratriði fartækis til að skrá mótteknar vörur
-                  href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                - name: Stofna valmyndaratriði fartækis fyrir samstæðu númeraplatna
-                  href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                - name: Móttaka blandaðrar númeraplötu í fartæki
-                  href: warehousing/mixed-license-plate-receiving.md
-                - name: Stilla skjá eldri keyrsla innan vöruhúss á fartæki
-                  href: warehousing/display-older-batches-within-warehouses.md
-                - name: Tína elstu runu í fartæki
-                  href: warehousing/pick-oldest-batch.md
-                - name: Vinna úr leiðbeiningaramma
-                  href: warehousing/process-guide-framework.md
-            - name: Uppfærsla og flutningur
-              items:
-                - name: Uppfæra vöruhúsakerfisferli úr Microsoft Dynamics AX 2012 í Finance and Operations
-                  href: warehousing/upgrade-migration-warehouse-management-processes.md
-            - name: Kvittanir fyrir skráningu og frágangi
-              items:
-                - name: Meðhöndlun vöruhúss á farmi á innleið fyrir innkaupapantanir
-                  href: warehousing/inbound-load-handling.md
-                - name: Skrá vörur fyrir vöru með ítarlegt vöruhúsakerfi virkt með því að nota komubók
-                  href: warehousing/tasks/register-items-advanced-warehousing.md
-                - name: Skrá vörur fyrir vöru með grunnvöruhúsakerfi virkt með því að nota komubók
-                  href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Hjáskipa afurðir úr viðtökuvöruhúsi í verslanir
-                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                - name: Setja upp leiðbeiningar um staðsetningu fyrir frágang innkaupapöntunar
-                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                - name: Setja upp vinnusniðmát fyrir innkaupapantanir
-                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
-            - name: Samstæðureglur sendingar
-              items:
+                - name: Frátekningar í vöruhúsakerfi
+                  items:
+                    - name: Sveigjanleg frátektarregla á vídd vöruhúsastigs
+                      href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                - name: Losað að hluta og hlutaafhending
+                  items:
+                    - name: Hlutaafhending farmflutnings
+                      href: warehousing/partial-shipping-of-transport-loads.md
+                    - name: Keyrsla á flutningspöntunum sem eru fráteknar að hluta til
+                      href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                - name: Tiltekt og pökkun
+                  items:
+                    - name: Setja upp klasatiltekt
+                      href: warehousing/set-up-cluster-picking.md
+                    - name: Setja upp gámun
+                      href: warehousing/tasks/set-up-containerization.md
+                    - name: Staðfesting lotu og númeraplötu
+                      href: warehousing/batch-and-license-plate-confirmation.md
+                    - name: Virkja prentun merkis á númeraplötu
+                      href: warehousing/tasks/license-plate-label-printing.md
+                    - name: Skanna strikamerki með myndavél í Dynamics 365 for Finance and Operations
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Staðfesting einingatiltektar
+                      href: warehousing/piece-picking-confirmation.md
+                    - name: Umbúðaefni og gjöld
+                      href: warehousing/pack-materials-packing-material-fees.md
+                    - name: Setja upp handvirka pökkun (aðeins febrúar og maí 2016)
+                      href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
+                    - name: Setja upp endurúthlutun fyrir stutta vörutiltekt
+                      href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                    - name: Hætta við vöruhúsavinnu vegna frábrigðameðhöndlunar
+                      href: warehousing/cancel-warehouse-work.md
+                    - name: Kerfisstýrð klasatiltekt
+                      href: warehousing/system-directed-cluster-pick.md
+                    - name: Kerfisstýrð vinnuröð
+                      href: warehousing/system-directed-work-sequencing.md
+                    - name: Flokkun tiltektarlínu
+                      href: warehousing/pick-line-grouping.md
+                    - name: Hólfaskipting vöruhúss
+                      href: warehousing/warehouse-slotting.md
+                - name: Áfylling
+                  items:
+                    - name: Yfirlit áfyllingar
+                      href: warehousing/replenishment.md
+                    - name: Tafarlaus áfylling
+                      href: warehousing/immediate-replenishment.md
+                    - name: Áfylling með afturkölluðum kanban
+                      href: warehousing/material-replenishment-withdrawal-kanban.md
+                    - name: Setja upp lágmark og hámark fyrir áfyllingarferli
+                      href: warehousing/tasks/set-up-min-max-replenishment-process.md
+                    - name: Áfyllingarmörk svæðis
+                      href: warehousing/zone-threshold-replenishment.md
+                - name: Hleðsluáætlun og sendingar
+                  items:
+                    - name: Staðfesta og flytja
+                      href: warehousing/confirm-and-transfer.md
+                    - name: Viðbótarhleðsluáætlanir í bylgju
+                      href: warehousing/advanced-load-building-during-wave.md
+                    - name: Reglu fyrir losun í vöruhús
+                      href: warehousing/release-to-warehouse-rule.md
+                    - name: Flokkun bylgjusniðmáts
+                      href: warehousing/wave-template-grouping.md
                 - name: Samstæðureglur sendingar
-                  href: warehousing/about-shipment-consolidation-policies.md
-                - name: Skilgreina samstæðureglur sendingar
-                  href: warehousing/configure-shipment-consolidation-policies.md
-                - name: Sviðsmynd 1 - sameina sendingar þegar þær eru losaðar í vöruhús með því að nota sjálfvirka losun sölupantana
-                  href: warehousing/consolidate-shipments-automatic.md
-                - name: Sviðsmynd 2 - sameina sendingar þegar samstæðureglu sendingar hefur verið hnekkt á síðunni „Losa í vöruhús“
-                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                - name: Sviðsmynd 3 - sameina sendingar með því að nota „Losa í vöruhús“ á vinnusvæði farmáætlunar
-                  href: warehousing/consolidate-shipments-load-planning-workbench.md
-                - name: Sviðsmynd 4 - sameina sendingar með því að nota samstæðuvinnusvæði sendinga
-                  href: warehousing/consolidate-shipments-manual-workbench.md
-                - name: Sviðsmynd 5 - sameina sendingar handvirkt með því að nota síðuna „Sameina sendingar“
-                  href: warehousing/consolidate-shipments-manual-form.md
+                  items:
+                    - name: Samstæðureglur sendingar
+                      href: warehousing/about-shipment-consolidation-policies.md
+                    - name: Skilgreina samstæðureglur sendingar
+                      href: warehousing/configure-shipment-consolidation-policies.md
+                    - name: Sviðsmynd 1 - sameina sendingar þegar þær eru losaðar í vöruhús með því að nota sjálfvirka losun sölupantana
+                      href: warehousing/consolidate-shipments-automatic.md
+                    - name: Sviðsmynd 2 - sameina sendingar þegar samstæðureglu sendingar hefur verið hnekkt á síðunni „Losa í vöruhús“
+                      href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                    - name: Sviðsmynd 3 - sameina sendingar með því að nota „Losa í vöruhús“ á vinnusvæði farmáætlunar
+                      href: warehousing/consolidate-shipments-load-planning-workbench.md
+                    - name: Sviðsmynd 4 - sameina sendingar með því að nota samstæðuvinnusvæði sendinga
+                      href: warehousing/consolidate-shipments-manual-workbench.md
+                    - name: Sviðsmynd 5 - sameina sendingar handvirkt með því að nota síðuna „Sameina sendingar“
+                      href: warehousing/consolidate-shipments-manual-form.md
+            - name: Þvert á vöruhúsaaðgerðir
+              items:
+                - name: Vinnureglur vöruhúss
+                  items:
+                    - name: Yfirlit yfir vinnureglur vöruhúss
+                      href: warehousing/warehouse-work-policies.md
+                    - name: Setja upp vinnureglur vöruhúss
+                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
+                    - name: Hreyfing birgða með tengdri vinnu í vöruhúsakerfi
+                      href: warehousing/move-inventory-associated-work.md
+                    - name: Stofna vinnuklasa
+                      href: warehousing/tasks/create-work-class.md
+                    - name: Stjórnun starfskrafta í vöruhúsi
+                      href: warehousing/manage-warehouse-workers.md
+                    - name: Frestuð vinnsla vöruhúsavinnu
+                      href: warehousing/deferred-put.md
+                - name: Dreifing frá dreifingarstöð
+                  items:
+                    - name: Dreifing frá dreifingarstöð frá framleiðslupöntunum í úthlið
+                      href: production-control/cross-docking-opportunities.md
+                    - name: Sjálfvirk losun sendinga fyrir dreifingu frá dreifingarstöð
+                      href: warehousing/auto-release-shipment-for-cross-docking.md
+                    - name: Áætluð dreifing frá dreifingarstöð
+                      href: warehousing/planned-cross-docking.md
+                - name: Birgðatalning
+                  items:
+                    - name: Ástæðukóðar fyrir birgðatalningu
+                      href: warehousing/reason-codes-for-counting-journals.md
+                    - name: Birgðum læst
+                      href: inventory/inventory-blocking.md
+                    - name: Regluleg talning
+                      href: warehousing/cycle-counting.md
+                    - name: 'Skilgreina reglulega talningu '
+                      href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
+                    - name: Hlutastaðsetning reglulegrar talningar
+                      href: warehousing/partial-location-cycle-counting.md
+                    - name: Skilgreina hlutastaðsetningu reglulegrar talningar
+                      href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: Hreinsunarvinnsla lagerbirgðafærslna vöruhúsakerfis
+                      href: warehousing/onhand-cleanup.md
+                    - name: Birgðabók
+                      href: inventory/inventory-journals.md
+                    - name: Birgðastaðsetning
+                      href: inventory/inventory-locations.md
+                    - name: Birgðastaða
+                      href: inventory/inventory-statuses.md
+                    - name: Birgðamerkjatalning
+                      href: inventory/inventory-tag-counting.md
+                - name: Vöruhúsavinna
+                  items:
+                    - name: Upplýsingar um vinnulínu
+                      href: warehousing/work-line-details.md
+                    - name: Númeraplötustaða staðsetningar
+                      href: warehousing/location-license-plate-positioning.md
+            - name: Uppsetning vöruhúss
+              items:
+                - name: Skilgreining vöruhúss
+                  items:
+                    - name: Yfirlit yfir skilgreiningu vöruhúss
+                      href: warehousing/warehouse-configuration.md
+                    - name: Setja upp vöruhús með því að nota skilgreiningarsniðmát vöruhúss
+                      href: inventory/warehouse-template.md
+                    - name: Stjórnun vinnu með vinnusniðmátum og staðsetningarleiðbeiningum
+                      href: warehousing/control-warehouse-location-directives.md
+                    - name: Kóðar bylgjuskrefs
+                      href: warehousing/wave-step-codes.md
+                    - name: Skilgreina bylgjuvinnslu
+                      href: warehousing/tasks/configure-wave-processing.md
+                    - name: Uppfæra sendingar sjálfkrafa
+                      href: warehousing/auto-update-shipment.md
+                    - name: Stofna staðsetningarforstillingu
+                      href: warehousing/tasks/create-location-profile.md
+                    - name: Skilgreina staðsetningar í vöruhúsi með vöruhúsakerfi
+                      href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
+                    - name: Staðsetningarstaða vöruhúss
+                      href: warehousing/warehouse-location-status.md
+                    - name: Viðbótargögn um staðsetningu
+                      href: warehousing/additional-location-zones.md
+                    - name: Tímasetja álagsnýtingu
+                      href: warehousing/schedule-load-utilization.md
+                    - name: Tímasetja afkastagetu vinnuálags
+                      href: warehousing/schedule-workload-capacity.md
+                    - name: Setja upp ráðstöfunarkóða
+                      href: warehousing/tasks/set-up-dispositions-codes.md
+                    - name: Mælieining og birgðastefnur
+                      href: warehousing/unit-measure-stocking-policies.md
+                    - name: Power BI-efni fyrir vöruhús
+                      href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
+                    - name: Kerfisflokkun á opnum verkefnalista
+                      href: warehousing/system-group-on-open-work-list.md
+                    - name: Skipulag skjalaleiðar fyrir númeraplötumerki
+                      href: warehousing/document-routing-layout-for-license-plates.md
+                    - name: Skanna strikamerki með myndavél í Dynamics 365 for Finance and Operations
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Stuðningur við strikamerki í fartæki
+                      href: warehousing/mobile-barcode-support.md
+                    - name: Setja upp vöruhús fyrir flutningspantanir
+                      href: warehousing/transfer-orders-warehouse.md
+                - name: Setja upp og stilla vöruhúsaforrit
+                  items:
+                    - name: Setja upp og tengja vöruhúsaforrit
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: Skilgreining svæðaheita í vöruhúsaforriti
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Uppsetning fartækja fyrir vöruhúsavinnu
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Móttaka númeraplötu með vöruhúsaforriti
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: Setja upp valmyndaratriði fartækis fyrir frágang verks í innkaupapöntun
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: Setja upp valmyndaratriði fartækis til að skrá mótteknar vörur
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Stofna valmyndaratriði fartækis fyrir samstæðu númeraplatna
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: Móttaka blandaðrar númeraplötu í fartæki
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: Stilla skjá eldri keyrsla innan vöruhúss á fartæki
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: Tína elstu runu í fartæki
+                      href: warehousing/pick-oldest-batch.md
+                    - name: Vinna úr leiðbeiningaramma
+                      href: warehousing/process-guide-framework.md
+                - name: Uppfærsla og flutningur
+                  items:
+                    - name: Uppfæra vöruhúsakerfisferli úr Microsoft Dynamics AX 2012 í Finance and Operations
+                      href: warehousing/upgrade-migration-warehouse-management-processes.md
         - name: Þróun Supply Chain Management
           items:
             - name: Leiðbeiningar fyrir þróun Gantt-stýringar

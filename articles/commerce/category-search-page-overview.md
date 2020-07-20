@@ -1,9 +1,9 @@
 ---
-title: Yfirlit yfir sjálfgefna lendingarsíðu flokks og leitarniðurstöðusíðu
+title: Yfirlit yfir sjálfgefna lendingarsíðu og leitarniðurstöðusíðu
 description: Þetta efni veitir yfirlit yfir sjálfgefna áfangasíðu flokks og leitarniðurstöðusíðu í Dynamics 365 Commerce.
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 17746d2923ab84311253c47647c0020807bdb75c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002497"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527469"
 ---
-# <a name="overview-of-default-category-landing-page-and-search-results-page"></a>Yfirlit yfir sjálfgefna lendingarsíðu flokks og leitarniðurstöðusíðu
-
+# <a name="default-category-landing-page-and-search-results-page-overview"></a>Yfirlit yfir sjálfgefna lendingarsíðu og leitarniðurstöðusíðu
 
 [!include [banner](includes/banner.md)]
 
@@ -96,13 +95,19 @@ Eftirfarandi þættir eru nauðsynlegir fyrir leitarniðurstöðusíðu:
 - **Síðuskipting** gerir gestum vefsíðu kleift að fara af einni síðu með flokkaðar vöruniðurstöður á aðra síðu.
 - **Heildarfjöldi** veitir heildarfjölda vara sem eru skilgreindar í flokk og samsvara leitarskilyrðum.
 
+>[!NOTE]
+>Þessir leitareiginleikar í skýi eru tiltækir frá útgáfu 10.0.8. Gangið úr skugga um að undir **Viðskiptafæribreytur > Skilgreiningarfæribreytur** sé færsla fyrir „ProductSearch.UseAzureSearch stillt á true“. 
+![Færibreytur skilgreininga fyrir leit í skýinu](./media/CloudPoweredSearchConfigurationParameters.png)
+
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit yfir heimasíðuna](quick-tour-home-page.md)
+[Leitaryfirlit í skýinu](cloud-powered-search-overview.md)
 
-[Yfirlit yfir upplýsingasíður afurðar](quick-tour-pdp.md)
+[Yfirlit heimasíðu](quick-tour-home-page.md)
 
-[Yfirlit yfir á körfu- og greiðsluferlissíður](quick-tour-cart-checkout.md)
+[Yfirlýt upplýsingasíðu afurða](quick-tour-pdp.md)
 
-[Yfirlit yfir síður reikningastjórnunar](quick-tour-account-management.md)
+[Yfirlit yfir síður körfu og greiðsluferlis](quick-tour-cart-checkout.md)
+
+[Yfirlit yfir síður fyrir stjórnun reikninga](quick-tour-account-management.md)
 
