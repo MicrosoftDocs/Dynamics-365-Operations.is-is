@@ -3,8 +3,10 @@
   items:
     - name: Nýjungar
       items:
-        - name: Nýjungar eða breytingar í Human Resources
+        - name: Nýjungar eða breytingar í Mannauði
           href: hr-admin-whats-new.md
+        - name: 8. júlí 2020
+          href: hr-whats-new-2020-07-08.md
         - name: 25. júní 2020
           href: hr-whats-new-2020-06-23.md
         - name: 11. júní 2020
@@ -577,5 +579,7 @@
           items:
             - name: Yfirlit yfir sjálfsafgreiðslu starfsmanns og stjórnanda
               href: hr-employee-manager-self-service-overview.md
+            - name: Breyta heiti á sjálfsafgreiðsluvinnusvæði starfsmanns
+              href: hr-employee-self-service-workspace-name.md
             - name: Breyta persónuupplýsingum
               href: hr-employee-manager-self-service-edit-personal-information.md
