@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 795e9f5b843ba8e50dc091949c9732b8b033355e
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 89c38b354bbca022e80ace4aa8d0b947cfe67f3e
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812089"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598182"
 ---
 # <a name="globalization-resources"></a>Altæk tilföng
 
 ## <a name="local-and-regional-deployments"></a>Staðbundin og svæðisbundin uppsetning
 Ef reglugerðir stjórnvalda í þínu landi krefjast þess að gögn séu geymd eða þjónustu við þau sinnt með öðrum hætti en krafist er fyrir önnur lönd/svæði kann þess að vera krafist að þú takir tillit til ákveðinna þátta við uppsetningu. Líttu á eftirfarandi tilföng sem kunna að eiga við um þig:
 
-[Microsoft Dynamics 365 Finance and Operations-forrit rekin af 21Vianet í Kína](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Finance and Operations-forrit rekin af 21Vianet í Kína](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>Staðfærslu- og eftirlitseiginleikar
 
 [!include [banner](../includes/banner.md)]
 
-Dynamics 365 Finance and Operations-forrit innihalda aðgerðir fyrir landið/svæðin sem tilgreind eru í [Handbók um staðfærslu vöru og aðgengi að þýddum útgáfum](https://aka.ms/dynamics_365_international_availability_deck). Þessi virkni er virkjuð á grunni aðalaðseturs virks lögaðila. 
+Finance and Operations-forrit innihalda aðgerðir fyrir landið/svæðin sem tilgreind eru í [Handbók um staðfærslu vöru og aðgengi að þýddum útgáfum](https://aka.ms/dynamics_365_international_availability_deck). Þessi virkni er virkjuð á grunni aðalaðseturs virks lögaðila. 
 
 Í þessu efnisatriði er að finna tilfangalista sem getur aðstoðað þig við að gera eftirfarandi: 
 - Fá frekari upplýsingar um lausnir fyrir þróunarland/svæðisbundnar lausnir.
@@ -66,8 +66,8 @@ Eftirfarandi tilföng veita upplýsingar um áætlaða og nýja staðfærslueigi
 #### <a name="dynamics-365-release-plans"></a>Útgáfuáætlanir Dynamics 365
 [Útgáfuáætlanir Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) lýsa nýjum og auknum möguleikum sem eru áætlaðir fyrir Dynamics 365 viðskiptaforrit og verkvanga forrita. 
 
-#### <a name="finance-and-operations-apps-whats-new"></a>Nýjungar í forritum Finance and Operations
-[„Nýjungar eða breytingar“ á heimasíðu Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) birtir lista yfir eiginleika sem eru í tilgreindum útgáfum forrita fyrir Finance and Operations.
+#### <a name="finance-and-operations-apps-whats-new"></a>Finance and Operations nýjungar í forritum
+[„Nýjungar eða breytingar“ á heimasíðuFinance and Operations ](../../fin-ops/get-started/whats-new-changed.md) birtir lista yfir eiginleika sem eru í tilgreindum útgáfum Finance and Operations-forrita.
 
 ### <a name="electronic-reporting"></a>Rafræn skýrslugerð
 Rafræna skýrslugerðarverkfærið býður upp á skilgreiningu sniða fyrir rafræn skjöl í samræmi við lagaskilyrði mismunandi landa/svæða. Með rafrænni skýrslugerð er hægt að stjórna þessum sniðum á meðan þau eru í notkun. Frekari upplýsingar er að finna í eftirfarandi efnisatriðum:
