@@ -3,7 +3,7 @@ title: Yfirlit fríðindastjórnunar
 description: Yfirlit yfir eiginleika stjórnunar fríðinda í Dynamics 365 Human Resources. Bjóddu starfsmönnum þínum framlengda valkosti með auðveldri notkun á netinu.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/06/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4157cb1f83d686d435f3d04e47c578df455376c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
+ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429265"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3599381"
 ---
 # <a name="benefits-management-overview"></a>Yfirlit fríðindastjórnunar
 
@@ -59,6 +59,8 @@ Heildarinneignin sem er skilgreind fyrir flex-lánaforrit birtist ekki í formin
 ## <a name="configure-employee-information"></a>Stilla starfsmannaupplýsingum
 
 Áður en þú getur skráð starfsmenn í fríðindi verður þú að veita nauðsynlegar upplýsingar. Þú verður að skrá starfsmann í **Áætlun fastra launa** á upphafsdegi hans og þú verður að velja **Greiðslutíðni fríðinda** í **Atvinnuupplýsingar** í glugganum **Starfskraftur**.
+
+Ef um er að ræða starfsmann sem fær viðbótarlaun líkt og þóknanir er hægt að bæta við **Árleg launatengd fríðindi** upphæð úr starfsmannafærslu. Human Resources notar **Árleg launatengd fríðindi** upphæð við ákvörðun tryggingaupphæðar, í stað árlega upphæð fastra launa. **Árleg launatengd fríðindi** verða að vera gild frá upphafsdagsetningu starfsmanns eða frá upphaf fríðindatímabilsins, hvort sem er síðar. Ef bæði föst laun og upphæð árlegra launatengdra fríðinda eru skráð fyrir starfsmann verða árleg launatengd fríðindi notuð við ákvörðun á tryggingaupphæðum.
 
 Þegar þú býrð til bótaáætlun þar sem notast er við tíðni sem byggist á kyni eða aldri, verður þú að færa inn fæðingardag og kyn starfsmanns til að reikna út fríðindakostnaðinn.
 

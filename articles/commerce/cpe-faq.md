@@ -1,9 +1,9 @@
 ---
-title: Dynamics 365 Commerce yfirlitsumhverfi algengra spurninga
-description: Þetta efnisatriði veitir svör við algengum spurningum um forskoðunarumhverfi Microsoft Dynamics 365 Commerce.
+title: algengar spurningar um Dynamics 365 Commerce matsumhverfi
+description: Þetta efnisatriði veitir svör við algengum spurningum um Microsoft Dynamics 365 Commerce matsumhverfi.
 author: v-chgri
 manager: annbe
-ms.date: 04/10/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,73 +17,57 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5321d7937a9de3ba39f7a88bf0e9c26f4e62d7bc
-ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
+ms.openlocfilehash: 637714e28b9f8f4aa66e251e709d8f78bff2739d
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "3254725"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599762"
 ---
-# <a name="dynamics-365-commerce-preview-environment-faq"></a>Dynamics 365 Commerce yfirlitsumhverfi algengra spurninga
+# <a name="dynamics-365-commerce-evaluation-environment-faq"></a>algengar spurningar um Dynamics 365 Commerce matsumhverfi
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði veitir svör við algengum spurningum um forskoðunarumhverfi Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði veitir svör við algengum spurningum um Microsoft Dynamics 365 Commerce matsumhverfi.
 
-**Get ég flutt boð mitt um forsýningarumhverfi Commerce til annars leigjanda?**
+**Er hægt að nota Commerce-matsumhverfi sem netverslun rafrænna viðskipta fyrir viðskiptavini sem innleiða smásölu eins og er?**
 
-Já. Til að flytja boð geturðu notað [Forskoðun flutningsskjás Commerce](https://aka.ms/Dynamics365CommercePreviewTransferForm).
+Nei. Commerce-matsumhverfi er aðeins fyrir mat. Ef þú þarft umhverfi fyrir viðskiptavini sem útfærir Retail skaltu hafa samband við Microsoft.
 
-**Hve langan tíma tekur flutningur á boði?**
+**Er hægt að nota Commerce-matsumhverfi til að úthluta eiginleikum rafrænna viðskipta ásamt fyrirliggjandi forriti/umhverfi sem innleiðir smásölu?**
 
-Flutningurinn tekur að meðaltali um það bil þrjá til fimm virka daga. Þó geta verið undantekningar á því.
+Nei (aðallega). Íhlutir Commerce-mats eru aðeins í boði fyrir umhverfi sem samsvarar skilgreiningum sem eru tilgreindar í skilyrðum og úthlutunarleiðbeiningum. Þar að auki verða nauðsynleg grunnsýnigögn ekki tiltæk í umhverfum sem voru sett upp með upphaflegri útgáfu sem er eldri en 10.0.8. 
 
-**Vinnur forskoðunarumhverfi Commerce með verkefni Dynamics 365 Finance eða Dynamics 365 Supply Chain?**
+**Hvaða kostnaður fylgir því að setja upp Commerce-matsumhverfi á Microsoft Azure í gegnum Microsoft Dynamics Lifecycle Services?**
 
-Nei. Forskoðunarumhverfi Commerce virkar aðeins með Dynamics 365 Retail verkefnum.
+Hefðbundið Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce sýniútgáfuumhverfi höfuðstöðva (sýndarvél \[SV\]) verður hýst í Azure-áskriftinni þinni. Þú getur notað [Reiknivél fyrir verðlagningu í Azure](https://azure.microsoft.com/pricing/calculator/) að áætla þennan kostnað.
 
-**Getum við notað forskoðunarumhverfi Commerce sem netverslun fyrir viðskiptavini sem eru að innleiða Retail?**
+Aðrir þættir, svo sem Commerce Scale Unit, Commerce-vefsmiður og rafræna viðskiptasvæðið þitt verða í boði sem SaaS-þjónusta og hýst af Microsoft.
 
-Nei. Forskoðunarumhverfi Commerce er aðeins matsumhverfið. Ef þú þarft umhverfi fyrir viðskiptavini sem útfærir Retail skaltu hafa samband við Microsoft.
+**Hvaða löng og svæði Azure eru studd eins og er fyrir Commerce-matsumhverfið?**
 
-**Er hægt að nota forskoðunarumhverfi Commerce til að útvega eiginleika rafrænna viðskipta ofan á núverandi forrit/umhverfi sem útfærir Retail?**
-
-Nei. Forskoðunarumhverfi Commerce er sem stendur aðeins til í nýju umhverfi sem var sent frá sér í SKU-verkefnum sem hafa sýndargögn úr útgáfu 10.0.6.
-
-**Hvaða kostnaður fylgir því að nota forskoðunarumhverfi Commerce í Microsoft Azure í gegnum Microsoft Dynamics Lifecycle Services (LCS)?**
-
-Retail er eini þátturinn sem er hýstur í áskriftinni þinni. Aðrir íhlutir eins og Retail Cloud Scale Unit (RCSU) og e-Commerce verða hýst í Microsoft áskrift. Þú getur notað [Reiknivél fyrir verðlagningu í Azure](https://azure.microsoft.com/pricing/calculator/) að áætla þennan kostnað.
-
-**Hvaða landsvæði Azure eru nú studd fyrir forsýningarumhverfi Commerce?**
-
-Aðeins er hægt að nota forskoðunarumhverfi Commerce á landsvæði Norður-Ameríku.
+Aðeins er hægt að nota Commerce-matsumhverfið á svæðum Norður-Ameríku.
 
 **Er til niðurhalanlegur sýndardiskur (VHD) sem hefur fullkominn OneBox sýndarvél (VM) valkost?**
 
-Dynamics 365 Retail Cloud Scale Unit (RCSU) og e-Commerce eru heill hugbúnaður sem þjónusta (SaaS) og verða að vera hýstir í skýi.
+Dynamics 365 Commerce og Commerce Scale Unit eru SaaS-þjónusta og verða að vera hýst í skýinu.
 
-**Hve lengi er hægt að nota forskoðunarumhverfi Commerce?**
+**Hversu lengi er hægt að nota matsumhverfi í Commerce?**
 
-Notkun forskoðunarumhverfis Commerce er takmörkuð við 30 daga frá þeim degi þegar e-Commerce er veitt.
+Commerce-matsumhverfið er með 30 daga gildistíma frá þeim degi þegar SaaS-íhlutir á borð við Commerce Scale Unit, Commerce-vefsmiður og rafrænt viðskiptasvæðið þitt er úthlutað.
 
-**Get ég lengt tímamörkin fyrir mitt forskoðunarumhverfi Commerce?**
+**Get ég framlengt tímamörkunum fyrir matsumhverfið mitt í Commerce?**
 
-Já. Þú getur haft samband við þjónustudeildina með því að nota [skjámyndina Útvíkkun forskoðunar á Commerce](https://aka.ms/Dynamics365CommercePreviewExtensionForm).
-
-**Getum við gert margar beiðnir um forskoðunarumhverfi Commerce?**
-
-Við veitum kvóta af einu forskoðunarumhverfi Commerce fyrir hverja beiðni sem er samþykkt. Ef þú þarft fleiri en eitt forskoðunarumhverfi skaltu hafa samband við Microsoft. Sjá næsta hluta fyrir upplýsingar um tengiliði.
-
-## <a name="dynamics-365-commerce-preview-environment-contact-information"></a>Dynamics 365 Commerce forskoðunarumhverfi upplýsinga tengiliði
-
-Til að hafa samband við Microsoft ef þú hefur spurningar eða beiðnir sem tengjast forskoðunarumhverfi Commerce skaltu fara á [Microsoft Dynamics 365 Commerce Forskoða Yammer hóp](https://aka.ms/Dynamics365CommercePreviewYammer) fyrir hjálp.
+Framlenging á tímamörkum er undantekning sem þarf að skoða sérstaklega fyrir hvert mál. Þú ættir að hafa samband við Microsoft samstarfsaðila þinn til að fá aðstoð.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Dynamics 365 Commerce yfirlit yfir forskoðunarumhverfi](cpe-overview.md)
 
-[Úthluta Dynamics 365 Commerce forsýningarumhverfi](provisioning-guide.md)
+[Úthluta Dynamics 365 Commerce matsumhverfi](provisioning-guide.md)
 
-[Skilgreina Dynamics 365 Commerce forskoðunarumhverfi](cpe-post-provisioning.md)
+[Stilla Dynamics 365 Commerce matsumhverfi](cpe-post-provisioning.md)
 
-[Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce forskoðunarumhverfi](cpe-optional-features.md)
+[Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi](cpe-bopis.md)
+
+[Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce matsumhverfi](cpe-optional-features.md)

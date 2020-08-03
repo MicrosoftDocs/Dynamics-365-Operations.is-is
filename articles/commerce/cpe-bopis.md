@@ -1,9 +1,9 @@
 ---
-title: Skilgreina BOPIS í Dynamics 365 Commerce-umhverfi
-description: Þetta efnisatriði útskýrir hvernig á að grunnstilla kaup á netinu, sækja í verslun (BOPIS) í Microsoft Dynamics 365 Commerce umhverfi eftir að það hefur verið úthlutað.
+title: Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi
+description: Þetta efnisatriði útskýrir hvernig á að grunnstilla kaup á netinu, sækja í verslun (BOPIS) í Microsoft Dynamics 365 Commerce matsumhverfi eftir að það hefur verið úthlutað.
 author: rubendel
 manager: annbe
-ms.date: 04/21/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 956d66d09885d4d54655ce25b3aa7ba6a9c34cf4
-ms.sourcegitcommit: dfef2faf881b2db1bd0f016df36e2b838105312b
+ms.openlocfilehash: 62dabaa2610341cc8ad8e85812a317ac3123fcb1
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3282797"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599797"
 ---
-# <a name="configure-bopis-in-a-dynamics-365-commerce-environment"></a>Skilgreina BOPIS í Dynamics 365 Commerce-umhverfi
-
+# <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði útskýrir hvernig á að grunnstilla kaup á netinu, sækja í verslun (BOPIS) í Microsoft Dynamics 365 Commerce eftir að umhverfinu hefur verið úthlutað.
+Þetta efnisatriði útskýrir hvernig á að grunnstilla kaup á netinu, sækja í verslun (BOPIS) í Microsoft Dynamics 365 Commerce matsumhverfi eftir að umhverfinu hefur verið úthlutað.
 
 ## <a name="prerequisite"></a>Skilyrði
 
-Ljúktu aðeins við aðgerðirnar í þessu efnisatriði eftir að forskoðunarumhverfi fyrir Commerce hefur verið úthlutað og grunnstillt. Frekari upplýsingar um hvernig á að úthluta og grunnstilla umhverfi þitt, sjá [Útvegun á Dynamics 365 Commerce forskoðunarumhverfi](provisioning-guide.md) og [Grunnstilla Dynamics 365 Commerce forskoðunarumhverfi](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
+Ljúktu aðeins við aðgerðirnar í þessu efnisatriði eftir að matsumhverfi fyrir Commerce hefur verið úthlutað og grunnstillt. Frekari upplýsingar um hvernig á að úthluta og grunnstilla umhverfi þitt, sjá [Útvegun á Dynamics 365 Commerce matsumhverfi](provisioning-guide.md) og [Grunnstilla Dynamics 365 Commerce matsumhverfi](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning).
 
 Eftir að Commerce umhverfið þitt hefur verið úthlutað og grunnstillt frá upphafi til enda geturðu notað þetta efnisatriði til að gera BOPIS atburðarás virka.
 
@@ -71,7 +70,7 @@ BOPIS atburðarásir sem fela í sér kreditkortagreiðslu krefjast vélbúnaða
 5. Svargluggi sannvottunar opnast. Veldu reikninginn sem notar netfangið sem áður var tengt starfsmanni **000713 - Andrew Collette**.
 
     > [!NOTE]
-    > Ef þú hefur ekki enn tengt starfsmann auðkennið þitt, þá mun virkjun ekki ná árangri. Í þessu tilfelli skaltu fylgja leiðbeiningunum undir hlutanum „Tengja starfsmann við auðkenni þitt“ í efnisatriðinu [Grunnstilla Dynamics 365 Commerce forskoðunarumhverfi](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
+    > Ef þú hefur ekki enn tengt starfsmann auðkennið þitt, þá mun virkjun ekki ná árangri. Í þessu tilfelli skaltu fylgja leiðbeiningunum undir hlutanum „Tengja starfsmann við auðkenni þitt“ í efnisatriðinu [Grunnstilla Dynamics 365 Commerce matsumhverfi](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
     
 6. Þegar þú ert beðin/n um að láta fyrirtæki þitt stjórna tækinu skaltu velja **Aðeins þetta forrit**.
 7. Þegar virkjun er lokið skaltu velja **Hefjast handa**.
@@ -146,11 +145,11 @@ Hvað öll almenn vandamál varðar, ættir þú fyrst að skoða tilvikaannála
 
 [Dynamics 365 Commerce yfirlit yfir forskoðunarumhverfi](cpe-overview.md)
 
-[Úthluta Dynamics 365 Commerce forsýningarumhverfi](provisioning-guide.md)
+[Úthluta Dynamics 365 Commerce matsumhverfi](provisioning-guide.md)
 
-[Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce forskoðunarumhverfi](cpe-optional-features.md)
+[Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce matsumhverfi](cpe-optional-features.md)
 
-[Dynamics 365 Commerce yfirlitsumhverfi algengra spurninga](cpe-faq.md)
+[algengar spurningar um Dynamics 365 Commerce matsumhverfi](cpe-faq.md)
 
 [Microsoft Dynamics Lifecycle Services (LSC)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 37f21fffe209e17a6fe89c2661e49fc0dc8b9655
-ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
+ms.openlocfilehash: 7664afbd0b1fd4e2c9686053fa102d85809c0411
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "3443465"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555316"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-28-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (28. maí 2020)
 
@@ -103,3 +103,10 @@ Hægt er að tilgreina yfirfærsluorlofsgerð fyrir yfirfærslustöður þar sem
 ## <a name="dmf-entity-available-for-accrual-suspensions-june-1"></a>DMF-eining er í boði fyrir frestun uppsöfnunar (1. júní)
 
 DMF-eining er ekki til staðar fyrir uppsöfnun í bið.
+
+## <a name="see-also"></a>Sjá einnig
+
+[Nýjungar í Human Resources](hr-admin-whats-new.md)</br>
+[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Uppfærsluferli](hr-admin-setup-update-process.md)</br>
+[Vinna með eiginleika](hr-admin-manage-features.md)

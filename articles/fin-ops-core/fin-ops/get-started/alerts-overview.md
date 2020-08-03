@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 12fadd8387054db3e19d4136555724c23548e05c
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 755181e956a3d93d87e9e5d57622283ff7bf4944
+ms.sourcegitcommit: f62c2151be477acfaeace73878471abb9b1b832d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3031020"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3602530"
 ---
 # <a name="alerts-overview"></a>Yfirlit yfir viðvaranir
 
@@ -74,11 +74,7 @@ Viðvörunarregla hefur fimm hluta:
     > [!NOTE]
     > Þessi valkostur er takmarkaður við stjórnendur fyrirtækis.
 
-## <a name="email-notifications-from-alerts"></a>Tilkynningar í tölvupósti frá viðvörunum
-
-Tilkynningar í tölvupósti frá viðvörunum eru enn ekki virkjaðar. Þetta verður gert virkt í síðari útgáfu.
-
-## <a name="videos"></a>Myndbönd
+## <a name="videos"></a>Myndskeið
 
 ### <a name="how-to-use-alerts-to-monitor-filtered-data"></a>Hvernig á að nota viðvaranir til að fylgjast með síuðum gögnum
 

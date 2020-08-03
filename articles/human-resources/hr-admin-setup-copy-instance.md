@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8385b7dfcd1d7294542c7f54f609b26b7988ac4
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b14baf49517f5d606038af20366944788b22eba2
+ms.sourcegitcommit: 1ec931f8fe86bde27f6def36ea214a2a05fb22f6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431246"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3554326"
 ---
 # <a name="copy-an-instance"></a>Afritið tilvik
 
@@ -68,7 +68,7 @@ Til að ljúka þessu verkefni afritarðu fyrst dæmi og skráir þig síðan in
 
 4. Í verkglugganum **Afritaðu dæmi**, veldu dæmið sem á að skrifa yfir og veldu síðan **Afrita**. Bíddu eftir því að gildið í reitnum **Afrita stöðu** sé uppfært í **Lokið**.
 
-   ![[Velja tilvik til að skrifa yfir](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Veldu dæmi til að skrifa yfir](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Veldu **Power Platform** og skráðu þig inn í Admin Center Microsoft Power Platform.
 
@@ -108,6 +108,6 @@ Að auki breytast eftirfarandi stöðu þegar þú afritar tilvik:
 
 ## <a name="environment-admin"></a>Umhverfisstjóri
 
-Öllum notendum í marksandkassaumhverfinu, þar með talið stjórnendum, er skipt út fyrir stjórnendur í upprunaumhverfinu. Vertu viss um að þú sért stjórnandi í markumhverfinu áður en þú afritar tilvik. Ef þú ert það ekki muntu ekki geta skráð þig inn í sandkassaumhverfið eftir að afritið er lokið.
+Öllum notendum í marksandkassaumhverfinu, þar með talið stjórnendum, er skipt út fyrir stjórnendur í upprunaumhverfinu. Vertu viss um að þú sér stjórnandi í upprunaumhverfinu áður en þú afritar dæmi. Ef þú ert það ekki muntu ekki geta skráð þig inn í sandkassaumhverfið eftir að afritið er lokið.
 
 Allir notendur sem ekki eru kerfisstjórar í markkassasumhverfinu eru óvirkir til að koma í veg fyrir óæskileg innritun í sandkassaumhverfið. Stjórnendur geta endurtekið notendur ef þörf er á.

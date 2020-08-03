@@ -3,7 +3,7 @@ title: Innleið birgðaaðgerð í POS
 description: Þetta efni lýsir getu sölustaðar (POS) á heimleið birgðaaðgerð.
 author: hhaines
 manager: annbe
-ms.date: 03/12/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: b212906dcf037171af264c60720f361215eed599
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: cf3bec8ab0bfafccfe4b2b5b245d00fd6aeff635
+ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123900"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3551602"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Innleið birgðaaðgerð í POS
 
@@ -57,6 +57,9 @@ Til að stilla ósamstilltan skjalaramma skaltu ljúka eftirfarandi verklagsregl
 5. Á flýtflipanum **Almennt**, í hlutanum **Uppsetning**, stillirðu valkostinn **Samfellt** á **Nei** til að tryggja að engin vandamál séu með afköst.
 
 ### <a name="create-and-schedule-two-batch-jobs-for-the-document-processing-and-monitoring-tasks"></a>Búðu til og tímasettu tvær runuvinnslur fyrir skjalavinnslu og eftirlitsverk
+
+> [!NOTE]
+> Í Commerce útgáfu 10.0.13 og nýrri þarftu ekki að stilla runuvinnslurnar í gegnum ramma runuvinnsla. Hægt er að stilla runuvinnslu úr valmyndinni **Smásala og viðskipti > Upplýsingatækni smásölu og viðskipta**. Notaðu **Eftirlit smásöluskjalsaðgerðar** og **Vinnsla smásöluskjalsaðgerðar** valkostina til að grunnstilla runuvinnslurnar.
 
 Runuvinnslurnar sem þú býrð til verða notuð til að vinna úr skjölum sem takast ekki eða fá tímalokun. Þau verða einnig notuð þegar fjöldi virkra birgðaskjala sem unnið er úr POS er meiri en kerfisstillt gildi.
 

@@ -1,9 +1,9 @@
 ---
 title: Dynamics 365 Commerce yfirlit yfir forskoðunarumhverfi
-description: Þetta efni gefur yfirlit yfir forskoðunarumhverfi Microsoft Dynamics 365 Commerce.
+description: Í þessu Umfjöllunarefni er að finna yfirlit yfir Microsoft Dynamics 365 Commerce matsumhverfi.
 author: v-chgri
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,45 +17,50 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1ff96aeb5963df9ddee56783a089dad129bbb71c
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 25c0574e8d4502bcb846fba0ddf913d81eded87b
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024684"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599759"
 ---
-# <a name="dynamics-365-commerce-preview-environment-overview"></a>Dynamics 365 Commerce yfirlit yfir forskoðunarumhverfi
-
+# <a name="dynamics-365-commerce-evaluation-environment-overview"></a>Dynamics 365 Commerce yfirlit yfir forskoðunarumhverfi
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni gefur yfirlit yfir forskoðunarumhverfi Microsoft Dynamics 365 Commerce.
+Í þessu Umfjöllunarefni er að finna yfirlit yfir Microsoft Dynamics 365 Commerce matsumhverfi.
+
+> [!NOTE]
+> Commerce matsumhverfi er almennt ekki í boði og er veitt af samstarfsaðilum og viðskiptavinum á grundvelli beiðna. Þú ættir að hafa samband við Microsoft samstarfsaðila þinn til að fá aðstoð ef þig vantar frekari upplýsingar.
 
 ## <a name="overview"></a>Yfirlit
 
-Forskoðunarumhverfi Commerce er valfrjálst forskoðunarumhverfi sem tekur til alls ferlisins í Dynamics 365 Commerce sem gerir hugsanlegum viðskiptavinum kleift að prófa verslunina áður en hún birtist almenningi.
+Commerce matsumhverfi er valfrjálst og tekur til alls ferilsins Dynamics 365 Commerce sem gerir samstarfsaðilum og hugsanlegum viðskiptavinum kleift að prófa Commerce-vöruna.
 
-Fyrir utan smávægilegar takmarkanir sem hafa ekki áhrif á eiginleika eða virkni veitir forskoðunarumhverfi viðskiptanna fullkomna viðskiptaupplifun og er hægt að nota það af viðskiptavinum og framkvæmdaraðilum til að meta vöruna, veita endurgjöf og gera gloppugreiningu/hæfnigreiningu.
+Matsumhverfi er forstillt að hluta til að draga úr nauðsynlegum eftirúthlutunarskrefum.
 
-## <a name="limitations-of-the-commerce-preview-environment"></a>Takmarkanir á forskoðunarumhverfi verslunarinnar
+Fyrir utan nokkrar minni háttar takmarkanir sem hafa ekki áhrif á eiginleika eða virkni, býður Commerce matsumhverfið upp á alla Commerce reynslu, og hægt er að nota viðskiptavini og innleiðingaraðila til að meta afurðina, gefa endurgjöf og gera samræmis og gloppugreiningu.
 
-Þrátt fyrir að forskoðunarumhverfi Commerce bjóði upp á fullt sett af eiginleikum og virkni í viðskiptum, þá eru nokkrar minniháttar takmarkanir:
+## <a name="limitations-of-the-commerce-evaluation-environment"></a>Takmarkanir á Commerce matsumhverfi
 
-- Þrátt fyrir að forskoðunarumhverfi Commerce hafi engar landfræðilegar takmarkanir, þá er aðeins hægt að úthluta þáttum umhverfisins, eins og Retail Cloud Scale Unit (RCSU) og rafræn viðskiptaforritum, í Bandaríkjunum.
-- Notkun forskoðunarumhverfis Commerce er takmörkuð við 30 daga frá þeim degi þegar rafræn viðskipti eru veitt.
-- Hægt er að nota forskoðunarumhverfið með viðskiptum og frumstilla það aðeins í umhverfi sem notar sýnisgrannfræði, þar sem allir íhlutir umhverfisins eru settir upp í einni sýndarvél (VM). Helsta takmörkun þessarar OneBox VM grannfræði er fjöldi samtímis notenda sem forskoðunarumhverfið getur stutt.
-- Aðeins er hægt að meta forskoðunarumhverfi Commerce þar til almennt framboð (GA) verður á Commerce-afurðinni. Nýtt kynningarumhverfi verður í boði eftir almennt framboð.
+Þrátt fyrir að Commerce matsumhverfi fyrir viðskiptaviðskipti veiti alla eiginleika og virkni í Commerce eru smávægilegar takmarkanir:
 
-## <a name="get-started"></a>Leiðsögn
+- Þrátt fyrir að mat Commerce matsumhverfi er ekki með neinar landfræðilegar takmarkanir, er aðeins hægt að úthluta á Retail Cloud Scale Unit (rcsu) og e-Commerce-forritum í Bandaríkjunum.
+- Notkun á Commerce matsumhverfi takmarkast við 30 daga frá dagsetningunni þegar e-Commerce er úthlutað.
+- Hægt er að setja upp og frumstilla Commerce matsumhverfið í umhverfi sem notar sýnisgrannfræði, þar sem allir þættir umhverfis eru virkjaðir á sýndarvél í einu skýi (VL). Aðaltakmörkunin á þessari grannfræði er fjöldi samhliða notenda sem umhverfið styður.
 
-Til að úthluta forskoðunarumhverfi Commerce skal sjá [Veita forskoðunarumhverfi Commerce](provisioning-guide.md).
+## <a name="get-started"></a>Hafist handa
+
+Til að ráðstafa viðskiptaumhverfinu í Commerce, sjá [Úthlutun Commerce matsumhverfis](provisioning-guide.md).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Úthluta Dynamics 365 Commerce forsýningarumhverfi](provisioning-guide.md)
+[Úthluta Dynamics 365 Commerce matsumhverfi](provisioning-guide.md)
 
-[Skilgreina Dynamics 365 Commerce forskoðunarumhverfi](cpe-post-provisioning.md)
+[Stilla Dynamics 365 Commerce matsumhverfi](cpe-post-provisioning.md)
 
-[Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce forskoðunarumhverfi](cpe-optional-features.md)
+[Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi](cpe-bopis.md)
 
-[Dynamics 365 Commerce yfirlitsumhverfi algengra spurninga](cpe-faq.md)
+[Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce matsumhverfi](cpe-optional-features.md)
+
+[algengar spurningar um Dynamics 365 Commerce matsumhverfi](cpe-faq.md)

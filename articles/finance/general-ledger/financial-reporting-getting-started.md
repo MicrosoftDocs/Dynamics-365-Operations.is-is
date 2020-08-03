@@ -3,7 +3,7 @@ title: Yfirlitssíða fjárhagsskýrslugerðar
 description: Þetta efnisatriði lýsir hvar á að opna fjárhagslegar skýrslugerð í Microsoft Dynamics 365 Finance og hvernig á að nota getu fjárhagsskýrslugerðar. Inniheldur lýsing á sjálfgefið fjárhagsskýrslur sem er veitt.
 author: aprilolson
 manager: AnnBe
-ms.date: 04/14/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6cd77e22f9c6f90f6aa9934d70a121008e1274dd
-ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
+ms.openlocfilehash: 015f0282a2defcd7a8388eeaa70e0de6fb7cac78
+ms.sourcegitcommit: faaa4215f513885dd92cf7430b3612848ec09893
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262650"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "3609590"
 ---
 # <a name="financial-reporting-overview"></a>Yfirlitssíða fjárhagsskýrslugerðar
 
@@ -34,7 +34,7 @@ ms.locfileid: "3262650"
 <a name="accessing-financial-reporting"></a>Aðgangur að fjárhagsskýrslugerð
 -----------------------------
 
-Hægt er að finna **Fjárhagsskýrslugerð** valmyndina á eftirfarandi stöðum:
+Hægt er að finna **Fjárhagskýrslugerð** valmyndina á eftirfarandi stöðum:
 
 -   **Fjárhagur** &gt; **Fyrirspurnir og skýrslur**
 -   **Fjárhagsgerð** &gt; **Fyrirspurnir og skýrslur** &gt; **grunnáætlanagerð**
@@ -45,10 +45,11 @@ Hægt er að finna **Fjárhagsskýrslugerð** valmyndina á eftirfarandi stöðu
 Til að stofna og búa til fjárhagsskýrslur fyrir lögaðila, verður að setja upp eftirfarandi upplýsingar fyrir lögaðilann:
 
 -   Fjárhagsdagatal
--   Fjárhagur
+-   Ledger
 -   Bókhaldslykill
 -   Gjaldmiðill
 
+## <a name="granting-security-access-to-financial-reporting"></a>Veita öryggisaðgang að Financial Reporting
 Fjárhagsleg skýrslugerð aðgerðir eru tiltækar fyrir notendur sem hafa fengið viðeigandi réttindi og skyldur úthlutað gegnum öryggishlutverk þeirra. Eftirfarandi kaflar telja upp þessi réttindi og skyldur, ásamt tengdum hlutverkum.
 
 ### <a name="duties"></a>Skyldur
@@ -78,15 +79,26 @@ Fjárhagsleg skýrslugerð aðgerðir eru tiltækar fyrir notendur sem hafa feng
 | Mynda fjárhagsskýrslur            | Mynda fjárhagsskýrslur            | Forstjóri, framkvæmdastjóri, bókhaldari                                                            |
 | Skoða fjárhagsskýrslur                | Yfirfara fjárhagslega frammistöðu          | Ekki úthlutað                                                                   |
 
-Eftir að°notanda er bætt við eða hlutverki er breytt, á notandinn að geta opnað fjárhagsskýrslugerð innan nokkrar mínútur. **Athugasemd:** Hlutverkið sysadmin er bæta við öll hlutverk í fjárhagsskýrslugerð.
+Eftir að°notanda er bætt við eða hlutverki er breytt, á notandinn að geta opnað fjárhagsskýrslugerð innan nokkrar mínútur. 
+
+> [!NOTE]
+> Hlutverkið sysadmin er bætt við öll hlutverk í fjárhagsskýrslugerð.
 
 ## <a name="report-deletions-and-expirations"></a>Tilkynna eyðingu og fyrningu
 Notendur sem búa til skýrslu geta eytt eigin skýrslum. Notendur með skylduna **Vinna með öryggi fjárhagsskýrslna** geta eytt skýrslum annarra. 
 
-Í útgáfu 10.0.8 hefur hugtak lokadaga verið kynnt. Nýr nauðsynlegur eiginleiki verður gerður virkur á síðunni **Allt** á vinnusvæði eiginleikastjórnunar. Eiginleikinn **Varðveislureglur fjárhagsskýrslu** inniheldur eftirfarandi breytingar:
+Frá útgáfu 10.0.7 hefur hugtak lokadagar verið kynnt. Nýr nauðsynlegur eiginleiki verður gerður virkur á vinnusvæði eiginleikastjórnunar. Þessi eiginleiki inniheldur eftirfarandi breytingar:
+
+* Þegar skýrslur eru myndaðar er lokadagsetning sjálfkrafa merkt sem 90 dögum frá myndun þeirra.
+* Lokadagur allra fyrirliggjandi skýrslna áður en eiginleikinn var settur upp er 90 dagar. Dagsetningin kann að birtast auð í stuttan tíma þar til þjónustan fjárhagsskýrslugerð er í gangi, skýrsla er búin til og þjónustan framkvæmir uppfærsluna á fyrirliggjandi skýrslum með auðan lokadag. 
+* Notendur með **Vinna með öryggi fjárhagsskýrslna** hafa aðgang að þessari virkni. Sérhver notandi í skyldunni **Vinna með fjárhagsskýrslu** sem er veitt réttindin **Vinna með gildistíma fjárhagsskýrslu** munu einnig geta breytt gildistíma. Eins og stendur eru tveir valkostir varðandi varðveislu í boði:
+   * 90 daga gildistími
+   * Valkostur til að stilla skýrsluna á að fyrnast aldrei
+
+Þegar gildistími, t.d. 90 dagar, er valinn, gildir hann í 90 daga frá deginum í dag, sem er öðruvísi en 90 dagarnir frá upprunalegum myndunardegi sem er settur þegar skýrslan var búin til. Í útgáfu 10.0.8 var hugtakið lokadagar kynnt. Nýr nauðsynlegur eiginleiki er virkur á síðunni **Allt** á vinnusvæði eiginleikastjórnunar. Eiginleikinn **Varðveislureglur fjárhagsskýrslu** inniheldur eftirfarandi breytingar:
 * Nýlega myndaðar skýrslur verða sjálfkrafa merktar með lokadag sem er 90 dagar frá því þær eru myndaðar
-* Lokadagur allra fyrirliggjandi skýrslna áður en eiginleikinn var settur upp er 90 dagar. Dagsetningin kann að birtast auð í stuttan tíma þar til þjónustan Financial Reporting er í gangi, skýrsla er búin til og þjónustan framkvæmir uppfærsluna á fyrirliggjandi skýrslum með auðan lokadag. 
-* Notendur sem **Vinna með öryggi fjárhagsskýrslna** hafa aðgang að þessum eiginleika. Sérhver notandi í skyldunni **Vinna með fjárhagsskýrslu** sem er veitt réttindin **Vinna með gildistíma fjárhagsskýrslu** munu einnig geta breytt gildistíma. Eins og stendur eru tveir valkostir varðandi varðveislu í boði. 
+* Lokadagur allra fyrirliggjandi skýrslna áður en eiginleikinn var settur upp er 90 dagar. Dagsetningin kann að birtast auð í stuttan tíma þar til þjónustan fjárhagsskýrslugerð er í gangi, skýrsla er búin til og þjónustan framkvæmir uppfærsluna á fyrirliggjandi skýrslum með auðan lokadag. 
+* Notendur sem **Vinna með öryggi fjárhagsskýrslna** hafa aðgang að þessum eiginleika. Sérhver notandi í skyldunni **Vinna með fjárhagsskýrslu** sem er veitt réttindin **Vinna með gildistíma fjárhagsskýrslu** munu einnig geta breytt gildistíma. Eins og stendur eru tveir valkostir varðandi varðveislu í boði: 
   * Gildistími 90 dagar.
   * Valkostur til að stilla skýrsluna þannig að hún falli aldrei úr gildi.
   
@@ -125,16 +137,36 @@ Fjárhagsskýrslugerð veitir 22 sjálfgefnar fjárhagsskýrslur. Sérhver skýr
 | Fjármagn fjárhagsáætlunar tiltækt - sjálfgefinn                         | Skoða sundurliðað samanburður af endurskoðað fjárhagsáætlun, raunútgjöld, frátekt fjárhagsáætlunar og fjármagn fjárhagsáætlunar tiltækt fyrir allir reikningar                                                                                                                                                                                  |
 
 ## <a name="opening-financial-reports"></a>Opna fjárhagsskýrslur
-Þegar smellt°er á **fjárhagsskýrslugerð** valmynd, birtist listi yfir sjálfgefnar fjárhagsskýrslur fyrir fyrirtækið. Síðan er hægt að opna og breyta skýrslu. Velja heiti skýrslu til að opna sjálfgefnu skýrslurnar. Í fyrsta sinn sem skýrsla er opnað, er hún sjálfvirkt mynduð fyrir fyrri mánuð. Til dæmis, ef skýrsla er opnuð í fyrsta sinn í Ágúst 2016 er hún mynduð fyrir 31. Júlí 2016. Eftir að skýrsla er opnuð er hægt að hefja skoðun á henni með þvi að kafa niður í sértæka gagnahluta og breyta valkostum skýrslu.
+Þegar **Fjárhagsskýrslugerð** valmyndin er valin birtist listi yfir sjálfgefnar fjárhagsskýrslur fyrir fyrirtækið. Síðan er hægt að opna og breyta skýrslu. Velja heiti skýrslu til að opna sjálfgefnu skýrslurnar. Í fyrsta sinn sem skýrsla er opnað, er hún sjálfvirkt mynduð fyrir fyrri mánuð. Til dæmis, ef skýrsla er opnuð í fyrsta sinn í Ágúst 2019 er hún mynduð fyrir 31. Júlí 2019. Eftir að skýrsla er opnuð er hægt að hefja skoðun á henni með þvi að kafa niður í sértæka gagnahluta og breyta valkostum skýrslu.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Stofna og breyta fjárhagsskýrslum
-Af listanum yfir fjárhagsskýrslur er hægt að stofna nýja skýrslu eða breyta fyrirliggjandi skýrslu. Ef notandi hefur viðeigandi heimildir, er hægt að stofna nýja fjárhagsskýrslu með því að smella á **Nýtt** í Aðgerðarúðunni. Skýrsluhönnunarforriti er hlaðið niður á tækið og opnast síðan. Eftir að skýrsluhönnun opnast er hægt að stofna nýja skýrslu. Þegar búið er að vista nýja skýrslu birtist hún í lista yfir fjárhagsskýrslur. Listinn sýnir einungis skýrslur sem voru stofnaðar fyrir fyrirtæki sem verið er að nota í Finance. 
+Af listanum yfir fjárhagsskýrslur er hægt að stofna nýja skýrslu eða breyta fyrirliggjandi skýrslu. Ef notandi hefur viðeigandi heimildir, er hægt að stofna nýja fjárhagsskýrslu með því að velja **Nýtt** í Aðgerðarúðunni. Skýrsluhönnunarforriti er hlaðið niður á tækið og opnast síðan. Eftir að skýrsluhönnun opnast er hægt að stofna nýja skýrslu. Þegar búið er að vista nýja skýrslu birtist hún í lista yfir fjárhagsskýrslur. Listinn sýnir einungis skýrslur sem voru stofnaðar fyrir fyrirtæki sem verið er að nota í Dynamics 365 Finance. 
 
-> [!NOTE] 
-> Tölvan sem þú ert að hlaða niður skýrsluhönnunarbiðlara verður að vera með uppsetta útgáfu 4.6.2 af Microsoft .NET Framework. Hægt er að sækja og setja upp þessa útgáfu af Microsoft .NET Framework úr [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=53345). Ef verið er að nota Chrome, verður að setja upp ClickOnce-viðauka til að sækja skýrslu hönnuðurbiðlara. Ef verið er að nota Chrome í huliðsstillingu, ganga úr skugga um að ClickOnce viðbót sé einnig virkur fyrir huliðsstillingu. Einnig er hægt að breyta skýrslu sem birtist í lista yfir fjárhagsskýrslur. Þegar svæði umhverfis heiti skýrslunnar er valið, er smellt á **Breyta** í Aðgerðarúðunni. Skýrsluhönnunarforritið er ræst.
+## <a name="troubleshooting-issues-opening-report-designer"></a>Úrræðaleit vegna vandamála við opnun skýrsluhönnunar
+Nokkur algeng vandamál eru til staðar sem geta valdið vandræðum þegar Skýrsluhönnun er opnuð. Þessi vandamál og skrefin til að leysa úr þeim eru eftirfarandi.
+
+Vandamál 1: Skýrsluhönnun hefst ekki þegar valið er **Nýtt** eða **Breyta**.
+
+* Í Internet Explorer, veljið **Stillingar**, síðan skal velja **Internetvalkostir**. Velja skal flipann **Öryggi**. Veljið Traust vefsvæði og veljið síðan **Vefsvæði**. Í **Bæta þessu vefsvæði við svæði**, skal færa inn „\*\.dynamics.com“ (án gæsalappa) og síðan velja **Bæta við**. 
+* Í Internet Explorer, veljið **Stillingar**, síðan skal velja **Internetvalkostir**. Velja skal flipann **Öryggi**. Veljið Traust vefsvæði. Á svæðinu sem merkt er Öryggisstig fyrir þetta svæði skal breyta valkostinum í **Miðlungs-lágt**.
+* Slökkvið á sprettigluggavörninni í vafranum.
+* Vinnutölvur eru nauðsynlegar til að setja upp Visual Studio .NET 4.6.2 eða nýrra.
+
+Hægt er að sækja og setja upp þessa útgáfu af Microsoft .NET Framework úr [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=53345).
+* Ef verið er að nota Chrom vafrann, verður að setja upp ClickOnce-viðauka til að sækja biðlara Skýrsluhönnunar. Ef verið er að nota huliðsstillingu, ganga úr skugga um að ClickOnce viðbótin sé einnig virk fyrir huliðsstillingu. Ef ekki er hægt að skrá sig inn með Chrome skal reyna að fylgja uppsetningarskrefunum sem lýst er í Vandamáli 1 með því að nota Internet Explorer eða Edge. 
+
+Vandamál 2: Notanda hefur ekki verið úthlutað nauðsynlegum heimildum til að nota Financial Reporting. 
+
+* Til að sannprófa hvort notandi hafi ekki heimild skal velja **Já** þegar villan „Ekki var hægt að tengjast netþjóni Financial Reporting“ kemur upp. Veldu Já ef þú vilt halda áfram og tilgreina annað vistfang þjóns Veljið síðan **Prófa tengingu**. Ef þú ert ekki með heimild sérðu skilaboð sem segja „Tilraun til tengingar mistókst. Notandi hefur ekki nægilegar heimildir til að tengjast þjóninum. Hafa skal samband við kerfisstjóra.
+* Nauðsynlegar heimildir eru taldar upp hér að ofan í [Veita öryggisaðgang að Financial Reporting](#granting-security-access-to-financial-reporting). Öryggi í Financial Reporting byggir á þessum réttindum. Þú færð ekki aðgang nema þér sé úthlutað þessum réttindum (eða öðru öryggishlutverki sem felur í sér þessi réttindi). 
+* Innleiðingarverkið **Fyrirtækjanotendaveita til fyrirtækis** (sem einnig er ábyrg fyrir og þekkt sem innleiðing notanda) keyrir með 5 mínútna millibili. Það kann að taka allt að 10 mínútur fyrir allar heimildabreytingar að taka gildi í Financial Reporting. 
+  Ef annar notandi getur opnað skýrsluhönnun skal velja **Verkfæri** og síðan velja **Samþættingarstaða**. Staðfestið að samþættingarvörpunin „Fyrirtækjanotendaveita til fyrirtækis“ hafi keyrt vegna þess að þér var úthlutað réttindum til að nota Financial Reporting. 
+* Hugsanlegt er að önnur villa hafi komið í veg fyrir að **Samþætting Dynamics-notanda við Financial Reporting-notanda** hafi náð að klárast. Eða að hugsanlega hafi endurstilling gagnaskemmu hafi verið sett af stað og ekki lokið enn, eða að önnur kerfisvilla hafi komið upp. Reynið að keyra ferlið aftur síðar. Hafið samband við kerfisstjóra ef vandamálið er viðvarandi.
+
+Vandamál 3: Þú getur haldið áfram framhjá ClickOnce innskráningarsíðu skýrsluhönnunar, en getur ekki lokið innskráningu innan skýrsluhönnunar. 
+
+* Tíminn sem stilltur er á staðbundinni tölvu þegar þú slærð inn innskráningarupplýsingarnar þínar verður að vera innan fimm mínútna af tímanum á netþjóni Financial Reporting. Ef það er mismunur upp á meira en fimm mínútur mun kerfið ekki leyfa innskráningu. 
+* Í slíku tilfelli er mælt með því að virkja Windows-valkostinn um að stilla tíma tölvunnar sjálfkrafa. 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
-- [Skoðun fjárhagsskýrslna](view-financial-reports.md)
-
-
-
+- [Skoða fjárhagsskýrslur](view-financial-reports.md)

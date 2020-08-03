@@ -3,7 +3,7 @@ title: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 36
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir úr Dynamics 365 Commerce.
 author: josaw
 manager: AnnBe
-ms.date: 06/10/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 64241ef1c25359c7b3b305c4e8f2b24de7e8f5e4
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: aa18e7446a72a907fcad70f92ea529088b6cecbd
+ms.sourcegitcommit: 83c7e5ab54c1cad2e21e33769cc524cfa4213f58
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443919"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3539880"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Commerce
 
@@ -43,6 +43,33 @@ ms.locfileid: "3443919"
 | **Ástæða úreldingar/fjarlægingar** | Krókar gagnaaðgerða hafa verið teknir úr umferð vegna afkastatengdra vandamála. |
 | **Skipt út fyrir aðra eiginleika?**   | Mælt er með notkun [gagnaaðgerðahnekkinga](../e-commerce-extensibility/data-action-overrides.md) í staðinn þegar breyta þarf viðskiptagrunni í gagnaaðgerðarlagi.|
 | **Afurðasvæði sem haft er áhrif á**         | Gagnaaðgerðir stækkunarhæfni rafrænna viðskipta |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt: frá og með útgáfu 10.0.11 |
+
+### <a name="retail-sdk-support-for-visual-studio-2015-msbuild-140-and-retail-sdkreference-libraries-and-tools"></a>Retail SDK-stuðningur fyrir Visual Studio 2015, msbuild 14,0 og Retail SDK\tilvísunarsöfn og verkfæri
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Retail SDK-stuðningi fyrir Visual Studio 2015 hefur verið hætt og uppfærður í support VS 2017, msbuild 15,0 og öll tilvísunarsöfn og Commerce staðgengilsverkfæri í möppunni RetailSDK\References möppunni færðar í NuGet pakka til að einfalda líkanið og SDK uppfærsluferlið.|
+| **Skipt út fyrir aðra eiginleika?**   | Við mælum með því að fylgja upplýsingum í [Flytja Retail SDK úr Visual Studio 2015 í Visual Studio 2017](../dev-itpro/retail-sdk/migrate-sdk.md) til að uppfæra kerfið. |
+| **Afurðasvæði sem haft er áhrif á**         | Viðbætur SDK-smásöluþjóns |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt: frá og með útgáfu 10.0.11 |
+
+### <a name="retail-server-extension-using-iedmmodelextender-and-commercecontroller"></a>Viðbótar smásöluþjóns með IEdmModelExtender and CommerceController
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Viðbót smásöluþjóns með IEdmModelExtender og CommerceController hefur verið úrelt til að veita einfaldara viðbótarlíkan. Nýja innleiðingin mun aðeins hafa stýriklasa án frekari útfærslu á IEdmModelExtender innleiðingu. Þetta kemur einnig í þörf fyrir tiltekna OData-útgáfu (ef OData-útgáfan er uppfærð getur það skemmt viðbætur.) |
+| **Skipt út fyrir aðra eiginleika?**   |  Mælt er með því að nota nafnaukalíkan fyrir IController-klasa með því að flytja inn NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts) pakkann. |
+| **Afurðasvæði sem haft er áhrif á**         | Viðbætur smásöluþjóns |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Úrelt: frá og með útgáfu 10.0.11 |
+
+### <a name="hardware-station-extension-using-ihardwarestationcontroller"></a>Viðbót vélbúnaðarstöðvar með IHardwareStationController
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Viðbót vélbúnaðarstöðvar með IHardwareStationController eru úrelt til að veita einfaldara viðaukalíkan. Nýja innleiðingin er aðeins með IController-klasanum án frekari klasaútfærslu og til að koma í veg fyrir tengsl við söfn vélbúnaðarstöðva, fyrri viðbót þurfti áður að vísa í mörg söfn.) |
+| **Skipt út fyrir aðra eiginleika?**   | Mælt er með því að nota nafnaukalíkan IController-klasa með því að flytja inn NuGet (Microsoft.Dynamics.Commerce.Hosting.Contracts) pakkann. |
+| **Afurðasvæði sem haft er áhrif á**         | Viðbætur vélbúnaðarstöðvar |
 | **Dreifingarvalkostur**              | Allir |
 | **Staða**                         | Úrelt: frá og með útgáfu 10.0.11 |
 

@@ -3,7 +3,7 @@ title: Skilgreining verkflæðiseiginleika
 description: Þetta efnisatriði útskýrir hvernig skilgreina á mismunandi eiginleika verkflæðis.
 author: sericks007
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
-ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
+ms.openlocfilehash: 268448049955170b8eb9e64cbd50416565a041b1
+ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3199437"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3541110"
 ---
 # <a name="configure-workflow-properties"></a>Skilgreining verkflæðiseiginleika
 
@@ -91,12 +91,7 @@ Fylgið eftirfarandi skrefum til að tilgreina hvenær á að nota skilgreint ve
 3. Smellt er á **Bæta við Skilyrði**.
 4. Færið inn skilyrði.
 5. Færið inn öll önnur skilyrði sem krafist er.
-6. Til að sannreyna að skilyrðin sem voru færð hafi verið stilllt rétt, skal fylgja eftirfarandi skrefum:
-
-    1. Smellið á **Prófun**.
-    2. Á síðunni **Kanna verkflæðisskilyrði** , í **Villuleita skilyrði** svæði, velja færslu.
-    3. Smellið á **Prófun**. Kerfið metur færsluna og ákveður hvort hún standist skilyrði sem þú skilgreindir. Til dæmis, ef verið er að búa til verkflæði fyrir innkaupabeiðni á Spáni sýnir svæðið **Villuleita skilyrði** á síðunni lista yfir innkaupabeiðnir. Þegar smellt er á **Prófun** mun kerfið meta valdar innkaupabeiðnir og ákveða hvort Land/svæði er ES.
-    4. Smelltu á **Í lagi** eða **hætta við** til að fara aftur síðuna **forstillingar**.
+6. Keyrðu í gegnum verkflæðið með nokkrum markfærslum til að staðfesta að ástandið taka færslur með rétt.
 
 ## <a name="specify-when-notifications-are-sent"></a>Tilgreinið hvenær tilkynningar eru sendar út
 

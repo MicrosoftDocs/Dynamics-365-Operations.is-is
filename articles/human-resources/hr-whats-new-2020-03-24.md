@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 83f24dd6f094715f96666c3ae94faa4bdb97a652
-ms.sourcegitcommit: fac1d519a85eab0c936b54e0a9247f6a11842871
+ms.openlocfilehash: 4f46d631379711dd2002a95dfa6001a362727f4f
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "3177938"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555100"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-24-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (24. mars 2020)
 
@@ -113,3 +113,10 @@ Frá og með apríl mun losunarferlið fyrir Human Resources breytast úr vikule
 ## <a name="employment-detail-entity"></a>Atvinnuupplýsingaeining
 
 Einingin **Atvinnuupplýsingar** hefur verið uppfærð með eftirfarandi reitum: **Launatíðni**, **Kenni starfsgreinar**, **Starfsheiti**, **Kenni starfsheitis** og **Fríðindastaða starfs**. Uppsetningargögnin fyrir þessa reiti treysta á að fríðindastjórnun sé virkjuð í Eiginleikastjórnun. Þessa reitir ætti ekki að fylla út eða uppfæra í einingunni **Starfsupplýsingar** vegna þess að það mun valda villum við innflutning.
+
+## <a name="see-also"></a>Sjá einnig
+
+[Nýjungar í Human Resources](hr-admin-whats-new.md)</br>
+[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Uppfærsluferli](hr-admin-setup-update-process.md)</br>
+[Vinna með eiginleika](hr-admin-manage-features.md)

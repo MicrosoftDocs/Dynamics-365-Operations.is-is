@@ -3,7 +3,7 @@ title: Árangursstjórnun
 description: Frammistöðustjórnun ferli leyfir starfsmenn skrá og ræða um frammistöðu með yfirmaður. Í staðin, yfirmaður getur gefið athugasemdir og leiðbeiningar til starfsmaður.
 author: andreabichsel
 manager: AnnBe
-ms.date: 12/11/2019
+ms.date: 07/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6147b5d92381d76c572f8a10e52c9ed00225e7eb
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 4786717826592973d3b049c4aa5ca615332d5bc6
+ms.sourcegitcommit: 98cfbb42fc556e1afcb2fab50d8dff0ae2b7aa67
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430441"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3609773"
 ---
 # <a name="performance-management"></a>Árangursstjórnun
 
@@ -145,7 +145,7 @@ Mælingar síða leyfir þér að búa til hefðbundinn mælingar sem verða not
 
 ### <a name="performance-journal-source-types"></a>Upprunagerðir frammistöðubókar
 
-Upprunagerðir frammistöðubókar útskýra hvar frammistöðubækur koma frá. Þú getur séð hvort færslubókaratriði verði skoðað sjálfgefið af yfirmanni aðeins eða starfsmanni aðeins, eða bæði yfirmanni og starfsmanni. Þú getur einnig kveikja á eða gera óvirkt Senda hrós eiginleika með því að breyta upprunagerð Hrós. Ekki er hægt að slökkva á öðrum upprunagerðum á þessum tíma.
+Upprunagerðir frammistöðubókar útskýra hvar frammistöðubækur koma frá. Þú getur séð hvort færslubókaratriði verði skoðað sjálfgefið af yfirmanni aðeins eða starfsmanni aðeins, eða bæði yfirmanni og starfsmanni. Ekki er hægt að slökkva upprunagerðir á þessum tíma.
 
 ### <a name="review-types"></a>Gerðir yfirferðar
 
