@@ -1,9 +1,9 @@
 ---
-title: Dynamics 365 Commerce yfirlitsumhverfi algengra spurninga
-description: Þetta efnisatriði veitir svör við algengum spurningum um forskoðunarumhverfi Microsoft Dynamics 365 Commerce.
+title: algengar spurningar um Dynamics 365 Commerce matsumhverfi
+description: Þetta efnisatriði veitir svör við algengum spurningum um Microsoft Dynamics 365 Commerce matsumhverfi.
 author: v-chgri
 manager: annbe
-ms.date: 04/10/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,73 +17,57 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5321d7937a9de3ba39f7a88bf0e9c26f4e62d7bc
-ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
+ms.openlocfilehash: 637714e28b9f8f4aa66e251e709d8f78bff2739d
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "3254725"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599762"
 ---
-# <a name="dynamics-365-commerce-preview-environment-faq"></a><span data-ttu-id="2ceaf-103">Dynamics 365 Commerce yfirlitsumhverfi algengra spurninga</span><span class="sxs-lookup"><span data-stu-id="2ceaf-103">Dynamics 365 Commerce preview environment FAQ</span></span>
+# <a name="dynamics-365-commerce-evaluation-environment-faq"></a><span data-ttu-id="00547-103">algengar spurningar um Dynamics 365 Commerce matsumhverfi</span><span class="sxs-lookup"><span data-stu-id="00547-103">Dynamics 365 Commerce evaluation environment FAQ</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="2ceaf-104">Þetta efnisatriði veitir svör við algengum spurningum um forskoðunarumhverfi Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-104">This topic provides answers to frequently asked questions about the Microsoft Dynamics 365 Commerce preview environment.</span></span>
+<span data-ttu-id="00547-104">Þetta efnisatriði veitir svör við algengum spurningum um Microsoft Dynamics 365 Commerce matsumhverfi.</span><span class="sxs-lookup"><span data-stu-id="00547-104">This topic provides answers to frequently asked questions about the Microsoft Dynamics 365 Commerce evaluation environment.</span></span>
 
-<span data-ttu-id="2ceaf-105">**Get ég flutt boð mitt um forsýningarumhverfi Commerce til annars leigjanda?**</span><span class="sxs-lookup"><span data-stu-id="2ceaf-105">**Can I transfer my invitation for the Commerce preview environment to another tenant?**</span></span>
+<span data-ttu-id="00547-105">**Er hægt að nota Commerce-matsumhverfi sem netverslun rafrænna viðskipta fyrir viðskiptavini sem innleiða smásölu eins og er?**</span><span class="sxs-lookup"><span data-stu-id="00547-105">**Can we use the Commerce evaluation environment as an e-Commerce storefront for customers that currently implement Retail?**</span></span>
 
-<span data-ttu-id="2ceaf-106">Já.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-106">Yes.</span></span> <span data-ttu-id="2ceaf-107">Til að flytja boð geturðu notað [Forskoðun flutningsskjás Commerce](https://aka.ms/Dynamics365CommercePreviewTransferForm).</span><span class="sxs-lookup"><span data-stu-id="2ceaf-107">For invitation transfers, you can use the [Commerce preview transfer form](https://aka.ms/Dynamics365CommercePreviewTransferForm).</span></span>
+<span data-ttu-id="00547-106">Nei.</span><span class="sxs-lookup"><span data-stu-id="00547-106">No.</span></span> <span data-ttu-id="00547-107">Commerce-matsumhverfi er aðeins fyrir mat.</span><span class="sxs-lookup"><span data-stu-id="00547-107">The Commerce evaluation environment is only for evaluation.</span></span> <span data-ttu-id="00547-108">Ef þú þarft umhverfi fyrir viðskiptavini sem útfærir Retail skaltu hafa samband við Microsoft.</span><span class="sxs-lookup"><span data-stu-id="00547-108">If you require an environment for a customer that implements Retail, contact Microsoft.</span></span>
 
-<span data-ttu-id="2ceaf-108">**Hve langan tíma tekur flutningur á boði?**</span><span class="sxs-lookup"><span data-stu-id="2ceaf-108">**How long does the invitation transfer take?**</span></span>
+<span data-ttu-id="00547-109">**Er hægt að nota Commerce-matsumhverfi til að úthluta eiginleikum rafrænna viðskipta ásamt fyrirliggjandi forriti/umhverfi sem innleiðir smásölu?**</span><span class="sxs-lookup"><span data-stu-id="00547-109">**Can the Commerce evaluation environment be used to provision the e-Commerce features on top of an existing application/environment that implements Retail?**</span></span>
 
-<span data-ttu-id="2ceaf-109">Flutningurinn tekur að meðaltali um það bil þrjá til fimm virka daga.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-109">The transfer takes an average of approximately three to five business days.</span></span> <span data-ttu-id="2ceaf-110">Þó geta verið undantekningar á því.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-110">However, exceptions might apply.</span></span>
+<span data-ttu-id="00547-110">Nei (aðallega).</span><span class="sxs-lookup"><span data-stu-id="00547-110">No (mostly).</span></span> <span data-ttu-id="00547-111">Íhlutir Commerce-mats eru aðeins í boði fyrir umhverfi sem samsvarar skilgreiningum sem eru tilgreindar í skilyrðum og úthlutunarleiðbeiningum.</span><span class="sxs-lookup"><span data-stu-id="00547-111">The Commerce evaluation components are available only to environments that match the configurations that are specified in the prerequisites and provisioning guide.</span></span> <span data-ttu-id="00547-112">Þar að auki verða nauðsynleg grunnsýnigögn ekki tiltæk í umhverfum sem voru sett upp með upphaflegri útgáfu sem er eldri en 10.0.8.</span><span class="sxs-lookup"><span data-stu-id="00547-112">Additionally, the required base demo data won't be available in environments that were deployed with an initial release that is earlier than 10.0.8.</span></span> 
 
-<span data-ttu-id="2ceaf-111">**Vinnur forskoðunarumhverfi Commerce með verkefni Dynamics 365 Finance eða Dynamics 365 Supply Chain?**</span><span class="sxs-lookup"><span data-stu-id="2ceaf-111">**Does the Commerce preview environment work with Dynamics 365 Finance or Dynamics 365 Supply Chain projects?**</span></span>
+<span data-ttu-id="00547-113">**Hvaða kostnaður fylgir því að setja upp Commerce-matsumhverfi á Microsoft Azure í gegnum Microsoft Dynamics Lifecycle Services?**</span><span class="sxs-lookup"><span data-stu-id="00547-113">**What costs are involved in deploying the Commerce evaluation environment on Microsoft Azure via Microsoft Dynamics Lifecycle Services (LCS)?**</span></span>
 
-<span data-ttu-id="2ceaf-112">Nei.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-112">No.</span></span> <span data-ttu-id="2ceaf-113">Forskoðunarumhverfi Commerce virkar aðeins með Dynamics 365 Retail verkefnum.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-113">The Commerce preview environment works only with Dynamics 365 Retail projects.</span></span>
+<span data-ttu-id="00547-114">Hefðbundið Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce sýniútgáfuumhverfi höfuðstöðva (sýndarvél \[SV\]) verður hýst í Azure-áskriftinni þinni.</span><span class="sxs-lookup"><span data-stu-id="00547-114">A traditional Dynamics 365 Finance/Dynamics 365 Supply Chain Management/Dynamics 365 Commerce headquarters demo environment (virtual machine \[VM\]) will be hosted in your Azure subscription.</span></span> <span data-ttu-id="00547-115">Þú getur notað [Reiknivél fyrir verðlagningu í Azure](https://azure.microsoft.com/pricing/calculator/) að áætla þennan kostnað.</span><span class="sxs-lookup"><span data-stu-id="00547-115">You can use the [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/) to estimate this cost.</span></span>
 
-<span data-ttu-id="2ceaf-114">**Getum við notað forskoðunarumhverfi Commerce sem netverslun fyrir viðskiptavini sem eru að innleiða Retail?**</span><span class="sxs-lookup"><span data-stu-id="2ceaf-114">**Can we use the Commerce preview environment as an e-commerce storefront for customers that currently implement Retail?**</span></span>
+<span data-ttu-id="00547-116">Aðrir þættir, svo sem Commerce Scale Unit, Commerce-vefsmiður og rafræna viðskiptasvæðið þitt verða í boði sem SaaS-þjónusta og hýst af Microsoft.</span><span class="sxs-lookup"><span data-stu-id="00547-116">Other components such as Commerce Scale Unit, Commerce site builder, and your e-Commerce site will be available as software as a service (SaaS) and hosted by Microsoft.</span></span>
 
-<span data-ttu-id="2ceaf-115">Nei.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-115">No.</span></span> <span data-ttu-id="2ceaf-116">Forskoðunarumhverfi Commerce er aðeins matsumhverfið.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-116">The Commerce preview environment is just the evaluation environment.</span></span> <span data-ttu-id="2ceaf-117">Ef þú þarft umhverfi fyrir viðskiptavini sem útfærir Retail skaltu hafa samband við Microsoft.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-117">If you require an environment for a customer that implements Retail, contact Microsoft.</span></span>
+<span data-ttu-id="00547-117">**Hvaða löng og svæði Azure eru studd eins og er fyrir Commerce-matsumhverfið?**</span><span class="sxs-lookup"><span data-stu-id="00547-117">**Which Azure geographies are currently supported for the Commerce evaluation environment?**</span></span>
 
-<span data-ttu-id="2ceaf-118">**Er hægt að nota forskoðunarumhverfi Commerce til að útvega eiginleika rafrænna viðskipta ofan á núverandi forrit/umhverfi sem útfærir Retail?**</span><span class="sxs-lookup"><span data-stu-id="2ceaf-118">**Can the Commerce preview environment be used to provision the e-commerce features on top of an existing application/environment that implements Retail?**</span></span>
+<span data-ttu-id="00547-118">Aðeins er hægt að nota Commerce-matsumhverfið á svæðum Norður-Ameríku.</span><span class="sxs-lookup"><span data-stu-id="00547-118">The Commerce evaluation environment can be deployed only in the North America geography.</span></span>
 
-<span data-ttu-id="2ceaf-119">Nei.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-119">No.</span></span> <span data-ttu-id="2ceaf-120">Forskoðunarumhverfi Commerce er sem stendur aðeins til í nýju umhverfi sem var sent frá sér í SKU-verkefnum sem hafa sýndargögn úr útgáfu 10.0.6.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-120">The Commerce preview environment is currently available only in new environments that were deployed on Retail stock keeping unit (SKU) projects that have demo data from version 10.0.6.</span></span>
+<span data-ttu-id="00547-119">**Er til niðurhalanlegur sýndardiskur (VHD) sem hefur fullkominn OneBox sýndarvél (VM) valkost?**</span><span class="sxs-lookup"><span data-stu-id="00547-119">**Is there a downloadable virtual hard disk (VHD) that has the complete OneBox virtual machine (VM) option?**</span></span>
 
-<span data-ttu-id="2ceaf-121">**Hvaða kostnaður fylgir því að nota forskoðunarumhverfi Commerce í Microsoft Azure í gegnum Microsoft Dynamics Lifecycle Services (LCS)?**</span><span class="sxs-lookup"><span data-stu-id="2ceaf-121">**What costs are involved in deploying the Commerce preview environment on Microsoft Azure via Microsoft Dynamics Lifecycle Services (LCS)?**</span></span>
+<span data-ttu-id="00547-120">Dynamics 365 Commerce og Commerce Scale Unit eru SaaS-þjónusta og verða að vera hýst í skýinu.</span><span class="sxs-lookup"><span data-stu-id="00547-120">Dynamics 365 Commerce and Commerce Scale Unit are completely software as a service (SaaS) and must be cloud-hosted.</span></span>
 
-<span data-ttu-id="2ceaf-122">Retail er eini þátturinn sem er hýstur í áskriftinni þinni.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-122">Retail is the only component that is hosted in your subscription.</span></span> <span data-ttu-id="2ceaf-123">Aðrir íhlutir eins og Retail Cloud Scale Unit (RCSU) og e-Commerce verða hýst í Microsoft áskrift.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-123">Other components such as Retail Cloud Scale Unit (RCSU) and e-Commerce will be hosted in Microsoft subscriptions.</span></span> <span data-ttu-id="2ceaf-124">Þú getur notað [Reiknivél fyrir verðlagningu í Azure](https://azure.microsoft.com/pricing/calculator/) að áætla þennan kostnað.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-124">You can use the [Azure pricing calculator](https://azure.microsoft.com/pricing/calculator/) to estimate this cost.</span></span>
+<span data-ttu-id="00547-121">**Hversu lengi er hægt að nota matsumhverfi í Commerce?**</span><span class="sxs-lookup"><span data-stu-id="00547-121">**How long can the Commerce evaluation environment be used?**</span></span>
 
-<span data-ttu-id="2ceaf-125">**Hvaða landsvæði Azure eru nú studd fyrir forsýningarumhverfi Commerce?**</span><span class="sxs-lookup"><span data-stu-id="2ceaf-125">**Which Azure geographies are currently supported for the Commerce preview environment?**</span></span>
+<span data-ttu-id="00547-122">Commerce-matsumhverfið er með 30 daga gildistíma frá þeim degi þegar SaaS-íhlutir á borð við Commerce Scale Unit, Commerce-vefsmiður og rafrænt viðskiptasvæðið þitt er úthlutað.</span><span class="sxs-lookup"><span data-stu-id="00547-122">The Commerce evaluation environment has a 30-day time limit from the date when SaaS components such as Commerce Scale Unit, Commerce site builder, and your e-Commerce site are provisioned.</span></span>
 
-<span data-ttu-id="2ceaf-126">Aðeins er hægt að nota forskoðunarumhverfi Commerce á landsvæði Norður-Ameríku.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-126">The Commerce preview environment can be deployed only in the North America geography.</span></span>
+<span data-ttu-id="00547-123">**Get ég framlengt tímamörkunum fyrir matsumhverfið mitt í Commerce?**</span><span class="sxs-lookup"><span data-stu-id="00547-123">**Can I extend the time limit for my Commerce evaluation environment?**</span></span>
 
-<span data-ttu-id="2ceaf-127">**Er til niðurhalanlegur sýndardiskur (VHD) sem hefur fullkominn OneBox sýndarvél (VM) valkost?**</span><span class="sxs-lookup"><span data-stu-id="2ceaf-127">**Is there a downloadable virtual hard disk (VHD) that has the complete OneBox virtual machine (VM) option?**</span></span>
+<span data-ttu-id="00547-124">Framlenging á tímamörkum er undantekning sem þarf að skoða sérstaklega fyrir hvert mál.</span><span class="sxs-lookup"><span data-stu-id="00547-124">Extension of the time limit is an exception to the norm and is considered on a case-by-case basis.</span></span> <span data-ttu-id="00547-125">Þú ættir að hafa samband við Microsoft samstarfsaðila þinn til að fá aðstoð.</span><span class="sxs-lookup"><span data-stu-id="00547-125">You should reach out to your Microsoft partner contact for assistance.</span></span>
 
-<span data-ttu-id="2ceaf-128">Dynamics 365 Retail Cloud Scale Unit (RCSU) og e-Commerce eru heill hugbúnaður sem þjónusta (SaaS) og verða að vera hýstir í skýi.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-128">Dynamics 365 Retail Cloud Scale Unit (RCSU) and e-Commerce are completely software as a service (SaaS) and must be cloud-hosted.</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="00547-126">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="00547-126">Additional resources</span></span>
 
-<span data-ttu-id="2ceaf-129">**Hve lengi er hægt að nota forskoðunarumhverfi Commerce?**</span><span class="sxs-lookup"><span data-stu-id="2ceaf-129">**How long can the Commerce preview environment be used?**</span></span>
+[<span data-ttu-id="00547-127">Dynamics 365 Commerce yfirlit yfir forskoðunarumhverfi</span><span class="sxs-lookup"><span data-stu-id="00547-127">Dynamics 365 Commerce evaluation environment overview</span></span>](cpe-overview.md)
 
-<span data-ttu-id="2ceaf-130">Notkun forskoðunarumhverfis Commerce er takmörkuð við 30 daga frá þeim degi þegar e-Commerce er veitt.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-130">The Commerce preview environment has a 30-day time limit from the date of provisioning e-Commerce.</span></span>
+[<span data-ttu-id="00547-128">Úthluta Dynamics 365 Commerce matsumhverfi</span><span class="sxs-lookup"><span data-stu-id="00547-128">Provision a Dynamics 365 Commerce evaluation environment</span></span>](provisioning-guide.md)
 
-<span data-ttu-id="2ceaf-131">**Get ég lengt tímamörkin fyrir mitt forskoðunarumhverfi Commerce?**</span><span class="sxs-lookup"><span data-stu-id="2ceaf-131">**Can I extend the time limit for my Commerce preview environment?**</span></span>
+[<span data-ttu-id="00547-129">Stilla Dynamics 365 Commerce matsumhverfi</span><span class="sxs-lookup"><span data-stu-id="00547-129">Configure a Dynamics 365 Commerce evaluation environment</span></span>](cpe-post-provisioning.md)
 
-<span data-ttu-id="2ceaf-132">Já.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-132">Yes.</span></span> <span data-ttu-id="2ceaf-133">Þú getur haft samband við þjónustudeildina með því að nota [skjámyndina Útvíkkun forskoðunar á Commerce](https://aka.ms/Dynamics365CommercePreviewExtensionForm).</span><span class="sxs-lookup"><span data-stu-id="2ceaf-133">You can contact the support team by using the [Commerce preview extension form](https://aka.ms/Dynamics365CommercePreviewExtensionForm).</span></span>
+[<span data-ttu-id="00547-130">Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi</span><span class="sxs-lookup"><span data-stu-id="00547-130">Configure BOPIS in a Dynamics 365 Commerce evaluation environment</span></span>](cpe-bopis.md)
 
-<span data-ttu-id="2ceaf-134">**Getum við gert margar beiðnir um forskoðunarumhverfi Commerce?**</span><span class="sxs-lookup"><span data-stu-id="2ceaf-134">**Can we make multiple requests for a Commerce preview environment?**</span></span>
-
-<span data-ttu-id="2ceaf-135">Við veitum kvóta af einu forskoðunarumhverfi Commerce fyrir hverja beiðni sem er samþykkt.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-135">We grant a quota of one Commerce preview environment for each request that is accepted.</span></span> <span data-ttu-id="2ceaf-136">Ef þú þarft fleiri en eitt forskoðunarumhverfi skaltu hafa samband við Microsoft.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-136">If you need more than one preview environment, contact Microsoft.</span></span> <span data-ttu-id="2ceaf-137">Sjá næsta hluta fyrir upplýsingar um tengiliði.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-137">For contact information, see the next section.</span></span>
-
-## <a name="dynamics-365-commerce-preview-environment-contact-information"></a><span data-ttu-id="2ceaf-138">Dynamics 365 Commerce forskoðunarumhverfi upplýsinga tengiliði</span><span class="sxs-lookup"><span data-stu-id="2ceaf-138">Dynamics 365 Commerce preview environment contact information</span></span>
-
-<span data-ttu-id="2ceaf-139">Til að hafa samband við Microsoft ef þú hefur spurningar eða beiðnir sem tengjast forskoðunarumhverfi Commerce skaltu fara á [Microsoft Dynamics 365 Commerce Forskoða Yammer hóp](https://aka.ms/Dynamics365CommercePreviewYammer) fyrir hjálp.</span><span class="sxs-lookup"><span data-stu-id="2ceaf-139">To contact Microsoft if you have questions or requests that are related to the Commerce preview environment, visit the [Microsoft Dynamics 365 Commerce Preview Yammer group](https://aka.ms/Dynamics365CommercePreviewYammer) for help.</span></span>
-
-## <a name="additional-resources"></a><span data-ttu-id="2ceaf-140">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="2ceaf-140">Additional resources</span></span>
-
-[<span data-ttu-id="2ceaf-141">Dynamics 365 Commerce yfirlit yfir forskoðunarumhverfi</span><span class="sxs-lookup"><span data-stu-id="2ceaf-141">Dynamics 365 Commerce preview environment overview</span></span>](cpe-overview.md)
-
-[<span data-ttu-id="2ceaf-142">Úthluta Dynamics 365 Commerce forsýningarumhverfi</span><span class="sxs-lookup"><span data-stu-id="2ceaf-142">Provision a Dynamics 365 Commerce preview environment</span></span>](provisioning-guide.md)
-
-[<span data-ttu-id="2ceaf-143">Skilgreina Dynamics 365 Commerce forskoðunarumhverfi</span><span class="sxs-lookup"><span data-stu-id="2ceaf-143">Configure a Dynamics 365 Commerce preview environment</span></span>](cpe-post-provisioning.md)
-
-[<span data-ttu-id="2ceaf-144">Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce forskoðunarumhverfi</span><span class="sxs-lookup"><span data-stu-id="2ceaf-144">Configure optional features for a Dynamics 365 Commerce preview environment</span></span>](cpe-optional-features.md)
+[<span data-ttu-id="00547-131">Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce matsumhverfi</span><span class="sxs-lookup"><span data-stu-id="00547-131">Configure optional features for a Dynamics 365 Commerce evaluation environment</span></span>](cpe-optional-features.md)
