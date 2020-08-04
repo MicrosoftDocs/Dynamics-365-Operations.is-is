@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-04-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 711cc4491024e647429b108438ce1d88483ea63c
-ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
+ms.openlocfilehash: 4f61283f3bab26f54d55ffe7cbea21b1201ed234
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "3259818"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555148"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-13-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (13. apríl 2020)
 
@@ -88,3 +88,10 @@ Ef forskoðun skjals fyrir skjöl sem eru vistuð í SharePoint virkar ekki, pr�
 3. Opnaðu viðhengi í SharePoint til að hefja forskoðun skjalsins.
 
 4. Skráðu þig inn með öðrum notendareikningi sem hefur aðgang að viðhengjum og sannreyndu að forsýningin virkar eins og búist var við.
+
+## <a name="see-also"></a>Sjá einnig
+
+[Nýjungar í Human Resources](hr-admin-whats-new.md)</br>
+[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Uppfærsluferli](hr-admin-setup-update-process.md)</br>
+[Vinna með eiginleika](hr-admin-manage-features.md)

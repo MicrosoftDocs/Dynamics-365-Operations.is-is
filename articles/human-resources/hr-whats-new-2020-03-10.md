@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c1a9f10a434343e4c9c8a42ec5c0b7a1a18ad36
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 1843095c41428d377341154c9f2140085831e770
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3124017"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555256"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (10. mars 2020)
 
@@ -97,3 +97,10 @@ Eftirfarandi forskoðunaraðgerðir eru í boði 3. febrúar 2020:
 - Mælt með reitum - Notendur þurfa oft að bæta reitum við töflu eða síðu. Þetta getur verið erfitt með svo marga reiti sem eru tiltækir. Í stað þess að þurfa að leita í stórum lista gerir þessi aðgerð kerfinu kleift að yfirborð setja af ráðlögðum reitum út frá því sem aðrir notendur bæta oftast við í svipuðum aðstæðum.
 
 - Sticky sjálfgefnar aðgerðir í ristum - Þessi aðgerð tryggir að sjálfgefna aðgerðin í ristinni er tengd ákveðnum dálki í ristinni, óháð því hvort sá dálkur er færður eða falinn.
+
+## <a name="see-also"></a>Sjá einnig
+
+[Nýjungar í Human Resources](hr-admin-whats-new.md)</br>
+[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Uppfærsluferli](hr-admin-setup-update-process.md)</br>
+[Vinna með eiginleika](hr-admin-manage-features.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d46671f73a75a9ed3a652d76153c923a3542b5f6
-ms.sourcegitcommit: 7c750711e9fe1d3726c6ee650669529684933001
+ms.openlocfilehash: 3ce1aca9cebc5b330f054a11e38b5dfc4fc9109d
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "3386108"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555172"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (14. maí 2020)
 
@@ -110,3 +110,10 @@ DMF-eining er ekki til staðar fyrir uppsöfnun í bið.
 ## <a name="carry-forward-rules"></a>Yfirfærslureglur
 
 Hægt er að tilgreina yfirfærsluorlofsgerð fyrir yfirfærslustöður þar sem yfirfærsluleiðréttingar eru fluttar. Til dæmis, ef starfsmaður yfirfærir 10 daga getur þú valið aðra leyfisgerð fyrir þessa 10 daga. Fyrir frekari upplýsingar, sjá [Grunnstilla gerðir leyfis og fjarvista](hr-leave-and-absence-types.md).
+
+## <a name="see-also"></a>Sjá einnig
+
+[Nýjungar í Human Resources](hr-admin-whats-new.md)</br>
+[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Uppfærsluferli](hr-admin-setup-update-process.md)</br>
+[Vinna með eiginleika](hr-admin-manage-features.md)

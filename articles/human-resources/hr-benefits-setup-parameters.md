@@ -3,7 +3,7 @@ title: Stilla færibreytur fríðindastjórnunar
 description: Stilla færibreytur fyrir ávinningastjórnun í Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/06/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3e001c08751ea9c8bcab0e11a04b6cf639e51d1d
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 85bbe5d3b422f2f29f1d1fe8ee269b407da691c2
+ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429989"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3599357"
 ---
 # <a name="set-benefits-management-parameters"></a>Stilla færibreytur fríðindastjórnunar
 
@@ -31,7 +31,7 @@ ms.locfileid: "3429989"
 
 ## <a name="configure-general-parameters"></a>Skilgreina almennar færibreytur
 
-1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Skipulag**, veldu **Færibreytur**.
+1. Í **Fríðindastjórnun** vinnusvæðinu, undir **Uppsetning**, skaltu velja **Samnýttar færibreytur mannauðs**.
 
 2. Í flipanum **Almennt** skal tilgreina gildi fyrir eftirfarandi reiti:
 
@@ -43,8 +43,10 @@ ms.locfileid: "3429989"
    | **Ástæðukóði enduropnunar** | Ástæðukóðinn sem á að nota þegar bótaáætlun starfsmanna er enduropnuð. Það birtist í valmynd meðan á uppsagnarferlinu stendur. Notendur geta breytt **Enduropna ástæðukóða** ef nauðsynlegt er. | 
    | **Ástæðukóði viðburðar** | Ástæðukóðinn sem á að nota þegar lífatburður á sér stað. |
    | **Ástæðukóði breytingar á hlutfalli** | Ástæðukóðinn sem á að nota við að hætta við og opna bótaráætlun starfsmanna meðan á breytingu á gengisbreytingum stendur. Það gefur til kynna hvaða færslum var breytt með uppfærsluferli gengisbreytinga. |
+   | **Fríðindi árslauna** | Gerir þér kleift að stilla **Árleg launatengd fríðindi** upphæð fyrir starfsmann. Human Resources notar **Árleg launatengd fríðindi** upphæð við ákvörðun tryggingaupphæðar, í stað árlega upphæð fastra launa. |
    | **Hæfur til nýráðningar** | Tilgreinir hvort nýráðningar séu gjaldgengar. |
-   | **Skráningartímabil nýrrar ráðningar** | Tímabilið sem nýskráning á leigu er leyfð.</br></br>**Athugið**: Þessi stilling gengur framhjá nýjum nýskráningartímabilum sem þú stillir í hæfisreglu áætlunarinnar. | 
+   | **Skráningartímabil nýrrar ráðningar** | Tímabilið sem nýskráning á leigu er leyfð.</br></br>**Athugið**: Þessi stilling gengur framhjá nýjum nýskráningartímabilum sem þú stillir í hæfisreglu áætlunarinnar. |
+   | **Sjálfgefin greiðslutíðni** | Sjálfgefin greiðslutíðni sem á að nota þegar nýjum starfskröftum er bætt við. |
    | **Viðburðir eru virkir** | Virkjar viðburði. |
    | **Fela eyðublöð eldri fríðinda** | Leyfir þér að fela gömul fríðindaeyðublöð. |
 
@@ -52,7 +54,7 @@ ms.locfileid: "3429989"
 
 ## <a name="configure-employee-self-service-parameters"></a>Grunnstilla sjálfsafgreiðslufæribreytur starfsmanns
 
-1. Í vinnusvæðinu **Fríðindastjórnun**, undir **Skipulag**, veldu **Færibreytur**.
+1. Í **Fríðindastjórnun** vinnusvæðinu, undir **Uppsetning**, skal velja **Færibreytur mannauðs**.
 
 2. Í flipanum **Sjálfsafgreiðsla starfsmanns** skal tilgreina gildi fyrir eftirfarandi reiti:
 

@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a6d792a0e52d2b82b25de461dcec358fdc8f439
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f2422dcec1fb222f1be7162d7c799a13046329b4
+ms.sourcegitcommit: f0faa2929435cd1408c5925f0ee4d6636fec5da1
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211078"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3552918"
 ---
 # <a name="routes-and-operations"></a>Leiðir og virkni
 
@@ -225,7 +225,7 @@ Ef þú tilgreinir einnig tilfangaþarfir hvað varðar hæfni og getu og gerir 
 Ef þú tilgreininr ekki rekstrartilfang eða tilfangaflokkur sem hluta af tilfangaþörfum fyrir aðgerð, gætu viðeigandi tilföng unnið á mismunandi kerfishraða. Þess vegna er tíminn sem þarf til að vinna úr aðgerð mismunandi. Til að leysa þetta vandamál er hægt að nota svæðið **Formúlu** í aðgerðavenslum til að tilgreina hvernig vinnslutími er reiknaður. Eftirtaldir valkostir eru í boði:
 
 -   **Stöðluð** – (Sjálfgefinn valkostur) útreikningurinn notar aðeins svæði úr aðgerðavenslum og margfaldar tilgreinda keyrslutíma með pöntunarmagni.
--   **Afkastageta** – útreikningurinn inniheldur svæðið **Afkastagetu** úr rekstrartilföngum. Þess vegna er tíminn tilfanga-háður. Gildið sem tilgreint er á aðgerðum tilfanga er afkastageta á klukkustund. Þetta gildi er margfaldað með pöntunarmagni og gildinu **Stuðull** úr aðgerðavenslum.
+-   **Afkastageta** – útreikningurinn inniheldur svæðið **Afkastagetu** úr rekstrartilföngum. Þess vegna er tíminn tilfanga-háður. Gildið sem tilgreint er á aðgerðum tilfanga er afkastageta á klukkustund. **Vinnslutíminn** er reiknaður sem **Pöntunarmagn** deilt með **Afkastageta**.
 -   **Runa** – afkastagetu í runu er reiknað með því að nota upplýsingar úr aðgerðavenslum. Fjöldi runa og vinnslutími má síðan reikna út frá pöntunarmagninu.
 -   **Tilfangaruna** – Þessi valkostur er nokkurn veginn eins og í **Runu** valkost. Hins vegar inniheldur útreikningurinn svæðið **Afkastagetu** úr rekstrartilföngum. Þess vegna er tíminn háður tilföngum.
 

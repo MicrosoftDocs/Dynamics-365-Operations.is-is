@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cc1931cee0f3da15e07908f221282ad6b57e1681
-ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
+ms.openlocfilehash: 8d83268292ac65d62cbe8fa9a4c146bf4af36b50
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3500438"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555028"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources (23. júní 2020)
 
@@ -119,3 +119,10 @@ Nýr valkostur verður í boði í **færibreytum mannauðs** til að uppfæra h
 ## <a name="checklist-entities-included-in-common-data-service"></a>Einingar gátlista innifaldar í Common Data Service
 
 Gátlistaeiningar fyrir Ráðstafanir vegna nýrra starfsmanna, Ráðstafanir vegna starfsloka og viðskiptaferla verða bráðum tiltækar innan Common Data Service.
+
+## <a name="see-also"></a>Sjá einnig
+
+[Nýjungar í Human Resources](hr-admin-whats-new.md)</br>
+[Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Uppfærsluferli](hr-admin-setup-update-process.md)</br>
+[Vinna með eiginleika](hr-admin-manage-features.md)

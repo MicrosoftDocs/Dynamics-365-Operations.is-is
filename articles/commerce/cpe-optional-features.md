@@ -1,9 +1,9 @@
 ---
-title: Skilgreina valfrjálsa eiginleika forskoðunarumhverfis fyrir Dynamics 365 Commerce
-description: Þetta efni útskýrir hvernig á að stilla valfrjálsa eiginleika fyrir Microsoft Dynamics 365 Commerce forskoðunarumhverfi.
+title: Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce matsumhverfi
+description: Þetta efnisatriði útskýrir hvernig á að grunnstilla valfrjálsa eiginleika Microsoft Dynamics 365 Commerce matsumhverfis.
 author: psimolin
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,28 +17,25 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b17f8e9b0d8a9a62714d0073561e66642b2eaf9
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057741"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599821"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Skilgreina valfrjálsa eiginleika forskoðunarumhverfis fyrir Dynamics 365 Commerce
-
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Skilgreina valfrjálsa eiginleika fyrir Dynamics 365 Commerce matsumhverfi
 
 [!include [banner](includes/banner.md)]
 
-Þetta efni útskýrir hvernig á að stilla valfrjálsa eiginleika fyrir Microsoft Dynamics 365 Commerce forskoðunarumhverfi.
+Þetta efnisatriði útskýrir hvernig á að grunnstilla valfrjálsa eiginleika Microsoft Dynamics 365 Commerce matsumhverfis.
 
 ## <a name="prerequisites"></a>Forkröfur
 
 Ef þú vilt meta viðskipti tölvupóstsaðgerða verður að uppfylla eftirfarandi forsendur:
 
-- Þú ert með tiltækan tölvupóstnetþjón (Simple Mail Transfer Protocol \[SMTP\] miðlara) sem er hægt að nota úr Microsoft Azure-áskriftinni þar sem þú útvegaðir forskoðunarumhverfið.
+- Þú ert með tiltækan tölvupóstþjón (Simple Mail Transfer Protocol \[SMTP\] Server) sem hægt er að nota úr Microsoft Azure áskriftinni þar sem þú úthlutaði matsumhverfi.
 - Þú ert með gilt lénsheiti (FQDN)/IP-tölu netþjónsins, SMTP-gáttarnúmer og staðfestingu upplýsingar tiltækar.
-
-Ef þú vilt meta eiginleika stafrænna eignaumsjónarmiða með því að taka inn nýjar myndir af omni-rásum, verður þú að hafa nafn leigjanda efnisstjórnunarkerfisins (CMS) tiltækt. Leiðbeiningar til að finna þetta nafn eru gefnar síðar í þessu efni. >>> (Sp.: Hvar eru leiðbeiningarnar?)
 
 ## <a name="configure-the-image-back-end"></a>Stilla bak myndarinnar
 
@@ -47,9 +44,9 @@ Ef þú vilt meta eiginleika stafrænna eignaumsjónarmiða með því að taka 
 > [!NOTE]
 > Áður en þú getur klárað þessa aðferð verður þú að klára skrefin í [Settu upp síðuna þína í Commerce](cpe-post-provisioning.md#set-up-your-site-in-commerce).
 
-1. Skráðu þig inn á stjórnunartól verslunarinnar með því að nota slóðina sem þú skrifaðir niður þegar þú frumstilltir e-Commerce við úthlutun (sjá [Frumstilla e-Commerce](provisioning-guide.md#initialize-e-commerce)).
+1. Skráðu þig inn á Commerce-vefsmið með því að nota slóðina sem þú skráðir þegar þú ræstir e-Commerce á meðan úthlutun stóð (sjá [Frumstilla rafræn viðskipti](provisioning-guide.md#initialize-e-commerce)).
 1. Opnið svæðið **Fabrikam**.
-1. Á valmyndinni til vinstri velurðu **Eignir**.
+1. Á valmyndinni til vinstri skal velja **Efnissafn**.
 1. Veldu einhverja staka myndeign.
 1. Í eiginleikaeftirlitinu til hægri skaltu finna eiginleikann **Opinber vefslóð**. Gildið er vefslóð. Eftirfarandi er dæmi:
 
@@ -63,22 +60,22 @@ Ef þú vilt meta eiginleika stafrænna eignaumsjónarmiða með því að taka 
 
 ### <a name="update-the-media-base-url"></a>Uppfærðu grunnvefslóð miðla
 
-1. Innskráning í Dynamics 365 Commerce.
+1. Skráðu þig inn á Commerce Headquarters.
 1. Notaðu valmyndina til vinstri til að fara í **Einingar \> Retail og Commerce \> Uppsetning rásar \> Rásaforstillingar**.
 1. Veljið **Breyta**.
 1. Undir **Forstillingareiginleikum** skiptirðu út gildinu fyrir eiginleikann **Grunnvefslóð miðlaþjóns** með þeirri grunnvefslóð miðla sem þú stofnaðir áður.
-1. Á listanum til vinstri, undir rásinni **Sjálfgefið**, velurðu aðra rás.
+1. Veldu rásina sem kallast **scXXXXXXXXX**.
 1. Undir **Forstillingareiginleikar** velurðu **Bæta við**.
 1. Veldu fyrir eignina sem var bætt við **Grunnvefslóð miðlaþjóns** sem eiginleikalykill. Sem eiginleikagildi skaltu slá inn grunnvefslóð miðla sem þú bjóst til áður.
 1. Veljið **Vista**.
 
-## <a name="configure-the-email-server"></a>Stilltu tölvupóstþjóninn
+## <a name="configure-and-test-the-email-server"></a>Stilla og prófa póstþjóninn
 
 > [!NOTE]
 > SMTP-miðlarinn eða tölvupóstþjónustan sem þú slærð inn hér verða að vera aðgengileg innan Azure áskriftarinnar sem þú notar fyrir umhverfið.
 
-1. Innskráning í Commerce.
-1. Notaðu valmyndina til vinstri til að fara í **Einingar \> Kerfisstjórnun \> Uppsetning \> Tölvupóstur \> Færibreytur tölvupósts**.
+1. Skráðu þig inn á Commerce Headquarters.
+1. Notaðu valmyndina hér til vinstri til að fara í **Einingar \> Retail og Commerce \> Uppsetning höfuðstöðva \> Færibreytur \> Færibreytur tölvupósts**.
 1. Á flipanum **SMTP-stillingar**, í reitnum **Þjónn fyrir sendan póst**, slærðu inn FQDN eða IP-tölu SMTP-netþjónsins eða tölvupóstþjónustunnar.
 1. Í reitnum **SMTP-númer tengis** slærðu inn númer tengisins. (Ef þú ert ekki að nota Secure Sockets Layer \[SSL\] er sjálfgefið númer tengis **25**.)
 1. Ef staðfesting er nauðsynleg skal slá inn gildi í reitina **Notandanafn** og **Lykilorð**.
@@ -92,8 +89,8 @@ Ef þú vilt meta eiginleika stafrænna eignaumsjónarmiða með því að taka 
 
 Uppfæra verður tölvupóstsniðmátið fyrir hvert færslutilvik sem þú vilt senda tölvupóst með gildu netfangi sendanda.
 
-1. Innskráning í Commerce.
-1. Notaðu valmyndina til vinstri til að fara í **Einingar \> Fyrirtækisstjórnun \> Uppsetning \> Sniðmát tölvupósts fyrirtækis**.
+1. Skráðu þig inn á Commerce Headquarters.
+1. Notaðu valmyndina hér til vinstri til að fara í **Einingar \> Retail og Commerce \> Uppsetning höfuðstöðva \> Færibreytur \> Sniðmát tölvupósts fyrirtækis**.
 1. Veldu **Sýna lista**.
 1. Fyrir hvert sniðmát á listanum skal fylgja eftirfarandi skrefum:
 
@@ -104,9 +101,9 @@ Uppfæra verður tölvupóstsniðmátið fyrir hvert færslutilvik sem þú vilt
 
 ## <a name="customize-email-templates"></a>Sérstilla sniðmát fyrir tölvupóst
 
-Þú gætir viljað aðlaga tölvupóstsniðmátin þannig að þau noti mismunandi myndir. Eða þú gætir viljað uppfæra tenglana í sniðmátunum þannig að þeir fari í forskoðunarumhverfi þitt. Þetta ferli útskýrir hvernig á að hala niður sjálfgefnu sniðmátunum, aðlaga þau og uppfæra sniðmátin í kerfinu.
+Þú gætir viljað aðlaga tölvupóstsniðmátin þannig að þau noti mismunandi myndir. Eða þú gætir viljað uppfæra tengla í sniðmátunum þannig að þeir vísi í matsumhverfi. Þetta ferli útskýrir hvernig á að hala niður sjálfgefnu sniðmátunum, aðlaga þau og uppfæra sniðmátin í kerfinu.
 
-1. Í netvafra skaltu hlaða niður [Microsoft Dynamics 365 Commerce Preview default email templates zip file](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) á tölvuna þína. Þessi skrá inniheldur eftirfarandi HTML skjöl:
+1. Í vefvafra skal sækja upp [Microsoft Dynamics 365 Commerce Evaluation sjálfgefin zip-skrá fyrir tölvupóstsniðmát](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) í staðbundnu tölvunni. Þessi skrá inniheldur eftirfarandi HTML skjöl:
 
     - Eining pöntunarsniðmáts
     - Gefa út sniðmát gjafakorts
@@ -161,7 +158,7 @@ Eftirfarandi táknum er skipt út með gildum fyrir hverja vöru í röðinni.
 | Afurðalisti - hefja   | \<!--%tablebegin.salesline% --\> |
 | Afurðalisti - lok     | \<!--%tableend.salesline%--\> |
 | Afurðarnafn           | %lineproductname% |
-| Lýsing            | %lineproductdescription% |
+| lýsing            | %lineproductdescription% |
 | Magn               | %linequantity% |
 | Einingaverð línu        | %lineprice% (staðfesta) |
 | Heildarfjöldi línuatriða        | %linenetamount% |
@@ -175,11 +172,13 @@ Eftirfarandi táknum er skipt út með gildum fyrir hverja vöru í röðinni.
 
 [Dynamics 365 Commerce yfirlit yfir forskoðunarumhverfi](cpe-overview.md)
 
-[Úthluta Dynamics 365 Commerce forsýningarumhverfi](provisioning-guide.md)
+[Úthluta Dynamics 365 Commerce matsumhverfi](provisioning-guide.md)
 
-[Skilgreina Dynamics 365 Commerce forskoðunarumhverfi](cpe-post-provisioning.md)
+[Stilla Dynamics 365 Commerce matsumhverfi](cpe-post-provisioning.md)
 
-[Dynamics 365 Commerce yfirlitsumhverfi algengra spurninga](cpe-faq.md)
+[Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi](cpe-bopis.md)
+
+[algengar spurningar um Dynamics 365 Commerce matsumhverfi](cpe-faq.md)
 
 [Microsoft Dynamics Lifecycle Services (LSC)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

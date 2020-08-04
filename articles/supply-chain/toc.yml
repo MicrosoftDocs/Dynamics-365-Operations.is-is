@@ -10,11 +10,11 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
             - name: Skráðu þig fyrir prufuáskriftum
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Þjónustuuppfærslur fyrir „Ein útgáfa“
+            - name: Þjónustuuppfærslur fyrir One Version
               items:
-                - name: Yfirlit yfir þjónustuuppfærslur fyrir eina útgáfu
+                - name: Yfirlit yfir þjónustuuppfærslur fyrir One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Algengar spurningar um uppfærslureglur fyrir „Ein útgáfa“
+                - name: Algengar spurningar um uppfærslureglur fyrir One Version
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Reglur um stuðningstíma hugbúnaðar – ský
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/supply-chain/toc.json
@@ -34,7 +34,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Sjálfvirk verkgögn
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Veita lausnir fyrir óháðan hugbúnaðarsala með „Ein útgáfa“
+                - name: Veita lausnir fyrir óháðan hugbúnaðarsala með One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Stofna samþykkisprófun notanda og gera hana sjálfvirka
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/supply-chain/toc.json
@@ -74,6 +74,8 @@
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (júlí 2020)
                       href: get-started/whats-new-scm-10-0-11.md
+                    - name: Supply Chain Management 10.0.10 (maí 2020)
+                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
@@ -1351,10 +1353,12 @@
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Skoða áætlunarferil og skipulagsannála
                   href: master-planning/planning-optimization/plan-history-logs.md
-                - name: Sjálfvirk staðfesting með fínstillingu skipulagningar
+                - name: Sjálfvirk staðfesting með fínstilling skipulagningar
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Hætta við áætlunarverk
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Stækkunarhæfni á fínstillingu áætlanagerðar
+                  href: master-planning/planning-optimization/extensibility.md
                 - name: Úrræðaleit fínstillingar áætlanagerðar
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: Aðaláætlanir
@@ -1511,6 +1515,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Uppsetning númeraraða með leiðsögn
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Skilgreina númeraraðir flæði vöruhúss
+                  href: warehousing/configure-number-sequence-extensions.md?toc=/dynamics365/supply-chain/toc.json
             - name: Fyrirtæki og fyrirtækjastigveldi
               items:
                 - name: Yfirlit yfir fyrirtæki og fyrirtækjastigveldi
@@ -1817,6 +1823,10 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: Útiloka afurðir frá aðaláætlanagerð
                       href: pim/tasks/exclude-products-master-planning.md
+                - name: Vörur tvíþætts notagildis
+                  href: pim/dual-use.md
+                - name: Upprunaland
+                  href: pim/country-of-origin.md
                 - name: Stofna strikamerki fyrir afurð
                   href: pim/tasks/create-bar-code-product.md
                 - name: Færa inn GTIN-kóða fyrir afurð
@@ -2565,22 +2575,20 @@
               href: warehousing/warehouse-management-overview.md
             - name: Vöruhúsaaðgerðir á innleið
               items:
-                - name: Kvittanir fyrir skráningu og frágangi
-                  items:
-                    - name: Meðhöndlun vöruhúss á farmi á innleið fyrir innkaupapantanir
-                      href: warehousing/inbound-load-handling.md
-                    - name: Skrá vörur fyrir vöru með ítarlegt vöruhúsakerfi virkt með því að nota komubók
-                      href: warehousing/tasks/register-items-advanced-warehousing.md
-                    - name: Skrá vörur fyrir vöru með grunnvöruhúsakerfi virkt með því að nota komubók
-                      href: warehousing/tasks/register-items-basic-warehousing.md
-                    - name: Hjáskipa afurðir úr viðtökuvöruhúsi í verslanir
-                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                    - name: Setja upp leiðbeiningar um staðsetningu fyrir frágang innkaupapöntunar
-                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                    - name: Setja upp vinnusniðmát fyrir innkaupapantanir
-                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
-                    - name: Blöndun á afurðarvídd staðsetningar
-                      href: warehousing/location-product-dimension-mixing.md
+                - name: Meðhöndlun vöruhúss á farmi á innleið fyrir innkaupapantanir
+                  href: warehousing/inbound-load-handling.md
+                - name: Skrá vörur fyrir vöru með ítarlegt vöruhúsakerfi virkt með því að nota komubók
+                  href: warehousing/tasks/register-items-advanced-warehousing.md
+                - name: Skrá vörur fyrir vöru með grunnvöruhúsakerfi virkt með því að nota komubók
+                  href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: Hjáskipa afurðir úr viðtökuvöruhúsi í verslanir
+                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                - name: Setja upp leiðbeiningar um staðsetningu fyrir frágang innkaupapöntunar
+                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                - name: Setja upp vinnusniðmát fyrir innkaupapantanir
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                - name: Blöndun á afurðarvídd staðsetningar
+                  href: warehousing/location-product-dimension-mixing.md
             - name: Vöruhúsaaðgerðir á útleið
               items:
                 - name: Frátekningar í vöruhúsakerfi
@@ -2597,14 +2605,14 @@
                   items:
                     - name: Setja upp klasatiltekt
                       href: warehousing/set-up-cluster-picking.md
+                    - name: Kerfisstýrð klasatiltekt
+                      href: warehousing/system-directed-cluster-pick.md
                     - name: Setja upp gámun
                       href: warehousing/tasks/set-up-containerization.md
                     - name: Staðfesting lotu og númeraplötu
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: Virkja prentun merkis á númeraplötu
                       href: warehousing/tasks/license-plate-label-printing.md
-                    - name: Skanna strikamerki með myndavél í Dynamics 365 for Finance and Operations
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Staðfesting einingatiltektar
                       href: warehousing/piece-picking-confirmation.md
                     - name: Umbúðaefni og gjöld
@@ -2615,14 +2623,18 @@
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: Hætta við vöruhúsavinnu vegna frábrigðameðhöndlunar
                       href: warehousing/cancel-warehouse-work.md
-                    - name: Kerfisstýrð klasatiltekt
-                      href: warehousing/system-directed-cluster-pick.md
                     - name: Kerfisstýrð vinnuröð
                       href: warehousing/system-directed-work-sequencing.md
                     - name: Flokkun tiltektarlínu
                       href: warehousing/pick-line-grouping.md
                     - name: Hólfaskipting vöruhúss
                       href: warehousing/warehouse-slotting.md
+                    - name: Staðsetningarleiðbeiningar fyrir aldursgreiningu birgðatínslu
+                      href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: Flokkun á útleið
+                      href: warehousing/outbound-sorting.md
+                    - name: Setja á vegg - setja í verslun
+                      href: warehousing/put-to-wall-put-to-store.md
                 - name: Áfylling
                   items:
                     - name: Yfirlit áfyllingar
@@ -2645,6 +2657,8 @@
                       href: warehousing/release-to-warehouse-rule.md
                     - name: Flokkun bylgjusniðmáts
                       href: warehousing/wave-template-grouping.md
+                    - name: Endurprenta og ógilda bylgjumerki
+                      href: warehousing/reprint-and-void-wave-labels.md
                 - name: Samstæðureglur sendingar
                   items:
                     - name: Samstæðureglur sendingar
@@ -2715,6 +2729,10 @@
                       href: warehousing/work-line-details.md
                     - name: Númeraplötustaða staðsetningar
                       href: warehousing/location-license-plate-positioning.md
+                    - name: Breyta vinnuhópi á vinnu
+                      href: warehousing/change-work-pool-on-work.md
+                    - name: Vörusameining - nýting á staðsetningu
+                      href: warehousing/item-consolidation-location-utilization.md
             - name: Uppsetning vöruhúss
               items:
                 - name: Skilgreining vöruhúss
@@ -2729,6 +2747,8 @@
                       href: warehousing/wave-step-codes.md
                     - name: Skilgreina bylgjuvinnslu
                       href: warehousing/tasks/configure-wave-processing.md
+                    - name: Setja upp og nota prentun bylgjumerkja
+                      href: warehousing/configure-wave-label-printing.md
                     - name: Uppfæra sendingar sjálfkrafa
                       href: warehousing/auto-update-shipment.md
                     - name: Stofna staðsetningarforstillingu
@@ -2753,8 +2773,6 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: Skipulag skjalaleiðar fyrir númeraplötumerki
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: Skanna strikamerki með myndavél í Dynamics 365 for Finance and Operations
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Stuðningur við strikamerki í fartæki
                       href: warehousing/mobile-barcode-support.md
                     - name: Setja upp vöruhús fyrir flutningspantanir
@@ -2767,6 +2785,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Uppsetning fartækja fyrir vöruhúsavinnu
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Skanna strikamerki með myndavél í vöruhúsaforriti
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Móttaka númeraplötu með vöruhúsaforriti
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Setja upp valmyndaratriði fartækis fyrir frágang verks í innkaupapöntun

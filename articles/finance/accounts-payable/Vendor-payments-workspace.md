@@ -3,7 +3,7 @@ title: Vinnusvæði greiðslna lánardrottna
 description: Þetta efnisatriði veitir upplýsingar um lánardrottnagreiðslu á fartækjavinnusvæði. Vinnusvæði greiðslur Lánardrottins sýnir upplýsingar sem tengjast vinnslu greiðslur til lánardrottna.
 author: abruer
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 895725eeac46b5c20a2fb8dd932595a25fe372ce
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: 86091e16712092086a641d79e49afbc5b205e934
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225014"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598110"
 ---
 # <a name="vendor-payments-workspace"></a>Vinnusvæði greiðslna lánardrottna
 
@@ -34,9 +34,10 @@ Vinnusvæði **Greiðslur Lánardrottins** sýnir upplýsingar sem tengjast vinn
 
 Eftirfarandi uppsetningu þarf að vera lokið svo að gögn birtist í myndefni **Greiðslur lánardrottna** Power BI.
 1. Farðu í **Kerfisstjórnun > Uppsetning > Kerfisfæribreytur** til að stilla **Kerfisgjaldmiðil** og **Kerfisgengi**.
-2. Farðu í **Fjárhag > Uppsetning > Fjárhag** til að stilla **Bókhaldsgjaldmiðil** og **Gerð gengis**. 
-2. Skilgreindu gengi á milli færslugjaldmiðla og bókhaldsgjaldmiðils, bókhaldsgjaldmiðils og kerfisgjaldmiðils. Til að gera þetta skaltu fara í **Fjárhag> Gjaldmiðla> Gengi gjaldmiðla**.
-3. Farðu í **Kerfisstjórnun > Uppsetning > Einingaverslun** til að endurnýja uppsafnaða mælingu **VendPaymentBIMeasureV2**. 
+2. Farðu í **Fjárhagur > Dagatöl > Fjárhagsdagatöl** til að staðfesta dagsetningar fjárhagsdagatala sem er úthlutað á virka tímabilið.
+3. Farðu í **Fjárhag > Uppsetning > Fjárhag** til að stilla **Bókhaldsgjaldmiðil** og **Gerð gengis**. 
+4. Skilgreindu gengi milli viðskiptagjaldmiðla og bókhaldsgjaldmiðils og bókhaldsgjaldmiðil og kerfismynt. Til að gera þetta skaltu fara í **Fjárhag> Gjaldmiðla> Gengi gjaldmiðla**.
+5. Farðu í **Kerfisstjórnun > Uppsetning > Einingaverslun** til að endurnýja uppsafnaða mælingu **VendPaymentBIMeasureV2**.
 
 ## <a name="my-work-view"></a>Skoða Mína vinnu
 

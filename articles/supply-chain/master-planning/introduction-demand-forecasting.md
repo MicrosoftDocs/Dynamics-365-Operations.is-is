@@ -3,7 +3,7 @@ title: Yfirlit eftirspurnarspár
 description: Eftirspurnarspá er notuð til að spá fyrir um óháða eftirspurn úr sölupöntunum og háð eftirspurn á hvaða aftengingarpunkti sem er fyrir pantanir viðskiptavina. Lækkunarreglur aukinnar eftirspurnarspáar veita tilvalda lausn fyrir fjöldasérsnið.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 01/07/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be60bb5c856020d76d185249fddf09493ea1d2ed
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1033432d0d820516d8c9b2f58f27241351e7c64b
+ms.sourcegitcommit: 2e7454c07adfc05164121307050f6f24303d36d2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213884"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3550041"
 ---
 # <a name="demand-forecasting-overview"></a>Yfirlit eftirspurnarspár
 
@@ -48,7 +48,7 @@ Hér eru sumar aðal aðgerðir eftirspurnarspár:
 Þrjú aðalþemu sem eru innleidd í°eftirspurnarspár:
 
 -   **Einingastig** – eftirspurnarspár eru°uppbyggðar úr einingum og auðvelt að skilgreina. Hægt er að kveikja og slökkva á virkninni með því að breyta skilgreiningarlyklinum á **Viðskipti** &gt; **Birgðaspá** &gt; **Eftirspurnarspár**.
--   **Endurnýting stafla Microsoft**– Microsoft°ýtti úr vör vélnámssvæði í Febrúar 2015. Vélnám sem er nú hluti af Microsoft Cortana Greiningarsafni gerir kleift á fljótlegan og auðveldan hátt að stofna spágreiningartilraunir, svo sem eftirspurnaráætlunartilraunir, með því að nota°algoritma R eða Python forritunartungumál og einfalt draga-sleppa viðmót.
+-   **Endurnýting stafla Microsoft** – Vélnám sem er nú hluti af Microsoft Cortana Greiningarsafni gerir kleift á fljótlegan og auðveldan hátt að stofna spágreiningartilraunir, svo sem eftirspurnaráætlunartilraunir, með því að nota°algoritma R eða Python forritunartungumál og einfalt draga-sleppa viðmót.
     -   Hægt er að hlaða niður Eftirspurnarspátilraunum, breyta þeim til að uppfylla þínar viðskiptaþarfir, °gefa þau út sem vefþjónustu á Azure og nota þau°til að mynda eftirspurnarspár. Tilraunirnar eru tiltækar fyrir niðurhal ef áskrift að Supply Chain Management fyrir skipulagningu framleiðslu hefur verið keypt af notanda á fyrirtækissviði.
     -   Hægt er að hlaða niður öllum fyrirliggjandi eftirspurnarspátilraunum úr [Cortana Greiningar Gallery](https://gallery.cortanaanalytics.com/). Aftur á móti, þar sem eftirspurnarspártilraunir eru sjálfkrafa samþættar Supply Chain Management, þurfa viðskiptavinir og samstarfsaðilar að beita samþættingu tilrauna sem þeir hlaða niður úr [Cortana-greiningasafni](https://gallery.cortanaanalytics.com/). Þess vegna eru tilraunir úr [Cortana Greiningar Gallery](https://gallery.cortanaanalytics.com/) ekki jafn einfaldar í notkun og Finance and Operations eftirspurnarspátilraunir. Það°þarf að breyta kóða á tilraununum þannig að þær nota forritunarviðmót (API) Finance and Operations forritsins.
     -   Hægt er að stofna eigin tilraunir í Microsoft Azure Machine Learning Studio (hefðbundið), birta þær sem þjónustu á Azure og nota þær til að stofna eftirspurnarspár.
@@ -70,6 +70,16 @@ Hægt er að nota Supply Chain Management til að sjá fyrir og breyta grunnlín
 
 ## <a name="limitations"></a>Takmarkanir
 Eftirspurnarspá er verkfæri sem auðveldar viðskiptavini í framleiðsluiðnaði að stofna°spáferli. Hún býður upp á grunnaðgerðir lausn eftirspurnarspár og er hönnuð þannig að auðvelt sé að víkka hana út. Eftirspurnarspá hentar hugsanlega ekki vel fyrir viðskiptavini í iðnaði eins og viðskipti, heildsölu, vöruhúsum, flutningi eða annars konar°fagþjónustu.
+
+### <a name="demand-forecast-variant-conversion-limitation"></a>Takmörkun á umreikning afbrigðis eftirspurnarspár
+
+Umreikningur afbrigðis mælieininga er ekki studdur að fullu þegar eftirspurnarspá er mynduð ef mælieiningar lagerbirgða eru aðrar en mælieingar eftirspurnarspár.
+
+Myndun spáa (**Mælieiningar lagerbirgða > Mælieiningar eftirspurnarspár**) notar umreikning mælieininga afurðarinnar. Við hleðslu sögulegra gagna fyrir myndun eftirspurnarspár er umreikningur mælieininga afurðastigs alltaf notaður þegar verið er að umreikna úr mælieiningum birgðavirðis í mælieiningar eftirspurnarspár, jafnvel þótt breytingar séu skilgreindar á afbrigðisstigi.
+
+Fyrsti hluti þess að heimila spár (**Mælieiningar eftirspurnarspár > Mælieiningar birgða**) notar umreikning mælieininga afurðarinnar. Annar hluti þess að heimila spár (**Mælieiningar birgða > Mælieiningar sölu**) notar umreikning mælieininga afbrigðis. Þegar mynduð eftirspurnarspá er heimiluð er umreikningnum í mælieingu birgðavirðis úr mælieiningu eftirspurnarspár lokið með því að nota umreikning mælieiningar afurðastigs. Á sama tíma mun umbreyting milli birgðaeininga og mælieininga sölu virða skilgreinda umreikninga fyrir afbrigðisstig.
+
+Athugið að mælieining eftirspurnarspár þarf ekki að hafa neina sérstaka merkingu. Hægt er að skilgreina hana sem „einingu eftirspurnarspár“. Fyrir hverja afurð er hægt að skilgreina umbreytinguna sem 1:1 með mælieiningu birgða.
 
 <a name="additional-resources"></a>Frekari upplýsingar
 --------
