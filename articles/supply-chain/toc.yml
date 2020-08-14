@@ -14,7 +14,7 @@
               items:
                 - name: Yfirlit yfir þjónustuuppfærslur fyrir One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Algengar spurningar um uppfærslureglur fyrir One Version
+                - name: Algengar spurningar um uppfærslureglur fyrir „Ein útgáfa“
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Reglur um stuðningstíma hugbúnaðar – ský
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/supply-chain/toc.json
@@ -68,14 +68,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Nýjungar eða breytingar í Supply Chain Management
                   items:
-                    - name: Nýjungar eða breytingar á upphafssíðu fyrir Supply Chain Management
+                    - name: Nýjungar eða breytingar á upphafssíðu Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.13 (október 2020)
+                      href: get-started/whats-new-scm-10-0-13.md
                     - name: Supply Chain Management 10.0.12 (ágúst 2020)
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (júlí 2020)
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: Supply Chain Management 10.0.10 (maí 2020)
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
@@ -109,23 +109,23 @@
             - name: Námskrá
               items:
                 - name: Heimasíða námsskrár
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Stjórnendur í fyrirtæki
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Fyrirtækjanotendur
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Verkefnastjórar innleiðingar
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Stjórnendur
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Forritarar
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Sala og markaðsstarf samstarfsaðila
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Hagnýtir ráðgjafar
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Hönnuðir lausna
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Notandaviðmót skoðað
               items:
                 - name: Einingar notandaviðmóts
@@ -1257,6 +1257,8 @@
               items:
                 - name: Birgðabækur
                   href: inventory/inventory-journals.md
+                - name: Samþykktarverkflæði birgðabókar
+                  href: inventory/inventory-journal-workflow.md
                 - name: Birgðastaðsetningar
                   href: inventory/inventory-locations.md
                 - name: Birgðastöður
@@ -1265,8 +1267,10 @@
                   href: inventory/tasks/create-new-warehouse-layout.md
                 - name: Vinna með strikamerkjagerðir
                   href: inventory/tasks/maintain-barcode-types.md
-                - name: Athuga framboð birgðaframboð
+                - name: Athuga hvort sé tiltækt á lager
                   href: inventory/tasks/check-availability-stock.md
+                - name: Listi yfir birgðir á lager
+                  href: inventory/inventory-on-hand-list.md
                 - name: Frumstilla birgðastöðu í vöruhúsi
                   href: inventory/tasks/initialize-stock-levels-warehouse.md
                 - name: Flytja efnislegar birgðir innan vöruhúss
@@ -1951,7 +1955,7 @@
                       href: production-control/tasks/define-resource-capabilities.md
                     - name: Leiðir og virkni
                       href: production-control/routes-operations.md
-                    - name: Vinnureglur vöruhúss
+                    - name: Vinnureglur
                       href: warehousing/warehouse-work-policies.md
                     - name: Stofna eiginleika áætlunargerðar vinnutíma
                       href: production-control/tasks/create-working-time-scheduling-properties.md
@@ -2589,6 +2593,8 @@
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
                 - name: Blöndun á afurðarvídd staðsetningar
                   href: warehousing/location-product-dimension-mixing.md
+                - name: Gæðaskoðun
+                  href: warehousing/quality-check.md
             - name: Vöruhúsaaðgerðir á útleið
               items:
                 - name: Frátekningar í vöruhúsakerfi
@@ -2647,10 +2653,14 @@
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: Áfyllingarmörk svæðis
                       href: warehousing/zone-threshold-replenishment.md
+                    - name: Áfylling yfir staðsetningargetu
+                      href: warehousing/replenishment-over-location-capacity.md
                 - name: Hleðsluáætlun og sendingar
                   items:
                     - name: Staðfesta og flytja
                       href: warehousing/confirm-and-transfer.md
+                    - name: Staðfesta sendingar á útleið úr runuvinnslum
+                      href: warehousing/confirm-outbound-shipments-from-batch-jobs.md
                     - name: Viðbótarhleðsluáætlanir í bylgju
                       href: warehousing/advanced-load-building-during-wave.md
                     - name: Reglu fyrir losun í vöruhús
@@ -2679,10 +2689,8 @@
               items:
                 - name: Vinnureglur vöruhúss
                   items:
-                    - name: Yfirlit yfir vinnureglur vöruhúss
+                    - name: Vinnureglur
                       href: warehousing/warehouse-work-policies.md
-                    - name: Setja upp vinnureglur vöruhúss
-                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
                     - name: Hreyfing birgða með tengdri vinnu í vöruhúsakerfi
                       href: warehousing/move-inventory-associated-work.md
                     - name: Stofna vinnuklasa
@@ -2715,7 +2723,7 @@
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
                     - name: Hreinsunarvinnsla lagerbirgðafærslna vöruhúsakerfis
                       href: warehousing/onhand-cleanup.md
-                    - name: Birgðabók
+                    - name: Birgðabækur
                       href: inventory/inventory-journals.md
                     - name: Birgðastaðsetning
                       href: inventory/inventory-locations.md

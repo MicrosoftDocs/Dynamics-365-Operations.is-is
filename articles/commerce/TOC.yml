@@ -90,6 +90,8 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.13 (október 2020)
+                      href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12 (ágúst 2020)
                       href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (júlí 2020)
@@ -127,23 +129,23 @@
             - name: Námskrá
               items:
                 - name: Heimasíða námsskrár
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: Stjórnendur í fyrirtæki
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?
                 - name: Fyrirtækjanotendur
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Verkefnastjórar innleiðingar
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Stjórnendur
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Forritarar
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Sala og markaðsstarf samstarfsaðila
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Hagnýtir ráðgjafar
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Hönnuðir lausna
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Notandaviðmót skoðað
               items:
                 - name: Einingar notandaviðmóts
@@ -310,6 +312,8 @@
                           href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/commerce/toc.json
                         - name: Valkostir heildarupphæðar og tímabilsútreikninga fyrir VSK-kóða
                           href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
+                        - name: Reikna út skattundanþágu
+                          href: tax-exempt-price-inclusive.md
                     - name: Setja upp forstillingu tilkynningar í tölvupósti
                       href: email-notification-profiles.md
                     - name: Númeraraðir
@@ -386,6 +390,8 @@
                           href: define-maintain-channel-clients-registers-hw-stations.md
                         - name: Ástandsskoðun fyrir jaðarbúnað og þjónustu sölustaðar
                           href: pos-healthcheck.md
+                        - name: Stuðningur við jaðarbúnað netkerfis
+                          href: dev-itpro/network-peripherals.md
                     - name: Skjáútlit
                       items:
                         - name: Skjáútlit sýnigagna í MPOS/CPOS
@@ -946,6 +952,8 @@
                       href: add-accordion.md
                     - name: Flipaeining
                       href: add-tab.md
+                    - name: Iframe-eining
+                      href: iframe-module.md
                 - name: Markaðssetningareiningar
                   items:
                     - name: Tilboðsborðaeining
@@ -968,6 +976,8 @@
                   items:
                     - name: Kaupgluggaeining
                       href: add-buy-box.md
+                    - name: Eining efnissafns
+                      href: media-gallery-module.md
                     - name: Einkunna- og umsagnaeiningar
                       href: ratings-reviews-modules.md
                 - name: Innkaupaeiningar
@@ -980,10 +990,14 @@
                       href: add-checkout-module.md
                     - name: Pöntunarupplýsingaeining
                       href: order-confirmation-module.md
-                    - name: Vista valeiningu
-                      href: store-selector.md
                     - name: Gjafakortseining
                       href: add-giftcard.md
+                - name: Einingar til að finna verslun
+                  items:
+                    - name: Kortaeining
+                      href: map-module.md
+                    - name: Eining til að velja verslun
+                      href: store-selector.md
                 - name: Einingar fyrir stjórnun reikninga
                   items:
                     - name: Síður og einingar fyrir stjórnun reikninga
@@ -1938,7 +1952,7 @@
                       href: e-commerce-extensibility/add-module-config-fields.md
                     - name: Fara yfir og kemba einingar
                       href: e-commerce-extensibility/test-module.md
-                    - name: Prófa einingar með því að nota gerviútgáfur
+                    - name: Prófa einingar með gervieiningum
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: Prófa einingar með því að nota gervisíður
                       href: e-commerce-extensibility/test-page-mock.md

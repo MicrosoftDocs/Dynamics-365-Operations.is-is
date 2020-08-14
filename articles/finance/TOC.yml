@@ -14,7 +14,7 @@
               items:
                 - name: Yfirlit yfir þjónustuuppfærslur fyrir One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Algengar spurningar um uppfærslureglur One Version
+                - name: Algengar spurningar um uppfærslureglur fyrir „Ein útgáfa“
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/finance/toc.json
                 - name: Reglur um stuðningstíma hugbúnaðar – ský
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/finance/toc.json
@@ -70,6 +70,8 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.13 (október 2020)
+                      href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12 (ágúst 2020)
                       href: get-started/whats-new-changed-10-0-12.md
                     - name: Finance 10.0.11 (júlí 2020)
@@ -107,23 +109,23 @@
             - name: Námskrá
               items:
                 - name: Heimasíða námsskrár
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: Stjórnendur í fyrirtæki
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-bdm.md
                 - name: Fyrirtækjanotendur
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Verkefnastjórar innleiðingar
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Stjórnendur
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Forritarar
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Sala og markaðsstarf samstarfsaðila
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Hagnýtir ráðgjafar
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Hönnuðir lausna
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Notandaviðmót skoðað
               items:
                 - name: Einingar notandaviðmóts
@@ -842,10 +844,12 @@
                   href: general-ledger/tasks/set-up-main-account-categories.md
                 - name: Skoðun bókhaldsuppruna
                   href: accounts-payable/accounting-source-explorer.md
-                - name: Dreifing á fjárhagsupphæð
+                - name: Dreifing á fjárhagsupphæðum
                   href: accounts-payable/accounting-distributions.md
                 - name: Vinna úr úthlutunum
                   href: general-ledger/process-allocations.md
+                - name: Úthlutunarskilmálar
+                  href: general-ledger/main-account-allocation-terms.md
                 - name: Fjárhagsvíddir
                   href: general-ledger/financial-dimensions.md
                 - name: Hópar samstæðulykla og samstæðulyklar til viðbótar
@@ -1122,6 +1126,8 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: Stofna ítarlega fjárhagsfærslu fyrir hið opinbera
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
+                - name: Prófjöfnuður með skýrslu um færsluupplýsingar
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Nota takmarkanir á reiðufjárstýringu
                   href: public-sector/cash-control.md
                 - name: Árslokavinnsla hjá hinu opinbera
@@ -1146,6 +1152,8 @@
               href: public-sector/tasks/create-fund-type-public-sector.md
             - name: Bæta við tegund vottorðs fyrir lánardrottin í opinbera geiranum
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
+            - name: Er að reikna út samræmdan virðisaukaskatt fyrir Kanada
+              href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
         - name: Fjárhagsskýrslugerð
           items:
             - name: Yfirlitssíða fjárhagsskýrslugerðar
@@ -1846,6 +1854,8 @@
                           href: localizations/apac-ind-news-letter-10-0-10.md
                         - name: Nýjungar eða breytingar í 10.0.11
                           href: localizations/apac-ind-news-letter-10-0-11.md
+                        - name: Nýjungar eða breytingar í 10.0.12
+                          href: localizations/apac-ind-news-letter-10-0-12.md
                     - name: Viðmiðunarhópar vöru- og þjónustuskatts fyrir Indland
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: Samþætting vöru- og þjónustuskatts fyrir afgreiðslukassa
@@ -2632,10 +2642,14 @@
                   href: localizations/emea-esp-promissory-note-options.md
                 - name: Skýrsla 340
                   href: localizations/emea-esp-report-340.md
+                - name: Yfirlýsing um skýrslu 347
+                  href: localizations/emea-esp-declaration-347-report.md
                 - name: Sölu- og innkaupaferlar
                   href: localizations/emea-esp-sales-purchase-cycle.md
                 - name: Sérstakar færslur og opnunarskjöl
                   href: localizations/emea-esp-opening-sheets-spain.md
+                - name: Tafarlaust framboð VSK-upplýsinga
+                  href: localizations/emea-esp-sii.md
             - name: Svíþjóð
               items:
                 - name: Yfirlit yfir Svíþjóð
