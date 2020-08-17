@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: fd64a4ea53976293a6ff484a370d7804bf6c724f
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: 22ebe1640f17163351b63710534052ce3d810986
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3542125"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652060"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.12 (ágúst 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Supply Chain Management forskoðunarútgáfu 10.0.12. Þessi útgáfa er með byggingarnúmer 10.0.507 og er fáanlegt á eftirfarandi hátt:
 
@@ -39,15 +38,15 @@ ms.locfileid: "3542125"
 
 Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengjast fleiri upplýsingum á vefsvæðinu [Útgáfuáætlanir](https://docs.microsoft.com/dynamics365/release-plans/). Viðbótartenglar benda á viðbótargögn eða myndbönd sem eru tiltæk fyrir þann eiginleika. Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
 
-- [Leyfa að læsa skjámyndinni fyrir þrif](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization) - Frekari upplýsingar er að finna í [Skilgreina verkspjald fyrir tæki](../production-control/config-job-card-device.md).
-- [Sækja afurðarafbrigði og rakningarvíddir í vöruhúsaforritinu við móttöku á farmvöru](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving) - Frekari upplýsingar er að finna í [Uppsetning fartækja fyrir vöruhúsavinnu](../warehousing/configure-mobile-devices-warehouse.md).
-- Stig kostnaðarútreiknings (nýtt uppskriftarstig) - Frekari upplýsingar er að finna í [Kostnaðarútreikningsstig](../cost-management/cost-calculation-level.md).
-- [Viðskiptavinagátt fyrir Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences) - Frekari upplýsingar er að finna í [Viðskiptavinagátt fyrir Dynamics 365 Supply Chain Management yfirlit](../sales-marketing/customer-portal-overview.md).
-- [Innsýn í kjarna IoT-gervigreindar](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) - Frekari upplýsingar er að finna í [Heimasíða IoT-gervigreindar](../iot/iot-intelligence-home-page.md).
-- [Endurbætur á móttöku númeraplötu fyrir vöruhúsaforrit (framhald)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued) - Frekari upplýsingar má finna í [Móttaka númeraplötu í gegnum vöruhúsaforritið](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
-- [Fjöldauppsetning fyrir Warehouse mobile app](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app) - Frekari upplýsingar er að finna í [Setja upp og skilgreina yfirlit vöruhúsaforrits](../warehousing/install-configure-warehousing-app.md).
-- [Hámarkskeyrslutími á hreinsunarvinnslu lagerbirgðafærslna vöruhúsakerfis](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job) - Frekari upplýsingar er að finna í [Hreinsunarvinnsla lagerbirgðafærslna vöruhúsakerfis](../warehousing/onhand-cleanup.md).
-- [Stuðningur við fínstillingu áætlanagerðar fyrir innkaupasamninga](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements) - Frekari upplýsingar er að finna í [Aðaláætlanagerð með innkaupasamningum](../master-planning/planning-optimization/purchase-trade-agreement.md).
+- [Leyfa að læsa snertiskjá verkspjalds fyrir hreinsun](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization)<br> - Frekari upplýsingar er að finna í [Skilgreina verkspjald fyrir tæki](../production-control/config-job-card-device.md).
+- [Sækja afurðarafbrigði og rakningarvíddir í vöruhúsaforritinu við móttöku á farmvöru](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)<br> - Frekari upplýsingar er að finna í [Setja upp fartæki fyrir vöruhúsavinnu](../warehousing/configure-mobile-devices-warehouse.md).
+- Stig kostnaðarútreiknings (nýtt uppskriftarstig)<br> - Frekari upplýsingar er að finna í [Kostnaðarútreikningsstig](../cost-management/cost-calculation-level.md).
+- [Viðskiptavinagátt fyrir Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)<br> - Frekari upplýsingar er að finna í [Viðskiptavinagátt fyrir yfirlit Dynamics 365 Supply Chain Management](../sales-marketing/customer-portal-overview.md).
+- [Innsýn í kjarna IoT-gervigreindar](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Frekari upplýsingar er að finna í [Heimasíða IoT-gervigreindar](../iot/iot-intelligence-home-page.md).
+- [Endurbætur á móttöku númeraplötu fyrir vöruhúsaforrit (framhald)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Frekari upplýsingar er að finna í [Móttaka númeraplötu í gegnum vöruhúsaforritið](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Fjöldauppsetning fyrir Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Frekari upplýsingar er að finna í [Setja upp og skilgreina yfirlit vöruhúsaforrits](../warehousing/install-configure-warehousing-app.md).
+- [Hámarkskeyrslutími á hreinsunarvinnslu lagerbirgðafærslna vöruhúsakerfis](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Frekari upplýsingar er að finna í [Hreinsunarvinnsla lagerbirgðafærslna vöruhúsakerfis](../warehousing/onhand-cleanup.md).
+- [Stuðningur við fínstillingu skipulagningar fyrir viðskiptasamninga](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Frekari upplýsingar er að finna í [Aðaláætlanagerð með innkaupasamningum](../master-planning/planning-optimization/purchase-trade-agreement.md).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

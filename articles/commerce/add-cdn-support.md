@@ -3,7 +3,7 @@ title: Bæta við stuðningi fyrir efnisbirtingarnet (CDN)
 description: Þetta efnisatriði lýsir því hvernig á að bæta efnisbirtingarnet (CDN) við Microsoft Dynamics 365 Commerce umhverfi þitt.
 author: brianshook
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: febef3bcc06dc1b5868a0decebee33d76110c505
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 662d26c0157377977bd1031cd7bb13a8e692f37e
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533345"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646040"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Bæta við stuðningi fyrir efnisbirtingarnet (CDN)
 
@@ -35,7 +35,7 @@ ms.locfileid: "3533345"
 
 Þegar þú setur upp umhverfi rafrænna viðskipta í Dynamics 365 Commerce geturðu stillt það til að virka með CDN-þjónustunni. 
 
-Hægt er að virkja sérsniðið lén þitt í úthlutunarferlinu fyrir umhverfi þitt með rafræn viðskipti. Einnig er hægt að nota þjónustubeiðni til að setja hana upp eftir að úthlutunarferlinu er lokið. Úthlutunarferlið fyrir umhverfi rafrænna viðskipta býr til hýsingarheiti sem er tengt umhverfinu. Þetta hýsingarheiti er með eftirfarandi sniði, þar sem *rafræn viðskipti-leigjanda-heiti* er heiti umhverfisins:
+Hægt er að virkja sérsniðið lén þitt í úthlutunarferlinu fyrir umhverfi þitt með rafræn viðskipti. Einnig er hægt að nota þjónustubeiðni til að setja hana upp eftir að úthlutunarferlinu er lokið. Úthlutunarferlið fyrir umhverfi rafrænna viðskipta býr til hýsingarheiti sem er tengt umhverfinu. Þetta hýsilsheiti er með eftirfarandi sniði, þar sem \<*e-commerce-tenant-name*\> er heiti umhverfisins:
 
 &lt;rafræn viðskipti-leigjanda-heiti&gt;.commerce.dynamics.com
 
@@ -65,7 +65,7 @@ Hægt er að nota hvaða CDN-þjónustu sem er með Commerce-umhverfi. Hér eru 
 Uppsetningarferli CDN samanstendur af þessum almennu skrefum:
 
 1. Bæta við framvinnsluhýsli.
-1. Stilltu bakvinnslusafn.
+1. Skilgreina bakvinnsluhóp.
 1. Settu upp reglur fyrir beina og skyndiminni.
 
 ### <a name="add-a-front-end-host"></a>Bæta við framvinnsluhýsli
@@ -74,18 +74,20 @@ Hægt er að nota hvaða CDN þjónustu sem er, en til dæmis í þessu efni er 
 
 Upplýsingar um hvernig á að setja upp Azure Front Door Service, sjá [Stuttur leiðarvísir: Búðu til útidyr fyrir víðfáanlegt altækt vefforrit](https://docs.microsoft.com/azure/frontdoor/quickstart-create-front-door).
 
-### <a name="configure-a-back-end-pool-in-azure-front-door-service"></a>Stilla bakvinnslusafn í Azure Front Door Service
+### <a name="configure-a-backend-pool-in-azure-front-door-service"></a>Skilgreina bakvinnsluhóp í Azure Front Door Service
 
-Til að stilla bakvinnslusafn í Azure Front Door Service skaltu fylgja þessum skrefum.
+Til að skilgreina bakvinnsluhóp í Azure Front Door Service skal fylgja þessum skrefum.
 
-1. Bæta við **&lt;ecom-leigjandi-nafn&gt;.commerce.dynamics.com** í bakvinnslusafn sem sérsniðinn hýsil sem er með tóma fyrirsögn bakvinnsluhýsingar.
-1. Undir **Heilbrigðiseftirlit**, í reitnum **Slóð**, skaltu slá inn **/keepalive**.
-1. Í reitinn **Millibil (sekúndur)** skaltu slá inn **255**.
+1. Bætið **&lt;ecom-leigjanda-heiti&gt;.commerce.dynamics.com** við bakvinnsluhóp sem sérsniðinn hýsil sem er með auðan haus bakvinnsluhýsils.
 1. Undir **Álagsjöfnun** skaltu skilja eftir sjálfgefin gildi.
 
-Eftirfarandi mynd sýnir valmyndina **Bæta við bavinnslusafni** í Azure Front Door Service.
+Eftirfarandi mynd sýnir svargluggann **Bæta við bakvinnslu** í Azure Front Door Service með hýsilheiti bakvinnslu slegið inn.
 
 ![Bæta við valmynd bakvinnslusafns](./media/CDN_BackendPool.png)
+
+Eftirfarandi mynd sýnir svargluggann **Bæta við bakvinnslu** í Azure Front Door Service með sjálfgefin gildi álagsjöfnunar.
+
+![Svarglugginn „Bæta við bakvinnslu“ heldur áfram](./media/CDN_BackendPool_2.png)
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>Settu upp reglur í Azure Front Door Service
 
@@ -121,20 +123,22 @@ Eftirfarandi mynd sýnir valmyndina **Bæta við reglu** í Azure Front Door Ser
 
 ![Bættu við regluglugga](./media/CDN_CachingRule.png)
 
-Eftir að þessari upphafsstillingu hefur verið komið á, verður þú að bæta sérsniðna léninu við stillingarnar fyrir Azure Front Door Service. Til að bæta við sérsniðna léninu (t.d. `www.fabrikam.com`), verður þú að stilla Canonical Name (CNAME) fyrir lénið.
+> [!WARNING]
+> Ef lénið sem notað verður er þegar virkt og komið í notkun skal stofna þjónustubeiðni úr reitnum **Stuðningur** í [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) til að fá aðstoð vegna næstu skrefa. Frekari upplýsingar er að finna í [Fá stuðning fyrir Finance and Operations-forrit eða Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+
+Ef lénið er nýtt og er ekki lén sem þegar er komið í virka notkun, er hægt að bæta sérsniðna léninu við skilgreininguna fyrir Azure Front Door Service. Þannig getur vefumferð beinst að vefsvæðinu í gegnum tilvik Azure Front Door. Til að bæta við sérsniðna léninu (t.d. `www.fabrikam.com`), verður þú að stilla Canonical Name (CNAME) fyrir lénið.
 
 Eftirfarandi mynd sýnir valmyndina **CNAME grunnstilling** í Azure Front Door Service.
 
 ![Valmyndin CNAME grunnstilling](./media/CNAME_Configuration.png)
-
-> [!NOTE]
-> Ef lénið sem þú munt nota er þegar virkt og lifandi, hafðu samband við stuðning til að virkja þetta lén með Azure Front Door Service til að setja upp próf.
 
 Þú getur notað Azure Front Door Service til að stjórna skírteininu, eða þú getur notað þitt eigið skírteini fyrir sérsniðna lénið.
 
 Eftirfarandi mynd sýnir valmyndina **Sérsniðin lén HTTPS** í Azure Front Door Service.
 
 ![Sérsniðin lén HTTPS valmynd](./media/Custom_Domain_HTTPS.png)
+
+Ítarlegar leiðbeiningar um hvernig skuli bæta sérsniðnu léni við Azure Front Door er að finna í [Bæta sérsniðnu léni við Front Door](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain).
 
 CDN ætti nú að vera rétt stillt þannig að það sé hægt að nota það með Commerce síðunni þinni.
 

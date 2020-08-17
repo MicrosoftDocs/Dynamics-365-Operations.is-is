@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 3418021f7b4c693779833e1c3c31501df02a0c21
-ms.sourcegitcommit: c5d0bd90334e259e96df17a217b2eff03c265f07
+ms.openlocfilehash: a1e3305bff99fa39240176ac9fc7aaee84b98e6c
+ms.sourcegitcommit: be51e892003778e71b67fb409a8e16965c89b5ac
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "3423037"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3618412"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Gera greiðslutillögur lánardrottins sjálfvirkar
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Fyrirtæki sem greiða lánardrottnum með reglulegu millibili geta nú gert ferlið sjálfvirkt sem býr til greiðslutillögur lánardrottins. Sjálfvirkar greiðslutillögur lánardrottins skilgreina eftirfarandi atriði:
 

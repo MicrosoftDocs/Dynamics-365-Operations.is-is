@@ -1,252 +1,302 @@
 ---
-title: Yfirlit yfir vinnureglur vöruhúss
-description: Vöruhús vinnu reglur stýra hvort vöruhúsavinna sé stofnuð af ferli vöruhúsa í framleiðsluumhverfi, samkvæmt gerð verks, staðsetningu birgða og vöru.
-author: johanhoffmann
+title: Vinnureglur
+description: Í þessu efnisatriði er útskýrt hvernig á að setja upp vinnureglur.
+author: perlynne
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
-ms.custom: 196561
-ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
 ms.search.region: Global
-ms.search.industry: Manufacturing
-ms.author: johanho
-ms.search.validFrom: 2016-05-31
-ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3fe22a92b445abbf6d1dcc67ead878db3f80d532
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.author: perlynne
+ms.search.validFrom: 2020-07-31
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 5ea93324547ed81df120db3412ee41fce2a93f4a
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204563"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652006"
 ---
-# <a name="warehouse-work-policies-overview"></a>Yfirlit yfir vinnureglur vöruhúss
+# <a name="work-policies"></a>Vinnureglur
 
 [!include [banner](../includes/banner.md)]
 
-Vöruhús vinnu reglur stýra hvort vöruhúsavinna sé stofnuð af ferli vöruhúsa í framleiðsluumhverfi, samkvæmt gerð verks, staðsetningu birgða og vöru.
+Þetta efnisatriði útskýrir hvernig á að setja upp kerfið og vöruhúsaforritið þannig að þau styðji vinnureglur. Hægt er að nota þessa virkni til að skrá birgðir á fljótlegan hátt án þess að stofna frágangsvinnu þegar tekið er á móti innkaupa- eða flutningspöntun, eða þegar lokið er við framleiðsluferla. Þetta efnisatriði veitir almennar upplýsingar. Ítarlegar upplýsingar sem tengjast móttöku á númeraplötu er að finna í [Móttaka númeraplötu í gegnum vöruhúsaforritið](warehousing-mobile-device-app-license-plate-receiving.md).
 
-Þessi regla vinnu stýrir því hvort vöruhúsavinnu er stofnað fyrir ferli vöruhúsa í framleiðslu. Setja upp stefnu vinnu með samsetningu **vinnupantanagerðir**, **staðsetningu birgða**, og **afurð**. Til dæmis er afurð L0101 skráð sem lokið á staðsetningu framleiðslufrálags 001. Fullbúin framleiðsluvara er síðar notuð í aðra framleiðslupöntun á staðsetningu frálags 001. Í þessu tilfelli er hægt að setja upp reglu vinnu til að koma í veg fyrir að vinna fyrir fullbúnar vörur frágangur stofnað þegar afurð L0101 tilbúið að staðsetningu framleiðslufrálags 001. Regla vinnu er einstök eining sem lýst hægt að með eftirfarandi upplýsingum:
+Vinnuregla stjórnar því hvort vöruhúsavinna sé stofnuð þegar framleidd vara er tilkynnt sem lokið eða þegar tekið er á móti vörum með því að nota vöruhúsaforritið. Setja skal upp hverja vinnureglu með því að skilgreina skilyrðin þar sem það á við: gerðir verkbeiðna og ferlar, birgðastaðsetningar og (valfrjálst) afurðirnar. Til dæmis þarf að móttaka innkaupapöntun fyrir afurð *A0001* á staðsetningu *RECV* í vöruhúsi *24*. Síðar er afurðin notuð í öðru ferli á staðsetningu *RECV*. Í slíku tilfelli er hægt að setja upp vinnureglu til að koma í veg fyrir að frágangsvinna verði stofnuð þegar starfsmaður tilkynnir afurð *A0001* sem móttekna á staðsetningu *RECV*.
 
--   **Vinnuregluheiti** (einkvæmt kenni reglunnar vinna)
--   **Vinnupantanagerðir** og **aðferð fyrir stofnun Vinnu**
--   **Birgðastaðsetningar**
--   **Afurðir**
+> [!NOTE]
+> - Til að vinnuregla verði virk þarf að skilgreina að minnsta kosti eina staðsetningu fyrir hana í flýtiflipanum **Birgðastaðsetningar** á síðunni **Vinnureglur**. 
+> - Ekki er hægt að tilgreina sömu staðsetninguna fyrir margar vinnureglur.
+> - Valkosturinn **Prenta merki** fyrir valmyndaratriði fartækis prentar ekki númeraplötumerki nema vinna hafi verið stofnuð.
 
-## <a name="work-order-types"></a>Gerðir vinnupöntunar
-Hægt er að velja um eftirfarandi gerðir vinnupöntunar:
+## <a name="activate-the-features-in-your-system"></a>Gera eiginleikana virka í kerfinu
 
--   Frágangur á fullunnum vörum
--   Frágangur aukaafurða og hliðarafurða
--   Tiltekt hráefnis
+Til að bjóða upp á alla þá virkni sem lýst er í þessu efnisatriði í kerfinu, skal kveikja á eftirfarandi tveimur eiginleikum í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
-Í **aðferð fyrir stofnun Vinnu** svæðið hefur gildið **Aldrei**. Þetta gildi gefur til kynna að vinnu regla kemur í veg fyrir vöruhúsavinnu verið stofnuð fyrir valda vinnupöntunargerð.
+- Viðbætur við móttöku á númeraplötu
+- Endurbætur á vinnureglu fyrir vinnu á innleið
 
-## <a name="inventory-locations"></a>Birgðastaðsetningar
-Velja má á staðsetningu sem reglan vinna á við um. Ef engin staðsetning er tengd vinnureglu vinnureglu ekki eiga við um ferli. Á **Staðsetningar** síðu er einnig er hægt að velja eða hætta við val á vinnu reglu fyrir ákveðna staðsetningu.
+## <a name="the-work-policies-page"></a>Vinnureglusíðan
 
-## <a name="products"></a>Afurðir
-Velja má á vöru sem reglan vinna á við um. Hægt er að nota regluna vinnu allar afurðir eða valdar afurðir.
+Til að setja upp vinnureglur skal fara í **Vöruhúsakerfi \> Uppsetning \> Vinna \> Vinnureglur**. Því næst, í hverjum flýtiflipa, skal stilla reitina eins og lýst er í eftirfarandi undirhlutum.
 
-## <a name="example"></a>Dæmi
-Í eftirfarandi dæmi eru tvær framleiðslupantanir, PRD 001 og PRD 00*2*. Framleiðslupöntunin PRD 001 hefur aðgerðar sem nefnist **Samsetningu**, þar sem afurð SC1 verið skráð sem lokið á staðsetningu O1. Framleiðslupöntunin PRD 002 hefur aðgerðar sem nefnist **Málun** og notar afurð SC1 frá staðsetningu O1. Framleiðslupöntunin PRD 002 notar einnig RM1 hráefni úr staðsetningunni O1. RM1 er geymd á staðsetningu vöruhúss BULK-001 og verður tekið til staðsetningu O1 eftir vöruhúsi vinnu fyrir tiltekt hráefnis. Vinna tiltektar er myndað þegar PRD 002 framleiðsla er losuð. 
+### <a name="the-work-order-types-fasttab"></a>Flýtiflipi fyrir gerðir verkbeiðna
 
-[![Reglur vöruhúsavinnu](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
+Í flýtiflipanum **Gerðir verkbeiðna** skal bæta við öllum gerðum verkbeiðna og tengdum vinnuferlum sem vinnureglan gildir um. Eftirfarandi gerðir verkbeiðni og tengdir vinnuferlar eru studdir fyrir vinnureglur.
 
-Þegar ætlunin er að skilgreina vöruhús regla vinnu á þessu dæmi ætti að íhuga að eftirfarandi upplýsingar:
+| Gerð verkpöntunar | Vinnuferli |
+|---|---|
+| Tiltekt hráefnis| Öll tengd ferli |
+| Frágangur aukaafurða og hliðarafurða | Öll tengd ferli |
+| Frágangur fullbúinnar vöru | Öll tengd ferli |
+| Flutningsinnhreyfing | Móttaka (og frágangur) númeraplötu |
+| Innkaupapantanir | <ul><li>Móttaka (og frágangur) númeraplötu</li><li>Móttaka (og frágangur) farmvöru</li><li>Móttaka (og frágangur) innkaupapöntunarlínu</li><li>Móttaka (og frágangur) innkaupapöntunarvöru</li></ul> |
 
--   Vöruhúsavinnu fyrir fullbúnar vörur frágangur er ekki áskilin þegar afurð SC1 tilbúið úr framleiðslunni pöntun PRD-001 til staðsetningu O1 er tilkynnt. Þetta er vegna þess að í **Málun** aðgerð fyrir framleiðslupöntun PRD 002 notar SC1 á sama stað.
--   Vinna vöruhús fyrir tiltekt hráefnis er krafist til að flytja RM1 hráefni frá staðsetningu vöruhúss BULK-001 á staðsetningu O1.
+Til að setja upp vinnureglu þannig að hún eigi við um nokkra vinnuferla sömu verkbeiðnigerðar, skal bæta aðskildri línu fyrir hvert vinnuferli við hnitanetið.
 
-Hér er dæmi um vinnu regluna sem hægt er að setja upp, byggðar á þessum atriðum.
+Fyrir hverja línu í hnitanetinu skal stilla reitinn **Aðferðir vinnustofnunar** á eitt af eftirfarandi gildum:
 
+- **Aldrei** - Vinnureglan kemur í veg fyrir að vöruhúsavinna verði stofnuð fyrir valda verkbeiðnigerð og tengt vinnuferli.
+- **Dreifing frá dreifingarstöð** - Vinnureglan stofnar dreifingarvinnu frá dreifingarstöð með því að nota regluna sem var valin í reitnum **Heiti reglu fyrir dreifingu frá dreifingarstöð**.
 
-|                                       |                                       |
-|---------------------------------------|---------------------------------------|
-| <strong>Heiti vinnureglu</strong><br> | <strong>Gerðir vinnupöntunar</strong><br> |
-|         Enginn frágangur 01          |     - Frágangur á fullunnum vörum<br>      |
-|                                       |    <strong>Staðsetningar</strong><br>     |
-|                                       |                 - O1                  |
-|                                       |    <strong>Afurðir</strong> <br>     |
-|                                       |                 - SC1                 |
+### <a name="the-inventory-locations-fasttab"></a>Flýtiflipi birgðastaðsetninga
 
-Eftirfarandi ferli lýsa nákvæmar leiðbeiningar um hvernig setja á upp reglu vinnu vöruhús fyrir þetta dæmi. Sýnishorn uppsetningar sýnir hvernig tilkynnt framleiðslupöntun sem lokið á staðsetningu sem er ekki númeraplötustýrð eru einnig lýst.
+Í flýtiflipanum **Birgðastaðsetningar** skal bæta við staðsetningunum þar sem þessi vinnuregla á að gilda. Ef engin staðsetning tengist vinnureglu, verður vinnureglan ekki notuð fyrir neitt ferli.
 
-## <a name="set-up-a-warehouse-work-policy"></a>Setja upp reglur vöruhúsavinnu
-Ferli vöruhúsa ekki alltaf hafa vöruhús vinnu. Með því að skilgreina vinnustefnu, sem getur komið í veg fyrir stofnun vinnu fyrir tiltekt hráefnis og frágangur fullbúinna vara fyrir safn af afurðum á tiltekna staði. USMF sýniútgáfu fyrirtækis notað til að stofna þetta ferli. 
+Ekki er hægt að tilgreina sömu staðsetninguna fyrir margar vinnureglur.
 
-SKREF (21)
+Hægt er að nota vöruhúsastaðsetningu sem er úthlutað á staðsetningarforstillingu þar sem slökkt er á valkostinum **Nota rakningu númeraplötu**. Í slíku tilfelli skrá starfsmenn lagerbirgðirnir beint.
 
-|     |                                                                            |
-|-----|----------------------------------------------------------------------------|
-| 1.  | Fara í vöruhúsakerfi &gt; Uppsetning &gt; Vinna &gt; Vinnureglur.        |
-| 2.  | Smellið á Nýtt.                                                                 |
-| 3.  | Í svæðið Vinnu reglu heiti, skrifa 'Engin frágangsvinna‘                    |
-| 4.  | Smelltu á Vista.                                                                |
-| 5.  | Smelltu á Bæta við.                                                                 |
-| 6.  | Í listanum skal merkja valda línu.                                        |
-| 7.  | Í Gerð vinnupöntun svæðinu, veljið 'Fullunninna vöru frágangur'.            |
-| 8.  | Smelltu á Bæta við.                                                                 |
-| 9.  | Í listanum skal merkja valda línu.                                        |
-| 10. | Í Gerð vinnupöntun svæðinu, veljið 'Aukaafurða og hliðarafurða frágangur'. |
-| 11. | Útvíkka hlutann birgðastaðsetning.                                    |
-| 12. | Smelltu á Bæta við.                                                                 |
-| 13. | Í listanum skal merkja valda línu.                                        |
-| 14. | Í vöruhúsalistanum, sláðu inn "51"                                         |
-| 15. | Sláið inn eða veldu '001‘ í staðsetning reitnum.                              |
-| 16. | Víkka út hlutann Afurðir.                                               |
-| 17. | Í reitnum afurðaval skal velja valið.                         |
-| 18. | Smelltu á Bæta við.                                                                 |
-| 19. | Í listanum skal merkja valda línu.                                        |
-| 20. | Í reitinn Vörunúmer skal slá inn eða veldu L0101.                         |
-| 21. | Smelltu á Vista.                                                                |
+### <a name="the-products-fasttab"></a>Flýtiflipi afurða
 
-## <a name="report-a-production-order-as-finished-to-a-location-that-isnt-license-platecontrolled"></a>Tilkynna framleiðslupöntun sem lokið er á staðsetningu sem ekki númeraplötustýrð
-Þessi ferli sýnir dæmi um skýrslugerð sem lokið á staðsetningu sem ekki númeraplötustýrð. Gildandi vinnureglu er skilyrði fyrir þetta verk. Fyrri ferli sýna uppsetningu vinnureglu. 
+Í flipanum **Afurðir** skal stilla reitinn **Afurðaval** til að stjórna því hvaða afurðir reglan á að gilda fyrir:
 
-SKREF (25)
+- **Allar** – Reglan á að gilda um allar afurðir.
+- **Valið** – Reglan á aðeins að gilda um afurðir sem koma fram í hnitanetinu. Notið tækjastikuna í flýtiflipanum **Afurðir** til að bæta afurðum við hnitanetið eða fjarlægja þær úr hnitanetinu.
 
-<table>
-<tbody>
-<tr>
-<td colspan="3"><strong>Undirverk: Setja upp staðsetningu úttaks</strong></td>
-</tr>
-<tr>
-<td></td>
-<td>1.</td>
-<td>Fara á fyrirtækisstjórnun &gt; Tilföng &gt; Tilfangaflokka.</td>
-</tr>
-<tr>
-<td></td>
-<td>2.</td>
-<td>Á listanum skal velja tilfangaflokk &#39;5102&#39;.</td>
-</tr>
-<tr>
-<td></td>
-<td>3.</td>
-<td>Smellið á „Breyta“.</td>
-</tr>
-<tr>
-<td></td>
-<td>4.</td>
-<td>Í úttaksvöruhúsreitnum skal velja &#39;51&#39;.</td>
-</tr>
-<tr>
-<td></td>
-<td>5.</td>
-<td>Í reit úttakssvæðis skal slá inn &#39;001&#39;.</td>
-</tr>
-<tr>
-<td></td>
-<td>6.</td>
-<td>Staðsetning 001 er ekki &#39; númeraplötustýrð stjórnun. Hægt er að setja upp staðsetningu úttaks ekki númeraplötu aðeins ef gildandi vinnureglu er til fyrir staðsetningarinnar.</td>
-</tr>
-<tr>
-<td colspan="3"><strong>Undirverk: Stofna framleiðslupöntun og skrá sem lokið.</strong></td>
-</tr>
-<tr>
-<td></td>
-<td>1.</td>
-<td>Lokið síðunni.</td>
-</tr>
-<tr>
-<td></td>
-<td>2.</td>
-<td>Fara í framleiðslustýringar &gt; Framleiðslupantanir &gt; Allar framleiðslupantanir.</td>
-</tr>
-<tr>
-<td></td>
-<td>3.</td>
-<td>Smella á Ný framleiðslupöntun.</td>
-</tr>
-<tr>
-<td></td>
-<td>4.</td>
-<td>Í vörunúmerasvæðið skal slá inn &#39;L0101&#39;.</td>
-</tr>
-<tr>
-<td></td>
-<td>5.</td>
-<td>Smellið á „Stofna“.</td>
-</tr>
-<tr>
-<td></td>
-<td>6.</td>
-<td>Smellið á „Framleiðslupöntun“ á aðgerðarúðunni.</td>
-</tr>
-<tr>
-<td></td>
-<td>7.</td>
-<td>Smellt er á Mat.</td>
-</tr>
-<tr>
-<td></td>
-<td>8.</td>
-<td>Smellt er á Í lagi.</td>
-</tr>
-<tr>
-<td></td>
-<td>9.</td>
-<td>Smellt er á Byrja.</td>
-</tr>
-<tr>
-<td></td>
-<td>10.</td>
-<td>Smellið á flipann „Almennt“.</td>
-</tr>
-<tr>
-<td></td>
-<td>11.</td>
-<td>Veljið &#39;Aldrei&#39; í reitnum Sjálfvirk uppskriftarnotkun.</td>
-</tr>
-<tr>
-<td></td>
-<td>12.</td>
-<td>Smellið á „Í lagi“.</td>
-</tr>
-<tr>
-<td></td>
-<td>13.</td>
-<td>Smellið á „Bóka sem tilbúið“.</td>
-</tr>
-<tr>
-<td></td>
-<td>14.</td>
-<td>Smellið á flipann „Almennt“.</td>
-</tr>
-<tr>
-<td></td>
-<td>15.</td>
-<td>Velja skal Já í reitnum leyfa villu.</td>
-</tr>
-<tr>
-<td></td>
-<td>16.</td>
-<td>Smellt er á Í lagi.</td>
-</tr>
-<tr>
-<td></td>
-<td>17.</td>
-<td>Í aðgerðasvæðinu er smellt á vöruhús.</td>
-</tr>
-<tr>
-<td></td>
-<td>18.</td>
-<td>Smellt er á Upplýsingar um vinnu</td>
-</tr>
-<tr>
-<td></td>
-<td>19.</td>
-<td>Þegar framleiðslupöntunin var skráð sem lokið, engin vinna var mynduð fyrir frágangur. Þetta gerist vegna þess að vinna regla er skilgreind sem kemur í veg fyrir vinnu búnar til þegar afurð L0101 er skráð sem lokið á staðsetningu 001.</td>
-</tr>
-</tbody>
-</table>
+## <a name="default-and-custom-to-locations"></a>Sjálfgefnar og sérsniðnar „til“ staðsetningar
 
+> [!NOTE]
+> Til að gera virknina sem lýst er í þessum hluta tiltæka í kerfinu þarf að kveikja á eiginleikunum *Viðbætur við móttöku á númeraplötu* og *Viðbætur við vinnureglu fyrir vinnu á innleið* í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
+Áður studdi kerfið að taka aðeins á móti á sjálfgefinni staðsetningu sem er skilgreind fyrir hvert vöruhús. Valmyndaratriði fartækis sem nota eftirfarandi ferla við stofnun vinnu bjóða aftur á móti upp á valkostinn **Nota sjálfgefin gögn**. Þessi valkostur gerir kleift að úthluta sérstilltri "til" staðsetningu á eitt eða fleiri valmyndaratriði. (Þessi valkostur var þegar tiltækur fyrir nokkrar aðrar gerðir valmyndaratriða.)
 
+- Móttaka (og frágangur) númeraplötu
+- Móttaka (og frágangur) farmvöru
+- Móttaka (og frágangur) innkaupapöntunarlínu
+- Móttaka (og frágangur) innkaupapöntunarvöru
+
+Stillingin **Til staðsetningar** fyrir valmyndaratriði hnekkir sjálfgefinni móttökustaðsetningu fyrir vöruhúsið, fyrir allar pantanir sem unnið er úr með því að nota þetta valmyndaratriði.
+
+Til að setja upp valmyndaratriði fartækis til að styðja móttöku á sérstilltri staðsetningu skal fylgja þessum skrefum.
+
+1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Valmyndaratriði fartækis**.
+1. Veljið eða búið til valmyndaratriði sem notar einn ferlanna við stofnun vinnu sem gefnir eru upp í þessum hluta.
+1. Í flipanum **Almennt** skal stilla valkostinn **Nota sjálfgefin gögn** á **Já**.
+1. Á aðgerðasvæðinu skal velja **Sjálfgefin gögn**.
+1. Á síðunni **Sjálfgefin gögn** skal stilla eftirfarandi gildi:
+
+    - **Reitur sjálfgefinna gagna:** Stilið þennan reit á *Til staðsetningar*.
+    - **Vöruhús:** Veljið vöruhús áfangastaðar til að nota með þessu valmyndaratriði.
+    - **Staðsetning:** Þessi reitur birtir öll staðsetningarauðkennin sem eru í boði fyrir valið vöruhús. Stillingin á þessum reit hefur hins vegar engin áhrif í raun og veru. Þess vegna er hægt að skilja hann eftir auðan. Engu að síður er hægt að nota listann til að staðfesta auðkennið sem færa verður inn í reitinn **Harðkóðað gildi**.
+    - **Harðkóðað gildi:** Færið inn staðsetningarauðkennið fyrir móttökustaðsetninguna sem gildir um þetta valmyndaratriði.
+
+> [!TIP]
+> Vinnureglu er aðeins hægt að nota ef allar móttökustaðsetningarnar eru gefnar upp í uppsetningu viðeigandi vinnureglu. Þessi krafa gildir óháð því hvort verið sé að nota sjálfgefna móttökustaðsetningu vöruhúss eða sérstillta „til“ staðsetningu.
+
+## <a name="example-scenario-warehouse-receiving"></a>Sýnidæmi: Vöruhúsamóttaka
+
+Allar afurðir sem tekið er á móti með ferlinu *Móttaka (og frágangur) innkaupapöntunarvöru* verða að vera skráðar í staðsetningu *FL-001* og þær verða að vera tiltækar í vöruhúsi *24*. Hins vegar ætti ekki að stofna vinnu. Afurðir sem tekið er á móti með einhverju öðru ferli (þ.e. með því að nota önnur valmyndaratriði fartækis) á að skrá á sjálfgefna móttökustaðsetningu vöruhúss (*RECV*) og vinnu á að stofna eins og venjulega. (Þetta dæmi sýnir ekki uppsetningu sjálfgefinnar móttöku.)
+
+Þetta dæmi krefst eftirfarandi þátta:
+
+- Vinnureglu fyrir ferlið *Móttaka (og frágangur) innkaupapöntunarvöru* á staðsetningu *FL-001* fyrir allar afurðir
+- Valmyndaratriði fartækis sem inniheldur sjálfgefin gögn og sem stillir reitinn **Til staðsetningar** á *FL-001*
+
+### <a name="prerequisites"></a>Forkröfur
+
+Til að gera virknina sem lýst er í þessu dæmi tiltæka í kerfinu þarf að kveikja á eiginleikunum *Viðbætur við móttöku á númeraplötu* og *Viðbætur við vinnureglu fyrir vinnu á innleið* í [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+Þetta dæmi notar stöðluð sýnigögn. Til að fara í gegnum það með því að nota gildin sem hér koma fram, þarf að nota kerfi þar sem sýnigögn eru uppsett. Þar að auki verður þú að velja **USMF**-lögaðila.
+
+### <a name="set-up-a-work-policy"></a>Setja upp vinnureglu
+
+1. Fara í **Vöruhúsakerfi \> Uppsetning \> Vinna \> Vinnureglur**.
+1. Veljið **Nýtt**.
+1. Í reitinn **Heiti vinnureglu** skal færa inn *Engin frágangsvinna innkaupavöru*.
+1. Veljið **Vista**.
+1. Í flýtiflipanum **Gerðir verkbeiðni** skal velja **Bæta við** til að bæta línu við hnitanetið og síðan stilla eftirfarandi gildi fyrir nýju línuna:
+
+    - **Gerð verkbeiðni:** *Innkaupapantanir*
+    - **Vinnuferli:** *Móttaka (og frágangur) innkaupapöntunarvöru*
+    - **Aðferð við stofnun vinnu:** *Aldrei*
+    - **Heiti reglu fyrir dreifingu frá dreifingarstöð:** Skiljið reitinn eftir auðan.
+
+1. Í flýtiflipanum **Birgðastaðsetningar** skal velja **Bæta við** til að bæta línu við hnitanetið og síðan stilla eftirfarandi gildi fyrir nýju línuna:
+
+    - **Vöruhús:** *24*
+    - **Staðsetning:** *FL-001*
+
+1. Í flýtiflipanum **Afurðir** skal stilla reitinn **Afurðaval** á *Allt*.
+1. Veljið **Vista**.
+
+### <a name="set-up-a-mobile-device-menu-item-to-change-the-receiving-location"></a>Setja upp valmyndaratriði fartækis til að breyta móttökustaðsetningunni
+
+1. Farðu í **Vöruhúsakerfi \> Uppsetning \> Fartæki \> Valmyndaratriði fartækis**.
+1. Á svæðinu vinstra megin skal velja fyrirliggjandi valmyndaratriði fyrir **Móttaka innkaupa**.
+1. Í flipanum **Almennt** skal stilla valkostinn **Nota sjálfgefin gögn** á *Já*.
+1. Veljið **Vista**.
+1. Á aðgerðasvæðinu skal velja **Sjálfgefin gögn**.
+1. Í flýtiflipanum **Sjálfgefin gögn**, á aðgerðasvæðinu, skal velja **Ný** til að bæta línu við hnitanetið og síðan stilla eftirfarandi gildi fyrir nýju línuna:
+
+    - **Reitur sjálfgefinna gagna:** *Til staðsetningar*
+    - **Vöruhús:** *24*
+    - **Staðsetning:** Skiljið þennan reit eftir auðan.
+    - **Harðkóðað gildi:** *FL-001*
+
+1. Veljið **Vista**.
+
+### <a name="receive-a-purchase-order-without-creating-work"></a>Móttaka innkaupapöntun án stofnunar vinnu
+
+Dæmið í þessum hluta sýnir hvernig á að taka á móti vöru innkaupapöntunar, en án þess að stofna vinnu, á staðsetningu sem er ólík sjálfgefinni móttökustaðsetningu sem er uppsett fyrir vöruhúsið. Þetta dæmi notar vinnuregluna og atriði fartækis sem búið var til fyrr í þessu sýnidæmi.
+
+#### <a name="create-a-purchase-order"></a>Stofna innkaupapöntun
+
+1. Farðu í **Innkaup og aðföng \> Innkaupapantanir \> Allar innkaupapantanir**.
+1. Veljið **Nýtt**.
+1. Sláðu inn eftirfarandi gildi í svarglugganum **Búa til innkaupapöntun**:
+
+    - **Lánardrottnalykill:** *US-101*
+    - **Svæði:** *2*
+    - **Vöruhús:** *24*
+
+1. Veljið **Í lagi** til að loka svarglugganum og opnið nýju innkaupapöntunina.
+1. Í flýtiflipanum **Innkaupapöntunarlínur** skal stilla eftirfarandi gildi fyrir auðu línuna:
+
+    - **Vörunúmer:** *A0001*
+    - **Magn:** *1*
+
+1. Veljið **Vista**.
+1. Skráið niður innkaupapöntunarnúmerið.
+
+#### <a name="receive-a-purchase-order"></a>Móttaka innkaupapöntunar
+
+1. Í fartækinu skal skrá sig inn í vöruhús *24* með því að nota *24* fyrir notandakenni og *1* fyrir aðgangsorð.
+1. Veljið **Á innleið**.
+1. Veljið **Innkaup móttekin**. Reiturinn **Staðsetning** ætti að stilla á *FL-001*.
+1. Sláið inn innkaupapöntunarnúmerið fyrir innkaupapöntunina sem var stofnuð í fyrra ferlinu.
+1. Í **vörunúmerasvæðið** skal slá inn *A0001*.
+1. Veljið **Í lagi**.
+1. Í **Magn** reitinn er fært inn *1*.
+1. Veljið **Í lagi**.
+
+Innkaupapöntunin er nú móttekin en engin vinna er tengd henni. Lagerbirgðir hafa verið uppfærðar og magn *1* af vöru *A0001* er nú tiltækt á staðsetningu *FL-001*.
+
+## <a name="example-scenario-manufacturing"></a>Sýnidæmi: Framleiðsla
+
+Í eftirfarandi dæmi eru tvær framleiðslupantanir, *PRD 001* og *PRD 002*. Framleiðslupöntunin *PRD-001* hefur aðgerðar sem nefnist *Samsetningu*, þar sem afurð *SC1* verið skráð sem lokið á staðsetningu *001*. Framleiðslupöntunin *PRD 002* hefur aðgerðar sem nefnist *Málun* og notar afurð *SC1* frá staðsetningu *001*. Framleiðslupöntunin *PRD-002* notar einnig *RM1* hráefni úr staðsetningunni *001*. Hráefni *RM1* er geymt á staðsetningu vöruhúss *BULK-001* og verður tínt yfir á staðsetningu *001* af vöruhúsavinnu fyrir tiltekt hráefnis. Vinna tiltektar er myndað þegar *PRD 002 framleiðsla* er losuð.
+
+[![Reglur vöruhúsavinnu](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+
+Þegar ætlunin er að skilgreina vinnureglu vöruhúss fyrir þetta sýnidæmi ætti að hafa eftirfarandi punkta í huga:
+
+- Vöruhúsavinna fyrir frágang á fullbúnum vörum er ekki áskilin þegar afurð *SC1* er tilkynnt sem lokið frá framleiðslupöntun *PRD-001* til staðsetningar *001*. Ástæðan er vegna þess að aðgerðin *Málun* fyrir framleiðslupöntun *PRD 002* notar afurð *SC1* á sömu staðsetningunni.
+- Vinna vöruhús fyrir tiltekt hráefnis er krafist til að flytja *RM1* hráefni frá staðsetningu vöruhúss *BULK-001* á staðsetningu *001*.
+
+Hér er dæmi um vinnureglu sem hægt er að setja upp, byggt á þessum atriðum:
+
+- **Heiti vinnureglu:** *Engin frágangsvinna*
+- **Gerðir verkbeiðna:** *Frágangur fullbúinna vara* og *Frágangur aukaafurða og hliðarafurða*
+- **Birgðastaðsetningar:** Vöruhús *51* og staðsetning *001*
+- **Afurðir:** *SC1*
+
+Eftirfarandi sýnidæmi býður upp á ítarlegar leiðbeiningar um uppsetningu á vinnureglu vöruhúss fyrir þetta dæmi.
+
+## <a name="example-scenario-report-as-finished-to-a-location-that-isnt-license-platecontrolled"></a>Sýnidæmi: Tilkynna sem lokið á staðsetningu sem er ekki númeraplötustýrð
+
+Þetta sýnidæmi kemur með dæmi þar sem framleiðslupöntun er tilkynnt sem lokið á staðsetningu sem er ekki númeraplötustýrð.
+
+Þetta dæmi notar stöðluð sýnigögn. Til að fara í gegnum það með því að nota gildin sem hér koma fram, þarf að nota kerfi þar sem sýnigögn eru uppsett. Þar að auki verður þú að velja **USMF**-lögaðila.
+
+### <a name="set-up-a-warehouse-work-policy"></a>Setja upp reglur vöruhúsavinnu
+
+Ferli vöruhúsa innihalda ekki alltaf vöruhúsavinnu. Með því að skilgreina vinnustefnu, sem getur komið í veg fyrir stofnun vinnu fyrir tiltekt hráefnis og frágangur fullbúinna vara fyrir safn af afurðum á tiltekna staði.
+
+1. Fara í **Vöruhúsakerfi \> Uppsetning \> Vinna \> Vinnureglur**.
+1. Veljið **Nýtt**.
+1. Í reitinn **Heiti vinnureglu** skal færa inn *Engin frágangsvinna*.
+1. Í aðgerðarúðunni skal velja **Vista**.
+1. Í flýtiflipanum **Gerðir verkbeiðni** skal velja **Bæta við** til að bæta línu við hnitanetið og síðan stilla eftirfarandi gildi fyrir nýju línuna:
+
+    - **Gerð verkbeiðni:** *Frágangur á fullunnum vörum*
+    - **Vinnuferli:** *Öll tengd vinnuferli*
+    - **Aðferð við stofnun vinnu:** *Aldrei*
+    - **Heiti reglu fyrir dreifingu frá dreifingarstöð:** Skiljið reitinn eftir auðan.
+
+1. Veljið **Bæta við** aftur til að bæta annarri línu við hnitanetið og því næst stilla eftirfarandi gildi fyrir nýju línuna:
+
+    - **Gerð verkbeiðni:** *Frágangur aukaafurða og hliðarafurða*
+    - **Vinnuferli:** *Öll tengd vinnuferli*
+    - **Aðferð við stofnun vinnu:** *Aldrei*
+    - **Heiti reglu fyrir dreifingu frá dreifingarstöð:** Skiljið reitinn eftir auðan.
+
+1. Í flýtiflipanum **Birgðastaðsetningar** skal velja **Bæta við** til að bæta línu við hnitanetið og síðan stilla eftirfarandi gildi fyrir nýju línuna:
+
+    - **Vöruhús:** *51*
+    - **Staðsetning:** *001*
+
+1. Í flýtiflipanum **Afurðir** skal stilla reitinn **Afurðaval** á *Valið*.
+1. Í flýtiflipanum **Afurðir** skal velja **Bæta við** til að bæta línu við hnitanetið.
+1. Í nýju línunni skal stilla reitinn **Vörunúmer** á *L0101*.
+1. Í aðgerðarúðunni skal velja **Vista**.
+
+### <a name="set-up-an-output-location"></a>Setja upp staðsetningu úttaks
+
+1. Fara á **Fyrirtækisstjórnun \> Tilföng \> Tilfangaflokkar**.
+1. Á svæðinu vinstra megin skal velja tilfangaflokkinn **5102**.
+1. Stilltu eftirfarandi gildi á flýtiflipanum **Almennt**:
+
+    - **Vöruhús úttaks:** *51*
+    - **Staðsetning úttaks:** *001*
+
+1. Í aðgerðarúðunni skal velja **Vista**.
+
+> [!NOTE]
+> Staðsetning *001* er ekki númeraplötustýrð staðsetning. Hægt er að setja upp staðsetningu úttaks sem er ekki númeraplötustýrð eingöngu ef gildandi vinnuregla er til fyrir staðsetninguna.
+
+### <a name="create-a-production-order-and-report-it-as-finished"></a>Stofna framleiðslupöntun og skrá sem lokið.
+
+1. Fara í **Framleiðslustýringar \> Framleiðslupantanir \> Allar framleiðslupantanir**.
+1. Á aðgerðasvæðinu skal velja **Ný framleiðslupöntun**.
+1. Í svarglugganum **Stofna framleiðslupöntun** skal stilla reitinn **Vörunúmer** á *L0101*.
+1. Veljið **Stofna** til að stofna pöntunina og loka svarglugganum.
+
+    Ný framleiðslupöntun er bætt við hnitanetið á síðunni **Allar framleiðslupantanir**.
+
+    Halda nýju framleiðslupöntuninni valdri.
+
+1. Á aðgerðasvæðinu, í flipanum **Framleiðslupöntun**, í flokknum **Uppsetning**, skal velja **Áætla**.
+1. Í svarglugganum **Áætla** skal lesa áætlunina og síðan velja **Í lagi** til að loka svarglugganum.
+1. Á aðgerðasvæðinu, í flipanum **Framleiðslupöntun**, í flokknum **Uppsetning**, skal velja **Hefja**.
+1. Í svarglugganum **Hefja**, í flipanum **Almennt**, skal stilla reitinn **Sjálfvirk uppskriftanotkun** á *Aldrei*.
+1. Veldu **Í lagi** til að vista stillingarnar þínar og loka glugganum.
+1. Á aðgerðasvæðinu, í flipanum **Framleiðslupöntun**, í flokknum **Uppsetning**, skal velja **Tilkynna sem lokið**.
+1. Í svarglugganum **Tilkynna sem lokið**, í flipanum **Almennt**, skal stilla valkostinn **Leyfa villu** á *Já*.
+1. Veldu **Í lagi** til að vista stillingarnar þínar og loka glugganum.
+1. Á aðgerðarrúðunni, á flipanum **Vöruhús**, í hópnum **Almennt** skaltu velja **Upplýsingar um vinnu**.
+
+Þegar framleiðslupöntunin er tilkynnt sem lokið, er engin vinna búin til fyrir frágang. Þetta gerist vegna þess að vinna regla er skilgreind sem kemur í veg fyrir vinnu búnar til þegar afurð *L0101* er skráð sem lokið á staðsetningu *001*.
+
+## <a name="more-information"></a>Meiri upplýsingar
+
+Nánari upplýsingar um valmyndaratriði fartækja, sjá [Uppsetning fartækja fyrir vöruhúsavinnu](configure-mobile-devices-warehouse.md).
+
+Frekari upplýsingar um móttöku á númeraplötu og vinnureglur er að finna í [Móttaka númeraplötu í gegnum vöruhúsaforritið](warehousing-mobile-device-app-license-plate-receiving.md).
+
+Frekari upplýsingar um stjórnun á farmi á innleið er að finna í [Meðhöndlun vöruhúss á farmi á innleið fyrir innkaupapantanir](inbound-load-handling.md).

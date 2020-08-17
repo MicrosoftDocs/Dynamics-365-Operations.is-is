@@ -1,9 +1,9 @@
 ---
 title: Sveigjanleg frátektarregla á vídd vöruhúsastigs
 description: Þetta efni lýsir stefnuskrá fyrir birgða sem láta fyrirtæki sem selja vörur sem eru rekin með runur og reka flutninga sína sem aðgerðir með WMS-virka áskilja sértækar runur fyrir sölupantanir viðskiptavina, jafnvel þó að pöntunarveldið sem er tengt vörunum banni ekki fyrirvara á tilteknum runum.
-author: omulvad
+author: perlynne
 manager: tfehr
-ms.date: 02/07/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,25 +13,29 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: omulvad
+ms.author: perlynne
 ms.search.validFrom: 2020-01-15
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: ec80346126713cc604b00e6ca7f6e8f4c242dc6f
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 65304216b579b8def493d1e4218174cb9617013d
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530306"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652180"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Sveigjanleg frátektarregla á vídd vöruhúsastigs
 
 [!include [banner](../includes/banner.md)]
 
-Þegar stigveldi birgða fyrirvara á „hópnum hér að neðan\[staðsetningu\]„ gerð er tengd vörum, fyrirtækjum sem selja vöru sem er rekin með hópum og rekur flutninga sína sem aðgerðir sem eru gerðar virkar fyrir Microsoft Dynamics 365 Warehouse Management System (WMS) getur ekki pantað sértæka runu af þessum vörum fyrir sölupantanir viðskiptavina. Þetta efnisatriði lýsir stefnuskráningu birgða sem gerir þessum fyrirtækjum kleift að panta sértækar runur, jafnvel þegar vörurnar eru tengdar „hópi hér að neðan\[staðsetningu\]" stigveldi fyrirvara.
+Þegar stigveldi birgða fyrirvara á „hópnum hér að neðan\[staðsetningu\]„ gerð er tengd vörum, fyrirtækjum sem selja vöru sem er rekin með hópum og rekur flutninga sína sem aðgerðir sem eru gerðar virkar fyrir Microsoft Dynamics 365 Warehouse Management System (WMS) getur ekki pantað sértæka runu af þessum vörum fyrir sölupantanir viðskiptavina.
+
+Á svipaðan hátt er ekki hægt að taka frá sérstakar númeraplötur fyrir afurðir í sölupöntunum þegar þessar afurðir eru tengdar við sjálfgefið frátekningarstigveldi.
+
+Þetta efnisatriði lýsir frátekningarreglu birgða sem gerir þessum fyrirtækjum kleift að taka frá ákveðnar runur eða númeraplötur, jafnvel þegar afurðirnar eru tengdar frátekningarstigveldi „Runa fyrir neðan\[staðsetningu\]“.
 
 ## <a name="inventory-reservation-hierarchy"></a>Frátekningarstigveldi birgða
 
-Þessi hluti dregur saman núverandi stigveldi birgða fyrirvara. Það beinir sjónum að því hvernig meðhöndlaðir eru hlutar í hópum og raðnúmerum.
+Þessi hluti dregur saman núverandi stigveldi birgða fyrirvara.
 
 Stigveldi birgðapöntunar ræður því að hvað varðar geymsluvíddir ber eftirspurnarpöntunin nauðsynlegar víddir á staðsetningu, vörugeymslu og birgðastöðu, en rökfræði vörugeymslu er ábyrg fyrir því að tengja staðsetningu við umbeðið magn og panta staðsetningu. Með öðrum orðum, í samskiptum milli eftirspurnarpöntunar og vörugeymslu er gert ráð fyrir að eftirspurnarpöntunin gefi til kynna hvar pöntunin verður að vera send frá (það er, hvaða staður og vörugeymsla). Vöruhúsið treystir síðan á rökfræði þess til að finna nauðsynlegt magn í húsnæði vörugeymslu.
 
@@ -64,7 +68,7 @@ Til að koma til móts við æskilegan sveigjanleika í hegðun hóps fyrirvara 
 > [!NOTE]
 > Gátreiturinn **Leyfa fyrirvara á pöntunarbeiðni** á aðeins við um stig stigveldis sem er undir staðsetningu víddar vörugeymslu.
 >
-> **Rununúmer** er eina stigið í stigveldinu sem er opið fyrir sveigjanlega pöntunarstefnu. Með öðrum orðum, þú getur ekki valið gátreiturinn **Leyfa fyrirvara á pöntunarbeiðni** fyrir **Staðsetning**, **Númeraplata**, eða **Raðnúmer** stigi.
+> **Rununúmer** og **Númeraplata** eru einu stigin í stigveldinu sem eru opin fyrir sveigjanlegu frátekningarreglunni. Með öðrum orðum er ekki hægt að velja gátreitinn **Leyfa frátekt á eftirspurnarpöntun** fyrir stig **Staðsetningar** eða **Raðnúmers**.
 >
 > Ef pöntunarveldið þitt inniheldur röð raðnúmera (sem verður alltaf að vera undir **Rununúmer** stig), og ef þú hefur kveikt á lotusértækum fyrirvara fyrir lotunúmerið mun kerfið halda áfram að sjá um röðun og tína aðgerðir á raðnúmerum, byggt á reglunum sem eiga við um „Rað-neðan\[staðsetningu\]" fyrirvara stefnu.
 
@@ -90,11 +94,11 @@ Eftirfarandi reglur eru í gildi þegar magn er afgreitt og lotunúmer er skuldb
 
 Eftirfarandi dæmi sýnir flæði frá enda til enda.
 
-## <a name="example-scenario"></a>Dæmi
+## <a name="example-scenario-batch-number-allocation"></a>Sýniaðstæður: Úthlutun rununúmers
 
 Fyrir þetta dæmi verða kynningargögn að vera sett upp og þú verður að nota kynningarfyrirtækið **USMF**.
 
-### <a name="set-up-an-inventory-reservation-hierarchy-to-allow-batch-specific-reservation"></a>Setjið upp stigveldi birgða fyrirvara til að leyfa ákveðna pöntun
+### <a name="set-up-an-inventory-reservation-hierarchy-to-allow-batch-specific-reservation"></a><a name="Example-batch-allocation"></a>Setjið upp stigveldi birgða fyrirvara til að leyfa ákveðna pöntun
 
 1. Fara til **Vöruhúsastjórnun** \> **Skipulag** \> **Birgðir \> Pöntunarveldi**.
 2. Veljið **Nýtt**.
@@ -122,7 +126,7 @@ Fyrir þetta dæmi verða kynningargögn að vera sett upp og þú verður að n
     | 24        | B11          | FL-001   | LP11          | 10       |
     | 24        | B22          | FL-002   | LP22          | 10       |
 
-### <a name="enter-sales-order-details"></a>Slá inn upplýsingar um sölupöntun
+### <a name="enter-sales-order-details"></a><a name="sales-order-details"></a>Slá inn upplýsingar um sölupöntun
 
 1. Farðu í **Sölu og markaðssetningu** \> **Sölupantanir** \> **Allar sölupantanir**.
 2. Veljið **Nýtt**.
@@ -186,6 +190,176 @@ Fyrir þetta dæmi verða kynningargögn að vera sett upp og þú verður að n
 
     Magnið **10** fyrir lotunúmer **B11** er nú valinn í sölupöntunarlínuna og settur í **Afgreiðsluhurð** staðsetningu. Á þessum tímapunkti er það tilbúið að hlaða það á vörubílinn og senda á heimilisfang viðskiptavinarins.
 
+## <a name="flexible-license-plate-reservation"></a>Sveigjanleg frátekning númeraplötu
+
+### <a name="business-scenario"></a>Sviðsmynd fyrirtækis
+
+Í þessum aðstæðum notar fyrirtæki vöruhúsakerfi og vinnuferli og sér um hleðsluáætlun á stigi einstakra bretta/gáma utan Supply Chain Management áður en vinna er stofnuð. Þessir gámar eru táknaðir með númeraplötum í birgðavíddunum. Fyrir þessa nálgun þarf þar af leiðandi að úthluta sérstökum númeraplötum fyrirfram á sölupöntunarlínur áður en tiltekt er gerð. Fyrirtækið leitar að sveigjanleika í því hvernig reglur um frátekningu númeraplötu eru meðhöndlaðar, þannig að eftirfarandi hegðun eigi sér stað:
+
+- Hægt er að skrá og taka frá númeraplötu þegar pöntunin er tekin af úrvinnsluaðila sölumála og ekki er hægt að taka hana af öðrum eftirspurnum. Þessi hegðun hjálpar til við að tryggja að númeraplatan sem var áætluð sé send til viðskiptavinarins.
+- Ef númeraplötunni hefur ekki þegar verið úthlutað á sölupöntunarlínu, getur starfsmaður í vöruhúsi valið númeraplötu meðan á tiltekt stendur, þegar búið er að ljúka skráningu sölupöntunar og frátekningu.
+
+### <a name="turn-on-flexible-license-plate-reservation"></a>Kveikja á sveigjanlegri frátekningu númeraplötu
+
+Áður en hægt er að nota sveigjanlega frátekningu númeraplötu, þarf að kveikja á tveimur eiginleikum í kerfinu. Stjórnendur geta notað stillingar [eiginleikastjórnunar](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikanna og kveikja á þeim ef þörf krefur. Kveikja verður á eiginleikunum í eftirfarandi röð:
+
+1. **Heiti eiginleika:** *Sveigjanleg frátekt á vídd vöruhúsastigs*
+1. **Heiti eiginleika:** *Sveigjanleg frátekt á númeraplötu ráðstafaðrar pöntunar*
+
+### <a name="reserve-a-specific-license-plate-on-the-sales-order"></a>Taka frá tiltekna númeraplötu í sölupöntuninni
+
+Til að virkja frátekningu á númeraplötu í pöntun þarf að velja gátreitinn **Leyfa frátekt á eftirspurnarpöntun** fyrir stigið **Númeraplata** á síðunni **Frátekningarstigveldi birgða** fyrir stigveldið sem tengist viðkomandi vöru.
+
+![Síða frátekningarstigveldis birgða fyrir frátekningarstigveldi sveigjanlegrar númeraplötu](media/Flexible-LP-reservation-hierarchy.png)
+
+Hægt er að virkja frátekningu á númeraplötu í pöntuninni hvenær sem er í uppsetningunni. Þessi breyting hefur ekki áhrif á neinar frátekningar eða opna vöruhúsavinnu sem var stofnuð áður en breytingin var gerð. Hins vegar er ekki hægt að hreinsa gátreitinn **Leyfa frátekt á eftirspurnarpöntun** ef opnar birgðafærslur á útleið sem eru með úthreyfingarstöðuna *Í pöntun*, *Frátekið pantað* eða *Frátekið efnislegt magn* eru til fyrir eina eða fleiri vörur sem tengjast þessu frátekningarstigveldi.
+
+Jafnvel ef gátreiturinn **Leyfa frátekt á eftirspurnarpöntun** er valinn fyrir stigið **Númeraplata** er enn mögulegt að *ekki* taka frá tiltekna númeraplötu í pöntuninni. Í slíku tilfelli gilda sjálfgefin rök vöruhúsaaðgerða fyrir frátekningarstigveldið.
+
+Til að taka frá tiltekna númeraplötu verður að nota ferlið [Samskiptaregla opinna gagna (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md). Í forritinu er hægt að gera þessa frátekningu beint úr sölupöntun með því að nota valkostinn **Frátektir á ráðstöfuðum pöntunum eftir númeraplötu** fyrir skipunina **Opna í Excel**. Í einingagögnunum sem opnuð eru í Excel-innbótinni þarf að færa inn eftirfarandi frátektartengd gögn og síðan velja **Birta** til að senda gögnin aftur í Supply Chain Management:
+
+- Tilvísun (eingöngu gildið *Sölupöntun* er stutt.)
+- Pöntunarnúmer (gildið er hægt að fá úr lotu.)
+- Lotukenni
+- Númeraplata
+- Magn
+
+Ef taka þarf frá tiltekna númeraplötu fyrir runurakta vöru skal nota síðuna **Frátekt á runu**, eins og lýst er í hlutanum [Færa inn upplýsingar um sölupöntun](#sales-order-details).
+
+Þegar sölupöntunarlína sem notar frátekt á númeraplötu ráðstafaðrar pöntunar er unnin af vöruhúsaaðgerðum, eru staðsetningarleiðbeiningar ekki notaðar.
+
+Ef vinnuliður vöruhúss samanstendur af línum sem jafngilda heilu bretti og eru með númeraplöturáðstafað magn, er hægt að fínstilla tiltektina með því að nota valmyndaratriði fartækis þar sem valkosturinn **Meðhöndla eftir númeraplötu** er stilltur á *Já*. Starfsmaður í vöruhúsi getur síðan skannað númeraplötu til að ljúka tiltekt í stað þess að þurfa að skanna vörurnar úr vinnunni hver á eftir annarri.
+
+![Valmyndaratriði fartækis þar sem valkosturinn „Meðhöndla eftir númeraplötu" er stilltur á „Já“](media/Handle-by-LP-menu-item.png)
+
+Vegna þess að virknin **Meðhöndla eftir númeraplötu** styður ekki vinnu sem nær yfir mörg bretti, er betra að vera með aðskilinn vinnulið fyrir mismunandi númeraplötur. Til að nota þessa aðferð skal bæta reitnum **Númeraplötukenni ráðstafaðrar pöntunar** sem vinnuhausaskil á síðunni **Vinnusniðmát**.
+
+## <a name="example-scenario-set-up-and-process-an-order-committed-license-plate-reservation"></a>Dæmi: Setja upp og vinna úr frátekt á númeraplötu ráðstafaðrar pöntunar
+
+Þessi atburðarás sýnir hvernig á að setja upp og vinna úr frátekt á númeraplötu ráðstafaðrar pöntunar.
+
+### <a name="make-demo-data-available"></a>Bjóða upp á sýnigögn
+
+Þessi atburðarás vísar í gildi og færslur sem eru innifalin í stöðluðum sýnigögnum sem boðið er upp á fyrir Supply Chain Management. Ef ætlunin er að fara í gegnum atburðarásina með því að nota gildin sem hér eru gefin skal gæta þess að vinna í umhverfi þar sem sýnigögnin eru uppsett. Þar að auki skal stilla lögaðilann á **USMF** áður en hafist er handa.
+
+### <a name="create-an-inventory-reservation-hierarchy-that-allows-for-license-plate-reservation"></a>Stofna frátekningarstigveldi birgða sem leyfir frátekningu á númeraplötu
+
+1. Fara í **Vöruhúsakerfi \> Uppsetning \> Birgðir \> Frátekningarstigveldi**.
+1. Veljið **Nýtt**.
+1. Í reitinn **Heiti** skal slá inn gildi (til dæmis *FlexibleLP*).
+1. Í reitinn **Lýsing** skal færa inn gildi (til dæmis *Sveigjanleg frátekning á númeraplötu*).
+1. Í listanum **Valið** skal velja **Rununúmer**, **Raðnúmer** og **Eigandi**.
+1. Veljið hnappinn **Fjarlægja** ![ör til baka](media/backward-button.png) til að flytja valdar færslur í listann **Tiltækt**.
+1. Veljið **Í lagi**.
+1. Í línunni fyrir víddarstigið **Númeraplata** skal velja gátreitinn **Leyfa frátekt á eftirspurnarpöntun**. Stigið **Staðsetning** er valið sjálfkrafa og ekki er hægt að hreinsa gátreitinn fyrir það.
+1. Veljið **Vista**.
+
+### <a name="create-two-released-products"></a>Stofna tvær útgefnar afurðir
+
+1. Opna **Afurðaupplýsingastjórnun \> Afurðir \> Útgefnar afurðir**.
+1. Í aðgerðarúðunni velurðu **Nýtt**.
+1. Í svarglugganum **Ný útgefin afurð** skal stilla eftirfarandi gildi:
+
+    - **Afurðarnúmer:** *Item1*
+    - **Vörunúmer:** *Item1*
+    - **Vörulíkanaflokkur:** *FIFO*
+    - **Vöruflokkur:** *Hljóð*
+    - **Geymsluvíddarflokkur:** *Afurð*
+    - **Rakningarvíddarflokkur:** *Enginn*
+    - **Frátekningarstigveldi:** *FlexibleLP*
+
+1. Veljið **Í lagi** til að stofna afurðina og loka svarglugganum.
+1. Nýja afurðin opnast. Í flýtiflipanum **Vöruhús** skal stilla reitinn **Auðkenni röðunarflokks einingar** á *ea*.
+1. Endurtakið fyrri skref til að stofna aðra afurð sem er með sömu stillingar, en stillið reitina **Afurðarnúmer** og **Vörunúmer** á *Item2*.
+1. Á aðgerðasvæðinu, í flipanum **Stjórna birgðum**, í flokknum **Skoða**, skal velja **Lagerbirgðir**. Veljið síðan **Leiðrétting á magni**.
+1. Leiðréttið lagerbirgðir nýju varanna eins og tilgreint er í eftirfarandi töflu.
+
+    | vara  | Vöruhús | Staður | Númeraplata | Magn |
+    |-------|-----------|----------|---------------|----------|
+    | VARA1 | 24        | FL-010   | LP01          | 10       |
+    | VARA1 | 24        | FL-011   | LP02          | 10       |
+    | VARA2 | 24        | FL-010   | LP01          | 5        |
+    | VARA2 | 24        | FL-011   | LP02          | 5        |
+
+    > [!NOTE]
+    > Stofna þarf tvær númeraplötur og nota staðsetningar sem leyfa blandaðar vörur, svo sem *FL-010* og *FL-011*.
+
+### <a name="create-a-sales-order-and-reserve-a-specific-license-plate"></a>Stofna sölupöntun og taka frá tiltekna númeraplötu
+
+1. Farðu í **Sölu og markaðssetningu \> Sölupöntun \> Allar sölupantanir**.
+1. Veljið **Nýtt**.
+1. Sláið inn eftirfarandi gildi í svarglugganum **Stofna sölupöntun**:
+
+    - **Viðskiptavinalykill:** *US-001*
+    - **Vöruhús:** *24*
+
+1. Veljið **Í lagi** til að loka svarglugganum **Stofna sölupöntun** og opnið nýju sölupöntunina.
+1. Í flýtiflipanum **Sölupöntunarlínur** skal bæta við línu sem er með eftirfarandi stillingum:
+
+    - **Vörunúmer:** *Item1*
+    - **Magn:** *10*
+
+1. Bæta við annarri sölupöntunarlínu sem er með eftirfarandi stillingar:
+
+    - **Vörunúmer:** *Item2*
+    - **Magn:** *5*
+
+1. Veljið **Vista**.
+1. Í flýtiflipanum **Upplýsingar um línu**, í flipanum **Uppsetning**, skal skrá hjá sér gildið **Lotukenni** fyrir hverja línu. Þessi gildi eru nauðsynleg þegar tilteknar númeraplötur eru teknar frá.
+
+    > [!NOTE]
+    > Til að taka frá tiltekna númeraplötu þarf að nota gagnaeininguna **Frátektir á ráðstöfuðum pöntunum eftir númeraplötu**. Til að taka frá runurakta vöru á tiltekinni númeraplötu er einnig hægt að nota síðuna **Frátekt á runu**, eins og lýst er í hlutanum [Færa inn upplýsingar um sölupöntun](#sales-order-details).
+    >
+    > Ef númeraplata er færð beint inn í sölupöntunarlínuna og hún síðan staðfest í kerfinu, verður vinnsla vöruhúsakerfis ekki notuð fyrir línuna.
+
+1. Veljið **Opna í Microsoft Office**, veljið **Frátektir á ráðstöfuðum pöntunum eftir númeraplötu** og hlaðið niður skránni.
+1. Opnið niðurhalaða skrá í Excel og veljið **Virkja breytingar** svo að Excel-innbótin geti keyrt.
+1. Ef verið er að keyra í Excel-innbót í fyrsta sinn, er valið **Treysta þessari innbót**.
+1. Ef beðið er um að skrá sig inn skal velja **Innskráningu**, og síðan skrá sig inn með því að nota sömu innskráningarupplýsingar og eru notuð til að skrá sig inn í Supply Chain Management.
+1. Til að taka frá vöru á tiltekinni númeraplötu, í Excel-innbótinni, skal velja **Ný** til að bæta við frátektarlínu og stilla síðan eftirfarandi gildi:
+
+    - **Lotukenni:** Færið inn gildið fyrir **Lotukenni** sem fannst sölupöntunarlínuna fyrir *Item1*.
+    - **Númeraplata:** *LP02*
+    - **ReservedInventoryQuantity:** *10*
+
+1. Veljið **Ný** til að bæta við annarri frátektarlínu og stillið eftirfarandi gildi:
+
+    - **Lotukenni:** Færið inn gildið fyrir **Lotukenni** sem fannst sölupöntunarlínuna fyrir *Item2*.
+    - **Númeraplata:** *LP02*
+    - **ReservedInventoryQuantity:** *5*
+
+1. Í Excel-innbótinni skal velja **Birta** til að senda gögnin aftur í Supply Chain Management.
+
+    > [!NOTE]
+    > Frátektarlínan birtist aðeins í kerfinu ef birtingu er lokið án villna.
+
+1. Farið aftur í Supply Chain Management. 
+1. Til að yfirfara frátekningu vörunnar, í flýtiflipanum **Sölupöntunarlínur**, í valmyndinni **Birgðir**, skal velja **Vinna með \> Frátekning**. Athugið að fyrir sölupöntunarlínuna fyrir *Item1* eru birgðir upp á *10* teknar frá og fyrir sölupöntunarlínuna fyrir *Item2*, eru birgðir upp á *5* teknar frá.
+1. Til að fara yfir birgðafærslur sem tengjast frátekningu sölupöntunarlínu, í flýtiflipanum **Sölupöntunarlínur**, í valmyndinni **Birgðir**, skal velja **Skoða \> Færslur**. Athugið að tvær færslur eru tengdar frátekningunni: ein þar sem reiturinn **Tilvísun** er stilltur á *Sölupöntun* og ein þar sem reiturinn **Tilvísun** er stilltur á *Frátekning á ráðstafaðri pöntun*.
+
+    > [!NOTE]
+    > Færsla þar sem reiturinn **Tilvísun** er stilltur á *Sölupöntun* sýnir frátekningu pöntunarlínu fyrir birgðavíddir sem eru fyrir ofan stigið **Staðsetning** (svæði, vöruhús og birgðastaða). Færsla þar sem reiturinn **Tilvísun** er stilltur á *Frátekning á ráðstafaðri pöntun* sýnir frátekningu pöntunarlínu fyrir tiltekna númeraplötu og staðsetningu.
+
+1. Til að losa sölupöntunina, á aðgerðasvæðinu, í flipanum **Vöruhús**, í flokknum **Aðgerðir**, skal velja **Losa í vöruhús**.
+
+### <a name="review-and-process-warehouse-work-with-order-committed-license-plates-assigned"></a>Yfirfara og vinna úr vöruhúsavinnu með úthlutaðar númeraplötur ráðstafaðrar pöntunar
+
+1. Í flýtiflipanum **Sölupöntunarlínur**, í valmyndinni **Vöruhús**, skal velja **Upplýsingar um vinnu**.
+
+    Þar sem frátekning er gerð fyrir tiltekna runu, notar kerfið ekki staðsetningarleiðbeiningar þegar það stofnar vinnu fyrir sölupöntunina sem notar frátekningu númeraplötu. Vegna þess að frátekning ráðstafaðrar pöntunar tilgreinir allar birgðavíddir, þ.á.m. staðsetningu, þarf ekki að nota staðsetningarleiðbeiningar vegna þess að birgðavíddir eru aðeins færðar inn í vinnuna. Þær eru sýndar í hlutanum **Úr birgðavíddum** á síðunni **Birgðafærslur vinnu**.
+
+    > [!NOTE]
+    > Þegar búið er að stofna vinnu, er birgðafærsla vörunnar þar sem reiturinn **Tilvísun** er stilltur á *Frátekning á ráðstafaðri pöntun* fjarlægð. Birgðafærslan þar sem reiturinn **Tilvísun** er stilltur á *Vinna* inniheldur nú efnislega frátekningu fyrir allar birgðavíddir magns.
+
+1. Í fartækinu skal ljúka tiltekt og frágangi vinnunnar með því að nota valmyndaratriði þar sem gátreiturinn **Meðhöndla eftir númeraplötu** er valið.
+
+    > [!NOTE]
+    > Aðgerðin **Meðhöndla eftir númeraplötu** sér um að vinna úr allri númeraplötunni. Ef nauðsynlegt er að vinna úr hluta númeraplötunnar, er ekki hægt að nota þessa aðgerð.
+    >
+    > Mælt er með því að aðskilin vinna sé búin til fyrir hverja númeraplötu. Til að ná þessu fram skal nota eiginleikann **Vinnuhausaskil** á síðunni **Vinnusniðmát**.
+
+    Númeraplata *LP02* er nú tínd fyrir sölupöntunarlínur og komið fyrir á staðsetningunni *Útskot*. Á þessu stigi má hlaða og senda hana til viðskiptavinarins.
+
 ## <a name="exception-handling-of-warehouse-work-that-has-order-committed-batch-numbers"></a>Meðhöndlun undantekninga á vöruhúsavinnu sem er með rununúmer ráðstafaðra pantana
 
 Vörugeymsla til að velja pöntunarbundin lotunúmer er háð sömu stöðluðu meðhöndlun undantekninga vörugeymslu og aðgerðum og venjuleg vinna. Almennt er hægt að hætta við opna verkið eða vinnu línuna, það er hægt að trufla það vegna þess að notendastaður er fullur, það er hægt að velja hann stutt og það er hægt að uppfæra hann vegna hreyfingar. Sömuleiðis er hægt að draga úr valinni vinnu sem þegar hefur verið lokið eða hægt er að snúa verkinu við.
@@ -194,7 +368,7 @@ Eftirfarandi lykilregla er notuð við allar þessar undantekningarmeðferðara�
 
 ### <a name="example-scenario"></a>Dæmi
 
-Dæmi um þessa atburðarás er ástand þar sem verið er að velja áður lokið verk með því að nota virknina **Draga úr völdu magni**. Þetta dæmi heldur áfram með fyrra dæminu í þessu efni.
+Dæmi um þessa atburðarás er ástand þar sem verið er að velja áður lokið verk með því að nota virknina **Draga úr völdu magni**. Þetta dæmi gerir ráð fyrir því að skrefunum sem lýst er í [Sýniaðstæður: Úthlutun rununúmers](#Example-batch-allocation) sé lokið. Það heldur áfram þar sem frá var horfið í því dæmi.
 
 1. Farðu í **Vöruhúsakerfi** \> **Hleðslur** \> **Virkar hleðslur**.
 2. Veldu álag sem var búið til í tengslum við sendingu sölupöntunar þinnar.

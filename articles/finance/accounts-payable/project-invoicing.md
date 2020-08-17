@@ -1,9 +1,9 @@
 ---
-title: Verkreikningur
-description: Þessi grein veitir yfirlit yfir verkreikninga fyrir Tíma- og efnisverk og fastverðsverk. Hún inniheldur upplýsingar um reikningstillögur (bráðabirgðareikningar), reikningsstjórnun, reikningsfærslu áfangareikninga, reikningsfærslu lánardrottna og kreditnótur.
-author: ShylaThompson
+title: Reikningsfærsla verks
+description: Þetta efnisatriði veitir yfirlit yfir reikningsfærslu verka fyrir tíma- og efnisverk og verkefni á föstu verði. Hún inniheldur upplýsingar um reikningstillögur (bráðabirgðareikningar), reikningsstjórnun, reikningsfærslu áfangareikninga, reikningsfærslu lánardrottna og kreditnótur.
+author: TaylorVH
 manager: AnnBe
-ms.date: 10/24/2017
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,20 +16,20 @@ ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81a3d64d04ceb20fec2f5ca4bb005e7ecb3c1929
-ms.sourcegitcommit: d2b111bf7a5fbf62ff2874d6c57c5ef8412df82e
+ms.search.validFrom: 2020-07-06
+ms.dyn365.ops.version: AX 10.0.13
+ms.openlocfilehash: eab7523296996709dfe7407c582e61e28b7d4f23
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "3331373"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651593"
 ---
-# <a name="project-invoicing"></a>Verkreikningur
+# <a name="project-invoicing"></a>Reikningsfærsla verks
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir yfirlit yfir verkreikninga fyrir Tíma- og efnisverk og fastverðsverk. Hún inniheldur upplýsingar um reikningstillögur (bráðabirgðareikningar), reikningsstjórnun, reikningsfærslu áfangareikninga, reikningsfærslu lánardrottna og kreditnótur.
+Þetta efnisatriði veitir yfirlit yfir reikningsfærslu verka fyrir tíma- og efnisverk og verkefni á föstu verði. Hún inniheldur upplýsingar um reikningstillögur (bráðabirgðareikningar), reikningsstjórnun, reikningsfærslu áfangareikninga, reikningsfærslu lánardrottna og kreditnótur.
 
 Verkgerðin ákvarðar hvaða reikningsfærsluaðferð skal beitt. Aðeins er hægt að reikningsfæra tvær ytri verkgerðir (Tíma- og efnisverk og fastverðsverk). Tíma- og efnisverk og fastverðsverk eru alltaf tengd við verksamning.
 
@@ -47,7 +47,7 @@ Verkgerðin ákvarðar hvaða reikningsfærsluaðferð skal beitt. Aðeins er h�
 
 ### <a name="creating-invoice-proposals"></a>Stofnun reikningstillaga
 
-Hægt er að stofna reikningstillögur handvirkt með því að velja úr lista yfir færslur fyrir tilgreinda verkið. Einnig er hægt að setja upp reikningsreglur sem tilgreina hvenær á að stofna sjálfkrafa reikningstillögu. Til dæmis er hægt að stofna reikningsreglur til að stofna reikningstillögu þegar vinna við verkið er 25 prósent, 50 prósent, 75 prósent og 100 prósent lokið. 
+Hægt er að stofna reikningstillögur með því að velja færslu handvirkt úr lista yfir tiltækar færslur fyrir tiltekið verk. Einnig er hægt að setja upp reikningsreglur sem tilgreina hvenær á að stofna sjálfkrafa reikningstillögu. Til dæmis er hægt að búa til reikningsreglu til að stofna reikningstillögu þegar vinna við verk er 25 prósent, 50 prósent, 75 prósent og 100 prósent lokið. 
 
 Hægt er að stofna reikningstillaga fyrir eftirfarandi færslur:
 
@@ -57,34 +57,37 @@ Hægt er að stofna reikningstillaga fyrir eftirfarandi færslur:
 -   Fjárhæðir sem viðskiptavinur greiðir til þín áður en verkefnið hefst
 
 > [!NOTE]
-> Eiginleikinn **Virkja flokkun eftir tilföngum við stofnun á reikningstillögu verks** gerir endurskoðanda verksins kleift að flokka verkfærslurnar sem eru tiltækar til innheimtu eftir tilfanginu við stofnun á nýrri tillögu að reikningstillögu verks. Taflan sem sýnir fyrirliggjandi verkfærslur mun hafa sérstakan reit fyrir tilfangakenni og tilföng, sem gerir notandanum kleift að sía og flokka heiti tilfanga. Þessi aðgerð er sjálfkrafa óvirk og hægt er að virkja hana í **Vinnusvæði > Stjórnun eiginleika**. Hafðu samband við kerfisstjóra til að fá hjálp við að virkja þennan eiginleika.
+> Eiginleikinn **Virkja flokkun eftir tilföngum við stofnun á reikningstillögu verks** gerir endurskoðanda verksins kleift að flokka verkfærslurnar sem eru tiltækar til innheimtu eftir tilfanginu við stofnun á nýrri tillögu að reikningstillögu verks. Hnitanetið sem sýnir tiltækar verkfærslur verður með aðskilda reiti fyrir **Auðkenni tilfangs** og **Tilfang**. Þessir reitir gera kleift að sía og raða tilfangaheitinu. Slökkt er á þessum eiginleika að sjálfgefnu. Hægt er að virkja hann með því að nota síðuna **Eiginleikastjórnun** (**Vinnusvæði > Eiginleikastjórnun**). Hafið samband við kerfisstjórann til að fá aðstoð við að kveikja á eiginleikanum.
 
 Í reikningstillaga er hægt að stofna færslur fyrir þóknun í reikningstillögu. Einnig er hægt að breyta söluverði á klukkutíma, kostnaði, vöru og þóknunarfærslum. Þegar reikningstillaga er bókuð er uppfært verð og færslum bætt við skýrslur um verk og færslusögu. 
 
-Til að stofna marga reikninga viðskiptavinar fyrir verk verður að stofna reikningstillögu fyrir hvern reikning. Til dæmis er hægt að stofna reikninga sem byggjast á færslugerð. Ef óskað er að tilgreina tíma á einum reikningur viðskiptavinar og vörur á öðrum, verður að stofna reikningstillögu fyrir tímafærslur og aðskildar reikningstillögu fyrir þóknunarfærslur. 
+Til að stofna marga reikninga viðskiptavinar fyrir verk verður að stofna reikningstillögu fyrir hvern reikning. Til dæmis er hægt að stofna reikninga sem byggjast á færslugerð. Til að gefa upp tíma á einum reikningi viðskiptavinar og vörur á öðrum reikningi, þarf að stofna aðskildar reikningstillögur fyrir tímafærslur og þóknunarfærslur. 
 
-Ef verk hefur fleiri en einn uppruni fjármögnunar er hægt að stofna aðskilda reikningstillögu fyrir hvern uppruni fjármögnunar. Í **úthlutanir fjármögnunarreglu** síðu, er hægt að tilgreina hlutfall færsluupphæðar sem á að úthluta á hvern uppruni fjármögnunar, og upprunann til að bóka sléttunarmun.
+Ef verk hefur fleiri en einn uppruni fjármögnunar er hægt að stofna aðskilda reikningstillögu fyrir hvern uppruni fjármögnunar. Í **Úthlutanir fjármögnunarreglu** síðu, er hægt að tilgreina hlutfall færsluupphæðar sem á að úthluta á hvern uppruni fjármögnunar, og upprunann til að bóka sléttunarmun á.
 
 ### <a name="creating-customer-invoices-from-invoice-proposals"></a>Búa til reikninga viðskiptavina frá reikningstillaga
 
 Eftir að þú stofnar og bókar reikningstillögu er reikningur viðskiptavinar sjálfvirkt stofnaður fyrir færslur sem eru í reikningstillögunni. 
 
-Hægt er að bæta við eða eyða færslum í reikningstillögu áður en hún er bókuð. Til dæmis er hægt að fjarlægja kostnaðarfærslur sem voru bókaðar í verk en eru ekki reikningshæfar til viðskiptavinar. 
+Hægt er að bæta við eða eyða færslum í reikningstillögu áður en hún er bókuð. Til dæmis er hægt að fjarlægja kostnaðarfærslur sem voru bókaðar á verk, en er ekki hægt að rukka viðskiptavin fyrir. 
 
-Ef fyrirtækið þitt krefst þess að fara yfir reikningstillögur áður en þær eru bókaðar, gæti þurft að samþykkja reikningstillögunni gegnum "endurskoða tillögur um verkreikning" áður en bókað er.
+Ef fyrirtækið þitt krefst þess að farið sé yfir reikningstillögur áður en þær eru bókaðar, gæti þurft að samþykkja reikningstillöguna gegnum verkflæðið „Endurskoða reikningstillögur verks“ áður en hún er bókuð.
+
+### <a name="view-grant-information-on-project-invoice-list-pages"></a>Skoða upplýsingar um styrki á listasíðum verkreikninga
+
+Notendur í opinbera geiranum geta bætt **Kenni styrks** og **Heiti styrks** við listasíðurnar **Reikningstillögur verks** og **Verkreikningar**. Þessi dálkar eru virkjaðir með því að nota eiginleikann **Bæta við styrkupplýsingum á listasíður verkreiknings**. Slökkt er á þessum eiginleika að sjálfgefnu og hægt er að virkja hann í **Vinnusvæði > Eiginleikastjórnun**. Hafið samband við kerfisstjórann til að fá aðstoð við að kveikja á eiginleikanum.
 
 ## <a name="on-account-invoicing"></a>Reikningsfærslur áfangareikninga
 Upphæðin sem færð er inn fyrir verk í áfangareikning á grundvelli tímasetningar, hlutfall þess sem er lokið og aðrar innheimtuskilyrða sem tilgreind eru í tengda verksamning. Upphæð er ekki reiknaður út á grundvelli klukkustundir, vörur, útgjöld eða þóknanir sem eru bókaðar í verk. 
 
-Þú verður að stofna í áfangareikningsfærslu fyrir tíma- og efnisverkefni eða fastverðsverk áður en hægt er að bæta við áfangareikningsfærsla við verkreikning. Á áfangareikningsfærslu færirðu inn upphæðina sem á að reikningsfæra á viðskiptavin. Til að stofna bráðabirgðareikning, til að búa til verkreikning fyrir upphæð, (reikningstillögu). Í reikningstillögu, velja áfangareikningsfærsla. Hægt er að skoða upplýsingar um áfangareikning í reikningstillögunni áður verkreikningur er stofnaður fyrir hann.
+Stofna verður áfangareikningsfærslu fyrir tíma- og efnisverk eða verk á föstu verði áður en hægt er að bæta þessari áfangareikningsfærslu við verkreikning. Á áfangareikningsfærslu færirðu inn upphæðina sem á að reikningsfæra á viðskiptavin. Til að stofna bráðabirgðareikning, til að búa til verkreikning fyrir upphæð, (reikningstillögu). Í reikningstillögu, velja áfangareikningsfærsla. Hægt er að skoða upplýsingar um áfangareikning í reikningstillögunni áður verkreikningur er stofnaður fyrir hann. 
 
 ### <a name="fixed-price-projects"></a>Fastverðsverk
-
 Fyrir fastverðsverk, áfangareikningsfærslur eru byggð á er samþykkt við áfanga, eining eða framvindu reikningsfærslu skipan beðið sem tilgreindur er í verk. Ein lína er búin til fyrir hverja greiðslu sem verður að berast frá viðskiptavini verkefnisins. Enginn frádráttur er nauðsynlegur.
 
 ### <a name="time-and-material-projects"></a>Tíma- og efnisverk.
 
-Fyrir Tíma- og efnisverk er hægt uppskriftavörur viðskiptavinar eða öðrum fjármögnunaraðila fyrir fyrirframgreiðslu með reikningstillaga áfangareiknings. Færa inn áfangareikningsfærslur sem ein lína. Einnig er hægt að færa inn fleiri línur sem frádrátt til að mótbóka allar fyrirframgreiðslur sem viðskiptavinurinn hefur þegar verið gerðar. Til að stofna frádráttarlínur þarf að vera mínus tákn á undan upphæð.
+Fyrir Tíma- og efnisverk er hægt uppskriftavörur viðskiptavinar eða öðrum fjármögnunaraðila fyrir fyrirframgreiðslu með reikningstillaga áfangareiknings. Færa inn áfangareikningsfærslur sem ein lína. Einnig er hægt að færa inn fleiri línur sem frádrátt til að mótbóka allar fyrirframgreiðslur sem viðskiptavinurinn hefur þegar verið gerðar. Til að stofna frádráttarlínur þarf að slá inn mínusmerki á undan upphæðinni.
 
 ## <a name="invoice-control"></a>Reikningastýring
 Hægt er að nota reikningsstýringu til að rekja bæði reikningsfærðar og óreikningsfærðar færslur og til að greina þær færslur á móti tilboð fyrir yfirlit frá upphafi til enda yfir verk þín úr stigi tilboðs til loka. Hægt er að sjá hvaða færslur er búið að reikningsfæra á tiltekið verk og línur sem hafa verið reikningsfærðar. Einnig er hægt að sjá einstakar færslur þannig að hægt sé að aðlaga þær eftir að þær eru bókaðar.
@@ -108,10 +111,10 @@ Hægt er að reikningsfæra fastverðsverk á reikningsáætlun. Reikningsáætl
 Þegar áfangagreiðslur eru tilbúnar fyrir reikningsfærslu er notað ferlið til að reikningsfæra upphæðir á áfangareikningi.
 
 ## <a name="vendor-invoicing"></a>Reikningsfærslur lánardrottins
-Þegar vara pöntuð frá lánardrottni og vöru úthlutað á verk, ákvarðar línueiginleikinn sem er valinn fyrir innkaupapöntunarlínu fyrir þessa vöru hvort keypt vara er reikningsfærð á viðskiptavin. Ef sett er upp sjálfgefna línueiginleika, birtast þeir fyrir vöruna innkaupapöntunarlínu (Línuupplýsingar &gt; Verk &gt; Línueiginleikar). Það eru tvær leiðir til að breyta línueiginleika:
+Þegar vara pöntuð frá lánardrottni og vöru úthlutað á verk, ákvarðar línueiginleikinn sem er valinn fyrir innkaupapöntunarlínu fyrir þessa vöru hvort keypt vara er reikningsfærð á viðskiptavin. Ef sjálfgefnir línueiginleikar eru settir upp, birtast þeir fyrir vöruna innkaupapöntunarlínu (**Línuupplýsingar > Verk > Upphæðir línueiginleika**). Það eru tvær leiðir til að breyta línueiginleika:
 
--   Reikningsfæra viðskiptavin verks fyrir vöru: Stilla línueiginleika fyrir vöru á reikningshæft gildi á innkaupapöntuninni, og reikningsfæra á viðskiptavininn með því að nota rétta reikningsfærsluaðferð verks.
--   Ekki reikningsfæra viðskiptavin verks fyrir vöru: ekki velja **Reikningshæfa** línueiginleikann á innkaupapöntunarlínu fyrir vörunnar. Síðan geturðu reikningsfært Innkaupapöntunin , og ekki þarf að gera frekari aðgerðir.
+-   Reikningsfæra viðskiptavin verksins fyrir vöruna. Til að gera þetta skal stilla línueiginleika fyrir vöruna á reikningshæft gildi í innkaupapöntuninni, og síðan reikningsfæra viðskiptavininn með því að nota rétta reikningsfærsluaðferð verks.
+-   Ekki reikningsfæra viðskiptavin verksins fyrir vöruna. Til að gera þetta skal velja línueiginleikann **Reikningshæft** í innkaupapöntunarlínu fyrir vöruna. Síðan geturðu reikningsfært Innkaupapöntunin , og ekki þarf að gera frekari aðgerðir.
 
 > [!NOTE] 
 > Sjálfgefið er ekki hægt að reikningsfæra varðveislulínur losunar. Þetta þýðir að möguleikinn á að búa til reikningstillögu fyrir útgefna varðveislu er ekki virkur.
@@ -119,7 +122,7 @@ Hægt er að reikningsfæra fastverðsverk á reikningsáætlun. Reikningsáætl
 ## <a name="credit-notes"></a>Kreditnótur
 Þegar upphæð á reikningur viðskiptavinar hefur neikvætt gildi, er reikningurinn flokkaður sem kreditnóta. Þegar skjalið er prentað ber það titilinn „Kreditnóta." 
 
-Þegar kreditnóta er stofnuð til að kreditfæra upphæð sem var áður reikningsfærð þarf fyrst að velja reikningsfærðu upphæðina sem á að kreditfæra. Svo er kreditnóta stofnuð með því að fylgja sama ferli sem er notað til að stofna venjulegan reikningur viðskiptavinar. Með öðrum orðum, Velja færslur sem voru áður bókaðar fyrir reikning viðskiptavinar og stofna síðan og bóka tillögu að kreditnótu. 
+Þegar kreditnóta er stofnuð til að kreditfæra upphæð sem var áður reikningsfærð þarf fyrst að velja reikningsfærðu upphæðina sem á að kreditfæra. Svo er kreditnóta stofnuð með því að fylgja sama ferli sem er notað til að stofna venjulegan reikning viðskiptavinar. Þú velur færslur sem voru áður bókaðar fyrir reikning viðskiptavinar og stofna síðan og bóka tillögu að kreditnótu. 
 
 Sama skjal getur innihaldið færslur sem eru valdar fyrir kreditfærslu, og færslur sem hafa verið bókaðar. Flokkun skjals er þá annað hvort reikningur eða kreditnóta eftir því hvort heildarupphæðin er jákvæð eða neikvæð. 
 

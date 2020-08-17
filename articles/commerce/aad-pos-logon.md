@@ -3,7 +3,7 @@ title: Virkja Azure Active Directory sannvottun fyrir POS innskráningu
 description: Þetta efni útskýrir hvernig á að stilla innskráningarupplifunina fyrir Microsoft Dynamics 365 Commerce sölustað (POS) þannig að hún noti Azure Active Directory auðkenningu.
 author: boycezhu
 manager: annbe
-ms.date: 05/20/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 4f5a02348e8cef44424ae5d6a49de02d762ba245
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: ccb2d62b09153d03b064d9661227f3499d67bca2
+ms.sourcegitcommit: dc1dcd0ccc40be5d45701114fa8c952c13488344
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410036"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3641034"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Virkja Azure Active Directory sannvottun fyrir POS innskráningu
 [!include [banner](includes/banner.md)]
@@ -64,9 +64,12 @@ Til að tengja Azure AD-reikning við starfsmann skaltu fylgja þessum skrefum.
 
 Reitirnir **Samheiti**, **UPN** og **Ytra undirkennimerki** á flipanum **Commerce** á upplýsingasíðu starfsmannsins verður fylltur út.
 
+> [!NOTE]
+> Þegar skrá starfsmanns er uppfærð, til dæmis ef nýr Azure AD-reikningur er tengdur við, aðgangsorði er breytt eða aðsetursbók starfsmanns er uppfærð, er mælt með því að keyra dreifingaráætlun **1060** (**Starfsfólk**) til að samstilla nýjustu upplýsingar um starfsfólk við rásina. Þannig getur forrit sölustaðar sótt réttar upplýsingar fyrir sannvottun notanda og athugun heimildar.
+
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Setja upp aukna innskráningarvirkni fyrir MPOS og sölukerfi í skýinu](extended-logon.md)
+[Setja upp aukna innskráningarvirkni fyrir MPOS og Cloud POS](extended-logon.md)
 
 [Stofna virknireglu fyrir smásölu](retail-functionality-profile.md)
 

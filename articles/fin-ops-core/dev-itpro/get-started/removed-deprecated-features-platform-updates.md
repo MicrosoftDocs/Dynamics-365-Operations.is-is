@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 50362ccd9df7a44961bd6e46fa16779829b1c408
-ms.sourcegitcommit: 96ec8b7252296de0049bff406c743f8da9e0f0be
+ms.openlocfilehash: 393349240d16636d3eec747126cc1ee6f6f9998d
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "3606823"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651667"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fjarlægðir eða úreltir eiginleikar verkvangs
 
@@ -38,8 +38,7 @@ ms.locfileid: "3606823"
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.13 á forritum Finance and Operations
 
 > [!NOTE]
-> Útgáfa 10.0.13 hefur ekki verið gefin út ennþá. Þessar upplýsingar eru veittar til áætlunargerðar. Innihald og virkni útgáfu 10.0.13 getur tekið breytingum. Frekari upplýsingar um útgáfur er að finna í [Framboð uppfærslu á þjónustu](../../fin-ops/get-started/public-preview-releases.md).
-
+> Útgáfa 10.0.13 er forútgáfa. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í hlutanum [Framboð þjónustuuppfærslu](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Uppfærsla á þremur jQuery-þáttasöfnum 
 
@@ -50,6 +49,27 @@ ms.locfileid: "3606823"
 | **Afurðasvæði sem haft er áhrif á**         | Stækkanlegt stjórntæki, sérsniðinn JavaScript-kóði sem nýtir API sem er búið að úrelda eða fjarlægja |
 | **Dreifingarvalkostur**              | Allir |
 | **Staða**                         | Með útgáfu 10.0.13/uppfærslu 37 geta viðskiptavinir fært nýjustu söfnin með því að virkja eiginleikann „Uppfæra þrjú jQuery-þáttasöfn“. Áskilið verður að flytja nýju söfnin með útgáfunni í apríl 2021 til að bjóða upp á tíma fyrir flutning viðeigandi API.   |
+
+### <a name="existing-grid-controlforcelegacygrid-api"></a>Fyrirliggjandi hnitanetsstýring/forceLegacyGrid() API
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Verið er að skipta út núverandi hnitanetsstýringu fyrir nýju hnitanetsstýringuna. |
+| **Skipt út fyrir aðra eiginleika?**   | [Ný hnitanetsstýring](../..//fin-ops/get-started/grid-capabilities.md) |
+| **Afurðasvæði sem haft er áhrif á**         | Vefbiðlari |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Í útgáfu 10.0.13 er nýja hnitanetsstýringin almennt í boði og viðskiptavinir geta kveikt á þessum eiginleika ef þeir vilja. Nýja hnitanetsstýringin verða áskilin í útgáfu í október 2021. Þegar nýja hnitanetsstýringin verður áskilin verður **forceLegacyGrid()** API ekki lengur virt. |
+
+### <a name="personalization-without-saved-views"></a>Sérstillingar án vistaðra yfirlita 
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Undirkerfi sérstillinga hefur verið yfirfarið með eiginleikanum fyrir vistuð yfirlit þannig að afköstin verði betri og boðið verður upp á fleiri möguleika. |
+| **Skipt út fyrir aðra eiginleika?**   | Vistuð yfirlit |
+| **Afurðasvæði sem haft er áhrif á**         | Vefbiðlari |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Í útgáfu 10.0.13/verkvangsuppfærslu 37 er eiginleiki vistaðra yfirlita almennt í boði og viðskiptavinir geta kveikt á honum ef þeir vilja. Eiginleiki vistaðra yfirlita verður áskilinn í útgáfu í október 2021. |
+
 
 ## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.12 á forritum Finance and Operations
 

@@ -3,7 +3,7 @@ title: Stofna og stjórna notendum fyrir viðskiptavinagátt
 description: Þetta efnisatriði útskýrir hvernig á að stofna notendareikninga viðskiptavinagáttar og stilla heimildir þeirra.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: c56e41b8ea5039531205083b5b42aff05e05cf66
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: a751cbffd98b8d47ca7dad222f0ce374381a393d
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413975"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645314"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Stofna og stjórna notendum fyrir viðskiptavinagátt
 
@@ -30,11 +30,16 @@ ms.locfileid: "3413975"
 
 Þegar notendur skrá sig sjálfir eru tengiliðafærslur sjálfkrafa búnar til fyrir þá. Þess vegna er ekki hægt að tryggja að notandi velji réttan viðskiptavinalykil og lögaðila. Aftur á móti gerir boðsferlið stjórnanda kleift að úthluta réttum viðskiptavinalykli og lögaðila til tengiliðafærslunnar áður en boð er sent. Ef þú ert að hugsa um að sérsníða lausnina svo notendur geti skráð sig sjálfir skaltu fyrst huga að hugsanlegum afleiðingum.
 
+## <a name="video"></a>Myndband
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
+
+Myndbandið [Bjóða viðskiptavinum að skrá sig og nota viðskiptavinagáttina](https://youtu.be/drGUYHX9QIQ) (sýnt hér að neðan) er innifalið í [Finance and Operations spilunarlistanum](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) sem er hægt að nálgast í YouTube.
+
 ## <a name="prerequisite-setup"></a>Uppsetning frumskilyrða
 
 Tengiliðir í Power Apps-gáttum eru vistaðir sem færslur í einingunni **Tengiliðir** í Common Data Service. Tvíritun samstillir síðan þessar færslur við Microsoft Dynamics 365 Supply Chain Management eftir þörfum.
 
-![![Skýringarmynd kerfis fyrir tengiliði viðskiptavinagáttar](media/customer-portal-contacts.png "Skýringarmynd kerfis fyrir tengiliði viðskiptavinagáttar")](media/customer-portal-contacts.png "System diagram for Customer portal contacts")
+![Skýringarmynd kerfis fyrir tengiliði viðskiptavinagáttar](media/customer-portal-contacts.png "Skýringarmynd kerfis fyrir tengiliði viðskiptavinagáttar")
 
 Áður en hafist er handa við að bjóða nýja viðskiptavini skal ganga úr skugga um að búið sé að virkja einingavörpunina **Tengiliðir** í tvíritun.
 
