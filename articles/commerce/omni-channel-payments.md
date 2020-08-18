@@ -3,7 +3,7 @@ title: Greiðsluyfirlit omni-rásar
 description: Þetta efnisatriði veitir yfirlit yfir greiðslur omni-rásar í Dynamics 365 Commerce.
 author: rubendel
 manager: AnnBe
-ms.date: 11/26/2019
+ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 2251e523f7dfa3a06f0c45a4e156dbe097587f9a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2127eb60a82bef8c6b5f5e9a917160331c483649
+ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022972"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3613178"
 ---
 # <a name="omni-channel-payments-overview"></a>Greiðsluyfirlit Omni-rásar
 
@@ -68,11 +68,13 @@ Eftirfarandi hlutar og uppsetningarskref eru nauðsynleg:
 
 - **Samþætting rafrænna viðskipta:** Samþætting við Commerce er nauðsynleg til að styðja atburðarásir þar sem pöntunin á upptök sín í netverslun. Nánari upplýsingar um SDK-rafræn viðskipti í Retail skal sjá [Þróunartól hugbúnaðar (SDK) fyrir verkvang rafrænna viðskipta](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). Í sýniútgáfuumhverfi styður tilvísun netverslunar atburðarásir fyrir greiðslu omni-rásar. 
 - **Skilgreining netgreiðslna:** Uppsetning á netrás verður að innihalda tengil sem hefur verið uppfærður til að styðja greiðslur omni-rásar. Að öðrum kosti er hægt að nota tilbúinn greiðslutengil. Frekari upplýsingar um hvernig á að skilgreina Adyen-greiðslutengil fyrir netverslanir er að finna í [Adyen-greiðslutengill](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Til viðbótar við uppsetningarskref rafrænna viðskipta sem er lýst í þessu efnisatriði verður færibreytan **Leyfa að vista greiðsluupplýsingar í rafrænum viðskiptum** að vera stillt á **Rétt** í stillingum fyrir Adyen-tengil. 
-- **Skilgreining á greiðslum omni-rásar:** í bakvinnslunni skal opna **Retail og Commerce \> Uppsetning höfuðstöðva \> Færibreytur \> Samnýttar færibreytur Commerce**. Síðan, í flipanum **Greiðslur á omni-rás**, skal stilla valkostinn **Nota greiðslur á omni-rás** á **Já**.
+- **Skilgreining á greiðslum omni-rásar:** í bakvinnslunni skal opna **Retail og Commerce \> Uppsetning höfuðstöðva \> Færibreytur \> Samnýttar færibreytur Commerce**. Síðan, í flipanum **Greiðslur á omni-rás**, skal stilla valkostinn **Nota greiðslur á omni-rás** á **Já**. Í Commerce, útgáfum 10.0.12 og nýrri, er þessi stilling á vinnusvæðinu **Eiginleikastjórnun**. Veljið eiginleikann **Greiðslur á Omni-rás** og smellið á **Virkja núna**. 
 - **Greiðsluþjónustur:** Símaverið notar sjálfgefinn greiðslutengil á síðunni **Greiðsluþjónustur** til að vinna úr greiðslum. Til að styðja við atburðarásir á borð við „Kaupa í símaveri, sækja í verslun“ verður þessi sjálfgefni greiðslutengill að vera Adyen-greiðslutengill eða greiðslutengill sem uppfyllir kröfur innleiðingar fyrir greiðslur á omni-rás.
 - **EFT-þjónusta:** Greiðslur í gegnum posa verða að vera settar upp í flýtiflipanum **EFT-þjónusta** fyrir vélbúnaðarsniðið. Adyen-tengillinn styður tilbúnar atburðarásir fyrir greiðslur á omni-rás. Aðra greiðslutengla sem styðja viðmótið **iNamedRequestHandler** er einnig hægt að nota ef þeir styðja greiðslur omni-rásar.
 - **Tiltækileiki greiðslutengils:** Þegar pöntun er endurkölluð innihalda línur greiðslumáta sem eru endurkallaðar, ásamt pöntuninni, heiti greiðslutengils sem var notaður til að búa til heimildirnar sem tengjast þeirri pöntun. Þegar pöntunin er uppfyllt reynir Payments SDK að nota sama tengil og var notaður til að búa til upprunalegu heimildina. Þess vegna þarf greiðslutengill sem er með sömu eiginleika söluaðila að vera tiltækur svo hægt sé að ná í hann. 
 - **Kortategundir:** Til þess að atburðarásir omni-rásar geti virkað almennilega þarf hver rás að vera með sömu uppsetningu fyrir greiðslumáta sem hægt er að nota fyrir omni-rás. Þessi uppsetning felur í sér auðkenni greiðslumáta og auðkenni kortategundar. Ef greiðslumátinn **Kort** er til dæmis með auðkennið **2** í uppsetningu netverslunar, ætti hann að vera með sama auðkennið í uppsetningu smásöluverslunar. Sama krafa á við um auðkenni korta. Ef kortanúmer **12** er stillt á **VISA** í netverslun, ætti að setja upp sama auðkennið fyrir smásöluverslunina. 
+- Retail Modern POS fyrir Windows eða Android með innbyggðri vélbúnaðarstöð -eða-
+- Modern POS fyrir iOS eða sölukerfi í skýinu með tengdri samnýttri vélbúnaðarstöð. 
 
 ### <a name="basic-principle-supporting-omni-channel-payments"></a>Grundvallarregla sem styður greiðslur á omni-rás
 
@@ -100,8 +102,10 @@ Eftirfarandi kaflar lýsa skrefunum fyrir hverja atburðarás og sýna hvernig �
 Áður en hafist er handa skal ganga úr skugga um að eftirfarandi skilyrði séu uppfyllt:
 
 - Þú ert með tilvísun í netverslun þar sem Adyen-tengill er skilgreindur.
-- Valkosturinn **Greiðslur á Omni-rás** á síðunni **Samnýttar færibreytur Commerce** er stilltur á **Satt**.
+- Valkosturinn **Greiðslur á Omni-rás** á síðunni **Samnýttar færibreytur Commerce** er stilltur á **Satt**. Í síðari útgáfum er þessi stilling flutt yfir á vinnusvæðið **Eiginleikastjórnun** þar sem hægt er að velja eiginleikann **Greiðslur á Omni-rás** og smella á **Virkja núna**. 
 - Adyen-greiðslutengill er skilgreindur fyrir Houston-afgreiðslukassann.
+- Retail Modern POS fyrir Windows eða Android með innbyggðri vélbúnaðarstöð -eða-
+- Modern POS fyrir iOS eða sölukerfi í skýinu með tengdri samnýttri vélbúnaðarstöð. 
 
 Fylgdu þessum skrefum til að keyra atburðarásirnar.
 
@@ -229,3 +233,5 @@ Ef kortið sem var notað til að búa til pöntun er ekki lengur í gildi, þeg
 
 - [Algengar spurningar um greiðslur](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [Dynamics 365-greiðslutengill fyrir Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
+- [Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi](https://docs.microsoft.com/en-us/dynamics365/commerce/cpe-bopis)
+

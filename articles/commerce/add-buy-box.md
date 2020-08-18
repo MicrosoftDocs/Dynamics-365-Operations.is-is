@@ -3,7 +3,7 @@ title: Kaupkassaeining
 description: Þetta efni fjallar um kaupakassaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,17 +17,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 583937be92b62991cd13f0806df4a0a6c9ac049c
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 9780aabbac6d01d41dae526c7c06139eba07de4e
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411343"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645340"
 ---
 # <a name="buy-box-module"></a>Kaupkassaeining
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Þetta efni fjallar um kaupakassaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 
@@ -61,7 +61,7 @@ Magnval er veitt svo að viðskiptavinir geti tilgreint magn varanna sem á að 
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Einingar sem hægt er að nota í kaupkassaeiningu
 
-- **Miðlasafn** - Þessi eining er notuð til að sýna myndir af afurð á upplýsingasíðu afurðar. Það getur stutt eina til margar myndir. Það styður einnig smámyndir. Hægt er að raða smámyndunum annaðhvort lárétt (sem röð fyrir neðan myndina) eða lóðrétt (sem dálki við hliðina á myndinni). Hægt er að bæta miðlasafnseiningunni við hólfið **Miðlar** í kaupkassaeiningunni. Eins og stendur styður það aðeins myndir. 
+- **Miðlasafn** - Þessi eining er notuð til að sýna myndir af afurð á upplýsingasíðu afurðar. Frekari upplýsingar um þessa einingu er að finna í [Eining efnissafns](mediagallery-module.md).
 - **Verslunarval** – Þessi eining sýnir lista yfir nærliggjandi verslanir þar sem hægt er að sækja vöru. Það gerir notendum kleift að slá inn staðsetningu til að finna verslanir í nágrenninu. Frekari upplýsingar um þessa einingu er að finna í [Verslunarvalseining](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Stillingar kaupkassaeiningar
@@ -111,6 +111,8 @@ Fylgdu þessum skrefum til að bæta kaupkassaeiningu við nýja síðu og still
 [Yfirlit byrjendaeiningar](starter-kit-overview.md)
 
 [Vista valeiningu](store-selector.md)
+
+[Eining efnissafns](media-gallery-module.md)
 
 [Hólfeining](add-container-module.md)
 

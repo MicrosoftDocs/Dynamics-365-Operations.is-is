@@ -3,7 +3,7 @@ title: Stinga upp á eignakaupum
 description: Þetta efni lýsir hvernig á að kaupa eignir með því að nota kauptillögu í færslubók eigna.
 author: saraschi2
 manager: AnnBe
-ms.date: 07/22/2019
+ms.date: 07/27/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e08177aad2db2438c2d5d4ddd294c1056b88167c
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 0997af638c141661afb677e2407a90a883168aed
+ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142732"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628886"
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>Stinga upp á eignakaupum
 
 [!include [banner](../../includes/banner.md)]
 
-Þetta efni lýsir hvernig á að kaupa eignir með því að nota kauptillögu í færslubók eigna. Það notar Bókari hlutverk og sýnigögn fyrir USMF lögaðila.
+Þetta efni lýsir hvernig á að kaupa eignir með því að nota kauptillögu í færslubók eigna. Það notar Bókari hlutverk og sýnigögn fyrir USMF lögaðila. Til að komast yfir eign í gegnum tillögubók eignar, þarf fyrst að stofna eignafærsluna og síðan skilgreina kaupverð í eignabókinni.
 
 1. Í skoðunarrúðnni ferðu í **Kerfseiningar > Fastafjármunir > Dagbókarfærslur > Dagbók fastafjármuna**.
 2. Veljið **Nýtt**.
@@ -43,4 +43,3 @@ ms.locfileid: "3142732"
 - Aðeins eignir með kaupdag og kaupverðið settar á bókinni verða teknar með í kauptillögu.  
 11. Á síðunni velurðu flipann **Bækur**.
 12. Veldu **Bóka**.
-

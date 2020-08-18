@@ -3,7 +3,7 @@ title: Sjóðstreymisspár
 description: Þetta efnisatriði gefur yfirlit yfir ferli sjóðstreymisspár. Það útskýrir einnig hvernig sjóðstreymisspá er samþætt við aðrar einingar í kerfinu.
 author: saraschi2
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9795758a60d7913d306488ae6fbbfb7f9865cfc4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2ffb8522729049ca98acfb70992738b45c05b552
+ms.sourcegitcommit: cf39369545a94201f367a4efada595a04a319d42
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188419"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3653777"
 ---
 # <a name="cash-flow-forecasting"></a>Sjóðstreymisspár
 
@@ -102,9 +102,16 @@ Reiknaðu sjóðstreymisspá með því að nota síðuna **Reikna sjóðstreymi
 - Til að hreinsa allar færslur í sjóðstreymisspá og endurreikna skal stilla svæðið **Reikniaðferð sjóðstreymisspár** á **Heildarupphæð**. Mælt er með því að nota þessa nálgun ef sjóðstreymisspár hafa ekki verið uppfærðar í lengri tíma. 
 - Til að uppfæra fyrirliggjandi upplýsingar sjóðstreymisspár fyrir nýjar færslur skal stilla svæðið **Reikniaðferð sjóðstreymisspár** á **Nýtt**. Síðan sýnir þá dagsetningu þegar útreikningur á sjóðstreymi var síðast keyrður.
 
-Einnig er hægt að nota runuvinnslu í sjóðsstreymisspá. Til að tryggja að spágreiningar séu reglulega uppfærðar skal setja upp endurtekna runuvinnslu á útreikningum fyrir sjóðstreymisspár.
+Einnig er hægt að nota runuvinnslu í sjóðsstreymisspá. Til að tryggja að greiningarspárnar séu uppfærðar reglulega skal setja upp endurtekna runuvinnslu fyrir útreikning á sjóðsstreymisspá.
 
-### <a name="reporting"></a>Skýrslur
+Í útgáfu 10.0.13, var gefin út viðbót við reikningsferlið sem notar ramma sjálfvirkniferlis til að áætla reikningsverk sjóðstreymis. Þetta er gert virkt með því að nota eiginleikann **Sjálfvirkni sjóðstreymisspár** á vinnusvæðinu **Eiginleikastjórnun**. Þegar þetta er virkt skal velja tengilinn **Sjálfvirkni sjóðstreymisspár** til að birta nýju sjálfvirknisíðuna þar sem hægt er að áætla útreikningsferli sjóðstreymis. Til að stofna nýja áætlun sjóðstreymisspár skal velja **Stofna nýjan sjálfvirkan ferli** og velja **Sjálfvirkni sjóðstreymisspár** í fellivalmyndinni **Gerð áætlunar**. Setja verður áætlun fyrir hvert fyrirtæki þar sem verið er að uppfæra gögn sjóðsstreymisspár fyrir.  Þessi síða sýnir einnig hvaða sjálfvirku verk sjóðsstreymisspár eru í bið og hvenær síðasta verkinu var lokið.  
+
+> [!NOTE] 
+> Ef fyrirliggjandi runuvinnslur eru þegar tímasettar fyrir sjóðsstreymisspár birtast villuboð og ekki verður hægt að virkja þennan eiginleika. Hreinsa þarf fyrirliggjandi runuvinnslur áður en hægt er að virkja þennan eiginleika. 
+
+Frekari upplýsingar er að finna í [Sjálfvirkni ferlis](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
+
+### <a name="reporting"></a>Skýrslugerð
 
 Eftir að sjóðsstreymisspá er reiknuð þarf að endurnýja tengdar einingarupplýsingar fyrir greiningarskýrslur. Á síðunni **Einingaverslun** skal velja mælinguna **uppsafnaðar LedgerCovLiquidityMeasurement** og smella svo á **Endurnýja**.
 
@@ -128,7 +135,7 @@ Vinnusvæðið **Yfirlit yfir reiðufé – öll fyrirtæki** sýnir greiningar 
 
 Vinnusvæðið **Yfirlit yfir reiðufé – núverandi fyrirtæki** sýnir greiningar fyrir sjóðstreymisspá í skilgreindum bókhaldsgjaldmiðli fyrirtækisins. Bókhaldsgjaldmiðillinn sem er notaður fyrir greiningu er skilgreindur á síðunni **Fjárhagur**. Þetta vinnusvæði sýnir yfirlit yfir sjóðstreymisspár og stöðu bankareikninga núverandi fyrirtækis. Línurit yfir sjóðsinnstreymi og útstreymi gefur yfirlit yfir framtíðarhreyfingar lausafjár og stöðu í bókhaldsgjaldmiðli ásamt ítarlegum upplýsingum um spáðar færslur. Einnig má sjá spáðar gengisstöður.
 
-Sjá flipann Tilvísunarstig Power BI fyrir frekari upplýsingar um framleiðslustig.
+Sjá efnisatriðið [Sjóðsstreymi Power BI](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content) fyrir frekari upplýsingar um greiningarspár fyrir sjóðsstreymi.
 
 Þar að auki er hægt að skoða gögn sjóðstreymisspár fyrir tiltekna lykla, pantanir og vörur á eftirfarandi síðum:
 

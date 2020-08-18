@@ -3,7 +3,7 @@ title: Hnitanetsgeta
 description: Þetta efni lýsir nokkrum kröftugum eiginleikum netstýringar. Það verður að gera nýja hnitanetsaðgerðina kleift að hafa aðgang að þessum möguleikum.
 author: jasongre
 manager: AnnBe
-ms.date: 06/04/2020
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 88a4e2fe69000f8034729d468ad5fd108d435c3e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b1dd5e852bdc116d0848687782c930b19eae7900
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431361"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651691"
 ---
 # <a name="grid-capabilities"></a>Hnitanetsgeta
 
@@ -128,20 +128,47 @@ Til að gera kerfið að viðurkenna gildi sem tjáningu, byrjaðu gildið með 
 
 Allar síðari notendatímabil munu byrja með virkjaða nýja netstýringu.
 
+## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Þróunaraðili] Afskrá einstaka síður frá því að nota nýja hnitanetið 
+Ef fyrirtækið uppgötvar síðu sem á í vandræðum með að nota nýja hnitanetið, er API tiltækt til að leyfa einstökum skjámyndum að nota eldri netstýringu og leyfa á sama tíma öðrum hlutum kerfisins að nota nýju netstýringuna. Til að afskrá einstaka síður frá því að nota nýja hnitanetið, skal bæta við eftirfarandi kallskilaboðum `super()` í `run()` aðferð skjámyndar.
+
+        this.forceLegacyGrid();
+
+Þetta API verður notað fram að útgáfu í október 2021 þegar nýja hnitanetstýringin verður áskilin. Tilkynnið öll vandamál til Microsoft sem krefjast þess að þetta API sé notað. 
+
 ## <a name="known-issues"></a>Þekkt vandamál
 Þessi hluti heldur lista yfir þekkt vandamál fyrir nýja hnitanetstýringuna á meðan eiginleikinn er í forútgáfu.  
 
 ### <a name="open-issues"></a>Opin vandamál
+-  Þegar búið er að virkja eiginleikann **Ný hnitanetsstýring**, halda sumar síður áfram að nota núverandi netstýringu. Þetta gerist við eftirfarandi aðstæður:  
+    -  Spjaldlisti er til á síðunni sem gefinn er upp í mörgum dálkum.
+    -  Flokkaður spjaldlisti er til á síðunni.
+    -  Dálkur hnitanets sem bregst ekki við stækkanlegri stýringu.
 
-- Kortalistar sem voru gefnir upp sem margir dálkar eru nú gefnir upp sem einn dálkur.
-- Flokkaðir listar eru ekki gefnir upp sem flokkar eða í aðskildum dálkum.
+    Þegar notandi stendur í fyrsta skipti frammi fyrir þessum aðstæðum birtast skilaboð um að uppfæra skuli síðuna. Eftir að þessi skilaboð birtast mun síðan halda áfram að nýta núverandi hnitanet fyrir alla notendur fram að næstu uppfærslu afurðar. Betri meðhöndlun á þessum aðstæðum, svo hægt sé að nýta nýja hnitanetið, verður höfð í huga í framtíðaruppfærslu.     
 
 ### <a name="fixed-as-part-of-10013"></a>Lagað sem hluti af 10.0.13
 
-> [!NOTE]
-> Eftirfarandi upplýsingar eru gefnar upp svo hægt sé að gera áætlun í samræmi við það. Nánari upplýsingar um áætlaða markútgáfu á útgáfu 10.0.13 er að finna í [Þjónustuuppfærsla í boði](../../fin-ops/get-started/public-preview-releases.md).
-
-- [KB 4563317] Ábendingar eru ekki sýndar fyrir myndir.
+-  [Villa 470173] Gátreitir í óvirkum línum víxlast þegar smellt er á hvíta svæðið í hólfinu
+-  [Villa 474848] Aukin forskoðun með hnitanetum birtist ekki
+-  [Villa 474851] Tenglar í stýringum viðmiðunarhópa virka ekki 
+-  [Villa 471777] Ekki er hægt að velja reiti í hnitaneti til að breyta eða búa til farsímaforrit
+-  [KB 4569441] Vandamál með myndun spjaldalista í mörgum dálkum, ábendinga á myndum og birtingarkostir í sumum reitum
+-  [KB 4575279] Ekki er öllum merktum línum eytt í almennri færslubók
+-  [KB 4575233] Birtingarkostir eru ekki endurheimtir þegar farið er í aðra línu
+-  [KB 4571095] Bókun innhreyfingarskjals afurðar á sér stað þegar óvart er ýtt á Enter (rétt meðhöndlun á sjálfgefinni aðgerð síðu)
+-  [KB 4575437] Uppflettingar með breytanlegum stýringum loka óvænt
+-  [KB 4569418] Tvítekin lína stofnuð í skjámynd afhendingaráætlunar
+-  [KB 4575435] Aukin forskoðun er stundum viðvarandi jafnvel þegar músarbendillinn er ekki nálægt reitnum
+-  [KB 4575434] Uppfletting síar ekki þegar reitnum hefur verið breytt
+-  [KB 4575430] Gildi í reitum aðgangsorða eru ekki hulin í hnitanetinu
+-  [KB 4569438] „Vinnsla stöðvaðist vegna vandamáls við staðfestingu“ birtist á eftir að línur eru merktar við jöfnun á færslum birgja
+-  [KB 4569434] Uppfærsla á skjámynd lögaðila leiðir til færri færslna
+-  [KB 4575297] Áhersla færist yfir á verkskráningarsvæðið þegar hnitaneti er breytt eða hoppað á milli
+-  [KB 4566773] Leiðréttingarfærslur sjást ekki sem neikvæðar í fyrirspurn um fylgiskjalsfærslur 
+-  [KB 4575288] Áhersla fer aftur á virku línuna þegar ramminn er valinn á milli lína í einföldum lista
+-  [KB 4575287] Áhersla fer ekki aftur á fyrsta dálkinn þegar niðurörin er notuð til að stofna nýja línu í færslubókum
+-  [KB 4564819] Ekki er hægt að eyða línum í reikningi með frjálsum texta (vegna gagnagjafans ChangeGroupMode=ImplicitInnerOuter)
+-  [KB 4563317] Ábendingar/auknar forskoðanir birtast ekki fyrir myndir
 
 ### <a name="fixed-as-part-of-10012"></a>Lagað sem hluti af 10.0.12
 
@@ -158,6 +185,7 @@ Allar síðari notendatímabil munu byrja með virkjaða nýja netstýringu.
 - [KB 4562647] Fókus er núllstilltur á fyrstu stýringu í svarglugganum **Gefa út** þegar nýrri línu er bætt við í hnitaneti öryggishlutverka.
 - [KB 4563310] Aukin forskoðun er ekki lokað eftir að línu er breytt.
 - [KB 4563313] „Óvænt biðlaravilla“ á sér stað í Internet Explorer þegar gildi er valið í uppflettingu.
+- [KB 4564557] Uppflettingar og fellivalmyndir opnast ekki í Internet Explorer
 - [KB 4563324] Fletting virkar ekki eftir að vinnusvæðið **Starfsmannastjórnun** er opnað.
 
 ### <a name="fixed-as-part-of-10011"></a>Lagað sem hluti af 10.0.11

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: v-olbara
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 3ee74ba108008ccef53fe3b904c71ddf5f51afb7
-ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
+ms.openlocfilehash: 2f4506d2c1808198d4b10e50f4635bcc21d934e1
+ms.sourcegitcommit: 0f877ee4b53cfb002b179a53a67c4f9adae354bf
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "3546437"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3640400"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Skilgreina númeraraðir flæði vöruhúss
 
@@ -36,7 +36,7 @@ Hlutar staðlaðrar númeraraðar eru ekki hentugir fyrir GS1-innleiðingu vegna
 - Hægt er að mynda auðkenni fyrir farmbréf fyrirfram.
 - Einkvæma númeraröð er hægt að mynda fyrir raðnúmer vörusendingar (SSCC).
 - GS1-fylgin númeraröð er hægt að búa til fyrir númer farmbréfs og SSCC-númer. Þessi eiginleiki bætir við tilbúnum stuðningi fyrir númeraplötukenni, gámakenni, kenni bylgjumerkja og kenni farmbréfa.
-- Skilgreining auðkennis númeraplötu er sveigjanleg. Til dæmis er hægt að hafa með eða sleppa gervigreind á borð við núll að framan (00).
+- Skilgreining auðkennis númeraplötu er sveigjanleg. Til dæmis er hægt að hafa með eða sleppa kennimerkjum forrits, svo sem núll að framan (00).
 
 Þessi virkni gerir það hagkvæmara að styðja merkingu kassa og að velja ný númer sem búin eru til af kerfinu.
 

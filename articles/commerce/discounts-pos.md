@@ -3,7 +3,7 @@ title: Sýna afslátt í POS
 description: Þetta efni útskýrir hvernig Microsoft Dynamics 365 Commerce hjálpar söluaðilum að fræðast um kynningar og hvernig hægt er að nota þær til að selja og viðbótarselja áætlanir.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 05/05/2020
+ms.date: 07/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 0ffa7ca6294c7b523ec743f1cb9bc4aef8ef46a8
-ms.sourcegitcommit: 4d5bcda288341572076364559125c86e2ec05273
+ms.openlocfilehash: 7531e250580019a1e9892d22fc7761770227c61f
+ms.sourcegitcommit: db1a8ffcaebc2896e8f528d7807c54f8597f450e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3334709"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "3638183"
 ---
 # <a name="show-discounts-in-pos"></a>Sýna afslátt í POS
 
@@ -54,7 +54,7 @@ Síðan **Allir afslættir** sýnir aðeins nokkra afsláttarmiða sem byggir á
 
 Fjölskiptur afsláttur, svo sem magnafsláttur, blanda-og-passa afsláttur og þröskuldafsláttur, er frábær leið til að hvetja viðskiptavini til að kaupa fleiri vörur til að fá stærri afslátt. Þess vegna hjálpa þeir einnig við að auka stærð körfu viðskiptavina og tekjur smásala. Hægt er að birta þessa afslætti á vefsíðum í netverslun, á samfélagsmiðlum og á borðum í versluninni.
 
-En jafnvel þegar allar þessar kynningaraðferðir eru notaðar gætu viðskiptavinir misst af tækifærinu til að nýta sér kynningar. Til að auðvelda söluaðilum að fá upplýsingar um það hvaða tilboð hægt er að nota fyrir valda línu, eða jafnvel alla körfuna, geta smásalar bætt við hnappnum fyrir aðgerðina „Skoða afslætti sem eru í boði“ á hnappahnitinu á síðunni **Færsla**. Á þennan hátt getur sölutengiliður valið færslulínu og síðan valið hnappinn til að sýna alla afslætti sem eru í boði fyrir völdu línuna. Sölumaðurinn getur einnig valið annan flipa til að sýna afslætti sem eiga við um alla færsluna.
+En jafnvel þegar allar þessar kynningaraðferðir eru notaðar gætu viðskiptavinir misst af tækifærinu til að nýta sér kynningar. Til að auðvelda söluaðilum að fá upplýsingar um það hvaða tilboð hægt er að nota fyrir valda línu, eða jafnvel alla körfuna, geta smásalar bætt við hnappnum fyrir aðgerðina **„Skoða afslætti sem eru í boði“** á hnappahnitinu á síðunni **Færsla**. Þar af leiðandi getur sölutengiliður valið færslulínu og síðan valið hnappinn til að sýna alla afslætti sem eru í boði fyrir völdu línuna. Sölumaðurinn getur einnig valið annan flipa til að sýna afslætti sem eiga við um alla færsluna. Mikilvægt er að hafa í huga að **Skoða afslætti sem eru í boði** sýnir ekki afslættina sem þegar eru notaðir í sölulínunni vegna þess að afsláttarupplýsingarnar eru þegar sýndar í sölulínunni. Tilgangurinn með þessari atburðarás er aðeins sá að sýna afslættina sem hafa ekki enn verið notaðir. Undantekningin á þessu eru afslættirnir sem eru notaðir út frá afsláttarmiða sem merktur er sem „Nota án kóða afsláttarmiða“. Þetta auðveldar söluaðila að fjarlægja á einfaldan hátt afsláttarmiðann sem hann hefur notað.
 
 Síðan **Allir afslættir** sýna aðeins afslætti sem ekki keppa við þá afslætti sem eru notaðir. Þessi hegðun hjálpar til við að tryggja að ef söluaðili upplýsir viðskiptavin um afslátt og viðskiptavinurinn grípur til nauðsynlegra aðgerða (til dæmis kaupir viðskiptavinurinn einn hlut til viðbótar til að fá 10 prósent afslátt), þá er afslátturinn notaður á færsluna. Afslættir sem byggjast á afsláttarmiðum eru aðeins birtir þegar kveikt er á valkostinum **Nota án kóða afsláttarmiða**.
 

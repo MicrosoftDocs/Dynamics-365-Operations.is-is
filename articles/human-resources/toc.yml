@@ -3,8 +3,10 @@
   items:
     - name: Nýjungar
       items:
-        - name: Nýjungar eða breytingar í Mannauði
+        - name: Nýjungar eða breytingar í Human Resources
           href: hr-admin-whats-new.md
+        - name: 23. júlí 2020
+          href: hr-whats-new-2020-07-23.md
         - name: 8. júlí 2020
           href: hr-whats-new-2020-07-08.md
         - name: 25. júní 2020

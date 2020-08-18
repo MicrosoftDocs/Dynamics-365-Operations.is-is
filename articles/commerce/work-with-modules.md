@@ -3,7 +3,7 @@ title: Vinna með einingar
 description: Þetta efni lýsir því hvernig og hvenær á að nota einingar í Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,19 +17,19 @@ ms.search.industry: ''
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 769d6754fa944830b989d657e0dad9cc42212932
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: da430857801d8007244c04aadd325e99c0b882c5
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025880"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646016"
 ---
 # <a name="work-with-modules"></a>Vinna með einingar
 
-Þetta efni lýsir því hvernig og hvenær á að nota einingar í Microsoft Dynamics 365 Commerce.
-
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
+
+Þetta efni lýsir því hvernig og hvenær á að nota einingar í Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Yfirlit
 
@@ -42,8 +42,10 @@ Sjálfgefið er svæði þitt í Dynamics 365 Commerce inniheldur byrjunarbúna�
 Eins og áður var getið eru sumar einingar hannaðar til að innihalda undireiningar. Þessar einingar eru þekktar sem *gámar* og þær gera ráð fyrir stigveldum ívafinna eininga. Gámaeiningar innihalda *hólf*. Hólf eru notuð til að takast á við skipulag og tilgang undireininga í gámnum. Dæmi um það er grunnsíðugámaeining (efsta stigs eining fyrir hverja síðu) sem skilgreinir nokkur mikilvæg hólf:
 
 - Fyrirsagnarhólf
-- Meginmálshólf
+- Undirfyrirsagnarhólf
+- Aðalhólf
 - Síðufótarhólf
+- Undirsíðufótarhólf
 
 Þróunaraðili einingarinnar skilgreinir þessi hólf og ákvarðar hvaða undireiningar og hversu margar undireiningar má setja beint í þau. Til dæmis gæti fyrirsagnarhólfið aðeins stutt eina einingu af gerðinni **Fyrirsagnareining** en meginmálshólfið gæti stutt ótakmarkaðan fjölda eininga af hvaða gerð sem er (nema aðrar gámaeiningar á síðunni).
 
@@ -51,7 +53,7 @@ Eins og áður var getið eru sumar einingar hannaðar til að innihalda undirei
 
 ## <a name="content-modules"></a>Innihaldseiningar
 
-Innihaldseiningar innihalda efni og fjölmiðlaþætti, svo sem texta (til dæmis fyrirsagnir, málsgreinar og krækjur) eða tilvísanir í eignir (til dæmis myndir, myndskeið og PDF skjöl). Dæmi um dæmigerðar gerðir innihaldseininga eru **Hetja**, **Eiginleiki** og **Borði**. Einingar af þessum þremur gerðum geta innihaldið texta eða miðla og þeir þurfa ekki neinar undireiningar til að gera eitthvað sýnilegt á síðu.
+Innihaldseiningar innihalda efni og fjölmiðlaþætti, svo sem texta (til dæmis fyrirsagnir, málsgreinar og krækjur) eða tilvísanir í eignir (til dæmis myndir, myndskeið og PDF skjöl). Dæmigerðar gerðir efniseininga innihalda efnisbálk, textabálk og einingar tilboðsborða. Einingar af þessum þremur gerðum geta innihaldið texta eða miðla og þeir þurfa ekki neinar undireiningar til að gera eitthvað sýnilegt á síðu.
 
 Meirihluti dæmigerðra, daglegra síðu- og efnisskriftaaðgerða fela í sér efniseiningar, fyrst og fremst vegna þess að þessar einingar skilgreina raunverulegt innihald sem birt er í yfirgámaeiningum þeirra. Margar efniseiningar eru í boði og þessar einingar eru venjulega síðustu verkin sem þú bætir við stigveldi síðunnar með ívöfðum einingum.
 
@@ -67,20 +69,20 @@ Eftirfarandi aðferðir lýsa því hvernig á að bæta við og fjarlægja eini
 
 Til að bæta einingu við hólf eða gám á síðu skaltu fylgja þessum skrefum.
 
-1. Veldu útlínugluggann til vinstri til að velja gám eða hólf sem hægt er að bæta undireiningunni við.
+1. Á yfirlitssvæðinu vinstra megin eða beint á aðalvinnusvæðinu skal velja svæði eða hólf þar sem bæta á undireiningu við.
 
     > [!NOTE]
-    > Einingahönnuðurinn skilgreinir listann yfir gerðir eininga sem hægt er að bæta við tiltekið hólf fyrir eininguna. Höfundar sniðmáts geta síðan fínstillt leyfða einingavalkosti til að tryggja stöðuga leitarvélabestun (SEO) og höfundarvirkni fyrir allar síðurnar sem eru smíðaðar úr ákveðnu sniðmáti.
+    > Einingahönnuðurinn skilgreinir listann yfir gerðir eininga sem hægt er að bæta við tiltekið hólf fyrir eininguna. Sniðmátshöfundar geta þá fínstillt leyfilega valkosti eininga til að hjálpa til við að tryggja stöðuga leitarvélabestun og skilvirkni höfundarverks fyrir allar síðurnar sem búnar til samkvæmt tilteknu sniðmáti. Þegar einingu er bætt við hólf, er svarglugginn **Bæta við einingu** sjálfkrafa síaður þannig að hann sýni aðeins einingar sem eru studdar í völdu svæði eða hólfi. Þessi listi yfir leyfðar einingar ákvarðast af sniðmáti síðunnar eða skilgreiningu svæðiseiningar.
 
-1. Veldu úrfellingarhnappinn (**...**) fyrir eininguna og veldu síðan **Bæta við einingu**. Valmyndin **Bæta við einingu** birtist. Þessi gluggi er sjálfvirkt síaður þannig að hann sýnir aðeins einingar sem eru studdar í völdum gámi eða hólfi. Listinn yfir einingar ræðst af sniðmáti síðunnar eða skilgreiningu gámaeiningar.
+1. Ef yfirlitssvæðið er notað skal velja úrfellingarmerkið (**...**) við hliðina á heiti einingarinnar og síðan velja **Bæta við einingu**. Ef stýringarnar eru notaðar beint innan vinnusvæðisins skal velja plúsmerkið (**+**) í auðu hólfi eða samliggjandi við valda einingu, og síðan velja **Bæta við einingu**.
 
     > [!NOTE]
     > Ef gámur eða hólf styður ekki nýjar undireiningar er valkosturinn **Bæta við einingu** er ekki í boði.
 
-1. Leitaðu að og veldu einingu til að bæta við síðuna í valmyndinni.
+1. Í svarglugganum **Bæta við einingu** skal velja einingu til að bæta við síðuna þína.
 
     > [!TIP]
-    > **Eiginleiki** og **Hetja** eru góðar einingagerðir fyrir byrjendur að vinna með.
+    > **Efnisbálkur** er góð einingagerð fyrir byrjendur til að vinna með.
 
 1. Veldu **Í lagi** til að bæta valinni einingu við valinn gám eða hólf á síðunni þinni.
 
@@ -88,8 +90,35 @@ Til að bæta einingu við hólf eða gám á síðu skaltu fylgja þessum skref
 
 Til að fjarlægja einingu úr hólfi eða gámi á síðu skaltu fylgja þessum skrefum.
 
-1. Veldu útlínuhnappinn við hliðina á nafni einingarinnar sem á að fjarlægja í yfirlitsrúðunni til vinstri og veldu síðan ruslatunnuhnappinn.
-1. Þegar þú færð kvaðningu um að staðfesta að þú viljir fjarlægja eininguna skaltu velja **Í lagi**.
+1. Á yfirlitssvæðinu vinstra megin skal velja úrfellingarmerkið (**...**) við hliðina á heiti einingarinnar sem á að fjarlægja og síðan velja ruslakörfutáknið. Einnig er hægt í aðalvinnusvæðinu að velja ruslakörfutáknið í tækjastiku valdrar einingar.
+1. Þegar beðið er um að staðfesta að ætlunin sé að fjarlægja eininguna, skal velja **Í lagi**.
+
+## <a name="move-a-module-to-a-new-position"></a>Færa einingu á nýjan stað
+
+Til að færa einingu yfir á nýjan stað innan síðunnar, skal nota eina af eftirfarandi aðferðum.
+
+### <a name="move-a-module-using-the-outline-pane"></a>Færa einingu með yfirlitssvæðinu
+
+Til að færa einingu með yfirlitssvæðinu skal fylgja þessum skrefum.
+
+1. Veljið og haldið einingunni sem á að færa á yfirlitssvæðinu, dragið síðan eininguna yfir á nýja staðsetningu í yfirlitinu. Bláa línan í yfirlitinu og á vinnusvæðinu sýnir hvar hægt er að staðsetja eininguna.
+1. Sleppið einingunni til að fella hana inn í nýja staðinn.
+
+### <a name="move-a-module-directly-within-the-canvas"></a>Færa einingu beint innan vinnusvæðisins
+
+Til að færa einingu beint innan vinnusvæðisins skal fylgja þessum skrefum.
+
+1. Veljið eininguna sem á að færa innan vinnusvæðisins. 
+1. Veljið annaðhvort örvatákn sem vísar upp eða niður í tækjastiku einingarinnar og dragið síðan örina yfir á nýjan stað á síðunni. Bláa línan á vinnusvæðinu og í yfirlitinu sýnir hvar hægt er að staðsetja eininguna. Ef ekki er hægt að færa einingu upp eða niður, verður örvartáknið skyggt. 
+1. Sleppið einingunni til að fella hana inn í nýja staðinn.
+
+### <a name="move-a-module-using-the-ellipsis-menu"></a>Færa einingu með úrfellingarvalmyndinni
+
+Til að færa einingu með úrfellingarvalmyndinni skal fylgja þessum skrefum.
+
+1. Veljið einingu í annaðhvort yfirlitinu eða vinnusvæðinu.
+1. Veljið úrfellingarmerkið (**...**) við hliðina á heiti einingarinnar á yfirlitssvæðinu eða í tækjastiku einingarinnar á vinnusvæðinu.
+1. Ef hægt er að færa eininguna upp eða niður innan svæðis eða hólfs birtast valmöguleikar fyrir **Færa upp** eða **Færa niður**. Veljið æskilegan færsluvalkost til að færa eininguna upp eða niður miðað við aðrar einingar.
 
 ## <a name="configure-modules"></a>Skilgreina einingar
 
@@ -99,10 +128,28 @@ Eftirfarandi aðferðir lýsa því hvernig á að skilgreina efnis- og gámaein
 
 Fylgdu þessum skrefum til að stilla efniseiningu á síðu.
 
-1. Veldu útlínugluggann til vinstri stækkarðu tréð og velur einhverja eininga fyrir efni (til dæmis, **Eiginleiki**, **Hetja** eða **Borði**).
-1. Finndu innihald og stillingarstýringar einingarinnar á eiginleikaglugganum til hægri.
-1. Sláðu inn eiginleika fyrir allar viðeigandi einingarstýringar.
-1. Veldu **Vista** í skipanastikunni. Þetta mun einnig endurnýja forskoðunardúkinn.
+1. Á yfirlitssvæðinu vinstra megin skal útvíkka tréð og velja einhverja efniseiningu (til dæmis **Efnisbálkur**). Einnig er hægt að velja eininguna á aðalvinnusvæðinu.
+1. Á eiginleikasvæði einingarinnar hægra megin skal færa inn eiginleika fyrir eiginleikastýringar sem óskað er eftir.
+1. Á skipanastikunni skal velja **Vista**. Þetta mun einnig endurnýja forskoðunardúkinn.
+
+### <a name="edit-module-text-properties"></a>Breyta textaeiginleikum einingar
+
+Textaeiginleikar einingar sem ekki eru skrifvarðar er hægt að breyta á vinnusvæðinu.
+
+Til að breyta textaeiginleikum einingar skaltu fylgja þessum skrefum.
+
+1. Veljið textastýringuna á vinnusvæðinu og farið með bendilinn þangað sem á að breyta texta.
+1. Sláið inn textann.
+1. Veljið hvar sem er fyrir utan textaefnið til að halda áfram að breyta öðru efni.
+
+### <a name="inline-image-selection"></a>Innfellt val myndar
+
+Myndaeiningar sem ekki eru skrifvarðar er hægt að breyta á vinnusvæðinu.
+
+Til að velja nýja mynd fyrir efniseiningu skal fylgja þessum skrefum.
+
+1. Á vinnusvæðinu skal tvísmella á myndina. Þá kemur upp gluggi fyrir val á miðli.
+1. Finnið og veljið nýja mynd sem á að nota og veljið síðan **Í lagi**. Nýja myndin er nú sýnd á vinnusvæðinu.
 
 ### <a name="configure-a-container-module"></a>Stillla gámaeiningu
 

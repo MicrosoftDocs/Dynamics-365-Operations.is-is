@@ -3,7 +3,7 @@ title: Árangursstjórnun
 description: Frammistöðustjórnun ferli leyfir starfsmenn skrá og ræða um frammistöðu með yfirmaður. Í staðin, yfirmaður getur gefið athugasemdir og leiðbeiningar til starfsmaður.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/20/2020
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4786717826592973d3b049c4aa5ca615332d5bc6
-ms.sourcegitcommit: 98cfbb42fc556e1afcb2fab50d8dff0ae2b7aa67
+ms.openlocfilehash: 7e2c7753da69f85307eccd22f6a315e9fd1e4bd6
+ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3609773"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628454"
 ---
 # <a name="performance-management"></a>Árangursstjórnun
 
@@ -37,6 +37,7 @@ Eins og eftirfarandi skýringarmynd sýnir, það eru þrennt síða sem auðvel
 Eftirfarandi skýringarmynd sýnir hvernig eingreindur íhluti af frammistöðustjórnun er tengdur hver öðrum. [![Frammistöðustjórnunaryfirlit](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Frammistöðubók
+
 Áður en yfirferðinni er lokið er oft safnað upplýsingum um verkþætti eða tilvik sem leiddu til árangurs þíns sem starfsmanns á endurskoðunartímabilinu. Hægt er að bæta færslu við frammistöðubókina til að skrá þær aðgerðir og tilvik. Að auki er hægt að búa til aðgerðir í framtíðinni sem þarf að klára til að hjálpa þér að ná markmiðinu, uppfylla kröfur í þróunaráætlun, eða uppfylla skuldbindingu um frammistöðu. Ekki er þörf á frammistöðubókum til að búa til markmið eða umsagnir um frammistöðu. 
 
 Til eru tvær útgáfur af frammistöðubókum: útgáfa starfsmanns, sem hægt er að nálgast í gegnum **sjálfsafgreiðsla starfsmanns** vinnusvæði (**ESS**), og útgáfa yfirmanns, sem hægt er að nálgast í gegnum **sjálfsafgreiðsla yfirmanns** vinnusvæði (**MSS**). Starfsmenn geta búið til færslubækur fyrir sig og geta valið að deila þeim með yfirmanni sínum. Yfirmenn geta búið til færslubækur fyrir hópinn og geta valið að deila þeim með starfsmönnum sínum. 
@@ -58,6 +59,7 @@ Einnig er hægt að tengja frammistöðubók við ytri vefsvæði með því að
 Frammistöðubókin inniheldur auka eiginleika sem kallast Endurgjöf. Þegar smellt er á **Senda endurgjöf** er hægt að velja starfsmann og senda endurgjöf á þann starfsmann í tölvupósti. Skilaboðin eru send til starfsmannsins sem tekur á móti endurgjöfinni, yfirmanns starfsmannsins, starfsmannsins sem sendir endurgjöfina og yfirmanns þess starfsmanns. Færsla í frammistöðubók er stofnuð fyrir hvern einstakling sem fær endurgjöfina.
 
 ## <a name="goals"></a>Markmið
+
 **Frammistöðumarkmið** síðan hjálpar þér að fylgjast með markmiðunum sem þú og yfirmaðurinn stofnuðu fyrir þig. Hægt er að stofna eins marga markmið og þú villt, og þessi markmið geta náð yfir mismunandi tímabil og frammistöðu umsögn. Einnig er hægt að stofna einföld eða flókin markmið, allt eftir magni upplýsinga sem þú vilt færa inn um markmiðið. Markmiða er ekki krafist fyrir frammistöðu umsögn. 
 
 Eftirtaldar upplýsingar skulu vera í grunnmarkmiði:
@@ -80,6 +82,7 @@ Ef þú vilt festa skjal við markmiðið, eins og fullnustuvottorð, getur þú
 Þú getur stofnað sniðmát úr markmiði og notað sniðmát til að búa til ný markmið sem byggð eru á sniðmátinu. Þegar sniðmát er stofnað í markmiði eru lýsing, umræðuefni og markmið mælingar vistaðar. Hins vegar, allar raunmælingar, lokadagsetningar, og efnisatriði ummæli eru fjarlægt.
 
 ## <a name="performance-reviews"></a>Frammistöðurýni
+
 Frammistöðurýni er formlega þekkt sem umfjöllun. Þeir eru er nú orðið nógu sveigjanlegt til að styðja áframhaldandi svörun, þróunaráætlanir og enn formlegri yfirferðir. Þú getur fljótlega stofnað litla fundi fyrir tvær manneskjur sem tveggja manna fund eða þú getur byggt flóknari umsögn sem passar við endurskoðunarferlið hjá fyrirtækinu. 
 
 Fundur eins og tveggja manna fundur er einföld endurskoðun og krefst stutt heiti, lengri lýsing á efni fundar og dagsetningu fundar. Einföld endurskoðun inniheldur sömu upplýsingar ásamt endurskoðunartímabili sem um er rætt. Yfirmenn sjá einnig nafn einstaklingsins sem endurskoðun er stofnað fyrir. 
@@ -92,7 +95,11 @@ Einnig er hægt að nota **Hæfni** hlutann til að ræða, endurskoða og gefa 
 
 Til að prenta umsagnir skaltu velja **Prenta umsögn**. Ef þú sérð ekki hnappinn á síðunni **Umsögn** skaltu athuga hvort þú hafir virkjað eiginleikann á vinnusvæðinu **Stjórnun eiginleika**. Nánari upplýsingar um stjórnun eiginleika er að finna í [Eiginleikastjórnunaryfirlit](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
+> [!NOTE]
+> Möguleikinn á því að prenta frammistöðumat er aðeins í boði í Human Resources. Hann er ekki í boði í Dynamics 365 Finance.
+
 ## <a name="components-you-can-include-in-performance-reviews"></a>Íhlutir sem hægt er að taka með í frammistöðurýni
+
 Hægt er að taka með fjölda gerða upplýsinga í frammistöðurýni. Þeir innihalda upplýsingar um endurskoðun, mælingar, aðgerðir, einkunn, útskráningar og viðengi.
 
 ### <a name="review-detail"></a>Endurskoðunarupplýsingar
@@ -119,24 +126,30 @@ Yfirmaður og/eða starfsmaður verður skráð á umsögn byggt á færibreytum
 
 Hægt er að festa skjal við umsögn í **Viðhengi** hlutanum í **umsagnir** síðu. Skjalasýnir fylgir svo þú getur fljótt skoðað efni viðhengdra skjala.
 
-### 
-
 ## <a name="workflow-for-performance-management"></a>Verkflæði fyrir Frammistöðustjórnun
+
 Hægt er að nota starfskraftur yfirferð verkflæði til að stýra endurskoðunarsamþykkt. Einnig er hægt að sleppa sjálfvirku verkflæði og handvirkt breyta stöðu umsögn, sem gerir þér kleift að búa til einfaldari skjöl eins og tveggja manna viðtal a´n þess að þurfa að nota verkflæði ferli. Aðgangur að umsögn ræðst af stöðu umsögn.
 
 1.  Þegar umsögn er stofnað er hún stillt á **Ekki hafið** stöðu. Umsögn geta allir breytt.
+
 2.  Þegar starfsmaður ýtir á **Byrja endurskoðun** hnappinn er endurskoðun stillt á **Í vinnslu**stöðu. Starfsmaður byrjar þá að bæta við efni. Á þessum tímapunkti getur yfirmaður ekki lengur séð endurskoðunarskjal.
+
 3.  Starfsmaður breytir stöðu í **Tilbúið fyrir endurskoðun**.
+
 4.  Yfirmaður getur bætt við athugasemdum og einkunn. Á þessum tímapunkti getur aðeins yfirmaður séð endurskoðun.
+
 5.  Yfirmaður breytir stöðu í **lokaendurskoðun** til að bæði yfirmaður og starfsmaður geti séð umsögn og rætt hana. Þú getur tilgreint færibreytur hvort eða ekki umsögn geti verið breytt á þessum tímapunkti. Þetta skref er einnig valkvætt ef yfirmaður einfaldlega getur deilt umsögn með starfsmanni og merkt það sem **Lokið** þegar það er lokið.
+
 6.  Þegar útskráningum er lokið er stöðunni breytt í **Lokið**. Á þessum tímapunkti er ekki hægt að breyta endurskoðun.
 
 Starfskraftur umsögn verkflæði hefur tvö verkferli:
 
 1.  Samþykkja yfirferð. Bæta þessu þætti til að stjórna stöðubreytingu frá **í vinnslu** í **Tilbúið fyrir endurskoðun**. Breyta úthlutun til að nota stjórnendastigveldi þar sem Employee.line yfirmaður stig = 1.
+
 2.  Lokaendurskoðun. Bæta þessu þætti til að stjórna stöðubreytingu frá **Tilbúið fyrir endurskoðun** í **Lokaendurskoðun**. Breyta úthlutun til að nota stjórnendastigveldi þar sem Employee.line yfirmaður stig = 1 ef þú vilt að yfirmaður samþykki lokaendurskoðun. Breyta úthlutun í verkflæði notandi ef þú vilt að starfsmaður samþykki. Ef þú vilt að bæði yfirmaður og starfsmaður samþykki, bæta tveimur skrefum í verkflæði og gera viðeigandi úthlutun fyrir hvert skref í röðinni sem þú vilt að samþykkt fylgi.
 
 ## <a name="setup"></a>Uppsetning
+
 Það eru þrjár síður sem hjálpa þér að setja upp upplýsingar sem er krafist til þess að ljúka frammistöðuferli: **mælingar**síða, **upprunagerðir frammistöðubók** síða og **endurskoðunargerðir** síða.
 
 ### <a name="measurements"></a>Mælingar
@@ -150,6 +163,3 @@ Upprunagerðir frammistöðubókar útskýra hvar frammistöðubækur koma frá.
 ### <a name="review-types"></a>Gerðir yfirferðar
 
 Frammistöðurýni gerð hjálpar þér að stjórna hegðun endurskoðunar. Hægt er að gera verkflæði virka eða óvirka fyrir yfirferð. Ef umsögn ekki nota verkflæði, þú getur skilgreint sjálfgefna stöðu sem verður notuð þegar umsögn er stofnuð. Þú getur einnig ákveðið hvort starfsmaður, yfirmaður eða bæði verði krafist að staðfesting umsögn.
-
-
-

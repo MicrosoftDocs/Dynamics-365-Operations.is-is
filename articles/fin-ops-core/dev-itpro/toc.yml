@@ -14,6 +14,8 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu uppfærslna á verkvangi
                   href: get-started/whats-new-home-page.md
+                - name: Verkvangsuppfærslur fyrir 10.0.13 (október 2020)
+                  href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: Verkvangsuppfærslur fyrir 10.0.12 (ágúst 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Verkvangsuppfærslur fyrir 10.0.11 (júlí 2020)
@@ -82,6 +84,8 @@
           items:
             - name: Velja stefnu fyrir samþættingu gagna (innflutning/útflutning)
               href: data-entities/integration-overview.md
+            - name: Takmörkun byggð á forgangi
+              hreF: data-entities/priority-based-throttling.md
             - name: API samþættingar gagna
               items:
                 - name: REST API-gagnastjórnunarpakki
@@ -152,6 +156,8 @@
                           items:
                             - name: Sérstilling á vörpun eininga og reita
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: Breyta lögaðila eftir uppsetningu tvöfaldra skrifa
+                              href: data-entities/dual-write/edit-legal-entity.md
                             - name: Umsjón með villum og viðvörunartilkynningum
                               href: data-entities/dual-write/errors-and-alerts.md
                             - name: Líftímastjórnun forrits

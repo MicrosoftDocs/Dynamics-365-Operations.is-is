@@ -3,7 +3,7 @@ title: Innleið birgðaaðgerð í POS
 description: Þetta efni lýsir getu sölustaðar (POS) á heimleið birgðaaðgerð.
 author: hhaines
 manager: annbe
-ms.date: 07/10/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: cf3bec8ab0bfafccfe4b2b5b245d00fd6aeff635
-ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
+ms.openlocfilehash: aba4f2d7932ebc3a0129f04c60c8b6358da68c64
+ms.sourcegitcommit: 0aabe4157f82d8c59dd2d285ab0b33f3c8ec5bbc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3551602"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3627539"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Innleið birgðaaðgerð í POS
 
@@ -33,7 +33,7 @@ ms.locfileid: "3551602"
 Í Microsoft Dynamics 365 Commerce útgáfu 10.0.10 og síðar, koma aðgerðir á innleið og útleið á sölustað (POS) í stað tiltektar- og móttökuaðgerðar.
 
 > [!NOTE]
-> Í útgáfu 10.0.10 og nýrri verður öllum nýjum eiginleikum í POS forritinu sem tengjast því að taka á móti birgðum verslunar gegn innkaupapöntunum og millifærslupöntunum bætt við POS-aðgerðina **Aðgerð á innleið**. Ef þú ert að nota tiltektar- og móttökuaðgerðina í POS mælum við með að þú þróir stefnu til að fara frá þeirri aðgerð yfir í nýju aðgerðirnar á inn- og útleið. Þó að tiltektar- og móttökuaðgerðin verði ekki fjarlægð úr vörunni verða engar frekari fjárfestingar í henni, frá sjónarhorni virkni eða afköstum, eftir útgáfu 10.0.9.
+> Í Commerce útgáfu 10.0.10 og nýrri, verður öllum nýjum eiginleikum í forriti sölustaðar sem tengjast því að taka á móti birgðum verslunar vegna innkaupapantana og flutningspantana bætt við sölustaðaraðgerðina **Aðgerð á innleið**. Ef þú ert að nota tiltektar- og móttökuaðgerðina í POS mælum við með að þú þróir stefnu til að fara frá þeirri aðgerð yfir í nýju aðgerðirnar á inn- og útleið. Þó að tiltektar- og móttökuaðgerðin verði ekki fjarlægð úr vörunni verða engar frekari fjárfestingar í henni, frá sjónarhorni virkni eða afköstum, eftir útgáfu 10.0.9.
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Forsenda: Stilla ósamstilltan skjalaramma
 
@@ -153,6 +153,20 @@ Aðgerðin virðir stillingar **Auð innhreyfing heimil** á geymsluvíddina **S
 Ef þú ert að taka á móti birgðum geturðu notað virknina **Gera hlé á móttöku** ef þú vilt gera hlé á móttökuferlinu. Til dæmis gætirðu viljað framkvæma aðra aðgerð úr POS, eins og að hringja í sölu viðskiptavina eða seinka bókun á innhreyfingunni.
 
 Þegar þú velur **Gera hlé á móttöku** er stöðu skjalsins er breytt í **Hlé**. Þess vegna munu notendur vita að gögn hafa verið færð inn fyrir skjalið en skjalið hefur ekki enn verið sent. Þegar þú ert tilbúin/n að halda móttökuferlinu áfram skaltu velja skjalið í bið og velja síðan **Upplýsingar um pöntun**. Öllu magni í **Móttekið núna** sem áður var vistað er haldið og hægt að skoða það af skjánum **Fullur pöntunarlisti**.
+
+### <a name="review"></a>Endurskoða
+
+Á undan endanlegri ráðstöfun á innhreyfingunni til Commerce Headquarters, er hægt að nota skoðunarvirknina til að villuleita skjal á innleið. Skoðunin lætur vita um gögn sem annaðhvort vantar eða eru röng og geta valdið villum við úrvinnslu og gefið færi á því að leiðrétta vandamál áður en innhreyfingarbeiðnin er send inn. Til að virkja aðgerðina **Endurskoða** í forritastikunni, skal virkja eiginleikann **Virkja sannprófun í birgðaaðgerðum á innleið og útleið í sölustað** í gegnum vinnusvæðið **Eiginleikastjórnun** í Commerce Headquarters.
+
+Aðgerðin **Endurskoða** villuleitar eftirfarandi atriði í skjali á innleið:
+
+- **Umframmótaka** - móttekið magn er meira en pantað magn. Alvarleiki þessa máls ákvarðast af skilgreiningu umframafhendingar í Commerce Headquarters.
+- **Undirmóttaka** – móttekið magn er minna en pantað magn. Alvarleiki þessa máls ákvarðast af skilgreiningu undirafhendingar í Commerce Headquarters.
+- **Raðnúmer** – raðnúmerið er ekki gefið upp eða staðfest fyrir raðaða vöru sem þarf raðnúmer til að vera skráð í birgðum.
+- **Staðsetning ekki stillt** - staðsetningin er ekki tilgreind fyrir staðsetningarstýrða vöru þar sem auð staðsetning er ekki leyfð.
+- **Eyddar línur** – pöntunin er með línur sem notandi Commerce Headquarters, sem forrit sölustaðar þekkir ekki, hefur eytt.
+
+Stillið færibreytuna **Virkja sjálfvirka villuleit** á **Já** í **Færibreytur Commerce** > **Birgðir** > **Birgðir verslunar** til að villuleitin verði keyrð sjálfkrafa þegar **Ljúka við móttöku** er valið.
 
 ### <a name="finish-receiving"></a>Ljúka við móttöku
 

@@ -3,7 +3,7 @@ title: Fjarlægja tilvik
 description: Þessi grein fer með þig í gegnum ferlið við að fjarlægja prufukeyrslu eða framleiðsluumhverfi fyrir Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 17f299f81d1326dfb06c11a6125acc54b8ef2a6e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431200"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621381"
 ---
 # <a name="remove-an-instance"></a>Fjarlægja tilvik
 
@@ -67,8 +67,21 @@ Til að fjarlægja Human Resources umhverfi úr núverandi Power Apps umhverfi s
 1. Hafðu samband við Notendaþjónustu til að hefja beiðni um fjarlægingu.
 2. Notendaþjónustan mun setja af stað beiðni um fjarlægingu með DevOps teymi fyrir Human Resources. 
 3. Haltu áfram eftir að orðsending berst um að umhverfið hafi verið fjarlægt.
-4.  Skráðu þig inn á LCS með því að nota reikninginn sem þú notaðir til að gerast áskrifandi að Human Resources. 
+4. Skráðu þig inn á LCS með því að nota reikninginn sem þú notaðir til að gerast áskrifandi að Human Resources. 
 5. Veldu Human Resources verkið sem inniheldur umhverfið. 
 6. Í LCS verkinu skaltu velja **Human Resources Stjórnun Forrits** reitinn. 
 7. Veldu tilvikið sem þú vilt fjarlægja, sem ætti að vera merkt með uppsetningarstöðuna **Mistókst**.
 8. Veldu **Fjarlægja tilvika** og staðfestu ákvörðun þína. 
+
+## <a name="recover-a-soft-deleted-environment"></a>Endurheimta umhverfi sem hefur verið fjarlægt úr birtingu
+
+Ef Power Apps-umhverfinu sem umhverfi Human Resources tengist við er eytt, verður staða Human Resources-umhverfisins í Lifecycle Services að **Tekið úr birtingu**. Í slíku tilfelli geta notendur ekki tengst Human Resources.
+
+Til að endurheimta umhverfið:
+
+1. Fylgið leiðbeiningunum í [Endurheimta Power Apps-umhverfið](/power-platform/admin/recover-environment.md).
+
+2. Hafa skal samband við notendaþjónustu til að endurheimta umhverfi Human Resources. Frekari upplýsingar er að finna í [Fá stuðning](hr-admin-troubleshooting-support.md).
+
+> [!Warning]
+> Power Apps-umhverfi eru aðeins vistuð í sjö daga frá eyðingu. Nauðsynlegt er að endurheimta umhverfið innan þessara sjö daga.

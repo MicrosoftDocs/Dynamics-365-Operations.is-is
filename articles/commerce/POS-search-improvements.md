@@ -3,7 +3,7 @@ title: Leit að vöru og leit að viðskiptavinum í sölustað (POS)
 description: Þetta efnisatriði gefur yfirlit yfir úrbætur sem hafa verið gerðar á vöru og viðskiptahugbúnaði í Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 2b4c17b41056a35c2d2caaedb4f52998179b3c3e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
+ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022856"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628910"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Leit að vöru og leit að viðskiptavinum í sölustað (POS)
 
@@ -95,6 +95,9 @@ Til að leita altækt geta starfsmenn valið hnappinn **Sía niðurstöður** ne
 
 Leitir sem eru byggðar á símanúmerinu hafa verið einfaldaðar. Þessar leitir hunsa nú sérstafi, t.d. bilum, bandstrikum og svigum, sem kunna að hafa verið bætt við þegar viðskiptavinurinn var búinn til. Þess vegna þurfa gjaldkerar ekki að hafa áhyggjur af símanúmersniðinu þegar þeir leita. Þeir geta einnig leitað eftir viðskiptavinum með því að slá inn hluta úr símanúmeri. Ef símanúmer inniheldur sérstafi er einnig hægt að finna það með því að leita að tölunum sem birtast eftir sérstafinu. Til dæmis, ef símanúmer viðskiptavinar var slegið inn sem **123-456-7890**, getur gjaldkeri leitað að viðskiptavinum með því að slá inn **123**, **456**, **7890** eða **1234567890** eða með því að slá inn fyrstu tölur símanúmersins.
 
+> [!NOTE]
+> Viðskiptavinur getur haft mörg símanúmer og netföng. Reiknirit viðskiptavinaleitar leitar einnig í gegnum þessi aukalegu netföng og símanúmer, en síðan með leitarniðurstöðum um viðskiptavin sýnir aðeins aðalnetfang og aðalsímanúmer. Þetta getur valdið ruglingi því að niðurstöður um viðskiptavin sýna ekki netfangið eða símanúmerið sem leitað var að. Í síðari útgáfu er ætlunin að bæta skjámyndina fyrir leitarniðurstöður um viðskiptavin þannig að hún sýni þessar upplýsingar.
+
 Hefðbundna viðskiptaleitin getur verið tímafrek vegna þess að hún leitar yfir mörg svæði. Þess í stað geta gjaldkerar nú leitað í einum eiginleika viðskiptamanns, eins og nafni, netfangi eða símanúmeri. Eiginleikarnir sem reiknirit viðskiptavinaleitar notar eru sameiginlega þekktir sem *leitarskilyrði viðskiptavinar*. Kerfisstjórinn getur auðveldlega stillt eitt eða fleiri skilyrði sem flýtileiðir sem birtast í POS. Vegna þess að leitin er takmörkuð við eitt skilyrði, eru aðeins viðeigandi leitarniðurstöður sýndar og afköstin er mun betri en afköst staðlaðrar viðskiptavinaleitar. Eftirfarandi skýringarmynd sýnir flýtileiðir viðskiptavinaleitar í POS.
 
 ![Flýtileiðir viðskiptavinaleitar](./media/SearchShortcutsPOS.png "Flýtileiðir viðskiptavinaleitar")
@@ -114,3 +117,4 @@ Reiturinn **Birta röð** ákvarðar röðina sem flýtileiðir eru sýndar í P
 Í komandi útgáfu af Commerce munu smásalar geta stillt sjálfgefnar leitarstillingar viðskiptavina leitarmöguleika í POS á **Leita í öllum verslunum**. Þessar skilgreiningar geta verið gagnlegar í aðstæðum þar sem leita verður strax í viðskiptavinum sem voru stofnaðir utan POS (til dæmis, jafnvel áður en dreifingarvinnslan er keyrð). Ný valkostur **Sjálfgefnar leitarstillingar viðskiptavina** verður í boði í POS-virkniprófílnum. Stilltu hann á **Á** til að stilla sjálfgefnar leitarstillingar á **Leita í öllum verslunum**. Sérhver tilraun til viðskiptavinaleitar mun síðan gera rauntímakall í höfuðstöðvarnar.
 
 Til að koma í veg fyrir óvænt afkastavandamál eru þessar stillingar faldar á bak við tilraunaútgáfuflagg sem heitir **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Þess vegna, til að sýna stillinguna **Sjálfgefnar leitarstillingar viðskiptavina** í notandaviðmótinu (UI) ætti smásalinn að stofna stuðningsmiða fyrir samþykkisprófun notanda (UAT) og framleiðsluumhverfi. Þegar miðinn hefur verið móttekinn munu tæknimennirnir vinna með söluaðila til að ganga úr skugga um að smásalinn framkvæmi prófanir í umhverfi utan framleiðslu til að meta árangur og framkvæma allar fínstillingar sem krafist er.
+

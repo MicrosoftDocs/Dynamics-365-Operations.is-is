@@ -3,7 +3,7 @@ title: Yfirlit yfir vildarkerfi
 description: Í þessu efni er fjallað um vildarkerfi í Dynamics 365 Commerce og samsvarandi uppsetningarþrepum til að hjálpa smásala auðveldlega að byrja með vildarkerfi sín.
 author: scott-tucker
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 337ede63cb9175f2674bae8f2caaac5f1ba5f5cb
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: fd0ceefe1890214ab5fe2f619f6bf8ce718dec11
+ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022948"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3613204"
 ---
 # <a name="loyalty-overview"></a>Yfirlit yfir vildarkerfi
 
@@ -55,7 +55,7 @@ Eftirfarandi tafla lýsir hvert eiginleika og hvar það er notað í uppsetning
 | Setja upp afslætti (skilyrði)                  | Setja upp afslætti sem bjóða á viðskiptavinum vildarkerfis. Til dæmis má bjóða 5 prósent af öllum fatnaði. | Afslættir verður að bæta við verðflokka áður en hægt er að taka þá með í vildarkerfi. Verðflokkar eru úthlutaðar á vildarkerfi og vildarlög. |
 | Setja upp verðflokka (skilyrði)               | Verðflokkar eru notaðir til að stofna og stjórna verð og afslætti afurða. Setja upp verðflokka sem inniheldur afslætti sem eiga við vildarkerfi. | Verðflokkar eru tengdir við vildarkerfi og vildarkerfalögum. |
 | Setja upp rásir (skilyrði)                   | Viðskiptarásir eru verslanir sem taka þátt í þínu vildarkerfi, s.s. hefðbundnar verslanir eða netverslun, eða símaver. Setja verður upp rásir áður en hægt er að úthluta vildarkerfi þeim. | Þú úthlutar rás til vildarkerfis ef rásin tekur þátt í vildarkerfinu. |
-| Setja upp Vildargreiðsluháttur (frumskilyrði) | Setða verður upp greiðslumáta áður en hægt er að nota vildarkort við afgreiðslukassann og innleysa vildarpunkta sem hluta af vildarkerfi. Þarf einnig að bæta við vildargreiðsluháttur við rásar áður en viðskiptavini geta innleysa vildarpunkta þeirra sem greiðslu fyrir afurðir. | Setja upp greiðslumáta vildarkerfis gerð og úthluta á vildargreiðsluháttur rása sem tekur þátt í vildarkerfinu. |
+| Setja upp Vildargreiðsluháttur (frumskilyrði) | Til að tryggja að hægt sé að innleysa vildarpunktana í hvaða rás sem er, t.d. í eiginlegum verslunum, netverslunum eða símaverum, þarf að setja upp auðkennisnúmer banka fyrir vildarkortin á síðunni **Kortanúmer**. | Setja upp greiðslumáta vildarkerfis gerð og úthluta á vildargreiðsluháttur rása sem tekur þátt í vildarkerfinu. |
 | Setja upp dagsetningabil                            | Dagsetningabil gefa upp á sveigjanlega leið til að setja tímabil sem á við vildarlög. Tímabil eru notuð til að tilgreina lengd þess tíma sem viðskiptavinur getur verið í lagi eða til hversu mikinn tíma viðskiptavinurinn hefur til að klára aðgerð til að geta fengið lag. | Dagsetningabil eiga einungis ef lög erum notuð í vildarkerfum. Velja dagsetningabilið sem á við kerfislög og tímabil sem á við reglur vildarlags forritið. |
 | Setja upp umbunarstig                             | Vildarpunktar eru gerðir umbunar sem er að bjóða viðskiptavinum. Umbunarpunktar getur verið innleysanlegur eða ekki innleysanlegur. Hægt er að skipta innleysanlega vildarpunkta fyrir afurðir. Óinnleysanlegir vildarpunktar eru notaðir til rakningar eða fyrirframgreiðslu til viðskiptavinar í næsta lagi í vildaráætluninni. | Vildarpunktar eru tilvísað í reglum vildarlags og eru notaðir til að viðurkenna viðskiptavinar fyrir tiltekið lag. Vildarpunktar eru einnig vísað í vildarkerfi í reglur tekna og innlausn. Í tekjureglur, tilgreina umbun sem viðskiptavinur getur unnið inn fyrir tiltekinn verkþátt. Í innlausnarreglur, tilgreinir þú umbun sem er viðskiptavinur getur innleyst. |
 | Setja upp vildarkerfi                          | Vildarkerfi eru kjarnavildareining sem þú býður upp á. Hvert vildarkerfi má einnig hafa vildarlögum sem er úthlutað á það. Afslættir og verðflokka eru úthlutaðir á vildarkerfi annaðhvort á forritsstigi eða í lagi stigi lagsins. | Stofna vildarkerfi fyrir við vildarkerfi. Þú tengir vildarkort við vildarkerfið, og hægt er að úthluta vildarkortum til viðskiptavinar. Viðskiptarásir taka þátt í vildarkerfi sem eru tengdir við vildarkerfi. Viðskiptavinir sem eru með vildarkort geta tekið þátt í vildarkerfum sem er úthlutað á kortið. |

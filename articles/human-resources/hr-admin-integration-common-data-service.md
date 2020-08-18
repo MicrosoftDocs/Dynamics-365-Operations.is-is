@@ -3,7 +3,7 @@ title: Skilgreina Common Data Service-samþættingu
 description: Þú getur kveikt eða slökkt á samþættingu á milli Common Data Service og Dynamics 365 Human Resources. Þú getur einnig skoðað upplýsingar um samstillingu, hreinsað mælingargögn og endurstillt eining til að hjálpa til við að leysa úr gögnum á milli umhverfanna tveggja.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7aad8217d48917d6855046a6810fe994f5564d94
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 8cbead2961c4576a5394080aae2fec109bce3f10
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431315"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621305"
 ---
 # <a name="configure-common-data-service-integration"></a>Skilgreina Common Data Service-samþættingu
 
@@ -66,6 +66,9 @@ Sjálfgefið er að slökktu sé á samþættingu gagna milli Human Resources og
 - Til að slökkva á samþættingu skaltu stilla valkostinn á **Nei**.
 
 [![Kveikt eða slökkt á Common Data Service samþættingu](./media/hr-enable-or-disable-common-data-service-integration.png)](./media/hr-enable-or-disable-common-data-service-integration.png)
+
+> [!WARNING]
+> Við mælum eindregið með því að slökkva á Common Data Service-samþættingu þegar gagnasamþættingarverk er framkvæmt. Stórar upphleðslur gagna geta haft umtalsverð áhrif á afköst. Til dæmis getur upphleðsla á 2000 starfsmönnum tekið nokkrar klukkustundir þegar kveikt er á samþættingu, og innan við klukkustund þegar slökkt er á henni. Tölurnar sem gefnar eru upp í þessu dæmi eru til sýnis eingöngu. Tíminn sem það nákvæmlega tekur að flytja inn færslur getur verið mjög breytilegur vegna ýmissa þátta.
 
 ## <a name="view-data-integration-details"></a>Skoða upplýsingar um gagnasamþættingu
 

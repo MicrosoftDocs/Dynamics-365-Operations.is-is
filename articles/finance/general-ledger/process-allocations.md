@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32271e967da2e7f3702b0c6c2dcdba460aa1b382
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4c8216ebdd1f26601743e6b35849be0813d06b4a
+ms.sourcegitcommit: 4676ea9646fa1a182103ecab93e78a69001f0b8d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770621"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3612663"
 ---
 # <a name="process-allocations"></a>Vinna úr úthlutunum
 
@@ -34,8 +34,8 @@ ms.locfileid: "2770621"
 Eftirfarandi getu styður þetta ferli:
 
 -   Úthluta færsluupphæðum handvirkt með því að nota aðgerðina „Skipta“ í dreifingu fjárhagsupphæðar eða með því að nota sjálfgefin sniðmát fjárhagsvídda við skjal. Frekari upplýsingar eru í [Dreifingar á fjárhagsupphæðir](../accounts-payable/accounting-distributions.md).
--   Úthluta sjálfkrafa færsluupphæðum á grundvelli úthlutunarskilmála sem eru tilgreindir á einstökum aðallyklum. Úthlutun lykilfærslna verður mynduð fyrir hverja færslubók á grundvelli hlutfalls og áfangastaðar fjárhagsreikninga hvenær sem bókhaldsfærsla uppfyllir skilyrði sem eru skilgreind sem upprunafjárhagsreikningur.
--   Úthluta sjálfkrafa fjárhagsstöður eða föstum upphæðum samkvæmt úthlutunarreglum fjárhags. Úthlutunarreglur fjárhags eru unnar með úthlutunarbókum með reglulegu millibili. 
+-   Úthluta sjálfkrafa færsluupphæðum á grundvelli úthlutunarskilmála sem eru tilgreindir á einstökum aðallyklum. Úthlutun lykilfærslna verður mynduð fyrir hverja færslubók á grundvelli hlutfalls og áfangastaðar fjárhagsreikninga hvenær sem bókhaldsfærsla uppfyllir skilyrði sem eru skilgreind sem upprunafjárhagsreikningur. Nánari upplýsingar er að finna í [Úthlutunarskilmálar aðallykils](../general-ledger/main-account-allocation-terms.md)
+-   Úthluta sjálfkrafa fjárhagsstöður eða föstum upphæðum samkvæmt úthlutunarreglum fjárhags. Úthlutunarreglur fjárhags eru unnar með úthlutunarbókum með reglulegu millibili. Frekari upplýsingar er að finna í [Úthlutunarreglur](../general-ledger/ledger-allocation-rules.md).
 
 ###  <a name="allocations-in-budget-planning"></a>Úthlutun í fjárhagsáætlunargerð
 
@@ -43,8 +43,4 @@ Hægt er að nota úthlutunarreglur fjárhags fyrir fjárhagsáætlunargerð. Þ
 
 > [!NOTE]
 > Hægt er að nota úthlutunarreglur fjárhags innan samstæðu fyrir fjárhagsáætlunargerð.
-
-
-
-
 

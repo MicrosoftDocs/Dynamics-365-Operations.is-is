@@ -3,7 +3,7 @@ title: Færibreytuuppsetning kreditstjórnunar
 description: Þetta efni lýsir valkostunum sem þú getur notað til að stilla lánastjórnun til að uppfylla kröfur fyrirtækisins.
 author: mikefalkner
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6d4ced14e51dd28d51d2081d8e92891e31eea49d
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: c4930d346ddc4679e6a3196c5f35adb598ed38c1
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154529"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651906"
 ---
 # <a name="credit-management-parameters-setup"></a>Færibreytuuppsetning kreditstjórnunar
 
@@ -34,7 +34,7 @@ ms.locfileid: "3154529"
 
 ### <a name="credit-holds"></a>Lán í biðstöðu
 
-- Stilltu valkostinn **Leyfa breytingu á virði sölupantana eftir að pöntun er losuð úr bið** á **Já** til að krefjast þess að bókunarreglurnar verði kannaðar aftur ef sölupöntunarvirði (heildarverð) hefur verið breytt síðan sölupöntunin var losuð af biðlistanum. .
+- Stillið valkostinn **Leyfa breytingu á virði sölupantana þegar biðstaða pöntunar er losuð** á **Nei** til að krefjast þess að bókunarreglur verði aftur athugaðar ef gildi sölupöntunar (heildarverðs) hefur hækkað frá því að sölupöntunin var losuð úr biðlistanum. .
 - Í reitnum **Ástæður niðurfelldra pantana** velurðu losunarástæðuna sem verður sjálfkrafa notuð þegar sölupöntun sem var í lánastýringarbið er felld niður.
 - Stilltu valkostinn **Athuga lánamörk viðskiptavinahópa** á **Já** til að athuga lánamörk viðskiptavinahóps þegar viðskiptavinurinn í sölupöntun tilheyrir lánshópi viðskiptavina. Lánamörk hópsins verða athuguð og síðan, ef það er nægjanlegt, verður lánsfjárhæðin fyrir viðskiptavininn athuguð.
 - Stilltu valkostinn **Athuga lánamörk þegar greiðsluskilmálar eru hækkaðir** á **Já** til að kanna röðun á greiðsluskilmálum til að ákvarða hvort greiðsluskilmálar í sölupöntuninni eru frábrugðnir sjálfgefnum greiðsluskilmálum fyrir viðskiptavininn. Ef nýju greiðsluskilmálarnir eru hærri en upphaflegir greiðsluskilmálar, þá er pöntunin sett á kreditstjórnunarbið.
