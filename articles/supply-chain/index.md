@@ -18,95 +18,93 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ab0c66ad0536b20b1ab23e9498ca3cb56b98ccf5
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: d601ca9b28bb720fd05e25ef66df7be12a08f7e0
+ms.sourcegitcommit: e2a953bea055611023c00a55c00391d14daaca25
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530260"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696131"
 ---
-# <a name="supply-chain-management-home-page"></a><span data-ttu-id="62700-103">Heimasíða „Supply Chain Management“</span><span class="sxs-lookup"><span data-stu-id="62700-103">Supply Chain Management home page</span></span>
+# <a name="supply-chain-management-home-page"></a><span data-ttu-id="5c5f2-103">Heimasíða „Supply Chain Management“</span><span class="sxs-lookup"><span data-stu-id="5c5f2-103">Supply Chain Management home page</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="62700-104">Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng í Dynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="62700-104">This topic provides a list of the help topics and other resources in Dynamics 365 Supply Chain Management.</span></span>
+<span data-ttu-id="5c5f2-104">Í þessu efnisatriði er að finna skrá yfir hjálparatriði og önnur tilföng í Dynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="5c5f2-104">This topic provides a list of the help topics and other resources in Dynamics 365 Supply Chain Management.</span></span>
 
-## <a name="whats-new-and-in-development"></a><span data-ttu-id="62700-105">Nýjungar og eiginleikar á þróunarstigi</span><span class="sxs-lookup"><span data-stu-id="62700-105">What's new and in development</span></span>
+## <a name="whats-new-and-in-development"></a><span data-ttu-id="5c5f2-105">Nýjungar og eiginleikar á þróunarstigi</span><span class="sxs-lookup"><span data-stu-id="5c5f2-105">What's new and in development</span></span>
 
-<span data-ttu-id="62700-106">Á [Dynamics 365-leiðarvísinum](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi.</span><span class="sxs-lookup"><span data-stu-id="62700-106">Go to the [Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features are released and what new features are in development.</span></span>
+<span data-ttu-id="5c5f2-106">Á [Dynamics 365-leiðarvísinum](https://roadmap.dynamics.com/) eru upplýsingar um nýja eiginleika og eiginleika sem eru á þróunarstigi.</span><span class="sxs-lookup"><span data-stu-id="5c5f2-106">Go to the [Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features are released and what new features are in development.</span></span>
 
-## <a name="core-concepts-and-tasks"></a><span data-ttu-id="62700-107">Grunnhugtök og verk</span><span class="sxs-lookup"><span data-stu-id="62700-107">Core concepts and tasks</span></span>
+## <a name="core-concepts-and-tasks"></a><span data-ttu-id="5c5f2-107">Grunnhugtök og verk</span><span class="sxs-lookup"><span data-stu-id="5c5f2-107">Core concepts and tasks</span></span>
 
-<span data-ttu-id="62700-108">Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.</span><span class="sxs-lookup"><span data-stu-id="62700-108">Select a feature area to learn more about it.</span></span>
+<span data-ttu-id="5c5f2-108">Veldu eiginleikasvæði til að fræðast frekar um viðkomandi eiginleika.</span><span class="sxs-lookup"><span data-stu-id="5c5f2-108">Select a feature area to learn more about it.</span></span>
 
-- [<span data-ttu-id="62700-109">Eignastýring</span><span class="sxs-lookup"><span data-stu-id="62700-109">Asset management</span></span>](asset-management/index.md)
-- [<span data-ttu-id="62700-110">Kostnaðarbókhald</span><span class="sxs-lookup"><span data-stu-id="62700-110">Cost accounting</span></span>](../finance/cost-accounting/cost-accounting-home-page.md)
-- [<span data-ttu-id="62700-111">Kostnaðarstjórnun</span><span class="sxs-lookup"><span data-stu-id="62700-111">Cost management</span></span>](cost-management/cost-management-home-page.md)  
-- [<span data-ttu-id="62700-112">Birgðastjórnun</span><span class="sxs-lookup"><span data-stu-id="62700-112">Inventory management</span></span>](inventory/inventory-home-page.md)
-- [<span data-ttu-id="62700-113">IoT gervigreind</span><span class="sxs-lookup"><span data-stu-id="62700-113">IoT Intelligence</span></span>](iot/iot-intelligence-home-page.md)
-- [<span data-ttu-id="62700-114">Aðaláætlanagerð</span><span class="sxs-lookup"><span data-stu-id="62700-114">Master planning</span></span>](master-planning/master-planning-home-page.md)
-- [<span data-ttu-id="62700-115">Innkaup og aðföng</span><span class="sxs-lookup"><span data-stu-id="62700-115">Procurement and sourcing</span></span>](procurement/procurement-sourcing-overview.md)
-- [<span data-ttu-id="62700-116">Afurðaupplýsingastjórnun</span><span class="sxs-lookup"><span data-stu-id="62700-116">Product information management</span></span>](pim/product-information.md)
-- [<span data-ttu-id="62700-117">Framleiðslustýring</span><span class="sxs-lookup"><span data-stu-id="62700-117">Production control</span></span>](production-control/production-process-overview.md)
-- [<span data-ttu-id="62700-118">Sala og markaðsstarf</span><span class="sxs-lookup"><span data-stu-id="62700-118">Sales and marketing</span></span>](sales-marketing/overview-sales-marketing.md)
-- [<span data-ttu-id="62700-119">Þjónustustjórnun</span><span class="sxs-lookup"><span data-stu-id="62700-119">Service management</span></span>](service-management/service-management-home-page.md)
-- [<span data-ttu-id="62700-120">Flutningsstjórnun</span><span class="sxs-lookup"><span data-stu-id="62700-120">Transportation management</span></span>](transportation/transportation-management-overview.md)
-- [<span data-ttu-id="62700-121">Vöruhúsakerfi</span><span class="sxs-lookup"><span data-stu-id="62700-121">Warehouse management</span></span>](warehousing/warehouse-configuration.md)
+- [<span data-ttu-id="5c5f2-109">Eignastýring</span><span class="sxs-lookup"><span data-stu-id="5c5f2-109">Asset management</span></span>](asset-management/index.md)
+- [<span data-ttu-id="5c5f2-110">Kostnaðarbókhald</span><span class="sxs-lookup"><span data-stu-id="5c5f2-110">Cost accounting</span></span>](../finance/cost-accounting/cost-accounting-home-page.md)
+- [<span data-ttu-id="5c5f2-111">Kostnaðarstjórnun</span><span class="sxs-lookup"><span data-stu-id="5c5f2-111">Cost management</span></span>](cost-management/cost-management-home-page.md)  
+- [<span data-ttu-id="5c5f2-112">Birgðastjórnun</span><span class="sxs-lookup"><span data-stu-id="5c5f2-112">Inventory management</span></span>](inventory/inventory-home-page.md)
+- [<span data-ttu-id="5c5f2-113">IoT gervigreind</span><span class="sxs-lookup"><span data-stu-id="5c5f2-113">IoT Intelligence</span></span>](iot/iot-intelligence-home-page.md)
+- [<span data-ttu-id="5c5f2-114">Aðaláætlanagerð</span><span class="sxs-lookup"><span data-stu-id="5c5f2-114">Master planning</span></span>](master-planning/master-planning-home-page.md)
+- [<span data-ttu-id="5c5f2-115">Innkaup og aðföng</span><span class="sxs-lookup"><span data-stu-id="5c5f2-115">Procurement and sourcing</span></span>](procurement/procurement-sourcing-overview.md)
+- [<span data-ttu-id="5c5f2-116">Afurðaupplýsingastjórnun</span><span class="sxs-lookup"><span data-stu-id="5c5f2-116">Product information management</span></span>](pim/product-information.md)
+- [<span data-ttu-id="5c5f2-117">Framleiðslustýring</span><span class="sxs-lookup"><span data-stu-id="5c5f2-117">Production control</span></span>](production-control/production-process-overview.md)
+- [<span data-ttu-id="5c5f2-118">Sala og markaðsstarf</span><span class="sxs-lookup"><span data-stu-id="5c5f2-118">Sales and marketing</span></span>](sales-marketing/overview-sales-marketing.md)
+- [<span data-ttu-id="5c5f2-119">Þjónustustjórnun</span><span class="sxs-lookup"><span data-stu-id="5c5f2-119">Service management</span></span>](service-management/service-management-home-page.md)
+- [<span data-ttu-id="5c5f2-120">Flutningsstjórnun</span><span class="sxs-lookup"><span data-stu-id="5c5f2-120">Transportation management</span></span>](transportation/transportation-management-overview.md)
+- [<span data-ttu-id="5c5f2-121">Vöruhúsakerfi</span><span class="sxs-lookup"><span data-stu-id="5c5f2-121">Warehouse management</span></span>](warehousing/warehouse-configuration.md)
 
-## <a name="dynamics-365-finance"></a><span data-ttu-id="62700-122">Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="62700-122">Dynamics 365 Finance</span></span>
+## <a name="dynamics-365-finance"></a><span data-ttu-id="5c5f2-122">Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="5c5f2-122">Dynamics 365 Finance</span></span>
 
-<span data-ttu-id="62700-123">Upplýsingar um Dynamics 365 Finance fást á [Finance heimasíðunni](../finance/index.md).</span><span class="sxs-lookup"><span data-stu-id="62700-123">For information on Dynamics 365 Finance, go to the [Finance home page](../finance/index.md).</span></span>
+<span data-ttu-id="5c5f2-123">Upplýsingar um Dynamics 365 Finance fást á [Finance heimasíðunni](../finance/index.md).</span><span class="sxs-lookup"><span data-stu-id="5c5f2-123">For information on Dynamics 365 Finance, go to the [Finance home page](../finance/index.md).</span></span>
 
-## <a name="videos"></a><span data-ttu-id="62700-124">Myndbönd</span><span class="sxs-lookup"><span data-stu-id="62700-124">Videos</span></span>
+## <a name="videos"></a><span data-ttu-id="5c5f2-124">Myndbönd</span><span class="sxs-lookup"><span data-stu-id="5c5f2-124">Videos</span></span>
 
-<span data-ttu-id="62700-125">Í þessu stutta myndbandi er teknir saman nýir eiginleikar stjórnunar aðfangakeðju sem bætt var við Microsoft Dynamics 365 for Finance and Operations útgáfu 8.0 (apríl 2018).</span><span class="sxs-lookup"><span data-stu-id="62700-125">This short video summarize the new supply chain management features added to Microsoft Dynamics 365 for Finance and Operations version 8.0 (April 2018).</span></span>
+<span data-ttu-id="5c5f2-125">Í þessu stutta myndbandi er teknir saman nýir eiginleikar stjórnunar aðfangakeðju sem bætt var við Microsoft Dynamics 365 for Finance and Operations útgáfu 8.0 (apríl 2018).</span><span class="sxs-lookup"><span data-stu-id="5c5f2-125">This short video summarize the new supply chain management features added to Microsoft Dynamics 365 for Finance and Operations version 8.0 (April 2018).</span></span>
 
-- [<span data-ttu-id="62700-126">Samstilling vinnupöntunar á milli Field Service og Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="62700-126">Synchronize a work order between Field Service and Finance and Operations</span></span>](https://youtu.be/hAB4TDVMjxU)
+- [<span data-ttu-id="5c5f2-126">Samstilling vinnupöntunar á milli Field Service og Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="5c5f2-126">Synchronize a work order between Field Service and Finance and Operations</span></span>](https://youtu.be/hAB4TDVMjxU)
 
-<span data-ttu-id="62700-127">Í þessum stuttu myndböndum eru teknir saman nýir eiginleikar stjórnunar aðfangakeðju sem bætt var við Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 (apríl 2017).</span><span class="sxs-lookup"><span data-stu-id="62700-127">These short videos summarize the new supply chain management features added to Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (December 2017).</span></span>
+<span data-ttu-id="5c5f2-127">Í þessum stuttu myndböndum eru teknir saman nýir eiginleikar stjórnunar aðfangakeðju sem bætt var við Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 (apríl 2017).</span><span class="sxs-lookup"><span data-stu-id="5c5f2-127">These short videos summarize the new supply chain management features added to Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (December 2017).</span></span>
 
-- [<span data-ttu-id="62700-128">PTC-samþætting</span><span class="sxs-lookup"><span data-stu-id="62700-128">Prospect to cash integration</span></span>](https://youtu.be/AVV9x5x-XCg) 
-- [<span data-ttu-id="62700-129">Fínstillingarráðgjöf</span><span class="sxs-lookup"><span data-stu-id="62700-129">Optimization advisor</span></span>](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
-- [<span data-ttu-id="62700-130">Notaðu sniðmát vöruhúss til að afrita skilgreiningu</span><span class="sxs-lookup"><span data-stu-id="62700-130">Use warehouse template to copy configuration</span></span>](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
+- [<span data-ttu-id="5c5f2-128">PTC-samþætting</span><span class="sxs-lookup"><span data-stu-id="5c5f2-128">Prospect to cash integration</span></span>](https://youtu.be/AVV9x5x-XCg) 
+- [<span data-ttu-id="5c5f2-129">Fínstillingarráðgjöf</span><span class="sxs-lookup"><span data-stu-id="5c5f2-129">Optimization advisor</span></span>](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+- [<span data-ttu-id="5c5f2-130">Notaðu sniðmát vöruhúss til að afrita skilgreiningu</span><span class="sxs-lookup"><span data-stu-id="5c5f2-130">Use warehouse template to copy configuration</span></span>](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-<span data-ttu-id="62700-131">Í þessum stuttu myndböndum eru teknir saman nýir eiginleikar stjórnunar aðfangakeðju sem bætt var við Microsoft Dynamics 365 for Finance and Operations Enterprise Edition (júlí 2017).</span><span class="sxs-lookup"><span data-stu-id="62700-131">These short videos summarize the new supply chain management features added to Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (July 2017).</span></span>
+<span data-ttu-id="5c5f2-131">Í þessum stuttu myndböndum eru teknir saman nýir eiginleikar stjórnunar aðfangakeðju sem bætt var við Microsoft Dynamics 365 for Finance and Operations Enterprise Edition (júlí 2017).</span><span class="sxs-lookup"><span data-stu-id="5c5f2-131">These short videos summarize the new supply chain management features added to Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (July 2017).</span></span>
 
-- [<span data-ttu-id="62700-132">Hafist handa með kostnaðarbókhald</span><span class="sxs-lookup"><span data-stu-id="62700-132">Get started with Cost accounting</span></span>](https://youtu.be/1pUDtJQZ8FU)
-- [<span data-ttu-id="62700-133">Fartækjavinnusvæði kostnaðarstýringar</span><span class="sxs-lookup"><span data-stu-id="62700-133">Cost control mobile workspace</span></span>](https://youtu.be/imsuTg8rUVk)
-- [<span data-ttu-id="62700-134">Nota Excel fyrir kostnaðargreiningu</span><span class="sxs-lookup"><span data-stu-id="62700-134">Use Excel for cost analysis</span></span>](https://youtu.be/-HKHYdClvx8)
-- [<span data-ttu-id="62700-135">Samþykkja innkaupapantanir í fartæki</span><span class="sxs-lookup"><span data-stu-id="62700-135">Approve purchase orders on a mobile device</span></span>](https://youtu.be/gZ-gOlJe7H8)
-- [<span data-ttu-id="62700-136">Sjónræn röðun með Gantt-línurit fyrir framleiðslu- og runupantanir</span><span class="sxs-lookup"><span data-stu-id="62700-136">Visual scheduling with Gantt chart for production and batch orders</span></span>](https://youtu.be/BtbuShkGj4I)
+- [<span data-ttu-id="5c5f2-132">Hafist handa með kostnaðarbókhald</span><span class="sxs-lookup"><span data-stu-id="5c5f2-132">Get started with Cost accounting</span></span>](https://youtu.be/1pUDtJQZ8FU)
+- [<span data-ttu-id="5c5f2-133">Fartækjavinnusvæði kostnaðarstýringar</span><span class="sxs-lookup"><span data-stu-id="5c5f2-133">Cost control mobile workspace</span></span>](https://youtu.be/imsuTg8rUVk)
+- [<span data-ttu-id="5c5f2-134">Nota Excel fyrir kostnaðargreiningu</span><span class="sxs-lookup"><span data-stu-id="5c5f2-134">Use Excel for cost analysis</span></span>](https://youtu.be/-HKHYdClvx8)
+- [<span data-ttu-id="5c5f2-135">Samþykkja innkaupapantanir í fartæki</span><span class="sxs-lookup"><span data-stu-id="5c5f2-135">Approve purchase orders on a mobile device</span></span>](https://youtu.be/gZ-gOlJe7H8)
+- [<span data-ttu-id="5c5f2-136">Sjónræn röðun með Gantt-línurit fyrir framleiðslu- og runupantanir</span><span class="sxs-lookup"><span data-stu-id="5c5f2-136">Visual scheduling with Gantt chart for production and batch orders</span></span>](https://youtu.be/BtbuShkGj4I)
 
-<span data-ttu-id="62700-137">Í eftirfarandi upptökum tækniráðstefnu er rætt um stjórnunarvirkni aðfangakeðju í fyrri útgáfum Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="62700-137">The following tech conference recordings discuss supply chain management functionality from previous versions of Finance and Operations.</span></span> <span data-ttu-id="62700-138">Þessi virkni er nú hluti af Dynamics 365 Supply Chain Management; sömu hugtök eiga enn við og ferlin eru svipuð í nýjustu útgáfunni.</span><span class="sxs-lookup"><span data-stu-id="62700-138">This functionality is now part of Dynamics 365 Supply Chain Management; the same concepts still apply, and the procedures are similar in the current version.</span></span>
+<span data-ttu-id="5c5f2-137">Í eftirfarandi upptökum tækniráðstefnu er rætt um stjórnunarvirkni aðfangakeðju í fyrri útgáfum Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="5c5f2-137">The following tech conference recordings discuss supply chain management functionality from previous versions of Finance and Operations.</span></span> <span data-ttu-id="5c5f2-138">Þessi virkni er nú hluti af Dynamics 365 Supply Chain Management; sömu hugtök eiga enn við og ferlin eru svipuð í nýjustu útgáfunni.</span><span class="sxs-lookup"><span data-stu-id="5c5f2-138">This functionality is now part of Dynamics 365 Supply Chain Management; the same concepts still apply, and the procedures are similar in the current version.</span></span>
 
-- <span data-ttu-id="62700-139">**Kostnaðarstjórnun:**</span><span class="sxs-lookup"><span data-stu-id="62700-139">**Cost management:**</span></span>
-  - [<span data-ttu-id="62700-140">Yfirlit yfir kostnaðarstjórnun</span><span class="sxs-lookup"><span data-stu-id="62700-140">Overview of Cost management</span></span>](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
-- <span data-ttu-id="62700-141">**Aðaláætlanagerð:**</span><span class="sxs-lookup"><span data-stu-id="62700-141">**Master planning:**</span></span>
-  - [<span data-ttu-id="62700-142">Framlengja virkni eftirspurnarspár</span><span class="sxs-lookup"><span data-stu-id="62700-142">Extend the demand forecasting functionality</span></span>](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-  - [<span data-ttu-id="62700-143">Áætlanagerð - ábendingar og ráð til að finna úrræði við vandamálum</span><span class="sxs-lookup"><span data-stu-id="62700-143">Master planning - tips and tricks for troubleshooting performance</span></span>](https://youtu.be/7v8BPmEs9Dg)
-  - [<span data-ttu-id="62700-144">Hjálp! MRP er hægt!</span><span class="sxs-lookup"><span data-stu-id="62700-144">Help! MRP is slow!</span></span>](https://youtu.be/RLXybx20B5o)
-- <span data-ttu-id="62700-145">**Afurðaupplýsingastjórnun:**</span><span class="sxs-lookup"><span data-stu-id="62700-145">**Product information management:**</span></span>
-  - [<span data-ttu-id="62700-146">Afurðarafbrigðastillir í Microsoft Dynamics AX</span><span class="sxs-lookup"><span data-stu-id="62700-146">Product configurator in Microsoft Dynamics AX</span></span>](https://youtu.be/zotrj3SbCl4)
-- <span data-ttu-id="62700-147">**Vöruhúsakerfi:**</span><span class="sxs-lookup"><span data-stu-id="62700-147">**Warehouse management:**</span></span>
-  - [<span data-ttu-id="62700-148">Fáðu sem mest úr vöruhúsakerfinu</span><span class="sxs-lookup"><span data-stu-id="62700-148">Get the best out of your warehouse management system</span></span>](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
-  - [<span data-ttu-id="62700-149">Advanced R3 vöruhúsakerfi - vinnsla á innleið og hámarks-/lágmarksáfylling</span><span class="sxs-lookup"><span data-stu-id="62700-149">Advanced R3 Warehouse management - Inbound processing and min/max replenishment</span></span>](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
-  - [<span data-ttu-id="62700-150">Advanced R3 vöruhúsakerfi - dagur í útleiðarvinnslu og áfyllingu eftirspurnar</span><span class="sxs-lookup"><span data-stu-id="62700-150">Advanced R3 Warehouse management - A day in the life, outbound processing and demand Replenishment</span></span>](https://youtu.be/Og0gLlVp7jA)
-  - [<span data-ttu-id="62700-151">Merki í nýja Microsoft Dynamics AX 2012 R3 vöruhúsakerfinu</span><span class="sxs-lookup"><span data-stu-id="62700-151">Labels in the new Microsoft Dynamics AX 2012 R3 Warehouse management</span></span>](https://youtu.be/5w1MngVchBA)
-  - [<span data-ttu-id="62700-152">Dynamics AX 2012 R3: Ítarlegt vöruhúsakerfi - Dagur í vinnsluframleiðslu</span><span class="sxs-lookup"><span data-stu-id="62700-152">Dynamics AX 2012 R3: Advanced warehouse management - A day in the life of process manufacturing</span></span>](https://www.youtube.com/embed/QUxXUrN-7n4)
-- <span data-ttu-id="62700-153">**Framleiðslustýringarmyndbönd:**</span><span class="sxs-lookup"><span data-stu-id="62700-153">**Production control videos:**</span></span>
-  - [<span data-ttu-id="62700-154">Úthýsing aðgerða og verkþátta í framleiðslu</span><span class="sxs-lookup"><span data-stu-id="62700-154">Subcontracting operations and activities in manufacturing</span></span>](https://youtu.be/y1jrd3A_k70)
-- <span data-ttu-id="62700-155">**Flutningsstjórnunarmyndbönd:**</span><span class="sxs-lookup"><span data-stu-id="62700-155">**Transportation management videos:**</span></span>
-  - [<span data-ttu-id="62700-156">Flutningsstjórnun í nýja Microsoft Dynamics AX</span><span class="sxs-lookup"><span data-stu-id="62700-156">Transportation management (TMS) in the new Microsoft Dynamics AX</span></span>](https://youtu.be/jgmTgJIgEFQ)
+- <span data-ttu-id="5c5f2-139">**Kostnaðarstjórnun:**</span><span class="sxs-lookup"><span data-stu-id="5c5f2-139">**Cost management:**</span></span>
+  - [<span data-ttu-id="5c5f2-140">Yfirlit yfir kostnaðarstjórnun</span><span class="sxs-lookup"><span data-stu-id="5c5f2-140">Overview of Cost management</span></span>](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+- <span data-ttu-id="5c5f2-141">**Aðaláætlanagerð:**</span><span class="sxs-lookup"><span data-stu-id="5c5f2-141">**Master planning:**</span></span>
+  - [<span data-ttu-id="5c5f2-142">Framlengja virkni eftirspurnarspár</span><span class="sxs-lookup"><span data-stu-id="5c5f2-142">Extend the demand forecasting functionality</span></span>](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+  - [<span data-ttu-id="5c5f2-143">Áætlanagerð - ábendingar og ráð til að finna úrræði við vandamálum</span><span class="sxs-lookup"><span data-stu-id="5c5f2-143">Master planning - tips and tricks for troubleshooting performance</span></span>](https://youtu.be/7v8BPmEs9Dg)
+  - [<span data-ttu-id="5c5f2-144">Hjálp! MRP er hægt!</span><span class="sxs-lookup"><span data-stu-id="5c5f2-144">Help! MRP is slow!</span></span>](https://youtu.be/RLXybx20B5o)
+- <span data-ttu-id="5c5f2-145">**Afurðaupplýsingastjórnun:**</span><span class="sxs-lookup"><span data-stu-id="5c5f2-145">**Product information management:**</span></span>
+  - [<span data-ttu-id="5c5f2-146">Afurðarafbrigðastillir í Microsoft Dynamics AX</span><span class="sxs-lookup"><span data-stu-id="5c5f2-146">Product configurator in Microsoft Dynamics AX</span></span>](https://youtu.be/zotrj3SbCl4)
+- <span data-ttu-id="5c5f2-147">**Vöruhúsakerfi:**</span><span class="sxs-lookup"><span data-stu-id="5c5f2-147">**Warehouse management:**</span></span>
+  - [<span data-ttu-id="5c5f2-148">Fáðu sem mest úr vöruhúsakerfinu</span><span class="sxs-lookup"><span data-stu-id="5c5f2-148">Get the best out of your warehouse management system</span></span>](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+  - [<span data-ttu-id="5c5f2-149">Merki í nýja Microsoft Dynamics AX 2012 R3 vöruhúsakerfinu</span><span class="sxs-lookup"><span data-stu-id="5c5f2-149">Labels in the new Microsoft Dynamics AX 2012 R3 Warehouse management</span></span>](https://youtu.be/5w1MngVchBA)
+  - [<span data-ttu-id="5c5f2-150">Dynamics AX 2012 R3: Ítarlegt vöruhúsakerfi - Dagur í vinnsluframleiðslu</span><span class="sxs-lookup"><span data-stu-id="5c5f2-150">Dynamics AX 2012 R3: Advanced warehouse management - A day in the life of process manufacturing</span></span>](https://www.youtube.com/embed/QUxXUrN-7n4)
+- <span data-ttu-id="5c5f2-151">**Framleiðslustýringarmyndbönd:**</span><span class="sxs-lookup"><span data-stu-id="5c5f2-151">**Production control videos:**</span></span>
+  - [<span data-ttu-id="5c5f2-152">Úthýsing aðgerða og verkþátta í framleiðslu</span><span class="sxs-lookup"><span data-stu-id="5c5f2-152">Subcontracting operations and activities in manufacturing</span></span>](https://youtu.be/y1jrd3A_k70)
+- <span data-ttu-id="5c5f2-153">**Flutningsstjórnunarmyndbönd:**</span><span class="sxs-lookup"><span data-stu-id="5c5f2-153">**Transportation management videos:**</span></span>
+  - [<span data-ttu-id="5c5f2-154">Flutningsstjórnun í nýja Microsoft Dynamics AX</span><span class="sxs-lookup"><span data-stu-id="5c5f2-154">Transportation management (TMS) in the new Microsoft Dynamics AX</span></span>](https://youtu.be/jgmTgJIgEFQ)
 
-## <a name="blogs"></a><span data-ttu-id="62700-157">Blogg</span><span class="sxs-lookup"><span data-stu-id="62700-157">Blogs</span></span>
+## <a name="blogs"></a><span data-ttu-id="5c5f2-155">Blogg</span><span class="sxs-lookup"><span data-stu-id="5c5f2-155">Blogs</span></span>
 
-<span data-ttu-id="62700-158">Mörg umfjöllunarefni er að finna um framleiðslu- og aðfangakeðjustjórnun á [bloggi rannsóknar- og þróunarteymis framleiðsluhluta Dynamics AX](https://blogs.msdn.microsoft.com/axmfg/) og [bloggi rannsóknar- og þróunarteymis Supply Chain Management í Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/).</span><span class="sxs-lookup"><span data-stu-id="62700-158">There are many topics about manufacturing and supply chain management on the [Dynamics AX Manufacturing R&D Team Blog](https://blogs.msdn.microsoft.com/axmfg/) and [Supply Chain Management in Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm/).</span></span> <span data-ttu-id="62700-159">Flestar þessara færslna voru skrifaðar um eldri útgáfu en sömu hugtök eiga enn við og ferlin eru svipuð í nýjustu útgáfunni.</span><span class="sxs-lookup"><span data-stu-id="62700-159">Most of these were written for the previous version, but the same concepts still apply, and the procedures are similar in the current version.</span></span>
+<span data-ttu-id="5c5f2-156">Mörg umfjöllunarefni er að finna um framleiðslu- og aðfangakeðjustjórnun á [bloggi rannsóknar- og þróunarteymis framleiðsluhluta Dynamics AX](https://blogs.msdn.microsoft.com/axmfg/) og [bloggi rannsóknar- og þróunarteymis Supply Chain Management í Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/).</span><span class="sxs-lookup"><span data-stu-id="5c5f2-156">There are many topics about manufacturing and supply chain management on the [Dynamics AX Manufacturing R&D Team Blog](https://blogs.msdn.microsoft.com/axmfg/) and [Supply Chain Management in Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm/).</span></span> <span data-ttu-id="5c5f2-157">Flestar þessara færslna voru skrifaðar um eldri útgáfu en sömu hugtök eiga enn við og ferlin eru svipuð í nýjustu útgáfunni.</span><span class="sxs-lookup"><span data-stu-id="5c5f2-157">Most of these were written for the previous version, but the same concepts still apply, and the procedures are similar in the current version.</span></span>
 
-## <a name="white-papers"></a><span data-ttu-id="62700-160">Hvítbækur</span><span class="sxs-lookup"><span data-stu-id="62700-160">White papers</span></span>
+## <a name="white-papers"></a><span data-ttu-id="5c5f2-158">Hvítbækur</span><span class="sxs-lookup"><span data-stu-id="5c5f2-158">White papers</span></span>
 
-- [<span data-ttu-id="62700-161">Lean-framleiðsla: Afhendingargeta og kanban-vinnsluröðun</span><span class="sxs-lookup"><span data-stu-id="62700-161">Lean manufacturing: Capable to promise and kanban job scheduling</span></span>](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/)
-- [<span data-ttu-id="62700-162">Útreikningur uppskrifta með kostnaðarskjali</span><span class="sxs-lookup"><span data-stu-id="62700-162">BOM calculation by using a costing sheet</span></span>](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/)
+- [<span data-ttu-id="5c5f2-159">Lean-framleiðsla: Afhendingargeta og kanban-vinnsluröðun</span><span class="sxs-lookup"><span data-stu-id="5c5f2-159">Lean manufacturing: Capable to promise and kanban job scheduling</span></span>](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/)
+- [<span data-ttu-id="5c5f2-160">Útreikningur uppskrifta með kostnaðarskjali</span><span class="sxs-lookup"><span data-stu-id="5c5f2-160">BOM calculation by using a costing sheet</span></span>](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/)
 
-## <a name="elearning-courses"></a><span data-ttu-id="62700-163">Rafræn námskeið</span><span class="sxs-lookup"><span data-stu-id="62700-163">eLearning courses</span></span>
+## <a name="elearning-courses"></a><span data-ttu-id="5c5f2-161">Rafræn námskeið</span><span class="sxs-lookup"><span data-stu-id="5c5f2-161">eLearning courses</span></span>
 
-<span data-ttu-id="62700-164">Netnámskeið og þjálfun má finna í [Dynamics 365 á Microsoft Learn](https://docs.microsoft.com/learn/dynamics365/).</span><span class="sxs-lookup"><span data-stu-id="62700-164">For online courses and training, check out [Dynamics 365 on Microsoft Learn](https://docs.microsoft.com/learn/dynamics365/).</span></span>
+<span data-ttu-id="5c5f2-162">Netnámskeið og þjálfun má finna í [Dynamics 365 á Microsoft Learn](https://docs.microsoft.com/learn/dynamics365/).</span><span class="sxs-lookup"><span data-stu-id="5c5f2-162">For online courses and training, check out [Dynamics 365 on Microsoft Learn](https://docs.microsoft.com/learn/dynamics365/).</span></span>

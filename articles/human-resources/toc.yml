@@ -5,6 +5,8 @@
       items:
         - name: Nýjungar eða breytingar í Human Resources
           href: hr-admin-whats-new.md
+        - name: 6. ágúst 2020
+          href: hr-whats-new-2020-08-06.md
         - name: 23. júlí 2020
           href: hr-whats-new-2020-07-23.md
         - name: 8. júlí 2020
@@ -23,16 +25,16 @@
           href: hr-whats-new-2020-04-13.md
         - name: 3. apríl 2020
           href: hr-whats-new-2020-04-03.md
-        - name: 24. mars 2020
-          href: hr-whats-new-2020-03-24.md
-        - name: 19. mars 2020
-          href: hr-whats-new-2020-03-19.md
-        - name: 10. mars 2020
-          href: hr-whats-new-2020-03-10.md
-        - name: 3. mars 2020
-          href: hr-whats-new-2020-03-03.md
         - name: Safnvistaðar nýjungar 2020
           items:
+            - name: 24. mars 2020
+              href: hr-whats-new-2020-03-24.md
+            - name: 19. mars 2020
+              href: hr-whats-new-2020-03-19.md
+            - name: 10. mars 2020
+              href: hr-whats-new-2020-03-10.md
+            - name: 3. mars 2020
+              href: hr-whats-new-2020-03-03.md
             - name: 25. febrúar 2020
               href: hr-whats-new-2020-02-25.md
             - name: 18. febrúar 2020
@@ -225,8 +227,6 @@
               href: hr-setup-parameters.md
             - name: Grunnstilla samnýttar færibreytur Human Resources
               href: hr-setup-shared-parameters.md
-            - name: Setja upp verkflæði Human Resources
-              href: hr-setup-workflows.md
             - name: Skilja svæði fyrir dagsetningu og tíma
               href: hr-setup-date-time-fields.md
         - name: Grunnstilla stillingar fyrirtækis
@@ -383,20 +383,20 @@
               href: hr-personnel-actions-faq.md
             - name: Nota verkflæði til að haga starfsmannaupplýsingum
               href: hr-workflow-manage-employee-information.md
+            - name: Skoða og vinna með aðsetursbreytingar
+              href: hr-personnel-view-address-changes.md
             - name: Breyta skýrslugjafarvenslum fyrir stöðu
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: Færa inn upplýsingar um starfsmann
               href: hr-personnel-enter-worker-information.md
             - name: Lána starfsfólki vörur
               href: hr-personnel-loan-item-worker.md
-            - name: Stofna lánaliði
+            - name: Stofna lánshluti
               href: hr-personnel-create-loan-items.md
             - name: Stjórna lánshlutum
               href: hr-personnel-loan-items.md
             - name: Þróa áætlun um röðun starfsmanna
               href: hr-personnel-develop-succession-plan.md
-            - name: Færa inn Project Timesheets
-              href: hr-personnel-enter-project-timesheets.md
             - name: Fjöldaráðningarverk
               href: hr-personnel-mass-hire-projects.md
             - name: Stofna fjöldaráðningarverk
