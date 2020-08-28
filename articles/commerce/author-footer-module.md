@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87ffc0204019f2f7122c40dc21bdb5de012929d6
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e81617979a945274500c9f4ceaa8078d8dfd79e8
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411206"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686719"
 ---
 # <a name="footer-module"></a>Neðanmálseining  
 
@@ -50,7 +50,7 @@ Eins og á við um flesta gáma, styður neðanmálseiningin eiginleika fyrir fy
 
 ## <a name="create-a-footer-module"></a>Búa til neðanmálseiningu
 
-1. Farðu í **Síðubrot** og veldu **Nýtt** til að búa til nýtt síðubrot.
+1. Farðu í **Brot** og veldu **Nýtt** til að búa til nýtt brot.
 1. Í glugganum **Nýtt síðubrot** skal velja eininguna **Hólf**, slá inn heiti fyrir síðubrotið og síðan velja **Í lagi**.
 1. Í hólfinu **Sjálfgefið hólf** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
 1. Í glugganum **Bæta við einingu** skal velja eininguna **Neðanmálsflokkur** og síðan velja **Í lagi**.

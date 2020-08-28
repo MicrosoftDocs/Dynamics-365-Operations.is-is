@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d95e8b799c3b89418657342868e0ec7e94a86f9
-ms.sourcegitcommit: ce79fb570e299a26a644e29da7ceb5a57a1374e6
+ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "3295081"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686791"
 ---
 # <a name="add-a-favicon"></a>Bæta við táknmynd
 
@@ -62,7 +62,7 @@ Til að búa til HTML fyrir táknmyndina skal nota eftirfarandi HTML-streng. Fyr
 
 Til að búa til síðubrot sem inniheldur lýsimerki fyrir táknmyndina þína skal fylgja þessum skrefum.
 
-1. Farðu í **Síðubrot** og veldu **Nýtt**.
+1. Farðu í **Brot** og veldu **Nýtt**.
 1. Í svarglugganum **Nýtt síðubrot** skal velja **Lýsimerki** sem eininguna sem síðubrotið byggir á.
 1. Sláðu inn heiti fyrir síðubrotið og veldu **Í lagi**.
 1. Í trjástigveldi brotsins skal velja undireininguna **Sjálfgefin lýsimerki**.

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 59a2d9712a73c607cf5521f8e79e8e2558854fc4
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 2ee361c2e99b79e503e8d94c12602f9427f1ed5c
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3274212"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686696"
 ---
 # <a name="add-a-privacy-policy-page"></a>Bæt við síðu persónuverndarstefnu
 
@@ -88,9 +88,9 @@ Til að birta slóðina fyrir persónuverndarstefnusíðuna skaltu fylgja þessu
 
 Til að bæta tengli við síðufótarbrot skaltu fylgja þessum skrefum.
 
-1. Farðu í **Síðubrot** og veldu síðan **Nýtt** til að búa til síðubrot.
+1. Farðu í **Brot** og veldu síðan **Nýtt** til að búa til síðubrot.
 1. Í svarglugganum **Nýtt síðubrot** skal velja eininguna **Síðufótur**.
-1. Undir **Heiti síðubrots** slærðu inn heiti fyrir brotið og veldu síðan **Í lagi**.
+1. Undir **Heiti síðubrots** skal slá inn heiti brotsins og síðan velja **Í lagi**.
 1. Í hólfinu **Síðufótaflokkur** bætirði við einingunni **Neðanmálsatriði**.
 1. Í eiginleikaglugganum til hægri velurðu **Tengja texta**.
 1. Í glugganum **Tengja texta** skal slá inn tenglatextinn og tengja mark persónuverndarstefnunnar og smella síðan á **Í lagi**.

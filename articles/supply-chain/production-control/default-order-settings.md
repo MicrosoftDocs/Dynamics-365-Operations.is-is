@@ -3,7 +3,7 @@ title: Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði
 description: Sjálfgefið pöntunarstillingar skilgreina svæði og vöruhús þar sem afurðir verða upprunnin frá eða geymdar, í lágmarks, hámarks, margar og staðlaðs magns sem verða notuð fyrir viðskipti eða birgðastjórnun, afhendingartíma, stöðvunarflagg, og aðferðina pöntun lofað.
 author: t-benebo
 manager: tfehr
-ms.date: 07/27/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,13 +18,13 @@ ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13df8eb7873495847d994922be1acd77e57f8f23
-ms.sourcegitcommit: dfe5916d982eaa879e2afef7440c30b1d0f4380a
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 0654ba019b71dc952ea52f206bc60d8fa05dd4ff
+ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "3637757"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "3657341"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði
 
@@ -32,7 +32,16 @@ ms.locfileid: "3637757"
 
 Sjálfgefið pöntunarstillingar í Dynamics 365 Supply Chain Management skilgreina svæði og vöruhús þar sem afurðir verða upprunnin frá eða geymdar, í lágmarks, hámarks, margar og staðlaðs magns sem verða notuð fyrir viðskipti eða birgðastjórnun, afhendingartíma, stöðvunarflagg, og aðferðina pöntun lofað. Sjálfgefnar pöntunarstillingar eru notaðar þegar innkaupapantanir, sölupantanir, flutningspantanir, birgðabókum eru stofnaðar, og við aðaláætlanagerð til að mynda áætluð pöntun. Sjálfgefnar pöntunarstillingar geta verið tengdar ákveðnum vörum, svæðum, afurðarafbrigðum, eða afurðarvíddum.
 
-Þú getur skilgreinir sjálfgefnar pöntunarstillingar á **Sjálfgefnar pöntunarstillingar** síðu. Til að opna þessa síðu skal fara í **Afurðaupplýsingastjórnun** &gt; **Afurðir** &gt; **Útgefnar afurðir** &gt; **Velja útgefna afurð** &gt; í **Áætluninni**. Einnig er hægt að fara í **Stjórna birgðum** &gt; **Pöntunarstillingar** &gt; **Sjálfgefnar pöntunarstillingar**.
+Til að skilgreina sjálfgefnar pöntunarstillingar fyrir afurð skal fylgja þessum skrefum.
+
+1. Farðu í **Afurðaupplýsingastjórnun** &gt; **Afurðir** &gt; **Losaðar afurðir**.
+1. Veljið viðeigandi afurð í hnitanetinu.
+1. Í aðgerðasvæðinu skal fylgja einu af þessum skrefum til að opna síðuna **Sjálfgefnar pöntunarstillingar** fyrir valda afurð:
+
+    - Í flipanum **Áætlun**, í flokknum **Pöntunarstillingar**, skal velja **Sjálfgefnar pöntunarstillingar**.
+    - Í flipanum **Stjórna birgðum**, í flokknum **Pöntunarstillingar**, skal velja **Sjálfgefnar pöntunarstillingar**.
+
+1. Skilgreinið stillingarnar eins og lýst er í þessu efnisatriði.
 
 ## <a name="default-order-settings"></a>Sjálfgefnar pöntunarstillingar
 
@@ -74,7 +83,7 @@ Sjálfgefnar birgðapantanastillingar eiga einnig við þegar stofnaðar eru:
 
 ## <a name="full-definition-of-a-released-product"></a>Full skilgreining á útgefin afurð
 
-Þegar færsla er stofnuð, þarf að tilgreina fulla skilgreiningu á losaðri afurð á línuna til að Supply Chain Management geti reynt að auðkenna sjálfgefnar pantanastillingar. Full skilgreining fyrir útgefna afurð þýðir að vörunúmer og allar virkar afurðarvíddir, eins og afbrigði, stærð, stíl og lit, eru tilgreind í færslunni. Til dæmis, ef innkaupapöntunarlínu fyrir útgefin afurðarafbrigði eru stofnaðar handvirkt þarf að tilgreina allt nauðsynlegt afurðarvíddum áður en svæði, vöruhúsi, magn og afhendingartíma birtist sjálfkrafa í pöntunarlínu. 
+Þegar færsla er búin til þarf að tilgreina fulla skilgreiningu á útgefinni afurð í línunni, þannig að Supply Chain Management geti reynt að bera kennsl á sjálfgefnar pöntunarstillingar. Í fullu skilgreiningunni fyrir útgefna afurð er vörunúmerið og allar virku afurðarvíddirnar, eins og skilgreining, stærð, stíll, útgáfa og litur, tilgreint í færslunni. Til dæmis, ef innkaupapöntunarlínu fyrir útgefin afurðarafbrigði eru stofnaðar handvirkt þarf að tilgreina allt nauðsynlegt afurðarvíddum áður en svæði, vöruhúsi, magn og afhendingartíma birtist sjálfkrafa í pöntunarlínu. 
 
 Ekki allar sjálfgefnar færibreytur pöntunarstillinga eru notaðar stofnaðar eru pöntunar- eða færslubókarlínur. Magn og afhendingartími birtast aðeins sjálfgefið þegar við á. Til dæmis, þegar verið er að telja færslubókarlínu, birtist aðeins svæðið og vöruhús sjálfkrafa þegar línan er stofnuð. Þess vegna er ekkert sjálfgefið magn eða gerðar athuganir á margs konar magni eða lágmarksmagni þegar lína er búin til eða færslubók bókuð. 
 
@@ -96,7 +105,7 @@ Fyrir einkvæmar útgefnar afurðir er hægt að skilgreina almennar pöntunarst
 
 ### <a name="site-specific-order-settings"></a>Pöntunarstillingar tengdar svæði
 
-Til að búa til pöntunarstillingar fyrir tiltekið svæði skal velja **Nýjar**. Í **Upplýsingayfirlit**, fylla út svæði í á **Stillingum fyrir** &gt; **Svæði** svæðinu. Í á **hnitanetsyfirlit**, fyllið út í svæðinu á **Svæði** dálkinn. Nýja reglu fær sjálfkrafa nýtt vægi, hærra en núll. Hægt er að stofna eins margar reglur fyrir tiltekið svæði eins og þörf krefur og úthluta reglum tiltekins svæðis sama vægi, til að gera þær allar jafngildar. 
+Til að búa til pöntunarstillingar fyrir tiltekið svæði skal velja **Nýjar**. Í **Upplýsingayfirlit** skal fara í svæðið í reitnum **Svæði** í hlutanum **Stillingar eiga við um**. Í **Yfirlit hnitanets** skal fara í svæðið í dálknum **Svæði**. Nýju reglunni er sjálfkrafa úthlutað nýju vægi sem er hærra en 0 (núll). Hægt er að búa til eins margar svæðismiðaðar reglur og þörf er á. Til að gefa til kynna að þeir séu jafn mikilvægar er hægt að úthluta sama vægi á allar svæðismiðaðar reglur.
 
 Ef þú ert í **Upplýsingayfirlit**, er ekki hægt að fá yfirlit yfir reglur sem eru stofnaðar fyrir vöruna. Nota skal hnappinn **Sýna/fela lista** til að sjá yfirlit upplýsinga. Þegar pöntunarlína af einhverri gerð er stofnuð og hún er ekki með neitt svæði úthlutað, leitar Supply Chain Management að reglu sem ekki hefur tilgreint svæði. Þetta auðveldar að ákvarða sjálfgefið svæði í pöntunarlínunni. Þetta svæði er síðan notað til að leita að reglu fyrir tiltekið svæði, þar sem sjálfgefið vöruhús hefur hugsanlega verið stillt. Vöruhús er notaður í pöntunarlínuna.
 
@@ -111,41 +120,41 @@ Hægt er að tilgreina sjálfgefnar pantanastillingar sem eiga við allar virkar
 | **Afurðarheiti**                                    | Ljósnemi                    |
 | **Vörunúmer**                                     | XW56                                    |
 | **Skilgreining** (notað til að sníða til gerð ljóss) | C1 Sýnilegt rautt ljós, C2 innrautt ljós |
-| **Stíll** (notað til að sníða til endurskoðun verkfræðinga)  | R1, R2, R3                              |
+| **Útgáfa** | V1, V2, V3                              |
 
 Í þessu dæmi, gerum ráð fyrir að afurðar er keypt og ekki framleidd. Gerið einnig ráð fyrir að skilgreiningu C1 er oftar notuð, svo hún hefur styttri afhendingartíma. 
 
 Stofna eftirfarandi sjálfgefnar pantanastillingar til að sníða til líkanið í þessum aðstæðum.
 
-| Vægi | Svæði | Grunnstilling | Stíll | Innkaup - Hnekkja sjálfgefnum stillingum | Afhendingartími innkaupa | Innkaup - stöðvuð | Sala - Hnekkja sjálfgefnum stillingum | Sölur - Stöðvað |
+| Vægi | Svæði | Grunnstilling | Útgáfa | Innkaup - Hnekkja sjálfgefnum stillingum | Afhendingartími innkaupa | Innkaup - stöðvuð | Sala - Hnekkja sjálfgefnum stillingum | Sölur - Stöðvað |
 |------|------|---------------|-------|--------------------------------------|--------------------|--------------------|-----------------------------------|-----------------|
 | 10   |      | C1            |       | Já                                  | 2                  |                    |                                   |                 |
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
-Þegar innkaupapöntunarlínu eða áætluð innkaupapöntun er stofnuð fyrir XW56, Skilgreiningu C1, óháð endurskoðun eða svæði sem línan er staðsett hjá, mun afhendingartími teljast vera 2. Gera ráð fyrir að allar endurskoðanir utan R3 er stöðvuð.
+Þegar innkaupapöntunarlínu eða innkaupatillaga er stofnuð fyrir vöru XW56, skilgreiningu C1, óháð útgáfu eða svæði þar sem línan er sett, mun afhendingartími teljast vera 2. Gera ráð fyrir að allar útgáfur utan V3 séu hættar.
 
 Hægt er að stofna eftirfarandi sjálfgefnar reglur pöntunarstillingar.
 
-| Vægi | Svæði | Grunnstilling | Stíll | Innkaup - Hnekkja sjálfgefnum stillingum | Afhendingartími innkaupa | Innkaup - stöðvuð | Sala - Hnekkja sjálfgefnum stillingum | Sölur - Stöðvað |
+| Vægi | Svæði | Grunnstilling | Útgáfa | Innkaup - Hnekkja sjálfgefnum stillingum | Afhendingartími innkaupa | Innkaup - stöðvuð | Sala - Hnekkja sjálfgefnum stillingum | Sölur - Stöðvað |
 |------|------|---------------|-------|--------------------------------------|--------------------|--------------------|-----------------------------------|-----------------|
-| 20   |      |               | R2    | Já                                  |                    | Já                | Já                               | Já             |
-| 20   |      |               | R1    | Já                                  |                    | Já                | Já                               | Já             |
+| 20   |      |               | V2    | Já                                  |                    | Já                | Já                               | Já             |
+| 20   |      |               | V1    | Já                                  |                    | Já                | Já                               | Já             |
 | 10   |      | C1            |       | Já                                  | 2                  |                    |                                   |                 |
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
-Reglurnar tvær til að stöðva gömlu endurskoðanirnar hafa sama vægi, sem þýðir að þær eru jafn mikilvægar. Báðar hafa hærra vægi en reglnar fyrir forstillingu C1, sem þýðir að þær hafa forgang yfir reglu fyrir skilgreiningu C1. 
+Reglurnar tvær til að stöðva gömlu útgáfurnar hafa sama vægi. Þess vegna eru þær jafn mikilvægar. Úr því að báðar þessar reglur eru með meira vægi en regla skilgreiningar C1, hafa þær forgang yfir reglu fyrir skilgreiningu C1. 
 
-Þetta dæmi útskýrir þörf fyrir vægi. Ef innkaupapöntun er búin til fyrir skilgreiningu C1 og endurskoðun R2, þá yrðu reglurnar tvær sem skilgreindar eru fyrir R2 og C1 tvíræðrar, ef vægi vantar. Til að leysa úr tvíræðni, leitar Supply Chain Management í reglunum í lækkandi röð vægis og notar fyrstu viðeigandi regluna. Í Gildandi dæmi þegar innkaupalína er stofnuð fyrir skilgreiningu C1 og endurskoðun R2, fær notandinn viðvörunarskilaboð um að varan er í bið og að þetta sé vegna gildis endurskoðunar. Ef regla fyrir skilgreiningu væri með hærra vægi en reglan fyrir endurskoðunina, þá hefði tekist að stofna innkaupapöntunarlínu skilgreiningar C1 og endurskoðunar R2 og ekkert skilaboð 'vara í biðstöðu' myndi hafa birst fyrir notanda. 
+Þetta dæmi útskýrir þörf fyrir vægi. Ef vægið er ekki notað þegar innkaupapöntun er stofnuð fyrir skilgreiningu C1 og útgáfu V2, eru reglurnar tvær sem skilgreindar eru fyrir V2 og C1 tvíræðar. Til að leysa úr tvíræðni, leitar Supply Chain Management í reglunum í lækkandi röð vægis og notar fyrstu viðeigandi regluna. Í núverandi dæmi, þegar innkaupapöntunarlína er stofnuð fyrir skilgreiningu C1 og útgáfu V2, fær notandinn viðvörunarboð um að varan sé í bið og að það sé vegna útgáfugildsins. Ef reglan fyrir skilgreininguna hefði meira vægi en reglan fyrir útgáfuna, væri innkaupapöntunarlína stofnuð fyrir skilgreiningu C1 og útgáfu V2 og notandinn fengi ekki skilaboðin „vara í bið“. 
 
 Íhugið eftirfarandi reglur fyrir sjálfgefnar pöntunarstillingar.
 
-| Vægi | Svæði | Grunnstilling | Stíll | Sjálfgefið svæði | Sjálfgefið vöruhús | Innkaup - Hnekkja sjálfgefinni geymsluvídd | Innkaupavöruhús |
+| Vægi | Svæði | Grunnstilling | Útgáfa | Sjálfgefið svæði | Sjálfgefið vöruhús | Innkaup - Hnekkja sjálfgefinni geymsluvídd | Innkaupavöruhús |
 |------|------|---------------|-------|--------------|-------------------|------------------------------------------------|--------------------|
 | 20   | 2    |               |       |              |                   | Já                                            | 22                 |
-| 10   |      | C1            |  R2   |  2           |  21               |                                                |                    |
+| 10   |      | C1            |  V2   |  2           |  21               |                                                |                    |
 | 0    |      |               |       | 1            | 11                |                                                |                    |
 
-Kerfið ber saman reglupörin tvisvar til að ákvarða svæði og vöruhús. Þegar innkaupapöntunarlína er stofnuð fyrir skilgreiningu C1, stíl R2, er svæði ákvarðað samkvæmt reglu með vægi 10. Síðan leitar kerfið að reglu fyrir svæði 2 til að ákvarða vöruhús. Regla 20 finnst og þar sem hún er með hærra vægi, verður vöruhúss á innkaupapöntunarlína 22, og ekki 21.
+Kerfið ber saman reglupörin tvisvar til að ákvarða svæði og vöruhús. Þegar innkaupapöntunarlína er stofnuð fyrir skilgreiningu C1, útgáfu V2, er svæðið ákvarðað samkvæmt reglu með vægi 10. Kerfið leitar þá að reglu fyrir svæði 2 til að ákvarða vöruhús. Regla 20 finnst og þar sem hún er með hærra vægi, verður vöruhúss á innkaupapöntunarlína 22, og ekki 21.
 
 Sem almenn viðmið, sértækar reglur og reglur fyrir víddir sem eru mikilvægari en aðrar víddir fá hærra vægi, á meðan almennari reglur fá lægra vægi. 
 
@@ -159,14 +168,14 @@ Reglur sem eru stofnaðar fyrir útgefnar afurðir geta verið margar. Til að �
 
 Ef reglukerfið fyrir sjálfgefnar pöntunarstillingar er of óþjált, þá er hægt að velja um að skilgreina sjálfgefnar pöntunarstillingar fyrir hvert afurðarafbrigði. Eftirfarandi dæmi sýnir hvernig þetta mun líta út fyrir afurðina og tilvikum sem lýst er hér fyrir ofan.
 
-| Vægi | Svæði | Grunnstilling | Stíll | Innkaup - Hnekkja sjálfgefnum stillingum | Afhendingartími innkaupa | Innkaup - stöðvuð | Sala - Hnekkja sjálfgefnum stillingum | Sölur - Stöðvað |
+| Vægi | Svæði | Grunnstilling | Útgáfa | Innkaup - Hnekkja sjálfgefnum stillingum | Afhendingartími innkaupa | Innkaup - stöðvuð | Sala - Hnekkja sjálfgefnum stillingum | Sölur - Stöðvað |
 |------|------|---------------|-------|--------------------------------------|--------------------|--------------------|-----------------------------------|-----------------|
-| 10   |      | C2            | R3    | Já                                  | 5                  |                    |                                   |                 |
-| 10   |      | C2            | R2    | Já                                  | 5                  | Já                | Já                               | Já             |
-| 10   |      | C2            | R1    | Já                                  | 5                  | Já                | Já                               | Já             |
-| 10   |      | C1            | R3    | Já                                  | 2                  |                    |                                   |                 |
-| 10   |      | C1            | R2    | Já                                  | 2                  | Já                | Já                               | Já             |
-| 10   |      | C1            | R1    | Já                                  | 2                  | Já                | Já                               | Já             |
+| 10   |      | C2            | V3    | Já                                  | 5                  |                    |                                   |                 |
+| 10   |      | C2            | V2    | Já                                  | 5                  | Já                | Já                               | Já             |
+| 10   |      | C2            | V1    | Já                                  | 5                  | Já                | Já                               | Já             |
+| 10   |      | C1            | V3    | Já                                  | 2                  |                    |                                   |                 |
+| 10   |      | C1            | V2    | Já                                  | 2                  | Já                | Já                               | Já             |
+| 10   |      | C1            | V1    | Já                                  | 2                  | Já                | Já                               | Já             |
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
 Vægi í þessu tilfelli er ekki mikilvægt í raun, þannig að hægt er að velja að fela það. Þessa lausn leiðir mögulega til vandamáls varðandi viðhalds. Hins vegar er gott að viltu íhuga að nota uppsetningu þú ert að íhuga að samþætta við Product Lifecycle Management (PLM)-kerfi.

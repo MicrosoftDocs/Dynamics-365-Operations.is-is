@@ -3,7 +3,7 @@ title: Sjálfvirkni ferlis
 description: Í þessu efnisatriði er að finna upplýsingar um hvernig sjálfvirkni ferlis býður upp á einfalda áætlanagerð fyrir ferla sem runuþjónninn keyrir.
 author: RyanCCarlson2
 manager: tonyafehr
-ms.date: 06/24/2020
+ms.date: 08/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: 2ab4e7510ff98b9fbf0223096b905e9de47f52e1
-ms.sourcegitcommit: 1833c1e07a32c8ad41e4a1516e78100ae04a2156
+ms.openlocfilehash: 320e18f7fc61300ed2966afef530907fc9fc5ca5
+ms.sourcegitcommit: e2a47d31175bbd60acfd7a23ffea70c669358572
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "3508186"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "3690047"
 ---
 # <a name="process-automation"></a>Sjálfvirkni ferlis
 
@@ -32,6 +32,8 @@ Sjálfvirkni ferlis býður upp á einfalda áætlanagerð fyrir ferla sem runu�
 ## <a name="administration"></a>Stjórnun
 
 Síða stjórnunarmiðstöðvar fyrir alla sjálfvirkni ferla finnst kerfisstjórnunareiningunni undir valmyndinni **Uppsetning**. Þessi síða sýnir alla sjálfvirka ferla (raðir) sem settar eru upp í kerfinu. Hún gerir þér einnig kleift að bæta við nýrri sjálfvirkni fyrir ferla beint af síðunni. Þegar búið er að setja upp röð er hægt að stjórna hverri röð úr þessum lista. Hægt er að breyta allri röðinni, eyða henni, skoða öll tilvik í listayfirliti eða slökkva á röðinni ef gera á hlé á áætlaðri vinnu í einhvern tíma. 
+
+Öll ferli sem eru óvirk í eiginleikastjórnun birtast ekki þegar eiginleikinn er óvirkur. Þar að auki mun röðunarvél fyrir sjálfvirkni ferlis ekki tímasetja nein tilvik eða bakgrunnsvinnslur fyrir óvirkan eiginleika. Með því að virkja eiginleikann aftur verða öll tímasett tilvik eða bakgrunnsvinnslur í fortíðinni keyrð strax.
 
 ## <a name="calendar-view"></a>Dagbókaryfirlit 
 Einn af helstu kostum þess að gera feril sjálfvirkan er möguleikinn á því að sjá áætlaða vinnu í einföldu dagatalsyfirliti.  Þetta yfirlit gerir þér kleift að sjá vinnu eina viku í senn. Þú munt sjá þetta yfirlit hægra megin á síðunni **Sjálfvirkni ferlis**. Fyllt verður út í hana með áætlaðri vinnu fyrir valdar raðir. 

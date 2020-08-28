@@ -3,7 +3,7 @@ title: Úrvinnsla á framleiðsluþyngd afurðar með vöruhúsakerfi
 description: Þetta efnisatriði lýsir hvernig eigi að nota vinnusniðmát og staðsetningarleiðbeiningar til að ákvarða hvernig og hvar vinna verður framkvæmd í vöruhúsinu.
 author: perlynne
 manager: tfehr
-ms.date: 03/03/2020
+ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: c6598a9ac2beb799ddfc4e3cce182e1281ae8d03
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: b1d106fa6fe5072eb74813495253731dd988c376
+ms.sourcegitcommit: 9a0be1ceee90e80f4c75f241aba847547b5032e5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530536"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693280"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Úrvinnsla á framleiðsluþyngd afurðar með vöruhúsakerfi
 
@@ -168,7 +168,7 @@ Ekki öll verkflæði styðja úrvinnslu á afurð í framleiðsluþyngd með v�
 
 - Virkni fyrir klasatiltekt er ekki studd fyrir afurðir í framleiðsluþyngd.
 - Tiltektar- og pökkunarvinnsla vöruhúss er ekki studd fyrir afurðir í framleiðsluþyngd.
-- Fyrir afurðir í framleiðsluþyngd er hægt að keyra vinnu sjálfkrafa sem er skilgreind í vinnusniðmáti.
+- Fyrir afurðir í framleiðsluþyngd er ekki hægt að keyra vinnu sjálfkrafa sem er skilgreind í vinnusniðmáti.
 - Fyrir afurðir í framleiðsluþyngd styður kerfið ekki handvirka vinnslu pökkunarstöðva þar sem tiltektarvinna pökkunargáms er stofnuð eftir að gámum er lokað.
 - Virkni fyrir skönnun á stykki fyrir stykki er ekki studd fyrir afurðir í framleiðsluþyngd.
 

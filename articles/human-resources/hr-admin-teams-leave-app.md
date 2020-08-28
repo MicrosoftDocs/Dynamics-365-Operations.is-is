@@ -3,7 +3,7 @@ title: Forritið „Human Resources“ í Teams
 description: Þetta efnisatriði kynnir Microsoft Dynamics 365 Human Resources forritið í Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/18/2020
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 4822cc6560926df878a8b4e9f821b331ede27a8c
+ms.sourcegitcommit: 15c68822f4d412bfc609be31b3702f18c81ea0bc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431131"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3666361"
 ---
 # <a name="human-resources-app-in-teams"></a>Forritið „Human Resources“ í Teams
 
@@ -45,10 +45,10 @@ Frekari upplýsingar um stjórnun forritsheimilda í Teams er að finna í [Stj�
 
 | Úthreyfing | Staða |
 | --- | --- |
+| Lárétt fletting virkar ekki í Android-símum | Lárétt fletting eru ekki vandamál í iOS eða borðtölvum. Unnið er að lagfæringu fyrir Android. |
 | Villa: Vandamál kom upp við að finna umhverfi til að tengjast við. | Þessi villa gæti komið upp jafnvel þótt búið sé að staðfesta að notandinn megi fá aðgang að einu eða fleiri mannauðsumhverfum. Að auki er ekki víst að öll umhverfin sjáist eins og vonast var eftir. Þangað til leyst verður úr þessu vandamáli þarf að eyða notandanum og flytja hann síðan inn aftur til að komast hjá þessum vanda. |
 | Staðan er röng þegar sendur er frítími fyrir dagsetningu í framtíðinni. | Spár eru ekki enn til staðar. Staðan birtist fyrir núverandi dagsetningu. |
 | Þegar tekinn fjöldi stunda er minnkaður í fyrirliggjandi beiðni fer **Eftirstandandi staða** niður í stað þess að fara upp. | Við munum leysa úr þessu vandamáli í framtíðinni. Birting er röng, en réttar upphæðir eru leiðréttar við sendingu. |
-| Tvö **Væntanlegt frí** kort birtast fyrir sömu dagsetningar. | Kortin tákna einstakar sendingar. Við munum halda áfram að taka við ábendingum og gera breytingar. |
 | Ekki er hægt að hætta við beiðni með stöðuna **Í yfirferð**. | Þessi eiginleiki er ekki studdur eins og er og honum verður bætt við í síðari tíma útgáfum. |
 | Upplýsingar um stöðu eru reiknaðar frá og með deginum í dag. | Kerfið sýnir eins og er ekki stöður frá uppsöfnunartímabilinu, jafnvel þótt það sé skilgreint í færibreytum leyfis og fjarvista. |
 

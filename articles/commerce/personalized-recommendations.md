@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0e49b4db17ffd792e8dd536a1671773253c74d71
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: 4103096f23e5568cc2bf64f21720c7c16d3e0cd1
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404141"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3664859"
 ---
 # <a name="enable-personalized-recommendations"></a>Kveikja á sérsniðnum tillögum
 
@@ -113,6 +113,8 @@ Fylgdu þessum skrefum til að beita sérsniðun á fyrirliggjandi meðmælalist
 [Virkja Azure Data Lake Storage í Dynamics 365 Commerce-umhverfi](enable-adls-environment.md)
 
 [Virkja ráðleggingar um afurðir](enable-product-recommendations.md)
+
+[Virkja tillögur um að kaupa svipaða vöru](shop-similar-looks.md)
 
 [Afþakka sérsniðnar tillögur](personalization-gdpr.md)
 

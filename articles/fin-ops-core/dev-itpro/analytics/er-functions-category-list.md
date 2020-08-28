@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcf1b755959c7ae25928e3f44e988f800027786a
-ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
+ms.openlocfilehash: 6e51d9a1d68c48391a223fe48f396c63c206580e
+ms.sourcegitcommit: 41e165482b9bff4175c0e3b224dbeead13461956
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201044"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3687959"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Listi yfir ER-aðgerðir í listaflokknum
 
@@ -46,7 +46,8 @@ Hægt er að nota rafræn skýrslugerð (ER) lista aðgerðir til að draga uppl
 | [Index](er-functions-list-index.md)                       | Þessi aðgerð skilar gildinu *Ílát (skrá)* sem er valið með því að nota tilgreindan töluvísi í tilgreindum lista. Ef vísirinn utan marka fyrir skrárnar í tilgreindum lista beitir þessi aðgerð undantekningu. |
 | [IsEmpty](er-functions-list-isempty.md)                   | Þessi aðgerð skilar *Boolean*-gildinu **SATT** ef tilgreindur listi inniheldur engar skrár. Að öðrum kosti skilar hún *Boolean* gildinu **FALSE**. |
 | [Listi](er-functions-list-list.md)                         | Þessi aðgerð skilar *Skráalista*-gildi sem samanstendur af nýjum lista sem er stofnaður úr tilgreindum segðum.|
-| [ListiJoin](er-functions-list-listjoin.md)                 | Þessi aðgerð skilar *Skráalista*-gildi sem sýnir nýjan sameinaðan lista sem er stofnaður úr tilgreindum segðum.|
+| [ListDistinct](er-functions-list-listdistinct.md)         | Þessi aðgerð reiknar tilgreinda segð sem val fyrir hverja færslu í tilgreindum lista. Hún skilar nýju gildi *Færslulista* sem inniheldur eina færslu fyrir hvert einkvæmt valgildi.|
+| [ListJoin](er-functions-list-listjoin.md)                 | Þessi aðgerð skilar *Skráalista*-gildi sem sýnir nýjan sameinaðan lista sem er stofnaður úr tilgreindum segðum.|
 | [ListOfFields](er-functions-list-listoffields.md)         | Þessi aðgerð skilar *Skráalista*-gildi sem er stofnað byggt á skipulagi tilgreindrar segðar af gerðinni *Upptalning* eða *Ílát (skrá)*. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Þessi aðgerð skilar *Skráalista*-gildi sem samanstendur af aðeins fyrstu skránni á tilgreindum lista.|
 | [OrderBy](er-functions-list-orderby.md)                   | Þessi aðgerð skilar tilgreindum lista sem *Skráalista*-gildi eftir að því hefur verið raðað í samræmi við tilgreindar segðir. Þessi frumbreytur geta verið skilgreindar sem segðir. |

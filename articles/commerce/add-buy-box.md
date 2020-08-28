@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9780aabbac6d01d41dae526c7c06139eba07de4e
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: 3fe5c1eb5808ef778aeda29442fa884556671296
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645340"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686671"
 ---
 # <a name="buy-box-module"></a>Kaupkassaeining
 
@@ -61,7 +61,7 @@ Magnval er veitt svo að viðskiptavinir geti tilgreint magn varanna sem á að 
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Einingar sem hægt er að nota í kaupkassaeiningu
 
-- **Miðlasafn** - Þessi eining er notuð til að sýna myndir af afurð á upplýsingasíðu afurðar. Frekari upplýsingar um þessa einingu er að finna í [Eining efnissafns](mediagallery-module.md).
+- **Miðlasafn** - Þessi eining er notuð til að sýna myndir af afurð á upplýsingasíðu afurðar. Frekari upplýsingar um þessa einingu er að finna í [Eining efnissafns](media-gallery-module.md).
 - **Verslunarval** – Þessi eining sýnir lista yfir nærliggjandi verslanir þar sem hægt er að sækja vöru. Það gerir notendum kleift að slá inn staðsetningu til að finna verslanir í nágrenninu. Frekari upplýsingar um þessa einingu er að finna í [Verslunarvalseining](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Stillingar kaupkassaeiningar
@@ -84,7 +84,7 @@ Kaupgluggaeiningin sækir afurðarupplýsingar með því að nota forritunarvi�
 
 Fylgdu þessum skrefum til að bæta kaupkassaeiningu við nýja síðu og stilla nauðsynlega eiginleika.
 
-1. Farðu í **Síðubrot** og veldu **Nýtt** til að búa til nýtt síðubrot.
+1. Farðu í **Brot** og veldu **Nýtt** til að búa til nýtt brot.
 1. Í svarglugganum **Nýtt síðubrot** skal velja eininguna **Kaupkassi**.
 1. Undir **Heiti síðubrots** skal slá inn heitið **Kaupkassabrot** og síðan velja **Í lagi**.
 1. Í hólfinu **Efnissafn** í kaupgluggaeiningunni skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.

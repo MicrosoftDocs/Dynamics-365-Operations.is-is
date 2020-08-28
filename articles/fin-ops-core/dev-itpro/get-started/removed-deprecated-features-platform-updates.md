@@ -3,7 +3,7 @@ title: Fjarlægðir eða úreltir eiginleikar verkvangs
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í verkvangsuppfærslum á forritum Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 07/20/2020
+ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 393349240d16636d3eec747126cc1ee6f6f9998d
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 8b26ad668b6cc15d759e10952c042acd5e85bdea
+ms.sourcegitcommit: 4909e55529f03310d24b7e40d52751e24d35259b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651667"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3678223"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fjarlægðir eða úreltir eiginleikar verkvangs
 
@@ -39,6 +39,16 @@ ms.locfileid: "3651667"
 
 > [!NOTE]
 > Útgáfa 10.0.13 er forútgáfa. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í hlutanum [Framboð þjónustuuppfærslu](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+### <a name="custom-code-defined-in-ssrs-report-properties"></a>Sérstilltur kóði skilgreindur í eiginleikum SSRS-skýrslu 
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Almennt býður sérstilltur kóðir upp á takmarkaðan ávinning og þarf á sama tíma umtalsverða tilfangagetu og útreikning fyrir stuðning. Sérstilltur kóði er fyrst og fremst notaður af skýrsluhöfundum til að kalla á opinberar aðferðir úr samsetningu sérstilltra kóða. Skýjaþjónustan styður hinsvegar ekki tilvísanir í sérstilltar samsetningar fyrir SSR-skýrslur. |
+| **Skipt út fyrir aðra eiginleika?**   | Skýrsluhöfundar geta valið að halda áfram að vísa í almenn .NET API fyrir útreiknings-, umreiknings- og sniðsaðgerðir úr hvers kyns textareitasegð. Frekari upplýsingar eru í [Bæta kóða við skýrslu (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **Afurðasvæði sem haft er áhrif á**         | Undirsafn af skýrsluhönnunum forrits skilgreind í RDL sem inniheldur sérstilltan kóða. |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Í útgáfu 10.0.13 byrjar þýðandinn að gefa út viðvörun vegna tilvika þar sem sérstilltur kóði greinist í SSRS-skýrsluskilgreiningu. Til að lagfæra vandamálið skal opna skilgreiningu skýrsluhönnunar og fjarlægja alla sérstillta kóðaggervinga. Þessari viðvörun verður skipt út fyrir þýðingarvillu í framtíðaruppfærslu.   |
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Uppfærsla á þremur jQuery-þáttasöfnum 
 

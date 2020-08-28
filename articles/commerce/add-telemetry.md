@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 81c36685c1eccceb2f1854fe7c866186120c08a3
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 4f26ed5b6674566f579e801f4b7be63c2d0dc38d
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154087"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686815"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Bæta skriftarkóða við síður vefsvæðis til að aðstoða við fjarmælingar
 
@@ -32,7 +32,7 @@ ms.locfileid: "3154087"
 
 ## <a name="overview"></a>Yfirlit
 
-Vefgreining er ómissandi tæki þegar þú vilt skilja hvernig viðskiptavinir þínir hafa samskipti við vefsíðuna og taka ákvarðanir sem munu hjálpa til við að hámarka upplifunina fyrir hámarks umreikning. Margir vefgreiningarpakkar eru í boði til að hjálpa þér að ná þessum markmiðum, eins og Google Analytics, Clicky, Moz Analytics og KISSMetrics. Flestir vefgreiningarpakkar krefjast þess að þú bætir við skriftarkóða biðlarans í **\<höfuð\>**-þáttinn í HTML fyrir allar síður á vefsvæðinu.
+Vefgreining er ómissandi tæki þegar þú vilt skilja hvernig viðskiptavinir þínir hafa samskipti við vefsíðuna og taka ákvarðanir sem munu hjálpa til við að hámarka upplifunina fyrir hámarks umreikning. Margir vefgreiningarpakkar eru í boði til að hjálpa þér að ná þessum markmiðum, eins og Google Analytics, Clicky, Moz Analytics og KISSMetrics. Flestir vefgreiningarpakkar krefjast þess að bætt sé við skriftarkóða biðlaramegin í einingu **\<head\>** í HTML fyrir allar síður á vefsvæðinu þínu.
 
 > [!NOTE]
 > Leiðbeiningarnar í þessu efni eiga einnig við um aðra sérsniðna virkni biðlara sem Microsoft Dynamics 365 Commerce býður ekki staðbundið.
@@ -45,9 +45,9 @@ Síðubrot gerir þér kleift að endurnýta innbyggðan eða ytri forskriftark�
 
 Fylgdu þessum skrefum til að búa til endurnýtanlegt blaðsíðubrot fyrir innbyggðan forskriftarkóðann.
 
-1. Farðu í **Síðubrot** og veldu síðan **Nýtt**.
-1. Í valmyndinni **Nýtt síðubrot** velurðu **Innbyggð forskrift**.
-1. Undir **Heiti síðubrots** slærðu inn heiti fyrir brotið og veldu síðan **Í lagi**.
+1. Farðu í **Brot** og veldu síðan **Nýtt**.
+1. Í svarglugganum **Nýtt síðubrot** skal velja **Innfelld forskrift**.
+1. Undir **Heiti síðubrots** skal slá inn heiti brotsins og síðan velja **Í lagi**.
 1. Undir síðubrotinu sem þú stofnaðir velurðu eininguna **Sjálfgefin innbyggð forskrift**.
 1. Í eiginleikarrúðunni til hægri, undir **Innbyggð forskrift**, slærðu inn forskrift viðskiptavinarins. Stilltu síðan aðra valkosti eins og þú þarft.
 1. Veldu **Vista** og síðan **Ljúka við breytingar**.
@@ -57,9 +57,9 @@ Fylgdu þessum skrefum til að búa til endurnýtanlegt blaðsíðubrot fyrir in
 
 Fylgdu þessum skrefum til að búa til endurnýtanlegt blaðsíðubrot fyrir ytri forskriftarkóðann.
 
-1. Farðu í **Síðubrot** og veldu síðan **Nýtt**.
-1. Í valmyndinni **Nýtt síðubrot** velurðu **Ytri forskrift**.
-1. Undir **Heiti síðubrots** slærðu inn heiti fyrir brotið og veldu síðan **Í lagi**.
+1. Farðu í **Brot** og veldu síðan **Nýtt**.
+1. Í svarglugganum **Nýtt síðubrot** skal velja **Ytri forskrift**.
+1. Undir **Heiti síðubrots** skal slá inn heiti brotsins og síðan velja **Í lagi**.
 1. Undir síðubrotinu sem þú stofnaðir velurðu eininguna **Sjálfgefin ytri forskrift**.
 1. Í eiginleikaglugganum til hægri, undir **Uppruni forskriftar**, bætirðu við ytri eða tengdri slóð fyrir ytri uppruna forskriftar. Stilltu síðan aðra valkosti eins og þú þarft.
 1. Veldu **Vista** og síðan **Ljúka við breytingar**.

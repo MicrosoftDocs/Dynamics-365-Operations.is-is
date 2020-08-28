@@ -3,7 +3,7 @@ title: Körfueining
 description: Þetta efni fjallar um körfueiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f21268ed4cffed1d5c789f722796cdf05e965819
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 07d485012bfc93c957b3dc42e3b0ed62e761dee1
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621037"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686767"
 ---
 # <a name="cart-module"></a>Körfueining
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Þetta efni fjallar um körfueiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 
@@ -42,9 +43,17 @@ Eftirfarandi mynd sýnir dæmi um körfusíðu á Fabrikam-svæðinu.
 
 ![Dæmi um körfueiningu](./media/cart2.PNG)
 
+Eftirfarandi mynd sýnir dæmi um körfusíðu á Fabrikam-svæðinu. Í þessu dæmi er afgreiðslugjald fyrir línuatriði.
+
+![Dæmi um körfueiningu](./media/ecommerce-handling-fee.png)
+
 ## <a name="cart-module-properties-and-slots"></a>Eiginleikar og hólf körfueininga
 
-Körfueiningin er með eiginleikann **Fyrirsögn** sem hægt er að stilla á gildi eins og **Innkaupapoki** og **Vörur í körfunni þinni**. 
+| Eiginleiki | Gildi | lýsing |
+|----------------|--------|-------------|
+| Fyrirsögn | Fyrirsagnartexti og merki fyrirsagnar (**H1**, **H2**, **H3**, **H4**, **H5** eða **H6**) | Fyrirsögn fyrir körfuna, t.d. „Innkaupakarfa“ eða „Vörur í körfunni þinni“. |
+| Sýna villuboðin Ekki til á lager | **Satt** eða **Ósatt** | Ef þessi eiginleiki er stilltur á **Sat** sýnir körfusíðan villur sem tengjast birgðum. Mælt er með því að þessi eiginleiki sé stilltur á **Satt** ef birgðaathuganir eru notaðar á svæðinu. |
+| Sýna sendingargjöld fyrir línuatriði | **Satt** eða **Ósatt** | Ef þessi eiginleiki er stilltur á **Satt** sýna línuatriði körfu sendingargjöld, ef þessar upplýsingar eru í boði. Þessi eiginleiki er ekki studdur í Fabrikam-skemanu því að notendur velja sendingu eingöngu í greiðsluferlinu. Hins vegar er hægt að kveikja á þessum eiginleika í öðrum verkflæðum ef það á við. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Einingar sem hægt er að nota í körfueiningu
 
@@ -67,7 +76,7 @@ Körfueiningin sækir upplýsingar um afurðir með API kvörðunareiningu fyrir
 
 Fylgdu þessum skrefum til að bæta körfueiningu við nýja síðu og stilla nauðsynlega eiginleika.
 
-1. Farðu í **Síðubrot** og veldu **Nýtt** til að búa til nýtt síðubrot.
+1. Farðu í **Brot** og veldu **Nýtt** til að búa til nýtt brot.
 1. Í svarglugganum **Nýtt síðubrot** skal velja eininguna **Karfa**.
 1. Undir **Heiti síðubrots** skal slá inn heitið **Körfubrot** og síðan velja **Í lagi**.
 1. Veldu hólfið **Karfa**.
@@ -77,7 +86,7 @@ Fylgdu þessum skrefum til að bæta körfueiningu við nýja síðu og stilla n
 1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila brotinu og veldu síðan **Birta** til að birta það.
 1. Farðu í **Sniðmát** og veldu **Nýtt** til að búa til nýtt sniðmát.
 1. Í svarglugganum **Nýtt sniðmát**, undir **Heiti sniðmáts**, skal slá inn heiti fyrir sniðmátið.
-1. Í trjáskipulaginu skal velja hólfið **Meginmál**, velja úrfellingarmerkið (**...**), og síðan velja **Bæta við broti**.
+1. Í trjáskipulaginu skal velja hólfið **Meginmál**, velja úrfellingarmerkið (**...**), og síðan velja **Bæta við síðubroti**.
 1. Í svarglugganum **Velja síðubrot** skal velja síðubrotið **Körfubrot** og síðan velja **Í lagi**.
 1. Veldu **Vista**, síðan **Ljúka við breytingar** til að skila sniðmáti og veldu síðan **Birta** til að birta það.
 1. Farðu í **Síður** og veldu **Ný** til að búa til nýja síðu.
@@ -87,22 +96,18 @@ Fylgdu þessum skrefum til að bæta körfueiningu við nýja síðu og stilla n
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit byrjendaeiningar](starter-kit-overview.md)
-
-[Hólfeining](add-container-module.md)
-
-[Vista valeiningu](store-selector.md)
-
-[Kaupgluggaeining](add-buy-box.md)
-
 [Körfutáknseining](cart-icon-module.md)
 
 [Greiðsluferliseining](add-checkout-module.md)
 
-[Eining pöntunarstaðfestingar](order-confirmation-module.md)
+[Greiðslueining](payment-module.md)
 
-[Eining síðuhauss](author-header-module.md)
+[Eining sendingaraðseturs](ship-address-module.md)
 
-[Eining síðufótar](author-footer-module.md)
+[Eining afhendingarvalkosta](delivery-options-module.md)
+
+[Pöntunarupplýsingaeining](order-confirmation-module.md)
+
+[Gjafakortseining](add-giftcard.md)
 
 [Reikna tiltækar birgðir fyrir smásölurásir](calculated-inventory-retail-channels.md)

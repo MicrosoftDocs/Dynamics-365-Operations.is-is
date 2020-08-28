@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5f7ad7d9c5ff63c3c3a8fe38275eec0d138891d
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e7dde3ba1ad375b309ae66cc6d31ccad85615e45
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411210"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686623"
 ---
 # <a name="header-module"></a>Eining síðuhauss
 
@@ -62,7 +62,7 @@ Eftirfarandi einingar er hægt að nota í fyrirsagnareiningu:
 
 Til að stofna fyrirsagnareiningu skal fylgja eftirfarandi skrefum.
 
-1. Farðu í **Síðubrot** og veldu **Nýtt** til að búa til nýtt síðubrot.
+1. Farðu í **Brot** og veldu **Nýtt** til að búa til nýtt brot.
 1. Í glugganum **Nýtt síðubrot** skal velja eininguna **Hólf**, slá inn heiti fyrir síðubrotið og síðan velja **Í lagi**.
 1. Velja skal hólfið **Sjálfgefið hólf** og síðan, hægra megin á eiginleikasvæðinu, skal stilla eiginleikann **Breidd** á **Fylla hólf**.
 1. Í hólfinu **Sjálfgefið hólf** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.

@@ -3,7 +3,7 @@ title: Stuðningur við færibreytur kallar á ER gagnagjafa af reitagerðinni R
 description: Þetta efni veitir upplýsingar um hvernig skal nota reitagerðina Reiknað fyrir ER-gagnagjafa.
 author: NickSelin
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 02d53f4326d8f31abf6ec7404575728837954bef
+ms.sourcegitcommit: c9baf9a3b4552f0317b5ec87d252834f52df1b98
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771330"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665611"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Stuðningur við færibreytur kallar á ER gagnagjafa af reitagerðinni Reiknað
 
@@ -39,20 +39,20 @@ Til að ljúka dæmunum í þessu efnisatriði þarftu að hafa eftirfarandi að
     - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
     - Kerfisstjóri
 
-- Aðgang að tilviki Regulatory Configuration Service (RCS) sem hefur verið úthlutað fyrir sama leigjandann og fyrir Finance and Operations, fyrir eitt af eftirfarandi hlutverkum:
+- Aðgangur að tilviki Regulatory Configuration Service (RCS) sem hefur verið úthlutaður fyrir sama leigjandann sem Finance and Operations fyrir eitt af eftirfarandi hlutverkum:
 
     - Þróunaraðili rafrænnar skýrslulausnar
     - Hagnýtur ráðgjafi vegna rafrænnar skýrslugerðar
     - Kerfisstjóri
 
-Úr [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=874684) sækirðu þjappaða skrána **Stuðningur við færibreytur kallar á ER gagnagjafa af reitagerðinni Reiknað**. Hún inniheldur eftirfarandi ER-skilgreiningar sem verður að draga út og geyma á staðnum.
+Einnig verður að sækja og geyma staðbundið eftirfarandi skrár.
 
 | **Efni**                           | **Skrárnafn**                                        |
 |---------------------------------------|------------------------------------------------------|
-| Sýnishorn af skilgreiningu gagnalíkans rafrænnar skýrslugerðar    | Líkan til að læra breytur á calls.version.1.xml     |
-| Sýnishorn af skilgreiningu lýsigagna rafrænnar skýrslugerðar      | Lýsigögn til að læra breytur á calls.version.1.xml  |
-| Sýnishorn af skilgreiningu líkanavörpunar rafrænnar skýrslugerðar | Vörpun til að læra breytur á calls.version.1.1.xml |
-| Sýnishorn af skilgreiningu á sniði rafrænnar skýrslugerðar        | Snimát til að læra breytur á calls.version.1.1.xml  |
+| Sýnishorn af skilgreiningu gagnalíkans rafrænnar skýrslugerðar    | [Líkan til að læra breytur á calls.version.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
+| Sýnishorn af skilgreiningu lýsigagna rafrænnar skýrslugerðar      | [Lýsigögn til að læra breytur á calls.version.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| Sýnishorn af skilgreiningu líkanavörpunar rafrænnar skýrslugerðar | [Vörpun til að læra breytur á calls.version.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Sýnishorn af skilgreiningu á sniði rafrænnar skýrslugerðar        | [Snimát til að læra breytur á calls.version.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Skráðu þig inn á RCS tilvikið
 Í þessu dæmi mun notandi stofna skilgreiningu fyrir sýnifyrirtækið Litware, Inc. Í RCS verður fyrst að ljúka skrefum ferlisins [Stofna skilgreiningaveitur og merkja þær sem virkar](tasks/er-configuration-provider-mark-it-active-2016-11.md):
@@ -87,7 +87,7 @@ Til að ljúka dæmunum í þessu efnisatriði þarftu að hafa eftirfarandi að
             - Summa skattgilda.
             - Lágmarksgildi beitts skatthlutfalls.
 
-    Vörpun líkansins í þessari stillingu útfærir grunngagnalíkanið fyrir hvaða ER-snið sem er búið til fyrir þetta líkan og keyrt í Finance and Operations. Fyrir vikið verður innihald gagnafjafanna **Tax** og **Gr** berskjaldað fyrir ER-sniðum eins og óhlutbundnum gagnagjöfum.
+    Líkanavörpun í þessari skilgreiningu innleiðir grunngagnalíkanið fyrir eitthvert snið rafrænnar skýrslugerðar sem búið var til fyrir þetta líkan og keyrt í Finance and Operations. Fyrir vikið verður innihald gagnafjafanna **Tax** og **Gr** berskjaldað fyrir ER-sniðum eins og óhlutbundnum gagnagjöfum.
 
     ![Hönnunarsíða fyrir líkanavörpun sem sýnir gagnagjafana Tax og Gr](media/er-calculated-field-type-01.png)
 

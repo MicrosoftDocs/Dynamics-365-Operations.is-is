@@ -3,7 +3,7 @@ title: Reiknið birgðir til ráðstöfunar fyrir smásölurásir
 description: Þetta efni lýsir þeim valkostum sem eru í boði til að sýna lagerbirgðir fyrir verslunina og netrásirnar.
 author: hhainesms
 manager: annbe
-ms.date: 05/15/2020
+ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 51e6633caa49daeedca685f3323eaf4e14e788a5
-ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
+ms.openlocfilehash: 6d25a426268ebfb6990eb3dadb1ad451f86f59a1
+ms.sourcegitcommit: 65a8681c46a1d99e7ff712094f472d5612455ff0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "3379237"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3694923"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Reiknið birgðir til ráðstöfunar fyrir smásölurásir
 
@@ -40,7 +40,7 @@ Commerce notar marga netþjóna og gagnagrunna til að tryggja sveigjanleika og 
 
 Þú getur notað eftirfarandi API til að sýna framboð birgða fyrir afurð þegar viðskiptavinir þínir eru að versla á e-verslunarsíðu.
 
-- **GetEstimatedAvailable** - Notaðu þetta API til að fá framboð birgða fyrir vöruna í vöruhúsinu með rafræn viðskipti eða öll vöruhús sem eru tengd stillingum uppfyllingarhóps fyrir rafræn viðskipti rás. Einnig er hægt að nota þetta API fyrir vöruhús á tilteknu leitarsvæði eða radíus, byggt á lengdar- og breiddargráðum.
+- **GetEstimatedAvailability** – Notið þetta API til að sækja birgðaframboð fyrir vöruna í rafrænni viðskiptarás vöruhúss eða í öllum vöruhúsum sem eru tengd við skilgreiningu uppfyllingarflokksins fyrir rafrænar viðskiptarásir. Einnig er hægt að nota þetta API fyrir vöruhús á tilteknu leitarsvæði eða radíus, byggt á lengdar- og breiddargráðum.
 - **GetEstimatedProductWarehouseAvailability** – Notaðu þetta API til að biðja birgðir um vöru úr tilteknu vöruhúsi. Til dæmis er hægt að nota það til að sýna framboð birgða í atburðarásum sem fela í sér pöntunarupptöku.
 
 > [!NOTE]
@@ -66,7 +66,7 @@ Fylgdu þessum skrefum til að taka mynd af birgðum í Commerce Headquarters.
 1. Farðu í **Retail og Commerce \> Upplýsingatækni í Retail og Commerce \> Dreifingaráætlun**.
 1. Keyrðu vinnsluna **1130** (**Tiltækar afurðir**) til að samstilla skyndimyndargögnin sem vinnslan **Tiltækar afurðir** stofnaði úr Commerce Headquarters í rásagagnagrunna þína.
 
-Þegar óskað er eftir birgðum til ráðstöfunar úr API **GetEstimatedAvailable** eða **ProductWarehouseInventoryAvailabilities** er útreikningur keyrður til að reyna að fá sem best mat á birgðum fyrir afurðina. Við útreikninginn er vísað til allra pantana viðskiptavina í e-Commerce sem eru í gagnagrunni rásarinnar en voru ekki með í skyndimyndargögnum sem 1130 vinnslan gaf upp. Þessi rök eru framkvæmd með því að rekja síðustu afgreiddu birgðafærslur úr Commerce Headquarters og bera þær saman við færslur í gagnagrunni rásarinnar. Það veitir grunnlínu fyrir útreikningsrökum á rásarhliðinni, svo að aukalegar birgðahreyfingar sem áttu sér stað vegna sölufærslna pantana viðskiptavina í gagnagrunni um rafræn viðskipti geta verið færðar inn í áætlað birgðagildi sem API veitir.
+Þegar beðið er um birgðaframboð úr API **GetEstimatedAvailability** eða **GetEstimatedProductWarehouseAvailability**, er útreikningur keyrður til að reyna að fá besta mögulega mat á birgðum afurðarinnar. Við útreikninginn er vísað til allra pantana viðskiptavina í e-Commerce sem eru í gagnagrunni rásarinnar en voru ekki með í skyndimyndargögnum sem 1130 vinnslan gaf upp. Þessi rök eru framkvæmd með því að rekja síðustu afgreiddu birgðafærslur úr Commerce Headquarters og bera þær saman við færslur í gagnagrunni rásarinnar. Það veitir grunnlínu fyrir útreikningsrökum á rásarhliðinni, svo að aukalegar birgðahreyfingar sem áttu sér stað vegna sölufærslna pantana viðskiptavina í gagnagrunni um rafræn viðskipti geta verið færðar inn í áætlað birgðagildi sem API veitir.
 
 Útreikningsrök rásarinnar skilar áætluðu efnislegu gildi og heildar tiltæku gildi fyrir umbeðna vöru og vöruhús. Hægt er að sýna gildin á e-Commerce vefsvæðinu þínu ef þú vilt, eða þau geta verið notuð til að kalla fram önnur viðskiptarök á e-Commerce vefsíðunni þinni. Til dæmis er hægt að sýna skilaboð um „ekki til á lager“ í stað raunverulegs lagermagns sem API stóðst.
 
@@ -107,6 +107,8 @@ Til að tryggja besta mögulega mat á birgðum er mikilvægt að þú notir eft
 - **Bóka færsluuppgjör í runu** - Þessi vinnsla er einnig nauðsynleg fyrir bókun með hlutastraum. Hún fylgir vinnslunni **Reikna færsluuppgjör í runu**. Þessi vinnsla bókar kerfisbundið reiknuð yfirlit, svo að sölupantanir vegna staðgreiddrar sölu eru stofnaðar í Commerce Headquarters og Commerce Headquarters endurspeglar birgðir verslunarinnar á nákvæmari hátt.
 - **Tiltækar afurðir** - Þessi vinnsla skapar mynd af birgðum úr Commerce Headquarters.
 - **1130 (Tiltækar afurðir)** - Þessa vinnslu er að finna á síðunni **Dreifingaráætlanir** og ætti að keyra strax á eftir vinnslunni **Tiltækar afurðir**. Þessi vinnsla flytur skyndimynd birgða úr Commerce Headquarters yfir í gagnagrunna rásarinnar.
+
+Mælt er með því að keyra ekki þessar runuvinnslur of oft (á nokkurra mínútna fresti). Tíðar keyrslur valda of miklu álagi á Commerce Headquarters og geta hugsanlega haft áhrif á afköst. Almennt er það góð venja að keyra verk afurðaframboðs og 1130 á klukkutíma fresti og tímasetja P-verk, samstilla pantanir og verk sem tengjast bókun með hlutastraumi með sömu eða hærri tíðni.
 
 > [!NOTE]
 > Af frammistöðuástæðum, þegar útreikningar á birgðahlið framboðs eru notaðir til að leggja fram beiðni um birgðaaðstoð með því að nota API fyrir e-Commerce eða nýju POS birgðastöðvar við hlið rásar, notar útreikningurinn skyndiminni til að ákvarða hvort nægur tími hafi liðið til að réttlæta að keyra útreikninga rökfræðinnar aftur. Sjálfgefið skyndiminni er stillt á 60 sekúndur. Til dæmis kveiktir þú á útreikningi á rásarhlið fyrir verslunina þína og skoðaðir lagerbirgðir fyrir vöru á síðunni **Birgðauppfletting**. Ef ein eining vörunnar er síðan seld, mun síðan **Birgðauppfletting** ekki sýna minnkaðan lager fyrr en skyndiminni hefur verið hreinsað. Eftir að notendur bókað færslur í POS ættu þeir að bíða í 60 sekúndur áður en þeir staðfesta að lagerbirgðir hafi verið skertar.
