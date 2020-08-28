@@ -19,97 +19,99 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 83b829306c2da2d10924e547fd3cac6ae6781db3
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: 27e4f1c751ee865b0df536f3c1912cb1d8946032
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404187"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665003"
 ---
-# <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a><span data-ttu-id="2e777-103">Virkja Azure Data Lake Storage í Dynamics 365 Commerce-umhverfi</span><span class="sxs-lookup"><span data-stu-id="2e777-103">Enable Azure Data Lake Storage in a Dynamics 365 Commerce environment</span></span>
+# <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a><span data-ttu-id="f3820-103">Virkja Azure Data Lake Storage í Dynamics 365 Commerce-umhverfi</span><span class="sxs-lookup"><span data-stu-id="f3820-103">Enable Azure Data Lake Storage in a Dynamics 365 Commerce environment</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="2e777-104">Þetta efnisatriði útskýrir hvernig á að virkja og prófa Azure Data Lake Storage fyrir Dynamics 365 Commerce-umhverfi, sem er forsenda fyrir því að virkja afurðartillögur.</span><span class="sxs-lookup"><span data-stu-id="2e777-104">This topic explains how to enable and test Azure Data Lake Storage for a Dynamics 365 Commerce environment, which is a prerequisite for enabling product recommendations.</span></span>
+<span data-ttu-id="f3820-104">Þetta efnisatriði útskýrir hvernig á að virkja og prófa Azure Data Lake Storage fyrir Dynamics 365 Commerce-umhverfi, sem er forsenda fyrir því að virkja afurðartillögur.</span><span class="sxs-lookup"><span data-stu-id="f3820-104">This topic explains how to enable and test Azure Data Lake Storage for a Dynamics 365 Commerce environment, which is a prerequisite for enabling product recommendations.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="2e777-105">Yfirlit</span><span class="sxs-lookup"><span data-stu-id="2e777-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="f3820-105">Yfirlit</span><span class="sxs-lookup"><span data-stu-id="f3820-105">Overview</span></span>
 
-<span data-ttu-id="2e777-106">Í Dynamics 365 Commerce-lausn eru allar upplýsingar um vöru og viðskipti raktar í Entity verslun umhverfisins.</span><span class="sxs-lookup"><span data-stu-id="2e777-106">In the Dynamics 365 Commerce solution, all product and transaction information is tracked in the environment's Entity store.</span></span> <span data-ttu-id="2e777-107">Til að gera þessi gögn aðgengileg öðrum þjónustum Dynamics 365, t.d. gagnagreiningu, viðskiptagreind og sérsniðnum tillögum, er nauðsynlegt að tengja umhverfið við Azure Data Lake Storage Gen 2 lausn í eigu viðskiptavinar.</span><span class="sxs-lookup"><span data-stu-id="2e777-107">To make this data accessible to other Dynamics 365 services, such as data analytics, business intelligence, and personalized recommendations, it is necessary to connect the environment to a customer-owned Azure Data Lake Storage Gen 2 solution.</span></span>
+<span data-ttu-id="f3820-106">Í Dynamics 365 Commerce-lausn eru allar upplýsingar um vöru og viðskipti raktar í Entity verslun umhverfisins.</span><span class="sxs-lookup"><span data-stu-id="f3820-106">In the Dynamics 365 Commerce solution, all product and transaction information is tracked in the environment's Entity store.</span></span> <span data-ttu-id="f3820-107">Til að gera þessi gögn aðgengileg öðrum þjónustum Dynamics 365, t.d. gagnagreiningu, viðskiptagreind og sérsniðnum tillögum, er nauðsynlegt að tengja umhverfið við Azure Data Lake Storage Gen 2 lausn í eigu viðskiptavinar.</span><span class="sxs-lookup"><span data-stu-id="f3820-107">To make this data accessible to other Dynamics 365 services, such as data analytics, business intelligence, and personalized recommendations, it is necessary to connect the environment to a customer-owned Azure Data Lake Storage Gen 2 solution.</span></span>
 
-<span data-ttu-id="2e777-108">Þar sem Azure Data Lake Storage er skilgreint í umhverfi eru öll nauðsynleg gögn spegluð úr einingaversluninni og á sama tíma vernduð og undir stjórn viðskiptavinar.</span><span class="sxs-lookup"><span data-stu-id="2e777-108">As Azure Data Lake Storage is configured in an environment, all necessary data is mirrored from the Entity store while still being protected and under customer's control.</span></span>
+<span data-ttu-id="f3820-108">Þar sem Azure Data Lake Storage er skilgreint í umhverfi eru öll nauðsynleg gögn spegluð úr einingaversluninni og á sama tíma vernduð og undir stjórn viðskiptavinar.</span><span class="sxs-lookup"><span data-stu-id="f3820-108">As Azure Data Lake Storage is configured in an environment, all necessary data is mirrored from the Entity store while still being protected and under customer's control.</span></span>
 
-<span data-ttu-id="2e777-109">Ef afurðartillögur eða sérsniðnar tillögur eru einnig virkjaðar í umhverfinu verður stafli afurðartillagna gefin aðgangur að sérstakri möppu í Azure Data Lake Storage til að sækja gögn viðskiptavinar og reikna út tillögur byggt á þeim.</span><span class="sxs-lookup"><span data-stu-id="2e777-109">If product recommendations or personalized recommendations are also enabled in the environment, then the product recommendations stack will be granted access to the dedicated folder in Azure Data Lake Storage to retrieve the customer’s data and compute recommendations based on it.</span></span>
+<span data-ttu-id="f3820-109">Ef afurðartillögur eða sérsniðnar tillögur eru einnig virkjaðar í umhverfinu verður stafli afurðartillagna gefin aðgangur að sérstakri möppu í Azure Data Lake Storage til að sækja gögn viðskiptavinar og reikna út tillögur byggt á þeim.</span><span class="sxs-lookup"><span data-stu-id="f3820-109">If product recommendations or personalized recommendations are also enabled in the environment, then the product recommendations stack will be granted access to the dedicated folder in Azure Data Lake Storage to retrieve the customer’s data and compute recommendations based on it.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="2e777-110">Forkröfur</span><span class="sxs-lookup"><span data-stu-id="2e777-110">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="f3820-110">Forkröfur</span><span class="sxs-lookup"><span data-stu-id="f3820-110">Prerequisites</span></span>
 
-<span data-ttu-id="2e777-111">Viðskiptavinir verða að hafa Azure Data Lake Storage skilgreint í Azure-áskrift sem þeir eru með.</span><span class="sxs-lookup"><span data-stu-id="2e777-111">Customers need to have Azure Data Lake Storage configured in an Azure subscription that they own.</span></span> <span data-ttu-id="2e777-112">Þetta efnisatriði nær ekki yfir kaup á Azure-áskrift eða uppsetningu Azure Data Lake Storage-virkjaðs geymslulykils.</span><span class="sxs-lookup"><span data-stu-id="2e777-112">This topic does not cover the purchase of an Azure subscription or the setup of an Azure Data Lake Storage-enabled storage account.</span></span>
+<span data-ttu-id="f3820-111">Viðskiptavinir verða að hafa Azure Data Lake Storage skilgreint í Azure-áskrift sem þeir eru með.</span><span class="sxs-lookup"><span data-stu-id="f3820-111">Customers need to have Azure Data Lake Storage configured in an Azure subscription that they own.</span></span> <span data-ttu-id="f3820-112">Þetta efnisatriði nær ekki yfir kaup á Azure-áskrift eða uppsetningu Azure Data Lake Storage-virkjaðs geymslulykils.</span><span class="sxs-lookup"><span data-stu-id="f3820-112">This topic does not cover the purchase of an Azure subscription or the setup of an Azure Data Lake Storage-enabled storage account.</span></span>
 
-<span data-ttu-id="2e777-113">Frekari upplýsingar um Azure Data Lake Storage eru í [Azure Data Lake Storage Gen2 opinberum skjölum](https://azure.microsoft.com/pricing/details/storage/data-lake).</span><span class="sxs-lookup"><span data-stu-id="2e777-113">For more information about Azure Data Lake Storage, see [Azure Data Lake Storage Gen2 official documentation](https://azure.microsoft.com/pricing/details/storage/data-lake).</span></span>
+<span data-ttu-id="f3820-113">Frekari upplýsingar um Azure Data Lake Storage eru í [Azure Data Lake Storage Gen2 opinberum skjölum](https://azure.microsoft.com/pricing/details/storage/data-lake).</span><span class="sxs-lookup"><span data-stu-id="f3820-113">For more information about Azure Data Lake Storage, see [Azure Data Lake Storage Gen2 official documentation](https://azure.microsoft.com/pricing/details/storage/data-lake).</span></span>
   
-## <a name="configuration-steps"></a><span data-ttu-id="2e777-114">Skref skilgreiningar</span><span class="sxs-lookup"><span data-stu-id="2e777-114">Configuration steps</span></span>
+## <a name="configuration-steps"></a><span data-ttu-id="f3820-114">Skref skilgreiningar</span><span class="sxs-lookup"><span data-stu-id="f3820-114">Configuration steps</span></span>
 
-<span data-ttu-id="2e777-115">Þessi hluti nær yfir skilgreiningarskrefin sem nauðsynleg eru til að virkja Azure Data Lake Storage í umhverfi því að það tengist afurðartillögum.</span><span class="sxs-lookup"><span data-stu-id="2e777-115">This section covers the configuration steps necessary for enabling Azure Data Lake Storage in an environment as it relates to product recommendations.</span></span>
-<span data-ttu-id="2e777-116">Fyrir ítarlegra yfirlit yfir skrefin sem þarf til að virkja Azure Data Lake Storage skal skoða [Gera einingaverslun tiltæka sem Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).</span><span class="sxs-lookup"><span data-stu-id="2e777-116">For a more in-depth overview of the steps required to enable Azure Data Lake Storage, see [Make entity store available as a Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).</span></span>
+<span data-ttu-id="f3820-115">Þessi hluti nær yfir skilgreiningarskrefin sem nauðsynleg eru til að virkja Azure Data Lake Storage í umhverfi því að það tengist afurðartillögum.</span><span class="sxs-lookup"><span data-stu-id="f3820-115">This section covers the configuration steps necessary for enabling Azure Data Lake Storage in an environment as it relates to product recommendations.</span></span>
+<span data-ttu-id="f3820-116">Fyrir ítarlegra yfirlit yfir skrefin sem þarf til að virkja Azure Data Lake Storage skal skoða [Gera einingaverslun tiltæka sem Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).</span><span class="sxs-lookup"><span data-stu-id="f3820-116">For a more in-depth overview of the steps required to enable Azure Data Lake Storage, see [Make entity store available as a Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).</span></span>
 
-### <a name="enable-azure-data-lake-storage-in-the-environment"></a><span data-ttu-id="2e777-117">Gera Azure Data Lake Storage virkt í umhverfinu</span><span class="sxs-lookup"><span data-stu-id="2e777-117">Enable Azure Data Lake Storage in the environment</span></span>
+### <a name="enable-azure-data-lake-storage-in-the-environment"></a><span data-ttu-id="f3820-117">Gera Azure Data Lake Storage virkt í umhverfinu</span><span class="sxs-lookup"><span data-stu-id="f3820-117">Enable Azure Data Lake Storage in the environment</span></span>
 
-1. <span data-ttu-id="2e777-118">Skráðu þig inn á bakgagnasafn umhverfisins.</span><span class="sxs-lookup"><span data-stu-id="2e777-118">Log in to the environment's back office portal.</span></span>
-1. <span data-ttu-id="2e777-119">Leitapu að **Kerfisfæribreytum** og farðu á flipann **Gagnatengingar**.</span><span class="sxs-lookup"><span data-stu-id="2e777-119">Search for **System Parameters** and navigate to the **Data connections** tab.</span></span> 
-1. <span data-ttu-id="2e777-120">Stilltu **Virkja samþættingu Data Lake** á **Já**.</span><span class="sxs-lookup"><span data-stu-id="2e777-120">Set **Enable Data Lake integration** to **Yes**.</span></span>
-1. <span data-ttu-id="2e777-121">Stilltu **Hlutauppfærsla Data Lake** á **Já**.</span><span class="sxs-lookup"><span data-stu-id="2e777-121">Set **Trickle update Data Lake** to **Yes**.</span></span>
-1. <span data-ttu-id="2e777-122">Næst færirðu inn eftirfarandi áskildar upplýsingar:</span><span class="sxs-lookup"><span data-stu-id="2e777-122">Next, enter the following required information:</span></span>
-    1. <span data-ttu-id="2e777-123">**Forritsauðkenni** // **Leynilykill forrits** // **DNS-heiti** - Nauðsynlegt til að tengjast við KeyVault þar sem Azure Data Lake Storage-leynilykillinn er geymdur.</span><span class="sxs-lookup"><span data-stu-id="2e777-123">**Application ID** // **Application Secret** // **DNS Name** - Needed to connect to KeyVault where the Azure Data Lake Storage secret is stored.</span></span>
-    1. <span data-ttu-id="2e777-124">**Leyniheiti** - Leyniheitið sem geymt er í KeyVault og notað til að sannvotta við Azure Data Lake Storage.</span><span class="sxs-lookup"><span data-stu-id="2e777-124">**Secret name** - The secret name stored in KeyVault and used to authenticate with Azure Data Lake Storage.</span></span>
-1. <span data-ttu-id="2e777-125">Vistaðu breytingarnar þínar efst í vinstra horninu á síðunni.</span><span class="sxs-lookup"><span data-stu-id="2e777-125">Save your changes in the top left corner of the page.</span></span>
+1. <span data-ttu-id="f3820-118">Skráðu þig inn á bakgagnasafn umhverfisins.</span><span class="sxs-lookup"><span data-stu-id="f3820-118">Log in to the environment's back office portal.</span></span>
+1. <span data-ttu-id="f3820-119">Leitapu að **Kerfisfæribreytum** og farðu á flipann **Gagnatengingar**.</span><span class="sxs-lookup"><span data-stu-id="f3820-119">Search for **System Parameters** and navigate to the **Data connections** tab.</span></span> 
+1. <span data-ttu-id="f3820-120">Stilltu **Virkja samþættingu Data Lake** á **Já**.</span><span class="sxs-lookup"><span data-stu-id="f3820-120">Set **Enable Data Lake integration** to **Yes**.</span></span>
+1. <span data-ttu-id="f3820-121">Stilltu **Hlutauppfærsla Data Lake** á **Já**.</span><span class="sxs-lookup"><span data-stu-id="f3820-121">Set **Trickle update Data Lake** to **Yes**.</span></span>
+1. <span data-ttu-id="f3820-122">Næst færirðu inn eftirfarandi áskildar upplýsingar:</span><span class="sxs-lookup"><span data-stu-id="f3820-122">Next, enter the following required information:</span></span>
+    1. <span data-ttu-id="f3820-123">**Forritsauðkenni** // **Leynilykill forrits** // **DNS-heiti** - Nauðsynlegt til að tengjast við KeyVault þar sem Azure Data Lake Storage-leynilykillinn er geymdur.</span><span class="sxs-lookup"><span data-stu-id="f3820-123">**Application ID** // **Application Secret** // **DNS Name** - Needed to connect to KeyVault where the Azure Data Lake Storage secret is stored.</span></span>
+    1. <span data-ttu-id="f3820-124">**Leyniheiti** - Leyniheitið sem geymt er í KeyVault og notað til að sannvotta við Azure Data Lake Storage.</span><span class="sxs-lookup"><span data-stu-id="f3820-124">**Secret name** - The secret name stored in KeyVault and used to authenticate with Azure Data Lake Storage.</span></span>
+1. <span data-ttu-id="f3820-125">Vistaðu breytingarnar þínar efst í vinstra horninu á síðunni.</span><span class="sxs-lookup"><span data-stu-id="f3820-125">Save your changes in the top left corner of the page.</span></span>
 
-<span data-ttu-id="2e777-126">Eftirfarandi mynd sýnir dæmi um skilgreiningu Azure Data Lake Storage.</span><span class="sxs-lookup"><span data-stu-id="2e777-126">The following image shows an example Azure Data Lake Storage configuration.</span></span>
+<span data-ttu-id="f3820-126">Eftirfarandi mynd sýnir dæmi um skilgreiningu Azure Data Lake Storage.</span><span class="sxs-lookup"><span data-stu-id="f3820-126">The following image shows an example Azure Data Lake Storage configuration.</span></span>
 
 ![Dæmi um skilgreiningu Azure Data Lake Storage](./media/exampleADLSConfig1.png)
 
-### <a name="test-the-azure-data-lake-storage-connection"></a><span data-ttu-id="2e777-128">Prófa Azure Data Lake Storage-tenginguna</span><span class="sxs-lookup"><span data-stu-id="2e777-128">Test the Azure Data Lake Storage connection</span></span>
+### <a name="test-the-azure-data-lake-storage-connection"></a><span data-ttu-id="f3820-128">Prófa Azure Data Lake Storage-tenginguna</span><span class="sxs-lookup"><span data-stu-id="f3820-128">Test the Azure Data Lake Storage connection</span></span>
 
-1. <span data-ttu-id="2e777-129">Prófaðu tenginguna við KeyVault með því að nota tengilinn **Prófa Azure-lykil**.</span><span class="sxs-lookup"><span data-stu-id="2e777-129">Test the connection to KeyVault using the **Test Azure Key Vault** link.</span></span>
-1. <span data-ttu-id="2e777-130">Prófið tenginguna við Azure Data Lake Storage með því að nota tengilinn **Azure Storage**.</span><span class="sxs-lookup"><span data-stu-id="2e777-130">Test the connection to Azure Data Lake Storage using the **Test Azure Storage** link.</span></span>
+1. <span data-ttu-id="f3820-129">Prófaðu tenginguna við KeyVault með því að nota tengilinn **Prófa Azure-lykil**.</span><span class="sxs-lookup"><span data-stu-id="f3820-129">Test the connection to KeyVault using the **Test Azure Key Vault** link.</span></span>
+1. <span data-ttu-id="f3820-130">Prófið tenginguna við Azure Data Lake Storage með því að nota tengilinn **Azure Storage**.</span><span class="sxs-lookup"><span data-stu-id="f3820-130">Test the connection to Azure Data Lake Storage using the **Test Azure Storage** link.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="2e777-131">Ef prófunin tekst ekki skaltu athuga aftur hvort allar viðbættar KeyVault-upplýsingar hér að ofan séu réttar og reyna síðan aftur.</span><span class="sxs-lookup"><span data-stu-id="2e777-131">If the tests fail, double-check that all of the KeyVault information added above is correct, then try again.</span></span>
+> <span data-ttu-id="f3820-131">Ef prófunin tekst ekki skaltu athuga aftur hvort allar viðbættar KeyVault-upplýsingar hér að ofan séu réttar og reyna síðan aftur.</span><span class="sxs-lookup"><span data-stu-id="f3820-131">If the tests fail, double-check that all of the KeyVault information added above is correct, then try again.</span></span>
 
-<span data-ttu-id="2e777-132">Þegar tengiprófin hafa gengið, verður þú að gera sjálfvirka endurnýjun fyrir Entity verslunina.</span><span class="sxs-lookup"><span data-stu-id="2e777-132">Once the connection tests are successful, you must enable automatic refresh for Entity store.</span></span>
+<span data-ttu-id="f3820-132">Þegar tengiprófin hafa gengið, verður þú að gera sjálfvirka endurnýjun fyrir Entity verslunina.</span><span class="sxs-lookup"><span data-stu-id="f3820-132">Once the connection tests are successful, you must enable automatic refresh for Entity store.</span></span>
 
-<span data-ttu-id="2e777-133">Fylgdu þessum skrefum til að gera sjálfvirka endurnýjun fyrir Entity verslun.</span><span class="sxs-lookup"><span data-stu-id="2e777-133">To enable automatic refresh for Entity store, follow these steps.</span></span>
+<span data-ttu-id="f3820-133">Fylgdu þessum skrefum til að gera sjálfvirka endurnýjun fyrir Entity verslun.</span><span class="sxs-lookup"><span data-stu-id="f3820-133">To enable automatic refresh for Entity store, follow these steps.</span></span>
 
-1. <span data-ttu-id="2e777-134">Leita að **Entity-verslun**.</span><span class="sxs-lookup"><span data-stu-id="2e777-134">Search for **Entity Store**.</span></span>
-1. <span data-ttu-id="2e777-135">Á listanum til vinstri ferðu í færsluna **RetailSales** og velur **Breyta**.</span><span class="sxs-lookup"><span data-stu-id="2e777-135">In the list on the left, navigate to the **RetailSales** entry, and select **Edit**.</span></span>
-1. <span data-ttu-id="2e777-136">Gakktu úr skugga um að **Sjálfvirk uppfærsla virk** sé stillt á **Já**, veldu **Endurnýja** og veldu síðan **Vista**.</span><span class="sxs-lookup"><span data-stu-id="2e777-136">Ensure that **Automatic Refresh Enabled** is set to **Yes**, select **Refresh**, and then select **Save**.</span></span>
+1. <span data-ttu-id="f3820-134">Leita að **Entity-verslun**.</span><span class="sxs-lookup"><span data-stu-id="f3820-134">Search for **Entity Store**.</span></span>
+1. <span data-ttu-id="f3820-135">Á listanum til vinstri ferðu í færsluna **RetailSales** og velur **Breyta**.</span><span class="sxs-lookup"><span data-stu-id="f3820-135">In the list on the left, navigate to the **RetailSales** entry, and select **Edit**.</span></span>
+1. <span data-ttu-id="f3820-136">Gakktu úr skugga um að **Sjálfvirk uppfærsla virk** sé stillt á **Já**, veldu **Endurnýja** og veldu síðan **Vista**.</span><span class="sxs-lookup"><span data-stu-id="f3820-136">Ensure that **Automatic Refresh Enabled** is set to **Yes**, select **Refresh**, and then select **Save**.</span></span>
 
-<span data-ttu-id="2e777-137">Eftirfarandi mynd sýnir dæmi um Entity verslun með sjálfvirka endurnýjun virka.</span><span class="sxs-lookup"><span data-stu-id="2e777-137">The following image shows an example of Entity store with automatic refresh enabled.</span></span>
+<span data-ttu-id="f3820-137">Eftirfarandi mynd sýnir dæmi um Entity verslun með sjálfvirka endurnýjun virka.</span><span class="sxs-lookup"><span data-stu-id="f3820-137">The following image shows an example of Entity store with automatic refresh enabled.</span></span>
 
 ![Dæmi um verslun Entity með sjálfvirka endurnýjun virka](./media/exampleADLSConfig2.png)
 
-<span data-ttu-id="2e777-139">Azure Data Lake Storage er nú skilgreint fyrir umhverfið.</span><span class="sxs-lookup"><span data-stu-id="2e777-139">Azure Data Lake Storage is now configured for the environment.</span></span> 
+<span data-ttu-id="f3820-139">Azure Data Lake Storage er nú skilgreint fyrir umhverfið.</span><span class="sxs-lookup"><span data-stu-id="f3820-139">Azure Data Lake Storage is now configured for the environment.</span></span> 
 
-<span data-ttu-id="2e777-140">Ef ekki er lokið þegar, fylgdu skrefunum fyrir [sem gerir ráð fyrir vöru og sérstillingu](enable-product-recommendations.md) fyrir umhverfið.</span><span class="sxs-lookup"><span data-stu-id="2e777-140">If not completed already, follow the steps for [enabling product recommendations and personalization](enable-product-recommendations.md) for the environment.</span></span>
+<span data-ttu-id="f3820-140">Ef ekki er lokið þegar, fylgdu skrefunum fyrir [sem gerir ráð fyrir vöru og sérstillingu](enable-product-recommendations.md) fyrir umhverfið.</span><span class="sxs-lookup"><span data-stu-id="f3820-140">If not completed already, follow the steps for [enabling product recommendations and personalization](enable-product-recommendations.md) for the environment.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="2e777-141">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="2e777-141">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="f3820-141">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="f3820-141">Additional resources</span></span>
 
-[<span data-ttu-id="2e777-142">Gera einingaverslun tiltæka sem Data Lake</span><span class="sxs-lookup"><span data-stu-id="2e777-142">Make entity store available as a data lake</span></span>](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)
+[<span data-ttu-id="f3820-142">Gera einingaverslun tiltæka sem Data Lake</span><span class="sxs-lookup"><span data-stu-id="f3820-142">Make entity store available as a data lake</span></span>](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)
 
-[<span data-ttu-id="2e777-143">Yfirlit yfir afurðarráðleggingar</span><span class="sxs-lookup"><span data-stu-id="2e777-143">Product recommendations overview</span></span>](product-recommendations.md)
+[<span data-ttu-id="f3820-143">Yfirlit yfir afurðarráðleggingar</span><span class="sxs-lookup"><span data-stu-id="f3820-143">Product recommendations overview</span></span>](product-recommendations.md)
 
-[<span data-ttu-id="2e777-144">Virkja ráðleggingar um afurðir</span><span class="sxs-lookup"><span data-stu-id="2e777-144">Enable product recommendations</span></span>](enable-product-recommendations.md)
+[<span data-ttu-id="f3820-144">Virkja ráðleggingar um afurðir</span><span class="sxs-lookup"><span data-stu-id="f3820-144">Enable product recommendations</span></span>](enable-product-recommendations.md)
 
-[<span data-ttu-id="2e777-145">Kveikja á sérsniðnum tillögum</span><span class="sxs-lookup"><span data-stu-id="2e777-145">Enable personalized recommendations</span></span>](personalized-recommendations.md)
+[<span data-ttu-id="f3820-145">Kveikja á sérsniðnum tillögum</span><span class="sxs-lookup"><span data-stu-id="f3820-145">Enable personalized recommendations</span></span>](personalized-recommendations.md)
 
-[<span data-ttu-id="2e777-146">Afþakka sérsniðnar tillögur</span><span class="sxs-lookup"><span data-stu-id="2e777-146">Opt out of personalized recommendations</span></span>](personalization-gdpr.md)
+[<span data-ttu-id="f3820-146">Afþakka sérsniðnar tillögur</span><span class="sxs-lookup"><span data-stu-id="f3820-146">Opt out of personalized recommendations</span></span>](personalization-gdpr.md)
 
-[<span data-ttu-id="2e777-147">Bæta afurðaráðleggingum við sölustað</span><span class="sxs-lookup"><span data-stu-id="2e777-147">Add product recommendations on POS</span></span>](product.md)
+[<span data-ttu-id="f3820-147">Virkja tillögur um að kaupa svipaða vöru</span><span class="sxs-lookup"><span data-stu-id="f3820-147">Enable "shop similar looks" recommendations</span></span>](shop-similar-looks.md)
 
-[<span data-ttu-id="2e777-148">Bæta við tillögum á færsluskjáinn</span><span class="sxs-lookup"><span data-stu-id="2e777-148">Add recommendations to the transaction screen</span></span>](add-recommendations-control-pos-screen.md)
+[<span data-ttu-id="f3820-148">Bæta við afurðatillögum á sölustað</span><span class="sxs-lookup"><span data-stu-id="f3820-148">Add product recommendations on POS</span></span>](product.md)
 
-[<span data-ttu-id="2e777-149">Aðlagaðu niðurstöður AI-ML</span><span class="sxs-lookup"><span data-stu-id="2e777-149">Adjust AI-ML recommendations results</span></span>](modify-product-recommendation-results.md)
+[<span data-ttu-id="f3820-149">Bæta tillögum við færsluskjáinn</span><span class="sxs-lookup"><span data-stu-id="f3820-149">Add recommendations to the transaction screen</span></span>](add-recommendations-control-pos-screen.md)
 
-[<span data-ttu-id="2e777-150">Búðu til handvirkt myndaðar ráðleggingar</span><span class="sxs-lookup"><span data-stu-id="2e777-150">Manually create curated recommendations</span></span>](create-editorial-recommendation-lists.md)
+[<span data-ttu-id="f3820-150">Aðlagaðu niðurstöður AI-ML</span><span class="sxs-lookup"><span data-stu-id="f3820-150">Adjust AI-ML recommendations results</span></span>](modify-product-recommendation-results.md)
 
-[<span data-ttu-id="2e777-151">Búðu til tillögur með kynningargögnum</span><span class="sxs-lookup"><span data-stu-id="2e777-151">Create recommendations with demo data</span></span>](product-recommendations-demo-data.md)
+[<span data-ttu-id="f3820-151">Búðu til handvirkt myndaðar ráðleggingar</span><span class="sxs-lookup"><span data-stu-id="f3820-151">Manually create curated recommendations</span></span>](create-editorial-recommendation-lists.md)
 
-[<span data-ttu-id="2e777-152">Algengar spurningar um afurðaráðleggingar</span><span class="sxs-lookup"><span data-stu-id="2e777-152">Product recommendations FAQ</span></span>](faq-recommendations.md)
+[<span data-ttu-id="f3820-152">Búðu til tillögur með kynningargögnum</span><span class="sxs-lookup"><span data-stu-id="f3820-152">Create recommendations with demo data</span></span>](product-recommendations-demo-data.md)
+
+[<span data-ttu-id="f3820-153">Algengar spurningar um afurðaráðleggingar</span><span class="sxs-lookup"><span data-stu-id="f3820-153">Product recommendations FAQ</span></span>](faq-recommendations.md)
