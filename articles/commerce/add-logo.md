@@ -19,15 +19,14 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fc0673dcdcc8b761089be2c2d201c8488128865
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 62b8237fa0c30fa9d901d670de38416cf8615c8d
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025703"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686647"
 ---
 # <a name="add-a-logo"></a>Bæta við lógói
-
 
 [!include [banner](includes/banner.md)]
 
@@ -51,7 +50,7 @@ ms.locfileid: "3025703"
 
 Fylgdu þessum skrefum til að bæta við merki við hausbrotið fyrir vefsvæðið.
 
-1. Í stýriglugganum vinstra megin velurðu **Síðubrot**.
+1. Í stýriglugganum vinstra megin velurðu **Brot**.
 1. Veldu hausbrotið sem þú bjóst til og veldu síðan **Breyta**.
 1. Stækkaðu hausseininguna.
 1. Settu upp mynd og tengil fyrir lógóið í eiginleikaglugganum fyrir hausseininguna. 

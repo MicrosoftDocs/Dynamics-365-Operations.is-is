@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6771a84118504cd5c8e44302380eb970e4658902
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 137debe3f4cad3948d20b2902ea80e66fa74ffd4
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411090"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661148"
 ---
 # <a name="cart-icon-module"></a>Körfutáknseining
 
@@ -42,22 +42,22 @@ Eftirfarandi mynd sýnir dæmi um einingu körfutákns sem sýnir smákörfu í 
 
 - **Sýna smákörfu** - Þegar satt gerir þessi eiginleiki kleift að birta yfirlit yfir körfu (smákörfu) þegar músin sveimar yfir körfutákninu. Þessi virkni er aðeins studd fyrir skjáborðsgáttir.
 
-
 ## <a name="add-a-cart-icon-module-to-a-page"></a>Bæta körfutáknseiningu við síðu
 
 Til að bæta við einingunni fyrir körfutákn, sjá [Hauseiningu](author-header-module.md).
 
-
 ## <a name="additional-resources"></a>Frekari upplýsingar
-
-[Kaupgluggaeining](add-buy-box.md)
 
 [Körfueining](add-cart-module.md)
 
 [Greiðsluferliseining](add-checkout-module.md)
 
-[Eining pöntunarstaðfestingar](order-confirmation-module.md)
+[Greiðslueining](payment-module.md)
 
-[Fyrirsagnareining](author-header-module.md)
+[Eining sendingaraðseturs](ship-address-module.md)
 
-[Neðanmálseining](author-footer-module.md)
+[Eining afhendingarvalkosta](delivery-options-module.md)
+
+[Pöntunarupplýsingaeining](order-confirmation-module.md)
+
+[Gjafakortseining](add-giftcard.md)

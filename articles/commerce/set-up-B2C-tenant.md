@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b017b0f91960be1504134f6d46878fce956de203
-ms.sourcegitcommit: 8a1621327568edf49758b70964e0a3e637527e1b
+ms.openlocfilehash: f31f8898358626f2b008826aa69694dc16742aa0
+ms.sourcegitcommit: 59a9e840989bc9f2c7004efa3499b69c09a91b06
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3497169"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677905"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Setja upp B2C-leigjanda í Commerce
 
@@ -77,7 +77,7 @@ Eftirfarandi mynd sýnir dæmi um borða með Azure AD B2C **Úrræðaleit**.
 
 Til að stofna B2C forrit skal fylgja þessum skrefum.
 
-1. Veldu í Azure vefsíðunni **Forrit** og veldu síðan **Bæta við**.
+1. Í Azure-gáttinni skal velja **Applications(Legacy)** og síðan velja **Bæta við**.
 1. Undir **Heiti** slærðu inn heiti viðeigandi AAD B2C forrits.
 1. Undir **Vefforrit/Vef-API**, fyrir **Hafa vefforrit með/vef-API**, veldu **Já**.
 1. Fyrir **Leyfa óbeint flæði**, veldu **Já** (sjálfgefið gildi).

@@ -1,9 +1,9 @@
 ---
 title: Yfirlitssíða fjárhagsskýrslugerðar
-description: Þetta efnisatriði lýsir hvar á að opna fjárhagslegar skýrslugerð í Microsoft Dynamics 365 Finance og hvernig á að nota getu fjárhagsskýrslugerðar. Inniheldur lýsing á sjálfgefið fjárhagsskýrslur sem er veitt.
+description: Þetta efnisatriði lýsir hvar á að opna fjárhagslegar skýrslugerð í Microsoft Dynamics 365 Finance og hvernig á að nota getu fjárhagsskýrslugerðar.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/23/2020
+ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86022b662c265b4b98f6df86647f61ea35d31432
-ms.sourcegitcommit: f5200f37c6c436183b4ee5711026ef92a7cb9538
+ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
+ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3618039"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696689"
 ---
-# <a name="financial-reporting-overview"></a>Yfirlitssíða fjárhagsskýrslugerðar
+# <a name="get-started-with-financial-reporting"></a>Hafist handa með Financial Reporting 
 
 [!include [banner](../includes/banner.md)]
 
@@ -88,7 +88,7 @@ Eftir að°notanda er bætt við eða hlutverki er breytt, á notandinn að geta
 Notendur sem búa til skýrslu geta eytt eigin skýrslum. Notendur með skylduna **Vinna með öryggi fjárhagsskýrslna** geta eytt skýrslum annarra. 
 
 Í útgáfu 10.0.8 var hugtakið lokadagar kynnt. Nýr nauðsynlegur eiginleiki er virkur á síðunni **Allt** á vinnusvæði eiginleikastjórnunar. Eiginleikinn **Varðveislureglur fjárhagsskýrslu** inniheldur eftirfarandi breytingar:
-* Nýlega myndaðar skýrslur verða sjálfkrafa merktar með lokadag sem er 90 dagar frá því þær eru myndaðar
+* Þegar skýrslur eru myndaðar er lokadagsetning sjálfkrafa merkt sem 90 dögum frá myndun þeirra.
 * Lokadagur allra fyrirliggjandi skýrslna áður en eiginleikinn var settur upp er 90 dagar. Dagsetningin kann að birtast auð í stuttan tíma þar til þjónustan fjárhagsskýrslugerð er í gangi, skýrsla er búin til og þjónustan framkvæmir uppfærsluna á fyrirliggjandi skýrslum með auðan lokadag. 
 * Notendur sem **Vinna með öryggi fjárhagsskýrslna** hafa aðgang að þessum eiginleika. Sérhver notandi í skyldunni **Vinna með fjárhagsskýrslu** sem er veitt réttindin **Vinna með gildistíma fjárhagsskýrslu** munu einnig geta breytt gildistíma. Eins og stendur eru tveir valkostir varðandi varðveislu í boði: 
   * Gildistími 90 dagar.
@@ -134,6 +134,12 @@ Fjárhagsskýrslugerð veitir 22 sjálfgefnar fjárhagsskýrslur. Sérhver skýr
 ## <a name="creating-and-modifying-financial-reports"></a>Stofna og breyta fjárhagsskýrslum
 Af listanum yfir fjárhagsskýrslur er hægt að stofna nýja skýrslu eða breyta fyrirliggjandi skýrslu. Ef notandi hefur viðeigandi heimildir, er hægt að stofna nýja fjárhagsskýrslu með því að velja **Nýtt** í Aðgerðarúðunni. Skýrsluhönnunarforriti er hlaðið niður á tækið og opnast síðan. Eftir að skýrsluhönnun opnast er hægt að stofna nýja skýrslu. Þegar búið er að vista nýja skýrslu birtist hún í lista yfir fjárhagsskýrslur. Listinn sýnir einungis skýrslur sem voru stofnaðar fyrir fyrirtæki sem verið er að nota í Dynamics 365 Finance. 
 
+## <a name="reporting-tree-definitions"></a>Skilgreiningar skipurits 
+Einn af íhlutunum sem eru notaðir til að búa til fjárhagsskýrslur er skilgreining skipurits. skipuritsskilgreining aðstoðar við að skilgreina byggingu og stigveldi fyrirtækisins þíns. Hún er þvervíddarlegt stigveldi sem byggist á víddarvenslum innan fjárhagsgagnanna. Hún veitir upplýsinga á stigi einingar skipuritsins og á stigi samantektarinnar fyrir allar einingar í trénu.
+
+Hægt er að stofna ótakmarkaðan fjölda af skipuritum til að sýna gögn fyrirtækisins á mismunandi vegu. Hvert skipurit getur innihaldið hvaða samsetningu af deildum og samantektareiningum sem er en skýrsluskilgreining getur haft tengil á aðeins eitt skipurit í einu. 
+
+
 ## <a name="troubleshooting-issues-opening-report-designer"></a>Úrræðaleit vegna vandamála við opnun skýrsluhönnunar
 Nokkur algeng vandamál eru til staðar sem geta valdið vandræðum þegar Skýrsluhönnun er opnuð. Þessi vandamál og skrefin til að leysa úr þeim eru eftirfarandi.
 
@@ -162,3 +168,4 @@ Vandamál 3: Þú getur haldið áfram framhjá ClickOnce innskráningarsíðu s
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 - [Skoða fjárhagsskýrslur](view-financial-reports.md)
+- [Skilgreiningar skipurits í fjárhagsskýrslum](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)

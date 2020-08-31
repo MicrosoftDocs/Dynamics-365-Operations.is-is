@@ -402,18 +402,12 @@
                           href: install-pos-layout-designer.md
                         - name: Velja tilkynningastillingar
                           href: Notifications-POS.md
-                        - name: POS-forrit og stillingar tungumáls notanda
+                        - name: Sölustaðaforrit og stillingar tungumáls notanda
                           href: pos-application-user-language-settings.md
                         - name: Setja upp og stjórna myndum fyrir MPOS
                           href: set-up-manage-images-retail-mpos.md
                         - name: Biðlaramyndir á sölustað
                           href: pos-image.md
-                    - name: Pantanir viðskiptavinar
-                      items:
-                        - name: Pantanir viðskiptavinar í MPOS
-                          href: customer-orders-overview.md
-                        - name: Blandaðar pantanir viðskiptavinar
-                          href: hybrid-customer-orders.md
                     - name: Sölutengiliðir
                       items:
                         - name: Rekja sölulaun á sölustað með söluflokkum
@@ -630,6 +624,8 @@
                       href: personalized-recommendations.md
                     - name: Afþakka sérsniðnar tillögur
                       href: personalization-gdpr.md
+                - name: Virkja tillögur um að kaupa svipaða vöru
+                  href: shop-similar-looks.md
                 - name: Reynsla af sölustað
                   items:
                     - name: Bæta við afurðatillögum á sölustað
@@ -692,6 +688,12 @@
                       href: tasks/create-product-packages-purchase-orders.md
         - name: Hafa umsjón með pöntununum þínum
           items:
+            - name: Pantanir viðskiptavinar
+              items:
+                - name: Pantanir viðskiptavinar í MPOS
+                  href: customer-orders-overview.md
+                - name: Blandaðar pantanir viðskiptavinar
+                  href: hybrid-customer-orders.md
             - name: Sölupantanir
               items:
                 - name: Búa til pöntun fyrir símaver
@@ -988,6 +990,12 @@
                       href: cart-icon-module.md
                     - name: Greiðsluferliseining
                       href: add-checkout-module.md
+                    - name: Greiðslueining
+                      href: payment-module.md
+                    - name: Sendingaraðseturseining
+                      href: ship-address-module.md
+                    - name: Afhendingarkostaeining
+                      href: delivery-options-module.md
                     - name: Pöntunarupplýsingaeining
                       href: order-confirmation-module.md
                     - name: Gjafakortseining
@@ -1302,19 +1310,19 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-count.md?toc=/dynamics365/commerce/toc.json
                         - name: EmptyList
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-emptylist.md?toc=/dynamics365/commerce/toc.json
-                        - name: Tölusetja
+                        - name: Enumerate
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-enumerate.md?toc=/dynamics365/commerce/toc.json
-                        - name: Sía
+                        - name: Filter
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-filter.md?toc=/dynamics365/commerce/toc.json
-                        - name: Fyrsta
+                        - name: First
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-first.md?toc=/dynamics365/commerce/toc.json
                         - name: FirstOrNull
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-firstornull.md?toc=/dynamics365/commerce/toc.json
-                        - name: Atriðaskrá
+                        - name: Index
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-index.md?toc=/dynamics365/commerce/toc.json
                         - name: IsEmpty
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/commerce/toc.json
-                        - name: Listi
+                        - name: List
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/commerce/toc.json
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/commerce/toc.json
@@ -1324,7 +1332,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?toc=/dynamics365/commerce/toc.json
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?toc=/dynamics365/commerce/toc.json
-                        - name: Bakfæra
+                        - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?toc=/dynamics365/commerce/toc.json
                         - name: Skipta upp
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/commerce/toc.json
@@ -1482,13 +1490,13 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/commerce/toc.json
                         - name: 'Dagsetning og tími: DateValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/commerce/toc.json
-                        - name: 'Listi: List'
+                        - name: 'List: List'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/commerce/toc.json
-                        - name: 'Listi: ListOfFields'
+                        - name: 'List: ListOfFields'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/commerce/toc.json
-                        - name: 'Listi: Split'
+                        - name: 'List: Split'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/commerce/toc.json
-                        - name: 'Listi: StringJoin'
+                        - name: 'List: StringJoin'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/commerce/toc.json
                         - name: 'Texti: Char'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/commerce/toc.json
@@ -1698,7 +1706,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/commerce/toc.json
             - name: API fyrir ramma rafrænnar skýrslugerðar
               items:
-                - name: Listi yfir virkni rafrænnar skýrslugerðar lengdur
+                - name: List yfir virkni rafrænnar skýrslugerðar lengdur
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/commerce/toc.json
                 - name: Breytingar á API rafræns skýrslugerðarramma fyrir Application update 7.3
                   href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/commerce/toc.json
@@ -1974,6 +1982,8 @@
                       href: e-commerce-extensibility/extend-module-definition.md
                     - name: Yfirlit API fyrir kökur
                       href: e-commerce-extensibility/cookie-api-overview.md
+                    - name: Yfirlit yfir gagnvirka þætti
+                      href: e-commerce-extensibility/interactive-components.md
                     - name: Gera einingar alþjóðlegar með því að nota klasann CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
                 - name: Þróa gagnaaðgerðir
@@ -2026,9 +2036,13 @@
                   items:
                     - name: Innsetning forskriftar
                       href: e-commerce-extensibility/script-injector.md
+                - name: Tenglar
+                  items:
+                    - name: Skilgreina og virkja tengla
+                      href: e-commerce-extensibility/connectors.md
                 - name: Fjarmælingar og greiningar
                   items:
-                    - name: Annáll fjarmælinga
+                    - name: Skráning fjarmælinga
                       href: e-commerce-extensibility/telemetry-logger.md
                 - name: Uppsetning og viðhald
                   items:
@@ -2042,6 +2056,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Væntanlegar breytingar í Retail SDK
                   href: dev-itpro/UpcomingSDKChanges.md
+                - name: Mikilvæg þróun og ALM-breytingar frá útgáfu 10.0.10 til 10.0.13
+                  href: dev-itpro/dev-changes-10-13.md
                 - name: Sameina byggingarkerfin fyrir Commerce og Finance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: Flytja Retail SDK úr Visual Studio 2015 í Visual Studio 2017
@@ -2114,23 +2130,19 @@
               items:
                 - name: Hardware Station og stækkunarhæfni
                   href: dev-itpro/hardware-station-extensibility.md
-                - name: Samþætta POS við nýjan vélbúnað
+                - name: Samþætta sölustað við nýjan vélbúnað
                   href: dev-itpro/hardware-device-extension.md
             - name: Stækkunarhæfni Retail Server
               items:
-                - name: Stækka OData-stýringu fyrir Commerce Scale Unit
-                  href: dev-itpro/extend-retail-server-odata-controller.md
                 - name: API viðskiptavina og neytenda Commerce Scale Unit
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: Stækka sjálfgefna lýsigagnastýringu Commerce Scale Unit
-                  href: dev-itpro/extend-metadata.md
-                - name: Hringja í CRT-þjónustuna án nets
-                  href: dev-itpro/call-crt-service-offline.md
-                - name: Búa til nýja viðbót Retail Server
+                - name: Búa til nýtt API fyrir Retail Server-viðbót (Retail SDK útgáfa 10.0.11 og síðari)
+                  href: dev-itpro/retail-server-icontroller-extension.md
+                - name: Búa til nýtt API fyrir Retail Server-viðbót (Retail SDK útgáfa 10.0.11 og fyrri)
                   href: dev-itpro/retail-server-extension.md
-                - name: Retail Typescript og C#-staðgengill
+                - name: Retail Typescript og C#-staðgenglar
                   href: dev-itpro/typescript-proxy-retail-pos.md
-            - name: Commerce Runtime (CRT) stækkunarhæfni
+            - name: Stækkunarhæfni Commerce Runtime (CRT)
               items:
                 - name: Skipulag og skilgreining CRT
                   href: dev-itpro/commerce-runtime-overview.md
@@ -2138,16 +2150,12 @@
                   href: dev-itpro/crt-services.md
                 - name: Stækkunarhæfni CRT og Retail Server
                   href: dev-itpro/commerce-runtime-extensibility.md
-                - name: Bæta kjörstillingargögnum viðskiptavinar við gagnagrunn rásar
-                  href: dev-itpro/add-customer-preference-channel.md
                 - name: Stjórna leynilyklum fyrir smásölurásir
                   href: dev-itpro/manage-secrets.md
                 - name: Stækkunarhæfni og kveikjur CRT
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: Útiloka færslur með kveikjum
                   href: dev-itpro/trigger-example-blocking-transaction.md
-                - name: Innleiða reglur um vöruskil með kveikjum
-                  href: dev-itpro/trigger-example-return-policy.md
                 - name: Vildarviðbót
                   href: dev-itpro/retail-sdk/loyalty-extension-sample.md
                 - name: Viðbótarpunktar fyrir fylgiseðla

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a159f5fd811ee80c0ac45ca1b582f2f46fcb2c61
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 250b214372a12f99d2ababc97c5edf4456cadcad
+ms.sourcegitcommit: 288df4fe766536e51ca9b5306c5bb948b7772ac5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009372"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "3688273"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>Nota verkflæði til að haga starfsmannaupplýsingum
 
@@ -63,10 +63,13 @@ Til að grunnstilla grunnverkflæði sem ræsist þegar starfsmenn biðja um bre
 
 8.  Lokið öllum viðbótarleiðbeiningum (engar aðrar viðvaranir eiga að vera til).
 9.  Smellið á **Vista og loka**. Virkja nýja verkflæðið þegar svarglugginn opnast og velja **Gera virka**.
-10. Fara í **Mannauð** &gt; **Stöður** &gt; **Stigveldisgerðir stöðu**.
+10. Fara í **Mannauð**&gt;**Stöður**&gt;**Stigveldisgerðir stöðu**.
 11. Velja **Fylki**.
 12. Bæta við verkflæðinu **Auðkennisnúmer starfsmanns** við listann.
 
+## <a name="additional-resources"></a>Frekari upplýsingar
+
+[Skoða og hafa umsjón með breytingum á aðsetri](hr-personnel-view-address-changes.md) 
 
 
 

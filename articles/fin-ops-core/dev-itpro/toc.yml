@@ -156,6 +156,8 @@
                           items:
                             - name: Sérstilling á vörpun eininga og reita
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: Unnið með mörg einingakort
+                              href: data-entities/dual-write/multiple-entity-maps.md
                             - name: Breyta lögaðila eftir uppsetningu tvöfaldra skrifa
                               href: data-entities/dual-write/edit-legal-entity.md
                             - name: Umsjón með villum og viðvörunartilkynningum
