@@ -68,6 +68,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: Kaupa Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: Leiðbeiningar fyrir innleiðingu Commerce Data Exchange
+                  href: dev-itpro/implementation-considerations-cdx.md
                 - name: Finance and Operations-forrit rekin af 21Vianet í Kína
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Finance and Operations-forrit í Frakklandi
@@ -178,7 +180,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Stofna og vinna með sérstillt svæði
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: Fella inn PowerApps forrit
+                - name: Fella inn Microsoft Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
                 - name: Leita að upplýsingum með uppflettingum
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
@@ -202,8 +204,14 @@
                   href: dev-itpro/retail-server-architecture.md
                 - name: Velja grannfræði í verslun
                   href: dev-itpro/retail-in-store-topology.md
-                - name: Commerce Data Exchange og samskipti viðskiptarásar
-                  href: dev-itpro/define-retail-channel-communications-cdx.md
+                - name: Commerce Data Exchange
+                  items:
+                    - name: Bestu starfsvenjur fyrir Commerce Data Exchange
+                      href: dev-itpro/CDX-Best-Practices.md
+                    - name: Commerce Data Exchange og samskipti viðskiptarásar
+                      href: dev-itpro/define-retail-channel-communications-cdx.md
+                    - name: Úrræðaleit fyrir Commerce Data Exchange
+                      href: dev-itpro/CDX-Troubleshooting.md
                 - name: Skipulag Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: Útgáfuskipulag netverslunar
@@ -514,13 +522,15 @@
                       href: payinvoice.md
                     - name: Vörn fyrir tvíteknar greiðslur
                       href: duplicate-payment-protection.md
-                    - name: Greiðsluyfirlit Omni-rásar
+                    - name: Greiðsluyfirlit samskiptamiðstöðvar
                       href: omni-channel-payments.md
+                    - name: Greiðslur Commerce-pöntunar í samskiptamiðstöð
+                      href: dev-itpro/commerce-payments.md
                     - name: Algengar spurningar um greiðslur
                       href: dev-itpro/payments-retail.md
                 - name: Stjórna Bing-kortum fyrir þitt fyrirtæki
                   href: dev-itpro/manage-bing-maps.md
-        - name: Markaðssetja afurðir þínar og þjónustu
+        - name: Markaðssetning á afurðunum þínum og þjónustu
           items:
             - name: 'Flokkar, afurðir og úrval'
               items:
@@ -534,9 +544,9 @@
                       href: retail-hierarchies.md
                     - name: Stofna nýtt afurðastigveldi
                       href: create-product-hierarchy.md
-                    - name: Stjórna afurðategundum og afurðum
+                    - name: Stjórna afurðaflokkum og afurðum
                       href: category-management-product-creation.md
-                    - name: Breyta röðun eininga markaðssetningar
+                    - name: Breyta röð smásölueininga
                       href: custom-order-categories-nav-retail-prod-hierarchy.md
                 - name: Afurðarvíddir
                   items:
@@ -758,8 +768,6 @@
               href: disable-consistency-check-rule.md
             - name: Breyta og endurskoða færslur smásöluverslunar
               href: edit-audit-retail-transactions.md
-            - name: 'Stofna, reikna og bóka uppgjör fyrir smásöluverslun'
-              href: tasks/create-calculate-post-statement-retail-store.md
             - name: Stofnun hlutastraumspöntunar fyrir færslur smásöluverslunar
               href: trickle-feed.md
             - name: 'Stofna, reikna og bóka uppgjör fyrir smásöluverslun'
@@ -1128,19 +1136,19 @@
           items:
             - name: Skýrslugerð og greiningar með Power BI
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/commerce/toc.json
-            - name: Aðgangsupplýsingar og skýrslugerð
+            - name: Aðgangur að upplýsingum og skýrslugerð
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/commerce/toc.json
-            - name: Aðlögunarkostir með PowerBI.com
+            - name: Aðlögunarkostir með Power BI
               items:
-                - name: Eiginleikar í boði í gegnum PowerBI.com-samþættingu
+                - name: Eiginleikar í boði í gegnum Power BI-samþættingu
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/commerce/toc.json
-                - name: Festa PowerBI.com-efni
+                - name: Festa Power BI-efni
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
-                - name: Velja greiningarsvæði úr PowerBI.com
+                - name: Velja greiningarvinnusvæði úr Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
             - name: Power BI-efni
               items:
-                - name: Power BI efni – heimasíða
+                - name: Heimasíða Power BI-efnis
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-home-page.md?toc=/dynamics365/commerce/toc.json
                 - name: Fræðsla
                   href: ../fin-ops-core/dev-itpro/analytics/learning-power-bi.md?toc=/dynamics365/commerce/toc.json
@@ -1174,7 +1182,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=dynamics/365/commerce/toc.json
                     - name: Setja upp nettengda prentara á staðnum
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Myndun, útgáfa og prentun fylgiskjala í uppsetningu á staðnum'
+                    - name: 'Myndun, útgáfa og prentun fylgiskjala í uppsetningu í innanhússumhverfi'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/commerce/toc.json
                     - name: Keyra eftirlitsbúnað skjalasendingar sem Windows-þjónustu
                       href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/dynamics365/commerce/toc.json
@@ -1188,7 +1196,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/commerce/toc.json
                 - name: Leysa vandamál að loknu viðhaldi einingaverslunar
                   href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
-                - name: Skilgreina PowerBI.com-samþættingu
+                - name: Skilgreina Power BI-samþættingu
                   href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/commerce/toc.json
                 - name: Nota eigin gagnagrunn
                   href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/commerce/toc.json
@@ -1202,7 +1210,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Bæta fjárhagsvíddum við uppsafnaðar mælingar
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: Stofna greiningarskýrslur með PowerBI Desktop
+                - name: Búa til greiningarskýrslur með Power BI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Bæta greiningu við vinnusvæði með Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
@@ -1366,7 +1374,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-mathematical.md?toc=/dynamics365/commerce/toc.json
                         - name: Abs
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-abs.md?toc=/dynamics365/commerce/toc.json
-                        - name: Veldi
+                        - name: Power
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-power.md?toc=/dynamics365/commerce/toc.json
                         - name: Round
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-round.md?toc=/dynamics365/commerce/toc.json
@@ -2048,7 +2056,7 @@
                   items:
                     - name: Skilgreiningar á pökkum og notkun þeirra í netumhverfi
                       href: e-commerce-extensibility/package-deploy.md
-                    - name: Uppfærslur á SDK og kjarnasafni
+                    - name: Uppfærslur fyrir SDK og byrjendaeiningu fyrir verslun
                       href: e-commerce-extensibility/sdk-updates.md
             - name: Retail SDK
               items:
@@ -2182,10 +2190,12 @@
               items:
                 - name: Stofna greiðslusamþættingu fyrir greiðslustöð
                   href: dev-itpro/end-to-end-payment-extension.md
-                - name: Uppsetning greiðslutengils og greiðslutækis (hvítur pappír)
+                - name: Uppsetning greiðslutengils og greiðslutækis (hvítbók)
                   href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
                 - name: Uppsetning greiðslutengla
                   href: dev-itpro/deploy-payment-connector.md
+                - name: Stigvaxandi upptaka fyrir reikningsfærslu í bakvinnslu
+                  href: dev-itpro/incremental-capture.md
                 - name: Stofna sérsniðin og staðbundin villuboð fyrir greiðslustöðvarviðbætur
                   href: dev-itpro/payment-custom-error-messages.md
                 - name: Stofna Windows-uppsetningarforrit fyrir greiðslutengla
