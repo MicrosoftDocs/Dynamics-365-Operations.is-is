@@ -130,6 +130,8 @@
                       items:
                         - name: Tvöföld skrif – heimasíða
                           href: data-entities/dual-write/dual-write-home-page.md
+                        - name: Nýjungar eða breytingar í tvöföldum skrifum
+                          href: data-entities/dual-write/whats-new-dual-write.md
                         - name: Tvöföld skrif – yfirlit
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: Tvöföld skrif – uppsetning
@@ -482,13 +484,13 @@
                       href: deployment/plan-onprem-deployment.md
                     - name: Kröfur um vélbúnaðarþörf
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                - name: Setja upp og virkja umhverfi á staðnum
+                - name: Setja upp og virkja innanhússumhverfi
                   items:
                     - name: Setja upp verk á staðnum í LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: Setja upp og virkja umhverfi á staðnum
+                    - name: Setja upp og virkja innanhússumhverfi
                       href: deployment/setup-deploy-on-premises-pu12.md
-                    - name: Uppsetningarskref fyrir hluta Retail-rásar í staðbundnu umhverfi
+                    - name: Uppsetningarskref fyrir hluta Retail-rásar í innanhússumhverfi
                       href: deployment/deploy-retail-onprem.md
                     - name: Þróa og virkja sérstillt líkön í innanhússumhverfi
                       href: deployment/develop-deploy-custom-models-on-premises.md
@@ -1472,6 +1474,8 @@
                   href: sysadmin/extensible-data-security-policies.md
                 - name: Stofna öryggisreglu
                   href: sysadmin/create-simple-security-policy.md
+            - name: Fylgja kröfum notendaleyfis
+              href: sysadmin/stay-compliant-user-license-requirement.md
             - name: Sjálfvirkni ferlis
               href: sysadmin/process-automation.md
             - name: Runuvinnsla

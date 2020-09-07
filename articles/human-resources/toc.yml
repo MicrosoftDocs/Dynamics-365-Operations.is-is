@@ -5,6 +5,8 @@
       items:
         - name: Nýjungar eða breytingar í Human Resources
           href: hr-admin-whats-new.md
+        - name: 20. ágúst 2020
+          href: hr-whats-new-2020-08-20.md
         - name: 6. ágúst 2020
           href: hr-whats-new-2020-08-06.md
         - name: 23. júlí 2020
@@ -78,13 +80,91 @@
             - name: Samþætt við Office
               items:
                 - name: Kennsla í Office-samþættingu
-                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/human-resources/toc.json
                 - name: Uppfæra einingagögn í Excel
-                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Búa til „Opna í Excel“-upplifanir
-                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/human-resources/toc.json
+                - name: Búa til „Opna í Excel“ upplifanir
+                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/human-resources/toc.json
                 - name: Nota úrræðaleit fyrir Office-samþættingu
-                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/human-resources/toc.json
+        - name: Skilgreina gagnastjórnun
+          items:
+            - name: Yfirlit gagnastjórnunarramma
+              href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/human-resources/toc.json
+            - name: Gagnaeiningar
+              items:
+                - name: Yfirlit gagnaeininga
+                  href: ../dev-itpro/data-entities/data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skilgreiningargagnaverk
+                  href: ../dev-itpro/data-entities/configuration-data-projects.md?toc=/dynamics365/human-resources/toc.json
+                - name: Afritun skilgreiningargagna á milli fyrirtækja eða lögaðila
+                  items:
+                    - name: Yfirlit yfir afritun skilgreiningargagna
+                      href: ../dev-itpro/data-entities/copy-configuration.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Skilgreiningargagnapakkar
+                      href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Skilgreiningargagnapakkar (aðeins útgáfa frá júlí 2017)
+                      href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+                - name: Sniðmát skilgreiningargagna
+                  href: ../dev-itpro/data-entities/configuration-data-templates.md?toc=/dynamics365/human-resources/toc.json
+                - name: Rekja breytingar til einingar
+                  href: ../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/human-resources/toc.json
+                - name: Finna upplýsingar um staðlaðar gagnaeiningar
+                  href: ../dev-itpro/data-entities/data-entities-report.md?toc=/dynamics365/human-resources/toc.json
+                - name: Gagnasniðmát með mörgum vinnublöðum
+                  href: ../dev-itpro/data-entities/excel-template-multiple.md?toc=/dynamics365/human-resources/toc.json
+                - name: Virkja rakningarbreytingu fyrir einingar
+                  href: ../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skilgreiningarlyklar og gagnaeiningar
+                  href: ../dev-itpro/data-entities/config-key-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: Skilgreiningargagnapakkar
+                  href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/human-resources/toc.json
+            - name: Inn- og útflutningsvinnsla gagna
+              items:
+                - name: Yfirlit yfir inn- og útflutningsvinnslu gagna
+                  href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/dynamics365/human-resources/toc.json
+                - name: Bestu starfsvenjur fyrir innflutning fylgiskjala með almennri færslubókareiningu
+                  href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/dynamics365/human-resources/toc.json
+            - name: Þróun fyrir gagnaeiningar
+              items:
+                - name: Hanna reglur og bestu starfsvenjur fyrir gagnaeiningar
+                  href: ../dev-itpro/dev-tools/design-best-practices.md?toc=/dynamics365/human-resources/toc.json
+                - name: Stofna nýjar gagnaeiningar
+                  href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: Eiginleikar gagnaeiningar
+                  href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: Stofna útreiknaða dálka og sýndarreiti
+                  href: ../dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=/dynamics365/human-resources/toc.json
+                - name: Hegðun á milli fyrirtækja
+                  href: ../dev-itpro/data-entities/cross-company-behavior.md?toc=/dynamics365/human-resources/toc.json
+                - name: Meðhöndlun lands-/svæðiskóða
+                  href: ../dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=/dynamics365/human-resources/toc.json
+                - name: Erfðamynstur
+                  href: ../dev-itpro/data-entities/support-super-type-sub-type.md?toc=/dynamics365/human-resources/toc.json
+                - name: Reglur leiðsagnarforrits gagnaeiningar
+                  href: ../dev-itpro/data-entities/data-entity-wizard-rules.md?toc=/dynamics365/human-resources/toc.json
+                - name: Eiginleikar lýsigagna
+                  href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: 'Villuleitir, sjálfgildi og óvarpaðir reitir'
+                  href: ../dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=/dynamics365/human-resources/toc.json
+                - name: Öryggi og gagnaeiningar
+                  href: ../dev-itpro/data-entities/security-data-entities.md?toc=/dynamics365/human-resources/toc.json
+                - name: Nota þjónustuprófunarverkfæri þriðja aðila
+                  href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/human-resources/toc.json
+                - name: Búa til skrifvarðar einingar sem sýna fjárhagsvíddir
+                  href: ../dev-itpro/financial/read-only-entity-financial.md?toc=/dynamics365/human-resources/toc.json
+            - name: Nota eigin gagnagrunn
+              href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/human-resources/toc.json
+            - name: Fínstilla BYOD-runuvinnslur
+              href: hr-admin-integration-byod-batch-jobs.md
+            - name: Sjálfvirk uppfærsla einingaverslunar
+              href: ../dev-itpro/analytics/automated-entity-store-refresh.md?toc=/dynamics365/human-resources/toc.json
+            - name: Sjálfvirk verkgögn
+              href: ../dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/human-resources/toc.json
+            - name: Vinnusvæði gagnaprófunargátlista
+              href: ../dev-itpro/user-interface/data-validation-workspace.md?toc=/dynamics365/human-resources/toc.json
+            - name: Villulýsingar gagnastjórnunar
+              href: ../dev-itpro/data-entities/dm-error-descriptions.md?toc=/dynamics365/human-resources/toc.json
         - name: Vinna með eiginleika
           href: hr-admin-manage-features.md
         - name: Skilgreina og stjórna gagnagrunnsskráningu
@@ -535,10 +615,12 @@
               href: hr-employee-self-service-manage-requests.md
             - name: Biðja um frí
               href: hr-employee-self-service-request-time-off.md
-            - name: Skoða dagbækur hóps og fyrirtækis
+            - name: Skoða dagatöl hóps og fyrirtækis
               href: hr-employee-self-service-calendar.md
             - name: Stjórna reglum fyrir kaup og sölu á leyfisdögum
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
+            - name: Búa til verkflæði fyrir kaup og sölu leyfisdaga
+              href: hr-leave-and-absence-buy-sell-workflow.md
             - name: Kaupa og selja leyfisdaga
               href: hr-employee-self-service-buy-sell-leave.md
         - name: Stjórna leyfisbeiðnum í Teams
