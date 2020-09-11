@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 41b0faa7ef24bdae229f7e6760d22357cb87eb0d
-ms.sourcegitcommit: 7b7cc93c0f78c6bfc7a3ea66a74a29ba0f218553
+ms.openlocfilehash: 03cb68ede82668523e6970d33df676738e65fd83
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3658359"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719215"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Sérstakar greiðslustöðvar og kvaðningar fyrir prentara og peningaskúffu
 
@@ -78,8 +78,8 @@ Til að setja upp vélbúnaðarreglu sem úthlutað er á afgreiðslukassa skal 
 
     | Tæki | Gerð | Nafn tækis | Frekari upplýsingar |
     |---|---|---|---|
-    | Prentari | Til vara | **Epson** eða **Star** | Heiti tækis er stafrétt. **Forstillingarkenni kvittunar** ætti að vera það sama og **Forstillingarkenni kvittunar** sem er varpað í nettengdan prentara sem er uppsettur í vélbúnaðarreglunni sem úthlutað er á vélbúnaðarstöðina á stigi rásar. |
-    | Peningaskúffa | Til vara | **Epson** eða **Star** | Heiti tækis er stafrétt. Stillið **Notaðu samnýtta vakt** valkostinn á **Já**. |
+    | Prentari | Til vara | *Hvaða sem er* | Heiti tækis er stafrétt. **Forstillingarkenni kvittunar** ætti að vera það sama og **Forstillingarkenni kvittunar** sem er varpað í nettengdan prentara sem er uppsettur í vélbúnaðarreglunni sem úthlutað er á vélbúnaðarstöðina á stigi rásar. |
+    | Peningaskúffa | Til vara | *Hvaða sem er* | Heiti tækis er stafrétt. Stillið **Notaðu samnýtta vakt** valkostinn á **Já**. |
     | Kortamillifærsla | Adyen | Ekki tiltækt | Frekari upplýsingar um hvernig setja á upp tilbúinn Adyen-tengil er að finna í [Greiðslutengill Dynamics 365 fyrir Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Aðra greiðslutengla er hægt að styðja í gegnum [Hugbúnaðarþróunarpakka Commerce fyrir greiðslur](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension). |
     | PIN-takkaborð | Net | **MicrosoftAdyenDeviceV001** | Ekkert. |
 
@@ -103,7 +103,7 @@ Til að setja upp vélbúnaðarreglu sem er notuð til að flokka nettengda kvit
     | Tæki | Gerð | lýsing | Frekari upplýsingar |
     |---|---|---|---|
     | Prentari | Net | **Epson** eða **Star** | Heiti tækis er stafrétt. **Forstillingarkenni kvittunar** ætti að vera það sama og **Forstillingarkenni kvittunar** sem er varpað í prentara sem er uppsettur í vélbúnaðarreglunni sem úthlutað er á afgreiðslukassann. |
-    | Peningaskúffa | Til vara | **Epson** eða **Star** | Heiti tækis er stafrétt. stillið **Notaðu samnýtta vakt** valkostinn á **Já**. |
+    | Peningaskúffa | Net | **Epson** eða **Star** | Heiti tækis er stafrétt. stillið **Notaðu samnýtta vakt** valkostinn á **Já**. |
 
 5. Veljið **Vista**.
 

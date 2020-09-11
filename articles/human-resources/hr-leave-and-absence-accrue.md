@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f045cb7ab9f5e7aa4259f29e1b026f110425c236
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 43c16c5d0de91bf1f433f4fde36e7d13775f44a0
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429060"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712166"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Uppsöfnunaráætlanir fyrir leyfi og fjarvistir
 
@@ -37,7 +37,9 @@ ms.locfileid: "3429060"
 
 3. Valmyndin **Uppsöfnunaráætlanir fyrir leyfi og fjarvistir** birtist. Í **Safna upp frá og með** velurðu annaðhvort **Dagurinn í dag** eða **Sérsniðin dagsetning** og slærð inn sérsniðna dagsetningu.
 
-4. Ef þú vilt keyra uppsöfnunarferlið í bakgrunni skaltu velja **Keyra í bakgrunni** og framkvæma eftirfarandi verk:
+4. Ef ætlunin er að keyra uppsöfnun fyrir öll fyrirtæki skal velja **Öll fyrirtæki**. Ef ætlunin er eftir að vinna úr uppsöfnun fyrir eina leyfisáætlun skal velja **Nei** fyrir **Allar áætlanir** og velja svo **Leyfisáætlun**. Ef öll fyrirtæki eru valin er ekki hægt að velja staka leyfisáætlun. 
+
+5. Ef þú vilt keyra uppsöfnunarferlið í bakgrunni skaltu velja **Keyra í bakgrunni** og framkvæma eftirfarandi verk:
 
    1. Færið inn upplýsingar fyrir uppsöfnunarferlið.
 
@@ -55,7 +57,9 @@ ms.locfileid: "3429060"
 
 3. Valmyndin **Uppsöfnunaráætlanir fyrir leyfi og fjarvistir** birtist. Í **Safna upp frá og með** velurðu annaðhvort **Dagurinn í dag** eða **Sérsniðin dagsetning** og slærð inn sérsniðna dagsetningu.
 
-4. Ef þú vilt keyra uppsöfnunarferlið í bakgrunni skaltu velja **Keyra í bakgrunni** og framkvæma eftirfarandi verk:
+4. Ef ætlunin er að keyra uppsöfnun fyrir öll fyrirtæki skal velja **Öll fyrirtæki**. Ef ætlunin er eftir að vinna úr uppsöfnun fyrir eina leyfisáætlun skal velja **Nei** fyrir **Allar áætlanir** og velja svo **Leyfisáætlun**. Ef öll fyrirtæki eru valin er ekki hægt að velja staka leyfisáætlun. 
+
+5. Ef þú vilt keyra uppsöfnunarferlið í bakgrunni skaltu velja **Keyra í bakgrunni** og framkvæma eftirfarandi verk:
 
    1. Færið inn upplýsingar fyrir uppsöfnunarferlið.
 
@@ -102,18 +106,6 @@ Eyða rekstrarreikningum fyrir ákveðna áætlun og tímabil. Uppsöfnunardagse
 1. Á síðunni **Leyfi og fjarvera** velurðu flipann **Tenglar**.
 
 2. Undir **Stjórna leyfi**, veldu **Eyða úttekt leyfisuppsöfnunar**.
-
-## <a name="configure-preview-features"></a>Stilla forskoðunareiginleika
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-Ef þú hefur gert forskoðunareiginleika virka fyrir leyfi og fjarveru þarftu líka að stilla stillingar fyrir þá.
-
-### <a name="accrue-leave-per-company-or-per-leave-plan"></a>Uppsafnað leyfi á fyrirtæki eða leyfisáætlun
-
-Þegar leyfi og fjarveru er safnað saman er hægt að velja um að safna saman fyrir öll fyrirtæki. Ef öll fyrirtæki eru valin er ekki hægt að velja stakar leyfisáætlanir. Ef valið er að safna ekki öllum fyrir öll fyrirtæki er hægt að safna fyrir tiltekna leyfisáætlun. 
-
-Þessir valmöguleikar eru í boði þegar uppsöfnun er fyrir alla starfsmenn eða einstaka starfsmenn. 
 
 ## <a name="see-also"></a>Sjá einnig
 

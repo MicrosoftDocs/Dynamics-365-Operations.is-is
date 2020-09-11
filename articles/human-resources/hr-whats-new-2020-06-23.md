@@ -1,6 +1,6 @@
 ---
 title: Nýjungar eða breytingar í Dynamics 365 Human Resources (25. júní 2020)
-description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources.
+description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 23. júní 2020.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/25/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fa02cf10b2b4fe08440d3641472e83dfe58169c9
-ms.sourcegitcommit: 81296c49be9953aa01e15527c34d0ef13b4622a9
+ms.openlocfilehash: d9787df5f36c1f08ade40e3e8fc5d5189e3bd5b0
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3614387"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711941"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Nýjungar eða breytingar í Dynamics 365 Human Resources (23. júní 2020)
 
@@ -88,7 +88,7 @@ Sum fyrirtæki bjóða upp á fríðindi sem gera starfsmönnum kleift að kaupa
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Uppsafnað leyfi fyrir eitt fyrirtæki eða eina áætlun
 
-Viðskiptavinir geta unnið úr uppsöfnunum fyrir eitt fyrirtæki eða eina áætlun leyfis og fjarveru. Þessi möguleiki varpar betra ljósi á uppsöfnunarferlið yfir viðskiptavini með mismunandi reglur fyrir leyfisár eða leyfisuppsöfnun. Frekari upplýsingar er að finna í [Uppsafnað leyfi á fyrirtæki eða leyfisáætlun](hr-leave-and-absence-accrue.md#accrue-leave-per-company-or-per-leave-plan).
+Viðskiptavinir geta unnið úr uppsöfnunum fyrir eitt fyrirtæki eða eina áætlun leyfis og fjarveru. Þessi möguleiki varpar betra ljósi á uppsöfnunarferlið yfir viðskiptavini með mismunandi reglur fyrir leyfisár eða leyfisuppsöfnun. Frekari upplýsingar er að finna í [Uppsafnað leyfi á fyrirtæki eða leyfisáætlun](hr-leave-and-absence-accrue.md).
 
 ## <a name="add-attachments-to-time-off-requests"></a>Bæta viðhengjum við fríbeiðnir
 

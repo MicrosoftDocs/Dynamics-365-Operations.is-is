@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2019-10-14
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5006f06d90ddcc314a51878e9e21337de7d493e7
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 079c8d23250368c92e5d79f0e2624f8340db2077
+ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208464"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "3699537"
 ---
 # <a name="hazardous-materials"></a>Hættuleg efni
 
@@ -35,7 +35,7 @@ Upplýsingar um hættuleg efni eru sett upp í upplýsingastjórnun afuðar. Þe
 Þegar þú sendir efni sem eru flokkuð sem hættuleg vara verður að fylgja viðbótar pappírsvinnu með sendingum. Virkni hættulegra efna skulum við geyma viðskiptavini um flokkunarupplýsingar og tengjast þeim til að gefa út hluti. Þessar upplýsingar er síðan hægt að nota til að undirbúa flutningsgögn.
 
 > [!IMPORTANT]
-> Til að hjálpa til við að stjórna sendingum af hættulegum varningi, Microsoft Dynamics 365 Supply Chain Management gerir þér kleift að setja upp viðbótarviðmiðunarupplýsingar sem tengjast vörum. Þú getur einnig sett upp fleiri sendingar skjöl. Hins vegar er kerfið ekki sjálfkrafa í samræmi við reglugerðir lands eða lands. Í staðinn er það tæki sem getur hjálpað heildarforritinu þínu.
+> Eiginleikar hættulegra efna í Microsoft Dynamics 365 Supply Chain Management bjóða upp á safn af gagnlegum reitum afurðarupplýsinga og tengdrar virkni sem getur hjálpað til við að skrá og vísa í upplýsingar sem tengjast hættulegum afurðum þínum. Þessir eiginleikar geta einnig hjálpað þér að hanna og prenta afhendingarskjöl sem innihalda einhverjar sömu upplýsingar um öll hættuleg efni sem þú ert að afhenda. Kerfið mun hins vegar ekki láta þig sjálfkrafa fylgja eftir öllum viðeigandi reglugerðum í landinu eða svæðinu þínu. Þótt þessum verkfærum sé ætlað að hjálpa til við að fylgja sameiginlegum reglugerðum eru þær hvorki nægilegar út af fyrir sig né tryggja að svo verði gert. Fyrirtækið þitt ber ábyrgð á því að gera sér grein fyrir öllum viðeigandi reglugerðum og gera allar nauðsynlegar ráðstafanir til að fylgja þeim eftir.
 
 Áður en þú getur notað þessa aðgerð er eftirfarandi uppsetning nauðsynleg:
 

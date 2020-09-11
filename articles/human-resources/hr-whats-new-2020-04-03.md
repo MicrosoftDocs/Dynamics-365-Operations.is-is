@@ -1,6 +1,6 @@
 ---
 title: Hvað er nýtt eða breytt í Dynamics 365 Human Resources (3. apríl 2020)
-description: Þessi grein lýsir nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources.
+description: Í þessari grein er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Human Resources fyrir 3. apríl 2020.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 02243b2c75a4f50683a51c1d9d811f2e2a2d413f
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: 03fe38c8e2a8de6957cdc1adf5e89d7d0421d997
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555052"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712491"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-3-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Human Resources (3. apríl 2020)
 

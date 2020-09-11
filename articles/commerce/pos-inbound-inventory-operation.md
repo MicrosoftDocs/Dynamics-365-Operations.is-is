@@ -3,7 +3,7 @@ title: Innleið birgðaaðgerð í POS
 description: Þetta efni lýsir getu sölustaðar (POS) á heimleið birgðaaðgerð.
 author: hhaines
 manager: annbe
-ms.date: 07/27/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: aba4f2d7932ebc3a0129f04c60c8b6358da68c64
-ms.sourcegitcommit: 0aabe4157f82d8c59dd2d285ab0b33f3c8ec5bbc
+ms.openlocfilehash: 16a786a4b3ca1bcbd202f6753bdf3bf7233a4333
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3627539"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710310"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Innleið birgðaaðgerð í POS
 
@@ -143,6 +143,20 @@ Aðgerðin virðir stillingar **Auð innhreyfing heimil** á geymsluvíddina **S
 ### <a name="receive-all"></a>Taka við öllu
 
 Þú getur valið eins og þú þarft **Taka við öllu** á forritastikunni til að uppfæra fljótt magnið **Móttekið núna** fyrir allar skjalalínur að hámarksgildi sem er tiltækt til móttöku fyrir þessar línur.
+
+### <a name="receipt-of-unplanned-items-on-purchase-orders"></a>Kvittun fyrir móttöku óáætlaðra atriða í innkaupapöntunum
+
+Í Commerce útgáfu 10.0.14 og nýrri geta notendur tekið á móti vöru sem ekki var upphaflega á innkaupapöntuninni. Til að virkja þennan valkost skaltu kveikja á **Bæta línum við innkaupapöntun við móttöku sölustaðar**.  
+
+Þessi eiginleiki virkar aðeins fyrir móttöku innkaupapantana. Ekki er hægt að taka á móti vörum gegn flutningspöntunum þegar vörur voru ekki áður pantaðar og sendar úr vöruhúsi á útleið.
+
+Notendur geta ekki bætt nýjum afurðum við innkaupapöntunina meðan á móttöku á sölustað stendur ef innkaupapöntun [breyta verkflæði](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) er virkjuð í Commerce Headquarters (HQ). Til að virkja breytingastjórnun verður fyrst að samþykkja allar breytingar á innkaupapöntun áður en móttaka er leyfð. Vegna þess að þetta ferli gerir viðtakanda kleift að bæta nýjum línum við innkaupapöntunina mun móttaka mistakast ef verkflæði breytingarstjórnunar er virkt. Ef breytingastjórnun er virkjuð fyrir allar innkaupapantanir eða lánardrottinn sem tengist innkaupapöntuninni sem tekið er á móti í sölustað getur notandinn ekki bætt nýjum afurðum við innkaupapöntunina við móttöku í sölustað.
+
+Ekki er hægt að nota eiginleikann sem bætir við línum til að taka á móti viðbótarmagni afurða sem eru þegar á innkaupapöntuninni. Umframmóttöku er stjórnað í gegnum staðlaða stillingar [umframmóttöku](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) fyrir vörulínuna á innkaupapöntuninni.
+
+Ef **Bæta línum við innkaupapöntun við móttöku sölustaðar** er virkt og notandi tekur á móti með **Aðgerð á innleið** á sölustað, ef notandi skannar eða slær inn strikamerki eða vörunúmer sem ekki hefur verið skráð sem vara á innkaupapöntuninni, en er viðurkennd sem gild vara, fær notandinn skilaboð um að bæta vörunni við innkaupapöntunina. Ef notandinn bætir vörunni við innkaupapöntunina er magnið sem fært er inn í **Móttaka núna** talið pöntunarmagn fyrir innkaupapöntunarlínuna.
+
+Þegar innkaupapöntunarkvittunin er tilbúin og hún send inn til HQ fyrir vinnslu eru viðbótarlínur stofnaðar í aðalskjali innkaupapöntunar. Á innkaupapöntunarlínunni í HQ verður **Bætt við af móttöku sölustaðar** flagg á flipanum **Almennt** á innkaupapöntunarlínunni. **Bætt við af móttöku sölustaðar** flaggið gefur til kynna að innkaupapöntunarlínunni hafi verið bætt við móttökuferli sölustaðarins og hafi ekki verið lína sem var á innkaupapöntuninni á undan móttöku.
 
 ### <a name="cancel-receiving"></a>Hætta við móttöku
 

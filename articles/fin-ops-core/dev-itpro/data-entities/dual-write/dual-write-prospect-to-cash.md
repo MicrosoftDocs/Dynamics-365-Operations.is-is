@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: b10e5f0fe97e65ad380e85815c56e88a3ce4e303
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: a2ca0ce277a062c8d525b6a3619eaf1b0114667b
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443896"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719265"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Viðfang til sjóðstreymis í tvískiptingu
 
@@ -79,7 +79,7 @@ Ef þú notar líka Field Service-lausnina skaltu vertu viss um að virkja færi
 
 Sölupantanir má stofna í annaðhvort Sales eða Supply Chain Management. Ef þú býrð til sölupöntun í Sales er það samstillt við Supply Chain Management í rauntíma. Eins ef þú býrð til sölupöntun í Supply Chain Management er hún samstillt við Sales í rauntíma. Athugið eftirfarandi stig:
 
-+ Þú getur aðeins virkjað og samstillt pantanir frá Sölu ef allar vörur í pöntuninni koma úr forritum Finance and Operations. Þess vegna geta ekki vörur ekki verið innskriftarvörur.
++ Skráningarvörur á Dynamics 365 Sales munu birtast sem vöruflokkar í Dynamics 365 Supply Chain Management.
 + Afsláttarútreikningur og sléttun:
 
     - Útreikningur útreikningslíkansins í Sales er frábrugðin útreikningslíkaninu í Supply Chain Management. Í Supply Chain Management má endanlega afsláttarverð á sölulínu vera niðurstaða af samsetningu af afslætti og afsláttarhlutföllum. Ef lokaafsláttarupphæð er skipt eftir magni sem er á línunni, getur sléttun átt sér stað. Hins vegar er sléttunin ekki talin með ef afsláttarupphæð á einingu er samstillt við Sales. Til að tryggja að öll afsláttarupphæðin úr sölulínu í Supply Chain Management sé rétt samstillt við Sales verður heildarupphæðin að vera samstillt án þess að vera skipt eftir líumagni. Þess vegna verður þú að skilgreina afsláttarreikningsaðferðina sem **Línuvara** í Sales.

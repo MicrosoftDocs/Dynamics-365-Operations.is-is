@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87d1217204e0c5cb22f567793b043bf399ca5685
-ms.sourcegitcommit: b07434f2bd6db67d8dd712f096329acc902751ae
+ms.openlocfilehash: a6fdc7b8d7ad65c9e4bf1d3b932b62918dea6e77
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699370"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710260"
 ---
 # <a name="customer-orders-in-modern-pos-mpos"></a>Pantanir viðskiptavinar í Modern POS (MPOS)
 
@@ -54,7 +54,10 @@ Hér eru nokkrar af færibreytur sem hægt er að stilla á síðunni **Commerce
     - Gjöld eru jafnað á stigi sölupöntunarhauss, og þegar sumu magni afurðarlínu er skilað, er ekki hægt að ákvarða hámarksendurgreiðslu sendingargjalda sem er leyfileg fyrir afurðir og magn á þann hátt sem virkar fyrir alla viðskiptavini.
     - Stofnað er til sendingargjalda fyrir hvert tilvik sendingar. Ef viðskiptavinur skilar afurð mörgum sinnum og stefna smásala tilgreinir að smásalinn beri kostnað af gjöldum skilasendingar, verða sendingargjöld skila meiri en raunveruleg sendingargjöld.
     
-- **Hegðun skattaútreiknings** - **Endurreikna** er sjálfgefin og hefðbundin stilling á því hvernig skattar eru endurreiknaðir þegar pöntunin er flutt inn í bakvinnsluna. **Ekki endurreikna** slekkur á endurútreikningi skatts þangað til eða nema pöntuninni sé breytt í bakvinnslunni þegar endurútreikningur er ræstur. 
+
+## <a name="disable-option-to-pay-later"></a>Gera valkost um að greiða síðar óvirkan
+
+Í Commerce, útgáfu 10.0.12 og síðar, geta söluaðilar fjarlægt valkostinn um að greiða síðar þegar pöntun viðskiptavinar er stofnuð á sölustaðnum. Til að gera valkostinn óvirkan skal opna **Virkniregluna** fyrir rásina þar sem ekki er leyft að greiða síðar og velja síðan **Breyta**. Í flipanum **Almennt** skal velja fellilistann fyrir **Krefjast greiðslu fyrir uppfyllingu**. Ef ekki á að leyfa á sölustað að greiða síðar skal velja **Kort er áskilið** og velja **Vista**. Keyrið dreifingaráætlun **1070** til að samstilla þessa breytingu við rásina. 
 
 ## <a name="transaction-flow-for-customer-orders"></a>Færsluflæði fyrir pantanir viðskiptavinar
 
