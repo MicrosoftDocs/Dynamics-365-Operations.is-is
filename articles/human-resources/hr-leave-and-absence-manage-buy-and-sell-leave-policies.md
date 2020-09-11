@@ -3,7 +3,7 @@ title: Stjórna reglum fyrir kaup og sölu á leyfisdögum
 description: Hægt er að gera starfsmönnum kleift að kaupa og selja leyfisdaga í Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,24 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 859445f2b6e980b5960e512e69129f6a8fc6df2b
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 55d29c42cc1b2d69517e2fcd458ee6a1bdf5277f
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429014"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712113"
 ---
 # <a name="manage-buy-and-sell-leave-policies"></a>Stjórna reglum fyrir kaup og sölu á leyfisdögum
 
-[!include [banner](includes/preview-feature.md)]
-
-Hægt er að gera starfsmönnum kleift að kaupa leyfisdaga með því að búa til reglu um kaup á leyfisdögum.  
+Hægt er að gera starfsmönnum kleift að kaupa og selja leyfisdaga með því að búa til reglu um kaup og sölu á leyfisdögum. Hægt er að skilgreina þessar reglur til að nota verkflæði fyrir samþykktir, stilla hámarksfjárhæðir og taxta og stilla taxta fyrir kaup og sölur. 
 
 ## <a name="enable-employees-to-buy-and-sell-leave"></a>Gera starfsmönnum kleift að kaupa og selja leyfisdaga
 
-1. Á síðunni **Færibreytur leyfis og fjarvista** skal velja **Já** fyrir **Leyfa starfsmönnum að kaupa leyfisdaga**. 
+1. Á síðunni **Færibreytur leyfis og fjarvista** skal velja **Já** fyrir **Leyfa starfsmönnum að kaupa leyfisdaga** og **Leyfa starfsmönnum að selja leyfisdaga**.
 
-## <a name="create-a-buy-leave-policy"></a>Búa til reglu um kaup á leyfisdögum
+## <a name="create-a-buy-and-sell-leave-policy"></a>Búa til reglu um kaup og sölu leyfisdaga
 
 1. Á síðunni **Leyfi og fjarvera** velurðu flipann **Tenglar**. 
 
@@ -51,19 +49,23 @@ Hægt er að gera starfsmönnum kleift að kaupa leyfisdaga með því að búa 
 
 6. Veljið **Upphafsdagsetning** og **Lokadagsetning** fyrir regluna. Beiðnir um að kaupa eða selja leyfi verða aðeins í boði fyrir innsendingu á þessum tímaramma. 
 
-7. Undir **Regla um kaup** skal velja **Jafngildi fulls starfs** (JFS) til að hlutfallsskipta hámarksfjöldanum samkvæmt JFS sem skilgreint er fyrir stöðu starfsmanns. Ef gerð reglunnar er **Fjöldi** skal slá inn **Fastur hámarksfjöldi**. 
+7. Veljið **Kenni verkflæðis** fyrir regluna. Allar beiðnir um kaup og sölur munu nota þetta verkflæði fyrir yfirferð og samþykki. 
 
-8. Veljið **Bæta við** til að bæta við leyfisgerðum fyrir starfsmenn til að kaupa leyfisdaga. Hægt er að bæta við mörgum leyfisgerðum í regluna. 
+8. Undir **Regla um kaup** skal velja **Jafngildi fulls starfs** (JFS) til að hlutfallsskipta hámarksfjöldanum samkvæmt JFS sem skilgreint er fyrir stöðu starfsmanns. Ef gerð reglunnar er **Fjöldi** skal slá inn **Fastur hámarksfjöldi**. 
 
-9. Færið inn **Starfsaldur í mánuðum** fyrir leyfisgerðina til að virkja mismunandi starfsaldur í mánuðum til að ákveða hámarksfjölda sem starfsmaður getur keypt. 
+9. Veljið **Bæta við** til að bæta við leyfisgerðum fyrir starfsmenn til að kaupa leyfisdaga. Hægt er að bæta við mörgum leyfisgerðum í regluna. 
 
-10. Færið inn **Hámarksfjöli** fyrir leyfisgerðina. 
+10. Færið inn **Starfsaldur í mánuðum** fyrir leyfisgerðina til að virkja mismunandi starfsaldur í mánuðum til að ákveða hámarksfjölda sem starfsmaður getur keypt. 
 
-11. Færið inn **Taxti** sem starfsmaður mun kaupa leyfisdaga á. 
+11. Færið inn **Hámarksfjöli** fyrir leyfisgerðina. 
 
-12. Einnig er hægt að færa inn **Tekjukóði** til að nota við kaup á leyfisdögum. 
+12. Færið inn **Taxti** sem starfsmaður mun kaupa leyfisdaga á. 
 
-13. Valfrjálst er að stilla hvort nota eigi JFS til að ákveða hámarksfjölda fyrir leyfisgerðina. 
+13. Einnig er hægt að færa inn **Tekjukóði** til að nota við kaup á leyfisdögum. 
+
+14. Valfrjálst er að stilla hvort nota eigi JFS til að ákveða hámarksfjölda fyrir leyfisgerðina. 
+
+15. Til að búa til reglu um sölu skal fylgja skrefum 8 til 14 undir **Söluregla**. 
 
 ## <a name="add-the-buy-and-sell-leave-policy-to-a-leave-and-absence-plan"></a>Bæta reglu um kaup og sölu á leyfisdögum við leyfis- og fjarveruáætlun
 

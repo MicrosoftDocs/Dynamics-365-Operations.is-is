@@ -3,7 +3,7 @@ title: VALUEIN ER-aðgerð
 description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin VALUEIN í rafrænni skýrslugerð (ER) er notuð.
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0df97234df41d11897473dea4e85354e82d36ec
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 44459ae56891a08eb11a6c254f4b4d5652a0e693
+ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041700"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3705120"
 ---
-# <a name="VALUEIN">VALUEIN ER-aðgerð</a>
+# <a name=""></a><a name="VALUEIN">VALUEIN ER-aðgerð</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -59,7 +59,7 @@ Gild skilyrðisbundið segð sem annaðhvort bendir á eða inniheldur stakan re
 
 ## <a name="usage-notes"></a>Notkunarbréf
 
-Almennt er virknin `VALUEIN` þýdd yfir í sett af **OR** skilyrðum.
+Almennt er virknin `VALUEIN` þýdd yfir í sett af **OR** skilyrðum. Ef listinn yfir **EÐA** skilyrði er stór og hugsanlega er farið yfir samtals hámarkslengd SQL-skipunar, skal íhuga að nota aðgerðina [`VALUEINLARGE`](er-functions-logical-valueinlarge.md).
 
 ```vb
 (input = list.item1.value) OR (input = list.item2.value) OR …
@@ -77,13 +77,13 @@ SQLÍ sumum tilvikum er hægt að þýða það yfir í SQL-skipun gagnagrunns m
 
 Efri mörkin fyrir fjölda stafa í texta slíks ástands eru 32.768 stafir. Þess vegna ættir þú ekki að búa til gagnaveitur sem kunna að fara yfir þessi mörk við keyrslu. Ef farið er yfir mörkin mun forritið stöðvast og undantekning er gerð. Til dæmis getur þetta ástand komið fram ef gagnaveitan er skilgreind sem `WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)` og listarnir **List1** og **List2** innihalda mikið magn af færslum.
 
-Í sumum tilfellum er `VALUEIN` þýtt í gagnagrunnsstreng með því að nota `EXISTS JOIN` virknitáknið. Þessi hegðun kemur fram þegar [FILTER](er-functions-list-filter.md) virknin er notuð og eftirfarandi skilyrði eru uppfyllt:
+Í sumum tilfellum er `VALUEIN` þýtt í gagnagrunnsstreng með því að nota `EXISTS JOIN` virknitáknið. Þessi hegðun kemur fram þegar [`FILTER`](er-functions-list-filter.md) virknin er notuð og eftirfarandi skilyrði eru uppfyllt:
 
 - Slökkt er á valkostinum **ASK FOR QUERY** fyrir gagnagjafa aðgerðarinnar `VALUEIN` sem vísar til lista yfir skrár. Engum viðbótarskilyrðum verður beitt á þessum gagnaveitum meðan á keyrslu stendur.
 - Engar faldaðar segðir eru stilltar fyrir gagnaveituna `VALUEIN` aðgerðina sem vísar til listans yfir skrár.
 - Listaatriði `VALUEIN` aðgerðarinnar vísar til reitar af tilgreindri gagnaveitu, ekki til segðar eða aðferðar þeirrar gagnaveitu.
 
-Íhugaðu að nota þennan valkost í staðinn fyrir [WHERE](er-functions-list-where.md) aðgerðina sem er lýst hér að framan í þessu dæmi.
+Íhugaðu að nota þennan valkost í staðinn fyrir [`WHERE`](er-functions-list-where.md) aðgerðina sem er lýst hér að framan í þessu dæmi.
 
 ## <a name="example-2"></a>Dæmi 2
 
@@ -117,4 +117,6 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Rökvirkni](er-functions-category-logical.md)
+[Rökfræðiaðgerðir](er-functions-category-logical.md)
+
+[VALUEINLARGE aðgerðir](er-functions-logical-valueinlarge.md)

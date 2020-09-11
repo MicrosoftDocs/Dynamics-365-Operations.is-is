@@ -3,7 +3,7 @@ title: Yfirsýn yfir sjálfsafgreiðslu starfsmanna og stjórnanda
 description: Þessi grein veitir yfirlit yfir vinnusvæði starfsmanna og stjórnenda.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5934b6a1a1a8aa30aa18d9be26845c84acfa2fd0
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: fd642d0976c607b47a7874d0771e441153272ec9
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429797"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712233"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Yfirlit yfir sjálfsafgreiðslu starfsmanns og stjórnanda
 
@@ -32,6 +32,25 @@ ms.locfileid: "3429797"
 ## <a name="edit-personal-details"></a>Breyta persónuupplýsingum
 
 Ef þú þarft að bæta við eða breyta persónulegum upplýsingum, sjáðu [Breyta persónulegum upplýsingum](hr-employee-manager-self-service-edit-personal-information.md).
+
+## <a name="user-not-assigned-to-a-worker-record"></a>Notanda ekki úthlutað á starfsmannaskrá
+
+Ef þú hefur ekki tengt notandann þinn við skrá **Starfsmanna** á síðunni **Notendur**, birtast eftirfarandi skilaboð:
+
+**Notandakenni notanda er ekki tengt starfsmannsfærslu í kerfinu. Ekki er hægt að skoðað eða uppfæra viðkomandi upplýsingar fyrr en það er gert. Leita skal aðstoðar hjá yfirmanni eða stuðningshópi.**
+
+Til að tengja notanda við skrá **Starfsmanna** skal fara í **Notendur** og velja notandann. Velja skal **Breyta**, bæta við samsvarandi starfsmanni í reitnum **Einstaklingur** í skjámyndinni og velja **Vista**. Nú ættir þú að hafa aðgang að sjálfsafgreiðslu starfsmanns.
+
+## <a name="security-requirements-for-employee-and-manager-self-service"></a>Öryggiskröfur fyrir sjálfsafgreiðslu starfsmanns og stjórnanda
+
+Sjálfsafgreiðsla starfsmanns og stjórnanda krefst tveggja öryggishlutverka:
+
+- Starfsmenn þurfa starfsmannahlutverkið.
+- Stjórnendur þurfa bæði hlutverk starfsmanns og stjórnanda.
+
+>[!NOTE]
+>Einnig er hægt að nota sérsniðin hlutverk til að fá aðgang að sjálfsafgreiðslu starfsmanns og stjórnanda svo lengi sem að þeir hafi fengið aðgang að vinnusvæðum starfsmanns og stjórnanda.<br>
+>Aðgangur stjórnanda að upplýsingum um starfsmann er byggður á gildandi stöðulínustigveldi sem skilgreint er í Human Resources.
 
 ## <a name="employee-self-service"></a>Sjálfsafgreiðsla starfsmanns
 

@@ -3,7 +3,7 @@ title: Listi yfir ER-aðgerðir í rökfræðiflokknum
 description: Þetta efni veitir upplýsingar um röklegar aðgerðir sem eru studdar í rafrænni skýrslugerð (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 408b3c5ec37b24e0ccf6e368012a936701eedf0f
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: e622778c60646e5cc84cd6e23a5d4954a0fe0bb3
+ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916638"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3705096"
 ---
 # <a name="list-of-er-functions-in-the-logical-category"></a>Listi yfir ER-aðgerðir í rökfræðiflokknum
 
@@ -41,6 +41,8 @@ Rafrænar skýrslutökur (ER) geta verið notaðar til að vinna með rökleg gi
 | [Ekki](er-functions-logical-not.md)                       | Þessi aðgerð skilar bakfærðu röklegu gildi tilgreinds skilyrðis sem *Boolean*-gildi. |
 | [Or](er-functions-logical-or.md)                         | Þessi aðgerð skilar *Boolean*-gildinu **FALSE** ef öll tilgreind skilyrði eru ósönn. Ef eitthvert tilgreint skilyrði er satt skilar aðgerðin *Boolean*-gildinu **TRUE** ef öll tilgreind skilyrði eru sönn. |
 | [ValueIn](er-functions-logical-valuein.md)               | Þessi aðgerð ákvarðar hvort tilgreint ílag passar við eitthvert gildi tilgreinds hlutar sem er í tilgreindum lista. Hún skilar *Boolean*-gildinu **TRUE** ef tilgreint inntak passar við niðurstöðu þess að keyra tiltekna segð fyrir að minnsta kosti eina skrá af tilgreindum lista. Að öðrum kosti skilar hún *Boolean* gildinu **FALSE**. |
+| [ValueInLarge](er-functions-logical-valueinlarge.md)     | Þessi virknin ákvarðar hvort tilgreindur innsláttur *Int64* eða *Heiltala* passar við eitthvað gildi hlutar sem er í tilgreindum lista. Hún skilar *Boolean*-gildinu **TRUE** ef tilgreint inntak passar við niðurstöðu þess að keyra tiltekna segð fyrir að minnsta kosti eina skrá af tilgreindum lista. Að öðrum kosti skilar hún *Boolean* gildinu **FALSE**. |
+
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

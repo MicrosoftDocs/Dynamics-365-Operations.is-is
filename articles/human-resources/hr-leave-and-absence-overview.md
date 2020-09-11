@@ -1,6 +1,6 @@
 ---
-title: Yfirlit
-description: Í Dynamics 365 Human Resources veitir vinnusvæðið Leyfi og fjarvera sveigjanlegan ramma til að stofna nýjar orlofsáætlanir, verkflæði til að stjórna beiðnum og innsæi sjálfsþjónustusíða þar sem starfsmenn geta beðið um frí.
+title: Yfirlit yfir leyfi og fjarvistir
+description: Í Dynamics 365 Human Resources býður vinnusvæði leyfis og fjarvista upp á sveigjanlegan ramma til að búa til nýjar leyfisáætlanir. Það býður einnig upp á verkflæði til að stjórna beiðnum og snjallar sjálfsafgreiðslusíður fyrir starfsmenn til að biðja um frí.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/01/2020
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec72d2d741f7f8428a7daa97bb982e9fc00b8c3f
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: ea58c3a08e74eea1ab51aa19a5a28445a9bcbb04
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428968"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712401"
 ---
-# <a name="overview"></a>Yfirlit
+# <a name="leave-and-absence-overview"></a>Yfirlit yfir leyfi og fjarvistir
 
-Dynamics 365 Human Resources hjálpar þér að veita starfsmönnum þínum mikinn orlof. Vinnusvæðið **Leyfi og fjarvera** býður upp á sveigjanlegan ramma til að búa til ný orlofsáætlun, verkflæði til að stjórna beiðnum og innsæi sjálfsþjónustusíða þar sem starfsmenn geta beðið um frí. Greining hjálpar fyrirtækinu þínu að mæla og fylgjast með orlofshlutfalli og notkun vegna orlofssókna.
+Dynamics 365 Human Resources hjálpar þér að veita starfsmönnum þínum mikinn orlof. Vinnusvæðið **Leyfi og fjarvistir** býður upp á sveigjanlegan ramma til að búa til nýjar leyfisáætlanir. Það býður einnig upp á verkflæði til að stjórna beiðnum og snjallar sjálfsafgreiðslusíður fyrir starfsmenn til að biðja um frí. Greining hjálpar fyrirtækinu þínu að mæla og fylgjast með orlofshlutfalli og notkun vegna orlofssókna.
 
 ## <a name="set-up-leave-and-absence"></a>Setja upp leyfi og fjarvistir
 
@@ -51,42 +51,6 @@ Dynamics 365 Human Resources hjálpar þér að veita starfsmönnum þínum miki
 
 Starfsmenn þínir geta sent inn beiðnir um frí og þú getur stjórnað þeim í **Sjálfsafgreiðsla starfsmanna** vinnusvæði.
 
-- [Biðja um frí](hr-employee-self-service-request-time-off.md)
-- [Vinna með beiðnir um leyfi og fjarvistir](hr-employee-self-service-manage-requests.md)
-
-## <a name="leave-and-absence-known-issues"></a>Þekkt mál vegna leyfis og fjarvista
-
-### <a name="rounding-precision"></a>Sléttunarnákvæmni
-
-Þú getur ekki stillt **Sléttunarnákvæmni** þegar þú stillir **Gerð sléttunar**. Þú getur aðeins stillt **Sléttunarnákvæmni** með því að nota eininguna **Gerð leyfis og fjarvistar**. 
-
-1. Úr **Gerðir leyfis og fjarvista** velurðu **Opna í Excel** til að opna eininguna **Gerð leyfis og fjarvista**.
-
-2. Þegar skráin hefur opnast og er virkjuð skaltu velja **Hönnun**.
-
-3. Á töflunni **Gerð leyfis og fjarvista** velurðu blýantsvalkostinn til að breyta.
-
-4. Veldu **RoundingPrecision** og **RoundingType** og veldu síðan **Bæta við** til að bæta við lista yfir reiti.
-
-5. Veldu **Uppfæra** og síðan **Lokið**.
-
-6. Sláðu inn eða veldu **Gerð sléttunar** fyrir hverja leyfisgerð ef þær hafa ekki verið stilltar nú þegar. 
-
-7. Sláðu inn **Sléttunarnákvæmni** fyrir viðeigandi gerðir.
-
-8. Veldu **Birta** til að ýta breytingunum yfir í Human Resources.
-
-## <a name="leave-and-absence-preview-features"></a>Forskoðunareiginleikar leyfis og fjarveru
-
-Þú getur prófað nýja forskoðunareiginleika leyfis og fjarveru í **Sandkassi** umhverfi. Upplýsingar um stillingu forútgáfueiginleika er að finna í [Vinna með eiginleika](hr-admin-manage-features.md). 
-
-[!include [banner](includes/preview-feature.md)]
-
-Forskoðunareiginleikar eru:
-
-- **Uppsafnað leyfi á fyrirtæki eða áætlun** - Hægt er að keyra uppsöfnunarferlið annaðhvort fyrir öll fyrirtæki eða fyrir eitt fyrirtæki. Einnig er hægt að keyra uppsöfnunarferlið fyrir tiltekna áætlun leyfis og fjarveru fyrir tiltekið fyrirtæki. 
-
-- **Kaupa leyfi** - Hægt er að virkja og búa til reglur um kaup á leyfum fyrir starfsmenn til að senda inn kaupbeiðni. Starfsmenn geta sent inn beiðnir um kaup og fengið stöður uppfærðar sjálfkrafa til að endurspegla beiðnina.  
-
-- **Bæta viðhengjum við samþykktar leyfisbeiðnir** - Hægt er að bæta viðhengi við leyfisbeiðni sem hefur þegar verið samþykkt. 
+[Biðja um frí](hr-employee-self-service-request-time-off.md)
+[Vinna með beiðnir um leyfi og fjarvistir](hr-employee-self-service-manage-requests.md)
 

@@ -3,7 +3,7 @@ title: Virkja ráðleggingar um afurðir
 description: Þetta efni útskýrir hvernig hægt er að gera tillögur um vörur sem byggjast á námi gervigreindarvélar (AI-ML) í boði fyrir viðskiptavini Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2dacd4a94f706be5aa65947c0b6a92e281733ca
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: b201e5481cfaf5bb6cd64a89cdb6b5a91f31447f
+ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3665027"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3700843"
 ---
 # <a name="enable-product-recommendations"></a>Virkja ráðleggingar um afurðir
 
@@ -65,11 +65,13 @@ Vistið og lokið síðunni.
 
 Til að kveikja á afurðatillögum skal fylgja þessum skrefum.
 
-1. Farðu í **Retail og Commerce &gt; Afurðatillögur &gt; Færibreytur tillögulista**.
-1. Á listanum yfir sameiginlegar færibreytur velurðu **Tillögulistar**.
-1. Stillið valkostinn **Virkja tillögur** á **Já**.
+1. Í Commerce Headquarters skal leita að **Eiginleikastjórnun**.
+1. Veljið **Allir** til að sjá lista yfir tiltæka eiginleika. 
+1. Í leitarreitnum skal slá inn **Ráðleggingar**.
+1. Veljið eiginleikann **Afurðaráðleggingar**.
+1. Á eiginleikasvæðinu **Afurðaráðleggingar** skal velja **Virkja núna**.
 
-![Kveikt á tillögum](./media/enablepersonalization.png)
+![Kveikt á tillögum](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
 > Þetta ferli hefur ferlið við að mynda afurðatillögulista. Það getur tekið nokkrar klukkustundir áður en listarnir verða tiltækir og sjást á sölustað (POS) eða í Dynamics 365 Commerce.

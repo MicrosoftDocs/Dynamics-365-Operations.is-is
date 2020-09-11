@@ -3,7 +3,7 @@ title: Afritið tilvik
 description: Þú getur notað Microsoft Dynamics Lifecycle Services (LCS) til að afrita Microsoft Dynamics 365 Human Resources gagnagrunn í sandkassaumhverfi.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,26 +18,28 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b14baf49517f5d606038af20366944788b22eba2
-ms.sourcegitcommit: 1ec931f8fe86bde27f6def36ea214a2a05fb22f6
+ms.openlocfilehash: 6b52b696d323df6bafead2418ae322d1a9cdf64a
+ms.sourcegitcommit: ec4df354602c20f48f8581bfe5be0c04c66d2927
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3554326"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3706229"
 ---
 # <a name="copy-an-instance"></a>Afritið tilvik
 
 Þú getur notað Microsoft Dynamics Lifecycle Services (LCS) til að afrita Microsoft Dynamics 365 Human Resources gagnagrunn í sandkassaumhverfi. Ef þú ert með annað sandkassaumhverfi geturðu einnig afritað gagnagrunninn úr því umhverfi yfir í markviss sandkassaumhverfi.
 
-Til að afrita dæmi verður þú að tryggja eftirfarandi:
+Til að afrita tilvik skal hafa eftirfarandi í huga:
 
 - Tilvik Human Resources sem þú vilt skrifa yfir verður að vera sandkassaumhverfi.
 
-- Umhverfið sem þú ert að afrita frá og til verður að vera á sama svæði. Þú getur ekki afritað á milli svæða.
+- Umhverfið sem þú ert að afrita af og til verður að vera á sama svæði. Þú getur ekki afritað á milli svæða.
 
 - Þú verður að vera stjórnandi í markumhverfinu svo þú getir skráð þig inn á það eftir að hafa afritað tilvikið.
 
-- Þegar þú afritar gagnagrunn Human Resources, afritar þú ekki þá þætti (forrit eða gögn) sem eru í Microsoft PowerApps-umhverfi. Fyrir upplýsingar um hvernig á að afrita þætti í PowerApps-umhverfi, sjá [Afrita umhverfi](https://docs.microsoft.com/power-platform/admin/copy-environment). PowerApps-umhverfið sem þú vilt skrifa yfir verður að vera sandkassaumhverfi. Þú verður að vera alþjóðlegur leigjandi stjórnandi til að breyta PowerApps-framleiðsluumhverfi í sandkassaumhverfi. Fyrir frekari upplýsingar um að breyta PowerApps-umhverfi, sjáðu [Skiptu um dæmi](https://docs.microsoft.com/dynamics365/admin/switch-instance).
+- Þegar þú afritar gagnagrunn Human Resources, afritar þú ekki þá þætti (forrit eða gögn) sem eru í Microsoft Power Apps-umhverfi. Fyrir upplýsingar um hvernig á að afrita þætti í Power Apps-umhverfi, sjá [Afrita umhverfi](https://docs.microsoft.com/power-platform/admin/copy-environment). Power Apps-umhverfið sem þú vilt skrifa yfir verður að vera sandkassaumhverfi. Þú verður að vera alþjóðlegur leigjandi stjórnandi til að breyta Power Apps-framleiðsluumhverfi í sandkassaumhverfi. Fyrir frekari upplýsingar um að breyta Power Apps-umhverfi, sjáðu [Skiptu um dæmi](https://docs.microsoft.com/dynamics365/admin/switch-instance).
+
+- Ef tilvik er afritað inn í sandkassaumhverfi og ætlunin er að samþætta sandkassaumhverfið við Common Data Service þarf að endurnota sérstillta reiti í Common Data Service einingarnar. Sjá [Nota sérstillta reiti á Common Data Service](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>Áhrif afritunar gagnagrunns Human Resources
 
@@ -47,15 +49,15 @@ Eftirfarandi atburðir eiga sér stað þegar þú afritar gagnagrunn Human Reso
 
 - Markaumhverfið verður ekki tiltækt fyrr en afritunarferlinu er lokið.
 
-- Skjöl í Microsoft Azure Blob geymsla er ekki afrituð úr einu umhverfi í annað. Þess vegna verða öll skjöl og sniðmát sem fylgja eru ekki afrituð og þau verða áfram í upprunaumhverfinu.
+- Skjöl í Microsoft Azure Blob geymsla er ekki afrituð úr einu umhverfi í annað. Þar af leiðandi verða öll skjöl og sniðmát sem eru hengd við ekki afrituð og verða áfram í upprunaumhverfinu.
 
-- Allir notendur nema stjórnandi og aðrar notendareikningar innri þjónustu verða gerðir óvirkir. Þess vegna getur stjórnandi notandinn eytt eða skyggt á gögn áður en aðrir notendur eru leyfðir aftur inn í kerfið.
+- Allir notendur nema stjórnandi og aðrar notendareikningar innri þjónustu verða gerðir óvirkir. Stjórnandi getur eytt eða lokað á gögn áður en aðrir notendur eru leyfðir aftur í kerfinu.
 
 - Stjórnandi notandinn verður að gera nauðsynlegar stillingarbreytingar, svo sem aftur að tengja endapunkta samþættingar við tiltekna þjónustu eða vefslóðir.
 
 ## <a name="copy-the-human-resources-database"></a>Afritaðu gagnagrunn Human Resources
 
-Til að ljúka þessu verkefni afritarðu fyrst dæmi og skráir þig síðan inn á Microsoft Power Platform Admin Center til að afrita PowerApps-umhverfi.
+Til að ljúka þessu verkefni afritarðu fyrst dæmi og skráir þig síðan inn á Microsoft Power Platform Admin Center til að afrita Power Apps-umhverfi.
 
 > [!WARNING]
 > Þegar þú afritar dæmi er gagnagrunninum eytt í markatilvikinu. Markmiðið er ekki tiltækt meðan á þessu ferli stendur.
@@ -74,7 +76,7 @@ Til að ljúka þessu verkefni afritarðu fyrst dæmi og skráir þig síðan in
 
    ![[Veldu Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
-6. Veldu PowerApps-umhverfið sem á að afrita og veldu síðan **Afrita**.
+6. Veldu Power Apps-umhverfið sem á að afrita og veldu síðan **Afrita**.
 
 7. Þegar afritunarferlinu er lokið, skráðu þig inn á markstaðinn og virkjaðu samþættinguna Common Data Service. Nánari upplýsingar og leiðbeiningar, sjá [Skilgreina samþættingu Common Data Service](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
 
@@ -98,9 +100,15 @@ Eftirfarandi gagnaþættir eru ekki afritaðir þegar þú afritar tilvik Human 
 
 - Tengingarstrengurinn í töflunni **PersonnelIntegrationConfiguration**
 
-Sumir af þessum þáttum eru ekki afritaðir vegna þess að þeir eru umhverfissértækir. Sem dæmi má nefna skrárnar **BatchServerConfig** og **SysCorpNetPrinters**. Aðrir þættir eru ekki afritaðir vegna magns stuðningsmiða. Til dæmis gætu tvíteknir tölvupóstar verið sendir vegna þess að SMTP er ennþá virkt í umhverfi notendasamþykktarprófunar (sandkassi), ógild samþættingarskilaboð gætu verið send vegna þess að hópastörf eru ennþá virk og notendur gætu verið virkjaðir áður en umsjónarmenn geta framkvæmt hreinsunaraðgerðir eftir endurnýjun.
+Sumar þessara eininga eru ekki afritaðar vegna þess að þær eru háðar tilteknu umhverfi. Sem dæmi má nefna skrárnar **BatchServerConfig** og **SysCorpNetPrinters**. Aðrir þættir eru ekki afritaðir vegna magns stuðningsmiða. Dæmi:
 
-Að auki breytast eftirfarandi stöðu þegar þú afritar tilvik:
+- Hægt er að senda afrit af tölvupóstum vegna þess að SMTP er enn virkt í samþykkisprófun notanda (sandkassa).
+
+- Ógild samþættingarskilaboð kunna að verða send vegna þess að runuvinnslur eru enn virkar.
+
+- Notendur gætu verið virkir áður en stjórnendur getur framkvæmt hreinsunaraðgerðir eftir uppfærslu.
+
+Einnig breytast eftirfarandi stöður þegar tilvik er afritað:
 
 - Allir notendur nema stjórnandi eru stilltir á **Avirkjað**.
 
@@ -108,6 +116,35 @@ Að auki breytast eftirfarandi stöðu þegar þú afritar tilvik:
 
 ## <a name="environment-admin"></a>Umhverfisstjóri
 
-Öllum notendum í marksandkassaumhverfinu, þar með talið stjórnendum, er skipt út fyrir stjórnendur í upprunaumhverfinu. Vertu viss um að þú sér stjórnandi í upprunaumhverfinu áður en þú afritar dæmi. Ef þú ert það ekki muntu ekki geta skráð þig inn í sandkassaumhverfið eftir að afritið er lokið.
+Öllum notendum í marksandkassaumhverfinu, þar með talið stjórnendum, er skipt út fyrir stjórnendur í upprunaumhverfinu. Vertu viss um að þú sér stjórnandi í upprunaumhverfinu áður en þú afritar dæmi. Ef þú ert það ekki geturðu ekki skráp þig inn í sandkassaumhverfi viðtökustaða eftir að afritun er lokið.
 
 Allir notendur sem ekki eru kerfisstjórar í markkassasumhverfinu eru óvirkir til að koma í veg fyrir óæskileg innritun í sandkassaumhverfið. Stjórnendur geta endurtekið notendur ef þörf er á.
+
+## <a name="apply-custom-fields-to-common-data-service"></a>Nota sérstillta reiti á Common Data Service
+
+Ef tilvik er afritað inn í sandkassaumhverfi og ætlunin er að samþætta sandkassaumhverfið við Common Data Service þarf að endurnota sérstillta reiti í Common Data Service einingarnar.
+
+Fyrir hvern sérstilltan fyrir Common Data Service einingar skal gera eftirfarandi:
+
+1. Farið í sérstillta reitinn og veljið **Breyta völdu**.
+
+2. Afvelja skal reitinn **Virkur** fyrir hverja cdm_* einingu sem sérstillti reiturinn er virkur fyrir.
+
+3. Veljið **Nota breytingar**.
+
+4. Veljið **Breyta** aftur.
+
+5. Velja skal svæðið **Virkt** fyrir hverja cdm_* einingu sem sérstillti reiturinn er virkur fyrir.
+
+6. Veljið **Nota breytingar** aftur.
+
+Ferlið við að afturkalla valið, nota breytingar, endurvelja og endurnota breytingar kalla á uppfærslu skema í Common Data Service til að taka með sérstillta reiti.
+
+Frekari upplýsingar um sérsniðna reiti er að finna á [Stofna og vinna með sérstillt svæði](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
+
+## <a name="see-also"></a>Sjá einnig
+
+[Ráðstafa Human Resources](hr-admin-setup-provision.md)</br>
+[Fjarlægja tilvik](hr-admin-setup-remove-instance.md)</br>
+[Uppfærsluferli](hr-admin-setup-update-process.md)
+

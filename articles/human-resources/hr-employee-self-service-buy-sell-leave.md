@@ -1,9 +1,9 @@
 ---
 title: Kaupa og selja leyfisdaga
-description: Hægt er að senda inn beiðnir um að kaupa og selja leyfisdaga.
+description: Í Dynamics 365 Human Resources er hægt að leggja fram beiðnir um að kaupa og selja leyfi samkvæmt reglum um kaup og sölur leyfa sem fyrirtækið hefur sett upp.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b765544dcca02ff629e4cc88e3b34d1d3b3e85dd
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e3a10d183c50f4db31f5c08eb6c0ab8cff79b23e
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429682"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711819"
 ---
 # <a name="buy-and-sell-leave"></a>Kaupa og selja leyfisdaga
 
-[!include [banner](includes/preview-feature.md)]
-
-Hægt er að senda inn beiðnir um að kaupa leyfisdaga.  
+Í Dynamics 365 Human Resources er hægt að leggja fram beiðnir um að kaupa og selja leyfi samkvæmt reglum um kaup og sölur leyfa sem fyrirtækið hefur sett upp.  
 
 ## <a name="request-to-buy-leave"></a>Biðja um að kaupa leyfi
 
@@ -39,7 +37,17 @@ Hægt er að senda inn beiðnir um að kaupa leyfisdaga.
 
 3. Veldu **Sendu inn** þegar þú ert tilbúinn að leggja fram beiðni þína. 
 
-Þegar beiðnin er send verða stöðurnar sjálfkrafa uppfærðar með fjölda leyfisdaga sem óskað var eftir að kaupa. 
+Stöðurnar verða annaðhvort uppfærðar sjálfkrafa eða fara í gegnum samþykktarferli áður en uppfærsla fer fram. Þetta veltur á því hvernig kaupreglan hefur verið skilgreind.
+
+## <a name="request-to-sell-leave"></a>Beiðni um að selja leyfi
+
+1. Á vinnusvæðinu **Sjálfsafgreiðsla starfsmanns** skal velja **Beiðni um að selja leyfisdaga** í reitnum **Frídagastaða**. 
+
+2. Bætið við **Leyfisgerð** og sláið inn **Upphæð** fyrir leyfisupphæð sem á að selja. 
+
+3. Veldu **Sendu inn** þegar þú ert tilbúinn að leggja fram beiðni þína.
+
+Stöðurnar verða annaðhvort uppfærðar sjálfkrafa eða fara í gegnum samþykktarferli áður en uppfærsla fer fram. Þetta veltur á því hvernig kaupreglan hefur verið skilgreind.
 
 ## <a name="see-also"></a>Sjá einnig
 

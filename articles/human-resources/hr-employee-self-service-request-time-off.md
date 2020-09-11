@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f4c2d082ebe7f97d5c649c38d2462a3c011aa0e7
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b034f3bac7264ff96100396cbb45e5b869765ce8
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429590"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712353"
 ---
 # <a name="request-time-off"></a>Biðja um frí
 
@@ -44,8 +44,6 @@ ms.locfileid: "3429590"
 6. Veldu **Sendu inn** þegar þú ert tilbúinn að leggja fram beiðni þína. Annars skaltu velja **Vista uppkast**.
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Bæta viðhengi við fyrirliggjandi beiðni
-
-[!include [banner](includes/preview-feature.md)]
 
 Við uppfærslu fyrirliggjandi frítímabeiðni er hægt að bæta við viðhengi. Einnig er hægt að sjá allar tengdar beiðnir fyrir tiltekna dagsetningu. 
 

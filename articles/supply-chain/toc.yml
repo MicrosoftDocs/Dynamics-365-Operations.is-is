@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Stofna og vinna með sérstillt svæði
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Fella inn PowerApps forrit
+                - name: Fella inn Microsoft Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Leita að upplýsingum með uppflettingum
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -631,19 +631,19 @@
           items:
             - name: Skýrslugerð og greiningar með Power BI
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Aðgangsupplýsingar og skýrslugerð
+            - name: Aðgangur að upplýsingum og skýrslugerð
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Aðlögunarkostir með PowerBI.com
+            - name: Aðlögunarkostir með Power BI
               items:
-                - name: Eiginleikar í boði í gegnum PowerBI.com-samþættingu
+                - name: Eiginleikar í boði í gegnum Power BI-samþættingu
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Festa PowerBI.com-efni
+                - name: Festa Power BI-efni
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Velja greiningarsvæði úr PowerBI.com
+                - name: Velja greiningarvinnusvæði úr Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/supply-chain/toc.json
             - name: Power BI-efni
               items:
-                - name: Power BI efni – heimasíða
+                - name: Heimasíða Power BI-efnis
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-home-page.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Kostnaðarstjórnun
                   href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/supply-chain/toc.json
@@ -679,7 +679,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Uppfæra eftirlitsbúnað skjalasendingar
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Setja upp nettengda prentara á staðnum
+                    - name: Setja upp nettengda prentara í innanhússumhverfi
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 'Myndun, útgáfa og prentun fylgiskjala í uppsetningu á staðnum'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/supply-chain/toc.json
@@ -873,7 +873,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-mathematical.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Abs
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-abs.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Veldi
+                        - name: Power
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-power.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Round
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-round.md?toc=/dynamics365/supply-chain/toc.json
@@ -1213,7 +1213,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
             - name: API fyrir ramma rafrænnar skýrslugerðar
               items:
-                - name: Listi yfir virkni rafrænnar skýrslugerðar lengdur
+                - name: List yfir virkni rafrænnar skýrslugerðar lengdur
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Breytingar á API rafræns skýrslugerðarramma fyrir Application update 7.3
                   href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/supply-chain/toc.json
@@ -1827,21 +1827,31 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: Útiloka afurðir frá aðaláætlanagerð
                       href: pim/tasks/exclude-products-master-planning.md
-                - name: Vörur tvíþætts notagildis
-                  href: pim/dual-use.md
-                - name: Upprunaland
-                  href: pim/country-of-origin.md
                 - name: Stofna strikamerki fyrir afurð
                   href: pim/tasks/create-bar-code-product.md
                 - name: Færa inn GTIN-kóða fyrir afurð
                   href: pim/tasks/enter-gtin-code-product.md
-                - name: Stofna runu runueigindir fyrir afurð
+                - name: Stofna runueigindir fyrir afurð
                   href: pim/tasks/create-batch-attributes-product.md
-                - name: Bæta mynd við vöru
+                - name: Bæta mynd við afurð
                   href: pim/tasks/add-image-product.md
+                - name: Upprunaland
+                  href: pim/country-of-origin.md
+                - name: Vörur með tvíþætt notagildi
+                  href: pim/dual-use.md
+                - name: Hættuleg efni
+                  items:
+                    - name: Yfirlit hættulegra efna
+                      href: pim/hazmat-overview.md
+                    - name: Setja upp hættuleg efni
+                      href: pim/hazmat-setup.md
+                    - name: 'Hættuleg efni í afurðum, pöntunum, sendingum og farmi'
+                      href: pim/hazmat-items.md
+                    - name: Fyrirspurnir og skýrslur um hættuleg efni
+                      href: pim/hazmat-reports.md
                 - name: Algengar spurningar um þýðingu afurðarupplýsinga
                   href: pim/translations-product-related-information.md
-                - name: Leit að afurðum við pöntunarfærslu
+                - name: Leita að afurðum við pöntunarfærslu
                   href: pim/search-products-product-variants.md
                 - name: Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði
                   href: production-control/default-order-settings.md

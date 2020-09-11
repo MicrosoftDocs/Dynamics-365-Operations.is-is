@@ -3,7 +3,7 @@ title: Dagatöl og aðaláætlanagerð
 description: Þetta efnisatriði veitir yfirlit yfir aðfangakeðjudagatöl og hvernig þau hafa áhrif á aðaláætlanagerð.
 author: t-benebo
 manager: tfehr
-ms.date: 05/08/2019
+ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d542c52623c1b3c0aa4b23159d56791cdc981f48
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 373af2e7bdcbf6860f21e049403fdf174d5e8ca7
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213493"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710334"
 ---
 # <a name="calendars-and-master-planning"></a>Dagatöl og aðaláætlanagerð
 
@@ -105,28 +105,28 @@ Pöntunardagurinn í fyrirhugaðri innkaupapöntun sýnir dagsetninguna þegar p
 
 ### <a name="delivery-date-of-a-planned-purchase-order"></a>Afhendingardagur á fyrirhugaðri innkaupapöntun
 Móttökudagsetning innkaupa sýnir daginn sem vörurnar verða mótteknar. Það verður opin dagsetning í dagatalinu. Dagatalið sem verður tekið til greina til að sýna dagana sem hægt er að móttaka innkaupapantanirnar eru í eftirfarandi röð, frá hæsta til lægsta forgangs: 
-    1. Dagatal lánardrottins
-    2. Dagatal þekjuflokks
-    3. Dagatal vöruhúss fyrir móttökuvöruhús
+1. Dagatal lánardrottins
+1. Dagatal þekjuflokks
+1. Dagatal vöruhúss fyrir móttökuvöruhús
 
 Athugið að hægt er að setja dagatal þekjuflokks á mismunandi síður og forgangur verður í eftirfarandi röð:
-    1. Þekjuflokkur vöru á síðunni **Upplýsingar um útgefnar afurðir**
-    2. Þekjuflokkur vöru á síðunni **Vöruþekja**
-    3. Sjálfgefinn þekjuflokkur vöru í **Færibreytur áætlanagerðar**
+1. Þekjuflokkur vöru á síðunni **Vöruþekja**
+1. Þekjuflokkur vöru á síðunni **Upplýsingar um útgefnar afurðir**
+1. Sjálfgefinn þekjuflokkur vöru í **Færibreytur áætlanagerðar**
 
 ### <a name="shipping-date-of-a-planned-transfer-order"></a>Sendingadagsetning á áætlaðri flutningspöntun
 Þegar stofnuð er flutningspöntun milli tveggja vöruhúsa eru sendingadagsetning og móttökudagsetning innifaldar í flutningspöntunarhaus, ásamt „Frá“ vöruhúsi og „Til“ vöruhúss. Munurinn milli þessara tveggja dagsetninga er væntanlegur flutningstími (í dögum) milli vöruhúsanna.
 
 Sendingadagsetning á áætlaðri flutningspöntun sýnir daginn sem vörurnar eru sendar frá „Frá“ vöruhúsi. Dagatölin sem eru notuð til að tilgreina tiltæka sendingadagsetningu eru útlistuð eftir forgangi: 
-    1. Dagatal vöruhúss fyrir „Frá“ vöruhúsi
-    2. Dagatal þekjuflokks (sjá vararöð fyrir þetta dagatal hér að ofan) Ef dagatal vöruhúss er stillt verður sendingadagsetningin opin dagur í dagatalinu. Ef dagatal vöruhúss er ekki stillt, verður dagatal þekjuflokks notað. 
+1. Dagatal vöruhúss fyrir „Frá“ vöruhúsi
+1. Dagatal þekjuflokks (sjá vararöð fyrir þetta dagatal hér að ofan) Ef dagatal vöruhúss er stillt verður sendingadagsetningin opin dagur í dagatalinu. Ef dagatal vöruhúss er ekki stillt, verður dagatal þekjuflokks notað. 
 
 ### <a name="receipt-date-of-a-planned-transfer-order"></a>Móttökudagsetning á áætlaðri flutningspöntun
 Móttökudagsetningin fyrir flutningspöntun sýnir daginn sem vörurnar eru mótteknar í „Til“ vöruhúsi.
 
 Dagatölin sem eru notuð til að tilgreina móttökudagsetningu eru þau sem eru útlistuð eftir forgangi: 
-    1. Dagatal þekjuflokks 
-    2. Dagatal vöruhúss fyrir „Til“ vöruhús. Ef dagatal þekjuflokks er stillt verður móttökudagsetningin opinn dagur í dagatalinu. Ef dagatal þekjuflokks er ekki stillt, verður dagatal vöruhúss notað. 
+1. Dagatal þekjuflokks 
+1. Dagatal vöruhúss fyrir „Til“ vöruhús. Ef dagatal þekjuflokks er stillt verður móttökudagsetningin opinn dagur í dagatalinu. Ef dagatal þekjuflokks er ekki stillt, verður dagatal vöruhúss notað. 
 
 Þegar sending og móttökudagsetningar fyrir áætlaðan flutning eru fundnar, verður munurinn sem notandinn setur á fyrir sendingu og móttöku einnig tekinn til greina. 
 

@@ -3,7 +3,7 @@ title: Virkja sérsniðnar afurðaráðleggingar
 description: Þetta efni lýsir því hvernig hægt er að gera persónulegar ráðleggingar um vöru tiltækar fyrir viðskiptavini Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4103096f23e5568cc2bf64f21720c7c16d3e0cd1
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
+ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664859"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3700867"
 ---
 # <a name="enable-personalized-recommendations"></a>Kveikja á sérsniðnum tillögum
 
@@ -49,11 +49,13 @@ Nánari upplýsingar um afurðatillögur er að finna í [yfirliti yfir afurðat
 
 Fylgdu þessum skrefum til að kveikja á persónuaðlögun.
 
-1. Farðu í **Retail og Commerce \> Afurðatillögur \> Færibreytur tillögulista**.
-1. Á listanum yfir sameiginlegar færibreytur Retail velurðu **Tillögulistar**.
-1. Stillið valkostinn **Virkja aðlögun** á **Já**.
+1. Í Commerce Headquarters skal leita að **Eiginleikastjórnun**.
+1. Veljið **Allir** til að sjá lista yfir tiltæka eiginleika. 
+1. Í leitarreitnum skal slá inn **Ráðleggingar**.
+1. Velja eiginleikann **Sérsniðnar afurðarráðleggingar**.
+1. Á svæðinu **Sérsniðnar afurðaráðleggingar** skal velja **Virkja núna**.
 
-![Kveikt á aðlögun](./media/enablepersonalization.png)
+![Kveikt á aðlögun](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Þegar þú kveikir á sérsniðinni er ferlið við að búa til sérsniðna vöru meðmæla lista byrjað. Allt að einn dagur gæti verið nauðsynlegur áður en þessir listar eru tiltækir og sýnilegir á netinu og í POS.

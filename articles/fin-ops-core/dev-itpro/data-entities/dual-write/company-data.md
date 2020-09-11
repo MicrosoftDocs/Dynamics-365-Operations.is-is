@@ -3,7 +3,7 @@ title: Fyrirtækishugtak í Common Data Service
 description: Þetta efni lýsir samþættingu fyrirtækjaupplýsinga milli Finance and Operations og Common Data Service.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/15/2019
+ms.date: 08/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a39cf5fa980d9a815ba675e410589dbd1279c83
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
+ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172901"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3728414"
 ---
 # <a name="company-concept-in-common-data-service"></a>Fyrirtækishugtak í Common Data Service
 
@@ -72,3 +72,32 @@ Common Data Service-samþætting færir fyrirtækjajöfnun með því að nota a
 + Fyrir skrár, eftir að fyrirtæki er bætt við og vistað, verður gildið aðeins lesanlegt. Þess vegna ættu notendur að gæta þess að þeir velja rétt fyrirtæki.
 + Aðeins skrár sem hafa fyrirtækjagögn eru gjaldgengar fyrir tvískiptingu milli forritsins og Common Data Service.
 + Fyrir núverandi gögn Common Data Service mun stjórnandaleidd ræsibandareynsla brátt verða tiltæk.
+
+
+## <a name="autopopulate-company-name-in-customer-engagement-apps"></a>Heiti fyrirtækis sem er sjálfkrafa fyllt út í forritum fyrir viðskiptavini
+
+Ýmsar leiðir eru til að fylla út sjálfkrafa Fyrirtækisheitið í forritum fyrir viðskiptavini.
+
++ Ef notandi er kerfisstjóri er hægt að stilla sjálfgefið fyrirtæki með því að fara í **Ítarlegar stillingar > Kerfi > Öryggi > notendur**. Opnaðu skjámyndina **Notandi** og í **Upplýsingar um stofnun/fyrirtæki** hlutanum skaltu stilla gildið **Fyrirtækið á sjálfgefin á skjámyndum**.
+
+    :::image type="content" source="media/autopopulate-company-name-1.png" alt-text="Velja sjálfgefið fyrirtæki í upplýsingahluta fyrirtækis.":::
+
++ Ef þú hefur **skrifheimild** fyrir **SystemUser** eininguna fyrir stig **Viðskiptaeiningar**, getur þú breytt sjálfgefna fyrirtækinu í hvaða skjámynd sem er með því að velja fyrirtæki úr fellivalmynd **Fyrirtækis**.
+
+    :::image type="content" source="media/autopopulate-company-name-2.png" alt-text="Breyta heiti fyrirtækisins á nýjum lykli.":::
+
++ Ef þú hefur **skrifheimild** fyrir gögn í fleiri en einu fyrirtæki, geturðu breytt sjálfgefna fyrirtækinu með því að velja færslu sem tilheyrir öðru fyrirtæki.
+
+    :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="Að velja færslu breytir sjálfgefna fyrirtækinu.":::
+
++ Ef þú sérð um kerfisstillingar eða ert kerfisstjóri og þú vilt fylla út fyrirtækisgögn sjálfkrafa í sérsniðinni skjámynd, geturðu valið [skjámyndatilvik](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Bættu við JavaScript tilvísun á **msdyn_/DefaultCompany.js** og nota eftirfarandi tilvik. Hægt er að nota hvaða tilbúnu skjámynd sem er, t.d. skjámyndina **Lykill**.
+
+    + **OnLoad** tilvik fyrir skjámyndina: Stillið reitinn **defaultCompany**.
+    + **OnChange** tilvik fyrir reitinn **Fyrirtæki**: Stillið reitinn **updateDefaultCompany**.
+
+## <a name="apply-filtering-based-on-the-company-context"></a>Nota síun sem byggir á samhengi fyrirtækis
+
+Til að nota síun sem byggir á samhengi fyrirtækisins í sérsniðnum skjámyndum eða í sérsniðnum uppflettireitum sem bætt hefur verið við staðlaðar skjámyndir, skal opna skjámyndina og nota hlutann **Síun á tengdum færslum** til að nota fyrirtækissíuna. Þetta verður að stilla fyrir hvern uppflettireit sem krefst síunar sem byggir á undirliggjandi fyrirtæki fyrir uppgefna færslu. Stillingin er sýnd fyrir **Lykil** á eftirfarandi mynd.
+
+:::image type="content" source="media/apply-company-context.png" alt-text="Nota samhengi fyrirtækis":::
+

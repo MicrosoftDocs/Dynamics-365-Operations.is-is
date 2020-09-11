@@ -3,7 +3,7 @@ title: Studdar atburðarás fyrir tvískipt skrifun
 description: Þetta efni lýsir atburðarásum sem eru studdar fyrir tvískipt skrifun.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: d7ff514768ee8e4797b591da89e190a855385885
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 275d24d8f32fd1d2d15356d14c5c6591e8503c65
+ms.sourcegitcommit: ec4df354602c20f48f8581bfe5be0c04c66d2927
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172855"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3706253"
 ---
 # <a name="supported-scenarios-for-dual-write-setup"></a>Studdar atburðarás fyrir tvískipt skrifun
 
@@ -34,8 +34,11 @@ ms.locfileid: "3172855"
 
 Þú getur sett upp tvískipt samband milli Finance and Operations umhverfis og Common Data Service umhverfis.
 
-+ Umhverfi **Finance and Operations** veitir undirliggjandi verkvang fyrir smáforrit **Finance and Operations** (til dæmis Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Retail og Dynamics 365 Human Resources).
++ **Finance and Operations umhverfi** býður upp á undirliggjandi verkvanginn fyrir **Finance and Operations forrit** (til dæmis Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management og Dynamics 365 Retail).
 + **Common Data Service-umhverfi** veitir undirliggjandi verkvang fyrir **líkanadrifin forrit í Dynamics 365** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing og Dynamics 365 Project Service Automation).
+
+>[!IMPORTANT]
+>Mannauður í Finance and Operations styður tengingu tvískiptra skrifa, en Dynamics 365 Human Resources-forritið gerir það ekki.
 
 Skipulagið er mismunandi eftir áskrift og umhverfi.
 
