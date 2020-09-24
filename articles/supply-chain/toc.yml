@@ -68,14 +68,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Nýjungar eða breytingar í Supply Chain Management
                   items:
-                    - name: Nýjungar eða breytingar á upphafssíðu Supply Chain Management
+                    - name: Nýjungar eða breytingar á upphafssíðu fyrir Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.14 (nóvember 2020)
+                      href: get-started/whats-new-scm-10-0-14.md
                     - name: Supply Chain Management 10.0.13 (október 2020)
                       href: get-started/whats-new-scm-10-0-13.md
                     - name: Supply Chain Management 10.0.12 (ágúst 2020)
                       href: get-started/whats-new-scm-10-0-12.md
-                    - name: Supply Chain Management 10.0.11 (júlí 2020)
-                      href: get-started/whats-new-scm-10-0-11.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
@@ -333,7 +333,7 @@
                   href: asset-management/work-orders/automatic-update-of-asset-counters.md
                 - name: Viðhaldsgátlistar
                   href: asset-management/work-orders/maintenance-checklists.md
-                - name: Niðurtími vegna viðhalds
+                - name: Niðurtími vegna viðhalds fyrir verkbeiðnir
                   href: asset-management/work-orders/maintenance-downtime.md
                 - name: Bæta villu við verkbeiðni
                   href: asset-management/work-orders/add-fault-to-work-order.md
@@ -367,7 +367,7 @@
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-schedule-cost.md
                 - name: Stofna verkbeiðnir
                   href: asset-management/preventive-and-reactive-maintenance/creating-work-orders.md
-                - name: Niðurtími vegna viðhalds
+                - name: Niðurtímaaðgerðir vegna viðhalds
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-stop.md
             - name: Afkastageta áætluð
               items:
@@ -679,7 +679,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Uppfæra eftirlitsbúnað skjalasendingar
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Setja upp nettengda prentara í innanhússumhverfi
+                    - name: Setja upp nettengda prentara á staðnum
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 'Myndun, útgáfa og prentun fylgiskjala í uppsetningu á staðnum'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/supply-chain/toc.json
@@ -1345,26 +1345,30 @@
               items:
                 - name: Yfirlit yfir fínstillingu áætlanagerðar
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Áætlanagerð með neikvæðu magni á lager
-                  href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Hafist handa með fínstillingu áætlanagerðar
                   href: master-planning/planning-optimization/get-started.md
-                - name: Samræmisgreining á fínstillingu skipulagningar
+                - name: Samræmisgreining á fínstillingu áætlanagerðar
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: Nota síur á áætlun
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Áætlanagerð með innkaupaverðsamningum
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
-                - name: Skoða áætlunarferil og skipulagsannála
-                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: Öryggismörk
+                  href: master-planning/planning-optimization/safety-margins.md
+                - name: Samþykkja tillögur
+                  href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Sjálfvirk staðfesting með fínstilling skipulagningar
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: Áætlanagerð með neikvæðu magni á lager
+                  href: master-planning/planning-optimization/negative-on-hand.md
+                - name: Skoða áætlunarferil og skipulagsannála
+                  href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Hætta við áætlunarverk
                   href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Stækkunarhæfni á fínstillingu áætlanagerðar
-                  href: master-planning/planning-optimization/extensibility.md
                 - name: Úrræðaleit fínstillingar áætlanagerðar
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
+                - name: Stækkunarhæfni á fínstillingu áætlanagerðar
+                  href: master-planning/planning-optimization/extensibility.md
             - name: Aðaláætlanir
               items:
                 - name: Yfirlit aðaláætlana
@@ -2621,6 +2625,8 @@
                   items:
                     - name: Setja upp klasatiltekt
                       href: warehousing/set-up-cluster-picking.md
+                    - name: Staðsetning klasa er full
+                      href: warehousing/cluster-position-full.md
                     - name: Kerfisstýrð klasatiltekt
                       href: warehousing/system-directed-cluster-pick.md
                     - name: Setja upp gámun

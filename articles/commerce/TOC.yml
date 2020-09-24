@@ -92,6 +92,8 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.14 (nóvember 2020)
+                      href: get-started/whats-new-commerce-10-0-14.md
                     - name: Commerce 10.0.13 (október 2020)
                       href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12 (ágúst 2020)
@@ -242,7 +244,7 @@
                   href: retail-hardware-station-configuration-installation.md
                 - name: Fjölvirkjun á íhlutum fyrir sjálfsafgreiðslu
                   href: dev-itpro/retail-mass-deployment.md
-                - name: Tilvik smásöluíhluta fyrir greiningu og bilanaleit
+                - name: Tilvik Commerce-íhluta fyrir greiningu og bilanaleit
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
                 - name: Nota virkjanlegan pakka
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
@@ -424,7 +426,7 @@
                       items:
                         - name: 'Skilgreina, setja upp og virkja MPOS'
                           href: retail-modern-pos-device-activation.md
-                        - name: Setja upp aukna innskráningarvirkni fyrir MPOS og Cloud POS
+                        - name: Setja upp aukna innskráningarvirkni fyrir MPOS og sölukerfi í skýinu
                           href: extended-logon.md
                         - name: Stjórna virknilyklum og villuleita tæki
                           href: set-up-activation-accounts-validate-devices-hq.md
@@ -526,6 +528,8 @@
                       href: omni-channel-payments.md
                     - name: Greiðslur Commerce-pöntunar í samskiptamiðstöð
                       href: dev-itpro/commerce-payments.md
+                    - name: Meðhöndla kreditkort án vélbúnaðarstöðvar
+                      href: dev-itpro/cnp-pos.md
                     - name: Algengar spurningar um greiðslur
                       href: dev-itpro/payments-retail.md
                 - name: Stjórna Bing-kortum fyrir þitt fyrirtæki
@@ -700,7 +704,7 @@
           items:
             - name: Pantanir viðskiptavinar
               items:
-                - name: Pantanir viðskiptavinar í MPOS
+                - name: Pantanir viðskiptavinar í sölustað (POS)
                   href: customer-orders-overview.md
                 - name: Blandaðar pantanir viðskiptavinar
                   href: hybrid-customer-orders.md
@@ -826,6 +830,8 @@
                   href: custom-pages-user-logins.md
                 - name: Skilgreina marga B2C-leigjendur í Commerce-umhverfi
                   href: configure-multi-B2C-tenants.md
+                - name: Lén í Dynamics 365 Commerce
+                  href: domains-commerce.md
                 - name: Bæta við stuðningi fyrir efnisbirtingarnet (CDN)
                   href: add-cdn-support.md
                 - name: Virkja greiningu á verslun eftir staðsetningu
@@ -990,6 +996,8 @@
                       href: media-gallery-module.md
                     - name: Einkunna- og umsagnaeiningar
                       href: ratings-reviews-modules.md
+                    - name: Samfélagsmiðlaeining
+                      href: social-share-module.md
                 - name: Innkaupaeiningar
                   items:
                     - name: Körfueining
@@ -1026,6 +1034,12 @@
                   items:
                     - name: Brauðmylsnueining
                       href: add-breadcrumb.md
+                    - name: Eining yfirlitsvalmyndar
+                      href: nav-menu-module.md
+                - name: Reglufylgnieiningar
+                  items:
+                    - name: Eining kökusamþykkis
+                      href: cookie-consent-module.md
             - name: Leit
               items:
                 - name: Yfirlit yfir sjálfgefna lendingarsíðu og leitarniðurstöðusíðu
@@ -1182,7 +1196,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=dynamics/365/commerce/toc.json
                     - name: Setja upp nettengda prentara á staðnum
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Myndun, útgáfa og prentun fylgiskjala í uppsetningu í innanhússumhverfi'
+                    - name: 'Myndun, útgáfa og prentun fylgiskjala í uppsetningu á staðnum'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/commerce/toc.json
                     - name: Keyra eftirlitsbúnað skjalasendingar sem Windows-þjónustu
                       href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/dynamics365/commerce/toc.json
@@ -1652,9 +1666,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
                 - name: Fresta keyrslu á atriðum í sniðum rafrænnar skýrslugerðar
                   items:
-                    - name: Fresta keyrslu á röðunareiningu
+                    - name: Fresta keyrslu raðeininga á sniði rafrænnar skýrslugerðar
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
-                    - name: Fresta keyrslu á XML-einingu
+                    - name: Fresta keyrslu XML-eininga á sniði rafrænnar skýrslugerðar
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
             - name: Nota lausnir rafrænnar skýrslugerðar í Finance and Operations
               items:
