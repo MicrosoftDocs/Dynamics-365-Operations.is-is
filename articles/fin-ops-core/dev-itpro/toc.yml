@@ -14,12 +14,12 @@
               items:
                 - name: Nýjungar eða breytingar á heimasíðu uppfærslna á verkvangi
                   href: get-started/whats-new-home-page.md
+                - name: Verkvangsuppfærslur fyrir 10.0.14 (nóvember 2020)
+                  href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: Verkvangsuppfærslur fyrir 10.0.13 (október 2020)
                   href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: Verkvangsuppfærslur fyrir 10.0.12 (ágúst 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
-                - name: Verkvangsuppfærslur fyrir 10.0.11 (júlí 2020)
-                  href: get-started/whats-new-platform-update-35.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Eiginleikar verkvangs sem hafa verið fjarlægðir eða eru úreltir
@@ -606,6 +606,14 @@
                   href: dev-tools/pipeline-create-deployable-package.md
                 - name: X++ útgáfa líkans í Azure Pipelines
                   href: dev-tools/pipeline-model-version.md
+                - name: Sækja eignir með Azure Pipelines
+                  href: dev-tools/pipeline-asset-download.md
+                - name: Hlaða upp eignum með Azure Pipelines
+                  href: dev-tools/pipeline-asset-upload.md
+                - name: Nota eignir með Azure Pipelines
+                  href: dev-tools/pipeline-deploy-asset.md
+                - name: Búa til Lifecycle Services (LCS) tengingu í Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection.md
             - name: Prufuforrit bílaflotastjórnunar
               items:
                 - name: Heildrænt ferli sviðsett fyrir prufuforrit bílaflotastjórnunar
