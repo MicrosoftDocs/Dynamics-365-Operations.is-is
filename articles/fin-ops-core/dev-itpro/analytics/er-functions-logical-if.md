@@ -18,55 +18,55 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 198210f15e75de761dbb03e5087ba7c77a95721a
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 87e252a2751beeecb51e512cae38b271c1456fae
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041746"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744696"
 ---
-# <span data-ttu-id="cdb70-103"><a name="IF">IF ER-aðgerð</a></span><span class="sxs-lookup"><span data-stu-id="cdb70-103"><a name="IF">IF ER function</a></span></span>
+# <a name="if-er-function"></a><span data-ttu-id="d361d-103">IF ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="d361d-103">IF ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="cdb70-104">Aðgerðin `IF` skilar fyrsta tilgreinda gildinu ef tilgreinda skilyrðið er uppfyllt.</span><span class="sxs-lookup"><span data-stu-id="cdb70-104">The `IF` function returns the first specified value if the specified condition is met.</span></span> <span data-ttu-id="cdb70-105">Að öðrum kosti skilar hún öðru tilgreinda gildinu.</span><span class="sxs-lookup"><span data-stu-id="cdb70-105">Otherwise, it returns the second specified value.</span></span> <span data-ttu-id="cdb70-106">Gildið sem er skilað getur verið gildi allra þeirra gagnagerða sem studdar eru.</span><span class="sxs-lookup"><span data-stu-id="cdb70-106">The value that is returned can be a value of any of the supported data types.</span></span>
+<span data-ttu-id="d361d-104">Aðgerðin `IF` skilar fyrsta tilgreinda gildinu ef tilgreinda skilyrðið er uppfyllt.</span><span class="sxs-lookup"><span data-stu-id="d361d-104">The `IF` function returns the first specified value if the specified condition is met.</span></span> <span data-ttu-id="d361d-105">Að öðrum kosti skilar hún öðru tilgreinda gildinu.</span><span class="sxs-lookup"><span data-stu-id="d361d-105">Otherwise, it returns the second specified value.</span></span> <span data-ttu-id="d361d-106">Gildið sem er skilað getur verið gildi allra þeirra gagnagerða sem studdar eru.</span><span class="sxs-lookup"><span data-stu-id="d361d-106">The value that is returned can be a value of any of the supported data types.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="cdb70-107">Málskipun</span><span class="sxs-lookup"><span data-stu-id="cdb70-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d361d-107">Málskipun</span><span class="sxs-lookup"><span data-stu-id="d361d-107">Syntax</span></span>
 
 ```vb
 IF (condition, first value, second value) as any of the supported data types
 ```
 
-## <a name="arguments"></a><span data-ttu-id="cdb70-108">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="cdb70-108">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="d361d-108">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="d361d-108">Arguments</span></span>
 
-<span data-ttu-id="cdb70-109">`condition`: *Boole-gildi*</span><span class="sxs-lookup"><span data-stu-id="cdb70-109">`condition`: *Boolean*</span></span>
+<span data-ttu-id="d361d-109">`condition`: *Boole-gildi*</span><span class="sxs-lookup"><span data-stu-id="d361d-109">`condition`: *Boolean*</span></span>
 
-<span data-ttu-id="cdb70-110">Gild skilyrt segð sem verður að prófa.</span><span class="sxs-lookup"><span data-stu-id="cdb70-110">A valid conditional expression that must be tested.</span></span>
+<span data-ttu-id="d361d-110">Gild skilyrt segð sem verður að prófa.</span><span class="sxs-lookup"><span data-stu-id="d361d-110">A valid conditional expression that must be tested.</span></span>
 
-<span data-ttu-id="cdb70-111">`first value`: *Einhver af þeim gagnagerðum sem studdar eru*</span><span class="sxs-lookup"><span data-stu-id="cdb70-111">`first value`: *Any of the supported data types*</span></span>
+<span data-ttu-id="d361d-111">`first value`: *Einhver af þeim gagnagerðum sem studdar eru*</span><span class="sxs-lookup"><span data-stu-id="d361d-111">`first value`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="cdb70-112">Niðurstaðan sem er skilað ef skilyrðið er uppfyllt.</span><span class="sxs-lookup"><span data-stu-id="cdb70-112">The result that is returned if the condition is met.</span></span>
+<span data-ttu-id="d361d-112">Niðurstaðan sem er skilað ef skilyrðið er uppfyllt.</span><span class="sxs-lookup"><span data-stu-id="d361d-112">The result that is returned if the condition is met.</span></span>
 
-<span data-ttu-id="cdb70-113">`second value`: *Einhver af þeim gagnagerðum sem studdar eru*</span><span class="sxs-lookup"><span data-stu-id="cdb70-113">`second value`: *Any of the supported data types*</span></span>
+<span data-ttu-id="d361d-113">`second value`: *Einhver af þeim gagnagerðum sem studdar eru*</span><span class="sxs-lookup"><span data-stu-id="d361d-113">`second value`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="cdb70-114">Niðurstaðan sem er skilað ef skilyrðið er ekki uppfyllt.</span><span class="sxs-lookup"><span data-stu-id="cdb70-114">The result that is returned if the condition isn't met.</span></span>
+<span data-ttu-id="d361d-114">Niðurstaðan sem er skilað ef skilyrðið er ekki uppfyllt.</span><span class="sxs-lookup"><span data-stu-id="d361d-114">The result that is returned if the condition isn't met.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="cdb70-115">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="cdb70-115">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="d361d-115">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="d361d-115">Return values</span></span>
 
-<span data-ttu-id="cdb70-116">*Einhver af þeim gagnagerðum sem studdar eru*</span><span class="sxs-lookup"><span data-stu-id="cdb70-116">*Any of the supported data types*</span></span>
+<span data-ttu-id="d361d-116">*Einhver af þeim gagnagerðum sem studdar eru*</span><span class="sxs-lookup"><span data-stu-id="d361d-116">*Any of the supported data types*</span></span>
 
-<span data-ttu-id="cdb70-117">Gildið sem myndast við einhverja af þeim gagnategundum sem studdar eru.</span><span class="sxs-lookup"><span data-stu-id="cdb70-117">The resulting value of any of the supported data types.</span></span>
+<span data-ttu-id="d361d-117">Gildið sem myndast við einhverja af þeim gagnategundum sem studdar eru.</span><span class="sxs-lookup"><span data-stu-id="d361d-117">The resulting value of any of the supported data types.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="cdb70-118">Notkunarbréf</span><span class="sxs-lookup"><span data-stu-id="cdb70-118">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="d361d-118">Notkunarbréf</span><span class="sxs-lookup"><span data-stu-id="d361d-118">Usage notes</span></span>
 
-<span data-ttu-id="cdb70-119">Frumbreyturnar `first value` og `second value` verða að vera tilgreindar með því að nota sömu gagnagerð.</span><span class="sxs-lookup"><span data-stu-id="cdb70-119">The `first value` and `second value` arguments must be specified by using the same data type.</span></span> <span data-ttu-id="cdb70-120">Undantekning er gerð á hönnunartíma ef gagnagerðir stilltra gilda passa ekki saman.</span><span class="sxs-lookup"><span data-stu-id="cdb70-120">An exception is thrown at design time if the data types of the configured values don't match.</span></span>
+<span data-ttu-id="d361d-119">Frumbreyturnar `first value` og `second value` verða að vera tilgreindar með því að nota sömu gagnagerð.</span><span class="sxs-lookup"><span data-stu-id="d361d-119">The `first value` and `second value` arguments must be specified by using the same data type.</span></span> <span data-ttu-id="d361d-120">Undantekning er gerð á hönnunartíma ef gagnagerðir stilltra gilda passa ekki saman.</span><span class="sxs-lookup"><span data-stu-id="d361d-120">An exception is thrown at design time if the data types of the configured values don't match.</span></span>
 
-<span data-ttu-id="cdb70-121">Ef fyrsta gildið og annað gildið eru gildi af gagnagerðinni *Gámur (skrá)* eða *Skáalisti* er niðurstaðan aðeins með reitina sem eru til í báðum gildum.</span><span class="sxs-lookup"><span data-stu-id="cdb70-121">If the first value and the second value are values of the *Container (record)* or *Record list* data type, the result has only the fields that exist in both values.</span></span>
+<span data-ttu-id="d361d-121">Ef fyrsta gildið og annað gildið eru gildi af gagnagerðinni *Gámur (skrá)* eða *Skáalisti* er niðurstaðan aðeins með reitina sem eru til í báðum gildum.</span><span class="sxs-lookup"><span data-stu-id="d361d-121">If the first value and the second value are values of the *Container (record)* or *Record list* data type, the result has only the fields that exist in both values.</span></span>
 
-## <a name="example"></a><span data-ttu-id="cdb70-122">Dæmi</span><span class="sxs-lookup"><span data-stu-id="cdb70-122">Example</span></span>
+## <a name="example"></a><span data-ttu-id="d361d-122">Dæmi</span><span class="sxs-lookup"><span data-stu-id="d361d-122">Example</span></span>
 
-<span data-ttu-id="cdb70-123">`IF (1=2, "condition is met", "condition is not met")` skilar strengnum **"condition is not met"**.</span><span class="sxs-lookup"><span data-stu-id="cdb70-123">`IF (1=2, "condition is met", "condition is not met")` returns the string **"condition is not met"**.</span></span>
+<span data-ttu-id="d361d-123">`IF (1=2, "condition is met", "condition is not met")` skilar strengnum **"condition is not met"**.</span><span class="sxs-lookup"><span data-stu-id="d361d-123">`IF (1=2, "condition is met", "condition is not met")` returns the string **"condition is not met"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="cdb70-124">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="cdb70-124">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="d361d-124">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="d361d-124">Additional resources</span></span>
 
-[<span data-ttu-id="cdb70-125">Rökvirkni</span><span class="sxs-lookup"><span data-stu-id="cdb70-125">Logical functions</span></span>](er-functions-category-logical.md)
+[<span data-ttu-id="d361d-125">Rökvirkni</span><span class="sxs-lookup"><span data-stu-id="d361d-125">Logical functions</span></span>](er-functions-category-logical.md)

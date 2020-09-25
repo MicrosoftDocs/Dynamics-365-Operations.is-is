@@ -18,45 +18,45 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c08aca949ffc7e62009bf3f6c664d96b368f43e7
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 20313133ce29b8d5048814ff78ce4ea4f5c54d4a
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040895"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743689"
 ---
-# <span data-ttu-id="8f2bc-103"><a name="TEXT">TEXT ER aðgerð</a></span><span class="sxs-lookup"><span data-stu-id="8f2bc-103"><a name="TEXT">TEXT ER function</a></span></span>
+# <a name="text-er-function"></a><span data-ttu-id="aeb43-103">TEXT ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="aeb43-103">TEXT ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="8f2bc-104">Aðgerðin `TEXT` skilar tilgreindri tölu sem *strengjagildi* eftir að því hefur verið breytt í textastreng sem er sniðið í samræmi við stillingar á þjónsstaðsetningu á núverandi tilviki forrits.</span><span class="sxs-lookup"><span data-stu-id="8f2bc-104">The `TEXT` function returns the specified number as a *String* value after it has been converted to a text string that is formatted according to the server locale settings of the current application instance.</span></span>
+<span data-ttu-id="aeb43-104">Aðgerðin `TEXT` skilar tilgreindri tölu sem *strengjagildi* eftir að því hefur verið breytt í textastreng sem er sniðið í samræmi við stillingar á þjónsstaðsetningu á núverandi tilviki forrits.</span><span class="sxs-lookup"><span data-stu-id="aeb43-104">The `TEXT` function returns the specified number as a *String* value after it has been converted to a text string that is formatted according to the server locale settings of the current application instance.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8f2bc-105">Málskipun</span><span class="sxs-lookup"><span data-stu-id="8f2bc-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="aeb43-105">Málskipun</span><span class="sxs-lookup"><span data-stu-id="aeb43-105">Syntax</span></span>
 
 ```vb
 TEXT (number)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="8f2bc-106">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="8f2bc-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="aeb43-106">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="aeb43-106">Arguments</span></span>
 
-<span data-ttu-id="8f2bc-107">`number`: *Heiltala* eða *Raun*</span><span class="sxs-lookup"><span data-stu-id="8f2bc-107">`number`: *Integer* or *Real*</span></span>
+<span data-ttu-id="aeb43-107">`number`: *Heiltala* eða *Raun*</span><span class="sxs-lookup"><span data-stu-id="aeb43-107">`number`: *Integer* or *Real*</span></span>
 
-<span data-ttu-id="8f2bc-108">Tala sem þarf umreikna í textastreng.</span><span class="sxs-lookup"><span data-stu-id="8f2bc-108">A number that must be converted to a text string.</span></span>
+<span data-ttu-id="aeb43-108">Tala sem þarf umreikna í textastreng.</span><span class="sxs-lookup"><span data-stu-id="aeb43-108">A number that must be converted to a text string.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="8f2bc-109">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="8f2bc-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="aeb43-109">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="aeb43-109">Return values</span></span>
 
-<span data-ttu-id="8f2bc-110">*Strengur*</span><span class="sxs-lookup"><span data-stu-id="8f2bc-110">*String*</span></span>
+<span data-ttu-id="aeb43-110">*Strengur*</span><span class="sxs-lookup"><span data-stu-id="aeb43-110">*String*</span></span>
 
-<span data-ttu-id="8f2bc-111">Textagildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="8f2bc-111">The resulting text value.</span></span>
+<span data-ttu-id="aeb43-111">Textagildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="aeb43-111">The resulting text value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="8f2bc-112">Notkunarbréf</span><span class="sxs-lookup"><span data-stu-id="8f2bc-112">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="aeb43-112">Notkunarbréf</span><span class="sxs-lookup"><span data-stu-id="aeb43-112">Usage notes</span></span>
 
-<span data-ttu-id="8f2bc-113">Fyrir gildi í af gerðinni *rauntala* takmarkast umbreyting strengs við sem nemur tveimur tugasætum.</span><span class="sxs-lookup"><span data-stu-id="8f2bc-113">For values of the *Real* type, the string conversion is limited to two decimal places.</span></span>
+<span data-ttu-id="aeb43-113">Fyrir gildi í af gerðinni *rauntala* takmarkast umbreyting strengs við sem nemur tveimur tugasætum.</span><span class="sxs-lookup"><span data-stu-id="aeb43-113">For values of the *Real* type, the string conversion is limited to two decimal places.</span></span>
 
-## <a name="example"></a><span data-ttu-id="8f2bc-114">Dæmi</span><span class="sxs-lookup"><span data-stu-id="8f2bc-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="aeb43-114">Dæmi</span><span class="sxs-lookup"><span data-stu-id="aeb43-114">Example</span></span>
 
-<span data-ttu-id="8f2bc-115">Ef þjónsstaðsetning á tilviki Microsoft Dynamics 365 Finance er skilgreind sem **EN-US** skilar `TEXT (NOW ())` gildandi setudagsetningu Finance, desember 17, 2015, sem textastrenginn **12/17/2015 07:59:23 fyrir hádegi**.</span><span class="sxs-lookup"><span data-stu-id="8f2bc-115">If the server locale of the Microsoft Dynamics 365 Finance instance is defined as **EN-US**, `TEXT (NOW ())` returns the current Finance session date, December 17, 2015, as the text string **"12/17/2015 07:59:23 AM"**.</span></span> <span data-ttu-id="8f2bc-116">`TEXT (1/3)` skilar **"0.33"**.</span><span class="sxs-lookup"><span data-stu-id="8f2bc-116">`TEXT (1/3)` returns **"0.33"**.</span></span>
+<span data-ttu-id="aeb43-115">Ef þjónsstaðsetning á tilviki Microsoft Dynamics 365 Finance er skilgreind sem **EN-US** skilar `TEXT (NOW ())` gildandi setudagsetningu Finance, desember 17, 2015, sem textastrenginn **12/17/2015 07:59:23 fyrir hádegi**.</span><span class="sxs-lookup"><span data-stu-id="aeb43-115">If the server locale of the Microsoft Dynamics 365 Finance instance is defined as **EN-US**, `TEXT (NOW ())` returns the current Finance session date, December 17, 2015, as the text string **"12/17/2015 07:59:23 AM"**.</span></span> <span data-ttu-id="aeb43-116">`TEXT (1/3)` skilar **"0.33"**.</span><span class="sxs-lookup"><span data-stu-id="aeb43-116">`TEXT (1/3)` returns **"0.33"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="8f2bc-117">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="8f2bc-117">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="aeb43-117">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="aeb43-117">Additional resources</span></span>
 
-[<span data-ttu-id="8f2bc-118">Textavirkni</span><span class="sxs-lookup"><span data-stu-id="8f2bc-118">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="aeb43-118">Textavirkni</span><span class="sxs-lookup"><span data-stu-id="aeb43-118">Text functions</span></span>](er-functions-category-text.md)

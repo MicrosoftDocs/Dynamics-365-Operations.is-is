@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6784384bac31d8c7cdc9c6f71b7dbab79c15a934
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 12577e571c8e87db79395895e2a22e66ee7df32c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041102"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745682"
 ---
-# <span data-ttu-id="136df-103"><a name="LOWER">LOWER ER-aðgerð</a></span><span class="sxs-lookup"><span data-stu-id="136df-103"><a name="LOWER">LOWER ER function</a></span></span>
+# <a name="lower-er-function"></a><span data-ttu-id="b89de-103">LOWER ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="b89de-103">LOWER ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="136df-104">Aðgerð `LOWER` skilar tilgreindum textastreng sem *Strengja*-gildi eftir að því hefur verið breytt í lágstafi.</span><span class="sxs-lookup"><span data-stu-id="136df-104">The `LOWER` function returns the specified text string as a *String* value after it has been converted to lowercase letters.</span></span>
+<span data-ttu-id="b89de-104">Aðgerð `LOWER` skilar tilgreindum textastreng sem *Strengja*-gildi eftir að því hefur verið breytt í lágstafi.</span><span class="sxs-lookup"><span data-stu-id="b89de-104">The `LOWER` function returns the specified text string as a *String* value after it has been converted to lowercase letters.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="136df-105">Málskipun</span><span class="sxs-lookup"><span data-stu-id="136df-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b89de-105">Málskipun</span><span class="sxs-lookup"><span data-stu-id="b89de-105">Syntax</span></span>
 
 ```vb
 LOWER (text)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="136df-106">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="136df-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="b89de-106">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="b89de-106">Arguments</span></span>
 
-<span data-ttu-id="136df-107">`text`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="136df-107">`text`: *String*</span></span>
+<span data-ttu-id="b89de-107">`text`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="b89de-107">`text`: *String*</span></span>
 
-<span data-ttu-id="136df-108">Gildið *Strengur* sem tilgreinir textann.</span><span class="sxs-lookup"><span data-stu-id="136df-108">A *String* value that specifies the text.</span></span>
+<span data-ttu-id="b89de-108">Gildið *Strengur* sem tilgreinir textann.</span><span class="sxs-lookup"><span data-stu-id="b89de-108">A *String* value that specifies the text.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="136df-109">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="136df-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="b89de-109">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="b89de-109">Return values</span></span>
 
-<span data-ttu-id="136df-110">*Strengur*</span><span class="sxs-lookup"><span data-stu-id="136df-110">*String*</span></span>
+<span data-ttu-id="b89de-110">*Strengur*</span><span class="sxs-lookup"><span data-stu-id="b89de-110">*String*</span></span>
 
-<span data-ttu-id="136df-111">Textagildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="136df-111">The resulting text value.</span></span>
+<span data-ttu-id="b89de-111">Textagildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="b89de-111">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="136df-112">Dæmi</span><span class="sxs-lookup"><span data-stu-id="136df-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="b89de-112">Dæmi</span><span class="sxs-lookup"><span data-stu-id="b89de-112">Example</span></span>
 
-<span data-ttu-id="136df-113">`LOWER ("Sample")` skilar **"sample"**.</span><span class="sxs-lookup"><span data-stu-id="136df-113">`LOWER ("Sample")` returns **"sample"**.</span></span>
+<span data-ttu-id="b89de-113">`LOWER ("Sample")` skilar **"sample"**.</span><span class="sxs-lookup"><span data-stu-id="b89de-113">`LOWER ("Sample")` returns **"sample"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="136df-114">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="136df-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="b89de-114">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="b89de-114">Additional resources</span></span>
 
-[<span data-ttu-id="136df-115">Textavirkni</span><span class="sxs-lookup"><span data-stu-id="136df-115">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="b89de-115">Textavirkni</span><span class="sxs-lookup"><span data-stu-id="b89de-115">Text functions</span></span>](er-functions-category-text.md)

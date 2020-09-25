@@ -18,35 +18,35 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 94ef15d1971287e8bf13944bc8f693b567950031
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e2ee153c1dde99810a78ed15c7505fa705088797
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411438"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745442"
 ---
-# <a name=""></a><span data-ttu-id="47689-103"><a name="TODAY">TODAY ER-aðgerð</a></span><span class="sxs-lookup"><span data-stu-id="47689-103"><a name="TODAY">TODAY ER function</a></span></span>
+# <a name="today-er-function"></a><span data-ttu-id="0319d-103">TODAY ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="0319d-103">TODAY ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="47689-104">Aðgerð `TODAY` skilar *Date*-gildi sem táknar netþjónsdagsetningu núverandi hugbúnaðar.</span><span class="sxs-lookup"><span data-stu-id="47689-104">The `TODAY` function returns a *Date* value that represents the current application server date.</span></span>
+<span data-ttu-id="0319d-104">Aðgerð `TODAY` skilar *Date*-gildi sem táknar netþjónsdagsetningu núverandi hugbúnaðar.</span><span class="sxs-lookup"><span data-stu-id="0319d-104">The `TODAY` function returns a *Date* value that represents the current application server date.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="47689-105">Málskipun</span><span class="sxs-lookup"><span data-stu-id="47689-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0319d-105">Málskipun</span><span class="sxs-lookup"><span data-stu-id="0319d-105">Syntax</span></span>
 
 ```xpp
 TODAY ()
 ```
 
-## <a name="return-values"></a><span data-ttu-id="47689-106">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="47689-106">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="0319d-106">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="0319d-106">Return values</span></span>
 
-<span data-ttu-id="47689-107">*Dagsetning*</span><span class="sxs-lookup"><span data-stu-id="47689-107">*Date*</span></span>
+<span data-ttu-id="0319d-107">*Dagsetning*</span><span class="sxs-lookup"><span data-stu-id="0319d-107">*Date*</span></span>
 
-<span data-ttu-id="47689-108">Dagsetningargildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="47689-108">The resulting date value.</span></span>
+<span data-ttu-id="0319d-108">Dagsetningargildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="0319d-108">The resulting date value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="47689-109">Dæmi</span><span class="sxs-lookup"><span data-stu-id="47689-109">Example</span></span>
+## <a name="example"></a><span data-ttu-id="0319d-109">Dæmi</span><span class="sxs-lookup"><span data-stu-id="0319d-109">Example</span></span>
 
-<span data-ttu-id="47689-110">`DATEFORMAT (TODAY (), "dd-MM-yyyy")` skilar núverandi dagsetningargildi hugbúnaðarþjóns, 24. desember, 2015, sem strenginn **"24-12-2015"**, miðað við tilgreint sérsniðið snið.</span><span class="sxs-lookup"><span data-stu-id="47689-110">`DATEFORMAT (TODAY (), "dd-MM-yyyy")` returns the current application server date, December 24, 2015, as the string **"24-12-2015"**, based on the specified custom format.</span></span>
+<span data-ttu-id="0319d-110">`DATEFORMAT (TODAY (), "dd-MM-yyyy")` skilar núverandi dagsetningargildi hugbúnaðarþjóns, 24. desember, 2015, sem strenginn **"24-12-2015"**, miðað við tilgreint sérsniðið snið.</span><span class="sxs-lookup"><span data-stu-id="0319d-110">`DATEFORMAT (TODAY (), "dd-MM-yyyy")` returns the current application server date, December 24, 2015, as the string **"24-12-2015"**, based on the specified custom format.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="47689-111">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="47689-111">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="0319d-111">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="0319d-111">Additional resources</span></span>
 
-[<span data-ttu-id="47689-112">Dagsetningar og tímavirkni</span><span class="sxs-lookup"><span data-stu-id="47689-112">Date and time functions</span></span>](er-functions-category-datetime.md)
+[<span data-ttu-id="0319d-112">Dagsetningar og tímavirkni</span><span class="sxs-lookup"><span data-stu-id="0319d-112">Date and time functions</span></span>](er-functions-category-datetime.md)

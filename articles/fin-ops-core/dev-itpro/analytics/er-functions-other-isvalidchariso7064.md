@@ -18,43 +18,43 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c858ad72db7afe63baca8288f312548c4fc37d5c
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 21962952bb3bdd016831dc5e196af27c69ecc6db
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041401"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744072"
 ---
-# <span data-ttu-id="56c3b-103"><a name="ISVALIDCHARACTERISO7064">ISVALIDCHARACTERISO7064 ER aðgerð</a></span><span class="sxs-lookup"><span data-stu-id="56c3b-103"><a name="ISVALIDCHARACTERISO7064">ISVALIDCHARACTERISO7064 ER function</a></span></span>
+# <a name="isvalidcharacteriso7064-er-function"></a><span data-ttu-id="81eca-103">ISVALIDCHARACTERISO7064 ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="81eca-103">ISVALIDCHARACTERISO7064 ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="56c3b-104">Aðgerðin `ISVALIDCHARACTERISO7064` skilar *Boolean*-gildinu **TRUE** ef tilgreindur strengur táknar gildan alþjóðlegan bankareikning (IBAN).</span><span class="sxs-lookup"><span data-stu-id="56c3b-104">The `ISVALIDCHARACTERISO7064` function returns a *Boolean* value of **TRUE** if the specified string represents a valid international bank account number (IBAN).</span></span> <span data-ttu-id="56c3b-105">Að öðrum kosti skilar hún *Boolean* gildinu **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="56c3b-105">Otherwise, it returns a *Boolean* value of **FALSE**.</span></span>
+<span data-ttu-id="81eca-104">Aðgerðin `ISVALIDCHARACTERISO7064` skilar *Boolean*-gildinu **TRUE** ef tilgreindur strengur táknar gildan alþjóðlegan bankareikning (IBAN).</span><span class="sxs-lookup"><span data-stu-id="81eca-104">The `ISVALIDCHARACTERISO7064` function returns a *Boolean* value of **TRUE** if the specified string represents a valid international bank account number (IBAN).</span></span> <span data-ttu-id="81eca-105">Að öðrum kosti skilar hún *Boolean* gildinu **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="81eca-105">Otherwise, it returns a *Boolean* value of **FALSE**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="56c3b-106">Málskipun</span><span class="sxs-lookup"><span data-stu-id="56c3b-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="81eca-106">Málskipun</span><span class="sxs-lookup"><span data-stu-id="81eca-106">Syntax</span></span>
 
 ```vb
 ISVALIDCHARACTERISO7064 (text)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="56c3b-107">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="56c3b-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="81eca-107">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="81eca-107">Arguments</span></span>
 
-<span data-ttu-id="56c3b-108">`text`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="56c3b-108">`text`: *String*</span></span>
+<span data-ttu-id="81eca-108">`text`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="81eca-108">`text`: *String*</span></span>
 
-<span data-ttu-id="56c3b-109">Textagildi sem táknar IBAN.</span><span class="sxs-lookup"><span data-stu-id="56c3b-109">A text value that represents an IBAN.</span></span>
+<span data-ttu-id="81eca-109">Textagildi sem táknar IBAN.</span><span class="sxs-lookup"><span data-stu-id="81eca-109">A text value that represents an IBAN.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="56c3b-110">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="56c3b-110">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="81eca-110">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="81eca-110">Return values</span></span>
 
-<span data-ttu-id="56c3b-111">*Strengur*</span><span class="sxs-lookup"><span data-stu-id="56c3b-111">*String*</span></span>
+<span data-ttu-id="81eca-111">*Strengur*</span><span class="sxs-lookup"><span data-stu-id="81eca-111">*String*</span></span>
 
-<span data-ttu-id="56c3b-112">Textagildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="56c3b-112">The resulting text value.</span></span>
+<span data-ttu-id="81eca-112">Textagildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="81eca-112">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="56c3b-113">Dæmi</span><span class="sxs-lookup"><span data-stu-id="56c3b-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="81eca-113">Dæmi</span><span class="sxs-lookup"><span data-stu-id="81eca-113">Example</span></span>
 
-<span data-ttu-id="56c3b-114">`ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")` skilar **TRUE**.</span><span class="sxs-lookup"><span data-stu-id="56c3b-114">`ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")` returns **TRUE**.</span></span> 
+<span data-ttu-id="81eca-114">`ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")` skilar **TRUE**.</span><span class="sxs-lookup"><span data-stu-id="81eca-114">`ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")` returns **TRUE**.</span></span> 
 
-<span data-ttu-id="56c3b-115">`ISVALIDCHARACTERISO7064 ("AT61")` skilar **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="56c3b-115">`ISVALIDCHARACTERISO7064 ("AT61")` returns **FALSE**.</span></span>
+<span data-ttu-id="81eca-115">`ISVALIDCHARACTERISO7064 ("AT61")` skilar **FALSE**.</span><span class="sxs-lookup"><span data-stu-id="81eca-115">`ISVALIDCHARACTERISO7064 ("AT61")` returns **FALSE**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="56c3b-116">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="56c3b-116">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="81eca-116">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="81eca-116">Additional resources</span></span>
 
-[<span data-ttu-id="56c3b-117">Other (lénsértæk virkni fyrir viðskipti)</span><span class="sxs-lookup"><span data-stu-id="56c3b-117">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+[<span data-ttu-id="81eca-117">Other (lénsértæk virkni fyrir viðskipti)</span><span class="sxs-lookup"><span data-stu-id="81eca-117">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
