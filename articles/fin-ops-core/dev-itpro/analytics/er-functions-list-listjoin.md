@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7f78b687865e63e658c1c1c4f148b50595bf063
-ms.sourcegitcommit: 54bdcf8e9b6d1b1aae2a244f7a82754879d12053
+ms.openlocfilehash: 035bf720a892e987ff9fc073ab8ed6f6cc6ea18e
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "3740664"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745106"
 ---
-# <a name=""></a><a name="LISTJOIN">LISTJOIN ER-aðgerð</a>
+# <a name="listjoin-er-function"></a>LISTJOIN ER-aðgerð
 
 [!include [banner](../includes/banner.md)]
 
@@ -73,11 +73,11 @@ Síðan slærðu inn gagnagjafann **Skrá 2** af gerðinni `Container`. Þessi g
 
 Í þessu tilfelli skilar segðin `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` nýjum lista sem inniheldur tvær skrár.
 
-![Hönnuðarsíðan ER-líkanavörpun](./media/er-functions-list-listjoin-image2.gif)
+![ER vörpun líkans hönnuður síða með tveimur færslum](./media/er-functions-list-listjoin-image2.gif)
 
 Skipulag listans samanstendur af staka reitnum **Upphæð** af gerðinni `Real` þar sem þessi reitur er eini reiturinn sem er settur fram í öllum frumbreytum sem kalla aðgerðina.
 
-![Hönnuðarsíðan ER-líkanavörpun](./media/er-functions-list-listjoin-image3.gif)
+![ER vörpun líkans hönnuður síða reitur upphæðar](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
