@@ -3,7 +3,7 @@ title: Búa til hópdagatal
 description: Skoða og stofna hópsdagatöl í Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2862c98014f91c5500ec11119d04d15bd050c89c
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: f7d11b11864f73d4405a4e3629e6873b8cd13e8d
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712209"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796470"
 ---
 # <a name="view-team-and-company-calendars"></a>Skoða dagbækur hóps og fyrirtækis
 
@@ -43,13 +43,29 @@ Stjórnendur geta einnig nálgast dagatal hópsins úr **Beiðnir um frí í bi�
 
 ## <a name="view-a-company-calendar"></a>Skoða dagatal fyrirtækisins
 
-Fólk sem er í starfsmannahlutverki getur skoðað dagatal fyrirtækja. Dagatöl fyrirtækisins sýna alla starfsmenn. Sjálfgefið er að dagatalið sýnir dagsetningu í dag auk 28 daga, en þú getur breytt tímabilinu. Þú getur líka síað dagatalið eftir **Nafn**, **Starfsmannanúmer** og **Gerð leyfis**.
+Starfsmenn með hlutverk í mannauði geta skoðað dagatöl fyrirtækisins. Dagatöl fyrirtækisins sýna alla starfsmenn. Sjálfgefið er að dagatalið sýnir dagsetningu í dag auk 28 daga, en þú getur breytt tímabilinu. Þú getur líka síað dagatalið eftir **Nafn**, **Starfsmannanúmer** og **Gerð leyfis**.
 
 1. Í **Leyfi og fjarvera** vinnusvæði, veldu **Tenglar**.
 
 2. Veldu **Orlof og fjarvistardagatal**.
 
 Hlutverk Human resources geta einnig farið í dagatal fyrirtækisins úr **Beiðnir um leyfi og fjarvistir**, **Samþykkt frí** og **Beiðnir um frí**. 
+
+[!include [banner](includes/preview-feature.md)]
+
+Dagatöl innihalda nú viðbótarsíur og valmöguleika. Í öllum dagatölum eru skoðunarmöguleikar fyrir:
+
+- Samþykktar beiðnir
+- Beiðnir sem bíða
+- Starfsfólk með leyfisbeiðnir
+- Starfsmenn án leyfisbeiðna
+- Afmæli starfsmanna
+- Fríbeiðnir 
+- Beiðnir um fjarvistarleyfi
+
+Skilgreining dagatals í leyfi og fjarvistafæribreytum ákvarðar tiltæka skoðunarvalmöguleika.
+
+Einnig er hægt að sía dagatöl eftir stjórnanda eða deild. Aðalstöðuverk ákvarðar hvaða starfsmenn birtast þegar þessar síur eru stilltar. 
 
 Fyrir upplýsingar um stillingar dagatals, sjá [Skilgreina færibreytur dagatals](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 

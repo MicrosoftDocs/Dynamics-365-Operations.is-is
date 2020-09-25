@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
-ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
+ms.openlocfilehash: 10c843670a280c86790185c8a39cb2943e2838f9
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3628910"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759936"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Leit að vöru og leit að viðskiptavinum í sölustað (POS)
 
@@ -93,7 +93,7 @@ Til að leita altækt geta starfsmenn valið hnappinn **Sía niðurstöður** ne
 
 ### <a name="enhancements-to-local-customer-search"></a>Viðbætur við staðbundna leit að viðskiptavinum
 
-Leitir sem eru byggðar á símanúmerinu hafa verið einfaldaðar. Þessar leitir hunsa nú sérstafi, t.d. bilum, bandstrikum og svigum, sem kunna að hafa verið bætt við þegar viðskiptavinurinn var búinn til. Þess vegna þurfa gjaldkerar ekki að hafa áhyggjur af símanúmersniðinu þegar þeir leita. Þeir geta einnig leitað eftir viðskiptavinum með því að slá inn hluta úr símanúmeri. Ef símanúmer inniheldur sérstafi er einnig hægt að finna það með því að leita að tölunum sem birtast eftir sérstafinu. Til dæmis, ef símanúmer viðskiptavinar var slegið inn sem **123-456-7890**, getur gjaldkeri leitað að viðskiptavinum með því að slá inn **123**, **456**, **7890** eða **1234567890** eða með því að slá inn fyrstu tölur símanúmersins.
+Leitir sem eru byggðar á símanúmerinu hafa verið einfaldaðar. Þessar leitir hunsa nú sérstafi, t.d. bilum, bandstrikum og svigum, sem kunna að hafa verið bætt við þegar viðskiptavinurinn var búinn til. Þess vegna þurfa gjaldkerar ekki að hafa áhyggjur af símanúmersniðinu þegar þeir leita. Til dæmis, ef símanúmer viðskiptavinar var slegið inn sem **123-456-7890**, getur gjaldkeri leitað að viðskiptavinum með því að slá inn **1234567890** eða með því að slá inn fyrstu tölur símanúmersins.
 
 > [!NOTE]
 > Viðskiptavinur getur haft mörg símanúmer og netföng. Reiknirit viðskiptavinaleitar leitar einnig í gegnum þessi aukalegu netföng og símanúmer, en síðan með leitarniðurstöðum um viðskiptavin sýnir aðeins aðalnetfang og aðalsímanúmer. Þetta getur valdið ruglingi því að niðurstöður um viðskiptavin sýna ekki netfangið eða símanúmerið sem leitað var að. Í síðari útgáfu er ætlunin að bæta skjámyndina fyrir leitarniðurstöður um viðskiptavin þannig að hún sýni þessar upplýsingar.

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
-ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0bf2f843401811d601b5fe90709bf995f550870
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 54da05bb6b84390f9928d8400e3dafc3228ee2fc
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771518"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759257"
 ---
 # <a name="cost-management-power-bi-content"></a>Kostnaðarstjórnun Power BI efni
 
@@ -37,7 +37,7 @@ ms.locfileid: "2771518"
 > [!NOTE]
 > **Kostnaðarstjórnun** Power BI efnið sem lýst er hér í þessu efnisatriði gildir um Dynamics 365 Finance and Operations 8.0.
 > 
-> **Kostnaðarstjórnun** Power BI efnispakki, tiltækur á AppSource síðuna, hefur verið felldur úr gildi. Nánari upplýsingar um gengislækkunina, sjá [Fjarlægðar eða úreltir aðgerðir fyrir Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> **Kostnaðarstjórnun** Power BI efnispakki, tiltækur á AppSource síðuna, hefur verið felldur úr gildi. Frekari upplýsingar um þá úreldingu er að finna í [Fjarlægðir eða úreltir eiginleikar fyrir Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Þetta Power BI efni útvegar flokkað snið sem hjálpar þér að fylgjast með afköstum birgða og sjá hvernig kostnaðurinn rennur í gegnum þær. Hægt er að öðlast innsýn í reksturinn, t.d. veltuhlutfall, fjöldi daga sem birgðir á lager, nákvæmni og „ABC-flokkun“ á völdu samanlögðu stigi (fyrirtæki, vöru, vöruflokki eða stað). Upplýsingarnar sem boðið er upp á er einnig hægt að nota sem ítarlega viðbót við fjárhagsskýrslu.
 
@@ -176,7 +176,7 @@ Gögn úr forritinu eru notuð til að fylla skýrslusíðurnar í **Kostnaðars
 
 Lykiluppsafnaðar mælingar á eftirfarandi hlutum eru notaðar sem grundvöllur Power BI-efnis.
 
-| Hlutur                          | Lykiluppsafnaðar mælingar | Gagnagjafi fyrir Finance and Operations | Svæði               |
+| Hlutur                          | Lykiluppsafnaðar mælingar | Slóð gagnagjafa fyrir Finance and Operations | Svæði               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
 | CostObjectStatementCacheMonthly | Upphæð                     | CostObjectStatementCache               | Upphæð              |
 | CostObjectStatementCacheMonthly | Magn                   | CostObjectStatementCache               | Magn                 |
@@ -193,10 +193,10 @@ Eftirfarandi tafla sýnir helstu útreiknuðu mælingarnar í Power BI-efninu.
 | Lokastaða magns                | Lokastaða magns = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar), FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
 | Nettó breyting                         | Nettóbreyting = SUM(\[AMOUNT\]) |
 | Nettóbreyting magns                    | Nettóbreyting magns = SUM(\[QTY\]) |
-| Hlutfall birgðaveltu eftir upphæð | Hlutfall birgðaveltu eftir upphæð = if(OR(\[Meðaltalsstaða birgða\] \<= 0, \[Atriði er varðar seldar eða notaðar birgðir\] \>= 0), 0, ABS(\[Atriði er varðar seldar eða notaðar birgðir\])/\[Meðaltalsstaða birgða\]) |
+| Hlutfall birgðaveltu eftir upphæð | Hlutfall birgðaveltu eftir upphæð = if(OR(\[Meðaltalsstaða birgða\] \<= 0, \[Inventory sold or consumed issues\] \>= 0, 0, ABS(\[Atriði er varðar seldar eða notaðar birgðir\])/\[Meðaltalsstaða birgða\]) |
 | Meðaltalsstaða birgða          | Meðaltalsstaða birgða = ((\[Lokastaða\] + \[Upphafsstaða\]) / 2) |
 | Dagar lagerbirgða             | Dagar lagerbirgða = 365 / CostObjectStatementEntries\[Hlutfall birgðaveltu eftir upphæð\] |
-| Birgðanákvæmni                 | Birgðanákvæmni eftir upphæð = IF(\[Lokastaða\] \<= 0, IF(OR(\[Talin upphæð birgða\] \<\> 0, \[Lokastaða\] \< 0), 0, 1), MAX(0, (\[Lokastaða\] - ABS(\[Talin upphæð birgða\]))/\[Lokastaða\])) |
+| Birgðanákvæmni                 | Birgðanákvæmni eftir upphæð = IF(\[Lokastaða\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[Lokastaða\] \< 0), 0, 1), MAX(0, (\[Lokastaða\] - ABS(\[Talin upphæð birgða\]))/\[Lokastaða\])) |
 
 Eftirfarandi lykilvíddir eru notaðar sem síur til að sneiða uppsafnaðar mælingar þannig að hægt sé að veita meiri uppskiptingu og dýpri greiningarinnsýn.
 

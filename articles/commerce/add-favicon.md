@@ -3,7 +3,7 @@ title: Bæta við táknmynd
 description: Þetta efni útskýrir hvernig á að bæta við táknmynd á vefsíðuna.
 author: bicyclingfool
 manager: annbe
-ms.date: 04/27/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686791"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761154"
 ---
 # <a name="add-a-favicon"></a>Bæta við táknmynd
 
@@ -58,30 +58,30 @@ Til að búa til HTML fyrir táknmyndina skal nota eftirfarandi HTML-streng. Fyr
 
 `<link rel="shortcut icon" href="Public_URL_for_your_favicon">`
 
-## <a name="create-a-page-fragment-that-contains-a-metatag-for-your-favicon"></a>Búa til síðubrot sem inniheldur lýsimerki fyrir táknmyndina þína
+## <a name="create-a-fragment-that-contains-a-metatag-for-your-favicon"></a>Búa til brot sem inniheldur lýsimerki fyrir táknmyndina þína
 
-Til að búa til síðubrot sem inniheldur lýsimerki fyrir táknmyndina þína skal fylgja þessum skrefum.
+Til að búa til brot sem inniheldur lýsimerki fyrir táknmyndina þína skal fylgja þessum skrefum.
 
 1. Farðu í **Brot** og veldu **Nýtt**.
-1. Í svarglugganum **Nýtt síðubrot** skal velja **Lýsimerki** sem eininguna sem síðubrotið byggir á.
-1. Sláðu inn heiti fyrir síðubrotið og veldu **Í lagi**.
+1. Í svarglugganum **Nýtt brot** skal velja **Lýsimerki** sem eininguna sem brotið byggir á.
+1. Sláðu inn heiti fyrir brotið og veldu svo **Í lagi**.
 1. Í trjástigveldi brotsins skal velja undireininguna **Sjálfgefin lýsimerki**.
 1. Í svæðinu hægra megin, undir **Lýsimerki**, skal velja **Bæta við** og síðan slá inn HTML-strenginn sem var áður búinn til fyrir táknmyndina. 
-1. Veldu **Ljúka við breytingar** og síðan **Birta** til að birta síðubrotið.
+1. Veldu **Ljúka við breytingar** og síðan **Birta** til að birta brotið.
 
-## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a>Bæta síðubroti lýsimerkis við HTML-haus síðanna þinna
+## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Bæta broti lýsimerkis við HTML-haus síðanna þinna
 
-Til að bæta síðubroti lýsimerkis við **haus** HTML-svæðis síðanna þinna skal fylgja þessum skrefum.
+Til að bæta broti lýsimerkis við **haus** HTML-svæðis síðanna þinna skal fylgja þessum skrefum.
 
 1. Farðu í **Sniðmát**, opnaðu sniðmátið fyrir síðurnar sem þú vilt bæta táknmyndinni þinni við og veldu síðan **Breyta**.
-1. Í trjástigveldi sniðmátsins skal velja hnapp úrfellingarmerkis (**...**) hægra megin við hólfið **HTML-haus** og velja síðan **Bæta við síðubroti**.
-1. Í svarglugganum **Velja síðubrot** skal velja síðubrot lýsimerkis sem var áður búið til og velja síðan **Í lagi**.
+1. Í trjástigveldi sniðmátsins skal velja hnapp úrfellingarmerkis (**...**) hægra megin við hólfið **HTML-haus** og velja síðan **Bæta við broti**.
+1. Í svarglugganum **Velja brot** skal velja síðubrot lýsimerkis sem var áður búið til og velja síðan **Í lagi**.
 1. Veldu **Ljúka við breytingar** og síðan **Birta** til að birta sniðmátið.
 
 > [!NOTE]
-> Ef svæðið þitt notar meira en eitt sniðmát þarftu að bæta síðubroti lýsismerkjanna við þau öll.
+> Ef svæðið þitt notar meira en eitt sniðmát þarftu að bæta broti lýsismerkjanna við þau öll.
 
-Þegar síður, sem byggja á sniðmátinu sem síðubrot lýsimerkjanna var bætt við, eru forskoðaðar ættir þú að sjá táknmyndina í vafraglugganum.
+Þegar síður, sem byggja á sniðmátinu sem brot lýsimerkjanna var bætt við, eru forskoðaðar ættir þú að sjá táknmyndina í vafraglugganum.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

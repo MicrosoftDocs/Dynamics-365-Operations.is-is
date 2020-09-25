@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 785797af0fe62fa6d0ee40fb4df45bcec47780c7
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: b01162f034a948a94139aed66b7ec8d2e861ee9b
+ms.sourcegitcommit: 4b63e71fb031d8f47bd9e72dd9cdfb9bc7ef2efc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598085"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3789749"
 ---
 # <a name="regulatory-updates"></a>Regluuppfærslur
 
@@ -42,6 +42,12 @@ Fyrir nýjustu áætlanir á uppfærslu á reglum skal skoða eftirfarandi töfl
 
 |Land|Áætluð útgáfudagsetning|Losunarútgáfa|Regluuppfærsla|
 |--------------------|---------------|-------|-------|
+|      Austurríki         |   2020. september      | 10.0.15      |   VSK-skýrslusnið U30 hefur verið uppfært fyrir 2020 skýrslugerð   |
+|      Barein         |   Júlí 2020      | 10.0.12      |   Bakfært gjald   |
+|      Barein         |   Júlí 2020      | 10.0.12      |   Tímamörk útgáfu reiknings (GCC)   |
+|      Barein         |   Júlí 2020      | 10.0.12      |   VSK-skýrsla fyrir Barein   |
+|      Barein         |   Júlí 2020      | 10.0.12      |   Sölureikningar fyrir Barein   |
+|      Brasilía         |   Ágúst 2020      | 10.0.14, 10.0.13, 10.0.12      |   ADRCST-skýrsla PR   |
 |      Brasilía         |   2020. mars      | 10.0.11      |   SPED ECD útlit 8   |
 |      Brasilía         |   2020. apríl      | 10.0.11      |   Tæknilýsing NT2019.001 v1.40   |
 |      Brasilía         |   2020. maí      | 10.0.12, 10.0.11HF      |   ADCR ICMS-ST yfirlýsing fyrir Paranafylki   |
@@ -50,21 +56,35 @@ Fyrir nýjustu áætlanir á uppfærslu á reglum skal skoða eftirfarandi töfl
 |      Tékkland      |   Júlí 2020      | 10.0.13      |   Breytingar á VSK-stýringaryfirliti í XML-skema (skráning reiknings)   |
 |      Tékkland         |   Júlí 2020      | 10.0.13      |   VSK-skýrsla í XML, forskoða VSK-skýrslu í Excel og VSK-yfirlitsskýrsla á XML-sniði út frá skattskýrslulíkani   |
 |      Eistland         |   2020. maí       | 10.0.11      |   Rafræn reikningsfærsla í Eistlandi: útflutningur viðskiptavinareikninga í tiltekinni eistneskri sniðsútgáfu 1.2.  |
+|      Evrópa        |   Ágúst 2020       | 10.0.14      |   Flytja VSK-númer samstarfsaðila til Intrastat  |
+|      Finnland         |   Júlí 2020       | 10.0.13      |   Stuðningur við rafræna reikninga fyrir Finnland  |
 |      Þýskaland         |   2020. maí       | 10.0.12      |   Þýskaland - Smásala - Kröfur afgreiðslukassa    |
 |      Ungverjaland         |   2020. mars       | 10.0.11     |   Reikningsfærslukerfi á netinu v.2.0 í Finance and Operations    |
+|      Indland         |   Ágúst 2020, júlí 2020      | 10.0.3, 10.0.12HF      |   TCS fyrir Sölu á vörum eins og í kafla 206C (1H) - þröskuldur fyrir PAN-byggða uppsöfnun færslna.  |
+|      Indland         |   Ágúst 2020, júní 2020      | 10.0.13, 10.0.12HF      |   Kredit-/Debetnóta á móti útflutningi reiknings  |
+|      Indland         |   Ágúst 2020      | 10.0.13, 10.0.12HF, 10.0.11HF      |   Rafrænn reikningur samkvæmt GST  |
+|      Indland         |   2020. maí      | 10.0.13, 10.0.12      |   Ný skilasnið fyrir GSTR-1 og GSTR-2  |
+|      Indland         |   Júlí 2020      | 10.0.13      |   Nýtt GSTR (ANX-1 & ANX-2) ótengt verkfæri (beta-útgáfa)  |
 |      Indland         |   2020. maí      | 10.0.12      |   Endurbætur á meðhöndlun einingarverðs og kostnaðarverðs í flutningspöntunum birgða  |
 |      Indland         |   2020. maí      | 10.0.12      |   Birgðaflutningar á sama skatthlutfalli á sama tíma og sending og kvittun (þar með talin hlutakvittun)  |
 |      Ítalía         |   2020. maí      | 10.0.12, 10.0.11      |   Modello 770 / 2019 sniðsbreyting |
 |      Ítalía         |   Júlí 2020      | 10.0.13, 10.0.12HF      |   Breytingar á sniði ítalskra rafrænna reikninga - FatturaPA |
+|      Kúveit         |   Júlí 2020      | 10.0.12      |   Bakfært gjald |
+|      Malasía         |   Júlí 2020      | 10.0.13      |   SST-skýrsla |
+|      Mexíkó         |   2020. september      | 10.0.13HF, 10.0.12HF, 10.0.11HF      |   CFDI-slóð skemastaðsetningar byggð á Anexo 20-skjali |
 |      Noregur          |   2020. maí   | 10.0.12     |   Endurhönnun SAF-T-skýrslu: Opnunarstöður eftir „virkum“ færslugerðum og skattaupplýsingar í gjaldmiðli skattkóða í Finance (útgáfa 10) |
 |      Noregur          |   2020. maí   | 10.0.12     |   Breyting á svarglugga SAF-T-skýrslu: til að bjóða upp á möguleika á því að velja tengilið milli fyrirtækja |
 |      Noregur          |   2020. maí   | 10.0.12     |   SAF-T heitisbil í yfirlýsingum í hverri línu í staðinn fyrir í haus eingöngu |
+|      Óman         |   Júlí 2020      | 10.0.12H      |   Bakfært gjald |
+|      Pólland          |   2020. september     | 10.0.14     |   Pólland: JPK-V7M (VDEK) Excel-snið - til að skipta út SSRS-skýrslum  |
 |      Pólland          |   2020. maí     | 10.0.11     |   Skiptu AP/AR innleystri gengismunarupphæð í gengismun á reikningsvirði og virðisaukaskattsupphæð  |
 |      Pólland          |   2020. maí     | 10.0.11     |   SAF bókhaldsbækur - endurbætur á síun bókunarlaga |
 |      Pólland          |   2020. mars     | 10.0.11     |   JPK_VDEK viðbótarpakki I |
 |      Pólland          |   2020. maí     | 10.0.12     |   JPK_VDEK viðbótarpakki II |
 |      Pólland          |   2020. mars     | 10.0.11     |   Kreditnóta að hluta til fyrir sölupöntun með fyrirframgreiðslureikningi |
 |      Pólland          |   Júlí 2020     | 10.0.13     |   Áskildar úrbætur vegna skiptingar greiðslu |
+|      Katar         |   Júlí 2020      | 10.0.12H      |   Bakfært gjald |
+|      Rússland          |   Ágúst 2020     | 10.0.14    |   Snið bókhaldsskýrslugerðar er að breytast frá árinu 2020  |
 |      Rússland          |   Júlí 2020     | 10.0.13    |   Afskriftarútreikningur á grunni stofnkostnaðar og helstu viðgerða með því að nota viðbótarafskriftir í skattaútreikningi  |
 
 

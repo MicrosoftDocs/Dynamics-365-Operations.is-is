@@ -3,7 +3,7 @@ title: Kökusamræmi
 description: Þetta efni lýsir forsendum varðandi samræmi við vafrakökur og sjálfgefnar reglur sem fylgja Microsoft Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 06/12/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e1fa016dc9f46b048220f0f83e4b0783087de91e
-ms.sourcegitcommit: c66c4c67a21e7d7d3a94a3fd766c3184b6e65c4e
+ms.openlocfilehash: 4f54b9b8130a167dbecdb13fccd7039f827f6ed0
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3446914"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761322"
 ---
 # <a name="cookie-compliance"></a>Kökusamræmi
 
@@ -56,6 +56,10 @@ Eftirfarandi tafla sýnir núverandi tilvísunarlista yfir smákökur settur inn
 | x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Notað til að viðhalda SSO-lotunni.                        |
 | x-ms-cpim-trans                             | Notað til að rekja færslur (fjöldi opinna flipa sem sannvottar vefsvæði viðskipta við neytanda (B2C)), þar með talið núverandi færslu. |
 
+## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Samþykki fyrir kökur á svæði notanda á vefsvæði e-Commerce 
+
+Ef eiginleiki einingu rafrænna viðskipta notar köku sem ekki er nauðsynleg þarf að sækja samþykki notanda áður en kakan er rakin. Til að leyfa notendum vefsvæðis að veita samþykki fyrir kökur á svæði rafrænna viðskipta verður höfundur síðu að bæta við og grunnstilla samþykkiseining köku í hauseiningu síðu til að tryggja að beðið sé um samþykki og það móttekið. Gefa þarf notendasamþykki vefsvæðis áður en hægt er að nota eiginleika eða einingu án nauðsynlegrar köku á síðu svæðis.
+
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 [Aðgengiseiginleikar og -geta](accessibility.md)
@@ -65,3 +69,7 @@ Eftirfarandi tafla sýnir núverandi tilvísunarlista yfir smákökur settur inn
 [Bæta við persónuverndarstefnusíðu](add-privacy-page.md)
 
 [Skipta um notandakenni sem tengjast röktum efnisbreytingum](replace-IDs-tracked-changes.md)
+
+[Eining kökusamþykkis](cookie-consent-module.md) 
+ 
+[Eining síðuhauss](author-header-module.md)

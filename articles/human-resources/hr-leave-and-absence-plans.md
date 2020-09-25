@@ -3,7 +3,7 @@ title: Búa til leyfis- og fjarvistaáætlun
 description: Búðu til orlofstímabil í Dynamics 365 Human Resources fyrir mismunandi tegundir orlofs.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 75a70c5784e7032cfebbe58c1d173923a3023507
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428710"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796498"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Búa til leyfis- og fjarvistaáætlun
 
@@ -43,7 +43,15 @@ Til dæmis, með skipulagðri áætlun, geturðu veitt nýjum starfsmönnum 80 t
 
 2. Undir **Upplýsingar**, sláðu inn **Nafn**, **Upphafsdagur**, **Lýsing**, og **Skildu eftir tegund** fyrir áætlun þína.
 
-Ef aðgerðin **Stilla margar leyfisgerðir fyrir eina orlofs- og fjarveruáætlun** er virkjuð eru leyfisgerðir stilltar í **Uppsöfnunaráætlun** í stað undir **Upplýsingar**. Fyrir hverja færslu í uppsöfnunartöflu töflunni er hægt að skilgreina leyfisgerð.
+Ef aðgerðin **Stilla margar leyfisgerðir fyrir eina orlofs- og fjarveruáætlun** er virkjuð eru leyfisgerðir stilltar í **Uppsöfnunaráætlun** í stað undir **Upplýsingar**. Fyrir hverja færslu í uppsöfnunartöflu töflunni er hægt að skilgreina leyfisgerð. Þegar þessi eiginleiki er virkur þarf einnig að nota nýja gagnaeiningar fyrir samþættingu eða aðrar aðstæður þar sem nota þarf einingar. 
+
+Nýju einingarnar eru:
+
+- Bankafærsla yfir leyfi og fjarvistir V2
+- Skráning leyfis og fjarvista V2
+- Áætlunarskil leyfis og fjarvista V2
+- Áætlun leyfis og fjarvista V2
+- Beiðni um frí V2
 
  > [!IMPORTANT]
    > Eftir að þessi eiginleiki hefur verið virkjaður er ekki hægt að slökkva á honum.

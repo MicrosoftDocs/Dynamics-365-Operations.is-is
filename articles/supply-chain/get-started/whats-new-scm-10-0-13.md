@@ -1,5 +1,5 @@
 ---
-title: Kynning á eiginleikum í Dynamics 365 Supply Chain Management 10.0.13 (október 2020)
+title: Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.13 (október 2020)
 description: Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Dynamics 365 Supply Chain Management 10.0.13.
 author: kamaybac
 manager: tfehr
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: dae936ea9a72b865096cdda54d767f3e44816e20
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: af468f0cc5d5f1baab62afb3cf90dfca353b3291
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652242"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802944"
 ---
-# <a name="preview-features-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Kynning á eiginleikum í Dynamics 365 Supply Chain Management 10.0.13 (október 2020)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.13 (október 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Supply Chain Management forskoðunarútgáfu 10.0.13. Þessi útgáfa er með byggingarnúmer 10.0.569 og er fáanlegt á eftirfarandi hátt: 
+Í þessu efnisatriði er að finna lýsingu á nýjum eða breyttum eiginleikum í Microsoft Dynamics 365 Supply Chain Management forskoðunarútgáfu 10.0.13. Þessi útgáfa er með byggingarnúmer 10.0.569 og er fáanlegt á eftirfarandi hátt:
 
 - **Prufuútgáfa:** Ágúst 2020
 - **Almennt framboð (sjálfsuppfærsla):** September 2020
@@ -61,7 +60,7 @@ Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengj
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir forrit Finance and Operations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.13 inniheldur verkvangsuppfærslur. Frekari upplýsingar má finna í [Verkvangsuppfærslur fyrir útgáfu 10.0.13 á forritum Finance and Operations (október 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-13.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.13 inniheldur verkvangsuppfærslur. Frekari upplýsingar má finna í [Verkvangsuppfærslur fyrir útgáfu 10.0.13 á forritum Finance and Operations (október 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13.md).
 
 ### <a name="bug-fixes"></a>Villuleiðréttingar
 

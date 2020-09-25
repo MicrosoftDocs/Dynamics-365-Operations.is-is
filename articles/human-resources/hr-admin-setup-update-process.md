@@ -3,7 +3,7 @@ title: Uppfærsluferli
 description: Microsoft Dynamics 365 Human Resources er sannur hugbúnaður sem þjónusta (SaaS) sem veitir stöðugar, snertilausar þjónustuuppfærslur fyrir breytingar á forriti og verkvangi.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/27/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 006f3c7218436c1c70e29e51f8b1b784ae36b2dd
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: be9be5509f933ecbda5bf6d040027a7bac8b666d
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431177"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759960"
 ---
 # <a name="update-process"></a>Uppfærsluferli
 
@@ -33,7 +33,7 @@ Microsoft Dynamics 365 Human Resources er sannur hugbúnaður sem þjónusta (Sa
 
 Uppfærslur eru gefnar út með reglubundnum hætti fyrir öll umhverfi. Human Resources er stutt samkvæmt [Microsoft Lifecycle policy](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy) sem býður upp á stöðugar og einfaldar leiðbeiningar fyrir tiltækileika stuðnings við vöru.
 
-## <a name="release-cadence"></a>Losunartaktur
+## <a name="release-cadence"></a>Losunartaktur 
 
 Uppfærslum á Human Resources er beitt sjálfkrafa í öll umhverfi. Human Resources veitir tvenns konar útgáfur:
 
@@ -56,14 +56,12 @@ Uppfærslum á Human Resources er beitt sjálfkrafa í öll umhverfi. Human Reso
 
 ## <a name="release-cadence-exceptions-in-2020"></a>Undantekningar á útgáfutíðni árið 2020
 
-Eftirfarandi dagsetningar eru undantekningar frá venjulegri útgáfuáætlun:
+Til að taka með frídaga er úttektaráætlun fyrir nóvember og desember 2020 sem hér segir:
 
-| Dagsetning | lýsing |
-| --- | --- |
-| Vikan 23. nóvember | Engar uppfærslur |
-| Vikan 14. desember | Aðeins minni uppfærslur |
-| Vikan 21. desember | Engar uppfærslur |
-| Vikan 28. desember | Engar uppfærslur |
+- Nóvemberútgáfa: 2. nóvember til 13. nóvember
+- Desemberútgáfa: 30. nóvember til 11. desember
+ 
+Tveggja vikna útgáfa mun halda áfram eins og venjulega þann 11. janúar 2021.
 
 ## <a name="communications"></a>Samskipti
 
