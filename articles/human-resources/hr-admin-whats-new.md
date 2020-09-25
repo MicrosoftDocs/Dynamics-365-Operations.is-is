@@ -1,9 +1,9 @@
 ---
-title: Nýjungar eða breytingar í Human Resources
-description: Í hverri viku leggjum við fram nýja útgáfu fyrir Microsoft Dynamics 365 Human Resources. Greinarnar sem eru skráðar hérna fjalla um breytingar sem gerðar voru í hverri viku.
+title: Nýjungar eða breytingar í Mannauði
+description: Í hverri viku leggjum við fram nýja útgáfu fyrir Microsoft Dynamics 365 Human Resources. Efnisatriðin sem eru skráð hér fjalla um breytingar sem gerðar eru í hverri viku.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/06/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 34e80ace6a0676e5702f633554a5f241cc8b00a7
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: f814395405003464e9f101fb0f46b64e64971b68
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712175"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760302"
 ---
-# <a name="whats-new-or-changed-in-human-resources"></a>Nýjungar eða breytingar í Human Resources
+# <a name="whats-new-or-changed-in-human-resources"></a>Nýjungar eða breytingar í Mannauði
 
-Á tveggja vikna fresti leggjum við fram nýja útgáfu fyrir Microsoft Dynamics 365 Human Resources. Greinarnar í þessum kafla fjalla um breytingar sem gerðar eru með hverri útgáfu.
+Á tveggja vikna fresti leggjum við fram nýja útgáfu fyrir Microsoft Dynamics 365 Human Resources. Efnisatriðin sem eru skráð hér fjalla um breytingar sem gerðar með hverri útgáfu.
 
-Nánari upplýsingar um komandi eiginleika eða uppfærsluferlið fyrir Human Resources, sjá eftirfarandi greinar:
+>[!NOTE]
+>Til að taka með frídaga er úttektaráætlun fyrir nóvember og desember 2020 sem hér segir:
+>
+>- Nóvemberútgáfa: 2. nóvember til 13. nóvember
+>- Desemberútgáfa: 30. nóvember til 11. desember
+> 
+>Tveggja vikna útgáfa mun halda áfram eins og venjulega þann 11. janúar 2021.
+
+Nánari upplýsingar um komandi eiginleika eða uppfærsluferlið fyrir Human Resources, sjá eftirfarandi greinar: 
 
 - [Yfirlit yfir Dynamics 365 Human Resources Losunarbylgja 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
@@ -41,6 +49,7 @@ Nánari upplýsingar um komandi eiginleika eða uppfærsluferlið fyrir Human Re
 
 Til að sjá hvað er nýtt eða breytt í hverri hálfsmánaðarlegri útgáfu af Human Resources skal sjá eftirfarandi greinar:
 
+[3. september 2020](hr-whats-new-2020-09-03.md)</br>
 [20. ágúst 2020](hr-whats-new-2020-08-20.md)</br>
 [6. ágúst 2020](hr-whats-new-2020-08-06.md)</br>
 [23. júlí 2020](hr-whats-new-2020-07-23.md)</br>

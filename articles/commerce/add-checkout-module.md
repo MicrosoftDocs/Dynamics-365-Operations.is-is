@@ -3,7 +3,7 @@ title: Greiðsluferliseining
 description: Þetta efni lýsir hvernig bæta skal greiðsluferliseiningu við nýja síðu og stilla nauðsynlega eiginleika.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d913fdc9ab9a3dbf7d5534fba38add7f942652a
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 389e3e9d631574eac499f7c6146e2776b8126a52
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686743"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761106"
 ---
 # <a name="checkout-module"></a>Greiðsluferliseining
 
@@ -97,8 +97,8 @@ Flestar greiðsluupplýsingar, svo sem póstfang og sendingaraðferð, eru geymd
 Fylgdu þessum skrefum til að bæta greiðsluferliseiningu við nýja síðu og stilla nauðsynlega eiginleika.
 
 1. Farðu í **Brot** og veldu **Nýtt** til að búa til nýtt brot.
-1. Í svarglugganum **Nýtt síðubrot** skal velja eininguna **Greiðsluferli**.
-1. Undir **Heiti síðubrots** skal slá inn heitið **Greiðsluferlisbrot** og síðan velja **Í lagi**.
+1. Í svarglugganum **Nýtt brot** skal velja eininguna **Greiðsluferli**.
+1. Undir **Heiti brots** skal slá inn heitið **Greiðsluferlisbrot** og síðan velja **Í lagi**.
 1. Veldu hólfið **Greiðsluferliseining**.
 1. Hægra megin á eiginleikasvæðinu skal velja blýantstáknið, slá inn texta fyrirsagnar í reitinn og síðan velja gátmerkistáknið.
 1. Í hólfinu **Upplýsingar um greiðsluferli** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.

@@ -3,7 +3,7 @@ title: Neðanmálseining
 description: Þetta efni fjallar um neðanmálseiningar og hvernig á að stofna þær í Microsoft Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e81617979a945274500c9f4ceaa8078d8dfd79e8
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 6dd9f214fbeeeaabadac4853916363c20a3288ca
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686719"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761202"
 ---
 # <a name="footer-module"></a>Neðanmálseining  
 
@@ -51,7 +51,7 @@ Eins og á við um flesta gáma, styður neðanmálseiningin eiginleika fyrir fy
 ## <a name="create-a-footer-module"></a>Búa til neðanmálseiningu
 
 1. Farðu í **Brot** og veldu **Nýtt** til að búa til nýtt brot.
-1. Í glugganum **Nýtt síðubrot** skal velja eininguna **Hólf**, slá inn heiti fyrir síðubrotið og síðan velja **Í lagi**.
+1. Í glugganum **Nýtt brot** skal velja eininguna **Hólf**, slá inn heiti fyrir brotið og síðan velja **Í lagi**.
 1. Í hólfinu **Sjálfgefið hólf** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
 1. Í glugganum **Bæta við einingu** skal velja eininguna **Neðanmálsflokkur** og síðan velja **Í lagi**.
 1. Í hólfinu **Neðanmálsflokkur** skal velja úrfellingarmerkið (**...**) og síðan velja **Bæta við einingu**.
@@ -68,7 +68,7 @@ Til að tryggja að haus birtist á hverri síðu, fylgdu þessum skrefum á hve
 1. Í hólfinu **Neðanmál** í einingunni **Sjálfgefin síða** skal bæta við neðanmálsbrotinu sem var búið til.
 1. Veldu **Ljúka við breytingar** til að athuga með sniðmátið og veldu síðan **Birta** til að birta það.
 
-Með því að bæta síðusniðinu við síðusniðmát tryggirðu að neðanmálið sé sett á hverja síðu.
+Með því að bæta broti við síðusniðmát hjálpar þú til við að tryggja að fóturinn birtist á hverri síðu.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

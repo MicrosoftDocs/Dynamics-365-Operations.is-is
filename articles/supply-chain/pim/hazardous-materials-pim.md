@@ -19,16 +19,17 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2019-10-14
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 079c8d23250368c92e5d79f0e2624f8340db2077
-ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
+ms.openlocfilehash: 54e5dca38b31c9310d44bdda5f5af14ca1515541
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699537"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802702"
 ---
 # <a name="hazardous-materials"></a>Hættuleg efni
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Upplýsingar um hættuleg efni eru sett upp í upplýsingastjórnun afuðar. Þessi eining veitir einnig skjöl sem hægt er að prenta með vörugeymslu.
 

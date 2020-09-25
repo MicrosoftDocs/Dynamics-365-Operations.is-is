@@ -3,7 +3,7 @@ title: Fjarlægðir eða úreltir eiginleikar verkvangs
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í verkvangsuppfærslum á forritum Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 08/10/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8b26ad668b6cc15d759e10952c042acd5e85bdea
-ms.sourcegitcommit: 4909e55529f03310d24b7e40d52751e24d35259b
+ms.openlocfilehash: b2d54cfaddc1697eda543952831e745182df2753
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3678223"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803140"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fjarlægðir eða úreltir eiginleikar verkvangs
 
@@ -37,8 +37,6 @@ ms.locfileid: "3678223"
 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.13 á forritum Finance and Operations
 
-> [!NOTE]
-> Útgáfa 10.0.13 er forútgáfa. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í hlutanum [Framboð þjónustuuppfærslu](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>Sérstilltur kóði skilgreindur í eiginleikum SSRS-skýrslu 
 

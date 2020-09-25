@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a23e445fa6a3133c5248aef1e5dc9fdf5aeb162
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209215"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813835"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Heimasíða Innkaupa og aðfanga
 
@@ -55,7 +55,7 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 -   [Samstarf lánardrottna við viðskiptavini](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Stjórna notendum fyrir samstarf lánardrottna](manage-vendor-collaboration-users.md)
 -   [Uppsetning og viðhald samstarfs lánardrottna](set-up-maintain-vendor-collaboration.md)
--   [Dæmi um forskrift fyrir vörusendingabirgðir á innleið fyrir Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(hvítbók)
+-   [Dæmi um forskrift fyrir vörusendingabirgðir á innleið fyrir Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(hvítbók)
 -   [Fylgjast með vörusendingabirgðum með samstarfi lánardrottna](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Samstarf við lánardrottna með því að nota gátt lánardrottins](collaborate-vendors-vendor-portal.md) (einungis febrúar 2016 og maí 2016 útgáfur Dynamics AX)
 -   [Öryggi notanda í gátt lánardrottins](configure-security-vendor-portal-users.md) (2016 og maí 2016 útgáfur Finance and Operations eingöngu)
@@ -98,7 +98,7 @@ Innkaup og aðföng fjallar um öll skrefin frá því að greind er þörf fyri
 -   [Verkflæði innkaupa og aðfanga](procurement-sourcing-workflows.md)
 -   [Skrá vörumóttöku í innkaupapöntun](tasks/record-receipt-goods-purchase-order.md)
 -   [Verkflæði innkaupabeiðni](purchase-requisitions-workflow.md)
--   [Skilgreina viðskiptaferli verkflæði fyrir innkaupabeiðnir](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (hvítbók)
+-   [Skilgreina viðskiptaferli verkflæði fyrir innkaupabeiðnir](https://www.microsoft.com/download/details.aspx?id=101821) (hvítbók)
 -   [Yfirlit yfir innkaupareglur](purchase-policies.md)
 -   [Stofna innkaupastefnu](tasks/create-purchasing-policies.md)
 

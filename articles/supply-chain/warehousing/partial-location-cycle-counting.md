@@ -3,7 +3,7 @@ title: Hlutastaðsetning reglulegrar talningar
 description: Áætlanir um reglulega talningu stýra raunverulegum talningaraðgerðum. Hægt er að biðja um að aðeins tilteknar afurðir og afurðaafbrigði séu talin í stað þess að allar efnislegar lagerbirgðir í staðsetningu séu taldar.
 author: perlynne
 manager: tfehr
-ms.date: 11/02/2017
+ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f07c7754dbe36334e8972d49edf9fb84a78f5d0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 46365f618b13c2bcaef9a45d2a835fda27019857
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215678"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760008"
 ---
 # <a name="partial-location-cycle-counting"></a>Hlutastaðsetning reglulegrar talningar
 
@@ -45,7 +45,7 @@ Ef þú tengir áætlanir fyrir reglulega talningu við vinnusniðmát með þv�
 
 Áður en vinna við reglulega talningu að hluta getur farið í ferli verður þú að minnsta kosti að velja **Birta vörunúmer** fyrir valmyndaratriði fartækja sem hluta af uppsetningu reglulegrar talningar. Starfsmaður í vöruhúsi verður beðinn að skrá aðeins talningarupplýsingar sem tengjast talningarlínum (vörunúmer og afurðarvíddir). Allar aðrar efnislegar lagerbirgðir verða hunsaðar fyrir þetta talningarferli. 
 
-Á meðan regluleg talning að hluta fer fram uppfærist dagsetning/tími í **Síðasta reglulega talning** ekki fyrir staðsetninguna.
+Fyrir hlutatalningu uppfærist ekki **Síðasta reglulega talning** dagsetning/tími fyrir staðsetninguna, jafnvel þó svo að allar vörur í birgðum á staðsetningunni séu taldar. Hlutatalning telur ekki með færibreytuna **Dagar á milli reglulegrar talninga** á síðunni **Áætlanir um reglulega talningu**. Hlutatalning styður ekki samtímis talningar á mörgum vörum á sama stað. Hlutatalning getur leitt til þess að sama staðsetning sé talin mörgum sinnum fyrir vöru þegar **Vinna úr áætlun um reglulega talningu** er keyrð. Til að koma í veg fyrir þessar aðstæður skal tilgreina síur í reitnum **Velja staðsetningar**.
 
 ## <a name="example"></a>Dæmi
 Í þessu dæmi þarf aðeins að telja vörunúmer A0001 í vöruhúsi 61.

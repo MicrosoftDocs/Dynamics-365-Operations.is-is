@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6585e44701160bf31c107c07226f992b12cf035e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 207783f5a44d5c6432539ac27a8c491bca811da4
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550649"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760032"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Rekja framkvæmd á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum
 
@@ -101,7 +101,7 @@ Gerum ráð fyrir að þú hafir byrjað að hanna nýja lausn rafrænnar skýrs
 
 Gerum ráð fyrir að þú hafir lokið við að hanna fyrstu útgáfu af lausn rafrænnar skýrslugerðar. Núna viltu prófa hana í tilviki og greina afköst keyrslu.
 
-### <a id='import-configuration'></a>Flytja inn skilgreiningu rafrænnar skýrslugerðar úr RCS í Finance and Operations
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Flytja inn skilgreiningu rafrænnar skýrslugerðar úr RCS í Finance and Operations
 
 1. Skráðu þig inn á forritstilvikið.
 2. Fyrir þessa leiðsögn flytur þú inn skilgreiningar úr RCS-tilvikinu þínu (þar sem þú hannar þætti rafrænnar skýrslugerðar) í tilvik (þar sem þú prófar og að lokum notar þær). Þess vegna verður þú að ganga úr skugga um að allir nauðsynlegir gervingar hafi verið undirbúnir. Til að fá leiðbeiningar skal sjá ferlið [Flytja inn skilgreiningar rafrænnar skýrslugerðar úr Skilgreiningarþjónustu reglugerðar (RCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations).
@@ -146,7 +146,7 @@ Samsvarandi útgáfur af skilgreiningum gagnalíkans og líkanavörpunar eru flu
 
     ![Svarglugginn Notandafæribreytur](./media/GER-PerfTrace-GER-UserParameters.png)
 
-### <a id='run-format'></a>Keyra snið rafrænnar skýrslugerðar
+### <a name="run-the-er-format"></a><a id='run-format'></a>Keyra snið rafrænnar skýrslugerðar
 
 1. Veldu fyrirtækið **DEMF**.
 2. Opnið **Fyrirtækisstjórnun \> Rafræn skýrslugerð \> Skilgreiningar**.
@@ -157,7 +157,7 @@ Takið eftir að skráin sem er búin til veitir upplýsingar um 265 færslur fy
 
 ## <a name="review-the-execution-trace"></a>Yfirfara framkvæmdarakningu
 
-### <a id='export-trace'></a>Flytja myndaða rakningu úr forritinu
+### <a name="export-the-generated-trace-from-the-application"></a><a id='export-trace'></a>Flytja myndaða rakningu úr forritinu
 
 Afkastarakningar eru aftengdar frá upprunasniði rafrænnar skýrslugerðar og er hægt að númera við utanaðkomandi zip-skrá.
 
@@ -176,7 +176,7 @@ Afkastarakningar eru aftengdar frá upprunasniði rafrænnar skýrslugerðar og 
 
 Takið eftir að tengingin milli afkastarakningar sem hefur verið búin til fyrir framkvæmt snið rafrænnar skýrslugerðar og líkanavörpun rafrænnar skýrslugerðar byggist á rótarlýsingu sem var notuð og algenga gagnalíkanið. Númeraúthlutun fyrir útgáfu sniðsins og líkanavörpunar eru ekki teknar með í reikninginn. Stillingin á flagginu **Sjálfgefið fyrir líkanavörpun** fyrir líkanavörpunina er einnig ekki tekin með í reikninginn.
 
-### <a id='import-trace'></a>Flytja inn mynda rakningu í RCS
+### <a name="import-the-generated-trace-into-rcs"></a><a id='import-trace'></a>Flytja inn mynda rakningu í RCS
 
 1. Í RCS, á vinnusvæðinu **Rafræn skýrslugerð**, skal velja reitinn **Skilgreiningar skýrslugerðar**.
 2. Á síðunni **Skilgreiningar**, í skilgreiningartrénu, skal stækka atriðið **Líkan afkastarakningar** og velja atriðið **Snið afkastarakningar**.
@@ -201,7 +201,7 @@ Takið eftir að tengingin milli afkastarakningar sem hefur verið búin til fyr
 
 2. Lokaðu síðunni **Sniðshönnuður**.
 
-### <a id='use-trace'></a>Nota afkastarakningu fyrir greiningu í RCS - Líkanavörpun
+### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a><a id='use-trace'></a>Nota afkastarakningu fyrir greiningu í RCS - Líkanavörpun
 
 1. Í RCS, á síðunni **Skilgreiningar**, í skilgreiningartrénu, skal velja atriðið **Vörpun afkastarakningar**.
 2. Í aðgerðarúðunni skal velja **Hönnuður**.
@@ -293,7 +293,7 @@ Hún getur einnig verið gagnleg til að fækka fjölda kalla til LedgerTransTyp
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>Flytja inn breytta skilgreiningu á líkanavörpun rafrænnar skýrslugerðar úr RCS í forritið
 
-Endurtakið skrefin í hlutanum [Flytja inn skilgreiningu rafrænnar skýrslugerðar úr RCS í Finance and Operations](#import-configuration) fyrr í þessu efnisatriði til að flytja inn útgáfu 1.2 af skilgreiningunni **Vörpun afkastarakningar**.
+Endurtakið skrefin í hlutanum [Flytja inn skilgreiningu rafrænnar skýrslugerðar úr RCS í Finance and Operations](#import-configuration) hlutann fyrr í þessu efnisatriði til að flytja inn útgáfu 1.2 af skilgreiningunni **Vörpun afkastarakningar**.
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Keyra breytta lausn rafrænnar skýrslugerðar til að rekja framkvæmd
 
@@ -301,7 +301,7 @@ Endurtakið skrefin í hlutanum [Flytja inn skilgreiningu rafrænnar skýrsluger
 
 Endurtakið skrefin í hlutanum [Keyra snið rafrænnar skýrslugerðar](#run-format) fyrr í þessu efnisatriði til að búa til nýja afkastarakningu.
 
-## <a name="review-the-execution-trace"></a>Yfirfara framkvæmdarakningu
+## <a name="work-with-the-execution-trace"></a>Vinna með framkvæmdarakningu
 
 ### <a name="export-the-generated-trace-from-the-application"></a>Flytja myndaða rakningu úr forritinu
 
@@ -347,7 +347,7 @@ Endurtakið skrefin í hlutanum [Keyra snið rafrænnar skýrslugerðar](#run-fo
 
 Athugið að netvafrinn býður upp á zip-skrá fyrir niðurhal. Þessi skrá inniheldur afkastarakningu á PerfView-sniði. Síðan er hægt að nota greiningarverkfæri fyrir verkfæri PerfView-afkastagreiningar til að greina upplýsingarnar fyrir framkvæmd á sniði rafrænnar skýrslugerðar.
 
-![Rekja upplýsingar fyrir framkvæmt ER-snið í PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+![Upplýsingar um frammistöðurakningu í PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Notaðu ytri verkfæri til að endurskoða framkvæmdarspor sem inniheldur gagnagrunnsfyrirspurnir
 
@@ -363,7 +363,7 @@ Vegna úrbóta sem hafa verið gerðar á ER-ramma býður afkastarakningin sem 
     - Stilltu valkostinn **Safna saman tölfræði um fyrirspurnir** á **Já**.
     - Stillið valkostinn **Rekja fyrirspurn** á **Já**.
 
-    ![Svarglugginn Notandafæribreytur](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+    ![Svæði keyrslurakningar, svargluggi fyrir færibreytur notanda](./media/GER-PerfTrace2-GER-UserParameters.PNG)
 
 ### <a name="run-the-er-format"></a>Keyra snið rafrænnar skýrslugerðar
 
@@ -372,3 +372,8 @@ Endurtakið skrefin í hlutanum [Keyra snið rafrænnar skýrslugerðar](#run-fo
 Athugið að netvafrinn býður upp á zip-skrá fyrir niðurhal. Þessi skrá inniheldur afkastarakningu á PerfView-sniði. Síðan er hægt að nota greiningarverkfæri fyrir verkfæri PerfView-afkastagreiningar til að greina upplýsingarnar fyrir framkvæmd á sniði rafrænnar skýrslugerðar. Þessi rakning inniheldur núna upplýsingar um SQL-gagnagrunnsaðgang við framkvæmd ER-sniðsins.
 
 ![Rekja upplýsingar fyrir framkvæmt ER-snið í PerfView](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
+
+## <a name="additional-resources"></a>Frekari upplýsingar
+
+- [Yfirlit yfir rafræna skýrslugerð](general-electronic-reporting.md)
+- [Bættu frammistöðu rafrænna skýrslugerðarlausna með því að bæta við gagnagjöfum með REIKNAÐA REITI með færibreytum](er-calculated-field-ds-performance.md)
