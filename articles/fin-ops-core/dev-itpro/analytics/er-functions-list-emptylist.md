@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5fb991eb9ee08aeb418313eb782dbde7fa22b763
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 747b661d0dee4e9c27741e167c89f9ef7eefa470
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042183"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745322"
 ---
-# <span data-ttu-id="206e4-103"><a name="EMPTYLIST">EMPTYLIST ER-aðgerð</a></span><span class="sxs-lookup"><span data-stu-id="206e4-103"><a name="EMPTYLIST">EMPTYLIST ER function</a></span></span>
+# <a name="emptylist-er-function"></a><span data-ttu-id="b6bf5-103">EMPTYLIST ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="b6bf5-103">EMPTYLIST ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="206e4-104">Aðgerðin `EMPTYLIST` skilar tómu *Skráarlista*-gildi með því að nota tilgreindan lista sem uppruna fyrir skipulag lista.</span><span class="sxs-lookup"><span data-stu-id="206e4-104">The `EMPTYLIST` function returns an empty *Record list* value by using the specified list as a source for the list structure.</span></span>
+<span data-ttu-id="b6bf5-104">Aðgerðin `EMPTYLIST` skilar tómu *Skráarlista*-gildi með því að nota tilgreindan lista sem uppruna fyrir skipulag lista.</span><span class="sxs-lookup"><span data-stu-id="b6bf5-104">The `EMPTYLIST` function returns an empty *Record list* value by using the specified list as a source for the list structure.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="206e4-105">Málskipun</span><span class="sxs-lookup"><span data-stu-id="206e4-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b6bf5-105">Málskipun</span><span class="sxs-lookup"><span data-stu-id="b6bf5-105">Syntax</span></span>
 
 ```vb
 EMPTYLIST (list)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="206e4-106">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="206e4-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="b6bf5-106">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="b6bf5-106">Arguments</span></span>
 
-<span data-ttu-id="206e4-107">`list`: *Skráalisti*</span><span class="sxs-lookup"><span data-stu-id="206e4-107">`list`: *Record list*</span></span>
+<span data-ttu-id="b6bf5-107">`list`: *Skráalisti*</span><span class="sxs-lookup"><span data-stu-id="b6bf5-107">`list`: *Record list*</span></span>
 
-<span data-ttu-id="206e4-108">Gild slóð í gagnagjafa af gagnagerðinni *Skráalisti*.</span><span class="sxs-lookup"><span data-stu-id="206e4-108">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="b6bf5-108">Gild slóð í gagnagjafa af gagnagerðinni *Skráalisti*.</span><span class="sxs-lookup"><span data-stu-id="b6bf5-108">The valid path of a data source of the *Record list* data type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="206e4-109">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="206e4-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="b6bf5-109">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="b6bf5-109">Return values</span></span>
 
-<span data-ttu-id="206e4-110">*Skráalisti*</span><span class="sxs-lookup"><span data-stu-id="206e4-110">*Record list*</span></span>
+<span data-ttu-id="b6bf5-110">*Skráalisti*</span><span class="sxs-lookup"><span data-stu-id="b6bf5-110">*Record list*</span></span>
 
-<span data-ttu-id="206e4-111">Sá listi yfir skrár sem er búinn til.</span><span class="sxs-lookup"><span data-stu-id="206e4-111">The resulting list of records.</span></span>
+<span data-ttu-id="b6bf5-111">Sá listi yfir skrár sem er búinn til.</span><span class="sxs-lookup"><span data-stu-id="b6bf5-111">The resulting list of records.</span></span>
 
-## <a name="example"></a><span data-ttu-id="206e4-112">Dæmi</span><span class="sxs-lookup"><span data-stu-id="206e4-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="b6bf5-112">Dæmi</span><span class="sxs-lookup"><span data-stu-id="b6bf5-112">Example</span></span>
 
-<span data-ttu-id="206e4-113">`EMPTYLIST (SPLIT ("abc", 1))` skilar nýjum tómum lista sem hefur sömu uppbyggingu og listinn sem skilað er með `SPLIT`-aðgerðinni sem er notuð.</span><span class="sxs-lookup"><span data-stu-id="206e4-113">`EMPTYLIST (SPLIT ("abc", 1))` returns a new empty list that has the same structure as the list that is returned by the `SPLIT` function that is used.</span></span>
+<span data-ttu-id="b6bf5-113">`EMPTYLIST (SPLIT ("abc", 1))` skilar nýjum tómum lista sem hefur sömu uppbyggingu og listinn sem skilað er með `SPLIT`-aðgerðinni sem er notuð.</span><span class="sxs-lookup"><span data-stu-id="b6bf5-113">`EMPTYLIST (SPLIT ("abc", 1))` returns a new empty list that has the same structure as the list that is returned by the `SPLIT` function that is used.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="206e4-114">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="206e4-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="b6bf5-114">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="b6bf5-114">Additional resources</span></span>
 
-[<span data-ttu-id="206e4-115">Listavirkni</span><span class="sxs-lookup"><span data-stu-id="206e4-115">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="b6bf5-115">Listavirkni</span><span class="sxs-lookup"><span data-stu-id="b6bf5-115">List functions</span></span>](er-functions-category-list.md)

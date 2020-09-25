@@ -1,9 +1,9 @@
 ---
-title: Rafræn skýrslugerð Hlaða upp skilgreiningu í Lifecycle Services
-description: Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stofnað skilgreiningarsnið fyrir rafræna skýrslugerð (ER) og hlaða upp í Microsoft Lifecycle Services (LCS).
+title: Hlaða upp skilgreiningu í Lifecycle Services
+description: Þetta efnisatriði útskýrir hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stofnað skilgreiningarsnið fyrir rafræna skýrslugerð (ER) og hlaða upp í Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,82 +16,133 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5def757de8fb9d347f5fd0f828039dad5c989c19
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: c43bad3ee2530a454de718a0a7da4d1e468a4af4
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143288"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810692"
 ---
-# <a name="er-upload-a-configuration-into-lifecycle-services"></a><span data-ttu-id="df08d-103">Rafræn skýrslugerð Hlaða upp skilgreiningu í Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="df08d-103">ER Upload a configuration into Lifecycle Services</span></span>
+# <a name="upload-a-configuration-into-lifecycle-services"></a><span data-ttu-id="85169-103">Hlaða upp skilgreiningu í Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="85169-103">Upload a configuration into Lifecycle Services</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="df08d-104">Eftirfarandi skref útskýra hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stofnað skilgreiningarsnið fyrir rafræna skýrslugerð (ER) og hlaða upp í Microsoft Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="df08d-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can create a new Electronic reporting (ER) configuration and upload it into Microsoft Lifecycle Services (LCS).</span></span>
+<span data-ttu-id="85169-104">Þetta efnisatriði útskýrir hvernig notandi í hlutverki Kerfisstjóra eða Þróunaraðila rafrænnar skýrslulausnar getur stofnað [Skilgreiningarsnið fyrir rafræna skýrslugerð (ER)](../general-electronic-reporting.md#Configuration) og hlaðið því upp í [Eignasafn á verkefnastigi](../../lifecycle-services/asset-library.md) í Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="85169-104">This topic explains how a user in the System administrator or Electronic reporting developer role can create a new [Electronic reporting (ER) configuration](../general-electronic-reporting.md#Configuration) and upload it into the [project-level Asset library](../../lifecycle-services/asset-library.md) in Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-<span data-ttu-id="df08d-105">Í þessu dæmi, verður að stofna skilgreiningu og hlaða henni upp í LCS fyrir sýnifyrirtæki, Litware, Inc. Þessi skref má framkvæma í hvaða fyrirtæki sem er þar sem ER skilgreiningar eru samnýttar á milli fyrirtækja.</span><span class="sxs-lookup"><span data-stu-id="df08d-105">In this example, you will create a configuration and upload it to LCS for sample company, Litware, Inc. These steps can be performed in any company as ER configurations are shared among companies.</span></span> <span data-ttu-id="df08d-106">Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í ferlinu „Stofna skilgreiningarveitu og merkja hana sem virka”.</span><span class="sxs-lookup"><span data-stu-id="df08d-106">To complete these steps, you must first complete the steps in the "Create a configuration provider and mark it as active" procedure.</span></span> <span data-ttu-id="df08d-107">Aðgangur að LCS er einnig nauðsynlegur til að ljúka þessum skrefum.</span><span class="sxs-lookup"><span data-stu-id="df08d-107">Access to LCS is also required for completion of these steps.</span></span>
+<span data-ttu-id="85169-105">Í þessu dæmi stofnarðu skilgreiningu og hleður henni upp í LCS fyrir sýnifyrirtæki sem kallast Litware, Inc. Þessi skref má framkvæma í hvaða fyrirtæki sem er þar sem ER skilgreiningar eru samnýttar á milli fyrirtækja.</span><span class="sxs-lookup"><span data-stu-id="85169-105">In this example, you will create a configuration and upload it into LCS for a sample company that is named Litware, Inc. These steps can be completed in any company, because ER configurations are shared among companies.</span></span> <span data-ttu-id="85169-106">Til að ljúka þessum skrefum verður fyrst að ljúka við skrefin í [Stofna skilgreiningarveitendur og merkja þá sem virka](er-configuration-provider-mark-it-active-2016-11.md).</span><span class="sxs-lookup"><span data-stu-id="85169-106">To complete these steps, you must first complete the steps in [Create configuration providers and mark them as active](er-configuration-provider-mark-it-active-2016-11.md).</span></span> <span data-ttu-id="85169-107">Aðgangur að LCS er einnig nauðsynlegur.</span><span class="sxs-lookup"><span data-stu-id="85169-107">Access to LCS is also required.</span></span>
 
-1. <span data-ttu-id="df08d-108">Fara í Fyrirtækisstjórnun > Vinnusvæði > Rafræn skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="df08d-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="df08d-109">Veldu „Litware, Inc.”</span><span class="sxs-lookup"><span data-stu-id="df08d-109">Select 'Litware, Inc.'</span></span> <span data-ttu-id="df08d-110">og stillið sem virka.</span><span class="sxs-lookup"><span data-stu-id="df08d-110">and set it as active.</span></span>
-3. <span data-ttu-id="df08d-111">Smellt er á Skilgreiningum.</span><span class="sxs-lookup"><span data-stu-id="df08d-111">Click Configurations.</span></span>
+1. <span data-ttu-id="85169-108">Skráðu þig inn í forritið með því að nota eitt af eftirfarandi hlutverkum:</span><span class="sxs-lookup"><span data-stu-id="85169-108">Sign in to the application by using one of the following roles:</span></span>
 
-## <a name="create-a-new-data-model-configuration"></a><span data-ttu-id="df08d-112">Stofna nýjan skilgreiningu gagnalíkans</span><span class="sxs-lookup"><span data-stu-id="df08d-112">Create a new data model configuration</span></span>
-1. <span data-ttu-id="df08d-113">Smellt er á stofna skilgreiningu til að opna fellilistanum.</span><span class="sxs-lookup"><span data-stu-id="df08d-113">Click Create configuration to open the drop dialog.</span></span>
-    * <span data-ttu-id="df08d-114">Stofna verður skilgreiningu sem inniheldur dæmi um gagnalíkan fyrir rafræn skjöl.</span><span class="sxs-lookup"><span data-stu-id="df08d-114">You will create a configuration that contains a sample data model for electronic documents.</span></span> <span data-ttu-id="df08d-115">Skilgreining gagnalíkans verður hlaðið upp í LCS síðar.</span><span class="sxs-lookup"><span data-stu-id="df08d-115">This data model configuration will be uploaded into LCS later.</span></span>  
-2. <span data-ttu-id="df08d-116">Í svæðið Heiti, Færðu inn 'dæmi um skilgreining líkans '.</span><span class="sxs-lookup"><span data-stu-id="df08d-116">In the Name field, type 'Sample model configuration'.</span></span>
-    * <span data-ttu-id="df08d-117">Dæmi um líkanaskilgreiningu</span><span class="sxs-lookup"><span data-stu-id="df08d-117">Sample model configuration</span></span>  
-3. <span data-ttu-id="df08d-118">Í svæðið lýsing, Færðu inn 'dæmi um skilgreining líkans '.</span><span class="sxs-lookup"><span data-stu-id="df08d-118">In the Description field, type 'Sample model configuration'.</span></span>
-    * <span data-ttu-id="df08d-119">Dæmi um líkanaskilgreiningu</span><span class="sxs-lookup"><span data-stu-id="df08d-119">Sample model configuration</span></span>  
-4. <span data-ttu-id="df08d-120">Smelltu á Stofna skilgreiningu.</span><span class="sxs-lookup"><span data-stu-id="df08d-120">Click Create configuration.</span></span>
-5. <span data-ttu-id="df08d-121">Smellt er á hönnuður Líkana.</span><span class="sxs-lookup"><span data-stu-id="df08d-121">Click Model designer.</span></span>
-6. <span data-ttu-id="df08d-122">Smellið á „Nýtt“.</span><span class="sxs-lookup"><span data-stu-id="df08d-122">Click New.</span></span>
-7. <span data-ttu-id="df08d-123">Í reitnum Heiti skal færa inn 'aðgangsstaður'.</span><span class="sxs-lookup"><span data-stu-id="df08d-123">In the Name field, type 'Entry point'.</span></span>
-    * <span data-ttu-id="df08d-124">Aðgangsstaður</span><span class="sxs-lookup"><span data-stu-id="df08d-124">Entry point</span></span>  
-8. <span data-ttu-id="df08d-125">Smelltu á Bæta við.</span><span class="sxs-lookup"><span data-stu-id="df08d-125">Click Add.</span></span>
-9. <span data-ttu-id="df08d-126">Smellið á „Vista“.</span><span class="sxs-lookup"><span data-stu-id="df08d-126">Click Save.</span></span>
-10. <span data-ttu-id="df08d-127">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="df08d-127">Close the page.</span></span>
-11. <span data-ttu-id="df08d-128">Smellið á „Breyta stöðu“.</span><span class="sxs-lookup"><span data-stu-id="df08d-128">Click Change status.</span></span>
-12. <span data-ttu-id="df08d-129">Smelltu á Ljúka.</span><span class="sxs-lookup"><span data-stu-id="df08d-129">Click Complete.</span></span>
-13. <span data-ttu-id="df08d-130">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="df08d-130">Click OK.</span></span>
+    - <span data-ttu-id="85169-109">Þróunaraðili rafrænnar skýrslulausnar</span><span class="sxs-lookup"><span data-stu-id="85169-109">Electronic reporting developer</span></span>
+    - <span data-ttu-id="85169-110">Kerfisstjóri</span><span class="sxs-lookup"><span data-stu-id="85169-110">System administrator</span></span>
 
-## <a name="register-a-new--repository"></a><span data-ttu-id="df08d-131">Skrá nýjan gagnasafn</span><span class="sxs-lookup"><span data-stu-id="df08d-131">Register a new  repository</span></span>
-1. <span data-ttu-id="df08d-132">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="df08d-132">Close the page.</span></span>
-2. <span data-ttu-id="df08d-133">Smella á Geymslur.</span><span class="sxs-lookup"><span data-stu-id="df08d-133">Click Repositories.</span></span>
-    * <span data-ttu-id="df08d-134">Þannig er hægt að opna lista yfir gagnasöfn fyrir Litware, Inc. skilgreiningaveituna.</span><span class="sxs-lookup"><span data-stu-id="df08d-134">This enables you to open the list of repositories for the Litware, Inc. configuration provider.</span></span>  
-3. <span data-ttu-id="df08d-135">Smelltu á Bæta við til að opna felligluggann.</span><span class="sxs-lookup"><span data-stu-id="df08d-135">Click Add to open the drop dialog.</span></span>
-    * <span data-ttu-id="df08d-136">Þannig er hægt að bæta við nýjum gagnasafni.</span><span class="sxs-lookup"><span data-stu-id="df08d-136">This allows you to add a new repository.</span></span>  
-4. <span data-ttu-id="df08d-137">Í reitnum gerð gagnasafns fyrir skilgreiningar, veljið LCS.</span><span class="sxs-lookup"><span data-stu-id="df08d-137">In the Configuration repository type field, select LCS.</span></span>
-5. <span data-ttu-id="df08d-138">Smellið á Stofna gagnasafn.</span><span class="sxs-lookup"><span data-stu-id="df08d-138">Click Create repository.</span></span>
-6. <span data-ttu-id="df08d-139">Færa inn eða veljið gildi í svæðinu verk.</span><span class="sxs-lookup"><span data-stu-id="df08d-139">In the Project field, enter or select a value.</span></span>
-    * <span data-ttu-id="df08d-140">Veljið viðeigandi LCS-verk.</span><span class="sxs-lookup"><span data-stu-id="df08d-140">Select the desired LCS project.</span></span> <span data-ttu-id="df08d-141">Þú verður að hafa aðgang að verkinu.</span><span class="sxs-lookup"><span data-stu-id="df08d-141">You must have access to the project.</span></span>  
-7. <span data-ttu-id="df08d-142">Smellið á „Í lagi“.</span><span class="sxs-lookup"><span data-stu-id="df08d-142">Click OK.</span></span>
-    * <span data-ttu-id="df08d-143">Ljúka við nýja færslu í gagnasafni.</span><span class="sxs-lookup"><span data-stu-id="df08d-143">Complete a new repository entry.</span></span>  
-8. <span data-ttu-id="df08d-144">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="df08d-144">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="df08d-145">Velja LCS-færslu gagnasafns.</span><span class="sxs-lookup"><span data-stu-id="df08d-145">Select the LCS repository record.</span></span>  
-    * <span data-ttu-id="df08d-146">Athugið að skráð gagnasafn er merkt eftir núverandi veitu þ.e.a.s aðeins skilgreiningar í eigu þeirrar veitu er hægt að setja í þetta gagnasafn, þar af leiðandi hlaðið upp í valið LCS-verk.</span><span class="sxs-lookup"><span data-stu-id="df08d-146">Note that a registered repository is marked by the current provider meaning that the only configurations owned by that provider can be placed to this repository and, consequently, uploaded into the selected LCS project.</span></span>  
-9. <span data-ttu-id="df08d-147">Smellt er á Opin.</span><span class="sxs-lookup"><span data-stu-id="df08d-147">Click Open.</span></span>
-    * <span data-ttu-id="df08d-148">Opna gagnasafn til að skoða lista yfir skilgreiningar Rafræn skýrslugerð .</span><span class="sxs-lookup"><span data-stu-id="df08d-148">Open the repository to view the list of ER configurations.</span></span> <span data-ttu-id="df08d-149">Það verður auður ef þetta verk hefur ekki enn verið notað fyrir samnýtingu skilgreininga fyrir Rafræn skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="df08d-149">It will be empty if this project has not yet been used for ER configurations sharing.</span></span>  
-10. <span data-ttu-id="df08d-150">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="df08d-150">Close the page.</span></span>
-11. <span data-ttu-id="df08d-151">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="df08d-151">Close the page.</span></span>
+2. <span data-ttu-id="85169-111">Farðu í **Fyrirtækisstjórnun** \> **Vinnusvæði** \> **Rafræn skýrslugerð**.</span><span class="sxs-lookup"><span data-stu-id="85169-111">Go to **Organization administration** \> **Workspaces** \> **Electronic reporting**.</span></span>
+3. <span data-ttu-id="85169-112">Veljið **Litware, Inc.** og merkið það sem **Virkt**.</span><span class="sxs-lookup"><span data-stu-id="85169-112">Select **Litware, Inc.**, and mark it as **Active**.</span></span>
+4. <span data-ttu-id="85169-113">Velja **Skilgreiningar**.</span><span class="sxs-lookup"><span data-stu-id="85169-113">Select **Configurations**.</span></span>
 
-## <a name="upload-configuration-into-lcs"></a><span data-ttu-id="df08d-152">Hlaða skilgreiningu í LCS</span><span class="sxs-lookup"><span data-stu-id="df08d-152">Upload configuration into LCS</span></span>
-1. <span data-ttu-id="df08d-153">Smellt er á Skilgreiningum.</span><span class="sxs-lookup"><span data-stu-id="df08d-153">Click Configurations.</span></span>
-2. <span data-ttu-id="df08d-154">Veljið 'dæmi um skilgreiningu líkans', í trénu.</span><span class="sxs-lookup"><span data-stu-id="df08d-154">In the tree, select 'Sample model configuration'.</span></span>
-    * <span data-ttu-id="df08d-155">Velja stofnaða skilgreiningu sem þegar hefur verið lokið.</span><span class="sxs-lookup"><span data-stu-id="df08d-155">Select a created configuration that has been already completed.</span></span>  
-3. <span data-ttu-id="df08d-156">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="df08d-156">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="df08d-157">Veljið útgáfu valinnar skilgreiningar með stöðuna „Lokið”.</span><span class="sxs-lookup"><span data-stu-id="df08d-157">Select the version of the selected configuration with the status of 'Completed'.</span></span>  
-4. <span data-ttu-id="df08d-158">Smellið á „Breyta stöðu“.</span><span class="sxs-lookup"><span data-stu-id="df08d-158">Click Change status.</span></span>
-5. <span data-ttu-id="df08d-159">Smellt er á samnýta.</span><span class="sxs-lookup"><span data-stu-id="df08d-159">Click Share.</span></span>
-    * <span data-ttu-id="df08d-160">Staða Skilgreiningar breytist úr „Lokið” í „Samnýtt” þegar hún er birt á LCS.</span><span class="sxs-lookup"><span data-stu-id="df08d-160">The configuration status will change from 'Completed' to 'Shared' when it is published in LCS.</span></span>  
-6. <span data-ttu-id="df08d-161">Smellt er á Í lagi.</span><span class="sxs-lookup"><span data-stu-id="df08d-161">Click OK.</span></span>
-7. <span data-ttu-id="df08d-162">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="df08d-162">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="df08d-163">Veldu Útgáfa skilgreiningar stöðuna samnýtt.</span><span class="sxs-lookup"><span data-stu-id="df08d-163">Select the configuration version with the status of 'Shared'.</span></span>  
-    * <span data-ttu-id="df08d-164">Athugið að staða valda útgáfu hefur breyst úr „Lokið” í „Samnýtt”.</span><span class="sxs-lookup"><span data-stu-id="df08d-164">Note that the status of the selected version has changed from 'Completed' to 'Shared'.</span></span>  
-8. <span data-ttu-id="df08d-165">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="df08d-165">Close the page.</span></span>
-9. <span data-ttu-id="df08d-166">Smella á Geymslur.</span><span class="sxs-lookup"><span data-stu-id="df08d-166">Click Repositories.</span></span>
-    * <span data-ttu-id="df08d-167">Þannig er hægt að opna lista yfir gagnasöfn fyrir Litware, Inc. skilgreiningaveituna.</span><span class="sxs-lookup"><span data-stu-id="df08d-167">This enables you to open the list of repositories for the Litware, Inc. configuration provider.</span></span>  
-10. <span data-ttu-id="df08d-168">Smellt er á Opin.</span><span class="sxs-lookup"><span data-stu-id="df08d-168">Click Open.</span></span>
-    * <span data-ttu-id="df08d-169">Velja lcs-gagnasafn og opna hana.</span><span class="sxs-lookup"><span data-stu-id="df08d-169">Select the LCS repository and open it.</span></span>  
-    * <span data-ttu-id="df08d-170">Athugið að valin skilgreining er sýnd sem eign valins LCS verks.</span><span class="sxs-lookup"><span data-stu-id="df08d-170">Note that the selected configuration is shown as an asset of the selected LCS project.</span></span>  
-    * <span data-ttu-id="df08d-171">Opna LCS með https://lcs.dynamics.com.</span><span class="sxs-lookup"><span data-stu-id="df08d-171">Open LCS using https://lcs.dynamics.com.</span></span> <span data-ttu-id="df08d-172">Opna verkið sem var notuð áður til skráningar gagnasafns, opna „eignasafni” þessa verks og útvíkka innihald eignagerðarinnar „GER skilgreining” – upphlaðin skilgreining Rafrænnar skýrslugerðar verða tiltæk.</span><span class="sxs-lookup"><span data-stu-id="df08d-172">Open a project that was used earlier for repository registration, open the 'Asset library' of this project, and expand the content of the 'GER configuration' asset type – the uploaded ER configuration will be available.</span></span> <span data-ttu-id="df08d-173">Athugaðu að upphalaðri LCS skilgreiningu er hægt að flytja inn í annað tilvik ef veiturnar hafa aðgang að þessu LCS verkinu.</span><span class="sxs-lookup"><span data-stu-id="df08d-173">Note that the uploaded LCS configuration can be imported to another instance if providers have access to this LCS project.</span></span>  
+<a name="accessconditions"></a>
+> [!NOTE]
+> <span data-ttu-id="85169-114">Ganga skal úr skugga um að núverandi Dynamics 365 Finance notandi sé aðili að LCS-verki sem inniheldur [Eignasafnið](../../lifecycle-services/asset-library.md#asset-library-support) sem er notað til að flytja inn skilgreiningar rafrænnar skýrslugerðar.</span><span class="sxs-lookup"><span data-stu-id="85169-114">Make sure that the current Dynamics 365 Finance user is a member of the LCS project that contains the [Asset library](../../lifecycle-services/asset-library.md#asset-library-support) that is used to import ER configurations.</span></span>
+>
+> <span data-ttu-id="85169-115">Ekki er hægt að opna LCS-verk úr rafrænni gagnageymslu sem stendur fyrir annað lén en lénið sem er notað í Finance.</span><span class="sxs-lookup"><span data-stu-id="85169-115">You can't access an LCS project from an ER repository that represents a different domain than the domain that is used in Finance.</span></span> <span data-ttu-id="85169-116">Ef það er reynt verður tæmandi listi yfir LCS-verk sýndur og ekki er hægt að flytja inn skilgreiningar rafrænnar skýrslugerðar úr verkstigi eignasafns í LCS.</span><span class="sxs-lookup"><span data-stu-id="85169-116">If you try, an empty list of LCS projects will be shown, and you won't be able to import ER configurations from the project-level Asset library in LCS.</span></span> <span data-ttu-id="85169-117">Til að fá aðgang að eignasöfnum verks úr geymslu sem er notuð til að flytja inn skilgreining rafrænnar skýrslugerðar skal skrá sig inn í Finance með því að nota skilríki notanda sem tilheyrir leigjandanum (léninu) sem gildandi Finance tilviki hefur verið úthlutað til.</span><span class="sxs-lookup"><span data-stu-id="85169-117">To access project-level Asset libraries from an ER repository that is used to import ER configurations, sign in to Finance by using the credentials of a user who belongs to the tenant (domain) that the current Finance instance has been provisioned for.</span></span>
 
+## <a name="create-a-new-data-model-configuration"></a><span data-ttu-id="85169-118">Stofna nýjan skilgreiningu gagnalíkans</span><span class="sxs-lookup"><span data-stu-id="85169-118">Create a new data model configuration</span></span>
+
+1. <span data-ttu-id="85169-119">Opnið **Fyrirtækisstjórnun \> Rafræn skýrslugerð \> Skilgreiningar**.</span><span class="sxs-lookup"><span data-stu-id="85169-119">Go to **Organization administration \> Electronic reporting \> Configurations**.</span></span>
+2. <span data-ttu-id="85169-120">Í **Skilgreiningar** skal velja **Stofna skilgreiningu** til að opna fellilistagluggann.</span><span class="sxs-lookup"><span data-stu-id="85169-120">On the **Configurations** page, select **Create configuration** to open the drop-down dialog box.</span></span>
+
+    <span data-ttu-id="85169-121">Í þessu dæmi muntu stofna skilgreiningu sem inniheldur dæmi um gagnalíkan fyrir rafræn skjöl.</span><span class="sxs-lookup"><span data-stu-id="85169-121">In this example, you will create a configuration that contains a sample data model for electronic documents.</span></span> <span data-ttu-id="85169-122">Skilgreining gagnalíkans verður hlaðið upp í LCS síðar.</span><span class="sxs-lookup"><span data-stu-id="85169-122">This data model configuration will be uploaded into LCS later.</span></span>
+
+3. <span data-ttu-id="85169-123">Í svæðið **Heiti** skal færa inn **Dæmi um skilgreining líkans**.</span><span class="sxs-lookup"><span data-stu-id="85169-123">In the **Name** field, enter **Sample model configuration**.</span></span>
+4. <span data-ttu-id="85169-124">Í svæðið **Lýsing** skal færa **Dæmi um líkanaskilgreiningu**.</span><span class="sxs-lookup"><span data-stu-id="85169-124">In the **Description** field, enter **Sample model configuration**.</span></span>
+5. <span data-ttu-id="85169-125">Veljið **Stofna skilgreiningu**.</span><span class="sxs-lookup"><span data-stu-id="85169-125">Select **Create configuration**.</span></span>
+6. <span data-ttu-id="85169-126">Veljið **Hönnuður líkana**.</span><span class="sxs-lookup"><span data-stu-id="85169-126">Select **Model designer**.</span></span>
+7. <span data-ttu-id="85169-127">Veljið **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="85169-127">Select **New**.</span></span>
+8. <span data-ttu-id="85169-128">Í reitinn **Heiti** skal færa inn **Aðgangsstaður**.</span><span class="sxs-lookup"><span data-stu-id="85169-128">In the **Name** field, enter **Entry point**.</span></span>
+9. <span data-ttu-id="85169-129">Veljið **Bæta við**.</span><span class="sxs-lookup"><span data-stu-id="85169-129">Select **Add**.</span></span>
+10. <span data-ttu-id="85169-130">Veljið **Vista**.</span><span class="sxs-lookup"><span data-stu-id="85169-130">Select **Save**.</span></span>
+11. <span data-ttu-id="85169-131">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="85169-131">Close the page.</span></span>
+12. <span data-ttu-id="85169-132">Veljið **Breyta stöðu**.</span><span class="sxs-lookup"><span data-stu-id="85169-132">Select **Change status**.</span></span>
+13. <span data-ttu-id="85169-133">Velja **Lokið**.</span><span class="sxs-lookup"><span data-stu-id="85169-133">Select **Complete**.</span></span>
+14. <span data-ttu-id="85169-134">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="85169-134">Select **OK**.</span></span>
+15. <span data-ttu-id="85169-135">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="85169-135">Close the page.</span></span>
+
+## <a name="register-a-new-repository"></a><span data-ttu-id="85169-136">Skrá nýtt gagnasafn</span><span class="sxs-lookup"><span data-stu-id="85169-136">Register a new repository</span></span>
+
+1. <span data-ttu-id="85169-137">Fara í **Fyrirtækisstjórnun \> Vinnusvæði \> Rafræn skýrslugerð**.</span><span class="sxs-lookup"><span data-stu-id="85169-137">Go to **Organization administration \> Workspaces \> Electronic reporting**.</span></span>
+
+2. <span data-ttu-id="85169-138">Í **veitandi skilgreininga** hlutanum, veljið gluggareitinn **Litware, Inc**.</span><span class="sxs-lookup"><span data-stu-id="85169-138">In the **Configuration providers** section, select the **Litware, Inc.** tile.</span></span>
+
+3. <span data-ttu-id="85169-139">Í **Litware, Inc.** reitnum, skal velja **Geymslur**.</span><span class="sxs-lookup"><span data-stu-id="85169-139">On the **Litware, Inc.** tile, select **Repositories**.</span></span>
+
+    <span data-ttu-id="85169-140">Nú getur þú opnað lista yfir gagnasöfn fyrir skilgreiningarveitur fyrir Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="85169-140">You can now open the list of repositories for the Litware, Inc. configuration provider.</span></span>
+
+4. <span data-ttu-id="85169-141">Veljið **Bæta við** til að opna fellilistagluggann.</span><span class="sxs-lookup"><span data-stu-id="85169-141">Select **Add** to open the drop-down dialog box.</span></span>
+
+    <span data-ttu-id="85169-142">Nú er hægt að bæta við nýrri gagnageymslu.</span><span class="sxs-lookup"><span data-stu-id="85169-142">You can now add a new repository.</span></span>
+
+5. <span data-ttu-id="85169-143">Í reitnum **færa inn gagnasafn fyrir skilgreiningar** skal velja **LCS**.</span><span class="sxs-lookup"><span data-stu-id="85169-143">In the **Configuration repository enter** field, select **LCS**.</span></span>
+6. <span data-ttu-id="85169-144">Veljið **Stofna geymslu**.</span><span class="sxs-lookup"><span data-stu-id="85169-144">Select **Create repository**.</span></span>
+7. <span data-ttu-id="85169-145">Færa inn eða veljið gildi í svæðinu **Verk**.</span><span class="sxs-lookup"><span data-stu-id="85169-145">In the **Project** field, enter or select a value.</span></span>
+
+    <span data-ttu-id="85169-146">Í þessu dæmi skal velja viðeigandi LCS-verk.</span><span class="sxs-lookup"><span data-stu-id="85169-146">For this example, select the desired LCS project.</span></span> <span data-ttu-id="85169-147">Þú verður að hafa [aðgang](#accessconditions) að verkinu.</span><span class="sxs-lookup"><span data-stu-id="85169-147">You must have [access](#accessconditions) to the project.</span></span>
+
+8. <span data-ttu-id="85169-148">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="85169-148">Select **OK**.</span></span>
+
+    <span data-ttu-id="85169-149">Ljúka við nýja færslu í gagnasafni.</span><span class="sxs-lookup"><span data-stu-id="85169-149">Complete a new repository entry.</span></span>
+
+9. <span data-ttu-id="85169-150">Í listanum skal merkja valda línu.</span><span class="sxs-lookup"><span data-stu-id="85169-150">In the list, mark the selected row.</span></span>
+
+    <span data-ttu-id="85169-151">Í þessu dæmi skal velja **LCS-færslu** gagnasafns.</span><span class="sxs-lookup"><span data-stu-id="85169-151">For this example, select the **LCS** repository record.</span></span>
+
+    <span data-ttu-id="85169-152">Athugið að skráð geymsla er merkt af núverandi veitu.</span><span class="sxs-lookup"><span data-stu-id="85169-152">Note that a registered repository is marked by the current provider.</span></span> <span data-ttu-id="85169-153">Með öðrum orðum er aðeins hægt að setja upp skilgreiningar sem eru í eigu viðkomandi veitu í þessa geymslu og hlaða þeim upp í valið LCS-verk.</span><span class="sxs-lookup"><span data-stu-id="85169-153">In other words, only configurations that are owned by that provider can be put in this repository and therefore uploaded into the selected LCS project.</span></span>
+
+10. <span data-ttu-id="85169-154">Veljið **Opna**.</span><span class="sxs-lookup"><span data-stu-id="85169-154">Select **Open**.</span></span>
+
+    <span data-ttu-id="85169-155">Þú opnar gagnasafn til að skoða lista yfir skilgreiningar Rafræn skýrslugerð.</span><span class="sxs-lookup"><span data-stu-id="85169-155">You open the repository to view the list of ER configurations.</span></span> <span data-ttu-id="85169-156">Ef valið verk hefur ekki enn verið notað fyrir samnýtingu á skilgreiningum rafrænnar skýrslugerðar er listinn auður.</span><span class="sxs-lookup"><span data-stu-id="85169-156">If the selected project hasn't yet been used for ER configurations sharing, the list will be empty.</span></span>
+
+11. <span data-ttu-id="85169-157">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="85169-157">Close the page.</span></span>
+12. <span data-ttu-id="85169-158">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="85169-158">Close the page.</span></span>
+
+## <a name="upload-a-configuration-into-lcs"></a><span data-ttu-id="85169-159">Hlaða skilgreiningu upp í LCS</span><span class="sxs-lookup"><span data-stu-id="85169-159">Upload a configuration into LCS</span></span>
+
+1. <span data-ttu-id="85169-160">Opnið **Fyrirtækisstjórnun \> Rafræn skýrslugerð \> Skilgreiningar**.</span><span class="sxs-lookup"><span data-stu-id="85169-160">Go to **Organization administration \> Electronic reporting \> Configurations**.</span></span>
+2. <span data-ttu-id="85169-161">Á síðunni **Skilgreiningar**, í skilgreiningartrénu, skal velja **Dæmi um skilgreiningu líkans**.</span><span class="sxs-lookup"><span data-stu-id="85169-161">On the **Configurations** page, in the configurations tree, select **Sample model configuration**.</span></span>
+
+    <span data-ttu-id="85169-162">Þú verður að velja stofnaða skilgreiningu sem þegar hefur verið lokið.</span><span class="sxs-lookup"><span data-stu-id="85169-162">You must select a created configuration that has been already completed.</span></span>
+
+3. <span data-ttu-id="85169-163">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="85169-163">In the list, find and select the desired record.</span></span>
+
+    <span data-ttu-id="85169-164">Í þessu dæmi skal velja útgáfu þessarar skilgreiningar sem hefur stöðuna **Lokið**.</span><span class="sxs-lookup"><span data-stu-id="85169-164">For this example, select the version of the selected configuration that has a status of **Completed**.</span></span>
+
+4. <span data-ttu-id="85169-165">Veljið **Breyta stöðu**.</span><span class="sxs-lookup"><span data-stu-id="85169-165">Select **Change status**.</span></span>
+5. <span data-ttu-id="85169-166">Veldu **Deila**.</span><span class="sxs-lookup"><span data-stu-id="85169-166">Select **Share**.</span></span>
+
+    <span data-ttu-id="85169-167">Stöðu skilgreiningar er breytt úr **Lokið** í **Samnýtt** þegar skilgreiningin er birt í LCS.</span><span class="sxs-lookup"><span data-stu-id="85169-167">The status of the configuration is changed from **Completed** to **Shared** when the configuration is published in LCS.</span></span>
+
+6. <span data-ttu-id="85169-168">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="85169-168">Select **OK**.</span></span>
+7. <span data-ttu-id="85169-169">Í listanum skal finna og velja þá skráningu sem óskað er eftir.</span><span class="sxs-lookup"><span data-stu-id="85169-169">In the list, find and select the desired record.</span></span>
+
+    <span data-ttu-id="85169-170">Í þessu dæmi skal velja skilgreiningarútgáfu sem hefur stöðuna **Samnýtt**.</span><span class="sxs-lookup"><span data-stu-id="85169-170">For this example, select the configuration version that has a status of **Shared**.</span></span>
+
+    <span data-ttu-id="85169-171">Athugið að staða valda útgáfu hefur breyst úr **Lokið** í **Samnýttar**.</span><span class="sxs-lookup"><span data-stu-id="85169-171">Note that the status of the selected version was changed from **Completed** to **Shared**.</span></span>
+
+8. <span data-ttu-id="85169-172">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="85169-172">Close the page.</span></span>
+9. <span data-ttu-id="85169-173">Veldu **Geymslur**.</span><span class="sxs-lookup"><span data-stu-id="85169-173">Select **Repositories**.</span></span>
+
+    <span data-ttu-id="85169-174">Nú getur þú opnað lista yfir gagnasöfn fyrir skilgreiningarveitur fyrir Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="85169-174">You can now open the list of repositories for the Litware, Inc. configuration provider.</span></span>
+
+10. <span data-ttu-id="85169-175">Veljið **Opna**.</span><span class="sxs-lookup"><span data-stu-id="85169-175">Select **Open**.</span></span>
+
+    <span data-ttu-id="85169-176">Veldu **LCS**-gagnasafnið í þessu dæmi og opnaðu það.</span><span class="sxs-lookup"><span data-stu-id="85169-176">For this example, select the **LCS** repository, and open it.</span></span>
+
+    <span data-ttu-id="85169-177">Athugið að valin skilgreining er sýnd sem eign valins LCS verks.</span><span class="sxs-lookup"><span data-stu-id="85169-177">Notice that the selected configuration is shown as an asset of the selected LCS project.</span></span>
+
+11. <span data-ttu-id="85169-178">Opnaðu LCS með því að fara á <https://lcs.dynamics.com>.</span><span class="sxs-lookup"><span data-stu-id="85169-178">Open LCS by going to <https://lcs.dynamics.com>.</span></span>
+12. <span data-ttu-id="85169-179">Opna verk sem var notað áður fyrir geymsluskráningu.</span><span class="sxs-lookup"><span data-stu-id="85169-179">Open a project that was used earlier for repository registration.</span></span>
+13. <span data-ttu-id="85169-180">Opnið eignasafnið fyrir verkið.</span><span class="sxs-lookup"><span data-stu-id="85169-180">Open the Asset library of the project.</span></span>
+14. <span data-ttu-id="85169-181">Veljið eignagerðin **GER-skilgreining**.</span><span class="sxs-lookup"><span data-stu-id="85169-181">Select the **GER configuration** asset type.</span></span>
+
+    <span data-ttu-id="85169-182">Skilgreining rafrænnar skýrslugerðar sem var hlaðið upp ætti að vera á listanum.</span><span class="sxs-lookup"><span data-stu-id="85169-182">The ER configuration that you uploaded should be listed.</span></span>
+
+    <span data-ttu-id="85169-183">Athugaðu að upphalaðri LCS skilgreiningu er hægt að flytja inn í annað tilvik ef veiturnar hafa aðgang að þessu LCS verki.</span><span class="sxs-lookup"><span data-stu-id="85169-183">Note that the uploaded LCS configuration can be imported into another instance if providers have access to this LCS project.</span></span>

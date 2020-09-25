@@ -18,46 +18,46 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea71bfc4b30164fd32e804bf83a46c49cd18d155
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: dac6283ec35d3d03f586ca157048bd3ecc4bfa8a
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041470"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743928"
 ---
-# <span data-ttu-id="00012-103"><a name="NULLCONTAINER">NULLCONTAINER ER-aðgerð</a></span><span class="sxs-lookup"><span data-stu-id="00012-103"><a name="NULLCONTAINER">NULLCONTAINER ER function</a></span></span>
+# <a name="nullcontainer-er-function"></a><span data-ttu-id="4d25a-103">NULLCONTAINER ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="4d25a-103">NULLCONTAINER ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="00012-104">Aðgerðin `NULLCONTAINER` skilar núll gildi fyrir *Ílát (skrá)* sem hefur sama skipulag og tilgreindur skráalisti eða skrá.</span><span class="sxs-lookup"><span data-stu-id="00012-104">The `NULLCONTAINER` function returns a null *Container (record)* value that has the same structure as the specified record list or record.</span></span>
+<span data-ttu-id="4d25a-104">Aðgerðin `NULLCONTAINER` skilar núll gildi fyrir *Ílát (skrá)* sem hefur sama skipulag og tilgreindur skráalisti eða skrá.</span><span class="sxs-lookup"><span data-stu-id="4d25a-104">The `NULLCONTAINER` function returns a null *Container (record)* value that has the same structure as the specified record list or record.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="00012-105">Málskipun</span><span class="sxs-lookup"><span data-stu-id="00012-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4d25a-105">Málskipun</span><span class="sxs-lookup"><span data-stu-id="4d25a-105">Syntax</span></span>
 
 ```vb
 NULLCONTAINER (list)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="00012-106">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="00012-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="4d25a-106">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="4d25a-106">Arguments</span></span>
 
-<span data-ttu-id="00012-107">`list`: *Skráalisti* eða *Ílát (skrá)*</span><span class="sxs-lookup"><span data-stu-id="00012-107">`list`: *Record list* or *Container (record)*</span></span>
+<span data-ttu-id="4d25a-107">`list`: *Skráalisti* eða *Ílát (skrá)*</span><span class="sxs-lookup"><span data-stu-id="4d25a-107">`list`: *Record list* or *Container (record)*</span></span>
 
-<span data-ttu-id="00012-108">Gild slóð hlutar í gagnagjafa af annaðhvort gerðinni *Skráalisti* eða *Gámur (skrá)*.</span><span class="sxs-lookup"><span data-stu-id="00012-108">The valid path of a data source of either the *Record list* or *Container (record)* type.</span></span>
+<span data-ttu-id="4d25a-108">Gild slóð hlutar í gagnagjafa af annaðhvort gerðinni *Skráalisti* eða *Gámur (skrá)*.</span><span class="sxs-lookup"><span data-stu-id="4d25a-108">The valid path of a data source of either the *Record list* or *Container (record)* type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="00012-109">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="00012-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="4d25a-109">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="4d25a-109">Return values</span></span>
 
-<span data-ttu-id="00012-110">*Gámur (skrá)*</span><span class="sxs-lookup"><span data-stu-id="00012-110">*Container (record)*</span></span>
+<span data-ttu-id="4d25a-110">*Gámur (skrá)*</span><span class="sxs-lookup"><span data-stu-id="4d25a-110">*Container (record)*</span></span>
 
-<span data-ttu-id="00012-111">Skráargildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="00012-111">The resulting record value.</span></span>
+<span data-ttu-id="4d25a-111">Skráargildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="4d25a-111">The resulting record value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="00012-112">Notkunarbréf</span><span class="sxs-lookup"><span data-stu-id="00012-112">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="4d25a-112">Notkunarbréf</span><span class="sxs-lookup"><span data-stu-id="4d25a-112">Usage notes</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="00012-113">Þessi aðgerð er úrelt.</span><span class="sxs-lookup"><span data-stu-id="00012-113">This function is obsolete.</span></span> <span data-ttu-id="00012-114">Notaði aðgerðina `EMPTYRECORD` í staðinn.</span><span class="sxs-lookup"><span data-stu-id="00012-114">Use the `EMPTYRECORD` function instead.</span></span> <span data-ttu-id="00012-115">Frekari upplýsingar er að finna á [EMPTYRECORD](er-functions-record-emptyrecord.md).</span><span class="sxs-lookup"><span data-stu-id="00012-115">For more information, see [EMPTYRECORD](er-functions-record-emptyrecord.md).</span></span>
+> <span data-ttu-id="4d25a-113">Þessi aðgerð er úrelt.</span><span class="sxs-lookup"><span data-stu-id="4d25a-113">This function is obsolete.</span></span> <span data-ttu-id="4d25a-114">Notaði aðgerðina `EMPTYRECORD` í staðinn.</span><span class="sxs-lookup"><span data-stu-id="4d25a-114">Use the `EMPTYRECORD` function instead.</span></span> <span data-ttu-id="4d25a-115">Frekari upplýsingar er að finna á [EMPTYRECORD](er-functions-record-emptyrecord.md).</span><span class="sxs-lookup"><span data-stu-id="4d25a-115">For more information, see [EMPTYRECORD](er-functions-record-emptyrecord.md).</span></span>
 
-## <a name="example"></a><span data-ttu-id="00012-116">Dæmi</span><span class="sxs-lookup"><span data-stu-id="00012-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="4d25a-116">Dæmi</span><span class="sxs-lookup"><span data-stu-id="4d25a-116">Example</span></span>
 
-<span data-ttu-id="00012-117">`NULLCONTAINER (SPLIT ("abc", 1))` skilar nýrri tómri skrá sem hefur sömu uppbyggingu og listinn sem skilað er með `SPLIT`-aðgerðinni.</span><span class="sxs-lookup"><span data-stu-id="00012-117">`NULLCONTAINER (SPLIT ("abc", 1))` returns a new empty record that has the same structure as the list that is returned by the `SPLIT` function.</span></span> <span data-ttu-id="00012-118">Frekari upplýsingar er að finna á [SPLIT](er-functions-list-split.md).</span><span class="sxs-lookup"><span data-stu-id="00012-118">For more information, see [SPLIT](er-functions-list-split.md).</span></span>
+<span data-ttu-id="4d25a-117">`NULLCONTAINER (SPLIT ("abc", 1))` skilar nýrri tómri skrá sem hefur sömu uppbyggingu og listinn sem skilað er með `SPLIT`-aðgerðinni.</span><span class="sxs-lookup"><span data-stu-id="4d25a-117">`NULLCONTAINER (SPLIT ("abc", 1))` returns a new empty record that has the same structure as the list that is returned by the `SPLIT` function.</span></span> <span data-ttu-id="4d25a-118">Frekari upplýsingar er að finna á [SPLIT](er-functions-list-split.md).</span><span class="sxs-lookup"><span data-stu-id="4d25a-118">For more information, see [SPLIT](er-functions-list-split.md).</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="00012-119">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="00012-119">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="4d25a-119">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="4d25a-119">Additional resources</span></span>
 
-[<span data-ttu-id="00012-120">Færsluvirkni</span><span class="sxs-lookup"><span data-stu-id="00012-120">Record functions</span></span>](er-functions-category-record.md)
+[<span data-ttu-id="4d25a-120">Færsluvirkni</span><span class="sxs-lookup"><span data-stu-id="4d25a-120">Record functions</span></span>](er-functions-category-record.md)

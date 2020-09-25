@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d11e2d8b46614085156228ab1001d1f9340a05b0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 3f8a8e2006fe279b25bbf154c6e1802babf51117
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040964"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744360"
 ---
-# <span data-ttu-id="04621-103"><a name="PADLEFT">PADLEFT ER-aðgerð</a></span><span class="sxs-lookup"><span data-stu-id="04621-103"><a name="PADLEFT">PADLEFT ER function</a></span></span>
+# <a name="padleft-er-function"></a><span data-ttu-id="a23ea-103">PADLEFT ER-aðgerð</span><span class="sxs-lookup"><span data-stu-id="a23ea-103">PADLEFT ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="04621-104">Aðgerðin `PADLEFT` skilar *strengjagildi* af tilgreindri lengd, þar sem upphaf tilgreinds strengs er fyllt með tilgreindum stöfum.</span><span class="sxs-lookup"><span data-stu-id="04621-104">The `PADLEFT` function returns a *String* value of the specified length, where the start of the specified string is padded with the specified characters.</span></span>
+<span data-ttu-id="a23ea-104">Aðgerðin `PADLEFT` skilar *strengjagildi* af tilgreindri lengd, þar sem upphaf tilgreinds strengs er fyllt með tilgreindum stöfum.</span><span class="sxs-lookup"><span data-stu-id="a23ea-104">The `PADLEFT` function returns a *String* value of the specified length, where the start of the specified string is padded with the specified characters.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="04621-105">Málskipun</span><span class="sxs-lookup"><span data-stu-id="04621-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a23ea-105">Málskipun</span><span class="sxs-lookup"><span data-stu-id="a23ea-105">Syntax</span></span>
 
 ```vb
 PADLEFT (text, length, padding chars)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="04621-106">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="04621-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="a23ea-106">Frumbreytur</span><span class="sxs-lookup"><span data-stu-id="a23ea-106">Arguments</span></span>
 
-<span data-ttu-id="04621-107">`text`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="04621-107">`text`: *String*</span></span>
+<span data-ttu-id="a23ea-107">`text`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="a23ea-107">`text`: *String*</span></span>
 
-<span data-ttu-id="04621-108">Gildið *Strengur* sem táknar upprunalega textann.</span><span class="sxs-lookup"><span data-stu-id="04621-108">A *String* value that represents the original text.</span></span>
+<span data-ttu-id="a23ea-108">Gildið *Strengur* sem táknar upprunalega textann.</span><span class="sxs-lookup"><span data-stu-id="a23ea-108">A *String* value that represents the original text.</span></span>
 
-<span data-ttu-id="04621-109">`length`: *Heiltala*</span><span class="sxs-lookup"><span data-stu-id="04621-109">`length`: *Integer*</span></span>
+<span data-ttu-id="a23ea-109">`length`: *Heiltala*</span><span class="sxs-lookup"><span data-stu-id="a23ea-109">`length`: *Integer*</span></span>
 
-<span data-ttu-id="04621-110">*Heiltölu*-gildi sem táknar lokafjölda stafa í fyllta strengnum.</span><span class="sxs-lookup"><span data-stu-id="04621-110">An *Integer* value that represents the final number of characters in the padded string.</span></span>
+<span data-ttu-id="a23ea-110">*Heiltölu*-gildi sem táknar lokafjölda stafa í fyllta strengnum.</span><span class="sxs-lookup"><span data-stu-id="a23ea-110">An *Integer* value that represents the final number of characters in the padded string.</span></span>
 
-<span data-ttu-id="04621-111">`padding chars`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="04621-111">`padding chars`: *String*</span></span>
+<span data-ttu-id="a23ea-111">`padding chars`: *Strengur*</span><span class="sxs-lookup"><span data-stu-id="a23ea-111">`padding chars`: *String*</span></span>
 
-<span data-ttu-id="04621-112">Staftáknin sem á að nota við fyllingu.</span><span class="sxs-lookup"><span data-stu-id="04621-112">The characters to use for padding.</span></span>
+<span data-ttu-id="a23ea-112">Staftáknin sem á að nota við fyllingu.</span><span class="sxs-lookup"><span data-stu-id="a23ea-112">The characters to use for padding.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="04621-113">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="04621-113">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="a23ea-113">Skilagildi</span><span class="sxs-lookup"><span data-stu-id="a23ea-113">Return values</span></span>
 
-<span data-ttu-id="04621-114">*Strengur*</span><span class="sxs-lookup"><span data-stu-id="04621-114">*String*</span></span>
+<span data-ttu-id="a23ea-114">*Strengur*</span><span class="sxs-lookup"><span data-stu-id="a23ea-114">*String*</span></span>
 
-<span data-ttu-id="04621-115">Textagildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="04621-115">The resulting text value.</span></span>
+<span data-ttu-id="a23ea-115">Textagildið sem verður til.</span><span class="sxs-lookup"><span data-stu-id="a23ea-115">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="04621-116">Dæmi</span><span class="sxs-lookup"><span data-stu-id="04621-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a23ea-116">Dæmi</span><span class="sxs-lookup"><span data-stu-id="a23ea-116">Example</span></span>
 
-<span data-ttu-id="04621-117">`PADLEFT ("1234", 10, "`&nbsp;`")` skilar textastrengnum **"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234"**.</span><span class="sxs-lookup"><span data-stu-id="04621-117">`PADLEFT ("1234", 10, "`&nbsp;`")` returns the text string **"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234"**.</span></span>
+<span data-ttu-id="a23ea-117">`PADLEFT ("1234", 10, "`&nbsp;`")` skilar textastrengnum **"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234"**.</span><span class="sxs-lookup"><span data-stu-id="a23ea-117">`PADLEFT ("1234", 10, "`&nbsp;`")` returns the text string **"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="04621-118">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="04621-118">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="a23ea-118">Frekari upplýsingar</span><span class="sxs-lookup"><span data-stu-id="a23ea-118">Additional resources</span></span>
 
-[<span data-ttu-id="04621-119">Textavirkni</span><span class="sxs-lookup"><span data-stu-id="04621-119">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="a23ea-119">Textavirkni</span><span class="sxs-lookup"><span data-stu-id="a23ea-119">Text functions</span></span>](er-functions-category-text.md)
