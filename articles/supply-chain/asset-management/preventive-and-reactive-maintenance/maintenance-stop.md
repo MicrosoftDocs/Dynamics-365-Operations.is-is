@@ -1,6 +1,6 @@
 ---
-title: Niðurtími vegna viðhalds
-description: Þetta efni skýrir niðurtíma vegna viðhalds í eignastýringu.
+title: Niðurtímaaðgerðir vegna viðhalds
+description: Þetta efnisatriði útskýrir hvernig niðurtími viðhalds er notaður til að fá yfirlit yfir afkastagetu sem er nauðsynleg til að framkvæma viðhaldsverk á tilteknum eignum á tilteknu tímabili.
 author: josaw1
 manager: tfehr
 ms.date: 08/27/2019
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c1b219d352b6b090c5c2cd3c063d7f890beaa35c
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 2f864e7fe0129f8487cddadc99b32f75a2b6d9ca
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383528"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802822"
 ---
-# <a name="maintenance-downtime"></a>Niðurtími vegna viðhalds
+# <a name="maintenance-downtime-activities"></a>Niðurtímaaðgerðir vegna viðhalds
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Niðurtími vegna viðhalds er notaður til að fá yfirsýn yfir álag sem þarf til að sinna viðhaldsverkum á tilteknum eignum á tilteknu tímabili. Til dæmis er hægt að búa til skráningu á niðurtíma vegna viðhalds fyrir framleiðslulínu 10 í framleiðslusal 29-A á framleiðslusvæði 02. Viðhaldstími skráningar hefur upphafs- og lokatíma sem gefur til kynna tímabilið þegar eignir sem tengjast viðhaldsstöðvun eru ekki tiltækar til framleiðslu.
 
@@ -79,7 +77,7 @@ Myndin hér að neðan sýnir dæmi um ítarupplýsingarnar **Niðurtímaaðger�
 
 ![Mynd 3](media/21-preventive-maintenance.png)
 
-11. Þegar þú hefur fengið yfirsýn yfir álag og ef þú vilt gera leiðréttingar á viðhaldsverkum verkbeiðna eða viðhaldsskemalínum skaltu fara til baka í smáatriðið **Aðgerðir niðurtíma vegna viðhalds** og velja línurnar sem þú vilt aðlaga á flýtiflipunum **Afleidd viðhaldsverk verkbeiðna** og **Viðhaldsskemalínur**.
+11. Þegar þú hefur fengið yfirlit yfir álag, ef þú vilt gera leiðréttingar á viðhaldsvinnslum verkbeiðni eða viðhaldsáætlunarlínum skaltu fara aftur í **Niðurtímaaðgerðir vegna viðhalds** og velja línurnar sem á að leiðrétta á **Verkbeiðnir viðhaldsvinnsla sem verða til** og **Áætlunarlínur viðhalds** flýtiflipanna.
 
 12. Smelltu á hnappinn **Stilla** og uppfærðu áætlaðar upphafs-/lokadagsetningar, þjónustustig eða ábyrga viðhaldsstarfsmenn fyrir valin viðhaldsverk verkbeiðni eða viðhaldsskemalínur.
 

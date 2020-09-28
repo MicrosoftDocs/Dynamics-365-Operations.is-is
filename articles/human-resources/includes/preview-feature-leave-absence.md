@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Þessi eiginleiki er aðgengilegur í opinni forútgáfu af Sandbox- eða prófunarumhverfi. Virknin er ekki aðgengileg í vinnsluumhverfi. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfueiginleika er að finna í [Vinna með eiginleika](../hr-admin-manage-features.md).
+> Sum eða öll þessi virkni er aðgengileg í opinni forútgáfu af Sandbox- eða prófunarumhverfi. Virknin er ekki aðgengileg í vinnsluumhverfi. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfueiginleika er að finna í [Vinna með eiginleika](../hr-admin-manage-features.md).

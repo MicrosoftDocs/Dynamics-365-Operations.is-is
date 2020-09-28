@@ -3,7 +3,7 @@ title: Stjórna leyfisbeiðnum í Teams
 description: Þetta efnisatriði sýnir hvernig á að biðja um frí í Dynamics 365 Human Resources forritinu í Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/18/2020
+ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b3daa76385518ad4c7150fa93ce33be0351bfd57
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 0fbf44fe35af3147fd5fb478b6cbfc5a5d0b109d
+ms.sourcegitcommit: 5b620f670ac0f403a0fdcdeb9c3f970b163191ee
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428829"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "3766761"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Stjórna leyfisbeiðnum í Teams
 
@@ -82,11 +82,11 @@ Hægt er að spyrja þjarkann um að:
 
    ![Leyfisbeiðni fyrir Human Resources Teams-forrit fyrir leyfi](./media/hr-teams-leave-app-bot-request.png)
  
-Eftir að beiðni um leyfi er hafin er hægt að leiðrétta dagana innan spjaldsins eða velja **Breyta upplýsingum** til að bæta viðbótarupplýsingum við beiðnina.
+Eftir að beiðni um leyfi er hafin er hægt að leiðrétta dagana innan spjaldsins.
 
 ![Breytingabeiðni Human Resources Teams-forrits fyrir leyfi](./media/hr-teams-leave-app-bot-edit.png)
  
-Þegar búið er að færa inn upplýsingar skal slá inn **Senda** til að senda hana til samþykkis. Einnig er hægt að slá inn **Vista sem drög** til að gera þetta síðar.
+Þegar búið er að færa inn upplýsingar skal velja **Senda** til að senda þær til samþykkis. Einnig er hægt að velja **Vista sem drög** til að gera þetta síðar.
 
 ![Senda beiðni í Human Resources Teams-forriti fyrir leyfi](./media/hr-teams-leave-app-bot-submit.png)
 
@@ -130,15 +130,43 @@ Flipinn **Frí** býður upp á skoðun:
 
    ![Breyta drögum í Human Resources Teams-forriti fyrir leyfi](./media/hr-teams-leave-app-drafts-edit.png)
    
+### <a name="teams-notifications"></a>Teams-tilkynningar
+
+Þegar þú eða starfskraftur sem þú ert samþykktaraðili fyrir sendir beiðni um leyfi fyrir færðu senda tilkynningu í Human Resources forritinu í Teams. Hægt er að velja tilkynninguna til að skoða hana. Tilkynningar birtast einnig á svæðinu **Spjall**.
+
+Ef notandi er samþykkjandi er hægt að velja **Samþykkja** eða **Neita** í tilkynningunni. Einnig er hægt að búa til valfrjáls skilaboð.
+
+![Senda beiðni um tilkynningar í forritinu Human Resources Teams](./media/hr-teams-leave-app-notification.png)
+
+## <a name="view-your-teams-leave-calendar"></a>Skoða frídagatal teymisins
+
+Ef þú ert yfirmaður með beina undirmenn getur þú skoðað samþykkt frí hópsins þíns og frí í bið.
+
+1. Í forritinu „Human Resources“ í Teams skal velja **Frí**.
+
+2. Veldu **Team dagatal**.
+
+   ![Skoða dagatal í Human Resources Teams-forriti](./media/hr-teams-leave-app-view-calendar.png)
+
+Dagatalið birtir samþykkt frí og frí í bið fyrir beina undirmenn þína.
+
+![Frítímadagatal í Human Resources Teams forriti](./media/hr-teams-leave-app-calendar.png)
+
 ## <a name="privacy-notice"></a>Tilkynning um persónuvernd
 
-Með Dynamics 365 Human Resources þjarkanum í Microsoft Teams er texti notanda greindur til að skilja undirliggjandi fyrirspurn/ásetning. Inntak notanda á borð við „Leita í contoso reikningi“ er flutt í eina af Cognitive Service hjá Microsoft sem kallast LUIS (Language Understanding Intelligent Service). Lesa meira um LUIS  [hér](https://www.luis.ai/). LUIS-þjónustan ræður úr eða skilur ásetning notanda (í þessu tilviki er ætlunin að finna upplýsingar) og markeiningu (í þessu tilviki er tilgreinda einingin reikningur sem heitir Contoso). Þessar upplýsingar eru svo sendar í Microsoft  [Azure þjarkaramma](https://azure.microsoft.com/services/bot-service/) sem vinnur með gögn úr Dynamics 365 Human Resources og sækir æskilegar upplýsingum fyrir fyrirspurn notanda. 
+### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Microsoft Language Understanding Intelligent Service (LUIS)
+
+Með Dynamics 365 Human Resources þjarkanum í Microsoft Teams er texti notanda greindur til að skilja undirliggjandi fyrirspurn/ásetning. Inntak notanda á borð við „Leita í contoso reikningi“ er flutt í eina af Cognitive Service hjá Microsoft sem kallast LUIS (Language Understanding Intelligent Service). Lesa meira um LUIS  [hér](https://www.luis.ai/). LUIS-þjónustan ræður úr eða skilur ásetning notanda (í þessu tilviki er ætlunin að finna upplýsingar) og markeiningu (í þessu tilviki er tilgreinda einingin reikningur sem heitir Contoso). Þessar upplýsingar eru svo sendar í Microsoft [Azure þjarkaramma](https://azure.microsoft.com/services/bot-service/) sem vinnur með gögn úr Dynamics 365 Human Resources og sækir æskilegar upplýsingum fyrir fyrirspurn notanda. 
 
 Með því að setja upp og leyfa aðgang að þjarkanum samþykkir þú að leyfa LUIS-þjónustunni og Azure þjarkaramma að vinna úr ásetningi á bak við fyrirspurn, sem leiðir til betri notandaupplifunar. LUIS-þjónustan og Azure þjarkaramminn kunna að hafa mismikið samræmi samanborið við Dynamics 365 Human Resources. LUIS-þjónustan hefur aðeins aðgang að fyrirspurnum notenda og er ekki hönnuð til að tengjast við Dynamics 365 Human Resources gögn eða reikning. Notandi Dynamics 365 Human Resources þjarkans gæti fært inn fyrirspurn sem inniheldur gögn viðskiptavinar, persónuleg gögn eða önnur gögn og slíkt fyrirspurnarefni gæti verið sent til LUIS-þjónustunnar og Azure þjarkarammans. 
 
 Innihald fyrirspurna og skilaboða notanda er vistað í LUIS-kerfi í að hámarki 30 daga, er dulkóðað þegar ekki í notkun og er ekki notað fyrir þjálfun eða endurbætur á þjónustu. Lestu meira um Cognitive Services  [hér](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
 
-Til að stjórna stjórnandastillingum fyrir forrit í Microsoft Teams er farið í [Microsoft Teams stjórnendamiðstöð](https://admin.teams.microsoft.com/). 
+Til að stjórna stjórnandastillingum fyrir forrit í Microsoft Teams er farið í [Microsoft Teams stjórnendamiðstöð](https://admin.teams.microsoft.com/).
+
+### <a name="microsoft-azure-event-grid-and-microsoft-teams"></a>Microsoft Azure -Tilvikhnitanet og Microsoft Teams
+
+Þegar tilkynningaeiginleiki er notaður fyrir Dynamics 365 Human Resources-forritið í Teams flæð tiltekin gögn um viðskiptavini út fyrir landsvæðið þar sem biðlari Human Resources þjónustunnar ern notaður. Dynamics 365 Human Resources sendir upplýsingar um leyfisbeiðni og verkflæðisverk til Microsoft Azure tilviks hnitanets og Microsoft Teams. Þessi gögn kunna að vera geymd í allt að sólarhring og unnin í Bandaríkjunum, þau er dulkóðuð í flutningi og í hvíld, og eru ekki notuð af Microsoft eða meðhöndlunaraðilum fyrir þjálfun eða þjónustuúrbætur.
 
 ## <a name="see-also"></a>Sjá einnig
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 02d53f4326d8f31abf6ec7404575728837954bef
-ms.sourcegitcommit: c9baf9a3b4552f0317b5ec87d252834f52df1b98
+ms.openlocfilehash: c68f0a0e2481c69add8c50a1581466ad0b1483c0
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3665611"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759912"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Stuðningur við færibreytur kallar á ER gagnagjafa af reitagerðinni Reiknað
 
@@ -339,4 +339,7 @@ Endurtekin köll í reiknaða reiti með færibreytu eru ekki studd.
 8. Berðu saman innihald í mynduðu úttaki.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
-[Formúluhönnuður í rafrænni skýrslugerð (ER)](general-electronic-reporting-formula-designer.md)
+
+- [Formúluhönnuður í rafrænni skýrslugerð (ER)](general-electronic-reporting-formula-designer.md)
+- [Bættu frammistöðu rafrænna skýrslugerðarlausna með því að bæta við gagnagjöfum með REIKNAÐA REITI með færibreytum](er-calculated-field-ds-performance.md)
+

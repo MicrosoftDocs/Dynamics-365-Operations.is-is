@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a127fcf2bf429299dc73e338cbfc3fbf8f5f2d9f
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 936bd88faad0d24c8cd72bc153cf55c38b4a4825
+ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651982"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "3763432"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.9. (apríl 2020)
 
@@ -38,7 +38,7 @@ ms.locfileid: "3651982"
 
 Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengjast fleiri upplýsingum á vefsvæðinu [Útgáfuáætlanir](https://docs.microsoft.com/dynamics365/release-plans/). Viðbótartenglar benda á viðbótargögn eða myndbönd sem eru tiltæk fyrir þann eiginleika. Sumir af þessum eiginleikum kunna einnig að hafa verið með fyrri stigvaxandi útgáfu, en var ekki tilkynnt í fyrri efnisatriðum *Hvað er nýtt*, svo við erum að bæta þeim við hér. Flestir þessara eiginleika verða að vera virkir með [Eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) áður en þú getur notað þá.
 
-- [Ítarlegar hleðsluáætlanir í bylgju](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/advanced-load-building-during-wave)
+- [Ítarlegar hleðsluáætlanir í bylgju](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/advanced-load-building-during-wave)<br> - Frekari upplýsingar er að finna í [Viðbótarhleðsluáætlanir í bylgju](../warehousing/advanced-load-building-during-wave.md).
 - [Sjálfvirk losun sendingar fyrir dreifingu frá dreifingarstöð](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/auto-release-shipment-cross-dock)<br> - Frekari upplýsingar er að finna í [Sjálfvirk losun sendingar fyrir dreifingu frá dreifingarstöð](../warehousing/auto-release-shipment-for-cross-docking.md).
 - [Reiknaðu afhendingardag PO með tilliti til aðdraganda og virkra daga (opinberir aðilar)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/calculate-po-delivery-date-based-lead-times-working-days-public-sector)
 - [Úrvinnsla á afurð í framleiðsluþyngd með vöruhúsakerfi](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/catch-weight-product-processing-warehouse-management)<br> - Frekari upplýsingar er að finna í myndböndunum [Úrvinnsla á afurð í framleiðsluþyngd með vöruhúsakerfi](../warehousing/catch-weight-processing.md) og [Endurbætur á afurð með framleiðsluþyngd](https://www.microsoft.com/videoplayer/embed/RE4jzx8).
@@ -51,21 +51,21 @@ Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengj
 - [Endurbætt verkspjaldstæki](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/improved-job-card-device)<br> - Frekari upplýsingar er að finna í [Tilkynna um framvindu í fartæki](../production-control/tasks/report-progress-mobile-job-device.md) og [Tilkynna sem lokið úr verkspjaldstæki](../production-control/report-finished-job-device.md).
 - [Gæðaprófun á innleið](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inbound-quality-check)
 - [Skýrsla um aldursgreiningu birgða](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-aging-report-storage)
-- [Geymsla birgðavirðisskýrslu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-value-report-storage)
+- [Geymsla birgðavirðisskýrslu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inventory-value-report-storage)<br> - Frekari upplýsingar er að finna í [Skýrsla um birgðavirði í geymslu](../cost-management/inventory-value-report-storage.md)
 - [Gantt-graf af framvindu aðaláætlanagerðar](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/master-planning-progress-gantt-chart)<br> - Frekari upplýsingar er að finna í [Fylgjast með keyrslu aðaláætlanagerðar](../master-planning/tasks/monitor-master-planning-run.md) og myndbandinu [Endurbætur á MRP-afköstum og notagildi](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
 - [Nýjar gagnaeiningar fyrir framleiðslusvæðið](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [Flokkun á útleið](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/outbound-sorting)
+- [Flokkun á útleið](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/outbound-sorting)<br> - Frekari upplýsingar má finna í [Flokkun á útleið](../warehousing/outbound-sorting.md).
 - [Pökkun samanborið við geymsluvíddir](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)
 - [Samhliðuð staðfesting á áætluðum pöntunum](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - Frekari upplýsingar er að finna í [Samhliðuð staðfesting](../master-planning/maintain-planned-orders.md#parallelize-firming) og myndbandinu [Endurbætur á MRP-afköstum og notagildi](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
 - [Fínstilling áætlanagerðar fyrir dreifingu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - Frekari upplýsingar er að finna í [Yfirlit yfir fínstillingu aðaláætlanagerðar](../master-planning/planning-optimization/planning-optimization-overview.md).
 - [Endurbætur á innkaupasamningi](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/purchase-agreement-enhancements)<br> - Frekari upplýsingar er að finna í [Innkaupasamningar](../procurement/purchase-agreements.md).
 - [Frágangsklasar](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-away-clusters) <br> - Frekari upplýsingar er að finna í myndbandinu [Frágangsklasar](https://www.microsoft.com/videoplayer/embed/RE4f5aB).
-- [Sett á vegg/Sett í verslun](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-wallput-store)
+- [Sett á vegg/Sett í verslun](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/put-wallput-store)<br> - Frekari upplýsingar er að finna í [Setja á vegg - setja í verslun](../warehousing/put-to-wall-put-to-store.md).
 - [Fá flokkun](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/receive-sortation)
 - [Sending lítilla pakka (SPS)](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/small-package-shipping-sps)
 - [Tilboð lánardrottins—spurningar frá lánardrottnum og samantekin svör](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/vendor-bidding-questions-vendors-summarized-responses)
 - [Sjónræn tímasetning fyrir vinnupantanir í eignastjórnun](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/visual-scheduling-work-orders-asset-management)<br> - Frekari upplýsingar er að finna í [Vinna með tímasettar vinnupantanir með gantt-grafi](../asset-management/work-order-scheduling/schedule-work-orders.md#gantt).
-- [Hólfaskipting vöruhúss](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-slotting)
+- [Hólfaskipting vöruhúss](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-slotting)<br> - Frekari upplýsingar er að finna í [Hólfaskipting vöruhúss](../warehousing/warehouse-slotting.md).
 - [Aukahlutir prentunar á bylgjumerki](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-label-printing-enhancements)
 - [Kóði bylgjuskrefs](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-step-code)<br> - Frekari upplýsingar er að finna í [Bylgjuskrefakóðum](../warehousing/wave-step-codes.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Flýtilyklar
-description: Eftirfarandi flýtilyklar geta hjálpað þér að slá inn gögn fljótt og vel.
+description: Þetta efnisatriði inniheldur yfirlit yfir samsetningar flýtilykla sem þú getur notað þegar þú ert að vinna með Finance and Operations forrit.
 author: jasongre
 manager: AnnBe
 ms.date: 10/02/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa35037b435bafa3f22013e41f0692f836e99a14
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
+ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811556"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761622"
 ---
 # <a name="keyboard-shortcuts"></a>Flýtilyklar
 
 [!include [banner](../includes/banner.md)]
 
-Eftirfarandi flýtilyklar geta hjálpað þér að slá inn gögn fljótt og vel.
+Eftirfarandi flýtilyklar geta auðveldað að færa inn gögn á fljótlegan og skilvirkan hátt í Finance and Operations-forritum.
 
 > [!NOTE]
 > Flýtileiðir lyklaborðs sem hér er lýst vísa til bandarísks lyklaborðs. Lyklar á öðrum lyklaborðum samsvara hugsanlega ekki nákvæmlega lyklum á bandarísku lyklaborði.
@@ -236,6 +236,7 @@ Frá og með Verkvangsuppfærslu 11, geta notendur uppgötvað fyrirliggjandi ti
 | Færa upp/niður um línu í uppflettingu                                                                                        | Uppör / niðurör            |
 | Færa upp/niður um síðu í uppflettingu                                                                                       | Síða upp / Síða niður              |
 | Flytja efst/neðst í uppflettingu                                                                                    | Heima / Ljúka                       |
+
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
 - [Flýtilyklar fyrir greiningu á reikningum sem vantar](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)

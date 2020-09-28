@@ -3,7 +3,7 @@ title: Hnitanetsgeta
 description: Þetta efni lýsir nokkrum kröftugum eiginleikum netstýringar. Það verður að gera nýja hnitanetsaðgerðina kleift að hafa aðgang að þessum möguleikum.
 author: jasongre
 manager: AnnBe
-ms.date: 08/03/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,24 +16,23 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b1dd5e852bdc116d0848687782c930b19eae7900
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651691"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760400"
 ---
 # <a name="grid-capabilities"></a>Hnitanetsgeta
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Nýja netstýringin veitir fjölda gagnlegra og öflugra getu sem hægt er að nota til að auka framleiðni notenda, smíða áhugaverðari sýn á gögnin þín og fá þroskandi innsýn í gögnin þín. Þessi grein mun fjalla um eftirfarandi getu: 
 
 -  Reiknar samtölur
--  Flokkun gagna
 -  Vélritun á undan kerfinu
 -  Mat á stærðfræðisegðum 
+-  Flokkun töflugagna (virkjuð sérstaklega með flokkun **(forútgáfa) í hnitanetum** eiginleika)
 
 ## <a name="calculating-totals"></a>Reiknar samtölur
 Í forritum Finance and Operations geta notendur séð heildartölur neðst í töludálkum í hnitanetum. Þessar samtölur eru sýndar í síðufótarhluta neðst á töflunni. 
@@ -71,21 +70,6 @@ Ef útreikningurinn tekur of langan tíma geturðu hætt við aðgerðina með �
 
 Heildartölur munu uppfærast sjálfkrafa þegar þú uppfærir, eyðir eða býrð til línur í gagnapakkanum.  
 
-## <a name="grouping-data"></a>Flokkun gagna
-Notendur fyrirtækja þurfa oft að framkvæma sértækar greiningar á gögnum. Þó að þetta sé hægt að gera með því að flytja gögn út til Microsoft Excel og nota pivot töflur, the **Flokkun** getu í töflum ristum gerir notendum kleift að skipuleggja gögn sín á áhugaverðan hátt innan Finance and Operations smáforrit. Eins og þessi aðgerð nær til **Heildartölur** lögun, **Flokkun** gerir þér einnig kleift að fá þroskandi innsýn í gögnin með því að gefa undirstig á hópsstigi.
-
-Til að nota þennan eiginleika skaltu hægrismella á dálkinn sem þú vilt flokka eftir og velja **Flokkaðu eftir þessum dálki**. Þessi aðgerð mun raða gögnum eftir völdum dálki, bæta við nýjum hóp eftir dálki í byrjun í ristina og setja „hausraðir“ í byrjun hvers hóps. Þessar hausraðir veita eftirfarandi upplýsingar um hvern hóp: 
--  Gagnagildi fyrir hópinn 
--  Dálkamerki (Þessar upplýsingar verða sérstaklega gagnlegar eftir að mörg stig af flokkun eru studd.)
--  Fjöldi gagnalína í þessum hópi
--  Undirmál fyrir hvaða dálk sem er stilltur til að sýna samtölur
-
-Með [Vistaðar skoðanir](saved-views.md) virkt, þá er hægt að vista þennan flokkun með sérstillingu sem hluta af útsýni til að fá skjótan aðgang næst þegar þú heimsækir síðuna.  
-
-Ef þú velur **Flokka eftir þessum dálki** í öðrum dálki er upprunalegri flokkun skipt út, þar sem aðeins eitt stig flokkunar er stutt í útgáfu 10.0.9 með verkvangsuppfærslu 33.
-
-Til að afturkalla flokkun í rist skaltu hægrismella á flokkunarsúluna og velja **Taka saman hóp**.  
-
 ## <a name="typing-ahead-of-the-system"></a>Vélritun á undan kerfinu
 Í mörgum atburðarásum í viðskiptum er möguleikinn til að færa gögn fljótt inn í kerfið mjög mikilvægur. Áður en nýja hnitanetsstýringin var kynnt gátu notendur aðeins breytt gögnum í núverandi línu. Áður en notendur gátu búið til nýja línu eða skipt yfir í aðra línu neyddust þeir til að bíða eftir að kerfið staðfesti allar breytingar. Til að reyna að draga úr þeim tíma sem notendur bíða eftir að þessum staðfestingum ljúki, og til að bæta afköst notanda, aðlagar nýja hnitanetið þessar staðfestingar svo þær séu ósamstilltar. Þess vegna getur notandinn fært sig yfir í aðrar línur til að gera breytingar á meðan beðið er eftir fyrri staðfestingum á línum. 
 
@@ -109,6 +93,32 @@ Sem framleiðniörvun geta notendur slegið inn stærðfræðiformúlur í tölu
 
 Til að gera kerfið að viðurkenna gildi sem tjáningu, byrjaðu gildið með jöfnu merki (**=**). Nánari upplýsingar um rekstraraðila sem studd er og setningafræði, sjá [Studd stærðfræðitákn](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
+## <a name="grouping-tabular-data"></a>Flokkun töflugagna
+[!include [preview banner](../includes/preview-banner.md)]
+
+Notendur fyrirtækja þurfa oft að framkvæma sértækar greiningar á gögnum. Þó að hægt sé að framkvæma þetta með því að flytja út gögn á Microsoft Excel og nota Pivot-töflur gerir **(forútgáfa) flokkun í hnitaneti** eiginleikinn, sem er háður nýjum eiginleika hnitastýringar, notendum kleift að skipuleggja töflugögn á áhugaverðan hátt innan Finance and Operations-forrita. Vegna þess að þessi eiginleiki víkkar eiginleikann **Samtölur**, gerir **Flokkun** þér kleift að fá auðskiljanlegri innsýn í gögnin með því að gefa upp millisamtölur á hópstigi.
+
+Til að nota þennan eiginleika skal hægrismella á dálkinn sem á að flokka eftir, og velja **Flokka eftir þessum dálki**. Þessi aðgerð mun raða gögnum eftir völdum dálki, bæta við nýjum **Flokki eftir dálki** við upphaf hnitanetsins og setja inn „hauslínur“ í upphafi hvers hóps. Þessar hausraðir veita eftirfarandi upplýsingar um hvern hóp: 
+-  Gagnagildi fyrir hópinn 
+-  Dálkheiti (þessar upplýsingar verða sérstaklega gagnlegar eftir að mörg stig flokkunar eru studdar.)  
+-  Fjöldi gagnalína í þessum hópi
+-  Undirmál fyrir hvaða dálk sem er stilltur til að sýna samtölur
+
+Með [Vistaðar skoðanir](saved-views.md) virkt, þá er hægt að vista þennan flokkun með sérstillingu sem hluta af útsýni til að fá skjótan aðgang næst þegar þú heimsækir síðuna.  
+
+Ef **Flokka eftir þessum dálki** er valið fyrir annan dálk, er upprunalega hópnum skipt út þar sem aðeins eitt stig af flokkun er stutt frá útgáfu 10.0.9/verkvangsuppfærslu 33.
+
+Til að afturkalla flokkun í hnitaneti skal hægrismella á flokkunardálkinn og velja **Sundra hópi**.  
+
+### <a name="expanding-and-collapsing-groups"></a>Stækka og fella saman hópa
+Fyrsta flokkun gagna verður með alla hópa útvíkkaða. Hægt er að búa til samandregin yfirlit yfir gögnin með því að fella saman einstaka flokka eða nota hóp til að stækka og draga saman til að aðstoða við að fletta í gegnum gögn. Til að víkka út hóp eða draga hann saman skal velja tvíoddatákn (>) hnappinn í samsvarandi flokkshauslínu. Athugið að staða fyrir víkkun/samanfellingu einstakra flokka er **ekki** vistuð í sérstillingum.
+
+### <a name="selecting-and-unselecting-rows-at-the-group-level"></a>Velja og afvelja línur á hópstigi
+Á sama hátt og hægt er að velja (eða afvelja) allar línur í hnitanetinu með því að velja gátreitinn efst í fyrsta dálkinum í hnitanetinu, einnig er hægt að velja (eða afvelja) allar línur í hópi með því að velja gátreitinn í samsvarandi hauslínu hóps. Gátreiturinn í línu hóphauss endurspeglar alltaf núverandi valstöðu lína í þeim hópi, burtséð frá því hvort allar línur séu valdar, engar línur séu valdar eða aðeins einhverjar línur eru valdar.
+
+### <a name="hiding-column-names"></a>Fela dálkaheiti
+Við flokkun gagna er sjálfgefið að hegðun sýni dálkheiti í hauslínu hóps. Ef byrjað er á útgáfu 10.0.14/verkvangsuppfærsla 38 er hægt að fela dálkheitið í hauslínu hóps með því að velja **Valkostir hnitanets** > **Fela dálkheiti hóps**.
+
 ## <a name="frequently-asked-questions"></a>Algengar spurningar
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Hvernig virkja ég nýja netstýringu í umhverfi mínu? 
 
@@ -131,7 +141,7 @@ Allar síðari notendatímabil munu byrja með virkjaða nýja netstýringu.
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Þróunaraðili] Afskrá einstaka síður frá því að nota nýja hnitanetið 
 Ef fyrirtækið uppgötvar síðu sem á í vandræðum með að nota nýja hnitanetið, er API tiltækt til að leyfa einstökum skjámyndum að nota eldri netstýringu og leyfa á sama tíma öðrum hlutum kerfisins að nota nýju netstýringuna. Til að afskrá einstaka síður frá því að nota nýja hnitanetið, skal bæta við eftirfarandi kallskilaboðum `super()` í `run()` aðferð skjámyndar.
 
-        this.forceLegacyGrid();
+ ```this.forceLegacyGrid();```
 
 Þetta API verður notað fram að útgáfu í október 2021 þegar nýja hnitanetstýringin verður áskilin. Tilkynnið öll vandamál til Microsoft sem krefjast þess að þetta API sé notað. 
 

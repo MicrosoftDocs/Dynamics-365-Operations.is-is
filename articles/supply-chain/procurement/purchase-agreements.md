@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdc3fe95ec0917c09128997e254f29ce863dcc38
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 253177103435c765bfe45daffeae0c436617af21
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208018"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803164"
 ---
 # <a name="purchase-agreements"></a>Innkaupasamningar
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Þessi grein gefur upplýsingar um innkaupasamninga. Innkaupasamningur er samningur sem skuldbindur stofnun til að kaupa tiltekið magn eða upphæð með því að nota margar innkaupapantanir á tilteknum tíma. Í skiptum fyrir þessa skuldbindingu fær kaupanda sérstakt verð og afslættir. 
 
@@ -42,8 +41,13 @@ Til að koma í veg fyrir að innkaupasamningur þinn sé notaður og staðfestu
 
 ## <a name="responsible-workers-on-purchase-agreements"></a>Ábyrgir starfsmenn vegna innkaupasamninga
 
-Þú getur borið kennsl á aðalábyrgðan starfskraft og annan ábyrgðan starfskraft í flokkun innkaupasamningsins. Þessi gildi efast með innkaupasamningi sem af því leiðir. Þú þarft ekki að bæta ábyrgum starfskröftum við innkaupasamninginn og þeim er hægt að breyta beint hverju sinni í innkaupasamningnum sjálfum. Þú getur ekki tilgreint annan ábyrgðan starfskraft án aðalábyrgs starfskrafts, jafnvel þó að þú sért ekki með annan ábyrgðan starfskraft. Þú getur ekki tilgreint sama starfskraft sem bæði aðal- og annan ábyrgan starfskraft. 
+Þú getur borið kennsl á aðalábyrgðan starfskraft og annan ábyrgðan starfskraft í flokkun innkaupasamningsins. Þessi gildi efast með innkaupasamningi sem af því leiðir. Þú þarft ekki að bæta ábyrgum starfskröftum við innkaupasamninginn og þeim er hægt að breyta beint hverju sinni í innkaupasamningnum sjálfum. Þú getur ekki tilgreint annan ábyrgðan starfskraft án aðalábyrgs starfskrafts, jafnvel þó að þú sért ekki með annan ábyrgðan starfskraft. Þú getur ekki tilgreint sama starfskraft sem bæði aðal- og annan ábyrgan starfskraft.
 
+> [!IMPORTANT]
+> Áður en hægt er að nota eiginleika ábyrgðaraðila verður að vera kveikt á honum í kerfinu. Stjórnendur geta notað stillingarnar [eiginleikastjórnun](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) til að athuga stöðu eiginleikans og kveikja á honum. Á vinnusvæðinu **Eiginleikastjórnun** er eiginleikinn tilgreindur á eftirfarandi hátt:
+> 
+> - **Eining:** *Innkaup og uppruni*
+> - **Heiti eiginleika:** *Ábyrgðaraðili innkaupasamnings*
 
 ## <a name="commitment-types"></a>Ráðstöfunargerðir
 Hver lína í innkaupasamningi er skuldbinding til að kaupa eitthvað. Þú getur notað línur frá mörgum innkaupapöntununum til að uppfylla skuldbindingar. Til eru fjórar tegundir skuldbindinga:

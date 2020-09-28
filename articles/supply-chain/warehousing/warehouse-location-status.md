@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 128083b22bb14d9b445863a0ba1217f723727ee4
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: 7b17df2afee22dde1af5c44de31c585069daa349
+ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597507"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "3775175"
 ---
 # <a name="warehouse-location-status"></a>Staðsetningarstaða vöruhúss
 
@@ -76,6 +76,9 @@ Sýniaðstæðurnar krefjast þess að þú búir til tvær staðsetningarforsti
     Þessir valkostir stjórna því hvort viðmiðunarsvæði staðsetningarinnar séu virkir.
 
 1. Endurtakið skref 3 til 4 fyrir **PICK-06** forstillinguna.
+
+> [!NOTE]
+> Þegar færibreyturnar á staðsetningarforstillingunni (**Virkja vöru á staðsetningu**, **Virkja staðsetningarvirkni**, **Virkja staðsetningarstöðu**) eru stilltar á *Já* uppfærir kerfið umsvifalaust staðsetningarnar sem eiga við með því að keyra *Samræmisathugun fyrir stöðu vöruhúsastaðsetningar* verkið.
 
 ### <a name="scenario"></a>Aðstæður
 

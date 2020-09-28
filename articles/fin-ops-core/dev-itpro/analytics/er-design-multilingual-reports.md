@@ -3,7 +3,7 @@ title: Hanna skýrslur á mörgum tungumálum í rafrænni skýrslugerð
 description: Þetta efnisatriði útskýrir hvernig hægt er að nota merki rafrænnar skýrslugerðar til að hanna og búa til skýrslur á mörgum tungumálum.
 author: NickSelin
 manager: AnnBe
-ms.date: 04/24/2020
+ms.date: 09/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65efb8dbec925b5238acaa5d6769f3085e9715b9
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: 26a912aa2002f1d60dd650248bd3c68e45e68596
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3444622"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810668"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Hanna skýrslur á mörgum tungumálum í rafrænni skýrslugerð
 
@@ -33,7 +33,7 @@ ms.locfileid: "3444622"
 
 Sem fyrirtækisnotandi getur þú notað rammann [Rafræn skýrslugerð](general-electronic-reporting.md) til að skilgreina snið fyrir skjöl á útleið sem búa þarf til í samræmi við reglugerðir ýmissa landa eða svæða. Þegar þessar reglugerðir krefjast þess að skjöl á útleið verði búin til á mismunandi tungumálum fyrir mismunandi lönd eða svæði er hægt að skilgreina eitt [snið](general-electronic-reporting.md#FormatComponentOutbound) rafrænnar skýrslugerðar sem inniheldur tungumálaháð tilföng. Þannig er hægt að endurnýta sniðið til að búa til skjöl á útleið fyrir ýmis lönd eða svæði. Þú gætir einnig viljað nota eitt snið rafrænnar skýrslugerðar til að búa til skjal á útleið á mismunandi tungumálum fyrir samsvarandi viðskiptavini, lánardrottna, dótturfélög eða aðra aðila.
 
-Hægt er að skilgreina gagnalíkön og gagnavarpanir rafrænnar skýrslugerðar sem gagnagjafa skilgreindra sniða rafrænnar skýrslugerðar til að skilgreina gagnaflæði sem tilgreinir hvaða forritsgögn eru sett inn í mynduð skjöl. Sem [veitandi](general-electronic-reporting.md#Provider) skilgreiningar rafrænnar skýrslugerðar geturðu [gefið út](tasks/er-upload-configuration-into-lifecycle-services.md#upload-configuration-into-lcs) skilgreind [gagnalíkön](general-electronic-reporting.md#data-model-and-model-mapping-components), [líkanavarpanir](general-electronic-reporting.md#data-model-and-model-mapping-components) og [snið](general-electronic-reporting.md#FormatComponentOutbound) sem hluta fyrir lausn rafrænnar skýrslugerðar til að búa til ákveðin skjöl á útleið. Einnig er hægt að leyfa viðskiptavinum að [hlaða upp](general-electronic-reporting-manage-configuration-lifecycle.md) útgefinni lausn rafrænnar skýrslugerðar svo hægt sé að nota hana og sérstilla. Ef gert er ráð fyrir að viðskiptavinir tali önnur tungumál er hægt að stilla hluta rafrænnar skýrslugerðar þannig að þeir innihaldi tungumálaháð tilföng. Þannig er hægt að kynna efni breytanlegs hluta rafrænnar skýrslugerðar á kjörtungumáli viðskiptavinar á hönnunartíma.
+Hægt er að skilgreina gagnalíkön og gagnavarpanir rafrænnar skýrslugerðar sem gagnagjafa skilgreindra sniða rafrænnar skýrslugerðar til að skilgreina gagnaflæði sem tilgreinir hvaða forritsgögn eru sett inn í mynduð skjöl. Sem [veitandi](general-electronic-reporting.md#Provider) skilgreiningar rafrænnar skýrslugerðar geturðu [gefið út](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs) skilgreind [gagnalíkön](general-electronic-reporting.md#data-model-and-model-mapping-components), [líkanavarpanir](general-electronic-reporting.md#data-model-and-model-mapping-components) og [snið](general-electronic-reporting.md#FormatComponentOutbound) sem hluta fyrir lausn rafrænnar skýrslugerðar til að búa til ákveðin skjöl á útleið. Einnig er hægt að leyfa viðskiptavinum að [hlaða upp](general-electronic-reporting-manage-configuration-lifecycle.md) útgefinni lausn rafrænnar skýrslugerðar svo hægt sé að nota hana og sérstilla. Ef gert er ráð fyrir að viðskiptavinir tali önnur tungumál er hægt að stilla hluta rafrænnar skýrslugerðar þannig að þeir innihaldi tungumálaháð tilföng. Þannig er hægt að kynna efni breytanlegs hluta rafrænnar skýrslugerðar á kjörtungumáli viðskiptavinar á hönnunartíma.
 
 Hægt er að stilla tungumálaháð tilföng sem merki rafrænnar skýrslugerðar. Þá er hægt að nota þessi merki til að stilla hluta rafrænnar skýrslugerðar af eftirfarandi ástæðu:
 

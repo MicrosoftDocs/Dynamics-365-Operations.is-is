@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 7dfa6353653c41330dba179331ccbd2373aef774
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 756924c87ced7cd2d5fc4e7c2a01b571558d3550
+ms.sourcegitcommit: 06f64550b2043582de4018bdd3924fcc1fd5d310
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651958"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3801459"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management 10.0.8. (febrúar 2020)
 
@@ -41,10 +41,10 @@ Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengj
 - [Viðbótargögn um staðsetningu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
 - [Eignastýring](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - Frekari upplýsingar er að finna í [Yfirlit eignastýringar](../asset-management/index.md).
 - [Hætta við vinnu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - Frekari upplýsingar er að finna á [Hætta við vöruhúsavinnu vegna frábrigðameðhöndlunar](../warehousing/cancel-warehouse-work.md).
-- [Breyta vinnuhópi á vinnu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)
-- [Staðsetning klasa er full](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)
-- [Staðfesta og flytja](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)
-- [Staðsetningarleiðbeiningar fyrir aldursgreiningu birgðatínslu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)
+- [Breyta vinnuhópi á vinnu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - Frekari upplýsingar er að finna í [Breyta vinnuhópi á vinnu](../warehousing/change-work-pool-on-work.md).
+- [Staðsetning klasa er full](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full) -Frekari upplýsingar er að finna í [Staðsetning klasa er full](../warehousing/cluster-position-full.md).
+- [Staðfesta og flytja](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - Frekari upplýsingar er að finna í [Staðfesta og flytja](../warehousing/confirm-and-transfer.md).
+- [Staðsetningarleiðbeiningar fyrir aldursgreiningu birgðatínslu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - Frekari upplýsingar er að finna í [Staðsetningarleiðbeiningar fyrir aldursgreiningu birgðatínslu](../warehousing/location-directive-inventory-picking-aging.md).
 - [Staðsetningarstaða](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)
 - [Flokkun tiltektarlínu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/pick-line-grouping)<br> - Frekari upplýsingar er að finna í [Flokkun tiltektarlínu](../warehousing/pick-line-grouping.md).
 - [Sjálfvirk uppfærsla sendingar](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/shipment-auto-update)<br> - Frekari upplýsingar er að finna í [Sjálfvirk uppfærsla sendingar](../warehousing/auto-update-shipment.md).
@@ -54,9 +54,9 @@ Eftirfarandi aðgerðir eru með í þessari útgáfu. Eiginleikatitlarnir tengj
 - [Verkstaðfesting vöruhúsaforrits með RSAT](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
 - [Losunarregla vöruhúss](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
 - [Birting bylgjustöðu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
-- [Flokkun bylgjusniðmáts](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)
-- [Upplýsingar um vinnulínu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - Frekari upplýsingar er að finna í myndbandinu [Upplýsingar um vinnulínu](https://www.microsoft.com/videoplayer/embed/RE4fcYN).
-- [Áfyllingarmörk svæðis](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)
+- [Flokkun bylgjusniðmáts](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)<br> - Frekari upplýsingar er að finna í [Flokkun bylgjusniðmáts](../warehousing/wave-template-grouping.md).
+- [Upplýsingar um vinnulínu](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/work-line-details)<br> - Frekari upplýsingar er að finna í [Upplýsingar um vinnulínu](../warehousing/work-line-details.md) og myndbandinu [Upplýsingar um vinnulínu](https://www.microsoft.com/videoplayer/embed/RE4fcYN).
+- [Áfyllingarmörk svæðis](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/zone-threshold-replenishment)<br> - Frekari upplýsingar er að finna í [Áfyllingarmörk svæðis](../warehousing/zone-threshold-replenishment.md).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

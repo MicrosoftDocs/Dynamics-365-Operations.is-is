@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 31ba00e3956614f57b55efc45e45ebe0dbd089eb
-ms.sourcegitcommit: 0f877ee4b53cfb002b179a53a67c4f9adae354bf
+ms.openlocfilehash: bb38c303760b45d599bc97340363448ab7781c69
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "3640424"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802968"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Hvað er nýtt eða breytt í Dynamics 365 Supply Chain Management
 
@@ -34,13 +34,14 @@ Til að sjá hvað er nýtt eða breytt í hverri útgáfu af Dynamics 365 Suppl
 
 | Útgáfa | Smíðarnúmer | Framboð sjálfuppfærslu | Frekari upplýsingar |
 |---|---|---|---|
+| 10.0.13 | 10.0.569 | 2020. september | [Nýjungar og breytingar í Dynamics 365 Supply Chain Management útgáfa 10.0.13](whats-new-scm-10-0-13.md) |
 | 10.0.12 | 10.0.507 | Ágúst 2020 | [Nýjungar og breytingar í Dynamics 365 Supply Chain Management útgáfa 10.0.12](whats-new-scm-10-0-12.md) |
 | 10.0.11 | 10.0.464 | Júlí 2020 | [Nýjungar og breytingar í Dynamics 365 Supply Chain Management útgáfa 10.0.11](whats-new-scm-10-0-11.md) |
 | 10.0.10 | 10.0.420 | 2020. maí | [Nýjungar og breytingar í Dynamics 365 Supply Chain Management útgáfa 10.0.10](whats-new-scm-10-0-10.md) |
-| 10.0.9  | 10.0.383   | 2020. apríl | [Nýjungar og breytingar í Dynamics 365 Supply Chain Management útgáfa 10.0.9](whats-new-scm-10-0-9.md) |
-| 10.0.8  | 10.0.319   | 2020. febrúar | [Nýjungar og breytingar í Dynamics 365 Supply Chain Management útgáfa 10.0.8](whats-new-scm-10-0-8.md) |
-| 10.0.7  | 10.0.283   | 2020. janúar | [Nýjungar og breytingar í Dynamics 365 Supply Chain Management útgáfa 10.0.7](whats-new-scm-10-0-7.md) |
-| 10.0.6 |   10.0.234   | Nóvember 2019  | [Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.6](whats-new-scm-10-0-6.md) |
+| 10.0.9  | 10.0.383 | 2020. apríl | [Nýjungar og breytingar í Dynamics 365 Supply Chain Management útgáfa 10.0.9](whats-new-scm-10-0-9.md) |
+| 10.0.8  | 10.0.319 | 2020. febrúar | [Nýjungar og breytingar í Dynamics 365 Supply Chain Management útgáfa 10.0.8](whats-new-scm-10-0-8.md) |
+| 10.0.7  | 10.0.283 | 2020. janúar | [Nýjungar og breytingar í Dynamics 365 Supply Chain Management útgáfa 10.0.7](whats-new-scm-10-0-7.md) |
+| 10.0.6  | 10.0.234 | Nóvember 2019  | [Nýjungar eða breytingar í Dynamics 365 Supply Chain Management 10.0.6](whats-new-scm-10-0-6.md) |
 
 ## <a name="releases-before-november-2019"></a>Útgáfur fyrir nóvember 2019
 

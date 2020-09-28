@@ -3,7 +3,7 @@ title: Bæt við síðu persónuverndarstefnu
 description: Þetta efni lýsir því hvernig á að bæta síðu persónuverndarstefnu við á vefsvæði í Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2ee361c2e99b79e503e8d94c12602f9427f1ed5c
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: ce6491d176f90717877f084b11546010084c5f3b
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686696"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761274"
 ---
 # <a name="add-a-privacy-policy-page"></a>Bæt við síðu persónuverndarstefnu
 
@@ -89,8 +89,8 @@ Til að birta slóðina fyrir persónuverndarstefnusíðuna skaltu fylgja þessu
 Til að bæta tengli við síðufótarbrot skaltu fylgja þessum skrefum.
 
 1. Farðu í **Brot** og veldu síðan **Nýtt** til að búa til síðubrot.
-1. Í svarglugganum **Nýtt síðubrot** skal velja eininguna **Síðufótur**.
-1. Undir **Heiti síðubrots** skal slá inn heiti brotsins og síðan velja **Í lagi**.
+1. Í svarglugganum **Nýtt brot** skal velja eininguna **Síðufótur**.
+1. Undir **Heiti brots** skal slá inn heiti brotsins og síðan velja **Í lagi**.
 1. Í hólfinu **Síðufótaflokkur** bætirði við einingunni **Neðanmálsatriði**.
 1. Í eiginleikaglugganum til hægri velurðu **Tengja texta**.
 1. Í glugganum **Tengja texta** skal slá inn tenglatextinn og tengja mark persónuverndarstefnunnar og smella síðan á **Í lagi**.
