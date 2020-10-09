@@ -86,6 +86,8 @@
               href: data-entities/integration-overview.md
             - name: Takmörkun byggð á forgangi
               hreF: data-entities/priority-based-throttling.md
+            - name: Algengar spurningar um forgangsröðun takmarkana
+              href: data-entities/throttling-faq.md
             - name: API samþættingar gagna
               items:
                 - name: REST API-gagnastjórnunarpakki
@@ -154,6 +156,8 @@
                                   href: data-entities/dual-write/enable-entity-map.md
                             - name: Flutningur gagnagerðar gjaldmiðils fyrir tvöföld skrif
                               href: data-entities/dual-write/currrency-decimal-places.md
+                            - name: Setja upp vörpun fyrir stöðureit sölupöntunar
+                              href: data-entities/dual-write/sales-status-map.md
                         - name: Umsjón með tvöföldum skrifum
                           items:
                             - name: Sérstilling á vörpun eininga og reita
@@ -522,7 +526,7 @@
                       href: deployment/onprem-reuseadfs.md
                 - name: Umboðsmaður á staðnum
                   items:
-                    - name: AD FS Office 365 samhæfi
+                    - name: AD FS Microsoft 365 samhæfi
                       href: deployment/onprem-adfscompatibility.md
                     - name: Forskriftir fyrir og eftir uppsetningu umboðsmanns á staðnum
                       href: lifecycle-services/pre-post-scripts.md
@@ -627,9 +631,7 @@
                 - name: Kennsla á þróunarverkfæri
                   href: dev-tools/introduction-visual-studio.md
                 - name: Forritaprófun
-                  items:
-                    - name: Setja upp BaseX fyrir forritaprófun
-                      href: dev-tools/install-basex.md
+                  href: dev-tools/application-checker.md
                 - name: Forritaskoðari
                   href: dev-tools/application-explorer.md
                 - name: Smíða og kemba verk
@@ -1368,6 +1370,24 @@
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
                     - name: ValueMetadata-gerð
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
+        - name: Meðhöndla sjálfvirkniramma
+          items:
+            - name: Meðhöndla þróun sjálfvirkniramma
+              href: process-automation/process-automation-framework.md
+            - name: Gerðarskráning
+              href: process-automation/type-registration.md
+            - name: Raðaskráning
+              href: process-automation/series-registration.md
+            - name: Færibreytur ferlis
+              href: process-automation/process-parameters.md
+            - name: Notandabreytanlegar fyrirspurnir
+              href: process-automation/user-queries.md
+            - name: Keyra ferli
+              href: process-automation/run-process.md
+            - name: Kladdaniðurstöður og skilaboð
+              href: process-automation/log-results.md
+            - name: Notandaviðmóti breytt
+              href: process-automation/ui-customization.md
         - name: Regression Suite Automation Tool
           items:
             - name: Yfirlit yfir Regression Suite Automation Tool
@@ -1395,7 +1415,7 @@
             - name: Þróa og gefa út
               href: lcs-solutions/lcs-solutions-app-source.md
             - name: Setja upp og birta
-              href: lcs-solutions/marketing-content-lcs-solutions.md
+              href: /azure/marketplace/partner-center-portal/create-new-operations-offer
             - name: Bæta við aðferðafræði
               href: lcs-solutions/methodologies-lcs-solutions.md
             - name: Setja upp söfn viðskiptaferlavinnslu
