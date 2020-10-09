@@ -5,6 +5,8 @@
       items:
         - name: Nýjungar eða breytingar í Human Resources
           href: hr-admin-whats-new.md
+        - name: 16. september 2020
+          href: hr-whats-new-2020-09-16.md
         - name: 3. september 2020
           href: hr-whats-new-2020-09-03.md
         - name: 20. ágúst 2020
@@ -201,7 +203,7 @@
               href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
             - name: Stofna og vinna með sérstillt svæði
               href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
-            - name: Fella inn PowerApps forrit
+            - name: Innfelld vinnuforrit frá Power Apps
               href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
             - name: Leita að upplýsingum með uppflettingum
               href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json

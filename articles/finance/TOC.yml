@@ -76,8 +76,6 @@
                       href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12 (ágúst 2020)
                       href: get-started/whats-new-changed-10-0-12.md
-                    - name: Finance 10.0.11 (júlí 2020)
-                      href: get-started/whats-new-changed-10-0-11.md
             - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
               items:
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Finance
@@ -160,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Stofna og vinna með sérstillt svæði
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
-                - name: Fella inn Microsoft Power Apps
+                - name: Innfelld vinnuforrit frá Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
                 - name: Leita að upplýsingum með uppflettingum
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
@@ -1228,6 +1226,22 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: Regluuppfærslur
               href: localizations/regulatory-updates.md
+            - name: Innbót rafrænna reikninga
+              items:
+                - name: Yfirlit innbótar rafrænna reikninga
+                  href: localizations/e-invoicing-service-overview.md
+                - name: Setja upp Azure-geymslureikning og lyklageymslu
+                  href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                - name: Hafist handa með innbót rafrænna reikninga
+                  href: localizations/e-invoicing-get-started.md
+                - name: Hafist handa með innbót rafrænna reikninga fyrir Brasilíu
+                  href: localizations/e-invoicing-bra-get-started.md
+                - name: Hafist handa með innbót rafrænna reikninga fyrir Ítalíu
+                  href: localizations/e-invoicing-ita-get-started.md
+                - name: Hafist handa með innbót rafrænna reikninga fyrir Mexíkó
+                  href: localizations/e-invoicing-mex-get-started.md
+                - name: Setja upp innbót rafrænna reikninga
+                  href: localizations/e-invoicing-setup.md
             - name: Ástralía
               items:
                 - name: Yfirlit yfir Ástralíu
@@ -1268,6 +1282,8 @@
                   href: localizations/emea-bel-coda-bank-statement-import.md
                 - name: Stofna og flytja færslur til BLWI
                   href: localizations/tasks/be-00011-create-transfer-blwi.md
+                - name: Flytja út fjárhagsfærslur
+                  href: localizations/emea-bel-export-ledger-transactions.md
                 - name: INTERVAT-skattskýrsla
                   href: localizations/emea-bel-intervat-tax-declaration.md
                 - name: Afstemmingarskýrslur
@@ -2036,6 +2052,8 @@
                       href: localizations/apac-ind-GST-tax-journal.md
                     - name: Búa til skýrslugögn vöru- og þjónustuskatts fyrir skattskil
                       href: localizations/apac-ind-GST-tax-returns.md
+                    - name: Virkja magnrunuvinnslu fyrir skýrslur fyrir vöru- og þjónustuskatt
+                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: Skattfyrirspurn
                       href: localizations/apac-ind-GST-tax-inquiry.md
                 - name: Skattkerfi
@@ -3560,6 +3578,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
                     - name: Hanna skýrslur á mörgum tungumálum
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: Þjappa stórum skjölum á útleið
+                      href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
                 - name: Afstæð slóð í gagnatengslum
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Nota lausnir rafrænnar skýrslugerðar í Finance and Operations

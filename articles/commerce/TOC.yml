@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12 (ágúst 2020)
                       href: get-started/whats-new-commerce-10-0-12.md
-                    - name: Commerce 10.0.11 (júlí 2020)
-                      href: get-started/whats-new-commerce-10-0-11.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Finance and Operations
@@ -182,7 +180,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Stofna og vinna með sérstillt svæði
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: Fella inn Microsoft Power Apps
+                - name: Innfelld vinnuforrit frá Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
                 - name: Leita að upplýsingum með uppflettingum
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
@@ -956,9 +954,9 @@
                   href: add-privacy-page.md
                 - name: Skipta um notandakenni sem tengjast röktum efnisbreytingum
                   href: replace-IDs-tracked-changes.md
-            - name: Byrjendaeining
+            - name: Einingasafn
               items:
-                - name: Yfirlit byrjendaeiningar
+                - name: Yfirlit einingasafns
                   href: starter-kit-overview.md
                 - name: Hólfeiningar
                   items:
@@ -1976,7 +1974,7 @@
                   items:
                     - name: Búa til nýja einingu
                       href: e-commerce-extensibility/create-new-module.md
-                    - name: Klóna byrjendaeiningu
+                    - name: Klóna einingar einingasafns
                       href: e-commerce-extensibility/clone-starter-module.md
                     - name: Bæta grunnstillingarreitum við einingu
                       href: e-commerce-extensibility/add-module-config-fields.md
@@ -2070,7 +2068,7 @@
                   items:
                     - name: Skilgreiningar á pökkum og notkun þeirra í netumhverfi
                       href: e-commerce-extensibility/package-deploy.md
-                    - name: Uppfærslur fyrir SDK og byrjendaeiningu fyrir verslun
+                    - name: Uppfærslur á SDK og einingasafni
                       href: e-commerce-extensibility/sdk-updates.md
             - name: Retail SDK
               items:
@@ -2148,6 +2146,8 @@
                   href: implementation-considerations-devices.md
                 - name: Tilvik og reklar yfirlits körfu sölustaðar
                   href: dev-itpro/cart-view-handlers.md
+                - name: Bæta sérhnöppum við hausstiku sölustaðar
+                  href: dev-itpro/pos-header-bar.md
             - name: Stækkunarhæfni Hardware Station
               items:
                 - name: Hardware Station og stækkunarhæfni
