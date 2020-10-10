@@ -3,7 +3,7 @@ title: Yfirlit fríðindastjórnunar
 description: Yfirlit yfir eiginleika stjórnunar fríðinda í Dynamics 365 Human Resources. Bjóddu starfsmönnum þínum framlengda valkosti með auðveldri notkun á netinu.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/16/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
-ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
+ms.openlocfilehash: e2e8fcdd0b6124b459c4dc073e2929418d18bcc5
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3599381"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819766"
 ---
 # <a name="benefits-management-overview"></a>Yfirlit fríðindastjórnunar
 
@@ -41,15 +41,9 @@ Til að vera samkeppnishæfur verður þú að bjóða upp á mikið af fríðin
 
 Ef þú vilt fá aðgang að kynningargögnum þarftu að dreifa sandkassumhverfinu þínu á nýjan leik.
 
-## <a name="benefits-management-known-issues"></a>Þekkt vandamál í yfirliti fríðindastjórnunar
-
-### <a name="flex-credit-programs"></a>Sveigjanlegar útgjaldaáætlanir
-
-Heildarinneignin sem er skilgreind fyrir flex-lánaforrit birtist ekki í forminu **Fríðindaáætlanir starfskrafta**. Einnig, ef þú stillir sveigjanlega útgjaldaáætlun til að hafa hlutfallsskiptiregluna **Enginn** færðu villu í glugganum **Fríðindaáætlanir starfskrafts** þegar þú velur og staðfestir áætlanir.
-
 ## <a name="enable-benefits-management"></a>Virkja fríðindastjórnun
 
-Þessi grein lýsir því hvernig skal kveikja á eigileikum í Human Resources. Hún segir einnig frá hvaða eiginleikum sem eru fyrir hendi í starfsmannamálum sem bótastjórnun kemur í stað eða er óvirk þegar þú kveikir á Fríðindastjórnun.
+Þetta efnisatriði lýsir því hvernig á að kveikja á eiginleikum í Human Resources. Hún segir einnig frá hvaða eiginleikum sem eru fyrir hendi í starfsmannamálum sem bótastjórnun kemur í stað eða er óvirk þegar þú kveikir á Fríðindastjórnun.
 
 > [!IMPORTANT]
 > ÞEgar þú hefur virkjað fríðindastjórnun í umhverfi **Framleiðslu** er ekki hægt að afvirkja hana. Við mælum með að virkja og prófa ávinning stjórnunar í umhverfinu **Sandkassi** áður en það er gert kleift í umhverfi **Framleiðslu**. Það er verulegur munur á gamall fríðindavirkni og nýrrar virkni stjórnunar fríðinda sem krefst viðbótaruppsetningar og ætti að prófa áður en þeir eru settir í framleiðslu.

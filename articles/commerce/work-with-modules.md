@@ -1,9 +1,9 @@
 ---
 title: Vinna með einingar
 description: Þetta efni lýsir því hvernig og hvenær á að nota einingar í Microsoft Dynamics 365 Commerce.
-author: v-chgri
+author: phinneyridge
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -14,20 +14,19 @@ ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: phinneyridge
+ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: da430857801d8007244c04aadd325e99c0b882c5
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 301eb6206fb9e02c3aa7d3c07cf368ba800a1ab9
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646016"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818423"
 ---
 # <a name="work-with-modules"></a>Vinna með einingar
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Þetta efni lýsir því hvernig og hvenær á að nota einingar í Microsoft Dynamics 365 Commerce.
 
@@ -35,7 +34,7 @@ ms.locfileid: "3646016"
 
 Einingar eru rökréttir byggingarreitir sem mynda síðuuppbyggingu þína og þau hafa ýmsan tilgang og gildissvið. Sumir einingar eru hástigs gámar og eini tilgangur þeirra er að halda og skipuleggja aðrar einingar (undireiningar). Aðrar einingar, svo sem einföld myndstaðsetningareining, hafa mjög sérstakan tilgang. Aðrar einingar, svo sem hringekjueining, falla einhvers staðar á milli þessara tveggja flokka.
 
-Sjálfgefið er svæði þitt í Dynamics 365 Commerce inniheldur byrjunarbúnaðareiningasafn sem gerir þér kleift að ná flestum grundvallaratriðum fyrir rafræn viðskipti. Þú ættir að geta smíðað vefsvæði frá einni verslun til annarrar með því að nota þessar einingar. Hins vegar gætirðu líka viljað aðlaga þessa einingar eða smíða nýjar sérsniðnar einingar fyrir sérstakar þarfir. Ef þú vilt smíða sérsniðnar einingar er hugbúnaðarþróunarbúnaður (SDK) í boði til að hjálpa þér að búa til sérsniðið einingasafn.
+Sjálfgefið er að Dynamics 365 Commerce-svæðið innihaldi einingarsafn sem gerir þér kleift að meðhöndla flestar aðstæður rafrænna viðskipta. Þú ættir að geta smíðað vefsvæði frá einni verslun til annarrar með því að nota þessar einingar. Hins vegar gætirðu líka viljað aðlaga þessa einingar eða smíða nýjar sérsniðnar einingar fyrir sérstakar þarfir. Ef þú vilt smíða sérsniðnar einingar er hugbúnaðarþróunarbúnaður (SDK) í boði til að hjálpa þér að búa til sérsniðið einingasafn.
 
 ## <a name="container-modules-and-slots"></a>Gámaeiningar og -hólf
 

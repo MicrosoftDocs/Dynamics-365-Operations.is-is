@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c46c4c060d61503779726c68d32449c87b441f1
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7f170fc501e995bf9497d86501f4e086e486d0fb
+ms.sourcegitcommit: 8fe59d216154dbed1208274f44707465b668a8e0
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207903"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3830750"
 ---
 # <a name="purchasing-policies-overview"></a>Yfirlit yfir innkaupareglur
 
@@ -102,9 +102,9 @@ Tilboðsbeiðnireglur innkaupabeiðni skilgreina skilyrði fyrir kröfu um tilbo
 
 ### <a name="purchase-requisition-control-rule"></a>Regla innkaupapantanastýringar
 
-Regla fyrir innkaupapantanastýringar er valfrjáls regla. Þegar reglur af þessari gerð eru stofnaðar er hægt að stilla valkosti á mismunandi flipum:
+Regla fyrir innkaupapantanastýringar innkaup af gerðinni **Notkun** er valfrjáls regla. Þegar reglur af þessari gerð eru stofnaðar er hægt að stilla valkosti á mismunandi flipum:
 
--   Á **verkflæðissendingu** flipa er hægt að stilla svæðin sem þarf að færa inn í línu innkaupabeiðninnar til að hægt sé að senda innkaupabeiðnina til samþykkis þegar málefni beiðni er **Neysla**.
+-   Á **Verkflæðissending** flipanum er hægt að stilla svæðin sem þarf að færa inn í línu innkaupabeiðninnar til að hægt sé að senda innkaupabeiðnina til samþykkis þegar málefni beiðni er Neysla.
 -   Á **Pöntunarmagn** flipa, er hægt að stilla svæðin sem þarf á innkaupabeiðninni undir ákveðnum skilyrðum. Einnig er hægt að framfylgja pöntunarmagni.
 -   Á **Dagsetningar** flipa, er hægt að skilgreina hvort dagsetning reikningsskila er sú sama og umbeðin dagsetning.
 -   Á **Aðsetur** flipa er hægt að tilgreina hvort notandinn hafi leyfi til að stofna nýtt aðsetur í kerfinu til að nota við innkaupabeiðnina.

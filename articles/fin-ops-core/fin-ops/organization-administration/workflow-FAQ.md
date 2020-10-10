@@ -3,7 +3,7 @@ title: Algengar spurningar um verkflæði
 description: Þetta efnisatriði svarar algengum spurningum um verkflæðiskerfið.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 02/18/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 4ba60c832b1f1ac5f514baef4cc0a9c36dd85af9
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076087"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826191"
 ---
 # <a name="workflow-faq"></a>Algengar spurningar um verkflæði
 
@@ -58,3 +58,5 @@ Hér eru nokkrur lykilatriði til að hafa í huga varðandi viðbót viðvarana
 ## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>Af hverju fæ ég SQL sjálfheldu við vinnsluflæðisvinnslu? 
 Sjálfgefna reitgildið fyrir **Fjöldi verkflæðisatriða á runu** á síðunni **Færibreytur verkflæðis** er 0. Gildi 0 veldur því að sjálfgefið breytist í 20 hluti í hverri runu. Vertu varkár þegar þú stillir þetta gildi vegna þess að mikill fjöldi atriða í hverri runu (> 40) getur valdið SQL sjálfheldum.
 
+## <a name="what-is-the-workflow-enhanced-error-feature"></a>Hvað er eiginleiki Aukinnar villu í verkflæði?
+Eiginleikinn Aukin villa í verkflæði í útgáfu 10.0.13 bætir við villukóðum til að aðgreina mismunandi klasa af verkflæðissvillum. Villuboðin sem gefin voru upp verða að mestu leyti svipuð með minniháttar frávikum til að gera þau skýrari.

@@ -3,7 +3,7 @@ title: Kortaeining
 description: Þetta efnisatriði fjallar um kortaeiningar og lýsir því hvernig á að skilgreina þær í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ca531e6cbf0a1044b0a13e5cdf42c7b4f0498fe5
-ms.sourcegitcommit: 629988f1a704d62648d98649056931b8c33b9e08
+ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3811185"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817207"
 ---
 # <a name="map-module"></a>Kortaeining
 
@@ -38,7 +38,8 @@ Kortaeining sýnir staðsetningar verslana á gagnvirku korti sem er sett fram m
 
 Kortaeining vinnur með verslunarvalseiningunni til að ákvarða landfræðilegar staðsetningar á verslunum sem sýna þarf á korti. Verslunarvals- og kortaeiningar vinna saman þegar notandi velur verslun í annarri hvorri einingunni á svæði síðu. Hægt er að nota kortaeiningar í öðrum aðstæðum, sem tengjast ekki verslunarvalseiningum. Hins vegar er sérstilling einingar nauðsynleg.
 
-Kortaeiningin var kynnt til sögunnar í Commerce, útgáfu 10.0.13.
+> [!NOTE]
+> Kortaeiningin er tiltæk í Dynamics 365 Commerce útgáfu 10.0.13.
 
 Eftirfarandi mynd sýnir dæmi um kortaeiningu sem er notuð á staðsetningarsíðu verslunar.
 
@@ -70,13 +71,13 @@ Til þess að kortaeining geti unnið með Bing-korti, þarf að ganga úr skugg
  
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit byrjendaeiningar](starter-kit-overview.md)
+[Yfirlit einingasafns](starter-kit-overview.md)
 
 [Kaupgluggaeining](add-buy-box.md)
 
 [Körfueining](add-cart-module.md)
 
-[Vista valeiningu](store-selector.md)
+[Eining til að velja verslun](store-selector.md)
 
 [Stjórna Bing-kortum fyrir þitt fyrirtæki](./dev-itpro/manage-bing-maps.md)
 

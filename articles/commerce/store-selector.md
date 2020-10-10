@@ -3,7 +3,7 @@ title: Vista valeiningu
 description: Þetta efni fjallar um verslunarvalseininguna og lýsir því hvernig á að bæta henni við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1531b27dad4188dca96cf5728a9858f94001977c
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646136"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818251"
 ---
 # <a name="store-selector-module"></a>Vista valeiningu
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Þetta efni fjallar um verslunarvalseininguna og lýsir því hvernig á að bæta henni við vefsíður hjá Microsoft Dynamics 365 Commerce.
 
@@ -65,7 +64,7 @@ Til að þessar aðstæður geti virkað, þarf að skilgreina afurðir þannig 
 
 Eftirfarandi mynd sýnir dæmi um verslunarvalseiningu sem er notuð á PDP.
 
-![Dæmi um verslunarvalseiningu](./media/BOPIS.PNG)
+![Dæmi um verslunarvalseiningu sem notuð er á PDP](./media/BOPIS.PNG)
 
 ## <a name="find-stores-mode"></a>Finna verslanir
 
@@ -73,7 +72,7 @@ Verslunarvaleiningin styður einnig stillinguna **Finna verslanir**. Hægt er a�
 
 Eftirfarandi mynd sýnir dæmi um verslunarvaleiningu sem er notuð saman með kortaeiningu á staðsetningarsíðu verslunar.
 
-![Dæmi um verslunarvalseiningu](./media/ecommerce-Storelocator.PNG)
+![Dæmi um verslunarvaleiningu og kortaeiningu á staðsetningarsíðu verslunar.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Birta kort
 
@@ -127,7 +126,7 @@ Til að skilgreina verslunarvaleininguna til að sýna tiltækar verslanir fyrir
  
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit byrjendaeiningar](starter-kit-overview.md)
+[Yfirlit einingasafns](starter-kit-overview.md)
 
 [Kaupgluggaeining](add-buy-box.md)
 

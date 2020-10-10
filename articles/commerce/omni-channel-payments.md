@@ -3,7 +3,7 @@ title: Greiðsluyfirlit omni-rásar
 description: Þetta efnisatriði veitir yfirlit yfir greiðslur omni-rásar í Dynamics 365 Commerce.
 author: rubendel
 manager: AnnBe
-ms.date: 07/21/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 2127eb60a82bef8c6b5f5e9a917160331c483649
-ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
+ms.openlocfilehash: 80eaf36fb382e0ebe0a66383ea17ab76faa07dfa
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3613178"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819814"
 ---
 # <a name="omni-channel-payments-overview"></a>Greiðsluyfirlit Omni-rásar
 
@@ -92,6 +92,9 @@ Eftirfarandi atburðarásir fyrir greiðslu á omni-rás eru studdar:
 - Kaupa í símaveri, sækja í verslun
 - Kaupa í verslun A, sækja í verslun B
 - Kaupa í verslun A, senda til viðskiptavinar
+
+    > [!NOTE]
+    > Greiðslur sem gerðar eru í símaveri sem varpast í „Venjulegar“ greiðsluaðgerð verða að vera merktar sem **Fyrirframgreiða** = **Já** til að endurspeglast í upphæð til greiðslu þegar pöntunin er endurmerkt á sölustað. Greiðslur án forgreiðslna af gerðinni „Venjulegt“ eru ekki þekktar þegar pöntunin er afturkölluð á sölustað. 
 
 Afbrigði þessara atburðarása eru einnig studdar. Til dæmis getur netpöntun innihaldið bæði línur sem verða sendar til viðskiptavinar og línur sem verða sóttar í verslun. Allir valmöguleikar á uppfyllingu pöntunar eru studdir í gegnum greiðslur á omni-rás. 
 
@@ -190,8 +193,8 @@ Fylgdu þessum skrefum til að keyra atburðarásirnar.
 2. Á síðunni **Færsla** skal bæta Karen Berg við færsluna með því að nota talnaborðið til slá inn **2001**.
 3. Bætið einni eða fleiri línum við færsluna.
 4. Veljið **Pantanir** til að sjá valmöguleika pöntunar.
-5. Veljið **Sækja allt** og síðan, þegar beðið er um það, skal velja **Pöntun viðskiptavinar**.
-6. Í leitarstikunni skal slá inn **Seattle** og síðan velja verslunina **Seattle** til að sækja. 
+5. Veljið **Senda allt** og síðan, þegar beðið er um það, skal velja **Pöntun viðskiptavinar**.
+6. Á síðu sendingaraðferðar skal velja **Venjulegt yfir nótt** og velja svo **Í lagi** til að samþykkja daginn í dag sem sendingardag. 
 7. Veljið **Í lagi** til að samþykkja núverandi dagsetningu sem daginn sem pöntun verður sótt.
 8. Veljið **Greitt með korti** til að hefja greiðsu.
 9. Leggið fram greiðslu með korti fyrir upphæðinni sem þarf að inna af hendi fyrir innborguninni. 
@@ -233,5 +236,5 @@ Ef kortið sem var notað til að búa til pöntun er ekki lengur í gildi, þeg
 
 - [Algengar spurningar um greiðslur](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [Dynamics 365-greiðslutengill fyrir Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
-- [Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi](https://docs.microsoft.com/en-us/dynamics365/commerce/cpe-bopis)
+- [Skilgreina BOPIS í Dynamics 365 Commerce í matsumhverfi](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 

@@ -1,9 +1,9 @@
 ---
-title: Yfirlit byrjendaeiningar
-description: Þetta efnisatriði sýnir yfirlit yfir byrjendasett Microsoft Dynamics 365 Commerce.
+title: Yfirlit einingasafns
+description: Þetta efnisatriði sýnir yfirlit yfir Microsoft Dynamics 365 Commerce einingasafnið.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,29 +18,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1960e1354744fe1034783177ba331f5877d0bee7
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: dfc52dd8e14bb2e9f2f9c026ee0e058aee4cedcb
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025903"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817827"
 ---
-# <a name="starter-kit-overview"></a>Yfirlit byrjendaeiningar
-
+# <a name="module-library-overview"></a>Yfirlit einingasafns
 
 [!include [banner](includes/banner.md)]
 
-Þetta efnisatriði sýnir yfirlit yfir byrjendasett Microsoft Dynamics 365 Commerce.
+Þetta efnisatriði sýnir yfirlit yfir Microsoft Dynamics 365 Commerce einingasafnið.
 
 ## <a name="overview"></a>Yfirlit
 
-Byrjendasett Dynamics 365 Commerce er safn af einingum sem hægt er að nota til að byggja upp vefsíðu netverslunar. Einingar eru bæði með notendaviðmótaþætti og þætti virkrar hegðunar.
+Dynamics 365 Commerce einingasafnið er safn eininga sem hægt er að nota til að búa til vefsvæði í e-Commerce. Einingar eru bæði með notendaviðmótaþætti og þætti virkrar hegðunar.
 
-Þemu er hægt að beita á einingarnar í byrjunarsettinu til að breyta útliti þeirra. Í þemunum eru töflureiknaðir (CSS). Þema fyrir skáldaða netverslunarsíðu sem ber nafnið „Fabrikam“ er til staðar sem hluti af ræsibúnaðinum og er hægt að nota það sem tilvísun.
+Hægt er að nota þemu í einingunni í einingasafninu til að breyta útliti og yfirbragði. Í þemunum eru töflureiknaðir (CSS). Þema fyrir tilbúið e-Commerce-sýnisvæði sem er nefnt „Fabrikam“ er aðgengilegt sem hluti af einingasafninu og hægt er að nota það sem tilvísun.
 
-## <a name="starter-kit-modules"></a>Byrjendaeiningar
+## <a name="module-library-modules"></a>Einingar einingasafns
 
-Eftirfarandi gerðir af einingum eru í byrjunarbúnaðinum:
+Eftirfarandi gerðir eininga eru veittar í einingasafni:
 
 - **Gámaeining** – Gámaeining er einföld eining sem virkar sem hýsill fyrir aðrar einingar. Hún stjórnar skipulag eininganna sem eru inni í henni.
 - **Markaðseiningar** – Markaðseiningar eru meðal annars innihaldsbálkur, textabálkur, myndspilari og myndræmueiningar. Hægt er að nota allar þessar einingar til að sýna efni. Hægt er að setja þær á allar síður og þær eru knúnar af gögnum frá efnisstýringarkerfinu (CMS).

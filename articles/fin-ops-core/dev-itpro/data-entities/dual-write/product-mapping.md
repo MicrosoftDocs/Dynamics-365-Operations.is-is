@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 3b9a1485d37da614eea2427735e0e1323897682d
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: ed8f0351d1e16cceb6c9749f434a8980ef2be29d
+ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621329"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "3835855"
 ---
 # <a name="unified-product-experience"></a>Samræmd afurðaupplifun
 
@@ -91,7 +91,7 @@ Hlutverk tegundastigveldis afurðar | msdyn_productcategoryhierarchies | Hægt e
 
 ![Gagnamódel fyrir afurðir](media/dual-write-product.png)
 
-Þegar tvískipt skrifað er virkt verða forritin úr Finance and Operations samstillt í öðrum forritum Dynamics 365 í stöðunni **Drög**. Þeim er bætt við fyrstu verðskrána með sama gjaldmiðil. Með öðrum orðum, þeim er bætt við fyrstu verðskrána í forriti Dynamics 365 sem samsvarar gjaldmiðli lögaðila þíns þar sem varan er gefin út í forriti Finance and Operations. 
+Með tvíritunarvirkni virkjaða verða vörur úr Finance and Operations samstilltar í öðrum Dynamics 365 vörum í stöðunni **Drög**. Þeim er bætt við fyrstu verðskrána með sama gjaldmiðil. Með öðrum orðum, þeim er bætt við fyrstu verðskrána í forriti Dynamics 365 sem samsvarar gjaldmiðli lögaðila þíns þar sem varan er gefin út í forriti Finance and Operations. 
 
 Sjálfgefið er að vörur úr forritum Finance and Operations eru samstilltar við önnur Dynamics 365 forrit með stöðuna **Drög**. Til að samstilla vöruna við stöðuna **Virkt**, svo að þú getir til dæmis notað hana beint í sölupöntunartilboðum þarf að velja eftirfarandi stillingu: **Kerfið> Stjórnun> Kerfisstjórnun> Kerfisstillingar> Sala** og velja **Stofna vörur í virkri stöðu = já**. 
 

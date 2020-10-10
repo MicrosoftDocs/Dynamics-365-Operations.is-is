@@ -3,7 +3,7 @@ title: Yfirlit heimasíðu
 description: Þetta efnisatriði veitir yfirlit yfir heimasíðuna í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c51c5af38f4ba50bbad124de4ac7f66be4001fa6
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: 3ebc8b4ebd3720815cdaaab708fbfdd8302cbea1
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527585"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817755"
 ---
 # <a name="home-page-overview"></a>Yfirlit heimasíðu
 
@@ -34,7 +34,7 @@ ms.locfileid: "3527585"
 
 Heimasíðan er sjálfgefna vefsíðan sem kaupendur fara á þegar þeir heimsækja netverslunarsíðu. Venjulega sýnir þessi síða vörur og kynningar með því að nota blöndu af markaðsseiningum. Heimasíðan ætti að vera rík af myndum og texta til að halda athygli kaupenda.
 
-Eftirfarandi mynd sýnir dæmi um heimasíðu sem var smíðuð með því að nota byrjunarbúnaðinn á netinu og „Fabrikam“ þemað.
+Eftirfarandi mynd sýnir dæmi um heimasíðu sem var byggð með einingarsafninu og „Fabrikam“ þema.
 
 ![Dæmi um heimasíðu](./media/Homepage2.PNG)
 

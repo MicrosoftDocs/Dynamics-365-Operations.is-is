@@ -3,7 +3,7 @@ title: POS notendaviðmót sjónrænna stillinga
 description: Þetta efnisatriði veitir upplýsingar um útlit afgreiðsluskjás fyrir Dynamics 365 Commerce sölustaður (POS) upplifun.
 author: boycezhu
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,15 +16,15 @@ ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: boycezhu
+ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a037c8514d7838b3a4797f21b3ef3f6d5736e840
-ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
+ms.openlocfilehash: 75bce16c5e1b0898a0284659f9ce5e4716a93049
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3505635"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834210"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>POS notendaviðmót sjónrænna stillinga
 
@@ -62,6 +62,8 @@ Sjónrænum forstillingum er úthlutað á afgreiðslukassa, og þær tilgreina 
 > [!NOTE]
 > **Hægri** útlit og birting dagsetningar/tíma gilda ekki fyrir innskráningarskjáinn í þjappaði skoðun.
 
+Þú þarft að keyra **1090** (**Afgreiðslukassar**) dreifingaráætlunarvinnslu til að samstilla nýjustu skilgreiningar á sjónrænu sniði við gagnagrunn rásar.
+
 ## <a name="screen-layouts"></a>Útlit afgreiðsluskjás
 
 Grunnstillingar skjáútlits ákvarða aðgerðir, innihald og staðsetningu stjórnborðs notandaviðmóts á **upphafsskjá** POS og **færsluskjánum**.
@@ -81,6 +83,8 @@ Grunnstillingar skjáútlits ákvarða aðgerðir, innihald og staðsetningu stj
 ### <a name="assignment"></a>Verkefni
 
 Hægt er að úthluta útliti afgreiðsluskjás á verslunar-, afgreiðslukassa- eða notandastigi. Notandaúthlutunin hnekkir afgreiðslukassa- og verslunarúthlutuninni, og afgreiðslukassaúthlutunin hnekkir verslunarúthlutuninni. Í einföldu dæmi þar sem allir notendur nota sömu útlitið, óháð afgreiðslukassa eða hlutverki, er aðeins hægt að stilla skjáuppsetninguna á verslunarstiginu. Í dæmum þar sem tilteknar afgreiðslukassar eða notendur þurfa sérsniðið útlit, þá er hægt að úthluta því útliti.
+
+Allt eftir því hvaða stig skjáútlits er notað þarf að keyra **1070** (**Grunnstilling rásar**), **1090** (**afgreiðslukassar**), og/eða **1060** (**Starfsfólk**) dreifingaráætlunarvinnslur til að samstilla nýjustu skilgreiningar skjáútlits í gagnagrunni rásar.
 
 ### <a name="layout-sizes"></a>Útlitsstærðir
 
