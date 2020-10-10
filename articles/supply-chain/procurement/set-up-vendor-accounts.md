@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2ea87e4147757a584e38b819faa8a0423ec0028
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 59c8071ed20740f81854d29e21f87b2e8650d10f
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216081"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893162"
 ---
 # <a name="set-up-vendor-accounts"></a>Setja upp lánardrottnalykla
 
@@ -66,7 +66,7 @@ Hægt er að stofna tengiliði lánardrottins frá grunni. Einnig er hægt að a
 
 Ekki er hægt að eyða færslu tengiliðar ef vísað er til tengiliðs í skjali. Í staðinn er hægt að óvirkja tengiliðinn.  
 
-Hægt er að bæta við tengiliðum lánardrottins við persónulega tengiliði í Microsoft Office 365. Hins vegar verður fyrst að setja upp samstillingu milli Supply Chain Management og Office 365 og Microsoft Exchange Server í bæði samstillingu og uppsetningarleiðsögn Microsoft Outlook.
+Hægt er að bæta við tengiliðum lánardrottins við persónulega tengiliði í Microsoft 365. Hins vegar verður fyrst að setja upp samstillingu milli Supply Chain Management og Microsoft 365 í bæði Microsoft Exchange Server og Microsoft Outlook uppsetningarleiðsögn.
 
 ## <a name="vendors-in-different-legal-entities"></a>Lánardrottnar í öðrum lögaðilum
 Ef lánardrottinn er skráð aðeins fyrir einn lögaðila í fyrirtækinu, og aðrir lögaðilar þurfa að skrá sama lánardrottin, er hægt að nota **Bæta lánardrottni við annan lögaðila** síðu til að skilgreina lánardrottinn til að geta átt viðskipti við annan lögaðila. Þú verður að velja lánardrottnaflokk, gjaldmiðill, biðstöðu fyrir lánardrottinn í völdum lögaðila.  

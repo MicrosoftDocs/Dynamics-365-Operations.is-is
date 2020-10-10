@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ae7587fc46d2907241a5da3b6329465d77b3555
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e6a3330b0123605d4c7b86cedcb8bc95b3cf6de8
+ms.sourcegitcommit: a52a789044ca66c6771224a6cf0be8749bc99e5a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383091"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "3837264"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Uppsetning fartækja fyrir vöruhúsavinnu
 
@@ -399,6 +399,9 @@ Eftirfarandi tafla lýsir þessum valkostum.
 <tr class="odd">
 <td>Kóði vinnusniðmáts</td>
 <td>Veljið vinnusniðmátið sem mun stofna vinnu fyrir ferli. Til dæmis ef þú móttekur vöru í innkaupapöntun verður frágangsvinna mynduð samkvæmt vinnusniðmátinu. Ef vinnusniðmát er ekki valið úthlutar Supply Chain Management sniðmáti, samkvæmt skilyrðum fyrirspurnar. Sjá frekari upplýsingar um vinnusniðmát í <a href="control-warehouse-location-directives.md">Stýra vöruhúsavinnu með vinnusniðmát og staðsetningarleiðbeiningar</a></td>
+<tr class="even">
+<td>Sýna vinnulínulista</td>
+<td>Veljið valkost fyrir það hvernig starfskraftar geta skoðað og haft áhrif á línurnar fyrir þá tiltektarvinnu sem er valin. Frekari upplýsingar um þennan valkost fást í <a href="pick-line-overview.md">Setja upp valmyndaratriði fartækis til að birta yfirlit yfir val á línu</a></td>
 </tr>
 </tbody>
 </table>

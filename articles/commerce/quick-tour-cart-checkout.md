@@ -3,7 +3,7 @@ title: Yfirlit yfir síður körfu og greiðsluferlis
 description: Þetta efnisatriði veitir yfirlit yfir körfu- og greiðslusíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c879b90cf49dcab9cf069e4f3613602bd6673aa9
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527564"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817779"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Yfirlit yfir síður körfu og greiðsluferlis
 
@@ -40,7 +40,7 @@ Greiðslusíðan á vefsíðu netverslunar sýnir skref fyrir skref sem viðskip
 
 Körfusíðan virkar sem innkaupapokinn og inniheldur alla hluti sem hafa verið settir í körfuna.
 
-Eftirfarandi mynd sýnir dæmi um körfusíðu sem var smíðuð með því að nota byrjunarbúnaðinn á netinu og „Fabrikam“ þemað.
+Eftirfarandi mynd sýnir dæmi um körfusíðu sem var byggð með einingarsafninu og „Fabrikam“ þema.
 
 ![Dæmi um körfusíðu](./media/cart2.PNG)
 
@@ -56,7 +56,7 @@ Sjá upplýsingar um hvernig á að skrifa körfusíðu [Bæta körfueiningu vi�
 
 Greiðslusíðan er þar sem viðskiptavinir slá inn upplýsingarnar sem þarf til að setja pöntun.
 
-Eftirfarandi mynd sýnir dæmi um greiðslusíðu sem var smíðuð með því að nota byrjunarbúnaðinn á netinu.
+Eftirfarandi mynd sýnir dæmi um útskráningarsíðu sem var byggð með einingasafni.
 
 ![Dæmi um greiðslusíðu](./media/Checkout.PNG)
 
@@ -66,7 +66,7 @@ Meginhluti greiðslusíðunnar er þar sem öllum pöntunarupplýsingum er safna
 
 Sendingar heimilisfang er krafist ef hlutir verða að vera sendir. Hægt er að stilla snið sendingarföngs fyrir hvert land í Dynamics 365 Commerce. Til dæmis, ef hlutirnir verða fluttir til Bandaríkjanna, verður flutningsfangið að innihalda götuheiti, ástand og póstnúmer. Nokkur grunninntaksprófun er gerð fyrir sendingarfangareiti, svo sem staðfestingu á stafrófsröddum, hámarkslengd og tölur. Þótt réttmæti heimilisfangsins sjálfs sé ekki staðfest, er hægt að gera þessa staðfestingu með því að nota sérsniðna þjónustu þriðja aðila.
 
-Póstfangið er notað á alla hluti í körfunni sem „skipið“ er valinn fyrir. Ef þú notar stöðvunarrennslið sem er að finna í byrjunarbúnaðinum á netinu er ekki hægt að senda einstaka körfuhluti á mismunandi netföng. Ef þú þarft þessa hæfileika er hægt að útfæra hana með því að aðlaga kassaeiningarnar.
+Póstfangið er notað á alla hluti í körfunni sem „skipið“ er valinn fyrir. Ef verið er að nota greiðsluferli sem er veitt í einingarsafni er ekki hægt að senda staka hluti í körfu á önnur aðsetur. Ef þú þarft þessa hæfileika er hægt að útfæra hana með því að aðlaga kassaeiningarnar.
 
 Eftir að sendingarfangið hefur verið gefið upp eru sendingaraðferðir sem fáanlegar eru frá Dynamics 365 Commerce netverslun er sýnd. Hægt er að stilla sendingaraðferðirnar og netföngin sem þeir styðja í Commerce.
 
@@ -80,7 +80,7 @@ Næsta skref í greiðsluflæðinu er greiðsla. Í rafrænum viðskiptum er hæ
 
 #### <a name="gift-cards"></a>Gjafakort
 
-Byrjunareiningin á netinu gerir kleift að hægt sé að innleysa alþjóðleg gjafakort fyrir pöntun. Til að nota innra gjafakort verður viðskiptavinurinn að vera skráður inn. Til að auka öryggi mælum við með því að þú sérsniðir flæðið með því að nota persónuauðkenni fyrir innri gjafakort.
+Einingasafnið gerir kleift að nota innri gjafakort fyrir pöntun. Til að nota innra gjafakort verður viðskiptavinurinn að vera skráður inn. Til að auka öryggi mælum við með því að þú sérsniðir flæðið með því að nota persónuauðkenni fyrir innri gjafakort.
 
 ### <a name="signed-in-and-guest-users"></a>Innskráðir og gestir notendur
 

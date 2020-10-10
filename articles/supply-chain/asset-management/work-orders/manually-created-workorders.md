@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetWorkOrderTableCreateRelated, EntAssetWorkOrderTableCreate, EntAssetWorkOrderTableCopy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 80593ddaaa5f327513781dbdd4e3163de4212ced
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 4a4b148d9ac5d032d2caa5fcea0398a5a3726f0e
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208110"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3888978"
 ---
 # <a name="manually-created-work-orders"></a>Handvirkt stofnaðar verkbeiðnir
 
@@ -74,7 +74,7 @@ Athugið eftirfarandi stig:
 
 - Mikilvægi á verkbeiðni er endurútreiknað í hvert skipti sem vinnslu verkbeiðni er bætt við eða henni eytt úr verkbeiðninni.
 
-- Í upplýsingaglugganum **Allar verkbeiðnir** > flipanum **Haus** > flýtiflipanum **Áætlun** í reitunum **Ábyrgur hópur** eða **Ábyrgðarmaður** geturðu valið ábyrgan starfsmanahóp eða ábyrgan viðhaldsstarfsmann. Þessum stillingum er hægt að breyta meðan verkbeiðnin er virk. Til dæmis er hægt að breyta þeim þegar ástand líftíma verkbeiðni breytist. Sjálfvirka valið sem gert var við stofnun verkbeiðni er byggt á uppsetningunni á síðunni **Ábyrgir viðhaldsstarfsmenn**. Ef þú bætir við eða fjarlægir verkbeiðniverk eftir að þú hefur búið til verkbeiðni og ef reiturinn **Ábyrgur hópur** og reiturinn **Ábyrgðarmaður** eru auðir þegar þú uppfærir verkbeiðnina reynir Eignastjórnun að finna ábyrgan viðhaldsstarfsmannahóp eða ábyrgan viðhaldsstarfsmann fyrir hugsanlega samsvörun á uppsetningarsíðunni. Ef reiturinn **Ábyrgur hópur** eða reiturinn **Ábyrgðarmaður** eru þegar stilltir þegar þú uppfærir verkbeiðnina verða engar breytingar gerðar. Nánari upplýsingar um hvernig á að setja upp starfskrafta og viðhaldsstarfsmannahóps er að finna í [Ábyrgir viðhaldsstarfskraftar](../setup-for-maintenance-requests/responsible-workers.md).)
+- Í upplýsingaglugganum **Allar verkbeiðnir** > flipanum **Haus** > flýtiflipanum **Áætlun** í reitunum **Ábyrgur hópur** eða **Ábyrgðarmaður** geturðu valið ábyrgan starfsmanahóp eða ábyrgan viðhaldsstarfsmann. Þessum stillingum er hægt að breyta meðan verkbeiðnin er virk. Til dæmis er hægt að breyta þeim þegar ástand líftíma verkbeiðni breytist. Sjálfvirka valið sem gert var við stofnun verkbeiðni er byggt á uppsetningunni á síðunni **Ábyrgir viðhaldsstarfsmenn**. Ef þú bætir við eða fjarlægir verkbeiðniverk eftir að þú hefur búið til verkbeiðni og ef reiturinn **Ábyrgur hópur** og reiturinn **Ábyrgðarmaður** eru auðir þegar þú uppfærir verkbeiðnina reynir Eignastjórnun að finna ábyrgan viðhaldsstarfsmannahóp eða ábyrgan viðhaldsstarfsmann fyrir hugsanlega samsvörun á uppsetningarsíðunni. Ef reiturinn **Ábyrgur hópur** eða reiturinn **Ábyrgðarmaður** eru þegar stilltir þegar þú uppfærir verkbeiðnina verða engar breytingar gerðar. Nánari upplýsingar um hvernig á að setja upp starfskrafta og viðhaldsstarfsmannahóps er að finna í [Ábyrgir viðhaldsstarfskraftar](../setup-for-maintenance-requests/responsible-workers.md).
 
 - Af síðunni [Viðhaldsstaða](../controlling-and-reporting/maintenance-status.md) er hægt að gera útreikning til að fá yfirlit yfir vinnuálag varðandi komandi og loknar verkbeiðnir.  
 

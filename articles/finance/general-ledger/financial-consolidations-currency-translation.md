@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
+ms.sourcegitcommit: 7537aa8ef619eea6c48467a3ca86e3372415f8a7
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771846"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3823456"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Yfirlit yfir fjárhagssamstæður og umreikninga gjaldmiðils
 
@@ -103,6 +103,7 @@ Til að læra hvernig á að slá inn upplýsingar um samstæðu á netinu skal 
     ![Sameiningarfærslur á síðunni Sameiningar](./media/managing-consolidation-transactions.png "Sameiningarfærslur á síðunni Sameiningar")
 
 Til að keyra samstæðuna aftur er einfaldlega hægt að vinna úr samstæðunni. Einnig er hægt að velja fyrst **Fjarlægja færslur** á síðunni **Samstæður**.
+Í tilvikinu eru stöður á samstæðureikningnum þínum ekki rétt, hægt er að leiðrétta þessar stöður með því að nota síðuna **Leiðréttingar á lokunartímabili**.
 
 ## <a name="consolidate-with-import"></a>Taka með í innflutning
 Samstæðan með innflutningsvirkni virkar eins og samstæðuvirknin á netinu. Þegar þú velur lögaðila muntu fletta upp á upprunalegu skránni sem inniheldur gögnin.
@@ -156,6 +157,7 @@ Frekari upplýsingar um hvernig endurmat á gjaldmiðli virkar í einingunni **F
 - Aðeins er hægt að bóka losunarbækur í núverandi lagi.
 - Aðeins virkar stöður eru sameinaðar. Til þess að sjá opnunarstöður verður þú því enn að keyra árslokalokun í samstæðufyrirtækinu.
 - Þú getur bókað daglega færslubók í losunarfyrirtæki, en ekki í samstæðufyrirtæki.
+- Leiðréttingar á stöðu í samstæðufyrirtæki er aðeins hægt að gera með því að nota síðuna **Leiðréttingar á lokunartímabili** . 
 
 ## <a name="benefits-of-using-financial-reporting-for-financial-consolidations-and-currency-translation-or-to-complement-consolidate-online-for-consolidated-reporting"></a>Kostir þess að nota Financial reporting fyrir fjárhagssamstæður og umreikning gjaldmiðils, eða til viðbótar við samstæðu á netinu fyrir samstæðuskýrslugerð
 Viðskiptavinir sem nota Financial reporting fyrir fjárhagssamstæður og umreikning gjaldmiðils, eða til viðbótar við samstæðu á netinu fyrir samstæðuskýrslugerð munu geta nýtt sér ýmsa kosti:

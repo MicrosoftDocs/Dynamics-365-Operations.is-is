@@ -1,9 +1,9 @@
 ---
 title: Dreifing á fjárhagsupphæðum
-description: Þessi grein veitir upplýsingar um dreifingu á fjárhagsupphæð og lýsir valkostunum sem eru tiltækar fyrir vinnslu á þeim. Dreifingar á fjárhagsupphæð eru notaðar til að úthluta upphæðum fyrir upprunaskjalið á tiltekinn fjárhagslykil.
+description: Þessi efni veitir upplýsingar um dreifingu á fjárhagsupphæð og lýsir valkostunum sem eru tiltækar fyrir vinnslu á þeim.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e9f185ac95371bb841e55184650b8089040676c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: c9a627ba33065086d21c758a1b8d8f2fa2f6ef02
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772261"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819840"
 ---
 # <a name="accounting-distributions"></a>Dreifing á fjárhagsupphæðum
 
 [!include [banner](../includes/banner.md)]
 
-Þessi grein veitir upplýsingar um dreifingu á fjárhagsupphæð og lýsir valkostunum sem eru tiltækar fyrir vinnslu á þeim. Dreifingar á fjárhagsupphæð eru notaðar til að úthluta upphæðum fyrir upprunaskjalið á tiltekinn fjárhagslykil. 
+Þessi efni veitir upplýsingar um dreifingu á fjárhagsupphæð og lýsir valkostunum sem eru tiltækar fyrir vinnslu á þeim. Dreifingar á fjárhagsupphæð eru notaðar til að úthluta upphæðum fyrir upprunaskjalið á tiltekinn fjárhagslykil. 
 
 Dreifingar á fjárhagsupphæð eru geta í öllu forritinu sem er notað og framlengt af hverju upprunaskjalið, eins og innkaupapöntun, reiknings lánardrottins, kostnaðarskýrslu og reikningur með frjálsum texta. Að sjálfgefnu er sjálfgefna dreifing á fjárhagsupphæð mynduð fyrir hverja línu upprunaskjals og peningaupphæð og er virk fyrir breytingu ef skilyrði mæla svo fyrir. 
 
-> [!Note] 
+> [!NOTE] 
 > Sum skjöl styðja einnig peningaupphæðir skjals fyrir haus, eins og gjalda fyrir pantanir og reikninga. 
 
 Almenn geta dreifingar á fjárhagsupphæð veitir eftirfarandi valkosti fyrir vinnslu dreifingar á fjárhagsupphæð:
@@ -44,17 +44,16 @@ Almenn geta dreifingar á fjárhagsupphæð veitir eftirfarandi valkosti fyrir v
     -   Dreifing birta bókhaldsdagsetningu og bókhaldstilvik. Yfirleitt, er bókhaldstilvik stillt á **Ekkert** þar til skjal er bókað/skráðar. Á þeim tímapunkti verður bókhaldstilvik **Upprunalegt**. Eftir að dreifingar hafa verið bókaðar geturðu ekki breytt dreifingunum.
     -   **Skipta** hnappur gæti virkjaður fyrir yfirstig dreifingar. **Skipta** býr til nýja dreifing á fjárhagsupphæð og skipta getur byggt á prósentu, upphæð eða magn.
     -   **Dreifa jafnt** er hægt að nota í samsetningu með **Skipta** til að úthluta sjálfkrafa upphæð jafnt á allar dreifingar.
-    -   **Endurstilla** hnappur gæti verið virkjaður fyrir yfirstig dreifingar þegar fleiri en einn dreifingar eru til. **Endurstilla** bakfærir allar handvirkar breytingar í dreifingu með því að eyða öllum fyrirliggjandi dreifingum mynda sjálfgefna dreifingu aftur.
+    -   Hnappurinn **Endurstilla** gæti verið virkjaður fyrir yfirstig dreifingar þegar fleiri en ein dreifing er til staðar. **Endurstilla** bakfærir allar handvirkar breytingar í dreifingu með því að eyða öllum fyrirliggjandi dreifingum mynda sjálfgefna dreifingu aftur.
     -   Allar undirskipað dreifingu, eins og afslátt, gjöld og virðisaukaskatt, fylgir alltaf yfirstig dreifingar. Hægt er að skoða vensl yfireiningar/undireiningar á **Tilvísun** &gt; **Upplýsingar yfireiningar**.
-    -   Aðallykils og fjárhagsvídda gæti verið hægt að breyta fyrir undireiningar líka.
-    -   Fjárhagsvíddir í dreifingu á fjárhagsupphæð fylgja sjálfgefnu mynstri sem skjal getur útvíkkað. Frekari upplýsingar um ferlið fást í tengdum greinum.
+    -   Aðallykill og fjárhagsvídd gætu einnig verið breytanlegar fyrir undireiningu.
+    -   Fjárhagsvíddir í dreifingu á fjárhagsupphæð fylgja sjálfgefnu mynstri sem skjal getur útvíkkað.
     -   Frávik dreifingar gætu myndast í samsvörunaraðstæðum, eins og jöfnun milli innkaupapöntunar og reiknings lánardrottins. Hægt er að skoða jöfnunartengsl milli dreifingar á fjárhagsupphæð við **Tilvísun** &gt; **Skjalsupplýsingar**.
     -   **Leiðrétta** hnappur birtist og er virk fyrir skjöl sem styðja leiðréttingar. **Leiðrétta** stofnar nýja arðgreiðslu. Fyrst skal stofna dreifingar sem bakfæra upprunalegu dreifingar. Ekki er hægt að breyta þessum dreifingum. Næst, ný leiðréttandi dreifingar á fjárhagsupphæð eru stofnaðar. Hægt er að breyta þessar dreifingar hægt var að breyta upphaflegri dreifingar.
     -   Hnappurinn **Upplýsingar um verk** er virkjaður sem viðauki þegar lína er tengd verki. Fjárhagsupphæð gerir kleift að breyta upplýsingum eins og fjármögnunaraðila og línueiginleika.
     -   Hægt er að skoða gildandi bókhaldsstaða skjals í **Tilvísun**. Staðan er fyrir allt skjalið og gefur til kynna hvort skjalið er í vinnslu eða lokið.
--   **Skoða dreifingar** - Skoða dreifingu á fjárhagsupphæð fyrir allar línur og peningaupphæðir á skjali. Ekki er hægt að breyta dreifingu fjárhagsupphæða í þessu yfirliti.
+-   **Skoða dreifingar** - Skoða dreifingu á fjárhagsupphæð fyrir allar línur og peningaupphæðir í skjalinu. Ekki er hægt að breyta dreifingu fjárhagsupphæða í þessu yfirliti.
 
+Í útgáfu 10.0.13 hefur eiginleika verið bætt við sem villuleitar töflu yfir dreifingu á fjárhagsupphæð til að ganga úr skugga um að nýju reitirnir séu settir upp á réttan hátt. Þessi eiginleiki kallast **Virkja viðbótarvilluleit í gögnum skjala með því að nota bókhaldsramma upprunaskjals**. Til að nota eiginleikann verður að virkja hann á vinnusvæðinu **Eiginleikastjórnun**. Til að virkja eiginleikann skal leita að heiti eiginleikans í reitnum **Leita** á síðunni **Eiginleikastjórnun** og síðan velja **Virkja núna**.
 
 Nánari upplýsingar má nálgast á [Dreifing á fjárhagsupphæðum og færslur undirbókar fyrir lánardrottnareikninga](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
-
-

@@ -3,7 +3,7 @@ title: GETENUMVALUEBYNAME ER-aðgerð
 description: Þetta efni inniheldur upplýsingar um hvernig aðgerðin GETNUMVALUEBYNAME í rafrænni skýrslugerð (ER) er notuð.
 author: NickSelin
 manager: kfend
-ms.date: 12/12/2019
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33ccf358dc5355cd00d5ff41ebd8148a334cba38
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 722ea8ea233d617b0584e21e98073428f16c0801
+ms.sourcegitcommit: ad5b7676fc1213316e478afcffbfaee7d813f3bb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3743856"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3885228"
 ---
 # <a name="getenumvaluebyname-er-function"></a>GETENUMVALUEBYNAME ER-aðgerð
 
@@ -61,11 +61,11 @@ Upptalningargildið sem myndast.
 
 Engin undantekning er gerð ef gildið *Enum* er ekki að finna með því að nota heiti upptalningargildisins sem er tilgreint sem gildið *Strengur*.
 
-## <a name="example"></a>Dæmi
+## <a name="example-1"></a>Dæmi 1
 
 Í eftirfarandi mynd er **ReportDirection** upptalningin kynnt í gagnalíkani. Athugaðu að merki eru skilgreind fyrir tölusetningargildin.
 
-<p><a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for a data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
+![Tiltæk gildi fyrir tölusetningu gagnalíkans](./media/ER-data-model-enumeration-values.PNG)
 
 Eftirfarandi mynd sýnir þessar upplýsingar:
 
@@ -73,8 +73,48 @@ Eftirfarandi mynd sýnir þessar upplýsingar:
 - Segðin `$IsArrivals` er hönnuð til að nota líkanatölusetningarbyggðan gagnagjafa **$Direction** sem færibreytu þessarar aðgerðar.
 - Gildi þessarar samanburðarsegðar er **TRUE**.
 
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
+![Dæmi um tölusetningu gagnalíkans](./media/ER-data-model-enumeration-usage.PNG)
+
+## <a name="example-2"></a>Dæmi 2
+
+Aðgerðirnar `GETENUMVALUEBYNAME` og [`LISTOFFIELDS`](er-functions-list-listoffields.md) gerir þér kleift að sækja gildi og merki yfir studdar tölusetningar sem textagildi. (Studdar tölusetningar eru tölusetningar forrits, tölusetningar gagnalíkans og tölusetningar sniðs.)
+
+Á eftirfarandi mynd er gagnagjafinn **TransType** kynntur í líkanavörpun. Þessi gagnagjafi vísar í forritstölusetningu **LedgerTransType**.
+
+![Gagnagjafi líkanavörpunar sem vísar í tölusetningu forrits](./media/er-functions-text-getenumvaluebyname-example2-1.png)
+
+Eftirfarandi mynd sýnir gagnagjafann **TransTypeList** sem er skilgreindur í líkanavörpun. Þessi gagnagjafi er skilgreindur út frá **TransType** tölusetningu forrits. `LISTOFFIELDS`-aðgerðin er notuð til að skila öllum gildum tölusetningar sem lista yfir færslur sem innihalda reiti. Á þennan hátt verða upplýsingar um sérhvert gildi tölusetningar sýndar.
+
+> [!NOTE]
+> **EnumValue** gildið er skilgreint fyrir **TransTypeList** gagnagjafann með því að nota `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)`-segðina. Þessi reitur skilar gildi tölusetningar fyrir hverja færslu í þessum lista.
+
+![Gagnagjafi líkanavörpunar sem skilar öllum tölusetningargildum af valinni tölusetningu sem lista yfir færslur](./media/er-functions-text-getenumvaluebyname-example2-2.png)
+
+Eftirfarandi mynd sýnir gagnagjafann **VendTrans** sem er skilgreindur í líkanavörpun. Þessi gagnagjafi skilar lánardrottnafærslum úr forritstöflu **VendTrans**. Fjárhagsgerð hverrar færslu er skilgreind eftir gildinu á reitnum **TransType**.
+
+> [!NOTE]
+> **TransTypeTitle** gildið er skilgreint fyrir **VendTrans** gagnagjafann með því að nota `FIRSTORNULL(WHERE(TransTypeList, TransTypeList.EnumValue = @.TransType)).Label`-segðina. Þessi reitur skilar merki tölusetningargildis af núverandi færslu sem texta, ef þetta tölusetningargildi er í boði. Annars skilar hann auðum streng.
+>
+> Reiturinn **TransTypeTitle** er bundinn við **LedgerType** reit gagnalíkans sem gerir kleift að nota þessar upplýsingar í öllum sniðum rafrænnar skýrslugerðar sem notar gagnalíkanið sem upprunastað gagna.
+
+![Gagnagjafi líkanavörpunar sem skilar lánardrottnafærslum](./media/er-functions-text-getenumvaluebyname-example2-3.png)
+
+Eftirfarandi mynd sýnir hvernig hægt er að nota [kembiforrit gagnagjafans](er-debug-data-sources.md) til að prófa skilgreinda líkanavörpun.
+
+![Nota kembiforrit gagnagjafa til að prófa skilgreinda líkanavörpun](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
+
+**LedgerType** reitur gagnalíkans sýnir merki af færslugerðum eins og búist var við.
+
+Ef ætlunin er að nota þessa nálgun fyrir mikið magn af færslugögnum verður að íhuga afköst keyrslunnar. Frekari upplýsingar er að finna í [Rekja framkvæmd á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum](trace-execution-er-troubleshoot-perf.md).
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Textavirkni](er-functions-category-text.md)
+[Textaaðgerðir](er-functions-category-text.md)
+
+[Rekja keyrslu á sniðum rafrænnar skýrslugerðar til að úrræðaleita vandamál sem tengjast afköstum](trace-execution-er-troubleshoot-perf.md)
+
+[LISTOFFIELDS ER-aðgerð](er-functions-list-listoffields.md)
+
+[FIRSTORNULL ER-aðgerð](er-functions-list-firstornull.md)
+
+[WHERE ER-aðgerð](er-functions-list-where.md)

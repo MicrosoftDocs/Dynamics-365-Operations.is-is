@@ -1,6 +1,6 @@
 ---
 title: Námskrá stjórnanda fyrir Dynamics 365 Commerce
-description: Finndu alla þjálfunarvalkostina fyrir Dynamics 365 Commerce.
+description: Finndu allar kennsluleiðir fyrir stjórnandahlutverk í Dynamics 365 Commerce.
 author: margoc
 ms.topic: article
 ms.date: 07/23/2020
@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7a6e0b6103bf453b74ae485f06bf139b13bae7b2
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: fc4df1c7fc47608300d705616768b6c8ef135652
+ms.sourcegitcommit: ea335b4536342e496e8b61847b1ae6da3924f94c
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793394"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3821205"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-administrators"></a>Námskrá fyrir stjórnendur Dynamics 365 Commerce
 
@@ -39,7 +39,7 @@ Eftirfarandi vörulisti er skipulögð frá grunnþekkingu yfir á tiltekin lén
 
 | Efni  | lýsing  | Snið  | Lengd    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
-| [Virkja Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/)                                    | Þessi námsleið lýsir því hvernig á að setja upp Dynamics 365 Commerce-umhverfi og framkvæma úthlutunarskref eftir á, fyrir árangursríkar innleiðingar Commerce með því að nota rétta grannfræði fyrir viðskiptaþarfir hvers smásöluaðila.                               | Ókeypis, sjálfstýr skref á námsleið | 5 klst.   |
+| [Nota og víkka Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/deploy-dynamics-365-commerce/) | Þessi námsleið lýsir því hvernig á að setja upp Dynamics 365 Commerce-umhverfi og framkvæma úthlutunarskref eftir á, fyrir árangursríkar innleiðingar Commerce með því að nota rétta grannfræði fyrir viðskiptaþarfir hvers smásöluaðila. | Ókeypis, sjálfstýr skref á námsleið | 5 klst.   |
 | [Skilgreina og nota sölustað (POS) í Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-use-pos-commerce/)         | Færslugögn eru stofnuð á sölustað og svo hlaðið upp í höfuðstöðvar Dynamics 365 Commerce til úrvinnslu. Þessi námsleið lýsir því hvernig á að setja upp og virkja sölustað, sem og hvernig á að stofna daglegar færslur í á sölustað. | Ókeypis, sjálfstýr skref á námsleið | 4.5 klst. |
 | [Skilgreina og vinna með símaver í Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-work-call-centers-commerce/) | Dynamics 365 Commerce er lausn alhliða samskipta sem býður upp á símaversrás með getu til að gera ákveðnar stillingar pöntunar sjálfgefnar og sjálfgefin gögn fyrir sölupantanirnar sem notendur símavers hafa stofnað.                                  | Ókeypis, sjálfstýr skref á námsleið | 2 klst.   |
 

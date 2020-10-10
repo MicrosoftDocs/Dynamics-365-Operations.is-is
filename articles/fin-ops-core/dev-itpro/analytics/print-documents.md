@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9acc4c26febacf4ec7647cf436ac678e52df3973
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 25996cbccf3e9eec6fc29b80b8241e89b5b6b4a5
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772559"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893280"
 ---
 # <a name="document-printing-overview"></a>Yfirlit skjalaprentunar
 
@@ -52,10 +52,10 @@ Eftirfarandi tafla lýsir þremur aðalprentmyndum.
 Vegna þess að lausnin er breytileg, er háð aðstæðum, veita forrit innbyggðar þjónustur og verkfæri til að hjálpa notendum að ná markmiðum sínum:
 
 - **Aðstæður 1** er studd af myndþýðingu vafrans á HTML5-biðlara.
-- **Aðstæður 2** notar biðlaraforrit og þjónustur Microsoft Office 365.
+- **Aðstæður 2** notar biðlaraforrit og þjónustu Microsoft 365.
 - **Aðstæður 3** krefst stuðnings frá biðlaraforritum og þjónustum sem eru hýstar í Microsoft Azure.
 
-Til viðbótar við verkvanginn sem er notaður á Azure-áskriftina, veita forrit Finance and Operations viðskiptavinum samþætt Azure-forrit frá fyrsta aðila sem auðveldar þeim að nota á lénhýst tæki til að prenta skjöl.
+Til viðbótar við verkvanginn sem er notaður á Azure-áskriftina, veita Finance and Operations forrit viðskiptavinum samþætt Azure-forrit frá fyrsta aðila sem auðveldar þeim að nota á lénhýst tæki til að prenta skjöl.
 
 ## <a name="service-overview"></a>Þjónustuyfirlit
 Á meðan skjöl sem eru búin til af hýstum forritum bíða eftir að vera prentuð á nettengdu tæki, eru þau geymd í Azure blob-geymslu. [Setja upp eftirlitsbúnað skjalasendingar til að virkja nettengda prentun](install-document-routing-agent.md) notar Azure sannvottun til að koma á öruggri rás til Azure-þjónustunnar.

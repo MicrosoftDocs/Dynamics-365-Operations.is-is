@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d6e0f2c914b8d348ef6eac42557fb46c53df04a9
-ms.sourcegitcommit: d16d370dab734e09312cb06711beca9cca52d4c9
+ms.openlocfilehash: 8c3a905c90f5dd4ad3487f004a958c0dcd52115d
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809521"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893248"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Bættu nýjum reit við sniðmát viðskiptaskjala í Microsoft Excel
 
@@ -67,7 +67,7 @@ Nánari upplýsingar um hvernig eigi að flytja inn ER-skilgreininga er að finn
 5.  Í reitinn **Titill** slærðu inn **Ókeypis textareikningur (Excel) Contoso** sem yfirskrift nýja sniðmátsins.
 6.  Veldu **Í lagi** til að staðfesta upphaf breytingarferilsins.
 
-Síðan BDM-sniðmátsritill birtist. Þú getur notað Microsoft Office 365 til að breyta völdum sniðmáti á netinu í innbyggðu stjórninni.
+Síðan BDM-sniðmátsritill birtist. Hægt er að nota Microsoft 365 til að breyta völdu sniðmáti á netinu í innbyggðu stýringunni.
 
 ![BDM ritilssíða](./media/BDM-AddFldExcel-EditableTemplate.png)
 

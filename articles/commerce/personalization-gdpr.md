@@ -3,7 +3,7 @@ title: Afþakka sérsniðnar tillögur
 description: Þetta efni útskýrir hvernig þú getur látið viðskiptavini afþakka að fá persónulegar ráðleggingar í Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a51c8c0e2743b67df9d66a8c45ab7a69597f4002
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: 6a64b45e1326673dd84c3c705491c9c100cdd069
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664931"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817524"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Afþakka sérsniðnar tillögur
 
@@ -74,7 +74,7 @@ Eftirfarandi dæmi sýnir hvernig smásala getur sinnt þessu verkefni.
 1. Söluaðilinn býr til sérsniðna viðbót til að draga persónulegar ráðleggingargögn fyrir hönd notandans. Nánari upplýsingar um hvernig á að búa til einingar, klóna núverandi einingar, hringja í API fyrir smásala netþjóns og aðgerðir til að hringja í gögn, sjá [Stækkanleiki á netinu](e-commerce-extensibility/overview.md).
 2. Sérsniðna viðbótin hringir í **fá tilmæli** kjarna gagnaaðgerð og miðlar nauðsynlegum upplýsingum til þeirra, byggðar á kröfum listans. Í tilviki **Velur fyrir þig** listanum verður viðbótin að gefa réttan listaheiti og kenni viðskiptavina yfir í gagnaaðgerðina.
 
-    Ein leið til að búa til sérsniðna viðbót er að klóna núverandi vöruöflunareining sem er notuð til að skila niðurstöðum meðmæla. Með því að klóna þessa núverandi einingu getur smásali breytt núverandi kóða og bætt við nýjum hnappi sem flytur niðurstöður ráðlegginganna yfir í CSV skjal. Fyrir frekari upplýsingar, sjá [Klón byrjunarbúnaðareining](e-commerce-extensibility/clone-starter-module.md) og [Vöruöflunareiningar](product-collection-module-overview.md).
+    Ein leið til að búa til sérsniðna viðbót er að klóna núverandi vöruöflunareining sem er notuð til að skila niðurstöðum meðmæla. Með því að klóna þessa núverandi einingu getur smásali breytt núverandi kóða og bætt við nýjum hnappi sem flytur niðurstöður ráðlegginganna yfir í CSV skjal. Frekari upplýsingar er að finna í [Klóna einingar einingasafns](e-commerce-extensibility/clone-starter-module.md) og [Afurðasafnseiningar](product-collection-module-overview.md).
 
     Sjá heildarskoðun á API-bókasafni smásöluþjónsins [API og viðskiptavinir smásölumiðstöðva og neytenda](dev-itpro/retail-server-customer-consumer-api.md).
 

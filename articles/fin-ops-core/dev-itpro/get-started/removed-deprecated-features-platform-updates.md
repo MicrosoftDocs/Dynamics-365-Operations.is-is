@@ -3,7 +3,7 @@ title: Fjarlægðir eða úreltir eiginleikar verkvangs
 description: Þetta efnisatriði lýsir eiginleikum sem hafa verið fjarlægðir eða sem verða fjarlægðir í verkvangsuppfærslum á forritum Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b2d54cfaddc1697eda543952831e745182df2753
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 0b78401f4c1cf289247cd2d600f097ecdf6a712c
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803140"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819890"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Fjarlægðir eða úreltir eiginleikar verkvangs
 
@@ -34,6 +34,22 @@ ms.locfileid: "3803140"
 Þessi listi er ætlað að hjálpa þér að íhuga þessar fjarlægingar og úreldingar fyrir eigin áætlanagerð. 
 
 Ítarlegar upplýsingar um hluti í forritum Finance and Operations má finna í [Tæknilegum tilvísunarskýrslum](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Hægt er að bera saman mismunandi útgáfur þessara skýrslna til að fá upplýsingar um hluti sem hefur verið breytt eða hafa verið fjarlægðir í hverri útgáfu forrita Finance and Operations.
+
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.14 á forritum Finance and Operations
+
+> [!NOTE]
+> Útgáfa 10.0.14 er forútgáfa. Innihald og virkni geta tekið breytingum. Frekari upplýsingar um forútgáfur er að finna í hlutanum [Framboð þjónustuuppfærslu](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+
+### <a name="online-users-page"></a>Síða nettengds notanda 
+
+|   |  |
+|------------|--------------------|
+| **Ástæða úreldingar/fjarlægingar** | Þetta er eldri síða sem var byggð á fyrri uppsetningu biðlara/þjóns. Upplýsingarnar á þessari síðu eru ekki alltaf réttar, sem getur verið ruglingsleg og villandi. |
+| **Skipt út fyrir aðra eiginleika?**   | Við munum birta nýja síðu í síðari uppfærslu.|
+| **Afurðasvæði sem haft er áhrif á**         | Kerfisstjórnun |
+| **Dreifingarvalkostur**              | Allir |
+| **Staða**                         | Frá október 2021 verður þetta fjarlægt.   |
 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Verkvangsuppfærslur fyrir útgáfu 10.0.13 á forritum Finance and Operations
 

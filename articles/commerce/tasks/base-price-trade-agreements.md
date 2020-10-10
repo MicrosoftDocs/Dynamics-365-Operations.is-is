@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 022db9365f25c1d3e387870dd9d173077d864b3d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 44dc059f7bfc3ba83a375c197ce67f1378a9bc9b
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141523"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899350"
 ---
 # <a name="base-price-and-trade-agreements"></a>Grunnverð og verðsamningar
 
@@ -58,7 +58,7 @@ ms.locfileid: "3141523"
 26. Í reitnum **Heiti** skal smella á fellilistahnappinn til að opna leitina.
 27. Í listanum skal **Commerce**. Færslubókarheitið **Commerce** er notað í sýnigögnum sem sjálfgefin tengsl við **Verð (sala)**. Þetta þýðir að allar nýjar línur sem stofnaðar eru verða sjálfgefnar fyrir söluverð viðskiptasamninga.  
 28. Í **Aðgerðasvæðinu**, smellirðu á **Línur**.
-29. Í reitnum **Kóði lykils** er valið 'flokkur'.
+29. Í reitnum **Gerð aðilakóða** er valinn „Flokkur“.
 30. Í reitnum **Val á lykli** skal smella á fellilistahnappinn til að opna uppflettinguna.
 31. Í listanum skal finna og velja þá skráningu sem óskað er eftir. Þetta Ljúka við tengil úr Rásar til vöruverðs til viðskiptasamningi.  
 32. Í reitinn **Vöruvensl** skal slá inn gildi.
