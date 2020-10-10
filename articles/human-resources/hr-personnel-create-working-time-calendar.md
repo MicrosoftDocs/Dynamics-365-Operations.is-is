@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: OpResLifeCycleManagementWorkspace, WorkCalendarTable, WorkCalendarDate, HcmPersonnelManagementWorkspace
+ms.search.form: OpResLifeCycleManagementWorkspace, WorkCalendarTable, WorkCalendarDate, HcmPersonnelManagementWorkspace, WrkCtrGroupDateCalendar, WrkCtrDateCalendar
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Core, Operations
@@ -16,30 +16,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7f4960f895ac6a9e6284119a998af540523785ed
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: f5c630297a8962d1bb383110881b2acdc872b9cd
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430372"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826098"
 ---
-# <a name="create-calendars-and-generate-working-times"></a><span data-ttu-id="12e1c-104">Stofna dagatöl og mynda vinnutíma</span><span class="sxs-lookup"><span data-stu-id="12e1c-104">Create calendars and generate working times</span></span>
+# <a name="create-calendars-and-generate-working-times"></a><span data-ttu-id="25972-104">Stofna dagatöl og mynda vinnutíma</span><span class="sxs-lookup"><span data-stu-id="25972-104">Create calendars and generate working times</span></span>
 
 
 
-<span data-ttu-id="12e1c-105">Dagatöl lýsa afkastagetu og vinnutíma í rekstrartilföngum.</span><span class="sxs-lookup"><span data-stu-id="12e1c-105">Calendars describe the capacity and working times of operations resources.</span></span> <span data-ttu-id="12e1c-106">Þessi grein útskýrir hvernig eigi að skilgreina dagatal vinnu miðað við sniðmát vinnutíma.</span><span class="sxs-lookup"><span data-stu-id="12e1c-106">This article explains how to define a work calendar based on a working time template.</span></span> <span data-ttu-id="12e1c-107">Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.</span><span class="sxs-lookup"><span data-stu-id="12e1c-107">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
+<span data-ttu-id="25972-105">Dagatöl lýsa afkastagetu og vinnutíma í rekstrartilföngum.</span><span class="sxs-lookup"><span data-stu-id="25972-105">Calendars describe the capacity and working times of operations resources.</span></span> <span data-ttu-id="25972-106">Þessi grein útskýrir hvernig eigi að skilgreina dagatal vinnu miðað við sniðmát vinnutíma.</span><span class="sxs-lookup"><span data-stu-id="25972-106">This article explains how to define a work calendar based on a working time template.</span></span> <span data-ttu-id="25972-107">Þú getur farið í gegnum þetta ferli í sýnigögn fyrirtækisins USMF eða með því að nota eigin gögn.</span><span class="sxs-lookup"><span data-stu-id="25972-107">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 
-1. <span data-ttu-id="12e1c-108">Á heimasíðunni velurðu **Líftímastjórnun tilfanga**.</span><span class="sxs-lookup"><span data-stu-id="12e1c-108">On the home page, select **Resource lifecycle management**.</span></span>
-2. <span data-ttu-id="12e1c-109">Veldu **Dagatöl**.</span><span class="sxs-lookup"><span data-stu-id="12e1c-109">Select **Calendars**.</span></span>
-3. <span data-ttu-id="12e1c-110">Veljið **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="12e1c-110">Select **New**.</span></span>
-4. <span data-ttu-id="12e1c-111">Í reitnum **Dagatal** flokkaðru dagatalið þitt.</span><span class="sxs-lookup"><span data-stu-id="12e1c-111">In the **Calendar** field, classify your calendar.</span></span> <span data-ttu-id="12e1c-112">Þetta er Kenni fyrir dagatal sem er notað sem tilvísun við úthlutun dagatöl, eins og rekstrartilföng eða tilfangahóp.</span><span class="sxs-lookup"><span data-stu-id="12e1c-112">This is the ID of the calendar, which is used as a reference when assigning calendars, such as to an operations resource or a resource group.</span></span>  
-5. <span data-ttu-id="12e1c-113">Í reitinum **Heiti** skal færa dagatalið inn.</span><span class="sxs-lookup"><span data-stu-id="12e1c-113">In the **Name** field, name your calendar.</span></span>
-6. <span data-ttu-id="12e1c-114">Í reitnum **Staðlaðir vinnudagar í klukkustundum** slærðu inn tölu.</span><span class="sxs-lookup"><span data-stu-id="12e1c-114">In the **Standard work day in hours** field, enter a number.</span></span>
-7. <span data-ttu-id="12e1c-115">Gakktu úr skugga um að röðin sé valin og veldu síðan **Vinnutímar** úr aðgerðarglugganum.</span><span class="sxs-lookup"><span data-stu-id="12e1c-115">Make sure the row is selected, then select **Working times** from the Action Pane.</span></span>
-8. <span data-ttu-id="12e1c-116">Veldu **Byggja upp vinnutíma**.</span><span class="sxs-lookup"><span data-stu-id="12e1c-116">Select **Compose working times**.</span></span> <span data-ttu-id="12e1c-117">Mynda vinnustundir fyrir hvern dag tímabilsins þar sem þú vilt að hægt sé að raða vinnu.</span><span class="sxs-lookup"><span data-stu-id="12e1c-117">Generate working hours for each day in the period where you want to be able to schedule work.</span></span> <span data-ttu-id="12e1c-118">Þegar tíminn líður, er hægt að mynda vinnutíma fyrir fleiri tímabil.</span><span class="sxs-lookup"><span data-stu-id="12e1c-118">As time goes by, you can generate working times for additional periods.</span></span>  
-9. <span data-ttu-id="12e1c-119">Í reitnum **Frá dags.** færirði inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="12e1c-119">In the **From date** field, enter a date.</span></span> <span data-ttu-id="12e1c-120">Þetta er fyrsta daginn sem þetta dagatal verður að vera opin.</span><span class="sxs-lookup"><span data-stu-id="12e1c-120">This is the first day that this calendar must be open.</span></span>  
-10. <span data-ttu-id="12e1c-121">Í reitnum **Til dags.** færirðu inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="12e1c-121">In the **To date field**, enter a date.</span></span> <span data-ttu-id="12e1c-122">Þetta er síðasta daginn sem þetta dagatal er opin.</span><span class="sxs-lookup"><span data-stu-id="12e1c-122">This is the last day that this calendar is open.</span></span>  
-11. <span data-ttu-id="12e1c-123">Í reinum **Sniðmát vinnutíma** færirðu inn eða velur gildi.</span><span class="sxs-lookup"><span data-stu-id="12e1c-123">In the **Working time template** field, enter or select a value.</span></span> <span data-ttu-id="12e1c-124">Sniðmát vinnutíma skilgreinir vinnustundir fyrir hvern dag vikunnar.</span><span class="sxs-lookup"><span data-stu-id="12e1c-124">The working time template defines the working hours for each day of the week.</span></span>  
-12. <span data-ttu-id="12e1c-125">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="12e1c-125">Select **OK**.</span></span>
-13. <span data-ttu-id="12e1c-126">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="12e1c-126">Close the page.</span></span>
+1. <span data-ttu-id="25972-108">Á heimasíðunni velurðu **Líftímastjórnun tilfanga**.</span><span class="sxs-lookup"><span data-stu-id="25972-108">On the home page, select **Resource lifecycle management**.</span></span>
+2. <span data-ttu-id="25972-109">Veldu **Dagatöl**.</span><span class="sxs-lookup"><span data-stu-id="25972-109">Select **Calendars**.</span></span>
+3. <span data-ttu-id="25972-110">Veljið **Nýtt**.</span><span class="sxs-lookup"><span data-stu-id="25972-110">Select **New**.</span></span>
+4. <span data-ttu-id="25972-111">Í reitnum **Dagatal** flokkaðru dagatalið þitt.</span><span class="sxs-lookup"><span data-stu-id="25972-111">In the **Calendar** field, classify your calendar.</span></span> <span data-ttu-id="25972-112">Þetta er Kenni fyrir dagatal sem er notað sem tilvísun við úthlutun dagatöl, eins og rekstrartilföng eða tilfangahóp.</span><span class="sxs-lookup"><span data-stu-id="25972-112">This is the ID of the calendar, which is used as a reference when assigning calendars, such as to an operations resource or a resource group.</span></span>  
+5. <span data-ttu-id="25972-113">Í reitinum **Heiti** skal færa dagatalið inn.</span><span class="sxs-lookup"><span data-stu-id="25972-113">In the **Name** field, name your calendar.</span></span>
+6. <span data-ttu-id="25972-114">Í reitnum **Staðlaðir vinnudagar í klukkustundum** slærðu inn tölu.</span><span class="sxs-lookup"><span data-stu-id="25972-114">In the **Standard work day in hours** field, enter a number.</span></span>
+7. <span data-ttu-id="25972-115">Gakktu úr skugga um að röðin sé valin og veldu síðan **Vinnutímar** úr aðgerðarglugganum.</span><span class="sxs-lookup"><span data-stu-id="25972-115">Make sure the row is selected, then select **Working times** from the Action Pane.</span></span>
+8. <span data-ttu-id="25972-116">Veldu **Byggja upp vinnutíma**.</span><span class="sxs-lookup"><span data-stu-id="25972-116">Select **Compose working times**.</span></span> <span data-ttu-id="25972-117">Mynda vinnustundir fyrir hvern dag tímabilsins þar sem þú vilt að hægt sé að raða vinnu.</span><span class="sxs-lookup"><span data-stu-id="25972-117">Generate working hours for each day in the period where you want to be able to schedule work.</span></span> <span data-ttu-id="25972-118">Þegar tíminn líður, er hægt að mynda vinnutíma fyrir fleiri tímabil.</span><span class="sxs-lookup"><span data-stu-id="25972-118">As time goes by, you can generate working times for additional periods.</span></span>  
+9. <span data-ttu-id="25972-119">Í reitnum **Frá dags.** færirði inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="25972-119">In the **From date** field, enter a date.</span></span> <span data-ttu-id="25972-120">Þetta er fyrsta daginn sem þetta dagatal verður að vera opin.</span><span class="sxs-lookup"><span data-stu-id="25972-120">This is the first day that this calendar must be open.</span></span>  
+10. <span data-ttu-id="25972-121">Í reitnum **Til dags.** færirðu inn dagsetningu.</span><span class="sxs-lookup"><span data-stu-id="25972-121">In the **To date field**, enter a date.</span></span> <span data-ttu-id="25972-122">Þetta er síðasta daginn sem þetta dagatal er opin.</span><span class="sxs-lookup"><span data-stu-id="25972-122">This is the last day that this calendar is open.</span></span>  
+11. <span data-ttu-id="25972-123">Í reinum **Sniðmát vinnutíma** færirðu inn eða velur gildi.</span><span class="sxs-lookup"><span data-stu-id="25972-123">In the **Working time template** field, enter or select a value.</span></span> <span data-ttu-id="25972-124">Sniðmát vinnutíma skilgreinir vinnustundir fyrir hvern dag vikunnar.</span><span class="sxs-lookup"><span data-stu-id="25972-124">The working time template defines the working hours for each day of the week.</span></span>  
+12. <span data-ttu-id="25972-125">Veljið **Í lagi**.</span><span class="sxs-lookup"><span data-stu-id="25972-125">Select **OK**.</span></span>
+13. <span data-ttu-id="25972-126">Lokið síðunni.</span><span class="sxs-lookup"><span data-stu-id="25972-126">Close the page.</span></span>
 
