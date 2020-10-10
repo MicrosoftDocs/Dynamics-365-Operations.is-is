@@ -3,7 +3,7 @@ title: Afurðasafnseiningar
 description: Þetta efni veitir yfirlit yfir afurðasafnseiningar í Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 06/18/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 698bdd22cffad26bc9126fca5649f091fbeef4dd
-ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
+ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "3464954"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817574"
 ---
 # <a name="product-collection-modules"></a>Afurðasafnseiningar
 
@@ -94,11 +94,11 @@ Eftirfarandi tafla sýnir listagerðirnar sem hægt er að velja í valmyndinni 
 | Reiknirit                | <ul><li>**Nýtt** - Listi yfir nýjustu afurðirnar sem hafa verið flokkaðar í rásir og vörulista.</li><li>**Mest selt** - Listi yfir vörur sem eru metnar með mesta sölu.</li><li>**Vinsælt** - Listi yfir vörur sem skila mestum árangri á tilteknu tímabili.</li></ul> | Heimasíða, auðguð flokkasíða og kassa- og körfusíður | Flokkur úr samhengi síðunnar (til dæmis flokkasíðu) | Flokkurinn sem ræðst af höfundi vefsvæðisins | Stutt |
 | Oft keypt saman | Listi sem notar vélnám til að greina kaupmynstur neytenda og mæla með skyldum vörum sem eru oft keyptar ásamt tiltekinni afurð. | Þessi tegund af lista á aðeins við um körfusíðuna. | Karfa | Á ekki við | Stutt |
 | Fólki líkar einnig við           | Listi sem notar vélnám til að greina kaupmynstur neytenda og mæla með vörum sem tengjast tiltekinni afurð. | Þessi tegund lista er notuð á PDP til að sýna vörur sem aðrir viðskiptavinir hafa keypt. | Vörusamhengi af síðunni | Varan sem er úthlutuð af höfundi vefsvæðisins | Stutt |
-| Tillögur fyrir þig              | Listi sem notar vélnám til að ákvarða óskir viðskiptavina. | Þessa tegund lista er hægt að nota á hvaða síðu sem er. | Á ekki við| Á ekki við | Stutt | 
+| Tillögur fyrir þig              | Listi sem notar vélnám til að ákvarða óskir viðskiptavina. | Þessa tegund lista er hægt að nota á hvaða síðu sem er. | Ekki tiltækt| Ekki tiltækt | Stutt | 
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit byrjendaeiningar](starter-kit-overview.md)
+[Yfirlit einingasafns](starter-kit-overview.md)
 
 [Myndaræmueining](add-carousel.md)
 

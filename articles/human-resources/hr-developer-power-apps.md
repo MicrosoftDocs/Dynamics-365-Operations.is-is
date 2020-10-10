@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1c5bc0776174960af6cb8a62f00e3fd7d56b1676
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: b28480ff584870e931fdc288a2652a5649268576
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793612"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893078"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Stækka með Power Apps og Power Automate
 
@@ -37,13 +37,13 @@ ms.locfileid: "3793612"
 - Til að flytja inn pakka verða notendur að hafa heimildina **Umhverfishönnuður**.
 - Til að flytja forrit út eða inn verða notendur að hafa Power Apps Plan 2 leyfi eða Power Apps Plan 2 prufuleyfi.
 
-## <a name="integration-with-office-365-power-automate"></a>Samþætting við Office 365, Power Automate
+## <a name="integration-with-microsoft-365-power-automate"></a>Samþætting við Microsoft 365, Power Automate
 
-Forritið **Samþætting við Office 365** er hægt að nota til að draga út upplýsingar um hóp fyrir innskráða notendur úr Microsoft Office 365. Í henni er vísað til starfsmanna í Human Resources til að draga út kennitegundir starfsmanna. Stjórnendur geta athugað lokadaga kennigerða starfsmanna. Þeir geta einnig sent tölvupóst áminningu ef kennitölu starfsmanns er að renna út. Power Automate samþættist við Power Apps til að senda þessa áminningu. Staðfesting verður send aftur til Power Apps frá Power Automate þegar áminningin er send. Auðkenningargerðir innihalda ökuskírteini, vegabréf og önnur ásættanleg skilríki.
+Forritið **Samþætting við Microsoft 365** er hægt að nota til að draga út upplýsingar um hóp fyrir innskráða notendur úr Microsoft 365. Í henni er vísað til starfsmanna í Human Resources til að draga út kennitegundir starfsmanna. Stjórnendur geta athugað lokadaga kennigerða starfsmanna. Þeir geta einnig sent tölvupóst áminningu ef kennitölu starfsmanns er að renna út. Power Automate samþættist við Power Apps til að senda þessa áminningu. Staðfesting verður send aftur til Power Apps frá Power Automate þegar áminningin er send. Auðkenningargerðir innihalda ökuskírteini, vegabréf og önnur ásættanleg skilríki.
 
 Þú getur lengt þetta forrit fyrir aðrar aðstæður. Til dæmis er hægt að nota það til að sýna upplýsingar um frí hóps, viðburði dagatals og alla viðburði sem tengjast hópnum.
 
-Til að hlaða niður forritnu **Samþætting við Office 365, Power Automate** skal fara í [Samþætting við Office 365](https://go.microsoft.com/fwlink/?linkid=2081787) í Microsoft Download Center.
+Til að hlaða niður forritinu **Samþætting við Microsoft 365 Power Automate** skaltu fara í [Samþætting við Microsoft 365 ](https://go.microsoft.com/fwlink/?linkid=2081787) í Microsoft Download Center.
 
 ## <a name="power-automate--sql-connect-and-execute"></a>Power Automate - SQL Connect og framkvæmd
 

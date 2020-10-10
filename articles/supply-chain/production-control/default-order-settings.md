@@ -3,12 +3,12 @@ title: Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði
 description: Sjálfgefið pöntunarstillingar skilgreina svæði og vöruhús þar sem afurðir verða upprunnin frá eða geymdar, í lágmarks, hámarks, margar og staðlaðs magns sem verða notuð fyrir viðskipti eða birgðastjórnun, afhendingartíma, stöðvunarflagg, og aðferðina pöntun lofað.
 author: t-benebo
 manager: tfehr
-ms.date: 07/31/2020
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: InventItemOrderSetup
+ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0654ba019b71dc952ea52f206bc60d8fa05dd4ff
-ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
+ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3657341"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895597"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Sjálfgefnar pöntunarstillingar fyrir víddir og afurðarafbrigði
 
@@ -51,8 +51,11 @@ Til að skilgreina sjálfgefnar pöntunarstillingar fyrir afurð skal fylgja þe
 - Innkaupasamningslínur
 - Línur í beiðni um tilboð
 - Innkaupabeiðnilínur
-- Áfyllingarlínur vörusendingar
+- Áfyllingarlínur vörusendingar (að hluta til stutt, sjá athugasemd)
 - Innkaupatillögur
+
+> [!NOTE]
+> Fyrir áfyllingarpöntunarlínur vörusendingar eru aðeins stillingar úr **Innkaupapöntun** flýtiflipa **Sjálfgefnar pöntunarstillingar** sem gilda **Sjálfgefið svæði** reitur, **Sjálfgefið vöruhús** svæði, og **Stöðva** gátreitur.
 
 Sjálfgefnar pantanastillingar fyrir sölu eru notaðar þegar stofnaðar eru:
 

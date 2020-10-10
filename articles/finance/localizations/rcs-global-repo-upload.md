@@ -3,7 +3,7 @@ title: Stofna skilgreiningar rafrænnar skýrslugerðar í RCS og hlaða þeim u
 description: Þetta efnisatriði útskýrir hvernig á að stofna rafræna skýrslugerð (ER) í Microsoft Regulatory Configuration Services (RCS) og hlaða henni upp í altæku geymsluna.
 author: JaneA07
 manager: AnnBe
-ms.date: 05/05/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 0e194a8b777f984412d81e315f92ab4bb8a3b0c9
-ms.sourcegitcommit: 204cec8ca2a6c4474d21dbcd408e369131a47856
+ms.openlocfilehash: 5b2b8f35b9931f8fd1824c20e9045da68af33ad5
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3371251"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834234"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>Stofna skilgreiningar rafrænnar skýrslugerðar í Regulatory Configuration Services (RCS) og hlaða þeim upp í altæka geymslu
 
@@ -54,7 +54,7 @@ Ef RCS-umhverfi hefur þegar verið útvegað fyrir þitt fyrirtæki, notaðu sl
 5. Sláið inn heiti og lýsingu og veljið svo **Stofna skilgreiningu** til að búa til nýja afleidda útgáfu.
 6. Velja skal nýlega afleidda skilgreiningu, bæta við lýsingu á útgáfunni og velja síðan **Í lagi**. Stöðu skilgreiningarinnar er breytt í **Lokið**.
 
-![Nýjar skilgreiningarútgáfur í RCS](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_CompleteConfig.JPG)
+![Nýjar skilgreiningarútgáfur í RCS](media/RCS_CompleteConfig.JPG)
 
 > [!NOTE]
 > Þegar stöðu skilgreiningarinnar er breytt gæti notandi fengið villuboð við villuleit sem tengjast tengdu forritunum. Til að slökkva á villuleit, á aðgerðasvæði á flipanum **Skilgreiningar**, skal velja **Færibreytur notanda** og stilla síðan **Sleppa villuprófun við stöðubreytingu skilgreiningarinnar og endurreikning grunns** valkostinn á **Já** 
@@ -66,7 +66,7 @@ Til að deila nýrri eða afleiddri skilgreiningu með fyrirtækinu er hægt að
 1. Velja skal lokna útgáfu af skilgreiningunni og síðan velja **Hlaða upp í gagnageymslu**.
 2. Veldu **Altækt (Microsoft)** valkostinn og veldu síðan **Hlaða upp**.
 
-    ![Valkostir fyrir upphleðslu í gagnageymslu](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_Upload_to_GlobalRepo_options.JPG)
+    ![Valkostir fyrir upphleðslu í gagnageymslu](media/RCS_Upload_to_GlobalRepo_options.JPG)
 
 3. Í staðfestingarglugganum velurðu **Já**. 
 4. Uppfæra skal lýsinguna á útgáfunni þar sem þess er krafist og velja **Í lagi**. 
@@ -74,6 +74,27 @@ Til að deila nýrri eða afleiddri skilgreiningu með fyrirtækinu er hægt að
 Staða skilgreiningarinnar er uppfærð í **Deila** og grunnstillingunni er hlaðið upp í altæku geymsluna. Þaðan er hægt að vinna með hana á eftirfarandi hátt:
 
 - Flytja hana inn í Dynamics 365-tilvik. Frekari upplýsingar er að finna í [(Rafræn skýrslugerð) Flytja inn skilgreiningar úr RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md).
-- Deilið með þriðja aðila eða ytra fyrirtæki, sjá [Grunnstillingar RCS-samnýttrar rafrænnar skýrslugerðar (ER) með ytri fyrirtækjum](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/rcs-global-share-configuration.md)
+- Deilið með þriðja aðila eða ytra fyrirtæki, sjá [Grunnstillingar RCS-samnýttrar rafrænnar skýrslugerðar (ER) með ytri fyrirtækjum](rcs-global-repo-share-configuration.md)
 
-![Afleidd skilgreiningarútgáfa af Intrastat Contoso í altæku geymslunni](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_Config_upload_GlobalRepo.JPG)
+    ![Afleidd skilgreiningarútgáfa af Intrastat Contoso í altæku geymslunni](media/RCS_Config_upload_GlobalRepo.JPG)
+
+## <a name="delete-a-configuration-from-the-global-repository"></a>Eyða skilgreiningu úr altæku geymslunni
+Ljúkið eftirfarandi skrefum til að eyða skilgreiningu sem fyrirtækið hefur búið til.
+
+1. Á vinnusvæðinu **Rafræn skýrslugerð** skal ganga úr skugga um að skilgreiningarveitan sé **Virk**. Nánari upplýsingar er að finna í [Stofna skilgreiningarveitendur og merkja þá sem virka](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Á virkri skilgreiningarveitu skal velja **geymslu**.
+3. Velja skal geymslugerðina **Altæk** og velja **Opna**.
+4. Í flýtiflipanum **Sía** skal finna skilgreininguna sem á að eyða með því að nota virknina **Sía**.
+5. Í flýtiflipanum **Útgáfa** skal velja útgáfu skilgreiningarinnar sem á að eyða og síðan velja **Eyða**:
+
+    ![Eyða skilgreiningu úr altækri geymslu](media/RCS_Delete_from_GlobalRepo.JPG)
+
+6. Í staðfestingarglugganum velurðu **Já**.
+
+    ![Eyða staðfestingarboðum um útgáfu skilgreiningar](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
+ 
+Skilgreiningarútgáfunni er eytt og staðfestingarboð eru sýnd. 
+
+> [!NOTE]
+> Aðeins er hægt að eyða skilgreiningum af skilgreiningarveitunni sem stofnaði þær. Ef skilgreiningunni hefur verið deilt með öðru fyrirtæki verður að stöðva samnýtingu hennar áður en henni er eytt.
+ 

@@ -1,14 +1,14 @@
 ---
 title: Afurðarvíddir
 description: Það eru fimm afurðarvíddir - litur, skilgreining, stærð, stíll og útgáfa. Afurðavíddir eru sameinaðar í víddaflokka og víddaflokkum er úthlutað á afurðarsniðmát. Samsetning afurðavídda ræður til um það hvernig afurðarafbrigði eru skilgreind.
-author: cvocph
+author: t-benebo
 manager: tfehr
-ms.date: 08/03/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle
+ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -16,15 +16,15 @@ ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: conradv
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 72b8cd8149ab7b2074eb815231be348db62e282e
-ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
+ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3657317"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895450"
 ---
 # <a name="product-dimensions"></a>Afurðarvíddir
 
@@ -107,7 +107,7 @@ Sem stöðluð afurðarvídd, mun útgáfa hegða sér á svipaðan hátt og nú
     - PCVariantConfiguration::findByProductMasterAndDimensions
 
 1. **Varpanir:** Ef einhverjar varpanir nota birgðavíddirnar, þarf að uppfæra samsvarandi tengslavarpanir til þess að þær innihaldi útgáfuvíddina. Í stækkaða líkaninu eða töfluviðbótinni skal leita að töflum þar sem reitirnir innihalda birgðavíddir.
-1. **Microsoft Dynamics 365 Commerce virkni:** Þegar kveikt er á henni mun útgáfuvíddin birtast í gegnum Commerce-kóðann í Dynamics 365 Supply Chain Management. Hins vegar er útgáfuvíddin ekki enn studd af gagnagrunnsrás Commerce eða í forritum sölustaðar (POS). Þessi hegðun líkist núverandi hegðun skilgreiningarvíddarinnar í gegnum Commerce.
+1. **Microsoft Dynamics 365 Commerce virkni:** Þegar kveikt er á henni mun útgáfuvíddin birtast í gegnum Commerce-kóðann í Dynamics 365 Supply Chain Management. Hins vegar er útgáfuvíddin ekki enn studd af gagnagrunnsrás Commerce eða í forritum sölustaðar (POS) eða forritum fyrir rafræn viðskipti. Þessir viðskiptasértæku forrit styðja ekki notendur við að selja/afhenda eða skila/taka á móti birgðum eftir útgáfuvídd. Uppflettingar á birgðum fyrir birgðaframboð munu ekki birta birgðir eftir útgáfuvíddum í Commerce forritum. Þessi hegðun líkist núverandi hegðun skilgreiningarvíddarinnar í gegnum Commerce.
 
 #### <a name="turn-on-the-version-dimension"></a>Kveikja á útgáfuvíddinni
 
