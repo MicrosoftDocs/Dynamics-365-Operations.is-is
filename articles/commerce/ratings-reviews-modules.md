@@ -3,7 +3,7 @@ title: Einkunna- og umsagnaeiningar
 description: Þetta efni fjallar um mat og yfirferð einingar sem notaðar eru á upplýsingasíðum afurða í Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 02/17/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: ee2a2a781537b592fb5f80ce424a7331c4e21d41
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: 85fb1272103eed7d6e44635b7c20438471d96b34
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071869"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817731"
 ---
 # <a name="ratings-and-reviews-modules"></a>Einkunna- og umsagnaeiningar
 
@@ -87,7 +87,7 @@ Einingin yfir afurðaumsagnalista inniheldur hólf þar sem þú getur bætt vi�
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit byrjendaeiningar](starter-kit-overview.md)
+[Yfirlit einingasafns](starter-kit-overview.md)
 
 [Hólfeining](add-container-module.md)
 
@@ -95,7 +95,7 @@ Einingin yfir afurðaumsagnalista inniheldur hólf þar sem þú getur bætt vi�
 
 [Greiðsluferliseining](add-checkout-module.md)
 
-[Pöntunarstaðfestingareining](order-confirmation-module.md)
+[Eining pöntunarstaðfestingar](order-confirmation-module.md)
 
 [Fyrirsagnareining](author-header-module.md)
 

@@ -3,7 +3,7 @@ title: Brauðmylsnueining
 description: Þetta efnisatriði fjallar um brauðmylsnueiningar og útskýrir hvernig á að bæta þeim við svæðissíður í Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 38efc3a60ae0ba49db2036dc84c49e4896727d94
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 7c6f215c3a7539cc16b0d72594702e6bdde7c58e
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621061"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817111"
 ---
 # <a name="breadcrumb-module"></a>Brauðmylsnueining
 
@@ -37,6 +37,9 @@ Brauðmylsnueiningar eru notaðar til að bjóða upp á aukaleiðsögn á vefs�
 
 Á síðum sem eru með samhengi afurðategunda, t.d. upplýsingasíður afurða og flokkasíður, sýna brauðmylsnueiningar tegundastigveldið. Á síðum sem eru ekki með flokkasamhengi, sýna brauðmylsnueiningar sjálfgefið **&lt;Rót svæðis&gt; / &lt;Núverandi síða&gt;**. Einnig er hægt að skilgreina brauðmylsnueiningar handvirkt á öðrum gerðum svæðissíðna til að sýna tengla á ákveðnar síður á svæðinu.
 
+> [!NOTE]
+> Brauðmylsnueiningin er tiltæk í Dynamics 365 Commerce útgáfu 10.0.12.
+
 Eftirfarandi mynd sýnir dæmi um brauðmylsnueiningu sem sýnir tegundastigveldi á upplýsingasíðu afurðar.
 
 ![Dæmi um brauðmylsnueiningu](./media/ecommerce-breadcrumb.PNG)
@@ -48,6 +51,9 @@ Brauðmylsnueiningin er háð stillingunni **Birtingargerð brauðmylsnu á uppl
 - **Sýna tegundastigveldi** – Þegar þetta gildi er valið sýnir brauðmylsnueiningin allt tegundastigveldi afurðarinnar sem er sýnt á upplýsingasíðu afurðar.
 - **Sýna aftur í niðurstöður** - Þegar þetta gildi er valið mun brauðmylsnueiningin sýna „Aftur í niðurstöður“ tengil á upplýsingasíðu afurðar ef notandinn opnaði upplýsingasíðu afurðar úr einingunni sem leyfir tengil fyrir „Aftur í niðurstöður“. Þessi virkni er í boði þegar notendur fara úr flokka-, leitar-, lista- og tillögulistasíðum. Til að styðja þessa virkni eru einingar vörusafns og leitarniðurstaðna með eiginleika sem heitir **Leyfa aftur í niðurstöður á upplýsingasíðu afurðar**. Þessi eiginleiki gefur sveigjanleika til að skilgreina hvaða einingar eigi að styðja virknina fyrir tengil „Aftur í niðurstöður“ á upplýsingasíðu afurðar. Til dæmis þegar **Sýna aftur í niðurstöður** er valið fyrir stillinguna **Birtingargerð brauðmylsna á upplýsingasíðu afurðar** á brauðmylsnueiningunni og **Leyfa aftur í niðurstöður á upplýsingasíðu afurðar** er valið fyrir einingu leitarniðurstaðna leitarsíðu, er tengill fyrir „Aftur í niðurstöður“ sýndur þegar notendur fara frá leitarsíðunni til upplýsingasíðu afurðar.
 - **Sýna tegundastigveldi og aftur í niðurstöður** – Þetta gildi er samsetning fyrri tveggja. Þegar þetta gildi er valið sýnir brauðmylsnueiningin bæði allt tegundastigveldið og tengilinn „Aftur í niðurstöður“ (ef hann er skilgreindur) á upplýsingasíðu afurðar.
+
+> [!IMPORTANT]
+> Þessar stillingar eru í boði í Dynamics 365 Commerce útgáfu 10.0.12. Ef verið er að uppfæra úr eldri útgáfu af Dynamics 365 Commerce verður að uppfæra appsettings.json-skrána handvirkt. Leiðbeiningar um uppfærslu appsettings.json skrárinnar er að finna í [Uppfærslur á SDK og einingasafni](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="breadcrumb-module-properties"></a>Eiginleikar brauðmylsnueiningar
 
@@ -76,10 +82,12 @@ Til að bæta brauðmylsnueiningu við upplýsingasíðu afurðar og stilla nau�
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit byrjendaeiningar](starter-kit-overview.md)
+[Yfirlit einingasafns](starter-kit-overview.md)
 
 [Yfirlit sjálfgefinnar lendingarsíðu flokks og leitarniðurstöðusíðu](category-search-page-overview.md)
 
 [Afurðasafnseiningar](product-collection-module-overview.md)
 
 [Kaupgluggaeining](add-buy-box.md)
+
+[Uppfærslur á SDK og kjarnasafni](e-commerce-extensibility/sdk-updates.md)

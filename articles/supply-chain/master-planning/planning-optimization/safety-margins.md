@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 05ac817081689f27cdf55cb86a3235d7707a737b
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 8ab5f1c3cdfa990a73951ddc5a7469644954d5c2
+ms.sourcegitcommit: 646a0e7c8b8a7f2d00a50eddfa65500d0f8afbaf
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803422"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "3814901"
 ---
 # <a name="safety-margins"></a>Öryggismörk
 
@@ -162,13 +162,13 @@ Eftirfarandi reglur eru notaðar til að ákvarða hvort áætlunarvélin geti n
 
 #### <a name="calendar-setup-overview-matrix"></a>Yfirlit uppsetningar dagatals - fylki
 
-Eftirfarandi mynd sýnir fylki sem tekur saman hvaða dagatöl eiga við þegar öryggismörk eru reiknuð. Eftirfarandi skammstafanir og litir eru notaðir til að gefa til kynna hvar hver gerð dagatals er tilgreind:
+Eftirfarandi mynd sýnir fylki sem tekur saman hvaða dagatöl eiga við þegar öryggismörk eru reiknuð. (Veldu myndina til að opna hana í hágæðum.) Eftirfarandi skammstafanir og litir eru notaðir til að gefa til kynna hvar hver gerð dagatals er tilgreind:
 
 - **Þekjuflokkur (ÞF):** Grænn
 - **Vöruhús (VH):** Gulur
 - **Lánardrottinn (L):** Blár
 
-![Yfirlit uppsetningar dagatals - fylki](media/safety-margins-calendar-matrix.png)
+[![Yfirlit uppsetningar dagatals - fylki](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
 
 ## <a name="calculating-delays"></a>Reiknar seinkun
 

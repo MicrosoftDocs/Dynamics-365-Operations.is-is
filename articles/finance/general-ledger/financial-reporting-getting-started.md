@@ -3,7 +3,7 @@ title: Yfirlitssíða fjárhagsskýrslugerðar
 description: Þetta efnisatriði lýsir hvar á að opna fjárhagslegar skýrslugerð í Microsoft Dynamics 365 Finance og hvernig á að nota getu fjárhagsskýrslugerðar.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/14/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
-ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
+ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "3696689"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835111"
 ---
 # <a name="get-started-with-financial-reporting"></a>Hafist handa með Financial Reporting 
 
@@ -148,9 +148,7 @@ Vandamál 1: Skýrsluhönnun hefst ekki þegar valið er **Nýtt** eða **Breyta
 * Í Internet Explorer, veljið **Stillingar**, síðan skal velja **Internetvalkostir**. Velja skal flipann **Öryggi**. Veljið Traust vefsvæði og veljið síðan **Vefsvæði**. Í **Bæta þessu vefsvæði við svæði**, skal færa inn „\*\.dynamics.com“ (án gæsalappa) og síðan velja **Bæta við**. 
 * Í Internet Explorer, veljið **Stillingar**, síðan skal velja **Internetvalkostir**. Velja skal flipann **Öryggi**. Veljið Traust vefsvæði. Á svæðinu sem merkt er Öryggisstig fyrir þetta svæði skal breyta valkostinum í **Miðlungs-lágt**.
 * Slökkvið á sprettigluggavörninni í vafranum.
-* Vinnutölvur eru nauðsynlegar til að setja upp Visual Studio .NET 4.6.2 eða nýrra.
-
-Hægt er að sækja og setja upp þessa útgáfu af Microsoft .NET Framework úr [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=53345).
+* Vinnutölvur eru nauðsynlegar til að setja upp Microsoft .NET Framework 4.6.2 eða nýrri. Hægt er að sækja og setja upp þessa útgáfu af Microsoft .NET Framework úr [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=53345).
 * Ef verið er að nota Chrom vafrann, verður að setja upp ClickOnce-viðauka til að sækja biðlara Skýrsluhönnunar. Ef verið er að nota huliðsstillingu, ganga úr skugga um að ClickOnce viðbótin sé einnig virk fyrir huliðsstillingu. Ef ekki er hægt að skrá sig inn með Chrome skal reyna að fylgja uppsetningarskrefunum sem lýst er í Vandamáli 1 með því að nota Internet Explorer eða Edge. 
 
 Vandamál 2: Notanda hefur ekki verið úthlutað nauðsynlegum heimildum til að nota Financial Reporting. 

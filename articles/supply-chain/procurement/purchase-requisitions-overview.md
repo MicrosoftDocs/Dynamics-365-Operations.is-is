@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3b365bf99fcb5c97a1afe1675ddcf34a0db8f07
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e09c4ebd3ee978076ac4f1d0b71041e7c1e954be
+ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207857"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826901"
 ---
 # <a name="purchase-requisition-overview"></a>Yfirlit yfir „Innkaupabeiðni“
 
@@ -157,7 +157,7 @@ Til að nota beiðnir með tilganginn áfyllingu verður að setja röðun upp �
 Hægt er að setja innkaupabeiðni í bið með því að velja gátreitinn **í bið** á síðunni **upplýsingar um innkaupabeiðni**. Vinnsla innkaupabeiðninnar getur aðeins haldið áfram eftir að taka þær úr bið með því að hreinsa gátreitinn.  
 
 > [!NOTE]
-> í eProcurement, gæti beiðni um TILBOÐ fyrir innkaupabeiðni leyft lánardrottnum að bæta við aðrar línur. Í því tilfelli munu samþykktir varakostir endurspeglast í innkaupabeiðninni.
+> í e-Procurement, gæti beiðni um tilboð fyrir innkaupabeiðni leyft lánardrottnum að bæta við öðrum línum. Í því tilfelli munu samþykktir varakostir endurspeglast í innkaupabeiðninni.
 
 ## <a name="demand-consolidation"></a>Samlegð eftirspurnar
 Með sameiningu innkaupabeiðnilína úr mörgum innkaupabeiðnum, er hægt að treysta samningsstöðu sína við lánardrottna ykkar til að ná betri verðlagningu, lægri sendingar- og afgreiðslukostnaði og minni rekstrarkostnað.  

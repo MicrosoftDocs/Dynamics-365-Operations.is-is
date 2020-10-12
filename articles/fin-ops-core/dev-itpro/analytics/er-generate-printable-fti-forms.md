@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4412fb08c8548c8ebe8455db0547618578e5e5b4
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771284"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893364"
 ---
 # <a name="generate-printable-fti-forms"></a>Búa til eyðublöð fyrir reikninga með frjálsum texta sem hægt er að prenta
 
@@ -111,7 +111,7 @@ Til að búa til eyðublöð reikninga með frjálsum texta er hægt að velja r
 Rammi rafrænnar skýrslugerðar styður nú eftirfarandi viðtökustaði fyrir mynduð skjöl:
 
 - **Sótt skrá** - Mynduð eyðublöð eru í boði sem niðurhal sem hægt er að vista með því að nota vafrann.
-- **Skjár** - Microsoft Office 365 Excel er notað til að forskoða mynduð eyðublöð reikninga með frjálsum texta á Excel-sniði.
+- **Skjár** - Microsoft 365 Excel er notað til að forskoða mynduð eyðublöð reikninga með frjálsum texta á Excel-sniði.
 - **SharePoint mappa** - Mynduð eyðublöð eru geymd á grundvelli stillinga á ramma skjalastjórnar.
 - **Safnvistun umsóknar** - Mynduð skjöl eru geymd sem viðhengi skráa fyrir aðgerðarskráningu í Microsoft Azure geymslu.
 - **Tölvupóstur** - Mynduð eyðublöð eru send sem tölvupóstviðhengi.

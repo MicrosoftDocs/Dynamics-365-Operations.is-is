@@ -3,7 +3,7 @@ title: Kaupkassaeining
 description: Þetta efni fjallar um kaupakassaeiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6556ee8acf1e24a9f6ceddb622960cb3ac891852
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: e07bf02f10c943947fdf9ed3333373b859ff5b6c
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761298"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817086"
 ---
 # <a name="buy-box-module"></a>Kaupkassaeining
 
@@ -75,9 +75,12 @@ Hægt er að skilgreina eftirfarandi stillingar fyrir kaupgluggaeiningar á **St
 - **Birgðir** - Frekari upplýsingar um hvernig á að nota birgðastillingar er að finna í [Nota birgðastillingar](inventory-settings.md).
 - **Bæta í körfu** - Þessi eiginleiki er notaður til að sýna hegðun eftir að vöru hefur verið bætt í körfuna. Mögulegu gildin eru **Fara í körfu**, **Ekki fara í körfu** og **Sýna tilkynningar**. Þegar gildið er stillt á **Fara í körfu** er notendum vísað á körfusíðuna eftir að hafa bætt við vöru. Þegar gildið er stillt á **Ekki fara í körfu** er notendum ekki vísað á körfusíðuna eftir að hafa bætt við vöru. Þegar gildið er stillt á **Sýna tilkynningar** fá notendur staðfestingu og geta haldið áfram að vafra á upplýsingasíðu afurðar. 
 
-    Eftirfarandi mynd sýnir dæmi um „bætt í körfu“ tilkynningu á Fabrikam-svæðinu.
+> [!IMPORTANT]
+> Síðustillingin **Bæta við körfu** eru í boði í Dynamics 365 Commerce útgáfu 10.0.11. Ef verið er að uppfæra úr eldri útgáfu af Dynamics 365 Commerce verður að uppfæra appsettings.json-skrána handvirkt. Leiðbeiningar um uppfærslu appsettings.json skrárinnar er að finna í [Uppfærslur á SDK og einingasafni](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
 
-    ![Dæmi um tilkynningareining](./media/ecommerce-addtocart-notifications.PNG)
+Eftirfarandi mynd sýnir dæmi um „bætt í körfu“ tilkynningu á Fabrikam-svæðinu.
+
+![Dæmi um tilkynningareining](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Samskipti við Commerce Scale Unit
 
@@ -111,7 +114,7 @@ Fylgdu þessum skrefum til að bæta kaupkassaeiningu við nýja síðu og still
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit byrjendaeiningar](starter-kit-overview.md)
+[Yfirlit einingasafns](starter-kit-overview.md)
 
 [Eining til að velja verslun](store-selector.md)
 
@@ -132,3 +135,5 @@ Fylgdu þessum skrefum til að bæta kaupkassaeiningu við nýja síðu og still
 [Samfélagsmiðlaeining](social-share-module.md)
 
 [Reikna tiltækar birgðir fyrir smásölurásir](calculated-inventory-retail-channels.md)
+
+[Uppfærslur á SDK og kjarnasafni](e-commerce-extensibility/sdk-updates.md)

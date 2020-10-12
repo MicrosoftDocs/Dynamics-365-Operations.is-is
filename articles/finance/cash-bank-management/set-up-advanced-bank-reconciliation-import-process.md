@@ -1,7 +1,7 @@
 ---
 title: Setja upp ítarlegan innflutning bankaafstemmingarferlis
 description: Ítarleg bankaafstemming aðgerð gerir það mögulegt að flytja inn rafrænt bankayfirlit og afstemma þau sjálfkrafa við bankafærslu í Microsoft Dynamics 365 Finance. Þessi skrá útskýrir hvernig á að setja upp mikilvægar aðgerðir fyrir innflutning fyrir bankayfirlitið.
-author: ShylaThompson
+author: panolte
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
 ms.search.region: Global
-ms.author: saraschi
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d9a2f6efad6b8ddf3a445fe7831244e161c35d5
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: 45f997a91701e3fc63278cdba3479dec9dc7a467
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578196"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899667"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Setja upp ítarlegan innflutning bankaafstemmingarferlis
 
@@ -36,7 +36,7 @@ Uppsetning fyrir innflutning bankayfirlits er breytileg, eftir snið rafrænnar 
 ## <a name="set-time-zone-preference"></a>Stilltu kjörstillingar tímabelta
 Þegar þú stillir innflutningsstillingar bankayfirlitsins getur verið mikilvægt að hafa í huga tímabelti dagsetningartímabilsins innan bankayfirlitsskrár sem fluttar verða inn. Sjálfgefið er að gera ráð fyrir hvaða dag- og tímagildi séu þegar í samhæfðum alheimstíma (UTC) og því verður ekki breytt neinu tímabelti þegar þú flytur gögnin inn. 
 
-Það er möguleiki í boði til að tilgreina tímabelti sem á að nota til að flytja inn gögn. Þessi valkostur er tiltækur í reitnum **Val tímabeltis** á hverri síðu **Upplýsingar um upprunagögn** (flýtiflipinn **Vinnusvæði gagnastjórnunar > Stilla gagnaveitur > Veldu gagnasnið > Svæðisstillingar**). Þessi tímabeltisval sem þú slærð inn á við um allan innflutning sem notar það upprunagagnasnið. Þú getur búið til eins mörg snið gagnaheimilda og þarf til að flytja inn gögn frá mörgum tímabeltum.  
+Það er möguleiki í boði til að tilgreina tímabelti sem á að nota til að flytja inn gögn. Þessi valkostur er tiltækur á reitnum **Kjörstillingar tímabelta** á hverri **Upplýsingar um snið upprunagagna** (**Gagnastjórnunarvinnusvæði > Skilgreina gagnagjafa > Velja gagnasnið > Svæðisbundnar stillingar** flýtiflipi). Þessi tímabeltisval sem þú slærð inn á við um allan innflutning sem notar það upprunagagnasnið. Þú getur búið til eins mörg snið gagnaheimilda og þarf til að flytja inn gögn frá mörgum tímabeltum.  
 
 Þetta tímabelti er ef til vill ekki það sama og tímabelti notanda eða fyrirtækis, svo vertu viss um að skýra hvaða tímabelti dagsetning og tímagögn eru að nota. Við mælum með að þú lítir á eftirfarandi atriði þegar þú stillir tímabeltisval. 
 

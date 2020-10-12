@@ -3,7 +3,7 @@ title: Setja upp sérsniðnar síður fyrir innskráningu notenda
 description: Þetta efni lýsir því hvernig á að smíða sérsniðnar síður í Microsoft Dynamics 365 Commerce sem sjá um sérsniðnar innskráningar fyrir notendur Azure Active Directory (Azure AD) leigjendur fyrirtækja til neytenda (B2C).
 author: brianshook
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e9e78a4d6dc4189c927d9ef321f1eb5a6c120ee2
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 0b54bf6234dcb87c84b21259c30ca5c321869adf
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533460"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817307"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Setja upp sérsniðnar síður fyrir innskráningu notenda
 
@@ -181,17 +181,17 @@ Til að uppfæra regluna „Aðgangsorð endurstillt“ með sérsniðnum síðu
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>Sérsníða sjálfgefna textastrengi fyrir merki og lýsingar
 
-Í byrjendaeiningunni eru innskráningarliðir áfylltir með sjálfgefnum textastrengjum fyrir merkimiðana og lýsinguna. Þú getur sérsniðið þessa strengi í hugbúnaðarþróunarbúnaðinum (SDK) með því að uppfæra gildin í global.json skránni fyrir innskráningarhlutann.
+Í einingasafninu eru innskráningareiningar forfylltar með sjálfgefnum textastrengjum fyrir merki og lýsingu. Þú getur sérsniðið þessa strengi í hugbúnaðarþróunarbúnaðinum (SDK) með því að uppfæra gildin í global.json skránni fyrir innskráningarhlutann.
 
 Til dæmis er sjálfgefinn texti fyrir tengilinn sem gleymdist lykilorð **Gleymt lykilorð?**. Eftirfarandi sýnir þennan sjálfgefna texta á innskráningarsíðunni.
 
 ![Sjálfgefinn texti fyrir tengilinn við gleymt lykilorð á innskráningarsíðunni](./media/B2C_SignUp_ModuleFace.png)
 
-Hins vegar geturðu breytt textanum í global.json skrána fyrir byrjunarbúnaðarinnskráningareininguna **Gleymt lykilorð?** eins og sýnt er á eftirfarandi mynd.
+Í global.json skrá fyrir innskráningareiningu einingasafnsins er hægt að breyta textanum í **Manstu ekki aðgangsorðið?** eins og sýnt er á eftirfarandi teikningu.
 
 ![Uppfærður tenglatexti í global.json skránni í einingunni](./media/B2C_CustomizingStringsForModule.png)
 
-Eftir að þú hefur uppfært global.json skrána og birt breytingarnar, birtist nýr tenglatexti í innskráningarhlutanum bæði í viðskiptum og á lifandi innskráningarsíðu.
+Þegar búið er að uppfæra global.json-skrá og birta breytingarnar birtist nýr tengill í innskráningareiningunni í bæði verslun og á innskráningarsíðunni.
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 

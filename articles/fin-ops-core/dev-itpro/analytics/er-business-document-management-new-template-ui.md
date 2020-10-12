@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4acde9703c721ab7c20d1603299a10dda91b23c4
-ms.sourcegitcommit: b8f8ccab2cd9d848e5ecd71caaf0a63237e2236b
+ms.openlocfilehash: 015b595f85397fc1cf2c0368814ddc0369176f82
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "2957064"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893196"
 ---
 # <a name="new-document-user-interface-in-business-document-management"></a>Nýtt notendaviðmót skjala í viðskiptaskjalastjórnun
 
 [!include [banner](../includes/banner.md)]
 
-Stjórnun viðskiptaskjala er gerir fyrirtækjanotendum kleift að breyta sniðmátum viðskiptaskjala með því að nota Microsoft Office 365 þjónustu eða viðeigandi Microsoft Office skjáborðsforrit. Breytingar gætu innihaldið hönnunarbreytingar eða nýjar dreifingar, eða notendur gætu bætt við frátökutákni til að innihalda viðbótargögn án þess að þurfa að breyta kóðanum. Nánari upplýsingar um hvernig á að vinna með skjalastjórnun viðskipta, sjá [Yfirlit yfir stjórnun viðskiptaskjala](er-business-document-management.md).
+Business Document Management leyfir notendum að breyta sniðmátum viðskiptaskjala með Microsoft 365-þjónustu eða viðeigandi Microsoft Office skjáborðsforriti. Breytingar gætu innihaldið hönnunarbreytingar eða nýjar dreifingar, eða notendur gætu bætt við frátökutákni til að innihalda viðbótargögn án þess að þurfa að breyta kóðanum. Nánari upplýsingar um hvernig á að vinna með skjalastjórnun viðskipta, sjá [Yfirlit yfir stjórnun viðskiptaskjala](er-business-document-management.md).
 
 Nýja notendaviðmót skjalanna (UI) er skýrara og þægilegra í notkun. Svæðið **Viðskiptaskjal** sýnir aðeins sniðmát sem eru í boði fyrir núverandi þjónustuaðila.
 

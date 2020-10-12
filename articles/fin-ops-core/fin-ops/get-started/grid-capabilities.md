@@ -3,7 +3,7 @@ title: Hnitanetsgeta
 description: Þetta efni lýsir nokkrum kröftugum eiginleikum netstýringar. Það verður að gera nýja hnitanetsaðgerðina kleift að hafa aðgang að þessum möguleikum.
 author: jasongre
 manager: AnnBe
-ms.date: 08/31/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
-ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
+ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760400"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835087"
 ---
 # <a name="grid-capabilities"></a>Hnitanetsgeta
 
@@ -33,6 +33,7 @@ Nýja netstýringin veitir fjölda gagnlegra og öflugra getu sem hægt er að n
 -  Vélritun á undan kerfinu
 -  Mat á stærðfræðisegðum 
 -  Flokkun töflugagna (virkjuð sérstaklega með flokkun **(forútgáfa) í hnitanetum** eiginleika)
+-  Festir kerfisdálkar
 
 ## <a name="calculating-totals"></a>Reiknar samtölur
 Í forritum Finance and Operations geta notendur séð heildartölur neðst í töludálkum í hnitanetum. Þessar samtölur eru sýndar í síðufótarhluta neðst á töflunni. 
@@ -119,12 +120,19 @@ Fyrsta flokkun gagna verður með alla hópa útvíkkaða. Hægt er að búa til
 ### <a name="hiding-column-names"></a>Fela dálkaheiti
 Við flokkun gagna er sjálfgefið að hegðun sýni dálkheiti í hauslínu hóps. Ef byrjað er á útgáfu 10.0.14/verkvangsuppfærsla 38 er hægt að fela dálkheitið í hauslínu hóps með því að velja **Valkostir hnitanets** > **Fela dálkheiti hóps**.
 
+## <a name="pinned-system-columns"></a>Festir kerfisdálkar
+Dálkur línuvals og dálkur línustöðu í nýja hnitanetinu eru festir eða frystir lengst til vinstri í hnitanetinu. Þess vegna, þegar þessir dálkar eru teknir með í hnitaneti, verða þeir alltaf sýnilegir notandanum, óháð láréttri flettistöðu í hnitanetinu.   
+
 ## <a name="frequently-asked-questions"></a>Algengar spurningar
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Hvernig virkja ég nýja netstýringu í umhverfi mínu? 
 
-**10.0.9 / uppfærsla verkvangs 33 og nýrri** Eiginleikinn **Ný netstýring** er fáanlegur beint í eiginleikastjórnun í hvaða umhverfi sem er. Eins og aðrir opnir forskoðunareiginleikar, þá er það kleift að virkja þennan eiginleika í framleiðslu [Viðbótarskilmálar um notkunarskilmála](https://go.microsoft.com/fwlink/?linkid=2105274).  
+**10.0.9 / Verkvangsuppfærsla 33 og nýrri**
 
-**10.0.8 / uppfærsla verkvangs 32 og 10.0.7 / uppfærsla verkvangs 31** Eiginleikinn **Ný netstýring** er hægt að virkja í umhverfi 1. lagi (þróun/prófun) og 2. lagi (sandkassi) til að veita frekari prófunar- og hönnunarbreytingar með því að fylgja skrefunum hér að neðan.
+Eiginleikinn **Ný hnitanetsstýring** er í boði í eiginleikastjórnun í hvaða umhverfi sem er. Eins og aðrir opnir forskoðunareiginleikar, þá er það kleift að virkja þennan eiginleika í framleiðslu [Viðbótarskilmálar um notkunarskilmála](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8 / Verkvangsuppfærsla 32 og 10.0.7 / Verkvangsuppfærsla 31**
+
+Hægt er að virkja eiginleikann **Ný hnitanetsstýring** í lagi 1 (þróun/prófun) og lagi 2 (sandkassa)umhverfum til að geta veitt frekari prófun og hönnunarbreytingar með því að fylgja skrefunum hér á eftir.
 
 1.  **Virkja flugið**: Framkvæma eftirfarandi SQL staðhæfingu: 
 
@@ -139,11 +147,14 @@ Við flokkun gagna er sjálfgefið að hegðun sýni dálkheiti í hauslínu hó
 Allar síðari notendatímabil munu byrja með virkjaða nýja netstýringu.
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Þróunaraðili] Afskrá einstaka síður frá því að nota nýja hnitanetið 
-Ef fyrirtækið uppgötvar síðu sem á í vandræðum með að nota nýja hnitanetið, er API tiltækt til að leyfa einstökum skjámyndum að nota eldri netstýringu og leyfa á sama tíma öðrum hlutum kerfisins að nota nýju netstýringuna. Til að afskrá einstaka síður frá því að nota nýja hnitanetið, skal bæta við eftirfarandi kallskilaboðum `super()` í `run()` aðferð skjámyndar.
+Ef fyrirtækið uppgötvar síðu sem á í vandræðum með að nota nýja hnitanetið, er API tiltækt frá og með útgáfu 10.0.13/verkvangsuppfærslu 37 til að leyfa einstökum skjámyndum að nota eldri hnitanetstýringu og leyfa á sama tíma öðrum hlutum kerfisins að nota nýju hnitanetstýringuna. Til að afskrá einstaka síður frá því að nota nýja hnitanetið, skal bæta við eftirfarandi kallskilaboðum `super()` í `run()` aðferð skjámyndarinnar.
 
  ```this.forceLegacyGrid();```
 
-Þetta API verður notað fram að útgáfu í október 2021 þegar nýja hnitanetstýringin verður áskilin. Tilkynnið öll vandamál til Microsoft sem krefjast þess að þetta API sé notað. 
+Þetta API verður notað fram að útgáfu í október 2021 þegar nýja hnitanetstýringin verður áskilin. Ef einhver vandamál krefjast þess að þetta API sé notað skal tilkynna um þau til Microsoft.
+
+## <a name="developer-size-to-available-width-columns"></a>[Þróunaraðili] Stækka breidd dálka eins og hægt er
+Ef þróunaraðili stillir eiginleikann **WidthMode** á **SizeToAvailable** fyrir dálka innan nýja hnitanetsins, fá þessir dálkar upphaflega sömu breidd og þeir myndu fá ef eiginleikinn væri stilltur á **SizeToContent**. Hins vegar teygist á þeim þannig að þeir noti þá breidd sem í boði er innan hnitanetsins. Ef eiginleikinn er stilltur á **SizeToAvailable** fyrir marga dálka, deila allir þessir dálkar á milli sín aukalegri breidd sem er í boði innan hnitanetsins. Hins vegar, ef notandi breytir stærð einhverra þessara dálka, verður sá dálkur fastur. Hann heldur þeirri breidd og breikkar ekki lengur til að fylla upp í tiltæka breidd hnitanetsins.  
 
 ## <a name="known-issues"></a>Þekkt vandamál
 Þessi hluti heldur lista yfir þekkt vandamál fyrir nýja hnitanetstýringuna á meðan eiginleikinn er í forútgáfu.  

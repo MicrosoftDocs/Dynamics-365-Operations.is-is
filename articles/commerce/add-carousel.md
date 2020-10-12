@@ -3,7 +3,7 @@ title: Myndaræmueining
 description: Þetta efni fjallar um myndaræmueiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 10ff0cd566a1a8d89ccadce9571dafc5a592520b
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: f09f3f98d174f965a75e27ee6a5c2ed8599042fc
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3620987"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3816987"
 ---
 # <a name="carousel-module"></a>Myndaræmueining
 
@@ -77,12 +77,12 @@ Fylgdu þessum skrefum til að bæta myndaræmueiningu við nýja síðu og stil
 
 ## <a name="additional-resources"></a>Frekari upplýsingar
 
-[Yfirlit byrjendaeiningar](starter-kit-overview.md)
+[Yfirlit einingasafns](starter-kit-overview.md)
 
 [Tilboðsborðaeining](add-alert.md)
 
 [Textabálkseining](add-content-rich-block.md)
 
-[Innihaldsbálkseining](add-hero-module.md)
+[Eining fyrir bálk með efni](add-hero-module.md)
 
 [Myndspilaraeining](add-video-player.md)

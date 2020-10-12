@@ -3,7 +3,7 @@ title: Sérstilla yfirlit svæðis
 description: Þetta efnisatriði lýsir því hvernig á að búa til sérsniðið yfirlitsstigveldi á netinu til að skipuleggja vörur þínar til að vafra á Microsoft Dynamics 365 Commerce síðunni.
 author: bicyclingfool
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ae7696dcb5cdd99cd46b89ed1de1b03c16146e2d
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: c2b6a7a3b35873e80be391c627d0397fd6398a99
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269660"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817231"
 ---
 # <a name="customize-site-navigation"></a>Sérstilla yfirlit svæðis
 
@@ -81,7 +81,7 @@ Fylgdu þessum skrefum til að gera yfirlitsstigveldið aðgengilegt fyrir netve
 Til að sýna flokkunarveldi í netverslun þinni verður þú að bæta við yfirlitseiningunni á viðeigandi stað í sniðmáti eða broti. Eining yfirlitsvalmyndar mun síðan sýna yfirlitsstigveldi, að því tilskildu að þú hafir birt yfirlitsstigveldi þitt á rásinni sem vefsvæðið er bundið við.
 
 > [!NOTE]
-> Eining yfirlitsvalmyndar sem er innifalin í byrjendaeiningu verslunarinnar gerir notendum kleift að vafra aðeins til flokka sem hafa ekki undirflokka. Ef viðskiptavinir þínir ættu að geta farið í flokka sem eru með undirflokka verður þú að sérsníða valmyndareininguna.
+> Valmyndareiningin sem fylgir með í einingarsafninu gerir notendum aðeins kleift að skoða flokka sem eru ekki með undirflokka. Ef viðskiptavinir þínir ættu að geta farið í flokka sem eru með undirflokka verður þú að sérsníða valmyndareininguna.
 
 ## <a name="add-custom-navigation-options"></a>Bæta við sérsniðnum yfirlitsvalkostum
 

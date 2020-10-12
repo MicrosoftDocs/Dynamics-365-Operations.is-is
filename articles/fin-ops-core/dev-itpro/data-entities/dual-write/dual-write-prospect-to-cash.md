@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: a2ca0ce277a062c8d525b6a3619eaf1b0114667b
-ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
+ms.openlocfilehash: 6fe42f43277448dc5918597ed8bb1b68f2266b6a
+ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "3719265"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3829213"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Viðfang til sjóðstreymis í tvískiptingu
 
@@ -99,29 +99,7 @@ Ef þú samstillir úr Supply Chain Management í sölu færðu eftirfarandi ni�
 
 ## <a name="dual-write-solution-for-sales"></a>Tvöfaldur skrifa lausn fyrir sölu
 
-Nýjum reitum hefur verið bætt við eininguna **Pöntun** og birtist á síðunni. Flestir þessir reitir birtast á flipanum **Samþætting** í Sales. Það eru nokkrir sérreitir:
-
-+ reiturinn **Vinnslustaða** sýnir vinnslustöðu pöntunar í Supply Chain Management. Þessi reitur er læstur og sýnir aðeins stöðu pöntunarinnar úr Supply Chain Management. Eftirtalin gildi eru tiltæk:
-
-    + **Virk** - Staða eftir að pöntun er virkjuð í Sales með því að nota hnappinn **Virkja**.
-    + **Staðfest**
-    + **Afhent**
-    + **Reikningsfært**
-    + **Afhent að hluta**
-    + **Reikningsfært að hluta**
-    + **Tekið til**
-    + **Hætt við**
-
-    Eftirfarandi tafla sýnir hvernig vinnslustöðu er varpað í gildið **CRM stöðukóði**.
-
-    | Vinnslustaða           | CRM-stöðukóði    |
-    |-----------------------------|--------------------|
-    | Í gangi                      | Nýtt/í bið/í haldi |
-    | Staðfest/valinn            | Í vinnslu        |
-    | Afhent að hluta         | Hluta-            |
-    | Afhent                   | Tilbúið           |
-    | Reikninsfært/Reikningsfært að hluta | Reikningsfært           |
-    | Hætt við                    | Engir peningar           |
+Nýjum reitum hefur verið bætt við eininguna **Pöntun** og birtist á síðunni. Flestir þessir reitir birtast á flipanum **Samþætting** í Sales. Frekari upplýsingar um hvernig stöðureitum er varpað er að finna í efnisatriðinu [Setja upp vörpun fyrir stöðureiti sölupantana](https://review.docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/sales-status-map?branch=robin-dw-status-map)
 
 + Hnapparnir **Stofna reikning** og **Hætta við pöntun** á síðunni **Sölupöntun** eru faldir í Sales.
 + Gildið **Staða sölupöntunar** verður áfram **Virk** til að tryggja að gjöld úr Supply Chain Management geti flætt í sölupöntun í Sales. Til að stjórna þessu er sjálfgefið **Statecode \[Status\]** stillt á **Virkt**.

@@ -17,17 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07d121d5a68970dd29f0e77babda735de12871ca
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: d9a15f85838849796d6ce4674712636251c75bf3
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761130"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818276"
 ---
 # <a name="cart-module"></a>Körfueining
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Þetta efni fjallar um körfueiningar og lýsir því hvernig á að bæta þeim við vefsíður hjá Microsoft Dynamics 365 Commerce.
 
@@ -41,11 +40,11 @@ Körfueiningin styður innskráð greiðsluferli og greiðslu sem gestur. Hún s
 
 Eftirfarandi mynd sýnir dæmi um körfusíðu á Fabrikam-svæðinu.
 
-![Dæmi um körfueiningu](./media/cart2.PNG)
+![Dæmi um körfueiningu á Fabrikam-síðu](./media/cart2.PNG)
 
 Eftirfarandi mynd sýnir dæmi um körfusíðu á Fabrikam-svæðinu. Í þessu dæmi er afgreiðslugjald fyrir línuatriði.
 
-![Dæmi um körfueiningu](./media/ecommerce-handling-fee.png)
+![Dæmi um körfueiningu með umsýslugjaldi fyrir línuatriði](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Eiginleikar og hólf körfueininga
 

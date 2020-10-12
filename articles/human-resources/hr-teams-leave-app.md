@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0fbf44fe35af3147fd5fb478b6cbfc5a5d0b109d
-ms.sourcegitcommit: 5b620f670ac0f403a0fdcdeb9c3f970b163191ee
+ms.openlocfilehash: c7b74983cbddf661456b0a65939e272078d59f6d
+ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3766761"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3828945"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Stjórna leyfisbeiðnum í Teams
 
 [!include [banner](includes/preview-feature.md)]
 
-Microsoft Dynamics 365 Human Resources -forritið í Microsoft Teams gerir þér kleift að biðja um frí og skoða upplýsingar um stöðu frítíma í Microsoft Teams. Hægt er að hafa samband við þjarka til að óska eftir upplýsingum. Finna má ítarlegri upplýsingar á flipanum **Frí**.
+Microsoft Dynamics 365 Human Resources -forritið í Microsoft Teams gerir þér kleift að biðja um frí og skoða upplýsingar um stöðu frítíma í Microsoft Teams. Hægt er að eiga samskipti við þjarka til að óska eftir upplýsingum og byrja leyfisbeiðni. Finna má ítarlegri upplýsingar á flipanum **Frí**. Að auki er hægt að senda fólki upplýsingar um væntanlegan frítíma í hópum og spjalli utan Human Resources.
 
 ## <a name="install-the-app"></a>Setja upp forritið
 
@@ -56,8 +56,8 @@ Ef forritið skráir þig ekki sjálfkrafa inn skaltu velja flipann **Stillingar
 
 Ef þú hefur aðgang að fleiri en einu tilviki af Human Resources er hægt að velja hvaða umhverfi á að tengja við á flipanum **Stillingar**.
 
-> [!WARNING]
-> Forritið styður ekki öryggishlutverk kerfisstjóra og sýnir villuboð ef þú skráir þig inn með kerfisstjórareikningi. Þegar skrá á inn með öðrum reikningi skal, á flipanum **Stillingar**, velja hnappinn **Skipta um reikning** og skrá inn með notandareikningi sem er ekki með kerfisstjóraréttindi.
+> [!NOTE]
+> Forritið styður nú öryggishlutverk kerfisstjóra.
  
 ## <a name="use-the-bot"></a>Nota þjarkann
 
@@ -130,13 +130,33 @@ Flipinn **Frí** býður upp á skoðun:
 
    ![Breyta drögum í Human Resources Teams-forriti fyrir leyfi](./media/hr-teams-leave-app-drafts-edit.png)
    
-### <a name="teams-notifications"></a>Teams-tilkynningar
+### <a name="respond-to-teams-notifications"></a>Bregðast við tilkynningum Teams
 
 Þegar þú eða starfskraftur sem þú ert samþykktaraðili fyrir sendir beiðni um leyfi fyrir færðu senda tilkynningu í Human Resources forritinu í Teams. Hægt er að velja tilkynninguna til að skoða hana. Tilkynningar birtast einnig á svæðinu **Spjall**.
 
 Ef notandi er samþykkjandi er hægt að velja **Samþykkja** eða **Neita** í tilkynningunni. Einnig er hægt að búa til valfrjáls skilaboð.
 
 ![Senda beiðni um tilkynningar í forritinu Human Resources Teams](./media/hr-teams-leave-app-notification.png)
+
+## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Senda upplýsingar um væntanlegt frí til samstarfsfólks
+
+Eftir að Human Resources er sett upp fyrir Teams er auðveldlega hægt að senda upplýsingar um væntanlegt frí til samstarfsfólks í hópum og spjalli.
+
+1. Í hópi eða spjalli í Teams skal velja hnapp Human Resources fyrir neðan spjallgluggann.
+
+   ![Hnappur Human Resources fyrir neðan spjallglugga](./media/hr-teams-leave-app-chat-button.png)
+
+2. Veljið leyfisbeiðnina sem á að deila. Ef óskað er eftir að deila drögum að leyfisbeiðni skal byrja á því að velja **Drög**.
+
+   ![Velja beiðni um væntanlegt frí til að deila](./media/hr-teams-leave-app-chat-search.png)
+
+Leyfisbeiðnin mun birtast í spjallinu.
+
+![Leyfisbeiðnispjald Human Resources](./media/hr-teams-leave-app-chat-card.png)
+
+Ef drög að beiðni var deilt mun þau birtast sem drög:
+
+![Drög að leyfisbeiðnispjaldi Human Resources](./media/hr-teams-leave-app-chat-draft-card.png)
 
 ## <a name="view-your-teams-leave-calendar"></a>Skoða frídagatal teymisins
 
@@ -164,9 +184,15 @@ Innihald fyrirspurna og skilaboða notanda er vistað í LUIS-kerfi í að háma
 
 Til að stjórna stjórnandastillingum fyrir forrit í Microsoft Teams er farið í [Microsoft Teams stjórnendamiðstöð](https://admin.teams.microsoft.com/).
 
-### <a name="microsoft-azure-event-grid-and-microsoft-teams"></a>Microsoft Azure -Tilvikhnitanet og Microsoft Teams
+### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>Microsoft Teams, hnitanet Azure-tilviks og Azure Cosmos DB
 
-Þegar tilkynningaeiginleiki er notaður fyrir Dynamics 365 Human Resources-forritið í Teams flæð tiltekin gögn um viðskiptavini út fyrir landsvæðið þar sem biðlari Human Resources þjónustunnar ern notaður. Dynamics 365 Human Resources sendir upplýsingar um leyfisbeiðni og verkflæðisverk til Microsoft Azure tilviks hnitanets og Microsoft Teams. Þessi gögn kunna að vera geymd í allt að sólarhring og unnin í Bandaríkjunum, þau er dulkóðuð í flutningi og í hvíld, og eru ekki notuð af Microsoft eða meðhöndlunaraðilum fyrir þjálfun eða þjónustuúrbætur.
+Þegar Dynamics 365 Human Resources-forritið er notað í Microsoft Teams geta tiltekin gögn um viðskiptavini flætt út fyrir landsvæðið þar sem biðlari Human Resources þjónustunnar er notaður.
+
+Dynamics 365 Human Resources sendir upplýsingar um leyfisbeiðni og verkflæðisverk til Microsoft Azure tilviks hnitanets og Microsoft Teams. Þessi gögn má geyma í Microsoft Azure Event Grid í allt að sólarhring og verða unnin í Bandaríkjunum, þau er dulkóðuð í flutningi og í hvíld, og eru ekki notuð af Microsoft eða meðhöndlunaraðilum fyrir þjálfun eða þjónustuúrbætur. Til að skilja hvar gögnin þín eru geymd í Teams skaltu skoða: [Staðsetning gagna í Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+
+Í samskiptum við spjallarann í forriti Human Resources, er hægt að geyma innihald samtalsins í Azure Cosmos DB og flytja það yfir í Microsoft Teams. Þessi gögn má geyma í Azure Cosmos DB í allt að sólarhring og kunna að vera meðhöndluð utan staðsetningarinnar þar sem Human Resources-þjónusta leigjandans er uppsett, þau er dulkóðuð í flutningi og í hvíld, og eru ekki notuð af Microsoft eða meðhöndlunaraðilum fyrir þjálfun eða þjónustuúrbætur. Til að skilja hvar gögnin þín eru geymd í Teams skaltu skoða: [Staðsetning gagna í Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+ 
+Til að takmarka aðgang að Human Resources í Microsoft Teams fyrir fyrirtækið þitt eða notendur innan fyrirtækisins skal skoða [Stjórna reglum um forritsheimildir í Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
 ## <a name="see-also"></a>Sjá einnig
 

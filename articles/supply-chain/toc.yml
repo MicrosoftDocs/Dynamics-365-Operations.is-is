@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Stofna og vinna með sérstillt svæði
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Fella inn Microsoft Power Apps
+                - name: Innfelld vinnuforrit frá Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Leita að upplýsingum með uppflettingum
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -1655,6 +1655,8 @@
               href: procurement/procurement-sourcing-overview.md
             - name: Verkflæði innkaupa og aðfanga
               href: procurement/procurement-sourcing-workflows.md
+            - name: Villuleita verkflæði innkaupa og aðfanga
+              href: procurement/troubleshoot-procurementworkflows.md
             - name: Innkaupavörulistar
               items:
                 - name: Yfirlit innkaupavörulista
@@ -1695,6 +1697,8 @@
                   href: procurement/purchase-order-mobile-workspace.md
                 - name: Skrá vörumóttöku í innkaupapöntun
                   href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                - name: Villuleita innkaupapantanir
+                  href: procurement/troubleshoot-purchaseorders.md
             - name: Stofnun innkaupapöntunar
               items:
                 - name: Innkaupapantanir búnar til handvirkt
@@ -1725,6 +1729,8 @@
                   href: procurement/tasks/create-purchase-agreement.md
                 - name: Eftirágreiddur afsláttur lánardrottins
                   href: procurement/vendor-rebates.md
+                - name: 'Villuleita verð, afslætti, samninga og eftirágreiddan afslátt'
+                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: Innkaupareglur
               items:
                 - name: Yfirlit yfir innkaupareglur
@@ -1739,6 +1745,8 @@
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: Yfirlit yfir lánardrottnareikninga
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Villuleita innhreyfingarskjöl og reikningsfærslur
+                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: Stjórnun og samstarf lánardrottna
               items:
                 - name: Uppsetning og viðhald samstarfs lánardrottna
@@ -1763,9 +1771,11 @@
                   href: procurement/vendor-collaboration-work-customers-dynamics-365-operations.md
                 - name: Flytja inn vörulista lánardrottins
                   href: procurement/vendor-catalogs-import.md
-                - name: Setja upp ytri vörulista fyrir PunchOut eProcurement
+                - name: Setja upp ytri vörulista fyrir PunchOut e-procurement
                   href: procurement/set-up-external-catalog-for-punchout.md
-                - name: Nota ytri vörulista fyrir PunchOut eProcurement
+                - name: Viðbætur cXML-innkaupa
+                  href: procurement/purchasing-cxml-enhancements.md
+                - name: Nota ytri vörulista fyrir PunchOut e-procurement
                   href: procurement/use-external-catalogs-for-punchout.md
                 - name: Fartækjavinnusvæði samstarfs lánardrottna
                   href: procurement/vendor-collaboration-mobile-workspace.md
@@ -2261,6 +2271,8 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: Staðfesta sölupantanir
                   href: sales-marketing/tasks/confirm-sales-orders.md
+                - name: Villuleita sölupantanir
+                  href: sales-marketing/troubleshooting-sales.md
             - name: Sölusamningar
               items:
                 - name: Yfirlit sölusamninga
@@ -2283,6 +2295,8 @@
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Stofna og breyta sölutilboðum
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+                - name: Villuleita sölutilboð
+                  href: sales-marketing/troubleshooting-salesquotation.md
             - name: Skil
               items:
                 - name: Söluvöruskil
@@ -2807,18 +2821,20 @@
                   items:
                     - name: Setja upp og tengja vöruhúsaforrit
                       href: warehousing/install-configure-warehousing-app.md
+                    - name: Skanna strikamerki með myndavél í vöruhúsaforriti
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Skilgreining svæðaheita í vöruhúsaforriti
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Uppsetning fartækja fyrir vöruhúsavinnu
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Skanna strikamerki með myndavél í vöruhúsaforriti
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Móttaka númeraplötu með vöruhúsaforriti
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Setja upp valmyndaratriði fartækis fyrir frágang verks í innkaupapöntun
                       href: warehousing/tasks/set-up-mobile-device-menu.md
                     - name: Setja upp valmyndaratriði fartækis til að skrá mótteknar vörur
                       href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Setja upp valmyndaratriði fartækis til að birta yfirlit yfir val á línu
+                      href: warehousing/pick-line-overview.md
                     - name: Stofna valmyndaratriði fartækis fyrir samstæðu númeraplatna
                       href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
                     - name: Móttaka blandaðrar númeraplötu í fartæki

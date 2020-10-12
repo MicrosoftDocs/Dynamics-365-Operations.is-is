@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 430a012fbc198b90df0c0bf4084705037c95f7be
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210158"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3887241"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Gantt-rit fyrir vinnsluröðun
 
@@ -38,7 +38,7 @@ Gantt-línurit er myndræn framsetning á áætluðum verkþáttum innan tilgrei
 -   Vinnslur úr áætluðum framleiðslupöntunum.
 -   Verkþættir með áætlaðri vinnslu af gerðinni Tímaspár.
 
-Hægt er að opna Gantt-línuritið á tveimur skjám **Pantanayfirlit** og **Forðayfirlit**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). Í **Pantanayfirlit** er virkni flokkuð undir framleiðslupöntunum. Þetta getur verið gagnlegt, til dæmis, ef óskað er að viðhalda yfirsýn yfir allar vinnslur sem tilheyra sömu pöntunum. Í **Yfirlit tilfanga** eru allar vinnslur flokkaðar í stök tilföng. Þetta yfirlit getur verið gagnlegt við hámörkun áætlunar á stigi framleiðslutilfanga, t.d. á vél eða flokki véla. Gantt-línuritin á skýringamyndunum fyrir neðan sýna **Yfirlit pantana** og **Yfirlit tilfanga** með þessum aðalþáttum:
+Hægt er að opna Gantt-línuritið á tveimur skjám **Pantanayfirlit** og **Forðayfirlit**. Í **Pantanayfirlit** er virkni flokkuð undir framleiðslupöntunum. Þetta getur verið gagnlegt, til dæmis, ef óskað er að viðhalda yfirsýn yfir allar vinnslur sem tilheyra sömu pöntunum. Í **Yfirlit tilfanga** eru allar vinnslur flokkaðar í stök tilföng. Þetta yfirlit getur verið gagnlegt við hámörkun áætlunar á stigi framleiðslutilfanga, t.d. á vél eða flokki véla. Gantt-línuritin á skýringamyndunum fyrir neðan sýna **Yfirlit pantana** og **Yfirlit tilfanga** með þessum aðalþáttum:
 
 1.  Verkþáttur Gantt-línurits
 2.  Efnisskortur tákn

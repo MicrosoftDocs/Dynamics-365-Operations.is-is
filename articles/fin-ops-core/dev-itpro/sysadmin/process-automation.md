@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: 320e18f7fc61300ed2966afef530907fc9fc5ca5
-ms.sourcegitcommit: e2a47d31175bbd60acfd7a23ffea70c669358572
+ms.openlocfilehash: afbef26cb7b37bafb34f12cc20a88fb4aea9f343
+ms.sourcegitcommit: ad5b7676fc1213316e478afcffbfaee7d813f3bb
 ms.translationtype: HT
 ms.contentlocale: is-IS
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "3690047"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3885252"
 ---
 # <a name="process-automation"></a>Sjálfvirkni ferlis
 
@@ -35,13 +35,16 @@ Síða stjórnunarmiðstöðvar fyrir alla sjálfvirkni ferla finnst kerfisstjó
 
 Öll ferli sem eru óvirk í eiginleikastjórnun birtast ekki þegar eiginleikinn er óvirkur. Þar að auki mun röðunarvél fyrir sjálfvirkni ferlis ekki tímasetja nein tilvik eða bakgrunnsvinnslur fyrir óvirkan eiginleika. Með því að virkja eiginleikann aftur verða öll tímasett tilvik eða bakgrunnsvinnslur í fortíðinni keyrð strax.
 
-## <a name="calendar-view"></a>Dagbókaryfirlit 
+## <a name="calendar-view"></a>Dagbókaryfirlit
+
 Einn af helstu kostum þess að gera feril sjálfvirkan er möguleikinn á því að sjá áætlaða vinnu í einföldu dagatalsyfirliti.  Þetta yfirlit gerir þér kleift að sjá vinnu eina viku í senn. Þú munt sjá þetta yfirlit hægra megin á síðunni **Sjálfvirkni ferlis**. Fyllt verður út í hana með áætlaðri vinnu fyrir valdar raðir. 
 
 [![Dagatal sjálfvirkni ferlis](./media/CalendarView2.png)](./media/CalendarView2.png)
 
 ## <a name="occurrence-changes"></a>Breytingar á tilviki
-Hægt er að breyta hverju tilviki fyrir sig án þess að hafa áhrif á önnur tilvik sem skilgreind er af röðinni þar sem tilvikin áttu uppruna sinn. Tilvik áætlaðrar vinnu er hægt að breyta í dagatalsyfirlitinu með því að velja hnappinn **Skoða/breyta** og velja **Tilvik**. Þetta veitir þér aðgang að öllum stillingum sem birtast upphaflega í leiðsagnarforriti fyrir uppsetningu raðar og býður upp á möguleikann á að gera einkvæma breytingu á völdu tilviki. Einnig er hægt að slökkva á tilviki áætlaðrar vinnu með því að velja hnappinn **Gera óvirkt** í dagatalsyfirlitinu. 
 
-## <a name="developer-documentation"></a>Fylgiskjöl forritunar 
-Verið er að skrifa fylgiskjöl þróunaraðila til að gera þróunaraðilum kleift að stækka rammann utan um sjálfvirkni ferlis. Í þessum fylgiskjölum verður að finna upplýsingar um hvernig hægt er að búa til sérsniðin ferli sem þarf að keyra með runuþjóninum sem áætlaður er með leiðsagnarforriti fyrir sjálfvirkni ferlis og birtist sjálfkrafa í dagatalsyfirlitinu.
+Hægt er að breyta hverju tilviki fyrir sig án þess að hafa áhrif á önnur tilvik sem skilgreind er af röðinni þar sem tilvikin áttu uppruna sinn. Tilvik áætlaðrar vinnu er hægt að breyta í dagatalsyfirlitinu með því að velja hnappinn **Skoða/breyta** og velja **Tilvik**. Þessi síða veitir þér aðgang að öllum stillingum sem birtast upphaflega í leiðsagnarforriti fyrir uppsetningu raðar og býður upp á möguleikann á að gera einkvæma breytingu á völdu tilviki. Einnig er hægt að slökkva á tilviki áætlaðrar vinnu með því að velja hnappinn **Gera óvirkt** í dagatalsyfirlitinu.
+
+## <a name="developer-documentation"></a>Fylgiskjöl forritunar
+
+Þróunarrammi ferlisins gerir þróunaraðilum kleift að víkka sjálfvirkni ferlisins. Í fylgiskjölum [Meðhöndla sjálfvirkniramma](../process-automation/process-automation-framework.md) verður að finna upplýsingar um hvernig hægt er að búa til sérsniðin ferli sem þarf að keyra með runuþjóninum sem áætlaður er með leiðsagnarforriti fyrir sjálfvirkni ferlis og birtist sjálfkrafa í dagatalsyfirlitinu.
