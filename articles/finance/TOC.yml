@@ -70,6 +70,8 @@
                   items:
                     - name: Nýjungar eða breytingar á heimasíðu Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.15 (janúar 2021)
+                      href: get-started/whats-new-changed-10-0-15.md
                     - name: 'Finance, 10.0.14 (nóvember 2020)'
                       href: get-started/whats-new-changed-10-0-14.md
                     - name: Finance 10.0.13 (október 2020)
@@ -194,6 +196,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/finance/toc.json
                 - name: Færa LCS-innleiðingarverk yfir á aðra Azure AD-leigjendur
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/finance/toc.json
+                - name: Færa LCS-innleiðingarverk úr innanhússumhverfi í ský
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/finance/toc.json
                 - name: Mörg LCS-verk og vinnsluumhverfi á einn Azure AD-leigjanda
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/finance/toc.json
         - name: Viðskiptaskuldir
@@ -226,7 +230,17 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: Setja upp villuleit fyrir reikningsjöfnun viðskiptaskulda
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
-            - name: Dreifing á fjárhagsupphæð og færslur í færslubók undirfjárhags fyrir reikninga lánardrottins
+            - name: Sjálfvirkni reiknings lánardrottins
+              items:
+                - name: Yfirlit yfir sjálfvirka vinnslu á reikningi lánardrottins
+                  href: accounts-payable/auto-vendr-invc-process.md
+                - name: Uppsetningarvalkostir fyrir sjálfvirkni reiknings lánardrottins
+                  href: accounts-payable/vnd-invoice-set-up-options.md
+                - name: Senda reikninga í verkflæðiskerfi og jafna línur á innhreyfingarskjali afurða
+                  href: accounts-payable/submit-invoice-workflow-automatically.md
+                - name: Skoða niðurstöður sjálfvirkni reiknings lánardrottins
+                  href: accounts-payable/view-automated-vendor-invoice.md
+            - name: Dreifing á fjárhagsupphæð og færslur í undirbók fyrir reikninga lánardrottins
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Reikningsjöfnun og samstæðuinnkaupapantanir
               href: accounts-payable/invoice-matching-intercompany-purchase-orders.md
@@ -258,7 +272,7 @@
               href: accounts-payable/mobile-invoice-approvals.md
             - name: Vinnusvæði fyrir reikningsfærslur fyrir samstarf lánardrottna
               href: accounts-payable/vendor-portal-invoicing-workspace.md
-            - name: Sjálfvirkni reikninga lánardrottins
+            - name: Sjálfvirkni reiknings fyrir skönnuð skjöl
               href: accounts-payable/vendor-invoice-automation.md
             - name: Stjórnun miðlarasamnings
               href: accounts-payable/broker-contract.md
@@ -450,6 +464,8 @@
               href: accounts-receivable/tasks/process-collection-letters.md
             - name: Setja upp og mynda aldursgreiningarupplýsingar fyrir viðskiptakröfur
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Aldursgreiningarskýrsla viðskiptavinar
+              href: accounts-receivable/customer-aging.md
             - name: Stofna afskriftabók fyrir viðskiptavin
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Umsjón með ítarlegum minnismiðum
@@ -792,6 +808,10 @@
                   href: fixed-assets/straight-line-life-remaining-depreciation.md
                 - name: Línuleg afskrift líftíma
                   href: fixed-assets/straight-line-service-life-depreciation.md
+        - name: Eignarleiga
+          items:
+            - name: Hafist handa við eignarleigu
+              href: asset-leasing/asset-leasing-quick-start.md
         - name: Fjárhagur
           items:
             - name: Fjárhagsyfirlit
@@ -1884,7 +1904,7 @@
                   items:
                     - name: Yfirlit yfir vöru- og þjónustuskatt fyrir Indland
                       href: localizations/apac-ind-gst.md
-                    - name: Nýjungar eða breytingar á staðfæringu vöru- og þjónustuskatts fyrir Indland í APAC
+                    - name: Nýjungar eða breytingar á staðfæringu vöru- og þjónustuskatts fyrir Indland
                       items:
                         - name: Nýjungar eða breytingar í 10.0.0
                           href: localizations/apac-ind-news-letter-10-0-00.md
@@ -1912,6 +1932,8 @@
                           href: localizations/apac-ind-news-letter-10-0-11.md
                         - name: Nýjungar eða breytingar í 10.0.12
                           href: localizations/apac-ind-news-letter-10-0-12.md
+                        - name: Nýjungar eða breytingar í 10.0.13
+                          href: localizations/ind-news-letter-10-0-13.md
                     - name: Viðmiðunarhópar vöru- og þjónustuskatts fyrir Indland
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: Samþætting vöru- og þjónustuskatts fyrir afgreiðslukassa
@@ -1934,7 +1956,7 @@
                           href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
                         - name: Búa til virðisaukaskattstímabil
                           href: localizations/apac-ind-GST-create-tax-settlement-period.md
-                        - name: Hengja GSTIN við skattskráningarhóp
+                        - name: Hengja GSTIN (vöru- og þjónustuskattur) við skattskráningarhóp
                           href: localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
                     - name: Skattauppsetning
                       items:
@@ -2022,6 +2044,8 @@
                           href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
                     - name: Birgðafærsla
                       items:
+                        - name: Flutningspantanir birgða
+                          href: localizations/apac-ind-stock-transfer.md
                         - name: Flutningspantanir birgða þar sem skattur er á flutningsverð
                           href: localizations/apac-ind-GST-stock-transfer-transactions.md
                     - name: Greiðslufærsla viðskiptavinar
@@ -2068,16 +2092,14 @@
                       href: general-ledger/tax-engine-applicability.md
                     - name: Stofna skatthluta
                       href: localizations/tax-engine-create-tax-component.md
-                    - name: Samþætting skattkerfis
+                    - name: Samþætting skattakerfis
                       href: general-ledger/tax-engine-integration.md
-                    - name: Útvíkkun skattkerfisins
+                    - name: Útvíkkun skattakerfisins
                       href: general-ledger/extend-tax-engine-configurations.md
-                    - name: Úrræðaleit GTE
+                    - name: Úrræðaleit fyrir GTE
                       href: localizations/tax-engine-trouble-shooting.md
                 - name: Algengar spurningar um skattþrep
                   href: localizations/apac-ind-tax-thresholds.md
-                - name: Birgðaflutningar
-                  href: localizations/apac-ind-stock-transfer.md
             - name: Ítalía
               items:
                 - name: Yfirlit yfir Ítalíu
@@ -2692,7 +2714,7 @@
               items:
                 - name: Yfirlit yfir Singapúr
                   href: localizations/singapore.md
-                - name: Mynda GST-05 skýrslu
+                - name: Mynda GST-05 skýrslu (vöru- og þjónustuskattur)
                   href: localizations/apac-sgp-generate-gst-05-report.md
             - name: Spánn
               items:

@@ -68,14 +68,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Nýjungar eða breytingar í Supply Chain Management
                   items:
-                    - name: Nýjungar eða breytingar á upphafssíðu fyrir Supply Chain Management
+                    - name: Nýjungar eða breytingar á heimasíðu Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.15 (desember 2020)
+                      href: get-started/whats-new-scm-10-0-15.md
                     - name: Supply Chain Management 10.0.14 (nóvember 2020)
                       href: get-started/whats-new-scm-10-0-14.md
                     - name: Supply Chain Management 10.0.13 (október 2020)
                       href: get-started/whats-new-scm-10-0-13.md
-                    - name: Supply Chain Management 10.0.12 (ágúst 2020)
-                      href: get-started/whats-new-scm-10-0-12.md
                 - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir
                   items:
                     - name: Eiginleikar sem hafa verið fjarlægðir eða eru úreltir í Dynamics 365 Supply Chain Management
@@ -194,6 +194,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Færa LCS-innleiðingarverk yfir á aðra Azure AD-leigjendur
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Færa LCS-innleiðingarverk úr innanhússumhverfi í ský
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Mörg LCS-verk og vinnsluumhverfi á einn Azure AD-leigjanda
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/supply-chain/toc.json
         - name: Staðfæring
@@ -202,6 +204,10 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
             - name: Regluuppfærslur
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Indland
+              items:
+                - name: Flutningspantanir birgða
+                  href: ../finance/localizations/apac-ind-stock-transfer.md
             - name: Rússland
               items:
                 - name: Yfirlit yfir Rússland
@@ -1407,6 +1413,8 @@
                   href: master-planning/supply-chain-calendars-master-planning.md
                 - name: Bæta frammistöðu aðaláætlunargerðar
                   href: master-planning/master-planning-performance.md
+                - name: Bæta frammistöðu röðunarvélar
+                  href: master-planning/scheduling-engine-performance.md
                 - name: Aðaláætlanir og virkni á mörgum svæðum
                   items:
                     - name: Yfirlit yfir aðaláætlanir og virkni á mörgum svæðum
@@ -1937,11 +1945,13 @@
                       href: pim/tasks/add-calculation-product-configuration-model.md
                     - name: Vinna með uppskrift fyrir afbrigðalíkan afurðar
                       href: pim/tasks/maintain-bom-product-configuration-model.md
-                    - name: Vinna með leið fyrir vörulíkan
+                    - name: Vinna með leið fyrir afurðarlíkan
                       href: pim/tasks/maintain-route-product-model.md
+                    - name: Söluverð sem byggð eru á eigindum fyrir afurðarafbrigði sem byggð eru á skorðum
+                      href: pim/attribute-based-product-configurator.md
                     - name: Samþykkja afbrigðalíkan afurða
                       href: pim/tasks/approve-product-configuration-model.md
-                    - name: Flytja gögn fyrir vörulíkan
+                    - name: Flytja gögn fyrir afurðarlíkön
                       href: pim/tasks/transfer-data-product-models.md
         - name: Framleiðslustýring
           items:
@@ -2035,7 +2045,9 @@
                       href: production-control/config-job-card-device.md
                     - name: Bóka sem tilbúið af verkspjaldi fyrir tæki
                       href: production-control/report-finished-job-device.md
-                    - name: Bakfærsla á stöðu framleiðslupöntunar
+                    - name: Veita starfsfólki í framleiðslu leiðarvísa með blönduðum veruleika
+                      href: production-control/instruction-guides-in-production-overview.md
+                    - name: Bakfæra stöðu framleiðslupöntunar
                       href: production-control/reverse-production-order-status.md
                     - name: Innsýn í efnisundantekningar
                       href: production-control/improved-visibility-into-material-exceptions.md
@@ -2649,6 +2661,10 @@
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: Virkja prentun merkis á númeraplötu
                       href: warehousing/tasks/license-plate-label-printing.md
+                    - name: Stofna flutningspantanir úr vöruhúsaforriti
+                      href: warehousing/create-transfer-order-from-warehouse-app.md
+                    - name: Vinnsla viðburða í vöruhúsaforriti
+                      href: warehousing/warehouse-app-events.md
                     - name: Staðfesting einingatiltektar
                       href: warehousing/piece-picking-confirmation.md
                     - name: Umbúðaefni og gjöld
@@ -2845,6 +2861,8 @@
                       href: warehousing/pick-oldest-batch.md
                     - name: Vinna úr leiðbeiningaramma
                       href: warehousing/process-guide-framework.md
+                    - name: Úrræðaleit vegna vandamála með tengingu í vöruhúsaforriti
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Uppfærsla og flutningur
                   items:
                     - name: Uppfæra vöruhúsakerfisferli úr Microsoft Dynamics AX 2012 í Finance and Operations
